@@ -1,0 +1,132 @@
+;--- ___
+;; >a_1
+>       >a      FW      A;1st     <pos>>a/ABBREV</pos>
+A       >a      FW      A;1st     <pos>>a/ABBREV</pos>
+;; <i_1
+<       <i      FW      I     <pos><i/ABBREV</pos>
+;; bi_1
+b       bi      FW      with;by     <pos>bi/PREP</pos>
+b       b       FW      B;2nd;P     <pos>b/ABBREV</pos>
+;; j_1
+j       j       FW      J;3rd;(pounds/lira);(answer);(republic);(gram)     <pos>j/ABBREV</pos>
+;; d_1
+d       d       FW      D;4th;Dr.;(minute);(dinar);(dirham)     <pos>d/ABBREV</pos>
+;; h_1
+h       h       FW      H;(Hijrah);5th     <pos>h/ABBREV</pos>
+;; wa_1
+w       wa      FW      and       <pos>wa/CONJ</pos>
+w       w       FW      W;6th     <pos>w/ABBREV</pos>
+;; z_1
+z       z       FW      Z;7th     <pos>z/ABBREV</pos>
+;; H_1
+H       H       FW      H;8th     <pos>H/ABBREV</pos>
+;; T_1
+T       T       FW      T;9th     <pos>T/ABBREV</pos>
+;; y_1
+y       y       FW      Y;10th     <pos>y/ABBREV</pos>
+Y       y       FW      Y;10th     <pos>y/ABBREV</pos>
+;; ka_1
+k       ka      FW      as;like     <pos>ka/PREP</pos>
+k       k       FW      K;11th;(kilo-)     <pos>k/ABBREV</pos>
+;; li_1
+l       li      FW      for;to     <pos>li/PREP</pos>
+l       l       FW      L;12th;(pounds/lira)     <pos>l/ABBREV</pos>
+;; m_1
+m       m       FW      (A.D.);M;13th;meter     <pos>m/ABBREV</pos>
+;; n_1
+n       n       FW      N;14th     <pos>n/ABBREV</pos>
+;; s_1
+s       s       FW      S;15th;(question);(hour)     <pos>s/ABBREV</pos>
+;; E_1
+E       E       FW      ('ayn);16th;(Arab)     <pos>E/ABBREV</pos>
+;; fa_1
+f       fa      FW      and;so     <pos>fa/CONJ</pos>
+f       f       FW      F;17th;(fils)     <pos>f/ABBREV</pos>
+;; S_1
+S       S       FW      S;18th     <pos>S/ABBREV</pos>
+;; q_1
+q       q       FW      Q;Qatari;19th;(before);(piaster)     <pos>q/ABBREV</pos>
+;; r_1
+r       r       FW      R;20th;(Reuters);(rial)     <pos>r/ABBREV</pos>
+r       r       FW      (numeric comma)     <pos>r/NUMERIC_COMMA</pos>
+;; $_1
+$       $       FW      SH;21st;(street)     <pos>$/ABBREV</pos>
+;; t_1
+t       t       FW      T;(date);(time/timing);(died);22nd     <pos>t/ABBREV</pos>
+;; v_1
+v       v       FW      TH;23rd     <pos>v/ABBREV</pos>
+;; x_1
+x       x       FW      KH;24th     <pos>x/ABBREV</pos>
+;; *_1
+*       *       FW      DH;25th     <pos>*/ABBREV</pos>
+;; D_1
+D       D       FW      D;26th     <pos>D/ABBREV</pos>
+;; Z_1
+Z       Z       FW      ZH;27th     <pos>Z/ABBREV</pos>
+;; g_1
+g       g       FW      GH;28th;(Greenwich);(piaster);(gram)     <pos>g/ABBREV</pos>
+;; >af_1
+>f      >af     FW      A.F.     <pos>Af/ABBREV</pos>
+Af      >af     FW      A.F.     <pos>Af/ABBREV</pos>
+; "Al<f by >y"
+;; <if_1
+<f      <if     N0      F.     <pos><if/ABBREV</pos>
+Af      <if     N0      F.     <pos><if/ABBREV</pos>
+;; >ar_1
+>r      >ar     FW      R.     <pos>>ar/ABBREV</pos>
+Ar      >ar     FW      R.     <pos>>ar/ABBREV</pos>
+;; <il_2
+<l      <il     FW      L.     <pos><il/ABBREV</pos>
+;; <im_1
+<m      <im     FW      M.     <pos><im/ABBREV</pos>
+Am      <im     FW      M.     <pos><im/ABBREV</pos>
+;; <in_2
+<n      <in     FW      N.     <pos><in/ABBREV</pos>
+An      <in     FW      N.     <pos><in/ABBREV</pos>
+; sub-standard orthography
+>n      <in     FW      N.     <pos><in/ABBREV</pos>
+;; <is_1
+<s      <is     FW      S.     <pos><is/ABBREV</pos>
+|s      <is     FW      S.     <pos><is/ABBREV</pos>
+As      <is     FW      S.     <pos><is/ABBREV</pos>
+;; <iy_1
+<y      <iy     FW      E.     <pos><iy/ABBREV</pos>
+;; >uw_1
+>w      >uw     FW      O.     <pos>>uw/ABBREV</pos>
+Aw      >uw     FW      O.     <pos>>uw/ABBREV</pos>
+;; >ay_1
+>y      >ay     FW      A.     <pos>>ay/ABBREV</pos>
+Ay      >ay     FW      A.     <pos>>ay/ABBREV</pos>
+>y      >ay     FW      I.     <pos>>ay/ABBREV</pos>
+Ay      >ay     FW      I.     <pos>>ay/ABBREV</pos>
+;; <iyh_1
+<yh     <iyh    FW      A.     <pos>>ay/ABBREV</pos>
+Ayh     <iyh    FW      A.     <pos>>ay/ABBREV</pos>
+;; At$_1
+At$     At$     FW      H.     <pos>At$/ABBREV</pos>
+>t$     At$     FW      H.     <pos>At$/ABBREV</pos>
+<t$     At$     FW      H.     <pos>At$/ABBREV</pos>
+;; dabiloyuw_1
+dblyw   dabiloyuw       N0      W.
+;
+;; |y_1
+|y      |y      FW      A.     <pos>|y/ABBREV</pos>
+|y      |y      FW      I.     <pos>|y/ABBREV</pos>
+;; biy_1
+by      biy     N0      B.     <pos>biy/ABBREV</pos>
+;; tg_1
+tg      tg      FW      G.M.T. <pos>tg/ABBREV</pos>
+;; tiy_1
+ty      tiy     FW      T.     <pos>tiy/ABBREV</pos>
+;; jiy_1
+jy      jiy     FW      G.     <pos>jiy/ABBREV</pos>
+jy      jiy     FW      J.     <pos>jiy/ABBREV</pos>
+;; diy_1
+dy      diy     FW      D.     <pos>diy/ABBREV</pos>
+dy      diy     FW      De     <pos>diy/NOUN_PROP</pos>
+;; siy_1
+sy      siy     N0      C.     <pos>siy/ABBREV</pos>
+;; fiy_2
+fy      fiy     FW      V.     <pos>Viy/ABBREV</pos>
+;; yuw_2
+yw      yuw     FW      U.     <pos>yuw/ABBREV</pos>

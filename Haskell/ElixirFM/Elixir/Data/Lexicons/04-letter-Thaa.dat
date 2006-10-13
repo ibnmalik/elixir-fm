@@ -1,0 +1,1276 @@
+;--- v
+;; vA'_1
+vA'     vA'     N0_Nh   va' (Arabic letter)
+vA&     vA&     Nh      va' (Arabic letter)
+vA}     vA}     Nhy     va' (Arabic letter)
+vA'     vA'     NAt     va's (Arabic letter)
+;
+;; va}ib-a_1
+v}b     va}ib   PV      yawn
+v>b     vo>ab   IV      yawn
+;; tavA'ab_1
+tvA'b   tavA'ab PV      yawn
+tvA'b   tavA'ab IV      yawn
+;; vu&abA'_1
+v&bA'   vu&abA' N0_Nh   yawning;fatigue
+v&bA&   vu&abA& Nh      yawning;fatigue
+v&bA}   vu&abA} Nhy     yawning;fatigue
+;
+;--- vAr
+;; va>ar-a_1
+v>r     va>ar   PV      avenge;take revenge
+v>r     vo>ar   IV      avenge;take revenge
+;; >avo>ar_1
+>v>r    >avo>ar PV      take revenge;be avenged
+Av>r    >avo>ar PV      take revenge;be avenged
+v}r     vo}ir   IV_yu   take revenge;be avenged
+;; {iv~a>ar_1
+<v>r    {iv~a>ar        PV      take revenge;be avenged
+Av>r    {iv~a>ar        PV      take revenge;be avenged
+v}r     v~a}ir  IV      take revenge;be avenged
+;; {isotavo>ar_1
+<stv>r  {isotavo>ar     PV      call for vengeance
+Astv>r  {isotavo>ar     PV      call for vengeance
+stv}r   sotavo}ir       IV      call for vengeance
+;; va>or_1
+v>r     va>or   N/At    revenge;retaliation
+>v|r    >avo|r  N       revenge;retaliations
+Av|r    >avo|r  N       revenge;retaliations
+; any corpus evidence?:
+; |vAr  |vAr    N       revenge;retaliations;reprisals
+;
+;--- vAl
+;; tava>olal_1
+tv>ll   tava>olal       PV_intr be covered with warts
+tv>ll   tava>olal       IV_intr be covered with warts
+;; vu&oluwl_1
+v&lwl   vu&oluwl        N/ap    wart
+v|lyl   va|liyl Ndip    warts
+;
+;--- vAy
+;; va>aY_1
+v>Y     va>aY   N0      scars
+v>A     va>A    Nh      scars
+;
+;--- vbt
+;; vabat-u_1
+vbt     vabat   PV-t_intr       be stable;be established
+vbt     vobut   IV_intr be stable;be established
+;; vabut-u_1
+vbt     vabut   PV-t_intr       be firm
+vbt     vobut   IV_intr be firm
+;; vab~at_1
+vbt     vab~at  PV-t    confirm;reinforce
+vbt     vab~it  IV_yu   confirm;reinforce
+;; >avobat_1
+>vbt    >avobat PV-t    ascertain;establish
+Avbt    >avobat PV-t    ascertain;establish
+vbt     vobit   IV_yu   ascertain;establish
+vbt     vobat   IV_Pass_yu      be ascertained;be established
+;; tavab~at_1
+tvbt    tavab~at        PV-t    ascertain;verify
+tvbt    tavab~at        IV      ascertain;verify
+;; {isotavobat_1
+<stvbt  {isotavobat     PV-t    verify;seek confirmation
+Astvbt  {isotavobat     PV-t    verify;seek confirmation
+stvbt   sotavobit       IV      verify;seek confirmation
+;; vabAt_1
+vbAt    vabAt   N       reliability;constancy
+;; vabAtiy~_1
+vbAty   vabAtiy~        Nall    stable;static     <pos>vabAtiy~/ADJ</pos>
+;; vabAtiy~ap_1
+vbAty   vabAtiy~        Nap     stability     <pos>vabAtiy~/NOUN</pos>
+;; vubuwt_1
+vbwt    vubuwt  N       constancy;permanence
+;; vubuwtiy~_1
+vbwty   vubuwtiy~       Nall    evidential;supporting     <pos>vubuwtiy~/ADJ</pos>
+;; >avobat_2
+>vbt    >avobat Nel     more/most reliable;steadier
+Avbt    >avobat Nel     more/most reliable;steadier
+;; tavobiyt_1
+tvbyt   tavobiyt        NduAt   substantiation;stabilization
+;; <ivobAt_1
+<vbAt   <ivobAt NduAt   confirmation;verification
+AvbAt   <ivobAt NduAt   confirmation;verification
+;; <ivobAtiy~_1
+<vbAty  <ivobAtiy~      Nall    confirmatory     <pos><ivobAtiy~/ADJ</pos>
+AvbAty  <ivobAtiy~      Nall    confirmatory     <pos><ivobAtiy~/ADJ</pos>
+;; tavab~ut_1
+tvbt    tavab~ut        NduAt   ascertainment;verification
+;; vAbit_1
+vAbt    vAbit   Nall    established;proven;permanent     <pos>vAbit/ADJ</pos>
+;; vAbitap_1
+vAbt    vAbit   Napdu   fixed star
+vwAbt   vawAbit Ndip    fixed stars
+;; mavobuwt_1
+mvbwt   mavobuwt        Nall    proven;confirmed;established
+;; muvab~it_1
+mvbt    muvab~it        Nall    fixative;fixing fluid
+;
+;; vubayotiy~_1
+vbyty   vubayotiy~      N0      Thubaiti
+;
+;; vabaj-u_1
+vbj     vabaj   PV      scribble;doodle
+vbj     vobuj   IV      scribble;doodle
+;
+;; vabar-u_1
+vbr     vabar   PV      ruin;destroy
+vbr     vobur   IV      ruin;destroy
+;; vAbar_1
+vAbr    vAbar   PV      persist;persevere
+vAbr    vAbir   IV_yu   persist;persevere
+;; vubuwr_1
+vbwr    vubuwr  N       ruin;destruction
+;; muvAbarap_1
+mvAbr   muvAbar NapAt   persistence;perseverance
+;
+;; vabaT-u_1
+vbT     vabaT   PV      discourage;frustrate
+vbT     vobuT   IV      discourage;frustrate
+;; vab~aT_1
+vbT     vab~aT  PV      discourage;frustrate
+vbT     vab~iT  IV_yu   discourage;frustrate
+;
+;; vabaq-i_1
+vbq     vabaq   PV_intr be swollen;cry easily
+vbq     vobiq   IV_intr be swollen;cry easily
+;; {inovabaq_1
+<nvbq   {inovabaq       PV      spill;shed
+Anvbq   {inovabaq       PV      spill;shed
+nvbq    novabiq IV      spill;shed
+;
+;; vaban-i_1
+vbn     vaban   PV-n    fold
+vbn     vobin   IV-n    fold
+;; vubonap_1
+vbn     vubon   Napdu   lap;fold
+vbAn    vibAn   N       lap;fold
+vbn     vuban   N       laps;folds
+;; mavobanap_1
+mvbn    mavoban Napdu   toiletry kit;toilette bag;vanity case
+mvAbn   mavAbin Ndip    toiletry kits;toilette bags;vanity cases
+;
+;; vaj~-u_1
+vj      vaj~    PV_V_intr       flow;stream
+vjj     vajaj   PV_C_intr       flow;stream
+vj      vuj~    IV_V_intr       flow;stream
+vjj     vojuj   IV_C_intr       flow;stream
+;; vajAj_1
+vjAj    vajAj   N       flowing;streaming
+;
+;; vaxun-u_1
+vxn     vaxun   PV-n_intr       be solid;be thick
+vxn     voxun   IV-n_intr       be solid;be thick
+;; vax~an_1
+vxn     vax~an  PV-n    solidify;thicken
+vxn     vax~in  IV-n_yu solidify;thicken
+;; >avoxan_1
+>vxn    >avoxan PV-n    massacre;wear out
+Avxn    >avoxan PV-n    massacre;wear out
+vxn     voxin   IV-n_yu massacre;wear out
+vxn     voxan   IV-n_Pass_yu    be massacred;be worn out
+;; vixan_1
+vxn     vixan   N       thickness;density
+;; vaxAnap_1
+vxAn    vaxAn   Nap     thickness;density
+;; vuxuwnap_1
+vxwn    vuxuwn  Nap     thickness;density
+;; vaxiyn_1
+vxyn    vaxiyn  Nall    thick;dense
+vxnA'   vuxanA' N0_Nh   thick;dense
+vxnA&   vuxanA& Nh      thick;dense
+vxnA}   vuxanA} Nhy     thick;dense
+;
+;; vadoy_1
+vdy     vadoy   Ndu     breast
+vdY     vadaY   N0      breast
+vdA     vadA    Nhy     breast
+vdy     vaday   NAn_Nayn        breasts
+>vdA'   >avodA' N0_Nh   breasts
+AvdA'   >avodA' N0_Nh   breasts
+>vdA&   >avodA& Nh      breasts
+AvdA&   >avodA& Nh      breasts
+>vdA}   >avodA} Nhy     breasts
+AvdA}   >avodA} Nhy     breasts
+;; vadoyA'_1
+vdyA'   vadoyA' N0_Nh   buxom
+vdyA&   vadoyA& Nh      buxom
+vdyA}   vadoyA} Nhy     buxom
+;; vadoyiy~_1
+vdyy    vadoyiy~        Nall    mammal     <pos>vadoyiy~/ADJ</pos>
+vdyy    vadoyiy~        NAt     mammals     <pos>vadoyiy~/NOUN</pos>
+;
+;; var~-ui_1
+vr      var~    PV_V    rain hard;talk a lot
+vrr     varar   PV_C    rain hard;talk a lot
+vr      vur~    IV_V    rain hard;talk a lot
+vrr     vorur   IV_C    rain hard;talk a lot
+vr      vir~    IV_V    rain hard;talk a lot
+vrr     vorir   IV_C    rain hard;talk a lot
+;; var~_1
+vr      var~    N/ap    wet;soaked
+;
+;; varab-i_1
+vrb     varab   PV      blame;censure
+vrb     vorib   IV      blame;censure
+;; var~ab_1
+vrb     var~ab  PV      blame;censure
+vrb     var~ib  IV_yu   blame;censure
+;; tavoriyb_1
+tvryb   tavoriyb        NduAt   censure;blame
+;
+;; varovar_1
+vrvr    varovar PV      chatter;prattle
+vrvr    varovir IV_yu   chatter;prattle
+;; varovarap_1
+vrvr    varovar NapAt   chatter;prattle
+;; varovAr_1
+vrvAr   varovAr Nall    chatterbox;garrulous
+;
+;; varad-u_1
+vrd     varad   PV      sop
+vrd     vorud   IV      sop
+;; variyd_1
+vryd    variyd  N       broth
+;; mivorad_1
+mvrd    mivorad Ndu     bowl
+;
+;; varam-i_1
+vrm     varam   PV      knock tooth out
+vrm     vorim   IV      knock tooth out
+;; varim-a_1
+vrm     varim   PV      have tooth gap
+vrm     voram   IV      have tooth gap
+;; {inovaram_1
+<nvrm   {inovaram       PV      lose teeth
+Anvrm   {inovaram       PV      lose teeth
+nvrm    novarim IV      lose teeth
+;
+;; varowat_1
+vrwt    varowat Nprop   Tharwat;Sarwat
+;
+;; varowap_1
+vrw     varow   Napdu   wealth;abundance
+vrw     varaw   NAt     wealth;abundance;riches
+;; varA'_1
+vrA'    varA'   N0_Nh   wealth;abundance
+vrA&    varA&   Nh      wealth;abundance
+vrA}    varA}   Nhy     wealth;abundance
+;; variy-a_1
+vry     variy   PV_no-w_intr    become wealthy
+vr      var     PV_w_intr       become wealthy
+vrY     voraY   IV_0    become wealthy
+vry     voray   IV_Ann  become wealthy
+vr      vora    IV_0hwnyn       become wealthy
+;; >avoraY_1
+>vrY    >avoraY PV_0    enrich;make rich
+AvrY    >avoraY PV_0    enrich;make rich
+>vrA    >avorA  PV_h    enrich;make rich
+AvrA    >avorA  PV_h    enrich;make rich
+>vry    >avoray PV_Atn  enrich;make rich
+Avry    >avoray PV_Atn  enrich;make rich
+>vr     >avor   PV_ttAw enrich;make rich
+Avr     >avor   PV_ttAw enrich;make rich
+vry     voriy   IV_0hAnn_yu     enrich;make rich
+vr      vor     IV_0hwnyn_yu    enrich;make rich
+vrY     voraY   IV_0_Pass_yu    be enriched;be made rich
+vry     voray   IV_Ann_Pass_yu  be enriched;be made rich
+;; <ivorA'_1
+<vrA'   <ivorA' N0_Nh   enrichment
+<vrA&   <ivorA& Nh      enrichment
+<vrA}   <ivorA} Nhy     enrichment
+<vrA'   <ivorA' NAn_Nayn        enrichment
+<vrA}   <ivorA} Nayn    enrichment
+<vrA'   <ivorA' NAt     enrichment
+AvrA'   <ivorA' N0_Nh   enrichment
+AvrA&   <ivorA& Nh      enrichment
+AvrA}   <ivorA} Nhy     enrichment
+AvrA'   <ivorA' NAn_Nayn        enrichment
+AvrA}   <ivorA} Nayn    enrichment
+AvrA'   <ivorA' NAt     enrichment
+;; varaY_1
+vrY     varaY   N0      soil
+vrA     varA    Nhy     soil
+;; variy~_1
+vry     variy~  N/ap    wealthy     <pos>variy~/ADJ</pos>
+>vryA'  >avoriyA'       N0_Nh   wealthy
+AvryA'  >avoriyA'       N0_Nh   wealthy
+>vryA&  >avoriyA&       Nh      wealthy
+AvryA&  >avoriyA&       Nh      wealthy
+>vryA}  >avoriyA}       Nhy     wealthy
+AvryA}  >avoriyA}       Nhy     wealthy
+;
+;; vuray~ap_1
+vry     vuray~  NapAt   chandelier
+;; vuray~A_1
+vryA    vuray~A Nprop   Thuraya;Suraya;Surayya;Thurayya
+;; vuray~A_2
+vryA    vuray~A N0      Pleiades
+vryp    vuray~ap        N0      Pleiades
+;
+;; vaEab-a_1
+vEb     vaEab   PV      pour;drain
+vEb     voEab   IV      pour;drain
+;; mavoEab_1
+mvEb    mavoEab Ndu     drain
+mvAEb   mavAEib Ndip    drains
+;; vuEobAn_1
+vEbAn   vuEobAn Ndu     snake
+vEAbyn  vaEAbiyn        Ndip    snakes
+;; vuEobAniy~_1
+vEbAny  vuEobAniy~      Nall    serpentine;snakelike     <pos>vuEobAniy~/ADJ</pos>
+;
+;--- vEl
+;; vuEAl_1
+vEAl    vuEAl   Ndu     fox
+;; vuEAlap_1
+vEAl    vuEAl   NapAt   fox;vixen
+;
+;--- vElb
+;; vaEolab_1
+vElb    vaEolab N/ap    fox
+vEAlb   vaEAlib Ndip    foxes
+;; vaEolabiy~_1
+vElby   vaEolabiy~      Nall    fox-like     <pos>vaEolabiy~/ADJ</pos>
+;; vaEAlabiy~_1
+vEAlby  vaEAlabiy~      N0      Tha'alabi
+;
+;; vagovag_1
+vgvg    vagovag PV      stammer;stutter
+vgvg    vagovig IV_yu   stammer;stutter
+;
+;; vagor_1
+vgr     vagor   N       front teeth;front
+vgwr    vuguwr  N       front teeth;fronts
+;; vugorap_1
+vgr     vugor   Napdu   gap;breach
+vgr     vagar   NAt     gaps;breaches
+;
+;; vagAm_1
+vgAm    vagAm   N       whiteness
+;; vAgim_1
+vAgm    vAgim   Nall    white
+;
+;--- vgw
+;; vagA-u_1
+vgA     vagA    PV_0    bleat
+vgw     vagaw   PV_Atn  bleat
+vg      vaga    PV_ttAw bleat
+vgw     voguw   IV_0hAnn        bleat
+vg      vog     IV_0hwnyn       bleat
+;; vugA'_1
+vgA'    vugA'   N0_Nh   bleating
+vgA&    vugA&   Nh      bleating
+vgA}    vugA}   Nhy     bleating
+;; vAgiy_1
+vAgy    vAgiy   N0F     bleating
+vAg     vAg     NK      bleating
+vAgy    vAgiy   NAn_Nayn        bleating
+vAg     vAg     Nuwn_Niyn       bleating
+vAgy    vAgiy   NapAt   bleating
+;
+;; vafar_1
+vfr     vafar   Ndu     crupper
+>vfAr   >avofAr N       cruppers
+AvfAr   >avofAr N       cruppers
+;
+;; >avofal_1
+>vfl    >avofal PV      form a sediment
+Avfl    >avofal PV      form a sediment
+vfl     vofil   IV_yu   form a sediment
+;; vufol_1
+vfl     vufol   N       sediment;dregs
+;
+;; vafin-a_1
+vfn     vafin   PV-n_intr       be callous;have calluses
+vfn     vofan   IV-n_intr       be callous;have calluses
+;; vAfan_1
+vAfn    vAfan   PV-n    associate;pursue
+vAfn    vAfin   IV-n_yu associate;pursue
+;; vifonap_1
+vfn     vifon   NapAt   callus
+vfn     vifan   N       calluses
+;
+;; vaqab-u_1
+vqb     vaqab   PV      drill;perforate;pierce
+vqb     voqub   IV      drill;perforate;pierce
+vqb     vuqib   PV_Pass be punctured
+;; vaq~ab_1
+vqb     vaq~ab  PV      perforate;light;kindle
+vqb     vaq~ib  IV_yu   perforate;light;kindle
+;; >avoqab_1
+>vqb    >avoqab PV      light;kindle
+Avqb    >avoqab PV      light;kindle
+vqb     voqib   IV_yu   light;kindle
+vqb     voqab   IV_Pass_yu      be lit;be kindled
+;; tavaq~ab_1
+tvqb    tavaq~ab        PV_intr be pierced;be perforated
+tvqb    tavaq~ab        IV_intr be pierced;be perforated
+;; {inovaqab_1
+<nvqb   {inovaqab       PV_intr be pierced;be perforated
+Anvqb   {inovaqab       PV_intr be pierced;be perforated
+nvqb    novaqib IV_intr be pierced;be perforated
+;; vaqob_1
+vqb     vaqob   N       perforation;piercing;puncture
+;; vuqob_1
+vqb     vuqob   Ndu     perforation;drill hole
+vqwb    vuquwb  N       perforations;drill holes
+>vqAb   >avoqAb N       perforations;drill holes
+AvqAb   >avoqAb N       perforations;drill holes
+;; vuqobap_1
+vqb     vuqob   Napdu   hole;perforation
+vqb     vuqab   N       holes;perforations
+;; viqAb_1
+vqAb    viqAb   N       match
+;; vaq~Abap_1
+vqAb    vaq~Ab  NapAt   drilling rig;drilling machine
+;; <ivoqAb_1
+<vqAb   <ivoqAb NduAt   lighting;kindling
+AvqAb   <ivoqAb NduAt   lighting;kindling
+;; vAqib_1
+vAqb    vAqib   Nall    penetrating;piercing
+;; viqAbAt_1
+vqAb    viqAb   NAt     drills;borers
+;
+;; vaqif-a_1
+vqf     vaqif   PV_intr be intelligent;be skillful
+vqf     voqaf   IV_intr be intelligent;be skillful
+;; vaquf-u_1
+vqf     vaquf   PV_intr be skillful;be clever
+vqf     voquf   IV_intr be skillful;be clever
+;; vaq~af_1
+vqf     vaq~af  PV      instruct;educate
+vqf     vaq~if  IV_yu   instruct;educate
+;; vAqaf_1
+vAqf    vAqaf   PV      fence
+vAqf    vAqif   IV_yu   fence
+;; tavaq~af_1
+tvqf    tavaq~af        PV_intr be trained;be instructed
+tvqf    tavaq~af        IV_intr be trained;be instructed
+;; tavAqaf_1
+tvAqf   tavAqaf PV      pretend to fight
+tvAqf   tavAqaf IV      pretend to fight
+;; vaqAfap_1
+vqAf    vaqAf   NapAt   culture;civilization
+;; vaqAfiy~_1
+vqAfy   vaqAfiy~        Nall    cultural;intellectual     <pos>vaqAfiy~/ADJ</pos>
+;; tavoqiyf_1
+tvqyf   tavoqiyf        NduAt   education;cultivation
+;; muvAqafap_1
+mvAqf   muvAqaf NapAt   fencing;swordplay
+;; muvaq~af_1
+mvqf    muvaq~af        Nall    intellectual;cultivated;cultured;educated
+;
+;; vaqul-u_1
+vql     vaqul   PV_intr be heavy;be burdensome
+vql     voqul   IV_intr be heavy;be burdensome
+;; vaq~al_1
+vql     vaq~al  PV      burden;pester
+vql     vaq~il  IV_yu   burden;pester
+;; >avoqal_1
+>vql    >avoqal PV      burden;oppress
+Avql    >avoqal PV      burden;oppress
+vql     voqil   IV_yu   burden;oppress
+vql     voqal   IV_Pass_yu      be burdened;be oppressed
+;; tavAqal_1
+tvAql   tavAqal PV      act slowly;be troublesome
+tvAql   tavAqal IV      act slowly;be troublesome
+;; {isotavoqal_1
+<stvql  {isotavoqal     PV      find heavy;find annoying
+Astvql  {isotavoqal     PV      find heavy;find annoying
+stvql   sotavoqil       IV      find heavy;find annoying
+;; viqol_1
+vql     viqol   Ndu     weight;load
+;; >avoqAl_1
+>vqAl   >avoqAl N       weights;loads
+AvqAl   >avoqAl N       weights;loads
+;; vaqolap_1
+vql     vaqol   Napdu   trouble;burden
+vql     vaqal   NAt     troubles;burdens
+;; vaqAlap_1
+vqAl    vaqAl   Nap     heaviness;dullness
+;; vaqiyl_1
+vqyl    vaqiyl  N/ap    heavy;oppressive
+vqlA'   vuqalA' N0_Nh   heavy;oppressive
+vqlA&   vuqalA& Nh      heavy;oppressive
+vqlA}   vuqalA} Nhy     heavy;oppressive
+vqAl    viqAl   N       heavy;oppressive
+;; >avoqal_2
+>vql    >avoqal Nel     heavier;more oppressive
+Avql    >avoqal Nel     heavier;more oppressive
+;; mivoqAl_1
+mvqAl   mivoqAl Ndu     weight;miskal
+mvAqyl  mavAqiyl        Ndip    weights;miskals
+;; tavoqiyl_1
+tvqyl   tavoqiyl        NduAt   weighting;burdening
+;; tavAqul_1
+tvAql   tavAqul NduAt   sluggishness;dullness
+;; muvaq~al_1
+mvql    muvaq~al        Nall    burdened;weighted
+;; muvoqal_1
+mvql    muvoqal Nall    burdened;weighted
+;; mutavAqil_1
+mtvAql  mutavAqil       Nall    sluggish;bored
+;
+;; vakil-a_1
+vkl     vakil   PV_intr be bereft;lose a loved one
+vkl     vokal   IV_intr be bereft;lose a loved one
+;; >avokal_1
+>vkl    >avokal PV      bereave
+Avkl    >avokal PV      bereave
+vkl     vokil   IV_yu   bereave
+;; vakal_1
+vkl     vakal   N       bereavement
+vkl     vukol   N       bereavement
+;; vakolAn_1
+vklAn   vakolAn N/ap    bereft;bereaved
+vklY    vakolaY N0      bereft;bereaved
+vklA    vakolA  Nhy     bereft;bereaved
+vkAlY   vakAlaY N0      bereft;bereaved
+vkAlA   vakAlA  Nhy     bereft;bereaved
+;; vAkil_1
+vAkl    vAkil   Nall    bereft;bereaved
+vwAkl   vawAkil Ndip    bereft;bereaved
+;
+;--- vkn
+;; vukonap_1
+vkn     vukon   NapAt   barracks
+vkn     vakon   Napdu   barracks
+vkn     vakan   NAt     barracks
+vkn     vukan   N       barracks
+;
+;--- vl
+;; val~-u_1
+vl      val~    PV_V    overthrow;destroy
+vll     valal   PV_C    overthrow;destroy
+vl      vul~    IV_V    overthrow;destroy
+vll     volul   IV_C    overthrow;destroy
+;; {inoval~_1
+<nvl    {inoval~        PV_V_intr       be subverted;be overthrown
+Anvl    {inoval~        PV_V_intr       be subverted;be overthrown
+<nvll   {inovalal       PV_C_intr       be subverted;be overthrown
+Anvll   {inovalal       PV_C_intr       be subverted;be overthrown
+nvl     noval~  IV_V_intr       be subverted;be overthrown
+nvll    novalil IV_C_intr       be subverted;be overthrown
+;; vul~ap_1
+vl      vul~    Napdu   troop;detachment
+vll     vulal   N       troops;detachments
+;
+;--- vlb
+;; valab-i_1
+vlb     valab   PV      criticize;slander
+vlb     volib   IV      criticize;slander
+;; valob_1
+vlb     valob   N       slander;defamation
+;; mavolabap_1
+mvlb    mavolab Napdu   shortcoming;defect
+mvAlb   mavAlib Ndip    shortcomings;defects
+;; vAlib_1
+vAlb    vAlib   Nall    slanderous;defamatory
+;
+;--- vlv
+;; val~av_1
+vlv     val~av  PV      triple;treble
+vlv     val~iv  IV_yu   triple;treble
+;; vulov_1
+vlv     vulov   Ndu     one third
+>vlAv   >avolAv N       thirds
+AvlAv   >avolAv N       thirds
+;; valAv_1
+vlAv    valAv   N       three     <pos>valAv/ADJ</pos>
+vlAv    valAv   Nap     three     <pos>valAv/ADJ</pos>
+vlAv    valAv   Numb    thirty
+;; vAliv_1
+vAlv    vAliv   N/ap    third     <pos>vAliv/ADJ</pos>
+;; vAliv_2
+vAlv    vAliv   N/ap    Third
+;; valAviynAt_1
+vlAvyn  valAviyn        NAt     thirties
+;; valAviyniy~_1
+vlAvyny valAviyniy~     Nall    thirties     <pos>valAviyniy~/NOUN</pos>
+;; valAvmA}ap_1
+vlAvmA} valAvmA}        Nap     three-hundred
+vlvmA}  val`vmA}        Nap     three-hundred
+;; vulAvA'_1
+vlAvA'  vulAvA' N0_Nh   Tuesday
+vlAvA&  vulAvA& Nh      Tuesday
+vlAvA}  vulAvA} Nhy     Tuesday
+; frequent spelling in Al-Hayat:
+vlvA'   vulavA' N0_Nh   Tuesday
+vlvA&   vulavA& Nh      Tuesday
+vlvA}   vulavA} Nhy     Tuesday
+;; vulAviy~_1
+vlAvy   vulAviy~        NduAt   trio     <pos>vulAviy~/NOUN</pos>
+;; vulAviy~_2
+vlAvy   vulAviy~        Nall    three-part;trio;corner (shot)     <pos>vulAviy~/ADJ</pos>
+;; vAluwv_1
+vAlwv   vAluwv  N/ap    triad;trinity
+;; tavoliyv_1
+tvlyv   tavoliyv        NduAt   trinity
+;; tavoliyviy~_1
+tvlyvy  tavoliyviy~     Nall    trigonometrical     <pos>tavoliyviy~/ADJ</pos>
+;; muval~av_1
+mvlv    muval~av        Nall    triangle;triple
+;; muval~avAt_1
+mvlv    muval~av        NAt     trigonometry
+;
+;; valaj-u_1
+vlj     valaj   PV      snow
+vlj     voluj   IV      snow
+;; valij-a_1
+vlj     valij   PV_intr be delighted;be gladdened
+vlj     volaj   IV_intr be delighted;be gladdened
+;; val~aj_1
+vlj     val~aj  PV      freeze
+vlj     val~ij  IV_yu   freeze
+;; >avolaj_1
+>vlj    >avolaj PV      snow;freeze
+Avlj    >avolaj PV      snow;freeze
+vlj     volij   IV_yu   snow;freeze
+;; taval~aj_1
+tvlj    taval~aj        PV      freeze
+tvlj    taval~aj        IV      freeze
+;; valoj_1
+vlj     valoj   N       snow;ice
+vlwj    vuluwj  N       snow;ice
+;; valojiy~_1
+vljy    valojiy~        Nall    snowy;icy     <pos>valojiy~/ADJ</pos>
+;; val~Ajap_1
+vlAj    val~Aj  NapAt   refrigerator;icebox
+;; mavolajap_1
+mvlj    mavolaj Napdu   cold-storage plant
+mvAlj   mavAlij Ndip    cold-storage plants
+;; muval~aj_1
+mvlj    muval~aj        Nall    frozen
+;
+;; valam-i_1
+vlm     valam   PV      blunt;defile
+vlm     volim   IV      blunt;defile
+;; valim-a_1
+vlm     valim   PV_intr be jagged;be blunt
+vlm     volam   IV_intr be jagged;be blunt
+;; val~am_1
+vlm     val~am  PV      blunt
+vlm     val~im  IV_yu   blunt
+;; taval~am_1
+tvlm    taval~am        PV_intr become blunt;be discredited
+tvlm    taval~am        IV_intr become blunt;be discredited
+;; {inovalam_1
+<nvlm   {inovalam       PV_intr be defiled;be discredited
+Anvlm   {inovalam       PV_intr be defiled;be discredited
+nvlm    novalim IV_intr be defiled;be discredited
+;; valom_1
+vlm     valom   Ndu     breach;crack
+;; vulomap_1
+vlm     vulom   Napdu   gap;crack
+vlm     vulam   N       gaps;cracks
+;; vAlim_1
+vAlm    vAlim   Nall    dull;blunt
+;; mavoluwm_1
+mvlwm   mavoluwm        Nall    defiled;sullied
+;; mutaval~im_1
+mtvlm   mutaval~im      Nall    blunt;cracking
+;; munovalim_1
+mnvlm   munovalim       Nall    soiled;discredited
+;
+;; vum~a_1
+vm      vum~a   FW-Wa   then;thereupon              <pos>vum~a/ADV</pos>
+;; vam~a_1
+vm      vam~a   FW-Wa   therefore;there (is/are)    <pos>vam~a/ADV</pos>
+;; vam~apa_1
+vmp     vam~apa FW-Wa   there (is/are)              <pos>vam~apa/ADV</pos>
+;
+;; vumAm_1
+vmAm    vumAm   N       grass
+vmAm    vumAm   Nap     blade of grass
+;
+;; vamar-u_1
+vmr     vamar   PV      bear fruit
+vmr     vomur   IV      bear fruit
+;; >avomar_1
+>vmr    >avomar PV      result
+Avmr    >avomar PV      result
+vmr     vomir   IV_yu   result
+;; {isotavomar_1
+<stvmr  {isotavomar     PV      invest
+Astvmr  {isotavomar     PV      invest
+stvmr   sotavomir       IV      invest
+;; vamar_1
+vmr     vamar   Ndu     fruit;result
+vmAr    vimAr   N       fruits;results
+>vmAr   >avomAr N       fruits;results
+AvmAr   >avomAr N       fruits;results
+;; vamor_1
+vmr     vamor   Napdu   fruit;result
+vmr     vamar   NAt     fruits;results
+;; {isotivomAr_1
+<stvmAr {isotivomAr     N       invest;investing
+AstvmAr {isotivomAr     N       invest;investing
+;; {isotivomAr_2
+<stvmAr {isotivomAr     NduAt   investment
+AstvmAr {isotivomAr     NduAt   investment
+;; {isotivomAriy~_1
+AstvmAry        {isotivomAriy~  Nall    investment     <pos>{isotivomAriy~/ADJ</pos>
+<stvmAry        {isotivomAriy~  Nall    investment     <pos>{isotivomAriy~/ADJ</pos>
+;; muvomir_1
+mvmr    muvomir Nall    profitable
+;; musotavomir_1
+mstvmr  musotavomir     Nall    investor
+;; musotavomar_1
+mstvmr  musotavomar     Nall    exploited;invested
+;
+;; vAmir_1
+vAmr    vAmir   Nprop   Thamir
+;
+;--- vml
+;; vamil-a_1
+vml     vamil   PV_intr become drunk
+vml     vomal   IV_intr become drunk
+;; >avomal_1
+>vml    >avomal PV      make drunk;intoxicate
+Avml    >avomal PV      make drunk;intoxicate
+vml     vomil   IV_yu   make drunk;intoxicate
+vml     vomal   IV_Pass_yu      be made drunk;be intoxicated
+;; vamal_1
+vml     vamal   N       intoxication
+;; vamalap_1
+vml     vamal   Nap     intoxication
+;; vamil_1
+vml     vamil   Nall    intoxicated
+;; vumAlap_1
+vmAl    vumAl   NapAt   residue;dregs
+;
+;--- vmn(1)
+;; vam~an_1
+vmn     vam~an  PV-n    appraise;estimate
+vmn     vam~in  IV-n_yu appraise;estimate
+;; vaman_1
+vmn     vaman   Ndu     value;price
+>vmAn   >avomAn N       values;prices
+AvmAn   >avomAn N       values;prices
+>vmn    >avomin Nap     values;prices
+Avmn    >avomin Nap     values;prices
+;; vamiyn_1
+vmyn    vamiyn  Nall    costly;precious
+vmAn    vimAn   N       costly;precious
+;; >avoman_1
+>vmn    >avoman Nel     costlier;more valuable
+Avmn    >avoman Nel     costlier;more valuable
+;; tavomiyn_1
+tvmyn   tavomiyn        NduAt   appraisal;rating
+;; mavomuwn_1
+mvmwn   mavomuwn        Nall    valuable
+;; muvam~in_1
+mvmn    muvam~in        Nall    appraiser
+;; muvomin_1
+mvmn    muvomin Nall    prized;valued
+;; muvoman_1
+mvmn    muvoman Nall    valuable
+;
+;--- vmn(2)
+;; vumon_1
+vmn     vumon   Ndu     one-eighth
+vmn     vumon   Ndu     eighth
+>vmAn   >avomAn N       eighths
+AvmAn   >avomAn N       eighths
+;; vumonap_1
+vmn     vumon   Napdu   thumna (Egy. = 0.285 l.; Pal. = 2.25 l.)
+vmn     vuman   NAt     thumnas (Egy. = 0.285 l.; Pal. = 2.25 l.)
+;; vAmin_1
+vAmn    vAmin   Nall    eighth     <pos>vAmin/ADJ</pos>
+;; vamAniyn_1
+vmAnyn  vamAniyn        NAt     eighties
+vmAnyny vamAniyniy~     NAt     eighties     <pos>vamAniyniy~/NOUN</pos>
+;; vamAniy_1
+vmAny   vamAniy N0      eight     <pos>vamAniy/ADJ</pos>
+vmAn    vamAn   NK      eight
+vmAny   vamAniy Nap     eight     <pos>vamAniy/ADJ</pos>
+vmAn    vamAn   Numb    eighty
+;; vamAnimA}ap_1
+vmAnmA} vamAnimA}       Nap     eight-hundred
+;; tavomiyn_2
+tvmyn   tavomiyn        NduAt   octagonal;eightfold
+;
+;--- vn
+;; vun~ap_1
+vn      vun~    Napdu   fetlock
+vnn     vunan   N       fetlocks
+;
+;--- vndw
+;; vunoduwap_1
+vndw    vunoduw Napdu   breast
+vnAdy   vanAdiy N0_Nh   breasts
+vnAd    vanAd   NK      breasts
+;
+;--- vny
+; note: {ivn- does not have normal dual behavior, especially in genitive constructions:
+; AlAvny E$r, AlAvnty E$rp (also, the gloss with dual suffixes is an odd "two + two" for AvnAn)
+; ==== MASC ====
+; ADJ
+;; {ivonAni_1
+<vnAn   {ivonAni        FW-Wa   two     <pos>{ivon/ADJ+Ani/NSUFF_MASC_DU_NOM</pos>
+AvnAn   {ivonAni        FW-Wa   two     <pos>{ivon/ADJ+Ani/NSUFF_MASC_DU_NOM</pos>
+<vnyn   {ivonayoni      FW-WaBi two     <pos>{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN</pos>
+Avnyn   {ivonayoni      FW-WaBi two     <pos>{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN</pos>
+; with Al-
+;; Al{ivonAni_1
+Al<vnAn Al{ivonAni      FW-Wa   the + two                         <pos>Al/DET+{ivon/ADJ+Ani/NSUFF_MASC_DU_NOM</pos>
+AlAvnAn Al{ivonAni      FW-Wa   the + two                         <pos>Al/DET+{ivon/ADJ+Ani/NSUFF_MASC_DU_NOM</pos>
+Al<vnyn Al{ivonayoni    FW-Wa   the + two             <pos>Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN</pos>
+AlAvnyn Al{ivonayoni    FW-Wa   the + two             <pos>Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN</pos>
+;; lilo{ivonayoni_1
+ll<vnyn lilo{ivonayoni  FW-Wa   to/for + the + two    <pos>li/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN</pos>
+llAvnyn lilo{ivonayoni  FW-Wa   to/for + the + two    <pos>li/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN</pos>
+;; biAl{ivonayoni_1
+bAl<vnyn        biAl{ivonayoni  FW-Wa   with/by + the + two   <pos>bi/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN</pos>
+bAlAvnyn        biAl{ivonayoni  FW-Wa   with/by + the + two   <pos>bi/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN</pos>
+;; kaAl{ivonayoni_1
+kAl<vnyn        kaAl{ivonayoni  FW-Wa   as/like + the + two   <pos>ka/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN</pos>
+kAlAvnyn        kaAl{ivonayoni  FW-Wa   as/like + the + two   <pos>ka/PREP+Al/DET+{ivon/ADJ+ayoni/NSUFF_MASC_DU_ACCGEN</pos>
+;
+; NOUN (1st term of Idafah)
+;; {ivonA_1
+<vnA    {ivonA  FW-Wa   (1st word in "twelve")                              <pos>{ivon/ADJ+A/NSUFF_MASC_DU_NOM_POSS</pos>
+AvnA    {ivonA  FW-Wa   (1st word in "twelve")                              <pos>{ivon/ADJ+A/NSUFF_MASC_DU_NOM_POSS</pos>
+<vny    {ivonayo        FW-WaBi (1st word in "twelve")                              <pos>{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS</pos>
+Avny    {ivonayo        FW-WaBi (1st word in "twelve")                              <pos>{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS</pos>
+; with Al-
+;; Al{ivonA_1
+Al<vnA  Al{ivonA        FW-Wa   the + (1st word in "twelve")                        <pos>Al/DET+{ivon/ADJ+A/NSUFF_MASC_DU_NOM_POSS</pos>
+AlAvnA  Al{ivonA        FW-Wa   the + (1st word in "twelve")                        <pos>Al/DET+{ivon/ADJ+A/NSUFF_MASC_DU_NOM_POSS</pos>
+Al<vny  Al{ivonayo      FW-Wa   the + (1st word in "twelve")                        <pos>Al/DET+{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS</pos>
+AlAvny  Al{ivonayo      FW-Wa   the + (1st word in "twelve")                        <pos>Al/DET+{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS</pos>
+;; lil{ivonayo_1
+ll<vny  lil{ivonayo     FW-Wa   to/for + the + (1st word in "twelve")               <pos>li/PREP+Al/DET+{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS</pos>
+llAvny  lil{ivonayo     FW-Wa   to/for + the + (1st word in "twelve")               <pos>li/PREP+Al/DET+{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS</pos>
+;; biAl{ivonayo_1
+bAl<vny biAl{ivonayo    FW-Wa   with/by + the + (1st word in "twelve")  <pos>bi/PREP+Al/DET+{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS</pos>
+bAlAvny biAl{ivonayo    FW-Wa   with/by + the + (1st word in "twelve")  <pos>bi/PREP+Al/DET+{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS</pos>
+;; kaAl{ivonayo_1
+kAl<vny kaAl{ivonayo    FW-Wa   as/like + the + (1st word in "twelve")  <pos>ka/PREP+Al/DET+{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS</pos>
+kAlAvny kaAl{ivonayo    FW-Wa   as/like + the + (1st word in "twelve")  <pos>ka/PREP+Al/DET+{ivon/ADJ+ayo/NSUFF_MASC_DU_ACCGEN_POSS</pos>
+;
+;; {ivonayoni_1
+<vnyn   {ivonayoni      N0      Monday
+Avnyn   {ivonayoni      N0      Monday
+;
+; ==== FEM ====
+; ADJ
+;; {ivonatAni_1
+<vntAn  {ivonatAni      FW-Wa   two     <pos>{ivon/ADJ+atAni/NSUFF_FEM_DU_NOM</pos>
+AvntAn  {ivonatAni      FW-Wa   two     <pos>{ivon/ADJ+atAni/NSUFF_FEM_DU_NOM</pos>
+<vntyn  {ivonatayoni    FW-WaBi two     <pos>{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN</pos>
+Avntyn  {ivonatayoni    FW-WaBi two     <pos>{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN</pos>
+; with Al-
+;; Al{ivonatAni_1
+Al<vntAn        Al{ivonatAni    FW-Wa   the + two                         <pos>Al/DET+{ivon/ADJ+atAni/NSUFF_FEM_DU_NOM</pos>
+AlAvntAn        Al{ivonatAni    FW-Wa   the + two                         <pos>Al/DET+{ivon/ADJ+atAni/NSUFF_FEM_DU_NOM</pos>
+Al<vntyn        Al{ivonatayoni  FW-Wa   the + two             <pos>Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN</pos>
+AlAvntyn        Al{ivonatayoni  FW-Wa   the + two             <pos>Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN</pos>
+;; lilo{ivonatayoni_1
+ll<vntyn        lilo{ivonatayoni        FW-Wa   to/for + the + two    <pos>li/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN</pos>
+llAvntyn        lilo{ivonatayoni        FW-Wa   to/for + the + two    <pos>li/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN</pos>
+;; biAl{ivonatayoni_1
+bAl<vntyn       biAl{ivonatayoni        FW-Wa   with/by + the + two   <pos>bi/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN</pos>
+bAlAvntyn       biAl{ivonatayoni        FW-Wa   with/by + the + two   <pos>bi/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN</pos>
+;; kaAl{ivonatayoni_1
+kAl<vntyn       kaAl{ivonatayoni        FW-Wa   as/like + the + two   <pos>ka/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN</pos>
+kAlAvntyn       kaAl{ivonatayoni        FW-Wa   as/like + the + two   <pos>ka/PREP+Al/DET+{ivon/ADJ+atayoni/NSUFF_FEM_DU_ACCGEN</pos>
+;
+; NOUN (1st term of Idafah)
+;; {ivonatA_1
+<vntA   {ivonatA        FW-Wa   (1st word in "twelve")                              <pos>{ivon/ADJ+atA/NSUFF_FEM_DU_NOM_POSS</pos>
+AvntA   {ivonatA        FW-Wa   (1st word in "twelve")                              <pos>{ivon/ADJ+atA/NSUFF_FEM_DU_NOM_POSS</pos>
+<vnty   {ivonatayo      FW-WaBi (1st word in "twelve")                              <pos>{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS</pos>
+Avnty   {ivonatayo      FW-WaBi (1st word in "twelve")                              <pos>{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS</pos>
+; with Al-
+;; Al{ivonatA_1
+Al<vntA Al{ivonatA      FW-Wa   the + (1st word in "twelve")                        <pos>Al/DET+{ivon/ADJ+A/NSUFF_FEM_DU_NOM_POSS</pos>
+AlAvntA Al{ivonatA      FW-Wa   the + (1st word in "twelve")                        <pos>Al/DET+{ivon/ADJ+A/NSUFF_FEM_DU_NOM_POSS</pos>
+Al<vnty Al{ivonatayo    FW-Wa   the + (1st word in "twelve")                        <pos>Al/DET+{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS</pos>
+AlAvnty Al{ivonatayo    FW-Wa   the + (1st word in "twelve")                        <pos>Al/DET+{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS</pos>
+;; lil{ivonatayo_1
+ll<vnty lil{ivonatayo   FW-Wa   to/for + the + (1st word in "twelve")               <pos>li/PREP+Al/DET+{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS</pos>
+llAvnty lil{ivonatayo   FW-Wa   to/for + the + (1st word in "twelve")               <pos>li/PREP+Al/DET+{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS</pos>
+;; biAl{ivonatayo_1
+bAl<vnty        biAl{ivonatayo  FW-Wa   with/by + the + (1st word in "twelve")  <pos>bi/PREP+Al/DET+{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS</pos>
+bAlAvnty        biAl{ivonatayo  FW-Wa   with/by + the + (1st word in "twelve")  <pos>bi/PREP+Al/DET+{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS</pos>
+;; kaAl{ivonatayo_1
+kAl<vnty        kaAl{ivonatayo  FW-Wa   as/like + the + (1st word in "twelve")  <pos>ka/PREP+Al/DET+{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS</pos>
+kAlAvnty        kaAl{ivonatayo  FW-Wa   as/like + the + (1st word in "twelve")  <pos>ka/PREP+Al/DET+{ivon/ADJ+atayo/NSUFF_FEM_DU_ACCGEN_POSS</pos>
+;
+;; vanawiy~_1
+vnwy    vanawiy~        Nall    dualist     <pos>vanawiy~/ADJ</pos>
+;; vanawiy~ap_1
+vnwy    vanawiy~        NapAt   dualism     <pos>vanawiy~/NOUN</pos>
+;; vAnawiy~_1
+vAnwy   vAnawiy~        Nall    secondary     <pos>vAnawiy~/ADJ</pos>
+;
+;; vanaY-i_1
+vnY     vanaY   PV_0    fold;double
+vnA     vanA    PV_h    fold;double
+vny     vanay   PV_Atn  fold;double
+vn      van     PV_ttAw fold;double
+vny     voniy   IV_0hAnn        fold;double
+vn      von     IV_0hwnyn       fold;double
+vnY     vonaY   IV_0    fold;double
+;; van~aY_1
+vnY     van~aY  PV_0    fold;double
+vnA     van~A   PV_h    fold;double
+vny     van~ay  PV_Atn  fold;double
+vn      van~    PV_ttAw fold;double
+vny     van~iy  IV_0hAnn_yu     fold;double
+vn      van~    IV_0hwnyn_yu    fold;double
+vnY     van~aY  IV_0_Pass_yu    be folded;be doubled
+vny     van~ay  IV_Ann_Pass_yu  be folded;be doubled
+;; >avonaY_1
+>vnY    >avonaY PV_0    praise;commend
+AvnY    >avonaY PV_0    praise;commend
+>vnA    >avonA  PV_h    praise;commend
+AvnA    >avonA  PV_h    praise;commend
+>vny    >avonay PV_Atn  praise;commend
+Avny    >avonay PV_Atn  praise;commend
+>vn     >avon   PV_ttAw praise;commend
+Avn     >avon   PV_ttAw praise;commend
+vny     voniy   IV_0hAnn_yu     praise;commend
+vn      von     IV_0hwnyn_yu    praise;commend
+vnY     vonaY   IV_0_Pass_yu    be praised;be commended
+vny     vonay   IV_Ann_Pass_yu  be praised;be commended
+;; tavan~aY_1
+tvnY    tavan~aY        PV_0    be doubled;be repeated
+tvnA    tavan~A PV_h    be doubled;be repeated
+tvny    tavan~ay        PV_Atn  be doubled;be repeated
+tvn     tavan~  PV_ttAw_intr    be doubled;be repeated
+tvnY    tavan~aY        IV_0    be doubled;be repeated
+tvnA    tavan~A IV_h    be doubled;be repeated
+tvny    tavan~ay        IV_Ann  be doubled;be repeated
+tvn     tavan~  IV_0hwnyn       be doubled;be repeated
+;; {inovanaY_1
+<nvnY   {inovanaY       PV_0    bend over;fold
+AnvnY   {inovanaY       PV_0    bend over;fold
+<nvnA   {inovanA        PV_h    bend over;fold
+AnvnA   {inovanA        PV_h    bend over;fold
+<nvny   {inovanay       PV_Atn  bend over;fold
+Anvny   {inovanay       PV_Atn  bend over;fold
+<nvn    {inovan PV_ttAw bend over;fold
+Anvn    {inovan PV_ttAw bend over;fold
+nvny    novaniy IV_0hAnn        bend over;fold
+nvn     novan   IV_0hwnyn       bend over;fold
+nvnY    novanaY IV_0    bend over;fold
+;; {isotavonaY_1
+<stvnY  {isotavonaY     PV_0    except;exclude
+AstvnY  {isotavonaY     PV_0    except;exclude
+<stvnA  {isotavonA      PV_h    except;exclude
+AstvnA  {isotavonA      PV_h    except;exclude
+<stvny  {isotavonay     PV_Atn  except;exclude
+Astvny  {isotavonay     PV_Atn  except;exclude
+<stvn   {isotavon       PV_ttAw except;exclude
+Astvn   {isotavon       PV_ttAw except;exclude
+stvny   sotavoniy       IV_0hAnn        except;exclude
+stvn    sotavon IV_0hwnyn       except;exclude
+stvnY   sotavonaY       IV_0_Pass_yu    be excepted;be excluded
+;; vanoy_1
+vny     vanoy   N       bending;folding
+;; vinoy_1
+vny     vinoy   Ndu     fold;bend
+>vnA'   >avonA' N0_Nh   folds;bends
+AvnA'   >avonA' N0_Nh   folds;bends
+>vnA&   >avonA& Nh      folds;bends
+AvnA&   >avonA& Nh      folds;bends
+>vnA}   >avonA} Nhy     folds;bends
+AvnA}   >avonA} Nhy     folds;bends
+;; >avonA'a_1
+>vnA'   >avonA'a        FW-Wa   during     <pos>>avonA'a/PREP</pos>
+AvnA'   >avonA'a        FW-Wa   during     <pos>>avonA'a/PREP</pos>
+>vnA'   >avonA'i        FW-Wa   during     <pos>>avonA'i/PREP</pos>
+AvnA'   >avonA'i        FW-Wa   during     <pos>>avonA'i/PREP</pos>
+>vnA'   >avonA'a        FW-Wa-a during     <pos>>avonA'a/PREP</pos>
+AvnA'   >avonA'a        FW-Wa-a during     <pos>>avonA'a/PREP</pos>
+>vnA}   >avonA}i        FW-Wa-i during     <pos>>avonA}i/PREP</pos>
+AvnA}   >avonA}i        FW-Wa-i during     <pos>>avonA}i/PREP</pos>
+>vnA}   >avonA} FW-Wa-o during     <pos>>avonA}a/PREP</pos>
+AvnA}   >avonA} FW-Wa-o during     <pos>>avonA}a/PREP</pos>
+;; >avonA'_2
+>vnA'   >avonA' N0      meanwhile;meantime
+AvnA'   >avonA' N0      meanwhile;meantime
+;; vanoyap_1
+vny     vanoy   Napdu   fold;crease
+vny     vanay   NAt     folds;creases
+;; vanoyap_2
+vny     vanoy   Napdu   cuff
+vny     vanay   NAt     cuffs
+;; vaniy~ap_1
+vny     vaniy~  Napdu   incisor;path     <pos>vaniy~/NOUN</pos>
+;; vanAyA_1
+vnAyA   vanAyA  N0_Nhy  inside;among
+;; vanA'_1
+vnA'    vanA'   N0_Nh   appreciation;praise
+vnA&    vanA&   Nh      appreciation;praise
+vnA}    vanA}   Nhy     appreciation;praise
+;; vanA}iy~_1
+vnA}y   vanA}iy~        Nall    laudatory;eulogistic     <pos>vanA}iy~/ADJ</pos>
+;; vunA}iy~_1
+vnA}y   vunA}iy~        Nall    bilateral;dual     <pos>vunA}iy~/ADJ</pos>
+;; vAniy_1
+vAny    vAniy   N0F     second;next     <pos>vAniy/ADJ</pos>
+;; vAniy_2
+vAny    vAniy   N0      Second
+;; vAniy_3
+vAny    vAniy   NAn_Nayn        second;next     <pos>vAniy/ADJ</pos>
+vAn     vAn     NK      second;next     <pos>vAniy/ADJ</pos>
+; corpus evidence?:
+; vAn   vAn     Nuwn_Niyn       second;next     <pos>vAniy/ADJ</pos>
+vAny    vAniy   NapAt   second;next     <pos>vAniy/ADJ</pos>
+;; vAniyAF_1
+vAny    vAniy   NF      secondly     <pos>vAniy/ADV</pos>
+;; vAniyap_1
+vAny    vAniy   Napdu   second (time span)
+vwAny   vawAniy N0_Nh   seconds (time span)
+vwAn    vawAn   NK      seconds (time span)
+;; tavoniyap_1
+tvny    tavoniy NapAt   repetition;praise
+;; {inovinA'_1
+<nvnA'  {inovinA'       N0_Nh   folding;bending
+AnvnA'  {inovinA'       N0_Nh   folding;bending
+<nvnA&  {inovinA&       Nh      folding;bending
+AnvnA&  {inovinA&       Nh      folding;bending
+<nvnA}  {inovinA}       Nhy     folding;bending
+AnvnA}  {inovinA}       Nhy     folding;bending
+<nvnA'  {inovinA'       NAn_Nayn        folding;bending
+AnvnA'  {inovinA'       NAn_Nayn        folding;bending
+<nvnA}  {inovinA}       Nayn    folding;bending
+AnvnA}  {inovinA}       Nayn    folding;bending
+<nvnA'  {inovinA'       NAt     folding;bending
+AnvnA'  {inovinA'       NAt     folding;bending
+;; {inovinA'ap_1
+<nvnA'  {inovinA'       NapAt   bend;curve
+AnvnA'  {inovinA'       NapAt   bend;curve
+;; {isotivonA'_1
+<stvnA' {isotivonA'     N0_Nh   exception;exclusion
+AstvnA' {isotivonA'     N0_Nh   exception;exclusion
+<stvnA& {isotivonA&     Nh      exception;exclusion
+AstvnA& {isotivonA&     Nh      exception;exclusion
+<stvnA} {isotivonA}     Nhy     exception;exclusion
+AstvnA} {isotivonA}     Nhy     exception;exclusion
+<stvnA' {isotivonA'     NAn_Nayn        exceptions;exclusions
+AstvnA' {isotivonA'     NAn_Nayn        exceptions;exclusions
+<stvnA} {isotivonA}     Nayn    exceptions;exclusions
+AstvnA} {isotivonA}     Nayn    exceptions;exclusions
+<stvnA' {isotivonA'     NAt     exceptions;exclusions
+AstvnA' {isotivonA'     NAt     exceptions;exclusions
+;; {isotivonA}iy~_1
+<stvnA}y        {isotivonA}iy~  Nall    exceptional;extraordinary     <pos>{isotivonA}iy~/ADJ</pos>
+AstvnA}y        {isotivonA}iy~  Nall    exceptional;extraordinary     <pos>{isotivonA}iy~/ADJ</pos>
+;; mavoniy~_1
+mvny    mavoniy~        Nall    folded;doubled     <pos>mavoniy~/ADJ</pos>
+;; muvan~aY_1
+mvnY    muvan~aY        N0      doubled;twofold
+mvnA    muvan~A Nhy     doubled;twofold
+mvny    muvan~ay        NAn_Nayn        doubled;twofold
+mvn     muvan~  Nuwn_Niyn       doubled;twofold
+mvny    muvan~ay        NAt     doubled;twofold
+mvnA    muvan~A Napdu   doubled;twofold
+;; musotavonaY_1
+mstvnY  musotavonaY     N0      excepted;excluded
+mstvnA  musotavonA      Nhy     excepted;excluded
+mstvny  musotavonay     NAn_Nayn        excepted;excluded
+mstvny  musotavonay     NAt     excepted;excluded
+mstvn   musotavon       Nuwn_Niyn       excepted;excluded
+mstvnA  musotavonA      Napdu   excepted;excluded
+;
+;--- vwb
+;; vAb-u_1
+vAb     vAb     PV_V    return;come back
+vb      vub     PV_C    return;come back
+vwb     vuwb    IV_V    return;come back
+vb      vub     IV_C    return;come back
+;; vaw~ab_1
+vwb     vaw~ab  PV      reward
+vwb     vaw~ib  IV_yu   reward
+;; >avAb_1
+>vAb    >avAb   PV_V    return;compensate;reward
+AvAb    >avAb   PV_V    return;compensate;reward
+>vb     >avab   PV_C    return;compensate;reward
+Avb     >avab   PV_C    return;compensate;reward
+vyb     viyb    IV_V_yu return;compensate;reward
+vb      vib     IV_C_yu return;compensate;reward
+vAb     vAb     IV_V_Pass_yu    be returned;be compensated;be rewarded
+vb      vab     IV_C_Pass_yu    be returned;be compensated;be rewarded
+;; tavAwab_1
+tvAwb   tavAwab PV      yawn
+tvAwb   tavAwab IV      yawn
+;; {isotavAb_1
+<stvAb  {isotavAb       PV_V    lay claim to;seek reward
+AstvAb  {isotavAb       PV_V    lay claim to;seek reward
+<stvb   {isotavab       PV_C    lay claim to;seek reward
+Astvb   {isotavab       PV_C    lay claim to;seek reward
+stvyb   sotaviyb        IV_V    lay claim to;seek reward
+stvb    sotavib IV_C    lay claim to;seek reward
+;; vawob_1
+vwb     vawob   Ndu     garment;robe
+vyAb    viyAb   N       garments;clothes
+>vwAb   >avowAb N       garments;clothes
+AvwAb   >avowAb N       garments;clothes
+;; vawAb_1
+vwAb    vawAb   N       recompense;reward
+;; vaw~Ab_1
+vwAb    vaw~Ab  N0      Remunerator (God)
+;; vaw~Ab_2
+vwAb    vaw~Ab  Nall    clothes merchant
+;; mavAb_1
+mvAb    mavAb   Ndu     rendezvous;resort
+;; mavAbap_1
+mvAb    mavAb   Nap     virtually;tantamount to
+;; mavowabap_1
+mvwb    mavowab NapAt   reward;recompense
+mvAwb   mavAwib Ndip    rewards;recompenses
+;
+;; vAr-u_1
+vAr     vAr     PV_V    revolt;arise
+vr      vur     PV_C    revolt;arise
+vwr     vuwr    IV_V    revolt;arise
+vr      vur     IV_C    revolt;arise
+;; vaw~ar_1
+vwr     vaw~ar  PV      stir up;revolutionize
+vwr     vaw~ir  IV_yu   stir up;revolutionize
+;; >avAr_1
+>vAr    >avAr   PV_V    provoke;agitate
+AvAr    >avAr   PV_V    provoke;agitate
+>vr     >avar   PV_C    provoke;agitate
+Avr     >avar   PV_C    provoke;agitate
+vyr     viyr    IV_V_yu provoke;agitate
+vr      vir     IV_C_yu provoke;agitate
+>vyr    >uviyr  PV_V_Pass       be provoked;be agitated
+Avyr    >uviyr  PV_V_Pass       be provoked;be agitated
+vAr     vAr     IV_V_Pass_yu    be provoked;be agitated
+vr      var     IV_C_Pass_yu    be provoked;be agitated
+;; {isotavAr_1
+<stvAr  {isotavAr       PV_V    incite;elicit
+AstvAr  {isotavAr       PV_V    incite;elicit
+<stvr   {isotavar       PV_C    incite;elicit
+Astvr   {isotavar       PV_C    incite;elicit
+stvyr   sotaviyr        IV_V    incite;elicit
+stvr    sotavir IV_C    incite;elicit
+;; vawor_1
+vwr     vawor   Ndu     bull;ox
+vyrAn   viyrAn  N       bulls;oxen
+;; vawor_2
+vwr     vawor   N0      Taurus
+;; vaworap_1
+vwr     vawor   NapAt   revolution;uprising
+;; vaworap_2
+vwr     vawor   Nap     Thawra
+;; vaworiy~_1
+vwry    vaworiy~        Nall    revolutionary     <pos>vaworiy~/ADJ</pos>
+;; vaworawiy~_1
+vwrwy   vaworawiy~      Nall    revolutionary     <pos>vaworawiy~/ADJ</pos>
+;; vawarAn_1
+vwrAn   vawarAn N       agitation;flare-up
+;; mavAr_1
+mvAr    mavAr   Ndu     incentive;motive
+;; <ivArap_1
+<vAr    <ivAr   NapAt   provocation;agitation
+AvAr    <ivAr   NapAt   provocation;agitation
+;; vA}ir_1
+vA}r    vA}ir   Nall    agitated;exited
+;; vA}ir_2
+vA}r    vA}ir   Ndu     insurgent
+vwAr    vuw~Ar  N       insurgents;revolutionaries
+;; vA}irap_1
+vA}r    vA}ir   Napdu   tumult;rage
+vwA}r   vawA}ir Ndip    tumult;rage
+;; muviyr_1
+mvyr    muviyr  Nall    influential;provocative
+;; muviyr_2
+mvyr    muviyr  Nall    provoking;agitating;stirring up
+;; muviyrAt_1
+mvyr    muviyr  NAt     stimulants
+;
+;; vuwrb_1
+vwrb    vuwrb   Nprop   Thorpe
+;
+;; vuwromuwnot_1
+vwrmwnt vuwromuwnot     Nprop   Thurmont
+;
+;; vuwriyuwm_1
+vwrywm  vuwriyuwm       N       thorium
+;
+;; tavaw~al_1
+tvwl    tavaw~al        PV      swarm
+tvwl    tavaw~al        IV      swarm
+;; {inovAl_1
+<nvAl   {inovAl PV_V    swarm;throng
+AnvAl   {inovAl PV_V    swarm;throng
+<nvl    {inoval PV_C    swarm;throng
+Anvl    {inoval PV_C    swarm;throng
+nvAl    novAl   IV_V    swarm;throng
+nvl     noval   IV_C    swarm;throng
+;; vawol_1
+vwl     vawol   Ndu     swarm
+;
+;; vuwm_1
+vwm     vuwm    N       garlic
+vwm     vuwm    NapAt   garlic clove
+;
+;; vuw~ap_1
+vw      vuw~    Nap     road sign;signpost
+;
+;; vawaY-i_1
+vwY     vawaY   PV_0    settle down;remain
+vwA     vawA    PV_h    settle down;remain
+vwy     vaway   PV_Atn  settle down;remain
+vw      vaw     PV_ttAw settle down;remain
+vwy     vowiy   IV_0hAnn        settle down;remain
+vw      vow     IV_0hwnyn       settle down;remain
+vwY     vowaY   IV_0    settle down;remain
+;; vuwiy-a_1
+vwy     vuwiy   PV_no-w_Pass    be buried
+vwY     vowaY   IV_0_Pass_yu    be buried
+;; vaw~aY_1
+vwY     vaw~aY  PV_0    give lodging;provide housing
+vwA     vaw~A   PV_h    give lodging;provide housing
+vwy     vaw~ay  PV_Atn  give lodging;provide housing
+vw      vaw~    PV_ttAw give lodging;provide housing
+vwy     vaw~iy  IV_0hAnn_yu     give lodging;provide housing
+vw      vaw~    IV_0hwnyn_yu    give lodging;provide housing
+vwY     vaw~aY  IV_0_Pass_yu    be given lodging;be housed
+vwy     vaw~ay  IV_Ann_Pass_yu  be given lodging;be housed
+;; >avowaY_1
+>vwY    >avowaY PV_0    reside;lodge
+AvwY    >avowaY PV_0    reside;lodge
+>vwA    >avowA  PV_h    reside;lodge
+AvwA    >avowA  PV_h    reside;lodge
+>vwy    >avoway PV_Atn  reside;lodge
+Avwy    >avoway PV_Atn  reside;lodge
+>vw     >avow   PV_ttAw reside;lodge
+Avw     >avow   PV_ttAw reside;lodge
+vwy     vowiy   IV_0hAnn_yu     reside;lodge
+vw      vow     IV_0hwnyn_yu    reside;lodge
+vwY     vowaY   IV_0_Pass_yu    be housed;be lodged
+vwy     voway   IV_Ann_Pass_yu  be housed;be lodged
+;; vawiy~_1
+vwy     vawiy~  Ndu     guest room
+;; vuwaY_1
+vwY     vuwaY   N0      road-signs;signposts
+vwA     vuwA    Nhy     road-signs;signposts
+;; mavowaY_1
+mvwY    mavowaY N0      abode;lodging
+mvwA    mavowA  Nhy     abode;lodging
+mvwy    mavoway NAn_Nayn        abode;lodging
+mvAwy   mavAwiy N0_Nh   abodes;lodgings
+mvAw    mavAw   NK      abodes;lodgings
+;
+;--- vyb
+;; vay~ib_1
+vyb     vay~ib  NduAt   divorcee;widow
+;
+;; vayotal_1
+vytl    vayotal Ndu     goat
+vyAtl   vayAtil Ndip    goats
+;
+;--- vyw
+;; viyuw_1
+vyw     viyuw   Nprop   Theo
+;; viyuwluwjiykal_1
+vywlwjykl       viyuwluwjiykal  N0      Theological

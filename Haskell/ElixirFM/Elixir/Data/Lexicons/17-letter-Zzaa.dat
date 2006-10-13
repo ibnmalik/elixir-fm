@@ -1,0 +1,452 @@
+;--- Z
+;; ZA'_1
+ZA'     ZA'     N0_Nh   Za' (Arabic letter)
+ZA&     ZA&     Nh      Za' (Arabic letter)
+ZA}     ZA}     Nhy     Za' (Arabic letter)
+ZA'     ZA'     NAt     Za's (Arabic letter)
+;
+;--- ZAr
+;; Zi}or_1
+Z}r     Zi}or   N       wet nurse
+;
+;--- Zby
+;; Zaboy_1
+Zby     Zaboy   Ndu     gazelle
+ZbA'    ZibA'   N0_Nh   gazelles
+ZbA&    ZibA&   Nh      gazelles
+ZbA}    ZibA}   Nhy     gazelles
+;; Zabiy_1
+Zby     Zabiy   FW      Dhabi     <pos>Zabiy/NOUN_PROP</pos>
+;; Zaboyap_1
+Zby     Zaboy   Napdu   gazelle
+Zby     Zabay   NAt     gazelles
+;; ZuboyAniy~_1
+ZbyAny  ZuboyAniy~      Nall    from/of Abu Dhabi     <pos>ZuboyAniy~/ADJ</pos>
+;
+;--- Zr
+;; Zir~_1
+Zr      Zir~    N       flint
+;; Zir~An_1
+ZrAn    Zir~An  N       flint
+;
+;--- Zrb
+;; ZirobAn_1
+ZrbAn   ZirobAn N       polecat;fitchew
+ZrAbyn  ZarAbiyn        Ndip    polecat;fitchew
+;
+;--- Zrf
+;; Zaruf-u_1
+Zrf     Zaruf   PV_intr be charming;be witty
+Zrf     Zoruf   IV_intr be charming;be witty
+;; Zar~af_1
+Zrf     Zar~af  PV      adorn
+Zrf     Zar~if  IV_yu   adorn
+;; taZar~af_1
+tZrf    taZar~af        PV_intr be elegant
+tZrf    taZar~af        IV_intr be elegant
+;; taZAraf_1
+tZArf   taZAraf PV_intr be elegant
+tZArf   taZAraf IV_intr be elegant
+;; {isotaZoraf_1
+<stZrf  {isotaZoraf     PV      deem charming
+AstZrf  {isotaZoraf     PV      deem charming
+stZrf   sotaZorif       IV      deem charming
+;; Zarof_1
+Zrf     Zarof   N       charm
+;; Zarof_2
+Zrf     Zarof   Ndu     envelope
+;; Zarof_3
+Zrf     Zarof   Ndu     circumstance;condition;situation
+Zrwf    Zuruwf  N       circumstances;condition;situation
+;; Zarofiy~_1
+Zrfy    Zarofiy~        N-ap    circumstantial     <pos>Zarofiy~/ADJ</pos>
+;; Zariyf_1
+Zryf    Zariyf  N/ap    adroit;elegant
+ZrfA'   ZurafA' N0_Nh   adroit;elegant
+ZrfA&   ZurafA& Nh      adroit;elegant
+ZrfA}   ZurafA} Nhy     adroit;elegant
+ZrA}f   ZarA}if Ndip    adroit;elegant;courteous
+;; Zariyf_2
+Zryf    Zariyf  N0      Zarif
+;; ZarAfap_1
+ZrAf    ZarAf   Nap     elegance;wittiness;courtesy
+;; >aZoraf_1
+>Zrf    >aZoraf Nel     more/most elegant;wittier/wittiest
+AZrf    >aZoraf Nel     more/most elegant;wittier/wittiest
+;; taZoriyf_1
+tZryf   taZoriyf        N/At    wittiness;courtesy
+;; taZar~uf_1
+tZrf    taZar~uf        N/At    wittiness;courtesy
+;; maZoruwf_1
+mZrwf   maZoruwf        Ndu     envelope
+mZAryf  maZAriyf        Ndip    envelopes
+;; mutaZar~if_1
+mtZrf   mutaZar~if      Nall    elegant;courteous     <pos>mutaZar~if/ADJ</pos>
+;; musotaZoraf_1
+mstZrf  musotaZoraf     Nall    elegant;fancy     <pos>musotaZoraf/ADJ</pos>
+;
+;--- ZEn
+;; ZaEan-a_1
+ZEn     ZaEan   PV-n    depart;move away
+ZEn     ZoEan   IV-n    depart;move away
+;; ZaEon_1
+ZEn     ZaEon   N       departure;journey
+;; ZaEiynap_1
+ZEyn    ZaEiyn  Nap     camel load
+>ZEAn   >aZoEAn N       camel loads
+AZEAn   >aZoEAn N       camel loads
+ZEA}n   ZaEA}in Ndip    camel loads
+;; ZaEuwn_1
+ZEwn    ZaEuwn  N       load camel
+;; ZAEin_1
+ZAEn    ZAEin   Nall    ephemeral;transitory     <pos>ZAEin/ADJ</pos>
+;
+;--- Zfr
+;; Zafir-a_1
+Zfr     Zafir   PV      succeed
+Zfr     Zofar   IV      succeed
+;; Zaf~ar_1
+Zfr     Zaf~ar  PV      grant victory
+Zfr     Zaf~ir  IV_yu   grant victory
+;; >aZofar_1
+>Zfr    >aZofar PV      grant victory
+AZfr    >aZofar PV      grant victory
+Zfr     Zofir   IV_yu   grant victory
+Zfr     Zofar   IV_Pass_yu      be granted victory
+;; taZAfar_1
+tZAfr   taZAfar PV_intr be allied with
+tZAfr   taZAfar IV_intr be allied with
+;; Zufur_1
+Zfr     Zufur   Ndu     nail;claw;talon
+>ZfAr   >aZofAr N       nails;claws;talons
+AZfAr   >aZofAr N       nails;claws;talons
+>ZAfr   >aZAfir Ndip    nails;claws;talons
+AZAfr   >aZAfir Ndip    nails;claws;talons
+;; >uZofuwr_1
+>Zfwr   >uZofuwr        Ndu     nail;claw;talon
+AZfwr   >uZofuwr        Ndu     nail;claw;talon
+>ZAfyr  >aZAfiyr        Ndip    nails;claws;talons
+AZAfyr  >aZAfiyr        Ndip    nails;claws;talons
+;; Zafar_1
+Zfr     Zafar   N       victory
+;; Zafir_1
+Zfr     Zafir   N-ap    victorious     <pos>Zafir/ADJ</pos>
+;; ZuforAn_1
+ZfrAn   ZuforAn N       victorious     <pos>ZuforAn/ADJ</pos>
+;; ZAfir_1
+ZAfr    ZAfir   N-ap    victorious
+;; ZAfir_2
+ZAfr    ZAfir   N0      Zafir
+;; muZaf~ar_1
+mZfr    muZaf~ar        N-ap    victorious
+;; muZaf~ar_2
+mZfr    muZaf~ar        N0      Muzaffar
+;; Zafiyriy~_1
+Zfyry   Zafiyriy~       N0      Zafiri
+;; Zufayoriy~_1
+Zfyry   Zufayoriy~      N0      Zufairi
+;
+;--- Zl
+;; Zal~a_1
+Zl      Zal~    PV_V    remain;continue
+Zll     Zalil   PV_C    remain;continue
+Zl      Zal~    IV_V    remain;continue
+Zll     Zolal   IV_C    remain;continue
+;; Zal~al_1
+Zll     Zal~al  PV      shade
+Zll     Zal~il  IV_yu   shade
+;; >aZal~_1
+>Zl     >aZal~  PV_V    shade
+AZl     >aZal~  PV_V    shade
+>Zll    >aZolal PV_C    shade
+AZll    >aZolal PV_C    shade
+Zl      Zil~    IV_V_yu shade
+Zll     Zolil   IV_C_yu shade
+Zl      Zal~    IV_V_Pass_yu    be shaded
+;; taZal~al_1
+tZll    taZal~al        PV_intr be shaded
+tZll    taZal~al        IV_intr be shaded
+;; {isotaZal~_1
+<stZl   {isotaZal~      PV_V    seek refuge;seek shade
+AstZl   {isotaZal~      PV_V    seek refuge;seek shade
+<stZll  {isotaZolal     PV_C    seek refuge;seek shade
+AstZll  {isotaZolal     PV_C    seek refuge;seek shade
+stZl    sotaZil~        IV_V    seek refuge;seek shade
+stZll   sotaZolil       IV_C    seek refuge;seek shade
+;; Zil~_1
+Zl      Zil~    N       patronage;shelter
+ZlAl    ZilAl   N       auspices;shelter
+Zlwl    Zuluwl  N       auspices;shelter
+>ZlAl   >aZolAl N       auspices;shelter
+AZlAl   >aZolAl N       auspices;shelter
+;; Zul~ap_1
+Zl      Zul~    Nap     veranda
+Zll     Zulal   N       shelters
+;; Zaliyl_1
+Zlyl    Zaliyl  N-ap    shaded
+;; miZal~ap_1
+mZl     miZal~  NapAt   umbrella
+mZAl    maZAl~  Ndip    umbrellas
+;; miZal~ap_2
+mZl     miZal~  NapAt   parachute
+mZAl    maZAl~  Ndip    parachutes
+;; miZal~iy~_1
+mZly    miZal~iy~       Nall    parachutists;paratrooper     <pos>miZal~iy~/ADJ</pos>
+;; muZal~il_1
+mZll    muZal~il        N-ap    shady;shadowy     <pos>muZal~il/ADJ</pos>
+;; muZil~_1
+mZl     muZil~  N-ap    shady;shadowy     <pos>muZil~/ADJ</pos>
+;
+;--- ZlE
+;; ZalaE-a_1
+ZlE     ZalaE   PV      limp
+ZlE     ZolaE   IV      limp
+;; ZaloE_1
+ZlE     ZaloE   N       limping
+;; ZAliE_1
+ZAlE    ZAliE   Nall    lame;limping
+;; ZulAE_1
+ZlAE    ZulAE   N       rheumatism
+;
+;--- Zlf
+;; Zilof_1
+Zlf     Zilof   N       cloven hoof
+Zlwf    Zuluwf  N       cloven hoof
+>ZlAf   >aZolAf N       cloven hoof
+AZlAf   >aZolAf N       cloven hoof
+;
+;--- Zlm
+;; Zalam-ia_1
+Zlm     Zalam   PV_intr be unjust;oppress
+Zlm     Zolim   IV_intr_yu      be unjust;oppress
+Zlm     Zolam   IV_Pass_yu      be oppressed
+;; >aZolam_1
+>Zlm    >aZolam PV_intr become dark
+AZlm    >aZolam PV_intr become dark
+Zlm     Zolim   IV_intr_yu      become dark
+Zlm     Zolam   IV_Pass_yu      be darkened
+;; taZal~am_1
+tZlm    taZal~am        PV      complain
+tZlm    taZal~am        IV      complain
+;; {inoZalam_1
+<nZlm   {inoZalam       PV_intr be wronged
+AnZlm   {inoZalam       PV_intr be wronged
+nZlm    noZalim IV_intr be wronged
+;; {iZ~alam_1
+<Zlm    {iZ~alam        PV_intr be wronged
+AZlm    {iZ~alam        PV_intr be wronged
+Zlm     Z~alim  IV_intr be wronged
+;; Zulom_1
+Zlm     Zulom   N       injustice
+;; Zulomap_1
+Zlm     Zulom   NapAt   darkness
+ZlmA'   ZalomA' N0_Nh   darkness
+ZlmA&   ZalomA& Nh      darkness
+ZlmA}   ZalomA} Nhy     darkness
+;; ZalAm_1
+ZlAm    ZalAm   N       darkness
+ZlAm    ZalAm   N       injustice
+;; ZalAmiy~_1
+ZlAmy   ZalAmiy~        Nall    obscurantist     <pos>ZalAmiy~/ADJ</pos>
+;; Zal~Am_1
+ZlAm    Zal~Am  N       tyrant
+;; Zaliym_1
+Zlym    Zaliym  Ndu     ostrich
+ZlmAn   ZilomAn N       ostriches
+;; ZulAmap_1
+ZlAm    ZulAm   NapAt   injustice;misdeed
+;; >aZolam_2
+>Zlm    >aZolam Nel     darker/darkest;viler/vilest
+AZlm    >aZolam Nel     darker/darkest;viler/vilest
+;; maZolimap_1
+mZlm    maZolim Napdu   injustice;misdeed
+mZAlm   maZAlim Ndip    injustices;misdeeds
+;; <iZolAm_1
+<ZlAm   <iZolAm N/At    darkness;gloom
+AZlAm   <iZolAm N/At    darkness;gloom
+;; taZal~um_1
+tZlm    taZal~um        N/At    complaint
+;; ZAlim_1
+ZAlm    ZAlim   Nall    oppressor;tyrant
+ZlAm    Zul~Am  N       oppressors;tyrants
+Zlm     Zalam   Nap     oppressors;tyrants
+;; maZoluwm_1
+mZlwm   maZoluwm        Nall    oppressed;treated unjustly     <pos>maZoluwm/ADJ</pos>
+;; muZolim_1
+mZlm    muZolim Nall    dark;gloomy     <pos>muZolim/ADJ</pos>
+;
+;--- ZmA
+;; Zami}-a_1
+Zm}     Zami}   PV_intr be thirsty
+Zm>     Zoma>   IV_intr be thirsty
+Zm|     Zoma|   IV-|    be thirsty
+Zm&     Zoma&   IV_wn   be thirsty
+Zm}     Zoma}   IV_yn   be thirsty
+;; Zam~a>_1
+Zm>     Zam~a>  PV->    make thirsty
+Zm|     Zam~a|  PV-|    make thirsty
+Zm&     Zam~a&  PV_w    make thirsty
+Zm}     Zam~i}  IV_yu   make thirsty
+;; >aZoma>_1
+>Zm>    >aZoma> PV->    make thirsty
+AZm>    >aZoma> PV->    make thirsty
+>Zm|    >aZoma| PV-|    make thirsty
+AZm|    >aZoma| PV-|    make thirsty
+>Zm&    >aZoma& PV_w    make thirsty
+AZm&    >aZoma& PV_w    make thirsty
+Zm}     Zomi}   IV_yu   make thirsty
+Zm>     Zoma>   IV_Pass_yu      be made thirsty
+;; Zama>_1
+Zm>     Zama>   N0_Nh   thirst
+Zm&     Zama&   Nh      thirst
+Zm}     Zama}   Nhy     thirst
+;; ZamA'_1
+ZmA'    ZamA'   N0_Nh   thirst
+ZmA&    ZamA&   Nh      thirst
+ZmA}    ZamA}   Nhy     thirst
+ZmA'    ZamA'   Nap     thirst
+;; Zimo'_1
+Zm'     Zimo'   N0      thirst
+Zm>     Zimo>   N0_Nh   thirst
+Zm&     Zimo&   Nh      thirst
+Zm}     Zimo}   Nhy     thirst
+;; Zamo|n_1
+Zm|n    Zamo|n  Ndip    thirsty     <pos>Zamo|n/ADJ</pos>
+Zm>Y    Zamo>aY N0      thirsty
+;; ZAmi}_1
+ZAm}    ZAmi}   Nall    thirsty     <pos>ZAmi}/ADJ</pos>
+;
+;--- Zn
+;; Zan~-u_1
+Zn      Zan~    PV_V    think;believe;presume
+Znn     Zanan   PV_Cn   think;believe;presume
+Zn      Zun~    IV_V    think;believe;presume
+Znn     Zonun   IV-n    think;believe;presume
+;; Zan~_1
+Zn      Zan~    N       opinion;assumption
+;; Zunuwn_1
+Znwn    Zunuwn  N       suppositions
+;; Zan~iy~_1
+Zny     Zan~iy~ N-ap    hypothetical;supposed     <pos>Zan~iy~/ADJ</pos>
+;; Zin~ap_1
+Zn      Zin~    Nap     distrust
+Znn     Zinan   N       misgivings
+;; Zaniyn_1
+Znyn    Zaniyn  Nall    suspicious;suspected     <pos>Zaniyn/ADJ</pos>
+;; Zanuwn_1
+Znwn    Zanuwn  Nall    suspicious;suspected     <pos>Zanuwn/ADJ</pos>
+;; maZin~ap_1
+mZn     maZin~  Nap     presumption;prejudice
+mZAn    maZAn~  Ndip    presumptions;prejudices
+;; maZonuwn_1
+mZnwn   maZonuwn        Nall    presumed;suspected;suspicious     <pos>maZonuwn/ADJ</pos>
+;
+;--- Znb
+;; Zunobuwb_1
+Znbwb   Zunobuwb        Ndu     shinbone;tibia
+ZnAbyb  ZanAbiyb        Ndip    shinbones
+;; Zunobuwbiy~_1
+Znbwby  Zunobuwbiy~     N-ap    tibial;shin     <pos>Zunobuwbiy~/ADJ</pos>
+;
+;--- Zhr
+;; Zahar-a_1
+Zhr     Zahar   PV      appear;emerge
+Zhr     Zohar   IV      appear;emerge
+;; Zah~ar_1
+Zhr     Zah~ar  PV      endorse
+Zhr     Zah~ir  IV_yu   endorse
+;; Zah~ar_2
+Zhr     Zah~ar  PV      develop
+Zhr     Zah~ir  IV_yu   develop
+;; ZAhar_1
+ZAhr    ZAhar   PV      assist;support
+ZAhr    ZAhir   IV_yu   assist;support
+;; >aZohar_1
+>Zhr    >aZohar PV      show;manifest;demonstrate
+AZhr    >aZohar PV      show;manifest;demonstrate
+Zhr     Zohir   IV_yu   show;manifest;demonstrate
+Zhr     Zohar   IV_Pass_yu      be shown;be manifest;be demonstrated
+;; taZAhar_1
+tZAhr   taZAhar PV      manifest;demonstrate
+tZAhr   taZAhar IV      manifest;demonstrate
+;; {isotaZohar_1
+<stZhr  {isotaZohar     PV      memorize;demonstrate
+AstZhr  {isotaZohar     PV      memorize;demonstrate
+stZhr   sotaZohir       IV      memorize;demonstrate
+;; Zahor_1
+Zhr     Zahor   N       back;spine
+Zhr     Zahor   NAn_Nayn        midst
+;; Zahoriy~_1
+Zhry    Zahoriy~        N-ap    dorsal     <pos>Zahoriy~/ADJ</pos>
+;; >aZohur_1
+>Zhr    >aZohur N       rear part
+AZhr    >aZohur N       rear part
+;; Zuhor_1
+Zhr     Zuhor   N       noon;afternoon
+Zhr     Zuhor   NF      in the afternoon;at noon     <pos>Zuhor/ADV</pos>
+>ZhAr   >aZohAr N       afternoons
+AZhAr   >aZohAr N       afternoons
+;; Zuhoriy~_1
+Zhry    Zuhoriy~        N-ap    afternoon;meridian     <pos>Zuhoriy~/ADJ</pos>
+;; Zahiyr_1
+Zhyr    Zahiyr  N/ap    assistant;partisan
+;; Zahiyrap_1
+Zhyr    Zahiyr  Nap     noon;midday
+;; Zuhuwr_1
+Zhwr    Zuhuwr  N       appearance;emergence
+;; ZahorAn_1
+ZhrAn   ZahorAn N       Dhahran
+;; ZihArap_1
+ZhAr    ZihAr   Nap     outside;epithelium
+;; >aZohar_2
+>Zhr    >aZohar Nel     clearer/clearest;more/most apparent
+AZhr    >aZohar Nel     clearer/clearest;more/most apparent
+;; maZohar_1
+mZhr    maZohar Ndu     appearance;facade
+mZAhr   maZAhir Ndip    features;manifestations
+;; taZohiyr_1
+tZhyr   taZohiyr        N/At    endorsement;transfer
+;; taZohiyr_2
+tZhyr   taZohiyr        N/At    (photo) developing
+;; ZihAr_1
+ZhAr    ZihAr   N       epithelium
+;; ZihAriy~_1
+ZhAry   ZihAriy~        N-ap    epithelial     <pos>ZihAriy~/ADJ</pos>
+;; muZAharap_1
+mZAhr   muZAhar NapAt   demonstration;rally
+;; <iZohAr_1
+<ZhAr   <iZohAr N/At    expressing;showing;demonstrating
+AZhAr   <iZohAr N/At    expressing;showing;demonstrating
+;; <iZohAriy~_1
+<ZhAry  <iZohAriy~      Nall    demonstrative;exhibitionist     <pos><iZohAriy~/ADJ</pos>
+AZhAry  <iZohAriy~      Nall    demonstrative;exhibitionist     <pos><iZohAriy~/ADJ</pos>
+;; taZAhur_1
+tZAhr   taZAhur NduAt   demonstration;exhibition;simulation
+;; taZAhurap_1
+tZAhr   taZAhur NapAt   rally;demonstration
+;; taZAhuriy~_1
+tZAhry  taZAhuriy~      N-ap    simulated     <pos>taZAhuriy~/ADJ</pos>
+;; ZAhir_1
+ZAhr    ZAhir   N/ap    evident;apparent;manifest;visible
+;; ZAhir_2
+ZAhr    ZAhir   N0      Zahir
+;; ZAhiriy~_1
+ZAhry   ZAhiriy~        N-ap    apparent;external     <pos>ZAhiriy~/ADJ</pos>
+;; ZAhiriy~ap_1
+ZAhryp  ZAhiriy~ap      N0      Zaheriya
+;; ZAhirap_1
+ZAhr    ZAhir   Napdu   phenomenon
+ZwAhr   ZawAhir Ndip    phenomena
+;; ZawAhiriy~_1
+ZwAhry  ZawAhiriy~      N0      Zawahri;Zawahiri
+;; ZawAhiriy~_2
+ZwAhry  ZawAhiriy~      Nall    phenomenal     <pos>ZawAhiriy~/ADJ</pos>
+;; ZAhirAtiy~_1
+ZAhrAty ZAhirAtiy~      Nall    phenomenological     <pos>ZAhirAtiy~/ADJ</pos>
+;; muZah~ir_1
+mZhr    muZah~ir        Nall    endorser
+;; mutaZAhir_1
+mtZAhr  mutaZAhir       Nall    demonstrator
+;; {isotiZohAr_1
+<stZhAr {isotiZohAr     N/At    memorization;recitation
+AstZhAr {isotiZohAr     N/At    memorization;recitation

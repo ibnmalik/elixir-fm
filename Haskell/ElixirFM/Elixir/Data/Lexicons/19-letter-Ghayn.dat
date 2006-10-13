@@ -1,0 +1,4070 @@
+;--- gA
+;; gAbAniy~_1
+gAbAny  gAbAniy~        N-ap    cashmere     <pos>gAbAniy~/ADJ</pos>
+gbAny   gabAniy~        N-ap    cashmere     <pos>gabAniy~/ADJ</pos>
+;
+;--- gAb
+;; gAbriyyil_1
+gAbryyl gAbriyyil       Nprop   Gabriel
+;; gAbriyyil~A_1
+gAbryylA        gAbriyyil~A     Nprop   Gabriela
+;
+;; gAbuwn_1
+gAbwn   gAbuwn  N0      Gabon
+;; gAbuwniy~_1
+gAbwny  gAbuwniy~       Nall    Gabon     <pos>gAbuwniy~/NOUN</pos>
+gAbwny  gAbuwniy~       Nall    Gabon     <pos>gAbuwniy~/ADJ</pos>
+;
+;--- gAt
+;; gAt_1
+gAt     gAt     N0      GATT
+jAt     jAt     N0      GATT
+;
+;; gAtuwsuw_1
+gAtwsw  gAtuwsuw        N0      Gattuso
+;
+;--- gAr
+;; gAromiyndiyA_1
+gArmyndyA       gAromiyndiyA    Nprop   Garmendia
+;
+;; gAroniyt_1
+gArnyt  gAroniyt        Nprop   Garnett
+;
+;; gAruwdy_1
+gArwdy  gAruwdy Nprop   Garoudy
+jArwdy  jAruwdy Nprop   Garoudy
+;
+;--- gAz
+;; gAz_1
+gAz     gAz     Ndu     gas
+gAz     gAz     NAt     gasses
+;; gAziy~_1
+gAzy    gAziy~  N-ap    gaseous     <pos>gAziy~/ADJ</pos>
+;
+; striker Wartan Gazarian
+;; gAzaroyAn_1
+gAzryAn gAzaroyAn       N0      Gazarian
+;
+;; gAzuwzap_1
+gAzwz   gAzuwz  Nap     soda water
+;
+;--- gAs
+;; gAsotuwn_1
+gAstwn  gAsotuwn        Nprop   Gaston
+;
+;--- gAl
+;; gAl_1
+gAl     gAl     N/At    padlock
+;
+;; gAl_2
+gAl     gAl     N       Gaul
+;; gAliy~_1
+gAly    gAliy~  Nall    Gallic;Gaul     <pos>gAliy~/NOUN</pos>
+gAly    gAliy~  Nall    Gallic;Gaul     <pos>gAliy~/ADJ</pos>
+;
+;; gAlokiynA_1
+gAlkynA gAlokiynA       Nprop   Galkina
+;
+;; gAluw_1
+gAlw    gAluw   Nprop   Galo
+;
+;; gAlowAy_1
+gAlwAy  gAlowAy N0      Galway
+;
+;; gAliyriy~_1
+gAlyry  gAliyriy~       N-ap    gallery     <pos>gAliyriy~/ADJ</pos>
+;
+;--- gAm
+;; gAmA_1
+gAmA    gAmA    N0      gamma
+;
+;; gAmA_2
+gAmA    gAmA    Nprop   Gama
+;
+;; gAmobiyA_1
+gAmbyA  gAmobiyA        N0      Gambia
+;; gAmobiy~_1
+gAmby   gAmobiy~        Nall    Gambian     <pos>gAmobiy~/NOUN</pos>
+gAmby   gAmobiy~        Nall    Gambian     <pos>gAmobiy~/ADJ</pos>
+;
+; American tennis player Jan-Michael Gambill
+;; gAmobiyl_1
+gAmbyl  gAmobiyl        Nprop   Gambill
+;
+;--- gAn
+;; gAnap_1
+gAn     gAn     Nap     Ghana
+gAnA    gAnA    N0      Ghana
+;; gAniy~_1
+gAny    gAniy~  Nall    Ghanaian;Ghanian
+;
+; Benny Gantz
+;; gAntz_1
+gAntz   gAntz   Nprop   Gantz
+;
+;; gAnodiy_1
+gAndy   gAnodiy Nprop   Ghandi
+;
+;--- gAw
+;; gAw_1
+gAw     gAw     Nprop   Gao
+;
+;--- gAy
+;; gAyiz_1
+gAyz    gAyiz   Nprop   Gaze
+;
+;--- gb
+;; gab~-a_1
+gb      gab~    PV_V    come intermittently
+gbb     gabab   PV_C    come intermittently
+gb      gab~    IV_V    come intermittently
+gbb     gobab   IV_C    come intermittently
+;; gab~-u_1
+gb      gab~    PV_V    quaff
+gbb     gabab   PV_C    quaff
+gb      gub~    IV_V    quaff
+gbb     gobub   IV_C    quaff
+;; gib~_1
+gb      gib~    N       consequence;outcome
+;; gib~a_1
+gb      gib~a   FW-Wa   after     <pos>gib~a/PREP</pos>
+gb      gib~a   FW-Wa-a after     <pos>gib~a/PREP</pos>
+;; gib~AF_1
+gb      gib~    NF      intermittently;alternately     <pos>gib~/ADV</pos>
+;; gabab_1
+gbb     gabab   N       dewlap;wattle
+>gbAb   >agobAb N       dewlap;wattle
+AgbAb   >agobAb N       dewlap;wattle
+;; magab~ap_1
+mgb     magab~  Napdu   consequence;result;outcome
+mgb     magab~  NAt     consequences;results;outcome
+;; gub~ap_1
+gb      gub~    Nap     gulp
+;
+;--- gbr
+;; gabar-u_1
+gbr     gabar   PV      elapse;pass
+gbr     gobur   IV      elapse;pass
+;; gab~ar_1
+gbr     gab~ar  PV      raise dust;cover with dust
+gbr     gab~ir  IV_yu   raise dust;cover with dust
+;; >agobar_1
+>gbr    >agobar PV      raise dust;cover with dust
+Agbr    >agobar PV      raise dust;cover with dust
+gbr     gobir   IV_yu   raise dust;cover with dust
+gbr     gobar   IV_Pass_yu      be covered with dust
+;; tagab~ar_1
+tgbr    tagab~ar        PV_intr be dusty
+tgbr    tagab~ar        IV_intr be dusty
+;; {igobar~_1
+<gbr    {igobar~        PV_V_intr       be dust-colored
+Agbr    {igobar~        PV_V_intr       be dust-colored
+<gbrr   {igobarar       PV_C_intr       be dust-colored
+Agbrr   {igobarar       PV_C_intr       be dust-colored
+gbr     gobar~  IV_V_intr       be dust-colored
+gbrr    gobarir IV_C_intr       be dust-colored
+;; gabir_1
+gbr     gabir   N-ap    dusty
+;; guborap_1
+gbr     gubor   Nap     dust color
+;; gabarap_1
+gbr     gabar   Nap     dust
+;; gubAr_1
+gbAr    gubAr   N       dust
+>gbr    >agobir Nap     dust
+Agbr    >agobir Nap     dust
+;; >agobar_2
+>gbr    >agobar Nel     dust-colored
+Agbr    >agobar Nel     dust-colored
+gbrA'   gaborA' N0_Nh   dust-colored
+gbrA&   gaborA& Nh      dust-colored
+gbrA}   gaborA} Nhy     dust-colored
+gbr     gubor   N       dust-colored
+;; >agobar_3
+>gbr    >agobar N0      earth;Earth
+Agbr    >agobar N0      earth;Earth
+gbrA'   gaborA' N0_Nh   earth;Earth
+gbrA&   gaborA& Nh      earth;Earth
+gbrA}   gaborA} Nhy     earth;Earth
+;; {igobirAr_1
+<gbrAr  {igobirAr       N/At    resentment;grayness
+AgbrAr  {igobirAr       N/At    resentment;grayness
+;; gAbir_1
+gAbr    gAbir   N-ap    bygone;elapsed
+gwAbr   gawAbir Ndip    bygone;elapsed
+;; mugab~ar_1
+mgbr    mugab~ar        N-ap    dusty     <pos>mugab~ar/ADJ</pos>
+;; mugobar~_1
+mgbr    mugobar~        N-ap    dust-colored
+;
+;--- gbs
+;; >agobas_1
+>gbs    >agobas Nel     light-tan
+Agbs    >agobas Nel     light-tan
+gbsA'   gabosA' N0_Nh   light-tan
+gbsA&   gabosA& Nh      light-tan
+gbsA}   gabosA} Nhy     light-tan
+;
+;--- gb$
+;; gaba$_1
+gb$     gaba$   N       darkness;twilight
+>gbA$   >agobA$ N       darkness;twilight
+AgbA$   >agobA$ N       darkness;twilight
+;; gabi$_1
+gb$     gabi$   N-ap    opaque;dark     <pos>gabi$/ADJ</pos>
+;; gubo$ap_1
+gb$     gubo$   Nap     twilight
+;; >agoba$_1
+>gb$    >agoba$ Nel     dark;opaque     <pos>>agoba$/ADJ</pos>
+Agb$    >agoba$ Nel     dark;opaque
+gb$A'   gabo$A' N0_Nh   dark;opaque
+gb$A&   gabo$A& Nh      dark;opaque
+gb$A}   gabo$A} Nhy     dark;opaque
+gb$     gubo$   N       dark;opaque
+;; gabA$ap_1
+gbA$    gabA$   Nap     asthenopia
+;
+;--- gbT
+;; gabaT-i_1
+gbT     gabaT   PV      envy
+gbT     gobiT   IV      envy
+;; gab~aT_1
+gbT     gab~aT  PV      make envious
+gbT     gab~iT  IV_yu   make envious
+;; >agobaT_1
+>gbT    >agobaT PV      enchant
+AgbT    >agobaT PV      enchant
+gbT     gobiT   IV_yu   enchant
+gbT     gobaT   IV_Pass_yu      be enchanted
+;; {igotabaT_1
+<gtbT   {igotabaT       PV_intr be content;be delighted
+AgtbT   {igotabaT       PV_intr be content;be delighted
+gtbT    gotabiT IV_intr be content;be delighted
+;; giboTap_1
+gbT     giboT   Nap     happiness;delight
+;; {igotibAT_1
+<gtbAT  {igotibAT       N/At    contentment;rejoicing
+AgtbAT  {igotibAT       N/At    contentment;rejoicing
+;; magobuwT_1
+mgbwT   magobuwT        Nall    fortunate;enviable     <pos>magobuwT/ADJ</pos>
+;; mugotabiT_1
+mgtbT   mugotabiT       Nall    delighted;gratified     <pos>mugotabiT/ADJ</pos>
+;
+;--- gbn
+;; gaban-i_1
+gbn     gaban   PV-n    cheat;defraud
+gbn     gobin   IV-n    cheat;defraud
+;; gabon_1
+gbn     gabon   N       fraud;deceit
+gbwn    gubuwn  N       fraud;deceit
+;; magobuwn_1
+mgbwn   magobuwn        Nall    deceived;defrauded     <pos>magobuwn/ADJ</pos>
+;
+;--- gby
+;; gabiy-a_1
+gby     gabiy   PV_no-w_intr    be ignorant
+gb      gab     PV_w_intr       be ignorant
+gbY     gobaY   IV_0    be ignorant
+gby     gobay   IV_Ann  be ignorant
+gb      goba    IV_0hwnyn       be ignorant
+;; tagAbaY_1
+tgAbY   tagAbaY PV_0    feign ignorance
+tgAbA   tagAbA  PV_h    feign ignorance
+tgAby   tagAbay PV_Atn  feign ignorance
+tgAb    tagAb   PV_ttAw feign ignorance
+tgAbY   tagAbaY IV_0    feign ignorance
+tgAbA   tagAbA  IV_h    feign ignorance
+tgAby   tagAbay IV_Ann  feign ignorance
+tgAb    tagAb   IV_0hwnyn       feign ignorance
+;; gabowap_1
+gbw     gabow   Nap     riddle;enigma;puzzle
+;; gabiy~_1
+gby     gabiy~  N/ap    ignorant;stupid     <pos>gabiy~/ADJ</pos>
+>gbyA'  >agobiyA'       N0_Nh   ignorant;stupid
+AgbyA'  >agobiyA'       N0_Nh   ignorant;stupid
+>gbyA&  >agobiyA&       Nh      ignorant;stupid
+AgbyA&  >agobiyA&       Nh      ignorant;stupid
+>gbyA}  >agobiyA}       Nhy     ignorant;stupid
+AgbyA}  >agobiyA}       Nhy     ignorant;stupid
+;; gabA'_1
+gbA'    gabA'   N0_Nh   ignorance;stupidity
+gbA&    gabA&   Nh      ignorance;stupidity
+gbA}    gabA}   Nhy     ignorance;stupidity
+;; gabAwap_1
+gbAw    gabAw   Nap     ignorance;stupidity
+;; >agobaY_1
+>gbY    >agobaY N0      stupid
+AgbY    >agobaY N0      stupid
+>gbA    >agobA  Nhy     stupid
+AgbA    >agobA  Nhy     stupid
+>gby    >agobay NAn_Nayn        stupid
+Agby    >agobay NAn_Nayn        stupid
+;; tagobiyap_1
+tgby    tagobiy Nap     stupefaction
+;
+;--- gt
+;; gat~-u_1
+gt      gat~    PV_V    submerse;immerse
+gtt     gatat   PV_Ct   submerse;immerse
+gt      gut~    IV_V    submerse;immerse
+gtt     gotut   IV_C    submerse;immerse
+;; gat~_1
+gt      gat~    N       submersion;immersion
+;
+;--- gv
+;; gav~-i_1
+gv      gav~    PV_V_intr       be thin;fester
+gvv     gavav   PV_C_intr       be thin;fester
+gv      giv~    IV_V_intr       be thin;fester
+gvv     goviv   IV_C_intr       be thin;fester
+;; gav~_1
+gv      gav~    N       thin;meager
+;; gaviyv_1
+gvyv    gaviyv  N       thin;pus discharge     <pos>gaviyv/ADJ</pos>
+;; gavAvap_1
+gvAv    gavAv   Nap     thinness
+;; guvuwvap_1
+gvwv    guvuwv  Nap     thinness
+;
+;--- gvy
+;; gavaY-i_1
+gvY     gavaY   PV_0    be nauseated;be disgusted
+gvA     gavA    PV_h    be nauseated;be disgusted
+gvy     gavay   PV_Atn  be nauseated;be disgusted
+gv      gav     PV_ttAw_intr    be nauseated;be disgusted
+gvy     goviy   IV_0hAnn        be nauseated;be disgusted
+gv      gov     IV_0hwnyn       be nauseated;be disgusted
+;; >agovaY_1
+>gvY    >agovaY PV_0    nauseate;disgust
+AgvY    >agovaY PV_0    nauseate;disgust
+>gvA    >agovA  PV_h    nauseate;disgust
+AgvA    >agovA  PV_h    nauseate;disgust
+>gvy    >agovay PV_Atn  nauseate;disgust
+Agvy    >agovay PV_Atn  nauseate;disgust
+>gv     >agov   PV_ttAw nauseate;disgust
+Agv     >agov   PV_ttAw nauseate;disgust
+gvy     goviy   IV_0hAnn_yu     nauseate;disgust
+gv      gov     IV_0hwnyn_yu    nauseate;disgust
+gvY     govaY   IV_0_Pass_yu    be nauseated;be disgusted
+gvy     govay   IV_Ann_Pass_yu  be nauseated;be disgusted
+;; gavoy_1
+gvy     gavoy   N       nausea
+;; gavayAn_1
+gvyAn   gavayAn N       disgust;nausea
+;; guvA'_1
+gvA'    guvA'   N0_Nh   scum
+gvA&    guvA&   Nh      scum
+gvA}    guvA}   Nhy     scum
+;; mugoviy_1
+mgvy    mugoviy N0F_Nh  disgusting;nauseating     <pos>mugoviy/ADJ</pos>
+mgv     mugov   NK      disgusting;nauseating
+mgvy    mugoviy NAn_Nayn        disgusting;nauseating
+mgv     mugov   Nuwn_Niyn       disgusting;nauseating
+mgvy    mugoviy NapAt   disgusting;nauseating
+;
+;--- gjr
+;; gaj~ar_1
+gjr     gaj~ar  PV      scold;curse
+gjr     gaj~ir  IV_yu   scold;curse
+;; gajariy~_1
+gjry    gajariy~        N-ap    gypsy     <pos>gajariy~/ADJ</pos>
+gjr     gajar   N       gypsies
+;; tagojiyr_1
+tgjyr   tagojiyr        N/At    scolding;cursing
+;
+;--- gd
+;; gadad_1
+gdd     gadad   N       cattle epidemic
+;; gud~ap_1
+gd      gud~    Napdu   gland
+gdd     gudad   N       glands
+;; gudadiy~_1
+gddy    gudadiy~        N-ap    glandular     <pos>gudadiy~/ADJ</pos>
+;; gud~iy~_1
+gdy     gud~iy~ N-ap    glandular     <pos>gud~iy~/ADJ</pos>
+;
+;--- gdr
+;; gadar-i_1
+gdr     gadar   PV      betray;double cross
+gdr     godir   IV      betray;double cross
+;; gAdar_1
+gAdr    gAdar   PV      leave;depart
+gAdr    gAdir   IV_yu   leave;depart
+;; gador_1
+gdr     gador   N       treason;deception
+;; gadorAF_1
+gdr     gador   NF      perfidiously;treacherously     <pos>gador/ADV</pos>
+;; gadiyr_1
+gdyr    gadiyr  N       pond;stream
+gdr     gudur   N       ponds;streams;marsh
+gdrAn   gudorAn N       ponds;streams;marshes
+;; gudorAniy~_1
+gdrAny  gudorAniy~      N-ap    paludal;marsh     <pos>gudorAniy~/ADJ</pos>
+;; gadiyrap_1
+gdyr    gadiyr  Nap     queue
+gdA}r   gadA}ir Ndip    queues
+;; gadiyrap_2
+gdyr    gadiyr  Nap     pigtail
+gdA}r   gadA}ir Ndip    pigtails
+;; gad~Ar_1
+gdAr    gad~Ar  Nall    treacherous;perfidious     <pos>gad~Ar/ADJ</pos>
+;; gad~Arap_1
+gdAr    gad~Ar  NapAt   revolver;pistol
+;; gAdir_1
+gAdr    gAdir   N-ap    perfidious;treacherous     <pos>gAdir/ADJ</pos>
+;; mugAdarap_1
+mgAdr   mugAdar Napdu   departure
+mgAdr   mugAdar NAt     departures
+;
+;--- gdf
+;; gudofap_1
+gdf     gudof   Nap     kerchief;headcloth
+gdf     gudaf   N       kerchiefs;headcloths
+;; gudAf_1
+gdAf    gudAf   N       raven
+;
+;--- gdq
+;; gadiq-a_1
+gdq     gadiq   PV      pour down
+gdq     godaq   IV      pour down
+;; >agodaq_1
+>gdq    >agodaq PV      pour down;shower
+Agdq    >agodaq PV      pour down;shower
+gdq     godiq   IV_yu   pour down;shower
+gdq     godaq   IV_Pass_yu      be poured down;be showered
+;; gadiq_1
+gdq     gadiq   N-ap    copious;abundant     <pos>gadiq/ADJ</pos>
+;; mugodiq_1
+mgdq    mugodiq N-ap    copious;abundant     <pos>mugodiq/ADJ</pos>
+;
+;--- gdn
+;; {igodawodan_1
+<gdwdn  {igodawodan     PV-n    grow luxuriantly;become lush
+Agdwdn  {igodawodan     PV-n    grow luxuriantly;become lush
+gdwdn   godawodin       IV-n    grow luxuriantly;become lush
+;; gadan_1
+gdn     gadan   N       lassitude
+;; gudonap_1
+gdn     gudon   Nap     lassitude
+;; gidAn_1
+gdAn    gidAn   N       clothes peg
+;; mugodawodin_1
+mgdwdn  mugodawodin     Nall    lush;luxuriant
+;
+;--- gdw
+;; gadA-u_1
+gdA     gadA    PV_0    depart;become current
+gdw     gadaw   PV_Atn  depart;become current
+gd      gad     PV_ttAw depart;become current
+gdw     goduw   IV_0hAnn        depart;become current
+gd      god     IV_0hwnyn       depart;become current
+;; gadiy-a_1
+gdy     gadiy   PV_no-w have breakfast
+gd      gad     PV_w    have breakfast
+gdY     godaY   IV_0    have breakfast
+gdy     goday   IV_Ann  have breakfast
+gd      goda    IV_0hwnyn       have breakfast
+;; gad~aY_1
+gdY     gad~aY  PV_0    give breakfast
+gdA     gad~A   PV_h    give breakfast
+gdy     gad~ay  PV_Atn  give breakfast
+gd      gad~    PV_ttAw give breakfast
+gdy     gad~iy  IV_0hAnn_yu     give breakfast
+gd      gad~    IV_0hwnyn_yu    give breakfast
+gdY     gad~aY  IV_0_Pass_yu    be fed breakfast
+gdy     gad~ay  IV_Ann_Pass_yu  be fed breakfast
+; temp solution @@ (no -uwna/-awna distinction available)
+gd      gad~    IV_0hwnyn_yu    be fed breakfast
+;; tagad~aY_1
+tgdY    tagad~aY        PV_0    have breakfast
+tgdA    tagad~A PV_h    have breakfast
+tgdy    tagad~ay        PV_Atn  have breakfast
+tgd     tagad~  PV_ttAw have breakfast
+tgdY    tagad~aY        IV_0    have breakfast
+tgdA    tagad~A IV_h    have breakfast
+tgdy    tagad~ay        IV_Ann  have breakfast
+tgd     tagad~  IV_0hwnyn       have breakfast
+;; gadA'_1
+gdA'    gadA'   N0_Nh   breakfast;lunch
+gdA&    gadA&   Nh      breakfast;lunch
+gdA}    gadA}   Nhy     breakfast;lunch
+>gdy    >agodiy Nap     breakfast;lunch
+Agdy    >agodiy Nap     breakfast;lunch
+;; gadAF_1
+gdA     gadAF   FW-WaBi tomorrow     <pos>gadAF/ADV</pos>
+;; gad_1
+gd      gad     N       tomorrow
+;; gadAp_1
+gdA     gadA    Nap     morning;tomorrow
+gdw     gadaw   NAt     comings;mornings
+;; guduw~_1
+gdw     guduw~  N       comings
+;; gudowap_1
+gdw     gudow   Nap     morning
+;; gadowap_1
+gdw     gadow   Nap     lunch
+;; gadiy~ap_1
+gdy     gadiy~  Nap     morning     <pos>gadiy~/NOUN</pos>
+gdAyA   gadAyA  N0_Nhy  mornings
+;; magodaY_1
+mgdY    magodaY N0      frequented place;aspired goal
+mgdA    magodA  Nhy     frequented place;aspired goal
+mgdy    magoday NAn_Nayn        frequented places;aspired goals
+;; gAdiy_1
+gAdy    gAdiy   N0F     coming
+gAd     gAd     NK      coming
+gAdy    gAdiy   NAn_Nayn        coming
+gAd     gAd     Nuwn_Niyn       coming
+gAdy    gAdiy   NapAt   coming
+;
+;--- g*
+;; ga*~-i_1
+g*      ga*~    PV_V    fester;suppurate
+g**     ga*a*   PV_C    fester;suppurate
+g*      gi*~    IV_V    fester;suppurate
+g**     go*i*   IV_C    fester;suppurate
+;; >aga*~_1
+>g*     >aga*~  PV_V    hurry;suppurate
+Ag*     >aga*~  PV_V    hurry;suppurate
+>g**    >ago*a* PV_C    hurry;suppurate
+Ag**    >ago*a* PV_C    hurry;suppurate
+g*      gi*~    IV_V_yu hurry;suppurate
+g**     go*i*   IV_C_yu hurry;suppurate
+;; ga*~_1
+g*      ga*~    N       festering;suppurating
+;; <igo*A*_1
+<g*A*   <igo*A* N/At    hurrying;festering
+Ag*A*   <igo*A* N/At    hurrying;festering
+;
+;--- g*w
+;; ga*A-u_1
+g*A     ga*A    PV_0h   feed;nourish
+g*w     ga*aw   PV_Atn  feed;nourish
+g*      ga*     PV_ttAw feed;nourish
+g*w     go*uw   IV_0hAnn        feed;nourish
+g*      go*     IV_0hwnyn       feed;nourish
+g*Y     go*aY   IV_0_Pass_yu    be fed;be nourished
+g*y     go*ay   IV_Ann_Pass_yu  be fed;be nourished
+;; ga*~aY_1
+g*Y     ga*~aY  PV_0    feed;nourish
+g*A     ga*~A   PV_h    feed;nourish
+g*y     ga*~ay  PV_Atn  feed;nourish
+g*      ga*~    PV_ttAw feed;nourish
+g*y     ga*~iy  IV_0hAnn_yu     feed;nourish
+g*      ga*~    IV_0hwnyn_yu    feed;nourish
+g*Y     ga*~aY  IV_0_Pass_yu    be fed;be nourished
+g*y     ga*~ay  IV_Ann_Pass_yu  be fed;be nourished
+; temp solution @@ (there are several others like this)
+g*      ga*~    IV_0hwnyn_yu    be fed;be nourished
+;; taga*~aY_1
+tg*Y    taga*~aY        PV_0    be fed;be nourished
+tg*A    taga*~A PV_h    be fed;be nourished
+tg*y    taga*~ay        PV_Atn  be fed;be nourished
+tg*     taga*~  PV_ttAw_intr    be fed;be nourished
+tg*Y    taga*~aY        IV_0    be fed;be nourished
+tg*A    taga*~A IV_h    be fed;be nourished
+tg*y    taga*~ay        IV_Ann  be fed;be nourished
+tg*     taga*~  IV_0hwnyn       be fed;be nourished
+;; {igota*aY_1
+<gt*Y   {igota*aY       PV_0    be fed;be nourished
+Agt*Y   {igota*aY       PV_0    be fed;be nourished
+<gt*A   {igota*A        PV_h    be fed;be nourished
+Agt*A   {igota*A        PV_h    be fed;be nourished
+<gt*y   {igota*ay       PV_Atn  be fed;be nourished
+Agt*y   {igota*ay       PV_Atn  be fed;be nourished
+<gt*    {igota* PV_ttAw_intr    be fed;be nourished
+Agt*    {igota* PV_ttAw_intr    be fed;be nourished
+gt*y    gota*iy IV_0hAnn        be fed;be nourished
+gt*     gota*   IV_0hwnyn       be fed;be nourished
+gt*Y    gota*aY IV_0_Pass_yu    be fed;be nourished
+;; ga*ow_1
+g*w     ga*ow   N       feeding;nourishment
+;; gi*A'_1
+g*A'    gi*A'   N0_Nh   food
+g*A&    gi*A&   Nh      food
+g*A}    gi*A}   Nhy     food
+>g*y    >ago*iy Nap     food;provisions
+Ag*y    >ago*iy Nap     food;provisions
+;; gi*A}iy~_1
+g*A}y   gi*A}iy~        Nall    food;alimentary;nutritional     <pos>gi*A}iy~/ADJ</pos>
+;; tago*iyap_1
+tg*y    tago*iy NapAt   feeding;nutrition
+;; muga*~iy_1
+mg*y    muga*~iy        N0F_Nh  nutritious;substantial     <pos>muga*~iy/ADJ</pos>
+mg*     muga*~  NK      nutritious;substantial
+mg*y    muga*~iy        NAn_Nayn        nutritious;substantial
+mg*y    muga*~iy        Napdu   nutritious;substantial
+;
+;--- gr
+;; gar~_1
+gr      gar~    PV_V    mislead;delude
+grr     garar   PV_C    mislead;delude
+gr      gur~    IV_V    mislead;delude
+grr     gorur   IV_C    mislead;delude
+;; gar~ar_1
+grr     gar~ar  PV      deceive;endanger
+grr     gar~ir  IV_yu   deceive;endanger
+;; {igotar~_1
+<gtr    {igotar~        PV_V_intr       be misled
+Agtr    {igotar~        PV_V_intr       be misled
+<gtrr   {igotarar       PV_C_intr       be misled
+Agtrr   {igotarar       PV_C_intr       be misled
+gtr     gotar~  IV_V_intr       be misled
+gtrr    gotarir IV_C_intr       be misled
+;; {isotagar~_1
+<stgr   {isotagar~      PV_V    surprise
+Astgr   {isotagar~      PV_V    surprise
+<stgrr  {isotagorar     PV_C    surprise
+Astgrr  {isotagorar     PV_C    surprise
+stgr    sotagir~        IV_V    surprise
+stgrr   sotagorir       IV_C    surprise
+;; gir~_1
+gr      gir~    N       inexperience;greenhorn
+;; >agorAr_1
+>grAr   >agorAr N       inexperience
+AgrAr   >agorAr N       inexperience
+;; gur~ap_1
+gr      gur~    Nap     beginning
+;; gir~ap_1
+gr      gir~    Nap     inadvertency;inattention
+;; guruwr_1
+grwr    guruwr  N       deception;delusion
+;; gariyr_1
+gryr    gariyr  N/ap    misled;deceived;naive     <pos>gariyr/ADJ</pos>
+>grA'   >agir~A'        N0_Nh   misled;deceived;naive
+AgrA'   >agir~A'        N0_Nh   misled;deceived;naive
+>grA&   >agir~A&        Nh      misled;deceived;naive
+AgrA&   >agir~A&        Nh      misled;deceived;naive
+>grA}   >agir~A}        Nhy     misled;deceived;naive
+AgrA}   >agir~A}        Nhy     misled;deceived;naive
+>gr     >agir~  Nap     misled;deceived;naive
+Agr     >agir~  Nap     misled;deceived;naive
+;; girAr_1
+grAr    girAr   N       manner;way;haste
+;; girArAF_1
+grAr    girAr   NF      hastily     <pos>girAr/ADV</pos>
+;; gar~Ar_1
+grAr    gar~Ar  N-ap    deceptive     <pos>gar~Ar/ADJ</pos>
+;; garArap_1
+grAr    garAr   Nap     heedlessness;manner
+;; girArap_1
+grAr    girAr   Napdu   sack;bag
+grA}r   garA}ir Ndip    sacks;bags
+;; >agar~_1
+>gr     >agar~  Nel     esteemed
+Agr     >agar~  Nel     esteemed
+grA'    gar~A'  N0_Nh   esteemed
+grA&    gar~A&  Nh      esteemed
+grA}    gar~A}  Nhy     esteemed
+gr      gur~    N       esteemed
+;; tagoriyriy~_1
+tgryry  tagoriyriy~     N-ap    insidious;deceptive     <pos>tagoriyriy~/ADJ</pos>
+;; magoruwr_1
+mgrwr   magoruwr        Nall    deceived;deluded;conceited     <pos>magoruwr/ADJ</pos>
+;; mugar~ir_1
+mgrr    mugar~ir        Nall    deceptive;insidious     <pos>mugar~ir/ADJ</pos>
+;; mugotar~_1
+mgtr    mugotar~        Nall    conceited;vain     <pos>mugotar~/ADJ</pos>
+;
+;--- grA
+;; grAhAm_1
+grAhAm  grAhAm  N0      Graham
+jrAhAm  jrAhAm  N0      Graham
+;
+;--- grb
+;; garab-u_1
+grb     garab   PV      depart;leave
+grb     gorub   IV      depart;leave
+;; gar~ab_1
+grb     gar~ab  PV      banish
+grb     gar~ib  IV_yu   banish
+;; >agorab_1
+>grb    >agorab PV      exaggerate
+Agrb    >agorab PV      exaggerate
+grb     gorib   IV_yu   exaggerate
+grb     gorab   IV_Pass_yu      be exaggerated
+;; tagar~ab_1
+tgrb    tagar~ab        PV      emigrate;be westernized
+tgrb    tagar~ab        IV      emigrate;be westernized
+;; {igotarab_1
+<gtrb   {igotarab       PV_intr be estranged;be alienated;be an expatriate
+Agtrb   {igotarab       PV_intr be estranged;be alienated;be an expatriate
+gtrb    gotarib IV_intr be estranged;be alienated;be an expatriate
+;; {isotagorab_1
+<stgrb  {isotagorab     PV      wonder at;find strange
+Astgrb  {isotagorab     PV      wonder at;find strange
+stgrb   sotagorib       IV      wonder at;find strange
+;; garob_1
+grb     garob   N       west;West
+;; garobAF_1
+grb     garob   NF      westward;in the West     <pos>garob/ADV</pos>
+;; garobiy~_1
+grby    garobiy~        Nall    west;western;westerner     <pos>garobiy~/ADJ</pos>
+;; gurobap_1
+grb     gurob   Nap     exile
+;; gurAb_1
+grAb    gurAb   N       crow
+grbAn   girobAn N       crows
+>grb    >agorub N       crows
+Agrb    >agorub N       crows
+>grb    >agorib Nap     crows
+Agrb    >agorib Nap     crows
+;; gariyb_1
+gryb    gariyb  N-ap    strange     <pos>gariyb/ADJ</pos>
+grbA'   gurabA' N0_Nh   strange
+grbA&   gurabA& Nh      strange
+grbA}   gurabA} Nhy     strange
+;; gariyb_2
+gryb    gariyb  Nall    stranger;foreigner
+grbA'   gurabA' N0_Nh   strangers;foreigners
+grbA&   gurabA& Nh      strangers;foreigners
+grbA}   gurabA} Nhy     strangers;foreigners
+>grAb   >agorAb N       strangers;foreigners;émigrés
+AgrAb   >agorAb N       strangers;foreigners;émigrés
+;; gariybap_1
+gryb    gariyb  Napdu   oddity
+grA}b   garA}ib Ndip    oddities
+;; guruwb_1
+grwb    guruwb  N       setting
+;; guruwbiy~_1
+grwby   guruwbiy~       N-ap    from sundown     <pos>guruwbiy~/ADJ</pos>
+;; garAbap_1
+grAb    garAb   Nap     strangeness;oddness
+;; >agorab_2
+>grb    >agorab Nel     stranger/strangest
+Agrb    >agorab Nel     stranger/strangest
+;; magorib_1
+mgrb    magorib N       Morocco
+mgrb    magorib N       Maghreb;Maghrib (northwest Africa)
+;; magArib_1
+mgArb   magArib Ndip    western areas
+;; magoribiy~_1
+mgrby   magoribiy~      Nall    Moroccan     <pos>magoribiy~/NOUN</pos>
+mgrby   magoribiy~      Nall    Moroccan     <pos>magoribiy~/ADJ</pos>
+mgArb   magArib Nap     Moroccan     <pos>magArib/NOUN</pos>
+mgArb   magArib Nap     Moroccan     <pos>magArib/ADJ</pos>
+;; magoribiy~_2
+mgrby   magoribiy~      Nall    of/from the Maghrib (northwest Africa)     <pos>magoribiy~/NOUN</pos>
+mgrby   magoribiy~      Nall    of/from the Maghrib (northwest Africa)     <pos>magoribiy~/ADJ</pos>
+mgArb   magArib Nap     of/from the Maghrib (northwest Africa)     <pos>magArib/NOUN</pos>
+mgArb   magArib Nap     of/from the Maghrib (northwest Africa)     <pos>magArib/ADJ</pos>
+; magorabap: see under --- mgrb
+;; tagoriyb_1
+tgryb   tagoriyb        N/At    banishment;expatriation
+;; tagar~ub_1
+tgrb    tagar~ub        N/At    emigration
+;; {igotirAb_1
+<gtrAb  {igotirAb       N/At    emigration;alienation
+AgtrAb  {igotirAb       N/At    emigration;alienation
+;; {igotirAbiy~_1
+<gtrAby {igotirAbiy~    Nall    migratory;emigration     <pos>{igotirAbiy~/ADJ</pos>
+AgtrAby {igotirAbiy~    Nall    migratory;emigration     <pos>{igotirAbiy~/ADJ</pos>
+;; {isotigorAb_1
+<stgrAb {isotigorAb     N/At    astonishment;surprise
+AstgrAb {isotigorAb     N/At    astonishment;surprise
+;; gArib_1
+gArb    gArib   Ndu     ridge;crest
+gwArb   gawArib Ndip    ridges;crests
+;; mugar~ab_1
+mgrb    mugar~ab        Nall    exiled     <pos>mugar~ab/ADJ</pos>
+;; mugotarib_1
+mgtrb   mugotarib       Nall    expatriate;foreigner
+mgtrb   mugotarib       Nall    exiled     <pos>mugotarib/ADJ</pos>
+;; mugArabiy~_1
+mgArby  mugArabiy~      N0      Mugharabi
+;; musotagorib_1
+mstgrb  musotagorib     Nall    finding strange;westernized
+;; musotagorab_1
+mstgrb  musotagorab     N       strange;odd     <pos>musotagorab/ADJ</pos>
+;
+;--- grbl
+;; garobal_1
+grbl    garobal PV      sift;sieve
+grbl    garobil IV_yu   sift;sieve
+;; garobalap_1
+grbl    garobal Nap     sifting;sieving
+;; girobAl_1
+grbAl   girobAl Ndu     sieve
+grAbyl  garAbiyl        Ndip    sieves
+;; mugarobal_1
+mgrbl   mugarobal       N-ap    sifted
+;
+;--- grv
+;; garoviyA_1
+grvyA   garoviyA        Nprop   Garcia
+;
+;--- grd
+;; garid-a_1
+grd     garid   PV      twitter;warble
+grd     gorad   IV      twitter;warble
+;; gar~ad_1
+grd     gar~ad  PV      twitter;warble
+grd     gar~id  IV_yu   twitter;warble
+;; tagar~ad_1
+tgrd    tagar~ad        PV      twitter;warble
+tgrd    tagar~ad        IV      twitter;warble
+;; garad_1
+grd     garad   N       twittering;warbling
+;; gurod_1
+grd     gurod   N       dune
+grwd    guruwd  N       dunes
+;; gir~iyd_1
+gryd    gir~iyd N-ap    twittering;warbling
+;; >ugoruwd_1
+>grwd   >ugoruwd        Ndu     twittering;warbling
+Agrwd   >ugoruwd        Ndu     twittering;warbling
+>grwd   >ugoruwd        Napdu   twittering;warbling
+Agrwd   >ugoruwd        Napdu   twittering;warbling
+>gAryd  >agAriyd        Ndip    twittering;warbling
+AgAryd  >agAriyd        Ndip    twittering;warbling
+;; tagoriyd_1
+tgryd   tagoriyd        N/At    twittering;warbling
+tgAryd  tagAriyd        Ndip    twittering;warbling
+;; tagoriyd_2
+tgryd   tagoriyd        N0      Taghreed;Taghrid
+;; mugar~id_1
+mgrd    mugar~id        N-ap    singing;warbling     <pos>mugar~id/ADJ</pos>
+;
+;--- grz
+;; garaz-i_1
+grz     garaz   PV      prick;stab
+grz     goriz   IV      prick;stab
+;; gar~az_1
+grz     gar~az  PV      thrust;stick
+grz     gar~iz  IV_yu   thrust;stick
+;; >agoraz_1
+>grz    >agoraz PV      thrust;stick
+Agrz    >agoraz PV      thrust;stick
+grz     goriz   IV_yu   thrust;stick
+grz     goraz   IV_Pass_yu      be thrusted;be stuck
+;; tagar~az_1
+tgrz    tagar~az        PV      penetrate;be inserted
+tgrz    tagar~az        IV      penetrate;be inserted
+;; {inogaraz_1
+<ngrz   {inogaraz       PV      penetrate;be inserted
+Angrz   {inogaraz       PV      penetrate;be inserted
+ngrz    nogariz IV      penetrate;be inserted
+;; {igotaraz_1
+<gtrz   {igotaraz       PV      penetrate;be inserted
+Agtrz   {igotaraz       PV      penetrate;be inserted
+gtrz    gotariz IV      penetrate;be inserted
+;; garoz_1
+grz     garoz   N       insertion;implantation
+;; garoz_2
+grz     garoz   N       stick;prick
+;; garoz_3
+grz     garoz   N       stirrup
+grwz    guruwz  N       stirrups
+;; gariyzap_1
+gryz    gariyz  Nap     natural instinct;natural impulse
+;; gariyziy~_1
+gryzy   gariyziy~       N-ap    natural;innate;instinctive     <pos>gariyziy~/ADJ</pos>
+;; gariyziy~AF_1
+gryzy   gariyziy~       NF      instinctively     <pos>gariyziy~/ADV</pos>
+;; magoraz_1
+mgrz    magoraz Ndu     prank;practical joke
+mgArz   magAriz Ndip    pranks;practical jokes
+;; {inogirAz_1
+<ngrAz  {inogirAz       N/At    penetration;piercing
+AngrAz  {inogirAz       N/At    penetration;piercing
+;
+;--- grs
+;; garas-i_1
+grs     garas   PV      implant;plant
+grs     goris   IV      implant;plant
+;; >agoras_1
+>grs    >agoras PV      implant;plant
+Agrs    >agoras PV      implant;plant
+grs     goris   IV_yu   implant;plant
+grs     goras   IV_Pass_yu      be implanted;be planted
+;; {inogaras_1
+<ngrs   {inogaras       PV_intr be implanted;sink in
+Angrs   {inogaras       PV_intr be implanted;sink in
+ngrs    nogaris IV_intr be implanted;sink in
+;; garos_1
+grs     garos   N       implant
+;; garos_2
+grs     garos   N       plant
+>grAs   >agorAs N       plants
+AgrAs   >agorAs N       plants
+grAs    girAs   N       plants
+;; garosap_1
+grs     garos   Napdu   plant
+grs     garas   NAt     plants
+;; girAs_1
+grAs    girAs   N       planting
+;; girAsap_1
+grAs    girAs   Nap     cultivation
+;; gariysap_1
+grys    gariys  Nap     seedling;plants
+grA}s   garA}is Ndip    seedlings;plants
+;; magoris_1
+mgrs    magoris Ndu     plantation
+mgArs   magAris Ndip    plantation
+;; mugArasap_1
+mgArs   mugAras NapAt   farm leasing
+;; mugArisiy~_1
+mgArsy  mugArisiy~      Nall    farm lessee     <pos>mugArisiy~/ADJ</pos>
+;
+;--- gr$
+;; giro$_1
+gr$     giro$   Ndu     piaster
+grw$    guruw$  N       piasters
+;
+;--- grD
+;; >agoraD_1
+>grD    >agoraD PV      attain
+AgrD    >agoraD PV      attain
+grD     goriD   IV_yu   attain
+grD     goraD   IV_Pass_yu      be attaind
+;; tagar~aD_1
+tgrD    tagar~aD        PV_intr be partial;have a bias
+tgrD    tagar~aD        IV_intr be partial;have a bias
+;; garaD_1
+grD     garaD   Ndu     goal;purpose;objective
+>grAD   >agorAD N       goals;objectives
+AgrAD   >agorAD N       goals;objectives
+;; >agorAD_1
+>grAD   >agorAD N       articles;items
+AgrAD   >agorAD N       articles;items
+;; garaDiy~_1
+grDy    garaDiy~        N-ap    tendency;purposeful     <pos>garaDiy~/ADJ</pos>
+;; gariyD_1
+gryD    gariyD  N-ap    fresh;tender     <pos>gariyD/ADJ</pos>
+>gAryD  >agAriyD        Ndip    fresh;tender
+AgAryD  >agAriyD        Ndip    fresh;tender
+;; tagar~uD_1
+tgrD    tagar~uD        N/At    bias;prejudice
+;; mugoriD_1
+mgrD    mugoriD Nall    biased;tendentious     <pos>mugoriD/ADJ</pos>
+;; mutagar~iD_1
+mtgrD   mutagar~iD      Nall    biased;tendentious     <pos>mutagar~iD/ADJ</pos>
+;
+;--- grDf
+;; guroDuwf_1
+grDwf   guroDuwf        N       cartilage
+grADyf  garADiyf        Ndip    cartilage
+;
+;--- grgr
+;; garogar_1
+grgr    garogar PV      gargle;bubble
+grgr    garogir IV_yu   gargle;bubble
+;; tagarogar_1
+tgrgr   tagarogar       PV      gargle;bubble
+tgrgr   tagarogar       IV      gargle;bubble
+;; garogarap_1
+grgr    garogar Nap     gargling;bubbling
+;; girogir_1
+grgr    girogir N       guinea-fowl
+grAgr   garAgir Ndip    guinea-fowl
+;
+;--- grf
+;; garaf-i_1
+grf     garaf   PV      scoop up
+grf     gorif   IV      scoop up
+;; {igotaraf_1
+<gtrf   {igotaraf       PV      scoop up
+Agtrf   {igotaraf       PV      scoop up
+gtrf    gotarif IV      scoop up
+;; gurofap_1
+grf     gurof   Napdu   room;chamber
+grf     guraf   N       rooms;chambers
+;; gar~Af_1
+grAf    gar~Af  Ndu     water wheel
+grAryf  garAriyf        Ndip    water wheel
+;; gar~Afap_1
+grAf    gar~Af  NapAt   decanter;carafe
+;; migorafap_1
+mgrf    migoraf Napdu   ladle;dipper
+mgArf   magArif Ndip    ladles;dippers
+;; {igotirAf_1
+<gtrAf  {igotirAf       N/At    scooping up
+AgtrAf  {igotirAf       N/At    scooping up
+;
+;--- grq
+;; gariq-a_1
+grq     gariq   PV      sink;drown;be submerged
+grq     goraq   IV      sink;drown;be submerged
+;; gar~aq_1
+grq     gar~aq  PV      submerge;drown;inundate
+grq     gar~iq  IV_yu   submerge;drown;inundate
+;; >agoraq_1
+>grq    >agoraq PV      submerge;drown;inundate
+Agrq    >agoraq PV      submerge;drown;inundate
+grq     goriq   IV_yu   submerge;drown;inundate
+grq     goraq   IV_Pass_yu      be submerged;be drowned;be inundated
+;; tagar~aq_1
+tgrq    tagar~aq        PV      sink
+tgrq    tagar~aq        IV      sink
+;; {isotagoraq_1
+<stgrq  {isotagoraq     PV      last
+Astgrq  {isotagoraq     PV      last
+stgrq   sotagoriq       IV      last
+;; {igoraworaq_1
+<grwrq  {igoraworaq     PV_intr be immersed;be drowned
+Agrwrq  {igoraworaq     PV_intr be immersed;be drowned
+grwrq   goraworiq       IV_intr be immersed;be drowned
+;; garaq_1
+grq     garaq   N       drowning;sinking;inundation
+;; gariyq_1
+gryq    gariyq  N/ap    drowned;immersed
+grqY    garoqY  N0      drowned;immersed
+grqA    garoqA  Nhy     drowned;immersed
+;; garoqAn_1
+grqAn   garoqAn N       drowned
+;; tagoriyq_1
+tgryq   tagoriyq        N/At    drowning;sinking;inundation
+;; <igorAq_1
+<grAq   <igorAq N/At    drowning;sinking
+AgrAq   <igorAq N/At    drowning;sinking
+;; <igorAq_2
+<grAq   <igorAq N/At    excess;over-
+AgrAq   <igorAq N/At    excess;over-
+;; <igorAqiy~_1
+<grAqy  <igorAqiy~      N-ap    exaggerated;excessive     <pos><igorAqiy~/ADJ</pos>
+AgrAqy  <igorAqiy~      N-ap    exaggerated;excessive     <pos><igorAqiy~/ADJ</pos>
+;; gAriq_1
+gArq    gAriq   Nall    drowned;immersed;engrossed     <pos>gAriq/ADJ</pos>
+;; mugoriq_1
+mgrq    mugoriq Nall    immersed;engrossed     <pos>mugoriq/ADJ</pos>
+;; musotagoriq_1
+mstgrq  musotagoriq     Nall    immersed;engrossed     <pos>musotagoriq/ADJ</pos>
+;; mugoraworiq_1
+mgrwrq  mugoraworiq     Nall    drowning     <pos>mugoraworiq/ADJ</pos>
+;
+;--- grl
+;; gurolap_1
+grl     gurol   Nap     foreskin;prepuce
+grl     gural   N       foreskins
+;
+;--- grm
+;; garim-a_1
+grm     garim   PV_intr be obligated
+grm     goram   IV_intr be obligated
+;; gar~am_1
+grm     gar~am  PV      impose a fine
+grm     gar~im  IV_yu   impose a fine
+;; >agoram_1
+>grm    >agoram PV      compel;force
+Agrm    >agoram PV      compel;force
+grm     gorim   IV_yu   compel;force
+grm     goram   IV_Pass_yu      be compelled;be forced
+;; >agoram_2
+>grm    >ugorim PV_Pass fall in love;be infatuated
+Agrm    >ugorim PV_Pass fall in love;be infatuated
+;; tagar~am_1
+tgrm    tagar~am        PV_intr be fined
+tgrm    tagar~am        IV_intr be fined
+;; gurom_1
+grm     gurom   N       damage;loss
+;; garAm_1
+grAm    garAm   N       infatuation
+;; garAm_2
+grAm    garAm   N       fine
+;; garAmap_1
+grAm    garAm   NapAt   fine;penalty
+;; garAmiy~_1
+grAmy   garAmiy~        N-ap    amorous;love     <pos>garAmiy~/ADJ</pos>
+;; garAmiy~At_1
+grAmy   garAmiy~        NAt     romance;amorous adventures     <pos>garAmiy~/NOUN</pos>
+;; gariym_1
+grym    gariym  N/ap    debtor;creditor
+grmA'   guramA' N0_Nh   debtors;creditors
+grmA&   guramA& Nh      debtors;creditors
+grmA}   guramA} Nhy     debtors;creditors
+;; gariym_2
+grym    gariym  N/ap    adversary;opponent
+grmA'   guramA' N0_Nh   adversaries;opponents
+grmA&   guramA& Nh      adversaries;opponents
+grmA}   guramA} Nhy     adversaries;opponents
+;; magoram_1
+mgrm    magoram Ndu     damages;liability;penalty
+mgArm   magArim Ndip    damages;liability;penalty
+;; mugoram_1
+mgrm    mugoram Nall    infatuated;enamored     <pos>mugoram/ADJ</pos>
+;; mugoram_2
+mgrm    mugoram Nall    obliged;constrained     <pos>mugoram/ADJ</pos>
+;
+;--- grn
+;; gariyn_1
+gryn    gariyn  N       alluvium;silt
+;; gariyniy~_1
+gryny   gariyniy~       N-ap    silt;alluvial     <pos>gariyniy~/ADJ</pos>
+;
+;--- grnT
+;; garonATap_1
+grnAT   garonAT Nap     Granada
+;; garonATiy~_1
+grnATy  garonATiy~      Nall    Granadan     <pos>garonATiy~/NOUN</pos>
+grnATy  garonATiy~      Nall    Granadan     <pos>garonATiy~/ADJ</pos>
+;
+;--- grnq
+;; guronuwq_1
+grnwq   guronuwq        Ndu     crane
+grAnyq  garAniyq        Ndip    cranes
+;; gironiyq_1
+grnyq   gironiyq        Ndu     crane
+;; guronuwqiy~_1
+grnwqy  guronuwqiy~     N-ap    geranium     <pos>guronuwqiy~/ADJ</pos>
+;; guronuwqiy~_2
+grnwqy  guronuwqiy~     NAt     geraniums     <pos>guronuwqiy~/NOUN</pos>
+;
+;--- grw
+;; garA-u_1
+grA     garA    PV_0h   glue together
+grw     garaw   PV_Atn  glue together
+gr      gar     PV_ttAw glue together
+grw     goruw   IV_0hAnn        glue together
+gr      gor     IV_0hwnyn       glue together
+grY     goraY   IV_0_Pass_yu    be glued together
+gry     goray   IV_Ann_Pass_yu  be glued together
+;; gar~aY_1
+grY     gar~aY  PV_0    glue
+grA     gar~A   PV_h    glue
+gry     gar~ay  PV_Atn  glue
+gr      gar~    PV_ttAw glue
+gry     gar~iy  IV_0hAnn_yu     glue
+gr      gar~    IV_0hwnyn_yu    glue
+grY     gar~aY  IV_0_Pass_yu    be glued
+gry     gar~ay  IV_Ann_Pass_yu  be glued
+;; >agoraY_1
+>grY    >agoraY PV_0    incite;induce;provoke
+AgrY    >agoraY PV_0    incite;induce;provoke
+>grA    >agorA  PV_h    incite;induce;provoke
+AgrA    >agorA  PV_h    incite;induce;provoke
+>gry    >agoray PV_Atn  incite;induce;provoke
+Agry    >agoray PV_Atn  incite;induce;provoke
+>gr     >agor   PV_ttAw incite;induce;provoke
+Agr     >agor   PV_ttAw incite;induce;provoke
+gry     goriy   IV_0hAnn_yu     incite;induce;provoke
+gr      gor     IV_0hwnyn_yu    incite;induce;provoke
+grY     goraY   IV_0_Pass_yu    be incited;be provoked
+gry     goray   IV_Ann_Pass_yu  be incited;be provoked
+;; >agoraY_2
+>gry    >ugoriy PV_intr be seduced
+Agry    >ugoriy PV_intr be seduced
+gry     goray   IV_Ann  be seduced
+gr      gor     IV_0hwnyn       be seduced
+grY     goraY   IV_0_Pass_yu    be seduced
+;; garow_1
+grw     garow   N       wonder
+;; garowaY_1
+grwY    garowaY N0      wonder
+grwA    garowA  Nhy     wonder
+;; gar~Ayap_1
+grAy    gar~Ay  NapAt   glue pot
+;; girA'_1
+grA'    girA'   N0_Nh   glue
+grA&    girA&   Nh      glue
+grA}    girA}   Nhy     glue
+;; girA}iy~_1
+grA}y   girA}iy~        N-ap    gluey;sticky     <pos>girA}iy~/ADJ</pos>
+;; girA}iy~_2
+grA}y   girA}iy~        N-ap    viscous;colloidal     <pos>girA}iy~/ADJ</pos>
+;; girawiy~_1
+grwy    girawiy~        N-ap    gluey;sticky     <pos>girawiy~/ADJ</pos>
+;; girawiy~_2
+grwy    girawiy~        N-ap    viscous;colloidal     <pos>girawiy~/ADJ</pos>
+;; girawiy~At_1
+grwy    girawiy~        NAt     colloids     <pos>girawiy~/NOUN</pos>
+;; migorAp_1
+mgrA    migorA  Nap     glue pot
+;; tagoriyap_1
+tgry    tagoriy Nap     gluing;agglutination
+;; <igorA'_1
+<grA'   <igorA' N0_Nh   incitement;instigation
+AgrA'   <igorA' N0_Nh   incitement;instigation
+<grA&   <igorA& Nh      incitement;instigation
+AgrA&   <igorA& Nh      incitement;instigation
+<grA}   <igorA} Nhy     incitement;instigation
+AgrA}   <igorA} Nhy     incitement;instigation
+<grA'   <igorA' NAt     incitement;instigation
+AgrA'   <igorA' NAt     incitement;instigation
+;; mugoriy_1
+mgry    mugoriy N0F_Nh  inciting;instigating;alluring     <pos>mugoriy/ADJ</pos>
+mgr     mugor   NK      inciting;instigating;alluring
+mgry    mugoriy NAn_Nayn        inciting;instigating;alluring
+mgr     mugor   Nuwn_Niyn       inciting;instigating;alluring
+mgry    mugoriy NapAt   inciting;instigating;alluring
+;; mugoriyAt_1
+mgry    mugoriy NAt     lures;temptations
+;; magoruw~_1
+mgrw    magoruw~        N-ap    glued     <pos>magoruw~/ADJ</pos>
+;; magoriy~_1
+mgry    magoriy~        N-ap    glued     <pos>magoriy~/ADJ</pos>
+;
+;--- grwz
+;; gruwzoniy_1
+grwzny  gruwzoniy       Nprop   Grozny
+;
+;--- grwj
+; French tennis player Sebastien Grosjean
+;; gruwjAn_1
+grwjAn  gruwjAn Nprop   Grosjean
+;
+;--- gryf
+;; griyfiyv_1
+gryfyv  griyfiyv        Nprop   Griffith
+;
+;--- gryn
+;; griyn_1
+gryn    griyn   Nprop   Green
+;
+;--- gz
+;; >agaz~_1
+>gz     >agaz~  PV_V_intr       be thorny
+Agz     >agaz~  PV_V_intr       be thorny
+>gzz    >agozaz PV_C_intr       be thorny
+Agzz    >agozaz PV_C_intr       be thorny
+gz      giz~    IV_V_intr_yu    be thorny
+gzz     goziz   IV_C_intr_yu    be thorny
+;; gaz~iy~_1
+gzy     gaz~iy~ N-ap    gauze     <pos>gaz~iy~/ADJ</pos>
+;
+;; gaz~ap_1
+gz      gaz~    Nap     Gaza
+;; gaz~Awiy~_1
+gzAwy   gaz~Awiy~       N0      Ghazzawi
+;; gaz~Awiy~_2
+gzAwy   gaz~Awiy~       Nall    Gazan (of/from Gaza)     <pos>gaz~Awiy~/NOUN</pos>
+gzAwy   gaz~Awiy~       Nall    Gazan (of/from Gaza)     <pos>gaz~Awiy~/ADJ</pos>
+;
+;--- gzr
+;; gazur-u_1
+gzr     gazur   PV_intr be abundant
+gzr     gozur   IV_intr be abundant
+;; gazor_1
+gzr     gazor   N       abundance;lavish amount
+;; gaziyr_1
+gzyr    gaziyr  N/ap    abundant;ample
+gzAr    gizAr   N       abundant;ample
+;; gazArap_1
+gzAr    gazAr   Nap     abundance;lavish amount
+;; >agozar_1
+>gzr    >agozar Nel     more/most abundant
+Agzr    >agozar Nel     more/most abundant
+;; gazAriy~_1
+gzAry   gazAriy~        N-ap    pigeon     <pos>gazAriy~/ADJ</pos>
+;
+;--- gzl
+;; gazal-i_1
+gzl     gazal   PV      spin
+gzl     gozil   IV      spin
+;; gazil-a_1
+gzl     gazil   PV      woo;flirt with
+gzl     gozal   IV      woo;flirt with
+;; gAzal_1
+gAzl    gAzal   PV      court;flirt with
+gAzl    gAzil   IV_yu   court;flirt with
+;; tagaz~al_1
+tgzl    tagaz~al        PV      flirt with;make eyes at
+tgzl    tagaz~al        IV      flirt with;make eyes at
+;; tagAzal_1
+tgAzl   tagAzal PV      flirt with each other
+tgAzl   tagAzal IV      flirt with each other
+;; {igotazal_1
+<gtzl   {igotazal       PV      spin
+Agtzl   {igotazal       PV      spin
+gtzl    gotazil IV      spin
+;; gazol_1
+gzl     gazol   N       spinning;spun thread;yarn
+;; gazal_1
+gzl     gazal   N       flirtation;dalliance
+;; guzuwl_1
+gzwl    guzuwl  N       flirting
+;; gazal_2
+gzl     gazal   N0      Ghazal
+;; gazaliy~_1
+gzly    gazaliy~        Nall    amorous     <pos>gazaliy~/ADJ</pos>
+;; gazAl_1
+gzAl    gazAl   Ndu     gazelle
+gzAl    gazAl   Napdu   gazelle
+gzl     gizol   Nap     gazelles
+gzlAn   gizolAn N       gazelles
+;; gazAl_2
+gzAl    gazAl   N0      Ghazal
+;; gazAlap_1
+gzAlp   gazAlap N0      Ghazala
+;; gazAliy~_1
+gzAly   gazAliy~        N0      Ghazali
+;; gaz~Al_1
+gzAl    gaz~Al  Nall    spinner of yarn
+;; gaz~Alap_1
+gzAl    gaz~Al  Nap     spider
+;; magozil_1
+mgzl    magozil Ndu     spinning mill
+mgAzl   magAzil Ndip    spinning mills;spindles
+;; migozal_1
+mgzl    migozal Ndu     spindle
+;; mugAzalap_1
+mgAzl   mugAzal NapAt   flirting;dallying
+;; tagaz~ul_1
+tgzl    tagaz~ul        N/At    flirtation;dalliance
+;; mugAzil_1
+mgAzl   mugAzil Nall    flirting;dallying
+;
+;--- gzw
+;; gazA-u_1
+gzA     gazA    PV_0h   invade;conquer
+gzw     gazaw   PV_Atn  invade;conquer
+gz      gaz     PV_ttAw invade;conquer
+gzw     gozuw   IV_0hAnn        invade;conquer
+gz      goz     IV_0hwnyn       invade;conquer
+gzY     gozaY   IV_0_Pass_yu    be invaded;be conquered
+gzy     gozay   IV_Ann_Pass_yu  be invaded;be conquered
+;; gazow_1
+gzw     gazow   N       invasion;attack;aggression
+gzw     gazow   Napdu   invasion;foray;incursion
+gzw     gazaw   NAt     invasions;forays;incursions
+;; gazAp_1
+gzA     gazA    Nap     foray;incursion
+;; magozaY_1
+mgzY    magozaY N0      significance;meaning
+mgzA    magozA  Nhy     significance;meaning
+mgzy    magozay NAn_Nayn        meanings
+mgAzy   magAziy N0_Nh   significance;meanings
+mgAz    magAz   NK      significance;meanings
+;; magozAp_1
+mgzA    magozA  Nap     foray;incursion;raid
+mgAzy   magAziy N0_Nh   forays;incursions;raids
+mgAz    magAz   NK      forays;incursions;raids
+;; gAziy_1
+gAzy    gAziy   N0F_Nh  invader;raider;aggressor     <pos>gAziy/ADJ</pos>
+gAz     gAz     NK      invader;raider;aggressor
+gAzy    gAziy   NAn_Nayn        invader;raider;aggressor
+gAz     gAz     Nuwn_Niyn       invader;raider;aggressor
+gAzy    gAziy   NapAt   invader;raider;aggressor
+gzA     guzA    Nap     invaders;raiders;aggressors
+;; gAziyap_1
+gAzy    gAziy   NapAt   campaign;expedition
+;; gawAziy_1
+gwAzy   gawAziy N0_Nh   women dancers
+gwAz    gawAz   NK      women dancers
+;
+;--- gs
+;; gus~_1
+gs      gus~    N       despicable
+;
+;--- gsq
+;; gasaq_1
+gsq     gasaq   N       dusk;twilight
+;; gasaqiy~_1
+gsqy    gasaqiy~        N-ap    dusk;twilight     <pos>gasaqiy~/ADJ</pos>
+;
+;--- gsl
+;; gasal-i_1
+gsl     gasal   PV      wash;clean
+gsl     gosil   IV      wash;clean
+;; gas~al_1
+gsl     gas~al  PV      wash;clean
+gsl     gas~il  IV_yu   wash;clean
+;; {igotasal_1
+<gtsl   {igotasal       PV      wash;bathe
+Agtsl   {igotasal       PV      wash;bathe
+gtsl    gotasil IV      wash;bathe
+;; gusol_1
+gsl     gusol   N       washing;ablution
+;; gisol_1
+gsl     gisol   N       wash water
+;; gasolap_1
+gsl     gasol   Napdu   washing;ablution
+gsl     gasal   NAt     washings;ablutions
+;; gasiyl_1
+gsyl    gasiyl  N       clothes;wash;dirty linen
+;; gasuwl_1
+gswl    gasuwl  N       wash water;detergent
+;; gAsuwl_1
+gAswl   gAsuwl  N       soap;lye
+;; gas~Al_1
+gsAl    gas~Al  N       laundry man
+;; gas~Alap_1
+gsAl    gas~Al  Napdu   washing machine
+gsAl    gas~Al  NAt     washing machines
+;; gusAlap_1
+gsAl    gusAl   Nap     wash water
+;; magosal_1
+mgsl    magosal Ndu     washbasin;washroom
+mgsl    magosil Ndu     washbasin;washroom
+mgAsl   magAsil Ndip    washbasins;washrooms
+;; migosal_1
+mgsl    migosal Ndu     washbasin;washtub
+;; migosalap_1
+mgsl    migosal Napdu   washing machine
+;; magosalap_1
+mgsl    magosal Nap     wash-stand
+;; {igotisAl_1
+<gtsAl  {igotisAl       N/At    washing;bath;ablution
+AgtsAl  {igotisAl       N/At    washing;bath;ablution
+;; mugotasil_1
+mgtsl   mugotasil       Nall    bather
+;; mugotasal_1
+mgtsl   mugotasal       N       washroom
+;; gAsil_1
+gAsl    gAsil   Nall    washer
+;; magosuwl_1
+mgswl   magosuwl        Nall    washed     <pos>magosuwl/ADJ</pos>
+;
+;--- gsn
+;; gas~An_1
+gsAn    gas~An  N       Ghassan
+;; gas~Aniy~_1
+gsAny   gas~Aniy~       Nall    Ghassanid     <pos>gas~Aniy~/NOUN</pos>
+gsAny   gas~Aniy~       Nall    Ghassanid     <pos>gas~Aniy~/ADJ</pos>
+;; gas~Aniy~_2
+gsAny   gas~Aniy~       N0      Ghassani
+;
+;--- g$
+;; ga$~-u_1
+g$      ga$~    PV_V    deceive;adulterate;tamper
+g$$     ga$a$   PV_C    deceive;adulterate;tamper
+g$      gu$~    IV_V    deceive;adulterate;tamper
+g$$     go$u$   IV_C    deceive;adulterate;tamper
+;; ga$~a$_1
+g$$     ga$~a$  PV      deceive;dupe
+g$$     ga$~i$  IV_yu   deceive;dupe
+;; {inoga$~_1
+<ng$    {inoga$~        PV_V_intr       be deceived;be duped
+Ang$    {inoga$~        PV_V_intr       be deceived;be duped
+<ng$$   {inoga$a$       PV_C_intr       be deceived;be duped
+Ang$$   {inoga$a$       PV_C_intr       be deceived;be duped
+ng$     noga$~  IV_V_intr       be deceived;be duped
+ng$$    noga$i$ IV_C_intr       be deceived;be duped
+;; {igota$~_1
+<gt$    {igota$~        PV_V_intr       be deceived;be duped
+Agt$    {igota$~        PV_V_intr       be deceived;be duped
+<gt$$   {igota$a$       PV_C_intr       be deceived;be duped
+Agt$$   {igota$a$       PV_C_intr       be deceived;be duped
+gt$     gota$~  IV_V_intr       be deceived;be duped
+gt$$    gota$i$ IV_C_intr       be deceived;be duped
+;; {isotaga$~_1
+<stg$   {isotaga$~      PV_V    suspect of deception
+Astg$   {isotaga$~      PV_V    suspect of deception
+<stg$$  {isotago$a$     PV_C    suspect of deception
+Astg$$  {isotago$a$     PV_C    suspect of deception
+stg$    sotagi$~        IV_V    suspect of deception
+stg$$   sotago$i$       IV_C    suspect of deception
+;; ga$~_1
+g$      ga$~    N       cheating;deceit
+;; ga$~_2
+g$      ga$~    N       adulteration;tampering
+;; gi$~_1
+g$      gi$~    N       cheating
+;; ga$~A$_1
+g$A$    ga$~A$  Nall    swindler;deceptive     <pos>ga$~A$/ADJ</pos>
+;; mago$uw$_1
+mg$w$   mago$uw$        Nall    cheated;adulterated;falsified     <pos>mago$uw$/ADJ</pos>
+;; gA$~_1
+gA$     gA$~    N       swindler;deceptive
+g$$     ga$a$   Nap     swindlers;cheaters
+;
+;--- g$t
+;; gu$ot_1
+g$t     gu$ot   Nprop   August (month)
+;
+;; g$tAd_1
+g$tAd   g$tAd   Nprop   Gstaad
+;
+;--- g$m
+;; ga$am-i_1
+g$m     ga$am   PV      oppress;treat unjustly
+g$m     go$im   IV      oppress;treat unjustly
+;; ga$~am_1
+g$m     ga$~am  PV      mislead
+g$m     ga$~im  IV_yu   mislead
+;; tagA$am_1
+tgA$m   tagA$am PV      feign ignorance
+tgA$m   tagA$am IV      feign ignorance
+;; {isotago$am_1
+<stg$m  {isotago$am     PV      regard as ignorant
+Astg$m  {isotago$am     PV      regard as ignorant
+stg$m   sotago$im       IV      regard as ignorant
+;; ga$om_1
+g$m     ga$om   N       oppression;repression
+;; ga$uwm_1
+g$wm    ga$uwm  Ndu     oppressor;tyrant;capricious
+;; ga$iym_1
+g$ym    ga$iym  N/ap    inexperienced;unskilled;naive     <pos>ga$iym/ADJ</pos>
+g$mA'   gu$amA' N0_Nh   inexperienced;unskilled;clumsy
+g$mA&   gu$amA& Nh      inexperienced;unskilled;clumsy
+g$mA}   gu$amA} Nhy     inexperienced;unskilled;clumsy
+;; gu$uwmap_1
+g$wm    gu$uwm  Nap     inexperience;foolishness
+;; gA$im_1
+gA$m    gA$im   Nall    tyrannical;iniquitous;oppressor     <pos>gA$im/ADJ</pos>
+;
+;--- g$w
+;; ga$A-u_1
+g$A     ga$A    PV_0h   come to
+g$w     ga$aw   PV_Atn  come to
+g$      ga$     PV_ttAw come to
+g$w     go$uw   IV_0hAnn        come to
+g$      go$     IV_0hwnyn       come to
+g$Y     go$aY   IV_0_Pass_yu    come to
+g$y     go$ay   IV_Ann_Pass_yu  come to
+;; ga$iy-a_1
+g$y     ga$iy   PV_no-w cover;overcome
+g$      ga$     PV_w    cover;overcome
+g$Y     go$aY   IV_0    cover;overcome
+g$A     go$A    IV_h    cover;overcome
+g$y     go$ay   IV_Ann  cover;overcome
+g$      go$a    IV_0hwnyn       cover;overcome
+g$y     gu$iy   PV_Pass-a       faint
+g$Y     go$aY   IV_Pass_yu      faint
+;; ga$~aY_1
+g$Y     ga$~aY  PV_0    cover;wrap
+g$A     ga$~A   PV_h    cover;wrap
+g$y     ga$~ay  PV_Atn  cover;wrap
+g$      ga$~    PV_ttAw cover;wrap
+g$y     ga$~iy  IV_0hAnn_yu     cover;wrap
+g$      ga$~    IV_0hwnyn_yu    cover;wrap
+g$Y     ga$~aY  IV_0_Pass_yu    be covered;be wrapped
+g$y     ga$~ay  IV_Ann_Pass_yu  be covered;be wrapped
+;; >ago$aY_1
+>g$Y    >ago$aY PV_0    cover;be dark
+Ag$Y    >ago$aY PV_0    cover;be dark
+>g$A    >ago$A  PV_h    cover;be dark
+Ag$A    >ago$A  PV_h    cover;be dark
+>g$y    >ago$ay PV_Atn  cover;be dark
+Ag$y    >ago$ay PV_Atn  cover;be dark
+>g$     >ago$   PV_ttAw cover;be dark
+Ag$     >ago$   PV_ttAw cover;be dark
+g$y     go$iy   IV_0hAnn_yu     cover;be dark
+g$      go$     IV_0hwnyn_yu    cover;be dark
+g$Y     go$aY   IV_0_Pass_yu    be covered
+g$y     go$ay   IV_Ann_Pass_yu  be covered
+;; taga$~aY_1
+tg$Y    taga$~aY        PV_0    be covered;lie down with
+tg$y    taga$~ay        PV_Atn  be covered;lie down with
+tg$     taga$~  PV_ttAw_intr    be covered;lie down with
+tg$Y    taga$~aY        IV_0    be covered;lie down with
+tg$y    taga$~ay        IV_Ann  be covered;lie down with
+tg$     taga$~  IV_0hwnyn       be covered;lie down with
+;; {isotago$aY_1
+<stg$Y  {isotago$aY     PV_0    hide
+Astg$Y  {isotago$aY     PV_0    hide
+<stg$A  {isotago$A      PV_h    hide
+Astg$A  {isotago$A      PV_h    hide
+<stg$y  {isotago$ay     PV_Atn  hide
+Astg$y  {isotago$ay     PV_Atn  hide
+<stg$   {isotago$       PV_ttAw hide
+Astg$   {isotago$       PV_ttAw hide
+stg$y   sotago$iy       IV_0hAnn        hide
+stg$    sotago$ IV_0hwnyn       hide
+stg$Y   sotago$aY       IV_0_Pass_yu    be hidden
+;; ga$owap_1
+g$w     ga$ow   Nap     veil;covering
+;; gi$Awap_1
+g$Aw    gi$Aw   Nap     covering;veil;wrap
+;; ga$oy_1
+g$y     ga$oy   N       fainting
+g$y     ga$oy   Nap     fainting
+;; gi$A'_1
+g$A'    gi$A'   N0_Nh   covering;coating;membrane
+g$A&    gi$A&   Nh      covering;coating;membrane
+g$A}    gi$A}   Nhy     covering;coating;membrane
+>g$y    >ago$iy Nap     covering;coating;membranes
+Ag$y    >ago$iy Nap     covering;coating;membranes
+;; gi$A}iy~_1
+g$A}y   gi$A}iy~        N-ap    membranous;tegumentary     <pos>gi$A}iy~/ADJ</pos>
+;; ga$ayAn_1
+g$yAn   ga$ayAn N       fainting;unconsciousness
+;; mago$aY_1
+mg$Y    mago$aY N0      destination
+mg$A    mago$A  Nhy     destination
+mg$y    mago$ay NAn_Nayn        destinations
+;; gA$iyap_1
+gA$y    gA$iy   Nap     pericardium
+;; gA$iyap_2
+gA$y    gA$iy   Nap     envelope;calamity;fainting
+gwA$y   gawA$iy N0_Nh   attendants;retinue
+gwA$    gawA$   NK      attendants;retinue
+;; mago$iy~_1
+mg$y    mago$iy~        N       unconscious;knocked-out
+;; tago$iyap_1
+tg$y    tago$iy Nap     dimming;clouding;dulling
+;
+;--- gS
+;; gaS~_1
+gS      gaS~    PV_V_intr       be congested;be crowded
+gSS     gaSiS   PV_C_intr       be congested;be crowded
+gS      gaS~    IV_V_intr       be congested;be crowded
+gSS     goSaS   IV_C_intr       be congested;be crowded
+;; >agaS~_1
+>gS     >agaS~  PV_V    suffocate;asphyxiate;drown
+AgS     >agaS~  PV_V    suffocate;asphyxiate;drown
+>gSS    >agoSaS PV_C    suffocate;asphyxiate;drown
+AgSS    >agoSaS PV_C    suffocate;asphyxiate;drown
+gS      giS~    IV_V_yu suffocate;asphyxiate;drown
+gSS     goSiS   IV_C_yu suffocate;asphyxiate;drown
+gS      gaS~    IV_V_Pass_yu    be suffocated;be asphyxiated;be drowned
+;; {igotaS~_1
+<gtS    {igotaS~        PV_V_intr       be congested;hit a snag
+AgtS    {igotaS~        PV_V_intr       be congested;hit a snag
+<gtSS   {igotaSaS       PV_C_intr       be congested;hit a snag
+AgtSS   {igotaSaS       PV_C_intr       be congested;hit a snag
+gtS     gotaS~  IV_V_intr       be congested;hit a snag
+gtSS    gotaSiS IV_C_intr       be congested;hit a snag
+;; guS~ap_1
+gS      guS~    NapAt   agony;suffocation
+gSS     guSaS   N       agony;choking
+;; gAS~_1
+gAS     gAS~    N-ap    crowded;congested     <pos>gAS~/ADJ</pos>
+;
+;--- gSb
+;; gaSab-i_1
+gSb     gaSab   PV      force;usurp;rape
+gSb     goSib   IV      force;usurp;rape
+;; {igotaSab_1
+<gtSb   {igotaSab       PV      rape;usurp
+AgtSb   {igotaSab       PV      rape;usurp
+gtSb    gotaSib IV      rape;usurp
+;; gaSob_1
+gSb     gaSob   N       extortion;coercion;usurpation
+gSb     gaSob   NF      forcibly;by force     <pos>gaSob/ADV</pos>
+;; {igotiSAb_1
+<gtSAb  {igotiSAb       N/At    rape;usurpation
+AgtSAb  {igotiSAb       N/At    rape;usurpation
+;; gASib_1
+gASb    gASib   Nall    usurper;plunderer
+gSAb    guS~Ab  N       usurpers;plunderers
+;; magoSuwb_1
+mgSwb   magoSuwb        N-ap    extorted;usurped;coerced     <pos>magoSuwb/ADJ</pos>
+;; mugotaSib_1
+mgtSb   mugotaSib       Nall    usurper;rapist
+;; mugotaSab_1
+mgtSb   mugotaSab       N-ap    usurped;raped     <pos>mugotaSab/ADJ</pos>
+;
+;--- gSn
+;; gaS~an_1
+gSn     gaS~an  PV-n    branch out
+gSn     gaS~in  IV-n_yu branch out
+;; >agoSan_1
+>gSn    >agoSan PV-n    branch out
+AgSn    >agoSan PV-n    branch out
+gSn     goSin   IV-n_yu branch out
+gSn     goSan   IV-n_Pass_yu    be branched out
+;; guSon_1
+gSn     guSon   Ndu     branch;limb
+gSwn    guSuwn  N       branches
+>gSAn   >agoSAn N       branches
+AgSAn   >agoSAn N       branches
+;; guSonap_1
+gSn     guSon   NapAt   twig;sprout
+;; guSayon_1
+gSyn    guSayon N       small branch;twig;sprout
+;
+;--- gD
+;; gaD~-u_1
+gD      gaD~    PV_V    lower;diminish
+gDD     gaDaD   PV_C    lower;diminish
+gD      guD~    IV_V    lower;diminish
+gDD     goDuD   IV_C    lower;diminish
+;; gaD~aD_1
+gDD     gaD~aD  PV      frustrate
+gDD     gaD~iD  IV_yu   frustrate
+;; gaD~_1
+gD      gaD~    N       turning aside
+;; gaD~_2
+gD      gaD~    N-ap    fresh;pristine
+;; guD~ap_1
+gD      guD~    Nap     fault;deficiency
+;; gaDiyD_1
+gDyD    gaDiyD  N-ap    fresh;tender     <pos>gaDiyD/ADJ</pos>
+;; gaDiyD_2
+gDyD    gaDiyD  N-ap    diminished;shamed     <pos>gaDiyD/ADJ</pos>
+>gDA'   >agiD~A'        N0_Nh   diminished;shamed
+AgDA'   >agiD~A'        N0_Nh   diminished;shamed
+>gDA&   >agiD~A&        Nh      diminished;shamed
+AgDA&   >agiD~A&        Nh      diminished;shamed
+>gDA}   >agiD~A}        Nhy     diminished;shamed
+AgDA}   >agiD~A}        Nhy     diminished;shamed
+;; gaDADap_1
+gDAD    gaDAD   Nap     freshness;tenderness
+;; gaDADap_2
+gDAD    gaDAD   Nap     deficiency;fault
+gDA}D   gaDA}iD Ndip    diminutions;shame
+;; guDuwDap_1
+gDwD    guDuwD  Nap     freshness;succulence
+;; gAD~_1
+gAD     gAD~    Nall    lowering
+;
+;--- gDb
+;; gaDib-a_1
+gDb     gaDib   PV_intr become angry
+gDb     goDab   IV_intr become angry
+;; >agoDab_1
+>gDb    >agoDab PV      make angry;irritate
+AgDb    >agoDab PV      make angry;irritate
+gDb     goDib   IV_yu   make angry;irritate
+gDb     goDab   IV_Pass_yu      be angered;be irritated
+;; tagaD~ab_1
+tgDb    tagaD~ab        PV_intr become angry
+tgDb    tagaD~ab        IV_intr become angry
+;; gaDab_1
+gDb     gaDab   N       anger;wrath
+gDb     gaDab   NF      in anger;angrily     <pos>gaDab/ADV</pos>
+;; gaDib_1
+gDb     gaDib   N-ap    irate;furious     <pos>gaDib/ADJ</pos>
+;; gaDobap_1
+gDb     gaDob   Nap     anger;wrath
+;; gaDuwb_1
+gDwb    gaDuwb  N-ap    irascible;choleric     <pos>gaDuwb/ADJ</pos>
+;; gaDuwbiy~_1
+gDwby   gaDuwbiy~       N-ap    irascible;choleric     <pos>gaDuwbiy~/ADJ</pos>
+;; gaDobAn_1
+gDbAn   gaDobAn Ndip    angry;infuriated     <pos>gaDobAn/ADJ</pos>
+gDbY    gaDobaY N0      angry;infuriated
+gDbA    gaDobA  Nhy     angry;infuriated
+gDAb    giDAb   N       angry;infuriated
+gDAbY   gaDAbaY N0      angry;infuriated
+gDAbA   gaDAbA  Nhy     angry;infuriated
+;; <igoDAb_1
+<gDAb   <igoDAb N/At    irritation;angering
+AgDAb   <igoDAb N/At    irritation;angering
+;; gADib_1
+gADb    gADib   Nall    angry;enraged     <pos>gADib/ADJ</pos>
+;; magoDuwb_1
+mgDwb   magoDuwb        N       angered     <pos>magoDuwb/ADJ</pos>
+mgDwb   magoDuwb        N       object of anger
+;; mugoDib_1
+mgDb    mugoDib Nall    angering;enraging     <pos>mugoDib/ADJ</pos>
+;
+;--- gDr
+;; gaDir-a_1
+gDr     gaDir   PV_intr become abundant;be lavish
+gDr     goDar   IV_intr become abundant;be lavish
+;; gaDir_1
+gDr     gaDir   N-ap    abundant;lavish;fresh     <pos>gaDir/ADJ</pos>
+;; gaDiyr_1
+gDyr    gaDiyr  N-ap    abundant;fresh;green     <pos>gaDiyr/ADJ</pos>
+;; gaDArap_1
+gDAr    gaDAr   Nap     affluence;prosperity
+;; gaDorA'_1
+gDrA'   gaDorA' N0_Nh   abundance;prosperity
+gDrA&   gaDorA& Nh      abundance;prosperity
+gDrA}   gaDorA} Nhy     abundance;prosperity
+;
+;--- gDrf
+;; guDoruwf_1
+gDrwf   guDoruwf        N       cartilage
+gDAryf  gaDAriyf        Ndip    cartilage
+;; guDoruwfiy~_1
+gDrwfy  guDoruwfiy~     N-ap    cartilaginous;gristly;cartilage     <pos>guDoruwfiy~/ADJ</pos>
+;
+;--- gDn
+;; gaD~an_1
+gDn     gaD~an  PV-n    wrinkle;frown
+gDn     gaD~in  IV-n_yu wrinkle;frown
+;; gADan_1
+gADn    gADan   PV-n    wink
+gADn    gADin   IV-n_yu wink
+;; tagaD~an_1
+tgDn    tagaD~an        PV-n_intr       be wrinkled;frown
+tgDn    tagaD~an        IV-n_intr       be wrinkled;frown
+;; gaDon_1
+gDn     gaDon   N       wrinkle;fold;frown
+gDwn    guDuwn  N       wrinkles;folds;frowns
+;; guDuwn_1
+gDwn    guDuwn  N       interim;during
+;; tagoDiyn_1
+tgDyn   tagoDiyn        N/At    folding;pleating;frowning
+;; tagaD~un_1
+tgDn    tagaD~un        N/At    wrinkle;frown
+;; mutagaD~in_1
+mtgDn   mutagaD~in      Nall    wrinkled;frowning     <pos>mutagaD~in/ADJ</pos>
+;
+;--- gDnf
+;; gaDanofar_1
+gDnfr   gaDanofar       N0      Ghadanfar
+;; gaDanofar_2
+gDnfr   gaDanofar       N-ap    lion;powerful
+;; gaDanofariy~_1
+gDnfry  gaDanofariy~    N0      Ghadanfari
+;; gaDanofariy~_2
+gDnfry  gaDanofariy~    Nall    lion-like;powerful     <pos>gaDanofariy~/ADJ</pos>
+;
+;--- gDw gDy
+;; >agoDaY_1
+>gDY    >agoDaY PV_0    disregard;ignore;overlook
+AgDY    >agoDaY PV_0    disregard;ignore;overlook
+>gDA    >agoDA  PV_h    disregard;ignore;overlook
+AgDA    >agoDA  PV_h    disregard;ignore;overlook
+>gDy    >agoDay PV_Atn  disregard;ignore;overlook
+AgDy    >agoDay PV_Atn  disregard;ignore;overlook
+>gD     >agoD   PV_ttAw disregard;ignore;overlook
+AgD     >agoD   PV_ttAw disregard;ignore;overlook
+gDy     goDiy   IV_0hAnn_yu     disregard;ignore;overlook
+gD      goD     IV_0hwnyn_yu    disregard;ignore;overlook
+gDY     goDaY   IV_0_Pass_yu    be disregarded;be ignored;be overlooked
+gDy     goDay   IV_Ann_Pass_yu  be disregarded;be ignored;be overlooked
+;; tagADaY_1
+tgADY   tagADaY PV_0    disregard;be lenient
+tgADA   tagADA  PV_h    disregard;be lenient
+tgADy   tagADay PV_Atn  disregard;be lenient
+tgAD    tagAD   PV_ttAw disregard;be lenient
+tgADY   tagADaY IV_0    disregard;be lenient
+tgADA   tagADA  IV_h    disregard;be lenient
+tgADy   tagADay IV_Ann  disregard;be lenient
+tgAD    tagAD   IV_0hwnyn       disregard;be lenient
+;; gaDaY_1
+gDY     gaDaY   N0      hot spot;predicament;unbearable situation
+;; gaDAF_1
+gDA     gaDAF   FW-WaBi hot spot;predicament;unbearable situation     <pos>gaDAF/NOUN</pos>
+gDA     gaDA    Nhy     hot spot;predicament;unbearable situation
+;; <igoDA'_1
+<gDA'   <igoDA' N0_Nh   disregarding;ignoring;overlooking
+AgDA'   <igoDA' N0_Nh   disregarding;ignoring;overlooking
+<gDA&   <igoDA& Nh      disregarding;ignoring;overlooking
+AgDA&   <igoDA& Nh      disregarding;ignoring;overlooking
+<gDA}   <igoDA} Nhy     disregarding;ignoring;overlooking
+AgDA}   <igoDA} Nhy     disregarding;ignoring;overlooking
+<gDA'   <igoDA' NAt     disregarding;ignoring;overlooking
+AgDA'   <igoDA' NAt     disregarding;ignoring;overlooking
+;; tagADiy_1
+tgADy   tagADiy N0_Nh   indifference;condoning
+tgAD    tagAD   NK      indifference;condoning
+tgADy   tagADiy NAn_Nayn        indifference;condoning
+tgADy   tagADiy NAt     indifference;condoning
+;
+;--- gT
+;; gaT~-u_1
+gT      gaT~    PV_V    immerse;dip;plunge
+gTT     gaTaT   PV_C    immerse;dip;plunge
+gT      guT~    IV_V    immerse;dip;plunge
+gTT     goTuT   IV_C    immerse;dip;plunge
+;; >agaT~_1
+>gT     >agaT~  PV_V    immerse;dip;plunge
+AgT     >agaT~  PV_V    immerse;dip;plunge
+>gTT    >agoTaT PV_C    immerse;dip;plunge
+AgTT    >agoTaT PV_C    immerse;dip;plunge
+gT      giT~    IV_V_yu immerse;dip;plunge
+gTT     goTiT   IV_C_yu immerse;dip;plunge
+gT      gaT~    IV_V_Pass_yu    immerse;dip;plunge
+;; {inogaT~_1
+<ngT    {inogaT~        PV_V_intr       be immersed;be dipped;be plunged
+AngT    {inogaT~        PV_V_intr       be immersed;be dipped;be plunged
+<ngTT   {inogaTaT       PV_C_intr       be immersed;be dipped;be plunged
+AngTT   {inogaTaT       PV_C_intr       be immersed;be dipped;be plunged
+ngT     nogaT~  IV_V_intr       be immersed;be dipped;be plunged
+ngTT    nogaTiT IV_C_intr       be immersed;be dipped;be plunged
+;; gaTiyT_1
+gTyT    gaTiyT  N       snoring
+;; guTayoT_1
+gTyT    guTayoT Nap     fog;mist
+;
+;--- gTr
+;; guTorap_1
+gTr     guTor   Napdu   headcloth
+;
+;--- gTrs
+;; gaToras_1
+gTrs    gaToras PV_intr be arrogant
+gTrs    gaToris IV_intr_yu      be arrogant
+;; tagaToras_1
+tgTrs   tagaToras       PV_intr be arrogant
+tgTrs   tagaToras       IV_intr be arrogant
+;; gaTorasap_1
+gTrs    gaToras Nap     arrogance;insolence
+;; giToriys_1
+gTrys   giToriys        N-ap    arrogant;conceited     <pos>giToriys/ADJ</pos>
+gTArys  gaTAriys        Ndip    arrogant;conceited
+;; tagaTorus_1
+tgTrs   tagaTorus       N/At    arrogance;insolence
+;; mutagaToris_1
+mtgTrs  mutagaToris     Nall    arrogant;conceited     <pos>mutagaToris/ADJ</pos>
+;
+;--- gTrf
+;; giToriyf_1
+gTryf   giToriyf        Ndu     potentate;noble man
+gTAryf  gaTAriyf        Ndip    potentates;noble men
+gTArf   gaTArif Ndip    potentates;noble men
+gTArf   gaTArif Nap     potentates;noble men
+;
+;--- gTs
+;; gaTas-i_1
+gTs     gaTas   PV      immerse;submerse
+gTs     goTis   IV      immerse;submerse
+;; gaT~as_1
+gTs     gaT~as  PV      immerse;submerse
+gTs     gaT~is  IV_yu   immerse;submerse
+;; tagaT~as_1
+tgTs    tagaT~as        PV      dive;submerse
+tgTs    tagaT~as        IV      dive;submerse
+;; gaTos_1
+gTs     gaTos   N       diving;submersion
+;; giTAs_1
+gTAs    giTAs   N       baptism
+;; gaT~As_1
+gTAs    gaT~As  N0      Ghattas
+;; gaT~As_2
+gTAs    gaT~As  N       diver
+;; gaTosAn_1
+gTsAn   gaTosAn N       immersed;submerged     <pos>gaTosAn/ADJ</pos>
+;; magoTis_1
+mgTs    magoTis Ndu     bathtub;sink;font
+mgATs   magATis Ndip    bathtubs;sinks;fonts
+;; tagoTiys_1
+tgTys   tagoTiys        NduAt   submersion;immersion
+;; gATis_1
+gATs    gATis   N       draft of a ship;hull
+;
+;--- gT$
+;; gaTa$-i_1
+gT$     gaTa$   PV_intr become dark
+gT$     goTi$   IV_intr become dark
+;; gaTi$-a_1
+gT$     gaTi$   PV_intr become dim
+gT$     goTa$   IV_intr become dim
+;; tagaT~a$_1
+tgT$    tagaT~a$        PV_intr become dim
+tgT$    tagaT~a$        IV_intr become dim
+;; gaTa$_1
+gT$     gaTa$   N       dim-sightedness
+;; gaTa$An_1
+gT$An   gaTa$An N       slow
+;; gaTo$A'_1
+gT$A'   gaTo$A' N0_Nh   pitch dark
+gT$A&   gaTo$A& Nh      pitch dark
+gT$A}   gaTo$A} Nhy     pitch dark
+;
+;--- gTm
+;; giTam~_1
+gTm     giTam~  N-ap    huge;vast
+;; giTayom_1
+gTym    giTayom N-ap    huge;vast
+;
+;--- gTw
+;; gaTA-u_1
+gTA     gaTA    PV_0h   cover
+gTw     gaTaw   PV_Atn  cover
+gT      gaT     PV_ttAw cover
+gTw     goTuw   IV_0hAnn        cover
+gT      goT     IV_0hwnyn       cover
+gTY     goTaY   IV_0_Pass_yu    be covered
+gTy     goTay   IV_Ann_Pass_yu  be covered
+;; gaT~aY_1
+gTY     gaT~aY  PV_0    cover;conceal
+gTA     gaT~A   PV_h    cover;conceal
+gTy     gaT~ay  PV_Atn  cover;conceal
+gT      gaT~    PV_ttAw cover;conceal
+gTy     gaT~iy  IV_0hAnn_yu     cover;conceal
+gT      gaT~    IV_0hwnyn_yu    cover;conceal
+gTY     gaT~aY  IV_0_Pass_yu    be covered;be concealed
+gTy     gaT~ay  IV_Ann_Pass_yu  be covered;be concealed
+;; tagaT~aY_1
+tgTY    tagaT~aY        PV_0    be covered
+tgTy    tagaT~ay        PV_Atn  be covered
+tgT     tagaT~  PV_ttAw_intr    be covered
+tgTY    tagaT~aY        IV_0    be covered
+tgTy    tagaT~ay        IV_Ann  be covered
+tgT     tagaT~  IV_0hwnyn       be covered
+;; {igotaTaY_1
+<gtTY   {igotaTaY       PV_0    be covered
+AgtTY   {igotaTaY       PV_0    be covered
+<gtTA   {igotaTA        PV_h    be covered
+AgtTA   {igotaTA        PV_h    be covered
+<gtTy   {igotaTay       PV_Atn  be covered
+AgtTy   {igotaTay       PV_Atn  be covered
+<gtT    {igotaT PV_ttAw_intr    be covered
+AgtT    {igotaT PV_ttAw_intr    be covered
+gtTy    gotaTiy IV_0hAnn        be covered
+gtT     gotaT   IV_0hwnyn       be covered
+gtTY    gotaTaY IV_0_Pass_yu    be covered
+;; giTA'_1
+gTA'    giTA'   N0_Nh   cover;blanket
+gTA&    giTA&   Nh      cover;blanket
+gTA}    giTA}   Nhy     cover;blanket
+>gTy    >agoTiy Nap     covers;blankets
+AgTy    >agoTiy Nap     covers;blankets
+;; giTA}iy~_1
+gTA}y   giTA}iy~        N-ap    covering;wrapping     <pos>giTA}iy~/ADJ</pos>
+;; tagoTiyap_1
+tgTy    tagoTiy NapAt   coverage;covering
+;; mugaT~aY_1
+mgTY    mugaT~aY        N0      covered     <pos>mugaT~aY/ADJ</pos>
+mgTA    mugaT~A Nhy     covered
+mgTy    mugaT~ay        NAn_Nayn        covered
+mgT     mugaT~  Nuwn_Niyn       covered
+mgTy    mugaT~ay        NAt     covered
+mgTA    mugaT~A Napdu   covered
+;
+;--- gf
+;; gaf~_1
+gf      gaf~    PV_V    seize;grasp
+gff     gafaf   PV_C    seize;grasp
+gf      gif~    IV_V    seize;grasp
+gff     gofif   IV_C    seize;grasp
+;
+;--- gfr
+;; gafar_1
+gfr     gafar   PV      forgive
+gfr     gofir   IV      forgive
+;; gaf~ar_1
+gfr     gaf~ar  PV      guard;watch
+gfr     gaf~ir  IV_yu   guard;watch
+;; {igotafar_1
+<gtfr   {igotafar       PV      forgive
+Agtfr   {igotafar       PV      forgive
+gtfr    gotafir IV      forgive
+;; {isotagofar_1
+<stgfr  {isotagofar     PV      beg forgiveness;apologize
+Astgfr  {isotagofar     PV      beg forgiveness;apologize
+stgfr   sotagofir       IV      beg forgiveness;apologize
+;; gafor_1
+gfr     gafor   N       forgiveness;pardon
+;; gafuwr_1
+gfwr    gafuwr  N       forgiving     <pos>gafuwr/ADJ</pos>
+;; gafuwr_2
+gfwr    gafuwr  N0      Ghafour
+;; gaf~Ar_1
+gfAr    gaf~Ar  N       forgiving     <pos>gaf~Ar/ADJ</pos>
+;; gaf~Ar_2
+gfAr    gaf~Ar  N0      Ghaffar
+;; magofirap_1
+mgfr    magofir Nap     pardon;forgiveness
+;; magofuwr_1
+mgfwr   magofuwr        N       deceased;late     <pos>magofuwr/ADJ</pos>
+;; guforap_1
+gfr     gufor   Nap     cover;lid
+;; gafiyr_1
+gfyr    gafiyr  N-ap    numerous;abundant     <pos>gafiyr/ADJ</pos>
+;; gufarA'_1
+gfyr    gafiyr  N-ap    sentinel;guard
+gfrA'   gufarA' N0_Nh   sentinels;guards
+gfrA&   gufarA& Nh      sentinels;guards
+gfrA}   gufarA} Nhy     sentinels;guards
+;; guforAn_1
+gfrAn   guforAn N       forgiveness;atonement
+;; gifArap_1
+gfAr    gifAr   Napdu   kerchief
+gfA}r   gafA}ir Ndip    kerchiefs
+;; migofar_1
+mgfr    migofar Ndu     veil
+mgAfr   magAfir Ndip    veils
+;; {isotigofAr_1
+<stgfAr {isotigofAr     N/At    plea for pardon
+AstgfAr {isotigofAr     N/At    plea for pardon
+;; {isotigofAriy~_1
+<stgfAry        {isotigofAriy~  N-ap    propitiatory     <pos>{isotigofAriy~/ADJ</pos>
+AstgfAry        {isotigofAriy~  N-ap    propitiatory     <pos>{isotigofAriy~/ADJ</pos>
+;
+;--- gfq
+;; gafoq_1
+gfq     gafoq   N       drizzle
+;; gafoqap_1
+gfq     gafoq   Nap     light sleep
+;
+;--- gfl
+;; gafal-u_1
+gfl     gafal   PV      neglect;be forgetful
+gfl     goful   IV      neglect;be forgetful
+;; gaf~al_1
+gfl     gaf~al  PV      stultify;make negligent
+gfl     gaf~il  IV_yu   stultify;make negligent
+;; gAfal_1
+gAfl    gAfal   PV      exploit negligence
+gAfl    gAfil   IV_yu   exploit negligence
+;; >agofal_1
+>gfl    >agofal PV      neglect;overlook;disregard
+Agfl    >agofal PV      neglect;overlook;disregard
+gfl     gofil   IV_yu   neglect;overlook;disregard
+gfl     gofal   IV_Pass_yu      be neglected;be overlooked;be disregarded
+;; tagAfal_1
+tgAfl   tagAfal PV      pretend not to notice;neglect;disregard
+tgAfl   tagAfal IV      pretend not to notice;neglect;disregard
+;; {isotagofal_1
+<stgfl  {isotagofal     PV      regard as negligent
+Astgfl  {isotagofal     PV      regard as negligent
+stgfl   sotagofil       IV      regard as negligent
+;; gufol_1
+gfl     gufol   N       anonymous;unmarked;devoid
+>gfAl   >agofAl N       anonymous;unmarked;devoid
+AgfAl   >agofAl N       anonymous;unmarked;devoid
+;; gufoliy~ap_1
+gfly    gufoliy~        Nap     anonymity     <pos>gufoliy~/NOUN</pos>
+;; gafal_1
+gfl     gafal   N       negligence
+;; gafolap_1
+gfl     gafol   Nap     negligence;inattention
+;; gafolAn_1
+gflAn   gafolAn N       negligent     <pos>gafolAn/ADJ</pos>
+;; tagofiyl_1
+tgfyl   tagofiyl        N/At    stultification
+;; <igofAl_1
+<gfAl   <igofAl N/At    disregard;omission;forgetting
+AgfAl   <igofAl N/At    disregard;omission;forgetting
+;; tagAful_1
+tgAfl   tagAful N/At    neglect
+;; gAfil_1
+gAfl    gAfil   Nall    negligent;inattentive;forgetful     <pos>gAfil/ADJ</pos>
+;; gufuwl_1
+gfwl    gufuwl  N       negligent;inattentive;forgetful     <pos>gufuwl/ADJ</pos>
+;; mugaf~al_1
+mgfl    mugaf~al        Nall    apathetic;gullible     <pos>mugaf~al/ADJ</pos>
+;; mugofal_1
+mgfl    mugofal N-ap    anonymous     <pos>mugofal/ADJ</pos>
+;; mutagaf~il_1
+mtgfl   mutagaf~il      Nall    dolt;simpleton     <pos>mutagaf~il/ADJ</pos>
+;; mutagAfil_1
+mtgAfl  mutagAfil       Nall    negligent;imprudent     <pos>mutagAfil/ADJ</pos>
+;
+;--- gfw gfy
+;; gafA-u_1
+gfA     gafA    PV_0    doze off
+gfw     gafaw   PV_Atn  doze off
+gf      gaf     PV_ttAw doze off
+gfw     gofuw   IV_0hAnn        doze off
+gf      gof     IV_0hwnyn       doze off
+;; gafiy-a_1
+gfy     gafiy   PV_no-w doze off
+gf      gaf     PV_w    doze off
+gfY     gofaY   IV_0    doze off
+gfy     gofay   IV_Ann  doze off
+gf      gofa    IV_0hwnyn       doze off
+;; >agofaY_1
+>gfY    >agofaY PV_0    doze off
+AgfY    >agofaY PV_0    doze off
+>gfA    >agofA  PV_h    doze off
+AgfA    >agofA  PV_h    doze off
+>gfy    >agofay PV_Atn  doze off
+Agfy    >agofay PV_Atn  doze off
+>gf     >agof   PV_ttAw doze off
+Agf     >agof   PV_ttAw doze off
+gfy     gofiy   IV_0hAnn_yu     doze off
+gf      gof     IV_0hwnyn_yu    doze off
+;; gafowap_1
+gfw     gafow   Napdu   nap;siesta;sleepiness
+gfw     gafaw   NAt     naps;siestas
+;; <igofA'_1
+<gfA'   <igofA' NapAt   nap;siesta;sleepiness
+AgfA'   <igofA' NapAt   nap;siesta;sleepiness
+;; gAfiy_1
+gAfy    gAfiy   N0F     drowsy;sleepy     <pos>gAfiy/ADJ</pos>
+gAf     gAf     NK      drowsy;sleepy
+gAfy    gAfiy   NAn_Nayn        drowsy;sleepy
+gAf     gAf     Nuwn_Niyn       drowsy;sleepy
+gAfy    gAfiy   NapAt   drowsy;sleepy
+;
+;--- gq
+;; gaq~-i_1
+gq      gaq~    PV_V    bubble;boil;gurgle
+gqq     gaqaq   PV_C    bubble;boil;gurgle
+gq      giq~    IV_V    bubble;boil;gurgle
+gqq     goqiq   IV_C    bubble;boil;gurgle
+;; gaqiyq_1
+gqyq    gaqiyq  N       bubbling;boiling;gurgling     <pos>gaqiyq/ADJ</pos>
+;
+;--- gl
+;; gal~-u_1
+gl      gal~    PV_V    penetrate;shackle
+gll     galal   PV_C    penetrate;shackle
+gl      gul~    IV_V    penetrate;shackle
+gll     golul   IV_C    penetrate;shackle
+;; gal~-i_1
+gl      gal~    PV_V    yield;produce
+gll     galal   PV_C    yield;produce
+gl      gil~    IV_V    yield;produce
+gll     golil   IV_C    yield;produce
+;; gal~al_1
+gll     gal~al  PV      handcuff;shackle
+gll     gal~il  IV_yu   handcuff;shackle
+;; >agal~_1
+>gl     >agal~  PV_V    produce;yield
+Agl     >agal~  PV_V    produce;yield
+>gll    >agolal PV_C    produce;yield
+Agll    >agolal PV_C    produce;yield
+gl      gil~    IV_V_yu produce;yield
+gll     golil   IV_C_yu produce;yield
+gl      gal~    IV_V_Pass_yu    be produced;be yielded
+;; tagal~al_1
+tgll    tagal~al        PV      penetrate
+tgll    tagal~al        IV      penetrate
+;; {inogal~_1
+<ngl    {inogal~        PV_V    slip into
+Angl    {inogal~        PV_V    slip into
+<ngll   {inogalal       PV_C    slip into
+Angll   {inogalal       PV_C    slip into
+ngl     nogal~  IV_V    slip into
+ngll    nogalil IV_C    slip into
+;; {isotagal~_1
+<stgl   {isotagal~      PV_V    exploit;take advantage of
+Astgl   {isotagal~      PV_V    exploit;take advantage of
+<stgll  {isotagolal     PV_C    exploit;take advantage of
+Astgll  {isotagolal     PV_C    exploit;take advantage of
+stgl    sotagil~        IV_V    exploit;take advantage of
+stgll   sotagolil       IV_C    exploit;take advantage of
+;; gul~_1
+gl      gul~    Ndu     handcuff;shackle
+>glAl   >agolAl N       handcuffs;shackles
+AglAl   >agolAl N       handcuffs;shackles
+;; gil~_1
+gl      gil~    N       rancor
+;; gul~_2
+gl      gul~    N       thirst
+;; gal~ap_1
+gl      gal~    NapAt   crops;yield;produce
+;; gilAlap_1
+glAl    gilAl   Napdu   gown;tunic
+glA}l   galA}il Ndip    gowns;tunics
+;; guluwl_1
+glwl    guluwl  N       slipping into
+;; galiyl_1
+glyl    galiyl  N       passion;rancor
+;; {isotigolAl_1
+<stglAl {isotigolAl     N/At    exploitation;utilization
+AstglAl {isotigolAl     N/At    exploitation;utilization
+;; {isotigolAliy~_1
+<stglAly        {isotigolAliy~  Nall    exploitative     <pos>{isotigolAliy~/ADJ</pos>
+AstglAly        {isotigolAliy~  Nall    exploitative     <pos>{isotigolAliy~/ADJ</pos>
+;; magoluwl_1
+mglwl   magoluwl        Nall    shackled;handcuffed     <pos>magoluwl/ADJ</pos>
+;; mugil~_1
+mgl     mugil~  N-ap    productive;fruitful     <pos>mugil~/ADJ</pos>
+;; musotagil~_1
+mstgl   musotagil~      Nall    exploiting
+;; musotagal~_1
+mstgl   musotagal~      N-ap    exploited;cultivated     <pos>musotagal~/ADJ</pos>
+;
+;--- glA
+;; glAzonuwsot_1
+glAznwst        glAzonuwsot     N0      glasnost
+glAsnwst        glAsonuwsot     N0      glasnost
+;
+;; glAsokuw_1
+glAskw  glAsokuw        Nprop   Glasgow
+;
+;; glAfokuws_1
+glAfkws glAfokuws       Nprop   Glafcos
+;
+;--- glb
+;; galab-i_1
+glb     galab   PV      defeat;overcome
+glb     golib   IV      defeat;overcome
+;; gAlab_1
+gAlb    gAlab   PV      overcome;surmount
+gAlb    gAlib   IV_yu   overcome;surmount
+;; tagal~ab_1
+tglb    tagal~ab        PV      overcome;surmount
+tglb    tagal~ab        IV      overcome;surmount
+;; tagAlab_1
+tgAlb   tagAlab PV      struggle
+tgAlb   tagAlab IV      struggle
+;; galobap_1
+glb     galob   Nap     victory;idle talk
+;; gal~Ab_1
+glAb    gal~Ab  Nall    victorious
+;; >agolab_1
+>glb    >agolab Nel     most;majority
+Aglb    >agolab Nel     most;majority
+;; >agolabiy~ap_1
+>glby   >agolabiy~      Nap     majority     <pos>>agolabiy~/NOUN</pos>
+Aglby   >agolabiy~      Nap     majority     <pos>>agolabiy~/NOUN</pos>
+;; >agolabiy~_1
+>glby   >agolabiy~      Nall    majority     <pos>>agolabiy~/ADJ</pos>
+Aglby   >agolabiy~      Nall    majority     <pos>>agolabiy~/ADJ</pos>
+;; gilAb_1
+glAb    gilAb   N       fighting;combat
+;; mugAlabap_1
+mgAlb   mugAlab NapAt   strife;struggle
+;; tagoliyb_1
+tglyb   tagoliyb        NduAt   preference;granting victory
+;; tagal~ub_1
+tglb    tagal~ub        NduAt   surmounting;overcoming
+;; gAlib_1
+gAlb    gAlib   N-ap    winner;victorious
+;; gAlib_2
+gAlb    gAlib   N       majority;predominant
+;; gAlibiy~ap_1
+gAlby   gAlibiy~        Nap     majority     <pos>gAlibiy~/NOUN</pos>
+;; magoluwb_1
+mglwb   magoluwb        Nall    loser;defeated;beaten
+;; mugal~ab_1
+mglb    mugal~ab        Nall    defeated;overcome
+;; mutagal~ib_1
+mtglb   mutagal~ib      Nall    victorious;overcoming     <pos>mutagal~ib/ADJ</pos>
+;; mutagal~ab_1
+mtglb   mutagal~ab      N       overcome;subdued     <pos>mutagal~ab/ADJ</pos>
+;
+;--- glbA
+;; galobAwiy~_1
+glbAwy  galobAwiy~      Nall    garrulous;chatterbox     <pos>galobAwiy~/ADJ</pos>
+;
+;--- gls
+;; gal~as_1
+gls     gal~as  PV      do late at night
+gls     gal~is  IV_yu   do late at night
+;; galas_1
+gls     galas   N       semi-darkness
+;
+;--- glS
+;; galoSamap_1
+glSm    galoSam Nap     epiglottis
+glASm   galASim Ndip    epiglottis
+;
+;--- glT
+;; galiT-a_1
+glT     galiT   PV      err;be mistaken
+glT     golaT   IV      err;be mistaken
+;; gAlaT_1
+gAlT    gAlaT   PV      misrepresent;falsify;deceive
+gAlT    gAliT   IV_yu   misrepresent;falsify;deceive
+;; >agolaT_1
+>glT    >agolaT PV      cause to err
+AglT    >agolaT PV      cause to err
+glT     goliT   IV_yu   cause to err
+glT     golaT   IV_Pass_yu      be forced to err
+;; tagAlaT_1
+tgAlT   tagAlaT PV      mislead each other
+tgAlT   tagAlaT IV      mislead each other
+;; galaT_1
+glT     galaT   Ndu     error;blunder
+>glAT   >agolAT N       mistakes;blunders
+AglAT   >agolAT N       mistakes;blunders
+;; galoTap_1
+glT     galoT   Napdu   error;blunder
+glT     galaT   NAt     errors;blunders
+;; galoTAn_1
+glTAn   galoTAn Ndip    wrong;erring     <pos>galoTAn/ADJ</pos>
+;; >ugoluwTap_1
+>glwT   >ugoluwT        NapAt   captious question
+AglwT   >ugoluwT        NapAt   captious question
+>gAlyT  >agAliyT        Ndip    captious questions
+AgAlyT  >agAliyT        Ndip    captious questions
+;; magolaTap_1
+mglT    magolaT Nap     captious question
+mgAlT   magAliT Ndip    captious questions
+;; mugAlaTap_1
+mgAlT   mugAlaT NapAt   falsification;misrepresentation;deception
+;; magoluwT_1
+mglwT   magoluwT        N-ap    false;wrong     <pos>magoluwT/ADJ</pos>
+;; mugAliT_1
+mgAlT   mugAliT Nall    fallacious;falsifying
+;
+;; galaTap_1
+glTp    galaTap Nprop   Galata (in "Galatasaray")
+;
+;--- glZ
+;; galuZ-u_1
+glZ     galuZ   PV_intr become thick;become viscous
+glZ     goluZ   IV_intr become thick;become viscous
+;; gal~aZ_1
+glZ     gal~aZ  PV      make thick;make coarse
+glZ     gal~iZ  IV_yu   make thick;make coarse
+;; >agolaZ_1
+>glZ    >agolaZ PV_intr be rough;be rude
+AglZ    >agolaZ PV_intr be rough;be rude
+glZ     goliZ   IV_intr_yu      be rough;be rude
+;; {isotagolaZ_1
+<stglZ  {isotagolaZ     PV_intr become thick;become rough
+AstglZ  {isotagolaZ     PV_intr become thick;become rough
+stglZ   sotagoliZ       IV_intr become thick;become rough
+;; gilaZ_1
+glZ     gilaZ   N       thickness;coarseness
+;; giloZap_1
+glZ     giloZ   Nap     thickness;coarseness
+;; galiyZ_1
+glyZ    galiyZ  N/ap    thick;viscous;coarse     <pos>galiyZ/ADJ</pos>
+glAZ    gilAZ   N       thick;viscous;coarse
+;; gilAZap_1
+glAZ    gilAZ   Nap     thickness;coarseness
+;; >agolaZ_2
+>glZ    >agolaZ Nel     thicker/thickest;coarser/coarsest;cruder/crudest
+AglZ    >agolaZ Nel     thicker/thickest;coarser/coarsest;cruder/crudest
+;; mugal~aZ_1
+mglZ    mugal~aZ        N-ap    binding;sacred     <pos>mugal~aZ/ADJ</pos>
+;; tagoliyZ_1
+tglyZ   tagoliyZ        N/At    roughening;toughening
+;
+;--- glgl
+;; galogal_1
+glgl    galogal PV      penetrate;submerge
+glgl    galogil IV_yu   penetrate;submerge
+;; tagalogal_1
+tglgl   tagalogal       PV_intr penetrate;invade
+tglgl   tagalogal       IV_intr penetrate;invade
+;; mutagalogil_1
+mtglgl  mutagalogil     Nall    penetrating;invading
+;; tagalogul_1
+tglgl   tagalogul       N/At    penetration;invasion
+;
+;--- glf
+;; gal~af_1
+glf     gal~af  PV      wrap;envelope;cover
+glf     gal~if  IV_yu   wrap;envelope;cover
+;; gulofap_1
+glf     gulof   Nap     foreskin;prepuce
+;; gilAf_1
+glAf    gilAf   NduAt   cover
+glf     guluf   N       covers
+>glf    >agolif Nap     covers
+Aglf    >agolif Nap     covers
+;; gilAfiy~_1
+glAfy   gilAfiy~        N-ap    covering     <pos>gilAfiy~/ADJ</pos>
+;; >agolaf_1
+>glf    >agolaf Nel     rude;uncivilized     <pos>>agolaf/ADJ</pos>
+Aglf    >agolaf Nel     rude;uncivilized
+glfA'   galofA' N0_Nh   rude;uncivilized
+glfA&   galofA& Nh      rude;uncivilized
+glfA}   galofA} Nhy     rude;uncivilized
+;; tagoliyf_1
+tglyf   tagoliyf        N/At    wrapping;covering
+;; mugal~af_1
+mglf    mugal~af        N-ap    wrapped;covered     <pos>mugal~af/ADJ</pos>
+;; mugal~af_2
+mglf    mugal~af        NduAt   envelope;package
+;; gal~Afap_1
+glAf    gal~Af  Nap     book-binding machine
+;; mugal~if_1
+mglf    mugal~if        Nall    book binder
+;
+;--- glfn
+; (cf. jlfn)
+;; galofan_1
+glfn    galofan PV-n    galvanize
+glfn    galofin IV-n_yu galvanize
+;; tagalofan_1
+tglfn   tagalofan       PV-n_intr       be galvanized
+tglfn   tagalofan       IV-n_intr       be galvanized
+;; galofanap_1
+glfn    galofan Nap     galvanization
+;; mugalofan_1
+mglfn   mugalofan       Nall    galvanized     <pos>mugalofan/ADJ</pos>
+;; galofAnuwmitr_1
+glfAnwmtr       galofAnuwmitr   N       galvanometer
+glfAnwmytr      galofAnuwmiytr  N       galvanometer
+;
+;--- glq
+;; galaq-i_1
+glq     galaq   PV      lock or bolt shut
+glq     goliq   IV      lock or bolt shut
+;; >agolaq_1
+>glq    >agolaq PV      lock or bolt shut
+Aglq    >agolaq PV      lock or bolt shut
+glq     goliq   IV_yu   lock or bolt shut
+glq     golaq   IV_Pass_yu      be locked or bolted shut
+;; {inogalaq_1
+<nglq   {inogalaq       PV_intr be closed
+Anglq   {inogalaq       PV_intr be closed
+nglq    nogaliq IV_intr be closed
+;; {isotagolaq_1
+<stglq  {isotagolaq     PV_intr be impenetrable;be inaccessible
+Astglq  {isotagolaq     PV_intr be impenetrable;be inaccessible
+stglq   sotagoliq       IV_intr be impenetrable;be inaccessible
+;; galoq_1
+glq     galoq   N       closing;locking
+;; galaq_1
+glq     galaq   N       padlock;bolt;lock
+>glAq   >agolAq N       padlocks;bolts;locks
+AglAq   >agolAq N       padlocks;bolts;locks
+;; galiq_1
+glq     galiq   N-ap    obscure;recondite     <pos>galiq/ADJ</pos>
+;; gilAqap_1
+glAq    gilAq   Nap     unpaid balance
+;; gal~Aqap_1
+glAq    gal~Aq  Nap     latch;lock
+;; migolAq_1
+mglAq   migolAq Ndu     lock;clasp;latch
+mgAlyq  magAliyq        Ndip    lock;clasp;latch
+;; <igolAq_1
+<glAq   <igolAq N/At    locking;closing;barring
+AglAq   <igolAq N/At    locking;closing;barring
+;; {inogilAq_1
+<nglAq  {inogilAq       N/At    impenetrability;closing
+AnglAq  {inogilAq       N/At    impenetrability;closing
+;; mugolaq_1
+mglq    mugolaq Nall    closed;locked     <pos>mugolaq/ADJ</pos>
+;; munogaliq_1
+mnglq   munogaliq       Nall    impervious;insensitive     <pos>munogaliq/ADJ</pos>
+;; musotagoliq_1
+mstglq  musotagoliq     Nall    cryptic;ambiguous;incomprehensible     <pos>musotagoliq/ADJ</pos>
+;
+;--- glm
+;; galim-a_1
+glm     galim   PV_intr be in heat;be aroused
+glm     golam   IV_intr be in heat;be aroused
+;; {igotalam_1
+<gtlm   {igotalam       PV_intr be in heat;be aroused
+Agtlm   {igotalam       PV_intr be in heat;be aroused
+gtlm    gotalim IV_intr be in heat;be aroused
+;; galim_1
+glm     galim   N-ap    in heat;aroused     <pos>galim/ADJ</pos>
+;; gulomap_1
+glm     gulom   Nap     sensuous desire
+;; gulAm_1
+glAm    gulAm   N       boy;youth
+glmAn   gilomAn N       boys;youths
+;; gulAmiy~ap_1
+glAmy   gulAmiy~        Nap     youthfulness     <pos>gulAmiy~/NOUN</pos>
+;; guluwmap_1
+glwm    guluwm  Nap     youthfulness
+;; gilomAniy~_1
+glmAny  gilomAniy~      Nall    pederast     <pos>gilomAniy~/ADJ</pos>
+;
+;; gayolam_1
+gylm    gayolam N       tortoise
+;
+;--- glw
+;; galA-u_1
+glA     galA    PV_0h   exceed;overdo;rise;be expensive
+glw     galaw   PV_Atn  exceed;overdo;rise;be expensive
+gl      gal     PV_ttAw exceed;overdo;rise;be expensive
+glw     goluw   IV_0hAnn        exceed;overdo;rise;be expensive
+gl      gol     IV_0hwnyn       exceed;overdo;rise;be expensive
+glY     golaY   IV_0_Pass_yu    be exceeded;be overdone
+gly     golay   IV_Ann_Pass_yu  be exceeded;be overdone
+;; gAlaY_1
+gAlY    gAlaY   PV_0    exceed;overdo
+gAlA    gAlA    PV_h    exceed;overdo
+gAly    gAlay   PV_Atn  exceed;overdo
+gAl     gAl     PV_ttAw exceed;overdo
+gAly    gAliy   IV_0hAnn_yu     exceed;overdo
+gAl     gAl     IV_0hwnyn_yu    exceed;overdo
+gAlY    gAlaY   IV_0_Pass_yu    be exceeded;be overdone
+gAly    gAlay   IV_Ann_Pass_yu  be exceeded;be overdone
+;; >agolaY_1
+>glY    >agolaY PV_0    raise (price);make expensive
+AglY    >agolaY PV_0    raise (price);make expensive
+>glA    >agolA  PV_h    raise (price);make expensive
+AglA    >agolA  PV_h    raise (price);make expensive
+>gly    >agolay PV_Atn  raise (price);make expensive
+Agly    >agolay PV_Atn  raise (price);make expensive
+>gl     >agol   PV_ttAw raise (price);make expensive
+Agl     >agol   PV_ttAw raise (price);make expensive
+gly     goliy   IV_0hAnn_yu     raise (price);make expensive
+gl      gol     IV_0hwnyn_yu    raise (price);make expensive
+glY     golaY   IV_0_Pass_yu    be raised (price)
+gly     golay   IV_Ann_Pass_yu  be raised (price)
+;; tagAlaY_1
+tgAlY   tagAlaY PV_0    be excessive;overdo
+tgAlA   tagAlA  PV_h    be excessive;overdo
+tgAly   tagAlay PV_Atn  be excessive;overdo
+tgAl    tagAl   PV_ttAw_intr    be excessive;overdo
+tgAlY   tagAlaY IV_0    be excessive;overdo
+tgAlA   tagAlA  IV_h    be excessive;overdo
+tgAly   tagAlay IV_Ann  be excessive;overdo
+tgAl    tagAl   IV_0hwnyn       be excessive;overdo
+;; {isotagolaY_1
+<stglY  {isotagolaY     PV_0    regard as expensive
+AstglY  {isotagolaY     PV_0    regard as expensive
+<stglA  {isotagolA      PV_h    regard as expensive
+AstglA  {isotagolA      PV_h    regard as expensive
+<stgly  {isotagolay     PV_Atn  regard as expensive
+Astgly  {isotagolay     PV_Atn  regard as expensive
+<stgl   {isotagol       PV_ttAw regard as expensive
+Astgl   {isotagol       PV_ttAw regard as expensive
+stgly   sotagoliy       IV_0hAnn        regard as expensive
+stgl    sotagol IV_0hwnyn       regard as expensive
+stglY   sotagolaY       IV_0_Pass_yu    be regarded as expensive
+;; guluw~_1
+glw     guluw~  N       excess;exaggeration;extremism
+;; galA'_1
+glA'    galA'   N0_Nh   high cost;rising cost
+glA&    galA&   Nh      high cost;rising cost
+glA}    galA}   Nhy     high cost;rising cost
+;; gulowA'_1
+glwA'   gulowA' N0_Nh   zeal;enthusiasm
+glwA&   gulowA& Nh      zeal;enthusiasm
+glwA}   gulowA} Nhy     zeal;enthusiasm
+;; >agolaY_2
+>glY    >agolaY N0      more/most expensive
+AglY    >agolaY N0      more/most expensive
+>glA    >agolA  Nhy     most expensive
+AglA    >agolA  Nhy     most expensive
+>gly    >agolay NAn_Nayn        most expensive
+Agly    >agolay NAn_Nayn        most expensive
+;; mugAlAp_1
+mgAlA   mugAlA  Napdu   exaggeration;excess
+mgAly   mugAlay NAt     exaggerations;excesses
+;; <igolA'_1
+<glA'   <igolA' N0_Nh   praise;admiration
+AglA'   <igolA' N0_Nh   praise;admiration
+<glA&   <igolA& Nh      praise;admiration
+AglA&   <igolA& Nh      praise;admiration
+<glA}   <igolA} Nhy     praise;admiration
+AglA}   <igolA} Nhy     praise;admiration
+<glA'   <igolA' NAt     praise;admiration
+AglA'   <igolA' NAt     praise;admiration
+;; gAliy_1
+gAly    gAliy   N0F     costly;beloved
+gAl     gAl     NK      costly;beloved
+gAly    gAliy   NAn_Nayn        costly;beloved
+gAl     gAl     Nuwn_Niyn       costly;beloved
+gAly    gAliy   NapAt   costly;beloved
+;; gulAp_1
+glA     gulA    Nap     extremists;fanatics
+;; mugAliy_1
+mgAly   mugAliy N0F_Nh  extravagant;exaggerating     <pos>mugAliy/ADJ</pos>
+mgAl    mugAl   NK      extravagant;exaggerating
+mgAly   mugAliy NAn_Nayn        extravagant;exaggerating
+mgAl    mugAl   Nuwn_Niyn       extravagant;exaggerating
+mgAly   mugAliy NapAt   extravagant;exaggerating
+;; mugAlaY_1
+mgAlY   mugAlaY N0      exaggerated;excessive     <pos>mugAlaY/ADJ</pos>
+mgAlw   mugAlaw NAt     exaggerations;excesses
+;
+;--- glwr
+;; gluwriy_1
+glwry   gluwriy Nprop   Glory
+;
+;--- gly
+;; galaY-i_1
+glY     galaY   PV_0    boil
+glA     galA    PV_h    boil
+gly     galay   PV_Atn  boil
+gl      gal     PV_ttAw boil
+gly     goliy   IV_0hAnn        boil
+gl      gol     IV_0hwnyn       boil
+glY     golaY   IV_0    boil
+;; gal~aY_1
+glY     gal~aY  PV_0    boil
+glA     gal~A   PV_h    boil
+gly     gal~ay  PV_Atn  boil
+gl      gal~    PV_ttAw boil
+gly     gal~iy  IV_0hAnn_yu     boil
+gl      gal~    IV_0hwnyn_yu    boil
+glY     gal~aY  IV_0_Pass_yu    be boiled
+gly     gal~ay  IV_Ann_Pass_yu  be boiled
+;; >agolaY_3
+>glY    >agolaY PV_0    boil;make boil
+AglY    >agolaY PV_0    boil;make boil
+>glA    >agolA  PV_h    boil;make boil
+AglA    >agolA  PV_h    boil;make boil
+>gly    >agolay PV_Atn  boil;make boil
+Agly    >agolay PV_Atn  boil;make boil
+>gl     >agol   PV_ttAw boil;make boil
+Agl     >agol   PV_ttAw boil;make boil
+gly     goliy   IV_0hAnn_yu     boil;make boil
+gl      gol     IV_0hwnyn_yu    boil;make boil
+glY     golaY   IV_0_Pass_yu    be boiled
+gly     golay   IV_Ann_Pass_yu  be boiled
+;; galoy_1
+gly     galoy   N       boiling
+;; galayAn_1
+glyAn   galayAn N       boiling
+;; gal~Ayap_1
+glAy    gal~Ay  NapAt   kettle;boiler
+;; magoliy~_1
+mgly    magoliy~        N-ap    boiled;broth     <pos>magoliy~/ADJ</pos>
+;; migolAp_1
+mglA    migolA  Napdu   boiler
+mgAly   magAliy N0_Nh   boilers
+mgAl    magAl   NK      boilers
+;
+;--- glys
+;; gliysiriyn_1
+glysryn gliysiriyn      N0      glycerin
+;
+;--- glyn
+;; galoyuwn_1
+glywn   galoyuwn        Ndu     tobacco pipe
+glAyyn  galAyiyn        Ndip    tobacco pipes
+;; galoyuwn_2
+glywn   galoyuwn        Ndu     galleon
+glAyyn  galAyiyn        Ndip    galleons
+glAwyn  galAwiyn        Ndip    galleons
+;
+;--- gm
+;; gam~-u_1
+gm      gam~    PV_V    hide;cover up
+gmm     gamam   PV_C    hide;cover up
+gm      gum~    IV_V    hide;cover up
+gmm     gomum   IV_C    hide;cover up
+gm      gum~    PV_V_Pass       be obscure;be incomprehensible
+gmm     gumim   PV_C_Pass       be obscure;be incomprehensible
+gm      gam~    IV_V_Pass_yu    be obscure;be incomprehensible
+gmm     gomam   IV_C_Pass_yu    be obscure;be incomprehensible
+;; gam~am_1
+gmm     gam~am  PV      conceal;hide
+gmm     gam~im  IV_yu   conceal;hide
+;; >agam~_1
+>gm     >agam~  PV_V    afflict;distress;be overcast
+Agm     >agam~  PV_V    afflict;distress;be overcast
+>gmm    >agomam PV_C    afflict;distress;be overcast
+Agmm    >agomam PV_C    afflict;distress;be overcast
+gm      gim~    IV_V_yu afflict;distress;be overcast
+gmm     gomim   IV_C_yu afflict;distress;be overcast
+gm      gam~    IV_V_Pass_yu    be afflicted
+;; {inogam~_1
+<ngm    {inogam~        PV_V_intr       be worried;grieve
+Angm    {inogam~        PV_V_intr       be worried;grieve
+<ngmm   {inogamam       PV_C_intr       be worried;grieve
+Angmm   {inogamam       PV_C_intr       be worried;grieve
+ngm     nogam~  IV_V_intr       be worried;grieve
+ngmm    nogamim IV_C_intr       be worried;grieve
+;; {igotam~_1
+<gtm    {igotam~        PV_V_intr       be worried;grieve
+Agtm    {igotam~        PV_V_intr       be worried;grieve
+<gtmm   {igotamam       PV_C_intr       be worried;grieve
+Agtmm   {igotamam       PV_C_intr       be worried;grieve
+gtm     gotam~  IV_V_intr       be worried;grieve
+gtmm    gotamim IV_C_intr       be worried;grieve
+;; gam~_1
+gm      gam~    N       affliction;distress
+gmwm    gumuwm  N       affliction;distress
+;; gum~ap_1
+gm      gum~    Nap     anxiety;sorrow
+;; gamAm_1
+gmAm    gamAm   N       clouds
+gmAm    gamAm   NapAt   cloud
+gmA}m   gamA}im Ndip    clouds
+;; gamAmiy~_1
+gmAmy   gamAmiy~        N-ap    cloudy     <pos>gamAmiy~/ADJ</pos>
+;; gamAmiy~ap_1
+gmAmy   gamAmiy~        Nap     nebulosity     <pos>gamAmiy~/NOUN</pos>
+;; gimAmap_1
+gmAm    gimAm   Nap     blinder;muzzle
+;; >agam~_2
+>gm     >agam~  Nel     overcast
+Agm     >agam~  Nel     overcast
+gmA'    gam~A'  N0_Nh   overcast
+gmA&    gam~A&  Nh      overcast
+gmA}    gam~A}  Nhy     overcast
+;; >agam~_3
+>gm     >agam~  Nel     hirsute
+Agm     >agam~  Nel     hirsute
+gmA'    gam~A'  N0_Nh   hirsute
+gmA&    gam~A&  Nh      hirsute
+gmA}    gam~A}  Nhy     hirsute
+;; gAm~_1
+gAm     gAm~    N-ap    overcast     <pos>gAm~/ADJ</pos>
+;; gAm~_2
+gAm     gAm~    N-ap    distressing     <pos>gAm~/ADJ</pos>
+;; magomuwm_1
+mgmwm   magomuwm        Nall    worried;afflicted     <pos>magomuwm/ADJ</pos>
+;; mugotam~_1
+mgtm    mugotam~        Nall    distressed;afflicted     <pos>mugotam~/ADJ</pos>
+;; mugim~_1
+mgm     mugim~  N-ap    worrying;distressing     <pos>mugim~/ADJ</pos>
+;; mugim~_2
+mgm     mugim~  N-ap    overcast     <pos>mugim~/ADJ</pos>
+;
+;--- gmd
+;; gamad-i_1
+gmd     gamad   PV      cover;sheathe
+gmd     gomid   IV      cover;sheathe
+;; gam~ad_1
+gmd     gam~ad  PV      conceal
+gmd     gam~id  IV_yu   conceal
+;; >agomad_1
+>gmd    >agomad PV      sheathe
+Agmd    >agomad PV      sheathe
+gmd     gomid   IV_yu   sheathe
+gmd     gomad   IV_Pass_yu      be sheathed
+;; tagam~ad_1
+tgmd    tagam~ad        PV      cover;protect
+tgmd    tagam~ad        IV      cover;protect
+;; gimod_1
+gmd     gimod   N       sheath
+>gmAd   >agomAd N       sheaths
+AgmAd   >agomAd N       sheaths
+gmwd    gumuwd  N       sheaths
+;; gAmidiy~_1
+gAmdy   gAmidiy~        N0      Ghamdi;Ghamidi
+;
+;--- gmr
+;; gamur-u_1
+gmr     gamur   PV_intr be foolish
+gmr     gomur   IV_intr be foolish
+;; gamar-u_2
+gmr     gamar   PV      immerse;flood
+gmr     gomur   IV      immerse;flood
+;; gAmar_1
+gAmr    gAmar   PV      venture;risk;gamble
+gAmr    gAmir   IV_yu   venture;risk;gamble
+;; {inogamar_1
+<ngmr   {inogamar       PV_intr be immersed;plunge
+Angmr   {inogamar       PV_intr be immersed;plunge
+ngmr    nogamir IV_intr be immersed;plunge
+;; {igotamar_1
+<gtmr   {igotamar       PV      engulf
+Agtmr   {igotamar       PV      engulf
+gtmr    gotamir IV      engulf
+;; gamor_1
+gmr     gamor   N       flooding
+;; gimAr_1
+gmAr    gimAr   N       tribulations;hazard;depths
+;; gimAriy~_1
+gmAry   gimAriy~        N-ap    adventurous     <pos>gimAriy~/ADJ</pos>
+;; gumuwr_1
+gmwr    gumuwr  N       flooding
+;; gamorap_1
+gmr     gamor   Napdu   inundation;flood
+gmr     gamar   NAt     inundations;floods
+;; >agomAr_1
+>gmAr   >agomAr N       armsfull
+AgmAr   >agomAr N       armsfull
+;; mugAmarap_1
+mgAmr   mugAmar NapAt   adventure;risk
+;; gAmir_1
+gAmr    gAmir   N-ap    overflowing;plentiful
+;; magomuwr_1
+mgmwr   magomuwr        N-ap    covered;burried;submerged     <pos>magomuwr/ADJ</pos>
+;; magomuwr_2
+mgmwr   magomuwr        N-ap    off-shore;on the sea bottom
+;; mugAmir_1
+mgAmr   mugAmir Nall    adventurer;risk-taking
+;; {inogimAr_1
+<ngmAr  {inogimAr       N/At    immersion;submersion
+AngmAr  {inogimAr       N/At    immersion;submersion
+;
+;--- gmz
+;; gamaz-i_1
+gmz     gamaz   PV      signal;blink
+gmz     gomiz   IV      signal;blink
+;; tagAmaz_1
+tgAmz   tagAmaz PV      signal to each other;wink to each other
+tgAmz   tagAmaz IV      signal to each other;wink to each other
+;; {igotamaz_1
+<gtmz   {igotamaz       PV      disparage
+Agtmz   {igotamaz       PV      disparage
+gtmz    gotamiz IV      disparage
+;; gamoz_1
+gmz     gamoz   N       signaling
+;; gamozap_1
+gmz     gamoz   Napdu   sign;signal
+gmz     gamaz   NAt     signs;signals
+;; gamozap_2
+gmz     gamoz   Napdu   wink;innuendo
+gmz     gamaz   NAt     winks;innuendo
+;; gam~Azap_1
+gmAz    gam~Az  Nap     dimple
+;; gamiyzap_1
+gmyz    gamiyz  Nap     blemish;shortcoming
+;; magomaz_1
+mgmz    magomaz Ndu     shortcoming;weakness;hidden meaning
+mgAmz   magAmiz Ndip    shortcomings;weaknesses;hidden meanings
+;; gam~Az_1
+gmAz    gam~Az  N       floater;buoy
+;
+;--- gms
+;; gamas-i_1
+gms     gamas   PV      immerse;plunge
+gms     gomis   IV      immerse;plunge
+;; gam~as_1
+gms     gam~as  PV      immerse;plunge
+gms     gam~is  IV_yu   immerse;plunge
+;; {inogamas_1
+<ngms   {inogamas       PV_intr be immersed;be plunged
+Angms   {inogamas       PV_intr be immersed;be plunged
+ngms    nogamis IV_intr be immersed;be plunged
+;; {igotamas_1
+<gtms   {igotamas       PV_intr be immersed;be plunged
+Agtms   {igotamas       PV_intr be immersed;be plunged
+gtms    gotamis IV_intr be immersed;be plunged
+;; gamos_1
+gms     gamos   N       immersion;plunging
+;; gamiys_1
+gmys    gamiys  N-ap    buried;unknown     <pos>gamiys/ADJ</pos>
+;; gamuws_1
+gmws    gamuws  N-ap    ominous;disastrous;false     <pos>gamuws/ADJ</pos>
+;; magomuws_1
+mgmws   magomuws        N-ap    immersed     <pos>magomuws/ADJ</pos>
+;
+;--- gm$
+;; gami$-a_1
+gm$     gami$   PV      have weak eyesight
+gm$     goma$   IV      have weak eyesight
+;; gama$_1
+gm$     gama$   N       weak eyesight
+;
+;--- gmS
+;; gamaS-i_1
+gmS     gamaS   PV      disdain;despise
+gmS     gomiS   IV      disdain;despise
+;; gamaS_1
+gmS     gamaS   N       eye mucus
+;; >agomaS_1
+>gmS    >agomaS Nel     sticky-eyed
+AgmS    >agomaS Nel     sticky-eyed
+gmSA'   gamoSA' N0_Nh   sticky-eyed
+gmSA&   gamoSA& Nh      sticky-eyed
+gmSA}   gamoSA} Nhy     sticky-eyed
+;
+;--- gmD
+;; gamuD-u_1
+gmD     gamuD   PV_intr be hidden;be obscure
+gmD     gomuD   IV_intr be hidden;be obscure
+;; gam~aD_1
+gmD     gam~aD  PV      make obscure;make abstruse
+gmD     gam~iD  IV_yu   make obscure;make abstruse
+;; >agomaD_1
+>gmD    >agomaD PV      blur;blind
+AgmD    >agomaD PV      blur;blind
+gmD     gomiD   IV_yu   blur;blind
+gmD     gomaD   IV_Pass_yu      be blurred;be blinded
+;; {inogamaD_1
+<ngmD   {inogamaD       PV      close
+AngmD   {inogamaD       PV      close
+ngmD    nogamiD IV      close
+;; {igotamaD_1
+<gtmD   {igotamaD       PV      sleep
+AgtmD   {igotamaD       PV      sleep
+gtmD    gotamiD IV      sleep
+;; gumoD_1
+gmD     gumoD   N       sleep
+;; gamoDap_1
+gmD     gamoD   Nap     twinkle;winking;instant
+gmAD    gimAD   N       twinkle;winking;instant
+;; gumuwD_1
+gmwD    gumuwD  N       vagueness;obscurity;lack of clarity
+gmwD    gumuwD  Nap     vagueness;obscurity;lack of clarity
+;; >agomaD_2
+>gmD    >agomaD Nel     more/most obscure;more/most vague
+AgmD    >agomaD Nel     more/most obscure;more/most vague
+;; gAmiD_1
+gAmD    gAmiD   N-ap    obscure;ambiguous;vague     <pos>gAmiD/ADJ</pos>
+gwAmD   gawAmiD Ndip    obscure;ambiguous;vague
+;; gAmiDap_1
+gAmD    gAmiD   NapAt   enigma;riddle
+gwAmD   gawAmiD Ndip    enigmas;riddles
+;; mugomaD_1
+mgmD    mugomaD N-ap    closed     <pos>mugomaD/ADJ</pos>
+;
+;--- gmT
+;; gamaT-i_1
+gmT     gamaT   PV      despise;disdain
+gmT     gomiT   IV      despise;disdain
+;; gamoT_1
+gmT     gamoT   N       despising;disdaining
+;
+;--- gmgm
+;; gamogam_1
+gmgm    gamogam PV      mumble;mutter
+gmgm    gamogim IV_yu   mumble;mutter
+;; gamogamap_1
+gmgm    gamogam Nap     mumbling;muttering
+gmAgm   gamAgim Ndip    mumbling;muttering
+;
+;--- gmq
+;; gamiq-a_1
+gmq     gamiq   PV_intr be damp;be moist
+gmq     gomaq   IV_intr be damp;be moist
+;; gAmiq_1
+gAmq    gAmiq   N-ap    dark color;deep color;boldface (font)     <pos>gAmiq/ADJ</pos>
+;
+;--- gmlj
+;; gamolaj_1
+gmlj    gamolaj N-ap    fickle;inconstant     <pos>gamolaj/ADJ</pos>
+;; gimolAj_1
+gmlAj   gimolAj N-ap    fickle;inconstant     <pos>gimolAj/ADJ</pos>
+;; gumoluwj_1
+gmlwj   gumoluwj        N-ap    fickle;inconstant     <pos>gumoluwj/ADJ</pos>
+;
+;--- gmy
+;; gamaY-i_1
+gmY     gamaY   PV_0    cover with a roof
+gmA     gamA    PV_h    cover with a roof
+gmy     gamay   PV_Atn  cover with a roof
+gm      gam     PV_ttAw cover with a roof
+gmy     gomiy   IV_0hAnn        cover with a roof
+gm      gom     IV_0hwnyn       cover with a roof
+gmY     gomaY   IV_0_Pass_yu    be covered with a roof
+gmy     gumiy   PV_Pass-a       faint;lose consciousness
+gmY     gomaY   IV_0_Pass_yu    faint;lose consciousness
+;; gam~aY_1
+gmY     gam~aY  PV_0    blindfold
+gmA     gam~A   PV_h    blindfold
+gmy     gam~ay  PV_Atn  blindfold
+gm      gam~    PV_ttAw blindfold
+gmy     gam~iy  IV_0hAnn_yu     blindfold
+gm      gam~    IV_0hwnyn_yu    blindfold
+gmY     gam~aY  IV_0_Pass_yu    be blindfolded
+gmy     gam~ay  IV_Ann_Pass_yu  be blindfolded
+; temp solution @@
+gm      gam~    IV_0hwnyn_yu    be blindfolded
+;; >agomaY_1
+>gmY    >agomaY PV_0    faint;lose consciousness
+AgmY    >agomaY PV_0    faint;lose consciousness
+>gmA    >agomA  PV_h    faint;lose consciousness
+AgmA    >agomA  PV_h    faint;lose consciousness
+>gmy    >agomay PV_Atn  faint;lose consciousness
+Agmy    >agomay PV_Atn  faint;lose consciousness
+>gm     >agom   PV_ttAw faint;lose consciousness
+Agm     >agom   PV_ttAw faint;lose consciousness
+>gmy    >ugomiy PV_Pass-a       faint;lose consciousness
+Agmy    >ugomiy PV_Pass-a       faint;lose consciousness
+gmY     gomaY   IV_0_Pass_yu    faint;lose consciousness
+;; gamoy_1
+gmy     gamoy   N       fainting
+<gmA'   <igomA' N0_Nh   fainting
+AgmA'   <igomA' N0_Nh   fainting
+<gmA&   <igomA& Nh      fainting
+AgmA&   <igomA& Nh      fainting
+<gmA}   <igomA} Nhy     fainting
+AgmA}   <igomA} Nhy     fainting
+;; <igomA'ap_1
+<gmA'   <igomA' NapAt   fainting spell
+AgmA'   <igomA' NapAt   fainting spell
+;; magomiy~_1
+mgmy    magomiy~        N       fainted;unconscious     <pos>magomiy~/ADJ</pos>
+;; mugomaY_1
+mgmY    mugomaY N0      fainted;unconscious     <pos>mugomaY/ADJ</pos>
+;
+;--- gn
+;; gan~-a_1
+gn      gan~    PV_V    speak through the nose
+gnn     ganin   PV_Cn   speak through the nose
+gn      gan~    IV_V    speak through the nose
+gnn     gonan   IV-n    speak through the nose
+;; >agan~_1
+>gn     >agan~  PV_V    buzz;drone
+Agn     >agan~  PV_V    buzz;drone
+>gnn    >agonan PV_Cn   buzz;drone
+Agnn    >agonan PV_Cn   buzz;drone
+gn      gin~    IV_V_yu buzz;drone
+gnn     gonin   IV_C_yu buzz;drone
+;; gan~_1
+gn      gan~    N       nasal twang
+;; gun~ap_1
+gn      gun~    NapAt   nasal twang
+;; >agan~_2
+>gn     >agan~  Nel     melodious;sonorous
+Agn     >agan~  Nel     melodious;sonorous
+gnA'    gan~A'  N0_Nh   melodious;sonorous
+gnA&    gan~A&  Nh      melodious;sonorous
+gnA}    gan~A}  Nhy     melodious;sonorous
+;; >agan~_3
+>gn     >agan~  Nel     lush;green
+Agn     >agan~  Nel     lush;green
+gnA'    gan~A'  N0_Nh   lush;green
+gnA&    gan~A&  Nh      lush;green
+gnA}    gan~A}  Nhy     lush;green
+;; gunAn_1
+gnAn    gunAn   N       buzzing;droning
+;; mugin~_1
+mgn     mugin~  Nall    buzzing;droning     <pos>mugin~/ADJ</pos>
+;
+;--- gnj
+;; ganij-a_1
+gnj     ganij   PV      flirt;be coquettish
+gnj     gonaj   IV      flirt;be coquettish
+;; gan~aj_1
+gnj     gan~aj  PV      pamper;coddle
+gnj     gan~ij  IV_yu   pamper;coddle
+;; tagan~aj_1
+tgnj    tagan~aj        PV      flirt;be coquettish
+tgnj    tagan~aj        IV      flirt;be coquettish
+;; gunoj_1
+gnj     gunoj   N       flirting;coquettish behavior
+;; ganijap_1
+gnj     ganij   Nap     coquette;flirtatious
+;; gan~uwj_1
+gnwj    gan~uwj N       ghannouj (in baba ghannouj, eggplant dish)
+;; migonAj_1
+mgnAj   migonAj N-ap    coquette;flirtatious     <pos>migonAj/ADJ</pos>
+;; >ugonuwjap_1
+>gnwj   >ugonuwj        Napdu   flirting;coquettish behavior
+Agnwj   >ugonuwj        Napdu   flirting;coquettish behavior
+>gAnyj  >agAniyj        Ndip    flirting;coquettish behavior
+AgAnyj  >agAniyj        Ndip    flirting;coquettish behavior
+;; tagan~uj_1
+tgnj    tagan~uj        N/At    flirting;coquettish behavior
+;; mutagan~ij_1
+mtgnj   mutagan~ij      Nall    flirting     <pos>mutagan~ij/ADJ</pos>
+;
+;--- gndr
+;; taganodar_1
+tgndr   taganodar       PV      make faces;play the dandy
+tgndr   taganodar       IV      make faces;play the dandy
+;; ganodarap_1
+gndr    ganodar Nap     affectation
+;; gunodur_1
+gndr    gunodur N       chubby
+;; ganoduwr_1
+gndwr   ganoduwr        N       dandy;handsome man
+gnAdr   ganAdir Nap     dandies;handsome men
+;; ganoduwr_2
+gndwr   ganoduwr        N0      Ghandour
+;; ganoduwrap_1
+gndwr   ganoduwr        NapAt   pretty woman
+;
+;--- gndq
+;; gunodaqojiy~_1
+gndqjy  gunodaqojiy~    Nall    armorer;gunsmith     <pos>gunodaqojiy~/ADJ</pos>
+;
+;--- gngr
+;; ganogar_1
+gngr    ganogar PV_intr become gangrenous
+gngr    ganogir IV_intr_yu      become gangrenous
+;; taganogar_1
+tgngr   taganogar       PV_intr become gangrenous
+tgngr   taganogar       IV_intr become gangrenous
+;; ganogarap_1
+gngr    ganogar Nap     gangrene
+mgngr   muganogar       N-ap    gangrenous
+;; ganogariyn_1
+gngryn  ganogariyn      N       gangrene
+;; ganogariynap_1
+gngryn  ganogariyn      Nap     gangrene
+;; ganogariynA_1
+gngrynA ganogariynA     N0      gangrene
+;; ganogariyniy~_1
+gngryny ganogariyniy~   N-ap    gangrenous     <pos>ganogariyniy~/ADJ</pos>
+;
+;--- gnfr
+;; gunAfir_1
+gnAfr   gunAfir N       lout;boor
+;
+;--- gnm
+;; ganim-a_1
+gnm     ganim   PV      capture;plunder
+gnm     gonam   IV      capture;plunder
+;; gan~am_1
+gnm     gan~am  PV      bestow
+gnm     gan~im  IV_yu   bestow
+;; >agonam_1
+>gnm    >agonam PV      bestow
+Agnm    >agonam PV      bestow
+gnm     gonim   IV_yu   bestow
+gnm     gonam   IV_Pass_yu      be bestown
+;; {igotanam_1
+<gtnm   {igotanam       PV      profit from;seize (opportunity)
+Agtnm   {igotanam       PV      profit from;seize (opportunity)
+gtnm    gotanim IV      profit from;seize (opportunity)
+;; {isotagonam_1
+<stgnm  {isotagonam     PV      seize;profit
+Astgnm  {isotagonam     PV      seize;profit
+stgnm   sotagonim       IV      seize;profit
+;; gunom_1
+gnm     gunom   N       profit;gain
+;; gunom_2
+gnm     gunom   N       spoils;booty
+;; ganam_1
+gnm     ganam   N       sheep
+>gnAm   >agonAm N       sheep
+AgnAm   >agonAm N       sheep
+;; gunayom_1
+gnym    gunayom Nprop   Ghunaim
+;; gan~Am_1
+gnAm    gan~Am  N       shepherd
+;; gan~Am_2
+gnAm    gan~Am  N0      Ghannam
+;; ganiymap_1
+gnym    ganiym  Napdu   spoils;booty
+gnA}m   ganA}im Ndip    spoils;booty
+;; magonam_1
+mgnm    magonam Ndu     spoils;booty
+mgAnm   magAnim Ndip    spoils;booty
+;; gAnim_1
+gAnm    gAnim   N0      Ghanim;Ghanem
+;; gAnim_2
+gAnm    gAnim   N-ap    successful
+;; {igotinAm_1
+<gtnAm  {igotinAm       NduAt   profiting from;seizing (opportunity)
+AgtnAm  {igotinAm       NduAt   profiting from;seizing (opportunity)
+;
+;--- gnS
+;; gunuwSiy~_1
+gnwSy   gunuwSiy~       Nall    gnostic     <pos>gunuwSiy~/ADJ</pos>
+gnwSy   gunuwSiy~       Nap     gnosticism     <pos>gunuwSiy~/NOUN</pos>
+;
+;--- gny
+;; ganiy-a_1
+gny     ganiy   PV_no-w_intr    become rich
+gn      gan     PV_w_intr       become rich
+gnY     gonaY   IV_0    become rich
+gny     gonay   IV_Ann  become rich
+gn      gona    IV_0hwnyn       become rich
+;; gan~aY_1
+gnY     gan~aY  PV_0    sing
+gnA     gan~A   PV_h    sing
+gny     gan~ay  PV_Atn  sing
+gn      gan~    PV_ttAw sing
+gny     gan~iy  IV_0hAnn_yu     sing
+gn      gan~    IV_0hwnyn_yu    sing
+gnY     gan~aY  IV_0_Pass_yu    be sung
+gny     gan~ay  IV_Ann_Pass_yu  be sung
+;; >agonaY_1
+>gnY    >agonaY PV_0    enrich;satisfy
+AgnY    >agonaY PV_0    enrich;satisfy
+>gnA    >agonA  PV_h    enrich;satisfy
+AgnA    >agonA  PV_h    enrich;satisfy
+>gny    >agonay PV_Atn  enrich;satisfy
+Agny    >agonay PV_Atn  enrich;satisfy
+>gn     >agon   PV_ttAw enrich;satisfy
+Agn     >agon   PV_ttAw enrich;satisfy
+gny     goniy   IV_0hAnn_yu     enrich;satisfy
+gn      gon     IV_0hwnyn_yu    enrich;satisfy
+gnY     gonaY   IV_0_Pass_yu    be enriched;be satisfied
+gny     gonay   IV_Ann_Pass_yu  be enriched;be satisfied
+;; tagan~aY_1
+tgnY    tagan~aY        PV_0    extol;praise
+tgnA    tagan~A PV_h    extol;praise
+tgny    tagan~ay        PV_Atn  extol;praise
+tgn     tagan~  PV_ttAw extol;praise
+tgnY    tagan~aY        IV_0    extol;praise
+tgnA    tagan~A IV_h    extol;praise
+tgny    tagan~ay        IV_Ann  extol;praise
+tgn     tagan~  IV_0hwnyn       extol;praise
+;; {igotanaY_1
+<gtnY   {igotanaY       PV_0    become rich
+AgtnY   {igotanaY       PV_0    become rich
+<gtnA   {igotanA        PV_h    become rich
+AgtnA   {igotanA        PV_h    become rich
+<gtny   {igotanay       PV_Atn  become rich
+Agtny   {igotanay       PV_Atn  become rich
+<gtn    {igotan PV_ttAw_intr    become rich
+Agtn    {igotan PV_ttAw_intr    become rich
+gtny    gotaniy IV_0hAnn        become rich
+gtn     gotan   IV_0hwnyn       become rich
+gtnY    gotanaY IV_0    become rich
+;; {isotagonaY_1
+<stgnY  {isotagonaY     PV_0    dispense with;manage without
+AstgnY  {isotagonaY     PV_0    dispense with;manage without
+<stgnA  {isotagonA      PV_h    dispense with;manage without
+AstgnA  {isotagonA      PV_h    dispense with;manage without
+<stgny  {isotagonay     PV_Atn  dispense with;manage without
+Astgny  {isotagonay     PV_Atn  dispense with;manage without
+<stgn   {isotagon       PV_ttAw dispense with;manage without
+Astgn   {isotagon       PV_ttAw dispense with;manage without
+stgny   sotagoniy       IV_0hAnn        dispense with;manage without
+stgn    sotagon IV_0hwnyn       dispense with;manage without
+stgnY   sotagonaY       IV_0_Pass_yu    be dispensed with;manage without
+;; ginaY_1
+gnY     ginaY   N0      wealth
+gnA     ginA    Nhy     wealth
+gny     gunoy   Nap     wealth
+;; ganiy~_1
+gny     ganiy~  N/ap    rich;wealthy     <pos>ganiy~/ADJ</pos>
+>gnyA'  >agoniyA'       N0_Nh   rich;wealthy
+AgnyA'  >agoniyA'       N0_Nh   rich;wealthy
+>gnyA&  >agoniyA&       Nh      rich;wealthy
+AgnyA&  >agoniyA&       Nh      rich;wealthy
+>gnyA}  >agoniyA}       Nhy     rich;wealthy
+AgnyA}  >agoniyA}       Nhy     rich;wealthy
+;; ganA'_1
+gnA'    ganA'   N0_Nh   usefulness
+gnA&    ganA&   Nh      usefulness
+gnA}    ganA}   Nhy     usefulness
+;; ginA'_1
+gnA'    ginA'   N0_Nh   singing
+gnA&    ginA&   Nh      singing
+gnA}    ginA}   Nhy     singing
+;; ginA}iy~_1
+gnA}y   ginA}iy~        Nall    singing;vocal;lyrical     <pos>ginA}iy~/ADJ</pos>
+;; >ugoniyap_1
+>gny    >ugoniy NapAt   song;melody
+Agny    >ugoniy NapAt   song;melody
+>gny    >ugoniy~        NapAt   song;melody     <pos>>ugoniy~/NOUN</pos>
+Agny    >ugoniy~        NapAt   song;melody     <pos>>ugoniy~/NOUN</pos>
+>gAny   >agAniy N0_Nh   songs;melodies
+AgAny   >agAniy N0_Nh   songs;melodies
+>gAn    >agAn   NK      songs;melodies
+AgAn    >agAn   NK      songs;melodies
+;; magonaY_1
+mgnY    magonaY N0      villa;habitation
+mgnA    magonA  Nhy     villa;habitation
+mgny    magonay NAn_Nayn        villas;habitations
+mgAny   magAniy N0_Nh   villas;places of habitation
+mgAn    magAn   NK      villas;places of habitation
+;; {igotinA'_1
+<gtnA'  {igotinA'       N0_Nh   getting rich
+AgtnA'  {igotinA'       N0_Nh   getting rich
+<gtnA&  {igotinA&       Nh      getting rich
+AgtnA&  {igotinA&       Nh      getting rich
+<gtnA}  {igotinA}       Nhy     getting rich
+AgtnA}  {igotinA}       Nhy     getting rich
+<gtnA'  {igotinA'       NAn_Nayn        getting rich
+AgtnA'  {igotinA'       NAn_Nayn        getting rich
+<gtnA}  {igotinA}       Nayn    getting rich
+AgtnA}  {igotinA}       Nayn    getting rich
+<gtnA'  {igotinA'       NAt     getting rich
+AgtnA'  {igotinA'       NAt     getting rich
+;; {isotigonA'_1
+<stgnA' {isotigonA'     N0_Nh   dispensing with;renunciation
+AstgnA' {isotigonA'     N0_Nh   dispensing with;renunciation
+<stgnA& {isotigonA&     Nh      dispensing with;renunciation
+AstgnA& {isotigonA&     Nh      dispensing with;renunciation
+<stgnA} {isotigonA}     Nhy     dispensing with;renunciation
+AstgnA} {isotigonA}     Nhy     dispensing with;renunciation
+<stgnA' {isotigonA'     NAt     dispensing with;renunciation
+AstgnA' {isotigonA'     NAt     dispensing with;renunciation
+;; gAniyap_1
+gAny    gAniy   NapAt   pretty girl;belle
+gwAny   gawAniy N0_Nh   pretty girls;belles
+gwAn    gawAn   NK      pretty girls;belles
+;; mugan~iy_1
+mgny    mugan~iy        N0F_Nh  singer;vocalist
+mgn     mugan~  NK      singer;vocalist
+mgny    mugan~iy        NAn_Nayn        singer;vocalist
+mgn     mugan~  Nuwn_Niyn       singer;vocalist
+mgny    mugan~iy        NapAt   singer;vocalist
+;; musotagonaY_1
+mstgnY  musotagonaY     N0      dispensable;useless
+;; mugotaniy_1
+mgtny   mugotaniy       N0_Nh   enriched
+mgtn    mugotan NK      enriched
+mgtny   mugotaniy       NAn_Nayn        enriched
+mgtn    mugotan Nuwn_Niyn       enriched
+mgtny   mugotaniy       NapAt   enriched
+;; mugan~aY_1
+mgnY    mugan~aY        N0      sung
+mgnA    mugan~A Nhy     sung
+mgny    mugan~ay        NAn_Nayn        sung
+mgnA    mugan~A Napdu   sung
+;
+;--- ghb
+;; gayohab_1
+gyhb    gayohab N       darkness;gloom
+gyAhb   gayAhib Ndip    darkness;gloom
+;
+;--- gw
+;; guw_1
+gw      guw     FW      Gou;Gu     <pos>guw/NOUN_PROP</pos>
+;
+;--- gwA
+;; guwAtiymAlA_1
+gwAtymAlA       guwAtiymAlA     N0      Guatemala
+;; guwAtiymAliy~_1
+gwAtymAly       guwAtiymAliy~   Nall    Guatemalan     <pos>guwAtiymAliy~/NOUN</pos>
+gwAtymAly       guwAtiymAliy~   Nall    Guatemalan     <pos>guwAtiymAliy~/ADJ</pos>
+;
+;--- gwb
+;
+;--- gwv
+;; gaw~av_1
+gwv     gaw~av  PV      cry for help
+gwv     gaw~iv  IV_yu   cry for help
+;; >agAv_1
+>gAv    >agAv   PV_V    help;succor
+AgAv    >agAv   PV_V    help;succor
+>gv     >agav   PV_C    help;succor
+Agv     >agav   PV_C    help;succor
+gyv     giyv    IV_V_yu help;succor
+gv      giv     IV_C_yu help;succor
+gAv     gAv     IV_V_Pass_yu    be helped;be given help
+gv      gav     IV_C_Pass_yu    be helped;be given help
+;; {isotagAv_1
+<stgAv  {isotagAv       PV_V    ask for help;seek aid
+AstgAv  {isotagAv       PV_V    ask for help;seek aid
+>stgyv  {usotugiyv      PV_V_Pass       be asked for help
+Astgyv  {usotugiyv      PV_V_Pass       be asked for help
+<stgv   {isotagav       PV_C    ask for help;seek aid
+Astgv   {isotagav       PV_C    ask for help;seek aid
+stgyv   sotagiyv        IV_V    ask for help;seek aid
+stgv    sotagiv IV_C    ask for help;seek aid
+stgAv   sotagAv IV_V_Pass_yu    be asked for help
+stgv    sotagav IV_C_Pass_yu    be asked for help
+;; gawov_1
+gwv     gawov   N       aid;succor
+;; giyAv_1
+gyAv    giyAv   N       aid;succor
+;; giyAv_2
+gyAv    giyAv   Nprop   Giyath
+;; gawovAh_1
+gwvAh   gawovAh FW-Wa   help!     <pos>gawovAh/INTERJ</pos>
+wAgwvAh wAgawovAh       FW-Wa   help!     <pos>wAgawovAh/INTERJ</pos>
+;; <igAvap_1
+<gAv    <igAv   NapAt   aid;relief assistance
+AgAv    <igAv   NapAt   aid;relief assistance
+;; {isotigAvap_1
+<stgAv  {isotigAv       NapAt   appeal for aid;call for help
+AstgAv  {isotigAv       NapAt   appeal for aid;call for help
+;; mugiyv_1
+mgyv    mugiyv  N       deliverer;succorer
+;; mugiyv_2
+mgyv    mugiyv  N0      Mughith;Mugeeth
+;; musotagAv_1
+mstgAv  musotagAv       Nall    requesting aid
+;
+;--- gwd
+; Chechenya's 2nd largest city
+;; guwdiromiys_1
+gwdrmys guwdiromiys     Nprop   Gudermes
+;
+; Argentine tennis player Gaston Gaudio
+;; gawodiyuw_1
+gwdyw   gawodiyuw       Nprop   Gaudio
+;
+;--- gwr
+;; gAr-u_1
+gAr     gAr     PV_V    penetrate
+gr      gur     PV_C    penetrate
+gwr     guwr    IV_V    penetrate
+gr      gur     IV_C    penetrate
+; see also under --- gyr
+;; >agAr_1
+>gAr    >agAr   PV_V    attack;invade;raid
+AgAr    >agAr   PV_V    attack;invade;raid
+>gr     >agar   PV_C    attack;invade;raid
+Agr     >agar   PV_C    attack;invade;raid
+gyr     giyr    IV_V_yu attack;invade;raid
+gr      gir     IV_C_yu attack;invade;raid
+gAr     gAr     IV_V_Pass_yu    be attacked;be invaded;be raided
+gr      gar     IV_C_Pass_yu    be attacked;be invaded;be raided
+;; tagaw~ar_1
+tgwr    tagaw~ar        PV      descend
+tgwr    tagaw~ar        IV      descend
+;; {isotagowar_1
+<stgwr  {isotagowar     PV      do speleology
+Astgwr  {isotagowar     PV      do speleology
+stgwr   sotagowir       IV      do speleology
+;; gAr_1
+gAr     gAr     N       cave
+gyrAn   giyrAn  N       caves
+;; gArap_1
+gAr     gAr     Napdu   raid;foray;attack
+gAr     gAr     NAt     raids;forays;attacks
+;; gawor_1
+gwr     gawor   N       depression;declivity
+>gwAr   >agowAr N       depressions;declivities;caves
+AgwAr   >agowAr N       depressions;declivities;caves
+;; gawor_2
+gwr     gawor   N0      Ghor
+;; magAr_1
+mgAr    magAr   Ndu     cave;cavern
+mgAr    magAr   NapAt   cave;cavern
+mgAwr   magAwir Ndip    caves;caverns
+mgA}r   magA}ir Ndip    caves;caverns
+;; migowAr_1
+mgwAr   migowAr Ndu     commando;shock troop
+mgAwyr  magAwiyr        Ndip    commandos;shock troops
+;; <igArap_1
+<gAr    <igAr   NapAt   attack;raid
+AgAr    <igAr   NapAt   attack;raid
+;; gA}ir_1
+gA}r    gA}ir   N-ap    cave;depression
+;; mugiyr_1
+mgyr    mugiyr  Nall    raider;assailant
+;; musotagowir_1
+mstgwr  musotagowir     Nall    speleologist
+;
+;; guwr_1
+gwr     guwr    Nprop   Gore
+;
+;; guwrAn_1
+gwrAn   guwrAn  Nprop   Goran
+;
+;--- gwrb
+;; guwrobAto$uwf_1
+gwrbAt$wf       guwrobAto$uwf   Nprop   Gorbachev
+;
+; Gorno-Altaisk (South Siberia, Federation of Russia)
+gwrnw   guwronuw        Nprop   Gorno
+;
+;--- gwry
+;; guwriyl~A_1
+gwrylA  guwriyl~A       N0      guerrilla;gorilla
+gwrlA   guwril~A        N0      guerrilla;gorilla
+grlA    guril~A N0      guerrilla;gorilla
+gwrllA  guwrillA        N0      guerrilla;gorilla
+grllA   gurillA N0      guerrilla;gorilla
+;
+;; guwriyuwn_1
+gwrywn  guwriyuwn       Nprop   Gurion
+jwrywn  juwruyuwn       Nprop   Gurion
+;
+;--- gwz
+;; gaw~az_1
+gwz     gaw~az  PV      gasify
+gwz     gaw~iz  IV_yu   gasify
+;; tagaw~az_1
+tgwz    tagaw~az        PV_intr become gaseous
+tgwz    tagaw~az        IV_intr become gaseous
+;; tagowiyz_1
+tgwyz   tagowiyz        N/At    gasification
+;
+;--- gwsb
+;; guwsobiyt$_1
+gwsbyt$ guwsobiyt$      Nprop   Gospic
+;
+;--- gwst
+;; guwsotAf_1
+gwstAf  guwsotAf        Nprop   Gustav
+jwstAf  juwsotAf        Nprop   Gustav
+;
+;--- gw$
+gw$     guw$    Nprop   Gush
+;
+;; guwayo$ap_1
+gwy$    guwayo$ NapAt   bracelet;bangle
+gwA}$   gawA}i$ Ndip    bracelets;bangles
+;
+;--- gwS
+;; gAS-u_1
+gAS     gAS     PV_V    plunge;immerse;dive
+gS      guS     PV_C    plunge;immerse;dive
+gwS     guwS    IV_V    plunge;immerse;dive
+gS      guS     IV_C    plunge;immerse;dive
+;; gaw~aS_1
+gwS     gaw~aS  PV      immerse;plunge
+gwS     gaw~iS  IV_yu   immerse;plunge
+;; gawoS_1
+gwS     gawoS   N       diving
+gwS     gawoS   Nap     dive
+gyAS    giyAS   Nap     diving
+gwyS    gawiyS  N-ap    deep
+;; gaw~AS_1
+gwAS    gaw~AS  Nall    diver
+;; gaw~ASap_1
+gwAS    gaw~AS  NapAt   submarine
+;; gaw~ASiy~_1
+gwASy   gaw~ASiy~       Nall    submarine;diving     <pos>gaw~ASiy~/ADJ</pos>
+;; magAS_1
+mgAS    magAS   Ndu     diving place
+;; gA}iS_1
+gA}S    gA}iS   Nall    immersed;diving;under-water     <pos>gA}iS/ADJ</pos>
+;
+;--- gwT
+;; gaw~aT_1
+gwT     gaw~aT  PV      deepen
+gwT     gaw~iT  IV_yu   deepen
+;; tagaw~aT_1
+tgwT    tagaw~aT        PV      defecate
+tgwT    tagaw~aT        IV      defecate
+;; gawoT_1
+gwT     gawoT   N       hollow;depression
+gwT     guwT    N       hollows;depressions
+>gwAT   >agowAT N       hollows;depressions
+AgwAT   >agowAT N       hollows;depressions
+gyAT    giyAT   N       hollows;depressions
+gyTAn   giyTAn  N       hollows;depressions
+;; guwTap_1
+gwT     guwT    Nap     fertile valley;oasis
+;; gawiyT_1
+gwyT    gawiyT  N-ap    deep
+;; tagaw~uT_1
+tgwT    tagaw~uT        N/At    defecation
+;; gA}iT_1
+gA}T    gA}iT   N       excrement;feces
+gwT     guwT    N       excrement;feces
+;; gA}iTiy~_1
+gA}Ty   gA}iTiy~        N-ap    fecal     <pos>gA}iTiy~/ADJ</pos>
+;
+;; guwTiy~_1
+gwTy    guwTiy~ N-ap    Gothic     <pos>guwTiy~/ADJ</pos>
+;
+;--- gwg
+;; gAgap_1
+gAg     gAg     Nap     riffraff;rabble;tumult
+;; gawogA'_1
+gwgA'   gawogA' N0_Nh   riffraff;rabble;tumult
+gwgA&   gawogA& Nh      riffraff;rabble;tumult
+gwgA}   gawogA} Nhy     riffraff;rabble;tumult
+;; gawogA}iy~_1
+gwgA}y  gawogA}iy~      Nall    demagogue;demagogic     <pos>gawogA}iy~/ADJ</pos>
+;; gawogA}iy~ap_1
+gwgA}y  gawogA}iy~      Nap     demagoguery     <pos>gawogA}iy~/NOUN</pos>
+;
+;--- gwl
+;; gAl-u_1
+gAl     gAl     PV_V    seize;snatch;destroy
+gl      gul     PV_C    seize;snatch;destroy
+gwl     guwl    IV_V    seize;snatch;destroy
+gl      gul     IV_C    seize;snatch;destroy
+;; {igotAl_1
+<gtAl   {igotAl PV_V    assassinate;murder
+AgtAl   {igotAl PV_V    assassinate;murder
+<gtyl   {ugotiyl        PV_Pass be assassinated;be murdered
+Agtyl   {ugotiyl        PV_Pass be assassinated;be murdered
+<gtl    {igotal PV_C    assassinate;murder
+Agtl    {igotal PV_C    assassinate;murder
+gtAl    gotAl   IV_V    assassinate;murder
+gtAl    gotAl   IV_V_Pass_yu    be assassinated;be murdered
+gtl     gotal   IV_C    assassinate;murder
+;; guwl_1
+gwl     guwl    N       ghoul;monster
+>gwAl   >agowAl N       ghouls;monsters
+AgwAl   >agowAl N       ghouls;monsters
+gylAn   giylAn  N       ghouls;monsters
+;; guwl_2
+gwl     guwl    N0      Ghoul
+;; giylap_1
+gyl     giyl    Nap     assassination
+;; {igotiyAl_1
+<gtyAl  {igotiyAl       NduAt   assassination;murder
+AgtyAl  {igotiyAl       NduAt   assassination;murder
+;; gA}ilap_1
+gA}l    gA}il   Nap     calamity;havoc
+gwA}l   gawA}il Ndip    calamities;havoc
+;; mugotAl_1
+mgtAl   mugotAl Nall    assassinated;murdered     <pos>mugotAl/ADJ</pos>
+;
+;--- gwlt
+; British special envoy for Sudan Allan Ghoulti
+;; guwlotiy_1
+gwlty   guwlotiy        Nprop   Ghoulti
+qwlty   quwlotiy        Nprop   Ghoulti
+;
+;--- gwld
+;; guwlod_1
+gwld    guwlod  Nprop   Gold
+jwld    juwlod  Nprop   Gold
+;
+;--- gwlf
+;; guwlof_1
+gwlf    guwlof  N0      golf
+;; guwlof_2
+gwlf    guwlof  Nprop   Gulf
+;
+;--- gwlm
+; Jerome Golmar
+;; guwlomAr_1
+gwlmAr  guwlomAr        Nprop   Golmar
+;
+;--- gwln
+; German tennis player Mark Kevin Goellner
+;; guwlonir_1
+gwlnr   guwlonir        Nprop   Goellner
+;
+;--- gwm
+;; guwmiy$_1
+gwmy$   guwmiy$ Nprop   Gomes
+;
+;--- gwn
+;; guwnAr_1
+gwnAr   guwnAr  Nprop   Gunnar
+;
+;--- gwy
+;; gawaY-i_1
+gwY     gawaY   PV_0    stray;mislead
+gwA     gawA    PV_h    stray;mislead
+gwy     gaway   PV_Atn  stray;mislead
+gw      gaw     PV_ttAw stray;mislead
+gwy     gowiy   IV_0hAnn        stray;mislead
+gw      gow     IV_0hwnyn       stray;mislead
+gwY     gowaY   IV_0_Pass_yu    be misled
+;; gawiy-a_1
+gwy     gawiy   PV_no-w covet
+gw      gaw     PV_w    covet
+gwY     gowaY   IV_0    covet
+gwA     gowA    IV_h    covet
+gwy     goway   IV_Ann  covet
+gw      gowa    IV_0hwnyn       covet
+;; gaw~aY_1
+gwY     gaw~aY  PV_0    mislead;seduce
+gwA     gaw~A   PV_h    mislead;seduce
+gwy     gaw~ay  PV_Atn  mislead;seduce
+gw      gaw~    PV_ttAw mislead;seduce
+gwy     gaw~iy  IV_0hAnn_yu     mislead;seduce
+gw      gaw~    IV_0hwnyn_yu    mislead;seduce
+gwY     gaw~aY  IV_0_Pass_yu    be mislead;be seduced
+gwy     gaw~ay  IV_Ann_Pass_yu  be mislead;seduced
+;; >agowaY_1
+>gwY    >agowaY PV_0    mislead;seduce
+AgwY    >agowaY PV_0    mislead;seduce
+>gwA    >agowA  PV_h    mislead;seduce
+AgwA    >agowA  PV_h    mislead;seduce
+>gwy    >agoway PV_Atn  mislead;seduce
+Agwy    >agoway PV_Atn  mislead;seduce
+>gw     >agow   PV_ttAw mislead;seduce
+Agw     >agow   PV_ttAw mislead;seduce
+gwy     gowiy   IV_0hAnn_yu     mislead;seduce
+gw      gow     IV_0hwnyn_yu    mislead;seduce
+gwY     gowaY   IV_0_Pass_yu    be misled;be seduced
+gwy     goway   IV_Ann_Pass_yu  be misled;be seduced
+;; {isotagowaY_1
+<stgwY  {isotagowaY     PV_0    mislead;seduce
+AstgwY  {isotagowaY     PV_0    mislead;seduce
+<stgwA  {isotagowA      PV_h    mislead;seduce
+AstgwA  {isotagowA      PV_h    mislead;seduce
+<stgwy  {isotagoway     PV_Atn  mislead;seduce
+Astgwy  {isotagoway     PV_Atn  mislead;seduce
+<stgw   {isotagow       PV_ttAw mislead;seduce
+Astgw   {isotagow       PV_ttAw mislead;seduce
+stgwy   sotagowiy       IV_0hAnn        mislead;seduce
+stgw    sotagow IV_0hwnyn       mislead;seduce
+stgwY   sotagowaY       IV_0_Pass_yu    be misled;be seduced
+;; gay~_1
+gy      gay~    N       transgression;offense
+;; gay~ap_1
+gy      gay~    NapAt   error;sin
+;; gawAyap_1
+gwAy    gawAy   Nap     error;sin
+;; >ugowiy~ap_1
+>gwy    >ugowiy~        Napdu   pitfall;trap     <pos>>ugowiy~/NOUN</pos>
+Agwy    >ugowiy~        Napdu   pitfall;trap     <pos>>ugowiy~/NOUN</pos>
+>gAwy   >agAwiy~        N0_Nh   pitfalls;traps
+AgAwy   >agAwiy~        N0_Nh   pitfalls;traps
+;; <igowA'_1
+<gwA'   <igowA' N0_Nh   seduction;allurement
+AgwA'   <igowA' N0_Nh   seduction;allurement
+<gwA&   <igowA& Nh      seduction;allurement
+AgwA&   <igowA& Nh      seduction;allurement
+<gwA}   <igowA} Nhy     seduction;allurement
+AgwA}   <igowA} Nhy     seduction;allurement
+<gwA'   <igowA' NAt     seduction;allurement
+AgwA'   <igowA' NAt     seduction;allurement
+;; gAwiy_1
+gAwy    gAwiy   N0F_Nh  seducer;dilettante
+gAw     gAw     NK      seducer;dilettante
+gAwy    gAwiy   NAn_Nayn        seducer;dilettante
+gAw     gAw     Nuwn_Niyn       seducer;dilettante
+gAwy    gAwiy   NapAt   seducer;dilettante
+gwA     guwA    Nap     fans;dilettantes
+;; mugaw~Ap_1
+mgwA    mugaw~A Napdu   pitfall;trap
+mgwy    mugaw~ay        NAt     pitfalls;traps
+mgwA    magowA  Napdu   pitfall;trap
+mgAwy   magAwiy N0_Nh   pitfalls;traps
+mgAw    magAw   NK      pitfalls;traps
+;; mugowiy_1
+mgwy    mugowiy N0F_Nh  seducer;tempting
+mgw     mugow   NK      seducer;tempting
+mgwy    mugowiy NAn_Nayn        seducers;tempting
+mgw     mugow   Nuwn_Niyn       seducers;tempting
+mgwy    mugowiy NapAt   seducer;tempting
+;
+;--- gwyA
+;; guwyAnA_1
+gwyAnA  guwyAnA N0      Guyana
+gwAyAnA guwAyAnA        N0      Guyana
+jwyAnA  juwyAnA N0      Guyana
+jwAyAnA guwAyAnA        N0      Guyana
+;; guwyAniy~_1
+gwyAny  guwyAniy~       Nall    Guyanese     <pos>guwyAniy~/NOUN</pos>
+gwyAny  guwyAniy~       Nall    Guyanese     <pos>guwyAniy~/ADJ</pos>
+gwAyAny guwAyAniy~      Nall    Guyanese     <pos>guwAyAniy~/NOUN</pos>
+gwAyAny guwAyAniy~      Nall    Guyanese     <pos>guwAyAniy~/ADJ</pos>
+jwyAny  juwyAniy~       Nall    Guyanese     <pos>juwyAniy~/NOUN</pos>
+jwyAny  juwyAniy~       Nall    Guyanese     <pos>juwyAniy~/ADJ</pos>
+jwAyAny juwAyAniy~      Nall    Guyanese     <pos>juwAyAniy~/NOUN</pos>
+jwAyAny juwAyAniy~      Nall    Guyanese     <pos>juwAyAniy~/ADJ</pos>
+;
+;--- gy
+;; gAyap_1
+gAy     gAy     Napdu   goal;objective;purpose;intention
+gAy     gAy     NAt     goals;objectives
+;; gAyap_2
+gAy     gAy     Nap     utmost;extreme
+llgAyp  lilogAyap       FW-Wa   extremely;greatly   <pos>lilogAyap/ADV</pos>
+;; gA}iy~_1
+gA}y    gA}iy~  N-ap    final;finalism     <pos>gA}iy~/ADJ</pos>
+;; gA}iy~ap_1
+gA}y    gA}iy~  Nap     finality     <pos>gA}iy~/NOUN</pos>
+;
+;--- gyb
+;; gAb-i_1
+gAb     gAb     PV_V_intr       be absent
+gb      gib     PV_C_intr       be absent
+gyb     giyb    IV_V_intr       be absent
+gb      gib     IV_C_intr       be absent
+;; gay~ab_1
+gyb     gay~ab  PV      remove
+gyb     gay~ib  IV_yu   remove
+;; tagay~ab_1
+tgyb    tagay~ab        PV_intr be absent
+tgyb    tagay~ab        IV_intr be absent
+;; {igotAb_1
+<gtAb   {igotAb PV_V    denigrate;slander
+AgtAb   {igotAb PV_V    denigrate;slander
+>gtyb   {ugotiyb        PV_V_Pass       be denigrated;be slandered
+Agtyb   {ugotiyb        PV_V_Pass       be denigrated;be slandered
+<gtb    {igotab PV_C    denigrate;slander
+Agtb    {igotab PV_C    denigrate;slander
+gtAb    gotAb   IV_V    denigrate;slander
+gtb     gotab   IV_C    denigrate;slander
+;; {isotagAb_1
+<stgAb  {isotagAb       PV_V    denigrate;slander
+AstgAb  {isotagAb       PV_V    denigrate;slander
+<stgb   {isotagab       PV_C    denigrate;slander
+Astgb   {isotagab       PV_C    denigrate;slander
+stgyb   sotagiyb        IV_V    denigrate;slander
+stgb    sotagib IV_C    denigrate;slander
+;; gayob_1
+gyb     gayob   N       invisible;hidden;absent
+gywb    guyuwb  N       invisible;hidden;absent
+;; gayobiy~_1
+gyby    gayobiy~        N-ap    hidden;invisible;secret;occult     <pos>gayobiy~/ADJ</pos>
+;; gayobiy~ap_1
+gyby    gayobiy~        Nap     metaphysics     <pos>gayobiy~/NOUN</pos>
+;; gAbap_1
+gAb     gAb     NapAt   forest;jungle
+gAb     gAb     N       forest;jungle
+;; gAbiy~_1
+gAby    gAbiy~  N-ap    forested;wooded     <pos>gAbiy~/ADJ</pos>
+;; gayobap_1
+gyb     gayob   Nap     absence
+;; giybap_1
+gyb     giyb    Nap     slander
+;; giyAb_1
+gyAb    giyAb   N       absence;disappearance
+;; giyAbiy~_1
+gyAby   giyAbiy~        N-ap    absent;in absentia     <pos>giyAbiy~/ADJ</pos>
+;; gayAbap_1
+gyAb    gayAb   NapAt   bottom;depth
+;; gayobuwbap_1
+gybwb   gayobuwb        Nap     unconsciousness;trance;coma
+;; gayobuwbiy~_1
+gybwby  gayobuwbiy~     Nall    comatose;lethargic;hypnotic     <pos>gayobuwbiy~/ADJ</pos>
+;; magiyb_1
+mgyb    magiyb  N       absence;setting
+;; tagoyiyb_1
+tgyyb   tagoyiyb        N/At    removal;absence
+;; tagay~ub_1
+tgyb    tagay~ub        N/At    absence
+;; tagay~ubiy~ap_1
+tgyby   tagay~ubiy~     Nap     absenteeism     <pos>tagay~ubiy~/NOUN</pos>
+;; {igotiyAb_1
+<gtyAb  {igotiyAb       N/At    slander;denigration;gossip about
+AgtyAb  {igotiyAb       N/At    slander;denigration;gossip about
+;; gA}ib_1
+gA}b    gA}ib   Nall    absent     <pos>gA}ib/ADJ</pos>
+gyb     guy~ab  N       absent
+gyAb    guy~Ab  N       absent
+;; mugay~ib_1
+mgyb    mugay~ib        NAt     anesthetics;stupefacients;narcotics
+;; mugay~ab_1
+mgyb    mugay~ab        N-ap    hidden;concealed     <pos>mugay~ab/ADJ</pos>
+mgyb    mugay~ab        NAt     occult;metaphysical
+;; mugiyb_1
+mgyb    mugiyb  N-ap    grass widow
+;; mutagay~ib_1
+mtgyb   mutagay~ib      Nall    absent
+;; mugotAb_1
+mgtAb   mugotAb Nall    slandered;gossip monger
+;
+;--- gyt
+;; giytuw_1
+gytw    giytuw  N0      ghetto
+gytwh   giytuwh NAt     ghettos
+;
+;--- gyv
+;; gAv-i_1
+gAv     gAv     PV_V    send rain
+gv      giv     PV_C    send rain
+gyv     giyv    IV_V    send rain
+gv      giv     IV_C    send rain
+;; gayov_1
+gyv     gayov   N0      Ghaith
+;; gayov_2
+gyv     gayov   N       rain
+gywv    guyuwv  N       rain
+>gyAv   >agoyAv N       rain
+AgyAv   >agoyAv N       rain
+;
+;--- gyd
+;; gayad_1
+gyd     gayad   N       slenderness;delicateness
+;; gayad_2
+gyd     gayad   N       flexibility;elasticity
+;; >agoyad_1
+>gyd    >agoyad Nel     flexible;delicate     <pos>>agoyad/ADJ</pos>
+Agyd    >agoyad Nel     flexible;delicate
+gydA'   gayodA' N0_Nh   flexible;delicate
+gydA&   gayodA& Nh      flexible;delicate
+gydA}   gayodA} Nhy     flexible;delicate
+gyd     giyd    N       flexible;delicate
+;; tagAyad_1
+tgAyd   tagAyad PV      walk gracefully
+tgAyd   tagAyad IV      walk gracefully
+;; gAdap_1
+gAd     gAd     Nap     Ghada
+;; gAdap_2
+gAd     gAd     NapAt   young lady
+gyd     giyd    N       young ladies
+;
+;--- gydq
+;; gayodAq_1
+gydAq   gayodAq Ndu     handsome;generous
+gyAdyq  gayAdiyq        Ndip    handsome;generous
+;
+;--- gyr
+;; gayor_1
+gyr     gayor   N       not;other     <pos>gayor/NEG_PART</pos>
+;; gay~ar_1
+gyr     gay~ar  PV      change;modify
+gyr     gay~ir  IV_yu   change;modify
+;; gAyar_1
+gAyr    gAyar   PV_intr be at odds with;be in contrast with
+gAyr    gAyir   IV_intr_yu      be at odds with;be in contrast with
+; see also under --- gwr
+;; >agAr_2
+>gAr    >agAr   PV_V    make jealous
+AgAr    >agAr   PV_V    make jealous
+>gr     >agar   PV_C    make jealous
+Agr     >agar   PV_C    make jealous
+gyr     giyr    IV_V_yu make jealous
+gr      gir     IV_C_yu make jealous
+gAr     gAr     IV_V_Pass_yu    be made jealous
+gr      gar     IV_C_Pass_yu    be made jealous
+;; tagay~ar_1
+tgyr    tagay~ar        PV_intr be changed;be modified
+tgyr    tagay~ar        IV_intr be changed;be modified
+;; tagAyar_1
+tgAyr   tagAyar PV_intr be different;be heterogeneous
+tgAyr   tagAyar IV_intr be different;be heterogeneous
+;; gayoriy~_1
+gyry    gayoriy~        Nall    altruist     <pos>gayoriy~/ADJ</pos>
+gyry    gayoriy~        Nap     altruism     <pos>gayoriy~/NOUN</pos>
+;; gayorap_1
+gyr     gayor   Nap     jealousy;zeal
+;; giyAr_1
+gyAr    giyAr   N/At    exchange;interchange;replacement
+;; gayuwr_1
+gywr    gayuwr  Ndu     jealous     <pos>gayuwr/ADJ</pos>
+;; gayorAn_1
+gyrAn   gayorAn Ndip    jealous     <pos>gayorAn/ADJ</pos>
+gyrY    gayoraY N0      jealous
+gyrA    gayorA  Nhy     jealous
+gyArY   gayAraY N0      jealous
+gyArA   gayArA  Nhy     jealous
+;; tagoyiyr_1
+tgyyr   tagoyiyr        N/At    change;modification;replacement
+;; tagoyiyrap_1
+tgyyr   tagoyiyr        Nap     exchange;interchange
+tgAyyr  tagAyiyr        Ndip    exchange;interchange
+;; tagay~ur_1
+tgyr    tagay~ur        N/At    transformation;change;variation
+;; tagay~uriy~ap_1
+tgyry   tagay~uriy~     Nap     variability     <pos>tagay~uriy~/NOUN</pos>
+;; tagAyur_1
+tgAyr   tagAyur N/At    dissimilarity;heterogeneity
+;; mugAyir_1
+mgAyr   mugAyir Nall    different from;competing with;at odds with     <pos>mugAyir/ADJ</pos>
+;; mutagay~ir_1
+mtgyr   mutagay~ir      Nall    changing;alternating
+;; mutagAyir_1
+mtgAyr  mutagAyir       Nall    differing;heterogeneous     <pos>mutagAyir/ADJ</pos>
+;
+;--- gyD
+;; gAD-i_1
+gAD     gAD     PV_V    diminish;dwindle;pale
+gD      giD     PV_C    diminish;dwindle;pale
+gyD     giyD    IV_V    diminish;dwindle;pale
+gD      giD     IV_C    diminish;dwindle;pale
+;; gayoD_1
+gyD     gayoD   N       small amount;unborn fetus
+;; gayoDap_1
+gyD     gayoD   NapAt   thicket;jungle
+gyAD    giyAD   N       thicket;jungle
+>gyAD   >agoyAD N       thicket;jungle
+AgyAD   >agoyAD N       thicket;jungle
+;
+;--- gyT
+;; gayoT_1
+gyT     gayoT   N       garden;orchard
+gyTAn   giyTAn  N       gardens;orchards
+;; gayoTanap_1
+gyTn    gayoTan Nap     horticulture
+;; gayoTaniy~_1
+gyTny   gayoTaniy~      Nall    horticulturist     <pos>gayoTaniy~/ADJ</pos>
+;; gayoTaniy~_2
+gyTny   gayoTaniy~      N-ap    horticultural     <pos>gayoTaniy~/ADJ</pos>
+;; gayoTAniy~_1
+gyTAny  gayoTAniy~      N0      Gheitany
+;; gayoTAniy~_2
+gyTAny  gayoTAniy~      Nall    gardener;horticulturist     <pos>gayoTAniy~/ADJ</pos>
+;
+;--- gyZ
+;; gAZ-i_1
+gAZ     gAZ     PV_V    enrage;irritate
+gZ      giZ     PV_C    enrage;irritate
+gyZ     giyZ    IV_V    enrage;irritate
+gZ      giZ     IV_C    enrage;irritate
+;; gay~aZ_1
+gyZ     gay~aZ  PV      enrage;irritate
+gyZ     gay~iZ  IV_yu   enrage;irritate
+;; >agAZ_1
+>gAZ    >agAZ   PV_V    enrage;irritate
+AgAZ    >agAZ   PV_V    enrage;irritate
+>gZ     >agaZ   PV_C    enrage;irritate
+AgZ     >agaZ   PV_C    enrage;irritate
+gyZ     giyZ    IV_V_yu enrage;irritate
+gZ      giZ     IV_C_yu enrage;irritate
+gAZ     gAZ     IV_V_Pass_yu    be enraged;be irritated
+gZ      gaZ     IV_C_Pass_yu    be enraged;be irritated
+;; tagay~aZ_1
+tgyZ    tagay~aZ        PV_intr become enraged;be irritated
+tgyZ    tagay~aZ        IV_intr become enraged;be irritated
+;; {inogAZ_1
+<ngAZ   {inogAZ PV_V_intr       become enraged;be irritated
+AngAZ   {inogAZ PV_V_intr       become enraged;be irritated
+<ngZ    {inogaZ PV_C_intr       become enraged;be irritated
+AngZ    {inogaZ PV_C_intr       become enraged;be irritated
+ngAZ    nogAZ   IV_V_intr       become enraged;be irritated
+ngZ     nogaZ   IV_C_intr       become enraged;be irritated
+;; {igotAZ_1
+<gtAZ   {igotAZ PV_V_intr       become enraged;be irritated
+AgtAZ   {igotAZ PV_V_intr       become enraged;be irritated
+<gtZ    {igotaZ PV_C_intr       become enraged;be irritated
+AgtZ    {igotaZ PV_C_intr       become enraged;be irritated
+gtAZ    gotAZ   IV_V_intr       become enraged;be irritated
+gtZ     gotaZ   IV_C_intr       become enraged;be irritated
+;; gayoZ_1
+gyZ     gayoZ   N       anger;wrath
+;; {igotiyAZ_1
+<gtyAZ  {igotiyAZ       N/At    fury;rage
+AgtyAZ  {igotiyAZ       N/At    fury;rage
+;; mugiyZ_1
+mgyZ    mugiyZ  Nall    irate;furious     <pos>mugiyZ/ADJ</pos>
+;; munogAZ_1
+mngAZ   munogAZ Nall    irate;furious     <pos>munogAZ/ADJ</pos>
+;; mugotAZ_1
+mgtAZ   mugotAZ Nall    irate;furious     <pos>mugotAZ/ADJ</pos>
+;; <igAZap_1
+<gAZ    <igAZ   NapAt   exasperation;irritation
+AgAZ    <igAZ   NapAt   exasperation;irritation
+;
+;--- gyl
+;; giyl_1
+gyl     giyl    N       thicket
+>gyAl   >agoyAl N       thicket;bushes
+AgyAl   >agoyAl N       thicket;bushes
+;; gayol_1
+gyl     gayol   N       stream
+gywl    guyuwl  N       streams
+;
+;--- gym
+;; gAm-i_1
+gAm     gAm     PV_V_intr       become overcast/blurred
+gm      gim     PV_C_intr       become overcast/blurred
+gym     giym    IV_V_intr       become overcast/blurred
+gm      gim     IV_C_intr       become overcast/blurred
+;; gay~am_1
+gym     gay~am  PV_intr be overcast/blurred
+gym     gay~im  IV_intr_yu      be overcast/blurred
+;; >agAm_1
+>gAm    >agAm   PV_V_intr       become overcast/blurred
+AgAm    >agAm   PV_V_intr       become overcast/blurred
+>gm     >agam   PV_C_intr       become overcast/blurred
+Agm     >agam   PV_C_intr       become overcast/blurred
+gym     giym    IV_V_intr_yu    become overcast/blurred
+gm      gim     IV_C_intr_yu    become overcast/blurred
+gAm     gAm     IV_V_Pass_yu    become overcast/blurred
+gm      gam     IV_C_Pass_yu    become overcast/blurred
+;; tagay~am_1
+tgym    tagay~am        PV_intr be overcast/blurred
+tgym    tagay~am        IV_intr be overcast/blurred
+;; gayom_1
+gym     gayom   N       clouds
+;; gayomap_1
+gym     gayom   Napdu   cloud
+gywm    guyuwm  N       clouds
+gyAm    giyAm   N       clouds
+;; gA}im_1
+gA}m    gA}im   N-ap    clouded;overcast;blurred     <pos>gA}im/ADJ</pos>
+;; mutagay~im_1
+mtgym   mutagay~im      N-ap    clouded;overcast;blurred     <pos>mutagay~im/ADJ</pos>
+;
+;--- gymA
+;; giymArAyi$_1
+gymArAy$        giymArAyi$      N0      Guimaraes
+;
+;--- gyml
+; American tennis player Justin Gimelstob
+;; gymlstwb_1
+gymlstwb        gymlstwb        N0      Gimelstob
+;
+;--- gyn
+;; gayon_1
+gyn     gayon   NduAt   ghayn (Arabic letter)
+;; gayonap_1
+gyn     gayon   NapAt   dimple
+;; >agoyan_1
+>gyn    >agoyan Nel     bushy;dense     <pos>>agoyan/ADJ</pos>
+Agyn    >agoyan Nel     bushy;dense
+gynA'   gayonA' N0_Nh   bushy;dense
+gynA&   gayonA& Nh      bushy;dense
+gynA}   gayonA} Nhy     bushy;dense
+;
+;--- gynA
+;; giynAdiy_1
+gynAdy  giynAdiy        N0      Gennady
+;
+;--- gyny
+;; giyniy~_1
+gyny    giyniy~ Nall    Guinean     <pos>giyniy~/NOUN</pos>
+gyny    giyniy~ Nall    Guinean     <pos>giyniy~/ADJ</pos>
+;; giyniyA_1
+gynyA   giyniyA N0      Guinea

@@ -1,0 +1,1770 @@
+;--- D
+;; DAd_1
+DAd     DAd     NduAt   Dad (Arabic letter)
+DAd     DAd     N0      Arabic (language of the letter "Dad")
+;
+;--- DAl
+;; Da&ul_1
+D&l     Da&ul   PV_intr be meager;be sparse;dwindle
+D&l     Do&ul   IV_intr be meager;be sparse;dwindle
+;; taDA'al_1
+tDA'l   taDA'al PV      dwindle;decline;decrease
+tDA'l   taDA'al IV      dwindle;decline;decrease
+;; Da|lap_1
+D|l     Da|l    Nap     paucity;scarcity
+;; Di}Alap_1
+D}Al    Di}Al   Nap     paucity;scarcity
+;; Du&uwlap_1
+D&wl    Du&uwl  Nap     paucity;scarcity
+;; Da}iyl_1
+D}yl    Da}iyl  N-ap    small;meager;sparse     <pos>Da}iyl/ADJ</pos>
+D}Al    Di}Al   N       small;meager;sparse
+D&lA'   Du&alA' N0_Nh   small;meager;sparse
+D&lA&   Du&alA& Nh      small;meager;sparse
+D&lA}   Du&alA} Nhy     small;meager;sparse
+;; >aDo>al_1
+>D>l    >aDo>al Nel     smaller/smallest
+AD>l    >aDo>al Nel     smaller/smallest
+;; taDA&ul_1
+tDA&l   taDA&ul N/At    paucity;scarcity
+;; mutaDA}il_1
+mtDA}l  mutaDA}il       N-ap    dwindling;declining;decreasing     <pos>mutaDA}il/ADJ</pos>
+;
+;--- DAm
+;; DAmap_1
+DAm     DAm     Nap     checkers
+;
+;--- DAn
+;; Da>on_1
+D>n     Da>on   N       sheep
+;; Da>oniy~_1
+D>ny    Da>oniy~        N-ap    mutton;sheep     <pos>Da>oniy~/ADJ</pos>
+;; DA}in_1
+DA}n    DA}in   N-ap    mutton;sheep
+;
+;--- Db
+;; Dab~-i_1
+Db      Dab~    PV_V    hold firm;guard
+Dbb     Dabab   PV_C    hold firm;guard
+Db      Dib~    IV_V    hold firm;guard
+Dbb     Dobib   IV_C    hold firm;guard
+;; Dab~ab_1
+Dbb     Dab~ab  PV      close;bolt shut
+Dbb     Dab~ib  IV_yu   close;bolt shut
+;; Dab~ap_1
+Db      Dab~    NapAt   lock;bolt
+;; DabAb_1
+DbAb    DabAb   N       fog;vapor
+;; DabAbiy~_1
+DbAby   DabAbiy~        N-ap    foggy;nebulous     <pos>DabAbiy~/ADJ</pos>
+;; DabAbiy~ap_1
+DbAby   DabAbiy~        Nap     nebulousness     <pos>DabAbiy~/NOUN</pos>
+;
+;; Dab~_1
+Db      Dab~    N       lizard
+>Db     >aDub~  N       lizards
+ADb     >aDub~  N       lizards
+DbAn    Dub~An  N       lizards
+;
+;--- DbH
+;; DabaH-a_1
+DbH     DabaH   PV      blacken (fire)
+DbH     DobaH   IV      blacken (fire)
+;; DabaH-a_2
+DbH     DabaH   PV      snort (horse)
+DbH     DobaH   IV      snort (horse)
+;
+;--- Dbr
+;; Dabar-u_1
+Dbr     Dabar   PV      gather;collect
+Dbr     Dobur   IV      gather;collect
+;; Dabor_1
+Dbr     Dabor   N       binding
+;; DibArap_1
+DbAr    DibAr   Nap     file;dossier
+DbA}r   DabA}ir Ndip    files;dossiers
+;; <iDobArap_1
+<DbAr   <iDobAr Napdu   file;dossier
+ADbAr   <iDobAr Napdu   file;dossier
+>DAbyr  >aDAbiyr        Ndip    files;dossiers
+ADAbyr  >aDAbiyr        Ndip    files;dossiers
+;; <iDobAriy~_1
+<DbAry  <iDobAriy~      Nall    bureaucrat;archivist
+ADbAry  <iDobAriy~      Nall    bureaucrat;archivist
+;; >uDobuwr_1
+>Dbwr   >uDobuwr        Ndu     file;document
+ADbwr   >uDobuwr        Ndu     file;document
+;
+;--- Dbs
+;; Dibos_1
+Dbs     Dibos   N       nasty;malicious     <pos>Dibos/ADJ</pos>
+;
+;--- DbT
+;; DabaT-ui_1
+DbT     DabaT   PV      regulate;adjust;fix
+DbT     DobuT   IV      regulate;adjust;fix
+DbT     DobiT   IV      regulate;adjust;fix
+;; {inoDabaT_1
+<nDbT   {inoDabaT       PV_intr be disciplined;be regulated;be adjusted
+AnDbT   {inoDabaT       PV_intr be disciplined;be regulated;be adjusted
+nDbT    noDabiT IV_intr be disciplined;be regulated;be adjusted
+;; DaboT_1
+DbT     DaboT   N       adjusting;regulating;precision
+;; DaboTiy~_1
+DbTy    DaboTiy~        N-ap    disciplinary     <pos>DaboTiy~/ADJ</pos>
+;; DAbiT_1
+DAbT    DAbiT   N       controller
+DwAbT   DawAbiT Ndip    precepts;restraining orders
+;; DAbiT_2
+DAbT    DAbiT   Ndu     officer
+DbAT    Dub~AT  N       officers
+;; DAbiTap_1
+DAbT    DAbiT   Nap     controlling device;restraining order
+;; maDobuwT_1
+mDbwT   maDobuwT        N-ap    controlled;regulated     <pos>maDobuwT/ADJ</pos>
+mDbwT   maDobuwT        N-ap    accurate;precise     <pos>maDobuwT/ADJ</pos>
+;; >aDobaT_1
+>DbT    >aDobaT Nel     ambidextrous
+ADbT    >aDobaT Nel     ambidextrous
+DbTA'   DaboTA' N0_Nh   ambidextrous
+DbTA&   DaboTA& Nh      ambidextrous
+DbTA}   DaboTA} Nhy     ambidextrous
+DbT     DuboT   N       ambidextrous
+;; maDobaTap_1
+mDbT    maDobaT Nap     minutes;statement
+mDAbT   maDAbiT Ndip    minutes;statements
+;; muDab~iT_1
+mDbT    muDab~iT        N       adjuster
+;; {inoDibAT_1
+<nDbAT  {inoDibAT       N/At    discipline;precision
+AnDbAT  {inoDibAT       N/At    discipline;precision
+<nDbATy {inoDibATiy~    N-ap    disciplinary;disciplined     <pos>{inoDibATiy~/ADJ</pos>
+AnDbATy {inoDibATiy~    N-ap    disciplinary;disciplined     <pos>{inoDibATiy~/ADJ</pos>
+;; munoDabiT_1
+mnDbT   munoDabiT       Nall    disciplined     <pos>munoDabiT/ADJ</pos>
+;
+;--- DbE
+;; DaboE_1
+DbE     DaboE   N       hyena
+DbAE    DibAE   N       hyenas
+>DbE    >aDobuE N       hyenas
+ADbE    >aDobuE N       hyenas
+;
+;--- Dbn
+;; {iDoTaban_1
+<DTbn   {iDoTaban       PV-n    carry under arm
+ADTbn   {iDoTaban       PV-n    carry under arm
+DTbn    DoTabin IV-n    carry under arm
+;; Dibon_1
+Dbn     Dibon   Ndu     armpit
+;
+;--- Dj
+;; Daj~-i_1
+Dj      Daj~    PV_V_intr       be noisy;clamor
+Djj     Dajaj   PV_C_intr       be noisy;clamor
+Dj      Dij~    IV_V_intr       be noisy;clamor
+Djj     Dojij   IV_C_intr       be noisy;clamor
+;; >aDaj~_1
+>Dj     >aDaj~  PV_V_intr       be noisy;clamor
+ADj     >aDaj~  PV_V_intr       be noisy;clamor
+>Djj    >aDojaj PV_C_intr       be noisy;clamor
+ADjj    >aDojaj PV_C_intr       be noisy;clamor
+Dj      Dij~    IV_V_intr_yu    be noisy;clamor
+Djj     Dojij   IV_C_intr_yu    be noisy;clamor
+;; Daj~ap_1
+Dj      Daj~    NapAt   noise;tumult
+;; Dajiyj_1
+Djyj    Dajiyj  N       noise;tumult
+;; Daj~Aj_1
+DjAj    Daj~Aj  N-ap    rowdy;tumultuous     <pos>Daj~Aj/ADJ</pos>
+;; Dajuwj_1
+Djwj    Dajuwj  N-ap    rowdy;tumultuous     <pos>Dajuwj/ADJ</pos>
+;; muDij~_1
+mDj     muDij~  Nall    rowdy;tumultuous     <pos>muDij~/ADJ</pos>
+;
+;--- Djr
+;; Dajir-a_1
+Djr     Dajir   PV_intr be angry;be displeased;be worried
+Djr     Dojar   IV_intr be angry;be displeased;be worried
+;; >aDojar_1
+>Djr    >aDojar PV      annoy;vex
+ADjr    >aDojar PV      annoy;vex
+Djr     Dojir   IV_yu   annoy;vex
+Djr     Dojar   IV_Pass_yu      be annoyed;be vexed
+;; taDaj~ar_1
+tDjr    taDaj~ar        PV_intr be angry;be displeased;be worried
+tDjr    taDaj~ar        IV_intr be angry;be displeased;be worried
+;; Dajar_1
+Djr     Dajar   N       irritation;dissatisfaction
+;; Dajir_1
+Djr     Dajir   N-ap    irritated;dissatisfied     <pos>Dajir/ADJ</pos>
+;; muDojir_1
+mDjr    muDojir Nall    annoying;vexing     <pos>muDojir/ADJ</pos>
+;; mutaDaj~ir_1
+mtDjr   mutaDaj~ir      Nall    irritated;dissatisfied     <pos>mutaDaj~ir/ADJ</pos>
+;
+;--- DjE
+;; DajaE-a_1
+DjE     DajaE   PV      rest;slumber
+DjE     DojaE   IV      rest;slumber
+;; DAjaE_1
+DAjE    DAjaE   PV      lie with;have sex with
+DAjE    DAjiE   IV_yu   lie with;have sex with
+;; >aDojaE_1
+>DjE    >aDojaE PV      put to bed
+ADjE    >aDojaE PV      put to bed
+DjE     DojiE   IV_yu   put to bed
+DjE     DojaE   IV_Pass_yu      be put to bed
+;; {inoDajaE_1
+<nDjE   {inoDajaE       PV      lie down;sleep
+AnDjE   {inoDajaE       PV      lie down;sleep
+nDjE    noDajiE IV      lie down;sleep
+;; {iDoTajaE_1
+<DTjE   {iDoTajaE       PV      lie down;sleep
+ADTjE   {iDoTajaE       PV      lie down;sleep
+DTjE    DoTajiE IV      lie down;sleep
+;; {iD~ajaE_1
+<DjE    {iD~ajaE        PV      lie down;sleep
+ADjE    {iD~ajaE        PV      lie down;sleep
+DjE     D~ajiE  IV      lie down;sleep
+;; DujuwE_1
+DjwE    DujuwE  N       rest;slumber
+;; DajoEap_1
+DjE     DajoE   Nap     lying position
+;; DujoEiy~_1
+DjEy    DujoEiy~        Nall    sluggard;late riser     <pos>DujoEiy~/ADJ</pos>
+;; DajiyE_1
+DjyE    DajiyE  N-ap    bedfellow;comrade
+;; maDojaE_1
+mDjE    maDojaE Ndu     couch;bed
+mDAjE   maDAjiE Ndip    couches;beds
+;; muDAjaEap_1
+mDAjE   muDAjaE NapAt   sexual intercourse
+;; muDAjiE_1
+mDAjE   muDAjiE Nall    bedfellow
+;; muDoTajaE_1
+mDTjE   muDoTajaE       N       couch
+;; muD~ajaE_1
+mDjE    muD~ajaE        N       couch
+;
+;--- DHDH
+;; DaHoDaH_1
+DHDH    DaHoDaH PV      vibrate;flicker
+DHDH    DaHoDiH IV_yu   vibrate;flicker
+;; taDaHoDaH_1
+tDHDH   taDaHoDaH       PV      vibrate;flicker
+tDHDH   taDaHoDaH       IV      vibrate;flicker
+;; DaHoDAH_1
+DHDAH   DaHoDAH N-ap    shallow;sand dune
+DHADyH  DaHADiyH        Ndip    shallow;sand dunes
+;
+;--- DHk
+;; DaHik-a_1
+DHk     DaHik   PV      laugh
+DHk     DoHak   IV      laugh
+DHk     DoHak   IV_Pass_yu      be laughd at
+;; >aDoHak_1
+>DHk    >aDoHak PV      make laugh
+ADHk    >aDoHak PV      make laugh
+DHk     DoHik   IV_yu   make laugh
+DHk     DoHak   IV_Pass_yu      be made to laugh
+;; taDAHak_1
+tDAHk   taDAHak PV      pretend to laugh
+tDAHk   taDAHak IV      pretend to laugh
+;; {isotaDoHak_1
+<stDHk  {isotaDoHak     PV      make laugh
+AstDHk  {isotaDoHak     PV      make laugh
+stDHk   sotaDoHik       IV      make laugh
+;; DaHok_1
+DHk     DaHok   N       laughter;laughing
+;; DaHokap_1
+DHk     DaHok   Napdu   laugh;laughter
+DHk     DaHak   NAt     laughter
+;; DuHokap_1
+DHk     DuHok   Nap     laughingstock;object of ridicule
+;; DaHuwk_1
+DHwk    DaHuwk  N-ap    laughing
+;; DaH~Ak_1
+DHAk    DaH~Ak  N-ap    laughing;joker
+;; >uDoHuwkap_1
+>DHwk   >uDoHuwk        Napdu   laughingstock;object of ridicule
+ADHwk   >uDoHuwk        Napdu   laughingstock;object of ridicule
+>DAHyk  >aDAHiyk        Ndip    laughingstocks;objects of ridicule
+ADAHyk  >aDAHiyk        Ndip    laughingstocks;objects of ridicule
+;; maDoHakap_1
+mDHk    maDoHak Nap     laughingstock;object of ridicule
+;; >aDoHak_2
+>DHk    >aDoHak Nel     funnier/funniest;more/most ludicrous
+ADHk    >aDoHak Nel     funnier/funniest;more/most ludicrous
+;; DAHik_1
+DAHk    DAHik   N-ap    laughing     <pos>DAHik/ADJ</pos>
+;; DAHikap_1
+DAHk    DAHik   Napdu   tooth
+DwAHk   DawAHik Ndip    teeth
+;; muDoHik_1
+mDHk    muDoHik N-ap    laughable;ridiculous;funny     <pos>muDoHik/ADJ</pos>
+mDHk    muDoHik NAt     jokes
+;
+;--- DHl
+;; DaHol_1
+DHl     DaHol   N-ap    shallow;superficial     <pos>DaHol/ADJ</pos>
+DHAl    DiHAl   N       shallow;superficial
+>DHAl   >aDoHAl N       shallow;superficial
+ADHAl   >aDoHAl N       shallow;superficial
+;; DaHAlap_1
+DHAl    DaHAl   Nap     shallowness;triviality
+;
+;--- DHw DHy
+;; DaHA-u_1
+DHA     DaHA    PV_0    appear;become visible
+DHw     DaHaw   PV_Atn  appear;become visible
+DH      DaH     PV_ttAw appear;become visible
+DHw     DoHuw   IV_0hAnn        appear;become visible
+DH      DoH     IV_0hwnyn       appear;become visible
+;; DaHiy-a_1
+DHy     DaHiy   PV_no-w_intr    be visible;be in the sun
+DH      DaH     PV_w_intr       be visible;be in the sun
+DHY     DoHaY   IV_0    be visible;be in the sun
+DHy     DoHay   IV_Ann  be visible;be in the sun
+DH      DoHa    IV_0hwnyn       be visible;be in the sun
+;; DaH~aY_1
+DHY     DaH~aY  PV_0    sacrifice;immolate
+DHA     DaH~A   PV_h    sacrifice;immolate
+DHy     DaH~ay  PV_Atn  sacrifice;immolate
+DH      DaH~    PV_ttAw sacrifice;immolate
+DHy     DaH~iy  IV_0hAnn_yu     sacrifice;immolate
+DH      DaH~    IV_0hwnyn_yu    sacrifice;immolate
+DHY     DaH~aY  IV_0_Pass_yu    be sacrificed;be immolated
+DHy     DaH~ay  IV_Ann_Pass_yu  be sacrificed;be immolated
+;; >aDoHaY_1
+>DHY    >aDoHaY PV_0    bring to light
+ADHY    >aDoHaY PV_0    bring to light
+>DHA    >aDoHA  PV_h    bring to light
+ADHA    >aDoHA  PV_h    bring to light
+>DHy    >aDoHay PV_Atn  bring to light
+ADHy    >aDoHay PV_Atn  bring to light
+>DH     >aDoH   PV_ttAw bring to light
+ADH     >aDoH   PV_ttAw bring to light
+DHy     DoHiy   IV_0hAnn_yu     bring to light
+DH      DoH     IV_0hwnyn_yu    bring to light
+DHY     DoHaY   IV_0_Pass_yu    be brought to light
+DHy     DoHay   IV_Ann_Pass_yu  be brought to light
+;; DaHowap_1
+DHw     DaHow   Napdu   forenoon;morning
+DHw     DaHaw   NAt     forenoons;mornings
+;; DuHaY_1
+DHY     DuHaY   N0      forenoon
+DHA     DuHA    Nhy     forenoon
+DHA     DuHA    Nhy     overnight;suddenly
+;; DaHiy~ap_1
+DHy     DaHiy~  Napdu   victim     <pos>DaHiy~/NOUN</pos>
+DHAyA   DaHAyA  N0_Nhy  victims
+;; >aDoHaY_2
+>DHY    >aDoHaY N0      Adha Feast;Immolation
+ADHY    >aDoHaY N0      Adha Feast;Immolation
+;; >aDoHAp_1
+>DHA    >aDoHA  Nap     sacrifice;immolation
+ADHA    >aDoHA  Nap     sacrifice;immolation
+;; >uDoHiy~ap_1
+>DHy    >uDoHiy~        Nap     sacrifice     <pos>>uDoHiy~/NOUN</pos>
+ADHy    >uDoHiy~        Nap     sacrifice     <pos>>uDoHiy~/NOUN</pos>
+>DAHy   >aDAHiy~        N0_Nh   sacrifices
+ADAHy   >aDAHiy~        N0_Nh   sacrifices
+;; taDoHiy_1
+tDHy    taDoHiy NapAt   sacrifice;immolation
+tDHy    taDoHiy NAt     sacrifices
+;; DAHiy_1
+DAHy    DAHiy   N0F     visible     <pos>DAHiy/ADJ</pos>
+DAH     DAH     NK      visible
+;; DAHiyap_1
+DAHy    DAHiy   Nap     suburb;vicinity
+DwAHy   DawAHiy N0_Nh   suburbs;outskirts
+DwAH    DawAH   NK      suburbs;outskirts
+;; DAHawiy~_1
+DAHwy   DAHawiy~        N-ap    suburban     <pos>DAHawiy~/ADJ</pos>
+;
+;--- Dx
+;; Dax~-u_1
+Dx      Dax~    PV_V    inject;pump;spurt
+Dxx     Daxax   PV_C    inject;pump;spurt
+Dx      Dux~    IV_V    inject;pump;spurt
+Dxx     Doxux   IV_C    inject;pump;spurt
+;; Dax~_1
+Dx      Dax~    N       pumping;injecting
+;; miDax~ap_1
+mDx     miDax~  NapAt   pump
+mDAx    maDAx~  Ndip    pumps
+;
+;--- Dxm
+;; Daxum-u_1
+Dxm     Daxum   PV_intr become voluminous
+Dxm     Doxum   IV_intr become voluminous
+;; Dax~am_1
+Dxm     Dax~am  PV      amplify;enlarge;inflate
+Dxm     Dax~im  IV_yu   amplify;enlarge;inflate
+;; taDax~am_1
+tDxm    taDax~am        PV_intr be amplified;be enlarged;be inflated
+tDxm    taDax~am        IV_intr be amplified;be enlarged;be inflated
+;; Daxom_1
+Dxm     Daxom   N-ap    large;voluminous     <pos>Daxom/ADJ</pos>
+DxAm    DixAm   N       large;voluminous
+;; DaxAmap_1
+DxAm    DaxAm   Nap     bulkiness;voluminosity
+;; taDoxiym_1
+tDxym   taDoxiym        N/At    inflating;exaggerating
+;; taDax~um_1
+tDxm    taDax~um        N/At    inflation
+;; taDax~umiy~_1
+tDxmy   taDax~umiy~     N-ap    inflationary     <pos>taDax~umiy~/ADJ</pos>
+;; muDax~im_1
+mDxm    muDax~im        N/At    amplifier
+;
+;--- Dd
+;; DAd~_1
+DAd     DAd~    PV_V    oppose
+DAdd    DAdad   PV_C    oppose
+DAd     DAd~    IV_V_yu oppose
+DAdd    DAdid   IV_C_yu oppose
+;; taDAd~_1
+tDAd    taDAd~  PV_V    oppose each other
+tDAdd   taDAdad PV_C    oppose each other
+tDAd    taDAd~  IV_V    oppose each other
+tDAdd   taDAdid IV_C    oppose each other
+;; Did~a_1
+Dd      Did~a   FW-Wa   against     <pos>Did~a/PREP</pos>
+Dd      Did~a   FW-Wa-a against     <pos>Did~a/PREP</pos>
+Dd      Did~    FW-Wa-o against     <pos>Did~/PREP</pos>
+;; Did~_1
+Dd      Did~    N       contrary;against;opposed;anti-;counter-
+>DdAd   >aDodAd N       opposites
+ADdAd   >aDodAd N       opposites
+;; Did~iy~_1
+Ddy     Did~iy~ N-ap    anti-     <pos>Did~iy~/ADJ</pos>
+;; Did~iy~ap_1
+Ddy     Did~iy~ Nap     enmity;contrariness     <pos>Did~iy~/NOUN</pos>
+;; muDAd~_1
+mDAd    muDAd~  N-ap    anti-;counter-;contra-     <pos>muDAd~/ADJ</pos>
+;; mutaDAd~_1
+mtDAd   mutaDAd~        N-ap    opposing;contrary;antagonistic     <pos>mutaDAd~/ADJ</pos>
+;; taDAd~_2
+tDAd    taDAd~  N/At    ambivalence;contradiction
+;
+;--- Dr
+;; Dar~-u_1
+Dr      Dar~    PV_V    harm;injure
+Drr     Darar   PV_C    harm;injure
+Dr      Dur~    IV_V    harm;injure
+Drr     Dorur   IV_C    harm;injure
+;; Dar~ar_1
+Drr     Dar~ar  PV      damage;injure
+Drr     Dar~ir  IV_yu   damage;injure
+;; >aDar~_1
+>Dr     >aDar~  PV_V    damage;injure
+ADr     >aDar~  PV_V    damage;injure
+>Drr    >aDorar PV_C    damage;injure
+ADrr    >aDorar PV_C    damage;injure
+Dr      Dir~    IV_V_yu damage;injure
+Drr     Dorir   IV_C_yu damage;injure
+Dr      Dar~    IV_V_Pass_yu    be damaged;be injured
+;; taDar~ar_1
+tDrr    taDar~ar        PV      complain;be injured
+tDrr    taDar~ar        IV      complain;be injured
+;; {iDoTar~_1
+<DTr    {iDoTar~        PV_V    compel;force;oblige
+ADTr    {iDoTar~        PV_V    compel;force;oblige
+<DTrr   {iDoTarar       PV_C    compel;force;oblige
+ADTrr   {iDoTarar       PV_C    compel;force;oblige
+DTr     DoTar~  IV_V    compel;force;oblige
+DTrr    DoTarir IV_C    compel;force;oblige
+;; Dir~_1
+Dr      Dir~    N       polygamy
+;; Dur~iy~_1
+Dry     Dur~iy~ Nall    polygamist     <pos>Dur~iy~/ADJ</pos>
+;; Dur~iy~ap_1
+Dry     Dur~iy~ Nap     polygamy     <pos>Dur~iy~/NOUN</pos>
+;; Dar~ap_1
+Dr      Dar~    Napdu   plural wife
+DrA}r   DarA}ir Ndip    plural wives
+;; Darar_1
+Drr     Darar   N       damage;injury;harm
+>DrAr   >aDorAr N       damages;injuries;harm
+ADrAr   >aDorAr N       damages;injuries;harm
+;; Darar_2
+Drr     Darar   Ndu     evil;sin
+;; Dar~A'_1
+DrA'    Dar~A'  N0_Nh   adversity
+DrA&    Dar~A&  Nh      adversity
+DrA}    Dar~A}  Nhy     adversity
+;; Daruwrap_1
+Drwr    Daruwr  NapAt   necessity;need;imperative
+;; Daruwriy~_1
+Drwry   Daruwriy~       N-ap    necessary;requisite     <pos>Daruwriy~/ADJ</pos>
+Drwry   Daruwriy~       NAt     necessities     <pos>Daruwriy~/NOUN</pos>
+;; DAr~_1
+DAr     DAr~    N-ap    harmful;injurious;noxious     <pos>DAr~/ADJ</pos>
+;; maDar~ap_1
+mDr     maDar~  NapAt   harm;damage;adversity
+mDAr    maDAr~  Ndip    harm;damage;adversities
+;; <iDorAr_1
+<DrAr   <iDorAr N/At    harm;injury
+ADrAr   <iDorAr N/At    harm;injury
+;; {iDoTirAr_1
+<DTrAr  {iDoTirAr       N/At    obligation;emergency;urgency
+ADTrAr  {iDoTirAr       N/At    obligation;emergency;urgency
+;; {iDoTirAriy~_1
+<DTrAry {iDoTirAriy~    N-ap    obligatory;forced;emergency     <pos>{iDoTirAriy~/ADJ</pos>
+ADTrAry {iDoTirAriy~    N-ap    obligatory;forced;emergency     <pos>{iDoTirAriy~/ADJ</pos>
+;; muDir~_1
+mDr     muDir~  N-ap    harmful;injurious     <pos>muDir~/ADJ</pos>
+;; muDoTar~_1
+mDTr    muDoTar~        Nall    compelled;forced;obligated     <pos>muDoTar~/ADJ</pos>
+;; mutaDar~ir_1
+mtDrr   mutaDar~ir      N-ap    damaged     <pos>mutaDar~ir/ADJ</pos>
+;
+;--- Drb
+;; Darab_1
+Drb     Darab   PV      strike;hit
+Drb     Dorib   IV      strike;hit
+Drb     Dorab   IV_Pass_yu      be struck;be hit
+;; Dar~ab_1
+Drb     Dar~ab  PV      quilt;upholster
+Drb     Dar~ib  IV_yu   quilt;upholster
+;; DArab_1
+DArb    DArab   PV      speculate
+DArb    DArib   IV_yu   speculate
+;; DArab_2
+DArb    DArab   PV      compete
+DArb    DArib   IV_yu   compete
+;; >aDorab_1
+>Drb    >aDorab PV      halt;refuse;renounce
+ADrb    >aDorab PV      halt;refuse;renounce
+Drb     Dorib   IV_yu   halt;refuse;renounce
+Drb     Dorab   IV_Pass_yu      be halted;be refused;be renounced
+;; taDArab_1
+tDArb   taDArab PV      clash;fight
+tDArb   taDArab IV      clash;fight
+;; {iDoTarab_1
+<DTrb   {iDoTarab       PV_intr be disturbed;be agitated;suffer disorder
+ADTrb   {iDoTarab       PV_intr be disturbed;be agitated;suffer disorder
+DTrb    DoTarib IV_intr be disturbed;be agitated;suffer disorder
+;; Darob_1
+Drb     Darob   N       strike;attack;bombardment
+;; Darob_2
+Drb     Darob   N       beating;hitting;striking
+;; Duruwb_1
+Drwb    Duruwb  N       types;sorts;varieties
+;; >aDorAb_1
+>DrAb   >aDorAb N       similar;like
+ADrAb   >aDorAb N       similar;like
+;; Darobap_1
+Drb     Darob   Napdu   blow;strike;shot
+Drb     Darab   NAt     blows;strikes;shots
+;; DaraboxAnap_1
+DrbxAn  DaraboxAn       NapAt   money mint
+;; DArib_1
+DArb    DArib   N       tending towards;similar to
+;; DArib_2
+DArb    DArib   N-ap    striking
+;; DawArib_1
+DwArb   DawArib Ndip    migratory
+;; maDoruwb_1
+mDrwb   maDoruwb        N       multiplier
+;; maDoruwb_2
+mDrwb   maDoruwb        N-ap    fixed;determined
+;; Dariybap_1
+Dryb    Dariyb  Napdu   tax;levy
+;; DarA}ib_1
+DrA}b   DarA}ib Ndip    taxes
+;; Dariybiy~_1
+Dryby   Dariybiy~       N-ap    fiscal;taxation     <pos>Dariybiy~/ADJ</pos>
+;; miDorab_1
+mDrb    miDorab Ndu     (tennis) racket;drumstick
+;; miDorAb_1
+mDrAb   miDorAb Ndu     bat;racket;drumstick
+;; maDorib_1
+mDrb    maDorib Ndu     tent;camp
+mDArb   maDArib Ndip    tents;camps
+;; muDar~ab_1
+mDrb    muDar~ab        N-ap    quilted;upholstered
+;; muDar~abap_1
+mDrb    muDar~ab        Nap     mattress;quilt
+;; muDArabap_1
+mDArb   muDArab NapAt   speculation
+;; muDArabap_2
+mDArb   muDArab NapAt   competition
+;; muDArabiy~_1
+mDArby  muDArabiy~      N-ap    speculative     <pos>muDArabiy~/ADJ</pos>
+;; muDArib_1
+mDArb   muDArib Nall    speculators
+;; <iDorAb_1
+<DrAb   <iDorAb N/At    strike;stoppage
+ADrAb   <iDorAb N/At    strike;stoppage
+;; muDorib_1
+mDrb    muDorib Nall    striker
+;; taDArub_1
+tDArb   taDArub N/At    conflict;clash
+;; mutaDArib_1
+mtDArb  mutaDArib       Nall    conflicting;contradictory
+;; {iDoTirAb_1
+<DTrAb  {iDoTirAb       N/At    disturbance;agitation;disorder
+ADTrAb  {iDoTirAb       N/At    disturbance;agitation;disorder
+;; muDoTarib_1
+mDTrb   muDoTarib       Nall    disturbed;agitated;disrupted
+;
+;; Daraj_1
+Drj     Daraj   PV      stain;smear
+Drj     Doruj   IV      stain;smear
+;; Dar~aj_1
+Drj     Dar~aj  PV      redden;smear with red;bloody
+Drj     Dar~ij  IV_yu   redden;smear with red;bloody
+;; taDar~aj_1
+tDrj    taDar~aj        PV      redden;be red;be bloody
+tDrj    taDar~aj        IV      redden;be red;be bloody
+;; maDoruwj_1
+mDrwj   maDoruwj        N-ap    bloodshot
+;; muDar~aj_1
+mDrj    muDar~aj        N-ap    bloody
+;
+;; DariyH_1
+DryH    DariyH  Ndu     tomb;mausoleum
+DrA}H   DarA}iH Ndip    tomb;mausoleum
+>DrH    >aDoriH Nap     tomb;mausoleum
+ADrH    >aDoriH Nap     tomb;mausoleum
+;; DariyHiy~_1
+DryHy   DariyHiy~       N-ap    sepulchral;funerary     <pos>DariyHiy~/ADJ</pos>
+;
+;; Dar~as_1
+Drs     Dar~as  PV      indent;harden
+Drs     Dar~is  IV_yu   indent;harden
+;; >aDoras_1
+>Drs    >aDoras PV      set on edge;make dull
+ADrs    >aDoras PV      set on edge;make dull
+Drs     Doris   IV_yu   set on edge;make dull
+Drs     Doras   IV_Pass_yu      be set on edge;be made dull
+;; Daras_1
+Drs     Daras   N       irritation;setting on edge
+;; Diros_1
+Drs     Diros   Ndu     molar
+>DrAs   >aDorAs N       molars
+ADrAs   >aDorAs N       molars
+Drws    Duruws  N       molars
+;; DurAs_1
+DrAs    DurAs   N       toothache
+;; Daruws_1
+Drws    Daruws  N-ap    fierce;bloody
+;; taDoriys_1
+tDrys   taDoriys        N/At    topography;indentation
+tDArys  taDAriys        Ndip    topography;surface features
+;
+;; DaraT_1
+DrT     DaraT   PV      break wind;fart
+DrT     DoriT   IV      break wind;fart
+;; DaroT_1
+DrT     DaroT   N       flatus;farting
+;; DaroTap_1
+DrT     DaroT   Napdu   fart
+DrT     DaraT   NAt     farts
+;; DurAT_1
+DrAT    DurAT   N       flatus;farting
+DryT    DariyT  N       flatus;farting
+;
+;; DaraE_1
+DrE     DaraE   PV      suck;suckle
+DrE     DoruE   IV      suck;suckle
+;; DAraE_1
+DArE    DAraE   PV      resemble
+DArE    DAriE   IV_yu   resemble
+;; taDar~aE_1
+tDrE    taDar~aE        PV      implore;supplicate
+tDrE    taDar~aE        IV      implore;supplicate
+;; {iDoTaraE_1
+<DTrE   {iDoTaraE       PV      implore;supplicate
+ADTrE   {iDoTaraE       PV      implore;supplicate
+DTrE    DoTariE IV      implore;supplicate
+;; DaroE_1
+DrE     DaroE   Ndu     teat;udder
+DrwE    DuruwE  N       teats;udder
+DrAE    DirAE   N       teats;udder
+;; DaroEiy~_1
+DrEy    DaroEiy~        Nall    mammal     <pos>DaroEiy~/ADJ</pos>
+DrEy    DaroEiy~        NAt     mammals     <pos>DaroEiy~/NOUN</pos>
+;; DiroE_1
+DrE     DiroE   N       similar;resembling
+;; DarAEap_1
+DrAE    DarAE   Nap     humility;submission
+;; muDAraEap_1
+mDArE   muDAraE NapAt   similarity;resemblance
+;; taDar~uE_1
+tDrE    taDar~uE        N/At    supplication;imploring
+;; DAriE_1
+DArE    DAriE   N-ap    frail
+;; muDAriE_1
+mDArE   muDAriE Nall    similar;resembling
+;
+;; Darogam_1
+Drgm    Darogam Ndu     lion
+DrAgm   DarAgim Ndip    lions
+DrgAm   DirogAm N       lion
+DrAgm   DarAgim Nap     lions
+;
+;; Darim_1
+Drm     Darim   PV_intr be inflamed;flare up
+Drm     Doram   IV_intr be inflamed;flare up
+;; >aDoram_1
+>Drm    >aDoram PV      kindle;light
+ADrm    >aDoram PV      kindle;light
+Drm     Dorim   IV_yu   kindle;light
+Drm     Doram   IV_Pass_yu      be kindled;be lit
+;; taDar~am_1
+tDrm    taDar~am        PV_intr be inflamed;flare up
+tDrm    taDar~am        IV_intr be inflamed;flare up
+;; {iDoTaram_1
+<DTrm   {iDoTaram       PV_intr be inflamed;flare up
+ADTrm   {iDoTaram       PV_intr be inflamed;flare up
+DTrm    DoTarim IV_intr be inflamed;flare up
+;; DirAm_1
+DrAm    DirAm   N       burning;conflagration
+<DTrAm  {iDoTirAm       N/At    burning;conflagration
+ADTrAm  {iDoTirAm       N/At    burning;conflagration
+;; muDoTarim_1
+mDTrm   muDoTarim       Nall    burning;blazing
+;; Daromap_1
+Drm     Darom   Nap     fire brand
+;; <iDorAm_1
+<DrAm   <iDorAm N/At    kindling;exciting
+ADrAm   <iDorAm N/At    kindling;exciting
+;
+;; Dar~aY_1
+DrY     Dar~aY  PV_0    provoke;excite
+DrA     Dar~A   PV_h    provoke;excite
+Dry     Dar~ay  PV_Atn  provoke;excite
+Dr      Dar~    PV_ttAw provoke;excite
+Dry     Dar~iy  IV_0hAnn_yu     provoke;excite
+Dr      Dar~    IV_0hwnyn_yu    provoke;excite
+DrY     Dar~aY  IV_0_Pass_yu    be provoked;be excited
+Dry     Dar~ay  IV_Ann_Pass_yu  be provoked;be excited
+;; Dirow_1
+Drw     Dirow   N       hunting dog
+DrA'    DirA'   N0_Nh   hunting dogs
+DrA&    DirA&   Nh      hunting dogs
+DrA}    DirA}   Nhy     hunting dogs
+;; DarAwap_1
+DrAw    DarAw   Nap     ferocity;zeal
+DAry    DAriy   N0F     ferocious;zealous;predatory
+DAr     DAr     NK      ferocious;zealous;predatory
+DAry    DAriy   NAn_Nayn        ferocious;zealous;predatory
+DAr     DAr     Nuwn_Niyn       ferocious;zealous;predatory
+DAry    DAriy   NapAt   ferocious;zealous;predatory
+;; DawAriy_1
+DwAry   DawAriy N0_Nh   predatory animals
+DwAr    DawAr   NK      predatory animals
+;; taDoriyap_1
+tDry    taDoriy Nap     provocation
+;
+;; DaEoDaE_1
+DEDE    DaEoDaE PV      demolish;raze
+DEDE    DaEoDiE IV_yu   demolish;raze
+;; taDaEoDaE_1
+tDEDE   taDaEoDaE       PV_intr be destroyed;disintegrate
+tDEDE   taDaEoDaE       IV_intr be destroyed;disintegrate
+;; DaEoDaEap_1
+DEDE    DaEoDaE Nap     destruction;debilitation
+;; mutaDaEoDiE_1
+mtDEDE  mutaDaEoDiE     Nall    debilitated
+;; taDaEoDuE_1
+tDEDE   taDaEoDuE       N/At    debacle
+;
+; DEf(1) weakness
+;; DaEuf_1
+DEf     DaEuf   PV_intr become weak;abate;wane
+DEf     DoEuf   IV_intr become weak;abate;wane
+;; >aDoEaf_1
+>DEf    >aDoEaf PV      weaken
+ADEf    >aDoEaf PV      weaken
+DEf     DoEif   IV_yu   weaken
+DEf     DoEaf   IV_Pass_yu      be weakened
+;; {isotaDoEaf_1
+<stDEf  {isotaDoEaf     PV      despise;oppress
+AstDEf  {isotaDoEaf     PV      despise;oppress
+stDEf   sotaDoEif       IV      despise;oppress
+;; DuEof_1
+DEf     DuEof   N       weakness;impotence
+;; DaEiyf_1
+DEyf    DaEiyf  N-ap    weak;deficient
+DEfA'   DuEafA' N0_Nh   weak;deficient
+DEfA&   DuEafA& Nh      weak;deficient
+DEfA}   DuEafA} Nhy     weak;deficient
+DEAf    DiEAf   N       weak;deficient
+DEf     DaEaf   Nap     weak;deficient
+DEA}f   DaEA}if Ndip    weak;deficient
+DEfAn   DaEofAn N       weak;deficient
+;; <iDoEAf_1
+<DEAf   <iDoEAf N/At    weakening;impairment
+ADEAf   <iDoEAf N/At    weakening;impairment
+;; muDoEif_1
+mDEf    muDoEif N-ap    debilitating
+;; musotaDoEaf_1
+mstDEf  musotaDoEaf     Nall    despised;oppressed
+;
+; DEf(2) doubling
+;; DaE~af_1
+DEf     DaE~af  PV      double;compound
+DEf     DaE~if  IV_yu   double;compound
+;; DAEaf_1
+DAEf    DAEaf   PV      double;compound
+DAEf    DAEif   IV_yu   double;compound
+;; taDAEaf_1
+tDAEf   taDAEaf PV_intr be doubled;be compounded
+tDAEf   taDAEaf IV_intr be doubled;be compounded
+;; DiEof_1
+DEf     DiEof   N       double;multiple
+>DEAf   >aDoEAf N       double;multiples
+ADEAf   >aDoEAf N       double;multiples
+tDEyf   taDoEiyf        N/At    doubling;multiplying
+;; taDAEiyf_1
+tDAEyf  taDAEiyf        Ndip    contents;within;contours
+;; muDAEafap_1
+mDAEf   muDAEaf NapAt   doubling;compounding
+;; muDAEafAt_1
+mDAEf   muDAEaf NAt     complications
+;; muDAEif_1
+mDAEf   muDAEif N-ap    servo
+;; muDAEaf_1
+mDAEf   muDAEaf N-ap    doubled;multiple;denominator
+;; taDAEuf_1
+tDAEf   taDAEuf N/At    doubling;multiplying
+;; muDaE~af_1
+mDEf    muDaE~af        N-ap    doubled;compounded
+;
+;; Dagav_1
+Dgv     Dagav   PV      confuse;muddle
+Dgv     Dogav   IV      confuse;muddle
+;; Digov_1
+Dgv     Digov   Ndu     bouquet;jumble
+>DgAv   >aDogAv N       bouquets;jumbles
+ADgAv   >aDogAv N       bouquets;jumbles
+;
+;; DagoDag_1
+DgDg    DagoDag PV      chew;munch;mumble
+DgDg    DagoDig IV_yu   chew;munch;mumble
+;; DagoDagap_1
+DgDg    DagoDag Nap     chewing;munching;mumbling
+;
+;; DagaT_1
+DgT     DagaT   PV      press;push;pressurize;compress
+DgT     DogaT   IV      press;push;pressurize;compress
+;; >uDoguT_1
+>DgT    >uDoguT CV      press;push
+ADgT    >uDoguT CV      press;push
+DgT     DagoT   N       pressing;pushing;pressurizing;compressing
+;; {inoDagaT_1
+<nDgT   {inoDagaT       PV_intr be pressed;be pressurized;be compressed
+AnDgT   {inoDagaT       PV_intr be pressed;be pressurized;be compressed
+nDgT    noDagiT IV_intr be pressed;be pressurized;be compressed
+;; DagoT_1
+DgT     DagoT   N       pressure;stress;voltage
+;; DuguwT_1
+DgwT    DuguwT  N       pressures;stresses
+;; DAgiT_1
+DAgT    DAgiT   N-ap    compressor;pressuring
+;; DawAgiT_1
+DwAgT   DawAgiT Ndip    compressors
+mDgwT   maDoguwT        N-ap    compressed
+;; DaguwT_1
+DgwT    DaguwT  N-ap    compressible;coercible     <pos>DaguwT/ADJ</pos>
+;; DAguwT_1
+DAgwT   DAguwT  N       nightmare
+;; miDogaT_1
+mDgT    miDogaT Ndu     barometer
+mDAgT   maDAgiT Ndip    barometers
+mDgTy   miDogaTiy~      N-ap    barometric     <pos>miDogaTiy~/ADJ</pos>
+;; miDogAT_1
+mDgAT   miDogAT Ndu     compressor
+mDAgyT  maDAgiyT        Ndip    compressors
+<nDgAT  {inoDigAT       N/At    compression
+AnDgAT  {inoDigAT       N/At    compression
+;; {inoDigATiy~ap_1
+<nDgATy {inoDigATiy~    Nap     compressibility     <pos>{inoDigATiy~/NOUN</pos>
+AnDgATy {inoDigATiy~    Nap     compressibility     <pos>{inoDigATiy~/NOUN</pos>
+;
+;; Dagin-a_1
+Dgn     Dagin   PV-n    bear a grudge;harbor hatred
+Dgn     Dogan   IV-n    bear a grudge;harbor hatred
+;; taDAgan_1
+tDAgn   taDAgan PV-n    hate each other
+tDAgn   taDAgan IV-n    hate each other
+;; Digon_1
+Dgn     Digon   N       hatred;malice
+>DgAn   >aDogAn N       hatred;malice
+ADgAn   >aDogAn N       hatred;malice
+;; Dagiynap_1
+Dgyn    Dagiyn  Nap     hatred;malice
+DgA}n   DagA}in Ndip    hatred;malice
+;; Dagin_1
+Dgn     Dagin   N-ap    spiteful;resentful
+;; DAgin_2
+DAgn    DAgin   Nall    spiteful;resentful
+;
+;; Dif~ap_1
+Df      Dif~    Napdu   bank;shore
+;; Dif~ap_2
+Df      Dif~    Nap     (West) Bank     <pos>Dif~/NOUN_PROP</pos>
+;; DifAf_1
+DfAf    DifAf   N       banks;shores
+;; Dafaf_1
+Dff     Dafaf   N       poverty;destitution
+;
+;; DafodaE_1
+DfdE    DafodaE Ndu     frog
+DfAdE   DafAdiE Ndip    frogs
+;; DafodaEiy~_1
+DfdEy   DafodaEiy~      N-ap    frog-like;amphibian;batrachian     <pos>DafodaEiy~/ADJ</pos>
+;; DafodaEiy~At_1
+DfdEy   DafodaEiy~      NAt     amphibians;batrachians     <pos>DafodaEiy~/NOUN</pos>
+;
+;; Dafar_1
+Dfr     Dafar   PV      interweave
+Dfr     Dofir   IV      interweave
+;; DAfar_1
+DAfr    DAfar   PV      interweave
+DAfr    DAfir   IV_yu   interweave
+;; taDAfar_1
+tDAfr   taDAfar PV      interweave;coordinate
+tDAfr   taDAfar IV      interweave;coordinate
+;; Dafor_1
+Dfr     Dafor   N       braid;plexus
+;; Dufuwr_1
+Dfwr    Dufuwr  N       braids
+DfAr    DafAr   N       braid;plexus
+Dfyr    Dafiyr  Nap     braid;plexus
+;; DafA}ir_1
+DfA}r   DafA}ir Ndip    braids
+;; taDAfur_1
+tDAfr   taDAfur N/At    coordination;coalition
+;; mutaDAfir_1
+mtDAfr  mutaDAfir       Nall    convergent;in coalition
+;
+;; DafA_1
+DfA     DafA    PV_0    overflow;be abundant
+Dfw     Dafaw   PV_Atn  overflow;be abundant
+Df      Daf     PV_ttAw overflow;be abundant
+Dfw     Dofuw   IV_0hAnn        overflow;be abundant
+Df      Dof     IV_0hwnyn       overflow;be abundant
+;; >aDofaY_1
+>DfY    >aDofaY PV_0    grant;confer
+ADfY    >aDofaY PV_0    grant;confer
+>DfA    >aDofA  PV_h    grant;confer
+ADfA    >aDofA  PV_h    grant;confer
+>Dfy    >aDofay PV_Atn  grant;confer
+ADfy    >aDofay PV_Atn  grant;confer
+>Df     >aDof   PV_ttAw grant;confer
+ADf     >aDof   PV_ttAw grant;confer
+Dfy     Dofiy   IV_0hAnn_yu     grant;confer
+Df      Dof     IV_0hwnyn_yu    grant;confer
+DfY     DofaY   IV_0_Pass_yu    be granted;be conferred
+Dfy     Dofay   IV_Ann_Pass_yu  be granted;be conferred
+;; Dafowap_1
+Dfw     Dafow   Nap     abundance;affluence
+;; <iDofA'_1
+<DfA'   <iDofA' N0_Nh   granting;bestowal
+ADfA'   <iDofA' N0_Nh   granting;bestowal
+<DfA&   <iDofA& Nh      granting;bestowal
+ADfA&   <iDofA& Nh      granting;bestowal
+<DfA}   <iDofA} Nhy     granting;bestowal
+ADfA}   <iDofA} Nhy     granting;bestowal
+<DfA'   <iDofA' NAt     granting;bestowal
+ADfA'   <iDofA' NAt     granting;bestowal
+;; DAfiy_1
+DAfy    DAfiy   N0F     ample;elaborate
+DAf     DAf     NK      ample;elaborate
+DAfy    DAfiy   NAn_Nayn        ample;elaborate
+DAf     DAf     Nuwn_Niyn       ample;elaborate
+DAfy    DAfiy   NapAt   ample;elaborate
+;
+;; Dal~_1
+Dl      Dal~    PV_V    go astray;be in vain
+Dll     Dalal   PV_C    go astray;be in vain
+Dl      Dil~    IV_V    go astray;be in vain
+Dll     Dolil   IV_C    go astray;be in vain
+;; Dal~al_1
+Dll     Dal~al  PV      mislead;deceive
+Dll     Dal~il  IV_yu   mislead;deceive
+;; >aDal~_1
+>Dl     >aDal~  PV_V    mislead;deceive
+ADl     >aDal~  PV_V    mislead;deceive
+>Dll    >aDolal PV_C    mislead;deceive
+ADll    >aDolal PV_C    mislead;deceive
+Dl      Dil~    IV_V_yu mislead;deceive
+Dll     Dolil   IV_C_yu mislead;deceive
+Dl      Dal~    IV_V_Pass_yu    be misled;be deceived
+;; DalAl_1
+DlAl    DalAl   N       error;disorientation
+DlAl    DalAl   Nap     error;disorientation
+;; >uDoluwlap_1
+>Dlwl   >uDoluwl        Napdu   error;aberration
+ADlwl   >uDoluwl        Napdu   error;aberration
+>DAlyl  >aDAliyl        Ndip    errors;aberrations
+ADAlyl  >aDAliyl        Ndip    errors;aberrations
+;; taDoliyl_1
+tDlyl   taDoliyl        N/At    misleading;deception
+;; <iDolAl_1
+<DlAl   <iDolAl N/At    misleading;deception
+ADlAl   <iDolAl N/At    misleading;deception
+;; DAl~_1
+DAl     DAl~    N-ap    erroneous;misguided
+DwAl    DawAl~  Ndip    erroneous;misguided
+DlAl    Dul~Al  N       erroneous;misguided
+;; DAl~ap_1
+DAl     DAl~    Nap     ambition;objective
+;; muDal~il_1
+mDll    muDal~il        Nall    misleading;deceptive
+;; muDil~_1
+mDl     muDil~  Nall    misleading;deceptive
+;
+;--- DlE
+;; DalaE-a_1
+DlE     DalaE   PV      support;have affection for
+DlE     DolaE   IV      support;have affection for
+;; Dal~aE_1
+DlE     Dal~aE  PV      bend;undulate
+DlE     Dal~iE  IV_yu   bend;undulate
+;; taDal~aE_1
+tDlE    taDal~aE        PV_intr be bent;be familiar with
+tDlE    taDal~aE        IV_intr be bent;be familiar with
+;; {iDoTalaE_1
+<DTlE   {iDoTalaE       PV      take on;assume;undertake;be familiar with
+ADTlE   {iDoTalaE       PV      take on;assume;undertake;be familiar with
+DTlE    DoTaliE IV      take on;assume;undertake;be familiar with
+;; {isotaDolaE_1
+<stDlE  {isotaDolaE     PV_intr be proficient
+AstDlE  {isotaDolaE     PV_intr be proficient
+stDlE   sotaDoliE       IV_intr be proficient
+;; DaloE_1
+DlE     DaloE   N       affection;attachment
+;; DiloE_1
+DlE     DiloE   Ndu     rib;side
+DlwE    DuluwE  N       ribs;sides
+>DlAE   >aDolAE N       ribs;sides
+ADlAE   >aDolAE N       ribs;sides
+;; DiloEiy~_1
+DlEy    DiloEiy~        N-ap    coastal;lateral     <pos>DiloEiy~/ADJ</pos>
+;; DaliyE_1
+DlyE    DaliyE  N-ap    sturdy;knowledgeable     <pos>DaliyE/ADJ</pos>
+;; DalAEap_1
+DlAE    DalAE   Nap     sturdiness
+;; {iDoTilAE_1
+<DTlAE  {iDoTilAE       N/At    taking on;assuming;undertaking;being familiar with
+ADTlAE  {iDoTilAE       N/At    taking on;assuming;undertaking;being familiar with
+;; DAliE_1
+DAlE    DAliE   Nall    supporting;having affection for     <pos>DAliE/ADJ</pos>
+DAlE    DAliE   Nall    supportive;affectionate for     <pos>DAliE/ADJ</pos>
+;; muDal~aE_1
+mDlE    muDal~aE        N-ap    ribbed;corrugated;polygonal     <pos>muDal~aE/ADJ</pos>
+;; muDal~aE_2
+mDlE    muDal~aE        NduAt   polygon
+;; mutaDal~iE_1
+mtDlE   mutaDal~iE      Nall    knowledgeable;expert
+;; muDoTaliE_1
+mDTlE   muDoTaliE       Nall    knowledgeable;expert
+;
+;--- Dm
+;; Dam~-u_1
+Dm      Dam~    PV_V    include;comprise;incorporate
+Dmm     Damam   PV_C    include;comprise;incorporate
+Dm      Dum~    IV_V    include;comprise;incorporate
+Dmm     Domum   IV_C    include;comprise;incorporate
+;; taDAm~_1
+tDAm    taDAm~  PV_V    unite;join forces
+tDAmm   taDAmam PV_C    unite;join forces
+tDAm    taDAm~  IV_V    unite;join forces
+tDAmm   taDAmim IV_C    unite;join forces
+;; {inoDam~_1
+<nDm    {inoDam~        PV_V    join;be affiliated;be added
+AnDm    {inoDam~        PV_V    join;be affiliated;be added
+<nDmm   {inoDamam       PV_C    join;be affiliated;be added
+AnDmm   {inoDamam       PV_C    join;be affiliated;be added
+nDm     noDam~  IV_V    join;be affiliated;be added
+nDmm    noDamim IV_C    join;be affiliated;be added
+;; Dam~_1
+Dm      Dam~    N       joining;addition;annexation
+;; Dam~ap_1
+Dm      Dam~    Napdu   damma (Arabic short vowel "u")
+;; Dam~ap_2
+Dm      Dam~    NapAt   embrace
+;; Damiym_1
+Dmym    Damiym  N-ap    joined;annexed     <pos>Damiym/ADJ</pos>
+;; Damiymap_1
+Dmym    Damiym  Nap     addition;increase
+DmA}m   DamA}im Ndip    additions;increases
+;; DAm~_1
+DAm     DAm~    N       conjunctive
+;; DimAm_1
+DmAm    DimAm   N       attachment;joint
+;; taDAm~_2
+tDAm    taDAm~  N/At    together;joint
+;; {inoDimAm_1
+<nDmAm  {inoDimAm       N/At    joining;affiliation;annexation
+AnDmAm  {inoDimAm       N/At    joining;affiliation;annexation
+;; munoDam~_1
+mnDm    munoDam~        Nall    affiliated;annexed;comprising     <pos>munoDam~/ADJ</pos>
+;; maDomuwm_1
+mDmwm   maDomuwm        N-ap    joined;annexed     <pos>maDomuwm/ADJ</pos>
+;
+;--- Dmj
+;; Damoj_1
+Dmj     Damoj   N       bed bugs
+;
+;--- DmHl
+;; {iDomaHal~_1
+<DmHl   {iDomaHal~      PV_V    disappear;vanish
+ADmHl   {iDomaHal~      PV_V    disappear;vanish
+<DmHll  {iDomaHolal     PV_C    disappear;vanish
+ADmHll  {iDomaHolal     PV_C    disappear;vanish
+DmHl    DomaHil~        IV_V    disappear;vanish
+DmHll   DomaHolil       IV_C    disappear;vanish
+;; {iDomiHolAl_1
+<DmHlAl {iDomiHolAl     N/At    disappearance;fading
+ADmHlAl {iDomiHolAl     N/At    disappearance;fading
+;; muDomaHil~_1
+mDmHl   muDomaHil~      Nall    disappearing;fading     <pos>muDomaHil~/ADJ</pos>
+;
+;--- Dmx
+;; Damax-u_1
+Dmx     Damax   PV      put on perfume;put on lipstick
+Dmx     Domux   IV      put on perfume;put on lipstick
+;; Dam~ax_1
+Dmx     Dam~ax  PV      put on perfume;put on lipstick
+Dmx     Dam~ix  IV_yu   put on perfume;put on lipstick
+;; Damox_1
+Dmx     Damox   N       wearing perfume;wearing lipstick
+;; taDomiyx_1
+tDmyx   taDomiyx        N/At    wearing perfume;wearing lipstick
+;
+;--- Dmd
+;; Damad-u_1
+Dmd     Damad   PV      wrap with bandages
+Dmd     Domud   IV      wrap with bandages
+;; Dam~ad_1
+Dmd     Dam~ad  PV      wrap with bandages
+Dmd     Dam~id  IV_yu   wrap with bandages
+;; Damod_1
+Dmd     Damod   N       wrapping with bandages
+;; DimAd_1
+DmAd    DimAd   N       wrapping with bandages
+;; DimAdap_1
+DmAd    DimAd   Nap     wrapping with bandages
+;; DimAd_2
+DmAd    DimAd   Ndu     bandage
+>Dmd    >aDomid Nap     bandages
+ADmd    >aDomid Nap     bandages
+;; DimAdap_2
+DmAd    DimAd   Napdu   bandage
+DmA}d   DamA}id Ndip    bandages
+;; muDam~id_1
+mDmd    muDam~id        N       male nurse
+;; muDam~idap_1
+mDmd    muDam~id        NapAt   compress;bandage
+;
+;--- Dmr
+;; Damar-u_1
+Dmr     Damar   PV_intr become thin;shrink;atrophy
+Dmr     Damur   PV_intr become thin;shrink;atrophy
+Dmr     Domur   IV_intr become thin;shrink;atrophy
+;; >aDomar_1
+>Dmr    >aDomar PV      make thin;make weak
+ADmr    >aDomar PV      make thin;make weak
+Dmr     Domir   IV_yu   make thin;make weak
+Dmr     Domar   IV_Pass_yu      be thinned;be weakened
+;; taDam~ar_1
+tDmr    taDam~ar        PV_intr become thin;shrink;atrophy
+tDmr    taDam~ar        IV_intr become thin;shrink;atrophy
+;; {inoDamar_1
+<nDmr   {inoDamar       PV      wither;shrink
+AnDmr   {inoDamar       PV      wither;shrink
+nDmr    noDamir IV      wither;shrink
+;; Dumor_1
+Dmr     Dumor   N       emaciation;weakening
+;; Dumuwr_1
+Dmwr    Dumuwr  N       emaciation;weakening
+;; Damiyr_1
+Dmyr    Damiyr  Ndu     conscience;pronoun
+DmA}r   DamA}ir Ndip    consciences;pronouns
+;; Damiyriy~_1
+Dmyry   Damiyriy~       N-ap    conscience     <pos>Damiyriy~/ADJ</pos>
+;; miDomAr_1
+mDmAr   miDomAr Ndu     arena;domain
+mDAmyr  maDAmiyr        Ndip    arenas;domains
+;; <iDomAr_1
+<DmAr   <iDomAr N/At    concealment
+ADmAr   <iDomAr N/At    concealment
+;; <iDomAriy~_1
+<DmAry  <iDomAriy~      N-ap    elliptical     <pos><iDomAriy~/ADJ</pos>
+ADmAry  <iDomAriy~      N-ap    elliptical     <pos><iDomAriy~/ADJ</pos>
+;; DAmir_1
+DAmr    DAmir   N-ap    atrophied;emaciated     <pos>DAmir/ADJ</pos>
+DwAmr   DawAmir Ndip    atrophied;emaciated
+;; muDomar_1
+mDmr    muDomar N-ap    tacit;implied;covert     <pos>muDomar/ADJ</pos>
+;
+;--- Dmn
+;; Dimona_1
+Dmn     Dimona  FW-Wa   within;inside;among     <pos>Dimona/PREP</pos>
+Dmn     Dimoni  FW-Wa   within;inside;among     <pos>Dimoni/PREP</pos>
+Dmn     Dimona  FW-Wa-a within;inside;among     <pos>Dimona/PREP</pos>
+Dmn     Dimoni  FW-Wa-i within;inside;among     <pos>Dimoni/PREP</pos>
+;; Damin-a_1
+Dmn     Damin   PV-n    guarantee;insure
+Dmn     Doman   IV-n    guarantee;insure
+;; Dam~an_1
+Dmn     Dam~an  PV-n    guarantee;insure
+Dmn     Dam~in  IV-n_yu guarantee;insure
+;; taDam~an_1
+tDmn    taDam~an        PV-n    guarantee;comprise;include
+tDmn    taDam~an        IV-n    guarantee;comprise;include
+;; taDAman_1
+tDAmn   taDAman PV-n_intr       be in solidarity
+tDAmn   taDAman IV-n_intr       be in solidarity
+;; Dimon_1
+Dmn     Dimon   N       interior;content
+;; DimonAF_1
+DmnA    DimonAF FW-Wa   implicitly     <pos>DimonAF/ADV</pos>
+;; Dimoniy~_1
+Dmny    Dimoniy~        N-ap    implicit;tacit     <pos>Dimoniy~/ADJ</pos>
+;; DamAn_1
+DmAn    DamAn   N       guarantee;insurance
+;; DamAnap_1
+DmAn    DamAn   NapAt   guarantee;security;insurance
+;; taDomiyn_1
+tDmyn   taDomiyn        N/At    inclusion;modulation;implication
+;; taDam~un_1
+tDmn    taDam~un        N/At    inclusion
+;; taDAmun_1
+tDAmn   taDAmun N/At    solidarity;cooperation
+;; taDAmun_2
+tDAmn   taDAmun N0      Tadamon;Tadamun
+;; taDAmuniy~_1
+tDAmny  taDAmuniy~      N-ap    in solidarity;cooperative     <pos>taDAmuniy~/ADJ</pos>
+;; DAmin_1
+DAmn    DAmin   N-ap    guarantor;responsible;liable
+Dmyn    Damiyn  N-ap    guarantor;responsible;liable
+DmnA'   DumanA' N0_Nh   guarantors;responsible;liable
+DmnA&   DumanA& Nh      guarantors;responsible;liable
+DmnA}   DumanA} Nhy     guarantors;responsible;liable
+;; maDomuwn_1
+mDmwn   maDomuwn        N       content
+mDAmyn  maDAmiyn        Ndip    contents
+;; maDomuwn_2
+mDmwn   maDomuwn        N-ap    insured;guaranteed
+;; muDam~an_1
+mDmn    muDam~an        N-ap    included;implied     <pos>muDam~an/ADJ</pos>
+;; mutaDam~in_1
+mtDmn   mutaDam~in      Nall    guaranteeing;comprising;including     <pos>mutaDam~in/ADJ</pos>
+mtDmn   mutaDam~in      Nall    included;implied     <pos>mutaDam~in/ADJ</pos>
+;; mutaDAmin_1
+mtDAmn  mutaDAmin       Nall    in solidarity;cooperative     <pos>mutaDAmin/ADJ</pos>
+;
+;--- Dn
+;; Dan~-a_1
+Dn      Dan~    PV_V    hold back;economize
+Dnn     Danin   PV_Cn   hold back;economize
+Dn      Dan~    IV_V    hold back;economize
+Dnn     Donan   IV-n    hold back;economize
+;; Dan~_1
+Dn      Dan~    N       holding back;economizing
+;; Daniyn_1
+Dnyn    Daniyn  N/ap    stingy;economical     <pos>Daniyn/ADJ</pos>
+>Dn     >aDin~  Nap     stingy;economical
+ADn     >aDin~  Nap     stingy;economical
+;
+;--- DnH
+;; DanoHAniy~_1
+DnHAny  DanoHAniy~      N0      Danhani
+;
+;--- Dnk
+;; Danuk-u_1
+Dnk     Danuk   PV_intr be poor;be miserable
+Dnk     Donuk   IV_intr be poor;be miserable
+;; Danok_1
+Dnk     Danok   N       poverty
+;; DanAkap_1
+DnAk    DanAk   Nap     poverty
+;; maDAnik_1
+mDAnk   maDAnik Ndip    hardships
+;; muDonik_1
+mDnk    muDonik Nall    exhausted;poor     <pos>muDonik/ADJ</pos>
+;; Daniyk_1
+Dnyk    Daniyk  N-ap    poor;wretched     <pos>Daniyk/ADJ</pos>
+;
+;--- Dny
+;; Daniy-a_1
+Dny     Daniy   PV_no-w_intr    become emaciated;languish
+Dn      Dan     PV_w_intr       become emaciated;languish
+DnY     DonaY   IV_0    become emaciated;languish
+Dny     Donay   IV_Ann  become emaciated;languish
+Dn      Dona    IV_0hwnyn       become emaciated;languish
+;; >aDonaY_1
+>DnY    >aDonaY PV_0    become emaciated;languish
+ADnY    >aDonaY PV_0    become emaciated;languish
+>DnA    >aDonA  PV_h    become emaciated;languish
+ADnA    >aDonA  PV_h    become emaciated;languish
+>Dny    >aDonay PV_Atn  become emaciated;languish
+ADny    >aDonay PV_Atn  become emaciated;languish
+>Dn     >aDon   PV_ttAw_intr    become emaciated;languish
+ADn     >aDon   PV_ttAw_intr    become emaciated;languish
+Dny     Doniy   IV_0hAnn_yu     become emaciated;languish
+Dn      Don     IV_0hwnyn_yu    become emaciated;languish
+DnY     DonaY   IV_0_Pass_yu    become emaciated;languish
+Dny     Donay   IV_Ann_Pass_yu  become emaciated;languish
+;; DanaY_1
+DnY     DanaY   N0      grief;weakness
+DnA     DanA    Nhy     grief;weakness
+;; Daniy_1
+Dny     Daniy   N-ap    grief-stricken;languished     <pos>Daniy/ADJ</pos>
+Dn      Dan     NK      grief-stricken;languished
+;; Daniy~ap_1
+Dny     Daniy~  Nap     Daniya;Dania
+;; <iDonA'_1
+<DnA'   <iDonA' N0_Nh   debilitation;exhaustion
+ADnA'   <iDonA' N0_Nh   debilitation;exhaustion
+<DnA&   <iDonA& Nh      debilitation;exhaustion
+ADnA&   <iDonA& Nh      debilitation;exhaustion
+<DnA}   <iDonA} Nhy     debilitation;exhaustion
+ADnA}   <iDonA} Nhy     debilitation;exhaustion
+<DnA'   <iDonA' NAt     debilitation;exhaustion
+ADnA'   <iDonA' NAt     debilitation;exhaustion
+;; muDoniy_1
+mDny    muDoniy N0F_Nh  debilitating;exhausting     <pos>muDoniy/ADJ</pos>
+mDn     muDon   NK      debilitating;exhausting
+mDny    muDoniy NAn_Nayn        debilitating;exhausting
+mDn     muDon   Nuwn_Niyn       debilitating;exhausting
+mDny    muDoniy NapAt   debilitating;exhausting
+;; muDonaY_1
+mDnY    muDonaY N0      debilitated;exhausted     <pos>muDonaY/ADJ</pos>
+mDnA    muDonA  Nhy     debilitated;exhausted
+mDny    muDonay NAn_Nayn        debilitated;exhausted
+mDn     muDon   Nuwn_Niyn       debilitated;exhausted
+mDnA    muDonA  Napdu   debilitated;exhausted
+mDny    muDonay NAt     debilitated;exhausted
+;
+;--- Dhd
+;; Dahad-a_1
+Dhd     Dahad   PV      suppress;oppress;persecute
+Dhd     Dohad   IV      suppress;oppress;persecute
+;; {iDoTahad_1
+<DThd   {iDoTahad       PV      oppress;brutalize;persecute
+ADThd   {iDoTahad       PV      oppress;brutalize;persecute
+DThd    DoTahid IV      oppress;brutalize;persecute
+;; {iDoTihAd_1
+<DThAd  {iDoTihAd       N/At    persecution;oppression
+ADThAd  {iDoTihAd       N/At    persecution;oppression
+;; muDoTahid_1
+mDThd   muDoTahid       Nall    oppressor;tyrant     <pos>muDoTahid/ADJ</pos>
+;; muDoTahad_1
+mDThd   muDoTahad       Nall    persecuted;brutalized     <pos>muDoTahad/ADJ</pos>
+;
+;--- Dhr
+;; Dahor_1
+Dhr     Dahor   N       summit
+Dhwr    Duhuwr  N       summits
+;; DAhir_1
+DAhr    DAhir   N0      Dahir;Daher
+;
+;--- Dhl
+;; Dahol_1
+Dhl     Dahol   N       small quantity
+;
+;--- Dhy
+;; DAhaY_1
+DAhY    DAhaY   PV_0    compare with;resemble;be analogous
+DAhA    DAhA    PV_h    compare with;resemble;be analogous
+DAhy    DAhay   PV_Atn  compare with;resemble;be analogous
+DAh     DAh     PV_ttAw compare with;resemble;be analogous
+DAhy    DAhiy   IV_0hAnn_yu     compare with;resemble;be analogous
+DAh     DAh     IV_0hwnyn_yu    compare with;resemble;be analogous
+DAhY    DAhaY   IV_0_Pass_yu    be compared with
+DAhy    DAhay   IV_Ann_Pass_yu  be compared with
+;; DahaY_1
+DhY     DahaY   N0      menopause
+DhA     DahA    Nhy     menopause
+;; Dahiy~_1
+Dhy     Dahiy~  N-ap    analogous;similar;corresponding     <pos>Dahiy~/ADJ</pos>
+;; muDAhAp_1
+mDAhA   muDAhA  Napdu   analogy;comparison;similarity
+mDAhy   muDAhay NAt     analogies;comparisons;similarities
+;; muDAhiy_1
+mDAhy   muDAhiy N0F_Nh  analogous;similar;corresponding     <pos>muDAhiy/ADJ</pos>
+mDAh    muDAh   NK      analogous;similar;corresponding
+mDAhy   muDAhiy NAn_Nayn        analogous;similar;corresponding
+mDAh    muDAh   Nuwn_Niyn       analogous;similar;corresponding
+mDAhy   muDAhiy NapAt   analogous;similar;corresponding
+;
+;--- Dw'
+;; DA'-u_1
+DA'     DA'     PV_V    shine;illuminate
+DA&     DA&     PV_w    shine;illuminate
+D&      Du&     PV_C    shine;illuminate
+Dw'     Duw'    IV_V    shine;illuminate
+Dw&     Duw&    IV_wn   shine;illuminate
+Dw}     Duw}    IV_yn   shine;illuminate
+D&      Du&     IV_C    shine;illuminate
+;; Daw~a>_1
+Dw>     Daw~a>  PV      shine;illuminate
+Dw&     Daw~a&  PV_w    shine;illuminate
+Dw'     Daw~i'  IV_yu   shine;illuminate
+Dw}     Daw~i}  IV_yu   shine;illuminate
+Dw&     Daw~i&  IV_wn_yu        shine;illuminate
+;; >aDA'_1
+>DA'    >aDA'   PV_V    shine;illuminate
+ADA'    >aDA'   PV_V    shine;illuminate
+>DA&    >aDA&   PV_w    shine;illuminate
+ADA&    >aDA&   PV_w    shine;illuminate
+>D>     >aDa>   PV_C    shine;illuminate
+AD>     >aDa>   PV_C    shine;illuminate
+Dy'     Diy'    IV_V_yu shine;illuminate
+Dy}     Diy}    IV_V_yu shine;illuminate
+Dy&     Diy&    IV_wn_yu        shine;illuminate
+D}      Di}     IV_C_yu shine;illuminate
+;; taDaw~a>_1
+tDw>    taDaw~a>        PV      shine;illuminate
+tDw&    taDaw~a&        PV_w    shine;illuminate
+tDw>    taDaw~a>        IV      shine;illuminate
+tDw|    taDaw~a|        IV-|    shine;illuminate
+tDw&    taDaw~a&        IV_wn   shine;illuminate
+tDw}    taDaw~a}        IV_yn   shine;illuminate
+;; {isotaDA'_1
+<stDA'  {isotaDA'       PV_V_intr       be lit;become clear
+AstDA'  {isotaDA'       PV_V_intr       be lit;become clear
+<stDA&  {isotaDA&       PV_w_intr       be lit;become clear
+AstDA&  {isotaDA&       PV_w_intr       be lit;become clear
+<stD>   {isotaDa>       PV_C_intr       be lit;become clear
+AstD>   {isotaDa>       PV_C_intr       be lit;become clear
+stDy'   sotaDiy'        IV_V_intr       be lit;become clear
+stDy}   sotaDiy}        IV_V_intr       be lit;become clear
+stD}    sotaDi} IV_C_intr       be lit;become clear
+;; Dawo'_1
+Dw'     Dawo'   N0F     light
+Dw'     Dawo'   Nh      light
+Dw>     Dawo>   Nh      light
+Dw&     Dawo&   Nh      light
+Dw}     Dawo}   Nhy     light
+Dw}     Dawo}   Nayn    light
+Dw|     Dawo|   N-|     lights
+>DwA'   >aDowA' N0_Nh   lights
+ADwA'   >aDowA' N0_Nh   lights
+>DwA&   >aDowA& Nh      lights
+ADwA&   >aDowA& Nh      lights
+>DwA}   >aDowA} Nhy     lights
+ADwA}   >aDowA} Nhy     lights
+;; Dawo}iy~_1
+Dw}y    Dawo}iy~        N-ap    light;luminous;clear     <pos>Dawo}iy~/ADJ</pos>
+;; Duwayo'_1
+Dwy'    Duwayo' N       small light;photon
+Dwy}    Duwayo} NAn_Nayn        small lights;photons
+Dwy}    Duwayo} NAt     small lights;photons
+;; DiyA'_1
+DyA'    DiyA'   Nprop   Zia;Dhia
+;; DiyA'_2
+DyA'    DiyA'   N0_Nh   light;glow
+DyA&    DiyA&   Nh      light;glow
+DyA}    DiyA}   Nhy     light;glow
+;; DiyA}iy~_1
+DyA}y   DiyA}iy~        N-ap    luminous;clear     <pos>DiwA}iy~/ADJ</pos>
+;; DiyA}iy~ap_1
+DyA}y   DiyA}iy~        Nap     luminosity;clarity     <pos>DiwA}iy~/NOUN</pos>
+;; <iDA'ap_1
+<DA'    <iDA'   NapAt   lighting;illumination
+ADA'    <iDA'   NapAt   lighting;illumination
+;; muDiy'_1
+mDy'    muDiy'  N0      shining;bright     <pos>muDiy'/ADJ</pos>
+mDy}    muDiy}  NF_Nhy  shining;bright
+mDy}    muDiy}  NAn_Nayn        shining;bright
+mDy}    muDiy}  Napdu   shining;bright
+;; muDA'_1
+mDA'    muDA'   N0      bright;illuminated     <pos>muDA'/ADJ</pos>
+mDA'    muDA'   Napdu   bright;illuminated     <pos>muDA'/ADJ</pos>
+;
+;--- Dwb
+;
+;--- Dwj
+;; Dawoj_1
+Dwj     Dawoj   Ndu     elbow;sinuosity
+>DwAj   >aDowAj N       elbows;sinuosity
+ADwAj   >aDowAj N       elbows;sinuosity
+;
+;--- Dwr Dyr
+;; DAr-u_1
+DAr     DAr     PV_V    harm;injure
+Dr      Dur     PV_C    harm;injure
+Dwr     Duwr    IV_V    harm;injure
+Dr      Dur     IV_C    harm;injure
+;; DAr-u_2
+DAr     DAr     PV_V    starve
+Dr      Dur     PV_C    starve
+Dwr     Duwr    IV_V    starve
+Dr      Dur     IV_C    starve
+;; DAr-i_1
+DAr     DAr     PV_V    harm;injure
+Dr      Dir     PV_C    harm;injure
+Dyr     Diyr    IV_V    harm;injure
+Dr      Dir     IV_C    harm;injure
+;; taDaw~ar_1
+tDwr    taDaw~ar        PV      writhe;wince;starve
+tDwr    taDaw~ar        IV      writhe;wince;starve
+;; Dawor_1
+Dwr     Dawor   N       violent hunger
+Dwr     Dawor   N       bulimia
+;; Dayor_1
+Dyr     Dayor   N       harm;injury
+;; DA}ir_1
+DA}r    DA}ir   N-ap    harmful;injurious     <pos>DA}ir/ADJ</pos>
+;; mutaDaw~ir_1
+mtDwr   mutaDaw~ir      Nall    starving     <pos>mutaDaw~ir/ADJ</pos>
+;
+;--- DwD
+;; DawoDA'_1
+DwDA'   DawoDA' N0_Nh   tumult;noise
+DwDA&   DawoDA& Nh      tumult;noise
+DwDA}   DawoDA} Nhy     tumult;noise
+;; DawoDaY_1
+DwDY    DawoDaY N0      tumult;noise
+DwDA    DawoDA  Nhy     tumult;noise
+;
+;--- DwE
+;; DAE-u_1
+DAE     DAE     PV_V_intr       emanate;be fragrant
+DE      DuE     PV_C_intr       emanate;be fragrant
+DwE     DuwE    IV_V_intr       emanate;be fragrant
+DE      DuE     IV_C_intr       emanate;be fragrant
+;; taDaw~aE_1
+tDwE    taDaw~aE        PV_intr emanate;be fragrant
+tDwE    taDaw~aE        IV_intr emanate;be fragrant
+;; DawoE_1
+DwE     DawoE   N       fragrance
+;
+;--- Dwy
+;; DawaY-i_1
+DwY     DawaY   PV_0    resort to;seek refuge in
+DwA     DawA    PV_h    resort to;seek refuge in
+Dwy     Daway   PV_Atn  resort to;seek refuge in
+Dw      Daw     PV_ttAw resort to;seek refuge in
+Dwy     Dowiy   IV_0hAnn        resort to;seek refuge in
+Dw      Dow     IV_0hwnyn       resort to;seek refuge in
+DwY     DowaY   IV_0_Pass_yu    be resorted to;be sought (as refuge)
+;; >aDowaY_1
+>DwY    >aDowaY PV_0    weaken;injure
+ADwY    >aDowaY PV_0    weaken;injure
+>DwA    >aDowA  PV_h    weaken;injure
+ADwA    >aDowA  PV_h    weaken;injure
+>Dwy    >aDoway PV_Atn  weaken;injure
+ADwy    >aDoway PV_Atn  weaken;injure
+>Dw     >aDow   PV_ttAw weaken;injure
+ADw     >aDow   PV_ttAw weaken;injure
+Dwy     Dowiy   IV_0hAnn_yu     weaken;injure
+Dw      Dow     IV_0hwnyn_yu    weaken;injure
+DwY     DowaY   IV_0_Pass_yu    be weakened;be injured
+Dwy     Doway   IV_Ann_Pass_yu  be weakened;be injured
+;; {inoDawaY_1
+<nDwY   {inoDawaY       PV_0    rally around;follow;flock to
+AnDwY   {inoDawaY       PV_0    rally around;follow;flock to
+<nDwA   {inoDawA        PV_h    rally around;follow;flock to
+AnDwA   {inoDawA        PV_h    rally around;follow;flock to
+<nDwy   {inoDaway       PV_Atn  rally around;follow;flock to
+AnDwy   {inoDaway       PV_Atn  rally around;follow;flock to
+<nDw    {inoDaw PV_ttAw rally around;follow;flock to
+AnDw    {inoDaw PV_ttAw rally around;follow;flock to
+nDwy    noDawiy IV_0hAnn        rally around;follow;flock to
+nDw     noDaw   IV_0hwnyn       rally around;follow;flock to
+nDwY    noDawaY IV_0    be rallied around;be followed;be flocked to
+;; {inoDiwA'_1
+<nDwA'  {inoDiwA'       N0_Nh   seeking refuge;rallying around
+AnDwA'  {inoDiwA'       N0_Nh   seeking refuge;rallying around
+<nDwA&  {inoDiwA&       Nh      seeking refuge;rallying around
+AnDwA&  {inoDiwA&       Nh      seeking refuge;rallying around
+<nDwA}  {inoDiwA}       Nhy     seeking refuge;rallying around
+AnDwA}  {inoDiwA}       Nhy     seeking refuge;rallying around
+<nDwA'  {inoDiwA'       NAt     seeking refuge;rallying around
+AnDwA'  {inoDiwA'       NAt     seeking refuge;rallying around
+;; DAwiy_1
+DAwy    DAwiy   N0F     weak;thin     <pos>DAwiy/ADJ</pos>
+DAw     DAw     NK      weak;thin
+DAwy    DAwiy   NAn_Nayn        weak;thin
+DAw     DAw     Nuwn_Niyn       weak;thin
+DAwy    DAwiy   NapAt   weak;thin
+;; munoDawiy_1
+mnDwy   munoDawiy       N0F_Nh  seeking refuge;rallying around     <pos>munoDawiy/ADJ</pos>
+mnDw    munoDaw NK      seeking refuge;rallying around
+mnDwy   munoDawiy       NAn_Nayn        seeking refuge;rallying around
+mnDw    munoDaw Nuwn_Niyn       seeking refuge;rallying around
+mnDwy   munoDawiy       NapAt   seeking refuge;rallying around
+;
+;--- DyE
+;; DAE-i_1
+DAE     DAE     PV_V    disappear;vanish
+DE      DiE     PV_C    disappear;vanish
+DyE     DiyE    IV_V    disappear;vanish
+DE      DiE     IV_C    disappear;vanish
+;; Day~aE_1
+DyE     Day~aE  PV      lose;miss;let go by
+DyE     Day~iE  IV_yu   lose;miss;let go by
+;; >aDAE_1
+>DAE    >aDAE   PV_V    lose;miss;let go by
+ADAE    >aDAE   PV_V    lose;miss;let go by
+>DE     >aDaE   PV_C    lose;miss;let go by
+ADE     >aDaE   PV_C    lose;miss;let go by
+DyE     DiyE    IV_V_yu lose;miss;let go by
+DE      DiE     IV_C_yu lose;miss;let go by
+DAE     DAE     IV_V_Pass_yu    be lost;be missed
+DE      DaE     IV_C_Pass_yu    be lost;be missed
+;; DayoE_1
+DyE     DayoE   N       loss
+;; DayoEap_1
+DyE     DayoE   Nap     loss;waste
+;; DiyAE_1
+DyAE    DiyAE   N       loss;waste
+DyAE    DiyAE   NF      in vain     <pos>DiyAE/ADV</pos>
+;; DiyEAn_1
+DyEAn   DiyEAn  N       loss;waste
+;; DayoEap_2
+DyE     DayoE   Napdu   village
+DyAE    DiyAE   N       villages
+;; maDiyEap_1
+mDyE    maDiyE  Nap     loss;ruin
+;; taDoyiyE_1
+tDyyE   taDoyiyE        N/At    wasting;squandering
+;; <iDAEap_1
+<DAE    <iDAE   NapAt   waste;loss
+ADAE    <iDAE   NapAt   waste;loss
+;; DA}iE_1
+DA}E    DA}iE   N-ap    lost;stray;wasted     <pos>DA}iE/ADJ</pos>
+;; muDiyEap_1
+mDyE    muDiyE  Nap     waste;loss
+;; muDay~iE_1
+mDyE    muDay~iE        Nall    squandering;wasteful     <pos>muDay~iE/ADJ</pos>
+;
+;--- Dyf
+;; Day~af_1
+Dyf     Day~af  PV_intr be a host to;receive as guest
+Dyf     Day~if  IV_intr_yu      be a host to;receive as guest
+;; >aDAf_1
+>DAf    >aDAf   PV_V    add
+ADAf    >aDAf   PV_V    add
+>Df     >aDaf   PV_C    add
+ADf     >aDaf   PV_C    add
+Dyf     Diyf    IV_V_yu add
+Df      Dif     IV_C_yu add
+>Dyf    >uDiyf  PV_V_Pass       be added
+ADyf    >uDiyf  PV_V_Pass       be added
+DAf     DAf     IV_V_Pass_yu    be added
+Df      Daf     IV_C_Pass_yu    be added
+;; taDAyaf_1
+tDAyf   taDAyaf PV      have a rapport
+tDAyf   taDAyaf IV      have a rapport
+;; {inoDAf_1
+<nDAf   {inoDAf PV_V_intr       be added
+AnDAf   {inoDAf PV_V_intr       be added
+<nDf    {inoDaf PV_C_intr       be added
+AnDf    {inoDaf PV_C_intr       be added
+nDAf    noDAf   IV_V_intr       be added
+nDf     noDaf   IV_C_intr       be added
+;; {isotaDAf_1
+<stDAf  {isotaDAf       PV_V    host;invite
+AstDAf  {isotaDAf       PV_V    host;invite
+<stDf   {isotaDaf       PV_C    host;invite
+AstDf   {isotaDaf       PV_C    host;invite
+stDyf   sotaDiyf        IV_V    host;invite
+stDf    sotaDif IV_C    host;invite
+stDAf   sotaDAf IV_V_Pass_yu    be hosted;be invited
+stDf    sotaDaf IV_C_Pass_yu    be hosted;be invited
+;; Dayof_1
+Dyf     Dayof   Ndu     guest;visitor
+Dywf    Duyuwf  N       guests;visitors
+;; DiyAfap_1
+DyAf    DiyAf   Nap     hospitality;hosting
+;; maDoyaf_1
+mDyf    maDoyaf Ndu     guest room;hostel
+mDyf    maDoyaf Nap     guest room;hostel
+;; maDAfap_1
+mDAf    maDAf   Nap     guest room;hostel
+mDA}f   maDA}if Ndip    guest rooms;hostels
+;; <iDAfap_1
+<DAf    <iDAf   NapAt   addition;appending
+ADAf    <iDAf   NapAt   addition;appending
+<DAfp   <iDAfapF        FW-Wa   in addition     <pos><iDAfapF/ADV</pos>
+ADAfp   <iDAfapF        FW-Wa   in addition     <pos><iDAfapF/ADV</pos>
+;; <iDAfiy~_1
+<DAfy   <iDAfiy~        N-ap    additional;supplementary     <pos><iDAfiy~/ADJ</pos>
+ADAfy   <iDAfiy~        N-ap    additional;supplementary     <pos><iDAfiy~/ADJ</pos>
+;; muDiyfAF_1
+mDyf    muDiyf  NF      adding     <pos>muDiyf/ADV</pos>
+;; muDiyf_1
+mDyf    muDiyf  Nall    host;steward
+;; muDiyfap_1
+mDyf    muDiyf  NapAt   stewardess;hostess
+;; muDAf_1
+mDAf    muDAf   N-ap    added     <pos>muDAf/ADJ</pos>
+;; taDAyuf_1
+tDAyf   taDAyuf N/At    rapport;relation
+;; {isotiDAfap_1
+<stDAf  {isotiDAf       NapAt   hosting
+AstDAf  {isotiDAf       NapAt   hosting
+;
+;--- Dyq
+;; DAq_1
+DAq     DAq     PV_V_intr       be narrow;be confined;be small
+Dq      Diq     PV_C_intr       be narrow;be confined;be small
+Dyq     Diyq    IV_V_intr       be narrow;be confined;be small
+Dq      Diq     IV_C_intr       be narrow;be confined;be small
+;; Day~aq_1
+Dyq     Day~aq  PV      make narrow;tighten
+Dyq     Day~iq  IV_yu   make narrow;tighten
+;; DAyaq_1
+DAyq    DAyaq   PV      inconvenience;annoy
+DAyq    DAyiq   IV_yu   inconvenience;annoy
+;; taDAyaq_1
+tDAyq   taDAyaq PV_intr be inconvenienced;be annoyed
+tDAyq   taDAyaq IV_intr be inconvenienced;be annoyed
+;; Diyq_1
+Dyq     Diyq    N       narrowness;anxiety;shortage
+;; Day~iq_1
+Dyq     Day~iq  N-ap    narrow;restricted     <pos>Day~iq/ADJ</pos>
+;; >aDoyaq_1
+>Dyq    >aDoyaq Nel     narrower/narrowest;more/most confined
+ADyq    >aDoyaq Nel     narrower/narrowest;more/most confined
+;; maDiyq_1
+mDyq    maDiyq  Ndu     strait;straits;pass
+mDAyq   maDAyiq Ndip    straits;passes
+mDA}q   maDA}iq Ndip    straits;passes
+;; taDoyiyq_1
+tDyyq   taDoyiyq        N/At    narrowing;tightening
+;; muDAyaqap_1
+mDAyq   muDAyaq NapAt   inconvenience;harassment
+;; DA}iqap_1
+DA}q    DA}iq   Nap     crisis;predicament
+DwA}q   DawA}iq Ndip    crises;predicaments
+;; muDAyiq_1
+mDAyq   muDAyiq Nall    troublesome;annoying     <pos>muDAyiq/ADJ</pos>
+;; mutaDAyiq_1
+mtDAyq  mutaDAyiq       Nall    annoyed;inconvenienced     <pos>mutaDAyiq/ADJ</pos>
+;
+;--- Dym
+;; DAm-i_1
+DAm     DAm     PV_V    treat unjustly;injure
+Dm      Dim     PV_C    treat unjustly;injure
+Dym     Diym    IV_V    treat unjustly;injure
+Dm      Dim     IV_C    treat unjustly;injure
+;; {isotaDAm_1
+<stDAm  {isotaDAm       PV_V    treat unjustly;injure
+AstDAm  {isotaDAm       PV_V    treat unjustly;injure
+<stDm   {isotaDam       PV_C    treat unjustly;injure
+AstDm   {isotaDam       PV_C    treat unjustly;injure
+stDym   sotaDiym        IV_V    treat unjustly;injure
+stDm    sotaDim IV_C    treat unjustly;injure
+;; Dayom_1
+Dym     Dayom   N       injustice;injury
+;; Duyuwm_1
+Dywm    Duyuwm  N       injustice;injury
+;
+;--- Dywn
+;; Dayowan_1
+Dywn    Dayowan Ndu     tomcat
+DyAwn   DayAwin Ndip    tomcats
