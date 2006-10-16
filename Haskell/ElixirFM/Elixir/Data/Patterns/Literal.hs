@@ -32,7 +32,7 @@ instance Template PatternL where
 
 data PatternL =  Identity
 
-    deriving (Enum, Show, Eq, Ord)
+    deriving (Enum, Show, Eq)
 
 
 identity = Identity

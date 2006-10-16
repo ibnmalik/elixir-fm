@@ -32,11 +32,15 @@ instance Template PatternQ
 
 data PatternQ =
 
-                QWDR
+            KaRDaS
 
-                | KaRDaS
-                | TaKaRDaS
-                | TaKaRDuS
+        |   MuKaRDiS
+        |   MuKaRDaS
+
+        |   TaKaRDaS
+
+        |   TaKaRDuS
+
 
 {-
 ;--- [^thfElmAwynTH][^thfElmAwynTH][^thfElmAwynTH][^thfElmAwynTH]$
@@ -137,4 +141,4 @@ Lexicons\22-letter-Kaaf.dat(2958): ;--- k$k$
 
 -}
 
-    deriving (Enum, Show, Eq, Ord)
+    deriving (Enum, Show, Eq)

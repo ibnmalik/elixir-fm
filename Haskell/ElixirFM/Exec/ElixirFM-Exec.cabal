@@ -1,4 +1,4 @@
-name:               Elixir-FM-Exec
+name:               ElixirFM-Exec
 version:            0.1
 license:            GPL
 license-file:       ../License.txt
@@ -6,7 +6,7 @@ copyright:          2006
 author:             Otakar Smrz
 maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
-package-url:        http://ufal.mff.cuni.cz/~smrz/Elixir-FM/Elixir-FM-Exec-0.1.zip
+package-url:        http://ufal.mff.cuni.cz/~smrz/ElixirFM/ElixirFM-Exec-0.1.zip
 category:           Various
 build-depends:      Cabal, base
 synopsis:           Functional Arabic Morphology

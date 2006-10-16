@@ -1,4 +1,11 @@
-module FunnyMorph.Generic.Dictionary.Pretty.XFST where
+module FunnyMorph.Generic.Dictionary.Pretty.XFST (
+
+        -- * Functions
+
+        prXFST
+
+    ) where
+
 
 import FunnyMorph.Generic.General
 import FunnyMorph.Generic.Dictionary

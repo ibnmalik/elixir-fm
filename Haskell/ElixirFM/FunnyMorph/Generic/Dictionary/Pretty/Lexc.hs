@@ -1,28 +1,59 @@
-module FunnyMorph.Generic.Dictionary.Pretty.Lexc where
+module FunnyMorph.Generic.Dictionary.Pretty.Lexc (
+
+        -- * Functions
+
+        prettyLexc, prLEXC
+
+    ) where
+
 
 import FunnyMorph.Generic.General
+
 import FunnyMorph.Generic.Dictionary
+
 import Data.List (intersperse)
 
--- code for Xerox LexC
-
-prLEXC :: Dictionary -> String
-prLEXC = ("LEXICON Root\n" ++) . (++ "END") . unlines . map (uncurry prLEXCRules) . classifyDict
-
-prLEXCRules :: Ident -> [Entry] -> String
-prLEXCRules cat entries = unlines $
-    ("\n! category " ++ cat ++ "\n") : (map (prEntry . noAttr) entries)
-  where
-    prEntry (stem,_,inhs,tbl) =
-      concat (map (prForm stem inhs) (existingForms tbl))
-    prForm stem inhs (a,b) =
-      concat [x ++ ":" ++ stem ++ prTags (a:inhs) ++ " # ;\n" | x <- b]
-    prTags ts =
-      concat ["+" ++ w | t <- ts, w <- words (prFlat t)]
-    altsLEXC cs =
-      unwords $ intersperse " # ;" [ s  | s <- cs]
+import Text.PrettyPrint
 
 
--- print a parameter value without hierarchy (= parentheses)
-prFlat :: String -> String
+prettyLexc :: Pretty a => a -> Doc
+
+prettyLexc = pretty
+
+
+prLEXC :: Pretty a => a -> String
+
+prLEXC = show . prettyLexc
+
+
+class Pretty a where
+
+    pretty :: a -> Doc
+
+
+instance Pretty Dictionary where
+
+    pretty x = text "LEXICON Root" $$ text "" $$
+               vcat (map prLexcRules (classifyDict x)) $$
+               text "" $$ text "END"
+
+
+prLexcRules (c, es) = text ("! category " ++ c ++ "\n") $$
+                      vcat (map (prEntry . noAttr) es)
+
+
+prEntry (s, _, is, tb) = vcat (map (prForm s is) (existingForms tb))
+
+
+prForm s is (a, b) = vcat [ text (x ++ ":" ++ s) <>
+                            prTags (a : is) <> text " # ;"
+                          | x <- b ] $$ text ""
+
+
+prTags ts = hcat [ text ("+" ++ w) | t <- ts, w <- words (prFlat t) ]
+
+
+-- prAlts cs = unwords $ intersperse " # ;" cs
+
+
 prFlat = filter (flip notElem "()")

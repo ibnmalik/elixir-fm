@@ -1,5 +1,24 @@
-module FunnyMorph.Generic.Dictionary.Pretty where
+module FunnyMorph.Generic.Dictionary.Pretty (
 
+        -- * Modules
+
+        module FunnyMorph.Generic.Dictionary.Pretty.GF,
+        module FunnyMorph.Generic.Dictionary.Pretty.LaTeX,
+        module FunnyMorph.Generic.Dictionary.Pretty.Lexc,
+        module FunnyMorph.Generic.Dictionary.Pretty.SQL,
+        module FunnyMorph.Generic.Dictionary.Pretty.XFST,
+        module FunnyMorph.Generic.Dictionary.Pretty.XML,
+
+        -- * Functions
+
+        prFullFormLex,
+
+        prDictionary
+
+    ) where
+
+
+import FunnyMorph.Generic.Dictionary.Pretty.GF
 import FunnyMorph.Generic.Dictionary.Pretty.LaTeX
 import FunnyMorph.Generic.Dictionary.Pretty.Lexc
 import FunnyMorph.Generic.Dictionary.Pretty.SQL

@@ -574,10 +574,10 @@ sub initialize_patterns {
                                              $x =~ s/\_/\-/g;
 
                                              $x = quotemeta $x; $x =~ s/\\~/\{2\}/g;
-                                             $x =~ s/[FCL]/$cons/g; ($x, $y) } : () } (
+                                             $x =~ s/[FCLKRDS]/$cons/g; ($x, $y) } : () } (
 
 
-            map { $_ => 1 } grep { $_ =~ /[^XV][LNAUIY'n]$/ and $_ !~ /II$/ } qw
+            map { $_ => 1 } grep { $_ =~ /[^XV][LNAUIY'nS]$/ and $_ !~ /II$/ } qw
 
             (
 
@@ -718,6 +718,18 @@ sub initialize_patterns {
 
         |   MustaFCiL                                   |   MustaFIL            |   MustaFCiN           |   MustaFiCL
         |   MustaFCaL                                   |   MustaFAL            |   MustaFCaNY          |   MustaFaCL
+
+
+--  Quadriliteral
+
+            KaRDaS
+
+        |   MuKaRDiS
+        |   MuKaRDaS
+
+        |   TaKaRDaS
+
+        |   TaKaRDuS
 
             )
 

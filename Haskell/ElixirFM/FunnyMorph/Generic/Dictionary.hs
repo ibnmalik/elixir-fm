@@ -1,3 +1,20 @@
+-- --------------------------------------------------------------------------
+--  $Revision$ $Date$
+-- --------------------------------------------------------------------------
+
+-- |
+--
+-- Module      :  FunnyMorph.Generic.Dictionary
+-- Copyright   :  Otakar Smrz 2005-2006, Markus Forsberg 2004
+-- License     :  GPL
+--
+-- Maintainer  :  otakar.smrz mff.cuni.cz
+-- Stability   :  provisional
+-- Portability :  portable
+--
+-- "FunnyMorph", "Elixir"
+
+
 module FunnyMorph.Generic.Dictionary where
 
 import FunnyMorph.Generic.General
@@ -34,23 +51,23 @@ type EntryN =  (Dictionary_Word, Category, [Inherent], [(Ident,[Ident])])
 emptyDict :: Dictionary
 emptyDict = Dict []
 
-infTable :: Dict a => (a -> Str) -> Inflection_Table
+infTable :: (Show a, Dict a) => (a -> Str) -> Inflection_Table
 infTable f = prTableAttr f (defaultAttr f) (attrException f)
 
-entry  :: Dict a => (a -> Str) -> Entry
+entry  :: (Show a, Dict a) => (a -> Str) -> Entry
 entry f = entryI f []
 
-entryI :: Dict a => (a -> Str) -> [Inherent] -> Entry
+entryI :: (Show a, Dict a) => (a -> Str) -> [Inherent] -> Entry
 entryI f ihs = (dictword f, category f, ihs, infTable f)
 
-prTableAttr :: Param a => (a -> Str) -> Attr -> [(a,Attr)] -> [(String,(Attr,Str))]
+prTableAttr :: (Show a, Param a) => (a -> Str) -> Attr -> [(a,Attr)] -> [(String,(Attr,Str))]
 prTableAttr t da ts =
     [(prValue a,(maybe da id (lookup a ts),s)) | (a,s) <- table t]
 
-prTableW :: Param a => Table a -> [(String,(Attr,Str))]
+prTableW :: (Show a, Param a) => Table a -> [(String,(Attr,Str))]
 prTableW t = [ (a,(noComp,s)) | (a,s) <- prTable t]
 
-prTable :: Param a => Table a -> Table String
+prTable :: (Show a, Param a) => Table a -> Table String
 prTable = map (\ (a,b) -> (prValue a, b))
 
 unDict :: Dictionary -> [Entry]
@@ -149,7 +166,3 @@ sortAssocs = arrange . sortBy (\ (x,_) (y,_) -> compare x y) where
   arr y vs xs = case xs of
     (x,v):xvs -> if x==y then arr y (v:vs) xvs else (y,vs) : arr x [v] xvs
     _ -> [(y,vs)]
-
-
-
-

@@ -1,21 +1,18 @@
-{-
-    Functional Morphology: Latin type system
-    Copyright (C) 2004  Author: Markus Forsberg
+-- --------------------------------------------------------------------------
+--  $Revision$ $Date$
+-- --------------------------------------------------------------------------
 
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
--}
+-- |
+--
+-- Module      :  FunnyMorph.Arabic.Types
+-- Copyright   :  Otakar Smrz 2005-2006
+-- License     :  GPL
+--
+-- Maintainer  :  otakar.smrz mff.cuni.cz
+-- Stability   :  provisional
+-- Portability :  portable
+--
+-- "FunnyMorph", "Elixir"
 
 
 module FunnyMorph.Arabic.Types where
@@ -23,16 +20,158 @@ module FunnyMorph.Arabic.Types where
 import FunnyMorph.Generic.General
 import FunnyMorph.Generic.Invariant
 
+import Elixir.Template
 
-------------------------------------------------------------
--- Arabic Nouns
+
+class Inflect a where
+
+    inflect :: Template b => a -> b -> Root -> [String]
+
+
+type Root = String
+
+type Verb = ParaVerb -> Str
+type Noun = ParaNoun -> Str
+
+
+data ParaVerb   = VerbP      Voice Person Gender Number
+                | VerbI Mood Voice Person Gender Number
+                | VerbC                   Gender Number
+    deriving Eq
+
+
+instance Param ParaVerb where
+
+    values  =  [ VerbP   v p g n | v <- values,
+                                   n <- values, g <- values, p <- values ]
+            ++ [ VerbI m v p g n | m <- values, v <- values,
+                                   n <- values, g <- values, p <- values ]
+            ++ [ VerbC       g n | n <- values, g <- values ]
+
+
+instance Show ParaVerb where
+
+    show (VerbP   v p g n) = "VP-" ++ [show' v] ++ "-" ++
+                                [show' p, show' g, show' n] ++ "--\n"
+
+    show (VerbI m v p g n) = "VI" ++ [show' m, show' v] ++ "-" ++
+                                [show' p, show' g, show' n] ++ "--\n"
+
+    show (VerbC       g n) = "VC----" ++ [show' g, show' n] ++ "--\n"
+
+
+show' :: Show a => a -> Char
+
+show' = head . show
+
+
+instance Inflect ParaVerb
+
+
+type Tense = Aspect
+
+data Aspect = Perfect
+            | Imperfect
+            | Imperative
+    deriving (Eq, Enum)
+
+instance Show Aspect where
+
+    show Perfect    = "P"
+    show Imperfect  = "I"
+    show Imperative = "C"
+
+
+instance Param Aspect   where values = enum
+
+
+data Mood   = Indicative
+            | Subjunctive
+            | Jussive
+            | Energetic
+    deriving (Eq, Show, Enum)
+
+instance Param Mood     where values = enum
+
+
+data Voice  = Active
+            | Passive
+    deriving (Eq, Show, Enum)
+
+instance Param Voice    where values = enum
+
+
+data Person = First
+            | Second
+            | Third
+    deriving (Eq, Enum)
+
+instance Param Person   where values = enum
+
+
+instance Show Person where
+
+    show First  = "1"
+    show Second = "2"
+    show Third  = "3"
+
+
+data Gender = Masculine
+            | Feminine
+    deriving (Eq, Show, Enum)
+
+instance Param Gender   where values = enum
+
+
+data Number = Singular
+            | Dual
+            | Plural
+    deriving (Eq, Show, Enum)
+
+instance Param Number   where values = enum
+
+
+
+data ParaNoun   = NounS              Number Case Defin
+                | NounP Voice Gender Number Case Defin
+                | NounA       Gender Number Case Defin
+    deriving Eq
+
+
+instance Param ParaNoun where
+
+    values  =  [ NounS     n c d | n <- values,
+                                   d <- values, c <- values ]
+            ++ [ NounP v g n c d | v <- values, n <- values, g <- values,
+                                   d <- values, c <- values ]
+            ++ [ NounA   g n c d | n <- values, g <- values,
+                                   d <- values, c <- values ]
+
+
+instance Show ParaNoun where
+
+    show (NounS     n c d) = "NS-----" ++ [show' n, show' c, show' d] ++ "\n"
+
+    show (NounP v g n c d) = "NP-" ++ [show' v] ++ "--" ++
+                                 [show' g, show' n, show' c, show' d] ++ "\n"
+
+    show (NounA   g n c d) = "NA----" ++
+                                 [show' g, show' n, show' c, show' d] ++ "\n"
+
+
+instance Inflect ParaNoun
+
+
+instance Enum ParaNoun where
+    fromEnum x = head [ n | (y, n) <- zip values [0 ..], x == y ]
+    toEnum = (!!) values
 
 
 data Defin  = Indef
             | Defin
             | Redcd
             | Cmplx
-    deriving (Show, Eq, Enum, Ord, Bounded)
+    deriving (Eq, Show, Enum)
 
 instance Param Defin    where values = enum
 
@@ -40,34 +179,19 @@ instance Param Defin    where values = enum
 data Case   = Nom
             | Gen
             | Acc
-    deriving (Eq, Enum, Ord, Bounded)
+    deriving (Eq, Enum)
 
 instance Param Case     where values = enum
 
 instance Show Case where
-    showsPrec p Nom     = showsPrec p "Nominative"
-    showsPrec p Gen     = showsPrec p "Genitive"
-    showsPrec p Acc     = showsPrec p "Accusative"
-
-
-data Number = Singular
-            | Dual
-            | Plural
-    deriving (Show, Eq, Enum, Ord, Bounded)
-
-instance Param Number   where values = enum
-
-
-data Gender = Masculine
-            | Feminine
-    deriving (Show, Eq, Enum, Ord, Bounded)
-
-instance Param Gender   where values = enum
+    show Nom    = "1"
+    show Gen    = "2"
+    show Acc    = "4"
 
 
 data LogDefin   = LogIndefinite
                 | LogDefinite
-    deriving (Show, Eq, Enum, Ord, Bounded)
+    deriving (Eq, Show, Enum)
 
 instance Param LogDefin     where values = enum
 
@@ -75,82 +199,81 @@ instance Param LogDefin     where values = enum
 data LogNumber  = LogSingular
                 | LogDual
                 | LogPlural
-    deriving (Show, Eq, Enum, Ord, Bounded)
+    deriving (Eq, Show, Enum)
 
 instance Param LogNumber    where values = enum
 
 data LogGender  = LogMasculine
                 | LogFeminine
-    deriving (Show, Eq, Enum, Ord, Bounded)
+    deriving (Eq, Show, Enum)
 
 instance Param LogGender    where values = enum
 
 
-data NounForm = NounForm Gender Number Case Defin
-    deriving (Show, Eq, Ord)
-
-instance Param NounForm where
-    values = [ NounForm g n c d | g <- values, n <- values,
-                                  c <- values, d <- values ]
-    prValue (NounForm g n c d) = unwords $ [ prValue g, prValue n,
-                                             prValue c, prValue d ]
-
-type Noun = NounForm -> Str
 
 
-------------------------------------------------------------
--- Arabic Adjectives
+data ParaPron   = PronN Person Gender Number Case
+                | PronD        Gender Number Case
+                | PronR        Gender Number Case
+    deriving Eq
 
 
-data Grade = Positive    |
-         Comparative |
-         Superlative
-    deriving (Show, Eq, Enum, Ord, Bounded)
+instance Param ParaPron where
 
-instance Param Grade    where values = enum
-
-
-data AdjectiveForm = AdjectiveForm Grade Gender Number Case
-    deriving (Show, Eq)
-
-instance Param AdjectiveForm where
-    values = [AdjectiveForm gr g n c |
-          gr <- values,
-          g  <- values,
-          n <- values,
-          c <- values]
-    prValue (AdjectiveForm gr g n c) =
-        unwords $ [prValue gr, prValue g, prValue n, prValue c]
+    values  =  [ PronN p g n c | n <- values, p <- values,
+                                              g <- values, c <- values ]
+            ++ [ PronD   g n c | n <- values, g <- values, c <- values ]
+            ++ [ PronR   g n c | n <- values, g <- values, c <- values ]
 
 
-type Adjective = AdjectiveForm -> Str
+instance Show ParaPron where
+
+    show (PronN p g n c) = "SN---" ++ [show' p, show' g, show' n, show' c]
+                                                                   ++ "-\n"
+
+    show (PronD   g n c) = "SD----" ++ [show' g, show' n, show' c] ++ "-\n"
+
+    show (PronR   g n c) = "SR----" ++ [show' g, show' n, show' c] ++ "-\n"
+
+
+instance Inflect ParaPron
 
 
 ------------------------------------------------------------
 -- Arabic Adverbs
 
+data Grade  = Normal
+            | Elative
+    deriving (Eq, Enum, Show)
+
+instance Param Grade    where values = enum
+
 
 data AdverbForm = AdverbForm Grade
-    deriving (Show, Eq)
+    deriving Eq
 
 instance Param AdverbForm where
     values  = [ AdverbForm g | g <- values ]
-    prValue (AdverbForm g) = prValue g
 
+instance Show AdverbForm where
+    show (AdverbForm g) = show g
+
+instance Enum AdverbForm
 
 type Adverb = AdverbForm -> Str
 
 
-------------------------------------------------------------
--- Arabic Nouns
-
 
 data ParticleForm = ParticleForm Invariant
-    deriving (Show, Eq)
+    deriving Eq
 
 instance Param ParticleForm where
     values     = [ ParticleForm p | p <- values ]
-    prValue _  = "Invariant"
+
+instance Show ParticleForm where
+    show _ = "Invariant"
+
+instance Enum ParticleForm
 
 
 type Particle   = ParticleForm -> Str
@@ -161,73 +284,16 @@ type Particle   = ParticleForm -> Str
 
 
 data PrepForm = PrepForm Invariant
-    deriving (Show, Eq)
+    deriving Eq
 
 instance Param PrepForm where
     values     = [ PrepForm p | p <- values ]
-    prValue _  = "Invariant"
+
+instance Show PrepForm where
+    show _  = "Invariant"
+
+
+instance Enum PrepForm
 
 
 type Preposition = PrepForm -> Str
-
-
-------------------------------------------------------------
--- Arabic Verbs
-
-
-data Aspect = Perfect
-            | Imperfect
-    deriving (Show, Eq, Enum, Ord, Bounded)
-
-instance Param Aspect   where values = enum
-
-
-data Mood   = Indicative
-            | Subjunctive
-            | Jussive
-            | Imperative
-            | Energetic
-    deriving (Show, Eq, Enum, Ord, Bounded)
-
-instance Param Mood     where values = enum
-
-
-data Voice  = Active
-            | Passive
-    deriving (Show, Eq, Enum, Ord, Bounded)
-
-instance Param Voice    where values = enum
-
-
-data Person = First
-            | Second
-            | Third
-    deriving (Show, Eq, Enum, Ord, Bounded)
-
-instance Param Person   where values = enum
-
-
-data VerbForm   = VerbP Voice Person Gender Number
-                | VerbI Voice Person Gender Number
-                | VerbS Voice Person Gender Number
-                | VerbJ Voice Person Gender Number
-                | VerbC              Gender Number
-                | VerbE Voice Person Gender Number
-    deriving (Show, Eq, Ord)
-
-instance Param VerbForm where
-    values  =  [ VerbP v p g n | v <- values, p <- values, g <- values, n <- values ]
-            ++ [ VerbI v p g n | v <- values, p <- values, g <- values, n <- values ]
-            ++ [ VerbS v p g n | v <- values, p <- values, g <- values, n <- values ]
-            ++ [ VerbJ v p g n | v <- values, p <- values, g <- values, n <- values ]
-            ++ [ VerbC     g n |                           g <- values, n <- values ]
-            ++ [ VerbE v p g n | v <- values, p <- values, g <- values, n <- values ]
-
-
-type Verb = VerbForm -> Str
-
-type Tense = Aspect
-
-type TenseI = Aspect
-
-type TenseS = Aspect

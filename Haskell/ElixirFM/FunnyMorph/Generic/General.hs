@@ -1,3 +1,20 @@
+-- --------------------------------------------------------------------------
+--  $Revision$ $Date$
+-- --------------------------------------------------------------------------
+
+-- |
+--
+-- Module      :  FunnyMorph.Generic.General
+-- Copyright   :  Otakar Smrz 2005-2006, Markus Forsberg 2004
+-- License     :  GPL
+--
+-- Maintainer  :  otakar.smrz mff.cuni.cz
+-- Stability   :  provisional
+-- Portability :  portable
+--
+-- "FunnyMorph", "Elixir"
+
+
 module FunnyMorph.Generic.General where
 
 import Data.List (isPrefixOf)
@@ -12,14 +29,16 @@ type Finite a = a -> Str   -- finite inflection function
 
 -- parameter types: hereditarily finite
 
-class (Eq a, Show a) => Param a where
+class Eq a => Param a where
   values  :: [a]
   value   :: Int -> a
   value0  :: a
-  prValue :: a -> String
   value n = values !! n
   value0  = value 0
-  prValue = show
+
+
+prValue :: (Show a, Param a) => a -> String
+prValue = show
 
 -- composite forms
 
@@ -132,8 +151,10 @@ table :: (Param a) => (a -> Str) -> [(a,Str)]
 table f = [(v, f v) | v <- values]
 
 -- to define instance Param for enumerated types
-enum :: (Enum a, Bounded a) => [a]
-enum = [minBound .. maxBound]
+--enum :: (Enum a, Bounded a) => [a]
+--enum = [minBound .. maxBound]
+enum :: Enum a => [a]
+enum = [toEnum 0 ..]
 
 -- corresponds to fromEnum
 indexVal :: (Eq a, Param a) => a -> Int

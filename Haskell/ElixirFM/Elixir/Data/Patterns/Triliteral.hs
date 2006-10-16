@@ -246,7 +246,7 @@ data PatternT =
         |   MustaFCiL                                   |   MustaFIL            |   MustaFCiN           |   MustaFiCL
         |   MustaFCaL                                   |   MustaFAL            |   MustaFCaNY          |   MustaFaCL
 
-    deriving (Enum, Show, Eq, Ord)
+    deriving (Enum, Show, Eq)
 
 
 maFCUL      =   MaFCUL
