@@ -184,6 +184,7 @@ data Case   = Nom
 instance Param Case     where values = enum
 
 instance Show Case where
+
     show Nom    = "1"
     show Gen    = "2"
     show Acc    = "4"
@@ -202,6 +203,7 @@ data LogNumber  = LogSingular
     deriving (Eq, Show, Enum)
 
 instance Param LogNumber    where values = enum
+
 
 data LogGender  = LogMasculine
                 | LogFeminine

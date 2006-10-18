@@ -39,7 +39,24 @@ data PatternQ =
 
         |   TaKaRDaS
 
+        |   MutaKaRDiS
+        |   MutaKaRDaS
+
         |   TaKaRDuS
+
+        |   KaRDAS
+        |   KaRDIS
+        |   KaRDUS
+
+        |   KiRDAS
+        |   KiRDIS
+        |   KiRDUS
+
+        |   KuRDAS
+        |   KuRDIS
+        |   KuRDUS
+
+        |   KaRADIS
 
 
 {-

@@ -151,8 +151,6 @@ table :: (Param a) => (a -> Str) -> [(a,Str)]
 table f = [(v, f v) | v <- values]
 
 -- to define instance Param for enumerated types
---enum :: (Enum a, Bounded a) => [a]
---enum = [minBound .. maxBound]
 enum :: Enum a => [a]
 enum = [toEnum 0 ..]
 

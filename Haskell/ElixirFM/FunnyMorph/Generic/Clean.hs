@@ -9,18 +9,18 @@ nWords [] = []
 nWords (c:cs)
  | not (isSpace c) = case span (not . isSpace) cs of
                (xs,ys) -> ((case c of
-                 'Á' -> 'á'
-                 'É' -> 'é'
-                 'Í' -> 'í'
-                 'Ó' -> 'ó'
-                 'U' -> 'ú'--obs!
-                 'Ü' -> 'ü'
-                 'İ' -> 'ı'
-                 'Ñ' -> 'ñ'
+                 '\193' -> '\225'
+                 '\201' -> '\233'
+                 '\205' -> '\237'
+                 '\211' -> '\243'
+                 'U'    -> '\250' --obs!
+                 '\220' -> '\252'
+                 '\221' -> '\253'
+                 '\209' -> '\241'
                  c   -> toLower c):xs):nWords ys
  | isSpace c    = nWords cs
  where
-  alphanumeric c = isAlpha c || elem c "ÁáÉéÍíÓóúÜüİıÑñ"
+  alphanumeric c = isAlpha c || elem c "ÃÃ¡Ã‰Ã©ÃÃ­Ã“Ã³ÃºÃœÃ¼ÃÃ½ÅƒÅ„"
 
 main
     = do xs <- getArgs

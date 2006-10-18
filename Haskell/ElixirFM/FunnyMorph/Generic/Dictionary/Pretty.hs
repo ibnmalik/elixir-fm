@@ -50,10 +50,10 @@ consTable s = [("INVAR", s)]
 consTableW :: Str -> [(String,(Attr,Str))]
 consTableW s = [("INVAR", (noComp,s))]
 
-putFun0 :: Param a => (a -> Str) -> IO ()
+putFun0 :: (Show a, Param a) => (a -> Str) -> IO ()
 putFun0 = putStr . unlines . map show . prTable . table
 
-putFun :: Param a => (a -> Str) -> IO ()
+putFun :: (Show a, Param a) => (a -> Str) -> IO ()
 putFun = putStr . unlines . map pr . prTable . table where
   pr (a,ss) = a ++ " : " ++ prAlts ss
 

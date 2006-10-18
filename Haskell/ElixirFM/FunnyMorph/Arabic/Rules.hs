@@ -33,6 +33,10 @@ import FunnyMorph.Generic.General
 
 import Data.List (isPrefixOf, isSuffixOf)
 
+import Encode
+import Encode.Arabic
+
+
 {- Interface functions. -}
 
 type DictForm = String
@@ -81,7 +85,7 @@ guessParadigm word cats = case reverse word of
         _                     ->  [""]
 
 
-paraI3N kitAb (ParaNoun _ n c d) = map ($ kitAb) [
+paraI3N kitAb (NounS n c d) = map ($ kitAb) [
 
         case (c, d) of
 
@@ -96,7 +100,7 @@ paraI3N kitAb (ParaNoun _ n c d) = map ($ kitAb) [
     ]
 
 
-paraI2a kitAb (ParaNoun _ n c d) = map ($ kitAb) [
+paraI2a kitAb (NounS n c d) = map ($ kitAb) [
 
         case (c, d) of
 
@@ -111,7 +115,7 @@ paraI2a kitAb (ParaNoun _ n c d) = map ($ kitAb) [
     ]
 
 
-paraAaA kitAb (ParaNoun _ n c d) = map ($ kitAb) [
+paraAaA kitAb (NounS n c d) = map ($ kitAb) [
 
         case (c, d) of
 
@@ -123,7 +127,7 @@ paraAaA kitAb (ParaNoun _ n c d) = map ($ kitAb) [
     ]
 
 
-paraY3N kitAb (ParaNoun _ n c d) = map ($ kitAb) [
+paraY3N kitAb (NounS n c d) = map ($ kitAb) [
 
         case (c, d) of
 
@@ -135,7 +139,7 @@ paraY3N kitAb (ParaNoun _ n c d) = map ($ kitAb) [
     ]
 
 
-paraY2Y kitAb (ParaNoun _ n c d) = map ($ kitAb) [
+paraY2Y kitAb (NounS n c d) = map ($ kitAb) [
 
         case (c, d) of
 
@@ -147,7 +151,7 @@ paraY2Y kitAb (ParaNoun _ n c d) = map ($ kitAb) [
     ]
 
 
-paraU3N kitAb (ParaNoun _ n c d) = map ($ kitAb) [
+paraU3N kitAb (NounS n c d) = map ($ kitAb) [
 
         case (c, d) of
 
@@ -165,7 +169,7 @@ paraU3N kitAb (ParaNoun _ n c d) = map ($ kitAb) [
     ]
 
 
-paraU2a kitAb (ParaNoun _ n c d) = map ($ kitAb) [
+paraU2a kitAb (NounS n c d) = map ($ kitAb) [
 
         case (c, d) of
 
@@ -182,7 +186,7 @@ paraU2a kitAb (ParaNoun _ n c d) = map ($ kitAb) [
     ]
 
 
-paraUun kitAb (ParaNoun _ n c d) = map ($ kitAb) [
+paraUun kitAb (NounS n c d) = map ($ kitAb) [
 
         case (c, d) of
 
@@ -200,7 +204,7 @@ paraUun kitAb (ParaNoun _ n c d) = map ($ kitAb) [
     ]
 
 
-paraAan kitAb (ParaNoun _ n c d) = map ($ kitAb) [
+paraAan kitAb (NounS n c d) = map ($ kitAb) [
 
         case (c, d) of
 
@@ -218,7 +222,7 @@ paraAan kitAb (ParaNoun _ n c d) = map ($ kitAb) [
     ]
 
 
-paraAat kitAb (ParaNoun _ n c d) = map ($ kitAb) [
+paraAat kitAb (NounS n c d) = map ($ kitAb) [
 
         case (c, d) of
 
@@ -240,3 +244,145 @@ data Conjugation = I | II | III | IV | V | VI | VII | VIII | IX | X | XI |
     XII | XIII | XIV | XV | XVI | XVII | XVIII | XIX
 
 data ConjugationFour = Fi | Fii | Fiii | Fiv
+
+
+paraVerb daras (VerbP v p g n) = map ($ daras_duris) [
+
+        case n of
+
+            Singular    ->  case (p, g) of
+
+                (Third,  Masculine) ->  suffix "-a"
+                (Third,  Feminine)  ->  suffix "at-i"
+                (Second, Masculine) ->  suffix "t-a"
+                (Second, Feminine)  ->  suffix "t-i"
+                (First,      _    ) ->  suffix "t-u"
+
+            Dual        -> case (p, g) of
+
+                (Third,  Masculine) ->  suffix "A"
+                (Third,  Feminine)  ->  suffix "atA"
+                (Second,     _    ) ->  suffix "tumA"
+                (First,      _    ) ->  suffix "nA"
+
+            Plural      -> case (p, g) of
+
+                (Third,  Masculine) ->  suffix "uW"
+                (Third,  Feminine)  ->  suffix "n-a"
+                (Second, Masculine) ->  suffix "tum-u"
+                (Second, Feminine)  ->  suffix "tunn-a"
+                (First,      _    ) ->  suffix "nA"
+
+    ]
+
+    where daras_duris = case v of Active    ->  "daras"
+                                  Passive   ->  "duris"
+
+
+
+{-
+paraVerb daras (VerbP v p g n) = map ($ daras) [
+
+
+
+    ]
+
+paraVerb daras (VerbP v p g n) = map ($ daras) [
+
+
+
+    ]
+-}
+
+
+paraVerb daras (VerbI m v p g n) = map ($ daras_duris) [
+
+    case m of
+
+      Indicative ->
+
+        case n of
+
+            Singular    ->  case (p, g) of
+
+                (Third,  Masculine) ->  prefix "y" . suffix "-u"
+                (Third,  Feminine)  ->  prefix "t" . suffix "-u"
+                (Second, Masculine) ->  prefix "t" . suffix "-u"
+                (Second, Feminine)  ->  prefix "t" . suffix "In-a"
+                (First,      _    ) ->  prefix "'" . suffix "-u"
+
+            Dual        -> case (p, g) of
+
+                (Third,  Masculine) ->  prefix "y" . suffix "An-i"
+                (Third,  Feminine)  ->  prefix "t" . suffix "An-i"
+                (Second,     _    ) ->  prefix "t" . suffix "An-i"
+                (First,      _    ) ->  prefix "n" . suffix "-u"
+
+            Plural      -> case (p, g) of
+
+                (Third,  Masculine) ->  prefix "y" . suffix "Un-a"
+                (Third,  Feminine)  ->  prefix "y" . suffix "n-a"
+                (Second, Masculine) ->  prefix "t" . suffix "Un-a"
+                (Second, Feminine)  ->  prefix "t" . suffix "n-a"
+                (First,      _    ) ->  prefix "n" . suffix "-u"
+
+
+      Subjunctive ->
+
+        case n of
+
+            Singular    ->  case (p, g) of
+
+                (Third,  Masculine) ->  prefix "y" . suffix "-a"
+                (Third,  Feminine)  ->  prefix "t" . suffix "-a"
+                (Second, Masculine) ->  prefix "t" . suffix "-a"
+                (Second, Feminine)  ->  prefix "t" . suffix "I"
+                (First,      _    ) ->  prefix "'" . suffix "-a"
+
+            Dual        -> case (p, g) of
+
+                (Third,  Masculine) ->  prefix "y" . suffix "A"
+                (Third,  Feminine)  ->  prefix "t" . suffix "A"
+                (Second,     _    ) ->  prefix "t" . suffix "A"
+                (First,      _    ) ->  prefix "n" . suffix "-a"
+
+            Plural      -> case (p, g) of
+
+                (Third,  Masculine) ->  prefix "y" . suffix "UW"
+                (Third,  Feminine)  ->  prefix "y" . suffix "n-a"
+                (Second, Masculine) ->  prefix "t" . suffix "UW"
+                (Second, Feminine)  ->  prefix "t" . suffix "n-a"
+                (First,      _    ) ->  prefix "n" . suffix "-a"
+
+
+      Jussive     ->
+
+        case n of
+
+            Singular    ->  case (p, g) of
+
+                (Third,  Masculine) ->  prefix "y" . suffix ""
+                (Third,  Feminine)  ->  prefix "t" . suffix ""
+                (Second, Masculine) ->  prefix "t" . suffix ""
+                (Second, Feminine)  ->  prefix "t" . suffix "I"
+                (First,      _    ) ->  prefix "'" . suffix ""
+
+            Dual        -> case (p, g) of
+
+                (Third,  Masculine) ->  prefix "y" . suffix "A"
+                (Third,  Feminine)  ->  prefix "t" . suffix "A"
+                (Second,     _    ) ->  prefix "t" . suffix "A"
+                (First,      _    ) ->  prefix "n" . suffix ""
+
+            Plural      -> case (p, g) of
+
+                (Third,  Masculine) ->  prefix "y" . suffix "UW"
+                (Third,  Feminine)  ->  prefix "y" . suffix "n-a"
+                (Second, Masculine) ->  prefix "t" . suffix "UW"
+                (Second, Feminine)  ->  prefix "t" . suffix "n-a"
+                (First,      _    ) ->  prefix "n" . suffix ""
+
+    ]
+
+    where daras_duris = case v of Active    ->  "adrus"
+                                  Passive   ->  "udras"

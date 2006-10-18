@@ -110,11 +110,13 @@ neuter n = noun n Neuter
 
 -- Dictionary instances
 
-instance Dict NounForm      where category _ = "Noun"
-instance Dict VerbForm      where category _ = "Verb"
+instance Dict ParaNoun      where category _ = "Noun"
+instance Dict ParaVerb      where category _ = "Verb"
                                   dictword f = head $ f (VerbP Active Third Masculine Singular)
-instance Dict AdverbForm    where category _ = "Adverb"
-instance Dict AdjectiveForm where category _ = "Adjective"
-instance Dict PrepForm      where category _ = "Preposition"
-instance Dict ParticleForm  where category _ = "Particle"
+{-
+instance Dict ParaAdverb    where category _ = "Adverb"
+instance Dict ParaAdjective where category _ = "Adjective"
+instance Dict ParaPrep      where category _ = "Preposition"
+instance Dict ParaParticle  where category _ = "Particle"
                                   defaultAttr _ = atS
+-}

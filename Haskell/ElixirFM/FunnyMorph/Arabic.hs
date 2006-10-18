@@ -49,5 +49,5 @@ data Arabic = Arabic
 
 instance Language Arabic where
     internDict   _ = arabicDict
-    composition  _ = arabicDecompose
-    paradigms    _ = foldr insertCommand emptyC commands
+    composition  _ = undefined -- arabicDecompose
+    paradigms    _ = undefined -- foldr insertCommand emptyC commands

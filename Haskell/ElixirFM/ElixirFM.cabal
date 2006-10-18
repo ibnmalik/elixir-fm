@@ -8,7 +8,7 @@ maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
 package-url:        http://ufal.mff.cuni.cz/~smrz/ElixirFM/ElixirFM-0.1.zip
 category:           Various
-build-depends:      Cabal, base
+build-depends:      Encode, Cabal, base
 synopsis:           Functional Arabic Morphology
 description:        The "Elixir" and "FunnyMorph" libraries are an
                     implementation of Functional Arabic Morphology and an
@@ -27,7 +27,7 @@ exposed-modules:    Elixir.Lexicon,
                             Elixir.Lexicon.Pretty.Perl,
                     -- Elixir.Data,
                         Elixir.Data.Lexicons,
-                            Elixir.Data.Lexicons.Lexicon00,
+                            -- Elixir.Data.Lexicons.Lexicon00,
                             -- Elixir.Data.Lexicons.Lexicon01,
                             -- Elixir.Data.Lexicons.Lexicon02,
                             -- Elixir.Data.Lexicons.Lexicon03,
@@ -80,7 +80,7 @@ exposed-modules:    Elixir.Lexicon,
                             FunnyMorph.Generic.GenFM,
                             FunnyMorph.Generic.Invariant,
                             FunnyMorph.Generic.Map,
-                            FunnyMorph.Generic.Print,
+                            -- FunnyMorph.Generic.Print,
                             FunnyMorph.Generic.RedBlack,
                             FunnyMorph.Generic.Trie,
                         FunnyMorph.Arabic,

@@ -308,11 +308,6 @@ $tagger = new Lingua::EN::Tagger;
 
 %lexiconEnglish = ();
 
-%glossStore = ();
-
-@lineStore = ('');
-
-
 initialize_patterns();
 
 
@@ -411,7 +406,7 @@ until (eof()) {
 
                 %root = ();
 
-                foreach $pattern (keys %patterns) {
+                foreach $pattern (@patterns) {
 
                     if ($entry =~ /^$pattern$/) {
 
@@ -424,7 +419,7 @@ until (eof()) {
 
                         if (@root == 4 and ($root[1] eq $root[2] or $root[2] eq $root[3])) {
 
-                            @root = @root[0, 1, 3];
+                            next;
                         }
 
                         push @{$root{join '', @root}}, $patterns{$pattern};
@@ -559,25 +554,7 @@ sub initialize_patterns {
 
     my $cons = "(\\'|b|t|\\_t|\\^g|\\.h|\\_h|d|\\_d|r|z|s|\\^s|\\.s|\\.d|\\.t|\\.z|\\`|\\.g|f|q|k|l|m|n|h|w|y)";
 
-    %patterns = map { $idx++ % 2 == 0 ? do { $x = $y = $_; ## $x =~ s/o//g;
-
-                                             $x =~ s/^H/\'/;
-                                             $x =~ s/^I/i/;
-                                             $x =~ s/^M/m/;
-                                             $x =~ s/^T/t/;
-
-                                             $x =~ s/U/uw/g;
-                                             $x =~ s/I/iy/g;
-
-                                             $x =~ s/aNY$/Y/;
-
-                                             $x =~ s/\_/\-/g;
-
-                                             $x = quotemeta $x; $x =~ s/\\~/\{2\}/g;
-                                             $x =~ s/[FCLKRDS]/$cons/g; ($x, $y) } : () } (
-
-
-            map { $_ => 1 } grep { $_ =~ /[^XV][LNAUIY'nS]$/ and $_ !~ /II$/ } qw
+    my @pAttErns = grep { $_ =~ /[^XV][LNAUIY'nS]$/ and $_ !~ /II$/ } qw
 
             (
 
@@ -593,10 +570,6 @@ sub initialize_patterns {
         |   FCiL                |   CiL                 |   FIL                 |   FCI                 |   FiCL
         |   FCuL                |   CuL                 |   FUL                 |   FCU                 |   FuCL
                                 |   CI                  |   FY
-
-     -- |   FaCL
-     -- |   FiCL
-     -- |   FuCL
 
         |   FaCAL                                                               |   FaCA'
         |   FiCAL                                                               |   FiCA'
@@ -729,10 +702,61 @@ sub initialize_patterns {
 
         |   TaKaRDaS
 
+        |   MutaKaRDiS
+        |   MutaKaRDaS
+
         |   TaKaRDuS
 
-            )
+        |   KaRDAS
+        |   KaRDIS
+        |   KaRDUS
 
-        );
+        |   KiRDAS
+        |   KiRDIS
+        |   KiRDUS
 
+        |   KuRDAS
+        |   KuRDIS
+        |   KuRDUS
+
+        |   KaRADIS
+
+            );
+
+    @patterns = ();
+
+    %patterns = map { do {  $x = $y = $_;
+
+                            $x =~ s/^H/\'/;
+                            $x =~ s/^I/i/;
+                            $x =~ s/^M/m/;
+                            $x =~ s/^T/t/;
+
+                            $x =~ s/U/uw/g;
+                            $x =~ s/I/iy/g;
+
+                            $x =~ s/aNY$/Y/;
+
+                            $x =~ s/\_/\-/g;
+
+                            $x = quotemeta $x;
+                            $x =~ s/\\~/\{2\}/g;
+
+                            $r = 0;
+
+                            foreach $c (qw [ F C L K R D S ]) {
+
+                                if ($x =~ s/$c/$cons/) {
+
+                                    $r++;
+
+                                    $x =~ s/$c/\\$r/g;
+                                }
+                            }
+
+                            push @patterns, $x;
+
+                            ($x, $y)
+
+                    } }     @pAttErns;
 }
