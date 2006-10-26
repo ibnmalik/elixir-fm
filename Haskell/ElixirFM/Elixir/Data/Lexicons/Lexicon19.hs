@@ -1076,7 +1076,7 @@ lexicon = listing "Lexicon properties"
     -- ;; gudorAniy~_1
     -- gdrAny  gudorAniy~      N-ap    paludal;marsh     [[gudorAniy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- gudorAniy~ -}     `gloss`  [ "paludal", "marsh" ] ]
+    noun     KuRDAS |< Iy              {- gudorAniy~ -}     `gloss`  [ "paludal", "marsh" ] ]
 
  -- ;; gadiyrap_1
 
@@ -1255,7 +1255,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; gad~aY_1
 
- |> ".gdd" <| [
+ |> ".gd" <| [
 
     -- ;; gad~aY_1
     -- gdY     gad~aY  PV_0    give breakfast
@@ -1282,19 +1282,7 @@ lexicon = listing "Lexicon properties"
     -- tgd     tagad~  IV_0hwnyn       have breakfast
 
     verb     TaFaCCY                   {- tagad~aY -}       `others` [ "ta.gaddA PV_h IV_h", "ta.gadd IV_0hwnyn PV_ttAw", "ta.gadday PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "have breakfast" ] ]
-
- -- ;; gadA'_1
-
- |> ".gd" <| [
-
-    -- ;; gadA'_1
-
-    noun     FaCA'                     {- gadA' -}           ]
-
- -- ;; gadA'_1
-
- |> ".gd'" <| [
+                                                            `gloss`  [ "have breakfast" ],
 
     -- ;; gadA'_1
     -- gdA'    gadA'   N0_Nh   breakfast;lunch
@@ -1303,12 +1291,8 @@ lexicon = listing "Lexicon properties"
     -- >gdy    >agodiy Nap     breakfast;lunch
     -- Agdy    >agodiy Nap     breakfast;lunch
 
-    noun     FaCAL                     {- gadA' -}          `others` [ "'a.gdiy Nap" ]
-                                                            `gloss`  [ "breakfast", "lunch" ] ]
-
- -- ;; gadAF_1
-
- |> ".gd" <| [
+    noun     FaCA'                     {- gadA' -}          `others` [ "'a.gdiy Nap" ]
+                                                            `gloss`  [ "breakfast", "lunch" ],
 
     -- ;; gadAF_1
     -- gdA     gadAF   FW-WaBi tomorrow     [[gadAF/ADV]]
@@ -1456,11 +1440,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- ga*A-u -}         `imperf` [ FCuL ]
                                                             `others` [ ".g_d IV_0hwnyn", ".g_day IV_Ann_Pass_yu", ".ga_dA PV_0h", ".g_duw IV_0hAnn", ".ga_daw PV_Atn", ".g_dY IV_0_Pass_yu", ".ga_d PV_ttAw" ]
-                                                            `gloss`  [ "feed", "nourish", "be fed", "be nourished" ] ]
-
- -- ;; ga*~aY_1
-
- |> ".g_d_d" <| [
+                                                            `gloss`  [ "feed", "nourish", "be fed", "be nourished" ],
 
     -- ;; ga*~aY_1
     -- g*Y     ga*~aY  PV_0    feed;nourish
@@ -1487,11 +1467,7 @@ lexicon = listing "Lexicon properties"
     -- tg*     taga*~  IV_0hwnyn       be fed;be nourished
 
     verb     TaFaCCY                   {- taga*~aY -}       `others` [ "ta.ga_d_dA PV_h IV_h", "ta.ga_d_d PV_ttAw_intr IV_0hwnyn", "ta.ga_d_day PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "be fed", "be nourished" ] ]
-
- -- ;; {igota*aY_1
-
- |> ".g_d" <| [
+                                                            `gloss`  [ "be fed", "be nourished" ],
 
     -- ;; {igota*aY_1
     -- <gt*Y   {igota*aY       PV_0    be fed;be nourished
@@ -1875,16 +1851,12 @@ lexicon = listing "Lexicon properties"
     -- mgrb    magorib N       Morocco
     -- mgrb    magorib N       Maghreb;Maghrib (northwest Africa)
 
-    noun     MaFCiL                    {- magorib -}        `gloss`  [ "Morocco", "Maghreb", "Maghrib ( northwest Africa )" ] ]
-
- -- ;; magArib_1
-
- |> "ma.gArib" <| [
+    noun     MaFCiL                    {- magorib -}        `gloss`  [ "Morocco", "Maghreb", "Maghrib ( northwest Africa )" ],
 
     -- ;; magArib_1
     -- mgArb   magArib Ndip    western areas
 
-    noun     Identity                  {- magArib -}        `gloss`  [ "western areas" ],
+    noun     MaFACiL                   {- magArib -}        `gloss`  [ "western areas" ],
 
     -- ;; magoribiy~_1
     -- mgrby   magoribiy~      Nall    Moroccan     [[magoribiy~/NOUN]]
@@ -1973,26 +1945,26 @@ lexicon = listing "Lexicon properties"
     -- grbl    garobal PV      sift;sieve
     -- grbl    garobil IV_yu   sift;sieve
 
-    verb     FaCCaL                    {- garobal -}        `others` [ ".garbil IV_yu" ]
+    verb     KaRDaS                    {- garobal -}        `others` [ ".garbil IV_yu" ]
                                                             `gloss`  [ "sift", "sieve" ],
 
     -- ;; garobalap_1
     -- grbl    garobal Nap     sifting;sieving
 
-    noun     FaCCaL |< aT              {- garobalap -}      `others` [ ".garbal Nap" ]
+    noun     KaRDaS |< aT              {- garobalap -}      `others` [ ".garbal Nap" ]
                                                             `gloss`  [ "sifting", "sieving" ],
 
     -- ;; girobAl_1
     -- grbAl   girobAl Ndu     sieve
     -- grAbyl  garAbiyl        Ndip    sieves
 
-    noun     FiCCAL                    {- girobAl -}        `others` [ ".garAbiyl Ndip" ]
+    noun     KiRDAS                    {- girobAl -}        `others` [ ".garAbiyl Ndip" ]
                                                             `gloss`  [ "sieve", "sieves" ],
 
     -- ;; mugarobal_1
     -- mgrbl   mugarobal       N-ap    sifted
 
-    noun     MuFaCCaL                  {- mugarobal -}      `gloss`  [ "sifted" ] ]
+    noun     MuKaRDaS                  {- mugarobal -}      `gloss`  [ "sifted" ] ]
 
  -- ;--- grv
 
@@ -2345,18 +2317,10 @@ lexicon = listing "Lexicon properties"
  |> ".gr.df" <| [
 
     -- ;; guroDuwf_1
-
-    root     Identity                                        ]
-
- -- ;; guroDuwf_1
-
- |> ".gur.duwf" <| [
-
-    -- ;; guroDuwf_1
     -- grDwf   guroDuwf        N       cartilage
     -- grADyf  garADiyf        Ndip    cartilage
 
-    noun     Identity                  {- guroDuwf -}       `others` [ ".garA.diyf Ndip" ]
+    noun     KuRDUS                    {- guroDuwf -}       `others` [ ".garA.diyf Ndip" ]
                                                             `gloss`  [ "cartilage" ] ]
 
  -- ;--- grgr
@@ -2367,19 +2331,19 @@ lexicon = listing "Lexicon properties"
     -- grgr    garogar PV      gargle;bubble
     -- grgr    garogir IV_yu   gargle;bubble
 
-    verb     FaCCaL                    {- garogar -}        `others` [ ".gar.gir IV_yu" ]
+    verb     KaRDaS                    {- garogar -}        `others` [ ".gar.gir IV_yu" ]
                                                             `gloss`  [ "gargle", "bubble" ],
 
     -- ;; tagarogar_1
     -- tgrgr   tagarogar       PV      gargle;bubble
     -- tgrgr   tagarogar       IV      gargle;bubble
 
-    verb     TaFaCCaL                  {- tagarogar -}      `gloss`  [ "gargle", "bubble" ],
+    verb     TaKaRDaS                  {- tagarogar -}      `gloss`  [ "gargle", "bubble" ],
 
     -- ;; garogarap_1
     -- grgr    garogar Nap     gargling;bubbling
 
-    noun     FaCCaL |< aT              {- garogarap -}      `others` [ ".gar.gar Nap" ]
+    noun     KaRDaS |< aT              {- garogarap -}      `others` [ ".gar.gar Nap" ]
                                                             `gloss`  [ "gargling", "bubbling" ] ]
 
  -- ;; girogir_1
@@ -2705,56 +2669,40 @@ lexicon = listing "Lexicon properties"
     -- ;; garonATap_1
     -- grnAT   garonAT Nap     Granada
 
-    noun     FaCCAL |< aT              {- garonATap -}      `others` [ ".garnA.t Nap" ]
+    noun     KaRDAS |< aT              {- garonATap -}      `others` [ ".garnA.t Nap" ]
                                                             `gloss`  [ "Granada" ],
 
     -- ;; garonATiy~_1
     -- grnATy  garonATiy~      Nall    Granadan     [[garonATiy~/NOUN]]
     -- grnATy  garonATiy~      Nall    Granadan     [[garonATiy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- garonATiy~ -}     `gloss`  [ "Granadan" ] ]
+    noun     KaRDAS |< Iy              {- garonATiy~ -}     `gloss`  [ "Granadan" ] ]
 
  -- ;--- grnq
 
  |> ".grnq" <| [
 
     -- ;; guronuwq_1
-
-    root     Identity                                        ]
-
- -- ;; guronuwq_1
-
- |> ".gurnuwq" <| [
-
-    -- ;; guronuwq_1
     -- grnwq   guronuwq        Ndu     crane
     -- grAnyq  garAniyq        Ndip    cranes
 
-    noun     Identity                  {- guronuwq -}       `others` [ ".garAniyq Ndip" ]
+    noun     KuRDUS                    {- guronuwq -}       `others` [ ".garAniyq Ndip" ]
                                                             `gloss`  [ "crane", "cranes" ],
 
     -- ;; gironiyq_1
     -- grnyq   gironiyq        Ndu     crane
 
-    noun     FiCCIL                    {- gironiyq -}       `gloss`  [ "crane" ] ]
-
- -- ;; guronuwqiy~_1
-
- |> ".gurnuwq" <| [
+    noun     KiRDIS                    {- gironiyq -}       `gloss`  [ "crane" ],
 
     -- ;; guronuwqiy~_1
     -- grnwqy  guronuwqiy~     N-ap    geranium     [[guronuwqiy~/ADJ]]
 
-    noun     Identity |< Iy            {- guronuwqiy~ -}    `gloss`  [ "geranium" ] ]
-
- -- ;; guronuwqiy~_2
-
- |> ".gurnuwq" <| [
+    noun     KuRDUS |< Iy              {- guronuwqiy~ -}    `gloss`  [ "geranium" ],
 
     -- ;; guronuwqiy~_2
     -- grnwqy  guronuwqiy~     NAt     geraniums     [[guronuwqiy~/NOUN]]
 
-    noun     Identity |< Iy            {- guronuwqiy~ -}    `gloss`  [ "geraniums" ] ]
+    noun     KuRDUS |< Iy              {- guronuwqiy~ -}    `gloss`  [ "geraniums" ] ]
 
  -- ;--- grw
 
@@ -2779,11 +2727,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- garA-u -}         `imperf` [ FCuL ]
                                                             `others` [ ".grY IV_0_Pass_yu", ".gr IV_0hwnyn", ".garA PV_0h", ".garaw PV_Atn", ".gar PV_ttAw", ".gray IV_Ann_Pass_yu", ".gruw IV_0hAnn" ]
-                                                            `gloss`  [ "glue together", "be glued together" ] ]
-
- -- ;; gar~aY_1
-
- |> ".grr" <| [
+                                                            `gloss`  [ "glue together", "be glued together" ],
 
     -- ;; gar~aY_1
     -- grY     gar~aY  PV_0    glue
@@ -2796,11 +2740,7 @@ lexicon = listing "Lexicon properties"
     -- gry     gar~ay  IV_Ann_Pass_yu  be glued
 
     verb     FaCCY                     {- gar~aY -}         `others` [ ".garr IV_0hwnyn_yu PV_ttAw", ".garray PV_Atn IV_Ann_Pass_yu", ".garriy IV_0hAnn_yu", ".garrA PV_h" ]
-                                                            `gloss`  [ "glue", "be glued" ] ]
-
- -- ;; >agoraY_1
-
- |> ".gr" <| [
+                                                            `gloss`  [ "glue", "be glued" ],
 
     -- ;; >agoraY_1
     -- >grY    >agoraY PV_0    incite;induce;provoke
@@ -2836,13 +2776,17 @@ lexicon = listing "Lexicon properties"
     -- ;; garow_1
     -- grw     garow   N       wonder
 
-    noun     FaCL                      {- garow -}          `gloss`  [ "wonder" ],
+    noun     FaCL                      {- garow -}          `gloss`  [ "wonder" ] ]
+
+ -- ;; garowaY_1
+
+ |> ".garwY" <| [
 
     -- ;; garowaY_1
     -- grwY    garowaY N0      wonder
     -- grwA    garowA  Nhy     wonder
 
-    noun     FaCCY                     {- garowaY -}        `others` [ ".garwA Nhy" ]
+    noun     Identity                  {- garowaY -}        `others` [ ".garwA Nhy" ]
                                                             `gloss`  [ "wonder" ] ]
 
  -- ;; gar~Ayap_1
@@ -3371,17 +3315,13 @@ lexicon = listing "Lexicon properties"
     -- gAzy    gAziy   NapAt   campaign;expedition
 
     noun     FACiL |< aT               {- gAziyap -}        `others` [ ".gAziy NapAt" ]
-                                                            `gloss`  [ "campaign", "expedition" ] ]
-
- -- ;; gawAziy_1
-
- |> ".gawAziy" <| [
+                                                            `gloss`  [ "campaign", "expedition" ],
 
     -- ;; gawAziy_1
     -- gwAzy   gawAziy N0_Nh   women dancers
     -- gwAz    gawAz   NK      women dancers
 
-    noun     Identity                  {- gawAziy -}        `others` [ ".gawAz NK" ]
+    noun     FawACiL                   {- gawAziy -}        `others` [ ".gawAz NK" ]
                                                             `gloss`  [ "women dancers" ] ]
 
  -- ;--- gs
@@ -3795,7 +3735,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; ga$~aY_1
 
- |> ".g^s^s" <| [
+ |> ".g^s" <| [
 
     -- ;; ga$~aY_1
     -- g$Y     ga$~aY  PV_0    cover;wrap
@@ -3808,11 +3748,7 @@ lexicon = listing "Lexicon properties"
     -- g$y     ga$~ay  IV_Ann_Pass_yu  be covered;be wrapped
 
     verb     FaCCY                     {- ga$~aY -}         `others` [ ".ga^s^s IV_0hwnyn_yu PV_ttAw", ".ga^s^sA PV_h", ".ga^s^siy IV_0hAnn_yu", ".ga^s^say PV_Atn IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "cover", "wrap", "be covered", "be wrapped" ] ]
-
- -- ;; >ago$aY_1
-
- |> ".g^s" <| [
+                                                            `gloss`  [ "cover", "wrap", "be covered", "be wrapped" ],
 
     -- ;; >ago$aY_1
     -- >g$Y    >ago$aY PV_0    cover;be dark
@@ -3829,11 +3765,7 @@ lexicon = listing "Lexicon properties"
     -- g$y     go$ay   IV_Ann_Pass_yu  be covered
 
     verb     HaFCY                     {- >ago$aY -}        `others` [ ".g^sY IV_0_Pass_yu", ".g^s IV_0hwnyn_yu", ".g^siy IV_0hAnn_yu", "'a.g^sA PV_h", "'a.g^say PV_Atn", ".g^say IV_Ann_Pass_yu", "'a.g^s PV_ttAw" ]
-                                                            `gloss`  [ "cover", "be dark", "be covered" ] ]
-
- -- ;; taga$~aY_1
-
- |> ".g^s^s" <| [
+                                                            `gloss`  [ "cover", "be dark", "be covered" ],
 
     -- ;; taga$~aY_1
     -- tg$Y    taga$~aY        PV_0    be covered;lie down with
@@ -3844,11 +3776,7 @@ lexicon = listing "Lexicon properties"
     -- tg$     taga$~  IV_0hwnyn       be covered;lie down with
 
     verb     TaFaCCY                   {- taga$~aY -}       `others` [ "ta.ga^s^say PV_Atn IV_Ann", "ta.ga^s^s PV_ttAw_intr IV_0hwnyn" ]
-                                                            `gloss`  [ "be covered", "lie down with" ] ]
-
- -- ;; {isotago$aY_1
-
- |> ".g^s" <| [
+                                                            `gloss`  [ "be covered", "lie down with" ],
 
     -- ;; {isotago$aY_1
     -- <stg$Y  {isotago$aY     PV_0    hide
@@ -4337,35 +4265,23 @@ lexicon = listing "Lexicon properties"
     -- gDrA&   gaDorA& Nh      abundance;prosperity
     -- gDrA}   gaDorA} Nhy     abundance;prosperity
 
-    noun     FaCCAL                    {- gaDorA' -}        `gloss`  [ "abundance", "prosperity" ] ]
+    noun     KaRDAS                    {- gaDorA' -}        `gloss`  [ "abundance", "prosperity" ] ]
 
  -- ;--- gDrf
 
  |> ".g.drf" <| [
 
     -- ;; guDoruwf_1
-
-    root     Identity                                        ]
-
- -- ;; guDoruwf_1
-
- |> ".gu.druwf" <| [
-
-    -- ;; guDoruwf_1
     -- gDrwf   guDoruwf        N       cartilage
     -- gDAryf  gaDAriyf        Ndip    cartilage
 
-    noun     Identity                  {- guDoruwf -}       `others` [ ".ga.dAriyf Ndip" ]
-                                                            `gloss`  [ "cartilage" ] ]
-
- -- ;; guDoruwfiy~_1
-
- |> ".gu.druwf" <| [
+    noun     KuRDUS                    {- guDoruwf -}       `others` [ ".ga.dAriyf Ndip" ]
+                                                            `gloss`  [ "cartilage" ],
 
     -- ;; guDoruwfiy~_1
     -- gDrwfy  guDoruwfiy~     N-ap    cartilaginous;gristly;cartilage     [[guDoruwfiy~/ADJ]]
 
-    noun     Identity |< Iy            {- guDoruwfiy~ -}    `gloss`  [ "cartilaginous", "gristly", "cartilage" ] ]
+    noun     KuRDUS |< Iy              {- guDoruwfiy~ -}    `gloss`  [ "cartilaginous", "gristly", "cartilage" ] ]
 
  -- ;--- gDn
 
@@ -4614,37 +4530,37 @@ lexicon = listing "Lexicon properties"
     -- gTrs    gaToras PV_intr be arrogant
     -- gTrs    gaToris IV_intr_yu      be arrogant
 
-    verb     FaCCaL                    {- gaToras -}        `others` [ ".ga.tris IV_intr_yu" ]
+    verb     KaRDaS                    {- gaToras -}        `others` [ ".ga.tris IV_intr_yu" ]
                                                             `gloss`  [ "be arrogant" ],
 
     -- ;; tagaToras_1
     -- tgTrs   tagaToras       PV_intr be arrogant
     -- tgTrs   tagaToras       IV_intr be arrogant
 
-    verb     TaFaCCaL                  {- tagaToras -}      `gloss`  [ "be arrogant" ],
+    verb     TaKaRDaS                  {- tagaToras -}      `gloss`  [ "be arrogant" ],
 
     -- ;; gaTorasap_1
     -- gTrs    gaToras Nap     arrogance;insolence
 
-    noun     FaCCaL |< aT              {- gaTorasap -}      `others` [ ".ga.tras Nap" ]
+    noun     KaRDaS |< aT              {- gaTorasap -}      `others` [ ".ga.tras Nap" ]
                                                             `gloss`  [ "arrogance", "insolence" ],
 
     -- ;; giToriys_1
     -- gTrys   giToriys        N-ap    arrogant;conceited     [[giToriys/ADJ]]
     -- gTArys  gaTAriys        Ndip    arrogant;conceited
 
-    noun     FiCCIL                    {- giToriys -}       `others` [ ".ga.tAriys Ndip" ]
+    noun     KiRDIS                    {- giToriys -}       `others` [ ".ga.tAriys Ndip" ]
                                                             `gloss`  [ "arrogant", "conceited" ],
 
     -- ;; tagaTorus_1
     -- tgTrs   tagaTorus       N/At    arrogance;insolence
 
-    noun     TaFaCCuL                  {- tagaTorus -}      `gloss`  [ "arrogance", "insolence" ],
+    noun     TaKaRDuS                  {- tagaTorus -}      `gloss`  [ "arrogance", "insolence" ],
 
     -- ;; mutagaToris_1
     -- mtgTrs  mutagaToris     Nall    arrogant;conceited     [[mutagaToris/ADJ]]
 
-    noun     MutaFaCCiL                {- mutagaToris -}    `gloss`  [ "arrogant", "conceited" ] ]
+    noun     MutaKaRDiS                {- mutagaToris -}    `gloss`  [ "arrogant", "conceited" ] ]
 
  -- ;--- gTrf
 
@@ -4656,7 +4572,7 @@ lexicon = listing "Lexicon properties"
     -- gTArf   gaTArif Ndip    potentates;noble men
     -- gTArf   gaTArif Nap     potentates;noble men
 
-    noun     FiCCIL                    {- giToriyf -}       `others` [ ".ga.tArif Nap Ndip", ".ga.tAriyf Ndip" ]
+    noun     KiRDIS                    {- giToriyf -}       `others` [ ".ga.tArif Nap Ndip", ".ga.tAriyf Ndip" ]
                                                             `gloss`  [ "potentate", "noble man", "potentates", "noble men" ] ]
 
  -- ;--- gTs
@@ -4771,7 +4687,7 @@ lexicon = listing "Lexicon properties"
     -- gT$A&   gaTo$A& Nh      pitch dark
     -- gT$A}   gaTo$A} Nhy     pitch dark
 
-    noun     FaCCAL                    {- gaTo$A' -}        `gloss`  [ "pitch dark" ] ]
+    noun     KaRDAS                    {- gaTo$A' -}        `gloss`  [ "pitch dark" ] ]
 
  -- ;--- gTm
 
@@ -4822,11 +4738,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- gaTA-u -}         `imperf` [ FCuL ]
                                                             `others` [ ".ga.t PV_ttAw", ".g.tY IV_0_Pass_yu", ".g.tay IV_Ann_Pass_yu", ".g.t IV_0hwnyn", ".ga.tA PV_0h", ".g.tuw IV_0hAnn", ".ga.taw PV_Atn" ]
-                                                            `gloss`  [ "cover", "be covered" ] ]
-
- -- ;; gaT~aY_1
-
- |> ".g.t.t" <| [
+                                                            `gloss`  [ "cover", "be covered" ],
 
     -- ;; gaT~aY_1
     -- gTY     gaT~aY  PV_0    cover;conceal
@@ -4850,11 +4762,7 @@ lexicon = listing "Lexicon properties"
     -- tgT     tagaT~  IV_0hwnyn       be covered
 
     verb     TaFaCCY                   {- tagaT~aY -}       `others` [ "ta.ga.t.t PV_ttAw_intr IV_0hwnyn", "ta.ga.t.tay PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "be covered" ] ]
-
- -- ;; {igotaTaY_1
-
- |> ".g.t" <| [
+                                                            `gloss`  [ "be covered" ],
 
     -- ;; {igotaTaY_1
     -- <gtTY   {igotaTaY       PV_0    be covered
@@ -4899,7 +4807,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mugaT~aY_1
 
- |> ".g.t.t" <| [
+ |> ".g.t" <| [
 
     -- ;; mugaT~aY_1
     -- mgTY    mugaT~aY        N0      covered     [[mugaT~aY/ADJ]]
@@ -5034,7 +4942,7 @@ lexicon = listing "Lexicon properties"
     -- ;; guforAn_1
     -- gfrAn   guforAn N       forgiveness;atonement
 
-    noun     FuCCAL                    {- guforAn -}        `gloss`  [ "forgiveness", "atonement" ] ]
+    noun     KuRDAS                    {- guforAn -}        `gloss`  [ "forgiveness", "atonement" ] ]
 
  -- ;; gifArap_1
 
@@ -5655,7 +5563,7 @@ lexicon = listing "Lexicon properties"
     -- ;; galobAwiy~_1
     -- glbAwy  galobAwiy~      Nall    garrulous;chatterbox     [[galobAwiy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- galobAwiy~ -}     `gloss`  [ "garrulous", "chatterbox" ] ]
+    noun     KaRDAS |< Iy              {- galobAwiy~ -}     `gloss`  [ "garrulous", "chatterbox" ] ]
 
  -- ;--- gls
 
@@ -5689,7 +5597,7 @@ lexicon = listing "Lexicon properties"
     -- glSm    galoSam Nap     epiglottis
     -- glASm   galASim Ndip    epiglottis
 
-    noun     FaCCaL |< aT              {- galoSamap -}      `others` [ ".galA.sim Ndip", ".gal.sam Nap" ]
+    noun     KaRDaS |< aT              {- galoSamap -}      `others` [ ".galA.sim Ndip", ".gal.sam Nap" ]
                                                             `gloss`  [ "epiglottis" ] ]
 
  -- ;--- glT
@@ -5870,24 +5778,24 @@ lexicon = listing "Lexicon properties"
     -- glgl    galogal PV      penetrate;submerge
     -- glgl    galogil IV_yu   penetrate;submerge
 
-    verb     FaCCaL                    {- galogal -}        `others` [ ".gal.gil IV_yu" ]
+    verb     KaRDaS                    {- galogal -}        `others` [ ".gal.gil IV_yu" ]
                                                             `gloss`  [ "penetrate", "submerge" ],
 
     -- ;; tagalogal_1
     -- tglgl   tagalogal       PV_intr penetrate;invade
     -- tglgl   tagalogal       IV_intr penetrate;invade
 
-    verb     TaFaCCaL                  {- tagalogal -}      `gloss`  [ "penetrate", "invade" ],
+    verb     TaKaRDaS                  {- tagalogal -}      `gloss`  [ "penetrate", "invade" ],
 
     -- ;; mutagalogil_1
     -- mtglgl  mutagalogil     Nall    penetrating;invading
 
-    noun     MutaFaCCiL                {- mutagalogil -}    `gloss`  [ "penetrating", "invading" ],
+    noun     MutaKaRDiS                {- mutagalogil -}    `gloss`  [ "penetrating", "invading" ],
 
     -- ;; tagalogul_1
     -- tglgl   tagalogul       N/At    penetration;invasion
 
-    noun     TaFaCCuL                  {- tagalogul -}      `gloss`  [ "penetration", "invasion" ] ]
+    noun     TaKaRDuS                  {- tagalogul -}      `gloss`  [ "penetration", "invasion" ] ]
 
  -- ;--- glf
 
@@ -5964,25 +5872,25 @@ lexicon = listing "Lexicon properties"
     -- glfn    galofan PV-n    galvanize
     -- glfn    galofin IV-n_yu galvanize
 
-    verb     FaCCaL                    {- galofan -}        `others` [ ".galfin IV-n_yu" ]
+    verb     KaRDaS                    {- galofan -}        `others` [ ".galfin IV-n_yu" ]
                                                             `gloss`  [ "galvanize" ],
 
     -- ;; tagalofan_1
     -- tglfn   tagalofan       PV-n_intr       be galvanized
     -- tglfn   tagalofan       IV-n_intr       be galvanized
 
-    verb     TaFaCCaL                  {- tagalofan -}      `gloss`  [ "be galvanized" ],
+    verb     TaKaRDaS                  {- tagalofan -}      `gloss`  [ "be galvanized" ],
 
     -- ;; galofanap_1
     -- glfn    galofan Nap     galvanization
 
-    noun     FaCCaL |< aT              {- galofanap -}      `others` [ ".galfan Nap" ]
+    noun     KaRDaS |< aT              {- galofanap -}      `others` [ ".galfan Nap" ]
                                                             `gloss`  [ "galvanization" ],
 
     -- ;; mugalofan_1
     -- mglfn   mugalofan       Nall    galvanized     [[mugalofan/ADJ]]
 
-    noun     MuFaCCaL                  {- mugalofan -}      `gloss`  [ "galvanized" ] ]
+    noun     MuKaRDaS                  {- mugalofan -}      `gloss`  [ "galvanized" ] ]
 
  -- ;; galofAnuwmitr_1
 
@@ -6161,7 +6069,7 @@ lexicon = listing "Lexicon properties"
     -- ;; gilomAniy~_1
     -- glmAny  gilomAniy~      Nall    pederast     [[gilomAniy~/ADJ]]
 
-    noun     FiCCAL |< Iy              {- gilomAniy~ -}     `gloss`  [ "pederast" ] ]
+    noun     KiRDAS |< Iy              {- gilomAniy~ -}     `gloss`  [ "pederast" ] ]
 
  -- ;; gayolam_1
 
@@ -6170,7 +6078,7 @@ lexicon = listing "Lexicon properties"
     -- ;; gayolam_1
     -- gylm    gayolam N       tortoise
 
-    noun     FaCCaL                    {- gayolam -}        `gloss`  [ "tortoise" ] ]
+    noun     KaRDaS                    {- gayolam -}        `gloss`  [ "tortoise" ] ]
 
  -- ;--- glw
 
@@ -6293,7 +6201,7 @@ lexicon = listing "Lexicon properties"
     -- glwA&   gulowA& Nh      zeal;enthusiasm
     -- glwA}   gulowA} Nhy     zeal;enthusiasm
 
-    noun     FuCCAL                    {- gulowA' -}        `gloss`  [ "zeal", "enthusiasm" ] ]
+    noun     KuRDAS                    {- gulowA' -}        `gloss`  [ "zeal", "enthusiasm" ] ]
 
  -- ;; >agolaY_2
 
@@ -6418,11 +6326,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- galaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ ".galay PV_Atn", ".galY PV_0", ".gliy IV_0hAnn", ".galA PV_h", ".gl IV_0hwnyn", ".gal PV_ttAw", ".glY IV_0" ]
-                                                            `gloss`  [ "boil" ] ]
-
- -- ;; gal~aY_1
-
- |> ".gll" <| [
+                                                            `gloss`  [ "boil" ],
 
     -- ;; gal~aY_1
     -- glY     gal~aY  PV_0    boil
@@ -6435,11 +6339,7 @@ lexicon = listing "Lexicon properties"
     -- gly     gal~ay  IV_Ann_Pass_yu  be boiled
 
     verb     FaCCY                     {- gal~aY -}         `others` [ ".gall IV_0hwnyn_yu PV_ttAw", ".gallA PV_h", ".gallay PV_Atn IV_Ann_Pass_yu", ".galliy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "boil", "be boiled" ] ]
-
- -- ;; >agolaY_3
-
- |> ".gl" <| [
+                                                            `gloss`  [ "boil", "be boiled" ],
 
     -- ;; >agolaY_3
     -- >glY    >agolaY PV_0    boil;make boil
@@ -6524,7 +6424,7 @@ lexicon = listing "Lexicon properties"
     -- glywn   galoyuwn        Ndu     tobacco pipe
     -- glAyyn  galAyiyn        Ndip    tobacco pipes
 
-    noun     FaCCUL                    {- galoyuwn -}       `others` [ ".galAyiyn Ndip" ]
+    noun     KaRDUS                    {- galoyuwn -}       `others` [ ".galAyiyn Ndip" ]
                                                             `gloss`  [ "tobacco pipe", "tobacco pipes" ],
 
     -- ;; galoyuwn_2
@@ -6532,7 +6432,7 @@ lexicon = listing "Lexicon properties"
     -- glAyyn  galAyiyn        Ndip    galleons
     -- glAwyn  galAwiyn        Ndip    galleons
 
-    noun     FaCCUL                    {- galoyuwn -}       `others` [ ".galAwiyn Ndip", ".galAyiyn Ndip" ]
+    noun     KaRDUS                    {- galoyuwn -}       `others` [ ".galAwiyn Ndip", ".galAyiyn Ndip" ]
                                                             `gloss`  [ "galleon", "galleons" ] ]
 
  -- ;--- gm
@@ -7134,14 +7034,14 @@ lexicon = listing "Lexicon properties"
     -- gmgm    gamogam PV      mumble;mutter
     -- gmgm    gamogim IV_yu   mumble;mutter
 
-    verb     FaCCaL                    {- gamogam -}        `others` [ ".gam.gim IV_yu" ]
+    verb     KaRDaS                    {- gamogam -}        `others` [ ".gam.gim IV_yu" ]
                                                             `gloss`  [ "mumble", "mutter" ],
 
     -- ;; gamogamap_1
     -- gmgm    gamogam Nap     mumbling;muttering
     -- gmAgm   gamAgim Ndip    mumbling;muttering
 
-    noun     FaCCaL |< aT              {- gamogamap -}      `others` [ ".gamA.gim Ndip", ".gam.gam Nap" ]
+    noun     KaRDaS |< aT              {- gamogamap -}      `others` [ ".gamA.gim Ndip", ".gam.gam Nap" ]
                                                             `gloss`  [ "mumbling", "muttering" ] ]
 
  -- ;--- gmq
@@ -7168,21 +7068,17 @@ lexicon = listing "Lexicon properties"
     -- ;; gamolaj_1
     -- gmlj    gamolaj N-ap    fickle;inconstant     [[gamolaj/ADJ]]
 
-    noun     FaCCaL                    {- gamolaj -}        `gloss`  [ "fickle", "inconstant" ],
+    noun     KaRDaS                    {- gamolaj -}        `gloss`  [ "fickle", "inconstant" ],
 
     -- ;; gimolAj_1
     -- gmlAj   gimolAj N-ap    fickle;inconstant     [[gimolAj/ADJ]]
 
-    noun     FiCCAL                    {- gimolAj -}        `gloss`  [ "fickle", "inconstant" ] ]
-
- -- ;; gumoluwj_1
-
- |> ".gumluw^g" <| [
+    noun     KiRDAS                    {- gimolAj -}        `gloss`  [ "fickle", "inconstant" ],
 
     -- ;; gumoluwj_1
     -- gmlwj   gumoluwj        N-ap    fickle;inconstant     [[gumoluwj/ADJ]]
 
-    noun     Identity                  {- gumoluwj -}       `gloss`  [ "fickle", "inconstant" ] ]
+    noun     KuRDUS                    {- gumoluwj -}       `gloss`  [ "fickle", "inconstant" ] ]
 
  -- ;--- gmy
 
@@ -7209,11 +7105,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- gamaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ ".gam PV_ttAw", ".gamY PV_0", ".gmY IV_0_Pass_yu", ".gmiy IV_0hAnn", ".gumiy PV_Pass-a", ".gamay PV_Atn", ".gm IV_0hwnyn", ".gamA PV_h" ]
-                                                            `gloss`  [ "cover with a roof", "be covered with a roof", "faint", "lose consciousness" ] ]
-
- -- ;; gam~aY_1
-
- |> ".gmm" <| [
+                                                            `gloss`  [ "cover with a roof", "be covered with a roof", "faint", "lose consciousness" ],
 
     -- ;; gam~aY_1
     -- gmY     gam~aY  PV_0    blindfold
@@ -7227,11 +7119,7 @@ lexicon = listing "Lexicon properties"
     -- gm      gam~    IV_0hwnyn_yu    be blindfolded
 
     verb     FaCCY                     {- gam~aY -}         `others` [ ".gamm IV_0hwnyn_yu PV_ttAw", ".gammiy IV_0hAnn_yu", ".gammay PV_Atn IV_Ann_Pass_yu", ".gammA PV_h" ]
-                                                            `gloss`  [ "blindfold", "be blindfolded" ] ]
-
- -- ;; >agomaY_1
-
- |> ".gm" <| [
+                                                            `gloss`  [ "blindfold", "be blindfolded" ],
 
     -- ;; >agomaY_1
     -- >gmY    >agomaY PV_0    faint;lose consciousness
@@ -7457,12 +7345,12 @@ lexicon = listing "Lexicon properties"
     -- tgndr   taganodar       PV      make faces;play the dandy
     -- tgndr   taganodar       IV      make faces;play the dandy
 
-    verb     TaFaCCaL                  {- taganodar -}      `gloss`  [ "make faces", "play the dandy" ],
+    verb     TaKaRDaS                  {- taganodar -}      `gloss`  [ "make faces", "play the dandy" ],
 
     -- ;; ganodarap_1
     -- gndr    ganodar Nap     affectation
 
-    noun     FaCCaL |< aT              {- ganodarap -}      `others` [ ".gandar Nap" ]
+    noun     KaRDaS |< aT              {- ganodarap -}      `others` [ ".gandar Nap" ]
                                                             `gloss`  [ "affectation" ] ]
 
  -- ;; gunodur_1
@@ -7478,18 +7366,18 @@ lexicon = listing "Lexicon properties"
     -- gndwr   ganoduwr        N       dandy;handsome man
     -- gnAdr   ganAdir Nap     dandies;handsome men
 
-    noun     FaCCUL                    {- ganoduwr -}       `others` [ ".ganAdir Nap" ]
+    noun     KaRDUS                    {- ganoduwr -}       `others` [ ".ganAdir Nap" ]
                                                             `gloss`  [ "dandy", "handsome man", "dandies", "handsome men" ],
 
     -- ;; ganoduwr_2
     -- gndwr   ganoduwr        N0      Ghandour
 
-    noun     FaCCUL                    {- ganoduwr -}       `gloss`  [ "Ghandour" ],
+    noun     KaRDUS                    {- ganoduwr -}       `gloss`  [ "Ghandour" ],
 
     -- ;; ganoduwrap_1
     -- gndwr   ganoduwr        NapAt   pretty woman
 
-    noun     FaCCUL |< aT              {- ganoduwrap -}     `others` [ ".ganduwr NapAt" ]
+    noun     KaRDUS |< aT              {- ganoduwrap -}     `others` [ ".ganduwr NapAt" ]
                                                             `gloss`  [ "pretty woman" ] ]
 
  -- ;--- gndq
@@ -7517,20 +7405,20 @@ lexicon = listing "Lexicon properties"
     -- gngr    ganogar PV_intr become gangrenous
     -- gngr    ganogir IV_intr_yu      become gangrenous
 
-    verb     FaCCaL                    {- ganogar -}        `others` [ ".gan.gir IV_intr_yu" ]
+    verb     KaRDaS                    {- ganogar -}        `others` [ ".gan.gir IV_intr_yu" ]
                                                             `gloss`  [ "become gangrenous" ],
 
     -- ;; taganogar_1
     -- tgngr   taganogar       PV_intr become gangrenous
     -- tgngr   taganogar       IV_intr become gangrenous
 
-    verb     TaFaCCaL                  {- taganogar -}      `gloss`  [ "become gangrenous" ],
+    verb     TaKaRDaS                  {- taganogar -}      `gloss`  [ "become gangrenous" ],
 
     -- ;; ganogarap_1
     -- gngr    ganogar Nap     gangrene
     -- mgngr   muganogar       N-ap    gangrenous
 
-    noun     FaCCaL |< aT              {- ganogarap -}      `others` [ ".gan.gar Nap", "mu.gan.gar N-ap" ]
+    noun     KaRDaS |< aT              {- ganogarap -}      `others` [ ".gan.gar Nap", "mu.gan.gar N-ap" ]
                                                             `gloss`  [ "gangrene", "gangrenous" ] ]
 
  -- ;; ganogariyn_1
@@ -7721,7 +7609,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; gan~aY_1
 
- |> ".gnn" <| [
+ |> ".gn" <| [
 
     -- ;; gan~aY_1
     -- gnY     gan~aY  PV_0    sing
@@ -7734,11 +7622,7 @@ lexicon = listing "Lexicon properties"
     -- gny     gan~ay  IV_Ann_Pass_yu  be sung
 
     verb     FaCCY                     {- gan~aY -}         `others` [ ".gannay PV_Atn IV_Ann_Pass_yu", ".gann IV_0hwnyn_yu PV_ttAw", ".gannA PV_h", ".ganniy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "sing", "be sung" ] ]
-
- -- ;; >agonaY_1
-
- |> ".gn" <| [
+                                                            `gloss`  [ "sing", "be sung" ],
 
     -- ;; >agonaY_1
     -- >gnY    >agonaY PV_0    enrich;satisfy
@@ -7755,11 +7639,7 @@ lexicon = listing "Lexicon properties"
     -- gny     gonay   IV_Ann_Pass_yu  be enriched;be satisfied
 
     verb     HaFCY                     {- >agonaY -}        `others` [ "'a.gn PV_ttAw", ".gniy IV_0hAnn_yu", ".gn IV_0hwnyn_yu", "'a.gnA PV_h", ".gnay IV_Ann_Pass_yu", ".gnY IV_0_Pass_yu", "'a.gnay PV_Atn" ]
-                                                            `gloss`  [ "enrich", "satisfy", "be enriched", "be satisfied" ] ]
-
- -- ;; tagan~aY_1
-
- |> ".gnn" <| [
+                                                            `gloss`  [ "enrich", "satisfy", "be enriched", "be satisfied" ],
 
     -- ;; tagan~aY_1
     -- tgnY    tagan~aY        PV_0    extol;praise
@@ -7772,11 +7652,7 @@ lexicon = listing "Lexicon properties"
     -- tgn     tagan~  IV_0hwnyn       extol;praise
 
     verb     TaFaCCY                   {- tagan~aY -}       `others` [ "ta.gannA PV_h IV_h", "ta.gann IV_0hwnyn PV_ttAw", "ta.gannay PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "extol", "praise" ] ]
-
- -- ;; {igotanaY_1
-
- |> ".gn" <| [
+                                                            `gloss`  [ "extol", "praise" ],
 
     -- ;; {igotanaY_1
     -- <gtnY   {igotanaY       PV_0    become rich
@@ -7959,7 +7835,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mugan~aY_1
 
- |> ".gnn" <| [
+ |> ".gn" <| [
 
     -- ;; mugan~aY_1
     -- mgnY    mugan~aY        N0      sung
@@ -7986,7 +7862,7 @@ lexicon = listing "Lexicon properties"
     -- gyhb    gayohab N       darkness;gloom
     -- gyAhb   gayAhib Ndip    darkness;gloom
 
-    noun     FaCCaL                    {- gayohab -}        `others` [ ".gayAhib Ndip" ]
+    noun     KaRDaS                    {- gayohab -}        `others` [ ".gayAhib Ndip" ]
                                                             `gloss`  [ "darkness", "gloom" ] ]
 
  -- ;--- gw
@@ -8107,7 +7983,7 @@ lexicon = listing "Lexicon properties"
     -- gwvAh   gawovAh FW-Wa   help!     [[gawovAh/INTERJ]]
     -- wAgwvAh wAgawovAh       FW-Wa   help!     [[wAgawovAh/INTERJ]]
 
-    noun     FaCCAL                    {- gawovAh -}        `others` [ "wA.gaw_tAh FW-Wa" ]
+    noun     KaRDAS                    {- gawovAh -}        `others` [ "wA.gaw_tAh FW-Wa" ]
                                                             `gloss`  [ "help !" ] ]
 
  -- ;; <igAvap_1
@@ -8334,7 +8210,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; guwrAn_1
 
-    noun     FuCCAL                    {- guwrAn -}          ]
+    noun     KuRDAS                    {- guwrAn -}          ]
 
  -- ;; guwrAn_1
 
@@ -8651,17 +8527,17 @@ lexicon = listing "Lexicon properties"
     -- gwgA&   gawogA& Nh      riffraff;rabble;tumult
     -- gwgA}   gawogA} Nhy     riffraff;rabble;tumult
 
-    noun     FaCCAL                    {- gawogA' -}        `gloss`  [ "riffraff", "rabble", "tumult" ],
+    noun     KaRDAS                    {- gawogA' -}        `gloss`  [ "riffraff", "rabble", "tumult" ],
 
     -- ;; gawogA}iy~_1
     -- gwgA}y  gawogA}iy~      Nall    demagogue;demagogic     [[gawogA}iy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- gawogA}iy~ -}     `gloss`  [ "demagogue", "demagogic" ],
+    noun     KaRDAS |< Iy              {- gawogA}iy~ -}     `gloss`  [ "demagogue", "demagogic" ],
 
     -- ;; gawogA}iy~ap_1
     -- gwgA}y  gawogA}iy~      Nap     demagoguery     [[gawogA}iy~/NOUN]]
 
-    noun     FaCCAL |< Iy |< aT        {- gawogA}iy~ap -}   `others` [ ".gaw.gA'iyy Nap" ]
+    noun     KaRDAS |< Iy |< aT        {- gawogA}iy~ap -}   `others` [ ".gaw.gA'iyy Nap" ]
                                                             `gloss`  [ "demagoguery" ] ]
 
  -- ;--- gwl
@@ -8854,12 +8730,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; guwmiy$_1
 
- |> ".guwmiy^s" <| [
+ |> ".gwm^s" <| [
 
     -- ;; guwmiy$_1
     -- gwmy$   guwmiy$ Nprop   Gomes
 
-    noun     Identity                  {- guwmiy$ -}        `gloss`  [ "Gomes" ] ]
+    noun     KuRDIS                    {- guwmiy$ -}        `gloss`  [ "Gomes" ] ]
 
  -- ;--- gwn
 
@@ -8884,7 +8760,7 @@ lexicon = listing "Lexicon properties"
     -- ;; guwnAr_1
     -- gwnAr   guwnAr  Nprop   Gunnar
 
-    noun     FuCCAL                    {- guwnAr -}         `gloss`  [ "Gunnar" ] ]
+    noun     KuRDAS                    {- guwnAr -}         `gloss`  [ "Gunnar" ] ]
 
  -- ;--- gwy
 
@@ -8929,7 +8805,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; gaw~aY_1
 
- |> ".gww" <| [
+ |> ".gw" <| [
 
     -- ;; gaw~aY_1
     -- gwY     gaw~aY  PV_0    mislead;seduce
@@ -8942,11 +8818,7 @@ lexicon = listing "Lexicon properties"
     -- gwy     gaw~ay  IV_Ann_Pass_yu  be mislead;seduced
 
     verb     FaCCY                     {- gaw~aY -}         `others` [ ".gawwA PV_h", ".gawwiy IV_0hAnn_yu", ".gaww IV_0hwnyn_yu PV_ttAw", ".gawway PV_Atn IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "mislead", "seduce", "be mislead", "be seduced", "seduced" ] ]
-
- -- ;; >agowaY_1
-
- |> ".gw" <| [
+                                                            `gloss`  [ "mislead", "seduce", "be mislead", "be seduced", "seduced" ],
 
     -- ;; >agowaY_1
     -- >gwY    >agowaY PV_0    mislead;seduce
@@ -9125,7 +8997,7 @@ lexicon = listing "Lexicon properties"
     -- jwAyAny juwAyAniy~      Nall    Guyanese     [[juwAyAniy~/NOUN]]
     -- jwAyAny juwAyAniy~      Nall    Guyanese     [[juwAyAniy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- guwyAniy~ -}      `others` [ "^guwyAniyy Nall", ".guwAyAniyy Nall", "^guwAyAniyy Nall" ]
+    noun     KuRDAS |< Iy              {- guwyAniy~ -}      `others` [ "^guwyAniyy Nall", ".guwAyAniyy Nall", "^guwAyAniyy Nall" ]
                                                             `gloss`  [ "Guyanese" ] ]
 
  -- ;--- gy
@@ -9296,18 +9168,26 @@ lexicon = listing "Lexicon properties"
     -- gyAb    gayAb   NapAt   bottom;depth
 
     noun     FaCAL |< aT               {- gayAbap -}        `others` [ ".gayAb NapAt" ]
-                                                            `gloss`  [ "bottom", "depth" ],
+                                                            `gloss`  [ "bottom", "depth" ] ]
+
+ -- ;; gayobuwbap_1
+
+ |> ".gaybuwb" <| [
 
     -- ;; gayobuwbap_1
     -- gybwb   gayobuwb        Nap     unconsciousness;trance;coma
 
-    noun     FaCCUL |< aT              {- gayobuwbap -}     `others` [ ".gaybuwb Nap" ]
-                                                            `gloss`  [ "unconsciousness", "trance", "coma" ],
+    noun     Identity |< aT            {- gayobuwbap -}     `others` [ ".gaybuwb Nap" ]
+                                                            `gloss`  [ "unconsciousness", "trance", "coma" ] ]
+
+ -- ;; gayobuwbiy~_1
+
+ |> ".gaybuwb" <| [
 
     -- ;; gayobuwbiy~_1
     -- gybwby  gayobuwbiy~     Nall    comatose;lethargic;hypnotic     [[gayobuwbiy~/ADJ]]
 
-    noun     FaCCUL |< Iy              {- gayobuwbiy~ -}    `gloss`  [ "comatose", "lethargic", "hypnotic" ] ]
+    noun     Identity |< Iy            {- gayobuwbiy~ -}    `gloss`  [ "comatose", "lethargic", "hypnotic" ] ]
 
  -- ;; magiyb_1
 
@@ -9505,7 +9385,7 @@ lexicon = listing "Lexicon properties"
     -- gydAq   gayodAq Ndu     handsome;generous
     -- gyAdyq  gayAdiyq        Ndip    handsome;generous
 
-    noun     FaCCAL                    {- gayodAq -}        `others` [ ".gayAdiyq Ndip" ]
+    noun     KaRDAS                    {- gayodAq -}        `others` [ ".gayAdiyq Ndip" ]
                                                             `gloss`  [ "handsome", "generous" ] ]
 
  -- ;--- gyr
@@ -9697,28 +9577,28 @@ lexicon = listing "Lexicon properties"
     -- ;; gayoTanap_1
     -- gyTn    gayoTan Nap     horticulture
 
-    noun     FaCCaL |< aT              {- gayoTanap -}      `others` [ ".gay.tan Nap" ]
+    noun     KaRDaS |< aT              {- gayoTanap -}      `others` [ ".gay.tan Nap" ]
                                                             `gloss`  [ "horticulture" ],
 
     -- ;; gayoTaniy~_1
     -- gyTny   gayoTaniy~      Nall    horticulturist     [[gayoTaniy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- gayoTaniy~ -}     `gloss`  [ "horticulturist" ],
+    noun     KaRDaS |< Iy              {- gayoTaniy~ -}     `gloss`  [ "horticulturist" ],
 
     -- ;; gayoTaniy~_2
     -- gyTny   gayoTaniy~      N-ap    horticultural     [[gayoTaniy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- gayoTaniy~ -}     `gloss`  [ "horticultural" ],
+    noun     KaRDaS |< Iy              {- gayoTaniy~ -}     `gloss`  [ "horticultural" ],
 
     -- ;; gayoTAniy~_1
     -- gyTAny  gayoTAniy~      N0      Gheitany
 
-    noun     FaCCAL |< Iy              {- gayoTAniy~ -}     `gloss`  [ "Gheitany" ],
+    noun     KaRDAS |< Iy              {- gayoTAniy~ -}     `gloss`  [ "Gheitany" ],
 
     -- ;; gayoTAniy~_2
     -- gyTAny  gayoTAniy~      Nall    gardener;horticulturist     [[gayoTAniy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- gayoTAniy~ -}     `gloss`  [ "gardener", "horticulturist" ] ]
+    noun     KaRDAS |< Iy              {- gayoTAniy~ -}     `gloss`  [ "gardener", "horticulturist" ] ]
 
  -- ;--- gyZ
 

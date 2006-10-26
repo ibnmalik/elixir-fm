@@ -152,6 +152,14 @@ data PatternT =
         |   HaFCAL
         |   HaFCiL
 
+        |   HaFCiLA'
+
+        |   FawACiL                                     |   FawA'iL
+        |   FawACIL                                     |   FawA'IL
+
+        |   MaFACiL                                     |   MaFA'iL
+        |   MaFACIL                                     |   MaFA'IL
+
         |   FuCuL
         |   FiCaL
 

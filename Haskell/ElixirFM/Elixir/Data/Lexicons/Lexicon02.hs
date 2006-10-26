@@ -87,7 +87,7 @@ lexicon = listing "Lexicon properties"
     -- b>b&    ba>oba& PV_w    babble
     -- b>b}    ba>obi} IV_yu   babble
 
-    verb     FaCCaL                    {- ba>oba> -}        `others` [ "ba'bi' IV_yu", "ba'ba'A PV-|" ]
+    verb     KaRDaS                    {- ba>oba> -}        `others` [ "ba'bi' IV_yu", "ba'ba'A PV-|" ]
                                                             `gloss`  [ "babble" ] ]
 
  -- ;; bu&obu&_1
@@ -1490,7 +1490,7 @@ lexicon = listing "Lexicon properties"
     -- bbgAw   babogAw NAt     parrots
     -- bbgAw   bab~agAw        NAt     parrots
 
-    noun     FaCCAL                    {- babogA' -}        `others` [ "babba.gA' Nh Nhy N0_Nh", "bab.gAw NAt", "babba.gAw NAt" ]
+    noun     KaRDAS                    {- babogA' -}        `others` [ "babba.gA' Nh Nhy N0_Nh", "bab.gAw NAt", "babba.gAw NAt" ]
                                                             `gloss`  [ "parrot", "parrots" ] ]
 
  -- ;; bat~-ui_1
@@ -1657,7 +1657,7 @@ lexicon = listing "Lexicon properties"
     -- btrA'   bitorA' Ndip    Petra
     -- btrA'   batorA' Ndip    Petra
 
-    noun     FiCCAL                    {- bitorA' -}        `others` [ "batrA' Ndip" ]
+    noun     KiRDAS                    {- bitorA' -}        `others` [ "batrA' Ndip" ]
                                                             `gloss`  [ "Petra" ] ]
 
  -- ;; batorak_1
@@ -1667,7 +1667,7 @@ lexicon = listing "Lexicon properties"
     -- ;; batorak_1
     -- btrk    batorak N       patriarch
 
-    noun     FaCCaL                    {- batorak -}        `gloss`  [ "patriarch" ] ]
+    noun     KaRDaS                    {- batorak -}        `gloss`  [ "patriarch" ] ]
 
  -- ;; bitoruwstrAtiyjiy_1
 
@@ -1691,21 +1691,17 @@ lexicon = listing "Lexicon properties"
 
  -- ;; bitoruwl_1
 
- |> "bitruwl" <| [
+ |> "btrl" <| [
 
     -- ;; bitoruwl_1
     -- btrwl   bitoruwl        N       petroleum
 
-    noun     Identity                  {- bitoruwl -}       `gloss`  [ "petroleum" ] ]
-
- -- ;; bitoruwliy~_1
-
- |> "bitruwl" <| [
+    noun     KiRDUS                    {- bitoruwl -}       `gloss`  [ "petroleum" ],
 
     -- ;; bitoruwliy~_1
     -- btrwly  bitoruwliy~     Nall    petroleum     [[bitoruwliy~/ADJ]]
 
-    noun     Identity |< Iy            {- bitoruwliy~ -}    `gloss`  [ "petroleum" ] ]
+    noun     KiRDUS |< Iy              {- bitoruwliy~ -}    `gloss`  [ "petroleum" ] ]
 
  -- ;; bitruwliyuwm_1
 
@@ -2212,33 +2208,29 @@ lexicon = listing "Lexicon properties"
     -- tbHbH   tabaHobaH       PV      have leisure;be prosperous
     -- tbHbH   tabaHobaH       IV      have leisure;be prosperous
 
-    verb     TaFaCCaL                  {- tabaHobaH -}      `gloss`  [ "have leisure", "be prosperous" ],
+    verb     TaKaRDaS                  {- tabaHobaH -}      `gloss`  [ "have leisure", "be prosperous" ],
 
     -- ;; baHobuwH_1
     -- bHbwH   baHobuwH        Nall    merry
 
-    noun     FaCCUL                    {- baHobuwH -}       `gloss`  [ "merry" ] ]
-
- -- ;; buHobuwHap_1
-
- |> "bu.hbuw.h" <| [
+    noun     KaRDUS                    {- baHobuwH -}       `gloss`  [ "merry" ],
 
     -- ;; buHobuwHap_1
     -- bHbwH   buHobuwH        Nap     affluence;leisure
     -- bHAbyH  baHAbiyH        Ndip    affluence;leisure
 
-    noun     Identity |< aT            {- buHobuwHap -}     `others` [ "bu.hbuw.h Nap", "ba.hAbiy.h Ndip" ]
+    noun     KuRDUS |< aT              {- buHobuwHap -}     `others` [ "bu.hbuw.h Nap", "ba.hAbiy.h Ndip" ]
                                                             `gloss`  [ "affluence", "leisure" ],
 
     -- ;; mubaHobaH_1
     -- mbHbH   mubaHobaH       Nall    well-to-do;leisurely
 
-    noun     MuFaCCaL                  {- mubaHobaH -}      `gloss`  [ "well-to-do", "leisurely" ],
+    noun     MuKaRDaS                  {- mubaHobaH -}      `gloss`  [ "well-to-do", "leisurely" ],
 
     -- ;; tabaHobuH_1
     -- tbHbH   tabaHobuH       N/At    affluence;leisure
 
-    noun     TaFaCCuL                  {- tabaHobuH -}      `gloss`  [ "affluence", "leisure" ] ]
+    noun     TaKaRDuS                  {- tabaHobuH -}      `gloss`  [ "affluence", "leisure" ] ]
 
  -- ;; bAHat_1
 
@@ -2381,25 +2373,25 @@ lexicon = listing "Lexicon properties"
     -- bHvr    baHovar PV      scatter;squander
     -- bHvr    baHovir IV_yu   scatter;squander
 
-    verb     FaCCaL                    {- baHovar -}        `others` [ "ba.h_tir IV_yu" ]
+    verb     KaRDaS                    {- baHovar -}        `others` [ "ba.h_tir IV_yu" ]
                                                             `gloss`  [ "scatter", "squander" ],
 
     -- ;; tabaHovar_1
     -- tbHvr   tabaHovar       PV_intr be scattered;be squandered
     -- tbHvr   tabaHovar       IV_intr be scattered;be squandered
 
-    verb     TaFaCCaL                  {- tabaHovar -}      `gloss`  [ "be scattered", "be squandered" ],
+    verb     TaKaRDaS                  {- tabaHovar -}      `gloss`  [ "be scattered", "be squandered" ],
 
     -- ;; baHovarap_1
     -- bHvr    baHovar Nap     waste;dissipation
 
-    noun     FaCCaL |< aT              {- baHovarap -}      `others` [ "ba.h_tar Nap" ]
+    noun     KaRDaS |< aT              {- baHovarap -}      `others` [ "ba.h_tar Nap" ]
                                                             `gloss`  [ "waste", "dissipation" ],
 
     -- ;; mubaHovir_1
     -- mbHvr   mubaHovir       Nall    squanderer;dissipating
 
-    noun     MuFaCCiL                  {- mubaHovir -}      `gloss`  [ "squanderer", "dissipating" ] ]
+    noun     MuKaRDiS                  {- mubaHovir -}      `gloss`  [ "squanderer", "dissipating" ] ]
 
  -- ;; baHir-a_1
 
@@ -2498,7 +2490,7 @@ lexicon = listing "Lexicon properties"
     -- ;; baHorAwiy~_1
     -- bHrAwy  baHorAwiy~      N0      Bahrawi;Bahraoui
 
-    noun     FaCCAL |< Iy              {- baHorAwiy~ -}     `gloss`  [ "Bahrawi", "Bahraoui" ] ]
+    noun     KaRDAS |< Iy              {- baHorAwiy~ -}     `gloss`  [ "Bahrawi", "Bahraoui" ] ]
 
  -- ;; baH~Ar_1
 
@@ -2529,7 +2521,7 @@ lexicon = listing "Lexicon properties"
     -- ;; buHorAn_1
     -- bHrAn   buHorAn N       crisis;culmination
 
-    noun     FuCCAL                    {- buHorAn -}        `gloss`  [ "crisis", "culmination" ] ]
+    noun     KuRDAS                    {- buHorAn -}        `gloss`  [ "crisis", "culmination" ] ]
 
  -- ;; <iboHAr_1
 
@@ -2579,7 +2571,7 @@ lexicon = listing "Lexicon properties"
     -- bHlq    baHolaq PV      gaze
     -- bHlq    baHoliq IV_yu   gaze
 
-    verb     FaCCaL                    {- baHolaq -}        `others` [ "ba.hliq IV_yu" ]
+    verb     KaRDaS                    {- baHolaq -}        `others` [ "ba.hliq IV_yu" ]
                                                             `gloss`  [ "gaze" ] ]
 
  -- ;; bax~-u_1
@@ -2656,25 +2648,25 @@ lexicon = listing "Lexicon properties"
     -- bxtr    baxotar PV      swagger;strut
     -- bxtr    baxotir IV_yu   swagger;strut
 
-    verb     FaCCaL                    {- baxotar -}        `others` [ "ba_htir IV_yu" ]
+    verb     KaRDaS                    {- baxotar -}        `others` [ "ba_htir IV_yu" ]
                                                             `gloss`  [ "swagger", "strut" ],
 
     -- ;; tabaxotar_1
     -- tbxtr   tabaxotar       PV      swagger;strut
     -- tbxtr   tabaxotar       IV      swagger;strut
 
-    verb     TaFaCCaL                  {- tabaxotar -}      `gloss`  [ "swagger", "strut" ],
+    verb     TaKaRDaS                  {- tabaxotar -}      `gloss`  [ "swagger", "strut" ],
 
     -- ;; baxotarap_1
     -- bxtr    baxotar Nap     swaggering;strutting
 
-    noun     FaCCaL |< aT              {- baxotarap -}      `others` [ "ba_htar Nap" ]
+    noun     KaRDaS |< aT              {- baxotarap -}      `others` [ "ba_htar Nap" ]
                                                             `gloss`  [ "swaggering", "strutting" ],
 
     -- ;; tabaxotur_1
     -- tbxtr   tabaxotur       NduAt   strutting gait
 
-    noun     TaFaCCuL                  {- tabaxotur -}      `gloss`  [ "strutting gait" ] ]
+    noun     TaKaRDuS                  {- tabaxotur -}      `gloss`  [ "strutting gait" ] ]
 
  -- ;; baxar-a_1
 
@@ -3254,7 +3246,7 @@ lexicon = listing "Lexicon properties"
     -- ;; badorAwiy~_1
     -- bdrAwy  badorAwiy~      N0      Badrawi
 
-    noun     FaCCAL |< Iy              {- badorAwiy~ -}     `gloss`  [ "Badrawi" ] ]
+    noun     KaRDAS |< Iy              {- badorAwiy~ -}     `gloss`  [ "Badrawi" ] ]
 
  -- ;; bidArAF_1
 
@@ -3303,7 +3295,7 @@ lexicon = listing "Lexicon properties"
     -- ;; bidrAg_1
     -- bdrAg   bidrAg  Nprop   Pedrag
 
-    noun     FiCCAL                    {- bidrAg -}         `gloss`  [ "Pedrag" ] ]
+    noun     KiRDAS                    {- bidrAg -}         `gloss`  [ "Pedrag" ] ]
 
  -- ;; badoruwm_1
 
@@ -3313,7 +3305,7 @@ lexicon = listing "Lexicon properties"
     -- bdrwm   badoruwm        N/At    basement
     -- bdrwn   badoruwn        N/At    basement
 
-    noun     FaCCUL                    {- badoruwm -}       `others` [ "badruwn N/At" ]
+    noun     KaRDUS                    {- badoruwm -}       `others` [ "badruwn N/At" ]
                                                             `gloss`  [ "basement" ] ]
 
  -- ;; badaE_1
@@ -3551,16 +3543,12 @@ lexicon = listing "Lexicon properties"
     -- bdAl    bad~Al  NapAt   telephone exchange
 
     noun     FaCCAL |< aT              {- bad~Alap -}       `others` [ "baddAl NapAt" ]
-                                                            `gloss`  [ "telephone exchange" ] ]
-
- -- ;; mabAdil_1
-
- |> "mabAdil" <| [
+                                                            `gloss`  [ "telephone exchange" ],
 
     -- ;; mabAdil_1
     -- mbAdl   mabAdil Ndip    house clothes;casual dress
 
-    noun     Identity                  {- mabAdil -}        `gloss`  [ "house clothes", "casual dress" ],
+    noun     MaFACiL                   {- mabAdil -}        `gloss`  [ "house clothes", "casual dress" ],
 
     -- ;; tabodiyl_1
     -- tbdyl   tabodiyl        NduAt   replacement;exchange
@@ -3777,11 +3765,7 @@ lexicon = listing "Lexicon properties"
     -- bdy     boday   IV_Ann_Pass_yu  be expressed;be demonstrated;be shown
 
     verb     HaFCY                     {- >abodaY -}        `others` [ "bd IV_0hwnyn_yu", "bdY IV_0_Pass_yu", "'abd PV_ttAw", "'abday PV_Atn", "bdiy IV_0hAnn_yu", "bday IV_Ann_Pass_yu", "'abdA PV_h" ]
-                                                            `gloss`  [ "express", "demonstrate", "show", "be expressed", "be demonstrated", "be shown" ] ]
-
- -- ;; tabad~aY_1
-
- |> "bdd" <| [
+                                                            `gloss`  [ "express", "demonstrate", "show", "be expressed", "be demonstrated", "be shown" ],
 
     -- ;; tabad~aY_1
     -- tbdY    tabad~aY        PV_0    appear;be manifested
@@ -3873,17 +3857,13 @@ lexicon = listing "Lexicon properties"
     -- bAdy    bAdiy   NapAt   desert
 
     noun     FACiL |< aT               {- bAdiyap -}        `others` [ "bAdiy NapAt" ]
-                                                            `gloss`  [ "desert" ] ]
-
- -- ;; bawAdiy_1
-
- |> "bawAdiy" <| [
+                                                            `gloss`  [ "desert" ],
 
     -- ;; bawAdiy_1
     -- bwAdy   bawAdiy N0_Nh   nomads;Bedouins
     -- bwAd    bawAd   NK      nomads;Bedouins
 
-    noun     Identity                  {- bawAdiy -}        `others` [ "bawAd NK" ]
+    noun     FawACiL                   {- bawAdiy -}        `others` [ "bawAd NK" ]
                                                             `gloss`  [ "nomads", "Bedouins" ],
 
     -- ;; mubodiyAF_1
@@ -4391,7 +4371,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; >aboriyA'_1
 
- |> "'abriyA'" <| [
+ |> "bry" <| [
 
     -- ;; >aboriyA'_1
     -- >bryA'  >aboriyA'       N0_Nh   innocent;exempt
@@ -4401,7 +4381,19 @@ lexicon = listing "Lexicon properties"
     -- >bryA}  >aboriyA}       Nhy     innocent;exempt
     -- AbryA}  >aboriyA}       Nhy     innocent;exempt
 
-    noun     Identity                  {- >aboriyA' -}      `gloss`  [ "innocent", "exempt" ],
+    noun     HaFCiLA'                  {- >aboriyA' -}      `gloss`  [ "innocent", "exempt" ] ]
+
+ -- ;; barA'ap_1
+
+ |> "br" <| [
+
+    -- ;; barA'ap_1
+
+    noun     FaCA' |< aT               {- barA'ap -}         ]
+
+ -- ;; barA'ap_1
+
+ |> "br'" <| [
 
     -- ;; barA'ap_1
     -- brA'    barA'   Nap     innocence
@@ -4489,22 +4481,18 @@ lexicon = listing "Lexicon properties"
 
  -- ;; barAziyl_1
 
- |> "barAziyl" <| [
+ |> "brzl" <| [
 
     -- ;; barAziyl_1
     -- brAzyl  barAziyl        N       Brazil
 
-    noun     Identity                  {- barAziyl -}       `gloss`  [ "Brazil" ] ]
-
- -- ;; barAziyliy~_1
-
- |> "barAziyl" <| [
+    noun     KaRADIS                   {- barAziyl -}       `gloss`  [ "Brazil" ],
 
     -- ;; barAziyliy~_1
     -- brAzyly barAziyliy~     Nall    Brazilian     [[barAziyliy~/NOUN]]
     -- brAzyly barAziyliy~     Nall    Brazilian     [[barAziyliy~/ADJ]]
 
-    noun     Identity |< Iy            {- barAziyliy~ -}    `gloss`  [ "Brazilian" ] ]
+    noun     KaRADIS |< Iy             {- barAziyliy~ -}    `gloss`  [ "Brazilian" ] ]
 
  -- ;; brAg_1
 
@@ -4638,7 +4626,7 @@ lexicon = listing "Lexicon properties"
     -- brbx    barobax Ndu     water pipe;culvert
     -- brAbx   barAbix Ndip    water pipes;culverts
 
-    noun     FaCCaL                    {- barobax -}        `others` [ "barAbi_h Ndip" ]
+    noun     KaRDaS                    {- barobax -}        `others` [ "barAbi_h Ndip" ]
                                                             `gloss`  [ "water pipe", "culvert", "water pipes", "culverts" ] ]
 
  -- ;; barobar_1
@@ -4649,7 +4637,7 @@ lexicon = listing "Lexicon properties"
     -- brbr    barobar PV      babble;jabber
     -- brbr    barobir IV_yu   babble;jabber
 
-    verb     FaCCaL                    {- barobar -}        `others` [ "barbir IV_yu" ]
+    verb     KaRDaS                    {- barobar -}        `others` [ "barbir IV_yu" ]
                                                             `gloss`  [ "babble", "jabber" ],
 
     -- ;; barobariy~_1
@@ -4658,24 +4646,24 @@ lexicon = listing "Lexicon properties"
     -- brAbr   barAbir Nap     Berbers
     -- brbr    barobar N       Berbers
 
-    noun     FaCCaL |< Iy              {- barobariy~ -}     `others` [ "barAbir Nap", "barbar N" ]
+    noun     KaRDaS |< Iy              {- barobariy~ -}     `others` [ "barAbir Nap", "barbar N" ]
                                                             `gloss`  [ "Berber", "Berbers" ],
 
     -- ;; barobariy~_2
     -- brbry   barobariy~      Nall    barbaric     [[barobariy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- barobariy~ -}     `gloss`  [ "barbaric" ],
+    noun     KaRDaS |< Iy              {- barobariy~ -}     `gloss`  [ "barbaric" ],
 
     -- ;; barobariy~ap_1
     -- brbry   barobariy~      Nap     barbarism;savagery     [[barobariy~/NOUN]]
 
-    noun     FaCCaL |< Iy |< aT        {- barobariy~ap -}   `others` [ "barbariyy Nap" ]
+    noun     KaRDaS |< Iy |< aT        {- barobariy~ap -}   `others` [ "barbariyy Nap" ]
                                                             `gloss`  [ "barbarism", "savagery" ],
 
     -- ;; mutabarobir_1
     -- mtbrbr  mutabarobir     Nall    barbaric
 
-    noun     MutaFaCCiL                {- mutabarobir -}    `gloss`  [ "barbaric" ] ]
+    noun     MutaKaRDiS                {- mutabarobir -}    `gloss`  [ "barbaric" ] ]
 
  -- ;; barobaT_1
 
@@ -4685,7 +4673,7 @@ lexicon = listing "Lexicon properties"
     -- brbT    barobaT PV      splash;paddle
     -- brbT    barobiT IV_yu   splash;paddle
 
-    verb     FaCCaL                    {- barobaT -}        `others` [ "barbi.t IV_yu" ]
+    verb     KaRDaS                    {- barobaT -}        `others` [ "barbi.t IV_yu" ]
                                                             `gloss`  [ "splash", "paddle" ] ]
 
  -- ;; barobuw$_1
@@ -4695,25 +4683,21 @@ lexicon = listing "Lexicon properties"
     -- ;; barobuw$_1
     -- brbw$   barobuw$        N       couscous
 
-    noun     FaCCUL                    {- barobuw$ -}       `gloss`  [ "couscous" ] ]
-
- -- ;; barobiy$_1
-
- |> "barbiy^s" <| [
+    noun     KaRDUS                    {- barobuw$ -}       `gloss`  [ "couscous" ],
 
     -- ;; barobiy$_1
     -- brby$   barobiy$        N       tube
 
-    noun     Identity                  {- barobiy$ -}       `gloss`  [ "tube" ] ]
+    noun     KaRDIS                    {- barobiy$ -}       `gloss`  [ "tube" ] ]
 
  -- ;; barobiys_1
 
- |> "barbiys" <| [
+ |> "brbs" <| [
 
     -- ;; barobiys_1
     -- brbys   barobiys        N       barbel
 
-    noun     Identity                  {- barobiys -}       `gloss`  [ "barbel" ] ]
+    noun     KaRDIS                    {- barobiys -}       `gloss`  [ "barbel" ] ]
 
  -- ;; burotugAl_1
 
@@ -4839,17 +4823,17 @@ lexicon = listing "Lexicon properties"
     -- tbrjz   tabarojaz       PV_intr become bourgeois
     -- tbrjz   tabarojaz       IV_intr become bourgeois
 
-    verb     TaFaCCaL                  {- tabarojaz -}      `gloss`  [ "become bourgeois" ],
+    verb     TaKaRDaS                  {- tabarojaz -}      `gloss`  [ "become bourgeois" ],
 
     -- ;; tabarojuz_1
     -- tbrjz   tabarojuz       N/At    becoming bourgeois
 
-    noun     TaFaCCuL                  {- tabarojuz -}      `gloss`  [ "becoming bourgeois" ],
+    noun     TaKaRDuS                  {- tabarojuz -}      `gloss`  [ "becoming bourgeois" ],
 
     -- ;; mutabarojiz_1
     -- mtbrjz  mutabarojiz     Nall    bourgeois
 
-    noun     MutaFaCCiL                {- mutabarojiz -}    `gloss`  [ "bourgeois" ] ]
+    noun     MutaKaRDiS                {- mutabarojiz -}    `gloss`  [ "bourgeois" ] ]
 
  -- ;; birojAs_1
 
@@ -4858,12 +4842,12 @@ lexicon = listing "Lexicon properties"
     -- ;; birojAs_1
     -- brjAs   birojAs N       birjas (equestrian joust)
 
-    noun     FiCCAL                    {- birojAs -}        `gloss`  [ "birjas ( equestrian joust )" ],
+    noun     KiRDAS                    {- birojAs -}        `gloss`  [ "birjas ( equestrian joust )" ],
 
     -- ;; birojiys_1
     -- brjys   birojiys        N       Jupiter
 
-    noun     FiCCIL                    {- birojiys -}       `gloss`  [ "Jupiter" ] ]
+    noun     KiRDIS                    {- birojiys -}       `gloss`  [ "Jupiter" ] ]
 
  -- ;; barojal_1
 
@@ -4874,7 +4858,7 @@ lexicon = listing "Lexicon properties"
     -- brjl    barojal N       compass
     -- brAjl   barAjil Ndip    compasses;dividers
 
-    noun     FaCCaL                    {- barojal -}        `others` [ "barA^gil Ndip" ]
+    noun     KaRDaS                    {- barojal -}        `others` [ "barA^gil Ndip" ]
                                                             `gloss`  [ "compass", "compasses", "dividers" ] ]
 
  -- ;; burojumap_1
@@ -5211,13 +5195,13 @@ lexicon = listing "Lexicon properties"
     -- brdx    barodax PV      polish;burnish
     -- brdx    barodix IV_yu   polish;burnish
 
-    verb     FaCCaL                    {- barodax -}        `others` [ "bardi_h IV_yu" ]
+    verb     KaRDaS                    {- barodax -}        `others` [ "bardi_h IV_yu" ]
                                                             `gloss`  [ "polish", "burnish" ],
 
     -- ;; barodaxap_1
     -- brdx    barodax Nap     polishing;burnishing
 
-    noun     FaCCaL |< aT              {- barodaxap -}      `others` [ "barda_h Nap" ]
+    noun     KaRDaS |< aT              {- barodaxap -}      `others` [ "barda_h Nap" ]
                                                             `gloss`  [ "polishing", "burnishing" ] ]
 
  -- ;; barodaEap_1
@@ -5228,7 +5212,7 @@ lexicon = listing "Lexicon properties"
     -- brdE    barodaE Napdu   saddle cloth;pack-saddle
     -- brAdE   barAdiE Ndip    saddle cloths;pack-saddles
 
-    noun     FaCCaL |< aT              {- barodaEap -}      `others` [ "barAdi` Ndip", "barda` Napdu" ]
+    noun     KaRDaS |< aT              {- barodaEap -}      `others` [ "barAdi` Ndip", "barda` Napdu" ]
                                                             `gloss`  [ "saddle cloth", "pack-saddle", "saddle cloths", "pack-saddles" ] ]
 
  -- ;; barAdiEiy~_1
@@ -5248,7 +5232,7 @@ lexicon = listing "Lexicon properties"
     -- brdAq   barodAq Ndu     pitcher;jug
     -- brAdyq  barAdiyq        Ndip    pitchers;jugs
 
-    noun     FaCCAL                    {- barodAq -}        `others` [ "barAdiyq Ndip" ]
+    noun     KaRDAS                    {- barodAq -}        `others` [ "barAdiyq Ndip" ]
                                                             `gloss`  [ "pitcher", "jug", "pitchers", "jugs" ] ]
 
  -- ;; barodaquw$_1
@@ -5267,7 +5251,7 @@ lexicon = listing "Lexicon properties"
     -- ;; baroduwrap_1
     -- brdwr   baroduwr        Nap     curbstone;curb
 
-    noun     FaCCUL |< aT              {- baroduwrap -}     `others` [ "barduwr Nap" ]
+    noun     KaRDUS |< aT              {- baroduwrap -}     `others` [ "barduwr Nap" ]
                                                             `gloss`  [ "curbstone", "curb" ] ]
 
  -- ;; baro*aEap_1
@@ -5278,7 +5262,7 @@ lexicon = listing "Lexicon properties"
     -- br*E    baro*aE Napdu   saddle cloth;pack-saddle
     -- brA*E   barA*iE Ndip    saddle cloths;pack-saddles
 
-    noun     FaCCaL |< aT              {- baro*aEap -}      `others` [ "bar_da` Napdu", "barA_di` Ndip" ]
+    noun     KaRDaS |< aT              {- baro*aEap -}      `others` [ "bar_da` Napdu", "barA_di` Ndip" ]
                                                             `gloss`  [ "saddle cloth", "pack-saddle", "saddle cloths", "pack-saddles" ] ]
 
  -- ;; barA*iEiy~_1
@@ -5439,7 +5423,7 @@ lexicon = listing "Lexicon properties"
     -- brzx    barozax Ndu     partition;isthmus
     -- brAzx   barAzix Ndip    partitions;straits
 
-    noun     FaCCaL                    {- barozax -}        `others` [ "barAzi_h Ndip" ]
+    noun     KaRDaS                    {- barozax -}        `others` [ "barAzi_h Ndip" ]
                                                             `gloss`  [ "partition", "isthmus", "partitions", "straits" ] ]
 
  -- ;; barazAn_1
@@ -5460,12 +5444,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; burozuwq_1
 
- |> "burzuwq" <| [
+ |> "brzq" <| [
 
     -- ;; burozuwq_1
     -- brzwq   burozuwq        N       sidewalk
 
-    noun     Identity                  {- burozuwq -}       `gloss`  [ "sidewalk" ] ]
+    noun     KuRDUS                    {- burozuwq -}       `gloss`  [ "sidewalk" ] ]
 
  -- ;; bris_1
 
@@ -5483,12 +5467,12 @@ lexicon = listing "Lexicon properties"
     -- ;; birosAm_1
     -- brsAm   birosAm N       pleurisy (lung inflammation)
 
-    noun     FiCCAL                    {- birosAm -}        `gloss`  [ "pleurisy ( lung inflammation )" ],
+    noun     KiRDAS                    {- birosAm -}        `gloss`  [ "pleurisy ( lung inflammation )" ],
 
     -- ;; birosiym_1
     -- brsym   birosiym        N       clover
 
-    noun     FiCCIL                    {- birosiym -}       `gloss`  [ "clover" ] ]
+    noun     KiRDIS                    {- birosiym -}       `gloss`  [ "clover" ] ]
 
  -- ;; buro$_1
 
@@ -5530,26 +5514,26 @@ lexicon = listing "Lexicon properties"
     -- br$m    baro$am PV      stare;gaze
     -- br$m    baro$im IV_yu   stare;gaze
 
-    verb     FaCCaL                    {- baro$am -}        `others` [ "bar^sim IV_yu" ]
+    verb     KaRDaS                    {- baro$am -}        `others` [ "bar^sim IV_yu" ]
                                                             `gloss`  [ "stare", "gaze" ],
 
     -- ;; baro$am_2
     -- br$m    baro$am PV      rivet;hem
     -- br$m    baro$im IV_yu   rivet;hem
 
-    verb     FaCCaL                    {- baro$am -}        `others` [ "bar^sim IV_yu" ]
+    verb     KaRDaS                    {- baro$am -}        `others` [ "bar^sim IV_yu" ]
                                                             `gloss`  [ "rivet", "hem" ],
 
     -- ;; baro$amap_1
     -- br$m    baro$am Nap     riveting
 
-    noun     FaCCaL |< aT              {- baro$amap -}      `others` [ "bar^sam Nap" ]
+    noun     KaRDaS |< aT              {- baro$amap -}      `others` [ "bar^sam Nap" ]
                                                             `gloss`  [ "riveting" ],
 
     -- ;; buro$Amap_1
     -- br$Am   buro$Am NapAt   rivet
 
-    noun     FuCCAL |< aT              {- buro$Amap -}      `others` [ "bur^sAm NapAt" ]
+    noun     KuRDAS |< aT              {- buro$Amap -}      `others` [ "bur^sAm NapAt" ]
                                                             `gloss`  [ "rivet" ] ]
 
  -- ;; buro$Amojiy~_1
@@ -5567,7 +5551,7 @@ lexicon = listing "Lexicon properties"
     -- br$Am   buro$Am Nap     communion wafer
     -- br$An   buro$An N/ap    communion wafer
 
-    noun     FuCCAL                    {- buro$Am -}        `others` [ "bur^sAn N/ap" ]
+    noun     KuRDAS                    {- buro$Am -}        `others` [ "bur^sAn N/ap" ]
                                                             `gloss`  [ "communion wafer" ] ]
 
  -- ;; baro$iluwnah_1
@@ -5583,7 +5567,7 @@ lexicon = listing "Lexicon properties"
     -- ;; baro$uwmiy~_1
     -- br$wmy  baro$uwmiy~     Nall    prickly pear     [[baro$uwmiy~/ADJ]]
 
-    noun     FaCCUL |< Iy              {- baro$uwmiy~ -}    `gloss`  [ "prickly pear" ] ]
+    noun     KaRDUS |< Iy              {- baro$uwmiy~ -}    `gloss`  [ "prickly pear" ] ]
 
  -- ;; bariS-a_1
 
@@ -5640,7 +5624,7 @@ lexicon = listing "Lexicon properties"
     -- ;; baroTuwz_1
     -- brTwz   baroTuwz        N       crew's quarters
 
-    noun     FaCCUL                    {- baroTuwz -}       `gloss`  [ "crew 's quarters" ] ]
+    noun     KaRDUS                    {- baroTuwz -}       `gloss`  [ "crew 's quarters" ] ]
 
  -- ;; baroTaE_1
 
@@ -5650,7 +5634,7 @@ lexicon = listing "Lexicon properties"
     -- brTE    baroTaE PV      gallop
     -- brTE    baroTiE IV_yu   gallop
 
-    verb     FaCCaL                    {- baroTaE -}        `others` [ "bar.ti` IV_yu" ]
+    verb     KaRDaS                    {- baroTaE -}        `others` [ "bar.ti` IV_yu" ]
                                                             `gloss`  [ "gallop" ] ]
 
  -- ;; baroTal_1
@@ -5661,20 +5645,20 @@ lexicon = listing "Lexicon properties"
     -- brTl    baroTal PV      bribe;corrupt
     -- brTl    baroTil IV_yu   bribe;corrupt
 
-    verb     FaCCaL                    {- baroTal -}        `others` [ "bar.til IV_yu" ]
+    verb     KaRDaS                    {- baroTal -}        `others` [ "bar.til IV_yu" ]
                                                             `gloss`  [ "bribe", "corrupt" ],
 
     -- ;; tabaroTal_1
     -- tbrTl   tabaroTal       PV      take bribes;be corrupted
     -- tbrTl   tabaroTal       IV      take bribes;be corrupted
 
-    verb     TaFaCCaL                  {- tabaroTal -}      `gloss`  [ "take bribes", "be corrupted" ],
+    verb     TaKaRDaS                  {- tabaroTal -}      `gloss`  [ "take bribes", "be corrupted" ],
 
     -- ;; biroTiyl_1
     -- brTyl   biroTiyl        Ndu     bribe
     -- brATyl  barATiyl        Ndip    bribes
 
-    noun     FiCCIL                    {- biroTiyl -}       `others` [ "barA.tiyl Ndip" ]
+    noun     KiRDIS                    {- biroTiyl -}       `others` [ "barA.tiyl Ndip" ]
                                                             `gloss`  [ "bribe", "bribes" ] ]
 
  -- ;; baroTam_1
@@ -5685,18 +5669,14 @@ lexicon = listing "Lexicon properties"
     -- brTm    baroTam PV      talk nonsense
     -- brTm    baroTim IV_yu   talk nonsense
 
-    verb     FaCCaL                    {- baroTam -}        `others` [ "bar.tim IV_yu" ]
-                                                            `gloss`  [ "talk nonsense" ] ]
-
- -- ;; buroTuwm_1
-
- |> "bur.tuwm" <| [
+    verb     KaRDaS                    {- baroTam -}        `others` [ "bar.tim IV_yu" ]
+                                                            `gloss`  [ "talk nonsense" ],
 
     -- ;; buroTuwm_1
     -- brTwm   buroTuwm        Ndu     elephant trunk
     -- brTwm   baroTuwm        Ndu     elephant trunk
 
-    noun     Identity                  {- buroTuwm -}       `others` [ "bar.tuwm Ndu" ]
+    noun     KuRDUS                    {- buroTuwm -}       `others` [ "bar.tuwm Ndu" ]
                                                             `gloss`  [ "elephant trunk" ] ]
 
  -- ;; baroTamAn_1
@@ -5792,14 +5772,14 @@ lexicon = listing "Lexicon properties"
     -- brEm    baroEam PV      burgeon;bud
     -- brEm    baroEim IV_yu   burgeon;bud
 
-    verb     FaCCaL                    {- baroEam -}        `others` [ "bar`im IV_yu" ]
+    verb     KaRDaS                    {- baroEam -}        `others` [ "bar`im IV_yu" ]
                                                             `gloss`  [ "burgeon", "bud" ],
 
     -- ;; tabaroEam_1
     -- tbrEm   tabaroEam       PV      burgeon;bud
     -- tbrEm   tabaroEam       IV      burgeon;bud
 
-    verb     TaFaCCaL                  {- tabaroEam -}      `gloss`  [ "burgeon", "bud" ] ]
+    verb     TaKaRDaS                  {- tabaroEam -}      `gloss`  [ "burgeon", "bud" ] ]
 
  -- ;; buroEum_1
 
@@ -5810,23 +5790,19 @@ lexicon = listing "Lexicon properties"
     -- brAEm   barAEim Ndip    buds;blossoms
 
     noun     Identity                  {- buroEum -}        `others` [ "barA`im Ndip" ]
-                                                            `gloss`  [ "bud", "blossom", "buds", "blossoms" ] ]
-
- -- ;; buroEuwm_1
-
- |> "bur`uwm" <| [
+                                                            `gloss`  [ "bud", "blossom", "buds", "blossoms" ],
 
     -- ;; buroEuwm_1
     -- brEwm   buroEuwm        Ndu     bud;blossom
     -- brAEym  barAEiym        Ndip    buds;blossoms
 
-    noun     Identity                  {- buroEuwm -}       `others` [ "barA`iym Ndip" ]
+    noun     KuRDUS                    {- buroEuwm -}       `others` [ "barA`iym Ndip" ]
                                                             `gloss`  [ "bud", "blossom", "buds", "blossoms" ],
 
     -- ;; tabaroEum_1
     -- tbrEm   tabaroEum       NduAt   gemmation;budding;blossoming
 
-    noun     TaFaCCuL                  {- tabaroEum -}      `gloss`  [ "gemmation", "budding", "blossoming" ] ]
+    noun     TaKaRDuS                  {- tabaroEum -}      `gloss`  [ "gemmation", "budding", "blossoming" ] ]
 
  -- ;--- brgv
 
@@ -5836,13 +5812,13 @@ lexicon = listing "Lexicon properties"
     -- brgwv   baroguwv        Ndu     flea
     -- brAgyv  barAgiyv        Ndip    fleas
 
-    noun     FaCCUL                    {- baroguwv -}       `others` [ "barA.giy_t Ndip" ]
+    noun     KaRDUS                    {- baroguwv -}       `others` [ "barA.giy_t Ndip" ]
                                                             `gloss`  [ "flea", "fleas" ],
 
     -- ;; baroguwviy~_1
     -- brgwvy  baroguwviy~     N0      Barghouthi
 
-    noun     FaCCUL |< Iy              {- baroguwviy~ -}    `gloss`  [ "Barghouthi" ] ]
+    noun     KaRDUS |< Iy              {- baroguwviy~ -}    `gloss`  [ "Barghouthi" ] ]
 
  -- ;; barogar_1
 
@@ -5851,7 +5827,7 @@ lexicon = listing "Lexicon properties"
     -- ;; barogar_1
     -- brgr    barogar Nprop   Berger;Burger
 
-    noun     FaCCaL                    {- barogar -}        `gloss`  [ "Berger", "Burger" ] ]
+    noun     KaRDaS                    {- barogar -}        `gloss`  [ "Berger", "Burger" ] ]
 
  -- ;; baroga$_1
 
@@ -5861,7 +5837,7 @@ lexicon = listing "Lexicon properties"
     -- brg$    baroga$ N       gnats;midges
     -- brg$    baroga$ Napdu   gnat;midge
 
-    noun     FaCCaL                    {- baroga$ -}        `gloss`  [ "gnats", "midges", "gnat", "midge" ] ]
+    noun     KaRDaS                    {- baroga$ -}        `gloss`  [ "gnats", "midges", "gnat", "midge" ] ]
 
  -- ;; burogul_1
 
@@ -5885,13 +5861,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; barofiyz_1
 
- |> "barfiyz" <| [
+ |> "brfz" <| [
 
     -- ;; barofiyz_1
     -- brfyz   barofiyz        Nprop   Parvez
     -- brwyz   barowiyz        Nprop   Parvez
 
-    noun     Identity                  {- barofiyz -}       `others` [ "barwiyz Nprop" ]
+    noun     KaRDIS                    {- barofiyz -}       `others` [ "barwiyz Nprop" ]
                                                             `gloss`  [ "Parvez" ] ]
 
  -- ;; birofiyr_1
@@ -5902,7 +5878,7 @@ lexicon = listing "Lexicon properties"
     -- brfyr   birofiyr        N       purple
     -- brAfyr  barAfiyr        Ndip    purple
 
-    noun     FiCCIL                    {- birofiyr -}       `others` [ "barAfiyr Ndip" ]
+    noun     KiRDIS                    {- birofiyr -}       `others` [ "barAfiyr Ndip" ]
                                                             `gloss`  [ "purple" ] ]
 
  -- ;; baraq-u_1
@@ -5999,14 +5975,14 @@ lexicon = listing "Lexicon properties"
     -- brq$    baroqa$ PV      embellish;variegate
     -- brq$    baroqi$ IV_yu   embellish;variegate
 
-    verb     FaCCaL                    {- baroqa$ -}        `others` [ "barqi^s IV_yu" ]
+    verb     KaRDaS                    {- baroqa$ -}        `others` [ "barqi^s IV_yu" ]
                                                             `gloss`  [ "embellish", "variegate" ],
 
     -- ;; tabaroqa$_1
     -- tbrq$   tabaroqa$       PV_intr be embellished;be variegated
     -- tbrq$   tabaroqa$       IV_intr be embellished;be variegated
 
-    verb     TaFaCCaL                  {- tabaroqa$ -}      `gloss`  [ "be embellished", "be variegated" ] ]
+    verb     TaKaRDaS                  {- tabaroqa$ -}      `gloss`  [ "be embellished", "be variegated" ] ]
 
  -- ;; biroqi$_1
 
@@ -6022,13 +5998,13 @@ lexicon = listing "Lexicon properties"
     -- ;; baroqa$ap_1
     -- brq$    baroqa$ Nap     variegation;colorful
 
-    noun     FaCCaL |< aT              {- baroqa$ap -}      `others` [ "barqa^s Nap" ]
+    noun     KaRDaS |< aT              {- baroqa$ap -}      `others` [ "barqa^s Nap" ]
                                                             `gloss`  [ "variegation", "colorful" ],
 
     -- ;; mubaroqa$_1
     -- mbrq$   mubaroqa$       Nall    multicolored;variegated
 
-    noun     MuFaCCaL                  {- mubaroqa$ -}      `gloss`  [ "multicolored", "variegated" ] ]
+    noun     MuKaRDaS                  {- mubaroqa$ -}      `gloss`  [ "multicolored", "variegated" ] ]
 
  -- ;; baroqaE_1
 
@@ -6038,14 +6014,14 @@ lexicon = listing "Lexicon properties"
     -- brqE    baroqaE PV      veil;drape
     -- brqE    baroqiE IV_yu   veil;drape
 
-    verb     FaCCaL                    {- baroqaE -}        `others` [ "barqi` IV_yu" ]
+    verb     KaRDaS                    {- baroqaE -}        `others` [ "barqi` IV_yu" ]
                                                             `gloss`  [ "veil", "drape" ],
 
     -- ;; tabaroqaE_1
     -- tbrqE   tabaroqaE       PV_intr be veiled
     -- tbrqE   tabaroqaE       IV_intr be veiled
 
-    verb     TaFaCCaL                  {- tabaroqaE -}      `gloss`  [ "be veiled" ] ]
+    verb     TaKaRDaS                  {- tabaroqaE -}      `gloss`  [ "be veiled" ] ]
 
  -- ;; buroquE_1
 
@@ -6060,17 +6036,21 @@ lexicon = listing "Lexicon properties"
 
  -- ;; baroquwq_1
 
- |> "brq" <| [
+ |> "barquwq" <| [
 
     -- ;; baroquwq_1
     -- brqwq   baroquwq        N       plum
 
-    noun     FaCCUL                    {- baroquwq -}       `gloss`  [ "plum" ],
+    noun     Identity                  {- baroquwq -}       `gloss`  [ "plum" ] ]
+
+ -- ;; baroquwqiy~_1
+
+ |> "barquwq" <| [
 
     -- ;; baroquwqiy~_1
     -- brqwqy  baroquwqiy~     Nall    plum;purple     [[baroquwqiy~/ADJ]]
 
-    noun     FaCCUL |< Iy              {- baroquwqiy~ -}    `gloss`  [ "plum", "purple" ] ]
+    noun     Identity |< Iy            {- baroquwqiy~ -}    `gloss`  [ "plum", "purple" ] ]
 
  -- ;; barak-u_1
 
@@ -6189,7 +6169,7 @@ lexicon = listing "Lexicon properties"
     -- ;; birokAr_1
     -- brkAr   birokAr N       compass;dividers
 
-    noun     FiCCAL                    {- birokAr -}        `gloss`  [ "compass", "dividers" ] ]
+    noun     KiRDAS                    {- birokAr -}        `gloss`  [ "compass", "dividers" ] ]
 
  -- ;; barAriyk_1
 
@@ -6208,13 +6188,13 @@ lexicon = listing "Lexicon properties"
     -- brkAn   burokAn Ndu     volcano
     -- brAkyn  barAkiyn        Ndip    volcanos
 
-    noun     FuCCAL                    {- burokAn -}        `others` [ "barAkiyn Ndip" ]
+    noun     KuRDAS                    {- burokAn -}        `others` [ "barAkiyn Ndip" ]
                                                             `gloss`  [ "volcano", "volcanos" ],
 
     -- ;; burokAniy~_1
     -- brkAny  burokAniy~      Nall    volcanic     [[burokAniy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- burokAniy~ -}     `gloss`  [ "volcanic" ] ]
+    noun     KuRDAS |< Iy              {- burokAniy~ -}     `gloss`  [ "volcanic" ] ]
 
  -- ;; barolamAn_1
 
@@ -6236,12 +6216,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; baroliyn_1
 
- |> "barliyn" <| [
+ |> "brln" <| [
 
     -- ;; baroliyn_1
     -- brlyn   baroliyn        N0      Berlin
 
-    noun     Identity                  {- baroliyn -}       `gloss`  [ "Berlin" ] ]
+    noun     KaRDIS                    {- baroliyn -}       `gloss`  [ "Berlin" ] ]
 
  -- ;; barim-a_1
 
@@ -6406,7 +6386,7 @@ lexicon = listing "Lexicon properties"
     -- brmA}y  baromA}iy~      Nall    amphibious     [[baromA}iy~/ADJ]]
     -- brmAwy  baromAwiy~      Nall    amphibious     [[baromAwiy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- baromA}iy~ -}     `others` [ "barmAwiyy Nall" ]
+    noun     KaRDAS |< Iy              {- baromA}iy~ -}     `others` [ "barmAwiyy Nall" ]
                                                             `gloss`  [ "amphibious" ] ]
 
  -- ;; baromAnant_1
@@ -6426,40 +6406,40 @@ lexicon = listing "Lexicon properties"
     -- brmj    baromaj PV      program
     -- brmj    baromij IV_yu   program
 
-    verb     FaCCaL                    {- baromaj -}        `others` [ "barmi^g IV_yu" ]
+    verb     KaRDaS                    {- baromaj -}        `others` [ "barmi^g IV_yu" ]
                                                             `gloss`  [ "program" ],
 
     -- ;; tabaromaj_1
     -- tbrmj   tabaromaj       PV_intr be programmed
     -- tbrmj   tabaromaj       IV_intr be programmed
 
-    verb     TaFaCCaL                  {- tabaromaj -}      `gloss`  [ "be programmed" ],
+    verb     TaKaRDaS                  {- tabaromaj -}      `gloss`  [ "be programmed" ],
 
     -- ;; baromajap_1
     -- brmj    baromaj NapAt   programming
 
-    noun     FaCCaL |< aT              {- baromajap -}      `others` [ "barma^g NapAt" ]
+    noun     KaRDaS |< aT              {- baromajap -}      `others` [ "barma^g NapAt" ]
                                                             `gloss`  [ "programming" ],
 
     -- ;; mubaromaj_1
     -- mbrmj   mubaromaj       N-ap    programmed;scheduled
 
-    noun     MuFaCCaL                  {- mubaromaj -}      `gloss`  [ "programmed", "scheduled" ],
+    noun     MuKaRDaS                  {- mubaromaj -}      `gloss`  [ "programmed", "scheduled" ],
 
     -- ;; mubaromij_1
     -- mbrmj   mubaromij       Nall    programmer
 
-    noun     MuFaCCiL                  {- mubaromij -}      `gloss`  [ "programmer" ],
+    noun     MuKaRDiS                  {- mubaromij -}      `gloss`  [ "programmer" ],
 
     -- ;; baromajiy~_1
     -- brmjy   baromajiy~      Nall    programming;software     [[baromajiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- baromajiy~ -}     `gloss`  [ "programming", "software" ],
+    noun     KaRDaS |< Iy              {- baromajiy~ -}     `gloss`  [ "programming", "software" ],
 
     -- ;; baromajiy~At_1
     -- brmjy   baromajiy~      NAt     software     [[baromajiy~/NOUN]]
 
-    noun     FaCCaL |< Iy |< At        {- baromajiy~At -}   `others` [ "barma^giyy NAt" ]
+    noun     KaRDaS |< Iy |< At        {- baromajiy~At -}   `others` [ "barma^giyy NAt" ]
                                                             `gloss`  [ "software" ] ]
 
  -- ;; baromaq_1
@@ -6470,7 +6450,7 @@ lexicon = listing "Lexicon properties"
     -- brmq    baromaq N       baluster;post;spike
     -- brAmq   barAmiq N       balusters;posts;spikes
 
-    noun     FaCCaL                    {- baromaq -}        `others` [ "barAmiq N" ]
+    noun     KaRDaS                    {- baromaq -}        `others` [ "barAmiq N" ]
                                                             `gloss`  [ "baluster", "post", "spike", "balusters", "posts", "spikes" ] ]
 
  -- ;; baramohAt_1
@@ -6493,32 +6473,28 @@ lexicon = listing "Lexicon properties"
 
  -- ;; biromuwdiy~_1
 
- |> "birmuwd" <| [
+ |> "brmd" <| [
 
     -- ;; biromuwdiy~_1
     -- brmwdy  biromuwdiy~     Nall    Bermudan     [[biromuwdiy~/NOUN]]
     -- brmwdy  biromuwdiy~     Nall    Bermudan     [[biromuwdiy~/ADJ]]
 
-    noun     Identity |< Iy            {- biromuwdiy~ -}    `gloss`  [ "Bermudan" ] ]
-
- -- ;; baromuwdap_1
-
- |> "brmd" <| [
+    noun     KiRDUS |< Iy              {- biromuwdiy~ -}    `gloss`  [ "Bermudan" ],
 
     -- ;; baromuwdap_1
     -- brmwdp  baromuwdap      N0      Barmudah (8th Coptic month, Apr. 9-May 8)
 
-    noun     FaCCUL |< aT              {- baromuwdap -}     `gloss`  [ "Barmudah ( 8th Coptic month , Apr. 9-May 8 )" ] ]
+    noun     KaRDUS |< aT              {- baromuwdap -}     `gloss`  [ "Barmudah ( 8th Coptic month , Apr. 9-May 8 )" ] ]
 
  -- ;; baromiyl_1
 
- |> "barmiyl" <| [
+ |> "brml" <| [
 
     -- ;; baromiyl_1
     -- brmyl   baromiyl        N       barrel
     -- brAmyl  barAmiyl        Ndip    barrels
 
-    noun     Identity                  {- baromiyl -}       `others` [ "barAmiyl Ndip" ]
+    noun     KaRDIS                    {- baromiyl -}       `others` [ "barAmiyl Ndip" ]
                                                             `gloss`  [ "barrel", "barrels" ] ]
 
  -- ;; biron_1
@@ -6558,19 +6534,19 @@ lexicon = listing "Lexicon properties"
     -- brnz    baronaz PV      bronze
     -- brnz    baroniz IV_yu   bronze
 
-    verb     FaCCaL                    {- baronaz -}        `others` [ "barniz IV_yu" ]
+    verb     KaRDaS                    {- baronaz -}        `others` [ "barniz IV_yu" ]
                                                             `gloss`  [ "bronze" ],
 
     -- ;; baronazap_1
     -- brnz    baronaz Nap     bronzing
 
-    noun     FaCCaL |< aT              {- baronazap -}      `others` [ "barnaz Nap" ]
+    noun     KaRDaS |< aT              {- baronazap -}      `others` [ "barnaz Nap" ]
                                                             `gloss`  [ "bronzing" ],
 
     -- ;; mubaronaz_1
     -- mbrnz   mubaronaz       Nall    bronzed
 
-    noun     MuFaCCaL                  {- mubaronaz -}      `gloss`  [ "bronzed" ] ]
+    noun     MuKaRDaS                  {- mubaronaz -}      `gloss`  [ "bronzed" ] ]
 
  -- ;; tabaronaT_1
 
@@ -6580,7 +6556,7 @@ lexicon = listing "Lexicon properties"
     -- tbrnT   tabaronaT       PV      wear/put on a (Western) hat
     -- tbrnT   tabaronaT       IV      wear/put on a (Western) hat
 
-    verb     TaFaCCaL                  {- tabaronaT -}      `gloss`  [ "wear / put on a ( Western ) hat" ] ]
+    verb     TaKaRDaS                  {- tabaronaT -}      `gloss`  [ "wear / put on a ( Western ) hat" ] ]
 
  -- ;; buronayoTap_1
 
@@ -6601,7 +6577,7 @@ lexicon = listing "Lexicon properties"
     -- brnq    baronaq PV      varnish
     -- brnq    baroniq IV_yu   varnish
 
-    verb     FaCCaL                    {- baronaq -}        `others` [ "barniq IV_yu" ]
+    verb     KaRDaS                    {- baronaq -}        `others` [ "barniq IV_yu" ]
                                                             `gloss`  [ "varnish" ] ]
 
  -- ;; baronaqao_1
@@ -6706,19 +6682,19 @@ lexicon = listing "Lexicon properties"
     -- ;; barohamap_1
     -- brhm    baroham Nap     Brahmanism
 
-    noun     FaCCaL |< aT              {- barohamap -}      `others` [ "barham Nap" ]
+    noun     KaRDaS |< aT              {- barohamap -}      `others` [ "barham Nap" ]
                                                             `gloss`  [ "Brahmanism" ],
 
     -- ;; barohamiy~_1
     -- brhmy   barohamiy~      Nall    Brahman     [[barohamiy~/NOUN]]
     -- brhmy   barohamiy~      Nall    Brahman     [[barohamiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- barohamiy~ -}     `gloss`  [ "Brahman" ],
+    noun     KaRDaS |< Iy              {- barohamiy~ -}     `gloss`  [ "Brahman" ],
 
     -- ;; barohamiy~ap_1
     -- brhmy   barohamiy~      Nap     Brahmanism     [[barohamiy~/NOUN]]
 
-    noun     FaCCaL |< Iy |< aT        {- barohamiy~ap -}   `others` [ "barhamiyy Nap" ]
+    noun     KaRDaS |< Iy |< aT        {- barohamiy~ap -}   `others` [ "barhamiyy Nap" ]
                                                             `gloss`  [ "Brahmanism" ] ]
 
  -- ;; barahoman_1
@@ -6740,25 +6716,25 @@ lexicon = listing "Lexicon properties"
     -- brhn    barohan PV-n    prove;demonstrate
     -- brhn    barohin IV-n_yu prove;demonstrate
 
-    verb     FaCCaL                    {- barohan -}        `others` [ "barhin IV-n_yu" ]
+    verb     KaRDaS                    {- barohan -}        `others` [ "barhin IV-n_yu" ]
                                                             `gloss`  [ "prove", "demonstrate" ],
 
     -- ;; barohanap_1
     -- brhn    barohan NapAt   proving;demonstration
 
-    noun     FaCCaL |< aT              {- barohanap -}      `others` [ "barhan NapAt" ]
+    noun     KaRDaS |< aT              {- barohanap -}      `others` [ "barhan NapAt" ]
                                                             `gloss`  [ "proving", "demonstration" ],
 
     -- ;; burohAn_1
     -- brhAn   burohAn N0      Burhan
 
-    noun     FuCCAL                    {- burohAn -}        `gloss`  [ "Burhan" ],
+    noun     KuRDAS                    {- burohAn -}        `gloss`  [ "Burhan" ],
 
     -- ;; burohAn_2
     -- brhAn   burohAn Ndu     proof
     -- brAhyn  barAhiyn        Ndip    proof
 
-    noun     FuCCAL                    {- burohAn -}        `others` [ "barAhiyn Ndip" ]
+    noun     KuRDAS                    {- burohAn -}        `others` [ "barAhiyn Ndip" ]
                                                             `gloss`  [ "proof" ] ]
 
  -- ;--- brw
@@ -6877,7 +6853,7 @@ lexicon = listing "Lexicon properties"
     -- brwz    barowaz PV      frame
     -- brwz    barowiz IV_yu   frame
 
-    verb     FaCCaL                    {- barowaz -}        `others` [ "barwiz IV_yu" ]
+    verb     KaRDaS                    {- barowaz -}        `others` [ "barwiz IV_yu" ]
                                                             `gloss`  [ "frame" ],
 
     -- ;; barowAz_1
@@ -6885,7 +6861,7 @@ lexicon = listing "Lexicon properties"
     -- brwAz   birowAz Ndu     frame
     -- brAwyz  barAwiyz        Ndip    frames
 
-    noun     FaCCAL                    {- barowAz -}        `others` [ "birwAz Ndu", "barAwiyz Ndip" ]
+    noun     KaRDAS                    {- barowAz -}        `others` [ "birwAz Ndu", "barAwiyz Ndip" ]
                                                             `gloss`  [ "frame", "frames" ] ]
 
  -- ;; bruws_1
@@ -7360,7 +7336,7 @@ lexicon = listing "Lexicon properties"
     -- bzbwz   bazobuwz        N       nozzle;spout
     -- bzAbyz  bazAbiyz        Ndip    nozzles;spouts
 
-    noun     FaCCUL                    {- bazobuwz -}       `others` [ "bazAbiyz Ndip" ]
+    noun     KaRDUS                    {- bazobuwz -}       `others` [ "bazAbiyz Ndip" ]
                                                             `gloss`  [ "nozzle", "spout", "nozzles", "spouts" ] ]
 
  -- ;; bazar-i_1
@@ -7534,13 +7510,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; bizomuwt_1
 
- |> "bizmuwt" <| [
+ |> "bzmt" <| [
 
     -- ;; bizomuwt_1
     -- bzmwt   bizomuwt        N       bismuth (metallic element)
     -- bzmwv   bizomuwv        N       bismuth (metallic element)
 
-    noun     Identity                  {- bizomuwt -}       `others` [ "bizmuw_t N" ]
+    noun     KiRDUS                    {- bizomuwt -}       `others` [ "bizmuw_t N" ]
                                                             `gloss`  [ "bismuth ( metallic element )" ] ]
 
  -- ;; bizanoTiy~_1
@@ -7614,13 +7590,13 @@ lexicon = listing "Lexicon properties"
     -- bsbAs   basobAs N       mace;fennel
     -- bsbAs   basobAs Nap     mace;fennel
 
-    noun     FaCCAL                    {- basobAs -}        `gloss`  [ "mace", "fennel" ],
+    noun     KaRDAS                    {- basobAs -}        `gloss`  [ "mace", "fennel" ],
 
     -- ;; basobuwsap_1
     -- bsbws   basobuws        Nap     basbousah (semolina cake)
     -- bsAbs   basAbis Ndip    basbousahs (semolina cakes)
 
-    noun     FaCCUL |< aT              {- basobuwsap -}     `others` [ "basAbis Ndip", "basbuws Nap" ]
+    noun     KaRDUS |< aT              {- basobuwsap -}     `others` [ "basAbis Ndip", "basbuws Nap" ]
                                                             `gloss`  [ "basbousah ( semolina cake )", "basbousahs ( semolina cakes )" ] ]
 
  -- ;; basotar_1
@@ -7631,25 +7607,25 @@ lexicon = listing "Lexicon properties"
     -- bstr    basotar PV      pasteurize
     -- bstr    basotir IV_yu   pasteurize
 
-    verb     FaCCaL                    {- basotar -}        `others` [ "bastir IV_yu" ]
+    verb     KaRDaS                    {- basotar -}        `others` [ "bastir IV_yu" ]
                                                             `gloss`  [ "pasteurize" ],
 
     -- ;; tabasotar_1
     -- tbstr   tabasotar       PV_intr be pasteurized
     -- tbstr   tabasotar       IV_intr be pasteurized
 
-    verb     TaFaCCaL                  {- tabasotar -}      `gloss`  [ "be pasteurized" ],
+    verb     TaKaRDaS                  {- tabasotar -}      `gloss`  [ "be pasteurized" ],
 
     -- ;; basotarap_1
     -- bstr    basotar Nap     pasteurization
 
-    noun     FaCCaL |< aT              {- basotarap -}      `others` [ "bastar Nap" ]
+    noun     KaRDaS |< aT              {- basotarap -}      `others` [ "bastar Nap" ]
                                                             `gloss`  [ "pasteurization" ],
 
     -- ;; mubasotar_1
     -- mbstr   mubasotar       Nall    pasteurized
 
-    noun     MuFaCCaL                  {- mubasotar -}      `gloss`  [ "pasteurized" ] ]
+    noun     MuKaRDaS                  {- mubasotar -}      `gloss`  [ "pasteurized" ] ]
 
  -- ;; basotil~ap_1
 
@@ -7669,41 +7645,37 @@ lexicon = listing "Lexicon properties"
     -- bstAn   busotAn Ndu     garden
     -- bsAtyn  basAtiyn        Ndip    gardens
 
-    noun     FuCCAL                    {- busotAn -}        `others` [ "basAtiyn Ndip" ]
+    noun     KuRDAS                    {- busotAn -}        `others` [ "basAtiyn Ndip" ]
                                                             `gloss`  [ "garden", "gardens" ],
 
     -- ;; busotAniy~_1
     -- bstAny  busotAniy~      N       Boustani
 
-    noun     FuCCAL |< Iy              {- busotAniy~ -}     `gloss`  [ "Boustani" ],
+    noun     KuRDAS |< Iy              {- busotAniy~ -}     `gloss`  [ "Boustani" ],
 
     -- ;; busotAniy~_2
     -- bstAny  busotAniy~      Nall    gardener     [[busotAniy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- busotAniy~ -}     `gloss`  [ "gardener" ],
+    noun     KuRDAS |< Iy              {- busotAniy~ -}     `gloss`  [ "gardener" ],
 
     -- ;; basotanap_1
     -- bstn    basotan Nap     gardening
 
-    noun     FaCCaL |< aT              {- basotanap -}      `others` [ "bastan Nap" ]
-                                                            `gloss`  [ "gardening" ] ]
-
- -- ;; bisotuwn_1
-
- |> "bistuwn" <| [
+    noun     KaRDaS |< aT              {- basotanap -}      `others` [ "bastan Nap" ]
+                                                            `gloss`  [ "gardening" ],
 
     -- ;; bisotuwn_1
     -- bstwn   bisotuwn        NduAt   piston
     -- bstn    bisotan NduAt   piston
     -- bsAtn   basAtin Ndip    pistons
 
-    noun     Identity                  {- bisotuwn -}       `others` [ "basAtin Ndip", "bistan NduAt" ]
+    noun     KiRDUS                    {- bisotuwn -}       `others` [ "basAtin Ndip", "bistan NduAt" ]
                                                             `gloss`  [ "piston", "pistons" ],
 
     -- ;; bastuwniy~_1
     -- bstwny  bastuwniy~      N       spades
 
-    noun     FaCCUL |< Iy              {- bastuwniy~ -}     `gloss`  [ "spades" ] ]
+    noun     KaRDUS |< Iy              {- bastuwniy~ -}     `gloss`  [ "spades" ] ]
 
  -- ;; basoxap_1
 
@@ -7953,12 +7925,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; busofuwr_1
 
- |> "busfuwr" <| [
+ |> "bsfr" <| [
 
     -- ;; busofuwr_1
     -- bsfwr   busofuwr        N       Bosphorus;Bosporus
 
-    noun     Identity                  {- busofuwr -}       `gloss`  [ "Bosphorus", "Bosporus" ] ]
+    noun     KuRDUS                    {- busofuwr -}       `gloss`  [ "Bosphorus", "Bosporus" ] ]
 
  -- ;; basaq-u_1
 
@@ -7989,7 +7961,7 @@ lexicon = listing "Lexicon properties"
     -- ;; bisokAy_1
     -- bskAy   bisokAy N       Biscay
 
-    noun     FiCCAL                    {- bisokAy -}        `gloss`  [ "Biscay" ] ]
+    noun     KiRDAS                    {- bisokAy -}        `gloss`  [ "Biscay" ] ]
 
  -- ;; bisokiliyt_1
 
@@ -8002,13 +7974,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; bisokuwt_1
 
- |> "biskuwt" <| [
+ |> "bskt" <| [
 
     -- ;; bisokuwt_1
     -- bskwt   bisokuwt        N       biscuit
     -- bskwyt  baskawiyt       N       biscuit
 
-    noun     Identity                  {- bisokuwt -}       `others` [ "baskawiyt N" ]
+    noun     KiRDUS                    {- bisokuwt -}       `others` [ "baskawiyt N" ]
                                                             `gloss`  [ "biscuit" ] ]
 
  -- ;; basul-u_1
@@ -8192,13 +8164,13 @@ lexicon = listing "Lexicon properties"
     -- bsml    basomal PV      say "bismillah" (in the name of God, the Merciful, the Compassionate)
     -- bsml    basomil IV_yu   say "bismillah" (in the name of God, the Merciful, the Compassionate)
 
-    verb     FaCCaL                    {- basomal -}        `others` [ "basmil IV_yu" ]
+    verb     KaRDaS                    {- basomal -}        `others` [ "basmil IV_yu" ]
                                                             `gloss`  [ "say `` bismillah '' ( in the name of God , the Merciful , the Compassionate )" ],
 
     -- ;; basomalap_1
     -- bsml    basomal NapAt   "bismillah" (in the name of God, the Merciful, the Compassionate)
 
-    noun     FaCCaL |< aT              {- basomalap -}      `others` [ "basmal NapAt" ]
+    noun     KaRDaS |< aT              {- basomalap -}      `others` [ "basmal NapAt" ]
                                                             `gloss`  [ "`` bismillah '' ( in the name of God , the Merciful , the Compassionate )" ] ]
 
  -- ;; busayonap_1
@@ -8302,7 +8274,7 @@ lexicon = listing "Lexicon properties"
     -- bA$twn  bA$otuwn        N0      Pashtun     [[ba$otuwn/NOUN]]
     -- bA$twn  bA$otuwn        N0      Pashtun     [[ba$otuwn/ADJ]]
 
-    noun     FaCCUL                    {- ba$otuwn -}       `others` [ "bA^stuwn N0" ]
+    noun     KaRDUS                    {- ba$otuwn -}       `others` [ "bA^stuwn N0" ]
                                                             `gloss`  [ "Pashtun" ] ]
 
  -- ;--- b$r(1)
@@ -8635,19 +8607,15 @@ lexicon = listing "Lexicon properties"
     -- b$kwr   ba$okuwr        Ndu     fire iron
     -- b$Akyr  ba$Akiyr        Ndip    fire irons
 
-    noun     FaCCUL                    {- ba$okuwr -}       `others` [ "ba^sAkiyr Ndip" ]
-                                                            `gloss`  [ "fire iron", "fire irons" ] ]
-
- -- ;; ba$okiyr_1
-
- |> "ba^skiyr" <| [
+    noun     KaRDUS                    {- ba$okuwr -}       `others` [ "ba^sAkiyr Ndip" ]
+                                                            `gloss`  [ "fire iron", "fire irons" ],
 
     -- ;; ba$okiyr_1
     -- b$kyr   ba$okiyr        Ndu     bath towel
     -- bA$kyr  bA$okiyr        Ndu     bath towel
     -- b$Akyr  ba$Akiyr        Ndip    bath towels
 
-    noun     Identity                  {- ba$okiyr -}       `others` [ "ba^sAkiyr Ndip", "bA^skiyr Ndu" ]
+    noun     KaRDIS                    {- ba$okiyr -}       `others` [ "ba^sAkiyr Ndip", "bA^skiyr Ndu" ]
                                                             `gloss`  [ "bath towel", "bath towels" ] ]
 
  -- ;; ba$im-a_1
@@ -8692,7 +8660,7 @@ lexicon = listing "Lexicon properties"
     -- ;; ba$omAr_1
     -- b$mAr   ba$omAr N       lacework
 
-    noun     FaCCAL                    {- ba$omAr -}        `gloss`  [ "lacework" ] ]
+    noun     KaRDAS                    {- ba$omAr -}        `gloss`  [ "lacework" ] ]
 
  -- ;; ba$Amiriy~_1
 
@@ -8710,12 +8678,12 @@ lexicon = listing "Lexicon properties"
     -- ;; ba$omaq_1
     -- b$mq    ba$omaq N0      Bashmaq
 
-    noun     FaCCaL                    {- ba$omaq -}        `gloss`  [ "Bashmaq" ],
+    noun     KaRDaS                    {- ba$omaq -}        `gloss`  [ "Bashmaq" ],
 
     -- ;; ba$omaq_2
     -- b$mq    ba$omaq Ndu     slipper
 
-    noun     FaCCaL                    {- ba$omaq -}        `gloss`  [ "slipper" ] ]
+    noun     KaRDaS                    {- ba$omaq -}        `gloss`  [ "slipper" ] ]
 
  -- ;; ba$onap_1
 
@@ -8745,7 +8713,7 @@ lexicon = listing "Lexicon properties"
     -- b$nyq   ba$oniyq        Nap     kerchief
     -- b$Anq   ba$Aniq Ndip    kerchiefs
 
-    noun     FaCCUL |< aT              {- ba$onuwqap -}     `others` [ "ba^snuwq Nap", "ba^sniyq Nap", "ba^sAniq Ndip" ]
+    noun     KaRDUS |< aT              {- ba$onuwqap -}     `others` [ "ba^snuwq Nap", "ba^sniyq Nap", "ba^sAniq Ndip" ]
                                                             `gloss`  [ "kerchief", "kerchiefs" ] ]
 
  -- ;; ba$oniyn_1
@@ -8820,26 +8788,26 @@ lexicon = listing "Lexicon properties"
     -- bSbS    baSobaS PV      wag (tail)
     -- bSbS    baSobiS IV_yu   wag (tail)
 
-    verb     FaCCaL                    {- baSobaS -}        `others` [ "ba.sbi.s IV_yu" ]
+    verb     KaRDaS                    {- baSobaS -}        `others` [ "ba.sbi.s IV_yu" ]
                                                             `gloss`  [ "wag ( tail )" ],
 
     -- ;; baSobaS_2
     -- bSbS    baSobaS PV      ogle;stare
     -- bSbS    baSobiS IV_yu   ogle;stare
 
-    verb     FaCCaL                    {- baSobaS -}        `others` [ "ba.sbi.s IV_yu" ]
+    verb     KaRDaS                    {- baSobaS -}        `others` [ "ba.sbi.s IV_yu" ]
                                                             `gloss`  [ "ogle", "stare" ],
 
     -- ;; baSobaSap_1
     -- bSbS    baSobaS Nap     wagging
 
-    noun     FaCCaL |< aT              {- baSobaSap -}      `others` [ "ba.sba.s Nap" ]
+    noun     KaRDaS |< aT              {- baSobaSap -}      `others` [ "ba.sba.s Nap" ]
                                                             `gloss`  [ "wagging" ],
 
     -- ;; baSobaSap_2
     -- bSbS    baSobaS Nap     ogling;staring
 
-    noun     FaCCaL |< aT              {- baSobaSap -}      `others` [ "ba.sba.s Nap" ]
+    noun     KaRDaS |< aT              {- baSobaSap -}      `others` [ "ba.sba.s Nap" ]
                                                             `gloss`  [ "ogling", "staring" ] ]
 
  -- ;; baSaxap_1
@@ -9479,13 +9447,13 @@ lexicon = listing "Lexicon properties"
     -- bTbT    baTobaT PV      quack
     -- bTbT    baTobiT IV_yu   quack
 
-    verb     FaCCaL                    {- baTobaT -}        `others` [ "ba.tbi.t IV_yu" ]
+    verb     KaRDaS                    {- baTobaT -}        `others` [ "ba.tbi.t IV_yu" ]
                                                             `gloss`  [ "quack" ],
 
     -- ;; baTobaTap_1
     -- bTbT    baTobaT NapAt   quacking
 
-    noun     FaCCaL |< aT              {- baTobaTap -}      `others` [ "ba.tba.t NapAt" ]
+    noun     KaRDaS |< aT              {- baTobaTap -}      `others` [ "ba.tba.t NapAt" ]
                                                             `gloss`  [ "quacking" ] ]
 
  -- ;; baTaH-a_1
@@ -9541,7 +9509,7 @@ lexicon = listing "Lexicon properties"
     -- bTAH    biTAH   N       wide valleys;plains
     -- bTHAw   baToHAw NAt     wide valleys;plains
 
-    noun     FaCCAL                    {- baToHA' -}        `others` [ "ba.t.hAw NAt", "bi.tA.h N" ]
+    noun     KaRDAS                    {- baToHA' -}        `others` [ "ba.t.hAw NAt", "bi.tA.h N" ]
                                                             `gloss`  [ "wide valley", "plain", "wide valleys", "plains" ] ]
 
  -- ;; baTiyHap_1
@@ -9642,7 +9610,7 @@ lexicon = listing "Lexicon properties"
     -- bTrA&   baTorA& Nh      Petra
     -- bTrA}   baTorA} Nhy     Petra
 
-    noun     FaCCAL                    {- baTorA' -}        `gloss`  [ "Petra" ] ]
+    noun     KaRDAS                    {- baTorA' -}        `gloss`  [ "Petra" ] ]
 
  -- ;; baTorax_1
 
@@ -9652,7 +9620,7 @@ lexicon = listing "Lexicon properties"
     -- bTrx    baTorax N       roe;caviar
     -- bTArx   baTArix Ndip    roe;caviar
 
-    noun     FaCCaL                    {- baTorax -}        `others` [ "ba.tAri_h Ndip" ]
+    noun     KaRDaS                    {- baTorax -}        `others` [ "ba.tAri_h Ndip" ]
                                                             `gloss`  [ "roe", "caviar" ] ]
 
  -- ;; buTorus_1
@@ -9700,7 +9668,7 @@ lexicon = listing "Lexicon properties"
     -- bTArq   baTAriq Nap     patricians;penguins
     -- bTAryq  baTAriyq        Ndip    patricians;penguins
 
-    noun     FiCCIL                    {- biToriyq -}       `others` [ "ba.tAriq Nap", "ba.tAriyq Ndip" ]
+    noun     KiRDIS                    {- biToriyq -}       `others` [ "ba.tAriq Nap", "ba.tAriyq Ndip" ]
                                                             `gloss`  [ "patrician", "penguin", "patricians", "penguins" ] ]
 
  -- ;; baTorak_1
@@ -9712,19 +9680,19 @@ lexicon = listing "Lexicon properties"
     -- bTryk   baToriyk        Ndu     Patriarch
     -- bTArk   baTArik Nap     Patriarchs
 
-    noun     FaCCaL                    {- baTorak -}        `others` [ "ba.tArik Nap", "ba.triyk Ndu" ]
+    noun     KaRDaS                    {- baTorak -}        `others` [ "ba.tArik Nap", "ba.triyk Ndu" ]
                                                             `gloss`  [ "Patriarch", "Patriarchs" ],
 
     -- ;; baTorakiy~ap_1
     -- bTrky   baTorakiy~      Nap     patriarchate     [[baTorakiy~/NOUN]]
 
-    noun     FaCCaL |< Iy |< aT        {- baTorakiy~ap -}   `others` [ "ba.trakiyy Nap" ]
+    noun     KaRDaS |< Iy |< aT        {- baTorakiy~ap -}   `others` [ "ba.trakiyy Nap" ]
                                                             `gloss`  [ "patriarchate" ],
 
     -- ;; baTorakap_1
     -- bTrk    baTorak Nap     patriarchate
 
-    noun     FaCCaL |< aT              {- baTorakap -}      `others` [ "ba.trak Nap" ]
+    noun     KaRDaS |< aT              {- baTorakap -}      `others` [ "ba.trak Nap" ]
                                                             `gloss`  [ "patriarchate" ] ]
 
  -- ;; baTora$iyl_1
@@ -9865,7 +9833,7 @@ lexicon = listing "Lexicon properties"
     -- ;; buTolAn_1
     -- bTlAn   buTolAn N       nullity;falsity
 
-    noun     FuCCAL                    {- buTolAn -}        `gloss`  [ "nullity", "falsity" ] ]
+    noun     KuRDAS                    {- buTolAn -}        `gloss`  [ "nullity", "falsity" ] ]
 
  -- ;; <iboTAl_1
 
@@ -10348,24 +10316,24 @@ lexicon = listing "Lexicon properties"
     -- bEvr    baEovar PV      scatter;disperse
     -- bEvr    baEovir IV_yu   scatter;disperse
 
-    verb     FaCCaL                    {- baEovar -}        `others` [ "ba`_tir IV_yu" ]
+    verb     KaRDaS                    {- baEovar -}        `others` [ "ba`_tir IV_yu" ]
                                                             `gloss`  [ "scatter", "disperse" ],
 
     -- ;; tabaEovar_1
     -- tbEvr   tabaEovar       PV_intr be scattered;be dispersed
     -- tbEvr   tabaEovar       IV_intr be scattered;be dispersed
 
-    verb     TaFaCCaL                  {- tabaEovar -}      `gloss`  [ "be scattered", "be dispersed" ],
+    verb     TaKaRDaS                  {- tabaEovar -}      `gloss`  [ "be scattered", "be dispersed" ],
 
     -- ;; mubaEovar_1
     -- mbEvr   mubaEovar       Nall    scattered;dispersed
 
-    noun     MuFaCCaL                  {- mubaEovar -}      `gloss`  [ "scattered", "dispersed" ],
+    noun     MuKaRDaS                  {- mubaEovar -}      `gloss`  [ "scattered", "dispersed" ],
 
     -- ;; tabaEovur_1
     -- tbEvr   tabaEovur       N/At    scattering;dispersal
 
-    noun     TaFaCCuL                  {- tabaEovur -}      `gloss`  [ "scattering", "dispersal" ] ]
+    noun     TaKaRDuS                  {- tabaEovur -}      `gloss`  [ "scattering", "dispersal" ] ]
 
  -- ;; baEaj-a_1
 
@@ -10655,19 +10623,19 @@ lexicon = listing "Lexicon properties"
     -- bEzq    baEozaq PV      scatter;squander
     -- bEzq    baEoziq IV_yu   scatter;squander
 
-    verb     FaCCaL                    {- baEozaq -}        `others` [ "ba`ziq IV_yu" ]
+    verb     KaRDaS                    {- baEozaq -}        `others` [ "ba`ziq IV_yu" ]
                                                             `gloss`  [ "scatter", "squander" ],
 
     -- ;; baEozaqap_1
     -- bEzq    baEozaq Nap     scattering;squandering
 
-    noun     FaCCaL |< aT              {- baEozaqap -}      `others` [ "ba`zaq Nap" ]
+    noun     KaRDaS |< aT              {- baEozaqap -}      `others` [ "ba`zaq Nap" ]
                                                             `gloss`  [ "scattering", "squandering" ],
 
     -- ;; mubaEoziq_1
     -- mbEzq   mubaEoziq       Nall    squanderer;spendthrift
 
-    noun     MuFaCCiL                  {- mubaEoziq -}      `gloss`  [ "squanderer", "spendthrift" ] ]
+    noun     MuKaRDiS                  {- mubaEoziq -}      `gloss`  [ "squanderer", "spendthrift" ] ]
 
  -- ;; baEoD_1
 
@@ -10873,35 +10841,47 @@ lexicon = listing "Lexicon properties"
     -- ;; bagovarap_1
     -- bgvr    bagovar Nap     agitation;aversion
 
-    noun     FaCCaL |< aT              {- bagovarap -}      `others` [ "ba.g_tar Nap" ]
+    noun     KaRDaS |< aT              {- bagovarap -}      `others` [ "ba.g_tar Nap" ]
                                                             `gloss`  [ "agitation", "aversion" ] ]
 
  -- ;; tabagodad_1
 
- |> "b.gd" <| [
+ |> "taba.gdad" <| [
 
     -- ;; tabagodad_1
     -- tbgdd   tabagodad       PV      swagger
     -- tbgdd   tabagodad       IV      swagger
 
-    verb     TaFaCCaL                  {- tabagodad -}      `gloss`  [ "swagger" ],
+    verb     Identity                  {- tabagodad -}      `gloss`  [ "swagger" ] ]
+
+ -- ;; bagodAd_1
+
+ |> "ba.gdAd" <| [
 
     -- ;; bagodAd_1
     -- bgdAd   bagodAd N0      Baghdad
 
-    noun     FaCCAL                    {- bagodAd -}        `gloss`  [ "Baghdad" ],
+    noun     Identity                  {- bagodAd -}        `gloss`  [ "Baghdad" ] ]
+
+ -- ;; bagodAdiy~_1
+
+ |> "ba.gdAd" <| [
 
     -- ;; bagodAdiy~_1
     -- bgdAdy  bagodAdiy~      Nall    from/of Baghdad;Baghdadi     [[bagodAdiy~/ADJ]]
     -- bgAdd   bagAdid Nap     from/of Baghdad;Baghdadis
 
-    noun     FaCCAL |< Iy              {- bagodAdiy~ -}     `others` [ "ba.gAdid Nap" ]
-                                                            `gloss`  [ "from / of Baghdad", "Baghdadi", "Baghdadis" ],
+    noun     Identity |< Iy            {- bagodAdiy~ -}     `others` [ "ba.gAdid Nap" ]
+                                                            `gloss`  [ "from / of Baghdad", "Baghdadi", "Baghdadis" ] ]
+
+ -- ;; bagodAdiy~_2
+
+ |> "ba.gdAd" <| [
 
     -- ;; bagodAdiy~_2
     -- bgdAdy  bagodAdiy~      N0      Baghdadi
 
-    noun     FaCCAL |< Iy              {- bagodAdiy~ -}     `gloss`  [ "Baghdadi" ] ]
+    noun     Identity |< Iy            {- bagodAdiy~ -}     `gloss`  [ "Baghdadi" ] ]
 
  -- ;; bagar-u_1
 
@@ -11285,7 +11265,7 @@ lexicon = listing "Lexicon properties"
     -- ;; bifotiyk_1
     -- bftyk   bifotiyk        N       beefsteak
 
-    noun     FiCCIL                    {- bifotiyk -}       `gloss`  [ "beefsteak" ] ]
+    noun     KiRDIS                    {- bifotiyk -}       `gloss`  [ "beefsteak" ] ]
 
  -- ;; bfiysotir_1
 
@@ -11342,24 +11322,24 @@ lexicon = listing "Lexicon properties"
     -- bqbq    baqobaq PV      prattle;chatter
     -- bqbq    baqobiq IV_yu   prattle;chatter
 
-    verb     FaCCaL                    {- baqobaq -}        `others` [ "baqbiq IV_yu" ]
+    verb     KaRDaS                    {- baqobaq -}        `others` [ "baqbiq IV_yu" ]
                                                             `gloss`  [ "prattle", "chatter" ],
 
     -- ;; baqobaqap_1
     -- bqbq    baqobaq Nap     gurgling;prattle
 
-    noun     FaCCaL |< aT              {- baqobaqap -}      `others` [ "baqbaq Nap" ]
+    noun     KaRDaS |< aT              {- baqobaqap -}      `others` [ "baqbaq Nap" ]
                                                             `gloss`  [ "gurgling", "prattle" ],
 
     -- ;; baqobAq_1
     -- bqbAq   baqobAq Nall    loquacious
 
-    noun     FaCCAL                    {- baqobAq -}        `gloss`  [ "loquacious" ],
+    noun     KaRDAS                    {- baqobAq -}        `gloss`  [ "loquacious" ],
 
     -- ;; baqobuwqap_1
     -- bqbwq   baqobuwq        NapAt   blister
 
-    noun     FaCCUL |< aT              {- baqobuwqap -}     `others` [ "baqbuwq NapAt" ]
+    noun     KaRDUS |< aT              {- baqobuwqap -}     `others` [ "baqbuwq NapAt" ]
                                                             `gloss`  [ "blister" ] ]
 
  -- ;; buqojap_1
@@ -11441,12 +11421,12 @@ lexicon = listing "Lexicon properties"
     -- ;; buqrAT_1
     -- bqrAT   buqrAT  Ndip    Hippocrates
 
-    noun     FuCCAL                    {- buqrAT -}         `gloss`  [ "Hippocrates" ],
+    noun     KuRDAS                    {- buqrAT -}         `gloss`  [ "Hippocrates" ],
 
     -- ;; buqrATiy~_1
     -- bqrATy  buqrATiy~       Nall    Hippocratic     [[buqrATiy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- buqrATiy~ -}      `gloss`  [ "Hippocratic" ] ]
+    noun     KuRDAS |< Iy              {- buqrATiy~ -}      `gloss`  [ "Hippocratic" ] ]
 
  -- ;; baqoraj_1
 
@@ -11456,7 +11436,7 @@ lexicon = listing "Lexicon properties"
     -- bqrj    baqoraj N       kettle;coffee pot
     -- bqArj   baqArij Ndip    kettles;coffee pots
 
-    noun     FaCCaL                    {- baqoraj -}        `others` [ "baqAri^g Ndip" ]
+    noun     KaRDaS                    {- baqoraj -}        `others` [ "baqAri^g Ndip" ]
                                                             `gloss`  [ "kettle", "coffee pot", "kettles", "coffee pots" ] ]
 
  -- ;; baqos_1
@@ -11592,7 +11572,7 @@ lexicon = listing "Lexicon properties"
     -- bqlAw   baqolAw Nap     baklava
     -- bqlAwA  baqolAwA        N0      baklava
 
-    noun     FaCCAL |< aT              {- baqolAwap -}      `others` [ "baqlAwA N0", "baqlAw Nap" ]
+    noun     KaRDAS |< aT              {- baqolAwap -}      `others` [ "baqlAwA N0", "baqlAw Nap" ]
                                                             `gloss`  [ "baklava" ] ]
 
  -- ;; baq~am_1
@@ -11648,11 +11628,7 @@ lexicon = listing "Lexicon properties"
     -- bqy     boqay   IV_Ann_Pass_yu  be maintained;be preserved
 
     verb     HaFCY                     {- >aboqaY -}        `others` [ "'abq PV_ttAw", "'abqA PV_h", "bqay IV_Ann_Pass_yu", "'abqay PV_Atn", "bq IV_0hwnyn_yu", "bqY IV_0_Pass_yu", "bqiy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "maintain", "preserve", "be maintained", "be preserved" ] ]
-
- -- ;; tabaq~aY_1
-
- |> "bqq" <| [
+                                                            `gloss`  [ "maintain", "preserve", "be maintained", "be preserved" ],
 
     -- ;; tabaq~aY_1
     -- tbqY    tabaq~aY        PV_0    remain;stay
@@ -11665,11 +11641,7 @@ lexicon = listing "Lexicon properties"
     -- tbq     tabaq~  IV_0hwnyn       remain;stay
 
     verb     TaFaCCY                   {- tabaq~aY -}       `others` [ "tabaqq IV_0hwnyn PV_ttAw", "tabaqqay PV_Atn IV_Ann", "tabaqqA PV_h IV_h" ]
-                                                            `gloss`  [ "remain", "stay" ] ]
-
- -- ;; {isotaboqaY_1
-
- |> "bq" <| [
+                                                            `gloss`  [ "remain", "stay" ],
 
     -- ;; {isotaboqaY_1
     -- <stbqY  {isotaboqaY     PV_0    maintain;retain;preserve
@@ -11752,16 +11724,12 @@ lexicon = listing "Lexicon properties"
     -- ;; bAqiy_1
     -- bAqy    bAqiy   N0      Baqi
 
-    noun     FACiL                     {- bAqiy -}          `gloss`  [ "Baqi" ] ]
-
- -- ;; bawAqiy_1
-
- |> "bawAqiy" <| [
+    noun     FACiL                     {- bAqiy -}          `gloss`  [ "Baqi" ],
 
     -- ;; bawAqiy_1
     -- bwAqy   bawAqiy N0      Bawaqi
 
-    noun     Identity                  {- bawAqiy -}        `gloss`  [ "Bawaqi" ],
+    noun     FawACiL                   {- bawAqiy -}        `gloss`  [ "Bawaqi" ],
 
     -- ;; bAqiy_2
     -- bAqy    bAqiy   N0F_Nh  remaining
@@ -11850,7 +11818,7 @@ lexicon = listing "Lexicon properties"
     -- ;; bikobA$iy~_1
     -- bkbA$y  bikobA$iy~      Nall    lieutenant colonel     [[bikobA$iy~/ADJ]]
 
-    noun     FiCCAL |< Iy              {- bikobA$iy~ -}     `gloss`  [ "lieutenant colonel" ] ]
+    noun     KiRDAS |< Iy              {- bikobA$iy~ -}     `gloss`  [ "lieutenant colonel" ] ]
 
  -- ;; bak~at_1
 
@@ -11890,12 +11858,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; bakotiyriy~_1
 
- |> "baktiyr" <| [
+ |> "bktr" <| [
 
     -- ;; bakotiyriy~_1
     -- bktyry  bakotiyriy~     Nall    bacterial     [[bakotiyriy~/ADJ]]
 
-    noun     Identity |< Iy            {- bakotiyriy~ -}    `gloss`  [ "bacterial" ] ]
+    noun     KaRDIS |< Iy              {- bakotiyriy~ -}    `gloss`  [ "bacterial" ] ]
 
  -- ;; bakar-u_1
 
@@ -12097,7 +12065,7 @@ lexicon = listing "Lexicon properties"
     -- bkrj    bakoraj N       kettle;coffee pot
     -- bkArj   bakArij Ndip    kettles;coffee pots
 
-    noun     FaCCaL                    {- bakoraj -}        `others` [ "bakAri^g Ndip" ]
+    noun     KaRDaS                    {- bakoraj -}        `others` [ "bakAri^g Ndip" ]
                                                             `gloss`  [ "kettle", "coffee pot", "kettles", "coffee pots" ] ]
 
  -- ;; bukosumAd_1
@@ -12225,7 +12193,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; bak~aY_1
 
- |> "bkk" <| [
+ |> "bk" <| [
 
     -- ;; bak~aY_1
     -- bkY     bak~aY  PV_0    make cry
@@ -12238,11 +12206,7 @@ lexicon = listing "Lexicon properties"
     -- bky     bak~ay  IV_Ann_Pass_yu  be made to cry
 
     verb     FaCCY                     {- bak~aY -}         `others` [ "bakkA PV_h", "bakkay PV_Atn IV_Ann_Pass_yu", "bakkiy IV_0hAnn_yu", "bakk IV_0hwnyn_yu PV_ttAw" ]
-                                                            `gloss`  [ "make cry", "be made to cry" ] ]
-
- -- ;; >abokaY_1
-
- |> "bk" <| [
+                                                            `gloss`  [ "make cry", "be made to cry" ],
 
     -- ;; >abokaY_1
     -- >bkY    >abokaY PV_0    make cry
@@ -12687,7 +12651,7 @@ lexicon = listing "Lexicon properties"
     -- blbT    balobaT PV      gurgle
     -- blbT    balobiT IV_yu   gurgle
 
-    verb     FaCCaL                    {- balobaT -}        `others` [ "balbi.t IV_yu" ]
+    verb     KaRDaS                    {- balobaT -}        `others` [ "balbi.t IV_yu" ]
                                                             `gloss`  [ "gurgle" ] ]
 
  -- ;; balobal_1
@@ -12698,31 +12662,31 @@ lexicon = listing "Lexicon properties"
     -- blbl    balobal PV      agitate;disturb
     -- blbl    balobil IV_yu   agitate;disturb
 
-    verb     FaCCaL                    {- balobal -}        `others` [ "balbil IV_yu" ]
+    verb     KaRDaS                    {- balobal -}        `others` [ "balbil IV_yu" ]
                                                             `gloss`  [ "agitate", "disturb" ],
 
     -- ;; tabalobal_1
     -- tblbl   tabalobal       PV_intr be agitated;be disturbed
     -- tblbl   tabalobal       IV_intr be agitated;be disturbed
 
-    verb     TaFaCCaL                  {- tabalobal -}      `gloss`  [ "be agitated", "be disturbed" ],
+    verb     TaKaRDaS                  {- tabalobal -}      `gloss`  [ "be agitated", "be disturbed" ],
 
     -- ;; balobalap_1
     -- blbl    balobal Nap     confusion;chaos
     -- blAbl   balAbil Ndip    confusion;chaos
 
-    noun     FaCCaL |< aT              {- balobalap -}      `others` [ "balbal Nap", "balAbil Ndip" ]
+    noun     KaRDaS |< aT              {- balobalap -}      `others` [ "balbal Nap", "balAbil Ndip" ]
                                                             `gloss`  [ "confusion", "chaos" ],
 
     -- ;; balobAl_1
     -- blbAl   balobAl N       anxiety
 
-    noun     FaCCAL                    {- balobAl -}        `gloss`  [ "anxiety" ],
+    noun     KaRDAS                    {- balobAl -}        `gloss`  [ "anxiety" ],
 
     -- ;; tabalobul_1
     -- tblbl   tabalobul       NduAt   muddle;confusion
 
-    noun     TaFaCCuL                  {- tabalobul -}      `gloss`  [ "muddle", "confusion" ] ]
+    noun     TaKaRDuS                  {- tabalobul -}      `gloss`  [ "muddle", "confusion" ] ]
 
  -- ;; bulobul_1
 
@@ -12819,7 +12783,7 @@ lexicon = listing "Lexicon properties"
     -- bljyky  bilojiykiy~     Nall    Belgian     [[bilojiykiy~/NOUN]]
     -- bljyky  bilojiykiy~     Nall    Belgian     [[bilojiykiy~/ADJ]]
 
-    noun     FiCCIL |< Iy              {- bilojiykiy~ -}    `gloss`  [ "Belgian" ] ]
+    noun     KiRDIS |< Iy              {- bilojiykiy~ -}    `gloss`  [ "Belgian" ] ]
 
  -- ;; balaH_1
 
@@ -12964,13 +12928,13 @@ lexicon = listing "Lexicon properties"
     -- blsm    balosam N       balsam
     -- blAsm   balAsim Ndip    balsam
 
-    noun     FaCCaL                    {- balosam -}        `others` [ "balAsim Ndip" ]
+    noun     KaRDaS                    {- balosam -}        `others` [ "balAsim Ndip" ]
                                                             `gloss`  [ "balsam" ],
 
     -- ;; balosamiy~_1
     -- blsmy   balosamiy~      Nall    balsamic     [[balosamiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- balosamiy~ -}     `gloss`  [ "balsamic" ] ]
+    noun     KaRDaS |< Iy              {- balosamiy~ -}     `gloss`  [ "balsamic" ] ]
 
  -- ;; balo$af_1
 
@@ -12980,19 +12944,19 @@ lexicon = listing "Lexicon properties"
     -- bl$f    balo$af PV      Bolshevize
     -- bl$f    balo$if IV_yu   Bolshevize
 
-    verb     FaCCaL                    {- balo$af -}        `others` [ "bal^sif IV_yu" ]
+    verb     KaRDaS                    {- balo$af -}        `others` [ "bal^sif IV_yu" ]
                                                             `gloss`  [ "Bolshevize" ],
 
     -- ;; tabalo$af_1
     -- tbl$f   tabalo$af       PV_intr be Bolshevized
     -- tbl$f   tabalo$af       IV_intr be Bolshevized
 
-    verb     TaFaCCaL                  {- tabalo$af -}      `gloss`  [ "be Bolshevized" ],
+    verb     TaKaRDaS                  {- tabalo$af -}      `gloss`  [ "be Bolshevized" ],
 
     -- ;; balo$afap_1
     -- bl$f    balo$af Nap     Bolshevization
 
-    noun     FaCCaL |< aT              {- balo$afap -}      `others` [ "bal^saf Nap" ]
+    noun     KaRDaS |< aT              {- balo$afap -}      `others` [ "bal^saf Nap" ]
                                                             `gloss`  [ "Bolshevization" ],
 
     -- ;; balo$afiy~_1
@@ -13000,13 +12964,13 @@ lexicon = listing "Lexicon properties"
     -- bl$fy   balo$afiy~      Nall    Bolshevist     [[balo$afiy~/ADJ]]
     -- blA$f   balA$if Nap     Bolshevists
 
-    noun     FaCCaL |< Iy              {- balo$afiy~ -}     `others` [ "balA^sif Nap" ]
+    noun     KaRDaS |< Iy              {- balo$afiy~ -}     `others` [ "balA^sif Nap" ]
                                                             `gloss`  [ "Bolshevist", "Bolshevists" ],
 
     -- ;; balo$afiy~ap_1
     -- bl$fy   balo$afiy~      Nap     Bolshevism     [[balo$afiy~/NOUN]]
 
-    noun     FaCCaL |< Iy |< aT        {- balo$afiy~ap -}   `others` [ "bal^safiyy Nap" ]
+    noun     KaRDaS |< Iy |< aT        {- balo$afiy~ap -}   `others` [ "bal^safiyy Nap" ]
                                                             `gloss`  [ "Bolshevism" ] ]
 
  -- ;; bala$uwn_1
@@ -13115,17 +13079,17 @@ lexicon = listing "Lexicon properties"
     -- ;; baloTajiy~_1
     -- blTjy   baloTajiy~      Nall    ruffian     [[baloTajiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- baloTajiy~ -}     `gloss`  [ "ruffian" ] ]
+    noun     KaRDaS |< Iy              {- baloTajiy~ -}     `gloss`  [ "ruffian" ] ]
 
  -- ;; baloTiyq_1
 
- |> "bal.tiyq" <| [
+ |> "bl.tq" <| [
 
     -- ;; baloTiyq_1
     -- blTyq   baloTiyq        N       Baltic
     -- blTyk   baloTiyk        N       Baltic
 
-    noun     Identity                  {- baloTiyq -}       `others` [ "bal.tiyk N" ]
+    noun     KaRDIS                    {- baloTiyq -}       `others` [ "bal.tiyk N" ]
                                                             `gloss`  [ "Baltic" ] ]
 
  -- ;; bAluwZap_1
@@ -13229,7 +13193,7 @@ lexicon = listing "Lexicon properties"
     -- blEm    baloEam Napdu   phagocyte
     -- blAEm   balAEim Ndip    phagocytes
 
-    noun     FaCCaL                    {- baloEam -}        `others` [ "balA`im Ndip" ]
+    noun     KaRDaS                    {- baloEam -}        `others` [ "balA`im Ndip" ]
                                                             `gloss`  [ "phagocyte", "phagocytes" ] ]
 
  -- ;; buloEum_1
@@ -13241,17 +13205,13 @@ lexicon = listing "Lexicon properties"
     -- blAEm   balAEim Ndip    pharynxes
 
     noun     Identity                  {- buloEum -}        `others` [ "balA`im Ndip" ]
-                                                            `gloss`  [ "pharynx", "pharynxes" ] ]
-
- -- ;; buloEuwm_1
-
- |> "bul`uwm" <| [
+                                                            `gloss`  [ "pharynx", "pharynxes" ],
 
     -- ;; buloEuwm_1
     -- blEwm   buloEuwm        N       pharynx
     -- blAEym  balAEiym        Ndip    pharynxes
 
-    noun     Identity                  {- buloEuwm -}       `others` [ "balA`iym Ndip" ]
+    noun     KuRDUS                    {- buloEuwm -}       `others` [ "balA`iym Ndip" ]
                                                             `gloss`  [ "pharynx", "pharynxes" ] ]
 
  -- ;; balag-u_1
@@ -13418,7 +13378,7 @@ lexicon = listing "Lexicon properties"
     -- ;; bulogAr_1
     -- blgAr   bulogAr N       Bulgarians
 
-    noun     FuCCAL                    {- bulogAr -}        `gloss`  [ "Bulgarians" ] ]
+    noun     KuRDAS                    {- bulogAr -}        `gloss`  [ "Bulgarians" ] ]
 
  -- ;; bulogAriyA_1
 
@@ -13433,7 +13393,7 @@ lexicon = listing "Lexicon properties"
     -- blgAry  bulogAriy~      Nall    Bulgarian     [[bulogAriy~/NOUN]]
     -- blgAry  bulogAriy~      Nall    Bulgarian     [[bulogAriy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- bulogAriy~ -}     `gloss`  [ "Bulgarian" ] ]
+    noun     KuRDAS |< Iy              {- bulogAriy~ -}     `gloss`  [ "Bulgarian" ] ]
 
  -- ;; balogrAd_1
 
@@ -13465,13 +13425,13 @@ lexicon = listing "Lexicon properties"
     -- blgm    balogam N       phlegm
     -- blAgm   balAgim Ndip    phlegm
 
-    noun     FaCCaL                    {- balogam -}        `others` [ "balA.gim Ndip" ]
+    noun     KaRDaS                    {- balogam -}        `others` [ "balA.gim Ndip" ]
                                                             `gloss`  [ "phlegm" ],
 
     -- ;; balogamiy~_1
     -- blgmy   balogamiy~      Nall    mucous;phlegmy     [[balogamiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- balogamiy~ -}     `gloss`  [ "mucous", "phlegmy" ] ]
+    noun     KaRDaS |< Iy              {- balogamiy~ -}     `gloss`  [ "mucous", "phlegmy" ] ]
 
  -- ;; balaf-i_1
 
@@ -13505,12 +13465,12 @@ lexicon = listing "Lexicon properties"
     -- ;; balofuwr_1
     -- blfwr   balofuwr        Nprop   Balfour
 
-    noun     FaCCUL                    {- balofuwr -}       `gloss`  [ "Balfour" ],
+    noun     KaRDUS                    {- balofuwr -}       `gloss`  [ "Balfour" ],
 
     -- ;; balofuwriy~_1
     -- blfwry  balofuwriy~     Nall    Balfour     [[balofuwriy~/ADJ]]
 
-    noun     FaCCUL |< Iy              {- balofuwriy~ -}    `gloss`  [ "Balfour" ] ]
+    noun     KaRDUS |< Iy              {- balofuwriy~ -}    `gloss`  [ "Balfour" ] ]
 
  -- ;; >abolaq_1
 
@@ -13542,7 +13502,7 @@ lexicon = listing "Lexicon properties"
     -- ;; baloqanap_1
     -- blqn    baloqan Nap     Balkanization
 
-    noun     FaCCaL |< aT              {- baloqanap -}      `others` [ "balqan Nap" ]
+    noun     KaRDaS |< aT              {- baloqanap -}      `others` [ "balqan Nap" ]
                                                             `gloss`  [ "Balkanization" ] ]
 
  -- ;; baloqaE_1
@@ -13554,7 +13514,7 @@ lexicon = listing "Lexicon properties"
     -- blqE    baloqaE Napdu   wasteland
     -- blAqE   balAqiE Ndip    wastelands
 
-    noun     FaCCaL                    {- baloqaE -}        `others` [ "balAqi` Ndip" ]
+    noun     KaRDaS                    {- baloqaE -}        `others` [ "balAqi` Ndip" ]
                                                             `gloss`  [ "wasteland", "wastelands" ] ]
 
  -- ;; biloqiys_1
@@ -13564,7 +13524,7 @@ lexicon = listing "Lexicon properties"
     -- ;; biloqiys_1
     -- blqys   biloqiys        Ndip    Bilqis
 
-    noun     FiCCIL                    {- biloqiys -}       `gloss`  [ "Bilqis" ] ]
+    noun     KiRDIS                    {- biloqiys -}       `gloss`  [ "Bilqis" ] ]
 
  -- ;; blak_1
 
@@ -13583,7 +13543,7 @@ lexicon = listing "Lexicon properties"
     -- blkwn   balokuwn        N       balcony
     -- blkwn   balokuwn        NapAt   balcony
 
-    noun     FaCCUL                    {- balokuwn -}       `gloss`  [ "balcony" ] ]
+    noun     KaRDUS                    {- balokuwn -}       `gloss`  [ "balcony" ] ]
 
  -- ;; biloliytruw_1
 
@@ -13625,19 +13585,19 @@ lexicon = listing "Lexicon properties"
     -- blmr    balomar PV      polymerize
     -- blmr    balomir IV_yu   polymerize
 
-    verb     FaCCaL                    {- balomar -}        `others` [ "balmir IV_yu" ]
+    verb     KaRDaS                    {- balomar -}        `others` [ "balmir IV_yu" ]
                                                             `gloss`  [ "polymerize" ],
 
     -- ;; tabalomar_1
     -- tblmr   tabalomar       PV_intr be polymerized
     -- tblmr   tabalomar       IV_intr be polymerized
 
-    verb     TaFaCCaL                  {- tabalomar -}      `gloss`  [ "be polymerized" ],
+    verb     TaKaRDaS                  {- tabalomar -}      `gloss`  [ "be polymerized" ],
 
     -- ;; balomarap_1
     -- blmr    balomar Nap     polymerization
 
-    noun     FaCCaL |< aT              {- balomarap -}      `others` [ "balmar Nap" ]
+    noun     KaRDaS |< aT              {- balomarap -}      `others` [ "balmar Nap" ]
                                                             `gloss`  [ "polymerization" ] ]
 
  -- ;; bal~An_1
@@ -13746,13 +13706,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; bulohuwn_1
 
- |> "bulhuwn" <| [
+ |> "blhn" <| [
 
     -- ;; bulohuwn_1
     -- blhwn   bulohuwn        Ndu     sphinx
     -- blAhyn  balAhiyn        Ndip    sphinxes
 
-    noun     Identity                  {- bulohuwn -}       `others` [ "balAhiyn Ndip" ]
+    noun     KuRDUS                    {- bulohuwn -}       `others` [ "balAhiyn Ndip" ]
                                                             `gloss`  [ "sphinx", "sphinxes" ] ]
 
  -- ;; bulahoniyap_1
@@ -13806,13 +13766,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; balowaY_1
 
- |> "blw" <| [
+ |> "balwY" <| [
 
     -- ;; balowaY_1
     -- blwY    balowaY N0      affliction;necessity
     -- blwA    balowA  Nhy     affliction;necessity
 
-    noun     FaCCY                     {- balowaY -}        `others` [ "balwA Nhy" ]
+    noun     Identity                  {- balowaY -}        `others` [ "balwA Nhy" ]
                                                             `gloss`  [ "affliction", "necessity" ] ]
 
  -- ;; baliy-a_1
@@ -14062,31 +14022,31 @@ lexicon = listing "Lexicon properties"
     -- blwr    balowar PV      crystallize;clarify
     -- blwr    balowir IV_yu   crystallize;clarify
 
-    verb     FaCCaL                    {- balowar -}        `others` [ "balwir IV_yu" ]
+    verb     KaRDaS                    {- balowar -}        `others` [ "balwir IV_yu" ]
                                                             `gloss`  [ "crystallize", "clarify" ],
 
     -- ;; tabalowar_1
     -- tblwr   tabalowar       PV_intr be crystallized;be clarified
     -- tblwr   tabalowar       IV_intr be crystallized;be clarified
 
-    verb     TaFaCCaL                  {- tabalowar -}      `gloss`  [ "be crystallized", "be clarified" ],
+    verb     TaKaRDaS                  {- tabalowar -}      `gloss`  [ "be crystallized", "be clarified" ],
 
     -- ;; balowarap_1
     -- blwr    balowar Nap     crystallization
     -- tblwr   tabalowur       NduAt   crystallization
 
-    noun     FaCCaL |< aT              {- balowarap -}      `others` [ "balwar Nap", "tabalwur NduAt" ]
+    noun     KaRDaS |< aT              {- balowarap -}      `others` [ "balwar Nap", "tabalwur NduAt" ]
                                                             `gloss`  [ "crystallization" ],
 
     -- ;; mubalowar_1
     -- mblwr   mubalowar       Nall    crystallized;candied
 
-    noun     MuFaCCaL                  {- mubalowar -}      `gloss`  [ "crystallized", "candied" ],
+    noun     MuKaRDaS                  {- mubalowar -}      `gloss`  [ "crystallized", "candied" ],
 
     -- ;; mutabalowir_1
     -- mtblwr  mutabalowir     Nall    crystalline
 
-    noun     MutaFaCCiL                {- mutabalowir -}    `gloss`  [ "crystalline" ] ]
+    noun     MutaKaRDiS                {- mutabalowir -}    `gloss`  [ "crystalline" ] ]
 
  -- ;; bil~awr_1
 
@@ -14242,13 +14202,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; biloyuwn_1
 
- |> "bilyuwn" <| [
+ |> "blyn" <| [
 
     -- ;; biloyuwn_1
     -- blywn   biloyuwn        NduAt   billion
     -- blAyyn  balAyiyn        Ndip    billions
 
-    noun     Identity                  {- biloyuwn -}       `others` [ "balAyiyn Ndip" ]
+    noun     KiRDUS                    {- biloyuwn -}       `others` [ "balAyiyn Ndip" ]
                                                             `gloss`  [ "billion", "billions" ] ]
 
  -- ;; biloyuwniyr_1
@@ -14267,7 +14227,7 @@ lexicon = listing "Lexicon properties"
     -- ;; bimobA$iy~_1
     -- bmbA$y  bimobA$iy~      Nall    lieutenant colonel     [[bimobA$iy~/ADJ]]
 
-    noun     FiCCAL |< Iy              {- bimobA$iy~ -}     `gloss`  [ "lieutenant colonel" ] ]
+    noun     KiRDAS |< Iy              {- bimobA$iy~ -}     `gloss`  [ "lieutenant colonel" ] ]
 
  -- ;; bumobAg_1
 
@@ -14276,7 +14236,7 @@ lexicon = listing "Lexicon properties"
     -- ;; bumobAg_1
     -- bmbAg   bumobAg N/ap    bow tie
 
-    noun     FuCCAL                    {- bumobAg -}        `gloss`  [ "bow tie" ] ]
+    noun     KuRDAS                    {- bumobAg -}        `gloss`  [ "bow tie" ] ]
 
  -- ;; bumobAy_1
 
@@ -14285,7 +14245,7 @@ lexicon = listing "Lexicon properties"
     -- ;; bumobAy_1
     -- bmbAy   bumobAy N       Bombay
 
-    noun     FuCCAL                    {- bumobAy -}        `gloss`  [ "Bombay" ] ]
+    noun     KuRDAS                    {- bumobAy -}        `gloss`  [ "Bombay" ] ]
 
  -- ;; bamobah_1
 
@@ -14294,7 +14254,7 @@ lexicon = listing "Lexicon properties"
     -- ;; bamobah_1
     -- bmbh    bamobah N       hot pink
 
-    noun     FaCCaL                    {- bamobah -}        `gloss`  [ "hot pink" ] ]
+    noun     KaRDaS                    {- bamobah -}        `gloss`  [ "hot pink" ] ]
 
  -- ;; bamobiy~_1
 
@@ -14459,7 +14419,7 @@ lexicon = listing "Lexicon properties"
     -- ;; binobA$iy~_1
     -- bnbA$y  binobA$iy~      Nall    lieutenant colonel     [[binobA$iy~/ADJ]]
 
-    noun     FiCCAL |< Iy              {- binobA$iy~ -}     `gloss`  [ "lieutenant colonel" ] ]
+    noun     KiRDAS |< Iy              {- binobA$iy~ -}     `gloss`  [ "lieutenant colonel" ] ]
 
  -- ;; binotAguwn_1
 
@@ -14495,12 +14455,12 @@ lexicon = listing "Lexicon properties"
     -- ;; banojAb_1
     -- bnjAb   banojAb N0      Punjab
 
-    noun     FaCCAL                    {- banojAb -}        `gloss`  [ "Punjab" ],
+    noun     KaRDAS                    {- banojAb -}        `gloss`  [ "Punjab" ],
 
     -- ;; banojAbiy~_1
     -- bnjAby  banojAbiy~      Nall    Punjabi
 
-    noun     FaCCAL |< Iy              {- banojAbiy~ -}     `gloss`  [ "Punjabi" ] ]
+    noun     KaRDAS |< Iy              {- banojAbiy~ -}     `gloss`  [ "Punjabi" ] ]
 
  -- ;; banojAl_1
 
@@ -14509,12 +14469,12 @@ lexicon = listing "Lexicon properties"
     -- ;; banojAl_1
     -- bnjAl   banojAl N0      Bengal
 
-    noun     FaCCAL                    {- banojAl -}        `gloss`  [ "Bengal" ],
+    noun     KaRDAS                    {- banojAl -}        `gloss`  [ "Bengal" ],
 
     -- ;; banojAliy~_1
     -- bnjAly  banojAliy~      Nall    Bengali
 
-    noun     FaCCAL |< Iy              {- banojAliy~ -}     `gloss`  [ "Bengali" ] ]
+    noun     KaRDAS |< Iy              {- banojAliy~ -}     `gloss`  [ "Bengali" ] ]
 
  -- ;; banojar_1
 
@@ -14523,7 +14483,7 @@ lexicon = listing "Lexicon properties"
     -- ;; banojar_1
     -- bnjr    banojar N       sugar beet;red beet
 
-    noun     FaCCaL                    {- banojar -}        `gloss`  [ "sugar beet", "red beet" ] ]
+    noun     KaRDaS                    {- banojar -}        `gloss`  [ "sugar beet", "red beet" ] ]
 
  -- ;; banojlAdiy$_1
 
@@ -14587,18 +14547,18 @@ lexicon = listing "Lexicon properties"
     -- ;; banodar_1
     -- bndr    banodar Nprop   Bandar
 
-    noun     FaCCaL                    {- banodar -}        `gloss`  [ "Bandar" ],
+    noun     KaRDaS                    {- banodar -}        `gloss`  [ "Bandar" ],
 
     -- ;; banodariy~_1
     -- bndry   banodariy~      N0      Bandary;Bandari
 
-    noun     FaCCaL |< Iy              {- banodariy~ -}     `gloss`  [ "Bandary", "Bandari" ],
+    noun     KaRDaS |< Iy              {- banodariy~ -}     `gloss`  [ "Bandary", "Bandari" ],
 
     -- ;; banodar_2
     -- bndr    banodar Ndu     seaport;district capital
     -- bnAdr   banAdir Ndip    seaports;district capitals
 
-    noun     FaCCaL                    {- banodar -}        `others` [ "banAdir Ndip" ]
+    noun     KaRDaS                    {- banodar -}        `others` [ "banAdir Ndip" ]
                                                             `gloss`  [ "seaport", "district capital", "seaports", "district capitals" ] ]
 
  -- ;; bunoduq_1
@@ -14654,13 +14614,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; bunoduwq_1
 
- |> "bunduwq" <| [
+ |> "bndq" <| [
 
     -- ;; bunoduwq_1
     -- bndwq   bunoduwq        Ndu     bastard
     -- bnAdyq  banAdiyq        Ndip    bastards
 
-    noun     Identity                  {- bunoduwq -}       `others` [ "banAdiyq Ndip" ]
+    noun     KuRDUS                    {- bunoduwq -}       `others` [ "banAdiyq Ndip" ]
                                                             `gloss`  [ "bastard", "bastards" ] ]
 
  -- ;; banoduwl_1
@@ -14670,26 +14630,26 @@ lexicon = listing "Lexicon properties"
     -- ;; banoduwl_1
     -- bndwl   banoduwl        N/ap    pendulum
 
-    noun     FaCCUL                    {- banoduwl -}       `gloss`  [ "pendulum" ] ]
+    noun     KaRDUS                    {- banoduwl -}       `gloss`  [ "pendulum" ] ]
 
  -- ;; banodiyrap_1
 
- |> "bandiyr" <| [
+ |> "bndr" <| [
 
     -- ;; banodiyrap_1
     -- bndyr   banodiyr        Nap     banner
 
-    noun     Identity |< aT            {- banodiyrap -}     `others` [ "bandiyr Nap" ]
+    noun     KaRDIS |< aT              {- banodiyrap -}     `others` [ "bandiyr Nap" ]
                                                             `gloss`  [ "banner" ] ]
 
  -- ;; binozuwl_1
 
- |> "binzuwl" <| [
+ |> "bnzl" <| [
 
     -- ;; binozuwl_1
     -- bnzwl   binozuwl        N       benzol;benzene
 
-    noun     Identity                  {- binozuwl -}       `gloss`  [ "benzol", "benzene" ] ]
+    noun     KiRDUS                    {- binozuwl -}       `gloss`  [ "benzol", "benzene" ] ]
 
  -- ;; binoziyn_1
 
@@ -14698,7 +14658,7 @@ lexicon = listing "Lexicon properties"
     -- ;; binoziyn_1
     -- bnzyn   binoziyn        N       gasoline;benzine;benzene
 
-    noun     FiCCIL                    {- binoziyn -}       `gloss`  [ "gasoline", "benzine", "benzene" ] ]
+    noun     KiRDIS                    {- binoziyn -}       `gloss`  [ "gasoline", "benzine", "benzene" ] ]
 
  -- ;; binosilofAniyA_1
 
@@ -14746,7 +14706,7 @@ lexicon = listing "Lexicon properties"
     -- ;; bano$ar_1
     -- bn$r    bano$ar NduAt   puncture;flat
 
-    noun     FaCCaL                    {- bano$ar -}        `gloss`  [ "puncture", "flat" ] ]
+    noun     KaRDaS                    {- bano$ar -}        `gloss`  [ "puncture", "flat" ] ]
 
  -- ;; binoSir_1
 
@@ -14794,7 +14754,7 @@ lexicon = listing "Lexicon properties"
     -- bngAzy  banogAziy~      Nall    Benghazi     [[banogAziy~/NOUN]]
     -- bngAzy  banogAziy~      Nall    Benghazi     [[banogAziy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- banogAziy~ -}     `gloss`  [ "Benghazi" ] ]
+    noun     KaRDAS |< Iy              {- banogAziy~ -}     `gloss`  [ "Benghazi" ] ]
 
  -- ;; banogAl_1
 
@@ -14803,12 +14763,12 @@ lexicon = listing "Lexicon properties"
     -- ;; banogAl_1
     -- bngAl   banogAl N0      Bengal
 
-    noun     FaCCAL                    {- banogAl -}        `gloss`  [ "Bengal" ],
+    noun     KaRDAS                    {- banogAl -}        `gloss`  [ "Bengal" ],
 
     -- ;; banogAliy~_1
     -- bngAly  banogAliy~      Nall    Bengali
 
-    noun     FaCCAL |< Iy              {- banogAliy~ -}     `gloss`  [ "Bengali" ] ]
+    noun     KaRDAS |< Iy              {- banogAliy~ -}     `gloss`  [ "Bengali" ] ]
 
  -- ;; banogAluwr_1
 
@@ -14854,7 +14814,7 @@ lexicon = listing "Lexicon properties"
     -- bnf$    banofa$ N       amethyst
     -- bnf$    banaf$  N       amethyst
 
-    noun     FaCCaL                    {- banofa$ -}        `others` [ "banaf^s N" ]
+    noun     KaRDaS                    {- banofa$ -}        `others` [ "banaf^s N" ]
                                                             `gloss`  [ "amethyst" ] ]
 
  -- ;; binfiykA_1
@@ -14964,7 +14924,7 @@ lexicon = listing "Lexicon properties"
     -- ;; banowAr_1
     -- bnwAr   banowAr N       baignoire
 
-    noun     FaCCAL                    {- banowAr -}        `gloss`  [ "baignoire" ] ]
+    noun     KaRDAS                    {- banowAr -}        `gloss`  [ "baignoire" ] ]
 
  -- ;; ban~uwr_1
 
@@ -14991,11 +14951,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- banaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "ban PV_ttAw", "banY PV_0", "bnY IV_0_Pass_yu", "bnay IV_Ann_Pass_yu", "banA PV_h", "banay PV_Atn", "bn IV_0hwnyn", "bniy IV_0hAnn" ]
-                                                            `gloss`  [ "build", "erect", "be built", "be erected" ] ]
-
- -- ;; taban~aY_1
-
- |> "bnn" <| [
+                                                            `gloss`  [ "build", "erect", "be built", "be erected" ],
 
     -- ;; taban~aY_1
     -- tbnY    taban~aY        PV_0    adopt
@@ -15019,11 +14975,7 @@ lexicon = listing "Lexicon properties"
     -- tbn     taban~  IV_0hwnyn       be built
 
     verb     TaFaCCY                   {- taban~aY -}       `others` [ "tabannay PV_Atn IV_Ann", "tabann PV_ttAw_intr IV_0hwnyn" ]
-                                                            `gloss`  [ "be built" ] ]
-
- -- ;; {inobanaY_1
-
- |> "bn" <| [
+                                                            `gloss`  [ "be built" ],
 
     -- ;; {inobanaY_1
     -- <nbnY   {inobanaY       PV_0    be built
@@ -15180,7 +15132,7 @@ lexicon = listing "Lexicon properties"
     -- ;; bunoyAn_1
     -- bnyAn   bunoyAn N       structure;edifice
 
-    noun     FuCCAL                    {- bunoyAn -}        `gloss`  [ "structure", "edifice" ] ]
+    noun     KuRDAS                    {- bunoyAn -}        `gloss`  [ "structure", "edifice" ] ]
 
  -- ;; mabonaY_1
 
@@ -15331,7 +15283,7 @@ lexicon = listing "Lexicon properties"
     -- ;; buhotAn_1
     -- bhtAn   buhotAn N       slander
 
-    noun     FuCCAL                    {- buhotAn -}        `gloss`  [ "slander" ] ]
+    noun     KuRDAS                    {- buhotAn -}        `gloss`  [ "slander" ] ]
 
  -- ;; bahotap_1
 
@@ -15361,13 +15313,13 @@ lexicon = listing "Lexicon properties"
     -- bhtr    bahotar PV      lie
     -- bhtr    bahotir IV_yu   lie
 
-    verb     FaCCaL                    {- bahotar -}        `others` [ "bahtir IV_yu" ]
+    verb     KaRDaS                    {- bahotar -}        `others` [ "bahtir IV_yu" ]
                                                             `gloss`  [ "lie" ],
 
     -- ;; bahotarap_1
     -- bhtr    bahotar Nap     lying
 
-    noun     FaCCaL |< aT              {- bahotarap -}      `others` [ "bahtar Nap" ]
+    noun     KaRDaS |< aT              {- bahotarap -}      `others` [ "bahtar Nap" ]
                                                             `gloss`  [ "lying" ] ]
 
  -- ;; bahij-a_1
@@ -15460,7 +15412,7 @@ lexicon = listing "Lexicon properties"
     -- ;; bahojat_1
     -- bhjt    bahojat Nprop   Bahjat
 
-    noun     FaCCaL                    {- bahojat -}        `gloss`  [ "Bahjat" ] ]
+    noun     KaRDaS                    {- bahojat -}        `gloss`  [ "Bahjat" ] ]
 
  -- ;; bahodal_1
 
@@ -15470,25 +15422,25 @@ lexicon = listing "Lexicon properties"
     -- bhdl    bahodal PV      insult;ridicule
     -- bhdl    bahodil IV_yu   insult;ridicule
 
-    verb     FaCCaL                    {- bahodal -}        `others` [ "bahdil IV_yu" ]
+    verb     KaRDaS                    {- bahodal -}        `others` [ "bahdil IV_yu" ]
                                                             `gloss`  [ "insult", "ridicule" ],
 
     -- ;; tabahodal_1
     -- tbhdl   tabahodal       PV_intr be insulted;be in disarray
     -- tbhdl   tabahodal       IV_intr be insulted;be in disarray
 
-    verb     TaFaCCaL                  {- tabahodal -}      `gloss`  [ "be insulted", "be in disarray" ],
+    verb     TaKaRDaS                  {- tabahodal -}      `gloss`  [ "be insulted", "be in disarray" ],
 
     -- ;; bahodalap_1
     -- bhdl    bahodal Nap     insult;affront
 
-    noun     FaCCaL |< aT              {- bahodalap -}      `others` [ "bahdal Nap" ]
+    noun     KaRDaS |< aT              {- bahodalap -}      `others` [ "bahdal Nap" ]
                                                             `gloss`  [ "insult", "affront" ],
 
     -- ;; mubahodal_1
     -- mbhdl   mubahodal       Nall    mistreated
 
-    noun     MuFaCCaL                  {- mubahodal -}      `gloss`  [ "mistreated" ] ]
+    noun     MuKaRDaS                  {- mubahodal -}      `gloss`  [ "mistreated" ] ]
 
  -- ;; bahar-a_1
 
@@ -15596,26 +15548,26 @@ lexicon = listing "Lexicon properties"
     -- bhrj    bahoraj PV      disguise
     -- bhrj    bahorij IV_yu   disguise
 
-    verb     FaCCaL                    {- bahoraj -}        `others` [ "bahri^g IV_yu" ]
+    verb     KaRDaS                    {- bahoraj -}        `others` [ "bahri^g IV_yu" ]
                                                             `gloss`  [ "disguise" ],
 
     -- ;; tabahoraj_1
     -- tbhrj   tabahoraj       PV      disguise
     -- tbhrj   tabahoraj       IV      disguise
 
-    verb     TaFaCCaL                  {- tabahoraj -}      `gloss`  [ "disguise" ],
+    verb     TaKaRDaS                  {- tabahoraj -}      `gloss`  [ "disguise" ],
 
     -- ;; bahoraj_2
     -- bhrj    bahoraj Ndu     spurious;cheap
     -- bhArj   bahArij Ndip    spurious;false
 
-    noun     FaCCaL                    {- bahoraj -}        `others` [ "bahAri^g Ndip" ]
+    noun     KaRDaS                    {- bahoraj -}        `others` [ "bahAri^g Ndip" ]
                                                             `gloss`  [ "spurious", "cheap", "false" ],
 
     -- ;; bahorajap_1
     -- bhrj    bahoraj Nap     hollow pomp
 
-    noun     FaCCaL |< aT              {- bahorajap -}      `others` [ "bahra^g Nap" ]
+    noun     KaRDaS |< aT              {- bahorajap -}      `others` [ "bahra^g Nap" ]
                                                             `gloss`  [ "hollow pomp" ] ]
 
  -- ;; bahorajAn_1
@@ -15630,34 +15582,26 @@ lexicon = listing "Lexicon properties"
     -- ;; mubahoraj_1
     -- mbhrj   mubahoraj       Nall    gaudy;trashy
 
-    noun     MuFaCCaL                  {- mubahoraj -}      `gloss`  [ "gaudy", "trashy" ] ]
+    noun     MuKaRDaS                  {- mubahoraj -}      `gloss`  [ "gaudy", "trashy" ] ]
 
  -- ;; bihoruwz_1
 
- |> "bihruwz" <| [
+ |> "bhrz" <| [
 
     -- ;; bihoruwz_1
     -- bhrwz   bihoruwz        Nprop   Behrouz
 
-    noun     Identity                  {- bihoruwz -}       `gloss`  [ "Behrouz" ] ]
-
- -- ;; bahoriyz_1
-
- |> "bahriyz" <| [
+    noun     KiRDUS                    {- bihoruwz -}       `gloss`  [ "Behrouz" ],
 
     -- ;; bahoriyz_1
     -- bhryz   bahoriyz        N0      Bahriz
 
-    noun     Identity                  {- bahoriyz -}       `gloss`  [ "Bahriz" ] ]
-
- -- ;; bahoriyz_2
-
- |> "bahriyz" <| [
+    noun     KaRDIS                    {- bahoriyz -}       `gloss`  [ "Bahriz" ],
 
     -- ;; bahoriyz_2
     -- bhryz   bahoriyz        N       broth
 
-    noun     Identity                  {- bahoriyz -}       `gloss`  [ "broth" ] ]
+    noun     KaRDIS                    {- bahoriyz -}       `gloss`  [ "broth" ] ]
 
  -- ;; bahaz-a_1
 
@@ -15785,21 +15729,21 @@ lexicon = listing "Lexicon properties"
     -- ;; baholawiy~_1
     -- bhlwy   baholawiy~      N0      Pahlavi;Pahlevi
 
-    noun     FaCCaL |< Iy              {- baholawiy~ -}     `gloss`  [ "Pahlavi", "Pahlevi" ],
+    noun     KaRDaS |< Iy              {- baholawiy~ -}     `gloss`  [ "Pahlavi", "Pahlevi" ],
 
     -- ;; baholawiy~_2
     -- bhlwy   baholawiy~      N0      Bahlawi;Bahlaoui
 
-    noun     FaCCaL |< Iy              {- baholawiy~ -}     `gloss`  [ "Bahlawi", "Bahlaoui" ] ]
+    noun     KaRDaS |< Iy              {- baholawiy~ -}     `gloss`  [ "Bahlawi", "Bahlaoui" ] ]
 
  -- ;; baholuwl_1
 
- |> "bhl" <| [
+ |> "bahluwl" <| [
 
     -- ;; baholuwl_1
     -- bhlwl   baholuwl        N0      Bahloul
 
-    noun     FaCCUL                    {- baholuwl -}       `gloss`  [ "Bahloul" ] ]
+    noun     Identity                  {- baholuwl -}       `gloss`  [ "Bahloul" ] ]
 
  -- ;; buholuwl_1
 
@@ -16276,12 +16220,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; buwbiynap_1
 
- |> "buwbiyn" <| [
+ |> "bwbn" <| [
 
     -- ;; buwbiynap_1
     -- bwbyn   buwbiyn Nap     spool;reel
 
-    noun     Identity |< aT            {- buwbiynap -}      `others` [ "buwbiyn Nap" ]
+    noun     KuRDIS |< aT              {- buwbiynap -}      `others` [ "buwbiyn Nap" ]
                                                             `gloss`  [ "spool", "reel" ] ]
 
  -- ;; buwtAjAz_1
@@ -16362,21 +16306,21 @@ lexicon = listing "Lexicon properties"
 
  -- ;; buwtiyk_1
 
- |> "buwtiyk" <| [
+ |> "bwtk" <| [
 
     -- ;; buwtiyk_1
     -- bwtyk   buwtiyk N/At    boutique
 
-    noun     Identity                  {- buwtiyk -}        `gloss`  [ "boutique" ] ]
+    noun     KuRDIS                    {- buwtiyk -}        `gloss`  [ "boutique" ] ]
 
  -- ;; buwtiyn_1
 
- |> "buwtiyn" <| [
+ |> "bwtn" <| [
 
     -- ;; buwtiyn_1
     -- bwtyn   buwtiyn Nprop   Putin
 
-    noun     Identity                  {- buwtiyn -}        `gloss`  [ "Putin" ] ]
+    noun     KuRDIS                    {- buwtiyn -}        `gloss`  [ "Putin" ] ]
 
  -- ;; buwtiyih_1
 
@@ -16389,12 +16333,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; buwjiyh_1
 
- |> "buw^giyh" <| [
+ |> "bw^gh" <| [
 
     -- ;; buwjiyh_1
     -- bwjyh   buwjiyh N/At    spark plug
 
-    noun     Identity                  {- buwjiyh -}        `gloss`  [ "spark plug" ] ]
+    noun     KuRDIS                    {- buwjiyh -}        `gloss`  [ "spark plug" ] ]
 
  -- ;--- bwH
 
@@ -16578,12 +16522,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; buwxuwm_1
 
- |> "buw_huwm" <| [
+ |> "bw_hm" <| [
 
     -- ;; buwxuwm_1
     -- bwxwm   buwxuwm Nprop   Bochum
 
-    noun     Identity                  {- buwxuwm -}        `gloss`  [ "Bochum" ] ]
+    noun     KuRDUS                    {- buwxuwm -}        `gloss`  [ "Bochum" ] ]
 
  -- ;--- bwd
 
@@ -16783,7 +16727,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; buwrAniy~_1
 
-    noun     FuCCAL |< Iy              {- buwrAniy~ -}       ]
+    noun     KuRDAS |< Iy              {- buwrAniy~ -}       ]
 
  -- ;; buwrAniy~_1
 
@@ -16968,7 +16912,7 @@ lexicon = listing "Lexicon properties"
     -- ;; baworaq_1
     -- bwrq    baworaq N       borax
 
-    noun     FaCCaL                    {- baworaq -}        `gloss`  [ "borax" ] ]
+    noun     KaRDaS                    {- baworaq -}        `gloss`  [ "borax" ] ]
 
  -- ;; buwromA_1
 
@@ -17033,21 +16977,21 @@ lexicon = listing "Lexicon properties"
 
  -- ;; buwruwjiy~_1
 
- |> "buwruw^g" <| [
+ |> "bwr^g" <| [
 
     -- ;; buwruwjiy~_1
     -- bwrwjy  buwruwjiy~      Nall    bugler     [[buwruwjiy~/ADJ]]
 
-    noun     Identity |< Iy            {- buwruwjiy~ -}     `gloss`  [ "bugler" ] ]
+    noun     KuRDUS |< Iy              {- buwruwjiy~ -}     `gloss`  [ "bugler" ] ]
 
  -- ;; buwriys_1
 
- |> "buwriys" <| [
+ |> "bwrs" <| [
 
     -- ;; buwriys_1
     -- bwrys   buwriys Nprop   Boris
 
-    noun     Identity                  {- buwriys -}        `gloss`  [ "Boris" ] ]
+    noun     KuRDIS                    {- buwriys -}        `gloss`  [ "Boris" ] ]
 
  -- ;--- bwz
 
@@ -17319,7 +17263,7 @@ lexicon = listing "Lexicon properties"
     -- ;; bawoSalap_1
     -- bwSl    bawoSal NapAt   compass
 
-    noun     FaCCaL |< aT              {- bawoSalap -}      `others` [ "baw.sal NapAt" ]
+    noun     KaRDaS |< aT              {- bawoSalap -}      `others` [ "baw.sal NapAt" ]
                                                             `gloss`  [ "compass" ] ]
 
  -- ;--- bwT
@@ -17423,7 +17367,7 @@ lexicon = listing "Lexicon properties"
     -- bwgAd   buwgAd  Nap     potash;lye
     -- bwgAD   buwgAD  Nap     potash;lye
 
-    noun     FuCCAL |< aT              {- buwgAdap -}       `others` [ "buw.gA.d Nap", "buw.gAd Nap" ]
+    noun     KuRDAS |< aT              {- buwgAdap -}       `others` [ "buw.gA.d Nap", "buw.gAd Nap" ]
                                                             `gloss`  [ "potash", "lye" ] ]
 
  -- ;; buwgAz_1
@@ -17442,7 +17386,7 @@ lexicon = listing "Lexicon properties"
     -- bwgAz   buwgAz  N       strait;harbor
     -- bwAgyz  bawAgiyz        Ndip    straits;harbors
 
-    noun     FuCCAL                    {- buwgAz -}         `others` [ "bawA.giyz Ndip" ]
+    noun     KuRDAS                    {- buwgAz -}         `others` [ "bawA.giyz Ndip" ]
                                                             `gloss`  [ "strait", "harbor", "straits", "harbors" ] ]
 
  -- ;--- bwf
@@ -17464,22 +17408,22 @@ lexicon = listing "Lexicon properties"
 
  -- ;; buwfuwn_1
 
- |> "buwfuwn" <| [
+ |> "bwfn" <| [
 
     -- ;; buwfuwn_1
     -- bwfwn   buwfuwn Nprop   Buffon
 
-    noun     Identity                  {- buwfuwn -}        `gloss`  [ "Buffon" ] ]
+    noun     KuRDUS                    {- buwfuwn -}        `gloss`  [ "Buffon" ] ]
 
  -- ;; buwfiyh_1
 
- |> "buwfiyh" <| [
+ |> "bwfh" <| [
 
     -- ;; buwfiyh_1
     -- bwfyh   buwfiyh N       buffet
     -- bwfyh   buwfiyh NAt     buffets
 
-    noun     Identity                  {- buwfiyh -}        `gloss`  [ "buffet", "buffets" ] ]
+    noun     KuRDIS                    {- buwfiyh -}        `gloss`  [ "buffet", "buffets" ] ]
 
  -- ;--- bwq
 
@@ -17540,7 +17484,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; buwqAl_1
 
-    noun     FuCCAL                    {- buwqAl -}          ]
+    noun     KuRDAS                    {- buwqAl -}          ]
 
  -- ;; buwqAl_1
 
@@ -17736,7 +17680,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; buwlAd_1
 
-    noun     FuCCAL                    {- buwlAd -}          ]
+    noun     KuRDAS                    {- buwlAd -}          ]
 
  -- ;; buwlAd_1
 
@@ -17807,7 +17751,7 @@ lexicon = listing "Lexicon properties"
     -- ;; buwlAq_1
     -- bwlAq   buwlAq  N       Bulaq
 
-    noun     FuCCAL                    {- buwlAq -}         `gloss`  [ "Bulaq" ] ]
+    noun     KuRDAS                    {- buwlAq -}         `gloss`  [ "Bulaq" ] ]
 
  -- ;--- bwln
 
@@ -17858,32 +17802,24 @@ lexicon = listing "Lexicon properties"
 
  -- ;; buwliys_1
 
- |> "buwliys" <| [
+ |> "bwls" <| [
 
     -- ;; buwliys_1
     -- bwlys   buwliys N       police
 
-    noun     Identity                  {- buwliys -}        `gloss`  [ "police" ] ]
-
- -- ;; buwliysap_1
-
- |> "buwliys" <| [
+    noun     KuRDIS                    {- buwliys -}        `gloss`  [ "police" ],
 
     -- ;; buwliysap_1
     -- bwlys   buwliys Nap     policy;insurance
     -- bwAls   bawAlis Ndip    policies;insurance
 
-    noun     Identity |< aT            {- buwliysap -}      `others` [ "bawAlis Ndip", "buwliys Nap" ]
-                                                            `gloss`  [ "policy", "insurance", "policies" ] ]
-
- -- ;; buwliysiy~_1
-
- |> "buwliys" <| [
+    noun     KuRDIS |< aT              {- buwliysap -}      `others` [ "bawAlis Ndip", "buwliys Nap" ]
+                                                            `gloss`  [ "policy", "insurance", "policies" ],
 
     -- ;; buwliysiy~_1
     -- bwlysy  buwliysiy~      Nall    police;detective     [[buwliysiy~/ADJ]]
 
-    noun     Identity |< Iy            {- buwliysiy~ -}     `gloss`  [ "police", "detective" ] ]
+    noun     KuRDIS |< Iy              {- buwliysiy~ -}     `gloss`  [ "police", "detective" ] ]
 
  -- ;; buwliysAriyuw_1
 
@@ -17896,13 +17832,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; buwliySap_1
 
- |> "buwliy.s" <| [
+ |> "bwl.s" <| [
 
     -- ;; buwliySap_1
     -- bwlyS   buwliyS Nap     policy;insurance
     -- bwAlS   bawAliS Ndip    policies;insurance
 
-    noun     Identity |< aT            {- buwliySap -}      `others` [ "buwliy.s Nap", "bawAli.s Ndip" ]
+    noun     KuRDIS |< aT              {- buwliySap -}      `others` [ "buwliy.s Nap", "bawAli.s Ndip" ]
                                                             `gloss`  [ "policy", "insurance", "policies" ] ]
 
  -- ;; buwliyfiyA_1
@@ -17916,13 +17852,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; buwliyfiy~_1
 
- |> "buwliyf" <| [
+ |> "bwlf" <| [
 
     -- ;; buwliyfiy~_1
     -- bwlyfy  buwliyfiy~      Nall    Bolivian     [[buwliyfiy~/NOUN]]
     -- bwlyfy  buwliyfiy~      Nall    Bolivian     [[buwliyfiy~/ADJ]]
 
-    noun     Identity |< Iy            {- buwliyfiy~ -}     `gloss`  [ "Bolivian" ] ]
+    noun     KuRDIS |< Iy              {- buwliyfiy~ -}     `gloss`  [ "Bolivian" ] ]
 
  -- ;; buwm_1
 
@@ -18012,30 +17948,30 @@ lexicon = listing "Lexicon properties"
 
  -- ;; buwhiymiy~_1
 
- |> "buwhiym" <| [
+ |> "bwhm" <| [
 
     -- ;; buwhiymiy~_1
     -- bwhymy  buwhiymiy~      Nall    Bohemian     [[buwhiymiy~/NOUN]]
     -- bwhymy  buwhiymiy~      Nall    Bohemian     [[buwhiymiy~/ADJ]]
 
-    noun     Identity |< Iy            {- buwhiymiy~ -}     `gloss`  [ "Bohemian" ] ]
-
- -- ;; buwyap_1
-
- |> "by" <| [
-
-    -- ;; buwyap_1
-
-    noun     FUL |< aT                 {- buwyap -}          ]
+    noun     KuRDIS |< Iy              {- buwhiymiy~ -}     `gloss`  [ "Bohemian" ] ]
 
  -- ;; buwyap_1
 
  |> "bwy" <| [
 
     -- ;; buwyap_1
+
+    noun     FuCL |< aT                {- buwyap -}          ]
+
+ -- ;; buwyap_1
+
+ |> "by" <| [
+
+    -- ;; buwyap_1
     -- bwy     buwy    NapAt   paint
 
-    noun     FuCL |< aT                {- buwyap -}         `others` [ "buwy NapAt" ]
+    noun     FUL |< aT                 {- buwyap -}         `others` [ "buwy NapAt" ]
                                                             `gloss`  [ "paint" ] ]
 
  -- ;; bwyz_1
@@ -18301,7 +18237,7 @@ lexicon = listing "Lexicon properties"
     -- ;; biytAr_1
     -- bytAr   biytAr  Nprop   Bitar;Betar
 
-    noun     FiCCAL                    {- biytAr -}         `gloss`  [ "Bitar", "Betar" ] ]
+    noun     KiRDAS                    {- biytAr -}         `gloss`  [ "Bitar", "Betar" ] ]
 
  -- ;; bayotAwiy~_1
 
@@ -18310,7 +18246,7 @@ lexicon = listing "Lexicon properties"
     -- ;; bayotAwiy~_1
     -- bytAwy  bayotAwiy~      N0      Beitawi
 
-    noun     FaCCAL |< Iy              {- bayotAwiy~ -}     `gloss`  [ "Beitawi" ] ]
+    noun     KaRDAS |< Iy              {- bayotAwiy~ -}     `gloss`  [ "Beitawi" ] ]
 
  -- ;; bytr_1
 
@@ -18384,7 +18320,7 @@ lexicon = listing "Lexicon properties"
     -- ;; biytiys_1
     -- bytys   biytiys Nprop   Betis
 
-    noun     FiCCIL                    {- biytiys -}        `gloss`  [ "Betis" ] ]
+    noun     KiRDIS                    {- biytiys -}        `gloss`  [ "Betis" ] ]
 
  -- ;; biyjAmA_1
 
@@ -18399,20 +18335,20 @@ lexicon = listing "Lexicon properties"
 
  -- ;; biyjAn_1
 
- |> "b^gn" <| [
+ |> "by^gn" <| [
 
     -- ;; biyjAn_1
 
-    noun     FICAL                     {- biyjAn -}          ]
+    noun     KiRDAS                    {- biyjAn -}          ]
 
  -- ;; biyjAn_1
 
- |> "by^gn" <| [
+ |> "b^gn" <| [
 
     -- ;; biyjAn_1
     -- byjAn   biyjAn  Nprop   Bijan
 
-    noun     FiCCAL                    {- biyjAn -}         `gloss`  [ "Bijan" ] ]
+    noun     FICAL                     {- biyjAn -}         `gloss`  [ "Bijan" ] ]
 
  -- ;--- byd
 
@@ -18467,7 +18403,7 @@ lexicon = listing "Lexicon properties"
     -- bydA&   bayodA& Nh      wilderness;desert
     -- bydA}   bayodA} Nhy     wilderness;desert
 
-    noun     FaCCAL                    {- bayodA' -}        `gloss`  [ "wilderness", "desert" ] ]
+    noun     KaRDAS                    {- bayodA' -}        `gloss`  [ "wilderness", "desert" ] ]
 
  -- ;; biyd_1
 
@@ -18527,20 +18463,20 @@ lexicon = listing "Lexicon properties"
 
  -- ;; biydAr_1
 
- |> "bdr" <| [
+ |> "bydr" <| [
 
     -- ;; biydAr_1
 
-    noun     FICAL                     {- biydAr -}          ]
+    noun     KiRDAS                    {- biydAr -}          ]
 
  -- ;; biydAr_1
 
- |> "bydr" <| [
+ |> "bdr" <| [
 
     -- ;; biydAr_1
     -- bydAr   biydAr  Nprop   Bidar
 
-    noun     FiCCAL                    {- biydAr -}         `gloss`  [ "Bidar" ] ]
+    noun     FICAL                     {- biydAr -}         `gloss`  [ "Bidar" ] ]
 
  -- ;; biydAguwjiy~_1
 
@@ -18551,13 +18487,17 @@ lexicon = listing "Lexicon properties"
     -- bdAgwjy bidAguwjiy~     Nall    pedagogical     [[bidAguwjiy~/ADJ]]
 
     noun     Identity |< Iy            {- biydAguwjiy~ -}   `others` [ "bidA.guw^giyy Nall" ]
-                                                            `gloss`  [ "pedagogical" ],
+                                                            `gloss`  [ "pedagogical" ] ]
+
+ -- ;; bayodar_1
+
+ |> "bydr" <| [
 
     -- ;; bayodar_1
     -- bydr    bayodar N       threshing floor
     -- byAdr   bayAdir Ndip    threshing floors
 
-    noun     FaCCaL                    {- bayodar -}        `others` [ "bayAdir Ndip" ]
+    noun     KaRDaS                    {- bayodar -}        `others` [ "bayAdir Ndip" ]
                                                             `gloss`  [ "threshing floor", "threshing floors" ] ]
 
  -- ;; bayodaq_1
@@ -18570,7 +18510,7 @@ lexicon = listing "Lexicon properties"
     -- byAdq   bayAdiq Ndip    pawns
     -- byA*q   bayA*iq Ndip    pawns
 
-    noun     FaCCaL                    {- bayodaq -}        `others` [ "bayAdiq Ndip", "bayA_diq Ndip", "bay_daq Ndu" ]
+    noun     KaRDaS                    {- bayodaq -}        `others` [ "bayAdiq Ndip", "bayA_diq Ndip", "bay_daq Ndu" ]
                                                             `gloss`  [ "pawn", "pawns" ] ]
 
  -- ;--- byr
@@ -18670,7 +18610,7 @@ lexicon = listing "Lexicon properties"
     -- byrq    bayoraq N       banner
     -- byArq   bayAriq Ndip    banners
 
-    noun     FaCCaL                    {- bayoraq -}        `others` [ "bayAriq Ndip" ]
+    noun     KaRDaS                    {- bayoraq -}        `others` [ "bayAriq Ndip" ]
                                                             `gloss`  [ "banner", "banners" ] ]
 
  -- ;; bayoraqodAr_1
@@ -18761,13 +18701,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; biyruwfiy~_1
 
- |> "biyruwf" <| [
+ |> "byrf" <| [
 
     -- ;; biyruwfiy~_1
     -- byrwfy  biyruwfiy~      Nall    Peruvian     [[biyruwfiy~/NOUN]]
     -- byrwfy  biyruwfiy~      Nall    Peruvian     [[biyruwfiy~/ADJ]]
 
-    noun     Identity |< Iy            {- biyruwfiy~ -}     `gloss`  [ "Peruvian" ] ]
+    noun     KiRDUS |< Iy              {- biyruwfiy~ -}     `gloss`  [ "Peruvian" ] ]
 
  -- ;; biyrwAniy~_1
 
@@ -18786,18 +18726,18 @@ lexicon = listing "Lexicon properties"
     -- ;; bayoruwt_1
     -- byrwt   bayoruwt        Ndip    Beirut
 
-    noun     FaCCUL                    {- bayoruwt -}       `gloss`  [ "Beirut" ],
+    noun     KaRDUS                    {- bayoruwt -}       `gloss`  [ "Beirut" ],
 
     -- ;; bayoruwtiy~_1
     -- byrwty  bayoruwtiy~     Nall    Beiruti     [[bayoruwtiy~/NOUN]]
     -- byrwty  bayoruwtiy~     Nall    Beiruti     [[bayoruwtiy~/ADJ]]
 
-    noun     FaCCUL |< Iy              {- bayoruwtiy~ -}    `gloss`  [ "Beiruti" ],
+    noun     KaRDUS |< Iy              {- bayoruwtiy~ -}    `gloss`  [ "Beiruti" ],
 
     -- ;; bayoruwtiy~_2
     -- byrwty  bayoruwtiy~     N0      Beirouti;Bairuti
 
-    noun     FaCCUL |< Iy              {- bayoruwtiy~ -}    `gloss`  [ "Beirouti", "Bairuti" ] ]
+    noun     KaRDUS |< Iy              {- bayoruwtiy~ -}    `gloss`  [ "Beirouti", "Bairuti" ] ]
 
  -- ;; biyruwziy_1
 
@@ -18838,21 +18778,17 @@ lexicon = listing "Lexicon properties"
 
  -- ;; biyruwn_1
 
- |> "biyruwn" <| [
+ |> "byrn" <| [
 
     -- ;; biyruwn_1
     -- byrwn   biyruwn Nprop   Perón
 
-    noun     Identity                  {- biyruwn -}        `gloss`  [ "Per_on" ] ]
-
- -- ;; biyruwniy~_1
-
- |> "biyruwn" <| [
+    noun     KiRDUS                    {- biyruwn -}        `gloss`  [ "Per_on" ],
 
     -- ;; biyruwniy~_1
     -- byrwny  biyruwniy~      N0      Biruni;Birouni
 
-    noun     Identity |< Iy            {- biyruwniy~ -}     `gloss`  [ "Biruni", "Birouni" ] ]
+    noun     KiRDUS |< Iy              {- biyruwniy~ -}     `gloss`  [ "Biruni", "Birouni" ] ]
 
  -- ;--- byry
 
@@ -18896,7 +18832,7 @@ lexicon = listing "Lexicon properties"
     -- ;; biyriyz_1
     -- byryz   biyriyz Nprop   Peres
 
-    noun     FiCCIL                    {- biyriyz -}        `gloss`  [ "Peres" ] ]
+    noun     KiRDIS                    {- biyriyz -}        `gloss`  [ "Peres" ] ]
 
  -- ;; biyriys_1
 
@@ -18905,7 +18841,7 @@ lexicon = listing "Lexicon properties"
     -- ;; biyriys_1
     -- byrys   biyriys Nprop   Peres
 
-    noun     FiCCIL                    {- biyriys -}        `gloss`  [ "Peres" ] ]
+    noun     KiRDIS                    {- biyriys -}        `gloss`  [ "Peres" ] ]
 
  -- ;--- byz
 
@@ -18956,12 +18892,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; biysuwn_1
 
- |> "biysuwn" <| [
+ |> "bysn" <| [
 
     -- ;; biysuwn_1
     -- byswn   biysuwn N       bison
 
-    noun     Identity                  {- biysuwn -}        `gloss`  [ "bison" ] ]
+    noun     KiRDUS                    {- biysuwn -}        `gloss`  [ "bison" ] ]
 
  -- ;--- by$
 
@@ -19060,17 +18996,17 @@ lexicon = listing "Lexicon properties"
     -- ;; bayoDawiy~_1
     -- byDwy   bayoDawiy~      Nall    oval     [[bayoDawiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- bayoDawiy~ -}     `gloss`  [ "oval" ],
+    noun     KaRDaS |< Iy              {- bayoDawiy~ -}     `gloss`  [ "oval" ],
 
     -- ;; bayoDAwiy~_1
     -- byDAwy  bayoDAwiy~      Nall    oval     [[bayoDAwiy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- bayoDAwiy~ -}     `gloss`  [ "oval" ],
+    noun     KaRDAS |< Iy              {- bayoDAwiy~ -}     `gloss`  [ "oval" ],
 
     -- ;; bayoDAwiy~_2
     -- byDAwy  bayoDAwiy~      Nall    Casablancan     [[bayoDAwiy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- bayoDAwiy~ -}     `gloss`  [ "Casablancan" ] ]
+    noun     KaRDAS |< Iy              {- bayoDAwiy~ -}     `gloss`  [ "Casablancan" ] ]
 
  -- ;; buwayoD_1
 
@@ -19182,25 +19118,25 @@ lexicon = listing "Lexicon properties"
     -- byTr    bayoTar PV      practice veterinary
     -- byTr    bayoTir IV_yu   practice veterinary
 
-    verb     FaCCaL                    {- bayoTar -}        `others` [ "bay.tir IV_yu" ]
+    verb     KaRDaS                    {- bayoTar -}        `others` [ "bay.tir IV_yu" ]
                                                             `gloss`  [ "practice veterinary" ],
 
     -- ;; bayoTAr_1
     -- byTAr   bayoTAr Ndu     veterinarian
     -- byATr   bayATir Nap     veterinarians
 
-    noun     FaCCAL                    {- bayoTAr -}        `others` [ "bayA.tir Nap" ]
+    noun     KaRDAS                    {- bayoTAr -}        `others` [ "bayA.tir Nap" ]
                                                             `gloss`  [ "veterinarian", "veterinarians" ],
 
     -- ;; bayoTariy~_1
     -- byTry   bayoTariy~      Nall    veterinary     [[bayoTariy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- bayoTariy~ -}     `gloss`  [ "veterinary" ],
+    noun     KaRDaS |< Iy              {- bayoTariy~ -}     `gloss`  [ "veterinary" ],
 
     -- ;; bayoTarap_1
     -- byTr    bayoTar Nap     veterinary
 
-    noun     FaCCaL |< aT              {- bayoTarap -}      `others` [ "bay.tar Nap" ]
+    noun     KaRDaS |< aT              {- bayoTarap -}      `others` [ "bay.tar Nap" ]
                                                             `gloss`  [ "veterinary" ] ]
 
  -- ;--- byE
@@ -19454,7 +19390,7 @@ lexicon = listing "Lexicon properties"
     -- ;; biykAr_1
     -- bykAr   biykAr  N       compass;dividers
 
-    noun     FiCCAL                    {- biykAr -}         `gloss`  [ "compass", "dividers" ] ]
+    noun     KiRDAS                    {- biykAr -}         `gloss`  [ "compass", "dividers" ] ]
 
  -- ;; biykotil_1
 
@@ -19490,7 +19426,7 @@ lexicon = listing "Lexicon properties"
     -- ;; biykiyn_1
     -- bykyn   biykiyn Nprop   Peking;Beijing
 
-    noun     FiCCIL                    {- biykiyn -}        `gloss`  [ "Peking", "Beijing" ] ]
+    noun     KiRDIS                    {- biykiyn -}        `gloss`  [ "Peking", "Beijing" ] ]
 
  -- ;; biykiyngohAm_1
 
@@ -19763,11 +19699,7 @@ lexicon = listing "Lexicon properties"
     -- ;; bay~in_1
     -- byn     bay~in  Ndu     clear;evident;explicit
 
-    noun     Identity                  {- bay~in -}         `gloss`  [ "clear", "evident", "explicit" ] ]
-
- -- ;; >aboyinA'_1
-
- |> "'abyinA'" <| [
+    noun     Identity                  {- bay~in -}         `gloss`  [ "clear", "evident", "explicit" ],
 
     -- ;; >aboyinA'_1
     -- >bynA'  >aboyinA'       N0_Nh   eloquent
@@ -19777,7 +19709,7 @@ lexicon = listing "Lexicon properties"
     -- >bynA}  >aboyinA}       Nhy     eloquent
     -- AbynA}  >aboyinA}       Nhy     eloquent
 
-    noun     Identity                  {- >aboyinA' -}      `gloss`  [ "eloquent" ] ]
+    noun     HaFCiLA'                  {- >aboyinA' -}      `gloss`  [ "eloquent" ] ]
 
  -- ;; bay~inap_1
 

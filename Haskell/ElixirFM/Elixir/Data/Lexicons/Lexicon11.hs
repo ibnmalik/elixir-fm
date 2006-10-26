@@ -411,16 +411,12 @@ lexicon = listing "Lexicon properties"
     -- ;; zabuwr_1
     -- zbwr    zabuwr  N       Psalms;Psalter
 
-    noun     FaCUL                     {- zabuwr -}         `gloss`  [ "Psalms", "Psalter" ] ]
-
- -- ;; zawAbiriy~_1
-
- |> "zawAbir" <| [
+    noun     FaCUL                     {- zabuwr -}         `gloss`  [ "Psalms", "Psalter" ],
 
     -- ;; zawAbiriy~_1
     -- zwAbry  zawAbiriy~      N0      Zouabri
 
-    noun     Identity |< Iy            {- zawAbiriy~ -}     `gloss`  [ "Zouabri" ] ]
+    noun     FawACiL |< Iy             {- zawAbiriy~ -}     `gloss`  [ "Zouabri" ] ]
 
  -- ;--- zbrj
 
@@ -491,7 +487,7 @@ lexicon = listing "Lexicon properties"
     -- zwbE    zawobaE Napdu   storm;hurricane
     -- zwAbE   zawAbiE Ndip    storms;hurricanes
 
-    noun     FaCCaL |< aT              {- zawobaEap -}      `others` [ "zawba` Napdu", "zawAbi` Ndip" ]
+    noun     KaRDaS |< aT              {- zawobaEap -}      `others` [ "zawba` Napdu", "zawAbi` Ndip" ]
                                                             `gloss`  [ "storm", "hurricane", "storms", "hurricanes" ] ]
 
  -- ;--- zbq
@@ -831,11 +827,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- zajA-u -}         `imperf` [ FCuL ]
                                                             `others` [ "za^gaw PV_Atn", "z^guw IV_0hAnn", "za^gA PV_0h", "z^gay IV_Ann_Pass_yu", "za^g PV_ttAw", "z^g IV_0hwnyn", "z^gY IV_0_Pass_yu" ]
-                                                            `gloss`  [ "urge on", "press", "be urged on" ] ]
-
- -- ;; zaj~aY_1
-
- |> "z^g^g" <| [
+                                                            `gloss`  [ "urge on", "press", "be urged on" ],
 
     -- ;; zaj~aY_1
     -- zjY     zaj~aY  PV_0    shove;jostle
@@ -848,11 +840,7 @@ lexicon = listing "Lexicon properties"
     -- zjy     zaj~ay  IV_Ann_Pass_yu  be shoved;be jostled
 
     verb     FaCCY                     {- zaj~aY -}         `others` [ "za^g^gA PV_h", "za^g^g IV_0hwnyn_yu PV_ttAw", "za^g^giy IV_0hAnn_yu", "za^g^gay PV_Atn IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "shove", "jostle", "be shoved", "be jostled" ] ]
-
- -- ;; >azojaY_1
-
- |> "z^g" <| [
+                                                            `gloss`  [ "shove", "jostle", "be shoved", "be jostled" ],
 
     -- ;; >azojaY_1
     -- >zjY    >azojaY PV_0    shove;jostle
@@ -928,19 +916,19 @@ lexicon = listing "Lexicon properties"
     -- zHzH    zaHozaH PV      remove;snatch
     -- zHzH    zaHoziH IV_yu   remove;snatch
 
-    verb     FaCCaL                    {- zaHozaH -}        `others` [ "za.hzi.h IV_yu" ]
+    verb     KaRDaS                    {- zaHozaH -}        `others` [ "za.hzi.h IV_yu" ]
                                                             `gloss`  [ "remove", "snatch" ],
 
     -- ;; tazaHozaH_1
     -- tzHzH   tazaHozaH       PV      be removed;be snatched
     -- tzHzH   tazaHozaH       IV      be removed;be snatched
 
-    verb     TaFaCCaL                  {- tazaHozaH -}      `gloss`  [ "be removed", "be snatched" ],
+    verb     TaKaRDaS                  {- tazaHozaH -}      `gloss`  [ "be removed", "be snatched" ],
 
     -- ;; zaHozaHap_1
     -- zHzH    zaHozaH Nap     removing;snatching
 
-    noun     FaCCaL |< aT              {- zaHozaHap -}      `others` [ "za.hza.h Nap" ]
+    noun     KaRDaS |< aT              {- zaHozaHap -}      `others` [ "za.hza.h Nap" ]
                                                             `gloss`  [ "removing", "snatching" ] ]
 
  -- ;--- zHf
@@ -979,16 +967,12 @@ lexicon = listing "Lexicon properties"
     -- zAHf    zAHif   N-ap    creeping;crawling     [[zAHif/ADJ]]
     -- zAHf    zAHif   N-ap    advancing;marching     [[zAHif/ADJ]]
 
-    noun     FACiL                     {- zAHif -}          `gloss`  [ "creeping", "crawling", "advancing", "marching" ] ]
-
- -- ;; zawAHif_1
-
- |> "zawA.hif" <| [
+    noun     FACiL                     {- zAHif -}          `gloss`  [ "creeping", "crawling", "advancing", "marching" ],
 
     -- ;; zawAHif_1
     -- zwAHf   zawAHif Ndip    reptiles
 
-    noun     Identity                  {- zawAHif -}        `gloss`  [ "reptiles" ] ]
+    noun     FawACiL                   {- zawAHif -}        `gloss`  [ "reptiles" ] ]
 
  -- ;--- zHk
 
@@ -1055,14 +1039,14 @@ lexicon = listing "Lexicon properties"
     -- zHlwy   zaHolawiy~      Nall    of/from Zahle (Leb.)     [[zaHolawiy~/ADJ]]
     -- zHlAwy  zaHolAwiy~      Nall    of/from Zahle (Leb.)     [[zaHolawiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- zaHolawiy~ -}     `others` [ "za.hlAwiyy Nall" ]
+    noun     KaRDaS |< Iy              {- zaHolawiy~ -}     `others` [ "za.hlAwiyy Nall" ]
                                                             `gloss`  [ "of / from Zahle ( Leb . )" ],
 
     -- ;; zaHolawiy~_2
     -- zHlwy   zaHolawiy~      N0      Zahlaoui;Zahlawi
     -- zHlAwy  zaHolAwiy~      N0      Zahlaoui;Zahlawi
 
-    noun     FaCCaL |< Iy              {- zaHolawiy~ -}     `others` [ "za.hlAwiyy N0" ]
+    noun     KaRDaS |< Iy              {- zaHolawiy~ -}     `others` [ "za.hlAwiyy N0" ]
                                                             `gloss`  [ "Zahlaoui", "Zahlawi" ] ]
 
  -- ;--- zHlq
@@ -1073,31 +1057,31 @@ lexicon = listing "Lexicon properties"
     -- zHlq    zaHolaq PV      slide;roll
     -- zHlq    zaHoliq IV_yu   slide;roll
 
-    verb     FaCCaL                    {- zaHolaq -}        `others` [ "za.hliq IV_yu" ]
+    verb     KaRDaS                    {- zaHolaq -}        `others` [ "za.hliq IV_yu" ]
                                                             `gloss`  [ "slide", "roll" ],
 
     -- ;; tazaHolaq_1
     -- tzHlq   tazaHolaq       PV      slide;slip
     -- tzHlq   tazaHolaq       IV      slide;slip
 
-    verb     TaFaCCaL                  {- tazaHolaq -}      `gloss`  [ "slide", "slip" ],
+    verb     TaKaRDaS                  {- tazaHolaq -}      `gloss`  [ "slide", "slip" ],
 
     -- ;; tazaHolaq_2
     -- tzHlq   tazaHolaq       PV      skate;ski
     -- tzHlq   tazaHolaq       IV      skate;ski
 
-    verb     TaFaCCaL                  {- tazaHolaq -}      `gloss`  [ "skate", "ski" ],
+    verb     TaKaRDaS                  {- tazaHolaq -}      `gloss`  [ "skate", "ski" ],
 
     -- ;; zaHolaqap_1
     -- zHlq    zaHolaq Nap     sliding;skating;skiing
 
-    noun     FaCCaL |< aT              {- zaHolaqap -}      `others` [ "za.hlaq Nap" ]
+    noun     KaRDaS |< aT              {- zaHolaqap -}      `others` [ "za.hlaq Nap" ]
                                                             `gloss`  [ "sliding", "skating", "skiing" ],
 
     -- ;; tazaHoluq_1
     -- tzHlq   tazaHoluq       NduAt   skating;skiing;sliding
 
-    noun     TaFaCCuL                  {- tazaHoluq -}      `gloss`  [ "skating", "skiing", "sliding" ] ]
+    noun     TaKaRDuS                  {- tazaHoluq -}      `gloss`  [ "skating", "skiing", "sliding" ] ]
 
  -- ;--- zHm
 
@@ -1159,17 +1143,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; {izodiHAm_1
 
- |> "zd.hm" <| [
+ |> "izdi.hAm" <| [
 
     -- ;; {izodiHAm_1
     -- <zdHAm  {izodiHAm       NduAt   crowd;jam
     -- AzdHAm  {izodiHAm       NduAt   crowd;jam
 
-    noun     IFCiLAL                   {- {izodiHAm -}      `gloss`  [ "crowd", "jam" ] ]
-
- -- ;; muzAHim_1
-
- |> "z.hm" <| [
+    noun     Identity                  {- {izodiHAm -}      `gloss`  [ "crowd", "jam" ],
 
     -- ;; muzAHim_1
     -- mzAHm   muzAHim Nall    competitor;rival
@@ -1248,14 +1228,14 @@ lexicon = listing "Lexicon properties"
     -- zxrf    zaxoraf PV      adorn;embellish
     -- zxrf    zaxorif IV_yu   adorn;embellish
 
-    verb     FaCCaL                    {- zaxoraf -}        `others` [ "za_hrif IV_yu" ]
+    verb     KaRDaS                    {- zaxoraf -}        `others` [ "za_hrif IV_yu" ]
                                                             `gloss`  [ "adorn", "embellish" ],
 
     -- ;; tazaxoraf_1
     -- tzxrf   tazaxoraf       PV_intr be adorned;be embellished
     -- tzxrf   tazaxoraf       IV_intr be adorned;be embellished
 
-    verb     TaFaCCaL                  {- tazaxoraf -}      `gloss`  [ "be adorned", "be embellished" ] ]
+    verb     TaKaRDaS                  {- tazaxoraf -}      `gloss`  [ "be adorned", "be embellished" ] ]
 
  -- ;; zuxoruf_1
 
@@ -1271,7 +1251,7 @@ lexicon = listing "Lexicon properties"
     -- ;; zaxorafap_1
     -- zxrf    zaxoraf NapAt   decoration;embellishment
 
-    noun     FaCCaL |< aT              {- zaxorafap -}      `others` [ "za_hraf NapAt" ]
+    noun     KaRDaS |< aT              {- zaxorafap -}      `others` [ "za_hraf NapAt" ]
                                                             `gloss`  [ "decoration", "embellishment" ] ]
 
  -- ;; zuxorufiy~_1
@@ -1286,12 +1266,12 @@ lexicon = listing "Lexicon properties"
     -- ;; muzaxorif_1
     -- mzxrf   muzaxorif       Nall    interior decorator
 
-    noun     MuFaCCiL                  {- muzaxorif -}      `gloss`  [ "interior decorator" ],
+    noun     MuKaRDiS                  {- muzaxorif -}      `gloss`  [ "interior decorator" ],
 
     -- ;; muzaxoraf_1
     -- mzxrf   muzaxoraf       N-ap    ornamented     [[muzaxoraf/ADJ]]
 
-    noun     MuFaCCaL                  {- muzaxoraf -}      `gloss`  [ "ornamented" ] ]
+    noun     MuKaRDaS                  {- muzaxoraf -}      `gloss`  [ "ornamented" ] ]
 
  -- ;--- zxm
 
@@ -1442,7 +1422,7 @@ lexicon = listing "Lexicon properties"
     -- zrbwl   zarobuwl        Ndu     shoe
     -- zrAbyl  zarAbiyl        Ndip    shoes
 
-    noun     FaCCUL                    {- zarobuwl -}       `others` [ "zarAbiyl Ndip" ]
+    noun     KaRDUS                    {- zarobuwl -}       `others` [ "zarAbiyl Ndip" ]
                                                             `gloss`  [ "shoe", "shoes" ] ]
 
  -- ;--- zrbn
@@ -1453,7 +1433,7 @@ lexicon = listing "Lexicon properties"
     -- zrbwn   zarobuwn        Ndu     shoe
     -- zrAbyn  zarAbiyn        Ndip    shoes
 
-    noun     FaCCUL                    {- zarobuwn -}       `others` [ "zarAbiyn Ndip" ]
+    noun     KaRDUS                    {- zarobuwn -}       `others` [ "zarAbiyn Ndip" ]
                                                             `gloss`  [ "shoe", "shoes" ] ]
 
  -- ;--- zrd
@@ -1544,7 +1524,7 @@ lexicon = listing "Lexicon properties"
     -- zrzr    zarozar PV      chirp
     -- zrzr    zarozir IV_yu   chirp
 
-    verb     FaCCaL                    {- zarozar -}        `others` [ "zarzir IV_yu" ]
+    verb     KaRDaS                    {- zarozar -}        `others` [ "zarzir IV_yu" ]
                                                             `gloss`  [ "chirp" ] ]
 
  -- ;; zurozur_1
@@ -1557,16 +1537,12 @@ lexicon = listing "Lexicon properties"
     -- zrAzyr  zarAziyr        Ndip    starlings
 
     noun     Identity                  {- zurozur -}        `others` [ "zurzuwr Ndu", "zarAziyr Ndip" ]
-                                                            `gloss`  [ "starling", "starlings" ] ]
-
- -- ;; zurozuwriy~_1
-
- |> "zurzuwr" <| [
+                                                            `gloss`  [ "starling", "starlings" ],
 
     -- ;; zurozuwriy~_1
     -- zrzwry  zurozuwriy~     Nall    dapple-gray (horse);gray with white patches     [[zurozuwriy~/ADJ]]
 
-    noun     Identity |< Iy            {- zurozuwriy~ -}    `gloss`  [ "dapple-gray ( horse )", "gray with white patches" ] ]
+    noun     KuRDUS |< Iy              {- zurozuwriy~ -}    `gloss`  [ "dapple-gray ( horse )", "gray with white patches" ] ]
 
  -- ;--- zrE
 
@@ -1641,16 +1617,12 @@ lexicon = listing "Lexicon properties"
     -- mzArE   mazAriE Ndip    farms;plantations
 
     noun     MaFCaL                    {- mazoraE -}        `others` [ "mazAri` Ndip" ]
-                                                            `gloss`  [ "farm", "arable land", "plantation", "farms", "plantations" ] ]
-
- -- ;; mazAriE_1
-
- |> "mazAri`" <| [
+                                                            `gloss`  [ "farm", "arable land", "plantation", "farms", "plantations" ],
 
     -- ;; mazAriE_1
     -- mzArE   mazAriE N0      Farms
 
-    noun     Identity                  {- mazAriE -}        `gloss`  [ "Farms" ] ]
+    noun     MaFACiL                   {- mazAriE -}        `gloss`  [ "Farms" ] ]
 
  -- ;; mazoraEAniy~_1
 
@@ -1825,7 +1797,7 @@ lexicon = listing "Lexicon properties"
     -- ;; zaroquwn_1
     -- zrqwn   zaroquwn        N       bright red
 
-    noun     FaCCUL                    {- zaroquwn -}       `gloss`  [ "bright red" ] ]
+    noun     KaRDUS                    {- zaroquwn -}       `gloss`  [ "bright red" ] ]
 
  -- ;--- zrk$
 
@@ -1835,18 +1807,18 @@ lexicon = listing "Lexicon properties"
     -- zrk$    zaroka$ PV      embellish;decorate
     -- zrk$    zaroki$ IV_yu   embellish;decorate
 
-    verb     FaCCaL                    {- zaroka$ -}        `others` [ "zarki^s IV_yu" ]
+    verb     KaRDaS                    {- zaroka$ -}        `others` [ "zarki^s IV_yu" ]
                                                             `gloss`  [ "embellish", "decorate" ],
 
     -- ;; zaroka$_2
     -- zrk$    zaroka$ N       brocade
 
-    noun     FaCCaL                    {- zaroka$ -}        `gloss`  [ "brocade" ],
+    noun     KaRDaS                    {- zaroka$ -}        `gloss`  [ "brocade" ],
 
     -- ;; muzaroka$_1
     -- mzrk$   muzaroka$       Nall    brocaded;embellished
 
-    noun     MuFaCCaL                  {- muzaroka$ -}      `gloss`  [ "brocaded", "embellished" ] ]
+    noun     MuKaRDaS                  {- muzaroka$ -}      `gloss`  [ "brocaded", "embellished" ] ]
 
  -- ;--- zrnx
 
@@ -1855,7 +1827,7 @@ lexicon = listing "Lexicon properties"
     -- ;; zironiyx_1
     -- zrnyx   zironiyx        N       arsenic
 
-    noun     FiCCIL                    {- zironiyx -}       `gloss`  [ "arsenic" ] ]
+    noun     KiRDIS                    {- zironiyx -}       `gloss`  [ "arsenic" ] ]
 
  -- ;--- zrhn
 
@@ -1864,7 +1836,7 @@ lexicon = listing "Lexicon properties"
     -- ;; zarohuwniy~_1
     -- zrhwny  zarohuwniy~     N0      Zerhouni;Zarhouni
 
-    noun     FaCCUL |< Iy              {- zarohuwniy~ -}    `gloss`  [ "Zerhouni", "Zarhouni" ] ]
+    noun     KaRDUS |< Iy              {- zarohuwniy~ -}    `gloss`  [ "Zerhouni", "Zarhouni" ] ]
 
  -- ;--- zrwl
 
@@ -1873,7 +1845,7 @@ lexicon = listing "Lexicon properties"
     -- ;; zirowAl_1
     -- zrwAl   zirowAl Nprop   Zeroual
 
-    noun     FiCCAL                    {- zirowAl -}        `gloss`  [ "Zeroual" ] ]
+    noun     KiRDAS                    {- zirowAl -}        `gloss`  [ "Zeroual" ] ]
 
  -- ;--- zry
 
@@ -1915,11 +1887,7 @@ lexicon = listing "Lexicon properties"
     -- zry     zoray   IV_Ann_Pass_yu  be ridiculed;be disgraced
 
     verb     HaFCY                     {- >azoraY -}        `others` [ "zr IV_0hwnyn_yu", "zriy IV_0hAnn_yu", "zray IV_Ann_Pass_yu", "zrY IV_0_Pass_yu", "'azrA PV_h", "'azr PV_ttAw", "'azray PV_Atn" ]
-                                                            `gloss`  [ "ridicule", "disgrace", "be ridiculed", "be disgraced" ] ]
-
- -- ;; tazar~aY_1
-
- |> "zrr" <| [
+                                                            `gloss`  [ "ridicule", "disgrace", "be ridiculed", "be disgraced" ],
 
     -- ;; tazar~aY_1
     -- tzrY    tazar~aY        PV_0    rebuke;revile
@@ -1952,11 +1920,7 @@ lexicon = listing "Lexicon properties"
     -- zdrY    zodaraY IV_0    despise;defy
 
     verb     Identity                  {- {izodaraY -}      `others` [ "izdarA PV_h", "zdar IV_0hwnyn", "zdariy IV_0hAnn", "izdaray PV_Atn", "zdarY IV_0", "izdar PV_ttAw" ]
-                                                            `gloss`  [ "despise", "defy" ] ]
-
- -- ;; {isotazoraY_1
-
- |> "zr" <| [
+                                                            `gloss`  [ "despise", "defy" ],
 
     -- ;; {isotazoraY_1
     -- <stzrY  {isotazoraY     PV_0    despise;defy
@@ -2019,7 +1983,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; {izodirA'_1
 
- |> "zdr'" <| [
+ |> "izdirA'" <| [
 
     -- ;; {izodirA'_1
     -- <zdrA'  {izodirA'       N0_Nh   contempt;disregard
@@ -2035,7 +1999,7 @@ lexicon = listing "Lexicon properties"
     -- <zdrA'  {izodirA'       NAt     contempt;disregard
     -- AzdrA'  {izodirA'       NAt     contempt;disregard
 
-    noun     IFCiLAL                   {- {izodirA' -}      `gloss`  [ "contempt", "disregard" ] ]
+    noun     Identity                  {- {izodirA' -}      `gloss`  [ "contempt", "disregard" ] ]
 
  -- ;; muzoriy_1
 
@@ -2088,7 +2052,7 @@ lexicon = listing "Lexicon properties"
     -- zEbr    zaEobar PV      deceive;cheat
     -- zEbr    zaEobir IV_yu   deceive;cheat
 
-    verb     FaCCaL                    {- zaEobar -}        `others` [ "za`bir IV_yu" ]
+    verb     KaRDaS                    {- zaEobar -}        `others` [ "za`bir IV_yu" ]
                                                             `gloss`  [ "deceive", "cheat" ] ]
 
  -- ;--- zEbT
@@ -2099,7 +2063,7 @@ lexicon = listing "Lexicon properties"
     -- zEbwT   zaEobuwT        N       woolen garment
     -- zEAbyT  zaEAbiyT        Ndip    woolen garments
 
-    noun     FaCCUL                    {- zaEobuwT -}       `others` [ "za`Abiy.t Ndip" ]
+    noun     KaRDUS                    {- zaEobuwT -}       `others` [ "za`Abiy.t Ndip" ]
                                                             `gloss`  [ "woolen garment", "woolen garments" ] ]
 
  -- ;--- zEtr
@@ -2109,7 +2073,7 @@ lexicon = listing "Lexicon properties"
     -- ;; zaEotar_1
     -- zEtr    zaEotar N       wild Thyme
 
-    noun     FaCCaL                    {- zaEotar -}        `gloss`  [ "wild Thyme" ] ]
+    noun     KaRDaS                    {- zaEotar -}        `gloss`  [ "wild Thyme" ] ]
 
  -- ;--- zEj
 
@@ -2224,19 +2188,19 @@ lexicon = listing "Lexicon properties"
     -- zEzE    zaEozaE PV      convulse;shake
     -- zEzE    zaEoziE IV_yu   convulse;shake
 
-    verb     FaCCaL                    {- zaEozaE -}        `others` [ "za`zi` IV_yu" ]
+    verb     KaRDaS                    {- zaEozaE -}        `others` [ "za`zi` IV_yu" ]
                                                             `gloss`  [ "convulse", "shake" ],
 
     -- ;; tazaEozaE_1
     -- tzEzE   tazaEozaE       PV_intr be convulsed;shake
     -- tzEzE   tazaEozaE       IV_intr be convulsed;shake
 
-    verb     TaFaCCaL                  {- tazaEozaE -}      `gloss`  [ "be convulsed", "shake" ],
+    verb     TaKaRDaS                  {- tazaEozaE -}      `gloss`  [ "be convulsed", "shake" ],
 
     -- ;; zaEozaE_2
     -- zEzE    zaEozaE N/ap    convulsing;shaking     [[zaEozaE/ADJ]]
 
-    noun     FaCCaL                    {- zaEozaE -}        `gloss`  [ "convulsing", "shaking" ] ]
+    noun     KaRDaS                    {- zaEozaE -}        `gloss`  [ "convulsing", "shaking" ] ]
 
  -- ;; zaEozaEAn_1
 
@@ -2251,23 +2215,23 @@ lexicon = listing "Lexicon properties"
     -- zEzE    zaEozaE NapAt   convulsion;shock;concussion
     -- zEAzE   zaEAziE Ndip    convulsions;shocks;concussions
 
-    noun     FaCCaL |< aT              {- zaEozaEap -}      `others` [ "za`Azi` Ndip", "za`za` NapAt" ]
+    noun     KaRDaS |< aT              {- zaEozaEap -}      `others` [ "za`Azi` Ndip", "za`za` NapAt" ]
                                                             `gloss`  [ "convulsion", "shock", "concussion", "convulsions", "shocks", "concussions" ],
 
     -- ;; zaEozuwE_1
     -- zEzwE   zaEozuwE        N/ap    skinny;lanky
 
-    noun     FaCCUL                    {- zaEozuwE -}       `gloss`  [ "skinny", "lanky" ],
+    noun     KaRDUS                    {- zaEozuwE -}       `gloss`  [ "skinny", "lanky" ],
 
     -- ;; muzaEozaE_1
     -- mzEzE   muzaEozaE       Nall    shocked;convulsed     [[muzaEozaE/ADJ]]
 
-    noun     MuFaCCaL                  {- muzaEozaE -}      `gloss`  [ "shocked", "convulsed" ],
+    noun     MuKaRDaS                  {- muzaEozaE -}      `gloss`  [ "shocked", "convulsed" ],
 
     -- ;; mutazaEoziE_1
     -- mtzEzE  mutazaEoziE     Nall    shaky;rocking     [[mutazaEoziE/ADJ]]
 
-    noun     MutaFaCCiL                {- mutazaEoziE -}    `gloss`  [ "shaky", "rocking" ] ]
+    noun     MutaKaRDiS                {- mutazaEoziE -}    `gloss`  [ "shaky", "rocking" ] ]
 
  -- ;--- zET
 
@@ -2549,7 +2513,7 @@ lexicon = listing "Lexicon properties"
     -- ;; zagobar_1
     -- zgbr    zagobar N       nap (of a fabric);entirety
 
-    noun     FaCCaL                    {- zagobar -}        `gloss`  [ "nap ( of a fabric )", "entirety" ] ]
+    noun     KaRDaS                    {- zagobar -}        `gloss`  [ "nap ( of a fabric )", "entirety" ] ]
 
  -- ;--- zgd
 
@@ -2617,14 +2581,14 @@ lexicon = listing "Lexicon properties"
     -- zgrd    zagorad PV      ululate
     -- zgrd    zagorid IV_yu   ululate
 
-    verb     FaCCaL                    {- zagorad -}        `others` [ "za.grid IV_yu" ]
+    verb     KaRDaS                    {- zagorad -}        `others` [ "za.grid IV_yu" ]
                                                             `gloss`  [ "ululate" ],
 
     -- ;; zagoradap_1
     -- zgrd    zagorad NapAt   ululation
     -- zgAryd  zagAriyd        Ndip    ululations
 
-    noun     FaCCaL |< aT              {- zagoradap -}      `others` [ "za.grad NapAt", "za.gAriyd Ndip" ]
+    noun     KaRDaS |< aT              {- zagoradap -}      `others` [ "za.grad NapAt", "za.gAriyd Ndip" ]
                                                             `gloss`  [ "ululation", "ululations" ] ]
 
  -- ;--- zgrT
@@ -2635,14 +2599,14 @@ lexicon = listing "Lexicon properties"
     -- zgrT    zagoraT PV      ululate
     -- zgrT    zagoriT IV_yu   ululate
 
-    verb     FaCCaL                    {- zagoraT -}        `others` [ "za.gri.t IV_yu" ]
+    verb     KaRDaS                    {- zagoraT -}        `others` [ "za.gri.t IV_yu" ]
                                                             `gloss`  [ "ululate" ],
 
     -- ;; zagoraTap_1
     -- zgrT    zagoraT NapAt   ululation
     -- zgAryT  zagAriyT        Ndip    ululations
 
-    noun     FaCCaL |< aT              {- zagoraTap -}      `others` [ "za.gra.t NapAt", "za.gAriy.t Ndip" ]
+    noun     KaRDaS |< aT              {- zagoraTap -}      `others` [ "za.gra.t NapAt", "za.gAriy.t Ndip" ]
                                                             `gloss`  [ "ululation", "ululations" ] ]
 
  -- ;--- zgzg
@@ -2653,7 +2617,7 @@ lexicon = listing "Lexicon properties"
     -- zgzg    zagozag PV      conceal;tickle
     -- zgzg    zagozig IV_yu   conceal;tickle
 
-    verb     FaCCaL                    {- zagozag -}        `others` [ "za.gzi.g IV_yu" ]
+    verb     KaRDaS                    {- zagozag -}        `others` [ "za.gzi.g IV_yu" ]
                                                             `gloss`  [ "conceal", "tickle" ] ]
 
  -- ;--- zgT
@@ -2713,13 +2677,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; zagolal_1
 
- |> "z.gl" <| [
+ |> "za.glal" <| [
 
     -- ;; zagolal_1
     -- zgll    zagolal PV      dazzle;be dazzled
     -- zgll    zagolil IV_yu   dazzle;be dazzled
 
-    verb     FaCCaL                    {- zagolal -}        `others` [ "za.glil IV_yu" ]
+    verb     Identity                  {- zagolal -}        `others` [ "za.glil IV_yu" ]
                                                             `gloss`  [ "dazzle", "be dazzled" ] ]
 
  -- ;; zugoluwl_1
@@ -2731,12 +2695,16 @@ lexicon = listing "Lexicon properties"
     -- zgAlyl  zagAliyl        Ndip    infants;squabs
 
     noun     Identity                  {- zugoluwl -}       `others` [ "za.gAliyl Ndip" ]
-                                                            `gloss`  [ "infant", "squab", "infants", "squabs" ],
+                                                            `gloss`  [ "infant", "squab", "infants", "squabs" ] ]
+
+ -- ;; zagoluwl_1
+
+ |> "za.gluwl" <| [
 
     -- ;; zagoluwl_1
     -- zglwl   zagoluwl        N0      Zaghloul
 
-    noun     FaCCUL                    {- zagoluwl -}       `gloss`  [ "Zaghloul" ] ]
+    noun     Identity                  {- zagoluwl -}       `gloss`  [ "Zaghloul" ] ]
 
  -- ;--- zf
 
@@ -2907,13 +2875,13 @@ lexicon = listing "Lexicon properties"
     -- zfzf    zafozaf PV      whistle (wind)
     -- zfzf    zafozif IV      whistle (wind)
 
-    verb     FaCCaL                    {- zafozaf -}        `others` [ "zafzif IV" ]
+    verb     KaRDaS                    {- zafozaf -}        `others` [ "zafzif IV" ]
                                                             `gloss`  [ "whistle ( wind )" ],
 
     -- ;; zafozafap_1
     -- zfzf    zafozaf NapAt   whistling (of the wind)
 
-    noun     FaCCaL |< aT              {- zafozafap -}      `others` [ "zafzaf NapAt" ]
+    noun     KaRDaS |< aT              {- zafozafap -}      `others` [ "zafzaf NapAt" ]
                                                             `gloss`  [ "whistling ( of the wind )" ] ]
 
  -- ;--- zflt
@@ -2923,13 +2891,13 @@ lexicon = listing "Lexicon properties"
     -- ;; zafolatap_1
     -- zflt    zafolat Nap     paving;asphalting
 
-    noun     FaCCaL |< aT              {- zafolatap -}      `others` [ "zaflat Nap" ]
+    noun     KaRDaS |< aT              {- zafolatap -}      `others` [ "zaflat Nap" ]
                                                             `gloss`  [ "paving", "asphalting" ],
 
     -- ;; muzafolat_1
     -- mzflt   muzafolat       N-ap    paved;asphalted     [[muzafolat/ADJ]]
 
-    noun     MuFaCCaL                  {- muzafolat -}      `gloss`  [ "paved", "asphalted" ] ]
+    noun     MuKaRDaS                  {- muzafolat -}      `gloss`  [ "paved", "asphalted" ] ]
 
  -- ;--- zfn
 
@@ -3004,28 +2972,24 @@ lexicon = listing "Lexicon properties"
     -- zqzq    zaqozaq PV      chirp;feed;dandle
     -- zqzq    zaqoziq IV_yu   chirp;feed;dandle
 
-    verb     FaCCaL                    {- zaqozaq -}        `others` [ "zaqziq IV_yu" ]
+    verb     KaRDaS                    {- zaqozaq -}        `others` [ "zaqziq IV_yu" ]
                                                             `gloss`  [ "chirp", "feed", "dandle" ],
 
     -- ;; zaqozaqap_1
     -- zqzq    zaqozaq NapAt   chirping;feeding;dandling
 
-    noun     FaCCaL |< aT              {- zaqozaqap -}      `others` [ "zaqzaq NapAt" ]
+    noun     KaRDaS |< aT              {- zaqozaqap -}      `others` [ "zaqzaq NapAt" ]
                                                             `gloss`  [ "chirping", "feeding", "dandling" ],
 
     -- ;; zaqozAq_1
     -- zqzAq   zaqozAq N       pewit;lapwing
 
-    noun     FaCCAL                    {- zaqozAq -}        `gloss`  [ "pewit", "lapwing" ] ]
-
- -- ;; zaqAziyq_1
-
- |> "zaqAziyq" <| [
+    noun     KaRDAS                    {- zaqozAq -}        `gloss`  [ "pewit", "lapwing" ],
 
     -- ;; zaqAziyq_1
     -- zqAzyq  zaqAziyq        Ndip    Zagazig
 
-    noun     Identity                  {- zaqAziyq -}       `gloss`  [ "Zagazig" ] ]
+    noun     KaRADIS                   {- zaqAziyq -}       `gloss`  [ "Zagazig" ] ]
 
  -- ;--- zql
 
@@ -3257,7 +3221,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; zak~aY_1
 
- |> "zkk" <| [
+ |> "zk" <| [
 
     -- ;; zak~aY_1
     -- zkY     zak~aY  PV_0    augment;nominate;recommend
@@ -3270,11 +3234,7 @@ lexicon = listing "Lexicon properties"
     -- zky     zak~ay  IV_Ann_Pass_yu  be augmented;be nominated;be recommended
 
     verb     FaCCY                     {- zak~aY -}         `others` [ "zakkA PV_h", "zakkiy IV_0hAnn_yu", "zakkay PV_Atn IV_Ann_Pass_yu", "zakk IV_0hwnyn_yu PV_ttAw" ]
-                                                            `gloss`  [ "augment", "nominate", "recommend", "be augmented", "be nominated", "be recommended" ] ]
-
- -- ;; >azokaY_1
-
- |> "zk" <| [
+                                                            `gloss`  [ "augment", "nominate", "recommend", "be augmented", "be nominated", "be recommended" ],
 
     -- ;; >azokaY_1
     -- >zkY    >azokaY PV_0    augment;make grow
@@ -3291,11 +3251,7 @@ lexicon = listing "Lexicon properties"
     -- zky     zokay   IV_Ann_Pass_yu  be augmented;be grown
 
     verb     HaFCY                     {- >azokaY -}        `others` [ "'azk PV_ttAw", "zkay IV_Ann_Pass_yu", "zkY IV_0_Pass_yu", "'azkA PV_h", "zkiy IV_0hAnn_yu", "zk IV_0hwnyn_yu", "'azkay PV_Atn" ]
-                                                            `gloss`  [ "augment", "make grow", "be augmented", "be grown" ] ]
-
- -- ;; tazak~aY_1
-
- |> "zkk" <| [
+                                                            `gloss`  [ "augment", "make grow", "be augmented", "be grown" ],
 
     -- ;; tazak~aY_1
     -- tzkY    tazak~aY        PV_0    be purified
@@ -3318,11 +3274,7 @@ lexicon = listing "Lexicon properties"
     -- zkw     zakaw   NAt     alms;charity
 
     noun     Identity                  {- zakAp -}          `others` [ "zakA Napdu", "zakaw NAt", "zak_aw Nap" ]
-                                                            `gloss`  [ "alms", "charity" ] ]
-
- -- ;; zakAF_1
-
- |> "zk" <| [
+                                                            `gloss`  [ "alms", "charity" ],
 
     -- ;; zakAF_1
     -- zkA     zakAF   FW-WaBi alms;purity;honesty;integrity     [[zakAF/NOUN]]
@@ -3522,36 +3474,36 @@ lexicon = listing "Lexicon properties"
     -- zlzl    zalozal PV      convulse;shake
     -- zlzl    zalozil IV_yu   convulse;shake
 
-    verb     FaCCaL                    {- zalozal -}        `others` [ "zalzil IV_yu" ]
+    verb     KaRDaS                    {- zalozal -}        `others` [ "zalzil IV_yu" ]
                                                             `gloss`  [ "convulse", "shake" ],
 
     -- ;; tazalozal_1
     -- tzlzl   tazalozal       PV      quake
     -- tzlzl   tazalozal       IV      quake
 
-    verb     TaFaCCaL                  {- tazalozal -}      `gloss`  [ "quake" ],
+    verb     TaKaRDaS                  {- tazalozal -}      `gloss`  [ "quake" ],
 
     -- ;; zalozalap_1
     -- zlzl    zalozal NapAt   earthquake
     -- zlAzl   zalAzil Ndip    earthquake
 
-    noun     FaCCaL |< aT              {- zalozalap -}      `others` [ "zalzal NapAt", "zalAzil Ndip" ]
+    noun     KaRDaS |< aT              {- zalozalap -}      `others` [ "zalzal NapAt", "zalAzil Ndip" ]
                                                             `gloss`  [ "earthquake" ],
 
     -- ;; zilozAl_1
     -- zlzAl   zilozAl Ndu     earthquake
 
-    noun     FiCCAL                    {- zilozAl -}        `gloss`  [ "earthquake" ],
+    noun     KiRDAS                    {- zilozAl -}        `gloss`  [ "earthquake" ],
 
     -- ;; zilozAliy~_1
     -- zlzAly  zilozAliy~      Nall    seismic     [[zilozAliy~/ADJ]]
 
-    noun     FiCCAL |< Iy              {- zilozAliy~ -}     `gloss`  [ "seismic" ],
+    noun     KiRDAS |< Iy              {- zilozAliy~ -}     `gloss`  [ "seismic" ],
 
     -- ;; muzalozil_1
     -- mzlzl   muzalozil       Nall    convulsing;shaking     [[muzalozil/ADJ]]
 
-    noun     MuFaCCiL                  {- muzalozil -}      `gloss`  [ "convulsing", "shaking" ] ]
+    noun     MuKaRDiS                  {- muzalozil -}      `gloss`  [ "convulsing", "shaking" ] ]
 
  -- ;--- zlT
 
@@ -3613,7 +3565,7 @@ lexicon = listing "Lexicon properties"
     -- zlEwm   zaloEuwm        N       throat;gullet
     -- zlAEym  zalAEiym        Ndip    throats;gullets
 
-    noun     FaCCUL                    {- zaloEuwm -}       `others` [ "zalA`iym Ndip" ]
+    noun     KaRDUS                    {- zaloEuwm -}       `others` [ "zalA`iym Ndip" ]
                                                             `gloss`  [ "throat", "gullet", "throats", "gullets" ] ]
 
  -- ;--- zlf
@@ -3899,13 +3851,13 @@ lexicon = listing "Lexicon properties"
     -- zmjr    zamojar PV      roar;bellow;bark
     -- zmjr    zamojir IV_yu   roar;bellow;bark
 
-    verb     FaCCaL                    {- zamojar -}        `others` [ "zam^gir IV_yu" ]
+    verb     KaRDaS                    {- zamojar -}        `others` [ "zam^gir IV_yu" ]
                                                             `gloss`  [ "roar", "bellow", "bark" ],
 
     -- ;; zamojarap_1
     -- zmjr    zamojar NapAt   roaring;bellowing;barking
 
-    noun     FaCCaL |< aT              {- zamojarap -}      `others` [ "zam^gar NapAt" ]
+    noun     KaRDaS |< aT              {- zamojarap -}      `others` [ "zam^gar NapAt" ]
                                                             `gloss`  [ "roaring", "bellowing", "barking" ] ]
 
  -- ;--- zmr
@@ -4012,30 +3964,30 @@ lexicon = listing "Lexicon properties"
     -- zmzm    zamozam PV      rumble;murmur
     -- zmzm    zamozim IV_yu   rumble;murmur
 
-    verb     FaCCaL                    {- zamozam -}        `others` [ "zamzim IV_yu" ]
+    verb     KaRDaS                    {- zamozam -}        `others` [ "zamzim IV_yu" ]
                                                             `gloss`  [ "rumble", "murmur" ],
 
     -- ;; zamozam_2
     -- zmzm    zamozam N       Zamzam (water well in Mecca)
 
-    noun     FaCCaL                    {- zamozam -}        `gloss`  [ "Zamzam ( water well in Mecca )" ],
+    noun     KaRDaS                    {- zamozam -}        `gloss`  [ "Zamzam ( water well in Mecca )" ],
 
     -- ;; zamozam_3
     -- zmzm    zamozam N       abundant
 
-    noun     FaCCaL                    {- zamozam -}        `gloss`  [ "abundant" ],
+    noun     KaRDaS                    {- zamozam -}        `gloss`  [ "abundant" ],
 
     -- ;; zamozamiy~ap_1
     -- zmzmy   zamozamiy~      Nap     canteen;thermos     [[zamozamiy~/NOUN]]
 
-    noun     FaCCaL |< Iy |< aT        {- zamozamiy~ap -}   `others` [ "zamzamiyy Nap" ]
+    noun     KaRDaS |< Iy |< aT        {- zamozamiy~ap -}   `others` [ "zamzamiyy Nap" ]
                                                             `gloss`  [ "canteen", "thermos" ],
 
     -- ;; zamozamap_1
     -- zmzm    zamozam NapAt   lion's roar;roll of thunder
     -- zmAzm   zamAzim Ndip    lion's roars;rolls of thunder
 
-    noun     FaCCaL |< aT              {- zamozamap -}      `others` [ "zamzam NapAt", "zamAzim Ndip" ]
+    noun     KaRDaS |< aT              {- zamozamap -}      `others` [ "zamzam NapAt", "zamAzim Ndip" ]
                                                             `gloss`  [ "lion 's roar", "roll of thunder", "lion 's roars", "rolls of thunder" ] ]
 
  -- ;--- zmT
@@ -4257,7 +4209,7 @@ lexicon = listing "Lexicon properties"
     -- zmhr    zamohar PV_intr become flushed;be bloodshot
     -- zmhr    zamohir IV_intr_yu      become flushed;be bloodshot
 
-    verb     FaCCaL                    {- zamohar -}        `others` [ "zamhir IV_intr_yu" ]
+    verb     KaRDaS                    {- zamohar -}        `others` [ "zamhir IV_intr_yu" ]
                                                             `gloss`  [ "become flushed", "be bloodshot" ] ]
 
  -- ;; {izomahar~_1
@@ -4364,17 +4316,13 @@ lexicon = listing "Lexicon properties"
     -- tznbr   tazanobar       PV      behave haughtily
     -- tznbr   tazanobar       IV      behave haughtily
 
-    verb     TaFaCCaL                  {- tazanobar -}      `gloss`  [ "behave haughtily" ] ]
-
- -- ;; zunobuwr_1
-
- |> "zunbuwr" <| [
+    verb     TaKaRDaS                  {- tazanobar -}      `gloss`  [ "behave haughtily" ],
 
     -- ;; zunobuwr_1
     -- znbwr   zunobuwr        N       hornet
     -- znAbyr  zanAbiyr        Ndip    hornets
 
-    noun     Identity                  {- zunobuwr -}       `others` [ "zanAbiyr Ndip" ]
+    noun     KuRDUS                    {- zunobuwr -}       `others` [ "zanAbiyr Ndip" ]
                                                             `gloss`  [ "hornet", "hornets" ] ]
 
  -- ;--- znbrk
@@ -4406,7 +4354,7 @@ lexicon = listing "Lexicon properties"
     -- znbq    zanobaq NapAt   lily;iris
     -- znAbq   zanAbiq Ndip    lilies;iris
 
-    noun     FaCCaL                    {- zanobaq -}        `others` [ "zanAbiq Ndip" ]
+    noun     KaRDaS                    {- zanobaq -}        `others` [ "zanAbiq Ndip" ]
                                                             `gloss`  [ "lily", "iris", "lilies" ] ]
 
  -- ;--- znbl
@@ -4414,18 +4362,10 @@ lexicon = listing "Lexicon properties"
  |> "znbl" <| [
 
     -- ;; zanobiyl_1
-
-    root     Identity                                        ]
-
- -- ;; zanobiyl_1
-
- |> "zanbiyl" <| [
-
-    -- ;; zanobiyl_1
     -- znbyl   zanobiyl        Ndu     basket
     -- znAbyl  zanAbiyl        Ndip    baskets
 
-    noun     Identity                  {- zanobiyl -}       `others` [ "zanAbiyl Ndip" ]
+    noun     KaRDIS                    {- zanobiyl -}       `others` [ "zanAbiyl Ndip" ]
                                                             `gloss`  [ "basket", "baskets" ] ]
 
  -- ;--- znt
@@ -4508,19 +4448,19 @@ lexicon = listing "Lexicon properties"
     -- znjr    zanojar PV      snap the fingers
     -- znjr    zanojir IV_yu   snap the fingers
 
-    verb     FaCCaL                    {- zanojar -}        `others` [ "zan^gir IV_yu" ]
+    verb     KaRDaS                    {- zanojar -}        `others` [ "zan^gir IV_yu" ]
                                                             `gloss`  [ "snap the fingers" ],
 
     -- ;; zinojAr_1
     -- znjAr   zinojAr N       verdigris
 
-    noun     FiCCAL                    {- zinojAr -}        `gloss`  [ "verdigris" ],
+    noun     KiRDAS                    {- zinojAr -}        `gloss`  [ "verdigris" ],
 
     -- ;; zinojiyr_1
     -- znjyr   zinojiyr        N       chain;double-entry
     -- znAjyr  zanAjiyr        Ndip    chains;double-entry
 
-    noun     FiCCIL                    {- zinojiyr -}       `others` [ "zanA^giyr Ndip" ]
+    noun     KiRDIS                    {- zinojiyr -}       `others` [ "zanA^giyr Ndip" ]
                                                             `gloss`  [ "chain", "double-entry", "chains" ] ]
 
  -- ;--- znjfr
@@ -4587,19 +4527,19 @@ lexicon = listing "Lexicon properties"
     -- tzndq   tazanodaq       PV_intr be a freethinker;be an atheist
     -- tzndq   tazanodaq       IV_intr be a freethinker;be an atheist
 
-    verb     TaFaCCaL                  {- tazanodaq -}      `gloss`  [ "be a freethinker", "be an atheist" ],
+    verb     TaKaRDaS                  {- tazanodaq -}      `gloss`  [ "be a freethinker", "be an atheist" ],
 
     -- ;; zanodaqap_1
     -- zndq    zanodaq Nap     atheism
 
-    noun     FaCCaL |< aT              {- zanodaqap -}      `others` [ "zandaq Nap" ]
+    noun     KaRDaS |< aT              {- zanodaqap -}      `others` [ "zandaq Nap" ]
                                                             `gloss`  [ "atheism" ],
 
     -- ;; zinodiyq_1
     -- zndyq   zinodiyq        N/ap    freethinker;atheist
     -- znAdq   zanAdiq Nap     freethinkers;atheists
 
-    noun     FiCCIL                    {- zinodiyq -}       `others` [ "zanAdiq Nap" ]
+    noun     KiRDIS                    {- zinodiyq -}       `others` [ "zanAdiq Nap" ]
                                                             `gloss`  [ "freethinker", "atheist", "freethinkers", "atheists" ] ]
 
  -- ;--- znr
@@ -4646,7 +4586,7 @@ lexicon = listing "Lexicon properties"
     -- znzAn   zinozAn Napdu   prison cell
     -- znzAn   zinozAn NAt     prison cells
 
-    noun     FiCCAL |< aT              {- zinozAnap -}      `others` [ "zinzAn NAt Napdu" ]
+    noun     KiRDAS |< aT              {- zinozAnap -}      `others` [ "zinzAn NAt Napdu" ]
                                                             `gloss`  [ "prison cell", "prison cells" ] ]
 
  -- ;--- znT
@@ -4664,7 +4604,7 @@ lexicon = listing "Lexicon properties"
     -- ;; zinoTAriy~ap_1
     -- znTAry  zinoTAriy~      Nap     dysentery     [[zinoTAriy~/NOUN]]
 
-    noun     FiCCAL |< Iy |< aT        {- zinoTAriy~ap -}   `others` [ "zin.tAriyy Nap" ]
+    noun     KiRDAS |< Iy |< aT        {- zinoTAriy~ap -}   `others` [ "zin.tAriyy Nap" ]
                                                             `gloss`  [ "dysentery" ] ]
 
  -- ;--- zng
@@ -5016,12 +4956,12 @@ lexicon = listing "Lexicon properties"
     -- ;; zahorAwiy~_1
     -- zhrAwy  zahorAwiy~      Nall    cheerful;merry     [[zahorAwiy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- zahorAwiy~ -}     `gloss`  [ "cheerful", "merry" ],
+    noun     KaRDAS |< Iy              {- zahorAwiy~ -}     `gloss`  [ "cheerful", "merry" ],
 
     -- ;; zahorAwiy~_2
     -- zhrAwy  zahorAwiy~      N0      Zahrawi;Zahraoui
 
-    noun     FaCCAL |< Iy              {- zahorAwiy~ -}     `gloss`  [ "Zahrawi", "Zahraoui" ] ]
+    noun     KaRDAS |< Iy              {- zahorAwiy~ -}     `gloss`  [ "Zahrawi", "Zahraoui" ] ]
 
  -- ;; zah~Ar_1
 
@@ -5066,16 +5006,12 @@ lexicon = listing "Lexicon properties"
     -- ;; mazohar_1
     -- mzhr    mazohar N       tambourine
 
-    noun     MaFCaL                    {- mazohar -}        `gloss`  [ "tambourine" ] ]
-
- -- ;; mazAhir_1
-
- |> "mazAhir" <| [
+    noun     MaFCaL                    {- mazohar -}        `gloss`  [ "tambourine" ],
 
     -- ;; mazAhir_1
     -- mzAhr   mazAhir Ndip    lute-like instrument;tambourine
 
-    noun     Identity                  {- mazAhir -}        `gloss`  [ "lute-like instrument", "tambourine" ],
+    noun     MaFACiL                   {- mazAhir -}        `gloss`  [ "lute-like instrument", "tambourine" ],
 
     -- ;; mazohariy~ap_1
     -- mzhry   mazohariy~      Nap     flower pot;vase     [[mazohariy~/NOUN]]
@@ -5096,17 +5032,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; {izodihAr_1
 
- |> "zdhr" <| [
+ |> "izdihAr" <| [
 
     -- ;; {izodihAr_1
     -- <zdhAr  {izodihAr       NduAt   prosperity;thriving
     -- AzdhAr  {izodihAr       NduAt   prosperity;thriving
 
-    noun     IFCiLAL                   {- {izodihAr -}      `gloss`  [ "prosperity", "thriving" ] ]
-
- -- ;; zAhir_1
-
- |> "zhr" <| [
+    noun     Identity                  {- {izodihAr -}      `gloss`  [ "prosperity", "thriving" ],
 
     -- ;; zAhir_1
     -- zAhr    zAhir   Nall    radiant;bright     [[zAhir/ADJ]]
@@ -5368,7 +5300,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; {izodihA'_1
 
- |> "zdh'" <| [
+ |> "izdihA'" <| [
 
     -- ;; {izodihA'_1
     -- <zdhA'  {izodihA'       N0_Nh   flourishing;radiance;pride
@@ -5384,7 +5316,7 @@ lexicon = listing "Lexicon properties"
     -- <zdhA'  {izodihA'       NAt     flourishing;radiance;pride
     -- AzdhA'  {izodihA'       NAt     flourishing;radiance;pride
 
-    noun     IFCiLAL                   {- {izodihA' -}      `gloss`  [ "flourishing", "radiance", "pride" ] ]
+    noun     Identity                  {- {izodihA' -}      `gloss`  [ "flourishing", "radiance", "pride" ] ]
 
  -- ;; zAhiy_1
 
@@ -5576,30 +5508,34 @@ lexicon = listing "Lexicon properties"
 
  -- ;; {izodiwAj_1
 
- |> "zdw^g" <| [
+ |> "izdiwA^g" <| [
 
     -- ;; {izodiwAj_1
     -- <zdwAj  {izodiwAj       NduAt   duality
     -- AzdwAj  {izodiwAj       NduAt   duality
 
-    noun     IFCiLAL                   {- {izodiwAj -}      `gloss`  [ "duality" ],
+    noun     Identity                  {- {izodiwAj -}      `gloss`  [ "duality" ] ]
+
+ -- ;; {izodiwAjiy~_1
+
+ |> "izdiwA^g" <| [
 
     -- ;; {izodiwAjiy~_1
     -- <zdwAjy {izodiwAjiy~    Nall    dual;bi-     [[{izodiwAjiy~/ADJ]]
     -- AzdwAjy {izodiwAjiy~    Nall    dual;bi-     [[{izodiwAjiy~/ADJ]]
 
-    noun     IFCiLAL |< Iy             {- {izodiwAjiy~ -}   `gloss`  [ "dual", "bi-" ],
+    noun     Identity |< Iy            {- {izodiwAjiy~ -}   `gloss`  [ "dual", "bi-" ] ]
+
+ -- ;; {izodiwAjiy~ap_1
+
+ |> "izdiwA^g" <| [
 
     -- ;; {izodiwAjiy~ap_1
     -- <zdwAjy {izodiwAjiy~    NapAt   duality;bi-     [[{izodiwAjiy~/NOUN]]
     -- AzdwAjy {izodiwAjiy~    NapAt   duality;bi-     [[{izodiwAjiy~/NOUN]]
 
-    noun     IFCiLAL |< Iy |< aT       {- {izodiwAjiy~ap -} `others` [ "izdiwA^giyy NapAt" ]
-                                                            `gloss`  [ "duality", "bi-" ] ]
-
- -- ;; mutazaw~ij_1
-
- |> "zw^g" <| [
+    noun     Identity |< Iy |< aT      {- {izodiwAjiy~ap -} `others` [ "izdiwA^giyy NapAt" ]
+                                                            `gloss`  [ "duality", "bi-" ],
 
     -- ;; mutazaw~ij_1
     -- mtzwj   mutazaw~ij      Nall    married     [[mutazaw~ij/ADJ]]
@@ -5735,12 +5671,12 @@ lexicon = listing "Lexicon properties"
 
     -- ;; zuw~Adap_1
 
-    noun     FUCAL |< aT               {- zuw~Adap -}       ,
+    noun     FuCCAL |< aT              {- zuw~Adap -}       ,
 
     -- ;; zuw~Adap_1
     -- zwAd    zuw~Ad  Nap     provisions
 
-    noun     FuCCAL |< aT              {- zuw~Adap -}       `others` [ "zuwwAd Nap" ]
+    noun     FUCAL |< aT               {- zuw~Adap -}       `others` [ "zuwwAd Nap" ]
                                                             `gloss`  [ "provisions" ],
 
     -- ;; mizowad_1
@@ -5964,7 +5900,7 @@ lexicon = listing "Lexicon properties"
     -- zwrq    zaworaq Ndu     boat;skiff
     -- zwArq   zawAriq Ndip    boats;skiffs
 
-    noun     FaCCaL                    {- zaworaq -}        `others` [ "zawAriq Ndip" ]
+    noun     KaRDaS                    {- zaworaq -}        `others` [ "zawAriq Ndip" ]
                                                             `gloss`  [ "boat", "skiff", "boats", "skiffs" ] ]
 
  -- ;--- zwg
@@ -6034,7 +5970,7 @@ lexicon = listing "Lexicon properties"
     -- zwfA'   zuwfA'  N0_Nh   hyssop
     -- zwfY    zuwfY   N0      hyssop
 
-    noun     FuCCAL                    {- zuwfA' -}         `others` [ "zuwfY N0" ]
+    noun     KuRDAS                    {- zuwfA' -}         `others` [ "zuwfY N0" ]
                                                             `gloss`  [ "hyssop" ] ]
 
  -- ;--- zwq
@@ -6297,20 +6233,20 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muziyl_1
 
- |> "zl" <| [
+ |> "zyl" <| [
 
     -- ;; muziyl_1
 
-    noun     MuFIL                     {- muziyl -}          ]
+    noun     MuFiCL                    {- muziyl -}          ]
 
  -- ;; muziyl_1
 
- |> "zyl" <| [
+ |> "zl" <| [
 
     -- ;; muziyl_1
     -- mzyl    muziyl  N/ap    cleansing medium;cleaner
 
-    noun     MuFiCL                    {- muziyl -}         `gloss`  [ "cleansing medium", "cleaner" ] ]
+    noun     MuFIL                     {- muziyl -}         `gloss`  [ "cleansing medium", "cleaner" ] ]
 
  -- ;--- zwlw
 
@@ -6419,11 +6355,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- zawaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "zw IV_0hwnyn", "zaw PV_ttAw", "zawY PV_0", "zwY IV_0_Pass_yu", "zwiy IV_0hAnn", "zawA PV_h", "zaway PV_Atn" ]
-                                                            `gloss`  [ "wrinkle", "conceal", "be wrinkled", "be concealed" ] ]
-
- -- ;; zaw~aY_1
-
- |> "zww" <| [
+                                                            `gloss`  [ "wrinkle", "conceal", "be wrinkled", "be concealed" ],
 
     -- ;; zaw~aY_1
     -- zwY     zaw~aY  PV_0    retire;go into seclusion
@@ -6449,11 +6381,7 @@ lexicon = listing "Lexicon properties"
     -- tzw     tazaw~  IV_0hwnyn       retire;go into seclusion
 
     verb     TaFaCCY                   {- tazaw~aY -}       `others` [ "tazaww IV_0hwnyn PV_ttAw", "tazawway PV_Atn IV_Ann", "tazawwA PV_h IV_h" ]
-                                                            `gloss`  [ "retire", "go into seclusion" ] ]
-
- -- ;; {inozawaY_1
-
- |> "zw" <| [
+                                                            `gloss`  [ "retire", "go into seclusion" ],
 
     -- ;; {inozawaY_1
     -- <nzwY   {inozawaY       PV_0    retire;go into seclusion
@@ -6520,14 +6448,6 @@ lexicon = listing "Lexicon properties"
  -- ;--- zy
 
  |> "zy" <| [
-
-    -- ;; zay~aY_1
-
-    root     Identity                                        ]
-
- -- ;; zay~aY_1
-
- |> "zyy" <| [
 
     -- ;; zay~aY_1
     -- zyY     zay~aY  PV_0    dress;clothe
@@ -6600,7 +6520,7 @@ lexicon = listing "Lexicon properties"
     -- ;; zayobaq_1
     -- zybq    zayobaq N       quicksilver;mercury
 
-    noun     FaCCaL                    {- zayobaq -}        `gloss`  [ "quicksilver", "mercury" ] ]
+    noun     KaRDaS                    {- zayobaq -}        `gloss`  [ "quicksilver", "mercury" ] ]
 
  -- ;--- zyt
 
@@ -6666,31 +6586,31 @@ lexicon = listing "Lexicon properties"
     -- ;; zayotuwn_1
     -- zytwn   zayotuwn        N       olives;olive tree
 
-    noun     FaCCUL                    {- zayotuwn -}       `gloss`  [ "olives", "olive tree" ],
+    noun     KaRDUS                    {- zayotuwn -}       `gloss`  [ "olives", "olive tree" ],
 
     -- ;; zayotuwnap_1
     -- zytwn   zayotuwn        Nap     Zaitouna
 
-    noun     FaCCUL |< aT              {- zayotuwnap -}     `others` [ "zaytuwn Nap" ]
+    noun     KaRDUS |< aT              {- zayotuwnap -}     `others` [ "zaytuwn Nap" ]
                                                             `gloss`  [ "Zaitouna" ],
 
     -- ;; zayotuwnap_2
     -- zytwn   zayotuwn        Napdu   olive
     -- zytwn   zayotuwn        NAt     olives
 
-    noun     FaCCUL |< aT              {- zayotuwnap -}     `others` [ "zaytuwn NAt Napdu" ]
+    noun     KaRDUS |< aT              {- zayotuwnap -}     `others` [ "zaytuwn NAt Napdu" ]
                                                             `gloss`  [ "olive", "olives" ],
 
     -- ;; zayotuwniy~_1
     -- zytwny  zayotuwniy~     Nall    Zaitounites     [[zayotuwniy~/NOUN]]
     -- zytwny  zayotuwniy~     Nall    Zaitounites     [[zayotuwniy~/ADJ]]
 
-    noun     FaCCUL |< Iy              {- zayotuwniy~ -}    `gloss`  [ "Zaitounites" ],
+    noun     KaRDUS |< Iy              {- zayotuwniy~ -}    `gloss`  [ "Zaitounites" ],
 
     -- ;; zayotuwniy~_2
     -- zytwny  zayotuwniy~     N-ap    olive-like;olive     [[zayotuwniy~/ADJ]]
 
-    noun     FaCCUL |< Iy              {- zayotuwniy~ -}    `gloss`  [ "olive-like", "olive" ] ]
+    noun     KaRDUS |< Iy              {- zayotuwniy~ -}    `gloss`  [ "olive-like", "olive" ] ]
 
  -- ;--- zyH
 
@@ -6931,13 +6851,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; {izodiyAd_1
 
- |> "zdyd" <| [
+ |> "izdiyAd" <| [
 
     -- ;; {izodiyAd_1
     -- <zdyAd  {izodiyAd       NduAt   increase;intensification
     -- AzdyAd  {izodiyAd       NduAt   increase;intensification
 
-    noun     IFCiLAL                   {- {izodiyAd -}      `gloss`  [ "increase", "intensification" ] ]
+    noun     Identity                  {- {izodiyAd -}      `gloss`  [ "increase", "intensification" ] ]
 
  -- ;; {isotizAdap_1
 
@@ -7267,7 +7187,7 @@ lexicon = listing "Lexicon properties"
     -- ;; ziymiyn_1
     -- zymyn   ziymiyn Nprop   Zemin
 
-    noun     FiCCIL                    {- ziymiyn -}        `gloss`  [ "Zemin" ] ]
+    noun     KiRDIS                    {- ziymiyn -}        `gloss`  [ "Zemin" ] ]
 
  -- ;--- zyn
 
@@ -7409,7 +7329,7 @@ lexicon = listing "Lexicon properties"
     -- zynb    zayonab N0      Zeinab
     -- zynb    zayonab N0      Zenobia
 
-    noun     FaCCaL                    {- zayonab -}        `gloss`  [ "Zeinab", "Zenobia" ] ]
+    noun     KaRDaS                    {- zayonab -}        `gloss`  [ "Zeinab", "Zenobia" ] ]
 
  -- ;--- zynk
 

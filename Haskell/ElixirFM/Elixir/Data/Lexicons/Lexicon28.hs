@@ -24,7 +24,7 @@ lexicon = listing "Lexicon properties"
     -- ;; yA_1
     -- yA      yA      FW-Wa   oh;you     [[yA/INTERJ]]
 
---    noun     Identity                  {- yA -}             `gloss`  [ "oh", "you" ],
+    noun     Identity                  {- yA -}             `gloss`  [ "oh", "you" ],
 
     -- ;; yA'_1
     -- yA'     yA'     N0_Nh   ya' (Arabic letter)
@@ -573,7 +573,7 @@ lexicon = listing "Lexicon properties"
     -- ;; yaHobuwr_1
     -- yHbwr   yaHobuwr        N       bustard chick
 
-    noun     FaCCUL                    {- yaHobuwr -}       `gloss`  [ "bustard chick" ] ]
+    noun     KaRDUS                    {- yaHobuwr -}       `gloss`  [ "bustard chick" ] ]
 
  -- ;--- yHr
 
@@ -606,14 +606,26 @@ lexicon = listing "Lexicon properties"
  |> "y.hy" <| [
 
     -- ;; yaHoyaY_1
+
+    root     Identity                                        ]
+
+ -- ;; yaHoyaY_1
+
+ |> "ya.hyY" <| [
+
+    -- ;; yaHoyaY_1
     -- yHyY    yaHoyaY N0      Yahya;Yehiyeh
 
-    noun     FaCCY                     {- yaHoyaY -}        `gloss`  [ "Yahya", "Yehiyeh" ],
+    noun     Identity                  {- yaHoyaY -}        `gloss`  [ "Yahya", "Yehiyeh" ] ]
+
+ -- ;; yaHoyaY_2
+
+ |> "ya.hyY" <| [
 
     -- ;; yaHoyaY_2
     -- yHyY    yaHoyaY N0      John
 
-    noun     FaCCY                     {- yaHoyaY -}        `gloss`  [ "John" ] ]
+    noun     Identity                  {- yaHoyaY -}        `gloss`  [ "John" ] ]
 
  -- ;--- yxt
 
@@ -761,12 +773,12 @@ lexicon = listing "Lexicon properties"
     -- ;; yaromuwk_1
     -- yrmwk   yaromuwk        Ndip    Yarmouk
 
-    noun     FaCCUL                    {- yaromuwk -}       `gloss`  [ "Yarmouk" ],
+    noun     KaRDUS                    {- yaromuwk -}       `gloss`  [ "Yarmouk" ],
 
     -- ;; yaromuwkiy~_1
     -- yrmwky  yaromuwkiy~     Nall    from/of Yarmouk     [[yaromuwkiy~/ADJ]]
 
-    noun     FaCCUL |< Iy              {- yaromuwkiy~ -}    `gloss`  [ "from / of Yarmouk" ] ]
+    noun     KaRDUS |< Iy              {- yaromuwkiy~ -}    `gloss`  [ "from / of Yarmouk" ] ]
 
  -- ;--- yzd
 
@@ -909,7 +921,7 @@ lexicon = listing "Lexicon properties"
     -- ;; yusoriy_1
     -- ysry    yusoriy Nprop   Yusri;Yosri
 
---    noun     Identity                  {- yusoriy -}        `gloss`  [ "Yusri", "Yosri" ],
+    noun     Identity                  {- yusoriy -}        `gloss`  [ "Yusri", "Yosri" ],
 
     -- ;; yusor_1
     -- ysr     yusor   N       ease;facility;affluence
@@ -1058,26 +1070,14 @@ lexicon = listing "Lexicon properties"
  |> "ysmn" <| [
 
     -- ;; yasomiyn_1
-
-    root     Identity                                        ]
-
- -- ;; yasomiyn_1
-
- |> "yasmiyn" <| [
-
-    -- ;; yasomiyn_1
     -- ysmyn   yasomiyn        Nprop   Yasmin;Yasmeen;Jasmine
 
-    noun     Identity                  {- yasomiyn -}       `gloss`  [ "Yasmin", "Yasmeen", "Jasmine" ] ]
-
- -- ;; yasomiyn_2
-
- |> "yasmiyn" <| [
+    noun     KaRDIS                    {- yasomiyn -}       `gloss`  [ "Yasmin", "Yasmeen", "Jasmine" ],
 
     -- ;; yasomiyn_2
     -- ysmyn   yasomiyn        N       jasmine
 
-    noun     Identity                  {- yasomiyn -}       `gloss`  [ "jasmine" ] ]
+    noun     KaRDIS                    {- yasomiyn -}       `gloss`  [ "jasmine" ] ]
 
  -- ;--- ysn
 
@@ -1146,7 +1146,7 @@ lexicon = listing "Lexicon properties"
     -- y$mq    ya$omaq N       veil
     -- y$mk    ya$omak N       veil
 
-    noun     FaCCaL                    {- ya$omaq -}        `others` [ "ya^smak N" ]
+    noun     KaRDaS                    {- ya$omaq -}        `others` [ "ya^smak N" ]
                                                             `gloss`  [ "veil" ] ]
 
  -- ;--- ySb
@@ -1560,7 +1560,7 @@ lexicon = listing "Lexicon properties"
     -- ;; yilomAZ_1
     -- ylmAZ   yilomAZ Nprop   Yilmaz
 
-    noun     FiCCAL                    {- yilomAZ -}        `gloss`  [ "Yilmaz" ] ]
+    noun     KiRDAS                    {- yilomAZ -}        `gloss`  [ "Yilmaz" ] ]
 
  -- ;--- ym
 
@@ -1840,7 +1840,7 @@ lexicon = listing "Lexicon properties"
     -- ;; yanosuwn_1
     -- ynswn   yanosuwn        N       aniseed;anise
 
-    noun     FaCCUL                    {- yanosuwn -}       `gloss`  [ "aniseed", "anise" ] ]
+    noun     KaRDUS                    {- yanosuwn -}       `gloss`  [ "aniseed", "anise" ] ]
 
  -- ;--- ynE
 
@@ -1950,12 +1950,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; yuwbiyl_1
 
- |> "yuwbiyl" <| [
+ |> "ywbl" <| [
 
     -- ;; yuwbiyl_1
     -- ywbyl   yuwbiyl N       jubilee
 
-    noun     Identity                  {- yuwbiyl -}        `gloss`  [ "jubilee" ] ]
+    noun     KuRDIS                    {- yuwbiyl -}        `gloss`  [ "jubilee" ] ]
 
  -- ;--- ywt
 
@@ -1986,12 +1986,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; yuwjiyn_1
 
- |> "yuw^giyn" <| [
+ |> "yw^gn" <| [
 
     -- ;; yuwjiyn_1
     -- ywjyn   yuwjiyn Nprop   Eugene
 
-    noun     Identity                  {- yuwjiyn -}        `gloss`  [ "Eugene" ] ]
+    noun     KuRDIS                    {- yuwjiyn -}        `gloss`  [ "Eugene" ] ]
 
  -- ;--- ywd
 
@@ -2087,12 +2087,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; yuwriyn_1
 
- |> "yuwriyn" <| [
+ |> "ywrn" <| [
 
     -- ;; yuwriyn_1
     -- ywryn   yuwriyn Nprop   Uhrin
 
-    noun     Identity                  {- yuwriyn -}        `gloss`  [ "Uhrin" ] ]
+    noun     KuRDIS                    {- yuwriyn -}        `gloss`  [ "Uhrin" ] ]
 
  -- ;--- ywz
 
@@ -2352,7 +2352,7 @@ lexicon = listing "Lexicon properties"
     -- ;; yawoma*Ak_1
     -- ywm*Ak  yawoma*Ak       FW-Wa   on that day     [[yawoma*Ak/ADV]]
 
- --   noun     Identity                  {- yawoma*Ak -}      `gloss`  [ "on that day" ],
+    noun     Identity                  {- yawoma*Ak -}      `gloss`  [ "on that day" ],
 
     -- ;; yawomiy~_1
     -- ywmy    yawomiy~        NF      daily;per diem;on a daily basis     [[yawomiy~/ADV]]
@@ -2422,7 +2422,7 @@ lexicon = listing "Lexicon properties"
     -- ;; yuwnA$_1
     -- ywnA$   yuwnA$  Nprop   Jonas
 
-    noun     FuCCAL                    {- yuwnA$ -}         `gloss`  [ "Jonas" ] ]
+    noun     KuRDAS                    {- yuwnA$ -}         `gloss`  [ "Jonas" ] ]
 
  -- ;--- ywnAn
 
@@ -2437,23 +2437,15 @@ lexicon = listing "Lexicon properties"
  |> "ynn" <| [
 
     -- ;; yuwnAn_1
-
-    noun     FUCAL                     {- yuwnAn -}          ]
-
- -- ;; yuwnAn_1
-
- |> "ywn" <| [
-
-    -- ;; yuwnAn_1
     -- ywnAn   yuwnAn  N       Greece
 
-    noun     FuCCAL                    {- yuwnAn -}         `gloss`  [ "Greece" ],
+    noun     FUCAL                     {- yuwnAn -}         `gloss`  [ "Greece" ],
 
     -- ;; yuwnAniy~_1
     -- ywnAny  yuwnAniy~       Nall    Greek     [[yuwnAniy~/NOUN]]
     -- ywnAny  yuwnAniy~       Nall    Greek     [[yuwnAniy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- yuwnAniy~ -}      `gloss`  [ "Greek" ] ]
+    noun     FUCAL |< Iy               {- yuwnAniy~ -}      `gloss`  [ "Greek" ] ]
 
  -- ;--- ywnAy
 

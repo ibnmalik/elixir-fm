@@ -70,7 +70,7 @@ lexicon = listing "Lexicon properties"
     -- ;; ZuboyAniy~_1
     -- ZbyAny  ZuboyAniy~      Nall    from/of Abu Dhabi     [[ZuboyAniy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- ZuboyAniy~ -}     `gloss`  [ "from / of Abu Dhabi" ] ]
+    noun     KuRDAS |< Iy              {- ZuboyAniy~ -}     `gloss`  [ "from / of Abu Dhabi" ] ]
 
  -- ;--- Zr
 
@@ -114,7 +114,7 @@ lexicon = listing "Lexicon properties"
     -- ZrbAn   ZirobAn N       polecat;fitchew
     -- ZrAbyn  ZarAbiyn        Ndip    polecat;fitchew
 
-    noun     FiCCAL                    {- ZirobAn -}        `others` [ ".zarAbiyn Ndip" ]
+    noun     KiRDAS                    {- ZirobAn -}        `others` [ ".zarAbiyn Ndip" ]
                                                             `gloss`  [ "polecat", "fitchew" ] ]
 
  -- ;--- Zrf
@@ -342,7 +342,7 @@ lexicon = listing "Lexicon properties"
     -- ;; ZuforAn_1
     -- ZfrAn   ZuforAn N       victorious     [[ZuforAn/ADJ]]
 
-    noun     FuCCAL                    {- ZuforAn -}        `gloss`  [ "victorious" ] ]
+    noun     KuRDAS                    {- ZuforAn -}        `gloss`  [ "victorious" ] ]
 
  -- ;; ZAfir_1
 
@@ -1063,23 +1063,15 @@ lexicon = listing "Lexicon properties"
     -- ZwAhr   ZawAhir Ndip    phenomena
 
     noun     FACiL |< aT               {- ZAhirap -}        `others` [ ".zAhir Napdu", ".zawAhir Ndip" ]
-                                                            `gloss`  [ "phenomenon", "phenomena" ] ]
-
- -- ;; ZawAhiriy~_1
-
- |> ".zawAhir" <| [
+                                                            `gloss`  [ "phenomenon", "phenomena" ],
 
     -- ;; ZawAhiriy~_1
     -- ZwAhry  ZawAhiriy~      N0      Zawahri;Zawahiri
 
-    noun     Identity |< Iy            {- ZawAhiriy~ -}     `gloss`  [ "Zawahri", "Zawahiri" ] ]
-
- -- ;; ZawAhiriy~_2
-
- |> ".zawAhir" <| [
+    noun     FawACiL |< Iy             {- ZawAhiriy~ -}     `gloss`  [ "Zawahri", "Zawahiri" ],
 
     -- ;; ZawAhiriy~_2
     -- ZwAhry  ZawAhiriy~      Nall    phenomenal     [[ZawAhiriy~/ADJ]]
 
-    noun     Identity |< Iy            {- ZawAhiriy~ -}     `gloss`  [ "phenomenal" ] ]
+    noun     FawACiL |< Iy             {- ZawAhiriy~ -}     `gloss`  [ "phenomenal" ] ]
 

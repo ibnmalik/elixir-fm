@@ -254,41 +254,41 @@ lexicon = listing "Lexicon properties"
     -- *b*b    *abo*ab PV      swing;dangle
     -- *b*b    *abo*ib IV_yu   swing;dangle
 
-    verb     FaCCaL                    {- *abo*ab -}        `others` [ "_dab_dib IV_yu" ]
+    verb     KaRDaS                    {- *abo*ab -}        `others` [ "_dab_dib IV_yu" ]
                                                             `gloss`  [ "swing", "dangle" ],
 
     -- ;; ta*abo*ab_1
     -- t*b*b   ta*abo*ab       PV      oscillate;fluctuate;waver
     -- t*b*b   ta*abo*ab       IV      oscillate;fluctuate;waver
 
-    verb     TaFaCCaL                  {- ta*abo*ab -}      `gloss`  [ "oscillate", "fluctuate", "waver" ],
+    verb     TaKaRDaS                  {- ta*abo*ab -}      `gloss`  [ "oscillate", "fluctuate", "waver" ],
 
     -- ;; *abo*abap_1
     -- *b*b    *abo*ab Napdu   oscillation;frequency;vibration
     -- *b*b    *abo*ab NAt     oscillations;frequencies;vibrations
 
-    noun     FaCCaL |< aT              {- *abo*abap -}      `others` [ "_dab_dab NAt Napdu" ]
+    noun     KaRDaS |< aT              {- *abo*abap -}      `others` [ "_dab_dab NAt Napdu" ]
                                                             `gloss`  [ "oscillation", "frequency", "vibration", "oscillations", "frequencies", "vibrations" ],
 
     -- ;; ta*abo*ub_1
     -- t*b*b   ta*abo*ub       NduAt   oscillation;fluctuation
 
-    noun     TaFaCCuL                  {- ta*abo*ub -}      `gloss`  [ "oscillation", "fluctuation" ],
+    noun     TaKaRDuS                  {- ta*abo*ub -}      `gloss`  [ "oscillation", "fluctuation" ],
 
     -- ;; mu*abo*ib_1
     -- m*b*b   mu*abo*ib       N-ap    oscillator
 
-    noun     MuFaCCiL                  {- mu*abo*ib -}      `gloss`  [ "oscillator" ],
+    noun     MuKaRDiS                  {- mu*abo*ib -}      `gloss`  [ "oscillator" ],
 
     -- ;; mu*abo*ab_1
     -- m*b*b   mu*abo*ab       Nall    fluctuating;wavering     [[mu*abo*ab/ADJ]]
 
-    noun     MuFaCCaL                  {- mu*abo*ab -}      `gloss`  [ "fluctuating", "wavering" ],
+    noun     MuKaRDaS                  {- mu*abo*ab -}      `gloss`  [ "fluctuating", "wavering" ],
 
     -- ;; muta*abo*ib_1
     -- mt*b*b  muta*abo*ib     Nall    oscillating     [[muta*abo*ib/ADJ]]
 
-    noun     MutaFaCCiL                {- muta*abo*ib -}    `gloss`  [ "oscillating" ] ]
+    noun     MutaKaRDiS                {- muta*abo*ib -}    `gloss`  [ "oscillating" ] ]
 
  -- ;--- *bl
 
@@ -340,17 +340,17 @@ lexicon = listing "Lexicon properties"
     -- ;; *uboyAn_1
     -- *byAn   *uboyAn Nprop   Dhubyan;Dhubian
 
-    noun     FuCCAL                    {- *uboyAn -}        `gloss`  [ "Dhubyan", "Dhubian" ],
+    noun     KuRDAS                    {- *uboyAn -}        `gloss`  [ "Dhubyan", "Dhubian" ],
 
     -- ;; *uboyAniy~_1
     -- *byAny  *uboyAniy~      N0      Dhubyani;Dhubiani
 
-    noun     FuCCAL |< Iy              {- *uboyAniy~ -}     `gloss`  [ "Dhubyani", "Dhubiani" ],
+    noun     KuRDAS |< Iy              {- *uboyAniy~ -}     `gloss`  [ "Dhubyani", "Dhubiani" ],
 
     -- ;; *uboyAn_2
     -- *byAn   *uboyAn Nprop   Supyan (Makhchayev)
 
-    noun     FuCCAL                    {- *uboyAn -}        `gloss`  [ "Supyan ( Makhchayev )" ] ]
+    noun     KuRDAS                    {- *uboyAn -}        `gloss`  [ "Supyan ( Makhchayev )" ] ]
 
  -- ;--- *Hl
 
@@ -813,11 +813,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- *araY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "_driy IV_0hAnn", "_darA PV_h", "_darY PV_0", "_daray PV_Atn" ]
-                                                            `gloss`  [ "disperse", "scatter" ] ]
-
- -- ;; *ar~aY_1
-
- |> "_drr" <| [
+                                                            `gloss`  [ "disperse", "scatter" ],
 
     -- ;; *ar~aY_1
     -- *rY     *ar~aY  PV_0    disperse;scatter;atomize
@@ -830,11 +826,7 @@ lexicon = listing "Lexicon properties"
     -- *ry     *ar~ay  IV_Ann_Pass_yu  be dispersed;be scattered;be atomized
 
     verb     FaCCY                     {- *ar~aY -}         `others` [ "_darriy IV_0hAnn_yu", "_darray PV_Atn IV_Ann_Pass_yu", "_darrA PV_h", "_darr IV_0hwnyn_yu PV_ttAw" ]
-                                                            `gloss`  [ "disperse", "scatter", "atomize", "be dispersed", "be scattered", "be atomized" ] ]
-
- -- ;; >a*oraY_1
-
- |> "_dr" <| [
+                                                            `gloss`  [ "disperse", "scatter", "atomize", "be dispersed", "be scattered", "be atomized" ],
 
     -- ;; >a*oraY_1
     -- >*rY    >a*oraY PV_0    disperse;scatter
@@ -851,11 +843,7 @@ lexicon = listing "Lexicon properties"
     -- *ry     *oray   IV_Ann_Pass_yu  be dispersed;be scattered
 
     verb     HaFCY                     {- >a*oraY -}        `others` [ "_driy IV_0hAnn_yu", "'a_dr PV_ttAw", "'a_dray PV_Atn", "_drY IV_0_Pass_yu", "_dr IV_0hwnyn_yu", "'a_drA PV_h", "_dray IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "disperse", "scatter", "be dispersed", "be scattered" ] ]
-
- -- ;; ta*ar~aY_1
-
- |> "_drr" <| [
+                                                            `gloss`  [ "disperse", "scatter", "be dispersed", "be scattered" ],
 
     -- ;; ta*ar~aY_1
     -- t*rY    ta*ar~aY        PV_0    climb;take refuge
@@ -868,11 +856,7 @@ lexicon = listing "Lexicon properties"
     -- t*r     ta*ar~  IV_0hwnyn       climb;take refuge
 
     verb     TaFaCCY                   {- ta*ar~aY -}       `others` [ "ta_darray PV_Atn IV_Ann", "ta_darr IV_0hwnyn PV_ttAw", "ta_darrA PV_h IV_h" ]
-                                                            `gloss`  [ "climb", "take refuge" ] ]
-
- -- ;; {isota*oraY_1
-
- |> "_dr" <| [
+                                                            `gloss`  [ "climb", "take refuge" ],
 
     -- ;; {isota*oraY_1
     -- <st*rY  {isota*oraY     PV_0    take refuge
@@ -1341,7 +1325,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; *ak~aY_1
 
- |> "_dkk" <| [
+ |> "_dk" <| [
 
     -- ;; *ak~aY_1
     -- *kY     *ak~aY  PV_0    kindle;set ablaze
@@ -1354,11 +1338,7 @@ lexicon = listing "Lexicon properties"
     -- *ky     *ak~ay  IV_Ann_Pass_yu  be kindled;be set ablaze
 
     verb     FaCCY                     {- *ak~aY -}         `others` [ "_dakkay PV_Atn IV_Ann_Pass_yu", "_dakkiy IV_0hAnn_yu", "_dakk IV_0hwnyn_yu PV_ttAw", "_dakkA PV_h" ]
-                                                            `gloss`  [ "kindle", "set ablaze", "be kindled", "be set ablaze" ] ]
-
- -- ;; >a*okaY_1
-
- |> "_dk" <| [
+                                                            `gloss`  [ "kindle", "set ablaze", "be kindled", "be set ablaze" ],
 
     -- ;; >a*okaY_1
     -- >*kY    >a*okaY PV_0    kindle;make blaze
@@ -2386,12 +2366,12 @@ lexicon = listing "Lexicon properties"
     -- ;; *awolaq_1
     -- *wlq    *awolaq N       tip of the tongue
 
-    noun     FaCCaL                    {- *awolaq -}        `gloss`  [ "tip of the tongue" ],
+    noun     KaRDaS                    {- *awolaq -}        `gloss`  [ "tip of the tongue" ],
 
     -- ;; *awolaqiy~_1
     -- *wlqy   *awolaqiy~      N-ap    apical (with tip of the tongue)    [[*awolaqiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- *awolaqiy~ -}     `gloss`  [ "apical ( with tip of the tongue )" ] ]
+    noun     KaRDaS |< Iy              {- *awolaqiy~ -}     `gloss`  [ "apical ( with tip of the tongue )" ] ]
 
  -- ;--- *wy
 
@@ -2556,20 +2536,20 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mu*iyE_1
 
- |> "_d`" <| [
+ |> "_dy`" <| [
 
     -- ;; mu*iyE_1
 
-    noun     MuFIL                     {- mu*iyE -}          ]
+    noun     MuFiCL                    {- mu*iyE -}          ]
 
  -- ;; mu*iyE_1
 
- |> "_dy`" <| [
+ |> "_d`" <| [
 
     -- ;; mu*iyE_1
     -- m*yE    mu*iyE  Nall    broadcaster;transmitter;announcer
 
-    noun     MuFiCL                    {- mu*iyE -}         `gloss`  [ "broadcaster", "transmitter", "announcer" ] ]
+    noun     MuFIL                     {- mu*iyE -}         `gloss`  [ "broadcaster", "transmitter", "announcer" ] ]
 
  -- ;--- *yl
 

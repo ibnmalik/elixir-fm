@@ -504,14 +504,6 @@ lexicon = listing "Lexicon properties"
 
  -- ;; >ano>aY_2
 
- |> "'n'" <| [
-
-    -- ;; >ano>aY_2
-
-    noun     FaCCY                     {- >ano>aY -}         ]
-
- -- ;; >ano>aY_2
-
  |> "n'" <| [
 
     -- ;; >ano>aY_2
@@ -877,12 +869,16 @@ lexicon = listing "Lexicon properties"
 
  -- ;; nabAtiyn_1
 
- |> "nabAtiyn" <| [
+ |> "nbtn" <| [
 
     -- ;; nabAtiyn_1
     -- nbAtyn  nabAtiyn        N       margarine
 
-    noun     Identity                  {- nabAtiyn -}       `gloss`  [ "margarine" ],
+    noun     KaRADIS                   {- nabAtiyn -}       `gloss`  [ "margarine" ] ]
+
+ -- ;; nab~uwt_1
+
+ |> "nbt" <| [
 
     -- ;; nab~uwt_1
     -- nbwt    nab~uwt Ndu     stick;truncheon;bludgeon
@@ -948,12 +944,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; nibotuwn_1
 
- |> "nibtuwn" <| [
+ |> "nbtn" <| [
 
     -- ;; nibotuwn_1
     -- nbtwn   nibotuwn        N0      Neptune
 
-    noun     Identity                  {- nibotuwn -}       `gloss`  [ "Neptune" ] ]
+    noun     KiRDUS                    {- nibotuwn -}       `gloss`  [ "Neptune" ] ]
 
  -- ;--- nbj
 
@@ -1172,14 +1168,14 @@ lexicon = listing "Lexicon properties"
     -- nbrAs   niborAs Ndu     lantern;light
     -- nbArys  nabAriys        Ndip    lanterns;lights
 
-    noun     FiCCAL                    {- niborAs -}        `others` [ "nabAriys Ndip" ]
+    noun     KiRDAS                    {- niborAs -}        `others` [ "nabAriys Ndip" ]
                                                             `gloss`  [ "lantern", "light", "lanterns", "lights" ],
 
     -- ;; niborAs_2
     -- nbrAs   niborAs Ndu     example;model
     -- nbArys  nabAriys        Ndip    examples;models
 
-    noun     FiCCAL                    {- niborAs -}        `others` [ "nabAriys Ndip" ]
+    noun     KiRDAS                    {- niborAs -}        `others` [ "nabAriys Ndip" ]
                                                             `gloss`  [ "example", "model", "examples", "models" ] ]
 
  -- ;--- nbz
@@ -2788,16 +2784,12 @@ lexicon = listing "Lexicon properties"
     -- >nj*An  >anoju*An       Ndip    asafetida (plant)
     -- Anj*An  >anoju*An       Ndip    asafetida (plant)
 
-    noun     Identity                  {- >anoju*An -}      `gloss`  [ "asafetida ( plant )" ] ]
-
- -- ;; manAji*_1
-
- |> "manA^gi_d" <| [
+    noun     Identity                  {- >anoju*An -}      `gloss`  [ "asafetida ( plant )" ],
 
     -- ;; manAji*_1
     -- mnAj*   manAji* Ndip    moles (zool.)
 
-    noun     Identity                  {- manAji* -}        `gloss`  [ "moles ( zool . )" ],
+    noun     MaFACiL                   {- manAji* -}        `gloss`  [ "moles ( zool . )" ],
 
     -- ;; nAji*_1
     -- nAj*    nAji*   Ndu     molar
@@ -3330,7 +3322,7 @@ lexicon = listing "Lexicon properties"
     -- ;; najomAwiy~_1
     -- njmAwy  najomAwiy~      Nall    Najmawi;Nagmaoui;Nadjmaoui
 
-    noun     FaCCAL |< Iy              {- najomAwiy~ -}     `gloss`  [ "Najmawi", "Nagmaoui", "Nadjmaoui" ] ]
+    noun     KaRDAS |< Iy              {- najomAwiy~ -}     `gloss`  [ "Najmawi", "Nagmaoui", "Nadjmaoui" ] ]
 
  -- ;; nujayomap_1
 
@@ -3410,11 +3402,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- najA-u -}         `imperf` [ FCuL ]
                                                             `others` [ "n^guw IV_0hAnn", "n^g IV_0hwnyn", "na^g PV_ttAw", "na^gaw PV_Atn", "na^gA PV_0h" ]
-                                                            `gloss`  [ "escape", "be rescued" ] ]
-
- -- ;; naj~aY_1
-
- |> "n^g^g" <| [
+                                                            `gloss`  [ "escape", "be rescued" ],
 
     -- ;; naj~aY_1
     -- njY     naj~aY  PV_0    rescue
@@ -3427,11 +3415,7 @@ lexicon = listing "Lexicon properties"
     -- njy     naj~ay  IV_Ann_Pass_yu  be rescued
 
     verb     FaCCY                     {- naj~aY -}         `others` [ "na^g^gA PV_h", "na^g^giy IV_0hAnn_yu", "na^g^g IV_0hwnyn_yu PV_ttAw", "na^g^gay PV_Atn IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "rescue", "be rescued" ] ]
-
- -- ;; nAjaY_1
-
- |> "n^g" <| [
+                                                            `gloss`  [ "rescue", "be rescued" ],
 
     -- ;; nAjaY_1
     -- nAjY    nAjaY   PV_0    whisper to;confide in
@@ -3548,7 +3532,11 @@ lexicon = listing "Lexicon properties"
     -- njw     najow   Nap     elevation;upland
 
     noun     FaCL |< aT                {- najowap -}        `others` [ "na^gw Nap" ]
-                                                            `gloss`  [ "elevation", "upland" ],
+                                                            `gloss`  [ "elevation", "upland" ] ]
+
+ -- ;; najowaY_1
+
+ |> "na^gwY" <| [
 
     -- ;; najowaY_1
     -- njwY    najowaY N0      confidential talk;soliloquy
@@ -3556,7 +3544,7 @@ lexicon = listing "Lexicon properties"
     -- njAwY   najAwaY N0      confidential talks;soliloquies
     -- njAwA   najAwA  Nhy     confidential talks;soliloquies
 
-    noun     FaCCY                     {- najowaY -}        `others` [ "na^gwA Nhy", "na^gAwY N0", "na^gAwA Nhy" ]
+    noun     Identity                  {- najowaY -}        `others` [ "na^gwA Nhy", "na^gAwY N0", "na^gAwA Nhy" ]
                                                             `gloss`  [ "confidential talk", "soliloquy", "confidential talks", "soliloquies" ] ]
 
  -- ;; najiy~_1
@@ -3794,13 +3782,17 @@ lexicon = listing "Lexicon properties"
     -- ;; niHor_1
     -- nHr     niHor   N-ap    skilled;experience
 
-    noun     FiCL                      {- niHor -}          `gloss`  [ "skilled", "experience" ],
+    noun     FiCL                      {- niHor -}          `gloss`  [ "skilled", "experience" ] ]
+
+ -- ;; niHoriyr_1
+
+ |> "ni.hriyr" <| [
 
     -- ;; niHoriyr_1
     -- nHryr   niHoriyr        N/ap    skilled;experience
     -- nHAryr  naHAriyr        Ndip    skilled;experience
 
-    noun     FiCCIL                    {- niHoriyr -}       `others` [ "na.hAriyr Ndip" ]
+    noun     Identity                  {- niHoriyr -}       `others` [ "na.hAriyr Ndip" ]
                                                             `gloss`  [ "skilled", "experience" ],
 
     -- ;; naHiyr_1
@@ -3935,16 +3927,12 @@ lexicon = listing "Lexicon properties"
     -- ;; nuHAsiy~_1
     -- nHAsy   nuHAsiy~        N-ap    copper;brass     [[nuHAsiy~/ADJ]]
 
-    noun     Identity |< Iy            {- nuHAsiy~ -}       `gloss`  [ "copper", "brass" ] ]
-
- -- ;; manAHis_1
-
- |> "manA.his" <| [
+    noun     Identity |< Iy            {- nuHAsiy~ -}       `gloss`  [ "copper", "brass" ],
 
     -- ;; manAHis_1
     -- mnAHs   manAHis Ndip    ominous events
 
-    noun     Identity                  {- manAHis -}        `gloss`  [ "ominous events" ],
+    noun     MaFACiL                   {- manAHis -}        `gloss`  [ "ominous events" ],
 
     -- ;; manoHuws_1
     -- mnHws   manoHuws        Nall    unlucky;ill-fated     [[manoHuws/ADJ]]
@@ -4228,19 +4216,19 @@ lexicon = listing "Lexicon properties"
     -- nHnH    naHonaH PV      clear throat
     -- nHnH    naHoniH IV_yu   clear throat
 
-    verb     FaCCaL                    {- naHonaH -}        `others` [ "na.hni.h IV_yu" ]
+    verb     KaRDaS                    {- naHonaH -}        `others` [ "na.hni.h IV_yu" ]
                                                             `gloss`  [ "clear throat" ],
 
     -- ;; tanaHonaH_1
     -- tnHnH   tanaHonaH       PV      clear the throat
     -- tnHnH   tanaHonaH       IV      clear the throat
 
-    verb     TaFaCCaL                  {- tanaHonaH -}      `gloss`  [ "clear the throat" ],
+    verb     TaKaRDaS                  {- tanaHonaH -}      `gloss`  [ "clear the throat" ],
 
     -- ;; naHonaHap_1
     -- nHnH    naHonaH Napdu   clearing the throat;hawking
 
-    noun     FaCCaL |< aT              {- naHonaHap -}      `others` [ "na.hna.h Napdu" ]
+    noun     KaRDaS |< aT              {- naHonaHap -}      `others` [ "na.hna.h Napdu" ]
                                                             `gloss`  [ "clearing the throat", "hawking" ] ]
 
  -- ;--- nHw
@@ -4277,11 +4265,7 @@ lexicon = listing "Lexicon properties"
     -- nH      noHa    IV_0hwnyn       go towards;move towards
 
     verb     FaCY                      {- naHaY -}          `others` [ "n.ha IV_0hwnyn", "n.hay IV_Ann", "n.hA IV_h", "na.hay PV_Atn", "n.hY IV_0", "na.hA PV_h", "na.ha PV_ttAw" ]
-                                                            `gloss`  [ "go towards", "move towards" ] ]
-
- -- ;; naH~aY_1
-
- |> "n.h.h" <| [
+                                                            `gloss`  [ "go towards", "move towards" ],
 
     -- ;; naH~aY_1
     -- nHY     naH~aY  PV_0    put aside;eliminate
@@ -4294,11 +4278,7 @@ lexicon = listing "Lexicon properties"
     -- nHy     naH~ay  IV_Ann_Pass_yu  be put aside;be eliminated
 
     verb     FaCCY                     {- naH~aY -}         `others` [ "na.h.hiy IV_0hAnn_yu", "na.h.h IV_0hwnyn_yu PV_ttAw", "na.h.hay PV_Atn IV_Ann_Pass_yu", "na.h.hA PV_h" ]
-                                                            `gloss`  [ "put aside", "eliminate", "be put aside", "be eliminated" ] ]
-
- -- ;; >anoHaY_1
-
- |> "n.h" <| [
+                                                            `gloss`  [ "put aside", "eliminate", "be put aside", "be eliminated" ],
 
     -- ;; >anoHaY_1
     -- >nHY    >anoHaY PV_0    turn away;overcome
@@ -4315,11 +4295,7 @@ lexicon = listing "Lexicon properties"
     -- nHy     noHay   IV_Ann_Pass_yu  be turned away;be overcome
 
     verb     HaFCY                     {- >anoHaY -}        `others` [ "n.hay IV_Ann_Pass_yu", "n.h IV_0hwnyn_yu", "'an.hA PV_h", "n.hY IV_0_Pass_yu", "n.hiy IV_0hAnn_yu", "'an.h PV_ttAw", "'an.hay PV_Atn" ]
-                                                            `gloss`  [ "turn away", "overcome", "be turned away", "be overcome" ] ]
-
- -- ;; tanaH~aY_1
-
- |> "n.h.h" <| [
+                                                            `gloss`  [ "turn away", "overcome", "be turned away", "be overcome" ],
 
     -- ;; tanaH~aY_1
     -- tnHY    tanaH~aY        PV_0    withdraw;forego;abandon
@@ -4330,19 +4306,7 @@ lexicon = listing "Lexicon properties"
     -- tnH     tanaH~  IV_0hwnyn       withdraw;forego;abandon
 
     verb     TaFaCCY                   {- tanaH~aY -}       `others` [ "tana.h.hay PV_Atn IV_Ann", "tana.h.h IV_0hwnyn PV_ttAw" ]
-                                                            `gloss`  [ "withdraw", "forego", "abandon" ] ]
-
- -- ;; {inotaHaY_1
-
- |> "nt.h" <| [
-
-    -- ;; {inotaHaY_1
-
-    noun     InFaCY                    {- {inotaHaY -}       ]
-
- -- ;; {inotaHaY_1
-
- |> "n.h" <| [
+                                                            `gloss`  [ "withdraw", "forego", "abandon" ],
 
     -- ;; {inotaHaY_1
     -- <ntHY   {inotaHaY       PV_0    head for;move towards;withdraw to
@@ -4597,18 +4561,14 @@ lexicon = listing "Lexicon properties"
     -- nxrb    naxorab PV      eat away;hollow out
     -- nxrb    naxorib IV_yu   eat away;hollow out
 
-    verb     FaCCaL                    {- naxorab -}        `others` [ "na_hrib IV_yu" ]
-                                                            `gloss`  [ "eat away", "hollow out" ] ]
-
- -- ;; nuxoruwb_1
-
- |> "nu_hruwb" <| [
+    verb     KaRDaS                    {- naxorab -}        `others` [ "na_hrib IV_yu" ]
+                                                            `gloss`  [ "eat away", "hollow out" ],
 
     -- ;; nuxoruwb_1
     -- nxrwb   nuxoruwb        N       cavity;hollow;honeycomb
     -- nxAryb  naxAriyb        Ndip    cavities;hollows;honeycombs
 
-    noun     Identity                  {- nuxoruwb -}       `others` [ "na_hAriyb Ndip" ]
+    noun     KuRDUS                    {- nuxoruwb -}       `others` [ "na_hAriyb Ndip" ]
                                                             `gloss`  [ "cavity", "hollow", "honeycomb", "cavities", "hollows", "honeycombs" ] ]
 
  -- ;--- nxz
@@ -4678,10 +4638,18 @@ lexicon = listing "Lexicon properties"
  |> "n_h^s" <| [
 
     -- ;; naxo$uw$_1
+
+    root     Identity                                        ]
+
+ -- ;; naxo$uw$_1
+
+ |> "na_h^suw^s" <| [
+
+    -- ;; naxo$uw$_1
     -- nx$w$   naxo$uw$        Ndu     gill;branchia
     -- nxA$y$  naxA$iy$        Ndip    gills;branchia
 
-    noun     FaCCUL                    {- naxo$uw$ -}       `others` [ "na_hA^siy^s Ndip" ]
+    noun     Identity                  {- naxo$uw$ -}       `others` [ "na_hA^siy^s Ndip" ]
                                                             `gloss`  [ "gill", "branchia", "gills" ] ]
 
  -- ;--- nxE
@@ -4840,11 +4808,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- naxA-u -}         `imperf` [ FCuL ]
                                                             `others` [ "na_hA PV_0", "na_h PV_ttAw_intr", "n_huw IV_0hAnn", "n_h IV_0hwnyn", "na_haw PV_Atn" ]
-                                                            `gloss`  [ "be proud", "be haughty" ] ]
-
- -- ;; nax~aY_1
-
- |> "n_h_h" <| [
+                                                            `gloss`  [ "be proud", "be haughty" ],
 
     -- ;; nax~aY_1
     -- nxY     nax~aY  PV_0    incite;arouse
@@ -4857,11 +4821,7 @@ lexicon = listing "Lexicon properties"
     -- nxy     nax~ay  IV_Ann_Pass_yu  be incited;be aroused
 
     verb     FaCCY                     {- nax~aY -}         `others` [ "na_h_h IV_0hwnyn_yu PV_ttAw", "na_h_hiy IV_0hAnn_yu", "na_h_hay PV_Atn IV_Ann_Pass_yu", "na_h_hA PV_h" ]
-                                                            `gloss`  [ "incite", "arouse", "be incited", "be aroused" ] ]
-
- -- ;; >anoxaY_1
-
- |> "n_h" <| [
+                                                            `gloss`  [ "incite", "arouse", "be incited", "be aroused" ],
 
     -- ;; >anoxaY_1
     -- >nxY    >anoxaY PV_0    incite;arouse
@@ -5455,7 +5415,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; nad~aY_1
 
- |> "ndd" <| [
+ |> "nd" <| [
 
     -- ;; nad~aY_1
     -- ndY     nad~aY  PV_0    moisten;make damp
@@ -5468,11 +5428,7 @@ lexicon = listing "Lexicon properties"
     -- ndy     nad~ay  IV_Ann_Pass_yu  be moistened
 
     verb     FaCCY                     {- nad~aY -}         `others` [ "nadday PV_Atn IV_Ann_Pass_yu", "naddiy IV_0hAnn_yu", "naddA PV_h", "nadd IV_0hwnyn_yu PV_ttAw" ]
-                                                            `gloss`  [ "moisten", "make damp", "be moistened" ] ]
-
- -- ;; nAdaY_1
-
- |> "nd" <| [
+                                                            `gloss`  [ "moisten", "make damp", "be moistened" ],
 
     -- ;; nAdaY_1
     -- nAdY    nAdaY   PV_0    announce;summon
@@ -5502,11 +5458,7 @@ lexicon = listing "Lexicon properties"
     -- ndy     noday   IV_Ann_Pass_yu  be moistened;be dampened
 
     verb     HaFCY                     {- >anodaY -}        `others` [ "nday IV_Ann_Pass_yu", "'anday PV_Atn", "nd IV_0hwnyn_yu", "'andA PV_h", "ndiy IV_0hAnn_yu", "'and PV_ttAw", "ndY IV_0_Pass_yu" ]
-                                                            `gloss`  [ "moisten", "make damp", "be moistened", "be dampened" ] ]
-
- -- ;; tanad~aY_1
-
- |> "ndd" <| [
+                                                            `gloss`  [ "moisten", "make damp", "be moistened", "be dampened" ],
 
     -- ;; tanad~aY_1
     -- tndY    tanad~aY        PV_0    be moistened;appear generous
@@ -5517,11 +5469,7 @@ lexicon = listing "Lexicon properties"
     -- tnd     tanad~  IV_0hwnyn       be moistened;appear generous
 
     verb     TaFaCCY                   {- tanad~aY -}       `others` [ "tanadday PV_Atn IV_Ann", "tanadd PV_ttAw_intr IV_0hwnyn" ]
-                                                            `gloss`  [ "be moistened", "appear generous" ] ]
-
- -- ;; tanAdaY_1
-
- |> "nd" <| [
+                                                            `gloss`  [ "be moistened", "appear generous" ],
 
     -- ;; tanAdaY_1
     -- tnAdY   tanAdaY PV_0    call out to each other;work together
@@ -5609,20 +5557,20 @@ lexicon = listing "Lexicon properties"
 
  -- ;; nadowAn_1
 
- |> "ndw" <| [
+ |> "ndwn" <| [
 
     -- ;; nadowAn_1
 
-    noun     FaCLAn                    {- nadowAn -}         ]
+    noun     KaRDAS                    {- nadowAn -}         ]
 
  -- ;; nadowAn_1
 
- |> "ndwn" <| [
+ |> "ndw" <| [
 
     -- ;; nadowAn_1
     -- ndwAn   nadowAn Ndip    moist;damp;generous
 
-    noun     FaCCAL                    {- nadowAn -}        `gloss`  [ "moist", "damp", "generous" ] ]
+    noun     FaCLAn                    {- nadowAn -}        `gloss`  [ "moist", "damp", "generous" ] ]
 
  -- ;; nadoyAn_1
 
@@ -5639,7 +5587,7 @@ lexicon = listing "Lexicon properties"
     -- ;; nadoyAn_1
     -- ndyAn   nadoyAn Ndip    moist;damp;generous
 
-    noun     FaCCAL                    {- nadoyAn -}        `gloss`  [ "moist", "damp", "generous" ] ]
+    noun     KaRDAS                    {- nadoyAn -}        `gloss`  [ "moist", "damp", "generous" ] ]
 
  -- ;; munAdAp_1
 
@@ -5670,7 +5618,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; munad~aY_1
 
- |> "ndd" <| [
+ |> "nd" <| [
 
     -- ;; munad~aY_1
     -- mndY    munad~aY        N0      wet;damp     [[munad~aY/ADJ]]
@@ -5866,18 +5814,10 @@ lexicon = listing "Lexicon properties"
  |> "nrb^g" <| [
 
     -- ;; narobiyj_1
-
-    root     Identity                                        ]
-
- -- ;; narobiyj_1
-
- |> "narbiy^g" <| [
-
-    -- ;; narobiyj_1
     -- nrbyj   narobiyj        Ndu     narghile mouthpiece
     -- nrAbyj  narAbiyj        Ndip    narghile mouthpieces
 
-    noun     Identity                  {- narobiyj -}       `others` [ "narAbiy^g Ndip" ]
+    noun     KaRDIS                    {- narobiyj -}       `others` [ "narAbiy^g Ndip" ]
                                                             `gloss`  [ "narghile mouthpiece", "narghile mouthpieces" ] ]
 
  -- ;--- nrb$
@@ -5885,18 +5825,10 @@ lexicon = listing "Lexicon properties"
  |> "nrb^s" <| [
 
     -- ;; narobiy$_1
-
-    root     Identity                                        ]
-
- -- ;; narobiy$_1
-
- |> "narbiy^s" <| [
-
-    -- ;; narobiy$_1
     -- nrby$   narobiy$        Ndu     narghile mouthpiece
     -- nrAby$  narAbiy$        Ndip    narghile mouthpieces
 
-    noun     Identity                  {- narobiy$ -}       `others` [ "narAbiy^s Ndip" ]
+    noun     KaRDIS                    {- narobiy$ -}       `others` [ "narAbiy^s Ndip" ]
                                                             `gloss`  [ "narghile mouthpiece", "narghile mouthpieces" ] ]
 
  -- ;--- nrjs
@@ -5951,28 +5883,16 @@ lexicon = listing "Lexicon properties"
  |> "nr^gl" <| [
 
     -- ;; narojiyl_1
-
-    root     Identity                                        ]
-
- -- ;; narojiyl_1
-
- |> "nar^giyl" <| [
-
-    -- ;; narojiyl_1
     -- nrjyl   narojiyl        N       coconut
     -- nrjyl   narojiyl        Napdu   coconut
 
-    noun     Identity                  {- narojiyl -}       `gloss`  [ "coconut" ] ]
-
- -- ;; narojiylap_1
-
- |> "nar^giyl" <| [
+    noun     KaRDIS                    {- narojiyl -}       `gloss`  [ "coconut" ],
 
     -- ;; narojiylap_1
     -- nrjyl   narojiyl        NapAt   narghile (water pipe)
     -- nrAjyl  narAjiyl        Ndip    narghiles (water pipes)
 
-    noun     Identity |< aT            {- narojiylap -}     `others` [ "narA^giyl Ndip", "nar^giyl NapAt" ]
+    noun     KaRDIS |< aT              {- narojiylap -}     `others` [ "narA^giyl Ndip", "nar^giyl NapAt" ]
                                                             `gloss`  [ "narghile ( water pipe )", "narghiles ( water pipes )" ] ]
 
  -- ;--- nrd
@@ -5986,12 +5906,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; narodiyn_1
 
- |> "nardiyn" <| [
+ |> "nrdn" <| [
 
     -- ;; narodiyn_1
     -- nrdyn   narodiyn        N       nard;spikenard
 
-    noun     Identity                  {- narodiyn -}       `gloss`  [ "nard", "spikenard" ] ]
+    noun     KaRDIS                    {- narodiyn -}       `gloss`  [ "nard", "spikenard" ] ]
 
  -- ;--- nrfz
 
@@ -6001,25 +5921,25 @@ lexicon = listing "Lexicon properties"
     -- nrfz    narofaz PV      make nervous;make angry
     -- nrfz    narofiz IV_yu   make nervous;make angry
 
-    verb     FaCCaL                    {- narofaz -}        `others` [ "narfiz IV_yu" ]
+    verb     KaRDaS                    {- narofaz -}        `others` [ "narfiz IV_yu" ]
                                                             `gloss`  [ "make nervous", "make angry" ],
 
     -- ;; narofazap_1
     -- nrfz    narofaz Nap     making nervous or angry;nervousness;anger
 
-    noun     FaCCaL |< aT              {- narofazap -}      `others` [ "narfaz Nap" ]
+    noun     KaRDaS |< aT              {- narofazap -}      `others` [ "narfaz Nap" ]
                                                             `gloss`  [ "making nervous or angry", "nervousness", "anger" ],
 
     -- ;; narofazap_2
     -- nrfz    narofaz Nap     nervousness;anger
 
-    noun     FaCCaL |< aT              {- narofazap -}      `others` [ "narfaz Nap" ]
+    noun     KaRDaS |< aT              {- narofazap -}      `others` [ "narfaz Nap" ]
                                                             `gloss`  [ "nervousness", "anger" ],
 
     -- ;; munarofaz_1
     -- mnrfz   munarofaz       Nall    nervous;angry     [[munarofaz/ADJ]]
 
-    noun     MuFaCCaL                  {- munarofaz -}      `gloss`  [ "nervous", "angry" ] ]
+    noun     MuKaRDaS                  {- munarofaz -}      `gloss`  [ "nervous", "angry" ] ]
 
  -- ;--- nrmn
 
@@ -6029,7 +5949,7 @@ lexicon = listing "Lexicon properties"
     -- nrmyn   niromiyn        Nprop   Nermine;Nirmine
     -- nyrmyn  niyromiyn       Nprop   Nermine;Nirmine
 
-    noun     FiCCIL                    {- niromiyn -}       `others` [ "niyrmiyn Nprop" ]
+    noun     KiRDIS                    {- niromiyn -}       `others` [ "niyrmiyn Nprop" ]
                                                             `gloss`  [ "Nermine", "Nirmine" ] ]
 
  -- ;--- nrnj
@@ -6054,27 +5974,15 @@ lexicon = listing "Lexicon properties"
  |> "nrw^g" <| [
 
     -- ;; nurowiyj_1
-
-    root     Identity                                        ]
-
- -- ;; nurowiyj_1
-
- |> "nurwiy^g" <| [
-
-    -- ;; nurowiyj_1
     -- nrwyj   nurowiyj        N0      Norway
 
-    noun     Identity                  {- nurowiyj -}       `gloss`  [ "Norway" ] ]
-
- -- ;; nurowiyjiy~_1
-
- |> "nurwiy^g" <| [
+    noun     KuRDIS                    {- nurowiyj -}       `gloss`  [ "Norway" ],
 
     -- ;; nurowiyjiy~_1
     -- nrwyjy  nurowiyjiy~     Nall    Norwegian     [[nurowiyjiy~/NOUN]]
     -- nrwyjy  nurowiyjiy~     Nall    Norwegian     [[nurowiyjiy~/ADJ]]
 
-    noun     Identity |< Iy            {- nurowiyjiy~ -}    `gloss`  [ "Norwegian" ] ]
+    noun     KuRDIS |< Iy              {- nurowiyjiy~ -}    `gloss`  [ "Norwegian" ] ]
 
  -- ;; naruwj_1
 
@@ -6760,13 +6668,13 @@ lexicon = listing "Lexicon properties"
     -- nznz    nazonaz PV      rock;dandle
     -- nznz    nazoniz IV_yu   rock;dandle
 
-    verb     FaCCaL                    {- nazonaz -}        `others` [ "nazniz IV_yu" ]
+    verb     KaRDaS                    {- nazonaz -}        `others` [ "nazniz IV_yu" ]
                                                             `gloss`  [ "rock", "dandle" ],
 
     -- ;; nazonazap_1
     -- nznz    nazonaz Nap     rocking;dandling
 
-    noun     FaCCaL |< aT              {- nazonazap -}      `others` [ "naznaz Nap" ]
+    noun     KaRDaS |< aT              {- nazonazap -}      `others` [ "naznaz Nap" ]
                                                             `gloss`  [ "rocking", "dandling" ] ]
 
  -- ;--- nzh
@@ -6912,11 +6820,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- nazA-u -}         `imperf` [ FCuL ]
                                                             `others` [ "nz IV_0hwnyn", "nzuw IV_0hAnn", "naz PV_ttAw", "nazaw PV_Atn", "nazA PV_0" ]
-                                                            `gloss`  [ "leap", "escape" ] ]
-
- -- ;; tanaz~aY_1
-
- |> "nzz" <| [
+                                                            `gloss`  [ "leap", "escape" ],
 
     -- ;; tanaz~aY_1
     -- tnzY    tanaz~aY        PV_0    leap;tremble
@@ -7470,48 +7374,32 @@ lexicon = listing "Lexicon properties"
     -- ;; nisoriyn_1
     -- nsryn   nisoriyn        Nprop   Nisreen
 
-    noun     FiCCIL                    {- nisoriyn -}       `gloss`  [ "Nisreen" ],
+    noun     KiRDIS                    {- nisoriyn -}       `gloss`  [ "Nisreen" ],
 
     -- ;; nisoriyn_2
     -- nsryn   nisoriyn        N       jonquil
 
-    noun     FiCCIL                    {- nisoriyn -}       `gloss`  [ "jonquil" ] ]
+    noun     KiRDIS                    {- nisoriyn -}       `gloss`  [ "jonquil" ] ]
 
  -- ;--- nsTr
 
  |> "ns.tr" <| [
 
     -- ;; nusoTuwr_1
-
-    root     Identity                                        ]
-
- -- ;; nusoTuwr_1
-
- |> "nus.tuwr" <| [
-
-    -- ;; nusoTuwr_1
     -- nsTwr   nusoTuwr        Ndip    Nestor
 
-    noun     Identity                  {- nusoTuwr -}       `gloss`  [ "Nestor" ] ]
-
- -- ;; nusoTuwr_2
-
- |> "nus.tuwr" <| [
+    noun     KuRDUS                    {- nusoTuwr -}       `gloss`  [ "Nestor" ],
 
     -- ;; nusoTuwr_2
     -- nsTwr   nusoTuwr        Ndip    Nestorius
 
-    noun     Identity                  {- nusoTuwr -}       `gloss`  [ "Nestorius" ] ]
-
- -- ;; nusoTuwriy~_1
-
- |> "nus.tuwr" <| [
+    noun     KuRDUS                    {- nusoTuwr -}       `gloss`  [ "Nestorius" ],
 
     -- ;; nusoTuwriy~_1
     -- nsTwry  nusoTuwriy~     N-ap    Nestorian     [[nusoTuwriy~/ADJ]]
     -- nsATr   nasATir Nap     Nestorians
 
-    noun     Identity |< Iy            {- nusoTuwriy~ -}    `others` [ "nasA.tir Nap" ]
+    noun     KuRDUS |< Iy              {- nusoTuwriy~ -}    `others` [ "nasA.tir Nap" ]
                                                             `gloss`  [ "Nestorian", "Nestorians" ] ]
 
  -- ;--- nsg
@@ -7936,7 +7824,7 @@ lexicon = listing "Lexicon properties"
     -- nsnAs   nisonAs N       monkey
     -- nsAnys  nasAniys        Ndip    monkeys
 
-    noun     FaCCAL                    {- nasonAs -}        `others` [ "nisnAs N", "nasAniys Ndip" ]
+    noun     KaRDAS                    {- nasonAs -}        `others` [ "nisnAs N", "nasAniys Ndip" ]
                                                             `gloss`  [ "monkey", "monkeys" ] ]
 
  -- ;--- nsw
@@ -7956,31 +7844,31 @@ lexicon = listing "Lexicon properties"
     -- ;; nisowAn_1
     -- nswAn   nisowAn N       women
 
-    noun     FiCCAL                    {- nisowAn -}        `gloss`  [ "women" ],
+    noun     KiRDAS                    {- nisowAn -}        `gloss`  [ "women" ],
 
     -- ;; nisowAniy~_1
     -- nswAny  nisowAniy~      Nall    feminist     [[nisowAniy~/ADJ]]
 
-    noun     FiCCAL |< Iy              {- nisowAniy~ -}     `gloss`  [ "feminist" ] ]
-
- -- ;; nisA'_1
-
- |> "ns'" <| [
-
-    -- ;; nisA'_1
-
-    noun     FiCAL                     {- nisA' -}           ]
+    noun     KiRDAS |< Iy              {- nisowAniy~ -}     `gloss`  [ "feminist" ] ]
 
  -- ;; nisA'_1
 
  |> "ns" <| [
 
     -- ;; nisA'_1
+
+    noun     FiCA'                     {- nisA' -}           ]
+
+ -- ;; nisA'_1
+
+ |> "ns'" <| [
+
+    -- ;; nisA'_1
     -- nsA'    nisA'   N0_Nh   women
     -- nsA&    nisA&   Nh      women
     -- nsA}    nisA}   Nhy     women
 
-    noun     FiCA'                     {- nisA' -}          `gloss`  [ "women" ] ]
+    noun     FiCAL                     {- nisA' -}          `gloss`  [ "women" ] ]
 
  -- ;; nisowiy~_1
 
@@ -7993,31 +7881,31 @@ lexicon = listing "Lexicon properties"
 
  -- ;; nisA}iy~_1
 
- |> "ns'" <| [
+ |> "ns" <| [
 
     -- ;; nisA}iy~_1
 
-    noun     FiCAL |< Iy               {- nisA}iy~ -}        ]
+    noun     FiCA' |< Iy               {- nisA}iy~ -}        ]
 
  -- ;; nisA}iy~_1
 
- |> "ns" <| [
+ |> "ns'" <| [
 
     -- ;; nisA}iy~_1
     -- nsA}y   nisA}iy~        N-ap    women's;feminist;feminine     [[nisA}iy~/ADJ]]
 
-    noun     FiCA' |< Iy               {- nisA}iy~ -}       `gloss`  [ "women 's", "feminist", "feminine" ],
+    noun     FiCAL |< Iy               {- nisA}iy~ -}       `gloss`  [ "women 's", "feminist", "feminine" ],
 
     -- ;; nisA}iy~At_1
     -- nsA}y   nisA}iy~        NAt     women's affairs     [[nisA}iy~/NOUN]]
 
-    noun     FiCA' |< Iy |< At         {- nisA}iy~At -}     `others` [ "nisA'iyy NAt" ]
+    noun     FiCAL |< Iy |< At         {- nisA}iy~At -}     `others` [ "nisA'iyy NAt" ]
                                                             `gloss`  [ "women 's affairs" ],
 
     -- ;; nisA}iy~ap_1
     -- nsA}y   nisA}iy~        Nap     feminism;feminist movement     [[nisA}iy~/NOUN]]
 
-    noun     FiCA' |< Iy |< aT         {- nisA}iy~ap -}     `others` [ "nisA'iyy Nap" ]
+    noun     FiCAL |< Iy |< aT         {- nisA}iy~ap -}     `others` [ "nisA'iyy Nap" ]
                                                             `gloss`  [ "feminism", "feminist movement" ] ]
 
  -- ;--- nsy
@@ -8116,12 +8004,12 @@ lexicon = listing "Lexicon properties"
     -- ;; nasoyAn_1
     -- nsyAn   nasoyAn Ndip    forgetful;oblivious
 
-    noun     FaCCAL                    {- nasoyAn -}        `gloss`  [ "forgetful", "oblivious" ],
+    noun     KaRDAS                    {- nasoyAn -}        `gloss`  [ "forgetful", "oblivious" ],
 
     -- ;; nisoyAn_1
     -- nsyAn   nisoyAn N       forgetfulness;oblivion
 
-    noun     FiCCAL                    {- nisoyAn -}        `gloss`  [ "forgetfulness", "oblivion" ] ]
+    noun     KiRDAS                    {- nisoyAn -}        `gloss`  [ "forgetfulness", "oblivion" ] ]
 
  -- ;; manosiy~_1
 
@@ -9194,14 +9082,14 @@ lexicon = listing "Lexicon properties"
     -- n$n$    na$ona$ PV_intr be nimble;simmer
     -- n$n$    na$oni$ IV_intr_yu      be nimble;simmer
 
-    verb     FaCCaL                    {- na$ona$ -}        `others` [ "na^sni^s IV_intr_yu" ]
+    verb     KaRDaS                    {- na$ona$ -}        `others` [ "na^sni^s IV_intr_yu" ]
                                                             `gloss`  [ "be nimble", "simmer" ],
 
     -- ;; tana$ona$_1
     -- tn$n$   tana$ona$       PV_intr be nimble;revive
     -- tn$n$   tana$ona$       IV_intr be nimble;revive
 
-    verb     TaFaCCaL                  {- tana$ona$ -}      `gloss`  [ "be nimble", "revive" ] ]
+    verb     TaKaRDaS                  {- tana$ona$ -}      `gloss`  [ "be nimble", "revive" ] ]
 
  -- ;--- n$y
 
@@ -9220,7 +9108,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; na$~aY_1
 
- |> "n^s^s" <| [
+ |> "n^s" <| [
 
     -- ;; na$~aY_1
     -- n$Y     na$~aY  PV_0    starch
@@ -9233,19 +9121,7 @@ lexicon = listing "Lexicon properties"
     -- n$y     na$~ay  IV_Ann_Pass_yu  be starched
 
     verb     FaCCY                     {- na$~aY -}         `others` [ "na^s^siy IV_0hAnn_yu", "na^s^s IV_0hwnyn_yu PV_ttAw", "na^s^say PV_Atn IV_Ann_Pass_yu", "na^s^sA PV_h" ]
-                                                            `gloss`  [ "starch", "be starched" ] ]
-
- -- ;; {inota$aY_1
-
- |> "n^s" <| [
-
-    -- ;; {inota$aY_1
-
-    noun     IFtaCY                    {- {inota$aY -}       ]
-
- -- ;; {inota$aY_1
-
- |> "nt^s" <| [
+                                                            `gloss`  [ "starch", "be starched" ],
 
     -- ;; {inota$aY_1
     -- <nt$Y   {inota$aY       PV_0    become intoxicated;be starched
@@ -9260,12 +9136,8 @@ lexicon = listing "Lexicon properties"
     -- nt$     nota$   IV_0hwnyn       become intoxicated;be starched
     -- nt$Y    nota$aY IV_0_Pass_yu    become intoxicated;be starched
 
-    verb     InFaCY                    {- {inota$aY -}      `others` [ "inta^sA PV_h", "nta^s IV_0hwnyn", "inta^s PV_ttAw_intr", "nta^siy IV_0hAnn", "inta^say PV_Atn", "nta^sY IV_0_Pass_yu" ]
-                                                            `gloss`  [ "become intoxicated", "be starched" ] ]
-
- -- ;; {isotano$aY_1
-
- |> "n^s" <| [
+    verb     IFtaCY                    {- {inota$aY -}      `others` [ "inta^sA PV_h", "nta^s IV_0hwnyn", "inta^s PV_ttAw_intr", "nta^siy IV_0hAnn", "inta^say PV_Atn", "nta^sY IV_0_Pass_yu" ]
+                                                            `gloss`  [ "become intoxicated", "be starched" ],
 
     -- ;; {isotano$aY_1
     -- <stn$Y  {isotano$aY     PV_0    smell;inhale
@@ -9383,14 +9255,6 @@ lexicon = listing "Lexicon properties"
  |> "n^s'" <| [
 
     -- ;; {inoti$A'_1
-
-    noun     IFtiCAL                   {- {inoti$A' -}       ]
-
- -- ;; {inoti$A'_1
-
- |> "nt^s'" <| [
-
-    -- ;; {inoti$A'_1
     -- <nt$A'  {inoti$A'       N0_Nh   intoxication
     -- Ant$A'  {inoti$A'       N0_Nh   intoxication
     -- <nt$A&  {inoti$A&       Nh      intoxication
@@ -9400,7 +9264,7 @@ lexicon = listing "Lexicon properties"
     -- <nt$A'  {inoti$A'       NAt     intoxication
     -- Ant$A'  {inoti$A'       NAt     intoxication
 
-    noun     IFCiLAL                   {- {inoti$A' -}      `gloss`  [ "intoxication" ] ]
+    noun     IFtiCAL                   {- {inoti$A' -}      `gloss`  [ "intoxication" ] ]
 
  -- ;--- nS
 
@@ -10776,11 +10640,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- naDA-u -}         `imperf` [ FCuL ]
                                                             `others` [ "n.day IV_Ann_Pass_yu", "na.d PV_ttAw", "na.daw PV_Atn", "n.dY IV_0_Pass_yu", "na.dA PV_0h", "n.duw IV_0hAnn", "n.d IV_0hwnyn" ]
-                                                            `gloss`  [ "undress", "dwindle", "decline", "be undressed" ] ]
-
- -- ;; naD~aY_1
-
- |> "n.d.d" <| [
+                                                            `gloss`  [ "undress", "dwindle", "decline", "be undressed" ],
 
     -- ;; naD~aY_1
     -- nDY     naD~aY  PV_0    take off;strip
@@ -10793,11 +10653,7 @@ lexicon = listing "Lexicon properties"
     -- nDy     naD~ay  IV_Ann_Pass_yu  be stripped
 
     verb     FaCCY                     {- naD~aY -}         `others` [ "na.d.dA PV_h", "na.d.d IV_0hwnyn_yu PV_ttAw", "na.d.diy IV_0hAnn_yu", "na.d.day PV_Atn IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "take off", "strip", "be stripped" ] ]
-
- -- ;; >anoDaY_1
-
- |> "n.d" <| [
+                                                            `gloss`  [ "take off", "strip", "be stripped" ],
 
     -- ;; >anoDaY_1
     -- >nDY    >anoDaY PV_0    exhaust;make lean;wear out
@@ -11031,7 +10887,7 @@ lexicon = listing "Lexicon properties"
     -- ;; naToruwn_1
     -- nTrwn   naToruwn        N       natron
 
-    noun     FaCCUL                    {- naToruwn -}       `gloss`  [ "natron" ] ]
+    noun     KaRDUS                    {- naToruwn -}       `gloss`  [ "natron" ] ]
 
  -- ;--- nTs
 
@@ -11317,7 +11173,7 @@ lexicon = listing "Lexicon properties"
     -- nTnT    naTonaT PV      hop up and down;skip
     -- nTnT    naToniT IV_yu   hop up and down;skip
 
-    verb     FaCCaL                    {- naTonaT -}        `others` [ "na.tni.t IV_yu" ]
+    verb     KaRDaS                    {- naTonaT -}        `others` [ "na.tni.t IV_yu" ]
                                                             `gloss`  [ "hop up and down", "skip" ] ]
 
  -- ;--- nZr
@@ -12301,7 +12157,7 @@ lexicon = listing "Lexicon properties"
     -- nEmA&   naEomA& Nh      favor;kindness;grace
     -- nEmA}   naEomA} Nhy     favor;kindness;grace
 
-    noun     FaCCAL                    {- naEomA' -}        `gloss`  [ "favor", "kindness", "grace" ] ]
+    noun     KaRDAS                    {- naEomA' -}        `gloss`  [ "favor", "kindness", "grace" ] ]
 
  -- ;; nuEomAn_1
 
@@ -12310,12 +12166,12 @@ lexicon = listing "Lexicon properties"
     -- ;; nuEomAn_1
     -- nEmAn   nuEomAn Nprop   Nu'man
 
-    noun     FuCCAL                    {- nuEomAn -}        `gloss`  [ "Nu'man" ],
+    noun     KuRDAS                    {- nuEomAn -}        `gloss`  [ "Nu'man" ],
 
     -- ;; nuEomAn_2
     -- nEmAn   nuEomAn N       blood
 
-    noun     FuCCAL                    {- nuEomAn -}        `gloss`  [ "blood" ] ]
+    noun     KuRDAS                    {- nuEomAn -}        `gloss`  [ "blood" ] ]
 
  -- ;; naEAm_1
 
@@ -12371,25 +12227,17 @@ lexicon = listing "Lexicon properties"
     -- ;; minoEAm_1
     -- mnEAm   minoEAm Ndu     benefactor
 
-    noun     MiFCAL                    {- minoEAm -}        `gloss`  [ "benefactor" ] ]
-
- -- ;; manAEim_1
-
- |> "manA`im" <| [
+    noun     MiFCAL                    {- minoEAm -}        `gloss`  [ "benefactor" ],
 
     -- ;; manAEim_1
     -- mnAEm   manAEim Ndip    blessings;favors
 
-    noun     Identity                  {- manAEim -}        `gloss`  [ "blessings", "favors" ] ]
-
- -- ;; manAEim_2
-
- |> "manA`im" <| [
+    noun     MaFACiL                   {- manAEim -}        `gloss`  [ "blessings", "favors" ],
 
     -- ;; manAEim_2
     -- mnAEm   manAEim Ndip    amenities;comforts
 
-    noun     Identity                  {- manAEim -}        `gloss`  [ "amenities", "comforts" ],
+    noun     MaFACiL                   {- manAEim -}        `gloss`  [ "amenities", "comforts" ],
 
     -- ;; tanoEiym_1
     -- tnEym   tanoEiym        N/At    pampering;coddling;effemination
@@ -12433,17 +12281,17 @@ lexicon = listing "Lexicon properties"
     -- ;; naEonaE_1
     -- nEnE    naEonaE N       mint;peppermint
 
-    noun     FaCCaL                    {- naEonaE -}        `gloss`  [ "mint", "peppermint" ],
+    noun     KaRDaS                    {- naEonaE -}        `gloss`  [ "mint", "peppermint" ],
 
     -- ;; naEonAE_1
     -- nEnAE   naEonAE N       mint;peppermint
 
-    noun     FaCCAL                    {- naEonAE -}        `gloss`  [ "mint", "peppermint" ],
+    noun     KaRDAS                    {- naEonAE -}        `gloss`  [ "mint", "peppermint" ],
 
     -- ;; naEonAEiy~_1
     -- nEnAEy  naEonAEiy~      N-ap    peppermint     [[naEonAEiy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- naEonAEiy~ -}     `gloss`  [ "peppermint" ] ]
+    noun     KaRDAS |< Iy              {- naEonAEiy~ -}     `gloss`  [ "peppermint" ] ]
 
  -- ;--- nEy
 
@@ -12515,7 +12363,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; manoEaY_1
 
- |> "nmn`" <| [
+ |> "man`Y" <| [
 
     -- ;; manoEaY_1
     -- mnEY    manoEaY N0      obituary
@@ -12524,7 +12372,7 @@ lexicon = listing "Lexicon properties"
     -- mnAEy   manAEiy N0_Nh   obituaries
     -- mnAE    manAE   NK      obituaries
 
-    noun     FaCCY                     {- manoEaY -}        `others` [ "manA` NK", "man`A Napdu Nhy", "manA`iy N0_Nh" ]
+    noun     Identity                  {- manoEaY -}        `others` [ "manA` NK", "man`A Napdu Nhy", "manA`iy N0_Nh" ]
                                                             `gloss`  [ "obituary", "obituaries" ] ]
 
  -- ;--- ngb
@@ -12550,7 +12398,7 @@ lexicon = listing "Lexicon properties"
     -- ;; nagoba$ap_1
     -- ngb$    nagoba$ Nap     noise
 
-    noun     FaCCaL |< aT              {- nagoba$ap -}      `others` [ "na.gba^s Nap" ]
+    noun     KaRDaS |< aT              {- nagoba$ap -}      `others` [ "na.gba^s Nap" ]
                                                             `gloss`  [ "noise" ] ]
 
  -- ;--- ngz
@@ -13389,7 +13237,7 @@ lexicon = listing "Lexicon properties"
     -- ;; nawofarap_1
     -- nwfr    nawofar NapAt   fountain
 
-    noun     FaCCaL |< aT              {- nawofarap -}      `others` [ "nawfar NapAt" ]
+    noun     KaRDaS |< aT              {- nawofarap -}      `others` [ "nawfar NapAt" ]
                                                             `gloss`  [ "fountain" ] ]
 
  -- ;--- nfs
@@ -13484,7 +13332,7 @@ lexicon = listing "Lexicon properties"
     -- nfsA}   nafosA} Nhy     in childbed
     -- nwAfs   nawAfis Ndip    in childbed
 
-    noun     FaCCAL                    {- nafosA' -}        `others` [ "nawAfis Ndip" ]
+    noun     KaRDAS                    {- nafosA' -}        `others` [ "nawAfis Ndip" ]
                                                             `gloss`  [ "in childbed" ] ]
 
  -- ;; nafosAniy~_1
@@ -13502,12 +13350,12 @@ lexicon = listing "Lexicon properties"
     -- ;; nafosAniy~_1
     -- nfsAny  nafosAniy~      Nall    mental;psychological     [[nafosAniy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- nafosAniy~ -}     `gloss`  [ "mental", "psychological" ],
+    noun     KaRDAS |< Iy              {- nafosAniy~ -}     `gloss`  [ "mental", "psychological" ],
 
     -- ;; nafosAniy~ap_1
     -- nfsAny  nafosAniy~      Nap     psychology     [[nafosAniy~/NOUN]]
 
-    noun     FaCCAL |< Iy |< aT        {- nafosAniy~ap -}   `others` [ "nafsAniyy Nap" ]
+    noun     KaRDAS |< Iy |< aT        {- nafosAniy~ap -}   `others` [ "nafsAniyy Nap" ]
                                                             `gloss`  [ "psychology" ] ]
 
  -- ;; nifAs_1
@@ -14073,14 +13921,14 @@ lexicon = listing "Lexicon properties"
     -- nfnf    nafonaf N       atmosphere;steep hillside;cliff
     -- nfAnf   nafAnif Ndip    atmosphere;steep hillsides;cliffs
 
-    noun     FaCCaL                    {- nafonaf -}        `others` [ "nafAnif Ndip" ]
+    noun     KaRDaS                    {- nafonaf -}        `others` [ "nafAnif Ndip" ]
                                                             `gloss`  [ "atmosphere", "steep hillside", "cliff", "steep hillsides", "cliffs" ],
 
     -- ;; nafonuwf_1
     -- nfnwf   nafonuwf        N       dress
     -- nfAnyf  nafAniyf        Ndip    dresses
 
-    noun     FaCCUL                    {- nafonuwf -}       `others` [ "nafAniyf Ndip" ]
+    noun     KaRDUS                    {- nafonuwf -}       `others` [ "nafAniyf Ndip" ]
                                                             `gloss`  [ "dress", "dresses" ] ]
 
  -- ;--- nfw nfy
@@ -14518,16 +14366,12 @@ lexicon = listing "Lexicon properties"
     -- mnqb    minoqab Ndu     perforator;drill;punch
     -- mnqb    minoqab Napdu   perforator;drill;punch
 
-    noun     MiFCaL                    {- minoqab -}        `gloss`  [ "perforator", "drill", "punch" ] ]
-
- -- ;; manAqib_1
-
- |> "manAqib" <| [
+    noun     MiFCaL                    {- minoqab -}        `gloss`  [ "perforator", "drill", "punch" ],
 
     -- ;; manAqib_1
     -- mnAqb   manAqib Ndip    virtues;exploits
 
-    noun     Identity                  {- manAqib -}        `gloss`  [ "virtues", "exploits" ],
+    noun     MaFACiL                   {- manAqib -}        `gloss`  [ "virtues", "exploits" ],
 
     -- ;; tanoqiyb_1
     -- tnqyb   tanoqiyb        N/At    drilling;excavation;exploration
@@ -15134,7 +14978,7 @@ lexicon = listing "Lexicon properties"
     -- ;; nuqoSAn_1
     -- nqSAn   nuqoSAn N       omissions;imperfection
 
-    noun     FuCCAL                    {- nuqoSAn -}        `gloss`  [ "omissions", "imperfection" ] ]
+    noun     KuRDAS                    {- nuqoSAn -}        `gloss`  [ "omissions", "imperfection" ] ]
 
  -- ;; naqiySap_1
 
@@ -15180,16 +15024,12 @@ lexicon = listing "Lexicon properties"
     -- nqS     nuq~aS  N       incomplete;defective;lacking
 
     noun     FACiL                     {- nAqiS -}          `others` [ "nuqqa.s N" ]
-                                                            `gloss`  [ "incomplete", "defective", "lacking" ] ]
-
- -- ;; nawAqiS_1
-
- |> "nawAqi.s" <| [
+                                                            `gloss`  [ "incomplete", "defective", "lacking" ],
 
     -- ;; nawAqiS_1
     -- nwAqS   nawAqiS Ndip    shortcomings;defects;faults
 
-    noun     Identity                  {- nawAqiS -}        `gloss`  [ "shortcomings", "defects", "faults" ],
+    noun     FawACiL                   {- nawAqiS -}        `gloss`  [ "shortcomings", "defects", "faults" ],
 
     -- ;; manoquwS_1
     -- mnqwS   manoquwS        N-ap    reduced;deficient;insufficient     [[manoquwS/ADJ]]
@@ -15737,7 +15577,7 @@ lexicon = listing "Lexicon properties"
     -- nqnq    naqonaq PV      croak;cackle
     -- nqnq    naqoniq IV_yu   croak;cackle
 
-    verb     FaCCaL                    {- naqonaq -}        `others` [ "naqniq IV_yu" ]
+    verb     KaRDaS                    {- naqonaq -}        `others` [ "naqniq IV_yu" ]
                                                             `gloss`  [ "croak", "cackle" ] ]
 
  -- ;; naqAniq_1
@@ -15822,7 +15662,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; naq~aY_1
 
- |> "nqq" <| [
+ |> "nq" <| [
 
     -- ;; naq~aY_1
     -- nqY     naq~aY  PV_0    purify;clarify
@@ -15835,11 +15675,7 @@ lexicon = listing "Lexicon properties"
     -- nqy     naq~ay  IV_Ann_Pass_yu  be purified;be clarified
 
     verb     FaCCY                     {- naq~aY -}         `others` [ "naqqay PV_Atn IV_Ann_Pass_yu", "naqq IV_0hwnyn_yu PV_ttAw", "naqqiy IV_0hAnn_yu", "naqqA PV_h" ]
-                                                            `gloss`  [ "purify", "clarify", "be purified", "be clarified" ] ]
-
- -- ;; >anoqaY_1
-
- |> "nq" <| [
+                                                            `gloss`  [ "purify", "clarify", "be purified", "be clarified" ],
 
     -- ;; >anoqaY_1
     -- >nqY    >anoqaY PV_0    purify;cleanse
@@ -15973,14 +15809,6 @@ lexicon = listing "Lexicon properties"
     -- ;; {inotiqA'_1
 
     noun     InFiCA'                   {- {inotiqA' -}       ]
-
- -- ;; {inotiqA'_1
-
- |> "ntq'" <| [
-
-    -- ;; {inotiqA'_1
-
-    noun     IFCiLAL                   {- {inotiqA' -}       ]
 
  -- ;; {inotiqA'_1
 
@@ -16210,16 +16038,12 @@ lexicon = listing "Lexicon properties"
     -- ;; nikAH_1
     -- nkAH    nikAH   N       marriage;wedlock;copulation
 
-    noun     FiCAL                     {- nikAH -}          `gloss`  [ "marriage", "wedlock", "copulation" ] ]
-
- -- ;; manAkiH_1
-
- |> "manAki.h" <| [
+    noun     FiCAL                     {- nikAH -}          `gloss`  [ "marriage", "wedlock", "copulation" ],
 
     -- ;; manAkiH_1
     -- mnAkH   manAkiH Ndip    women
 
-    noun     Identity                  {- manAkiH -}        `gloss`  [ "women" ],
+    noun     MaFACiL                   {- manAkiH -}        `gloss`  [ "women" ],
 
     -- ;; nAkiH_1
     -- nAkH    nAkiH   Ndu     married man
@@ -16394,7 +16218,7 @@ lexicon = listing "Lexicon properties"
     -- ;; nukorAn_1
     -- nkrAn   nukorAn N       disavowal;denial
 
-    noun     FuCCAL                    {- nukorAn -}        `gloss`  [ "disavowal", "denial" ] ]
+    noun     KuRDAS                    {- nukorAn -}        `gloss`  [ "disavowal", "denial" ] ]
 
  -- ;; nakiyr_1
 
@@ -16941,7 +16765,7 @@ lexicon = listing "Lexicon properties"
     -- ;; namodAr_1
     -- nmdAr   namodAr Nprop   Namdar
 
-    noun     FaCCAL                    {- namodAr -}        `gloss`  [ "Namdar" ] ]
+    noun     KaRDAS                    {- namodAr -}        `gloss`  [ "Namdar" ] ]
 
  -- ;--- nmr
 
@@ -17159,7 +16983,7 @@ lexicon = listing "Lexicon properties"
     -- nmswy   namosawiy~      Nall    Austrian     [[namosawiy~/NOUN]]
     -- nmswy   namosawiy~      Nall    Austrian     [[namosawiy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- namosAwiy~ -}     `others` [ "namsawiyy Nall" ]
+    noun     KaRDAS |< Iy              {- namosAwiy~ -}     `others` [ "namsawiyy Nall" ]
                                                             `gloss`  [ "Austrian" ] ]
 
  -- ;--- nm$
@@ -17308,7 +17132,7 @@ lexicon = listing "Lexicon properties"
     -- nmnm    namonam PV      adorn;embellish
     -- nmnm    namonim IV_yu   adorn;embellish
 
-    verb     FaCCaL                    {- namonam -}        `others` [ "namnim IV_yu" ]
+    verb     KaRDaS                    {- namonam -}        `others` [ "namnim IV_yu" ]
                                                             `gloss`  [ "adorn", "embellish" ] ]
 
  -- ;; nimonim_1
@@ -17323,18 +17147,18 @@ lexicon = listing "Lexicon properties"
     -- ;; namonamap_1
     -- nmnm    namonam Nap     wren
 
-    noun     FaCCaL |< aT              {- namonamap -}      `others` [ "namnam Nap" ]
+    noun     KaRDaS |< aT              {- namonamap -}      `others` [ "namnam Nap" ]
                                                             `gloss`  [ "wren" ],
 
     -- ;; munamonam_1
     -- mnmnm   munamonam       N-ap    adorned;decorated;miniature     [[munamonam/ADJ]]
 
-    noun     MuFaCCaL                  {- munamonam -}      `gloss`  [ "adorned", "decorated", "miniature" ],
+    noun     MuKaRDaS                  {- munamonam -}      `gloss`  [ "adorned", "decorated", "miniature" ],
 
     -- ;; munamonamap_1
     -- mnmnm   munamonam       NapAt   miniature
 
-    noun     MuFaCCaL |< aT            {- munamonamap -}    `others` [ "munamnam NapAt" ]
+    noun     MuKaRDaS |< aT            {- munamonamap -}    `others` [ "munamnam NapAt" ]
                                                             `gloss`  [ "miniature" ] ]
 
  -- ;--- nmw
@@ -17421,11 +17245,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- namaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "namY PV_0", "nm IV_0hwnyn", "namay PV_Atn", "nmiy IV_0hAnn", "nam PV_ttAw", "namA PV_h" ]
-                                                            `gloss`  [ "grow", "make progress" ] ]
-
- -- ;; nam~aY_1
-
- |> "nammY" <| [
+                                                            `gloss`  [ "grow", "make progress" ],
 
     -- ;; nam~aY_1
     -- nmY     nam~aY  PV_0    make grow;advance
@@ -17437,7 +17257,7 @@ lexicon = listing "Lexicon properties"
     -- nmY     nam~aY  IV_0_Pass_yu    be grown;be developed;be advanced
     -- nmy     nam~ay  IV_Ann_Pass_yu  be grown;be developed;be advanced
 
-    verb     Identity                  {- nam~aY -}         `others` [ "nammA PV_h", "namm IV_0hwnyn_yu PV_ttAw", "nammiy IV_0hAnn_yu", "nammay PV_Atn IV_Ann_Pass_yu" ]
+    verb     FaCCY                     {- nam~aY -}         `others` [ "nammA PV_h", "namm IV_0hwnyn_yu PV_ttAw", "nammiy IV_0hAnn_yu", "nammay PV_Atn IV_Ann_Pass_yu" ]
                                                             `gloss`  [ "make grow", "advance", "be grown", "be developed", "be advanced" ],
 
     -- ;; >anomaY_1
@@ -18330,7 +18150,7 @@ lexicon = listing "Lexicon properties"
     -- nhnh    nahonah PV      restrain;prevent;sob
     -- nhnh    nahonih IV_yu   restrain;prevent;sob
 
-    verb     FaCCaL                    {- nahonah -}        `others` [ "nahnih IV_yu" ]
+    verb     KaRDaS                    {- nahonah -}        `others` [ "nahnih IV_yu" ]
                                                             `gloss`  [ "restrain", "prevent", "sob" ] ]
 
  -- ;--- nhw nhy
@@ -19437,12 +19257,12 @@ lexicon = listing "Lexicon properties"
     -- ;; nuwrAniy~_1
     -- nwrAny  nuwrAniy~       N-ap    luminous     [[nuwrAniy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- nuwrAniy~ -}      `gloss`  [ "luminous" ],
+    noun     KuRDAS |< Iy              {- nuwrAniy~ -}      `gloss`  [ "luminous" ],
 
     -- ;; nuwrAniy~ap_1
     -- nwrAny  nuwrAniy~       Nap     luminosity;brilliance     [[nuwrAniy~/NOUN]]
 
-    noun     FuCCAL |< Iy |< aT        {- nuwrAniy~ap -}    `others` [ "nuwrAniyy Nap" ]
+    noun     KuRDAS |< Iy |< aT        {- nuwrAniy~ap -}    `others` [ "nuwrAniyy Nap" ]
                                                             `gloss`  [ "luminosity", "brilliance" ] ]
 
  -- ;; naworap_1
@@ -19608,14 +19428,14 @@ lexicon = listing "Lexicon properties"
 
     -- ;; nuw~Ar_1
 
-    noun     FUCAL                     {- nuw~Ar -}         ,
+    noun     FuCCAL                    {- nuw~Ar -}         ,
 
     -- ;; nuw~Ar_1
     -- nwAr    nuw~Ar  N       blossoms
     -- nwAr    nuw~Ar  Napdu   blossom
     -- nwAwyr  nawAwiyr        Ndip    blossoms
 
-    noun     FuCCAL                    {- nuw~Ar -}         `others` [ "nawAwiyr Ndip" ]
+    noun     FUCAL                     {- nuw~Ar -}         `others` [ "nawAwiyr Ndip" ]
                                                             `gloss`  [ "blossoms", "blossom" ] ]
 
  -- ;--- nwr(2)
@@ -19672,7 +19492,7 @@ lexicon = listing "Lexicon properties"
     -- nwrj    naworaj Ndu     threshing machine
     -- nwArj   nawArij Ndip    threshing machines
 
-    noun     FaCCaL                    {- naworaj -}        `others` [ "nawAri^g Ndip" ]
+    noun     KaRDaS                    {- naworaj -}        `others` [ "nawAri^g Ndip" ]
                                                             `gloss`  [ "threshing machine", "threshing machines" ] ]
 
  -- ;--- nwrz
@@ -19682,7 +19502,7 @@ lexicon = listing "Lexicon properties"
     -- ;; naworuwz_1
     -- nwrwz   naworuwz        N0      Nawrouz
 
-    noun     FaCCUL                    {- naworuwz -}       `gloss`  [ "Nawrouz" ] ]
+    noun     KaRDUS                    {- naworuwz -}       `gloss`  [ "Nawrouz" ] ]
 
  -- ;--- nwrs
 
@@ -19709,7 +19529,7 @@ lexicon = listing "Lexicon properties"
     -- nwrS    naworaS Ndu     sea gull
     -- nwArS   nawAriS Ndip    sea gulls
 
-    noun     FaCCaL                    {- naworaS -}        `others` [ "nawAri.s Ndip" ]
+    noun     KaRDaS                    {- naworaS -}        `others` [ "nawAri.s Ndip" ]
                                                             `gloss`  [ "sea gull", "sea gulls" ] ]
 
  -- ;--- nwrf
@@ -19847,7 +19667,7 @@ lexicon = listing "Lexicon properties"
     -- nwsr    nawosar PV      form a fistula
     -- nwsr    nawosir IV_yu   form a fistula
 
-    verb     FaCCaL                    {- nawosar -}        `others` [ "nawsir IV_yu" ]
+    verb     KaRDaS                    {- nawosar -}        `others` [ "nawsir IV_yu" ]
                                                             `gloss`  [ "form a fistula" ] ]
 
  -- ;--- nw$
@@ -19871,25 +19691,17 @@ lexicon = listing "Lexicon properties"
     -- mnAw$   munAwa$ NapAt   provocation;skirmish
 
     noun     MuFACaL |< aT             {- munAwa$ap -}      `others` [ "munAwa^s NapAt" ]
-                                                            `gloss`  [ "provocation", "skirmish" ] ]
-
- -- ;; manAwiy$_1
-
- |> "manAwiy^s" <| [
+                                                            `gloss`  [ "provocation", "skirmish" ],
 
     -- ;; manAwiy$_1
     -- mnAwy$  manAwiy$        Ndip    bluish purple
 
-    noun     Identity                  {- manAwiy$ -}       `gloss`  [ "bluish purple" ] ]
-
- -- ;; manAwiy$iy~_1
-
- |> "manAwiy^s" <| [
+    noun     MaFACIL                   {- manAwiy$ -}       `gloss`  [ "bluish purple" ],
 
     -- ;; manAwiy$iy~_1
     -- mnAwy$y manAwiy$iy~     N-ap    bluish purple     [[manAwiy$iy~/ADJ]]
 
-    noun     Identity |< Iy            {- manAwiy$iy~ -}    `gloss`  [ "bluish purple" ] ]
+    noun     MaFACIL |< Iy             {- manAwiy$iy~ -}    `gloss`  [ "bluish purple" ] ]
 
  -- ;--- nwS
 
@@ -20309,12 +20121,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; nuwfiyl_1
 
- |> "nuwfiyl" <| [
+ |> "nwfl" <| [
 
     -- ;; nuwfiyl_1
     -- nwfyl   nuwfiyl Nprop   Novell
 
-    noun     Identity                  {- nuwfiyl -}        `gloss`  [ "Novell" ] ]
+    noun     KuRDIS                    {- nuwfiyl -}        `gloss`  [ "Novell" ] ]
 
  -- ;--- nwq nyq
 
@@ -20496,7 +20308,7 @@ lexicon = listing "Lexicon properties"
     -- nAwlwn  nAwuluwn        N0      freight;freightage
     -- nwAlyn  nawAliyn        Ndip    freight;freightage
 
-    noun     FaCCUL                    {- nawoluwn -}       `others` [ "nAwuluwn N0", "nawAliyn Ndip" ]
+    noun     KaRDUS                    {- nawoluwn -}       `others` [ "nAwuluwn N0", "nawAliyn Ndip" ]
                                                             `gloss`  [ "freight", "freightage" ] ]
 
  -- ;--- nwm
@@ -20713,13 +20525,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; nuwmiydiy~_1
 
- |> "nuwmiyd" <| [
+ |> "nwmd" <| [
 
     -- ;; nuwmiydiy~_1
     -- nwmydy  nuwmiydiy~      Nall    Numidian     [[nuwmiydiy~/NOUN]]
     -- nwmydy  nuwmiydiy~      Nall    Numidian     [[nuwmiydiy~/ADJ]]
 
-    noun     Identity |< Iy            {- nuwmiydiy~ -}     `gloss`  [ "Numidian" ] ]
+    noun     KuRDIS |< Iy              {- nuwmiydiy~ -}     `gloss`  [ "Numidian" ] ]
 
  -- ;--- nwn
 
@@ -21049,7 +20861,7 @@ lexicon = listing "Lexicon properties"
     -- ;; nayojar_1
     -- nyjr    nayojar N0      Niger
 
-    noun     FaCCaL                    {- nayojar -}        `gloss`  [ "Niger" ] ]
+    noun     KaRDaS                    {- nayojar -}        `gloss`  [ "Niger" ] ]
 
  -- ;; nayojiyriyA_1
 
@@ -21058,17 +20870,13 @@ lexicon = listing "Lexicon properties"
     -- ;; nayojiyriyA_1
     -- nyjyryA nayojiyriyA     N0      Nigeria
 
-    noun     Identity                  {- nayojiyriyA -}    `gloss`  [ "Nigeria" ] ]
-
- -- ;; nayojiyriy~_1
-
- |> "nay^giyr" <| [
+    noun     Identity                  {- nayojiyriyA -}    `gloss`  [ "Nigeria" ],
 
     -- ;; nayojiyriy~_1
     -- nyjyry  nayojiyriy~     Nall    Nigerian     [[nayojiyriy~/NOUN]]
     -- nyjyry  nayojiyriy~     Nall    Nigerian     [[nayojiyriy~/ADJ]]
 
-    noun     Identity |< Iy            {- nayojiyriy~ -}    `gloss`  [ "Nigerian" ] ]
+    noun     KaRDIS |< Iy              {- nayojiyriy~ -}    `gloss`  [ "Nigerian" ] ]
 
  -- ;--- nyr
 
@@ -21113,7 +20921,7 @@ lexicon = listing "Lexicon properties"
     -- nyzk    nayozak Ndu     meteor
     -- nyAzk   nayAzik Ndip    meteors
 
-    noun     FaCCaL                    {- nayozak -}        `others` [ "nayAzik Ndip" ]
+    noun     KaRDaS                    {- nayozak -}        `others` [ "nayAzik Ndip" ]
                                                             `gloss`  [ "meteor", "meteors" ] ]
 
  -- ;--- nysA
@@ -21130,7 +20938,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; niysAn_1
 
-    noun     FiCCAL                    {- niysAn -}          ]
+    noun     KiRDAS                    {- niysAn -}          ]
 
  -- ;; niysAn_1
 
@@ -21520,7 +21328,7 @@ lexicon = listing "Lexicon properties"
     -- ;; niymiyv_1
     -- nymyv   niymiyv Nprop   Nemeth
 
-    noun     FiCCIL                    {- niymiyv -}        `gloss`  [ "Nemeth" ] ]
+    noun     KiRDIS                    {- niymiyv -}        `gloss`  [ "Nemeth" ] ]
 
  -- ;--- nyny
 
@@ -21710,7 +21518,7 @@ lexicon = listing "Lexicon properties"
     -- ;; niywiyt_1
     -- nywyt   niywiyt Nprop   Niweat
 
-    noun     FiCCIL                    {- niywiyt -}        `gloss`  [ "Niweat" ] ]
+    noun     KiRDIS                    {- niywiyt -}        `gloss`  [ "Niweat" ] ]
 
  -- ;; niyuwyuwrok_1
 

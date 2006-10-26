@@ -457,20 +457,20 @@ lexicon = listing "Lexicon properties"
 
  -- ;; tiy_1
 
- |> "-ty" <| [
+ |> "t" <| [
 
     -- ;; tiy_1
 
-    noun     CiL                       {- tiy -}             ]
+    noun     CI                        {- tiy -}             ]
 
  -- ;; tiy_1
 
- |> "t" <| [
+ |> "-ty" <| [
 
     -- ;; tiy_1
     -- ty      tiy     FW      T.     [[tiy/ABBREV]]
 
-    noun     CI                        {- tiy -}            `gloss`  [ "T ." ] ]
+    noun     CiL                       {- tiy -}            `gloss`  [ "T ." ] ]
 
  -- ;; jiy_1
 

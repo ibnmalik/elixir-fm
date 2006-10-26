@@ -111,10 +111,18 @@ lexicon = listing "Lexicon properties"
  |> "_t'l" <| [
 
     -- ;; tava>olal_1
+
+    root     Identity                                        ]
+
+ -- ;; tava>olal_1
+
+ |> "ta_ta'lal" <| [
+
+    -- ;; tava>olal_1
     -- tv>ll   tava>olal       PV_intr be covered with warts
     -- tv>ll   tava>olal       IV_intr be covered with warts
 
-    verb     TaFaCCaL                  {- tava>olal -}      `gloss`  [ "be covered with warts" ] ]
+    verb     Identity                  {- tava>olal -}      `gloss`  [ "be covered with warts" ] ]
 
  -- ;; vu&oluwl_1
 
@@ -498,7 +506,7 @@ lexicon = listing "Lexicon properties"
     -- vdyA&   vadoyA& Nh      buxom
     -- vdyA}   vadoyA} Nhy     buxom
 
-    noun     FaCCAL                    {- vadoyA' -}        `gloss`  [ "buxom" ] ]
+    noun     KaRDAS                    {- vadoyA' -}        `gloss`  [ "buxom" ] ]
 
  -- ;; vadoyiy~_1
 
@@ -563,19 +571,19 @@ lexicon = listing "Lexicon properties"
     -- vrvr    varovar PV      chatter;prattle
     -- vrvr    varovir IV_yu   chatter;prattle
 
-    verb     FaCCaL                    {- varovar -}        `others` [ "_tar_tir IV_yu" ]
+    verb     KaRDaS                    {- varovar -}        `others` [ "_tar_tir IV_yu" ]
                                                             `gloss`  [ "chatter", "prattle" ],
 
     -- ;; varovarap_1
     -- vrvr    varovar NapAt   chatter;prattle
 
-    noun     FaCCaL |< aT              {- varovarap -}      `others` [ "_tar_tar NapAt" ]
+    noun     KaRDaS |< aT              {- varovarap -}      `others` [ "_tar_tar NapAt" ]
                                                             `gloss`  [ "chatter", "prattle" ],
 
     -- ;; varovAr_1
     -- vrvAr   varovAr Nall    chatterbox;garrulous
 
-    noun     FaCCAL                    {- varovAr -}        `gloss`  [ "chatterbox", "garrulous" ] ]
+    noun     KaRDAS                    {- varovAr -}        `gloss`  [ "chatterbox", "garrulous" ] ]
 
  -- ;; varad-u_1
 
@@ -634,7 +642,7 @@ lexicon = listing "Lexicon properties"
     -- ;; varowat_1
     -- vrwt    varowat Nprop   Tharwat;Sarwat
 
-    noun     FaCCaL                    {- varowat -}        `gloss`  [ "Tharwat", "Sarwat" ] ]
+    noun     KaRDaS                    {- varowat -}        `gloss`  [ "Tharwat", "Sarwat" ] ]
 
  -- ;; varowap_1
 
@@ -794,13 +802,13 @@ lexicon = listing "Lexicon properties"
     -- vEbAn   vuEobAn Ndu     snake
     -- vEAbyn  vaEAbiyn        Ndip    snakes
 
-    noun     FuCCAL                    {- vuEobAn -}        `others` [ "_ta`Abiyn Ndip" ]
+    noun     KuRDAS                    {- vuEobAn -}        `others` [ "_ta`Abiyn Ndip" ]
                                                             `gloss`  [ "snake", "snakes" ],
 
     -- ;; vuEobAniy~_1
     -- vEbAny  vuEobAniy~      Nall    serpentine;snakelike     [[vuEobAniy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- vuEobAniy~ -}     `gloss`  [ "serpentine", "snakelike" ] ]
+    noun     KuRDAS |< Iy              {- vuEobAniy~ -}     `gloss`  [ "serpentine", "snakelike" ] ]
 
  -- ;--- vEl
 
@@ -837,13 +845,13 @@ lexicon = listing "Lexicon properties"
     -- vElb    vaEolab N/ap    fox
     -- vEAlb   vaEAlib Ndip    foxes
 
-    noun     FaCCaL                    {- vaEolab -}        `others` [ "_ta`Alib Ndip" ]
+    noun     KaRDaS                    {- vaEolab -}        `others` [ "_ta`Alib Ndip" ]
                                                             `gloss`  [ "fox", "foxes" ],
 
     -- ;; vaEolabiy~_1
     -- vElby   vaEolabiy~      Nall    fox-like     [[vaEolabiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- vaEolabiy~ -}     `gloss`  [ "fox-like" ] ]
+    noun     KaRDaS |< Iy              {- vaEolabiy~ -}     `gloss`  [ "fox-like" ] ]
 
  -- ;; vaEAlabiy~_1
 
@@ -862,7 +870,7 @@ lexicon = listing "Lexicon properties"
     -- vgvg    vagovag PV      stammer;stutter
     -- vgvg    vagovig IV_yu   stammer;stutter
 
-    verb     FaCCaL                    {- vagovag -}        `others` [ "_ta.g_ti.g IV_yu" ]
+    verb     KaRDaS                    {- vagovag -}        `others` [ "_ta.g_ti.g IV_yu" ]
                                                             `gloss`  [ "stammer", "stutter" ] ]
 
  -- ;; vagor_1
@@ -1443,22 +1451,18 @@ lexicon = listing "Lexicon properties"
 
  -- ;; valAviynAt_1
 
- |> "_talA_tiyn" <| [
+ |> "_tl_tn" <| [
 
     -- ;; valAviynAt_1
     -- vlAvyn  valAviyn        NAt     thirties
 
-    noun     Identity |< At            {- valAviynAt -}     `others` [ "_talA_tiyn NAt" ]
-                                                            `gloss`  [ "thirties" ] ]
-
- -- ;; valAviyniy~_1
-
- |> "_talA_tiyn" <| [
+    noun     KaRADIS |< At             {- valAviynAt -}     `others` [ "_talA_tiyn NAt" ]
+                                                            `gloss`  [ "thirties" ],
 
     -- ;; valAviyniy~_1
     -- vlAvyny valAviyniy~     Nall    thirties     [[valAviyniy~/NOUN]]
 
-    noun     Identity |< Iy            {- valAviyniy~ -}    `gloss`  [ "thirties" ] ]
+    noun     KaRADIS |< Iy             {- valAviyniy~ -}    `gloss`  [ "thirties" ] ]
 
  -- ;; valAvmA}ap_1
 
@@ -1511,7 +1515,11 @@ lexicon = listing "Lexicon properties"
     -- ;; vAluwv_1
     -- vAlwv   vAluwv  N/ap    triad;trinity
 
-    noun     Identity                  {- vAluwv -}         `gloss`  [ "triad", "trinity" ],
+    noun     Identity                  {- vAluwv -}         `gloss`  [ "triad", "trinity" ] ]
+
+ -- ;; tavoliyv_1
+
+ |> "_tl_t" <| [
 
     -- ;; tavoliyv_1
     -- tvlyv   tavoliyv        NduAt   trinity
@@ -2299,11 +2307,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- vanaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "_tan PV_ttAw", "_tnY IV_0", "_tn IV_0hwnyn", "_tanA PV_h", "_tanY PV_0", "_tniy IV_0hAnn", "_tanay PV_Atn" ]
-                                                            `gloss`  [ "fold", "double" ] ]
-
- -- ;; van~aY_1
-
- |> "_tnn" <| [
+                                                            `gloss`  [ "fold", "double" ],
 
     -- ;; van~aY_1
     -- vnY     van~aY  PV_0    fold;double
@@ -2316,11 +2320,7 @@ lexicon = listing "Lexicon properties"
     -- vny     van~ay  IV_Ann_Pass_yu  be folded;be doubled
 
     verb     FaCCY                     {- van~aY -}         `others` [ "_tannA PV_h", "_tannay PV_Atn IV_Ann_Pass_yu", "_tann IV_0hwnyn_yu PV_ttAw", "_tanniy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "fold", "double", "be folded", "be doubled" ] ]
-
- -- ;; >avonaY_1
-
- |> "_tn" <| [
+                                                            `gloss`  [ "fold", "double", "be folded", "be doubled" ],
 
     -- ;; >avonaY_1
     -- >vnY    >avonaY PV_0    praise;commend
@@ -2337,11 +2337,7 @@ lexicon = listing "Lexicon properties"
     -- vny     vonay   IV_Ann_Pass_yu  be praised;be commended
 
     verb     HaFCY                     {- >avonaY -}        `others` [ "'a_tnay PV_Atn", "_tn IV_0hwnyn_yu", "_tnay IV_Ann_Pass_yu", "'a_tn PV_ttAw", "_tniy IV_0hAnn_yu", "'a_tnA PV_h", "_tnY IV_0_Pass_yu" ]
-                                                            `gloss`  [ "praise", "commend", "be praised", "be commended" ] ]
-
- -- ;; tavan~aY_1
-
- |> "_tnn" <| [
+                                                            `gloss`  [ "praise", "commend", "be praised", "be commended" ],
 
     -- ;; tavan~aY_1
     -- tvnY    tavan~aY        PV_0    be doubled;be repeated
@@ -2354,11 +2350,7 @@ lexicon = listing "Lexicon properties"
     -- tvn     tavan~  IV_0hwnyn       be doubled;be repeated
 
     verb     TaFaCCY                   {- tavan~aY -}       `others` [ "ta_tann PV_ttAw_intr IV_0hwnyn", "ta_tannay PV_Atn IV_Ann", "ta_tannA PV_h IV_h" ]
-                                                            `gloss`  [ "be doubled", "be repeated" ] ]
-
- -- ;; {inovanaY_1
-
- |> "_tn" <| [
+                                                            `gloss`  [ "be doubled", "be repeated" ],
 
     -- ;; {inovanaY_1
     -- <nvnY   {inovanaY       PV_0    bend over;fold
@@ -2610,7 +2602,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muvan~aY_1
 
- |> "_tnn" <| [
+ |> "_tn" <| [
 
     -- ;; muvan~aY_1
     -- mvnY    muvan~aY        N0      doubled;twofold
@@ -2621,11 +2613,7 @@ lexicon = listing "Lexicon properties"
     -- mvnA    muvan~A Napdu   doubled;twofold
 
     noun     MuFaCCaNY                 {- muvan~aY -}       `others` [ "mu_tannA Napdu Nhy", "mu_tann Nuwn_Niyn", "mu_tannay NAt NAn_Nayn" ]
-                                                            `gloss`  [ "doubled", "twofold" ] ]
-
- -- ;; musotavonaY_1
-
- |> "_tn" <| [
+                                                            `gloss`  [ "doubled", "twofold" ],
 
     -- ;; musotavonaY_1
     -- mstvnY  musotavonaY     N0      excepted;excluded
@@ -2862,7 +2850,7 @@ lexicon = listing "Lexicon properties"
     -- ;; vaworawiy~_1
     -- vwrwy   vaworawiy~      Nall    revolutionary     [[vaworawiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- vaworawiy~ -}     `gloss`  [ "revolutionary" ] ]
+    noun     KaRDaS |< Iy              {- vaworawiy~ -}     `gloss`  [ "revolutionary" ] ]
 
  -- ;; vawarAn_1
 
@@ -3068,11 +3056,7 @@ lexicon = listing "Lexicon properties"
 
     verb     Identity                  {- vuwiy-a -}        `imperf` [ FCaL ]
                                                             `others` [ "_tuwiy PV_no-w_Pass", "_twY IV_0_Pass_yu" ]
-                                                            `gloss`  [ "be buried" ] ]
-
- -- ;; vaw~aY_1
-
- |> "_tww" <| [
+                                                            `gloss`  [ "be buried" ],
 
     -- ;; vaw~aY_1
     -- vwY     vaw~aY  PV_0    give lodging;provide housing
@@ -3085,11 +3069,7 @@ lexicon = listing "Lexicon properties"
     -- vwy     vaw~ay  IV_Ann_Pass_yu  be given lodging;be housed
 
     verb     FaCCY                     {- vaw~aY -}         `others` [ "_tawway PV_Atn IV_Ann_Pass_yu", "_tawwA PV_h", "_tawwiy IV_0hAnn_yu", "_taww IV_0hwnyn_yu PV_ttAw" ]
-                                                            `gloss`  [ "give lodging", "provide housing", "be given lodging", "be housed" ] ]
-
- -- ;; >avowaY_1
-
- |> "_tw" <| [
+                                                            `gloss`  [ "give lodging", "provide housing", "be given lodging", "be housed" ],
 
     -- ;; >avowaY_1
     -- >vwY    >avowaY PV_0    reside;lodge
@@ -3163,7 +3143,7 @@ lexicon = listing "Lexicon properties"
     -- vytl    vayotal Ndu     goat
     -- vyAtl   vayAtil Ndip    goats
 
-    noun     FaCCaL                    {- vayotal -}        `others` [ "_tayAtil Ndip" ]
+    noun     KaRDaS                    {- vayotal -}        `others` [ "_tayAtil Ndip" ]
                                                             `gloss`  [ "goat", "goats" ] ]
 
  -- ;--- vyw

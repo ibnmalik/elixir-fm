@@ -295,7 +295,7 @@ lexicon = listing "Lexicon properties"
     -- ;; HaboHab_1
     -- HbHb    HaboHab N       watermelon
 
-    noun     FaCCaL                    {- HaboHab -}        `gloss`  [ "watermelon" ] ]
+    noun     KaRDaS                    {- HaboHab -}        `gloss`  [ "watermelon" ] ]
 
  -- ;; HubAHib_1
 
@@ -1165,7 +1165,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; Hat~aY_1
 
- |> ".htt" <| [
+ |> ".ht" <| [
 
     -- ;; Hat~aY_1
     -- HtY     Hat~aY  FW-Wa   until;up to                     [[Hat~aY/PREP]]
@@ -2410,7 +2410,7 @@ lexicon = listing "Lexicon properties"
     -- ;; HidovAn_1
     -- HdvAn   HidovAn N       misfortunes;adversities
 
-    noun     FiCCAL                    {- HidovAn -}        `gloss`  [ "misfortunes", "adversities" ] ]
+    noun     KiRDAS                    {- HidovAn -}        `gloss`  [ "misfortunes", "adversities" ] ]
 
  -- ;; >uHoduwvap_1
 
@@ -2771,11 +2771,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- HadA-u -}         `imperf` [ FCuL ]
                                                             `others` [ ".hday IV_Ann_Pass_yu", ".hduw IV_0hAnn", ".hdY IV_0_Pass_yu", ".hd IV_0hwnyn", ".hadaw PV_Atn", ".hadA PV_0h", ".had PV_ttAw" ]
-                                                            `gloss`  [ "spur on", "instigate", "be spurred on", "be instigated" ] ]
-
- -- ;; taHad~aY_1
-
- |> ".hdd" <| [
+                                                            `gloss`  [ "spur on", "instigate", "be spurred on", "be instigated" ],
 
     -- ;; taHad~aY_1
     -- tHdY    taHad~aY        PV_0    provoke;challenge;incite
@@ -3010,7 +3006,7 @@ lexicon = listing "Lexicon properties"
     -- H*Afyr  Ha*Afiyr        Ndip    sides
     -- H*Afyr  Ha*Afiyr        Ndip    entirety;entirely (all of __)
 
-    noun     FiCCAL                    {- Hi*fAr -}         `others` [ ".ha_dAfiyr Ndip", ".hu_dfuwr Ndu" ]
+    noun     KiRDAS                    {- Hi*fAr -}         `others` [ ".ha_dAfiyr Ndip", ".hu_dfuwr Ndu" ]
                                                             `gloss`  [ "side", "sides", "entirety", "entirely ( all of __ )" ] ]
 
  -- ;--- H*q
@@ -3073,18 +3069,18 @@ lexicon = listing "Lexicon properties"
     -- tH*lq   taHa*olaq       PV      feign erudition;be pedantic
     -- tH*lq   taHa*olaq       IV      feign erudition;be pedantic
 
-    verb     TaFaCCaL                  {- taHa*olaq -}      `gloss`  [ "feign erudition", "be pedantic" ],
+    verb     TaKaRDaS                  {- taHa*olaq -}      `gloss`  [ "feign erudition", "be pedantic" ],
 
     -- ;; Ha*olaqap_1
     -- H*lq    Ha*olaq Nap     pedantry
 
-    noun     FaCCaL |< aT              {- Ha*olaqap -}      `others` [ ".ha_dlaq Nap" ]
+    noun     KaRDaS |< aT              {- Ha*olaqap -}      `others` [ ".ha_dlaq Nap" ]
                                                             `gloss`  [ "pedantry" ],
 
     -- ;; mutaHa*oliq_1
     -- mtH*lq  mutaHa*oliq     Nall    pedant
 
-    noun     MutaFaCCiL                {- mutaHa*oliq -}    `gloss`  [ "pedant" ] ]
+    noun     MutaKaRDiS                {- mutaHa*oliq -}    `gloss`  [ "pedant" ] ]
 
  -- ;--- H*w
 
@@ -3574,7 +3570,7 @@ lexicon = listing "Lexicon properties"
     -- HrbA}   HirobA} Nhy     chameleon
     -- HrAby   HarAbiy N0      chameleons
 
-    noun     FiCCAL                    {- HirobA' -}        `others` [ ".harAbiy N0" ]
+    noun     KiRDAS                    {- HirobA' -}        `others` [ ".harAbiy N0" ]
                                                             `gloss`  [ "chameleon", "chameleons" ] ]
 
  -- ;; HarabAh_1
@@ -3618,7 +3614,7 @@ lexicon = listing "Lexicon properties"
     -- Hrbw$   Harobuw$        Napdu   pastille;pill
     -- HrAb$   HarAbi$ Ndip    pastilles;pills
 
-    noun     FaCCUL |< aT              {- Harobuw$ap -}     `others` [ ".harAbi^s Ndip", ".harbuw^s Napdu" ]
+    noun     KaRDUS |< aT              {- Harobuw$ap -}     `others` [ ".harAbi^s Ndip", ".harbuw^s Napdu" ]
                                                             `gloss`  [ "pastille", "pill", "pastilles", "pills" ] ]
 
  -- ;--- Hrv
@@ -3899,12 +3895,16 @@ lexicon = listing "Lexicon properties"
 
  -- ;; HarAziyn_1
 
- |> ".harAziyn" <| [
+ |> ".hrzn" <| [
 
     -- ;; HarAziyn_1
     -- HrAzyn  HarAziyn        N0      Harazeen
 
-    noun     Identity                  {- HarAziyn -}       `gloss`  [ "Harazeen" ],
+    noun     KaRADIS                   {- HarAziyn -}       `gloss`  [ "Harazeen" ] ]
+
+ -- ;; Hariyz_1
+
+ |> ".hrz" <| [
 
     -- ;; Hariyz_1
     -- Hryz    Hariyz  N/ap    fortified;impenetrable     [[Hariyz/ADJ]]
@@ -4070,7 +4070,7 @@ lexicon = listing "Lexicon properties"
     -- Hr$f    Haro$af Ndu     scales
     -- HrA$f   HarA$if Ndip    scales
 
-    noun     FaCCaL                    {- Haro$af -}        `others` [ ".harA^sif Ndip" ]
+    noun     KaRDaS                    {- Haro$af -}        `others` [ ".harA^sif Ndip" ]
                                                             `gloss`  [ "scales" ] ]
 
  -- ;--- HrS
@@ -4457,7 +4457,7 @@ lexicon = listing "Lexicon properties"
     -- Hrqd    Haroqad Nap     Adam's apple
     -- HrAqd   HarAqid Ndip    Adam's apples
 
-    noun     FaCCaL |< aT              {- Haroqadap -}      `others` [ ".harAqid Ndip", ".harqad Nap" ]
+    noun     KaRDaS |< aT              {- Haroqadap -}      `others` [ ".harAqid Ndip", ".harqad Nap" ]
                                                             `gloss`  [ "Adam 's apple", "Adam 's apples" ] ]
 
  -- ;--- Hrk
@@ -4538,7 +4538,7 @@ lexicon = listing "Lexicon properties"
     -- Hrkv    Harokav PV      stir up;agitate
     -- Hrkv    Harokiv IV_yu   stir up;agitate
 
-    verb     FaCCaL                    {- Harokav -}        `others` [ ".harki_t IV_yu" ]
+    verb     KaRDaS                    {- Harokav -}        `others` [ ".harki_t IV_yu" ]
                                                             `gloss`  [ "stir up", "agitate" ] ]
 
  -- ;--- Hrk$
@@ -4549,7 +4549,7 @@ lexicon = listing "Lexicon properties"
     -- Hrk$    Haroka$ PV      stir up;agitate
     -- Hrk$    Haroki$ IV_yu   stir up;agitate
 
-    verb     FaCCaL                    {- Haroka$ -}        `others` [ ".harki^s IV_yu" ]
+    verb     KaRDaS                    {- Haroka$ -}        `others` [ ".harki^s IV_yu" ]
                                                             `gloss`  [ "stir up", "agitate" ] ]
 
  -- ;--- Hrm
@@ -4683,7 +4683,7 @@ lexicon = listing "Lexicon properties"
     -- ;; HiromAn_1
     -- HrmAn   HiromAn N       deprivation;prohibition
 
-    noun     FiCCAL                    {- HiromAn -}        `gloss`  [ "deprivation", "prohibition" ] ]
+    noun     KiRDAS                    {- HiromAn -}        `gloss`  [ "deprivation", "prohibition" ] ]
 
  -- ;; maHoram_1
 
@@ -4754,13 +4754,13 @@ lexicon = listing "Lexicon properties"
     -- ;; Haromal_1
     -- Hrml    Haromal N       African rue
 
-    noun     FaCCaL                    {- Haromal -}        `gloss`  [ "African rue" ],
+    noun     KaRDaS                    {- Haromal -}        `gloss`  [ "African rue" ],
 
     -- ;; Haromalap_1
     -- Hrml    Haromal Napdu   cape;garment
     -- HrAml   HarAmil Ndip    capes;garments
 
-    noun     FaCCaL |< aT              {- Haromalap -}      `others` [ ".harAmil Ndip", ".harmal Napdu" ]
+    noun     KaRDaS |< aT              {- Haromalap -}      `others` [ ".harAmil Ndip", ".harmal Napdu" ]
                                                             `gloss`  [ "cape", "garment", "capes", "garments" ] ]
 
  -- ;--- Hrn
@@ -4846,11 +4846,7 @@ lexicon = listing "Lexicon properties"
     -- Hry     Horay   IV_Ann_Pass_yu  be made worthy
 
     verb     HaFCY                     {- >aHoraY -}        `others` [ ".hray IV_Ann_Pass_yu", ".hriy IV_0hAnn_yu", ".hrY IV_0_Pass_yu", "'a.hrA PV_h", ".hr IV_0hwnyn_yu", "'a.hray PV_Atn", "'a.hr PV_ttAw" ]
-                                                            `gloss`  [ "make worthy", "be made worthy" ] ]
-
- -- ;; taHar~aY_1
-
- |> ".hrr" <| [
+                                                            `gloss`  [ "make worthy", "be made worthy" ],
 
     -- ;; taHar~aY_1
     -- tHrY    taHar~aY        PV_0    investigate;pursue
@@ -4863,11 +4859,7 @@ lexicon = listing "Lexicon properties"
     -- tHr     taHar~  IV_0hwnyn       investigate;pursue
 
     verb     TaFaCCY                   {- taHar~aY -}       `others` [ "ta.harray PV_Atn IV_Ann", "ta.harrA PV_h IV_h", "ta.harr IV_0hwnyn PV_ttAw" ]
-                                                            `gloss`  [ "investigate", "pursue" ] ]
-
- -- ;; Hariy~_1
-
- |> ".hr" <| [
+                                                            `gloss`  [ "investigate", "pursue" ],
 
     -- ;; Hariy~_1
     -- Hry     Hariy~  N/ap    adequate;suitable     [[Hariy~/ADJ]]
@@ -5116,16 +5108,12 @@ lexicon = listing "Lexicon properties"
     -- HAzwq   HAzuwq  NapAt   hiccups
 
     noun     Identity |< aT            {- HAzuwqap -}       `others` [ ".hAzuwq NapAt" ]
-                                                            `gloss`  [ "hiccups" ] ]
-
- -- ;; maHAziq_1
-
- |> "ma.hAziq" <| [
+                                                            `gloss`  [ "hiccups" ],
 
     -- ;; maHAziq_1
     -- mHAzq   maHAziq Ndip    nuts
 
-    noun     Identity                  {- maHAziq -}        `gloss`  [ "nuts" ] ]
+    noun     MaFACiL                   {- maHAziq -}        `gloss`  [ "nuts" ] ]
 
  -- ;; Huzuq~Aniy~_1
 
@@ -5303,10 +5291,6 @@ lexicon = listing "Lexicon properties"
 
     noun     FiCAL                     {- HizAn -}          `others` [ ".hazAnA Nhy", ".hazAnY N0" ]
                                                             `gloss`  [ "mourning" ],
-
-    -- ;; HazonAn_1
-
-    noun     FaCCAL                    {- HazonAn -}        ,
 
     -- ;; HazonAn_1
     -- HznAn   HazonAn N/ap    very sad;mourning
@@ -5549,7 +5533,7 @@ lexicon = listing "Lexicon properties"
     -- ;; HusobAn_1
     -- HsbAn   HusobAn N       calculation;consideration
 
-    noun     FuCCAL                    {- HusobAn -}        `gloss`  [ "calculation", "consideration" ] ]
+    noun     KuRDAS                    {- HusobAn -}        `gloss`  [ "calculation", "consideration" ] ]
 
  -- ;; HisAb_1
 
@@ -5983,16 +5967,12 @@ lexicon = listing "Lexicon properties"
     -- mHsn    maHosan Nap     good quality;merit
 
     noun     MaFCaL |< aT              {- maHosanap -}      `others` [ "ma.hsan Nap" ]
-                                                            `gloss`  [ "good quality", "merit" ] ]
-
- -- ;; maHAsin_1
-
- |> "ma.hAsin" <| [
+                                                            `gloss`  [ "good quality", "merit" ],
 
     -- ;; maHAsin_1
     -- mHAsn   maHAsin Ndip    merits;good qualities
 
-    noun     Identity                  {- maHAsin -}        `gloss`  [ "merits", "good qualities" ],
+    noun     MaFACiL                   {- maHAsin -}        `gloss`  [ "merits", "good qualities" ],
 
     -- ;; taHosiyn_1
     -- tHsyn   taHosiyn        N       improving;making better
@@ -6080,11 +6060,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- HasA-u -}         `imperf` [ FCuL ]
                                                             `others` [ ".hsuw IV_0hAnn", ".has PV_ttAw", ".hasA PV_0h", ".hsay IV_Ann_Pass_yu", ".hs IV_0hwnyn", ".hsY IV_0_Pass_yu", ".hasaw PV_Atn" ]
-                                                            `gloss`  [ "drink", "sip", "be sipped" ] ]
-
- -- ;; taHas~aY_1
-
- |> ".hss" <| [
+                                                            `gloss`  [ "drink", "sip", "be sipped" ],
 
     -- ;; taHas~aY_1
     -- tHsY    taHas~aY        PV_0    drink;sip
@@ -6097,11 +6073,7 @@ lexicon = listing "Lexicon properties"
     -- tHs     taHas~  IV_0hwnyn       drink;sip
 
     verb     TaFaCCY                   {- taHas~aY -}       `others` [ "ta.hass IV_0hwnyn PV_ttAw", "ta.hassay PV_Atn IV_Ann", "ta.hassA PV_h IV_h" ]
-                                                            `gloss`  [ "drink", "sip" ] ]
-
- -- ;; {iHotasaY_1
-
- |> ".hs" <| [
+                                                            `gloss`  [ "drink", "sip" ],
 
     -- ;; {iHotasaY_1
     -- <HtsY   {iHotasaY       PV_0    drink;sip
@@ -6355,19 +6327,19 @@ lexicon = listing "Lexicon properties"
     -- H$rj    Ha$oraj PV      rattle in the throat
     -- H$rj    Ha$orij IV_yu   rattle in the throat
 
-    verb     FaCCaL                    {- Ha$oraj -}        `others` [ ".ha^sri^g IV_yu" ]
+    verb     KaRDaS                    {- Ha$oraj -}        `others` [ ".ha^sri^g IV_yu" ]
                                                             `gloss`  [ "rattle in the throat" ],
 
     -- ;; taHa$oraj_1
     -- tH$rj   taHa$oraj       PV      rattle in the throat
     -- tH$rj   taHa$oraj       IV      rattle in the throat
 
-    verb     TaFaCCaL                  {- taHa$oraj -}      `gloss`  [ "rattle in the throat" ],
+    verb     TaKaRDaS                  {- taHa$oraj -}      `gloss`  [ "rattle in the throat" ],
 
     -- ;; Ha$orajap_1
     -- H$rj    Ha$oraj Nap     rattling;rattle in the throat
 
-    noun     FaCCaL |< aT              {- Ha$orajap -}      `others` [ ".ha^sra^g Nap" ]
+    noun     KaRDaS |< aT              {- Ha$orajap -}      `others` [ ".ha^sra^g Nap" ]
                                                             `gloss`  [ "rattling", "rattle in the throat" ] ]
 
  -- ;--- H$f
@@ -6463,16 +6435,12 @@ lexicon = listing "Lexicon properties"
     -- H$mA}   Hu$amA} Nhy     bashful;shy
 
     noun     FaCIL                     {- Ha$iym -}         `others` [ ".hu^samA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "bashful", "shy" ] ]
-
- -- ;; maHA$im_1
-
- |> "ma.hA^sim" <| [
+                                                            `gloss`  [ "bashful", "shy" ],
 
     -- ;; maHA$im_1
     -- mHA$m   maHA$im Ndip    pubes;genitals
 
-    noun     Identity                  {- maHA$im -}        `gloss`  [ "pubes", "genitals" ],
+    noun     MaFACiL                   {- maHA$im -}        `gloss`  [ "pubes", "genitals" ],
 
     -- ;; taHa$~um_1
     -- tH$m    taHa$~um        NduAt   shyness;modesty
@@ -6522,11 +6490,7 @@ lexicon = listing "Lexicon properties"
     -- H$y     Ho$ay   IV_Ann_Pass_yu  be stuffed;be loaded;be filled
 
     verb     FaCA                      {- Ha$A -}           `others` [ ".h^suw IV_0hAnn", ".h^say IV_Ann_Pass_yu", ".h^s IV_0hwnyn", ".ha^s PV_ttAw", ".h^sY IV_0_Pass_yu", ".ha^saw PV_Atn" ]
-                                                            `gloss`  [ "stuff", "load", "fill", "be stuffed", "be loaded", "be filled" ] ]
-
- -- ;; Ha$~aY_1
-
- |> ".h^s^s" <| [
+                                                            `gloss`  [ "stuff", "load", "fill", "be stuffed", "be loaded", "be filled" ],
 
     -- ;; Ha$~aY_1
     -- H$Y     Ha$~aY  PV_0    insert;interpolate
@@ -6539,11 +6503,7 @@ lexicon = listing "Lexicon properties"
     -- H$y     Ha$~ay  IV_Ann_Pass_yu  be inserted;be interpolated
 
     verb     FaCCY                     {- Ha$~aY -}         `others` [ ".ha^s^sA PV_h", ".ha^s^s IV_0hwnyn_yu PV_ttAw", ".ha^s^siy IV_0hAnn_yu", ".ha^s^say PV_Atn IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "insert", "interpolate", "be inserted", "be interpolated" ] ]
-
- -- ;; HA$aY_1
-
- |> ".h^s" <| [
+                                                            `gloss`  [ "insert", "interpolate", "be inserted", "be interpolated" ],
 
     -- ;; HA$aY_1
     -- HA$Y    HA$aY   PV_0    except;exclude
@@ -6556,11 +6516,7 @@ lexicon = listing "Lexicon properties"
     -- HA$y    HA$ay   IV_Ann_Pass_yu  be excepted;be excluded
 
     verb     FACY                      {- HA$aY -}          `others` [ ".hA^sA PV_h", ".hA^s IV_0hwnyn_yu PV_ttAw", ".hA^say PV_Atn IV_Ann_Pass_yu", ".hA^siy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "except", "exclude", "be excepted", "be excluded" ] ]
-
- -- ;; taHa$~aY_1
-
- |> ".h^s^s" <| [
+                                                            `gloss`  [ "except", "exclude", "be excepted", "be excluded" ],
 
     -- ;; taHa$~aY_1
     -- tH$Y    taHa$~aY        PV_0    abstain;avoid;beware
@@ -6573,11 +6529,7 @@ lexicon = listing "Lexicon properties"
     -- tH$     taHa$~  IV_0hwnyn       abstain;avoid;beware
 
     verb     TaFaCCY                   {- taHa$~aY -}       `others` [ "ta.ha^s^s IV_0hwnyn PV_ttAw", "ta.ha^s^sA PV_h IV_h", "ta.ha^s^say PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "abstain", "avoid", "beware" ] ]
-
- -- ;; taHA$aY_1
-
- |> ".h^s" <| [
+                                                            `gloss`  [ "abstain", "avoid", "beware" ],
 
     -- ;; taHA$aY_1
     -- tHA$Y   taHA$aY PV_0    abstain;avoid;beware
@@ -6855,7 +6807,7 @@ lexicon = listing "Lexicon properties"
     -- HSHS    HaSoHaS PV_intr become clear;be manifest;come to light
     -- HSHS    HaSoHiS IV_intr_yu      become clear;be manifest;come to light
 
-    verb     FaCCaL                    {- HaSoHaS -}        `others` [ ".ha.s.hi.s IV_intr_yu" ]
+    verb     KaRDaS                    {- HaSoHaS -}        `others` [ ".ha.s.hi.s IV_intr_yu" ]
                                                             `gloss`  [ "become clear", "be manifest", "come to light" ] ]
 
  -- ;--- HSd
@@ -7686,7 +7638,7 @@ lexicon = listing "Lexicon properties"
     -- HDArm   HaDArim Ndip    Hadramautis
     -- HDArm   HaDArim Nap     Hadramautis
 
-    noun     FaCCaL |< Iy              {- HaDoramiy~ -}     `others` [ ".ha.dArim Nap Ndip" ]
+    noun     KaRDaS |< Iy              {- HaDoramiy~ -}     `others` [ ".ha.dArim Nap Ndip" ]
                                                             `gloss`  [ "from / of Hadramaut", "Hadramauti", "Hadramautis" ] ]
 
  -- ;--- HDn
@@ -8753,7 +8705,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; taHaf~aY_1
 
- |> ".hff" <| [
+ |> ".hf" <| [
 
     -- ;; taHaf~aY_1
     -- tHfY    taHaf~aY        PV_0    be affectionate
@@ -8766,11 +8718,7 @@ lexicon = listing "Lexicon properties"
     -- tHf     taHaf~  IV_0hwnyn       be affectionate
 
     verb     TaFaCCY                   {- taHaf~aY -}       `others` [ "ta.haffA PV_h IV_h", "ta.haff PV_ttAw_intr IV_0hwnyn", "ta.haffay PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "be affectionate" ] ]
-
- -- ;; {iHotafaY_1
-
- |> ".hf" <| [
+                                                            `gloss`  [ "be affectionate" ],
 
     -- ;; {iHotafaY_1
     -- <HtfY   {iHotafaY       PV_0    be affectionate;celebrate
@@ -10350,10 +10298,18 @@ lexicon = listing "Lexicon properties"
  |> ".hlt" <| [
 
     -- ;; Hilotiyt_1
+
+    root     Identity                                        ]
+
+ -- ;; Hilotiyt_1
+
+ |> ".hiltiyt" <| [
+
+    -- ;; Hilotiyt_1
     -- Hltyt   Hilotiyt        N       asafetida
     -- Hltyt   Halotiyt        N       asafetida
 
-    noun     FiCCIL                    {- Hilotiyt -}       `others` [ ".haltiyt N" ]
+    noun     Identity                  {- Hilotiyt -}       `others` [ ".haltiyt N" ]
                                                             `gloss`  [ "asafetida" ] ]
 
  -- ;--- Hlj
@@ -10416,19 +10372,19 @@ lexicon = listing "Lexicon properties"
     -- HlHl    HaloHal PV      remove;shove away
     -- HlHl    HaloHil IV_yu   remove;shove away
 
-    verb     FaCCaL                    {- HaloHal -}        `others` [ ".hal.hil IV_yu" ]
+    verb     KaRDaS                    {- HaloHal -}        `others` [ ".hal.hil IV_yu" ]
                                                             `gloss`  [ "remove", "shove away" ],
 
     -- ;; taHaloHal_1
     -- tHlHl   taHaloHal       PV      move;budge
     -- tHlHl   taHaloHal       IV      move;budge
 
-    verb     TaFaCCaL                  {- taHaloHal -}      `gloss`  [ "move", "budge" ],
+    verb     TaKaRDaS                  {- taHaloHal -}      `gloss`  [ "move", "budge" ],
 
     -- ;; HaloHuwl_1
     -- HlHwl   HaloHuwl        N0      Halhoul (West Bank)
 
-    noun     FaCCUL                    {- HaloHuwl -}       `gloss`  [ "Halhoul ( West Bank )" ] ]
+    noun     KaRDUS                    {- HaloHuwl -}       `gloss`  [ "Halhoul ( West Bank )" ] ]
 
  -- ;--- Hlz
 
@@ -10690,18 +10646,10 @@ lexicon = listing "Lexicon properties"
  |> ".hlqm" <| [
 
     -- ;; Huloquwm_1
-
-    root     Identity                                        ]
-
- -- ;; Huloquwm_1
-
- |> ".hulquwm" <| [
-
-    -- ;; Huloquwm_1
     -- Hlqwm   Huloquwm        N       throat;gullet
     -- HlAqym  HalAqiym        Ndip    throats;gullets
 
-    noun     Identity                  {- Huloquwm -}       `others` [ ".halAqiym Ndip" ]
+    noun     KuRDUS                    {- Huloquwm -}       `others` [ ".halAqiym Ndip" ]
                                                             `gloss`  [ "throat", "gullet", "throats", "gullets" ] ]
 
  -- ;--- Hlk
@@ -10907,7 +10855,11 @@ lexicon = listing "Lexicon properties"
     -- ;; Hulowap_1
     -- Hlwp    Hulowap N0      Hilweh;Hulwa
 
-    noun     FuCL |< aT                {- Hulowap -}        `gloss`  [ "Hilweh", "Hulwa" ],
+    noun     FuCL |< aT                {- Hulowap -}        `gloss`  [ "Hilweh", "Hulwa" ] ]
+
+ -- ;; HalowaY_1
+
+ |> ".halwY" <| [
 
     -- ;; HalowaY_1
     -- HlwY    HalowaY N0      pastry;dessert;sweets
@@ -10919,7 +10871,7 @@ lexicon = listing "Lexicon properties"
     -- HlAwY   HalAwaY N0      pastries;desserts;sweets
     -- HlAwA   HalAwA  Nhy     pastries;desserts;sweets
 
-    noun     FaCCY                     {- HalowaY -}        `others` [ ".halAwY N0", ".hulway NAt NAn_Nayn", ".hulwY N0", ".hulwA Nhy", ".halAwA Nhy", ".halwA Nhy" ]
+    noun     Identity                  {- HalowaY -}        `others` [ ".halAwY N0", ".hulway NAt NAn_Nayn", ".hulwY N0", ".hulwA Nhy", ".halAwA Nhy", ".halwA Nhy" ]
                                                             `gloss`  [ "pastry", "dessert", "sweets", "pastries", "desserts" ] ]
 
  -- ;; HalAwaY_1
@@ -10940,12 +10892,12 @@ lexicon = listing "Lexicon properties"
     -- HlwA&   HalowA& Nh      candy
     -- HlwA}   HalowA} Nhy     candy
 
-    noun     FaCCAL                    {- HalowA' -}        `gloss`  [ "candy" ],
+    noun     KaRDAS                    {- HalowA' -}        `gloss`  [ "candy" ],
 
     -- ;; HalowA}iy~_1
     -- HlwA}y  HalowA}iy~      Nall    confectioner;pastry cook     [[HalowA}iy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- HalowA}iy~ -}     `gloss`  [ "confectioner", "pastry cook" ] ]
+    noun     KaRDAS |< Iy              {- HalowA}iy~ -}     `gloss`  [ "confectioner", "pastry cook" ] ]
 
  -- ;; HalAwap_1
 
@@ -10969,17 +10921,17 @@ lexicon = listing "Lexicon properties"
     -- ;; HulowAn_1
     -- HlwAn   HulowAn Ndip    Helwan (Egy.)
 
-    noun     FuCCAL                    {- HulowAn -}        `gloss`  [ "Helwan ( Egy . )" ],
+    noun     KuRDAS                    {- HulowAn -}        `gloss`  [ "Helwan ( Egy . )" ],
 
     -- ;; HulowAn_2
     -- HlwAn   HulowAn N       gratuity;tip
 
-    noun     FuCCAL                    {- HulowAn -}        `gloss`  [ "gratuity", "tip" ],
+    noun     KuRDAS                    {- HulowAn -}        `gloss`  [ "gratuity", "tip" ],
 
     -- ;; HulowAniy~_1
     -- HlwAny  HulowAniy~      Nall    confectioner;pastry cook     [[HulowAniy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- HulowAniy~ -}     `gloss`  [ "confectioner", "pastry cook" ] ]
+    noun     KuRDAS |< Iy              {- HulowAniy~ -}     `gloss`  [ "confectioner", "pastry cook" ] ]
 
  -- ;; >aHolaY_1
 
@@ -11035,11 +10987,7 @@ lexicon = listing "Lexicon properties"
     -- HlY     HolaY   IV_0    adorn;embellish;grace
 
     verb     FaCY                      {- HalaY -}          `others` [ ".hlY IV_0", ".hal PV_ttAw", ".halay PV_Atn", ".hliy IV_0hAnn", ".hl IV_0hwnyn", ".halA PV_h" ]
-                                                            `gloss`  [ "adorn", "embellish", "grace" ] ]
-
- -- ;; Hal~aY_1
-
- |> ".hll" <| [
+                                                            `gloss`  [ "adorn", "embellish", "grace" ],
 
     -- ;; Hal~aY_1
     -- HlY     Hal~aY  PV_0    sweeten;adorn;furnish
@@ -11065,11 +11013,7 @@ lexicon = listing "Lexicon properties"
     -- tHl     taHal~  IV_0hwnyn       be adorned;be furnished;remaining (patient, confident)
 
     verb     TaFaCCY                   {- taHal~aY -}       `others` [ "ta.hall PV_ttAw_intr IV_0hwnyn", "ta.hallA PV_h IV_h", "ta.hallay PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "be adorned", "be furnished", "remaining ( patient , confident )" ] ]
-
- -- ;; {isotaHolaY_1
-
- |> ".hl" <| [
+                                                            `gloss`  [ "be adorned", "be furnished", "remaining ( patient , confident )" ],
 
     -- ;; {isotaHolaY_1
     -- <stHlY  {isotaHolaY     PV_0    be delighted
@@ -11127,7 +11071,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muHal~aY_1
 
- |> ".hll" <| [
+ |> ".hl" <| [
 
     -- ;; muHal~aY_1
     -- mHlY    muHal~aY        N0      sweetened;decorated
@@ -11348,13 +11292,13 @@ lexicon = listing "Lexicon properties"
     -- HmHm    HamoHam PV      neigh
     -- HmHm    HamoHim IV_yu   neigh
 
-    verb     FaCCaL                    {- HamoHam -}        `others` [ ".ham.him IV_yu" ]
+    verb     KaRDaS                    {- HamoHam -}        `others` [ ".ham.him IV_yu" ]
                                                             `gloss`  [ "neigh" ],
 
     -- ;; HamoHamap_1
     -- HmHm    HamoHam Nap     neighing
 
-    noun     FaCCaL |< aT              {- HamoHamap -}      `others` [ ".ham.ham Nap" ]
+    noun     KaRDaS |< aT              {- HamoHamap -}      `others` [ ".ham.ham Nap" ]
                                                             `gloss`  [ "neighing" ] ]
 
  -- ;; HimoHim_1
@@ -11430,7 +11374,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Hamoduwn_1
     -- Hmdwn   Hamoduwn        N0      Hamdoun;Hamdun
 
-    noun     FaCCUL                    {- Hamoduwn -}       `gloss`  [ "Hamdoun", "Hamdun" ] ]
+    noun     KaRDUS                    {- Hamoduwn -}       `gloss`  [ "Hamdoun", "Hamdun" ] ]
 
  -- ;; Ham~Ad_1
 
@@ -11605,13 +11549,13 @@ lexicon = listing "Lexicon properties"
     -- Hmdl    Hamodal PV      praising God
     -- Hmdl    Hamodil IV_yu   praising God
 
-    verb     FaCCaL                    {- Hamodal -}        `others` [ ".hamdil IV_yu" ]
+    verb     KaRDaS                    {- Hamodal -}        `others` [ ".hamdil IV_yu" ]
                                                             `gloss`  [ "praising God" ],
 
     -- ;; Hamodalap_1
     -- Hmdl    Hamodal Nap     praising God (saying "al-hamdu lillah" = "praise be to God")
 
-    noun     FaCCaL |< aT              {- Hamodalap -}      `others` [ ".hamdal Nap" ]
+    noun     KaRDaS |< aT              {- Hamodalap -}      `others` [ ".hamdal Nap" ]
                                                             `gloss`  [ "praising God ( saying `` al-hamdu lillah '' = `` praise be to God '' )" ] ]
 
  -- ;--- Hmr
@@ -12308,7 +12252,7 @@ lexicon = listing "Lexicon properties"
     -- Hmlq    Hamolaq PV      stare;gaze
     -- Hmlq    Hamoliq IV_yu   stare;gaze
 
-    verb     FaCCaL                    {- Hamolaq -}        `others` [ ".hamliq IV_yu" ]
+    verb     KaRDaS                    {- Hamolaq -}        `others` [ ".hamliq IV_yu" ]
                                                             `gloss`  [ "stare", "gaze" ] ]
 
  -- ;--- Hmw
@@ -12427,11 +12371,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- HamaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ ".hamY PV_0", ".hamay PV_Atn", ".hamA PV_h", ".hmY IV_0", ".ham PV_ttAw", ".hmiy IV_0hAnn", ".hm IV_0hwnyn" ]
-                                                            `gloss`  [ "defend", "protect", "forbid" ] ]
-
- -- ;; Ham~aY_1
-
- |> ".hmm" <| [
+                                                            `gloss`  [ "defend", "protect", "forbid" ],
 
     -- ;; Ham~aY_1
     -- HmY     Ham~aY  PV_0    make hot;kindle
@@ -12444,11 +12384,7 @@ lexicon = listing "Lexicon properties"
     -- Hmy     Ham~ay  IV_Ann_Pass_yu  be heated;be kindled
 
     verb     FaCCY                     {- Ham~aY -}         `others` [ ".hammiy IV_0hAnn_yu", ".hammA PV_h", ".hamm IV_0hwnyn_yu PV_ttAw", ".hammay PV_Atn IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "make hot", "kindle", "be heated", "be kindled" ] ]
-
- -- ;; HAmaY_1
-
- |> ".hm" <| [
+                                                            `gloss`  [ "make hot", "kindle", "be heated", "be kindled" ],
 
     -- ;; HAmaY_1
     -- HAmY    HAmaY   PV_0    defend;advocate
@@ -12773,14 +12709,14 @@ lexicon = listing "Lexicon properties"
     -- ;; Hanobal_1
     -- Hnbl    Hanobal N0      Hanbal
 
-    noun     FaCCaL                    {- Hanobal -}        `gloss`  [ "Hanbal" ],
+    noun     KaRDaS                    {- Hanobal -}        `gloss`  [ "Hanbal" ],
 
     -- ;; Hanobaliy~_1
     -- Hnbly   Hanobaliy~      Nall    Hanbalite     [[Hanobaliy~/NOUN]]
     -- Hnbly   Hanobaliy~      Nall    Hanbalite     [[Hanobaliy~/ADJ]]
     -- HnAbl   HanAbil Nap     Hanbalites
 
-    noun     FaCCaL |< Iy              {- Hanobaliy~ -}     `others` [ ".hanAbil Nap" ]
+    noun     KaRDaS |< Iy              {- Hanobaliy~ -}     `others` [ ".hanAbil Nap" ]
                                                             `gloss`  [ "Hanbalite", "Hanbalites" ] ]
 
  -- ;--- Hnt
@@ -12854,24 +12790,20 @@ lexicon = listing "Lexicon properties"
     -- Hnjr    Hanojar N       larynx;throat
     -- HnAjr   HanAjir Ndip    larynxes;throats
 
-    noun     FaCCaL                    {- Hanojar -}        `others` [ ".hanA^gir Ndip" ]
-                                                            `gloss`  [ "larynx", "throat", "larynxes", "throats" ] ]
-
- -- ;; Hunojuwr_1
-
- |> ".hun^guwr" <| [
+    noun     KaRDaS                    {- Hanojar -}        `others` [ ".hanA^gir Ndip" ]
+                                                            `gloss`  [ "larynx", "throat", "larynxes", "throats" ],
 
     -- ;; Hunojuwr_1
     -- Hnjwr   Hunojuwr        N       larynx;throat
     -- HnAjyr  HanAjiyr        Ndip    larynxes;throats
 
-    noun     Identity                  {- Hunojuwr -}       `others` [ ".hanA^giyr Ndip" ]
+    noun     KuRDUS                    {- Hunojuwr -}       `others` [ ".hanA^giyr Ndip" ]
                                                             `gloss`  [ "larynx", "throat", "larynxes", "throats" ],
 
     -- ;; Hanojuwr_1
     -- Hnjwr   Hanojuwr        N0      Hanjour;Hanjoor
 
-    noun     FaCCUL                    {- Hanojuwr -}       `gloss`  [ "Hanjour", "Hanjoor" ] ]
+    noun     KaRDUS                    {- Hanojuwr -}       `gloss`  [ "Hanjour", "Hanjoor" ] ]
 
  -- ;--- Hnjl
 
@@ -12881,14 +12813,14 @@ lexicon = listing "Lexicon properties"
     -- Hnjl    Hanojal PV      prance;caper
     -- Hnjl    Hanojil IV_yu   prance;caper
 
-    verb     FaCCaL                    {- Hanojal -}        `others` [ ".han^gil IV_yu" ]
+    verb     KaRDaS                    {- Hanojal -}        `others` [ ".han^gil IV_yu" ]
                                                             `gloss`  [ "prance", "caper" ],
 
     -- ;; taHanojal_1
     -- tHnjl   taHanojal       PV      dance;caper
     -- tHnjl   taHanojal       IV      dance;caper
 
-    verb     TaFaCCaL                  {- taHanojal -}      `gloss`  [ "dance", "caper" ] ]
+    verb     TaKaRDaS                  {- taHanojal -}      `gloss`  [ "dance", "caper" ] ]
 
  -- ;--- Hnds
 
@@ -12995,7 +12927,7 @@ lexicon = listing "Lexicon properties"
     -- HnTwr   HanoTuwr        Napdu   hantour (covered horse carriage)
     -- HnATyr  HanATiyr        Ndip    hantours (covered horse carriages)
 
-    noun     FaCCUL                    {- HanoTuwr -}       `others` [ ".hanA.tiyr Ndip" ]
+    noun     KaRDUS                    {- HanoTuwr -}       `others` [ ".hanA.tiyr Ndip" ]
                                                             `gloss`  [ "hantour ( covered horse carriage )", "hantours ( covered horse carriages )" ] ]
 
  -- ;--- HnZl
@@ -13006,7 +12938,7 @@ lexicon = listing "Lexicon properties"
     -- HnZl    HanoZal N       colocynth
     -- HnZl    HanoZal Nap     colocynth
 
-    noun     FaCCaL                    {- HanoZal -}        `gloss`  [ "colocynth" ] ]
+    noun     KaRDaS                    {- HanoZal -}        `gloss`  [ "colocynth" ] ]
 
  -- ;--- Hnf
 
@@ -13293,13 +13225,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; HawAniy_1
 
- |> ".hawAniy" <| [
+ |> ".hny" <| [
 
     -- ;; HawAniy_1
     -- HwAny   HawAniy N0_Nh   bosom;breast
     -- HwAn    HawAn   NK      bosom;breast
 
-    noun     Identity                  {- HawAniy -}        `others` [ ".hawAn NK" ]
+    noun     FawACiL                   {- HawAniy -}        `others` [ ".hawAn NK" ]
                                                             `gloss`  [ "bosom", "breast" ] ]
 
  -- ;; maHoniy~_1
@@ -13309,11 +13241,7 @@ lexicon = listing "Lexicon properties"
     -- ;; maHoniy~_1
     -- mHny    maHoniy~        Nall    bowed;inclined;bent     [[maHoniy~/ADJ]]
 
-    noun     Identity |< Iy            {- maHoniy~ -}       `gloss`  [ "bowed", "inclined", "bent" ] ]
-
- -- ;; munoHaniy_1
-
- |> ".hny" <| [
+    noun     Identity |< Iy            {- maHoniy~ -}       `gloss`  [ "bowed", "inclined", "bent" ],
 
     -- ;; munoHaniy_1
     -- mnHny   munoHaniy       N0F_Nh  bent;twisted;bowed
@@ -13382,7 +13310,7 @@ lexicon = listing "Lexicon properties"
     -- HwbA&   HawobA& Nh      soul
     -- HwbA}   HawobA} Nhy     soul
 
-    noun     FaCCAL                    {- HawobA' -}        `gloss`  [ "soul" ] ]
+    noun     KaRDAS                    {- HawobA' -}        `gloss`  [ "soul" ] ]
 
  -- ;--- Hwt
 
@@ -13523,16 +13451,12 @@ lexicon = listing "Lexicon properties"
     -- >Hwj    >aHowaj Nel     in greater need;more necessary
     -- AHwj    >aHowaj Nel     in greater need;more necessary
 
-    noun     HaFCaL                    {- >aHowaj -}        `gloss`  [ "in greater need", "more necessary" ] ]
-
- -- ;; maHAwiyj_1
-
- |> "ma.hAwiy^g" <| [
+    noun     HaFCaL                    {- >aHowaj -}        `gloss`  [ "in greater need", "more necessary" ],
 
     -- ;; maHAwiyj_1
     -- mHAwyj  maHAwiyj        Ndip    poor;destitute
 
-    noun     Identity                  {- maHAwiyj -}       `gloss`  [ "poor", "destitute" ] ]
+    noun     MaFACIL                   {- maHAwiyj -}       `gloss`  [ "poor", "destitute" ] ]
 
  -- ;--- Hwjl
 
@@ -13542,7 +13466,7 @@ lexicon = listing "Lexicon properties"
     -- Hwjl    Hawojal Nap     vial
     -- HwAjl   HawAjil Ndip    vials
 
-    noun     FaCCaL |< aT              {- Hawojalap -}      `others` [ ".hawA^gil Ndip", ".haw^gal Nap" ]
+    noun     KaRDaS |< aT              {- Hawojalap -}      `others` [ ".hawA^gil Ndip", ".haw^gal Nap" ]
                                                             `gloss`  [ "vial", "vials" ] ]
 
  -- ;--- Hwd
@@ -13745,12 +13669,12 @@ lexicon = listing "Lexicon properties"
 
     -- ;; Huw~Arap_1
 
-    noun     FUCAL |< aT               {- Huw~Arap -}       ,
+    noun     FuCCAL |< aT              {- Huw~Arap -}       ,
 
     -- ;; Huw~Arap_1
     -- HwAr    Huw~Ar  Nap     cretaceous rock;chalk
 
-    noun     FuCCAL |< aT              {- Huw~Arap -}       `others` [ ".huwwAr Nap" ]
+    noun     FUCAL |< aT               {- Huw~Arap -}       `others` [ ".huwwAr Nap" ]
                                                             `gloss`  [ "cretaceous rock", "chalk" ],
 
     -- ;; Huwriy~ap_1
@@ -14112,7 +14036,7 @@ lexicon = listing "Lexicon properties"
     -- ;; HawoSal_1
     -- HwSl    HawoSal Ndu     craw;pelican
 
-    noun     FaCCaL                    {- HawoSal -}        `gloss`  [ "craw", "pelican" ] ]
+    noun     KaRDaS                    {- HawoSal -}        `gloss`  [ "craw", "pelican" ] ]
 
  -- ;; HuwayoSil_1
 
@@ -14127,7 +14051,7 @@ lexicon = listing "Lexicon properties"
     -- ;; HawoSalap_1
     -- HwSl    HawoSal NapAt   summary;resume
 
-    noun     FaCCaL |< aT              {- HawoSalap -}      `others` [ ".haw.sal NapAt" ]
+    noun     KaRDaS |< aT              {- HawoSalap -}      `others` [ ".haw.sal NapAt" ]
                                                             `gloss`  [ "summary", "resume" ] ]
 
  -- ;--- HwD
@@ -14287,14 +14211,6 @@ lexicon = listing "Lexicon properties"
     -- tHwT    taHaw~uT        NduAt   precaution;attention
 
     noun     TaFaCCuL                  {- taHaw~uT -}       `gloss`  [ "precaution", "attention" ] ]
-
- -- ;; {iHotiyAT_1
-
- |> ".hty.t" <| [
-
-    -- ;; {iHotiyAT_1
-
-    noun     IFCiLAL                   {- {iHotiyAT -}       ]
 
  -- ;; {iHotiyAT_1
 
@@ -14465,20 +14381,20 @@ lexicon = listing "Lexicon properties"
     -- Hwql    Hawoqal PV      say "God alone is mighty"
     -- Hwql    Hawoqil IV_yu   say "God alone is mighty"
 
-    verb     FaCCaL                    {- Hawoqal -}        `others` [ ".hawqil IV_yu" ]
+    verb     KaRDaS                    {- Hawoqal -}        `others` [ ".hawqil IV_yu" ]
                                                             `gloss`  [ "say `` God alone is mighty ''" ],
 
     -- ;; Hawoqalap_1
     -- Hwql    Hawoqal Nap     hawqala (saying "God alone is mighty")
 
-    noun     FaCCaL |< aT              {- Hawoqalap -}      `others` [ ".hawqal Nap" ]
+    noun     KaRDaS |< aT              {- Hawoqalap -}      `others` [ ".hawqal Nap" ]
                                                             `gloss`  [ "hawqala ( saying `` God alone is mighty '' )" ],
 
     -- ;; Hawoqalap_2
     -- Hwql    Hawoqal Napdu   flask;vial
     -- HwAql   HawAqil Ndip    flasks;vials
 
-    noun     FaCCaL |< aT              {- Hawoqalap -}      `others` [ ".hawqal Napdu", ".hawAqil Ndip" ]
+    noun     KaRDaS |< aT              {- Hawoqalap -}      `others` [ ".hawqal Napdu", ".hawAqil Ndip" ]
                                                             `gloss`  [ "flask", "vial", "flasks", "vials" ] ]
 
  -- ;--- Hwk
@@ -14572,12 +14488,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; Hayoluwlap_1
 
- |> ".hyl" <| [
+ |> ".hayluwl" <| [
 
     -- ;; Hayoluwlap_1
     -- Hylwl   Hayoluwl        Nap     prevention
 
-    noun     FaCCUL |< aT              {- Hayoluwlap -}     `others` [ ".hayluwl Nap" ]
+    noun     Identity |< aT            {- Hayoluwlap -}     `others` [ ".hayluwl Nap" ]
                                                             `gloss`  [ "prevention" ] ]
 
  -- ;; Haw~al_1
@@ -14803,14 +14719,6 @@ lexicon = listing "Lexicon properties"
     -- ;; {iHotiyAl_1
 
     noun     IFtiCAL                   {- {iHotiyAl -}       ]
-
- -- ;; {iHotiyAl_1
-
- |> ".htyl" <| [
-
-    -- ;; {iHotiyAl_1
-
-    noun     IFCiLAL                   {- {iHotiyAl -}       ]
 
  -- ;; {iHotiyAl_1
 
@@ -15100,11 +15008,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- HawaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ ".hawA PV_h", ".hwY IV_0", ".haway PV_Atn", ".hw IV_0hwnyn", ".hwiy IV_0hAnn", ".hawY PV_0", ".haw PV_ttAw" ]
-                                                            `gloss`  [ "gather", "encompass", "clasp" ] ]
-
- -- ;; taHaw~aY_1
-
- |> ".hww" <| [
+                                                            `gloss`  [ "gather", "encompass", "clasp" ],
 
     -- ;; taHaw~aY_1
     -- tHwY    taHaw~aY        PV_0    curl up;coil up
@@ -15117,11 +15021,7 @@ lexicon = listing "Lexicon properties"
     -- tHw     taHaw~  IV_0hwnyn       curl up;coil up
 
     verb     TaFaCCY                   {- taHaw~aY -}       `others` [ "ta.hawway PV_Atn IV_Ann", "ta.haww IV_0hwnyn PV_ttAw", "ta.hawwA PV_h IV_h" ]
-                                                            `gloss`  [ "curl up", "coil up" ] ]
-
- -- ;; {iHotawaY_1
-
- |> ".hw" <| [
+                                                            `gloss`  [ "curl up", "coil up" ],
 
     -- ;; {iHotawaY_1
     -- <HtwY   {iHotawaY       PV_0    contain;include
@@ -15180,14 +15080,6 @@ lexicon = listing "Lexicon properties"
  |> ".hw'" <| [
 
     -- ;; {iHotiwA'_1
-
-    noun     IFtiCAL                   {- {iHotiwA' -}       ]
-
- -- ;; {iHotiwA'_1
-
- |> ".htw'" <| [
-
-    -- ;; {iHotiwA'_1
     -- <HtwA'  {iHotiwA'       N0_Nh   inclusion;content
     -- AHtwA'  {iHotiwA'       N0_Nh   inclusion;content
     -- <HtwA&  {iHotiwA&       Nh      inclusion;content
@@ -15201,7 +15093,7 @@ lexicon = listing "Lexicon properties"
     -- <HtwA'  {iHotiwA'       NAt     inclusion;content
     -- AHtwA'  {iHotiwA'       NAt     inclusion;content
 
-    noun     IFCiLAL                   {- {iHotiwA' -}      `gloss`  [ "inclusion", "content" ] ]
+    noun     IFtiCAL                   {- {iHotiwA' -}      `gloss`  [ "inclusion", "content" ] ]
 
  -- ;; muHotawaY_1
 
@@ -15253,7 +15145,11 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCL                      {- Hay~-a -}         `imperf` [ FCaL ]
                                                             `others` [ ".hyA IV_0", ".hyay IV_Ann", ".hay PV_w", ".hya IV_0hwnyn", ".hayiy PV_no-w", ".hayy PV_V", ".hyY IV_0" ]
-                                                            `gloss`  [ "live", "experience", "witness" ],
+                                                            `gloss`  [ "live", "experience", "witness" ] ]
+
+ -- ;; Hay~aY_1
+
+ |> ".hy" <| [
 
     -- ;; Hay~aY_1
     -- HyY     Hay~aY  PV_0    grant a long life
@@ -15266,11 +15162,7 @@ lexicon = listing "Lexicon properties"
     -- Hyy     Hay~ay  IV_Ann_Pass_yu  be granted a long life
 
     verb     FaCCY                     {- Hay~aY -}         `others` [ ".hayyiy IV_0hAnn_yu", ".hayy IV_0hwnyn_yu PV_ttAw", ".hayyay PV_Atn IV_Ann_Pass_yu", ".hayyA PV_h" ]
-                                                            `gloss`  [ "grant a long life", "be granted a long life" ] ]
-
- -- ;; >aHoyaY_1
-
- |> ".hy" <| [
+                                                            `gloss`  [ "grant a long life", "be granted a long life" ],
 
     -- ;; >aHoyaY_1
     -- >HyY    >aHoyaY PV_0    enliven;celebrate
@@ -15766,7 +15658,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Hayodar_1
     -- Hydr    Hayodar Nprop   Haidar;Heidar
 
-    noun     FaCCaL                    {- Hayodar -}        `gloss`  [ "Haidar", "Heidar" ] ]
+    noun     KaRDaS                    {- Hayodar -}        `gloss`  [ "Haidar", "Heidar" ] ]
 
  -- ;; Hayodar|bAd_1
 

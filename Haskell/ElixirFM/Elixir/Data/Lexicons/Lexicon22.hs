@@ -251,7 +251,7 @@ lexicon = listing "Lexicon properties"
     -- k>dA&   ka>odA& Nh      sadness;distress
     -- k>dA}   ka>odA} Nhy     sadness;distress
 
-    noun     FaCCAL                    {- ka>odA' -}        `gloss`  [ "sadness", "distress" ] ]
+    noun     KaRDAS                    {- ka>odA' -}        `gloss`  [ "sadness", "distress" ] ]
 
  -- ;; ka&uwd_1
 
@@ -801,14 +801,14 @@ lexicon = listing "Lexicon properties"
     -- tk>k&   taka>oka&       IV_hwn  gather;assemble
     -- tk>k}   taka>oka}       IV_yn   gather;assemble
 
-    verb     TaFaCCaL                  {- taka>oka> -}      `others` [ "taka'ka'A PV-|_intr IV-|" ]
+    verb     TaKaRDaS                  {- taka>oka> -}      `others` [ "taka'ka'A PV-|_intr IV-|" ]
                                                             `gloss`  [ "gather", "assemble" ],
 
     -- ;; taka>oku&_1
     -- tk>k&   taka>oku&       N/At    gathering;assembling
     -- tk>k}   taka>oku}       Nhy     gathering;assembling
 
-    noun     TaFaCCuL                  {- taka>oku& -}      `gloss`  [ "gathering", "assembling" ] ]
+    noun     TaKaRDuS                  {- taka>oku& -}      `gloss`  [ "gathering", "assembling" ] ]
 
  -- ;--- kAkn
 
@@ -1430,13 +1430,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; kabAriyh_1
 
- |> "kabAriyh" <| [
+ |> "kbrh" <| [
 
     -- ;; kabAriyh_1
     -- kbAryh  kabAriyh        N/At    cabaret
     -- kAbAryh kAbAriyh        N/At    cabaret
 
-    noun     Identity                  {- kabAriyh -}       `others` [ "kAbAriyh N/At" ]
+    noun     KaRADIS                   {- kabAriyh -}       `others` [ "kAbAriyh N/At" ]
                                                             `gloss`  [ "cabaret" ] ]
 
  -- ;--- kbt
@@ -1475,13 +1475,13 @@ lexicon = listing "Lexicon properties"
     -- ;; kabotuwlap_1
     -- kbtwl   kabotuwl        NapAt   lump;chunk;pellet
 
-    noun     FaCCUL |< aT              {- kabotuwlap -}     `others` [ "kabtuwl NapAt" ]
+    noun     KaRDUS |< aT              {- kabotuwlap -}     `others` [ "kabtuwl NapAt" ]
                                                             `gloss`  [ "lump", "chunk", "pellet" ],
 
     -- ;; mukabotal_1
     -- mkbtl   mukabotal       N-ap    round
 
-    noun     MuFaCCaL                  {- mukabotal -}      `gloss`  [ "round" ] ]
+    noun     MuKaRDaS                  {- mukabotal -}      `gloss`  [ "round" ] ]
 
  -- ;--- kbH
 
@@ -1773,46 +1773,42 @@ lexicon = listing "Lexicon properties"
     -- kbrt    kaborat PV-t    coat with sulfur;sulfurize
     -- kbrt    kaborit IV_yu   coat with sulfur;sulfurize
 
-    verb     FaCCaL                    {- kaborat -}        `others` [ "kabrit IV_yu" ]
+    verb     KaRDaS                    {- kaborat -}        `others` [ "kabrit IV_yu" ]
                                                             `gloss`  [ "coat with sulfur", "sulfurize" ],
 
     -- ;; kaboratap_1
     -- kbrt    kaborat Nap     sulfurization
 
-    noun     FaCCaL |< aT              {- kaboratap -}      `others` [ "kabrat Nap" ]
+    noun     KaRDaS |< aT              {- kaboratap -}      `others` [ "kabrat Nap" ]
                                                             `gloss`  [ "sulfurization" ],
 
     -- ;; kiboriyt_1
     -- kbryt   kiboriyt        N       sulfur
 
-    noun     FiCCIL                    {- kiboriyt -}       `gloss`  [ "sulfur" ],
+    noun     KiRDIS                    {- kiboriyt -}       `gloss`  [ "sulfur" ],
 
     -- ;; kiboriyt_2
     -- kbryt   kiboriyt        N       matches;matchsticks
     -- kbryt   kiboriyt        Napdu   matchstick;match
     -- kbAryt  kabAriyt        Ndip    matchsticks;matches
 
-    noun     FiCCIL                    {- kiboriyt -}       `others` [ "kabAriyt Ndip" ]
+    noun     KiRDIS                    {- kiboriyt -}       `others` [ "kabAriyt Ndip" ]
                                                             `gloss`  [ "matches", "matchsticks", "matchstick", "match" ],
 
     -- ;; kiboriytiy~_1
     -- kbryty  kiboriytiy~     N-ap    sulfuric;sulfur     [[kiboriytiy~/ADJ]]
 
-    noun     FiCCIL |< Iy              {- kiboriytiy~ -}    `gloss`  [ "sulfuric", "sulfur" ] ]
-
- -- ;; kabAriytiy~_1
-
- |> "kabAriyt" <| [
+    noun     KiRDIS |< Iy              {- kiboriytiy~ -}    `gloss`  [ "sulfuric", "sulfur" ],
 
     -- ;; kabAriytiy~_1
     -- kbAryty kabAriytiy~     N0      Kabariti
 
-    noun     Identity |< Iy            {- kabAriytiy~ -}    `gloss`  [ "Kabariti" ],
+    noun     KaRADIS |< Iy             {- kabAriytiy~ -}    `gloss`  [ "Kabariti" ],
 
     -- ;; kiboriytAt_1
     -- kbryt   kiboriyt        NAt     sulfate
 
-    noun     FiCCIL |< At              {- kiboriytAt -}     `others` [ "kibriyt NAt" ]
+    noun     KiRDIS |< At              {- kiboriytAt -}     `others` [ "kibriyt NAt" ]
                                                             `gloss`  [ "sulfate" ] ]
 
  -- ;; kibriytiyd_1
@@ -1950,7 +1946,7 @@ lexicon = listing "Lexicon properties"
     -- kbswl   kabosuwl        Ndu     capsule;detonator
     -- kbswl   kabosuwl        NapAt   capsule;detonator
 
-    noun     FaCCUL                    {- kabosuwl -}       `gloss`  [ "capsule", "detonator" ] ]
+    noun     KaRDUS                    {- kabosuwl -}       `gloss`  [ "capsule", "detonator" ] ]
 
  -- ;--- kb$
 
@@ -2004,13 +2000,13 @@ lexicon = listing "Lexicon properties"
     -- kbkb    kabokab PV      capsize;revert
     -- kbkb    kabokib IV_yu   capsize;revert
 
-    verb     FaCCaL                    {- kabokab -}        `others` [ "kabkib IV_yu" ]
+    verb     KaRDaS                    {- kabokab -}        `others` [ "kabkib IV_yu" ]
                                                             `gloss`  [ "capsize", "revert" ],
 
     -- ;; kabokabap_1
     -- kbkb    kabokab Nap     capsizing;reverting
 
-    noun     FaCCaL |< aT              {- kabokabap -}      `others` [ "kabkab Nap" ]
+    noun     KaRDaS |< aT              {- kabokabap -}      `others` [ "kabkab Nap" ]
                                                             `gloss`  [ "capsizing", "reverting" ] ]
 
  -- ;--- kbkj
@@ -2468,10 +2464,6 @@ lexicon = listing "Lexicon properties"
                                                             `gloss`  [ "correspondence" ],
 
     -- ;; {ikotitAb_1
-
-    noun     IFCiLAL                   {- {ikotitAb -}      ,
-
-    -- ;; {ikotitAb_1
     -- <kttAb  {ikotitAb       N/At    enrollment;registration;subscription
     -- AkttAb  {ikotitAb       N/At    enrollment;registration;subscription
 
@@ -2532,12 +2524,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; kuto$iynap_1
 
- |> "kut^siyn" <| [
+ |> "kt^sn" <| [
 
     -- ;; kuto$iynap_1
     -- kt$yn   kuto$iyn        Nap     card game
 
-    noun     Identity |< aT            {- kuto$iynap -}     `others` [ "kut^siyn Nap" ]
+    noun     KuRDIS |< aT              {- kuto$iynap -}     `others` [ "kut^siyn Nap" ]
                                                             `gloss`  [ "card game" ] ]
 
  -- ;--- ktE
@@ -2649,13 +2641,13 @@ lexicon = listing "Lexicon properties"
     -- ;; katokat_1
     -- ktkt    katokat N       floss;silk waste
 
-    noun     FaCCaL                    {- katokat -}        `gloss`  [ "floss", "silk waste" ],
+    noun     KaRDaS                    {- katokat -}        `gloss`  [ "floss", "silk waste" ],
 
     -- ;; katokuwt_1
     -- ktkwt   katokuwt        Ndu     chicken
     -- ktAkyt  katAkiyt        Ndip    chickens
 
-    noun     FaCCUL                    {- katokuwt -}       `others` [ "katAkiyt Ndip" ]
+    noun     KaRDUS                    {- katokuwt -}       `others` [ "katAkiyt Ndip" ]
                                                             `gloss`  [ "chicken", "chickens" ] ]
 
  -- ;--- ktl
@@ -2787,7 +2779,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kitomAn_1
     -- ktmAn   kitomAn N       concealment;silence
 
-    noun     FiCCAL                    {- kitomAn -}        `gloss`  [ "concealment", "silence" ] ]
+    noun     KiRDAS                    {- kitomAn -}        `gloss`  [ "concealment", "silence" ] ]
 
  -- ;; katiym_1
 
@@ -2812,10 +2804,6 @@ lexicon = listing "Lexicon properties"
     -- tktm    takat~um        N/At    secrecy
 
     noun     TaFaCCuL                  {- takat~um -}       `gloss`  [ "secrecy" ],
-
-    -- ;; {ikotitAm_1
-
-    noun     IFCiLAL                   {- {ikotitAm -}      ,
 
     -- ;; {ikotitAm_1
     -- <kttAm  {ikotitAm       N/At    secrecy
@@ -3152,12 +3140,12 @@ lexicon = listing "Lexicon properties"
     -- tkvlk   takavolak       PV_intr become Catholic
     -- tkvlk   takavolak       IV_intr become Catholic
 
-    verb     TaFaCCaL                  {- takavolak -}      `gloss`  [ "become Catholic" ],
+    verb     TaKaRDaS                  {- takavolak -}      `gloss`  [ "become Catholic" ],
 
     -- ;; kavolakap_1
     -- kvlk    kavolak Nap     Catholicism;Catholics
 
-    noun     FaCCaL |< aT              {- kavolakap -}      `others` [ "ka_tlak Nap" ]
+    noun     KaRDaS |< aT              {- kavolakap -}      `others` [ "ka_tlak Nap" ]
                                                             `gloss`  [ "Catholicism", "Catholics" ] ]
 
  -- ;; kAvuwliykiy~_1
@@ -3240,20 +3228,20 @@ lexicon = listing "Lexicon properties"
     -- kHkH    kaHokaH PV      cough
     -- kHkH    kaHokiH IV_yu   cough
 
-    verb     FaCCaL                    {- kaHokaH -}        `others` [ "ka.hki.h IV_yu" ]
+    verb     KaRDaS                    {- kaHokaH -}        `others` [ "ka.hki.h IV_yu" ]
                                                             `gloss`  [ "cough" ],
 
     -- ;; kaHokaHap_1
     -- kHkH    kaHokaH Nap     coughing
 
-    noun     FaCCaL |< aT              {- kaHokaHap -}      `others` [ "ka.hka.h Nap" ]
+    noun     KaRDaS |< aT              {- kaHokaHap -}      `others` [ "ka.hka.h Nap" ]
                                                             `gloss`  [ "coughing" ],
 
     -- ;; kaHokaHap_2
     -- kHkH    kaHokaH Napdu   cough
     -- kHkH    kaHokaH NAt     coughs
 
-    noun     FaCCaL |< aT              {- kaHokaHap -}      `others` [ "ka.hka.h NAt Napdu" ]
+    noun     KaRDaS |< aT              {- kaHokaHap -}      `others` [ "ka.hka.h NAt Napdu" ]
                                                             `gloss`  [ "cough", "coughs" ] ]
 
  -- ;--- kHl
@@ -3324,7 +3312,7 @@ lexicon = listing "Lexicon properties"
     -- kHlA&   kaHolA& Nh      blueweed
     -- kHlA}   kaHolA} Nhy     blueweed
 
-    noun     FaCCAL                    {- kaHolA' -}        `gloss`  [ "blueweed" ] ]
+    noun     KaRDAS                    {- kaHolA' -}        `gloss`  [ "blueweed" ] ]
 
  -- ;; kaHiyl_1
 
@@ -3427,7 +3415,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kaHoluwt_1
     -- kHlwt   kaHoluwt        N0      Kahlout;Kahlut
 
-    noun     FaCCUL                    {- kaHoluwt -}       `gloss`  [ "Kahlout", "Kahlut" ] ]
+    noun     KaRDUS                    {- kaHoluwt -}       `gloss`  [ "Kahlout", "Kahlut" ] ]
 
  -- ;--- kxy
 
@@ -3786,11 +3774,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- kadaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "kdiy IV_0hAnn", "kadY PV_0", "kaday PV_Atn", "kadA PV_h", "kd IV_0hwnyn", "kad PV_ttAw" ]
-                                                            `gloss`  [ "be stingy", "skimp" ] ]
-
- -- ;; kad~aY_1
-
- |> "kdd" <| [
+                                                            `gloss`  [ "be stingy", "skimp" ],
 
     -- ;; kad~aY_1
     -- kdY     kad~aY  PV_0    beg
@@ -3803,11 +3787,7 @@ lexicon = listing "Lexicon properties"
     -- kdy     kad~ay  IV_Ann_Pass_yu  be begged
 
     verb     FaCCY                     {- kad~aY -}         `others` [ "kadd IV_0hwnyn_yu PV_ttAw", "kaddA PV_h", "kaddiy IV_0hAnn_yu", "kadday PV_Atn IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "beg", "be begged" ] ]
-
- -- ;; >akodaY_1
-
- |> "kd" <| [
+                                                            `gloss`  [ "beg", "be begged" ],
 
     -- ;; >akodaY_1
     -- >kdY    >akodaY PV_0    give little;skimp
@@ -4111,12 +4091,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; karAmiyl_1
 
- |> "karAmiyl" <| [
+ |> "krml" <| [
 
     -- ;; karAmiyl_1
     -- krAmyl  karAmiyl        N0      caramel
 
-    noun     Identity                  {- karAmiyl -}       `gloss`  [ "caramel" ] ]
+    noun     KaRADIS                   {- karAmiyl -}       `gloss`  [ "caramel" ] ]
 
  -- ;--- krAy
 
@@ -4155,12 +4135,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; karAyiyb_1
 
- |> "karAyiyb" <| [
+ |> "kryb" <| [
 
     -- ;; karAyiyb_1
     -- krAyyb  karAyiyb        N0      Caribbean
 
-    noun     Identity                  {- karAyiyb -}       `gloss`  [ "Caribbean" ] ]
+    noun     KaRADIS                   {- karAyiyb -}       `gloss`  [ "Caribbean" ] ]
 
  -- ;; krAyiynA_1
 
@@ -4262,14 +4242,14 @@ lexicon = listing "Lexicon properties"
     -- krbAj   kirobAj Ndu     whip;lash
     -- krAbyj  karAbiyj        Ndip    whips;lashes
 
-    noun     FuCCAL                    {- kurobAj -}        `others` [ "karAbiy^g Ndip", "kirbA^g Ndu" ]
+    noun     KuRDAS                    {- kurobAj -}        `others` [ "karAbiy^g Ndip", "kirbA^g Ndu" ]
                                                             `gloss`  [ "whip", "lash", "whips", "lashes" ],
 
     -- ;; karobuwjap_1
     -- krbwj   karobuwj        Napdu   pastry
     -- krAbyj  karAbiyj        Ndip    pastry
 
-    noun     FaCCUL |< aT              {- karobuwjap -}     `others` [ "karAbiy^g Ndip", "karbuw^g Napdu" ]
+    noun     KaRDUS |< aT              {- karobuwjap -}     `others` [ "karAbiy^g Ndip", "karbuw^g Napdu" ]
                                                             `gloss`  [ "pastry" ] ]
 
  -- ;--- krbr
@@ -4297,7 +4277,7 @@ lexicon = listing "Lexicon properties"
     -- krbAs   kirobAs N       white cotton fabric
     -- krAbys  karAbiys        Ndip    white cotton fabric
 
-    noun     FiCCAL                    {- kirobAs -}        `others` [ "karAbiys Ndip" ]
+    noun     KiRDAS                    {- kirobAs -}        `others` [ "karAbiys Ndip" ]
                                                             `gloss`  [ "white cotton fabric" ] ]
 
  -- ;--- krbl
@@ -4308,19 +4288,19 @@ lexicon = listing "Lexicon properties"
     -- krbAl   kirobAl Ndu     sieve;teasing bow
     -- krAbyl  karAbiyl        Ndip    sieves;teasing bows
 
-    noun     FiCCAL                    {- kirobAl -}        `others` [ "karAbiyl Ndip" ]
+    noun     KiRDAS                    {- kirobAl -}        `others` [ "karAbiyl Ndip" ]
                                                             `gloss`  [ "sieve", "teasing bow", "sieves", "teasing bows" ],
 
     -- ;; karobalap_1
     -- krbl    karobal Nap     sifting
 
-    noun     FaCCaL |< aT              {- karobalap -}      `others` [ "karbal Nap" ]
+    noun     KaRDaS |< aT              {- karobalap -}      `others` [ "karbal Nap" ]
                                                             `gloss`  [ "sifting" ],
 
     -- ;; karobalap_2
     -- krbl    karobal NapAt   sieve;mesh
 
-    noun     FaCCaL |< aT              {- karobalap -}      `others` [ "karbal NapAt" ]
+    noun     KaRDaS |< aT              {- karobalap -}      `others` [ "karbal NapAt" ]
                                                             `gloss`  [ "sieve", "mesh" ] ]
 
  -- ;; karobalA'_1
@@ -4351,24 +4331,24 @@ lexicon = listing "Lexicon properties"
     -- krbn    karoban PV-n    carbonize
     -- krbn    karobin IV-n_yu carbonize
 
-    verb     FaCCaL                    {- karoban -}        `others` [ "karbin IV-n_yu" ]
+    verb     KaRDaS                    {- karoban -}        `others` [ "karbin IV-n_yu" ]
                                                             `gloss`  [ "carbonize" ],
 
     -- ;; karobanap_1
     -- krbn    karoban Nap     carbonization
 
-    noun     FaCCaL |< aT              {- karobanap -}      `others` [ "karban Nap" ]
+    noun     KaRDaS |< aT              {- karobanap -}      `others` [ "karban Nap" ]
                                                             `gloss`  [ "carbonization" ],
 
     -- ;; karobuwn_1
     -- krbwn   karobuwn        N       coal;carbon
 
-    noun     FaCCUL                    {- karobuwn -}       `gloss`  [ "coal", "carbon" ],
+    noun     KaRDUS                    {- karobuwn -}       `gloss`  [ "coal", "carbon" ],
 
     -- ;; mukarobin_1
     -- mkrbn   mukarobin       NduAt   carburetor
 
-    noun     MuFaCCiL                  {- mukarobin -}      `gloss`  [ "carburetor" ] ]
+    noun     MuKaRDiS                  {- mukarobin -}      `gloss`  [ "carburetor" ] ]
 
  -- ;--- krtn
 
@@ -4378,19 +4358,19 @@ lexicon = listing "Lexicon properties"
     -- krtn    karotan PV-n    quarantine
     -- krtn    karotin IV-n_yu quarantine
 
-    verb     FaCCaL                    {- karotan -}        `others` [ "kartin IV-n_yu" ]
+    verb     KaRDaS                    {- karotan -}        `others` [ "kartin IV-n_yu" ]
                                                             `gloss`  [ "quarantine" ],
 
     -- ;; takarotan_1
     -- tkrtn   takarotan       PV-n_intr       be quarantined
     -- tkrtn   takarotan       IV-n_intr       be quarantined
 
-    verb     TaFaCCaL                  {- takarotan -}      `gloss`  [ "be quarantined" ],
+    verb     TaKaRDaS                  {- takarotan -}      `gloss`  [ "be quarantined" ],
 
     -- ;; karotanap_1
     -- krtn    karotan Nap     quarantine
 
-    noun     FaCCaL |< aT              {- karotanap -}      `others` [ "kartan Nap" ]
+    noun     KaRDaS |< aT              {- karotanap -}      `others` [ "kartan Nap" ]
                                                             `gloss`  [ "quarantine" ],
 
     -- ;; karotuwn_1
@@ -4398,7 +4378,7 @@ lexicon = listing "Lexicon properties"
     -- kArtwn  kArotuwn        NduAt   cardboard
     -- krAtyn  karAtiyn        Ndip    cardboard;carton
 
-    noun     FaCCUL                    {- karotuwn -}       `others` [ "kArtuwn NduAt", "karAtiyn Ndip" ]
+    noun     KaRDUS                    {- karotuwn -}       `others` [ "kArtuwn NduAt", "karAtiyn Ndip" ]
                                                             `gloss`  [ "cardboard", "carton" ],
 
     -- ;; karotuwn_2
@@ -4406,7 +4386,7 @@ lexicon = listing "Lexicon properties"
     -- kArtwn  kArotuwn        NduAt   carton;cardboard box
     -- kArtwn  kArotuwn        NduAt   carton;cardboard box
 
-    noun     FaCCUL                    {- karotuwn -}       `others` [ "kArtuwn NduAt" ]
+    noun     KaRDUS                    {- karotuwn -}       `others` [ "kArtuwn NduAt" ]
                                                             `gloss`  [ "carton", "cardboard box" ] ]
 
  -- ;--- krv
@@ -4552,17 +4532,13 @@ lexicon = listing "Lexicon properties"
     -- krdAn   kirodAn Ndu     necklace
     -- krAdyn  karAdiyn        Ndip    necklaces
 
-    noun     FiCCAL                    {- kirodAn -}        `others` [ "karAdiyn Ndip" ]
-                                                            `gloss`  [ "necklace", "necklaces" ] ]
-
- -- ;; kuroduwn_1
-
- |> "kurduwn" <| [
+    noun     KiRDAS                    {- kirodAn -}        `others` [ "karAdiyn Ndip" ]
+                                                            `gloss`  [ "necklace", "necklaces" ],
 
     -- ;; kuroduwn_1
     -- krdwn   kuroduwn        N/At    cordon;ribbon
 
-    noun     Identity                  {- kuroduwn -}       `gloss`  [ "cordon", "ribbon" ] ]
+    noun     KuRDUS                    {- kuroduwn -}       `gloss`  [ "cordon", "ribbon" ] ]
 
  -- ;; karodinAl_1
 
@@ -4585,19 +4561,19 @@ lexicon = listing "Lexicon properties"
     -- krds    karodas PV      pile up;cram together
     -- krds    karodis IV_yu   pile up;cram together
 
-    verb     FaCCaL                    {- karodas -}        `others` [ "kardis IV_yu" ]
+    verb     KaRDaS                    {- karodas -}        `others` [ "kardis IV_yu" ]
                                                             `gloss`  [ "pile up", "cram together" ],
 
     -- ;; takarodas_1
     -- tkrds   takarodas       PV_intr be piled up;crowd together
     -- tkrds   takarodas       IV_intr be piled up;crowd together
 
-    verb     TaFaCCaL                  {- takarodas -}      `gloss`  [ "be piled up", "crowd together" ],
+    verb     TaKaRDaS                  {- takarodas -}      `gloss`  [ "be piled up", "crowd together" ],
 
     -- ;; karodasap_1
     -- krds    karodas NapAt   piling up;cramming together
 
-    noun     FaCCaL |< aT              {- karodasap -}      `others` [ "kardas NapAt" ]
+    noun     KaRDaS |< aT              {- karodasap -}      `others` [ "kardas NapAt" ]
                                                             `gloss`  [ "piling up", "cramming together" ] ]
 
  -- ;--- krdst
@@ -4757,17 +4733,13 @@ lexicon = listing "Lexicon properties"
     -- ;; karosuwE_1
     -- krswE   karosuwE        N0      Karsua
 
-    noun     FaCCUL                    {- karosuwE -}       `gloss`  [ "Karsua" ] ]
-
- -- ;; kurosuwE_1
-
- |> "kursuw`" <| [
+    noun     KaRDUS                    {- karosuwE -}       `gloss`  [ "Karsua" ],
 
     -- ;; kurosuwE_1
     -- krswE   kurosuwE        Ndu     wrist bone
     -- krAsyE  karAsiyE        Ndip    wrist bones
 
-    noun     Identity                  {- kurosuwE -}       `others` [ "karAsiy` Ndip" ]
+    noun     KuRDUS                    {- kurosuwE -}       `others` [ "karAsiy` Ndip" ]
                                                             `gloss`  [ "wrist bone", "wrist bones" ] ]
 
  -- ;--- krsf
@@ -4778,13 +4750,13 @@ lexicon = listing "Lexicon properties"
     -- krsf    karosaf PV      hamstring;hock
     -- krsf    karosif IV_yu   hamstring;hock
 
-    verb     FaCCaL                    {- karosaf -}        `others` [ "karsif IV_yu" ]
+    verb     KaRDaS                    {- karosaf -}        `others` [ "karsif IV_yu" ]
                                                             `gloss`  [ "hamstring", "hock" ],
 
     -- ;; karosafap_1
     -- krsf    karosaf Nap     hamstringing;hocking
 
-    noun     FaCCaL |< aT              {- karosafap -}      `others` [ "karsaf Nap" ]
+    noun     KaRDaS |< aT              {- karosafap -}      `others` [ "karsaf Nap" ]
                                                             `gloss`  [ "hamstringing", "hocking" ] ]
 
  -- ;--- krsy
@@ -4878,7 +4850,7 @@ lexicon = listing "Lexicon properties"
     -- ;; karo$uwniy~_1
     -- kr$wny  karo$uwniy~     N       Karshouni (Arabic in Syriac script)
 
-    noun     FaCCUL |< Iy              {- karo$uwniy~ -}    `gloss`  [ "Karshouni ( Arabic in Syriac script )" ] ]
+    noun     KaRDUS |< Iy              {- karo$uwniy~ -}    `gloss`  [ "Karshouni ( Arabic in Syriac script )" ] ]
 
  -- ;--- krE
 
@@ -4977,12 +4949,16 @@ lexicon = listing "Lexicon properties"
     -- krAk    kar~Ak  NapAt   dredging machine;penitentiary
 
     noun     FaCCAL |< aT              {- kar~Akap -}       `others` [ "karrAk NapAt" ]
-                                                            `gloss`  [ "dredging machine", "penitentiary" ],
+                                                            `gloss`  [ "dredging machine", "penitentiary" ] ]
+
+ -- ;; karokuwk_1
+
+ |> "karkuwk" <| [
 
     -- ;; karokuwk_1
     -- krkwk   karokuwk        Ndip    Kirkuk
 
-    noun     FaCCUL                    {- karokuwk -}       `gloss`  [ "Kirkuk" ] ]
+    noun     Identity                  {- karokuwk -}       `gloss`  [ "Kirkuk" ] ]
 
  -- ;--- krkb
 
@@ -4992,13 +4968,13 @@ lexicon = listing "Lexicon properties"
     -- krkb    karokab PV      confuse;disturb
     -- krkb    karokib IV_yu   confuse;disturb
 
-    verb     FaCCaL                    {- karokab -}        `others` [ "karkib IV_yu" ]
+    verb     KaRDaS                    {- karokab -}        `others` [ "karkib IV_yu" ]
                                                             `gloss`  [ "confuse", "disturb" ],
 
     -- ;; karokabap_1
     -- krkb    karokab Nap     disorder;confusion
 
-    noun     FaCCaL |< aT              {- karokabap -}      `others` [ "karkab Nap" ]
+    noun     KaRDaS |< aT              {- karokabap -}      `others` [ "karkab Nap" ]
                                                             `gloss`  [ "disorder", "confusion" ] ]
 
  -- ;--- krkd
@@ -5028,13 +5004,13 @@ lexicon = listing "Lexicon properties"
     -- krkr    karokar PV      rumble;gurgle;guffaw
     -- krkr    karokir IV_yu   rumble;gurgle;guffaw
 
-    verb     FaCCaL                    {- karokar -}        `others` [ "karkir IV_yu" ]
+    verb     KaRDaS                    {- karokar -}        `others` [ "karkir IV_yu" ]
                                                             `gloss`  [ "rumble", "gurgle", "guffaw" ],
 
     -- ;; karokarap_1
     -- krkr    karokar Nap     rumbling;gurgling;guffaw
 
-    noun     FaCCaL |< aT              {- karokarap -}      `others` [ "karkar Nap" ]
+    noun     KaRDaS |< aT              {- karokarap -}      `others` [ "karkar Nap" ]
                                                             `gloss`  [ "rumbling", "gurgling", "guffaw" ] ]
 
  -- ;--- krkz
@@ -5197,7 +5173,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kuromAn_1
     -- krmAn   kuromAn NF      in honor of;for the sake of     [[kuromAn/ADV]]
 
-    noun     FuCCAL                    {- kuromAn -}        `gloss`  [ "in honor of", "for the sake of" ] ]
+    noun     KuRDAS                    {- kuromAn -}        `gloss`  [ "in honor of", "for the sake of" ] ]
 
  -- ;; karAmap_1
 
@@ -5343,19 +5319,19 @@ lexicon = listing "Lexicon properties"
     -- krm$    karoma$ PV      pucker;wrinkle
     -- krm$    karomi$ IV_yu   pucker;wrinkle
 
-    verb     FaCCaL                    {- karoma$ -}        `others` [ "karmi^s IV_yu" ]
+    verb     KaRDaS                    {- karoma$ -}        `others` [ "karmi^s IV_yu" ]
                                                             `gloss`  [ "pucker", "wrinkle" ],
 
     -- ;; takaroma$_1
     -- tkrm$   takaroma$       PV_intr be puckered;wrinkle
     -- tkrm$   takaroma$       IV_intr be puckered;wrinkle
 
-    verb     TaFaCCaL                  {- takaroma$ -}      `gloss`  [ "be puckered", "wrinkle" ],
+    verb     TaKaRDaS                  {- takaroma$ -}      `gloss`  [ "be puckered", "wrinkle" ],
 
     -- ;; karoma$ap_1
     -- krm$    karoma$ NapAt   wrinkle;crease;pucker
 
-    noun     FaCCaL |< aT              {- karoma$ap -}      `others` [ "karma^s NapAt" ]
+    noun     KaRDaS |< aT              {- karoma$ap -}      `others` [ "karma^s NapAt" ]
                                                             `gloss`  [ "wrinkle", "crease", "pucker" ] ]
 
  -- ;--- krml
@@ -5365,23 +5341,23 @@ lexicon = listing "Lexicon properties"
     -- ;; karomal_1
     -- krml    karomal N0      Mt. Carmel (Palestine)
 
-    noun     FaCCaL                    {- karomal -}        `gloss`  [ "Mt. Carmel ( Palestine )" ],
+    noun     KaRDaS                    {- karomal -}        `gloss`  [ "Mt. Carmel ( Palestine )" ],
 
     -- ;; karomal_2
     -- krml    karomal N0      Karmal
 
-    noun     FaCCaL                    {- karomal -}        `gloss`  [ "Karmal" ],
+    noun     KaRDaS                    {- karomal -}        `gloss`  [ "Karmal" ],
 
     -- ;; karomaliy~_1
     -- krmly   karomaliy~      Nall    Carmelite     [[karomaliy~/NOUN]]
     -- krmly   karomaliy~      Nall    Carmelite     [[karomaliy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- karomaliy~ -}     `gloss`  [ "Carmelite" ],
+    noun     KaRDaS |< Iy              {- karomaliy~ -}     `gloss`  [ "Carmelite" ],
 
     -- ;; karomaliy~_2
     -- krmly   karomaliy~      N0      Karmali
 
-    noun     FaCCaL |< Iy              {- karomaliy~ -}     `gloss`  [ "Karmali" ] ]
+    noun     KaRDaS |< Iy              {- karomaliy~ -}     `gloss`  [ "Karmali" ] ]
 
  -- ;; krimoliyn_1
 
@@ -5397,19 +5373,11 @@ lexicon = listing "Lexicon properties"
  |> "krn^s" <| [
 
     -- ;; kuroniy$_1
-
-    root     Identity                                        ]
-
- -- ;; kuroniy$_1
-
- |> "kurniy^s" <| [
-
-    -- ;; kuroniy$_1
     -- krny$   kuroniy$        N       corniche;coastal road
     -- krAny$  karAniy$        Ndip    corniches;coastal roads
     -- kwrny$  kuwroniy$       N       corniche;coastal road
 
-    noun     Identity                  {- kuroniy$ -}       `others` [ "kuwrniy^s N", "karAniy^s Ndip" ]
+    noun     KuRDIS                    {- kuroniy$ -}       `others` [ "kuwrniy^s N", "karAniy^s Ndip" ]
                                                             `gloss`  [ "corniche", "coastal road", "corniches", "coastal roads" ] ]
 
  -- ;--- krnf
@@ -5420,13 +5388,13 @@ lexicon = listing "Lexicon properties"
     -- krnAf   kuronAf Ndu     palm stump
     -- krAnf   karAnif Ndip    palm stumps
 
-    noun     FuCCAL                    {- kuronAf -}        `others` [ "karAnif Ndip" ]
+    noun     KuRDAS                    {- kuronAf -}        `others` [ "karAnif Ndip" ]
                                                             `gloss`  [ "palm stump", "palm stumps" ],
 
     -- ;; kuronAfap_1
     -- krnAf   kuronAf NapAt   gunstock;rifle butt
 
-    noun     FuCCAL |< aT              {- kuronAfap -}      `others` [ "kurnAf NapAt" ]
+    noun     KuRDAS |< aT              {- kuronAfap -}      `others` [ "kurnAf NapAt" ]
                                                             `gloss`  [ "gunstock", "rifle butt" ] ]
 
  -- ;--- krnfl
@@ -5512,7 +5480,7 @@ lexicon = listing "Lexicon properties"
     -- ;; karonak_1
     -- krnk    karonak N       Karnak
 
-    noun     FaCCaL                    {- karonak -}        `gloss`  [ "Karnak" ] ]
+    noun     KaRDaS                    {- karonak -}        `gloss`  [ "Karnak" ] ]
 
  -- ;--- krny
 
@@ -5524,12 +5492,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; karoniyh_1
 
- |> "karniyh" <| [
+ |> "krnh" <| [
 
     -- ;; karoniyh_1
     -- krnyh   karoniyh        N/At    identity card;carnet
 
-    noun     Identity                  {- karoniyh -}       `gloss`  [ "identity card", "carnet" ] ]
+    noun     KaRDIS                    {- karoniyh -}       `gloss`  [ "identity card", "carnet" ] ]
 
  -- ;--- krh
 
@@ -6023,11 +5991,7 @@ lexicon = listing "Lexicon properties"
     -- kry     koray   IV_Ann_Pass_yu  be rented;be leased
 
     verb     HaFCY                     {- >akoraY -}        `others` [ "krY IV_0_Pass_yu", "'akr PV_ttAw", "kr IV_0hwnyn_yu", "'akrA PV_h", "'akray PV_Atn", "kray IV_Ann_Pass_yu", "kriy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "rent", "lease", "be rented", "be leased" ] ]
-
- -- ;; takar~aY_1
-
- |> "krr" <| [
+                                                            `gloss`  [ "rent", "lease", "be rented", "be leased" ],
 
     -- ;; takar~aY_1
     -- tkrY    takar~aY        PV_0    be asleep
@@ -6038,11 +6002,7 @@ lexicon = listing "Lexicon properties"
     -- tkr     takar~  IV_0hwnyn       be asleep
 
     verb     TaFaCCY                   {- takar~aY -}       `others` [ "takarr PV_ttAw_intr IV_0hwnyn", "takarray PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "be asleep" ] ]
-
- -- ;; {ikotaraY_1
-
- |> "kr" <| [
+                                                            `gloss`  [ "be asleep" ],
 
     -- ;; {ikotaraY_1
     -- <ktrY   {ikotaraY       PV_0    rent;hire
@@ -6489,7 +6449,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mukazobar_1
     -- mkzbr   mukazobar       N-ap    curly;frizzy;kinky
 
-    noun     MuFaCCaL                  {- mukazobar -}      `gloss`  [ "curly", "frizzy", "kinky" ] ]
+    noun     MuKaRDaS                  {- mukazobar -}      `gloss`  [ "curly", "frizzy", "kinky" ] ]
 
  -- ;--- kzr
 
@@ -6517,13 +6477,13 @@ lexicon = listing "Lexicon properties"
     -- kzkz    kazokaz PV      gnash teeth
     -- kzkz    kazokiz IV_yu   gnash teeth
 
-    verb     FaCCaL                    {- kazokaz -}        `others` [ "kazkiz IV_yu" ]
+    verb     KaRDaS                    {- kazokaz -}        `others` [ "kazkiz IV_yu" ]
                                                             `gloss`  [ "gnash teeth" ],
 
     -- ;; kazokazap_1
     -- kzkz    kazokaz Nap     gnashing of teeth
 
-    noun     FaCCaL |< aT              {- kazokazap -}      `others` [ "kazkaz Nap" ]
+    noun     KaRDaS |< aT              {- kazokazap -}      `others` [ "kazkaz Nap" ]
                                                             `gloss`  [ "gnashing of teeth" ] ]
 
  -- ;--- ksb
@@ -7146,7 +7106,7 @@ lexicon = listing "Lexicon properties"
     -- ksks    kasokas PV      pound;pulverize
     -- ksks    kasokis IV_yu   pound;pulverize
 
-    verb     FaCCaL                    {- kasokas -}        `others` [ "kaskis IV_yu" ]
+    verb     KaRDaS                    {- kasokas -}        `others` [ "kaskis IV_yu" ]
                                                             `gloss`  [ "pound", "pulverize" ] ]
 
  -- ;; kusokus_1
@@ -7180,7 +7140,7 @@ lexicon = listing "Lexicon properties"
     -- kskAs   kusokAs Ndu     couscous sieve
     -- kskAs   kasokAs Ndu     couscous sieve
 
-    noun     FuCCAL                    {- kusokAs -}        `others` [ "kaskAs Ndu" ]
+    noun     KuRDAS                    {- kusokAs -}        `others` [ "kaskAs Ndu" ]
                                                             `gloss`  [ "couscous sieve" ] ]
 
  -- ;--- ksl
@@ -7348,11 +7308,7 @@ lexicon = listing "Lexicon properties"
     -- ksy     kosay   IV_Ann_Pass_yu  be clothed;be attired
 
     verb     HaFCY                     {- >akosaY -}        `others` [ "ks IV_0hwnyn_yu", "ksay IV_Ann_Pass_yu", "ksY IV_0_Pass_yu", "'aksA PV_h", "'aksay PV_Atn", "ksiy IV_0hAnn_yu", "'aks PV_ttAw" ]
-                                                            `gloss`  [ "clothe", "attire", "be clothed", "be attired" ] ]
-
- -- ;; takas~aY_1
-
- |> "kss" <| [
+                                                            `gloss`  [ "clothe", "attire", "be clothed", "be attired" ],
 
     -- ;; takas~aY_1
     -- tksY    takas~aY        PV_0    be clothed;be attired
@@ -7363,11 +7319,7 @@ lexicon = listing "Lexicon properties"
     -- tks     takas~  IV_0hwnyn       be clothed;be attired
 
     verb     TaFaCCY                   {- takas~aY -}       `others` [ "takass PV_ttAw_intr IV_0hwnyn", "takassay PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "be clothed", "be attired" ] ]
-
- -- ;; {ikotasaY_1
-
- |> "ks" <| [
+                                                            `gloss`  [ "be clothed", "be attired" ],
 
     -- ;; {ikotasaY_1
     -- <ktsY   {ikotasaY       PV_0    be clothed;be attired
@@ -7799,14 +7751,14 @@ lexicon = listing "Lexicon properties"
     -- k$k$    ka$oka$ PV      flee;run away;rustle
     -- k$k$    ka$oki$ IV_yu   flee;run away;rustle
 
-    verb     FaCCaL                    {- ka$oka$ -}        `others` [ "ka^ski^s IV_yu" ]
+    verb     KaRDaS                    {- ka$oka$ -}        `others` [ "ka^ski^s IV_yu" ]
                                                             `gloss`  [ "flee", "run away", "rustle" ],
 
     -- ;; ka$oka$_2
     -- k$k$    ka$oka$ Ndu     seam;hem
     -- k$Ak$   ka$Aki$ Ndip    seams;hems
 
-    noun     FaCCaL                    {- ka$oka$ -}        `others` [ "ka^sAki^s Ndip" ]
+    noun     KaRDaS                    {- ka$oka$ -}        `others` [ "ka^sAki^s Ndip" ]
                                                             `gloss`  [ "seam", "hem", "seams", "hems" ] ]
 
  -- ;; ki$oki$iy~_1
@@ -7825,69 +7777,45 @@ lexicon = listing "Lexicon properties"
     -- ;; ka$okuwl_1
     -- k$kwl   ka$okuwl        N       scrapbook;album
 
-    noun     FaCCUL                    {- ka$okuwl -}       `gloss`  [ "scrapbook", "album" ] ]
+    noun     KaRDUS                    {- ka$okuwl -}       `gloss`  [ "scrapbook", "album" ] ]
 
  -- ;--- k$mr
 
  |> "k^smr" <| [
 
     -- ;; ka$omiyr_1
-
-    root     Identity                                        ]
-
- -- ;; ka$omiyr_1
-
- |> "ka^smiyr" <| [
-
-    -- ;; ka$omiyr_1
     -- k$myr   ka$omiyr        Ndip    Kashmir
     -- kA$myr  kA$omiyr        Ndip    Kashmir
 
-    noun     Identity                  {- ka$omiyr -}       `others` [ "kA^smiyr Ndip" ]
-                                                            `gloss`  [ "Kashmir" ] ]
-
- -- ;; ka$omiyr_2
-
- |> "ka^smiyr" <| [
+    noun     KaRDIS                    {- ka$omiyr -}       `others` [ "kA^smiyr Ndip" ]
+                                                            `gloss`  [ "Kashmir" ],
 
     -- ;; ka$omiyr_2
     -- k$myr   ka$omiyr        Ndip    cashmere
     -- kA$myr  kA$omiyr        Ndip    cashmere
 
-    noun     Identity                  {- ka$omiyr -}       `others` [ "kA^smiyr Ndip" ]
-                                                            `gloss`  [ "cashmere" ] ]
-
- -- ;; ka$omiyriy~_1
-
- |> "ka^smiyr" <| [
+    noun     KaRDIS                    {- ka$omiyr -}       `others` [ "kA^smiyr Ndip" ]
+                                                            `gloss`  [ "cashmere" ],
 
     -- ;; ka$omiyriy~_1
     -- k$myry  ka$omiyriy~     Nall    from/of Kashmir     [[ka$omiyriy~/ADJ]]
     -- kA$myry kA$omiyriy~     Nall    from/of Kashmir     [[ka$omiyriy~/ADJ]]
 
-    noun     Identity |< Iy            {- ka$omiyriy~ -}    `others` [ "kA^smiyriyy Nall" ]
-                                                            `gloss`  [ "from / of Kashmir" ] ]
-
- -- ;; ka$omiyriy~_2
-
- |> "ka^smiyr" <| [
+    noun     KaRDIS |< Iy              {- ka$omiyriy~ -}    `others` [ "kA^smiyriyy Nall" ]
+                                                            `gloss`  [ "from / of Kashmir" ],
 
     -- ;; ka$omiyriy~_2
     -- k$myry  ka$omiyriy~     Nall    cashmere     [[ka$omiyriy~/ADJ]]
     -- kA$myry kA$omiyriy~     Nall    cashmere     [[ka$omiyriy~/ADJ]]
 
-    noun     Identity |< Iy            {- ka$omiyriy~ -}    `others` [ "kA^smiyriyy Nall" ]
-                                                            `gloss`  [ "cashmere" ] ]
-
- -- ;; ka$omiyriy~_3
-
- |> "ka^smiyr" <| [
+    noun     KaRDIS |< Iy              {- ka$omiyriy~ -}    `others` [ "kA^smiyriyy Nall" ]
+                                                            `gloss`  [ "cashmere" ],
 
     -- ;; ka$omiyriy~_3
     -- k$myry  ka$omiyriy~     Nall    Kashmiri
     -- kA$myry kA$omiyriy~     Nall    Kashmiri
 
-    noun     Identity |< Iy            {- ka$omiyriy~ -}    `others` [ "kA^smiyriyy Nall" ]
+    noun     KaRDIS |< Iy              {- ka$omiyriy~ -}    `others` [ "kA^smiyriyy Nall" ]
                                                             `gloss`  [ "Kashmiri" ] ]
 
  -- ;--- k$m$
@@ -8158,7 +8086,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mukaEobar_1
     -- mkEbr   mukaEobar       N-ap    knotty;knobby;gnarled     [[mukaEobar/ADJ]]
 
-    noun     MuFaCCaL                  {- mukaEobar -}      `gloss`  [ "knotty", "knobby", "gnarled" ] ]
+    noun     MuKaRDaS                  {- mukaEobar -}      `gloss`  [ "knotty", "knobby", "gnarled" ] ]
 
  -- ;--- kEbl
 
@@ -8168,13 +8096,13 @@ lexicon = listing "Lexicon properties"
     -- kEbl    kaEobal PV      trip up;make stumble
     -- kEbl    kaEobil IV_yu   trip up;make stumble
 
-    verb     FaCCaL                    {- kaEobal -}        `others` [ "ka`bil IV_yu" ]
+    verb     KaRDaS                    {- kaEobal -}        `others` [ "ka`bil IV_yu" ]
                                                             `gloss`  [ "trip up", "make stumble" ],
 
     -- ;; kaEobalap_1
     -- kEbl    kaEobal Nap     tripping up;making stumble
 
-    noun     FaCCaL |< aT              {- kaEobalap -}      `others` [ "ka`bal Nap" ]
+    noun     KaRDaS |< aT              {- kaEobalap -}      `others` [ "ka`bal Nap" ]
                                                             `gloss`  [ "tripping up", "making stumble" ] ]
 
  -- ;--- kEk
@@ -8769,13 +8697,13 @@ lexicon = listing "Lexicon properties"
     -- kfkf    kafokaf PV      hold back
     -- kfkf    kafokif IV_yu   hold back
 
-    verb     FaCCaL                    {- kafokaf -}        `others` [ "kafkif IV_yu" ]
+    verb     KaRDaS                    {- kafokaf -}        `others` [ "kafkif IV_yu" ]
                                                             `gloss`  [ "hold back" ],
 
     -- ;; kafokafap_1
     -- kfkf    kafokaf Nap     holding back
 
-    noun     FaCCaL |< aT              {- kafokafap -}      `others` [ "kafkaf Nap" ]
+    noun     KaRDaS |< aT              {- kafokafap -}      `others` [ "kafkaf Nap" ]
                                                             `gloss`  [ "holding back" ] ]
 
  -- ;--- kfl
@@ -9641,17 +9569,9 @@ lexicon = listing "Lexicon properties"
  |> "kl_tm" <| [
 
     -- ;; kulovuwm_1
-
-    root     Identity                                        ]
-
- -- ;; kulovuwm_1
-
- |> "kul_tuwm" <| [
-
-    -- ;; kulovuwm_1
     -- klvwm   kulovuwm        Nprop   Kulthoum
 
-    noun     Identity                  {- kulovuwm -}       `gloss`  [ "Kulthoum" ] ]
+    noun     KuRDUS                    {- kulovuwm -}       `gloss`  [ "Kulthoum" ] ]
 
  -- ;--- klH
 
@@ -9794,18 +9714,10 @@ lexicon = listing "Lexicon properties"
  |> "kls.t" <| [
 
     -- ;; kalosiyT_1
-
-    root     Identity                                        ]
-
- -- ;; kalosiyT_1
-
- |> "kalsiy.t" <| [
-
-    -- ;; kalosiyT_1
     -- klsyT   kalosiyT        Napdu   stockings
     -- klAsT   kalAsiT Ndip    stockings
 
-    noun     Identity                  {- kalosiyT -}       `others` [ "kalAsi.t Ndip" ]
+    noun     KaRDIS                    {- kalosiyT -}       `others` [ "kalAsi.t Ndip" ]
                                                             `gloss`  [ "stockings" ] ]
 
  -- ;--- klsn
@@ -9815,7 +9727,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kalosuwn_1
     -- klswn   kalosuwn        NduAt   underpants
 
-    noun     FaCCUL                    {- kalosuwn -}       `gloss`  [ "underpants" ] ]
+    noun     KaRDUS                    {- kalosuwn -}       `gloss`  [ "underpants" ] ]
 
  -- ;--- klsy
 
@@ -9994,17 +9906,9 @@ lexicon = listing "Lexicon properties"
  |> "klk`" <| [
 
     -- ;; kalAkiyE_1
-
-    root     Identity                                        ]
-
- -- ;; kalAkiyE_1
-
- |> "kalAkiy`" <| [
-
-    -- ;; kalAkiyE_1
     -- klAkyE  kalAkiyE        Ndip    fragments (bone)
 
-    noun     Identity                  {- kalAkiyE -}       `gloss`  [ "fragments ( bone )" ] ]
+    noun     KaRADIS                   {- kalAkiyE -}       `gloss`  [ "fragments ( bone )" ] ]
 
  -- ;--- klkl
 
@@ -10014,32 +9918,32 @@ lexicon = listing "Lexicon properties"
     -- klkl    kalokal PV_intr become callous
     -- klkl    kalokil IV_intr_yu      become callous
 
-    verb     FaCCaL                    {- kalokal -}        `others` [ "kalkil IV_intr_yu" ]
+    verb     KaRDaS                    {- kalokal -}        `others` [ "kalkil IV_intr_yu" ]
                                                             `gloss`  [ "become callous" ],
 
     -- ;; takalokal_1
     -- tklkl   takalokal       PV_intr become callous
     -- tklkl   takalokal       IV_intr become callous
 
-    verb     TaFaCCaL                  {- takalokal -}      `gloss`  [ "become callous" ],
+    verb     TaKaRDaS                  {- takalokal -}      `gloss`  [ "become callous" ],
 
     -- ;; kalokal_2
     -- klkl    kalokal N       chest;thorax;oppressive burden
     -- klAkl   kalAkil Ndip    chests;thoraxes;oppressive burdens
 
-    noun     FaCCaL                    {- kalokal -}        `others` [ "kalAkil Ndip" ]
+    noun     KaRDaS                    {- kalokal -}        `others` [ "kalAkil Ndip" ]
                                                             `gloss`  [ "chest", "thorax", "oppressive burden", "chests", "thoraxes", "oppressive burdens" ],
 
     -- ;; kalokalap_1
     -- klkl    kalokal Nap     callosity;callus
 
-    noun     FaCCaL |< aT              {- kalokalap -}      `others` [ "kalkal Nap" ]
+    noun     KaRDaS |< aT              {- kalokalap -}      `others` [ "kalkal Nap" ]
                                                             `gloss`  [ "callosity", "callus" ],
 
     -- ;; mukalokal_1
     -- mklkl   mukalokal       N-ap    callous     [[mukalokal/ADJ]]
 
-    noun     MuFaCCaL                  {- mukalokal -}      `gloss`  [ "callous" ] ]
+    noun     MuKaRDaS                  {- mukalokal -}      `gloss`  [ "callous" ] ]
 
  -- ;--- klm
 
@@ -10189,17 +10093,13 @@ lexicon = listing "Lexicon properties"
     -- kwAlyn  kawAliyn        Ndip    door locks
 
     noun     Identity                  {- kAluwn -}         `others` [ "kawAliyn Ndip" ]
-                                                            `gloss`  [ "door lock", "door locks" ] ]
-
- -- ;; kawAliyniy~_1
-
- |> "kawAliyn" <| [
+                                                            `gloss`  [ "door lock", "door locks" ],
 
     -- ;; kawAliyniy~_1
     -- kwAlyny kawAliyniy~     Ndu     locksmith
     -- kwAlyny kawAliyniy~     Nap     locksmiths     [[kawAliyniy~/NOUN]]
 
-    noun     Identity |< Iy            {- kawAliyniy~ -}    `gloss`  [ "locksmith", "locksmiths" ] ]
+    noun     FawACIL |< Iy             {- kawAliyniy~ -}    `gloss`  [ "locksmith", "locksmiths" ] ]
 
  -- ;--- klw
 
@@ -10287,13 +10187,13 @@ lexicon = listing "Lexicon properties"
     -- klwr    kalowar PV      chlorinate
     -- klwr    kalowir IV_yu   chlorinate
 
-    verb     FaCCaL                    {- kalowar -}        `others` [ "kalwir IV_yu" ]
+    verb     KaRDaS                    {- kalowar -}        `others` [ "kalwir IV_yu" ]
                                                             `gloss`  [ "chlorinate" ],
 
     -- ;; kalowarap_1
     -- klwr    kalowar Nap     chlorination
 
-    noun     FaCCaL |< aT              {- kalowarap -}      `others` [ "kalwar Nap" ]
+    noun     KaRDaS |< aT              {- kalowarap -}      `others` [ "kalwar Nap" ]
                                                             `gloss`  [ "chlorination" ] ]
 
  -- ;; kluwruwfuwrom_1
@@ -10607,7 +10507,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kamobuw$ap_1
     -- kmbw$   kamobuw$        Nap     prompter's box
 
-    noun     FaCCUL |< aT              {- kamobuw$ap -}     `others` [ "kambuw^s Nap" ]
+    noun     KaRDUS |< aT              {- kamobuw$ap -}     `others` [ "kambuw^s Nap" ]
                                                             `gloss`  [ "prompter 's box" ] ]
 
  -- ;--- kmby
@@ -10956,7 +10856,7 @@ lexicon = listing "Lexicon properties"
     -- kmsAry  kumosAriy~      Ndu     conductor;ticket man
     -- kmsAry  kumosAriy~      Nap     conductors;ticket men     [[kumosAriy~/NOUN]]
 
-    noun     FuCCAL |< Iy              {- kumosAriy~ -}     `gloss`  [ "conductor", "ticket man", "conductors", "ticket men" ] ]
+    noun     KuRDAS |< Iy              {- kumosAriy~ -}     `gloss`  [ "conductor", "ticket man", "conductors", "ticket men" ] ]
 
  -- ;--- km$
 
@@ -11348,7 +11248,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kamoyuwn_1
     -- kmywn   kamoyuwn        NduAt   truck
 
-    noun     FaCCUL                    {- kamoyuwn -}       `gloss`  [ "truck" ] ]
+    noun     KaRDUS                    {- kamoyuwn -}       `gloss`  [ "truck" ] ]
 
  -- ;--- kn
 
@@ -11534,12 +11434,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; kunotuwriy~_1
 
- |> "kuntuwr" <| [
+ |> "kntr" <| [
 
     -- ;; kunotuwriy~_1
     -- kntwry  kunotuwriy~     N-ap    contour;outline     [[kunotuwriy~/ADJ]]
 
-    noun     Identity |< Iy            {- kunotuwriy~ -}    `gloss`  [ "contour", "outline" ] ]
+    noun     KuRDUS |< Iy              {- kunotuwriy~ -}    `gloss`  [ "contour", "outline" ] ]
 
  -- ;--- knj
 
@@ -11644,7 +11544,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kanoduwz_1
     -- kndwz   kanoduwz        N       beef
 
-    noun     FaCCUL                    {- kanoduwz -}       `gloss`  [ "beef" ] ]
+    noun     KaRDUS                    {- kanoduwz -}       `gloss`  [ "beef" ] ]
 
  -- ;--- knd$
 
@@ -11832,17 +11732,9 @@ lexicon = listing "Lexicon properties"
  |> "kn.sl" <| [
 
     -- ;; kunoSuwl_1
-
-    root     Identity                                        ]
-
- -- ;; kunoSuwl_1
-
- |> "kun.suwl" <| [
-
-    -- ;; kunoSuwl_1
     -- knSwl   kunoSuwl        NduAt   console
 
-    noun     Identity                  {- kunoSuwl -}       `gloss`  [ "console" ] ]
+    noun     KuRDUS                    {- kunoSuwl -}       `gloss`  [ "console" ] ]
 
  -- ;--- kn$
 
@@ -11896,7 +11788,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kanogar_1
     -- kngr    kanogar N       kangaroo
 
-    noun     FaCCaL                    {- kanogar -}        `gloss`  [ "kangaroo" ] ]
+    noun     KaRDaS                    {- kanogar -}        `gloss`  [ "kangaroo" ] ]
 
  -- ;--- knf
 
@@ -12005,7 +11897,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kanofAs_1
     -- knfAs   kanofAs NduAt   canvas
 
-    noun     FaCCAL                    {- kanofAs -}        `gloss`  [ "canvas" ] ]
+    noun     KaRDAS                    {- kanofAs -}        `gloss`  [ "canvas" ] ]
 
  -- ;--- knk
 
@@ -12025,7 +11917,7 @@ lexicon = listing "Lexicon properties"
     -- knkn    kanokan PV-n    stay at home;settle down
     -- knkn    kanokin IV-n_yu stay at home;settle down
 
-    verb     FaCCaL                    {- kanokan -}        `others` [ "kankin IV-n_yu" ]
+    verb     KaRDaS                    {- kanokan -}        `others` [ "kankin IV-n_yu" ]
                                                             `gloss`  [ "stay at home", "settle down" ] ]
 
  -- ;; kanakiynA_1
@@ -12116,11 +12008,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- kanaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "kanA PV_h", "kniy IV_0hAnn", "kanY PV_0", "kanay PV_Atn", "knY IV_0_Pass_yu" ]
-                                                            `gloss`  [ "allude to", "express indirectly", "nickname", "be nicknamed" ] ]
-
- -- ;; kan~aY_1
-
- |> "knn" <| [
+                                                            `gloss`  [ "allude to", "express indirectly", "nickname", "be nicknamed" ],
 
     -- ;; kan~aY_1
     -- knY     kan~aY  PV_0    nickname
@@ -12144,11 +12032,7 @@ lexicon = listing "Lexicon properties"
     -- tkn     takan~  IV_0hwnyn       be nicknamed
 
     verb     TaFaCCY                   {- takan~aY -}       `others` [ "takannay PV_Atn IV_Ann", "takann PV_ttAw_intr IV_0hwnyn" ]
-                                                            `gloss`  [ "be nicknamed" ] ]
-
- -- ;; {ikotanaY_1
-
- |> "kn" <| [
+                                                            `gloss`  [ "be nicknamed" ],
 
     -- ;; {ikotanaY_1
     -- <ktnY   {ikotanaY       PV_0    be nicknamed
@@ -12195,7 +12079,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mukan~aY_1
 
- |> "knn" <| [
+ |> "kn" <| [
 
     -- ;; mukan~aY_1
     -- mknY    mukan~aY        N0      nicknamed     [[mukan~aY/ADJ]]
@@ -12216,26 +12100,26 @@ lexicon = listing "Lexicon properties"
     -- khrb    kahorab PV      electrify
     -- khrb    kahorib IV_yu   electrify
 
-    verb     FaCCaL                    {- kahorab -}        `others` [ "kahrib IV_yu" ]
+    verb     KaRDaS                    {- kahorab -}        `others` [ "kahrib IV_yu" ]
                                                             `gloss`  [ "electrify" ],
 
     -- ;; takahorab_1
     -- tkhrb   takahorab       PV_intr be electrified
     -- tkhrb   takahorab       IV_intr be electrified
 
-    verb     TaFaCCaL                  {- takahorab -}      `gloss`  [ "be electrified" ],
+    verb     TaKaRDaS                  {- takahorab -}      `gloss`  [ "be electrified" ],
 
     -- ;; kahorabap_1
     -- khrb    kahorab NapAt   electricity;electrification
 
-    noun     FaCCaL |< aT              {- kahorabap -}      `others` [ "kahrab NapAt" ]
+    noun     KaRDaS |< aT              {- kahorabap -}      `others` [ "kahrab NapAt" ]
                                                             `gloss`  [ "electricity", "electrification" ],
 
     -- ;; kahorab_2
     -- khrb    kahorab Ndu     electron
     -- khArb   kahArib Ndip    electrons
 
-    noun     FaCCaL                    {- kahorab -}        `others` [ "kahArib Ndip" ]
+    noun     KaRDaS                    {- kahorab -}        `others` [ "kahArib Ndip" ]
                                                             `gloss`  [ "electron", "electrons" ] ]
 
  -- ;; kahorabA'_1
@@ -12263,12 +12147,12 @@ lexicon = listing "Lexicon properties"
     -- ;; kahorabiy~_1
     -- khrby   kahorabiy~      Nall    electrician     [[kahorabiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- kahorabiy~ -}     `gloss`  [ "electrician" ],
+    noun     KaRDaS |< Iy              {- kahorabiy~ -}     `gloss`  [ "electrician" ],
 
     -- ;; kahorabiy~_2
     -- khrby   kahorabiy~      N-ap    electrical     [[kahorabiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- kahorabiy~ -}     `gloss`  [ "electrical" ] ]
+    noun     KaRDaS |< Iy              {- kahorabiy~ -}     `gloss`  [ "electrical" ] ]
 
  -- ;; kuhayorib_1
 
@@ -12300,7 +12184,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mukahorab_1
     -- mkhrb   mukahorab       N-ap    electrified;electrically charged
 
-    noun     MuFaCCaL                  {- mukahorab -}      `gloss`  [ "electrified", "electrically charged" ] ]
+    noun     MuKaRDaS                  {- mukahorab -}      `gloss`  [ "electrified", "electrically charged" ] ]
 
  -- ;--- khrT
 
@@ -12323,7 +12207,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kahoraTap_1
     -- khrT    kahoraT Nap     electromagnetizing
 
-    noun     FaCCaL |< aT              {- kahoraTap -}      `others` [ "kahra.t Nap" ]
+    noun     KaRDaS |< aT              {- kahoraTap -}      `others` [ "kahra.t Nap" ]
                                                             `gloss`  [ "electromagnetizing" ] ]
 
  -- ;--- khrm
@@ -12788,12 +12672,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; kuwbuwn_1
 
- |> "kuwbuwn" <| [
+ |> "kwbn" <| [
 
     -- ;; kuwbuwn_1
     -- kwbwn   kuwbuwn N/At    coupon
 
-    noun     Identity                  {- kuwbuwn -}        `gloss`  [ "coupon" ] ]
+    noun     KuRDUS                    {- kuwbuwn -}        `gloss`  [ "coupon" ] ]
 
  -- ;--- kwby
 
@@ -12814,12 +12698,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; kuwbiyl_1
 
- |> "kuwbiyl" <| [
+ |> "kwbl" <| [
 
     -- ;; kuwbiyl_1
     -- kwbyl   kuwbiyl N0      cobblestones
 
-    noun     Identity                  {- kuwbiyl -}        `gloss`  [ "cobblestones" ] ]
+    noun     KuRDIS                    {- kuwbiyl -}        `gloss`  [ "cobblestones" ] ]
 
  -- ;--- kwt
 
@@ -12926,12 +12810,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; kuwtuwr_1
 
- |> "kuwtuwr" <| [
+ |> "kwtr" <| [
 
     -- ;; kuwtuwr_1
     -- kwtwr   kuwtuwr Nprop   Kotor
 
-    noun     Identity                  {- kuwtuwr -}        `gloss`  [ "Kotor" ] ]
+    noun     KuRDUS                    {- kuwtuwr -}        `gloss`  [ "Kotor" ] ]
 
  -- ;--- kwty
 
@@ -12967,12 +12851,12 @@ lexicon = listing "Lexicon properties"
     -- ;; kawovar_1
     -- kwvr    kawovar Ndip    Kawthar
 
-    noun     FaCCaL                    {- kawovar -}        `gloss`  [ "Kawthar" ],
+    noun     KaRDaS                    {- kawovar -}        `gloss`  [ "Kawthar" ],
 
     -- ;; kawovar_2
     -- kwvr    kawovar N       ample;abundant
 
-    noun     FaCCaL                    {- kawovar -}        `gloss`  [ "ample", "abundant" ] ]
+    noun     KaRDaS                    {- kawovar -}        `gloss`  [ "ample", "abundant" ] ]
 
  -- ;--- kwvl
 
@@ -12981,7 +12865,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kawoval_1
     -- kwvl    kawoval N       ship stern
 
-    noun     FaCCaL                    {- kawoval -}        `gloss`  [ "ship stern" ] ]
+    noun     KaRDaS                    {- kawoval -}        `gloss`  [ "ship stern" ] ]
 
  -- ;--- kwx
 
@@ -13120,12 +13004,16 @@ lexicon = listing "Lexicon properties"
 
  -- ;; kawAriy_1
 
- |> "kawAriy" <| [
+ |> "kry" <| [
 
     -- ;; kawAriy_1
     -- kwAry   kawAriy N0      Kawari
 
-    noun     Identity                  {- kawAriy -}        `gloss`  [ "Kawari" ],
+    noun     FawACiL                   {- kawAriy -}        `gloss`  [ "Kawari" ] ]
+
+ -- ;; mikowar_1
+
+ |> "kwr" <| [
 
     -- ;; mikowar_1
     -- mkwr    mikowar N       turban
@@ -13152,7 +13040,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; kuwrAl_1
 
-    noun     FuCCAL                    {- kuwrAl -}          ]
+    noun     KuRDAS                    {- kuwrAl -}          ]
 
  -- ;; kuwrAl_1
 
@@ -13213,7 +13101,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kawrajap_1
     -- kwrj    kawraj  Nap     bulk;wholesale
 
-    noun     FaCCaL |< aT              {- kawrajap -}       `others` [ "kawra^g Nap" ]
+    noun     KaRDaS |< aT              {- kawrajap -}       `others` [ "kawra^g Nap" ]
                                                             `gloss`  [ "bulk", "wholesale" ] ]
 
  -- ;--- kwrd
@@ -13377,12 +13265,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; kuwriyl_1
 
- |> "kuwriyl" <| [
+ |> "kwrl" <| [
 
     -- ;; kuwriyl_1
     -- kwryl   kuwriyl N0      Kurile
 
-    noun     Identity                  {- kuwriyl -}        `gloss`  [ "Kurile" ] ]
+    noun     KuRDIS                    {- kuwriyl -}        `gloss`  [ "Kurile" ] ]
 
  -- ;--- kwz
 
@@ -13518,7 +13406,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kawosaj_1
     -- kwsj    kawosaj N       swordfish
 
-    noun     FaCCaL                    {- kawosaj -}        `gloss`  [ "swordfish" ] ]
+    noun     KaRDaS                    {- kawosaj -}        `gloss`  [ "swordfish" ] ]
 
  -- ;--- kwsw
 
@@ -13705,24 +13593,24 @@ lexicon = listing "Lexicon properties"
     -- kwkb    kawokab Ndu     planet;star
     -- kwAkb   kawAkib Ndip    planets;stars
 
-    noun     FaCCaL                    {- kawokab -}        `others` [ "kawAkib Ndip" ]
+    noun     KaRDaS                    {- kawokab -}        `others` [ "kawAkib Ndip" ]
                                                             `gloss`  [ "planet", "star", "planets", "stars" ],
 
     -- ;; kawokab_2
     -- kwkb    kawokab N0      Kawkab
 
-    noun     FaCCaL                    {- kawokab -}        `gloss`  [ "Kawkab" ],
+    noun     KaRDaS                    {- kawokab -}        `gloss`  [ "Kawkab" ],
 
     -- ;; kawokabap_1
     -- kwkb    kawokab Napdu   star
 
-    noun     FaCCaL |< aT              {- kawokabap -}      `others` [ "kawkab Napdu" ]
+    noun     KaRDaS |< aT              {- kawokabap -}      `others` [ "kawkab Napdu" ]
                                                             `gloss`  [ "star" ],
 
     -- ;; kawokabiy~_1
     -- kwkby   kawokabiy~      Nall    stellar;planet     [[kawokabiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- kawokabiy~ -}     `gloss`  [ "stellar", "planet" ] ]
+    noun     KaRDaS |< Iy              {- kawokabiy~ -}     `gloss`  [ "stellar", "planet" ] ]
 
  -- ;; kuwayokib_1
 
@@ -13790,7 +13678,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; kuwlAn_1
 
-    noun     FuCCAL                    {- kuwlAn -}          ]
+    noun     KuRDAS                    {- kuwlAn -}          ]
 
  -- ;; kuwlAn_1
 
@@ -13823,18 +13711,10 @@ lexicon = listing "Lexicon properties"
  |> "kwls" <| [
 
     -- ;; kuwliys_1
-
-    root     Identity                                        ]
-
- -- ;; kuwliys_1
-
- |> "kuwliys" <| [
-
-    -- ;; kuwliys_1
     -- kwlys   kuwliys Ndu     coulisse;backdrop
     -- kwAlys  kawAliys        Ndip    scenes;stage
 
-    noun     Identity                  {- kuwliys -}        `others` [ "kawAliys Ndip" ]
+    noun     KuRDIS                    {- kuwliys -}        `others` [ "kawAliys Ndip" ]
                                                             `gloss`  [ "coulisse", "backdrop", "scenes", "stage" ] ]
 
  -- ;; kuwlisotiruwl_1
@@ -13936,12 +13816,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; kuwliyn_1
 
- |> "kuwliyn" <| [
+ |> "kwln" <| [
 
     -- ;; kuwliyn_1
     -- kwlyn   kuwliyn Nprop   Coleen
 
-    noun     Identity                  {- kuwliyn -}        `gloss`  [ "Coleen" ] ]
+    noun     KuRDIS                    {- kuwliyn -}        `gloss`  [ "Coleen" ] ]
 
  -- ;; kuwloyiyh_1
 
@@ -13992,7 +13872,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kiymAn_1
     -- kymAn   kiymAn  N       piles of trash;rubbish
 
-    noun     FiCCAL                    {- kiymAn -}         `gloss`  [ "piles of trash", "rubbish" ] ]
+    noun     KiRDAS                    {- kiymAn -}         `gloss`  [ "piles of trash", "rubbish" ] ]
 
  -- ;; kawomap_1
 
@@ -14020,7 +13900,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; kuwmAr_1
 
-    noun     FuCCAL                    {- kuwmAr -}          ]
+    noun     KuRDAS                    {- kuwmAr -}          ]
 
  -- ;; kuwmAr_1
 
@@ -14157,12 +14037,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; kuwmiydiy~_1
 
- |> "kuwmiyd" <| [
+ |> "kwmd" <| [
 
     -- ;; kuwmiydiy~_1
     -- kwmydy  kuwmiydiy~      Nall    comic;comedic     [[kuwmiydiy~/ADJ]]
 
-    noun     Identity |< Iy            {- kuwmiydiy~ -}     `gloss`  [ "comic", "comedic" ] ]
+    noun     KuRDIS |< Iy              {- kuwmiydiy~ -}     `gloss`  [ "comic", "comedic" ] ]
 
  -- ;; kuwmiydiyAn_1
 
@@ -14608,12 +14488,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; kuwhiyn_1
 
- |> "kuwhiyn" <| [
+ |> "kwhn" <| [
 
     -- ;; kuwhiyn_1
     -- kwhyn   kuwhiyn N0      Cohen
 
-    noun     Identity                  {- kuwhiyn -}        `gloss`  [ "Cohen" ] ]
+    noun     KuRDIS                    {- kuwhiyn -}        `gloss`  [ "Cohen" ] ]
 
  -- ;--- kwy
 
@@ -15302,7 +15182,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kiygAn_1
     -- kygAn   kiygAn  Nprop   Keegan
 
-    noun     FiCCAL                    {- kiygAn -}         `gloss`  [ "Keegan" ] ]
+    noun     KiRDAS                    {- kiygAn -}         `gloss`  [ "Keegan" ] ]
 
  -- ;--- kyk
 
@@ -15525,7 +15405,7 @@ lexicon = listing "Lexicon properties"
     -- ;; kayomuws_1
     -- kymws   kayomuws        N0      gastric juice
 
-    noun     FaCCUL                    {- kayomuws -}       `gloss`  [ "gastric juice" ] ]
+    noun     KaRDUS                    {- kayomuws -}       `gloss`  [ "gastric juice" ] ]
 
  -- ;--- kymy
 
@@ -15732,7 +15612,7 @@ lexicon = listing "Lexicon properties"
     -- kynyt   kiyniyt Nprop   Kenneth
     -- kynyv   kiyniyv Nprop   Kenneth
 
-    noun     FiCCIL                    {- kiyniyt -}        `others` [ "kiyniy_t Nprop" ]
+    noun     KiRDIS                    {- kiyniyt -}        `others` [ "kiyniy_t Nprop" ]
                                                             `gloss`  [ "Kenneth" ] ]
 
  -- ;; kiyniydiy_1
@@ -15746,12 +15626,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; kiyniyn_1
 
- |> "kyn" <| [
+ |> "kiyniyn" <| [
 
     -- ;; kiyniyn_1
     -- kynyn   kiyniyn N0      quinine
 
-    noun     FiCCIL                    {- kiyniyn -}        `gloss`  [ "quinine" ] ]
+    noun     Identity                  {- kiyniyn -}        `gloss`  [ "quinine" ] ]
 
  -- ;--- kyh
 

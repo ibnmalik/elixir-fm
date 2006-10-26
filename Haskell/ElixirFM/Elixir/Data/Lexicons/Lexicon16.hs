@@ -161,13 +161,13 @@ lexicon = listing "Lexicon properties"
     -- T>T&    Ta>oTa& PV_w    incline;bend
     -- T>T}    Ta>oTi} IV_yu   incline;bend
 
-    verb     FaCCaL                    {- Ta>oTa> -}        `others` [ ".ta'.ti' IV_yu", ".ta'.ta'A PV-|" ]
+    verb     KaRDaS                    {- Ta>oTa> -}        `others` [ ".ta'.ti' IV_yu", ".ta'.ta'A PV-|" ]
                                                             `gloss`  [ "incline", "bend" ],
 
     -- ;; muTa>oTi}_1
     -- mT>T}   muTa>oTi}       Nall    with bowed head     [[muTa>oTi}/ADJ]]
 
-    noun     MuFaCCiL                  {- muTa>oTi} -}      `gloss`  [ "with bowed head" ],
+    noun     MuKaRDiS                  {- muTa>oTi} -}      `gloss`  [ "with bowed head" ],
 
     -- ;; muTa>oTa>_1
     -- mT>T>   muTa>oTa>       N0_Nh   bowed;inclined     [[muTa>oTa>/ADJ]]
@@ -178,7 +178,7 @@ lexicon = listing "Lexicon properties"
     -- mT>T}   muTa>oTa}       Nuwn_Niyn       bowed;inclined
     -- mT>T    muTa>oTa        N-|t    bowed;inclined
 
-    noun     MuFaCCaL                  {- muTa>oTa> -}      `others` [ "mu.ta'.ta'A N-|", "mu.ta'.ta N-|t" ]
+    noun     MuKaRDaS                  {- muTa>oTa> -}      `others` [ "mu.ta'.ta'A N-|", "mu.ta'.ta N-|t" ]
                                                             `gloss`  [ "bowed", "inclined" ] ]
 
  -- ;--- TAmn
@@ -189,14 +189,14 @@ lexicon = listing "Lexicon properties"
     -- T>mn    Ta>oman PV-n    assuage;allay
     -- T>mn    Ta>omin IV-n_yu assuage;allay
 
-    verb     FaCCaL                    {- Ta>oman -}        `others` [ ".ta'min IV-n_yu" ]
+    verb     KaRDaS                    {- Ta>oman -}        `others` [ ".ta'min IV-n_yu" ]
                                                             `gloss`  [ "assuage", "allay" ],
 
     -- ;; taTa>oman_1
     -- tT>mn   taTa>oman       PV-n    assuage;allay
     -- tT>mn   taTa>oman       IV-n    assuage;allay
 
-    verb     TaFaCCaL                  {- taTa>oman -}      `gloss`  [ "assuage", "allay" ] ]
+    verb     TaKaRDaS                  {- taTa>oman -}      `gloss`  [ "assuage", "allay" ] ]
 
  -- ;--- TAwl
 
@@ -383,7 +383,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muTayobax_1
     -- mTybx   muTayobax       NduAt   kitchenette
 
-    noun     MuFaCCaL                  {- muTayobax -}      `gloss`  [ "kitchenette" ] ]
+    noun     MuKaRDaS                  {- muTayobax -}      `gloss`  [ "kitchenette" ] ]
 
  -- ;; TAbix_1
 
@@ -499,17 +499,13 @@ lexicon = listing "Lexicon properties"
     -- Tb$wr   Tabo$uwr        NapAt   chalk
     -- TbA$yr  TabA$iyr        Ndip    chalk
 
-    noun     FaCCUL |< aT              {- Tabo$uwrap -}     `others` [ ".tab^suwr NapAt", ".tabA^siyr Ndip" ]
-                                                            `gloss`  [ "chalk" ] ]
-
- -- ;; TabA$iyriy~_1
-
- |> ".tabA^siyr" <| [
+    noun     KaRDUS |< aT              {- Tabo$uwrap -}     `others` [ ".tab^suwr NapAt", ".tabA^siyr Ndip" ]
+                                                            `gloss`  [ "chalk" ],
 
     -- ;; TabA$iyriy~_1
     -- TbA$yry TabA$iyriy~     N-ap    cretaceous;chalky     [[TabA$iyriy~/ADJ]]
 
-    noun     Identity |< Iy            {- TabA$iyriy~ -}    `gloss`  [ "cretaceous", "chalky" ] ]
+    noun     KaRADIS |< Iy             {- TabA$iyriy~ -}    `gloss`  [ "cretaceous", "chalky" ] ]
 
  -- ;--- TbTb
 
@@ -519,19 +515,19 @@ lexicon = listing "Lexicon properties"
     -- TbTb    TaboTab PV      gurgle;lap up
     -- TbTb    TaboTib IV_yu   gurgle;lap up
 
-    verb     FaCCaL                    {- TaboTab -}        `others` [ ".tab.tib IV_yu" ]
+    verb     KaRDaS                    {- TaboTab -}        `others` [ ".tab.tib IV_yu" ]
                                                             `gloss`  [ "gurgle", "lap up" ],
 
     -- ;; TaboTabap_1
     -- TbTb    TaboTab Nap     gurgling;lapping up
 
-    noun     FaCCaL |< aT              {- TaboTabap -}      `others` [ ".tab.tab Nap" ]
+    noun     KaRDaS |< aT              {- TaboTabap -}      `others` [ ".tab.tab Nap" ]
                                                             `gloss`  [ "gurgling", "lapping up" ],
 
     -- ;; TaboTAbap_1
     -- TbTAb   TaboTAb Nap     mallet;racket
 
-    noun     FaCCAL |< aT              {- TaboTAbap -}      `others` [ ".tab.tAb Nap" ]
+    noun     KaRDAS |< aT              {- TaboTAbap -}      `others` [ ".tab.tAb Nap" ]
                                                             `gloss`  [ "mallet", "racket" ] ]
 
  -- ;--- TbE
@@ -1077,13 +1073,13 @@ lexicon = listing "Lexicon properties"
     -- THTH    TaHoTaH PV      shatter;smash
     -- THTH    TaHoTiH IV_yu   shatter;smash
 
-    verb     FaCCaL                    {- TaHoTaH -}        `others` [ ".ta.h.ti.h IV_yu" ]
+    verb     KaRDaS                    {- TaHoTaH -}        `others` [ ".ta.h.ti.h IV_yu" ]
                                                             `gloss`  [ "shatter", "smash" ],
 
     -- ;; TaHoTaHap_1
     -- THTH    TaHoTaH Nap     shattering;smashing
 
-    noun     FaCCaL |< aT              {- TaHoTaHap -}      `others` [ ".ta.h.ta.h Nap" ]
+    noun     KaRDaS |< aT              {- TaHoTaHap -}      `others` [ ".ta.h.ta.h Nap" ]
                                                             `gloss`  [ "shattering", "smashing" ] ]
 
  -- ;--- THl
@@ -1444,7 +1440,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Turo|niy~_1
     -- Tr|ny   Turo|niy~       N-ap    of unknown origin;wild     [[Turo|niy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- Turo|niy~ -}      `gloss`  [ "of unknown origin", "wild" ] ]
+    noun     KuRDAS |< Iy              {- Turo|niy~ -}      `gloss`  [ "of unknown origin", "wild" ] ]
 
  -- ;; <iTorA'_1
 
@@ -1549,19 +1545,11 @@ lexicon = listing "Lexicon properties"
  |> ".trbd" <| [
 
     -- ;; Turobiyd_1
-
-    root     Identity                                        ]
-
- -- ;; Turobiyd_1
-
- |> ".turbiyd" <| [
-
-    -- ;; Turobiyd_1
     -- Trbyd   Turobiyd        NduAt   torpedo
     -- Twrbyd  Tuwrobiyd       NduAt   torpedo
     -- TrAbyd  TarAbiyd        Ndip    torpedoes
 
-    noun     Identity                  {- Turobiyd -}       `others` [ ".tuwrbiyd NduAt", ".tarAbiyd Ndip" ]
+    noun     KuRDIS                    {- Turobiyd -}       `others` [ ".tuwrbiyd NduAt", ".tarAbiyd Ndip" ]
                                                             `gloss`  [ "torpedo", "torpedoes" ] ]
 
  -- ;--- Trbz
@@ -1569,18 +1557,10 @@ lexicon = listing "Lexicon properties"
  |> ".trbz" <| [
 
     -- ;; TarAbiyzap_1
-
-    root     Identity                                        ]
-
- -- ;; TarAbiyzap_1
-
- |> ".tarAbiyz" <| [
-
-    -- ;; TarAbiyzap_1
     -- TrAbyz  TarAbiyz        NapAt   table
     -- Trbyz   Tarabiyz        NapAt   table
 
-    noun     Identity |< aT            {- TarAbiyzap -}     `others` [ ".tarabiyz NapAt", ".tarAbiyz NapAt" ]
+    noun     KaRADIS |< aT             {- TarAbiyzap -}     `others` [ ".tarabiyz NapAt", ".tarAbiyz NapAt" ]
                                                             `gloss`  [ "table" ] ]
 
  -- ;; TarAbizuwn_1
@@ -1653,41 +1633,33 @@ lexicon = listing "Lexicon properties"
     -- Trbw$   Tarobuw$        Ndu     tarboush;fez
     -- TrAby$  TarAbiy$        Ndip    tarboushes;fezzes
 
-    noun     FaCCUL                    {- Tarobuw$ -}       `others` [ ".tarAbiy^s Ndip" ]
+    noun     KaRDUS                    {- Tarobuw$ -}       `others` [ ".tarAbiy^s Ndip" ]
                                                             `gloss`  [ "tarboush", "fez", "tarboushes", "fezzes" ],
 
     -- ;; Tarobuw$_2
     -- Trbw$   Tarobuw$        N0      Tarboush
 
-    noun     FaCCUL                    {- Tarobuw$ -}       `gloss`  [ "Tarboush" ] ]
-
- -- ;; TarAbiy$iy~_1
-
- |> ".tarAbiy^s" <| [
+    noun     KaRDUS                    {- Tarobuw$ -}       `gloss`  [ "Tarboush" ],
 
     -- ;; TarAbiy$iy~_1
     -- TrAby$y TarAbiy$iy~     Nall    tarboush merchant     [[TarAbiy$iy~/ADJ]]
 
-    noun     Identity |< Iy            {- TarAbiy$iy~ -}    `gloss`  [ "tarboush merchant" ] ]
-
- -- ;; TarAbiy$iy~_2
-
- |> ".tarAbiy^s" <| [
+    noun     KaRADIS |< Iy             {- TarAbiy$iy~ -}    `gloss`  [ "tarboush merchant" ],
 
     -- ;; TarAbiy$iy~_2
     -- TrAby$y TarAbiy$iy~     N0      Tarabishi
 
-    noun     Identity |< Iy            {- TarAbiy$iy~ -}    `gloss`  [ "Tarabishi" ],
+    noun     KaRADIS |< Iy             {- TarAbiy$iy~ -}    `gloss`  [ "Tarabishi" ],
 
     -- ;; muTaroba$_1
     -- mTrb$   muTaroba$       Nall    wearing a tarboush     [[muTaroba$/ADJ]]
 
-    noun     MuFaCCaL                  {- muTaroba$ -}      `gloss`  [ "wearing a tarboush" ],
+    noun     MuKaRDaS                  {- muTaroba$ -}      `gloss`  [ "wearing a tarboush" ],
 
     -- ;; mutaTarobi$_1
     -- mtTrb$  mutaTarobi$     Nall    wearing a tarboush     [[mutaTarobi$/ADJ]]
 
-    noun     MutaFaCCiL                {- mutaTarobi$ -}    `gloss`  [ "wearing a tarboush" ] ]
+    noun     MutaKaRDiS                {- mutaTarobi$ -}    `gloss`  [ "wearing a tarboush" ] ]
 
  -- ;--- TrH
 
@@ -1816,17 +1788,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; {iT~irAH_1
 
- |> ".t.tr.h" <| [
+ |> "i.t.tirA.h" <| [
 
     -- ;; {iT~irAH_1
     -- <TrAH   {iT~irAH        N/At    rejection;repudiation
     -- ATrAH   {iT~irAH        N/At    rejection;repudiation
 
-    noun     IFCiLAL                   {- {iT~irAH -}       `gloss`  [ "rejection", "repudiation" ] ]
-
- -- ;; maToruwH_1
-
- |> ".tr.h" <| [
+    noun     Identity                  {- {iT~irAH -}       `gloss`  [ "rejection", "repudiation" ],
 
     -- ;; maToruwH_1
     -- mTrwH   maToruwH        Nall    prostrate
@@ -1856,7 +1824,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Taroxuwn_1
     -- Trxwn   Taroxuwn        N       tarragon
 
-    noun     FaCCUL                    {- Taroxuwn -}       `gloss`  [ "tarragon" ] ]
+    noun     KaRDUS                    {- Taroxuwn -}       `gloss`  [ "tarragon" ] ]
 
  -- ;--- Trd
 
@@ -1934,13 +1902,17 @@ lexicon = listing "Lexicon properties"
     -- Tryd    Tariyd  N/ap    exiled;evicted;pariah     [[Tariyd/ADJ]]
     -- Tryd    Tariyd  NAn_Nayn        night and day
 
-    noun     FaCIL                     {- Tariyd -}         `gloss`  [ "exiled", "evicted", "pariah", "night and day" ],
+    noun     FaCIL                     {- Tariyd -}         `gloss`  [ "exiled", "evicted", "pariah", "night and day" ] ]
+
+ -- ;; TarodaY_1
+
+ |> ".tardY" <| [
 
     -- ;; TarodaY_1
     -- TrdY    TarodaY N0      exiled;evicted;pariahs
     -- TrdA    TarodA  Nhy     exiled;evicted;pariahs
 
-    noun     FaCCY                     {- TarodaY -}        `others` [ ".tardA Nhy" ]
+    noun     Identity                  {- TarodaY -}        `others` [ ".tardA Nhy" ]
                                                             `gloss`  [ "exiled", "evicted", "pariahs" ],
 
     -- ;; Tariydap_1
@@ -1974,23 +1946,23 @@ lexicon = listing "Lexicon properties"
 
  -- ;; {iT~irAd_1
 
- |> ".t.trd" <| [
+ |> "i.t.tirAd" <| [
 
     -- ;; {iT~irAd_1
     -- <TrAd   {iT~irAd        N/At    continuity;uniformity
     -- ATrAd   {iT~irAd        N/At    continuity;uniformity
 
-    noun     IFCiLAL                   {- {iT~irAd -}       `gloss`  [ "continuity", "uniformity" ],
+    noun     Identity                  {- {iT~irAd -}       `gloss`  [ "continuity", "uniformity" ] ]
+
+ -- ;; {iT~irAdiy~_1
+
+ |> "i.t.tirAd" <| [
 
     -- ;; {iT~irAdiy~_1
     -- <TrAdy  {iT~irAdiy~     N-ap    continuous;regular     [[{iT~irAdiy~/ADJ]]
     -- ATrAdy  {iT~irAdiy~     N-ap    continuous;regular     [[{iT~irAdiy~/ADJ]]
 
-    noun     IFCiLAL |< Iy             {- {iT~irAdiy~ -}    `gloss`  [ "continuous", "regular" ] ]
-
- -- ;; {isotiTorAd_1
-
- |> ".trd" <| [
+    noun     Identity |< Iy            {- {iT~irAdiy~ -}    `gloss`  [ "continuous", "regular" ],
 
     -- ;; {isotiTorAd_1
     -- <stTrAd {isotiTorAd     N/At    digression;excursus
@@ -2195,44 +2167,32 @@ lexicon = listing "Lexicon properties"
     -- TrTr    TaroTar PV      boast;swagger
     -- TrTr    TaroTir IV_yu   boast;swagger
 
-    verb     FaCCaL                    {- TaroTar -}        `others` [ ".tar.tir IV_yu" ]
+    verb     KaRDaS                    {- TaroTar -}        `others` [ ".tar.tir IV_yu" ]
                                                             `gloss`  [ "boast", "swagger" ],
 
     -- ;; TaroTarap_1
     -- TrTr    TaroTar Nap     boasting;swaggering
 
-    noun     FaCCaL |< aT              {- TaroTarap -}      `others` [ ".tar.tar Nap" ]
-                                                            `gloss`  [ "boasting", "swaggering" ] ]
-
- -- ;; TuroTuwr_1
-
- |> ".tur.tuwr" <| [
+    noun     KaRDaS |< aT              {- TaroTarap -}      `others` [ ".tar.tar Nap" ]
+                                                            `gloss`  [ "boasting", "swaggering" ],
 
     -- ;; TuroTuwr_1
     -- TrTwr   TuroTuwr        Ndu     conical cap
     -- TrATyr  TarATiyr        Ndip    conical caps
 
-    noun     Identity                  {- TuroTuwr -}       `others` [ ".tarA.tiyr Ndip" ]
-                                                            `gloss`  [ "conical cap", "conical caps" ] ]
-
- -- ;; TuroTuwr_2
-
- |> ".tur.tuwr" <| [
+    noun     KuRDUS                    {- TuroTuwr -}       `others` [ ".tarA.tiyr Ndip" ]
+                                                            `gloss`  [ "conical cap", "conical caps" ],
 
     -- ;; TuroTuwr_2
     -- TrTwr   TuroTuwr        N0      Tartour
 
-    noun     Identity                  {- TuroTuwr -}       `gloss`  [ "Tartour" ] ]
-
- -- ;; TaroTiyr_1
-
- |> ".tar.tiyr" <| [
+    noun     KuRDUS                    {- TuroTuwr -}       `gloss`  [ "Tartour" ],
 
     -- ;; TaroTiyr_1
     -- TrTyr   TaroTiyr        N       tartar
     -- TrTyr   TaroTiyr        N       wine stone
 
-    noun     Identity                  {- TaroTiyr -}       `gloss`  [ "tartar", "wine stone" ] ]
+    noun     KaRDIS                    {- TaroTiyr -}       `gloss`  [ "tartar", "wine stone" ] ]
 
  -- ;; TaraTuwr_1
 
@@ -2252,17 +2212,17 @@ lexicon = listing "Lexicon properties"
     -- ;; TaroTuws_1
     -- TrTws   TaroTuws        Ndip    Tartous (Syr.)
 
-    noun     FaCCUL                    {- TaroTuws -}       `gloss`  [ "Tartous ( Syr . )" ],
+    noun     KaRDUS                    {- TaroTuws -}       `gloss`  [ "Tartous ( Syr . )" ],
 
     -- ;; TaroTuwsiy~_1
     -- TrTwsy  TaroTuwsiy~     Nall    of/from Tartous (Syr.)
 
-    noun     FaCCUL |< Iy              {- TaroTuwsiy~ -}    `gloss`  [ "of / from Tartous ( Syr . )" ],
+    noun     KaRDUS |< Iy              {- TaroTuwsiy~ -}    `gloss`  [ "of / from Tartous ( Syr . )" ],
 
     -- ;; TaroTuwsiy~_2
     -- TrTwsy  TaroTuwsiy~     N0      Tartousi
 
-    noun     FaCCUL |< Iy              {- TaroTuwsiy~ -}    `gloss`  [ "Tartousi" ] ]
+    noun     KaRDUS |< Iy              {- TaroTuwsiy~ -}    `gloss`  [ "Tartousi" ] ]
 
  -- ;--- TrT$
 
@@ -2272,13 +2232,13 @@ lexicon = listing "Lexicon properties"
     -- TrT$    TaroTa$ PV      splash
     -- TrT$    TaroTi$ IV_yu   splash
 
-    verb     FaCCaL                    {- TaroTa$ -}        `others` [ ".tar.ti^s IV_yu" ]
+    verb     KaRDaS                    {- TaroTa$ -}        `others` [ ".tar.ti^s IV_yu" ]
                                                             `gloss`  [ "splash" ],
 
     -- ;; TaroTa$ap_1
     -- TrT$    TaroTa$ Nap     splashing
 
-    noun     FaCCaL |< aT              {- TaroTa$ap -}      `others` [ ".tar.ta^s Nap" ]
+    noun     KaRDaS |< aT              {- TaroTa$ap -}      `others` [ ".tar.ta^s Nap" ]
                                                             `gloss`  [ "splashing" ] ]
 
  -- ;--- TrTf
@@ -2288,7 +2248,7 @@ lexicon = listing "Lexicon properties"
     -- ;; TaroTuwfap_1
     -- TrTwf   TaroTuwf        NapAt   artichoke;truffle
 
-    noun     FaCCUL |< aT              {- TaroTuwfap -}     `others` [ ".tar.tuwf NapAt" ]
+    noun     KaRDUS |< aT              {- TaroTuwfap -}     `others` [ ".tar.tuwf NapAt" ]
                                                             `gloss`  [ "artichoke", "truffle" ] ]
 
  -- ;--- TrTq
@@ -2299,13 +2259,13 @@ lexicon = listing "Lexicon properties"
     -- TrTq    TaroTaq PV      creak;crackle
     -- TrTq    TaroTiq IV_yu   creak;crackle
 
-    verb     FaCCaL                    {- TaroTaq -}        `others` [ ".tar.tiq IV_yu" ]
+    verb     KaRDaS                    {- TaroTaq -}        `others` [ ".tar.tiq IV_yu" ]
                                                             `gloss`  [ "creak", "crackle" ],
 
     -- ;; TaroTaqap_1
     -- TrTq    TaroTaq Nap     creaking;crackling
 
-    noun     FaCCaL |< aT              {- TaroTaqap -}      `others` [ ".tar.taq Nap" ]
+    noun     KaRDaS |< aT              {- TaroTaqap -}      `others` [ ".tar.taq Nap" ]
                                                             `gloss`  [ "creaking", "crackling" ] ]
 
  -- ;--- Trf
@@ -2377,7 +2337,7 @@ lexicon = listing "Lexicon properties"
     -- TrfA}   TarofA} Nhy     tamarisk
     -- Trf     Tarof   Napdu   tamarisk
 
-    noun     FaCCAL                    {- TarofA' -}        `others` [ ".tarf Napdu" ]
+    noun     KaRDAS                    {- TarofA' -}        `others` [ ".tarf Napdu" ]
                                                             `gloss`  [ "tamarisk" ] ]
 
  -- ;; Tariyf_1
@@ -2568,16 +2528,12 @@ lexicon = listing "Lexicon properties"
     -- TwArq   TawAriq Ndip    misfortunes
 
     noun     FACiL |< aT               {- TAriqap -}        `others` [ ".tAriq Napdu", ".tawAriq Ndip" ]
-                                                            `gloss`  [ "misfortune", "calamity", "misfortunes" ] ]
-
- -- ;; TawAriq_1
-
- |> ".tawAriq" <| [
+                                                            `gloss`  [ "misfortune", "calamity", "misfortunes" ],
 
     -- ;; TawAriq_1
     -- TwArq   TawAriq Ndip    Tuareg
 
-    noun     Identity                  {- TawAriq -}        `gloss`  [ "Tuareg" ],
+    noun     FawACiL                   {- TawAriq -}        `gloss`  [ "Tuareg" ],
 
     -- ;; maToruwq_1
     -- mTrwq   maToruwq        N-ap    much-traveled;well-trodden     [[maToruwq/ADJ]]
@@ -2602,13 +2558,13 @@ lexicon = listing "Lexicon properties"
     -- TrqE    TaroqaE PV      crack
     -- TrqE    TaroqiE IV_yu   crack
 
-    verb     FaCCaL                    {- TaroqaE -}        `others` [ ".tarqi` IV_yu" ]
+    verb     KaRDaS                    {- TaroqaE -}        `others` [ ".tarqi` IV_yu" ]
                                                             `gloss`  [ "crack" ],
 
     -- ;; TaroqaEap_1
     -- TrqE    TaroqaE Nap     cracking
 
-    noun     FaCCaL |< aT              {- TaroqaEap -}      `others` [ ".tarqa` Nap" ]
+    noun     KaRDaS |< aT              {- TaroqaEap -}      `others` [ ".tarqa` Nap" ]
                                                             `gloss`  [ "cracking" ] ]
 
  -- ;--- Trm
@@ -2690,7 +2646,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; Tar~aY_1
 
- |> ".trr" <| [
+ |> ".tr" <| [
 
     -- ;; Tar~aY_1
     -- TrY     Tar~aY  PV_0    tenderize;freshen
@@ -2703,11 +2659,7 @@ lexicon = listing "Lexicon properties"
     -- Try     Tar~ay  IV_Ann_Pass_yu  be tenderized;be freshened
 
     verb     FaCCY                     {- Tar~aY -}         `others` [ ".tarrA PV_h", ".tarr IV_0hwnyn_yu PV_ttAw", ".tarray PV_Atn IV_Ann_Pass_yu", ".tarriy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "tenderize", "freshen", "be tenderized", "be freshened" ] ]
-
- -- ;; >aToraY_1
-
- |> ".tr" <| [
+                                                            `gloss`  [ "tenderize", "freshen", "be tenderized", "be freshened" ],
 
     -- ;; >aToraY_1
     -- >TrY    >aToraY PV_0    flatter;praise
@@ -2797,7 +2749,7 @@ lexicon = listing "Lexicon properties"
     -- ;; TirowAdap_1
     -- TrwAd   TirowAd Nap     Troy
 
-    noun     FiCCAL |< aT              {- TirowAdap -}      `others` [ ".tirwAd Nap" ]
+    noun     KiRDAS |< aT              {- TirowAdap -}      `others` [ ".tirwAd Nap" ]
                                                             `gloss`  [ "Troy" ] ]
 
  -- ;--- Trwn
@@ -2907,13 +2859,13 @@ lexicon = listing "Lexicon properties"
     -- TSlq    TaSolaq PV      bungle;botch
     -- TSlq    TaSoliq IV_yu   bungle;botch
 
-    verb     FaCCaL                    {- TaSolaq -}        `others` [ ".ta.sliq IV_yu" ]
+    verb     KaRDaS                    {- TaSolaq -}        `others` [ ".ta.sliq IV_yu" ]
                                                             `gloss`  [ "bungle", "botch" ],
 
     -- ;; TaSolaqap_1
     -- TSlq    TaSolaq Nap     bungling;slipshod work
 
-    noun     FaCCaL |< aT              {- TaSolaqap -}      `others` [ ".ta.slaq Nap" ]
+    noun     KaRDaS |< aT              {- TaSolaqap -}      `others` [ ".ta.slaq Nap" ]
                                                             `gloss`  [ "bungling", "slipshod work" ] ]
 
  -- ;--- TEm
@@ -3202,7 +3154,7 @@ lexicon = listing "Lexicon properties"
     -- ;; TugoyAn_1
     -- TgyAn   TugoyAn N       oppression;tyranny
 
-    noun     FuCCAL                    {- TugoyAn -}        `gloss`  [ "oppression", "tyranny" ] ]
+    noun     KuRDAS                    {- TugoyAn -}        `gloss`  [ "oppression", "tyranny" ] ]
 
  -- ;; TAgiy_1
 
@@ -3477,7 +3429,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Tayofuwr_1
     -- Tyfwr   Tayofuwr        N0      Tayfour
 
-    noun     FaCCUL                    {- Tayofuwr -}       `gloss`  [ "Tayfour" ] ]
+    noun     KaRDUS                    {- Tayofuwr -}       `gloss`  [ "Tayfour" ] ]
 
  -- ;--- Tf$
 
@@ -3770,20 +3722,20 @@ lexicon = listing "Lexicon properties"
     -- TqTq    TaqoTaq PV      rattle;creak
     -- TqTq    TaqoTiq IV_yu   rattle;creak
 
-    verb     FaCCaL                    {- TaqoTaq -}        `others` [ ".taq.tiq IV_yu" ]
+    verb     KaRDaS                    {- TaqoTaq -}        `others` [ ".taq.tiq IV_yu" ]
                                                             `gloss`  [ "rattle", "creak" ],
 
     -- ;; TaqoTaqap_1
     -- TqTq    TaqoTaq Nap     rattling;creaking
 
-    noun     FaCCaL |< aT              {- TaqoTaqap -}      `others` [ ".taq.taq Nap" ]
+    noun     KaRDaS |< aT              {- TaqoTaqap -}      `others` [ ".taq.taq Nap" ]
                                                             `gloss`  [ "rattling", "creaking" ],
 
     -- ;; TaqoTuwqap_1
     -- TqTwq   TaqoTuwq        Napdu   popular song;gay ditty
     -- TqATyq  TaqATiyq        Ndip    popular songs;gay ditties
 
-    noun     FaCCUL |< aT              {- TaqoTuwqap -}     `others` [ ".taqA.tiyq Ndip", ".taq.tuwq Napdu" ]
+    noun     KaRDUS |< aT              {- TaqoTuwqap -}     `others` [ ".taqA.tiyq Ndip", ".taq.tuwq Napdu" ]
                                                             `gloss`  [ "popular song", "gay ditty", "popular songs", "gay ditties" ] ]
 
  -- ;--- Tqm
@@ -4312,17 +4264,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; {iT~ilAE_1
 
- |> ".t.tl`" <| [
+ |> "i.t.tilA`" <| [
 
     -- ;; {iT~ilAE_1
     -- <TlAE   {iT~ilAE        N/At    examination;inspection;knowledge
     -- ATlAE   {iT~ilAE        N/At    examination;inspection;knowledge
 
-    noun     IFCiLAL                   {- {iT~ilAE -}       `gloss`  [ "examination", "inspection", "knowledge" ] ]
-
- -- ;; {isotiTolAE_1
-
- |> ".tl`" <| [
+    noun     Identity                  {- {iT~ilAE -}       `gloss`  [ "examination", "inspection", "knowledge" ],
 
     -- ;; {isotiTolAE_1
     -- <stTlAE {isotiTolAE     N/At    reconnaissance;investigation
@@ -4574,13 +4522,13 @@ lexicon = listing "Lexicon properties"
     -- Tlms    Talomas PV      frown
     -- Tlms    Talomis IV_yu   frown
 
-    verb     FaCCaL                    {- Talomas -}        `others` [ ".talmis IV_yu" ]
+    verb     KaRDaS                    {- Talomas -}        `others` [ ".talmis IV_yu" ]
                                                             `gloss`  [ "frown" ],
 
     -- ;; Talomasap_1
     -- Tlms    Talomas Nap     frowning
 
-    noun     FaCCaL |< aT              {- Talomasap -}      `others` [ ".talmas Nap" ]
+    noun     KaRDaS |< aT              {- Talomasap -}      `others` [ ".talmas Nap" ]
                                                             `gloss`  [ "frowning" ] ]
 
  -- ;--- Tlw
@@ -4676,12 +4624,12 @@ lexicon = listing "Lexicon properties"
     -- tTlyn   taTaloyan       PV-n_intr       be Italianized
     -- tTlyn   taTaloyan       IV-n_intr       be Italianized
 
-    verb     TaFaCCaL                  {- taTaloyan -}      `gloss`  [ "be Italianized" ],
+    verb     TaKaRDaS                  {- taTaloyan -}      `gloss`  [ "be Italianized" ],
 
     -- ;; Taloyanap_1
     -- Tlyn    Taloyan Nap     Italianization
 
-    noun     FaCCaL |< aT              {- Taloyanap -}      `others` [ ".talyan Nap" ]
+    noun     KaRDaS |< aT              {- Taloyanap -}      `others` [ ".talyan Nap" ]
                                                             `gloss`  [ "Italianization" ],
 
     -- ;; TaloyAniy~_1
@@ -4689,7 +4637,7 @@ lexicon = listing "Lexicon properties"
     -- TlyAn   TaloyAn N       Italians
     -- TlAyn   TalAyin Nap     Italians
 
-    noun     FaCCAL |< Iy              {- TaloyAniy~ -}     `others` [ ".talyAn N", ".talAyin Nap" ]
+    noun     KaRDAS |< Iy              {- TaloyAniy~ -}     `others` [ ".talyAn N", ".talAyin Nap" ]
                                                             `gloss`  [ "Italian", "Italians" ] ]
 
  -- ;--- Tm
@@ -4758,14 +4706,14 @@ lexicon = listing "Lexicon properties"
     -- Tm>n    Tamo>an PV-n    pacify;assuage
     -- Tm}n    Tamo}in IV-n_yu pacify;assuage
 
-    verb     FaCCaL                    {- Tamo>an -}        `others` [ ".tam'in IV-n_yu" ]
+    verb     KaRDaS                    {- Tamo>an -}        `others` [ ".tam'in IV-n_yu" ]
                                                             `gloss`  [ "pacify", "assuage" ],
 
     -- ;; taTamo>an_1
     -- tTm>n   taTamo>an       PV-n_intr       be pacified;be assuaged
     -- tTm>n   taTamo>an       IV-n_intr       be pacified;be assuaged
 
-    verb     TaFaCCaL                  {- taTamo>an -}      `gloss`  [ "be pacified", "be assuaged" ] ]
+    verb     TaKaRDaS                  {- taTamo>an -}      `gloss`  [ "be pacified", "be assuaged" ] ]
 
  -- ;; {iToma>an~_1
 
@@ -4785,7 +4733,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Tamo>anap_1
     -- Tm>n    Tamo>an Nap     pacifying;calming;reassuring
 
-    noun     FaCCaL |< aT              {- Tamo>anap -}      `others` [ ".tam'an Nap" ]
+    noun     KaRDaS |< aT              {- Tamo>anap -}      `others` [ ".tam'an Nap" ]
                                                             `gloss`  [ "pacifying", "calming", "reassuring" ] ]
 
  -- ;; Tumo>aniynap_1
@@ -5360,27 +5308,19 @@ lexicon = listing "Lexicon properties"
     -- TnAbr   TanAbir Ndip    drums;cylinders
 
     noun     Identity                  {- Tunobur -}        `others` [ ".tanAbir Ndip" ]
-                                                            `gloss`  [ "drum", "cylinder", "drums", "cylinders" ] ]
-
- -- ;; Tunobuwr_1
-
- |> ".tunbuwr" <| [
+                                                            `gloss`  [ "drum", "cylinder", "drums", "cylinders" ],
 
     -- ;; Tunobuwr_1
     -- Tnbwr   Tunobuwr        Ndu     tambour (musical instrument)
     -- TnAbyr  TanAbiyr        Ndip    tambours (musical instruments)
 
-    noun     Identity                  {- Tunobuwr -}       `others` [ ".tanAbiyr Ndip" ]
-                                                            `gloss`  [ "tambour ( musical instrument )", "tambours ( musical instruments )" ] ]
-
- -- ;; Tunobuwriy~_1
-
- |> ".tunbuwr" <| [
+    noun     KuRDUS                    {- Tunobuwr -}       `others` [ ".tanAbiyr Ndip" ]
+                                                            `gloss`  [ "tambour ( musical instrument )", "tambours ( musical instruments )" ],
 
     -- ;; Tunobuwriy~_1
     -- Tnbwry  Tunobuwriy~     Nall    tambour player     [[Tunobuwriy~/ADJ]]
 
-    noun     Identity |< Iy            {- Tunobuwriy~ -}    `gloss`  [ "tambour player" ] ]
+    noun     KuRDUS |< Iy              {- Tunobuwriy~ -}    `gloss`  [ "tambour player" ] ]
 
  -- ;--- Tnb$
 
@@ -5389,7 +5329,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Tanobuw$ap_1
     -- Tnbw$   Tanobuw$        NapAt   paddle box
 
-    noun     FaCCUL |< aT              {- Tanobuw$ap -}     `others` [ ".tanbuw^s NapAt" ]
+    noun     KaRDUS |< aT              {- Tanobuw$ap -}     `others` [ ".tanbuw^s NapAt" ]
                                                             `gloss`  [ "paddle box" ] ]
 
  -- ;--- Tnj
@@ -5415,17 +5355,13 @@ lexicon = listing "Lexicon properties"
     -- Tnjr    Tanojar Napdu   casserole;pot
     -- TnAjr   TanAjir Ndip    casseroles;pots
 
-    noun     FaCCaL |< aT              {- Tanojarap -}      `others` [ ".tan^gar Napdu", ".tanA^gir Ndip" ]
-                                                            `gloss`  [ "casserole", "pot", "casseroles", "pots" ] ]
-
- -- ;; Tanojiyr_1
-
- |> ".tan^giyr" <| [
+    noun     KaRDaS |< aT              {- Tanojarap -}      `others` [ ".tan^gar Napdu", ".tanA^gir Ndip" ]
+                                                            `gloss`  [ "casserole", "pot", "casseroles", "pots" ],
 
     -- ;; Tanojiyr_1
     -- Tnjyr   Tanojiyr        Ndu     casserole;pot
 
-    noun     Identity                  {- Tanojiyr -}       `gloss`  [ "casserole", "pot" ] ]
+    noun     KaRDIS                    {- Tanojiyr -}       `gloss`  [ "casserole", "pot" ] ]
 
  -- ;--- TnTA
 
@@ -5451,12 +5387,12 @@ lexicon = listing "Lexicon properties"
     -- ;; TanoTAwiy~_1
     -- TnTAwy  TanoTAwiy~      Nall    from/of Tanta [Egy.]     [[TanoTAwiy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- TanoTAwiy~ -}     `gloss`  [ "from / of Tanta [ Egy . ]" ],
+    noun     KaRDAS |< Iy              {- TanoTAwiy~ -}     `gloss`  [ "from / of Tanta [ Egy . ]" ],
 
     -- ;; TanoTAwiy~_2
     -- TnTAwy  TanoTAwiy~      N0      Tantawi;Tantaoui
 
-    noun     FaCCAL |< Iy              {- TanoTAwiy~ -}     `gloss`  [ "Tantawi", "Tantaoui" ] ]
+    noun     KaRDAS |< Iy              {- TanoTAwiy~ -}     `gloss`  [ "Tantawi", "Tantaoui" ] ]
 
  -- ;--- TnTn
 
@@ -5466,13 +5402,13 @@ lexicon = listing "Lexicon properties"
     -- TnTn    TanoTan PV-n    ring;resound
     -- TnTn    TanoTin IV-n_yu ring;resound
 
-    verb     FaCCaL                    {- TanoTan -}        `others` [ ".tan.tin IV-n_yu" ]
+    verb     KaRDaS                    {- TanoTan -}        `others` [ ".tan.tin IV-n_yu" ]
                                                             `gloss`  [ "ring", "resound" ],
 
     -- ;; TanoTanap_1
     -- TnTn    TanoTan Nap     ringing;resounding
 
-    noun     FaCCaL |< aT              {- TanoTanap -}      `others` [ ".tan.tan Nap" ]
+    noun     KaRDaS |< aT              {- TanoTanap -}      `others` [ ".tan.tan Nap" ]
                                                             `gloss`  [ "ringing", "resounding" ] ]
 
  -- ;--- Tnf
@@ -5844,7 +5780,7 @@ lexicon = listing "Lexicon properties"
     -- ;; TuwbA}iy~_1
     -- TwbA}y  TuwbA}iy~       Nall    utopian     [[TuwbA}iy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- TuwbA}iy~ -}      `gloss`  [ "utopian" ] ]
+    noun     KuRDAS |< Iy              {- TuwbA}iy~ -}      `gloss`  [ "utopian" ] ]
 
  -- ;; TuwbAwiy~_1
 
@@ -5852,7 +5788,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; TuwbAwiy~_1
 
-    noun     FuCCAL |< Iy              {- TuwbAwiy~ -}       ]
+    noun     KuRDAS |< Iy              {- TuwbAwiy~ -}       ]
 
  -- ;; TuwbAwiy~_1
 
@@ -5883,7 +5819,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; TuwbAs_1
 
-    noun     FuCCAL                    {- TuwbAs -}          ]
+    noun     KuRDAS                    {- TuwbAs -}          ]
 
  -- ;; TuwbAs_1
 
@@ -6195,12 +6131,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; Tuwruws_1
 
- |> ".tuwruws" <| [
+ |> ".twrs" <| [
 
     -- ;; Tuwruws_1
     -- Twrws   Tuwruws N0      Taurus
 
-    noun     Identity                  {- Tuwruws -}        `gloss`  [ "Taurus" ] ]
+    noun     KuRDUS                    {- Tuwruws -}        `gloss`  [ "Taurus" ] ]
 
  -- ;--- Tws
 
@@ -6457,18 +6393,10 @@ lexicon = listing "Lexicon properties"
  |> ".t`" <| [
 
     -- ;; {isotiTAEap_1
-
-    noun     IstiFAL |< aT             {- {isotiTAEap -}     ]
-
- -- ;; {isotiTAEap_1
-
- |> "st.t`" <| [
-
-    -- ;; {isotiTAEap_1
     -- <stTAE  {isotiTAE       NapAt   capability;possibility
     -- AstTAE  {isotiTAE       NapAt   capability;possibility
 
-    noun     IFCiLAL |< aT             {- {isotiTAEap -}    `others` [ "isti.tA` NapAt" ]
+    noun     IstiFAL |< aT             {- {isotiTAEap -}    `others` [ "isti.tA` NapAt" ]
                                                             `gloss`  [ "capability", "possibility" ] ]
 
  -- ;; TA}iE_1
@@ -6501,20 +6429,20 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muTiyE_1
 
- |> ".t`" <| [
+ |> ".ty`" <| [
 
     -- ;; muTiyE_1
 
-    noun     MuFIL                     {- muTiyE -}          ]
+    noun     MuFiCL                    {- muTiyE -}          ]
 
  -- ;; muTiyE_1
 
- |> ".ty`" <| [
+ |> ".t`" <| [
 
     -- ;; muTiyE_1
     -- mTyE    muTiyE  Nall    obedient;disciplined     [[muTiyE/ADJ]]
 
-    noun     MuFiCL                    {- muTiyE -}         `gloss`  [ "obedient", "disciplined" ] ]
+    noun     MuFIL                     {- muTiyE -}         `gloss`  [ "obedient", "disciplined" ] ]
 
  -- ;; mutaTaw~iE_1
 
@@ -6628,7 +6556,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; TuwfAn_1
 
-    noun     FuCCAL                    {- TuwfAn -}          ]
+    noun     KuRDAS                    {- TuwfAn -}          ]
 
  -- ;; TuwfAn_1
 
@@ -7005,7 +6933,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; TuwlAniy~_1
 
-    noun     FuCCAL |< Iy              {- TuwlAniy~ -}       ]
+    noun     KuRDAS |< Iy              {- TuwlAniy~ -}       ]
 
  -- ;; TuwlAniy~_1
 
@@ -7103,14 +7031,6 @@ lexicon = listing "Lexicon properties"
     -- tTAwl   taTAwul N/At    insolence
 
     noun     TaFACuL                   {- taTAwul -}        `gloss`  [ "insolence" ] ]
-
- -- ;; {isotiTAlap_1
-
- |> "st.tl" <| [
-
-    -- ;; {isotiTAlap_1
-
-    noun     IFCiLAL |< aT             {- {isotiTAlap -}     ]
 
  -- ;; {isotiTAlap_1
 
@@ -7259,11 +7179,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- TawaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ ".twY IV_0_Pass_yu", ".twiy IV_0hAnn", ".taw PV_ttAw", ".tw IV_0hwnyn", ".taway PV_Atn", ".tawA PV_h", ".tawY PV_0" ]
-                                                            `gloss`  [ "fold", "wrap", "be folded", "be wrapped" ] ]
-
- -- ;; taTaw~aY_1
-
- |> ".tww" <| [
+                                                            `gloss`  [ "fold", "wrap", "be folded", "be wrapped" ],
 
     -- ;; taTaw~aY_1
     -- tTwY    taTaw~aY        PV_0    coil
@@ -7276,11 +7192,7 @@ lexicon = listing "Lexicon properties"
     -- tTw     taTaw~  IV_0hwnyn       coil
 
     verb     TaFaCCY                   {- taTaw~aY -}       `others` [ "ta.tawwA PV_h IV_h", "ta.taww IV_0hwnyn PV_ttAw", "ta.tawway PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "coil" ] ]
-
- -- ;; {inoTawaY_1
-
- |> ".tw" <| [
+                                                            `gloss`  [ "coil" ],
 
     -- ;; {inoTawaY_1
     -- <nTwY   {inoTawaY       PV_0    contain;include;harbor
@@ -7613,16 +7525,12 @@ lexicon = listing "Lexicon properties"
     -- ATAyb   >aTAyib Ndip    pleasures;amenities
 
     noun     HaFCaL                    {- >aToyab -}        `others` [ "'a.tAyib Ndip" ]
-                                                            `gloss`  [ "better / best", "pleasures", "amenities" ] ]
-
- -- ;; maTAyib_1
-
- |> "ma.tAyib" <| [
+                                                            `gloss`  [ "better / best", "pleasures", "amenities" ],
 
     -- ;; maTAyib_1
     -- mTAyb   maTAyib Ndip    comforts;amenities
 
-    noun     Identity                  {- maTAyib -}        `gloss`  [ "comforts", "amenities" ],
+    noun     MaFACiL                   {- maTAyib -}        `gloss`  [ "comforts", "amenities" ],
 
     -- ;; muTAyabap_1
     -- mTAyb   muTAyab NapAt   banter;jesting
@@ -7864,14 +7772,6 @@ lexicon = listing "Lexicon properties"
     -- mstTyr  musotaTiyr      N-ap    imminent;scattered     [[musotaTiyr/ADJ]]
 
     noun     MustaFiCL                 {- musotaTiyr -}     `gloss`  [ "imminent", "scattered" ] ]
-
- -- ;; {isotiTArap_1
-
- |> "st.tr" <| [
-
-    -- ;; {isotiTArap_1
-
-    noun     IFCiLAL |< aT             {- {isotiTArap -}     ]
 
  -- ;; {isotiTArap_1
 

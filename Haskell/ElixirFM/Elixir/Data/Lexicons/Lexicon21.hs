@@ -717,7 +717,7 @@ lexicon = listing "Lexicon properties"
     -- qbATyn  qabATiyn        Ndip    captains;commanders
     -- qbATn   qabATin Nap     captains;commanders
 
-    noun     FuCCAL                    {- quboTAn -}        `others` [ "qabA.tiyn Ndip", "qabA.tin Nap" ]
+    noun     KuRDAS                    {- quboTAn -}        `others` [ "qabA.tiyn Ndip", "qabA.tin Nap" ]
                                                             `gloss`  [ "captain", "commander", "captains", "commanders" ] ]
 
  -- ;--- qbE
@@ -777,20 +777,20 @@ lexicon = listing "Lexicon properties"
     -- qbqb    qaboqab PV      swell;bulge
     -- qbqb    qaboqib IV_yu   swell;bulge
 
-    verb     FaCCaL                    {- qaboqab -}        `others` [ "qabqib IV_yu" ]
+    verb     KaRDaS                    {- qaboqab -}        `others` [ "qabqib IV_yu" ]
                                                             `gloss`  [ "swell", "bulge" ],
 
     -- ;; qaboqAb_1
     -- qbqAb   qaboqAb Ndu     sandals;clogs
     -- qbAqyb  qabAqiyb        Ndip    sandals;clogs
 
-    noun     FaCCAL                    {- qaboqAb -}        `others` [ "qabAqiyb Ndip" ]
+    noun     KaRDAS                    {- qaboqAb -}        `others` [ "qabAqiyb Ndip" ]
                                                             `gloss`  [ "sandals", "clogs" ],
 
     -- ;; qaboqAbiy~_1
     -- qbqAby  qaboqAbiy~      N-ap    clog-like     [[qaboqAbiy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- qaboqAbiy~ -}     `gloss`  [ "clog-like" ] ]
+    noun     KaRDAS |< Iy              {- qaboqAbiy~ -}     `gloss`  [ "clog-like" ] ]
 
  -- ;--- qbl
 
@@ -951,7 +951,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qubolAn_1
     -- qblAn   qubolAn Nprop   Qublan
 
-    noun     FuCCAL                    {- qubolAn -}        `gloss`  [ "Qublan" ] ]
+    noun     KuRDAS                    {- qubolAn -}        `gloss`  [ "Qublan" ] ]
 
  -- ;; qubuwl_1
 
@@ -1078,16 +1078,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qAbil_1
     -- qAbl    qAbil   N-ap    capable;able     [[qAbil/ADJ]]
 
-    noun     FACiL                     {- qAbil -}          `gloss`  [ "capable", "able" ] ]
-
- -- ;; qawAbil_1
-
- |> "qawAbil" <| [
+    noun     FACiL                     {- qAbil -}          `gloss`  [ "capable", "able" ],
 
     -- ;; qawAbil_1
     -- qwAbl   qawAbil Ndip    receptacles;containers
 
-    noun     Identity                  {- qawAbil -}        `gloss`  [ "receptacles", "containers" ],
+    noun     FawACiL                   {- qawAbil -}        `gloss`  [ "receptacles", "containers" ],
 
     -- ;; qAbiliy~ap_1
     -- qAbly   qAbiliy~        Nap     ability;capacity     [[qAbiliy~/NOUN]]
@@ -1206,11 +1202,7 @@ lexicon = listing "Lexicon properties"
     -- qby     qobay   IV_Ann_Pass_yu  vault;arch
 
     verb     FaCA                      {- qabA -}           `others` [ "qbuw IV_0hAnn", "qbay IV_Ann_Pass_yu", "qab PV_ttAw", "qabaw PV_Atn", "qbY IV_0_Pass_yu", "qb IV_0hwnyn" ]
-                                                            `gloss`  [ "vault", "arch" ] ]
-
- -- ;; qab~aY_1
-
- |> "qbb" <| [
+                                                            `gloss`  [ "vault", "arch" ],
 
     -- ;; qab~aY_1
     -- qbY     qab~aY  PV_0    vault;arch
@@ -1547,10 +1539,6 @@ lexicon = listing "Lexicon properties"
     noun     TaFACuL                   {- taqAtul -}        `gloss`  [ "mutual struggle" ],
 
     -- ;; {iqotitAl_1
-
-    noun     IFCiLAL                   {- {iqotitAl -}      ,
-
-    -- ;; {iqotitAl_1
     -- AqttAl  {iqotitAl       NduAt   fighting (each other)
     -- <qttAl  {iqotitAl       NduAt   fighting (each other)
 
@@ -1737,7 +1725,7 @@ lexicon = listing "Lexicon properties"
     -- qvAtr   qavAtir Ndip    catheters
     -- qvATr   qavATir Ndip    catheters
 
-    noun     FaCCaL                    {- qavotar -}        `others` [ "qa_t.tar Napdu Ndu", "qa_tAtir Ndip", "qa_tA.tir Ndip" ]
+    noun     KaRDaS                    {- qavotar -}        `others` [ "qa_t.tar Napdu Ndu", "qa_tAtir Ndip", "qa_tA.tir Ndip" ]
                                                             `gloss`  [ "catheter", "catheters" ] ]
 
  -- ;--- qH
@@ -1917,7 +1905,7 @@ lexicon = listing "Lexicon properties"
     -- qHlA}   qaHolA} Nhy     arid;dry
     -- qAHl    qAHil   N-ap    arid;dry
 
-    noun     FaCCAL                    {- qaHolA' -}        `others` [ "qA.hil N-ap" ]
+    noun     KaRDAS                    {- qaHolA' -}        `others` [ "qA.hil N-ap" ]
                                                             `gloss`  [ "arid", "dry" ] ]
 
  -- ;--- qHm
@@ -2906,18 +2894,10 @@ lexicon = listing "Lexicon properties"
  |> "qdms" <| [
 
     -- ;; qudomuws_1
-
-    root     Identity                                        ]
-
- -- ;; qudomuws_1
-
- |> "qudmuws" <| [
-
-    -- ;; qudomuws_1
     -- qdmws   qudomuws        N-ap    brave;audacious;powerful
     -- qdAmys  qadAmiys        Ndip    brave;audacious;powerful
 
-    noun     Identity                  {- qudomuws -}       `others` [ "qadAmiys Ndip" ]
+    noun     KuRDUS                    {- qudomuws -}       `others` [ "qadAmiys Ndip" ]
                                                             `gloss`  [ "brave", "audacious", "powerful" ] ]
 
  -- ;--- qdw qdy
@@ -3646,12 +3626,12 @@ lexicon = listing "Lexicon properties"
     -- ;; quro|n_1
     -- qr|n    quro|n  N       Quran
 
-    noun     FuCCAL                    {- quro|n -}         `gloss`  [ "Quran" ],
+    noun     KuRDAS                    {- quro|n -}         `gloss`  [ "Quran" ],
 
     -- ;; quro|niy~_1
     -- qr|ny   quro|niy~       N-ap    Quranic     [[quro|niy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- quro|niy~ -}      `gloss`  [ "Quranic" ] ]
+    noun     KuRDAS |< Iy              {- quro|niy~ -}      `gloss`  [ "Quranic" ] ]
 
  -- ;; miqora>_1
 
@@ -4018,16 +3998,12 @@ lexicon = listing "Lexicon properties"
     -- qwArb   qawArib Ndip    boats
 
     noun     FACiL                     {- qArib -}          `others` [ "qawArib Ndip" ]
-                                                            `gloss`  [ "boat", "boats" ] ]
-
- -- ;; qawAribiy~_1
-
- |> "qawArib" <| [
+                                                            `gloss`  [ "boat", "boats" ],
 
     -- ;; qawAribiy~_1
     -- qwArby  qawAribiy~      Nall    boatman     [[qawAribiy~/ADJ]]
 
-    noun     Identity |< Iy            {- qawAribiy~ -}     `gloss`  [ "boatman" ],
+    noun     FawACiL |< Iy             {- qawAribiy~ -}     `gloss`  [ "boatman" ],
 
     -- ;; qar~Ab_1
     -- qrAb    qar~Ab  Nall    water carrier
@@ -4062,19 +4038,19 @@ lexicon = listing "Lexicon properties"
     -- qrbAn   qurobAn N       Mass;Communion
     -- qrAbyn  qarAbiyn        Ndip    Mass;Communion
 
-    noun     FuCCAL                    {- qurobAn -}        `others` [ "qarAbiyn Ndip" ]
+    noun     KuRDAS                    {- qurobAn -}        `others` [ "qarAbiyn Ndip" ]
                                                             `gloss`  [ "Mass", "Communion" ],
 
     -- ;; qurobAnap_1
     -- qrbAn   qurobAn Nap     Host;Communion
 
-    noun     FuCCAL |< aT              {- qurobAnap -}      `others` [ "qurbAn Nap" ]
+    noun     KuRDAS |< aT              {- qurobAnap -}      `others` [ "qurbAn Nap" ]
                                                             `gloss`  [ "Host", "Communion" ],
 
     -- ;; qurobAniy~_1
     -- qrbAny  qurobAniy~      N-ap    sacrificial;eucharistic;sacramental     [[qurobAniy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- qurobAniy~ -}     `gloss`  [ "sacrificial", "eucharistic", "sacramental" ] ]
+    noun     KuRDAS |< Iy              {- qurobAniy~ -}     `gloss`  [ "sacrificial", "eucharistic", "sacramental" ] ]
 
  -- ;; qarabiynap_1
 
@@ -4305,7 +4281,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qarodab_1
     -- qrdb    qarodab N       bistort
 
-    noun     FaCCaL                    {- qarodab -}        `gloss`  [ "bistort" ] ]
+    noun     KaRDaS                    {- qarodab -}        `gloss`  [ "bistort" ] ]
 
  -- ;--- qrdH
 
@@ -4324,17 +4300,13 @@ lexicon = listing "Lexicon properties"
     -- qrAdH   qarAdiH Ndip    baboons
 
     noun     Identity                  {- quroduH -}        `others` [ "qarAdi.h Ndip" ]
-                                                            `gloss`  [ "baboon", "baboons" ] ]
-
- -- ;; quroduwH_1
-
- |> "qurduw.h" <| [
+                                                            `gloss`  [ "baboon", "baboons" ],
 
     -- ;; quroduwH_1
     -- qrdwH   quroduwH        Ndu     baboon
     -- qrAdyH  qarAdiyH        Ndip    baboons
 
-    noun     Identity                  {- quroduwH -}       `others` [ "qarAdiy.h Ndip" ]
+    noun     KuRDUS                    {- quroduwH -}       `others` [ "qarAdiy.h Ndip" ]
                                                             `gloss`  [ "baboon", "baboons" ] ]
 
  -- ;--- qrds
@@ -4607,7 +4579,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qaroSanap_1
     -- qrSn    qaroSan Nap     piracy
 
-    noun     FaCCaL |< aT              {- qaroSanap -}      `others` [ "qar.san Nap" ]
+    noun     KaRDaS |< aT              {- qaroSanap -}      `others` [ "qar.san Nap" ]
                                                             `gloss`  [ "piracy" ],
 
     -- ;; quroSAn_1
@@ -4616,7 +4588,7 @@ lexicon = listing "Lexicon properties"
     -- qrASn   qarASin Nap     pirates
     -- qrASyn  qarASiyn        Ndip    pirates
 
-    noun     FuCCAL                    {- quroSAn -}        `others` [ "qarA.siyn Ndip", "qarA.sin Nap Ndip" ]
+    noun     KuRDAS                    {- quroSAn -}        `others` [ "qarA.siyn Ndip", "qarA.sin Nap Ndip" ]
                                                             `gloss`  [ "pirate", "pirates" ] ]
 
  -- ;--- qrD
@@ -4896,13 +4868,13 @@ lexicon = listing "Lexicon properties"
     -- ;; qaroTAj_1
     -- qrTAj   qaroTAj Nprop   Carthage
 
-    noun     FaCCAL                    {- qaroTAj -}        `gloss`  [ "Carthage" ],
+    noun     KaRDAS                    {- qaroTAj -}        `gloss`  [ "Carthage" ],
 
     -- ;; qaroTAjiy~_1
     -- qrTAjy  qaroTAjiy~      Nall    Carthaginian     [[qaroTAjiy~/NOUN]]
     -- qrTAjy  qaroTAjiy~      Nall    Carthaginian     [[qaroTAjiy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- qaroTAjiy~ -}     `gloss`  [ "Carthaginian" ] ]
+    noun     KaRDAS |< Iy              {- qaroTAjiy~ -}     `gloss`  [ "Carthaginian" ] ]
 
  -- ;; qaroTAjan~ap_1
 
@@ -4923,7 +4895,7 @@ lexicon = listing "Lexicon properties"
     -- qrTs    qaroTas PV      wrap;package
     -- qrTs    qaroTis IV_yu   wrap;package
 
-    verb     FaCCaL                    {- qaroTas -}        `others` [ "qar.tis IV_yu" ]
+    verb     KaRDaS                    {- qaroTas -}        `others` [ "qar.tis IV_yu" ]
                                                             `gloss`  [ "wrap", "package" ],
 
     -- ;; qiroTAs_1
@@ -4931,18 +4903,18 @@ lexicon = listing "Lexicon properties"
     -- qrTAs   quroTAs Ndu     paper;sheet of paper
     -- qrATys  qarATiys        Ndip    paper;sheets of paper
 
-    noun     FiCCAL                    {- qiroTAs -}        `others` [ "qarA.tiys Ndip", "qur.tAs Ndu" ]
+    noun     KiRDAS                    {- qiroTAs -}        `others` [ "qarA.tiys Ndip", "qur.tAs Ndu" ]
                                                             `gloss`  [ "paper", "sheet of paper", "sheets of paper" ],
 
     -- ;; quroTAsiy~_1
     -- qrTAsy  quroTAsiy~      N-ap    office;desk     [[quroTAsiy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- quroTAsiy~ -}     `gloss`  [ "office", "desk" ],
+    noun     KuRDAS |< Iy              {- quroTAsiy~ -}     `gloss`  [ "office", "desk" ],
 
     -- ;; qaroTas_2
     -- qrTs    qaroTas Ndu     paper;sheet of paper
 
-    noun     FaCCaL                    {- qaroTas -}        `gloss`  [ "paper", "sheet of paper" ] ]
+    noun     KaRDaS                    {- qaroTas -}        `gloss`  [ "paper", "sheet of paper" ] ]
 
  -- ;--- qrTl
 
@@ -4952,7 +4924,7 @@ lexicon = listing "Lexicon properties"
     -- qrTl    qaroTal Ndu     basket
     -- qrATl   qarATil Ndip    baskets
 
-    noun     FaCCaL                    {- qaroTal -}        `others` [ "qarA.til Ndip" ]
+    noun     KaRDaS                    {- qaroTal -}        `others` [ "qarA.til Ndip" ]
                                                             `gloss`  [ "basket", "baskets" ] ]
 
  -- ;--- qrTm
@@ -4963,7 +4935,7 @@ lexicon = listing "Lexicon properties"
     -- qrTm    qaroTam PV      cut off;clip
     -- qrTm    qaroTim IV_yu   cut off;clip
 
-    verb     FaCCaL                    {- qaroTam -}        `others` [ "qar.tim IV_yu" ]
+    verb     KaRDaS                    {- qaroTam -}        `others` [ "qar.tim IV_yu" ]
                                                             `gloss`  [ "cut off", "clip" ] ]
 
  -- ;; qiroTim_1
@@ -5357,13 +5329,13 @@ lexicon = listing "Lexicon properties"
     -- qrfS    qarofaS PV      squat
     -- qrfS    qarofiS IV_yu   squat
 
-    verb     FaCCaL                    {- qarofaS -}        `others` [ "qarfi.s IV_yu" ]
+    verb     KaRDaS                    {- qarofaS -}        `others` [ "qarfi.s IV_yu" ]
                                                             `gloss`  [ "squat" ],
 
     -- ;; qarofaSap_1
     -- qrfS    qarofaS Nap     squatting
 
-    noun     FaCCaL |< aT              {- qarofaSap -}      `others` [ "qarfa.s Nap" ]
+    noun     KaRDaS |< aT              {- qarofaSap -}      `others` [ "qarfa.s Nap" ]
                                                             `gloss`  [ "squatting" ] ]
 
  -- ;; qurofuSA'_1
@@ -5384,12 +5356,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qarofAl_1
     -- qrfAl   qarofAl N       vetch
 
-    noun     FaCCAL                    {- qarofAl -}        `gloss`  [ "vetch" ],
+    noun     KaRDAS                    {- qarofAl -}        `gloss`  [ "vetch" ],
 
     -- ;; qarofAlap_1
     -- qrfAl   qarofAl Napdu   vetch
 
-    noun     FaCCAL |< aT              {- qarofAlap -}      `others` [ "qarfAl Napdu" ]
+    noun     KaRDAS |< aT              {- qarofAlap -}      `others` [ "qarfAl Napdu" ]
                                                             `gloss`  [ "vetch" ] ]
 
  -- ;--- qrq
@@ -5416,7 +5388,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qaroqAwiy~_1
     -- qrqAwy  qaroqAwiy~      N0      Qarqawi
 
-    noun     FaCCAL |< Iy              {- qaroqAwiy~ -}     `gloss`  [ "Qarqawi" ] ]
+    noun     KaRDAS |< Iy              {- qaroqAwiy~ -}     `gloss`  [ "Qarqawi" ] ]
 
  -- ;--- qrq*
 
@@ -5443,27 +5415,27 @@ lexicon = listing "Lexicon properties"
     -- qrqr    qaroqar PV      growl;grumble;guffaw
     -- qrqr    qaroqir IV_yu   growl;grumble;guffaw
 
-    verb     FaCCaL                    {- qaroqar -}        `others` [ "qarqir IV_yu" ]
+    verb     KaRDaS                    {- qaroqar -}        `others` [ "qarqir IV_yu" ]
                                                             `gloss`  [ "growl", "grumble", "guffaw" ],
 
     -- ;; qaroqarap_1
     -- qrqr    qaroqar Nap     growling;grumbling;guffaw
 
-    noun     FaCCaL |< aT              {- qaroqarap -}      `others` [ "qarqar Nap" ]
+    noun     KaRDaS |< aT              {- qaroqarap -}      `others` [ "qarqar Nap" ]
                                                             `gloss`  [ "growling", "grumbling", "guffaw" ],
 
     -- ;; qaroqarap_2
     -- qrqr    qaroqar Napdu   growl;grumble;guffaw
     -- qrAqr   qarAqir Ndip    growls;grumbling;guffaws
 
-    noun     FaCCaL |< aT              {- qaroqarap -}      `others` [ "qarAqir Ndip", "qarqar Napdu" ]
+    noun     KaRDaS |< aT              {- qaroqarap -}      `others` [ "qarAqir Ndip", "qarqar Napdu" ]
                                                             `gloss`  [ "growl", "grumble", "guffaw", "growls", "grumbling", "guffaws" ],
 
     -- ;; qaroquwr_1
     -- qrqwr   qaroquwr        Ndu     fish trap
     -- qrAqyr  qarAqiyr        Ndip    fish traps
 
-    noun     FaCCUL                    {- qaroquwr -}       `others` [ "qarAqiyr Ndip" ]
+    noun     KaRDUS                    {- qaroquwr -}       `others` [ "qarAqiyr Ndip" ]
                                                             `gloss`  [ "fish trap", "fish traps" ] ]
 
  -- ;--- qrqz
@@ -5527,13 +5499,13 @@ lexicon = listing "Lexicon properties"
     -- qrqD    qaroqaD PV      gnaw;gnash
     -- qrqD    qaroqiD IV_yu   gnaw;gnash
 
-    verb     FaCCaL                    {- qaroqaD -}        `others` [ "qarqi.d IV_yu" ]
+    verb     KaRDaS                    {- qaroqaD -}        `others` [ "qarqi.d IV_yu" ]
                                                             `gloss`  [ "gnaw", "gnash" ],
 
     -- ;; qaroqaDap_1
     -- qrqD    qaroqaD NapAt   gnawing;gnashing
 
-    noun     FaCCaL |< aT              {- qaroqaDap -}      `others` [ "qarqa.d NapAt" ]
+    noun     KaRDaS |< aT              {- qaroqaDap -}      `others` [ "qarqa.d NapAt" ]
                                                             `gloss`  [ "gnawing", "gnashing" ] ]
 
  -- ;--- qrqE
@@ -5544,13 +5516,13 @@ lexicon = listing "Lexicon properties"
     -- qrqE    qaroqaE PV      creak;rumble;crackle
     -- qrqE    qaroqiE IV_yu   creak;rumble;crackle
 
-    verb     FaCCaL                    {- qaroqaE -}        `others` [ "qarqi` IV_yu" ]
+    verb     KaRDaS                    {- qaroqaE -}        `others` [ "qarqi` IV_yu" ]
                                                             `gloss`  [ "creak", "rumble", "crackle" ],
 
     -- ;; qaroqaEap_1
     -- qrqE    qaroqaE Nap     creaking;rumbling;crackling
 
-    noun     FaCCaL |< aT              {- qaroqaEap -}      `others` [ "qarqa` Nap" ]
+    noun     KaRDaS |< aT              {- qaroqaEap -}      `others` [ "qarqa` Nap" ]
                                                             `gloss`  [ "creaking", "rumbling", "crackling" ] ]
 
  -- ;--- qrqf
@@ -5561,13 +5533,13 @@ lexicon = listing "Lexicon properties"
     -- qrqf    qaroqaf PV      shiver
     -- qrqf    qaroqif IV_yu   shiver
 
-    verb     FaCCaL                    {- qaroqaf -}        `others` [ "qarqif IV_yu" ]
+    verb     KaRDaS                    {- qaroqaf -}        `others` [ "qarqif IV_yu" ]
                                                             `gloss`  [ "shiver" ],
 
     -- ;; qaroqafap_1
     -- qrqf    qaroqaf Nap     shivering
 
-    noun     FaCCaL |< aT              {- qaroqafap -}      `others` [ "qarqaf Nap" ]
+    noun     KaRDaS |< aT              {- qaroqafap -}      `others` [ "qarqaf Nap" ]
                                                             `gloss`  [ "shivering" ] ]
 
  -- ;; quroquf_1
@@ -5676,43 +5648,43 @@ lexicon = listing "Lexicon properties"
     -- qrmd    qaromad PV      plaster;tile
     -- qrmd    qaromid IV_yu   plaster;tile
 
-    verb     FaCCaL                    {- qaromad -}        `others` [ "qarmid IV_yu" ]
+    verb     KaRDaS                    {- qaromad -}        `others` [ "qarmid IV_yu" ]
                                                             `gloss`  [ "plaster", "tile" ],
 
     -- ;; qaromadap_1
     -- qrmd    qaromad Nap     plastering;tiling
 
-    noun     FaCCaL |< aT              {- qaromadap -}      `others` [ "qarmad Nap" ]
+    noun     KaRDaS |< aT              {- qaromadap -}      `others` [ "qarmad Nap" ]
                                                             `gloss`  [ "plastering", "tiling" ],
 
     -- ;; qaromad_2
     -- qrmd    qaromad N       plaster;plaster of Paris
 
-    noun     FaCCaL                    {- qaromad -}        `gloss`  [ "plaster", "plaster of Paris" ],
+    noun     KaRDaS                    {- qaromad -}        `gloss`  [ "plaster", "plaster of Paris" ],
 
     -- ;; qiromiyd_1
     -- qrmyd   qiromiyd        N       plaster of Paris
 
-    noun     FiCCIL                    {- qiromiyd -}       `gloss`  [ "plaster of Paris" ],
+    noun     KiRDIS                    {- qiromiyd -}       `gloss`  [ "plaster of Paris" ],
 
     -- ;; qiromiyd_2
     -- qrmyd   qiromiyd        N       bricks;roof tiles
     -- qrmyd   qiromiyd        Napdu   brick;roof tile
     -- qrAmyd  qarAmiyd        Ndip    bricks;roof tiles
 
-    noun     FiCCIL                    {- qiromiyd -}       `others` [ "qarAmiyd Ndip" ]
+    noun     KiRDIS                    {- qiromiyd -}       `others` [ "qarAmiyd Ndip" ]
                                                             `gloss`  [ "bricks", "roof tiles", "brick", "roof tile" ],
 
     -- ;; qaromuwd_1
     -- qrmwd   qaromuwd        N       bricks;roof tiles
     -- qrmwd   qaromuwd        Napdu   brick;roof tile
 
-    noun     FaCCUL                    {- qaromuwd -}       `gloss`  [ "bricks", "roof tiles", "brick", "roof tile" ],
+    noun     KaRDUS                    {- qaromuwd -}       `gloss`  [ "bricks", "roof tiles", "brick", "roof tile" ],
 
     -- ;; muqaromad_1
     -- mqrmd   muqaromad       N-ap    covered with tiles;coated     [[muqaromad/ADJ]]
 
-    noun     MuFaCCaL                  {- muqaromad -}      `gloss`  [ "covered with tiles", "coated" ] ]
+    noun     MuKaRDaS                  {- muqaromad -}      `gloss`  [ "covered with tiles", "coated" ] ]
 
  -- ;--- qrmz
 
@@ -5748,19 +5720,19 @@ lexicon = listing "Lexicon properties"
     -- qrm$    qaroma$ PV      nibble;crunch
     -- qrm$    qaromi$ IV_yu   nibble;crunch
 
-    verb     FaCCaL                    {- qaroma$ -}        `others` [ "qarmi^s IV_yu" ]
+    verb     KaRDaS                    {- qaroma$ -}        `others` [ "qarmi^s IV_yu" ]
                                                             `gloss`  [ "nibble", "crunch" ],
 
     -- ;; qaroma$ap_1
     -- qrm$    qaroma$ Nap     nibbling;crunching
 
-    noun     FaCCaL |< aT              {- qaroma$ap -}      `others` [ "qarma^s Nap" ]
+    noun     KaRDaS |< aT              {- qaroma$ap -}      `others` [ "qarma^s Nap" ]
                                                             `gloss`  [ "nibbling", "crunching" ],
 
     -- ;; muqaroma$_1
     -- mqrm$   muqaroma$       N-ap    crisp;dry
 
-    noun     MuFaCCaL                  {- muqaroma$ -}      `gloss`  [ "crisp", "dry" ] ]
+    noun     MuKaRDaS                  {- muqaroma$ -}      `gloss`  [ "crisp", "dry" ] ]
 
  -- ;--- qrmT
 
@@ -5771,14 +5743,14 @@ lexicon = listing "Lexicon properties"
     -- qrmTy   qaromaTiy~      Nall    Karmathian     [[qaromaTiy~/ADJ]]
     -- qrAmT   qarAmiT Nap     Karmathians
 
-    noun     FaCCaL |< Iy              {- qaromaTiy~ -}     `others` [ "qarAmi.t Nap" ]
+    noun     KaRDaS |< Iy              {- qaromaTiy~ -}     `others` [ "qarAmi.t Nap" ]
                                                             `gloss`  [ "Karmathian", "Karmathians" ],
 
     -- ;; qaromuwT_1
     -- qrmwT   qaromuwT        N       sheatfish
     -- qrAmyT  qarAmiyT        Ndip    sheatfish
 
-    noun     FaCCUL                    {- qaromuwT -}       `others` [ "qarAmiy.t Ndip" ]
+    noun     KaRDUS                    {- qaromuwT -}       `others` [ "qarAmiy.t Ndip" ]
                                                             `gloss`  [ "sheatfish" ] ]
 
  -- ;--- qrn
@@ -6118,11 +6090,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- qarA-u -}         `imperf` [ FCuL ]
                                                             `others` [ "qarA PV_0h", "qrY IV_0_Pass_yu", "qr IV_0hwnyn", "qaraw PV_Atn", "qray IV_Ann_Pass_yu", "qruw IV_0hAnn", "qar PV_ttAw" ]
-                                                            `gloss`  [ "pierce", "examine", "be pierced", "be examined" ] ]
-
- -- ;; taqar~aY_1
-
- |> "qrr" <| [
+                                                            `gloss`  [ "pierce", "examine", "be pierced", "be examined" ],
 
     -- ;; taqar~aY_1
     -- tqrY    taqar~aY        PV_0    investigate
@@ -6135,11 +6103,7 @@ lexicon = listing "Lexicon properties"
     -- tqr     taqar~  IV_0hwnyn       investigate
 
     verb     TaFaCCY                   {- taqar~aY -}       `others` [ "taqarr IV_0hwnyn PV_ttAw", "taqarray PV_Atn IV_Ann", "taqarrA PV_h IV_h" ]
-                                                            `gloss`  [ "investigate" ] ]
-
- -- ;; {isotaqoraY_1
-
- |> "qr" <| [
+                                                            `gloss`  [ "investigate" ],
 
     -- ;; {isotaqoraY_1
     -- <stqrY  {isotaqoraY     PV_0    examine;explore;investigate
@@ -6516,27 +6480,23 @@ lexicon = listing "Lexicon properties"
     -- qzdr    qazodar PV      plate with tin
     -- qzdr    qazodir IV_yu   plate with tin
 
-    verb     FaCCaL                    {- qazodar -}        `others` [ "qazdir IV_yu" ]
-                                                            `gloss`  [ "plate with tin" ] ]
-
- -- ;; qazodiyr_1
-
- |> "qazdiyr" <| [
+    verb     KaRDaS                    {- qazodar -}        `others` [ "qazdir IV_yu" ]
+                                                            `gloss`  [ "plate with tin" ],
 
     -- ;; qazodiyr_1
     -- qzdyr   qazodiyr        N       tin plating
 
-    noun     Identity                  {- qazodiyr -}       `gloss`  [ "tin plating" ],
+    noun     KaRDIS                    {- qazodiyr -}       `gloss`  [ "tin plating" ],
 
     -- ;; muqazodir_1
     -- mqzdr   muqazodir       Nall    tinsmith
 
-    noun     MuFaCCiL                  {- muqazodir -}      `gloss`  [ "tinsmith" ],
+    noun     MuKaRDiS                  {- muqazodir -}      `gloss`  [ "tinsmith" ],
 
     -- ;; muqazodar_1
     -- mqzdr   muqazodar       N-ap    tin plated     [[muqazodar/ADJ]]
 
-    noun     MuFaCCaL                  {- muqazodar -}      `gloss`  [ "tin plated" ] ]
+    noun     MuKaRDaS                  {- muqazodar -}      `gloss`  [ "tin plated" ] ]
 
  -- ;--- qzE
 
@@ -6569,13 +6529,13 @@ lexicon = listing "Lexicon properties"
     -- qzqz    qazoqaz PV      crack
     -- qzqz    qazoqiz IV_yu   crack
 
-    verb     FaCCaL                    {- qazoqaz -}        `others` [ "qazqiz IV_yu" ]
+    verb     KaRDaS                    {- qazoqaz -}        `others` [ "qazqiz IV_yu" ]
                                                             `gloss`  [ "crack" ],
 
     -- ;; qazoqazap_1
     -- qzqz    qazoqaz Nap     cracking
 
-    noun     FaCCaL |< aT              {- qazoqazap -}      `others` [ "qazqaz Nap" ]
+    noun     KaRDaS |< aT              {- qazoqazap -}      `others` [ "qazqaz Nap" ]
                                                             `gloss`  [ "cracking" ] ]
 
  -- ;--- qzl
@@ -6671,22 +6631,18 @@ lexicon = listing "Lexicon properties"
 
  -- ;; qazowiyn_1
 
- |> "qazwiyn" <| [
+ |> "qzwn" <| [
 
     -- ;; qazowiyn_1
     -- qzwyn   qazowiyn        Ndip    Caspian;Qazvin
 
-    noun     Identity                  {- qazowiyn -}       `gloss`  [ "Caspian", "Qazvin" ] ]
-
- -- ;; qazowiyniy~_1
-
- |> "qazwiyn" <| [
+    noun     KaRDIS                    {- qazowiyn -}       `gloss`  [ "Caspian", "Qazvin" ],
 
     -- ;; qazowiyniy~_1
     -- qzwyny  qazowiyniy~     Nall    Caspian     [[qazowiyniy~/NOUN]]
     -- qzwyny  qazowiyniy~     Nall    Caspian     [[qazowiyniy~/ADJ]]
 
-    noun     Identity |< Iy            {- qazowiyniy~ -}    `gloss`  [ "Caspian" ] ]
+    noun     KaRDIS |< Iy              {- qazowiyniy~ -}    `gloss`  [ "Caspian" ] ]
 
  -- ;--- qs
 
@@ -6903,13 +6859,13 @@ lexicon = listing "Lexicon properties"
     -- qsTr    qasoTar PV      test for genuineness
     -- qsTr    qasoTir IV_yu   test for genuineness
 
-    verb     FaCCaL                    {- qasoTar -}        `others` [ "qas.tir IV_yu" ]
+    verb     KaRDaS                    {- qasoTar -}        `others` [ "qas.tir IV_yu" ]
                                                             `gloss`  [ "test for genuineness" ],
 
     -- ;; qasoTarap_1
     -- qsTr    qasoTar Nap     test for genuineness
 
-    noun     FaCCaL |< aT              {- qasoTarap -}      `others` [ "qas.tar Nap" ]
+    noun     KaRDaS |< aT              {- qasoTarap -}      `others` [ "qas.tar Nap" ]
                                                             `gloss`  [ "test for genuineness" ],
 
     -- ;; qasoTar_2
@@ -6917,7 +6873,7 @@ lexicon = listing "Lexicon properties"
     -- qsTr    qasoTar Napdu   catheter
     -- qsATr   qasATir Ndip    catheters
 
-    noun     FaCCaL                    {- qasoTar -}        `others` [ "qasA.tir Ndip" ]
+    noun     KaRDaS                    {- qasoTar -}        `others` [ "qasA.tir Ndip" ]
                                                             `gloss`  [ "catheter", "catheters" ] ]
 
  -- ;--- qsTs
@@ -6929,7 +6885,7 @@ lexicon = listing "Lexicon properties"
     -- qsTAs   qisoTAs Ndu     balance;scales
     -- qsATys  qasATiys        Ndip    balance;scales
 
-    noun     FuCCAL                    {- qusoTAs -}        `others` [ "qasA.tiys Ndip", "qis.tAs Ndu" ]
+    noun     KuRDAS                    {- qusoTAs -}        `others` [ "qasA.tiys Ndip", "qis.tAs Ndu" ]
                                                             `gloss`  [ "balance", "scales" ] ]
 
  -- ;--- qsTl
@@ -6940,36 +6896,32 @@ lexicon = listing "Lexicon properties"
     -- qsTl    qasoTal Ndu     water pipe;water main
     -- qsATl   qasATil Ndip    water pipes;water mains
 
-    noun     FaCCaL                    {- qasoTal -}        `others` [ "qasA.til Ndip" ]
+    noun     KaRDaS                    {- qasoTal -}        `others` [ "qasA.til Ndip" ]
                                                             `gloss`  [ "water pipe", "water main", "water pipes", "water mains" ],
 
     -- ;; qasoTal_2
     -- qsTl    qasoTal N       chestnuts
     -- qsTl    qasoTal Napdu   chestnut
 
-    noun     FaCCaL                    {- qasoTal -}        `gloss`  [ "chestnuts", "chestnut" ],
+    noun     KaRDaS                    {- qasoTal -}        `gloss`  [ "chestnuts", "chestnut" ],
 
     -- ;; qasoTaliy~_1
     -- qsTly   qasoTaliy~      N-ap    brown;chestnut     [[qasoTaliy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- qasoTaliy~ -}     `gloss`  [ "brown", "chestnut" ],
+    noun     KaRDaS |< Iy              {- qasoTaliy~ -}     `gloss`  [ "brown", "chestnut" ],
 
     -- ;; qasoTAlap_1
     -- qsTAl   qasoTAl Nap     Castile
 
-    noun     FaCCAL |< aT              {- qasoTAlap -}      `others` [ "qas.tAl Nap" ]
-                                                            `gloss`  [ "Castile" ] ]
-
- -- ;; qasoTiyliy~_1
-
- |> "qas.tiyl" <| [
+    noun     KaRDAS |< aT              {- qasoTAlap -}      `others` [ "qas.tAl Nap" ]
+                                                            `gloss`  [ "Castile" ],
 
     -- ;; qasoTiyliy~_1
     -- qsTyly  qasoTiyliy~     N-ap    Castilian     [[qasoTiyliy~/NOUN]]
     -- qsTyly  qasoTiyliy~     N-ap    Castilian     [[qasoTiyliy~/ADJ]]
     -- qsATl   qasATil Nap     Castilians
 
-    noun     Identity |< Iy            {- qasoTiyliy~ -}    `others` [ "qasA.til Nap" ]
+    noun     KaRDIS |< Iy              {- qasoTiyliy~ -}    `others` [ "qasA.til Nap" ]
                                                             `gloss`  [ "Castilian", "Castilians" ] ]
 
  -- ;--- qsTn
@@ -7345,11 +7297,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- qasA-u -}         `imperf` [ FCuL ]
                                                             `others` [ "qs IV_0hwnyn", "qasA PV_0", "qasaw PV_Atn", "qas PV_ttAw_intr", "qsuw IV_0hAnn" ]
-                                                            `gloss`  [ "be harsh", "be severe" ] ]
-
- -- ;; qas~aY_1
-
- |> "qss" <| [
+                                                            `gloss`  [ "be harsh", "be severe" ],
 
     -- ;; qas~aY_1
     -- qsY     qas~aY  PV_0    harden;make stubborn;make hard-hearted
@@ -7362,11 +7310,7 @@ lexicon = listing "Lexicon properties"
     -- qsy     qas~ay  IV_Ann_Pass_yu  be hardened;be made stubborn;be made hard-hearted
 
     verb     FaCCY                     {- qas~aY -}         `others` [ "qass IV_0hwnyn_yu PV_ttAw", "qassay PV_Atn IV_Ann_Pass_yu", "qassiy IV_0hAnn_yu", "qassA PV_h" ]
-                                                            `gloss`  [ "harden", "make stubborn", "make hard-hearted", "be hardened", "be made stubborn", "be made hard-hearted" ] ]
-
- -- ;; qAsaY_1
-
- |> "qs" <| [
+                                                            `gloss`  [ "harden", "make stubborn", "make hard-hearted", "be hardened", "be made stubborn", "be made hard-hearted" ],
 
     -- ;; qAsaY_1
     -- qAsY    qAsaY   PV_0    suffer;endure
@@ -7595,18 +7539,14 @@ lexicon = listing "Lexicon properties"
     -- ;; qa$otAlap_1
     -- q$tAl   qa$otAl Nap     Castile
 
-    noun     FaCCAL |< aT              {- qa$otAlap -}      `others` [ "qa^stAl Nap" ]
-                                                            `gloss`  [ "Castile" ] ]
-
- -- ;; qa$otiyliy~_1
-
- |> "qa^stiyl" <| [
+    noun     KaRDAS |< aT              {- qa$otAlap -}      `others` [ "qa^stAl Nap" ]
+                                                            `gloss`  [ "Castile" ],
 
     -- ;; qa$otiyliy~_1
     -- q$tyly  qa$otiyliy~     N-ap    Castilian     [[qa$otiyliy~/ADJ]]
     -- q$Atl   qa$Atil Nap     Castilians
 
-    noun     Identity |< Iy            {- qa$otiyliy~ -}    `others` [ "qa^sAtil Nap" ]
+    noun     KaRDIS |< Iy              {- qa$otiyliy~ -}    `others` [ "qa^sAtil Nap" ]
                                                             `gloss`  [ "Castilian", "Castilians" ] ]
 
  -- ;--- q$d
@@ -7798,18 +7738,14 @@ lexicon = listing "Lexicon properties"
     -- ;; qa$oTAlap_1
     -- q$TAl   qa$oTAl Nap     Castile
 
-    noun     FaCCAL |< aT              {- qa$oTAlap -}      `others` [ "qa^s.tAl Nap" ]
-                                                            `gloss`  [ "Castile" ] ]
-
- -- ;; qa$oTiyliy~_1
-
- |> "qa^s.tiyl" <| [
+    noun     KaRDAS |< aT              {- qa$oTAlap -}      `others` [ "qa^s.tAl Nap" ]
+                                                            `gloss`  [ "Castile" ],
 
     -- ;; qa$oTiyliy~_1
     -- q$Tyly  qa$oTiyliy~     N-ap    Castilian     [[qa$oTiyliy~/ADJ]]
     -- q$ATl   qa$ATil Nap     Castilians
 
-    noun     Identity |< Iy            {- qa$oTiyliy~ -}    `others` [ "qa^sA.til Nap" ]
+    noun     KaRDIS |< Iy              {- qa$oTiyliy~ -}    `others` [ "qa^sA.til Nap" ]
                                                             `gloss`  [ "Castilian", "Castilians" ] ]
 
  -- ;--- q$E
@@ -7889,7 +7825,7 @@ lexicon = listing "Lexicon properties"
     -- q$Er    qa$oEar PV      exasperate;give goose bumps
     -- q$Er    qa$oEir IV_yu   exasperate;give goose bumps
 
-    verb     FaCCaL                    {- qa$oEar -}        `others` [ "qa^s`ir IV_yu" ]
+    verb     KaRDaS                    {- qa$oEar -}        `others` [ "qa^s`ir IV_yu" ]
                                                             `gloss`  [ "exasperate", "give goose bumps" ] ]
 
  -- ;; {iqo$aEar~_1
@@ -7944,7 +7880,7 @@ lexicon = listing "Lexicon properties"
     -- q$Em    qa$oEam Ndu     lion
     -- q$AEm   qa$AEim Ndip    lions
 
-    noun     FaCCaL                    {- qa$oEam -}        `others` [ "qa^sA`im Ndip" ]
+    noun     KaRDaS                    {- qa$oEam -}        `others` [ "qa^sA`im Ndip" ]
                                                             `gloss`  [ "lion", "lions" ] ]
 
  -- ;--- q$f
@@ -8015,13 +7951,13 @@ lexicon = listing "Lexicon properties"
     -- q$q$    qa$oqa$ PV      cure;sweep away
     -- q$q$    qa$oqi$ IV_yu   cure;sweep away
 
-    verb     FaCCaL                    {- qa$oqa$ -}        `others` [ "qa^sqi^s IV_yu" ]
+    verb     KaRDaS                    {- qa$oqa$ -}        `others` [ "qa^sqi^s IV_yu" ]
                                                             `gloss`  [ "cure", "sweep away" ],
 
     -- ;; qa$oqa$ap_1
     -- q$q$    qa$oqa$ Nap     curing;sweeping away
 
-    noun     FaCCaL |< aT              {- qa$oqa$ap -}      `others` [ "qa^sqa^s Nap" ]
+    noun     KaRDaS |< aT              {- qa$oqa$ap -}      `others` [ "qa^sqa^s Nap" ]
                                                             `gloss`  [ "curing", "sweeping away" ] ]
 
  -- ;--- q$l
@@ -8055,7 +7991,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qu$olAq_1
     -- q$lAq   qu$olAq NduAt   barracks
 
-    noun     FuCCAL                    {- qu$olAq -}        `gloss`  [ "barracks" ] ]
+    noun     KuRDAS                    {- qu$olAq -}        `gloss`  [ "barracks" ] ]
 
  -- ;--- q$m
 
@@ -8492,16 +8428,12 @@ lexicon = listing "Lexicon properties"
     -- ;; maqoSid_2
     -- mqSd    maqoSid Ndu     destination;goal
 
-    noun     MaFCiL                    {- maqoSid -}        `gloss`  [ "destination", "goal" ] ]
-
- -- ;; maqASid_1
-
- |> "maqA.sid" <| [
+    noun     MaFCiL                    {- maqoSid -}        `gloss`  [ "destination", "goal" ],
 
     -- ;; maqASid_1
     -- mqASd   maqASid N0      Maqasid
 
-    noun     Identity                  {- maqASid -}        `gloss`  [ "Maqasid" ],
+    noun     MaFACiL                   {- maqASid -}        `gloss`  [ "Maqasid" ],
 
     -- ;; taqaS~ud_1
     -- tqSd    taqaS~ud        N/At    intention;striving
@@ -8564,27 +8496,23 @@ lexicon = listing "Lexicon properties"
     -- qSdr    qaSodar PV      plate with tin
     -- qSdr    qaSodir IV_yu   plate with tin
 
-    verb     FaCCaL                    {- qaSodar -}        `others` [ "qa.sdir IV_yu" ]
-                                                            `gloss`  [ "plate with tin" ] ]
-
- -- ;; qaSodiyr_1
-
- |> "qa.sdiyr" <| [
+    verb     KaRDaS                    {- qaSodar -}        `others` [ "qa.sdir IV_yu" ]
+                                                            `gloss`  [ "plate with tin" ],
 
     -- ;; qaSodiyr_1
     -- qSdyr   qaSodiyr        N       tin plating
 
-    noun     Identity                  {- qaSodiyr -}       `gloss`  [ "tin plating" ],
+    noun     KaRDIS                    {- qaSodiyr -}       `gloss`  [ "tin plating" ],
 
     -- ;; muqaSodir_1
     -- mqSdr   muqaSodir       Nall    tinsmith
 
-    noun     MuFaCCiL                  {- muqaSodir -}      `gloss`  [ "tinsmith" ],
+    noun     MuKaRDiS                  {- muqaSodir -}      `gloss`  [ "tinsmith" ],
 
     -- ;; muqaSodar_1
     -- mqSdr   muqaSodar       N-ap    tin plated     [[muqaSodar/ADJ]]
 
-    noun     MuFaCCaL                  {- muqaSodar -}      `gloss`  [ "tin plated" ] ]
+    noun     MuKaRDaS                  {- muqaSodar -}      `gloss`  [ "tin plated" ] ]
 
  -- ;--- qSr
 
@@ -8932,13 +8860,13 @@ lexicon = listing "Lexicon properties"
     -- qSqS    qaSoqaS PV      break;shatter;trim
     -- qSqS    qaSoqiS IV_yu   break;shatter;trim
 
-    verb     FaCCaL                    {- qaSoqaS -}        `others` [ "qa.sqi.s IV_yu" ]
+    verb     KaRDaS                    {- qaSoqaS -}        `others` [ "qa.sqi.s IV_yu" ]
                                                             `gloss`  [ "break", "shatter", "trim" ],
 
     -- ;; qaSoqaSap_1
     -- qSqS    qaSoqaS Nap     breaking;shattering;trimming
 
-    noun     FaCCaL |< aT              {- qaSoqaSap -}      `others` [ "qa.sqa.s Nap" ]
+    noun     KaRDaS |< aT              {- qaSoqaSap -}      `others` [ "qa.sqa.s Nap" ]
                                                             `gloss`  [ "breaking", "shattering", "trimming" ] ]
 
  -- ;--- qSl
@@ -9094,11 +9022,7 @@ lexicon = listing "Lexicon properties"
     -- qSy     qoSay   IV_Ann_Pass_yu  be removed
 
     verb     HaFCY                     {- >aqoSaY -}        `others` [ "'aq.sA PV_h", "q.sY IV_0_Pass_yu", "q.say IV_Ann_Pass_yu", "'aq.s PV_ttAw", "'aq.say PV_Atn", "q.s IV_0hwnyn_yu", "q.siy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "remove", "be removed" ] ]
-
- -- ;; taqaS~aY_1
-
- |> "q.s.s" <| [
+                                                            `gloss`  [ "remove", "be removed" ],
 
     -- ;; taqaS~aY_1
     -- tqSY    taqaS~aY        PV_0    examine;study
@@ -9111,11 +9035,7 @@ lexicon = listing "Lexicon properties"
     -- tqS     taqaS~  IV_0hwnyn       examine;study
 
     verb     TaFaCCY                   {- taqaS~aY -}       `others` [ "taqa.s.s IV_0hwnyn PV_ttAw", "taqa.s.sA PV_h IV_h", "taqa.s.say PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "examine", "study" ] ]
-
- -- ;; {isotaqoSaY_1
-
- |> "q.s" <| [
+                                                            `gloss`  [ "examine", "study" ],
 
     -- ;; {isotaqoSaY_1
     -- <stqSY  {isotaqoSaY     PV_0    penetrate;examine
@@ -9496,11 +9416,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- qaDaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "q.dY IV_0_Pass_yu", "q.diy IV_0hAnn", "qa.dY PV_0", "q.d IV_0hwnyn", "qa.d PV_ttAw", "qa.day PV_Atn", "qa.dA PV_h" ]
-                                                            `gloss`  [ "execute", "perform", "decree", "be executed", "be performed", "be decreed" ] ]
-
- -- ;; qaD~aY_1
-
- |> "q.d.d" <| [
+                                                            `gloss`  [ "execute", "perform", "decree", "be executed", "be performed", "be decreed" ],
 
     -- ;; qaD~aY_1
     -- qDY     qaD~aY  PV_0    carry out;effectuate;accomplish
@@ -9513,11 +9429,7 @@ lexicon = listing "Lexicon properties"
     -- qDy     qaD~ay  IV_Ann_Pass_yu  be carried out;be effectuated;be accomplished
 
     verb     FaCCY                     {- qaD~aY -}         `others` [ "qa.d.d IV_0hwnyn_yu PV_ttAw", "qa.d.day PV_Atn IV_Ann_Pass_yu", "qa.d.diy IV_0hAnn_yu", "qa.d.dA PV_h" ]
-                                                            `gloss`  [ "carry out", "effectuate", "accomplish", "be carried out", "be effectuated", "be accomplished" ] ]
-
- -- ;; qADaY_1
-
- |> "q.d" <| [
+                                                            `gloss`  [ "carry out", "effectuate", "accomplish", "be carried out", "be effectuated", "be accomplished" ],
 
     -- ;; qADaY_1
     -- qADY    qADaY   PV_0    summon;prosecute
@@ -9530,11 +9442,7 @@ lexicon = listing "Lexicon properties"
     -- qADy    qADay   IV_Ann_Pass_yu  be summoned;be prosecuted
 
     verb     FACY                      {- qADaY -}          `others` [ "qA.day PV_Atn IV_Ann_Pass_yu", "qA.d IV_0hwnyn_yu PV_ttAw", "qA.diy IV_0hAnn_yu", "qA.dA PV_h" ]
-                                                            `gloss`  [ "summon", "prosecute", "be summoned", "be prosecuted" ] ]
-
- -- ;; taqaD~aY_1
-
- |> "q.d.d" <| [
+                                                            `gloss`  [ "summon", "prosecute", "be summoned", "be prosecuted" ],
 
     -- ;; taqaD~aY_1
     -- tqDY    taqaD~aY        PV_0    be completed;expire
@@ -9545,11 +9453,7 @@ lexicon = listing "Lexicon properties"
     -- tqD     taqaD~  IV_0hwnyn       be completed;expire
 
     verb     TaFaCCY                   {- taqaD~aY -}       `others` [ "taqa.d.day PV_Atn IV_Ann", "taqa.d.d PV_ttAw_intr IV_0hwnyn" ]
-                                                            `gloss`  [ "be completed", "expire" ] ]
-
- -- ;; taqADaY_1
-
- |> "q.d" <| [
+                                                            `gloss`  [ "be completed", "expire" ],
 
     -- ;; taqADaY_1
     -- tqADY   taqADaY PV_0    litigate;lay claim to
@@ -9759,17 +9663,13 @@ lexicon = listing "Lexicon properties"
     -- qDA     quDA    Nap     judges;magistrates
 
     noun     FACiL                     {- qADiy -}          `others` [ "qu.dA Nap", "qA.d NK" ]
-                                                            `gloss`  [ "judge", "magistrate", "judges", "magistrates" ] ]
-
- -- ;; qawADiy_1
-
- |> "qawA.diy" <| [
+                                                            `gloss`  [ "judge", "magistrate", "judges", "magistrates" ],
 
     -- ;; qawADiy_1
     -- qwADy   qawADiy N0_Nh   requirements;exigencies
     -- qwAD    qawAD   NK      requirements;exigencies
 
-    noun     Identity                  {- qawADiy -}        `others` [ "qawA.d NK" ]
+    noun     FawACiL                   {- qawADiy -}        `others` [ "qawA.d NK" ]
                                                             `gloss`  [ "requirements", "exigencies" ] ]
 
  -- ;; maqoDiy~_1
@@ -10173,24 +10073,24 @@ lexicon = listing "Lexicon properties"
     -- qTrn    qaToran PV-n    coat with tar
     -- qTrn    qaTorin IV-n_yu coat with tar
 
-    verb     FaCCaL                    {- qaToran -}        `others` [ "qa.trin IV-n_yu" ]
+    verb     KaRDaS                    {- qaToran -}        `others` [ "qa.trin IV-n_yu" ]
                                                             `gloss`  [ "coat with tar" ],
 
     -- ;; qaToranap_1
     -- qTrn    qaToran Nap     coating with tar
 
-    noun     FaCCaL |< aT              {- qaToranap -}      `others` [ "qa.tran Nap" ]
+    noun     KaRDaS |< aT              {- qaToranap -}      `others` [ "qa.tran Nap" ]
                                                             `gloss`  [ "coating with tar" ],
 
     -- ;; qaTorAn_1
     -- qTrAn   qaTorAn N       tar
 
-    noun     FaCCAL                    {- qaTorAn -}        `gloss`  [ "tar" ],
+    noun     KaRDAS                    {- qaTorAn -}        `gloss`  [ "tar" ],
 
     -- ;; qaTorAniy~_1
     -- qTrAny  qaTorAniy~      Nall    tar-like     [[qaTorAniy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- qaTorAniy~ -}     `gloss`  [ "tar-like" ] ]
+    noun     KaRDAS |< Iy              {- qaTorAniy~ -}     `gloss`  [ "tar-like" ] ]
 
  -- ;--- qTE
 
@@ -10688,7 +10588,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qaToquwTap_1
     -- qTqwT   qaToquwT        Napdu   young girl
 
-    noun     FaCCUL |< aT              {- qaToquwTap -}     `others` [ "qa.tquw.t Napdu" ]
+    noun     KaRDUS |< aT              {- qaToquwTap -}     `others` [ "qa.tquw.t Napdu" ]
                                                             `gloss`  [ "young girl" ] ]
 
  -- ;--- qTl
@@ -10768,7 +10668,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qiTomiyr_1
     -- qTmyr   qiTomiyr        N       pellicle;red cent
 
-    noun     FiCCIL                    {- qiTomiyr -}       `gloss`  [ "pellicle", "red cent" ] ]
+    noun     KiRDIS                    {- qiTomiyr -}       `gloss`  [ "pellicle", "red cent" ] ]
 
  -- ;--- qTn
 
@@ -11198,20 +11098,20 @@ lexicon = listing "Lexicon properties"
     -- qEqE    qaEoqaE PV      clatter;rattle
     -- qEqE    qaEoqiE IV_yu   clatter;rattle
 
-    verb     FaCCaL                    {- qaEoqaE -}        `others` [ "qa`qi` IV_yu" ]
+    verb     KaRDaS                    {- qaEoqaE -}        `others` [ "qa`qi` IV_yu" ]
                                                             `gloss`  [ "clatter", "rattle" ],
 
     -- ;; qaEoqaEap_1
     -- qEqE    qaEoqaE Nap     noise;rattle
     -- qEAqE   qaEAqiE Ndip    high-sounding words
 
-    noun     FaCCaL |< aT              {- qaEoqaEap -}      `others` [ "qa`Aqi` Ndip", "qa`qa` Nap" ]
+    noun     KaRDaS |< aT              {- qaEoqaEap -}      `others` [ "qa`Aqi` Ndip", "qa`qa` Nap" ]
                                                             `gloss`  [ "noise", "rattle", "high-sounding words" ],
 
     -- ;; qaEoqaE_2
     -- qEqE    qaEoqaE N       magpie
 
-    noun     FaCCaL                    {- qaEoqaE -}        `gloss`  [ "magpie" ] ]
+    noun     KaRDaS                    {- qaEoqaE -}        `gloss`  [ "magpie" ] ]
 
  -- ;--- qEy
 
@@ -11220,14 +11120,6 @@ lexicon = listing "Lexicon properties"
     -- ;; >aqoEaY_1
 
     root     Identity                                        ]
-
- -- ;; >aqoEaY_1
-
- |> "q'q`" <| [
-
-    -- ;; >aqoEaY_1
-
-    noun     FaCCY                     {- >aqoEaY -}         ]
 
  -- ;; >aqoEaY_1
 
@@ -11359,7 +11251,7 @@ lexicon = listing "Lexicon properties"
     -- qfrA&   qaforA& Nh      arid
     -- qfrA}   qaforA} Nhy     arid
 
-    noun     FaCCAL                    {- qaforA' -}        `gloss`  [ "arid" ] ]
+    noun     KaRDAS                    {- qaforA' -}        `gloss`  [ "arid" ] ]
 
  -- ;; <iqofAr_1
 
@@ -11500,7 +11392,7 @@ lexicon = listing "Lexicon properties"
     -- qfTAn   qufoTAn Ndu     caftan
     -- qfATyn  qafATiyn        Ndip    caftans
 
-    noun     FuCCAL                    {- qufoTAn -}        `others` [ "qafA.tiyn Ndip" ]
+    noun     KuRDAS                    {- qufoTAn -}        `others` [ "qafA.tiyn Ndip" ]
                                                             `gloss`  [ "caftan", "caftans" ] ]
 
  -- ;--- qfE
@@ -11535,7 +11427,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qafoqAs_1
     -- qfqAs   qafoqAs N       Caucasus
 
-    noun     FaCCAL                    {- qafoqAs -}        `gloss`  [ "Caucasus" ] ]
+    noun     KaRDAS                    {- qafoqAs -}        `gloss`  [ "Caucasus" ] ]
 
  -- ;--- qfqf
 
@@ -11545,19 +11437,19 @@ lexicon = listing "Lexicon properties"
     -- qfqf    qafoqaf PV      shiver;chatter
     -- qfqf    qafoqif IV_yu   shiver;chatter
 
-    verb     FaCCaL                    {- qafoqaf -}        `others` [ "qafqif IV_yu" ]
+    verb     KaRDaS                    {- qafoqaf -}        `others` [ "qafqif IV_yu" ]
                                                             `gloss`  [ "shiver", "chatter" ],
 
     -- ;; taqafoqaf_1
     -- tqfqf   taqafoqaf       PV      shiver;chatter
     -- tqfqf   taqafoqaf       IV      shiver;chatter
 
-    verb     TaFaCCaL                  {- taqafoqaf -}      `gloss`  [ "shiver", "chatter" ],
+    verb     TaKaRDaS                  {- taqafoqaf -}      `gloss`  [ "shiver", "chatter" ],
 
     -- ;; qafoqafap_1
     -- qfqf    qafoqaf Nap     shivering;chattering
 
-    noun     FaCCaL |< aT              {- qafoqafap -}      `others` [ "qafqaf Nap" ]
+    noun     KaRDaS |< aT              {- qafoqafap -}      `others` [ "qafqaf Nap" ]
                                                             `gloss`  [ "shivering", "chattering" ] ]
 
  -- ;--- qfl
@@ -11664,11 +11556,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- qafA-u -}         `imperf` [ FCuL ]
                                                             `others` [ "qafaw PV_Atn", "qafA PV_0h", "qfuw IV_0hAnn", "qfY IV_0_Pass_yu", "qf IV_0hwnyn", "qfay IV_Ann_Pass_yu", "qaf PV_ttAw" ]
-                                                            `gloss`  [ "follow", "track", "be followed", "be tracked" ] ]
-
- -- ;; qaf~aY_1
-
- |> "qff" <| [
+                                                            `gloss`  [ "follow", "track", "be followed", "be tracked" ],
 
     -- ;; qaf~aY_1
     -- qfY     qaf~aY  PV_0    send;rhyme
@@ -11694,11 +11582,7 @@ lexicon = listing "Lexicon properties"
     -- tqf     taqaf~  IV_0hwnyn       follow;track
 
     verb     TaFaCCY                   {- taqaf~aY -}       `others` [ "taqaff IV_0hwnyn PV_ttAw", "taqaffay PV_Atn IV_Ann", "taqaffA PV_h IV_h" ]
-                                                            `gloss`  [ "follow", "track" ] ]
-
- -- ;; {iqotafaY_1
-
- |> "qf" <| [
+                                                            `gloss`  [ "follow", "track" ],
 
     -- ;; {iqotafaY_1
     -- <qtfY   {iqotafaY       PV_0    follow;track;imitate
@@ -12313,13 +12197,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; qalo$iyn_1
 
- |> "qal^siyn" <| [
+ |> "ql^sn" <| [
 
     -- ;; qalo$iyn_1
     -- ql$yn   qalo$iyn        Ndu     puttee;legging;gaiter
     -- qlA$yn  qalA$iyn        Ndip    puttees;leggings;gaiters
 
-    noun     Identity                  {- qalo$iyn -}       `others` [ "qalA^siyn Ndip" ]
+    noun     KaRDIS                    {- qalo$iyn -}       `others` [ "qalA^siyn Ndip" ]
                                                             `gloss`  [ "puttee", "legging", "gaiter", "puttees", "leggings", "gaiters" ] ]
 
  -- ;--- qlS
@@ -12395,12 +12279,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qiyliyT_1
     -- qylyT   qiyliyT N       suffering from scrotal hernia
 
-    noun     FiCCIL                    {- qiyliyT -}        `gloss`  [ "suffering from scrotal hernia" ],
+    noun     KiRDIS                    {- qiyliyT -}        `gloss`  [ "suffering from scrotal hernia" ],
 
     -- ;; muqayolaT_1
     -- mqylT   muqayolaT       Nall    suffering from scrotal hernia     [[muqayolaT/ADJ]]
 
-    noun     MuFaCCaL                  {- muqayolaT -}      `gloss`  [ "suffering from scrotal hernia" ] ]
+    noun     MuKaRDaS                  {- muqayolaT -}      `gloss`  [ "suffering from scrotal hernia" ] ]
 
  -- ;--- qlE
 
@@ -12509,23 +12393,19 @@ lexicon = listing "Lexicon properties"
     -- qlET    qaloEaT PV      sully;soil
     -- qlET    qaloEiT IV_yu   sully;soil
 
-    verb     FaCCaL                    {- qaloEaT -}        `others` [ "qal`i.t IV_yu" ]
+    verb     KaRDaS                    {- qaloEaT -}        `others` [ "qal`i.t IV_yu" ]
                                                             `gloss`  [ "sully", "soil" ],
 
     -- ;; qaloEaTap_1
     -- qlET    qaloEaT Nap     sullying;soiling
 
-    noun     FaCCaL |< aT              {- qaloEaTap -}      `others` [ "qal`a.t Nap" ]
-                                                            `gloss`  [ "sullying", "soiling" ] ]
-
- -- ;; quloEuwT_1
-
- |> "qul`uw.t" <| [
+    noun     KaRDaS |< aT              {- qaloEaTap -}      `others` [ "qal`a.t Nap" ]
+                                                            `gloss`  [ "sullying", "soiling" ],
 
     -- ;; quloEuwT_1
     -- qlEwT   quloEuwT        Ndu     heretic
 
-    noun     Identity                  {- quloEuwT -}       `gloss`  [ "heretic" ] ]
+    noun     KuRDUS                    {- quloEuwT -}       `gloss`  [ "heretic" ] ]
 
  -- ;--- qlf
 
@@ -12603,13 +12483,13 @@ lexicon = listing "Lexicon properties"
     -- qlfT    qalofaT PV      caulk;bungle
     -- qlfT    qalofiT IV_yu   caulk;bungle
 
-    verb     FaCCaL                    {- qalofaT -}        `others` [ "qalfi.t IV_yu" ]
+    verb     KaRDaS                    {- qalofaT -}        `others` [ "qalfi.t IV_yu" ]
                                                             `gloss`  [ "caulk", "bungle" ],
 
     -- ;; qalofaTap_1
     -- qlfT    qalofaT Nap     caulking;bungling
 
-    noun     FaCCaL |< aT              {- qalofaTap -}      `others` [ "qalfa.t Nap" ]
+    noun     KaRDaS |< aT              {- qalofaTap -}      `others` [ "qalfa.t Nap" ]
                                                             `gloss`  [ "caulking", "bungling" ] ]
 
  -- ;--- qlq
@@ -12671,7 +12551,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qaloqab_1
     -- qlqb    qaloqab Ndu     fur cap
 
-    noun     FaCCaL                    {- qaloqab -}        `gloss`  [ "fur cap" ] ]
+    noun     KaRDaS                    {- qaloqab -}        `gloss`  [ "fur cap" ] ]
 
  -- ;--- qlqs
 
@@ -12681,7 +12561,7 @@ lexicon = listing "Lexicon properties"
     -- qlqAs   quloqAs N       taro (plant with edible roots);elephant's ear
     -- qlqAs   quloqAs NapAt   taro (plant with edible roots);elephant's ear
 
-    noun     FuCCAL                    {- quloqAs -}        `gloss`  [ "taro ( plant with edible roots )", "elephant 's ear" ] ]
+    noun     KuRDAS                    {- quloqAs -}        `gloss`  [ "taro ( plant with edible roots )", "elephant 's ear" ] ]
 
  -- ;--- qlql
 
@@ -12691,30 +12571,26 @@ lexicon = listing "Lexicon properties"
     -- qlql    qaloqal PV      agitate;incite
     -- qlql    qaloqil IV_yu   agitate;incite
 
-    verb     FaCCaL                    {- qaloqal -}        `others` [ "qalqil IV_yu" ]
+    verb     KaRDaS                    {- qaloqal -}        `others` [ "qalqil IV_yu" ]
                                                             `gloss`  [ "agitate", "incite" ],
 
     -- ;; taqaloqal_1
     -- tqlql   taqaloqal       PV_intr be agitated;be stirred up
     -- tqlql   taqaloqal       IV_intr be agitated;be stirred up
 
-    verb     TaFaCCaL                  {- taqaloqal -}      `gloss`  [ "be agitated", "be stirred up" ],
+    verb     TaKaRDaS                  {- taqaloqal -}      `gloss`  [ "be agitated", "be stirred up" ],
 
     -- ;; qaloqalap_1
     -- qlql    qaloqal Nap     unrest;agitation;disturbance
     -- qlAql   qalAqil Ndip    unrest;agitation;disturbances
 
-    noun     FaCCaL |< aT              {- qaloqalap -}      `others` [ "qalqal Nap", "qalAqil Ndip" ]
-                                                            `gloss`  [ "unrest", "agitation", "disturbance", "disturbances" ] ]
-
- -- ;; quloqiylap_1
-
- |> "qulqiyl" <| [
+    noun     KaRDaS |< aT              {- qaloqalap -}      `others` [ "qalqal Nap", "qalAqil Ndip" ]
+                                                            `gloss`  [ "unrest", "agitation", "disturbance", "disturbances" ],
 
     -- ;; quloqiylap_1
     -- qlqyl   quloqiyl        NapAt   lump;clod
 
-    noun     Identity |< aT            {- quloqiylap -}     `others` [ "qulqiyl NapAt" ]
+    noun     KuRDIS |< aT              {- quloqiylap -}     `others` [ "qulqiyl NapAt" ]
                                                             `gloss`  [ "lump", "clod" ] ]
 
  -- ;; qaloqiyliyap_1
@@ -12726,21 +12602,17 @@ lexicon = listing "Lexicon properties"
     -- qlqylyA qaloqiyliyA     N0      Qalqilya
 
     noun     Identity |< aT            {- qaloqiyliyap -}   `others` [ "qalqiyliyA N0" ]
-                                                            `gloss`  [ "Qalqilya" ] ]
-
- -- ;; qaloqiyliy~_1
-
- |> "qalqiyl" <| [
+                                                            `gloss`  [ "Qalqilya" ],
 
     -- ;; qaloqiyliy~_1
     -- qlqyly  qaloqiyliy~     Nall    from/of Qalqilya
 
-    noun     Identity |< Iy            {- qaloqiyliy~ -}    `gloss`  [ "from / of Qalqilya" ],
+    noun     KaRDIS |< Iy              {- qaloqiyliy~ -}    `gloss`  [ "from / of Qalqilya" ],
 
     -- ;; muqaloqal_1
     -- mqlql   muqaloqal       Nall    agitated;unstable     [[muqaloqal/ADJ]]
 
-    noun     MuFaCCaL                  {- muqaloqal -}      `gloss`  [ "agitated", "unstable" ] ]
+    noun     MuKaRDaS                  {- muqaloqal -}      `gloss`  [ "agitated", "unstable" ] ]
 
  -- ;--- qlm
 
@@ -12825,7 +12697,7 @@ lexicon = listing "Lexicon properties"
     -- tqlns   taqalonas       PV      wear a cap
     -- tqlns   taqalonas       IV      wear a cap
 
-    verb     TaFaCCaL                  {- taqalonas -}      `gloss`  [ "wear a cap" ] ]
+    verb     TaKaRDaS                  {- taqalonas -}      `gloss`  [ "wear a cap" ] ]
 
  -- ;; qalanosuwap_1
 
@@ -12992,13 +12864,13 @@ lexicon = listing "Lexicon properties"
     -- qlwz    qalowaz PV      twist;wind;screw on
     -- qlwz    qalowiz IV_yu   twist;wind;screw on
 
-    verb     FaCCaL                    {- qalowaz -}        `others` [ "qalwiz IV_yu" ]
+    verb     KaRDaS                    {- qalowaz -}        `others` [ "qalwiz IV_yu" ]
                                                             `gloss`  [ "twist", "wind", "screw on" ],
 
     -- ;; muqalowaz_1
     -- mqlwz   muqalowaz       N-ap    spiral;helical     [[muqalowaz/ADJ]]
 
-    noun     MuFaCCaL                  {- muqalowaz -}      `gloss`  [ "spiral", "helical" ] ]
+    noun     MuKaRDaS                  {- muqalowaz -}      `gloss`  [ "spiral", "helical" ] ]
 
  -- ;; qalAwuwz_1
 
@@ -13026,13 +12898,13 @@ lexicon = listing "Lexicon properties"
     -- qlwZ    qalowaZ PV      twist;wind;screw on
     -- qlwZ    qalowiZ IV_yu   twist;wind;screw on
 
-    verb     FaCCaL                    {- qalowaZ -}        `others` [ "qalwi.z IV_yu" ]
+    verb     KaRDaS                    {- qalowaZ -}        `others` [ "qalwi.z IV_yu" ]
                                                             `gloss`  [ "twist", "wind", "screw on" ],
 
     -- ;; muqalowaZ_1
     -- mqlwZ   muqalowaZ       N-ap    spiral;helical     [[muqalowaZ/ADJ]]
 
-    noun     MuFaCCaL                  {- muqalowaZ -}      `gloss`  [ "spiral", "helical" ] ]
+    noun     MuKaRDaS                  {- muqalowaZ -}      `gloss`  [ "spiral", "helical" ] ]
 
  -- ;; qalAwuwZ_1
 
@@ -13059,18 +12931,18 @@ lexicon = listing "Lexicon properties"
     -- ;; qaloyuwb_1
     -- qlywb   qaloyuwb        Ndip    Qalyub (Egy.)
 
-    noun     FaCCUL                    {- qaloyuwb -}       `gloss`  [ "Qalyub ( Egy . )" ],
+    noun     KaRDUS                    {- qaloyuwb -}       `gloss`  [ "Qalyub ( Egy . )" ],
 
     -- ;; qaloyuwbiy~ap_1
     -- qlywby  qaloyuwbiy~     Nap     Qalyubiyah (Egy. prov.)     [[qaloyuwbiy~/NOUN]]
 
-    noun     FaCCUL |< Iy |< aT        {- qaloyuwbiy~ap -}  `others` [ "qalyuwbiyy Nap" ]
+    noun     KaRDUS |< Iy |< aT        {- qaloyuwbiy~ap -}  `others` [ "qalyuwbiyy Nap" ]
                                                             `gloss`  [ "Qalyubiyah ( Egy . prov . )" ],
 
     -- ;; qaloyuwbiy~_1
     -- qlywby  qaloyuwbiy~     Nall    from/of Qalyub (Egy.)     [[qaloyuwbiy~/ADJ]]
 
-    noun     FaCCUL |< Iy              {- qaloyuwbiy~ -}    `gloss`  [ "from / of Qalyub ( Egy . )" ] ]
+    noun     KaRDUS |< Iy              {- qaloyuwbiy~ -}    `gloss`  [ "from / of Qalyub ( Egy . )" ] ]
 
  -- ;--- qm
 
@@ -13166,7 +13038,7 @@ lexicon = listing "Lexicon properties"
     -- qmAbyz  qamAbiyz        Ndip    qumbazes (male robes)
     -- qnAbyz  qanAbiyz        Ndip    qumbazes (male robes)
 
-    noun     FuCCAL                    {- qumobAz -}        `others` [ "qanAbiyz Ndip", "qamAbiyz Ndip", "qunbAz Ndu" ]
+    noun     KuRDAS                    {- qumobAz -}        `others` [ "qanAbiyz Ndip", "qamAbiyz Ndip", "qunbAz Ndu" ]
                                                             `gloss`  [ "qumbaz ( male robe )", "qumbazes ( male robes )" ] ]
 
  -- ;--- qmH
@@ -13314,7 +13186,7 @@ lexicon = listing "Lexicon properties"
     -- qmrA&   qamorA& Nh      moonlight
     -- qmrA}   qamorA} Nhy     moonlight
 
-    noun     FaCCAL                    {- qamorA' -}        `gloss`  [ "moonlight" ] ]
+    noun     KaRDAS                    {- qamorA' -}        `gloss`  [ "moonlight" ] ]
 
  -- ;; qamiyr_1
 
@@ -13483,7 +13355,7 @@ lexicon = listing "Lexicon properties"
     -- qwAms   qawAmis Ndip    sea depths
     -- qwAms   qawAmis Ndip    adversities
 
-    noun     FaCCaL                    {- qawomas -}        `others` [ "qawAmis Ndip" ]
+    noun     KaRDaS                    {- qawomas -}        `others` [ "qawAmis Ndip" ]
                                                             `gloss`  [ "sea depth", "sea depths", "adversities" ] ]
 
  -- ;--- qm$
@@ -13695,19 +13567,19 @@ lexicon = listing "Lexicon properties"
     -- qmqm    qamoqam PV      grumble
     -- qmqm    qamoqim IV_yu   grumble
 
-    verb     FaCCaL                    {- qamoqam -}        `others` [ "qamqim IV_yu" ]
+    verb     KaRDaS                    {- qamoqam -}        `others` [ "qamqim IV_yu" ]
                                                             `gloss`  [ "grumble" ],
 
     -- ;; taqamoqam_1
     -- tqmqm   taqamoqam       PV      complain;grumble
     -- tqmqm   taqamoqam       IV      complain;grumble
 
-    verb     TaFaCCaL                  {- taqamoqam -}      `gloss`  [ "complain", "grumble" ],
+    verb     TaKaRDaS                  {- taqamoqam -}      `gloss`  [ "complain", "grumble" ],
 
     -- ;; qamoqamap_1
     -- qmqm    qamoqam Nap     grumbling
 
-    noun     FaCCaL |< aT              {- qamoqamap -}      `others` [ "qamqam Nap" ]
+    noun     KaRDaS |< aT              {- qamoqamap -}      `others` [ "qamqam Nap" ]
                                                             `gloss`  [ "grumbling" ] ]
 
  -- ;; qumoqum_1
@@ -13978,7 +13850,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qunobAr_1
     -- qnbAr   qunobAr N       bast rug;bast runner
 
-    noun     FuCCAL                    {- qunobAr -}        `gloss`  [ "bast rug", "bast runner" ] ]
+    noun     KuRDAS                    {- qunobAr -}        `gloss`  [ "bast rug", "bast runner" ] ]
 
  -- ;; qunobur_1
 
@@ -13990,16 +13862,12 @@ lexicon = listing "Lexicon properties"
     -- qnAbr   qanAbir Ndip    larks
 
     noun     Identity                  {- qunobur -}        `others` [ "qanAbir Ndip" ]
-                                                            `gloss`  [ "lark", "larks" ] ]
-
- -- ;; qunobuwr_1
-
- |> "qunbuwr" <| [
+                                                            `gloss`  [ "lark", "larks" ],
 
     -- ;; qunobuwr_1
     -- qnbwr   qunobuwr        Ndu     hump;hunch
 
-    noun     Identity                  {- qunobuwr -}       `gloss`  [ "hump", "hunch" ] ]
+    noun     KuRDUS                    {- qunobuwr -}       `gloss`  [ "hump", "hunch" ] ]
 
  -- ;--- qnbT
 
@@ -14026,18 +13894,18 @@ lexicon = listing "Lexicon properties"
     -- qnbl    qanobal PV      bombard
     -- qnbl    qanobil IV_yu   bombard
 
-    verb     FaCCaL                    {- qanobal -}        `others` [ "qanbil IV_yu" ]
+    verb     KaRDaS                    {- qanobal -}        `others` [ "qanbil IV_yu" ]
                                                             `gloss`  [ "bombard" ],
 
     -- ;; qanobal_2
     -- qnbl    qanobal Ndu     troop of horsemen
 
-    noun     FaCCaL                    {- qanobal -}        `gloss`  [ "troop of horsemen" ],
+    noun     KaRDaS                    {- qanobal -}        `gloss`  [ "troop of horsemen" ],
 
     -- ;; qanobalap_1
     -- qnbl    qanobal Nap     bombarding;bombardment
 
-    noun     FaCCaL |< aT              {- qanobalap -}      `others` [ "qanbal Nap" ]
+    noun     KaRDaS |< aT              {- qanobalap -}      `others` [ "qanbal Nap" ]
                                                             `gloss`  [ "bombarding", "bombardment" ] ]
 
  -- ;; qunobulap_1
@@ -14115,25 +13983,17 @@ lexicon = listing "Lexicon properties"
     -- ;; qunoduz_1
     -- qndz    qunoduz N       beaver
 
-    noun     Identity                  {- qunoduz -}        `gloss`  [ "beaver" ] ]
-
- -- ;; qunoduwz_1
-
- |> "qunduwz" <| [
+    noun     Identity                  {- qunoduz -}        `gloss`  [ "beaver" ],
 
     -- ;; qunoduwz_1
     -- qndwz   qunoduwz        N0      Kunduz;Qunduz
 
-    noun     Identity                  {- qunoduwz -}       `gloss`  [ "Kunduz", "Qunduz" ] ]
-
- -- ;; qunoduwziy~_1
-
- |> "qunduwz" <| [
+    noun     KuRDUS                    {- qunoduwz -}       `gloss`  [ "Kunduz", "Qunduz" ],
 
     -- ;; qunoduwziy~_1
     -- qndwzy  qunoduwziy~     Nall    of/from Kunduz;Qunduz
 
-    noun     Identity |< Iy            {- qunoduwziy~ -}    `gloss`  [ "of / from Kunduz", "Qunduz" ] ]
+    noun     KuRDUS |< Iy              {- qunoduwziy~ -}    `gloss`  [ "of / from Kunduz", "Qunduz" ] ]
 
  -- ;--- qnds
 
@@ -14160,7 +14020,7 @@ lexicon = listing "Lexicon properties"
     -- qndq    qanodaq Ndu     gunstock;rifle butt
     -- qnAdq   qanAdiq Ndip    gunstocks;rifle butts
 
-    noun     FaCCaL                    {- qanodaq -}        `others` [ "qanAdiq Ndip" ]
+    noun     KaRDaS                    {- qanodaq -}        `others` [ "qanAdiq Ndip" ]
                                                             `gloss`  [ "gunstock", "rifle butt", "gunstocks", "rifle butts" ] ]
 
  -- ;--- qndl
@@ -14170,20 +14030,20 @@ lexicon = listing "Lexicon properties"
     -- ;; qanoduwl_1
     -- qndwl   qanoduwl        N       aspalathus
 
-    noun     FaCCUL                    {- qanoduwl -}       `gloss`  [ "aspalathus" ],
+    noun     KaRDUS                    {- qanoduwl -}       `gloss`  [ "aspalathus" ],
 
     -- ;; qinodiyl_1
     -- qndyl   qinodiyl        Ndu     lamp
     -- qnAdyl  qanAdiyl        Ndip    lamps
 
-    noun     FiCCIL                    {- qinodiyl -}       `others` [ "qanAdiyl Ndip" ]
+    noun     KiRDIS                    {- qinodiyl -}       `others` [ "qanAdiyl Ndip" ]
                                                             `gloss`  [ "lamp", "lamps" ],
 
     -- ;; qinodiyl_2
     -- qndyl   qinodiyl        Ndu     candlestick;candelabrum
     -- qnAdyl  qanAdiyl        Ndip    candlesticks;candelabra
 
-    noun     FiCCIL                    {- qinodiyl -}       `others` [ "qanAdiyl Ndip" ]
+    noun     KiRDIS                    {- qinodiyl -}       `others` [ "qanAdiyl Ndip" ]
                                                             `gloss`  [ "candlestick", "candelabrum", "candlesticks", "candelabra" ] ]
 
  -- ;--- qndlft
@@ -14456,14 +14316,14 @@ lexicon = listing "Lexicon properties"
     -- qnTr    qanoTar PV      arch;span;vault
     -- qnTr    qanoTir IV_yu   arch;span;vault
 
-    verb     FaCCaL                    {- qanoTar -}        `others` [ "qan.tir IV_yu" ]
+    verb     KaRDaS                    {- qanoTar -}        `others` [ "qan.tir IV_yu" ]
                                                             `gloss`  [ "arch", "span", "vault" ],
 
     -- ;; qanoTarap_1
     -- qnTr    qanoTar Napdu   aqueduct;bridge
     -- qnATr   qanATir Ndip    aqueducts;bridges
 
-    noun     FaCCaL |< aT              {- qanoTarap -}      `others` [ "qanA.tir Ndip", "qan.tar Napdu" ]
+    noun     KaRDaS |< aT              {- qanoTarap -}      `others` [ "qanA.tir Ndip", "qan.tar Napdu" ]
                                                             `gloss`  [ "aqueduct", "bridge", "aqueducts", "bridges" ] ]
 
  -- ;; qanATir_1
@@ -14478,24 +14338,24 @@ lexicon = listing "Lexicon properties"
     -- ;; qanoTariy~_1
     -- qnTry   qanoTariy~      N-ap    arched;vaulted;arcaded     [[qanoTariy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- qanoTariy~ -}     `gloss`  [ "arched", "vaulted", "arcaded" ],
+    noun     KaRDaS |< Iy              {- qanoTariy~ -}     `gloss`  [ "arched", "vaulted", "arcaded" ],
 
     -- ;; muqanoTar_1
     -- mqnTr   muqanoTar       N-ap    arched;vaulted;arcaded
 
-    noun     MuFaCCaL                  {- muqanoTar -}      `gloss`  [ "arched", "vaulted", "arcaded" ],
+    noun     MuKaRDaS                  {- muqanoTar -}      `gloss`  [ "arched", "vaulted", "arcaded" ],
 
     -- ;; qinoTAr_1
     -- qnTAr   qinoTAr Ndu     qantar (weight measure)
     -- qnATyr  qanATiyr        Ndip    qantar (weight measure)
 
-    noun     FiCCAL                    {- qinoTAr -}        `others` [ "qanA.tiyr Ndip" ]
+    noun     KiRDAS                    {- qinoTAr -}        `others` [ "qanA.tiyr Ndip" ]
                                                             `gloss`  [ "qantar ( weight measure )" ],
 
     -- ;; qinoTAriy~_1
     -- qnTAry  qinoTAriy~      Nall    multi-millionaire
 
-    noun     FiCCAL |< Iy              {- qinoTAriy~ -}     `gloss`  [ "multi-millionaire" ] ]
+    noun     KiRDAS |< Iy              {- qinoTAriy~ -}     `gloss`  [ "multi-millionaire" ] ]
 
  -- ;--- qnTrm
 
@@ -14564,12 +14424,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qunoEAn_1
     -- qnEAn   qunoEAn N       satisfaction;contentment
 
-    noun     FuCCAL                    {- qunoEAn -}        `gloss`  [ "satisfaction", "contentment" ],
+    noun     KuRDAS                    {- qunoEAn -}        `gloss`  [ "satisfaction", "contentment" ],
 
     -- ;; qunoEAn_2
     -- qnEAn   qunoEAn N       belief;conviction
 
-    noun     FuCCAL                    {- qunoEAn -}        `gloss`  [ "belief", "conviction" ] ]
+    noun     KuRDAS                    {- qunoEAn -}        `gloss`  [ "belief", "conviction" ] ]
 
  -- ;; qinoE_1
 
@@ -14693,7 +14553,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qanoqar_1
     -- qnqr    qanoqar N       kangaroo
 
-    noun     FaCCaL                    {- qanoqar -}        `gloss`  [ "kangaroo" ] ]
+    noun     KaRDaS                    {- qanoqar -}        `gloss`  [ "kangaroo" ] ]
 
  -- ;--- qnl
 
@@ -15035,19 +14895,19 @@ lexicon = listing "Lexicon properties"
     -- qhqr    qahoqar PV      retreat;withdraw
     -- qhqr    qahoqir IV_yu   retreat;withdraw
 
-    verb     FaCCaL                    {- qahoqar -}        `others` [ "qahqir IV_yu" ]
+    verb     KaRDaS                    {- qahoqar -}        `others` [ "qahqir IV_yu" ]
                                                             `gloss`  [ "retreat", "withdraw" ],
 
     -- ;; taqahoqar_1
     -- tqhqr   taqahoqar       PV      deteriorate;decline
     -- tqhqr   taqahoqar       IV      deteriorate;decline
 
-    verb     TaFaCCaL                  {- taqahoqar -}      `gloss`  [ "deteriorate", "decline" ],
+    verb     TaKaRDaS                  {- taqahoqar -}      `gloss`  [ "deteriorate", "decline" ],
 
     -- ;; qahoqarap_1
     -- qhqr    qahoqar Nap     decline;retreat
 
-    noun     FaCCaL |< aT              {- qahoqarap -}      `others` [ "qahqar Nap" ]
+    noun     KaRDaS |< aT              {- qahoqarap -}      `others` [ "qahqar Nap" ]
                                                             `gloss`  [ "decline", "retreat" ] ]
 
  -- ;; qahoqaraY_1
@@ -15064,7 +14924,7 @@ lexicon = listing "Lexicon properties"
     -- ;; taqahoqur_1
     -- tqhqr   taqahoqur       N/At    recession;retreat
 
-    noun     TaFaCCuL                  {- taqahoqur -}      `gloss`  [ "recession", "retreat" ] ]
+    noun     TaKaRDuS                  {- taqahoqur -}      `gloss`  [ "recession", "retreat" ] ]
 
  -- ;--- qhqh
 
@@ -15074,24 +14934,24 @@ lexicon = listing "Lexicon properties"
     -- qhqh    qahoqah PV      laugh;guffaw
     -- qhqh    qahoqih IV_yu   laugh;guffaw
 
-    verb     FaCCaL                    {- qahoqah -}        `others` [ "qahqih IV_yu" ]
+    verb     KaRDaS                    {- qahoqah -}        `others` [ "qahqih IV_yu" ]
                                                             `gloss`  [ "laugh", "guffaw" ],
 
     -- ;; qahoqahap_1
     -- qhqh    qahoqah Nap     laughter
 
-    noun     FaCCaL |< aT              {- qahoqahap -}      `others` [ "qahqah Nap" ]
+    noun     KaRDaS |< aT              {- qahoqahap -}      `others` [ "qahqah Nap" ]
                                                             `gloss`  [ "laughter" ],
 
     -- ;; muqahoqih_1
     -- mqhqh   muqahoqih       Nall    laughing
 
-    noun     MuFaCCiL                  {- muqahoqih -}      `gloss`  [ "laughing" ],
+    noun     MuKaRDiS                  {- muqahoqih -}      `gloss`  [ "laughing" ],
 
     -- ;; muqahoqih_2
     -- mqhqh   muqahoqih       N-ap    hilarious     [[muqahoqih/ADJ]]
 
-    noun     MuFaCCiL                  {- muqahoqih -}      `gloss`  [ "hilarious" ] ]
+    noun     MuKaRDiS                  {- muqahoqih -}      `gloss`  [ "hilarious" ] ]
 
  -- ;--- qhw
 
@@ -15111,17 +14971,17 @@ lexicon = listing "Lexicon properties"
     -- ;; qahowAtiy~_1
     -- qhwAty  qahowAtiy~      N-ap    café manager     [[qahowAtiy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- qahowAtiy~ -}     `gloss`  [ "caf_e manager" ],
+    noun     KaRDAS |< Iy              {- qahowAtiy~ -}     `gloss`  [ "caf_e manager" ],
 
     -- ;; qahowAtiy~_2
     -- qhwAty  qahowAtiy~      N0      Qahwati
 
-    noun     FaCCAL |< Iy              {- qahowAtiy~ -}     `gloss`  [ "Qahwati" ],
+    noun     KaRDAS |< Iy              {- qahowAtiy~ -}     `gloss`  [ "Qahwati" ],
 
     -- ;; qahowAtiy~ap_1
     -- qhwAty  qahowAtiy~      Nap     café owners     [[qahowAtiy~/NOUN]]
 
-    noun     FaCCAL |< Iy |< aT        {- qahowAtiy~ap -}   `others` [ "qahwAtiyy Nap" ]
+    noun     KaRDAS |< Iy |< aT        {- qahowAtiy~ap -}   `others` [ "qahwAtiyy Nap" ]
                                                             `gloss`  [ "caf_e owners" ] ]
 
  -- ;; qahowajiy~_1
@@ -15131,7 +14991,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qahowajiy~_1
     -- qhwjy   qahowajiy~      N-ap    café manager;coffee cook     [[qahowajiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- qahowajiy~ -}     `gloss`  [ "caf_e manager", "coffee cook" ] ]
+    noun     KaRDaS |< Iy              {- qahowajiy~ -}     `gloss`  [ "caf_e manager", "coffee cook" ] ]
 
  -- ;; maqohaY_1
 
@@ -15282,7 +15142,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; quwbA'_1
 
-    noun     FuCCAL                    {- quwbA' -}          ]
+    noun     KuRDAS                    {- quwbA' -}          ]
 
  -- ;; quwbA'_1
 
@@ -15446,7 +15306,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muqawotab_1
     -- mqwtb   muqawotab       Nall    hunchbacked     [[muqawotab/ADJ]]
 
-    noun     MuFaCCaL                  {- muqawotab -}      `gloss`  [ "hunchbacked" ] ]
+    noun     MuKaRDaS                  {- muqawotab -}      `gloss`  [ "hunchbacked" ] ]
 
  -- ;--- qwtl
 
@@ -16117,13 +15977,13 @@ lexicon = listing "Lexicon properties"
     -- ;; qawoqAz_1
     -- qwqAz   qawoqAz N       Caucasus
 
-    noun     FaCCAL                    {- qawoqAz -}        `gloss`  [ "Caucasus" ],
+    noun     KaRDAS                    {- qawoqAz -}        `gloss`  [ "Caucasus" ],
 
     -- ;; qawoqAziy~_1
     -- qwqAzy  qawoqAziy~      Nall    Caucasian     [[qawoqAziy~/NOUN]]
     -- qwqAzy  qawoqAziy~      Nall    Caucasian     [[qawoqAziy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- qawoqAziy~ -}     `gloss`  [ "Caucasian" ] ]
+    noun     KaRDAS |< Iy              {- qawoqAziy~ -}     `gloss`  [ "Caucasian" ] ]
 
  -- ;--- qwqs
 
@@ -16138,7 +15998,7 @@ lexicon = listing "Lexicon properties"
     -- qwqAsy  qawoqAsiy~      Nall    Caucasian     [[qawoqAsiy~/NOUN]]
     -- qwqAsy  qawoqAsiy~      Nall    Caucasian     [[qawoqAsiy~/ADJ]]
 
-    noun     FaCCAL |< Iy              {- qawoqAsiy~ -}     `gloss`  [ "Caucasian" ] ]
+    noun     KaRDAS |< Iy              {- qawoqAsiy~ -}     `gloss`  [ "Caucasian" ] ]
 
  -- ;--- qwqE
 
@@ -16148,18 +16008,18 @@ lexicon = listing "Lexicon properties"
     -- tqwqE   taqawoqaE       PV      withdraw within
     -- tqwqE   taqawoqaE       IV      withdraw within
 
-    verb     TaFaCCaL                  {- taqawoqaE -}      `gloss`  [ "withdraw within" ],
+    verb     TaKaRDaS                  {- taqawoqaE -}      `gloss`  [ "withdraw within" ],
 
     -- ;; qawoqaE_1
     -- qwqE    qawoqaE N       seashells
 
-    noun     FaCCaL                    {- qawoqaE -}        `gloss`  [ "seashells" ],
+    noun     KaRDaS                    {- qawoqaE -}        `gloss`  [ "seashells" ],
 
     -- ;; qawoqaEap_1
     -- qwqE    qawoqaE Napdu   snail
     -- qwAqE   qawAqiE Ndip    snails
 
-    noun     FaCCaL |< aT              {- qawoqaEap -}      `others` [ "qawqa` Napdu", "qawAqi` Ndip" ]
+    noun     KaRDaS |< aT              {- qawoqaEap -}      `others` [ "qawqa` Napdu", "qawAqi` Ndip" ]
                                                             `gloss`  [ "snail", "snails" ] ]
 
  -- ;; quwquroyAl_1
@@ -16332,13 +16192,13 @@ lexicon = listing "Lexicon properties"
     -- qwlb    qawolab PV      mold;cast
     -- qwlb    qawolib IV_yu   mold;cast
 
-    verb     FaCCaL                    {- qawolab -}        `others` [ "qawlib IV_yu" ]
+    verb     KaRDaS                    {- qawolab -}        `others` [ "qawlib IV_yu" ]
                                                             `gloss`  [ "mold", "cast" ],
 
     -- ;; qawolabap_1
     -- qwlb    qawolab Nap     casting;molding
 
-    noun     FaCCaL |< aT              {- qawolabap -}      `others` [ "qawlab Nap" ]
+    noun     KaRDaS |< aT              {- qawolabap -}      `others` [ "qawlab Nap" ]
                                                             `gloss`  [ "casting", "molding" ] ]
 
  -- ;--- qwlH
@@ -16349,7 +16209,7 @@ lexicon = listing "Lexicon properties"
     -- qwlH    qawolaH Napdu   corn cob
     -- qwAlH   qawAliH Ndip    corn cobs
 
-    noun     FaCCaL |< aT              {- qawolaHap -}      `others` [ "qawAli.h Ndip", "qawla.h Napdu" ]
+    noun     KaRDaS |< aT              {- qawolaHap -}      `others` [ "qawAli.h Ndip", "qawla.h Napdu" ]
                                                             `gloss`  [ "corn cob", "corn cobs" ] ]
 
  -- ;--- qwlnj
@@ -16379,12 +16239,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; quwluwn_1
 
- |> "quwluwn" <| [
+ |> "qwln" <| [
 
     -- ;; quwluwn_1
     -- qwlwn   quwluwn N       bowels;colon
 
-    noun     Identity                  {- quwluwn -}        `gloss`  [ "bowels", "colon" ] ]
+    noun     KuRDUS                    {- quwluwn -}        `gloss`  [ "bowels", "colon" ] ]
 
  -- ;--- qwm
 
@@ -16891,7 +16751,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; qaw~aY_1
 
- |> "qww" <| [
+ |> "qw" <| [
 
     -- ;; qaw~aY_1
     -- qwY     qaw~aY  PV_0    strengthen
@@ -16904,11 +16764,7 @@ lexicon = listing "Lexicon properties"
     -- qwy     qaw~ay  IV_Ann_Pass_yu  be strengthened
 
     verb     FaCCY                     {- qaw~aY -}         `others` [ "qaww IV_0hwnyn_yu PV_ttAw", "qawway PV_Atn IV_Ann_Pass_yu", "qawwiy IV_0hAnn_yu", "qawwA PV_h" ]
-                                                            `gloss`  [ "strengthen", "be strengthened" ] ]
-
- -- ;; qAwaY_1
-
- |> "qw" <| [
+                                                            `gloss`  [ "strengthen", "be strengthened" ],
 
     -- ;; qAwaY_1
     -- qAwY    qAwaY   PV_0    compete with
@@ -16936,11 +16792,7 @@ lexicon = listing "Lexicon properties"
     -- qw      qow     IV_0hwnyn_yu    be desolate
 
     verb     HaFCY                     {- >aqowaY -}        `others` [ "'aqw PV_ttAw_intr", "qwiy IV_0hAnn_yu", "'aqwA PV_h", "'aqway PV_Atn", "qw IV_0hwnyn_yu" ]
-                                                            `gloss`  [ "be desolate" ] ]
-
- -- ;; taqaw~aY_1
-
- |> "qww" <| [
+                                                            `gloss`  [ "be desolate" ],
 
     -- ;; taqaw~aY_1
     -- tqwY    taqaw~aY        PV_0    become strong
@@ -16951,11 +16803,7 @@ lexicon = listing "Lexicon properties"
     -- tqw     taqaw~  IV_0hwnyn       become strong
 
     verb     TaFaCCY                   {- taqaw~aY -}       `others` [ "taqaww PV_ttAw_intr IV_0hwnyn", "taqawway PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "become strong" ] ]
-
- -- ;; {iqotawaY_1
-
- |> "qw" <| [
+                                                            `gloss`  [ "become strong" ],
 
     -- ;; {iqotawaY_1
     -- <qtwY   {iqotawaY       PV_0    claim
@@ -17150,7 +16998,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muqaw~aY_1
 
- |> "qww" <| [
+ |> "qw" <| [
 
     -- ;; muqaw~aY_1
     -- mqwY    muqaw~aY        N0      strengthened;reinforced     [[muqaw~aY/ADJ]]
@@ -17265,7 +17113,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; qiytAr_1
 
-    noun     FiCCAL                    {- qiytAr -}          ]
+    noun     KiRDAS                    {- qiytAr -}          ]
 
  -- ;; qiytAr_1
 
@@ -17293,7 +17141,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; qiyvAr_1
 
-    noun     FiCCAL                    {- qiyvAr -}          ]
+    noun     KiRDAS                    {- qiyvAr -}          ]
 
  -- ;; qiyvAr_1
 
@@ -17427,7 +17275,7 @@ lexicon = listing "Lexicon properties"
     -- qydwm   qayoduwm        Ndu     prow;bow (ship)
     -- qyAdym  qayAdiym        Ndip    prows;bows (ships)
 
-    noun     FaCCUL                    {- qayoduwm -}       `others` [ "qayAdiym Ndip" ]
+    noun     KaRDUS                    {- qayoduwm -}       `others` [ "qayAdiym Ndip" ]
                                                             `gloss`  [ "prow", "bow ( ship )", "prows", "bows ( ships )" ] ]
 
  -- ;--- qyr
@@ -17628,12 +17476,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qayoSar_1
     -- qySr    qayoSar N0      Qaisar
 
-    noun     FaCCaL                    {- qayoSar -}        `gloss`  [ "Qaisar" ],
+    noun     KaRDaS                    {- qayoSar -}        `gloss`  [ "Qaisar" ],
 
     -- ;; qayoSar_2
     -- qySr    qayoSar Ndu     Caesar
 
-    noun     FaCCaL                    {- qayoSar -}        `gloss`  [ "Caesar" ],
+    noun     KaRDaS                    {- qayoSar -}        `gloss`  [ "Caesar" ],
 
     -- ;; qayoSar_3
     -- qySr    qayoSar Ndu     Emperor
@@ -17641,23 +17489,23 @@ lexicon = listing "Lexicon properties"
     -- qyASr   qayASir Ndip    emperors
     -- qyASr   qayASir Nap     emperors
 
-    noun     FaCCaL                    {- qayoSar -}        `others` [ "qayA.sir Nap Ndip" ]
+    noun     KaRDaS                    {- qayoSar -}        `others` [ "qayA.sir Nap Ndip" ]
                                                             `gloss`  [ "Emperor", "emperor", "emperors" ],
 
     -- ;; qayoSar_4
     -- qySr    qayoSar Ndu     Tzar
 
-    noun     FaCCaL                    {- qayoSar -}        `gloss`  [ "Tzar" ],
+    noun     KaRDaS                    {- qayoSar -}        `gloss`  [ "Tzar" ],
 
     -- ;; qayoSariy~_1
     -- qySry   qayoSariy~      N-ap    cesarean;imperial     [[qayoSariy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- qayoSariy~ -}     `gloss`  [ "cesarean", "imperial" ],
+    noun     KaRDaS |< Iy              {- qayoSariy~ -}     `gloss`  [ "cesarean", "imperial" ],
 
     -- ;; qayoSariy~ap_1
     -- qySry   qayoSariy~      Nap     cesarean section     [[qayoSariy~/NOUN]]
 
-    noun     FaCCaL |< Iy |< aT        {- qayoSariy~ap -}   `others` [ "qay.sariyy Nap" ]
+    noun     KaRDaS |< Iy |< aT        {- qayoSariy~ap -}   `others` [ "qay.sariyy Nap" ]
                                                             `gloss`  [ "cesarean section" ] ]
 
  -- ;--- qyd
@@ -17751,12 +17599,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; qiyTuws_1
 
- |> "qiy.tuws" <| [
+ |> "qy.ts" <| [
 
     -- ;; qiyTuws_1
     -- qyTws   qiyTuws N       Cetus
 
-    noun     Identity                  {- qiyTuws -}        `gloss`  [ "Cetus" ] ]
+    noun     KiRDUS                    {- qiyTuws -}        `gloss`  [ "Cetus" ] ]
 
  -- ;--- qyZ
 
@@ -17842,7 +17690,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qayoqab_1
     -- qyqb    qayoqab N       maple
 
-    noun     FaCCaL                    {- qayoqab -}        `gloss`  [ "maple" ] ]
+    noun     KaRDaS                    {- qayoqab -}        `gloss`  [ "maple" ] ]
 
  -- ;--- qyl
 
@@ -17928,12 +17776,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; qayoluwlap_1
 
- |> "qyl" <| [
+ |> "qayluwl" <| [
 
     -- ;; qayoluwlap_1
     -- qylwl   qayoluwl        Nap     midday nap;siesta
 
-    noun     FaCCUL |< aT              {- qayoluwlap -}     `others` [ "qayluwl Nap" ]
+    noun     Identity |< aT            {- qayoluwlap -}     `others` [ "qayluwl Nap" ]
                                                             `gloss`  [ "midday nap", "siesta" ] ]
 
  -- ;--- qym

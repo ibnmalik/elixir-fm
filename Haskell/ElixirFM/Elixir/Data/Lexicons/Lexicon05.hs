@@ -1153,11 +1153,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- jabaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "^gbiy IV_0hAnn", "^gabay PV_Atn", "^gab PV_ttAw", "^gb IV_0hwnyn", "^gbY IV_0_Pass_yu", "^gabY PV_0", "^gabA PV_h" ]
-                                                            `gloss`  [ "collect", "levy", "be collected", "be levied" ] ]
-
- -- ;; jab~aY_1
-
- |> "^gabbY" <| [
+                                                            `gloss`  [ "collect", "levy", "be collected", "be levied" ],
 
     -- ;; jab~aY_1
     -- jbY     jab~aY  PV_0    kneel;prostrate
@@ -1167,7 +1163,7 @@ lexicon = listing "Lexicon properties"
     -- jby     jab~iy  IV_0hAnn_yu     kneel;prostrate
     -- jb      jab~    IV_0hwnyn_yu    kneel;prostrate
 
-    verb     Identity                  {- jab~aY -}         `others` [ "^gabbay PV_Atn", "^gabbA PV_h", "^gabbiy IV_0hAnn_yu", "^gabb IV_0hwnyn_yu PV_ttAw" ]
+    verb     FaCCY                     {- jab~aY -}         `others` [ "^gabbay PV_Atn", "^gabbA PV_h", "^gabbiy IV_0hAnn_yu", "^gabb IV_0hwnyn_yu PV_ttAw" ]
                                                             `gloss`  [ "kneel", "prostrate" ],
 
     -- ;; {ijotabaY_1
@@ -1702,13 +1698,13 @@ lexicon = listing "Lexicon properties"
     -- tjHfl   tajaHofal       PV      mass;throng
     -- tjHfl   tajaHofal       IV      mass;throng
 
-    verb     TaFaCCaL                  {- tajaHofal -}      `gloss`  [ "mass", "throng" ],
+    verb     TaKaRDaS                  {- tajaHofal -}      `gloss`  [ "mass", "throng" ],
 
     -- ;; jaHofal_1
     -- jHfl    jaHofal Ndu     multitude;army
     -- jHAfl   jaHAfil Ndip    multitudes;armies
 
-    noun     FaCCaL                    {- jaHofal -}        `others` [ "^ga.hAfil Ndip" ]
+    noun     KaRDaS                    {- jaHofal -}        `others` [ "^ga.hAfil Ndip" ]
                                                             `gloss`  [ "multitude", "army", "multitudes", "armies" ] ]
 
  -- ;--- jHm
@@ -6152,7 +6148,7 @@ lexicon = listing "Lexicon properties"
     -- tjsTn   tajasoTan       PV-n    relax;lounge;loll back
     -- tjsTn   tajasoTan       IV-n    relax;lounge;loll back
 
-    verb     TaFaCCaL                  {- tajasoTan -}      `gloss`  [ "relax", "lounge", "loll back" ] ]
+    verb     TaKaRDaS                  {- tajasoTan -}      `gloss`  [ "relax", "lounge", "loll back" ] ]
 
  -- ;; jasum-u_1
 
@@ -6536,7 +6532,7 @@ lexicon = listing "Lexicon properties"
     -- tjSTn   tajaSoTan       PV-n    relax;lounge;loll back
     -- tjSTn   tajaSoTan       IV-n    relax;lounge;loll back
 
-    verb     TaFaCCaL                  {- tajaSoTan -}      `gloss`  [ "relax", "lounge", "loll back" ] ]
+    verb     TaKaRDaS                  {- tajaSoTan -}      `gloss`  [ "relax", "lounge", "loll back" ] ]
 
  -- ;; jiEap_1
 
@@ -6575,20 +6571,20 @@ lexicon = listing "Lexicon properties"
     -- jEjE    jaEojaE PV      clamor;shout
     -- jEjE    jaEojiE IV_yu   clamor;shout
 
-    verb     FaCCaL                    {- jaEojaE -}        `others` [ "^ga`^gi` IV_yu" ]
+    verb     KaRDaS                    {- jaEojaE -}        `others` [ "^ga`^gi` IV_yu" ]
                                                             `gloss`  [ "clamor", "shout" ],
 
     -- ;; jaEojaEap_1
     -- jEjE    jaEojaE Nap     noise
     -- jEjAE   jaEojAE N/ap    noisy;vociferous
 
-    noun     FaCCaL |< aT              {- jaEojaEap -}      `others` [ "^ga`^ga` Nap", "^ga`^gA` N/ap" ]
+    noun     KaRDaS |< aT              {- jaEojaEap -}      `others` [ "^ga`^ga` Nap", "^ga`^gA` N/ap" ]
                                                             `gloss`  [ "noise", "noisy", "vociferous" ],
 
     -- ;; jaEojaE_2
     -- jEjE    jaEojaE Nprop   Geagea
 
-    noun     FaCCaL                    {- jaEojaE -}        `gloss`  [ "Geagea" ] ]
+    noun     KaRDaS                    {- jaEojaE -}        `gloss`  [ "Geagea" ] ]
 
  -- ;; jaEud-u_1
 
@@ -7547,7 +7543,11 @@ lexicon = listing "Lexicon properties"
     -- ;; jaliyb_1
     -- jlyb    jaliyb  N/ap    imported
 
-    noun     FaCIL                     {- jaliyb -}         `gloss`  [ "imported" ],
+    noun     FaCIL                     {- jaliyb -}         `gloss`  [ "imported" ] ]
+
+ -- ;; jalobaY_1
+
+ |> "^galbY" <| [
 
     -- ;; jalobaY_1
     -- jlbY    jalobaY N0      foreign slave
@@ -7556,7 +7556,7 @@ lexicon = listing "Lexicon properties"
     -- jlbA&   julabA& Nh      foreign slaves
     -- jlbA}   julabA} Nhy     foreign slaves
 
-    noun     FaCCY                     {- jalobaY -}        `others` [ "^gulabA' Nh Nhy N0_Nh", "^galbA Nhy" ]
+    noun     Identity                  {- jalobaY -}        `others` [ "^gulabA' Nh Nhy N0_Nh", "^galbA Nhy" ]
                                                             `gloss`  [ "foreign slave", "foreign slaves" ],
 
     -- ;; jal~Ab_1
@@ -7597,19 +7597,27 @@ lexicon = listing "Lexicon properties"
     -- ;; majoluwb_1
     -- mjlwb   majoluwb        Nall    imported;exotic
 
-    noun     MaFCUL                    {- majoluwb -}       `gloss`  [ "imported", "exotic" ],
+    noun     MaFCUL                    {- majoluwb -}       `gloss`  [ "imported", "exotic" ] ]
+
+ -- ;; tajalobab_1
+
+ |> "ta^galbab" <| [
 
     -- ;; tajalobab_1
     -- tjlbb   tajalobab       PV_intr be clothed;be clad
     -- tjlbb   tajalobab       IV_intr be clothed;be clad
 
-    verb     TaFaCCaL                  {- tajalobab -}      `gloss`  [ "be clothed", "be clad" ],
+    verb     Identity                  {- tajalobab -}      `gloss`  [ "be clothed", "be clad" ] ]
+
+ -- ;; jilobAb_1
+
+ |> "^gilbAb" <| [
 
     -- ;; jilobAb_1
     -- jlbAb   jilobAb Ndu     robe
     -- jlAbyb  jalAbiyb        Ndip    robe
 
-    noun     FiCCAL                    {- jilobAb -}        `others` [ "^galAbiyb Ndip" ]
+    noun     Identity                  {- jilobAb -}        `others` [ "^galAbiyb Ndip" ]
                                                             `gloss`  [ "robe" ] ]
 
  -- ;; julub~An_1
@@ -8348,11 +8356,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- jalaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "^glY IV_0_Pass_yu", "^gl IV_0hwnyn", "^galY PV_0", "^gliy IV_0hAnn", "^galay PV_Atn", "^galA PV_h", "^gal PV_ttAw" ]
-                                                            `gloss`  [ "polish", "burnish", "be polished", "be burnished" ] ]
-
- -- ;; jal~aY_1
-
- |> "^gallY" <| [
+                                                            `gloss`  [ "polish", "burnish", "be polished", "be burnished" ],
 
     -- ;; jal~aY_1
     -- jlY     jal~aY  PV_0    make clear;reveal;represent
@@ -8364,7 +8368,7 @@ lexicon = listing "Lexicon properties"
     -- jlY     jal~aY  IV_0_Pass_yu    be made clear;be revealed;be represented
     -- jly     jal~ay  IV_Ann_Pass_yu  be made clear;be revealed;be represented
 
-    verb     Identity                  {- jal~aY -}         `others` [ "^gallay PV_Atn IV_Ann_Pass_yu", "^gallA PV_h", "^galliy IV_0hAnn_yu", "^gall IV_0hwnyn_yu PV_ttAw" ]
+    verb     FaCCY                     {- jal~aY -}         `others` [ "^gallay PV_Atn IV_Ann_Pass_yu", "^gallA PV_h", "^galliy IV_0hAnn_yu", "^gall IV_0hwnyn_yu PV_ttAw" ]
                                                             `gloss`  [ "make clear", "reveal", "represent", "be made clear", "be revealed", "be represented" ],
 
     -- ;; >ajolaY_1
@@ -8382,11 +8386,7 @@ lexicon = listing "Lexicon properties"
     -- jly     jolay   IV_Ann_Pass_yu  be ousted;be evacuated;be cleared
 
     verb     HaFCY                     {- >ajolaY -}        `others` [ "^glY IV_0_Pass_yu", "'a^gl PV_ttAw", "^gliy IV_0hAnn_yu", "'a^glay PV_Atn", "^gl IV_0hwnyn_yu", "^glay IV_Ann_Pass_yu", "'a^glA PV_h" ]
-                                                            `gloss`  [ "oust", "evacuate", "clear", "be ousted", "be evacuated", "be cleared" ] ]
-
- -- ;; tajal~aY_1
-
- |> "ta^gallY" <| [
+                                                            `gloss`  [ "oust", "evacuate", "clear", "be ousted", "be evacuated", "be cleared" ],
 
     -- ;; tajal~aY_1
     -- tjlY    tajal~aY        PV_0    become clear;be evident;be manifest
@@ -8398,7 +8398,7 @@ lexicon = listing "Lexicon properties"
     -- tjly    tajal~ay        IV_Ann  become clear;be evident;be manifest
     -- tjl     tajal~  IV_0hwnyn       become clear;be evident;be manifest
 
-    verb     Identity                  {- tajal~aY -}       `others` [ "ta^gallA PV_h IV_h", "ta^gall PV_ttAw_intr IV_0hwnyn", "ta^gallay PV_Atn IV_Ann" ]
+    verb     TaFaCCY                   {- tajal~aY -}       `others` [ "ta^gallA PV_h IV_h", "ta^gall PV_ttAw_intr IV_0hwnyn", "ta^gallay PV_Atn IV_Ann" ]
                                                             `gloss`  [ "become clear", "be evident", "be manifest" ],
 
     -- ;; {inojalaY_1
@@ -8662,7 +8662,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mujalowan_1
     -- mjlwn   mujalowan       Nall    galvanized
 
-    noun     MuFaCCaL                  {- mujalowan -}      `gloss`  [ "galvanized" ] ]
+    noun     MuKaRDaS                  {- mujalowan -}      `gloss`  [ "galvanized" ] ]
 
  -- ;--- jly
 
@@ -8847,19 +8847,19 @@ lexicon = listing "Lexicon properties"
     -- jmjm    jamojam PV      stammer;mumble
     -- jmjm    jamojim IV_yu   stammer;mumble
 
-    verb     FaCCaL                    {- jamojam -}        `others` [ "^gam^gim IV_yu" ]
+    verb     KaRDaS                    {- jamojam -}        `others` [ "^gam^gim IV_yu" ]
                                                             `gloss`  [ "stammer", "mumble" ],
 
     -- ;; tajamojam_1
     -- tjmjm   tajamojam       PV      stammer;mumble
     -- tjmjm   tajamojam       IV      stammer;mumble
 
-    verb     TaFaCCaL                  {- tajamojam -}      `gloss`  [ "stammer", "mumble" ],
+    verb     TaKaRDaS                  {- tajamojam -}      `gloss`  [ "stammer", "mumble" ],
 
     -- ;; jamojamap_1
     -- jmjm    jamojam Nap     stammering;mumbling
 
-    noun     FaCCaL |< aT              {- jamojamap -}      `others` [ "^gam^gam Nap" ]
+    noun     KaRDaS |< aT              {- jamojamap -}      `others` [ "^gam^gam Nap" ]
                                                             `gloss`  [ "stammering", "mumbling" ] ]
 
  -- ;; jumojumap_1
@@ -9105,7 +9105,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mujamorak_1
     -- mjmrk   mujamorak       Nall    duty paid
 
-    noun     MuFaCCaL                  {- mujamorak -}      `gloss`  [ "duty paid" ] ]
+    noun     MuKaRDaS                  {- mujamorak -}      `gloss`  [ "duty paid" ] ]
 
  -- ;--- jmz
 
@@ -9680,64 +9680,48 @@ lexicon = listing "Lexicon properties"
     -- jmhr    jamohar PV      assemble;gather
     -- jmhr    jamohir IV_yu   assemble;gather
 
-    verb     FaCCaL                    {- jamohar -}        `others` [ "^gamhir IV_yu" ]
+    verb     KaRDaS                    {- jamohar -}        `others` [ "^gamhir IV_yu" ]
                                                             `gloss`  [ "assemble", "gather" ],
 
     -- ;; tajamohar_1
     -- tjmhr   tajamohar       PV_intr assemble;gather
     -- tjmhr   tajamohar       IV_intr assemble;gather
 
-    verb     TaFaCCaL                  {- tajamohar -}      `gloss`  [ "assemble", "gather" ],
+    verb     TaKaRDaS                  {- tajamohar -}      `gloss`  [ "assemble", "gather" ],
 
     -- ;; jamoharap_1
     -- jmhr    jamohar Nap     gathering;throng
 
-    noun     FaCCaL |< aT              {- jamoharap -}      `others` [ "^gamhar Nap" ]
+    noun     KaRDaS |< aT              {- jamoharap -}      `others` [ "^gamhar Nap" ]
                                                             `gloss`  [ "gathering", "throng" ],
 
     -- ;; tajamohur_1
     -- tjmhr   tajamohur       NduAt   gathering;crowd
 
-    noun     TaFaCCuL                  {- tajamohur -}      `gloss`  [ "gathering", "crowd" ] ]
-
- -- ;; jumohuwr_1
-
- |> "^gumhuwr" <| [
+    noun     TaKaRDuS                  {- tajamohur -}      `gloss`  [ "gathering", "crowd" ],
 
     -- ;; jumohuwr_1
     -- jmhwr   jumohuwr        N       multitude;public
     -- jmAhyr  jamAhiyr        Ndip    masses
 
-    noun     Identity                  {- jumohuwr -}       `others` [ "^gamAhiyr Ndip" ]
-                                                            `gloss`  [ "multitude", "public", "masses" ] ]
-
- -- ;; jumohuwriy~_1
-
- |> "^gumhuwr" <| [
+    noun     KuRDUS                    {- jumohuwr -}       `others` [ "^gamAhiyr Ndip" ]
+                                                            `gloss`  [ "multitude", "public", "masses" ],
 
     -- ;; jumohuwriy~_1
     -- jmhwry  jumohuwriy~     Nall    republican     [[jumohuwriy~/ADJ]]
     -- jmhwry  jumohuwriy~     NapAt   republic     [[jumohuwriy~/NOUN]]
 
-    noun     Identity |< Iy            {- jumohuwriy~ -}    `gloss`  [ "republican", "republic" ] ]
-
- -- ;; jamAhiyriy~_1
-
- |> "^gamAhiyr" <| [
+    noun     KuRDUS |< Iy              {- jumohuwriy~ -}    `gloss`  [ "republican", "republic" ],
 
     -- ;; jamAhiyriy~_1
     -- jmAhyry jamAhiyriy~     Nall    mass;throng     [[jamAhiyriy~/ADJ]]
 
-    noun     Identity |< Iy            {- jamAhiyriy~ -}    `gloss`  [ "mass", "throng" ] ]
-
- -- ;; jamAhiyriy~ap_1
-
- |> "^gamAhiyr" <| [
+    noun     KaRADIS |< Iy             {- jamAhiyriy~ -}    `gloss`  [ "mass", "throng" ],
 
     -- ;; jamAhiyriy~ap_1
     -- jmAhyry jamAhiyriy~     NapAt   Jamahiriya     [[jamAhiyriy~/NOUN]]
 
-    noun     Identity |< Iy |< aT      {- jamAhiyriy~ap -}  `others` [ "^gamAhiyriyy NapAt" ]
+    noun     KaRADIS |< Iy |< aT       {- jamAhiyriy~ap -}  `others` [ "^gamAhiyriyy NapAt" ]
                                                             `gloss`  [ "Jamahiriya" ] ]
 
  -- ;--- jn
@@ -10140,7 +10124,7 @@ lexicon = listing "Lexicon properties"
     -- ;; janobariy~_1
     -- jnbry   janobariy~      Nall    shrimp
 
-    noun     FaCCaL |< Iy              {- janobariy~ -}     `gloss`  [ "shrimp" ] ]
+    noun     KaRDaS |< Iy              {- janobariy~ -}     `gloss`  [ "shrimp" ] ]
 
  -- ;--- jnbz
 
@@ -10150,14 +10134,14 @@ lexicon = listing "Lexicon properties"
     -- jnbAz   junobAz N       gymnastics;calisthenics
     -- jmbAz   jumobAz N       gymnastics;calisthenics
 
-    noun     FuCCAL                    {- junobAz -}        `others` [ "^gumbAz N" ]
+    noun     KuRDAS                    {- junobAz -}        `others` [ "^gumbAz N" ]
                                                             `gloss`  [ "gymnastics", "calisthenics" ],
 
     -- ;; junobAziy~_1
     -- jnbAzy  junobAziy~      Nall    gymnastic;calisthenic     [[junobAziy~/ADJ]]
     -- jmbAzy  jumobAziy~      Nall    gymnastic;calisthenic     [[jumobAziy~/ADJ]]
 
-    noun     FuCCAL |< Iy              {- junobAziy~ -}     `others` [ "^gumbAziyy Nall" ]
+    noun     KuRDAS |< Iy              {- junobAziy~ -}     `others` [ "^gumbAziyy Nall" ]
                                                             `gloss`  [ "gymnastic", "calisthenic" ] ]
 
  -- ;--- jnbl
@@ -10390,7 +10374,7 @@ lexicon = listing "Lexicon properties"
     -- jndr    janodar PV      retouch;mangle
     -- jndr    janodir IV_yu   retouch;mangle
 
-    verb     FaCCaL                    {- janodar -}        `others` [ "^gandir IV_yu" ]
+    verb     KaRDaS                    {- janodar -}        `others` [ "^gandir IV_yu" ]
                                                             `gloss`  [ "retouch", "mangle" ],
 
     -- ;; jinodAriy~_1
@@ -10398,7 +10382,7 @@ lexicon = listing "Lexicon properties"
     -- jnAdry  janAdiriy~      Nall    standard-bearers;cornetists
     -- jnAdr   janAdir Nap     standard-bearers;cornetists
 
-    noun     FiCCAL |< Iy              {- jinodAriy~ -}     `others` [ "^ganAdiriyy Nall", "^ganAdir Nap" ]
+    noun     KiRDAS |< Iy              {- jinodAriy~ -}     `others` [ "^ganAdiriyy Nall", "^ganAdir Nap" ]
                                                             `gloss`  [ "standard-bearer", "cornetist", "standard-bearers", "cornetists" ] ]
 
  -- ;; janodarmap_1
@@ -10448,7 +10432,7 @@ lexicon = listing "Lexicon properties"
     -- jndl    janodal PV      bring down;fell
     -- jndl    janodil IV_yu   bring down;fell
 
-    verb     FaCCaL                    {- janodal -}        `others` [ "^gandil IV_yu" ]
+    verb     KaRDaS                    {- janodal -}        `others` [ "^gandil IV_yu" ]
                                                             `gloss`  [ "bring down", "fell" ],
 
     -- ;; janodal_2
@@ -10457,18 +10441,14 @@ lexicon = listing "Lexicon properties"
     -- jndl    janodal NAt     cataracts
     -- jnAdl   janAdil Ndip    cataracts
 
-    noun     FaCCaL                    {- janodal -}        `others` [ "^ganAdil Ndip" ]
-                                                            `gloss`  [ "cataract", "cataracts" ] ]
-
- -- ;; junoduwl_1
-
- |> "^gunduwl" <| [
+    noun     KaRDaS                    {- janodal -}        `others` [ "^ganAdil Ndip" ]
+                                                            `gloss`  [ "cataract", "cataracts" ],
 
     -- ;; junoduwl_1
     -- jndwl   junoduwl        NduAt   gondola
     -- jnAdyl  janAdiyl        Ndip    gondolas
 
-    noun     Identity                  {- junoduwl -}       `others` [ "^ganAdiyl Ndip" ]
+    noun     KuRDUS                    {- junoduwl -}       `others` [ "^ganAdiyl Ndip" ]
                                                             `gloss`  [ "gondola", "gondolas" ] ]
 
  -- ;--- jnr
@@ -10746,7 +10726,7 @@ lexicon = listing "Lexicon properties"
     -- jnfAS   junofAS N       rag;sackcloth
     -- jnfyS   junofayoS       N       rag;sackcloth
 
-    noun     FuCCAL                    {- junofAS -}        `others` [ "^gunfay.s N" ]
+    noun     KuRDAS                    {- junofAS -}        `others` [ "^gunfay.s N" ]
                                                             `gloss`  [ "rag", "sackcloth" ] ]
 
  -- ;--- jnq
@@ -10838,11 +10818,7 @@ lexicon = listing "Lexicon properties"
     -- jAnY    jAnaY   IV_0_Pass_yu    be accused;be incriminated
 
     verb     FACY                      {- jAnaY -}          `others` [ "^gAnay PV_Atn", "^gAnA PV_h", "^gAniy IV_0hAnn_yu", "^gAn IV_0hwnyn_yu PV_ttAw" ]
-                                                            `gloss`  [ "accuse", "incriminate", "be accused", "be incriminated" ] ]
-
- -- ;; tajan~aY_1
-
- |> "ta^gannY" <| [
+                                                            `gloss`  [ "accuse", "incriminate", "be accused", "be incriminated" ],
 
     -- ;; tajan~aY_1
     -- tjnY    tajan~aY        PV_0    accuse;incriminate
@@ -10854,7 +10830,7 @@ lexicon = listing "Lexicon properties"
     -- tjny    tajan~ay        IV_Ann  accuse;incriminate
     -- tjn     tajan~  IV_0hwnyn       accuse;incriminate
 
-    verb     Identity                  {- tajan~aY -}       `others` [ "ta^gannA PV_h IV_h", "ta^gannay PV_Atn IV_Ann", "ta^gann IV_0hwnyn PV_ttAw" ]
+    verb     TaFaCCY                   {- tajan~aY -}       `others` [ "ta^gannA PV_h IV_h", "ta^gannay PV_Atn IV_Ann", "ta^gann IV_0hwnyn PV_ttAw" ]
                                                             `gloss`  [ "accuse", "incriminate" ],
 
     -- ;; {ijotanaY_1
@@ -11045,7 +11021,7 @@ lexicon = listing "Lexicon properties"
     -- jhby*   jihobiy*        N/ap    brilliant;erudite;genius
     -- jhAb*   jahAbi* Nap     brilliant;erudite;genius
 
-    noun     FaCCaL                    {- jahoba* -}        `others` [ "^gihbi_d N/ap", "^gihbiy_d N/ap", "^gahAbi_d Nap" ]
+    noun     KaRDaS                    {- jahoba* -}        `others` [ "^gihbi_d N/ap", "^gihbiy_d N/ap", "^gahAbi_d Nap" ]
                                                             `gloss`  [ "brilliant", "erudite", "genius" ] ]
 
  -- ;--- jhd
@@ -11612,13 +11588,13 @@ lexicon = listing "Lexicon properties"
     -- jhwr    jahowar PV      talk out loud
     -- jhwr    jahowir IV_yu   talk out loud
 
-    verb     FaCCaL                    {- jahowar -}        `others` [ "^gahwir IV_yu" ]
+    verb     KaRDaS                    {- jahowar -}        `others` [ "^gahwir IV_yu" ]
                                                             `gloss`  [ "talk out loud" ],
 
     -- ;; jahowariy~_1
     -- jhwry   jahowariy~      Nall    loud     [[jahowariy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- jahowariy~ -}     `gloss`  [ "loud" ] ]
+    noun     KaRDaS |< Iy              {- jahowariy~ -}     `gloss`  [ "loud" ] ]
 
  -- ;--- jhy
 
@@ -12489,7 +12465,7 @@ lexicon = listing "Lexicon properties"
     -- jwrb    jaworab N       stocking;sock
     -- jwArb   jawArib Ndip    stocking;sock
 
-    noun     FaCCaL                    {- jaworab -}        `others` [ "^gawArib Ndip" ]
+    noun     KaRDaS                    {- jaworab -}        `others` [ "^gawArib Ndip" ]
                                                             `gloss`  [ "stocking", "sock" ] ]
 
  -- ;--- jwrj
@@ -13493,7 +13469,7 @@ lexicon = listing "Lexicon properties"
     -- tjwhr   tajawohar       PV_intr become substance;be substantiated
     -- tjwhr   tajawohar       IV_intr become substance;be substantiated
 
-    verb     TaFaCCaL                  {- tajawohar -}      `gloss`  [ "become substance", "be substantiated" ],
+    verb     TaKaRDaS                  {- tajawohar -}      `gloss`  [ "become substance", "be substantiated" ],
 
     -- ;; jawohar_1
     -- jwhr    jawohar Ndu     jewel;gem
@@ -13501,30 +13477,30 @@ lexicon = listing "Lexicon properties"
     -- jwhr    jawohar NAt     jewels;gems
     -- jwAhr   jawAhir Ndip    jewels;gems
 
-    noun     FaCCaL                    {- jawohar -}        `others` [ "^gawAhir Ndip" ]
+    noun     KaRDaS                    {- jawohar -}        `others` [ "^gawAhir Ndip" ]
                                                             `gloss`  [ "jewel", "gem", "jewels", "gems" ],
 
     -- ;; jawohar_2
     -- jwhr    jawohar Ndu     essence;substance
     -- jwAhr   jawAhir Ndip    essence;substance
 
-    noun     FaCCaL                    {- jawohar -}        `others` [ "^gawAhir Ndip" ]
+    noun     KaRDaS                    {- jawohar -}        `others` [ "^gawAhir Ndip" ]
                                                             `gloss`  [ "essence", "substance" ],
 
     -- ;; jawohar_3
     -- jwhr    jawohar N0      Jawhar
 
-    noun     FaCCaL                    {- jawohar -}        `gloss`  [ "Jawhar" ],
+    noun     KaRDaS                    {- jawohar -}        `gloss`  [ "Jawhar" ],
 
     -- ;; jawohariy~_1
     -- jwhry   jawohariy~      Nall    fundamental;essential     [[jawohariy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- jawohariy~ -}     `gloss`  [ "fundamental", "essential" ],
+    noun     KaRDaS |< Iy              {- jawohariy~ -}     `gloss`  [ "fundamental", "essential" ],
 
     -- ;; jawohariy~_2
     -- jwhry   jawohariy~      N0      Jawhari
 
-    noun     FaCCaL |< Iy              {- jawohariy~ -}     `gloss`  [ "Jawhari" ] ]
+    noun     KaRDaS |< Iy              {- jawohariy~ -}     `gloss`  [ "Jawhari" ] ]
 
  -- ;; jawAhiriy~_1
 
@@ -13539,7 +13515,7 @@ lexicon = listing "Lexicon properties"
     -- mjwhr   mujawohar       Nall    decorated     [[mujawohar/ADJ]]
     -- mjwhr   mujawohar       NAt     jewelry
 
-    noun     MuFaCCaL                  {- mujawohar -}      `gloss`  [ "decorated", "jewelry" ] ]
+    noun     MuKaRDaS                  {- mujawohar -}      `gloss`  [ "decorated", "jewelry" ] ]
 
  -- ;--- jwy
 
@@ -13558,7 +13534,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; tajaw~aY_1
 
- |> "ta^gawwY" <| [
+ |> "^g^gw" <| [
 
     -- ;; tajaw~aY_1
     -- tjwY    tajaw~aY        PV_0    crumble
@@ -13570,12 +13546,8 @@ lexicon = listing "Lexicon properties"
     -- tjwy    tajaw~ay        IV_Ann  crumble
     -- tjw     tajaw~  IV_0hwnyn       crumble
 
-    verb     Identity                  {- tajaw~aY -}       `others` [ "ta^gawway PV_Atn IV_Ann", "ta^gawwA PV_h IV_h", "ta^gaww IV_0hwnyn PV_ttAw" ]
-                                                            `gloss`  [ "crumble" ] ]
-
- -- ;; {ijotawaY_1
-
- |> "^g^gw" <| [
+    verb     TaFaCCY                   {- tajaw~aY -}       `others` [ "ta^gawway PV_Atn IV_Ann", "ta^gawwA PV_h IV_h", "ta^gaww IV_0hwnyn PV_ttAw" ]
+                                                            `gloss`  [ "crumble" ],
 
     -- ;; {ijotawaY_1
     -- <jtwY   {ijotawaY       PV_0    feel intensely

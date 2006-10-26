@@ -1141,7 +1141,7 @@ lexicon = listing "Lexicon properties"
     -- m>m&    ma>oma& PV_w    bleat
     -- m>m}    ma>omi} IV_yu   bleat
 
-    verb     FaCCaL                    {- ma>oma> -}        `others` [ "ma'mi' IV_yu", "ma'ma'A PV-|" ]
+    verb     KaRDaS                    {- ma>oma> -}        `others` [ "ma'mi' IV_yu", "ma'ma'A PV-|" ]
                                                             `gloss`  [ "bleat" ] ]
 
  -- ;--- mAmw
@@ -1931,7 +1931,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mat~aY_1
 
- |> "mtt" <| [
+ |> "mt" <| [
 
     -- ;; mat~aY_1
     -- mtY     mat~aY  Nprop   Matthew
@@ -2412,7 +2412,7 @@ lexicon = listing "Lexicon properties"
     -- ;; majodal_1
     -- mjdl    majodal Nprop   Majdal
 
-    noun     FaCCaL                    {- majodal -}        `gloss`  [ "Majdal" ] ]
+    noun     KaRDaS                    {- majodal -}        `gloss`  [ "Majdal" ] ]
 
  -- ;--- mjr
 
@@ -2450,17 +2450,9 @@ lexicon = listing "Lexicon properties"
  |> "m^gr.t" <| [
 
     -- ;; majoriyT_1
-
-    root     Identity                                        ]
-
- -- ;; majoriyT_1
-
- |> "ma^griy.t" <| [
-
-    -- ;; majoriyT_1
     -- mjryT   majoriyT        N0      Madrid
 
-    noun     Identity                  {- majoriyT -}       `gloss`  [ "Madrid" ] ]
+    noun     KaRDIS                    {- majoriyT -}       `gloss`  [ "Madrid" ] ]
 
  -- ;--- mjl
 
@@ -2481,19 +2473,19 @@ lexicon = listing "Lexicon properties"
     -- mjmj    majomaj PV      scribble;scrawl
     -- mjmj    majomij IV      scribble;scrawl
 
-    verb     FaCCaL                    {- majomaj -}        `others` [ "ma^gmi^g IV" ]
+    verb     KaRDaS                    {- majomaj -}        `others` [ "ma^gmi^g IV" ]
                                                             `gloss`  [ "scribble", "scrawl" ],
 
     -- ;; majomajap_1
     -- mjmj    majomaj NapAt   scribbling;scrawling
 
-    noun     FaCCaL |< aT              {- majomajap -}      `others` [ "ma^gma^g NapAt" ]
+    noun     KaRDaS |< aT              {- majomajap -}      `others` [ "ma^gma^g NapAt" ]
                                                             `gloss`  [ "scribbling", "scrawling" ],
 
     -- ;; mumajomaj_1
     -- mmjmj   mumajomaj       N-ap    illegible;scribbled;scrawled
 
-    noun     MuFaCCaL                  {- mumajomaj -}      `gloss`  [ "illegible", "scribbled", "scrawled" ] ]
+    noun     MuKaRDaS                  {- mumajomaj -}      `gloss`  [ "illegible", "scribbled", "scrawled" ] ]
 
  -- ;--- mjn
 
@@ -3016,11 +3008,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- maHA-u -}         `imperf` [ FCuL ]
                                                             `others` [ "m.hY IV_0_Pass_yu", "ma.h PV_ttAw", "m.hay IV_Ann_Pass_yu", "m.h IV_0hwnyn", "ma.haw PV_Atn", "m.huw IV_0hAnn", "ma.hA PV_0h" ]
-                                                            `gloss`  [ "wipe out", "eradicate", "exterminate", "be wiped out", "be eradicated", "be exterminated" ] ]
-
- -- ;; maH~aY_1
-
- |> "m.h.h" <| [
+                                                            `gloss`  [ "wipe out", "eradicate", "exterminate", "be wiped out", "be eradicated", "be exterminated" ],
 
     -- ;; maH~aY_1
     -- mHY     maH~aY  PV_0    wipe out;eradicate;exterminate
@@ -3044,11 +3032,7 @@ lexicon = listing "Lexicon properties"
     -- tmH     tamaH~  IV_0hwnyn       be eradicated;be exterminated
 
     verb     TaFaCCY                   {- tamaH~aY -}       `others` [ "tama.h.h PV_ttAw_intr IV_0hwnyn", "tama.h.hay PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "be eradicated", "be exterminated" ] ]
-
- -- ;; {inomaHaY_1
-
- |> "m.h" <| [
+                                                            `gloss`  [ "be eradicated", "be exterminated" ],
 
     -- ;; {inomaHaY_1
     -- <nmHY   {inomaHaY       PV_0    be eradicated;be exterminated
@@ -3199,7 +3183,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mamoHuw~_1
     -- mmHw    mamoHuw~        N-ap    erased;wiped out     [[mamoHuw~/ADJ]]
 
-    noun     FaCCUL                    {- mamoHuw~ -}       `gloss`  [ "erased", "wiped out" ] ]
+    noun     KaRDUS                    {- mamoHuw~ -}       `gloss`  [ "erased", "wiped out" ] ]
 
  -- ;--- mHwr
 
@@ -3209,24 +3193,24 @@ lexicon = listing "Lexicon properties"
     -- mHwr    maHowar PV      make rotate
     -- mHwr    maHowir IV_yu   make rotate
 
-    verb     FaCCaL                    {- maHowar -}        `others` [ "ma.hwir IV_yu" ]
+    verb     KaRDaS                    {- maHowar -}        `others` [ "ma.hwir IV_yu" ]
                                                             `gloss`  [ "make rotate" ],
 
     -- ;; tamaHowar_1
     -- tmHwr   tamaHowar       PV      revolve;rotate
     -- tmHwr   tamaHowar       IV      revolve;rotate
 
-    verb     TaFaCCaL                  {- tamaHowar -}      `gloss`  [ "revolve", "rotate" ],
+    verb     TaKaRDaS                  {- tamaHowar -}      `gloss`  [ "revolve", "rotate" ],
 
     -- ;; tamaHowur_1
     -- tmHwr   tamaHowur       N/At    revolving;rotating
 
-    noun     TaFaCCuL                  {- tamaHowur -}      `gloss`  [ "revolving", "rotating" ],
+    noun     TaKaRDuS                  {- tamaHowur -}      `gloss`  [ "revolving", "rotating" ],
 
     -- ;; mutamaHowir_1
     -- mtmHwr  mutamaHowir     N-ap    revolving;rotating     [[mutamaHowir/ADJ]]
 
-    noun     MutaFaCCiL                {- mutamaHowir -}    `gloss`  [ "revolving", "rotating" ] ]
+    noun     MutaKaRDiS                {- mutamaHowir -}    `gloss`  [ "revolving", "rotating" ] ]
 
  -- ;--- mx
 
@@ -3304,13 +3288,13 @@ lexicon = listing "Lexicon properties"
     -- mxrq    maxoraq PV      brag;cheat
     -- mxrq    maxoriq IV_yu   brag;cheat
 
-    verb     FaCCaL                    {- maxoraq -}        `others` [ "ma_hriq IV_yu" ]
+    verb     KaRDaS                    {- maxoraq -}        `others` [ "ma_hriq IV_yu" ]
                                                             `gloss`  [ "brag", "cheat" ],
 
     -- ;; maxoraqap_2
     -- mxrq    maxoraq Nap     bragging;cheating
 
-    noun     FaCCaL |< aT              {- maxoraqap -}      `others` [ "ma_hraq Nap" ]
+    noun     KaRDaS |< aT              {- maxoraqap -}      `others` [ "ma_hraq Nap" ]
                                                             `gloss`  [ "bragging", "cheating" ] ]
 
  -- ;--- mxD
@@ -3422,17 +3406,17 @@ lexicon = listing "Lexicon properties"
     -- tmxTr   tamaxoTar       PV      walk gracefully
     -- tmxTr   tamaxoTar       IV      walk gracefully
 
-    verb     TaFaCCaL                  {- tamaxoTar -}      `gloss`  [ "walk gracefully" ],
+    verb     TaKaRDaS                  {- tamaxoTar -}      `gloss`  [ "walk gracefully" ],
 
     -- ;; tamaxoTur_1
     -- tmxTr   tamaxoTur       N       walking gracefully
 
-    noun     TaFaCCuL                  {- tamaxoTur -}      `gloss`  [ "walking gracefully" ],
+    noun     TaKaRDuS                  {- tamaxoTur -}      `gloss`  [ "walking gracefully" ],
 
     -- ;; mutamaxoTir_1
     -- mtmxTr  mutamaxoTir     Nall    walking gracefully
 
-    noun     MutaFaCCiL                {- mutamaxoTir -}    `gloss`  [ "walking gracefully" ] ]
+    noun     MutaKaRDiS                {- mutamaxoTir -}    `gloss`  [ "walking gracefully" ] ]
 
  -- ;--- mxl
 
@@ -3462,7 +3446,7 @@ lexicon = listing "Lexicon properties"
     -- mxmD    maxomaD PV      gargle;rinse (mouth)
     -- mxmD    maxomiD IV_yu   gargle;rinse (mouth)
 
-    verb     FaCCaL                    {- maxomaD -}        `others` [ "ma_hmi.d IV_yu" ]
+    verb     KaRDaS                    {- maxomaD -}        `others` [ "ma_hmi.d IV_yu" ]
                                                             `gloss`  [ "gargle", "rinse ( mouth )" ] ]
 
  -- ;--- md
@@ -3860,7 +3844,7 @@ lexicon = listing "Lexicon properties"
     -- ;; madorAs_1
     -- mdrAs   madorAs N0      Madras
 
-    noun     FaCCAL                    {- madorAs -}        `gloss`  [ "Madras" ] ]
+    noun     KaRDAS                    {- madorAs -}        `gloss`  [ "Madras" ] ]
 
  -- ;--- mdry
 
@@ -3872,12 +3856,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; madoriyd_1
 
- |> "madriyd" <| [
+ |> "mdrd" <| [
 
     -- ;; madoriyd_1
     -- mdryd   madoriyd        N0      Madrid
 
-    noun     Identity                  {- madoriyd -}       `gloss`  [ "Madrid" ] ]
+    noun     KaRDIS                    {- madoriyd -}       `gloss`  [ "Madrid" ] ]
 
  -- ;--- mdg$
 
@@ -3963,12 +3947,16 @@ lexicon = listing "Lexicon properties"
 
  -- ;; madA}in_1
 
- |> "madA'in" <| [
+ |> "mdn" <| [
 
     -- ;; madA}in_1
     -- mdA}n   madA}in Ndip    Mada'in
 
-    noun     Identity                  {- madA}in -}        `gloss`  [ "Mada'in" ],
+    noun     MaFA'iL                   {- madA}in -}        `gloss`  [ "Mada'in" ] ]
+
+ -- ;; madaniy~_1
+
+ |> "mdn" <| [
 
     -- ;; madaniy~_1
     -- mdny    madaniy~        Nall    civilian     [[madaniy~/ADJ]]
@@ -4154,22 +4142,22 @@ lexicon = listing "Lexicon properties"
     -- tmdyn   tamadoyan       PV-n_intr       be civilized;be sophisticated
     -- tmdyn   tamadoyan       IV-n_intr       be civilized;be sophisticated
 
-    verb     TaFaCCaL                  {- tamadoyan -}      `gloss`  [ "be civilized", "be sophisticated" ],
+    verb     TaKaRDaS                  {- tamadoyan -}      `gloss`  [ "be civilized", "be sophisticated" ],
 
     -- ;; tamadoyun_1
     -- tmdyn   tamadoyun       N/At    civilization;refinement
 
-    noun     TaFaCCuL                  {- tamadoyun -}      `gloss`  [ "civilization", "refinement" ],
+    noun     TaKaRDuS                  {- tamadoyun -}      `gloss`  [ "civilization", "refinement" ],
 
     -- ;; tamadoyuniy~_1
     -- tmdyny  tamadoyuniy~    Nall    civilizing     [[tamadoyuniy/ADJ]]
 
-    noun     TaFaCCuL |< Iy            {- tamadoyuniy~ -}   `gloss`  [ "civilizing" ],
+    noun     TaKaRDuS |< Iy            {- tamadoyuniy~ -}   `gloss`  [ "civilizing" ],
 
     -- ;; mutamadoyin_1
     -- mtmdyn  mutamadoyin     Nall    civilized;sophisticated
 
-    noun     MutaFaCCiL                {- mutamadoyin -}    `gloss`  [ "civilized", "sophisticated" ] ]
+    noun     MutaKaRDiS                {- mutamadoyin -}    `gloss`  [ "civilized", "sophisticated" ] ]
 
  -- ;--- m*
 
@@ -4277,17 +4265,17 @@ lexicon = listing "Lexicon properties"
     -- tm*hb   tama*ohab       PV      follow (as a disciple)
     -- tm*hb   tama*ohab       IV      follow (as a disciple)
 
-    verb     TaFaCCaL                  {- tama*ohab -}      `gloss`  [ "follow ( as a disciple )" ],
+    verb     TaKaRDaS                  {- tama*ohab -}      `gloss`  [ "follow ( as a disciple )" ],
 
     -- ;; tama*ohub_1
     -- tm*hb   tama*ohub       N       following (as a disciple)
 
-    noun     TaFaCCuL                  {- tama*ohub -}      `gloss`  [ "following ( as a disciple )" ],
+    noun     TaKaRDuS                  {- tama*ohub -}      `gloss`  [ "following ( as a disciple )" ],
 
     -- ;; mutama*ohib_1
     -- mtm*hb  mutama*ohib     Nall    following (as a disciple)     [[mutama*ohib/ADJ]]
 
-    noun     MutaFaCCiL                {- mutama*ohib -}    `gloss`  [ "following ( as a disciple )" ] ]
+    noun     MutaKaRDiS                {- mutama*ohib -}    `gloss`  [ "following ( as a disciple )" ] ]
 
  -- ;--- mr(1)
 
@@ -4716,14 +4704,14 @@ lexicon = listing "Lexicon properties"
     -- mrjH    marojaH PV      rock;shake
     -- mrjH    marojiH IV_yu   rock;shake
 
-    verb     FaCCaL                    {- marojaH -}        `others` [ "mar^gi.h IV_yu" ]
+    verb     KaRDaS                    {- marojaH -}        `others` [ "mar^gi.h IV_yu" ]
                                                             `gloss`  [ "rock", "shake" ],
 
     -- ;; tamarojaH_1
     -- tmrjH   tamarojaH       PV      swing back and forth;dangle;be in suspense
     -- tmrjH   tamarojaH       IV      swing back and forth;dangle;be in suspense
 
-    verb     TaFaCCaL                  {- tamarojaH -}      `gloss`  [ "swing back and forth", "dangle", "be in suspense" ] ]
+    verb     TaKaRDaS                  {- tamarojaH -}      `gloss`  [ "swing back and forth", "dangle", "be in suspense" ] ]
 
  -- ;--- mrH
 
@@ -4775,7 +4763,7 @@ lexicon = listing "Lexicon properties"
     -- mrHb    maroHab PV      welcome
     -- mrHb    maroHib IV_yu   welcome
 
-    verb     FaCCaL                    {- maroHab -}        `others` [ "mar.hib IV_yu" ]
+    verb     KaRDaS                    {- maroHab -}        `others` [ "mar.hib IV_yu" ]
                                                             `gloss`  [ "welcome" ] ]
 
  -- ;--- mrx
@@ -4959,12 +4947,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muroduwx_1
 
- |> "murduw_h" <| [
+ |> "mrd_h" <| [
 
     -- ;; muroduwx_1
     -- mrdwx   muroduwx        Nprop   Murdoch
 
-    noun     Identity                  {- muroduwx -}       `gloss`  [ "Murdoch" ] ]
+    noun     KuRDUS                    {- muroduwx -}       `gloss`  [ "Murdoch" ] ]
 
  -- ;--- mrzb
 
@@ -5140,12 +5128,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; marosiyn_1
 
- |> "marsiyn" <| [
+ |> "mrsn" <| [
 
     -- ;; marosiyn_1
     -- mrsyn   marosiyn        N0      myrtle
 
-    noun     Identity                  {- marosiyn -}       `gloss`  [ "myrtle" ] ]
+    noun     KaRDIS                    {- marosiyn -}       `gloss`  [ "myrtle" ] ]
 
  -- ;--- mr$
 
@@ -5502,26 +5490,22 @@ lexicon = listing "Lexicon properties"
     -- tmrkz   tamarokaz       PV_intr be centered;be stationed;be concentrated
     -- tmrkz   tamarokaz       IV_intr be centered;be stationed;be concentrated
 
-    verb     TaFaCCaL                  {- tamarokaz -}      `gloss`  [ "be centered", "be stationed", "be concentrated" ],
+    verb     TaKaRDaS                  {- tamarokaz -}      `gloss`  [ "be centered", "be stationed", "be concentrated" ],
 
     -- ;; tamarokuz_1
     -- tmrkz   tamarokuz       NduAt   concentration;consolidation;centralization
 
-    noun     TaFaCCuL                  {- tamarokuz -}      `gloss`  [ "concentration", "consolidation", "centralization" ],
+    noun     TaKaRDuS                  {- tamarokuz -}      `gloss`  [ "concentration", "consolidation", "centralization" ],
 
     -- ;; mutamarokiz_1
     -- mtmrkz  mutamarokiz     Nall    centered;stationed;concentrated     [[mutamarokiz/ADJ]]
 
-    noun     MutaFaCCiL                {- mutamarokiz -}    `gloss`  [ "centered", "stationed", "concentrated" ] ]
-
- -- ;; marokiyz_1
-
- |> "markiyz" <| [
+    noun     MutaKaRDiS                {- mutamarokiz -}    `gloss`  [ "centered", "stationed", "concentrated" ],
 
     -- ;; marokiyz_1
     -- mrkyz   marokiyz        N0      marquis
 
-    noun     Identity                  {- marokiyz -}       `gloss`  [ "marquis" ] ]
+    noun     KaRDIS                    {- marokiyz -}       `gloss`  [ "marquis" ] ]
 
  -- ;--- mrk$
 
@@ -5584,7 +5568,7 @@ lexicon = listing "Lexicon properties"
     -- ;; miroliyn_1
     -- mrlyn   miroliyn        Nprop   Merlene
 
-    noun     FiCCIL                    {- miroliyn -}       `gloss`  [ "Merlene" ] ]
+    noun     KiRDIS                    {- miroliyn -}       `gloss`  [ "Merlene" ] ]
 
  -- ;--- mrmr
 
@@ -5594,29 +5578,29 @@ lexicon = listing "Lexicon properties"
     -- mrmr    maromar PV_intr become bitter;be angry
     -- mrmr    maromir IV_intr_yu      become bitter;be angry
 
-    verb     FaCCaL                    {- maromar -}        `others` [ "marmir IV_intr_yu" ]
+    verb     KaRDaS                    {- maromar -}        `others` [ "marmir IV_intr_yu" ]
                                                             `gloss`  [ "become bitter", "be angry" ],
 
     -- ;; tamaromar_1
     -- tmrmr   tamaromar       PV      murmur;mumble;grumble
     -- tmrmr   tamaromar       IV      murmur;mumble;grumble
 
-    verb     TaFaCCaL                  {- tamaromar -}      `gloss`  [ "murmur", "mumble", "grumble" ],
+    verb     TaKaRDaS                  {- tamaromar -}      `gloss`  [ "murmur", "mumble", "grumble" ],
 
     -- ;; tamaromur_1
     -- tmrmr   tamaromur       N/At    bitterness;embitterment
 
-    noun     TaFaCCuL                  {- tamaromur -}      `gloss`  [ "bitterness", "embitterment" ],
+    noun     TaKaRDuS                  {- tamaromur -}      `gloss`  [ "bitterness", "embitterment" ],
 
     -- ;; maromar_2
     -- mrmr    maromar N       marble
 
-    noun     FaCCaL                    {- maromar -}        `gloss`  [ "marble" ],
+    noun     KaRDaS                    {- maromar -}        `gloss`  [ "marble" ],
 
     -- ;; maromariy~_1
     -- mrmry   maromariy~      N-ap    marble     [[maromariy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- maromariy~ -}     `gloss`  [ "marble" ] ]
+    noun     KaRDaS |< Iy              {- maromariy~ -}     `gloss`  [ "marble" ] ]
 
  -- ;--- mrmT
 
@@ -5626,7 +5610,7 @@ lexicon = listing "Lexicon properties"
     -- mrmT    maromaT PV      damage;spoil
     -- mrmT    maromiT IV_yu   damage;spoil
 
-    verb     FaCCaL                    {- maromaT -}        `others` [ "marmi.t IV_yu" ]
+    verb     KaRDaS                    {- maromaT -}        `others` [ "marmi.t IV_yu" ]
                                                             `gloss`  [ "damage", "spoil" ] ]
 
  -- ;; maromiTuwn_1
@@ -5647,7 +5631,7 @@ lexicon = listing "Lexicon properties"
     -- ;; miromiys_1
     -- mrmys   miromiys        N       rhinoceros
 
-    noun     FiCCIL                    {- miromiys -}       `gloss`  [ "rhinoceros" ] ]
+    noun     KiRDIS                    {- miromiys -}       `gloss`  [ "rhinoceros" ] ]
 
  -- ;--- mrn(1)
 
@@ -5807,12 +5791,12 @@ lexicon = listing "Lexicon properties"
     -- ;; marowAn_1
     -- mrwAn   marowAn N0      Marwan
 
-    noun     FaCCAL                    {- marowAn -}        `gloss`  [ "Marwan" ],
+    noun     KaRDAS                    {- marowAn -}        `gloss`  [ "Marwan" ],
 
     -- ;; marowAniy~_1
     -- mrwAny  marowAniy~      N0      Marwani
 
-    noun     FaCCAL |< Iy              {- marowAniy~ -}     `gloss`  [ "Marwani" ] ]
+    noun     KaRDAS |< Iy              {- marowAniy~ -}     `gloss`  [ "Marwani" ] ]
 
  -- ;--- mry
 
@@ -5910,17 +5894,17 @@ lexicon = listing "Lexicon properties"
     -- ;; maroyam_1
     -- mrym    maroyam Nprop   Mariam;Miriam
 
-    noun     FaCCaL                    {- maroyam -}        `gloss`  [ "Mariam", "Miriam" ],
+    noun     KaRDaS                    {- maroyam -}        `gloss`  [ "Mariam", "Miriam" ],
 
     -- ;; maroyam_2
     -- mrym    maroyam Nprop   Mary
 
-    noun     FaCCaL                    {- maroyam -}        `gloss`  [ "Mary" ],
+    noun     KaRDaS                    {- maroyam -}        `gloss`  [ "Mary" ],
 
     -- ;; maroyamiy~ap_1
     -- mrymy   maroyamiy~      Nap     sage     [[maroyamiy~/NOUN]]
 
-    noun     FaCCaL |< Iy |< aT        {- maroyamiy~ap -}   `others` [ "maryamiyy Nap" ]
+    noun     KaRDaS |< Iy |< aT        {- maroyamiy~ap -}   `others` [ "maryamiyy Nap" ]
                                                             `gloss`  [ "sage" ] ]
 
  -- ;--- mz
@@ -6202,7 +6186,7 @@ lexicon = listing "Lexicon properties"
     -- mzmz    mazomaz PV      sip
     -- mzmz    mazomiz IV_yu   sip
 
-    verb     FaCCaL                    {- mazomaz -}        `others` [ "mazmiz IV_yu" ]
+    verb     KaRDaS                    {- mazomaz -}        `others` [ "mazmiz IV_yu" ]
                                                             `gloss`  [ "sip" ] ]
 
  -- ;--- mzn
@@ -6613,14 +6597,14 @@ lexicon = listing "Lexicon properties"
     -- msxr    masoxar PV      ridicule;deride
     -- msxr    masoxir IV_yu   ridicule;deride
 
-    verb     FaCCaL                    {- masoxar -}        `others` [ "mas_hir IV_yu" ]
+    verb     KaRDaS                    {- masoxar -}        `others` [ "mas_hir IV_yu" ]
                                                             `gloss`  [ "ridicule", "deride" ],
 
     -- ;; tamasoxar_1
     -- tmsxr   tamasoxar       PV      mock
     -- tmsxr   tamasoxar       IV      mock
 
-    verb     TaFaCCaL                  {- tamasoxar -}      `gloss`  [ "mock" ] ]
+    verb     TaKaRDaS                  {- tamasoxar -}      `gloss`  [ "mock" ] ]
 
  -- ;--- msd
 
@@ -6696,7 +6680,7 @@ lexicon = listing "Lexicon properties"
     -- msTr    masoTar Napdu   sample;specimen
     -- msATr   masATir Ndip    samples;specimens
 
-    noun     FaCCaL |< aT              {- masoTarap -}      `others` [ "masA.tir Ndip", "mas.tar Napdu" ]
+    noun     KaRDaS |< aT              {- masoTarap -}      `others` [ "masA.tir Ndip", "mas.tar Napdu" ]
                                                             `gloss`  [ "sample", "specimen", "samples", "specimens" ] ]
 
  -- ;--- msk
@@ -6793,7 +6777,7 @@ lexicon = listing "Lexicon properties"
     -- ;; musokAn_1
     -- mskAn   musokAn N       earnest money;pledge
 
-    noun     FuCCAL                    {- musokAn -}        `gloss`  [ "earnest money", "pledge" ] ]
+    noun     KuRDAS                    {- musokAn -}        `gloss`  [ "earnest money", "pledge" ] ]
 
  -- ;; misAk_1
 
@@ -6899,19 +6883,19 @@ lexicon = listing "Lexicon properties"
     -- tmskn   tamasokan       PV-n_intr       become poor;feign poverty;be servile
     -- tmskn   tamasokan       IV-n    become poor;feign poverty;be servile
 
-    verb     TaFaCCaL                  {- tamasokan -}      `gloss`  [ "become poor", "feign poverty", "be servile" ],
+    verb     TaKaRDaS                  {- tamasokan -}      `gloss`  [ "become poor", "feign poverty", "be servile" ],
 
     -- ;; masokanap_1
     -- mskn    masokan Nap     poverty;humility
 
-    noun     FaCCaL |< aT              {- masokanap -}      `others` [ "maskan Nap" ]
+    noun     KaRDaS |< aT              {- masokanap -}      `others` [ "maskan Nap" ]
                                                             `gloss`  [ "poverty", "humility" ],
 
     -- ;; misokiyn_1
     -- mskyn   misokiyn        Nall    poor;humble;miserable
     -- msAkyn  masAkiyn        Ndip    poor;humble;miserable
 
-    noun     FiCCIL                    {- misokiyn -}       `others` [ "masAkiyn Ndip" ]
+    noun     KiRDIS                    {- misokiyn -}       `others` [ "masAkiyn Ndip" ]
                                                             `gloss`  [ "poor", "humble", "miserable" ] ]
 
  -- ;--- mskw
@@ -6933,13 +6917,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; musokuwfiy~_1
 
- |> "muskuwf" <| [
+ |> "mskf" <| [
 
     -- ;; musokuwfiy~_1
     -- mskwfy  musokuwfiy~     Nall    Muscovite     [[musokuwfiy~/NOUN]]
     -- mskwfy  musokuwfiy~     Nall    Muscovite     [[musokuwfiy~/ADJ]]
 
-    noun     Identity |< Iy            {- musokuwfiy~ -}    `gloss`  [ "Muscovite" ] ]
+    noun     KuRDUS |< Iy              {- musokuwfiy~ -}    `gloss`  [ "Muscovite" ] ]
 
  -- ;--- msmr
 
@@ -6949,7 +6933,7 @@ lexicon = listing "Lexicon properties"
     -- msmr    masomar PV      nail up
     -- msmr    masomir IV_yu   nail up
 
-    verb     FaCCaL                    {- masomar -}        `others` [ "masmir IV_yu" ]
+    verb     KaRDaS                    {- masomar -}        `others` [ "masmir IV_yu" ]
                                                             `gloss`  [ "nail up" ] ]
 
  -- ;--- msw
@@ -6962,7 +6946,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mas~aY_1
 
- |> "mss" <| [
+ |> "ms" <| [
 
     -- ;; mas~aY_1
     -- msY     mas~aY  PV_0    wish good evening
@@ -6976,11 +6960,7 @@ lexicon = listing "Lexicon properties"
     -- ms      mas~    IV_0hwnyn_yu    be wished good evening
 
     verb     FaCCY                     {- mas~aY -}         `others` [ "massA PV_h", "mass IV_0hwnyn_yu PV_ttAw", "massay PV_Atn IV_Ann_Pass_yu", "massiy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "wish good evening", "be wished good evening" ] ]
-
- -- ;; mAsaY_1
-
- |> "ms" <| [
+                                                            `gloss`  [ "wish good evening", "be wished good evening" ],
 
     -- ;; mAsaY_1
     -- mAsY    mAsaY   PV_0    spend the evening
@@ -7327,35 +7307,15 @@ lexicon = listing "Lexicon properties"
  |> "m^sq" <| [
 
     -- ;; {imoti$Aq_1
-
-    noun     IFtiCAL                   {- {imoti$Aq -}       ]
-
- -- ;; {imoti$Aq_1
-
- |> "mt^sq" <| [
-
-    -- ;; {imoti$Aq_1
     -- <mt$Aq  {imoti$Aq       N/At    slenderness
     -- Amt$Aq  {imoti$Aq       N/At    slenderness
 
-    noun     IFCiLAL                   {- {imoti$Aq -}      `gloss`  [ "slenderness" ] ]
-
- -- ;; mamo$uwq_1
-
- |> "m^sq" <| [
-
-    -- ;; mamo$uwq_1
-
-    noun     MaFCUL                    {- mamo$uwq -}        ]
-
- -- ;; mamo$uwq_1
-
- |> "mm^sq" <| [
+    noun     IFtiCAL                   {- {imoti$Aq -}      `gloss`  [ "slenderness" ],
 
     -- ;; mamo$uwq_1
     -- mm$wq   mamo$uwq        Nall    slender;slim     [[mamo$uwq/ADJ]]
 
-    noun     FaCCUL                    {- mamo$uwq -}       `gloss`  [ "slender", "slim" ] ]
+    noun     MaFCUL                    {- mamo$uwq -}       `gloss`  [ "slender", "slim" ] ]
 
  -- ;--- m$k
 
@@ -7462,11 +7422,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- ma$aY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "m^siy IV_0hAnn", "ma^s PV_ttAw", "m^s IV_0hwnyn", "m^sY IV_0", "ma^sY PV_0", "ma^say PV_Atn" ]
-                                                            `gloss`  [ "walk", "proceed" ] ]
-
- -- ;; ma$~aY_1
-
- |> "m^s^s" <| [
+                                                            `gloss`  [ "walk", "proceed" ],
 
     -- ;; ma$~aY_1
     -- m$Y     ma$~aY  PV_0    make walk;adjust
@@ -7479,11 +7435,7 @@ lexicon = listing "Lexicon properties"
     -- m$y     ma$~ay  IV_Ann_Pass_yu  be made to walk;be adjusted
 
     verb     FaCCY                     {- ma$~aY -}         `others` [ "ma^s^s IV_0hwnyn_yu PV_ttAw", "ma^s^siy IV_0hAnn_yu", "ma^s^say PV_Atn IV_Ann_Pass_yu", "ma^s^sA PV_h" ]
-                                                            `gloss`  [ "make walk", "adjust", "be made to walk", "be adjusted" ] ]
-
- -- ;; mA$aY_1
-
- |> "m^s" <| [
+                                                            `gloss`  [ "make walk", "adjust", "be made to walk", "be adjusted" ],
 
     -- ;; mA$aY_1
     -- mA$Y    mA$aY   PV_0    go alongside;act in unison with
@@ -7513,11 +7465,7 @@ lexicon = listing "Lexicon properties"
     -- m$y     mo$ay   IV_Ann_Pass_yu  be made to walk;be adjusted
 
     verb     HaFCY                     {- >amo$aY -}        `others` [ "m^siy IV_0hAnn_yu", "'am^s PV_ttAw", "m^s IV_0hwnyn_yu", "m^sY IV_0_Pass_yu", "'am^say PV_Atn", "'am^sA PV_h", "m^say IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "make walk", "adjust", "be made to walk", "be adjusted" ] ]
-
- -- ;; tama$~aY_1
-
- |> "m^s^s" <| [
+                                                            `gloss`  [ "make walk", "adjust", "be made to walk", "be adjusted" ],
 
     -- ;; tama$~aY_1
     -- tm$Y    tama$~aY        PV_0    be in accordance;be appropriate
@@ -7530,11 +7478,7 @@ lexicon = listing "Lexicon properties"
     -- tm$     tama$~  IV_0hwnyn       be in accordance;be appropriate
 
     verb     TaFaCCY                   {- tama$~aY -}       `others` [ "tama^s^s PV_ttAw_intr IV_0hwnyn", "tama^s^sA PV_h IV_h", "tama^s^say PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "be in accordance", "be appropriate" ] ]
-
- -- ;; tamA$aY_1
-
- |> "m^s" <| [
+                                                            `gloss`  [ "be in accordance", "be appropriate" ],
 
     -- ;; tamA$aY_1
     -- tmA$Y   tamA$aY PV_0    conform with;be adapted with
@@ -7587,7 +7531,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mamo$aY_1
 
- |> "mm^s" <| [
+ |> "mam^sY" <| [
 
     -- ;; mamo$aY_1
     -- mm$Y    mamo$aY N0      corridor;promenade
@@ -7596,7 +7540,7 @@ lexicon = listing "Lexicon properties"
     -- mmA$y   mamA$iy N0_Nh   corridors;promenades
     -- mmA$    mamA$   NK      corridors;promenades
 
-    noun     FaCCY                     {- mamo$aY -}        `others` [ "mamA^s NK", "mam^sA Nhy", "mam^say NAn_Nayn", "mamA^siy N0_Nh" ]
+    noun     Identity                  {- mamo$aY -}        `others` [ "mamA^s NK", "mam^sA Nhy", "mam^say NAn_Nayn", "mamA^siy N0_Nh" ]
                                                             `gloss`  [ "corridor", "promenade", "corridors", "promenades" ] ]
 
  -- ;; tamA$iy_1
@@ -7606,11 +7550,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tamA$iy_1
     -- tmA$y   tamA$iy NF      in accordance with;in conformity with     [[tamA$iy/ADV]]
 
-    noun     Identity                  {- tamA$iy -}        `gloss`  [ "in accordance with", "in conformity with" ] ]
-
- -- ;; mA$iy_1
-
- |> "m^sy" <| [
+    noun     Identity                  {- tamA$iy -}        `gloss`  [ "in accordance with", "in conformity with" ],
 
     -- ;; mA$iy_1
     -- mA$y    mA$iy   N0F     going;walking
@@ -7650,22 +7590,22 @@ lexicon = listing "Lexicon properties"
     -- tm$wr   tama$owar       PV      walk;promenade
     -- tm$wr   tama$owar       IV      walk;promenade
 
-    verb     TaFaCCaL                  {- tama$owar -}      `gloss`  [ "walk", "promenade" ],
+    verb     TaKaRDaS                  {- tama$owar -}      `gloss`  [ "walk", "promenade" ],
 
     -- ;; tama$owur_1
     -- tm$wr   tama$owur       N       walking;promenading
 
-    noun     TaFaCCuL                  {- tama$owur -}      `gloss`  [ "walking", "promenading" ],
+    noun     TaKaRDuS                  {- tama$owur -}      `gloss`  [ "walking", "promenading" ],
 
     -- ;; mi$owAr_3
     -- m$wAr   mi$owAr N       walk;promenade
 
-    noun     FiCCAL                    {- mi$owAr -}        `gloss`  [ "walk", "promenade" ],
+    noun     KiRDAS                    {- mi$owAr -}        `gloss`  [ "walk", "promenade" ],
 
     -- ;; mutama$owir_1
     -- mtm$wr  mutama$owir     Nall    walking;promenading     [[mutama$owir/ADJ]]
 
-    noun     MutaFaCCiL                {- mutama$owir -}    `gloss`  [ "walking", "promenading" ] ]
+    noun     MutaKaRDiS                {- mutama$owir -}    `gloss`  [ "walking", "promenading" ] ]
 
  -- ;--- mS
 
@@ -7920,14 +7860,14 @@ lexicon = listing "Lexicon properties"
     -- mSmS    maSomaS PV      suck;absorb
     -- mSmS    maSomiS IV_yu   suck;absorb
 
-    verb     FaCCaL                    {- maSomaS -}        `others` [ "ma.smi.s IV_yu" ]
+    verb     KaRDaS                    {- maSomaS -}        `others` [ "ma.smi.s IV_yu" ]
                                                             `gloss`  [ "suck", "absorb" ],
 
     -- ;; tamaSomaS_1
     -- tmSmS   tamaSomaS       PV      sip;slosh in the mouth
     -- tmSmS   tamaSomaS       IV      sip;slosh in the mouth
 
-    verb     TaFaCCaL                  {- tamaSomaS -}      `gloss`  [ "sip", "slosh in the mouth" ] ]
+    verb     TaKaRDaS                  {- tamaSomaS -}      `gloss`  [ "sip", "slosh in the mouth" ] ]
 
  -- ;--- mD
 
@@ -8099,19 +8039,19 @@ lexicon = listing "Lexicon properties"
     -- mDmD    maDomaD PV      rinse;gargle
     -- mDmD    maDomiD IV_yu   rinse;gargle
 
-    verb     FaCCaL                    {- maDomaD -}        `others` [ "ma.dmi.d IV_yu" ]
+    verb     KaRDaS                    {- maDomaD -}        `others` [ "ma.dmi.d IV_yu" ]
                                                             `gloss`  [ "rinse", "gargle" ],
 
     -- ;; tamaDomaD_1
     -- tmDmD   tamaDomaD       PV      rinse;gargle
     -- tmDmD   tamaDomaD       IV      rinse;gargle
 
-    verb     TaFaCCaL                  {- tamaDomaD -}      `gloss`  [ "rinse", "gargle" ],
+    verb     TaKaRDaS                  {- tamaDomaD -}      `gloss`  [ "rinse", "gargle" ],
 
     -- ;; maDomaDap_1
     -- mDmD    maDomaD Nap     rinsing;gargling
 
-    noun     FaCCaL |< aT              {- maDomaDap -}      `others` [ "ma.dma.d Nap" ]
+    noun     KaRDaS |< aT              {- maDomaDap -}      `others` [ "ma.dma.d Nap" ]
                                                             `gloss`  [ "rinsing", "gargling" ] ]
 
  -- ;--- mDy
@@ -8148,11 +8088,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- maDaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "ma.dY PV_0", "ma.d PV_ttAw", "ma.day PV_Atn", "ma.dA PV_h", "m.diy IV_0hAnn", "m.d IV_0hwnyn" ]
-                                                            `gloss`  [ "elapse", "expire" ] ]
-
- -- ;; maD~aY_1
-
- |> "m.d.d" <| [
+                                                            `gloss`  [ "elapse", "expire" ],
 
     -- ;; maD~aY_1
     -- mDY     maD~aY  PV_0    spend
@@ -8165,11 +8101,7 @@ lexicon = listing "Lexicon properties"
     -- mDy     maD~ay  IV_Ann_Pass_yu  be spent
 
     verb     FaCCY                     {- maD~aY -}         `others` [ "ma.d.d IV_0hwnyn_yu PV_ttAw", "ma.d.dA PV_h", "ma.d.day PV_Atn IV_Ann_Pass_yu", "ma.d.diy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "spend", "be spent" ] ]
-
- -- ;; >amoDaY_1
-
- |> "m.d" <| [
+                                                            `gloss`  [ "spend", "be spent" ],
 
     -- ;; >amoDaY_1
     -- >mDY    >amoDaY PV_0    spend;accomplish;finalize
@@ -8451,14 +8383,14 @@ lexicon = listing "Lexicon properties"
     -- mTrn    maToran PV-n    install as archbishop
     -- mTrn    maTorin IV-n_yu install as archbishop
 
-    verb     FaCCaL                    {- maToran -}        `others` [ "ma.trin IV-n_yu" ]
+    verb     KaRDaS                    {- maToran -}        `others` [ "ma.trin IV-n_yu" ]
                                                             `gloss`  [ "install as archbishop" ],
 
     -- ;; tamaToran_1
     -- tmTrn   tamaToran       PV-n_intr       be installed as archbishop
     -- tmTrn   tamaToran       IV-n_intr       be installed as archbishop
 
-    verb     TaFaCCaL                  {- tamaToran -}      `gloss`  [ "be installed as archbishop" ],
+    verb     TaKaRDaS                  {- tamaToran -}      `gloss`  [ "be installed as archbishop" ],
 
     -- ;; muTorAn_1
     -- mTrAn   muTorAn Ndu     archbishop;metropolitan
@@ -8467,30 +8399,30 @@ lexicon = listing "Lexicon properties"
     -- mTArn   maTArin Nap     archbishops;metropolitans
     -- mTAryn  maTAriyn        Ndip    archbishops;metropolitans
 
-    noun     FuCCAL                    {- muTorAn -}        `others` [ "ma.tArin Nap", "mi.trAn Ndu", "ma.tAriyn Ndip", "ma.trAn Ndu" ]
+    noun     KuRDAS                    {- muTorAn -}        `others` [ "ma.tArin Nap", "mi.trAn Ndu", "ma.tAriyn Ndip", "ma.trAn Ndu" ]
                                                             `gloss`  [ "archbishop", "metropolitan", "archbishops", "metropolitans" ],
 
     -- ;; muTorAn_2
     -- mTrAn   muTorAn N0      Mutran
 
-    noun     FuCCAL                    {- muTorAn -}        `gloss`  [ "Mutran" ],
+    noun     KuRDAS                    {- muTorAn -}        `gloss`  [ "Mutran" ],
 
     -- ;; maToranap_1
     -- mTrn    maToran Nap     archbishopric
 
-    noun     FaCCaL |< aT              {- maToranap -}      `others` [ "ma.tran Nap" ]
+    noun     KaRDaS |< aT              {- maToranap -}      `others` [ "ma.tran Nap" ]
                                                             `gloss`  [ "archbishopric" ],
 
     -- ;; maToraniy~ap_1
     -- mTrny   maToraniy~      NapAt   archbishopric;archdiocese     [[maToraniy~/NOUN]]
 
-    noun     FaCCaL |< Iy |< aT        {- maToraniy~ap -}   `others` [ "ma.traniyy NapAt" ]
+    noun     KaRDaS |< Iy |< aT        {- maToraniy~ap -}   `others` [ "ma.traniyy NapAt" ]
                                                             `gloss`  [ "archbishopric", "archdiocese" ],
 
     -- ;; muTorAniy~ap_1
     -- mTrAny  muTorAniy~      NapAt   archbishopric;archdiocese     [[muTorAniy~/NOUN]]
 
-    noun     FuCCAL |< Iy |< aT        {- muTorAniy~ap -}   `others` [ "mu.trAniyy NapAt" ]
+    noun     KuRDAS |< Iy |< aT        {- muTorAniy~ap -}   `others` [ "mu.trAniyy NapAt" ]
                                                             `gloss`  [ "archbishopric", "archdiocese" ] ]
 
  -- ;--- mTq
@@ -8578,11 +8510,7 @@ lexicon = listing "Lexicon properties"
     -- mTy     moTay   IV_Ann_Pass_yu  be mounted
 
     verb     HaFCY                     {- >amoTaY -}        `others` [ "m.tY IV_0_Pass_yu", "m.t IV_0hwnyn_yu", "'am.tay PV_Atn", "'am.t PV_ttAw", "m.tiy IV_0hAnn_yu", "'am.tA PV_h", "m.tay IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "ride", "mount", "be mounted" ] ]
-
- -- ;; tamaT~aY_1
-
- |> "m.t.t" <| [
+                                                            `gloss`  [ "ride", "mount", "be mounted" ],
 
     -- ;; tamaT~aY_1
     -- tmTY    tamaT~aY        PV_0    stretch;swagger
@@ -8593,11 +8521,7 @@ lexicon = listing "Lexicon properties"
     -- tmT     tamaT~  IV_0hwnyn       stretch;swagger
 
     verb     TaFaCCY                   {- tamaT~aY -}       `others` [ "tama.t.t IV_0hwnyn PV_ttAw", "tama.t.tay PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "stretch", "swagger" ] ]
-
- -- ;; {imotaTaY_1
-
- |> "m.t" <| [
+                                                            `gloss`  [ "stretch", "swagger" ],
 
     -- ;; {imotaTaY_1
     -- <mtTY   {imotaTaY       PV_0    mount;board;ride
@@ -8677,12 +8601,20 @@ lexicon = listing "Lexicon properties"
 
  -- ;; maEAriyf_1
 
- |> "ma`Ariyf" <| [
+ |> "m`rf" <| [
+
+    -- ;; maEAriyf_1
+
+    noun     MaFACIL                   {- maEAriyf -}        ]
+
+ -- ;; maEAriyf_1
+
+ |> "m`rf" <| [
 
     -- ;; maEAriyf_1
     -- mEAryf  maEAriyf        Nprop   Maariv
 
-    noun     Identity                  {- maEAriyf -}       `gloss`  [ "Maariv" ] ]
+    noun     KaRADIS                   {- maEAriyf -}       `gloss`  [ "Maariv" ] ]
 
  -- ;--- mEj
 
@@ -8734,13 +8666,13 @@ lexicon = listing "Lexicon properties"
     -- mEdn    maEodan PV-n    cover with metal;mineralize
     -- mEdn    maEodin IV-n_yu cover with metal;mineralize
 
-    verb     FaCCaL                    {- maEodan -}        `others` [ "ma`din IV-n_yu" ]
+    verb     KaRDaS                    {- maEodan -}        `others` [ "ma`din IV-n_yu" ]
                                                             `gloss`  [ "cover with metal", "mineralize" ],
 
     -- ;; maEodanap_1
     -- mEdn    maEodan Nap     covering with metal;mineralizing
 
-    noun     FaCCaL |< aT              {- maEodanap -}      `others` [ "ma`dan Nap" ]
+    noun     KaRDaS |< aT              {- maEodanap -}      `others` [ "ma`dan Nap" ]
                                                             `gloss`  [ "covering with metal", "mineralizing" ] ]
 
  -- ;--- mEr
@@ -8919,17 +8851,17 @@ lexicon = listing "Lexicon properties"
     -- ;; maEomaEap_1
     -- mEmE    maEomaE Nap     confusion;uproar
 
-    noun     FaCCaL |< aT              {- maEomaEap -}      `others` [ "ma`ma` Nap" ]
+    noun     KaRDaS |< aT              {- maEomaEap -}      `others` [ "ma`ma` Nap" ]
                                                             `gloss`  [ "confusion", "uproar" ] ]
 
  -- ;; maEAmiE_1
 
- |> "ma`Ami`" <| [
+ |> "`m`" <| [
 
     -- ;; maEAmiE_1
     -- mEAmE   maEAmiE Ndip    wars;battles;turmoil
 
-    noun     Identity                  {- maEAmiE -}        `gloss`  [ "wars", "battles", "turmoil" ] ]
+    noun     MaFACiL                   {- maEAmiE -}        `gloss`  [ "wars", "battles", "turmoil" ] ]
 
  -- ;; maEomaEAn_1
 
@@ -8952,7 +8884,7 @@ lexicon = listing "Lexicon properties"
     -- ;; maEomaEiy~_1
     -- mEmEy   maEomaEiy~      Nall    yes-man     [[maEomaEiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- maEomaEiy~ -}     `gloss`  [ "yes-man" ] ]
+    noun     MaFCaL |< Iy              {- maEomaEiy~ -}     `gloss`  [ "yes-man" ] ]
 
  -- ;--- mEn
 
@@ -9114,13 +9046,13 @@ lexicon = listing "Lexicon properties"
     -- mEyr    maEoyar PV      standardize
     -- mEyr    maEoyir IV_yu   standardize
 
-    verb     FaCCaL                    {- maEoyar -}        `others` [ "ma`yir IV_yu" ]
+    verb     KaRDaS                    {- maEoyar -}        `others` [ "ma`yir IV_yu" ]
                                                             `gloss`  [ "standardize" ],
 
     -- ;; maEoyarap_1
     -- mEyr    maEoyar Nap     standardization
 
-    noun     FaCCaL |< aT              {- maEoyarap -}      `others` [ "ma`yar Nap" ]
+    noun     KaRDaS |< aT              {- maEoyarap -}      `others` [ "ma`yar Nap" ]
                                                             `gloss`  [ "standardization" ] ]
 
  -- ;--- mgv
@@ -9169,13 +9101,13 @@ lexicon = listing "Lexicon properties"
     -- mgrb    magorab PV      Moroccanize
     -- mgrb    magorib IV_yu   Moroccanize
 
-    verb     FaCCaL                    {- magorab -}        `others` [ "ma.grib IV_yu" ]
+    verb     KaRDaS                    {- magorab -}        `others` [ "ma.grib IV_yu" ]
                                                             `gloss`  [ "Moroccanize" ],
 
     -- ;; magorabap_1
     -- mgrb    magorab Nap     Moroccanization
 
-    noun     FaCCaL |< aT              {- magorabap -}      `others` [ "ma.grab Nap" ]
+    noun     KaRDaS |< aT              {- magorabap -}      `others` [ "ma.grab Nap" ]
                                                             `gloss`  [ "Moroccanization" ] ]
 
  -- ;--- mgz
@@ -9252,25 +9184,25 @@ lexicon = listing "Lexicon properties"
     -- mgTs    magoTas PV      magnetize
     -- mgTs    magoTis IV_yu   magnetize
 
-    verb     FaCCaL                    {- magoTas -}        `others` [ "ma.g.tis IV_yu" ]
+    verb     KaRDaS                    {- magoTas -}        `others` [ "ma.g.tis IV_yu" ]
                                                             `gloss`  [ "magnetize" ],
 
     -- ;; tamagoTas_1
     -- tmgTs   tamagoTas       PV_intr be magnetized
     -- tmgTs   tamagoTas       IV_intr be magnetized
 
-    verb     TaFaCCaL                  {- tamagoTas -}      `gloss`  [ "be magnetized" ],
+    verb     TaKaRDaS                  {- tamagoTas -}      `gloss`  [ "be magnetized" ],
 
     -- ;; magoTasap_1
     -- mgTs    magoTas Nap     magnetism;magnetization
 
-    noun     FaCCaL |< aT              {- magoTasap -}      `others` [ "ma.g.tas Nap" ]
+    noun     KaRDaS |< aT              {- magoTasap -}      `others` [ "ma.g.tas Nap" ]
                                                             `gloss`  [ "magnetism", "magnetization" ],
 
     -- ;; mumagoTas_1
     -- mmgTs   mumagoTas       N-ap    magnetized;magnetic     [[mumagoTas/ADJ]]
 
-    noun     MuFaCCaL                  {- mumagoTas -}      `gloss`  [ "magnetized", "magnetic" ] ]
+    noun     MuKaRDaS                  {- mumagoTas -}      `gloss`  [ "magnetized", "magnetic" ] ]
 
  -- ;--- mgn
 
@@ -9290,25 +9222,25 @@ lexicon = listing "Lexicon properties"
     -- mgnT    magonaT PV      magnetize
     -- mgnT    magoniT IV_yu   magnetize
 
-    verb     FaCCaL                    {- magonaT -}        `others` [ "ma.gni.t IV_yu" ]
+    verb     KaRDaS                    {- magonaT -}        `others` [ "ma.gni.t IV_yu" ]
                                                             `gloss`  [ "magnetize" ],
 
     -- ;; tamagonaT_1
     -- tmgnT   tamagonaT       PV_intr be magnetized
     -- tmgnT   tamagonaT       IV_intr be magnetized
 
-    verb     TaFaCCaL                  {- tamagonaT -}      `gloss`  [ "be magnetized" ],
+    verb     TaKaRDaS                  {- tamagonaT -}      `gloss`  [ "be magnetized" ],
 
     -- ;; magonaTap_1
     -- mgnT    magonaT Nap     magnetism;magnetization
 
-    noun     FaCCaL |< aT              {- magonaTap -}      `others` [ "ma.gna.t Nap" ]
+    noun     KaRDaS |< aT              {- magonaTap -}      `others` [ "ma.gna.t Nap" ]
                                                             `gloss`  [ "magnetism", "magnetization" ],
 
     -- ;; mumagonaT_1
     -- mmgnT   mumagonaT       N-ap    magnetized;magnetic     [[mumagonaT/ADJ]]
 
-    noun     MuFaCCaL                  {- mumagonaT -}      `gloss`  [ "magnetized", "magnetic" ] ]
+    noun     MuKaRDaS                  {- mumagonaT -}      `gloss`  [ "magnetized", "magnetic" ] ]
 
  -- ;--- mgnTs
 
@@ -9370,12 +9302,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; magoniysiy~_1
 
- |> "ma.gniys" <| [
+ |> "m.gns" <| [
 
     -- ;; magoniysiy~_1
     -- mgnysy  magoniysiy~     Nall    magnesium     [[magoniysiy~/ADJ]]
 
-    noun     Identity |< Iy            {- magoniysiy~ -}    `gloss`  [ "magnesium" ] ]
+    noun     KaRDIS |< Iy              {- magoniysiy~ -}    `gloss`  [ "magnesium" ] ]
 
  -- ;--- mgwl
 
@@ -9499,14 +9431,14 @@ lexicon = listing "Lexicon properties"
     -- mqdwny  maqoduwniy~     Nall    Macedonian     [[maqoduwniy~/NOUN]]
     -- mkdwny  makoduwniy~     Nall    Macedonian     [[makoduwniy~/NOUN]]
 
-    noun     FaCCUL |< Iy              {- maqoduwniy~ -}    `others` [ "makduwniyy Nall" ]
+    noun     KaRDUS |< Iy              {- maqoduwniy~ -}    `others` [ "makduwniyy Nall" ]
                                                             `gloss`  [ "Macedonian" ],
 
     -- ;; maqoduwniy~_2
     -- mqdwny  maqoduwniy~     Nall    Macedonian     [[maqoduwniy~/ADJ]]
     -- mkdwny  makoduwniy~     Nall    Macedonian     [[makoduwniy~/ADJ]]
 
-    noun     FaCCUL |< Iy              {- maqoduwniy~ -}    `others` [ "makduwniyy Nall" ]
+    noun     KaRDUS |< Iy              {- maqoduwniy~ -}    `others` [ "makduwniyy Nall" ]
                                                             `gloss`  [ "Macedonian" ] ]
 
  -- ;--- mqdy$
@@ -9682,7 +9614,7 @@ lexicon = listing "Lexicon properties"
     -- mkdm    makodam PV      macadamize;pave
     -- mkdm    makodim IV_yu   macadamize;pave
 
-    verb     FaCCaL                    {- makodam -}        `others` [ "makdim IV_yu" ]
+    verb     KaRDaS                    {- makodam -}        `others` [ "makdim IV_yu" ]
                                                             `gloss`  [ "macadamize", "pave" ] ]
 
  -- ;; makadAm_1
@@ -9812,27 +9744,15 @@ lexicon = listing "Lexicon properties"
  |> "mksk" <| [
 
     -- ;; makosiyk_1
-
-    root     Identity                                        ]
-
- -- ;; makosiyk_1
-
- |> "maksiyk" <| [
-
-    -- ;; makosiyk_1
     -- mksyk   makosiyk        N0      Mexico
 
-    noun     Identity                  {- makosiyk -}       `gloss`  [ "Mexico" ] ]
-
- -- ;; makosiykiy~_1
-
- |> "maksiyk" <| [
+    noun     KaRDIS                    {- makosiyk -}       `gloss`  [ "Mexico" ],
 
     -- ;; makosiykiy~_1
     -- mksyky  makosiykiy~     Nall    Mexican     [[makosiykiy~/NOUN]]
     -- mksyky  makosiykiy~     Nall    Mexican     [[makosiykiy~/ADJ]]
 
-    noun     Identity |< Iy            {- makosiykiy~ -}    `gloss`  [ "Mexican" ] ]
+    noun     KaRDIS |< Iy              {- makosiykiy~ -}    `gloss`  [ "Mexican" ] ]
 
  -- ;; makosiykuw_1
 
@@ -10009,13 +9929,13 @@ lexicon = listing "Lexicon properties"
     -- mknk    makonak PV      mechanize;motorize
     -- mknk    makonik IV_yu   mechanize;motorize
 
-    verb     FaCCaL                    {- makonak -}        `others` [ "maknik IV_yu" ]
+    verb     KaRDaS                    {- makonak -}        `others` [ "maknik IV_yu" ]
                                                             `gloss`  [ "mechanize", "motorize" ],
 
     -- ;; makonakap_1
     -- mknk    makonak Nap     mechanization;motorization
 
-    noun     FaCCaL |< aT              {- makonakap -}      `others` [ "maknak Nap" ]
+    noun     KaRDaS |< aT              {- makonakap -}      `others` [ "maknak Nap" ]
                                                             `gloss`  [ "mechanization", "motorization" ] ]
 
  -- ;--- ml
@@ -11359,32 +11279,32 @@ lexicon = listing "Lexicon properties"
     -- mlml    malomal PV_intr hurry;hasten
     -- mlml    malomil IV_intr_yu      hurry;hasten
 
-    verb     FaCCaL                    {- malomal -}        `others` [ "malmil IV_intr_yu" ]
+    verb     KaRDaS                    {- malomal -}        `others` [ "malmil IV_intr_yu" ]
                                                             `gloss`  [ "hurry", "hasten" ],
 
     -- ;; malomal_2
     -- mlml    malomal PV      make restless
     -- mlml    malomil IV_yu   make restless
 
-    verb     FaCCaL                    {- malomal -}        `others` [ "malmil IV_yu" ]
+    verb     KaRDaS                    {- malomal -}        `others` [ "malmil IV_yu" ]
                                                             `gloss`  [ "make restless" ],
 
     -- ;; tamalomal_1
     -- tmlml   tamalomal       PV      mumble;toss and turn;fidget
     -- tmlml   tamalomal       IV      mumble;toss and turn;fidget
 
-    verb     TaFaCCaL                  {- tamalomal -}      `gloss`  [ "mumble", "toss and turn", "fidget" ],
+    verb     TaKaRDaS                  {- tamalomal -}      `gloss`  [ "mumble", "toss and turn", "fidget" ],
 
     -- ;; malomalap_1
     -- mlml    malomal Nap     restlessness;nervousness
 
-    noun     FaCCaL |< aT              {- malomalap -}      `others` [ "malmal Nap" ]
+    noun     KaRDaS |< aT              {- malomalap -}      `others` [ "malmal Nap" ]
                                                             `gloss`  [ "restlessness", "nervousness" ],
 
     -- ;; tamalomul_1
     -- tmlml   tamalomul       N/At    murmuring;grumbling;fidgeting
 
-    noun     TaFaCCuL                  {- tamalomul -}      `gloss`  [ "murmuring", "grumbling", "fidgeting" ] ]
+    noun     TaKaRDuS                  {- tamalomul -}      `gloss`  [ "murmuring", "grumbling", "fidgeting" ] ]
 
  -- ;--- mlnx
 
@@ -11431,11 +11351,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- malA-u -}         `imperf` [ FCuL ]
                                                             `others` [ "mluw IV_0hAnn", "malaw PV_Atn", "malA PV_0" ]
-                                                            `gloss`  [ "walk briskly" ] ]
-
- -- ;; mal~aY_1
-
- |> "mll" <| [
+                                                            `gloss`  [ "walk briskly" ],
 
     -- ;; mal~aY_1
     -- mlY     mal~aY  PV_0    entertain;make enjoy
@@ -11446,11 +11362,7 @@ lexicon = listing "Lexicon properties"
     -- mly     mal~ay  IV_Ann_Pass_yu  be entertained
 
     verb     FaCCY                     {- mal~aY -}         `others` [ "malliy IV_0hAnn_yu", "mallay PV_Atn IV_Ann_Pass_yu", "mallA PV_h" ]
-                                                            `gloss`  [ "entertain", "make enjoy", "be entertained" ] ]
-
- -- ;; >amolaY_1
-
- |> "ml" <| [
+                                                            `gloss`  [ "entertain", "make enjoy", "be entertained" ],
 
     -- ;; >amolaY_1
     -- >mlY    >amolaY PV_0    impose;dictate
@@ -11466,11 +11378,7 @@ lexicon = listing "Lexicon properties"
     -- mly     molay   IV_Ann_Pass_yu  be imposed;be dictated
 
     verb     HaFCY                     {- >amolaY -}        `others` [ "'aml PV_ttAw", "'amlay PV_Atn", "mlay IV_Ann_Pass_yu", "'amlA PV_h", "mlY IV_0_Pass_yu", "mliy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "impose", "dictate", "be imposed", "be dictated" ] ]
-
- -- ;; tamal~aY_1
-
- |> "mll" <| [
+                                                            `gloss`  [ "impose", "dictate", "be imposed", "be dictated" ],
 
     -- ;; tamal~aY_1
     -- tmlY    tamal~aY        PV_0    follow;pursue;pay close attention
@@ -11483,11 +11391,7 @@ lexicon = listing "Lexicon properties"
     -- tml     tamal~  IV_0hwnyn       follow;pursue;pay close attention
 
     verb     TaFaCCY                   {- tamal~aY -}       `others` [ "tamallA PV_h IV_h", "tamall IV_0hwnyn PV_ttAw", "tamallay PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "follow", "pursue", "pay close attention" ] ]
-
- -- ;; {isotamolaY_1
-
- |> "ml" <| [
+                                                            `gloss`  [ "follow", "pursue", "pay close attention" ],
 
     -- ;; {isotamolaY_1
     -- <stmlY  {isotamolaY     PV_0    self-impose
@@ -11598,7 +11502,7 @@ lexicon = listing "Lexicon properties"
     -- ;; miloyAr_1
     -- mlyAr   miloyAr NduAt   billion
 
-    noun     FiCCAL                    {- miloyAr -}        `gloss`  [ "billion" ] ]
+    noun     KiRDAS                    {- miloyAr -}        `gloss`  [ "billion" ] ]
 
  -- ;; miloyArodiyr_1
 
@@ -11691,13 +11595,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; miloyuwn_1
 
- |> "milyuwn" <| [
+ |> "mlyn" <| [
 
     -- ;; miloyuwn_1
     -- mlywn   miloyuwn        NduAt   million
     -- mlAyyn  malAyiyn        Ndip    millions
 
-    noun     Identity                  {- miloyuwn -}       `others` [ "malAyiyn Ndip" ]
+    noun     KiRDUS                    {- miloyuwn -}       `others` [ "malAyiyn Ndip" ]
                                                             `gloss`  [ "million", "millions" ] ]
 
  -- ;; miloyuwnAriy~_1
@@ -11855,12 +11759,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; minotuwl_1
 
- |> "mintuwl" <| [
+ |> "mntl" <| [
 
     -- ;; minotuwl_1
     -- mntwl   minotuwl        N0      menthol
 
-    noun     Identity                  {- minotuwl -}       `gloss`  [ "menthol" ] ]
+    noun     KiRDUS                    {- minotuwl -}       `gloss`  [ "menthol" ] ]
 
  -- ;--- mnj
 
@@ -11952,18 +11856,14 @@ lexicon = listing "Lexicon properties"
     -- ;; manodal_1
     -- mndl    manodal N       fortunetelling
 
-    noun     FaCCaL                    {- manodal -}        `gloss`  [ "fortunetelling" ] ]
-
- -- ;; manodiyl_1
-
- |> "mandiyl" <| [
+    noun     KaRDaS                    {- manodal -}        `gloss`  [ "fortunetelling" ],
 
     -- ;; manodiyl_1
     -- mndyl   manodiyl        Ndu     handkerchief;kerchief
     -- mndyl   minodiyl        Ndu     handkerchief;kerchief
     -- mnAdyl  manAdiyl        Ndip    handkerchiefs;kerchiefs
 
-    noun     Identity                  {- manodiyl -}       `others` [ "mindiyl Ndu", "manAdiyl Ndip" ]
+    noun     KaRDIS                    {- manodiyl -}       `others` [ "mindiyl Ndu", "manAdiyl Ndip" ]
                                                             `gloss`  [ "handkerchief", "kerchief", "handkerchiefs", "kerchiefs" ] ]
 
  -- ;--- mn*
@@ -12024,7 +11924,7 @@ lexicon = listing "Lexicon properties"
     -- ;; man$uwbiy~ap_1
     -- mn$wby  man$uwbiy~      Nap     monk's cell     [[man$uwbiy~/NOUN]]
 
-    noun     FaCCUL |< Iy |< aT        {- man$uwbiy~ap -}   `others` [ "man^suwbiyy Nap" ]
+    noun     KaRDUS |< Iy |< aT        {- man$uwbiy~ap -}   `others` [ "man^suwbiyy Nap" ]
                                                             `gloss`  [ "monk 's cell" ] ]
 
  -- ;--- mn$wr
@@ -12052,7 +11952,7 @@ lexicon = listing "Lexicon properties"
     -- mn$wry  mano$uwriy~     Nall    Manchurian     [[mano$uwriy~/NOUN]]
     -- mn$wry  mano$uwriy~     Nall    Manchurian     [[mano$uwriy~/ADJ]]
 
-    noun     FaCCUL |< Iy              {- mano$uwriy~ -}    `gloss`  [ "Manchurian" ] ]
+    noun     KaRDUS |< Iy              {- mano$uwriy~ -}    `gloss`  [ "Manchurian" ] ]
 
  -- ;--- mnSwn
 
@@ -12069,12 +11969,12 @@ lexicon = listing "Lexicon properties"
     -- ;; manoSuwn_1
     -- mnSwn   manoSuwn        N0      monsoon
 
-    noun     FaCCUL                    {- manoSuwn -}       `gloss`  [ "monsoon" ],
+    noun     KaRDUS                    {- manoSuwn -}       `gloss`  [ "monsoon" ],
 
     -- ;; manoSuwniy~_1
     -- mnSwny  manoSuwniy~     Nall    monsoon     [[manoSuwniy~/ADJ]]
 
-    noun     FaCCUL |< Iy              {- manoSuwniy~ -}    `gloss`  [ "monsoon" ] ]
+    noun     KaRDUS |< Iy              {- manoSuwniy~ -}    `gloss`  [ "monsoon" ] ]
 
  -- ;--- mnTr
 
@@ -12084,7 +11984,7 @@ lexicon = listing "Lexicon properties"
     -- mnTr    manoTar PV      throw down;toss down
     -- mnTr    manoTir IV_yu   throw down;toss down
 
-    verb     FaCCaL                    {- manoTar -}        `others` [ "man.tir IV_yu" ]
+    verb     KaRDaS                    {- manoTar -}        `others` [ "man.tir IV_yu" ]
                                                             `gloss`  [ "throw down", "toss down" ] ]
 
  -- ;--- mnTq
@@ -12095,14 +11995,14 @@ lexicon = listing "Lexicon properties"
     -- mnTq    manoTaq PV      gird
     -- mnTq    manoTiq IV_yu   gird
 
-    verb     FaCCaL                    {- manoTaq -}        `others` [ "man.tiq IV_yu" ]
+    verb     KaRDaS                    {- manoTaq -}        `others` [ "man.tiq IV_yu" ]
                                                             `gloss`  [ "gird" ],
 
     -- ;; tamanoTaq_1
     -- tmnTq   tamanoTaq       PV_intr be girded;be wrapped
     -- tmnTq   tamanoTaq       IV_intr be girded;be wrapped
 
-    verb     TaFaCCaL                  {- tamanoTaq -}      `gloss`  [ "be girded", "be wrapped" ] ]
+    verb     TaKaRDaS                  {- tamanoTaq -}      `gloss`  [ "be girded", "be wrapped" ] ]
 
  -- ;--- mnE
 
@@ -12243,14 +12143,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; munoguwliy~_1
 
- |> "mun.guwl" <| [
+ |> "mn.gl" <| [
 
     -- ;; munoguwliy~_1
     -- mngwly  munoguwliy~     Nall    Mongolian     [[munoguwliy~/NOUN]]
     -- mngwly  munoguwliy~     Nall    Mongolian     [[munoguwliy~/ADJ]]
     -- mngwl   munoguwl        N0      Mongols
 
-    noun     Identity |< Iy            {- munoguwliy~ -}    `others` [ "mun.guwl N0" ]
+    noun     KuRDUS |< Iy              {- munoguwliy~ -}    `others` [ "mun.guwl N0" ]
                                                             `gloss`  [ "Mongolian", "Mongols" ] ]
 
  -- ;--- mnfyl
@@ -12329,11 +12229,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCY                      {- manaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "mniy IV_0hAnn", "manay PV_Atn", "mn IV_0hwnyn", "manY PV_0", "man PV_ttAw", "mnY IV_0_Pass_yu", "manA PV_h", "muniy PV_Pass-aAat" ]
-                                                            `gloss`  [ "afflict", "put to the test", "be afflicted", "be put to the test" ] ]
-
- -- ;; man~aY_1
-
- |> "mnn" <| [
+                                                            `gloss`  [ "afflict", "put to the test", "be afflicted", "be put to the test" ],
 
     -- ;; man~aY_1
     -- mnY     man~aY  PV_0    arouse;raise hopes
@@ -12359,11 +12255,7 @@ lexicon = listing "Lexicon properties"
     -- tmn     taman~  IV_0hwnyn       desire;wish for;hope
 
     verb     TaFaCCY                   {- taman~aY -}       `others` [ "tamannA PV_h IV_h", "tamannay PV_Atn IV_Ann", "tamann IV_0hwnyn PV_ttAw" ]
-                                                            `gloss`  [ "desire", "wish for", "hope" ] ]
-
- -- ;; {isotamonaY_1
-
- |> "mn" <| [
+                                                            `gloss`  [ "desire", "wish for", "hope" ],
 
     -- ;; {isotamonaY_1
     -- <stmnY  {isotamonaY     PV_0    masturbate
@@ -12602,13 +12494,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mahAtiyr_1
 
- |> "mahAtiyr" <| [
+ |> "mhtr" <| [
 
     -- ;; mahAtiyr_1
     -- mhAtyr  mahAtiyr        Nprop   Mahattir
     -- mhA$y   mahA$iy Nprop   Mahachi
 
-    noun     Identity                  {- mahAtiyr -}       `others` [ "mahA^siy Nprop" ]
+    noun     KaRADIS                   {- mahAtiyr -}       `others` [ "mahA^siy Nprop" ]
                                                             `gloss`  [ "Mahattir", "Mahachi" ] ]
 
  -- ;--- mhj
@@ -13214,21 +13106,21 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mawotAn_1
 
- |> "mwt" <| [
+ |> "mwtn" <| [
 
     -- ;; mawotAn_1
 
-    noun     FaCLAn                    {- mawotAn -}         ]
+    noun     KaRDAS                    {- mawotAn -}         ]
 
  -- ;; mawotAn_1
 
- |> "mwtn" <| [
+ |> "mwt" <| [
 
     -- ;; mawotAn_1
     -- mwtAn   mawotAn N       dying;epidemic
     -- mwtAn   muwtAn  N       dying;epidemic
 
-    noun     FaCCAL                    {- mawotAn -}        `others` [ "muwtAn N" ]
+    noun     FaCLAn                    {- mawotAn -}        `others` [ "muwtAn N" ]
                                                             `gloss`  [ "dying", "epidemic" ] ]
 
  -- ;; may~it_1
@@ -13373,12 +13265,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muwtuwr_1
 
- |> "muwtuwr" <| [
+ |> "mwtr" <| [
 
     -- ;; muwtuwr_1
     -- mwtwr   muwtuwr NduAt   motor
 
-    noun     Identity                  {- muwtuwr -}        `gloss`  [ "motor" ] ]
+    noun     KuRDUS                    {- muwtuwr -}        `gloss`  [ "motor" ] ]
 
  -- ;; muwtuwrz_1
 
@@ -13538,13 +13430,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muwdiyl_1
 
- |> "muwdiyl" <| [
+ |> "mwdl" <| [
 
     -- ;; muwdiyl_1
     -- mwdyl   muwdiyl N/At    model;pattern
     -- mwdl    muwdil  N/At    model;pattern
 
-    noun     Identity                  {- muwdiyl -}        `others` [ "muwdil N/At" ]
+    noun     KuRDIS                    {- muwdiyl -}        `others` [ "muwdil N/At" ]
                                                             `gloss`  [ "model", "pattern" ] ]
 
  -- ;; muwdiynogiy_1
@@ -13566,12 +13458,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muwfiyn_1
 
- |> "muwfiyn" <| [
+ |> "mwfn" <| [
 
     -- ;; muwfiyn_1
     -- mwfyn   muwfiyn Nprop   Moven
 
-    noun     Identity                  {- muwfiyn -}        `gloss`  [ "Moven" ] ]
+    noun     KuRDIS                    {- muwfiyn -}        `gloss`  [ "Moven" ] ]
 
  -- ;--- mwr
 
@@ -13833,12 +13725,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muwriys_1
 
- |> "muwriys" <| [
+ |> "mwrs" <| [
 
     -- ;; muwriys_1
     -- mwrys   muwriys Nprop   Maurice;Morris
 
-    noun     Identity                  {- muwriys -}        `gloss`  [ "Maurice", "Morris" ] ]
+    noun     KuRDIS                    {- muwriys -}        `gloss`  [ "Maurice", "Morris" ] ]
 
  -- ;; muwriyskw_1
 
@@ -13896,12 +13788,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muwriynap_1
 
- |> "muwriyn" <| [
+ |> "mwrn" <| [
 
     -- ;; muwriynap_1
     -- mwryn   muwriyn NapAt   wooden beam
 
-    noun     Identity |< aT            {- muwriynap -}      `others` [ "muwriyn NapAt" ]
+    noun     KuRDIS |< aT              {- muwriynap -}      `others` [ "muwriyn NapAt" ]
                                                             `gloss`  [ "wooden beam" ] ]
 
  -- ;--- mwryw
@@ -14010,7 +13902,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muwsAd_1
     -- mwsAd   muwsAd  N0      Mossad
 
-    noun     FuCCAL                    {- muwsAd -}         `gloss`  [ "Mossad" ] ]
+    noun     KuRDAS                    {- muwsAd -}         `gloss`  [ "Mossad" ] ]
 
  -- ;--- mwst
 
@@ -14093,7 +13985,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muwsAwiy~_1
     -- mwsAwy  muwsAwiy~       N0      Moussaoui
 
-    noun     FuCCAL |< Iy              {- muwsAwiy~ -}      `gloss`  [ "Moussaoui" ] ]
+    noun     KuRDAS |< Iy              {- muwsAwiy~ -}      `gloss`  [ "Moussaoui" ] ]
 
  -- ;; muwsawiy~_2
 
@@ -14197,30 +14089,22 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muwsiyqiy~_1
 
- |> "muwsiyq" <| [
+ |> "mwsq" <| [
 
     -- ;; muwsiyqiy~_1
     -- mwsyqy  muwsiyqiy~      N-ap    musical     [[muwsiyqiy~/ADJ]]
 
-    noun     Identity |< Iy            {- muwsiyqiy~ -}     `gloss`  [ "musical" ] ]
-
- -- ;; muwsiyqiy~_2
-
- |> "muwsiyq" <| [
+    noun     KuRDIS |< Iy              {- muwsiyqiy~ -}     `gloss`  [ "musical" ],
 
     -- ;; muwsiyqiy~_2
     -- mwsyqy  muwsiyqiy~      Nall    musician     [[muwsiyqiy~/ADJ]]
 
-    noun     Identity |< Iy            {- muwsiyqiy~ -}     `gloss`  [ "musician" ] ]
-
- -- ;; muwsiyqiy~ap_1
-
- |> "muwsiyq" <| [
+    noun     KuRDIS |< Iy              {- muwsiyqiy~ -}     `gloss`  [ "musician" ],
 
     -- ;; muwsiyqiy~ap_1
     -- mwsyqy  muwsiyqiy~      Nap     musicality     [[muwsiyqiy~/NOUN]]
 
-    noun     Identity |< Iy |< aT      {- muwsiyqiy~ap -}   `others` [ "muwsiyqiyy Nap" ]
+    noun     KuRDIS |< Iy |< aT        {- muwsiyqiy~ap -}   `others` [ "muwsiyqiyy Nap" ]
                                                             `gloss`  [ "musicality" ] ]
 
  -- ;--- mw$y
@@ -14283,7 +14167,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; muwfAz_1
 
-    noun     FuCCAL                    {- muwfAz -}          ]
+    noun     KuRDAS                    {- muwfAz -}          ]
 
  -- ;; muwfAz_1
 
@@ -14486,7 +14370,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; miynA'_1
 
-    noun     FiCCAL                    {- miynA' -}          ]
+    noun     KiRDAS                    {- miynA' -}          ]
 
  -- ;; miynA'_1
 
@@ -14683,12 +14567,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muwniyx_1
 
- |> "muwniy_h" <| [
+ |> "mwn_h" <| [
 
     -- ;; muwniyx_1
     -- mwnyx   muwniyx N0      Munich
 
-    noun     Identity                  {- muwniyx -}        `gloss`  [ "Munich" ] ]
+    noun     KuRDIS                    {- muwniyx -}        `gloss`  [ "Munich" ] ]
 
  -- ;--- mwnyk
 
@@ -14700,12 +14584,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muwniyk_1
 
- |> "muwniyk" <| [
+ |> "mwnk" <| [
 
     -- ;; muwniyk_1
     -- mwnyk   muwniyk Nprop   Monique
 
-    noun     Identity                  {- muwniyk -}        `gloss`  [ "Monique" ] ]
+    noun     KuRDIS                    {- muwniyk -}        `gloss`  [ "Monique" ] ]
 
  -- ;; muwniykA_1
 
@@ -15022,12 +14906,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; miyjuwr_1
 
- |> "miy^guwr" <| [
+ |> "my^gr" <| [
 
     -- ;; miyjuwr_1
     -- myjwr   miyjuwr Nprop   Major
 
-    noun     Identity                  {- miyjuwr -}        `gloss`  [ "Major" ] ]
+    noun     KiRDUS                    {- miyjuwr -}        `gloss`  [ "Major" ] ]
 
  -- ;--- myH
 
@@ -15089,12 +14973,16 @@ lexicon = listing "Lexicon properties"
     -- ;; mayoH_1
     -- myH     mayoH   N       strutting;waddling
 
-    noun     FaCL                      {- mayoH -}          `gloss`  [ "strutting", "waddling" ],
+    noun     FaCL                      {- mayoH -}          `gloss`  [ "strutting", "waddling" ] ]
+
+ -- ;; mayoHuwHap_1
+
+ |> "may.huw.h" <| [
 
     -- ;; mayoHuwHap_1
     -- myHwH   mayoHuwH        Nap     strutting;waddling
 
-    noun     FaCCUL |< aT              {- mayoHuwHap -}     `others` [ "may.huw.h Nap" ]
+    noun     Identity |< aT            {- mayoHuwHap -}     `others` [ "may.huw.h Nap" ]
                                                             `gloss`  [ "strutting", "waddling" ] ]
 
  -- ;--- myx
@@ -15167,22 +15055,22 @@ lexicon = listing "Lexicon properties"
 
  -- ;; miydA'_1
 
- |> "md'" <| [
+ |> "myd'" <| [
 
     -- ;; miydA'_1
 
-    noun     MICAL                     {- miydA' -}          ]
+    noun     KiRDAS                    {- miydA' -}          ]
 
  -- ;; miydA'_1
 
- |> "myd'" <| [
+ |> "md'" <| [
 
     -- ;; miydA'_1
     -- mydA'   miydA'  N0_Nh   measure;amount;length
     -- mydA&   miydA&  Nh      measure;amount;length
     -- mydA}   miydA}  Nhy     measure;amount;length
 
-    noun     FiCCAL                    {- miydA' -}         `gloss`  [ "measure", "amount", "length" ] ]
+    noun     MICAL                     {- miydA' -}         `gloss`  [ "measure", "amount", "length" ] ]
 
  -- ;; miydA'a_1
 
@@ -15233,7 +15121,7 @@ lexicon = listing "Lexicon properties"
     -- mydAn   mayodAn Ndu     square
     -- mydAn   miydAn  Ndu     square
 
-    noun     FaCCAL                    {- mayodAn -}        `others` [ "miydAn Ndu" ]
+    noun     KaRDAS                    {- mayodAn -}        `others` [ "miydAn Ndu" ]
                                                             `gloss`  [ "square" ],
 
     -- ;; mayodAn_2
@@ -15241,14 +15129,14 @@ lexicon = listing "Lexicon properties"
     -- mydAn   miydAn  Ndu     field;domain;arena
     -- myAdyn  mayAdiyn        Ndip    fields;domains;arenas
 
-    noun     FaCCAL                    {- mayodAn -}        `others` [ "miydAn Ndu", "mayAdiyn Ndip" ]
+    noun     KaRDAS                    {- mayodAn -}        `others` [ "miydAn Ndu", "mayAdiyn Ndip" ]
                                                             `gloss`  [ "field", "domain", "arena", "fields", "domains", "arenas" ],
 
     -- ;; mayodAniy~_1
     -- mydAny  mayodAniy~      N-ap    field;survey     [[mayodAniy~/ADJ]]
     -- mydAny  mayodAniy~      NF      in the military field;militarily     [[mayodAniy~F/ADV]]
 
-    noun     FaCCAL |< Iy              {- mayodAniy~ -}     `gloss`  [ "field", "survey", "in the military field", "militarily" ] ]
+    noun     KaRDAS |< Iy              {- mayodAniy~ -}     `gloss`  [ "field", "survey", "in the military field", "militarily" ] ]
 
  -- ;--- mydAl
 
@@ -15290,7 +15178,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; miydAwiy~_1
 
-    noun     FiCCAL |< Iy              {- miydAwiy~ -}       ]
+    noun     KiRDAS |< Iy              {- miydAwiy~ -}       ]
 
  -- ;; miydAwiy~_1
 
@@ -15345,12 +15233,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; miyduwz_1
 
- |> "miyduwz" <| [
+ |> "mydz" <| [
 
     -- ;; miyduwz_1
     -- mydwz   miyduwz Nprop   Meadows
 
-    noun     Identity                  {- miyduwz -}        `gloss`  [ "Meadows" ] ]
+    noun     KiRDUS                    {- miyduwz -}        `gloss`  [ "Meadows" ] ]
 
  -- ;--- myr
 
@@ -15569,7 +15457,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mayoruwn_1
     -- myrwn   mayoruwn        N       chrism
 
-    noun     FaCCUL                    {- mayoruwn -}       `gloss`  [ "chrism" ] ]
+    noun     KaRDUS                    {- mayoruwn -}       `gloss`  [ "chrism" ] ]
 
  -- ;--- myz
 
@@ -15743,12 +15631,12 @@ lexicon = listing "Lexicon properties"
     -- ;; mumotAz_1
     -- mmtAz   mumotAz N-ap    excellent;superior;first-rate     [[mumotAz/ADJ]]
 
-    noun     FuCCAL                    {- mumotAz -}        `gloss`  [ "excellent", "superior", "first-rate" ],
+    noun     KuRDAS                    {- mumotAz -}        `gloss`  [ "excellent", "superior", "first-rate" ],
 
     -- ;; mumotAz_2
     -- mmtAz   mumotAz N-ap    privileged;favored     [[mumotAz/ADJ]]
 
-    noun     FuCCAL                    {- mumotAz -}        `gloss`  [ "privileged", "favored" ] ]
+    noun     KuRDAS                    {- mumotAz -}        `gloss`  [ "privileged", "favored" ] ]
 
  -- ;--- myzA
 
@@ -15903,14 +15791,14 @@ lexicon = listing "Lexicon properties"
     -- my$yl   miy$iyl Nprop   Michael;Michel
     -- my$Al   miy$Al  Nprop   Michael;Michel
 
-    noun     FiCCIL                    {- miy$iyl -}        `others` [ "miy^sAl Nprop" ]
+    noun     KiRDIS                    {- miy$iyl -}        `others` [ "miy^sAl Nprop" ]
                                                             `gloss`  [ "Michael", "Michel" ],
 
     -- ;; miy$iyl_2
     -- my$yl   miy$iyl Nprop   Michelle
     -- my$Al   miy$Al  Nprop   Michelle
 
-    noun     FiCCIL                    {- miy$iyl -}        `others` [ "miy^sAl Nprop" ]
+    noun     KiRDIS                    {- miy$iyl -}        `others` [ "miy^sAl Nprop" ]
                                                             `gloss`  [ "Michelle" ] ]
 
  -- ;; miy$iyliy_1
@@ -16177,7 +16065,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; miygAn_1
 
-    noun     FiCCAL                    {- miygAn -}          ]
+    noun     KiRDAS                    {- miygAn -}          ]
 
  -- ;; miygAn_1
 
@@ -16369,7 +16257,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mayokanap_1
     -- mykn    mayokan Nap     mechanization;motorization
 
-    noun     FaCCaL |< aT              {- mayokanap -}      `others` [ "maykan Nap" ]
+    noun     KaRDaS |< aT              {- mayokanap -}      `others` [ "maykan Nap" ]
                                                             `gloss`  [ "mechanization", "motorization" ] ]
 
  -- ;--- mykw

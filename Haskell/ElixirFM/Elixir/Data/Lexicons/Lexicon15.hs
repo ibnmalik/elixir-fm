@@ -626,20 +626,20 @@ lexicon = listing "Lexicon properties"
     -- DHDH    DaHoDaH PV      vibrate;flicker
     -- DHDH    DaHoDiH IV_yu   vibrate;flicker
 
-    verb     FaCCaL                    {- DaHoDaH -}        `others` [ ".da.h.di.h IV_yu" ]
+    verb     KaRDaS                    {- DaHoDaH -}        `others` [ ".da.h.di.h IV_yu" ]
                                                             `gloss`  [ "vibrate", "flicker" ],
 
     -- ;; taDaHoDaH_1
     -- tDHDH   taDaHoDaH       PV      vibrate;flicker
     -- tDHDH   taDaHoDaH       IV      vibrate;flicker
 
-    verb     TaFaCCaL                  {- taDaHoDaH -}      `gloss`  [ "vibrate", "flicker" ],
+    verb     TaKaRDaS                  {- taDaHoDaH -}      `gloss`  [ "vibrate", "flicker" ],
 
     -- ;; DaHoDAH_1
     -- DHDAH   DaHoDAH N-ap    shallow;sand dune
     -- DHADyH  DaHADiyH        Ndip    shallow;sand dunes
 
-    noun     FaCCAL                    {- DaHoDAH -}        `others` [ ".da.hA.diy.h Ndip" ]
+    noun     KaRDAS                    {- DaHoDAH -}        `others` [ ".da.hA.diy.h Ndip" ]
                                                             `gloss`  [ "shallow", "sand dune", "sand dunes" ] ]
 
  -- ;--- DHk
@@ -808,7 +808,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; DaH~aY_1
 
- |> ".d.h.h" <| [
+ |> ".d.h" <| [
 
     -- ;; DaH~aY_1
     -- DHY     DaH~aY  PV_0    sacrifice;immolate
@@ -821,11 +821,7 @@ lexicon = listing "Lexicon properties"
     -- DHy     DaH~ay  IV_Ann_Pass_yu  be sacrificed;be immolated
 
     verb     FaCCY                     {- DaH~aY -}         `others` [ ".da.h.hiy IV_0hAnn_yu", ".da.h.h IV_0hwnyn_yu PV_ttAw", ".da.h.hA PV_h", ".da.h.hay PV_Atn IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "sacrifice", "immolate", "be sacrificed", "be immolated" ] ]
-
- -- ;; >aDoHaY_1
-
- |> ".d.h" <| [
+                                                            `gloss`  [ "sacrifice", "immolate", "be sacrificed", "be immolated" ],
 
     -- ;; >aDoHaY_1
     -- >DHY    >aDoHaY PV_0    bring to light
@@ -1438,16 +1434,12 @@ lexicon = listing "Lexicon properties"
     -- ;; DArib_2
     -- DArb    DArib   N-ap    striking
 
-    noun     FACiL                     {- DArib -}          `gloss`  [ "striking" ] ]
-
- -- ;; DawArib_1
-
- |> ".dawArib" <| [
+    noun     FACiL                     {- DArib -}          `gloss`  [ "striking" ],
 
     -- ;; DawArib_1
     -- DwArb   DawArib Ndip    migratory
 
-    noun     Identity                  {- DawArib -}        `gloss`  [ "migratory" ],
+    noun     FawACiL                   {- DawArib -}        `gloss`  [ "migratory" ],
 
     -- ;; maDoruwb_1
     -- mDrwb   maDoruwb        N       multiplier
@@ -1552,13 +1544,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; {iDoTirAb_1
 
- |> ".d.trb" <| [
+ |> "i.d.tirAb" <| [
 
     -- ;; {iDoTirAb_1
     -- <DTrAb  {iDoTirAb       N/At    disturbance;agitation;disorder
     -- ADTrAb  {iDoTirAb       N/At    disturbance;agitation;disorder
 
-    noun     IFCiLAL                   {- {iDoTirAb -}      `gloss`  [ "disturbance", "agitation", "disorder" ] ]
+    noun     Identity                  {- {iDoTirAb -}      `gloss`  [ "disturbance", "agitation", "disorder" ] ]
 
  -- ;; muDoTarib_1
 
@@ -1802,7 +1794,7 @@ lexicon = listing "Lexicon properties"
     -- DrgAm   DirogAm N       lion
     -- DrAgm   DarAgim Nap     lions
 
-    noun     FaCCaL                    {- Darogam -}        `others` [ ".dir.gAm N", ".darA.gim Nap Ndip" ]
+    noun     KaRDaS                    {- Darogam -}        `others` [ ".dir.gAm N", ".darA.gim Nap Ndip" ]
                                                             `gloss`  [ "lion", "lions" ] ]
 
  -- ;; Darim_1
@@ -1874,7 +1866,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; Dar~aY_1
 
- |> ".drr" <| [
+ |> ".dr" <| [
 
     -- ;; Dar~aY_1
     -- DrY     Dar~aY  PV_0    provoke;excite
@@ -1915,18 +1907,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; DawAriy_1
 
- |> ".dawAriy" <| [
+ |> ".dry" <| [
 
     -- ;; DawAriy_1
     -- DwAry   DawAriy N0_Nh   predatory animals
     -- DwAr    DawAr   NK      predatory animals
 
-    noun     Identity                  {- DawAriy -}        `others` [ ".dawAr NK" ]
-                                                            `gloss`  [ "predatory animals" ] ]
-
- -- ;; taDoriyap_1
-
- |> ".dry" <| [
+    noun     FawACiL                   {- DawAriy -}        `others` [ ".dawAr NK" ]
+                                                            `gloss`  [ "predatory animals" ],
 
     -- ;; taDoriyap_1
     -- tDry    taDoriy Nap     provocation
@@ -1942,30 +1930,30 @@ lexicon = listing "Lexicon properties"
     -- DEDE    DaEoDaE PV      demolish;raze
     -- DEDE    DaEoDiE IV_yu   demolish;raze
 
-    verb     FaCCaL                    {- DaEoDaE -}        `others` [ ".da`.di` IV_yu" ]
+    verb     KaRDaS                    {- DaEoDaE -}        `others` [ ".da`.di` IV_yu" ]
                                                             `gloss`  [ "demolish", "raze" ],
 
     -- ;; taDaEoDaE_1
     -- tDEDE   taDaEoDaE       PV_intr be destroyed;disintegrate
     -- tDEDE   taDaEoDaE       IV_intr be destroyed;disintegrate
 
-    verb     TaFaCCaL                  {- taDaEoDaE -}      `gloss`  [ "be destroyed", "disintegrate" ],
+    verb     TaKaRDaS                  {- taDaEoDaE -}      `gloss`  [ "be destroyed", "disintegrate" ],
 
     -- ;; DaEoDaEap_1
     -- DEDE    DaEoDaE Nap     destruction;debilitation
 
-    noun     FaCCaL |< aT              {- DaEoDaEap -}      `others` [ ".da`.da` Nap" ]
+    noun     KaRDaS |< aT              {- DaEoDaEap -}      `others` [ ".da`.da` Nap" ]
                                                             `gloss`  [ "destruction", "debilitation" ],
 
     -- ;; mutaDaEoDiE_1
     -- mtDEDE  mutaDaEoDiE     Nall    debilitated
 
-    noun     MutaFaCCiL                {- mutaDaEoDiE -}    `gloss`  [ "debilitated" ],
+    noun     MutaKaRDiS                {- mutaDaEoDiE -}    `gloss`  [ "debilitated" ],
 
     -- ;; taDaEoDuE_1
     -- tDEDE   taDaEoDuE       N/At    debacle
 
-    noun     TaFaCCuL                  {- taDaEoDuE -}      `gloss`  [ "debacle" ] ]
+    noun     TaKaRDuS                  {- taDaEoDuE -}      `gloss`  [ "debacle" ] ]
 
  -- ;; DaEuf_1
 
@@ -2126,13 +2114,13 @@ lexicon = listing "Lexicon properties"
     -- DgDg    DagoDag PV      chew;munch;mumble
     -- DgDg    DagoDig IV_yu   chew;munch;mumble
 
-    verb     FaCCaL                    {- DagoDag -}        `others` [ ".da.g.di.g IV_yu" ]
+    verb     KaRDaS                    {- DagoDag -}        `others` [ ".da.g.di.g IV_yu" ]
                                                             `gloss`  [ "chew", "munch", "mumble" ],
 
     -- ;; DagoDagap_1
     -- DgDg    DagoDag Nap     chewing;munching;mumbling
 
-    noun     FaCCaL |< aT              {- DagoDagap -}      `others` [ ".da.g.da.g Nap" ]
+    noun     KaRDaS |< aT              {- DagoDagap -}      `others` [ ".da.g.da.g Nap" ]
                                                             `gloss`  [ "chewing", "munching", "mumbling" ] ]
 
  -- ;; DagaT_1
@@ -2179,17 +2167,13 @@ lexicon = listing "Lexicon properties"
     -- ;; DAgiT_1
     -- DAgT    DAgiT   N-ap    compressor;pressuring
 
-    noun     FACiL                     {- DAgiT -}          `gloss`  [ "compressor", "pressuring" ] ]
-
- -- ;; DawAgiT_1
-
- |> ".dawA.gi.t" <| [
+    noun     FACiL                     {- DAgiT -}          `gloss`  [ "compressor", "pressuring" ],
 
     -- ;; DawAgiT_1
     -- DwAgT   DawAgiT Ndip    compressors
     -- mDgwT   maDoguwT        N-ap    compressed
 
-    noun     Identity                  {- DawAgiT -}        `others` [ "ma.d.guw.t N-ap" ]
+    noun     FawACiL                   {- DawAgiT -}        `others` [ "ma.d.guw.t N-ap" ]
                                                             `gloss`  [ "compressors", "compressed" ],
 
     -- ;; DaguwT_1
@@ -2307,18 +2291,18 @@ lexicon = listing "Lexicon properties"
     -- DfdE    DafodaE Ndu     frog
     -- DfAdE   DafAdiE Ndip    frogs
 
-    noun     FaCCaL                    {- DafodaE -}        `others` [ ".dafAdi` Ndip" ]
+    noun     KaRDaS                    {- DafodaE -}        `others` [ ".dafAdi` Ndip" ]
                                                             `gloss`  [ "frog", "frogs" ],
 
     -- ;; DafodaEiy~_1
     -- DfdEy   DafodaEiy~      N-ap    frog-like;amphibian;batrachian     [[DafodaEiy~/ADJ]]
 
-    noun     FaCCaL |< Iy              {- DafodaEiy~ -}     `gloss`  [ "frog-like", "amphibian", "batrachian" ],
+    noun     KaRDaS |< Iy              {- DafodaEiy~ -}     `gloss`  [ "frog-like", "amphibian", "batrachian" ],
 
     -- ;; DafodaEiy~At_1
     -- DfdEy   DafodaEiy~      NAt     amphibians;batrachians     [[DafodaEiy~/NOUN]]
 
-    noun     FaCCaL |< Iy |< At        {- DafodaEiy~At -}   `others` [ ".dafda`iyy NAt" ]
+    noun     KaRDaS |< Iy |< At        {- DafodaEiy~At -}   `others` [ ".dafda`iyy NAt" ]
                                                             `gloss`  [ "amphibians", "batrachians" ] ]
 
  -- ;; Dafar_1
@@ -2627,17 +2611,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; {iDoTilAE_1
 
- |> ".d.tl`" <| [
+ |> "i.d.tilA`" <| [
 
     -- ;; {iDoTilAE_1
     -- <DTlAE  {iDoTilAE       N/At    taking on;assuming;undertaking;being familiar with
     -- ADTlAE  {iDoTilAE       N/At    taking on;assuming;undertaking;being familiar with
 
-    noun     IFCiLAL                   {- {iDoTilAE -}      `gloss`  [ "taking on", "assuming", "undertaking", "being familiar with" ] ]
-
- -- ;; DAliE_1
-
- |> ".dl`" <| [
+    noun     Identity                  {- {iDoTilAE -}      `gloss`  [ "taking on", "assuming", "undertaking", "being familiar with" ],
 
     -- ;; DAliE_1
     -- DAlE    DAliE   Nall    supporting;having affection for     [[DAliE/ADJ]]
@@ -3215,16 +3195,12 @@ lexicon = listing "Lexicon properties"
     -- DnAk    DanAk   Nap     poverty
 
     noun     FaCAL |< aT               {- DanAkap -}        `others` [ ".danAk Nap" ]
-                                                            `gloss`  [ "poverty" ] ]
-
- -- ;; maDAnik_1
-
- |> "ma.dAnik" <| [
+                                                            `gloss`  [ "poverty" ],
 
     -- ;; maDAnik_1
     -- mDAnk   maDAnik Ndip    hardships
 
-    noun     Identity                  {- maDAnik -}        `gloss`  [ "hardships" ],
+    noun     MaFACiL                   {- maDAnik -}        `gloss`  [ "hardships" ],
 
     -- ;; muDonik_1
     -- mDnk    muDonik Nall    exhausted;poor     [[muDonik/ADJ]]
@@ -3367,13 +3343,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; {iDoTihAd_1
 
- |> ".d.thd" <| [
+ |> "i.d.tihAd" <| [
 
     -- ;; {iDoTihAd_1
     -- <DThAd  {iDoTihAd       N/At    persecution;oppression
     -- ADThAd  {iDoTihAd       N/At    persecution;oppression
 
-    noun     IFCiLAL                   {- {iDoTihAd -}      `gloss`  [ "persecution", "oppression" ] ]
+    noun     Identity                  {- {iDoTihAd -}      `gloss`  [ "persecution", "oppression" ] ]
 
  -- ;; muDoTahid_1
 
@@ -3835,17 +3811,17 @@ lexicon = listing "Lexicon properties"
     -- DwDA&   DawoDA& Nh      tumult;noise
     -- DwDA}   DawoDA} Nhy     tumult;noise
 
-    noun     FaCCAL                    {- DawoDA' -}        `gloss`  [ "tumult", "noise" ] ]
+    noun     KaRDAS                    {- DawoDA' -}        `gloss`  [ "tumult", "noise" ] ]
 
  -- ;; DawoDaY_1
 
- |> ".dw.d" <| [
+ |> ".daw.dY" <| [
 
     -- ;; DawoDaY_1
     -- DwDY    DawoDaY N0      tumult;noise
     -- DwDA    DawoDA  Nhy     tumult;noise
 
-    noun     FaCCY                     {- DawoDaY -}        `others` [ ".daw.dA Nhy" ]
+    noun     Identity                  {- DawoDaY -}        `others` [ ".daw.dA Nhy" ]
                                                             `gloss`  [ "tumult", "noise" ] ]
 
  -- ;--- DwE
@@ -4073,7 +4049,7 @@ lexicon = listing "Lexicon properties"
     -- ;; DiyEAn_1
     -- DyEAn   DiyEAn  N       loss;waste
 
-    noun     FiCCAL                    {- DiyEAn -}         `gloss`  [ "loss", "waste" ] ]
+    noun     KiRDAS                    {- DiyEAn -}         `gloss`  [ "loss", "waste" ] ]
 
  -- ;; DayoEap_2
 
