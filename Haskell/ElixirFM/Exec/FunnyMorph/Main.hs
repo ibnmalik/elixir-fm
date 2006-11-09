@@ -32,3 +32,9 @@ main :: IO ()
 
 main = print $
             guessParadigm ".hamrA'u" (NounForm Feminine Singular Gen Defin)
+
+{-
+  (map (guessParadigm "kabIr") .
+   filter (\ x -> case x of (NounS Singular _ _) -> True; _ -> False))
+  values
+-}

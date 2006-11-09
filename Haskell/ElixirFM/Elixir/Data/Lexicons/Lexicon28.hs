@@ -24,7 +24,7 @@ lexicon = listing "Lexicon properties"
     -- ;; yA_1
     -- yA      yA      FW-Wa   oh;you     [[yA/INTERJ]]
 
-    noun     Identity                  {- yA -}             `gloss`  [ "oh", "you" ],
+--    noun     Identity                  {- yA -}             `gloss`  [ "oh", "you" ],
 
     -- ;; yA'_1
     -- yA'     yA'     N0_Nh   ya' (Arabic letter)
@@ -921,7 +921,7 @@ lexicon = listing "Lexicon properties"
     -- ;; yusoriy_1
     -- ysry    yusoriy Nprop   Yusri;Yosri
 
-    noun     Identity                  {- yusoriy -}        `gloss`  [ "Yusri", "Yosri" ],
+--    noun     Identity                  {- yusoriy -}        `gloss`  [ "Yusri", "Yosri" ],
 
     -- ;; yusor_1
     -- ysr     yusor   N       ease;facility;affluence
@@ -2352,7 +2352,7 @@ lexicon = listing "Lexicon properties"
     -- ;; yawoma*Ak_1
     -- ywm*Ak  yawoma*Ak       FW-Wa   on that day     [[yawoma*Ak/ADV]]
 
-    noun     Identity                  {- yawoma*Ak -}      `gloss`  [ "on that day" ],
+--    noun     Identity                  {- yawoma*Ak -}      `gloss`  [ "on that day" ],
 
     -- ;; yawomiy~_1
     -- ywmy    yawomiy~        NF      daily;per diem;on a daily basis     [[yawomiy~/ADV]]

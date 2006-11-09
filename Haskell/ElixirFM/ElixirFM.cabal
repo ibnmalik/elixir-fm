@@ -10,14 +10,13 @@ package-url:        http://ufal.mff.cuni.cz/~smrz/ElixirFM/ElixirFM-0.1.zip
 category:           Various
 build-depends:      Encode, Cabal, base
 synopsis:           Functional Arabic Morphology
-description:        The "Elixir" and "FunnyMorph" libraries are an
-                    implementation of Functional Arabic Morphology and an
-                    extension to the /FM Functional Morphology/ library
-                    developed by Markus Forsberg in his licenciate thesis
-                    /Applications of Functional Programming in Processing
-                    Formal and Natural Languages/, G&#246;teborg University
-                    and Chalmers University of Technology, December 2004,
+description:        The "Elixir" and "FM" libraries are an implementation of
+                    Functional Arabic Morphology and an extension to the
+                    /Functional Morphology/ library developed by Markus Forsberg in his licenciate thesis /Applications of Functional Programming in Processing Formal and Natural Languages/, G&#246;teborg University and Chalmers University of Technology, December 2004,
                     <http://www.cs.chalmers.se/~markus/FM/>.
+                    .
+                    The "Version" library is just a simple support for
+                    working with the CVS\/SVN revision keyword.
                     .
                     "Elixir" "FunnyMorph"
 exposed-modules:    Elixir.Lexicon,
@@ -61,38 +60,39 @@ exposed-modules:    Elixir.Lexicon,
                             Elixir.Data.Patterns.Triliteral,
                             Elixir.Data.Patterns.Quadriliteral,
                     Elixir.Template,
-                    FunnyMorph,
-                        FunnyMorph.Generic,
-                            FunnyMorph.Generic.Clean,
-                            FunnyMorph.Generic.CommonMain,
-                            FunnyMorph.Generic.Dictionary,
-                                FunnyMorph.Generic.Dictionary.Pretty,
-                                    FunnyMorph.Generic.Dictionary.Pretty.GF,
-                                    FunnyMorph.Generic.Dictionary.Pretty.LaTeX,
-                                    FunnyMorph.Generic.Dictionary.Pretty.Lexc,
-                                    FunnyMorph.Generic.Dictionary.Pretty.SQL,
-                                    FunnyMorph.Generic.Dictionary.Pretty.XFST,
-                                    FunnyMorph.Generic.Dictionary.Pretty.XML,
-                            FunnyMorph.Generic.ErrM,
-                            FunnyMorph.Generic.Frontend,
-                            FunnyMorph.Generic.General,
-                            FunnyMorph.Generic.GeneralIO,
-                            FunnyMorph.Generic.GenFM,
-                            FunnyMorph.Generic.Invariant,
-                            FunnyMorph.Generic.Map,
-                            -- FunnyMorph.Generic.Print,
-                            FunnyMorph.Generic.RedBlack,
-                            FunnyMorph.Generic.Trie,
-                        FunnyMorph.Arabic,
-                            FunnyMorph.Arabic.Attr,
-                            FunnyMorph.Arabic.Build,
-                            FunnyMorph.Arabic.Commands,
-                            FunnyMorph.Arabic.Composite,
-                            FunnyMorph.Arabic.Dictionary,
-                            FunnyMorph.Arabic.Main,
-                            FunnyMorph.Arabic.Rules,
-                            FunnyMorph.Arabic.Types,
-                            FunnyMorph.Arabic.Lexicon
+                    FM,
+                        FM.Generic,
+                            FM.Generic.Clean,
+                            FM.Generic.CommonMain,
+                            FM.Generic.Dictionary,
+                                FM.Generic.Dictionary.Pretty,
+                                    FM.Generic.Dictionary.Pretty.GF,
+                                    FM.Generic.Dictionary.Pretty.LaTeX,
+                                    FM.Generic.Dictionary.Pretty.Lexc,
+                                    FM.Generic.Dictionary.Pretty.SQL,
+                                    FM.Generic.Dictionary.Pretty.XFST,
+                                    FM.Generic.Dictionary.Pretty.XML,
+                            FM.Generic.ErrM,
+                            FM.Generic.Frontend,
+                            FM.Generic.General,
+                            FM.Generic.GeneralIO,
+                            FM.Generic.GenFM,
+                            FM.Generic.Invariant,
+                            FM.Generic.Map,
+                            -- FM.Generic.Print,
+                            FM.Generic.RedBlack,
+                            FM.Generic.Trie,
+                        FM.Arabic,
+                            FM.Arabic.Attr,
+                            FM.Arabic.Build,
+                            FM.Arabic.Commands,
+                            FM.Arabic.Composite,
+                            FM.Arabic.Dictionary,
+                            FM.Arabic.Main,
+                            FM.Arabic.Rules,
+                            FM.Arabic.Types,
+                            FM.Arabic.Lexicon,
+                    Version
 extensions:         MultiParamTypeClasses,
                     -- FunctionalDependencies,
                     OverlappingInstances
