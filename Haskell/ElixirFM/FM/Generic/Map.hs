@@ -1,4 +1,4 @@
-module FunnyMorph.Generic.Map (
+module FM.Generic.Map (
             Map,
             empty,
             (!),     -- lookup operator.
@@ -13,7 +13,7 @@ module FunnyMorph.Generic.Map (
 
 -- A finite map implementation using red-black trees.
 
-import FunnyMorph.Generic.RedBlack
+import FM.Generic.RedBlack
 
 type Map key el = Tree key el
 

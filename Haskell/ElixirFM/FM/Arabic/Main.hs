@@ -17,13 +17,13 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 -}
 
-module FunnyMorph.Arabic.Main where
+module FM.Arabic.Main where
 
-import FunnyMorph.Generic.CommonMain
-import FunnyMorph.Arabic.Commands
-import FunnyMorph.Arabic.Composite
-import FunnyMorph.Arabic.Dictionary
-import FunnyMorph.Generic.Frontend
+import FM.Generic.CommonMain
+import FM.Arabic.Commands
+import FM.Arabic.Composite
+import FM.Arabic.Dictionary
+import FM.Generic.Frontend
 
 main :: IO ()
 main = commonMain Arabic

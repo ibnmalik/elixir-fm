@@ -1,4 +1,4 @@
-module FunnyMorph.Generic.GenFM where
+module FM.Generic.GenFM where
 
 import Data.Char
 import Data.List (intersperse)

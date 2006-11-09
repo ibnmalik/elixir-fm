@@ -4,7 +4,7 @@
 
 -- |
 --
--- Module      :  FunnyMorph.Arabic.Types
+-- Module      :  FM.Arabic.Types
 -- Copyright   :  Otakar Smrz 2005-2006
 -- License     :  GPL
 --
@@ -12,13 +12,13 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "FunnyMorph", "Elixir"
+-- "FM", "Elixir"
 
 
-module FunnyMorph.Arabic.Types where
+module FM.Arabic.Types where
 
-import FunnyMorph.Generic.General
-import FunnyMorph.Generic.Invariant
+import FM.Generic.General
+import FM.Generic.Invariant
 
 import Elixir.Template
 

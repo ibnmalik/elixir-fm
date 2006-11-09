@@ -12,11 +12,11 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "FunnyMorph" "Encode.Arabic"
+-- "FM" "Encode"
 
 {-
-    Elixir -- Implementation of Functional Arabic Morphology
-    Copyright (C) 2005-2006  Otakar Smrz
+    Elixir -- Lexical information used with Functional Arabic Morphology
+    Copyright (C) 2005-2006  Otakar Smrz  (C) 2001-2002  Tim Buckwalter
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

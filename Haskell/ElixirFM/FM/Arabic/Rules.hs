@@ -4,7 +4,7 @@
 
 -- |
 --
--- Module      :  FunnyMorph.Arabic.Rules
+-- Module      :  FM.Arabic.Rules
 -- Copyright   :  Otakar Smrz 2005-2006
 -- License     :  GPL
 --
@@ -12,14 +12,14 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "FunnyMorph", "Elixir"
+-- "FM", "Elixir"
 
 
-module FunnyMorph.Arabic.Rules {- (
+module FM.Arabic.Rules {- (
 
         -- * Modules
 
-        module FunnyMorph.Arabic.Types,
+        module FM.Arabic.Types,
 
         -- * Functions
 
@@ -28,8 +28,8 @@ module FunnyMorph.Arabic.Rules {- (
     ) -} where
 
 
-import FunnyMorph.Arabic.Types
-import FunnyMorph.Generic.General
+import FM.Arabic.Types
+import FM.Generic.General
 
 import Data.List (isPrefixOf, isSuffixOf)
 

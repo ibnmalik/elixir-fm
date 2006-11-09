@@ -1,4 +1,4 @@
-module FunnyMorph.Generic.Dictionary.Pretty.LaTeX (
+module FM.Generic.Dictionary.Pretty.LaTeX (
 
         -- * functions
 
@@ -7,9 +7,9 @@ module FunnyMorph.Generic.Dictionary.Pretty.LaTeX (
     ) where
 
 
-import FunnyMorph.Generic.Dictionary
+import FM.Generic.Dictionary
 
-import FunnyMorph.Generic.General
+import FM.Generic.General
 
 import Data.List (intersperse)
 

@@ -17,10 +17,10 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 -}
 
-module FunnyMorph.Arabic.Commands where
+module FM.Arabic.Commands where
 
-import FunnyMorph.Arabic.Build
-import FunnyMorph.Generic.Frontend
+import FM.Arabic.Build
+import FM.Generic.Frontend
 
 commands = [] -- ["xx", ["dars"], app1 guessParadigm]
 {- [

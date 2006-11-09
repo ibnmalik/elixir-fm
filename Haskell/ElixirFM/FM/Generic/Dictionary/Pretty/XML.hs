@@ -1,4 +1,4 @@
-module FunnyMorph.Generic.Dictionary.Pretty.XML (
+module FM.Generic.Dictionary.Pretty.XML (
 
         -- * Functions
 
@@ -7,9 +7,9 @@ module FunnyMorph.Generic.Dictionary.Pretty.XML (
     ) where
 
 
-import FunnyMorph.Generic.Dictionary
+import FM.Generic.Dictionary
 
-import FunnyMorph.Generic.General
+import FM.Generic.General
 
 import Text.PrettyPrint
 

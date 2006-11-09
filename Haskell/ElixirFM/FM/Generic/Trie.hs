@@ -1,7 +1,7 @@
-module FunnyMorph.Generic.Trie where
+module FM.Generic.Trie where
 
-import FunnyMorph.Generic.Map
-import FunnyMorph.Generic.General
+import FM.Generic.Map
+import FM.Generic.General
 import Data.Maybe (fromJust)
 import Data.List (nub)
 

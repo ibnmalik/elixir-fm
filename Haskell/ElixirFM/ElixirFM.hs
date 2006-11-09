@@ -4,7 +4,7 @@
 
 -- |
 --
--- Module      :  FM
+-- Module      :  ElixirFM
 -- Copyright   :  Otakar Smrz 2005-2006
 -- License     :  GPL
 --
@@ -12,11 +12,11 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir" "Encode"
+-- "Elixir" "FM"
 
 {-
-    FM -- Extending the Functional Morphology library by Markus Forsberg
-    Copyright (C) 2005-2006  Otakar Smrz  (C) 2004  Markus Forsberg
+    ElixirFM -- Implementation of Functional Arabic Morphology
+    Copyright (C) 2005-2006  Otakar Smrz
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -34,10 +34,11 @@
 -}
 
 
-module FM where
+module ElixirFM where
 
 
-import Encode
+import Elixir
+import FM
 
 import Version
 

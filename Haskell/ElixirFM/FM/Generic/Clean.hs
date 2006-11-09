@@ -1,4 +1,4 @@
-module FunnyMorph.Generic.Clean where
+module FM.Generic.Clean where
 
 import System.Environment
 import Data.List

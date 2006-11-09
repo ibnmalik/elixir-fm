@@ -1,7 +1,7 @@
-module FunnyMorph.Generic.Print where
+module FM.Generic.Print where
 
-import FunnyMorph.Generic.General
-import FunnyMorph.Generic.Dictionary
+import FM.Generic.General
+import FM.Generic.Dictionary
 import Data.List (intersperse)
 
 -- printing morphological objects as strings

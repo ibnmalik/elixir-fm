@@ -17,12 +17,12 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 -}
 
-module FunnyMorph.Arabic.Composite where
+module FM.Arabic.Composite where
 
-import FunnyMorph.Generic.General
+import FM.Generic.General
 
-import FunnyMorph.Arabic.Build
-import FunnyMorph.Arabic.Attr
+import FM.Arabic.Build
+import FM.Arabic.Attr
 
 arabicDecompose :: [Attr] -> Bool
 arabicDecompose   [x,y] = (x /= y) && atS == y

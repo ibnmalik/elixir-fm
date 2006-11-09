@@ -1,4 +1,4 @@
-module FunnyMorph.Generic.RedBlack (
+module FM.Generic.RedBlack (
                 emptyTree,
                 isEmptyTree,
                 Tree,

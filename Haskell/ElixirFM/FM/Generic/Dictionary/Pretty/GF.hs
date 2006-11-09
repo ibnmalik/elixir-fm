@@ -1,4 +1,4 @@
-module FunnyMorph.Generic.Dictionary.Pretty.GF (
+module FM.Generic.Dictionary.Pretty.GF (
 
         -- * Functions
 
@@ -7,8 +7,8 @@ module FunnyMorph.Generic.Dictionary.Pretty.GF (
     ) where
 
 
-import FunnyMorph.Generic.General
-import FunnyMorph.Generic.Dictionary
+import FM.Generic.General
+import FM.Generic.Dictionary
 import Data.List (intersperse)
 
 

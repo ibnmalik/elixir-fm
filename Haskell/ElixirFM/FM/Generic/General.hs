@@ -4,7 +4,7 @@
 
 -- |
 --
--- Module      :  FunnyMorph.Generic.General
+-- Module      :  FM.Generic.General
 -- Copyright   :  Otakar Smrz 2005-2006, Markus Forsberg 2004
 -- License     :  GPL
 --
@@ -12,10 +12,10 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "FunnyMorph", "Elixir"
+-- "FM", "Elixir"
 
 
-module FunnyMorph.Generic.General where
+module FM.Generic.General where
 
 import Data.List (isPrefixOf)
 

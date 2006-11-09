@@ -4,7 +4,7 @@
 
 -- |
 --
--- Module      :  Exec.FunnyMorph.Main
+-- Module      :  Exec.FM.Main
 -- Copyright   :  Otakar Smrz 2005-2006
 -- License     :  GPL
 --
@@ -12,12 +12,12 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "FunnyMorph"
+-- "FM"
 
 
 module Main where
 
-import FunnyMorph.Arabic.Rules
+import FM.Arabic.Rules
 
 --import Encode
 --import Encode.Arabic

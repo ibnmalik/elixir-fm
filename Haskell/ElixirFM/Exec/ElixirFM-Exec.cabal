@@ -10,16 +10,19 @@ package-url:        http://ufal.mff.cuni.cz/~smrz/ElixirFM/ElixirFM-Exec-0.1.zip
 category:           Various
 build-depends:      Cabal, base
 synopsis:           Functional Arabic Morphology
-description:        The "Elixir" and "FunnyMorph" libraries are an
-                    implementation of Functional Arabic Morphology and an
-                    extension to the /FM Functional Morphology/ library
-                    developed by Markus Forsberg in his licenciate thesis
-                    /Applications of Functional Programming in Processing
-                    Formal and Natural Languages/, G&#246;teborg University
-                    and Chalmers University of Technology, December 2004,
+description:        The "Elixir" and "FM" libraries are an implementation of
+                    Functional Arabic Morphology and an extension to the
+                    /Functional Morphology/ library developed by Markus
+                    Forsberg in his licenciate thesis /Applications of
+                    Functional Programming in Processing Formal and Natural
+                    Languages/, G&#246;teborg University and Chalmers
+                    University of Technology, December 2004,
                     <http://www.cs.chalmers.se/~markus/FM/>.
                     .
-                    "Elixir" "FunnyMorph"
+                    The "Version" library is just a simple support for
+                    working with the CVS\/SVN revision keyword.
+                    .
+                    "ElixirFM" "Elixir" "FM"
 
 executable:         funnymorph
 main-is:            Exec/FunnyMorph/Main.hs

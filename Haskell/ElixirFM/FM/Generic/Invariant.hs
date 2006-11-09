@@ -1,7 +1,7 @@
-module FunnyMorph.Generic.Invariant where
+module FM.Generic.Invariant where
 
-import FunnyMorph.Generic.General
-import FunnyMorph.Generic.Dictionary
+import FM.Generic.General
+import FM.Generic.Dictionary
 
 data Invariant = Invariant
   deriving (Show,Eq,Enum,Ord,Bounded)

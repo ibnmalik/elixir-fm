@@ -4,7 +4,7 @@
 
 -- |
 --
--- Module      :  FunnyMorph.Arabic
+-- Module      :  FM.Arabic
 -- Copyright   :  Otakar Smrz 2005-2006
 -- License     :  BSD-style
 --
@@ -17,9 +17,9 @@
 -- "Encode.Arabic.Buckwalter"
 
 
-module FunnyMorph.Arabic where
+module FM.Arabic where
 
-import FunnyMorph.Arabic.Rules
+import FM.Arabic.Rules
 
 import Encode
 
@@ -27,11 +27,11 @@ import Encode.Arabic
 
 import Encode.Unicode
 
-import FunnyMorph.Generic.CommonMain
---import FunnyMorph.Arabic.Commands
---import FunnyMorph.Arabic.Composite
-import FunnyMorph.Arabic.Dictionary
-import FunnyMorph.Generic.Frontend
+import FM.Generic.CommonMain
+--import FM.Arabic.Commands
+--import FM.Arabic.Composite
+import FM.Arabic.Dictionary
+import FM.Generic.Frontend
 
 
 import Version

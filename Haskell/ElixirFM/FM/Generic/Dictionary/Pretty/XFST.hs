@@ -1,4 +1,4 @@
-module FunnyMorph.Generic.Dictionary.Pretty.XFST (
+module FM.Generic.Dictionary.Pretty.XFST (
 
         -- * Functions
 
@@ -7,8 +7,8 @@ module FunnyMorph.Generic.Dictionary.Pretty.XFST (
     ) where
 
 
-import FunnyMorph.Generic.General
-import FunnyMorph.Generic.Dictionary
+import FM.Generic.General
+import FM.Generic.Dictionary
 import Data.List (intersperse)
 
 -- code for Xerox Finite State Tool

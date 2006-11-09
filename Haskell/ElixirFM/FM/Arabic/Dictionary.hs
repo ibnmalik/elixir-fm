@@ -17,11 +17,11 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 -}
 
-module FunnyMorph.Arabic.Dictionary where
+module FM.Arabic.Dictionary where
 
-import FunnyMorph.Arabic.Build
-import FunnyMorph.Generic.Dictionary
-import FunnyMorph.Arabic.Types
+import FM.Arabic.Build
+import FM.Generic.Dictionary
+import FM.Arabic.Types
 
 import Elixir.Data.Lexicons
 import Elixir.Lexicon

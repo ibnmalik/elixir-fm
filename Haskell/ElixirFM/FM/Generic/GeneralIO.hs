@@ -3,19 +3,19 @@
 -- - writing Lexicon, Tables, GF, XFST, Latex
 -- - analysis/synthesis (Trie)
 
-module FunnyMorph.Generic.GeneralIO where
+module FM.Generic.GeneralIO where
 
-import FunnyMorph.Generic.Dictionary.Pretty
-import FunnyMorph.Generic.General
-import FunnyMorph.Generic.Dictionary
-import FunnyMorph.Generic.Trie
+import FM.Generic.Dictionary.Pretty
+import FM.Generic.General
+import FM.Generic.Dictionary
+import FM.Generic.Trie
 import System.IO
-import FunnyMorph.Generic.Map hiding (empty)
-import FunnyMorph.Generic.Map as Map (empty)
-import FunnyMorph.Generic.Frontend
+import FM.Generic.Map hiding (empty)
+import FM.Generic.Map as Map (empty)
+import FM.Generic.Frontend
 import Data.List (nub)
 import Data.Maybe (fromJust)
-import FunnyMorph.Generic.ErrM
+import FM.Generic.ErrM
 
 type Stem      = String
 type Id        = String

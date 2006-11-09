@@ -1,13 +1,13 @@
-module FunnyMorph.Generic.Dictionary.Pretty (
+module FM.Generic.Dictionary.Pretty (
 
         -- * Modules
 
-        module FunnyMorph.Generic.Dictionary.Pretty.GF,
-        module FunnyMorph.Generic.Dictionary.Pretty.LaTeX,
-        module FunnyMorph.Generic.Dictionary.Pretty.Lexc,
-        module FunnyMorph.Generic.Dictionary.Pretty.SQL,
-        module FunnyMorph.Generic.Dictionary.Pretty.XFST,
-        module FunnyMorph.Generic.Dictionary.Pretty.XML,
+        module FM.Generic.Dictionary.Pretty.GF,
+        module FM.Generic.Dictionary.Pretty.LaTeX,
+        module FM.Generic.Dictionary.Pretty.Lexc,
+        module FM.Generic.Dictionary.Pretty.SQL,
+        module FM.Generic.Dictionary.Pretty.XFST,
+        module FM.Generic.Dictionary.Pretty.XML,
 
         -- * Functions
 
@@ -18,18 +18,18 @@ module FunnyMorph.Generic.Dictionary.Pretty (
     ) where
 
 
-import FunnyMorph.Generic.Dictionary.Pretty.GF
-import FunnyMorph.Generic.Dictionary.Pretty.LaTeX
-import FunnyMorph.Generic.Dictionary.Pretty.Lexc
-import FunnyMorph.Generic.Dictionary.Pretty.SQL
-import FunnyMorph.Generic.Dictionary.Pretty.XFST
-import FunnyMorph.Generic.Dictionary.Pretty.XML
+import FM.Generic.Dictionary.Pretty.GF
+import FM.Generic.Dictionary.Pretty.LaTeX
+import FM.Generic.Dictionary.Pretty.Lexc
+import FM.Generic.Dictionary.Pretty.SQL
+import FM.Generic.Dictionary.Pretty.XFST
+import FM.Generic.Dictionary.Pretty.XML
 
-import FunnyMorph.Generic.General
+import FM.Generic.General
 
-import FunnyMorph.Arabic.Dictionary
+import FM.Arabic.Dictionary
 
-import FunnyMorph.Generic.Dictionary
+import FM.Generic.Dictionary
 
 import Data.List (intersperse)
 

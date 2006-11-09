@@ -16,13 +16,13 @@
     along with this program; if not, write to the Free Software
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 -}
-module FunnyMorph.Arabic.Build where
+module FM.Arabic.Build where
 
-import FunnyMorph.Arabic.Rules
-import FunnyMorph.Arabic.Attr
-import FunnyMorph.Arabic.Types
-import FunnyMorph.Generic.Dictionary
-import FunnyMorph.Generic.General
+import FM.Arabic.Rules
+import FM.Arabic.Attr
+import FM.Arabic.Types
+import FM.Generic.Dictionary
+import FM.Generic.General
 
 -----------------------------------------------
 -- Interface functions for Nouns.

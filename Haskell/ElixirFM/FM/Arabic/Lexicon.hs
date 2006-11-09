@@ -1,1 +1,1 @@
-module FunnyMorph.Arabic.Lexicon where
+module FM.Arabic.Lexicon where

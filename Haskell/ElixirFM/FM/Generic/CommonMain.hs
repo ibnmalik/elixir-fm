@@ -1,15 +1,15 @@
-module FunnyMorph.Generic.CommonMain where
+module FM.Generic.CommonMain where
 
-import FunnyMorph.Generic.Dictionary.Pretty
-import FunnyMorph.Generic.Trie
+import FM.Generic.Dictionary.Pretty
+import FM.Generic.Trie
 import Data.List (intersperse)
 import System.Environment (getArgs, getEnv)
-import FunnyMorph.Generic.GeneralIO
+import FM.Generic.GeneralIO
 import System.IO
-import FunnyMorph.Generic.Dictionary
-import FunnyMorph.Generic.Frontend
+import FM.Generic.Dictionary
+import FM.Generic.Frontend
 import Data.Char
-import FunnyMorph.Generic.ErrM
+import FM.Generic.ErrM
 
 gfTypes :: Language a => a -> String
 gfTypes l = "types." ++ name l ++ ".gf"

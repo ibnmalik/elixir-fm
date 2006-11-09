@@ -1,5 +1,5 @@
-module FunnyMorph.Generic where
+module FM.Generic where
 
-import FunnyMorph.Generic.Dictionary
-import FunnyMorph.Generic.General
-import FunnyMorph.Generic.ErrM
+import FM.Generic.Dictionary
+import FM.Generic.General
+import FM.Generic.ErrM

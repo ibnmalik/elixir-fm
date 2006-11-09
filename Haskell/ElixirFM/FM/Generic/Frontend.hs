@@ -1,10 +1,10 @@
-module FunnyMorph.Generic.Frontend where
+module FM.Generic.Frontend where
 
-import FunnyMorph.Generic.Map as Map
-import FunnyMorph.Generic.Dictionary
-import FunnyMorph.Generic.ErrM
+import FM.Generic.Map as Map
+import FM.Generic.Dictionary
+import FM.Generic.ErrM
 import Data.Char
-import FunnyMorph.Generic.General
+import FM.Generic.General
 import Data.Maybe (isJust)
 
 -- A class defined to be able to construct a language independent frontend

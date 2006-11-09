@@ -4,7 +4,7 @@
 
 -- |
 --
--- Module      :  FunnyMorph.Generic.Dictionary
+-- Module      :  FM.Generic.Dictionary
 -- Copyright   :  Otakar Smrz 2005-2006, Markus Forsberg 2004
 -- License     :  GPL
 --
@@ -12,13 +12,13 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "FunnyMorph", "Elixir"
+-- "FM", "Elixir"
 
 
-module FunnyMorph.Generic.Dictionary where
+module FM.Generic.Dictionary where
 
-import FunnyMorph.Generic.General
-import FunnyMorph.Generic.ErrM
+import FM.Generic.General
+import FM.Generic.ErrM
 
 import Data.Char
 import Data.List (sortBy)
