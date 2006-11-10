@@ -8,7 +8,7 @@ maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
 package-url:        http://ufal.mff.cuni.cz/~smrz/ElixirFM/ElixirFM-Exec-0.1.zip
 category:           Various
-build-depends:      Cabal, base
+build-depends:      Encode, Cabal, base
 synopsis:           Functional Arabic Morphology
 description:        The "Elixir" and "FM" libraries are an implementation of
                     Functional Arabic Morphology and an extension to the
@@ -24,7 +24,7 @@ description:        The "Elixir" and "FM" libraries are an implementation of
                     .
                     "ElixirFM" "Elixir" "FM"
 
-executable:         funnymorph
-main-is:            Exec/FunnyMorph/Main.hs
-hs-source-dirs:     ., ..
+executable:         elixirfm
+main-is:            Exec/ElixirFM/Main.hs
+hs-source-dirs:     ., .., ../../Encode
 ghc-options:        -fglasgow-exts

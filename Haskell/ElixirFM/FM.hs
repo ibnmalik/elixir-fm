@@ -15,7 +15,7 @@
 -- "Elixir" "Encode"
 
 {-
-    FM -- Extending the Functional Morphology library by Markus Forsberg
+    FM -- Extending Markus Forsberg's Functional Morphology library
     Copyright (C) 2005-2006  Otakar Smrz  (C) 2004  Markus Forsberg
 
     This program is free software; you can redistribute it and/or modify

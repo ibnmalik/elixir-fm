@@ -4,7 +4,7 @@
 
 -- |
 --
--- Module      :  Exec.FM.Main
+-- Module      :  Exec.ElixirFM.Main
 -- Copyright   :  Otakar Smrz 2005-2006
 -- License     :  GPL
 --
