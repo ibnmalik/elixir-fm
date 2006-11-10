@@ -1,0 +1,47 @@
+INSTALLATION INSTRUCTIONS
+
+This package is prepared with Cabal. You need some Haskell compiler installed
+that understands Cabal and Haddock.
+
+    http://www.haskell.org/ghc/
+    http://www.haskell.org/hugs/
+
+    http://www.haskell.org/cabal/
+    http://www.haskell.org/haddock/
+
+
+1)  Unpack the source distribution of this package and move to its root
+    directory. You have probably done so already, since you are reading these
+    instructions.
+
+2)  From the command line, run the following (runhaskell is runghc or runhugs):
+
+        runhaskell Setup.hs --help
+
+    You can then build the package, install it, generate the documentation, ...
+
+        runhaskell Setup.hs configure
+        runhaskell Setup.hs build
+        runhaskell Setup.hs install
+        runhaskell Setup.hs haddock
+
+    Alternatively, you can load Setup.hs into the interpreters (Hugs, GHCi) and
+    run the following commands from within them:
+
+    	:load Setup.hs
+
+    	:main --help
+
+    	:main configure
+    	:main build
+    	:main install
+    	:main haddock
+
+
+If you need more help, please consult the Cabal documentation website.
+
+    http://www.haskell.org/cabal/release/latest/doc/users-guide/x606.html
+    http://www.haskell.org/cabal/release/latest/doc/users-guide/
+
+
+Enjoy! ^^

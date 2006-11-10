@@ -1,7 +1,8 @@
 name:               ElixirFM
 version:            0.1
 license:            GPL
-license-file:       License.txt
+license-file:       LICENSE
+extra-source-files: INSTALL
 copyright:          2006
 author:             Otakar Smrz
 maintainer:         otakar.smrz mff.cuni.cz
