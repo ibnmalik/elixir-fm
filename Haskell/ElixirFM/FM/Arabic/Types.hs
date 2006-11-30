@@ -132,31 +132,34 @@ instance Param Number   where values = enum
 
 
 
-data ParaNoun   = NounS              Number Case Defin
-                | NounP Voice Gender Number Case Defin
-                | NounA       Gender Number Case Defin
+data ParaNoun   = NounS              Number Case DefArt State
+                | NounP Voice Gender Number Case DefArt State
+                | NounA       Gender Number Case DefArt State
     deriving Eq
 
 
 instance Param ParaNoun where
 
-    values  =  [ NounS     n c d | n <- values,
-                                   d <- values, c <- values ]
-            ++ [ NounP v g n c d | v <- values, n <- values, g <- values,
-                                   d <- values, c <- values ]
-            ++ [ NounA   g n c d | n <- values, g <- values,
-                                   d <- values, c <- values ]
+    values  =  [ NounS     n c d s | n <- values,
+                                     d <- values, s <- values, c <- values  ]
+            ++ [ NounP v g n c d s | v <- values, n <- values, g <- values,
+                                     d <- values, s <- values, c <- values  ]
+            ++ [ NounA   g n c d s | n <- values, g <- values,
+                                     d <- values, s <- values, c <- values  ]
 
 
 instance Show ParaNoun where
 
-    show (NounS     n c d) = "NS-----" ++ [show' n, show' c, show' d] ++ "\n"
+    show (NounS     n c d s) = "NS-----" ++ [show' n, show' c, show' (d, s)]
+                                ++ "\n"
 
-    show (NounP v g n c d) = "NP-" ++ [show' v] ++ "--" ++
-                                 [show' g, show' n, show' c, show' d] ++ "\n"
+    show (NounP v g n c d s) = "NP-" ++ [show' v] ++ "--"
+                                ++ [show' g, show' n, show' c, show' (d, s)]
+                                ++ "\n"
 
-    show (NounA   g n c d) = "NA----" ++
-                                 [show' g, show' n, show' c, show' d] ++ "\n"
+    show (NounA   g n c d s) = "NA----"
+                                ++ [show' g, show' n, show' c, show' (d, s)]
+                                ++ "\n"
 
 
 instance Inflect ParaNoun
@@ -167,13 +170,38 @@ instance Enum ParaNoun where
     toEnum = (!!) values
 
 
-data Defin  = Indef
-            | Defin
-            | Redcd
-            | Cmplx
+type Defin = DefArt
+
+{-
+instance Eq Defin {- where
+
+    (==) x y = (fst x == fst y) && (snd x == snd y) -}
+
+instance Show Defin where
+
+    show (Absent,  Absolute)  = "I"
+    show (Absent,  Construct) = "R"
+    show (Explicit, Absolute)  = "D"
+    show (Explicit, Construct) = "C"
+    show (Implicit, Absolute)  = "D"
+    show (Implicit, Construct) = "C"
+
+instance Param Defin    where values = [ (x, y) | x <- values, y <- values ]
+-}
+
+data DefArt = Explicit
+            | Implicit
+            | Absent
     deriving (Eq, Show, Enum)
 
-instance Param Defin    where values = enum
+instance Param DefArt   where values = enum
+
+
+data State  = Absolute
+            | Construct
+    deriving (Eq, Show, Enum)
+
+instance Param State    where values = enum
 
 
 data Case   = Nom
@@ -190,8 +218,8 @@ instance Show Case where
     show Acc    = "4"
 
 
-data LogDefin   = LogIndefinite
-                | LogDefinite
+data LogDefin   = Indefinite
+                | Definite
     deriving (Eq, Show, Enum)
 
 instance Param LogDefin     where values = enum

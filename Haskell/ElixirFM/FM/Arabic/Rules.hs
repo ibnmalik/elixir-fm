@@ -85,155 +85,172 @@ guessParadigm word cats = case reverse word of
         _                     ->  [""]
 
 
-paraI3N kitAb (NounS n c d) = map ($ kitAb) [
+paraI3N kitAb (NounS n c d s) = map ($ kitAb) [
 
-        case (c, d) of
+        case (c, d, s) of
 
-                (Acc, Indef)    -> suffix "iy-aN"
-                ( _ , Indef)    -> suffix "-iN"
+                (Acc, Explicit, _)   -> prefixDefArticle . suffix "iy-a"
+                (_  , Explicit, _)   -> prefixDefArticle . suffix "I"
 
-                (Acc, Redcd)    -> suffix "iy-a"
-                ( _ , Redcd)    -> suffix "I"
+                (Acc, Absent, Absolute)    -> suffix "iy-aN"
+                ( _ , Absent, Absolute)    -> suffix "-iN"
 
-                (Acc,   _  )    -> prefixDefArticle . suffix "iy-a"
-                ( _ ,   _  )    -> prefixDefArticle . suffix "I"
+                (Acc, _, Absolute)     -> suffix "iy-a"
+                ( _ , _, Absolute)     -> suffix "I"
+
+                (Acc, _, Construct)    -> suffix "iy-a"
+                ( _ , _, Construct)    -> suffix "I"
     ]
 
 
-paraI2a kitAb (NounS n c d) = map ($ kitAb) [
+paraI2a kitAb (NounS n c d s) = map ($ kitAb) [
 
-        case (c, d) of
+        case (c, d, s) of
 
-                (Nom, Indef)    -> suffix "I"
-                ( _ , Indef)    -> suffix "iy-a"
+                (Acc, Explicit, _)   -> prefixDefArticle . suffix "iy-a"
+                (_  , Explicit, _)   -> prefixDefArticle . suffix "I"
 
-                (Acc, Redcd)    -> suffix "iy-a"
-                ( _ , Redcd)    -> suffix "I"
+                (Nom, Absent, Absolute)     -> suffix "I"
+                ( _ , Absent, Absolute)     -> suffix "iy-a"
 
-                (Acc,   _  )    -> prefixDefArticle . suffix "iy-a"
-                ( _ ,   _  )    -> prefixDefArticle . suffix "I"
+                (Acc, _, Absolute)     -> suffix "iy-a"
+                ( _ , _, Absolute)     -> suffix "I"
+
+                (Acc, _, Construct)    -> suffix "iy-a"
+                ( _ , _, Construct)    -> suffix "I"
     ]
 
 
-paraAaA kitAb (NounS n c d) = map ($ kitAb) [
+paraAaA kitAb (NounS n c d s) = map ($ kitAb) [
 
-        case (c, d) of
+        case (c, d, s) of
 
-                ( _ , Indef)    -> suffix "-aN"
+                ( _ , Explicit,  _  ) -> prefixDefArticle . suffix "A"
 
-                ( _ , Redcd)    -> suffix "A"
+                ( _ , _, Absolute)    -> suffix "-aN"
 
-                ( _ ,   _  )    -> prefixDefArticle . suffix "A"
+                ( _ , _, Construct)   -> suffix "A"
     ]
 
 
-paraY3N kitAb (NounS n c d) = map ($ kitAb) [
+paraY3N kitAb (NounS n c d s) = map ($ kitAb) [
 
-        case (c, d) of
+        case (c, d, s) of
 
-                ( _ , Indef)    -> suffix "-aNY"
+                ( _ , Explicit,  _  ) -> prefixDefArticle . suffix "Y"
 
-                ( _ , Redcd)    -> suffix "Y"
+                ( _ , _, Absolute)    -> suffix "-aNY"
 
-                ( _ ,   _  )    -> prefixDefArticle . suffix "Y"
+                ( _ , _, Construct)   -> suffix "Y"
     ]
 
 
-paraY2Y kitAb (NounS n c d) = map ($ kitAb) [
+paraY2Y kitAb (NounS n c d s) = map ($ kitAb) [
 
-        case (c, d) of
+        case (c, d, s) of
 
-                ( _ , Indef)    -> suffix "Y"
+                ( _ , Explicit,  _  )  -> prefixDefArticle . suffix "Y"
 
-                ( _ , Redcd)    -> suffix "Y"
+                ( _ , _, Absolute)     -> suffix "Y"
 
-                ( _ ,   _  )    -> prefixDefArticle . suffix "Y"
+                ( _ , _, Construct)    -> suffix "Y"
     ]
 
 
-paraU3N kitAb (NounS n c d) = map ($ kitAb) [
+paraU3N kitAb (NounS n c d s) = map ($ kitAb) [
 
-        case (c, d) of
+        case (c, d, s) of
 
-                (Nom, Indef)    -> suffix "-uN"
-                (Gen, Indef)    -> suffix "-iN"
-                (Acc, Indef)    -> suffix "-aN"
+                (Nom, Explicit, _ ) -> prefixDefArticle . suffix "-u"
+                (Gen, Explicit, _ ) -> prefixDefArticle . suffix "-i"
+                (Acc, Explicit, _ ) -> prefixDefArticle . suffix "-a"
 
-                (Nom, Redcd)    -> suffix "-u"
-                (Gen, Redcd)    -> suffix "-i"
-                (Acc, Redcd)    -> suffix "-a"
+                (Nom, Absent, Absolute)    -> suffix "-uN"
+                (Gen, Absent, Absolute)    -> suffix "-iN"
+                (Acc, Absent, Absolute)    -> suffix "-aN"
 
-                (Nom,   _  )    -> prefixDefArticle . suffix "-u"
-                (Gen,   _  )    -> prefixDefArticle . suffix "-i"
-                (Acc,   _  )    -> prefixDefArticle . suffix "-a"
+                (Nom, _ , Absolute)    -> suffix "-u"
+                (Gen, _ , Absolute)    -> suffix "-i"
+                (Acc, _ , Absolute)    -> suffix "-a"
+
+                (Nom, _ , Construct)   -> suffix "-u"
+                (Gen, _ , Construct)   -> suffix "-i"
+                (Acc, _ , Construct)   -> suffix "-a"
     ]
 
 
-paraU2a kitAb (NounS n c d) = map ($ kitAb) [
+paraU2a kitAb (NounS n c d s) = map ($ kitAb) [
 
-        case (c, d) of
+        case (c, d, s) of
 
-                (Nom, Indef)    -> suffix "-u"
-                ( _ , Indef)    -> suffix "-a"
+                (Nom, Explicit,  _  )  -> prefixDefArticle . suffix "-u"
+                (Gen, Explicit,  _  )  -> prefixDefArticle . suffix "-i"
+                (Acc, Explicit,  _  )  -> prefixDefArticle . suffix "-a"
 
-                (Nom, Redcd)    -> suffix "-u"
-                (Gen, Redcd)    -> suffix "-i"
-                (Acc, Redcd)    -> suffix "-a"
+                (Nom, Absent, Absolute)    -> suffix "-u"
+                ( _ , Absent, Absolute)    -> suffix "-a"
 
-                (Nom,   _  )    -> prefixDefArticle . suffix "-u"
-                (Gen,   _  )    -> prefixDefArticle . suffix "-i"
-                (Acc,   _  )    -> prefixDefArticle . suffix "-a"
+                (Nom, _, Absolute)     -> suffix "-u"
+                (Gen, _, Absolute)     -> suffix "-i"
+                (Acc, _, Absolute)     -> suffix "-a"
+
+                (Nom, _, Construct)    -> suffix "-u"
+                (Gen, _, Construct)    -> suffix "-i"
+                (Acc, _, Construct)    -> suffix "-a"
     ]
 
 
-paraUun kitAb (NounS n c d) = map ($ kitAb) [
+paraUun kitAb (NounS n c d s) = map ($ kitAb) [
 
-        case (c, d) of
+        case (c, d, s) of
 
-                (Nom, Indef)    -> suffix "Un-a"
-                ( _ , Indef)    -> suffix "In-a"
+            (Nom, Explicit, Absolute)    -> prefixDefArticle . suffix "Un-a"
+            ( _ , Explicit, Absolute)    -> prefixDefArticle . suffix "In-a"
 
-                (Nom, Redcd)    -> suffix "U"
-                ( _ , Redcd)    -> suffix "I"
+            (Nom, Explicit, Construct)    -> prefixDefArticle . suffix "U"
+            ( _ , Explicit, Construct)    -> prefixDefArticle . suffix "I"
 
-                (Nom, Defin)    -> prefixDefArticle . suffix "Un-a"
-                ( _ , Defin)    -> prefixDefArticle . suffix "In-a"
+            (Nom, _, Absolute)    -> suffix "Un-a"
+            ( _ , _, Absolute)    -> suffix "In-a"
 
-                (Nom, Cmplx)    -> prefixDefArticle . suffix "U"
-                ( _ , Cmplx)    -> prefixDefArticle . suffix "I"
+            (Nom, _, Construct)    -> suffix "U"
+            ( _ , _, Construct)    -> suffix "I"
     ]
 
 
-paraAan kitAb (NounS n c d) = map ($ kitAb) [
+paraAan kitAb (NounS n c d s) = map ($ kitAb) [
 
-        case (c, d) of
+        case (c, d, s) of
 
-                (Nom, Indef)    -> suffix "An-i"
-                ( _ , Indef)    -> suffix "ayn-i"
+            (Nom, Explicit, Absolute)    -> prefixDefArticle . suffix "An-i"
+            ( _ , Explicit, Absolute)    -> prefixDefArticle . suffix "ayn-i"
 
-                (Nom, Redcd)    -> suffix "A"
-                ( _ , Redcd)    -> suffix "ay-i"
+            (Nom, Explicit, Construct)    -> prefixDefArticle . suffix "A"
+            ( _ , Explicit, Construct)    -> prefixDefArticle . suffix "ay-i"
 
-                (Nom, Defin)    -> prefixDefArticle . suffix "An-i"
-                ( _ , Defin)    -> prefixDefArticle . suffix "ayn-i"
+            (Nom, _, Absolute)    -> suffix "An-i"
+            ( _ , _, Absolute)    -> suffix "ayn-i"
 
-                (Nom, Cmplx)    -> prefixDefArticle . suffix "A"
-                ( _ , Cmplx)    -> prefixDefArticle . suffix "ay-i"
+            (Nom, _, Construct)    -> suffix "A"
+            ( _ , _, Construct)    -> suffix "ay-i"
     ]
 
 
-paraAat kitAb (NounS n c d) = map ($ kitAb) [
+paraAat kitAb (NounS n c d s) = map ($ kitAb) [
 
-        case (c, d) of
+        case (c, d, s) of
 
-                (Nom, Indef)    -> suffix "-uN"
-                ( _ , Indef)    -> suffix "-iN"
+                (Nom, Explicit, _ )   -> prefixDefArticle . suffix "-u"
+                ( _ , Explicit, _ )   -> prefixDefArticle . suffix "-i"
 
-                (Nom, Redcd)    -> suffix "-u"
-                ( _ , Redcd)    -> suffix "-i"
+                (Nom, Absent, Absolute)    -> suffix "-uN"
+                ( _ , Absent, Absolute)    -> suffix "-iN"
 
-                (Nom,   _  )    -> prefixDefArticle . suffix "-u"
-                ( _ ,   _  )    -> prefixDefArticle . suffix "-i"
+                (Nom, _, Absolute)    -> suffix "-u"
+                ( _ , _, Absolute)    -> suffix "-i"
+
+                (Nom, _, Construct)   -> suffix "-u"
+                ( _ , _, Construct)   -> suffix "-i"
     ]
 
 
