@@ -20,15 +20,6 @@ module FM.Arabic.Types where
 import FM.Generic.General
 import FM.Generic.Invariant
 
-import Elixir.Template
-
-
-class Inflect a where
-
-    inflect :: Template b => a -> b -> Root -> [String]
-
-
-type Root = String
 
 type Verb = ParaVerb -> Str
 type Noun = ParaNoun -> Str
@@ -65,7 +56,7 @@ show' :: Show a => a -> Char
 show' = head . show
 
 
-instance Inflect ParaVerb
+--instance Inflect ParaVerb
 
 
 type Tense = Aspect
@@ -162,7 +153,7 @@ instance Show ParaNoun where
                                 ++ "\n"
 
 
-instance Inflect ParaNoun
+--instance Inflect ParaNoun
 
 
 instance Enum ParaNoun where
@@ -266,7 +257,7 @@ instance Show ParaPron where
     show (PronR   g n c) = "SR----" ++ [show' g, show' n, show' c] ++ "-\n"
 
 
-instance Inflect ParaPron
+--instance Inflect ParaPron
 
 
 ------------------------------------------------------------

@@ -36,17 +36,41 @@ import Data.List (isPrefixOf, isSuffixOf)
 import Encode
 import Encode.Arabic
 
+import Elixir.Template
 
-{- Interface functions. -}
+import Elixir.Lexicon
+
+type Root = String
+
+
+class Inflect a where
+
+--    inflect :: Template b => a -> b -> Root -> [String]
+
+    inflect :: a -> ParaNoun -> [String]
+
+    prefix :: a -> a -> a
+
+    suffix :: a -> a -> a
+
+
+instance Inflect String where
+
+    inflect = guessParadigm
+
+    prefix x y = x ++ y
+
+    suffix x y = y ++ x
+
+
+instance Template a => Inflect ([Root], a) where
+
+    inflect x = guessParadigm (concat (uncurry interlock x []))
+
 
 type DictForm = String
 type Stem     = String
 
-
-
--------------------------------------------------------
--- first declension
--------------------------------------------------------
 
 sunny = [ "t", "_t", "d", "_d", "r", "z", "s", "^s",
           ".s", ".d", ".t", ".z", "l", "n" ]
@@ -55,10 +79,6 @@ moony = [ "'", "b", "^g", ".h", "_h", "`", ".g",
           "f", "q", "k", "m", "h", "w", "y",
           "B", "p", "v", "g",
           "c", "^c", ",c", "^z", "^n", "^l", ".r" ]
-
-prefix x y = x ++ y
-
-suffix x y = y ++ x
 
 
 prefixDefArticle :: String -> String
@@ -403,3 +423,26 @@ paraVerb daras (VerbI m v p g n) = map ($ daras_duris) [
 
     where daras_duris = case v of Active    ->  "adrus"
                                   Passive   ->  "udras"
+
+
+paraVerb daras (VerbC g n) = map ($ daras) [
+
+        case n of
+
+            Singular    ->  case g of
+
+                Masculine ->  prefix "u"
+                Feminine  ->  prefix "u" . suffix "-I"
+
+            Dual        -> case g of
+
+                _         ->  prefix "u" . suffix "A"
+
+            Plural      -> case g of
+
+                Masculine ->  prefix "u" . suffix "UA"
+                Feminine  ->  prefix "u" . suffix "na"
+
+    ]
+
+    where daras = "drus"
