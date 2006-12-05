@@ -28,10 +28,23 @@ class Template a where
     interlock :: [String] -> a -> [String] -> [String]
 
 
+class Morphing m where
+
+    (>|) :: m Prefix -> a -> m a
+
+    (|<) :: m a -> Suffix -> m a
+
+
+infixl 7 >|, |<
+
+
 {-
 data Morphs a =     Pattern a
               |     Prefix  :>|:  Morphs a
               |                   Morphs a  :|<:  Suffix
+
+infixr 7 :>|:
+infixl 8 :|<:
 -}
 
 data Morphs a = Morphs a [Prefix] [Suffix]
@@ -39,8 +52,11 @@ data Morphs a = Morphs a [Prefix] [Suffix]
     deriving Show
 
 
---infixr 7 :>|:
---infixl 8 :|<:
+instance Morphing Morphs where
+
+    (>|) (Morphs t p s) x = Morphs x (t:p) s
+
+    (|<) (Morphs t p s) x = Morphs t p (x:s)
 
 
 instance Template t => Template (Morphs t) where
@@ -49,9 +65,15 @@ instance Template t => Template (Morphs t) where
 --    interlock r (m :|<: a)  = interlock r m . (++) [show a]
 --    interlock r (Pattern s) = interlock r s
 
-    interlock r (Morphs t p s) = (++) [show p] .
+    interlock r (Morphs t p s) = (++) ((map show . reverse) p) .
                                  interlock r t .
-                                 (++) [show s]
+                                 (++) ((map show . reverse) s)
+
+
+morph :: a -> Morphs a
+
+morph x = Morphs x [] []
+
 
 {-
 instance Template (Morphs a) => Combines (Morphs a) (Morphs a) where

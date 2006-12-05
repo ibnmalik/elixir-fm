@@ -151,6 +151,13 @@ data Entry a = Entry {  entity  :: Entity,
     deriving Show
 
 
+instance Morphing Entry where
+
+    (>|) (Entry e m l) x = Entry e ((>|) m x) l
+
+    (|<) (Entry e m l) x = Entry e ((|<) m x) l
+
+
 data Entity = Verb (Maybe Voice)
             | Noun (Maybe Gender) (Maybe Number)
             | Root
@@ -190,19 +197,6 @@ noun x = Entry (Noun Nothing Nothing)
 
 root x = Entry (Root)
                (Morphs x [] []) []
-
-
-(>|) :: (Nestable a, Template a) => Entry Prefix -> a -> Entry a
-
-(>|) (Entry e (Morphs t p s) l) x = Entry e (Morphs x (t:p) s) l
-
-
-(|<) :: (Nestable a, Template a) => Entry a -> Suffix -> Entry a
-
-(|<) (Entry e (Morphs t p s) l) x = Entry e (Morphs t p (x:s)) l
-
-
-infixl 7 >|, |<
 
 
 infixl 3 `imperf`

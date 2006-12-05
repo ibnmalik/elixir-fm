@@ -20,6 +20,11 @@
 module FM.Arabic where
 
 import FM.Arabic.Rules
+import FM.Arabic.Types
+
+import Elixir.Lexicon
+import Elixir.Template
+import Elixir.Data.Patterns
 
 import Encode
 
