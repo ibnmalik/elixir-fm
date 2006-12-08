@@ -65,25 +65,19 @@ class (Morphing m, Param b) => Inflect m b where
 
 -}
 
-{-
 
 instance Inflect Entry ParaVerb where
 
-    inflect = inflectVerb
+    inflect x = inflect (RE "drs" x)
 
 
 instance Inflect RootEntry ParaVerb where
 
-    inflect (RE r e) p = inflectVerb (concat (interlock (rootCons r)
-                                                      (morphs e) []))
+    inflect (RE r e) f = case f of
 
-
-inflectVerb
-    case p of
-
-        VerbP ->
-        VerbI ->
-        VerbC ->
+        VerbP   v p g n ->
+        VerbI m v p g n ->
+        VerbC       g n ->
 
 
 
@@ -91,8 +85,6 @@ inflectVerb
     paraVerb "facal" y
 
 
-
--}
 
 instance Inflect RootEntry ParaNoun where
 
@@ -313,9 +305,7 @@ data Conjugation = I | II | III | IV | V | VI | VII | VIII | IX | X | XI |
 data ConjugationFour = Fi | Fii | Fiii | Fiv
 
 
-paraVerb daras (VerbP v p g n) = map ($ daras_duris) [
-
-        case n of
+paraVerbP v p g n = case n of
 
             Singular    ->  case (p, g) of
 
@@ -346,25 +336,7 @@ paraVerb daras (VerbP v p g n) = map ($ daras_duris) [
                                   Passive   ->  "duris"
 
 
-
-{-
-paraVerb daras (VerbP v p g n) = map ($ daras) [
-
-
-
-    ]
-
-paraVerb daras (VerbP v p g n) = map ($ daras) [
-
-
-
-    ]
--}
-
-
-paraVerb daras (VerbI m v p g n) = map ($ daras_duris) [
-
-    case m of
+paraVerbI m v p g n = case m of
 
       Indicative ->
 
@@ -449,15 +421,12 @@ paraVerb daras (VerbI m v p g n) = map ($ daras_duris) [
                 (Second, Feminine)  ->  prefix "t" . suffix "n-a"
                 (First,      _    ) ->  prefix "n" . suffix ""
 
-    ]
 
     where daras_duris = case v of Active    ->  "adrus"
                                   Passive   ->  "udras"
 
 
-paraVerb daras (VerbC g n) = map ($ daras) [
-
-        case n of
+paraVerbC g n = case n of
 
             Singular    ->  case g of
 
@@ -473,6 +442,5 @@ paraVerb daras (VerbC g n) = map ($ daras) [
                 Masculine ->  prefix "u" . suffix "UA"
                 Feminine  ->  prefix "u" . suffix "na"
 
-    ]
 
     where daras = "drus"

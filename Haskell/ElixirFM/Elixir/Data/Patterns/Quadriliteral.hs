@@ -27,7 +27,51 @@ import Version
 version = revised "$Revision$"
 
 
-instance Template PatternQ
+instance Template PatternQ where
+
+    interlock r p s = let cn = foldr (\ l r -> if l == 'K' ||
+                                                  l == 'R' ||
+                                                  l == 'D' ||
+                                                  l == 'S' then r + 1 else r)
+
+                          (cs, sp) = {-
+                                     if length r == 3 && cn 0 (show p) == 4
+
+                                then let [a, b, c] = r
+                                         shp = map (:[]) (show p)
+                                     in if isFormIX p then ([a, b, c, c], shp)
+                                                      else ([a, b, b, c], shp)
+
+                                else -}
+                                     let c : rs = r
+                                         shp = map (:[]) (show p)
+                                         {-
+                                         (z, d) = assimVIII c
+                                         assimilate n = (z:rs, take n shp ++ [d] ++ drop (n + 1) shp)
+                                         -}
+
+                                     in {-
+                                        if isFormVIII p then assimilate (maybe 2 id
+                                                                            (elemIndex 't' (show p)))
+                                                        else -}
+                                                             (r, shp)
+
+                    in restoreInits (replaceCards cs sp) ++ s
+
+            where   restoreInits x = case x of   "H" : y    -> "'" : y
+                                                 "I" : y    -> "i" : y
+                                                 "M" : y    -> "m" : y
+                                                 "T" : y    -> "t" : y
+                                                 _          -> x
+
+                    replaceCards cs sp = snd $ mapAccumL
+
+                                (\ l c -> case c of
+                                            "K" -> (tail l, head l)
+                                            "R" -> (tail l, head l)
+                                            "D" -> (tail l, head l)
+                                            "S" -> (tail l, head l)
+                                            _   -> (l, c)) cs sp
 
 
 data PatternQ =

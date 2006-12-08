@@ -37,57 +37,17 @@ instance Template PatternT where
 
                                 then let [a, b, c] = r
                                          shp = map (:[]) (show p)
-                                     in case p of
-
-                                    IFCaLL      ->  ([a, b, c, c], shp)
-                                    IFCiLAL     ->  ([a, b, c, c], shp)
-                                    MuFCaLL     ->  ([a, b, c, c], shp)
-                                    _           ->  ([a, b, b, c], shp)
+                                     in if isFormIX p then ([a, b, c, c], shp)
+                                                      else ([a, b, b, c], shp)
 
                                 else let c : rs = r
                                          shp = map (:[]) (show p)
-                                         (z, d) = case c of
-
-                                                    "_t"    ->  (c, "_t")
-                                                    "_d"    ->  (c, "_d")
-
-                                                    "d"     ->  (c, "d")
-                                                    "z"     ->  (c, "d")
-
-                                                    ".s"    ->  (c, ".t")
-                                                    ".d"     -> (c, ".t")
-                                                    ".t"     -> (c, ".t")
-                                                    ".z"     -> (c, ".t")
-
-                                                 -- "_d"    ->  ("d", "d")
-                                                    "w"     ->  ("t", "t")
-
-                                                    _       ->  (c, "t")
-
+                                         (z, d) = assimVIII c
                                          assimilate n = (z:rs, take n shp ++ [d] ++ drop (n + 1) shp)
 
-                                     in case p of
-
-                                    IFtaCaL     -> assimilate 2
-                                    IFtiCAL     -> assimilate 2
-                                    MuFtaCiL    -> assimilate 3
-                                    MuFtaCaL    -> assimilate 3
-
-                                    IFtAL       -> assimilate 2
-                                    IFtiyAL     -> assimilate 2
-                                    MuFtAL      -> assimilate 3
-
-                                    IFtaCY      -> assimilate 2
-                                    IFtiCA'     -> assimilate 2
-                                    MuFtaCiN    -> assimilate 3
-                                    MuFtaCaNY   -> assimilate 3
-
-                                    IFtaCL      -> assimilate 2
-                                    MuFtaCL     -> assimilate 3
-
-                                    _           -> (r, shp)
-
-
+                                     in if isFormVIII p then assimilate (maybe 2 id
+                                                                            (elemIndex 't' (show p)))
+                                                        else (r, shp)
 
                     in restoreInits (replaceCards cs sp) ++ s
 
@@ -104,6 +64,67 @@ instance Template PatternT where
                                             "C" -> (tail l, head l)
                                             "L" -> (tail l, head l)
                                             _   -> (l, c)) cs sp
+
+
+assimVIII :: String -> (String, String)
+
+assimVIII c = case c of
+
+            "_t"    ->  (c, "_t")
+            "_d"    ->  (c, "_d")
+
+            "d"     ->  (c, "d")
+            "z"     ->  (c, "d")
+
+            ".s"    ->  (c, ".t")
+            ".d"     -> (c, ".t")
+            ".t"     -> (c, ".t")
+            ".z"     -> (c, ".t")
+
+         -- "_d"    ->  ("d", "d")
+            "w"     ->  ("t", "t")
+
+            _       ->  (c, "t")
+
+
+isFormI :: PatternT -> Bool
+isFormI = flip elem (init [FaCaL .. FaCCaL])
+
+
+isFormII :: PatternT -> Bool
+isFormII = flip elem (init [FaCCaL .. FACaL])
+
+
+isFormIII :: PatternT -> Bool
+isFormIII = flip elem (init [FACaL .. HaFCaL])
+
+
+isFormIV :: PatternT -> Bool
+isFormIV = flip elem (init [HaFCaL .. TaFaCCaL])
+
+
+isFormV :: PatternT -> Bool
+isFormV = flip elem (init [TaFaCCaL .. TaFACaL])
+
+
+isFormVI :: PatternT -> Bool
+isFormVI = flip elem (init [TaFACaL .. InFaCaL])
+
+
+isFormVII :: PatternT -> Bool
+isFormVII = flip elem (init [InFaCaL .. IFtaCaL])
+
+
+isFormVIII :: PatternT -> Bool
+isFormVIII = flip elem (init [IFtaCaL .. IFCaLL])
+
+
+isFormIX :: PatternT -> Bool
+isFormIX = flip elem (init [IFCaLL .. IstaFCaL])
+
+
+isFormX :: PatternT -> Bool
+isFormX = flip elem [IstaFCaL ..]
 
 
 data PatternT =
@@ -173,6 +194,8 @@ data PatternT =
 --  Form II
 
         |   FaCCaL                                                              |   FaCCY
+        |   FuCCiL
+        |   FaCCiL
 
         |   TaFCIL
         |   TaFCiL
@@ -185,6 +208,8 @@ data PatternT =
 --  Form III
 
         |   FACaL                                                               |   FACY
+        |   FUCiL
+    --  |   FACiL
 
         |   MuFACiL                                                             |   MuFACiN
         |   MuFACaL                                                             |   MuFACaNY
@@ -204,6 +229,7 @@ data PatternT =
 --  Form V
 
         |   TaFaCCaL                                                            |   TaFaCCY
+        |   TuFuCCiL
 
         |   TaFaCCuL                                                            |   TaFaCCiN
 
@@ -213,6 +239,7 @@ data PatternT =
 --  Form VI
 
         |   TaFACaL                                                             |   TaFACY
+        |   TuFUCiL
 
         |   TaFACuL                                                             |   TaFACiN
 
