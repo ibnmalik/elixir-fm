@@ -29,50 +29,30 @@ version = revised "$Revision$"
 
 instance Template PatternQ where
 
-    interlock r p s = let cn = foldr (\ l r -> if l == 'K' ||
-                                                  l == 'R' ||
-                                                  l == 'D' ||
-                                                  l == 'S' then r + 1 else r)
+    interlock r p s = {- if isFormVIII p then (assimilate . show) p ++ s
+                                      else -} (substitute . show) p ++ s
 
-                          (cs, sp) = {-
-                                     if length r == 3 && cn 0 (show p) == 4
+        where substitute x = (replace . restore) x
 
-                                then let [a, b, c] = r
-                                         shp = map (:[]) (show p)
-                                     in if isFormIX p then ([a, b, c, c], shp)
-                                                      else ([a, b, b, c], shp)
+              {- assimilate x = (replace . restore . init) iF
+                             ++ [z, d] ++
+                             (replace . tail) taCaL
 
-                                else -}
-                                     let c : rs = r
-                                         shp = map (:[]) (show p)
-                                         {-
-                                         (z, d) = assimVIII c
-                                         assimilate n = (z:rs, take n shp ++ [d] ++ drop (n + 1) shp)
-                                         -}
+                    where (iF, taCaL) = break ('t' ==) x
+                          (z, d) = assimilateVIII (head r) -}
 
-                                     in {-
-                                        if isFormVIII p then assimilate (maybe 2 id
-                                                                            (elemIndex 't' (show p)))
-                                                        else -}
-                                                             (r, shp)
+              replace x = [ maybe [c] id (lookup c lock) | c <- x ]
 
-                    in restoreInits (replaceCards cs sp) ++ s
+                    where lock = zip ['K', 'R', 'D', 'S'] r
 
-            where   restoreInits x = case x of   "H" : y    -> "'" : y
-                                                 "I" : y    -> "i" : y
-                                                 "M" : y    -> "m" : y
-                                                 "T" : y    -> "t" : y
-                                                 "U" : y    -> "u" : y
-                                                 _          -> x
-
-                    replaceCards cs sp = snd $ mapAccumL
-
-                                (\ l c -> case c of
-                                            "K" -> (tail l, head l)
-                                            "R" -> (tail l, head l)
-                                            "D" -> (tail l, head l)
-                                            "S" -> (tail l, head l)
-                                            _   -> (l, c)) cs sp
+              restore x = case x of 'H' : y -> '\'' : y
+                                    'I' : y -> 'i' : y
+                                    'M' : y -> 'm' : y
+                                 -- 'N' : y -> 'n' : y
+                                 -- 'S' : y -> 's' : y
+                                    'T' : y -> 't' : y
+                                    'U' : y -> 'u' : y
+                                    _       -> x
 
 
 data PatternQ =

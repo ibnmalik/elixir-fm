@@ -293,15 +293,6 @@ paraAat c d s = case (c, d, s) of
         ( _ , _, Construct)   -> suffix "-i"
 
 
--- Verb
---
-
-data Conjugation = I | II | III | IV | V | VI | VII | VIII | IX | X | XI |
-    XII | XIII | XIV | XV | XVI | XVII | XVIII | XIX
-
-data ConjugationFour = Fi | Fii | Fiii | Fiv
-
-
 paraVerbP v p g n = case n of
 
             Singular    ->  case (p, g) of

@@ -79,7 +79,7 @@ instance Param Aspect   where values = enum
 data Mood   = Indicative
             | Subjunctive
             | Jussive
-            | Energetic
+         -- | Energetic
     deriving (Eq, Show, Enum)
 
 instance Param Mood     where values = enum

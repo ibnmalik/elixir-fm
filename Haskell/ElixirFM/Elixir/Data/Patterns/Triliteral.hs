@@ -29,49 +29,35 @@ version = revised "$Revision$"
 
 instance Template PatternT where
 
-    interlock r p s = let cn = foldr (\ l r -> if l == 'F' ||
-                                                  l == 'C' ||
-                                                  l == 'L' then r + 1 else r)
+    interlock r p s = if isFormVIII p then (assimilate . show) p ++ s
+                                      else (substitute . show) p ++ s
 
-                          (cs, sp) = if length r == 3 && cn 0 (show p) == 4
+        where substitute x = (replace . restore) x
 
-                                then let [a, b, c] = r
-                                         shp = map (:[]) (show p)
-                                     in if isFormIX p then ([a, b, c, c], shp)
-                                                      else ([a, b, b, c], shp)
+              assimilate x = (replace . restore . init) iF
+                             ++ [z, d] ++
+                             (replace . tail) taCaL
 
-                                else let c : rs = r
-                                         shp = map (:[]) (show p)
-                                         (z, d) = assimVIII c
-                                         assimilate n = (z:rs, take n shp ++ [d] ++ drop (n + 1) shp)
+                    where (iF, taCaL) = break ('t' ==) x
+                          (z, d) = assimilateVIII (head r)
 
-                                     in if isFormVIII p then assimilate (maybe 2 id
-                                                                            (elemIndex 't' (show p)))
-                                                        else (r, shp)
+              replace x = [ maybe [c] id (lookup c lock) | c <- x ]
 
-                    in restoreInits (replaceCards cs sp) ++ s
+                    where lock = zip ['F', 'C', 'L'] r
 
-            where   restoreInits x = case x of   "H" : y    -> "'" : y
-                                                 "I" : y    -> "i" : y
-                                                 "M" : y    -> "m" : y
-                                                 "N" : y    -> "n" : y
-                                                 "S" : y    -> "s" : y
-                                                 "T" : y    -> "t" : y
-                                                 "U" : y    -> "u" : y
-                                                 _          -> x
-
-                    replaceCards cs sp = snd $ mapAccumL
-
-                                (\ l c -> case c of
-                                            "F" -> (tail l, head l)
-                                            "C" -> (tail l, head l)
-                                            "L" -> (tail l, head l)
-                                            _   -> (l, c)) cs sp
+              restore x = case x of 'H' : y -> '\'' : y
+                                    'I' : y -> 'i' : y
+                                    'M' : y -> 'm' : y
+                                    'N' : y -> 'n' : y
+                                    'S' : y -> 's' : y
+                                    'T' : y -> 't' : y
+                                    'U' : y -> 'u' : y
+                                    _       -> x
 
 
-assimVIII :: String -> (String, String)
+assimilateVIII :: String -> (String, String)
 
-assimVIII c = case c of
+assimilateVIII c = case c of
 
             "_t"    ->  (c, "_t")
             "_d"    ->  (c, "_d")
@@ -80,9 +66,9 @@ assimVIII c = case c of
             "z"     ->  (c, "d")
 
             ".s"    ->  (c, ".t")
-            ".d"     -> (c, ".t")
-            ".t"     -> (c, ".t")
-            ".z"     -> (c, ".t")
+            ".d"    ->  (c, ".t")
+            ".t"    ->  (c, ".t")
+            ".z"    ->  (c, ".t")
 
          -- "_d"    ->  ("d", "d")
             "w"     ->  ("t", "t")
@@ -130,6 +116,118 @@ isFormX :: PatternT -> Bool
 isFormX = flip elem [IstaFCaL ..]
 
 
+verbStemsI = [
+
+    (   FaCaL,      FuCiL,      FCaL,       FCaL        ),
+    (   FaCaL,      FuCiL,      FCiL,       FCaL        ),
+    (   FaCaL,      FuCiL,      FCuL,       FCaL        ),
+
+    (   FaCiL,      FuCiL,      FCaL,       FCaL        ),
+
+    (   FaCuL,      FuCiL,      FCaL,       FCaL        ),
+    (   FaCuL,      FuCiL,      FCuL,       FCaL        )
+
+    ]
+
+
+verbStemsII = [
+
+    (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
+    (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
+    (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
+    (   FaCCY,      FuCCiy,     FaCCI,      FaCCY       ),
+    (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      )
+
+    ]
+
+
+verbStemsIII = [
+
+    (   FACaL,      FUCiL,      FACiL,      FACaL       ),
+    (   FACaL,      FUCiL,      FACiL,      FACaL       ),
+    (   FACaL,      FUCiL,      FACiL,      FACaL       ),
+    (   FACY,       FUCiy,      FACI,       FACY        ),
+    (   FACL,       FUCL,       FACL,       FACL        )
+
+    ]
+
+
+verbStemsIV = [
+
+    (   HaFCaL,     HuFCiL,     FCiL,       FCaL        ),
+    (   HaFCaL,     HUCiL,      UCiL,       UCaL        ),
+    (   HaFAL,      HuFIL,      FIL,        FAL         ),
+    (   HaFCY,      HuFCiy,     FCI,        FCY         ),
+    (   HaFaCL,     HuFiCL,     FiCL,       FaCL        )
+
+    ]
+
+
+verbStemsV = [
+
+    (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
+    (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
+    (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
+    (   TaFaCCY,    TuFuCCiy,   TaFaCCY,    TaFaCCY     ),
+    (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    )
+
+    ]
+
+
+verbStemsVI = [
+
+    (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
+    (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
+    (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
+    (   TaFACY,     TuFUCiy,    TaFACY,     TaFACY      ),
+    (   TaFACL,     TuFUCL,     TaFACL,     TaFACL      )
+
+    ]
+
+
+verbStemsVII = [
+
+    (   InFaCaL,    UnFuCiL,    NFaCiL,     NFaCaL      ),
+    (   InFaCaL,    UnFuCiL,    NFaCiL,     NFaCaL      ),
+    (   InFAL,      UnFIL,      NFAL,       NFAL        ),
+    (   InFaCY,     UnFuCiy,    NFaCI,      NFaCY       ),
+    (   InFaCL,     UnFuCL,     NFaCL,      NFaCL       )
+
+    ]
+
+
+verbStemsVIII = [
+
+    (   IFtaCaL,    UFtuCiL,    FtaCiL,     FtaCaL      ),
+    (   IFtaCaL,    UFtuCiL,    FtaCiL,     FtaCaL      ),
+    (   IFtAL,      UFtIL,      FtAL,       FtAL        ),
+    (   IFtaCY,     UFtuCiy,    FtaCI,      FtaCY       ),
+    (   IFtaCL,     UFtuCL,     FtaCL,      FtaCL       )
+
+    ]
+
+
+verbStemsIX = [
+
+    (   IFCaLL,     UFCuLL,     FCaLL,      FCaLL       )
+
+    ]
+
+
+verbStemsX = [
+
+    (   IstaFCaL,   UstuFCiL,   StaFCiL,    StaFCaL     ),
+    (   IstaFCaL,   UstuFCiL,   StaFCiL,    StaFCaL     ),
+    (   IstaFAL,    UstuFIL,    StaFIL,     StaFAL      ),
+    (   IstaFCY,    UstuFCiy,   StaFCI,     StaFCY      ),
+    (   IstaFaCL,   UstuFiCL,   StaFiCL,    StaFaCL     )
+
+    ]
+
+
+-- concat $ map (\(a,b,c,d) -> [ concat $ interlock ["m","^s","y"] x [] | x <- [a,b,c,d] ] )
+
+
 data PatternT =
 
 --      |   Regular             |   First               |   Second              |   Third               |   Double
@@ -139,6 +237,8 @@ data PatternT =
             FaCaL                                       |   FAL                 |   FaCA                |   FaCL
         |   FaCiL                                                               |   FaCY
         |   FaCuL
+
+        |   FuCiL
 
         |   FCaL                |   CaL                                         |   FCY
         |   FCiL                |   CiL                 |   FIL                 |   FCI                 |   FiCL
@@ -157,7 +257,7 @@ data PatternT =
 
         |   FaCIL
 
-        |   FACiL
+     -- |   FACiL
         |   MaFCUL                                      |   MaFUL               |   MaFCIy
 
         |   FaCCAL
@@ -197,8 +297,9 @@ data PatternT =
 --  Form II
 
         |   FaCCaL                                                              |   FaCCY
-        |   FuCCiL
-        |   FaCCiL
+        |   FuCCiL                                                              |   FuCCiy
+
+        |   FaCCiL                                                              |   FaCCI
 
         |   TaFCIL
         |   TaFCiL
@@ -210,9 +311,10 @@ data PatternT =
 
 --  Form III
 
-        |   FACaL                                                               |   FACY
-        |   FUCiL
-    --  |   FACiL
+        |   FACaL                                                               |   FACY                |   FACL
+        |   FUCiL                                                               |   FUCiy               |   FUCL
+
+        |   FACiL                                                               |   FACI
 
         |   MuFACiL                                                             |   MuFACiN
         |   MuFACaL                                                             |   MuFACaNY
@@ -220,7 +322,10 @@ data PatternT =
 --  Form IV
 
         |   HaFCaL                                      |   HaFAL               |   HaFCY               |   HaFaCL
-        |   HuFCiL                                      |   HuFIL                                       |   HuFiCL
+        |   HuFCiL              |   HUCiL               |   HuFIL               |   HuFCiy              |   HuFiCL
+
+                                |   UCiL
+                                |   UCaL
 
         |   HiFCAL              |   HICAL                                       |   HiFCA'
         |   HiFCaL              |   HICaL               |   HiFAL                                       |   HiFaCL
@@ -233,7 +338,7 @@ data PatternT =
 --  Form V
 
         |   TaFaCCaL                                                            |   TaFaCCY
-        |   TuFuCCiL
+        |   TuFuCCiL                                                            |   TuFuCCiy
 
         |   TaFaCCuL                                                            |   TaFaCCiN
 
@@ -242,8 +347,8 @@ data PatternT =
 
 --  Form VI
 
-        |   TaFACaL                                                             |   TaFACY
-        |   TuFUCiL
+        |   TaFACaL                                                             |   TaFACY              |   TaFACL
+        |   TuFUCiL                                                             |   TuFUCiy             |   TuFUCL
 
         |   TaFACuL                                                             |   TaFACiN
 
@@ -253,7 +358,7 @@ data PatternT =
 --  Form VII
 
         |   InFaCaL                                     |   InFAL               |   InFaCY              |   InFaCL
-        |   UnFuCiL                                     |   UnFIL                                       |   UnFuCL
+        |   UnFuCiL                                     |   UnFIL               |   UnFuCiy             |   UnFuCL
 
         |   NFaCiL                                      |   NFAL                |   NFaCI               |   NFaCL
         |   NFaCaL                                                              |   NFaCY
@@ -266,7 +371,7 @@ data PatternT =
 --  Form VIII
 
         |   IFtaCaL                                     |   IFtAL               |   IFtaCY              |   IFtaCL
-        |   UFtuCiL                                     |   UFtIL                                       |   UFtuCL
+        |   UFtuCiL                                     |   UFtIL               |   UFtuCiy             |   UFtuCL
 
         |   FtaCiL                                      |   FtAL                |   FtaCI               |   FtaCL
         |   FtaCaL                                                              |   FtaCY
@@ -279,6 +384,9 @@ data PatternT =
 --  Form IX
 
         |   IFCaLL
+        |   UFCuLL
+
+        |   FCaLL
 
         |   IFCiLAL
 
@@ -287,7 +395,7 @@ data PatternT =
 --  Form X
 
         |   IstaFCaL                                    |   IstaFAL             |   IstaFCY             |   IstaFaCL
-        |   UstuFCiL                                    |   UstuFIL                                     |   UstuFiCL
+        |   UstuFCiL                                    |   UstuFIL             |   UstuFCiy            |   UstuFiCL
 
         |   StaFCiL                                     |   StaFIL              |   StaFCI              |   StaFiCL
         |   StaFCaL                                     |   StaFAL              |   StaFCY              |   StaFaCL
