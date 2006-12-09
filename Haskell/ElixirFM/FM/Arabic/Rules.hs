@@ -73,17 +73,14 @@ instance Inflect Entry ParaVerb where
 
 instance Inflect RootEntry ParaVerb where
 
-    inflect (RE r e) f = case f of
+    inflect (RE r e) f = (:[]) $ case f of
 
-        VerbP   v p g n ->
-        VerbI m v p g n ->
-        VerbC       g n ->
+        VerbP   v p g n -> paraVerbP   v p g n s
+        VerbI m v p g n -> paraVerbI m v p g n s
+        VerbC       g n -> paraVerbC       g n s
 
-
-
-
-    paraVerb "facal" y
-
+        where s = (concat (interlock (rootCons r)
+                                 (morphs e) []))
 
 
 instance Inflect RootEntry ParaNoun where
@@ -330,11 +327,6 @@ paraVerbP v p g n = case n of
                 (Second, Feminine)  ->  suffix "tunn-a"
                 (First,      _    ) ->  suffix "nA"
 
-    ]
-
-    where daras_duris = case v of Active    ->  "daras"
-                                  Passive   ->  "duris"
-
 
 paraVerbI m v p g n = case m of
 
@@ -422,10 +414,6 @@ paraVerbI m v p g n = case m of
                 (First,      _    ) ->  prefix "n" . suffix ""
 
 
-    where daras_duris = case v of Active    ->  "adrus"
-                                  Passive   ->  "udras"
-
-
 paraVerbC g n = case n of
 
             Singular    ->  case g of
@@ -441,6 +429,3 @@ paraVerbC g n = case n of
 
                 Masculine ->  prefix "u" . suffix "UA"
                 Feminine  ->  prefix "u" . suffix "na"
-
-
-    where daras = "drus"

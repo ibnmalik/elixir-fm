@@ -62,6 +62,7 @@ instance Template PatternQ where
                                                  "I" : y    -> "i" : y
                                                  "M" : y    -> "m" : y
                                                  "T" : y    -> "t" : y
+                                                 "U" : y    -> "u" : y
                                                  _          -> x
 
                     replaceCards cs sp = snd $ mapAccumL

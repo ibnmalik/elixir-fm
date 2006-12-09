@@ -54,7 +54,10 @@ instance Template PatternT where
             where   restoreInits x = case x of   "H" : y    -> "'" : y
                                                  "I" : y    -> "i" : y
                                                  "M" : y    -> "m" : y
+                                                 "N" : y    -> "n" : y
+                                                 "S" : y    -> "s" : y
                                                  "T" : y    -> "t" : y
+                                                 "U" : y    -> "u" : y
                                                  _          -> x
 
                     replaceCards cs sp = snd $ mapAccumL
@@ -217,6 +220,7 @@ data PatternT =
 --  Form IV
 
         |   HaFCaL                                      |   HaFAL               |   HaFCY               |   HaFaCL
+        |   HuFCiL                                      |   HuFIL                                       |   HuFiCL
 
         |   HiFCAL              |   HICAL                                       |   HiFCA'
         |   HiFCaL              |   HICaL               |   HiFAL                                       |   HiFaCL
@@ -249,6 +253,10 @@ data PatternT =
 --  Form VII
 
         |   InFaCaL                                     |   InFAL               |   InFaCY              |   InFaCL
+        |   UnFuCiL                                     |   UnFIL                                       |   UnFuCL
+
+        |   NFaCiL                                      |   NFAL                |   NFaCI               |   NFaCL
+        |   NFaCaL                                                              |   NFaCY
 
         |   InFiCAL                                     |   InFiyAL             |   InFiCA'
 
@@ -258,6 +266,10 @@ data PatternT =
 --  Form VIII
 
         |   IFtaCaL                                     |   IFtAL               |   IFtaCY              |   IFtaCL
+        |   UFtuCiL                                     |   UFtIL                                       |   UFtuCL
+
+        |   FtaCiL                                      |   FtAL                |   FtaCI               |   FtaCL
+        |   FtaCaL                                                              |   FtaCY
 
         |   IFtiCAL                                     |   IFtiyAL             |   IFtiCA'
 
@@ -275,6 +287,10 @@ data PatternT =
 --  Form X
 
         |   IstaFCaL                                    |   IstaFAL             |   IstaFCY             |   IstaFaCL
+        |   UstuFCiL                                    |   UstuFIL                                     |   UstuFiCL
+
+        |   StaFCiL                                     |   StaFIL              |   StaFCI              |   StaFiCL
+        |   StaFCaL                                     |   StaFAL              |   StaFCY              |   StaFaCL
 
         |   IstiFCAL            |   IstICAL             |   IstiFAL             |   IstiFCA'
 
