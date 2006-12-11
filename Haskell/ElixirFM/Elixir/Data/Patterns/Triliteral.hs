@@ -20,8 +20,6 @@ module Elixir.Data.Patterns.Triliteral where
 
 import Elixir.Template
 
-import Data.List
-
 import Version
 
 version = revised "$Revision$"
@@ -29,8 +27,8 @@ version = revised "$Revision$"
 
 instance Template PatternT where
 
-    interlock r p s = if isFormVIII p then (assimilate . show) p ++ s
-                                      else (substitute . show) p ++ s
+    interlock r p s = if isForm VIII p then (assimilate . show) p ++ s
+                                       else (substitute . show) p ++ s
 
         where substitute x = (replace . restore) x
 
@@ -39,7 +37,7 @@ instance Template PatternT where
                              (replace . tail) taCaL
 
                     where (iF, taCaL) = break ('t' ==) x
-                          (z, d) = assimilateVIII (head r)
+                          (z, d) = assimilating (head r)
 
               replace x = [ maybe [c] id (lookup c lock) | c <- x ]
 
@@ -55,9 +53,9 @@ instance Template PatternT where
                                     _       -> x
 
 
-assimilateVIII :: String -> (String, String)
+assimilating :: String -> (String, String)
 
-assimilateVIII c = case c of
+assimilating c = case c of
 
             "_t"    ->  (c, "_t")
             "_d"    ->  (c, "_d")
@@ -76,153 +74,129 @@ assimilateVIII c = case c of
             _       ->  (c, "t")
 
 
-isFormI :: PatternT -> Bool
-isFormI = flip elem (init [FaCaL .. FaCCaL])
+instance Forming PatternT where
+
+    isForm f x = x `elem` case f of
+
+                            I       ->  init [FaCaL .. FaCCaL]
+                            II      ->  init [FaCCaL .. FACaL]
+                            III     ->  init [FACaL .. HaFCaL]
+                            IV      ->  init [HaFCaL .. TaFaCCaL]
+                            V       ->  init [TaFaCCaL .. TaFACaL]
+                            VI      ->  init [TaFACaL .. InFaCaL]
+                            VII     ->  init [InFaCaL .. IFtaCaL]
+                            VIII    ->  init [IFtaCaL .. IFCaLL]
+                            IX      ->  init [IFCaLL .. IstaFCaL]
+                            X       ->  [IstaFCaL ..]
 
 
-isFormII :: PatternT -> Bool
-isFormII = flip elem (init [FaCCaL .. FACaL])
+    verbStems I = [
+
+        (   FaCaL,      FuCiL,      FCaL,       FCaL        ),
+        (   FaCaL,      FuCiL,      FCiL,       FCaL        ),
+        (   FaCaL,      FuCiL,      FCuL,       FCaL        ),
+
+        (   FaCiL,      FuCiL,      FCaL,       FCaL        ),
+
+        (   FaCuL,      FuCiL,      FCaL,       FCaL        ),
+        (   FaCuL,      FuCiL,      FCuL,       FCaL        )
+
+        ]
 
 
-isFormIII :: PatternT -> Bool
-isFormIII = flip elem (init [FACaL .. HaFCaL])
+    verbStems II = [
+
+        (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
+        (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
+        (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
+        (   FaCCY,      FuCCiy,     FaCCI,      FaCCY       ),
+        (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      )
+
+        ]
 
 
-isFormIV :: PatternT -> Bool
-isFormIV = flip elem (init [HaFCaL .. TaFaCCaL])
+    verbStems III = [
+
+        (   FACaL,      FUCiL,      FACiL,      FACaL       ),
+        (   FACaL,      FUCiL,      FACiL,      FACaL       ),
+        (   FACaL,      FUCiL,      FACiL,      FACaL       ),
+        (   FACY,       FUCiy,      FACI,       FACY        ),
+        (   FACL,       FUCL,       FACL,       FACL        )
+
+        ]
 
 
-isFormV :: PatternT -> Bool
-isFormV = flip elem (init [TaFaCCaL .. TaFACaL])
+    verbStems IV = [
+
+        (   HaFCaL,     HuFCiL,     FCiL,       FCaL        ),
+        (   HaFCaL,     HUCiL,      UCiL,       UCaL        ),
+        (   HaFAL,      HuFIL,      FIL,        FAL         ),
+        (   HaFCY,      HuFCiy,     FCI,        FCY         ),
+        (   HaFaCL,     HuFiCL,     FiCL,       FaCL        )
+
+        ]
 
 
-isFormVI :: PatternT -> Bool
-isFormVI = flip elem (init [TaFACaL .. InFaCaL])
+    verbStems V = [
+
+        (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
+        (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
+        (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
+        (   TaFaCCY,    TuFuCCiy,   TaFaCCY,    TaFaCCY     ),
+        (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    )
+
+        ]
 
 
-isFormVII :: PatternT -> Bool
-isFormVII = flip elem (init [InFaCaL .. IFtaCaL])
+    verbStems VI = [
+
+        (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
+        (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
+        (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
+        (   TaFACY,     TuFUCiy,    TaFACY,     TaFACY      ),
+        (   TaFACL,     TuFUCL,     TaFACL,     TaFACL      )
+
+        ]
 
 
-isFormVIII :: PatternT -> Bool
-isFormVIII = flip elem (init [IFtaCaL .. IFCaLL])
+    verbStems VII = [
+
+        (   InFaCaL,    UnFuCiL,    NFaCiL,     NFaCaL      ),
+        (   InFaCaL,    UnFuCiL,    NFaCiL,     NFaCaL      ),
+        (   InFAL,      UnFIL,      NFAL,       NFAL        ),
+        (   InFaCY,     UnFuCiy,    NFaCI,      NFaCY       ),
+        (   InFaCL,     UnFuCL,     NFaCL,      NFaCL       )
+
+        ]
 
 
-isFormIX :: PatternT -> Bool
-isFormIX = flip elem (init [IFCaLL .. IstaFCaL])
+    verbStems VIII = [
+
+        (   IFtaCaL,    UFtuCiL,    FtaCiL,     FtaCaL      ),
+        (   IFtaCaL,    UFtuCiL,    FtaCiL,     FtaCaL      ),
+        (   IFtAL,      UFtIL,      FtAL,       FtAL        ),
+        (   IFtaCY,     UFtuCiy,    FtaCI,      FtaCY       ),
+        (   IFtaCL,     UFtuCL,     FtaCL,      FtaCL       )
+
+        ]
 
 
-isFormX :: PatternT -> Bool
-isFormX = flip elem [IstaFCaL ..]
+    verbStems IX = [
+
+        (   IFCaLL,     UFCuLL,     FCaLL,      FCaLL       )
+
+        ]
 
 
-verbStemsI = [
+    verbStems X = [
 
-    (   FaCaL,      FuCiL,      FCaL,       FCaL        ),
-    (   FaCaL,      FuCiL,      FCiL,       FCaL        ),
-    (   FaCaL,      FuCiL,      FCuL,       FCaL        ),
+        (   IstaFCaL,   UstuFCiL,   StaFCiL,    StaFCaL     ),
+        (   IstaFCaL,   UstuFCiL,   StaFCiL,    StaFCaL     ),
+        (   IstaFAL,    UstuFIL,    StaFIL,     StaFAL      ),
+        (   IstaFCY,    UstuFCiy,   StaFCI,     StaFCY      ),
+        (   IstaFaCL,   UstuFiCL,   StaFiCL,    StaFaCL     )
 
-    (   FaCiL,      FuCiL,      FCaL,       FCaL        ),
-
-    (   FaCuL,      FuCiL,      FCaL,       FCaL        ),
-    (   FaCuL,      FuCiL,      FCuL,       FCaL        )
-
-    ]
-
-
-verbStemsII = [
-
-    (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
-    (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
-    (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
-    (   FaCCY,      FuCCiy,     FaCCI,      FaCCY       ),
-    (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      )
-
-    ]
-
-
-verbStemsIII = [
-
-    (   FACaL,      FUCiL,      FACiL,      FACaL       ),
-    (   FACaL,      FUCiL,      FACiL,      FACaL       ),
-    (   FACaL,      FUCiL,      FACiL,      FACaL       ),
-    (   FACY,       FUCiy,      FACI,       FACY        ),
-    (   FACL,       FUCL,       FACL,       FACL        )
-
-    ]
-
-
-verbStemsIV = [
-
-    (   HaFCaL,     HuFCiL,     FCiL,       FCaL        ),
-    (   HaFCaL,     HUCiL,      UCiL,       UCaL        ),
-    (   HaFAL,      HuFIL,      FIL,        FAL         ),
-    (   HaFCY,      HuFCiy,     FCI,        FCY         ),
-    (   HaFaCL,     HuFiCL,     FiCL,       FaCL        )
-
-    ]
-
-
-verbStemsV = [
-
-    (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
-    (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
-    (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
-    (   TaFaCCY,    TuFuCCiy,   TaFaCCY,    TaFaCCY     ),
-    (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    )
-
-    ]
-
-
-verbStemsVI = [
-
-    (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
-    (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
-    (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
-    (   TaFACY,     TuFUCiy,    TaFACY,     TaFACY      ),
-    (   TaFACL,     TuFUCL,     TaFACL,     TaFACL      )
-
-    ]
-
-
-verbStemsVII = [
-
-    (   InFaCaL,    UnFuCiL,    NFaCiL,     NFaCaL      ),
-    (   InFaCaL,    UnFuCiL,    NFaCiL,     NFaCaL      ),
-    (   InFAL,      UnFIL,      NFAL,       NFAL        ),
-    (   InFaCY,     UnFuCiy,    NFaCI,      NFaCY       ),
-    (   InFaCL,     UnFuCL,     NFaCL,      NFaCL       )
-
-    ]
-
-
-verbStemsVIII = [
-
-    (   IFtaCaL,    UFtuCiL,    FtaCiL,     FtaCaL      ),
-    (   IFtaCaL,    UFtuCiL,    FtaCiL,     FtaCaL      ),
-    (   IFtAL,      UFtIL,      FtAL,       FtAL        ),
-    (   IFtaCY,     UFtuCiy,    FtaCI,      FtaCY       ),
-    (   IFtaCL,     UFtuCL,     FtaCL,      FtaCL       )
-
-    ]
-
-
-verbStemsIX = [
-
-    (   IFCaLL,     UFCuLL,     FCaLL,      FCaLL       )
-
-    ]
-
-
-verbStemsX = [
-
-    (   IstaFCaL,   UstuFCiL,   StaFCiL,    StaFCaL     ),
-    (   IstaFCaL,   UstuFCiL,   StaFCiL,    StaFCaL     ),
-    (   IstaFAL,    UstuFIL,    StaFIL,     StaFAL      ),
-    (   IstaFCY,    UstuFCiy,   StaFCI,     StaFCY      ),
-    (   IstaFaCL,   UstuFiCL,   StaFiCL,    StaFaCL     )
-
-    ]
+        ]
 
 
 -- concat $ map (\(a,b,c,d) -> [ concat $ interlock ["m","^s","y"] x [] | x <- [a,b,c,d] ] )

@@ -37,6 +37,13 @@
 module FM where
 
 
+import FM.Generic.General
+import FM.Arabic.Rules
+import FM.Arabic.Types
+
+import Elixir.Lexicon
+import Elixir.Data.Patterns
+
 import Encode
 
 import Version

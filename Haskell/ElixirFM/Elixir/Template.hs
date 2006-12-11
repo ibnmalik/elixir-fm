@@ -28,6 +28,18 @@ class Template a where
     interlock :: [String] -> a -> [String] -> [String]
 
 
+class Forming a where
+
+    isForm :: Form -> a -> Bool
+
+    verbStems :: Form -> [(a, a, a, a)]
+
+
+data Form = I | II | III | IV | V | VI | VII | VIII | IX | X
+
+    deriving (Show, Eq, Enum)
+
+
 class Morphing m where
 
     (>|) :: m Prefix -> a -> m a
@@ -49,7 +61,7 @@ infixl 8 :|<:
 
 data Morphs a = Morphs a [Prefix] [Suffix]
 
-    deriving Show
+    deriving (Show, Eq)
 
 
 instance Morphing Morphs where

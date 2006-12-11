@@ -20,8 +20,6 @@ module Elixir.Data.Patterns.Quadriliteral where
 
 import Elixir.Template
 
-import Data.List
-
 import Version
 
 version = revised "$Revision$"
@@ -53,6 +51,9 @@ instance Template PatternQ where
                                     'T' : y -> 't' : y
                                     'U' : y -> 'u' : y
                                     _       -> x
+
+
+instance Forming PatternQ
 
 
 data PatternQ =

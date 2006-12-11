@@ -40,6 +40,8 @@ import Elixir.Template
 
 import Elixir.Lexicon
 
+import Elixir.Data.Patterns.Triliteral
+
 type Root = String
 
 
@@ -56,7 +58,7 @@ class (Morphing m, Param b) => Inflect m b where
 
 --    inflect :: Template b => a -> b -> Root -> [String]
 
-    inflect :: Template a => m a -> b -> [String]
+    inflect :: (Template a, Rules a) => m a -> b -> [String]
 
 {-
     prefix :: m a -> m a -> m a
@@ -75,12 +77,100 @@ instance Inflect RootEntry ParaVerb where
 
     inflect (RE r e) f = (:[]) $ case f of
 
-        VerbP   v p g n -> paraVerbP   v p g n s
-        VerbI m v p g n -> paraVerbI m v p g n s
-        VerbC       g n -> paraVerbC       g n s
+        VerbP   v p g n -> paraVerbP   v p g n (stem t)
 
-        where s = (concat (interlock (rootCons r)
-                                 (morphs e) []))
+            where t = case v of Active  -> pa
+                                Passive -> pp
+                  (_, (pa, pp, _, _)) = findStem e
+
+        VerbI m v p g n -> paraVerbI m v p g n i (stem t)
+
+            where t = case v of Active  -> ia
+                                Passive -> ip
+                  (x, (_, _, ia, ip)) = findStem e
+                  i = imperfectPrefix x v t
+
+        VerbC       g n -> paraVerbC       g n i (stem t)
+
+            where t = ia
+                  (x, (_, _, ia, _)) = findStem e
+                  i = imperativePrefix x t
+
+        where stem s = (concat . interlock (rootCons r)
+                                           (s)) []
+
+              findStem e = case findForm e of
+
+                            x : _ -> x
+                            _     -> error "Form not found"
+
+              findForm e = {-(concat . map
+                           (filter (\ (x, (a, _, _, _)) -> morph a == morphs e))
+                            . map (\ x -> (x, verbStems x)))
+                           [I .. X]-}
+                           [ (x, y) | x <- [I .. X], y <- verbStems x,
+                                      let (a, _, _, _) = y, morph a == morphs e ]
+
+
+
+class (Eq a, Forming a) => Rules a where
+
+    imperfectPrefix :: Form -> Voice -> a -> String
+
+    imperativePrefix :: Form -> a -> String
+
+
+instance Rules PatternT where
+
+    imperfectPrefix x v t =
+
+        if elem x [II .. IV] || v == Passive
+
+            then "u"
+            else "a"
+
+    imperativePrefix x t =
+
+        if x == I
+
+            then case t of FCuL -> "u"
+                           _    -> "i"
+
+            else if x == IV
+
+                then "'a"
+                else if elem x [VII .. X]
+
+                        then "i"
+                        else ""
+
+{-
+    imperfectPrefix v t =
+
+        if any (`isForm` t) [II .. IV]
+           || v == Passive
+
+            then "u"
+            else "a"
+
+    imperativePrefix t =
+
+        if any (`isForm` t) [I]
+
+            then case t of FCuL -> "u"
+                           _    -> "i"
+
+            else if any (`isForm` t) [VII .. X]
+
+                    then "i"
+                    else ""
+-}
+
+instance Rules PatternQ where
+
+    imperfectPrefix _ _ _ = "u"
+
+    imperativePrefix _ _ = ""
 
 
 instance Inflect RootEntry ParaNoun where
@@ -319,7 +409,7 @@ paraVerbP v p g n = case n of
                 (First,      _    ) ->  suffix "nA"
 
 
-paraVerbI m v p g n = case m of
+paraVerbI m v p g n i = case m of
 
       Indicative ->
 
@@ -327,26 +417,26 @@ paraVerbI m v p g n = case m of
 
             Singular    ->  case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . suffix "-u"
-                (Third,  Feminine)  ->  prefix "t" . suffix "-u"
-                (Second, Masculine) ->  prefix "t" . suffix "-u"
-                (Second, Feminine)  ->  prefix "t" . suffix "In-a"
-                (First,      _    ) ->  prefix "'" . suffix "-u"
+                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "-u"
+                (Third,  Feminine)  ->  prefix "t" . prefix i . suffix "-u"
+                (Second, Masculine) ->  prefix "t" . prefix i . suffix "-u"
+                (Second, Feminine)  ->  prefix "t" . prefix i . suffix "In-a"
+                (First,      _    ) ->  prefix "'" . prefix i . suffix "-u"
 
             Dual        -> case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . suffix "An-i"
-                (Third,  Feminine)  ->  prefix "t" . suffix "An-i"
-                (Second,     _    ) ->  prefix "t" . suffix "An-i"
-                (First,      _    ) ->  prefix "n" . suffix "-u"
+                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "An-i"
+                (Third,  Feminine)  ->  prefix "t" . prefix i . suffix "An-i"
+                (Second,     _    ) ->  prefix "t" . prefix i . suffix "An-i"
+                (First,      _    ) ->  prefix "n" . prefix i . suffix "-u"
 
             Plural      -> case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . suffix "Un-a"
-                (Third,  Feminine)  ->  prefix "y" . suffix "n-a"
-                (Second, Masculine) ->  prefix "t" . suffix "Un-a"
-                (Second, Feminine)  ->  prefix "t" . suffix "n-a"
-                (First,      _    ) ->  prefix "n" . suffix "-u"
+                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "Un-a"
+                (Third,  Feminine)  ->  prefix "y" . prefix i . suffix "n-a"
+                (Second, Masculine) ->  prefix "t" . prefix i . suffix "Un-a"
+                (Second, Feminine)  ->  prefix "t" . prefix i . suffix "n-a"
+                (First,      _    ) ->  prefix "n" . prefix i . suffix "-u"
 
 
       Subjunctive ->
@@ -355,26 +445,26 @@ paraVerbI m v p g n = case m of
 
             Singular    ->  case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . suffix "-a"
-                (Third,  Feminine)  ->  prefix "t" . suffix "-a"
-                (Second, Masculine) ->  prefix "t" . suffix "-a"
-                (Second, Feminine)  ->  prefix "t" . suffix "I"
-                (First,      _    ) ->  prefix "'" . suffix "-a"
+                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "-a"
+                (Third,  Feminine)  ->  prefix "t" . prefix i . suffix "-a"
+                (Second, Masculine) ->  prefix "t" . prefix i . suffix "-a"
+                (Second, Feminine)  ->  prefix "t" . prefix i . suffix "I"
+                (First,      _    ) ->  prefix "'" . prefix i . suffix "-a"
 
             Dual        -> case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . suffix "A"
-                (Third,  Feminine)  ->  prefix "t" . suffix "A"
-                (Second,     _    ) ->  prefix "t" . suffix "A"
-                (First,      _    ) ->  prefix "n" . suffix "-a"
+                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "A"
+                (Third,  Feminine)  ->  prefix "t" . prefix i . suffix "A"
+                (Second,     _    ) ->  prefix "t" . prefix i . suffix "A"
+                (First,      _    ) ->  prefix "n" . prefix i . suffix "-a"
 
             Plural      -> case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . suffix "UW"
-                (Third,  Feminine)  ->  prefix "y" . suffix "n-a"
-                (Second, Masculine) ->  prefix "t" . suffix "UW"
-                (Second, Feminine)  ->  prefix "t" . suffix "n-a"
-                (First,      _    ) ->  prefix "n" . suffix "-a"
+                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "UW"
+                (Third,  Feminine)  ->  prefix "y" . prefix i . suffix "n-a"
+                (Second, Masculine) ->  prefix "t" . prefix i . suffix "UW"
+                (Second, Feminine)  ->  prefix "t" . prefix i . suffix "n-a"
+                (First,      _    ) ->  prefix "n" . prefix i . suffix "-a"
 
 
       Jussive     ->
@@ -383,40 +473,40 @@ paraVerbI m v p g n = case m of
 
             Singular    ->  case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . suffix ""
-                (Third,  Feminine)  ->  prefix "t" . suffix ""
-                (Second, Masculine) ->  prefix "t" . suffix ""
-                (Second, Feminine)  ->  prefix "t" . suffix "I"
-                (First,      _    ) ->  prefix "'" . suffix ""
+                (Third,  Masculine) ->  prefix "y" . prefix i . suffix ""
+                (Third,  Feminine)  ->  prefix "t" . prefix i . suffix ""
+                (Second, Masculine) ->  prefix "t" . prefix i . suffix ""
+                (Second, Feminine)  ->  prefix "t" . prefix i . suffix "I"
+                (First,      _    ) ->  prefix "'" . prefix i . suffix ""
 
             Dual        -> case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . suffix "A"
-                (Third,  Feminine)  ->  prefix "t" . suffix "A"
-                (Second,     _    ) ->  prefix "t" . suffix "A"
-                (First,      _    ) ->  prefix "n" . suffix ""
+                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "A"
+                (Third,  Feminine)  ->  prefix "t" . prefix i . suffix "A"
+                (Second,     _    ) ->  prefix "t" . prefix i . suffix "A"
+                (First,      _    ) ->  prefix "n" . prefix i . suffix ""
 
             Plural      -> case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . suffix "UW"
-                (Third,  Feminine)  ->  prefix "y" . suffix "n-a"
-                (Second, Masculine) ->  prefix "t" . suffix "UW"
-                (Second, Feminine)  ->  prefix "t" . suffix "n-a"
-                (First,      _    ) ->  prefix "n" . suffix ""
+                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "UW"
+                (Third,  Feminine)  ->  prefix "y" . prefix i . suffix "n-a"
+                (Second, Masculine) ->  prefix "t" . prefix i . suffix "UW"
+                (Second, Feminine)  ->  prefix "t" . prefix i . suffix "n-a"
+                (First,      _    ) ->  prefix "n" . prefix i . suffix ""
 
 
-paraVerbC g n = case n of
+paraVerbC g n i = case n of
 
             Singular    ->  case g of
 
-                Masculine ->  prefix "u"
-                Feminine  ->  prefix "u" . suffix "-I"
+                Masculine ->  prefix i
+                Feminine  ->  prefix i . suffix "-I"
 
             Dual        -> case g of
 
-                _         ->  prefix "u" . suffix "A"
+                _         ->  prefix i . suffix "A"
 
             Plural      -> case g of
 
-                Masculine ->  prefix "u" . suffix "UA"
-                Feminine  ->  prefix "u" . suffix "na"
+                Masculine ->  prefix i . suffix "UA"
+                Feminine  ->  prefix i . suffix "na"

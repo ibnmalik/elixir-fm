@@ -34,9 +34,9 @@ data ParaVerb   = VerbP      Voice Person Gender Number
 instance Param ParaVerb where
 
     values  =  [ VerbP   v p g n | v <- values,
-                                   n <- values, g <- values, p <- values ]
+                                   n <- values, p <- values, g <- values ]
             ++ [ VerbI m v p g n | m <- values, v <- values,
-                                   n <- values, g <- values, p <- values ]
+                                   n <- values, p <- values, g <- values ]
             ++ [ VerbC       g n | n <- values, g <- values ]
 
 
@@ -141,15 +141,15 @@ instance Param ParaNoun where
 
 instance Show ParaNoun where
 
-    show (NounS     n c d s) = "NS-----" ++ [show' n, show' c, show' (d, s)]
+    show (NounS     n c d s) = "NS-----" ++ [show' n, show' c, show'' d s]
                                 ++ "\n"
 
     show (NounP v g n c d s) = "NP-" ++ [show' v] ++ "--"
-                                ++ [show' g, show' n, show' c, show' (d, s)]
+                                ++ [show' g, show' n, show' c, show'' d s]
                                 ++ "\n"
 
     show (NounA   g n c d s) = "NA----"
-                                ++ [show' g, show' n, show' c, show' (d, s)]
+                                ++ [show' g, show' n, show' c, show'' d s]
                                 ++ "\n"
 
 
@@ -163,22 +163,16 @@ instance Enum ParaNoun where
 
 type Defin = DefArt
 
-{-
-instance Eq Defin {- where
 
-    (==) x y = (fst x == fst y) && (snd x == snd y) -}
+show'' :: DefArt -> State -> Char
 
-instance Show Defin where
+show'' Absent   Absolute  = head "I"
+show'' Absent   Construct = head "R"
+show'' Explicit Absolute  = head "D"
+show'' Explicit Construct = head "C"
+show'' Implicit Absolute  = head "D"
+show'' Implicit Construct = head "C"
 
-    show (Absent,  Absolute)  = "I"
-    show (Absent,  Construct) = "R"
-    show (Explicit, Absolute)  = "D"
-    show (Explicit, Construct) = "C"
-    show (Implicit, Absolute)  = "D"
-    show (Implicit, Construct) = "C"
-
-instance Param Defin    where values = [ (x, y) | x <- values, y <- values ]
--}
 
 data DefArt = Explicit
             | Implicit
