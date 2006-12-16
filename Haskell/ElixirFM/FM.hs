@@ -45,6 +45,7 @@ import Elixir.Lexicon
 import Elixir.Data.Patterns
 
 import Encode
+import Encode.Arabic
 
 import Version
 

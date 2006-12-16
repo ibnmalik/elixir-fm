@@ -42,18 +42,26 @@ instance Param ParaVerb where
 
 instance Show ParaVerb where
 
-    show (VerbP   v p g n) = "VP-" ++ [show' v] ++ "-" ++
-                                [show' p, show' g, show' n] ++ "--\n"
+    show (VerbP   v p g n) = nicer $
+                                "VP-" ++ [show' v] ++ "-" ++
+                                   [show' p, show' g, show' n] ++ "--"
 
-    show (VerbI m v p g n) = "VI" ++ [show' m, show' v] ++ "-" ++
-                                [show' p, show' g, show' n] ++ "--\n"
+    show (VerbI m v p g n) = nicer $
+                                "VI" ++ [show' m, show' v] ++ "-" ++
+                                   [show' p, show' g, show' n] ++ "--"
 
-    show (VerbC       g n) = "VC----" ++ [show' g, show' n] ++ "--\n"
+    show (VerbC       g n) = nicer $
+                                "VC----" ++ [show' g, show' n] ++ "--"
 
 
 show' :: Show a => a -> Char
 
 show' = head . show
+
+
+nicer :: String -> String
+
+nicer = (++) "\n"
 
 
 --instance Inflect ParaVerb
@@ -141,16 +149,16 @@ instance Param ParaNoun where
 
 instance Show ParaNoun where
 
-    show (NounS     n c d s) = "NS-----" ++ [show' n, show' c, show'' d s]
-                                ++ "\n"
+    show (NounS     n c d s) = nicer $
+                                "NS-----" ++ [show' n, show' c, show'' d s]
 
-    show (NounP v g n c d s) = "NP-" ++ [show' v] ++ "--"
-                                ++ [show' g, show' n, show' c, show'' d s]
-                                ++ "\n"
+    show (NounP v g n c d s) = nicer $
+                                "NP-" ++ [show' v] ++ "--" ++
+                                    [show' g, show' n, show' c, show'' d s]
 
-    show (NounA   g n c d s) = "NA----"
-                                ++ [show' g, show' n, show' c, show'' d s]
-                                ++ "\n"
+    show (NounA   g n c d s) = nicer $
+                                "NA----" ++
+                                    [show' g, show' n, show' c, show'' d s]
 
 
 --instance Inflect ParaNoun
@@ -243,12 +251,15 @@ instance Param ParaPron where
 
 instance Show ParaPron where
 
-    show (PronN p g n c) = "SN---" ++ [show' p, show' g, show' n, show' c]
-                                                                   ++ "-\n"
+    show (PronN p g n c) = nicer $
+                            "SN---" ++
+                               [show' p, show' g, show' n, show' c] ++ "-"
 
-    show (PronD   g n c) = "SD----" ++ [show' g, show' n, show' c] ++ "-\n"
+    show (PronD   g n c) = nicer $
+                            "SD----" ++ [show' g, show' n, show' c] ++ "-"
 
-    show (PronR   g n c) = "SR----" ++ [show' g, show' n, show' c] ++ "-\n"
+    show (PronR   g n c) = nicer $
+                            "SR----" ++ [show' g, show' n, show' c] ++ "-"
 
 
 --instance Inflect ParaPron
