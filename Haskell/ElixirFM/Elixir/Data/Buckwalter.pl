@@ -1,6 +1,11 @@
-#!/usr/bin/perl -w ###################################################################### 2006/10/11
+# ####################################################################################### 2006/10/11
 #
-# Buck2Elixir.pl ####################################################################### Otakar Smrz
+# Elixir Using Buckwalter Lexicon ###################################################### Otakar Smrz
+
+# $Id$
+
+our $VERSION = do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
+
 
 use Encode::Arabic;
 
@@ -14,7 +19,7 @@ sub convertBuck2TeX ($) {
     $entry =~ tr[{][A];
     $entry =~ s/AF/FA/;
 
-    $entry = encode "arabtex", decode 'buckwalter', $entry;
+    $entry = encode "arabtex", decode "buckwalter", $entry;
 
     $entry =~ s/\'\\shadda\{\}/\'\'/g;
     $entry =~ s/aY/Y/;
