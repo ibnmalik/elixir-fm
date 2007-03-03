@@ -497,10 +497,10 @@ paraVerbI m v p g n i = case m of
 
 paraVerbC g n i = case n of
 
-            Singular    ->  case g of
+            Singular    -> case g of
 
                 Masculine ->  prefix i
-                Feminine  ->  prefix i . suffix "-I"
+                Feminine  ->  prefix i . suffix "I"
 
             Dual        -> case g of
 
@@ -509,4 +509,4 @@ paraVerbC g n i = case n of
             Plural      -> case g of
 
                 Masculine ->  prefix i . suffix "UA"
-                Feminine  ->  prefix i . suffix "na"
+                Feminine  ->  prefix i . suffix "n-a"
