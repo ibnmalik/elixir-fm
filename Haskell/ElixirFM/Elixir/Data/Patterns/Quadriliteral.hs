@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Data.Patterns.Quadriliteral
--- Copyright   :  Otakar Smrz 2005-2006
+-- Copyright   :  Otakar Smrz 2005-2007
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -84,8 +84,11 @@ data PatternQ =
 
         |   KaRADIS
 
+    deriving (Enum, Show, Eq)
+
 
 {-
+
 ;--- [^thfElmAwynTH][^thfElmAwynTH][^thfElmAwynTH][^thfElmAwynTH]$
 
 Lexicons\07-letter-Khaa.dat(910): ;--- xrb$
@@ -100,7 +103,6 @@ Lexicons\21-letter-Qaaf.dat(2641): ;--- qzdr
 Lexicons\21-letter-Qaaf.dat(3460): ;--- qSdr
 Lexicons\22-letter-Kaaf.dat(1581): ;--- krbj
 Lexicons\22-letter-Kaaf.dat(1720): ;--- krds
-
 
 Lexicons\02-letter-Baa.dat(1951): ;--- brjz
 Lexicons\02-letter-Baa.dat(2337): ;--- brgv
@@ -181,7 +183,4 @@ Lexicons\22-letter-Kaaf.dat(2488): ;--- ksbr
 Lexicons\22-letter-Kaaf.dat(2683): ;--- ksks
 Lexicons\22-letter-Kaaf.dat(2958): ;--- k$k$
 
-
 -}
-
-    deriving (Enum, Show, Eq)

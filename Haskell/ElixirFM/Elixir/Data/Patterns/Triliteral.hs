@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Data.Patterns.Triliteral
--- Copyright   :  Otakar Smrz 2005-2006
+-- Copyright   :  Otakar Smrz 2005-2007
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -225,6 +225,7 @@ data PatternT =
 
         |   FaCAL                                                               |   FaCA'
         |   FiCAL                                                               |   FiCA'
+        |   FuCAL                                                               |   FuCA'
 
         |   FaCUL
         |   FuCUL
@@ -242,10 +243,10 @@ data PatternT =
 
         |   FaCCUL
 
-        |   MaFCaL
-        |   MaFCiL                                      |   MaFIL
+        |   MaFCaL                                      |   MaFAL               |   MaFCaNY             |   MaFaCL
+        |   MaFCiL                                      |   MaFIL               |   MaFCiN
         |   MiFCAL              |   MICAL
-        |   MiFCaL
+        |   MiFCaL                                                                                      |   MiFaCL
 
         |   HaFCAL
         |   HaFCiL

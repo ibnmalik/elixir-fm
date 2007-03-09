@@ -559,182 +559,9 @@ sub initialize_patterns {
 
     my $cons = "(\\'|b|t|\\_t|\\^g|\\.h|\\_h|d|\\_d|r|z|s|\\^s|\\.s|\\.d|\\.t|\\.z|\\`|\\.g|f|q|k|l|m|n|h|w|y)";
 
-    my @pAttErns = grep { $_ =~ /[^XV][LNAUIY'nS]$/ and $_ !~ /II$/ } qw
+    my @pAttErns = read_patterns('Patterns/Triliteral.hs', 'Patterns/Quadriliteral.hs');
 
-            (
-
---      |   Regular             |   First               |   Second              |   Third               |   Double
-
---  Form I
-
-            FaCaL                                       |   FAL                 |   FaCA                |   FaCL
-        |   FaCiL                                                               |   FaCY
-        |   FaCuL
-
-        |   FCaL                |   CaL                                         |   FCY
-        |   FCiL                |   CiL                 |   FIL                 |   FCI                 |   FiCL
-        |   FCuL                |   CuL                 |   FUL                 |   FCU                 |   FuCL
-                                |   CI                  |   FY
-
-        |   FaCAL                                                               |   FaCA'
-        |   FiCAL                                                               |   FiCA'
-
-        |   FaCUL
-        |   FuCUL
-
-        |   FaCIL
-
-        |   FACiL
-        |   MaFCUL                                      |   MaFUL               |   MaFCIy
-
-        |   FaCCAL
-        |   FiCCAL                                      |   FICAL
-        |   FuCCAL                                      |   FUCAL
-
-        |   FiCCIL
-
-        |   FaCCUL
-
-        |   MaFCaL
-        |   MaFCiL                                      |   MaFIL
-        |   MiFCAL              |   MICAL
-        |   MiFCaL
-
-        |   HaFCAL
-        |   HaFCiL
-
-        |   HaFCiLA'
-
-        |   FawACiL                                     |   FawA'iL
-        |   FawACIL                                     |   FawA'IL
-
-        |   MaFACiL                                     |   MaFA'iL
-        |   MaFACIL                                     |   MaFA'IL
-
-        |   FuCuL
-        |   FiCaL
-
-        |   FaCLAn
-        |   FaCaLAn
-
-        |   FuCayL
-
-        |   FuCLY
-
---  Form II
-
-        |   FaCCaL                                                              |   FaCCY
-
-        |   TaFCIL
-        |   TaFCiL
-
-        |   TiFCAL                                                              |   TiFCA'
-
-        |   MuFaCCiL                                                            |   MuFaCCiN
-        |   MuFaCCaL                                                            |   MuFaCCaNY
-
---  Form III
-
-        |   FACaL                                                               |   FACY
-
-        |   MuFACiL                                                             |   MuFACiN
-        |   MuFACaL                                                             |   MuFACaNY
-
---  Form IV
-
-        |   HaFCaL                                      |   HaFAL               |   HaFCY               |   HaFaCL
-
-        |   HiFCAL              |   HICAL                                       |   HiFCA'
-        |   HiFCaL              |   HICaL               |   HiFAL                                       |   HiFaCL
-
-        |   MuFCiL              |   MUCiL               |   MuFIL               |   MuFCiN              |   MuFiCL
-        |   MuFCaL              |   MUCaL               |   MuFAL               |   MuFCaNY             |   MuFaCL
-                                |   MUCiN
-                                |   MUCaNY
-
---  Form V
-
-        |   TaFaCCaL                                                            |   TaFaCCY
-
-        |   TaFaCCuL                                                            |   TaFaCCiN
-
-        |   MutaFaCCiL                                                          |   MutaFaCCiN
-        |   MutaFaCCaL                                                          |   MutaFaCCaNY
-
---  Form VI
-
-        |   TaFACaL                                                             |   TaFACY
-
-        |   TaFACuL                                                             |   TaFACiN
-
-        |   MutaFACiL                                                           |   MutaFACiN
-        |   MutaFACaL                                                           |   MutaFACaNY
-
---  Form VII
-
-        |   InFaCaL                                     |   InFAL               |   InFaCY              |   InFaCL
-
-        |   InFiCAL                                     |   InFiyAL             |   InFiCA'
-
-        |   MunFaCiL                                                            |   MunFaCiN            |   MunFaCL
-        |   MunFaCaL                                                            |   MunFaCaNY
-
---  Form VIII
-
-        |   IFtaCaL                                     |   IFtAL               |   IFtaCY              |   IFtaCL
-
-        |   IFtiCAL                                     |   IFtiyAL             |   IFtiCA'
-
-        |   MuFtaCiL                                    |   MuFtAL              |   MuFtaCiN            |   MuFtaCL
-        |   MuFtaCaL                                                            |   MuFtaCaNY
-
---  Form IX
-
-        |   IFCaLL
-
-        |   IFCiLAL
-
-        |   MuFCaLL
-
---  Form X
-
-        |   IstaFCaL                                    |   IstaFAL             |   IstaFCY             |   IstaFaCL
-
-        |   IstiFCAL            |   IstICAL             |   IstiFAL             |   IstiFCA'
-
-        |   MustaFCiL                                   |   MustaFIL            |   MustaFCiN           |   MustaFiCL
-        |   MustaFCaL                                   |   MustaFAL            |   MustaFCaNY          |   MustaFaCL
-
-
---  Quadriliteral
-
-            KaRDaS
-
-        |   MuKaRDiS
-        |   MuKaRDaS
-
-        |   TaKaRDaS
-
-        |   MutaKaRDiS
-        |   MutaKaRDaS
-
-        |   TaKaRDuS
-
-        |   KaRDAS
-        |   KaRDIS
-        |   KaRDUS
-
-        |   KiRDAS
-        |   KiRDIS
-        |   KiRDUS
-
-        |   KuRDAS
-        |   KuRDIS
-        |   KuRDUS
-
-        |   KaRADIS
-
-            );
+    printf STDERR "%4d patterns\n", scalar @pAttErns;
 
     @patterns = ();
 
@@ -772,4 +599,44 @@ sub initialize_patterns {
                             ($x, $y)
 
                     } }     @pAttErns;
+}
+
+
+sub read_patterns {
+
+    my (@files, $file) = @_;
+
+    my (@lines, $line) = ();
+
+    foreach $file (@files) {
+
+        open F, '<', $file;
+
+        while ($line = <F>) {
+
+            if ($line =~ /^data \s+ Pattern[TQ] \s+ = (.*)$/x) {
+
+                push @lines, ( split /--/, $1, 2 )[0];
+                last;
+            }
+        }
+
+        while ($line = <F>) {
+
+
+            if ($line =~ /^(.*) \s+ deriving \s+/x and $1 !~ /--/) {
+
+                push @lines, $1;
+                last;
+            }
+            else {
+
+                push @lines, ( split /--/, $line, 2 )[0];
+            }
+        }
+
+        close F;
+    }
+
+    return grep { $_ ne '' } map { split /\|\s*|\s+/, $_ } @lines;
 }
