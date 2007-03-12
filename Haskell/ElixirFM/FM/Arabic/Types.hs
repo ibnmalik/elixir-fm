@@ -131,34 +131,34 @@ instance Param Number   where values = enum
 
 
 
-data ParaNoun   = NounS              Number Case DefArt State
-                | NounP Voice Gender Number Case DefArt State
-                | NounA       Gender Number Case DefArt State
+data ParaNoun   = NounS              Number Case State
+                | NounP Voice Gender Number Case State
+                | NounA       Gender Number Case State
     deriving Eq
 
 
 instance Param ParaNoun where
 
-    values  =  [ NounS     n c d s | n <- values,
-                                     d <- values, s <- values, c <- values  ]
-            ++ [ NounP v g n c d s | v <- values, n <- values, g <- values,
-                                     d <- values, s <- values, c <- values  ]
-            ++ [ NounA   g n c d s | n <- values, g <- values,
-                                     d <- values, s <- values, c <- values  ]
+    values  =  [ NounS     n c s | n <- values,
+                                   s <- values, c <- values  ]
+            ++ [ NounP v g n c s | v <- values, n <- values, g <- values,
+                                   s <- values, c <- values  ]
+            ++ [ NounA   g n c s | n <- values, g <- values,
+                                   s <- values, c <- values  ]
 
 
 instance Show ParaNoun where
 
-    show (NounS     n c d s) = nicer $
-                                "NS-----" ++ [show' n, show' c, show'' d s]
+    show (NounS     n c s) = nicer $
+                                "NS-----" ++ [show' n, show' c, show' s]
 
-    show (NounP v g n c d s) = nicer $
+    show (NounP v g n c s) = nicer $
                                 "NP-" ++ [show' v] ++ "--" ++
-                                    [show' g, show' n, show' c, show'' d s]
+                                    [show' g, show' n, show' c, show' s]
 
-    show (NounA   g n c d s) = nicer $
+    show (NounA   g n c s) = nicer $
                                 "NA----" ++
-                                    [show' g, show' n, show' c, show'' d s]
+                                    [show' g, show' n, show' c, show' s]
 
 
 --instance Inflect ParaNoun
@@ -169,46 +169,72 @@ instance Enum ParaNoun where
     toEnum = (!!) values
 
 
-type Defin = DefArt
+{-
+data State = Definite
+           | Indefinite
+           | Construct
+           | AbsoluteNegative
+           | Overdetermined
+           | Underdetermined
+-}
 
 
-show'' :: DefArt -> State -> Char
+--type State = (Definite, Annexing)
 
-show'' Absent   Absolute  = head "I"
-show'' Absent   Construct = head "R"
-show'' Explicit Absolute  = head "D"
-show'' Explicit Construct = head "C"
-show'' Implicit Absolute  = head "D"
-show'' Implicit Construct = head "C"
+data Couple a b = a :-: b
 
+    deriving Eq
 
-data DefArt = Explicit
-            | Implicit
-            | Absent
-    deriving (Eq, Show, Enum)
+type State = Couple Definite Annexing
 
-instance Param DefArt   where values = enum
+{-
+data State = Definite :-: Annexing
 
+    deriving Eq
+-}
 
-data State  = Absolute
-            | Construct
-    deriving (Eq, Show, Enum)
+instance Param State where
 
-instance Param State    where values = enum
+    values = [ x :-: y | x <- values, y <- values ]
 
 
-data Case   = Nom
-            | Gen
-            | Acc
+instance Show State where
+
+    show (Nothing    :-: False) = "I"
+    show (Just True  :-: False) = "D"
+    show (Just False :-: False) = "-"
+
+    show (Nothing    :-: True)  = "R"
+    show (Just True  :-: True)  = "C"
+    show (Just False :-: True)  = "-"
+
+
+type Definite = Maybe Bool
+--    deriving (Eq, Show, Enum)
+
+instance Param Definite where
+
+    values = [ Nothing, Just True, Just False ]
+
+
+type Annexing = Bool
+--    deriving (Eq, Show, Enum)
+
+instance Param Bool     where values = enum
+
+
+data Case   = Nominative
+            | Genitive
+            | Accusative
     deriving (Eq, Enum)
 
 instance Param Case     where values = enum
 
 instance Show Case where
 
-    show Nom    = "1"
-    show Gen    = "2"
-    show Acc    = "4"
+    show Nominative = "1"
+    show Genitive   = "2"
+    show Accusative = "4"
 
 
 data LogDefin   = Indefinite

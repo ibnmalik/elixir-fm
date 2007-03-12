@@ -239,148 +239,96 @@ inflectNoun word = case reverse word of
         _                     ->  \ x -> [""]
 
     where apply p w f = case f of
-                NounS     n c d s -> [ p c d s w ]
-                NounP v g n c d s -> [ p c d s w ]
-                NounA   g n c d s -> [ p c d s w ]
+                NounS     n c (d :-: a) -> complete p c d a w
+                NounP v g n c (d :-: a) -> complete p c d a w
+                NounA   g n c (d :-: a) -> complete p c d a w
+
+          complete p c d a w = case d of
+                Just True   -> [ prefixDefArticle $ p c d a w ]
+                _           -> [                    p c d a w ]
 
 
 paraI3N c d s = case (c, d, s) of
 
-        (Acc, Explicit, _)   -> prefixDefArticle . suffix "iy-a"
-        (_  , Explicit, _)   -> prefixDefArticle . suffix "I"
+        (Accusative,    Nothing,    False)  -> suffix "iy-aN"
+        ( _ ,           Nothing,    False)  -> suffix "-iN"
 
-        (Acc, Absent, Absolute)    -> suffix "iy-aN"
-        ( _ , Absent, Absolute)    -> suffix "-iN"
-
-        (Acc, _, Absolute)     -> suffix "iy-a"
-        ( _ , _, Absolute)     -> suffix "I"
-
-        (Acc, _, Construct)    -> suffix "iy-a"
-        ( _ , _, Construct)    -> suffix "I"
+        (Accusative,    _ ,         _ )     -> suffix "iy-a"
+        ( _ ,           _ ,         _ )     -> suffix "I"
 
 
 paraI2a c d s = case (c, d, s) of
 
-        (Acc, Explicit, _)   -> prefixDefArticle . suffix "iy-a"
-        (_  , Explicit, _)   -> prefixDefArticle . suffix "I"
+        (Nominative,    Nothing,    False)  -> suffix "I"
+        ( _ ,           Nothing,    False)  -> suffix "iy-a"
 
-        (Nom, Absent, Absolute)     -> suffix "I"
-        ( _ , Absent, Absolute)     -> suffix "iy-a"
-
-        (Acc, _, Absolute)     -> suffix "iy-a"
-        ( _ , _, Absolute)     -> suffix "I"
-
-        (Acc, _, Construct)    -> suffix "iy-a"
-        ( _ , _, Construct)    -> suffix "I"
+        (Accusative,    _,          _ )     -> suffix "iy-a"
+        ( _ ,           _,          _ )     -> suffix "I"
 
 
 paraAaA c d s = case (c, d, s) of
 
-        ( _ , Explicit,  _  ) -> prefixDefArticle . suffix "A"
-
-        ( _ , _, Absolute)    -> suffix "-aN"
-
-        ( _ , _, Construct)   -> suffix "A"
+        ( _ , Nothing, False)   -> suffix "-aN"
+        ( _ , _ ,      _    )   -> suffix "A"
 
 
 paraY3N c d s = case (c, d, s) of
 
-        ( _ , Explicit,  _  ) -> prefixDefArticle . suffix "Y"
-
-        ( _ , _, Absolute)    -> suffix "-aNY"
-
-        ( _ , _, Construct)   -> suffix "Y"
+        ( _ , Nothing, False)   -> suffix "-aNY"
+        ( _ , _ ,      _    )   -> suffix "Y"
 
 
 paraY2Y c d s = case (c, d, s) of
 
-        ( _ , Explicit,  _  )  -> prefixDefArticle . suffix "Y"
-
-        ( _ , _, Absolute)     -> suffix "Y"
-
-        ( _ , _, Construct)    -> suffix "Y"
+        ( _ , _ , _ )           -> suffix "Y"
 
 
 paraU3N c d s = case (c, d, s) of
 
-        (Nom, Explicit, _ ) -> prefixDefArticle . suffix "-u"
-        (Gen, Explicit, _ ) -> prefixDefArticle . suffix "-i"
-        (Acc, Explicit, _ ) -> prefixDefArticle . suffix "-a"
+        (Nominative, Nothing, False)    -> suffix "-uN"
+        (Genitive,   Nothing, False)    -> suffix "-iN"
+        (Accusative, Nothing, False)    -> suffix "-aN"
 
-        (Nom, Absent, Absolute)    -> suffix "-uN"
-        (Gen, Absent, Absolute)    -> suffix "-iN"
-        (Acc, Absent, Absolute)    -> suffix "-aN"
-
-        (Nom, _ , Absolute)    -> suffix "-u"
-        (Gen, _ , Absolute)    -> suffix "-i"
-        (Acc, _ , Absolute)    -> suffix "-a"
-
-        (Nom, _ , Construct)   -> suffix "-u"
-        (Gen, _ , Construct)   -> suffix "-i"
-        (Acc, _ , Construct)   -> suffix "-a"
+        (Nominative, _ , _ )            -> suffix "-u"
+        (Genitive,   _ , _ )            -> suffix "-i"
+        (Accusative, _ , _ )            -> suffix "-a"
 
 
 paraU2a c d s = case (c, d, s) of
 
-        (Nom, Explicit,  _  )  -> prefixDefArticle . suffix "-u"
-        (Gen, Explicit,  _  )  -> prefixDefArticle . suffix "-i"
-        (Acc, Explicit,  _  )  -> prefixDefArticle . suffix "-a"
+        (Nominative, Nothing, False)    -> suffix "-u"
+        ( _ ,        Nothing, False)    -> suffix "-a"
 
-        (Nom, Absent, Absolute)    -> suffix "-u"
-        ( _ , Absent, Absolute)    -> suffix "-a"
-
-        (Nom, _, Absolute)     -> suffix "-u"
-        (Gen, _, Absolute)     -> suffix "-i"
-        (Acc, _, Absolute)     -> suffix "-a"
-
-        (Nom, _, Construct)    -> suffix "-u"
-        (Gen, _, Construct)    -> suffix "-i"
-        (Acc, _, Construct)    -> suffix "-a"
+        (Nominative, _ , _ )            -> suffix "-u"
+        (Genitive,   _ , _ )            -> suffix "-i"
+        (Accusative, _ , _ )            -> suffix "-a"
 
 
 paraUun c d s = case (c, d, s) of
 
-        (Nom, Explicit, Absolute)    -> prefixDefArticle . suffix "Un-a"
-        ( _ , Explicit, Absolute)    -> prefixDefArticle . suffix "In-a"
+        (Nominative, _ , False)         -> suffix "Un-a"
+        ( _ ,        _ , False)         -> suffix "In-a"
 
-        (Nom, Explicit, Construct)    -> prefixDefArticle . suffix "U"
-        ( _ , Explicit, Construct)    -> prefixDefArticle . suffix "I"
-
-        (Nom, _, Absolute)    -> suffix "Un-a"
-        ( _ , _, Absolute)    -> suffix "In-a"
-
-        (Nom, _, Construct)    -> suffix "U"
-        ( _ , _, Construct)    -> suffix "I"
+        (Nominative, _ , True)          -> suffix "U"
+        ( _ ,        _ , True)          -> suffix "I"
 
 
 paraAan c d s = case (c, d, s) of
 
-        (Nom, Explicit, Absolute)    -> prefixDefArticle . suffix "An-i"
-        ( _ , Explicit, Absolute)    -> prefixDefArticle . suffix "ayn-i"
+        (Nominative, _ , False)         -> suffix "An-i"
+        ( _ ,        _ , False)         -> suffix "ayn-i"
 
-        (Nom, Explicit, Construct)    -> prefixDefArticle . suffix "A"
-        ( _ , Explicit, Construct)    -> prefixDefArticle . suffix "ay-i"
-
-        (Nom, _, Absolute)    -> suffix "An-i"
-        ( _ , _, Absolute)    -> suffix "ayn-i"
-
-        (Nom, _, Construct)    -> suffix "A"
-        ( _ , _, Construct)    -> suffix "ay-i"
+        (Nominative, _ , True)          -> suffix "A"
+        ( _ ,        _ , True)          -> suffix "ay-i"
 
 
 paraAat c d s = case (c, d, s) of
 
-        (Nom, Explicit, _ )   -> prefixDefArticle . suffix "-u"
-        ( _ , Explicit, _ )   -> prefixDefArticle . suffix "-i"
+        (Nominative, Nothing, False)    -> suffix "-uN"
+        ( _ ,        Nothing, False)    -> suffix "-iN"
 
-        (Nom, Absent, Absolute)    -> suffix "-uN"
-        ( _ , Absent, Absolute)    -> suffix "-iN"
-
-        (Nom, _, Absolute)    -> suffix "-u"
-        ( _ , _, Absolute)    -> suffix "-i"
-
-        (Nom, _, Construct)   -> suffix "-u"
-        ( _ , _, Construct)   -> suffix "-i"
+        (Nominative, _ , _ )            -> suffix "-u"
+        ( _ ,        _ , _ )            -> suffix "-i"
 
 
 paraVerbP v p g n = case n of
@@ -409,7 +357,30 @@ paraVerbP v p g n = case n of
                 (First,      _    ) ->  suffix "nA"
 
 
-paraVerbI m v p g n i = case m of
+prefixImperfect p g n = case n of
+
+            Singular    ->  case (p, g) of
+
+                (Third,  Masculine) ->  prefix "y"
+                (Third,  Feminine)  ->  prefix "t"
+                (Second, _ )        ->  prefix "t"
+                (First,  _ )        ->  prefix "'"
+
+            Dual        ->  case (p, g) of
+
+                (Third,  Masculine) ->  prefix "y"
+                (Third,  Feminine)  ->  prefix "t"
+                (Second,     _    ) ->  prefix "t"
+                (First,      _    ) ->  prefix "n"
+
+            Plural      ->  case (p, g) of
+
+                (Third,  _ ) ->  prefix "y"
+                (Second, _ ) ->  prefix "t"
+                (First,  _ ) ->  prefix "n"
+
+
+paraVerbI m v p g n i = prefixImperfect p g n . prefix i . case m of
 
       Indicative ->
 
@@ -417,26 +388,19 @@ paraVerbI m v p g n i = case m of
 
             Singular    ->  case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "-u"
-                (Third,  Feminine)  ->  prefix "t" . prefix i . suffix "-u"
-                (Second, Masculine) ->  prefix "t" . prefix i . suffix "-u"
-                (Second, Feminine)  ->  prefix "t" . prefix i . suffix "In-a"
-                (First,      _    ) ->  prefix "'" . prefix i . suffix "-u"
+                (Second, Feminine)  ->  suffix "In-a"
+                ( _ ,    _    )     ->  suffix "-u"
 
             Dual        -> case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "An-i"
-                (Third,  Feminine)  ->  prefix "t" . prefix i . suffix "An-i"
-                (Second,     _    ) ->  prefix "t" . prefix i . suffix "An-i"
-                (First,      _    ) ->  prefix "n" . prefix i . suffix "-u"
+                (First, _ )         ->  suffix "-u"
+                ( _,    _ )         ->  suffix "An-i"
 
             Plural      -> case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "Un-a"
-                (Third,  Feminine)  ->  prefix "y" . prefix i . suffix "n-a"
-                (Second, Masculine) ->  prefix "t" . prefix i . suffix "Un-a"
-                (Second, Feminine)  ->  prefix "t" . prefix i . suffix "n-a"
-                (First,      _    ) ->  prefix "n" . prefix i . suffix "-u"
+                (First, _ )         ->  suffix "-u"
+                ( _,    Masculine)  ->  suffix "Un-a"
+                ( _,    Feminine)   ->  suffix "n-a"
 
 
       Subjunctive ->
@@ -445,26 +409,19 @@ paraVerbI m v p g n i = case m of
 
             Singular    ->  case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "-a"
-                (Third,  Feminine)  ->  prefix "t" . prefix i . suffix "-a"
-                (Second, Masculine) ->  prefix "t" . prefix i . suffix "-a"
-                (Second, Feminine)  ->  prefix "t" . prefix i . suffix "I"
-                (First,      _    ) ->  prefix "'" . prefix i . suffix "-a"
+                (Second, Feminine)  ->  suffix "I"
+                (_,      _ )        ->  suffix "-a"
 
             Dual        -> case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "A"
-                (Third,  Feminine)  ->  prefix "t" . prefix i . suffix "A"
-                (Second,     _    ) ->  prefix "t" . prefix i . suffix "A"
-                (First,      _    ) ->  prefix "n" . prefix i . suffix "-a"
+                (First,  _    )     ->  suffix "-a"
+                ( _ ,    _    )     ->  suffix "A"
 
             Plural      -> case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "UW"
-                (Third,  Feminine)  ->  prefix "y" . prefix i . suffix "n-a"
-                (Second, Masculine) ->  prefix "t" . prefix i . suffix "UW"
-                (Second, Feminine)  ->  prefix "t" . prefix i . suffix "n-a"
-                (First,      _    ) ->  prefix "n" . prefix i . suffix "-a"
+                (First, _    )      ->  suffix "-a"
+                ( _ ,   Masculine)  ->  suffix "UW"
+                ( _ ,   Feminine)   ->  suffix "n-a"
 
 
       Jussive     ->
@@ -473,26 +430,19 @@ paraVerbI m v p g n i = case m of
 
             Singular    ->  case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . prefix i . suffix ""
-                (Third,  Feminine)  ->  prefix "t" . prefix i . suffix ""
-                (Second, Masculine) ->  prefix "t" . prefix i . suffix ""
-                (Second, Feminine)  ->  prefix "t" . prefix i . suffix "I"
-                (First,      _    ) ->  prefix "'" . prefix i . suffix ""
+                (Second, Feminine)  ->  suffix "I"
+                ( _ ,    _    )     ->  suffix ""
 
             Dual        -> case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "A"
-                (Third,  Feminine)  ->  prefix "t" . prefix i . suffix "A"
-                (Second,     _    ) ->  prefix "t" . prefix i . suffix "A"
-                (First,      _    ) ->  prefix "n" . prefix i . suffix ""
+                (First,  _  )       ->  suffix ""
+                ( _ ,    _  )       ->  suffix "A"
 
             Plural      -> case (p, g) of
 
-                (Third,  Masculine) ->  prefix "y" . prefix i . suffix "UW"
-                (Third,  Feminine)  ->  prefix "y" . prefix i . suffix "n-a"
-                (Second, Masculine) ->  prefix "t" . prefix i . suffix "UW"
-                (Second, Feminine)  ->  prefix "t" . prefix i . suffix "n-a"
-                (First,      _    ) ->  prefix "n" . prefix i . suffix ""
+                (First, _   )       ->  suffix ""
+                ( _ ,   Masculine)  ->  suffix "UW"
+                ( _ ,   Feminine)   ->  suffix "n-a"
 
 
 paraVerbC g n i = case n of
