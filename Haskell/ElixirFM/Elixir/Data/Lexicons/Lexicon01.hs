@@ -659,19 +659,11 @@ lexicon = listing "Lexicon properties"
  |> "'bn" <| [
 
     -- ;; &ab~in_1
-
-    root     Identity                                        ]
-
- -- ;; &ab~in_1
-
- |> "'abbin" <| [
-
-    -- ;; &ab~in_1
     -- >bn     >ab~an  PV-n    eulogize
     -- Abn     >ab~an  PV-n    eulogize
     -- &bn     &ab~in  IV-n_yu eulogize
 
-    verb     Identity                  {- &ab~in -}         `others` [ "'abban PV-n" ]
+    verb     FaCCiL                    {- &ab~in -}         `others` [ "'abban PV-n" ]
                                                             `gloss`  [ "eulogize" ],
 
     -- ;; <ib~An_1
@@ -1092,11 +1084,7 @@ lexicon = listing "Lexicon properties"
     -- >by     >abiy~  Nall    proud;dignified     [[>abiy~/ADJ]]
     -- Aby     >abiy~  Nall    proud;dignified     [[>abiy~/ADJ]]
 
-    noun     CaL |< Iy                 {- >abiy~ -}         `gloss`  [ "proud", "dignified" ] ]
-
- -- ;; |biy_1
-
- |> "'by" <| [
+    noun     CaL |< Iy                 {- >abiy~ -}         `gloss`  [ "proud", "dignified" ],
 
     -- ;; |biy_1
     -- |by     |biy    N0F     reluctant;unwilling
@@ -1110,7 +1098,7 @@ lexicon = listing "Lexicon properties"
     -- >bA     >ubA    Nap     reluctant;unwilling
     -- AbA     >ubA    Nap     reluctant;unwilling
 
-    noun     FACiL                     {- |biy -}           `others` [ "'ubA Nap", "'Ab Nuwn_Niyn" ]
+    noun     FACI                      {- |biy -}           `others` [ "'ubA Nap", "'Ab Nuwn_Niyn" ]
                                                             `gloss`  [ "reluctant", "unwilling" ] ]
 
  -- ;; >abiyb_1
@@ -1559,6 +1547,14 @@ lexicon = listing "Lexicon properties"
  |> "'ty" <| [
 
     -- ;; |tiy_1
+
+    noun     FACiL                     {- |tiy -}            ]
+
+ -- ;; |tiy_1
+
+ |> "'t" <| [
+
+    -- ;; |tiy_1
     -- |ty     |tiy    N0F     coming;following
     -- Aty     |tiy    N0F     coming;following
     -- |t      |t      NK      coming;following
@@ -1570,12 +1566,8 @@ lexicon = listing "Lexicon properties"
     -- |ty     |tiy    NapAt   coming;following
     -- Aty     |tiy    NapAt   coming;following
 
-    noun     FACiL                     {- |tiy -}           `others` [ "'At Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "coming", "following" ] ]
-
- -- ;; ma>otaY_1
-
- |> "ma'tY" <| [
+    noun     FACI                      {- |tiy -}           `others` [ "'At Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "coming", "following" ],
 
     -- ;; ma>otaY_1
     -- m>tY    ma>otaY N0      place of origin;source
@@ -1584,8 +1576,12 @@ lexicon = listing "Lexicon properties"
     -- m|ty    ma|tiy  N0_Nh   places of origin;sources
     -- m|t     ma|t    NK      places of origin;sources
 
-    noun     Identity                  {- ma>otaY -}        `others` [ "ma'At NK", "ma'Atiy N0_Nh", "ma'tay NAn_Nayn", "ma'tA Nhy" ]
-                                                            `gloss`  [ "place of origin", "source", "places of origin", "sources" ],
+    noun     MaFCaNY                   {- ma>otaY -}        `others` [ "ma'At NK", "ma'Atiy N0_Nh", "ma'tay NAn_Nayn", "ma'tA Nhy" ]
+                                                            `gloss`  [ "place of origin", "source", "places of origin", "sources" ] ]
+
+ -- ;; mu&Atiy_1
+
+ |> "'ty" <| [
 
     -- ;; mu&Atiy_1
     -- m&Aty   mu&Atiy N0F_Nh  favorable;suitable
@@ -2240,17 +2236,13 @@ lexicon = listing "Lexicon properties"
     -- >jAj    >ajAj   N       salted fish
     -- AjAj    >ajAj   N       salted fish
 
-    noun     FaCAL                     {- >ajAj -}          `gloss`  [ "salted fish" ] ]
-
- -- ;; >ujAj_1
-
- |> "'u^gA^g" <| [
+    noun     FaCAL                     {- >ajAj -}          `gloss`  [ "salted fish" ],
 
     -- ;; >ujAj_1
     -- >jAj    >ujAj   N-ap    bitter;salty
     -- AjAj    >ujAj   N-ap    bitter;salty
 
-    noun     Identity                  {- >ujAj -}          `gloss`  [ "bitter", "salty" ],
+    noun     FuCAL                     {- >ujAj -}          `gloss`  [ "bitter", "salty" ],
 
     -- ;; >aj~Aj_1
     -- >jAj    >aj~Aj  N-ap    burning;blazing
@@ -2677,27 +2669,19 @@ lexicon = listing "Lexicon properties"
     -- >HAd    >uHAda  FW-WaBi one-by-one     [[>uHAda/ADV]]
     -- AHAd    >uHAda  FW-WaBi one-by-one     [[>uHAda/ADV]]
 
-    noun     Identity                  {- >uHAda -}         `gloss`  [ "one-by-one" ] ]
-
- -- ;; >uHAdiy~_1
-
- |> "'u.hAd" <| [
+    noun     Identity                  {- >uHAda -}         `gloss`  [ "one-by-one" ],
 
     -- ;; >uHAdiy~_1
     -- >HAdy   >uHAdiy~        Nall    single     [[>uHAdiy~/ADJ]]
     -- AHAdy   >uHAdiy~        Nall    single     [[>uHAdiy~/ADJ]]
 
-    noun     Identity |< Iy            {- >uHAdiy~ -}       `gloss`  [ "single" ] ]
-
- -- ;; >uHAdiy~ap_1
-
- |> "'u.hAd" <| [
+    noun     FuCAL |< Iy               {- >uHAdiy~ -}       `gloss`  [ "single" ],
 
     -- ;; >uHAdiy~ap_1
     -- >HAdy   >uHAdiy~        Nap     singleness     [[>uHAdiy~/NOUN]]
     -- AHAdy   >uHAdiy~        Nap     singleness     [[>uHAdiy~/NOUN]]
 
-    noun     Identity |< Iy |< aT      {- >uHAdiy~ap -}     `others` [ "'u.hAdiyy Nap" ]
+    noun     FuCAL |< Iy |< aT         {- >uHAdiy~ap -}     `others` [ "'u.hAdiyy Nap" ]
                                                             `gloss`  [ "singleness" ] ]
 
  -- ;; >aHaruwnuwt_1
@@ -2767,11 +2751,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCaL                     {- >axa*-u -}        `imperf` [ FCuL ]
                                                             `others` [ "_hu_d CV IV_need-Pref-|", "'_hu_d IV_no-Pref-A", "'a_ha_d PV" ]
-                                                            `gloss`  [ "take", "begin" ] ]
-
- -- ;; &ax~i*_1
-
- |> "'a_h_hi_d" <| [
+                                                            `gloss`  [ "take", "begin" ],
 
     -- ;; &ax~i*_1
     -- >x*     >ax~a*  PV      enchant;bewitch
@@ -2779,7 +2759,7 @@ lexicon = listing "Lexicon properties"
     -- &x*     &ax~i*  IV_yu   enchant;bewitch
     -- &x*     &ax~a*  IV_Pass_yu      be enchanted;be bewitched
 
-    verb     Identity                  {- &ax~i* -}         `others` [ "'a_h_ha_d IV_Pass_yu PV" ]
+    verb     FaCCiL                    {- &ax~i* -}         `others` [ "'a_h_ha_d IV_Pass_yu PV" ]
                                                             `gloss`  [ "enchant", "bewitch", "be enchanted", "be bewitched" ],
 
     -- ;; |xa*_1
@@ -2904,18 +2884,10 @@ lexicon = listing "Lexicon properties"
  |> "'_hr" <| [
 
     -- ;; &ax~ir_1
-
-    root     Identity                                        ]
-
- -- ;; &ax~ir_1
-
- |> "'a_h_hir" <| [
-
-    -- ;; &ax~ir_1
     -- &xr     &ax~ir  IV_yu   delay;postpone
     -- &xr     &ax~ar  IV_Pass_yu      be delayed;be postponed
 
-    verb     Identity                  {- &ax~ir -}         `others` [ "'a_h_har IV_Pass_yu" ]
+    verb     FaCCiL                    {- &ax~ir -}         `others` [ "'a_h_har IV_Pass_yu" ]
                                                             `gloss`  [ "delay", "postpone", "be delayed", "be postponed" ],
 
     -- ;; ta>ax~ar_1
@@ -3206,6 +3178,14 @@ lexicon = listing "Lexicon properties"
 
     noun     FuCUL |< aT               {- >uxuw~ap -}       `others` [ "'u_huww Nap" ]
                                                             `gloss`  [ "fraternity", "brotherhood" ] ]
+
+ -- ;; |xiyap_1
+
+ |> "'_h" <| [
+
+    -- ;; |xiyap_1
+
+    noun     FACI |< aT                {- |xiyap -}          ]
 
  -- ;; |xiyap_1
 
@@ -5546,17 +5526,13 @@ lexicon = listing "Lexicon properties"
     -- >rq     >ariq   Nall    insomniac
     -- Arq     >ariq   Nall    insomniac
 
-    noun     FaCiL                     {- >ariq -}          `gloss`  [ "insomniac" ] ]
-
- -- ;; >urAq_1
-
- |> "'urAq" <| [
+    noun     FaCiL                     {- >ariq -}          `gloss`  [ "insomniac" ],
 
     -- ;; >urAq_1
     -- >rAq    >urAq   N       jaundice
     -- ArAq    >urAq   N       jaundice
 
-    noun     Identity                  {- >urAq -}          `gloss`  [ "jaundice" ],
+    noun     FuCAL                     {- >urAq -}          `gloss`  [ "jaundice" ],
 
     -- ;; >aroqap_1
     -- >rq     >aroq   Napdu   aphid;greenfly
@@ -7347,18 +7323,10 @@ lexicon = listing "Lexicon properties"
  |> "'sm" <| [
 
     -- ;; >usAmap_1
-
-    root     Identity                                        ]
-
- -- ;; >usAmap_1
-
- |> "'usAm" <| [
-
-    -- ;; >usAmap_1
     -- >sAmp   >usAmap Nprop   Usama;Osama
     -- AsAmp   >usAmap Nprop   Usama;Osama
 
-    noun     Identity |< aT            {- >usAmap -}        `gloss`  [ "Usama", "Osama" ] ]
+    noun     FuCAL |< aT               {- >usAmap -}        `gloss`  [ "Usama", "Osama" ] ]
 
  -- ;; <isoTAnobuwl_1
 
@@ -8337,11 +8305,7 @@ lexicon = listing "Lexicon properties"
     -- AsA     >asA    Nhy     affliction;sorrow
 
     noun     FaCY                      {- >asaY -}          `others` [ "'asA Nhy" ]
-                                                            `gloss`  [ "affliction", "sorrow" ] ]
-
- -- ;; |siy_1
-
- |> "'sy" <| [
+                                                            `gloss`  [ "affliction", "sorrow" ],
 
     -- ;; |siy_1
     -- |sy     |siy    N0F     afflicted;desolate
@@ -8355,14 +8319,26 @@ lexicon = listing "Lexicon properties"
     -- |sy     |siy    NapAt   afflicted;desolate
     -- Asy     |siy    NapAt   afflicted;desolate
 
-    noun     FACiL                     {- |siy -}           `others` [ "'As Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "afflicted", "desolate" ],
+    noun     FACI                      {- |siy -}           `others` [ "'As Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "afflicted", "desolate" ] ]
+
+ -- ;; >asoyAn_1
+
+ |> "'sy" <| [
+
+    -- ;; >asoyAn_1
+
+    noun     FaCLAn                    {- >asoyAn -}         ]
+
+ -- ;; >asoyAn_1
+
+ |> "'syn" <| [
 
     -- ;; >asoyAn_1
     -- >syAn   >asoyAn N/ap    afflicted;desolate;sad
     -- AsyAn   >asoyAn N/ap    afflicted;desolate;sad
 
-    noun     FaCLAn                    {- >asoyAn -}        `gloss`  [ "afflicted", "desolate", "sad" ] ]
+    noun     KaRDAS                    {- >asoyAn -}        `gloss`  [ "afflicted", "desolate", "sad" ] ]
 
  -- ;; >usowap_1
 
@@ -8622,11 +8598,7 @@ lexicon = listing "Lexicon properties"
     -- >$b     >a$ab   N       alloy
     -- A$b     >a$ab   N       alloy
 
-    noun     FaCaL                     {- >a$ab -}          `gloss`  [ "alloy" ] ]
-
- -- ;; >u$Abap_1
-
- |> "'u^sAb" <| [
+    noun     FaCaL                     {- >a$ab -}          `gloss`  [ "alloy" ],
 
     -- ;; >u$Abap_1
     -- >$Ab    >u$Ab   NapAt   alloy;mixture
@@ -8634,7 +8606,7 @@ lexicon = listing "Lexicon properties"
     -- >$A}b   >a$A}ib Ndip    alloys;mixtures
     -- A$A}b   >a$A}ib Ndip    alloys;mixtures
 
-    noun     Identity |< aT            {- >u$Abap -}        `others` [ "'a^sA'ib Ndip", "'u^sAb NapAt" ]
+    noun     FuCAL |< aT               {- >u$Abap -}        `others` [ "'a^sA'ib Ndip", "'u^sAb NapAt" ]
                                                             `gloss`  [ "alloy", "mixture", "alloys", "mixtures" ] ]
 
  -- ;; <i$obiyliy~_1
@@ -9341,27 +9313,19 @@ lexicon = listing "Lexicon properties"
 
  -- ;; >uTAm_1
 
- |> "'u.tAm" <| [
+ |> "'.tm" <| [
 
     -- ;; >uTAm_1
     -- >TAm    >uTAm   N       dysuria
     -- ATAm    >uTAm   N       dysuria
 
-    noun     Identity                  {- >uTAm -}          `gloss`  [ "dysuria" ] ]
-
- -- ;; >uTAmiy~_1
-
- |> "'u.tAm" <| [
+    noun     FuCAL                     {- >uTAm -}          `gloss`  [ "dysuria" ],
 
     -- ;; >uTAmiy~_1
     -- >TAmy   >uTAmiy~        Nall    dysuric     [[>uTAmiy~/ADJ]]
     -- ATAmy   >uTAmiy~        Nall    dysuric     [[>uTAmiy~/ADJ]]
 
-    noun     Identity |< Iy            {- >uTAmiy~ -}       `gloss`  [ "dysuric" ] ]
-
- -- ;; >uTum_1
-
- |> "'.tm" <| [
+    noun     FuCAL |< Iy               {- >uTAmiy~ -}       `gloss`  [ "dysuric" ],
 
     -- ;; >uTum_1
     -- >Tm     >uTum   Ndu     blockhouse;pillbox
@@ -10654,18 +10618,10 @@ lexicon = listing "Lexicon properties"
  |> "'kf" <| [
 
     -- ;; >ukAf_1
-
-    root     Identity                                        ]
-
- -- ;; >ukAf_1
-
- |> "'ukAf" <| [
-
-    -- ;; >ukAf_1
     -- >kAf    >ukAf   N       packsaddle
     -- AkAf    >ukAf   N       packsaddle
 
-    noun     Identity                  {- >ukAf -}          `gloss`  [ "packsaddle" ] ]
+    noun     FuCAL                     {- >ukAf -}          `gloss`  [ "packsaddle" ] ]
 
  -- ;--- Akl
 
@@ -10771,27 +10727,19 @@ lexicon = listing "Lexicon properties"
     -- ;; mu&Akil_1
     -- m&Akl   mu&Akil Nall    dinning companion
 
-    noun     MuFACiL                   {- mu&Akil -}        `gloss`  [ "dinning companion" ] ]
-
- -- ;; >ukAl_1
-
- |> "'ukAl" <| [
+    noun     MuFACiL                   {- mu&Akil -}        `gloss`  [ "dinning companion" ],
 
     -- ;; >ukAl_1
     -- >kAl    >ukAl   N       gangrene
     -- AkAl    >ukAl   N       gangrene
 
-    noun     Identity                  {- >ukAl -}          `gloss`  [ "gangrene" ] ]
-
- -- ;; >ukAliy~_1
-
- |> "'ukAl" <| [
+    noun     FuCAL                     {- >ukAl -}          `gloss`  [ "gangrene" ],
 
     -- ;; >ukAliy~_1
     -- >kAly   >ukAliy~        Nall    gangrenous     [[>ukAliy~/ADJ]]
     -- AkAly   >ukAliy~        Nall    gangrenous     [[>ukAliy~/ADJ]]
 
-    noun     Identity |< Iy            {- >ukAliy~ -}       `gloss`  [ "gangrenous" ],
+    noun     FuCAL |< Iy               {- >ukAliy~ -}       `gloss`  [ "gangrenous" ],
 
     -- ;; >ak~Al_1
     -- >kAl    >ak~Al  N       voracious;glutton
@@ -16063,17 +16011,13 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCiL                     {- >ahil-a -}        `imperf` [ FCaL ]
                                                             `others` [ "'hal IV_no-Pref-A" ]
-                                                            `gloss`  [ "be familiar" ] ]
-
- -- ;; >uhil-a_1
-
- |> "'uhil" <| [
+                                                            `gloss`  [ "be familiar" ],
 
     -- ;; >uhil-a_1
     -- >hl     >ohal   IV_no-Pref-A    be populated
     -- Ahl     >ohal   IV_no-Pref-A    be populated
 
-    verb     Identity                  {- >uhil-a -}        `imperf` [ FCaL ]
+    verb     FuCiL                     {- >uhil-a -}        `imperf` [ FCaL ]
                                                             `others` [ "'hal IV_no-Pref-A" ]
                                                             `gloss`  [ "be populated" ],
 
@@ -16307,13 +16251,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; ma|b_1
 
- |> "ma'Ab" <| [
+ |> "'b" <| [
 
     -- ;; ma|b_1
     -- m|b     ma|b    N       resort;resting place
     -- m|wb    ma|wib  Ndip    resorts;resting places
 
-    noun     Identity                  {- ma|b -}           `others` [ "ma'Awib Ndip" ]
+    noun     MaFAL                     {- ma|b -}           `others` [ "ma'Awib Ndip" ]
                                                             `gloss`  [ "resort", "resting place", "resorts", "resting places" ] ]
 
  -- ;; |yib_1
@@ -16348,17 +16292,17 @@ lexicon = listing "Lexicon properties"
 
  -- ;; >uwbib_1
 
- |> "'uwbib" <| [
+ |> "'bb" <| [
 
     -- ;; >uwbib_1
     -- >wbb    >uwbib  N       OPEP (French for OPEC)
     -- Awbb    >uwbib  N       OPEP (French for OPEC)
 
-    noun     Identity                  {- >uwbib -}         `gloss`  [ "OPEP ( French for OPEC )" ] ]
+    noun     HUCiL                     {- >uwbib -}         `gloss`  [ "OPEP ( French for OPEC )" ] ]
 
  -- ;; >uwbik_1
 
- |> "'uwbik" <| [
+ |> "'bk" <| [
 
     -- ;; >uwbik_1
     -- >wbk    >uwbik  N       OPEC
@@ -16366,7 +16310,7 @@ lexicon = listing "Lexicon properties"
     -- >wbyk   >uwbiyk N       OPEC
     -- Awbyk   >uwbiyk N       OPEC
 
-    noun     Identity                  {- >uwbik -}         `others` [ "'uwbiyk N" ]
+    noun     HUCiL                     {- >uwbik -}         `others` [ "'uwbiyk N" ]
                                                             `gloss`  [ "OPEC" ] ]
 
  -- ;; >uwAbik_1
@@ -16555,13 +16499,29 @@ lexicon = listing "Lexicon properties"
 
  -- ;; >uwtiy_1
 
- |> "'uwtiy" <| [
+ |> "'t" <| [
+
+    -- ;; >uwtiy_1
+
+    noun     FUCiy                     {- >uwtiy -}          ]
+
+ -- ;; >uwtiy_1
+
+ |> "'wt" <| [
+
+    -- ;; >uwtiy_1
+
+    noun     HuFCiy                    {- >uwtiy -}          ]
+
+ -- ;; >uwtiy_1
+
+ |> "'ty" <| [
 
     -- ;; >uwtiy_1
     -- >wty    >uwtiy  Nprop   Ottey
     -- Awty    >uwtiy  Nprop   Ottey
 
-    noun     Identity                  {- >uwtiy -}         `gloss`  [ "Ottey" ] ]
+    noun     HUCiL                     {- >uwtiy -}         `gloss`  [ "Ottey" ] ]
 
  -- ;; >uwtiyl_1
 
@@ -16736,28 +16696,16 @@ lexicon = listing "Lexicon properties"
  |> "'wr" <| [
 
     -- ;; >uwAr_1
-
-    root     Identity                                        ]
-
- -- ;; >uwAr_1
-
- |> "'uwAr" <| [
-
-    -- ;; >uwAr_1
     -- >wAr    >uwAr   N       blaze;thirst
     -- AwAr    >uwAr   N       blaze;thirst
 
-    noun     Identity                  {- >uwAr -}          `gloss`  [ "blaze", "thirst" ] ]
-
- -- ;; >uwAriy~_1
-
- |> "'uwAr" <| [
+    noun     FuCAL                     {- >uwAr -}          `gloss`  [ "blaze", "thirst" ],
 
     -- ;; >uwAriy~_1
     -- >wAry   >uwAriy~        N-ap    blazing thirst     [[>uwAriy~/ADJ]]
     -- AwAry   >uwAriy~        N-ap    blazing thirst     [[>uwAriy~/ADJ]]
 
-    noun     Identity |< Iy            {- >uwAriy~ -}       `gloss`  [ "blazing thirst" ] ]
+    noun     FuCAL |< Iy               {- >uwAriy~ -}       `gloss`  [ "blazing thirst" ] ]
 
  -- ;; >uwrAsiyA_1
 
@@ -17588,24 +17536,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; ma|l_1
 
- |> "ma'Al" <| [
+ |> "'l" <| [
 
     -- ;; ma|l_1
     -- m|l     ma|l    NduAt   outcome;result
 
-    noun     Identity                  {- ma|l -}           `gloss`  [ "outcome", "result" ] ]
-
- -- ;; >awA}il_1
-
- |> "''l" <| [
-
-    -- ;; >awA}il_1
-
-    noun     FawACiL                   {- >awA}il -}         ]
-
- -- ;; >awA}il_1
-
- |> "'l" <| [
+    noun     MaFAL                     {- ma|l -}           `gloss`  [ "outcome", "result" ],
 
     -- ;; >awA}il_1
     -- >wA}l   >awA}il Ndip    early;beginning
@@ -17984,18 +17920,10 @@ lexicon = listing "Lexicon properties"
  |> "'wm" <| [
 
     -- ;; >uwAm_1
-
-    root     Identity                                        ]
-
- -- ;; >uwAm_1
-
- |> "'uwAm" <| [
-
-    -- ;; >uwAm_1
     -- >wAm    >uwAm   N       thirst
     -- AwAm    >uwAm   N       thirst
 
-    noun     Identity                  {- >uwAm -}          `gloss`  [ "thirst" ],
+    noun     FuCAL                     {- >uwAm -}          `gloss`  [ "thirst" ],
 
     -- ;; >uwm_1
     -- >wm     >uwm    N       ohm
@@ -18463,7 +18391,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; ma>owaY_1
 
- |> "ma'wY" <| [
+ |> "'w" <| [
 
     -- ;; ma>owaY_1
     -- m>wY    ma>owaY N0      refuge;shelter
@@ -18472,7 +18400,7 @@ lexicon = listing "Lexicon properties"
     -- m|wy    ma|wiy  N0_Nh   shelters
     -- m|w     ma|w    NK      shelters
 
-    noun     Identity                  {- ma>owaY -}        `others` [ "ma'Aw NK", "ma'Awiy N0_Nh", "ma'way NAn_Nayn", "ma'wA Nhy" ]
+    noun     MaFCaNY                   {- ma>owaY -}        `others` [ "ma'Aw NK", "ma'Awiy N0_Nh", "ma'way NAn_Nayn", "ma'wA Nhy" ]
                                                             `gloss`  [ "refuge", "shelter", "shelters" ] ]
 
  -- ;; >wyyn_1
@@ -19531,7 +19459,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; >ay~il_1
 
- |> "'ayyil" <| [
+ |> "'yl" <| [
 
     -- ;; >ay~il_1
     -- >yl     >ay~il  Ndu     stag;buck
@@ -19541,30 +19469,14 @@ lexicon = listing "Lexicon properties"
     -- >yl     >ay~il  NapAt   doe;deer
     -- Ayl     >ay~il  NapAt   doe;deer
 
-    noun     Identity                  {- >ay~il -}         `others` [ "'ayA'il Ndip" ]
-                                                            `gloss`  [ "stag", "buck", "stags", "bucks", "doe", "deer" ] ]
-
- -- ;; >ay~iliy~_1
-
- |> "'ayyil" <| [
+    noun     FaCCiL                    {- >ay~il -}         `others` [ "'ayA'il Ndip" ]
+                                                            `gloss`  [ "stag", "buck", "stags", "bucks", "doe", "deer" ],
 
     -- ;; >ay~iliy~_1
     -- >yly    >ay~iliy~       Nall    cervidae;cervid;deer-related     [[>ay~iliy~/ADJ]]
     -- Ayly    >ay~iliy~       Nall    cervidae;cervid;deer-related     [[>ay~iliy~/ADJ]]
 
-    noun     Identity |< Iy            {- >ay~iliy~ -}      `gloss`  [ "cervidae", "cervid", "deer-related" ] ]
-
- -- ;; <iyl_1
-
- |> "'l" <| [
-
-    -- ;; <iyl_1
-
-    noun     FIL                       {- <iyl -}            ]
-
- -- ;; <iyl_1
-
- |> "'yl" <| [
+    noun     FaCCiL |< Iy              {- >ay~iliy~ -}      `gloss`  [ "cervidae", "cervid", "deer-related" ],
 
     -- ;; <iyl_1
     -- <yl     <iyl    FW      El (in "Beit El")    [[<iyl/NOUN_PROP]]
@@ -19709,17 +19621,13 @@ lexicon = listing "Lexicon properties"
     -- t>ym    ta>ay~am        PV_intr be widowed
     -- t>ym    ta>ay~am        IV_intr be widowed
 
-    verb     TaFaCCaL                  {- ta>ay~am -}       `gloss`  [ "be widowed" ] ]
-
- -- ;; >ay~im_1
-
- |> "'ayyim" <| [
+    verb     TaFaCCaL                  {- ta>ay~am -}       `gloss`  [ "be widowed" ],
 
     -- ;; >ay~im_1
     -- >ym     >ay~im  Ndu     widowed
     -- Aym     >ay~im  Ndu     widowed
 
-    noun     Identity                  {- >ay~im -}         `gloss`  [ "widowed" ] ]
+    noun     FaCCiL                    {- >ay~im -}         `gloss`  [ "widowed" ] ]
 
  -- ;; >ayA}im_1
 

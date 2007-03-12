@@ -90,16 +90,12 @@ lexicon = listing "Lexicon properties"
     -- ;; ja>or_1
     -- j>r     ja>or   N       lowing;mooing
 
-    noun     FaCL                      {- ja>or -}          `gloss`  [ "lowing", "mooing" ] ]
-
- -- ;; ju&Ar_1
-
- |> "^gu'Ar" <| [
+    noun     FaCL                      {- ja>or -}          `gloss`  [ "lowing", "mooing" ],
 
     -- ;; ju&Ar_1
     -- j&Ar    ju&Ar   N       lowing;mooing
 
-    noun     Identity                  {- ju&Ar -}          `gloss`  [ "lowing", "mooing" ] ]
+    noun     FuCAL                     {- ju&Ar -}          `gloss`  [ "lowing", "mooing" ] ]
 
  -- ;; jArAnoj_1
 
@@ -1205,11 +1201,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jibA}iy~_1
     -- jbA}y   jibA}iy~        Nall    fiscal;tax     [[jibA}iy~/ADJ]]
 
-    noun     FiCA' |< Iy               {- jibA}iy~ -}       `gloss`  [ "fiscal", "tax" ] ]
-
- -- ;; majobaY_1
-
- |> "ma^gbY" <| [
+    noun     FiCA' |< Iy               {- jibA}iy~ -}       `gloss`  [ "fiscal", "tax" ],
 
     -- ;; majobaY_1
     -- mjbY    majobaY N0      tax
@@ -1218,12 +1210,8 @@ lexicon = listing "Lexicon properties"
     -- mjAby   majAbiy N0_Nh   taxes
     -- mjAb    majAb   NK      taxes
 
-    noun     Identity                  {- majobaY -}        `others` [ "ma^gAbiy N0_Nh", "ma^gAb NK", "ma^gbA Nhy", "ma^gbay NAn_Nayn" ]
-                                                            `gloss`  [ "tax", "taxes" ] ]
-
- -- ;; jAbiy_1
-
- |> "^gAbiy" <| [
+    noun     MaFCaNY                   {- majobaY -}        `others` [ "ma^gAbiy N0_Nh", "ma^gAb NK", "ma^gbA Nhy", "ma^gbay NAn_Nayn" ]
+                                                            `gloss`  [ "tax", "taxes" ],
 
     -- ;; jAbiy_1
     -- jAby    jAbiy   N0F     tax collector;collector
@@ -1233,19 +1221,15 @@ lexicon = listing "Lexicon properties"
     -- jAby    jAbiy   NapAt   tax collector;collector
     -- jbA     jubA    Nap     tax collectors;collectors
 
-    noun     Identity                  {- jAbiy -}          `others` [ "^gAb Nuwn_Niyn NK", "^gubA Nap" ]
-                                                            `gloss`  [ "tax collector", "collector", "tax collectors", "collectors" ] ]
-
- -- ;; jAbiyap_1
-
- |> "^gAbiy" <| [
+    noun     FACI                      {- jAbiy -}          `others` [ "^gAb Nuwn_Niyn NK", "^gubA Nap" ]
+                                                            `gloss`  [ "tax collector", "collector", "tax collectors", "collectors" ],
 
     -- ;; jAbiyap_1
     -- jAby    jAbiy   Napdu   pool;basin
     -- jwAby   jawAbiy N0_Nh   pools;basins
     -- jwAb    jawAb   NK      pools;basins
 
-    noun     Identity |< aT            {- jAbiyap -}        `others` [ "^gawAb NK", "^gAbiy Napdu", "^gawAbiy N0_Nh" ]
+    noun     FACI |< aT                {- jAbiyap -}        `others` [ "^gawAb NK", "^gAbiy Napdu", "^gawAbiy N0_Nh" ]
                                                             `gloss`  [ "pool", "basin", "pools", "basins" ] ]
 
  -- ;; jit_1
@@ -1458,22 +1442,14 @@ lexicon = listing "Lexicon properties"
     -- jvw     juvow   Nap     rock pile;sepulchral mound
 
     noun     Identity |< aT            {- juvowap -}        `others` [ "^gu_tw Nap" ]
-                                                            `gloss`  [ "rock pile", "sepulchral mound" ] ]
-
- -- ;; majovaY_1
-
- |> "ma^g_tY" <| [
+                                                            `gloss`  [ "rock pile", "sepulchral mound" ],
 
     -- ;; majovaY_1
     -- mjvY    majovaY N0      hassock
     -- mjvA    majovA  Nhy     hassock
 
-    noun     Identity                  {- majovaY -}        `others` [ "ma^g_tA Nhy" ]
-                                                            `gloss`  [ "hassock" ] ]
-
- -- ;; jAviy_1
-
- |> "^gA_tiy" <| [
+    noun     MaFCaNY                   {- majovaY -}        `others` [ "ma^g_tA Nhy" ]
+                                                            `gloss`  [ "hassock" ],
 
     -- ;; jAviy_1
     -- jAvy    jAviy   N0F     kneeling
@@ -1482,17 +1458,13 @@ lexicon = listing "Lexicon properties"
     -- jAv     jAv     Nuwn_Niyn       kneeling
     -- jAvy    jAviy   NapAt   kneeling
 
-    noun     Identity                  {- jAviy -}          `others` [ "^gA_t Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "kneeling" ] ]
-
- -- ;; jAviy_2
-
- |> "^gA_tiy" <| [
+    noun     FACI                      {- jAviy -}          `others` [ "^gA_t Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "kneeling" ],
 
     -- ;; jAviy_2
     -- jAvy    jAviy   N0      Hercules
 
-    noun     Identity                  {- jAviy -}          `gloss`  [ "Hercules" ] ]
+    noun     FACI                      {- jAviy -}          `gloss`  [ "Hercules" ] ]
 
  -- ;; jaHad-a_1
 
@@ -4816,11 +4788,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jarayAn_1
     -- jryAn   jarayAn N       flow;course
 
-    noun     Identity                  {- jarayAn -}        `gloss`  [ "flow", "course" ] ]
-
- -- ;; majoraY_1
-
- |> "ma^grY" <| [
+    noun     Identity                  {- jarayAn -}        `gloss`  [ "flow", "course" ],
 
     -- ;; majoraY_1
     -- mjrY    majoraY N0      course;path
@@ -4829,7 +4797,7 @@ lexicon = listing "Lexicon properties"
     -- mjAry   majAriy N0_Nh   courses;paths
     -- mjAr    majAr   NK      courses;paths
 
-    noun     Identity                  {- majoraY -}        `others` [ "ma^gAr NK", "ma^gray NAn_Nayn", "ma^gAriy N0_Nh", "ma^grA Nhy" ]
+    noun     MaFCaNY                   {- majoraY -}        `others` [ "ma^gAr NK", "ma^gray NAn_Nayn", "ma^gAriy N0_Nh", "ma^grA Nhy" ]
                                                             `gloss`  [ "course", "path", "courses", "paths" ] ]
 
  -- ;; mAjarayAt_1
@@ -4895,21 +4863,13 @@ lexicon = listing "Lexicon properties"
     -- <jrA}y  <ijorA}iy~      Nall    operational     [[<ijorA}iy~/ADJ]]
     -- AjrA}y  <ijorA}iy~      Nall    operational     [[<ijorA}iy~/ADJ]]
 
-    noun     HiFCA' |< Iy              {- <ijorA}iy~ -}     `gloss`  [ "operational" ] ]
-
- -- ;; jAriyAF_1
-
- |> "^gAriy" <| [
+    noun     HiFCA' |< Iy              {- <ijorA}iy~ -}     `gloss`  [ "operational" ],
 
     -- ;; jAriyAF_1
     -- jAry    jAriy   NF      occurring;happening;flowing
 
-    noun     Identity |< aN            {- jAriyAF -}        `others` [ "^gAriy NF" ]
-                                                            `gloss`  [ "occurring", "happening", "flowing" ] ]
-
- -- ;; jAriy_1
-
- |> "^gAriy" <| [
+    noun     FACI |< aN                {- jAriyAF -}        `others` [ "^gAriy NF" ]
+                                                            `gloss`  [ "occurring", "happening", "flowing" ],
 
     -- ;; jAriy_1
     -- jAry    jAriy   N0      current;present;proceeding;taking place     [[jAriy/ADJ]]
@@ -4918,19 +4878,15 @@ lexicon = listing "Lexicon properties"
     -- jAr     jAr     Nuwn_Niyn       current;present;proceeding;taking place     [[jAr/ADJ]]
     -- jAry    jAriy   NapAt   current;present;proceeding;taking place     [[jAriy/ADJ]]
 
-    noun     Identity                  {- jAriy -}          `others` [ "^gAr Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "current", "present", "proceeding", "taking place" ] ]
-
- -- ;; jAriyap_1
-
- |> "^gAriy" <| [
+    noun     FACI                      {- jAriy -}          `others` [ "^gAr Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "current", "present", "proceeding", "taking place" ],
 
     -- ;; jAriyap_1
     -- jAry    jAriy   NapAt   housemaid
     -- jwAry   jawAriy N0_Nh   maids
     -- jwAr    jawAr   NK      maids
 
-    noun     Identity |< aT            {- jAriyap -}        `others` [ "^gAriy NapAt", "^gawAr NK", "^gawAriy N0_Nh" ]
+    noun     FACI |< aT                {- jAriyap -}        `others` [ "^gAriy NapAt", "^gawAr NK", "^gawAriy N0_Nh" ]
                                                             `gloss`  [ "housemaid", "maids" ] ]
 
  -- ;; jar~A'_1
@@ -6397,14 +6353,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; ju$A'_1
 
- |> "^gu^sA'" <| [
+ |> "^g^g^s" <| [
 
     -- ;; ju$A'_1
     -- j$A'    ju$A'   N0_Nh   burping;belching
     -- j$A&    ju$A&   Nh      burping;belching
     -- j$A}    ju$A}   Nhy     burping;belching
 
-    noun     Identity                  {- ju$A' -}          `gloss`  [ "burping", "belching" ] ]
+    noun     FuCA'                     {- ju$A' -}          `gloss`  [ "burping", "belching" ] ]
 
  -- ;; ju$o>ap_1
 
@@ -6917,14 +6873,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; jufA'_1
 
- |> "^gufA'" <| [
+ |> "^g^gf" <| [
 
     -- ;; jufA'_1
     -- jfA'    jufA'   N0_Nh   dross;refuse;futility
     -- jfA&    jufA&   Nh      dross;refuse;futility
     -- jfA}    jufA}   Nhy     dross;refuse;futility
 
-    noun     Identity                  {- jufA' -}          `gloss`  [ "dross", "refuse", "futility" ] ]
+    noun     FuCA'                     {- jufA' -}          `gloss`  [ "dross", "refuse", "futility" ] ]
 
  -- ;; jifot_1
 
@@ -7062,11 +7018,7 @@ lexicon = listing "Lexicon properties"
     -- jfAn    jifAn   N       bowls;grapevines
 
     noun     Identity |< aT            {- jafonap -}        `others` [ "^gafan NAt", "^gafn Napdu", "^gifAn N" ]
-                                                            `gloss`  [ "bowl", "grapevine", "bowls", "grapevines" ] ]
-
- -- ;; jafA-u_1
-
- |> "^g^gf" <| [
+                                                            `gloss`  [ "bowl", "grapevine", "bowls", "grapevines" ],
 
     -- ;; jafA-u_1
     -- jfA     jafA    PV_0h   be rough;shun
@@ -7142,11 +7094,7 @@ lexicon = listing "Lexicon properties"
     -- Ajfy    >ajofay NAn_Nayn        more/most averse
 
     noun     HaFCY                     {- >ajofaY -}        `others` [ "'a^gfA Nhy", "'a^gfay NAn_Nayn" ]
-                                                            `gloss`  [ "more / most averse" ] ]
-
- -- ;; jAfiy_1
-
- |> "^gAfiy" <| [
+                                                            `gloss`  [ "more / most averse" ],
 
     -- ;; jAfiy_1
     -- jAfy    jAfiy   N0F     rough;rude
@@ -7156,7 +7104,7 @@ lexicon = listing "Lexicon properties"
     -- jAfy    jAfiy   NapAt   rough;rude
     -- jfA     jufA    Nap     rough;rude
 
-    noun     Identity                  {- jAfiy -}          `others` [ "^gufA Nap", "^gAf Nuwn_Niyn NK" ]
+    noun     FACI                      {- jAfiy -}          `others` [ "^gufA Nap", "^gAf Nuwn_Niyn NK" ]
                                                             `gloss`  [ "rough", "rude" ] ]
 
  -- ;--- jkr
@@ -7507,16 +7455,12 @@ lexicon = listing "Lexicon properties"
     -- stjlb   sotajolib       IV      attract;fetch
 
     verb     IstaFCaL                  {- {isotajolab -}    `others` [ "sta^glib IV" ]
-                                                            `gloss`  [ "attract", "fetch" ] ]
-
- -- ;; julAb_1
-
- |> "^gulAb" <| [
+                                                            `gloss`  [ "attract", "fetch" ],
 
     -- ;; julAb_1
     -- jlAb    julAb   N       rose water;julep
 
-    noun     Identity                  {- julAb -}          `gloss`  [ "rose water", "julep" ],
+    noun     FuCAL                     {- julAb -}          `gloss`  [ "rose water", "julep" ],
 
     -- ;; jul~Ab_1
     -- jlAb    jul~Ab  N       rose water;julep
@@ -8234,17 +8178,9 @@ lexicon = listing "Lexicon properties"
  |> "^glq" <| [
 
     -- ;; julAqap_1
-
-    root     Identity                                        ]
-
- -- ;; julAqap_1
-
- |> "^gulAq" <| [
-
-    -- ;; julAqap_1
     -- jlAq    julAq   Nap     bumpkin
 
-    noun     Identity |< aT            {- julAqap -}        `others` [ "^gulAq Nap" ]
+    noun     FuCAL |< aT               {- julAqap -}        `others` [ "^gulAq Nap" ]
                                                             `gloss`  [ "bumpkin" ] ]
 
  -- ;; jil~iq_1
@@ -8574,18 +8510,14 @@ lexicon = listing "Lexicon properties"
     -- <stjlA' {isotijolA'     NAt     clarifications;elucidation
     -- AstjlA' {isotijolA'     NAt     clarifications;elucidation
 
-    noun     IstiFCA'                  {- {isotijolA' -}    `gloss`  [ "clarification", "elucidation", "clarifications" ] ]
-
- -- ;; jAliyap_1
-
- |> "^gAliy" <| [
+    noun     IstiFCA'                  {- {isotijolA' -}    `gloss`  [ "clarification", "elucidation", "clarifications" ],
 
     -- ;; jAliyap_1
     -- jAly    jAliy   NapAt   expatriate community;colony
     -- jwAly   jawAliy N0_Nh   expatriate communities;colonies
     -- jwAl    jawAl   NK      expatriate communities;colonies
 
-    noun     Identity |< aT            {- jAliyap -}        `others` [ "^gawAl NK", "^gawAliy N0_Nh", "^gAliy NapAt" ]
+    noun     FACI |< aT                {- jAliyap -}        `others` [ "^gawAl NK", "^gawAliy N0_Nh", "^gAliy NapAt" ]
                                                             `gloss`  [ "expatriate community", "colony", "expatriate communities", "colonies" ] ]
 
  -- ;; mujal~iy_1
@@ -8963,16 +8895,12 @@ lexicon = listing "Lexicon properties"
     -- ;; jamAd_1
     -- jmAd    jamAd   N/At    solid;inorganic
 
-    noun     FaCAL                     {- jamAd -}          `gloss`  [ "solid", "inorganic" ] ]
-
- -- ;; jumAd_1
-
- |> "^gumAd" <| [
+    noun     FaCAL                     {- jamAd -}          `gloss`  [ "solid", "inorganic" ],
 
     -- ;; jumAd_1
     -- jmAd    jumAd   N0      Jumad
 
-    noun     Identity                  {- jumAd -}          `gloss`  [ "Jumad" ] ]
+    noun     FuCAL                     {- jumAd -}          `gloss`  [ "Jumad" ] ]
 
  -- ;; jumAdaY_1
 
@@ -9641,36 +9569,20 @@ lexicon = listing "Lexicon properties"
  |> "^gmn" <| [
 
     -- ;; jumAn_1
-
-    root     Identity                                        ]
-
- -- ;; jumAn_1
-
- |> "^gumAn" <| [
-
-    -- ;; jumAn_1
     -- jmAn    jumAn   Nprop   Juman
 
-    noun     Identity                  {- jumAn -}          `gloss`  [ "Juman" ] ]
-
- -- ;; jumAn_2
-
- |> "^gumAn" <| [
+    noun     FuCAL                     {- jumAn -}          `gloss`  [ "Juman" ],
 
     -- ;; jumAn_2
     -- jmAn    jumAn   N       pearls
     -- jmAn    jumAn   Nap     pearl
 
-    noun     Identity                  {- jumAn -}          `gloss`  [ "pearls", "pearl" ] ]
-
- -- ;; jumAnap_1
-
- |> "^gumAn" <| [
+    noun     FuCAL                     {- jumAn -}          `gloss`  [ "pearls", "pearl" ],
 
     -- ;; jumAnap_1
     -- jmAnp   jumAnap Nprop   Jumana
 
-    noun     Identity |< aT            {- jumAnap -}        `gloss`  [ "Jumana" ] ]
+    noun     FuCAL |< aT               {- jumAnap -}        `gloss`  [ "Jumana" ] ]
 
  -- ;--- jmhr
 
@@ -10233,25 +10145,17 @@ lexicon = listing "Lexicon properties"
     -- AjnH    >ajonuH N       wings;flanks
 
     noun     FaCAL                     {- janAH -}          `others` [ "'a^gni.h Nap", "'a^gnu.h N" ]
-                                                            `gloss`  [ "wing", "flank", "wings", "flanks" ] ]
-
- -- ;; junAH_1
-
- |> "^gunA.h" <| [
+                                                            `gloss`  [ "wing", "flank", "wings", "flanks" ],
 
     -- ;; junAH_1
     -- jnAH    junAH   N       misdemeanor
 
-    noun     Identity                  {- junAH -}          `gloss`  [ "misdemeanor" ] ]
-
- -- ;; junAHiy~_1
-
- |> "^gunA.h" <| [
+    noun     FuCAL                     {- junAH -}          `gloss`  [ "misdemeanor" ],
 
     -- ;; junAHiy~_1
     -- jnAHy   junAHiy~        N-ap    delinquent;criminal     [[junAHiy~/ADJ]]
 
-    noun     Identity |< Iy            {- junAHiy~ -}       `gloss`  [ "delinquent", "criminal" ],
+    noun     FuCAL |< Iy               {- junAHiy~ -}       `gloss`  [ "delinquent", "criminal" ],
 
     -- ;; >ajonaH_2
     -- >jnH    >ajonaH Nel     more/most inclined
@@ -10887,11 +10791,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jinA}iy~_1
     -- jnA}y   jinA}iy~        Nall    criminal;penal     [[jinA}iy~/ADJ]]
 
-    noun     FiCA' |< Iy               {- jinA}iy~ -}       `gloss`  [ "criminal", "penal" ] ]
-
- -- ;; majonaY_1
-
- |> "ma^gnY" <| [
+    noun     FiCA' |< Iy               {- jinA}iy~ -}       `gloss`  [ "criminal", "penal" ],
 
     -- ;; majonaY_1
     -- mjnY    majonaY N0      crop;harvest
@@ -10899,7 +10799,7 @@ lexicon = listing "Lexicon properties"
     -- mjAny   majAniy N0_Nh   crops;harvests
     -- mjAn    majAn   NK      crops;harvests
 
-    noun     Identity                  {- majonaY -}        `others` [ "ma^gAniy N0_Nh", "ma^gAn NK", "ma^gnA Nhy" ]
+    noun     MaFCaNY                   {- majonaY -}        `others` [ "ma^gAniy N0_Nh", "ma^gAn NK", "ma^gnA Nhy" ]
                                                             `gloss`  [ "crop", "harvest", "crops", "harvests" ] ]
 
  -- ;; tajan~iy_1
@@ -10913,11 +10813,7 @@ lexicon = listing "Lexicon properties"
     -- tjny    tajan~iy        NAt     incrimination
 
     noun     Identity                  {- tajan~iy -}       `others` [ "ta^gann NK" ]
-                                                            `gloss`  [ "incrimination" ] ]
-
- -- ;; jAniy_1
-
- |> "^gAniy" <| [
+                                                            `gloss`  [ "incrimination" ],
 
     -- ;; jAniy_1
     -- jAny    jAniy   N0F     delinquent;criminal
@@ -10927,7 +10823,7 @@ lexicon = listing "Lexicon properties"
     -- jAny    jAniy   NapAt   delinquent;criminal
     -- jnA     junA    Nap     delinquents;criminals
 
-    noun     Identity                  {- jAniy -}          `others` [ "^gunA Nap", "^gAn Nuwn_Niyn NK" ]
+    noun     FACI                      {- jAniy -}          `others` [ "^gunA Nap", "^gAn Nuwn_Niyn NK" ]
                                                             `gloss`  [ "delinquent", "criminal", "delinquents", "criminals" ] ]
 
  -- ;; majoniy~_1
@@ -12694,26 +12590,18 @@ lexicon = listing "Lexicon properties"
     -- ;; jawAz_1
     -- jwAz    jawAz   N/At    permit;authorization
 
-    noun     Identity                  {- jawAz -}          `gloss`  [ "permit", "authorization" ] ]
-
- -- ;; majAz_1
-
- |> "ma^gAz" <| [
+    noun     Identity                  {- jawAz -}          `gloss`  [ "permit", "authorization" ],
 
     -- ;; majAz_1
     -- mjAz    majAz   Ndu     passage;figurative
     -- mjAz    majAz   NF      figuratively     [[majAz/ADV]]
 
-    noun     Identity                  {- majAz -}          `gloss`  [ "passage", "figurative", "figuratively" ] ]
-
- -- ;; majAziy~_1
-
- |> "ma^gAz" <| [
+    noun     MaFAL                     {- majAz -}          `gloss`  [ "passage", "figurative", "figuratively" ],
 
     -- ;; majAziy~_1
     -- mjAzy   majAziy~        Nall    figurative     [[majAziy~/ADJ]]
 
-    noun     Identity |< Iy            {- majAziy~ -}       `gloss`  [ "figurative" ],
+    noun     MaFAL |< Iy               {- majAziy~ -}       `gloss`  [ "figurative" ],
 
     -- ;; <ijAzap_1
     -- <jAz    <ijAz   NapAt   furlough;permit
@@ -13003,6 +12891,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; majAEap_1
 
+ |> "^g`" <| [
+
+    -- ;; majAEap_1
+
+    noun     MaFAL |< aT               {- majAEap -}         ]
+
+ -- ;; majAEap_1
+
  |> "^gm^g`" <| [
 
     -- ;; majAEap_1
@@ -13137,12 +13033,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; juwkiy_1
 
- |> "^guwkiy" <| [
+ |> "^g^gk" <| [
 
     -- ;; juwkiy_1
     -- jwky    juwkiy  N0      jockey
 
-    noun     Identity                  {- juwkiy -}         `gloss`  [ "jockey" ] ]
+    noun     FUCiy                     {- juwkiy -}         `gloss`  [ "jockey" ] ]
 
  -- ;--- jwl
 
@@ -13245,17 +13141,13 @@ lexicon = listing "Lexicon properties"
     -- ;; jawalAn_1
     -- jwlAn   jawalAn N       roving;wandering
 
-    noun     Identity                  {- jawalAn -}        `gloss`  [ "roving", "wandering" ] ]
-
- -- ;; majAl_1
-
- |> "ma^gAl" <| [
+    noun     Identity                  {- jawalAn -}        `gloss`  [ "roving", "wandering" ],
 
     -- ;; majAl_1
     -- mjAl    majAl   Ndu     area;field;arena;context
     -- mjAl    majAl   NAt     areas;fields;arenas;contexts
 
-    noun     Identity                  {- majAl -}          `gloss`  [ "area", "field", "arena", "context", "areas", "fields", "arenas", "contexts" ] ]
+    noun     MaFAL                     {- majAl -}          `gloss`  [ "area", "field", "arena", "context", "areas", "fields", "arenas", "contexts" ] ]
 
  -- ;; tajowAl_1
 
@@ -13318,16 +13210,12 @@ lexicon = listing "Lexicon properties"
     -- ;; juwluw_1
     -- jwlw    juwluw  Nprop   Jolo
 
-    noun     Identity                  {- juwluw -}         `gloss`  [ "Jolo" ] ]
-
- -- ;; juwliy_1
-
- |> "^guwliy" <| [
+    noun     Identity                  {- juwluw -}         `gloss`  [ "Jolo" ],
 
     -- ;; juwliy_1
     -- jwly    juwliy  Nprop   Julie
 
-    noun     Identity                  {- juwliy -}         `gloss`  [ "Julie" ] ]
+    noun     FUCiy                     {- juwliy -}         `gloss`  [ "Julie" ] ]
 
  -- ;; juwliyA_1
 
@@ -13624,11 +13512,7 @@ lexicon = listing "Lexicon properties"
     -- mjy'    majiy'  N0      arrival;advent
     -- mjy}    majiy}  NF_Nhy  arrival;advent
 
-    noun     MaFIL                     {- majiy' -}         `gloss`  [ "arrival", "advent" ] ]
-
- -- ;; jA}iy_1
-
- |> "^gA'iy" <| [
+    noun     MaFIL                     {- majiy' -}         `gloss`  [ "arrival", "advent" ],
 
     -- ;; jA}iy_1
     -- jA}y    jA}iy   N0F     coming;arriving
@@ -13638,7 +13522,7 @@ lexicon = listing "Lexicon properties"
     -- jA}     jA}     Nuwn_Niyn       coming;arriving
     -- jA}y    jA}iy   NapAt   coming;arriving
 
-    noun     Identity                  {- jA}iy -}          `others` [ "^gA' Nuwn_Niyn NK" ]
+    noun     FACI                      {- jA}iy -}          `others` [ "^gA' Nuwn_Niyn NK" ]
                                                             `gloss`  [ "coming", "arriving" ] ]
 
  -- ;; jiyAnog_1

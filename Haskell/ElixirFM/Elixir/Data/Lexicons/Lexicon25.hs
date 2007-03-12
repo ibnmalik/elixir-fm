@@ -128,9 +128,17 @@ lexicon = listing "Lexicon properties"
  |> "ndy" <| [
 
     -- ;; nAdiyap_1
+
+    noun     FACiL |< aT               {- nAdiyap -}         ]
+
+ -- ;; nAdiyap_1
+
+ |> "nd" <| [
+
+    -- ;; nAdiyap_1
     -- nAdyp   nAdiyap Nprop   Nadia
 
-    noun     FACiL |< aT               {- nAdiyap -}        `gloss`  [ "Nadia" ] ]
+    noun     FACI |< aT                {- nAdiyap -}        `gloss`  [ "Nadia" ] ]
 
  -- ;--- nAr
 
@@ -318,12 +326,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; nAnt_1
 
- |> "nAnt" <| [
+ |> "nnt" <| [
 
     -- ;; nAnt_1
     -- nAnt    nAnt    Nprop   Nantes
 
-    noun     Identity                  {- nAnt -}           `gloss`  [ "Nantes" ] ]
+    noun     FACL                      {- nAnt -}           `gloss`  [ "Nantes" ] ]
 
  -- ;; nAndrwlwn_1
 
@@ -523,11 +531,7 @@ lexicon = listing "Lexicon properties"
     -- An>y    >ano>ay NAn_Nayn        farthest away;most remote
 
     noun     Identity                  {- >ano| -}          `others` [ "'an'ay NAn_Nayn" ]
-                                                            `gloss`  [ "farthest away", "most remote" ] ]
-
- -- ;; mano>aY_1
-
- |> "man'Y" <| [
+                                                            `gloss`  [ "farthest away", "most remote" ],
 
     -- ;; mano>aY_1
     -- mn>Y    mano>aY N0      distant place;aloofness
@@ -535,7 +539,7 @@ lexicon = listing "Lexicon properties"
     -- mn>y    mano>ay NAn_Nayn        distant place;aloofness
     -- mn>y    mano>ay NAt     distant place;aloofness
 
-    noun     Identity                  {- mano>aY -}        `others` [ "man'ay NAt NAn_Nayn", "man'A Nhy" ]
+    noun     MaFCaNY                   {- mano>aY -}        `others` [ "man'ay NAt NAn_Nayn", "man'A Nhy" ]
                                                             `gloss`  [ "distant place", "aloofness" ] ]
 
  -- ;; tanA}iy_1
@@ -549,11 +553,7 @@ lexicon = listing "Lexicon properties"
     -- tnA}y   tanA}iy NAt     remoteness;great distance
 
     noun     Identity                  {- tanA}iy -}        `others` [ "tanA' NK" ]
-                                                            `gloss`  [ "remoteness", "great distance" ] ]
-
- -- ;; nA}iy_1
-
- |> "n'y" <| [
+                                                            `gloss`  [ "remoteness", "great distance" ],
 
     -- ;; nA}iy_1
     -- nA}y    nA}iy   N0F     remote;distant;secluded     [[nA}iy/ADJ]]
@@ -561,7 +561,7 @@ lexicon = listing "Lexicon properties"
     -- nA}y    nA}iy   NAn_Nayn        remote;distant;secluded
     -- nA}y    nA}iy   NapAt   remote;distant;secluded     [[nA}iy/ADJ]]
 
-    noun     FACiL                     {- nA}iy -}          `others` [ "nA' NK" ]
+    noun     FACI                      {- nA}iy -}          `others` [ "nA' NK" ]
                                                             `gloss`  [ "remote", "distant", "secluded" ] ]
 
  -- ;; nAy_1
@@ -583,12 +583,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; nAyol_1
 
- |> "nAyl" <| [
+ |> "nyl" <| [
 
     -- ;; nAyol_1
     -- nAyl    nAyol   Nprop   Nile
 
-    noun     Identity                  {- nAyol -}          `gloss`  [ "Nile" ] ]
+    noun     FACL                      {- nAyol -}          `gloss`  [ "Nile" ] ]
 
  -- ;; nAyoluwn_1
 
@@ -990,17 +990,13 @@ lexicon = listing "Lexicon properties"
     -- ;; naboH_1
     -- nbH     naboH   N       barking
 
-    noun     FaCL                      {- naboH -}          `gloss`  [ "barking" ] ]
-
- -- ;; nubAH_1
-
- |> "nubA.h" <| [
+    noun     FaCL                      {- naboH -}          `gloss`  [ "barking" ],
 
     -- ;; nubAH_1
     -- nbAH    nubAH   N       barking
     -- nbAH    nibAH   N       barking
 
-    noun     Identity                  {- nubAH -}          `others` [ "nibA.h N" ]
+    noun     FuCAL                     {- nubAH -}          `others` [ "nibA.h N" ]
                                                             `gloss`  [ "barking" ],
 
     -- ;; nabiyH_1
@@ -1915,13 +1911,21 @@ lexicon = listing "Lexicon properties"
  |> "nby" <| [
 
     -- ;; nAbiy_1
+
+    noun     FACiL                     {- nAbiy -}           ]
+
+ -- ;; nAbiy_1
+
+ |> "nb" <| [
+
+    -- ;; nAbiy_1
     -- nAby    nAbiy   N0F     repugnant;improper     [[nAbiy/ADJ]]
     -- nAb     nAb     NK      repugnant;improper
     -- nAby    nAbiy   NAn_Nayn        repugnant;improper
     -- nAb     nAb     Nuwn_Niyn       repugnant;improper
     -- nAby    nAbiy   NapAt   repugnant;improper
 
-    noun     FACiL                     {- nAbiy -}          `others` [ "nAb Nuwn_Niyn NK" ]
+    noun     FACI                      {- nAbiy -}          `others` [ "nAb Nuwn_Niyn NK" ]
                                                             `gloss`  [ "repugnant", "improper" ] ]
 
  -- ;; mutanab~iy~_1
@@ -2428,16 +2432,12 @@ lexicon = listing "Lexicon properties"
     -- nvry    navoriy~        N-ap    prose;petty;insignificant     [[navoriy~/ADJ]]
     -- nvry    navoriy~        NAt     miscellaneous;incidental     [[navoriy~/NOUN]]
 
-    noun     FaCL |< Iy                {- navoriy~ -}       `gloss`  [ "prose", "petty", "insignificant", "miscellaneous", "incidental" ] ]
-
- -- ;; nuvAr_1
-
- |> "nu_tAr" <| [
+    noun     FaCL |< Iy                {- navoriy~ -}       `gloss`  [ "prose", "petty", "insignificant", "miscellaneous", "incidental" ],
 
     -- ;; nuvAr_1
     -- nvAr    nuvAr   N       fragments;particles
 
-    noun     Identity                  {- nuvAr -}          `gloss`  [ "fragments", "particles" ],
+    noun     FuCAL                     {- nuvAr -}          `gloss`  [ "fragments", "particles" ],
 
     -- ;; naviyr_1
     -- nvyr    naviyr  N-ap    scattered;dispersed     [[naviyr/ADJ]]
@@ -2833,25 +2833,17 @@ lexicon = listing "Lexicon properties"
     -- ;; naj~Ar_2
     -- njAr    naj~Ar  Nall    carpenter
 
-    noun     FaCCAL                    {- naj~Ar -}         `gloss`  [ "carpenter" ] ]
-
- -- ;; nujAr_1
-
- |> "nu^gAr" <| [
+    noun     FaCCAL                    {- naj~Ar -}         `gloss`  [ "carpenter" ],
 
     -- ;; nujAr_1
     -- njAr    nujAr   N       origin;descent;stock
 
-    noun     Identity                  {- nujAr -}          `gloss`  [ "origin", "descent", "stock" ] ]
-
- -- ;; nujArap_1
-
- |> "nu^gAr" <| [
+    noun     FuCAL                     {- nujAr -}          `gloss`  [ "origin", "descent", "stock" ],
 
     -- ;; nujArap_1
     -- njAr    nujAr   Nap     wood shavings
 
-    noun     Identity |< aT            {- nujArap -}        `others` [ "nu^gAr Nap" ]
+    noun     FuCAL |< aT               {- nujArap -}        `others` [ "nu^gAr Nap" ]
                                                             `gloss`  [ "wood shavings" ],
 
     -- ;; nijArap_1
@@ -3569,17 +3561,13 @@ lexicon = listing "Lexicon properties"
     -- AnjyA}  >anojiyA}       Nhy     confidants;bosom friends
 
     noun     CaL |< Iy                 {- najiy~ -}         `others` [ "'an^giyA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "confidant", "bosom friend", "confidants", "bosom friends" ] ]
-
- -- ;; manojaY_1
-
- |> "man^gY" <| [
+                                                            `gloss`  [ "confidant", "bosom friend", "confidants", "bosom friends" ],
 
     -- ;; manojaY_1
     -- mnjY    manojaY N0      safety;security
     -- mnjA    manojA  Nhy     safety;security
 
-    noun     Identity                  {- manojaY -}        `others` [ "man^gA Nhy" ]
+    noun     MaFCaNY                   {- manojaY -}        `others` [ "man^gA Nhy" ]
                                                             `gloss`  [ "safety", "security" ] ]
 
  -- ;; manojAp_1
@@ -3909,25 +3897,17 @@ lexicon = listing "Lexicon properties"
     -- ;; naH~As_2
     -- nHAs    naH~As  N0      Nahhas
 
-    noun     FaCCAL                    {- naH~As -}         `gloss`  [ "Nahhas" ] ]
-
- -- ;; nuHAs_1
-
- |> "nu.hAs" <| [
+    noun     FaCCAL                    {- naH~As -}         `gloss`  [ "Nahhas" ],
 
     -- ;; nuHAs_1
     -- nHAs    nuHAs   N       copper
 
-    noun     Identity                  {- nuHAs -}          `gloss`  [ "copper" ] ]
-
- -- ;; nuHAsiy~_1
-
- |> "nu.hAs" <| [
+    noun     FuCAL                     {- nuHAs -}          `gloss`  [ "copper" ],
 
     -- ;; nuHAsiy~_1
     -- nHAsy   nuHAsiy~        N-ap    copper;brass     [[nuHAsiy~/ADJ]]
 
-    noun     Identity |< Iy            {- nuHAsiy~ -}       `gloss`  [ "copper", "brass" ],
+    noun     FuCAL |< Iy               {- nuHAsiy~ -}       `gloss`  [ "copper", "brass" ],
 
     -- ;; manAHis_1
     -- mnAHs   manAHis Ndip    ominous events
@@ -4180,16 +4160,12 @@ lexicon = listing "Lexicon properties"
     -- ;; naHamAn_1
     -- nHmAn   naHamAn N       clearing the throat;wheezing;gasping
 
-    noun     FaCaLAn                   {- naHamAn -}        `gloss`  [ "clearing the throat", "wheezing", "gasping" ] ]
-
- -- ;; nuHAm_1
-
- |> "nu.hAm" <| [
+    noun     FaCaLAn                   {- naHamAn -}        `gloss`  [ "clearing the throat", "wheezing", "gasping" ],
 
     -- ;; nuHAm_1
     -- nHAm    nuHAm   N       flamingo
 
-    noun     Identity                  {- nuHAm -}          `gloss`  [ "flamingo" ] ]
+    noun     FuCAL                     {- nuHAm -}          `gloss`  [ "flamingo" ] ]
 
  -- ;--- nHn
 
@@ -4367,7 +4343,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; manoHaY_1
 
- |> "man.hY" <| [
+ |> "n.h" <| [
 
     -- ;; manoHaY_1
     -- mnHY    manoHaY N0      field;domain
@@ -4376,7 +4352,7 @@ lexicon = listing "Lexicon properties"
     -- mnAHy   manAHiy N0_Nh   fields;domains
     -- mnAH    manAH   NK      fields;domains
 
-    noun     Identity                  {- manoHaY -}        `others` [ "manA.hiy N0_Nh", "man.hay NAn_Nayn", "manA.h NK", "man.hA Nhy" ]
+    noun     MaFCaNY                   {- manoHaY -}        `others` [ "manA.hiy N0_Nh", "man.hay NAn_Nayn", "manA.h NK", "man.hA Nhy" ]
                                                             `gloss`  [ "field", "domain", "fields", "domains" ] ]
 
  -- ;; tanoHiyap_1
@@ -4660,28 +4636,20 @@ lexicon = listing "Lexicon properties"
     -- tnxE    tanax~aE        PV      expectorate;clear the throat
     -- tnxE    tanax~aE        IV      expectorate;clear the throat
 
-    verb     TaFaCCaL                  {- tanax~aE -}       `gloss`  [ "expectorate", "clear the throat" ] ]
-
- -- ;; nuxAE_1
-
- |> "nu_hA`" <| [
+    verb     TaFaCCaL                  {- tanax~aE -}       `gloss`  [ "expectorate", "clear the throat" ],
 
     -- ;; nuxAE_1
     -- nxAE    nuxAE   N       spinal cord;brain
     -- nxAE    nixAE   N       spinal cord;brain
     -- nxE     nuxuE   N       spinal cords;brains
 
-    noun     Identity                  {- nuxAE -}          `others` [ "ni_hA` N", "nu_hu` N" ]
-                                                            `gloss`  [ "spinal cord", "brain", "spinal cords", "brains" ] ]
-
- -- ;; nuxAEap_1
-
- |> "nu_hA`" <| [
+    noun     FuCAL                     {- nuxAE -}          `others` [ "ni_hA` N", "nu_hu` N" ]
+                                                            `gloss`  [ "spinal cord", "brain", "spinal cords", "brains" ],
 
     -- ;; nuxAEap_1
     -- nxAE    nuxAE   Nap     phlegm;sputum
 
-    noun     Identity |< aT            {- nuxAEap -}        `others` [ "nu_hA` Nap" ]
+    noun     FuCAL |< aT               {- nuxAEap -}        `others` [ "nu_hA` Nap" ]
                                                             `gloss`  [ "phlegm", "sputum" ] ]
 
  -- ;--- nxl
@@ -4731,16 +4699,12 @@ lexicon = listing "Lexicon properties"
     -- ;; naxiyl_1
     -- nxyl    naxiyl  N0      Nakheel
 
-    noun     FaCIL                     {- naxiyl -}         `gloss`  [ "Nakheel" ] ]
-
- -- ;; nuxAlap_1
-
- |> "nu_hAl" <| [
+    noun     FaCIL                     {- naxiyl -}         `gloss`  [ "Nakheel" ],
 
     -- ;; nuxAlap_1
     -- nxAl    nuxAl   Nap     waste;residue
 
-    noun     Identity |< aT            {- nuxAlap -}        `others` [ "nu_hAl Nap" ]
+    noun     FuCAL |< aT               {- nuxAlap -}        `others` [ "nu_hAl Nap" ]
                                                             `gloss`  [ "waste", "residue" ],
 
     -- ;; munoxal_1
@@ -4766,26 +4730,18 @@ lexicon = listing "Lexicon properties"
     -- tnxm    tanax~am        PV      expectorate;clear the throat
     -- tnxm    tanax~am        IV      expectorate;clear the throat
 
-    verb     TaFaCCaL                  {- tanax~am -}       `gloss`  [ "expectorate", "clear the throat" ] ]
-
- -- ;; nuxAmap_1
-
- |> "nu_hAm" <| [
+    verb     TaFaCCaL                  {- tanax~am -}       `gloss`  [ "expectorate", "clear the throat" ],
 
     -- ;; nuxAmap_1
     -- nxAm    nuxAm   Nap     phlegm;spit
 
-    noun     Identity |< aT            {- nuxAmap -}        `others` [ "nu_hAm Nap" ]
-                                                            `gloss`  [ "phlegm", "spit" ] ]
-
- -- ;; nuxAmiy~_1
-
- |> "nu_hAm" <| [
+    noun     FuCAL |< aT               {- nuxAmap -}        `others` [ "nu_hAm Nap" ]
+                                                            `gloss`  [ "phlegm", "spit" ],
 
     -- ;; nuxAmiy~_1
     -- nxAmy   nuxAmiy~        N-ap    pituitary     [[nuxAmiy~/ADJ]]
 
-    noun     Identity |< Iy            {- nuxAmiy~ -}       `gloss`  [ "pituitary" ] ]
+    noun     FuCAL |< Iy               {- nuxAmiy~ -}       `gloss`  [ "pituitary" ] ]
 
  -- ;--- nxw
 
@@ -5605,6 +5561,14 @@ lexicon = listing "Lexicon properties"
  |> "ndy" <| [
 
     -- ;; nAdiy_1
+
+    noun     FACiL                     {- nAdiy -}           ]
+
+ -- ;; nAdiy_1
+
+ |> "nd" <| [
+
+    -- ;; nAdiy_1
     -- nAdy    nAdiy   N0F_Nh  club;association
     -- nAd     nAd     NK      club;association
     -- nAdy    nAdiy   NAn_Nayn        club;association
@@ -5613,12 +5577,8 @@ lexicon = listing "Lexicon properties"
     -- nwAdy   nawAdiy N0_Nh   clubs;associations
     -- nwAd    nawAd   NK      clubs;associations
 
-    noun     FACiL                     {- nAdiy -}          `others` [ "nawAd NK", "nawAdiy N0_Nh", "'andiy Nap", "nAd NK" ]
-                                                            `gloss`  [ "club", "association", "clubs", "associations" ] ]
-
- -- ;; munad~aY_1
-
- |> "nd" <| [
+    noun     FACI                      {- nAdiy -}          `others` [ "nawAd NK", "nawAdiy N0_Nh", "'andiy Nap", "nAd NK" ]
+                                                            `gloss`  [ "club", "association", "clubs", "associations" ],
 
     -- ;; munad~aY_1
     -- mndY    munad~aY        N0      wet;damp     [[munad~aY/ADJ]]
@@ -6031,16 +5991,12 @@ lexicon = listing "Lexicon properties"
     -- nz      niz~    N       leaking;trickling;seepage
 
     noun     FaCL                      {- naz~ -}           `others` [ "nizz N" ]
-                                                            `gloss`  [ "leaking", "trickling", "seepage" ] ]
-
- -- ;; nuzAz_1
-
- |> "nuzAz" <| [
+                                                            `gloss`  [ "leaking", "trickling", "seepage" ],
 
     -- ;; nuzAz_1
     -- nzAz    nuzAz   Nap     leaking;trickling;seepage
 
-    noun     Identity                  {- nuzAz -}          `gloss`  [ "leaking", "trickling", "seepage" ],
+    noun     FuCAL                     {- nuzAz -}          `gloss`  [ "leaking", "trickling", "seepage" ],
 
     -- ;; nuzuwz_1
     -- nzwz    nuzuwz  N       leaking;trickling;seepage
@@ -7330,16 +7286,12 @@ lexicon = listing "Lexicon properties"
     -- nsr     nasor   Nap     chip;splint
 
     noun     FaCL |< aT                {- nasorap -}        `others` [ "nasr Nap" ]
-                                                            `gloss`  [ "chip", "splint" ] ]
-
- -- ;; nusAriy~ap_1
-
- |> "nusAr" <| [
+                                                            `gloss`  [ "chip", "splint" ],
 
     -- ;; nusAriy~ap_1
     -- nsAry   nusAriy~        Nap     eagle     [[nusAriy~/NOUN]]
 
-    noun     Identity |< Iy |< aT      {- nusAriy~ap -}     `others` [ "nusAriyy Nap" ]
+    noun     FuCAL |< Iy |< aT         {- nusAriy~ap -}     `others` [ "nusAriyy Nap" ]
                                                             `gloss`  [ "eagle" ] ]
 
  -- ;; nAsuwr_1
@@ -7450,16 +7402,12 @@ lexicon = listing "Lexicon properties"
     -- nsAsyf  nasAsiyf        Ndip    hornbills;swallows
 
     noun     FuCCAL                    {- nus~Af -}         `others` [ "nasAsiyf Ndip" ]
-                                                            `gloss`  [ "hornbill", "swallow", "hornbills", "swallows" ] ]
-
- -- ;; nusAfap_1
-
- |> "nusAf" <| [
+                                                            `gloss`  [ "hornbill", "swallow", "hornbills", "swallows" ],
 
     -- ;; nusAfap_1
     -- nsAf    nusAf   Nap     chaff
 
-    noun     Identity |< aT            {- nusAfap -}        `others` [ "nusAf Nap" ]
+    noun     FuCAL |< aT               {- nusAfap -}        `others` [ "nusAf Nap" ]
                                                             `gloss`  [ "chaff" ],
 
     -- ;; nas~Afap_1
@@ -7693,16 +7641,12 @@ lexicon = listing "Lexicon properties"
     -- AnsAl   >anosAl N       progeny;descendants
 
     noun     FaCL                      {- nasol -}          `others` [ "'ansAl N" ]
-                                                            `gloss`  [ "progeny", "offspring", "descendants" ] ]
-
- -- ;; nusAlap_1
-
- |> "nusAl" <| [
+                                                            `gloss`  [ "progeny", "offspring", "descendants" ],
 
     -- ;; nusAlap_1
     -- nsAl    nusAl   Nap     fibrous waste;lint
 
-    noun     Identity |< aT            {- nusAlap -}        `others` [ "nusAl Nap" ]
+    noun     FuCAL |< aT               {- nusAlap -}        `others` [ "nusAl Nap" ]
                                                             `gloss`  [ "fibrous waste", "lint" ],
 
     -- ;; nas~Alap_1
@@ -8055,16 +7999,12 @@ lexicon = listing "Lexicon properties"
     -- ;; na$~A$_1
     -- n$A$    na$~A$  N       blotting
 
-    noun     FaCCAL                    {- na$~A$ -}         `gloss`  [ "blotting" ] ]
-
- -- ;; mina$~ap_1
-
- |> "mina^s^s" <| [
+    noun     FaCCAL                    {- na$~A$ -}         `gloss`  [ "blotting" ],
 
     -- ;; mina$~ap_1
     -- mn$     mina$~  Nap     fly swatter
 
-    noun     Identity |< aT            {- mina$~ap -}       `others` [ "mina^s^s Nap" ]
+    noun     MiFaCL |< aT              {- mina$~ap -}       `others` [ "mina^s^s Nap" ]
                                                             `gloss`  [ "fly swatter" ] ]
 
  -- ;--- n$A
@@ -8563,16 +8503,12 @@ lexicon = listing "Lexicon properties"
     -- n$Ar    ni$Ar   Nap     wood sawing
 
     noun     FiCAL |< aT               {- ni$Arap -}        `others` [ "ni^sAr Nap" ]
-                                                            `gloss`  [ "wood sawing" ] ]
-
- -- ;; nu$Arap_1
-
- |> "nu^sAr" <| [
+                                                            `gloss`  [ "wood sawing" ],
 
     -- ;; nu$Arap_1
     -- n$Ar    nu$Ar   Nap     sawdust
 
-    noun     Identity |< aT            {- nu$Arap -}        `others` [ "nu^sAr Nap" ]
+    noun     FuCAL |< aT               {- nu$Arap -}        `others` [ "nu^sAr Nap" ]
                                                             `gloss`  [ "sawdust" ],
 
     -- ;; nu$uwr_1
@@ -9304,17 +9240,13 @@ lexicon = listing "Lexicon properties"
     -- nS      nuS~    Napdu   forelock
 
     noun     FuCL |< aT                {- nuS~ap -}         `others` [ "nu.s.s Napdu" ]
-                                                            `gloss`  [ "forelock" ] ]
-
- -- ;; minaS~ap_1
-
- |> "mina.s.s" <| [
+                                                            `gloss`  [ "forelock" ],
 
     -- ;; minaS~ap_1
     -- mnS     minaS~  NapAt   platform;podium
     -- mnAS    manAS~  Ndip    platforms;podiums
 
-    noun     Identity |< aT            {- minaS~ap -}       `others` [ "manA.s.s Ndip", "mina.s.s NapAt" ]
+    noun     MiFaCL |< aT              {- minaS~ap -}       `others` [ "manA.s.s Ndip", "mina.s.s NapAt" ]
                                                             `gloss`  [ "platform", "podium", "platforms", "podiums" ],
 
     -- ;; tanoSiyS_1
@@ -10202,18 +10134,14 @@ lexicon = listing "Lexicon properties"
     -- tnAS    tanAS   IV_0hwnyn       join forces;unite;associate
 
     verb     TaFACY                    {- tanASaY -}        `others` [ "tanA.s IV_0hwnyn PV_ttAw", "tanA.sA PV_h IV_h", "tanA.say PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "join forces", "unite", "associate" ] ]
-
- -- ;; nASiyap_1
-
- |> "n.sy" <| [
+                                                            `gloss`  [ "join forces", "unite", "associate" ],
 
     -- ;; nASiyap_1
     -- nASy    nASiy   Nap     corner;affairs;situation
     -- nwASy   nawASiy N0_Nh   corners;affairs;situation
     -- nwAS    nawAS   NK      corners;affairs;situation
 
-    noun     FACiL |< aT               {- nASiyap -}        `others` [ "nawA.s NK", "nawA.siy N0_Nh", "nA.siy Nap" ]
+    noun     FACI |< aT                {- nASiyap -}        `others` [ "nawA.s NK", "nawA.siy N0_Nh", "nA.siy Nap" ]
                                                             `gloss`  [ "corner", "affairs", "situation", "corners" ] ]
 
  -- ;--- nD
@@ -10503,16 +10431,12 @@ lexicon = listing "Lexicon properties"
     -- nDr     naDor   Nap     bloom;splendor;wealth
 
     noun     FaCL |< aT                {- naDorap -}        `others` [ "na.dr Nap" ]
-                                                            `gloss`  [ "bloom", "splendor", "wealth" ] ]
-
- -- ;; nuDAr_1
-
- |> "nu.dAr" <| [
+                                                            `gloss`  [ "bloom", "splendor", "wealth" ],
 
     -- ;; nuDAr_1
     -- nDAr    nuDAr   N       pure gold
 
-    noun     Identity                  {- nuDAr -}          `gloss`  [ "pure gold" ],
+    noun     FuCAL                     {- nuDAr -}          `gloss`  [ "pure gold" ],
 
     -- ;; naDArap_1
     -- nDAr    naDAr   Nap     bloom;vigor
@@ -11618,16 +11542,12 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCaL                     {- naEab-i -}        `imperf` [ FCiL ]
                                                             `others` [ "n`ib IV", "na`ab PV" ]
-                                                            `gloss`  [ "croak", "caw" ] ]
-
- -- ;; nuEAb_1
-
- |> "nu`Ab" <| [
+                                                            `gloss`  [ "croak", "caw" ],
 
     -- ;; nuEAb_1
     -- nEAb    nuEAb   N       croaking;cawing
 
-    noun     Identity                  {- nuEAb -}          `gloss`  [ "croaking", "cawing" ],
+    noun     FuCAL                     {- nuEAb -}          `gloss`  [ "croaking", "cawing" ],
 
     -- ;; naE~Ab_1
     -- nEAb    naE~Ab  N-ap    ominous;croaking;cawing
@@ -11691,16 +11611,12 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCaL                     {- naEar-ia -}       `imperf` [ FCiL, FCaL ]
                                                             `others` [ "n`ir IV", "n`ar IV", "na`ar PV" ]
-                                                            `gloss`  [ "grunt", "snort", "howl" ] ]
-
- -- ;; nuEAr_1
-
- |> "nu`Ar" <| [
+                                                            `gloss`  [ "grunt", "snort", "howl" ],
 
     -- ;; nuEAr_1
     -- nEAr    nuEAr   N       grunting;snorting;howling
 
-    noun     Identity                  {- nuEAr -}          `gloss`  [ "grunting", "snorting", "howling" ],
+    noun     FuCAL                     {- nuEAr -}          `gloss`  [ "grunting", "snorting", "howling" ],
 
     -- ;; naEorap_1
     -- nEr     naEor   Nap     grunt;snort;howl
@@ -11812,16 +11728,12 @@ lexicon = listing "Lexicon properties"
     -- nEs     naEos   Nap     doze;nap
 
     noun     FaCL |< aT                {- naEosap -}        `others` [ "na`s Nap" ]
-                                                            `gloss`  [ "doze", "nap" ] ]
-
- -- ;; nuEAs_1
-
- |> "nu`As" <| [
+                                                            `gloss`  [ "doze", "nap" ],
 
     -- ;; nuEAs_1
     -- nEAs    nuEAs   N       sleepiness;lethargy
 
-    noun     Identity                  {- nuEAs -}          `gloss`  [ "sleepiness", "lethargy" ],
+    noun     FuCAL                     {- nuEAs -}          `gloss`  [ "sleepiness", "lethargy" ],
 
     -- ;; naEosAn_1
     -- nEsAn   naEosAn Ndip    sleepy;drowsy     [[naEosAn/ADJ]]
@@ -12363,7 +12275,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; manoEaY_1
 
- |> "man`Y" <| [
+ |> "n`" <| [
 
     -- ;; manoEaY_1
     -- mnEY    manoEaY N0      obituary
@@ -12372,7 +12284,7 @@ lexicon = listing "Lexicon properties"
     -- mnAEy   manAEiy N0_Nh   obituaries
     -- mnAE    manAE   NK      obituaries
 
-    noun     Identity                  {- manoEaY -}        `others` [ "manA` NK", "man`A Napdu Nhy", "manA`iy N0_Nh" ]
+    noun     MaFCaNY                   {- manoEaY -}        `others` [ "manA` NK", "man`A Napdu Nhy", "manA`iy N0_Nh" ]
                                                             `gloss`  [ "obituary", "obituaries" ] ]
 
  -- ;--- ngb
@@ -12448,25 +12360,17 @@ lexicon = listing "Lexicon properties"
     -- ng$     naga$   NAt     motions;shaking
 
     noun     FaCL |< aT                {- nago$ap -}        `others` [ "na.ga^s NAt", "na.g^s Napdu" ]
-                                                            `gloss`  [ "motion", "shaking", "motions" ] ]
-
- -- ;; nugA$_1
-
- |> "nu.gA^s" <| [
+                                                            `gloss`  [ "motion", "shaking", "motions" ],
 
     -- ;; nugA$_1
     -- ngA$    nugA$   Ndu     midget;dwarf
 
-    noun     Identity                  {- nugA$ -}          `gloss`  [ "midget", "dwarf" ] ]
-
- -- ;; nugA$iy~_1
-
- |> "nu.gA^s" <| [
+    noun     FuCAL                     {- nugA$ -}          `gloss`  [ "midget", "dwarf" ],
 
     -- ;; nugA$iy~_1
     -- ngA$y   nugA$iy~        Nall    midget;dwarf     [[nugA$iy~/ADJ]]
 
-    noun     Identity |< Iy            {- nugA$iy~ -}       `gloss`  [ "midget", "dwarf" ],
+    noun     FuCAL |< Iy               {- nugA$iy~ -}       `gloss`  [ "midget", "dwarf" ],
 
     -- ;; nagA$ap_1
     -- ngA$    nagA$   Nap     banter;teasing;elegance
@@ -12731,16 +12635,12 @@ lexicon = listing "Lexicon properties"
     -- nfv     nafav   NAt     emissions;output;discharge
 
     noun     FaCL                      {- nafov -}          `others` [ "nafa_t NAt" ]
-                                                            `gloss`  [ "emissions", "output", "discharge" ] ]
-
- -- ;; nufAvap_1
-
- |> "nufA_t" <| [
+                                                            `gloss`  [ "emissions", "output", "discharge" ],
 
     -- ;; nufAvap_1
     -- nfAv    nufAv   Nap     spittle;saliva
 
-    noun     Identity |< aT            {- nufAvap -}        `others` [ "nufA_t Nap" ]
+    noun     FuCAL |< aT               {- nufAvap -}        `others` [ "nufA_t Nap" ]
                                                             `gloss`  [ "spittle", "saliva" ],
 
     -- ;; naf~Av_1
@@ -12876,16 +12776,12 @@ lexicon = listing "Lexicon properties"
     -- nfx     nafox   Napdu   puff;inflation;swelling
 
     noun     FaCL |< aT                {- nafoxap -}        `others` [ "naf_h Napdu" ]
-                                                            `gloss`  [ "puff", "inflation", "swelling" ] ]
-
- -- ;; nufAx_1
-
- |> "nufA_h" <| [
+                                                            `gloss`  [ "puff", "inflation", "swelling" ],
 
     -- ;; nufAx_1
     -- nfAx    nufAx   N       emphysema
 
-    noun     Identity                  {- nufAx -}          `gloss`  [ "emphysema" ],
+    noun     FuCAL                     {- nufAx -}          `gloss`  [ "emphysema" ],
 
     -- ;; naf~Ax_1
     -- nfAx    naf~Ax  Nall    grandiloquent;flatulent
@@ -13570,16 +13466,12 @@ lexicon = listing "Lexicon properties"
     -- nfAD    nafAD   N       shiver;ague fit
 
     noun     Identity |< aT            {- nufaDap -}        `others` [ "nafA.d N", "nufa.d Nap" ]
-                                                            `gloss`  [ "shiver", "ague fit" ] ]
-
- -- ;; nufADap_1
-
- |> "nufA.d" <| [
+                                                            `gloss`  [ "shiver", "ague fit" ],
 
     -- ;; nufADap_1
     -- nfAD    nufAD   Nap     shedding
 
-    noun     Identity |< aT            {- nufADap -}        `others` [ "nufA.d Nap" ]
+    noun     FuCAL |< aT               {- nufADap -}        `others` [ "nufA.d Nap" ]
                                                             `gloss`  [ "shedding" ],
 
     -- ;; nafiyDap_1
@@ -14060,38 +13952,34 @@ lexicon = listing "Lexicon properties"
 
  -- ;; nufAwap_1
 
- |> "nufAw" <| [
+ |> "nfw" <| [
 
     -- ;; nufAwap_1
     -- nfAw    nufAw   Nap     refused;discarded item
 
-    noun     Identity |< aT            {- nufAwap -}        `others` [ "nufAw Nap" ]
+    noun     FuCAL |< aT               {- nufAwap -}        `others` [ "nufAw Nap" ]
                                                             `gloss`  [ "refused", "discarded item" ] ]
 
  -- ;; nufAyap_1
 
- |> "nufAy" <| [
+ |> "nfy" <| [
 
     -- ;; nufAyap_1
     -- nfAy    nufAy   NapAt   waste;refuse
 
-    noun     Identity |< aT            {- nufAyap -}        `others` [ "nufAy NapAt" ]
+    noun     FuCAL |< aT               {- nufAyap -}        `others` [ "nufAy NapAt" ]
                                                             `gloss`  [ "waste", "refuse" ] ]
 
  -- ;; manofaY_1
 
- |> "manfY" <| [
+ |> "nf" <| [
 
     -- ;; manofaY_1
     -- mnfY    manofaY N0      exile;banishment
     -- mnfA    manofA  Nhy     exile;banishment
 
-    noun     Identity                  {- manofaY -}        `others` [ "manfA Nhy" ]
-                                                            `gloss`  [ "exile", "banishment" ] ]
-
- -- ;; manofaY_2
-
- |> "manfY" <| [
+    noun     MaFCaNY                   {- manofaY -}        `others` [ "manfA Nhy" ]
+                                                            `gloss`  [ "exile", "banishment" ],
 
     -- ;; manofaY_2
     -- mnfY    manofaY N0      place of exile;banishment
@@ -14100,7 +13988,7 @@ lexicon = listing "Lexicon properties"
     -- mnAfy   manAfiy N0_Nh   places of exile;banishment
     -- mnAf    manAf   NK      places of exile;banishment
 
-    noun     Identity                  {- manofaY -}        `others` [ "manAfiy N0_Nh", "manAf NK", "manfA Nhy", "manfay NAn_Nayn" ]
+    noun     MaFCaNY                   {- manofaY -}        `others` [ "manAfiy N0_Nh", "manAf NK", "manfA Nhy", "manfay NAn_Nayn" ]
                                                             `gloss`  [ "place of exile", "banishment", "places of exile" ] ]
 
  -- ;; munAfAp_1
@@ -14137,16 +14025,12 @@ lexicon = listing "Lexicon properties"
     -- <ntfA'  {inotifA'       NAt     absence;lack
     -- AntfA'  {inotifA'       NAt     absence;lack
 
-    noun     IFtiCA'                   {- {inotifA' -}      `gloss`  [ "absence", "lack" ] ]
-
- -- ;; nAfiyAF_1
-
- |> "nfy" <| [
+    noun     IFtiCA'                   {- {inotifA' -}      `gloss`  [ "absence", "lack" ],
 
     -- ;; nAfiyAF_1
     -- nAfy    nAfiy   NF      denying;disavowing;rejecting
 
-    noun     FACiL |< aN               {- nAfiyAF -}        `others` [ "nAfiy NF" ]
+    noun     FACI |< aN                {- nAfiyAF -}        `others` [ "nAfiy NF" ]
                                                             `gloss`  [ "denying", "disavowing", "rejecting" ] ]
 
  -- ;; manofiy~_1
@@ -14165,7 +14049,11 @@ lexicon = listing "Lexicon properties"
     -- ;; manofiy~_2
     -- mnfy    manofiy~        Nall    exiled;deported     [[manofiy~/ADJ]]
 
-    noun     Identity |< Iy            {- manofiy~ -}       `gloss`  [ "exiled", "deported" ],
+    noun     Identity |< Iy            {- manofiy~ -}       `gloss`  [ "exiled", "deported" ] ]
+
+ -- ;; munAfiy_1
+
+ |> "nfy" <| [
 
     -- ;; munAfiy_1
     -- mnAfy   munAfiy N0F_Nh  incompatible     [[munAfiy/ADJ]]
@@ -15250,27 +15138,19 @@ lexicon = listing "Lexicon properties"
     -- nqwE    nuquwE  N       dust
 
     noun     FiCAL                     {- niqAE -}          `others` [ "nuquw` N" ]
-                                                            `gloss`  [ "dust" ] ]
-
- -- ;; nuqAEap_1
-
- |> "nuqA`" <| [
+                                                            `gloss`  [ "dust" ],
 
     -- ;; nuqAEap_1
     -- nqAE    nuqAE   Nap     infusion
 
-    noun     Identity |< aT            {- nuqAEap -}        `others` [ "nuqA` Nap" ]
-                                                            `gloss`  [ "infusion" ] ]
-
- -- ;; nuqAEiy~_1
-
- |> "nuqA`" <| [
+    noun     FuCAL |< aT               {- nuqAEap -}        `others` [ "nuqA` Nap" ]
+                                                            `gloss`  [ "infusion" ],
 
     -- ;; nuqAEiy~_1
     -- nqAEy   nuqAEiy~        N-ap    microscopic     [[nuqAEiy~/ADJ]]
     -- nqAEy   nuqAEiy~        NAt     infusoria (microscopic sea creatures)    [[nuqAEiy~/NOUN]]
 
-    noun     Identity |< Iy            {- nuqAEiy~ -}       `gloss`  [ "microscopic", "infusoria ( microscopic sea creatures )" ],
+    noun     FuCAL |< Iy               {- nuqAEiy~ -}       `gloss`  [ "microscopic", "infusoria ( microscopic sea creatures )" ],
 
     -- ;; naqiyE_1
     -- nqyE    naqiyE  N       infusion;juice
@@ -15725,27 +15605,23 @@ lexicon = listing "Lexicon properties"
     -- nqAw    naqAw   Nap     purity;cleanness
 
     noun     FaCAL |< aT               {- naqAwap -}        `others` [ "naqAw Nap" ]
-                                                            `gloss`  [ "purity", "cleanness" ] ]
-
- -- ;; nuqAwap_1
-
- |> "nuqAw" <| [
+                                                            `gloss`  [ "purity", "cleanness" ],
 
     -- ;; nuqAwap_1
     -- nqAw    nuqAw   Nap     selection;choice;select
 
-    noun     Identity |< aT            {- nuqAwap -}        `others` [ "nuqAw Nap" ]
+    noun     FuCAL |< aT               {- nuqAwap -}        `others` [ "nuqAw Nap" ]
                                                             `gloss`  [ "selection", "choice", "select" ] ]
 
  -- ;; nuqAyap_1
 
- |> "nuqAy" <| [
+ |> "nqy" <| [
 
     -- ;; nuqAyap_1
     -- nqAy    nuqAy   Nap     selection;choice;select
     -- nqAyA   nuqAyA  N0_Nhy  selection;choice;select
 
-    noun     Identity |< aT            {- nuqAyap -}        `others` [ "nuqAyA N0_Nhy", "nuqAy Nap" ]
+    noun     FuCAL |< aT               {- nuqAyap -}        `others` [ "nuqAyA N0_Nhy", "nuqAy Nap" ]
                                                             `gloss`  [ "selection", "choice", "select" ] ]
 
  -- ;; naqiy~_1
@@ -16732,16 +16608,12 @@ lexicon = listing "Lexicon properties"
     -- nmA}m   namA}im Ndip    slander;calumnies
 
     noun     FaCIL |< aT               {- namiymap -}       `others` [ "namA'im Ndip", "namiym Napdu" ]
-                                                            `gloss`  [ "slander", "calumny", "calumnies" ] ]
-
- -- ;; nAm~ap_1
-
- |> "nAmm" <| [
+                                                            `gloss`  [ "slander", "calumny", "calumnies" ],
 
     -- ;; nAm~ap_1
     -- nAm     nAm~    Nap     bustle;stir
 
-    noun     Identity |< aT            {- nAm~ap -}         `others` [ "nAmm Nap" ]
+    noun     FACL |< aT                {- nAm~ap -}         `others` [ "nAmm Nap" ]
                                                             `gloss`  [ "bustle", "stir" ],
 
     -- ;; num~iy~_1
@@ -17398,11 +17270,7 @@ lexicon = listing "Lexicon properties"
     -- <ntmA'  {inotimA'       NAt     membership;affiliation;commitment
     -- AntmA'  {inotimA'       NAt     membership;affiliation;commitment
 
-    noun     IFtiCA'                   {- {inotimA' -}      `gloss`  [ "membership", "affiliation", "commitment" ] ]
-
- -- ;; nAmiy_1
-
- |> "nAmiy" <| [
+    noun     IFtiCA'                   {- {inotimA' -}      `gloss`  [ "membership", "affiliation", "commitment" ],
 
     -- ;; nAmiy_1
     -- nAmy    nAmiy   N0F     developing     [[nAmiy/ADJ]]
@@ -17411,18 +17279,14 @@ lexicon = listing "Lexicon properties"
     -- nAm     nAm     Nuwn_Niyn       developing
     -- nAmy    nAmiy   NapAt   developing
 
-    noun     Identity                  {- nAmiy -}          `others` [ "nAm Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "developing" ] ]
-
- -- ;; nAmiy_2
-
- |> "nAmiy" <| [
+    noun     FACI                      {- nAmiy -}          `others` [ "nAm Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "developing" ],
 
     -- ;; nAmiy_2
     -- nwAmy   nawAmiy N0_Nh   tumors
     -- nwAm    nawAm   NK      tumors
 
-    noun     Identity                  {- nAmiy -}          `others` [ "nawAm NK", "nawAmiy N0_Nh" ]
+    noun     FACI                      {- nAmiy -}          `others` [ "nawAm NK", "nawAmiy N0_Nh" ]
                                                             `gloss`  [ "tumors" ] ]
 
  -- ;; mutanAmiy_1
@@ -18367,11 +18231,7 @@ lexicon = listing "Lexicon properties"
     -- AnthA'  {inotihA'       NAt     finishing;completion;conclusion
     -- <nthA'  {inotihA'       NAt     finishing;completion;conclusion
 
-    noun     IFtiCA'                   {- {inotihA' -}      `gloss`  [ "finishing", "completion", "conclusion" ] ]
-
- -- ;; nAhiy_1
-
- |> "nhy" <| [
+    noun     IFtiCA'                   {- {inotihA' -}      `gloss`  [ "finishing", "completion", "conclusion" ],
 
     -- ;; nAhiy_1
     -- nAhy    nAhiy   N0F     prohibitive;interdictory     [[nAhiy/ADJ]]
@@ -18379,7 +18239,7 @@ lexicon = listing "Lexicon properties"
     -- nAhy    nAhiy   NAn_Nayn        prohibitive;interdictory
     -- nAhy    nAhiy   NapAt   prohibitive;interdictory
 
-    noun     FACiL                     {- nAhiy -}          `others` [ "nAh NK" ]
+    noun     FACI                      {- nAhiy -}          `others` [ "nAh NK" ]
                                                             `gloss`  [ "prohibitive", "interdictory" ],
 
     -- ;; nAhiyap_1
@@ -18387,7 +18247,7 @@ lexicon = listing "Lexicon properties"
     -- nwAhy   nawAhiy N0_Nh   proscriptions;prohibition orders
     -- nwAh    nawAh   NK      proscriptions;prohibition orders
 
-    noun     FACiL |< aT               {- nAhiyap -}        `others` [ "nAhiy Napdu", "nawAh NK", "nawAhiy N0_Nh" ]
+    noun     FACI |< aT                {- nAhiyap -}        `others` [ "nAhiy Napdu", "nawAh NK", "nawAhiy N0_Nh" ]
                                                             `gloss`  [ "ban", "proscription", "proscriptions", "prohibition orders" ] ]
 
  -- ;; manohiy~_1
@@ -18397,7 +18257,11 @@ lexicon = listing "Lexicon properties"
     -- ;; manohiy~_1
     -- mnhy    manohiy~        N-ap    forbidden;illicit     [[manohiy~/ADJ]]
 
-    noun     Identity |< Iy            {- manohiy~ -}       `gloss`  [ "forbidden", "illicit" ],
+    noun     Identity |< Iy            {- manohiy~ -}       `gloss`  [ "forbidden", "illicit" ] ]
+
+ -- ;; mutanAhiy_1
+
+ |> "nhy" <| [
 
     -- ;; mutanAhiy_1
     -- mtnAhy  mutanAhiy       N0F_Nh  utmost;extreme;finished
@@ -18705,12 +18569,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; manAb_1
 
- |> "manAb" <| [
+ |> "nb" <| [
 
     -- ;; manAb_1
     -- mnAb    manAb   N       replacement;deputyship
 
-    noun     Identity                  {- manAb -}          `gloss`  [ "replacement", "deputyship" ] ]
+    noun     MaFAL                     {- manAb -}          `gloss`  [ "replacement", "deputyship" ] ]
 
  -- ;; munAwabap_1
 
@@ -18978,12 +18842,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; manAHap_1
 
- |> "manA.h" <| [
+ |> "n.h" <| [
 
     -- ;; manAHap_1
     -- mnAH    manAH   Nap     wailing;mourning
 
-    noun     Identity |< aT            {- manAHap -}        `others` [ "manA.h Nap" ]
+    noun     MaFAL |< aT               {- manAHap -}        `others` [ "manA.h Nap" ]
                                                             `gloss`  [ "wailing", "mourning" ] ]
 
  -- ;; mutanay~aH_1
@@ -19039,16 +18903,12 @@ lexicon = listing "Lexicon properties"
     -- mnAx    manAx   NduAt   climate;atmosphere
 
     noun     MuFAL                     {- munAx -}          `others` [ "manA_h NduAt" ]
-                                                            `gloss`  [ "climate", "atmosphere" ] ]
-
- -- ;; manAx_2
-
- |> "manA_h" <| [
+                                                            `gloss`  [ "climate", "atmosphere" ],
 
     -- ;; manAx_2
     -- mnAx    manAx   N0      Manakh
 
-    noun     Identity                  {- manAx -}          `gloss`  [ "Manakh" ],
+    noun     MaFAL                     {- manAx -}          `gloss`  [ "Manakh" ],
 
     -- ;; munAxiy~_1
     -- mnAxy   munAxiy~        N-ap    climatic     [[munAxiy~/ADJ]]
@@ -19092,16 +18952,12 @@ lexicon = listing "Lexicon properties"
     -- ;; nawod_1
     -- nwd     nawod   N       swaying;swinging
 
-    noun     FaCL                      {- nawod -}          `gloss`  [ "swaying", "swinging" ] ]
-
- -- ;; nuwAd_1
-
- |> "nuwAd" <| [
+    noun     FaCL                      {- nawod -}          `gloss`  [ "swaying", "swinging" ],
 
     -- ;; nuwAd_1
     -- nwAd    nuwAd   N       swaying;swinging
 
-    noun     Identity                  {- nuwAd -}          `gloss`  [ "swaying", "swinging" ],
+    noun     FuCAL                     {- nuwAd -}          `gloss`  [ "swaying", "swinging" ],
 
     -- ;; nawadAn_1
     -- nwdAn   nawadAn N       swaying;swinging
@@ -19200,16 +19056,12 @@ lexicon = listing "Lexicon properties"
     -- ;; nuwr_1
     -- nwr     nuwr    N0      Nour;Noor
 
-    noun     FUL                       {- nuwr -}           `gloss`  [ "Nour", "Noor" ] ]
-
- -- ;; nuwriy_1
-
- |> "nuwriy" <| [
+    noun     FUL                       {- nuwr -}           `gloss`  [ "Nour", "Noor" ],
 
     -- ;; nuwriy_1
     -- nwry    nuwriy  Nprop   Nouri;Nuri
 
-    noun     Identity                  {- nuwriy -}         `gloss`  [ "Nouri", "Nuri" ] ]
+    noun     FUCiy                     {- nuwriy -}         `gloss`  [ "Nouri", "Nuri" ] ]
 
  -- ;; nuwrA_1
 
@@ -19283,13 +19135,17 @@ lexicon = listing "Lexicon properties"
 
  -- ;; nay~ir_1
 
- |> "nayyir" <| [
+ |> "nyr" <| [
 
     -- ;; nay~ir_1
     -- nyr     nay~ir  N-ap    luminous;clear
     -- nyr     nay~ir  NAn_Nayn        sun and moon
 
-    noun     Identity                  {- nay~ir -}         `gloss`  [ "luminous", "clear", "sun and moon" ],
+    noun     FaCCiL                    {- nay~ir -}         `gloss`  [ "luminous", "clear", "sun and moon" ] ]
+
+ -- ;; >anowar_2
+
+ |> "nwr" <| [
 
     -- ;; >anowar_2
     -- >nwr    >anowar Nprop   Anwar
@@ -19306,7 +19162,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; manAr_1
 
- |> "manAr" <| [
+ |> "nr" <| [
 
     -- ;; manAr_1
     -- mnAr    manAr   Ndu     lighthouse
@@ -19314,8 +19170,12 @@ lexicon = listing "Lexicon properties"
     -- mnA}r   manA}ir Ndip    lighthouses
     -- mnAwr   manAwir Ndip    lighthouses
 
-    noun     Identity                  {- manAr -}          `others` [ "manA'ir Ndip", "manAwir Ndip" ]
-                                                            `gloss`  [ "lighthouse", "lighthouses" ],
+    noun     MaFAL                     {- manAr -}          `others` [ "manA'ir Ndip", "manAwir Ndip" ]
+                                                            `gloss`  [ "lighthouse", "lighthouses" ] ]
+
+ -- ;; tanowiyr_1
+
+ |> "nwr" <| [
 
     -- ;; tanowiyr_1
     -- tnwyr   tanowiyr        N/At    lighting;enlightenment;blossoming
@@ -19747,16 +19607,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; manAS_1
 
- |> "manA.s" <| [
+ |> "n.s" <| [
 
     -- ;; manAS_1
     -- mnAS    manAS   N       escape;evasion;shirking
 
-    noun     Identity                  {- manAS -}          `gloss`  [ "escape", "evasion", "shirking" ] ]
-
- -- ;; maniyS_1
-
- |> "n.s" <| [
+    noun     MaFAL                     {- manAS -}          `gloss`  [ "escape", "evasion", "shirking" ],
 
     -- ;; maniyS_1
     -- mnyS    maniyS  N       escape;evasion;shirking
@@ -19828,12 +19684,16 @@ lexicon = listing "Lexicon properties"
 
  -- ;; manAT_1
 
- |> "manA.t" <| [
+ |> "n.t" <| [
 
     -- ;; manAT_1
     -- mnAT    manAT   N       place of suspension;anchor;object
 
-    noun     Identity                  {- manAT -}          `gloss`  [ "place of suspension", "anchor", "object" ],
+    noun     MaFAL                     {- manAT -}          `gloss`  [ "place of suspension", "anchor", "object" ] ]
+
+ -- ;; tanaw~uT_1
+
+ |> "nw.t" <| [
 
     -- ;; tanaw~uT_1
     -- tnwT    tanaw~uT        N       weaverbird
@@ -20010,16 +19870,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; nay~if_1
 
- |> "nayyif" <| [
+ |> "nyf" <| [
 
     -- ;; nay~if_1
     -- nyf     nay~if  N       some;excess;surplus
 
-    noun     Identity                  {- nay~if -}         `gloss`  [ "some", "excess", "surplus" ] ]
-
- -- ;; niyAfap_1
-
- |> "nyf" <| [
+    noun     FaCCiL                    {- nay~if -}         `gloss`  [ "some", "excess", "surplus" ],
 
     -- ;; niyAfap_1
     -- nyAf    niyAf   Nap     Excellency;Eminence
@@ -20192,12 +20048,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; nay~iq_1
 
- |> "nayyiq" <| [
+ |> "nyq" <| [
 
     -- ;; nay~iq_1
     -- nyq     nay~iq  Nall    squeamish;fastidious
 
-    noun     Identity                  {- nay~iq -}         `gloss`  [ "squeamish", "fastidious" ] ]
+    noun     FaCCiL                    {- nay~iq -}         `gloss`  [ "squeamish", "fastidious" ] ]
 
  -- ;--- nwl
 
@@ -20423,41 +20279,33 @@ lexicon = listing "Lexicon properties"
 
  -- ;; manAm_1
 
- |> "manAm" <| [
+ |> "nm" <| [
 
     -- ;; manAm_1
     -- mnAm    manAm   N       sleep;dormitory
 
-    noun     Identity                  {- manAm -}          `gloss`  [ "sleep", "dormitory" ] ]
-
- -- ;; manAm_2
-
- |> "manAm" <| [
+    noun     MaFAL                     {- manAm -}          `gloss`  [ "sleep", "dormitory" ],
 
     -- ;; manAm_2
     -- mnAm    manAm   NduAt   dream
 
-    noun     Identity                  {- manAm -}          `gloss`  [ "dream" ] ]
-
- -- ;; manAmap_1
-
- |> "manAm" <| [
+    noun     MaFAL                     {- manAm -}          `gloss`  [ "dream" ],
 
     -- ;; manAmap_1
     -- mnAm    manAm   Nap     Manama
 
-    noun     Identity |< aT            {- manAmap -}        `others` [ "manAm Nap" ]
-                                                            `gloss`  [ "Manama" ] ]
-
- -- ;; manAmap_2
-
- |> "manAm" <| [
+    noun     MaFAL |< aT               {- manAmap -}        `others` [ "manAm Nap" ]
+                                                            `gloss`  [ "Manama" ],
 
     -- ;; manAmap_2
     -- mnAm    manAm   Napdu   dormitory
 
-    noun     Identity |< aT            {- manAmap -}        `others` [ "manAm Napdu" ]
-                                                            `gloss`  [ "dormitory" ],
+    noun     MaFAL |< aT               {- manAmap -}        `others` [ "manAm Napdu" ]
+                                                            `gloss`  [ "dormitory" ] ]
+
+ -- ;; tanowiym_1
+
+ |> "nwm" <| [
 
     -- ;; tanowiym_1
     -- tnwym   tanowiym        N/At    anesthetization
@@ -21268,21 +21116,21 @@ lexicon = listing "Lexicon properties"
 
  -- ;; manAl_1
 
- |> "manAl" <| [
+ |> "nl" <| [
 
     -- ;; manAl_1
     -- mnAl    manAl   N       attainment;acquiring;obtaining
 
-    noun     Identity                  {- manAl -}          `gloss`  [ "attainment", "acquiring", "obtaining" ] ]
-
- -- ;; manAl_2
-
- |> "manAl" <| [
+    noun     MaFAL                     {- manAl -}          `gloss`  [ "attainment", "acquiring", "obtaining" ],
 
     -- ;; manAl_2
     -- mnAl    manAl   Nprop   Manal
 
-    noun     Identity                  {- manAl -}          `gloss`  [ "Manal" ],
+    noun     MaFAL                     {- manAl -}          `gloss`  [ "Manal" ] ]
+
+ -- ;; tanoyiyl_1
+
+ |> "nyl" <| [
 
     -- ;; tanoyiyl_1
     -- tnyyl   tanoyiyl        N/At    alluviation of soil by the Nile

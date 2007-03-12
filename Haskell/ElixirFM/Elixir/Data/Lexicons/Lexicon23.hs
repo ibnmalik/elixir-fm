@@ -684,12 +684,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; lArj_1
 
- |> "lAr^g" <| [
+ |> "lr^g" <| [
 
     -- ;; lArj_1
     -- lArj    lArj    Nprop   Large
 
-    noun     Identity                  {- lArj -}           `gloss`  [ "Large" ] ]
+    noun     FACL                      {- lArj -}           `gloss`  [ "Large" ] ]
 
  -- ;; lAriyuwnodA_1
 
@@ -1042,12 +1042,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; lAno$_1
 
- |> "lAn^s" <| [
+ |> "ln^s" <| [
 
     -- ;; lAno$_1
     -- lAn$    lAno$   N/At_L  motorboat;launch
 
-    noun     Identity                  {- lAno$ -}          `gloss`  [ "motorboat", "launch" ] ]
+    noun     FACL                      {- lAno$ -}          `gloss`  [ "motorboat", "launch" ] ]
 
  -- ;--- lAh
 
@@ -1151,12 +1151,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; lAyok_1
 
- |> "lAyk" <| [
+ |> "lyk" <| [
 
     -- ;; lAyok_1
     -- lAyk    lAyok   Nprop   Lake
 
-    noun     Identity                  {- lAyok -}          `gloss`  [ "Lake" ] ]
+    noun     FACL                      {- lAyok -}          `gloss`  [ "Lake" ] ]
 
  -- ;; lA}ikiy~_1
 
@@ -1835,16 +1835,12 @@ lexicon = listing "Lexicon properties"
     -- lbn     laban   NAt_L   lactate
 
     noun     FaCaL |< At               {- labanAt -}        `others` [ "laban NAt_L" ]
-                                                            `gloss`  [ "lactate" ] ]
-
- -- ;; lubAn_1
-
- |> "lubAn" <| [
+                                                            `gloss`  [ "lactate" ],
 
     -- ;; lubAn_1
     -- lbAn    lubAn   N_L     chewing gum;frankincense
 
-    noun     Identity                  {- lubAn -}          `gloss`  [ "chewing gum", "frankincense" ],
+    noun     FuCAL                     {- lubAn -}          `gloss`  [ "chewing gum", "frankincense" ],
 
     -- ;; libAn_1
     -- lbAn    libAn   N_L     sucking;nursing
@@ -1854,17 +1850,13 @@ lexicon = listing "Lexicon properties"
     -- ;; lab~An_1
     -- lbAn    lab~An  N_L     brick maker;milkman
 
-    noun     FaCCAL                    {- lab~An -}         `gloss`  [ "brick maker", "milkman" ] ]
-
- -- ;; lubAnap_1
-
- |> "lubAn" <| [
+    noun     FaCCAL                    {- lab~An -}         `gloss`  [ "brick maker", "milkman" ],
 
     -- ;; lubAnap_1
     -- lbAn    lubAn   NapAt_L enterprise;business
     -- lbAn    lubAn   N_L     enterprises;business
 
-    noun     Identity |< aT            {- lubAnap -}        `others` [ "lubAn N_L NapAt_L" ]
+    noun     FuCAL |< aT               {- lubAnap -}        `others` [ "lubAn N_L NapAt_L" ]
                                                             `gloss`  [ "enterprise", "business", "enterprises" ],
 
     -- ;; libAnap_1
@@ -2228,11 +2220,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCL                      {- laj~-ai -}        `imperf` [ FCaL, FCiL ]
                                                             `others` [ "li^g^g IV_V_intr", "la^gi^g PV_C_intr", "la^g^g IV_V_intr PV_V_intr", "l^gi^g IV_C_intr", "la^ga^g PV_C_intr", "l^ga^g IV_C_intr" ]
-                                                            `gloss`  [ "be stubborn", "persist" ] ]
-
- -- ;; lAj~_1
-
- |> "lA^g^g" <| [
+                                                            `gloss`  [ "be stubborn", "persist" ],
 
     -- ;; lAj~_1
     -- lAj     lAj~    PV_V    dispute with;argue with
@@ -2240,7 +2228,7 @@ lexicon = listing "Lexicon properties"
     -- lAj     lAj~    IV_V_yu dispute with;argue with
     -- lAjj    lAjij   IV_C_yu dispute with;argue with
 
-    verb     Identity                  {- lAj~ -}           `others` [ "lA^ga^g PV_C", "lA^gi^g IV_C_yu" ]
+    verb     FACL                      {- lAj~ -}           `others` [ "lA^ga^g PV_C", "lA^gi^g IV_C_yu" ]
                                                             `gloss`  [ "dispute with", "argue with" ],
 
     -- ;; {ilotaj~_1
@@ -2283,16 +2271,12 @@ lexicon = listing "Lexicon properties"
     -- ;; lajuwj_1
     -- ljwj    lajuwj  N-ap_L  obstinate;troublesome     [[lajuwj/ADJ]]
 
-    noun     FaCUL                     {- lajuwj -}         `gloss`  [ "obstinate", "troublesome" ] ]
-
- -- ;; lAj~_2
-
- |> "lA^g^g" <| [
+    noun     FaCUL                     {- lajuwj -}         `gloss`  [ "obstinate", "troublesome" ],
 
     -- ;; lAj~_2
     -- lAj     lAj~    Nall_L  obstinate;troublesome
 
-    noun     Identity                  {- lAj~ -}           `gloss`  [ "obstinate", "troublesome" ] ]
+    noun     FACL                      {- lAj~ -}           `gloss`  [ "obstinate", "troublesome" ] ]
 
  -- ;--- ljA
 
@@ -2567,16 +2551,12 @@ lexicon = listing "Lexicon properties"
     -- ;; laHiH_1
     -- lHH     laHiH   N-ap_L  close;narrow
 
-    noun     FaCiL                     {- laHiH -}          `gloss`  [ "close", "narrow" ] ]
-
- -- ;; lAH~_1
-
- |> "lA.h.h" <| [
+    noun     FaCiL                     {- laHiH -}          `gloss`  [ "close", "narrow" ],
 
     -- ;; lAH~_1
     -- lAH     lAH~    N-ap_L  close;narrow
 
-    noun     Identity                  {- lAH~ -}           `gloss`  [ "close", "narrow" ],
+    noun     FACL                      {- lAH~ -}           `gloss`  [ "close", "narrow" ],
 
     -- ;; laHuwH_1
     -- lHwH    laHuwH  N-ap_L  obstinate;persistent     [[laHuwH/ADJ]]
@@ -3850,17 +3830,13 @@ lexicon = listing "Lexicon properties"
     -- l*A}*   la*A}i* Ndip_L  delights;pleasures
 
     noun     FaCAL |< aT               {- la*A*ap -}        `others` [ "la_dA_d Nap_L", "la_dA'i_d Ndip_L" ]
-                                                            `gloss`  [ "delight", "delectation", "delights", "pleasures" ] ]
-
- -- ;; mala*~ap_1
-
- |> "mala_d_d" <| [
+                                                            `gloss`  [ "delight", "delectation", "delights", "pleasures" ],
 
     -- ;; mala*~ap_1
     -- ml*     mala*~  NapAt   pleasure;delectation
     -- mlA*    malA*~  Ndip    pleasures;delights
 
-    noun     Identity |< aT            {- mala*~ap -}       `others` [ "malA_d_d Ndip", "mala_d_d NapAt" ]
+    noun     MaFaCL |< aT              {- mala*~ap -}       `others` [ "malA_d_d Ndip", "mala_d_d NapAt" ]
                                                             `gloss`  [ "pleasure", "delectation", "pleasures", "delights" ],
 
     -- ;; mutala*~i*_1
@@ -4002,11 +3978,7 @@ lexicon = listing "Lexicon properties"
     -- tlzz    talaz~az        PV_intr be connected;be joined;adhere
     -- tlzz    talaz~az        IV_intr be connected;be joined;adhere
 
-    verb     TaFaCCaL                  {- talaz~az -}       `gloss`  [ "be connected", "be joined", "adhere" ] ]
-
- -- ;; talAz~_1
-
- |> "talAzz" <| [
+    verb     TaFaCCaL                  {- talaz~az -}       `gloss`  [ "be connected", "be joined", "adhere" ],
 
     -- ;; talAz~_1
     -- tlAz    talAz~  PV_V_intr       be crammed together;lie close together
@@ -4014,7 +3986,7 @@ lexicon = listing "Lexicon properties"
     -- tlAz    talAz~  IV_V_intr       be crammed together;lie close together
     -- tlAzz   talAziz IV_C_intr       be crammed together;lie close together
 
-    verb     Identity                  {- talAz~ -}         `others` [ "talAzaz PV_C_intr", "talAziz IV_C_intr" ]
+    verb     TaFACL                    {- talAz~ -}         `others` [ "talAzaz PV_C_intr", "talAziz IV_C_intr" ]
                                                             `gloss`  [ "be crammed together", "lie close together" ],
 
     -- ;; {ilotaz~_1
@@ -5215,25 +5187,17 @@ lexicon = listing "Lexicon properties"
     -- ;; liE~iyb_1
     -- lEyb    liE~iyb N-ap_L  playful     [[liE~iyb/ADJ]]
 
-    noun     FiCCIL                    {- liE~iyb -}        `gloss`  [ "playful" ] ]
-
- -- ;; luEAb_1
-
- |> "lu`Ab" <| [
+    noun     FiCCIL                    {- liE~iyb -}        `gloss`  [ "playful" ],
 
     -- ;; luEAb_1
     -- lEAb    luEAb   N_L     saliva;drivel
 
-    noun     Identity                  {- luEAb -}          `gloss`  [ "saliva", "drivel" ] ]
-
- -- ;; luEAbiy~_1
-
- |> "lu`Ab" <| [
+    noun     FuCAL                     {- luEAb -}          `gloss`  [ "saliva", "drivel" ],
 
     -- ;; luEAbiy~_1
     -- lEAby   luEAbiy~        N-ap_L  salivary     [[luEAbiy~/ADJ]]
 
-    noun     Identity |< Iy            {- luEAbiy~ -}       `gloss`  [ "salivary" ],
+    noun     FuCAL |< Iy               {- luEAbiy~ -}       `gloss`  [ "salivary" ],
 
     -- ;; luEayobap_1
     -- lEyb    luEayob NapAt_L little doll
@@ -5688,16 +5652,12 @@ lexicon = listing "Lexicon properties"
     -- ;; mulag~am_1
     -- mlgm    mulag~am        N-ap    mined     [[mulag~am/ADJ]]
 
-    noun     MuFaCCaL                  {- mulag~am -}       `gloss`  [ "mined" ] ]
-
- -- ;; lugAm_1
-
- |> "lu.gAm" <| [
+    noun     MuFaCCaL                  {- mulag~am -}       `gloss`  [ "mined" ],
 
     -- ;; lugAm_1
     -- lgAm    lugAm   N_L     foam;froth
 
-    noun     Identity                  {- lugAm -}          `gloss`  [ "foam", "froth" ] ]
+    noun     FuCAL                     {- lugAm -}          `gloss`  [ "foam", "froth" ] ]
 
  -- ;--- lgmT
 
@@ -5832,11 +5792,7 @@ lexicon = listing "Lexicon properties"
     -- <lgA'   <ilogA' NAt     cancellation;abrogation;repeal
     -- AlgA'   <ilogA' NAt     cancellation;abrogation;repeal
 
-    noun     HiFCA'                    {- <ilogA' -}        `gloss`  [ "cancellation", "abrogation", "repeal" ] ]
-
- -- ;; lAgiy_1
-
- |> "l.gy" <| [
+    noun     HiFCA'                    {- <ilogA' -}        `gloss`  [ "cancellation", "abrogation", "repeal" ],
 
     -- ;; lAgiy_1
     -- lAgy    lAgiy   N0F     abrogated;null;void     [[lAgiy/ADJ]]
@@ -5844,18 +5800,14 @@ lexicon = listing "Lexicon properties"
     -- lAgy    lAgiy   NAn_Nayn_L      abrogated;null;void
     -- lAgy    lAgiy   NapAt_L abrogated;null;void
 
-    noun     FACiL                     {- lAgiy -}          `others` [ "lA.g NK" ]
+    noun     FACI                      {- lAgiy -}          `others` [ "lA.g NK" ]
                                                             `gloss`  [ "abrogated", "null", "void" ],
 
     -- ;; lAgiyap_1
     -- lAgy    lAgiy   Nap_L   solecism;mistake
 
-    noun     FACiL |< aT               {- lAgiyap -}        `others` [ "lA.giy Nap_L" ]
-                                                            `gloss`  [ "solecism", "mistake" ] ]
-
- -- ;; mulogaY_1
-
- |> "l.g" <| [
+    noun     FACI |< aT                {- lAgiyap -}        `others` [ "lA.giy Nap_L" ]
+                                                            `gloss`  [ "solecism", "mistake" ],
 
     -- ;; mulogaY_1
     -- mlgY    mulogaY N0      canceled;abrogated;void     [[mulogaY/ADJ]]
@@ -5967,25 +5919,17 @@ lexicon = listing "Lexicon properties"
     -- lfA}    laf~A}  Nhy_L   stout;short
 
     noun     HaFaCL                    {- >alaf~ -}         `others` [ "laffA' Nh_L N0_Nh_L Nhy_L" ]
-                                                            `gloss`  [ "stout", "short" ] ]
-
- -- ;; milaf~_1
-
- |> "milaff" <| [
+                                                            `gloss`  [ "stout", "short" ],
 
     -- ;; milaf~_1
     -- mlf     milaf~  Ndu     file;dossier
 
-    noun     Identity                  {- milaf~ -}         `gloss`  [ "file", "dossier" ] ]
-
- -- ;; milaf~ap_1
-
- |> "milaff" <| [
+    noun     MiFaCL                    {- milaf~ -}         `gloss`  [ "file", "dossier" ],
 
     -- ;; milaf~ap_1
     -- mlf     milaf~  NapAt   dossier;letter file
 
-    noun     Identity |< aT            {- milaf~ap -}       `others` [ "milaff NapAt" ]
+    noun     MiFaCL |< aT              {- milaf~ap -}       `others` [ "milaff NapAt" ]
                                                             `gloss`  [ "dossier", "letter file" ],
 
     -- ;; milofAf_1
@@ -6635,17 +6579,13 @@ lexicon = listing "Lexicon properties"
     -- lqT     luqaT   N_L     lucky finds;bargains
 
     noun     FuCL |< aT                {- luqoTap -}        `others` [ "luq.t Nap_L", "luqa.t N_L" ]
-                                                            `gloss`  [ "lucky find", "bargain", "lucky finds", "bargains" ] ]
-
- -- ;; luqAT_1
-
- |> "luqA.t" <| [
+                                                            `gloss`  [ "lucky find", "bargain", "lucky finds", "bargains" ],
 
     -- ;; luqAT_1
     -- lqAT    luqAT   N_L     gleaned;leftover
     -- lqAT    luqAT   Nap_L   gleaned;leftover
 
-    noun     Identity                  {- luqAT -}          `gloss`  [ "gleaned", "leftover" ],
+    noun     FuCAL                     {- luqAT -}          `gloss`  [ "gleaned", "leftover" ],
 
     -- ;; laqiyT_1
     -- lqyT    laqiyT  N-ap_L  picked up;found;foundling
@@ -7108,11 +7048,7 @@ lexicon = listing "Lexicon properties"
     -- tlqA}y  tiloqA}iy~      Nap     spontaneity     [[tiloqA}iy~/NOUN]]
 
     noun     TiFCA' |< Iy |< aT        {- tiloqA}iy~ap -}   `others` [ "tilqA'iyy Nap" ]
-                                                            `gloss`  [ "spontaneity" ] ]
-
- -- ;; maloqaY_1
-
- |> "malqY" <| [
+                                                            `gloss`  [ "spontaneity" ],
 
     -- ;; maloqaY_1
     -- mlqY    maloqaY N0      meeting place;juncture;intersection
@@ -7121,7 +7057,7 @@ lexicon = listing "Lexicon properties"
     -- mlAqy   malAqiy N0_Nh   meeting places;junctures;intersections
     -- mlAq    malAq   NK      meeting places;junctures;intersections
 
-    noun     Identity                  {- maloqaY -}        `others` [ "malAqiy N0_Nh", "malqA Nhy", "malAq NK", "malqay NAn_Nayn" ]
+    noun     MaFCaNY                   {- maloqaY -}        `others` [ "malAqiy N0_Nh", "malqA Nhy", "malAq NK", "malqay NAn_Nayn" ]
                                                             `gloss`  [ "meeting place", "juncture", "intersection", "meeting places", "junctures", "intersections" ] ]
 
  -- ;; mulAqAp_1
@@ -7697,16 +7633,12 @@ lexicon = listing "Lexicon properties"
     -- <lmAm   <ilomAm N/At    knowledge;acquaintance
     -- AlmAm   <ilomAm N/At    knowledge;acquaintance
 
-    noun     HiFCAL                    {- <ilomAm -}        `gloss`  [ "knowledge", "acquaintance" ] ]
-
- -- ;; lAm~ap_1
-
- |> "lAmm" <| [
+    noun     HiFCAL                    {- <ilomAm -}        `gloss`  [ "knowledge", "acquaintance" ],
 
     -- ;; lAm~ap_1
     -- lAm     lAm~    Nap_L   evil eye
 
-    noun     Identity |< aT            {- lAm~ap -}         `others` [ "lAmm Nap_L" ]
+    noun     FACL |< aT                {- lAm~ap -}         `others` [ "lAmm Nap_L" ]
                                                             `gloss`  [ "evil eye" ],
 
     -- ;; malomuwm_1
@@ -8337,16 +8269,12 @@ lexicon = listing "Lexicon properties"
     -- ;; lahiyb_1
     -- lhyb    lahiyb  N_L     flame
 
-    noun     FaCIL                     {- lahiyb -}         `gloss`  [ "flame" ] ]
-
- -- ;; luhAb_1
-
- |> "luhAb" <| [
+    noun     FaCIL                     {- lahiyb -}         `gloss`  [ "flame" ],
 
     -- ;; luhAb_1
     -- lhAb    luhAb   N_L     flame
 
-    noun     Identity                  {- luhAb -}          `gloss`  [ "flame" ],
+    noun     FuCAL                     {- luhAb -}          `gloss`  [ "flame" ],
 
     -- ;; lahobAn_1
     -- lhbAn   lahobAn Ndip_L  thirsty     [[lahobAn/ADJ]]
@@ -8395,16 +8323,12 @@ lexicon = listing "Lexicon properties"
     -- ;; lahov_1
     -- lhv     lahov   N_L     panting;gasping
 
-    noun     FaCL                      {- lahov -}          `gloss`  [ "panting", "gasping" ] ]
-
- -- ;; luhAv_1
-
- |> "luhA_t" <| [
+    noun     FaCL                      {- lahov -}          `gloss`  [ "panting", "gasping" ],
 
     -- ;; luhAv_1
     -- lhAv    luhAv   N_L     panting;gasping
 
-    noun     Identity                  {- luhAv -}          `gloss`  [ "panting", "gasping" ],
+    noun     FuCAL                     {- luhAv -}          `gloss`  [ "panting", "gasping" ],
 
     -- ;; lahovAn_1
     -- lhvAn   lahovAn Ndip_L  panting;out of breath     [[lahovAn/ADJ]]
@@ -8858,7 +8782,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; malohaY_1
 
- |> "malhY" <| [
+ |> "lh" <| [
 
     -- ;; malohaY_1
     -- mlhY    malohaY N0      amusement center
@@ -8867,7 +8791,7 @@ lexicon = listing "Lexicon properties"
     -- mlAhy   malAhiy N0_Nh   amusement centers
     -- mlAh    malAh   NK      amusement centers
 
-    noun     Identity                  {- malohaY -}        `others` [ "malAh NK", "malhay NAn_Nayn", "malhA Nhy", "malAhiy N0_Nh" ]
+    noun     MaFCaNY                   {- malohaY -}        `others` [ "malAh NK", "malhay NAn_Nayn", "malhA Nhy", "malAhiy N0_Nh" ]
                                                             `gloss`  [ "amusement center", "amusement centers" ] ]
 
  -- ;; milohaY_1
@@ -8991,16 +8915,12 @@ lexicon = listing "Lexicon properties"
     -- ;; luwbin_1
     -- lwbn    luwbin  Nprop   Le Pen
 
-    noun     Identity                  {- luwbin -}         `gloss`  [ "Le Pen" ] ]
-
- -- ;; luwbiy_1
-
- |> "luwbiy" <| [
+    noun     Identity                  {- luwbin -}         `gloss`  [ "Le Pen" ],
 
     -- ;; luwbiy_1
     -- lwby    luwbiy  N0_L    lobby
 
-    noun     Identity                  {- luwbiy -}         `gloss`  [ "lobby" ] ]
+    noun     FUCiy                     {- luwbiy -}         `gloss`  [ "lobby" ] ]
 
  -- ;; luwbiyA_1
 
@@ -9347,16 +9267,12 @@ lexicon = listing "Lexicon properties"
 
     verb     FAL                       {- lA*-u -}          `imperf` [ FCuL ]
                                                             `others` [ "luw_d IV_V", "lA_d PV_V", "lu_d PV_C IV_C" ]
-                                                            `gloss`  [ "seek refuge", "have recourse" ] ]
-
- -- ;; malA*_1
-
- |> "malA_d" <| [
+                                                            `gloss`  [ "seek refuge", "have recourse" ],
 
     -- ;; malA*_1
     -- mlA*    malA*   Ndu     shelter;sanctuary
 
-    noun     Identity                  {- malA* -}          `gloss`  [ "shelter", "sanctuary" ] ]
+    noun     MaFAL                     {- malA* -}          `gloss`  [ "shelter", "sanctuary" ] ]
 
  -- ;; lA}i*_1
 
@@ -9430,12 +9346,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; luwriy_1
 
- |> "luwriy" <| [
+ |> "lr" <| [
 
     -- ;; luwriy_1
     -- lwry    luwriy  N0_L    lorry;truck
 
-    noun     Identity                  {- luwriy -}         `gloss`  [ "lorry", "truck" ] ]
+    noun     FUCiy                     {- luwriy -}         `gloss`  [ "lorry", "truck" ] ]
 
  -- ;; luwriyn_1
 
@@ -10127,15 +10043,19 @@ lexicon = listing "Lexicon properties"
 
  -- ;; malAm_1
 
- |> "malAm" <| [
+ |> "lm" <| [
 
     -- ;; malAm_1
     -- mlAm    malAm   N       blame;reproach
     -- mlAm    malAm   Nap     blame;reproach
     -- mlA}m   malA}im Ndip    blame;reproach
 
-    noun     Identity                  {- malAm -}          `others` [ "malA'im Ndip" ]
-                                                            `gloss`  [ "blame", "reproach" ],
+    noun     MaFAL                     {- malAm -}          `others` [ "malA'im Ndip" ]
+                                                            `gloss`  [ "blame", "reproach" ] ]
+
+ -- ;; talowiym_1
+
+ |> "lwm" <| [
 
     -- ;; talowiym_1
     -- tlwym   talowiym        N/At    censure;rebuke
@@ -10691,13 +10611,21 @@ lexicon = listing "Lexicon properties"
  |> "lwy" <| [
 
     -- ;; lAwiy_1
+
+    noun     FACiL                     {- lAwiy -}           ]
+
+ -- ;; lAwiy_1
+
+ |> "lw" <| [
+
+    -- ;; lAwiy_1
     -- lAwy    lAwiy   N0F     turning;twisting     [[lAwiy/ADJ]]
     -- lAw     lAw     NK      turning;twisting
     -- lAwy    lAwiy   NAn_Nayn_L      turning;twisting
     -- lAwy    lAwiy   NapAt_L turning;twisting
     -- lwA     luwA    Nap_L   turning;twisting
 
-    noun     FACiL                     {- lAwiy -}          `others` [ "lAw NK", "luwA Nap_L" ]
+    noun     FACI                      {- lAwiy -}          `others` [ "lAw NK", "luwA Nap_L" ]
                                                             `gloss`  [ "turning", "twisting" ] ]
 
  -- ;; malowiy~_1
@@ -10707,7 +10635,11 @@ lexicon = listing "Lexicon properties"
     -- ;; malowiy~_1
     -- mlwy    malowiy~        Nall    crooked;warped     [[malowiy~/ADJ]]     <pos>malowiy~/ADJ</pos>
 
-    noun     Identity |< Iy            {- malowiy~ -}       `gloss`  [ "crooked", "warped [ [ malowiy ~ / ADJ ] ] malowiy ~ /  / pos>" ],
+    noun     Identity |< Iy            {- malowiy~ -}       `gloss`  [ "crooked", "warped [ [ malowiy ~ / ADJ ] ] malowiy ~ /  / pos>" ] ]
+
+ -- ;; mulotawiy_1
+
+ |> "lwy" <| [
 
     -- ;; mulotawiy_1
     -- mltwy   mulotawiy       N0_Nh   crooked;warped     [[mulotawiy/ADJ]]
@@ -11549,11 +11481,7 @@ lexicon = listing "Lexicon properties"
     -- ;; liyn_1
     -- lyn     liyn    N_L     flexibility;tractability
 
-    noun     FiCL                      {- liyn -}           `gloss`  [ "flexibility", "tractability" ] ]
-
- -- ;; lay~in_1
-
- |> "layyin" <| [
+    noun     FiCL                      {- liyn -}           `gloss`  [ "flexibility", "tractability" ],
 
     -- ;; lay~in_1
     -- lyn     lay~in  Nall_L  flexible;yielding     [[lay~in/ADJ]]
@@ -11564,7 +11492,7 @@ lexicon = listing "Lexicon properties"
     -- >lynA}  >aloyinA}       Nhy     flexible;yielding
     -- AlynA}  >aloyinA}       Nhy     flexible;yielding
 
-    noun     Identity                  {- lay~in -}         `others` [ "'alyinA' Nh Nhy N0_Nh" ]
+    noun     FaCCiL                    {- lay~in -}         `others` [ "'alyinA' Nh Nhy N0_Nh" ]
                                                             `gloss`  [ "flexible", "yielding" ],
 
     -- ;; luyuwnap_1

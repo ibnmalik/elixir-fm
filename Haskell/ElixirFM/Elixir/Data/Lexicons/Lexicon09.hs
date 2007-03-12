@@ -71,16 +71,12 @@ lexicon = listing "Lexicon properties"
     -- *&bAn   *u&obAn N       wolves;jackals
 
     noun     FiCL                      {- *i}ob -}          `others` [ "_di'Ab N", "_du'bAn N" ]
-                                                            `gloss`  [ "wolf", "jackal", "wolves", "jackals" ] ]
-
- -- ;; *u&Abap_1
-
- |> "_du'Ab" <| [
+                                                            `gloss`  [ "wolf", "jackal", "wolves", "jackals" ],
 
     -- ;; *u&Abap_1
     -- *&Ab    *u&Ab   Napdu   lock;strand;tuft
 
-    noun     Identity |< aT            {- *u&Abap -}        `others` [ "_du'Ab Napdu" ]
+    noun     FuCAL |< aT               {- *u&Abap -}        `others` [ "_du'Ab Napdu" ]
                                                             `gloss`  [ "lock", "strand", "tuft" ] ]
 
  -- ;--- *Ak
@@ -142,11 +138,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCL                      {- *ab~-u -}         `imperf` [ FCuL ]
                                                             `others` [ "_dbub IV_C", "_dabb PV_V", "_dubb IV_V", "_dabab PV_C" ]
-                                                            `gloss`  [ "drive away", "defend" ] ]
-
- -- ;; *ubAb_1
-
- |> "_dubAb" <| [
+                                                            `gloss`  [ "drive away", "defend" ],
 
     -- ;; *ubAb_1
     -- *bAb    *ubAb   N       flies
@@ -155,17 +147,13 @@ lexicon = listing "Lexicon properties"
     -- A*b     >a*ib~  Nap     flies
     -- *bAn    *ib~An  N       flies
 
-    noun     Identity                  {- *ubAb -}          `others` [ "'a_dibb Nap", "_dibbAn N" ]
-                                                            `gloss`  [ "flies", "fly" ] ]
-
- -- ;; *ubAbap_1
-
- |> "_dubAb" <| [
+    noun     FuCAL                     {- *ubAb -}          `others` [ "'a_dibb Nap", "_dibbAn N" ]
+                                                            `gloss`  [ "flies", "fly" ],
 
     -- ;; *ubAbap_1
     -- *bAb    *ubAb   NapAt   fly;tip
 
-    noun     Identity |< aT            {- *ubAbap -}        `others` [ "_dubAb NapAt" ]
+    noun     FuCAL |< aT               {- *ubAbap -}        `others` [ "_dubAb NapAt" ]
                                                             `gloss`  [ "fly", "tip" ] ]
 
  -- ;; *ub~An_1
@@ -179,12 +167,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mi*ab~ap_1
 
- |> "mi_dabb" <| [
+ |> "_dbb" <| [
 
     -- ;; mi*ab~ap_1
     -- m*b     mi*ab~  Napdu   fly swatter
 
-    noun     Identity |< aT            {- mi*ab~ap -}       `others` [ "mi_dabb Napdu" ]
+    noun     MiFaCL |< aT              {- mi*ab~ap -}       `others` [ "mi_dabb Napdu" ]
                                                             `gloss`  [ "fly swatter" ] ]
 
  -- ;--- *bH
@@ -306,16 +294,12 @@ lexicon = listing "Lexicon properties"
     -- ;; *abol_1
     -- *bl     *abol   N       mother-of-pearl
 
-    noun     FaCL                      {- *abol -}          `gloss`  [ "mother-of-pearl" ] ]
-
- -- ;; *ubAlap_1
-
- |> "_dubAl" <| [
+    noun     FaCL                      {- *abol -}          `gloss`  [ "mother-of-pearl" ],
 
     -- ;; *ubAlap_1
     -- *bAl    *ubAl   Napdu   wick
 
-    noun     Identity |< aT            {- *ubAlap -}        `others` [ "_dubAl Napdu" ]
+    noun     FuCAL |< aT               {- *ubAlap -}        `others` [ "_dubAl Napdu" ]
                                                             `gloss`  [ "wick" ],
 
     -- ;; *Abil_1
@@ -954,17 +938,9 @@ lexicon = listing "Lexicon properties"
  |> "_d`f" <| [
 
     -- ;; *uEAf_1
-
-    root     Identity                                        ]
-
- -- ;; *uEAf_1
-
- |> "_du`Af" <| [
-
-    -- ;; *uEAf_1
     -- *EAf    *uEAf   N       lethal
 
-    noun     Identity                  {- *uEAf -}          `gloss`  [ "lethal" ] ]
+    noun     FuCAL                     {- *uEAf -}          `gloss`  [ "lethal" ] ]
 
  -- ;--- *Eq
 
@@ -1491,16 +1467,12 @@ lexicon = listing "Lexicon properties"
     -- *ll     *ulul   N       docile;tractable
 
     noun     FaCUL                     {- *aluwl -}         `others` [ "_dulul N" ]
-                                                            `gloss`  [ "docile", "tractable" ] ]
-
- -- ;; ma*al~ap_1
-
- |> "ma_dall" <| [
+                                                            `gloss`  [ "docile", "tractable" ],
 
     -- ;; ma*al~ap_1
     -- m*l     ma*al~  Nap     meekness;humiliation
 
-    noun     Identity |< aT            {- ma*al~ap -}       `others` [ "ma_dall Nap" ]
+    noun     MaFaCL |< aT              {- ma*al~ap -}       `others` [ "ma_dall Nap" ]
                                                             `gloss`  [ "meekness", "humiliation" ],
 
     -- ;; ta*oliyl_1
@@ -1688,16 +1660,12 @@ lexicon = listing "Lexicon properties"
     -- *mA}m   *amA}im Ndip    blame;censure
 
     noun     FaCIL |< aT               {- *amiymap -}       `others` [ "_damiym Napdu", "_damA'im Ndip" ]
-                                                            `gloss`  [ "blame", "censure" ] ]
-
- -- ;; ma*am~ap_1
-
- |> "ma_damm" <| [
+                                                            `gloss`  [ "blame", "censure" ],
 
     -- ;; ma*am~ap_1
     -- m*m     ma*am~  NapAt   blame;censure
 
-    noun     Identity |< aT            {- ma*am~ap -}       `others` [ "ma_damm NapAt" ]
+    noun     MaFaCL |< aT              {- ma*am~ap -}       `others` [ "ma_damm NapAt" ]
                                                             `gloss`  [ "blame", "censure" ],
 
     -- ;; ma*omuwm_1
@@ -2114,17 +2082,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; *uwAbap_1
 
- |> "_duwAb" <| [
+ |> "_dwb" <| [
 
     -- ;; *uwAbap_1
     -- *wAb    *uwAb   Napdu   lock;strand;tuft
 
-    noun     Identity |< aT            {- *uwAbap -}        `others` [ "_duwAb Napdu" ]
-                                                            `gloss`  [ "lock", "strand", "tuft" ] ]
-
- -- ;; *awabAn_1
-
- |> "_dwb" <| [
+    noun     FuCAL |< aT               {- *uwAbap -}        `others` [ "_duwAb Napdu" ]
+                                                            `gloss`  [ "lock", "strand", "tuft" ],
 
     -- ;; *awabAn_1
     -- *wbAn   *awabAn N       dissolution;liquefaction;melting
@@ -2328,12 +2292,16 @@ lexicon = listing "Lexicon properties"
 
  -- ;; ma*Aq_1
 
- |> "ma_dAq" <| [
+ |> "_dq" <| [
 
     -- ;; ma*Aq_1
     -- m*Aq    ma*Aq   N       taste
 
-    noun     Identity                  {- ma*Aq -}          `gloss`  [ "taste" ],
+    noun     MaFAL                     {- ma*Aq -}          `gloss`  [ "taste" ] ]
+
+ -- ;; ta*aw~uq_1
+
+ |> "_dwq" <| [
 
     -- ;; ta*aw~uq_1
     -- t*wq    ta*aw~uq        NduAt   enjoyment;relish
@@ -2429,11 +2397,7 @@ lexicon = listing "Lexicon properties"
     -- *wy     *oway   IV_Ann_Pass_yu  be wilted;be dried
 
     verb     HaFCY                     {- >a*owaY -}        `others` [ "_dway IV_Ann_Pass_yu", "'a_dw PV_ttAw", "_dwY IV_0_Pass_yu", "_dw IV_0hwnyn_yu", "_dwiy IV_0hAnn_yu", "'a_dwA PV_h", "'a_dway PV_Atn" ]
-                                                            `gloss`  [ "make wilt", "make dry", "be wilted", "be dried" ] ]
-
- -- ;; *Awiy_1
-
- |> "_dwy" <| [
+                                                            `gloss`  [ "make wilt", "make dry", "be wilted", "be dried" ],
 
     -- ;; *Awiy_1
     -- *Awy    *Awiy   N0F     withered;faded     [[*Awiy/ADJ]]
@@ -2442,7 +2406,7 @@ lexicon = listing "Lexicon properties"
     -- *Aw     *Aw     Nuwn_Niyn       withered;faded
     -- *Awy    *Awiy   NapAt   withered;faded
 
-    noun     FACiL                     {- *Awiy -}          `others` [ "_dAw Nuwn_Niyn NK" ]
+    noun     FACI                      {- *Awiy -}          `others` [ "_dAw Nuwn_Niyn NK" ]
                                                             `gloss`  [ "withered", "faded" ] ]
 
  -- ;--- *wE

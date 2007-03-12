@@ -35,7 +35,7 @@ sub convertBuck2TeX ($) {
 
 sub storeLine {
 
-    push @{$Entry->{'lines'}}, (encode "utf8", $_[0]);
+    push @{$Entry->{'lines'}}, (encode $encode, $_[0]);
 }
 
 
@@ -54,7 +54,7 @@ sub storeGloss (@) {
             $lexiconEnglish{showEnglish($_)}++;
         }
 
-        push @{$Entry->{'glosslist'}}, [ map { encode "utf8", $_ } @words ];
+        push @{$Entry->{'glosslist'}}, [ map { encode $encode, $_ } @words ];
     }
 }
 
@@ -89,9 +89,7 @@ English
 
     foreach (sort keys %lexiconEnglish) {
 
-#        print "\t" . '| ' . $_ . "\n";
-#        print "\t" . $_ . ' = undefined' . "\n";
-        print ' ' . $_ . ",\n";
+        print ' ' . ( encode $encode, $_ ) . ",\n";
     }
 
     print "\n \"\" ]\n";
@@ -177,7 +175,6 @@ sub showGloss ($) {
 
     my @words = @{$_[0]};
 
-#    return '[ ' . (join ', ', map { showEnglish($_) } @words) . ' ]';
     return (join ', ', map { showEnglish($_) } @words);
 }
 
@@ -185,8 +182,6 @@ sub showGloss ($) {
 sub showEnglish ($) {
 
     my $word = $_[0];
-
-    #$word =~ tr[A-Za-z0-9'][_]c;
 
     return '' . $word;
 }
@@ -203,15 +198,7 @@ sub readableEnglish {
         my $tagged =  $self->add_tags( $text );
         my (@words) = split ' ', $tagged;
 
-        @words = map { /^<(\p{IsLower}+)>([^<]+)<\/\p{IsLower}+>$/o;
-                        $2;
-                        #'"' . $2 . '"';
-                        #'_' . $2;
-                        # (uc $1) . '_' . $2
-                    } @words;
-
-        # $tagged =~ s/<[a-z]+>([^<]+)<\/([a-z]+)>/$1\/\U$2/go;
-        #$tagged =~ s/<\p{IsLower}+>([^<]+)<\/(\p{IsLower}+)>/$1\/\U$2/go;
+        @words = map { /^<(\p{IsLower}+)>([^<]+)<\/\p{IsLower}+>$/o; $2 } @words;
 
         return '"' . ( join ' ', @words ) . '"';
 }
@@ -413,7 +400,7 @@ until (eof()) {
 
                 foreach $pattern (@patterns) {
 
-                    if ($entry =~ /^$pattern$/) {
+                    if ($entry =~ /^$pattern$/ and not ($class eq 'noun' and $patterns{$pattern} =~ /^FUCi?L$/)) {
 
                         @root = ();
 

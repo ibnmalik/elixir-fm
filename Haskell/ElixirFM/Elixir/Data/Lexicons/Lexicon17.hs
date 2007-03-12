@@ -459,38 +459,26 @@ lexicon = listing "Lexicon properties"
     -- ;; Zaliyl_1
     -- Zlyl    Zaliyl  N-ap    shaded
 
-    noun     FaCIL                     {- Zaliyl -}         `gloss`  [ "shaded" ] ]
-
- -- ;; miZal~ap_1
-
- |> "mi.zall" <| [
+    noun     FaCIL                     {- Zaliyl -}         `gloss`  [ "shaded" ],
 
     -- ;; miZal~ap_1
     -- mZl     miZal~  NapAt   umbrella
     -- mZAl    maZAl~  Ndip    umbrellas
 
-    noun     Identity |< aT            {- miZal~ap -}       `others` [ "mi.zall NapAt", "ma.zAll Ndip" ]
-                                                            `gloss`  [ "umbrella", "umbrellas" ] ]
-
- -- ;; miZal~ap_2
-
- |> "mi.zall" <| [
+    noun     MiFaCL |< aT              {- miZal~ap -}       `others` [ "mi.zall NapAt", "ma.zAll Ndip" ]
+                                                            `gloss`  [ "umbrella", "umbrellas" ],
 
     -- ;; miZal~ap_2
     -- mZl     miZal~  NapAt   parachute
     -- mZAl    maZAl~  Ndip    parachutes
 
-    noun     Identity |< aT            {- miZal~ap -}       `others` [ "mi.zall NapAt", "ma.zAll Ndip" ]
-                                                            `gloss`  [ "parachute", "parachutes" ] ]
-
- -- ;; miZal~iy~_1
-
- |> "mi.zall" <| [
+    noun     MiFaCL |< aT              {- miZal~ap -}       `others` [ "mi.zall NapAt", "ma.zAll Ndip" ]
+                                                            `gloss`  [ "parachute", "parachutes" ],
 
     -- ;; miZal~iy~_1
     -- mZly    miZal~iy~       Nall    parachutists;paratrooper     [[miZal~iy~/ADJ]]
 
-    noun     Identity |< Iy            {- miZal~iy~ -}      `gloss`  [ "parachutists", "paratrooper" ],
+    noun     MiFaCL |< Iy              {- miZal~iy~ -}      `gloss`  [ "parachutists", "paratrooper" ],
 
     -- ;; muZal~il_1
     -- mZll    muZal~il        N-ap    shady;shadowy     [[muZal~il/ADJ]]
@@ -522,16 +510,12 @@ lexicon = listing "Lexicon properties"
     -- ;; ZAliE_1
     -- ZAlE    ZAliE   Nall    lame;limping
 
-    noun     FACiL                     {- ZAliE -}          `gloss`  [ "lame", "limping" ] ]
-
- -- ;; ZulAE_1
-
- |> ".zulA`" <| [
+    noun     FACiL                     {- ZAliE -}          `gloss`  [ "lame", "limping" ],
 
     -- ;; ZulAE_1
     -- ZlAE    ZulAE   N       rheumatism
 
-    noun     Identity                  {- ZulAE -}          `gloss`  [ "rheumatism" ] ]
+    noun     FuCAL                     {- ZulAE -}          `gloss`  [ "rheumatism" ] ]
 
  -- ;--- Zlf
 
@@ -629,16 +613,12 @@ lexicon = listing "Lexicon properties"
     -- ZlmAn   ZilomAn N       ostriches
 
     noun     FaCIL                     {- Zaliym -}         `others` [ ".zilmAn N" ]
-                                                            `gloss`  [ "ostrich", "ostriches" ] ]
-
- -- ;; ZulAmap_1
-
- |> ".zulAm" <| [
+                                                            `gloss`  [ "ostrich", "ostriches" ],
 
     -- ;; ZulAmap_1
     -- ZlAm    ZulAm   NapAt   injustice;misdeed
 
-    noun     Identity |< aT            {- ZulAmap -}        `others` [ ".zulAm NapAt" ]
+    noun     FuCAL |< aT               {- ZulAmap -}        `others` [ ".zulAm NapAt" ]
                                                             `gloss`  [ "injustice", "misdeed" ],
 
     -- ;; >aZolam_2

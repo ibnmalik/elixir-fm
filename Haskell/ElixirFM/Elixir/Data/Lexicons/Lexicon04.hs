@@ -815,26 +815,14 @@ lexicon = listing "Lexicon properties"
  |> "_t`l" <| [
 
     -- ;; vuEAl_1
-
-    root     Identity                                        ]
-
- -- ;; vuEAl_1
-
- |> "_tu`Al" <| [
-
-    -- ;; vuEAl_1
     -- vEAl    vuEAl   Ndu     fox
 
-    noun     Identity                  {- vuEAl -}          `gloss`  [ "fox" ] ]
-
- -- ;; vuEAlap_1
-
- |> "_tu`Al" <| [
+    noun     FuCAL                     {- vuEAl -}          `gloss`  [ "fox" ],
 
     -- ;; vuEAlap_1
     -- vEAl    vuEAl   NapAt   fox;vixen
 
-    noun     Identity |< aT            {- vuEAlap -}        `others` [ "_tu`Al NapAt" ]
+    noun     FuCAL |< aT               {- vuEAlap -}        `others` [ "_tu`Al NapAt" ]
                                                             `gloss`  [ "fox", "vixen" ] ]
 
  -- ;--- vElb
@@ -926,22 +914,14 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- vagA-u -}         `imperf` [ FCuL ]
                                                             `others` [ "_t.g IV_0hwnyn", "_t.guw IV_0hAnn", "_ta.gaw PV_Atn", "_ta.gA PV_0", "_ta.ga PV_ttAw" ]
-                                                            `gloss`  [ "bleat" ] ]
-
- -- ;; vugA'_1
-
- |> "_tu.gA'" <| [
+                                                            `gloss`  [ "bleat" ],
 
     -- ;; vugA'_1
     -- vgA'    vugA'   N0_Nh   bleating
     -- vgA&    vugA&   Nh      bleating
     -- vgA}    vugA}   Nhy     bleating
 
-    noun     Identity                  {- vugA' -}          `gloss`  [ "bleating" ] ]
-
- -- ;; vAgiy_1
-
- |> "_t.gy" <| [
+    noun     FuCA'                     {- vugA' -}          `gloss`  [ "bleating" ],
 
     -- ;; vAgiy_1
     -- vAgy    vAgiy   N0F     bleating
@@ -950,7 +930,7 @@ lexicon = listing "Lexicon properties"
     -- vAg     vAg     Nuwn_Niyn       bleating
     -- vAgy    vAgiy   NapAt   bleating
 
-    noun     FACiL                     {- vAgiy -}          `others` [ "_tA.g Nuwn_Niyn NK" ]
+    noun     FACI                      {- vAgiy -}          `others` [ "_tA.g Nuwn_Niyn NK" ]
                                                             `gloss`  [ "bleating" ] ]
 
  -- ;; vafar_1
@@ -1492,21 +1472,17 @@ lexicon = listing "Lexicon properties"
 
  -- ;; vulAviy~_1
 
- |> "_tulA_t" <| [
+ |> "_tl_t" <| [
 
     -- ;; vulAviy~_1
     -- vlAvy   vulAviy~        NduAt   trio     [[vulAviy~/NOUN]]
 
-    noun     Identity |< Iy            {- vulAviy~ -}       `gloss`  [ "trio" ] ]
-
- -- ;; vulAviy~_2
-
- |> "_tulA_t" <| [
+    noun     FuCAL |< Iy               {- vulAviy~ -}       `gloss`  [ "trio" ],
 
     -- ;; vulAviy~_2
     -- vlAvy   vulAviy~        Nall    three-part;trio;corner (shot)     [[vulAviy~/ADJ]]
 
-    noun     Identity |< Iy            {- vulAviy~ -}       `gloss`  [ "three-part", "trio", "corner ( shot )" ] ]
+    noun     FuCAL |< Iy               {- vulAviy~ -}       `gloss`  [ "three-part", "trio", "corner ( shot )" ] ]
 
  -- ;; vAluwv_1
 
@@ -1515,11 +1491,7 @@ lexicon = listing "Lexicon properties"
     -- ;; vAluwv_1
     -- vAlwv   vAluwv  N/ap    triad;trinity
 
-    noun     Identity                  {- vAluwv -}         `gloss`  [ "triad", "trinity" ] ]
-
- -- ;; tavoliyv_1
-
- |> "_tl_t" <| [
+    noun     Identity                  {- vAluwv -}         `gloss`  [ "triad", "trinity" ],
 
     -- ;; tavoliyv_1
     -- tvlyv   tavoliyv        NduAt   trinity
@@ -1715,13 +1687,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; vumAm_1
 
- |> "_tumAm" <| [
+ |> "_tmm" <| [
 
     -- ;; vumAm_1
     -- vmAm    vumAm   N       grass
     -- vmAm    vumAm   Nap     blade of grass
 
-    noun     Identity                  {- vumAm -}          `gloss`  [ "grass", "blade of grass" ] ]
+    noun     FuCAL                     {- vumAm -}          `gloss`  [ "grass", "blade of grass" ] ]
 
  -- ;; vamar-u_1
 
@@ -1840,16 +1812,12 @@ lexicon = listing "Lexicon properties"
     -- ;; vamil_1
     -- vml     vamil   Nall    intoxicated
 
-    noun     FaCiL                     {- vamil -}          `gloss`  [ "intoxicated" ] ]
-
- -- ;; vumAlap_1
-
- |> "_tumAl" <| [
+    noun     FaCiL                     {- vamil -}          `gloss`  [ "intoxicated" ],
 
     -- ;; vumAlap_1
     -- vmAl    vumAl   NapAt   residue;dregs
 
-    noun     Identity |< aT            {- vumAlap -}        `others` [ "_tumAl NapAt" ]
+    noun     FuCAL |< aT               {- vumAlap -}        `others` [ "_tumAl NapAt" ]
                                                             `gloss`  [ "residue", "dregs" ] ]
 
  -- ;--- vmn(1)
@@ -2481,43 +2449,35 @@ lexicon = listing "Lexicon properties"
     -- ;; vanA}iy~_1
     -- vnA}y   vanA}iy~        Nall    laudatory;eulogistic     [[vanA}iy~/ADJ]]
 
-    noun     FaCA' |< Iy               {- vanA}iy~ -}       `gloss`  [ "laudatory", "eulogistic" ] ]
-
- -- ;; vunA}iy~_1
-
- |> "_tunA'" <| [
+    noun     FaCA' |< Iy               {- vanA}iy~ -}       `gloss`  [ "laudatory", "eulogistic" ],
 
     -- ;; vunA}iy~_1
     -- vnA}y   vunA}iy~        Nall    bilateral;dual     [[vunA}iy~/ADJ]]
 
-    noun     Identity |< Iy            {- vunA}iy~ -}       `gloss`  [ "bilateral", "dual" ] ]
-
- -- ;; vAniy_1
-
- |> "_tny" <| [
+    noun     FuCA' |< Iy               {- vunA}iy~ -}       `gloss`  [ "bilateral", "dual" ],
 
     -- ;; vAniy_1
     -- vAny    vAniy   N0F     second;next     [[vAniy/ADJ]]
 
-    noun     FACiL                     {- vAniy -}          `gloss`  [ "second", "next" ],
+    noun     FACI                      {- vAniy -}          `gloss`  [ "second", "next" ],
 
     -- ;; vAniy_2
     -- vAny    vAniy   N0      Second
 
-    noun     FACiL                     {- vAniy -}          `gloss`  [ "Second" ],
+    noun     FACI                      {- vAniy -}          `gloss`  [ "Second" ],
 
     -- ;; vAniy_3
     -- vAny    vAniy   NAn_Nayn        second;next     [[vAniy/ADJ]]
     -- vAn     vAn     NK      second;next     [[vAniy/ADJ]]
     -- vAny    vAniy   NapAt   second;next     [[vAniy/ADJ]]
 
-    noun     FACiL                     {- vAniy -}          `others` [ "_tAn NK" ]
+    noun     FACI                      {- vAniy -}          `others` [ "_tAn NK" ]
                                                             `gloss`  [ "second", "next" ],
 
     -- ;; vAniyAF_1
     -- vAny    vAniy   NF      secondly     [[vAniy/ADV]]
 
-    noun     FACiL |< aN               {- vAniyAF -}        `others` [ "_tAniy NF" ]
+    noun     FACI |< aN                {- vAniyAF -}        `others` [ "_tAniy NF" ]
                                                             `gloss`  [ "secondly" ],
 
     -- ;; vAniyap_1
@@ -2525,8 +2485,12 @@ lexicon = listing "Lexicon properties"
     -- vwAny   vawAniy N0_Nh   seconds (time span)
     -- vwAn    vawAn   NK      seconds (time span)
 
-    noun     FACiL |< aT               {- vAniyap -}        `others` [ "_tawAn NK", "_tAniy Napdu", "_tawAniy N0_Nh" ]
-                                                            `gloss`  [ "second ( time span )", "seconds ( time span )" ],
+    noun     FACI |< aT                {- vAniyap -}        `others` [ "_tawAn NK", "_tAniy Napdu", "_tawAniy N0_Nh" ]
+                                                            `gloss`  [ "second ( time span )", "seconds ( time span )" ] ]
+
+ -- ;; tavoniyap_1
+
+ |> "_tny" <| [
 
     -- ;; tavoniyap_1
     -- tvny    tavoniy NapAt   repetition;praise
@@ -2731,22 +2695,22 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mavAb_1
 
- |> "ma_tAb" <| [
+ |> "_tb" <| [
 
     -- ;; mavAb_1
     -- mvAb    mavAb   Ndu     rendezvous;resort
 
-    noun     Identity                  {- mavAb -}          `gloss`  [ "rendezvous", "resort" ] ]
-
- -- ;; mavAbap_1
-
- |> "ma_tAb" <| [
+    noun     MaFAL                     {- mavAb -}          `gloss`  [ "rendezvous", "resort" ],
 
     -- ;; mavAbap_1
     -- mvAb    mavAb   Nap     virtually;tantamount to
 
-    noun     Identity |< aT            {- mavAbap -}        `others` [ "ma_tAb Nap" ]
-                                                            `gloss`  [ "virtually", "tantamount to" ],
+    noun     MaFAL |< aT               {- mavAbap -}        `others` [ "ma_tAb Nap" ]
+                                                            `gloss`  [ "virtually", "tantamount to" ] ]
+
+ -- ;; mavowabap_1
+
+ |> "_twb" <| [
 
     -- ;; mavowabap_1
     -- mvwb    mavowab NapAt   reward;recompense
@@ -2863,16 +2827,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mavAr_1
 
- |> "ma_tAr" <| [
+ |> "_tr" <| [
 
     -- ;; mavAr_1
     -- mvAr    mavAr   Ndu     incentive;motive
 
-    noun     Identity                  {- mavAr -}          `gloss`  [ "incentive", "motive" ] ]
-
- -- ;; <ivArap_1
-
- |> "_tr" <| [
+    noun     MaFAL                     {- mavAr -}          `gloss`  [ "incentive", "motive" ],
 
     -- ;; <ivArap_1
     -- <vAr    <ivAr   NapAt   provocation;agitation
@@ -3048,15 +3008,19 @@ lexicon = listing "Lexicon properties"
 
  -- ;; vuwiy-a_1
 
- |> "_tuwiy" <| [
+ |> "_twy" <| [
 
     -- ;; vuwiy-a_1
     -- vwy     vuwiy   PV_no-w_Pass    be buried
     -- vwY     vowaY   IV_0_Pass_yu    be buried
 
-    verb     Identity                  {- vuwiy-a -}        `imperf` [ FCaL ]
+    verb     FuCiL                     {- vuwiy-a -}        `imperf` [ FCaL ]
                                                             `others` [ "_tuwiy PV_no-w_Pass", "_twY IV_0_Pass_yu" ]
-                                                            `gloss`  [ "be buried" ],
+                                                            `gloss`  [ "be buried" ] ]
+
+ -- ;; vaw~aY_1
+
+ |> "_tw" <| [
 
     -- ;; vaw~aY_1
     -- vwY     vaw~aY  PV_0    give lodging;provide housing
@@ -3102,11 +3066,7 @@ lexicon = listing "Lexicon properties"
     -- vwA     vuwA    Nhy     road-signs;signposts
 
     noun     Identity                  {- vuwaY -}          `others` [ "_tuwA Nhy" ]
-                                                            `gloss`  [ "road-signs", "signposts" ] ]
-
- -- ;; mavowaY_1
-
- |> "ma_twY" <| [
+                                                            `gloss`  [ "road-signs", "signposts" ],
 
     -- ;; mavowaY_1
     -- mvwY    mavowaY N0      abode;lodging
@@ -3115,7 +3075,7 @@ lexicon = listing "Lexicon properties"
     -- mvAwy   mavAwiy N0_Nh   abodes;lodgings
     -- mvAw    mavAw   NK      abodes;lodgings
 
-    noun     Identity                  {- mavowaY -}        `others` [ "ma_tway NAn_Nayn", "ma_tAw NK", "ma_tAwiy N0_Nh", "ma_twA Nhy" ]
+    noun     MaFCaNY                   {- mavowaY -}        `others` [ "ma_tway NAn_Nayn", "ma_tAw NK", "ma_tAwiy N0_Nh", "ma_twA Nhy" ]
                                                             `gloss`  [ "abode", "lodging", "abodes", "lodgings" ] ]
 
  -- ;--- vyb
@@ -3123,17 +3083,9 @@ lexicon = listing "Lexicon properties"
  |> "_tyb" <| [
 
     -- ;; vay~ib_1
-
-    root     Identity                                        ]
-
- -- ;; vay~ib_1
-
- |> "_tayyib" <| [
-
-    -- ;; vay~ib_1
     -- vyb     vay~ib  NduAt   divorcee;widow
 
-    noun     Identity                  {- vay~ib -}         `gloss`  [ "divorcee", "widow" ] ]
+    noun     FaCCiL                    {- vay~ib -}         `gloss`  [ "divorcee", "widow" ] ]
 
  -- ;; vayotal_1
 

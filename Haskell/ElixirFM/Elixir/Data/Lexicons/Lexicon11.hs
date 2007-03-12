@@ -138,17 +138,9 @@ lexicon = listing "Lexicon properties"
  |> "z'm" <| [
 
     -- ;; zu&Am_1
-
-    root     Identity                                        ]
-
- -- ;; zu&Am_1
-
- |> "zu'Am" <| [
-
-    -- ;; zu&Am_1
     -- z&Am    zu&Am   N       sudden;violent
 
-    noun     Identity                  {- zu&Am -}          `gloss`  [ "sudden", "violent" ] ]
+    noun     FuCAL                     {- zu&Am -}          `gloss`  [ "sudden", "violent" ] ]
 
  -- ;; zAmobuwAnogA_1
 
@@ -196,17 +188,9 @@ lexicon = listing "Lexicon properties"
  |> "z'n" <| [
 
     -- ;; zu&An_1
-
-    root     Identity                                        ]
-
- -- ;; zu&An_1
-
- |> "zu'An" <| [
-
-    -- ;; zu&An_1
     -- z&An    zu&An   N       darnel
 
-    noun     Identity                  {- zu&An -}          `gloss`  [ "darnel" ] ]
+    noun     FuCAL                     {- zu&An -}          `gloss`  [ "darnel" ] ]
 
  -- ;--- zAy
 
@@ -459,16 +443,12 @@ lexicon = listing "Lexicon properties"
     -- ;; zabaT_1
     -- zbT     zabaT   N       mud;mire
 
-    noun     FaCaL                     {- zabaT -}          `gloss`  [ "mud", "mire" ] ]
-
- -- ;; zubATap_1
-
- |> "zubA.t" <| [
+    noun     FaCaL                     {- zabaT -}          `gloss`  [ "mud", "mire" ],
 
     -- ;; zubATap_1
     -- zbAT    zubAT   Nap     bunch of dates
 
-    noun     Identity |< aT            {- zubATap -}        `others` [ "zubA.t Nap" ]
+    noun     FuCAL |< aT               {- zubATap -}        `others` [ "zubA.t Nap" ]
                                                             `gloss`  [ "bunch of dates" ] ]
 
  -- ;--- zbE
@@ -533,16 +513,12 @@ lexicon = listing "Lexicon properties"
     -- ;; zab~Al_1
     -- zbAl    zab~Al  Nall    garbage collector;street sweep
 
-    noun     FaCCAL                    {- zab~Al -}         `gloss`  [ "garbage collector", "street sweep" ] ]
-
- -- ;; zubAlap_1
-
- |> "zubAl" <| [
+    noun     FaCCAL                    {- zab~Al -}         `gloss`  [ "garbage collector", "street sweep" ],
 
     -- ;; zubAlap_1
     -- zbAl    zubAl   Nap     rubbish;garbage
 
-    noun     Identity |< aT            {- zubAlap -}        `others` [ "zubAl Nap" ]
+    noun     FuCAL |< aT               {- zubAlap -}        `others` [ "zubAl Nap" ]
                                                             `gloss`  [ "rubbish", "garbage" ],
 
     -- ;; mazobalap_1
@@ -658,36 +634,24 @@ lexicon = listing "Lexicon properties"
     -- zj      zuj~    N       having beautiful eyebrows
 
     noun     HaFaCL                    {- >azaj~ -}         `others` [ "zu^g^g N", "za^g^gA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "having beautiful eyebrows" ] ]
-
- -- ;; zujAj_1
-
- |> "zu^gA^g" <| [
+                                                            `gloss`  [ "having beautiful eyebrows" ],
 
     -- ;; zujAj_1
     -- zjAj    zujAj   N       glass
     -- zjAj    zujAj   N       windshield
 
-    noun     Identity                  {- zujAj -}          `gloss`  [ "glass", "windshield" ] ]
-
- -- ;; zujAjap_1
-
- |> "zu^gA^g" <| [
+    noun     FuCAL                     {- zujAj -}          `gloss`  [ "glass", "windshield" ],
 
     -- ;; zujAjap_1
     -- zjAj    zujAj   NapAt   bottle;glass
 
-    noun     Identity |< aT            {- zujAjap -}        `others` [ "zu^gA^g NapAt" ]
-                                                            `gloss`  [ "bottle", "glass" ] ]
-
- -- ;; zujAjiy~_1
-
- |> "zu^gA^g" <| [
+    noun     FuCAL |< aT               {- zujAjap -}        `others` [ "zu^gA^g NapAt" ]
+                                                            `gloss`  [ "bottle", "glass" ],
 
     -- ;; zujAjiy~_1
     -- zjAjy   zujAjiy~        N-ap    glass;vitreous     [[zujAjiy~/ADJ]]
 
-    noun     Identity |< Iy            {- zujAjiy~ -}       `gloss`  [ "glass", "vitreous" ],
+    noun     FuCAL |< Iy               {- zujAjiy~ -}       `gloss`  [ "glass", "vitreous" ],
 
     -- ;; zijAjap_1
     -- zjAj    zijAj   Nap     glaziery
@@ -896,17 +860,13 @@ lexicon = listing "Lexicon properties"
     -- ;; zaHiyr_1
     -- zHyr    zaHiyr  N       groaning;moaning
 
-    noun     FaCIL                     {- zaHiyr -}         `gloss`  [ "groaning", "moaning" ] ]
-
- -- ;; zuHAr_1
-
- |> "zu.hAr" <| [
+    noun     FaCIL                     {- zaHiyr -}         `gloss`  [ "groaning", "moaning" ],
 
     -- ;; zuHAr_1
     -- zHAr    zuHAr   N       groaning;moaning
     -- zHAr    zuHAr   N       dysentery
 
-    noun     Identity                  {- zuHAr -}          `gloss`  [ "groaning", "moaning", "dysentery" ] ]
+    noun     FuCAL                     {- zuHAr -}          `gloss`  [ "groaning", "moaning", "dysentery" ] ]
 
  -- ;--- zHzH
 
@@ -2269,16 +2229,12 @@ lexicon = listing "Lexicon properties"
     -- zEf     zoEaf   IV_Pass_yu      be killed instantly
 
     verb     HaFCaL                    {- >azoEaf -}        `others` [ "z`af IV_Pass_yu", "z`if IV_yu" ]
-                                                            `gloss`  [ "kill instantly", "be killed instantly" ] ]
-
- -- ;; zuEAf_1
-
- |> "zu`Af" <| [
+                                                            `gloss`  [ "kill instantly", "be killed instantly" ],
 
     -- ;; zuEAf_1
     -- zEAf    zuEAf   N/ap    lethal;killing instantly
 
-    noun     Identity                  {- zuEAf -}          `gloss`  [ "lethal", "killing instantly" ],
+    noun     FuCAL                     {- zuEAf -}          `gloss`  [ "lethal", "killing instantly" ],
 
     -- ;; muzoEif_1
     -- mzEf    muzoEif Nall    lethal;killing instantly     [[muzoEif/ADJ]]
@@ -2329,16 +2285,12 @@ lexicon = listing "Lexicon properties"
     -- ;; zaEiyq_1
     -- zEyq    zaEiyq  N       shouting;screaming
 
-    noun     FaCIL                     {- zaEiyq -}         `gloss`  [ "shouting", "screaming" ] ]
-
- -- ;; zuEAq_1
-
- |> "zu`Aq" <| [
+    noun     FaCIL                     {- zaEiyq -}         `gloss`  [ "shouting", "screaming" ],
 
     -- ;; zuEAq_1
     -- zEAq    zuEAq   N       brackish;unpotable;non-potable
 
-    noun     Identity                  {- zuEAq -}          `gloss`  [ "brackish", "unpotable", "non-potable" ] ]
+    noun     FuCAL                     {- zuEAq -}          `gloss`  [ "brackish", "unpotable", "non-potable" ] ]
 
  -- ;--- zEl
 
@@ -2776,16 +2728,12 @@ lexicon = listing "Lexicon properties"
     -- ;; zafiyf_1
     -- zfyf    zafiyf  N       soughing (of the wind)
 
-    noun     FaCIL                     {- zafiyf -}         `gloss`  [ "soughing ( of the wind )" ] ]
-
- -- ;; mizaf~ap_1
-
- |> "mizaff" <| [
+    noun     FaCIL                     {- zafiyf -}         `gloss`  [ "soughing ( of the wind )" ],
 
     -- ;; mizaf~ap_1
     -- mzf     mizaf~  Nap     bridal sedan
 
-    noun     Identity |< aT            {- mizaf~ap -}       `others` [ "mizaff Nap" ]
+    noun     MiFaCL |< aT              {- mizaf~ap -}       `others` [ "mizaff Nap" ]
                                                             `gloss`  [ "bridal sedan" ] ]
 
  -- ;--- zft
@@ -2941,28 +2889,20 @@ lexicon = listing "Lexicon properties"
     -- zqAn    zuq~An  N       wineskins
 
     noun     FaCL                      {- zaq~ -}           `others` [ "'azqAq N", "ziqAq N", "zuqqAn N" ]
-                                                            `gloss`  [ "wineskin", "wineskins" ] ]
-
- -- ;; zuqAq_1
-
- |> "zuqAq" <| [
+                                                            `gloss`  [ "wineskin", "wineskins" ],
 
     -- ;; zuqAq_1
     -- zqAq    zuqAq   N       alley;corridor;cul-de-sac
     -- >zq     >aziq~  Nap     alleys;corridors;cul-de-sacs
     -- Azq     >aziq~  Nap     alleys;corridors;cul-de-sacs
 
-    noun     Identity                  {- zuqAq -}          `others` [ "'aziqq Nap" ]
-                                                            `gloss`  [ "alley", "corridor", "cul-de-sac", "alleys", "corridors", "cul-de-sacs" ] ]
-
- -- ;; zuqAqiy~_1
-
- |> "zuqAq" <| [
+    noun     FuCAL                     {- zuqAq -}          `others` [ "'aziqq Nap" ]
+                                                            `gloss`  [ "alley", "corridor", "cul-de-sac", "alleys", "corridors", "cul-de-sacs" ],
 
     -- ;; zuqAqiy~_1
     -- zqAqy   zuqAqiy~        Nall    alley dweller
 
-    noun     Identity |< Iy            {- zuqAqiy~ -}       `gloss`  [ "alley dweller" ] ]
+    noun     FuCAL |< Iy               {- zuqAqiy~ -}       `gloss`  [ "alley dweller" ] ]
 
  -- ;--- zqzq
 
@@ -3073,18 +3013,14 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- zaqA-u -}         `imperf` [ FCuL ]
                                                             `others` [ "zquw IV_0hAnn", "zaq PV_ttAw", "zaqaw PV_Atn", "zaqA PV_0", "zq IV_0hwnyn" ]
-                                                            `gloss`  [ "cry", "crow" ] ]
-
- -- ;; zuqA'_1
-
- |> "zuqA'" <| [
+                                                            `gloss`  [ "cry", "crow" ],
 
     -- ;; zuqA'_1
     -- zqA'    zuqA'   N0_Nh   crowing
     -- zqA&    zuqA&   Nh      crowing
     -- zqA}    zuqA}   Nhy     crowing
 
-    noun     Identity                  {- zuqA' -}          `gloss`  [ "crowing" ] ]
+    noun     FuCA'                     {- zuqA' -}          `gloss`  [ "crowing" ] ]
 
  -- ;--- zkb
 
@@ -3149,16 +3085,12 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCaL                     {- zakam-a -}        `imperf` [ FCaL ]
                                                             `others` [ "zakam PV", "zkam IV" ]
-                                                            `gloss`  [ "catch a cold" ] ]
-
- -- ;; zukAm_1
-
- |> "zukAm" <| [
+                                                            `gloss`  [ "catch a cold" ],
 
     -- ;; zukAm_1
     -- zkAm    zukAm   N       common cold
 
-    noun     Identity                  {- zukAm -}          `gloss`  [ "common cold" ],
+    noun     FuCAL                     {- zukAm -}          `gloss`  [ "common cold" ],
 
     -- ;; zakomap_1
     -- zkm     zakom   Nap     common cold
@@ -3374,26 +3306,18 @@ lexicon = listing "Lexicon properties"
     -- ;; zalal_1
     -- zll     zalal   N       mistake;oversight
 
-    noun     FaCaL                     {- zalal -}          `gloss`  [ "mistake", "oversight" ] ]
-
- -- ;; zulAl_1
-
- |> "zulAl" <| [
+    noun     FaCaL                     {- zalal -}          `gloss`  [ "mistake", "oversight" ],
 
     -- ;; zulAl_1
     -- zlAl    zulAl   N       fresh water;albumen
 
-    noun     Identity                  {- zulAl -}          `gloss`  [ "fresh water", "albumen" ] ]
-
- -- ;; zulAliy~_1
-
- |> "zulAl" <| [
+    noun     FuCAL                     {- zulAl -}          `gloss`  [ "fresh water", "albumen" ],
 
     -- ;; zulAliy~_1
     -- zlAly   zulAliy~        N-ap    albuminous;protein     [[zulAliy~/ADJ]]
     -- zlAly   zulAliy~        NAt     proteins     [[zulAliy~/NOUN]]
 
-    noun     Identity |< Iy            {- zulAliy~ -}       `gloss`  [ "albuminous", "protein", "proteins" ] ]
+    noun     FuCAL |< Iy               {- zulAliy~ -}       `gloss`  [ "albuminous", "protein", "proteins" ] ]
 
  -- ;--- zlj
 
@@ -4731,11 +4655,7 @@ lexicon = listing "Lexicon properties"
     -- znA&    zinA&   Nh      fornication
     -- znA}    zinA}   Nhy     fornication
 
-    noun     FiCA'                     {- zinA' -}          `gloss`  [ "fornication" ] ]
-
- -- ;; zAniy_1
-
- |> "zny" <| [
+    noun     FiCA'                     {- zinA' -}          `gloss`  [ "fornication" ],
 
     -- ;; zAniy_1
     -- zAny    zAniy   N0F     fornicator
@@ -4745,7 +4665,7 @@ lexicon = listing "Lexicon properties"
     -- zAny    zAniy   NapAt   fornicator
     -- znA     zunA    Nap     fornicators
 
-    noun     FACiL                     {- zAniy -}          `others` [ "zunA Nap", "zAn Nuwn_Niyn NK" ]
+    noun     FACI                      {- zAniy -}          `others` [ "zunA Nap", "zAn Nuwn_Niyn NK" ]
                                                             `gloss`  [ "fornicator", "fornicators" ],
 
     -- ;; zAniyap_1
@@ -4753,7 +4673,7 @@ lexicon = listing "Lexicon properties"
     -- zwAny   zawAniy N0_Nh   whores;adulteresses
     -- zwAn    zawAn   NK      whores;adulteresses
 
-    noun     FACiL |< aT               {- zAniyap -}        `others` [ "zawAniy N0_Nh", "zawAn NK", "zAniy Napdu" ]
+    noun     FACI |< aT                {- zAniyap -}        `others` [ "zawAniy N0_Nh", "zawAn NK", "zAniy Napdu" ]
                                                             `gloss`  [ "whore", "adulteress", "whores", "adulteresses" ] ]
 
  -- ;; zaniym_1
@@ -5180,16 +5100,20 @@ lexicon = listing "Lexicon properties"
 
  -- ;; zuhiy-a_1
 
- |> "zuhiy" <| [
+ |> "zhy" <| [
 
     -- ;; zuhiy-a_1
     -- zhy     zuhiy   PV_no-w_intr    be conceited;be boastful
     -- zhY     zohaY   IV_0    be conceited;be boastful
     -- zhy     zohay   IV_Ann  be conceited;be boastful
 
-    verb     Identity                  {- zuhiy-a -}        `imperf` [ FCaL ]
+    verb     FuCiL                     {- zuhiy-a -}        `imperf` [ FCaL ]
                                                             `others` [ "zhY IV_0", "zuhiy PV_no-w_intr", "zhay IV_Ann" ]
-                                                            `gloss`  [ "be conceited", "be boastful" ],
+                                                            `gloss`  [ "be conceited", "be boastful" ] ]
+
+ -- ;; >azohaY_1
+
+ |> "zh" <| [
 
     -- ;; >azohaY_1
     -- >zhY    >azohaY PV_0    flourish;prosper
@@ -5254,18 +5178,14 @@ lexicon = listing "Lexicon properties"
     -- zhA&    zahA&   Nh      radiance;splendor
     -- zhA}    zahA}   Nhy     radiance;splendor
 
-    noun     FaCA'                     {- zahA' -}          `gloss`  [ "radiance", "splendor" ] ]
-
- -- ;; zuhA'_1
-
- |> "zuhA'" <| [
+    noun     FaCA'                     {- zahA' -}          `gloss`  [ "radiance", "splendor" ],
 
     -- ;; zuhA'_1
     -- zhA'    zuhA'   N0_Nh   amount;number
     -- zhA&    zuhA&   Nh      amount;number
     -- zhA}    zuhA}   Nhy     amount;number
 
-    noun     Identity                  {- zuhA' -}          `gloss`  [ "amount", "number" ] ]
+    noun     FuCA'                     {- zuhA' -}          `gloss`  [ "amount", "number" ] ]
 
  -- ;; zuhA'a_1
 
@@ -5316,11 +5236,7 @@ lexicon = listing "Lexicon properties"
     -- <zdhA'  {izodihA'       NAt     flourishing;radiance;pride
     -- AzdhA'  {izodihA'       NAt     flourishing;radiance;pride
 
-    noun     Identity                  {- {izodihA' -}      `gloss`  [ "flourishing", "radiance", "pride" ] ]
-
- -- ;; zAhiy_1
-
- |> "zhy" <| [
+    noun     Identity                  {- {izodihA' -}      `gloss`  [ "flourishing", "radiance", "pride" ],
 
     -- ;; zAhiy_1
     -- zAhy    zAhiy   N0F     resplendent;magnificent     [[zAhiy/ADJ]]
@@ -5329,7 +5245,7 @@ lexicon = listing "Lexicon properties"
     -- zAh     zAh     Nuwn_Niyn       resplendent;magnificent
     -- zAhy    zAhiy   NapAt   resplendent;magnificent
 
-    noun     FACiL                     {- zAhiy -}          `others` [ "zAh Nuwn_Niyn NK" ]
+    noun     FACI                      {- zAhiy -}          `others` [ "zAh Nuwn_Niyn NK" ]
                                                             `gloss`  [ "resplendent", "magnificent" ] ]
 
  -- ;; mazohuw~_1
@@ -5623,17 +5539,13 @@ lexicon = listing "Lexicon properties"
     -- ;; zAd_1
     -- zAd     zAd     N       provisions;stores
 
-    noun     FAL                       {- zAd -}            `gloss`  [ "provisions", "stores" ] ]
-
- -- ;; mazAdap_1
-
- |> "mazAd" <| [
+    noun     FAL                       {- zAd -}            `gloss`  [ "provisions", "stores" ],
 
     -- ;; mazAdap_1
     -- mzAd    mazAd   Nap     provision sack
     -- mzA}d   mazA}id Ndip    provision sacks
 
-    noun     Identity |< aT            {- mazAdap -}        `others` [ "mazAd Nap", "mazA'id Ndip" ]
+    noun     MaFAL |< aT               {- mazAdap -}        `others` [ "mazAd Nap", "mazA'id Ndip" ]
                                                             `gloss`  [ "provision sack", "provision sacks" ] ]
 
  -- ;; tazowiyd_1
@@ -5835,12 +5747,16 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mazAr_1
 
- |> "mazAr" <| [
+ |> "zr" <| [
 
     -- ;; mazAr_1
     -- mzAr    mazAr   NduAt   visit place;shrine;sanctuary
 
-    noun     Identity                  {- mazAr -}          `gloss`  [ "visit place", "shrine", "sanctuary" ],
+    noun     MaFAL                     {- mazAr -}          `gloss`  [ "visit place", "shrine", "sanctuary" ] ]
+
+ -- ;; tazowiyr_1
+
+ |> "zwr" <| [
 
     -- ;; tazowiyr_1
     -- tzwyr   tazowiyr        NduAt   forgery;falsification
@@ -6320,17 +6236,9 @@ lexicon = listing "Lexicon properties"
  |> "zwn" <| [
 
     -- ;; zuwAn_1
-
-    root     Identity                                        ]
-
- -- ;; zuwAn_1
-
- |> "zuwAn" <| [
-
-    -- ;; zuwAn_1
     -- zwAn    zuwAn   N       darnel
 
-    noun     Identity                  {- zuwAn -}          `gloss`  [ "darnel" ] ]
+    noun     FuCAL                     {- zuwAn -}          `gloss`  [ "darnel" ] ]
 
  -- ;--- zwy
 
@@ -6413,17 +6321,13 @@ lexicon = listing "Lexicon properties"
     -- <nzwA'  {inoziwA'       NAt     seclusion;isolation;retirement
     -- AnzwA'  {inoziwA'       NAt     seclusion;isolation;retirement
 
-    noun     InFiCA'                   {- {inoziwA' -}      `gloss`  [ "seclusion", "isolation", "retirement" ] ]
-
- -- ;; zAwiyap_1
-
- |> "zwy" <| [
+    noun     InFiCA'                   {- {inoziwA' -}      `gloss`  [ "seclusion", "isolation", "retirement" ],
 
     -- ;; zAwiyap_1
     -- zAwy    zAwiy   NapAt   corner;nook;angle
     -- zwAyA   zawAyA  N0_Nhy  corners;nooks;angles
 
-    noun     FACiL |< aT               {- zAwiyap -}        `others` [ "zawAyA N0_Nhy", "zAwiy NapAt" ]
+    noun     FACI |< aT                {- zAwiyap -}        `others` [ "zawAyA N0_Nhy", "zAwiy NapAt" ]
                                                             `gloss`  [ "corner", "nook", "angle", "corners", "nooks", "angles" ] ]
 
  -- ;; mazowiy~_1
@@ -6433,7 +6337,11 @@ lexicon = listing "Lexicon properties"
     -- ;; mazowiy~_1
     -- mzwy    mazowiy~        N-ap    corner;cornered     [[mazowiy~/ADJ]]
 
-    noun     Identity |< Iy            {- mazowiy~ -}       `gloss`  [ "corner", "cornered" ],
+    noun     Identity |< Iy            {- mazowiy~ -}       `gloss`  [ "corner", "cornered" ] ]
+
+ -- ;; munozawiy_1
+
+ |> "zwy" <| [
 
     -- ;; munozawiy_1
     -- mnzwy   munozawiy       N0F_Nh  secluded;obscure     [[munozawiy/ADJ]]
@@ -6808,16 +6716,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mazAd_1
 
- |> "mazAd" <| [
+ |> "zd" <| [
 
     -- ;; mazAd_1
     -- mzAd    mazAd   NduAt   auction
 
-    noun     Identity                  {- mazAd -}          `gloss`  [ "auction" ] ]
-
- -- ;; maziyd_1
-
- |> "zd" <| [
+    noun     MaFAL                     {- mazAd -}          `gloss`  [ "auction" ],
 
     -- ;; maziyd_1
     -- mzyd    maziyd  N       more;greater number

@@ -123,18 +123,14 @@ lexicon = listing "Lexicon properties"
     -- ;; $As_1
     -- $As     $As     N0      Shas
 
-    noun     FAL                       {- $As -}            `gloss`  [ "Shas" ] ]
-
- -- ;; $Asiy_1
-
- |> "^sAsiy" <| [
+    noun     FAL                       {- $As -}            `gloss`  [ "Shas" ],
 
     -- ;; $Asiy_1
     -- $Asy    $Asiy   N0      chassis
     -- $Asyh   $Asiyh  N       chassis
     -- $Asyh   $Asiyh  NAt     chassis
 
-    noun     Identity                  {- $Asiy -}          `others` [ "^sAsiyh NAt N" ]
+    noun     FACI                      {- $Asiy -}          `others` [ "^sAsiyh NAt N" ]
                                                             `gloss`  [ "chassis" ] ]
 
  -- ;--- $Af
@@ -397,16 +393,12 @@ lexicon = listing "Lexicon properties"
     -- $AhAny  $AhAniy~        Nall    Shah-related;imperial     [[$AhAniy~/NOUN]]
     -- $AhAny  $AhAniy~        Nall    Shah-related;imperial     [[$AhAniy~/ADJ]]
 
-    noun     Identity |< Iy            {- $AhAniy~ -}       `gloss`  [ "Shah-related", "imperial" ] ]
-
- -- ;; $Ahiy_1
-
- |> "^sAhiy" <| [
+    noun     Identity |< Iy            {- $AhAniy~ -}       `gloss`  [ "Shah-related", "imperial" ],
 
     -- ;; $Ahiy_1
     -- $Ahy    $Ahiy   N0      tea
 
-    noun     Identity                  {- $Ahiy -}          `gloss`  [ "tea" ] ]
+    noun     FACI                      {- $Ahiy -}          `gloss`  [ "tea" ] ]
 
  -- ;--- $Aw
 
@@ -870,16 +862,12 @@ lexicon = listing "Lexicon properties"
     -- $bT     $obiT   IV      cling;hold on
 
     verb     FaCaL                     {- $abaT -}          `others` [ "^sbi.t IV" ]
-                                                            `gloss`  [ "cling", "hold on" ] ]
-
- -- ;; $ubAT_1
-
- |> "^subA.t" <| [
+                                                            `gloss`  [ "cling", "hold on" ],
 
     -- ;; $ubAT_1
     -- $bAT    $ubAT   Ndip    February
 
-    noun     Identity                  {- $ubAT -}          `gloss`  [ "February" ],
+    noun     FuCAL                     {- $ubAT -}          `gloss`  [ "February" ],
 
     -- ;; $ab~uwT_1
     -- $bwT    $ab~uwT N       carp
@@ -1717,11 +1705,7 @@ lexicon = listing "Lexicon properties"
     -- A$ty    >a$otiy Nap     rains
 
     noun     FiCA'                     {- $itA' -}          `others` [ "'a^stiy Nap" ]
-                                                            `gloss`  [ "rain", "rains" ] ]
-
- -- ;; ma$otaY_1
-
- |> "ma^stY" <| [
+                                                            `gloss`  [ "rain", "rains" ],
 
     -- ;; ma$otaY_1
     -- m$tY    ma$otaY N0      winter residence;winter resort
@@ -1730,7 +1714,7 @@ lexicon = listing "Lexicon properties"
     -- m$Aty   ma$Atiy N0_Nh   winter residences;winter resorts
     -- m$At    ma$At   NK      winter residences;winter resorts
 
-    noun     Identity                  {- ma$otaY -}        `others` [ "ma^stay NAn_Nayn", "ma^stA Nhy", "ma^sAtiy N0_Nh", "ma^sAt NK" ]
+    noun     MaFCaNY                   {- ma$otaY -}        `others` [ "ma^stay NAn_Nayn", "ma^stA Nhy", "ma^sAtiy N0_Nh", "ma^sAt NK" ]
                                                             `gloss`  [ "winter residence", "winter resort", "winter residences", "winter resorts" ] ]
 
  -- ;; ma$otAp_1
@@ -1741,11 +1725,7 @@ lexicon = listing "Lexicon properties"
     -- m$tA    ma$otA  Napdu   village of settled Bedouins
 
     noun     Identity                  {- ma$otAp -}        `others` [ "ma^stA Napdu" ]
-                                                            `gloss`  [ "village of settled Bedouins" ] ]
-
- -- ;; $Atiy_1
-
- |> "^sAtiy" <| [
+                                                            `gloss`  [ "village of settled Bedouins" ],
 
     -- ;; $Atiy_1
     -- $Aty    $Atiy   N0F     wintry;hibernal     [[$Atiy/ADJ]]
@@ -1753,7 +1733,7 @@ lexicon = listing "Lexicon properties"
     -- $Aty    $Atiy   NAn_Nayn        wintry;hibernal
     -- $Aty    $Atiy   Napdu   wintry;hibernal
 
-    noun     Identity                  {- $Atiy -}          `others` [ "^sAt NK" ]
+    noun     FACI                      {- $Atiy -}          `others` [ "^sAt NK" ]
                                                             `gloss`  [ "wintry", "hibernal" ],
 
     -- ;; mu$at~aY_1
@@ -2020,28 +2000,20 @@ lexicon = listing "Lexicon properties"
     -- t$jE    ta$aj~aE        PV_intr be encouraged
     -- t$jE    ta$aj~aE        IV_intr be encouraged
 
-    verb     TaFaCCaL                  {- ta$aj~aE -}       `gloss`  [ "be encouraged" ] ]
-
- -- ;; $ujAE_1
-
- |> "^su^gA`" <| [
+    verb     TaFaCCaL                  {- ta$aj~aE -}       `gloss`  [ "be encouraged" ],
 
     -- ;; $ujAE_1
     -- $jAE    $ujAE   N/ap    brave     [[$ujAE/ADJ]]
     -- $jE     $ajaE   Nap     brave
     -- $jEAn   $ujoEAn N       brave
 
-    noun     Identity                  {- $ujAE -}          `others` [ "^su^g`An N", "^sa^ga` Nap" ]
-                                                            `gloss`  [ "brave" ] ]
-
- -- ;; $ujAE_2
-
- |> "^su^gA`" <| [
+    noun     FuCAL                     {- $ujAE -}          `others` [ "^su^g`An N", "^sa^ga` Nap" ]
+                                                            `gloss`  [ "brave" ],
 
     -- ;; $ujAE_2
     -- $jAE    $ujAE   Ndip    Hydra
 
-    noun     Identity                  {- $ujAE -}          `gloss`  [ "Hydra" ],
+    noun     FuCAL                     {- $ujAE -}          `gloss`  [ "Hydra" ],
 
     -- ;; $ajiyE_1
     -- $jyE    $ajiyE  N       brave     [[$ajiyE/ADJ]]
@@ -3426,16 +3398,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; $Adiy_1
 
- |> "^sAdiy" <| [
+ |> "^s^sd" <| [
 
     -- ;; $Adiy_1
     -- $Ady    $Adiy   N0      Shadi
 
-    noun     Identity                  {- $Adiy -}          `gloss`  [ "Shadi" ] ]
-
- -- ;; $Adiy_2
-
- |> "^sAdiy" <| [
+    noun     FACI                      {- $Adiy -}          `gloss`  [ "Shadi" ],
 
     -- ;; $Adiy_2
     -- $Ady    $Adiy   N0F     educated;trained     [[$Adiy/ADJ]]
@@ -3444,12 +3412,8 @@ lexicon = listing "Lexicon properties"
     -- $Ad     $Ad     Nuwn_Niyn       educated;trained
     -- $Ady    $Adiy   NapAt   educated;trained
 
-    noun     Identity                  {- $Adiy -}          `others` [ "^sAd Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "educated", "trained" ] ]
-
- -- ;; $Adiy_3
-
- |> "^sAdiy" <| [
+    noun     FACI                      {- $Adiy -}          `others` [ "^sAd Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "educated", "trained" ],
 
     -- ;; $Adiy_3
     -- $Ady    $Adiy   N0F     singing;chanting     [[$Adiy/ADJ]]
@@ -3458,27 +3422,19 @@ lexicon = listing "Lexicon properties"
     -- $Ad     $Ad     Nuwn_Niyn       singing;chanting
     -- $Ady    $Adiy   NapAt   singing;chanting
 
-    noun     Identity                  {- $Adiy -}          `others` [ "^sAd Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "singing", "chanting" ] ]
-
- -- ;; $Adiyap_1
-
- |> "^sAdiy" <| [
+    noun     FACI                      {- $Adiy -}          `others` [ "^sAd Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "singing", "chanting" ],
 
     -- ;; $Adiyap_1
     -- $Ady    $Adiy   Nap     Shadia
 
-    noun     Identity |< aT            {- $Adiyap -}        `others` [ "^sAdiy Nap" ]
-                                                            `gloss`  [ "Shadia" ] ]
-
- -- ;; $Adiyap_2
-
- |> "^sAdiy" <| [
+    noun     FACI |< aT                {- $Adiyap -}        `others` [ "^sAdiy Nap" ]
+                                                            `gloss`  [ "Shadia" ],
 
     -- ;; $Adiyap_2
     -- $Ady    $Adiy   Nap     songstress;singer
 
-    noun     Identity |< aT            {- $Adiyap -}        `others` [ "^sAdiy Nap" ]
+    noun     FACI |< aT                {- $Adiyap -}        `others` [ "^sAdiy Nap" ]
                                                             `gloss`  [ "songstress", "singer" ] ]
 
  -- ;--- $dyq
@@ -5563,11 +5519,7 @@ lexicon = listing "Lexicon properties"
     -- <$trA'  {i$otirA'       NAt     purchases
     -- A$trA'  {i$otirA'       NAt     purchases
 
-    noun     IFtiCA'                   {- {i$otirA' -}      `gloss`  [ "purchase", "purchases" ] ]
-
- -- ;; $Ariy_1
-
- |> "^sAriy" <| [
+    noun     IFtiCA'                   {- {i$otirA' -}      `gloss`  [ "purchase", "purchases" ],
 
     -- ;; $Ariy_1
     -- $Ary    $Ariy   N0F_Nh  buyer;client
@@ -5575,17 +5527,13 @@ lexicon = listing "Lexicon properties"
     -- $Ary    $Ariy   NAn_Nayn        buyer;client
     -- $rA     $urA    Nap     buyers;clients
 
-    noun     Identity                  {- $Ariy -}          `others` [ "^surA Nap", "^sAr NK" ]
-                                                            `gloss`  [ "buyer", "client", "buyers", "clients" ] ]
-
- -- ;; $Ariy_2
-
- |> "^sAriy" <| [
+    noun     FACI                      {- $Ariy -}          `others` [ "^surA Nap", "^sAr NK" ]
+                                                            `gloss`  [ "buyer", "client", "buyers", "clients" ],
 
     -- ;; $Ariy_2
     -- $Ary    $Ariy   N0F     lightning rod
 
-    noun     Identity                  {- $Ariy -}          `gloss`  [ "lightning rod" ] ]
+    noun     FACI                      {- $Ariy -}          `gloss`  [ "lightning rod" ] ]
 
  -- ;; mu$otariy_1
 
@@ -6253,28 +6201,20 @@ lexicon = listing "Lexicon properties"
     -- ;; $uE~_1
     -- $E      $uE~    N       rays
 
-    noun     FuCL                      {- $uE~ -}           `gloss`  [ "rays" ] ]
-
- -- ;; $uEAE_1
-
- |> "^su`A`" <| [
+    noun     FuCL                      {- $uE~ -}           `gloss`  [ "rays" ],
 
     -- ;; $uEAE_1
     -- $EAE    $uEAE   N/ap    rays
     -- >$E     >a$iE~  Nap     rays
     -- A$E     >a$iE~  Nap     rays
 
-    noun     Identity                  {- $uEAE -}          `others` [ "'a^si`` Nap" ]
-                                                            `gloss`  [ "rays" ] ]
-
- -- ;; $uEAEiy~_1
-
- |> "^su`A`" <| [
+    noun     FuCAL                     {- $uEAE -}          `others` [ "'a^si`` Nap" ]
+                                                            `gloss`  [ "rays" ],
 
     -- ;; $uEAEiy~_1
     -- $EAEy   $uEAEiy~        N-ap    radiation     [[$uEAEiy~/ADJ]]
 
-    noun     Identity |< Iy            {- $uEAEiy~ -}       `gloss`  [ "radiation" ],
+    noun     FuCAL |< Iy               {- $uEAEiy~ -}       `gloss`  [ "radiation" ],
 
     -- ;; $aEAE_1
     -- $EAE    $aEAE   N-ap    confused     [[$aEAE/ADJ]]
@@ -6808,18 +6748,14 @@ lexicon = listing "Lexicon properties"
     -- $El     $oEil   IV_yu   ignite;inflame
 
     verb     HaFCaL                    {- >a$oEal -}        `others` [ "^s`il IV_yu" ]
-                                                            `gloss`  [ "ignite", "inflame" ] ]
-
- -- ;; >u$oEil_1
-
- |> "'u^s`il" <| [
+                                                            `gloss`  [ "ignite", "inflame" ],
 
     -- ;; >u$oEil_1
     -- >$El    >u$oEil PV_Pass be ignited;be set afire
     -- A$El    >u$oEil PV_Pass be ignited;be set afire
     -- $El     $oEal   IV_Pass_yu      be ignited;be set afire
 
-    verb     Identity                  {- >u$oEil -}        `others` [ "^s`al IV_Pass_yu" ]
+    verb     HuFCiL                    {- >u$oEil -}        `others` [ "^s`al IV_Pass_yu" ]
                                                             `gloss`  [ "be ignited", "be set afire" ],
 
     -- ;; {i$otaEal_1
@@ -7970,11 +7906,7 @@ lexicon = listing "Lexicon properties"
     -- ;; $ifA}iy~_1
     -- $fA}y   $ifA}iy~        N-ap    healing;curative;medicinal     [[$ifA}iy~/ADJ]]
 
-    noun     FiCA' |< Iy               {- $ifA}iy~ -}       `gloss`  [ "healing", "curative", "medicinal" ] ]
-
- -- ;; ma$ofaY_1
-
- |> "ma^sfY" <| [
+    noun     FiCA' |< Iy               {- $ifA}iy~ -}       `gloss`  [ "healing", "curative", "medicinal" ],
 
     -- ;; ma$ofaY_1
     -- m$fY    ma$ofaY N0      clinic
@@ -7984,7 +7916,7 @@ lexicon = listing "Lexicon properties"
     -- m$Afy   ma$Afiy N0_Nh   clinics
     -- m$Af    ma$Af   NK      clinics
 
-    noun     Identity                  {- ma$ofaY -}        `others` [ "ma^sAfiy N0_Nh", "ma^sAf NK", "ma^sfay NAt NAn_Nayn", "ma^sfA Nhy" ]
+    noun     MaFCaNY                   {- ma$ofaY -}        `others` [ "ma^sAfiy N0_Nh", "ma^sAf NK", "ma^sfay NAt NAn_Nayn", "ma^sfA Nhy" ]
                                                             `gloss`  [ "clinic", "clinics" ] ]
 
  -- ;; ta$af~iy_1
@@ -8016,11 +7948,7 @@ lexicon = listing "Lexicon properties"
     -- <st$fA}y        {isoti$ofA}iy~  N-ap    hospitalization     [[{isoti$ofA}iy~/ADJ]]
     -- Ast$fA}y        {isoti$ofA}iy~  N-ap    hospitalization     [[{isoti$ofA}iy~/ADJ]]
 
-    noun     IstiFCA' |< Iy            {- {isoti$ofA}iy~ -} `gloss`  [ "hospitalization" ] ]
-
- -- ;; $Afiy_1
-
- |> "^sAfiy" <| [
+    noun     IstiFCA' |< Iy            {- {isoti$ofA}iy~ -} `gloss`  [ "hospitalization" ],
 
     -- ;; $Afiy_1
     -- $Afy    $Afiy   N0F     healing;curative     [[$Afiy/ADJ]]
@@ -8028,7 +7956,7 @@ lexicon = listing "Lexicon properties"
     -- $Afy    $Afiy   NAn_Nayn        healing;curative
     -- $Afy    $Afiy   Napdu   healing;curative
 
-    noun     Identity                  {- $Afiy -}          `others` [ "^sAf NK" ]
+    noun     FACI                      {- $Afiy -}          `others` [ "^sAf NK" ]
                                                             `gloss`  [ "healing", "curative" ],
 
     -- ;; musota$ofaY_1
@@ -8479,16 +8407,12 @@ lexicon = listing "Lexicon properties"
     -- $qf     $aqaf   N       potsherds
     -- $qf     $aqaf   Napdu   potsherds
 
-    noun     FaCaL                     {- $aqaf -}          `gloss`  [ "potsherds" ] ]
-
- -- ;; $uqAfap_1
-
- |> "^suqAf" <| [
+    noun     FaCaL                     {- $aqaf -}          `gloss`  [ "potsherds" ],
 
     -- ;; $uqAfap_1
     -- $qAf    $uqAf   Nap     potsherds
 
-    noun     Identity |< aT            {- $uqAfap -}        `others` [ "^suqAf Nap" ]
+    noun     FuCAL |< aT               {- $uqAfap -}        `others` [ "^suqAf Nap" ]
                                                             `gloss`  [ "potsherds" ] ]
 
  -- ;--- $ql
@@ -9346,11 +9270,7 @@ lexicon = listing "Lexicon properties"
     -- $kA}    $ak~A}  Nh_Niyn querulous;complaining
     -- $kA'    $ak~A'  NapAt   querulous;complaining
 
-    noun     Identity                  {- $ak~A' -}         `gloss`  [ "querulous", "complaining" ] ]
-
- -- ;; $Akiy_1
-
- |> "^sAkiy" <| [
+    noun     Identity                  {- $ak~A' -}         `gloss`  [ "querulous", "complaining" ],
 
     -- ;; $Akiy_1
     -- $Aky    $Akiy   N0F     complaining     [[$Akiy/ADJ]]
@@ -9359,12 +9279,8 @@ lexicon = listing "Lexicon properties"
     -- $Ak     $Ak     Nuwn_Niyn       complaining
     -- $Aky    $Akiy   NapAt   complaining
 
-    noun     Identity                  {- $Akiy -}          `others` [ "^sAk Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "complaining" ] ]
-
- -- ;; $Akiy_2
-
- |> "^sAkiy" <| [
+    noun     FACI                      {- $Akiy -}          `others` [ "^sAk Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "complaining" ],
 
     -- ;; $Akiy_2
     -- $Aky    $Akiy   N0F     plaintiff
@@ -9373,7 +9289,7 @@ lexicon = listing "Lexicon properties"
     -- $Ak     $Ak     Nuwn_Niyn       plaintiff
     -- $Aky    $Akiy   NapAt   plaintiff
 
-    noun     Identity                  {- $Akiy -}          `others` [ "^sAk Nuwn_Niyn NK" ]
+    noun     FACI                      {- $Akiy -}          `others` [ "^sAk Nuwn_Niyn NK" ]
                                                             `gloss`  [ "plaintiff" ] ]
 
  -- ;; ma$okuw~_1
@@ -12330,17 +12246,9 @@ lexicon = listing "Lexicon properties"
  |> "^sw.z" <| [
 
     -- ;; $uwAZ_1
-
-    root     Identity                                        ]
-
- -- ;; $uwAZ_1
-
- |> "^suwA.z" <| [
-
-    -- ;; $uwAZ_1
     -- $wAZ    $uwAZ   N       passion;fervor
 
-    noun     Identity                  {- $uwAZ -}          `gloss`  [ "passion", "fervor" ] ]
+    noun     FuCAL                     {- $uwAZ -}          `gloss`  [ "passion", "fervor" ] ]
 
  -- ;; $A}iZ_1
 
@@ -12786,16 +12694,12 @@ lexicon = listing "Lexicon properties"
     -- $wAwyl  $awAwiyl        Ndip    months of Shawwal
 
     noun     Identity                  {- $aw~Al -}         `others` [ "^sawAwiyl Ndip" ]
-                                                            `gloss`  [ "Shawwal ( month )", "months of Shawwal" ] ]
-
- -- ;; ma$Al_1
-
- |> "ma^sAl" <| [
+                                                            `gloss`  [ "Shawwal ( month )", "months of Shawwal" ],
 
     -- ;; ma$Al_1
     -- m$Al    ma$Al   N       transportation;porterage
 
-    noun     Identity                  {- ma$Al -}          `gloss`  [ "transportation", "porterage" ] ]
+    noun     MaFAL                     {- ma$Al -}          `gloss`  [ "transportation", "porterage" ] ]
 
  -- ;; mi$owal_1
 
@@ -14131,6 +14035,14 @@ lexicon = listing "Lexicon properties"
     -- m$AyE   mu$AyiE Nall    partisan;biased
 
     noun     MuFACiL                   {- mu$AyiE -}        `gloss`  [ "partisan", "biased" ] ]
+
+ -- ;; mu$AE_1
+
+ |> "^sm^s`" <| [
+
+    -- ;; mu$AE_1
+
+    noun     FuCAL                     {- mu$AE -}           ]
 
  -- ;; mu$AE_1
 

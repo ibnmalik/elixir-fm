@@ -293,16 +293,12 @@ lexicon = listing "Lexicon properties"
     -- TbAb    TibAb   Nap     medical profession;medical treatment
 
     noun     FiCAL |< aT               {- TibAbap -}        `others` [ ".tibAb Nap" ]
-                                                            `gloss`  [ "medical profession", "medical treatment" ] ]
-
- -- ;; maTab~_1
-
- |> "ma.tabb" <| [
+                                                            `gloss`  [ "medical profession", "medical treatment" ],
 
     -- ;; maTab~_1
     -- mTb     maTab~  NduAt   pothole;air pocket;wind shear
 
-    noun     Identity                  {- maTab~ -}         `gloss`  [ "pothole", "air pocket", "wind shear" ],
+    noun     MaFaCL                    {- maTab~ -}         `gloss`  [ "pothole", "air pocket", "wind shear" ],
 
     -- ;; taTobiyb_1
     -- tTbyb   taTobiyb        N/At    medical treatment;medical profession
@@ -1101,16 +1097,12 @@ lexicon = listing "Lexicon properties"
     -- ;; TiHAliy~_1
     -- THAly   TiHAliy~        Nall    splenic     [[TiHAliy~/ADJ]]
 
-    noun     FiCAL |< Iy               {- TiHAliy~ -}       `gloss`  [ "splenic" ] ]
-
- -- ;; TuHAl_1
-
- |> ".tu.hAl" <| [
+    noun     FiCAL |< Iy               {- TiHAliy~ -}       `gloss`  [ "splenic" ],
 
     -- ;; TuHAl_1
     -- THAl    TuHAl   N       inflammation of the spleen
 
-    noun     Identity                  {- TuHAl -}          `gloss`  [ "inflammation of the spleen" ],
+    noun     FuCAL                     {- TuHAl -}          `gloss`  [ "inflammation of the spleen" ],
 
     -- ;; maToHuwl_1
     -- mTHwl   maToHuwl        Nall    suffering from a diseased spleen
@@ -2575,16 +2567,12 @@ lexicon = listing "Lexicon properties"
     -- TArm    TArim   NapAt   kiosk;booth;cabin
 
     noun     FACiL |< aT               {- TArimap -}        `others` [ ".tArim NapAt" ]
-                                                            `gloss`  [ "kiosk", "booth", "cabin" ] ]
-
- -- ;; TurAmap_1
-
- |> ".turAm" <| [
+                                                            `gloss`  [ "kiosk", "booth", "cabin" ],
 
     -- ;; TurAmap_1
     -- TrAm    TurAm   Nap     dental plaque
 
-    noun     Identity |< aT            {- TurAmap -}        `others` [ ".turAm Nap" ]
+    noun     FuCAL |< aT               {- TurAmap -}        `others` [ ".turAm Nap" ]
                                                             `gloss`  [ "dental plaque" ] ]
 
  -- ;--- Trmb
@@ -3158,6 +3146,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; TAgiy_1
 
+ |> ".t.g" <| [
+
+    -- ;; TAgiy_1
+
+    noun     FACI                      {- TAgiy -}           ]
+
+ -- ;; TAgiy_1
+
  |> ".t.gy" <| [
 
     -- ;; TAgiy_1
@@ -3351,16 +3347,12 @@ lexicon = listing "Lexicon properties"
     -- ;; TafoHiy~_1
     -- TfHy    TafoHiy~        N-ap    eruptive;exanthematic     [[TafoHiy~/ADJ]]
 
-    noun     FaCL |< Iy                {- TafoHiy~ -}       `gloss`  [ "eruptive", "exanthematic" ] ]
-
- -- ;; TufAHap_1
-
- |> ".tufA.h" <| [
+    noun     FaCL |< Iy                {- TafoHiy~ -}       `gloss`  [ "eruptive", "exanthematic" ],
 
     -- ;; TufAHap_1
     -- TfAH    TufAH   Nap     froth;foam
 
-    noun     Identity |< aT            {- TufAHap -}        `others` [ ".tufA.h Nap" ]
+    noun     FuCAL |< aT               {- TufAHap -}        `others` [ ".tufA.h Nap" ]
                                                             `gloss`  [ "froth", "foam" ],
 
     -- ;; TafoHAn_1
@@ -3521,16 +3513,12 @@ lexicon = listing "Lexicon properties"
     -- Tfwl    Tufuwl  Nap     infancy
 
     noun     FuCUL |< aT               {- Tufuwlap -}       `others` [ ".tufuwl Nap" ]
-                                                            `gloss`  [ "infancy" ] ]
-
- -- ;; TufAl_1
-
- |> ".tufAl" <| [
+                                                            `gloss`  [ "infancy" ],
 
     -- ;; TufAl_1
     -- TfAl    TufAl   N       potter's clay
 
-    noun     Identity                  {- TufAl -}          `gloss`  [ "potter 's clay" ],
+    noun     FuCAL                     {- TufAl -}          `gloss`  [ "potter 's clay" ],
 
     -- ;; Tufuwl_1
     -- Tfwl    Tufuwl  N       sunrise
@@ -3609,16 +3597,12 @@ lexicon = listing "Lexicon properties"
     -- ;; Tafow_1
     -- Tfw     Tafow   N       floating;emerging
 
-    noun     FaCL                      {- Tafow -}          `gloss`  [ "floating", "emerging" ] ]
-
- -- ;; TufAwap_1
-
- |> ".tufAw" <| [
+    noun     FaCL                      {- Tafow -}          `gloss`  [ "floating", "emerging" ],
 
     -- ;; TufAwap_1
     -- TfAw    TufAw   Nap     flotsam;emergence
 
-    noun     Identity |< aT            {- TufAwap -}        `others` [ ".tufAw Nap" ]
+    noun     FuCAL |< aT               {- TufAwap -}        `others` [ ".tufAw Nap" ]
                                                             `gloss`  [ "flotsam", "emergence" ],
 
     -- ;; TafAwap_1
@@ -3626,6 +3610,14 @@ lexicon = listing "Lexicon properties"
 
     noun     FaCAL |< aT               {- TafAwap -}        `others` [ ".tafAw Nap" ]
                                                             `gloss`  [ "halo" ] ]
+
+ -- ;; TAfiy_1
+
+ |> ".tf" <| [
+
+    -- ;; TAfiy_1
+
+    noun     FACI                      {- TAfiy -}           ]
 
  -- ;; TAfiy_1
 
@@ -3844,17 +3836,13 @@ lexicon = listing "Lexicon properties"
     -- <TlAl   <iTolAl N/At    overlooking;facing
     -- ATlAl   <iTolAl N/At    overlooking;facing
 
-    noun     HiFCAL                    {- <iTolAl -}        `gloss`  [ "overlooking", "facing" ] ]
-
- -- ;; maTal~_1
-
- |> "ma.tall" <| [
+    noun     HiFCAL                    {- <iTolAl -}        `gloss`  [ "overlooking", "facing" ],
 
     -- ;; maTal~_1
     -- mTl     maTal~  N       overhang;lookout point
     -- mTAl    maTAl~  Ndip    overhangs;lookout points
 
-    noun     Identity                  {- maTal~ -}         `others` [ "ma.tAll Ndip" ]
+    noun     MaFaCL                    {- maTal~ -}         `others` [ "ma.tAll Ndip" ]
                                                             `gloss`  [ "overhang", "lookout point", "overhangs", "lookout points" ],
 
     -- ;; maToluwl_1
@@ -4686,16 +4674,12 @@ lexicon = listing "Lexicon properties"
     -- ;; Tim~_1
     -- Tm      Tim~    N       large quantity
 
-    noun     FiCL                      {- Tim~ -}           `gloss`  [ "large quantity" ] ]
-
- -- ;; TAm~ap_1
-
- |> ".tAmm" <| [
+    noun     FiCL                      {- Tim~ -}           `gloss`  [ "large quantity" ],
 
     -- ;; TAm~ap_1
     -- TAm     TAm~    NapAt   calamity;disaster
 
-    noun     Identity |< aT            {- TAm~ap -}         `others` [ ".tAmm NapAt" ]
+    noun     FACL |< aT                {- TAm~ap -}         `others` [ ".tAmm NapAt" ]
                                                             `gloss`  [ "calamity", "disaster" ] ]
 
  -- ;--- TmAn
@@ -4904,16 +4888,12 @@ lexicon = listing "Lexicon properties"
     -- mTmwr   maTomuwr        NapAt   underground granary
 
     noun     MaFCUL |< aT              {- maTomuwrap -}     `others` [ "ma.tmuwr NapAt" ]
-                                                            `gloss`  [ "underground granary" ] ]
-
- -- ;; TumAr_1
-
- |> ".tumAr" <| [
+                                                            `gloss`  [ "underground granary" ],
 
     -- ;; TumAr_1
     -- TmAr    TumAr   N       currycomb
 
-    noun     Identity                  {- TumAr -}          `gloss`  [ "currycomb" ],
+    noun     FuCAL                     {- TumAr -}          `gloss`  [ "currycomb" ],
 
     -- ;; taTomiyr_1
     -- tTmyr   taTomiyr        N/At    ensilage
@@ -5670,7 +5650,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; maTohaY_1
 
- |> "ma.thY" <| [
+ |> ".th" <| [
 
     -- ;; maTohaY_1
     -- mThY    maTohaY N0      kitchen
@@ -5679,7 +5659,7 @@ lexicon = listing "Lexicon properties"
     -- mTAhy   maTAhiy N0_Nh   kitchen
     -- mTAh    maTAh   NK      kitchen
 
-    noun     Identity                  {- maTohaY -}        `others` [ "ma.tAh NK", "ma.thay NAn_Nayn", "ma.thA Nhy", "ma.tAhiy N0_Nh" ]
+    noun     MaFCaNY                   {- maTohaY -}        `others` [ "ma.tAh NK", "ma.thay NAn_Nayn", "ma.thA Nhy", "ma.tAhiy N0_Nh" ]
                                                             `gloss`  [ "kitchen", "kitchens" ],
 
     -- ;; TAhiy_1
@@ -5690,7 +5670,7 @@ lexicon = listing "Lexicon properties"
     -- TAhy    TAhiy   NapAt   cook
     -- ThA     TuhA    Nap     cooks
 
-    noun     FACiL                     {- TAhiy -}          `others` [ ".tuhA Nap", ".tAh Nuwn_Niyn NK" ]
+    noun     FACI                      {- TAhiy -}          `others` [ ".tuhA Nap", ".tAh Nuwn_Niyn NK" ]
                                                             `gloss`  [ "cook", "cooks" ] ]
 
  -- ;; maTohiy~_1
@@ -6322,12 +6302,16 @@ lexicon = listing "Lexicon properties"
 
  -- ;; Tay~iE_1
 
- |> ".tayyi`" <| [
+ |> ".ty`" <| [
 
     -- ;; Tay~iE_1
     -- TyE     Tay~iE  Nall    compliant     [[Tay~iE/ADJ]]
 
-    noun     Identity                  {- Tay~iE -}         `gloss`  [ "compliant" ],
+    noun     FaCCiL                    {- Tay~iE -}         `gloss`  [ "compliant" ] ]
+
+ -- ;; TawAEiy~ap_1
+
+ |> ".tw`" <| [
 
     -- ;; TawAEiy~ap_1
     -- TwAEy   TawAEiy~        Nap     voluntariness
@@ -6636,12 +6620,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; maTAf_1
 
- |> "ma.tAf" <| [
+ |> ".tf" <| [
 
     -- ;; maTAf_1
     -- mTAf    maTAf   N       consequence;upshot
 
-    noun     Identity                  {- maTAf -}          `gloss`  [ "consequence", "upshot" ] ]
+    noun     MaFAL                     {- maTAf -}          `gloss`  [ "consequence", "upshot" ] ]
 
  -- ;--- Twq
 
@@ -6985,16 +6969,12 @@ lexicon = listing "Lexicon properties"
     -- Twyl    Tawiyl  NF      for a long time;at length;extensively     [[Tawiyl/ADV]]
 
     noun     FaCIL |< aN               {- TawiylAF -}       `others` [ ".tawiyl NF" ]
-                                                            `gloss`  [ "for a long time", "at length", "extensively" ] ]
-
- -- ;; TuwAlap_1
-
- |> ".tuwAl" <| [
+                                                            `gloss`  [ "for a long time", "at length", "extensively" ],
 
     -- ;; TuwAlap_1
     -- TwAl    TuwAl   NapAt   stable
 
-    noun     Identity |< aT            {- TuwAlap -}        `others` [ ".tuwAl NapAt" ]
+    noun     FuCAL |< aT               {- TuwAlap -}        `others` [ ".tuwAl NapAt" ]
                                                             `gloss`  [ "stable" ],
 
     -- ;; >aTowal_1
@@ -7130,12 +7110,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; Tuwmiy_1
 
- |> ".tuwmiy" <| [
+ |> ".tm" <| [
 
     -- ;; Tuwmiy_1
     -- Twmy    Tuwmiy  Nprop   Tommy
 
-    noun     Identity                  {- Tuwmiy -}         `gloss`  [ "Tommy" ] ]
+    noun     FUCiy                     {- Tuwmiy -}         `gloss`  [ "Tommy" ] ]
 
  -- ;--- Twn
 
@@ -7149,12 +7129,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; Tuwniy_1
 
- |> ".tuwniy" <| [
+ |> ".tn" <| [
 
     -- ;; Tuwniy_1
     -- Twny    Tuwniy  Nprop   Tony
 
-    noun     Identity                  {- Tuwniy -}         `gloss`  [ "Tony" ] ]
+    noun     FUCiy                     {- Tuwniy -}         `gloss`  [ "Tony" ] ]
 
  -- ;--- Twy
 
@@ -7260,7 +7240,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; maTowaY_1
 
- |> "ma.twY" <| [
+ |> ".tw" <| [
 
     -- ;; maTowaY_1
     -- mTwY    maTowaY N0      pocket knife;pleat
@@ -7269,7 +7249,7 @@ lexicon = listing "Lexicon properties"
     -- mTAwy   maTAwiy N0_Nh   inside;within
     -- mTAw    maTAw   NK      inside;within
 
-    noun     Identity                  {- maTowaY -}        `others` [ "ma.twA Nhy", "ma.tAw NK", "ma.tway NAn_Nayn", "ma.tAwiy N0_Nh" ]
+    noun     MaFCaNY                   {- maTowaY -}        `others` [ "ma.twA Nhy", "ma.tAw NK", "ma.tway NAn_Nayn", "ma.tAwiy N0_Nh" ]
                                                             `gloss`  [ "pocket knife", "pleat", "pocket knives", "pleats", "inside", "within" ] ]
 
  -- ;; miTowAp_1
@@ -7280,19 +7260,7 @@ lexicon = listing "Lexicon properties"
     -- mTwA    miTowA  Napdu   pocket knife
 
     noun     Identity                  {- miTowAp -}        `others` [ "mi.twA Napdu" ]
-                                                            `gloss`  [ "pocket knife" ] ]
-
- -- ;; {inoTiwA'_1
-
- |> ".tw'" <| [
-
-    -- ;; {inoTiwA'_1
-
-    noun     InFiCAL                   {- {inoTiwA' -}       ]
-
- -- ;; {inoTiwA'_1
-
- |> ".tw" <| [
+                                                            `gloss`  [ "pocket knife" ],
 
     -- ;; {inoTiwA'_1
     -- <nTwA'  {inoTiwA'       N0_Nh   withdrawal
@@ -7314,11 +7282,7 @@ lexicon = listing "Lexicon properties"
     -- <nTwA}y {inoTiwA}iy~    Nall    withdrawal;introverted     [[{inoTiwA}iy~/ADJ]]
     -- AnTwA}y {inoTiwA}iy~    Nall    withdrawal;introverted     [[{inoTiwA}iy~/ADJ]]
 
-    noun     InFiCA' |< Iy             {- {inoTiwA}iy~ -}   `gloss`  [ "withdrawal", "introverted" ] ]
-
- -- ;; TAwiy_1
-
- |> ".twy" <| [
+    noun     InFiCA' |< Iy             {- {inoTiwA}iy~ -}   `gloss`  [ "withdrawal", "introverted" ],
 
     -- ;; TAwiy_1
     -- TAwy    TAwiy   N0F     starved;emaciated     [[TAwiy/ADJ]]
@@ -7327,7 +7291,7 @@ lexicon = listing "Lexicon properties"
     -- TAw     TAw     Nuwn_Niyn       starved;emaciated
     -- TAwy    TAwiy   NapAt   starved;emaciated
 
-    noun     FACiL                     {- TAwiy -}          `others` [ ".tAw Nuwn_Niyn NK" ]
+    noun     FACI                      {- TAwiy -}          `others` [ ".tAw Nuwn_Niyn NK" ]
                                                             `gloss`  [ "starved", "emaciated" ] ]
 
  -- ;; maTowiy~_1
@@ -7337,7 +7301,11 @@ lexicon = listing "Lexicon properties"
     -- ;; maTowiy~_1
     -- mTwy    maTowiy~        N-ap    containing;harboring     [[maTowiy~/ADJ]]
 
-    noun     Identity |< Iy            {- maTowiy~ -}       `gloss`  [ "containing", "harboring" ],
+    noun     Identity |< Iy            {- maTowiy~ -}       `gloss`  [ "containing", "harboring" ] ]
+
+ -- ;; munoTawiy_1
+
+ |> ".twy" <| [
 
     -- ;; munoTawiy_1
     -- mnTwy   munoTawiy       N0F_Nh  withdrawn;introverted
@@ -7472,35 +7440,23 @@ lexicon = listing "Lexicon properties"
     -- ;; Tiybiy~_2
     -- Tyby    Tiybiy~ N0      Tibi
 
-    noun     FiCL |< Iy                {- Tiybiy~ -}        `gloss`  [ "Tibi" ] ]
-
- -- ;; Tay~ib_1
-
- |> ".tayyib" <| [
+    noun     FiCL |< Iy                {- Tiybiy~ -}        `gloss`  [ "Tibi" ],
 
     -- ;; Tay~ib_1
     -- Tyb     Tay~ib  Nall    good;pleasant     [[Tay~ib/ADJ]]
 
-    noun     Identity                  {- Tay~ib -}         `gloss`  [ "good", "pleasant" ] ]
-
- -- ;; Tay~ibAt_1
-
- |> ".tayyib" <| [
+    noun     FaCCiL                    {- Tay~ib -}         `gloss`  [ "good", "pleasant" ],
 
     -- ;; Tay~ibAt_1
     -- Tyb     Tay~ib  NAt     pleasant;good things
 
-    noun     Identity |< At            {- Tay~ibAt -}       `others` [ ".tayyib NAt" ]
-                                                            `gloss`  [ "pleasant", "good things" ] ]
-
- -- ;; Tay~ib_2
-
- |> ".tayyib" <| [
+    noun     FaCCiL |< At              {- Tay~ibAt -}       `others` [ ".tayyib NAt" ]
+                                                            `gloss`  [ "pleasant", "good things" ],
 
     -- ;; Tay~ib_2
     -- Tyb     Tay~ib  N0      Tayyib
 
-    noun     Identity                  {- Tay~ib -}         `gloss`  [ "Tayyib" ],
+    noun     FaCCiL                    {- Tay~ib -}         `gloss`  [ "Tayyib" ],
 
     -- ;; Tiybap_1
     -- Tyb     Tiyb    Nap     good nature;goodness
@@ -7732,12 +7688,16 @@ lexicon = listing "Lexicon properties"
 
  -- ;; maTAr_1
 
- |> "ma.tAr" <| [
+ |> ".tr" <| [
 
     -- ;; maTAr_1
     -- mTAr    maTAr   NduAt   airport;airfield
 
-    noun     Identity                  {- maTAr -}          `gloss`  [ "airport", "airfield" ],
+    noun     MaFAL                     {- maTAr -}          `gloss`  [ "airport", "airfield" ] ]
+
+ -- ;; taTay~ur_1
+
+ |> ".tyr" <| [
 
     -- ;; taTay~ur_1
     -- tTyr    taTay~ur        N/At    pessimism;superstition

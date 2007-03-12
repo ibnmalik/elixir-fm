@@ -14,20 +14,12 @@ lexicon = listing "Lexicon properties"
  |> ".s'b" <| [
 
     -- ;; Su&Abap_1
-
-    root     Identity                                        ]
-
- -- ;; Su&Abap_1
-
- |> ".su'Ab" <| [
-
-    -- ;; Su&Abap_1
     -- S&Ab    Su&Ab   Nap     nit;louse egg
     -- S&Ab    Su&Ab   N       nits;lice eggs
     -- S}bAn   Si}obAn N       nits;lice eggs
     -- SybAn   SiybAn  N       nits;lice eggs
 
-    noun     Identity |< aT            {- Su&Abap -}        `others` [ ".si'bAn N", ".su'Ab Nap N", ".siybAn N" ]
+    noun     FuCAL |< aT               {- Su&Abap -}        `others` [ ".si'bAn N", ".su'Ab Nap N", ".siybAn N" ]
                                                             `gloss`  [ "nit", "louse egg", "nits", "lice eggs" ] ]
 
  -- ;; SAbAt_1
@@ -222,27 +214,19 @@ lexicon = listing "Lexicon properties"
     -- SbAb    SabAb   Nap     passionate love
 
     noun     FaCAL |< aT               {- SabAbap -}        `others` [ ".sabAb Nap" ]
-                                                            `gloss`  [ "passionate love" ] ]
-
- -- ;; SubAbap_1
-
- |> ".subAb" <| [
+                                                            `gloss`  [ "passionate love" ],
 
     -- ;; SubAbap_1
     -- SbAb    SubAb   Nap     remainder
 
-    noun     Identity |< aT            {- SubAbap -}        `others` [ ".subAb Nap" ]
-                                                            `gloss`  [ "remainder" ] ]
-
- -- ;; maSab~_1
-
- |> "ma.sabb" <| [
+    noun     FuCAL |< aT               {- SubAbap -}        `others` [ ".subAb Nap" ]
+                                                            `gloss`  [ "remainder" ],
 
     -- ;; maSab~_1
     -- mSb     maSab~  NduAt   outlet;drain;funnel
     -- mSAb    maSAb~  Ndip    outlets;drains;funnels
 
-    noun     Identity                  {- maSab~ -}         `others` [ "ma.sAbb Ndip" ]
+    noun     MaFaCL                    {- maSab~ -}         `others` [ "ma.sAbb Ndip" ]
                                                             `gloss`  [ "outlet", "drain", "funnel", "outlets", "drains", "funnels" ],
 
     -- ;; maSobuwb_1
@@ -349,25 +333,17 @@ lexicon = listing "Lexicon properties"
     -- ;; SabAH_2
     -- SbAH    SabAH   N0      Sabah
 
-    noun     FaCAL                     {- SabAH -}          `gloss`  [ "Sabah" ] ]
-
- -- ;; SubAH_1
-
- |> ".subA.h" <| [
+    noun     FaCAL                     {- SabAH -}          `gloss`  [ "Sabah" ],
 
     -- ;; SubAH_1
     -- SbAH    SubAH   N0      Subah
 
-    noun     Identity                  {- SubAH -}          `gloss`  [ "Subah" ] ]
-
- -- ;; SubAH_2
-
- |> ".subA.h" <| [
+    noun     FuCAL                     {- SubAH -}          `gloss`  [ "Subah" ],
 
     -- ;; SubAH_2
     -- SbAH    SubAH   N       cute;comely;attractive
 
-    noun     Identity                  {- SubAH -}          `gloss`  [ "cute", "comely", "attractive" ] ]
+    noun     FuCAL                     {- SubAH -}          `gloss`  [ "cute", "comely", "attractive" ] ]
 
  -- ;; SuboHAn_1
 
@@ -633,17 +609,13 @@ lexicon = listing "Lexicon properties"
     -- ASbEy   <iSobaEiy~      NAt     digitigrades (walking on the toes)    [[<iSobaEiy~/NOUN]]
 
     noun     HiFCaL |< Iy |< At        {- <iSobaEiy~At -}   `others` [ "'i.sba`iyy NAt" ]
-                                                            `gloss`  [ "digitigrades ( walking on the toes )" ] ]
-
- -- ;; SubAE_1
-
- |> ".subA`" <| [
+                                                            `gloss`  [ "digitigrades ( walking on the toes )" ],
 
     -- ;; SubAE_1
     -- SbAE    SubAE   Ndu     finger;toe
     -- SwAbE   SawAbiE Ndip    fingers;toes
 
-    noun     Identity                  {- SubAE -}          `others` [ ".sawAbi` Ndip" ]
+    noun     FuCAL                     {- SubAE -}          `others` [ ".sawAbi` Ndip" ]
                                                             `gloss`  [ "finger", "toe", "fingers", "toes" ] ]
 
  -- ;; >uSobuwE_1
@@ -1014,6 +986,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; SAbiy_1
 
+ |> ".sb" <| [
+
+    -- ;; SAbiy_1
+
+    noun     FACI                      {- SAbiy -}           ]
+
+ -- ;; SAbiy_1
+
  |> ".sby" <| [
 
     -- ;; SAbiy_1
@@ -1109,25 +1089,17 @@ lexicon = listing "Lexicon properties"
     -- >SH     >aSaH~  Nel     more correct
     -- ASH     >aSaH~  Nel     more correct
 
-    noun     HaFaCL                    {- >aSaH~ -}         `gloss`  [ "more correct" ] ]
-
- -- ;; maSaH~_1
-
- |> "ma.sa.h.h" <| [
+    noun     HaFaCL                    {- >aSaH~ -}         `gloss`  [ "more correct" ],
 
     -- ;; maSaH~_1
     -- mSH     maSaH~  NduAt   sanatorium
 
-    noun     Identity                  {- maSaH~ -}         `gloss`  [ "sanatorium" ] ]
-
- -- ;; maSaH~ap_1
-
- |> "ma.sa.h.h" <| [
+    noun     MaFaCL                    {- maSaH~ -}         `gloss`  [ "sanatorium" ],
 
     -- ;; maSaH~ap_1
     -- mSH     maSaH~  Nap     sanatorium
 
-    noun     Identity |< aT            {- maSaH~ap -}       `others` [ "ma.sa.h.h Nap" ]
+    noun     MaFaCL |< aT              {- maSaH~ap -}       `others` [ "ma.sa.h.h Nap" ]
                                                             `gloss`  [ "sanatorium" ],
 
     -- ;; taSoHiyH_1
@@ -1553,11 +1525,7 @@ lexicon = listing "Lexicon properties"
     -- SHy     SoHay   IV_Ann_Pass_yu  be awakened;be roused
 
     verb     HaFCY                     {- >aSoHaY -}        `others` [ ".s.hay IV_Ann_Pass_yu", "'a.s.hA PV_h", ".s.hY IV_0_Pass_yu", ".s.hiy IV_0hAnn_yu", "'a.s.h PV_ttAw", "'a.s.hay PV_Atn", ".s.h IV_0hwnyn_yu" ]
-                                                            `gloss`  [ "awaken", "rouse", "be awakened", "be roused" ] ]
-
- -- ;; SAHiy_1
-
- |> ".s.hy" <| [
+                                                            `gloss`  [ "awaken", "rouse", "be awakened", "be roused" ],
 
     -- ;; SAHiy_1
     -- SAHy    SAHiy   N0F     bright;serene     [[SAHiy/ADJ]]
@@ -1565,7 +1533,7 @@ lexicon = listing "Lexicon properties"
     -- SAHy    SAHiy   NAn_Nayn        bright;serene
     -- SAHy    SAHiy   Napdu   bright;serene
 
-    noun     FACiL                     {- SAHiy -}          `others` [ ".sA.h NK" ]
+    noun     FACI                      {- SAHiy -}          `others` [ ".sA.h NK" ]
                                                             `gloss`  [ "bright", "serene" ],
 
     -- ;; SAHiy_2
@@ -1575,7 +1543,7 @@ lexicon = listing "Lexicon properties"
     -- SAH     SAH     Nuwn_Niyn       vigilant;wakeful
     -- SAHy    SAHiy   NapAt   vigilant;wakeful
 
-    noun     FACiL                     {- SAHiy -}          `others` [ ".sA.h Nuwn_Niyn NK" ]
+    noun     FACI                      {- SAHiy -}          `others` [ ".sA.h Nuwn_Niyn NK" ]
                                                             `gloss`  [ "vigilant", "wakeful" ] ]
 
  -- ;--- Sxb
@@ -1744,25 +1712,17 @@ lexicon = listing "Lexicon properties"
     -- ;; Sadiydiy~_1
     -- Sdydy   Sadiydiy~       N-ap    festering;suppurating     [[Sadiydiy~/ADJ]]
 
-    noun     FaCIL |< Iy               {- Sadiydiy~ -}      `gloss`  [ "festering", "suppurating" ] ]
-
- -- ;; maSad~_1
-
- |> "ma.sadd" <| [
+    noun     FaCIL |< Iy               {- Sadiydiy~ -}      `gloss`  [ "festering", "suppurating" ],
 
     -- ;; maSad~_1
     -- mSd     maSad~  NduAt   wall;barrier
 
-    noun     Identity                  {- maSad~ -}         `gloss`  [ "wall", "barrier" ] ]
-
- -- ;; miSad~_1
-
- |> "mi.sadd" <| [
+    noun     MaFaCL                    {- maSad~ -}         `gloss`  [ "wall", "barrier" ],
 
     -- ;; miSad~_1
     -- mSd     miSad~  NduAt   bumper;stopper;cork
 
-    noun     Identity                  {- miSad~ -}         `gloss`  [ "bumper", "stopper", "cork" ],
+    noun     MiFaCL                    {- miSad~ -}         `gloss`  [ "bumper", "stopper", "cork" ],
 
     -- ;; <iSodAd_1
     -- <SdAd   <iSodAd N/At    suppuration
@@ -1869,16 +1829,12 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCaL                     {- SadaH-a -}        `imperf` [ FCaL ]
                                                             `others` [ ".sada.h PV", ".sda.h IV" ]
-                                                            `gloss`  [ "chant", "sing" ] ]
-
- -- ;; SudAH_1
-
- |> ".sudA.h" <| [
+                                                            `gloss`  [ "chant", "sing" ],
 
     -- ;; SudAH_1
     -- SdAH    SudAH   N       chanting;singing
 
-    noun     Identity                  {- SudAH -}          `gloss`  [ "chanting", "singing" ],
+    noun     FuCAL                     {- SudAH -}          `gloss`  [ "chanting", "singing" ],
 
     -- ;; SadaH_1
     -- SdH     SadaH   N       banner
@@ -2132,25 +2088,17 @@ lexicon = listing "Lexicon properties"
     -- SdE     SadaE   NAt     splits;divergences
 
     noun     FaCL |< aT                {- SadoEap -}        `others` [ ".sad` Napdu", ".sada` NAt" ]
-                                                            `gloss`  [ "split", "divergence", "splits", "divergences" ] ]
-
- -- ;; SudAE_1
-
- |> ".sudA`" <| [
+                                                            `gloss`  [ "split", "divergence", "splits", "divergences" ],
 
     -- ;; SudAE_1
     -- SdAE    SudAE   N       headache;migraine
 
-    noun     Identity                  {- SudAE -}          `gloss`  [ "headache", "migraine" ] ]
-
- -- ;; SudAEiy~_1
-
- |> ".sudA`" <| [
+    noun     FuCAL                     {- SudAE -}          `gloss`  [ "headache", "migraine" ],
 
     -- ;; SudAEiy~_1
     -- SdAEy   SudAEiy~        N-ap    migraine     [[SudAEiy~/ADJ]]
 
-    noun     Identity |< Iy            {- SudAEiy~ -}       `gloss`  [ "migraine" ],
+    noun     FuCAL |< Iy               {- SudAEiy~ -}       `gloss`  [ "migraine" ],
 
     -- ;; taSodiyE_1
     -- tSdyE   taSodiyE        N/At    rupture
@@ -2536,16 +2484,12 @@ lexicon = listing "Lexicon properties"
     -- ;; SAdim_1
     -- SAdm    SAdim   N-ap    shocking;explosive;percussion     [[SAdim/ADJ]]
 
-    noun     FACiL                     {- SAdim -}          `gloss`  [ "shocking", "explosive", "percussion" ] ]
-
- -- ;; SudAm_1
-
- |> ".sudAm" <| [
+    noun     FACiL                     {- SAdim -}          `gloss`  [ "shocking", "explosive", "percussion" ],
 
     -- ;; SudAm_1
     -- SdAm    SudAm   N       influenza
 
-    noun     Identity                  {- SudAm -}          `gloss`  [ "influenza" ],
+    noun     FuCAL                     {- SudAm -}          `gloss`  [ "influenza" ],
 
     -- ;; muSAdim_1
     -- mSAdm   muSAdim N-ap    percussive;explosive     [[muSAdim/ADJ]]
@@ -2720,16 +2664,12 @@ lexicon = listing "Lexicon properties"
     -- ;; muSir~_1
     -- mSr     muSir~  Nall    determined;insistent     [[muSir~/ADJ]]
 
-    noun     MuFiCL                    {- muSir~ -}         `gloss`  [ "determined", "insistent" ] ]
-
- -- ;; SAr~ap_1
-
- |> ".sArr" <| [
+    noun     MuFiCL                    {- muSir~ -}         `gloss`  [ "determined", "insistent" ],
 
     -- ;; SAr~ap_1
     -- SAr     SAr~    Nap     need;thirst
 
-    noun     Identity |< aT            {- SAr~ap -}         `others` [ ".sArr Nap" ]
+    noun     FACL |< aT                {- SAr~ap -}         `others` [ ".sArr Nap" ]
                                                             `gloss`  [ "need", "thirst" ] ]
 
  -- ;--- Srb
@@ -2802,16 +2742,12 @@ lexicon = listing "Lexicon properties"
     -- SrwH    SuruwH  N       structures;edifices
 
     noun     FaCL                      {- SaroH -}          `others` [ ".suruw.h N" ]
-                                                            `gloss`  [ "structure", "edifice", "structures", "edifices" ] ]
-
- -- ;; SurAH_1
-
- |> ".surA.h" <| [
+                                                            `gloss`  [ "structure", "edifice", "structures", "edifices" ],
 
     -- ;; SurAH_1
     -- SrAH    SurAH   N       pure;distinct
 
-    noun     Identity                  {- SurAH -}          `gloss`  [ "pure", "distinct" ],
+    noun     FuCAL                     {- SurAH -}          `gloss`  [ "pure", "distinct" ],
 
     -- ;; SariyH_1
     -- SryH    SariyH  N/ap    candid;sincere     [[SariyH/ADJ]]
@@ -2851,16 +2787,12 @@ lexicon = listing "Lexicon properties"
     -- ;; muSar~aH_1
     -- mSrH    muSar~aH        N-ap    licensed;permitted     [[muSar~aH/ADJ]]
 
-    noun     MuFaCCaL                  {- muSar~aH -}       `gloss`  [ "licensed", "permitted" ] ]
-
- -- ;; SurAHiy~ap_1
-
- |> ".surA.h" <| [
+    noun     MuFaCCaL                  {- muSar~aH -}       `gloss`  [ "licensed", "permitted" ],
 
     -- ;; SurAHiy~ap_1
     -- SrAHy   SurAHiy~        Nap     demijohn     [[SurAHiy~/NOUN]]
 
-    noun     Identity |< Iy |< aT      {- SurAHiy~ap -}     `others` [ ".surA.hiyy Nap" ]
+    noun     FuCAL |< Iy |< aT         {- SurAHiy~ap -}     `others` [ ".surA.hiyy Nap" ]
                                                             `gloss`  [ "demijohn" ] ]
 
  -- ;--- Srx
@@ -2888,25 +2820,17 @@ lexicon = listing "Lexicon properties"
     -- Srx     Sarax   NAt     shouts;screams
 
     noun     FaCL |< aT                {- Saroxap -}        `others` [ ".sar_h Napdu", ".sara_h NAt" ]
-                                                            `gloss`  [ "shout", "scream", "shouts", "screams" ] ]
-
- -- ;; SurAx_1
-
- |> ".surA_h" <| [
+                                                            `gloss`  [ "shout", "scream", "shouts", "screams" ],
 
     -- ;; SurAx_1
     -- SrAx    SurAx   N       shouting;screaming
 
-    noun     Identity                  {- SurAx -}          `gloss`  [ "shouting", "screaming" ] ]
-
- -- ;; SurAxiy~_1
-
- |> ".surA_h" <| [
+    noun     FuCAL                     {- SurAx -}          `gloss`  [ "shouting", "screaming" ],
 
     -- ;; SurAxiy~_1
     -- SrAxy   SurAxiy~        N-ap    shouting;screaming     [[SurAxiy~/ADJ]]
 
-    noun     Identity |< Iy            {- SurAxiy~ -}       `gloss`  [ "shouting", "screaming" ],
+    noun     FuCAL |< Iy               {- SurAxiy~ -}       `gloss`  [ "shouting", "screaming" ],
 
     -- ;; Sariyx_1
     -- Sryx    Sariyx  N       shouting;screaming
@@ -3996,11 +3920,7 @@ lexicon = listing "Lexicon properties"
     -- <SgA'   <iSogA' NAt     attentiveness;listening
     -- ASgA'   <iSogA' NAt     attentiveness;listening
 
-    noun     HiFCA'                    {- <iSogA' -}        `gloss`  [ "attentiveness", "listening" ] ]
-
- -- ;; SAgiy_1
-
- |> ".s.gy" <| [
+    noun     HiFCA'                    {- <iSogA' -}        `gloss`  [ "attentiveness", "listening" ],
 
     -- ;; SAgiy_1
     -- SAgy    SAgiy   N0F     attentive;listening     [[SAgiy/ADJ]]
@@ -4008,8 +3928,12 @@ lexicon = listing "Lexicon properties"
     -- SAgy    SAgiy   NAn_Nayn        attentive;listening
     -- SAgy    SAgiy   Napdu   attentive;listening
 
-    noun     FACiL                     {- SAgiy -}          `others` [ ".sA.g NK" ]
-                                                            `gloss`  [ "attentive", "listening" ],
+    noun     FACI                      {- SAgiy -}          `others` [ ".sA.g NK" ]
+                                                            `gloss`  [ "attentive", "listening" ] ]
+
+ -- ;; muSogiy_1
+
+ |> ".s.gy" <| [
 
     -- ;; muSogiy_1
     -- mSgy    muSogiy N0F_Nh  attentive;listening     [[muSogiy/ADJ]]
@@ -4048,11 +3972,7 @@ lexicon = listing "Lexicon properties"
     -- Sff     Saf~if  IV_yu   arrange
 
     verb     FaCCaL                    {- Saf~af -}         `others` [ ".saffif IV_yu" ]
-                                                            `gloss`  [ "arrange" ] ]
-
- -- ;; taSAf~_1
-
- |> "ta.sAff" <| [
+                                                            `gloss`  [ "arrange" ],
 
     -- ;; taSAf~_1
     -- tSAf    taSAf~  PV_V_intr       be arranged;get in line
@@ -4060,7 +3980,7 @@ lexicon = listing "Lexicon properties"
     -- tSAf    taSAf~  IV_V_intr       be arranged;get in line
     -- tSAff   taSAfif IV_C_intr       be arranged;get in line
 
-    verb     Identity                  {- taSAf~ -}         `others` [ "ta.sAfaf PV_C_intr", "ta.sAfif IV_C_intr" ]
+    verb     TaFACL                    {- taSAf~ -}         `others` [ "ta.sAfaf PV_C_intr", "ta.sAfif IV_C_intr" ]
                                                             `gloss`  [ "be arranged", "get in line" ] ]
 
  -- ;; {iSoTaf~_1
@@ -4103,26 +4023,18 @@ lexicon = listing "Lexicon properties"
     -- ;; Saf~Af_1
     -- SfAf    Saf~Af  N-ap    typesetter
 
-    noun     FaCCAL                    {- Saf~Af -}         `gloss`  [ "typesetter" ] ]
-
- -- ;; maSaf~_1
-
- |> "ma.saff" <| [
+    noun     FaCCAL                    {- Saf~Af -}         `gloss`  [ "typesetter" ],
 
     -- ;; maSaf~_1
     -- mSf     maSaf~  N       rank
 
-    noun     Identity                  {- maSaf~ -}         `gloss`  [ "rank" ] ]
-
- -- ;; maSaf~_2
-
- |> "ma.saff" <| [
+    noun     MaFaCL                    {- maSaf~ -}         `gloss`  [ "rank" ],
 
     -- ;; maSaf~_2
     -- mSf     maSaf~  Ndu     battle line;position
     -- mSAf    maSAf~  Ndip    battle lines;positions
 
-    noun     Identity                  {- maSaf~ -}         `others` [ "ma.sAff Ndip" ]
+    noun     MaFaCL                    {- maSaf~ -}         `others` [ "ma.sAff Ndip" ]
                                                             `gloss`  [ "battle line", "position", "battle lines", "positions" ],
 
     -- ;; taSofiyf_1
@@ -4874,18 +4786,14 @@ lexicon = listing "Lexicon properties"
     -- SfAyA   SafAyA  N0_Nhy  lion's share
 
     noun     CaL |< Iy |< aT           {- Safiy~ap -}       `others` [ ".safAyA N0_Nhy", ".safiyy Nap" ]
-                                                            `gloss`  [ "lion 's share" ] ]
-
- -- ;; maSofaY_1
-
- |> "ma.sfY" <| [
+                                                            `gloss`  [ "lion 's share" ],
 
     -- ;; maSofaY_1
     -- mSfY    maSofaY N0      refinery
     -- mSfA    maSofA  Nhy     refinery
     -- mSfy    maSofay NAn_Nayn        refineries
 
-    noun     Identity                  {- maSofaY -}        `others` [ "ma.sfA Nhy", "ma.sfay NAn_Nayn" ]
+    noun     MaFCaNY                   {- maSofaY -}        `others` [ "ma.sfA Nhy", "ma.sfay NAn_Nayn" ]
                                                             `gloss`  [ "refinery", "refineries" ] ]
 
  -- ;; miSofaY_1
@@ -5021,11 +4929,7 @@ lexicon = listing "Lexicon properties"
     -- <stSfA' {isotiSofA'     NAt     sequestrations;confiscations
     -- AstSfA' {isotiSofA'     NAt     sequestrations;confiscations
 
-    noun     IstiFCA'                  {- {isotiSofA' -}    `gloss`  [ "sequestration", "confiscation", "sequestrations", "confiscations" ] ]
-
- -- ;; SAfiy_1
-
- |> ".sfy" <| [
+    noun     IstiFCA'                  {- {isotiSofA' -}    `gloss`  [ "sequestration", "confiscation", "sequestrations", "confiscations" ],
 
     -- ;; SAfiy_1
     -- SAfy    SAfiy   N0F     net
@@ -5033,7 +4937,7 @@ lexicon = listing "Lexicon properties"
     -- SAfy    SAfiy   NAn_Nayn        net
     -- SAfy    SAfiy   Napdu   net
 
-    noun     FACiL                     {- SAfiy -}          `others` [ ".sAf NK" ]
+    noun     FACI                      {- SAfiy -}          `others` [ ".sAf NK" ]
                                                             `gloss`  [ "net" ],
 
     -- ;; SAfiy_2
@@ -5042,8 +4946,12 @@ lexicon = listing "Lexicon properties"
     -- SAfy    SAfiy   NAn_Nayn        pure;clear;sincere
     -- SAfy    SAfiy   Napdu   pure;clear;sincere
 
-    noun     FACiL                     {- SAfiy -}          `others` [ ".sAf NK" ]
-                                                            `gloss`  [ "pure", "clear", "sincere" ],
+    noun     FACI                      {- SAfiy -}          `others` [ ".sAf NK" ]
+                                                            `gloss`  [ "pure", "clear", "sincere" ] ]
+
+ -- ;; muSaf~iy_1
+
+ |> ".sfy" <| [
 
     -- ;; muSaf~iy_1
     -- mSfy    muSaf~iy        N0_Nh   receiver in equity;clarifying agent
@@ -6356,11 +6264,7 @@ lexicon = listing "Lexicon properties"
     -- Smm     Somim   IV_C_yu deafen;make deaf;become deaf
 
     verb     HaFaCL                    {- >aSam~ -}         `others` [ ".simm IV_V_yu", ".smim IV_C_yu", "'a.smam PV_C" ]
-                                                            `gloss`  [ "deafen", "make deaf", "become deaf" ] ]
-
- -- ;; taSAm~_1
-
- |> "ta.sAmm" <| [
+                                                            `gloss`  [ "deafen", "make deaf", "become deaf" ],
 
     -- ;; taSAm~_1
     -- tSAm    taSAm~  PV_V    give a deaf ear to
@@ -6368,7 +6272,7 @@ lexicon = listing "Lexicon properties"
     -- tSAm    taSAm~  IV_V    give a deaf ear to
     -- tSAmm   taSAmim IV_C    give a deaf ear to
 
-    verb     Identity                  {- taSAm~ -}         `others` [ "ta.sAmim IV_C", "ta.sAmam PV_C" ]
+    verb     TaFACL                    {- taSAm~ -}         `others` [ "ta.sAmim IV_C", "ta.sAmam PV_C" ]
                                                             `gloss`  [ "give a deaf ear to" ],
 
     -- ;; Sim~ap_1
@@ -6799,16 +6703,12 @@ lexicon = listing "Lexicon properties"
     -- Sn      Sin~    Nap     body odor
 
     noun     FiCL |< aT                {- Sin~ap -}         `others` [ ".sinn Nap" ]
-                                                            `gloss`  [ "body odor" ] ]
-
- -- ;; SunAn_1
-
- |> ".sunAn" <| [
+                                                            `gloss`  [ "body odor" ],
 
     -- ;; SunAn_1
     -- SnAn    SunAn   N       body odor
 
-    noun     Identity                  {- SunAn -}          `gloss`  [ "body odor" ] ]
+    noun     FuCAL                     {- SunAn -}          `gloss`  [ "body odor" ] ]
 
  -- ;--- Snbr
 
@@ -7516,16 +7416,12 @@ lexicon = listing "Lexicon properties"
     -- Shyr    Sahiyr  NapAt   fusible;fuse
 
     noun     FaCIL |< aT               {- Sahiyrap -}       `others` [ ".sahiyr NapAt" ]
-                                                            `gloss`  [ "fusible", "fuse" ] ]
-
- -- ;; SuhArap_1
-
- |> ".suhAr" <| [
+                                                            `gloss`  [ "fusible", "fuse" ],
 
     -- ;; SuhArap_1
     -- ShAr    SuhAr   Nap     casting;magma
 
-    noun     Identity |< aT            {- SuhArap -}        `others` [ ".suhAr Nap" ]
+    noun     FuCAL |< aT               {- SuhArap -}        `others` [ ".suhAr Nap" ]
                                                             `gloss`  [ "casting", "magma" ],
 
     -- ;; Sahuwr_1
@@ -7903,21 +7799,17 @@ lexicon = listing "Lexicon properties"
 
  -- ;; Say~it_1
 
- |> ".sayyit" <| [
+ |> ".syt" <| [
 
     -- ;; Say~it_1
     -- Syt     Say~it  Nall    loud     [[Say~it/ADJ]]
 
-    noun     Identity                  {- Say~it -}         `gloss`  [ "loud" ] ]
-
- -- ;; Say~it_2
-
- |> ".sayyit" <| [
+    noun     FaCCiL                    {- Say~it -}         `gloss`  [ "loud" ],
 
     -- ;; Say~it_2
     -- Syt     Say~it  Ndu     megaphone
 
-    noun     Identity                  {- Say~it -}         `gloss`  [ "megaphone" ] ]
+    noun     FaCCiL                    {- Say~it -}         `gloss`  [ "megaphone" ] ]
 
  -- ;; taSowiyt_1
 
@@ -7987,16 +7879,12 @@ lexicon = listing "Lexicon properties"
     -- SwH     Saw~iH  IV_yu   wither
 
     verb     FaCCaL                    {- Saw~aH -}         `others` [ ".sawwi.h IV_yu" ]
-                                                            `gloss`  [ "wither" ] ]
-
- -- ;; SuwAH_1
-
- |> ".suwA.h" <| [
+                                                            `gloss`  [ "wither" ],
 
     -- ;; SuwAH_1
     -- SwAH    SuwAH   N       pollen
 
-    noun     Identity                  {- SuwAH -}          `gloss`  [ "pollen" ],
+    noun     FuCAL                     {- SuwAH -}          `gloss`  [ "pollen" ],
 
     -- ;; taSowiyH_1
     -- tSwyH   taSowiyH        N/At    withering
@@ -8380,12 +8268,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; maSAg_1
 
- |> "ma.sA.g" <| [
+ |> ".s.g" <| [
 
     -- ;; maSAg_1
     -- mSAg    maSAg   N       jewelry
 
-    noun     Identity                  {- maSAg -}          `gloss`  [ "jewelry" ] ]
+    noun     MaFAL                     {- maSAg -}          `gloss`  [ "jewelry" ] ]
 
  -- ;; SA}ig_1
 
@@ -9018,17 +8906,13 @@ lexicon = listing "Lexicon properties"
     -- ;; maSiyd_1
     -- mSyd    maSiyd  Nall    hunted;fished;trapped     [[maSiyd/ADJ]]
 
-    noun     MaFIL                     {- maSiyd -}         `gloss`  [ "hunted", "fished", "trapped" ] ]
-
- -- ;; maSAd_1
-
- |> "ma.sAd" <| [
+    noun     MaFIL                     {- maSiyd -}         `gloss`  [ "hunted", "fished", "trapped" ],
 
     -- ;; maSAd_1
     -- mSAd    maSAd   N       hunting;fishing;trapping
     -- mSA}d   maSA}id Ndip    hunting;fishing;trapping
 
-    noun     Identity                  {- maSAd -}          `others` [ "ma.sA'id Ndip" ]
+    noun     MaFAL                     {- maSAd -}          `others` [ "ma.sA'id Ndip" ]
                                                             `gloss`  [ "hunting", "fishing", "trapping" ] ]
 
  -- ;; maSoyadap_1

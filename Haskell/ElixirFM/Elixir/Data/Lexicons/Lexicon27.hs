@@ -717,12 +717,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; wubiy_1
 
- |> "wubiy" <| [
+ |> "wby" <| [
 
     -- ;; wubiy_1
     -- wby     wubiy   N0      Yobe
 
-    noun     Identity                  {- wubiy -}          `gloss`  [ "Yobe" ] ]
+    noun     FuCiL                     {- wubiy -}          `gloss`  [ "Yobe" ] ]
 
  -- ;--- wtd
 
@@ -1747,18 +1747,14 @@ lexicon = listing "Lexicon properties"
     -- ;; wujaq_1
     -- wjq     wujaq   N       oudjak (Tunisian gendarme)
 
-    noun     Identity                  {- wujaq -}          `gloss`  [ "oudjak ( Tunisian gendarme )" ] ]
-
- -- ;; wujAq_1
-
- |> "wu^gAq" <| [
+    noun     Identity                  {- wujaq -}          `gloss`  [ "oudjak ( Tunisian gendarme )" ],
 
     -- ;; wujAq_1
     -- wjAq    wujAq   NduAt   cooking stove
     -- >wjAq   >uwjAq  N       cooking stove
     -- AwjAq   >uwjAq  N       cooking stove
 
-    noun     Identity                  {- wujAq -}          `others` [ "'uw^gAq N" ]
+    noun     FuCAL                     {- wujAq -}          `others` [ "'uw^gAq N" ]
                                                             `gloss`  [ "cooking stove" ] ]
 
  -- ;--- wjl
@@ -2655,6 +2651,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muwHiy_1
 
+ |> "wm.h" <| [
+
+    -- ;; muwHiy_1
+
+    noun     FUCiy                     {- muwHiy -}          ]
+
+ -- ;; muwHiy_1
+
  |> "w.hy" <| [
 
     -- ;; muwHiy_1
@@ -2907,11 +2911,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCL                      {- wad~-a -}         `imperf` [ FCaL ]
                                                             `others` [ "wadid PV_C", "wadd PV_V IV_V", "wdad IV_C" ]
-                                                            `gloss`  [ "want", "would like" ] ]
-
- -- ;; wAd~_1
-
- |> "wAdd" <| [
+                                                            `gloss`  [ "want", "would like" ],
 
     -- ;; wAd~_1
     -- wAd     wAd~    PV_V    befriend
@@ -2919,18 +2919,14 @@ lexicon = listing "Lexicon properties"
     -- wAd     wAd~    IV_V_yu befriend
     -- wAdd    wAdid   IV_C_yu befriend
 
-    verb     Identity                  {- wAd~ -}           `others` [ "wAdid IV_C_yu", "wAdad PV_C" ]
+    verb     FACL                      {- wAd~ -}           `others` [ "wAdid IV_C_yu", "wAdad PV_C" ]
                                                             `gloss`  [ "befriend" ],
 
     -- ;; tawad~ad_1
     -- twdd    tawad~ad        PV      court;flirt
     -- twdd    tawad~ad        IV      court;flirt
 
-    verb     TaFaCCaL                  {- tawad~ad -}       `gloss`  [ "court", "flirt" ] ]
-
- -- ;; tawAd~_1
-
- |> "tawAdd" <| [
+    verb     TaFaCCaL                  {- tawad~ad -}       `gloss`  [ "court", "flirt" ],
 
     -- ;; tawAd~_1
     -- twAd    tawAd~  PV_V_intr       be friends;live harmoniously
@@ -2938,7 +2934,7 @@ lexicon = listing "Lexicon properties"
     -- twAd    tawAd~  IV_V_intr       be friends;live harmoniously
     -- twAdd   tawAdid IV_C_intr       be friends;live harmoniously
 
-    verb     Identity                  {- tawAd~ -}         `others` [ "tawAdid IV_C_intr", "tawAdad PV_C_intr" ]
+    verb     TaFACL                    {- tawAd~ -}         `others` [ "tawAdid IV_C_intr", "tawAdad PV_C_intr" ]
                                                             `gloss`  [ "be friends", "live harmoniously" ],
 
     -- ;; wud~_1
@@ -2990,31 +2986,23 @@ lexicon = listing "Lexicon properties"
     -- ;; wadiyd_1
     -- wdyd    wadiyd  N-ap    friendly;amicable     [[wadiyd/ADJ]]
 
-    noun     FaCIL                     {- wadiyd -}         `gloss`  [ "friendly", "amicable" ] ]
-
- -- ;; mawad~ap_1
-
- |> "mawadd" <| [
+    noun     FaCIL                     {- wadiyd -}         `gloss`  [ "friendly", "amicable" ],
 
     -- ;; mawad~ap_1
     -- mwd     mawad~  Nap     friendship;love
 
-    noun     Identity |< aT            {- mawad~ap -}       `others` [ "mawadd Nap" ]
+    noun     MaFaCL |< aT              {- mawad~ap -}       `others` [ "mawadd Nap" ]
                                                             `gloss`  [ "friendship", "love" ],
 
     -- ;; tawad~ud_1
     -- twdd    tawad~ud        N/At    courting;flirting
 
-    noun     TaFaCCuL                  {- tawad~ud -}       `gloss`  [ "courting", "flirting" ] ]
-
- -- ;; tawAd~_2
-
- |> "tawAdd" <| [
+    noun     TaFaCCuL                  {- tawad~ud -}       `gloss`  [ "courting", "flirting" ],
 
     -- ;; tawAd~_2
     -- twAd    tawAd~  N/At    amicable relations;friendly basis
 
-    noun     Identity                  {- tawAd~ -}         `gloss`  [ "amicable relations", "friendly basis" ] ]
+    noun     TaFACL                    {- tawAd~ -}         `gloss`  [ "amicable relations", "friendly basis" ] ]
 
  -- ;--- wdj
 
@@ -3358,6 +3346,14 @@ lexicon = listing "Lexicon properties"
  |> "wdy" <| [
 
     -- ;; wAdiy_1
+
+    noun     FACiL                     {- wAdiy -}           ]
+
+ -- ;; wAdiy_1
+
+ |> "wd" <| [
+
+    -- ;; wAdiy_1
     -- wAdy    wAdiy   N0F_Nh  wadi;valley
     -- wAd     wAd     NK      wadi;valley
     -- wAdy    wAdiy   NAn_Nayn        wadis;valleys
@@ -3365,7 +3361,7 @@ lexicon = listing "Lexicon properties"
     -- Awdy    >awodiy Nap     wadis;valleys
     -- wdyAn   widoyAn N       wadis;valleys
 
-    noun     FACiL                     {- wAdiy -}          `others` [ "'awdiy Nap", "wAd NK", "widyAn N" ]
+    noun     FACI                      {- wAdiy -}          `others` [ "'awdiy Nap", "wAd NK", "widyAn N" ]
                                                             `gloss`  [ "wadi", "valley", "wadis", "valleys" ] ]
 
  -- ;--- w*r
@@ -6677,6 +6673,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; muwSiy_1
 
+ |> "wm.s" <| [
+
+    -- ;; muwSiy_1
+
+    noun     FUCiy                     {- muwSiy -}          ]
+
+ -- ;; muwSiy_1
+
  |> "w.sy" <| [
 
     -- ;; muwSiy_1
@@ -9239,6 +9243,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; wAfiy_1
 
+ |> "wf" <| [
+
+    -- ;; wAfiy_1
+
+    noun     FACI                      {- wAfiy -}           ]
+
+ -- ;; wAfiy_1
+
  |> "wfy" <| [
 
     -- ;; wAfiy_1
@@ -9823,17 +9835,13 @@ lexicon = listing "Lexicon properties"
     -- wqE     waq~iE  IV_yu   sign
 
     verb     FaCCaL                    {- waq~aE -}         `others` [ "waqqi` IV_yu" ]
-                                                            `gloss`  [ "sign" ] ]
-
- -- ;; wuq~iE_1
-
- |> "wuqqi`" <| [
+                                                            `gloss`  [ "sign" ],
 
     -- ;; wuq~iE_1
     -- wqE     wuq~iE  PV_Pass be signed
     -- wqE     waq~aE  IV_Pass_yu      be signed
 
-    verb     Identity                  {- wuq~iE -}         `others` [ "waqqa` IV_Pass_yu" ]
+    verb     FuCCiL                    {- wuq~iE -}         `others` [ "waqqa` IV_Pass_yu" ]
                                                             `gloss`  [ "be signed" ],
 
     -- ;; >awoqaE_1
@@ -10413,6 +10421,14 @@ lexicon = listing "Lexicon properties"
     -- AtqA'   {it~iqA'        NAt     caution;precaution
 
     noun     IFtiCA'                   {- {it~iqA' -}       `gloss`  [ "caution", "precaution" ] ]
+
+ -- ;; wAqiy_1
+
+ |> "wq" <| [
+
+    -- ;; wAqiy_1
+
+    noun     FACI                      {- wAqiy -}           ]
 
  -- ;; wAqiy_1
 
@@ -11784,11 +11800,7 @@ lexicon = listing "Lexicon properties"
     -- Awly    >awolay NAn_Nayn        most appropriate/suitable/deserving
 
     noun     HaFCY                     {- >awolaY -}        `others` [ "'awlay NAn_Nayn", "'awlA Nhy" ]
-                                                            `gloss`  [ "more / most appropriate / suitable / deserving", "most appropriate / suitable / deserving" ] ]
-
- -- ;; mawolaY_1
-
- |> "mawlY" <| [
+                                                            `gloss`  [ "more / most appropriate / suitable / deserving", "most appropriate / suitable / deserving" ],
 
     -- ;; mawolaY_1
     -- mwlY    mawolaY N0      master;lord
@@ -11797,17 +11809,13 @@ lexicon = listing "Lexicon properties"
     -- mwAly   mawAliy N0_Nh   masters;lords
     -- mwAl    mawAl   NK      masters;lords
 
-    noun     Identity                  {- mawolaY -}        `others` [ "mawAl NK", "mawlay NAn_Nayn", "mawlA Nhy", "mawAliy N0_Nh" ]
-                                                            `gloss`  [ "master", "lord", "masters", "lords" ] ]
-
- -- ;; mawolaY_2
-
- |> "mawlY" <| [
+    noun     MaFCaNY                   {- mawolaY -}        `others` [ "mawAl NK", "mawlay NAn_Nayn", "mawlA Nhy", "mawAliy N0_Nh" ]
+                                                            `gloss`  [ "master", "lord", "masters", "lords" ],
 
     -- ;; mawolaY_2
     -- mwlY    mawolaY N0      Mawla
 
-    noun     Identity                  {- mawolaY -}        `gloss`  [ "Mawla" ] ]
+    noun     MaFCaNY                   {- mawolaY -}        `gloss`  [ "Mawla" ] ]
 
  -- ;; mawolAp_1
 
@@ -11949,13 +11957,25 @@ lexicon = listing "Lexicon properties"
  |> "wly" <| [
 
     -- ;; wAliy_1
+
+    noun     FACiL                     {- wAliy -}           ]
+
+ -- ;; wAliy_1
+
+ |> "wl" <| [
+
+    -- ;; wAliy_1
     -- wAly    wAliy   N0F_Nh  ruler;governor
     -- wAl     wAl     NK      ruler;governor
     -- wAly    wAliy   NAn_Nayn        ruler;governor
     -- wlA     wulA    Nap     rulers;governors
 
-    noun     FACiL                     {- wAliy -}          `others` [ "wulA Nap", "wAl NK" ]
-                                                            `gloss`  [ "ruler", "governor", "rulers", "governors" ],
+    noun     FACI                      {- wAliy -}          `others` [ "wulA Nap", "wAl NK" ]
+                                                            `gloss`  [ "ruler", "governor", "rulers", "governors" ] ]
+
+ -- ;; muwAliy_1
+
+ |> "wly" <| [
 
     -- ;; muwAliy_1
     -- mwAly   muwAliy N0F_Nh  partisan;sympathizer
@@ -12346,11 +12366,7 @@ lexicon = listing "Lexicon properties"
     -- twAny   tawAniy NAt     slowness;negligence;indifference
 
     noun     Identity                  {- tawAniy -}        `others` [ "tawAn NK" ]
-                                                            `gloss`  [ "slowness", "negligence", "indifference" ] ]
-
- -- ;; wAniy_1
-
- |> "wny" <| [
+                                                            `gloss`  [ "slowness", "negligence", "indifference" ],
 
     -- ;; wAniy_1
     -- wAny    wAniy   N0F     weak;exhausted     [[wAniy/ADJ]]
@@ -12358,8 +12374,12 @@ lexicon = listing "Lexicon properties"
     -- wAn     wAn     Nuwn_Niyn       weak;exhausted
     -- wAny    wAniy   NapAt   weak;exhausted
 
-    noun     FACiL                     {- wAniy -}          `others` [ "wAn Nuwn_Niyn" ]
-                                                            `gloss`  [ "weak", "exhausted" ],
+    noun     FACI                      {- wAniy -}          `others` [ "wAn Nuwn_Niyn" ]
+                                                            `gloss`  [ "weak", "exhausted" ] ]
+
+ -- ;; mutawAniy_1
+
+ |> "wny" <| [
 
     -- ;; mutawAniy_1
     -- mtwAny  mutawAniy       N0F_Nh  slack;negligent;indifferent
@@ -12900,11 +12920,7 @@ lexicon = listing "Lexicon properties"
     -- why     whay    IV_Ann_Pass_yu  be weakened;be debilitated
 
     verb     HaFCY                     {- >awohaY -}        `others` [ "'awhA PV_h", "'awhay PV_Atn", "whY IV_0_Pass_yu", "'awh PV_ttAw", "wh IV_0hwnyn_yu", "whay IV_Ann_Pass_yu", "whiy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "weaken", "debilitate", "be weakened", "be debilitated" ] ]
-
- -- ;; wAhiy_1
-
- |> "why" <| [
+                                                            `gloss`  [ "weaken", "debilitate", "be weakened", "be debilitated" ],
 
     -- ;; wAhiy_1
     -- wAhy    wAhiy   N0F     feeble;fragile;flimsy     [[wAhiy/ADJ]]
@@ -12914,7 +12930,7 @@ lexicon = listing "Lexicon properties"
     -- wAhy    wAhiy   NapAt   feeble;fragile;flimsy
     -- whA     wuhA    Nap     feeble;fragile;flimsy
 
-    noun     FACiL                     {- wAhiy -}          `others` [ "wuhA Nap", "wAh Nuwn_Niyn NK" ]
+    noun     FACI                      {- wAhiy -}          `others` [ "wuhA Nap", "wAh Nuwn_Niyn NK" ]
                                                             `gloss`  [ "feeble", "fragile", "flimsy" ] ]
 
  -- ;--- wwt

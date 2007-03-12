@@ -151,12 +151,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; tAkosiy~_1
 
- |> "tAks" <| [
+ |> "tks" <| [
 
     -- ;; tAkosiy~_1
     -- tAksy   tAkosiy~        N/At    taxi     [[tAkosiy~/NOUN]]
 
-    noun     Identity |< Iy            {- tAkosiy~ -}       `gloss`  [ "taxi" ] ]
+    noun     FACL |< Iy                {- tAkosiy~ -}       `gloss`  [ "taxi" ] ]
 
  -- ;; tAkiyn_1
 
@@ -289,12 +289,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; tAwn_1
 
- |> "tAwn" <| [
+ |> "twn" <| [
 
     -- ;; tAwn_1
     -- tAwn    tAwn    Nprop   Town
 
-    noun     Identity                  {- tAwn -}           `gloss`  [ "Town" ] ]
+    noun     FACL                      {- tAwn -}           `gloss`  [ "Town" ] ]
 
  -- ;; tAyogA_1
 
@@ -352,12 +352,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; tAyom_1
 
- |> "tAym" <| [
+ |> "tym" <| [
 
     -- ;; tAyom_1
     -- tAym    tAyom   Nprop   TIME
 
-    noun     Identity                  {- tAyom -}          `gloss`  [ "TIME" ] ]
+    noun     FACL                      {- tAyom -}          `gloss`  [ "TIME" ] ]
 
  -- ;; tAyomz_1
 
@@ -1303,11 +1303,7 @@ lexicon = listing "Lexicon properties"
     -- ;; turabiy~_1
     -- trby    turabiy~        Nall    gravedigger     [[turabiy~/ADJ]]
 
-    noun     Identity |< Iy            {- turabiy~ -}       `gloss`  [ "gravedigger" ] ]
-
- -- ;; turAb_1
-
- |> "turAb" <| [
+    noun     Identity |< Iy            {- turabiy~ -}       `gloss`  [ "gravedigger" ],
 
     -- ;; turAb_1
     -- trAb    turAb   N       dirt;soil
@@ -1315,35 +1311,23 @@ lexicon = listing "Lexicon properties"
     -- Atrb    >atorib Nap     dirt;soil
     -- trbAn   tirobAn N       dirt;soil
 
-    noun     Identity                  {- turAb -}          `others` [ "tirbAn N", "'atrib Nap" ]
-                                                            `gloss`  [ "dirt", "soil" ] ]
-
- -- ;; turAbiy~_1
-
- |> "turAb" <| [
+    noun     FuCAL                     {- turAb -}          `others` [ "tirbAn N", "'atrib Nap" ]
+                                                            `gloss`  [ "dirt", "soil" ],
 
     -- ;; turAbiy~_1
     -- trAby   turAbiy~        N0      Turabi
 
-    noun     Identity |< Iy            {- turAbiy~ -}       `gloss`  [ "Turabi" ] ]
-
- -- ;; turAbiy~_2
-
- |> "turAb" <| [
+    noun     FuCAL |< Iy               {- turAbiy~ -}       `gloss`  [ "Turabi" ],
 
     -- ;; turAbiy~_2
     -- trAby   turAbiy~        Nall    dusty;earthy     [[turAbiy~/ADJ]]
 
-    noun     Identity |< Iy            {- turAbiy~ -}       `gloss`  [ "dusty", "earthy" ] ]
-
- -- ;; turAbap_1
-
- |> "turAb" <| [
+    noun     FuCAL |< Iy               {- turAbiy~ -}       `gloss`  [ "dusty", "earthy" ],
 
     -- ;; turAbap_1
     -- trAb    turAb   Nap     dust
 
-    noun     Identity |< aT            {- turAbap -}        `others` [ "turAb Nap" ]
+    noun     FuCAL |< aT               {- turAbap -}        `others` [ "turAb Nap" ]
                                                             `gloss`  [ "dust" ] ]
 
  -- ;; tayorAb_1
@@ -1417,21 +1401,17 @@ lexicon = listing "Lexicon properties"
 
  -- ;; turAv_1
 
- |> "turA_t" <| [
+ |> "tr_t" <| [
 
     -- ;; turAv_1
     -- trAv    turAv   N       heritage;inheritance
 
-    noun     Identity                  {- turAv -}          `gloss`  [ "heritage", "inheritance" ] ]
-
- -- ;; turAviy~_1
-
- |> "turA_t" <| [
+    noun     FuCAL                     {- turAv -}          `gloss`  [ "heritage", "inheritance" ],
 
     -- ;; turAviy~_1
     -- trAvy   turAviy~        Nall    historical;heritage-based;inherited     [[turAviy~/ADJ]]
 
-    noun     Identity |< Iy            {- turAviy~ -}       `gloss`  [ "historical", "heritage-based", "inherited" ] ]
+    noun     FuCAL |< Iy               {- turAviy~ -}       `gloss`  [ "historical", "heritage-based", "inherited" ] ]
 
  -- ;; tarojam_1
 
@@ -2537,16 +2517,12 @@ lexicon = listing "Lexicon properties"
     -- ;; tufol_1
     -- tfl     tufol   N       spittle;saliva
 
-    noun     FuCL                      {- tufol -}          `gloss`  [ "spittle", "saliva" ] ]
-
- -- ;; tufAl_1
-
- |> "tufAl" <| [
+    noun     FuCL                      {- tufol -}          `gloss`  [ "spittle", "saliva" ],
 
     -- ;; tufAl_1
     -- tfAl    tufAl   N       spittle;saliva
 
-    noun     Identity                  {- tufAl -}          `gloss`  [ "spittle", "saliva" ],
+    noun     FuCAL                     {- tufAl -}          `gloss`  [ "spittle", "saliva" ],
 
     -- ;; tafil_1
     -- tfl     tafil   N/ap    malodorous
@@ -3465,6 +3441,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; tAliy_1
 
+ |> "tl" <| [
+
+    -- ;; tAliy_1
+
+    noun     FACI                      {- tAliy -}           ]
+
+ -- ;; tAliy_1
+
  |> "tly" <| [
 
     -- ;; tAliy_1
@@ -3623,16 +3607,12 @@ lexicon = listing "Lexicon properties"
     -- <sttmAm {isotitomAm     NduAt   termination;conclusion
     -- AsttmAm {isotitomAm     NduAt   termination;conclusion
 
-    noun     IstiFCAL                  {- {isotitomAm -}    `gloss`  [ "termination", "conclusion" ] ]
-
- -- ;; tAm~_1
-
- |> "tAmm" <| [
+    noun     IstiFCAL                  {- {isotitomAm -}    `gloss`  [ "termination", "conclusion" ],
 
     -- ;; tAm~_1
     -- tAm     tAm~    N-ap    complete;concluded
 
-    noun     Identity                  {- tAm~ -}           `gloss`  [ "complete", "concluded" ] ]
+    noun     FACL                      {- tAm~ -}           `gloss`  [ "complete", "concluded" ] ]
 
  -- ;; tamArA_1
 
@@ -4599,12 +4579,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; tuwmiy_1
 
- |> "tuwmiy" <| [
+ |> "tm" <| [
 
     -- ;; tuwmiy_1
     -- twmy    tuwmiy  Nprop   Tommy
 
-    noun     Identity                  {- tuwmiy -}         `gloss`  [ "Tommy" ] ]
+    noun     FUCiy                     {- tuwmiy -}         `gloss`  [ "Tommy" ] ]
 
  -- ;; tuwmoyAnuwfiyt$_1
 
@@ -4691,21 +4671,17 @@ lexicon = listing "Lexicon properties"
 
  -- ;; tuwniy_1
 
- |> "tuwniy" <| [
+ |> "tn" <| [
 
     -- ;; tuwniy_1
     -- twny    tuwniy  Nprop   Toni
 
-    noun     Identity                  {- tuwniy -}         `gloss`  [ "Toni" ] ]
-
- -- ;; tuwniy_2
-
- |> "tuwniy" <| [
+    noun     FUCiy                     {- tuwniy -}         `gloss`  [ "Toni" ],
 
     -- ;; tuwniy_2
     -- twny    tuwniy  N0      Toni
 
-    noun     Identity                  {- tuwniy -}         `gloss`  [ "Toni" ] ]
+    noun     FUCiy                     {- tuwniy -}         `gloss`  [ "Toni" ] ]
 
  -- ;--- twh
 

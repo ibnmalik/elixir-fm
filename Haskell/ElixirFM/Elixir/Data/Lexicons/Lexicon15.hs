@@ -963,17 +963,13 @@ lexicon = listing "Lexicon properties"
     -- ;; Dax~_1
     -- Dx      Dax~    N       pumping;injecting
 
-    noun     FaCL                      {- Dax~ -}           `gloss`  [ "pumping", "injecting" ] ]
-
- -- ;; miDax~ap_1
-
- |> "mi.da_h_h" <| [
+    noun     FaCL                      {- Dax~ -}           `gloss`  [ "pumping", "injecting" ],
 
     -- ;; miDax~ap_1
     -- mDx     miDax~  NapAt   pump
     -- mDAx    maDAx~  Ndip    pumps
 
-    noun     Identity |< aT            {- miDax~ap -}       `others` [ "ma.dA_h_h Ndip", "mi.da_h_h NapAt" ]
+    noun     MiFaCL |< aT              {- miDax~ap -}       `others` [ "ma.dA_h_h Ndip", "mi.da_h_h NapAt" ]
                                                             `gloss`  [ "pump", "pumps" ] ]
 
  -- ;--- Dxm
@@ -1044,7 +1040,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; DAd~_1
 
- |> ".dAdd" <| [
+ |> ".ddd" <| [
 
     -- ;; DAd~_1
     -- DAd     DAd~    PV_V    oppose
@@ -1052,12 +1048,8 @@ lexicon = listing "Lexicon properties"
     -- DAd     DAd~    IV_V_yu oppose
     -- DAdd    DAdid   IV_C_yu oppose
 
-    verb     Identity                  {- DAd~ -}           `others` [ ".dAdid IV_C_yu", ".dAdad PV_C" ]
-                                                            `gloss`  [ "oppose" ] ]
-
- -- ;; taDAd~_1
-
- |> "ta.dAdd" <| [
+    verb     FACL                      {- DAd~ -}           `others` [ ".dAdid IV_C_yu", ".dAdad PV_C" ]
+                                                            `gloss`  [ "oppose" ],
 
     -- ;; taDAd~_1
     -- tDAd    taDAd~  PV_V    oppose each other
@@ -1065,7 +1057,7 @@ lexicon = listing "Lexicon properties"
     -- tDAd    taDAd~  IV_V    oppose each other
     -- tDAdd   taDAdid IV_C    oppose each other
 
-    verb     Identity                  {- taDAd~ -}         `others` [ "ta.dAdid IV_C", "ta.dAdad PV_C" ]
+    verb     TaFACL                    {- taDAd~ -}         `others` [ "ta.dAdid IV_C", "ta.dAdad PV_C" ]
                                                             `gloss`  [ "oppose each other" ] ]
 
  -- ;; Did~a_1
@@ -1078,11 +1070,7 @@ lexicon = listing "Lexicon properties"
     -- Dd      Did~    FW-Wa-o against     [[Did~/PREP]]
 
     noun     Identity                  {- Did~a -}          `others` [ ".didd FW-Wa-o" ]
-                                                            `gloss`  [ "against" ] ]
-
- -- ;; Did~_1
-
- |> ".ddd" <| [
+                                                            `gloss`  [ "against" ],
 
     -- ;; Did~_1
     -- Dd      Did~    N       contrary;against;opposed;anti-;counter-
@@ -1119,16 +1107,12 @@ lexicon = listing "Lexicon properties"
     -- ;; mutaDAd~_1
     -- mtDAd   mutaDAd~        N-ap    opposing;contrary;antagonistic     [[mutaDAd~/ADJ]]
 
-    noun     Identity                  {- mutaDAd~ -}       `gloss`  [ "opposing", "contrary", "antagonistic" ] ]
-
- -- ;; taDAd~_2
-
- |> "ta.dAdd" <| [
+    noun     Identity                  {- mutaDAd~ -}       `gloss`  [ "opposing", "contrary", "antagonistic" ],
 
     -- ;; taDAd~_2
     -- tDAd    taDAd~  N/At    ambivalence;contradiction
 
-    noun     Identity                  {- taDAd~ -}         `gloss`  [ "ambivalence", "contradiction" ] ]
+    noun     TaFACL                    {- taDAd~ -}         `gloss`  [ "ambivalence", "contradiction" ] ]
 
  -- ;--- Dr
 
@@ -1257,26 +1241,18 @@ lexicon = listing "Lexicon properties"
     -- Drwry   Daruwriy~       N-ap    necessary;requisite     [[Daruwriy~/ADJ]]
     -- Drwry   Daruwriy~       NAt     necessities     [[Daruwriy~/NOUN]]
 
-    noun     FaCUL |< Iy               {- Daruwriy~ -}      `gloss`  [ "necessary", "requisite", "necessities" ] ]
-
- -- ;; DAr~_1
-
- |> ".dArr" <| [
+    noun     FaCUL |< Iy               {- Daruwriy~ -}      `gloss`  [ "necessary", "requisite", "necessities" ],
 
     -- ;; DAr~_1
     -- DAr     DAr~    N-ap    harmful;injurious;noxious     [[DAr~/ADJ]]
 
-    noun     Identity                  {- DAr~ -}           `gloss`  [ "harmful", "injurious", "noxious" ] ]
-
- -- ;; maDar~ap_1
-
- |> "ma.darr" <| [
+    noun     FACL                      {- DAr~ -}           `gloss`  [ "harmful", "injurious", "noxious" ],
 
     -- ;; maDar~ap_1
     -- mDr     maDar~  NapAt   harm;damage;adversity
     -- mDAr    maDAr~  Ndip    harm;damage;adversities
 
-    noun     Identity |< aT            {- maDar~ap -}       `others` [ "ma.dArr Ndip", "ma.darr NapAt" ]
+    noun     MaFaCL |< aT              {- maDar~ap -}       `others` [ "ma.dArr Ndip", "ma.darr NapAt" ]
                                                             `gloss`  [ "harm", "damage", "adversity", "adversities" ],
 
     -- ;; <iDorAr_1
@@ -1645,16 +1621,12 @@ lexicon = listing "Lexicon properties"
     -- Drws    Duruws  N       molars
 
     noun     FiCL                      {- Diros -}          `others` [ ".duruws N", "'a.drAs N" ]
-                                                            `gloss`  [ "molar", "molars" ] ]
-
- -- ;; DurAs_1
-
- |> ".durAs" <| [
+                                                            `gloss`  [ "molar", "molars" ],
 
     -- ;; DurAs_1
     -- DrAs    DurAs   N       toothache
 
-    noun     Identity                  {- DurAs -}          `gloss`  [ "toothache" ],
+    noun     FuCAL                     {- DurAs -}          `gloss`  [ "toothache" ],
 
     -- ;; Daruws_1
     -- Drws    Daruws  N-ap    fierce;bloody
@@ -1689,17 +1661,13 @@ lexicon = listing "Lexicon properties"
     -- DrT     DaraT   NAt     farts
 
     noun     FaCL |< aT                {- DaroTap -}        `others` [ ".dara.t NAt", ".dar.t Napdu" ]
-                                                            `gloss`  [ "fart", "farts" ] ]
-
- -- ;; DurAT_1
-
- |> ".durA.t" <| [
+                                                            `gloss`  [ "fart", "farts" ],
 
     -- ;; DurAT_1
     -- DrAT    DurAT   N       flatus;farting
     -- DryT    DariyT  N       flatus;farting
 
-    noun     Identity                  {- DurAT -}          `others` [ ".dariy.t N" ]
+    noun     FuCAL                     {- DurAT -}          `others` [ ".dariy.t N" ]
                                                             `gloss`  [ "flatus", "farting" ] ]
 
  -- ;; DaraE_1
@@ -2424,11 +2392,7 @@ lexicon = listing "Lexicon properties"
     -- <DfA'   <iDofA' NAt     granting;bestowal
     -- ADfA'   <iDofA' NAt     granting;bestowal
 
-    noun     HiFCA'                    {- <iDofA' -}        `gloss`  [ "granting", "bestowal" ] ]
-
- -- ;; DAfiy_1
-
- |> ".dfy" <| [
+    noun     HiFCA'                    {- <iDofA' -}        `gloss`  [ "granting", "bestowal" ],
 
     -- ;; DAfiy_1
     -- DAfy    DAfiy   N0F     ample;elaborate
@@ -2437,7 +2401,7 @@ lexicon = listing "Lexicon properties"
     -- DAf     DAf     Nuwn_Niyn       ample;elaborate
     -- DAfy    DAfiy   NapAt   ample;elaborate
 
-    noun     FACiL                     {- DAfiy -}          `others` [ ".dAf Nuwn_Niyn NK" ]
+    noun     FACI                      {- DAfiy -}          `others` [ ".dAf Nuwn_Niyn NK" ]
                                                             `gloss`  [ "ample", "elaborate" ] ]
 
  -- ;; Dal~_1
@@ -2500,28 +2464,20 @@ lexicon = listing "Lexicon properties"
     -- <DlAl   <iDolAl N/At    misleading;deception
     -- ADlAl   <iDolAl N/At    misleading;deception
 
-    noun     HiFCAL                    {- <iDolAl -}        `gloss`  [ "misleading", "deception" ] ]
-
- -- ;; DAl~_1
-
- |> ".dAll" <| [
+    noun     HiFCAL                    {- <iDolAl -}        `gloss`  [ "misleading", "deception" ],
 
     -- ;; DAl~_1
     -- DAl     DAl~    N-ap    erroneous;misguided
     -- DwAl    DawAl~  Ndip    erroneous;misguided
     -- DlAl    Dul~Al  N       erroneous;misguided
 
-    noun     Identity                  {- DAl~ -}           `others` [ ".dawAll Ndip", ".dullAl N" ]
-                                                            `gloss`  [ "erroneous", "misguided" ] ]
-
- -- ;; DAl~ap_1
-
- |> ".dAll" <| [
+    noun     FACL                      {- DAl~ -}           `others` [ ".dawAll Ndip", ".dullAl N" ]
+                                                            `gloss`  [ "erroneous", "misguided" ],
 
     -- ;; DAl~ap_1
     -- DAl     DAl~    Nap     ambition;objective
 
-    noun     Identity |< aT            {- DAl~ap -}         `others` [ ".dAll Nap" ]
+    noun     FACL |< aT                {- DAl~ap -}         `others` [ ".dAll Nap" ]
                                                             `gloss`  [ "ambition", "objective" ],
 
     -- ;; muDal~il_1
@@ -2669,11 +2625,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCL                      {- Dam~-u -}         `imperf` [ FCuL ]
                                                             `others` [ ".dumm IV_V", ".damm PV_V", ".dmum IV_C", ".damam PV_C" ]
-                                                            `gloss`  [ "include", "comprise", "incorporate" ] ]
-
- -- ;; taDAm~_1
-
- |> "ta.dAmm" <| [
+                                                            `gloss`  [ "include", "comprise", "incorporate" ],
 
     -- ;; taDAm~_1
     -- tDAm    taDAm~  PV_V    unite;join forces
@@ -2681,7 +2633,7 @@ lexicon = listing "Lexicon properties"
     -- tDAm    taDAm~  IV_V    unite;join forces
     -- tDAmm   taDAmim IV_C    unite;join forces
 
-    verb     Identity                  {- taDAm~ -}         `others` [ "ta.dAmim IV_C", "ta.dAmam PV_C" ]
+    verb     TaFACL                    {- taDAm~ -}         `others` [ "ta.dAmim IV_C", "ta.dAmam PV_C" ]
                                                             `gloss`  [ "unite", "join forces" ],
 
     -- ;; {inoDam~_1
@@ -2722,30 +2674,22 @@ lexicon = listing "Lexicon properties"
     -- DmA}m   DamA}im Ndip    additions;increases
 
     noun     FaCIL |< aT               {- Damiymap -}       `others` [ ".damiym Nap", ".damA'im Ndip" ]
-                                                            `gloss`  [ "addition", "increase", "additions", "increases" ] ]
-
- -- ;; DAm~_1
-
- |> ".dAmm" <| [
+                                                            `gloss`  [ "addition", "increase", "additions", "increases" ],
 
     -- ;; DAm~_1
     -- DAm     DAm~    N       conjunctive
 
-    noun     Identity                  {- DAm~ -}           `gloss`  [ "conjunctive" ],
+    noun     FACL                      {- DAm~ -}           `gloss`  [ "conjunctive" ],
 
     -- ;; DimAm_1
     -- DmAm    DimAm   N       attachment;joint
 
-    noun     FiCAL                     {- DimAm -}          `gloss`  [ "attachment", "joint" ] ]
-
- -- ;; taDAm~_2
-
- |> "ta.dAmm" <| [
+    noun     FiCAL                     {- DimAm -}          `gloss`  [ "attachment", "joint" ],
 
     -- ;; taDAm~_2
     -- tDAm    taDAm~  N/At    together;joint
 
-    noun     Identity                  {- taDAm~ -}         `gloss`  [ "together", "joint" ],
+    noun     TaFACL                    {- taDAm~ -}         `gloss`  [ "together", "joint" ],
 
     -- ;; {inoDimAm_1
     -- <nDmAm  {inoDimAm       N/At    joining;affiliation;annexation
@@ -3684,10 +3628,18 @@ lexicon = listing "Lexicon properties"
  |> ".d'" <| [
 
     -- ;; muDA'_1
+
+    noun     MuFAL                     {- muDA' -}           ]
+
+ -- ;; muDA'_1
+
+ |> ".dm.d" <| [
+
+    -- ;; muDA'_1
     -- mDA'    muDA'   N0      bright;illuminated     [[muDA'/ADJ]]
     -- mDA'    muDA'   Napdu   bright;illuminated     [[muDA'/ADJ]]
 
-    noun     MuFAL                     {- muDA' -}          `gloss`  [ "bright", "illuminated" ] ]
+    noun     FuCA'                     {- muDA' -}          `gloss`  [ "bright", "illuminated" ] ]
 
  -- ;--- Dwb
 
@@ -3929,11 +3881,7 @@ lexicon = listing "Lexicon properties"
     -- <nDwA'  {inoDiwA'       NAt     seeking refuge;rallying around
     -- AnDwA'  {inoDiwA'       NAt     seeking refuge;rallying around
 
-    noun     InFiCA'                   {- {inoDiwA' -}      `gloss`  [ "seeking refuge", "rallying around" ] ]
-
- -- ;; DAwiy_1
-
- |> ".dwy" <| [
+    noun     InFiCA'                   {- {inoDiwA' -}      `gloss`  [ "seeking refuge", "rallying around" ],
 
     -- ;; DAwiy_1
     -- DAwy    DAwiy   N0F     weak;thin     [[DAwiy/ADJ]]
@@ -3942,8 +3890,12 @@ lexicon = listing "Lexicon properties"
     -- DAw     DAw     Nuwn_Niyn       weak;thin
     -- DAwy    DAwiy   NapAt   weak;thin
 
-    noun     FACiL                     {- DAwiy -}          `others` [ ".dAw Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "weak", "thin" ],
+    noun     FACI                      {- DAwiy -}          `others` [ ".dAw Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "weak", "thin" ] ]
+
+ -- ;; munoDawiy_1
+
+ |> ".dwy" <| [
 
     -- ;; munoDawiy_1
     -- mnDwy   munoDawiy       N0F_Nh  seeking refuge;rallying around     [[munoDawiy/ADJ]]
@@ -4237,18 +4189,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; maDAfap_1
 
- |> "ma.dAf" <| [
+ |> ".df" <| [
 
     -- ;; maDAfap_1
     -- mDAf    maDAf   Nap     guest room;hostel
     -- mDA}f   maDA}if Ndip    guest rooms;hostels
 
-    noun     Identity |< aT            {- maDAfap -}        `others` [ "ma.dA'if Ndip", "ma.dAf Nap" ]
-                                                            `gloss`  [ "guest room", "hostel", "guest rooms", "hostels" ] ]
-
- -- ;; <iDAfap_1
-
- |> ".df" <| [
+    noun     MaFAL |< aT               {- maDAfap -}        `others` [ "ma.dA'if Ndip", "ma.dAf Nap" ]
+                                                            `gloss`  [ "guest room", "hostel", "guest rooms", "hostels" ],
 
     -- ;; <iDAfap_1
     -- <DAf    <iDAf   NapAt   addition;appending
@@ -4355,16 +4303,12 @@ lexicon = listing "Lexicon properties"
     -- ;; Diyq_1
     -- Dyq     Diyq    N       narrowness;anxiety;shortage
 
-    noun     FiCL                      {- Diyq -}           `gloss`  [ "narrowness", "anxiety", "shortage" ] ]
-
- -- ;; Day~iq_1
-
- |> ".dayyiq" <| [
+    noun     FiCL                      {- Diyq -}           `gloss`  [ "narrowness", "anxiety", "shortage" ],
 
     -- ;; Day~iq_1
     -- Dyq     Day~iq  N-ap    narrow;restricted     [[Day~iq/ADJ]]
 
-    noun     Identity                  {- Day~iq -}         `gloss`  [ "narrow", "restricted" ],
+    noun     FaCCiL                    {- Day~iq -}         `gloss`  [ "narrow", "restricted" ],
 
     -- ;; >aDoyaq_1
     -- >Dyq    >aDoyaq Nel     narrower/narrowest;more/most confined

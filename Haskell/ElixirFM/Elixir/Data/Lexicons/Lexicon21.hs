@@ -1011,16 +1011,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qabaliy~_1
     -- qbly    qabaliy~        N-ap    tribal     [[qabaliy~/ADJ]]
 
-    noun     FaCaL |< Iy               {- qabaliy~ -}       `gloss`  [ "tribal" ] ]
-
- -- ;; qubAlap_1
-
- |> "qubAl" <| [
+    noun     FaCaL |< Iy               {- qabaliy~ -}       `gloss`  [ "tribal" ],
 
     -- ;; qubAlap_1
     -- qbAl    qubAl   Nap     in front of;facing     [[qubAl/PREP]]
 
-    noun     Identity |< aT            {- qubAlap -}        `others` [ "qubAl Nap" ]
+    noun     FuCAL |< aT               {- qubAlap -}        `others` [ "qubAl Nap" ]
                                                             `gloss`  [ "in front of", "facing" ],
 
     -- ;; qabAlap_1
@@ -1394,16 +1390,12 @@ lexicon = listing "Lexicon properties"
     -- qtr     qatar   Nap     dust
 
     noun     FaCaL |< aT               {- qatarap -}        `others` [ "qatar Nap" ]
-                                                            `gloss`  [ "dust" ] ]
-
- -- ;; qutAr_1
-
- |> "qutAr" <| [
+                                                            `gloss`  [ "dust" ],
 
     -- ;; qutAr_1
     -- qtAr    qutAr   N       aroma
 
-    noun     Identity                  {- qutAr -}          `gloss`  [ "aroma" ],
+    noun     FuCAL                     {- qutAr -}          `gloss`  [ "aroma" ],
 
     -- ;; taqotiyr_1
     -- tqtyr   taqotiyr        N/At    stinginess;parsimony
@@ -1845,16 +1837,12 @@ lexicon = listing "Lexicon properties"
     -- qHf     qiHaf   Nap     skulls;crania
 
     noun     FiCL                      {- qiHof -}          `others` [ "'aq.hAf N", "qi.haf Nap", "qu.huwf N" ]
-                                                            `gloss`  [ "skull", "cranium", "skulls", "crania" ] ]
-
- -- ;; quHAf_1
-
- |> "qu.hAf" <| [
+                                                            `gloss`  [ "skull", "cranium", "skulls", "crania" ],
 
     -- ;; quHAf_1
     -- qHAf    quHAf   N-ap    torrential     [[quHAf/ADJ]]
 
-    noun     Identity                  {- quHAf -}          `gloss`  [ "torrential" ],
+    noun     FuCAL                     {- quHAf -}          `gloss`  [ "torrential" ],
 
     -- ;; qaH~Afap_1
     -- qHAf    qaH~Af  NapAt   truck;cart
@@ -2075,16 +2063,12 @@ lexicon = listing "Lexicon properties"
     -- ;; miqodAd_1
     -- mqdAd   miqodAd N0      Miqdad
 
-    noun     MiFCAL                    {- miqodAd -}        `gloss`  [ "Miqdad" ] ]
-
- -- ;; miqad~_1
-
- |> "miqadd" <| [
+    noun     MiFCAL                    {- miqodAd -}        `gloss`  [ "Miqdad" ],
 
     -- ;; miqad~_1
     -- mqd     miqad~  N       hacking knife
 
-    noun     Identity                  {- miqad~ -}         `gloss`  [ "hacking knife" ],
+    noun     MiFaCL                    {- miqad~ -}         `gloss`  [ "hacking knife" ],
 
     -- ;; maqoduwd_1
     -- mqdwd   maqoduwd        N-ap    cut in strips
@@ -3450,17 +3434,13 @@ lexicon = listing "Lexicon properties"
     -- qwAryr  qawAriyr        Ndip    vials;flasks;bottles
 
     noun     Identity |< aT            {- qAruwrap -}       `others` [ "qawAriyr Ndip", "qAruwr Napdu" ]
-                                                            `gloss`  [ "vial", "flask", "bottle", "vials", "flasks", "bottles" ] ]
-
- -- ;; maqar~_1
-
- |> "maqarr" <| [
+                                                            `gloss`  [ "vial", "flask", "bottle", "vials", "flasks", "bottles" ],
 
     -- ;; maqar~_1
     -- mqr     maqar~  NduAt   center;headquarters;residence
     -- mqAr    maqAr~  Ndip    centers;headquarters;residences
 
-    noun     Identity                  {- maqar~ -}         `others` [ "maqArr Ndip" ]
+    noun     MaFaCL                    {- maqar~ -}         `others` [ "maqArr Ndip" ]
                                                             `gloss`  [ "center", "headquarters", "residence", "centers", "residences" ],
 
     -- ;; taqoriyr_1
@@ -3490,36 +3470,24 @@ lexicon = listing "Lexicon properties"
     -- <stqrAr {isotiqorAr     NduAt   stability
     -- AstqrAr {isotiqorAr     NduAt   stability
 
-    noun     IstiFCAL                  {- {isotiqorAr -}    `gloss`  [ "stability" ] ]
-
- -- ;; qAr~_1
-
- |> "qArr" <| [
+    noun     IstiFCAL                  {- {isotiqorAr -}    `gloss`  [ "stability" ],
 
     -- ;; qAr~_1
     -- qAr     qAr~    N-ap    settled;fixed     [[qAr~/ADJ]]
 
-    noun     Identity                  {- qAr~ -}           `gloss`  [ "settled", "fixed" ] ]
-
- -- ;; qAr~ap_1
-
- |> "qArr" <| [
+    noun     FACL                      {- qAr~ -}           `gloss`  [ "settled", "fixed" ],
 
     -- ;; qAr~ap_1
     -- qAr     qAr~    Napdu   continent
     -- qAr     qAr~    NAt     continents
 
-    noun     Identity |< aT            {- qAr~ap -}         `others` [ "qArr NAt Napdu" ]
-                                                            `gloss`  [ "continent", "continents" ] ]
-
- -- ;; qAr~iy~_1
-
- |> "qArr" <| [
+    noun     FACL |< aT                {- qAr~ap -}         `others` [ "qArr NAt Napdu" ]
+                                                            `gloss`  [ "continent", "continents" ],
 
     -- ;; qAr~iy~_1
     -- qAry    qAr~iy~ N-ap    continental     [[qAr~iy~/ADJ]]
 
-    noun     Identity |< Iy            {- qAr~iy~ -}        `gloss`  [ "continental" ],
+    noun     FACL |< Iy                {- qAr~iy~ -}        `gloss`  [ "continental" ],
 
     -- ;; muqar~ir_1
     -- mqrr    muqar~ir        Nall    reporter
@@ -3879,16 +3847,12 @@ lexicon = listing "Lexicon properties"
     -- qrAb    qarAb   Nap     affinity;kinship;relationship
 
     noun     FaCAL |< aT               {- qarAbap -}        `others` [ "qarAb Nap" ]
-                                                            `gloss`  [ "affinity", "kinship", "relationship" ] ]
-
- -- ;; qurAbap_1
-
- |> "qurAb" <| [
+                                                            `gloss`  [ "affinity", "kinship", "relationship" ],
 
     -- ;; qurAbap_1
     -- qrAb    qurAb   Nap     almost;nearly
 
-    noun     Identity |< aT            {- qurAbap -}        `others` [ "qurAb Nap" ]
+    noun     FuCAL |< aT               {- qurAbap -}        `others` [ "qurAb Nap" ]
                                                             `gloss`  [ "almost", "nearly" ],
 
     -- ;; >aqorab_1
@@ -4255,18 +4219,14 @@ lexicon = listing "Lexicon properties"
     -- qrdAty  quradAtiy~      Ndu     monkey trainer
     -- qrdAty  quradAtiy~      Nap     monkey trainers     [[quradAtiy~/NOUN]]
 
-    noun     Identity |< Iy            {- quradAtiy~ -}     `gloss`  [ "monkey trainer", "monkey trainers" ] ]
-
- -- ;; qurAd_1
-
- |> "qurAd" <| [
+    noun     Identity |< Iy            {- quradAtiy~ -}     `gloss`  [ "monkey trainer", "monkey trainers" ],
 
     -- ;; qurAd_1
     -- qrAd    qurAd   N       tick
     -- qrAd    qurAd   Nap     tick
     -- qrdAn   qirodAn N       ticks
 
-    noun     Identity                  {- qurAd -}          `others` [ "qirdAn N" ]
+    noun     FuCAL                     {- qurAd -}          `others` [ "qirdAn N" ]
                                                             `gloss`  [ "tick", "ticks" ],
 
     -- ;; maqoruwd_1
@@ -4687,16 +4647,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qariyD_1
     -- qryD    qariyD  N       poetry
 
-    noun     FaCIL                     {- qariyD -}         `gloss`  [ "poetry" ] ]
-
- -- ;; qurADap_1
-
- |> "qurA.d" <| [
+    noun     FaCIL                     {- qariyD -}         `gloss`  [ "poetry" ],
 
     -- ;; qurADap_1
     -- qrAD    qurAD   NapAt   chips;scraps
 
-    noun     Identity |< aT            {- qurADap -}        `others` [ "qurA.d NapAt" ]
+    noun     FuCAL |< aT               {- qurADap -}        `others` [ "qurA.d NapAt" ]
                                                             `gloss`  [ "chips", "scraps" ],
 
     -- ;; qar~ADap_1
@@ -5078,16 +5034,12 @@ lexicon = listing "Lexicon properties"
     -- qrE     quroE   Nap     enlistment;draft
 
     noun     FuCL |< aT                {- quroEap -}        `others` [ "qur` Nap" ]
-                                                            `gloss`  [ "enlistment", "draft" ] ]
-
- -- ;; qurAE_1
-
- |> "qurA`" <| [
+                                                            `gloss`  [ "enlistment", "draft" ],
 
     -- ;; qurAE_1
     -- qrAE    qurAE   N       ringworm
 
-    noun     Identity                  {- qurAE -}          `gloss`  [ "ringworm" ],
+    noun     FuCAL                     {- qurAE -}          `gloss`  [ "ringworm" ],
 
     -- ;; qariyE_1
     -- qryE    qariyE  N/ap    choicest;hero
@@ -6284,11 +6236,7 @@ lexicon = listing "Lexicon properties"
     -- mqrA'   miqorA' Napdu   hospitable
 
     noun     Identity                  {- miqoraY -}        `others` [ "miqrA' Nh Nayn NAn_Nayn Napdu Nhy N0_Nh", "miqrA Nhy", "miqray NAn_Nayn" ]
-                                                            `gloss`  [ "hospitable" ] ]
-
- -- ;; qAriy_1
-
- |> "qry" <| [
+                                                            `gloss`  [ "hospitable" ],
 
     -- ;; qAriy_1
     -- qAry    qAriy   N0F     villager
@@ -6297,7 +6245,7 @@ lexicon = listing "Lexicon properties"
     -- qAr     qAr     Nuwn_Niyn       villager
     -- qAry    qAriy   NapAt   villager
 
-    noun     FACiL                     {- qAriy -}          `others` [ "qAr Nuwn_Niyn NK" ]
+    noun     FACI                      {- qAriy -}          `others` [ "qAr Nuwn_Niyn NK" ]
                                                             `gloss`  [ "villager" ] ]
 
  -- ;; qarawiy~_1
@@ -7393,11 +7341,7 @@ lexicon = listing "Lexicon properties"
     -- mqAsw   muqAsaw NAt     suffering;enduring
 
     noun     Identity                  {- muqAsAp -}        `others` [ "muqAsaw NAt", "muqAsA Napdu", "muqAsay NAt" ]
-                                                            `gloss`  [ "suffering", "enduring" ] ]
-
- -- ;; qAsiy_1
-
- |> "qsy" <| [
+                                                            `gloss`  [ "suffering", "enduring" ],
 
     -- ;; qAsiy_1
     -- qAsy    qAsiy   N0F     harsh;cruel;brutal     [[qAsiy/ADJ]]
@@ -7406,8 +7350,12 @@ lexicon = listing "Lexicon properties"
     -- qAs     qAs     Nuwn_Niyn       harsh;cruel;brutal
     -- qAsy    qAsiy   NapAt   harsh;cruel;brutal
 
-    noun     FACiL                     {- qAsiy -}          `others` [ "qAs Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "harsh", "cruel", "brutal" ],
+    noun     FACI                      {- qAsiy -}          `others` [ "qAs Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "harsh", "cruel", "brutal" ] ]
+
+ -- ;; taqosiyap_1
+
+ |> "qsy" <| [
 
     -- ;; taqosiyap_1
     -- tqsy    taqosiy Nap     tempering;hardening
@@ -7465,16 +7413,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qa$~A$_1
     -- q$A$    qa$~A$  N       non-express;slow train;gleaner
 
-    noun     FaCCAL                    {- qa$~A$ -}         `gloss`  [ "non-express", "slow train", "gleaner" ] ]
-
- -- ;; miqa$~ap_1
-
- |> "miqa^s^s" <| [
+    noun     FaCCAL                    {- qa$~A$ -}         `gloss`  [ "non-express", "slow train", "gleaner" ],
 
     -- ;; miqa$~ap_1
     -- mq$     miqa$~  Napdu   broom;brush
 
-    noun     Identity |< aT            {- miqa$~ap -}       `others` [ "miqa^s^s Napdu" ]
+    noun     MiFaCL |< aT              {- miqa$~ap -}       `others` [ "miqa^s^s Napdu" ]
                                                             `gloss`  [ "broom", "brush" ],
 
     -- ;; qa$~A$ap_1
@@ -7706,16 +7650,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qa$~AT_2
     -- q$AT    qa$~AT  N       robber;brigand
 
-    noun     FaCCAL                    {- qa$~AT -}         `gloss`  [ "robber", "brigand" ] ]
-
- -- ;; qu$AT_1
-
- |> "qu^sA.t" <| [
+    noun     FaCCAL                    {- qa$~AT -}         `gloss`  [ "robber", "brigand" ],
 
     -- ;; qu$AT_1
     -- q$AT    qu$AT   N/At    chip;piece
 
-    noun     Identity                  {- qu$AT -}          `gloss`  [ "chip", "piece" ],
+    noun     FuCAL                     {- qu$AT -}          `gloss`  [ "chip", "piece" ],
 
     -- ;; miqo$aT_1
     -- mq$T    miqo$aT Ndu     eraser
@@ -8064,11 +8004,7 @@ lexicon = listing "Lexicon properties"
     -- qSS     qaS~iS  IV_yu   cut off;trim
 
     verb     FaCCaL                    {- qaS~aS -}         `others` [ "qa.s.si.s IV_yu" ]
-                                                            `gloss`  [ "cut off", "trim" ] ]
-
- -- ;; qAS~_1
-
- |> "qA.s.s" <| [
+                                                            `gloss`  [ "cut off", "trim" ],
 
     -- ;; qAS~_1
     -- qAS     qAS~    PV_V    retaliate against;settle accounts with
@@ -8076,7 +8012,7 @@ lexicon = listing "Lexicon properties"
     -- qAS     qAS~    IV_V_yu retaliate against;settle accounts with
     -- qASS    qASiS   IV_C_yu retaliate against;settle accounts with
 
-    verb     Identity                  {- qAS~ -}           `others` [ "qA.sa.s PV_C", "qA.si.s IV_C_yu" ]
+    verb     FACL                      {- qAS~ -}           `others` [ "qA.sa.s PV_C", "qA.si.s IV_C_yu" ]
                                                             `gloss`  [ "retaliate against", "settle accounts with" ],
 
     -- ;; taqaS~aS_1
@@ -8132,25 +8068,17 @@ lexicon = listing "Lexicon properties"
     -- ;; qaSaSiy~_2
     -- qSSy    qaSaSiy~        Nall    novelist;storyteller     [[qaSaSiy~/ADJ]]
 
-    noun     FaCaL |< Iy               {- qaSaSiy~ -}       `gloss`  [ "novelist", "storyteller" ] ]
-
- -- ;; quSAS_1
-
- |> "qu.sA.s" <| [
+    noun     FaCaL |< Iy               {- qaSaSiy~ -}       `gloss`  [ "novelist", "storyteller" ],
 
     -- ;; quSAS_1
     -- qSAS    quSAS   N       clippings
 
-    noun     Identity                  {- quSAS -}          `gloss`  [ "clippings" ] ]
-
- -- ;; quSASap_1
-
- |> "qu.sA.s" <| [
+    noun     FuCAL                     {- quSAS -}          `gloss`  [ "clippings" ],
 
     -- ;; quSASap_1
     -- qSAS    quSAS   NapAt   clippings
 
-    noun     Identity |< aT            {- quSASap -}        `others` [ "qu.sA.s NapAt" ]
+    noun     FuCAL |< aT               {- quSASap -}        `others` [ "qu.sA.s NapAt" ]
                                                             `gloss`  [ "clippings" ],
 
     -- ;; qaS~AS_1
@@ -8169,16 +8097,12 @@ lexicon = listing "Lexicon properties"
     -- AqASyS  >aqASiyS        Ndip    tales;novellas
 
     noun     Identity |< aT            {- >uqoSuwSap -}     `others` [ "'uq.suw.s Napdu", "'aqA.siy.s Ndip" ]
-                                                            `gloss`  [ "tale", "novella", "tales", "novellas" ] ]
-
- -- ;; miqaS~_1
-
- |> "miqa.s.s" <| [
+                                                            `gloss`  [ "tale", "novella", "tales", "novellas" ],
 
     -- ;; miqaS~_1
     -- mqS     miqaS~  Ndu     scissors;shears
 
-    noun     Identity                  {- miqaS~ -}         `gloss`  [ "scissors", "shears" ] ]
+    noun     MiFaCL                    {- miqaS~ -}         `gloss`  [ "scissors", "shears" ] ]
 
  -- ;; maqAS~_1
 
@@ -8207,17 +8131,13 @@ lexicon = listing "Lexicon properties"
     -- mqAS    muqAS~  NapAt   settlement of accounts;balancing;compensation
 
     noun     Identity |< aT            {- muqAS~ap -}       `others` [ "muqA.s.s NapAt" ]
-                                                            `gloss`  [ "settlement of accounts", "balancing", "compensation" ] ]
-
- -- ;; qAS~_2
-
- |> "qA.s.s" <| [
+                                                            `gloss`  [ "settlement of accounts", "balancing", "compensation" ],
 
     -- ;; qAS~_2
     -- qAS     qAS~    N/ap    novelist
     -- qSAS    quS~AS  N       novelists
 
-    noun     Identity                  {- qAS~ -}           `others` [ "qu.s.sA.s N" ]
+    noun     FACL                      {- qAS~ -}           `others` [ "qu.s.sA.s N" ]
                                                             `gloss`  [ "novelist", "novelists" ],
 
     -- ;; maqoSuwS_1
@@ -8319,17 +8239,9 @@ lexicon = listing "Lexicon properties"
  |> "q.s^g" <| [
 
     -- ;; quSAj_1
-
-    root     Identity                                        ]
-
- -- ;; quSAj_1
-
- |> "qu.sA^g" <| [
-
-    -- ;; quSAj_1
     -- qSAj    quSAj   NduAt   pliers;pincers
 
-    noun     Identity                  {- quSAj -}          `gloss`  [ "pliers", "pincers" ] ]
+    noun     FuCAL                     {- quSAj -}          `gloss`  [ "pliers", "pincers" ] ]
 
  -- ;--- qSd
 
@@ -8389,16 +8301,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qaSodiy~_1
     -- qSdy    qaSodiy~        N-ap    intentional     [[qaSodiy~/ADJ]]
 
-    noun     FaCL |< Iy                {- qaSodiy~ -}       `gloss`  [ "intentional" ] ]
-
- -- ;; quSAd_1
-
- |> "qu.sAd" <| [
+    noun     FaCL |< Iy                {- qaSodiy~ -}       `gloss`  [ "intentional" ],
 
     -- ;; quSAd_1
     -- qSAd    quSAd   N       in front of;opposite
 
-    noun     Identity                  {- quSAd -}          `gloss`  [ "in front of", "opposite" ],
+    noun     FuCAL                     {- quSAd -}          `gloss`  [ "in front of", "opposite" ],
 
     -- ;; qaSiyd_1
     -- qSyd    qaSiyd  N       main point;essence;gist
@@ -8785,16 +8693,12 @@ lexicon = listing "Lexicon properties"
     -- qSAE    qiSAE   N       large bowls;kettles
 
     noun     FaCL |< aT                {- qaSoEap -}        `others` [ "qa.sa` NAt", "qa.s` Napdu", "qi.sa` N", "qi.sA` N" ]
-                                                            `gloss`  [ "large bowl", "kettle", "large bowls", "kettles" ] ]
-
- -- ;; quSAE_1
-
- |> "qu.sA`" <| [
+                                                            `gloss`  [ "large bowl", "kettle", "large bowls", "kettles" ],
 
     -- ;; quSAE_1
     -- qSAE    quSAE   N       cretinism
 
-    noun     Identity                  {- quSAE -}          `gloss`  [ "cretinism" ] ]
+    noun     FuCAL                     {- quSAE -}          `gloss`  [ "cretinism" ] ]
 
  -- ;--- qSf
 
@@ -9147,11 +9051,7 @@ lexicon = listing "Lexicon properties"
     -- <stqSA}y        {isotiqoSA}iy~  N-ap    penetrating;thorough;probing     [[{isotiqoSA}iy~/ADJ]]
     -- AstqSA}y        {isotiqoSA}iy~  N-ap    penetrating;thorough;probing     [[{isotiqoSA}iy~/ADJ]]
 
-    noun     IstiFCA' |< Iy            {- {isotiqoSA}iy~ -} `gloss`  [ "penetrating", "thorough", "probing" ] ]
-
- -- ;; qASiy_1
-
- |> "q.sy" <| [
+    noun     IstiFCA' |< Iy            {- {isotiqoSA}iy~ -} `gloss`  [ "penetrating", "thorough", "probing" ],
 
     -- ;; qASiy_1
     -- qASy    qASiy   N0F     distant;remote     [[qASiy/ADJ]]
@@ -9160,7 +9060,7 @@ lexicon = listing "Lexicon properties"
     -- qAS     qAS     Nuwn_Niyn       distant;remote
     -- qASy    qASiy   NapAt   distant;remote
 
-    noun     FACiL                     {- qASiy -}          `others` [ "qA.s Nuwn_Niyn NK" ]
+    noun     FACI                      {- qASiy -}          `others` [ "qA.s Nuwn_Niyn NK" ]
                                                             `gloss`  [ "distant", "remote" ] ]
 
  -- ;--- qD
@@ -9282,16 +9182,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qaDiyb_2
     -- qDyb    qaDiyb  Ndu     penis
 
-    noun     FaCIL                     {- qaDiyb -}         `gloss`  [ "penis" ] ]
-
- -- ;; quDAbap_1
-
- |> "qu.dAb" <| [
+    noun     FaCIL                     {- qaDiyb -}         `gloss`  [ "penis" ],
 
     -- ;; quDAbap_1
     -- qDAb    quDAb   Nap     trimmings;cut off
 
-    noun     Identity |< aT            {- quDAbap -}        `others` [ "qu.dAb Nap" ]
+    noun     FuCAL |< aT               {- quDAbap -}        `others` [ "qu.dAb Nap" ]
                                                             `gloss`  [ "trimmings", "cut off" ],
 
     -- ;; miqoDab_1
@@ -9323,16 +9219,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qaDoE_1
     -- qDE     qaDoE   N       colic;gripes
 
-    noun     FaCL                      {- qaDoE -}          `gloss`  [ "colic", "gripes" ] ]
-
- -- ;; quDAE_1
-
- |> "qu.dA`" <| [
+    noun     FaCL                      {- qaDoE -}          `gloss`  [ "colic", "gripes" ],
 
     -- ;; quDAE_1
     -- qDAE    quDAE   N       colic;gripes
 
-    noun     Identity                  {- quDAE -}          `gloss`  [ "colic", "gripes" ] ]
+    noun     FuCAL                     {- quDAE -}          `gloss`  [ "colic", "gripes" ] ]
 
  -- ;--- qDf
 
@@ -9644,17 +9536,13 @@ lexicon = listing "Lexicon properties"
     -- <qtDA'  {iqotiDA'       NAt     requirements;exigencies
     -- AqtDA'  {iqotiDA'       NAt     requirements;exigencies
 
-    noun     IFtiCA'                   {- {iqotiDA' -}      `gloss`  [ "requirement", "exigency", "requirements", "exigencies" ] ]
-
- -- ;; qADiy_1
-
- |> "q.dy" <| [
+    noun     IFtiCA'                   {- {iqotiDA' -}      `gloss`  [ "requirement", "exigency", "requirements", "exigencies" ],
 
     -- ;; qADiy_1
     -- qADy    qADiy   NAn_Nayn        executing;performing;decreeing
     -- qADy    qADiy   Napdu   executing;performing;decreeing
 
-    noun     FACiL                     {- qADiy -}          `gloss`  [ "executing", "performing", "decreeing" ],
+    noun     FACI                      {- qADiy -}          `gloss`  [ "executing", "performing", "decreeing" ],
 
     -- ;; qADiy_2
     -- qADy    qADiy   N0F_Nh  judge;magistrate
@@ -9662,8 +9550,12 @@ lexicon = listing "Lexicon properties"
     -- qADy    qADiy   NAn_Nayn        judge;magistrate
     -- qDA     quDA    Nap     judges;magistrates
 
-    noun     FACiL                     {- qADiy -}          `others` [ "qu.dA Nap", "qA.d NK" ]
-                                                            `gloss`  [ "judge", "magistrate", "judges", "magistrates" ],
+    noun     FACI                      {- qADiy -}          `others` [ "qu.dA Nap", "qA.d NK" ]
+                                                            `gloss`  [ "judge", "magistrate", "judges", "magistrates" ] ]
+
+ -- ;; qawADiy_1
+
+ |> "q.dy" <| [
 
     -- ;; qawADiy_1
     -- qwADy   qawADiy N0_Nh   requirements;exigencies
@@ -10716,17 +10608,13 @@ lexicon = listing "Lexicon properties"
     -- qTny    quToniy~        Nap     legumes     [[quToniy~/NOUN]]
 
     noun     FuCL |< Iy |< aT          {- quToniy~ap -}     `others` [ "qu.tniyy Nap" ]
-                                                            `gloss`  [ "legumes" ] ]
-
- -- ;; quTAniy~ap_1
-
- |> "qu.tAn" <| [
+                                                            `gloss`  [ "legumes" ],
 
     -- ;; quTAniy~ap_1
     -- qTAny   quTAniy~        Nap     maize     [[quTAniy~/NOUN]]
     -- qTAny   qiTAniy~        Nap     maize     [[qiTAniy~/NOUN]]
 
-    noun     Identity |< Iy |< aT      {- quTAniy~ap -}     `others` [ "qi.tAniyy Nap", "qu.tAniyy Nap" ]
+    noun     FuCAL |< Iy |< aT         {- quTAniy~ap -}     `others` [ "qi.tAniyy Nap", "qu.tAniyy Nap" ]
                                                             `gloss`  [ "maize" ],
 
     -- ;; qaT~An_1
@@ -11642,18 +11530,14 @@ lexicon = listing "Lexicon properties"
     -- <qtfA'  {iqotifA'       NAt     following;tracking;imitating
     -- AqtfA'  {iqotifA'       NAt     following;tracking;imitating
 
-    noun     IFtiCA'                   {- {iqotifA' -}      `gloss`  [ "following", "tracking", "imitating" ] ]
-
- -- ;; qAfiyap_1
-
- |> "qfy" <| [
+    noun     IFtiCA'                   {- {iqotifA' -}      `gloss`  [ "following", "tracking", "imitating" ],
 
     -- ;; qAfiyap_1
     -- qAfy    qAfiy   Nap     rhyme
     -- qwAfy   qawAfiy N0_Nh   rhymes
     -- qwAf    qawAf   NK      rhymes
 
-    noun     FACiL |< aT               {- qAfiyap -}        `others` [ "qawAfiy N0_Nh", "qAfiy Nap", "qawAf NK" ]
+    noun     FACI |< aT                {- qAfiyap -}        `others` [ "qawAfiy N0_Nh", "qAfiy Nap", "qawAf NK" ]
                                                             `gloss`  [ "rhyme", "rhymes" ] ]
 
  -- ;--- qql
@@ -11732,11 +11616,7 @@ lexicon = listing "Lexicon properties"
     -- ql      qal~    IV_V_Pass_yu    be lessened;be reduced;be diminished
 
     verb     HaFaCL                    {- >aqal~ -}         `others` [ "qill IV_V_yu", "qall IV_V_Pass_yu", "qlil IV_C_yu", "'aqlal PV_C" ]
-                                                            `gloss`  [ "lessen", "reduce", "diminish", "be lessened", "be reduced", "be diminished" ] ]
-
- -- ;; taqAl~_1
-
- |> "taqAll" <| [
+                                                            `gloss`  [ "lessen", "reduce", "diminish", "be lessened", "be reduced", "be diminished" ],
 
     -- ;; taqAl~_1
     -- tqAl    taqAl~  PV_V    despise;scorn
@@ -11744,7 +11624,7 @@ lexicon = listing "Lexicon properties"
     -- tqAl    taqAl~  IV_V    despise;scorn
     -- tqAll   taqAlil IV_C    despise;scorn
 
-    verb     Identity                  {- taqAl~ -}         `others` [ "taqAlal PV_C", "taqAlil IV_C" ]
+    verb     TaFACL                    {- taqAl~ -}         `others` [ "taqAlal PV_C", "taqAlil IV_C" ]
                                                             `gloss`  [ "despise", "scorn" ],
 
     -- ;; {isotaqal~_1
@@ -12335,16 +12215,12 @@ lexicon = listing "Lexicon properties"
     -- qlwE    quluwE  N       strongholds;citadels;forts
 
     noun     FaCL |< aT                {- qaloEap -}        `others` [ "quluw` N", "qilA` N", "qal` Napdu" ]
-                                                            `gloss`  [ "stronghold", "citadel", "fort", "strongholds", "citadels", "forts" ] ]
-
- -- ;; qulAEiy~_1
-
- |> "qulA`" <| [
+                                                            `gloss`  [ "stronghold", "citadel", "fort", "strongholds", "citadels", "forts" ],
 
     -- ;; qulAEiy~_1
     -- qlAEy   qulAEiy~        N-ap    foot-and-mouth (disease)     [[qulAEiy~/ADJ]]
 
-    noun     Identity |< Iy            {- qulAEiy~ -}       `gloss`  [ "foot-and-mouth ( disease )" ],
+    noun     FuCAL |< Iy               {- qulAEiy~ -}       `gloss`  [ "foot-and-mouth ( disease )" ],
 
     -- ;; maqolaE_1
     -- mqlE    maqolaE Ndu     stone quarry
@@ -12444,16 +12320,12 @@ lexicon = listing "Lexicon properties"
     -- qlf     qulaf   N       foreskins
 
     noun     FuCL |< aT                {- qulofap -}        `others` [ "qulaf N", "qulf Nap" ]
-                                                            `gloss`  [ "foreskin", "prepuce", "foreskins" ] ]
-
- -- ;; qulAfap_1
-
- |> "qulAf" <| [
+                                                            `gloss`  [ "foreskin", "prepuce", "foreskins" ],
 
     -- ;; qulAfap_1
     -- qlAf    qulAf   Nap     rind;bark
 
-    noun     Identity |< aT            {- qulAfap -}        `others` [ "qulAf Nap" ]
+    noun     FuCAL |< aT               {- qulAfap -}        `others` [ "qulAf Nap" ]
                                                             `gloss`  [ "rind", "bark" ],
 
     -- ;; >aqolaf_1
@@ -12644,16 +12516,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qalamiy~_1
     -- qlmy    qalamiy~        N-ap    handwritten;by pen     [[qalamiy~/ADJ]]
 
-    noun     FaCaL |< Iy               {- qalamiy~ -}       `gloss`  [ "handwritten", "by pen" ] ]
-
- -- ;; qulAmap_1
-
- |> "qulAm" <| [
+    noun     FaCaL |< Iy               {- qalamiy~ -}       `gloss`  [ "handwritten", "by pen" ],
 
     -- ;; qulAmap_1
     -- qlAm    qulAm   NapAt   clippings;shavings
 
-    noun     Identity |< aT            {- qulAmap -}        `others` [ "qulAm NapAt" ]
+    noun     FuCAL |< aT               {- qulAmap -}        `others` [ "qulAm NapAt" ]
                                                             `gloss`  [ "clippings", "shavings" ],
 
     -- ;; miqolamap_1
@@ -12976,28 +12844,20 @@ lexicon = listing "Lexicon properties"
     -- qmm     qimam   N       summits
 
     noun     FiCL |< aT                {- qim~ap -}         `others` [ "qimm Napdu", "qimam N" ]
-                                                            `gloss`  [ "summit", "summits" ] ]
-
- -- ;; qumAmap_1
-
- |> "qumAm" <| [
+                                                            `gloss`  [ "summit", "summits" ],
 
     -- ;; qumAmap_1
     -- qmAm    qumAm   Nap     rubbish
     -- qmA}m   qamA}im Ndip    rubbish
 
-    noun     Identity |< aT            {- qumAmap -}        `others` [ "qamA'im Ndip", "qumAm Nap" ]
-                                                            `gloss`  [ "rubbish" ] ]
-
- -- ;; miqam~ap_1
-
- |> "miqamm" <| [
+    noun     FuCAL |< aT               {- qumAmap -}        `others` [ "qamA'im Ndip", "qumAm Nap" ]
+                                                            `gloss`  [ "rubbish" ],
 
     -- ;; miqam~ap_1
     -- mqm     miqam~  Nap     broom
     -- mqAm    maqAm~  Ndip    brooms
 
-    noun     Identity |< aT            {- miqam~ap -}       `others` [ "miqamm Nap", "maqAmm Ndip" ]
+    noun     MiFaCL |< aT              {- miqam~ap -}       `others` [ "miqamm Nap", "maqAmm Ndip" ]
                                                             `gloss`  [ "broom", "brooms" ] ]
 
  -- ;--- qmA
@@ -13072,16 +12932,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qamoHiy~_1
     -- qmHy    qamoHiy~        N-ap    wheat     [[qamoHiy~/ADJ]]
 
-    noun     FaCL |< Iy                {- qamoHiy~ -}       `gloss`  [ "wheat" ] ]
-
- -- ;; qumAH_1
-
- |> "qumA.h" <| [
+    noun     FaCL |< Iy                {- qamoHiy~ -}       `gloss`  [ "wheat" ],
 
     -- ;; qumAH_1
     -- qmAH    qumAH   N       coldest winter months
 
-    noun     Identity                  {- qumAH -}          `gloss`  [ "coldest winter months" ],
+    noun     FuCAL                     {- qumAH -}          `gloss`  [ "coldest winter months" ],
 
     -- ;; qam~AH_1
     -- qmAH    qam~AH  Nall    grain merchant
@@ -13376,18 +13232,14 @@ lexicon = listing "Lexicon properties"
     -- qm$     qam~i$  IV_yu   collect;pick up
 
     verb     FaCCaL                    {- qam~a$ -}         `others` [ "qammi^s IV_yu" ]
-                                                            `gloss`  [ "collect", "pick up" ] ]
-
- -- ;; qumA$_1
-
- |> "qumA^s" <| [
+                                                            `gloss`  [ "collect", "pick up" ],
 
     -- ;; qumA$_1
     -- qmA$    qumA$   N       fabric;cloth
     -- >qm$    >aqomi$ Nap     fabrics;cloth
     -- Aqm$    >aqomi$ Nap     fabrics;cloth
 
-    noun     Identity                  {- qumA$ -}          `others` [ "'aqmi^s Nap" ]
+    noun     FuCAL                     {- qumA$ -}          `others` [ "'aqmi^s Nap" ]
                                                             `gloss`  [ "fabric", "cloth", "fabrics" ],
 
     -- ;; qam~A$_1
@@ -14760,11 +14612,7 @@ lexicon = listing "Lexicon properties"
     -- <qtnA'  {iqotinA'       NAt     purchases;acquisitions
     -- AqtnA'  {iqotinA'       NAt     purchases;acquisitions
 
-    noun     IFtiCA'                   {- {iqotinA' -}      `gloss`  [ "purchase", "acquisition", "purchases", "acquisitions" ] ]
-
- -- ;; qAniy_1
-
- |> "qny" <| [
+    noun     IFtiCA'                   {- {iqotinA' -}      `gloss`  [ "purchase", "acquisition", "purchases", "acquisitions" ],
 
     -- ;; qAniy_1
     -- qAny    qAniy   N0F_Nh  owner;possessor
@@ -14772,12 +14620,8 @@ lexicon = listing "Lexicon properties"
     -- qAny    qAniy   NAn_Nayn        owner;possessor
     -- qAny    qAniy   NapAt   owner;possessor
 
-    noun     FACiL                     {- qAniy -}          `others` [ "qAn NK" ]
-                                                            `gloss`  [ "owner", "possessor" ] ]
-
- -- ;; muqotanaY_1
-
- |> "qn" <| [
+    noun     FACI                      {- qAniy -}          `others` [ "qAn NK" ]
+                                                            `gloss`  [ "owner", "possessor" ],
 
     -- ;; muqotanaY_1
     -- mqtnY   muqotanaY       N0      acquisition
@@ -14995,7 +14839,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; maqohaY_1
 
- |> "maqhY" <| [
+ |> "qh" <| [
 
     -- ;; maqohaY_1
     -- mqhY    maqohaY N0      café;coffeehouse
@@ -15004,7 +14848,7 @@ lexicon = listing "Lexicon properties"
     -- mqAhy   maqAhiy N0_Nh   cafés;coffeehouses
     -- mqAh    maqAh   NK      cafés;coffeehouses
 
-    noun     Identity                  {- maqohaY -}        `others` [ "maqhay NAn_Nayn", "maqAh NK", "maqAhiy N0_Nh", "maqhA Nhy" ]
+    noun     MaFCaNY                   {- maqohaY -}        `others` [ "maqhay NAn_Nayn", "maqAh NK", "maqAhiy N0_Nh", "maqhA Nhy" ]
                                                             `gloss`  [ "caf_e", "coffeehouse", "caf_es", "coffeehouses" ] ]
 
  -- ;; maqohAp_1
@@ -15049,11 +14893,7 @@ lexicon = listing "Lexicon properties"
     -- qh      qoh     IV_0hwnyn_yu    have no appetite
 
     verb     HaFCY                     {- >aqohaY -}        `others` [ "'aqhay PV_Atn", "qh IV_0hwnyn_yu", "'aqh PV_ttAw", "'aqhA PV_h", "qhiy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "have no appetite" ] ]
-
- -- ;; qAhiy_1
-
- |> "qhy" <| [
+                                                            `gloss`  [ "have no appetite" ],
 
     -- ;; qAhiy_1
     -- qAhy    qAhiy   N0F     supplied with provisions
@@ -15062,7 +14902,7 @@ lexicon = listing "Lexicon properties"
     -- qAh     qAh     Nuwn_Niyn       supplied with provisions
     -- qAhy    qAhiy   NapAt   supplied with provisions
 
-    noun     FACiL                     {- qAhiy -}          `others` [ "qAh Nuwn_Niyn NK" ]
+    noun     FACI                      {- qAhiy -}          `others` [ "qAh Nuwn_Niyn NK" ]
                                                             `gloss`  [ "supplied with provisions" ] ]
 
  -- ;--- qwb
@@ -16112,14 +15952,18 @@ lexicon = listing "Lexicon properties"
 
  -- ;; maqAl_1
 
- |> "maqAl" <| [
+ |> "ql" <| [
 
     -- ;; maqAl_1
     -- mqAl    maqAl   Ndu     article;essay
     -- mqAl    maqAl   Napdu   article;essay
     -- mqAl    maqAl   NAt     articles;essays
 
-    noun     Identity                  {- maqAl -}          `gloss`  [ "article", "essay", "articles", "essays" ],
+    noun     MaFAL                     {- maqAl -}          `gloss`  [ "article", "essay", "articles", "essays" ] ]
+
+ -- ;; muqAwalap_1
+
+ |> "qwl" <| [
 
     -- ;; muqAwalap_1
     -- mqAwl   muqAwal Nap     deal;bargain;settlement
@@ -16388,16 +16232,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; qay~im_1
 
- |> "qayyim" <| [
+ |> "qym" <| [
 
     -- ;; qay~im_1
     -- qym     qay~im  N-ap    valuable
 
-    noun     Identity                  {- qay~im -}         `gloss`  [ "valuable" ] ]
-
- -- ;; qay~uwm_1
-
- |> "qym" <| [
+    noun     FaCCiL                    {- qay~im -}         `gloss`  [ "valuable" ],
 
     -- ;; qay~uwm_1
     -- qywm    qay~uwm N       Everlasting (God)
@@ -16465,22 +16305,18 @@ lexicon = listing "Lexicon properties"
 
  -- ;; maqAm_1
 
- |> "maqAm" <| [
+ |> "qm" <| [
 
     -- ;; maqAm_1
     -- mqAm    maqAm   NduAt   place;location;situation
 
-    noun     Identity                  {- maqAm -}          `gloss`  [ "place", "location", "situation" ] ]
-
- -- ;; maqAmap_1
-
- |> "maqAm" <| [
+    noun     MaFAL                     {- maqAm -}          `gloss`  [ "place", "location", "situation" ],
 
     -- ;; maqAmap_1
     -- mqAm    maqAm   Napdu   maqama (novel in rhymed prose)
     -- mqAm    maqAm   NAt     maqamat (novels in rhymed prose)
 
-    noun     Identity |< aT            {- maqAmap -}        `others` [ "maqAm NAt Napdu" ]
+    noun     MaFAL |< aT               {- maqAmap -}        `others` [ "maqAm NAt Napdu" ]
                                                             `gloss`  [ "maqama ( novel in rhymed prose )", "maqamat ( novels in rhymed prose )" ] ]
 
  -- ;; >aqowam_1
@@ -16715,12 +16551,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; quwniyap_1
 
- |> "quwniy" <| [
+ |> "qn" <| [
 
     -- ;; quwniyap_1
     -- qwny    quwniy  Nap     Konya
 
-    noun     Identity |< aT            {- quwniyap -}       `others` [ "quwniy Nap" ]
+    noun     FUCiy |< aT               {- quwniyap -}       `others` [ "quwniy Nap" ]
                                                             `gloss`  [ "Konya" ] ]
 
  -- ;--- qwh
@@ -17066,18 +16902,14 @@ lexicon = listing "Lexicon properties"
     -- qy}     qayo}   NF_Nhy  vomiting
     -- qy}     qayo}   N0      vomiting
 
-    noun     FaCL                      {- qayo' -}          `gloss`  [ "vomiting" ] ]
-
- -- ;; quyA'_1
-
- |> "quyA'" <| [
+    noun     FaCL                      {- qayo' -}          `gloss`  [ "vomiting" ],
 
     -- ;; quyA'_1
     -- qyA'    quyA'   N0_Nh   vomit
     -- qyA&    quyA&   Nh      vomit
     -- qyA}    quyA}   Nhy     vomit
 
-    noun     Identity                  {- quyA' -}          `gloss`  [ "vomit" ],
+    noun     FuCAL                     {- quyA' -}          `gloss`  [ "vomit" ],
 
     -- ;; taqay~u'_1
     -- tqy'    taqay~u'        N/At    vomiting
@@ -17418,13 +17250,17 @@ lexicon = listing "Lexicon properties"
 
  -- ;; maqAs_1
 
- |> "maqAs" <| [
+ |> "qs" <| [
 
     -- ;; maqAs_1
     -- mqAs    maqAs   NduAt   measuring;gauging
     -- mqAs    maqAs   NAt     dimensions
 
-    noun     Identity                  {- maqAs -}          `gloss`  [ "measuring", "gauging", "dimensions" ],
+    noun     MaFAL                     {- maqAs -}          `gloss`  [ "measuring", "gauging", "dimensions" ] ]
+
+ -- ;; miqoyAs_1
+
+ |> "qys" <| [
 
     -- ;; miqoyAs_1
     -- mqyAs   miqoyAs Ndu     standard;measure;measurement

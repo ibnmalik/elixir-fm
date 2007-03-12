@@ -339,13 +339,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mArot_1
 
- |> "mArt" <| [
+ |> "mrt" <| [
 
     -- ;; mArot_1
     -- mArt    mArot   N0      March
     -- mArt$ylw        mArt$iyluw      Nprop   Marcelo
 
-    noun     Identity                  {- mArot -}          `others` [ "mArt^siyluw Nprop" ]
+    noun     FACL                      {- mArot -}          `others` [ "mArt^siyluw Nprop" ]
                                                             `gloss`  [ "March", "Marcelo" ] ]
 
  -- ;; mArotin_1
@@ -447,30 +447,22 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mArok_1
 
- |> "mArk" <| [
+ |> "mrk" <| [
 
     -- ;; mArok_1
     -- mArk    mArok   Nprop   Mark
 
-    noun     Identity                  {- mArok -}          `gloss`  [ "Mark" ] ]
-
- -- ;; mArok_2
-
- |> "mArk" <| [
+    noun     FACL                      {- mArok -}          `gloss`  [ "Mark" ],
 
     -- ;; mArok_2
     -- mArk    mArok   NduAt   mark
 
-    noun     Identity                  {- mArok -}          `gloss`  [ "mark" ] ]
-
- -- ;; mArokap_1
-
- |> "mArk" <| [
+    noun     FACL                      {- mArok -}          `gloss`  [ "mark" ],
 
     -- ;; mArokap_1
     -- mArk    mArok   NapAt   trademark
 
-    noun     Identity |< aT            {- mArokap -}        `others` [ "mArk NapAt" ]
+    noun     FACL |< aT                {- mArokap -}        `others` [ "mArk NapAt" ]
                                                             `gloss`  [ "trademark" ] ]
 
  -- ;; mArks_1
@@ -542,9 +534,17 @@ lexicon = listing "Lexicon properties"
  |> "mry" <| [
 
     -- ;; mAriy_1
+
+    noun     FACiL                     {- mAriy -}           ]
+
+ -- ;; mAriy_1
+
+ |> "mr" <| [
+
+    -- ;; mAriy_1
     -- mAry    mAriy   Nprop   Mary
 
-    noun     FACiL                     {- mAriy -}          `gloss`  [ "Mary" ] ]
+    noun     FACI                      {- mAriy -}          `gloss`  [ "Mary" ] ]
 
  -- ;; mAriyA_1
 
@@ -898,12 +898,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mAkos_1
 
- |> "mAks" <| [
+ |> "mks" <| [
 
     -- ;; mAkos_1
     -- mAks    mAkos   Nprop   Max
 
-    noun     Identity                  {- mAkos -}          `gloss`  [ "Max" ] ]
+    noun     FACL                      {- mAkos -}          `gloss`  [ "Max" ] ]
 
  -- ;--- mAkm
 
@@ -1024,13 +1024,13 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mAloTiy~_1
 
- |> "mAl.t" <| [
+ |> "ml.t" <| [
 
     -- ;; mAloTiy~_1
     -- mAlTy   mAloTiy~        Nall    Maltese     [[mAloTiy~/NOUN]]
     -- mAlTy   mAloTiy~        Nall    Maltese     [[mAloTiy~/ADJ]]
 
-    noun     Identity |< Iy            {- mAloTiy~ -}       `gloss`  [ "Maltese" ] ]
+    noun     FACL |< Iy                {- mAloTiy~ -}       `gloss`  [ "Maltese" ] ]
 
  -- ;--- mAlk
 
@@ -1093,6 +1093,14 @@ lexicon = listing "Lexicon properties"
     -- ;; mAliy_1
 
     root     Identity                                        ]
+
+ -- ;; mAliy_1
+
+ |> "ml" <| [
+
+    -- ;; mAliy_1
+
+    noun     FACI                      {- mAliy -}           ]
 
  -- ;; mAliy_1
 
@@ -1282,12 +1290,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mAno$_1
 
- |> "mAn^s" <| [
+ |> "mn^s" <| [
 
     -- ;; mAno$_1
     -- mAn$    mAno$   N0      Manche (English Channel)
 
-    noun     Identity                  {- mAno$ -}          `gloss`  [ "Manche ( English Channel )" ] ]
+    noun     FACL                      {- mAno$ -}          `gloss`  [ "Manche ( English Channel )" ] ]
 
  -- ;; mAno$isotar_1
 
@@ -1512,12 +1520,12 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mAyk_1
 
- |> "mAyk" <| [
+ |> "myk" <| [
 
     -- ;; mAyk_1
     -- mAyk    mAyk    Nprop   Mike
 
-    noun     Identity                  {- mAyk -}           `gloss`  [ "Mike" ] ]
+    noun     FACL                      {- mAyk -}           `gloss`  [ "Mike" ] ]
 
  -- ;; mAyokruwbAS_1
 
@@ -1650,16 +1658,12 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCL                      {- mat~-u -}         `imperf` [ FCuL ]
                                                             `others` [ "mtut IV_C_intr", "matt PV_V_intr", "mutt IV_V_intr", "matat PV_Ct_intr" ]
-                                                            `gloss`  [ "be related by marriage", "be associated" ] ]
-
- -- ;; mAt~ap_1
-
- |> "mAtt" <| [
+                                                            `gloss`  [ "be related by marriage", "be associated" ],
 
     -- ;; mAt~ap_1
     -- mAt     mAt~    Nap     family ties;kinship
 
-    noun     Identity |< aT            {- mAt~ap -}         `others` [ "mAtt Nap" ]
+    noun     FACL |< aT                {- mAt~ap -}         `others` [ "mAtt Nap" ]
                                                             `gloss`  [ "family ties", "kinship" ] ]
 
  -- ;--- mtH
@@ -1934,9 +1938,17 @@ lexicon = listing "Lexicon properties"
  |> "mt" <| [
 
     -- ;; mat~aY_1
+
+    noun     FaCCY                     {- mat~aY -}          ]
+
+ -- ;; mat~aY_1
+
+ |> "mtt" <| [
+
+    -- ;; mat~aY_1
     -- mtY     mat~aY  Nprop   Matthew
 
-    noun     FaCCY                     {- mat~aY -}         `gloss`  [ "Matthew" ] ]
+    noun     MaFCaNY                   {- mat~aY -}         `gloss`  [ "Matthew" ] ]
 
  -- ;--- mv
 
@@ -1960,9 +1972,17 @@ lexicon = listing "Lexicon properties"
  |> "m_t_t" <| [
 
     -- ;; mavAv_1
+
+    noun     FaCAL                     {- mavAv -}           ]
+
+ -- ;; mavAv_1
+
+ |> "m_t_t" <| [
+
+    -- ;; mavAv_1
     -- mvAv    mavAv   N       cosmetic cream or ointment
 
-    noun     FaCAL                     {- mavAv -}          `gloss`  [ "cosmetic cream or ointment" ] ]
+    noun     MaFAL                     {- mavAv -}          `gloss`  [ "cosmetic cream or ointment" ] ]
 
  -- ;--- mvl
 
@@ -2277,17 +2297,13 @@ lexicon = listing "Lexicon properties"
     -- ;; maj~_1
     -- mj      maj~    N       emission;discharge;rejection
 
-    noun     FaCL                      {- maj~ -}           `gloss`  [ "emission", "discharge", "rejection" ] ]
-
- -- ;; mujAj_1
-
- |> "m^g^g" <| [
+    noun     FaCL                      {- maj~ -}           `gloss`  [ "emission", "discharge", "rejection" ],
 
     -- ;; mujAj_1
     -- mjAj    mujAj   N       saliva;spittle
     -- mjAj    mujAj   Nap     saliva;spittle
 
-    noun     MuFAL                     {- mujAj -}          `gloss`  [ "saliva", "spittle" ] ]
+    noun     FuCAL                     {- mujAj -}          `gloss`  [ "saliva", "spittle" ] ]
 
  -- ;--- mjd
 
@@ -3156,16 +3172,12 @@ lexicon = listing "Lexicon properties"
     -- AmHA'   {im~iHA'        NAt     extinction;eradication
 
     noun     InFiCA'                   {- {inomiHA' -}      `others` [ "immi.hA' NAt Nh Nayn NAn_Nayn Nhy N0_Nh" ]
-                                                            `gloss`  [ "extinction", "eradication" ] ]
-
- -- ;; mAHiyap_1
-
- |> "m.hy" <| [
+                                                            `gloss`  [ "extinction", "eradication" ],
 
     -- ;; mAHiyap_1
     -- mAHy    mAHiy   NapAt   eraser
 
-    noun     FACiL |< aT               {- mAHiyap -}        `others` [ "mA.hiy NapAt" ]
+    noun     FACI |< aT                {- mAHiyap -}        `others` [ "mA.hiy NapAt" ]
                                                             `gloss`  [ "eraser" ] ]
 
  -- ;; mamoHuw~_1
@@ -3365,21 +3377,17 @@ lexicon = listing "Lexicon properties"
     -- tmxT    tamax~aT        PV      blow the nose
     -- tmxT    tamax~aT        IV      blow the nose
 
-    verb     TaFaCCaL                  {- tamax~aT -}       `gloss`  [ "blow the nose" ] ]
-
- -- ;; muxAT_1
-
- |> "m_h.t" <| [
+    verb     TaFaCCaL                  {- tamax~aT -}       `gloss`  [ "blow the nose" ],
 
     -- ;; muxAT_1
     -- mxAT    muxAT   N       snot;nasal mucus
 
-    noun     MuFAL                     {- muxAT -}          `gloss`  [ "snot", "nasal mucus" ],
+    noun     FuCAL                     {- muxAT -}          `gloss`  [ "snot", "nasal mucus" ],
 
     -- ;; muxATiy~_1
     -- mxATy   muxATiy~        Nall    snotty;mucous     [[muxATiy~/ADJ]]
 
-    noun     MuFAL |< Iy               {- muxATiy~ -}       `gloss`  [ "snotty", "mucous" ] ]
+    noun     FuCAL |< Iy               {- muxATiy~ -}       `gloss`  [ "snotty", "mucous" ] ]
 
  -- ;; mux~ayoT_1
 
@@ -3476,11 +3484,7 @@ lexicon = listing "Lexicon properties"
     -- mdd     mad~id  IV_yu   extend;stretch out;spread out
 
     verb     FaCCaL                    {- mad~ad -}         `others` [ "maddid IV_yu" ]
-                                                            `gloss`  [ "extend", "stretch out", "spread out" ] ]
-
- -- ;; mAd~_1
-
- |> "mAdd" <| [
+                                                            `gloss`  [ "extend", "stretch out", "spread out" ],
 
     -- ;; mAd~_1
     -- mAd     mAd~    PV_V    delay;procrastinate
@@ -3488,7 +3492,7 @@ lexicon = listing "Lexicon properties"
     -- mAd     mAd~    IV_V_yu delay;procrastinate
     -- mAdd    mAdid   IV_C_yu delay;procrastinate
 
-    verb     Identity                  {- mAd~ -}           `others` [ "mAdid IV_C_yu", "mAdad PV_C" ]
+    verb     FACL                      {- mAd~ -}           `others` [ "mAdid IV_C_yu", "mAdad PV_C" ]
                                                             `gloss`  [ "delay", "procrastinate" ],
 
     -- ;; >amad~_1
@@ -3612,76 +3616,48 @@ lexicon = listing "Lexicon properties"
     -- <stmdAd {isotimodAd     N/At    call for reinforcements
     -- AstmdAd {isotimodAd     N/At    call for reinforcements
 
-    noun     IstiFCAL                  {- {isotimodAd -}    `gloss`  [ "call for reinforcements" ] ]
-
- -- ;; mAd~_2
-
- |> "mAdd" <| [
+    noun     IstiFCAL                  {- {isotimodAd -}    `gloss`  [ "call for reinforcements" ],
 
     -- ;; mAd~_2
     -- mAd     mAd~    N-ap    stretching;creeping     [[mAd~/ADJ]]
 
-    noun     Identity                  {- mAd~ -}           `gloss`  [ "stretching", "creeping" ] ]
-
- -- ;; mAd~ap_1
-
- |> "mAdd" <| [
+    noun     FACL                      {- mAd~ -}           `gloss`  [ "stretching", "creeping" ],
 
     -- ;; mAd~ap_1
     -- mAd     mAd~    Napdu   substance;material
     -- mwAd    mawAd~  Ndip    substances;materials
 
-    noun     Identity |< aT            {- mAd~ap -}         `others` [ "mawAdd Ndip", "mAdd Napdu" ]
-                                                            `gloss`  [ "substance", "material", "substances", "materials" ] ]
-
- -- ;; mAd~ap_2
-
- |> "mAdd" <| [
+    noun     FACL |< aT                {- mAd~ap -}         `others` [ "mawAdd Ndip", "mAdd Napdu" ]
+                                                            `gloss`  [ "substance", "material", "substances", "materials" ],
 
     -- ;; mAd~ap_2
     -- mAd     mAd~    Napdu   subject;topic
     -- mwAd    mawAd~  Ndip    subjects;topics
 
-    noun     Identity |< aT            {- mAd~ap -}         `others` [ "mawAdd Ndip", "mAdd Napdu" ]
-                                                            `gloss`  [ "subject", "topic", "subjects", "topics" ] ]
-
- -- ;; mAd~ap_3
-
- |> "mAdd" <| [
+    noun     FACL |< aT                {- mAd~ap -}         `others` [ "mawAdd Ndip", "mAdd Napdu" ]
+                                                            `gloss`  [ "subject", "topic", "subjects", "topics" ],
 
     -- ;; mAd~ap_3
     -- mAd     mAd~    Napdu   article;paragraph
     -- mwAd    mawAd~  Ndip    articles;paragraphs
 
-    noun     Identity |< aT            {- mAd~ap -}         `others` [ "mawAdd Ndip", "mAdd Napdu" ]
-                                                            `gloss`  [ "article", "paragraph", "articles", "paragraphs" ] ]
-
- -- ;; mAd~iy~_1
-
- |> "mAdd" <| [
+    noun     FACL |< aT                {- mAd~ap -}         `others` [ "mawAdd Ndip", "mAdd Napdu" ]
+                                                            `gloss`  [ "article", "paragraph", "articles", "paragraphs" ],
 
     -- ;; mAd~iy~_1
     -- mAdy    mAd~iy~ N-ap    material;physical     [[mAd~iy~/ADJ]]
 
-    noun     Identity |< Iy            {- mAd~iy~ -}        `gloss`  [ "material", "physical" ] ]
-
- -- ;; mAd~iy~_2
-
- |> "mAdd" <| [
+    noun     FACL |< Iy                {- mAd~iy~ -}        `gloss`  [ "material", "physical" ],
 
     -- ;; mAd~iy~_2
     -- mAdy    mAd~iy~ Nall    materialistic     [[mAd~iy~/ADJ]]
 
-    noun     Identity |< Iy            {- mAd~iy~ -}        `gloss`  [ "materialistic" ] ]
-
- -- ;; mAd~iy~ap_1
-
- |> "mAdd" <| [
+    noun     FACL |< Iy                {- mAd~iy~ -}        `gloss`  [ "materialistic" ],
 
     -- ;; mAd~iy~ap_1
     -- mAdy    mAd~iy~ Nap     materialism     [[mAd~iy~/NOUN]]
 
-    noun     Identity |< Iy |< aT      {- mAd~iy~ap -}      `others` [ "mAddiyy Nap" ]
+    noun     FACL |< Iy |< aT          {- mAd~iy~ap -}      `others` [ "mAddiyy Nap" ]
                                                             `gloss`  [ "materialism" ],
 
     -- ;; mamoduwd_1
@@ -3738,6 +3714,14 @@ lexicon = listing "Lexicon properties"
     -- ;; madAm_1
 
     root     Identity                                        ]
+
+ -- ;; madAm_1
+
+ |> "mdm" <| [
+
+    -- ;; madAm_1
+
+    noun     MaFAL                     {- madAm -}           ]
 
  -- ;; madAm_1
 
@@ -4315,11 +4299,7 @@ lexicon = listing "Lexicon properties"
     -- mrr     morir   IV_C_yu let pass through;make bitter
 
     verb     HaFaCL                    {- >amar~ -}         `others` [ "mirr IV_V_yu", "'amrar PV_C", "mrir IV_C_yu" ]
-                                                            `gloss`  [ "let pass through", "make bitter" ] ]
-
- -- ;; tamAr~_1
-
- |> "tamArr" <| [
+                                                            `gloss`  [ "let pass through", "make bitter" ],
 
     -- ;; tamAr~_1
     -- tmAr    tamAr~  PV_V    dispute with each other
@@ -4327,7 +4307,7 @@ lexicon = listing "Lexicon properties"
     -- tmAr    tamAr~  IV_V    dispute with each other
     -- tmArr   tamArir IV_C    dispute with each other
 
-    verb     Identity                  {- tamAr~ -}         `others` [ "tamArir IV_C", "tamArar PV_C" ]
+    verb     TaFACL                    {- tamAr~ -}         `others` [ "tamArir IV_C", "tamArar PV_C" ]
                                                             `gloss`  [ "dispute with each other" ],
 
     -- ;; {isotamar~_1
@@ -4374,25 +4354,17 @@ lexicon = listing "Lexicon properties"
     -- ;; muruwriy~_1
     -- mrwry   muruwriy~       Nall    traffic     [[muruwriy~/ADJ]]
 
-    noun     FuCUL |< Iy               {- muruwriy~ -}      `gloss`  [ "traffic" ] ]
-
- -- ;; mamar~_1
-
- |> "mamarr" <| [
+    noun     FuCUL |< Iy               {- muruwriy~ -}      `gloss`  [ "traffic" ],
 
     -- ;; mamar~_1
     -- mmr     mamar~  N       passing;expiration
 
-    noun     Identity                  {- mamar~ -}         `gloss`  [ "passing", "expiration" ] ]
-
- -- ;; mamar~_2
-
- |> "mamarr" <| [
+    noun     MaFaCL                    {- mamar~ -}         `gloss`  [ "passing", "expiration" ],
 
     -- ;; mamar~_2
     -- mmr     mamar~  NduAt   passage;corridor
 
-    noun     Identity                  {- mamar~ -}         `gloss`  [ "passage", "corridor" ],
+    noun     MaFaCL                    {- mamar~ -}         `gloss`  [ "passage", "corridor" ],
 
     -- ;; tamoriyr_1
     -- tmryr   tamoriyr        N/At    passing;transfer
@@ -4422,17 +4394,13 @@ lexicon = listing "Lexicon properties"
     -- AstmrAry        {isotimorAriy~  Nap     continuity     [[{isotimorAriy~/NOUN]]
 
     noun     IstiFCAL |< Iy |< aT      {- {isotimorAriy~ap -} `others` [ "istimrAriyy Nap" ]
-                                                            `gloss`  [ "continuity" ] ]
-
- -- ;; mAr~_1
-
- |> "mArr" <| [
+                                                            `gloss`  [ "continuity" ],
 
     -- ;; mAr~_1
     -- mAr     mAr~    Nall    passerby;pedestrian
     -- mAr     mAr~    Nap     pedestrians
 
-    noun     Identity                  {- mAr~ -}           `gloss`  [ "passerby", "pedestrian", "pedestrians" ],
+    noun     FACL                      {- mAr~ -}           `gloss`  [ "passerby", "pedestrian", "pedestrians" ],
 
     -- ;; musotamir~_1
     -- mstmr   musotamir~      Nall    continuous;continuing;incessant     [[musotamir~/ADJ]]
@@ -6057,21 +6025,13 @@ lexicon = listing "Lexicon properties"
     -- mzAH    mizAH   N       joking;jesting
 
     noun     FaCL                      {- mazoH -}          `others` [ "muza.h N", "mizA.h N" ]
-                                                            `gloss`  [ "joking", "jesting" ] ]
-
- -- ;; muzAHap_1
-
- |> "mz.h" <| [
+                                                            `gloss`  [ "joking", "jesting" ],
 
     -- ;; muzAHap_1
     -- mzAH    muzAH   Nap     joking;jesting
 
-    noun     MuFAL |< aT               {- muzAHap -}        `others` [ "muzA.h Nap" ]
-                                                            `gloss`  [ "joking", "jesting" ] ]
-
- -- ;; mazoHap_1
-
- |> "mz.h" <| [
+    noun     FuCAL |< aT               {- muzAHap -}        `others` [ "muzA.h Nap" ]
+                                                            `gloss`  [ "joking", "jesting" ],
 
     -- ;; mazoHap_1
     -- mzH     mazoH   Napdu   joke;prank
@@ -6215,16 +6175,12 @@ lexicon = listing "Lexicon properties"
     -- mzAyA   mazAyA  N0_Nhy  features;advantages
 
     noun     CaL |< Iy |< aT           {- maziy~ap -}       `others` [ "mazAyA N0_Nhy", "maziyy Napdu" ]
-                                                            `gloss`  [ "feature", "advantage", "features", "advantages" ] ]
-
- -- ;; mAziyap_1
-
- |> "mzy" <| [
+                                                            `gloss`  [ "feature", "advantage", "features", "advantages" ],
 
     -- ;; mAziyap_1
     -- mAzy    mAziy   NapAt   merit;virtue;advantage
 
-    noun     FACiL |< aT               {- mAziyap -}        `others` [ "mAziy NapAt" ]
+    noun     FACI |< aT                {- mAziyap -}        `others` [ "mAziy NapAt" ]
                                                             `gloss`  [ "merit", "virtue", "advantage" ] ]
 
  -- ;--- ms
@@ -6247,11 +6203,7 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCL                      {- mas~-a -}         `imperf` [ FCaL ]
                                                             `others` [ "msas IV_C", "mass PV_V IV_V", "masas PV_C" ]
-                                                            `gloss`  [ "touch", "violate", "infringe" ] ]
-
- -- ;; mAs~_1
-
- |> "mAss" <| [
+                                                            `gloss`  [ "touch", "violate", "infringe" ],
 
     -- ;; mAs~_1
     -- mAs     mAs~    PV_V_intr       be in touch with;be in contact with
@@ -6259,12 +6211,8 @@ lexicon = listing "Lexicon properties"
     -- mAs     mAs~    IV_V_intr_yu    be in touch with;be in contact with
     -- mAss    mAsis   IV_C_intr_yu    be in touch with;be in contact with
 
-    verb     Identity                  {- mAs~ -}           `others` [ "mAsis IV_C_intr_yu", "mAsas PV_C_intr" ]
-                                                            `gloss`  [ "be in touch with", "be in contact with" ] ]
-
- -- ;; tamAs~_1
-
- |> "tamAss" <| [
+    verb     FACL                      {- mAs~ -}           `others` [ "mAsis IV_C_intr_yu", "mAsas PV_C_intr" ]
+                                                            `gloss`  [ "be in touch with", "be in contact with" ],
 
     -- ;; tamAs~_1
     -- tmAs    tamAs~  PV_V_intr       be in touch;be in contact
@@ -6272,7 +6220,7 @@ lexicon = listing "Lexicon properties"
     -- tmAs    tamAs~  IV_V_intr       be in touch;be in contact
     -- tmAss   tamAsis IV_C_intr       be in touch;be in contact
 
-    verb     Identity                  {- tamAs~ -}         `others` [ "tamAsis IV_C_intr", "tamAsas PV_C_intr" ]
+    verb     TaFACL                    {- tamAs~ -}         `others` [ "tamAsis IV_C_intr", "tamAsas PV_C_intr" ]
                                                             `gloss`  [ "be in touch", "be in contact" ],
 
     -- ;; mas~_1
@@ -6316,25 +6264,17 @@ lexicon = listing "Lexicon properties"
     -- mmAs    mumAs~  NapAt   contact;adjacency
 
     noun     Identity |< aT            {- mumAs~ap -}       `others` [ "mumAss NapAt" ]
-                                                            `gloss`  [ "contact", "adjacency" ] ]
-
- -- ;; tamAs~_2
-
- |> "tamAss" <| [
+                                                            `gloss`  [ "contact", "adjacency" ],
 
     -- ;; tamAs~_2
     -- tmAs    tamAs~  N/At    mutual contact
 
-    noun     Identity                  {- tamAs~ -}         `gloss`  [ "mutual contact" ] ]
-
- -- ;; mAs~_2
-
- |> "mAss" <| [
+    noun     TaFACL                    {- tamAs~ -}         `gloss`  [ "mutual contact" ],
 
     -- ;; mAs~_2
     -- mAs     mAs~    N-ap    urgent;touching     [[mAs~/ADJ]]
 
-    noun     Identity                  {- mAs~ -}           `gloss`  [ "urgent", "touching" ],
+    noun     FACL                      {- mAs~ -}           `gloss`  [ "urgent", "touching" ],
 
     -- ;; mamosuws_1
     -- mmsws   mamosuws        Nall    tangible     [[mamosuws/ADJ]]
@@ -6949,6 +6889,14 @@ lexicon = listing "Lexicon properties"
  |> "ms" <| [
 
     -- ;; mas~aY_1
+
+    noun     FaCCY                     {- mas~aY -}          ]
+
+ -- ;; mas~aY_1
+
+ |> "mss" <| [
+
+    -- ;; mas~aY_1
     -- msY     mas~aY  PV_0    wish good evening
     -- msA     mas~A   PV_h    wish good evening
     -- msy     mas~ay  PV_Atn  wish good evening
@@ -6959,8 +6907,12 @@ lexicon = listing "Lexicon properties"
     -- msy     mas~ay  IV_Ann_Pass_yu  be wished good evening
     -- ms      mas~    IV_0hwnyn_yu    be wished good evening
 
-    verb     FaCCY                     {- mas~aY -}         `others` [ "massA PV_h", "mass IV_0hwnyn_yu PV_ttAw", "massay PV_Atn IV_Ann_Pass_yu", "massiy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "wish good evening", "be wished good evening" ],
+    verb     MaFCaNY                   {- mas~aY -}         `others` [ "massA PV_h", "mass IV_0hwnyn_yu PV_ttAw", "massay PV_Atn IV_Ann_Pass_yu", "massiy IV_0hAnn_yu" ]
+                                                            `gloss`  [ "wish good evening", "be wished good evening" ] ]
+
+ -- ;; mAsaY_1
+
+ |> "ms" <| [
 
     -- ;; mAsaY_1
     -- mAsY    mAsaY   PV_0    spend the evening
@@ -7290,21 +7242,13 @@ lexicon = listing "Lexicon properties"
     -- ;; ma$iyq_1
     -- m$yq    ma$iyq  N-ap    slender;slim     [[ma$iyq/ADJ]]
 
-    noun     FaCIL                     {- ma$iyq -}         `gloss`  [ "slender", "slim" ] ]
-
- -- ;; mu$Aq_1
-
- |> "m^sq" <| [
+    noun     FaCIL                     {- ma$iyq -}         `gloss`  [ "slender", "slim" ],
 
     -- ;; mu$Aq_1
     -- m$Aq    mu$Aq   N       flax;hemp
     -- m$Aq    mu$Aq   Nap     flax;hemp
 
-    noun     MuFAL                     {- mu$Aq -}          `gloss`  [ "flax", "hemp" ] ]
-
- -- ;; {imoti$Aq_1
-
- |> "m^sq" <| [
+    noun     FuCAL                     {- mu$Aq -}          `gloss`  [ "flax", "hemp" ],
 
     -- ;; {imoti$Aq_1
     -- <mt$Aq  {imoti$Aq       N/At    slenderness
@@ -7531,7 +7475,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; mamo$aY_1
 
- |> "mam^sY" <| [
+ |> "m^s" <| [
 
     -- ;; mamo$aY_1
     -- mm$Y    mamo$aY N0      corridor;promenade
@@ -7540,7 +7484,7 @@ lexicon = listing "Lexicon properties"
     -- mmA$y   mamA$iy N0_Nh   corridors;promenades
     -- mmA$    mamA$   NK      corridors;promenades
 
-    noun     Identity                  {- mamo$aY -}        `others` [ "mamA^s NK", "mam^sA Nhy", "mam^say NAn_Nayn", "mamA^siy N0_Nh" ]
+    noun     MaFCaNY                   {- mamo$aY -}        `others` [ "mamA^s NK", "mam^sA Nhy", "mam^say NAn_Nayn", "mamA^siy N0_Nh" ]
                                                             `gloss`  [ "corridor", "promenade", "corridors", "promenades" ] ]
 
  -- ;; tamA$iy_1
@@ -7562,7 +7506,7 @@ lexicon = listing "Lexicon properties"
     -- m$A     mu$A    Nap     pedestrians
     -- mA$y    mA$iy   NF      on foot     [[mA$iy/ADV]]
 
-    noun     FACiL                     {- mA$iy -}          `others` [ "mu^sA Nap", "mA^s Nuwn_Niyn NK" ]
+    noun     FACI                      {- mA$iy -}          `others` [ "mu^sA Nap", "mA^s Nuwn_Niyn NK" ]
                                                             `gloss`  [ "going", "walking", "infantry", "pedestrians", "on foot" ],
 
     -- ;; mA$iyap_1
@@ -7570,7 +7514,7 @@ lexicon = listing "Lexicon properties"
     -- mwA$y   mawA$iy N0_Nh   livestock;cattle
     -- mwA$    mawA$   NK      livestock;cattle
 
-    noun     FACiL |< aT               {- mA$iyap -}        `others` [ "mA^siy Nap", "mawA^s NK", "mawA^siy N0_Nh" ]
+    noun     FACI |< aT                {- mA$iyap -}        `others` [ "mA^siy Nap", "mawA^s NK", "mawA^siy N0_Nh" ]
                                                             `gloss`  [ "livestock", "cattle" ] ]
 
  -- ;; ma$ow_1
@@ -7668,21 +7612,13 @@ lexicon = listing "Lexicon properties"
     -- ;; maS~AS_1
     -- mSAS    maS~AS  Nall    bloodsucker;extortionist
 
-    noun     FaCCAL                    {- maS~AS -}         `gloss`  [ "bloodsucker", "extortionist" ] ]
-
- -- ;; muSASap_1
-
- |> "m.s.s" <| [
+    noun     FaCCAL                    {- maS~AS -}         `gloss`  [ "bloodsucker", "extortionist" ],
 
     -- ;; muSASap_1
     -- mSAS    muSAS   Nap     sucker
 
-    noun     MuFAL |< aT               {- muSASap -}        `others` [ "mu.sA.s Nap" ]
-                                                            `gloss`  [ "sucker" ] ]
-
- -- ;; maSASap_1
-
- |> "m.s.s" <| [
+    noun     FuCAL |< aT               {- muSASap -}        `others` [ "mu.sA.s Nap" ]
+                                                            `gloss`  [ "sucker" ],
 
     -- ;; maSASap_1
     -- mSAS    maSAS   Nap     screech owl;vampire
@@ -7698,16 +7634,12 @@ lexicon = listing "Lexicon properties"
     -- ;; miS~iyS_1
     -- mSyS    miS~iyS N       string;twine
 
-    noun     FiCCIL                    {- miS~iyS -}        `gloss`  [ "string", "twine" ] ]
-
- -- ;; mimaS~_1
-
- |> "mima.s.s" <| [
+    noun     FiCCIL                    {- miS~iyS -}        `gloss`  [ "string", "twine" ],
 
     -- ;; mimaS~_1
     -- mmS     mimaS~  N       suction pipe;siphon
 
-    noun     Identity                  {- mimaS~ -}         `gloss`  [ "suction pipe", "siphon" ],
+    noun     MiFaCL                    {- mimaS~ -}         `gloss`  [ "suction pipe", "siphon" ],
 
     -- ;; {imotiSAS_1
     -- <mtSAS  {imotiSAS       N/At    absorption;suction
@@ -7921,20 +7853,12 @@ lexicon = listing "Lexicon properties"
     -- ;; maDaD_1
     -- mDD     maDaD   N       suffering;sour milk
 
-    noun     FaCaL                     {- maDaD -}          `gloss`  [ "suffering", "sour milk" ] ]
-
- -- ;; muDAD_1
-
- |> "m.d.d" <| [
+    noun     FaCaL                     {- maDaD -}          `gloss`  [ "suffering", "sour milk" ],
 
     -- ;; muDAD_1
     -- mDAD    muDAD   N       brine;brackish water
 
-    noun     MuFAL                     {- muDAD -}          `gloss`  [ "brine", "brackish water" ] ]
-
- -- ;; maDADap_1
-
- |> "m.d.d" <| [
+    noun     FuCAL                     {- muDAD -}          `gloss`  [ "brine", "brackish water" ],
 
     -- ;; maDADap_1
     -- mDAD    maDAD   Nap     agony
@@ -8019,16 +7943,12 @@ lexicon = listing "Lexicon properties"
     -- mDg     muDag   N       morsels;bites
 
     noun     FuCL |< aT                {- muDogap -}        `others` [ "mu.da.g N", "mu.d.g Nap" ]
-                                                            `gloss`  [ "morsel", "bite", "morsels", "bites" ] ]
-
- -- ;; muDAgap_1
-
- |> "m.d.g" <| [
+                                                            `gloss`  [ "morsel", "bite", "morsels", "bites" ],
 
     -- ;; muDAgap_1
     -- mDAg    muDAg   Nap     chewed;quid
 
-    noun     MuFAL |< aT               {- muDAgap -}        `others` [ "mu.dA.g Nap" ]
+    noun     FuCAL |< aT               {- muDAgap -}        `others` [ "mu.dA.g Nap" ]
                                                             `gloss`  [ "chewed", "quid" ] ]
 
  -- ;--- mDmD
@@ -8191,11 +8111,7 @@ lexicon = listing "Lexicon properties"
     -- <mDA'   <imoDA' NAt     accomplishment;completion
     -- AmDA'   <imoDA' NAt     accomplishment;completion
 
-    noun     HiFCA'                    {- <imoDA' -}        `gloss`  [ "accomplishment", "completion" ] ]
-
- -- ;; mADiy_1
-
- |> "m.dy" <| [
+    noun     HiFCA'                    {- <imoDA' -}        `gloss`  [ "accomplishment", "completion" ],
 
     -- ;; mADiy_1
     -- mADy    mADiy   N0F_Nh  past;bygone     [[mADiy/ADJ]]
@@ -8203,7 +8119,7 @@ lexicon = listing "Lexicon properties"
     -- mADy    mADiy   NAn_Nayn        past;bygone     [[mADiy/ADJ]]
     -- mADy    mADiy   Napdu   past;bygone     [[mADiy/ADJ]]
 
-    noun     FACiL                     {- mADiy -}          `others` [ "mA.d NK" ]
+    noun     FACI                      {- mADiy -}          `others` [ "mA.d NK" ]
                                                             `gloss`  [ "past", "bygone" ],
 
     -- ;; mADiy_2
@@ -8215,8 +8131,12 @@ lexicon = listing "Lexicon properties"
     -- mwADy   mawADiy N0_Nh   incisive;keen;energetic;efficient     [[mawADiy/ADJ]]
     -- mwAD    mawAD   NK      incisive;keen;energetic;efficient     [[mawAD/ADJ]]
 
-    noun     FACiL                     {- mADiy -}          `others` [ "mawA.diy N0_Nh", "mawA.d NK", "mA.d Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "incisive", "keen", "energetic", "efficient" ],
+    noun     FACI                      {- mADiy -}          `others` [ "mawA.diy N0_Nh", "mawA.d NK", "mA.d Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "incisive", "keen", "energetic", "efficient" ] ]
+
+ -- ;; mumoDiy_1
+
+ |> "m.dy" <| [
 
     -- ;; mumoDiy_1
     -- mmDy    mumoDiy N0F_Nh  signatory;signer
@@ -8970,18 +8890,14 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- maEA-u -}         `imperf` [ FCuL ]
                                                             `others` [ "ma`aw PV_Atn", "m`uw IV_0hAnn" ]
-                                                            `gloss`  [ "mew", "meow" ] ]
-
- -- ;; muEA'_1
-
- |> "mu`A'" <| [
+                                                            `gloss`  [ "mew", "meow" ],
 
     -- ;; muEA'_1
     -- mEA'    muEA'   N0_Nh   mewing;meow
     -- mEA&    muEA&   Nh      mewing;meow
     -- mEA}    muEA}   Nhy     mewing;meow
 
-    noun     Identity                  {- muEA' -}          `gloss`  [ "mewing", "meow" ] ]
+    noun     FuCA'                     {- muEA' -}          `gloss`  [ "mewing", "meow" ] ]
 
  -- ;--- mEy
 
@@ -9060,17 +8976,9 @@ lexicon = listing "Lexicon properties"
  |> "m.g_t" <| [
 
     -- ;; mugAv_1
-
-    root     Identity                                        ]
-
- -- ;; mugAv_1
-
- |> "m.g_t" <| [
-
-    -- ;; mugAv_1
     -- mgAv    mugAv   N       root (plant)
 
-    noun     MuFAL                     {- mugAv -}          `gloss`  [ "root ( plant )" ] ]
+    noun     FuCAL                     {- mugAv -}          `gloss`  [ "root ( plant )" ] ]
 
  -- ;--- mgr
 
@@ -10027,20 +9935,12 @@ lexicon = listing "Lexicon properties"
     -- ;; malAl_1
     -- mlAl    malAl   N       boredom;annoyance
 
-    noun     FaCAL                     {- malAl -}          `gloss`  [ "boredom", "annoyance" ] ]
-
- -- ;; mulAl_1
-
- |> "mll" <| [
+    noun     FaCAL                     {- malAl -}          `gloss`  [ "boredom", "annoyance" ],
 
     -- ;; mulAl_1
     -- mlAl    mulAl   N       restlessness
 
-    noun     MuFAL                     {- mulAl -}          `gloss`  [ "restlessness" ] ]
-
- -- ;; malAlap_1
-
- |> "mll" <| [
+    noun     FuCAL                     {- mulAl -}          `gloss`  [ "restlessness" ],
 
     -- ;; malAlap_1
     -- mlAl    malAl   Nap     boredom;impatience
@@ -10333,10 +10233,18 @@ lexicon = listing "Lexicon properties"
  |> "mlw" <| [
 
     -- ;; malAwiy~_1
+
+    noun     FaCAL |< Iy               {- malAwiy~ -}        ]
+
+ -- ;; malAwiy~_1
+
+ |> "mlw" <| [
+
+    -- ;; malAwiy~_1
     -- mlAwy   malAwiy~        Nall    Malawian     [[malAwiy~/NOUN]]
     -- mlAwy   malAwiy~        Nall    Malawian     [[malAwiy~/ADJ]]
 
-    noun     FaCAL |< Iy               {- malAwiy~ -}       `gloss`  [ "Malawian" ] ]
+    noun     MaFAL |< Iy               {- malAwiy~ -}       `gloss`  [ "Malawian" ] ]
 
  -- ;--- mlAy
 
@@ -12947,19 +12855,11 @@ lexicon = listing "Lexicon properties"
  |> "mw'" <| [
 
     -- ;; muwA'_1
-
-    root     Identity                                        ]
-
- -- ;; muwA'_1
-
- |> "mw'" <| [
-
-    -- ;; muwA'_1
     -- mwA'    muwA'   N0_Nh   mewing;meow
     -- mwA&    muwA&   Nh      mewing;meow
     -- mwA}    muwA}   Nhy     mewing;meow
 
-    noun     MuFAL                     {- muwA' -}          `gloss`  [ "mewing", "meow" ] ]
+    noun     FuCAL                     {- muwA' -}          `gloss`  [ "mewing", "meow" ] ]
 
  -- ;; muwArotin_1
 
@@ -13125,7 +13025,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; may~it_1
 
- |> "mayyit" <| [
+ |> "myt" <| [
 
     -- ;; may~it_1
     -- myt     may~it  N-ap    dead
@@ -13134,12 +13034,8 @@ lexicon = listing "Lexicon properties"
     -- mwtY    mawotY  N0      lifeless;inanimate;dead
     -- mwtA    mawotA  Nhy     lifeless;inanimate;dead
 
-    noun     Identity                  {- may~it -}         `others` [ "'amwAt N", "mawtY N0", "mawtA Nhy" ]
-                                                            `gloss`  [ "dead", "lifeless", "inanimate" ] ]
-
- -- ;; mayotap_1
-
- |> "myt" <| [
+    noun     FaCCiL                    {- may~it -}         `others` [ "'amwAt N", "mawtY N0", "mawtA Nhy" ]
+                                                            `gloss`  [ "dead", "lifeless", "inanimate" ],
 
     -- ;; mayotap_1
     -- myt     mayot   Nap     corpse;non-kosher meat
@@ -14120,9 +14016,17 @@ lexicon = listing "Lexicon properties"
  |> "m^sy" <| [
 
     -- ;; muw$iy_1
+
+    noun     MUCiL                     {- muw$iy -}          ]
+
+ -- ;; muw$iy_1
+
+ |> "m^s" <| [
+
+    -- ;; muw$iy_1
     -- mw$y    muw$iy  Nprop   Moshe
 
-    noun     MUCiL                     {- muw$iy -}         `gloss`  [ "Moshe" ] ]
+    noun     FUCiy                     {- muw$iy -}         `gloss`  [ "Moshe" ] ]
 
  -- ;--- mwD
 
@@ -14306,6 +14210,14 @@ lexicon = listing "Lexicon properties"
     -- mwmyA}  muwmoyA}        Nhy     mummy
 
     noun     Identity                  {- muwmoyA' -}       `gloss`  [ "mummy" ] ]
+
+ -- ;; muwmiyap_1
+
+ |> "mm" <| [
+
+    -- ;; muwmiyap_1
+
+    noun     FUCiy |< aT               {- muwmiyap -}        ]
 
  -- ;; muwmiyap_1
 

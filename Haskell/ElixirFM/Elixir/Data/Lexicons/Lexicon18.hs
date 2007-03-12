@@ -34,16 +34,12 @@ lexicon = listing "Lexicon properties"
     -- ;; Eab~_1
     -- Eb      Eab~    N       drinking;quaffing
 
-    noun     FaCL                      {- Eab~ -}           `gloss`  [ "drinking", "quaffing" ] ]
-
- -- ;; EubAb_1
-
- |> "`ubAb" <| [
+    noun     FaCL                      {- Eab~ -}           `gloss`  [ "drinking", "quaffing" ],
 
     -- ;; EubAb_1
     -- EbAb    EubAb   N       ocean waves;flood
 
-    noun     Identity                  {- EubAb -}          `gloss`  [ "ocean waves", "flood" ] ]
+    noun     FuCAL                     {- EubAb -}          `gloss`  [ "ocean waves", "flood" ] ]
 
  -- ;; yaEobuwb_1
 
@@ -2594,6 +2590,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; EAtiy_1
 
+ |> "`t" <| [
+
+    -- ;; EAtiy_1
+
+    noun     FACI                      {- EAtiy -}           ]
+
+ -- ;; EAtiy_1
+
  |> "`ty" <| [
 
     -- ;; EAtiy_1
@@ -2953,16 +2957,12 @@ lexicon = listing "Lexicon properties"
     -- AEjAb   >aEojAb N       admiration;amazement
 
     noun     FaCaL                     {- Eajab -}          `others` [ "'a`^gAb N" ]
-                                                            `gloss`  [ "admiration", "amazement" ] ]
-
- -- ;; EujAb_1
-
- |> "`u^gAb" <| [
+                                                            `gloss`  [ "admiration", "amazement" ],
 
     -- ;; EujAb_1
     -- EjAb    EujAb   N       wonderful;amazing     [[EujAb/ADJ]]
 
-    noun     Identity                  {- EujAb -}          `gloss`  [ "wonderful", "amazing" ],
+    noun     FuCAL                     {- EujAb -}          `gloss`  [ "wonderful", "amazing" ],
 
     -- ;; Eajiyb_1
     -- Ejyb    Eajiyb  N/ap    astonishing;amazing;strange     [[Eajiyb/ADJ]]
@@ -3386,16 +3386,12 @@ lexicon = listing "Lexicon properties"
     -- ;; Eajuwl_1
     -- Ejwl    Eajuwl  N       swift     [[Eajuwl/ADJ]]
 
-    noun     FaCUL                     {- Eajuwl -}         `gloss`  [ "swift" ] ]
-
- -- ;; EujAlap_1
-
- |> "`u^gAl" <| [
+    noun     FaCUL                     {- Eajuwl -}         `gloss`  [ "swift" ],
 
     -- ;; EujAlap_1
     -- EjAl    EujAl   Nap     hasty work
 
-    noun     Identity |< aT            {- EujAlap -}        `others` [ "`u^gAl Nap" ]
+    noun     FuCAL |< aT               {- EujAlap -}        `others` [ "`u^gAl Nap" ]
                                                             `gloss`  [ "hasty work" ],
 
     -- ;; EajolAn_1
@@ -4594,17 +4590,13 @@ lexicon = listing "Lexicon properties"
     -- AEdy    >aEoday NAn_Nayn        greatest enemy
 
     noun     HaFCY                     {- >aEodaY -}        `others` [ "'a`dA Nhy", "'a`day NAn_Nayn" ]
-                                                            `gloss`  [ "greater / greatest enemy", "greatest enemy" ] ]
-
- -- ;; maEodaY_1
-
- |> "ma`dY" <| [
+                                                            `gloss`  [ "greater / greatest enemy", "greatest enemy" ],
 
     -- ;; maEodaY_1
     -- mEdY    maEodaY N0      avoidance;escape
     -- mEdA    maEodA  Nhy     avoidance;escape
 
-    noun     Identity                  {- maEodaY -}        `others` [ "ma`dA Nhy" ]
+    noun     MaFCaNY                   {- maEodaY -}        `others` [ "ma`dA Nhy" ]
                                                             `gloss`  [ "avoidance", "escape" ] ]
 
  -- ;; maEodiyap_1
@@ -4698,11 +4690,7 @@ lexicon = listing "Lexicon properties"
     -- <EtdA}y {iEotidA}iy~    Nall    aggressive;hostile     [[{iEotidA}iy~/ADJ]]
     -- AEtdA}y {iEotidA}iy~    Nall    aggressive;hostile     [[{iEotidA}iy~/ADJ]]
 
-    noun     IFtiCA' |< Iy             {- {iEotidA}iy~ -}   `gloss`  [ "aggressive", "hostile" ] ]
-
- -- ;; EAdiy_1
-
- |> "`dy" <| [
+    noun     IFtiCA' |< Iy             {- {iEotidA}iy~ -}   `gloss`  [ "aggressive", "hostile" ],
 
     -- ;; EAdiy_1
     -- EAdy    EAdiy   N0F     aggressive;hostile     [[EAdiy/ADJ]]
@@ -4713,7 +4701,7 @@ lexicon = listing "Lexicon properties"
     -- EwAdy   EawAdiy N0_Nh   aggressive;hostile
     -- EwAd    EawAd   NK      aggressive;hostile
 
-    noun     FACiL                     {- EAdiy -}          `others` [ "`awAdiy N0_Nh", "`Ad Nuwn_Niyn NK", "`awAd NK" ]
+    noun     FACI                      {- EAdiy -}          `others` [ "`awAdiy N0_Nh", "`Ad Nuwn_Niyn NK", "`awAd NK" ]
                                                             `gloss`  [ "aggressive", "hostile" ],
 
     -- ;; EAdiyap_1
@@ -4721,8 +4709,12 @@ lexicon = listing "Lexicon properties"
     -- EwAdy   EawAdiy N0_Nh   adversities;impediments
     -- EwAd    EawAd   NK      adversities;impediments
 
-    noun     FACiL |< aT               {- EAdiyap -}        `others` [ "`Adiy NapAt", "`awAdiy N0_Nh", "`awAd NK" ]
-                                                            `gloss`  [ "adversity", "impediment", "adversities", "impediments" ],
+    noun     FACI |< aT                {- EAdiyap -}        `others` [ "`Adiy NapAt", "`awAdiy N0_Nh", "`awAd NK" ]
+                                                            `gloss`  [ "adversity", "impediment", "adversities", "impediments" ] ]
+
+ -- ;; muEad~iyap_1
+
+ |> "`dy" <| [
 
     -- ;; muEad~iyap_1
     -- mEdy    muEad~iy        NapAt   ferry;boat
@@ -5160,16 +5152,12 @@ lexicon = listing "Lexicon properties"
     -- ;; EarAr_1
     -- ErAr    EarAr   N0      Arar
 
-    noun     FaCAL                     {- EarAr -}          `gloss`  [ "Arar" ] ]
-
- -- ;; maEar~ap_1
-
- |> "ma`arr" <| [
+    noun     FaCAL                     {- EarAr -}          `gloss`  [ "Arar" ],
 
     -- ;; maEar~ap_1
     -- mEr     maEar~  Nap     scabies;shame;disgrace
 
-    noun     Identity |< aT            {- maEar~ap -}       `others` [ "ma`arr Nap" ]
+    noun     MaFaCL |< aT              {- maEar~ap -}       `others` [ "ma`arr Nap" ]
                                                             `gloss`  [ "scabies", "shame", "disgrace" ],
 
     -- ;; muEotar~_1
@@ -6616,16 +6604,12 @@ lexicon = listing "Lexicon properties"
     -- ;; Earim_1
     -- Erm     Earim   N-ap    violent;powerful
 
-    noun     FaCiL                     {- Earim -}          `gloss`  [ "violent", "powerful" ] ]
-
- -- ;; EurAm_1
-
- |> "`urAm" <| [
+    noun     FaCiL                     {- Earim -}          `gloss`  [ "violent", "powerful" ],
 
     -- ;; EurAm_1
     -- ErAm    EurAm   N       violence;vehemence
 
-    noun     Identity                  {- EurAm -}          `gloss`  [ "violence", "vehemence" ],
+    noun     FuCAL                     {- EurAm -}          `gloss`  [ "violence", "vehemence" ],
 
     -- ;; Euromap_1
     -- Erm     Eurom   Napdu   heap;pile;large amount
@@ -6890,11 +6874,7 @@ lexicon = listing "Lexicon properties"
     -- <stErA' {isotiEorA'     NAt     self-exposure;exhibitionism
     -- AstErA' {isotiEorA'     NAt     self-exposure;exhibitionism
 
-    noun     IstiFCA'                  {- {isotiEorA' -}    `gloss`  [ "self-exposure", "exhibitionism" ] ]
-
- -- ;; EAriy_1
-
- |> "`ry" <| [
+    noun     IstiFCA'                  {- {isotiEorA' -}    `gloss`  [ "self-exposure", "exhibitionism" ],
 
     -- ;; EAriy_1
     -- EAry    EAriy   N0F     naked;bare     [[EAriy/ADJ]]
@@ -6904,12 +6884,8 @@ lexicon = listing "Lexicon properties"
     -- EAry    EAriy   NapAt   naked;bare
     -- ErA     EurA    Nap     naked;bare
 
-    noun     FACiL                     {- EAriy -}          `others` [ "`urA Nap", "`Ar Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "naked", "bare" ] ]
-
- -- ;; muEar~aY_1
-
- |> "`r" <| [
+    noun     FACI                      {- EAriy -}          `others` [ "`urA Nap", "`Ar Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "naked", "bare" ],
 
     -- ;; muEar~aY_1
     -- mErY    muEar~aY        N0      uncovered;exposed     [[muEar~aY/ADJ]]
@@ -7095,16 +7071,12 @@ lexicon = listing "Lexicon properties"
     -- ;; Euz~aY_1
     -- EzY     Euz~aY  N0      Uzza (pagan goddess)
 
-    noun     FuCLY                     {- Euz~aY -}         `gloss`  [ "Uzza ( pagan goddess )" ] ]
-
- -- ;; maEaz~ap_1
-
- |> "ma`azz" <| [
+    noun     FuCLY                     {- Euz~aY -}         `gloss`  [ "Uzza ( pagan goddess )" ],
 
     -- ;; maEaz~ap_1
     -- mEz     maEaz~  Nap     affection;esteem
 
-    noun     Identity |< aT            {- maEaz~ap -}       `others` [ "ma`azz Nap" ]
+    noun     MaFaCL |< aT              {- maEaz~ap -}       `others` [ "ma`azz Nap" ]
                                                             `gloss`  [ "affection", "esteem" ] ]
 
  -- ;; mawAEiziyz_1
@@ -8363,11 +8335,7 @@ lexicon = listing "Lexicon properties"
     -- mAEsA   mAEasA  FW-Wa-n~a       what perhaps     [[mA/INTERROG_PART+EasA/FUNC_WORD]]
 
     noun     FaCY                      {- EasaY -}          `others` [ "mA`asA FW-Wa-n~a", "`asA FW-Wa-n~a", "mA`asY FW-Wa" ]
-                                                            `gloss`  [ "perhaps", "what perhaps" ] ]
-
- -- ;; EAsiy_1
-
- |> "`sy" <| [
+                                                            `gloss`  [ "perhaps", "what perhaps" ],
 
     -- ;; EAsiy_1
     -- EAsy    EAsiy   N0F     withered     [[EAsiy/ADJ]]
@@ -8376,12 +8344,8 @@ lexicon = listing "Lexicon properties"
     -- EAs     EAs     Nuwn_Niyn       withered
     -- EAsy    EAsiy   NapAt   withered
 
-    noun     FACiL                     {- EAsiy -}          `others` [ "`As Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "withered" ] ]
-
- -- ;; Easiy~_1
-
- |> "`s" <| [
+    noun     FACI                      {- EAsiy -}          `others` [ "`As Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "withered" ],
 
     -- ;; Easiy~_1
     -- Esy     Easiy~  Nall    capable;suited;able     [[Easiy~/ADJ]]
@@ -8612,16 +8576,12 @@ lexicon = listing "Lexicon properties"
     -- E$r     Ea$ar   NAt     scores;tens;dozens
 
     noun     FaCaL |< At               {- Ea$arAt -}        `others` [ "`a^sar NAt" ]
-                                                            `gloss`  [ "scores", "tens", "dozens" ] ]
-
- -- ;; Eu$Ariy~_1
-
- |> "`u^sAr" <| [
+                                                            `gloss`  [ "scores", "tens", "dozens" ],
 
     -- ;; Eu$Ariy~_1
     -- E$Ary   Eu$Ariy~        Nall    tenfold;consisting of ten     [[Eu$Ariy~/ADJ]]
 
-    noun     Identity |< Iy            {- Eu$Ariy~ -}       `gloss`  [ "tenfold", "consisting of ten" ] ]
+    noun     FuCAL |< Iy               {- Eu$Ariy~ -}       `gloss`  [ "tenfold", "consisting of ten" ] ]
 
  -- ;; Ea$orAwiy_1
 
@@ -9163,34 +9123,22 @@ lexicon = listing "Lexicon properties"
     -- ESA}b   EaSA}ib Ndip    gangs;bands
 
     noun     FiCAL |< aT               {- EiSAbap -}        `others` [ "`a.sA'ib Ndip", "`i.sAb NAt Napdu" ]
-                                                            `gloss`  [ "gang", "band", "gangs", "bands" ] ]
-
- -- ;; EuSAb_1
-
- |> "`u.sAb" <| [
+                                                            `gloss`  [ "gang", "band", "gangs", "bands" ],
 
     -- ;; EuSAb_1
     -- ESAb    EuSAb   N       neurosis
 
-    noun     Identity                  {- EuSAb -}          `gloss`  [ "neurosis" ] ]
-
- -- ;; EuSAbiy~_1
-
- |> "`u.sAb" <| [
+    noun     FuCAL                     {- EuSAb -}          `gloss`  [ "neurosis" ],
 
     -- ;; EuSAbiy~_1
     -- ESAby   EuSAbiy~        Nall    neurotic     [[EuSAbiy~/ADJ]]
 
-    noun     Identity |< Iy            {- EuSAbiy~ -}       `gloss`  [ "neurotic" ] ]
-
- -- ;; EuSAbiy~ap_1
-
- |> "`u.sAb" <| [
+    noun     FuCAL |< Iy               {- EuSAbiy~ -}       `gloss`  [ "neurotic" ],
 
     -- ;; EuSAbiy~ap_1
     -- ESAby   EuSAbiy~        Nap     neurosis     [[EuSAbiy~/NOUN]]
 
-    noun     Identity |< Iy |< aT      {- EuSAbiy~ap -}     `others` [ "`u.sAbiyy Nap" ]
+    noun     FuCAL |< Iy |< aT         {- EuSAbiy~ap -}     `others` [ "`u.sAbiyy Nap" ]
                                                             `gloss`  [ "neurosis" ],
 
     -- ;; taEoSiyb_1
@@ -9341,17 +9289,13 @@ lexicon = listing "Lexicon properties"
     -- ESyr    EaSiyr  N       juice;extract
     -- ESyr    EaSiyr  Nap     juice;extract
 
-    noun     FaCIL                     {- EaSiyr -}         `gloss`  [ "juice", "extract" ] ]
-
- -- ;; EuSAr_1
-
- |> "`u.sAr" <| [
+    noun     FaCIL                     {- EaSiyr -}         `gloss`  [ "juice", "extract" ],
 
     -- ;; EuSAr_1
     -- ESAr    EuSAr   N       juice;sap
     -- ESAr    EuSAr   Nap     juice;sap
 
-    noun     Identity                  {- EuSAr -}          `gloss`  [ "juice", "sap" ],
+    noun     FuCAL                     {- EuSAr -}          `gloss`  [ "juice", "sap" ],
 
     -- ;; EaS~Arap_1
     -- ESAr    EaS~Ar  NapAt   press;wringer
@@ -9446,16 +9390,12 @@ lexicon = listing "Lexicon properties"
     -- ESf     EaSof   Napdu   gust of wind;blast
 
     noun     FaCL |< aT                {- EaSofap -}        `others` [ "`a.sf Napdu" ]
-                                                            `gloss`  [ "gust of wind", "blast" ] ]
-
- -- ;; EuSAfap_1
-
- |> "`u.sAf" <| [
+                                                            `gloss`  [ "gust of wind", "blast" ],
 
     -- ;; EuSAfap_1
     -- ESAf    EuSAf   Nap     chaff;straw
 
-    noun     Identity |< aT            {- EuSAfap -}        `others` [ "`u.sAf Nap" ]
+    noun     FuCAL |< aT               {- EuSAfap -}        `others` [ "`u.sAf Nap" ]
                                                             `gloss`  [ "chaff", "straw" ],
 
     -- ;; EASif_1
@@ -9923,11 +9863,7 @@ lexicon = listing "Lexicon properties"
     -- <stESA' {isotiEoSA'     NAt     failures;malfunctions
     -- AstESA' {isotiEoSA'     NAt     failures;malfunctions
 
-    noun     IstiFCA'                  {- {isotiEoSA' -}    `gloss`  [ "failure", "malfunction", "failures", "malfunctions" ] ]
-
- -- ;; EASiy_1
-
- |> "`.sy" <| [
+    noun     IstiFCA'                  {- {isotiEoSA' -}    `gloss`  [ "failure", "malfunction", "failures", "malfunctions" ],
 
     -- ;; EASiy_1
     -- EASy    EASiy   N0F     rebellious;insubordinate     [[EASiy/ADJ]]
@@ -9937,18 +9873,22 @@ lexicon = listing "Lexicon properties"
     -- EASy    EASiy   NapAt   rebellious;insubordinate
     -- ESA     EuSA    Nap     rebellious;insubordinate
 
-    noun     FACiL                     {- EASiy -}          `others` [ "`u.sA Nap", "`A.s Nuwn_Niyn NK" ]
+    noun     FACI                      {- EASiy -}          `others` [ "`u.sA Nap", "`A.s Nuwn_Niyn NK" ]
                                                             `gloss`  [ "rebellious", "insubordinate" ],
 
     -- ;; EASiy_2
     -- EASy    EASiy   N0      Orontes
 
-    noun     FACiL                     {- EASiy -}          `gloss`  [ "Orontes" ],
+    noun     FACI                      {- EASiy -}          `gloss`  [ "Orontes" ],
 
     -- ;; EASiy_3
     -- EASy    EASiy   N0      Assi
 
-    noun     FACiL                     {- EASiy -}          `gloss`  [ "Assi" ],
+    noun     FACI                      {- EASiy -}          `gloss`  [ "Assi" ] ]
+
+ -- ;; mutaEaS~iy_1
+
+ |> "`.sy" <| [
 
     -- ;; mutaEaS~iy_1
     -- mtESy   mutaEaS~iy      N0F_Nh  difficult;incurable     [[mutaEaS~iy/ADJ]]
@@ -10164,16 +10104,12 @@ lexicon = listing "Lexicon properties"
     -- ;; EaDaliy~_1
     -- EDly    EaDaliy~        N-ap    muscular     [[EaDaliy~/ADJ]]
 
-    noun     FaCaL |< Iy               {- EaDaliy~ -}       `gloss`  [ "muscular" ] ]
-
- -- ;; EuDAl_1
-
- |> "`u.dAl" <| [
+    noun     FaCaL |< Iy               {- EaDaliy~ -}       `gloss`  [ "muscular" ],
 
     -- ;; EuDAl_1
     -- EDAl    EuDAl   N-ap    chronic;incurable
 
-    noun     Identity                  {- EuDAl -}          `gloss`  [ "chronic", "incurable" ],
+    noun     FuCAL                     {- EuDAl -}          `gloss`  [ "chronic", "incurable" ],
 
     -- ;; muEoDil_1
     -- mEDl    muEoDil Nall    problematic;enigmatic     [[muEoDil/ADJ]]
@@ -10466,16 +10402,12 @@ lexicon = listing "Lexicon properties"
     -- ;; EaTos_1
     -- ETs     EaTos   N       sneezing
 
-    noun     FaCL                      {- EaTos -}          `gloss`  [ "sneezing" ] ]
-
- -- ;; EuTAs_1
-
- |> "`u.tAs" <| [
+    noun     FaCL                      {- EaTos -}          `gloss`  [ "sneezing" ],
 
     -- ;; EuTAs_1
     -- ETAs    EuTAs   N       sneezing
 
-    noun     Identity                  {- EuTAs -}          `gloss`  [ "sneezing" ],
+    noun     FuCAL                     {- EuTAs -}          `gloss`  [ "sneezing" ],
 
     -- ;; EaTosap_1
     -- ETs     EaTos   Napdu   sneeze
@@ -11562,16 +11494,12 @@ lexicon = listing "Lexicon properties"
     -- EfAr    Eaf~Ar  NapAt   sprayer;atomizer
 
     noun     FaCCAL |< aT              {- Eaf~Arap -}       `others` [ "`affAr NapAt" ]
-                                                            `gloss`  [ "sprayer", "atomizer" ] ]
-
- -- ;; EufAr_1
-
- |> "`ufAr" <| [
+                                                            `gloss`  [ "sprayer", "atomizer" ],
 
     -- ;; EufAr_1
     -- EfAr    EufAr   N       dust
 
-    noun     Identity                  {- EufAr -}          `gloss`  [ "dust" ],
+    noun     FuCAL                     {- EufAr -}          `gloss`  [ "dust" ],
 
     -- ;; Euforap_1
     -- Efr     Eufor   Nap     dust-color
@@ -11707,16 +11635,12 @@ lexicon = listing "Lexicon properties"
     -- ;; Eafo$_2
     -- Ef$     Eafo$   N       trash
 
-    noun     FaCL                      {- Eafo$ -}          `gloss`  [ "trash" ] ]
-
- -- ;; EufA$ap_1
-
- |> "`ufA^s" <| [
+    noun     FaCL                      {- Eafo$ -}          `gloss`  [ "trash" ],
 
     -- ;; EufA$ap_1
     -- EfA$    EufA$   Nap     rubbish
 
-    noun     Identity |< aT            {- EufA$ap -}        `others` [ "`ufA^s Nap" ]
+    noun     FuCAL |< aT               {- EufA$ap -}        `others` [ "`ufA^s Nap" ]
                                                             `gloss`  [ "rubbish" ] ]
 
  -- ;--- EfS
@@ -12052,11 +11976,7 @@ lexicon = listing "Lexicon properties"
     -- <stEfA' {isotiEofA'     NAt     apologies;resignations
     -- AstEfA' {isotiEofA'     NAt     apologies;resignations
 
-    noun     IstiFCA'                  {- {isotiEofA' -}    `gloss`  [ "apology", "resignation", "apologies", "resignations" ] ]
-
- -- ;; EAfiy_1
-
- |> "`fy" <| [
+    noun     IstiFCA'                  {- {isotiEofA' -}    `gloss`  [ "apology", "resignation", "apologies", "resignations" ],
 
     -- ;; EAfiy_1
     -- EAfy    EAfiy   N0F     effaced;obliterated     [[EAfiy/ADJ]]
@@ -12065,18 +11985,14 @@ lexicon = listing "Lexicon properties"
     -- EAf     EAf     Nuwn_Niyn       effaced;obliterated
     -- EAfy    EAfiy   NapAt   effaced;obliterated
 
-    noun     FACiL                     {- EAfiy -}          `others` [ "`Af Nuwn_Niyn NK" ]
+    noun     FACI                      {- EAfiy -}          `others` [ "`Af Nuwn_Niyn NK" ]
                                                             `gloss`  [ "effaced", "obliterated" ],
 
     -- ;; EAfiyap_1
     -- EAfy    EAfiy   Nap     good health
 
-    noun     FACiL |< aT               {- EAfiyap -}        `others` [ "`Afiy Nap" ]
-                                                            `gloss`  [ "good health" ] ]
-
- -- ;; muEAfaY_1
-
- |> "`f" <| [
+    noun     FACI |< aT                {- EAfiyap -}        `others` [ "`Afiy Nap" ]
+                                                            `gloss`  [ "good health" ],
 
     -- ;; muEAfaY_1
     -- mEAfY   muEAfaY N0      exempted;excused;healthy     [[muEAfaY/ADJ]]
@@ -12169,16 +12085,12 @@ lexicon = listing "Lexicon properties"
     -- >Eq     >aEaq~  Nel     irreverent;disobedient     [[>aEaq~/ADJ]]
     -- AEq     >aEaq~  Nel     irreverent;disobedient
 
-    noun     HaFaCL                    {- >aEaq~ -}         `gloss`  [ "irreverent", "disobedient" ] ]
-
- -- ;; EAq~_1
-
- |> "`Aqq" <| [
+    noun     HaFaCL                    {- >aEaq~ -}         `gloss`  [ "irreverent", "disobedient" ],
 
     -- ;; EAq~_1
     -- EAq     EAq~    Nall    disobedient;irreverent     [[EAq~/ADJ]]
 
-    noun     Identity                  {- EAq~ -}           `gloss`  [ "disobedient", "irreverent" ] ]
+    noun     FACL                      {- EAq~ -}           `gloss`  [ "disobedient", "irreverent" ] ]
 
  -- ;--- Eqb
 
@@ -12263,20 +12175,12 @@ lexicon = listing "Lexicon properties"
     -- ;; Eaqiyb_1
     -- Eqyb    Eaqiyb  N-ap    subsequent;following
 
-    noun     FaCIL                     {- Eaqiyb -}         `gloss`  [ "subsequent", "following" ] ]
-
- -- ;; EuqAb_1
-
- |> "`uqAb" <| [
+    noun     FaCIL                     {- Eaqiyb -}         `gloss`  [ "subsequent", "following" ],
 
     -- ;; EuqAb_1
     -- EqAb    EuqAb   N0      Uqab
 
-    noun     Identity                  {- EuqAb -}          `gloss`  [ "Uqab" ] ]
-
- -- ;; EuqAb_2
-
- |> "`uqAb" <| [
+    noun     FuCAL                     {- EuqAb -}          `gloss`  [ "Uqab" ],
 
     -- ;; EuqAb_2
     -- EqAb    EuqAb   N       eagle
@@ -12284,26 +12188,18 @@ lexicon = listing "Lexicon properties"
     -- AEqb    >aEoqub N       eagles
     -- EqbAn   EiqobAn N       eagles
 
-    noun     Identity                  {- EuqAb -}          `others` [ "'a`qub N", "`iqbAn N" ]
-                                                            `gloss`  [ "eagle", "eagles" ] ]
-
- -- ;; EuqAb_3
-
- |> "`uqAb" <| [
+    noun     FuCAL                     {- EuqAb -}          `others` [ "'a`qub N", "`iqbAn N" ]
+                                                            `gloss`  [ "eagle", "eagles" ],
 
     -- ;; EuqAb_3
     -- EqAb    EuqAb   N0      Uqab
 
-    noun     Identity                  {- EuqAb -}          `gloss`  [ "Uqab" ] ]
-
- -- ;; EuqAbiy~_1
-
- |> "`uqAb" <| [
+    noun     FuCAL                     {- EuqAb -}          `gloss`  [ "Uqab" ],
 
     -- ;; EuqAbiy~_1
     -- EqAby   EuqAbiy~        Nall    aquiline;eagle-like     [[EuqAbiy~/ADJ]]
 
-    noun     Identity |< Iy            {- EuqAbiy~ -}       `gloss`  [ "aquiline", "eagle-like" ] ]
+    noun     FuCAL |< Iy               {- EuqAbiy~ -}       `gloss`  [ "aquiline", "eagle-like" ] ]
 
  -- ;; Euqay~ib_1
 
@@ -13267,16 +13163,12 @@ lexicon = listing "Lexicon properties"
     -- EqA}m   EaqA}im Ndip    sterile
 
     noun     FaCIL                     {- Eaqiym -}         `others` [ "`iqAm N", "`aqA'im Ndip", "`uqum N" ]
-                                                            `gloss`  [ "sterile" ] ]
-
- -- ;; EuqAm_1
-
- |> "`uqAm" <| [
+                                                            `gloss`  [ "sterile" ],
 
     -- ;; EuqAm_1
     -- EqAm    EuqAm   N       incurable
 
-    noun     Identity                  {- EuqAm -}          `gloss`  [ "incurable" ],
+    noun     FuCAL                     {- EuqAm -}          `gloss`  [ "incurable" ],
 
     -- ;; taEoqiym_1
     -- tEqym   taEoqiym        N/At    pasteurization;sterilization
@@ -13671,17 +13563,9 @@ lexicon = listing "Lexicon properties"
  |> "`k.z" <| [
 
     -- ;; EukAZ_1
-
-    root     Identity                                        ]
-
- -- ;; EukAZ_1
-
- |> "`ukA.z" <| [
-
-    -- ;; EukAZ_1
     -- EkAZ    EukAZ   Nprop   Okaz;Ukaz
 
-    noun     Identity                  {- EukAZ -}          `gloss`  [ "Okaz", "Ukaz" ] ]
+    noun     FuCAL                     {- EukAZ -}          `gloss`  [ "Okaz", "Ukaz" ] ]
 
  -- ;--- Ekf
 
@@ -13856,16 +13740,12 @@ lexicon = listing "Lexicon properties"
     -- Ely     Eil~iy~ Nap     causality     [[Eil~iy~/NOUN]]
 
     noun     FiCL |< Iy |< aT          {- Eil~iy~ap -}      `others` [ "`illiyy Nap" ]
-                                                            `gloss`  [ "causality" ] ]
-
- -- ;; EulAlap_1
-
- |> "`ulAl" <| [
+                                                            `gloss`  [ "causality" ],
 
     -- ;; EulAlap_1
     -- ElAl    EulAl   Nap     consolation;remnant
 
-    noun     Identity |< aT            {- EulAlap -}        `others` [ "`ulAl Nap" ]
+    noun     FuCAL |< aT               {- EulAlap -}        `others` [ "`ulAl Nap" ]
                                                             `gloss`  [ "consolation", "remnant" ],
 
     -- ;; taEoliyl_1
@@ -14988,11 +14868,7 @@ lexicon = listing "Lexicon properties"
     -- <stElA' {isotiEolA'     NAt     superiority
     -- AstElA' {isotiEolA'     NAt     superiority
 
-    noun     IstiFCA'                  {- {isotiEolA' -}    `gloss`  [ "superiority" ] ]
-
- -- ;; EAliy_1
-
- |> "`ly" <| [
+    noun     IstiFCA'                  {- {isotiEolA' -}    `gloss`  [ "superiority" ],
 
     -- ;; EAliy_1
     -- EAly    EAliy   N0F     high;elevated     [[EAliy/ADJ]]
@@ -15001,7 +14877,7 @@ lexicon = listing "Lexicon properties"
     -- EAl     EAl     Nuwn_Niyn       high;elevated
     -- EAly    EAliy   NapAt   high;elevated
 
-    noun     FACiL                     {- EAliy -}          `others` [ "`Al Nuwn_Niyn NK" ]
+    noun     FACI                      {- EAliy -}          `others` [ "`Al Nuwn_Niyn NK" ]
                                                             `gloss`  [ "high", "elevated" ],
 
     -- ;; EAliyap_1
@@ -15009,12 +14885,8 @@ lexicon = listing "Lexicon properties"
     -- EwAly   EawAliy N0_Nh   uphill slopes;upstream
     -- EwAl    EawAl   NK      uphill slopes;upstream
 
-    noun     FACiL |< aT               {- EAliyap -}        `others` [ "`awAliy N0_Nh", "`Aliy Napdu", "`awAl NK" ]
-                                                            `gloss`  [ "uphill slope", "upstream", "uphill slopes" ] ]
-
- -- ;; muEal~aY_1
-
- |> "`l" <| [
+    noun     FACI |< aT                {- EAliyap -}        `others` [ "`awAliy N0_Nh", "`Aliy Napdu", "`awAl NK" ]
+                                                            `gloss`  [ "uphill slope", "upstream", "uphill slopes" ],
 
     -- ;; muEal~aY_1
     -- mElY    muEal~aY        N0      raised     [[muEal~aY/ADJ]]
@@ -15176,46 +15048,30 @@ lexicon = listing "Lexicon properties"
     -- ;; taEomiymiy~_1
     -- tEmymy  taEomiymiy~     N-ap    general     [[taEomiymiy~/ADJ]]
 
-    noun     TaFCIL |< Iy              {- taEomiymiy~ -}    `gloss`  [ "general" ] ]
-
- -- ;; EAm~_1
-
- |> "`Amm" <| [
+    noun     TaFCIL |< Iy              {- taEomiymiy~ -}    `gloss`  [ "general" ],
 
     -- ;; EAm~_1
     -- EAm     EAm~    N-ap    general;common;public     [[EAm~/ADJ]]
 
-    noun     Identity                  {- EAm~ -}           `gloss`  [ "general", "common", "public" ] ]
-
- -- ;; EAm~ap_1
-
- |> "`Amm" <| [
+    noun     FACL                      {- EAm~ -}           `gloss`  [ "general", "common", "public" ],
 
     -- ;; EAm~ap_1
     -- EAm     EAm~    Nap     general public;populace
     -- EAmp    EAm~apF FW-Wa   in general;generally    [[EAm~apF/ADV]]
     -- EwAm    EawAm~  Ndip    general public;populace
 
-    noun     Identity |< aT            {- EAm~ap -}         `others` [ "`awAmm Ndip", "`Amm Nap", "`AmmaTaN FW-Wa" ]
-                                                            `gloss`  [ "general public", "populace", "in general", "generally" ] ]
-
- -- ;; EAm~iy~_1
-
- |> "`Amm" <| [
+    noun     FACL |< aT                {- EAm~ap -}         `others` [ "`awAmm Ndip", "`Amm Nap", "`AmmaTaN FW-Wa" ]
+                                                            `gloss`  [ "general public", "populace", "in general", "generally" ],
 
     -- ;; EAm~iy~_1
     -- EAmy    EAm~iy~ Nall    popular     [[EAm~iy~/ADJ]]
 
-    noun     Identity |< Iy            {- EAm~iy~ -}        `gloss`  [ "popular" ] ]
-
- -- ;; EAm~iy~ap_1
-
- |> "`Amm" <| [
+    noun     FACL |< Iy                {- EAm~iy~ -}        `gloss`  [ "popular" ],
 
     -- ;; EAm~iy~ap_1
     -- EAmy    EAm~iy~ NapAt   dialect;vernacular;colloquial     [[EAm~iy~/NOUN]]
 
-    noun     Identity |< Iy |< aT      {- EAm~iy~ap -}      `others` [ "`Ammiyy NapAt" ]
+    noun     FACL |< Iy |< aT          {- EAm~iy~ap -}      `others` [ "`Ammiyy NapAt" ]
                                                             `gloss`  [ "dialect", "vernacular", "colloquial" ],
 
     -- ;; muEam~am_1
@@ -15227,6 +15083,14 @@ lexicon = listing "Lexicon properties"
     -- mEtm    muEotam~        Nall    wearing a turban     [[muEotam~/ADJ]]
 
     noun     MuFtaCL                   {- muEotam~ -}       `gloss`  [ "wearing a turban" ] ]
+
+ -- ;; EAmiy_1
+
+ |> "`m" <| [
+
+    -- ;; EAmiy_1
+
+    noun     FACI                      {- EAmiy -}           ]
 
  -- ;; EAmiy_1
 
@@ -15777,17 +15641,9 @@ lexicon = listing "Lexicon properties"
  |> "`m.s" <| [
 
     -- ;; EumAS_1
-
-    root     Identity                                        ]
-
- -- ;; EumAS_1
-
- |> "`umA.s" <| [
-
-    -- ;; EumAS_1
     -- EmAS    EumAS   N       rheum
 
-    noun     Identity                  {- EumAS -}          `gloss`  [ "rheum" ] ]
+    noun     FuCAL                     {- EumAS -}          `gloss`  [ "rheum" ] ]
 
  -- ;--- Emq
 
@@ -16096,32 +15952,20 @@ lexicon = listing "Lexicon properties"
  |> "`mn" <| [
 
     -- ;; EumAn_1
-
-    root     Identity                                        ]
-
- -- ;; EumAn_1
-
- |> "`umAn" <| [
-
-    -- ;; EumAn_1
     -- EmAn    EumAn   Ndip    Oman
 
-    noun     Identity                  {- EumAn -}          `gloss`  [ "Oman" ],
+    noun     FuCAL                     {- EumAn -}          `gloss`  [ "Oman" ],
 
     -- ;; Eam~An_1
     -- EmAn    Eam~An  Ndip    Amman
 
-    noun     FaCCAL                    {- Eam~An -}         `gloss`  [ "Amman" ] ]
-
- -- ;; EumAniy~_1
-
- |> "`umAn" <| [
+    noun     FaCCAL                    {- Eam~An -}         `gloss`  [ "Amman" ],
 
     -- ;; EumAniy~_1
     -- EmAny   EumAniy~        Nall    Omani     [[EumAniy~/NOUN]]
     -- EmAny   EumAniy~        Nall    Omani     [[EumAniy~/ADJ]]
 
-    noun     Identity |< Iy            {- EumAniy~ -}       `gloss`  [ "Omani" ] ]
+    noun     FuCAL |< Iy               {- EumAniy~ -}       `gloss`  [ "Omani" ] ]
 
  -- ;; Eim~Anuw}iyl_1
 
@@ -17357,6 +17201,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; EAniy_1
 
+ |> "`n" <| [
+
+    -- ;; EAniy_1
+
+    noun     FACI                      {- EAniy -}           ]
+
+ -- ;; EAniy_1
+
  |> "`ny" <| [
 
     -- ;; EAniy_1
@@ -17522,7 +17374,7 @@ lexicon = listing "Lexicon properties"
 
  -- ;; maEonaY_1
 
- |> "ma`nY" <| [
+ |> "`n" <| [
 
     -- ;; maEonaY_1
     -- mEnY    maEonaY N0      meaning;sense
@@ -17531,7 +17383,7 @@ lexicon = listing "Lexicon properties"
     -- mEAny   maEAniy N0_Nh   meanings;senses;concepts;nuances
     -- mEAn    maEAn   NK      meanings;senses;concepts;nuances
 
-    noun     Identity                  {- maEonaY -}        `others` [ "ma`Aniy N0_Nh", "ma`An NK", "ma`nA Nhy", "ma`nay NAn_Nayn" ]
+    noun     MaFCaNY                   {- maEonaY -}        `others` [ "ma`Aniy N0_Nh", "ma`An NK", "ma`nA Nhy", "ma`nay NAn_Nayn" ]
                                                             `gloss`  [ "meaning", "sense", "meanings", "senses", "concepts", "nuances" ] ]
 
  -- ;; muEAnAp_1
@@ -17555,19 +17407,7 @@ lexicon = listing "Lexicon properties"
     -- tEny    taEan~iy        NAt     effort;hardship
 
     noun     Identity                  {- taEan~iy -}       `others` [ "ta`ann NK" ]
-                                                            `gloss`  [ "effort", "hardship" ] ]
-
- -- ;; {iEotinA'_1
-
- |> "`n" <| [
-
-    -- ;; {iEotinA'_1
-
-    noun     IFtiCA'                   {- {iEotinA' -}       ]
-
- -- ;; {iEotinA'_1
-
- |> "`n'" <| [
+                                                            `gloss`  [ "effort", "hardship" ],
 
     -- ;; {iEotinA'_1
     -- <EtnA'  {iEotinA'       N0_Nh   attention;care;concern
@@ -17583,7 +17423,7 @@ lexicon = listing "Lexicon properties"
     -- <EtnA'  {iEotinA'       NAt     attention;care;concern
     -- AEtnA'  {iEotinA'       NAt     attention;care;concern
 
-    noun     IFtiCAL                   {- {iEotinA' -}      `gloss`  [ "attention", "care", "concern" ] ]
+    noun     IFtiCA'                   {- {iEotinA' -}      `gloss`  [ "attention", "care", "concern" ] ]
 
  -- ;; maEoniy~_1
 
@@ -18154,6 +17994,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; maEAd_1
 
+ |> "`d" <| [
+
+    -- ;; maEAd_1
+
+    noun     MaFAL                     {- maEAd -}           ]
+
+ -- ;; maEAd_1
+
  |> "`m`d" <| [
 
     -- ;; maEAd_1
@@ -18453,6 +18301,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; maEA*_1
 
+ |> "`_d" <| [
+
+    -- ;; maEA*_1
+
+    noun     MaFAL                     {- maEA* -}           ]
+
+ -- ;; maEA*_1
+
  |> "`m`_d" <| [
 
     -- ;; maEA*_1
@@ -18715,6 +18571,14 @@ lexicon = listing "Lexicon properties"
     -- mEwr    muEowir N-ap    vulnerable
 
     noun     MuFCiL                    {- muEowir -}        `gloss`  [ "vulnerable" ] ]
+
+ -- ;; muEAr_1
+
+ |> "`m`r" <| [
+
+    -- ;; muEAr_1
+
+    noun     FuCAL                     {- muEAr -}           ]
 
  -- ;; muEAr_1
 
@@ -19272,22 +19136,18 @@ lexicon = listing "Lexicon properties"
  |> "`m`q" <| [
 
     -- ;; maEAqap_1
-    -- mEAq    maEAq   Nap     puzzle box;maze
 
-    noun     FaCAL |< aT               {- maEAqap -}        `others` [ "ma`Aq Nap" ]
-                                                            `gloss`  [ "puzzle box", "maze" ] ]
+    noun     FaCAL |< aT               {- maEAqap -}         ]
 
- -- ;; <iEAqap_1
-
- |> "`'`q" <| [
-
-    -- ;; <iEAqap_1
-
-    noun     FiCAL |< aT               {- <iEAqap -}         ]
-
- -- ;; <iEAqap_1
+ -- ;; maEAqap_1
 
  |> "`q" <| [
+
+    -- ;; maEAqap_1
+    -- mEAq    maEAq   Nap     puzzle box;maze
+
+    noun     MaFAL |< aT               {- maEAqap -}        `others` [ "ma`Aq Nap" ]
+                                                            `gloss`  [ "puzzle box", "maze" ],
 
     -- ;; <iEAqap_1
     -- <EAq    <iEAq   NapAt   hindering;impeding
@@ -19335,6 +19195,14 @@ lexicon = listing "Lexicon properties"
     -- mEwq    muEaw~aq        Nall    handicapped     [[muEaw~aq/ADJ]]
 
     noun     MuFaCCaL                  {- muEaw~aq -}       `gloss`  [ "handicapped" ] ]
+
+ -- ;; muEAq_1
+
+ |> "`m`q" <| [
+
+    -- ;; muEAq_1
+
+    noun     FuCAL                     {- muEAq -}           ]
 
  -- ;; muEAq_1
 
@@ -19490,6 +19358,14 @@ lexicon = listing "Lexicon properties"
     -- mEwl    muEaw~al        N-ap    reliable;trusted;authorized     [[muEaw~al/ADJ]]
 
     noun     MuFaCCaL                  {- muEaw~al -}       `gloss`  [ "reliable", "trusted", "authorized" ] ]
+
+ -- ;; muEAl_1
+
+ |> "`m`l" <| [
+
+    -- ;; muEAl_1
+
+    noun     FuCAL                     {- muEAl -}           ]
 
  -- ;; muEAl_1
 
@@ -19942,18 +19818,14 @@ lexicon = listing "Lexicon properties"
     -- stEwY   sotaEowaY       IV_0_Pass_yu    be made to howl
 
     verb     IstaFCY                   {- {isotaEowaY -}    `others` [ "ista`w PV_ttAw", "sta`w IV_0hwnyn", "sta`wiy IV_0hAnn", "ista`way PV_Atn", "ista`wA PV_h", "sta`wY IV_0_Pass_yu" ]
-                                                            `gloss`  [ "make howl", "be made to howl" ] ]
-
- -- ;; EuwA'_1
-
- |> "`uwA'" <| [
+                                                            `gloss`  [ "make howl", "be made to howl" ],
 
     -- ;; EuwA'_1
     -- EwA'    EuwA'   N0_Nh   howling;howls
     -- EwA&    EuwA&   Nh      howling;howls
     -- EwA}    EuwA}   Nhy     howling;howls
 
-    noun     Identity                  {- EuwA' -}          `gloss`  [ "howling", "howls" ] ]
+    noun     FuCA'                     {- EuwA' -}          `gloss`  [ "howling", "howls" ] ]
 
  -- ;; Eaw~A'_1
 
@@ -20233,11 +20105,19 @@ lexicon = listing "Lexicon properties"
  |> "`m`b" <| [
 
     -- ;; maEAb_1
+
+    noun     FaCAL                     {- maEAb -}           ]
+
+ -- ;; maEAb_1
+
+ |> "`b" <| [
+
+    -- ;; maEAb_1
     -- mEAb    maEAb   Ndu     fault;shortcoming;disgrace
     -- mEAb    maEAb   Napdu   fault;shortcoming;disgrace
     -- mEAyb   maEAyib Ndip    faults;shortcomings
 
-    noun     FaCAL                     {- maEAb -}          `others` [ "ma`Ayib Ndip" ]
+    noun     MaFAL                     {- maEAb -}          `others` [ "ma`Ayib Ndip" ]
                                                             `gloss`  [ "fault", "shortcoming", "disgrace", "faults", "shortcomings" ] ]
 
  -- ;; EA}ib_1
@@ -20680,6 +20560,14 @@ lexicon = listing "Lexicon properties"
 
  -- ;; maEA$_1
 
+ |> "`^s" <| [
+
+    -- ;; maEA$_1
+
+    noun     MaFAL                     {- maEA$ -}           ]
+
+ -- ;; maEA$_1
+
  |> "`m`^s" <| [
 
     -- ;; maEA$_1
@@ -20850,16 +20738,12 @@ lexicon = listing "Lexicon properties"
     -- Eyl     Eoyil   IV_yu   have a large family
 
     verb     HaFCaL                    {- >aEoyal -}        `others` [ "`yil IV_yu" ]
-                                                            `gloss`  [ "have a large family" ] ]
-
- -- ;; Eay~il_1
-
- |> "`ayyil" <| [
+                                                            `gloss`  [ "have a large family" ],
 
     -- ;; Eay~il_1
     -- Eyl     Eay~il  N       family;household
 
-    noun     Identity                  {- Eay~il -}         `gloss`  [ "family", "household" ],
+    noun     FaCCiL                    {- Eay~il -}         `gloss`  [ "family", "household" ],
 
     -- ;; EiyAl_1
     -- EyAl    EiyAl   N       dependents
@@ -20988,16 +20872,12 @@ lexicon = listing "Lexicon properties"
     -- Eyn     Eiyn    Nap     advance
 
     noun     FiCL |< aT                {- Eiynap -}         `others` [ "`iyn Nap" ]
-                                                            `gloss`  [ "advance" ] ]
-
- -- ;; Eay~inap_1
-
- |> "`ayyin" <| [
+                                                            `gloss`  [ "advance" ],
 
     -- ;; Eay~inap_1
     -- Eyn     Eay~in  NapAt   sample;specimen
 
-    noun     Identity |< aT            {- Eay~inap -}       `others` [ "`ayyin NapAt" ]
+    noun     FaCCiL |< aT              {- Eay~inap -}       `others` [ "`ayyin NapAt" ]
                                                             `gloss`  [ "sample", "specimen" ] ]
 
  -- ;; maEiyn_1
