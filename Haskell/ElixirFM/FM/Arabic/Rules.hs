@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  FM.Arabic.Rules
--- Copyright   :  Otakar Smrz 2005-2006
+-- Copyright   :  Otakar Smrz 2005-2007
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -216,12 +216,13 @@ moony = [ "'", "b", "^g", ".h", "_h", "`", ".g",
 
 
 prefixDefArticle :: String -> String
-prefixDefArticle s@(x:xs) =
+prefixDefArticle s =
 
-    if any (flip isPrefixOf s) sunny
-        then                          prefix ['a', x, '-'] s
-        else if isPrefixOf "i" s then prefix "al-i-" s
-                                 else prefix "al-" s
+    case filter (flip isPrefixOf s) sunny of
+
+        []      -> if isPrefixOf "i" s then prefix "al-i-" s
+                                       else prefix "al-" s
+        ls : _  ->                          prefix ("a" ++ ls ++ "-") s
 
 
 inflectNoun :: DictForm -> Noun
@@ -274,7 +275,7 @@ paraAaA c d s = case (c, d, s) of
 
 paraY3N c d s = case (c, d, s) of
 
-        ( _ , Nothing, False)   -> suffix "-aNY"
+        ( _ , Nothing, False)   -> suffix "aNY"
         ( _ , _ ,      _    )   -> suffix "Y"
 
 
@@ -382,7 +383,7 @@ prefixImperfect p g n = case n of
 
 paraVerbI m v p g n i = prefixImperfect p g n . prefix i . case m of
 
-      Indicative ->
+    Indicative ->
 
         case n of
 
@@ -403,7 +404,7 @@ paraVerbI m v p g n i = prefixImperfect p g n . prefix i . case m of
                 ( _,    Feminine)   ->  suffix "n-a"
 
 
-      Subjunctive ->
+    Subjunctive ->
 
         case n of
 
@@ -424,7 +425,7 @@ paraVerbI m v p g n i = prefixImperfect p g n . prefix i . case m of
                 ( _ ,   Feminine)   ->  suffix "n-a"
 
 
-      Jussive     ->
+    Jussive     ->
 
         case n of
 
@@ -443,6 +444,27 @@ paraVerbI m v p g n i = prefixImperfect p g n . prefix i . case m of
                 (First, _   )       ->  suffix ""
                 ( _ ,   Masculine)  ->  suffix "UW"
                 ( _ ,   Feminine)   ->  suffix "n-a"
+
+
+    Energetic   ->
+
+        case n of
+
+            Singular    ->  case (p, g) of
+
+                (Second, Feminine)  ->  suffix "in|na"
+                (_,      _ )        ->  suffix "an|na"
+
+            Dual        -> case (p, g) of
+
+                (First,  _    )     ->  suffix "an|na"
+                ( _ ,    _    )     ->  suffix "Anni"
+
+            Plural      -> case (p, g) of
+
+                (First, _    )      ->  suffix "an|na"
+                ( _ ,   Masculine)  ->  suffix "un|na"
+                ( _ ,   Feminine)   ->  suffix "nAnni"
 
 
 paraVerbC g n i = case n of

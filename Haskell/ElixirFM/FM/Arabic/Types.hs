@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  FM.Arabic.Types
--- Copyright   :  Otakar Smrz 2005-2006
+-- Copyright   :  Otakar Smrz 2005-2007
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -87,7 +87,7 @@ instance Param Aspect   where values = enum
 data Mood   = Indicative
             | Subjunctive
             | Jussive
-         -- | Energetic
+            | Energetic
     deriving (Eq, Show, Enum)
 
 instance Param Mood     where values = enum
@@ -179,24 +179,15 @@ data State = Definite
 -}
 
 
---type State = (Definite, Annexing)
-
 data Couple a b = a :-: b
 
     deriving Eq
 
 type State = Couple Definite Annexing
 
-{-
-data State = Definite :-: Annexing
-
-    deriving Eq
--}
-
 instance Param State where
 
     values = [ x :-: y | x <- values, y <- values ]
-
 
 instance Show State where
 
@@ -210,7 +201,6 @@ instance Show State where
 
 
 type Definite = Maybe Bool
---    deriving (Eq, Show, Enum)
 
 instance Param Definite where
 
@@ -218,7 +208,6 @@ instance Param Definite where
 
 
 type Annexing = Bool
---    deriving (Eq, Show, Enum)
 
 instance Param Bool     where values = enum
 

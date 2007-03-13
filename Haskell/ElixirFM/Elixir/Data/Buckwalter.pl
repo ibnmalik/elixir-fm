@@ -375,6 +375,12 @@ until (eof()) {
                     $suffix = ' |< aT' . $suffix;
                 }
 
+                if ($entry =~ /^(.*)AT$/) {
+
+                    $entry = $1 . "aNY";
+                    $suffix = ' |< aT' . $suffix;
+                }
+
                 if ($entry =~ /^(.*)At$/) {
 
                     $entry = $1;

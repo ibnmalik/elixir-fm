@@ -1,0 +1,83 @@
+# -*- perl -*- ########################################################################## 2007/03/13
+#
+# Effective Buckwalter Lexicon ######################################################### Otakar Smrz
+
+# $Id$
+
+our $VERSION = do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
+
+
+#include <tred.mac>
+
+package TredMacro;
+
+use strict;
+
+use Encode::Arabic::Buckwalter ':xml';
+
+use Data::Dumper;
+
+
+our ($this, $FileChanged);
+
+our ($lexicon, $form, $id);
+
+
+sub autostart {
+
+    do { {
+
+        next if $this->{'type'} eq 'paragraph';
+
+        while ($this = $this->following()) {
+
+            if ($this->{'type'} eq 'lemma_id') {
+
+                $form = encode "buckwalter", $this->{'form'};
+
+                $id = $this->{'id'};
+
+                if ($this->{'apply_m'} > 0) {
+
+                    $lexicon->{$form}{$id}{'done'}++;
+                }
+                else {
+
+                    $lexicon->{$form}{$id}{'none'}++;
+                }
+            }
+        }
+    } }
+    while NextTree();
+
+    $FileChanged = 0;
+}
+
+
+BEGIN {
+
+    die "Existing file 'buckwalter.dat' is in the way, quitting" if -f 'buckwalter.dat';
+}
+
+
+END {
+
+    foreach $form (sort keys %{$lexicon}) {
+
+        foreach $id (sort keys %{$lexicon->{$form}}) {
+
+            printf "%6d\t%6d\t%6d\t%s\t%s\n", $lexicon->{$form}{$id}{'done'},
+                                              $lexicon->{$form}{$id}{'none'},
+                                              $lexicon->{$form}{$id}{'done'} +
+                                              $lexicon->{$form}{$id}{'none'}, $form, $id;
+        }
+    }
+
+    open D, '>', 'buckwalter.dat';
+
+    $Data::Dumper::Indent = 1;
+
+    print D Data::Dumper->Dump([$lexicon], ['lexicon']);
+
+    close D;
+}

@@ -268,6 +268,7 @@ data PatternT =
         |   FuCayL
 
         |   FuCLY
+        |   FaCLY
 
 --  Form II
 
