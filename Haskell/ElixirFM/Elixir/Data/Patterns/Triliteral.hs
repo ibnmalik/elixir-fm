@@ -256,7 +256,7 @@ data PatternT =
         |   FawACiL                                     |   FawA'iL
         |   FawACIL                                     |   FawA'IL
 
-        |   MaFACiL                                     |   MaFA'iL
+        |   MaFACiL                                     |   MaFA'iL             |   MaFACiN
         |   MaFACIL                                     |   MaFA'IL
 
         |   FuCuL
