@@ -11,7 +11,7 @@ use strict;
 
 use re 'eval';
 
-use Encode::Arabic;
+use Encode::Arabic ':modes';
 
 use Lingua::EN::Tagger;
 
@@ -33,6 +33,8 @@ our $encode = "utf8";
 
 our $tagger = new Lingua::EN::Tagger;
 
+
+demode "buckwalter", "nowasla", "xml";
 
 %lexiconEnglish = ();
 
@@ -78,7 +80,11 @@ until (eof()) {
 
         if ($line =~ /^;--- (.+)$/) {
 
-            $root = encode "arabtex", decode "buckwalter", join ' ', split //, $1;
+            $root = $1;
+
+            $root =~ tr[>&<][OWI];
+
+            $root = encode "arabtex", decode "buckwalter", join ' ', split //, $root;
 
             $root =~ tr[A]['];
 
@@ -89,6 +95,8 @@ until (eof()) {
         elsif ($line =~ /^;;/) {
 
             my (undef, $orig, $index) = split /[\;\_\s\(]+/, $line;
+
+            $orig =~ tr[>&<][OWI];
 
             $skipOthers = 0;
 
@@ -114,14 +122,9 @@ until (eof()) {
 
             my ($surf, $full, $type, $gloss) = split /\s+/, $line, 4;
 
-            $gloss =~ s/(?:\s+\[\[[^\]]+\]\])?\s+$//;
+            $full =~ tr[>&<][OWI];
 
-            $gloss =~ s/[\x{00E0}-\x{00E5}]/_a/g;
-            $gloss =~ s/[\x{00E8}-\x{00EB}]/_e/g;
-            $gloss =~ s/[\x{00EC}-\x{00EF}]/_i/g;
-            $gloss =~ s/[\x{00F2}-\x{00F6}]/_o/g;
-            $gloss =~ s/[\x{00F9}-\x{00FC}]/_u/g;
-            $gloss =~ s/[\x{00FD}\x{00FF}]/_y/g;
+            $gloss =~ s/(?:\s+\[\[[^\]]+\]\])?\s+$//;
 
             foreach (split /;/, $gloss) {
 
@@ -329,7 +332,6 @@ sub convert {
 
     my $entry = $_[0];
 
-    $entry =~ tr[{][A];
     $entry =~ s/AF/FA/;
 
     $entry = encode "arabtex", decode "buckwalter", $entry;
@@ -374,7 +376,21 @@ sub storeGloss {
 
 sub storeType {
 
-    $Entry->{'types'}->{$_[0]}->{$_[1]}++;
+    my ($form, $type) = @_;
+
+    if ($Entry->{'form'} =~ /T$/ and $type =~ /^Nap/) {
+
+        if ($form =~ /A$/) {
+
+            $form .= 'T'    if $form eq substr $Entry->{'form'}, 0, -1;
+        }
+        else {
+
+            $form .= 'aT'   if $form eq substr $Entry->{'form'}, 0, -2;
+        }
+    }
+
+    $Entry->{'types'}->{$form}->{$type}++;
 }
 
 

@@ -48,7 +48,7 @@ lexicon = listing "Lexicon properties"
     -- tHf     tuHof   Napdu   gift;museum article
     -- tHf     tuHaf   N       gifts;museum articles
 
-    noun     FuCL                      {- tuHofap -}        `others` [ "tu.hf Napdu", "tu.haf N" ]
+    noun     FuCL                      {- tuHofap -}        `others` [ "tu.haf N" ]
                                                             `gloss`  [ "gift", "museum article", "gifts", "museum articles" ],
 
     -- ;; matoHaf_1
@@ -77,8 +77,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tijArap_1
     -- tjAr    tijAr   Nap     commerce;business
 
-    noun     FiCAL                     {- tijArap -}        `others` [ "ti^gAr Nap" ]
-                                                            `gloss`  [ "commerce", "business" ],
+    noun     FiCAL                     {- tijArap -}        `gloss`  [ "commerce", "business" ],
 
     -- ;; tijAriy~_1
     -- tjAry   tijAriy~        Nall    commercial;business     [[tijAriy~/ADJ]]
@@ -141,6 +140,21 @@ lexicon = listing "Lexicon properties"
                                                             `others` [ "t`ab IV_intr" ]
                                                             `gloss`  [ "be tired", "work hard" ],
 
+    -- ;; >atoEab_1
+    -- >tEb    >atoEab PV      bother;make tired
+    -- AtEb    >atoEab PV      bother;make tired
+    -- tEb     toEib   IV_yu   bother;make tired
+    -- tEb     toEab   IV_Pass_yu      be bothered;be tired out
+
+    verb     HaFCaL                    {- OatoEab -}        `others` [ "t`ab IV_Pass_yu", "t`ib IV_yu" ]
+                                                            `gloss`  [ "bother", "make tired", "be bothered", "be tired out" ],
+
+    -- ;; >atoEAb_1
+    -- >tEAb   >atoEAb N       inconveniences;labor
+    -- AtEAb   >atoEAb N       inconveniences;labor
+
+    noun     HaFCAL                    {- OatoEAb -}        `gloss`  [ "inconveniences", "labor" ],
+
     -- ;; matAEib_1
     -- mtAEb   matAEib Ndip    troubles;complaints
 
@@ -172,6 +186,15 @@ lexicon = listing "Lexicon properties"
     verb     FACaL                     {- tAbaE -}          `others` [ "tAbi` IV_yu" ]
                                                             `gloss`  [ "continue", "follow" ],
 
+    -- ;; >atobaE_1
+    -- >tbE    >atobaE PV      follow
+    -- AtbE    >atobaE PV      follow
+    -- tbE     tobiE   IV_yu   follow
+    -- tbE     tobaE   IV_Pass_yu      be followed
+
+    verb     HaFCaL                    {- OatobaE -}        `others` [ "tba` IV_Pass_yu", "tbi` IV_yu" ]
+                                                            `gloss`  [ "follow", "be followed" ],
+
     -- ;; tabaE_1
     -- tbE     tabaE   N       subordinate;follower
 
@@ -180,8 +203,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tabiEap_1
     -- tbE     tabiE   NapAt   consequence;responsibility
 
-    noun     FaCiL                     {- tabiEap -}        `others` [ "tabi` NapAt" ]
-                                                            `gloss`  [ "consequence", "responsibility" ],
+    noun     FaCiL                     {- tabiEap -}        `gloss`  [ "consequence", "responsibility" ],
 
     -- ;; tibAEAF_1
     -- tbAE    tibAE   NF      in succession;consecutively     [[tibAE/ADV]]
@@ -192,8 +214,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mutAbaEap_1
     -- mtAbE   mutAbaE NapAt   pursuit;continuation
 
-    noun     MuFACaL                   {- mutAbaEap -}      `others` [ "mutAba` NapAt" ]
-                                                            `gloss`  [ "pursuit", "continuation" ],
+    noun     MuFACaL                   {- mutAbaEap -}      `gloss`  [ "pursuit", "continuation" ],
 
     -- ;; tatab~uE_1
     -- ttbE    tatab~uE        NduAt   pursuit;course
@@ -249,6 +270,12 @@ lexicon = listing "Lexicon properties"
 
     noun     FaCaL                     {- talaf -}          `gloss`  [ "ruin", "loss" ],
 
+    -- ;; <itolAf_1
+    -- <tlAf   <itolAf NduAt   destruction;harm
+    -- AtlAf   <itolAf NduAt   destruction;harm
+
+    noun     HiFCAL                    {- IitolAf -}        `gloss`  [ "destruction", "harm" ],
+
     -- ;; tAlif_1
     -- tAlf    tAlif   Nall    ruined;broken
 
@@ -259,8 +286,7 @@ lexicon = listing "Lexicon properties"
     -- ;; talofazap_1
     -- tlfz    talofaz Nap     telecast;television
 
-    noun     KaRDaS                    {- talofazap -}      `others` [ "talfaz Nap" ]
-                                                            `gloss`  [ "telecast", "television" ],
+    noun     KaRDaS                    {- talofazap -}      `gloss`  [ "telecast", "television" ],
 
     -- ;; mutalofaz_1
     -- mtlfz   mutalofaz       N-ap    televised     [[mutalofaz/ADJ]]
@@ -287,8 +313,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tal~ap_1
     -- tl      tal~    NapAt   heap
 
-    noun     FaCL                      {- tal~ap -}         `others` [ "tall NapAt" ]
-                                                            `gloss`  [ "heap" ] ]
+    noun     FaCL                      {- tal~ap -}         `gloss`  [ "heap" ] ]
 
  |> "t l m _d" <| [
 
@@ -394,6 +419,18 @@ lexicon = listing "Lexicon properties"
                                                             `others` [ "tmim IV_C", "timm IV_V", "tamam PV_C" ]
                                                             `gloss`  [ "conclude", "take place" ],
 
+    -- ;; >atam~_1
+    -- >tm     >atam~  PV_V    complete;conclude
+    -- Atm     >atam~  PV_V    complete;conclude
+    -- >tmm    >atomam PV_C    complete;conclude
+    -- Atmm    >atomam PV_C    complete;conclude
+    -- tm      tim~    IV_V_yu complete;conclude
+    -- tmm     tomim   IV_C_yu complete;conclude
+    -- tm      tam~    IV_V_Pass_yu    be completed;be concluded
+
+    verb     HaFaCL                    {- Oatam~ -}         `others` [ "tamm IV_V_Pass_yu", "'atmam PV_C", "tmim IV_C_yu", "timm IV_V_yu" ]
+                                                            `gloss`  [ "complete", "conclude", "be completed", "be concluded" ],
+
     -- ;; tamAm_1
     -- tmAm    tamAm   N       exact;complete
 
@@ -408,6 +445,18 @@ lexicon = listing "Lexicon properties"
     -- tmymy   tamiymiy~       N0      Tamimi
 
     noun     FaCIL                     {- tamiymiy~ -}      `gloss`  [ "Tamimi" ],
+
+    -- ;; >atam~_2
+    -- >tm     >atam~  Nel     more/most complete;more/most perfect
+    -- Atm     >atam~  Nel     more/most complete;more/most perfect
+
+    noun     HaFaCL                    {- Oatam~ -}         `gloss`  [ "more / most complete", "more / most perfect" ],
+
+    -- ;; <itomAm_1
+    -- <tmAm   <itomAm NduAt   completion;realization
+    -- AtmAm   <itomAm NduAt   completion;realization
+
+    noun     HiFCAL                    {- IitomAm -}        `gloss`  [ "completion", "realization" ],
 
     -- ;; tAm~_1
     -- tAm     tAm~    N-ap    complete;concluded
@@ -498,8 +547,13 @@ lexicon = listing "Lexicon properties"
     -- ;; taqoniy~ap_1
     -- tqny    taqoniy~        NapAt   technique;technology     [[taqoniy~/NOUN]]
 
-    noun     FaCL                      {- taqoniy~ap -}     `others` [ "taqniyy NapAt" ]
-                                                            `gloss`  [ "technique", "technology [ [ taqoniy ~ / NOUN ] ]" ] ]
+    noun     FaCL                      {- taqoniy~ap -}     `gloss`  [ "technique", "technology [ [ taqoniy ~ / NOUN ] ]" ],
+
+    -- ;; <itoqAn_1
+    -- <tqAn   <itoqAn NduAt   mastery;proficiency
+    -- AtqAn   <itoqAn NduAt   mastery;proficiency
+
+    noun     HiFCAL                    {- IitoqAn -}        `gloss`  [ "mastery", "proficiency" ] ]
 
  |> "t q w" <| [
 
@@ -522,14 +576,13 @@ lexicon = listing "Lexicon properties"
     -- ;; tarojamap_1
     -- trjm    tarojam NapAt   translation;interpretation
 
-    noun     KaRDaS                    {- tarojamap -}      `others` [ "tar^gam NapAt" ]
-                                                            `gloss`  [ "translation", "interpretation" ],
+    noun     KaRDaS                    {- tarojamap -}      `gloss`  [ "translation", "interpretation" ],
 
     -- ;; tarojamap_2
     -- trjm    tarojam NapAt   biography
     -- trAjm   tarAjim Ndip    biographies
 
-    noun     KaRDaS                    {- tarojamap -}      `others` [ "tar^gam NapAt", "tarA^gim Ndip" ]
+    noun     KaRDaS                    {- tarojamap -}      `others` [ "tarA^gim Ndip" ]
                                                             `gloss`  [ "biography", "biographies" ],
 
     -- ;; mutarojim_1
@@ -558,7 +611,7 @@ lexicon = listing "Lexicon properties"
     -- trb     turob   Nap     dust;graveyard
     -- trb     turab   N       dust;graveyard
 
-    noun     FuCL                      {- turobap -}        `others` [ "turab N", "turb Nap" ]
+    noun     FuCL                      {- turobap -}        `others` [ "turab N" ]
                                                             `gloss`  [ "dust", "graveyard" ],
 
     -- ;; turAb_1
@@ -586,6 +639,13 @@ lexicon = listing "Lexicon properties"
     -- trf     taraf   N       luxury;affluence
 
     noun     FaCaL                     {- taraf -}          `gloss`  [ "luxury", "affluence" ] ]
+
+ |> "t r h" <| [
+
+    -- ;; tur~ahap_1
+    -- trh     tur~ah  NapAt   farce;hoax
+
+    noun     FuCCaL                    {- tur~ahap -}       `gloss`  [ "farce", "hoax" ] ]
 
  |> "t r k" <| [
 
@@ -628,7 +688,7 @@ lexicon = listing "Lexicon properties"
     -- trsAn   tirosAn NapAt   arsenal;shipyard
     -- trsAn   tarosAn NduAt   arsenal;shipyard
 
-    noun     KiRDAS                    {- tirosAnap -}      `others` [ "tirsAn NapAt", "tarsAn NduAt" ]
+    noun     KiRDAS                    {- tirosAnap -}      `others` [ "tarsAn NduAt" ]
                                                             `gloss`  [ "arsenal", "shipyard" ] ]
 
  |> "t s `" <| [
@@ -675,6 +735,16 @@ lexicon = listing "Lexicon properties"
 
     noun     CaL                       {- taqiy~ -}         `others` [ "'atqiyA' Nh Nhy N0_Nh" ]
                                                             `gloss`  [ "pious", "devout [ [ taqiy ~ / ADJ ] ]", "devout" ] ]
+
+ |> "t w ' m" <| [
+
+    -- ;; tawo>am_1
+    -- tw>m    tawo>am N/ap    twin
+    -- tw'm    tawo'am N/ap    twin
+    -- twA}m   tawA}im Ndip    twins
+
+    noun     KaRDaS                    {- tawoOam -}        `others` [ "tawA'im Ndip" ]
+                                                            `gloss`  [ "twin", "twins" ] ]
 
  |> "t w ^g" <| [
 
@@ -787,6 +857,27 @@ lexicon = listing "Lexicon properties"
 
  |> "t y .h" <| [
 
+    -- ;; >atAH_1
+    -- >tAH    >atAH   PV_V    grant;provide
+    -- AtAH    >atAH   PV_V    grant;provide
+    -- >tH     >ataH   PV_C    grant;provide
+    -- AtH     >ataH   PV_C    grant;provide
+    -- >tyH    >utiyH  PV_V_Pass       be provided;be granted;be available
+    -- AtyH    >utiyH  PV_V_Pass       be provided;be granted;be available
+    -- tyH     tiyH    IV_V_yu grant;provide
+    -- tH      tiH     IV_C_yu grant;provide
+    -- tAH     tAH     IV_V_Pass_yu    be provided;be granted;be available
+    -- tH      taH     IV_C_Pass_yu    be provided;be granted;be available
+
+    verb     HaFAL                     {- OatAH -}          `others` [ "ta.h IV_C_Pass_yu", "tiy.h IV_V_yu", "'ata.h PV_C", "tA.h IV_V_Pass_yu", "ti.h IV_C_yu", "'utiy.h PV_V_Pass" ]
+                                                            `gloss`  [ "grant", "provide", "be provided", "be granted", "be available" ],
+
+    -- ;; <itAHap_1
+    -- <tAH    <itAH   Nap     granting;providing
+    -- AtAH    <itAH   Nap     granting;providing
+
+    noun     HiFAL                     {- IitAHap -}        `gloss`  [ "granting", "providing" ],
+
     -- ;; mutAH_1
     -- mtAH    mutAH   Nall    provided;available;granted
 
@@ -839,6 +930,13 @@ lexicon = listing "Lexicon properties"
     -- tyAr    tay~Ar  NAt     currents;streams
 
     noun     FaCCAL                    {- tay~Ar -}         `gloss`  [ "current", "stream", "currents", "streams" ] ]
+
+ |> "t y r y" <| [
+
+    -- ;; tiyriy_1
+    -- tyry    tiyriy  Nprop   Thierry
+
+    noun     KiRDiS                    {- tiyriy -}         `gloss`  [ "Thierry" ] ]
 
  |> "tAnyA" <| [
 
@@ -1038,8 +1136,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tatim~ap_1
     -- ttm     tatim~  NapAt   completion;conclusion
 
-    noun     Identity                  {- tatim~ap -}       `others` [ "tatimm NapAt" ]
-                                                            `gloss`  [ "completion", "conclusion" ] ]
+    noun     Identity                  {- tatim~ap -}       `gloss`  [ "completion", "conclusion" ] ]
 
  |> "tibit" <| [
 
@@ -1127,13 +1224,6 @@ lexicon = listing "Lexicon properties"
 
     noun     Identity                  {- tiylostruwm -}    `gloss`  [ "Tillstrom" ] ]
 
- |> "tiyriy" <| [
-
-    -- ;; tiyriy_1
-    -- tyry    tiyriy  Nprop   Thierry
-
-    noun     Identity                  {- tiyriy -}         `gloss`  [ "Thierry" ] ]
-
  |> "tiyriyzA" <| [
 
     -- ;; tiyriyzA_1
@@ -1184,14 +1274,6 @@ lexicon = listing "Lexicon properties"
     -- thAmy   tuhAmiy Nprop   Tuhami
 
     noun     Identity                  {- tuhAmiy -}        `gloss`  [ "Tuhami" ] ]
-
- |> "turrah" <| [
-
-    -- ;; tur~ahap_1
-    -- trh     tur~ah  NapAt   farce;hoax
-
-    noun     Identity                  {- tur~ahap -}       `others` [ "turrah NapAt" ]
-                                                            `gloss`  [ "farce", "hoax" ] ]
 
  |> "tuwAliyt" <| [
 

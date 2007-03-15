@@ -6,76 +6,6 @@ package Elixir::Data::Lexicons::Lexicon22;
 
 
 $lexicon = {
-  '' => [
-    {
-      'types' => {
-        'km' => {
-          'FW' => 1
-        }
-      },
-      'entry' => undef,
-      'others' => [
-        'km FW'
-      ],
-      'lines' => [
-        'km      km      FW      kilometer(s)     [[km/ABBREV]]'
-      ],
-      'glosses' => [
-        [
-          '"kilometer ( s ) [ [ km / ABBREV ] ]"'
-        ]
-      ],
-      'suffix' => '',
-      'morphs' => 'Identity',
-      'glosshash' => {
-        '"kilometer ( s ) [ [ km / ABBREV ] ]"' => 1
-      },
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'kuwb' => {
-          'Ndu' => 1
-        },
-        '\'akwAb' => {
-          'N' => 2
-        }
-      },
-      'entry' => undef,
-      'others' => [
-        'kuwb Ndu',
-        '\'akwAb N'
-      ],
-      'lines' => [
-        'kwb     kuwb    Ndu     cup;glass',
-        '>kwAb   >akowAb N       cups;glasses',
-        'AkwAb   >akowAb N       cups;glasses'
-      ],
-      'glosses' => [
-        [
-          '"cup"'
-        ],
-        [
-          '"glass"'
-        ],
-        [
-          '"cups"'
-        ],
-        [
-          '"glasses"'
-        ]
-      ],
-      'suffix' => '',
-      'morphs' => 'Identity',
-      'glosshash' => {
-        '"glasses"' => 1,
-        '"glass"' => 1,
-        '"cup"' => 1,
-        '"cups"' => 1
-      },
-      'prefix' => ''
-    }
-  ],
   'kzAfyyh' => [
     {
       'types' => {},
@@ -191,16 +121,9 @@ $lexicon = {
   ],
   'k n y' => [
     {
-      'types' => {
-        'kinAy' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kinAy',
       'form' => 'kinAyaT',
-      'others' => [
-        'kinAy Nap'
-      ],
       'lines' => [
         ';; kinAyap_1',
         'knAy    kinAy   Nap     allusion;equivocal'
@@ -277,16 +200,9 @@ $lexicon = {
   ],
   'k b s' => [
     {
-      'types' => {
-        'kabs' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kabs',
       'form' => 'kabsaT',
-      'others' => [
-        'kabs Napdu'
-      ],
       'lines' => [
         ';; kabosap_1',
         'kbs     kabos   Napdu   raid;surprise attack'
@@ -534,16 +450,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'kafAl' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kafAl',
       'form' => 'kafAlaT',
-      'others' => [
-        'kafAl Nap'
-      ],
       'lines' => [
         ';; kafAlap_1',
         'kfAl    kafAl   Nap     bail;deposit;collateral'
@@ -706,16 +615,12 @@ $lexicon = {
       'types' => {
         'kawAri_t' => {
           'Ndip' => 1
-        },
-        'kAri_t' => {
-          'Napdu' => 1
         }
       },
       'entry' => 'kAri_t',
       'form' => 'kAri_taT',
       'others' => [
-        'kawAri_t Ndip',
-        'kAri_t Napdu'
+        'kawAri_t Ndip'
       ],
       'lines' => [
         ';; kArivap_1',
@@ -998,6 +903,59 @@ $lexicon = {
   ],
   'k r m' => [
     {
+      'types' => {
+        'krim' => {
+          'IV_yu' => 1
+        },
+        'kram' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => '\'akram',
+      'form' => '\'akram',
+      'others' => [
+        'krim IV_yu',
+        'kram IV_Pass_yu'
+      ],
+      'lines' => [
+        ';; >akoram_1',
+        '>krm    >akoram PV      honor;bestow honor upon;confer',
+        'Akrm    >akoram PV      honor;bestow honor upon;confer',
+        'krm     korim   IV_yu   honor;bestow honor upon;confer',
+        'krm     koram   IV_Pass_yu      be honored;be conferred'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"honor"'
+        ],
+        [
+          '"bestow honor upon"'
+        ],
+        [
+          '"confer"'
+        ],
+        [
+          '"be honored"'
+        ],
+        [
+          '"be conferred"'
+        ]
+      ],
+      'glosshash' => {
+        '"confer"' => 1,
+        '"be honored"' => 1,
+        '"be conferred"' => 1,
+        '"honor"' => 1,
+        '"bestow honor upon"' => 1
+      },
+      'orig' => 'Oakoram',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'karam',
       'form' => 'karam',
@@ -1048,16 +1006,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'karAm' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'karAm',
       'form' => 'karAmaT',
-      'others' => [
-        'karAm Nap'
-      ],
       'lines' => [
         ';; karAmap_1',
         'krAm    karAm   Nap     dignity;generosity'
@@ -1082,16 +1033,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'karAm' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'karAm',
       'form' => 'karAmaT',
-      'others' => [
-        'karAm Nap'
-      ],
       'lines' => [
         ';; karAmap_2',
         'krAm    karAm   Nap     Karama'
@@ -1198,16 +1142,12 @@ $lexicon = {
       'types' => {
         'karA\'im' => {
           'Ndip' => 1
-        },
-        'kariym' => {
-          'Napdu' => 1
         }
       },
       'entry' => 'kariym',
       'form' => 'kariymaT',
       'others' => [
-        'karA\'im Ndip',
-        'kariym Napdu'
+        'karA\'im Ndip'
       ],
       'lines' => [
         ';; kariymap_2',
@@ -1234,16 +1174,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'kariym' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kariym',
       'form' => 'kariymaT',
-      'others' => [
-        'kariym Nap'
-      ],
       'lines' => [
         ';; kariymap_3',
         'krym    kariym  Nap     Karima;Kareema'
@@ -1342,15 +1275,15 @@ $lexicon = {
       'suffix' => '',
       'glosses' => [
         [
-          '"K_ohler"'
+          '"Köhler"'
         ],
         [
           '"Koehler"'
         ]
       ],
       'glosshash' => {
-        '"Koehler"' => 1,
-        '"K_ohler"' => 1
+        "\"K\x{f6}hler\"" => 1,
+        '"Koehler"' => 1
       },
       'orig' => 'kuwholir',
       'prefix' => ''
@@ -1432,9 +1365,6 @@ $lexicon = {
   'k k r' => [
     {
       'types' => {
-        'kur' => {
-          'NapAt' => 1
-        },
         'kurY' => {
           'N0' => 1
         },
@@ -1445,7 +1375,6 @@ $lexicon = {
       'entry' => 'kur',
       'form' => 'kuraT',
       'others' => [
-        'kur NapAt',
         'kurY N0',
         'kurA Nhy'
       ],
@@ -1717,31 +1646,6 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'kiyliy' => [
-    {
-      'types' => {},
-      'entry' => 'kiyliy',
-      'form' => 'kiyliy',
-      'lines' => [
-        ';; kiyliy_1',
-        'kyly    kiyliy  Nprop   Kelly'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"Kelly"'
-        ]
-      ],
-      'glosshash' => {
-        '"Kelly"' => 1
-      },
-      'orig' => 'kiyliy',
-      'prefix' => ''
-    }
-  ],
   'k w m d' => [
     {
       'types' => {},
@@ -1768,6 +1672,45 @@ $lexicon = {
         '"comic"' => 1
       },
       'orig' => 'kuwmiydiy~',
+      'prefix' => ''
+    }
+  ],
+  '\'uk_duwb' => [
+    {
+      'types' => {
+        '\'akA_diyb' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'uk_duwb',
+      'form' => '\'uk_duwbaT',
+      'others' => [
+        '\'akA_diyb Ndip'
+      ],
+      'lines' => [
+        ';; >uko*uwbap_1',
+        '>k*wb   >uko*uwb        Napdu   lie',
+        'Ak*wb   >uko*uwb        Napdu   lie',
+        '>kA*yb  >akA*iyb        Ndip    lies',
+        'AkA*yb  >akA*iyb        Ndip    lies'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"lie"'
+        ],
+        [
+          '"lies"'
+        ]
+      ],
+      'glosshash' => {
+        '"lie"' => 1,
+        '"lies"' => 1
+      },
+      'orig' => 'Ouko*uwbap',
       'prefix' => ''
     }
   ],
@@ -1973,31 +1916,6 @@ $lexicon = {
         '"Kristy"' => 1
       },
       'orig' => 'kriystiy',
-      'prefix' => ''
-    }
-  ],
-  'kiyfin' => [
-    {
-      'types' => {},
-      'entry' => 'kiyfin',
-      'form' => 'kiyfin',
-      'lines' => [
-        ';; kiyfin_1',
-        'kyfn    kiyfin  Nprop   Kevin'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"Kevin"'
-        ]
-      ],
-      'glosshash' => {
-        '"Kevin"' => 1
-      },
-      'orig' => 'kiyfin',
       'prefix' => ''
     }
   ],
@@ -2413,9 +2331,6 @@ $lexicon = {
         'kunfiydrAliyy' => {
           'Nap' => 1
         },
-        'kunfidrAliyy' => {
-          'Nap' => 1
-        },
         'kuwnfidrAliyy' => {
           'Nap' => 1
         },
@@ -2427,7 +2342,6 @@ $lexicon = {
       'form' => 'kunfidrAliyyaT',
       'others' => [
         'kunfiydrAliyy Nap',
-        'kunfidrAliyy Nap',
         'kuwnfidrAliyy Nap',
         'kuwnfiydrAliyy Nap'
       ],
@@ -3467,16 +3381,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ki_db' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ki_db',
       'form' => 'ki_dbaT',
-      'others' => [
-        'ki_db Nap'
-      ],
       'lines' => [
         ';; ki*obap_1',
         'k*b     ki*ob   Nap     lie;untruth'
@@ -3552,6 +3459,31 @@ $lexicon = {
         '"false"' => 1
       },
       'orig' => 'kA*ib',
+      'prefix' => ''
+    }
+  ],
+  'k y t y' => [
+    {
+      'types' => {},
+      'entry' => 'kiytiy',
+      'form' => 'kiytiy',
+      'lines' => [
+        ';; kiytiy_1',
+        'kyty    kiytiy  Nprop   Kitty'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDiS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Kitty"'
+        ]
+      ],
+      'glosshash' => {
+        '"Kitty"' => 1
+      },
+      'orig' => 'kiytiy',
       'prefix' => ''
     }
   ],
@@ -3668,16 +3600,12 @@ $lexicon = {
       'types' => {
         'kadam' => {
           'NAt' => 1
-        },
-        'kadm' => {
-          'Napdu' => 1
         }
       },
       'entry' => 'kadm',
       'form' => 'kadmaT',
       'others' => [
-        'kadam NAt',
-        'kadm Napdu'
+        'kadam NAt'
       ],
       'lines' => [
         ';; kadomap_1',
@@ -3759,7 +3687,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCY',
+      'morphs' => 'FaCaNY',
       'glosses' => [
         [
           '"be enough"'
@@ -3780,16 +3708,25 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'kifAy' => {
-          'Nap' => 1
-        }
-      },
+      'types' => $lexicon->{'k f y'}[0]{'types'},
+      'entry' => 'kafY',
+      'form' => 'kafY',
+      'others' => $lexicon->{'k f y'}[0]{'others'},
+      'lines' => $lexicon->{'k f y'}[0]{'lines'},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaNY',
+      'glosses' => $lexicon->{'k f y'}[0]{'glosses'},
+      'suffix' => '',
+      'imperf' => $lexicon->{'k f y'}[0]{'imperf'},
+      'glosshash' => $lexicon->{'k f y'}[0]{'glosshash'},
+      'orig' => 'kafaY-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'kifAy',
       'form' => 'kifAyaT',
-      'others' => [
-        'kifAy Nap'
-      ],
       'lines' => [
         ';; kifAyap_1',
         'kfAy    kifAy   Nap     sufficiency;competence'
@@ -4040,16 +3977,9 @@ $lexicon = {
   ],
   'k r k' => [
     {
-      'types' => {
-        'karrAk' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'karrAk',
       'form' => 'karrAkaT',
-      'others' => [
-        'karrAk NapAt'
-      ],
       'lines' => [
         ';; kar~Akap_1',
         'krAk    kar~Ak  NapAt   dredging machine;penitentiary'
@@ -4165,16 +4095,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mukAfa.h' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mukAfa.h',
       'form' => 'mukAfa.haT',
-      'others' => [
-        'mukAfa.h NapAt'
-      ],
       'lines' => [
         ';; mukAfaHap_1',
         'mkAfH   mukAfaH NapAt   confrontation;battle'
@@ -4615,9 +4538,6 @@ $lexicon = {
     },
     {
       'types' => {
-        'kaniys' => {
-          'Napdu' => 1
-        },
         'kanA\'is' => {
           'Ndip' => 1
         }
@@ -4625,7 +4545,6 @@ $lexicon = {
       'entry' => 'kaniys',
       'form' => 'kaniysaT',
       'others' => [
-        'kaniys Napdu',
         'kanA\'is Ndip'
       ],
       'lines' => [
@@ -4685,9 +4604,6 @@ $lexicon = {
     },
     {
       'types' => {
-        'miknas' => {
-          'Napdu' => 1
-        },
         'makAnis' => {
           'Ndip' => 1
         }
@@ -4695,7 +4611,6 @@ $lexicon = {
       'entry' => 'miknas',
       'form' => 'miknasaT',
       'others' => [
-        'miknas Napdu',
         'makAnis Ndip'
       ],
       'lines' => [
@@ -4790,16 +4705,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'kuwfiyy' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kuwf',
       'form' => 'kuwfiyyaT',
-      'others' => [
-        'kuwfiyy NapAt'
-      ],
       'lines' => [
         ';; kuwfiy~ap_1',
         'kwfy    kuwfiy~ NapAt   kaffiyeh     [[kuwfiy~/NOUN]]'
@@ -4823,7 +4731,6 @@ $lexicon = {
       'types' => $lexicon->{'k w f'}[1]{'types'},
       'entry' => 'kuwf',
       'form' => 'kuwfiyyaT',
-      'others' => $lexicon->{'k w f'}[1]{'others'},
       'lines' => $lexicon->{'k w f'}[1]{'lines'},
       'index' => '1',
       'entity' => 'noun',
@@ -4861,6 +4768,55 @@ $lexicon = {
     }
   ],
   'k m l' => [
+    {
+      'types' => {
+        'kmil' => {
+          'IV_yu' => 1
+        },
+        'kmal' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => '\'akmal',
+      'form' => '\'akmal',
+      'others' => [
+        'kmil IV_yu',
+        'kmal IV_Pass_yu'
+      ],
+      'lines' => [
+        ';; >akomal_1',
+        '>kml    >akomal PV      complete;finish',
+        'Akml    >akomal PV      complete;finish',
+        'kml     komil   IV_yu   complete;finish',
+        'kml     komal   IV_Pass_yu      be completed;be finished'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"complete"'
+        ],
+        [
+          '"finish"'
+        ],
+        [
+          '"be completed"'
+        ],
+        [
+          '"be finished"'
+        ]
+      ],
+      'glosshash' => {
+        '"be finished"' => 1,
+        '"be completed"' => 1,
+        '"complete"' => 1,
+        '"finish"' => 1
+      },
+      'orig' => 'Oakomal',
+      'prefix' => ''
+    },
     {
       'types' => {},
       'entry' => 'takAmal',
@@ -4949,6 +4905,30 @@ $lexicon = {
     },
     {
       'types' => {},
+      'entry' => '\'akmal',
+      'form' => '\'akmal',
+      'lines' => [
+        ';; >akomal_2',
+        '>kml    >akomal Nel     more/most complete/perfect',
+        'Akml    >akomal Nel     more/most complete/perfect'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"more / most complete / perfect"'
+        ]
+      ],
+      'glosshash' => {
+        '"more / most complete / perfect"' => 1
+      },
+      'orig' => 'Oakomal',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'takmiyl',
       'form' => 'takmiyliyy',
       'lines' => [
@@ -4972,6 +4952,38 @@ $lexicon = {
         '"supplementary [ [ takomiyliy ~ / ADJ ] ]"' => 1
       },
       'orig' => 'takomiyliy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'ikmAl',
+      'form' => '\'ikmAl',
+      'lines' => [
+        ';; <ikomAl_1',
+        '<kmAl   <ikomAl N/At    completion;conclusion;perfection',
+        'AkmAl   <ikomAl N/At    completion;conclusion;perfection'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"completion"'
+        ],
+        [
+          '"conclusion"'
+        ],
+        [
+          '"perfection"'
+        ]
+      ],
+      'glosshash' => {
+        '"conclusion"' => 1,
+        '"completion"' => 1,
+        '"perfection"' => 1
+      },
+      'orig' => 'IikomAl',
       'prefix' => ''
     },
     {
@@ -5154,74 +5166,6 @@ $lexicon = {
         '"completed"' => 1
       },
       'orig' => 'mukotamal',
-      'prefix' => ''
-    }
-  ],
-  'kuraw' => [
-    {
-      'types' => {},
-      'entry' => 'kuraw',
-      'form' => 'kurawiyy',
-      'lines' => [
-        ';; kurawiy~_1',
-        'krwy    kurawiy~        N-ap    soccer-related;(sports) ball-related     [[kurawiy~/ADJ]]'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        [
-          '"soccer-related"'
-        ],
-        [
-          '"( sports ) ball-related [ [ kurawiy ~ / ADJ ] ]"'
-        ]
-      ],
-      'glosshash' => {
-        '"soccer-related"' => 1,
-        '"( sports ) ball-related [ [ kurawiy ~ / ADJ ] ]"' => 1
-      },
-      'orig' => 'kurawiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'kuwrawiyy' => {
-          'N-ap' => 1
-        }
-      },
-      'entry' => 'kuraw',
-      'form' => 'kurawiyy',
-      'others' => [
-        'kuwrawiyy N-ap'
-      ],
-      'lines' => [
-        ';; kurawiy~_2',
-        'krwy    kurawiy~        N-ap    globular;spherical     [[kurawiy~/ADJ]]',
-        'kwrwy   kuwrawiy~       N-ap    globular;spherical     [[kuwrawiy~/ADJ]]'
-      ],
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        [
-          '"globular"'
-        ],
-        [
-          '"spherical [ [ kurawiy ~ / ADJ ] ]"'
-        ],
-        [
-          '"spherical [ [ kuwrawiy ~ / ADJ ] ]"'
-        ]
-      ],
-      'glosshash' => {
-        '"globular"' => 1,
-        '"spherical [ [ kurawiy ~ / ADJ ] ]"' => 1,
-        '"spherical [ [ kuwrawiy ~ / ADJ ] ]"' => 1
-      },
-      'orig' => 'kurawiy~',
       'prefix' => ''
     }
   ],
@@ -5938,16 +5882,9 @@ $lexicon = {
   ],
   'kuwnt' => [
     {
-      'types' => {
-        'kuwntiyy' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kuwnt',
       'form' => 'kuwntiyyaT',
-      'others' => [
-        'kuwntiyy NapAt'
-      ],
       'lines' => [
         ';; kuwnotiy~ap_1',
         'kwnty   kuwnotiy~       NapAt   county'
@@ -6183,6 +6120,103 @@ $lexicon = {
         '"adults"' => 1
       },
       'orig' => 'kabiyr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'akbar',
+      'form' => '\'akbar',
+      'lines' => [
+        ';; >akobar_2',
+        '>kbr    >akobar Nel     larger/largest;greater/greatest     [[>akobar/ADJ]]',
+        'Akbr    >akobar Nel     larger/largest;greater/greatest     [[>akobar/ADJ]]'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"larger / largest"'
+        ],
+        [
+          '"greater / greatest [ [ >akobar / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"greater / greatest [ [ >akobar / ADJ ] ]"' => 1,
+        '"larger / largest"' => 1
+      },
+      'orig' => 'Oakobar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'akAbir' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'akbar',
+      'form' => '\'akbar',
+      'others' => [
+        '\'akAbir Ndip'
+      ],
+      'lines' => [
+        ';; >akobar_3',
+        '>kbr    >akobar Nel     senior;important     [[>akobar/ADJ]]',
+        'Akbr    >akobar Nel     senior;important     [[>akobar/ADJ]]',
+        '>kAbr   >akAbir Ndip    seniors;leaders',
+        'AkAbr   >akAbir Ndip    seniors;leaders'
+      ],
+      'index' => '3',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"senior"'
+        ],
+        [
+          '"important [ [ >akobar / ADJ ] ]"'
+        ],
+        [
+          '"seniors"'
+        ],
+        [
+          '"leaders"'
+        ]
+      ],
+      'glosshash' => {
+        '"leaders"' => 1,
+        '"important [ [ >akobar / ADJ ] ]"' => 1,
+        '"senior"' => 1,
+        '"seniors"' => 1
+      },
+      'orig' => 'Oakobar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'akbar',
+      'form' => '\'akbar',
+      'lines' => [
+        ';; >akobar_4',
+        '>kbr    >akobar N0      Akbar',
+        'Akbr    >akobar N0      Akbar'
+      ],
+      'index' => '4',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Akbar"'
+        ]
+      ],
+      'glosshash' => {
+        '"Akbar"' => 1
+      },
+      'orig' => 'Oakobar',
       'prefix' => ''
     },
     {
@@ -6841,16 +6875,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'kurayy' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kurayy',
       'form' => 'kurayyaT',
-      'others' => [
-        'kurayy NapAt'
-      ],
       'lines' => [
         ';; kuray~ap_1',
         'kry     kuray~  NapAt   globule;pellet;corpuscle'
@@ -7076,6 +7103,68 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'k n n' => [
+    {
+      'types' => {
+        'knin' => {
+          'IV_C_yu' => 1
+        },
+        'kann' => {
+          'IV_V_Pass_yu' => 1
+        },
+        '\'aknan' => {
+          'PV_Cn' => 2
+        },
+        'kinn' => {
+          'IV_V_yu' => 1
+        }
+      },
+      'entry' => '\'akann',
+      'form' => '\'akann',
+      'others' => [
+        'knin IV_C_yu',
+        'kann IV_V_Pass_yu',
+        '\'aknan PV_Cn',
+        'kinn IV_V_yu'
+      ],
+      'lines' => [
+        ';; >akan~_1',
+        '>kn     >akan~  PV_V    conceal;hide',
+        'Akn     >akan~  PV_V    conceal;hide',
+        '>knn    >akonan PV_Cn   conceal;hide',
+        'Aknn    >akonan PV_Cn   conceal;hide',
+        'kn      kin~    IV_V_yu conceal;hide',
+        'knn     konin   IV_C_yu conceal;hide',
+        'kn      kan~    IV_V_Pass_yu    be concealed;be hidden'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"conceal"'
+        ],
+        [
+          '"hide"'
+        ],
+        [
+          '"be concealed"'
+        ],
+        [
+          '"be hidden"'
+        ]
+      ],
+      'glosshash' => {
+        '"be hidden"' => 1,
+        '"conceal"' => 1,
+        '"be concealed"' => 1,
+        '"hide"' => 1
+      },
+      'orig' => 'Oakan~',
+      'prefix' => ''
+    }
+  ],
   'k n w' => [
     {
       'types' => {
@@ -7147,6 +7236,74 @@ $lexicon = {
         '"Kazim"' => 1
       },
       'orig' => 'kAZim',
+      'prefix' => ''
+    }
+  ],
+  'k r w' => [
+    {
+      'types' => {},
+      'entry' => 'kuraw',
+      'form' => 'kurawiyy',
+      'lines' => [
+        ';; kurawiy~_1',
+        'krwy    kurawiy~        N-ap    soccer-related;(sports) ball-related     [[kurawiy~/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCaL',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"soccer-related"'
+        ],
+        [
+          '"( sports ) ball-related [ [ kurawiy ~ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"soccer-related"' => 1,
+        '"( sports ) ball-related [ [ kurawiy ~ / ADJ ] ]"' => 1
+      },
+      'orig' => 'kurawiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'kuwrawiyy' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'kuraw',
+      'form' => 'kurawiyy',
+      'others' => [
+        'kuwrawiyy N-ap'
+      ],
+      'lines' => [
+        ';; kurawiy~_2',
+        'krwy    kurawiy~        N-ap    globular;spherical     [[kurawiy~/ADJ]]',
+        'kwrwy   kuwrawiy~       N-ap    globular;spherical     [[kuwrawiy~/ADJ]]'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FuCaL',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"globular"'
+        ],
+        [
+          '"spherical [ [ kurawiy ~ / ADJ ] ]"'
+        ],
+        [
+          '"spherical [ [ kuwrawiy ~ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"globular"' => 1,
+        '"spherical [ [ kurawiy ~ / ADJ ] ]"' => 1,
+        '"spherical [ [ kuwrawiy ~ / ADJ ] ]"' => 1
+      },
+      'orig' => 'kurawiy~',
       'prefix' => ''
     }
   ],
@@ -7398,16 +7555,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'kitAb' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kitAb',
       'form' => 'kitAbaT',
-      'others' => [
-        'kitAb Nap'
-      ],
       'lines' => [
         ';; kitAbap_1',
         'ktAb    kitAb   Nap     writing'
@@ -7430,14 +7580,13 @@ $lexicon = {
     {
       'types' => {
         'kitAb' => {
-          'NAt' => 1,
-          'Napdu' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'kitAb',
       'form' => 'kitAbaT',
       'others' => [
-        'kitAb NAt Napdu'
+        'kitAb NAt'
       ],
       'lines' => [
         ';; kitAbap_2',
@@ -7473,9 +7622,6 @@ $lexicon = {
     },
     {
       'types' => {
-        'katiyb' => {
-          'Napdu' => 1
-        },
         'katA\'ib' => {
           'Ndip' => 2
         }
@@ -7483,7 +7629,6 @@ $lexicon = {
       'entry' => 'katiyb',
       'form' => 'katiybaT',
       'others' => [
-        'katiyb Napdu',
         'katA\'ib Ndip'
       ],
       'lines' => [
@@ -7601,16 +7746,12 @@ $lexicon = {
       'types' => {
         'makAtib' => {
           'Ndip' => 1
-        },
-        'maktab' => {
-          'NapAt' => 1
         }
       },
       'entry' => 'maktab',
       'form' => 'maktabaT',
       'others' => [
-        'makAtib Ndip',
-        'maktab NapAt'
+        'makAtib Ndip'
       ],
       'lines' => [
         ';; makotabap_1',
@@ -7770,16 +7911,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'kayfiyy' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kayf',
       'form' => 'kayfiyyaT',
-      'others' => [
-        'kayfiyy Nap'
-      ],
       'lines' => [
         ';; kayofiy~ap_1',
         'kyfy    kayofiy~        Nap     manner;mode;way     [[kayofiy~/NOUN]]'
@@ -7881,6 +8015,31 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'k y f n' => [
+    {
+      'types' => {},
+      'entry' => 'kiyfin',
+      'form' => 'kiyfin',
+      'lines' => [
+        ';; kiyfin_1',
+        'kyfn    kiyfin  Nprop   Kevin'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDiS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Kevin"'
+        ]
+      ],
+      'glosshash' => {
+        '"Kevin"' => 1
+      },
+      'orig' => 'kiyfin',
+      'prefix' => ''
+    }
+  ],
   'k l w' => [
     {
       'types' => {
@@ -7888,9 +8047,6 @@ $lexicon = {
           'N0' => 1
         },
         'kuly' => {
-          'NapAt' => 1
-        },
-        'kulw' => {
           'NapAt' => 1
         },
         'kulA' => {
@@ -7902,7 +8058,6 @@ $lexicon = {
       'others' => [
         'kulY N0',
         'kuly NapAt',
-        'kulw NapAt',
         'kulA Nhy'
       ],
       'lines' => [
@@ -8315,6 +8470,34 @@ $lexicon = {
     },
     {
       'types' => {},
+      'entry' => '\'iksAb',
+      'form' => '\'iksAb',
+      'lines' => [
+        ';; <ikosAb_1',
+        '<ksAb   <ikosAb N/At    imparting to;allowing to gain',
+        'AksAb   <ikosAb N/At    imparting to;allowing to gain'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"imparting to"'
+        ],
+        [
+          '"allowing to gain"'
+        ]
+      ],
+      'glosshash' => {
+        '"allowing to gain"' => 1,
+        '"imparting to"' => 1
+      },
+      'orig' => 'IikosAb',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'muksib',
       'form' => 'muksib',
       'lines' => [
@@ -8575,16 +8758,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'kulliyy' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kull',
       'form' => 'kulliyyaT',
-      'others' => [
-        'kulliyy NapAt'
-      ],
       'lines' => [
         ';; kul~iy~ap_1',
         'kly     kul~iy~ NapAt   faculty;college;institute     [[kul~iy~/NOUN]]'
@@ -8615,14 +8791,13 @@ $lexicon = {
     {
       'types' => {
         'kulliyy' => {
-          'Nap' => 1,
           'NAt' => 1
         }
       },
       'entry' => 'kull',
       'form' => 'kulliyyaT',
       'others' => [
-        'kulliyy Nap NAt'
+        'kulliyy NAt'
       ],
       'lines' => [
         ';; kul~iy~ap_2',
@@ -8703,6 +8878,31 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'k y l y' => [
+    {
+      'types' => {},
+      'entry' => 'kiyliy',
+      'form' => 'kiyliy',
+      'lines' => [
+        ';; kiyliy_1',
+        'kyly    kiyliy  Nprop   Kelly'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDiS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Kelly"'
+        ]
+      ],
+      'glosshash' => {
+        '"Kelly"' => 1
+      },
+      'orig' => 'kiyliy',
+      'prefix' => ''
+    }
+  ],
   'kuwrniykuwfA' => [
     {
       'types' => {},
@@ -8764,6 +8964,51 @@ $lexicon = {
   'k f \'' => [
     {
       'types' => {
+        'kAfa\'A' => {
+          'PV-|' => 1
+        },
+        'kAfi\'' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => 'kAfa\'',
+      'form' => 'kAfa\'',
+      'others' => [
+        'kAfa\'A PV-|',
+        'kAfi\' IV_yu'
+      ],
+      'lines' => [
+        ';; kAfa>_1',
+        'kAf>    kAfa>   PV->    reward;repay;compensate',
+        'kAf|    kAfa|   PV-|    reward;repay;compensate',
+        'kAf&    kAfa&   PV_w    reward;repay;compensate',
+        'kAf}    kAfi}   IV_yu   reward;repay;compensate'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FACaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"reward"'
+        ],
+        [
+          '"repay"'
+        ],
+        [
+          '"compensate"'
+        ]
+      ],
+      'glosshash' => {
+        '"compensate"' => 1,
+        '"repay"' => 1,
+        '"reward"' => 1
+      },
+      'orig' => 'kAfaO',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '\'akfA\'' => {
           'Nh' => 2,
           'Nhy' => 2,
@@ -8806,16 +9051,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'kafA\'' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kafA\'',
       'form' => 'kafA\'aT',
-      'others' => [
-        'kafA\' Nap'
-      ],
       'lines' => [
         ';; kafA\'ap_1',
         'kfA\'    kafA\'   Nap     competence;suitability;proficiency'
@@ -8841,6 +9079,77 @@ $lexicon = {
         '"competence"' => 1
       },
       'orig' => 'kafA\'ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mukAfa' => {
+          'N-|t' => 1
+        }
+      },
+      'entry' => 'mukAfa\'',
+      'form' => 'mukAfa\'aT',
+      'others' => [
+        'mukAfa N-|t'
+      ],
+      'lines' => [
+        ';; mukAfa>ap_1',
+        'mkAf>   mukAfa> Napdu   compensation;reward;remuneration',
+        'mkAf    mukAfa  N-|t    compensation;rewards;remuneration'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFACaL',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"compensation"'
+        ],
+        [
+          '"reward"'
+        ],
+        [
+          '"remuneration"'
+        ],
+        [
+          '"rewards"'
+        ]
+      ],
+      'glosshash' => {
+        '"compensation"' => 1,
+        '"rewards"' => 1,
+        '"remuneration"' => 1,
+        '"reward"' => 1
+      },
+      'orig' => 'mukAfaOap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'takAfu\'',
+      'form' => 'takAfu\'',
+      'lines' => [
+        ';; takAfu&_1',
+        'tkAf&   takAfu& N/At    equality;equal',
+        'tkAf}   takAfu} Nhy     equality;equal'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFACuL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"equality"'
+        ],
+        [
+          '"equal"'
+        ]
+      ],
+      'glosshash' => {
+        '"equal"' => 1,
+        '"equality"' => 1
+      },
+      'orig' => 'takAfuW',
       'prefix' => ''
     },
     {
@@ -9011,16 +9320,9 @@ $lexicon = {
   ],
   'k w r' => [
     {
-      'types' => {
-        'kuwriyy' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kuwr',
       'form' => 'kuwriyyaT',
-      'others' => [
-        'kuwriyy Napdu'
-      ],
       'lines' => [
         ';; kuwriy~ap_1',
         'kwry    kuwriy~ Napdu   Korea'
@@ -9044,7 +9346,6 @@ $lexicon = {
       'types' => $lexicon->{'k w r'}[0]{'types'},
       'entry' => 'kuwr',
       'form' => 'kuwriyyaT',
-      'others' => $lexicon->{'k w r'}[0]{'others'},
       'lines' => $lexicon->{'k w r'}[0]{'lines'},
       'index' => '1',
       'entity' => 'noun',
@@ -9263,16 +9564,33 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ka_tAf' => {
-          'Nap' => 1
-        }
+      'types' => {},
+      'entry' => '\'ak_taf',
+      'form' => '\'ak_taf',
+      'lines' => [
+        ';; >akovaf_1',
+        '>kvf    >akovaf Nel     more/most intense/concentrated',
+        'Akvf    >akovaf Nel     more/most intense/concentrated'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"more / most intense / concentrated"'
+        ]
+      ],
+      'glosshash' => {
+        '"more / most intense / concentrated"' => 1
       },
+      'orig' => 'Oakovaf',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'ka_tAf',
       'form' => 'ka_tAfaT',
-      'others' => [
-        'ka_tAf Nap'
-      ],
       'lines' => [
         ';; kavAfap_1',
         'kvAf    kavAf   Nap     density;compactness'
@@ -9375,6 +9693,83 @@ $lexicon = {
         '"intensive"' => 1
       },
       'orig' => 'mukav~af',
+      'prefix' => ''
+    }
+  ],
+  '\'ikliyl' => [
+    {
+      'types' => {
+        '\'akAliyl' => {
+          'Ndip' => 2
+        },
+        '\'akill' => {
+          'Nap' => 2
+        }
+      },
+      'entry' => '\'ikliyl',
+      'form' => '\'ikliyl',
+      'others' => [
+        '\'akAliyl Ndip',
+        '\'akill Nap'
+      ],
+      'lines' => [
+        ';; <ikoliyl_1',
+        '<klyl   <ikoliyl        Ndu     halo;corona',
+        'Aklyl   <ikoliyl        Ndu     halo;corona',
+        '>kAlyl  >akAliyl        Ndip    halos;coronas',
+        'AkAlyl  >akAliyl        Ndip    halos;coronas',
+        '>kl     >akil~  Nap     halos;coronas',
+        'Akl     >akil~  Nap     halos;coronas'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"halo"'
+        ],
+        [
+          '"corona"'
+        ],
+        [
+          '"halos"'
+        ],
+        [
+          '"coronas"'
+        ]
+      ],
+      'glosshash' => {
+        '"coronas"' => 1,
+        '"corona"' => 1,
+        '"halo"' => 1,
+        '"halos"' => 1
+      },
+      'orig' => 'Iikoliyl',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'ikliyl',
+      'form' => '\'ikliyliyy',
+      'lines' => [
+        ';; <ikoliyliy~_1',
+        '<klyly  <ikoliyliy~     N-ap    coronal     [[<ikoliyliy~/ADJ]]',
+        'Aklyly  <ikoliyliy~     N-ap    coronal     [[<ikoliyliy~/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"coronal [ ["'
+        ]
+      ],
+      'glosshash' => {
+        '"coronal [ ["' => 1
+      },
+      'orig' => 'Iikoliyliy~',
       'prefix' => ''
     }
   ],
@@ -9580,16 +9975,12 @@ $lexicon = {
       'types' => {
         'kulaf' => {
           'N' => 1
-        },
-        'kulf' => {
-          'Nap' => 1
         }
       },
       'entry' => 'kulf',
       'form' => 'kulfaT',
       'others' => [
-        'kulaf N',
-        'kulf Nap'
+        'kulaf N'
       ],
       'lines' => [
         ';; kulofap_1',
@@ -9707,16 +10098,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'taklif' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'taklif',
       'form' => 'taklifaT',
-      'others' => [
-        'taklif Nap'
-      ],
       'lines' => [
         ';; takolifap_1',
         'tklf    takolif Nap     cost computation'
@@ -9768,16 +10152,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mukallaf' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mukallaf',
       'form' => 'mukallafaT',
-      'others' => [
-        'mukallaf NapAt'
-      ],
       'lines' => [
         ';; mukal~afap_1',
         'mklf    mukal~af        NapAt   terrier'
@@ -9795,31 +10172,6 @@ $lexicon = {
         '"terrier"' => 1
       },
       'orig' => 'mukal~afap',
-      'prefix' => ''
-    }
-  ],
-  'kiytiy' => [
-    {
-      'types' => {},
-      'entry' => 'kiytiy',
-      'form' => 'kiytiy',
-      'lines' => [
-        ';; kiytiy_1',
-        'kyty    kiytiy  Nprop   Kitty'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"Kitty"'
-        ]
-      ],
-      'glosshash' => {
-        '"Kitty"' => 1
-      },
-      'orig' => 'kiytiy',
       'prefix' => ''
     }
   ],
@@ -9870,6 +10222,39 @@ $lexicon = {
         '"Corp ."' => 1
       },
       'orig' => 'kuwrob',
+      'prefix' => ''
+    }
+  ],
+  'kambyuwtir' => [
+    {
+      'types' => {
+        'kuwmbyuwtir' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'kambyuwtir',
+      'form' => 'kambyuwtir',
+      'others' => [
+        'kuwmbyuwtir NduAt'
+      ],
+      'lines' => [
+        ';; kamobyuwtir_1',
+        'kmbywtr kamobyuwtir     NduAt   computer',
+        'kwmbywtr        kuwmobyuwtir    NduAt   computer'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"computer"'
+        ]
+      ],
+      'glosshash' => {
+        '"computer"' => 1
+      },
+      'orig' => 'kamobyuwtir',
       'prefix' => ''
     }
   ],
@@ -9947,39 +10332,6 @@ $lexicon = {
         '"toil"' => 1
       },
       'orig' => 'kad~',
-      'prefix' => ''
-    }
-  ],
-  'kambyuwtir' => [
-    {
-      'types' => {
-        'kuwmbyuwtir' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'kambyuwtir',
-      'form' => 'kambyuwtir',
-      'others' => [
-        'kuwmbyuwtir NduAt'
-      ],
-      'lines' => [
-        ';; kamobyuwtir_1',
-        'kmbywtr kamobyuwtir     NduAt   computer',
-        'kwmbywtr        kuwmobyuwtir    NduAt   computer'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"computer"'
-        ]
-      ],
-      'glosshash' => {
-        '"computer"' => 1
-      },
-      'orig' => 'kamobyuwtir',
       'prefix' => ''
     }
   ],
@@ -10068,9 +10420,6 @@ $lexicon = {
         'kifaf' => {
           'N' => 1
         },
-        'kiff' => {
-          'Napdu' => 1
-        },
         'kifAf' => {
           'N' => 1
         },
@@ -10082,7 +10431,6 @@ $lexicon = {
       'form' => 'kiffaT',
       'others' => [
         'kifaf N',
-        'kiff Napdu',
         'kifAf N',
         'kaff Napdu'
       ],
@@ -10113,16 +10461,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'kAff' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kAff',
       'form' => 'kAffaT',
-      'others' => [
-        'kAff Nap'
-      ],
       'lines' => [
         ';; kAf~ap_1',
         'kAf     kAf~    Nap     all'
@@ -10435,16 +10776,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'makAn' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'makAn',
       'form' => 'makAnaT',
-      'others' => [
-        'makAn NapAt'
-      ],
       'lines' => [
         ';; makAnap_1',
         'mkAn    makAn   NapAt   position;standing'
@@ -10803,6 +11137,85 @@ $lexicon = {
         '"swarthy [ [ kAmid / ADJ ] ]"' => 1
       },
       'orig' => 'kAmid',
+      'prefix' => ''
+    }
+  ],
+  'k d b' => [
+    {
+      'types' => {
+        'kdiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '\'akd' => {
+          'PV_ttAw' => 2
+        },
+        '\'akdA' => {
+          'PV_h' => 2
+        },
+        'kdY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '\'akday' => {
+          'PV_Atn' => 2
+        },
+        'kday' => {
+          'IV_Ann_Pass_yu' => 1
+        },
+        'kd' => {
+          'IV_0hwnyn_yu' => 1
+        }
+      },
+      'entry' => '\'akdY',
+      'form' => '\'akdY',
+      'others' => [
+        'kdiy IV_0hAnn_yu',
+        '\'akd PV_ttAw',
+        '\'akdA PV_h',
+        'kdY IV_0_Pass_yu',
+        '\'akday PV_Atn',
+        'kday IV_Ann_Pass_yu',
+        'kd IV_0hwnyn_yu'
+      ],
+      'lines' => [
+        ';; >akodaY_1',
+        '>kdY    >akodaY PV_0    give little;skimp',
+        'AkdY    >akodaY PV_0    give little;skimp',
+        '>kdA    >akodA  PV_h    give little;skimp',
+        'AkdA    >akodA  PV_h    give little;skimp',
+        '>kdy    >akoday PV_Atn  give little;skimp',
+        'Akdy    >akoday PV_Atn  give little;skimp',
+        '>kd     >akod   PV_ttAw give little;skimp',
+        'Akd     >akod   PV_ttAw give little;skimp',
+        'kdy     kodiy   IV_0hAnn_yu     give little;skimp',
+        'kd      kod     IV_0hwnyn_yu    give little;skimp',
+        'kdY     kodaY   IV_0_Pass_yu    be given little;be skimped on',
+        'kdy     koday   IV_Ann_Pass_yu  be given little;be skimped on'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCY',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"give little"'
+        ],
+        [
+          '"skimp"'
+        ],
+        [
+          '"be given little"'
+        ],
+        [
+          '"be skimped on"'
+        ]
+      ],
+      'glosshash' => {
+        '"be skimped on"' => 1,
+        '"be given little"' => 1,
+        '"give little"' => 1,
+        '"skimp"' => 1
+      },
+      'orig' => 'OakodaY',
       'prefix' => ''
     }
   ],
@@ -11219,16 +11632,12 @@ $lexicon = {
       'types' => {
         'kutal' => {
           'N' => 1
-        },
-        'kutl' => {
-          'Napdu' => 1
         }
       },
       'entry' => 'kutl',
       'form' => 'kutlaT',
       'others' => [
-        'kutal N',
-        'kutl Napdu'
+        'kutal N'
       ],
       'lines' => [
         ';; kutolap_1',
@@ -11672,16 +12081,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'kiyAs' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kiyAs',
       'form' => 'kiyAsaT',
-      'others' => [
-        'kiyAs Nap'
-      ],
       'lines' => [
         ';; kiyAsap_1',
         'kyAs    kiyAs   Nap     adroitness;elegance'
@@ -11709,9 +12111,6 @@ $lexicon = {
   'kAbiyn' => [
     {
       'types' => {
-        'kAbiyn' => {
-          'Napdu' => 1
-        },
         'kabA\'in' => {
           'Ndip' => 1
         }
@@ -11719,7 +12118,6 @@ $lexicon = {
       'entry' => 'kAbiyn',
       'form' => 'kAbiynaT',
       'others' => [
-        'kAbiyn Napdu',
         'kabA\'in Ndip'
       ],
       'lines' => [
@@ -11913,16 +12311,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'karAhiyy' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'karAh',
       'form' => 'karAhiyyaT',
-      'others' => [
-        'karAhiyy Nap'
-      ],
       'lines' => [
         ';; karAhiy~ap_1',
         'krAhy   karAhiy~        Nap     antipathy;dislike     [[karAhiy~/NOUN]]'
@@ -12057,16 +12448,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'kammiyy' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kamm',
       'form' => 'kammiyyaT',
-      'others' => [
-        'kammiyy NapAt'
-      ],
       'lines' => [
         ';; kam~iy~ap_1',
         'kmy     kam~iy~ NapAt   quantity;amount     [[kam~iy~/NOUN]]'
@@ -12118,16 +12502,9 @@ $lexicon = {
   ],
   'kambiyAl' => [
     {
-      'types' => {
-        'kambiyAl' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kambiyAl',
       'form' => 'kambiyAlaT',
-      'others' => [
-        'kambiyAl NapAt'
-      ],
       'lines' => [
         ';; kamobiyAlap_1',
         'kmbyAl  kamobiyAl       NapAt   bill of exchange;loan payment'
@@ -12199,16 +12576,9 @@ $lexicon = {
   ],
   'kAtidrA\'' => [
     {
-      'types' => {
-        'kAtidrA\'iyy' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kAtidrA\'',
       'form' => 'kAtidrA\'iyyaT',
-      'others' => [
-        'kAtidrA\'iyy NapAt'
-      ],
       'lines' => [
         ';; kAtidrA}iy~ap_1',
         'kAtdrA}y        kAtidrA}iy~     NapAt   cathedral     [[kAtidrA}iy~/NOUN]]'
@@ -12386,11 +12756,11 @@ $lexicon = {
       'suffix' => '',
       'glosses' => [
         [
-          '"C_ote"'
+          '"Côte"'
         ]
       ],
       'glosshash' => {
-        '"C_ote"' => 1
+        "\"C\x{f4}te\"" => 1
       },
       'orig' => 'kuwt',
       'prefix' => ''
@@ -12542,17 +12912,17 @@ $lexicon = {
   ],
   'k f ' => [
     {
-      'types' => $lexicon->{'k f y'}[3]{'types'},
+      'types' => $lexicon->{'k f y'}[4]{'types'},
       'entry' => 'muktafiy',
       'form' => 'muktafiy',
-      'others' => $lexicon->{'k f y'}[3]{'others'},
-      'lines' => $lexicon->{'k f y'}[3]{'lines'},
+      'others' => $lexicon->{'k f y'}[4]{'others'},
+      'lines' => $lexicon->{'k f y'}[4]{'lines'},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFtaCiN',
       'suffix' => '',
-      'glosses' => $lexicon->{'k f y'}[3]{'glosses'},
-      'glosshash' => $lexicon->{'k f y'}[3]{'glosshash'},
+      'glosses' => $lexicon->{'k f y'}[4]{'glosses'},
+      'glosshash' => $lexicon->{'k f y'}[4]{'glosshash'},
       'orig' => 'mukotafiy',
       'prefix' => ''
     }
@@ -12594,6 +12964,83 @@ $lexicon = {
     },
     {
       'types' => {},
+      'entry' => '\'ak_tar',
+      'form' => '\'ak_tar',
+      'lines' => [
+        ';; >akovar_1',
+        '>kvr    >akovar Nel     more;most     [[>akovar/ADJ]]',
+        'Akvr    >akovar Nel     more;most     [[>akovar/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"more"'
+        ],
+        [
+          '"most [ [ >akovar / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"most [ [ >akovar / ADJ ] ]"' => 1,
+        '"more"' => 1
+      },
+      'orig' => 'Oakovar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'k_tir' => {
+          'IV_yu' => 1
+        },
+        'k_tar' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => '\'ak_tar',
+      'form' => '\'ak_tar',
+      'others' => [
+        'k_tir IV_yu',
+        'k_tar IV_Pass_yu'
+      ],
+      'lines' => [
+        ';; >akovar_2',
+        '>kvr    >akovar PV      increase;do frequently',
+        'Akvr    >akovar PV      increase;do frequently',
+        'kvr     kovir   IV_yu   increase;do frequently',
+        'kvr     kovar   IV_Pass_yu      be increased;be done frequently'
+      ],
+      'index' => '2',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"increase"'
+        ],
+        [
+          '"do frequently"'
+        ],
+        [
+          '"be increased"'
+        ],
+        [
+          '"be done frequently"'
+        ]
+      ],
+      'glosshash' => {
+        '"be done frequently"' => 1,
+        '"be increased"' => 1,
+        '"do frequently"' => 1,
+        '"increase"' => 1
+      },
+      'orig' => 'Oakovar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'ku_tr',
       'form' => 'ku_tr',
       'lines' => [
@@ -12620,16 +13067,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ka_tr' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ka_tr',
       'form' => 'ka_traT',
-      'others' => [
-        'ka_tr Nap'
-      ],
       'lines' => [
         ';; kavorap_1',
         'kvr     kavor   Nap     abundance;frequency'
@@ -12703,6 +13143,30 @@ $lexicon = {
     },
     {
       'types' => {},
+      'entry' => '\'ak_tar',
+      'form' => '\'ak_tariyyaT',
+      'lines' => [
+        ';; >akovariy~ap_1',
+        '>kvry   >akovariy~      Nap     majority     [[>akovariy~/NOUN]]',
+        'Akvry   >akovariy~      Nap     majority     [[>akovariy~/NOUN]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        [
+          '"majority [ [ >akovariy ~ / NOUN ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"majority [ [ >akovariy ~ / NOUN ] ]"' => 1
+      },
+      'orig' => 'Oakovariy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'takA_tur',
       'form' => 'takA_tur',
       'lines' => [
@@ -12758,6 +13222,31 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'k m ^s' => [
+    {
+      'types' => {},
+      'entry' => 'kammA^s',
+      'form' => 'kammA^saT',
+      'lines' => [
+        ';; kam~A$ap_1',
+        'kmA$    kam~A$  NapAt   pair of pliers'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"pair of pliers"'
+        ]
+      ],
+      'glosshash' => {
+        '"pair of pliers"' => 1
+      },
+      'orig' => 'kam~A$ap',
+      'prefix' => ''
+    }
+  ],
   'kambri^g' => [
     {
       'types' => {
@@ -12788,38 +13277,6 @@ $lexicon = {
         '"Cambridge"' => 1
       },
       'orig' => 'kamobrij',
-      'prefix' => ''
-    }
-  ],
-  'k m ^s' => [
-    {
-      'types' => {
-        'kammA^s' => {
-          'NapAt' => 1
-        }
-      },
-      'entry' => 'kammA^s',
-      'form' => 'kammA^saT',
-      'others' => [
-        'kammA^s NapAt'
-      ],
-      'lines' => [
-        ';; kam~A$ap_1',
-        'kmA$    kam~A$  NapAt   pair of pliers'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        [
-          '"pair of pliers"'
-        ]
-      ],
-      'glosshash' => {
-        '"pair of pliers"' => 1
-      },
-      'orig' => 'kam~A$ap',
       'prefix' => ''
     }
   ],
@@ -13158,14 +13615,13 @@ $lexicon = {
     {
       'types' => {
         'kalim' => {
-          'NAt' => 1,
-          'Napdu' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'kalim',
       'form' => 'kalimaT',
       'others' => [
-        'kalim NAt Napdu'
+        'kalim NAt'
       ],
       'lines' => [
         ';; kalimap_1',
@@ -13276,14 +13732,13 @@ $lexicon = {
     {
       'types' => {
         'mukAlam' => {
-          'NAt' => 1,
-          'Napdu' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'mukAlam',
       'form' => 'mukAlamaT',
       'others' => [
-        'mukAlam NAt Napdu'
+        'mukAlam NAt'
       ],
       'lines' => [
         ';; mukAlamap_1',
@@ -13418,6 +13873,48 @@ $lexicon = {
         '"how [ [ kayofa / INTERROG_PART ] ]"' => 1
       },
       'orig' => 'kayofa',
+      'prefix' => ''
+    }
+  ],
+  'k \' s' => [
+    {
+      'types' => {
+        'ku\'uws' => {
+          'N' => 1
+        },
+        'ki\'As' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'ka\'s',
+      'form' => 'ka\'s',
+      'others' => [
+        'ku\'uws N',
+        'ki\'As N'
+      ],
+      'lines' => [
+        ';; ka>os_1',
+        'k>s     ka>os   NduAt   cup',
+        'k&ws    ku&uws  N       cups',
+        'k}As    ki}As   N       cups'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"cup"'
+        ],
+        [
+          '"cups"'
+        ]
+      ],
+      'glosshash' => {
+        '"cup"' => 1,
+        '"cups"' => 1
+      },
+      'orig' => 'kaOos',
       'prefix' => ''
     }
   ],

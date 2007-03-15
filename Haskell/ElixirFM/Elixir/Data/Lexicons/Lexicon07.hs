@@ -9,6 +9,14 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon properties"
 
 
+ |> "'a_hi.s.sA'" <| [
+
+    -- ;; >axiS~A}iy~_1
+    -- >xSA}y  >axiS~A}iy~     Nall    specialist;expert     [[>axiS~A}iy~/ADJ]]
+    -- AxSA}y  >axiS~A}iy~     Nall    specialist;expert     [[>axiS~A}iy~/ADJ]]
+
+    noun     Identity                  {- OaxiS~A}iy~ -}    `gloss`  [ "specialist", "expert [ [ >axiS ~ A } iy ~ / ADJ ] ]" ] ]
+
  |> "_h ' f" <| [
 
     -- ;; xA}if_1
@@ -41,8 +49,7 @@ lexicon = listing "Lexicon properties"
     -- ;; xAnap_1
     -- xAn     xAn     NapAt   compartment;partition
 
-    noun     FAL                       {- xAnap -}          `others` [ "_hAn NapAt" ]
-                                                            `gloss`  [ "compartment", "partition" ],
+    noun     FAL                       {- xAnap -}          `gloss`  [ "compartment", "partition" ],
 
     -- ;; xA}in_1
     -- xA}n    xA}in   N/ap    traitor;treacherous
@@ -57,8 +64,7 @@ lexicon = listing "Lexicon properties"
     -- ;; xaD~ap_1
     -- xD      xaD~    Nap     shock;jolt
 
-    noun     FaCL                      {- xaD~ap -}         `others` [ "_ha.d.d Nap" ]
-                                                            `gloss`  [ "shock", "jolt" ] ]
+    noun     FaCL                      {- xaD~ap -}         `gloss`  [ "shock", "jolt" ] ]
 
  |> "_h .d `" <| [
 
@@ -78,10 +84,25 @@ lexicon = listing "Lexicon properties"
     verb     FaCCaL                    {- xaD~aE -}         `others` [ "_ha.d.di` IV_yu" ]
                                                             `gloss`  [ "subdue", "subjugate" ],
 
+    -- ;; >axoDaE_1
+    -- >xDE    >axoDaE PV      subdue;subjugate
+    -- AxDE    >axoDaE PV      subdue;subjugate
+    -- xDE     xoDiE   IV_yu   subdue;subjugate
+    -- xDE     xoDaE   IV_Pass_yu      be subdued;be subjugated
+
+    verb     HaFCaL                    {- OaxoDaE -}        `others` [ "_h.da` IV_Pass_yu", "_h.di` IV_yu" ]
+                                                            `gloss`  [ "subdue", "subjugate", "be subdued", "be subjugated" ],
+
     -- ;; xuDuwE_1
     -- xDwE    xuDuwE  N       submission;obedience
 
     noun     FuCUL                     {- xuDuwE -}         `gloss`  [ "submission", "obedience" ],
+
+    -- ;; <ixoDAE_1
+    -- <xDAE   <ixoDAE NduAt   subjection;surrender
+    -- AxDAE   <ixoDAE NduAt   subjection;surrender
+
+    noun     HiFCAL                    {- IixoDAE -}        `gloss`  [ "subjection", "surrender" ],
 
     -- ;; xADiE_1
     -- xADE    xADiE   Nall    subservient;obedient;subject     [[xADiE/ADJ]]
@@ -97,8 +118,23 @@ lexicon = listing "Lexicon properties"
     -- xDrw    xaDoraw NAt     vegetables;greens
     -- xDr     xuDar   N       vegetables;greenery
 
-    noun     FuCL                      {- xuDorap -}        `others` [ "_hu.dar N", "_hu.dr Nap", "_ha.draw NAt" ]
+    noun     FuCL                      {- xuDorap -}        `others` [ "_hu.dar N", "_ha.draw NAt" ]
                                                             `gloss`  [ "vegetable", "greenery", "vegetables", "greens" ],
+
+    -- ;; >axoDar_1
+    -- >xDr    >axoDar Nel     green
+    -- AxDr    >axoDar Nel     green
+    -- xDrA'   xaDorA' N0_Nh   green
+    -- xDrA&   xaDorA& Nh      green
+    -- xDrA}   xaDorA} Nhy     green
+
+    noun     HaFCaL                    {- OaxoDar -}        `others` [ "_ha.drA' Nh Nhy N0_Nh" ]
+                                                            `gloss`  [ "green" ],
+
+    -- ;; >axoDar_2
+    -- >xDr    >axoDar N0      Akhdar
+
+    noun     HaFCaL                    {- OaxoDar -}        `gloss`  [ "Akhdar" ],
 
     -- ;; xuDor_1
     -- xDr     xuDor   N0      Greens (ecologists)
@@ -143,7 +179,7 @@ lexicon = listing "Lexicon properties"
     -- xSyS    xaSiyS  Napdu   peculiarity;feature
     -- xSA}S   xaSA}iS Ndip    attributes;features
 
-    noun     FaCIL                     {- xaSiySap -}       `others` [ "_ha.sA'i.s Ndip", "_ha.siy.s Napdu" ]
+    noun     FaCIL                     {- xaSiySap -}       `others` [ "_ha.sA'i.s Ndip" ]
                                                             `gloss`  [ "peculiarity", "feature", "attributes", "features" ],
 
     -- ;; xiS~iyS_1
@@ -161,6 +197,12 @@ lexicon = listing "Lexicon properties"
     -- xSwSy   xuSuwSiy~       Nall    private;personal;special     [[xuSuwSiy~/ADJ]]
 
     noun     FuCUL                     {- xuSuwSiy~ -}      `gloss`  [ "private", "personal", "special [ [ xuSuwSiy ~ / ADJ ] ]" ],
+
+    -- ;; >axaS~_1
+    -- >xS     >axaS~  Nel     more specific
+    -- AxS     >axaS~  Nel     more specific
+
+    noun     HaFaCL                    {- OaxaS~ -}         `gloss`  [ "more specific" ],
 
     -- ;; taxoSiyS_1
     -- txSyS   taxoSiyS        NduAt   designation;allocation;apportionment
@@ -191,7 +233,7 @@ lexicon = listing "Lexicon properties"
     -- xAS     xAS~    Nap     elite
     -- bxASp   bixAS~ap        FW-Wa   especially     [[bixAS~ap/ADV]]
 
-    noun     FACL                      {- xAS~ap -}         `others` [ "bi_hA.s.saT FW-Wa", "_hA.s.s Nap" ]
+    noun     FACL                      {- xAS~ap -}         `others` [ "bi_hA.s.saT FW-Wa" ]
                                                             `gloss`  [ "elite", "especially [ [ bixAS ~ ap / ADV ] ]" ],
 
     -- ;; muxaS~aS_1
@@ -215,8 +257,7 @@ lexicon = listing "Lexicon properties"
     -- ;; xaSoxaSap_1
     -- xSxS    xaSoxaS NapAt   privatization
 
-    noun     KaRDaS                    {- xaSoxaSap -}      `others` [ "_ha.s_ha.s NapAt" ]
-                                                            `gloss`  [ "privatization" ],
+    noun     KaRDaS                    {- xaSoxaSap -}      `gloss`  [ "privatization" ],
 
     -- ;; muxaSoxaS_1
     -- mxSxS   muxaSoxaS       N-ap    privatized     [[muxaSoxaS/ADJ]]
@@ -236,8 +277,7 @@ lexicon = listing "Lexicon properties"
     -- ;; xuSuwbap_1
     -- xSwb    xuSuwb  Nap     fertility
 
-    noun     FuCUL                     {- xuSuwbap -}       `others` [ "_hu.suwb Nap" ]
-                                                            `gloss`  [ "fertility" ] ]
+    noun     FuCUL                     {- xuSuwbap -}       `gloss`  [ "fertility" ] ]
 
  |> "_h .s m" <| [
 
@@ -268,8 +308,7 @@ lexicon = listing "Lexicon properties"
     -- ;; xuSuwmap_1
     -- xSwm    xuSuwm  Nap     quarrel;lawsuit
 
-    noun     FuCUL                     {- xuSuwmap -}       `others` [ "_hu.suwm Nap" ]
-                                                            `gloss`  [ "quarrel", "lawsuit" ] ]
+    noun     FuCUL                     {- xuSuwmap -}       `gloss`  [ "quarrel", "lawsuit" ] ]
 
  |> "_h .t " <| [
 
@@ -283,6 +322,38 @@ lexicon = listing "Lexicon properties"
                                                             `gloss`  [ "crossing", "exceeding", "getting past", "going beyond" ] ]
 
  |> "_h .t '" <| [
+
+    -- ;; >axoTa>_1
+    -- >xT>    >axoTa> PV->    be wrong;do incorrectly
+    -- AxT>    >axoTa> PV->    be wrong;do incorrectly
+    -- >xT|    >axoTa| PV-|    be wrong;do incorrectly
+    -- AxT|    >axoTa| PV-|    be wrong;do incorrectly
+    -- >xT&    >axoTa& PV_w    be wrong;do incorrectly
+    -- AxT&    >axoTa& PV_w    be wrong;do incorrectly
+    -- xT}     xoTi}   IV_yu   be wrong;do incorrectly
+    -- xT>     xoTa>   IV_Pass_yu      be done incorrectly
+
+    verb     HaFCaL                    {- OaxoTaO -}        `others` [ "_h.ti' IV_yu", "_h.ta' IV_Pass_yu", "'a_h.ta'A PV-|" ]
+                                                            `gloss`  [ "be wrong", "do incorrectly", "be done incorrectly" ],
+
+    -- ;; xaTa>_1
+    -- xT>     xaTa>   N0_Nh   mistake;error;fault
+    -- xT&     xaTa&   Nh      mistake;error;fault
+    -- xT}     xaTa}   Nhy     mistake;error;fault
+    -- xT|     xaTa|   N-|     mistakes;errors;faults
+    -- xT}     xaTa}   Nayn    mistakes;errors;faults
+    -- >xTA'   >axoTA' N0_Nh   mistakes;errors;faults
+    -- AxTA'   >axoTA' N0_Nh   mistakes;errors;faults
+    -- >xTA&   >axoTA& Nh      mistakes;errors;faults
+    -- AxTA&   >axoTA& Nh      mistakes;errors;faults
+    -- >xTA}   >axoTA} Nhy     mistakes;errors;faults
+    -- AxTA}   >axoTA} Nhy     mistakes;errors;faults
+    -- xTA'    xaTA'   N0_Nh   mistakes;errors;faults
+    -- xTA&    xaTA&   Nh      mistakes;errors;faults
+    -- xTA}    xaTA}   Nhy     mistakes;errors;faults
+
+    noun     FaCaL                     {- xaTaO -}          `others` [ "_ha.tA' Nh Nhy N0_Nh", "_ha.ta'A N-|", "'a_h.tA' Nh Nhy N0_Nh" ]
+                                                            `gloss`  [ "mistake", "error", "fault", "mistakes", "errors", "faults" ],
 
     -- ;; xATi}_1
     -- xAT}    xATi}   Nall    mistaken;at fault     [[xATi}/ADJ]]
@@ -327,7 +398,7 @@ lexicon = listing "Lexicon properties"
     -- xT      xuT~    Napdu   plan;project
     -- xTT     xuTaT   N       plans;projects
 
-    noun     FuCL                      {- xuT~ap -}         `others` [ "_hu.ta.t N", "_hu.t.t Napdu" ]
+    noun     FuCL                      {- xuT~ap -}         `others` [ "_hu.ta.t N" ]
                                                             `gloss`  [ "plan", "project", "plans", "projects" ],
 
     -- ;; taxoTiyT_1
@@ -371,7 +442,7 @@ lexicon = listing "Lexicon properties"
     -- xTb     xuTob   Napdu   speech;sermon
     -- xTb     xuTab   N       speeches;sermons
 
-    noun     FuCL                      {- xuTobap -}        `others` [ "_hu.tab N", "_hu.tb Napdu" ]
+    noun     FuCL                      {- xuTobap -}        `others` [ "_hu.tab N" ]
                                                             `gloss`  [ "speech", "sermon", "speeches", "sermons" ],
 
     -- ;; xiTAb_1
@@ -396,7 +467,7 @@ lexicon = listing "Lexicon properties"
     -- xTyb    xaTiyb  N/ap    fiancé
     -- xTyb    xaTiyb  Nap     fiancée
 
-    noun     FaCIL                     {- xaTiyb -}         `gloss`  [ "fianc_e", "fianc_ee" ],
+    noun     FaCIL                     {- xaTiyb -}         `gloss`  [ "fiancé", "fiancée" ],
 
     -- ;; xaTiyb_3
     -- xTyb    xaTiyb  N0      Khatib;Khateeb
@@ -406,20 +477,17 @@ lexicon = listing "Lexicon properties"
     -- ;; xiTAbap_1
     -- xTAb    xiTAb   Nap     eloquence
 
-    noun     FiCAL                     {- xiTAbap -}        `others` [ "_hi.tAb Nap" ]
-                                                            `gloss`  [ "eloquence" ],
+    noun     FiCAL                     {- xiTAbap -}        `gloss`  [ "eloquence" ],
 
     -- ;; xuTuwbap_1
     -- xTwb    xuTuwb  Nap     courtship;engagement
 
-    noun     FuCUL                     {- xuTuwbap -}       `others` [ "_hu.tuwb Nap" ]
-                                                            `gloss`  [ "courtship", "engagement" ],
+    noun     FuCUL                     {- xuTuwbap -}       `gloss`  [ "courtship", "engagement" ],
 
     -- ;; muxATabap_1
     -- mxATb   muxATab NapAt   conversation;addressing
 
-    noun     MuFACaL                   {- muxATabap -}      `others` [ "mu_hA.tab NapAt" ]
-                                                            `gloss`  [ "conversation", "addressing" ],
+    noun     MuFACaL                   {- muxATabap -}      `gloss`  [ "conversation", "addressing" ],
 
     -- ;; muxATab_1
     -- mxATb   muxATab Nall    addressed;spoken to
@@ -470,6 +538,15 @@ lexicon = listing "Lexicon properties"
                                                             `others` [ "_h.tur IV" ]
                                                             `gloss`  [ "occur" ],
 
+    -- ;; >axoTar_1
+    -- >xTr    >axoTar PV      notify;warn
+    -- AxTr    >axoTar PV      notify;warn
+    -- xTr     xoTir   IV_yu   notify;warn
+    -- xTr     xoTar   IV_Pass_yu      be notified;be warned
+
+    verb     HaFCaL                    {- OaxoTar -}        `others` [ "_h.tir IV_yu", "_h.tar IV_Pass_yu" ]
+                                                            `gloss`  [ "notify", "warn", "be notified", "be warned" ],
+
     -- ;; xaTar_1
     -- xTr     xaTar   Ndu     danger
     -- >xTAr   >axoTAr N       dangers
@@ -491,8 +568,13 @@ lexicon = listing "Lexicon properties"
     -- ;; xuTuwrap_1
     -- xTwr    xuTuwr  Nap     importance;gravity;danger
 
-    noun     FuCUL                     {- xuTuwrap -}       `others` [ "_hu.tuwr Nap" ]
-                                                            `gloss`  [ "importance", "gravity", "danger" ],
+    noun     FuCUL                     {- xuTuwrap -}       `gloss`  [ "importance", "gravity", "danger" ],
+
+    -- ;; >axoTar_2
+    -- >xTr    >axoTar Nel     more/most dangerous;more/most serious
+    -- AxTr    >axoTar Nel     more/most dangerous;more/most serious
+
+    noun     HaFCaL                    {- OaxoTar -}        `gloss`  [ "more / most dangerous", "more / most serious" ],
 
     -- ;; maxATir_1
     -- mxATr   maxATir Ndip    dangers;perils;adventures
@@ -502,8 +584,13 @@ lexicon = listing "Lexicon properties"
     -- ;; muxATarap_1
     -- mxATr   muxATar NapAt   venture;risk;hazard
 
-    noun     MuFACaL                   {- muxATarap -}      `others` [ "mu_hA.tar NapAt" ]
-                                                            `gloss`  [ "venture", "risk", "hazard" ],
+    noun     MuFACaL                   {- muxATarap -}      `gloss`  [ "venture", "risk", "hazard" ],
+
+    -- ;; <ixoTAr_1
+    -- <xTAr   <ixoTAr NduAt   notification;warning
+    -- AxTAr   <ixoTAr NduAt   notification;warning
+
+    noun     HiFCAL                    {- IixoTAr -}        `gloss`  [ "notification", "warning" ],
 
     -- ;; xATir_1
     -- xATr    xATir   Ndu     mind;feeling;wish
@@ -546,7 +633,7 @@ lexicon = listing "Lexicon properties"
     -- xTY     xuTaY   N0      steps;strides
     -- xTA     xuTA    Nhy     steps;strides
 
-    noun     FaCL                      {- xaTowap -}        `others` [ "_ha.tw Napdu", "_hu.tY N0", "_hu.tA Nhy", "_ha.taw NAt" ]
+    noun     FaCL                      {- xaTowap -}        `others` [ "_hu.tY N0", "_hu.tA Nhy", "_ha.taw NAt" ]
                                                             `gloss`  [ "step", "stride", "steps", "strides" ] ]
 
  |> "_h ^g l" <| [
@@ -580,8 +667,7 @@ lexicon = listing "Lexicon properties"
     -- ;; xa$Anap_1
     -- x$An    xa$An   Nap     roughness
 
-    noun     FaCAL                     {- xa$Anap -}        `others` [ "_ha^sAn Nap" ]
-                                                            `gloss`  [ "roughness" ] ]
+    noun     FaCAL                     {- xa$Anap -}        `gloss`  [ "roughness" ] ]
 
  |> "_h ^s y" <| [
 
@@ -600,14 +686,12 @@ lexicon = listing "Lexicon properties"
     -- ;; xa$oyap_1
     -- x$y     xa$oy   Nap     fear;apprehension
 
-    noun     FaCL                      {- xa$oyap -}        `others` [ "_ha^sy Nap" ]
-                                                            `gloss`  [ "fear", "apprehension" ],
+    noun     FaCL                      {- xa$oyap -}        `gloss`  [ "fear", "apprehension" ],
 
     -- ;; xa$oyap_2
     -- x$y     xa$oy   Nap     out of fear;fearing
 
-    noun     FaCL                      {- xa$oyap -}        `others` [ "_ha^sy Nap" ]
-                                                            `gloss`  [ "out of fear", "fearing" ] ]
+    noun     FaCL                      {- xa$oyap -}        `gloss`  [ "out of fear", "fearing" ] ]
 
  |> "_h _d l" <| [
 
@@ -629,14 +713,14 @@ lexicon = listing "Lexicon properties"
     -- xly     xaliy~  Napdu   cell
     -- xlAyA   xalAyA  N0_Nhy  cells
 
-    noun     CaL                       {- xaliy~ap -}       `others` [ "_haliyy Napdu", "_halAyA N0_Nhy" ]
+    noun     CaL                       {- xaliy~ap -}       `others` [ "_halAyA N0_Nhy" ]
                                                             `gloss`  [ "cell", "cells" ],
 
     -- ;; xaliy~ap_2
     -- xly     xaliy~  Napdu   beehive
     -- xlAyA   xalAyA  N0_Nhy  beehives
 
-    noun     CaL                       {- xaliy~ap -}       `others` [ "_haliyy Napdu", "_halAyA N0_Nhy" ]
+    noun     CaL                       {- xaliy~ap -}       `others` [ "_halAyA N0_Nhy" ]
                                                             `gloss`  [ "beehive", "beehives" ] ]
 
  |> "_h _t r" <| [
@@ -686,6 +770,15 @@ lexicon = listing "Lexicon properties"
 
  |> "_h b r" <| [
 
+    -- ;; >axobar_1
+    -- >xbr    >axobar PV      notify;communicate
+    -- Axbr    >axobar PV      notify;communicate
+    -- xbr     xobir   IV_yu   notify;communicate
+    -- xbr     xobar   IV_Pass_yu      be notified;be communicated
+
+    verb     HaFCaL                    {- Oaxobar -}        `others` [ "_hbar IV_Pass_yu", "_hbir IV_yu" ]
+                                                            `gloss`  [ "notify", "communicate", "be notified", "be communicated" ],
+
     -- ;; xabar_1
     -- xbr     xabar   Ndu     news;report
     -- >xbAr   >axobAr N       news;reports
@@ -694,11 +787,15 @@ lexicon = listing "Lexicon properties"
     noun     FaCaL                     {- xabar -}          `others` [ "'a_hbAr N" ]
                                                             `gloss`  [ "news", "report", "reports" ],
 
+    -- ;; xubar_1
+    -- xbr     xubar   N0      Khobar
+
+    noun     FuCaL                     {- xubar -}          `gloss`  [ "Khobar" ],
+
     -- ;; xiborap_1
     -- xbr     xibor   NapAt   experience;expertise
 
-    noun     FiCL                      {- xiborap -}        `others` [ "_hibr NapAt" ]
-                                                            `gloss`  [ "experience", "expertise" ],
+    noun     FiCL                      {- xiborap -}        `gloss`  [ "experience", "expertise" ],
 
     -- ;; xabiyr_1
     -- xbyr    xabiyr  N/ap    expert;specialist
@@ -712,14 +809,19 @@ lexicon = listing "Lexicon properties"
     -- ;; muxAbarap_1
     -- mxAbr   muxAbar Nap     correspondence;communication
 
-    noun     MuFACaL                   {- muxAbarap -}      `others` [ "mu_hAbar Nap" ]
-                                                            `gloss`  [ "correspondence", "communication" ],
+    noun     MuFACaL                   {- muxAbarap -}      `gloss`  [ "correspondence", "communication" ],
 
     -- ;; muxAbarAt_1
     -- mxAbr   muxAbar NAt     intelligence service;secret service
 
     noun     MuFACaL                   {- muxAbarAt -}      `others` [ "mu_hAbar NAt" ]
                                                             `gloss`  [ "intelligence service", "secret service" ],
+
+    -- ;; <ixobAriy~_1
+    -- <xbAry  <ixobAriy~      Nall    news;information     [[<ixobAriy~/ADJ]]
+    -- AxbAry  <ixobAriy~      Nall    news;information     [[<ixobAriy~/ADJ]]
+
+    noun     HiFCAL                    {- IixobAriy~ -}     `gloss`  [ "news", "information [ [" ],
 
     -- ;; muxotabar_1
     -- mxtbr   muxotabar       NduAt   laboratory
@@ -796,7 +898,7 @@ lexicon = listing "Lexicon properties"
     -- xdm     xidom   Napdu   service;assistance
     -- xdm     xadam   NAt     services;assistance
 
-    noun     FiCL                      {- xidomap -}        `others` [ "_hidm Napdu", "_hadam NAt" ]
+    noun     FiCL                      {- xidomap -}        `others` [ "_hadam NAt" ]
                                                             `gloss`  [ "service", "assistance", "services" ],
 
     -- ;; xAdim_1
@@ -838,7 +940,23 @@ lexicon = listing "Lexicon properties"
     -- xfA&    xafA&   Nh      secrecy;secret
     -- xfA}    xafA}   Nhy     secrecy;secret
 
-    noun     FaCAL                     {- xafA' -}          `gloss`  [ "secrecy", "secret" ] ]
+    noun     FaCAL                     {- xafA' -}          `gloss`  [ "secrecy", "secret" ],
+
+    -- ;; <ixofA'_1
+    -- <xfA'   <ixofA' N0_Nh   hiding;concealment
+    -- AxfA'   <ixofA' N0_Nh   hiding;concealment
+    -- <xfA&   <ixofA& Nh      hiding;concealment
+    -- AxfA&   <ixofA& Nh      hiding;concealment
+    -- <xfA}   <ixofA} Nhy     hiding;concealment
+    -- AxfA}   <ixofA} Nhy     hiding;concealment
+    -- <xfA'   <ixofA' NAn_Nayn        hiding;concealment
+    -- AxfA'   <ixofA' NAn_Nayn        hiding;concealment
+    -- <xfA}   <ixofA} Nayn    hiding;concealment
+    -- AxfA}   <ixofA} Nayn    hiding;concealment
+    -- <xfA'   <ixofA' NAt     hiding;concealment
+    -- AxfA'   <ixofA' NAt     hiding;concealment
+
+    noun     HiFCAL                    {- IixofA' -}        `gloss`  [ "hiding", "concealment" ] ]
 
  |> "_h f .d" <| [
 
@@ -902,8 +1020,7 @@ lexicon = listing "Lexicon properties"
     -- ;; xif~ap_1
     -- xf      xif~    Nap     lightness;disdain
 
-    noun     FiCL                      {- xif~ap -}         `others` [ "_hiff Nap" ]
-                                                            `gloss`  [ "lightness", "disdain" ],
+    noun     FiCL                      {- xif~ap -}         `gloss`  [ "lightness", "disdain" ],
 
     -- ;; xafiyf_1
     -- xfyf    xafiyf  N/ap    light;slight;sparse     [[xafiyf/ADJ]]
@@ -951,7 +1068,21 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCaL                     {- xafaq-iu -}       `imperf` [ FCiL, FCuL ]
                                                             `others` [ "_hfuq IV", "_hfiq IV" ]
-                                                            `gloss`  [ "tremble", "beat" ] ]
+                                                            `gloss`  [ "tremble", "beat" ],
+
+    -- ;; >axofaq_1
+    -- >xfq    >axofaq PV      fail;go down
+    -- Axfq    >axofaq PV      fail;go down
+    -- xfq     xofiq   IV_yu   fail;go down
+
+    verb     HaFCaL                    {- Oaxofaq -}        `others` [ "_hfiq IV_yu" ]
+                                                            `gloss`  [ "fail", "go down" ],
+
+    -- ;; <ixofAq_1
+    -- <xfAq   <ixofAq NduAt   failure;fiasco
+    -- AxfAq   <ixofAq NduAt   failure;fiasco
+
+    noun     HiFCAL                    {- IixofAq -}        `gloss`  [ "failure", "fiasco" ] ]
 
  |> "_h f r" <| [
 
@@ -998,9 +1129,38 @@ lexicon = listing "Lexicon properties"
     -- xfy     xofiy   IV_0hAnn        hide;conceal
     -- xf      xof     IV_0hwnyn       hide;conceal
 
-    verb     FaCY                      {- xafaY-i -}        `imperf` [ FCiL ]
+    verb     FaCaNY                    {- xafaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "_hfiy IV_0hAnn", "_hafA PV_h", "_hf IV_0hwnyn", "_haf PV_ttAw", "_hafay PV_Atn" ]
                                                             `gloss`  [ "hide", "conceal" ],
+
+    -- ;; xafaY-i_1
+    -- xfY     xafaY   PV_0    hide;conceal
+    -- xfA     xafA    PV_h    hide;conceal
+    -- xfy     xafay   PV_Atn  hide;conceal
+    -- xf      xaf     PV_ttAw hide;conceal
+    -- xfy     xofiy   IV_0hAnn        hide;conceal
+    -- xf      xof     IV_0hwnyn       hide;conceal
+
+    verb     FaCaNY                    {- xafaY-i -}        `imperf` [ FCiL ]
+                                                            `others` [ "_hfiy IV_0hAnn", "_hafA PV_h", "_hf IV_0hwnyn", "_haf PV_ttAw", "_hafay PV_Atn" ]
+                                                            `gloss`  [ "hide", "conceal" ],
+
+    -- ;; >axofaY_1
+    -- >xfY    >axofaY PV_0    hide;conceal
+    -- AxfY    >axofaY PV_0    hide;conceal
+    -- >xfA    >axofA  PV_h    hide;conceal
+    -- AxfA    >axofA  PV_h    hide;conceal
+    -- >xfy    >axofay PV_Atn  hide;conceal
+    -- Axfy    >axofay PV_Atn  hide;conceal
+    -- >xf     >axof   PV_ttAw hide;conceal
+    -- Axf     >axof   PV_ttAw hide;conceal
+    -- xfy     xofiy   IV_0hAnn_yu     hide;conceal
+    -- xf      xof     IV_0hwnyn_yu    hide;conceal
+    -- xfY     xofaY   IV_0_Pass_yu    be hidden;be concealed
+    -- xfy     xofay   IV_Ann_Pass_yu  be hidden;be concealed
+
+    verb     HaFCY                     {- OaxofaY -}        `others` [ "'a_hfay PV_Atn", "_hf IV_0hwnyn_yu", "'a_hf PV_ttAw", "'a_hfA PV_h", "_hfiy IV_0hAnn_yu", "_hfY IV_0_Pass_yu", "_hfay IV_Ann_Pass_yu" ]
+                                                            `gloss`  [ "hide", "conceal", "be hidden", "be concealed" ],
 
     -- ;; xafA'_1
     -- xfA'    xafA'   N0_Nh   secrecy;secret
@@ -1008,6 +1168,22 @@ lexicon = listing "Lexicon properties"
     -- xfA}    xafA}   Nhy     secrecy;secret
 
     noun     FaCA'                     {- xafA' -}          `gloss`  [ "secrecy", "secret" ],
+
+    -- ;; <ixofA'_1
+    -- <xfA'   <ixofA' N0_Nh   hiding;concealment
+    -- AxfA'   <ixofA' N0_Nh   hiding;concealment
+    -- <xfA&   <ixofA& Nh      hiding;concealment
+    -- AxfA&   <ixofA& Nh      hiding;concealment
+    -- <xfA}   <ixofA} Nhy     hiding;concealment
+    -- AxfA}   <ixofA} Nhy     hiding;concealment
+    -- <xfA'   <ixofA' NAn_Nayn        hiding;concealment
+    -- AxfA'   <ixofA' NAn_Nayn        hiding;concealment
+    -- <xfA}   <ixofA} Nayn    hiding;concealment
+    -- AxfA}   <ixofA} Nayn    hiding;concealment
+    -- <xfA'   <ixofA' NAt     hiding;concealment
+    -- AxfA'   <ixofA' NAt     hiding;concealment
+
+    noun     HiFCA'                    {- IixofA' -}        `gloss`  [ "hiding", "concealment" ],
 
     -- ;; xAfiy_1
     -- xAfy    xAfiy   N0F     hidden;secret     [[xAfiy/ADJ]]
@@ -1038,6 +1214,40 @@ lexicon = listing "Lexicon properties"
 
     noun     MuFtaCiL                  {- muxotafiy -}      `others` [ "mu_htaf Nuwn_Niyn NK" ]
                                                             `gloss`  [ "hidden", "secret [ [ muxotafiy / ADJ ] ]", "secret", "secrets" ] ]
+
+ |> "_h l '" <| [
+
+    -- ;; <ixolA'_1
+    -- <xlA'   <ixolA' N0_Nh   emptying;evacuation
+    -- AxlA'   <ixolA' N0_Nh   emptying;evacuation
+    -- <xlA&   <ixolA& Nh      emptying;evacuation
+    -- AxlA&   <ixolA& Nh      emptying;evacuation
+    -- <xlA}   <ixolA} Nhy     emptying;evacuation
+    -- AxlA}   <ixolA} Nhy     emptying;evacuation
+    -- <xlA'   <ixolA' NAn_Nayn        emptying;evacuation
+    -- AxlA'   <ixolA' NAn_Nayn        emptying;evacuation
+    -- <xlA}   <ixolA} Nayn    emptying;evacuation
+    -- AxlA}   <ixolA} Nayn    emptying;evacuation
+    -- <xlA'   <ixolA' NAt     emptying;evacuation
+    -- AxlA'   <ixolA' NAt     emptying;evacuation
+
+    noun     HiFCAL                    {- IixolA' -}        `gloss`  [ "emptying", "evacuation" ],
+
+    -- ;; <ixolA'_2
+    -- <xlA'   <ixolA' N0_Nh   release
+    -- AxlA'   <ixolA' N0_Nh   release
+    -- <xlA&   <ixolA& Nh      release
+    -- AxlA&   <ixolA& Nh      release
+    -- <xlA}   <ixolA} Nhy     release
+    -- AxlA}   <ixolA} Nhy     release
+    -- <xlA'   <ixolA' NAn_Nayn        release
+    -- AxlA'   <ixolA' NAn_Nayn        release
+    -- <xlA}   <ixolA} Nayn    release
+    -- AxlA}   <ixolA} Nayn    release
+    -- <xlA'   <ixolA' NAt     release
+    -- AxlA'   <ixolA' NAt     release
+
+    noun     HiFCAL                    {- IixolA' -}        `gloss`  [ "release" ] ]
 
  |> "_h l .s" <| [
 
@@ -1070,8 +1280,13 @@ lexicon = listing "Lexicon properties"
     -- ;; xulASap_1
     -- xlAS    xulAS   Nap     gist;synopsis;summary
 
-    noun     FuCAL                     {- xulASap -}        `others` [ "_hulA.s Nap" ]
-                                                            `gloss`  [ "gist", "synopsis", "summary" ],
+    noun     FuCAL                     {- xulASap -}        `gloss`  [ "gist", "synopsis", "summary" ],
+
+    -- ;; <ixolAS_1
+    -- <xlAS   <ixolAS NduAt   fidelity;sincerity
+    -- AxlAS   <ixolAS NduAt   fidelity;sincerity
+
+    noun     HiFCAL                    {- IixolAS -}        `gloss`  [ "fidelity", "sincerity" ],
 
     -- ;; taxal~uS_1
     -- txlS    taxal~uS        NduAt   freedom;riddance;escape
@@ -1252,6 +1467,14 @@ lexicon = listing "Lexicon properties"
     verb     FACaL                     {- xAlaf -}          `others` [ "_hAlif IV_yu" ]
                                                             `gloss`  [ "contradict", "conflict with", "go against" ],
 
+    -- ;; >axolaf_1
+    -- >xlf    >axolaf PV      leave;compensate;break
+    -- Axlf    >axolaf PV      leave;compensate;break
+    -- xlf     xolif   IV_yu   leave;compensate;break
+
+    verb     HaFCaL                    {- Oaxolaf -}        `others` [ "_hlif IV_yu" ]
+                                                            `gloss`  [ "leave", "compensate", "break" ],
+
     -- ;; xalofiy~_1
     -- xlfy    xalofiy~        Nall    rear;hinder;enigmatic     [[xalofiy~/ADJ]]
 
@@ -1260,8 +1483,7 @@ lexicon = listing "Lexicon properties"
     -- ;; xalofiy~ap_1
     -- xlfy    xalofiy~        NapAt   background     [[xalofiy~/NOUN]]
 
-    noun     FaCL                      {- xalofiy~ap -}     `others` [ "_halfiyy NapAt" ]
-                                                            `gloss`  [ "background [ [ xalofiy ~ / NOUN ] ]" ],
+    noun     FaCL                      {- xalofiy~ap -}     `gloss`  [ "background [ [ xalofiy ~ / NOUN ] ]" ],
 
     -- ;; xalaf_1
     -- xlf     xalaf   Nprop   Khalaf
@@ -1288,14 +1510,13 @@ lexicon = listing "Lexicon properties"
     -- xlfA}   xulafA} Nhy     deputies;caliphs
     -- xlA}f   xalA}if Ndip    deputies
 
-    noun     FaCIL                     {- xaliyfap -}       `others` [ "_hulafA' Nh Nhy N0_Nh", "_halA'if Ndip", "_haliyf Napdu" ]
+    noun     FaCIL                     {- xaliyfap -}       `others` [ "_hulafA' Nh Nhy N0_Nh", "_halA'if Ndip" ]
                                                             `gloss`  [ "deputy", "caliph", "deputies", "caliphs" ],
 
     -- ;; xilAfap_1
     -- xlAf    xilAf   Nap     succession;deputyship;caliphate
 
-    noun     FiCAL                     {- xilAfap -}        `others` [ "_hilAf Nap" ]
-                                                            `gloss`  [ "succession", "deputyship", "caliphate" ],
+    noun     FiCAL                     {- xilAfap -}        `gloss`  [ "succession", "deputyship", "caliphate" ],
 
     -- ;; xilAf_1
     -- xlAf    xilAf   Ndu     dispute;controversy;conflict
@@ -1311,8 +1532,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muxAlafap_1
     -- mxAlf   muxAlaf NapAt   infringement;contrast
 
-    noun     MuFACaL                   {- muxAlafap -}      `others` [ "mu_hAlaf NapAt" ]
-                                                            `gloss`  [ "infringement", "contrast" ],
+    noun     MuFACaL                   {- muxAlafap -}      `gloss`  [ "infringement", "contrast" ],
 
     -- ;; taxal~uf_1
     -- txlf    taxal~uf        NduAt   backwardness;underdevelopment
@@ -1351,6 +1571,18 @@ lexicon = listing "Lexicon properties"
 
  |> "_h l l" <| [
 
+    -- ;; >axal~_1
+    -- >xl     >axal~  PV_V    offend;disturb
+    -- Axl     >axal~  PV_V    offend;disturb
+    -- >xll    >axolal PV_C    offend;disturb
+    -- Axll    >axolal PV_C    offend;disturb
+    -- xl      xil~    IV_V_yu offend;disturb
+    -- xll     xolil   IV_C_yu offend;disturb
+    -- xl      xal~    IV_V_Pass_yu    be offended;be disturbed
+
+    verb     HaFaCL                    {- Oaxal~ -}         `others` [ "'a_hlal PV_C", "_hall IV_V_Pass_yu", "_hill IV_V_yu", "_hlil IV_C_yu" ]
+                                                            `gloss`  [ "offend", "disturb", "be offended", "be disturbed" ],
+
     -- ;; taxal~al_1
     -- txll    taxal~al        PV      intervene
     -- txll    taxal~al        IV      intervene
@@ -1374,6 +1606,12 @@ lexicon = listing "Lexicon properties"
 
     noun     FaCIL                     {- xaliyl -}         `others` [ "'a_hillA' Nh Nhy N0_Nh", "_hullAn N" ]
                                                             `gloss`  [ "friend", "friends" ],
+
+    -- ;; <ixolAl_1
+    -- <xlAl   <ixolAl NduAt   breach;disturbance;harm
+    -- AxlAl   <ixolAl NduAt   breach;disturbance;harm
+
+    noun     HiFCAL                    {- IixolAl -}        `gloss`  [ "breach", "disturbance", "harm" ],
 
     -- ;; xal~aY_1
     -- xlY     xal~aY  PV_0    release;evacuate;allow
@@ -1420,7 +1658,15 @@ lexicon = listing "Lexicon properties"
     -- ;; xal~Aq_1
     -- xlAq    xal~Aq  N/ap    creative;creator
 
-    noun     FaCCAL                    {- xal~Aq -}         `gloss`  [ "creative", "creator" ] ]
+    noun     FaCCAL                    {- xal~Aq -}         `gloss`  [ "creative", "creator" ],
+
+    -- ;; >axolAqiy~_1
+    -- >xlAqy  >axolAqiy~      Nall    moral;ethical     [[>axolAqiy~/ADJ]]
+    -- AxlAqy  >axolAqiy~      Nall    moral;ethical     [[>axolAqiy~/ADJ]]
+    -- >xlAqy  >axolAqiy~      NapAt   morality;ethics     [[>axolAqiy~/NOUN]]
+    -- AxlAqy  >axolAqiy~      NapAt   morality;ethics     [[>axolAqiy~/NOUN]]
+
+    noun     HaFCAL                    {- OaxolAqiy~ -}     `gloss`  [ "moral", "ethical [ [ >axolAqiy ~ / ADJ ] ]", "morality", "ethics [ [ >axolAqiy ~ / NOUN ] ]" ] ]
 
  |> "_h l w" <| [
 
@@ -1447,6 +1693,23 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCCY                     {- xal~aY -}         `others` [ "_halliy IV_0hAnn_yu", "_hallA PV_h", "_hall IV_0hwnyn_yu PV_ttAw", "_hallay PV_Atn IV_Ann_Pass_yu" ]
                                                             `gloss`  [ "release", "evacuate", "allow", "be released", "be evacuated", "be allowed" ],
+
+    -- ;; >axolaY_1
+    -- >xlY    >axolaY PV_0    allow;evacuate
+    -- AxlY    >axolaY PV_0    allow;evacuate
+    -- >xlA    >axolA  PV_h    allow;evacuate
+    -- AxlA    >axolA  PV_h    allow;evacuate
+    -- >xly    >axolay PV_Atn  allow;evacuate
+    -- Axly    >axolay PV_Atn  allow;evacuate
+    -- >xl     >axol   PV_ttAw allow;evacuate
+    -- Axl     >axol   PV_ttAw allow;evacuate
+    -- xly     xoliy   IV_0hAnn_yu     allow;evacuate
+    -- xl      xol     IV_0hwnyn_yu    allow;evacuate
+    -- xlY     xolaY   IV_0_Pass_yu    be allowed;be evacuated;be emptied
+    -- xly     xolay   IV_Ann_Pass_yu  be allowed;be evacuated;be emptied
+
+    verb     HaFCY                     {- OaxolaY -}        `others` [ "_hl IV_0hwnyn_yu", "'a_hlA PV_h", "_hliy IV_0hAnn_yu", "'a_hl PV_ttAw", "_hlY IV_0_Pass_yu", "_hlay IV_Ann_Pass_yu", "'a_hlay PV_Atn" ]
+                                                            `gloss`  [ "allow", "evacuate", "be allowed", "be evacuated", "be emptied" ],
 
     -- ;; taxal~aY_1
     -- txlY    taxal~aY        PV_0    relinquish;surrender
@@ -1475,8 +1738,40 @@ lexicon = listing "Lexicon properties"
     -- xlw     xalow   Napdu   privacy;seclusion;booth
     -- xlw     xalaw   NAt     privacy;seclusion;booths
 
-    noun     FaCL                      {- xalowap -}        `others` [ "_halaw NAt", "_halw Napdu" ]
+    noun     FaCL                      {- xalowap -}        `others` [ "_halaw NAt" ]
                                                             `gloss`  [ "privacy", "seclusion", "booth", "booths" ],
+
+    -- ;; <ixolA'_1
+    -- <xlA'   <ixolA' N0_Nh   emptying;evacuation
+    -- AxlA'   <ixolA' N0_Nh   emptying;evacuation
+    -- <xlA&   <ixolA& Nh      emptying;evacuation
+    -- AxlA&   <ixolA& Nh      emptying;evacuation
+    -- <xlA}   <ixolA} Nhy     emptying;evacuation
+    -- AxlA}   <ixolA} Nhy     emptying;evacuation
+    -- <xlA'   <ixolA' NAn_Nayn        emptying;evacuation
+    -- AxlA'   <ixolA' NAn_Nayn        emptying;evacuation
+    -- <xlA}   <ixolA} Nayn    emptying;evacuation
+    -- AxlA}   <ixolA} Nayn    emptying;evacuation
+    -- <xlA'   <ixolA' NAt     emptying;evacuation
+    -- AxlA'   <ixolA' NAt     emptying;evacuation
+
+    noun     HiFCA'                    {- IixolA' -}        `gloss`  [ "emptying", "evacuation" ],
+
+    -- ;; <ixolA'_2
+    -- <xlA'   <ixolA' N0_Nh   release
+    -- AxlA'   <ixolA' N0_Nh   release
+    -- <xlA&   <ixolA& Nh      release
+    -- AxlA&   <ixolA& Nh      release
+    -- <xlA}   <ixolA} Nhy     release
+    -- AxlA}   <ixolA} Nhy     release
+    -- <xlA'   <ixolA' NAn_Nayn        release
+    -- AxlA'   <ixolA' NAn_Nayn        release
+    -- <xlA}   <ixolA} Nayn    release
+    -- AxlA}   <ixolA} Nayn    release
+    -- <xlA'   <ixolA' NAt     release
+    -- AxlA'   <ixolA' NAt     release
+
+    noun     HiFCA'                    {- IixolA' -}        `gloss`  [ "release" ],
 
     -- ;; taxal~iy_1
     -- txly    taxal~iy        N0_Nh   relinquishment;surrender;renunciation
@@ -1517,8 +1812,7 @@ lexicon = listing "Lexicon properties"
     -- ;; taxoliyap_1
     -- txly    taxoliy Nap     vacating;evacuation
 
-    noun     TaFCiL                    {- taxoliyap -}      `others` [ "ta_hliy Nap" ]
-                                                            `gloss`  [ "vacating", "evacuation" ],
+    noun     TaFCiL                    {- taxoliyap -}      `gloss`  [ "vacating", "evacuation" ],
 
     -- ;; xAliy_1
     -- xAly    xAliy   N0F     empty;devoid;free     [[xAliy/ADJ]]
@@ -1529,6 +1823,14 @@ lexicon = listing "Lexicon properties"
 
     noun     FACiL                     {- xAliy -}          `others` [ "_hAl Nuwn_Niyn NK" ]
                                                             `gloss`  [ "empty", "devoid", "free [ [ xAliy / ADJ ] ]", "free" ] ]
+
+ |> "_h m d" <| [
+
+    -- ;; <ixomAd_1
+    -- <xmAd   <ixomAd NduAt   extinguishing
+    -- AxmAd   <ixomAd NduAt   extinguishing
+
+    noun     HiFCAL                    {- IixomAd -}        `gloss`  [ "extinguishing" ] ]
 
  |> "_h m l" <| [
 
@@ -1655,14 +1957,13 @@ lexicon = listing "Lexicon properties"
     -- xryT    xariyT  Napdu   map;chart
     -- xrA}T   xarA}iT Ndip    maps;charts
 
-    noun     FaCIL                     {- xariyTap -}       `others` [ "_hariy.t Napdu", "_harA'i.t Ndip" ]
+    noun     FaCIL                     {- xariyTap -}       `others` [ "_harA'i.t Ndip" ]
                                                             `gloss`  [ "map", "chart", "maps", "charts" ],
 
     -- ;; xAriTap_1
     -- xArT    xAriT   NapAt   map;chart
 
-    noun     FACiL                     {- xAriTap -}        `others` [ "_hAri.t NapAt" ]
-                                                            `gloss`  [ "map", "chart" ] ]
+    noun     FACiL                     {- xAriTap -}        `gloss`  [ "map", "chart" ] ]
 
  |> "_h r .t m" <| [
 
@@ -1695,6 +1996,15 @@ lexicon = listing "Lexicon properties"
     verb     FaCCaL                    {- xar~aj -}         `others` [ "_harri^g IV_yu" ]
                                                             `gloss`  [ "oust", "remove" ],
 
+    -- ;; >axoraj_1
+    -- >xrj    >axoraj PV      oust;remove;emit
+    -- Axrj    >axoraj PV      oust;remove;emit
+    -- xrj     xorij   IV_yu   oust;remove;emit
+    -- xrj     xoraj   IV_Pass_yu      be ousted;be removed;be emitted
+
+    verb     HaFCaL                    {- Oaxoraj -}        `others` [ "_hri^g IV_yu", "_hra^g IV_Pass_yu" ]
+                                                            `gloss`  [ "oust", "remove", "emit", "be ousted", "be removed", "be emitted" ],
+
     -- ;; taxar~aj_1
     -- txrj    taxar~aj        PV_intr be graduated;graduate
     -- txrj    taxar~aj        IV_intr be graduated;graduate
@@ -1723,6 +2033,12 @@ lexicon = listing "Lexicon properties"
     noun     MaFCaL                    {- maxoraj -}        `others` [ "ma_hAri^g Ndip" ]
                                                             `gloss`  [ "exit", "outlet", "escape", "exits", "outlets" ],
 
+    -- ;; <ixorAj_1
+    -- <xrAj   <ixorAj NduAt   production;extraction;ousting
+    -- AxrAj   <ixorAj NduAt   production;extraction;ousting
+
+    noun     HiFCAL                    {- IixorAj -}        `gloss`  [ "production", "extraction", "ousting" ],
+
     -- ;; taxar~uj_1
     -- txrj    taxar~uj        NduAt   graduation
 
@@ -1746,8 +2062,7 @@ lexicon = listing "Lexicon properties"
     -- ;; xArijiy~ap_1
     -- xArjy   xArijiy~        Nap     foreign ministry;foreign office     [[xArijiy~/NOUN]]
 
-    noun     FACiL                     {- xArijiy~ap -}     `others` [ "_hAri^giyy Nap" ]
-                                                            `gloss`  [ "foreign ministry", "foreign office [ [ xArijiy ~ / NOUN ] ]" ],
+    noun     FACiL                     {- xArijiy~ap -}     `gloss`  [ "foreign ministry", "foreign office [ [ xArijiy ~ / NOUN ] ]" ],
 
     -- ;; muxorij_1
     -- mxrj    muxorij Nall    screen/stage director
@@ -1760,6 +2075,15 @@ lexicon = listing "Lexicon properties"
     noun     MustaFCaL                 {- musotaxoraj -}    `gloss`  [ "extract", "excerpt" ] ]
 
  |> "_h r b" <| [
+
+    -- ;; >axorab_1
+    -- >xrb    >axorab PV      destroy
+    -- Axrb    >axorab PV      destroy
+    -- xrb     xorib   IV_yu   destroy
+    -- xrb     xorab   IV_Pass_yu      be destroyed
+
+    verb     HaFCaL                    {- Oaxorab -}        `others` [ "_hrab IV_Pass_yu", "_hrib IV_yu" ]
+                                                            `gloss`  [ "destroy", "be destroyed" ],
 
     -- ;; xarAb_1
     -- xrAb    xarAb   N       ruins;destroyed
@@ -1792,7 +2116,7 @@ lexicon = listing "Lexicon properties"
     -- xrd     xurod   Nap     scrap metal
     -- xrdw    xurodaw NAt     novelties;scrap metal
 
-    noun     FuCL                      {- xurodap -}        `others` [ "_hurdaw NAt", "_hurd Nap" ]
+    noun     FuCL                      {- xurodap -}        `others` [ "_hurdaw NAt" ]
                                                             `gloss`  [ "scrap metal", "novelties" ] ]
 
  |> "_h r f" <| [
@@ -1810,8 +2134,7 @@ lexicon = listing "Lexicon properties"
     -- ;; xurAfap_1
     -- xrAf    xurAf   NapAt   superstition;fairy tale
 
-    noun     FuCAL                     {- xurAfap -}        `others` [ "_hurAf NapAt" ]
-                                                            `gloss`  [ "superstition", "fairy tale" ] ]
+    noun     FuCAL                     {- xurAfap -}        `gloss`  [ "superstition", "fairy tale" ] ]
 
  |> "_h r m" <| [
 
@@ -1889,7 +2212,7 @@ lexicon = listing "Lexicon properties"
     -- xsAr    xasAr   Napdu   loss;damage
     -- xsA}r   xasA}ir Ndip    losses;casualties;damages
 
-    noun     FaCAL                     {- xasArap -}        `others` [ "_hasAr Napdu", "_hasA'ir Ndip" ]
+    noun     FaCAL                     {- xasArap -}        `others` [ "_hasA'ir Ndip" ]
                                                             `gloss`  [ "loss", "damage", "losses", "casualties", "damages" ],
 
     -- ;; xAsir_1
@@ -1959,8 +2282,7 @@ lexicon = listing "Lexicon properties"
     -- ;; xAtimap_1
     -- xAtm    xAtim   Napdu   conclusion;epilogue
 
-    noun     FACiL                     {- xAtimap -}        `others` [ "_hAtim Napdu" ]
-                                                            `gloss`  [ "conclusion", "epilogue" ] ]
+    noun     FACiL                     {- xAtimap -}        `gloss`  [ "conclusion", "epilogue" ] ]
 
  |> "_h t n" <| [
 
@@ -2023,6 +2345,19 @@ lexicon = listing "Lexicon properties"
                                                             `others` [ "_hif PV_C_intr", "_haf IV_C_intr" ]
                                                             `gloss`  [ "be scared", "be afraid", "be frightened" ],
 
+    -- ;; >axAf_1
+    -- >xAf    >axAf   PV_V    frighten;alarm
+    -- AxAf    >axAf   PV_V    frighten;alarm
+    -- >xf     >axaf   PV_C    frighten;alarm
+    -- Axf     >axaf   PV_C    frighten;alarm
+    -- xyf     xiyf    IV_V_yu frighten;alarm
+    -- xf      xif     IV_C_yu frighten;alarm
+    -- xAf     xAf     IV_V_Pass_yu    be frightened;be alarmed
+    -- xf      xaf     IV_C_Pass_yu    be frightened;be alarmed
+
+    verb     HaFAL                     {- OaxAf -}          `others` [ "_hAf IV_V_Pass_yu", "_hiyf IV_V_yu", "_hif IV_C_yu", "_haf IV_C_Pass_yu", "'a_haf PV_C" ]
+                                                            `gloss`  [ "frighten", "alarm", "be frightened", "be alarmed" ],
+
     -- ;; taxaw~af_1
     -- txwf    taxaw~af        PV_intr be scared;be afraid;be frightened
     -- txwf    taxaw~af        IV_intr be scared;be afraid;be frightened
@@ -2039,7 +2374,7 @@ lexicon = listing "Lexicon properties"
     -- mxAf    maxAf   Nap     fearing;out of fear
     -- mxAwf   maxAwif Ndip    fears;apprehensions
 
-    noun     MaFAL                     {- maxAfap -}        `others` [ "ma_hAf Nap", "ma_hAwif Ndip" ]
+    noun     MaFAL                     {- maxAfap -}        `others` [ "ma_hAwif Ndip" ]
                                                             `gloss`  [ "fear", "apprehension", "fearing", "out of fear", "fears", "apprehensions" ],
 
     -- ;; taxowiyf_1
@@ -2090,6 +2425,13 @@ lexicon = listing "Lexicon properties"
     -- mxwl    muxaw~al        N-ap    authorized
 
     noun     MuFaCCaL                  {- muxaw~al -}       `gloss`  [ "authorized" ] ]
+
+ |> "_h w l w" <| [
+
+    -- ;; xuwluw_1
+    -- xwlw    xuwluw  Nprop   Jolo
+
+    noun     KuRDuS                    {- xuwluw -}         `gloss`  [ "Jolo" ] ]
 
  |> "_h w n" <| [
 
@@ -2147,8 +2489,7 @@ lexicon = listing "Lexicon properties"
     -- ;; xayobap_1
     -- xyb     xayob   Nap     disappointment;failure
 
-    noun     FaCL                      {- xayobap -}        `others` [ "_hayb Nap" ]
-                                                            `gloss`  [ "disappointment", "failure" ] ]
+    noun     FaCL                      {- xayobap -}        `gloss`  [ "disappointment", "failure" ] ]
 
  |> "_h y f" <| [
 
@@ -2192,7 +2533,7 @@ lexicon = listing "Lexicon properties"
     -- mxyl    maxiyl  Nap     conceit;arrogance
     -- mxAyl   maxAyil Ndip    symptoms;visions
 
-    noun     MaFIL                     {- maxiylap -}       `others` [ "ma_hiyl Nap", "ma_hAyil Ndip" ]
+    noun     MaFIL                     {- maxiylap -}       `others` [ "ma_hAyil Ndip" ]
                                                             `gloss`  [ "conceit", "arrogance", "symptoms", "visions" ],
 
     -- ;; muxiyl_1
@@ -2228,7 +2569,7 @@ lexicon = listing "Lexicon properties"
     -- xyAm    xiyAm   N       tents
     -- xym     xiyam   N       tents
 
-    noun     FaCL                      {- xayomap -}        `others` [ "_hiyam N", "_haym NapAt", "_hiyAm N" ]
+    noun     FaCL                      {- xayomap -}        `others` [ "_hiyam N", "_hiyAm N" ]
                                                             `gloss`  [ "tent", "tents" ] ]
 
  |> "_h y n" <| [
@@ -2236,8 +2577,7 @@ lexicon = listing "Lexicon properties"
     -- ;; xiyAnap_1
     -- xyAn    xiyAn   NapAt   treason;betrayal
 
-    noun     FiCAL                     {- xiyAnap -}        `others` [ "_hiyAn NapAt" ]
-                                                            `gloss`  [ "treason", "betrayal" ] ]
+    noun     FiCAL                     {- xiyAnap -}        `gloss`  [ "treason", "betrayal" ] ]
 
  |> "_h y r" <| [
 
@@ -2312,14 +2652,13 @@ lexicon = listing "Lexicon properties"
     -- xzAn    xizAn   NapAt   treasury;vault;coffer
     -- xzA}n   xazA}in Ndip    vaults;lockers;coffers
 
-    noun     FiCAL                     {- xizAnap -}        `others` [ "_hazA'in Ndip", "_hizAn NapAt" ]
+    noun     FiCAL                     {- xizAnap -}        `others` [ "_hazA'in Ndip" ]
                                                             `gloss`  [ "treasury", "vault", "coffer", "vaults", "lockers", "coffers" ],
 
     -- ;; xaziynap_1
     -- xzyn    xaziyn  Napdu   treasury;coffer;vault
 
-    noun     FaCIL                     {- xaziynap -}       `others` [ "_haziyn Napdu" ]
-                                                            `gloss`  [ "treasury", "coffer", "vault" ],
+    noun     FaCIL                     {- xaziynap -}       `gloss`  [ "treasury", "coffer", "vault" ],
 
     -- ;; xaz~An_1
     -- xzAn    xaz~An  N/ap    tank;reservoir
@@ -2358,6 +2697,23 @@ lexicon = listing "Lexicon properties"
     noun     MaFCUL                    {- maxozuwn -}       `gloss`  [ "deposits", "reserves [ [ maxozuwn / NOUN ] ]" ] ]
 
  |> "_h z y" <| [
+
+    -- ;; >axozaY_1
+    -- >xzY    >axozaY PV_0    humiliate;degrade
+    -- AxzY    >axozaY PV_0    humiliate;degrade
+    -- >xzA    >axozA  PV_h    humiliate;degrade
+    -- AxzA    >axozA  PV_h    humiliate;degrade
+    -- >xzy    >axozay PV_Atn  humiliate;degrade
+    -- Axzy    >axozay PV_Atn  humiliate;degrade
+    -- >xz     >axoz   PV_ttAw humiliate;degrade
+    -- Axz     >axoz   PV_ttAw humiliate;degrade
+    -- xzy     xoziy   IV_0hAnn_yu     humiliate;degrade
+    -- xz      xoz     IV_0hwnyn_yu    humiliate;degrade
+    -- xzY     xozaY   IV_0_Pass_yu    be humiliated;be degraded
+    -- xzy     xozay   IV_Ann_Pass_yu  be humiliated;be degraded
+
+    verb     HaFCY                     {- OaxozaY -}        `others` [ "'a_hz PV_ttAw", "_hzY IV_0_Pass_yu", "'a_hzay PV_Atn", "'a_hzA PV_h", "_hz IV_0hwnyn_yu", "_hzay IV_Ann_Pass_yu", "_hziy IV_0hAnn_yu" ]
+                                                            `gloss`  [ "humiliate", "degrade", "be humiliated", "be degraded" ],
 
     -- ;; xizoy_1
     -- xzy     xizoy   N       shame;disgrace
@@ -2414,8 +2770,7 @@ lexicon = listing "Lexicon properties"
     -- ;; xamosmA}ap_1
     -- xmsmA}  xamosmA}        Nap     five-hundred
 
-    noun     Identity                  {- xamosmA}ap -}     `others` [ "_hamsmA' Nap" ]
-                                                            `gloss`  [ "five-hundred" ] ]
+    noun     Identity                  {- xamosmA}ap -}     `gloss`  [ "five-hundred" ] ]
 
  |> "_hayrAllh" <| [
 
@@ -2443,26 +2798,12 @@ lexicon = listing "Lexicon properties"
     noun     Identity                  {- xilAla -}         `others` [ "_hilAli FW-Wa FW-Wa-i" ]
                                                             `gloss`  [ "during", "through [ [ xilAla / PREP ] ]", "through [ [ xilAli / PREP ] ]" ] ]
 
- |> "_hubar" <| [
-
-    -- ;; xubar_1
-    -- xbr     xubar   N0      Khobar
-
-    noun     Identity                  {- xubar -}          `gloss`  [ "Khobar" ] ]
-
  |> "_humayniy" <| [
 
     -- ;; xumayoniy_1
     -- xmyny   xumayoniy       N0      Khomeini
 
     noun     Identity                  {- xumayoniy -}      `gloss`  [ "Khomeini" ] ]
-
- |> "_huwluw" <| [
-
-    -- ;; xuwluw_1
-    -- xwlw    xuwluw  Nprop   Jolo
-
-    noun     Identity                  {- xuwluw -}         `gloss`  [ "Jolo" ] ]
 
  |> "_huwzistAn" <| [
 

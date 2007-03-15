@@ -14,8 +14,20 @@ lexicon = listing "Lexicon properties"
     -- ;; yAqap_1
     -- yAq     yAq     NapAt   collar
 
-    noun     FAL                       {- yAqap -}          `others` [ "yAq NapAt" ]
-                                                            `gloss`  [ "collar" ] ]
+    noun     FAL                       {- yAqap -}          `gloss`  [ "collar" ] ]
+
+ |> "y ' s" <| [
+
+    -- ;; ya>os_1
+    -- y>s     ya>os   N       despair;hopelessness
+
+    noun     FaCL                      {- yaOos -}          `gloss`  [ "despair", "hopelessness" ],
+
+    -- ;; mayo&uws_1
+    -- my&ws   mayo&uws        Nall    hopeless;desperate     [[mayo&uws/ADJ]]
+    -- my}ws   mayo}uws        Nall    hopeless;desperate
+
+    noun     MaFCUL                    {- mayoWuws -}       `gloss`  [ "hopeless", "desperate [ [ mayo&uws / ADJ ] ]", "desperate" ] ]
 
  |> "y .h y" <| [
 
@@ -62,8 +74,7 @@ lexicon = listing "Lexicon properties"
     -- ;; yahuwdiy~ap_1
     -- yhwdy   yahuwdiy~       Nap     Judaism     [[yahuwdiy~/NOUN]]
 
-    noun     FaCUL                     {- yahuwdiy~ap -}    `others` [ "yahuwdiyy Nap" ]
-                                                            `gloss`  [ "Judaism [ [ yahuwdiy ~ / NOUN ] ]" ] ]
+    noun     FaCUL                     {- yahuwdiy~ap -}    `gloss`  [ "Judaism [ [ yahuwdiy ~ / NOUN ] ]" ] ]
 
  |> "y m n" <| [
 
@@ -103,6 +114,12 @@ lexicon = listing "Lexicon properties"
 
     noun     FaCIL                     {- yamiyniy~ -}      `gloss`  [ "rightist", "right-wing [ [ yamiyniy ~ / ADJ ] ]" ],
 
+    -- ;; >ayoman_1
+    -- >ymn    >ayoman Nprop   Ayman;Aiman
+    -- Aymn    >ayoman Nprop   Ayman;Aiman
+
+    noun     HaFCaL                    {- Oayoman -}        `gloss`  [ "Ayman", "Aiman" ],
+
     -- ;; yumonaY_1
     -- ymnY    yumonaY N0      right hand;right side;lucky     [[yumonY/ADJ]]
     -- ymnA    yumonA  Nhy     right hand;right side;lucky     [[yumonA/ADJ]]
@@ -139,6 +156,29 @@ lexicon = listing "Lexicon properties"
 
     noun     FUCAL                     {- yuwnAniy~ -}      `gloss`  [ "Greek [ [ yuwnAniy ~ / NOUN ] ]", "Greek [ [ yuwnAniy ~ / ADJ ] ]" ] ]
 
+ |> "y q .z" <| [
+
+    -- ;; >ayoqaZ_1
+    -- >yqZ    >ayoqaZ PV      awaken;warn
+    -- AyqZ    >ayoqaZ PV      awaken;warn
+    -- wqZ     wqiZ    IV_yu   awaken;warn
+    -- wqZ     wqaZ    IV_Pass_yu      be awakened;be warned
+
+    verb     HaFCaL                    {- OayoqaZ -}        `others` [ "wqa.z IV_Pass_yu", "wqi.z IV_yu" ]
+                                                            `gloss`  [ "awaken", "warn", "be awakened", "be warned" ],
+
+    -- ;; <iyqAZ_1
+    -- <yqAZ   <iyqAZ  N/At    awakening;reveille
+    -- AyqAZ   <iyqAZ  N/At    awakening;reveille
+
+    noun     HICAL                     {- IiyqAZ -}         `gloss`  [ "awakening", "reveille" ],
+
+    -- ;; <iyqAZ_1
+    -- <yqAZ   <iyqAZ  N/At    awakening;reveille
+    -- AyqAZ   <iyqAZ  N/At    awakening;reveille
+
+    noun     HiFCAL                    {- IiyqAZ -}         `gloss`  [ "awakening", "reveille" ] ]
+
  |> "y q n" <| [
 
     -- ;; yaqin-a_1
@@ -148,6 +188,14 @@ lexicon = listing "Lexicon properties"
     verb     FaCiL                     {- yaqin-a -}        `imperf` [ FCaL ]
                                                             `others` [ "yqan IV-n_intr" ]
                                                             `gloss`  [ "be sure", "know for certain" ],
+
+    -- ;; >ayoqan_1
+    -- >yqn    >ayoqan PV-n    ascertain;be convinced
+    -- Ayqn    >ayoqan PV-n    ascertain;be convinced
+    -- yqn     yoqin   IV-n    ascertain;be convinced
+
+    verb     HaFCaL                    {- Oayoqan -}        `others` [ "yqin IV-n" ]
+                                                            `gloss`  [ "ascertain", "be convinced" ],
 
     -- ;; yaqiyn_1
     -- yqyn    yaqiyn  N       certainty;certitude;conviction
@@ -221,6 +269,17 @@ lexicon = listing "Lexicon properties"
 
     noun     FaCIL                     {- yasiyr -}         `gloss`  [ "easy", "simple [ [ yasiyr / ADJ ] ]" ],
 
+    -- ;; >ayosar_2
+    -- >ysr    >ayosar Nel     left
+    -- Aysr    >ayosar Nel     left
+    -- ysrY    yusoraY N0      left;left hand
+    -- ysrA    yusorA  Nhy     left;left hand
+    -- ysry    yusoray NAn_Nayn        left;left hands
+    -- ysry    yusoray NAt     left;left hands
+
+    noun     HaFCaL                    {- Oayosar -}        `others` [ "yusray NAt NAn_Nayn", "yusrY N0", "yusrA Nhy" ]
+                                                            `gloss`  [ "left", "left hand", "left hands" ],
+
     -- ;; tayosiyr_1
     -- tysyr   tayosiyr        N/At    facilitation
 
@@ -290,6 +349,20 @@ lexicon = listing "Lexicon properties"
     -- ywryn   yuwriyn Nprop   Uhrin
 
     noun     KuRDIS                    {- yuwriyn -}        `gloss`  [ "Uhrin" ] ]
+
+ |> "y w r w" <| [
+
+    -- ;; yuwruw_1
+    -- ywrw    yuwruw  N0      Euro
+
+    noun     KuRDuS                    {- yuwruw -}         `gloss`  [ "Euro" ] ]
+
+ |> "y w s f" <| [
+
+    -- ;; yuwsufiy~_1
+    -- ywsfy   yuwsufiy~       N       tangerines
+
+    noun     KuRDuS                    {- yuwsufiy~ -}      `gloss`  [ "tangerines" ] ]
 
  |> "y y d" <| [
 
@@ -540,26 +613,12 @@ lexicon = listing "Lexicon properties"
 
     noun     Identity                  {- yuwrk -}          `gloss`  [ "York" ] ]
 
- |> "yuwruw" <| [
-
-    -- ;; yuwruw_1
-    -- ywrw    yuwruw  N0      Euro
-
-    noun     Identity                  {- yuwruw -}         `gloss`  [ "Euro" ] ]
-
  |> "yuwsif" <| [
 
     -- ;; yuwsif_1
     -- ywsf    yuwsif  N0      Yousif;Yusif;Joseph
 
     noun     Identity                  {- yuwsif -}         `gloss`  [ "Yousif", "Yusif", "Joseph" ] ]
-
- |> "yuwsuf" <| [
-
-    -- ;; yuwsufiy~_1
-    -- ywsfy   yuwsufiy~       N       tangerines
-
-    noun     Identity                  {- yuwsufiy~ -}      `gloss`  [ "tangerines" ] ]
 
  |> "yuwtA" <| [
 

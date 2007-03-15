@@ -2733,6 +2733,7 @@ mrswm   marosuwm        Nall    decreed;ordered     <pos>marosuwm/ADJ</pos>
 mrswm   marosuwm        Nall    drawn;sketched     <pos>marosuwm/ADJ</pos>
 ;
 ;--- rsml
+;; rasomal_1
 rsml    rasomal PV      finance;underwrite
 rsml    rasomil IV      finance;underwrite
 ;; rasomalap_1

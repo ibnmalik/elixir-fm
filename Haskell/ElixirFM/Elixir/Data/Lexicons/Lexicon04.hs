@@ -9,7 +9,48 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon properties"
 
 
+ |> "'a_tnA'a" <| [
+
+    -- ;; >avonA'a_1
+    -- >vnA'   >avonA'a        FW-Wa   during     [[>avonA'a/PREP]]
+    -- AvnA'   >avonA'a        FW-Wa   during     [[>avonA'a/PREP]]
+    -- >vnA'   >avonA'i        FW-Wa   during     [[>avonA'i/PREP]]
+    -- AvnA'   >avonA'i        FW-Wa   during     [[>avonA'i/PREP]]
+    -- >vnA'   >avonA'a        FW-Wa-a during     [[>avonA'a/PREP]]
+    -- AvnA'   >avonA'a        FW-Wa-a during     [[>avonA'a/PREP]]
+    -- >vnA}   >avonA}i        FW-Wa-i during     [[>avonA}i/PREP]]
+    -- AvnA}   >avonA}i        FW-Wa-i during     [[>avonA}i/PREP]]
+    -- >vnA}   >avonA} FW-Wa-o during     [[>avonA}a/PREP]]
+    -- AvnA}   >avonA} FW-Wa-o during     [[>avonA}a/PREP]]
+
+    noun     Identity                  {- OavonA'a -}       `others` [ "'a_tnA'i FW-Wa FW-Wa-i", "'a_tnA' FW-Wa-o" ]
+                                                            `gloss`  [ "during [ [ >avonA'a / PREP ] ]", "during [ [ >avonA'i / PREP ] ]", "during [ [ >avonA } i / PREP ] ]", "during [ [ >avonA } a / PREP ] ]" ] ]
+
+ |> "'i_tb" <| [
+
+    -- ;; <ivobAt_1
+    -- <vbAt   <ivobAt NduAt   confirmation;verification
+    -- AvbAt   <ivobAt NduAt   confirmation;verification
+
+    noun     Identity                  {- IivobAt -}        `gloss`  [ "confirmation", "verification" ] ]
+
  |> "_t ' r" <| [
+
+    -- ;; va>ar-a_1
+    -- v>r     va>ar   PV      avenge;take revenge
+    -- v>r     vo>ar   IV      avenge;take revenge
+
+    verb     FaCaL                     {- vaOar-a -}        `imperf` [ FCaL ]
+                                                            `others` [ "_t'ar IV" ]
+                                                            `gloss`  [ "avenge", "take revenge" ],
+
+    -- ;; va>or_1
+    -- v>r     va>or   N/At    revenge;retaliation
+    -- >v|r    >avo|r  N       revenge;retaliations
+    -- Av|r    >avo|r  N       revenge;retaliations
+
+    noun     FaCL                      {- vaOor -}          `others` [ "'a_t'Ar N" ]
+                                                            `gloss`  [ "revenge", "retaliation", "retaliations" ],
 
     -- ;; vA}ir_1
     -- vA}r    vA}ir   Nall    agitated;exited
@@ -22,7 +63,7 @@ lexicon = listing "Lexicon properties"
     -- vgr     vugor   Napdu   gap;breach
     -- vgr     vagar   NAt     gaps;breaches
 
-    noun     FuCL                      {- vugorap -}        `others` [ "_tu.gr Napdu", "_ta.gar NAt" ]
+    noun     FuCL                      {- vugorap -}        `others` [ "_ta.gar NAt" ]
                                                             `gloss`  [ "gap", "breach", "gaps", "breaches" ] ]
 
  |> "_t _t b" <| [
@@ -58,8 +99,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muvAbarap_1
     -- mvAbr   muvAbar NapAt   persistence;perseverance
 
-    noun     MuFACaL                   {- muvAbarap -}      `others` [ "mu_tAbar NapAt" ]
-                                                            `gloss`  [ "persistence", "perseverance" ] ]
+    noun     MuFACaL                   {- muvAbarap -}      `gloss`  [ "persistence", "perseverance" ] ]
 
  |> "_t b t" <| [
 
@@ -77,6 +117,15 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCCaL                    {- vab~at -}         `others` [ "_tabbit IV_yu" ]
                                                             `gloss`  [ "confirm", "reinforce" ],
+
+    -- ;; >avobat_1
+    -- >vbt    >avobat PV-t    ascertain;establish
+    -- Avbt    >avobat PV-t    ascertain;establish
+    -- vbt     vobit   IV_yu   ascertain;establish
+    -- vbt     vobat   IV_Pass_yu      be ascertained;be established
+
+    verb     HaFCaL                    {- Oavobat -}        `others` [ "_tbit IV_yu", "_tbat IV_Pass_yu" ]
+                                                            `gloss`  [ "ascertain", "establish", "be ascertained", "be established" ],
 
     -- ;; tavab~at_1
     -- tvbt    tavab~at        PV-t    ascertain;verify
@@ -113,7 +162,7 @@ lexicon = listing "Lexicon properties"
     -- vAbt    vAbit   Napdu   fixed star
     -- vwAbt   vawAbit Ndip    fixed stars
 
-    noun     FACiL                     {- vAbitap -}        `others` [ "_tAbit Napdu", "_tawAbit Ndip" ]
+    noun     FACiL                     {- vAbitap -}        `others` [ "_tawAbit Ndip" ]
                                                             `gloss`  [ "fixed star", "fixed stars" ],
 
     -- ;; muvab~it_1
@@ -161,7 +210,7 @@ lexicon = listing "Lexicon properties"
     -- vkn     vakan   NAt     barracks
     -- vkn     vukan   N       barracks
 
-    noun     FuCL                      {- vukonap -}        `others` [ "_takan NAt", "_takn Napdu", "_tukan N", "_tukn NapAt" ]
+    noun     FuCL                      {- vukonap -}        `others` [ "_takan NAt", "_takn Napdu", "_tukan N" ]
                                                             `gloss`  [ "barracks" ] ]
 
  |> "_t l ^g" <| [
@@ -169,8 +218,7 @@ lexicon = listing "Lexicon properties"
     -- ;; val~Ajap_1
     -- vlAj    val~Aj  NapAt   refrigerator;icebox
 
-    noun     FaCCAL                    {- val~Ajap -}       `others` [ "_tallA^g NapAt" ]
-                                                            `gloss`  [ "refrigerator", "icebox" ],
+    noun     FaCCAL                    {- val~Ajap -}       `gloss`  [ "refrigerator", "icebox" ],
 
     -- ;; muval~aj_1
     -- mvlj    muval~aj        Nall    frozen
@@ -225,7 +273,7 @@ lexicon = listing "Lexicon properties"
     -- vl      vul~    Napdu   troop;detachment
     -- vll     vulal   N       troops;detachments
 
-    noun     FuCL                      {- vul~ap -}         `others` [ "_tulal N", "_tull Napdu" ]
+    noun     FuCL                      {- vul~ap -}         `others` [ "_tulal N" ]
                                                             `gloss`  [ "troop", "detachment", "troops", "detachments" ] ]
 
  |> "_t m l" <| [
@@ -233,8 +281,7 @@ lexicon = listing "Lexicon properties"
     -- ;; vumAlap_1
     -- vmAl    vumAl   NapAt   residue;dregs
 
-    noun     FuCAL                     {- vumAlap -}        `others` [ "_tumAl NapAt" ]
-                                                            `gloss`  [ "residue", "dregs" ] ]
+    noun     FuCAL                     {- vumAlap -}        `gloss`  [ "residue", "dregs" ] ]
 
  |> "_t m n" <| [
 
@@ -262,6 +309,12 @@ lexicon = listing "Lexicon properties"
     noun     FaCIL                     {- vamiyn -}         `others` [ "_timAn N" ]
                                                             `gloss`  [ "costly", "precious" ],
 
+    -- ;; >avoman_1
+    -- >vmn    >avoman Nel     costlier;more valuable
+    -- Avmn    >avoman Nel     costlier;more valuable
+
+    noun     HaFCaL                    {- Oavoman -}        `gloss`  [ "costlier", "more valuable" ],
+
     -- ;; tavomiyn_1
     -- tvmyn   tavomiyn        NduAt   appraisal;rating
 
@@ -287,6 +340,14 @@ lexicon = listing "Lexicon properties"
     noun     FACiL                     {- vAmin -}          `gloss`  [ "eighth [ [ vAmin / ADJ ] ]" ] ]
 
  |> "_t m r" <| [
+
+    -- ;; >avomar_1
+    -- >vmr    >avomar PV      result
+    -- Avmr    >avomar PV      result
+    -- vmr     vomir   IV_yu   result
+
+    verb     HaFCaL                    {- Oavomar -}        `others` [ "_tmir IV_yu" ]
+                                                            `gloss`  [ "result" ],
 
     -- ;; vamar_1
     -- vmr     vamar   Ndu     fruit;result
@@ -321,6 +382,12 @@ lexicon = listing "Lexicon properties"
 
  |> "_t n '" <| [
 
+    -- ;; >avonA'_2
+    -- >vnA'   >avonA' N0      meanwhile;meantime
+    -- AvnA'   >avonA' N0      meanwhile;meantime
+
+    noun     HaFCAL                    {- OavonA' -}        `gloss`  [ "meanwhile", "meantime" ],
+
     -- ;; vunA}iy~_1
     -- vnA}y   vunA}iy~        Nall    bilateral;dual     [[vunA}iy~/ADJ]]
 
@@ -344,7 +411,20 @@ lexicon = listing "Lexicon properties"
     -- vn      von     IV_0hwnyn       fold;double
     -- vnY     vonaY   IV_0    fold;double
 
-    verb     FaCY                      {- vanaY-i -}        `imperf` [ FCiL ]
+    verb     FaCaNY                    {- vanaY-i -}        `imperf` [ FCiL ]
+                                                            `others` [ "_tan PV_ttAw", "_tnY IV_0", "_tn IV_0hwnyn", "_tanA PV_h", "_tniy IV_0hAnn", "_tanay PV_Atn" ]
+                                                            `gloss`  [ "fold", "double" ],
+
+    -- ;; vanaY-i_1
+    -- vnY     vanaY   PV_0    fold;double
+    -- vnA     vanA    PV_h    fold;double
+    -- vny     vanay   PV_Atn  fold;double
+    -- vn      van     PV_ttAw fold;double
+    -- vny     voniy   IV_0hAnn        fold;double
+    -- vn      von     IV_0hwnyn       fold;double
+    -- vnY     vonaY   IV_0    fold;double
+
+    verb     FaCaNY                    {- vanaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "_tan PV_ttAw", "_tnY IV_0", "_tn IV_0hwnyn", "_tanA PV_h", "_tniy IV_0hAnn", "_tanay PV_Atn" ]
                                                             `gloss`  [ "fold", "double" ],
 
@@ -382,7 +462,7 @@ lexicon = listing "Lexicon properties"
     -- vwAny   vawAniy N0_Nh   seconds (time span)
     -- vwAn    vawAn   NK      seconds (time span)
 
-    noun     FACiL                     {- vAniyap -}        `others` [ "_tawAn NK", "_tAniy Napdu", "_tawAniy N0_Nh" ]
+    noun     FACiL                     {- vAniyap -}        `others` [ "_tawAn NK", "_tawAniy N0_Nh" ]
                                                             `gloss`  [ "second ( time span )", "seconds ( time span )" ] ]
 
  |> "_t q b" <| [
@@ -397,8 +477,7 @@ lexicon = listing "Lexicon properties"
     -- ;; vaqAfap_1
     -- vqAf    vaqAf   NapAt   culture;civilization
 
-    noun     FaCAL                     {- vaqAfap -}        `others` [ "_taqAf NapAt" ]
-                                                            `gloss`  [ "culture", "civilization" ],
+    noun     FaCAL                     {- vaqAfap -}        `gloss`  [ "culture", "civilization" ],
 
     -- ;; vaqAfiy~_1
     -- vqAfy   vaqAfiy~        Nall    cultural;intellectual     [[vaqAfiy~/ADJ]]
@@ -446,15 +525,30 @@ lexicon = listing "Lexicon properties"
     -- vrA&    varA&   Nh      wealth;abundance
     -- vrA}    varA}   Nhy     wealth;abundance
 
-    noun     FaCAL                     {- varA' -}          `gloss`  [ "wealth", "abundance" ] ]
+    noun     FaCAL                     {- varA' -}          `gloss`  [ "wealth", "abundance" ],
+
+    -- ;; <ivorA'_1
+    -- <vrA'   <ivorA' N0_Nh   enrichment
+    -- <vrA&   <ivorA& Nh      enrichment
+    -- <vrA}   <ivorA} Nhy     enrichment
+    -- <vrA'   <ivorA' NAn_Nayn        enrichment
+    -- <vrA}   <ivorA} Nayn    enrichment
+    -- <vrA'   <ivorA' NAt     enrichment
+    -- AvrA'   <ivorA' N0_Nh   enrichment
+    -- AvrA&   <ivorA& Nh      enrichment
+    -- AvrA}   <ivorA} Nhy     enrichment
+    -- AvrA'   <ivorA' NAn_Nayn        enrichment
+    -- AvrA}   <ivorA} Nayn    enrichment
+    -- AvrA'   <ivorA' NAt     enrichment
+
+    noun     HiFCAL                    {- IivorA' -}        `gloss`  [ "enrichment" ] ]
 
  |> "_t r _t r" <| [
 
     -- ;; varovarap_1
     -- vrvr    varovar NapAt   chatter;prattle
 
-    noun     KaRDaS                    {- varovarap -}      `others` [ "_tar_tar NapAt" ]
-                                                            `gloss`  [ "chatter", "prattle" ],
+    noun     KaRDaS                    {- varovarap -}      `gloss`  [ "chatter", "prattle" ],
 
     -- ;; varovAr_1
     -- vrvAr   varovAr Nall    chatterbox;garrulous
@@ -468,7 +562,23 @@ lexicon = listing "Lexicon properties"
     -- vrA&    varA&   Nh      wealth;abundance
     -- vrA}    varA}   Nhy     wealth;abundance
 
-    noun     FaCA'                     {- varA' -}          `gloss`  [ "wealth", "abundance" ] ]
+    noun     FaCA'                     {- varA' -}          `gloss`  [ "wealth", "abundance" ],
+
+    -- ;; <ivorA'_1
+    -- <vrA'   <ivorA' N0_Nh   enrichment
+    -- <vrA&   <ivorA& Nh      enrichment
+    -- <vrA}   <ivorA} Nhy     enrichment
+    -- <vrA'   <ivorA' NAn_Nayn        enrichment
+    -- <vrA}   <ivorA} Nayn    enrichment
+    -- <vrA'   <ivorA' NAt     enrichment
+    -- AvrA'   <ivorA' N0_Nh   enrichment
+    -- AvrA&   <ivorA& Nh      enrichment
+    -- AvrA}   <ivorA} Nhy     enrichment
+    -- AvrA'   <ivorA' NAn_Nayn        enrichment
+    -- AvrA}   <ivorA} Nayn    enrichment
+    -- AvrA'   <ivorA' NAt     enrichment
+
+    noun     HiFCA'                    {- IivorA' -}        `gloss`  [ "enrichment" ] ]
 
  |> "_t r w" <| [
 
@@ -476,7 +586,7 @@ lexicon = listing "Lexicon properties"
     -- vrw     varow   Napdu   wealth;abundance
     -- vrw     varaw   NAt     wealth;abundance;riches
 
-    noun     FaCL                      {- varowap -}        `others` [ "_taraw NAt", "_tarw Napdu" ]
+    noun     FaCL                      {- varowap -}        `others` [ "_taraw NAt" ]
                                                             `gloss`  [ "wealth", "abundance", "riches" ] ]
 
  |> "_t r w t" <| [
@@ -500,8 +610,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mavAbap_1
     -- mvAb    mavAb   Nap     virtually;tantamount to
 
-    noun     MaFAL                     {- mavAbap -}        `others` [ "ma_tAb Nap" ]
-                                                            `gloss`  [ "virtually", "tantamount to" ] ]
+    noun     MaFAL                     {- mavAbap -}        `gloss`  [ "virtually", "tantamount to" ] ]
 
  |> "_t w m" <| [
 
@@ -523,6 +632,21 @@ lexicon = listing "Lexicon properties"
                                                             `others` [ "_tuwr IV_V", "_tur PV_C IV_C" ]
                                                             `gloss`  [ "revolt", "arise" ],
 
+    -- ;; >avAr_1
+    -- >vAr    >avAr   PV_V    provoke;agitate
+    -- AvAr    >avAr   PV_V    provoke;agitate
+    -- >vr     >avar   PV_C    provoke;agitate
+    -- Avr     >avar   PV_C    provoke;agitate
+    -- vyr     viyr    IV_V_yu provoke;agitate
+    -- vr      vir     IV_C_yu provoke;agitate
+    -- >vyr    >uviyr  PV_V_Pass       be provoked;be agitated
+    -- Avyr    >uviyr  PV_V_Pass       be provoked;be agitated
+    -- vAr     vAr     IV_V_Pass_yu    be provoked;be agitated
+    -- vr      var     IV_C_Pass_yu    be provoked;be agitated
+
+    verb     HaFAL                     {- OavAr -}          `others` [ "'u_tiyr PV_V_Pass", "_tiyr IV_V_yu", "_tir IV_C_yu", "_tar IV_C_Pass_yu", "_tAr IV_V_Pass_yu", "'a_tar PV_C" ]
+                                                            `gloss`  [ "provoke", "agitate", "be provoked", "be agitated" ],
+
     -- ;; vawor_1
     -- vwr     vawor   Ndu     bull;ox
     -- vyrAn   viyrAn  N       bulls;oxen
@@ -538,14 +662,12 @@ lexicon = listing "Lexicon properties"
     -- ;; vaworap_1
     -- vwr     vawor   NapAt   revolution;uprising
 
-    noun     FaCL                      {- vaworap -}        `others` [ "_tawr NapAt" ]
-                                                            `gloss`  [ "revolution", "uprising" ],
+    noun     FaCL                      {- vaworap -}        `gloss`  [ "revolution", "uprising" ],
 
     -- ;; vaworap_2
     -- vwr     vawor   Nap     Thawra
 
-    noun     FaCL                      {- vaworap -}        `others` [ "_tawr Nap" ]
-                                                            `gloss`  [ "Thawra" ],
+    noun     FaCL                      {- vaworap -}        `gloss`  [ "Thawra" ],
 
     -- ;; vaworiy~_1
     -- vwry    vaworiy~        Nall    revolutionary     [[vaworiy~/ADJ]]
@@ -561,6 +683,12 @@ lexicon = listing "Lexicon properties"
     -- mvAr    mavAr   Ndu     incentive;motive
 
     noun     MaFAL                     {- mavAr -}          `gloss`  [ "incentive", "motive" ],
+
+    -- ;; <ivArap_1
+    -- <vAr    <ivAr   NapAt   provocation;agitation
+    -- AvAr    <ivAr   NapAt   provocation;agitation
+
+    noun     HiFAL                     {- IivArap -}        `gloss`  [ "provocation", "agitation" ],
 
     -- ;; vA}ir_1
     -- vA}r    vA}ir   Nall    agitated;exited
@@ -603,7 +731,7 @@ lexicon = listing "Lexicon properties"
     -- vlAvmA} valAvmA}        Nap     three-hundred
     -- vlvmA}  val`vmA}        Nap     three-hundred
 
-    noun     Identity                  {- valAvmA}ap -}     `others` [ "_tal_a_tmA' Nap", "_talA_tmA' Nap" ]
+    noun     Identity                  {- valAvmA}ap -}     `others` [ "_tal_a_tmA' Nap" ]
                                                             `gloss`  [ "three-hundred" ] ]
 
  |> "_tamAniy" <| [

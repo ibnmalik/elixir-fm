@@ -4011,6 +4011,7 @@ km      kam     FW-WaBi how many/much   <pos>kam/REL_PRON</pos>
 km      kam     FW-WaBi how many/much   <pos>kam/INTERROG_PART</pos>
 ;
 ;--- km(2)
+;; km_1
 km      km      FW      kilometer(s)     <pos>km/ABBREV</pos>
 ;
 ;--- km(3)
@@ -4871,6 +4872,7 @@ kwAn    kwAn    Nprop   Quann
 kwAn    kwAn    Nprop   Kwan
 ;
 ;--- kwb
+;; kuwb_1
 kwb     kuwb    Ndu     cup;glass
 >kwAb   >akowAb N       cups;glasses
 AkwAb   >akowAb N       cups;glasses

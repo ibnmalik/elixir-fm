@@ -23,8 +23,8 @@ import Elixir.Lexicon.Pretty
 
 import Elixir.Data.Lexicons.Lexicon00 as Extra
 
-import Elixir.Data.Lexicons.Lexicon01 as Alif
-import Elixir.Data.Lexicons.Lexicon02 as Baa
+--import Elixir.Data.Lexicons.Lexicon01 as Alif
+--import Elixir.Data.Lexicons.Lexicon02 as Baa
 import Elixir.Data.Lexicons.Lexicon03 as Taa
 import Elixir.Data.Lexicons.Lexicon04 as Thaa
 
@@ -67,8 +67,8 @@ lexicon =  -- Extra.lexicon ++ Yaa.lexicon
 
               Extra.lexicon
 
-           ++ Alif.lexicon
-           ++ Baa.lexicon
+           -- Alif.lexicon
+           -- Baa.lexicon
            ++ Taa.lexicon
            ++ Thaa.lexicon
 

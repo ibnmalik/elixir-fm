@@ -52,8 +52,7 @@ lexicon = listing "Lexicon properties"
     -- ;; *urap_1
     -- *r      *ur     Nap     sorghum;maize
 
-    noun     CuL                       {- *urap -}          `others` [ "_dur Nap" ]
-                                                            `gloss`  [ "sorghum", "maize" ] ]
+    noun     CuL                       {- *urap -}          `gloss`  [ "sorghum", "maize" ] ]
 
  |> "_d _d w" <| [
 
@@ -87,8 +86,25 @@ lexicon = listing "Lexicon properties"
     -- *xyr    *axiyr  Napdu   ammunition;treasure;provisions
     -- *xA}r   *axA}ir Ndip    ammunition;treasure;provisions
 
-    noun     FaCIL                     {- *axiyrap -}       `others` [ "_da_hiyr Napdu", "_da_hA'ir Ndip" ]
+    noun     FaCIL                     {- *axiyrap -}       `others` [ "_da_hA'ir Ndip" ]
                                                             `gloss`  [ "ammunition", "treasure", "provisions" ] ]
+
+ |> "_d ` n" <| [
+
+    -- ;; >a*oEan_1
+    -- >*En    >a*oEan PV-n    submit;yield;obey
+    -- A*En    >a*oEan PV-n    submit;yield;obey
+    -- *En     *oEin   IV-n_yu submit;yield;obey
+    -- *En     *oEan   IV-n_Pass_yu    be submitted to;be yielded to;be obeyed
+
+    verb     HaFCaL                    {- Oa*oEan -}        `others` [ "_d`an IV-n_Pass_yu", "_d`in IV-n_yu" ]
+                                                            `gloss`  [ "submit", "yield", "obey", "be submitted to", "be yielded to", "be obeyed" ],
+
+    -- ;; <i*oEAn_1
+    -- <*EAn   <i*oEAn NduAt   submissiveness;compliance;obedience
+    -- A*EAn   <i*oEAn NduAt   submissiveness;compliance;obedience
+
+    noun     HiFCAL                    {- Ii*oEAn -}        `gloss`  [ "submissiveness", "compliance", "obedience" ] ]
 
  |> "_d ` r" <| [
 
@@ -118,7 +134,7 @@ lexicon = listing "Lexicon properties"
     -- m*bH    ma*obaH Napdu   massacre;slaughter
     -- m*AbH   ma*AbiH Ndip    massacres;slaughterhouses
 
-    noun     MaFCaL                    {- ma*obaHap -}      `others` [ "ma_dba.h Napdu", "ma_dAbi.h Ndip" ]
+    noun     MaFCaL                    {- ma*obaHap -}      `others` [ "ma_dAbi.h Ndip" ]
                                                             `gloss`  [ "massacre", "slaughter", "massacres", "slaughterhouses" ] ]
 
  |> "_d b _d b" <| [
@@ -127,7 +143,7 @@ lexicon = listing "Lexicon properties"
     -- *b*b    *abo*ab Napdu   oscillation;frequency;vibration
     -- *b*b    *abo*ab NAt     oscillations;frequencies;vibrations
 
-    noun     KaRDaS                    {- *abo*abap -}      `others` [ "_dab_dab NAt Napdu" ]
+    noun     KaRDaS                    {- *abo*abap -}      `others` [ "_dab_dab NAt" ]
                                                             `gloss`  [ "oscillation", "frequency", "vibration", "oscillations", "frequencies", "vibrations" ],
 
     -- ;; ta*abo*ub_1
@@ -245,8 +261,7 @@ lexicon = listing "Lexicon properties"
     -- ;; *ihoniy~ap_1
     -- *hny    *ihoniy~        NapAt   mentality     [[*ihoniy~/NOUN]]
 
-    noun     FiCL                      {- *ihoniy~ap -}     `others` [ "_dihniyy NapAt" ]
-                                                            `gloss`  [ "mentality [ [ *ihoniy ~ / NOUN ] ]" ] ]
+    noun     FiCL                      {- *ihoniy~ap -}     `gloss`  [ "mentality [ [ *ihoniy ~ / NOUN ] ]" ] ]
 
  |> "_d k '" <| [
 
@@ -274,6 +289,15 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCCaL                    {- *ak~ar -}         `others` [ "_dakkir IV_yu" ]
                                                             `gloss`  [ "remind" ],
+
+    -- ;; >a*okar_1
+    -- >*kr    >a*okar PV      remind
+    -- A*kr    >a*okar PV      remind
+    -- *kr     *okir   IV_yu   remind
+    -- *kr     *okar   IV_Pass_yu      be reminded
+
+    verb     HaFCaL                    {- Oa*okar -}        `others` [ "_dkar IV_Pass_yu", "_dkir IV_yu" ]
+                                                            `gloss`  [ "remind", "be reminded" ],
 
     -- ;; ta*ak~ar_1
     -- t*kr    ta*ak~ar        PV      remember
@@ -308,8 +332,7 @@ lexicon = listing "Lexicon properties"
     -- ;; *Akirap_1
     -- *Akr    *Akir   Nap     memory
 
-    noun     FACiL                     {- *Akirap -}        `others` [ "_dAkir Nap" ]
-                                                            `gloss`  [ "memory" ],
+    noun     FACiL                     {- *Akirap -}        `gloss`  [ "memory" ],
 
     -- ;; ma*okuwr_1
     -- m*kwr   ma*okuwr        Nall    mentioned;worthy of mention     [[ma*okuwr/ADJ]]
@@ -319,8 +342,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mu*ak~irap_1
     -- m*kr    mu*ak~ir        NapAt   reminder;memorandum
 
-    noun     MuFaCCiL                  {- mu*ak~irap -}     `others` [ "mu_dakkir NapAt" ]
-                                                            `gloss`  [ "reminder", "memorandum" ] ]
+    noun     MuFaCCiL                  {- mu*ak~irap -}     `gloss`  [ "reminder", "memorandum" ] ]
 
  |> "_d k w" <| [
 
@@ -338,6 +360,12 @@ lexicon = listing "Lexicon properties"
 
     noun     TaFCIL                    {- ta*oliyl -}       `gloss`  [ "degradation", "surmounting" ],
 
+    -- ;; <i*olAl_1
+    -- <*lAl   <i*olAl NduAt   degradation;surmounting
+    -- A*lAl   <i*olAl NduAt   degradation;surmounting
+
+    noun     HiFCAL                    {- Ii*olAl -}        `gloss`  [ "degradation", "surmounting" ],
+
     -- ;; mu*il~_1
     -- m*l     mu*il~  Nall    humiliating;disgraceful     [[mu*il~/ADJ]]
 
@@ -349,7 +377,7 @@ lexicon = listing "Lexicon properties"
     -- *m      *im~    Napdu   protection;security
     -- *mm     *imam   N       protection;security
 
-    noun     FiCL                      {- *im~ap -}         `others` [ "_dimm Napdu", "_dimam N" ]
+    noun     FiCL                      {- *im~ap -}         `others` [ "_dimam N" ]
                                                             `gloss`  [ "protection", "security" ] ]
 
  |> "_d m r" <| [
@@ -413,7 +441,7 @@ lexicon = listing "Lexicon properties"
     -- *ryE    *ariyE  Napdu   means;pretext;expedient
     -- *rA}E   *arA}iE Ndip    pretexts;expediency;pragmatics
 
-    noun     FaCIL                     {- *ariyEap -}       `others` [ "_dariy` Napdu", "_darA'i` Ndip" ]
+    noun     FaCIL                     {- *ariyEap -}       `others` [ "_darA'i` Ndip" ]
                                                             `gloss`  [ "means", "pretext", "expedient", "pretexts", "expediency", "pragmatics" ] ]
 
  |> "_d r r" <| [
@@ -426,8 +454,7 @@ lexicon = listing "Lexicon properties"
     -- ;; *ar~ap_1
     -- *r      *ar~    NapAt   atom;particle
 
-    noun     FaCL                      {- *ar~ap -}         `others` [ "_darr NapAt" ]
-                                                            `gloss`  [ "atom", "particle" ],
+    noun     FaCL                      {- *ar~ap -}         `gloss`  [ "atom", "particle" ],
 
     -- ;; *ar~iy~_1
     -- *ry     *ar~iy~ N-ap    atomic     [[*ar~iy~/ADJ]]
@@ -438,7 +465,7 @@ lexicon = listing "Lexicon properties"
     -- *ry     *ur~iy~ NapAt   descendants;offspring     [[*ur~iy~/NOUN]]
     -- *rAry   *arAriy~        N       descendants;offspring
 
-    noun     FuCL                      {- *ur~iy~ap -}      `others` [ "_darAriyy N", "_durriyy NapAt" ]
+    noun     FuCL                      {- *ur~iy~ap -}      `others` [ "_darAriyy N" ]
                                                             `gloss`  [ "descendants", "offspring [ [ *ur ~ iy ~ / NOUN ] ]", "offspring" ] ]
 
  |> "_d r w" <| [
@@ -449,7 +476,7 @@ lexicon = listing "Lexicon properties"
     -- *rY     *uraY   N0      peaks;summits
     -- *rA     *urA    Nhy     peaks;summits
 
-    noun     FuCL                      {- *urowap -}        `others` [ "_durA Nhy", "_dirw Napdu", "_durY N0", "_durw Napdu" ]
+    noun     FuCL                      {- *urowap -}        `others` [ "_durA Nhy", "_dirw Napdu", "_durY N0" ]
                                                             `gloss`  [ "peak", "summit", "peaks", "summits" ] ]
 
  |> "_d w `" <| [
@@ -461,9 +488,50 @@ lexicon = listing "Lexicon properties"
     -- *wy     *owiy   IV_0hAnn        wither;fade
     -- *w      *ow     IV_0hwnyn       wither;fade
 
-    verb     FaCY                      {- *awaY-i -}        `imperf` [ FCiL ]
+    verb     FaCaNY                    {- *awaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "_dwiy IV_0hAnn", "_daw PV_ttAw", "_dw IV_0hwnyn", "_daway PV_Atn" ]
                                                             `gloss`  [ "wither", "fade" ],
+
+    -- ;; *awaY-i_1
+    -- *wY     *awaY   PV_0    wither;fade
+    -- *wy     *away   PV_Atn  wither;fade
+    -- *w      *aw     PV_ttAw wither;fade
+    -- *wy     *owiy   IV_0hAnn        wither;fade
+    -- *w      *ow     IV_0hwnyn       wither;fade
+
+    verb     FaCaNY                    {- *awaY-i -}        `imperf` [ FCiL ]
+                                                            `others` [ "_dwiy IV_0hAnn", "_daw PV_ttAw", "_dw IV_0hwnyn", "_daway PV_Atn" ]
+                                                            `gloss`  [ "wither", "fade" ],
+
+    -- ;; >a*AE_1
+    -- >*AE    >a*AE   PV_V    broadcast;propagate
+    -- A*AE    >a*AE   PV_V    broadcast;propagate
+    -- >*E     >a*aE   PV_C    broadcast;propagate
+    -- A*E     >a*aE   PV_C    broadcast;propagate
+    -- *yE     *iyE    IV_V_yu broadcast;propagate
+    -- *E      *iE     IV_C_yu broadcast;propagate
+    -- >*yE    >u*iyE  PV_V_Pass       be broadcast;be propagated
+    -- A*yE    >u*iyE  PV_V_Pass       be broadcast;be propagated
+    -- *AE     *AE     IV_V_Pass_yu    be broadcast;be propagated
+    -- *E      *aE     IV_C_Pass_yu    be broadcast;be propagated
+
+    verb     HaFAL                     {- Oa*AE -}          `others` [ "'u_diy` PV_V_Pass", "_di` IV_C_yu", "_diy` IV_V_yu", "'a_da` PV_C", "_da` IV_C_Pass_yu", "_dA` IV_V_Pass_yu" ]
+                                                            `gloss`  [ "broadcast", "propagate", "be broadcast", "be propagated" ],
+
+    -- ;; <i*AEap_1
+    -- <*AE    <i*AE   Napdu   broadcast;transmission
+    -- A*AE    <i*AE   Napdu   broadcast;transmission
+    -- <*AE    <i*AE   NAt     broadcasts;transmissions
+    -- A*AE    <i*AE   NAt     broadcasts;transmissions
+
+    noun     HiFAL                     {- Ii*AEap -}        `others` [ "'i_dA` NAt" ]
+                                                            `gloss`  [ "broadcast", "transmission", "broadcasts", "transmissions" ],
+
+    -- ;; <i*AEiy~_1
+    -- <*AEy   <i*AEiy~        Nall    radio;broadcast;transmission     [[<i*AEiy~/ADJ]]
+    -- A*AEy   <i*AEiy~        Nall    radio;broadcast;transmission     [[<i*AEiy~/ADJ]]
+
+    noun     HiFAL                     {- Ii*AEiy~ -}       `gloss`  [ "radio", "broadcast", "transmission [ [" ],
 
     -- ;; *A}iE_1
     -- *A}E    *A}iE   Nall    widespread;widely known     [[*A}iE/ADJ]]
@@ -490,6 +558,19 @@ lexicon = listing "Lexicon properties"
     verb     FAL                       {- *Aq-u -}          `imperf` [ FCuL ]
                                                             `others` [ "_duq PV_C IV_C", "_duwq IV_V", "_daq IV_V_Pass_yu" ]
                                                             `gloss`  [ "taste", "sample", "experience", "be tasted", "be experienced" ],
+
+    -- ;; >a*Aq_1
+    -- >*Aq    >a*Aq   PV_V    make taste;make sample;make experience
+    -- A*Aq    >a*Aq   PV_V    make taste;make sample;make experience
+    -- >*q     >a*aq   PV_C    make taste;make sample;make experience
+    -- A*q     >a*aq   PV_C    make taste;make sample;make experience
+    -- *yq     *iyq    IV_V_yu make taste;make sample;make experience
+    -- *q      *iq     IV_C_yu make taste;make sample;make experience
+    -- *Aq     *Aq     IV_V_Pass_yu    be made to taste/sample;be made to make experience
+    -- *q      *aq     IV_C_Pass_yu    be made to taste/sample;be made to make experience
+
+    verb     HaFAL                     {- Oa*Aq -}          `others` [ "_diq IV_C_yu", "_dAq IV_V_Pass_yu", "_diyq IV_V_yu", "_daq IV_C_Pass_yu", "'a_daq PV_C" ]
+                                                            `gloss`  [ "make taste", "make sample", "make experience", "be made to taste / sample", "be made to make experience" ],
 
     -- ;; *awoq_1
     -- *wq     *awoq   N       taste;sense;sensitivity
@@ -634,6 +715,6 @@ lexicon = listing "Lexicon properties"
     -- t*kr    ta*okar Napdu   ticket;card
     -- t*Akr   ta*Akir Ndip    tickets;cards
 
-    noun     Identity                  {- ta*okarap -}      `others` [ "ta_dkar Napdu", "ta_dAkir Ndip" ]
+    noun     Identity                  {- ta*okarap -}      `others` [ "ta_dAkir Ndip" ]
                                                             `gloss`  [ "ticket", "card", "tickets", "cards" ] ]
 

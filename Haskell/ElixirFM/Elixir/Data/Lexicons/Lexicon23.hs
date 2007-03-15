@@ -9,23 +9,38 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon properties"
 
 
-{-
- |> "" <| [
-
-    -- lyA     liyA    Nprop   Leah
-
-             Identity                                       `others` [ "liyA Nprop" ]
-                                                            `gloss`  [ "Leah" ] ]
--}
-
  |> "l ' .h" <| [
 
     -- ;; lA}iHap_1
     -- lA}H    lA}iH   NapAt_L list;table;schedule
     -- lwA}H   lawA}iH Ndip_L  tables;schedules
 
-    noun     FACiL                     {- lA}iHap -}        `others` [ "lA'i.h NapAt_L", "lawA'i.h Ndip_L" ]
+    noun     FACiL                     {- lA}iHap -}        `others` [ "lawA'i.h Ndip_L" ]
                                                             `gloss`  [ "list", "table", "schedule", "tables", "schedules" ] ]
+
+ |> "l ' k" <| [
+
+    -- ;; malo>ak_1
+    -- ml>k    malo>ak Ndu     angel
+    -- mlAk    malAk   Ndu     angel
+    -- mlA}k   malA}ik Ndip    angels
+    -- mlA}k   malA}ik Nap     angels
+
+    noun     MaFCaL                    {- maloOak -}        `others` [ "malAk Ndu", "malA'ik Nap Ndip" ]
+                                                            `gloss`  [ "angel", "angels" ] ]
+
+ |> "l ' l '" <| [
+
+    -- ;; lu&olu&_1
+    -- l&l&    lu&olu& N0_Nh_L pearl
+    -- l&l}    lu&olu} Nhy_L   pearl
+    -- l&l&    lu&olu& NAn_Nayn_L      pearls
+    -- l&l}    lu&olu} Nayn    pearls
+    -- l&l&    lu&olu& Napdu_L pearl
+    -- l|l}    la|li}  Ndip_L  pearls
+
+    noun     KuRDuS                    {- luWoluW -}        `others` [ "la'Ali' Ndip_L" ]
+                                                            `gloss`  [ "pearl", "pearls" ] ]
 
  |> "l ' m" <| [
 
@@ -38,8 +53,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mulA'amap_2
     -- mlA'm   mulA'am NapAt   appropriateness;suitability
 
-    noun     MuFACaL                   {- mulA'amap -}      `others` [ "mulA'am NapAt" ]
-                                                            `gloss`  [ "appropriateness", "suitability" ],
+    noun     MuFACaL                   {- mulA'amap -}      `gloss`  [ "appropriateness", "suitability" ],
 
     -- ;; mulA}im_1
     -- mlA}m   mulA}im Nall    suitable;appropriate     [[mulA}im/ADJ]]
@@ -58,7 +72,7 @@ lexicon = listing "Lexicon properties"
     -- lA}m    lA}im   Nap_L   blame;censure
     -- lwA}m   lawA}im Ndip_L  blame;censure
 
-    noun     FACiL                     {- lA}imap -}        `others` [ "lA'im Nap_L", "lawA'im Ndip_L" ]
+    noun     FACiL                     {- lA}imap -}        `others` [ "lawA'im Ndip_L" ]
                                                             `gloss`  [ "blame", "censure" ] ]
 
  |> "l ' q" <| [
@@ -67,6 +81,42 @@ lexicon = listing "Lexicon properties"
     -- lA}q    lA}iq   Nall_L  suitable;appropriate     [[lA}iq/ADJ]]
 
     noun     FACiL                     {- lA}iq -}          `gloss`  [ "suitable", "appropriate [ [ lA } iq / ADJ ] ]" ] ]
+
+ |> "l .g " <| [
+
+    -- ;; <ilogA'_1
+    -- <lgA'   <ilogA' N0_Nh   cancellation;abrogation;repeal
+    -- AlgA'   <ilogA' N0_Nh   cancellation;abrogation;repeal
+    -- <lgA&   <ilogA& Nh      cancellation;abrogation;repeal
+    -- AlgA&   <ilogA& Nh      cancellation;abrogation;repeal
+    -- <lgA}   <ilogA} Nhy     cancellation;abrogation;repeal
+    -- AlgA}   <ilogA} Nhy     cancellation;abrogation;repeal
+    -- <lgA'   <ilogA' NAn_Nayn        cancellation;abrogation;repeal
+    -- AlgA'   <ilogA' NAn_Nayn        cancellation;abrogation;repeal
+    -- <lgA}   <ilogA} Nayn    cancellation;abrogation;repeal
+    -- AlgA}   <ilogA} Nayn    cancellation;abrogation;repeal
+    -- <lgA'   <ilogA' NAt     cancellation;abrogation;repeal
+    -- AlgA'   <ilogA' NAt     cancellation;abrogation;repeal
+
+    noun     HiFCA'                    {- IilogA' -}        `gloss`  [ "cancellation", "abrogation", "repeal" ] ]
+
+ |> "l .g '" <| [
+
+    -- ;; <ilogA'_1
+    -- <lgA'   <ilogA' N0_Nh   cancellation;abrogation;repeal
+    -- AlgA'   <ilogA' N0_Nh   cancellation;abrogation;repeal
+    -- <lgA&   <ilogA& Nh      cancellation;abrogation;repeal
+    -- AlgA&   <ilogA& Nh      cancellation;abrogation;repeal
+    -- <lgA}   <ilogA} Nhy     cancellation;abrogation;repeal
+    -- AlgA}   <ilogA} Nhy     cancellation;abrogation;repeal
+    -- <lgA'   <ilogA' NAn_Nayn        cancellation;abrogation;repeal
+    -- AlgA'   <ilogA' NAn_Nayn        cancellation;abrogation;repeal
+    -- <lgA}   <ilogA} Nayn    cancellation;abrogation;repeal
+    -- AlgA}   <ilogA} Nayn    cancellation;abrogation;repeal
+    -- <lgA'   <ilogA' NAt     cancellation;abrogation;repeal
+    -- AlgA'   <ilogA' NAt     cancellation;abrogation;repeal
+
+    noun     HiFCAL                    {- IilogA' -}        `gloss`  [ "cancellation", "abrogation", "repeal" ] ]
 
  |> "l .g .t" <| [
 
@@ -91,6 +141,30 @@ lexicon = listing "Lexicon properties"
     noun     FaCL                      {- lagom -}          `others` [ "'al.gAm N", "lu.gm N_L", "la.gam N_L" ]
                                                             `gloss`  [ "mining", "mine", "mines" ] ]
 
+ |> "l .g w" <| [
+
+    -- ;; >alogaY_1
+    -- >lgY    >alogaY PV_0    cancel;abrogate;terminate
+    -- AlgY    >alogaY PV_0    cancel;abrogate;terminate
+    -- >lgA    >alogA  PV_h    cancel;abrogate;terminate
+    -- AlgA    >alogA  PV_h    cancel;abrogate;terminate
+    -- >lgy    >alogay PV_Atn  cancel;abrogate;terminate
+    -- Algy    >alogay PV_Atn  cancel;abrogate;terminate
+    -- >lg     >alog   PV_ttAw cancel;abrogate;terminate
+    -- Alg     >alog   PV_ttAw cancel;abrogate;terminate
+    -- lgy     logiy   IV_0hAnn_yu     cancel;abrogate;terminate
+    -- lg      log     IV_0hwnyn_yu    cancel;abrogate;terminate
+    -- lgY     logaY   IV_0_Pass_yu    be cancelled;be abrogated;be terminated
+    -- lgy     logay   IV_Ann_Pass_yu  be cancelled;be abrogated;be terminated
+
+    verb     HaFCY                     {- OalogaY -}        `others` [ "l.g IV_0hwnyn_yu", "l.giy IV_0hAnn_yu", "'al.gay PV_Atn", "'al.gA PV_h", "l.gay IV_Ann_Pass_yu", "l.gY IV_0_Pass_yu", "'al.g PV_ttAw" ]
+                                                            `gloss`  [ "cancel", "abrogate", "terminate", "be cancelled", "be abrogated", "be terminated" ],
+
+    -- ;; lugawiy~_1
+    -- lgwy    lugawiy~        N-ap_L  language;linguistic     [[lugawiy~/ADJ]]
+
+    noun     FuCaL                     {- lugawiy~ -}       `gloss`  [ "language", "linguistic [ [ lugawiy ~ / ADJ ] ]" ] ]
+
  |> "l .g z" <| [
 
     -- ;; lugoz_1
@@ -102,6 +176,24 @@ lexicon = listing "Lexicon properties"
                                                             `gloss`  [ "mystery", "enigma", "riddle", "mysteries", "enigmas", "riddles" ] ]
 
  |> "l .h .h" <| [
+
+    -- ;; >alaH~_1
+    -- >lH     >alaH~  PV_V    insist;harass;bother
+    -- AlH     >alaH~  PV_V    insist;harass;bother
+    -- >lHH    >aloHaH PV_C    insist;harass;bother
+    -- AlHH    >aloHaH PV_C    insist;harass;bother
+    -- lH      liH~    IV_V_yu insist;harass;bother
+    -- lHH     loHiH   IV_C_yu insist;harass;bother
+    -- lH      laH~    IV_V_Pass_yu    be insisted;harass;bother
+
+    verb     HaFaCL                    {- OalaH~ -}         `others` [ "'al.ha.h PV_C", "li.h.h IV_V_yu", "l.hi.h IV_C_yu", "la.h.h IV_V_Pass_yu" ]
+                                                            `gloss`  [ "insist", "harass", "bother", "be insisted" ],
+
+    -- ;; <iloHAH_1
+    -- <lHAH   <iloHAH N/At    insistence;importunateness;harassment;harangue
+    -- AlHAH   <iloHAH N/At    insistence;importunateness;harassment;harangue
+
+    noun     HiFCAL                    {- IiloHAH -}        `gloss`  [ "insistence", "importunateness", "harassment", "harangue" ],
 
     -- ;; muliH~_1
     -- mlH     muliH~  N-ap    urgent;pressing;insistent     [[muliH~/ADJ]]
@@ -131,14 +223,14 @@ lexicon = listing "Lexicon properties"
     -- lHZ     laHoZ   Napdu_L moment;instant
     -- lHZ     laHaZ   NAt_L   moments;instants
 
-    noun     FaCL                      {- laHoZap -}        `others` [ "la.ha.z NAt_L", "la.h.z Napdu_L" ]
+    noun     FaCL                      {- laHoZap -}        `others` [ "la.ha.z NAt_L" ]
                                                             `gloss`  [ "moment", "instant", "moments", "instants" ],
 
     -- ;; mulAHaZap_1
     -- mlAHZ   mulAHaZ NapAt   observation;remark
     -- mlAHZ   mulAHaZ NAt     guidelines;observations
 
-    noun     MuFACaL                   {- mulAHaZap -}      `others` [ "mulA.ha.z NAt NapAt" ]
+    noun     MuFACaL                   {- mulAHaZap -}      `others` [ "mulA.ha.z NAt" ]
                                                             `gloss`  [ "observation", "remark", "guidelines", "observations" ],
 
     -- ;; maloHuwZ_1
@@ -166,7 +258,13 @@ lexicon = listing "Lexicon properties"
     -- ;; laHuwd_1
     -- lHwd    laHuwd  Nprop   Lahoud
 
-    noun     FaCUL                     {- laHuwd -}         `gloss`  [ "Lahoud" ] ]
+    noun     FaCUL                     {- laHuwd -}         `gloss`  [ "Lahoud" ],
+
+    -- ;; <iloHAd_1
+    -- <lHAd   <iloHAd N       atheism;apostasy
+    -- AlHAd   <iloHAd N       atheism;apostasy
+
+    noun     HiFCAL                    {- IiloHAd -}        `gloss`  [ "atheism", "apostasy" ] ]
 
  |> "l .h m" <| [
 
@@ -187,8 +285,7 @@ lexicon = listing "Lexicon properties"
     -- ;; luHomap_1
     -- lHm     luHom   Nap_L   decisive factor;kinship
 
-    noun     FuCL                      {- luHomap -}        `others` [ "lu.hm Nap_L" ]
-                                                            `gloss`  [ "decisive factor", "kinship" ] ]
+    noun     FuCL                      {- luHomap -}        `gloss`  [ "decisive factor", "kinship" ] ]
 
  |> "l .h n" <| [
 
@@ -228,6 +325,15 @@ lexicon = listing "Lexicon properties"
     verb     FACaL                     {- lAHaq -}          `others` [ "lA.hiq IV_yu" ]
                                                             `gloss`  [ "go after", "join", "persecute" ],
 
+    -- ;; >aloHaq_1
+    -- >lHq    >aloHaq PV      attach;append;enroll
+    -- AlHq    >aloHaq PV      attach;append;enroll
+    -- lHq     loHiq   IV_yu   attach;append;enroll
+    -- lHq     loHaq   IV_Pass_yu      be attached;be appended;be enrolled
+
+    verb     HaFCaL                    {- OaloHaq -}        `others` [ "l.hiq IV_yu", "l.haq IV_Pass_yu" ]
+                                                            `gloss`  [ "attach", "append", "enroll", "be attached", "be appended", "be enrolled" ],
+
     -- ;; talAHaq_1
     -- tlAHq   talAHaq PV      follow successively
     -- tlAHq   talAHaq IV      follow successively
@@ -237,8 +343,25 @@ lexicon = listing "Lexicon properties"
     -- ;; mulAHaqap_1
     -- mlAHq   mulAHaq NapAt   persecution;pursuit
 
-    noun     MuFACaL                   {- mulAHaqap -}      `others` [ "mulA.haq NapAt" ]
-                                                            `gloss`  [ "persecution", "pursuit" ],
+    noun     MuFACaL                   {- mulAHaqap -}      `gloss`  [ "persecution", "pursuit" ],
+
+    -- ;; <iloHAq_1
+    -- <lHAq   <iloHAq N/At    joining;enrollment
+    -- AlHAq   <iloHAq N/At    joining;enrollment
+
+    noun     HiFCAL                    {- IiloHAq -}        `gloss`  [ "joining", "enrollment" ],
+
+    -- ;; <iloHAq_2
+    -- <lHAq   <iloHAq N/At    appending;annexation
+    -- AlHAq   <iloHAq N/At    appending;annexation
+
+    noun     HiFCAL                    {- IiloHAq -}        `gloss`  [ "appending", "annexation" ],
+
+    -- ;; <iloHAq_3
+    -- <lHAq   <iloHAq N       causing;inflicting
+    -- AlHAq   <iloHAq N       causing;inflicting
+
+    noun     HiFCAL                    {- IiloHAq -}        `gloss`  [ "causing", "inflicting" ],
 
     -- ;; lAHiq_1
     -- lAHq    lAHiq   N       later;afterwards     [[lAHiq/ADJ]]
@@ -254,7 +377,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muloHaq_1
     -- mlHq    muloHaq Nall    attaché
 
-    noun     MuFCaL                    {- muloHaq -}        `gloss`  [ "attach_e" ],
+    noun     MuFCaL                    {- muloHaq -}        `gloss`  [ "attaché" ],
 
     -- ;; muloHaq_2
     -- mlHq    muloHaq N-ap    appended;adjacent;annexed     [[muloHaq/ADJ]]
@@ -280,7 +403,7 @@ lexicon = listing "Lexicon properties"
     -- lHY     liHaY   N0_L    beard
     -- lHA     liHA    Nhy_L   beard
 
-    noun     FiCL                      {- liHoyap -}        `others` [ "lu.hA Nhy_L", "li.hy Napdu_L", "li.hA Nhy_L", "li.hY N0_L", "lu.hY N0_L" ]
+    noun     FiCL                      {- liHoyap -}        `others` [ "lu.hA Nhy_L", "li.hA Nhy_L", "li.hY N0_L", "lu.hY N0_L" ]
                                                             `gloss`  [ "beard" ] ]
 
  |> "l .s .s" <| [
@@ -296,6 +419,15 @@ lexicon = listing "Lexicon properties"
 
  |> "l .s q" <| [
 
+    -- ;; >aloSaq_1
+    -- >lSq    >aloSaq PV      attach;append;join
+    -- AlSq    >aloSaq PV      attach;append;join
+    -- lSq     loSiq   IV_yu   attach;append;join
+    -- lSq     loSaq   IV_Pass_yu      be attached;be appended;be joined
+
+    verb     HaFCaL                    {- OaloSaq -}        `others` [ "l.saq IV_Pass_yu", "l.siq IV_yu" ]
+                                                            `gloss`  [ "attach", "append", "join", "be attached", "be appended", "be joined" ],
+
     -- ;; muloSaq_1
     -- mlSq    muloSaq N-ap    attached;pasted on;fastened     [[muloSaq/ADJ]]
     -- mlSq    muloSaq NAt     poster;placard     [[muloSaq/NOUN]]
@@ -308,7 +440,7 @@ lexicon = listing "Lexicon properties"
     -- lTx     laTox   Napdu_L stain;blotch;blemish
     -- lTx     laTax   NAt_L   stains;blotches;blemishes
 
-    noun     FaCL                      {- laToxap -}        `others` [ "la.t_h Napdu_L", "la.ta_h NAt_L" ]
+    noun     FaCL                      {- laToxap -}        `others` [ "la.ta_h NAt_L" ]
                                                             `gloss`  [ "stain", "blotch", "blemish", "stains", "blotches", "blemishes" ],
 
     -- ;; mulaT~ax_1
@@ -332,6 +464,29 @@ lexicon = listing "Lexicon properties"
 
  |> "l ^g '" <| [
 
+    -- ;; laja>-a_1
+    -- lj>     laja>   PV->    resort;have recourse;take refuge
+    -- lj|     laja|   PV-|    resort;have recourse;take refuge
+    -- lj&     laja&   PV_w    resort;have recourse;take refuge
+    -- lj>     loja>   IV      resort;have recourse;take refuge
+    -- lj>     loja>   IV_wn   resort;have recourse;take refuge
+    -- lj|     loja|   IV-|    resort;have recourse;take refuge
+    -- lj&     loja&   IV_wn   resort;have recourse;take refuge
+    -- lj}     loja}   IV_yn   resort;have recourse;take refuge
+
+    verb     FaCaL                     {- lajaO-a -}        `imperf` [ FCaL ]
+                                                            `others` [ "l^ga' IV IV_wn IV_yn", "la^ga'A PV-|", "l^ga'A IV-|" ]
+                                                            `gloss`  [ "resort", "have recourse", "take refuge" ],
+
+    -- ;; laj~a>_1
+    -- lj>     laj~a>  PV->    coerce;compel
+    -- lj|     laj~a|  PV-|    coerce;compel
+    -- lj&     laj~a&  PV_w    coerce;compel
+    -- lj}     laj~i}  IV_yu   coerce;compel
+
+    verb     FaCCaL                    {- laj~aO -}         `others` [ "la^g^gi' IV_yu", "la^g^ga'A PV-|" ]
+                                                            `gloss`  [ "coerce", "compel" ],
+
     -- ;; lujuw'_1
     -- ljw'    lujuw'  N0_Nh_L resorting;taking refuge
     -- ljw}    lujuw}  Nhy_L   resorting;taking refuge
@@ -343,6 +498,18 @@ lexicon = listing "Lexicon properties"
     -- ljw}    lujuw}  Nhy_L   asylum;refuge
 
     noun     FuCUL                     {- lujuw' -}         `gloss`  [ "asylum", "refuge" ],
+
+    -- ;; maloja>_1
+    -- mlj>    maloja> N0_Nh   shelter;refuge
+    -- mlj&    maloja& Nh      shelter;refuge
+    -- mlj}    maloja} Nhy     shelter;refuge
+    -- mlj}    maloja} Nayn    shelters;refuges
+    -- mlj|    maloja| N-|     shelters;refuges
+    -- mlj     maloja  N-|t    shelters;refuges
+    -- mlAj}   malAji} Ndip    shelters;refuges
+
+    noun     MaFCaL                    {- malojaO -}        `others` [ "mal^ga N-|t", "malA^gi' Ndip", "mal^ga'A N-|" ]
+                                                            `gloss`  [ "shelter", "refuge", "shelters", "refuges" ],
 
     -- ;; lAji}_1
     -- lAj}    lAji}   Nall_L  refugee;seeking refuge
@@ -357,7 +524,7 @@ lexicon = listing "Lexicon properties"
     -- ljAn    lijAn   N_L     councils;committees;commissions
     -- ljn     lijan   N_L     councils;committees;commissions
 
-    noun     FaCL                      {- lajonap -}        `others` [ "la^gan NAt_L", "li^gan N_L", "la^gn Napdu_L", "li^gAn N_L" ]
+    noun     FaCL                      {- lajonap -}        `others` [ "la^gan NAt_L", "li^gan N_L", "li^gAn N_L" ]
                                                             `gloss`  [ "council", "committee", "commission", "councils", "committees", "commissions" ] ]
 
  |> "l ^s " <| [
@@ -376,14 +543,13 @@ lexicon = listing "Lexicon properties"
     -- ;; la*~ap_1
     -- l*      la*~    NapAt_L pleasure;delectation
 
-    noun     FaCL                      {- la*~ap -}         `others` [ "la_d_d NapAt_L" ]
-                                                            `gloss`  [ "pleasure", "delectation" ],
+    noun     FaCL                      {- la*~ap -}         `gloss`  [ "pleasure", "delectation" ],
 
     -- ;; mala*~ap_1
     -- ml*     mala*~  NapAt   pleasure;delectation
     -- mlA*    malA*~  Ndip    pleasures;delights
 
-    noun     MaFaCL                    {- mala*~ap -}       `others` [ "malA_d_d Ndip", "mala_d_d NapAt" ]
+    noun     MaFaCL                    {- mala*~ap -}       `others` [ "malA_d_d Ndip" ]
                                                             `gloss`  [ "pleasure", "delectation", "pleasures", "delights" ] ]
 
  |> "l _d `" <| [
@@ -398,8 +564,7 @@ lexicon = listing "Lexicon properties"
     -- ;; lA*iqiy~ap_1
     -- lA*qy   lA*iqiy~        Nap_L   Latakia (Syr.)     [[lA*iqiy~/NOUN]]
 
-    noun     FACiL                     {- lA*iqiy~ap -}     `others` [ "lA_diqiyy Nap_L" ]
-                                                            `gloss`  [ "Latakia ( Syr . ) [ [ lA*iqiy ~ / NOUN ] ]" ] ]
+    noun     FACiL                     {- lA*iqiy~ap -}     `gloss`  [ "Latakia ( Syr . ) [ [ lA*iqiy ~ / NOUN ] ]" ] ]
 
  |> "l _d y" <| [
 
@@ -465,14 +630,13 @@ lexicon = listing "Lexicon properties"
     -- lEb     laEob   Napdu_L game;match;event
     -- lEb     laEab   NAt_L   games;matches;events
 
-    noun     FaCL                      {- laEobap -}        `others` [ "la`b Napdu_L", "la`ab NAt_L" ]
+    noun     FaCL                      {- laEobap -}        `others` [ "la`ab NAt_L" ]
                                                             `gloss`  [ "game", "match", "event", "games", "matches", "events" ],
 
     -- ;; luEobap_1
     -- lEb     luEob   Napdu_L toy;game
 
-    noun     FuCL                      {- luEobap -}        `others` [ "lu`b Napdu_L" ]
-                                                            `gloss`  [ "toy", "game" ],
+    noun     FuCL                      {- luEobap -}        `gloss`  [ "toy", "game" ],
 
     -- ;; maloEab_1
     -- mlEb    maloEab Ndu     playground;sports field;stadium
@@ -559,8 +723,7 @@ lexicon = listing "Lexicon properties"
     -- ;; labAqap_1
     -- lbAq    labAq   Nap_L   adroitness;decorum
 
-    noun     FaCAL                     {- labAqap -}        `others` [ "labAq Nap_L" ]
-                                                            `gloss`  [ "adroitness", "decorum" ],
+    noun     FaCAL                     {- labAqap -}        `gloss`  [ "adroitness", "decorum" ],
 
     -- ;; labiq_1
     -- lbq     labiq   N-ap_L  adroit;suave     [[labiq/ADJ]]
@@ -587,8 +750,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mulAbasap_1
     -- mlAbs   mulAbas NapAt   association with
 
-    noun     MuFACaL                   {- mulAbasap -}      `others` [ "mulAbas NapAt" ]
-                                                            `gloss`  [ "association with" ],
+    noun     MuFACaL                   {- mulAbasap -}      `gloss`  [ "association with" ],
 
     -- ;; mulAbasAt_1
     -- mlAbs   mulAbas NAt     circumstances;concomitant phenomena
@@ -637,8 +799,7 @@ lexicon = listing "Lexicon properties"
     -- ;; talobiyap_1
     -- tlby    talobiy NapAt   compliance with;responding to
 
-    noun     TaFCiL                    {- talobiyap -}      `others` [ "talbiy NapAt" ]
-                                                            `gloss`  [ "compliance with", "responding to" ] ]
+    noun     TaFCiL                    {- talobiyap -}      `gloss`  [ "compliance with", "responding to" ] ]
 
  |> "l d " <| [
 
@@ -647,7 +808,15 @@ lexicon = listing "Lexicon properties"
     -- ldy     laday   FW-Wa-y with;by        [[ladayo/PREP+hi/PRON_3MS]]
     -- ldy     ladaY   FW-Wa   with/by        [[ladaY/PREP]]
 
-    noun     FaCY                      {- ladaY -}          `others` [ "laday FW-Wa-y" ]
+    noun     FaCaNY                    {- ladaY -}          `others` [ "laday FW-Wa-y" ]
+                                                            `gloss`  [ "with / by [ [ ladaY / PREP ] ]", "with", "by [ [ ladayo / PREP+hi / PRON_3MS ] ]" ],
+
+    -- ;; ladaY_1
+    -- ldY     ladaY   FW-Wa   with/by        [[ladaY/PREP]]
+    -- ldy     laday   FW-Wa-y with;by        [[ladayo/PREP+hi/PRON_3MS]]
+    -- ldy     ladaY   FW-Wa   with/by        [[ladaY/PREP]]
+
+    noun     FaCaNY                    {- ladaY -}          `others` [ "laday FW-Wa-y" ]
                                                             `gloss`  [ "with / by [ [ ladaY / PREP ] ]", "with", "by [ [ ladayo / PREP+hi / PRON_3MS ] ]" ] ]
 
  |> "l d d" <| [
@@ -715,8 +884,7 @@ lexicon = listing "Lexicon properties"
     -- ;; milaf~ap_1
     -- mlf     milaf~  NapAt   dossier;letter file
 
-    noun     MiFaCL                    {- milaf~ap -}       `others` [ "milaff NapAt" ]
-                                                            `gloss`  [ "dossier", "letter file" ] ]
+    noun     MiFaCL                    {- milaf~ap -}       `gloss`  [ "dossier", "letter file" ] ]
 
  |> "l f q" <| [
 
@@ -735,6 +903,15 @@ lexicon = listing "Lexicon properties"
                                                             `others` [ "lfit IV" ]
                                                             `gloss`  [ "turn", "attract" ],
 
+    -- ;; >alofat_1
+    -- >lft    >alofat PV-t    turn;attract
+    -- Alft    >alofat PV-t    turn;attract
+    -- lft     lofit   IV_yu   turn;attract
+    -- lft     lofat   IV_Pass_yu      be turned;be attracted
+
+    verb     HaFCaL                    {- Oalofat -}        `others` [ "lfat IV_Pass_yu", "lfit IV_yu" ]
+                                                            `gloss`  [ "turn", "attract", "be turned", "be attracted" ],
+
     -- ;; lAfit_1
     -- lAft    lAfit   N-ap    attracting;turning     [[lAfit/ADJ]]
 
@@ -744,10 +921,27 @@ lexicon = listing "Lexicon properties"
     -- lAft    lAfit   Napdu_L billboard;placard
     -- lAft    lAfit   NAt_L   billboards;placards
 
-    noun     FACiL                     {- lAfitap -}        `others` [ "lAfit NAt_L Napdu_L" ]
+    noun     FACiL                     {- lAfitap -}        `others` [ "lAfit NAt_L" ]
                                                             `gloss`  [ "billboard", "placard", "billboards", "placards" ] ]
 
  |> "l f y" <| [
+
+    -- ;; >alofaY_1
+    -- >lfY    >alofaY PV_0    find
+    -- AlfY    >alofaY PV_0    find
+    -- >lfA    >alofA  PV_h    find
+    -- AlfA    >alofA  PV_h    find
+    -- >lfy    >alofay PV_Atn  find
+    -- Alfy    >alofay PV_Atn  find
+    -- >lf     >alof   PV_ttAw find
+    -- Alf     >alof   PV_ttAw find
+    -- lfy     lofiy   IV_0hAnn_yu     find
+    -- lf      lof     IV_0hwnyn_yu    find
+    -- lfY     lofaY   IV_0_Pass_yu    be found
+    -- lfy     lofay   IV_Ann_Pass_yu  be found
+
+    verb     HaFCY                     {- OalofaY -}        `others` [ "lfay IV_Ann_Pass_yu", "'alfA PV_h", "'alfay PV_Atn", "lfY IV_0_Pass_yu", "lf IV_0hwnyn_yu", "lfiy IV_0hAnn_yu", "'alf PV_ttAw" ]
+                                                            `gloss`  [ "find", "be found" ],
 
     -- ;; talAfaY_1
     -- tlAfY   talAfaY PV_0    correct;remove;redress
@@ -768,7 +962,7 @@ lexicon = listing "Lexicon properties"
     -- lhj     lahoj   Napdu_L tone;dialect
     -- lhj     lahaj   NAt_L   dialects;tones
 
-    noun     FaCL                      {- lahojap -}        `others` [ "lah^g Napdu_L", "laha^g NAt_L" ]
+    noun     FaCL                      {- lahojap -}        `others` [ "laha^g NAt_L" ]
                                                             `gloss`  [ "tone", "dialect", "dialects", "tones" ] ]
 
  |> "l h b" <| [
@@ -788,8 +982,24 @@ lexicon = listing "Lexicon properties"
     -- ;; lahofap_1
     -- lhf     lahof   Nap_L   apprehension;yearning;sorrow
 
-    noun     FaCL                      {- lahofap -}        `others` [ "lahf Nap_L" ]
-                                                            `gloss`  [ "apprehension", "yearning", "sorrow" ] ]
+    noun     FaCL                      {- lahofap -}        `gloss`  [ "apprehension", "yearning", "sorrow" ] ]
+
+ |> "l h m" <| [
+
+    -- ;; >aloham_1
+    -- >lhm    >aloham PV      inspire;make swallow
+    -- Alhm    >aloham PV      inspire;make swallow
+    -- lhm     lohim   IV_yu   inspire;make swallow
+    -- lhm     loham   IV_Pass_yu      be inspired;be made to swallow
+
+    verb     HaFCaL                    {- Oaloham -}        `others` [ "lham IV_Pass_yu", "lhim IV_yu" ]
+                                                            `gloss`  [ "inspire", "make swallow", "be inspired", "be made to swallow" ],
+
+    -- ;; <ilohAm_1
+    -- <lhAm   <ilohAm N/At    inspiration
+    -- AlhAm   <ilohAm N/At    inspiration
+
+    noun     HiFCAL                    {- IilohAm -}        `gloss`  [ "inspiration" ] ]
 
  |> "l h w" <| [
 
@@ -813,8 +1023,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mulAkamap_1
     -- mlAkm   mulAkam NapAt   boxing
 
-    noun     MuFACaL                   {- mulAkamap -}      `others` [ "mulAkam NapAt" ]
-                                                            `gloss`  [ "boxing" ] ]
+    noun     MuFACaL                   {- mulAkamap -}      `gloss`  [ "boxing" ] ]
 
  |> "l l '" <| [
 
@@ -828,8 +1037,7 @@ lexicon = listing "Lexicon properties"
     -- ;; lugap_1
     -- lg      lug     NapAt_L language
 
-    noun     CuL                       {- lugap -}          `others` [ "lu.g NapAt_L" ]
-                                                            `gloss`  [ "language" ] ]
+    noun     CuL                       {- lugap -}          `gloss`  [ "language" ] ]
 
  |> "l l m" <| [
 
@@ -881,6 +1089,15 @@ lexicon = listing "Lexicon properties"
     verb     FaCCaL                    {- lam~aH -}         `others` [ "lammi.h IV_yu" ]
                                                             `gloss`  [ "allude", "refer" ],
 
+    -- ;; >alomaH_1
+    -- >lmH    >alomaH PV      mention;refer
+    -- AlmH    >alomaH PV      mention;refer
+    -- lmH     lomiH   IV_yu   mention;refer
+    -- lmH     lomaH   IV_Pass_yu      be mentioned;be referred
+
+    verb     HaFCaL                    {- OalomaH -}        `others` [ "lma.h IV_Pass_yu", "lmi.h IV_yu" ]
+                                                            `gloss`  [ "mention", "refer", "be mentioned", "be referred" ],
+
     -- ;; lamoH_1
     -- lmH     lamoH   N_L     glance;instant
 
@@ -900,6 +1117,12 @@ lexicon = listing "Lexicon properties"
 
  |> "l m `" <| [
 
+    -- ;; >alomaE_2
+    -- >lmE    >alomaE Nel     bright;shrewd
+    -- AlmE    >alomaE Nel     bright;shrewd
+
+    noun     HaFCaL                    {- OalomaE -}        `gloss`  [ "bright", "shrewd" ],
+
     -- ;; talomiyE_1
     -- tlmyE   talomiyE        N/At    polishing
 
@@ -917,8 +1140,7 @@ lexicon = listing "Lexicon properties"
     -- ;; lamobap_1
     -- lmb     lamob   NapAt_L lamp
 
-    noun     FaCL                      {- lamobap -}        `others` [ "lamb NapAt_L" ]
-                                                            `gloss`  [ "lamp" ] ]
+    noun     FaCL                      {- lamobap -}        `gloss`  [ "lamp" ] ]
 
  |> "l m b r" <| [
 
@@ -946,7 +1168,24 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCL                      {- lam~-u -}         `imperf` [ FCuL ]
                                                             `others` [ "lamam PV_C", "lmum IV_C", "lumm IV_V" ]
-                                                            `gloss`  [ "collect", "put in order" ] ]
+                                                            `gloss`  [ "collect", "put in order" ],
+
+    -- ;; >alam~_1
+    -- >lm     >alam~  PV_V_intr       be acquainted with
+    -- Alm     >alam~  PV_V_intr       be acquainted with
+    -- >lmm    >alomam PV_C_intr       be acquainted with
+    -- Almm    >alomam PV_C_intr       be acquainted with
+    -- lm      lim~    IV_V_intr_yu    be acquainted with
+    -- lmm     lomim   IV_C_intr_yu    be acquainted with
+
+    verb     HaFaCL                    {- Oalam~ -}         `others` [ "lmim IV_C_intr_yu", "limm IV_V_intr_yu", "'almam PV_C_intr" ]
+                                                            `gloss`  [ "be acquainted with" ],
+
+    -- ;; <ilomAm_1
+    -- <lmAm   <ilomAm N/At    knowledge;acquaintance
+    -- AlmAm   <ilomAm N/At    knowledge;acquaintance
+
+    noun     HiFCAL                    {- IilomAm -}        `gloss`  [ "knowledge", "acquaintance" ] ]
 
  |> "l m s" <| [
 
@@ -970,7 +1209,7 @@ lexicon = listing "Lexicon properties"
     -- lms     lamos   Napdu_L touch;tinge;trace
     -- lms     lamas   NAt_L   touches;tinges;traces
 
-    noun     FaCL                      {- lamosap -}        `others` [ "lamas NAt_L", "lams Napdu_L" ]
+    noun     FaCL                      {- lamosap -}        `others` [ "lamas NAt_L" ]
                                                             `gloss`  [ "touch", "tinge", "trace", "touches", "tinges", "traces" ],
 
     -- ;; malomas_2
@@ -1042,7 +1281,23 @@ lexicon = listing "Lexicon properties"
     -- tlqA}y  tiloqA}iy~      NF      automatically;spontaneously     [[tiloqA}iy~/ADV]]
 
     noun     TiFCAL                    {- tiloqA}iy~AF -}   `others` [ "tilqA'iyy NF" ]
-                                                            `gloss`  [ "automatically", "spontaneously [ [ tiloqA } iy ~ / ADV ] ]" ] ]
+                                                            `gloss`  [ "automatically", "spontaneously [ [ tiloqA } iy ~ / ADV ] ]" ],
+
+    -- ;; <iloqA'_1
+    -- <lqA'   <iloqA' N0_Nh   delivering;throwing;arresting
+    -- AlqA'   <iloqA' N0_Nh   delivering;throwing;arresting
+    -- <lqA&   <iloqA& Nh      delivering;throwing;arresting
+    -- AlqA&   <iloqA& Nh      delivering;throwing;arresting
+    -- <lqA}   <iloqA} Nhy     delivering;throwing;arresting
+    -- AlqA}   <iloqA} Nhy     delivering;throwing;arresting
+    -- <lqA'   <iloqA' NAn_Nayn        delivering;throwing;arresting
+    -- AlqA'   <iloqA' NAn_Nayn        delivering;throwing;arresting
+    -- <lqA}   <iloqA} Nayn    delivering;throwing;arresting
+    -- AlqA}   <iloqA} Nayn    delivering;throwing;arresting
+    -- <lqA'   <iloqA' NAt     delivering;throwing;arresting
+    -- AlqA'   <iloqA' NAt     delivering;throwing;arresting
+
+    noun     HiFCAL                    {- IiloqA' -}        `gloss`  [ "delivering", "throwing", "arresting" ] ]
 
  |> "l q .h" <| [
 
@@ -1062,7 +1317,7 @@ lexicon = listing "Lexicon properties"
     -- lqT     laqoT   Napdu_L picture;snapshot
     -- lqT     laqaT   NAt_L   pictures;snapshots
 
-    noun     FaCL                      {- laqoTap -}        `others` [ "laq.t Napdu_L", "laqa.t NAt_L" ]
+    noun     FaCL                      {- laqoTap -}        `others` [ "laqa.t NAt_L" ]
                                                             `gloss`  [ "picture", "snapshot", "pictures", "snapshots" ] ]
 
  |> "l q b" <| [
@@ -1104,7 +1359,7 @@ lexicon = listing "Lexicon properties"
     -- lqm     luqom   Napdu_L daily bread
     -- lqm     luqam   N_L     morsels;bites
 
-    noun     FuCL                      {- luqomap -}        `others` [ "luqam N_L", "luqm Napdu_L" ]
+    noun     FuCL                      {- luqomap -}        `others` [ "luqam N_L" ]
                                                             `gloss`  [ "morsel", "daily bread", "morsels", "bites" ],
 
     -- ;; taloqiym_1
@@ -1152,6 +1407,25 @@ lexicon = listing "Lexicon properties"
 
     verb     FACY                      {- lAqaY -}          `others` [ "lAq IV_0hwnyn_yu PV_ttAw", "lAqA PV_h", "lAqiy IV_0hAnn_yu", "lAqay PV_Atn IV_Ann_Pass_yu" ]
                                                             `gloss`  [ "meet", "encounter", "be met", "be encountered" ],
+
+    -- ;; >aloqaY_1
+    -- >lqY    >aloqaY PV_0    deliver;throw;arrest
+    -- AlqY    >aloqaY PV_0    deliver;throw;arrest
+    -- >lqA    >aloqA  PV_h    deliver;throw;arrest
+    -- AlqA    >aloqA  PV_h    deliver;throw;arrest
+    -- >lqy    >aloqay PV_Atn  deliver;throw;arrest
+    -- Alqy    >aloqay PV_Atn  deliver;throw;arrest
+    -- >lq     >aloq   PV_ttAw deliver;throw;arrest
+    -- Alq     >aloq   PV_ttAw deliver;throw;arrest
+    -- lqy     loqiy   IV_0hAnn_yu     deliver;throw;arrest
+    -- lq      loq     IV_0hwnyn_yu    deliver;throw;arrest
+    -- lqY     loqaY   IV_0_Pass_yu    be delivered;be thrown
+    -- lqy     loqay   IV_Ann_Pass_yu  be delivered;be thrown
+    -- >lqy    >uloqiy PV_Pass-a       be arrested
+    -- Alqy    >uloqiy PV_Pass-a       be arrested
+
+    verb     HaFCY                     {- OaloqaY -}        `others` [ "lq IV_0hwnyn_yu", "lqay IV_Ann_Pass_yu", "'alq PV_ttAw", "'alqay PV_Atn", "lqY IV_0_Pass_yu", "lqiy IV_0hAnn_yu", "'alqA PV_h", "'ulqiy PV_Pass-a" ]
+                                                            `gloss`  [ "deliver", "throw", "arrest", "be delivered", "be thrown", "be arrested" ],
 
     -- ;; talaq~aY_1
     -- tlqY    talaq~aY        PV_0    receive
@@ -1206,6 +1480,22 @@ lexicon = listing "Lexicon properties"
 
     noun     TiFCA'                    {- tiloqA}iy~AF -}   `others` [ "tilqA'iyy NF" ]
                                                             `gloss`  [ "automatically", "spontaneously [ [ tiloqA } iy ~ / ADV ] ]" ],
+
+    -- ;; <iloqA'_1
+    -- <lqA'   <iloqA' N0_Nh   delivering;throwing;arresting
+    -- AlqA'   <iloqA' N0_Nh   delivering;throwing;arresting
+    -- <lqA&   <iloqA& Nh      delivering;throwing;arresting
+    -- AlqA&   <iloqA& Nh      delivering;throwing;arresting
+    -- <lqA}   <iloqA} Nhy     delivering;throwing;arresting
+    -- AlqA}   <iloqA} Nhy     delivering;throwing;arresting
+    -- <lqA'   <iloqA' NAn_Nayn        delivering;throwing;arresting
+    -- AlqA'   <iloqA' NAn_Nayn        delivering;throwing;arresting
+    -- <lqA}   <iloqA} Nayn    delivering;throwing;arresting
+    -- AlqA}   <iloqA} Nayn    delivering;throwing;arresting
+    -- <lqA'   <iloqA' NAt     delivering;throwing;arresting
+    -- AlqA'   <iloqA' NAt     delivering;throwing;arresting
+
+    noun     HiFCA'                    {- IiloqA' -}        `gloss`  [ "delivering", "throwing", "arresting" ],
 
     -- ;; talaq~iy_1
     -- tlqy    talaq~iy        N0_Nh   receiving;receipt;acquisition
@@ -1349,8 +1639,7 @@ lexicon = listing "Lexicon properties"
     -- ;; lawoHap_1
     -- lwH     lawoH   NapAt_L painting;picture
 
-    noun     FaCL                      {- lawoHap -}        `others` [ "law.h NapAt_L" ]
-                                                            `gloss`  [ "painting", "picture" ],
+    noun     FaCL                      {- lawoHap -}        `gloss`  [ "painting", "picture" ],
 
     -- ;; talowiyH_1
     -- tlwyH   talowiyH        N/At    waving;signaling
@@ -1362,7 +1651,7 @@ lexicon = listing "Lexicon properties"
     -- lA}H    lA}iH   NapAt_L list;table;schedule
     -- lwA}H   lawA}iH Ndip_L  tables;schedules
 
-    noun     FA'iL                     {- lA}iHap -}        `others` [ "lA'i.h NapAt_L", "lawA'i.h Ndip_L" ]
+    noun     FA'iL                     {- lA}iHap -}        `others` [ "lawA'i.h Ndip_L" ]
                                                             `gloss`  [ "list", "table", "schedule", "tables", "schedules" ] ]
 
  |> "l w _d" <| [
@@ -1430,7 +1719,7 @@ lexicon = listing "Lexicon properties"
     -- lA}m    lA}im   Nap_L   blame;censure
     -- lwA}m   lawA}im Ndip_L  blame;censure
 
-    noun     FA'iL                     {- lA}imap -}        `others` [ "lA'im Nap_L", "lawA'im Ndip_L" ]
+    noun     FA'iL                     {- lA}imap -}        `others` [ "lawA'im Ndip_L" ]
                                                             `gloss`  [ "blame", "censure" ] ]
 
  |> "l w n" <| [
@@ -1450,6 +1739,12 @@ lexicon = listing "Lexicon properties"
 
     noun     FaCL                      {- lawon -}          `others` [ "'alwAn N" ]
                                                             `gloss`  [ "type", "sort", "types", "sorts" ],
+
+    -- ;; >alowAn_1
+    -- >lwAn   >alowAn N0      Alwan
+    -- AlwAn   >alowAn N0      Alwan
+
+    noun     HaFCAL                    {- OalowAn -}        `gloss`  [ "Alwan" ],
 
     -- ;; lawoniy~_1
     -- lwny    lawoniy~        N-ap_L  colorful;colored     [[lawoniy~/ADJ]]
@@ -1572,6 +1867,13 @@ lexicon = listing "Lexicon properties"
     noun     FiCL                      {- liyf -}           `others` [ "'alyAf N" ]
                                                             `gloss`  [ "fibers", "synthetic fibers" ] ]
 
+ |> "l y f y" <| [
+
+    -- ;; liyfiy_1
+    -- lyfy    liyfiy  Nprop   Levi;Levy
+
+    noun     KiRDiS                    {- liyfiy -}         `gloss`  [ "Levi", "Levy" ] ]
+
  |> "l y k" <| [
 
     -- ;; lAyok_1
@@ -1599,7 +1901,7 @@ lexicon = listing "Lexicon properties"
     -- lyAly   layAliy N0_Nh_L nights;evenings;soirees
     -- lyAl    layAl   NK      nights;evenings;soirees
 
-    noun     FaCL                      {- layolap -}        `others` [ "layAl NK", "layAliy N0_Nh_L", "layl NapAt_L" ]
+    noun     FaCL                      {- layolap -}        `others` [ "layAl NK", "layAliy N0_Nh_L" ]
                                                             `gloss`  [ "night", "evening", "nights", "evenings", "soirees" ],
 
     -- ;; layoliy~_1
@@ -1636,8 +1938,14 @@ lexicon = listing "Lexicon properties"
     -- ;; luyuwnap_1
     -- lywn    luyuwn  Nap_L   flexibility;tractability;tenderness
 
-    noun     FuCUL                     {- luyuwnap -}       `others` [ "luyuwn Nap_L" ]
-                                                            `gloss`  [ "flexibility", "tractability", "tenderness" ] ]
+    noun     FuCUL                     {- luyuwnap -}       `gloss`  [ "flexibility", "tractability", "tenderness" ] ]
+
+ |> "l y n y" <| [
+
+    -- ;; liyniy_1
+    -- lyny    liyniy  Nprop   Lenny
+
+    noun     KiRDiS                    {- liyniy -}         `gloss`  [ "Lenny" ] ]
 
  |> "l y q" <| [
 
@@ -1654,14 +1962,12 @@ lexicon = listing "Lexicon properties"
     -- ;; liyAqap_1
     -- lyAq    liyAq   Nap_L   capability;competence
 
-    noun     FiCAL                     {- liyAqap -}        `others` [ "liyAq Nap_L" ]
-                                                            `gloss`  [ "capability", "competence" ],
+    noun     FiCAL                     {- liyAqap -}        `gloss`  [ "capability", "competence" ],
 
     -- ;; liyAqap_2
     -- lyAq    liyAq   Nap_L   good behavior
 
-    noun     FiCAL                     {- liyAqap -}        `others` [ "liyAq Nap_L" ]
-                                                            `gloss`  [ "good behavior" ],
+    noun     FiCAL                     {- liyAqap -}        `gloss`  [ "good behavior" ],
 
     -- ;; lA}iq_1
     -- lA}q    lA}iq   Nall_L  suitable;appropriate     [[lA}iq/ADJ]]
@@ -1674,14 +1980,14 @@ lexicon = listing "Lexicon properties"
     -- lyr     liyr    NapAt_L pound;lira
     -- lyrA    liyrA   N0_L    pound;lira
 
-    noun     FiCL                      {- liyrap -}         `others` [ "liyrA N0_L", "liyr NapAt_L" ]
+    noun     FiCL                      {- liyrap -}         `others` [ "liyrA N0_L" ]
                                                             `gloss`  [ "pound", "lira" ],
 
     -- ;; liyrap_1
     -- lyr     liyr    NapAt_L pound;lira
     -- lyrA    liyrA   N0_L    pound;lira
 
-    noun     FIL                       {- liyrap -}         `others` [ "liyrA N0_L", "liyr NapAt_L" ]
+    noun     FIL                       {- liyrap -}         `others` [ "liyrA N0_L" ]
                                                             `gloss`  [ "pound", "lira" ] ]
 
  |> "l y s" <| [
@@ -1711,11 +2017,22 @@ lexicon = listing "Lexicon properties"
     verb     FACaL                     {- lAzam -}          `others` [ "lAzim IV_yu" ]
                                                             `gloss`  [ "accompany", "persevere in" ],
 
+    -- ;; >alozam_1
+    -- >lzm    >alozam PV      obligate;force
+    -- Alzm    >alozam PV      obligate;force
+    -- lzm     lozim   IV_yu   obligate;force
+    -- >lzm    >ulozim PV_Pass be required;be obligatory;be necessary
+    -- Alzm    >ulozim PV_Pass be required;be obligatory;be necessary
+    -- lzm     lozam   IV_Pass_yu      be required;be obligatory;be necessary
+
+    verb     HaFCaL                    {- Oalozam -}        `others` [ "lzam IV_Pass_yu", "'ulzim PV_Pass", "lzim IV_yu" ]
+                                                            `gloss`  [ "obligate", "force", "be required", "be obligatory", "be necessary" ],
+
     -- ;; lazomap_1
     -- lzm     lazom   Napdu_L official concession
     -- lzm     lazam   NAt_L   official concessions
 
-    noun     FaCL                      {- lazomap -}        `others` [ "lazm Napdu_L", "lazam NAt_L" ]
+    noun     FaCL                      {- lazomap -}        `others` [ "lazam NAt_L" ]
                                                             `gloss`  [ "official concession", "official concessions" ],
 
     -- ;; luzuwm_1
@@ -1733,6 +2050,18 @@ lexicon = listing "Lexicon properties"
 
     noun     TaFCIL                    {- taloziym -}       `gloss`  [ "award of open contract" ],
 
+    -- ;; <ilozAm_1
+    -- <lzAm   <ilozAm N/At    coercion;compulsion
+    -- AlzAm   <ilozAm N/At    coercion;compulsion
+
+    noun     HiFCAL                    {- IilozAm -}        `gloss`  [ "coercion", "compulsion" ],
+
+    -- ;; <ilozAmiy~_1
+    -- <lzAmy  <ilozAmiy~      N-ap    compulsory;obligatory     [[<ilozAmiy~/ADJ]]
+    -- AlzAmy  <ilozAmiy~      N-ap    compulsory;obligatory     [[<ilozAmiy~/ADJ]]
+
+    noun     HiFCAL                    {- IilozAmiy~ -}     `gloss`  [ "compulsory", "obligatory [ [" ],
+
     -- ;; lAzim_1
     -- lAzm    lAzim   N-ap_L  necessary;required;needed
     -- lAzm    lAzim   N-ap_L  necessary;required;needed     [[lAzim/ADJ]]
@@ -1743,7 +2072,7 @@ lexicon = listing "Lexicon properties"
     -- lAzm    lAzim   Nap_L   inherent property;fixed attribute
     -- lwAzm   lawAzim Ndip_L  exigencies;requisites
 
-    noun     FACiL                     {- lAzimap -}        `others` [ "lAzim Nap_L", "lawAzim Ndip_L" ]
+    noun     FACiL                     {- lAzimap -}        `others` [ "lawAzim Ndip_L" ]
                                                             `gloss`  [ "inherent property", "fixed attribute", "exigencies", "requisites" ],
 
     -- ;; mulAzim_1
@@ -1837,16 +2166,14 @@ lexicon = listing "Lexicon properties"
     -- ;; lAmarokaziy~ap_1
     -- lAmrkzy lAmarokaziy~    Nap_L   decentralization     [[lAmarokaziy~/NOUN]]
 
-    noun     Identity                  {- lAmarokaziy~ap -} `others` [ "lAmarkaziyy Nap_L" ]
-                                                            `gloss`  [ "decentralization [ [ lAmarokaziy ~ / NOUN ] ]" ] ]
+    noun     Identity                  {- lAmarokaziy~ap -} `gloss`  [ "decentralization [ [ lAmarokaziy ~ / NOUN ] ]" ] ]
 
  |> "lAmubAlaNY" <| [
 
     -- ;; lAmubAlAp_1
     -- lAmbAlA lAmubAlA        Nap_L   indifference
 
-    noun     Identity                  {- lAmubAlAp -}      `others` [ "lAmubAlA Nap_L" ]
-                                                            `gloss`  [ "indifference" ] ]
+    noun     Identity                  {- lAmubAlAp -}      `gloss`  [ "indifference" ] ]
 
  |> "lAni.zAm" <| [
 
@@ -2049,26 +2376,12 @@ lexicon = listing "Lexicon properties"
 
     noun     Identity                  {- liyfirokuwzin -}  `gloss`  [ "Leverkusen" ] ]
 
- |> "liyfiy" <| [
-
-    -- ;; liyfiy_1
-    -- lyfy    liyfiy  Nprop   Levi;Levy
-
-    noun     Identity                  {- liyfiy -}         `gloss`  [ "Levi", "Levy" ] ]
-
  |> "liyndsAy" <| [
 
     -- ;; liyndosAy_1
     -- lyndsAy liyndosAy       Nprop   Lindsay
 
     noun     Identity                  {- liyndosAy -}      `gloss`  [ "Lindsay" ] ]
-
- |> "liyniy" <| [
-
-    -- ;; liyniy_1
-    -- lyny    liyniy  Nprop   Lenny
-
-    noun     Identity                  {- liyniy -}         `gloss`  [ "Lenny" ] ]
 
  |> "liytr" <| [
 
@@ -2106,13 +2419,6 @@ lexicon = listing "Lexicon properties"
     -- lywr    liyuwr  Nprop   Lior
 
     noun     Identity                  {- liyuwr -}         `gloss`  [ "Lior" ] ]
-
- |> "lu.gaw" <| [
-
-    -- ;; lugawiy~_1
-    -- lgwy    lugawiy~        N-ap_L  language;linguistic     [[lugawiy~/ADJ]]
-
-    noun     Identity                  {- lugawiy~ -}       `gloss`  [ "language", "linguistic [ [ lugawiy ~ / ADJ ] ]" ] ]
 
  |> "lubnAn" <| [
 

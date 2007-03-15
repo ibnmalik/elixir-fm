@@ -6727,6 +6727,7 @@ EmA     Eam~A   FW-Wa   about what     <pos>Ean/PREP+mA/REL_PRON</pos>
 Emn     Eam~an  FW-Wa   from/about whom        <pos>Eam~an/FUNC_WORD</pos>
 ;
 ;--- En(2)
+;; Ean~_1
 En      Ean~    PV_V_intr       come to mind;occur
 Enn     Eanan   PV_Cn_intr      come to mind;occur
 En      Eun~    IV_V_intr       come to mind;occur
@@ -7949,6 +7950,7 @@ mEAwyn  maEAwiyn        Ndip    helpers;aid resources
 mEAwn   muEAwan NapAt   assistance;aid
 ;
 ;--- Ewh
+;; Eaw~ah_1
 Ewh     Eaw~ah  PV      make sick
 Ewh     Eaw~ih  IV      make sick
 ;; EAhap_1

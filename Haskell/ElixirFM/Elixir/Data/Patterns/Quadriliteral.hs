@@ -60,6 +60,9 @@ data PatternQ =
 
             KaRDaS
 
+        |   KiRDiS
+        |   KuRDuS
+
         |   MuKaRDiS
         |   MuKaRDaS
 

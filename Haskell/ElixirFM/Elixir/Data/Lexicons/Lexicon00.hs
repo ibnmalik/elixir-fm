@@ -17,6 +17,107 @@ lexicon = listing "Lexicon properties"
 
     noun     Identity                  {- |y -}             `gloss`  [ "A. [ [ | y / ABBREV ] ]", "I. [ [ | y / ABBREV ] ]" ] ]
 
+ |> "'a" <| [
+
+    -- ;; >a_1
+    -- >       >a      FW      A;1st     [[>a/ABBREV]]
+    -- A       >a      FW      A;1st     [[>a/ABBREV]]
+
+    noun     Identity                  {- Oa -}             `gloss`  [ "A", "1st [ [ >a / ABBREV ] ]" ] ]
+
+ |> "'iyh" <| [
+
+    -- ;; <iyh_1
+    -- <yh     <iyh    FW      A.     [[>ay/ABBREV]]
+    -- Ayh     <iyh    FW      A.     [[>ay/ABBREV]]
+
+    noun     Identity                  {- Iiyh -}           `gloss`  [ "A. [ [ >ay / ABBREV ] ]" ] ]
+
+ |> "-- ' --" <| [
+
+    -- ;; <iy_1
+    -- <y      <iy     FW      E.     [[<iy/ABBREV]]
+
+    noun     CI                        {- Iiy -}            `gloss`  [ "E. [ [" ] ]
+
+ |> "-- ' f" <| [
+
+    -- ;; >af_1
+    -- >f      >af     FW      A.F.     [[Af/ABBREV]]
+    -- Af      >af     FW      A.F.     [[Af/ABBREV]]
+
+    noun     CaL                       {- Oaf -}            `gloss`  [ "A.F. [ [ Af / ABBREV ] ]" ],
+
+    -- ;; <if_1
+    -- <f      <if     N0      F.     [[<if/ABBREV]]
+    -- Af      <if     N0      F.     [[<if/ABBREV]]
+
+    noun     CiL                       {- Iif -}            `gloss`  [ "F. [ [" ] ]
+
+ |> "-- ' l" <| [
+
+    -- ;; <il_2
+    -- <l      <il     FW      L.     [[<il/ABBREV]]
+
+    noun     CiL                       {- Iil -}            `gloss`  [ "L. [ [" ] ]
+
+ |> "-- ' m" <| [
+
+    -- ;; <im_1
+    -- <m      <im     FW      M.     [[<im/ABBREV]]
+    -- Am      <im     FW      M.     [[<im/ABBREV]]
+
+    noun     CiL                       {- Iim -}            `gloss`  [ "M. [ [" ] ]
+
+ |> "-- ' n" <| [
+
+    -- ;; <in_2
+    -- <n      <in     FW      N.     [[<in/ABBREV]]
+    -- An      <in     FW      N.     [[<in/ABBREV]]
+    -- >n      <in     FW      N.     [[<in/ABBREV]]
+
+    noun     CiL                       {- Iin -}            `gloss`  [ "N. [ [" ] ]
+
+ |> "-- ' r" <| [
+
+    -- ;; >ar_1
+    -- >r      >ar     FW      R.     [[>ar/ABBREV]]
+    -- Ar      >ar     FW      R.     [[>ar/ABBREV]]
+
+    noun     CaL                       {- Oar -}            `gloss`  [ "R. [ [ >ar / ABBREV ] ]" ] ]
+
+ |> "-- ' s" <| [
+
+    -- ;; <is_1
+    -- <s      <is     FW      S.     [[<is/ABBREV]]
+    -- |s      <is     FW      S.     [[<is/ABBREV]]
+    -- As      <is     FW      S.     [[<is/ABBREV]]
+
+    noun     CiL                       {- Iis -}            `gloss`  [ "S. [ [" ] ]
+
+ |> "-- ' w" <| [
+
+    -- ;; >uw_1
+    -- >w      >uw     FW      O.     [[>uw/ABBREV]]
+    -- Aw      >uw     FW      O.     [[>uw/ABBREV]]
+
+    noun     CuL                       {- Ouw -}            `gloss`  [ "O. [ [ >uw / ABBREV ] ]" ] ]
+
+ |> "-- ' y" <| [
+
+    -- ;; <iy_1
+    -- <y      <iy     FW      E.     [[<iy/ABBREV]]
+
+    noun     CiL                       {- Iiy -}            `gloss`  [ "E. [ [" ],
+
+    -- ;; >ay_1
+    -- >y      >ay     FW      A.     [[>ay/ABBREV]]
+    -- Ay      >ay     FW      A.     [[>ay/ABBREV]]
+    -- >y      >ay     FW      I.     [[>ay/ABBREV]]
+    -- Ay      >ay     FW      I.     [[>ay/ABBREV]]
+
+    noun     CaL                       {- Oay -}            `gloss`  [ "A. [ [ >ay / ABBREV ] ]", "I. [ [ >ay / ABBREV ] ]" ] ]
+
  |> "-- ^g --" <| [
 
     -- ;; jiy_1

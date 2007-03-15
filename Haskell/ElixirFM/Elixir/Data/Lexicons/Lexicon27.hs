@@ -90,7 +90,7 @@ lexicon = listing "Lexicon properties"
     -- mwAfA   muwAfA  Napdu   arrival;communication
     -- mwAfy   muwAfay NAt     arrivals;communications
 
-    noun     Identity                  {- muwAfAp -}        `others` [ "muwAfay NAt", "muwAfA Napdu" ]
+    noun     Identity                  {- muwAfAp -}        `others` [ "muwAfay NAt" ]
                                                             `gloss`  [ "arrival", "communication", "arrivals", "communications" ] ]
 
  |> "muwAsaNY" <| [
@@ -99,7 +99,7 @@ lexicon = listing "Lexicon properties"
     -- mwAsA   muwAsA  Napdu   charity;consolation
     -- mwAsy   muwAsay NAt     charity;consolation
 
-    noun     Identity                  {- muwAsAp -}        `others` [ "muwAsA Napdu", "muwAsay NAt" ]
+    noun     Identity                  {- muwAsAp -}        `others` [ "muwAsay NAt" ]
                                                             `gloss`  [ "charity", "consolation" ] ]
 
  |> "muwAzaNY" <| [
@@ -108,7 +108,7 @@ lexicon = listing "Lexicon properties"
     -- mwAzA   muwAzA  Napdu   parallel;equivalent
     -- mwAzy   muwAzay NAt     parallels;equivalent
 
-    noun     Identity                  {- muwAzAp -}        `others` [ "muwAzay NAt", "muwAzA Napdu" ]
+    noun     Identity                  {- muwAzAp -}        `others` [ "muwAzay NAt" ]
                                                             `gloss`  [ "parallel", "equivalent", "parallels" ] ]
 
  |> "tu^gAha" <| [
@@ -127,7 +127,7 @@ lexicon = listing "Lexicon properties"
     -- thm     tuhom   Napdu   accusation;charge
     -- thm     tuham   N       accusations;charges
 
-    noun     Identity                  {- tuhomap -}        `others` [ "tuhm Napdu", "tuham N" ]
+    noun     Identity                  {- tuhomap -}        `others` [ "tuham N" ]
                                                             `gloss`  [ "accusation", "charge", "accusations", "charges" ] ]
 
  |> "w ' .h" <| [
@@ -136,7 +136,7 @@ lexicon = listing "Lexicon properties"
     -- wAH     wAH     Napdu   oasis
     -- wAH     wAH     NAt     oases
 
-    noun     FAL                       {- wAHap -}          `others` [ "wA.h NAt Napdu" ]
+    noun     FAL                       {- wAHap -}          `others` [ "wA.h NAt" ]
                                                             `gloss`  [ "oasis", "oases" ] ]
 
  |> "w ' d" <| [
@@ -169,6 +169,15 @@ lexicon = listing "Lexicon properties"
     verb     FaCCaL                    {- waD~aH -}         `others` [ "wa.d.di.h IV_yu" ]
                                                             `gloss`  [ "clarify", "explain", "indicate" ],
 
+    -- ;; >awoDaH_1
+    -- >wDH    >awoDaH PV      clarify;explain;indicate
+    -- AwDH    >awoDaH PV      clarify;explain;indicate
+    -- wDH     wDiH    IV_yu   clarify;explain;indicate
+    -- wDH     wDaH    IV_Pass_yu      be clarified;be explained;be indicated
+
+    verb     HaFCaL                    {- OawoDaH -}        `others` [ "w.di.h IV_yu", "w.da.h IV_Pass_yu" ]
+                                                            `gloss`  [ "clarify", "explain", "indicate", "be clarified", "be explained", "be indicated" ],
+
     -- ;; waDaH_1
     -- wDH     waDaH   N       brightness
     -- >wDAH   >awoDAH N       brightness
@@ -182,10 +191,24 @@ lexicon = listing "Lexicon properties"
 
     noun     FuCUL                     {- wuDuwH -}         `gloss`  [ "clarity", "plainness" ],
 
+    -- ;; >awoDaH_2
+    -- >wDH    >awoDaH Nel     clearer/clearest
+    -- AwDH    >awoDaH Nel     clearer/clearest
+
+    noun     HaFCaL                    {- OawoDaH -}        `gloss`  [ "clearer / clearest" ],
+
     -- ;; tawoDiyH_1
     -- twDyH   tawoDiyH        N/At    explanation;clarification
 
     noun     TaFCIL                    {- tawoDiyH -}       `gloss`  [ "explanation", "clarification" ],
+
+    -- ;; <iyDAH_1
+    -- <yDAH   <iyDAH  N       explanation;clarification
+    -- AyDAH   <iyDAH  N       explanation;clarification
+    -- <yDAH   <iyDAH  NAt     explanations;clarifications
+    -- AyDAH   <iyDAH  NAt     explanations;clarifications
+
+    noun     HICAL                     {- IiyDAH -}         `gloss`  [ "explanation", "clarification", "explanations", "clarifications" ],
 
     -- ;; wADiH_1
     -- wADH    wADiH   Nall    clear;obvious;visible     [[wADiH/ADJ]]
@@ -229,8 +252,7 @@ lexicon = listing "Lexicon properties"
     -- ;; waDoEiy~ap_1
     -- wDEy    waDoEiy~        NapAt   status;position     [[waDoEiy~/NOUN]]
 
-    noun     FaCL                      {- waDoEiy~ap -}     `others` [ "wa.d`iyy NapAt" ]
-                                                            `gloss`  [ "status", "position [ [ waDoEiy ~ / NOUN ] ]" ],
+    noun     FaCL                      {- waDoEiy~ap -}     `gloss`  [ "status", "position [ [ waDoEiy ~ / NOUN ] ]" ],
 
     -- ;; mawoDiE_1
     -- mwDE    mawoDiE Ndu     place;position
@@ -269,8 +291,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mawoDuwEiy~ap_1
     -- mwDwEy  mawoDuwEiy~     Nap     objectivity     [[mawoDuwEiy~/NOUN]]
 
-    noun     MaFCUL                    {- mawoDuwEiy~ap -}  `others` [ "maw.duw`iyy Nap" ]
-                                                            `gloss`  [ "objectivity [ [ mawoDuwEiy ~ / NOUN ] ]" ],
+    noun     MaFCUL                    {- mawoDuwEiy~ap -}  `gloss`  [ "objectivity [ [ mawoDuwEiy ~ / NOUN ] ]" ],
 
     -- ;; mutawADiE_1
     -- mtwADE  mutawADiE       Nall    humble;modest     [[mutawADiE/ADJ]]
@@ -301,6 +322,24 @@ lexicon = listing "Lexicon properties"
     noun     FaCL                      {- wagoy -}          `others` [ "wa.gY N0", "wa.gA Nhy" ]
                                                             `gloss`  [ "disturbance", "tumult" ] ]
 
+ |> "w .h '" <| [
+
+    -- ;; <iyHA'_1
+    -- <yHA'   <iyHA'  N0_Nh   suggestion;inspiration
+    -- AyHA'   <iyHA'  N0_Nh   suggestion;inspiration
+    -- <yHA&   <iyHA&  Nh      suggestion;inspiration
+    -- AyHA&   <iyHA&  Nh      suggestion;inspiration
+    -- <yHA}   <iyHA}  Nhy     suggestion;inspiration
+    -- AyHA}   <iyHA}  Nhy     suggestion;inspiration
+    -- <yHA'   <iyHA'  NAn_Nayn        suggestions;inspiration
+    -- AyHA'   <iyHA'  NAn_Nayn        suggestions;inspiration
+    -- <yHA}   <iyHA}  Nayn    suggestions;inspiration
+    -- AyHA}   <iyHA}  Nayn    suggestions;inspiration
+    -- <yHA'   <iyHA'  NAt     suggestions;inspiration
+    -- AyHA'   <iyHA'  NAt     suggestions;inspiration
+
+    noun     HICAL                     {- IiyHA' -}         `gloss`  [ "suggestion", "inspiration", "suggestions" ] ]
+
  |> "w .h ^s" <| [
 
     -- ;; waHo$_2
@@ -319,8 +358,7 @@ lexicon = listing "Lexicon properties"
     -- ;; waHo$iy~ap_1
     -- wH$y    waHo$iy~        Nap     brutality     [[waHo$iy~/NOUN]]
 
-    noun     FaCL                      {- waHo$iy~ap -}     `others` [ "wa.h^siyy Nap" ]
-                                                            `gloss`  [ "brutality [ [ waHo $ iy ~ / NOUN ] ]" ] ]
+    noun     FaCL                      {- waHo$iy~ap -}     `gloss`  [ "brutality [ [ waHo $ iy ~ / NOUN ] ]" ] ]
 
  |> "w .h d" <| [
 
@@ -340,8 +378,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Hidap_1
     -- Hd      Hid     Nap     separately;individually
 
-    noun     CiL                       {- Hidap -}          `others` [ ".hid Nap" ]
-                                                            `gloss`  [ "separately", "individually" ],
+    noun     CiL                       {- Hidap -}          `gloss`  [ "separately", "individually" ],
 
     -- ;; waHod_1
     -- wHd     waHod   N       alone;only     [[waHod/ADV]]
@@ -351,8 +388,7 @@ lexicon = listing "Lexicon properties"
     -- ;; waHodap_1
     -- wHd     waHod   Nap     unity
 
-    noun     FaCL                      {- waHodap -}        `others` [ "wa.hd Nap" ]
-                                                            `gloss`  [ "unity" ],
+    noun     FaCL                      {- waHodap -}        `gloss`  [ "unity" ],
 
     -- ;; waHodap_2
     -- wHdp    waHodap N0      Unity     [[waHodap/NOUN_PROP]]
@@ -363,14 +399,13 @@ lexicon = listing "Lexicon properties"
     -- wHd     waHod   Napdu   unit
     -- wHd     waHad   NAt     units
 
-    noun     FaCL                      {- waHodap -}        `others` [ "wa.had NAt", "wa.hd Napdu" ]
+    noun     FaCL                      {- waHodap -}        `others` [ "wa.had NAt" ]
                                                             `gloss`  [ "unit", "units" ],
 
     -- ;; waHodAniy~ap_1
     -- wHdAny  waHodAniy~      Nap     singleness;individualness     [[waHodAniy~/NOUN]]
 
-    noun     FaCLAn                    {- waHodAniy~ap -}   `others` [ "wa.hdAniyy Nap" ]
-                                                            `gloss`  [ "singleness", "individualness [ [ waHodAniy ~ / NOUN ] ]" ],
+    noun     FaCLAn                    {- waHodAniy~ap -}   `gloss`  [ "singleness", "individualness [ [ waHodAniy ~ / NOUN ] ]" ],
 
     -- ;; waHiyd_1
     -- wHyd    waHiyd  Nprop   Waheed
@@ -381,6 +416,12 @@ lexicon = listing "Lexicon properties"
     -- wHyd    waHiyd  N-ap    only;sole;alone;exclusive     [[waHiyd/ADJ]]
 
     noun     FaCIL                     {- waHiyd -}         `gloss`  [ "only", "sole", "alone", "exclusive [ [ waHiyd / ADJ ] ]" ],
+
+    -- ;; >awoHad_1
+    -- >wHd    >awoHad Nel     unique;singular
+    -- AwHd    >awoHad Nel     unique;singular
+
+    noun     HaFCaL                    {- OawoHad -}        `gloss`  [ "unique", "singular" ],
 
     -- ;; tawoHiyd_1
     -- twHyd   tawoHiyd        N/At    unification;standardization
@@ -431,6 +472,23 @@ lexicon = listing "Lexicon properties"
 
  |> "w .h y" <| [
 
+    -- ;; >awoHaY_1
+    -- >wHY    >awoHaY PV_0    inspire;suggest
+    -- AwHY    >awoHaY PV_0    inspire;suggest
+    -- >wHA    >awoHA  PV_h    inspire;suggest
+    -- AwHA    >awoHA  PV_h    inspire;suggest
+    -- >wHy    >awoHay PV_Atn  inspire;suggest
+    -- AwHy    >awoHay PV_Atn  inspire;suggest
+    -- >wH     >awoH   PV_ttAw inspire;suggest
+    -- AwH     >awoH   PV_ttAw inspire;suggest
+    -- wHy     wHiy    IV_0hAnn_yu     inspire;suggest
+    -- wH      wH      IV_0hwnyn_yu    inspire;suggest
+    -- wHY     wHaY    IV_0_Pass_yu    be inspired;be suggested
+    -- wHy     wHay    IV_Ann_Pass_yu  be inspired;be suggested
+
+    verb     HaFCY                     {- OawoHaY -}        `others` [ "'aw.hA PV_h", "'aw.h PV_ttAw", "'aw.hay PV_Atn", "w.hay IV_Ann_Pass_yu", "w.h IV_0hwnyn_yu", "w.hiy IV_0hAnn_yu", "w.hY IV_0_Pass_yu" ]
+                                                            `gloss`  [ "inspire", "suggest", "be inspired", "be suggested" ],
+
     -- ;; waHoy_1
     -- wHy     waHoy   N       inspiration
 
@@ -477,7 +535,7 @@ lexicon = listing "Lexicon properties"
     -- Sf      Sif     Napdu   attribute;characteristic;feature
     -- Sf      Sif     NAt     attributes;characteristics;features
 
-    noun     CiL                       {- Sifap -}          `others` [ ".sif NAt Napdu" ]
+    noun     CiL                       {- Sifap -}          `others` [ ".sif NAt" ]
                                                             `gloss`  [ "attribute", "characteristic", "feature", "attributes", "characteristics", "features" ],
 
     -- ;; waSof_1
@@ -501,8 +559,7 @@ lexicon = listing "Lexicon properties"
     -- ;; waSofap_2
     -- wSf     waSof   Napdu   medical prescription
 
-    noun     FaCL                      {- waSofap -}        `others` [ "wa.sf Napdu" ]
-                                                            `gloss`  [ "medical prescription" ],
+    noun     FaCL                      {- waSofap -}        `gloss`  [ "medical prescription" ],
 
     -- ;; waSofiy~_1
     -- wSfy    waSofiy~        N-ap    descriptive     [[waSofiy~/ADJ]]
@@ -527,14 +584,13 @@ lexicon = listing "Lexicon properties"
     -- ;; muwASafap_1
     -- mwASf   muwASaf NapAt   description
 
-    noun     MuFACaL                   {- muwASafap -}      `others` [ "muwA.saf NapAt" ]
-                                                            `gloss`  [ "description" ],
+    noun     MuFACaL                   {- muwASafap -}      `gloss`  [ "description" ],
 
     -- ;; muwASafap_2
     -- mwASf   muwASaf Napdu   prescription
     -- mwASf   muwASaf NAt     directions
 
-    noun     MuFACaL                   {- muwASafap -}      `others` [ "muwA.saf NAt Napdu" ]
+    noun     MuFACaL                   {- muwASafap -}      `others` [ "muwA.saf NAt" ]
                                                             `gloss`  [ "prescription", "directions" ] ]
 
  |> "w .s l" <| [
@@ -562,6 +618,15 @@ lexicon = listing "Lexicon properties"
     verb     FACaL                     {- wASal -}          `others` [ "wA.sil IV_yu" ]
                                                             `gloss`  [ "continue" ],
 
+    -- ;; >awoSal_1
+    -- >wSl    >awoSal PV      connect;contact
+    -- AwSl    >awoSal PV      connect;contact
+    -- wSl     wSil    IV_yu   connect;contact
+    -- wSl     wSal    IV_Pass_yu      be connected;be contacted
+
+    verb     HaFCaL                    {- OawoSal -}        `others` [ "w.sil IV_yu", "w.sal IV_Pass_yu" ]
+                                                            `gloss`  [ "connect", "contact", "be connected", "be contacted" ],
+
     -- ;; tawaS~al_1
     -- twSl    tawaS~al        PV      arrive;reach
     -- twSl    tawaS~al        IV      arrive;reach
@@ -578,7 +643,7 @@ lexicon = listing "Lexicon properties"
     -- Sl      Sil     Napdu   link;connection;contact
     -- Sl      Sil     NAt     links;connections;contacts
 
-    noun     CiL                       {- Silap -}          `others` [ ".sil NAt Napdu" ]
+    noun     CiL                       {- Silap -}          `others` [ ".sil NAt" ]
                                                             `gloss`  [ "link", "connection", "contact", "links", "connections", "contacts" ],
 
     -- ;; waSol_1
@@ -592,8 +657,7 @@ lexicon = listing "Lexicon properties"
     -- ;; wuSolap_1
     -- wSl     wuSol   NapAt   link;connection
 
-    noun     FuCL                      {- wuSolap -}        `others` [ "wu.sl NapAt" ]
-                                                            `gloss`  [ "link", "connection" ],
+    noun     FuCL                      {- wuSolap -}        `gloss`  [ "link", "connection" ],
 
     -- ;; wuSuwl_1
     -- wSwl    wuSuwl  N       arrival;achievement
@@ -618,14 +682,18 @@ lexicon = listing "Lexicon properties"
     -- ;; muwASalap_1
     -- mwASl   muwASal Nap     continuation;continue
 
-    noun     MuFACaL                   {- muwASalap -}      `others` [ "muwA.sal Nap" ]
-                                                            `gloss`  [ "continuation", "continue" ],
+    noun     MuFACaL                   {- muwASalap -}      `gloss`  [ "continuation", "continue" ],
 
     -- ;; muwASalap_2
     -- mwASl   muwASal NapAt   communication;connection
 
-    noun     MuFACaL                   {- muwASalap -}      `others` [ "muwA.sal NapAt" ]
-                                                            `gloss`  [ "communication", "connection" ],
+    noun     MuFACaL                   {- muwASalap -}      `gloss`  [ "communication", "connection" ],
+
+    -- ;; <iySAl_1
+    -- <ySAl   <iySAl  N/At    connection;transportation;transmission
+    -- AySAl   <iySAl  N/At    connection;transportation;transmission
+
+    noun     HICAL                     {- IiySAl -}         `gloss`  [ "connection", "transportation", "transmission" ],
 
     -- ;; tawaS~ul_1
     -- twSl    tawaS~ul        N/At    attainment;arrival;reunion
@@ -663,16 +731,32 @@ lexicon = listing "Lexicon properties"
     -- ;; waSomap_1
     -- wSm     waSom   Napdu   blemish;defect;disgrace
 
-    noun     FaCL                      {- waSomap -}        `others` [ "wa.sm Napdu" ]
-                                                            `gloss`  [ "blemish", "defect", "disgrace" ] ]
+    noun     FaCL                      {- waSomap -}        `gloss`  [ "blemish", "defect", "disgrace" ] ]
 
  |> "w .s y" <| [
+
+    -- ;; >awoSaY_1
+    -- >wSY    >awoSaY PV_0    recommend;advise;prescribe
+    -- AwSY    >awoSaY PV_0    recommend;advise;prescribe
+    -- >wSA    >awoSA  PV_h    recommend;advise;prescribe
+    -- AwSA    >awoSA  PV_h    recommend;advise;prescribe
+    -- >wSy    >awoSay PV_Atn  recommend;advise;prescribe
+    -- AwSy    >awoSay PV_Atn  recommend;advise;prescribe
+    -- >wS     >awoS   PV_ttAw recommend;advise;prescribe
+    -- AwS     >awoS   PV_ttAw recommend;advise;prescribe
+    -- wSy     wSiy    IV_0hAnn_yu     recommend;advise;prescribe
+    -- wS      wS      IV_0hwnyn_yu    recommend;advise;prescribe
+    -- wSY     wSaY    IV_0_Pass_yu    be recommended;be advised;be prescribed
+    -- wSy     wSay    IV_Ann_Pass_yu  be recommended;be advised;be prescribed
+
+    verb     HaFCY                     {- OawoSaY -}        `others` [ "'aw.say PV_Atn", "w.s IV_0hwnyn_yu", "'aw.sA PV_h", "w.sY IV_0_Pass_yu", "w.siy IV_0hAnn_yu", "'aw.s PV_ttAw", "w.say IV_Ann_Pass_yu" ]
+                                                            `gloss`  [ "recommend", "advise", "prescribe", "be recommended", "be advised", "be prescribed" ],
 
     -- ;; tawoSiyap_1
     -- twSy    tawoSiy Napdu   advice;recommendation
     -- twSy    tawoSiy NAt     advice;recommendations
 
-    noun     TaFCiL                    {- tawoSiyap -}      `others` [ "taw.siy NAt Napdu" ]
+    noun     TaFCiL                    {- tawoSiyap -}      `others` [ "taw.siy NAt" ]
                                                             `gloss`  [ "advice", "recommendation", "recommendations" ],
 
     -- ;; muwaS~iy_1
@@ -700,6 +784,17 @@ lexicon = listing "Lexicon properties"
     verb     FaCiL                     {- waTi}-a -}        `imperf` [ FCaL ]
                                                             `others` [ ".ta' IV IV_wn IV_yn", ".ta'A IV-|", "wa.ta'A PV-|", "wa.ta' PV-> PV_w" ]
                                                             `gloss`  [ "tread on", "step on", "trample underfoot" ],
+
+    -- ;; waTo>ap_1
+    -- wT>     waTo>   Nap     pressure;coercion;vehemence
+
+    noun     FaCL                      {- waToOap -}        `gloss`  [ "pressure", "coercion", "vehemence" ],
+
+    -- ;; tawATu&_1
+    -- twAT&   tawATu& NduAt   connivance;collusion
+    -- twAT}   tawATu} Nhy     connivance;collusion
+
+    noun     TaFACuL                   {- tawATuW -}        `gloss`  [ "connivance", "collusion" ],
 
     -- ;; muwaT~i}_1
     -- mwT}    muwaT~i}        Nall    predisposing;preparing the way;pioneer
@@ -747,8 +842,7 @@ lexicon = listing "Lexicon properties"
     -- ;; waTaniy~ap_1
     -- wTny    waTaniy~        Nap     nationalism;patriotism     [[waTaniy~/NOUN]]
 
-    noun     FaCaL                     {- waTaniy~ap -}     `others` [ "wa.taniyy Nap" ]
-                                                            `gloss`  [ "nationalism", "patriotism [ [ waTaniy ~ / NOUN ] ]" ],
+    noun     FaCaL                     {- waTaniy~ap -}     `gloss`  [ "nationalism", "patriotism [ [ waTaniy ~ / NOUN ] ]" ],
 
     -- ;; mawoTin_1
     -- mwTn    mawoTin Ndu     native country;residence
@@ -765,8 +859,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muwATanap_1
     -- mwATn   muwATan Nap     citizenship
 
-    noun     MuFACaL                   {- muwATanap -}      `others` [ "muwA.tan Nap" ]
-                                                            `gloss`  [ "citizenship" ],
+    noun     MuFACaL                   {- muwATanap -}      `gloss`  [ "citizenship" ],
 
     -- ;; muwATin_1
     -- mwATn   muwATin Nall    citizen
@@ -782,7 +875,7 @@ lexicon = listing "Lexicon properties"
     -- mstwTn  musotawoTan     Napdu   settlement
     -- mstwTn  musotawoTan     NAt     settlements
 
-    noun     MustaFCaL                 {- musotawoTanap -}  `others` [ "mustaw.tan NAt Napdu" ]
+    noun     MustaFCaL                 {- musotawoTanap -}  `others` [ "mustaw.tan NAt" ]
                                                             `gloss`  [ "settlement", "settlements" ] ]
 
  |> "w .z f" <| [
@@ -798,7 +891,7 @@ lexicon = listing "Lexicon properties"
     -- wZyf    waZiyf  Napdu   job;position;function
     -- wZA}f   waZA}if Ndip    jobs;positions;functions
 
-    noun     FaCIL                     {- waZiyfap -}       `others` [ "wa.zA'if Ndip", "wa.ziyf Napdu" ]
+    noun     FaCIL                     {- waZiyfap -}       `others` [ "wa.zA'if Ndip" ]
                                                             `gloss`  [ "job", "position", "function", "jobs", "positions", "functions" ],
 
     -- ;; tawoZiyf_1
@@ -833,6 +926,15 @@ lexicon = listing "Lexicon properties"
     verb     FaCCaL                    {- waj~ab -}         `others` [ "wa^g^gib IV_yu" ]
                                                             `gloss`  [ "make necessary", "obligate" ],
 
+    -- ;; >awojab_1
+    -- >wjb    >awojab PV      make necessary;obligate
+    -- Awjb    >awojab PV      make necessary;obligate
+    -- wjb     wjib    IV_yu   make necessary;obligate
+    -- wjb     wjab    IV_Pass_yu      be made necessary;be obligated
+
+    verb     HaFCaL                    {- Oawojab -}        `others` [ "w^gib IV_yu", "w^gab IV_Pass_yu" ]
+                                                            `gloss`  [ "make necessary", "obligate", "be made necessary", "be obligated" ],
+
     -- ;; tawaj~ab_1
     -- twjb    tawaj~ab        PV_intr be necessary
     -- twjb    tawaj~ab        IV_intr be necessary
@@ -843,13 +945,38 @@ lexicon = listing "Lexicon properties"
     -- wjb     wajob   Napdu   meal;menu
     -- wjb     wajab   NAt     meals;menus
 
-    noun     FaCL                      {- wajobap -}        `others` [ "wa^gab NAt", "wa^gb Napdu" ]
+    noun     FaCL                      {- wajobap -}        `others` [ "wa^gab NAt" ]
                                                             `gloss`  [ "meal", "menu", "meals", "menus" ],
 
     -- ;; wujuwb_1
     -- wjwb    wujuwb  N       duty;necessity;obligation
 
     noun     FuCUL                     {- wujuwb -}         `gloss`  [ "duty", "necessity", "obligation" ],
+
+    -- ;; <iyjAb_1
+    -- <yjAb   <iyjAb  N       affirmative;obligation;compliance
+    -- AyjAb   <iyjAb  N       affirmative;obligation;compliance
+
+    noun     HICAL                     {- IiyjAb -}         `gloss`  [ "affirmative", "obligation", "compliance" ],
+
+    -- ;; <iyjAbiy~_1
+    -- <yjAby  <iyjAbiy~       Nall    positive;affirmative     [[<iyjAbiy~/ADJ]]
+    -- AyjAby  <iyjAbiy~       Nall    positive;affirmative     [[<iyjAbiy~/ADJ]]
+
+    noun     HICAL                     {- IiyjAbiy~ -}      `gloss`  [ "positive", "affirmative [ [" ],
+
+    -- ;; <iyjAbiy~At_1
+    -- <yjAby  <iyjAbiy~       NAt     positive aspects;good points     [[<iyjAbiy~/NOUN]]
+    -- AyjAby  <iyjAbiy~       NAt     positive aspects;good points     [[<iyjAbiy~/NOUN]]
+
+    noun     HICAL                     {- IiyjAbiy~At -}    `others` [ "'iy^gAbiyy NAt" ]
+                                                            `gloss`  [ "positive aspects", "good points [ [" ],
+
+    -- ;; <iyjAbiy~ap_1
+    -- <yjAby  <iyjAbiy~       Nap     positive attitude;positive nature     [[<iyjAbiy~/NOUN]]
+    -- AyjAby  <iyjAbiy~       Nap     positive attitude;positive nature     [[<iyjAbiy~/NOUN]]
+
+    noun     HICAL                     {- IiyjAbiy~ap -}    `gloss`  [ "positive attitude", "positive nature [ [" ],
 
     -- ;; wAjib_1
     -- wAjb    wAjib   NduAt   duty;obligation;requirement
@@ -895,6 +1022,14 @@ lexicon = listing "Lexicon properties"
                                                             `others` [ "w^gad IV_Pass_yu", "^gid IV", "wu^gid PV_Pass" ]
                                                             `gloss`  [ "find", "be found", "exist" ],
 
+    -- ;; >awojad_1
+    -- >wjd    >awojad PV      find;obtain
+    -- Awjd    >awojad PV      find;obtain
+    -- wjd     wjid    IV_yu   find;obtain
+
+    verb     HaFCaL                    {- Oawojad -}        `others` [ "w^gid IV_yu" ]
+                                                            `gloss`  [ "find", "obtain" ],
+
     -- ;; tawAjad_1
     -- twAjd   tawAjad PV      exist;be present
     -- twAjd   tawAjad IV      exist;be present
@@ -914,8 +1049,13 @@ lexicon = listing "Lexicon properties"
     -- ;; wujuwdiy~ap_1
     -- wjwdy   wujuwdiy~       Nap     existentialism     [[wujuwdiy~/NOUN]]
 
-    noun     FuCUL                     {- wujuwdiy~ap -}    `others` [ "wu^guwdiyy Nap" ]
-                                                            `gloss`  [ "existentialism [ [ wujuwdiy ~ / NOUN ] ]" ],
+    noun     FuCUL                     {- wujuwdiy~ap -}    `gloss`  [ "existentialism [ [ wujuwdiy ~ / NOUN ] ]" ],
+
+    -- ;; <iyjAd_1
+    -- <yjAd   <iyjAd  N/At    discovery;finding
+    -- AyjAd   <iyjAd  N/At    discovery;finding
+
+    noun     HICAL                     {- IiyjAd -}         `gloss`  [ "discovery", "finding" ],
 
     -- ;; mawojuwd_1
     -- mwjwd   mawojuwd        Nall    present;existing;found
@@ -972,7 +1112,7 @@ lexicon = listing "Lexicon properties"
     -- jh      jih     NAt     sectors;offices;institutions
     -- jh      jih     NAt     officials;individuals
 
-    noun     CiL                       {- jihap -}          `others` [ "^gih NAt NapAt" ]
+    noun     CiL                       {- jihap -}          `others` [ "^gih NAt" ]
                                                             `gloss`  [ "side", "part", "direction", "sectors", "offices", "institutions", "officials", "individuals" ],
 
     -- ;; wajoh_1
@@ -994,7 +1134,7 @@ lexicon = listing "Lexicon properties"
     -- wjh     wujoh   Napdu   point of view;angle
     -- wjh     wujuh   NAt     points of view;angles
 
-    noun     FiCL                      {- wijohap -}        `others` [ "wu^guh NAt", "wi^gh Napdu", "wu^gh Napdu" ]
+    noun     FiCL                      {- wijohap -}        `others` [ "wu^guh NAt", "wu^gh Napdu" ]
                                                             `gloss`  [ "point of view", "angle", "points of view", "angles" ],
 
     -- ;; wijAhiy~_1
@@ -1022,7 +1162,7 @@ lexicon = listing "Lexicon properties"
     -- mwAjh   muwAjah Napdu   encounter;confrontation
     -- mwAjh   muwAjah NAt     encounters;confrontations
 
-    noun     MuFACaL                   {- muwAjahap -}      `others` [ "muwA^gah NAt Napdu" ]
+    noun     MuFACaL                   {- muwAjahap -}      `others` [ "muwA^gah NAt" ]
                                                             `gloss`  [ "encounter", "confrontation", "encounters", "confrontations" ],
 
     -- ;; tawaj~uh_1
@@ -1034,8 +1174,7 @@ lexicon = listing "Lexicon properties"
     -- ;; wAjihap_1
     -- wAjh    wAjih   NapAt   facade;outside
 
-    noun     FACiL                     {- wAjihap -}        `others` [ "wA^gih NapAt" ]
-                                                            `gloss`  [ "facade", "outside" ],
+    noun     FACiL                     {- wAjihap -}        `gloss`  [ "facade", "outside" ],
 
     -- ;; muwaj~ih_1
     -- mwjh    muwaj~ih        Nall    guide
@@ -1059,6 +1198,21 @@ lexicon = listing "Lexicon properties"
 
  |> "w ^g z" <| [
 
+    -- ;; >awojaz_1
+    -- >wjz    >awojaz PV_intr be concise;be brief;summarize
+    -- Awjz    >awojaz PV_intr be concise;be brief;summarize
+    -- wjz     wjiz    IV_intr_yu      be concise;be brief;summarize
+    -- wjz     wjaz    IV_Pass_yu      be summarized
+
+    verb     HaFCaL                    {- Oawojaz -}        `others` [ "w^gaz IV_Pass_yu", "w^giz IV_intr_yu" ]
+                                                            `gloss`  [ "be concise", "be brief", "summarize", "be summarized" ],
+
+    -- ;; <iyjAz_1
+    -- <yjAz   <iyjAz  N/At    shortness;brevity
+    -- AyjAz   <iyjAz  N/At    shortness;brevity
+
+    noun     HICAL                     {- IiyjAz -}         `gloss`  [ "shortness", "brevity" ],
+
     -- ;; muwjaz_1
     -- mwjz    muwjaz  NduAt   summary;abstract
 
@@ -1079,11 +1233,32 @@ lexicon = listing "Lexicon properties"
     -- $y      $iy     IV_0hAnn        embellish;denounce
     -- w$Y     w$aY    IV_0_Pass_yu    be embellished;be denounced
 
-    verb     FaCY                      {- wa$aY-i -}        `imperf` [ FCiL ]
+    verb     FaCaNY                    {- wa$aY-i -}        `imperf` [ FCiL ]
+                                                            `others` [ "wa^sA PV_h", "^siy IV_0hAnn", "wa^say PV_Atn", "w^sY IV_0_Pass_yu", "wa^s PV_ttAw" ]
+                                                            `gloss`  [ "embellish", "denounce", "be embellished", "be denounced" ],
+
+    -- ;; wa$aY-i_1
+    -- w$Y     wa$aY   PV_0    embellish;denounce
+    -- w$A     wa$A    PV_h    embellish;denounce
+    -- w$y     wa$ay   PV_Atn  embellish;denounce
+    -- w$      wa$     PV_ttAw embellish;denounce
+    -- $y      $iy     IV_0hAnn        embellish;denounce
+    -- w$Y     w$aY    IV_0_Pass_yu    be embellished;be denounced
+
+    verb     FaCaNY                    {- wa$aY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "wa^sA PV_h", "^siy IV_0hAnn", "wa^say PV_Atn", "w^sY IV_0_Pass_yu", "wa^s PV_ttAw" ]
                                                             `gloss`  [ "embellish", "denounce", "be embellished", "be denounced" ] ]
 
  |> "w ^s k" <| [
+
+    -- ;; >awo$ak_1
+    -- >w$k    >awo$ak PV_intr be on the verge of;be about to;almost
+    -- Aw$k    >awo$ak PV_intr be on the verge of;be about to;almost
+    -- w$k     w$ik    IV_intr_yu      be on the verge of;be about to;almost
+    -- w$k     w$ak    IV_Pass_yu      be on the verge of;be about to;almost
+
+    verb     HaFCaL                    {- Oawo$ak -}        `others` [ "w^sik IV_intr_yu", "w^sak IV_Pass_yu" ]
+                                                            `gloss`  [ "be on the verge of", "be about to", "almost" ],
 
     -- ;; wa$ok_1
     -- w$k     wa$ok   N       on the verge of;just about to
@@ -1151,8 +1326,7 @@ lexicon = listing "Lexicon properties"
     -- ;; viqap_1
     -- vq      viq     Nap     trust;confidence
 
-    noun     CiL                       {- viqap -}          `others` [ "_tiq Nap" ]
-                                                            `gloss`  [ "trust", "confidence" ],
+    noun     CiL                       {- viqap -}          `gloss`  [ "trust", "confidence" ],
 
     -- ;; waviyq_1
     -- wvyq    waviyq  N/ap    secure;reliable     [[waviyq/ADJ]]
@@ -1165,7 +1339,7 @@ lexicon = listing "Lexicon properties"
     -- wvyq    waviyq  Napdu   document;charter
     -- wvA}q   wavA}iq Ndip    documents;charters
 
-    noun     FaCIL                     {- waviyqap -}       `others` [ "wa_tA'iq Ndip", "wa_tiyq Napdu" ]
+    noun     FaCIL                     {- waviyqap -}       `others` [ "wa_tA'iq Ndip" ]
                                                             `gloss`  [ "document", "charter", "documents", "charters" ],
 
     -- ;; miyvAq_1
@@ -1248,8 +1422,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Eidap_1
     -- Ed      Eid     Napdu   promise
 
-    noun     CiL                       {- Eidap -}          `others` [ "`id Napdu" ]
-                                                            `gloss`  [ "promise" ],
+    noun     CiL                       {- Eidap -}          `gloss`  [ "promise" ],
 
     -- ;; waEod_1
     -- wEd     waEod   Ndu     promise
@@ -1328,16 +1501,14 @@ lexicon = listing "Lexicon properties"
     -- ;; waEokap_1
     -- wEk     waEok   Nap     indisposition;sultriness
 
-    noun     FaCL                      {- waEokap -}        `others` [ "wa`k Nap" ]
-                                                            `gloss`  [ "indisposition", "sultriness" ] ]
+    noun     FaCL                      {- waEokap -}        `gloss`  [ "indisposition", "sultriness" ] ]
 
  |> "w ` r" <| [
 
     -- ;; wuEuwrap_1
     -- wEwr    wuEuwr  Nap     ruggedness;impassability
 
-    noun     FuCUL                     {- wuEuwrap -}       `others` [ "wu`uwr Nap" ]
-                                                            `gloss`  [ "ruggedness", "impassability" ] ]
+    noun     FuCUL                     {- wuEuwrap -}       `gloss`  [ "ruggedness", "impassability" ] ]
 
  |> "w ` y" <| [
 
@@ -1349,7 +1520,19 @@ lexicon = listing "Lexicon properties"
     -- Ey      Eiy     IV_0hAnn        be aware of;pay attention to
     -- wEY     wEaY    IV_0    be aware of;pay attention to
 
-    verb     FaCY                      {- waEaY-i -}        `imperf` [ FCiL ]
+    verb     FaCaNY                    {- waEaY-i -}        `imperf` [ FCiL ]
+                                                            `others` [ "w`Y IV_0", "`iy IV_0hAnn", "wa`ay PV_Atn", "wa`A PV_h", "wa` PV_ttAw_intr" ]
+                                                            `gloss`  [ "be aware of", "pay attention to" ],
+
+    -- ;; waEaY-i_1
+    -- wEY     waEaY   PV_0    be aware of;pay attention to
+    -- wEA     waEA    PV_h    be aware of;pay attention to
+    -- wEy     waEay   PV_Atn  be aware of;pay attention to
+    -- wE      waE     PV_ttAw_intr    be aware of;pay attention to
+    -- Ey      Eiy     IV_0hAnn        be aware of;pay attention to
+    -- wEY     wEaY    IV_0    be aware of;pay attention to
+
+    verb     FaCaNY                    {- waEaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "w`Y IV_0", "`iy IV_0hAnn", "wa`ay PV_Atn", "wa`A PV_h", "wa` PV_ttAw_intr" ]
                                                             `gloss`  [ "be aware of", "pay attention to" ],
 
@@ -1376,8 +1559,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tawoEiyap_1
     -- twEy    tawoEiy Nap     making aware;enlightening
 
-    noun     TaFCiL                    {- tawoEiyap -}      `others` [ "taw`iy Nap" ]
-                                                            `gloss`  [ "making aware", "enlightening" ],
+    noun     TaFCiL                    {- tawoEiyap -}      `gloss`  [ "making aware", "enlightening" ],
 
     -- ;; wAEiy_1
     -- wAEy    wAEiy   N0F     aware;alert;conscious     [[wAEiy/ADJ]]
@@ -1388,6 +1570,23 @@ lexicon = listing "Lexicon properties"
 
     noun     FACiL                     {- wAEiy -}          `others` [ "wA` Nuwn_Niyn NK" ]
                                                             `gloss`  [ "aware", "alert", "conscious [ [ wAEiy / ADJ ] ]", "conscious" ] ]
+
+ |> "w ` z" <| [
+
+    -- ;; >awoEaz_1
+    -- >wEz    >awoEaz PV      advise;recommend;intimate
+    -- AwEz    >awoEaz PV      advise;recommend;intimate
+    -- wEz     wEiz    IV_yu   advise;recommend;intimate
+    -- wEz     wEaz    IV_Pass_yu      be advised;be recommended;be intimated
+
+    verb     HaFCaL                    {- OawoEaz -}        `others` [ "w`iz IV_yu", "w`az IV_Pass_yu" ]
+                                                            `gloss`  [ "advise", "recommend", "intimate", "be advised", "be recommended", "be intimated" ],
+
+    -- ;; <iyEAz_1
+    -- <yEAz   <iyEAz  N/At    advice;recommendation;hint
+    -- AyEAz   <iyEAz  N/At    advice;recommendation;hint
+
+    noun     HICAL                     {- IiyEAz -}         `gloss`  [ "advice", "recommendation", "hint" ] ]
 
  |> "w b '" <| [
 
@@ -1450,6 +1649,15 @@ lexicon = listing "Lexicon properties"
     verb     FaCCaL                    {- wad~aE -}         `others` [ "waddi` IV_yu" ]
                                                             `gloss`  [ "bid farewell" ],
 
+    -- ;; >awodaE_1
+    -- >wdE    >awodaE PV      deposit;entrust
+    -- AwdE    >awodaE PV      deposit;entrust
+    -- wdE     wdiE    IV_yu   deposit;entrust
+    -- wdE     wdaE    IV_Pass_yu      be deposited;be entrusted
+
+    verb     HaFCaL                    {- OawodaE -}        `others` [ "wda` IV_Pass_yu", "wdi` IV_yu" ]
+                                                            `gloss`  [ "deposit", "entrust", "be deposited", "be entrusted" ],
+
     -- ;; wadAE_1
     -- wdAE    wadAE   N       departure;farewell
 
@@ -1465,8 +1673,14 @@ lexicon = listing "Lexicon properties"
     -- wdyE    wadiyE  Napdu   deposit;trust;charge
     -- wdA}E   wadA}iE Ndip    deposits;trusts;charges
 
-    noun     FaCIL                     {- wadiyEap -}       `others` [ "wadA'i` Ndip", "wadiy` Napdu" ]
+    noun     FaCIL                     {- wadiyEap -}       `others` [ "wadA'i` Ndip" ]
                                                             `gloss`  [ "deposit", "trust", "charge", "deposits", "trusts", "charges" ],
+
+    -- ;; <iydAE_1
+    -- <ydAE   <iydAE  N/At    depositing;consigning;deposition
+    -- AydAE   <iydAE  N/At    depositing;consigning;deposition
+
+    noun     HICAL                     {- IiydAE -}         `gloss`  [ "depositing", "consigning", "deposition" ],
 
     -- ;; wAdiE_2
     -- wAdE    wAdiE   Nall    gentle;mild-tempered     [[wAdiE/ADJ]]
@@ -1517,8 +1731,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mawad~ap_1
     -- mwd     mawad~  Nap     friendship;love
 
-    noun     MaFaCL                    {- mawad~ap -}       `others` [ "mawadd Nap" ]
-                                                            `gloss`  [ "friendship", "love" ] ]
+    noun     MaFaCL                    {- mawad~ap -}       `gloss`  [ "friendship", "love" ] ]
 
  |> "w d r" <| [
 
@@ -1545,6 +1758,23 @@ lexicon = listing "Lexicon properties"
                                                             `gloss`  [ "wadi", "valley", "wadis", "valleys" ] ]
 
  |> "w d y" <| [
+
+    -- ;; >awodaY_1
+    -- >wdY    >awodaY PV_0    put and end to;destroy
+    -- AwdY    >awodaY PV_0    put and end to;destroy
+    -- >wdA    >awodA  PV_h    put and end to;destroy
+    -- AwdA    >awodA  PV_h    put and end to;destroy
+    -- >wdy    >awoday PV_Atn  put and end to;destroy
+    -- Awdy    >awoday PV_Atn  put and end to;destroy
+    -- >wd     >awod   PV_ttAw put and end to;destroy
+    -- Awd     >awod   PV_ttAw put and end to;destroy
+    -- wdy     wdiy    IV_0hAnn_yu     put and end to;destroy
+    -- wd      wd      IV_0hwnyn_yu    put and end to;destroy
+    -- wdY     wdaY    IV_0_Pass_yu    be ended;be destroyed
+    -- wdy     wday    IV_Ann_Pass_yu  be ended;be destroyed
+
+    verb     HaFCY                     {- OawodaY -}        `others` [ "wday IV_Ann_Pass_yu", "wdY IV_0_Pass_yu", "'awd PV_ttAw", "wdiy IV_0hAnn_yu", "'awdA PV_h", "'awday PV_Atn", "wd IV_0hwnyn_yu" ]
+                                                            `gloss`  [ "put and end to", "destroy", "be ended", "be destroyed" ],
 
     -- ;; wAdiy_1
     -- wAdy    wAdiy   N0F_Nh  wadi;valley
@@ -1591,7 +1821,7 @@ lexicon = listing "Lexicon properties"
     -- wfD     wafoD   Napdu   traveling bag
     -- wfAD    wifAD   N       traveling bags
 
-    noun     FaCL                      {- wafoDap -}        `others` [ "wifA.d N", "waf.d Napdu" ]
+    noun     FaCL                      {- wafoDap -}        `others` [ "wifA.d N" ]
                                                             `gloss`  [ "traveling bag", "traveling bags" ] ]
 
  |> "w f d" <| [
@@ -1607,6 +1837,15 @@ lexicon = listing "Lexicon properties"
 
     verb     FACaL                     {- wAfad -}          `others` [ "wAfid IV_yu" ]
                                                             `gloss`  [ "arrive together" ],
+
+    -- ;; >awofad_1
+    -- >wfd    >awofad PV      dispatch;send
+    -- Awfd    >awofad PV      dispatch;send
+    -- wfd     wfid    IV_yu   dispatch;send
+    -- wfd     wfad    IV_Pass_yu      be dispatched;be sent
+
+    verb     HaFCaL                    {- Oawofad -}        `others` [ "wfad IV_Pass_yu", "wfid IV_yu" ]
+                                                            `gloss`  [ "dispatch", "send", "be dispatched", "be sent" ],
 
     -- ;; tawAfad_1
     -- twAfd   tawAfad PV      arrive together
@@ -1631,6 +1870,12 @@ lexicon = listing "Lexicon properties"
     -- wfdy    wafodiy~        Nall    Wafdist     [[wafodiy~/ADJ]]
 
     noun     FaCL                      {- wafodiy~ -}       `gloss`  [ "Wafdist [ [ wafodiy ~ / NOUN ] ]", "Wafdist [ [ wafodiy ~ / ADJ ] ]" ],
+
+    -- ;; <iyfAd_1
+    -- <yfAd   <iyfAd  N/At    deputation;delegation;dispatch
+    -- AyfAd   <iyfAd  N/At    deputation;delegation;dispatch
+
+    noun     HICAL                     {- IiyfAd -}         `gloss`  [ "deputation", "delegation", "dispatch" ],
 
     -- ;; wAfid_1
     -- wAfd    wAfid   Nall    arriving;coming     [[wAfid/ADJ]]
@@ -1697,8 +1942,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muwAfaqap_1
     -- mwAfq   muwAfaq NapAt   agreement
 
-    noun     MuFACaL                   {- muwAfaqap -}      `others` [ "muwAfaq NapAt" ]
-                                                            `gloss`  [ "agreement" ],
+    noun     MuFACaL                   {- muwAfaqap -}      `gloss`  [ "agreement" ],
 
     -- ;; tawAfuq_1
     -- twAfq   tawAfuq N/At    agreement;conformity
@@ -1724,6 +1968,15 @@ lexicon = listing "Lexicon properties"
     verb     FaCCaL                    {- waf~ar -}         `others` [ "waffir IV_yu" ]
                                                             `gloss`  [ "provide", "fulfill" ],
 
+    -- ;; >awofar_1
+    -- >wfr    >awofar PV      increase
+    -- Awfr    >awofar PV      increase
+    -- wfr     wfir    IV_yu   increase
+    -- wfr     wfar    IV_Pass_yu      be increased
+
+    verb     HaFCaL                    {- Oawofar -}        `others` [ "wfir IV_yu", "wfar IV_Pass_yu" ]
+                                                            `gloss`  [ "increase", "be increased" ],
+
     -- ;; tawaf~ar_1
     -- twfr    tawaf~ar        PV_intr be available
     -- twfr    tawaf~ar        IV_intr be available
@@ -1746,13 +1999,18 @@ lexicon = listing "Lexicon properties"
     -- ;; waforap_1
     -- wfr     wafor   Nap     abundance;availability
 
-    noun     FaCL                      {- waforap -}        `others` [ "wafr Nap" ]
-                                                            `gloss`  [ "abundance", "availability" ],
+    noun     FaCL                      {- waforap -}        `gloss`  [ "abundance", "availability" ],
 
     -- ;; wafiyr_1
     -- wfyr    wafiyr  N-ap    ample;abundant     [[wafiyr/ADJ]]
 
     noun     FaCIL                     {- wafiyr -}         `gloss`  [ "ample", "abundant [ [ wafiyr / ADJ ] ]" ],
+
+    -- ;; >awofar_2
+    -- >wfr    >awofar Nel     more/most ample;more/most
+    -- Awfr    >awofar Nel     more/most ample;more/most
+
+    noun     HaFCaL                    {- Oawofar -}        `gloss`  [ "more / most ample", "more / most" ],
 
     -- ;; tawofiyr_1
     -- twfyr   tawofiyr        N/At    provision;furnishing
@@ -1789,7 +2047,19 @@ lexicon = listing "Lexicon properties"
     -- fy      fiy     IV_0hAnn        fulfill;carry out
     -- wfY     wfaY    IV_0_Pass_yu    fulfill;carry out
 
-    verb     FaCY                      {- wafaY-i -}        `imperf` [ FCiL ]
+    verb     FaCaNY                    {- wafaY-i -}        `imperf` [ FCiL ]
+                                                            `others` [ "waf PV_ttAw", "wafA PV_h", "wfY IV_0_Pass_yu", "fiy IV_0hAnn", "wafay PV_Atn" ]
+                                                            `gloss`  [ "fulfill", "carry out" ],
+
+    -- ;; wafaY-i_1
+    -- wfY     wafaY   PV_0    fulfill;carry out
+    -- wfA     wafA    PV_h    fulfill;carry out
+    -- wfy     wafay   PV_Atn  fulfill;carry out
+    -- wf      waf     PV_ttAw fulfill;carry out
+    -- fy      fiy     IV_0hAnn        fulfill;carry out
+    -- wfY     wfaY    IV_0_Pass_yu    fulfill;carry out
+
+    verb     FaCaNY                    {- wafaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "waf PV_ttAw", "wafA PV_h", "wfY IV_0_Pass_yu", "fiy IV_0hAnn", "wafay PV_Atn" ]
                                                             `gloss`  [ "fulfill", "carry out" ],
 
@@ -1856,8 +2126,7 @@ lexicon = listing "Lexicon properties"
     -- ;; hibap_1
     -- hb      hib     NapAt   gift;grant
 
-    noun     CiL                       {- hibap -}          `others` [ "hib NapAt" ]
-                                                            `gloss`  [ "gift", "grant" ],
+    noun     CiL                       {- hibap -}          `gloss`  [ "gift", "grant" ],
 
     -- ;; wahobap_2
     -- whbp    wahobap N0      Wahba
@@ -1875,8 +2144,14 @@ lexicon = listing "Lexicon properties"
     -- mwhb    mawohab Napdu   talent;gift
     -- mwAhb   mawAhib Ndip    talents;gifts
 
-    noun     MaFCiL                    {- mawohibap -}      `others` [ "mawhib Napdu", "mawAhib Ndip", "mawhab Napdu" ]
+    noun     MaFCiL                    {- mawohibap -}      `others` [ "mawAhib Ndip", "mawhab Napdu" ]
                                                             `gloss`  [ "talent", "gift", "talents", "gifts" ],
+
+    -- ;; <iyhAb_2
+    -- <yhAb   <iyhAb  N0      Ihab;Ehab
+    -- AyhAb   <iyhAb  N0      Ihab;Ehab
+
+    noun     HICAL                     {- IiyhAb -}         `gloss`  [ "Ihab", "Ehab" ],
 
     -- ;; mawohuwb_2
     -- mwhwb   mawohuwb        Nall    talented;gifted     [[mawohuwb/ADJ]]
@@ -2014,14 +2289,14 @@ lexicon = listing "Lexicon properties"
     -- wkAl    wikAl   NAt     agencies
     -- wkAl    wakAl   NAt     agencies
 
-    noun     FiCAL                     {- wikAlap -}        `others` [ "wakAl NAt Napdu", "wikAl NAt Napdu" ]
+    noun     FiCAL                     {- wikAlap -}        `others` [ "wakAl NAt Napdu", "wikAl NAt" ]
                                                             `gloss`  [ "agency", "agencies" ],
 
     -- ;; wikAlap_2
     -- wkAl    wikAl   Nap     proxy
     -- wkAl    wakAl   Nap     proxy
 
-    noun     FiCAL                     {- wikAlap -}        `others` [ "wakAl Nap", "wikAl Nap" ]
+    noun     FiCAL                     {- wikAlap -}        `others` [ "wakAl Nap" ]
                                                             `gloss`  [ "proxy" ],
 
     -- ;; tawokiyl_1
@@ -2054,7 +2329,7 @@ lexicon = listing "Lexicon properties"
     -- wkr     wakor   Napdu   nest
     -- wkr     wukar   N       nest
 
-    noun     FaCL                      {- wakorap -}        `others` [ "wukar N", "wakr Napdu" ]
+    noun     FaCL                      {- wakorap -}        `others` [ "wukar N" ]
                                                             `gloss`  [ "nest" ] ]
 
  |> "w l '" <| [
@@ -2064,7 +2339,23 @@ lexicon = listing "Lexicon properties"
     -- wlA&    walA&   Nh      loyalty;allegiance
     -- wlA}    walA}   Nhy     loyalty;allegiance
 
-    noun     FaCAL                     {- walA' -}          `gloss`  [ "loyalty", "allegiance" ] ]
+    noun     FaCAL                     {- walA' -}          `gloss`  [ "loyalty", "allegiance" ],
+
+    -- ;; <iylA'_2
+    -- <ylA'   <iylA'  N0_Nh   marriage annulment
+    -- AylA'   <iylA'  N0_Nh   marriage annulment
+    -- <ylA&   <iylA&  Nh      marriage annulment
+    -- AylA&   <iylA&  Nh      marriage annulment
+    -- <ylA}   <iylA}  Nhy     marriage annulment
+    -- AylA}   <iylA}  Nhy     marriage annulment
+    -- <ylA'   <iylA'  NAn_Nayn        marriage annulments
+    -- AylA'   <iylA'  NAn_Nayn        marriage annulments
+    -- <ylA}   <iylA}  Nayn    marriage annulments
+    -- AylA}   <iylA}  Nayn    marriage annulments
+    -- <ylA'   <iylA'  NAt     marriage annulments
+    -- AylA'   <iylA'  NAt     marriage annulments
+
+    noun     HICAL                     {- IiylA' -}         `gloss`  [ "marriage annulment", "marriage annulments" ] ]
 
  |> "w l ^g" <| [
 
@@ -2096,7 +2387,7 @@ lexicon = listing "Lexicon properties"
     -- ld      lid     NapAt_L contemporary
     -- ld      lid     Nuwn_Niyn_L     contemporaries
 
-    noun     CiL                       {- lidap -}          `others` [ "lid NapAt_L Nuwn_Niyn_L" ]
+    noun     CiL                       {- lidap -}          `others` [ "lid Nuwn_Niyn_L" ]
                                                             `gloss`  [ "contemporary", "contemporaries" ],
 
     -- ;; walad_1
@@ -2116,14 +2407,13 @@ lexicon = listing "Lexicon properties"
     -- wlyd    waliyd  Napdu   result;product;child
     -- wlA}d   walA}id Ndip    results;products;children
 
-    noun     FaCIL                     {- waliydap -}       `others` [ "waliyd Napdu", "walA'id Ndip" ]
+    noun     FaCIL                     {- waliydap -}       `others` [ "walA'id Ndip" ]
                                                             `gloss`  [ "result", "product", "child", "results", "products", "children" ],
 
     -- ;; wilAdap_1
     -- wlAd    wilAd   Nap     birth;childbearing
 
-    noun     FiCAL                     {- wilAdap -}        `others` [ "wilAd Nap" ]
-                                                            `gloss`  [ "birth", "childbearing" ],
+    noun     FiCAL                     {- wilAdap -}        `gloss`  [ "birth", "childbearing" ],
 
     -- ;; mawolid_1
     -- mwld    mawolid Ndu     birthday
@@ -2260,6 +2550,23 @@ lexicon = listing "Lexicon properties"
     verb     FACY                      {- wAlaY -}          `others` [ "wAliy IV_0hAnn_yu", "wAl IV_0hwnyn_yu PV_ttAw", "wAlay PV_Atn IV_Ann_Pass_yu", "wAlA PV_h" ]
                                                             `gloss`  [ "sympathize with", "be close to", "be sympathized with" ],
 
+    -- ;; >awolaY_1
+    -- >wlY    >awolaY PV_0    devote;apply
+    -- AwlY    >awolaY PV_0    devote;apply
+    -- >wlA    >awolA  PV_h    devote;apply
+    -- AwlA    >awolA  PV_h    devote;apply
+    -- >wly    >awolay PV_Atn  devote;apply
+    -- Awly    >awolay PV_Atn  devote;apply
+    -- >wl     >awol   PV_ttAw devote;apply
+    -- Awl     >awol   PV_ttAw devote;apply
+    -- wly     wliy    IV_0hAnn_yu     devote;apply
+    -- wl      wl      IV_0hwnyn_yu    devote;apply
+    -- wlY     wlaY    IV_0_Pass_yu    be devoted;be applied
+    -- wly     wlay    IV_Ann_Pass_yu  be devoted;be applied
+
+    verb     HaFCY                     {- OawolaY -}        `others` [ "'awl PV_ttAw", "'awlay PV_Atn", "wliy IV_0hAnn_yu", "'awlA PV_h", "wlay IV_Ann_Pass_yu", "wl IV_0hwnyn_yu", "wlY IV_0_Pass_yu" ]
+                                                            `gloss`  [ "devote", "apply", "be devoted", "be applied" ],
+
     -- ;; tawal~aY_1
     -- twlY    tawal~aY        PV_0    take charge of;be in charge of;seize control of
     -- twlA    tawal~A PV_h    take charge of;be in charge of;seize control of
@@ -2296,8 +2603,18 @@ lexicon = listing "Lexicon properties"
     -- ;; wilAyap_1
     -- wlAy    wilAy   NapAt   state;province
 
-    noun     FiCAL                     {- wilAyap -}        `others` [ "wilAy NapAt" ]
-                                                            `gloss`  [ "state", "province" ],
+    noun     FiCAL                     {- wilAyap -}        `gloss`  [ "state", "province" ],
+
+    -- ;; >awolaY_2
+    -- >wlY    >awolaY N0      more/most appropriate/suitable/deserving
+    -- AwlY    >awolaY N0      more/most appropriate/suitable/deserving
+    -- >wlA    >awolA  Nhy     most appropriate/suitable/deserving
+    -- AwlA    >awolA  Nhy     most appropriate/suitable/deserving
+    -- >wly    >awolay NAn_Nayn        most appropriate/suitable/deserving
+    -- Awly    >awolay NAn_Nayn        most appropriate/suitable/deserving
+
+    noun     HaFCY                     {- OawolaY -}        `others` [ "'awlay NAn_Nayn", "'awlA Nhy" ]
+                                                            `gloss`  [ "more / most appropriate / suitable / deserving", "most appropriate / suitable / deserving" ],
 
     -- ;; mawolaY_1
     -- mwlY    mawolaY N0      master;lord
@@ -2317,8 +2634,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tawoliyap_1
     -- twly    tawoliy Nap     appointment as successor
 
-    noun     TaFCiL                    {- tawoliyap -}      `others` [ "tawliy Nap" ]
-                                                            `gloss`  [ "appointment as successor" ],
+    noun     TaFCiL                    {- tawoliyap -}      `gloss`  [ "appointment as successor" ],
 
     -- ;; tawal~iy_1
     -- twly    tawal~iy        N0_Nh   taking charge of;assuming responsibility
@@ -2371,6 +2687,14 @@ lexicon = listing "Lexicon properties"
     noun     MutaFACiL                 {- mutawAliy -}      `others` [ "mutawAl Nuwn_Niyn NK" ]
                                                             `gloss`  [ "successive", "consecutive" ] ]
 
+ |> "w m '" <| [
+
+    -- ;; <iymA'ap_1
+    -- <ymA'   <iymA'  NapAt   gesture;sign;clue
+    -- AymA'   <iymA'  NapAt   gesture;sign;clue
+
+    noun     HICAL                     {- IiymA'ap -}       `gloss`  [ "gesture", "sign", "clue" ] ]
+
  |> "w m .d" <| [
 
     -- ;; wamiyD_1
@@ -2416,8 +2740,7 @@ lexicon = listing "Lexicon properties"
     -- ;; wiqA}iy~ap_1
     -- wqA}y   wiqA}iy~        Nap     prevention;protection     [[wiqA}iy~/NOUN]]
 
-    noun     FiCAL                     {- wiqA}iy~ap -}     `others` [ "wiqA'iyy Nap" ]
-                                                            `gloss`  [ "prevention", "protection [ [ wiqA } iy ~ / NOUN ] ]" ] ]
+    noun     FiCAL                     {- wiqA}iy~ap -}     `gloss`  [ "prevention", "protection [ [ wiqA } iy ~ / NOUN ] ]" ] ]
 
  |> "w q .h" <| [
 
@@ -2430,8 +2753,7 @@ lexicon = listing "Lexicon properties"
     -- ;; waqAHap_1
     -- wqAH    waqAH   Nap     insolence;impertinence
 
-    noun     FaCAL                     {- waqAHap -}        `others` [ "waqA.h Nap" ]
-                                                            `gloss`  [ "insolence", "impertinence" ] ]
+    noun     FaCAL                     {- waqAHap -}        `gloss`  [ "insolence", "impertinence" ] ]
 
  |> "w q `" <| [
 
@@ -2456,6 +2778,15 @@ lexicon = listing "Lexicon properties"
 
     verb     FuCCiL                    {- wuq~iE -}         `others` [ "waqqa` IV_Pass_yu" ]
                                                             `gloss`  [ "be signed" ],
+
+    -- ;; >awoqaE_1
+    -- >wqE    >awoqaE PV      inflict;bring about
+    -- AwqE    >awoqaE PV      inflict;bring about
+    -- wqE     wqiE    IV_yu   inflict;bring about
+    -- wqE     wqaE    IV_Pass_yu      be inflicted;be brought about
+
+    verb     HaFCaL                    {- OawoqaE -}        `others` [ "wqi` IV_yu", "wqa` IV_Pass_yu" ]
+                                                            `gloss`  [ "inflict", "bring about", "be inflicted", "be brought about" ],
 
     -- ;; tawaq~aE_1
     -- twqE    tawaq~aE        PV      expect;count on;anticipate
@@ -2483,7 +2814,7 @@ lexicon = listing "Lexicon properties"
     -- wqyE    waqiyE  Napdu   incident;event
     -- wqA}E   waqA}iE Ndip    events;incidents
 
-    noun     FaCIL                     {- waqiyEap -}       `others` [ "waqA'i` Ndip", "waqiy` Napdu" ]
+    noun     FaCIL                     {- waqiyEap -}       `others` [ "waqA'i` Ndip" ]
                                                             `gloss`  [ "incident", "event", "events", "incidents" ],
 
     -- ;; mawoqiE_1
@@ -2496,8 +2827,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mawoqaEap_1
     -- mwqE    mawoqaE Napdu   battlefield
 
-    noun     MaFCaL                    {- mawoqaEap -}      `others` [ "mawqa` Napdu" ]
-                                                            `gloss`  [ "battlefield" ],
+    noun     MaFCaL                    {- mawoqaEap -}      `gloss`  [ "battlefield" ],
 
     -- ;; tawoqiyE_1
     -- twqyE   tawoqiyE        N       signing
@@ -2508,6 +2838,18 @@ lexicon = listing "Lexicon properties"
     -- twqyE   tawoqiyE        NduAt   signature
 
     noun     TaFCIL                    {- tawoqiyE -}       `gloss`  [ "signature" ],
+
+    -- ;; <iyqAE_1
+    -- <yqAE   <iyqAE  N/At    rhythm;projection
+    -- AyqAE   <iyqAE  N/At    rhythm;projection
+
+    noun     HICAL                     {- IiyqAE -}         `gloss`  [ "rhythm", "projection" ],
+
+    -- ;; <iyqAEiy~_1
+    -- <yqAEy  <iyqAEiy~       Nall    rhythmical     [[<iyqAEiy~/ADJ]]
+    -- AyqAEy  <iyqAEiy~       Nall    rhythmical     [[<iyqAEiy~/ADJ]]
+
+    noun     HICAL                     {- IiyqAEiy~ -}      `gloss`  [ "rhythmical [ [" ],
 
     -- ;; tawaq~uE_1
     -- twqE    tawaq~uE        Ndu     expectation;anticipation
@@ -2533,8 +2875,7 @@ lexicon = listing "Lexicon properties"
     -- ;; wAqiEap_1
     -- wAqE    wAqiE   NapAt   incident
 
-    noun     FACiL                     {- wAqiEap -}        `others` [ "wAqi` NapAt" ]
-                                                            `gloss`  [ "incident" ],
+    noun     FACiL                     {- wAqiEap -}        `gloss`  [ "incident" ],
 
     -- ;; wAqiEiy~_1
     -- wAqEy   wAqiEiy~        N-ap    realistic     [[wAqiEiy~/ADJ]]
@@ -2544,8 +2885,7 @@ lexicon = listing "Lexicon properties"
     -- ;; wAqiEiy~ap_1
     -- wAqEy   wAqiEiy~        Nap     realism;reality     [[wAqiEiy~/NOUN]]
 
-    noun     FACiL                     {- wAqiEiy~ap -}     `others` [ "wAqi`iyy Nap" ]
-                                                            `gloss`  [ "realism", "reality [ [ wAqiEiy ~ / NOUN ] ]" ],
+    noun     FACiL                     {- wAqiEiy~ap -}     `gloss`  [ "realism", "reality [ [ wAqiEiy ~ / NOUN ] ]" ],
 
     -- ;; muwaq~iE_1
     -- mwqE    muwaq~iE        Nall    signing;signatory     [[muwaq~iE/ADJ]]
@@ -2598,6 +2938,17 @@ lexicon = listing "Lexicon properties"
     verb     FaCCaL                    {- waq~af -}         `others` [ "waqqif IV_yu" ]
                                                             `gloss`  [ "stop", "detain" ],
 
+    -- ;; >awoqaf_1
+    -- >wqf    >awoqaf PV      detain;make stand
+    -- Awqf    >awoqaf PV      detain;make stand
+    -- wqf     wqif    IV_yu   detain;make stand
+    -- >wqf    >uwoqif PV_Pass be detained;be made to stand
+    -- Awqf    >uwoqif PV_Pass be detained;be made to stand
+    -- wqf     wqaf    IV_Pass_yu      be detained;be made to stand
+
+    verb     HaFCaL                    {- Oawoqaf -}        `others` [ "'uwqif PV_Pass", "wqaf IV_Pass_yu", "wqif IV_yu" ]
+                                                            `gloss`  [ "detain", "make stand", "be detained", "be made to stand" ],
+
     -- ;; tawaq~af_1
     -- twqf    tawaq~af        PV      stop;halt;depend on
     -- twqf    tawaq~af        IV      stop;halt;depend on
@@ -2620,8 +2971,7 @@ lexicon = listing "Lexicon properties"
     -- ;; waqofap_1
     -- wqf     waqof   Nap     stance;posture
 
-    noun     FaCL                      {- waqofap -}        `others` [ "waqf Nap" ]
-                                                            `gloss`  [ "stance", "posture" ],
+    noun     FaCL                      {- waqofap -}        `gloss`  [ "stance", "posture" ],
 
     -- ;; wuquwf_1
     -- wqwf    wuquwf  N       standing;stopping;halting
@@ -2639,6 +2989,12 @@ lexicon = listing "Lexicon properties"
     -- twqyf   tawoqiyf        N/At    detention;stopping;halting
 
     noun     TaFCIL                    {- tawoqiyf -}       `gloss`  [ "detention", "stopping", "halting" ],
+
+    -- ;; <iyqAf_1
+    -- <yqAf   <iyqAf  N/At    stopping;halting
+    -- AyqAf   <iyqAf  N/At    stopping;halting
+
+    noun     HICAL                     {- IiyqAf -}         `gloss`  [ "stopping", "halting" ],
 
     -- ;; tawaq~uf_1
     -- twqf    tawaq~uf        N/At    stop;halt
@@ -2717,15 +3073,27 @@ lexicon = listing "Lexicon properties"
     -- q       q       IV_0hwnyn       preserve;safeguard
     -- wqY     woqaY   IV_0_Pass_yu    be preserved;be safeguarded
 
-    verb     FaCY                      {- waqaY-i -}        `imperf` [ FCiL ]
+    verb     FaCaNY                    {- waqaY-i -}        `imperf` [ FCiL ]
+                                                            `others` [ "waqay PV_Atn", "q IV_0hwnyn", "waq PV_ttAw", "wqY IV_0_Pass_yu", "waqA PV_h", "qiy IV_0hAnn" ]
+                                                            `gloss`  [ "preserve", "safeguard", "be preserved", "be safeguarded" ],
+
+    -- ;; waqaY-i_1
+    -- wqY     waqaY   PV_0    preserve;safeguard
+    -- wqA     waqA    PV_h    preserve;safeguard
+    -- wqy     waqay   PV_Atn  preserve;safeguard
+    -- wq      waq     PV_ttAw preserve;safeguard
+    -- qy      qiy     IV_0hAnn        preserve;safeguard
+    -- q       q       IV_0hwnyn       preserve;safeguard
+    -- wqY     woqaY   IV_0_Pass_yu    be preserved;be safeguarded
+
+    verb     FaCaNY                    {- waqaY-i -}        `imperf` [ FCiL ]
                                                             `others` [ "waqay PV_Atn", "q IV_0hwnyn", "waq PV_ttAw", "wqY IV_0_Pass_yu", "waqA PV_h", "qiy IV_0hAnn" ]
                                                             `gloss`  [ "preserve", "safeguard", "be preserved", "be safeguarded" ],
 
     -- ;; wiqAyap_1
     -- wqAy    wiqAy   Nap     precaution;prevention;protection
 
-    noun     FiCAL                     {- wiqAyap -}        `others` [ "wiqAy Nap" ]
-                                                            `gloss`  [ "precaution", "prevention", "protection" ],
+    noun     FiCAL                     {- wiqAyap -}        `gloss`  [ "precaution", "prevention", "protection" ],
 
     -- ;; wiqA}iy~_1
     -- wqA}y   wiqA}iy~        Nall    protective;preservative     [[wiqA}iy~/ADJ]]
@@ -2737,8 +3105,7 @@ lexicon = listing "Lexicon properties"
     -- ;; wiqA}iy~ap_1
     -- wqA}y   wiqA}iy~        Nap     prevention;protection     [[wiqA}iy~/NOUN]]
 
-    noun     FiCA'                     {- wiqA}iy~ap -}     `others` [ "wiqA'iyy Nap" ]
-                                                            `gloss`  [ "prevention", "protection [ [ wiqA } iy ~ / NOUN ] ]" ],
+    noun     FiCA'                     {- wiqA}iy~ap -}     `gloss`  [ "prevention", "protection [ [ wiqA } iy ~ / NOUN ] ]" ],
 
     -- ;; wAqiy_1
     -- wAqy    wAqiy   N0F     preserving;guarding;protecting     [[wAqiy/ADJ]]
@@ -2801,7 +3168,7 @@ lexicon = listing "Lexicon properties"
     -- wrT     waraT   NAt     predicaments;binds;involvements
     -- wrAT    wirAT   N       predicaments;binds;involvements
 
-    noun     FaCL                      {- waroTap -}        `others` [ "wara.t NAt", "wirA.t N", "war.t Napdu" ]
+    noun     FaCL                      {- waroTap -}        `others` [ "wara.t NAt", "wirA.t N" ]
                                                             `gloss`  [ "predicament", "bind", "involvement", "predicaments", "binds", "involvements" ],
 
     -- ;; tawar~uT_1
@@ -2820,7 +3187,7 @@ lexicon = listing "Lexicon properties"
     -- wr$     waro$   NapAt   workshop
     -- wr$     wira$   N       workshops
 
-    noun     FaCL                      {- waro$ap -}        `others` [ "war^s NapAt", "wira^s N" ]
+    noun     FaCL                      {- waro$ap -}        `others` [ "wira^s N" ]
                                                             `gloss`  [ "workshop", "workshops" ] ]
 
  |> "w r _t" <| [
@@ -2877,8 +3244,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muwArabap_1
     -- mwArb   muwArab NapAt   equivocation;ambiguity
 
-    noun     MuFACaL                   {- muwArabap -}      `others` [ "muwArab NapAt" ]
-                                                            `gloss`  [ "equivocation", "ambiguity" ] ]
+    noun     MuFACaL                   {- muwArabap -}      `gloss`  [ "equivocation", "ambiguity" ] ]
 
  |> "w r d" <| [
 
@@ -2896,6 +3262,15 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCCaL                    {- war~ad -}         `others` [ "warrid IV_yu" ]
                                                             `gloss`  [ "supply", "furnish", "be in bloom" ],
+
+    -- ;; >aworad_1
+    -- >wrd    >aworad PV      present;import
+    -- Awrd    >aworad PV      present;import
+    -- wrd     wrid    IV_yu   present;import
+    -- wrd     wrad    IV_Pass_yu      be presented;be imported
+
+    verb     HaFCaL                    {- Oaworad -}        `others` [ "wrid IV_yu", "wrad IV_Pass_yu" ]
+                                                            `gloss`  [ "present", "import", "be presented", "be imported" ],
 
     -- ;; tawArad_1
     -- twArd   tawArad PV      arrive;come in
@@ -2927,6 +3302,14 @@ lexicon = listing "Lexicon properties"
     -- twryd   taworiyd        N/At    provision;supply;furnishing
 
     noun     TaFCIL                    {- taworiyd -}       `gloss`  [ "provision", "supply", "furnishing" ],
+
+    -- ;; <iyrAd_1
+    -- <yrAd   <iyrAd  N       revenue;yield;profit
+    -- AyrAd   <iyrAd  N       revenue;yield;profit
+    -- <yrAd   <iyrAd  NAt     revenues;yields;profits
+    -- AyrAd   <iyrAd  NAt     revenues;yields;profits
+
+    noun     HICAL                     {- IiyrAd -}         `gloss`  [ "revenue", "yield", "profit", "revenues", "yields", "profits" ],
 
     -- ;; wArid_1
     -- wArd    wArid   Nall    arriving;newcomer;new arrival
@@ -3021,14 +3404,12 @@ lexicon = listing "Lexicon properties"
     -- ;; wisATap_1
     -- wsAT    wisAT   NapAt   mediation;intercession
 
-    noun     FiCAL                     {- wisATap -}        `others` [ "wisA.t NapAt" ]
-                                                            `gloss`  [ "mediation", "intercession" ],
+    noun     FiCAL                     {- wisATap -}        `gloss`  [ "mediation", "intercession" ],
 
     -- ;; wisATap_2
     -- wsAT    wisAT   NapAt   means;medium
 
-    noun     FiCAL                     {- wisATap -}        `others` [ "wisA.t NapAt" ]
-                                                            `gloss`  [ "means", "medium" ],
+    noun     FiCAL                     {- wisATap -}        `gloss`  [ "means", "medium" ],
 
     -- ;; wasiyT_1
     -- wsyT    wasiyT  N-ap    mediator;go-between;intermediary
@@ -3044,6 +3425,31 @@ lexicon = listing "Lexicon properties"
 
     noun     FaCIL                     {- wasiyT -}         `gloss`  [ "middle", "medium" ],
 
+    -- ;; >awosaT_1
+    -- >wsT    >awosaT N0      Middle
+    -- AwsT    >awosaT N0      Middle
+
+    noun     HaFCaL                    {- OawosaT -}        `gloss`  [ "Middle" ],
+
+    -- ;; >awosaT_2
+    -- >wsT    >awosaT Nel     middle;central     [[>awosaT/ADJ]]
+    -- AwsT    >awosaT Nel     middle;central     [[>awosaT/ADJ]]
+    -- wsTY    wusoTY  N0      middle;central     [[wusoTY/ADJ]]
+    -- wsTA    wusoTA  Nhy     middle;central     [[wusoTA/ADJ]]
+    -- wsTy    wusoTay NAn_Nayn        middle;central     [[wusoTay/ADJ]]
+    -- wsTy    wusoTay NAt     middle;central     [[wusoTay/ADJ]]
+    -- >wAsT   >awAsiT Ndip    middle;central
+    -- AwAsT   >awAsiT Ndip    middle;central
+
+    noun     HaFCaL                    {- OawosaT -}        `others` [ "wus.tA Nhy", "'awAsi.t Ndip", "wus.tay NAt NAn_Nayn", "wus.tY N0" ]
+                                                            `gloss`  [ "middle", "central [ [ >awosaT / ADJ ] ]", "central [ [ wusoTY / ADJ ] ]", "central [ [ wusoTA / ADJ ] ]", "central [ [ wusoTay / ADJ ] ]", "central" ],
+
+    -- ;; >awosaTiy~_1
+    -- >wsTy   >awosaTiy~      Nall    Middle
+    -- AwsTy   >awosaTiy~      Nall    Middle
+
+    noun     HaFCaL                    {- OawosaTiy~ -}     `gloss`  [ "Middle" ],
+
     -- ;; tawas~uT_1
     -- twsT    tawas~uT        N/At    mediation
 
@@ -3053,7 +3459,7 @@ lexicon = listing "Lexicon properties"
     -- wAsT    wAsiT   Napdu   means;device
     -- wsA}T   wasA}iT Ndip    means;devices
 
-    noun     FACiL                     {- wAsiTap -}        `others` [ "wasA'i.t Ndip", "wAsi.t Napdu" ]
+    noun     FACiL                     {- wAsiTap -}        `others` [ "wasA'i.t Ndip" ]
                                                             `gloss`  [ "means", "device", "devices" ],
 
     -- ;; mutawas~iT_1
@@ -3083,6 +3489,15 @@ lexicon = listing "Lexicon properties"
     verb     FaCCaL                    {- was~aE -}         `others` [ "wassi` IV_yu" ]
                                                             `gloss`  [ "expand", "widen", "enable" ],
 
+    -- ;; >awosaE_1
+    -- >wsE    >awosaE PV      expand;widen;enable
+    -- AwsE    >awosaE PV      expand;widen;enable
+    -- wsE     wsiE    IV_yu   expand;widen;enable
+    -- wsE     wsaE    IV_Pass_yu      be expanded;be widened;be enabled
+
+    verb     HaFCaL                    {- OawosaE -}        `others` [ "wsi` IV_yu", "wsa` IV_Pass_yu" ]
+                                                            `gloss`  [ "expand", "widen", "enable", "be expanded", "be widened", "be enabled" ],
+
     -- ;; tawas~aE_1
     -- twsE    tawas~aE        PV      expand;be extensive
     -- twsE    tawas~aE        IV      expand;be extensive
@@ -3092,13 +3507,18 @@ lexicon = listing "Lexicon properties"
     -- ;; saEap_1
     -- sE      saE     Nap     volume;capacity
 
-    noun     CaL                       {- saEap -}          `others` [ "sa` Nap" ]
-                                                            `gloss`  [ "volume", "capacity" ],
+    noun     CaL                       {- saEap -}          `gloss`  [ "volume", "capacity" ],
 
     -- ;; wusoE_1
     -- wsE     wusoE   N       capability;capacity
 
     noun     FuCL                      {- wusoE -}          `gloss`  [ "capability", "capacity" ],
+
+    -- ;; >awosaE_2
+    -- >wsE    >awosaE Nel     broader/broadest;wider/widest
+    -- AwsE    >awosaE Nel     broader/broadest;wider/widest
+
+    noun     HaFCaL                    {- OawosaE -}        `gloss`  [ "broader / broadest", "wider / widest" ],
 
     -- ;; tawosiyE_1
     -- twsyE   tawosiyE        N/At    expansion;widening
@@ -3108,8 +3528,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tawosiEap_1
     -- twsE    tawosiE Nap     expansion;widening;generosity
 
-    noun     TaFCiL                    {- tawosiEap -}      `others` [ "tawsi` Nap" ]
-                                                            `gloss`  [ "expansion", "widening", "generosity" ],
+    noun     TaFCiL                    {- tawosiEap -}      `gloss`  [ "expansion", "widening", "generosity" ],
 
     -- ;; tawas~uE_1
     -- twsE    tawas~uE        N/At    expansion
@@ -3130,7 +3549,7 @@ lexicon = listing "Lexicon properties"
     -- mwswE   mawosuwE        Napdu   encyclopedia
     -- mwswE   mawosuwE        NAt     encyclopedias
 
-    noun     MaFCUL                    {- mawosuwEap -}     `others` [ "mawsuw` NAt Napdu" ]
+    noun     MaFCUL                    {- mawosuwEap -}     `others` [ "mawsuw` NAt" ]
                                                             `gloss`  [ "encyclopedia", "encyclopedias" ] ]
 
  |> "w s l" <| [
@@ -3139,7 +3558,7 @@ lexicon = listing "Lexicon properties"
     -- wsyl    wasiyl  Napdu   means;device;instrument
     -- wsA}l   wasA}il Ndip    means;devices;instruments
 
-    noun     FaCIL                     {- wasiylap -}       `others` [ "wasA'il Ndip", "wasiyl Napdu" ]
+    noun     FaCIL                     {- wasiylap -}       `others` [ "wasA'il Ndip" ]
                                                             `gloss`  [ "means", "device", "instrument", "devices", "instruments" ] ]
 
  |> "w s m" <| [
@@ -3156,7 +3575,7 @@ lexicon = listing "Lexicon properties"
     -- sm      sim     Napdu   feature;characteristic;stamp
     -- sm      sim     NAt     features;characteristics;stamps
 
-    noun     CiL                       {- simap -}          `others` [ "sim NAt Napdu" ]
+    noun     CiL                       {- simap -}          `others` [ "sim NAt" ]
                                                             `gloss`  [ "feature", "characteristic", "stamp", "features", "characteristics", "stamps" ],
 
     -- ;; wisAm_1
@@ -3170,8 +3589,7 @@ lexicon = listing "Lexicon properties"
     -- ;; wasAmap_1
     -- wsAm    wasAm   Nap     gracefulness;charm
 
-    noun     FaCAL                     {- wasAmap -}        `others` [ "wasAm Nap" ]
-                                                            `gloss`  [ "gracefulness", "charm" ],
+    noun     FaCAL                     {- wasAmap -}        `gloss`  [ "gracefulness", "charm" ],
 
     -- ;; wasiym_1
     -- wsym    wasiym  N/ap    graceful;good-looking     [[wasiym/ADJ]]
@@ -3221,7 +3639,7 @@ lexicon = listing "Lexicon properties"
     -- wtyr    watiyr  Napdu   manner;method;style
     -- wtA}r   watA}ir Ndip    manner;method;style
 
-    noun     FaCIL                     {- watiyrap -}       `others` [ "watiyr Napdu", "watA'ir Ndip" ]
+    noun     FaCIL                     {- watiyrap -}       `others` [ "watA'ir Ndip" ]
                                                             `gloss`  [ "manner", "method", "style" ],
 
     -- ;; tawotiyr_1
@@ -3250,7 +3668,7 @@ lexicon = listing "Lexicon properties"
     -- wSy     waSiy~  Napdu   advice
     -- wSAyA   waSAyA  N0_Nhy  advice
 
-    noun     CaL                       {- waSiy~ap -}       `others` [ "wa.sAyA N0_Nhy", "wa.siyy Napdu" ]
+    noun     CaL                       {- waSiy~ap -}       `others` [ "wa.sAyA N0_Nhy" ]
                                                             `gloss`  [ "advice" ] ]
 
  |> "w w f" <| [
@@ -3307,8 +3725,7 @@ lexicon = listing "Lexicon properties"
     -- ;; wayolap_1
     -- wyl     wayol   NapAt   misfortune
 
-    noun     FaCL                      {- wayolap -}        `others` [ "wayl NapAt" ]
-                                                            `gloss`  [ "misfortune" ],
+    noun     FaCL                      {- wayolap -}        `gloss`  [ "misfortune" ],
 
     -- ;; wA}il_1
     -- wA}l    wA}il   Nprop   Wael;Wa'il
@@ -3397,8 +3814,7 @@ lexicon = listing "Lexicon properties"
     -- ;; zinap_1
     -- zn      zin     Nap     weighing;weight
 
-    noun     CiL                       {- zinap -}          `others` [ "zin Nap" ]
-                                                            `gloss`  [ "weighing", "weight" ],
+    noun     CiL                       {- zinap -}          `gloss`  [ "weighing", "weight" ],
 
     -- ;; wazon_1
     -- wzn     wazon   N       weight;weighing
@@ -3419,20 +3835,18 @@ lexicon = listing "Lexicon properties"
     -- myzAny  miyzAniy~       Napdu   budget     [[miyzAniy~/NOUN]]
     -- myzAny  miyzAniy~       NAt     budgets     [[miyzAniy~/NOUN]]
 
-    noun     MICAL                     {- miyzAniy~ap -}    `others` [ "miyzAniyy NAt Napdu" ]
+    noun     MICAL                     {- miyzAniy~ap -}    `others` [ "miyzAniyy NAt" ]
                                                             `gloss`  [ "budget [ [ miyzAniy ~ / NOUN ] ]", "budgets [ [ miyzAniy ~ / NOUN ] ]" ],
 
     -- ;; muwAzanap_1
     -- mwAzn   muwAzan NapAt   budget
 
-    noun     MuFACaL                   {- muwAzanap -}      `others` [ "muwAzan NapAt" ]
-                                                            `gloss`  [ "budget" ],
+    noun     MuFACaL                   {- muwAzanap -}      `gloss`  [ "budget" ],
 
     -- ;; muwAzanap_2
     -- mwAzn   muwAzan NapAt   balance;comparison
 
-    noun     MuFACaL                   {- muwAzanap -}      `others` [ "muwAzan NapAt" ]
-                                                            `gloss`  [ "balance", "comparison" ],
+    noun     MuFACaL                   {- muwAzanap -}      `gloss`  [ "balance", "comparison" ],
 
     -- ;; tawAzun_1
     -- twAzn   tawAzun N/At    balance;balancing
@@ -3477,7 +3891,7 @@ lexicon = listing "Lexicon properties"
     -- wzAr    wizAr   Napdu   ministry
     -- wzAr    wizAr   NAt     ministries
 
-    noun     FiCAL                     {- wizArap -}        `others` [ "wizAr NAt Napdu" ]
+    noun     FiCAL                     {- wizArap -}        `others` [ "wizAr NAt" ]
                                                             `gloss`  [ "ministry", "ministries" ],
 
     -- ;; wizAriy~_1
@@ -3573,7 +3987,7 @@ lexicon = listing "Lexicon properties"
     -- wSA     waSA    Napdu   prescription;ordinance;counsel
     -- wSAy    waSAy   Napdu   prescription;ordinance;counsel
 
-    noun     Identity                  {- waSAp -}          `others` [ "wa.sA Napdu", "wa.sAy Napdu" ]
+    noun     Identity                  {- waSAp -}          `others` [ "wa.sAy Napdu" ]
                                                             `gloss`  [ "prescription", "ordinance", "counsel" ] ]
 
  |> "wa_tA'iq" <| [
@@ -3589,7 +4003,7 @@ lexicon = listing "Lexicon properties"
     -- wfA     wafA    Napdu   death
     -- wfy     wafay   NAt     deaths
 
-    noun     Identity                  {- wafAp -}          `others` [ "wafA Napdu", "wafay NAt" ]
+    noun     Identity                  {- wafAp -}          `others` [ "wafay NAt" ]
                                                             `gloss`  [ "death", "deaths" ] ]
 
  |> "warA'a" <| [

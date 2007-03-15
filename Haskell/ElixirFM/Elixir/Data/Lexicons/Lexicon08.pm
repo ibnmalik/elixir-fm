@@ -100,6 +100,55 @@ $lexicon = {
   ],
   'd h ^s' => [
     {
+      'types' => {
+        'dha^s' => {
+          'IV_Pass_yu' => 1
+        },
+        'dhi^s' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'adha^s',
+      'form' => '\'adha^s',
+      'others' => [
+        'dha^s IV_Pass_yu',
+        'dhi^s IV_yu'
+      ],
+      'lines' => [
+        ';; >adoha$_1',
+        '>dh$    >adoha$ PV      amaze;surprise',
+        'Adh$    >adoha$ PV      amaze;surprise',
+        'dh$     dohi$   IV_yu   amaze;surprise',
+        'dh$     doha$   IV_Pass_yu      be amazed;be surprised'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"amaze"'
+        ],
+        [
+          '"surprise"'
+        ],
+        [
+          '"be amazed"'
+        ],
+        [
+          '"be surprised"'
+        ]
+      ],
+      'glosshash' => {
+        '"be surprised"' => 1,
+        '"surprise"' => 1,
+        '"be amazed"' => 1,
+        '"amaze"' => 1
+      },
+      'orig' => 'Oadoha$',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'dahi^s',
       'form' => 'dahi^s',
@@ -127,16 +176,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'dah^s' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'dah^s',
       'form' => 'dah^saT',
-      'others' => [
-        'dah^s Nap'
-      ],
       'lines' => [
         ';; daho$ap_1',
         'dh$     daho$   Nap     surprise;alarm'
@@ -190,16 +232,9 @@ $lexicon = {
   ],
   'mad`aNY' => [
     {
-      'types' => {
-        'mad`A' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mad`aNY',
       'form' => 'mad`AT',
-      'others' => [
-        'mad`A Nap'
-      ],
       'lines' => [
         ';; madoEAp_1',
         'mdEA    madoEA  Nap     reason;motive'
@@ -276,16 +311,9 @@ $lexicon = {
   ],
   'd ^g l' => [
     {
-      'types' => {
-        'di^gl' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'di^gl',
       'form' => 'di^glaT',
-      'others' => [
-        'di^gl Nap'
-      ],
       'lines' => [
         ';; dijolap_1',
         'djl     dijol   Nap     Tigris'
@@ -443,16 +471,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'diqq' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'diqq',
       'form' => 'diqqaT',
-      'others' => [
-        'diqq Nap'
-      ],
       'lines' => [
         ';; diq~ap_1',
         'dq      diq~    Nap     minuteness;accuracy;precision'
@@ -554,9 +575,6 @@ $lexicon = {
     },
     {
       'types' => {
-        'daqiyq' => {
-          'Napdu' => 1
-        },
         'daqA\'iq' => {
           'Ndip' => 1
         }
@@ -564,7 +582,6 @@ $lexicon = {
       'entry' => 'daqiyq',
       'form' => 'daqiyqaT',
       'others' => [
-        'daqiyq Napdu',
         'daqA\'iq Ndip'
       ],
       'lines' => [
@@ -589,6 +606,30 @@ $lexicon = {
         '"minute"' => 1
       },
       'orig' => 'daqiyqap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'adaqq',
+      'form' => '\'adaqq',
+      'lines' => [
+        ';; >adaq~_2',
+        '>dq     >adaq~  Nel     more/most accurate/precise',
+        'Adq     >adaq~  Nel     more/most accurate/precise'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'HaFaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"more / most accurate / precise"'
+        ]
+      ],
+      'glosshash' => {
+        '"more / most accurate / precise"' => 1
+      },
+      'orig' => 'Oadaq~',
       'prefix' => ''
     },
     {
@@ -796,9 +837,6 @@ $lexicon = {
   'd ` r' => [
     {
       'types' => {
-        'da`Ar' => {
-          'Nap' => 1
-        },
         'di`Ar' => {
           'Nap' => 1
         }
@@ -806,7 +844,6 @@ $lexicon = {
       'entry' => 'da`Ar',
       'form' => 'da`AraT',
       'others' => [
-        'da`Ar Nap',
         'di`Ar Nap'
       ],
       'lines' => [
@@ -991,16 +1028,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'dawwAm' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'dawwAm',
       'form' => 'dawwAmaT',
-      'others' => [
-        'dawwAm Nap'
-      ],
       'lines' => [
         ';; daw~Amap_1',
         'dwAm    daw~Am  Nap     dizziness;whirlpool;vortex'
@@ -1145,12 +1175,12 @@ $lexicon = {
           '"Desire"'
         ],
         [
-          '"Desir_ee"'
+          '"Desirée"'
         ]
       ],
       'glosshash' => {
         '"Desire"' => 1,
-        '"Desir_ee"' => 1
+        "\"Desir\x{e9}e\"" => 1
       },
       'orig' => 'diyziyriyh',
       'prefix' => ''
@@ -1262,16 +1292,12 @@ $lexicon = {
       'types' => {
         'di`am' => {
           'N' => 1
-        },
-        'di`m' => {
-          'Nap' => 1
         }
       },
       'entry' => 'di`m',
       'form' => 'di`maT',
       'others' => [
-        'di`am N',
-        'di`m Nap'
+        'di`am N'
       ],
       'lines' => [
         ';; diEomap_1',
@@ -1299,9 +1325,6 @@ $lexicon = {
     },
     {
       'types' => {
-        'di`Am' => {
-          'NapAt' => 1
-        },
         'da`A\'im' => {
           'Ndip' => 1
         }
@@ -1309,7 +1332,6 @@ $lexicon = {
       'entry' => 'di`Am',
       'form' => 'di`AmaT',
       'others' => [
-        'di`Am NapAt',
         'da`A\'im Ndip'
       ],
       'lines' => [
@@ -1457,6 +1479,104 @@ $lexicon = {
   ],
   'd r k' => [
     {
+      'types' => {
+        'drik' => {
+          'IV_yu' => 1
+        },
+        'drak' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => '\'adrak',
+      'form' => '\'adrak',
+      'others' => [
+        'drik IV_yu',
+        'drak IV_Pass_yu'
+      ],
+      'lines' => [
+        ';; >adorak_1',
+        '>drk    >adorak PV      comprehend;realize',
+        'Adrk    >adorak PV      comprehend;realize',
+        'drk     dorik   IV_yu   comprehend;realize',
+        'drk     dorak   IV_Pass_yu      be comprehended;be realized'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"comprehend"'
+        ],
+        [
+          '"realize"'
+        ],
+        [
+          '"be comprehended"'
+        ],
+        [
+          '"be realized"'
+        ]
+      ],
+      'glosshash' => {
+        '"be comprehended"' => 1,
+        '"be realized"' => 1,
+        '"comprehend"' => 1,
+        '"realize"' => 1
+      },
+      'orig' => 'Oadorak',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'drik' => {
+          'IV_yu' => 1
+        },
+        'drak' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => '\'adrak',
+      'form' => '\'adrak',
+      'others' => [
+        'drik IV_yu',
+        'drak IV_Pass_yu'
+      ],
+      'lines' => [
+        ';; >adorak_2',
+        '>drk    >adorak PV      reach;attain',
+        'Adrk    >adorak PV      reach;attain',
+        'drk     dorik   IV_yu   reach;attain',
+        'drk     dorak   IV_Pass_yu      be reached;be attained'
+      ],
+      'index' => '2',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"reach"'
+        ],
+        [
+          '"attain"'
+        ],
+        [
+          '"be reached"'
+        ],
+        [
+          '"be attained"'
+        ]
+      ],
+      'glosshash' => {
+        '"be reached"' => 1,
+        '"reach"' => 1,
+        '"be attained"' => 1,
+        '"attain"' => 1
+      },
+      'orig' => 'Oadorak',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'tadArak',
       'form' => 'tadArak',
@@ -1490,6 +1610,38 @@ $lexicon = {
     },
     {
       'types' => {},
+      'entry' => '\'idrAk',
+      'form' => '\'idrAk',
+      'lines' => [
+        ';; <idorAk_1',
+        '<drAk   <idorAk NduAt   attainment;realization;awareness',
+        'AdrAk   <idorAk NduAt   attainment;realization;awareness'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"attainment"'
+        ],
+        [
+          '"realization"'
+        ],
+        [
+          '"awareness"'
+        ]
+      ],
+      'glosshash' => {
+        '"realization"' => 1,
+        '"attainment"' => 1,
+        '"awareness"' => 1
+      },
+      'orig' => 'IidorAk',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'mudrik',
       'form' => 'mudrik',
       'lines' => [
@@ -1517,6 +1669,74 @@ $lexicon = {
     }
   ],
   'd r r' => [
+    {
+      'types' => {
+        '\'adrar' => {
+          'PV_C' => 2
+        },
+        'dirr' => {
+          'IV_V_yu' => 1
+        },
+        'darr' => {
+          'IV_V_Pass_yu' => 1
+        },
+        'drir' => {
+          'IV_C_yu' => 1
+        }
+      },
+      'entry' => '\'adarr',
+      'form' => '\'adarr',
+      'others' => [
+        '\'adrar PV_C',
+        'dirr IV_V_yu',
+        'darr IV_V_Pass_yu',
+        'drir IV_C_yu'
+      ],
+      'lines' => [
+        ';; >adar~_1',
+        '>dr     >adar~  PV_V    make flow;bestow lavishly;yield',
+        'Adr     >adar~  PV_V    make flow;bestow lavishly;yield',
+        '>drr    >adorar PV_C    make flow;bestow lavishly;yield',
+        'Adrr    >adorar PV_C    make flow;bestow lavishly;yield',
+        'dr      dir~    IV_V_yu make flow;bestow lavishly;yield',
+        'drr     dorir   IV_C_yu make flow;bestow lavishly;yield',
+        'dr      dar~    IV_V_Pass_yu    be made to flow;be bestowed lavishly;be yielded'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"make flow"'
+        ],
+        [
+          '"bestow lavishly"'
+        ],
+        [
+          '"yield"'
+        ],
+        [
+          '"be made to flow"'
+        ],
+        [
+          '"be bestowed lavishly"'
+        ],
+        [
+          '"be yielded"'
+        ]
+      ],
+      'glosshash' => {
+        '"bestow lavishly"' => 1,
+        '"make flow"' => 1,
+        '"be yielded"' => 1,
+        '"be bestowed lavishly"' => 1,
+        '"yield"' => 1,
+        '"be made to flow"' => 1
+      },
+      'orig' => 'Oadar~',
+      'prefix' => ''
+    },
     {
       'types' => {},
       'entry' => 'durr',
@@ -1658,16 +1878,12 @@ $lexicon = {
       'types' => {
         'duktuwrAh' => {
           'N' => 1
-        },
-        'duktuwrA' => {
-          'Napdu' => 1
         }
       },
       'entry' => 'duktuwraNY',
       'form' => 'duktuwrAT',
       'others' => [
-        'duktuwrAh N',
-        'duktuwrA Napdu'
+        'duktuwrAh N'
       ],
       'lines' => [
         ';; dukotuwrAp_1',
@@ -1960,16 +2176,12 @@ $lexicon = {
       'types' => {
         'da`aw' => {
           'NAt' => 1
-        },
-        'da`w' => {
-          'Napdu' => 1
         }
       },
       'entry' => 'da`w',
       'form' => 'da`waT',
       'others' => [
-        'da`aw NAt',
-        'da`w Napdu'
+        'da`aw NAt'
       ],
       'lines' => [
         ';; daEowap_1',
@@ -2012,16 +2224,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'da`w' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'da`w',
       'form' => 'da`waT',
-      'others' => [
-        'da`w Nap'
-      ],
       'lines' => [
         ';; daEowap_2',
         'dEw     daEow   Nap     (Islamic) missionary work;Da\'wah;propaganda'
@@ -2348,16 +2553,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'dA`iy' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'dA`iy',
       'form' => 'dA`iyaT',
-      'others' => [
-        'dA`iy Napdu'
-      ],
       'lines' => [
         ';; dAEiyap_1',
         'dAEy    dAEiy   Napdu   propagandist;missionary;motive'
@@ -2389,7 +2587,6 @@ $lexicon = {
       'types' => $lexicon->{'d ` w'}[13]{'types'},
       'entry' => 'dA`iy',
       'form' => 'dA`iyaT',
-      'others' => $lexicon->{'d ` w'}[13]{'others'},
       'lines' => $lexicon->{'d ` w'}[13]{'lines'},
       'index' => '1',
       'entity' => 'noun',
@@ -2566,16 +2763,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mudAham' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mudAham',
       'form' => 'mudAhamaT',
-      'others' => [
-        'mudAham NapAt'
-      ],
       'lines' => [
         ';; mudAhamap_1',
         'mdAhm   mudAham NapAt   raid;storming;search'
@@ -2648,6 +2838,79 @@ $lexicon = {
         '"go around"' => 1
       },
       'orig' => 'dAr-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'dAr' => {
+          'IV_V_Pass_yu' => 1
+        },
+        'dar' => {
+          'IV_C_Pass_yu' => 1
+        },
+        'diyr' => {
+          'IV_V_yu' => 1
+        },
+        '\'adar' => {
+          'PV_C' => 2
+        },
+        'dir' => {
+          'IV_C_yu' => 1
+        }
+      },
+      'entry' => '\'adAr',
+      'form' => '\'adAr',
+      'others' => [
+        'dAr IV_V_Pass_yu',
+        'dar IV_C_Pass_yu',
+        'diyr IV_V_yu',
+        '\'adar PV_C',
+        'dir IV_C_yu'
+      ],
+      'lines' => [
+        ';; >adAr_1',
+        '>dAr    >adAr   PV_V    direct;manage;conduct',
+        'AdAr    >adAr   PV_V    direct;manage;conduct',
+        '>dr     >adar   PV_C    direct;manage;conduct',
+        'Adr     >adar   PV_C    direct;manage;conduct',
+        'dyr     diyr    IV_V_yu direct;manage;conduct',
+        'dr      dir     IV_C_yu direct;manage;conduct',
+        'dAr     dAr     IV_V_Pass_yu    be directed;be managed;be conducted',
+        'dr      dar     IV_C_Pass_yu    be directed;be managed;be conducted'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"direct"'
+        ],
+        [
+          '"manage"'
+        ],
+        [
+          '"conduct"'
+        ],
+        [
+          '"be directed"'
+        ],
+        [
+          '"be managed"'
+        ],
+        [
+          '"be conducted"'
+        ]
+      ],
+      'glosshash' => {
+        '"direct"' => 1,
+        '"be conducted"' => 1,
+        '"be managed"' => 1,
+        '"be directed"' => 1,
+        '"conduct"' => 1,
+        '"manage"' => 1
+      },
+      'orig' => 'OadAr',
       'prefix' => ''
     },
     {
@@ -2757,16 +3020,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'dawr' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'dawr',
       'form' => 'dawraT',
-      'others' => [
-        'dawr NapAt'
-      ],
       'lines' => [
         ';; daworap_1',
         'dwr     dawor   NapAt   championship;tournament'
@@ -2791,16 +3047,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'dawr' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'dawr',
       'form' => 'dawraT',
-      'others' => [
-        'dawr NapAt'
-      ],
       'lines' => [
         ';; daworap_2',
         'dwr     dawor   NapAt   cycle;turn;rotation;revolution'
@@ -2835,14 +3084,13 @@ $lexicon = {
     {
       'types' => {
         'dawr' => {
-          'NAt' => 1,
-          'Napdu' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'dawr',
       'form' => 'dawraT',
       'others' => [
-        'dawr NAt Napdu'
+        'dawr NAt'
       ],
       'lines' => [
         ';; daworap_3',
@@ -2939,16 +3187,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'dawriyy' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'dawr',
       'form' => 'dawriyyaT',
-      'others' => [
-        'dawriyy NapAt'
-      ],
       'lines' => [
         ';; daworiy~ap_1',
         'dwry    daworiy~        NapAt   patrol;squad;periodical     [[daworiy~/NOUN]]'
@@ -3111,6 +3352,74 @@ $lexicon = {
     },
     {
       'types' => {},
+      'entry' => '\'idAr',
+      'form' => '\'idAraT',
+      'lines' => [
+        ';; <idArap_1',
+        '<dAr    <idAr   NapAt   administration;management;bureau',
+        'AdAr    <idAr   NapAt   administration;management;bureau'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFAL',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"administration"'
+        ],
+        [
+          '"management"'
+        ],
+        [
+          '"bureau"'
+        ]
+      ],
+      'glosshash' => {
+        '"bureau"' => 1,
+        '"administration"' => 1,
+        '"management"' => 1
+      },
+      'orig' => 'IidArap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'idAr',
+      'form' => '\'idAriyy',
+      'lines' => [
+        ';; <idAriy~_1',
+        '<dAry   <idAriy~        Nall    administrative;management;departmental;officer     [[<idAriy~/ADJ]]',
+        'AdAry   <idAriy~        Nall    administrative;management;departmental;officer     [[<idAriy~/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFAL',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"administrative"'
+        ],
+        [
+          '"management"'
+        ],
+        [
+          '"departmental"'
+        ],
+        [
+          '"officer [ ["'
+        ]
+      ],
+      'glosshash' => {
+        '"officer [ ["' => 1,
+        '"departmental"' => 1,
+        '"management"' => 1,
+        '"administrative"' => 1
+      },
+      'orig' => 'IidAriy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'dA\'ir',
       'form' => 'dA\'ir',
       'lines' => [
@@ -3171,16 +3480,12 @@ $lexicon = {
       'types' => {
         'dawA\'ir' => {
           'Ndip' => 1
-        },
-        'dA\'ir' => {
-          'Napdu' => 1
         }
       },
       'entry' => 'dA\'ir',
       'form' => 'dA\'iraT',
       'others' => [
-        'dawA\'ir Ndip',
-        'dA\'ir Napdu'
+        'dawA\'ir Ndip'
       ],
       'lines' => [
         ';; dA}irap_1',
@@ -3225,14 +3530,13 @@ $lexicon = {
     {
       'types' => {
         'dA\'ir' => {
-          'NAt' => 1,
-          'Napdu' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'dA\'ir',
       'form' => 'dA\'iraT',
       'others' => [
-        'dA\'ir NAt Napdu'
+        'dA\'ir NAt'
       ],
       'lines' => [
         ';; dA}irap_2',
@@ -3361,16 +3665,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mudiyriyy' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mudiyr',
       'form' => 'mudiyriyyaT',
-      'others' => [
-        'mudiyriyy Nap'
-      ],
       'lines' => [
         ';; mudiyriy~ap_1',
         'mdyry   mudiyriy~       Nap     administration;management     [[mudiyriy~/NOUN]]'
@@ -3395,16 +3692,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mudiyriyy' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mudiyr',
       'form' => 'mudiyriyyaT',
-      'others' => [
-        'mudiyriyy NapAt'
-      ],
       'lines' => [
         ';; mudiyriy~ap_2',
         'mdyry   mudiyriy~       NapAt   district;province     [[mudiyriy~/NOUN]]'
@@ -3486,110 +3776,6 @@ $lexicon = {
         '"tears"' => 1
       },
       'orig' => 'damoE',
-      'prefix' => ''
-    }
-  ],
-  'diy^siy' => [
-    {
-      'types' => {},
-      'entry' => 'diy^siy',
-      'form' => 'diy^siy',
-      'lines' => [
-        ';; diy$iy_1',
-        'dy$y    diy$iy  Nprop   Dechy'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"Dechy"'
-        ]
-      ],
-      'glosshash' => {
-        '"Dechy"' => 1
-      },
-      'orig' => 'diy$iy',
-      'prefix' => ''
-    }
-  ],
-  'dunyA' => [
-    {
-      'types' => {
-        'dunyay' => {
-          'NAt' => 1
-        },
-        'dunyaw' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'dunyA',
-      'form' => 'dunyA',
-      'others' => [
-        'dunyay NAt',
-        'dunyaw NAt'
-      ],
-      'lines' => [
-        ';; dunoyA_1',
-        'dnyA    dunoyA  N0_Nh   world;near;low;inferior',
-        'dnyy    dunoyay NAt     worlds',
-        'dnyw    dunoyaw NAt     worlds'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"world"'
-        ],
-        [
-          '"near"'
-        ],
-        [
-          '"low"'
-        ],
-        [
-          '"inferior"'
-        ],
-        [
-          '"worlds"'
-        ]
-      ],
-      'glosshash' => {
-        '"inferior"' => 1,
-        '"near"' => 1,
-        '"world"' => 1,
-        '"worlds"' => 1,
-        '"low"' => 1
-      },
-      'orig' => 'dunoyA',
-      'prefix' => ''
-    }
-  ],
-  'dilhiy' => [
-    {
-      'types' => {},
-      'entry' => 'dilhiy',
-      'form' => 'dilhiy',
-      'lines' => [
-        ';; dilohiy_1',
-        'dlhy    dilohiy Nprop   Delhi'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"Delhi"'
-        ]
-      ],
-      'glosshash' => {
-        '"Delhi"' => 1
-      },
-      'orig' => 'dilohiy',
       'prefix' => ''
     }
   ],
@@ -3790,9 +3976,6 @@ $lexicon = {
     },
     {
       'types' => {
-        'daf`' => {
-          'Napdu' => 1
-        },
         'dafa`' => {
           'NAt' => 1
         }
@@ -3800,7 +3983,6 @@ $lexicon = {
       'entry' => 'daf`',
       'form' => 'daf`aT',
       'others' => [
-        'daf` Napdu',
         'dafa` NAt'
       ],
       'lines' => [
@@ -3837,9 +4019,6 @@ $lexicon = {
     },
     {
       'types' => {
-        'daf`' => {
-          'Napdu' => 1
-        },
         'dafa`' => {
           'NAt' => 1
         }
@@ -3847,7 +4026,6 @@ $lexicon = {
       'entry' => 'daf`',
       'form' => 'daf`aT',
       'others' => [
-        'daf` Napdu',
         'dafa` NAt'
       ],
       'lines' => [
@@ -3875,16 +4053,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'duf`' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'duf`',
       'form' => 'duf`aT',
-      'others' => [
-        'duf` NapAt'
-      ],
       'lines' => [
         ';; dufoEap_1',
         'dfE     dufoE   NapAt   time;instance'
@@ -3909,16 +4080,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'duf`' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'duf`',
       'form' => 'duf`aT',
-      'others' => [
-        'duf` NapAt'
-      ],
       'lines' => [
         ';; dufoEap_2',
         'dfE     dufoE   NapAt   batch;spurt'
@@ -3943,16 +4107,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'duf`' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'duf`',
       'form' => 'duf`aT',
-      'others' => [
-        'duf` NapAt'
-      ],
       'lines' => [
         ';; dufoEap_3',
         'dfE     dufoE   NapAt   class (alumni);group (graduates)'
@@ -4075,16 +4232,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'midfa`iyy' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'midfa`',
       'form' => 'midfa`iyyaT',
-      'others' => [
-        'midfa`iyy Nap'
-      ],
       'lines' => [
         ';; midofaEiy~ap_1',
         'mdfEy   midofaEiy~      Nap     artillery     [[midofaEiy~/NOUN]]'
@@ -4567,6 +4717,44 @@ $lexicon = {
   ],
   'd \' b' => [
     {
+      'types' => {
+        'd\'ab' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'da\'ab',
+      'form' => 'da\'ab',
+      'others' => [
+        'd\'ab IV'
+      ],
+      'lines' => [
+        ';; da>ab-a_1',
+        'd>b     da>ab   PV      persist;be devoted',
+        'd>b     do>ab   IV      persist;be devoted'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        [
+          '"persist"'
+        ],
+        [
+          '"be devoted"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'glosshash' => {
+        '"persist"' => 1,
+        '"be devoted"' => 1
+      },
+      'orig' => 'daOab-a',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'da\'uwb',
       'form' => 'da\'uwb',
@@ -4721,9 +4909,6 @@ $lexicon = {
     },
     {
       'types' => {
-        'dawl' => {
-          'Napdu' => 1
-        },
         'duwal' => {
           'N' => 1
         }
@@ -4731,7 +4916,6 @@ $lexicon = {
       'entry' => 'dawl',
       'form' => 'dawlaT',
       'others' => [
-        'dawl Napdu',
         'duwal N'
       ],
       'lines' => [
@@ -4809,16 +4993,12 @@ $lexicon = {
       'types' => {
         'mudAwalaTaN' => {
           'FW-Wa' => 1
-        },
-        'mudAwal' => {
-          'NapAt' => 1
         }
       },
       'entry' => 'mudAwal',
       'form' => 'mudAwalaT',
       'others' => [
-        'mudAwalaTaN FW-Wa',
-        'mudAwal NapAt'
+        'mudAwalaTaN FW-Wa'
       ],
       'lines' => [
         ';; mudAwalap_1',
@@ -5301,16 +5481,9 @@ $lexicon = {
   ],
   'damaqra.t' => [
     {
-      'types' => {
-        'damaqra.t' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'damaqra.t',
       'form' => 'damaqra.taT',
-      'others' => [
-        'damaqra.t Nap'
-      ],
       'lines' => [
         ';; damaqoraTap_1',
         'dmqrT   damaqoraT       Nap     democratization'
@@ -5406,6 +5579,71 @@ $lexicon = {
     },
     {
       'types' => {
+        'diyn' => {
+          'IV_V_yu' => 1
+        },
+        'dAn' => {
+          'IV_V_Pass_yu' => 1
+        },
+        '\'adan' => {
+          'PV_Cn' => 2
+        },
+        'dan' => {
+          'IV-n_Pass_yu' => 1
+        },
+        'din' => {
+          'IV-n_yu' => 1
+        }
+      },
+      'entry' => '\'adAn',
+      'form' => '\'adAn',
+      'others' => [
+        'diyn IV_V_yu',
+        'dAn IV_V_Pass_yu',
+        '\'adan PV_Cn',
+        'dan IV-n_Pass_yu',
+        'din IV-n_yu'
+      ],
+      'lines' => [
+        ';; >adAn_1',
+        '>dAn    >adAn   PV_V    condemn;censure',
+        'AdAn    >adAn   PV_V    condemn;censure',
+        '>dn     >adan   PV_Cn   condemn;censure',
+        'Adn     >adan   PV_Cn   condemn;censure',
+        'dyn     diyn    IV_V_yu condemn;censure',
+        'dn      din     IV-n_yu condemn;censure',
+        'dAn     dAn     IV_V_Pass_yu    be condemned;be censured',
+        'dn      dan     IV-n_Pass_yu    be condemned;be censured'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"condemn"'
+        ],
+        [
+          '"censure"'
+        ],
+        [
+          '"be condemned"'
+        ],
+        [
+          '"be censured"'
+        ]
+      ],
+      'glosshash' => {
+        '"be censured"' => 1,
+        '"censure"' => 1,
+        '"condemn"' => 1,
+        '"be condemned"' => 1
+      },
+      'orig' => 'OadAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'duyuwn' => {
           'N' => 1
         }
@@ -5437,6 +5675,34 @@ $lexicon = {
         '"debt"' => 1
       },
       'orig' => 'dayon',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'idAn',
+      'form' => '\'idAnaT',
+      'lines' => [
+        ';; <idAnap_1',
+        '<dAn    <idAn   NapAt   condemnation;censure',
+        'AdAn    <idAn   NapAt   condemnation;censure'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFAL',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"condemnation"'
+        ],
+        [
+          '"censure"'
+        ]
+      ],
+      'glosshash' => {
+        '"condemnation"' => 1,
+        '"censure"' => 1
+      },
+      'orig' => 'IidAnap',
       'prefix' => ''
     },
     {
@@ -5529,16 +5795,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'madyuwniyy' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'madyuwn',
       'form' => 'madyuwniyyaT',
-      'others' => [
-        'madyuwniyy Nap'
-      ],
       'lines' => [
         ';; madoyuwniy~ap_1',
         'mdywny  madoyuwniy~     Nap     indebtedness;obligation     [[madoyuwniy~/NOUN]]'
@@ -5622,16 +5881,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'diyAn' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'diyAn',
       'form' => 'diyAnaT',
-      'others' => [
-        'diyAn NapAt'
-      ],
       'lines' => [
         ';; diyAnap_1',
         'dyAn    diyAn   NapAt   religion;creed'
@@ -5723,16 +5975,12 @@ $lexicon = {
       'types' => {
         'diymuqrA.tiyy' => {
           'NapAt' => 1
-        },
-        'diymuwqrA.tiyy' => {
-          'NapAt' => 1
         }
       },
       'entry' => 'diymuwqrA.t',
       'form' => 'diymuwqrA.tiyyaT',
       'others' => [
-        'diymuqrA.tiyy NapAt',
-        'diymuwqrA.tiyy NapAt'
+        'diymuqrA.tiyy NapAt'
       ],
       'lines' => [
         ';; diymuwqrATiy~ap_1',
@@ -5761,16 +6009,9 @@ $lexicon = {
   ],
   'd f f' => [
     {
-      'types' => {
-        'daff' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'daff',
       'form' => 'daffaT',
-      'others' => [
-        'daff Napdu'
-      ],
       'lines' => [
         ';; daf~ap_1',
         'df      daf~    Napdu   side;leaf'
@@ -5795,16 +6036,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'daff' => {
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'daff',
       'form' => 'daffaT',
-      'others' => [
-        'daff Napdu'
-      ],
       'lines' => [
         ';; daf~ap_3',
         'df      daf~    Napdu   cover'
@@ -5984,9 +6218,6 @@ $lexicon = {
     },
     {
       'types' => {
-        'dibluwmAsiyy' => {
-          'Nap' => 1
-        },
         'diybluwmAsiyy' => {
           'Nap' => 1
         }
@@ -5994,7 +6225,6 @@ $lexicon = {
       'entry' => 'dibluwmAs',
       'form' => 'dibluwmAsiyyaT',
       'others' => [
-        'dibluwmAsiyy Nap',
         'diybluwmAsiyy Nap'
       ],
       'lines' => [
@@ -6023,6 +6253,63 @@ $lexicon = {
     }
   ],
   'd r ^g' => [
+    {
+      'types' => {
+        'dra^g' => {
+          'IV_Pass_yu' => 1
+        },
+        'dri^g' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'adra^g',
+      'form' => '\'adra^g',
+      'others' => [
+        'dra^g IV_Pass_yu',
+        'dri^g IV_yu'
+      ],
+      'lines' => [
+        ';; >adoraj_1',
+        '>drj    >adoraj PV      insert;include;integrate',
+        'Adrj    >adoraj PV      insert;include;integrate',
+        'drj     dorij   IV_yu   insert;include;integrate',
+        'drj     doraj   IV_Pass_yu      be inserted;be included;be integrated'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"insert"'
+        ],
+        [
+          '"include"'
+        ],
+        [
+          '"integrate"'
+        ],
+        [
+          '"be inserted"'
+        ],
+        [
+          '"be included"'
+        ],
+        [
+          '"be integrated"'
+        ]
+      ],
+      'glosshash' => {
+        '"be inserted"' => 1,
+        '"include"' => 1,
+        '"insert"' => 1,
+        '"be integrated"' => 1,
+        '"be included"' => 1,
+        '"integrate"' => 1
+      },
+      'orig' => 'Oadoraj',
+      'prefix' => ''
+    },
     {
       'types' => {
         '\'adrA^g' => {
@@ -6066,14 +6353,13 @@ $lexicon = {
     {
       'types' => {
         'dara^g' => {
-          'NAt' => 1,
-          'Napdu' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'dara^g',
       'form' => 'dara^gaT',
       'others' => [
-        'dara^g NAt Napdu'
+        'dara^g NAt'
       ],
       'lines' => [
         ';; darajap_1',
@@ -6132,16 +6418,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'darrA^g' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'darrA^g',
       'form' => 'darrA^gaT',
-      'others' => [
-        'darrA^g NapAt'
-      ],
       'lines' => [
         ';; dar~Ajap_1',
         'drAj    dar~Aj  NapAt   bicycle'
@@ -6230,6 +6509,38 @@ $lexicon = {
         '"gradually"' => 1
       },
       'orig' => 'tadoriyjiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'idrA^g',
+      'form' => '\'idrA^g',
+      'lines' => [
+        ';; <idorAj_1',
+        '<drAj   <idorAj NduAt   insertion;registration;recording',
+        'AdrAj   <idorAj NduAt   insertion;registration;recording'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"insertion"'
+        ],
+        [
+          '"registration"'
+        ],
+        [
+          '"recording"'
+        ]
+      ],
+      'glosshash' => {
+        '"insertion"' => 1,
+        '"registration"' => 1,
+        '"recording"' => 1
+      },
+      'orig' => 'IidorAj',
       'prefix' => ''
     },
     {
@@ -6403,16 +6714,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'du`Ab' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'du`Ab',
       'form' => 'du`AbaT',
-      'others' => [
-        'du`Ab NapAt'
-      ],
       'lines' => [
         ';; duEAbap_1',
         'dEAb    duEAb   NapAt   joking;jesting'
@@ -6583,7 +6887,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCY',
+      'morphs' => 'FaCaNY',
       'glosses' => [
         [
           '"know"'
@@ -6616,16 +6920,94 @@ $lexicon = {
       'prefix' => ''
     },
     {
+      'types' => $lexicon->{'d r y'}[0]{'types'},
+      'entry' => 'darY',
+      'form' => 'darY',
+      'others' => $lexicon->{'d r y'}[0]{'others'},
+      'lines' => $lexicon->{'d r y'}[0]{'lines'},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaNY',
+      'glosses' => $lexicon->{'d r y'}[0]{'glosses'},
+      'suffix' => '',
+      'imperf' => $lexicon->{'d r y'}[0]{'imperf'},
+      'glosshash' => $lexicon->{'d r y'}[0]{'glosshash'},
+      'orig' => 'daraY-i',
+      'prefix' => ''
+    },
+    {
       'types' => {
-        'dirAy' => {
-          'Nap' => 1
+        '\'adrA' => {
+          'PV_h' => 2
+        },
+        'drY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        'dray' => {
+          'IV_Ann_Pass_yu' => 1
+        },
+        'dr' => {
+          'IV_0hwnyn_yu' => 1
+        },
+        '\'adray' => {
+          'PV_Atn' => 2
+        },
+        '\'adr' => {
+          'PV_ttAw' => 2
+        },
+        'driy' => {
+          'IV_0hAnn_yu' => 1
         }
       },
+      'entry' => '\'adrY',
+      'form' => '\'adrY',
+      'others' => [
+        '\'adrA PV_h',
+        'drY IV_0_Pass_yu',
+        'dray IV_Ann_Pass_yu',
+        'dr IV_0hwnyn_yu',
+        '\'adray PV_Atn',
+        '\'adr PV_ttAw',
+        'driy IV_0hAnn_yu'
+      ],
+      'lines' => [
+        ';; >adoraY_1',
+        '>drY    >adoraY PV_0    inform',
+        'AdrY    >adoraY PV_0    inform',
+        '>drA    >adorA  PV_h    inform',
+        'AdrA    >adorA  PV_h    inform',
+        '>dry    >adoray PV_Atn  inform',
+        'Adry    >adoray PV_Atn  inform',
+        '>dr     >ador   PV_ttAw inform',
+        'Adr     >ador   PV_ttAw inform',
+        'dry     doriy   IV_0hAnn_yu     inform',
+        'dr      dor     IV_0hwnyn_yu    inform',
+        'drY     doraY   IV_0_Pass_yu    be informed',
+        'dry     doray   IV_Ann_Pass_yu  be informed'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCY',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"inform"'
+        ],
+        [
+          '"be informed"'
+        ]
+      ],
+      'glosshash' => {
+        '"be informed"' => 1,
+        '"inform"' => 1
+      },
+      'orig' => 'OadoraY',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'dirAy',
       'form' => 'dirAyaT',
-      'others' => [
-        'dirAy Nap'
-      ],
       'lines' => [
         ';; dirAyap_1',
         'drAy    dirAy   Nap     knowledge;knowing'
@@ -6750,6 +7132,31 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'd l h y' => [
+    {
+      'types' => {},
+      'entry' => 'dilhiy',
+      'form' => 'dilhiy',
+      'lines' => [
+        ';; dilohiy_1',
+        'dlhy    dilohiy Nprop   Delhi'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDiS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Delhi"'
+        ]
+      ],
+      'glosshash' => {
+        '"Delhi"' => 1
+      },
+      'orig' => 'dilohiy',
+      'prefix' => ''
+    }
+  ],
   'd s t r' => [
     {
       'types' => {
@@ -6862,6 +7269,233 @@ $lexicon = {
         '"approach gradually"' => 1
       },
       'orig' => 'tadan~aY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'adnA' => {
+          'Nhy' => 2
+        },
+        '\'adnay' => {
+          'NAn_Nayn' => 2
+        }
+      },
+      'entry' => '\'adnY',
+      'form' => '\'adnY',
+      'others' => [
+        '\'adnA Nhy',
+        '\'adnay NAn_Nayn'
+      ],
+      'lines' => [
+        ';; >adonaY_2',
+        '>dnY    >adonaY N0      lower/lowest;inferior',
+        'AdnY    >adonaY N0      lower/lowest;inferior',
+        '>dnA    >adonA  Nhy     lower/lowest;inferior',
+        'AdnA    >adonA  Nhy     lower/lowest;inferior',
+        '>dny    >adonay NAn_Nayn        lowest;most inferior',
+        'Adny    >adonay NAn_Nayn        lowest;most inferior'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'HaFCY',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"lower / lowest"'
+        ],
+        [
+          '"inferior"'
+        ],
+        [
+          '"lowest"'
+        ],
+        [
+          '"most inferior"'
+        ]
+      ],
+      'glosshash' => {
+        '"lowest"' => 1,
+        '"inferior"' => 1,
+        '"most inferior"' => 1,
+        '"lower / lowest"' => 1
+      },
+      'orig' => 'OadonaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'adnay' => {
+          'NAn_Nayn' => 2
+        },
+        'dunY' => {
+          'N0' => 1
+        },
+        '\'adnA' => {
+          'Nhy' => 2
+        },
+        'dunA' => {
+          'Nhy' => 1
+        },
+        '\'adAniy' => {
+          'N0_Nh' => 2
+        },
+        '\'adnawna' => {
+          'N' => 2
+        },
+        '\'adAn' => {
+          'NK' => 2
+        }
+      },
+      'entry' => '\'adnY',
+      'form' => '\'adnY',
+      'others' => [
+        '\'adnay NAn_Nayn',
+        'dunY N0',
+        '\'adnA Nhy',
+        'dunA Nhy',
+        '\'adAniy N0_Nh',
+        '\'adnawna N',
+        '\'adAn NK'
+      ],
+      'lines' => [
+        ';; >adonaY_3',
+        '>dnY    >adonaY N0      near;nearer;nearest',
+        'AdnY    >adonaY N0      near;nearer;nearest',
+        '>dnA    >adonA  Nhy     near;nearer;nearest',
+        'AdnA    >adonA  Nhy     near;nearer;nearest',
+        '>dny    >adonay NAn_Nayn        nearest',
+        'Adny    >adonay NAn_Nayn        nearest',
+        '>dAny   >adAniy N0_Nh   nearest;inferior;lowest',
+        'AdAny   >adAniy N0_Nh   nearest;inferior;lowest',
+        '>dAn    >adAn   NK      nearest;inferior;lowest',
+        'AdAn    >adAn   NK      nearest;inferior;lowest',
+        '>dnwn   >adonawona      N       nearest;lowest',
+        'Adnwn   >adonawona      N       nearest;lowest',
+        'dnY     dunaY   N0      near/nearer/nearest;inferior;lower/lowest',
+        'dnA     dunA    Nhy     near/nearer/nearest;inferior;lower/lowest'
+      ],
+      'index' => '3',
+      'entity' => 'noun',
+      'morphs' => 'HaFCY',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"near"'
+        ],
+        [
+          '"nearer"'
+        ],
+        [
+          '"nearest"'
+        ],
+        [
+          '"inferior"'
+        ],
+        [
+          '"lowest"'
+        ],
+        [
+          '"near / nearer / nearest"'
+        ],
+        [
+          '"lower / lowest"'
+        ]
+      ],
+      'glosshash' => {
+        '"lowest"' => 1,
+        '"inferior"' => 1,
+        '"near"' => 1,
+        '"nearest"' => 1,
+        '"lower / lowest"' => 1,
+        '"near / nearer / nearest"' => 1,
+        '"nearer"' => 1
+      },
+      'orig' => 'OadonaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'adnA' => {
+          'Nhy' => 2
+        }
+      },
+      'entry' => '\'adnY',
+      'form' => '\'adnY',
+      'others' => [
+        '\'adnA Nhy'
+      ],
+      'lines' => [
+        ';; >adonaY_4',
+        '>dnY    >adonaY N0      minimum',
+        'AdnY    >adonaY N0      minimum',
+        '>dnA    >adonA  Nhy     minimum',
+        'AdnA    >adonA  Nhy     minimum'
+      ],
+      'index' => '4',
+      'entity' => 'noun',
+      'morphs' => 'HaFCY',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"minimum"'
+        ]
+      ],
+      'glosshash' => {
+        '"minimum"' => 1
+      },
+      'orig' => 'OadonaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'dunyay' => {
+          'NAt' => 1
+        },
+        'dunyaw' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'dunyA',
+      'form' => 'dunyA',
+      'others' => [
+        'dunyay NAt',
+        'dunyaw NAt'
+      ],
+      'lines' => [
+        ';; dunoyA_1',
+        'dnyA    dunoyA  N0_Nh   world;near;low;inferior',
+        'dnyy    dunoyay NAt     worlds',
+        'dnyw    dunoyaw NAt     worlds'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCyA',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"world"'
+        ],
+        [
+          '"near"'
+        ],
+        [
+          '"low"'
+        ],
+        [
+          '"inferior"'
+        ],
+        [
+          '"worlds"'
+        ]
+      ],
+      'glosshash' => {
+        '"inferior"' => 1,
+        '"near"' => 1,
+        '"world"' => 1,
+        '"worlds"' => 1,
+        '"low"' => 1
+      },
+      'orig' => 'dunoyA',
       'prefix' => ''
     },
     {
@@ -7069,16 +7703,9 @@ $lexicon = {
   ],
   'd w l r' => [
     {
-      'types' => {
-        'dawlar' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'dawlar',
       'form' => 'dawlaraT',
-      'others' => [
-        'dawlar Nap'
-      ],
       'lines' => [
         ';; dawolarap_1',
         'dwlr    dawolar Nap     dollarization'
@@ -7378,6 +8005,63 @@ $lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        'd_hil' => {
+          'IV_yu' => 1
+        },
+        'd_hal' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => '\'ad_hal',
+      'form' => '\'ad_hal',
+      'others' => [
+        'd_hil IV_yu',
+        'd_hal IV_Pass_yu'
+      ],
+      'lines' => [
+        ';; >adoxal_1',
+        '>dxl    >adoxal PV      enter;include;insert',
+        'Adxl    >adoxal PV      enter;include;insert',
+        'dxl     doxil   IV_yu   enter;include;insert',
+        'dxl     doxal   IV_Pass_yu      be entered;be included;be inserted'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"enter"'
+        ],
+        [
+          '"include"'
+        ],
+        [
+          '"insert"'
+        ],
+        [
+          '"be entered"'
+        ],
+        [
+          '"be included"'
+        ],
+        [
+          '"be inserted"'
+        ]
+      ],
+      'glosshash' => {
+        '"be inserted"' => 1,
+        '"enter"' => 1,
+        '"include"' => 1,
+        '"be entered"' => 1,
+        '"insert"' => 1,
+        '"be included"' => 1
+      },
+      'orig' => 'Oadoxal',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'tada_h_hal',
       'form' => 'tada_h_hal',
@@ -7569,16 +8253,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mudA_hal' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mudA_hal',
       'form' => 'mudA_halaT',
-      'others' => [
-        'mudA_hal NapAt'
-      ],
       'lines' => [
         ';; mudAxalap_1',
         'mdAxl   mudAxal NapAt   interference;participation'
@@ -7600,6 +8277,38 @@ $lexicon = {
         '"participation"' => 1
       },
       'orig' => 'mudAxalap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'id_hAl',
+      'form' => '\'id_hAl',
+      'lines' => [
+        ';; <idoxAl_1',
+        '<dxAl   <idoxAl NduAt   insertion;entering;inclusion',
+        'AdxAl   <idoxAl NduAt   insertion;entering;inclusion'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"insertion"'
+        ],
+        [
+          '"entering"'
+        ],
+        [
+          '"inclusion"'
+        ]
+      ],
+      'glosshash' => {
+        '"entering"' => 1,
+        '"insertion"' => 1,
+        '"inclusion"' => 1
+      },
+      'orig' => 'IidoxAl',
       'prefix' => ''
     },
     {
@@ -7884,16 +8593,9 @@ $lexicon = {
   ],
   'd w .h' => [
     {
-      'types' => {
-        'daw.h' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'daw.h',
       'form' => 'daw.haT',
-      'others' => [
-        'daw.h Nap'
-      ],
       'lines' => [
         ';; dawoHap_1',
         'dwH     dawoH   Nap     Doha'
@@ -7944,6 +8646,50 @@ $lexicon = {
         '"as long as"' => 1
       },
       'orig' => 'mAdAm',
+      'prefix' => ''
+    }
+  ],
+  'd l \'' => [
+    {
+      'types' => {},
+      'entry' => '\'idlA\'',
+      'form' => '\'idlA\'',
+      'lines' => [
+        ';; <idolA\'_1',
+        '<dlA\'   <idolA\' N0_Nh   delivery;presentation;granting',
+        'AdlA\'   <idolA\' N0_Nh   delivery;presentation;granting',
+        '<dlA&   <idolA& Nh      delivery;presentation;granting',
+        'AdlA&   <idolA& Nh      delivery;presentation;granting',
+        '<dlA}   <idolA} Nhy     delivery;presentation;granting',
+        'AdlA}   <idolA} Nhy     delivery;presentation;granting',
+        '<dlA\'   <idolA\' NAn_Nayn        delivery;presentation;granting',
+        'AdlA\'   <idolA\' NAn_Nayn        delivery;presentation;granting',
+        '<dlA}   <idolA} Nayn    delivery;presentation;granting',
+        'AdlA}   <idolA} Nayn    delivery;presentation;granting',
+        '<dlA\'   <idolA\' NAt     delivery;presentation;granting',
+        'AdlA\'   <idolA\' NAt     delivery;presentation;granting'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"delivery"'
+        ],
+        [
+          '"presentation"'
+        ],
+        [
+          '"granting"'
+        ]
+      ],
+      'glosshash' => {
+        '"delivery"' => 1,
+        '"granting"' => 1,
+        '"presentation"' => 1
+      },
+      'orig' => 'IidolA\'',
       'prefix' => ''
     }
   ],
@@ -8174,62 +8920,6 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'd n y' => [
-    {
-      'types' => {
-        'mutadann' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
-        }
-      },
-      'entry' => 'mutadanniy',
-      'form' => 'mutadanniy',
-      'others' => [
-        'mutadann Nuwn_Niyn NK'
-      ],
-      'lines' => [
-        ';; mutadan~iy_1',
-        'mtdny   mutadan~iy      N0F_Nh  approaching;debased ??',
-        'mtdn    mutadan~        NK      approaching;debased ??',
-        'mtdny   mutadan~iy      NAn_Nayn        approaching;debased ??',
-        'mtdn    mutadan~        Nuwn_Niyn       approaching;debased ??',
-        'mtdny   mutadan~iy      NapAt   approaching;debased ??'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MutaFaCCiN',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"approaching"'
-        ],
-        [
-          '"debased ? ?"'
-        ]
-      ],
-      'glosshash' => {
-        '"debased ? ?"' => 1,
-        '"approaching"' => 1
-      },
-      'orig' => 'mutadan~iy',
-      'prefix' => ''
-    },
-    {
-      'types' => $lexicon->{'d n y'}[0]{'types'},
-      'entry' => 'mutadanniy',
-      'form' => 'mutadanniy',
-      'others' => $lexicon->{'d n y'}[0]{'others'},
-      'lines' => $lexicon->{'d n y'}[0]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MutaFaCCiL',
-      'suffix' => '',
-      'glosses' => $lexicon->{'d n y'}[0]{'glosses'},
-      'glosshash' => $lexicon->{'d n y'}[0]{'glosshash'},
-      'orig' => 'mutadan~iy',
-      'prefix' => ''
-    }
-  ],
   'd w n' => [
     {
       'types' => {
@@ -8417,6 +9107,62 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'd n y' => [
+    {
+      'types' => {
+        'mutadann' => {
+          'Nuwn_Niyn' => 1,
+          'NK' => 1
+        }
+      },
+      'entry' => 'mutadanniy',
+      'form' => 'mutadanniy',
+      'others' => [
+        'mutadann Nuwn_Niyn NK'
+      ],
+      'lines' => [
+        ';; mutadan~iy_1',
+        'mtdny   mutadan~iy      N0F_Nh  approaching;debased ??',
+        'mtdn    mutadan~        NK      approaching;debased ??',
+        'mtdny   mutadan~iy      NAn_Nayn        approaching;debased ??',
+        'mtdn    mutadan~        Nuwn_Niyn       approaching;debased ??',
+        'mtdny   mutadan~iy      NapAt   approaching;debased ??'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MutaFaCCiN',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"approaching"'
+        ],
+        [
+          '"debased ? ?"'
+        ]
+      ],
+      'glosshash' => {
+        '"debased ? ?"' => 1,
+        '"approaching"' => 1
+      },
+      'orig' => 'mutadan~iy',
+      'prefix' => ''
+    },
+    {
+      'types' => $lexicon->{'d n y'}[0]{'types'},
+      'entry' => 'mutadanniy',
+      'form' => 'mutadanniy',
+      'others' => $lexicon->{'d n y'}[0]{'others'},
+      'lines' => $lexicon->{'d n y'}[0]{'lines'},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MutaFaCCiL',
+      'suffix' => '',
+      'glosses' => $lexicon->{'d n y'}[0]{'glosses'},
+      'glosshash' => $lexicon->{'d n y'}[0]{'glosshash'},
+      'orig' => 'mutadan~iy',
+      'prefix' => ''
+    }
+  ],
   'duwmA' => [
     {
       'types' => {},
@@ -8516,15 +9262,14 @@ $lexicon = {
           'Napdu' => 1
         },
         'diyktAtuwriyy' => {
-          'NAt' => 1,
-          'Napdu' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'diyktAtuwr',
       'form' => 'diyktAtuwriyyaT',
       'others' => [
         'diktAtuwriyy NAt Napdu',
-        'diyktAtuwriyy NAt Napdu'
+        'diyktAtuwriyy NAt'
       ],
       'lines' => [
         ';; diykotAtuwriy~ap_1',
@@ -9057,77 +9802,68 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => $lexicon->{'d w r'}[18]{'types'},
+      'types' => $lexicon->{'d w r'}[21]{'types'},
       'entry' => 'mudiyr',
       'form' => 'mudiyr',
-      'others' => $lexicon->{'d w r'}[18]{'others'},
-      'lines' => $lexicon->{'d w r'}[18]{'lines'},
+      'others' => $lexicon->{'d w r'}[21]{'others'},
+      'lines' => $lexicon->{'d w r'}[21]{'lines'},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFiCL',
       'suffix' => '',
-      'glosses' => $lexicon->{'d w r'}[18]{'glosses'},
-      'glosshash' => $lexicon->{'d w r'}[18]{'glosshash'},
+      'glosses' => $lexicon->{'d w r'}[21]{'glosses'},
+      'glosshash' => $lexicon->{'d w r'}[21]{'glosshash'},
       'orig' => 'mudiyr',
       'prefix' => ''
     },
     {
-      'types' => $lexicon->{'d w r'}[19]{'types'},
+      'types' => $lexicon->{'d w r'}[22]{'types'},
       'entry' => 'mudiyr',
       'form' => 'mudiyriyyaT',
-      'others' => $lexicon->{'d w r'}[19]{'others'},
-      'lines' => $lexicon->{'d w r'}[19]{'lines'},
+      'lines' => $lexicon->{'d w r'}[22]{'lines'},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFiCL',
       'suffix' => ' |< Iy |< aT',
-      'glosses' => $lexicon->{'d w r'}[19]{'glosses'},
-      'glosshash' => $lexicon->{'d w r'}[19]{'glosshash'},
+      'glosses' => $lexicon->{'d w r'}[22]{'glosses'},
+      'glosshash' => $lexicon->{'d w r'}[22]{'glosshash'},
       'orig' => 'mudiyriy~ap',
       'prefix' => ''
     },
     {
-      'types' => $lexicon->{'d w r'}[20]{'types'},
+      'types' => $lexicon->{'d w r'}[23]{'types'},
       'entry' => 'mudiyr',
       'form' => 'mudiyriyyaT',
-      'others' => $lexicon->{'d w r'}[20]{'others'},
-      'lines' => $lexicon->{'d w r'}[20]{'lines'},
+      'lines' => $lexicon->{'d w r'}[23]{'lines'},
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'MuFiCL',
       'suffix' => ' |< Iy |< aT',
-      'glosses' => $lexicon->{'d w r'}[20]{'glosses'},
-      'glosshash' => $lexicon->{'d w r'}[20]{'glosshash'},
+      'glosses' => $lexicon->{'d w r'}[23]{'glosses'},
+      'glosshash' => $lexicon->{'d w r'}[23]{'glosshash'},
       'orig' => 'mudiyriy~ap',
       'prefix' => ''
     },
     {
-      'types' => $lexicon->{'d w r'}[21]{'types'},
+      'types' => $lexicon->{'d w r'}[24]{'types'},
       'entry' => 'mustadiyr',
       'form' => 'mustadiyr',
-      'lines' => $lexicon->{'d w r'}[21]{'lines'},
+      'lines' => $lexicon->{'d w r'}[24]{'lines'},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MustaFiCL',
       'suffix' => '',
-      'glosses' => $lexicon->{'d w r'}[21]{'glosses'},
-      'glosshash' => $lexicon->{'d w r'}[21]{'glosshash'},
+      'glosses' => $lexicon->{'d w r'}[24]{'glosses'},
+      'glosshash' => $lexicon->{'d w r'}[24]{'glosshash'},
       'orig' => 'musotadiyr',
       'prefix' => ''
     }
   ],
   'd ` y' => [
     {
-      'types' => {
-        'di`Ay' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'di`Ay',
       'form' => 'di`AyaT',
-      'others' => [
-        'di`Ay NapAt'
-      ],
       'lines' => [
         ';; diEAyap_1',
         'dEAy    diEAy   NapAt   propaganda;advertising'
@@ -9185,7 +9921,6 @@ $lexicon = {
       'types' => $lexicon->{'d ` w'}[13]{'types'},
       'entry' => 'dA`iy',
       'form' => 'dA`iyaT',
-      'others' => $lexicon->{'d ` w'}[13]{'others'},
       'lines' => $lexicon->{'d ` w'}[13]{'lines'},
       'index' => '1',
       'entity' => 'noun',
@@ -9536,16 +10271,9 @@ $lexicon = {
   ],
   'daymuwm' => [
     {
-      'types' => {
-        'daymuwm' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'daymuwm',
       'form' => 'daymuwmaT',
-      'others' => [
-        'daymuwm Nap'
-      ],
       'lines' => [
         ';; dayomuwmap_1',
         'dymwm   dayomuwm        Nap     duration'
@@ -9993,6 +10721,75 @@ $lexicon = {
   'd m y' => [
     {
       'types' => {
+        'dm' => {
+          'IV_0hwnyn_yu' => 1
+        },
+        'dmiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '\'admay' => {
+          'PV_Atn' => 2
+        },
+        'dmY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '\'adm' => {
+          'PV_ttAw' => 2
+        },
+        'dmay' => {
+          'IV_Ann_Pass_yu' => 1
+        },
+        '\'admA' => {
+          'PV_h' => 2
+        }
+      },
+      'entry' => '\'admY',
+      'form' => '\'admY',
+      'others' => [
+        'dm IV_0hwnyn_yu',
+        'dmiy IV_0hAnn_yu',
+        '\'admay PV_Atn',
+        'dmY IV_0_Pass_yu',
+        '\'adm PV_ttAw',
+        'dmay IV_Ann_Pass_yu',
+        '\'admA PV_h'
+      ],
+      'lines' => [
+        ';; >adomaY_1',
+        '>dmY    >adomaY PV_0    make bleed',
+        'AdmY    >adomaY PV_0    make bleed',
+        '>dmA    >adomA  PV_h    make bleed',
+        'AdmA    >adomA  PV_h    make bleed',
+        '>dmy    >adomay PV_Atn  make bleed',
+        'Admy    >adomay PV_Atn  make bleed',
+        '>dm     >adom   PV_ttAw make bleed',
+        'Adm     >adom   PV_ttAw make bleed',
+        'dmy     domiy   IV_0hAnn_yu     make bleed',
+        'dm      dom     IV_0hwnyn_yu    make bleed',
+        'dmY     domaY   IV_0_Pass_yu    be bled',
+        'dmy     domay   IV_Ann_Pass_yu  be bled'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCY',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"make bleed"'
+        ],
+        [
+          '"be bled"'
+        ]
+      ],
+      'glosshash' => {
+        '"make bleed"' => 1,
+        '"be bled"' => 1
+      },
+      'orig' => 'OadomaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'dAm' => {
           'Nuwn_Niyn' => 1,
           'NK' => 1
@@ -10307,14 +11104,13 @@ $lexicon = {
     {
       'types' => {
         'dirAs' => {
-          'NAt' => 1,
-          'Napdu' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'dirAs',
       'form' => 'dirAsaT',
       'others' => [
-        'dirAs NAt Napdu'
+        'dirAs NAt'
       ],
       'lines' => [
         ';; dirAsap_1',
@@ -10406,16 +11202,12 @@ $lexicon = {
       'types' => {
         'madAris' => {
           'Ndip' => 1
-        },
-        'madras' => {
-          'Napdu' => 1
         }
       },
       'entry' => 'madras',
       'form' => 'madrasaT',
       'others' => [
-        'madAris Ndip',
-        'madras Napdu'
+        'madAris Ndip'
       ],
       'lines' => [
         ';; madorasap_1',
@@ -10681,6 +11473,91 @@ $lexicon = {
       },
       'orig' => 'dal~aY',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'dlY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '\'adlay' => {
+          'PV_Atn' => 2
+        },
+        '\'adl' => {
+          'PV_ttAw' => 2
+        },
+        'dliy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '\'adlA' => {
+          'PV_h' => 2
+        },
+        'dl' => {
+          'IV_0hwnyn_yu' => 1
+        },
+        'dlay' => {
+          'IV_Ann_Pass_yu' => 1
+        }
+      },
+      'entry' => '\'adlY',
+      'form' => '\'adlY',
+      'others' => [
+        'dlY IV_0_Pass_yu',
+        '\'adlay PV_Atn',
+        '\'adl PV_ttAw',
+        'dliy IV_0hAnn_yu',
+        '\'adlA PV_h',
+        'dl IV_0hwnyn_yu',
+        'dlay IV_Ann_Pass_yu'
+      ],
+      'lines' => [
+        ';; >adolaY_1',
+        '>dlY    >adolaY PV_0    provide;present;grant',
+        'AdlY    >adolaY PV_0    provide;present;grant',
+        '>dlA    >adolA  PV_h    provide;present;grant',
+        'AdlA    >adolA  PV_h    provide;present;grant',
+        '>dly    >adolay PV_Atn  provide;present;grant',
+        'Adly    >adolay PV_Atn  provide;present;grant',
+        '>dl     >adol   PV_ttAw provide;present;grant',
+        'Adl     >adol   PV_ttAw provide;present;grant',
+        'dly     doliy   IV_0hAnn_yu     provide;present;grant',
+        'dl      dol     IV_0hwnyn_yu    provide;present;grant',
+        'dlY     dolaY   IV_0_Pass_yu    be provided;be presented;be granted',
+        'dly     dolay   IV_Ann_Pass_yu  be provided;be presented;be granted'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCY',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"provide"'
+        ],
+        [
+          '"present"'
+        ],
+        [
+          '"grant"'
+        ],
+        [
+          '"be provided"'
+        ],
+        [
+          '"be presented"'
+        ],
+        [
+          '"be granted"'
+        ]
+      ],
+      'glosshash' => {
+        '"be presented"' => 1,
+        '"grant"' => 1,
+        '"present"' => 1,
+        '"be granted"' => 1,
+        '"be provided"' => 1,
+        '"provide"' => 1
+      },
+      'orig' => 'OadolaY',
+      'prefix' => ''
     }
   ],
   'dAfiydiy' => [
@@ -10710,16 +11587,9 @@ $lexicon = {
   ],
   'd r d ^s' => [
     {
-      'types' => {
-        'darda^s' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'darda^s',
       'form' => 'darda^saT',
-      'others' => [
-        'darda^s NapAt'
-      ],
       'lines' => [
         ';; daroda$ap_1',
         'drd$    daroda$ NapAt   chat;conversation'
@@ -11109,14 +11979,13 @@ $lexicon = {
     {
       'types' => {
         'dabbAb' => {
-          'NAt' => 1,
-          'Napdu' => 1
+          'NAt' => 1
         }
       },
       'entry' => 'dabbAb',
       'form' => 'dabbAbaT',
       'others' => [
-        'dabbAb NAt Napdu'
+        'dabbAb NAt'
       ],
       'lines' => [
         ';; dab~Abap_1',
@@ -11349,74 +12218,74 @@ $lexicon = {
   ],
   'd \' r' => [
     {
-      'types' => $lexicon->{'d w r'}[13]{'types'},
-      'entry' => 'dA\'ir',
-      'form' => 'dA\'ir',
-      'lines' => $lexicon->{'d w r'}[13]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => $lexicon->{'d w r'}[13]{'glosses'},
-      'glosshash' => $lexicon->{'d w r'}[13]{'glosshash'},
-      'orig' => 'dA}ir',
-      'prefix' => ''
-    },
-    {
-      'types' => $lexicon->{'d w r'}[14]{'types'},
-      'entry' => 'dA\'ir',
-      'form' => 'dA\'ir',
-      'lines' => $lexicon->{'d w r'}[14]{'lines'},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => $lexicon->{'d w r'}[14]{'glosses'},
-      'glosshash' => $lexicon->{'d w r'}[14]{'glosshash'},
-      'orig' => 'dA}ir',
-      'prefix' => ''
-    },
-    {
-      'types' => $lexicon->{'d w r'}[15]{'types'},
-      'entry' => 'dA\'ir',
-      'form' => 'dA\'iraT',
-      'others' => $lexicon->{'d w r'}[15]{'others'},
-      'lines' => $lexicon->{'d w r'}[15]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL',
-      'suffix' => ' |< aT',
-      'glosses' => $lexicon->{'d w r'}[15]{'glosses'},
-      'glosshash' => $lexicon->{'d w r'}[15]{'glosshash'},
-      'orig' => 'dA}irap',
-      'prefix' => ''
-    },
-    {
       'types' => $lexicon->{'d w r'}[16]{'types'},
       'entry' => 'dA\'ir',
-      'form' => 'dA\'iraT',
-      'others' => $lexicon->{'d w r'}[16]{'others'},
+      'form' => 'dA\'ir',
       'lines' => $lexicon->{'d w r'}[16]{'lines'},
-      'index' => '2',
+      'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
-      'suffix' => ' |< aT',
+      'suffix' => '',
       'glosses' => $lexicon->{'d w r'}[16]{'glosses'},
       'glosshash' => $lexicon->{'d w r'}[16]{'glosshash'},
-      'orig' => 'dA}irap',
+      'orig' => 'dA}ir',
       'prefix' => ''
     },
     {
       'types' => $lexicon->{'d w r'}[17]{'types'},
       'entry' => 'dA\'ir',
-      'form' => 'dA\'iriyy',
+      'form' => 'dA\'ir',
       'lines' => $lexicon->{'d w r'}[17]{'lines'},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => $lexicon->{'d w r'}[17]{'glosses'},
+      'glosshash' => $lexicon->{'d w r'}[17]{'glosshash'},
+      'orig' => 'dA}ir',
+      'prefix' => ''
+    },
+    {
+      'types' => $lexicon->{'d w r'}[18]{'types'},
+      'entry' => 'dA\'ir',
+      'form' => 'dA\'iraT',
+      'others' => $lexicon->{'d w r'}[18]{'others'},
+      'lines' => $lexicon->{'d w r'}[18]{'lines'},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => ' |< aT',
+      'glosses' => $lexicon->{'d w r'}[18]{'glosses'},
+      'glosshash' => $lexicon->{'d w r'}[18]{'glosshash'},
+      'orig' => 'dA}irap',
+      'prefix' => ''
+    },
+    {
+      'types' => $lexicon->{'d w r'}[19]{'types'},
+      'entry' => 'dA\'ir',
+      'form' => 'dA\'iraT',
+      'others' => $lexicon->{'d w r'}[19]{'others'},
+      'lines' => $lexicon->{'d w r'}[19]{'lines'},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => ' |< aT',
+      'glosses' => $lexicon->{'d w r'}[19]{'glosses'},
+      'glosshash' => $lexicon->{'d w r'}[19]{'glosshash'},
+      'orig' => 'dA}irap',
+      'prefix' => ''
+    },
+    {
+      'types' => $lexicon->{'d w r'}[20]{'types'},
+      'entry' => 'dA\'ir',
+      'form' => 'dA\'iriyy',
+      'lines' => $lexicon->{'d w r'}[20]{'lines'},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
       'suffix' => ' |< Iy',
-      'glosses' => $lexicon->{'d w r'}[17]{'glosses'},
-      'glosshash' => $lexicon->{'d w r'}[17]{'glosshash'},
+      'glosses' => $lexicon->{'d w r'}[20]{'glosses'},
+      'glosshash' => $lexicon->{'d w r'}[20]{'glosshash'},
       'orig' => 'dA}iriy~',
       'prefix' => ''
     }
@@ -11436,14 +12305,14 @@ $lexicon = {
       'suffix' => '',
       'glosses' => [
         [
-          '"d_ecor"'
+          '"décor"'
         ],
         [
           '"interior decoration"'
         ]
       ],
       'glosshash' => {
-        '"d_ecor"' => 1,
+        "\"d\x{e9}cor\"" => 1,
         '"interior decoration"' => 1
       },
       'orig' => 'diykuwr',
@@ -11653,16 +12522,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'dalAl' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'dalAl',
       'form' => 'dalAlaT',
-      'others' => [
-        'dalAl NapAt'
-      ],
       'lines' => [
         ';; dalAlap_1',
         'dlAl    dalAl   NapAt   meaning;indication'
@@ -11731,6 +12593,71 @@ $lexicon = {
   ],
   'd m ^g' => [
     {
+      'types' => {
+        'dmi^g' => {
+          'IV_yu' => 1
+        },
+        'dma^g' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => '\'adma^g',
+      'form' => '\'adma^g',
+      'others' => [
+        'dmi^g IV_yu',
+        'dma^g IV_Pass_yu'
+      ],
+      'lines' => [
+        ';; >adomaj_1',
+        '>dmj    >adomaj PV      insert;incorporate;interpolate;integrate',
+        'Admj    >adomaj PV      insert;incorporate;interpolate;integrate',
+        'dmj     domij   IV_yu   insert;incorporate;interpolate;integrate',
+        'dmj     domaj   IV_Pass_yu      be inserted;be incorporated;be interpolated;be integrated'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"insert"'
+        ],
+        [
+          '"incorporate"'
+        ],
+        [
+          '"interpolate"'
+        ],
+        [
+          '"integrate"'
+        ],
+        [
+          '"be inserted"'
+        ],
+        [
+          '"be incorporated"'
+        ],
+        [
+          '"be interpolated"'
+        ],
+        [
+          '"be integrated"'
+        ]
+      ],
+      'glosshash' => {
+        '"interpolate"' => 1,
+        '"incorporate"' => 1,
+        '"be integrated"' => 1,
+        '"integrate"' => 1,
+        '"be incorporated"' => 1,
+        '"be inserted"' => 1,
+        '"insert"' => 1,
+        '"be interpolated"' => 1
+      },
+      'orig' => 'Oadomaj',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'dam^g',
       'form' => 'dam^g',
@@ -11763,6 +12690,42 @@ $lexicon = {
     },
     {
       'types' => {},
+      'entry' => '\'idmA^g',
+      'form' => '\'idmA^g',
+      'lines' => [
+        ';; <idomAj_1',
+        '<dmAj   <idomAj NduAt   insertion;incorporation;inclusion;integration',
+        'AdmAj   <idomAj NduAt   insertion;incorporation;inclusion;integration'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"insertion"'
+        ],
+        [
+          '"incorporation"'
+        ],
+        [
+          '"inclusion"'
+        ],
+        [
+          '"integration"'
+        ]
+      ],
+      'glosshash' => {
+        '"insertion"' => 1,
+        '"integration"' => 1,
+        '"inclusion"' => 1,
+        '"incorporation"' => 1
+      },
+      'orig' => 'IidomAj',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'mudma^g',
       'form' => 'mudma^g',
       'lines' => [
@@ -11791,16 +12754,9 @@ $lexicon = {
   ],
   'd b k' => [
     {
-      'types' => {
-        'dabk' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'dabk',
       'form' => 'dabkaT',
-      'others' => [
-        'dabk Nap'
-      ],
       'lines' => [
         ';; dabokap_1',
         'dbk     dabok   Nap     dabka (dance)'
@@ -11843,6 +12799,36 @@ $lexicon = {
         '"Dimitri"' => 1
       },
       'orig' => 'diymiytriy',
+      'prefix' => ''
+    }
+  ],
+  'd m n' => [
+    {
+      'types' => {},
+      'entry' => '\'idmAn',
+      'form' => '\'idmAn',
+      'lines' => [
+        ';; <idomAn_1',
+        '<dmAn   <idomAn NduAt   addiction;mania',
+        'AdmAn   <idomAn NduAt   addiction;mania'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"addiction"'
+        ],
+        [
+          '"mania"'
+        ]
+      ],
+      'glosshash' => {
+        '"mania"' => 1,
+        '"addiction"' => 1
+      },
+      'orig' => 'IidomAn',
       'prefix' => ''
     }
   ],
@@ -12003,6 +12989,22 @@ $lexicon = {
         '"heavily armed"' => 1
       },
       'orig' => 'mudaj~aj',
+      'prefix' => ''
+    }
+  ],
+  'd l ' => [
+    {
+      'types' => $lexicon->{'d l \''}[0]{'types'},
+      'entry' => '\'idlA\'',
+      'form' => '\'idlA\'',
+      'lines' => $lexicon->{'d l \''}[0]{'lines'},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCA\'',
+      'suffix' => '',
+      'glosses' => $lexicon->{'d l \''}[0]{'glosses'},
+      'glosshash' => $lexicon->{'d l \''}[0]{'glosshash'},
+      'orig' => 'IidolA\'',
       'prefix' => ''
     }
   ],
@@ -12326,17 +13328,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mudarra`' => {
-          'NapAt' => 1,
-          'Napdu' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mudarra`',
       'form' => 'mudarra`aT',
-      'others' => [
-        'mudarra` NapAt Napdu'
-      ],
       'lines' => [
         ';; mudar~aEap_1',
         'mdrE    mudar~aE        Napdu   armored vehicle',
@@ -12389,17 +13383,42 @@ $lexicon = {
   ],
   'd \' n' => [
     {
-      'types' => $lexicon->{'d y n'}[3]{'types'},
+      'types' => $lexicon->{'d y n'}[5]{'types'},
       'entry' => 'dA\'in',
       'form' => 'dA\'in',
-      'lines' => $lexicon->{'d y n'}[3]{'lines'},
+      'lines' => $lexicon->{'d y n'}[5]{'lines'},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
       'suffix' => '',
-      'glosses' => $lexicon->{'d y n'}[3]{'glosses'},
-      'glosshash' => $lexicon->{'d y n'}[3]{'glosshash'},
+      'glosses' => $lexicon->{'d y n'}[5]{'glosses'},
+      'glosshash' => $lexicon->{'d y n'}[5]{'glosshash'},
       'orig' => 'dA}in',
+      'prefix' => ''
+    }
+  ],
+  'd y ^s y' => [
+    {
+      'types' => {},
+      'entry' => 'diy^siy',
+      'form' => 'diy^siy',
+      'lines' => [
+        ';; diy$iy_1',
+        'dy$y    diy$iy  Nprop   Dechy'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDiS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Dechy"'
+        ]
+      ],
+      'glosshash' => {
+        '"Dechy"' => 1
+      },
+      'orig' => 'diy$iy',
       'prefix' => ''
     }
   ]

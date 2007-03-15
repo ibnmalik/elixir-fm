@@ -132,6 +132,47 @@ $lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        'tba`' => {
+          'IV_Pass_yu' => 1
+        },
+        'tbi`' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'atba`',
+      'form' => '\'atba`',
+      'others' => [
+        'tba` IV_Pass_yu',
+        'tbi` IV_yu'
+      ],
+      'lines' => [
+        ';; >atobaE_1',
+        '>tbE    >atobaE PV      follow',
+        'AtbE    >atobaE PV      follow',
+        'tbE     tobiE   IV_yu   follow',
+        'tbE     tobaE   IV_Pass_yu      be followed'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"follow"'
+        ],
+        [
+          '"be followed"'
+        ]
+      ],
+      'glosshash' => {
+        '"be followed"' => 1,
+        '"follow"' => 1
+      },
+      'orig' => 'OatobaE',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'taba`',
       'form' => 'taba`',
@@ -159,16 +200,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'tabi`' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'tabi`',
       'form' => 'tabi`aT',
-      'others' => [
-        'tabi` NapAt'
-      ],
       'lines' => [
         ';; tabiEap_1',
         'tbE     tabiE   NapAt   consequence;responsibility'
@@ -227,16 +261,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mutAba`' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mutAba`',
       'form' => 'mutAba`aT',
-      'others' => [
-        'mutAba` NapAt'
-      ],
       'lines' => [
         ';; mutAbaEap_1',
         'mtAbE   mutAbaE NapAt   pursuit;continuation'
@@ -506,16 +533,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ti^gAr' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ti^gAr',
       'form' => 'ti^gAraT',
-      'others' => [
-        'ti^gAr Nap'
-      ],
       'lines' => [
         ';; tijArap_1',
         'tjAr    tijAr   Nap     commerce;business'
@@ -790,16 +810,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'tall' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'tall',
       'form' => 'tallaT',
-      'others' => [
-        'tall NapAt'
-      ],
       'lines' => [
         ';; tal~ap_1',
         'tl      tal~    NapAt   heap'
@@ -846,6 +859,34 @@ $lexicon = {
         '"ruin"' => 1
       },
       'orig' => 'talaf',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'itlAf',
+      'form' => '\'itlAf',
+      'lines' => [
+        ';; <itolAf_1',
+        '<tlAf   <itolAf NduAt   destruction;harm',
+        'AtlAf   <itolAf NduAt   destruction;harm'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"destruction"'
+        ],
+        [
+          '"harm"'
+        ]
+      ],
+      'glosshash' => {
+        '"destruction"' => 1,
+        '"harm"' => 1
+      },
+      'orig' => 'IitolAf',
       'prefix' => ''
     },
     {
@@ -1751,16 +1792,9 @@ $lexicon = {
   ],
   't l f z' => [
     {
-      'types' => {
-        'talfaz' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'talfaz',
       'form' => 'talfazaT',
-      'others' => [
-        'talfaz Nap'
-      ],
       'lines' => [
         ';; talofazap_1',
         'tlfz    talofaz Nap     telecast;television'
@@ -1809,6 +1843,109 @@ $lexicon = {
     }
   ],
   't y .h' => [
+    {
+      'types' => {
+        'ta.h' => {
+          'IV_C_Pass_yu' => 1
+        },
+        'tiy.h' => {
+          'IV_V_yu' => 1
+        },
+        '\'ata.h' => {
+          'PV_C' => 2
+        },
+        'tA.h' => {
+          'IV_V_Pass_yu' => 1
+        },
+        'ti.h' => {
+          'IV_C_yu' => 1
+        },
+        '\'utiy.h' => {
+          'PV_V_Pass' => 2
+        }
+      },
+      'entry' => '\'atA.h',
+      'form' => '\'atA.h',
+      'others' => [
+        'ta.h IV_C_Pass_yu',
+        'tiy.h IV_V_yu',
+        '\'ata.h PV_C',
+        'tA.h IV_V_Pass_yu',
+        'ti.h IV_C_yu',
+        '\'utiy.h PV_V_Pass'
+      ],
+      'lines' => [
+        ';; >atAH_1',
+        '>tAH    >atAH   PV_V    grant;provide',
+        'AtAH    >atAH   PV_V    grant;provide',
+        '>tH     >ataH   PV_C    grant;provide',
+        'AtH     >ataH   PV_C    grant;provide',
+        '>tyH    >utiyH  PV_V_Pass       be provided;be granted;be available',
+        'AtyH    >utiyH  PV_V_Pass       be provided;be granted;be available',
+        'tyH     tiyH    IV_V_yu grant;provide',
+        'tH      tiH     IV_C_yu grant;provide',
+        'tAH     tAH     IV_V_Pass_yu    be provided;be granted;be available',
+        'tH      taH     IV_C_Pass_yu    be provided;be granted;be available'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"grant"'
+        ],
+        [
+          '"provide"'
+        ],
+        [
+          '"be provided"'
+        ],
+        [
+          '"be granted"'
+        ],
+        [
+          '"be available"'
+        ]
+      ],
+      'glosshash' => {
+        '"grant"' => 1,
+        '"be granted"' => 1,
+        '"be provided"' => 1,
+        '"provide"' => 1,
+        '"be available"' => 1
+      },
+      'orig' => 'OatAH',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'itA.h',
+      'form' => '\'itA.haT',
+      'lines' => [
+        ';; <itAHap_1',
+        '<tAH    <itAH   Nap     granting;providing',
+        'AtAH    <itAH   Nap     granting;providing'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFAL',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"granting"'
+        ],
+        [
+          '"providing"'
+        ]
+      ],
+      'glosshash' => {
+        '"granting"' => 1,
+        '"providing"' => 1
+      },
+      'orig' => 'IitAHap',
+      'prefix' => ''
+    },
     {
       'types' => {},
       'entry' => 'mutA.h',
@@ -1867,42 +2004,6 @@ $lexicon = {
         '"affluence"' => 1
       },
       'orig' => 'taraf',
-      'prefix' => ''
-    }
-  ],
-  'turrah' => [
-    {
-      'types' => {
-        'turrah' => {
-          'NapAt' => 1
-        }
-      },
-      'entry' => 'turrah',
-      'form' => 'turrahaT',
-      'others' => [
-        'turrah NapAt'
-      ],
-      'lines' => [
-        ';; tur~ahap_1',
-        'trh     tur~ah  NapAt   farce;hoax'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        [
-          '"farce"'
-        ],
-        [
-          '"hoax"'
-        ]
-      ],
-      'glosshash' => {
-        '"hoax"' => 1,
-        '"farce"' => 1
-      },
-      'orig' => 'tur~ahap',
       'prefix' => ''
     }
   ],
@@ -2031,9 +2132,6 @@ $lexicon = {
   't .h f' => [
     {
       'types' => {
-        'tu.hf' => {
-          'Napdu' => 1
-        },
         'tu.haf' => {
           'N' => 1
         }
@@ -2041,7 +2139,6 @@ $lexicon = {
       'entry' => 'tu.hf',
       'form' => 'tu.hfaT',
       'others' => [
-        'tu.hf Napdu',
         'tu.haf N'
       ],
       'lines' => [
@@ -2367,9 +2464,6 @@ $lexicon = {
   't r s n' => [
     {
       'types' => {
-        'tirsAn' => {
-          'NapAt' => 1
-        },
         'tarsAn' => {
           'NduAt' => 1
         }
@@ -2377,7 +2471,6 @@ $lexicon = {
       'entry' => 'tirsAn',
       'form' => 'tirsAnaT',
       'others' => [
-        'tirsAn NapAt',
         'tarsAn NduAt'
       ],
       'lines' => [
@@ -2653,31 +2746,6 @@ $lexicon = {
         '"barricade"' => 1
       },
       'orig' => 'matoras',
-      'prefix' => ''
-    }
-  ],
-  'tiyriy' => [
-    {
-      'types' => {},
-      'entry' => 'tiyriy',
-      'form' => 'tiyriy',
-      'lines' => [
-        ';; tiyriy_1',
-        'tyry    tiyriy  Nprop   Thierry'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"Thierry"'
-        ]
-      ],
-      'glosshash' => {
-        '"Thierry"' => 1
-      },
-      'orig' => 'tiyriy',
       'prefix' => ''
     }
   ],
@@ -2965,16 +3033,9 @@ $lexicon = {
   ],
   'tatimm' => [
     {
-      'types' => {
-        'tatimm' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'tatimm',
       'form' => 'tatimmaT',
-      'others' => [
-        'tatimm NapAt'
-      ],
       'lines' => [
         ';; tatim~ap_1',
         'ttm     tatim~  NapAt   completion;conclusion'
@@ -3534,16 +3595,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'tar^gam' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'tar^gam',
       'form' => 'tar^gamaT',
-      'others' => [
-        'tar^gam NapAt'
-      ],
       'lines' => [
         ';; tarojamap_1',
         'trjm    tarojam NapAt   translation;interpretation'
@@ -3569,9 +3623,6 @@ $lexicon = {
     },
     {
       'types' => {
-        'tar^gam' => {
-          'NapAt' => 1
-        },
         'tarA^gim' => {
           'Ndip' => 1
         }
@@ -3579,7 +3630,6 @@ $lexicon = {
       'entry' => 'tar^gam',
       'form' => 'tar^gamaT',
       'others' => [
-        'tar^gam NapAt',
         'tarA^gim Ndip'
       ],
       'lines' => [
@@ -3713,6 +3763,66 @@ $lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        'tamm' => {
+          'IV_V_Pass_yu' => 1
+        },
+        '\'atmam' => {
+          'PV_C' => 2
+        },
+        'tmim' => {
+          'IV_C_yu' => 1
+        },
+        'timm' => {
+          'IV_V_yu' => 1
+        }
+      },
+      'entry' => '\'atamm',
+      'form' => '\'atamm',
+      'others' => [
+        'tamm IV_V_Pass_yu',
+        '\'atmam PV_C',
+        'tmim IV_C_yu',
+        'timm IV_V_yu'
+      ],
+      'lines' => [
+        ';; >atam~_1',
+        '>tm     >atam~  PV_V    complete;conclude',
+        'Atm     >atam~  PV_V    complete;conclude',
+        '>tmm    >atomam PV_C    complete;conclude',
+        'Atmm    >atomam PV_C    complete;conclude',
+        'tm      tim~    IV_V_yu complete;conclude',
+        'tmm     tomim   IV_C_yu complete;conclude',
+        'tm      tam~    IV_V_Pass_yu    be completed;be concluded'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"complete"'
+        ],
+        [
+          '"conclude"'
+        ],
+        [
+          '"be completed"'
+        ],
+        [
+          '"be concluded"'
+        ]
+      ],
+      'glosshash' => {
+        '"be completed"' => 1,
+        '"complete"' => 1,
+        '"be concluded"' => 1,
+        '"conclude"' => 1
+      },
+      'orig' => 'Oatam~',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'tamAm',
       'form' => 'tamAm',
@@ -3787,6 +3897,62 @@ $lexicon = {
     },
     {
       'types' => {},
+      'entry' => '\'atamm',
+      'form' => '\'atamm',
+      'lines' => [
+        ';; >atam~_2',
+        '>tm     >atam~  Nel     more/most complete;more/most perfect',
+        'Atm     >atam~  Nel     more/most complete;more/most perfect'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'HaFaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"more / most complete"'
+        ],
+        [
+          '"more / most perfect"'
+        ]
+      ],
+      'glosshash' => {
+        '"more / most perfect"' => 1,
+        '"more / most complete"' => 1
+      },
+      'orig' => 'Oatam~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'itmAm',
+      'form' => '\'itmAm',
+      'lines' => [
+        ';; <itomAm_1',
+        '<tmAm   <itomAm NduAt   completion;realization',
+        'AtmAm   <itomAm NduAt   completion;realization'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"completion"'
+        ],
+        [
+          '"realization"'
+        ]
+      ],
+      'glosshash' => {
+        '"realization"' => 1,
+        '"completion"' => 1
+      },
+      'orig' => 'IitomAm',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'tAmm',
       'form' => 'tAmm',
       'lines' => [
@@ -3810,6 +3976,35 @@ $lexicon = {
         '"complete"' => 1
       },
       'orig' => 'tAm~',
+      'prefix' => ''
+    }
+  ],
+  't r h' => [
+    {
+      'types' => {},
+      'entry' => 'turrah',
+      'form' => 'turrahaT',
+      'lines' => [
+        ';; tur~ahap_1',
+        'trh     tur~ah  NapAt   farce;hoax'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCCaL',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"farce"'
+        ],
+        [
+          '"hoax"'
+        ]
+      ],
+      'glosshash' => {
+        '"hoax"' => 1,
+        '"farce"' => 1
+      },
+      'orig' => 'tur~ahap',
       'prefix' => ''
     }
   ],
@@ -3976,6 +4171,83 @@ $lexicon = {
         '"work hard"' => 1
       },
       'orig' => 'taEib-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        't`ab' => {
+          'IV_Pass_yu' => 1
+        },
+        't`ib' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'at`ab',
+      'form' => '\'at`ab',
+      'others' => [
+        't`ab IV_Pass_yu',
+        't`ib IV_yu'
+      ],
+      'lines' => [
+        ';; >atoEab_1',
+        '>tEb    >atoEab PV      bother;make tired',
+        'AtEb    >atoEab PV      bother;make tired',
+        'tEb     toEib   IV_yu   bother;make tired',
+        'tEb     toEab   IV_Pass_yu      be bothered;be tired out'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"bother"'
+        ],
+        [
+          '"make tired"'
+        ],
+        [
+          '"be bothered"'
+        ],
+        [
+          '"be tired out"'
+        ]
+      ],
+      'glosshash' => {
+        '"be tired out"' => 1,
+        '"be bothered"' => 1,
+        '"make tired"' => 1,
+        '"bother"' => 1
+      },
+      'orig' => 'OatoEab',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'at`Ab',
+      'form' => '\'at`Ab',
+      'lines' => [
+        ';; >atoEAb_1',
+        '>tEAb   >atoEAb N       inconveniences;labor',
+        'AtEAb   >atoEAb N       inconveniences;labor'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"inconveniences"'
+        ],
+        [
+          '"labor"'
+        ]
+      ],
+      'glosshash' => {
+        '"inconveniences"' => 1,
+        '"labor"' => 1
+      },
+      'orig' => 'OatoEAb',
       'prefix' => ''
     },
     {
@@ -4451,16 +4723,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'taqniyy' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'taqn',
       'form' => 'taqniyyaT',
-      'others' => [
-        'taqniyy NapAt'
-      ],
       'lines' => [
         ';; taqoniy~ap_1',
         'tqny    taqoniy~        NapAt   technique;technology     [[taqoniy~/NOUN]]'
@@ -4482,6 +4747,34 @@ $lexicon = {
         '"technique"' => 1
       },
       'orig' => 'taqoniy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'itqAn',
+      'form' => '\'itqAn',
+      'lines' => [
+        ';; <itoqAn_1',
+        '<tqAn   <itoqAn NduAt   mastery;proficiency',
+        'AtqAn   <itoqAn NduAt   mastery;proficiency'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"mastery"'
+        ],
+        [
+          '"proficiency"'
+        ]
+      ],
+      'glosshash' => {
+        '"proficiency"' => 1,
+        '"mastery"' => 1
+      },
+      'orig' => 'IitoqAn',
       'prefix' => ''
     }
   ],
@@ -4620,6 +4913,44 @@ $lexicon = {
         '"Tunisians"' => 1
       },
       'orig' => 'tuwnisiy~',
+      'prefix' => ''
+    }
+  ],
+  't w \' m' => [
+    {
+      'types' => {
+        'tawA\'im' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'taw\'am',
+      'form' => 'taw\'am',
+      'others' => [
+        'tawA\'im Ndip'
+      ],
+      'lines' => [
+        ';; tawo>am_1',
+        'tw>m    tawo>am N/ap    twin',
+        'tw\'m    tawo\'am N/ap    twin',
+        'twA}m   tawA}im Ndip    twins'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"twin"'
+        ],
+        [
+          '"twins"'
+        ]
+      ],
+      'glosshash' => {
+        '"twins"' => 1,
+        '"twin"' => 1
+      },
+      'orig' => 'tawoOam',
       'prefix' => ''
     }
   ],
@@ -4900,16 +5231,12 @@ $lexicon = {
       'types' => {
         'turab' => {
           'N' => 1
-        },
-        'turb' => {
-          'Nap' => 1
         }
       },
       'entry' => 'turb',
       'form' => 'turbaT',
       'others' => [
-        'turab N',
-        'turb Nap'
+        'turab N'
       ],
       'lines' => [
         ';; turobap_1',
@@ -5184,6 +5511,31 @@ $lexicon = {
         '"immediately"' => 1
       },
       'orig' => 'taw~',
+      'prefix' => ''
+    }
+  ],
+  't y r y' => [
+    {
+      'types' => {},
+      'entry' => 'tiyriy',
+      'form' => 'tiyriy',
+      'lines' => [
+        ';; tiyriy_1',
+        'tyry    tiyriy  Nprop   Thierry'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDiS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Thierry"'
+        ]
+      ],
+      'glosshash' => {
+        '"Thierry"' => 1
+      },
+      'orig' => 'tiyriy',
       'prefix' => ''
     }
   ],

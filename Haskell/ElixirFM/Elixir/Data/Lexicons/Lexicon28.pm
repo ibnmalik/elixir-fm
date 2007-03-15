@@ -69,31 +69,6 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'yuwsuf' => [
-    {
-      'types' => {},
-      'entry' => 'yuwsuf',
-      'form' => 'yuwsufiyy',
-      'lines' => [
-        ';; yuwsufiy~_1',
-        'ywsfy   yuwsufiy~       N       tangerines'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        [
-          '"tangerines"'
-        ]
-      ],
-      'glosshash' => {
-        '"tangerines"' => 1
-      },
-      'orig' => 'yuwsufiy~',
-      'prefix' => ''
-    }
-  ],
   'yAnA' => [
     {
       'types' => {},
@@ -116,6 +91,31 @@ $lexicon = {
         '"Jana"' => 1
       },
       'orig' => 'yAnA',
+      'prefix' => ''
+    }
+  ],
+  'y w r w' => [
+    {
+      'types' => {},
+      'entry' => 'yuwruw',
+      'form' => 'yuwruw',
+      'lines' => [
+        ';; yuwruw_1',
+        'ywrw    yuwruw  N0      Euro'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDuS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Euro"'
+        ]
+      ],
+      'glosshash' => {
+        '"Euro"' => 1
+      },
+      'orig' => 'yuwruw',
       'prefix' => ''
     }
   ],
@@ -266,16 +266,9 @@ $lexicon = {
   ],
   'y \' q' => [
     {
-      'types' => {
-        'yAq' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'yAq',
       'form' => 'yAqaT',
-      'others' => [
-        'yAq NapAt'
-      ],
       'lines' => [
         ';; yAqap_1',
         'yAq     yAq     NapAt   collar'
@@ -329,6 +322,31 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'y w s f' => [
+    {
+      'types' => {},
+      'entry' => 'yuwsuf',
+      'form' => 'yuwsufiyy',
+      'lines' => [
+        ';; yuwsufiy~_1',
+        'ywsfy   yuwsufiy~       N       tangerines'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDuS',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"tangerines"'
+        ]
+      ],
+      'glosshash' => {
+        '"tangerines"' => 1
+      },
+      'orig' => 'yuwsufiy~',
+      'prefix' => ''
+    }
+  ],
   'y q n' => [
     {
       'types' => {
@@ -366,6 +384,42 @@ $lexicon = {
         '"know for certain"' => 1
       },
       'orig' => 'yaqin-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yqin' => {
+          'IV-n' => 1
+        }
+      },
+      'entry' => '\'ayqan',
+      'form' => '\'ayqan',
+      'others' => [
+        'yqin IV-n'
+      ],
+      'lines' => [
+        ';; >ayoqan_1',
+        '>yqn    >ayoqan PV-n    ascertain;be convinced',
+        'Ayqn    >ayoqan PV-n    ascertain;be convinced',
+        'yqn     yoqin   IV-n    ascertain;be convinced'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"ascertain"'
+        ],
+        [
+          '"be convinced"'
+        ]
+      ],
+      'glosshash' => {
+        '"be convinced"' => 1,
+        '"ascertain"' => 1
+      },
+      'orig' => 'Oayoqan',
       'prefix' => ''
     },
     {
@@ -649,6 +703,58 @@ $lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        'yusray' => {
+          'NAt' => 1,
+          'NAn_Nayn' => 1
+        },
+        'yusrY' => {
+          'N0' => 1
+        },
+        'yusrA' => {
+          'Nhy' => 1
+        }
+      },
+      'entry' => '\'aysar',
+      'form' => '\'aysar',
+      'others' => [
+        'yusray NAt NAn_Nayn',
+        'yusrY N0',
+        'yusrA Nhy'
+      ],
+      'lines' => [
+        ';; >ayosar_2',
+        '>ysr    >ayosar Nel     left',
+        'Aysr    >ayosar Nel     left',
+        'ysrY    yusoraY N0      left;left hand',
+        'ysrA    yusorA  Nhy     left;left hand',
+        'ysry    yusoray NAn_Nayn        left;left hands',
+        'ysry    yusoray NAt     left;left hands'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"left"'
+        ],
+        [
+          '"left hand"'
+        ],
+        [
+          '"left hands"'
+        ]
+      ],
+      'glosshash' => {
+        '"left hands"' => 1,
+        '"left hand"' => 1,
+        '"left"' => 1
+      },
+      'orig' => 'Oayosar',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'taysiyr',
       'form' => 'taysiyr',
@@ -727,6 +833,67 @@ $lexicon = {
         '"facilitated"' => 1
       },
       'orig' => 'muyas~ar',
+      'prefix' => ''
+    }
+  ],
+  'y \' s' => [
+    {
+      'types' => {},
+      'entry' => 'ya\'s',
+      'form' => 'ya\'s',
+      'lines' => [
+        ';; ya>os_1',
+        'y>s     ya>os   N       despair;hopelessness'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"despair"'
+        ],
+        [
+          '"hopelessness"'
+        ]
+      ],
+      'glosshash' => {
+        '"hopelessness"' => 1,
+        '"despair"' => 1
+      },
+      'orig' => 'yaOos',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'may\'uws',
+      'form' => 'may\'uws',
+      'lines' => [
+        ';; mayo&uws_1',
+        'my&ws   mayo&uws        Nall    hopeless;desperate     [[mayo&uws/ADJ]]',
+        'my}ws   mayo}uws        Nall    hopeless;desperate'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCUL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"hopeless"'
+        ],
+        [
+          '"desperate [ [ mayo&uws / ADJ ] ]"'
+        ],
+        [
+          '"desperate"'
+        ]
+      ],
+      'glosshash' => {
+        '"desperate"' => 1,
+        '"desperate [ [ mayo&uws / ADJ ] ]"' => 1,
+        '"hopeless"' => 1
+      },
+      'orig' => 'mayoWuws',
       'prefix' => ''
     }
   ],
@@ -1092,6 +1259,34 @@ $lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '\'ayman',
+      'form' => '\'ayman',
+      'lines' => [
+        ';; >ayoman_1',
+        '>ymn    >ayoman Nprop   Ayman;Aiman',
+        'Aymn    >ayoman Nprop   Ayman;Aiman'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Ayman"'
+        ],
+        [
+          '"Aiman"'
+        ]
+      ],
+      'glosshash' => {
+        '"Ayman"' => 1,
+        '"Aiman"' => 1
+      },
+      'orig' => 'Oayoman',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'yumnay' => {
           'NAt' => 1,
@@ -1244,6 +1439,99 @@ $lexicon = {
         '"Yediot"' => 1
       },
       'orig' => 'yadiyEuwt',
+      'prefix' => ''
+    }
+  ],
+  'y q .z' => [
+    {
+      'types' => {
+        'wqa.z' => {
+          'IV_Pass_yu' => 1
+        },
+        'wqi.z' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'ayqa.z',
+      'form' => '\'ayqa.z',
+      'others' => [
+        'wqa.z IV_Pass_yu',
+        'wqi.z IV_yu'
+      ],
+      'lines' => [
+        ';; >ayoqaZ_1',
+        '>yqZ    >ayoqaZ PV      awaken;warn',
+        'AyqZ    >ayoqaZ PV      awaken;warn',
+        'wqZ     wqiZ    IV_yu   awaken;warn',
+        'wqZ     wqaZ    IV_Pass_yu      be awakened;be warned'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"awaken"'
+        ],
+        [
+          '"warn"'
+        ],
+        [
+          '"be awakened"'
+        ],
+        [
+          '"be warned"'
+        ]
+      ],
+      'glosshash' => {
+        '"awaken"' => 1,
+        '"be awakened"' => 1,
+        '"be warned"' => 1,
+        '"warn"' => 1
+      },
+      'orig' => 'OayoqaZ',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'iyqA.z',
+      'form' => '\'iyqA.z',
+      'lines' => [
+        ';; <iyqAZ_1',
+        '<yqAZ   <iyqAZ  N/At    awakening;reveille',
+        'AyqAZ   <iyqAZ  N/At    awakening;reveille'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HICAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"awakening"'
+        ],
+        [
+          '"reveille"'
+        ]
+      ],
+      'glosshash' => {
+        '"awakening"' => 1,
+        '"reveille"' => 1
+      },
+      'orig' => 'IiyqAZ',
+      'prefix' => ''
+    },
+    {
+      'types' => $lexicon->{'y q .z'}[1]{'types'},
+      'entry' => '\'iyqA.z',
+      'form' => '\'iyqA.z',
+      'lines' => $lexicon->{'y q .z'}[1]{'lines'},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => $lexicon->{'y q .z'}[1]{'glosses'},
+      'glosshash' => $lexicon->{'y q .z'}[1]{'glosshash'},
+      'orig' => 'IiyqAZ',
       'prefix' => ''
     }
   ],
@@ -1843,31 +2131,6 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'yuwruw' => [
-    {
-      'types' => {},
-      'entry' => 'yuwruw',
-      'form' => 'yuwruw',
-      'lines' => [
-        ';; yuwruw_1',
-        'ywrw    yuwruw  N0      Euro'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"Euro"'
-        ]
-      ],
-      'glosshash' => {
-        '"Euro"' => 1
-      },
-      'orig' => 'yuwruw',
-      'prefix' => ''
-    }
-  ],
   'yuwtA' => [
     {
       'types' => {
@@ -1898,6 +2161,31 @@ $lexicon = {
         '"Utah"' => 1
       },
       'orig' => 'yuwtA',
+      'prefix' => ''
+    }
+  ],
+  'y w r n' => [
+    {
+      'types' => {},
+      'entry' => 'yuwriyn',
+      'form' => 'yuwriyn',
+      'lines' => [
+        ';; yuwriyn_1',
+        'ywryn   yuwriyn Nprop   Uhrin'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDIS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Uhrin"'
+        ]
+      ],
+      'glosshash' => {
+        '"Uhrin"' => 1
+      },
+      'orig' => 'yuwriyn',
       'prefix' => ''
     }
   ],
@@ -1987,31 +2275,6 @@ $lexicon = {
         '"John"' => 1
       },
       'orig' => 'yaHoyaY',
-      'prefix' => ''
-    }
-  ],
-  'y w r n' => [
-    {
-      'types' => {},
-      'entry' => 'yuwriyn',
-      'form' => 'yuwriyn',
-      'lines' => [
-        ';; yuwriyn_1',
-        'ywryn   yuwriyn Nprop   Uhrin'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDIS',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"Uhrin"'
-        ]
-      ],
-      'glosshash' => {
-        '"Uhrin"' => 1
-      },
-      'orig' => 'yuwriyn',
       'prefix' => ''
     }
   ],
@@ -2217,16 +2480,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'yahuwdiyy' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'yahuwd',
       'form' => 'yahuwdiyyaT',
-      'others' => [
-        'yahuwdiyy Nap'
-      ],
       'lines' => [
         ';; yahuwdiy~ap_1',
         'yhwdy   yahuwdiy~       Nap     Judaism     [[yahuwdiy~/NOUN]]'

@@ -48,6 +48,15 @@ lexicon = listing "Lexicon properties"
                                                             `others` [ ".zhar IV" ]
                                                             `gloss`  [ "appear", "emerge" ],
 
+    -- ;; >aZohar_1
+    -- >Zhr    >aZohar PV      show;manifest;demonstrate
+    -- AZhr    >aZohar PV      show;manifest;demonstrate
+    -- Zhr     Zohir   IV_yu   show;manifest;demonstrate
+    -- Zhr     Zohar   IV_Pass_yu      be shown;be manifest;be demonstrated
+
+    verb     HaFCaL                    {- OaZohar -}        `others` [ ".zhar IV_Pass_yu", ".zhir IV_yu" ]
+                                                            `gloss`  [ "show", "manifest", "demonstrate", "be shown", "be manifest", "be demonstrated" ],
+
     -- ;; taZAhar_1
     -- tZAhr   taZAhar PV      manifest;demonstrate
     -- tZAhr   taZAhar IV      manifest;demonstrate
@@ -89,8 +98,13 @@ lexicon = listing "Lexicon properties"
     -- ;; muZAharap_1
     -- mZAhr   muZAhar NapAt   demonstration;rally
 
-    noun     MuFACaL                   {- muZAharap -}      `others` [ "mu.zAhar NapAt" ]
-                                                            `gloss`  [ "demonstration", "rally" ],
+    noun     MuFACaL                   {- muZAharap -}      `gloss`  [ "demonstration", "rally" ],
+
+    -- ;; <iZohAr_1
+    -- <ZhAr   <iZohAr N/At    expressing;showing;demonstrating
+    -- AZhAr   <iZohAr N/At    expressing;showing;demonstrating
+
+    noun     HiFCAL                    {- IiZohAr -}        `gloss`  [ "expressing", "showing", "demonstrating" ],
 
     -- ;; taZAhur_1
     -- tZAhr   taZAhur NduAt   demonstration;exhibition;simulation
@@ -100,8 +114,7 @@ lexicon = listing "Lexicon properties"
     -- ;; taZAhurap_1
     -- tZAhr   taZAhur NapAt   rally;demonstration
 
-    noun     TaFACuL                   {- taZAhurap -}      `others` [ "ta.zAhur NapAt" ]
-                                                            `gloss`  [ "rally", "demonstration" ],
+    noun     TaFACuL                   {- taZAhurap -}      `gloss`  [ "rally", "demonstration" ],
 
     -- ;; ZAhir_1
     -- ZAhr    ZAhir   N/ap    evident;apparent;manifest;visible
@@ -117,7 +130,7 @@ lexicon = listing "Lexicon properties"
     -- ZAhr    ZAhir   Napdu   phenomenon
     -- ZwAhr   ZawAhir Ndip    phenomena
 
-    noun     FACiL                     {- ZAhirap -}        `others` [ ".zAhir Napdu", ".zawAhir Ndip" ]
+    noun     FACiL                     {- ZAhirap -}        `others` [ ".zawAhir Ndip" ]
                                                             `gloss`  [ "phenomenon", "phenomena" ] ]
 
  |> ".z l l" <| [
@@ -136,7 +149,7 @@ lexicon = listing "Lexicon properties"
     -- mZl     miZal~  NapAt   umbrella
     -- mZAl    maZAl~  Ndip    umbrellas
 
-    noun     MiFaCL                    {- miZal~ap -}       `others` [ "mi.zall NapAt", "ma.zAll Ndip" ]
+    noun     MiFaCL                    {- miZal~ap -}       `others` [ "ma.zAll Ndip" ]
                                                             `gloss`  [ "umbrella", "umbrellas" ] ]
 
  |> ".z l m" <| [

@@ -59,9 +59,6 @@ $lexicon = {
     },
     {
       'types' => {
-        'mi.zall' => {
-          'NapAt' => 1
-        },
         'ma.zAll' => {
           'Ndip' => 1
         }
@@ -69,7 +66,6 @@ $lexicon = {
       'entry' => 'mi.zall',
       'form' => 'mi.zallaT',
       'others' => [
-        'mi.zall NapAt',
         'ma.zAll Ndip'
       ],
       'lines' => [
@@ -565,6 +561,63 @@ $lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        '.zhar' => {
+          'IV_Pass_yu' => 1
+        },
+        '.zhir' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'a.zhar',
+      'form' => '\'a.zhar',
+      'others' => [
+        '.zhar IV_Pass_yu',
+        '.zhir IV_yu'
+      ],
+      'lines' => [
+        ';; >aZohar_1',
+        '>Zhr    >aZohar PV      show;manifest;demonstrate',
+        'AZhr    >aZohar PV      show;manifest;demonstrate',
+        'Zhr     Zohir   IV_yu   show;manifest;demonstrate',
+        'Zhr     Zohar   IV_Pass_yu      be shown;be manifest;be demonstrated'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"show"'
+        ],
+        [
+          '"manifest"'
+        ],
+        [
+          '"demonstrate"'
+        ],
+        [
+          '"be shown"'
+        ],
+        [
+          '"be manifest"'
+        ],
+        [
+          '"be demonstrated"'
+        ]
+      ],
+      'glosshash' => {
+        '"be shown"' => 1,
+        '"demonstrate"' => 1,
+        '"be demonstrated"' => 1,
+        '"manifest"' => 1,
+        '"show"' => 1,
+        '"be manifest"' => 1
+      },
+      'orig' => 'OaZohar',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'ta.zAhar',
       'form' => 'ta.zAhar',
@@ -771,16 +824,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu.zAhar' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu.zAhar',
       'form' => 'mu.zAharaT',
-      'others' => [
-        'mu.zAhar NapAt'
-      ],
       'lines' => [
         ';; muZAharap_1',
         'mZAhr   muZAhar NapAt   demonstration;rally'
@@ -802,6 +848,38 @@ $lexicon = {
         '"rally"' => 1
       },
       'orig' => 'muZAharap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'i.zhAr',
+      'form' => '\'i.zhAr',
+      'lines' => [
+        ';; <iZohAr_1',
+        '<ZhAr   <iZohAr N/At    expressing;showing;demonstrating',
+        'AZhAr   <iZohAr N/At    expressing;showing;demonstrating'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"expressing"'
+        ],
+        [
+          '"showing"'
+        ],
+        [
+          '"demonstrating"'
+        ]
+      ],
+      'glosshash' => {
+        '"expressing"' => 1,
+        '"showing"' => 1,
+        '"demonstrating"' => 1
+      },
+      'orig' => 'IiZohAr',
       'prefix' => ''
     },
     {
@@ -836,16 +914,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta.zAhur' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta.zAhur',
       'form' => 'ta.zAhuraT',
-      'others' => [
-        'ta.zAhur NapAt'
-      ],
       'lines' => [
         ';; taZAhurap_1',
         'tZAhr   taZAhur NapAt   rally;demonstration'
@@ -929,9 +1000,6 @@ $lexicon = {
     },
     {
       'types' => {
-        '.zAhir' => {
-          'Napdu' => 1
-        },
         '.zawAhir' => {
           'Ndip' => 1
         }
@@ -939,7 +1007,6 @@ $lexicon = {
       'entry' => '.zAhir',
       'form' => '.zAhiraT',
       'others' => [
-        '.zAhir Napdu',
         '.zawAhir Ndip'
       ],
       'lines' => [

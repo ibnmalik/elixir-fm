@@ -6,6 +6,64 @@ package Elixir::Data::Lexicons::Lexicon04;
 
 
 $lexicon = {
+  '\'a_tnA\'a' => [
+    {
+      'types' => {
+        '\'a_tnA\'i' => {
+          'FW-Wa' => 2,
+          'FW-Wa-i' => 2
+        },
+        '\'a_tnA\'' => {
+          'FW-Wa-o' => 2
+        }
+      },
+      'entry' => '\'a_tnA\'a',
+      'form' => '\'a_tnA\'a',
+      'others' => [
+        '\'a_tnA\'i FW-Wa FW-Wa-i',
+        '\'a_tnA\' FW-Wa-o'
+      ],
+      'lines' => [
+        ';; >avonA\'a_1',
+        '>vnA\'   >avonA\'a        FW-Wa   during     [[>avonA\'a/PREP]]',
+        'AvnA\'   >avonA\'a        FW-Wa   during     [[>avonA\'a/PREP]]',
+        '>vnA\'   >avonA\'i        FW-Wa   during     [[>avonA\'i/PREP]]',
+        'AvnA\'   >avonA\'i        FW-Wa   during     [[>avonA\'i/PREP]]',
+        '>vnA\'   >avonA\'a        FW-Wa-a during     [[>avonA\'a/PREP]]',
+        'AvnA\'   >avonA\'a        FW-Wa-a during     [[>avonA\'a/PREP]]',
+        '>vnA}   >avonA}i        FW-Wa-i during     [[>avonA}i/PREP]]',
+        'AvnA}   >avonA}i        FW-Wa-i during     [[>avonA}i/PREP]]',
+        '>vnA}   >avonA} FW-Wa-o during     [[>avonA}a/PREP]]',
+        'AvnA}   >avonA} FW-Wa-o during     [[>avonA}a/PREP]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"during [ [ >avonA\'a / PREP ] ]"'
+        ],
+        [
+          '"during [ [ >avonA\'i / PREP ] ]"'
+        ],
+        [
+          '"during [ [ >avonA } i / PREP ] ]"'
+        ],
+        [
+          '"during [ [ >avonA } a / PREP ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"during [ [ >avonA } a / PREP ] ]"' => 1,
+        '"during [ [ >avonA\'i / PREP ] ]"' => 1,
+        '"during [ [ >avonA\'a / PREP ] ]"' => 1,
+        '"during [ [ >avonA } i / PREP ] ]"' => 1
+      },
+      'orig' => 'OavonA\'a',
+      'prefix' => ''
+    }
+  ],
   '_t l _t' => [
     {
       'types' => {
@@ -334,6 +392,55 @@ $lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        '_tbit' => {
+          'IV_yu' => 1
+        },
+        '_tbat' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => '\'a_tbat',
+      'form' => '\'a_tbat',
+      'others' => [
+        '_tbit IV_yu',
+        '_tbat IV_Pass_yu'
+      ],
+      'lines' => [
+        ';; >avobat_1',
+        '>vbt    >avobat PV-t    ascertain;establish',
+        'Avbt    >avobat PV-t    ascertain;establish',
+        'vbt     vobit   IV_yu   ascertain;establish',
+        'vbt     vobat   IV_Pass_yu      be ascertained;be established'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"ascertain"'
+        ],
+        [
+          '"establish"'
+        ],
+        [
+          '"be ascertained"'
+        ],
+        [
+          '"be established"'
+        ]
+      ],
+      'glosshash' => {
+        '"be established"' => 1,
+        '"be ascertained"' => 1,
+        '"establish"' => 1,
+        '"ascertain"' => 1
+      },
+      'orig' => 'Oavobat',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'ta_tabbat',
       'form' => 'ta_tabbat',
@@ -502,9 +609,6 @@ $lexicon = {
     },
     {
       'types' => {
-        '_tAbit' => {
-          'Napdu' => 1
-        },
         '_tawAbit' => {
           'Ndip' => 1
         }
@@ -512,7 +616,6 @@ $lexicon = {
       'entry' => '_tAbit',
       'form' => '_tAbitaT',
       'others' => [
-        '_tAbit Napdu',
         '_tawAbit Ndip'
       ],
       'lines' => [
@@ -599,6 +702,34 @@ $lexicon = {
   '_t n \'' => [
     {
       'types' => {},
+      'entry' => '\'a_tnA\'',
+      'form' => '\'a_tnA\'',
+      'lines' => [
+        ';; >avonA\'_2',
+        '>vnA\'   >avonA\' N0      meanwhile;meantime',
+        'AvnA\'   >avonA\' N0      meanwhile;meantime'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'HaFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"meanwhile"'
+        ],
+        [
+          '"meantime"'
+        ]
+      ],
+      'glosshash' => {
+        '"meantime"' => 1,
+        '"meanwhile"' => 1
+      },
+      'orig' => 'OavonA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => '_tunA\'',
       'form' => '_tunA\'iyy',
       'lines' => [
@@ -630,16 +761,12 @@ $lexicon = {
       'types' => {
         '_tulal' => {
           'N' => 1
-        },
-        '_tull' => {
-          'Napdu' => 1
         }
       },
       'entry' => '_tull',
       'form' => '_tullaT',
       'others' => [
-        '_tulal N',
-        '_tull Napdu'
+        '_tulal N'
       ],
       'lines' => [
         ';; vul~ap_1',
@@ -767,16 +894,12 @@ $lexicon = {
       'types' => {
         '_taraw' => {
           'NAt' => 1
-        },
-        '_tarw' => {
-          'Napdu' => 1
         }
       },
       'entry' => '_tarw',
       'form' => '_tarwaT',
       'others' => [
-        '_taraw NAt',
-        '_tarw Napdu'
+        '_taraw NAt'
       ],
       'lines' => [
         ';; varowap_1',
@@ -926,6 +1049,34 @@ $lexicon = {
         '"costly"' => 1
       },
       'orig' => 'vamiyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'a_tman',
+      'form' => '\'a_tman',
+      'lines' => [
+        ';; >avoman_1',
+        '>vmn    >avoman Nel     costlier;more valuable',
+        'Avmn    >avoman Nel     costlier;more valuable'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"costlier"'
+        ],
+        [
+          '"more valuable"'
+        ]
+      ],
+      'glosshash' => {
+        '"costlier"' => 1,
+        '"more valuable"' => 1
+      },
+      'orig' => 'Oavoman',
       'prefix' => ''
     },
     {
@@ -1120,6 +1271,77 @@ $lexicon = {
     },
     {
       'types' => {
+        '\'u_tiyr' => {
+          'PV_V_Pass' => 2
+        },
+        '_tiyr' => {
+          'IV_V_yu' => 1
+        },
+        '_tir' => {
+          'IV_C_yu' => 1
+        },
+        '_tar' => {
+          'IV_C_Pass_yu' => 1
+        },
+        '_tAr' => {
+          'IV_V_Pass_yu' => 1
+        },
+        '\'a_tar' => {
+          'PV_C' => 2
+        }
+      },
+      'entry' => '\'a_tAr',
+      'form' => '\'a_tAr',
+      'others' => [
+        '\'u_tiyr PV_V_Pass',
+        '_tiyr IV_V_yu',
+        '_tir IV_C_yu',
+        '_tar IV_C_Pass_yu',
+        '_tAr IV_V_Pass_yu',
+        '\'a_tar PV_C'
+      ],
+      'lines' => [
+        ';; >avAr_1',
+        '>vAr    >avAr   PV_V    provoke;agitate',
+        'AvAr    >avAr   PV_V    provoke;agitate',
+        '>vr     >avar   PV_C    provoke;agitate',
+        'Avr     >avar   PV_C    provoke;agitate',
+        'vyr     viyr    IV_V_yu provoke;agitate',
+        'vr      vir     IV_C_yu provoke;agitate',
+        '>vyr    >uviyr  PV_V_Pass       be provoked;be agitated',
+        'Avyr    >uviyr  PV_V_Pass       be provoked;be agitated',
+        'vAr     vAr     IV_V_Pass_yu    be provoked;be agitated',
+        'vr      var     IV_C_Pass_yu    be provoked;be agitated'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"provoke"'
+        ],
+        [
+          '"agitate"'
+        ],
+        [
+          '"be provoked"'
+        ],
+        [
+          '"be agitated"'
+        ]
+      ],
+      'glosshash' => {
+        '"be agitated"' => 1,
+        '"be provoked"' => 1,
+        '"agitate"' => 1,
+        '"provoke"' => 1
+      },
+      'orig' => 'OavAr',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '_tiyrAn' => {
           'N' => 1
         }
@@ -1185,16 +1407,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '_tawr' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '_tawr',
       'form' => '_tawraT',
-      'others' => [
-        '_tawr NapAt'
-      ],
       'lines' => [
         ';; vaworap_1',
         'vwr     vawor   NapAt   revolution;uprising'
@@ -1219,16 +1434,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '_tawr' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => '_tawr',
       'form' => '_tawraT',
-      'others' => [
-        '_tawr Nap'
-      ],
       'lines' => [
         ';; vaworap_2',
         'vwr     vawor   Nap     Thawra'
@@ -1327,6 +1535,34 @@ $lexicon = {
     },
     {
       'types' => {},
+      'entry' => '\'i_tAr',
+      'form' => '\'i_tAraT',
+      'lines' => [
+        ';; <ivArap_1',
+        '<vAr    <ivAr   NapAt   provocation;agitation',
+        'AvAr    <ivAr   NapAt   provocation;agitation'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFAL',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"provocation"'
+        ],
+        [
+          '"agitation"'
+        ]
+      ],
+      'glosshash' => {
+        '"agitation"' => 1,
+        '"provocation"' => 1
+      },
+      'orig' => 'IivArap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => '_tA\'ir',
       'form' => '_tA\'ir',
       'lines' => [
@@ -1413,30 +1649,30 @@ $lexicon = {
   ],
   '_t y r' => [
     {
-      'types' => $lexicon->{'_t w r'}[9]{'types'},
+      'types' => $lexicon->{'_t w r'}[11]{'types'},
       'entry' => 'mu_tiyr',
       'form' => 'mu_tiyr',
-      'lines' => $lexicon->{'_t w r'}[9]{'lines'},
+      'lines' => $lexicon->{'_t w r'}[11]{'lines'},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFiCL',
       'suffix' => '',
-      'glosses' => $lexicon->{'_t w r'}[9]{'glosses'},
-      'glosshash' => $lexicon->{'_t w r'}[9]{'glosshash'},
+      'glosses' => $lexicon->{'_t w r'}[11]{'glosses'},
+      'glosshash' => $lexicon->{'_t w r'}[11]{'glosshash'},
       'orig' => 'muviyr',
       'prefix' => ''
     },
     {
-      'types' => $lexicon->{'_t w r'}[10]{'types'},
+      'types' => $lexicon->{'_t w r'}[12]{'types'},
       'entry' => 'mu_tiyr',
       'form' => 'mu_tiyr',
-      'lines' => $lexicon->{'_t w r'}[10]{'lines'},
+      'lines' => $lexicon->{'_t w r'}[12]{'lines'},
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'MuFiCL',
       'suffix' => '',
-      'glosses' => $lexicon->{'_t w r'}[10]{'glosses'},
-      'glosshash' => $lexicon->{'_t w r'}[10]{'glosshash'},
+      'glosses' => $lexicon->{'_t w r'}[12]{'glosses'},
+      'glosshash' => $lexicon->{'_t w r'}[12]{'glosshash'},
       'orig' => 'muviyr',
       'prefix' => ''
     }
@@ -1505,16 +1741,9 @@ $lexicon = {
   ],
   '_t r _t r' => [
     {
-      'types' => {
-        '_tar_tar' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '_tar_tar',
       'form' => '_tar_taraT',
-      'others' => [
-        '_tar_tar NapAt'
-      ],
       'lines' => [
         ';; varovarap_1',
         'vrvr    varovar NapAt   chatter;prattle'
@@ -1719,16 +1948,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'mu_tAbar' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'mu_tAbar',
       'form' => 'mu_tAbaraT',
-      'others' => [
-        'mu_tAbar NapAt'
-      ],
       'lines' => [
         ';; muvAbarap_1',
         'mvAbr   muvAbar NapAt   persistence;perseverance'
@@ -1893,14 +2115,45 @@ $lexicon = {
       },
       'orig' => 'varA\'',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'i_trA\'',
+      'form' => '\'i_trA\'',
+      'lines' => [
+        ';; <ivorA\'_1',
+        '<vrA\'   <ivorA\' N0_Nh   enrichment',
+        '<vrA&   <ivorA& Nh      enrichment',
+        '<vrA}   <ivorA} Nhy     enrichment',
+        '<vrA\'   <ivorA\' NAn_Nayn        enrichment',
+        '<vrA}   <ivorA} Nayn    enrichment',
+        '<vrA\'   <ivorA\' NAt     enrichment',
+        'AvrA\'   <ivorA\' N0_Nh   enrichment',
+        'AvrA&   <ivorA& Nh      enrichment',
+        'AvrA}   <ivorA} Nhy     enrichment',
+        'AvrA\'   <ivorA\' NAn_Nayn        enrichment',
+        'AvrA}   <ivorA} Nayn    enrichment',
+        'AvrA\'   <ivorA\' NAt     enrichment'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCA\'',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"enrichment"'
+        ]
+      ],
+      'glosshash' => {
+        '"enrichment"' => 1
+      },
+      'orig' => 'IivorA\'',
+      'prefix' => ''
     }
   ],
   '_t .g r' => [
     {
       'types' => {
-        '_tu.gr' => {
-          'Napdu' => 1
-        },
         '_ta.gar' => {
           'NAt' => 1
         }
@@ -1908,7 +2161,6 @@ $lexicon = {
       'entry' => '_tu.gr',
       'form' => '_tu.graT',
       'others' => [
-        '_tu.gr Napdu',
         '_ta.gar NAt'
       ],
       'lines' => [
@@ -1949,16 +2201,12 @@ $lexicon = {
       'types' => {
         '_tal_a_tmA\'' => {
           'Nap' => 1
-        },
-        '_talA_tmA\'' => {
-          'Nap' => 1
         }
       },
       'entry' => '_talA_tmA\'',
       'form' => '_talA_tmA\'aT',
       'others' => [
-        '_tal_a_tmA\' Nap',
-        '_talA_tmA\' Nap'
+        '_tal_a_tmA\' Nap'
       ],
       'lines' => [
         ';; valAvmA}ap_1',
@@ -1992,9 +2240,6 @@ $lexicon = {
         },
         '_tukan' => {
           'N' => 1
-        },
-        '_tukn' => {
-          'NapAt' => 1
         }
       },
       'entry' => '_tukn',
@@ -2002,8 +2247,7 @@ $lexicon = {
       'others' => [
         '_takan NAt',
         '_takn Napdu',
-        '_tukan N',
-        '_tukn NapAt'
+        '_tukan N'
       ],
       'lines' => [
         ';; vukonap_1',
@@ -2030,16 +2274,9 @@ $lexicon = {
   ],
   '_t q f' => [
     {
-      'types' => {
-        '_taqAf' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '_taqAf',
       'form' => '_taqAfaT',
-      'others' => [
-        '_taqAf NapAt'
-      ],
       'lines' => [
         ';; vaqAfap_1',
         'vqAf    vaqAf   NapAt   culture;civilization'
@@ -2197,7 +2434,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCY',
+      'morphs' => 'FaCaNY',
       'glosses' => [
         [
           '"fold"'
@@ -2218,16 +2455,32 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => $lexicon->{'_t n \''}[0]{'types'},
+      'types' => $lexicon->{'_t n y'}[0]{'types'},
+      'entry' => '_tanY',
+      'form' => '_tanY',
+      'others' => $lexicon->{'_t n y'}[0]{'others'},
+      'lines' => $lexicon->{'_t n y'}[0]{'lines'},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaNY',
+      'glosses' => $lexicon->{'_t n y'}[0]{'glosses'},
+      'suffix' => '',
+      'imperf' => $lexicon->{'_t n y'}[0]{'imperf'},
+      'glosshash' => $lexicon->{'_t n y'}[0]{'glosshash'},
+      'orig' => 'vanaY-i',
+      'prefix' => ''
+    },
+    {
+      'types' => $lexicon->{'_t n \''}[1]{'types'},
       'entry' => '_tunA\'',
       'form' => '_tunA\'iyy',
-      'lines' => $lexicon->{'_t n \''}[0]{'lines'},
+      'lines' => $lexicon->{'_t n \''}[1]{'lines'},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCA\'',
       'suffix' => ' |< Iy',
-      'glosses' => $lexicon->{'_t n \''}[0]{'glosses'},
-      'glosshash' => $lexicon->{'_t n \''}[0]{'glosshash'},
+      'glosses' => $lexicon->{'_t n \''}[1]{'glosses'},
+      'glosshash' => $lexicon->{'_t n \''}[1]{'glosshash'},
       'orig' => 'vunA}iy~',
       'prefix' => ''
     },
@@ -2352,9 +2605,6 @@ $lexicon = {
         '_tawAn' => {
           'NK' => 1
         },
-        '_tAniy' => {
-          'Napdu' => 1
-        },
         '_tawAniy' => {
           'N0_Nh' => 1
         }
@@ -2363,7 +2613,6 @@ $lexicon = {
       'form' => '_tAniyaT',
       'others' => [
         '_tawAn NK',
-        '_tAniy Napdu',
         '_tawAniy N0_Nh'
       ],
       'lines' => [
@@ -2467,20 +2716,27 @@ $lexicon = {
       'glosshash' => $lexicon->{'_t r t'}[0]{'glosshash'},
       'orig' => 'varA\'',
       'prefix' => ''
+    },
+    {
+      'types' => $lexicon->{'_t r t'}[1]{'types'},
+      'entry' => '\'i_trA\'',
+      'form' => '\'i_trA\'',
+      'lines' => $lexicon->{'_t r t'}[1]{'lines'},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => $lexicon->{'_t r t'}[1]{'glosses'},
+      'glosshash' => $lexicon->{'_t r t'}[1]{'glosshash'},
+      'orig' => 'IivorA\'',
+      'prefix' => ''
     }
   ],
   '_t l ^g' => [
     {
-      'types' => {
-        '_tallA^g' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '_tallA^g',
       'form' => '_tallA^gaT',
-      'others' => [
-        '_tallA^g NapAt'
-      ],
       'lines' => [
         ';; val~Ajap_1',
         'vlAj    val~Aj  NapAt   refrigerator;icebox'
@@ -2528,22 +2784,6 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  '_t \' r' => [
-    {
-      'types' => $lexicon->{'_t w r'}[8]{'types'},
-      'entry' => '_tA\'ir',
-      'form' => '_tA\'ir',
-      'lines' => $lexicon->{'_t w r'}[8]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => $lexicon->{'_t w r'}[8]{'glosses'},
-      'glosshash' => $lexicon->{'_t w r'}[8]{'glosshash'},
-      'orig' => 'vA}ir',
-      'prefix' => ''
-    }
-  ],
   '_t _t r' => [
     {
       'types' => {
@@ -2585,6 +2825,100 @@ $lexicon = {
         '"wealthy [ [ variy ~ / ADJ ] ]"' => 1
       },
       'orig' => 'variy~',
+      'prefix' => ''
+    }
+  ],
+  '_t \' r' => [
+    {
+      'types' => {
+        '_t\'ar' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_ta\'ar',
+      'form' => '_ta\'ar',
+      'others' => [
+        '_t\'ar IV'
+      ],
+      'lines' => [
+        ';; va>ar-a_1',
+        'v>r     va>ar   PV      avenge;take revenge',
+        'v>r     vo>ar   IV      avenge;take revenge'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        [
+          '"avenge"'
+        ],
+        [
+          '"take revenge"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'glosshash' => {
+        '"take revenge"' => 1,
+        '"avenge"' => 1
+      },
+      'orig' => 'vaOar-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a_t\'Ar' => {
+          'N' => 2
+        }
+      },
+      'entry' => '_ta\'r',
+      'form' => '_ta\'r',
+      'others' => [
+        '\'a_t\'Ar N'
+      ],
+      'lines' => [
+        ';; va>or_1',
+        'v>r     va>or   N/At    revenge;retaliation',
+        '>v|r    >avo|r  N       revenge;retaliations',
+        'Av|r    >avo|r  N       revenge;retaliations'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"revenge"'
+        ],
+        [
+          '"retaliation"'
+        ],
+        [
+          '"retaliations"'
+        ]
+      ],
+      'glosshash' => {
+        '"retaliation"' => 1,
+        '"retaliations"' => 1,
+        '"revenge"' => 1
+      },
+      'orig' => 'vaOor',
+      'prefix' => ''
+    },
+    {
+      'types' => $lexicon->{'_t w r'}[10]{'types'},
+      'entry' => '_tA\'ir',
+      'form' => '_tA\'ir',
+      'lines' => $lexicon->{'_t w r'}[10]{'lines'},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => $lexicon->{'_t w r'}[10]{'glosses'},
+      'glosshash' => $lexicon->{'_t w r'}[10]{'glosshash'},
+      'orig' => 'vA}ir',
       'prefix' => ''
     }
   ],
@@ -2639,16 +2973,9 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ma_tAb' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ma_tAb',
       'form' => 'ma_tAbaT',
-      'others' => [
-        'ma_tAb Nap'
-      ],
       'lines' => [
         ';; mavAbap_1',
         'mvAb    mavAb   Nap     virtually;tantamount to'
@@ -2675,16 +3002,9 @@ $lexicon = {
   ],
   '_t m l' => [
     {
-      'types' => {
-        '_tumAl' => {
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => '_tumAl',
       'form' => '_tumAlaT',
-      'others' => [
-        '_tumAl NapAt'
-      ],
       'lines' => [
         ';; vumAlap_1',
         'vmAl    vumAl   NapAt   residue;dregs'
@@ -2731,6 +3051,36 @@ $lexicon = {
         '"Thurmont"' => 1
       },
       'orig' => 'vuwromuwnot',
+      'prefix' => ''
+    }
+  ],
+  '\'i_tb' => [
+    {
+      'types' => {},
+      'entry' => '\'i_tb',
+      'form' => '\'i_tbAt',
+      'lines' => [
+        ';; <ivobAt_1',
+        '<vbAt   <ivobAt NduAt   confirmation;verification',
+        'AvbAt   <ivobAt NduAt   confirmation;verification'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => ' |< At',
+      'glosses' => [
+        [
+          '"confirmation"'
+        ],
+        [
+          '"verification"'
+        ]
+      ],
+      'glosshash' => {
+        '"verification"' => 1,
+        '"confirmation"' => 1
+      },
+      'orig' => 'IivobAt',
       'prefix' => ''
     }
   ],
@@ -2789,6 +3139,38 @@ $lexicon = {
     }
   ],
   '_t m r' => [
+    {
+      'types' => {
+        '_tmir' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'a_tmar',
+      'form' => '\'a_tmar',
+      'others' => [
+        '_tmir IV_yu'
+      ],
+      'lines' => [
+        ';; >avomar_1',
+        '>vmr    >avomar PV      result',
+        'Avmr    >avomar PV      result',
+        'vmr     vomir   IV_yu   result'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"result"'
+        ]
+      ],
+      'glosshash' => {
+        '"result"' => 1
+      },
+      'orig' => 'Oavomar',
+      'prefix' => ''
+    },
     {
       'types' => {
         '\'a_tmAr' => {

@@ -413,7 +413,7 @@ mqbwl   maqobuwl        Nall    accepted;welcome;admitted     <pos>maqobuwl/ADJ<
 mqbwly  maqobuwliy~     Nap     acceptability     <pos>maqobuwliy~/NOUN</pos>
 ;; muqAbil_1
 mqAbl   muqAbil N       in exchange for;in compensation for
-mqAbl   muqAbil N       opposite to;corresponding to;vis-ŕ-vis
+mqAbl   muqAbil N       opposite to;corresponding to;vis-a-vis
 ;; muqobil_1
 mqbl    muqobil N-ap    next;coming;approaching     <pos>muqobil/ADJ</pos>
 ;; mutaqAbil_1
@@ -6582,6 +6582,7 @@ qwqAzy  qawoqAziy~      Nall    Caucasian     <pos>qawoqAziy~/NOUN</pos>
 qwqAzy  qawoqAziy~      Nall    Caucasian     <pos>qawoqAziy~/ADJ</pos>
 ;
 ;--- qwqs
+;; qawoqAs_1
 qwqAs   qawoqAs N       Caucasus
 ;; qawoqAsiy~_1
 qwqAsy  qawoqAsiy~      Nall    Caucasian     <pos>qawoqAsiy~/NOUN</pos>

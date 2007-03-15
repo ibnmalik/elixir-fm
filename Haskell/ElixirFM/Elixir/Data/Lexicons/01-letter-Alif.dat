@@ -503,10 +503,10 @@ AbydjAn >abiydojAn      N0      Abidjan
 >byk    >abiyk  N0      APEC (Asia-Pacific Economic Cooperation)
 Abyk    >abiyk  N0      APEC (Asia-Pacific Economic Cooperation)
 ;
-; AFP Corpus: Paris soccer stadium Abbé-Deschamps
+; AFP Corpus: Paris soccer stadium Abbe-Deschamps
 ;; >abiyh_1
->byh    >abiyh  Nprop   Abbé (in "Abbé-Deschamps")
-Abyh    >abiyh  Nprop   Abbé (in "Abbé-Deschamps")
+>byh    >abiyh  Nprop   Abbe (in "Abbe-Deschamps")
+Abyh    >abiyh  Nprop   Abbe (in "Abbe-Deschamps")
 ;
 ;--- Abn
 ;; {ibon_1
@@ -2913,18 +2913,18 @@ Az      |z      PV_ttAw_intr    be opposite;face
 &AzY    &AzaY   IV_0_Pass_yu    be opposite;be faced
 &Azy    &Azay   IV_Ann_Pass_yu  be opposite;be faced
 ;; <izA'_1
-<zA'    <izA'a  FW-Wa   towards;facing;regarding;vis-à-vis     <pos><izA'a/PREP</pos>
-AzA'    <izA'a  FW-Wa   towards;facing;regarding;vis-à-vis     <pos><izA'a/PREP</pos>
-<zA}    <izA}i  FW-Wa-i towards;facing;regarding;vis-à-vis     <pos><izA}i/PREP</pos>
-AzA}    <izA}i  FW-Wa-i towards;facing;regarding;vis-à-vis     <pos><izA}i/PREP</pos>
-<zA}    <izA}   FW-Wa-o towards;facing;regarding;vis-à-vis     <pos><izA}/PREP</pos>
-AzA}    <izA}   FW-Wa-o towards;facing;regarding;vis-à-vis     <pos><izA}/PREP</pos>
-b<zA'   bi<izA'i        FW-Wa   towards;facing;regarding;vis-à-vis     <pos>bi<izA'i/PREP</pos>
-bAzA'   bi<izA'i        FW-Wa   towards;facing;regarding;vis-à-vis     <pos>bi<izA'i/PREP</pos>
-b<zA}   bi<izA}i        FW-Wa-i towards;facing;regarding;vis-à-vis     <pos>bi<izA}i/PREP</pos>
-bAzA}   bi<izA}i        FW-Wa-i towards;facing;regarding;vis-à-vis     <pos>bi<izA}i/PREP</pos>
-b<zA}   bi<izA} FW-Wa-o towards;facing;regarding;vis-à-vis     <pos>bi<izA}i/PREP</pos>
-bAzA}   bi<izA} FW-Wa-o towards;facing;regarding;vis-à-vis     <pos>bi<izA}i/PREP</pos>
+<zA'    <izA'a  FW-Wa   towards;facing;regarding;vis-a-vis     <pos><izA'a/PREP</pos>
+AzA'    <izA'a  FW-Wa   towards;facing;regarding;vis-a-vis     <pos><izA'a/PREP</pos>
+<zA}    <izA}i  FW-Wa-i towards;facing;regarding;vis-a-vis     <pos><izA}i/PREP</pos>
+AzA}    <izA}i  FW-Wa-i towards;facing;regarding;vis-a-vis     <pos><izA}i/PREP</pos>
+<zA}    <izA}   FW-Wa-o towards;facing;regarding;vis-a-vis     <pos><izA}/PREP</pos>
+AzA}    <izA}   FW-Wa-o towards;facing;regarding;vis-a-vis     <pos><izA}/PREP</pos>
+b<zA'   bi<izA'i        FW-Wa   towards;facing;regarding;vis-a-vis     <pos>bi<izA'i/PREP</pos>
+bAzA'   bi<izA'i        FW-Wa   towards;facing;regarding;vis-a-vis     <pos>bi<izA'i/PREP</pos>
+b<zA}   bi<izA}i        FW-Wa-i towards;facing;regarding;vis-a-vis     <pos>bi<izA}i/PREP</pos>
+bAzA}   bi<izA}i        FW-Wa-i towards;facing;regarding;vis-a-vis     <pos>bi<izA}i/PREP</pos>
+b<zA}   bi<izA} FW-Wa-o towards;facing;regarding;vis-a-vis     <pos>bi<izA}i/PREP</pos>
+bAzA}   bi<izA} FW-Wa-o towards;facing;regarding;vis-a-vis     <pos>bi<izA}i/PREP</pos>
 ;
 ;; |s_1
 |s      |s      N       myrtle
@@ -3021,8 +3021,8 @@ AsbAn   <isobAn N       Spaniards
 AsbAnx  <isobAnax       N0      spinach
 ;
 ;; <isobAnoyuwl_1
-<sbAnywl        <isobAnoyuwl    Nprop   Español
-AsbAnywl        <isobAnoyuwl    Nprop   Español
+<sbAnywl        <isobAnoyuwl    Nprop   Espanol
+AsbAnywl        <isobAnoyuwl    Nprop   Espanol
 ;
 ;; <isobidAj_1
 <sbdAj  <isobidAj       N       white lead;ceruse
@@ -5773,6 +5773,7 @@ Ambyr   >amobiyr        NduAt   ampere
 AmAbyr  >amAbiyr        Ndip    amperes
 ;
 ;--- Amd
+;; >amad_1
 >md     >amad   N       term;period;extent;range;duration
 Amd     >amad   N       term;period;extent;range;duration
 |mAd    |mAd    N       terms;periods
@@ -6098,7 +6099,7 @@ m&mn    mu&omin Nall    believer
 ;; mu&omin_2
 m&mn    mu&omin Nall    believer (Muslim)
 ;; musota>omin_1
-mst>mn  musota>omin     Nall    protégé
+mst>mn  musota>omin     Nall    protege
 ;; mu&otaman_1
 m&tmn   mu&otaman       Nall    trustworthy;entrusted
 ;
@@ -7160,10 +7161,10 @@ mt>ny   muta>an~iy      NapAt   circumspect;prudent
 >nY     >an~aY  FW-Wa   where?;how?;however     <pos>>an~aY/CONJ</pos>
 AnY     >an~aY  FW-Wa   where?;how?;however     <pos>>an~aY/CONJ</pos>
 ;
-; ETA's Ignacio Garcia Arregui (Iñaki de Renteria)
+; ETA's Ignacio Garcia Arregui (Inaki de Renteria)
 ;; <iniyAkiy_1
-<nyAky  <iniyAkiy       Nprop   Iñaki
-AnyAky  <iniyAkiy       Nprop   Iñaki
+<nyAky  <iniyAkiy       Nprop   Inaki
+AnyAky  <iniyAkiy       Nprop   Inaki
 ;
 ;; <iniyrojiy_1
 <nyrjy  <iniyrojiy      Nprop   Energy

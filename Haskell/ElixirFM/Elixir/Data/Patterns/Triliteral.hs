@@ -240,6 +240,8 @@ data PatternT =
         |   FiCCAL                                      |   FICAL
         |   FuCCAL                                      |   FUCAL
 
+        |   FuCCaL
+
         |   FiCCIL
 
         |   FaCCUL
@@ -257,18 +259,20 @@ data PatternT =
         |   FawACiL                                     |   FawA'iL
         |   FawACIL                                     |   FawA'IL
 
-        |   MaFACiL                                     |   MaFA'iL             |   MaFACiN
+        |   MaFACiL                                     |   MaFA'iL             |   MaFACiN             |   MaFACL
         |   MaFACIL                                     |   MaFA'IL
 
+     {- |   FaCaL   -}                                                          |   FaCaNY
+        |   FiCaL                                                               |   FiCaNY
+        |   FuCaL                                                               |   FuCaNY
         |   FuCuL
-        |   FiCaL
 
         |   FaCLAn
         |   FaCaLAn
 
         |   FuCayL
 
-        |   FuCLY
+        |   FuCLY                                                               |   FuCyA
         |   FaCLY
 
 --  Form II
