@@ -232,7 +232,8 @@ data PatternT =
 
         |   FaCIL
 
-     -- |   FACiL
+     {- |   FACiL   -}                                  |   FA'iL               |   FACiN
+
         |   MaFCUL                                      |   MaFUL               |   MaFCIy
 
         |   FaCCAL

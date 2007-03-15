@@ -9,6 +9,8 @@ our $VERSION = do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
 
 use strict;
 
+use re 'eval';
+
 use Encode::Arabic;
 
 use Lingua::EN::Tagger;
@@ -16,9 +18,9 @@ use Lingua::EN::Tagger;
 use Data::Dumper;
 
 
-our ($ID, $Lexicon, $Entry, $X);
+our ($ID, $Lexicon, $Entry);
 
-our (%lexiconEnglish, $rootReport);
+our (%lexiconEnglish, $rootReport, $skipOthers);
 
 our ($line, $root, $char);
 our (%patterns, @patterns);
@@ -72,9 +74,11 @@ until (eof()) {
 
         $line = decode $decode, scalar <>;
 
+        chomp $line;
+
         if ($line =~ /^;--- (.+)$/) {
 
-            $root = encode "arabtex", decode "buckwalter", $1;
+            $root = encode "arabtex", decode "buckwalter", join ' ', split //, $1;
 
             $root =~ tr[A]['];
 
@@ -84,17 +88,24 @@ until (eof()) {
         }
         elsif ($line =~ /^;;/) {
 
-            my (undef, $orig, $index) = split /[\;\_\s]+/, $line;
+            my (undef, $orig, $index) = split /[\;\_\s\(]+/, $line;
 
-            next unless not defined $lexicon or
-                        exists $lexicon->{$orig} and exists $lexicon->{$orig}{$index} and
-                        exists $lexicon->{$orig}{$index}{'done'} and $lexicon->{$orig}{$index}{'done'} > 0;
+            $skipOthers = 0;
+
+            unless (not defined $lexicon or
+                    exists $lexicon->{$orig} and exists $lexicon->{$orig}{$index} and
+                    exists $lexicon->{$orig}{$index}{'done'} and $lexicon->{$orig}{$index}{'done'} > 0) {
+
+                $skipOthers = 1;
+
+                next;
+            }
 
             warn unless $index;
 
             beginEntry($orig, $index);
         }
-        elsif ($line !~ /^;/) {
+        elsif ($line !~ /^;/ and not $skipOthers) {
 
             $line =~ s/\<pos\>/\[\[/;
             $line =~ s/\<\/pos\>/\]\]/;
@@ -139,77 +150,26 @@ sub beginEntry {
 
     $Entry = {};
 
-    $Entry->{'index'} = $_[1];
-
     $Entry->{'orig'} = $_[0];
 
     $Entry->{'form'} = convert($Entry->{'orig'});
 
-    my $entry = $Entry->{'form'};
+    $Entry->{'index'} = $_[1];
 
-    my ($suffix, $prefix, $imperf);
+    $Entry->{'lines'} = [$line];
 
-    $suffix = $prefix = '';
-    $imperf = undef;
+    if ($Entry->{'form'} =~ /^([^-]+)-([aiu]+)$/) {
 
-    if ($entry =~ /^al(.*)$/) {
+        $Entry->{'form'} = $1;
 
-        $entry = $1;
-        $prefix = $prefix . 'al >| ';
-    }
-
-    if ($entry =~ /^(.*)aN$/) {
-
-        $entry = $1;
-        $suffix = ' |< aN' . $suffix;
-    }
-
-    if ($entry =~ /^(.*)aT$/) {
-
-        $entry = $1;
-        $suffix = ' |< aT' . $suffix;
-    }
-
-    if ($entry =~ /^(.*)AT$/) {
-
-        $entry = $1 . "aNY";
-        $suffix = ' |< aT' . $suffix;
-    }
-
-    if ($entry =~ /^(.*)At$/) {
-
-        $entry = $1;
-        $suffix = ' |< At' . $suffix;
-    }
-
-    if ($entry =~ /^(.*)iyy$/) {
-
-        $entry = $1;
-        $suffix = ' |< Iy' . $suffix;
-    }
-
-    if ($entry =~ /^([^-]+)-([aiu]+)$/) {
-
-        $entry = $1;
-        $imperf = [ map { 'FC' . $_ . 'L' } split //, $2 ];
-    }
-
-    if (defined $imperf) {
+        $Entry->{'imperf'} = [ map { 'FC' . $_ . 'L' } split //, $2 ];
 
         $Entry->{'entity'} = 'verb';
-        $Entry->{'imperf'} = $imperf;
     }
     else {
 
         $Entry->{'entity'} = 'noun';
     }
-
-    $Entry->{'entry'} = $entry;
-
-    $Entry->{'lines'} = [$line];
-
-    $Entry->{'prefix'} = $prefix;
-    $Entry->{'suffix'} = $suffix;
 }
 
 
@@ -249,25 +209,73 @@ sub closeEntry {
     }
 
 
+    my $entry = $Entry->{'form'};
+
+    my ($suffix, $prefix, $imperf);
+
+    $suffix = $prefix = '';
+
+    if ($Entry->{'entity'} eq 'noun') {
+
+        if ($entry =~ /^al(.*)$/) {
+
+            $entry = $1;
+            $prefix = $prefix . 'al >| ';
+        }
+
+        if ($entry =~ /^(.*)aN$/) {
+
+            $entry = $1;
+            $suffix = ' |< aN' . $suffix;
+        }
+
+        if ($entry =~ /^(.*)aT$/) {
+
+            $entry = $1;
+            $suffix = ' |< aT' . $suffix;
+        }
+
+        if ($entry =~ /^(.*)AT$/) {
+
+            $entry = $1 . "aNY";
+            $suffix = ' |< aT' . $suffix;
+        }
+
+        if ($entry =~ /^(.*)At$/) {
+
+            $entry = $1;
+            $suffix = ' |< At' . $suffix;
+        }
+
+        if ($entry =~ /^(.*)iyy$/) {
+
+            $entry = $1;
+            $suffix = ' |< Iy' . $suffix;
+        }
+    }
+
+    $Entry->{'entry'} = $entry;
+
+    $Entry->{'prefix'} = $prefix;
+    $Entry->{'suffix'} = $suffix;
+
+
     my %root = ();
 
     foreach my $pattern (@patterns) {
 
         next if $Entry->{'entity'} eq 'noun' and $patterns{$pattern} =~ /^FUCi?L$/;
 
+        my ($F, $C, $L, $K, $R, $D, $S);
+
         if ($Entry->{'entry'} =~ /^$pattern$/) {
 
-            my @root = ();
+            my @root = defined $F || defined $C || defined $L ? ($F, $C, $L) : ($K, $R, $D, $S);
 
-            for (my $i = 1; $i < @+; $i++) {
-
-                $root[$i - 1] = substr $Entry->{'entry'}, $-[$i], $+[$i] - $-[$i];
-            }
-
-            next if @root >= 2 and $root[0] eq $root[1] or
+            next if defined $root[0] and defined $root[1] and $root[0] eq $root[1] or
                     @root == 4 and $root[1] eq $root[2] || $root[2] eq $root[3];
 
-            push @{$root{join '', @root}}, $patterns{$pattern};
+            push @{$root{join ' ', map { defined $_ ? $_ : '' } @root}}, $patterns{$pattern};
         }
     }
 
@@ -278,25 +286,39 @@ sub closeEntry {
     }
     else {
 
-        my $some_root = 0;
+        my $done = undef;
 
-        foreach $root (keys %root) {        # localizing $root
+        my @root = split / /, $root;
 
-            if ($root =~ /^$char/ or ($root =~ tr[a-z'`][a-z'`]) == 1) {
+        push @root, ('') x (3 - @root) unless @root > 3;
 
-                $some_root = 1;
+        foreach my $toor (keys %root) {
 
-                storeEntry($root, $_) foreach @{$root{$root}};
+            my @toor = split / /, $toor;
+
+            push @toor, ('') x (3 - @toor) unless @toor > 3;
+
+            if ($toor[0] eq $char) {
+
+                $done = 1;
+
+                $toor[1] = $root[1] if $toor[1] eq '';
+                $toor[2] = $root[2] if $toor[2] eq '';
+
+                storeEntry((join ' ', @toor), $_) foreach @{$root{$toor}};
             }
-            elsif (($root =~ tr[a-z'`][a-z'`]) == 2) {
+            elsif ($toor[0] eq '' and $toor[1] ne '') {
 
-                $some_root = 1;
+                $done = 1;
 
-                storeEntry($char . $root, $_) foreach @{$root{$root}};
+                $toor[0] = $root[0];
+                $toor[2] = $root[2] if $toor[2] eq '';
+
+                storeEntry((join ' ', @toor), $_) foreach @{$root{$toor}};
             }
         }
 
-        storeEntry($Entry->{'entry'}, 'Identity') unless $some_root;
+        storeEntry($Entry->{'entry'}, 'Identity') unless defined $done;
     }
 
     $Entry = undef;
@@ -362,7 +384,7 @@ sub produceEnglish {
 
     select L;
 
-    print << "English";
+    print << "    return;";
 
 module English where
 
@@ -373,7 +395,7 @@ version = revised "\$Revision: \$"
 
 english = [
 
-English
+    return;
 
     # english = error "English undefined"
 
@@ -403,7 +425,7 @@ sub beginLexicon {
 
     select L;
 
-    print << " |> \"\" <|";
+    print << "    return;";
 
 module Elixir.Data.Lexicons.Lexicon$ID where
 
@@ -415,8 +437,7 @@ version = revised "\$Revision: \$"
 lexicon = listing "Lexicon properties"
 
 
- |> "" <|
-
+    return;
 }
 
 
@@ -426,9 +447,28 @@ sub closeLexicon {
 
     close L;
 
+    open L, '>', "Lexicon$ID.pm" or die 'Do not redirect the standard output! Dying';
+
+    select L;
+
+    print << "    return;";
+
+package Elixir::Data::Lexicons::Lexicon$ID;
+
+
+(\$VERSION) = q \$Revision: \$ =~ /(\\d+)/;
+
+
+    return;
+
+    $Data::Dumper::Indent = 1;
+
+    print Data::Dumper->Dump([$Lexicon], ['lexicon']);
+
+    close L;
+
     print STDERR "\n";
 }
-
 
 
 sub showNest ($$) {
@@ -446,7 +486,7 @@ sub showEntry ($) {
     my $entry = $_[0];
 
     return sprintf "%s\n    %-8s %-25s %-20s %s",
-                   (join '', map { '    -- ' . $_ } @{$entry->{'lines'}}),
+                   (join '', map { '    -- ' . $_ . "\n" } @{$entry->{'lines'}}),
                    $entry->{'entity'}, $entry->{'morphs'},
                    (exists $entry->{'orig'} ? '{- ' . $entry->{'orig'} . ' -}' : ''),
                    (join "\n" . ' ' x 60,
@@ -500,14 +540,15 @@ sub readableEnglish {
 
 sub initialize_patterns {
 
-    $X = "\\'|b|t|\\_t|\\^g|\\.h|\\_h|d|\\_d|r|z|s|\\^s|\\.s|\\.d|\\.t|\\.z|\\`|\\.g|f|q|k|l|m|n|h|w|y";
+    my $C = "(\\'|b|t|\\_t|\\^g|\\.h|\\_h|d|\\_d|r|z|s|\\^s|\\.s|\\.d|\\.t|\\.z|\\`|\\.g|f|q|k|l|m|n|h|w|y)";
+    my $T = "(?:t|\\_t|d|\\_d|\\.t)";
 
     my @pAttErns = read_patterns('Patterns/Triliteral.hs', 'Patterns/Quadriliteral.hs');
 
     printf STDERR "%4d patterns\n", scalar @pAttErns;
 
-    my %r = ( F => 1, C => 2, L => 3,
-              K => 1, R => 2, D => 3, S => 4 );
+    my %r = ( 'F' => 1, 'C' => 2, 'L' => 3,
+              'K' => 1, 'R' => 2, 'D' => 3, 'S' => 4 );
 
     @patterns = map { do {  my $x = $_;
 
@@ -525,21 +566,17 @@ sub initialize_patterns {
                             $x = quotemeta $x;
                             $x =~ s/\\~/\{2\}/g;
 
-                            $x =~ s/(?<=F)t/(?:t|\\_t|d|\\_d|\\.t)/;
+                            $x =~ s/(?<=F)t/$T/;
 
                             foreach my $c (keys %r) {
 
-                                $x =~ s/$c/(${X})/;
-                                $x =~ s/$c/\\$r{$c}/g;
+                                $x =~ s/$c/$C(?{\$$c = \$^N})/;
+                                $x =~ s/(?<!\$)$c/\\$r{$c}/g;
                             }
 
                             $x
 
                     } }     @pAttErns;
-
-    local $, = "\n";
-
-    print @patterns;
 
     %patterns = ();
 
@@ -568,7 +605,6 @@ sub read_patterns {
 
         while ($line = <F>) {
 
-
             if ($line =~ /^(.*) \s+ deriving \s+/x and $1 !~ /--/) {
 
                 push @lines, $1;
@@ -583,5 +619,5 @@ sub read_patterns {
         close F;
     }
 
-    return grep { $_ ne '' } map { split /\|\s*|\s+/, $_ } @lines;
+    return grep { $_ ne '' } map { s/\{\- .*? \-\}//gx; split /\|\s*|\s+/, $_ } @lines;
 }
