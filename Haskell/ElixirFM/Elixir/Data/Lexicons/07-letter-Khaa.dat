@@ -2424,8 +2424,8 @@ xTAb    xiTAb   N/At    letter
 ;; xiTAbiy~_1
 xTAby   xiTAbiy~        Nall    oratorical     <pos>xiTAbiy~/ADJ</pos>
 ;; xaTiyb_1
-xTyb    xaTiyb  N/ap    fianc√©
-xTyb    xaTiyb  Nap     fianc√©e
+xTyb    xaTiyb  N/ap    fianc√<<©<<
+xTyb    xaTiyb  Nap     fianc√<<©<<e
 ;; xaTiyb_2
 xTyb    xaTiyb  N/ap    orator;lecturer;preacher
 ;; xaTiyb_3
@@ -2441,7 +2441,7 @@ mxATb   muxATab NapAt   conversation;addressing
 ;; taxATub_1
 txATb   taxATub NduAt   conversation;dialogue
 ;; xATib_1
-xATb    xATib   Ndu     suitor;fianc√©
+xATb    xATib   Ndu     suitor;fianc√<<©<<
 xTAb    xuT~Ab  N       suitors
 xTAb    xuT~Ab  N       matchmakers
 ;; xATibap_1

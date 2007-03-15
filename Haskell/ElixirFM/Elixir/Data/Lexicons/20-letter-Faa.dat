@@ -1351,7 +1351,7 @@ frAns   frAnos  Nprop   France
 frAnsA  frAnosA Nprop   Fransa
 ;
 ;; frAnosuwA_1
-frAnswA frAnosuwA       Nprop   Fran√ßois
+frAnswA frAnosuwA       Nprop   Fran√<<ß<<ois
 ;
 ;; frAnosiysokuw_1
 frAnsyskw       frAnosiysokuw   Nprop   Francisco
@@ -2351,7 +2351,7 @@ frnsA   faranosA        N0      France
 frnsAwy faranosAwiy~    Nall    French     <pos>faranosAwiy~/NOUN</pos>
 frnsAwy faranosAwiy~    Nall    French     <pos>faranosAwiy~/ADJ</pos>
 ;; franosuwA_1
-frnswA  franosuwA       Nprop   Fran√ßois
+frnswA  franosuwA       Nprop   Fran√<<ß<<ois
 ;; tafaronus_1
 tfrns   tafaronus       N/At    Frenchification
 ;

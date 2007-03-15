@@ -2368,8 +2368,8 @@ HAsb    HAsib   Nall    calculator;computer
 ;; maHosuwb_1
 mHswb   maHosuwb        N-ap    calculated;measured     <pos>maHosuwb/ADJ</pos>
 ;; maHosuwb_2
-mHswb   maHosuwb        Nall    prot√©g√©;favorite;patronised
-mHAsyb  maHAsiyb        Ndip    prot√©g√©s;favorites;patronised
+mHswb   maHosuwb        Nall    prot√<<©<<g√<<©<<;favorite;patronised
+mHAsyb  maHAsiyb        Ndip    prot√<<©<<g√<<©<<s;favorites;patronised
 ;; maHosuwbiy~ap_1
 mHswby  maHosuwbiy~     Nap     patronage;favoritism     <pos>maHosuwbiy~/NOUN</pos>
 ;; muHAsib_1
@@ -5351,11 +5351,11 @@ mHAmy   muHAmiy NAn_Nayn        lawyer;defense counsel
 mHAm    muHAm   Nuwn_Niyn       lawyers;defense counsel
 mHAmy   muHAmiy NapAt   lawyer;defense counsel
 ;; muHotamiy_1
-mHtmy   muHotamiy       N0_Nh   prot√©g√©
-mHtm    muHotam NK      prot√©g√©
-mHtmy   muHotamiy       NAn_Nayn        prot√©g√©s
-mHtm    muHotam Nuwn_Niyn       prot√©g√©s
-mHtmy   muHotamiy       NapAt   prot√©g√©
+mHtmy   muHotamiy       N0_Nh   prot√<<©<<g√<<©<<
+mHtm    muHotam NK      prot√<<©<<g√<<©<<
+mHtmy   muHotamiy       NAn_Nayn        prot√<<©<<g√<<©<<s
+mHtm    muHotam Nuwn_Niyn       prot√<<©<<g√<<©<<s
+mHtmy   muHotamiy       NapAt   prot√<<©<<g√<<©<<
 ;
 ;--- Hn
 ;; Han~an_1

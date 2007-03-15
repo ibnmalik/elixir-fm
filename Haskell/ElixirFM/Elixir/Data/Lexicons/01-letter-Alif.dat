@@ -574,8 +574,8 @@ AtlAntA >atolAnotA      Nprop   Atlanta
 AtlAntyk        >atolAnotiyk    N0      Atlantic
 ;
 ;; >atolitiykuw_1
->tltykw >atolitiykuw    N0      Atl√©tico
-Atltykw >atolitiykuw    N0      Atl√©tico
+>tltykw >atolitiykuw    N0      Atl√<<©<<tico
+Atltykw >atolitiykuw    N0      Atl√<<©<<tico
 ;
 ;--- Atm
 ;; ma>otam_1
@@ -4958,8 +4958,8 @@ AlAbAmA >alAbAmA        Nprop   Alabama
 AlAskA  >alAsokA        N0      Alaska
 ;
 ;; >alAfiys_1
->lAfys  >alAfiys        Nprop   Alav√©s
-AlAfys  >alAfiys        Nprop   Alav√©s
+>lAfys  >alAfiys        Nprop   Alav√<<©<<s
+AlAfys  >alAfiys        Nprop   Alav√<<©<<s
 ;
 ;; |lAn_1
 |lAn    |lAn    Nprop   Allan;Allen;Alain
@@ -6826,8 +6826,8 @@ An$wj   >ano$uwj        NapAt   anchovy
 An$ylwty        >ano$iyluwtiy   Nprop   Ancelotti
 ;
 ;; >ano$iyniyh_1
->n$ynyh >ano$iyniyh     Nprop   Encha√Æn√©
-An$ynyh >ano$iyniyh     Nprop   Encha√Æn√©
+>n$ynyh >ano$iyniyh     Nprop   Encha√<<Æ<<n√<<©<<
+An$ynyh >ano$iyniyh     Nprop   Encha√<<Æ<<n√<<©<<
 ;
 ;; >anoTaloyAs_1
 >nTlyAs >anoTaloyAs     Nprop   Antalyas
