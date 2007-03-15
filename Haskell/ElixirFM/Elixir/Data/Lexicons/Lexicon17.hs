@@ -98,7 +98,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muZAharap_1
     -- mZAhr   muZAhar NapAt   demonstration;rally
 
-    noun     MuFACaL                   {- muZAharap -}      `gloss`  [ "demonstration", "rally" ],
+    noun     MuFACaL |< aT             {- muZAharap -}      `gloss`  [ "demonstration", "rally" ],
 
     -- ;; <iZohAr_1
     -- <ZhAr   <iZohAr N/At    expressing;showing;demonstrating
@@ -114,7 +114,7 @@ lexicon = listing "Lexicon properties"
     -- ;; taZAhurap_1
     -- tZAhr   taZAhur NapAt   rally;demonstration
 
-    noun     TaFACuL                   {- taZAhurap -}      `gloss`  [ "rally", "demonstration" ],
+    noun     TaFACuL |< aT             {- taZAhurap -}      `gloss`  [ "rally", "demonstration" ],
 
     -- ;; ZAhir_1
     -- ZAhr    ZAhir   N/ap    evident;apparent;manifest;visible
@@ -130,7 +130,7 @@ lexicon = listing "Lexicon properties"
     -- ZAhr    ZAhir   Napdu   phenomenon
     -- ZwAhr   ZawAhir Ndip    phenomena
 
-    noun     FACiL                     {- ZAhirap -}        `others` [ ".zawAhir Ndip" ]
+    noun     FACiL |< aT               {- ZAhirap -}        `others` [ ".zawAhir Ndip" ]
                                                             `gloss`  [ "phenomenon", "phenomena" ] ]
 
  |> ".z l l" <| [
@@ -149,7 +149,7 @@ lexicon = listing "Lexicon properties"
     -- mZl     miZal~  NapAt   umbrella
     -- mZAl    maZAl~  Ndip    umbrellas
 
-    noun     MiFaCL                    {- miZal~ap -}       `others` [ "ma.zAll Ndip" ]
+    noun     MiFaCL |< aT              {- miZal~ap -}       `others` [ "ma.zAll Ndip" ]
                                                             `gloss`  [ "umbrella", "umbrellas" ] ]
 
  |> ".z l m" <| [
@@ -168,7 +168,7 @@ lexicon = listing "Lexicon properties"
     -- ;; ZalAmiy~_1
     -- ZlAmy   ZalAmiy~        Nall    obscurantist     [[ZalAmiy~/ADJ]]
 
-    noun     FaCAL                     {- ZalAmiy~ -}       `gloss`  [ "obscurantist [ [ ZalAmiy ~ / ADJ ] ]" ],
+    noun     FaCAL |< Iy               {- ZalAmiy~ -}       `gloss`  [ "obscurantist [ [ ZalAmiy ~ / ADJ ] ]" ],
 
     -- ;; taZal~um_1
     -- tZlm    taZal~um        N/At    complaint
@@ -237,7 +237,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Zarofiy~_1
     -- Zrfy    Zarofiy~        N-ap    circumstantial     [[Zarofiy~/ADJ]]
 
-    noun     FaCL                      {- Zarofiy~ -}       `gloss`  [ "circumstantial [ [ Zarofiy ~ / ADJ ] ]" ],
+    noun     FaCL |< Iy                {- Zarofiy~ -}       `gloss`  [ "circumstantial [ [ Zarofiy ~ / ADJ ] ]" ],
 
     -- ;; Zariyf_1
     -- Zryf    Zariyf  N/ap    adroit;elegant

@@ -461,7 +461,7 @@ dwAjn   dawAjin Ndip    poultry
 ;; mudaj~an_1
 mdjn    mudaj~an        Nall    domesticated     <pos>mudaj~an/ADJ</pos>
 ;; mudaj~an_2
-mdjn    mudaj~an        Nuwn_Niyn       MudÃ<<©<<jars
+mdjn    mudaj~an        Nuwn_Niyn       Mudejars
 ;
 ;--- djnb
 ;; dujanobir_1
@@ -4325,7 +4325,7 @@ dyzny   diyzoniy        Nprop   Disney
 ; Laurent Desire Kabila
 ;; diyziyriyh_1
 dyzyryh diyziyriyh      Nprop   Desire
-dyzyryh diyziyriyh      Nprop   DesirÃ<<©<<e
+dyzyryh diyziyriyh      Nprop   Desiree
 ;
 ;--- dys
 ;; diys_1
@@ -4338,7 +4338,7 @@ dysmbr  diysamobir      N0      December
 dsmbr   disamobir       N0      December
 ;
 ;--- dy$
-; AFP Corpus: Paris soccer stadium AbbÃ<<©<<-Deschamps
+; AFP Corpus: Paris soccer stadium Abbe-Deschamps
 ;; diy$An_1
 dy$An   diy$An  Nprop   Deschamps
 ;
@@ -4407,10 +4407,10 @@ dykmAn  diykomAn        Nprop   Dickman
 dykwjy  diykuwjiy       Nprop   Decugis
 ;
 ;; diykuwr_1
-dykwr   diykuwr N/At    dÃ<<©<<cor;interior decoration
+dykwr   diykuwr N/At    decor;interior decoration
 ;
 ;; diykuwlotiyh_1
-dykwltyh        diykuwlotiyh    N       dÃ<<©<<colletÃ<<©<<
+dykwltyh        diykuwlotiyh    N       decollete
 ;
 ;--- dyl
 ; AFP corpus: "Punta del Este"

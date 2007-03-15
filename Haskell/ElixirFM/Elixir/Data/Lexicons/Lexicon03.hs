@@ -48,7 +48,7 @@ lexicon = listing "Lexicon properties"
     -- tHf     tuHof   Napdu   gift;museum article
     -- tHf     tuHaf   N       gifts;museum articles
 
-    noun     FuCL                      {- tuHofap -}        `others` [ "tu.haf N" ]
+    noun     FuCL |< aT                {- tuHofap -}        `others` [ "tu.haf N" ]
                                                             `gloss`  [ "gift", "museum article", "gifts", "museum articles" ],
 
     -- ;; matoHaf_1
@@ -63,7 +63,7 @@ lexicon = listing "Lexicon properties"
     -- ;; taHotiy~_1
     -- tHty    taHotiy~        Nall    under;infra-     [[taHotiy~/ADJ]]
 
-    noun     FaCL                      {- taHotiy~ -}       `gloss`  [ "under", "infra- [ [ taHotiy ~ / ADJ ] ]" ] ]
+    noun     FaCL |< Iy                {- taHotiy~ -}       `gloss`  [ "under", "infra- [ [ taHotiy ~ / ADJ ] ]" ] ]
 
  |> "t ^g r" <| [
 
@@ -77,12 +77,12 @@ lexicon = listing "Lexicon properties"
     -- ;; tijArap_1
     -- tjAr    tijAr   Nap     commerce;business
 
-    noun     FiCAL                     {- tijArap -}        `gloss`  [ "commerce", "business" ],
+    noun     FiCAL |< aT               {- tijArap -}        `gloss`  [ "commerce", "business" ],
 
     -- ;; tijAriy~_1
     -- tjAry   tijAriy~        Nall    commercial;business     [[tijAriy~/ADJ]]
 
-    noun     FiCAL                     {- tijAriy~ -}       `gloss`  [ "commercial", "business [ [ tijAriy ~ / ADJ ] ]" ],
+    noun     FiCAL |< Iy               {- tijAriy~ -}       `gloss`  [ "commercial", "business [ [ tijAriy ~ / ADJ ] ]" ],
 
     -- ;; matojar_1
     -- mtjr    matojar Ndu     store;business
@@ -203,18 +203,18 @@ lexicon = listing "Lexicon properties"
     -- ;; tabiEap_1
     -- tbE     tabiE   NapAt   consequence;responsibility
 
-    noun     FaCiL                     {- tabiEap -}        `gloss`  [ "consequence", "responsibility" ],
+    noun     FaCiL |< aT               {- tabiEap -}        `gloss`  [ "consequence", "responsibility" ],
 
     -- ;; tibAEAF_1
     -- tbAE    tibAE   NF      in succession;consecutively     [[tibAE/ADV]]
 
-    noun     FiCAL                     {- tibAEAF -}        `others` [ "tibA` NF" ]
+    noun     FiCAL |< aN               {- tibAEAF -}        `others` [ "tibA` NF" ]
                                                             `gloss`  [ "in succession", "consecutively [ [ tibAE / ADV ] ]" ],
 
     -- ;; mutAbaEap_1
     -- mtAbE   mutAbaE NapAt   pursuit;continuation
 
-    noun     MuFACaL                   {- mutAbaEap -}      `gloss`  [ "pursuit", "continuation" ],
+    noun     MuFACaL |< aT             {- mutAbaEap -}      `gloss`  [ "pursuit", "continuation" ],
 
     -- ;; tatab~uE_1
     -- ttbE    tatab~uE        NduAt   pursuit;course
@@ -229,7 +229,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tAbiEiy~_1
     -- tAbEy   tAbiEiy~        N0      Tabie;Tabii
 
-    noun     FACiL                     {- tAbiEiy~ -}       `gloss`  [ "Tabie", "Tabii" ],
+    noun     FACiL |< Iy               {- tAbiEiy~ -}       `gloss`  [ "Tabie", "Tabii" ],
 
     -- ;; mutAbaE_1
     -- mtAbE   mutAbaE N/ap    followed;agreed
@@ -261,7 +261,7 @@ lexicon = listing "Lexicon properties"
     -- ;; takotiykiy~_1
     -- tktyky  takotiykiy~     Nall    tactical;tactic     [[takotiykiy~/ADJ]]
 
-    noun     KaRDIS                    {- takotiykiy~ -}    `gloss`  [ "tactical", "tactic [ [ takotiykiy ~ / ADJ ] ]" ] ]
+    noun     KaRDIS |< Iy              {- takotiykiy~ -}    `gloss`  [ "tactical", "tactic [ [ takotiykiy ~ / ADJ ] ]" ] ]
 
  |> "t l f" <| [
 
@@ -286,7 +286,7 @@ lexicon = listing "Lexicon properties"
     -- ;; talofazap_1
     -- tlfz    talofaz Nap     telecast;television
 
-    noun     KaRDaS                    {- talofazap -}      `gloss`  [ "telecast", "television" ],
+    noun     KaRDaS |< aT              {- talofazap -}      `gloss`  [ "telecast", "television" ],
 
     -- ;; mutalofaz_1
     -- mtlfz   mutalofaz       N-ap    televised     [[mutalofaz/ADJ]]
@@ -313,7 +313,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tal~ap_1
     -- tl      tal~    NapAt   heap
 
-    noun     FaCL                      {- tal~ap -}         `gloss`  [ "heap" ] ]
+    noun     FaCL |< aT                {- tal~ap -}         `gloss`  [ "heap" ] ]
 
  |> "t l m _d" <| [
 
@@ -444,7 +444,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tamiymiy~_1
     -- tmymy   tamiymiy~       N0      Tamimi
 
-    noun     FaCIL                     {- tamiymiy~ -}      `gloss`  [ "Tamimi" ],
+    noun     FaCIL |< Iy               {- tamiymiy~ -}      `gloss`  [ "Tamimi" ],
 
     -- ;; >atam~_2
     -- >tm     >atam~  Nel     more/most complete;more/most perfect
@@ -500,13 +500,6 @@ lexicon = listing "Lexicon properties"
 
     noun     FaCCUL                    {- tam~uwz -}        `gloss`  [ "July" ] ]
 
- |> "t n h" <| [
-
-    -- ;; tuwniy_1
-    -- twny    tuwniy  Nprop   Toni
-
-    noun     FUCiy                     {- tuwniy -}         `gloss`  [ "Toni" ] ]
-
  |> "t n n" <| [
 
     -- ;; tin~iyn_2
@@ -516,13 +509,20 @@ lexicon = listing "Lexicon properties"
     noun     FiCCIL                    {- tin~iyn -}        `others` [ "tanAniyn Ndip" ]
                                                             `gloss`  [ "dragon", "dragons" ] ]
 
+ |> "t n q" <| [
+
+    -- ;; tuwniy_1
+    -- twny    tuwniy  Nprop   Toni
+
+    noun     FUCiy                     {- tuwniy -}         `gloss`  [ "Toni" ] ]
+
  |> "t n z" <| [
 
     -- ;; tanzAniy~_1
     -- tnzAny  tanozAniy~      Nall    Tanzanian     [[tanzAniy~/NOUN]]
     -- tnzAny  tanozAniy~      Nall    Tanzanian     [[tanzAniy~/ADJ]]
 
-    noun     FaCLAn                    {- tanzAniy~ -}      `gloss`  [ "Tanzanian [ [ tanzAniy ~ / NOUN ] ]", "Tanzanian [ [ tanzAniy ~ / ADJ ] ]" ] ]
+    noun     FaCLAn |< Iy              {- tanzAniy~ -}      `gloss`  [ "Tanzanian [ [ tanzAniy ~ / NOUN ] ]", "Tanzanian [ [ tanzAniy ~ / ADJ ] ]" ] ]
 
  |> "t n z n" <| [
 
@@ -530,24 +530,24 @@ lexicon = listing "Lexicon properties"
     -- tnzAny  tanozAniy~      Nall    Tanzanian     [[tanzAniy~/NOUN]]
     -- tnzAny  tanozAniy~      Nall    Tanzanian     [[tanzAniy~/ADJ]]
 
-    noun     KaRDAS                    {- tanzAniy~ -}      `gloss`  [ "Tanzanian [ [ tanzAniy ~ / NOUN ] ]", "Tanzanian [ [ tanzAniy ~ / ADJ ] ]" ] ]
+    noun     KaRDAS |< Iy              {- tanzAniy~ -}      `gloss`  [ "Tanzanian [ [ tanzAniy ~ / NOUN ] ]", "Tanzanian [ [ tanzAniy ~ / ADJ ] ]" ] ]
 
  |> "t q n" <| [
 
     -- ;; taqoniy~_1
     -- tqny    taqoniy~        N-ap    technical     [[taqoniy~/ADJ]]
 
-    noun     FaCL                      {- taqoniy~ -}       `gloss`  [ "technical [ [ taqoniy ~ / ADJ ] ]" ],
+    noun     FaCL |< Iy                {- taqoniy~ -}       `gloss`  [ "technical [ [ taqoniy ~ / ADJ ] ]" ],
 
     -- ;; taqoniy~_2
     -- tqny    taqoniy~        Nall    technician     [[taqoniy~/NOUN]]
 
-    noun     FaCL                      {- taqoniy~ -}       `gloss`  [ "technician [ [ taqoniy ~ / NOUN ] ]" ],
+    noun     FaCL |< Iy                {- taqoniy~ -}       `gloss`  [ "technician [ [ taqoniy ~ / NOUN ] ]" ],
 
     -- ;; taqoniy~ap_1
     -- tqny    taqoniy~        NapAt   technique;technology     [[taqoniy~/NOUN]]
 
-    noun     FaCL                      {- taqoniy~ap -}     `gloss`  [ "technique", "technology [ [ taqoniy ~ / NOUN ] ]" ],
+    noun     FaCL |< Iy |< aT          {- taqoniy~ap -}     `gloss`  [ "technique", "technology [ [ taqoniy ~ / NOUN ] ]" ],
 
     -- ;; <itoqAn_1
     -- <tqAn   <itoqAn NduAt   mastery;proficiency
@@ -564,6 +564,20 @@ lexicon = listing "Lexicon properties"
     noun     FaCLY                     {- taqowaY -}        `others` [ "taqwA Nhy" ]
                                                             `gloss`  [ "piety" ] ]
 
+ |> "t q y" <| [
+
+    -- ;; taqiy~_1
+    -- tqy     taqiy~  N/ap    pious;devout     [[taqiy~/ADJ]]
+    -- >tqyA'  >atoqiyA'       N0_Nh   pious;devout
+    -- AtqyA'  >atoqiyA'       N0_Nh   pious;devout
+    -- >tqyA&  >atoqiyA&       Nh      pious;devout
+    -- AtqyA&  >atoqiyA&       Nh      pious;devout
+    -- >tqyA}  >atoqiyA}       Nhy     pious;devout
+    -- AtqyA}  >atoqiyA}       Nhy     pious;devout
+
+    noun     FaCIL                     {- taqiy~ -}         `others` [ "'atqiyA' Nh Nhy N0_Nh" ]
+                                                            `gloss`  [ "pious", "devout [ [ taqiy ~ / ADJ ] ]", "devout" ] ]
+
  |> "t r ^g m" <| [
 
     -- ;; tarojam_1
@@ -576,13 +590,13 @@ lexicon = listing "Lexicon properties"
     -- ;; tarojamap_1
     -- trjm    tarojam NapAt   translation;interpretation
 
-    noun     KaRDaS                    {- tarojamap -}      `gloss`  [ "translation", "interpretation" ],
+    noun     KaRDaS |< aT              {- tarojamap -}      `gloss`  [ "translation", "interpretation" ],
 
     -- ;; tarojamap_2
     -- trjm    tarojam NapAt   biography
     -- trAjm   tarAjim Ndip    biographies
 
-    noun     KaRDaS                    {- tarojamap -}      `others` [ "tarA^gim Ndip" ]
+    noun     KaRDaS |< aT              {- tarojamap -}      `others` [ "tarA^gim Ndip" ]
                                                             `gloss`  [ "biography", "biographies" ],
 
     -- ;; mutarojim_1
@@ -611,7 +625,7 @@ lexicon = listing "Lexicon properties"
     -- trb     turob   Nap     dust;graveyard
     -- trb     turab   N       dust;graveyard
 
-    noun     FuCL                      {- turobap -}        `others` [ "turab N" ]
+    noun     FuCL |< aT                {- turobap -}        `others` [ "turab N" ]
                                                             `gloss`  [ "dust", "graveyard" ],
 
     -- ;; turAb_1
@@ -626,12 +640,12 @@ lexicon = listing "Lexicon properties"
     -- ;; turAbiy~_1
     -- trAby   turAbiy~        N0      Turabi
 
-    noun     FuCAL                     {- turAbiy~ -}       `gloss`  [ "Turabi" ],
+    noun     FuCAL |< Iy               {- turAbiy~ -}       `gloss`  [ "Turabi" ],
 
     -- ;; turAbiy~_2
     -- trAby   turAbiy~        Nall    dusty;earthy     [[turAbiy~/ADJ]]
 
-    noun     FuCAL                     {- turAbiy~ -}       `gloss`  [ "dusty", "earthy [ [ turAbiy ~ / ADJ ] ]" ] ]
+    noun     FuCAL |< Iy               {- turAbiy~ -}       `gloss`  [ "dusty", "earthy [ [ turAbiy ~ / ADJ ] ]" ] ]
 
  |> "t r f" <| [
 
@@ -645,7 +659,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tur~ahap_1
     -- trh     tur~ah  NapAt   farce;hoax
 
-    noun     FuCCaL                    {- tur~ahap -}       `gloss`  [ "farce", "hoax" ] ]
+    noun     FuCCaL |< aT              {- tur~ahap -}       `gloss`  [ "farce", "hoax" ] ]
 
  |> "t r k" <| [
 
@@ -668,7 +682,7 @@ lexicon = listing "Lexicon properties"
     -- trky    turokiy~        Nall    Turkish     [[turokiy~/NOUN]]
     -- trky    turokiy~        Nall    Turkish     [[turokiy~/ADJ]]
 
-    noun     FuCL                      {- turokiy~ -}       `gloss`  [ "Turkish [ [ turokiy ~ / NOUN ] ]", "Turkish [ [ turokiy ~ / ADJ ] ]" ] ]
+    noun     FuCL |< Iy                {- turokiy~ -}       `gloss`  [ "Turkish [ [ turokiy ~ / NOUN ] ]", "Turkish [ [ turokiy ~ / ADJ ] ]" ] ]
 
  |> "t r s" <| [
 
@@ -688,7 +702,7 @@ lexicon = listing "Lexicon properties"
     -- trsAn   tirosAn NapAt   arsenal;shipyard
     -- trsAn   tarosAn NduAt   arsenal;shipyard
 
-    noun     KiRDAS                    {- tirosAnap -}      `others` [ "tarsAn NduAt" ]
+    noun     KiRDAS |< aT              {- tirosAnap -}      `others` [ "tarsAn NduAt" ]
                                                             `gloss`  [ "arsenal", "shipyard" ] ]
 
  |> "t s `" <| [
@@ -720,21 +734,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tisoEiyniy~_1
     -- tsEyny  tisoEiyniy~     Nall    nineties     [[tisoEiyniy~/NOUN]]
 
-    noun     KiRDIS                    {- tisoEiyniy~ -}    `gloss`  [ "nineties [ [ tisoEiyniy ~ / NOUN ] ]" ] ]
-
- |> "t t q" <| [
-
-    -- ;; taqiy~_1
-    -- tqy     taqiy~  N/ap    pious;devout     [[taqiy~/ADJ]]
-    -- >tqyA'  >atoqiyA'       N0_Nh   pious;devout
-    -- AtqyA'  >atoqiyA'       N0_Nh   pious;devout
-    -- >tqyA&  >atoqiyA&       Nh      pious;devout
-    -- AtqyA&  >atoqiyA&       Nh      pious;devout
-    -- >tqyA}  >atoqiyA}       Nhy     pious;devout
-    -- AtqyA}  >atoqiyA}       Nhy     pious;devout
-
-    noun     CaL                       {- taqiy~ -}         `others` [ "'atqiyA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "pious", "devout [ [ taqiy ~ / ADJ ] ]", "devout" ] ]
+    noun     KiRDIS |< Iy              {- tisoEiyniy~ -}    `gloss`  [ "nineties [ [ tisoEiyniy ~ / NOUN ] ]" ] ]
 
  |> "t w ' m" <| [
 
@@ -839,7 +839,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tArapF_1
     -- tArp    tArapF  FW-Wa   once;sometimes     [[tArapF/ADV]]
 
-    noun     FAL                       {- tArapF -}         `gloss`  [ "once", "sometimes [ [ tArapF / ADV ] ]" ] ]
+    noun     FAL |< aT |< aN           {- tArapF -}         `gloss`  [ "once", "sometimes [ [ tArapF / ADV ] ]" ] ]
 
  |> "t w t l" <| [
 
@@ -876,7 +876,7 @@ lexicon = listing "Lexicon properties"
     -- <tAH    <itAH   Nap     granting;providing
     -- AtAH    <itAH   Nap     granting;providing
 
-    noun     HiFAL                     {- IitAHap -}        `gloss`  [ "granting", "providing" ],
+    noun     HiFAL |< aT               {- IitAHap -}        `gloss`  [ "granting", "providing" ],
 
     -- ;; mutAH_1
     -- mtAH    mutAH   Nall    provided;available;granted
@@ -977,7 +977,7 @@ lexicon = listing "Lexicon properties"
     -- tylAndy tayolAnodiy~    Nall    Thai     [[tayolAnodiy~/NOUN]]
     -- tylAndy tayolAnodiy~    Nall    Thai     [[tayolAnodiy~/ADJ]]
 
-    noun     Identity                  {- tAyolanodiy~ -}   `others` [ "taylAndiyy Nall", "tAylAndiyy Nall" ]
+    noun     Identity |< Iy            {- tAyolanodiy~ -}   `others` [ "taylAndiyy Nall", "tAylAndiyy Nall" ]
                                                             `gloss`  [ "Thai [ [ tAyolanodiy ~ / NOUN ] ]", "Thai [ [ tAyolanodiy ~ / ADJ ] ]", "Thai [ [ tAyolAnodiy ~ / NOUN ] ]", "Thai [ [ tAyolAnodiy ~ / ADJ ] ]", "Thai [ [ tayolAnodiy ~ / NOUN ] ]", "Thai [ [ tayolAnodiy ~ / ADJ ] ]" ] ]
 
  |> "tAymz" <| [
@@ -1009,7 +1009,7 @@ lexicon = listing "Lexicon properties"
     -- tAywAny tAyowAniy~      Nall    Taiwanese
     -- TywAny  TayowAniy~      Nall    Taiwanese
 
-    noun     Identity                  {- tAyowAniy~ -}     `others` [ ".taywAniyy Nall" ]
+    noun     Identity |< Iy            {- tAyowAniy~ -}     `others` [ ".taywAniyy Nall" ]
                                                             `gloss`  [ "Taiwanese" ] ]
 
  |> "t^sAd" <| [
@@ -1067,7 +1067,7 @@ lexicon = listing "Lexicon properties"
     -- t$yky   t$iykiy~        Nall    Czech     [[t$iykiy~/NOUN]]
     -- t$yky   t$iykiy~        Nall    Czech     [[t$iykiy~/ADJ]]
 
-    noun     Identity                  {- t$iykiy~ -}       `gloss`  [ "Czech [ [ t $ iykiy ~ / NOUN ] ]", "Czech [ [ t $ iykiy ~ / ADJ ] ]" ] ]
+    noun     Identity |< Iy            {- t$iykiy~ -}       `gloss`  [ "Czech [ [ t $ iykiy ~ / NOUN ] ]", "Czech [ [ t $ iykiy ~ / ADJ ] ]" ] ]
 
  |> "t^siyl" <| [
 
@@ -1075,7 +1075,7 @@ lexicon = listing "Lexicon properties"
     -- t$yly   t$iyliy~        Nall    Chilean     [[t$iyliy~/NOUN]]
     -- t$yly   t$iyliy~        Nall    Chilean     [[t$iyliy~/ADJ]]
 
-    noun     Identity                  {- t$iyliy~ -}       `gloss`  [ "Chilean [ [ t $ iyliy ~ / NOUN ] ]", "Chilean [ [ t $ iyliy ~ / ADJ ] ]" ] ]
+    noun     Identity |< Iy            {- t$iyliy~ -}       `gloss`  [ "Chilean [ [ t $ iyliy ~ / NOUN ] ]", "Chilean [ [ t $ iyliy ~ / ADJ ] ]" ] ]
 
  |> "t^siyliy" <| [
 
@@ -1136,7 +1136,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tatim~ap_1
     -- ttm     tatim~  NapAt   completion;conclusion
 
-    noun     Identity                  {- tatim~ap -}       `gloss`  [ "completion", "conclusion" ] ]
+    noun     Identity |< aT            {- tatim~ap -}       `gloss`  [ "completion", "conclusion" ] ]
 
  |> "tibit" <| [
 
@@ -1150,7 +1150,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tikonuwluwjiy~_1
     -- tknwlwjy        tikonuwluwjiy~  Nall    technological     [[tikonuwluwjiy~/ADJ]]
 
-    noun     Identity                  {- tikonuwluwjiy~ -} `gloss`  [ "technological [ [ tikonuwluwjiy ~ / ADJ ] ]" ] ]
+    noun     Identity |< Iy            {- tikonuwluwjiy~ -} `gloss`  [ "technological [ [ tikonuwluwjiy ~ / ADJ ] ]" ] ]
 
  |> "tiknuwluw^giyA" <| [
 
@@ -1172,7 +1172,7 @@ lexicon = listing "Lexicon properties"
     -- tlfzywny        tilfizyuwniy~   Nall    television     [[tilfizyuwniy~/ADJ]]
     -- tlyfzywny       tiliyfizyuwniy~ Nall    television     [[tiliyfizyuwniy~/ADJ]]
 
-    noun     Identity                  {- tilfizyuwniy~ -}  `others` [ "tiliyfizyuwniyy Nall" ]
+    noun     Identity |< Iy            {- tilfizyuwniy~ -}  `others` [ "tiliyfizyuwniyy Nall" ]
                                                             `gloss`  [ "television [ [ tilfizyuwniy ~ / ADJ ] ]", "television [ [ tiliyfizyuwniy ~ / ADJ ] ]" ] ]
 
  |> "tili.grAf" <| [
@@ -1199,7 +1199,7 @@ lexicon = listing "Lexicon properties"
     -- tlfwny  tilifuwniy~     Nall    telephonic     [[tilifuwniy~/ADJ]]
     -- tlyfwny tiliyfuwniy~    Nall    telephonic     [[tiliyfuwniy~/ADJ]]
 
-    noun     Identity                  {- tilifuwniy~ -}    `others` [ "tiliyfuwniyy Nall" ]
+    noun     Identity |< Iy            {- tilifuwniy~ -}    `others` [ "tiliyfuwniyy Nall" ]
                                                             `gloss`  [ "telephonic [ [ tilifuwniy ~ / ADJ ] ]", "telephonic [ [ tiliyfuwniy ~ / ADJ ] ]" ] ]
 
  |> "tilwa" <| [
@@ -1297,7 +1297,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tuwayojriy~_1
     -- twyjry  tuwayojriy~     N0      Tuwaijri
 
-    noun     Identity                  {- tuwayojriy~ -}    `gloss`  [ "Tuwaijri" ] ]
+    noun     Identity |< Iy            {- tuwayojriy~ -}    `gloss`  [ "Tuwaijri" ] ]
 
  |> "tuwbA.guw" <| [
 
@@ -1325,7 +1325,7 @@ lexicon = listing "Lexicon properties"
     -- twnsy   tuwnisiy~       Nall    Tunisian     [[tuwnisiy~/ADJ]]
     -- twAns   tawAnis Nap     Tunisians
 
-    noun     Identity                  {- tuwnisiy~ -}      `others` [ "tawAnis Nap" ]
+    noun     Identity |< Iy            {- tuwnisiy~ -}      `others` [ "tawAnis Nap" ]
                                                             `gloss`  [ "Tunisian [ [ tuwnisiy ~ / NOUN ] ]", "Tunisian [ [ tuwnisiy ~ / ADJ ] ]", "Tunisians" ] ]
 
  |> "tuwruwntuw" <| [

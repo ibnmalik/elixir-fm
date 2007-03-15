@@ -458,7 +458,7 @@ bAnyt$bAkdy     bAniyt$obAkodiy Nprop   Panitchpakdi
 ;
 ; AFP Corpus: Czech soccer team Banik Ostrava
 ;; bAniyk_1
-bAnyk   bAniyk  Nprop   Ban√<<≠<<k
+bAnyk   bAniyk  Nprop   Banik
 ;
 ;; bAwto$ir_1
 bAwt$r  bAwto$ir        Nprop   Voucher
@@ -5396,7 +5396,7 @@ tblg    tabal~ag        IV_intr be informed
 ;; bulogap_1
 blg     bulog   Nap     competency;adequacy
 ;; balAg_1
-blAg    balAg   NduAt   communiqu√<<©<<;report;notification;notice
+blAg    balAg   NduAt   communique;report;notification;notice
 ;; baliyg_1
 blyg    baliyg  Nall    orator
 blgA'   bulagA' N0_Nh   orators
@@ -7382,7 +7382,7 @@ byrwqrATy       biyruwqrATiy~   Nall    bureaucratic     <pos>biyruwqrATiy~/ADJ<
 byrwqrATy       biyruwqrATiy~   Nap     bureaucracy     <pos>biyruwqrATiy~/NOUN</pos>
 ;
 ;; biyruwn_1
-byrwn   biyruwn Nprop   Per√<<≥<<n
+byrwn   biyruwn Nprop   Peron
 ;
 ;; biyruwniy~_1
 byrwny  biyruwniy~      N0      Biruni;Birouni
@@ -7713,7 +7713,7 @@ AbynA}  >aboyinA}       Nhy     eloquent
 ;; bay~inap_1
 byn     bay~in  NapAt   proof;evidence
 ;; bayAn_1
-byAn    bayAn   NduAt   communiqu√<<©<<;statement;declaration
+byAn    bayAn   NduAt   communique;statement;declaration
 ;; bayAn_2
 byAn    bayAn   N0      Bayan
 ;; bayAnAt_1

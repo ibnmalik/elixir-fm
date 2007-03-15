@@ -17,28 +17,12 @@ lexicon = listing "Lexicon properties"
 
     noun     Identity                  {- OuqoSur -}        `gloss`  [ "Luxor" ] ]
 
- |> "maq.d" <| [
-
-    -- ;; maqoDiy~_1
-    -- mqDy    maqoDiy~        N-ap    settled;finished     [[maqoDiy~/ADJ]]
-
-    noun     Identity                  {- maqoDiy~ -}       `gloss`  [ "settled", "finished [ [ maqoDiy ~ / ADJ ] ]" ] ]
-
- |> "muqA.daNY" <| [
-
-    -- ;; muqADAp_1
-    -- mqADA   muqADA  Napdu   court trial;hearing
-    -- mqADy   muqADay NAt     court trials;hearings
-
-    noun     Identity                  {- muqADAp -}        `others` [ "muqA.day NAt" ]
-                                                            `gloss`  [ "court trial", "hearing", "court trials", "hearings" ] ]
-
  |> "muqA.s.s" <| [
 
     -- ;; muqAS~ap_1
     -- mqAS    muqAS~  NapAt   settlement of accounts;balancing;compensation
 
-    noun     Identity                  {- muqAS~ap -}       `gloss`  [ "settlement of accounts", "balancing", "compensation" ] ]
+    noun     Identity |< aT            {- muqAS~ap -}       `gloss`  [ "settlement of accounts", "balancing", "compensation" ] ]
 
  |> "muqAwiluwn" <| [
 
@@ -96,26 +80,15 @@ lexicon = listing "Lexicon properties"
     -- ;; qA}imap_1
     -- qA}m    qA}im   Napdu   support;base
 
-    noun     FACiL                     {- qA}imap -}        `gloss`  [ "support", "base" ],
+    noun     FACiL |< aT               {- qA}imap -}        `gloss`  [ "support", "base" ],
 
     -- ;; qA}imap_2
     -- qA}m    qA}im   Napdu   list;index
     -- qA}m    qA}im   NAt     lists;indexes
     -- qwA}m   qawA}im Ndip    lists;indexes
 
-    noun     FACiL                     {- qA}imap -}        `others` [ "qawA'im Ndip", "qA'im NAt" ]
+    noun     FACiL |< aT               {- qA}imap -}        `others` [ "qawA'im Ndip", "qA'im NAt" ]
                                                             `gloss`  [ "list", "index", "lists", "indexes" ] ]
-
- |> "q .d " <| [
-
-    -- ;; muqotaDaY_2
-    -- mqtDY   muqotaDaY       N0      requirement;exigency
-    -- mqtDA   muqotaDA        Nhy     requirement;exigency
-    -- mqtDy   muqotaDay       NAn_Nayn        requirements;exigencies
-    -- mqtDy   muqotaDay       NAt     requirements;exigencies
-
-    noun     MuFtaCaNY                 {- muqotaDaY -}      `others` [ "muqta.dA Nhy", "muqta.day NAt NAn_Nayn" ]
-                                                            `gloss`  [ "requirement", "exigency", "requirements", "exigencies" ] ]
 
  |> "q .d '" <| [
 
@@ -141,12 +114,14 @@ lexicon = listing "Lexicon properties"
     -- AqDy    >aqoDiy Nap     districts;provinces
 
     noun     FaCAL                     {- qaDA' -}          `others` [ "'aq.diy Nap" ]
-                                                            `gloss`  [ "district", "province", "districts", "provinces" ],
+                                                            `gloss`  [ "district", "province", "districts", "provinces" ] ]
+
+ |> "q .d ' y" <| [
 
     -- ;; qaDA}iy~_1
     -- qDA}y   qaDA}iy~        N-ap    judicial;legal     [[qaDA}iy~/ADJ]]
 
-    noun     FaCAL                     {- qaDA}iy~ -}       `gloss`  [ "judicial", "legal [ [ qaDA } iy ~ / ADJ ] ]" ] ]
+    noun     KaRADIS                   {- qaDA}iy~ -}       `gloss`  [ "judicial", "legal [ [ qaDA } iy ~ / ADJ ] ]" ] ]
 
  |> "q .d .d" <| [
 
@@ -268,10 +243,26 @@ lexicon = listing "Lexicon properties"
     noun     FaCA'                     {- qaDA' -}          `others` [ "'aq.diy Nap" ]
                                                             `gloss`  [ "district", "province", "districts", "provinces" ],
 
-    -- ;; qaDA}iy~_1
-    -- qDA}y   qaDA}iy~        N-ap    judicial;legal     [[qaDA}iy~/ADJ]]
+    -- ;; qaDiy~ap_1
+    -- qDy     qaDiy~  Napdu   problem;issue     [[qaDiy~/NOUN]]
+    -- qDAyA   qaDAyA  N0_Nhy  problems;issues
 
-    noun     FaCA'                     {- qaDA}iy~ -}       `gloss`  [ "judicial", "legal [ [ qaDA } iy ~ / ADJ ] ]" ],
+    noun     FaCIL |< aT               {- qaDiy~ap -}       `others` [ "qa.dAyA N0_Nhy" ]
+                                                            `gloss`  [ "problem", "issue [ [ qaDiy ~ / NOUN ] ]", "problems", "issues" ],
+
+    -- ;; qaDiy~ap_2
+    -- qDy     qaDiy~  Napdu   lawsuit;legal case     [[qaDiy~/NOUN]]
+    -- qDAyA   qaDAyA  N0_Nhy  lawsuits;legal cases
+
+    noun     FaCIL |< aT               {- qaDiy~ap -}       `others` [ "qa.dAyA N0_Nhy" ]
+                                                            `gloss`  [ "lawsuit", "legal case [ [ qaDiy ~ / NOUN ] ]", "lawsuits", "legal cases" ],
+
+    -- ;; muqADAp_1
+    -- mqADA   muqADA  Napdu   court trial;hearing
+    -- mqADy   muqADay NAt     court trials;hearings
+
+    noun     MuFACaNY |< aT            {- muqADAp -}        `others` [ "muqA.day NAt" ]
+                                                            `gloss`  [ "court trial", "hearing", "court trials", "hearings" ],
 
     -- ;; taqADiy_1
     -- tqADy   taqADiy N0_Nh   litigation
@@ -295,7 +286,21 @@ lexicon = listing "Lexicon properties"
     -- qDA     quDA    Nap     judges;magistrates
 
     noun     FACiL                     {- qADiy -}          `others` [ "qu.dA Nap", "qA.d NK" ]
-                                                            `gloss`  [ "judge", "magistrate", "judges", "magistrates" ] ]
+                                                            `gloss`  [ "judge", "magistrate", "judges", "magistrates" ],
+
+    -- ;; maqoDiy~_1
+    -- mqDy    maqoDiy~        N-ap    settled;finished     [[maqoDiy~/ADJ]]
+
+    noun     MaFCIy                    {- maqoDiy~ -}       `gloss`  [ "settled", "finished [ [ maqoDiy ~ / ADJ ] ]" ],
+
+    -- ;; muqotaDaY_2
+    -- mqtDY   muqotaDaY       N0      requirement;exigency
+    -- mqtDA   muqotaDA        Nhy     requirement;exigency
+    -- mqtDy   muqotaDay       NAn_Nayn        requirements;exigencies
+    -- mqtDy   muqotaDay       NAt     requirements;exigencies
+
+    noun     MuFtaCaNY                 {- muqotaDaY -}      `others` [ "muqta.dA Nhy", "muqta.day NAt NAn_Nayn" ]
+                                                            `gloss`  [ "requirement", "exigency", "requirements", "exigencies" ] ]
 
  |> "q .h .t" <| [
 
@@ -304,13 +309,6 @@ lexicon = listing "Lexicon properties"
 
     noun     FaCLAn                    {- qaHoTAn -}        `gloss`  [ "Qahtan" ] ]
 
- |> "q .h .t n" <| [
-
-    -- ;; qaHoTAn_1
-    -- qHTAn   qaHoTAn Ndip    Qahtan
-
-    noun     KaRDAS                    {- qaHoTAn -}        `gloss`  [ "Qahtan" ] ]
-
  |> "q .h m" <| [
 
     -- ;; <iqoHAm_1
@@ -318,28 +316,6 @@ lexicon = listing "Lexicon properties"
     -- AqHAm   <iqoHAm N/At    involvement;implicating
 
     noun     HiFCAL                    {- IiqoHAm -}        `gloss`  [ "involvement", "implicating" ] ]
-
- |> "q .s " <| [
-
-    -- ;; qASiy_1
-    -- qASy    qASiy   N0F     distant;remote     [[qASiy/ADJ]]
-    -- qAS     qAS     NK      distant;remote
-    -- qASy    qASiy   NAn_Nayn        distant;remote
-    -- qAS     qAS     Nuwn_Niyn       distant;remote
-    -- qASy    qASiy   NapAt   distant;remote
-
-    noun     FACI                      {- qASiy -}          `others` [ "qA.s Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "distant", "remote [ [ qASiy / ADJ ] ]", "remote" ],
-
-    -- ;; qASiy_1
-    -- qASy    qASiy   N0F     distant;remote     [[qASiy/ADJ]]
-    -- qAS     qAS     NK      distant;remote
-    -- qASy    qASiy   NAn_Nayn        distant;remote
-    -- qAS     qAS     Nuwn_Niyn       distant;remote
-    -- qASy    qASiy   NapAt   distant;remote
-
-    noun     FACI                      {- qASiy -}          `others` [ "qA.s Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "distant", "remote [ [ qASiy / ADJ ] ]", "remote" ] ]
 
  |> "q .s .s" <| [
 
@@ -352,13 +328,13 @@ lexicon = listing "Lexicon properties"
     -- qS      qiS~    Napdu   story
     -- qSS     qiSaS   N       stories
 
-    noun     FiCL                      {- qiS~ap -}         `others` [ "qi.sa.s N" ]
+    noun     FiCL |< aT                {- qiS~ap -}         `others` [ "qi.sa.s N" ]
                                                             `gloss`  [ "story", "stories" ],
 
     -- ;; qaSaSiy~_1
     -- qSSy    qaSaSiy~        N-ap    fictional;narrative     [[qaSaSiy~/ADJ]]
 
-    noun     FaCaL                     {- qaSaSiy~ -}       `gloss`  [ "fictional", "narrative [ [ qaSaSiy ~ / ADJ ] ]" ],
+    noun     FaCaL |< Iy               {- qaSaSiy~ -}       `gloss`  [ "fictional", "narrative [ [ qaSaSiy ~ / ADJ ] ]" ],
 
     -- ;; qAS~_2
     -- qAS     qAS~    N/ap    novelist
@@ -375,7 +351,7 @@ lexicon = listing "Lexicon properties"
     -- qSE     qiSaE   N       large bowls;kettles
     -- qSAE    qiSAE   N       large bowls;kettles
 
-    noun     FaCL                      {- qaSoEap -}        `others` [ "qa.sa` NAt", "qi.sa` N", "qi.sA` N" ]
+    noun     FaCL |< aT                {- qaSoEap -}        `others` [ "qa.sa` NAt", "qi.sa` N", "qi.sA` N" ]
                                                             `gloss`  [ "large bowl", "kettle", "large bowls", "kettles" ] ]
 
  |> "q .s b" <| [
@@ -417,7 +393,7 @@ lexicon = listing "Lexicon properties"
     -- qSyd    qaSiyd  Napdu   poem
     -- qSA}d   qaSA}id Ndip    poems
 
-    noun     FaCIL                     {- qaSiydap -}       `others` [ "qa.sA'id Ndip" ]
+    noun     FaCIL |< aT               {- qaSiydap -}       `others` [ "qa.sA'id Ndip" ]
                                                             `gloss`  [ "poem", "poems" ],
 
     -- ;; maqoSid_1
@@ -465,7 +441,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qaSoqaSap_1
     -- qSqS    qaSoqaS Nap     breaking;shattering;trimming
 
-    noun     KaRDaS                    {- qaSoqaSap -}      `gloss`  [ "breaking", "shattering", "trimming" ] ]
+    noun     KaRDaS |< aT              {- qaSoqaSap -}      `gloss`  [ "breaking", "shattering", "trimming" ] ]
 
  |> "q .s r" <| [
 
@@ -544,7 +520,7 @@ lexicon = listing "Lexicon properties"
     -- mqSwr   maqoSuwr        NapAt   palace;cabinet;compartment
     -- mqASr   maqASir Ndip    palace;cabinet;compartment
 
-    noun     MaFCUL                    {- maqoSuwrap -}     `others` [ "maqA.sir Ndip" ]
+    noun     MaFCUL |< aT              {- maqoSuwrap -}     `others` [ "maqA.sir Ndip" ]
                                                             `gloss`  [ "palace", "cabinet", "compartment" ] ]
 
  |> "q .s w" <| [
@@ -590,7 +566,27 @@ lexicon = listing "Lexicon properties"
     -- tqSy    taqaS~iy        NAt     investigations;examinations
 
     noun     TaFaCCiN                  {- taqaS~iy -}       `others` [ "taqa.s.s NK" ]
-                                                            `gloss`  [ "investigation", "examination", "investigations", "examinations" ] ]
+                                                            `gloss`  [ "investigation", "examination", "investigations", "examinations" ],
+
+    -- ;; qASiy_1
+    -- qASy    qASiy   N0F     distant;remote     [[qASiy/ADJ]]
+    -- qAS     qAS     NK      distant;remote
+    -- qASy    qASiy   NAn_Nayn        distant;remote
+    -- qAS     qAS     Nuwn_Niyn       distant;remote
+    -- qASy    qASiy   NapAt   distant;remote
+
+    noun     FACI                      {- qASiy -}          `others` [ "qA.s Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "distant", "remote [ [ qASiy / ADJ ] ]", "remote" ],
+
+    -- ;; qASiy_1
+    -- qASy    qASiy   N0F     distant;remote     [[qASiy/ADJ]]
+    -- qAS     qAS     NK      distant;remote
+    -- qASy    qASiy   NAn_Nayn        distant;remote
+    -- qAS     qAS     Nuwn_Niyn       distant;remote
+    -- qASy    qASiy   NapAt   distant;remote
+
+    noun     FACI                      {- qASiy -}          `others` [ "qA.s Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "distant", "remote [ [ qASiy / ADJ ] ]", "remote" ] ]
 
  |> "q .s y" <| [
 
@@ -618,7 +614,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qiT~ap_1
     -- qT      qiT~    Napdu   female cat
 
-    noun     FiCL                      {- qiT~ap -}         `gloss`  [ "female cat" ] ]
+    noun     FiCL |< aT                {- qiT~ap -}         `gloss`  [ "female cat" ] ]
 
  |> "q .t `" <| [
 
@@ -660,20 +656,20 @@ lexicon = listing "Lexicon properties"
     -- qTEy    qaToEiy~        N-ap    definite;final;definitive     [[qaToEiy~/ADJ]]
     -- qTEy    qaToEiy~        NF      definitely;categorically     [[qaToEiy~/ADV]]
 
-    noun     FaCL                      {- qaToEiy~ -}       `gloss`  [ "definite", "final", "definitive [ [ qaToEiy ~ / ADJ ] ]", "definitely", "categorically [ [ qaToEiy ~ / ADV ] ]" ],
+    noun     FaCL |< Iy                {- qaToEiy~ -}       `gloss`  [ "definite", "final", "definitive [ [ qaToEiy ~ / ADJ ] ]", "definitely", "categorically [ [ qaToEiy ~ / ADV ] ]" ],
 
     -- ;; qiToEap_1
     -- qTE     qiToE   Napdu   piece;portion;segment
     -- qTE     qiTaE   N       pieces;portions;segments
 
-    noun     FiCL                      {- qiToEap -}        `others` [ "qi.ta` N" ]
+    noun     FiCL |< aT                {- qiToEap -}        `others` [ "qi.ta` N" ]
                                                             `gloss`  [ "piece", "portion", "segment", "pieces", "portions", "segments" ],
 
     -- ;; quToEap_1
     -- qTE     quToE   NapAt   plot of land;lot
     -- qTE     quTaE   N       plots of land;lots
 
-    noun     FuCL                      {- quToEap -}        `others` [ "qu.ta` N" ]
+    noun     FuCL |< aT                {- quToEap -}        `others` [ "qu.ta` N" ]
                                                             `gloss`  [ "plot of land", "lot", "plots of land", "lots" ],
 
     -- ;; qaToEap_1
@@ -681,7 +677,7 @@ lexicon = listing "Lexicon properties"
     -- qTE     qaTaE   NAt     stumps
     -- qTE     qaTaE   N       stumps
 
-    noun     FaCL                      {- qaToEap -}        `others` [ "qa.ta` NAt N" ]
+    noun     FaCL |< aT                {- qaToEap -}        `others` [ "qa.ta` NAt N" ]
                                                             `gloss`  [ "stump", "stumps" ],
 
     -- ;; qiTAE_1
@@ -693,7 +689,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qiTAEiy~_1
     -- qTAEy   qiTAEiy~        Nall    sector;section     [[qiTAEiy~/ADJ]]
 
-    noun     FiCAL                     {- qiTAEiy~ -}       `gloss`  [ "sector", "section [ [ qiTAEiy ~ / ADJ ] ]" ],
+    noun     FiCAL |< Iy               {- qiTAEiy~ -}       `gloss`  [ "sector", "section [ [ qiTAEiy ~ / ADJ ] ]" ],
 
     -- ;; qaTiyE_1
     -- qTyE    qaTiyE  Ndu     group;herd;flock
@@ -708,13 +704,13 @@ lexicon = listing "Lexicon properties"
     -- ;; qaTiyEap_1
     -- qTyE    qaTiyE  Nap     breaking;rupture;rift
 
-    noun     FaCIL                     {- qaTiyEap -}       `gloss`  [ "breaking", "rupture", "rift" ],
+    noun     FaCIL |< aT               {- qaTiyEap -}       `gloss`  [ "breaking", "rupture", "rift" ],
 
     -- ;; qaTiyEap_2
     -- qTyE    qaTiyE  Napdu   feudal estate;fief
     -- qTA}E   qaTA}iE Ndip    feudal estates;fiefs
 
-    noun     FaCIL                     {- qaTiyEap -}       `others` [ "qa.tA'i` Ndip" ]
+    noun     FaCIL |< aT               {- qaTiyEap -}       `others` [ "qa.tA'i` Ndip" ]
                                                             `gloss`  [ "feudal estate", "fief", "feudal estates", "fiefs" ],
 
     -- ;; maqoTaE_1
@@ -727,7 +723,7 @@ lexicon = listing "Lexicon properties"
     -- ;; maqoTaEiy~_1
     -- mqTEy   maqoTaEiy~      N-ap    cross-section     [[maqoTaEiy~/ADJ]]
 
-    noun     MaFCaL                    {- maqoTaEiy~ -}     `gloss`  [ "cross-section [ [ maqoTaEiy ~ / ADJ ] ]" ],
+    noun     MaFCaL |< Iy              {- maqoTaEiy~ -}     `gloss`  [ "cross-section [ [ maqoTaEiy ~ / ADJ ] ]" ],
 
     -- ;; taqoTiyE_1
     -- tqTyE   taqoTiyE        N/At    fragmentation;partitioning;interruption
@@ -739,12 +735,12 @@ lexicon = listing "Lexicon properties"
     -- ;; muqATaEap_1
     -- mqATE   muqATaE NapAt   boycott
 
-    noun     MuFACaL                   {- muqATaEap -}      `gloss`  [ "boycott" ],
+    noun     MuFACaL |< aT             {- muqATaEap -}      `gloss`  [ "boycott" ],
 
     -- ;; muqATaEap_2
     -- mqATE   muqATaE NapAt   region;district;county
 
-    noun     MuFACaL                   {- muqATaEap -}      `gloss`  [ "region", "district", "county" ],
+    noun     MuFACaL |< aT             {- muqATaEap -}      `gloss`  [ "region", "district", "county" ],
 
     -- ;; <iqoTAE_1
     -- <qTAE   <iqoTAE NduAt   feudal estate
@@ -771,7 +767,7 @@ lexicon = listing "Lexicon properties"
     -- mqTwE   maqoTuwE        NapAt   piece;selection (music/poetry)
     -- mqATyE  maqATiyE        Ndip    short poems
 
-    noun     MaFCUL                    {- maqoTuwEap -}     `others` [ "maqA.tiy` Ndip" ]
+    noun     MaFCUL |< aT              {- maqoTuwEap -}     `others` [ "maqA.tiy` Ndip" ]
                                                             `gloss`  [ "piece", "selection ( music / poetry )", "short poems" ],
 
     -- ;; muqATiE_1
@@ -807,7 +803,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qATibap_1
     -- qATb    qATib   Nap     all without exception;one and all
 
-    noun     FACiL                     {- qATibap -}        `gloss`  [ "all without exception", "one and all" ] ]
+    noun     FACiL |< aT               {- qATibap -}        `gloss`  [ "all without exception", "one and all" ] ]
 
  |> "q .t f" <| [
 
@@ -845,7 +841,7 @@ lexicon = listing "Lexicon properties"
     -- ;; quToniy~_1
     -- qTny    quToniy~        N-ap    cotton     [[quToniy~/ADJ]]
 
-    noun     FuCL                      {- quToniy~ -}       `gloss`  [ "cotton [ [ quToniy ~ / ADJ ] ]" ] ]
+    noun     FuCL |< Iy                {- quToniy~ -}       `gloss`  [ "cotton [ [ quToniy ~ / ADJ ] ]" ] ]
 
  |> "q .t r" <| [
 
@@ -866,7 +862,7 @@ lexicon = listing "Lexicon properties"
     -- qTry    qaTariy~        Nall    Qatari     [[qaTariy~/NOUN]]
     -- qTry    qaTariy~        Nall    Qatari     [[qaTariy~/ADJ]]
 
-    noun     FaCaL                     {- qaTariy~ -}       `gloss`  [ "Qatari [ [ qaTariy ~ / NOUN ] ]", "Qatari [ [ qaTariy ~ / ADJ ] ]" ],
+    noun     FaCaL |< Iy               {- qaTariy~ -}       `gloss`  [ "Qatari [ [ qaTariy ~ / NOUN ] ]", "Qatari [ [ qaTariy ~ / ADJ ] ]" ],
 
     -- ;; qaTor_2
     -- qTr     qaTor   Ndu     drop
@@ -879,7 +875,7 @@ lexicon = listing "Lexicon properties"
     -- qTr     qaTor   Napdu   drop
     -- qTr     qaTar   NAt     drops
 
-    noun     FaCL                      {- qaTorap -}        `others` [ "qa.tar NAt" ]
+    noun     FaCL |< aT                {- qaTorap -}        `others` [ "qa.tar NAt" ]
                                                             `gloss`  [ "drop", "drops" ],
 
     -- ;; qiTAr_1
@@ -900,12 +896,12 @@ lexicon = listing "Lexicon properties"
     -- ;; quToriy~_1
     -- qTry    quToriy~        N-ap    regional     [[quToriy~/ADJ]]
 
-    noun     FuCL                      {- quToriy~ -}       `gloss`  [ "regional [ [ quToriy ~ / ADJ ] ]" ],
+    noun     FuCL |< Iy                {- quToriy~ -}       `gloss`  [ "regional [ [ quToriy ~ / ADJ ] ]" ],
 
     -- ;; qATirap_1
     -- qATr    qATir   NapAt   locomotive;tractor truck
 
-    noun     FACiL                     {- qATirap -}        `gloss`  [ "locomotive", "tractor truck" ] ]
+    noun     FACiL |< aT               {- qATirap -}        `gloss`  [ "locomotive", "tractor truck" ] ]
 
  |> "q ^s ` r" <| [
 
@@ -928,13 +924,13 @@ lexicon = listing "Lexicon properties"
     -- ;; qa*~Afiy~_1
     -- q*Afy   qa*~Afiy~       N0      Qaddafi
 
-    noun     FaCCAL                    {- qa*~Afiy~ -}      `gloss`  [ "Qaddafi" ],
+    noun     FaCCAL |< Iy              {- qa*~Afiy~ -}      `gloss`  [ "Qaddafi" ],
 
     -- ;; qa*iyfap_1
     -- q*yf    qa*iyf  Napdu   shell;bomb
     -- q*A}f   qa*A}if Ndip    shells;bombs
 
-    noun     FaCIL                     {- qa*iyfap -}       `others` [ "qa_dA'if Ndip" ]
+    noun     FaCIL |< aT               {- qa*iyfap -}       `others` [ "qa_dA'if Ndip" ]
                                                             `gloss`  [ "shell", "bomb", "shells", "bombs" ] ]
 
  |> "q _d r" <| [
@@ -983,20 +979,20 @@ lexicon = listing "Lexicon properties"
     -- ;; qAEidap_1
     -- qAEd    qAEid   Nap     Qaida;Qaeda;Qa'ida
 
-    noun     FACiL                     {- qAEidap -}        `gloss`  [ "Qaida", "Qaeda", "Qa'ida" ],
+    noun     FACiL |< aT               {- qAEidap -}        `gloss`  [ "Qaida", "Qaeda", "Qa'ida" ],
 
     -- ;; qAEidap_2
     -- qAEd    qAEid   Napdu   base
     -- qwAEd   qawAEid Ndip    bases
 
-    noun     FACiL                     {- qAEidap -}        `others` [ "qawA`id Ndip" ]
+    noun     FACiL |< aT               {- qAEidap -}        `others` [ "qawA`id Ndip" ]
                                                             `gloss`  [ "base", "bases" ],
 
     -- ;; qAEidap_3
     -- qAEd    qAEid   Napdu   rule;principle;basis
     -- qwAEd   qawAEid Ndip    rules;precepts;principles
 
-    noun     FACiL                     {- qAEidap -}        `others` [ "qawA`id Ndip" ]
+    noun     FACiL |< aT               {- qAEidap -}        `others` [ "qawA`id Ndip" ]
                                                             `gloss`  [ "rule", "principle", "basis", "rules", "precepts", "principles" ],
 
     -- ;; mutaqAEid_1
@@ -1044,7 +1040,7 @@ lexicon = listing "Lexicon properties"
     -- qbD     qaboD   Napdu   grip;seizure;fistful
     -- qbD     qabaD   NAt     fistfuls;grips
 
-    noun     FaCL                      {- qaboDap -}        `others` [ "qaba.d NAt" ]
+    noun     FaCL |< aT                {- qaboDap -}        `others` [ "qaba.d NAt" ]
                                                             `gloss`  [ "grip", "seizure", "fistful", "fistfuls", "grips" ],
 
     -- ;; qAbiD_1
@@ -1061,7 +1057,7 @@ lexicon = listing "Lexicon properties"
     -- AqbAT   >aqobAT N       Copts
     -- qbT     qiboT   N       Copts
 
-    noun     FiCL                      {- qiboTiy~ -}       `others` [ "qib.t N", "'aqbA.t N" ]
+    noun     FiCL |< Iy                {- qiboTiy~ -}       `others` [ "qib.t N", "'aqbA.t N" ]
                                                             `gloss`  [ "Coptic [ [ qiboTiy ~ / NOUN ] ]", "Coptic [ [ qiboTiy ~ / ADJ ] ]", "Copts" ] ]
 
  |> "q b .t n" <| [
@@ -1087,7 +1083,7 @@ lexicon = listing "Lexicon properties"
     -- ;; quboEap_1
     -- qbE     quboE   NapAt   hat;cap
 
-    noun     FuCL                      {- quboEap -}        `gloss`  [ "hat", "cap" ],
+    noun     FuCL |< aT                {- quboEap -}        `gloss`  [ "hat", "cap" ],
 
     -- ;; qAbiE_1
     -- qAbE    qAbiE   N-ap    lonely;abandoned;rarely visited     [[qAbiE/ADJ]]
@@ -1101,7 +1097,7 @@ lexicon = listing "Lexicon properties"
     -- qbAb    qibAb   N       domes;cupolas
     -- qbb     qubab   N       domes;cupolas
 
-    noun     FuCL                      {- qub~ap -}         `others` [ "qibAb N", "qubab N" ]
+    noun     FuCL |< aT                {- qub~ap -}         `others` [ "qibAb N", "qubab N" ]
                                                             `gloss`  [ "dome", "cupola", "domes", "cupolas" ] ]
 
  |> "q b l" <| [
@@ -1145,7 +1141,7 @@ lexicon = listing "Lexicon properties"
     -- qbl     qubol   Napdu   kiss
     -- qbl     qubol   NAt     kisses
 
-    noun     FuCL                      {- qubolap -}        `others` [ "qubl NAt" ]
+    noun     FuCL |< aT                {- qubolap -}        `others` [ "qubl NAt" ]
                                                             `gloss`  [ "kiss", "kisses" ],
 
     -- ;; qubuwl_1
@@ -1167,23 +1163,23 @@ lexicon = listing "Lexicon properties"
     -- qbyl    qabiyl  Napdu   tribe
     -- qbA}l   qabA}il Ndip    tribes
 
-    noun     FaCIL                     {- qabiylap -}       `others` [ "qabA'il Ndip" ]
+    noun     FaCIL |< aT               {- qabiylap -}       `others` [ "qabA'il Ndip" ]
                                                             `gloss`  [ "tribe", "tribes" ],
 
     -- ;; qabaliy~_1
     -- qbly    qabaliy~        N-ap    tribal     [[qabaliy~/ADJ]]
 
-    noun     FaCaL                     {- qabaliy~ -}       `gloss`  [ "tribal [ [ qabaliy ~ / ADJ ] ]" ],
+    noun     FaCaL |< Iy               {- qabaliy~ -}       `gloss`  [ "tribal [ [ qabaliy ~ / ADJ ] ]" ],
 
     -- ;; qubAlap_1
     -- qbAl    qubAl   Nap     in front of;facing     [[qubAl/PREP]]
 
-    noun     FuCAL                     {- qubAlap -}        `gloss`  [ "in front of", "facing [ [ qubAl / PREP ] ]" ],
+    noun     FuCAL |< aT               {- qubAlap -}        `gloss`  [ "in front of", "facing [ [ qubAl / PREP ] ]" ],
 
     -- ;; muqAbalap_1
     -- mqAbl   muqAbal NapAt   encounter;meeting;interview
 
-    noun     MuFACaL                   {- muqAbalap -}      `gloss`  [ "encounter", "meeting", "interview" ],
+    noun     MuFACaL |< aT             {- muqAbalap -}      `gloss`  [ "encounter", "meeting", "interview" ],
 
     -- ;; <iqobAl_1
     -- <qbAl   <iqobAl N/At    approach;concern for;interest in
@@ -1205,7 +1201,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qAbiliy~ap_1
     -- qAbly   qAbiliy~        Nap     ability;capacity     [[qAbiliy~/NOUN]]
 
-    noun     FACiL                     {- qAbiliy~ap -}     `gloss`  [ "ability", "capacity [ [ qAbiliy ~ / NOUN ] ]" ],
+    noun     FACiL |< Iy |< aT         {- qAbiliy~ap -}     `gloss`  [ "ability", "capacity [ [ qAbiliy ~ / NOUN ] ]" ],
 
     -- ;; maqobuwl_1
     -- mqbwl   maqobuwl        Nall    accepted;welcome;admitted     [[maqobuwl/ADJ]]
@@ -1236,13 +1232,13 @@ lexicon = listing "Lexicon properties"
     -- ;; musotaqobalAF_1
     -- mstqbl  musotaqobal     NF      in the future     [[musotaqobal/ADV]]
 
-    noun     MustaFCaL                 {- musotaqobalAF -}  `others` [ "mustaqbal NF" ]
+    noun     MustaFCaL |< aN           {- musotaqobalAF -}  `others` [ "mustaqbal NF" ]
                                                             `gloss`  [ "in the future [ [ musotaqobal / ADV ] ]" ],
 
     -- ;; musotaqobaliy~_1
     -- mstqbly musotaqobaliy~  N-ap    future     [[musotaqobaliy~/ADJ]]
 
-    noun     MustaFCaL                 {- musotaqobaliy~ -} `gloss`  [ "future [ [ musotaqobaliy ~ / ADJ ] ]" ] ]
+    noun     MustaFCaL |< Iy           {- musotaqobaliy~ -} `gloss`  [ "future [ [ musotaqobaliy ~ / ADJ ] ]" ] ]
 
  |> "q b l n" <| [
 
@@ -1284,22 +1280,22 @@ lexicon = listing "Lexicon properties"
     -- qbArS   qabAriS Nap     Cypriots
     -- qbArs   qabAris Nap     Cypriots
 
-    noun     KuRDuS                    {- quboruSiy~ -}     `others` [ "qabAris Nap", "qabAri.s Nap", "qubrusiyy Nall" ]
+    noun     KuRDuS |< Iy              {- quboruSiy~ -}     `others` [ "qabAris Nap", "qabAri.s Nap", "qubrusiyy Nall" ]
                                                             `gloss`  [ "Cypriot [ [ quboruSiy ~ / NOUN ] ]", "Cypriot [ [ quborusiy ~ / NOUN ] ]", "Cypriots" ],
 
     -- ;; quboruSiy~_2
     -- qbrSy   quboruSiy~      Nall    Cypriot     [[quboruSiy~/ADJ]]
     -- qbrsy   quborusiy~      Nall    Cypriot     [[quborusiy~/ADJ]]
 
-    noun     KuRDuS                    {- quboruSiy~ -}     `others` [ "qubrusiyy Nall" ]
+    noun     KuRDuS |< Iy              {- quboruSiy~ -}     `others` [ "qubrusiyy Nall" ]
                                                             `gloss`  [ "Cypriot [ [ quboruSiy ~ / ADJ ] ]", "Cypriot [ [ quborusiy ~ / ADJ ] ]" ] ]
 
  |> "q b s" <| [
 
     -- ;; qAbis_1
-    -- qAbs    qAbis   Ndip    Gabčs (Tun.)
+    -- qAbs    qAbis   Ndip    Gabes (Tun.)
 
-    noun     FACiL                     {- qAbis -}          `gloss`  [ "Gabčs ( Tun . )" ] ]
+    noun     FACiL                     {- qAbis -}          `gloss`  [ "Gabes ( Tun . )" ] ]
 
  |> "q d d" <| [
 
@@ -1404,7 +1400,7 @@ lexicon = listing "Lexicon properties"
     -- ;; taqodiymAt_1
     -- tqdym   taqodiym        NAt     offers;bids;services
 
-    noun     TaFCIL                    {- taqodiymAt -}     `others` [ "taqdiym NAt" ]
+    noun     TaFCIL |< At              {- taqodiymAt -}     `others` [ "taqdiym NAt" ]
                                                             `gloss`  [ "offers", "bids", "services" ],
 
     -- ;; <iqodAm_1
@@ -1422,7 +1418,7 @@ lexicon = listing "Lexicon properties"
     -- tqdmy   taqad~umiy~     Nall    progressive     [[taqad~umiy~/ADJ]]
     -- tqdmy   taqad~umiy~     Nap     progressivism     [[taqad~umiy~/NOUN]]
 
-    noun     TaFaCCuL                  {- taqad~umiy~ -}    `gloss`  [ "progressive [ [ taqad ~ umiy ~ / ADJ ] ]", "progressivism [ [ taqad ~ umiy ~ / NOUN ] ]" ],
+    noun     TaFaCCuL |< Iy            {- taqad~umiy~ -}    `gloss`  [ "progressive [ [ taqad ~ umiy ~ / ADJ ] ]", "progressivism [ [ taqad ~ umiy ~ / NOUN ] ]" ],
 
     -- ;; qAdim_1
     -- qAdm    qAdim   Nall    arriving;coming;proceeding
@@ -1445,7 +1441,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muqad~imap_1
     -- mqdm    muqad~im        NapAt   preface;introduction;front part
 
-    noun     MuFaCCiL                  {- muqad~imap -}     `gloss`  [ "preface", "introduction", "front part" ],
+    noun     MuFaCCiL |< aT            {- muqad~imap -}     `gloss`  [ "preface", "introduction", "front part" ],
 
     -- ;; muqad~am_1
     -- mqdm    muqad~am        N       front part
@@ -1465,12 +1461,12 @@ lexicon = listing "Lexicon properties"
     -- ;; muqad~amap_1
     -- mqdm    muqad~am        NapAt   preface;introduction;front part
 
-    noun     MuFaCCaL                  {- muqad~amap -}     `gloss`  [ "preface", "introduction", "front part" ],
+    noun     MuFaCCaL |< aT            {- muqad~amap -}     `gloss`  [ "preface", "introduction", "front part" ],
 
     -- ;; muqad~amap_2
     -- mqdm    muqad~am        Nap     vanguard
 
-    noun     MuFaCCaL                  {- muqad~amap -}     `gloss`  [ "vanguard" ],
+    noun     MuFaCCaL |< aT            {- muqad~amap -}     `gloss`  [ "vanguard" ],
 
     -- ;; mutaqad~im_1
     -- mtqdm   mutaqad~im      Nall    advanced;developed     [[mutaqad~im/ADJ]]
@@ -1512,7 +1508,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qadariy~ap_1
     -- qdry    qadariy~        Nap     fatalism;free will     [[qadariy~/NOUN]]
 
-    noun     FaCaL                     {- qadariy~ap -}     `gloss`  [ "fatalism", "free will [ [ qadariy ~ / NOUN ] ]" ],
+    noun     FaCaL |< Iy |< aT         {- qadariy~ap -}     `gloss`  [ "fatalism", "free will [ [ qadariy ~ / NOUN ] ]" ],
 
     -- ;; qidor_1
     -- qdr     qidor   Ndu     cooking pot;kettle
@@ -1524,7 +1520,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qudorap_1
     -- qdr     qudor   NapAt   capacity;ability;potential;power
 
-    noun     FuCL                      {- qudorap -}        `gloss`  [ "capacity", "ability", "potential", "power" ],
+    noun     FuCL |< aT                {- qudorap -}        `gloss`  [ "capacity", "ability", "potential", "power" ],
 
     -- ;; qadiyr_1
     -- qdyr    qadiyr  N/ap    capable;efficient     [[qadiyr/ADJ]]
@@ -1568,13 +1564,13 @@ lexicon = listing "Lexicon properties"
     -- ;; taqodiyrAF_1
     -- tqdyr   taqodiyr        NF      in appreciation for     [[taqodiyr/ADV]]
 
-    noun     TaFCIL                    {- taqodiyrAF -}     `others` [ "taqdiyr NF" ]
+    noun     TaFCIL |< aN              {- taqodiyrAF -}     `others` [ "taqdiyr NF" ]
                                                             `gloss`  [ "in appreciation for [ [ taqodiyr / ADV ] ]" ],
 
     -- ;; taqodiyriy~_1
     -- tqdyry  taqodiyriy~     N-ap    estimated;appreciative     [[taqodiyriy~/ADJ]]
 
-    noun     TaFCIL                    {- taqodiyriy~ -}    `gloss`  [ "estimated", "appreciative [ [ taqodiyriy ~ / ADJ ] ]" ],
+    noun     TaFCIL |< Iy              {- taqodiyriy~ -}    `gloss`  [ "estimated", "appreciative [ [ taqodiyriy ~ / ADJ ] ]" ],
 
     -- ;; qAdir_1
     -- qAdr    qAdir   N0      Qadir;Kadir
@@ -1619,17 +1615,17 @@ lexicon = listing "Lexicon properties"
     -- ;; qudosiy~_1
     -- qdsy    qudosiy~        Nall    Jerusalemite     [[qudosiy~/NOUN]]
 
-    noun     FuCL                      {- qudosiy~ -}       `gloss`  [ "Jerusalemite [ [ qudosiy ~ / NOUN ] ]" ],
+    noun     FuCL |< Iy                {- qudosiy~ -}       `gloss`  [ "Jerusalemite [ [ qudosiy ~ / NOUN ] ]" ],
 
     -- ;; qudosiy~_3
     -- qdsy    qudosiy~        Nall    holy;saintly     [[qudosiy~/ADJ]]
 
-    noun     FuCL                      {- qudosiy~ -}       `gloss`  [ "holy", "saintly [ [ qudosiy ~ / ADJ ] ]" ],
+    noun     FuCL |< Iy                {- qudosiy~ -}       `gloss`  [ "holy", "saintly [ [ qudosiy ~ / ADJ ] ]" ],
 
     -- ;; qudosiy~ap_1
     -- qdsy    qudosiy~        Nap     sanctity;holiness     [[qudosiy~/NOUN]]
 
-    noun     FuCL                      {- qudosiy~ap -}     `gloss`  [ "sanctity", "holiness [ [ qudosiy ~ / NOUN ] ]" ],
+    noun     FuCL |< Iy |< aT          {- qudosiy~ap -}     `gloss`  [ "sanctity", "holiness [ [ qudosiy ~ / NOUN ] ]" ],
 
     -- ;; qudus_2
     -- qds     qudus   N       holy
@@ -1646,7 +1642,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qadAsap_1
     -- qdAs    qadAs   Nap     sanctity;His Holiness
 
-    noun     FaCAL                     {- qadAsap -}        `gloss`  [ "sanctity", "His Holiness" ],
+    noun     FaCAL |< aT               {- qadAsap -}        `gloss`  [ "sanctity", "His Holiness" ],
 
     -- ;; qid~iys_1
     -- qdys    qid~iys Nall    saint;Saint
@@ -1662,7 +1658,7 @@ lexicon = listing "Lexicon properties"
     -- ;; maqodisiy~_1
     -- mqdsy   maqodisiy~      Nall    of/from Jerusalem     [[maqodisiy~/ADJ]]
 
-    noun     MaFCiL                    {- maqodisiy~ -}     `gloss`  [ "of / from Jerusalem [ [ maqodisiy ~ / ADJ ] ]" ],
+    noun     MaFCiL |< Iy              {- maqodisiy~ -}     `gloss`  [ "of / from Jerusalem [ [ maqodisiy ~ / ADJ ] ]" ],
 
     -- ;; taqodiys_1
     -- tqdys   taqodiys        N/At    consecration;glorification;worship
@@ -1672,7 +1668,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qAdisiy~ap_1
     -- qAdsy   qAdisiy~        Nap     Qadisiya     [[qAdisiy~/NOUN_PROP]]
 
-    noun     FACiL                     {- qAdisiy~ap -}     `gloss`  [ "Qadisiya [ [ qAdisiy ~ / NOUN_PROP ] ]" ],
+    noun     FACiL |< Iy |< aT         {- qAdisiy~ap -}     `gloss`  [ "Qadisiya [ [ qAdisiy ~ / NOUN_PROP ] ]" ],
 
     -- ;; muqad~as_1
     -- mqds    muqad~as        Nall    holy;sacred     [[muqad~as/ADJ]]
@@ -1682,7 +1678,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muqad~asAt_1
     -- mqds    muqad~as        NAt     sacred sites;sacred things
 
-    noun     MuFaCCaL                  {- muqad~asAt -}     `others` [ "muqaddas NAt" ]
+    noun     MuFaCCaL |< At            {- muqad~asAt -}     `others` [ "muqaddas NAt" ]
                                                             `gloss`  [ "sacred sites", "sacred things" ] ]
 
  |> "q d w" <| [
@@ -1691,7 +1687,7 @@ lexicon = listing "Lexicon properties"
     -- qdw     qudow   Napdu   example;model;pattern
     -- qdw     qidow   Napdu   example;model;pattern
 
-    noun     FuCL                      {- qudowap -}        `others` [ "qidw Napdu" ]
+    noun     FuCL |< aT                {- qudowap -}        `others` [ "qidw Napdu" ]
                                                             `gloss`  [ "example", "model", "pattern" ] ]
 
  |> "q f .s" <| [
@@ -1761,26 +1757,13 @@ lexicon = listing "Lexicon properties"
     -- qAfl    qAfil   Napdu   convoy;column
     -- qwAfl   qawAfil Ndip    convoys;columns
 
-    noun     FACiL                     {- qAfilap -}        `others` [ "qawAfil Ndip" ]
+    noun     FACiL |< aT               {- qAfilap -}        `others` [ "qawAfil Ndip" ]
                                                             `gloss`  [ "convoy", "column", "convoys", "columns" ],
 
     -- ;; muqofal_1
     -- mqfl    muqofal N-ap    locked;closed;blocked     [[muqofal/ADJ]]     <pos>muqofal/ADJ</pos>
 
-    noun     MuFCaL                    {- muqofal -}        `gloss`  [ "locked", "closed", "blocked [ [ muqofal / ADJ ] ] muqofal /  / pos>" ],
-
-    -- ;; qaf~aY_1
-    -- qfY     qaf~aY  PV_0    send;rhyme
-    -- qfA     qaf~A   PV_h    send;rhyme
-    -- qfy     qaf~ay  PV_Atn  send;rhyme
-    -- qf      qaf~    PV_ttAw send;rhyme
-    -- qfy     qaf~iy  IV_0hAnn_yu     send;rhyme
-    -- qf      qaf~    IV_0hwnyn_yu    send;rhyme
-    -- qfY     qaf~aY  IV_0_Pass_yu    be sent;be rhymed
-    -- qfy     qaf~ay  IV_Ann_Pass_yu  be sent;be rhymed
-
-    verb     FaCCY                     {- qaf~aY -}         `others` [ "qaffA PV_h", "qaffay PV_Atn IV_Ann_Pass_yu", "qaffiy IV_0hAnn_yu", "qaff IV_0hwnyn_yu PV_ttAw" ]
-                                                            `gloss`  [ "send", "rhyme", "be sent", "be rhymed" ] ]
+    noun     MuFCaL                    {- muqofal -}        `gloss`  [ "locked", "closed", "blocked [ [ muqofal / ADJ ] ] muqofal /  / pos>" ] ]
 
  |> "q f w" <| [
 
@@ -1795,7 +1778,20 @@ lexicon = listing "Lexicon properties"
 
     verb     FaCA                      {- qafA-u -}         `imperf` [ FCuL ]
                                                             `others` [ "qfuw IV_0hAnn", "qfY IV_0_Pass_yu", "qfay IV_Ann_Pass_yu", "qf IV_0hwnyn", "qafaw PV_Atn", "qaf PV_ttAw" ]
-                                                            `gloss`  [ "follow", "track", "be followed", "be tracked" ] ]
+                                                            `gloss`  [ "follow", "track", "be followed", "be tracked" ],
+
+    -- ;; qaf~aY_1
+    -- qfY     qaf~aY  PV_0    send;rhyme
+    -- qfA     qaf~A   PV_h    send;rhyme
+    -- qfy     qaf~ay  PV_Atn  send;rhyme
+    -- qf      qaf~    PV_ttAw send;rhyme
+    -- qfy     qaf~iy  IV_0hAnn_yu     send;rhyme
+    -- qf      qaf~    IV_0hwnyn_yu    send;rhyme
+    -- qfY     qaf~aY  IV_0_Pass_yu    be sent;be rhymed
+    -- qfy     qaf~ay  IV_Ann_Pass_yu  be sent;be rhymed
+
+    verb     FaCCY                     {- qaf~aY -}         `others` [ "qaffA PV_h", "qaffay PV_Atn IV_Ann_Pass_yu", "qaffiy IV_0hAnn_yu", "qaff IV_0hwnyn_yu PV_ttAw" ]
+                                                            `gloss`  [ "send", "rhyme", "be sent", "be rhymed" ] ]
 
  |> "q f z" <| [
 
@@ -1838,7 +1834,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qAhirap_1
     -- qAhr    qAhir   Nap     Cairo
 
-    noun     FACiL                     {- qAhirap -}        `gloss`  [ "Cairo" ],
+    noun     FACiL |< aT               {- qAhirap -}        `gloss`  [ "Cairo" ],
 
     -- ;; maqohuwr_1
     -- mqhwr   maqohuwr        Nall    defeated;humiliated;down-and-out     [[maqohuwr/ADJ]]
@@ -1851,20 +1847,18 @@ lexicon = listing "Lexicon properties"
     -- qhw     qahow   Napdu   coffee
     -- qhw     qahaw   NAt     coffees
 
-    noun     FaCL                      {- qahowap -}        `others` [ "qahaw NAt" ]
-                                                            `gloss`  [ "coffee", "coffees" ] ]
-
- |> "q h y" <| [
+    noun     FaCL |< aT                {- qahowap -}        `others` [ "qahaw NAt" ]
+                                                            `gloss`  [ "coffee", "coffees" ],
 
     -- ;; maqohaY_1
-    -- mqhY    maqohaY N0      café;coffeehouse
-    -- mqhA    maqohA  Nhy     café;coffeehouse
-    -- mqhy    maqohay NAn_Nayn        cafés;coffeehouses
-    -- mqAhy   maqAhiy N0_Nh   cafés;coffeehouses
-    -- mqAh    maqAh   NK      cafés;coffeehouses
+    -- mqhY    maqohaY N0      cafe;coffeehouse
+    -- mqhA    maqohA  Nhy     cafe;coffeehouse
+    -- mqhy    maqohay NAn_Nayn        cafes;coffeehouses
+    -- mqAhy   maqAhiy N0_Nh   cafes;coffeehouses
+    -- mqAh    maqAh   NK      cafes;coffeehouses
 
     noun     MaFCaNY                   {- maqohaY -}        `others` [ "maqhay NAn_Nayn", "maqAh NK", "maqAhiy N0_Nh", "maqhA Nhy" ]
-                                                            `gloss`  [ "café", "coffeehouse", "cafés", "coffeehouses" ] ]
+                                                            `gloss`  [ "cafe", "coffeehouse", "cafes", "coffeehouses" ] ]
 
  |> "q l .s" <| [
 
@@ -1923,7 +1917,7 @@ lexicon = listing "Lexicon properties"
     -- qlAE    qilAE   N       strongholds;citadels;forts
     -- qlwE    quluwE  N       strongholds;citadels;forts
 
-    noun     FaCL                      {- qaloEap -}        `others` [ "quluw` N", "qilA` N" ]
+    noun     FaCL |< aT                {- qaloEap -}        `others` [ "quluw` N", "qilA` N" ]
                                                             `gloss`  [ "stronghold", "citadel", "fort", "strongholds", "citadels", "forts" ],
 
     -- ;; maqolaE_1
@@ -1990,7 +1984,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qalobiy~_1
     -- qlby    qalobiy~        N-ap    cardiac;hearty     [[qalobiy~/ADJ]]
 
-    noun     FaCL                      {- qalobiy~ -}       `gloss`  [ "cardiac", "hearty [ [ qalobiy ~ / ADJ ] ]" ],
+    noun     FaCL |< Iy                {- qalobiy~ -}       `gloss`  [ "cardiac", "hearty [ [ qalobiy ~ / ADJ ] ]" ],
 
     -- ;; maqolab_1
     -- mqlb    maqolab Ndu     dumping ground
@@ -2028,7 +2022,7 @@ lexicon = listing "Lexicon properties"
     -- qlA}d   qalA}id Ndip    necklaces
     -- qlA}d   qalA}id Ndip    poems
 
-    noun     FiCAL                     {- qilAdap -}        `others` [ "qalA'id Ndip" ]
+    noun     FiCAL |< aT               {- qilAdap -}        `others` [ "qalA'id Ndip" ]
                                                             `gloss`  [ "necklace", "necklaces", "poems" ],
 
     -- ;; miqolAd_1
@@ -2060,7 +2054,7 @@ lexicon = listing "Lexicon properties"
     -- ;; taqoliydiy~_1
     -- tqlydy  taqoliydiy~     Nall    traditional;conventional     [[taqoliydiy~/ADJ]]
 
-    noun     TaFCIL                    {- taqoliydiy~ -}    `gloss`  [ "traditional", "conventional [ [ taqoliydiy ~ / ADJ ] ]" ] ]
+    noun     TaFCIL |< Iy              {- taqoliydiy~ -}    `gloss`  [ "traditional", "conventional [ [ taqoliydiy ~ / ADJ ] ]" ] ]
 
  |> "q l l" <| [
 
@@ -2096,12 +2090,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qal~ap_1
     -- ql      qal~    Nap     recovery
 
-    noun     FaCL                      {- qal~ap -}         `gloss`  [ "recovery" ],
+    noun     FaCL |< aT                {- qal~ap -}         `gloss`  [ "recovery" ],
 
     -- ;; qil~ap_1
     -- ql      qil~    Nap     scarcity;lack of;small number or amount of
 
-    noun     FiCL                      {- qil~ap -}         `gloss`  [ "scarcity", "lack of", "small number or amount of" ],
+    noun     FiCL |< aT                {- qil~ap -}         `gloss`  [ "scarcity", "lack of", "small number or amount of" ],
 
     -- ;; qaliyl_1
     -- qlyl    qaliyl  N-ap    little;few     [[qaliyl/ADJ]]
@@ -2127,7 +2121,7 @@ lexicon = listing "Lexicon properties"
     -- >qly    >aqal~iy~       NapAt   minority     [[>aqal~iy~/NOUN]]
     -- Aqly    >aqal~iy~       NapAt   minority     [[>aqal~iy~/NOUN]]
 
-    noun     HaFaCL                    {- Oaqal~iy~ap -}    `gloss`  [ "minority [ [ >aqal ~ iy ~ / NOUN ] ]" ],
+    noun     HaFaCL |< Iy |< aT        {- Oaqal~iy~ap -}    `gloss`  [ "minority [ [ >aqal ~ iy ~ / NOUN ] ]" ],
 
     -- ;; taqoliyl_1
     -- tqlyl   taqoliyl        N/At    decrease;diminution;reduction
@@ -2193,7 +2187,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qaloyuwbiy~ap_1
     -- qlywby  qaloyuwbiy~     Nap     Qalyubiyah (Egy. prov.)     [[qaloyuwbiy~/NOUN]]
 
-    noun     KaRDUS                    {- qaloyuwbiy~ap -}  `gloss`  [ "Qalyubiyah ( Egy . prov . ) [ [ qaloyuwbiy ~ / NOUN ] ]" ] ]
+    noun     KaRDUS |< Iy |< aT        {- qaloyuwbiy~ap -}  `gloss`  [ "Qalyubiyah ( Egy . prov . ) [ [ qaloyuwbiy ~ / NOUN ] ]" ] ]
 
  |> "q m .h" <| [
 
@@ -2245,7 +2239,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qamoEiy~_1
     -- qmEy    qamoEiy~        Nall    repressive     [[qamoEiy~/ADJ]]
 
-    noun     FaCL                      {- qamoEiy~ -}       `gloss`  [ "repressive [ [ qamoEiy ~ / ADJ ] ]" ] ]
+    noun     FaCL |< Iy                {- qamoEiy~ -}       `gloss`  [ "repressive [ [ qamoEiy ~ / ADJ ] ]" ] ]
 
  |> "q m m" <| [
 
@@ -2253,14 +2247,14 @@ lexicon = listing "Lexicon properties"
     -- qm      qim~    Napdu   summit
     -- qmm     qimam   N       summits
 
-    noun     FiCL                      {- qim~ap -}         `others` [ "qimam N" ]
+    noun     FiCL |< aT                {- qim~ap -}         `others` [ "qimam N" ]
                                                             `gloss`  [ "summit", "summits" ],
 
     -- ;; qumAmap_1
     -- qmAm    qumAm   Nap     rubbish
     -- qmA}m   qamA}im Ndip    rubbish
 
-    noun     FuCAL                     {- qumAmap -}        `others` [ "qamA'im Ndip" ]
+    noun     FuCAL |< aT               {- qumAmap -}        `others` [ "qamA'im Ndip" ]
                                                             `gloss`  [ "rubbish" ] ]
 
  |> "q m r" <| [
@@ -2281,7 +2275,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qamariy~_1
     -- qmry    qamariy~        N-ap    lunar;moon     [[qamariy~/ADJ]]
 
-    noun     FaCaL                     {- qamariy~ -}       `gloss`  [ "lunar", "moon [ [ qamariy ~ / ADJ ] ]" ],
+    noun     FaCaL |< Iy               {- qamariy~ -}       `gloss`  [ "lunar", "moon [ [ qamariy ~ / ADJ ] ]" ],
 
     -- ;; qamiyr_1
     -- qmyr    qamiyr  N/ap    gambling partner
@@ -2316,7 +2310,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qunoSuliy~ap_1
     -- qnSly   qunoSuliy~      NapAt   consulate     [[qunoSuliy~/NOUN]]
 
-    noun     KuRDuS                    {- qunoSuliy~ap -}   `gloss`  [ "consulate [ [ qunoSuliy ~ / NOUN ] ]" ] ]
+    noun     KuRDuS |< Iy |< aT        {- qunoSuliy~ap -}   `gloss`  [ "consulate [ [ qunoSuliy ~ / NOUN ] ]" ] ]
 
  |> "q n .t" <| [
 
@@ -2355,7 +2349,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qanAEap_1
     -- qnAE    qanAE   Nap     satisfaction;moderation
 
-    noun     FaCAL                     {- qanAEap -}        `gloss`  [ "satisfaction", "moderation" ],
+    noun     FaCAL |< aT               {- qanAEap -}        `gloss`  [ "satisfaction", "moderation" ],
 
     -- ;; qinAE_1
     -- qnAE    qinAE   N       weapons;armor;mask
@@ -2369,7 +2363,7 @@ lexicon = listing "Lexicon properties"
     -- AqnE    >aqoniE Nap     veils;masks
     -- qnAE    qinAE   NAt     veils;masks
 
-    noun     HaFCiL                    {- OaqoniEap -}      `others` [ "qinA` NAt" ]
+    noun     HaFCiL |< aT              {- OaqoniEap -}      `others` [ "qinA` NAt" ]
                                                             `gloss`  [ "veils", "masks" ],
 
     -- ;; <iqonAE_1
@@ -2399,21 +2393,14 @@ lexicon = listing "Lexicon properties"
     -- ;; qanobalap_1
     -- qnbl    qanobal Nap     bombarding;bombardment
 
-    noun     KaRDaS                    {- qanobalap -}      `gloss`  [ "bombarding", "bombardment" ],
+    noun     KaRDaS |< aT              {- qanobalap -}      `gloss`  [ "bombarding", "bombardment" ],
 
     -- ;; qunobulap_1
     -- qnbl    qunobul Napdu   bomb;shell;grenade
     -- qnAbl   qanAbil Ndip    bombs;shells;grenades
 
-    noun     KuRDuS                    {- qunobulap -}      `others` [ "qanAbil Ndip" ]
+    noun     KuRDuS |< aT              {- qunobulap -}      `others` [ "qanAbil Ndip" ]
                                                             `gloss`  [ "bomb", "shell", "grenade", "bombs", "shells", "grenades" ] ]
-
- |> "q n h" <| [
-
-    -- ;; quwniyap_1
-    -- qwny    quwniy  Nap     Konya
-
-    noun     FUCiy                     {- quwniyap -}       `gloss`  [ "Konya" ] ]
 
  |> "q n n" <| [
 
@@ -2423,29 +2410,38 @@ lexicon = listing "Lexicon properties"
     -- qnAn    qinAn   N       summits;peaks
     -- qnwn    qunuwn  N       summits;peaks
 
-    noun     FuCL                      {- qun~ap -}         `others` [ "qinAn N", "qunuwn N", "qunan N" ]
+    noun     FuCL |< aT                {- qun~ap -}         `others` [ "qinAn N", "qunuwn N", "qunan N" ]
                                                             `gloss`  [ "summit", "peak", "summits", "peaks" ],
 
     -- ;; taqoniyn_1
     -- tqnyn   taqoniyn        N/At    legislation;lawmaking
 
-    noun     TaFCIL                    {- taqoniyn -}       `gloss`  [ "legislation", "lawmaking" ] ]
+    noun     TaFCIL                    {- taqoniyn -}       `gloss`  [ "legislation", "lawmaking" ],
 
- |> "q q .d" <| [
+    -- ;; quwniyap_1
+    -- qwny    quwniy  Nap     Konya
 
-    -- ;; qaDiy~ap_1
-    -- qDy     qaDiy~  Napdu   problem;issue     [[qaDiy~/NOUN]]
-    -- qDAyA   qaDAyA  N0_Nhy  problems;issues
+    noun     FUCiy |< aT               {- quwniyap -}       `gloss`  [ "Konya" ] ]
 
-    noun     CaL                       {- qaDiy~ap -}       `others` [ "qa.dAyA N0_Nhy" ]
-                                                            `gloss`  [ "problem", "issue [ [ qaDiy ~ / NOUN ] ]", "problems", "issues" ],
+ |> "q n w" <| [
 
-    -- ;; qaDiy~ap_2
-    -- qDy     qaDiy~  Napdu   lawsuit;legal case     [[qaDiy~/NOUN]]
-    -- qDAyA   qaDAyA  N0_Nhy  lawsuits;legal cases
+    -- ;; qanAp_1
+    -- qnA     qanA    Napdu   canal;channel
+    -- qnw     qanaw   NAt     canals;channels
+    -- >qny    >aqoniy Nap     canals;channels
+    -- Aqny    >aqoniy Nap     canals;channels
 
-    noun     CaL                       {- qaDiy~ap -}       `others` [ "qa.dAyA N0_Nhy" ]
-                                                            `gloss`  [ "lawsuit", "legal case [ [ qaDiy ~ / NOUN ] ]", "lawsuits", "legal cases" ] ]
+    noun     FaCaNY |< aT              {- qanAp -}          `others` [ "qanaw NAt", "'aqniy Nap" ]
+                                                            `gloss`  [ "canal", "channel", "canals", "channels" ],
+
+    -- ;; qanAp_1
+    -- qnA     qanA    Napdu   canal;channel
+    -- qnw     qanaw   NAt     canals;channels
+    -- >qny    >aqoniy Nap     canals;channels
+    -- Aqny    >aqoniy Nap     canals;channels
+
+    noun     FaCaNY |< aT              {- qanAp -}          `others` [ "qanaw NAt", "'aqniy Nap" ]
+                                                            `gloss`  [ "canal", "channel", "canals", "channels" ] ]
 
  |> "q q d" <| [
 
@@ -2460,29 +2456,6 @@ lexicon = listing "Lexicon properties"
     -- qd      qad     FW-Wa   may/might     [[qad/FUNC_WORD]]
 
     noun     CaL                       {- qad -}            `gloss`  [ "may / might [ [ qad / FUNC_WORD ] ]" ] ]
-
- |> "q q r" <| [
-
-    -- ;; qariy~ap_1
-    -- qry     qariy~  Napdu   yard (naut.)     [[qariy~/NOUN]]
-    -- qrAyA   qarAyA  N0_Nhy  yards (naut.)
-
-    noun     CaL                       {- qariy~ap -}       `others` [ "qarAyA N0_Nhy" ]
-                                                            `gloss`  [ "yard ( naut . ) [ [ qariy ~ / NOUN ] ]", "yards ( naut . )" ] ]
-
- |> "q q w" <| [
-
-    -- ;; qawiy~_1
-    -- qwy     qawiy~  N/ap    strong;powerful     [[qawiy~/ADJ]]
-    -- >qwyA'  >aqowiyA'       N0_Nh   strong;powerful
-    -- AqwyA'  >aqowiyA'       N0_Nh   strong;powerful
-    -- >qwyA&  >aqowiyA&       Nh      strong;powerful
-    -- AqwyA&  >aqowiyA&       Nh      strong;powerful
-    -- >qwyA}  >aqowiyA}       Nhy     strong;powerful
-    -- AqwyA}  >aqowiyA}       Nhy     strong;powerful
-
-    noun     CaL                       {- qawiy~ -}         `others` [ "'aqwiyA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "strong", "powerful [ [ qawiy ~ / ADJ ] ]", "powerful" ] ]
 
  |> "q r '" <| [
 
@@ -2504,7 +2477,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qirA'ap_1
     -- qrA'    qirA'   NapAt   reading
 
-    noun     FiCAL                     {- qirA'ap -}        `gloss`  [ "reading" ],
+    noun     FiCAL |< aT               {- qirA'ap -}        `gloss`  [ "reading" ],
 
     -- ;; qAri}_1
     -- qAr}    qAri}   Nall    reader
@@ -2525,7 +2498,7 @@ lexicon = listing "Lexicon properties"
     -- ;; quro|niy~_1
     -- qr|ny   quro|niy~       N-ap    Quranic     [[quro|niy~/ADJ]]
 
-    noun     KuRDAS                    {- quro|niy~ -}      `gloss`  [ "Quranic [ [ quro | niy ~ / ADJ ] ]" ] ]
+    noun     KuRDAS |< Iy              {- quro|niy~ -}      `gloss`  [ "Quranic [ [ quro | niy ~ / ADJ ] ]" ] ]
 
  |> "q r .d" <| [
 
@@ -2568,7 +2541,7 @@ lexicon = listing "Lexicon properties"
     -- ;; miqoraHiy~_1
     -- mqrHy   miqoraHiy~      N0      Megrahi
 
-    noun     MiFCaL                    {- miqoraHiy~ -}     `gloss`  [ "Megrahi" ] ]
+    noun     MiFCaL |< Iy              {- miqoraHiy~ -}     `gloss`  [ "Megrahi" ] ]
 
  |> "q r .s" <| [
 
@@ -2585,7 +2558,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qaroSanap_1
     -- qrSn    qaroSan Nap     piracy
 
-    noun     KaRDaS                    {- qaroSanap -}      `gloss`  [ "piracy" ] ]
+    noun     KaRDaS |< aT              {- qaroSanap -}      `gloss`  [ "piracy" ] ]
 
  |> "q r .t" <| [
 
@@ -2618,7 +2591,7 @@ lexicon = listing "Lexicon properties"
     -- ;; quroTubap_1
     -- qrTb    quroTub Nap     Cordoba
 
-    noun     KuRDuS                    {- quroTubap -}      `gloss`  [ "Cordoba" ] ]
+    noun     KuRDuS |< aT              {- quroTubap -}      `gloss`  [ "Cordoba" ] ]
 
  |> "q r ^s" <| [
 
@@ -2648,13 +2621,13 @@ lexicon = listing "Lexicon properties"
     -- qrE     quroE   Nap     ballot
     -- qrE     quraE   N       ballots
 
-    noun     FuCL                      {- quroEap -}        `others` [ "qura` N" ]
+    noun     FuCL |< aT                {- quroEap -}        `others` [ "qura` N" ]
                                                             `gloss`  [ "ballot", "ballots" ],
 
     -- ;; quroEap_2
     -- qrE     quroE   Nap     enlistment;draft
 
-    noun     FuCL                      {- quroEap -}        `gloss`  [ "enlistment", "draft" ],
+    noun     FuCL |< aT                {- quroEap -}        `gloss`  [ "enlistment", "draft" ],
 
     -- ;; qariyE_2
     -- qryE    qariyE  N0      Qarie
@@ -2664,7 +2637,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muqAraEap_1
     -- mqArE   muqAraE NapAt   fight;struggle against
 
-    noun     MuFACaL                   {- muqAraEap -}      `gloss`  [ "fight", "struggle against" ],
+    noun     MuFACaL |< aT             {- muqAraEap -}      `gloss`  [ "fight", "struggle against" ],
 
     -- ;; muqotariE_1
     -- mqtrE   muqotariE       Nall    voter;voting
@@ -2739,12 +2712,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qarAbap_1
     -- qrAb    qarAb   Nap     affinity;kinship;relationship
 
-    noun     FaCAL                     {- qarAbap -}        `gloss`  [ "affinity", "kinship", "relationship" ],
+    noun     FaCAL |< aT               {- qarAbap -}        `gloss`  [ "affinity", "kinship", "relationship" ],
 
     -- ;; qurAbap_1
     -- qrAb    qurAb   Nap     almost;nearly
 
-    noun     FuCAL                     {- qurAbap -}        `gloss`  [ "almost", "nearly" ],
+    noun     FuCAL |< aT               {- qurAbap -}        `gloss`  [ "almost", "nearly" ],
 
     -- ;; >aqorab_1
     -- >qrb    >aqorab Nel     soonest;nearer/nearest;more/most likely
@@ -2760,7 +2733,7 @@ lexicon = listing "Lexicon properties"
     -- ;; maqorabap_1
     -- mqrb    maqorab Nap     close;near;vicinity;proximity
 
-    noun     MaFCaL                    {- maqorabap -}      `gloss`  [ "close", "near", "vicinity", "proximity" ],
+    noun     MaFCaL |< aT              {- maqorabap -}      `gloss`  [ "close", "near", "vicinity", "proximity" ],
 
     -- ;; maqorab_1
     -- mqrb    maqorab Ndu     shortcut
@@ -2779,12 +2752,12 @@ lexicon = listing "Lexicon properties"
     -- ;; muqArabap_1
     -- mqArb   muqArab NapAt   approximation;juxtaposition
 
-    noun     MuFACaL                   {- muqArabap -}      `gloss`  [ "approximation", "juxtaposition" ],
+    noun     MuFACaL |< aT             {- muqArabap -}      `gloss`  [ "approximation", "juxtaposition" ],
 
     -- ;; muqArabap_2
     -- mqArb   muqArab NapAt   rapprochement
 
-    noun     MuFACaL                   {- muqArabap -}      `gloss`  [ "rapprochement" ],
+    noun     MuFACaL |< aT             {- muqArabap -}      `gloss`  [ "rapprochement" ],
 
     -- ;; taqar~ub_1
     -- tqrb    taqar~ub        N/At    approach;approximation
@@ -2802,9 +2775,9 @@ lexicon = listing "Lexicon properties"
     noun     MuFaCCaL                  {- muqar~ab -}       `gloss`  [ "close", "near [ [ muqar ~ ab / ADJ ] ]" ],
 
     -- ;; muqar~ab_2
-    -- mqrb    muqar~ab        Nall    close companion;protégé;intimate
+    -- mqrb    muqar~ab        Nall    close companion;protege;intimate
 
-    noun     MuFaCCaL                  {- muqar~ab -}       `gloss`  [ "close companion", "protégé", "intimate" ],
+    noun     MuFaCCaL                  {- muqar~ab -}       `gloss`  [ "close companion", "protege", "intimate" ],
 
     -- ;; mutaqArib_1
     -- mtqArb  mutaqArib       Nall    close together;successive
@@ -2855,30 +2828,30 @@ lexicon = listing "Lexicon properties"
     -- qrn     quron   Napdu   corner
     -- qrn     quran   N       corners
 
-    noun     FuCL                      {- quronap -}        `others` [ "quran N" ]
+    noun     FuCL |< aT                {- quronap -}        `others` [ "quran N" ]
                                                             `gloss`  [ "corner", "corners" ],
 
     -- ;; quronap_2
     -- qrnp    quronap Nprop   Qornet;Qurnat
 
-    noun     FuCL                      {- quronap -}        `gloss`  [ "Qornet", "Qurnat" ],
+    noun     FuCL |< aT                {- quronap -}        `gloss`  [ "Qornet", "Qurnat" ],
 
     -- ;; qariynap_1
     -- qryn    qariyn  NapAt   wife
 
-    noun     FaCIL                     {- qariynap -}       `gloss`  [ "wife" ],
+    noun     FaCIL |< aT               {- qariynap -}       `gloss`  [ "wife" ],
 
     -- ;; qariynap_2
     -- qryn    qariyn  Nap     linkage
     -- qrA}n   qarA}in Ndip    linkage;connections
 
-    noun     FaCIL                     {- qariynap -}       `others` [ "qarA'in Ndip" ]
+    noun     FaCIL |< aT               {- qariynap -}       `others` [ "qarA'in Ndip" ]
                                                             `gloss`  [ "linkage", "connections" ],
 
     -- ;; muqAranap_1
     -- mqArn   muqAran NapAt   comparison
 
-    noun     MuFACaL                   {- muqAranap -}      `gloss`  [ "comparison" ],
+    noun     MuFACaL |< aT             {- muqAranap -}      `gloss`  [ "comparison" ],
 
     -- ;; maqoruwn_1
     -- mqrwn   maqoruwn        Nall    connected;linked;affiliated     [[maqoruwn/ADJ]]
@@ -2944,7 +2917,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qarArap_1
     -- qrAr    qarAr   Nap     bottom;depth
 
-    noun     FaCAL                     {- qarArap -}        `gloss`  [ "bottom", "depth" ],
+    noun     FaCAL |< aT               {- qarArap -}        `gloss`  [ "bottom", "depth" ],
 
     -- ;; maqar~_1
     -- mqr     maqar~  NduAt   center;headquarters;residence
@@ -2980,13 +2953,13 @@ lexicon = listing "Lexicon properties"
     -- qAr     qAr~    Napdu   continent
     -- qAr     qAr~    NAt     continents
 
-    noun     FACL                      {- qAr~ap -}         `others` [ "qArr NAt" ]
+    noun     FACL |< aT                {- qAr~ap -}         `others` [ "qArr NAt" ]
                                                             `gloss`  [ "continent", "continents" ],
 
     -- ;; qAr~iy~_1
     -- qAry    qAr~iy~ N-ap    continental     [[qAr~iy~/ADJ]]
 
-    noun     FACL                      {- qAr~iy~ -}        `gloss`  [ "continental [ [ qAr ~ iy ~ / ADJ ] ]" ],
+    noun     FACL |< Iy                {- qAr~iy~ -}        `gloss`  [ "continental [ [ qAr ~ iy ~ / ADJ ] ]" ],
 
     -- ;; muqar~ir_1
     -- mqrr    muqar~ir        Nall    reporter
@@ -3008,18 +2981,6 @@ lexicon = listing "Lexicon properties"
 
     noun     MustaFiCL                 {- musotaqir~ -}     `gloss`  [ "settled", "at ease [ [ musotaqir ~ / ADJ ] ]" ] ]
 
- |> "q r w" <| [
-
-    -- ;; qarawiy~_1
-    -- qrwy    qarawiy~        N-ap    rural;village     [[qarawiy~/ADJ]]
-
-    noun     FaCaL                     {- qarawiy~ -}       `gloss`  [ "rural", "village [ [ qarawiy ~ / ADJ ] ]" ],
-
-    -- ;; qarawiy~_2
-    -- qrwy    qarawiy~        Nall    peasant;villager     [[qarawiy~/ADJ]]
-
-    noun     FaCaL                     {- qarawiy~ -}       `gloss`  [ "peasant", "villager [ [ qarawiy ~ / ADJ ] ]" ] ]
-
  |> "q r y" <| [
 
     -- ;; qiraY_1
@@ -3034,30 +2995,35 @@ lexicon = listing "Lexicon properties"
     -- qrY     quraY   N0      villages
     -- qrA     qurA    Nhy     villages
 
-    noun     FaCL                      {- qaroyap -}        `others` [ "qurY N0", "qurA Nhy" ]
-                                                            `gloss`  [ "village", "villages" ] ]
+    noun     FaCL |< aT                {- qaroyap -}        `others` [ "qurY N0", "qurA Nhy" ]
+                                                            `gloss`  [ "village", "villages" ],
 
- |> "q s " <| [
+    -- ;; qariy~ap_1
+    -- qry     qariy~  Napdu   yard (naut.)     [[qariy~/NOUN]]
+    -- qrAyA   qarAyA  N0_Nhy  yards (naut.)
 
-    -- ;; qAsiy_1
-    -- qAsy    qAsiy   N0F     harsh;cruel;brutal     [[qAsiy/ADJ]]
-    -- qAs     qAs     NK      harsh;cruel;brutal
-    -- qAsy    qAsiy   NAn_Nayn        harsh;cruel;brutal
-    -- qAs     qAs     Nuwn_Niyn       harsh;cruel;brutal
-    -- qAsy    qAsiy   NapAt   harsh;cruel;brutal
+    noun     FaCIL |< aT               {- qariy~ap -}       `others` [ "qarAyA N0_Nhy" ]
+                                                            `gloss`  [ "yard ( naut . ) [ [ qariy ~ / NOUN ] ]", "yards ( naut . )" ],
 
-    noun     FACI                      {- qAsiy -}          `others` [ "qAs Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "harsh", "cruel", "brutal [ [ qAsiy / ADJ ] ]", "brutal" ],
+    -- ;; qarawiy~_1
+    -- qrwy    qarawiy~        N-ap    rural;village     [[qarawiy~/ADJ]]
 
-    -- ;; qAsiy_1
-    -- qAsy    qAsiy   N0F     harsh;cruel;brutal     [[qAsiy/ADJ]]
-    -- qAs     qAs     NK      harsh;cruel;brutal
-    -- qAsy    qAsiy   NAn_Nayn        harsh;cruel;brutal
-    -- qAs     qAs     Nuwn_Niyn       harsh;cruel;brutal
-    -- qAsy    qAsiy   NapAt   harsh;cruel;brutal
+    noun     FaCaNY |< Iy              {- qarawiy~ -}       `gloss`  [ "rural", "village [ [ qarawiy ~ / ADJ ] ]" ],
 
-    noun     FACI                      {- qAsiy -}          `others` [ "qAs Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "harsh", "cruel", "brutal [ [ qAsiy / ADJ ] ]", "brutal" ] ]
+    -- ;; qarawiy~_1
+    -- qrwy    qarawiy~        N-ap    rural;village     [[qarawiy~/ADJ]]
+
+    noun     FaCaNY |< Iy              {- qarawiy~ -}       `gloss`  [ "rural", "village [ [ qarawiy ~ / ADJ ] ]" ],
+
+    -- ;; qarawiy~_2
+    -- qrwy    qarawiy~        Nall    peasant;villager     [[qarawiy~/ADJ]]
+
+    noun     FaCaNY |< Iy              {- qarawiy~ -}       `gloss`  [ "peasant", "villager [ [ qarawiy ~ / ADJ ] ]" ],
+
+    -- ;; qarawiy~_2
+    -- qrwy    qarawiy~        Nall    peasant;villager     [[qarawiy~/ADJ]]
+
+    noun     FaCaNY |< Iy              {- qarawiy~ -}       `gloss`  [ "peasant", "villager [ [ qarawiy ~ / ADJ ] ]" ] ]
 
  |> "q s .t" <| [
 
@@ -3137,7 +3103,7 @@ lexicon = listing "Lexicon properties"
     -- qsym    qasiym  Napdu   coupon;stub
     -- qsA}m   qasA}im Ndip    coupons;stubs
 
-    noun     FaCIL                     {- qasiymap -}       `others` [ "qasA'im Ndip" ]
+    noun     FaCIL |< aT               {- qasiymap -}       `others` [ "qasA'im Ndip" ]
                                                             `gloss`  [ "coupon", "stub", "coupons", "stubs" ],
 
     -- ;; taqosiym_1
@@ -3150,7 +3116,7 @@ lexicon = listing "Lexicon properties"
     -- ;; taqosiymiy~_1
     -- tqsymy  taqosiymiy~     Nall    fractional;fragmentary     [[taqosiymiy~/ADJ]]
 
-    noun     TaFCIL                    {- taqosiymiy~ -}    `gloss`  [ "fractional", "fragmentary [ [ taqosiymiy ~ / ADJ ] ]" ],
+    noun     TaFCIL |< Iy              {- taqosiymiy~ -}    `gloss`  [ "fractional", "fragmentary [ [ taqosiymiy ~ / ADJ ] ]" ],
 
     -- ;; taqAsum_1
     -- tqAsm   taqAsum N/At    partitioning;sharing portions
@@ -3197,7 +3163,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qasoriy~_1
     -- qsry    qasoriy~        Nall    coercive;constraining     [[qasoriy~/ADJ]]
 
-    noun     FaCL                      {- qasoriy~ -}       `gloss`  [ "coercive", "constraining [ [ qasoriy ~ / ADJ ] ]" ] ]
+    noun     FaCL |< Iy                {- qasoriy~ -}       `gloss`  [ "coercive", "constraining [ [ qasoriy ~ / ADJ ] ]" ] ]
 
  |> "q s s" <| [
 
@@ -3233,7 +3199,27 @@ lexicon = listing "Lexicon properties"
     -- Aqsy    >aqosay NAn_Nayn        harshest;cruelest
 
     noun     HaFCY                     {- OaqosaY -}        `others` [ "'aqsay NAn_Nayn", "'aqsA Nhy" ]
-                                                            `gloss`  [ "harshest", "cruelest" ] ]
+                                                            `gloss`  [ "harshest", "cruelest" ],
+
+    -- ;; qAsiy_1
+    -- qAsy    qAsiy   N0F     harsh;cruel;brutal     [[qAsiy/ADJ]]
+    -- qAs     qAs     NK      harsh;cruel;brutal
+    -- qAsy    qAsiy   NAn_Nayn        harsh;cruel;brutal
+    -- qAs     qAs     Nuwn_Niyn       harsh;cruel;brutal
+    -- qAsy    qAsiy   NapAt   harsh;cruel;brutal
+
+    noun     FACI                      {- qAsiy -}          `others` [ "qAs Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "harsh", "cruel", "brutal [ [ qAsiy / ADJ ] ]", "brutal" ],
+
+    -- ;; qAsiy_1
+    -- qAsy    qAsiy   N0F     harsh;cruel;brutal     [[qAsiy/ADJ]]
+    -- qAs     qAs     NK      harsh;cruel;brutal
+    -- qAsy    qAsiy   NAn_Nayn        harsh;cruel;brutal
+    -- qAs     qAs     Nuwn_Niyn       harsh;cruel;brutal
+    -- qAsy    qAsiy   NapAt   harsh;cruel;brutal
+
+    noun     FACI                      {- qAsiy -}          `others` [ "qAs Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "harsh", "cruel", "brutal [ [ qAsiy / ADJ ] ]", "brutal" ] ]
 
  |> "q s y" <| [
 
@@ -3293,7 +3279,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qitAliy~_1
     -- qtAly   qitAliy~        N-ap    fighting;battle     [[qitAliy~/ADJ]]
 
-    noun     FiCAL                     {- qitAliy~ -}       `gloss`  [ "fighting", "battle [ [ qitAliy ~ / ADJ ] ]" ],
+    noun     FiCAL |< Iy               {- qitAliy~ -}       `gloss`  [ "fighting", "battle [ [ qitAliy ~ / ADJ ] ]" ],
 
     -- ;; qAtil_1
     -- qAtl    qAtil   N-ap    deadly;fatal     [[qAtil/ADJ]]
@@ -3316,7 +3302,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muqAtilap_1
     -- mqAtl   muqAtil NapAt   fighter aircraft
 
-    noun     MuFACiL                   {- muqAtilap -}      `gloss`  [ "fighter aircraft" ] ]
+    noun     MuFACiL |< aT             {- muqAtilap -}      `gloss`  [ "fighter aircraft" ] ]
 
  |> "q t r" <| [
 
@@ -3327,17 +3313,6 @@ lexicon = listing "Lexicon properties"
 
     noun     FICAL                     {- qiytAr -}         `others` [ "qayAtiyr Ndip" ]
                                                             `gloss`  [ "guitar", "guitars" ] ]
-
- |> "q w '" <| [
-
-    -- ;; muqaw~aY_1
-    -- mqwY    muqaw~aY        N0      strengthened;reinforced     [[muqaw~aY/ADJ]]
-    -- mqwA    muqaw~A Nhy     strengthened;reinforced
-    -- mqwy    muqaw~ay        NAn_Nayn        strengthened;reinforced
-    -- mqwA    muqaw~A Napdu   strengthened;reinforced
-
-    noun     MuFaCCaNY                 {- muqaw~aY -}       `others` [ "muqawway NAn_Nayn", "muqawwA Napdu Nhy" ]
-                                                            `gloss`  [ "strengthened", "reinforced [ [ muqaw ~ aY / ADJ ] ]", "reinforced" ] ]
 
  |> "q w `" <| [
 
@@ -3356,7 +3331,7 @@ lexicon = listing "Lexicon properties"
     -- qAE     qAE     Napdu   hall;corridor;large room
     -- qAE     qAE     NAt     halls;corridors;large rooms
 
-    noun     FAL                       {- qAEap -}          `others` [ "qA` NAt" ]
+    noun     FAL |< aT                 {- qAEap -}          `others` [ "qA` NAt" ]
                                                             `gloss`  [ "hall", "corridor", "large room", "halls", "corridors", "large rooms" ] ]
 
  |> "q w d" <| [
@@ -3435,7 +3410,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muqAwalap_1
     -- mqAwl   muqAwal Nap     deal;bargain;settlement
 
-    noun     MuFACaL                   {- muqAwalap -}      `gloss`  [ "deal", "bargain", "settlement" ],
+    noun     MuFACaL |< aT             {- muqAwalap -}      `gloss`  [ "deal", "bargain", "settlement" ],
 
     -- ;; qA}il_1
     -- qA}l    qA}il   Nall    saying     [[qA}il/ADV]]
@@ -3447,7 +3422,7 @@ lexicon = listing "Lexicon properties"
     -- mqwl    maquwl  Napdu   statement;pronouncement;proposition
     -- mqwl    maquwl  NAt     statements;pronouncements;propositions
 
-    noun     MaFUL                     {- maquwlap -}       `others` [ "maquwl NAt" ]
+    noun     MaFUL |< aT               {- maquwlap -}       `others` [ "maquwl NAt" ]
                                                             `gloss`  [ "statement", "pronouncement", "proposition", "statements", "pronouncements", "propositions" ],
 
     -- ;; muqAwil_1
@@ -3499,42 +3474,42 @@ lexicon = listing "Lexicon properties"
     -- ;; qawomiy~_1
     -- qwmy    qawomiy~        N-ap    national;state     [[qawomiy~/ADJ]]
 
-    noun     FaCL                      {- qawomiy~ -}       `gloss`  [ "national", "state [ [ qawomiy ~ / ADJ ] ]" ],
+    noun     FaCL |< Iy                {- qawomiy~ -}       `gloss`  [ "national", "state [ [ qawomiy ~ / ADJ ] ]" ],
 
     -- ;; qawomiy~_2
     -- qwmy    qawomiy~        Nall    nationalist     [[qawomiy~/ADJ]]
 
-    noun     FaCL                      {- qawomiy~ -}       `gloss`  [ "nationalist [ [ qawomiy ~ / ADJ ] ]" ],
+    noun     FaCL |< Iy                {- qawomiy~ -}       `gloss`  [ "nationalist [ [ qawomiy ~ / ADJ ] ]" ],
 
     -- ;; qawomiy~ap_1
     -- qwmy    qawomiy~        Nap     nationalism     [[qawomiy~/NOUN]]
 
-    noun     FaCL                      {- qawomiy~ap -}     `gloss`  [ "nationalism [ [ qawomiy ~ / NOUN ] ]" ],
+    noun     FaCL |< Iy |< aT          {- qawomiy~ap -}     `gloss`  [ "nationalism [ [ qawomiy ~ / NOUN ] ]" ],
 
     -- ;; qawomiy~ap_2
     -- qwmy    qawomiy~        Napdu   nationality     [[qawomiy~/NOUN]]
     -- qwmy    qawomiy~        NAt     nationalities     [[qawomiy~/NOUN]]
 
-    noun     FaCL                      {- qawomiy~ap -}     `others` [ "qawmiyy NAt" ]
+    noun     FaCL |< Iy |< aT          {- qawomiy~ap -}     `others` [ "qawmiyy NAt" ]
                                                             `gloss`  [ "nationality [ [ qawomiy ~ / NOUN ] ]", "nationalities [ [ qawomiy ~ / NOUN ] ]" ],
 
     -- ;; qAmap_1
     -- qAm     qAm     Nap     stature
 
-    noun     FAL                       {- qAmap -}          `gloss`  [ "stature" ],
+    noun     FAL |< aT                 {- qAmap -}          `gloss`  [ "stature" ],
 
     -- ;; qiymap_1
     -- qym     qiym    Napdu   value;worth
     -- qym     qiyam   N       values;morals;ethics
 
-    noun     FIL                       {- qiymap -}         `others` [ "qiyam N" ]
+    noun     FIL |< aT                 {- qiymap -}         `others` [ "qiyam N" ]
                                                             `gloss`  [ "value", "worth", "values", "morals", "ethics" ],
 
     -- ;; qiymap_2
     -- qym     qiym    Napdu   amount;quantity
     -- qym     qiyam   N       amounts;quantities
 
-    noun     FIL                       {- qiymap -}         `others` [ "qiyam N" ]
+    noun     FIL |< aT                 {- qiymap -}         `others` [ "qiyam N" ]
                                                             `gloss`  [ "amount", "quantity", "amounts", "quantities" ],
 
     -- ;; qiwAm_1
@@ -3568,13 +3543,13 @@ lexicon = listing "Lexicon properties"
     -- ;; muqAwamap_1
     -- mqAwm   muqAwam NapAt   resistance;opposition;struggle
 
-    noun     MuFACaL                   {- muqAwamap -}      `gloss`  [ "resistance", "opposition", "struggle" ],
+    noun     MuFACaL |< aT             {- muqAwamap -}      `gloss`  [ "resistance", "opposition", "struggle" ],
 
     -- ;; <iqAmap_1
     -- <qAm    <iqAm   Nap     residency;setting up
     -- AqAm    <iqAm   Nap     residency;setting up
 
-    noun     HiFAL                     {- IiqAmap -}        `gloss`  [ "residency", "setting up" ],
+    noun     HiFAL |< aT               {- IiqAmap -}        `gloss`  [ "residency", "setting up" ],
 
     -- ;; qA}im_1
     -- qA}m    qA}im   Nall    carrying out;executing
@@ -3596,14 +3571,14 @@ lexicon = listing "Lexicon properties"
     -- ;; qA}imap_1
     -- qA}m    qA}im   Napdu   support;base
 
-    noun     FA'iL                     {- qA}imap -}        `gloss`  [ "support", "base" ],
+    noun     FA'iL |< aT               {- qA}imap -}        `gloss`  [ "support", "base" ],
 
     -- ;; qA}imap_2
     -- qA}m    qA}im   Napdu   list;index
     -- qA}m    qA}im   NAt     lists;indexes
     -- qwA}m   qawA}im Ndip    lists;indexes
 
-    noun     FA'iL                     {- qA}imap -}        `others` [ "qawA'im Ndip", "qA'im NAt" ]
+    noun     FA'iL |< aT               {- qA}imap -}        `others` [ "qawA'im Ndip", "qA'im NAt" ]
                                                             `gloss`  [ "list", "index", "lists", "indexes" ],
 
     -- ;; muqaw~im_2
@@ -3644,7 +3619,7 @@ lexicon = listing "Lexicon properties"
     -- qwqAzy  qawoqAziy~      Nall    Caucasian     [[qawoqAziy~/NOUN]]
     -- qwqAzy  qawoqAziy~      Nall    Caucasian     [[qawoqAziy~/ADJ]]
 
-    noun     KaRDAS                    {- qawoqAziy~ -}     `gloss`  [ "Caucasian [ [ qawoqAziy ~ / NOUN ] ]", "Caucasian [ [ qawoqAziy ~ / ADJ ] ]" ] ]
+    noun     KaRDAS |< Iy              {- qawoqAziy~ -}     `gloss`  [ "Caucasian [ [ qawoqAziy ~ / NOUN ] ]", "Caucasian [ [ qawoqAziy ~ / ADJ ] ]" ] ]
 
  |> "q w s" <| [
 
@@ -3669,14 +3644,6 @@ lexicon = listing "Lexicon properties"
     -- AqwAt   >aqowAt N       nourishment;food
 
     noun     FuCL                      {- quwt -}           `others` [ "'aqwAt N" ]
-                                                            `gloss`  [ "nourishment", "food" ],
-
-    -- ;; quwt_1
-    -- qwt     quwt    N       nourishment;food
-    -- >qwAt   >aqowAt N       nourishment;food
-    -- AqwAt   >aqowAt N       nourishment;food
-
-    noun     FUL                       {- quwt -}           `others` [ "'aqwAt N" ]
                                                             `gloss`  [ "nourishment", "food" ] ]
 
  |> "q w w" <| [
@@ -3701,7 +3668,7 @@ lexicon = listing "Lexicon properties"
     -- qwy     quwaY   N0      armed forces;power
     -- qwA     quwA    Nhy     armed forces;power
 
-    noun     FuCL                      {- quw~ap -}         `others` [ "quwY N0", "quwA Nhy", "quww NAt" ]
+    noun     FuCL |< aT                {- quw~ap -}         `others` [ "quwY N0", "quwA Nhy", "quww NAt" ]
                                                             `gloss`  [ "power", "strength", "armed forces" ],
 
     -- ;; quw~ap_1
@@ -3711,7 +3678,7 @@ lexicon = listing "Lexicon properties"
     -- qwy     quwaY   N0      armed forces;power
     -- qwA     quwA    Nhy     armed forces;power
 
-    noun     FUL                       {- quw~ap -}         `others` [ "quwY N0", "quwA Nhy", "quww NAt" ]
+    noun     FUL |< aT                 {- quw~ap -}         `others` [ "quwY N0", "quwA Nhy", "quww NAt" ]
                                                             `gloss`  [ "power", "strength", "armed forces" ] ]
 
  |> "q w y" <| [
@@ -3740,6 +3707,18 @@ lexicon = listing "Lexicon properties"
     verb     FaCCY                     {- qaw~aY -}         `others` [ "qaww IV_0hwnyn_yu PV_ttAw", "qawway PV_Atn IV_Ann_Pass_yu", "qawwiy IV_0hAnn_yu", "qawwA PV_h" ]
                                                             `gloss`  [ "strengthen", "be strengthened" ],
 
+    -- ;; qawiy~_1
+    -- qwy     qawiy~  N/ap    strong;powerful     [[qawiy~/ADJ]]
+    -- >qwyA'  >aqowiyA'       N0_Nh   strong;powerful
+    -- AqwyA'  >aqowiyA'       N0_Nh   strong;powerful
+    -- >qwyA&  >aqowiyA&       Nh      strong;powerful
+    -- AqwyA&  >aqowiyA&       Nh      strong;powerful
+    -- >qwyA}  >aqowiyA}       Nhy     strong;powerful
+    -- AqwyA}  >aqowiyA}       Nhy     strong;powerful
+
+    noun     FY |< Iy                  {- qawiy~ -}         `others` [ "'aqwiyA' Nh Nhy N0_Nh" ]
+                                                            `gloss`  [ "strong", "powerful [ [ qawiy ~ / ADJ ] ]", "powerful" ],
+
     -- ;; >aqowaY_2
     -- >qwY    >aqowaY N0      stronger/strongest;more/most powerful
     -- AqwY    >aqowaY N0      stronger/strongest;more/most powerful
@@ -3756,15 +3735,24 @@ lexicon = listing "Lexicon properties"
     -- tqAwy   taqAwiy N0_Nh   seed for sowing
     -- tqAw    taqAw   NK      seed for sowing
 
-    noun     TaFCiL                    {- taqowiyap -}      `others` [ "taqAwiy N0_Nh", "taqAw NK" ]
-                                                            `gloss`  [ "strengthening", "consolidation", "reinforcement", "seed for sowing" ] ]
+    noun     TaFCiL |< aT              {- taqowiyap -}      `others` [ "taqAwiy N0_Nh", "taqAw NK" ]
+                                                            `gloss`  [ "strengthening", "consolidation", "reinforcement", "seed for sowing" ],
+
+    -- ;; muqaw~aY_1
+    -- mqwY    muqaw~aY        N0      strengthened;reinforced     [[muqaw~aY/ADJ]]
+    -- mqwA    muqaw~A Nhy     strengthened;reinforced
+    -- mqwy    muqaw~ay        NAn_Nayn        strengthened;reinforced
+    -- mqwA    muqaw~A Napdu   strengthened;reinforced
+
+    noun     MuFaCCaNY                 {- muqaw~aY -}       `others` [ "muqawway NAn_Nayn", "muqawwA Napdu Nhy" ]
+                                                            `gloss`  [ "strengthened", "reinforced [ [ muqaw ~ aY / ADJ ] ]", "reinforced" ] ]
 
  |> "q y .d" <| [
 
     -- ;; muqAyaDap_1
     -- mqAyD   muqAyaD NapAt   barter;exchange
 
-    noun     MuFACaL                   {- muqAyaDap -}      `gloss`  [ "barter", "exchange" ] ]
+    noun     MuFACaL |< aT             {- muqAyaDap -}      `gloss`  [ "barter", "exchange" ] ]
 
  |> "q y .s r" <| [
 
@@ -3782,22 +3770,22 @@ lexicon = listing "Lexicon properties"
     -- ;; qiyAdap_1
     -- qyAd    qiyAd   Nap     leadership;command
 
-    noun     FiCAL                     {- qiyAdap -}        `gloss`  [ "leadership", "command" ],
+    noun     FiCAL |< aT               {- qiyAdap -}        `gloss`  [ "leadership", "command" ],
 
     -- ;; qiyAdap_2
     -- qyAd    qiyAd   NapAt   leaders;commanders
 
-    noun     FiCAL                     {- qiyAdap -}        `gloss`  [ "leaders", "commanders" ],
+    noun     FiCAL |< aT               {- qiyAdap -}        `gloss`  [ "leaders", "commanders" ],
 
     -- ;; qiyAdiy~_1
     -- qyAdy   qiyAdiy~        N-ap    leading;guiding;commanding     [[qiyAdiy~/ADJ]]
 
-    noun     FiCAL                     {- qiyAdiy~ -}       `gloss`  [ "leading", "guiding", "commanding [ [ qiyAdiy ~ / ADJ ] ]" ],
+    noun     FiCAL |< Iy               {- qiyAdiy~ -}       `gloss`  [ "leading", "guiding", "commanding [ [ qiyAdiy ~ / ADJ ] ]" ],
 
     -- ;; qiyAdiy~_2
     -- qyAdy   qiyAdiy~        Nall    leader;commander     [[qiyAdiy~/NOUN]]
 
-    noun     FiCAL                     {- qiyAdiy~ -}       `gloss`  [ "leader", "commander [ [ qiyAdiy ~ / NOUN ] ]" ],
+    noun     FiCAL |< Iy               {- qiyAdiy~ -}       `gloss`  [ "leader", "commander [ [ qiyAdiy ~ / NOUN ] ]" ],
 
     -- ;; qay~ad_1
     -- qyd     qay~ad  PV      bind;restrict;stipulate
@@ -3854,12 +3842,7 @@ lexicon = listing "Lexicon properties"
     -- <qAl    <iqAl   NapAt   dismissal;discharge
     -- AqAl    <iqAl   NapAt   dismissal;discharge
 
-    noun     HiFAL                     {- IiqAlap -}        `gloss`  [ "dismissal", "discharge" ],
-
-    -- ;; musotaqiyl_1
-    -- mstqyl  musotaqiyl      Nall    discharged;retired
-
-    noun     MustaFIL                  {- musotaqiyl -}     `gloss`  [ "discharged", "retired" ],
+    noun     HiFAL |< aT               {- IiqAlap -}        `gloss`  [ "dismissal", "discharge" ],
 
     -- ;; musotaqiyl_1
     -- mstqyl  musotaqiyl      Nall    discharged;retired
@@ -3872,14 +3855,14 @@ lexicon = listing "Lexicon properties"
     -- qym     qiym    Napdu   value;worth
     -- qym     qiyam   N       values;morals;ethics
 
-    noun     FiCL                      {- qiymap -}         `others` [ "qiyam N" ]
+    noun     FiCL |< aT                {- qiymap -}         `others` [ "qiyam N" ]
                                                             `gloss`  [ "value", "worth", "values", "morals", "ethics" ],
 
     -- ;; qiymap_2
     -- qym     qiym    Napdu   amount;quantity
     -- qym     qiyam   N       amounts;quantities
 
-    noun     FiCL                      {- qiymap -}         `others` [ "qiyam N" ]
+    noun     FiCL |< aT                {- qiymap -}         `others` [ "qiyam N" ]
                                                             `gloss`  [ "amount", "quantity", "amounts", "quantities" ],
 
     -- ;; qay~im_1
@@ -3895,7 +3878,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qiyAmap_1
     -- qyAm    qiyAm   Nap     resurrection
 
-    noun     FiCAL                     {- qiyAmap -}        `gloss`  [ "resurrection" ],
+    noun     FiCAL |< aT               {- qiyAmap -}        `gloss`  [ "resurrection" ],
 
     -- ;; muqiym_1
     -- mqym    muqiym  Nall    residing;resident
@@ -3913,15 +3896,6 @@ lexicon = listing "Lexicon properties"
     -- tqyym   taqoyiym        NduAt   evaluation;assessment;rating
 
     noun     TaFCIL                    {- taqoyiym -}       `gloss`  [ "evaluation", "assessment", "rating" ] ]
-
- |> "q y r .t" <| [
-
-    -- ;; qiyrAT_2
-    -- qyrAT   qiyrAT  Ndu     carat
-    -- qrAryT  qarAriyT        Ndip    carats
-
-    noun     KiRDAS                    {- qiyrAT -}         `others` [ "qarAriy.t Ndip" ]
-                                                            `gloss`  [ "carat", "carats" ] ]
 
  |> "q y s" <| [
 
@@ -3958,7 +3932,7 @@ lexicon = listing "Lexicon properties"
     -- ;; qiyAsiy~_1
     -- qyAsy   qiyAsiy~        N-ap    record;analogous     [[qiyAsiy~/ADJ]]
 
-    noun     FiCAL                     {- qiyAsiy~ -}       `gloss`  [ "record", "analogous [ [ qiyAsiy ~ / ADJ ] ]" ],
+    noun     FiCAL |< Iy               {- qiyAsiy~ -}       `gloss`  [ "record", "analogous [ [ qiyAsiy ~ / ADJ ] ]" ],
 
     -- ;; maqAs_1
     -- mqAs    maqAs   NduAt   measuring;gauging
@@ -4023,12 +3997,12 @@ lexicon = listing "Lexicon properties"
     -- ;; qAnuwniy~_1
     -- qAnwny  qAnuwniy~       Nall    legal;law-related;statutory     [[qAnuwniy~/ADJ]]
 
-    noun     Identity                  {- qAnuwniy~ -}      `gloss`  [ "legal", "law-related", "statutory [ [ qAnuwniy ~ / ADJ ] ]" ],
+    noun     Identity |< Iy            {- qAnuwniy~ -}      `gloss`  [ "legal", "law-related", "statutory [ [ qAnuwniy ~ / ADJ ] ]" ],
 
     -- ;; qAnuwniy~ap_1
     -- qAnwny  qAnuwniy~       Nap     legality;lawfulness     [[qAnuwniy~/NOUN]]
 
-    noun     Identity                  {- qAnuwniy~ap -}    `gloss`  [ "legality", "lawfulness [ [ qAnuwniy ~ / NOUN ] ]" ] ]
+    noun     Identity |< Iy |< aT      {- qAnuwniy~ap -}    `gloss`  [ "legality", "lawfulness [ [ qAnuwniy ~ / NOUN ] ]" ] ]
 
  |> "qabla" <| [
 
@@ -4055,7 +4029,7 @@ lexicon = listing "Lexicon properties"
     -- qlnsw   qalanosuw       Napdu   hood;cap
     -- qlAns   qalAnis Ndip    hoods;caps
 
-    noun     Identity                  {- qalanosuwap -}    `others` [ "qalAnis Ndip" ]
+    noun     Identity |< aT            {- qalanosuwap -}    `others` [ "qalAnis Ndip" ]
                                                             `gloss`  [ "hood", "cap", "hoods", "caps" ] ]
 
  |> "qallamA" <| [
@@ -4071,17 +4045,6 @@ lexicon = listing "Lexicon properties"
     -- qnATr   qanATir N0      Qanatir (Egy.)
 
     noun     Identity                  {- qanATir -}        `gloss`  [ "Qanatir ( Egy . )" ] ]
-
- |> "qanaNY" <| [
-
-    -- ;; qanAp_1
-    -- qnA     qanA    Napdu   canal;channel
-    -- qnw     qanaw   NAt     canals;channels
-    -- >qny    >aqoniy Nap     canals;channels
-    -- Aqny    >aqoniy Nap     canals;channels
-
-    noun     Identity                  {- qanAp -}          `others` [ "qanaw NAt", "'aqniy Nap" ]
-                                                            `gloss`  [ "canal", "channel", "canals", "channels" ] ]
 
  |> "qandahAr" <| [
 
@@ -4153,7 +4116,7 @@ lexicon = listing "Lexicon properties"
     -- ;; quwatoliy~_1
     -- qwtly   quwatoliy~      N0      Quwatli
 
-    noun     Identity                  {- quwatoliy~ -}     `gloss`  [ "Quwatli" ] ]
+    noun     Identity |< Iy            {- quwatoliy~ -}     `gloss`  [ "Quwatli" ] ]
 
  |> "quwquryAl" <| [
 

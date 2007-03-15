@@ -70,7 +70,7 @@ lexicon = listing "Lexicon properties"
     -- jA}z    jA}iz   Napdu   prize;reward
     -- jwA}z   jawA}iz Ndip    prizes;rewards
 
-    noun     FACiL                     {- jA}izap -}        `others` [ "^gawA'iz Ndip" ]
+    noun     FACiL |< aT               {- jA}izap -}        `others` [ "^gawA'iz Ndip" ]
                                                             `gloss`  [ "prize", "reward", "prizes", "rewards" ] ]
 
  |> "^g .g r f" <| [
@@ -78,7 +78,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jugorAfiy~_1
     -- jgrAfy  jugorAfiy~      N-ap    geographical     [[jugorAfiy~/ADJ]]
 
-    noun     KuRDAS                    {- jugorAfiy~ -}     `gloss`  [ "geographical [ [ jugorAfiy ~ / ADJ ] ]" ] ]
+    noun     KuRDAS |< Iy              {- jugorAfiy~ -}     `gloss`  [ "geographical [ [ jugorAfiy ~ / ADJ ] ]" ] ]
 
  |> "^g .h m" <| [
 
@@ -86,19 +86,6 @@ lexicon = listing "Lexicon properties"
     -- jHym    jaHiym  Ndu     hell
 
     noun     FaCIL                     {- jaHiym -}         `gloss`  [ "hell" ] ]
-
- |> "^g ^g l" <| [
-
-    -- ;; jaliy~_1
-    -- jly     jaliy~  N/ap    clear;obvious     [[jaliy~/ADJ]]
-
-    noun     CaL                       {- jaliy~ -}         `gloss`  [ "clear", "obvious [ [ jaliy ~ / ADJ ] ]" ],
-
-    -- ;; jaliy~AF_1
-    -- jly     jaliy~  NF      obviously;evidently     [[jaliy~/ADV]]
-
-    noun     CaL                       {- jaliy~AF -}       `others` [ "^galiyy NF" ]
-                                                            `gloss`  [ "obviously", "evidently [ [ jaliy ~ / ADV ] ]" ] ]
 
  |> "^g ^g t" <| [
 
@@ -161,7 +148,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jA*ibiy~ap_1
     -- jA*by   jA*ibiy~        Nap     gravitation;gravitational     [[jA*ibiy~/NOUN]]
 
-    noun     FACiL                     {- jA*ibiy~ap -}     `gloss`  [ "gravitation", "gravitational [ [ jA*ibiy ~ / NOUN ] ]" ],
+    noun     FACiL |< Iy |< aT         {- jA*ibiy~ap -}     `gloss`  [ "gravitation", "gravitational [ [ jA*ibiy ~ / NOUN ] ]" ],
 
     -- ;; majo*uwb_2
     -- mj*wb   majo*uwb        N0      Majdoub;Mejdoub
@@ -181,7 +168,7 @@ lexicon = listing "Lexicon properties"
     -- ;; ji*oriy~_1
     -- j*ry    ji*oriy~        Nall    radical;root     [[ji*oriy~/ADJ]]
 
-    noun     FiCL                      {- ji*oriy~ -}       `gloss`  [ "radical", "root [ [ ji*oriy ~ / ADJ ] ]" ] ]
+    noun     FiCL |< Iy                {- ji*oriy~ -}       `gloss`  [ "radical", "root [ [ ji*oriy ~ / ADJ ] ]" ] ]
 
  |> "^g _t _t" <| [
 
@@ -191,7 +178,7 @@ lexicon = listing "Lexicon properties"
     -- >jvAv   >ajovAv N       corpses
     -- AjvAv   >ajovAv N       corpses
 
-    noun     FuCL                      {- juv~ap -}         `others` [ "'a^g_tA_t N", "^gu_ta_t N" ]
+    noun     FuCL |< aT                {- juv~ap -}         `others` [ "'a^g_tA_t N", "^gu_ta_t N" ]
                                                             `gloss`  [ "corpse", "corpses" ] ]
 
  |> "^g _t m n" <| [
@@ -213,7 +200,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jaEofariy~_1
     -- jEfry   jaEofariy~      N0      Jaafari;Jafari
 
-    noun     KaRDaS                    {- jaEofariy~ -}     `gloss`  [ "Jaafari", "Jafari" ] ]
+    noun     KaRDaS |< Iy              {- jaEofariy~ -}     `gloss`  [ "Jaafari", "Jafari" ] ]
 
  |> "^g ` l" <| [
 
@@ -237,13 +224,13 @@ lexicon = listing "Lexicon properties"
     -- jbh     jabah   NAt     fronts;front lines
     -- jbAh    jibAh   N       fronts;front lines
 
-    noun     FaCL                      {- jabohap -}        `others` [ "^gabah NAt", "^gibAh N" ]
+    noun     FaCL |< aT                {- jabohap -}        `others` [ "^gabah NAt", "^gibAh N" ]
                                                             `gloss`  [ "front", "front line", "fronts", "front lines" ],
 
     -- ;; mujAbahap_1
     -- mjAbh   mujAbah NapAt   confrontation;opposition
 
-    noun     MuFACaL                   {- mujAbahap -}      `gloss`  [ "confrontation", "opposition" ] ]
+    noun     MuFACaL |< aT             {- mujAbahap -}      `gloss`  [ "confrontation", "opposition" ] ]
 
  |> "^g b l" <| [
 
@@ -264,12 +251,12 @@ lexicon = listing "Lexicon properties"
     -- ;; jabaliy~_1
     -- jbly    jabaliy~        N/ap    mountainous     [[jabaliy~/ADJ]]
 
-    noun     FaCaL                     {- jabaliy~ -}       `gloss`  [ "mountainous [ [ jabaliy ~ / ADJ ] ]" ],
+    noun     FaCaL |< Iy               {- jabaliy~ -}       `gloss`  [ "mountainous [ [ jabaliy ~ / ADJ ] ]" ],
 
     -- ;; jabaliy~_2
     -- jbly    jabaliy~        Nall    mountaineer;highlander     [[jabaliy~/ADJ]]
 
-    noun     FaCaL                     {- jabaliy~ -}       `gloss`  [ "mountaineer", "highlander [ [ jabaliy ~ / ADJ ] ]" ] ]
+    noun     FaCaL |< Iy               {- jabaliy~ -}       `gloss`  [ "mountaineer", "highlander [ [ jabaliy ~ / ADJ ] ]" ] ]
 
  |> "^g b n" <| [
 
@@ -321,7 +308,7 @@ lexicon = listing "Lexicon properties"
     -- <jbAry  <ijobAriy~      N-ap    compulsory;obligatory     [[<ijobAriy~/ADJ]]
     -- AjbAry  <ijobAriy~      N-ap    compulsory;obligatory     [[<ijobAriy~/ADJ]]
 
-    noun     HiFCAL                    {- IijobAriy~ -}     `gloss`  [ "compulsory", "obligatory [ [" ],
+    noun     HiFCAL |< Iy              {- IijobAriy~ -}     `gloss`  [ "compulsory", "obligatory [ [" ],
 
     -- ;; jAbir_1
     -- jAbr    jAbir   N0      Jabir
@@ -352,12 +339,12 @@ lexicon = listing "Lexicon properties"
     -- ;; jibAyap_1
     -- jbAy    jibAy   Nap     collecting;levying
 
-    noun     FiCAL                     {- jibAyap -}        `gloss`  [ "collecting", "levying" ],
+    noun     FiCAL |< aT               {- jibAyap -}        `gloss`  [ "collecting", "levying" ],
 
     -- ;; jibAyap_2
     -- jbAy    jibAy   NapAt   tax;duty
 
-    noun     FiCAL                     {- jibAyap -}        `gloss`  [ "tax", "duty" ] ]
+    noun     FiCAL |< aT               {- jibAyap -}        `gloss`  [ "tax", "duty" ] ]
 
  |> "^g d '" <| [
 
@@ -430,28 +417,28 @@ lexicon = listing "Lexicon properties"
     -- ;; jid~AF_1
     -- jdA     jid~AF  FW-Wa   very;much     [[jid~/ADV]]
 
-    noun     FiCL                      {- jid~AF -}         `gloss`  [ "very", "much [ [ jid ~ / ADV ] ]" ],
+    noun     FiCL |< aN                {- jid~AF -}         `gloss`  [ "very", "much [ [ jid ~ / ADV ] ]" ],
 
     -- ;; jid~iy~_1
     -- jdy     jid~iy~ Nall    serious;earnest     [[jid~iy~/ADJ]]
 
-    noun     FiCL                      {- jid~iy~ -}        `gloss`  [ "serious", "earnest [ [ jid ~ iy ~ / ADJ ] ]" ],
+    noun     FiCL |< Iy                {- jid~iy~ -}        `gloss`  [ "serious", "earnest [ [ jid ~ iy ~ / ADJ ] ]" ],
 
     -- ;; jid~iy~AF_1
     -- jdy     jid~iy~ NF      seriously;in earnest     [[jid~iy~/ADV]]
 
-    noun     FiCL                      {- jid~iy~AF -}      `others` [ "^giddiyy NF" ]
+    noun     FiCL |< Iy |< aN          {- jid~iy~AF -}      `others` [ "^giddiyy NF" ]
                                                             `gloss`  [ "seriously", "in earnest [ [ jid ~ iy ~ / ADV ] ]" ],
 
     -- ;; jid~iy~ap_1
     -- jdy     jid~iy~ Nap     seriousness;earnestness     [[jid~iy~/NOUN]]
 
-    noun     FiCL                      {- jid~iy~ap -}      `gloss`  [ "seriousness", "earnestness [ [ jid ~ iy ~ / NOUN ] ]" ],
+    noun     FiCL |< Iy |< aT          {- jid~iy~ap -}      `gloss`  [ "seriousness", "earnestness [ [ jid ~ iy ~ / NOUN ] ]" ],
 
     -- ;; jid~ap_2
     -- jdp     jid~ap  N0      Jeddah
 
-    noun     FiCL                      {- jid~ap -}         `gloss`  [ "Jeddah" ],
+    noun     FiCL |< aT                {- jid~ap -}         `gloss`  [ "Jeddah" ],
 
     -- ;; jadiyd_1
     -- jdyd    jadiyd  N/ap    new;modern     [[jadiyd/ADJ]]
@@ -483,7 +470,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mujad~adAF_1
     -- mjdd    mujad~ad        NF      again;once more;anew     [[mujad~ad/ADV]]
 
-    noun     MuFaCCaL                  {- mujad~adAF -}     `others` [ "mu^gaddad NF" ]
+    noun     MuFaCCaL |< aN            {- mujad~adAF -}     `others` [ "mu^gaddad NF" ]
                                                             `gloss`  [ "again", "once more", "anew [ [ mujad ~ ad / ADV ] ]" ],
 
     -- ;; mujid~_1
@@ -516,7 +503,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mujAdalap_1
     -- mjAdl   mujAdal NapAt   debate;quarrel
 
-    noun     MuFACaL                   {- mujAdalap -}      `gloss`  [ "debate", "quarrel" ],
+    noun     MuFACaL |< aT             {- mujAdalap -}      `gloss`  [ "debate", "quarrel" ],
 
     -- ;; majoduwl_1
     -- mjdwl   majoduwl        Nall    twisted;braided
@@ -573,7 +560,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jadArap_1
     -- jdAr    jadAr   Nap     worthiness;aptitude;merit
 
-    noun     FaCAL                     {- jadArap -}        `gloss`  [ "worthiness", "aptitude", "merit" ],
+    noun     FaCAL |< aT               {- jadArap -}        `gloss`  [ "worthiness", "aptitude", "merit" ],
 
     -- ;; jidAr_1
     -- jdAr    jidAr   Ndu     wall
@@ -587,7 +574,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jadowalap_1
     -- jdwl    jadowal Nap     scheduling
 
-    noun     KaRDaS                    {- jadowalap -}      `gloss`  [ "scheduling" ],
+    noun     KaRDaS |< aT              {- jadowalap -}      `gloss`  [ "scheduling" ],
 
     -- ;; jadowal_2
     -- jdwl    jadowal Ndu     schedule;chart
@@ -622,6 +609,15 @@ lexicon = listing "Lexicon properties"
 
     noun     FaCAL                     {- jafA' -}          `gloss`  [ "harshness" ] ]
 
+ |> "^g f .t" <| [
+
+    -- ;; jafA'_1
+    -- jfA'    jafA'   N0_Nh   harshness
+    -- jfA&    jafA&   Nh      harshness
+    -- jfA}    jafA}   Nhy     harshness
+
+    noun     FaCA'                     {- jafA' -}          `gloss`  [ "harshness" ] ]
+
  |> "^g f f" <| [
 
     -- ;; jaf~-i_1
@@ -653,15 +649,6 @@ lexicon = listing "Lexicon properties"
     -- mjff    mujaf~af        Nall    dried;desiccated
 
     noun     MuFaCCaL                  {- mujaf~af -}       `gloss`  [ "dried", "desiccated" ] ]
-
- |> "^g f r" <| [
-
-    -- ;; jafA'_1
-    -- jfA'    jafA'   N0_Nh   harshness
-    -- jfA&    jafA&   Nh      harshness
-    -- jfA}    jafA}   Nhy     harshness
-
-    noun     FaCA'                     {- jafA' -}          `gloss`  [ "harshness" ] ]
 
  |> "^g h .d" <| [
 
@@ -710,7 +697,7 @@ lexicon = listing "Lexicon properties"
     -- jhAdy   jihAdiy~        Nall    Jihadist;holy warfare     [[jihAdiy~/NOUN]]
     -- jhAdy   jihAdiy~        Nall    Jihadist;holy warfare     [[jihAdiy~/ADJ]]
 
-    noun     FiCAL                     {- jihAdiy~ -}       `gloss`  [ "Jihadist", "holy warfare [ [ jihAdiy ~ / NOUN ] ]", "holy warfare [ [ jihAdiy ~ / ADJ ] ]" ],
+    noun     FiCAL |< Iy               {- jihAdiy~ -}       `gloss`  [ "Jihadist", "holy warfare [ [ jihAdiy ~ / NOUN ] ]", "holy warfare [ [ jihAdiy ~ / ADJ ] ]" ],
 
     -- ;; <ijohAd_1
     -- <jhAd   <ijohAd NduAt   effort;exertion
@@ -780,7 +767,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jAhiliy~_1
     -- jAhly   jAhiliy~        Nall    pagan;Jahili (pre-Islamic)     [[jAhiliy~/ADJ]]
 
-    noun     FACiL                     {- jAhiliy~ -}       `gloss`  [ "pagan", "Jahili ( pre-Islamic ) [ [ jAhiliy ~ / ADJ ] ]" ],
+    noun     FACiL |< Iy               {- jAhiliy~ -}       `gloss`  [ "pagan", "Jahili ( pre-Islamic ) [ [ jAhiliy ~ / ADJ ] ]" ],
 
     -- ;; majohuwl_1
     -- mjhwl   majohuwl        Nall    unknown;unidentified     [[majohuwl/ADJ]]
@@ -834,7 +821,7 @@ lexicon = listing "Lexicon properties"
     -- ;; juhuwziy~ap_1
     -- jhwzy   juhuwziy~       Nap     preparedness;fitness
 
-    noun     FuCUL                     {- juhuwziy~ap -}    `gloss`  [ "preparedness", "fitness" ],
+    noun     FuCUL |< Iy |< aT         {- juhuwziy~ap -}    `gloss`  [ "preparedness", "fitness" ],
 
     -- ;; tajohiyz_1
     -- tjhyz   tajohiyz        NduAt   equipment;gear
@@ -849,7 +836,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jAhiziy~ap_1
     -- jAhzy   jAhiziy~        NapAt   readiness;preparedness
 
-    noun     FACiL                     {- jAhiziy~ap -}     `gloss`  [ "readiness", "preparedness" ],
+    noun     FACiL |< Iy |< aT         {- jAhiziy~ap -}     `gloss`  [ "readiness", "preparedness" ],
 
     -- ;; mujah~iz_1
     -- mjhz    mujah~iz        Nall    supplier
@@ -891,7 +878,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jilASiy~_1
     -- jlASy   jilASiy~        N0      Jelassi
 
-    noun     FiCAL                     {- jilASiy~ -}       `gloss`  [ "Jelassi" ] ]
+    noun     FiCAL |< Iy               {- jilASiy~ -}       `gloss`  [ "Jelassi" ] ]
 
  |> "^g l b" <| [
 
@@ -935,7 +922,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jilodiy~_1
     -- jldy    jilodiy~        Nall    dermal;cutaneous     [[jilodiy~/ADJ]]
 
-    noun     FiCL                      {- jilodiy~ -}       `gloss`  [ "dermal", "cutaneous [ [ jilodiy ~ / ADJ ] ]" ],
+    noun     FiCL |< Iy                {- jilodiy~ -}       `gloss`  [ "dermal", "cutaneous [ [ jilodiy ~ / ADJ ] ]" ],
 
     -- ;; jalad_1
     -- jld     jalad   N       endurance;patience
@@ -1007,12 +994,12 @@ lexicon = listing "Lexicon properties"
     -- ;; majal~ap_1
     -- mjl     majal~  NapAt   magazine;journal
 
-    noun     MaFaCL                    {- majal~ap -}       `gloss`  [ "magazine", "journal" ],
+    noun     MaFaCL |< aT              {- majal~ap -}       `gloss`  [ "magazine", "journal" ],
 
     -- ;; majal~ap_2
     -- mjlp    majal~ap        N0      Majalla (Saudi weekly)
 
-    noun     MaFaCL                    {- majal~ap -}       `gloss`  [ "Majalla ( Saudi weekly )" ] ]
+    noun     MaFaCL |< aT              {- majal~ap -}       `gloss`  [ "Majalla ( Saudi weekly )" ] ]
 
  |> "^g l s" <| [
 
@@ -1028,7 +1015,7 @@ lexicon = listing "Lexicon properties"
     -- jls     jalos   Napdu   session;meeting
     -- jls     jalas   NAt     sessions;meetings
 
-    noun     FaCL                      {- jalosap -}        `others` [ "^galas NAt" ]
+    noun     FaCL |< aT                {- jalosap -}        `others` [ "^galas NAt" ]
                                                             `gloss`  [ "session", "meeting", "sessions", "meetings" ],
 
     -- ;; juluws_1
@@ -1100,7 +1087,7 @@ lexicon = listing "Lexicon properties"
     -- jwAly   jawAliy N0_Nh   expatriate communities;colonies
     -- jwAl    jawAl   NK      expatriate communities;colonies
 
-    noun     FACI                      {- jAliyap -}        `others` [ "^gawAl NK", "^gawAliy N0_Nh" ]
+    noun     FACI |< aT                {- jAliyap -}        `others` [ "^gawAl NK", "^gawAliy N0_Nh" ]
                                                             `gloss`  [ "expatriate community", "colony", "expatriate communities", "colonies" ],
 
     -- ;; jAliyap_1
@@ -1108,17 +1095,28 @@ lexicon = listing "Lexicon properties"
     -- jwAly   jawAliy N0_Nh   expatriate communities;colonies
     -- jwAl    jawAl   NK      expatriate communities;colonies
 
-    noun     FACI                      {- jAliyap -}        `others` [ "^gawAl NK", "^gawAliy N0_Nh" ]
+    noun     FACI |< aT                {- jAliyap -}        `others` [ "^gawAl NK", "^gawAliy N0_Nh" ]
                                                             `gloss`  [ "expatriate community", "colony", "expatriate communities", "colonies" ] ]
 
  |> "^g l y" <| [
+
+    -- ;; jaliy~_1
+    -- jly     jaliy~  N/ap    clear;obvious     [[jaliy~/ADJ]]
+
+    noun     FaCIL                     {- jaliy~ -}         `gloss`  [ "clear", "obvious [ [ jaliy ~ / ADJ ] ]" ],
+
+    -- ;; jaliy~AF_1
+    -- jly     jaliy~  NF      obviously;evidently     [[jaliy~/ADV]]
+
+    noun     FaCIL |< aN               {- jaliy~AF -}       `others` [ "^galiyy NF" ]
+                                                            `gloss`  [ "obviously", "evidently [ [ jaliy ~ / ADV ] ]" ],
 
     -- ;; jAliyap_1
     -- jAly    jAliy   NapAt   expatriate community;colony
     -- jwAly   jawAliy N0_Nh   expatriate communities;colonies
     -- jwAl    jawAl   NK      expatriate communities;colonies
 
-    noun     FACiL                     {- jAliyap -}        `others` [ "^gawAl NK", "^gawAliy N0_Nh" ]
+    noun     FACiL |< aT               {- jAliyap -}        `others` [ "^gawAl NK", "^gawAliy N0_Nh" ]
                                                             `gloss`  [ "expatriate community", "colony", "expatriate communities", "colonies" ] ]
 
  |> "^g m .h" <| [
@@ -1134,7 +1132,7 @@ lexicon = listing "Lexicon properties"
     -- jmjm    jumojum Napdu   skull;cranium
     -- jmAjm   jamAjim Ndip    skulls;crania
 
-    noun     KuRDuS                    {- jumojumap -}      `others` [ "^gamA^gim Ndip" ]
+    noun     KuRDuS |< aT              {- jumojumap -}      `others` [ "^gamA^gim Ndip" ]
                                                             `gloss`  [ "skull", "cranium", "skulls", "crania" ] ]
 
  |> "^g m `" <| [
@@ -1182,12 +1180,12 @@ lexicon = listing "Lexicon properties"
     -- ;; jumoEap_1
     -- jmE     jumoE   Nap     Friday
 
-    noun     FuCL                      {- jumoEap -}        `gloss`  [ "Friday" ],
+    noun     FuCL |< aT                {- jumoEap -}        `gloss`  [ "Friday" ],
 
     -- ;; jamoEiy~ap_1
     -- jmEy    jamoEiy~        NapAt   association;society     [[jamoEiy~/NOUN]]
 
-    noun     FaCL                      {- jamoEiy~ap -}     `gloss`  [ "association", "society [ [ jamoEiy ~ / NOUN ] ]" ],
+    noun     FaCL |< Iy |< aT          {- jamoEiy~ap -}     `gloss`  [ "association", "society [ [ jamoEiy ~ / NOUN ] ]" ],
 
     -- ;; jamiyE_1
     -- jmyE    jamiyE  N       all of;every one of
@@ -1209,12 +1207,12 @@ lexicon = listing "Lexicon properties"
     -- ;; jamAEap_1
     -- jmAE    jamAE   NapAt   party;group;squad
 
-    noun     FaCAL                     {- jamAEap -}        `gloss`  [ "party", "group", "squad" ],
+    noun     FaCAL |< aT               {- jamAEap -}        `gloss`  [ "party", "group", "squad" ],
 
     -- ;; jamAEiy~_1
     -- jmAEy   jamAEiy~        Nall    social;common;collective     [[jamAEiy~/ADJ]]
 
-    noun     FaCAL                     {- jamAEiy~ -}       `gloss`  [ "social", "common", "collective [ [ jamAEiy ~ / ADJ ] ]" ],
+    noun     FaCAL |< Iy               {- jamAEiy~ -}       `gloss`  [ "social", "common", "collective [ [ jamAEiy ~ / ADJ ] ]" ],
 
     -- ;; majomaE_1
     -- mjmE    majomaE Ndu     assembly;academy
@@ -1243,7 +1241,7 @@ lexicon = listing "Lexicon properties"
     -- <jmAEy  <ijomAEiy~      Nall    unanimous;collective     [[<ijomAEiy~/ADJ]]
     -- AjmAEy  <ijomAEiy~      Nall    unanimous;collective     [[<ijomAEiy~/ADJ]]
 
-    noun     HiFCAL                    {- IijomAEiy~ -}     `gloss`  [ "unanimous", "collective [ [" ],
+    noun     HiFCAL |< Iy              {- IijomAEiy~ -}     `gloss`  [ "unanimous", "collective [ [" ],
 
     -- ;; tajam~uE_1
     -- tjmE    tajam~uE        NduAt   gathering;assembly
@@ -1265,12 +1263,12 @@ lexicon = listing "Lexicon properties"
     -- ;; jAmiEap_1
     -- jAmE    jAmiE   NapAt   university;league
 
-    noun     FACiL                     {- jAmiEap -}        `gloss`  [ "university", "league" ],
+    noun     FACiL |< aT               {- jAmiEap -}        `gloss`  [ "university", "league" ],
 
     -- ;; jAmiEiy~_1
     -- jAmEy   jAmiEiy~        Nall    university     [[jAmiEiy~/ADJ]]
 
-    noun     FACiL                     {- jAmiEiy~ -}       `gloss`  [ "university [ [ jAmiEiy ~ / ADJ ] ]" ],
+    noun     FACiL |< Iy               {- jAmiEiy~ -}       `gloss`  [ "university [ [ jAmiEiy ~ / ADJ ] ]" ],
 
     -- ;; majomuwE_1
     -- mjmwE   majomuwE        Nall    gathered;total
@@ -1281,7 +1279,7 @@ lexicon = listing "Lexicon properties"
     -- mjmwE   majomuwE        NapAt   collection;group;bloc
     -- mjAmyE  majAmiyE        Ndip    collections;groups
 
-    noun     MaFCUL                    {- majomuwEap -}     `others` [ "ma^gAmiy` Ndip" ]
+    noun     MaFCUL |< aT              {- majomuwEap -}     `others` [ "ma^gAmiy` Ndip" ]
                                                             `gloss`  [ "collection", "group", "bloc", "collections", "groups" ],
 
     -- ;; mujam~iE_1
@@ -1310,7 +1308,7 @@ lexicon = listing "Lexicon properties"
     -- jmbry   jamobariy~      Nall    shrimp     [[jamobariy~/ADJ]]
     -- jmry    jam~ariy~       Nall    shrimp     [[jam~ariy~/ADJ]]
 
-    noun     KaRDaS                    {- jamobariy~ -}     `others` [ "^gammariyy Nall" ]
+    noun     KaRDaS |< Iy              {- jamobariy~ -}     `others` [ "^gammariyy Nall" ]
                                                             `gloss`  [ "shrimp [ [ jamobariy ~ / ADJ ] ]", "shrimp [ [ jam ~ ariy ~ / ADJ ] ]" ] ]
 
  |> "^g m d" <| [
@@ -1371,17 +1369,17 @@ lexicon = listing "Lexicon properties"
     -- jmhwry  jumohuwriy~     Nall    republican     [[jumohuwriy~/ADJ]]
     -- jmhwry  jumohuwriy~     NapAt   republic     [[jumohuwriy~/NOUN]]
 
-    noun     KuRDUS                    {- jumohuwriy~ -}    `gloss`  [ "republican [ [ jumohuwriy ~ / ADJ ] ]", "republic [ [ jumohuwriy ~ / NOUN ] ]" ],
+    noun     KuRDUS |< Iy              {- jumohuwriy~ -}    `gloss`  [ "republican [ [ jumohuwriy ~ / ADJ ] ]", "republic [ [ jumohuwriy ~ / NOUN ] ]" ],
 
     -- ;; jamAhiyriy~_1
     -- jmAhyry jamAhiyriy~     Nall    mass;throng     [[jamAhiyriy~/ADJ]]
 
-    noun     KaRADIS                   {- jamAhiyriy~ -}    `gloss`  [ "mass", "throng [ [ jamAhiyriy ~ / ADJ ] ]" ],
+    noun     KaRADIS |< Iy             {- jamAhiyriy~ -}    `gloss`  [ "mass", "throng [ [ jamAhiyriy ~ / ADJ ] ]" ],
 
     -- ;; jamAhiyriy~ap_1
     -- jmAhyry jamAhiyriy~     NapAt   Jamahiriya     [[jamAhiyriy~/NOUN]]
 
-    noun     KaRADIS                   {- jamAhiyriy~ap -}  `gloss`  [ "Jamahiriya [ [ jamAhiyriy ~ / NOUN ] ]" ] ]
+    noun     KaRADIS |< Iy |< aT       {- jamAhiyriy~ap -}  `gloss`  [ "Jamahiriya [ [ jamAhiyriy ~ / NOUN ] ]" ] ]
 
  |> "^g m l" <| [
 
@@ -1396,7 +1394,7 @@ lexicon = listing "Lexicon properties"
     -- jml     jumol   Napdu   sentence;clause
     -- jml     jumal   N       sentences;clauses
 
-    noun     FuCL                      {- jumolap -}        `others` [ "^gumal N" ]
+    noun     FuCL |< aT                {- jumolap -}        `others` [ "^gumal N" ]
                                                             `gloss`  [ "sentence", "clause", "sentences", "clauses" ],
 
     -- ;; jamal_1
@@ -1421,7 +1419,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jamAliy~_1
     -- jmAly   jamAliy~        Nall    aesthetic     [[jamAliy~/ADJ]]
 
-    noun     FaCAL                     {- jamAliy~ -}       `gloss`  [ "aesthetic [ [ jamAliy ~ / ADJ ] ]" ],
+    noun     FaCAL |< Iy               {- jamAliy~ -}       `gloss`  [ "aesthetic [ [ jamAliy ~ / ADJ ] ]" ],
 
     -- ;; jamiyl_1
     -- jmyl    jamiyl  Nall    beautiful;nice
@@ -1447,12 +1445,12 @@ lexicon = listing "Lexicon properties"
     -- ;; tajomiyliy~_1
     -- tjmyly  tajomiyliy~     Nall    cosmetic     [[tajomiyliy~/ADJ]]
 
-    noun     TaFCIL                    {- tajomiyliy~ -}    `gloss`  [ "cosmetic [ [ tajomiyliy ~ / ADJ ] ]" ],
+    noun     TaFCIL |< Iy              {- tajomiyliy~ -}    `gloss`  [ "cosmetic [ [ tajomiyliy ~ / ADJ ] ]" ],
 
     -- ;; mujAmalap_1
     -- mjAml   mujAmal NapAt   courtesy;flattery
 
-    noun     MuFACaL                   {- mujAmalap -}      `gloss`  [ "courtesy", "flattery" ],
+    noun     MuFACaL |< aT             {- mujAmalap -}      `gloss`  [ "courtesy", "flattery" ],
 
     -- ;; <ijomAl_1
     -- <jmAl   <ijomAl NduAt   summation;in general
@@ -1464,20 +1462,20 @@ lexicon = listing "Lexicon properties"
     -- <jmAl   <ijomAl NF      in general;on the whole     [[<ijomAl/ADV]]
     -- AjmAl   <ijomAl NF      in general;on the whole     [[<ijomAl/ADV]]
 
-    noun     HiFCAL                    {- IijomAlAF -}      `others` [ "'i^gmAl NF" ]
+    noun     HiFCAL |< aN              {- IijomAlAF -}      `others` [ "'i^gmAl NF" ]
                                                             `gloss`  [ "in general", "on the whole [ [" ],
 
     -- ;; <ijomAliy~_1
     -- <jmAly  <ijomAliy~      Nall    comprehensive;collective;full     [[<ijomAliy~/ADJ]]
     -- AjmAly  <ijomAliy~      Nall    comprehensive;collective;full     [[<ijomAliy~/ADJ]]
 
-    noun     HiFCAL                    {- IijomAliy~ -}     `gloss`  [ "comprehensive", "collective", "full [ [" ],
+    noun     HiFCAL |< Iy              {- IijomAliy~ -}     `gloss`  [ "comprehensive", "collective", "full [ [" ],
 
     -- ;; <ijomAliy~_2
     -- <jmAly  <ijomAliy~      N/At    total;full amount;totality     [[<ijomAliy~/NOUN]]
     -- AjmAly  <ijomAliy~      N/At    total;full amount;totality     [[<ijomAliy~/NOUN]]
 
-    noun     HiFCAL                    {- IijomAliy~ -}     `gloss`  [ "total", "full amount", "totality [ [" ],
+    noun     HiFCAL |< Iy              {- IijomAliy~ -}     `gloss`  [ "total", "full amount", "totality [ [" ],
 
     -- ;; mujomal_1
     -- mjml    mujomal NduAt   summary;total
@@ -1503,14 +1501,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jumorukiy~_1
     -- jmrky   jumorukiy~      Nall    customs;tariff     [[jumorukiy~/ADJ]]
 
-    noun     KuRDuS                    {- jumorukiy~ -}     `gloss`  [ "customs", "tariff [ [ jumorukiy ~ / ADJ ] ]" ] ]
-
- |> "^g n '" <| [
-
-    -- ;; jinA}iy~_1
-    -- jnA}y   jinA}iy~        Nall    criminal;penal     [[jinA}iy~/ADJ]]
-
-    noun     FiCAL                     {- jinA}iy~ -}       `gloss`  [ "criminal", "penal [ [ jinA } iy ~ / ADJ ] ]" ] ]
+    noun     KuRDuS |< Iy              {- jumorukiy~ -}     `gloss`  [ "customs", "tariff [ [ jumorukiy ~ / ADJ ] ]" ] ]
 
  |> "^g n .h" <| [
 
@@ -1581,7 +1572,7 @@ lexicon = listing "Lexicon properties"
     -- ;; januwbiy~_1
     -- jnwby   januwbiy~       Nall    southern;south     [[januwbiy~/ADJ]]
 
-    noun     FaCUL                     {- januwbiy~ -}      `gloss`  [ "southern", "south [ [ januwbiy ~ / ADJ ] ]" ],
+    noun     FaCUL |< Iy               {- januwbiy~ -}      `gloss`  [ "southern", "south [ [ januwbiy ~ / ADJ ] ]" ],
 
     -- ;; jAnib_1
     -- jAnb    jAnib   Ndu     side;aspect
@@ -1593,7 +1584,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jAnibiy~_1
     -- jAnby   jAnibiy~        Nall    side;lateral;marginal     [[jAnibiy~/ADJ]]
 
-    noun     FACiL                     {- jAnibiy~ -}       `gloss`  [ "side", "lateral", "marginal [ [ jAnibiy ~ / ADJ ] ]" ],
+    noun     FACiL |< Iy               {- jAnibiy~ -}       `gloss`  [ "side", "lateral", "marginal [ [ jAnibiy ~ / ADJ ] ]" ],
 
     -- ;; >ajonabiy~_1
     -- >jnby   >ajonabiy~      Nall    foreign     [[>ajonabiy~/ADJ]]
@@ -1601,7 +1592,7 @@ lexicon = listing "Lexicon properties"
     -- >jAnb   >ajAnib Ndip    foreign     [[>ajAnib/ADJ]]
     -- AjAnb   >ajAnib Ndip    foreign     [[>ajAnib/ADJ]]
 
-    noun     HaFCaL                    {- Oajonabiy~ -}     `others` [ "'a^gAnib Ndip" ]
+    noun     HaFCaL |< Iy              {- Oajonabiy~ -}     `others` [ "'a^gAnib Ndip" ]
                                                             `gloss`  [ "foreign [ [ >ajonabiy ~ / ADJ ] ]", "foreign [ [ >ajAnib / ADJ ] ]" ],
 
     -- ;; >ajonabiy~_2
@@ -1610,7 +1601,7 @@ lexicon = listing "Lexicon properties"
     -- >jAnb   >ajAnib Ndip    foreigner     [[>ajAnib/NOUN]]
     -- AjAnb   >ajAnib Ndip    foreigner     [[>ajAnib/NOUN]]
 
-    noun     HaFCaL                    {- Oajonabiy~ -}     `others` [ "'a^gAnib Ndip" ]
+    noun     HaFCaL |< Iy              {- Oajonabiy~ -}     `others` [ "'a^gAnib Ndip" ]
                                                             `gloss`  [ "foreigner [ [ >ajonabiy ~ / NOUN ] ]", "foreigner [ [ >ajAnib / NOUN ] ]" ],
 
     -- ;; tajoniyb_1
@@ -1638,7 +1629,7 @@ lexicon = listing "Lexicon properties"
     -- >jnAd   >ajonAd N       soldiers
     -- AjnAd   >ajonAd N       soldiers
 
-    noun     FuCL                      {- junodiy~ -}       `others` [ "'a^gnAd N", "^gunuwd N" ]
+    noun     FuCL |< Iy                {- junodiy~ -}       `others` [ "'a^gnAd N", "^gunuwd N" ]
                                                             `gloss`  [ "soldier", "private [ [ junodiy ~ / NOUN ] ]", "soldiers" ],
 
     -- ;; tajoniyd_1
@@ -1658,7 +1649,7 @@ lexicon = listing "Lexicon properties"
     -- jn      jan~    NapAt   paradise;garden
     -- jnAn    jinAn   N       gardens
 
-    noun     FaCL                      {- jan~ap -}         `others` [ "^ginAn N" ]
+    noun     FaCL |< aT                {- jan~ap -}         `others` [ "^ginAn N" ]
                                                             `gloss`  [ "paradise", "garden", "gardens" ],
 
     -- ;; janiyn_2
@@ -1688,17 +1679,17 @@ lexicon = listing "Lexicon properties"
     -- ;; jinosiy~_1
     -- jnsy    jinosiy~        N-ap    sexual     [[jinosiy~/ADJ]]
 
-    noun     FiCL                      {- jinosiy~ -}       `gloss`  [ "sexual [ [ jinosiy ~ / ADJ ] ]" ],
+    noun     FiCL |< Iy                {- jinosiy~ -}       `gloss`  [ "sexual [ [ jinosiy ~ / ADJ ] ]" ],
 
     -- ;; jinosiy~_2
     -- jnsy    jinosiy~        N-ap    ethnic;racial;national     [[jinosiy~/ADJ]]
 
-    noun     FiCL                      {- jinosiy~ -}       `gloss`  [ "ethnic", "racial", "national [ [ jinosiy ~ / ADJ ] ]" ],
+    noun     FiCL |< Iy                {- jinosiy~ -}       `gloss`  [ "ethnic", "racial", "national [ [ jinosiy ~ / ADJ ] ]" ],
 
     -- ;; jinosiy~ap_1
     -- jnsy    jinosiy~        NapAt   nationality;citizenship     [[jinosiy~/NOUN]]
 
-    noun     FiCL                      {- jinosiy~ap -}     `gloss`  [ "nationality", "citizenship [ [ jinosiy ~ / NOUN ] ]" ],
+    noun     FiCL |< Iy |< aT          {- jinosiy~ap -}     `gloss`  [ "nationality", "citizenship [ [ jinosiy ~ / NOUN ] ]" ],
 
     -- ;; tajan~us_1
     -- tjns    tajan~us        NduAt   naturalization
@@ -1738,11 +1729,6 @@ lexicon = listing "Lexicon properties"
                                                             `others` [ "^gan PV_ttAw", "^gn IV_0hwnyn", "^gniy IV_0hAnn", "^ganay PV_Atn", "^ganA PV_h", "^gnY IV_0_Pass_yu" ]
                                                             `gloss`  [ "harvest", "collect", "be harvested", "be collected" ],
 
-    -- ;; jinA}iy~_1
-    -- jnA}y   jinA}iy~        Nall    criminal;penal     [[jinA}iy~/ADJ]]
-
-    noun     FiCA'                     {- jinA}iy~ -}       `gloss`  [ "criminal", "penal [ [ jinA } iy ~ / ADJ ] ]" ],
-
     -- ;; jAniy_1
     -- jAny    jAniy   N0F     delinquent;criminal
     -- jAn     jAn     NK      delinquent;criminal
@@ -1763,7 +1749,12 @@ lexicon = listing "Lexicon properties"
     -- jnA     junA    Nap     delinquents;criminals
 
     noun     FACI                      {- jAniy -}          `others` [ "^gunA Nap", "^gAn Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "delinquent", "criminal", "delinquents", "criminals" ] ]
+                                                            `gloss`  [ "delinquent", "criminal", "delinquents", "criminals" ],
+
+    -- ;; majoniy~_1
+    -- mjny    majoniy~        Nall    victimized;aggrieved     [[majoniy~/ADJ]]
+
+    noun     MaFCIy                    {- majoniy~ -}       `gloss`  [ "victimized", "aggrieved [ [ majoniy ~ / ADJ ] ]" ] ]
 
  |> "^g n y" <| [
 
@@ -1779,7 +1770,7 @@ lexicon = listing "Lexicon properties"
     -- jnAy    jinAy   NAt     crimes;felonies
     -- jnAy    jinAy   NAt     penal code
 
-    noun     FiCAL                     {- jinAyap -}        `others` [ "^ginAy NAt" ]
+    noun     FiCAL |< aT               {- jinAyap -}        `others` [ "^ginAy NAt" ]
                                                             `gloss`  [ "crime", "felony", "crimes", "felonies", "penal code" ],
 
     -- ;; jAniy_1
@@ -1800,7 +1791,7 @@ lexicon = listing "Lexicon properties"
     -- jnAz    jinAz   NAt     funerals
     -- jnA}z   janA}iz Ndip    funerals
 
-    noun     FiCAL                     {- jinAzap -}        `others` [ "^ganA'iz Ndip", "^ginAz NAt" ]
+    noun     FiCAL |< aT               {- jinAzap -}        `others` [ "^ganA'iz Ndip", "^ginAz NAt" ]
                                                             `gloss`  [ "funeral", "funerals" ] ]
 
  |> "^g n z r" <| [
@@ -1808,7 +1799,7 @@ lexicon = listing "Lexicon properties"
     -- ;; janozuwriy~_1
     -- jnzwry  janozuwriy~     N0      Janzouri
 
-    noun     KaRDUS                    {- janozuwriy~ -}    `gloss`  [ "Janzouri" ],
+    noun     KaRDUS |< Iy              {- janozuwriy~ -}    `gloss`  [ "Janzouri" ],
 
     -- ;; mujanozir_1
     -- mjnzr   mujanozir       Nall    track-laying
@@ -1857,7 +1848,7 @@ lexicon = listing "Lexicon properties"
     -- ;; juro>ap_1
     -- jr>     juro>   Nap     courage;boldness
 
-    noun     FuCL                      {- juroOap -}        `gloss`  [ "courage", "boldness" ],
+    noun     FuCL |< aT                {- juroOap -}        `gloss`  [ "courage", "boldness" ],
 
     -- ;; <ijorA'_1
     -- <jrA'   <ijorA' N0_Nh   conducting;undertaking;carrying out
@@ -1893,7 +1884,7 @@ lexicon = listing "Lexicon properties"
     -- <jrA}y  <ijorA}iy~      Nall    operational     [[<ijorA}iy~/ADJ]]
     -- AjrA}y  <ijorA}iy~      Nall    operational     [[<ijorA}iy~/ADJ]]
 
-    noun     HiFCAL                    {- IijorA}iy~ -}     `gloss`  [ "operational [ [" ] ]
+    noun     HiFCAL |< Iy              {- IijorA}iy~ -}     `gloss`  [ "operational [ [" ] ]
 
  |> "^g r .h" <| [
 
@@ -1925,12 +1916,12 @@ lexicon = listing "Lexicon properties"
     -- ;; jirAHap_1
     -- jrAH    jirAH   Nap     surgery
 
-    noun     FiCAL                     {- jirAHap -}        `gloss`  [ "surgery" ],
+    noun     FiCAL |< aT               {- jirAHap -}        `gloss`  [ "surgery" ],
 
     -- ;; jirAHiy~_1
     -- jrAHy   jirAHiy~        Nall    surgical     [[jirAHiy~/ADJ]]
 
-    noun     FiCAL                     {- jirAHiy~ -}       `gloss`  [ "surgical [ [ jirAHiy ~ / ADJ ] ]" ],
+    noun     FiCAL |< Iy               {- jirAHiy~ -}       `gloss`  [ "surgical [ [ jirAHiy ~ / ADJ ] ]" ],
 
     -- ;; jariyH_1
     -- jryH    jariyH  N/ap    wounded;injured
@@ -1944,7 +1935,7 @@ lexicon = listing "Lexicon properties"
     -- jArH    jAriH   Napdu   predatory
     -- jwArH   jawAriH Ndip    predatory;extremities
 
-    noun     FACiL                     {- jAriHap -}        `others` [ "^gawAri.h Ndip" ]
+    noun     FACiL |< aT               {- jAriHap -}        `others` [ "^gawAri.h Ndip" ]
                                                             `gloss`  [ "predatory", "extremities" ] ]
 
  |> "^g r ^g s" <| [
@@ -1967,14 +1958,14 @@ lexicon = listing "Lexicon properties"
     -- ;; jurovuwmiy~_1
     -- jrvwmy  jurovuwmiy~     Nall    germ;bacterial     [[jurovuwmiy~/ADJ]]
 
-    noun     KuRDUS                    {- jurovuwmiy~ -}    `gloss`  [ "germ", "bacterial [ [ jurovuwmiy ~ / ADJ ] ]" ] ]
+    noun     KuRDUS |< Iy              {- jurovuwmiy~ -}    `gloss`  [ "germ", "bacterial [ [ jurovuwmiy ~ / ADJ ] ]" ] ]
 
  |> "^g r `" <| [
 
     -- ;; juroEap_1
     -- jrE     juroE   NapAt   dosage;gulp
 
-    noun     FuCL                      {- juroEap -}        `gloss`  [ "dosage", "gulp" ] ]
+    noun     FuCL |< aT                {- juroEap -}        `gloss`  [ "dosage", "gulp" ] ]
 
  |> "^g r b" <| [
 
@@ -1989,7 +1980,7 @@ lexicon = listing "Lexicon properties"
     -- tjrb    tajorib Napdu   experience;experiment
     -- tjArb   tajArib Ndip    experiences;experiments
 
-    noun     TaFCiL                    {- tajoribap -}      `others` [ "ta^gArib Ndip" ]
+    noun     TaFCiL |< aT              {- tajoribap -}      `others` [ "ta^gArib Ndip" ]
                                                             `gloss`  [ "experience", "experiment", "experiences", "experiments" ],
 
     -- ;; tajoriyb_1
@@ -2000,7 +1991,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tajoriybiy~_1
     -- tjryby  tajoriybiy~     Nall    trial;experimental     [[tajoriybiy~/ADJ]]
 
-    noun     TaFCIL                    {- tajoriybiy~ -}    `gloss`  [ "trial", "experimental [ [ tajoriybiy ~ / ADJ ] ]" ],
+    noun     TaFCIL |< Iy              {- tajoriybiy~ -}    `gloss`  [ "trial", "experimental [ [ tajoriybiy ~ / ADJ ] ]" ],
 
     -- ;; mujar~ib_1
     -- mjrb    mujar~ib        Nall    tester;experimenter
@@ -2048,7 +2039,7 @@ lexicon = listing "Lexicon properties"
     -- jryd    jariyd  Napdu   newspaper
     -- jrA}d   jarA}id Ndip    newspapers
 
-    noun     FaCIL                     {- jariydap -}       `others` [ "^garA'id Ndip" ]
+    noun     FaCIL |< aT               {- jariydap -}       `others` [ "^garA'id Ndip" ]
                                                             `gloss`  [ "newspaper", "newspapers" ],
 
     -- ;; tajoriyd_1
@@ -2087,7 +2078,7 @@ lexicon = listing "Lexicon properties"
     -- jrAf    jar~Af  NapAt   rake;bulldozer
     -- jrAryf  jarAriyf        Ndip    rakes;bulldozers
 
-    noun     FaCCAL                    {- jar~Afap -}       `others` [ "^garAriyf Ndip" ]
+    noun     FaCCAL |< aT              {- jar~Afap -}       `others` [ "^garAriyf Ndip" ]
                                                             `gloss`  [ "rake", "bulldozer", "rakes", "bulldozers" ],
 
     -- ;; tajoriyf_1
@@ -2106,7 +2097,7 @@ lexicon = listing "Lexicon properties"
     -- jrym    jariym  Napdu   crime
     -- jrA}m   jarA}im Ndip    crimes
 
-    noun     FaCIL                     {- jariymap -}       `others` [ "^garA'im Ndip" ]
+    noun     FaCIL |< aT               {- jariymap -}       `others` [ "^garA'im Ndip" ]
                                                             `gloss`  [ "crime", "crimes" ],
 
     -- ;; tajoriym_1
@@ -2124,7 +2115,7 @@ lexicon = listing "Lexicon properties"
     -- <jrAmy  <ijorAmiy~      Nall    criminal     [[<ijorAmiy~/ADJ]]
     -- AjrAmy  <ijorAmiy~      Nall    criminal     [[<ijorAmiy~/ADJ]]
 
-    noun     HiFCAL                    {- IijorAmiy~ -}     `gloss`  [ "criminal [ [" ],
+    noun     HiFCAL |< Iy              {- IijorAmiy~ -}     `gloss`  [ "criminal [ [" ],
 
     -- ;; mujorim_1
     -- mjrm    mujorim Nall    criminal
@@ -2220,18 +2211,18 @@ lexicon = listing "Lexicon properties"
     -- <jrA}y  <ijorA}iy~      Nall    operational     [[<ijorA}iy~/ADJ]]
     -- AjrA}y  <ijorA}iy~      Nall    operational     [[<ijorA}iy~/ADJ]]
 
-    noun     HiFCA'                    {- IijorA}iy~ -}     `gloss`  [ "operational [ [" ],
+    noun     HiFCA' |< Iy              {- IijorA}iy~ -}     `gloss`  [ "operational [ [" ],
 
     -- ;; jAriyAF_1
     -- jAry    jAriy   NF      occurring;happening;flowing
 
-    noun     FACI                      {- jAriyAF -}        `others` [ "^gAriy NF" ]
+    noun     FACI |< aN                {- jAriyAF -}        `others` [ "^gAriy NF" ]
                                                             `gloss`  [ "occurring", "happening", "flowing" ],
 
     -- ;; jAriyAF_1
     -- jAry    jAriy   NF      occurring;happening;flowing
 
-    noun     FACI                      {- jAriyAF -}        `others` [ "^gAriy NF" ]
+    noun     FACI |< aN                {- jAriyAF -}        `others` [ "^gAriy NF" ]
                                                             `gloss`  [ "occurring", "happening", "flowing" ],
 
     -- ;; jAriy_1
@@ -2296,12 +2287,12 @@ lexicon = listing "Lexicon properties"
     -- ;; jirAyap_1
     -- jrAy    jirAy   NapAt   rations;salary
 
-    noun     FiCAL                     {- jirAyap -}        `gloss`  [ "rations", "salary" ],
+    noun     FiCAL |< aT               {- jirAyap -}        `gloss`  [ "rations", "salary" ],
 
     -- ;; jAriyAF_1
     -- jAry    jAriy   NF      occurring;happening;flowing
 
-    noun     FACiL                     {- jAriyAF -}        `others` [ "^gAriy NF" ]
+    noun     FACiL |< aN               {- jAriyAF -}        `others` [ "^gAriy NF" ]
                                                             `gloss`  [ "occurring", "happening", "flowing" ],
 
     -- ;; jAriy_1
@@ -2340,7 +2331,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jasadiy~_1
     -- jsdy    jasadiy~        Nall    bodily     [[jasadiy~/ADJ]]
 
-    noun     FaCaL                     {- jasadiy~ -}       `gloss`  [ "bodily [ [ jasadiy ~ / ADJ ] ]" ],
+    noun     FaCaL |< Iy               {- jasadiy~ -}       `gloss`  [ "bodily [ [ jasadiy ~ / ADJ ] ]" ],
 
     -- ;; tajosiyd_1
     -- tjsyd   tajosiyd        NduAt   materialization;embodiment
@@ -2365,7 +2356,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jisomiy~_1
     -- jsmy    jisomiy~        Nall    bodily;material     [[jisomiy~/ADJ]]
 
-    noun     FiCL                      {- jisomiy~ -}       `gloss`  [ "bodily", "material [ [ jisomiy ~ / ADJ ] ]" ],
+    noun     FiCL |< Iy                {- jisomiy~ -}       `gloss`  [ "bodily", "material [ [ jisomiy ~ / ADJ ] ]" ],
 
     -- ;; jasiym_1
     -- jsym    jasiym  N/ap    great;huge
@@ -2482,13 +2473,13 @@ lexicon = listing "Lexicon properties"
     -- ;; jawAbiy~_1
     -- jwAby   jawAbiy~        Nall    answering     [[jawAbiy~/ADJ]]
 
-    noun     FaCAL                     {- jawAbiy~ -}       `gloss`  [ "answering [ [ jawAbiy ~ / ADJ ] ]" ],
+    noun     FaCAL |< Iy               {- jawAbiy~ -}       `gloss`  [ "answering [ [ jawAbiy ~ / ADJ ] ]" ],
 
     -- ;; <ijAbap_1
     -- <jAb    <ijAb   NapAt   answer;response;consent
     -- AjAb    <ijAb   NapAt   answer;response;consent
 
-    noun     HiFAL                     {- IijAbap -}        `gloss`  [ "answer", "response", "consent" ],
+    noun     HiFAL |< aT               {- IijAbap -}        `gloss`  [ "answer", "response", "consent" ],
 
     -- ;; tajAwub_1
     -- tjAwb   tajAwub NduAt   response;consent
@@ -2537,7 +2528,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jawofiy~_1
     -- jwfy    jawofiy~        Nall    interior;subterranean     [[jawofiy~/ADJ]]
 
-    noun     FaCL                      {- jawofiy~ -}       `gloss`  [ "interior", "subterranean [ [ jawofiy ~ / ADJ ] ]" ] ]
+    noun     FaCL |< Iy                {- jawofiy~ -}       `gloss`  [ "interior", "subterranean [ [ jawofiy ~ / ADJ ] ]" ] ]
 
  |> "^g w h r" <| [
 
@@ -2565,7 +2556,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jawohariy~_1
     -- jwhry   jawohariy~      Nall    fundamental;essential     [[jawohariy~/ADJ]]
 
-    noun     KaRDaS                    {- jawohariy~ -}     `gloss`  [ "fundamental", "essential [ [ jawohariy ~ / ADJ ] ]" ],
+    noun     KaRDaS |< Iy              {- jawohariy~ -}     `gloss`  [ "fundamental", "essential [ [ jawohariy ~ / ADJ ] ]" ],
 
     -- ;; mujawohar_1
     -- mjwhr   mujawohar       Nall    decorated     [[mujawohar/ADJ]]
@@ -2594,7 +2585,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jawolap_1
     -- jwl     jawol   NapAt   tour;patrol;round
 
-    noun     FaCL                      {- jawolap -}        `gloss`  [ "tour", "patrol", "round" ],
+    noun     FaCL |< aT                {- jawolap -}        `gloss`  [ "tour", "patrol", "round" ],
 
     -- ;; jawolAn_1
     -- jwlAn   jawolAn N0      Golan
@@ -2699,7 +2690,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jaw~iy~_1
     -- jwy     jaw~iy~ N/ap    air;aerial;atmospheric     [[jaw~iy~/ADJ]]
 
-    noun     FaCL                      {- jaw~iy~ -}        `gloss`  [ "air", "aerial", "atmospheric [ [ jaw ~ iy ~ / ADJ ] ]" ] ]
+    noun     FaCL |< Iy                {- jaw~iy~ -}        `gloss`  [ "air", "aerial", "atmospheric [ [ jaw ~ iy ~ / ADJ ] ]" ] ]
 
  |> "^g w z" <| [
 
@@ -2755,12 +2746,12 @@ lexicon = listing "Lexicon properties"
     -- <jAz    <ijAz   NapAt   furlough;permit
     -- AjAz    <ijAz   NapAt   furlough;permit
 
-    noun     HiFAL                     {- IijAzap -}        `gloss`  [ "furlough", "permit" ],
+    noun     HiFAL |< aT               {- IijAzap -}        `gloss`  [ "furlough", "permit" ],
 
     -- ;; mujAwazap_1
     -- mjAwz   mujAwaz NapAt   exceeding;overstepping
 
-    noun     MuFACaL                   {- mujAwazap -}      `gloss`  [ "exceeding", "overstepping" ],
+    noun     MuFACaL |< aT             {- mujAwazap -}      `gloss`  [ "exceeding", "overstepping" ],
 
     -- ;; tajAwuz_1
     -- tjAwz   tajAwuz NduAt   exceeding;overstepping
@@ -2776,7 +2767,7 @@ lexicon = listing "Lexicon properties"
     -- jA}z    jA}iz   Napdu   prize;reward
     -- jwA}z   jawA}iz Ndip    prizes;rewards
 
-    noun     FA'iL                     {- jA}izap -}        `others` [ "^gawA'iz Ndip" ]
+    noun     FA'iL |< aT               {- jA}izap -}        `others` [ "^gawA'iz Ndip" ]
                                                             `gloss`  [ "prize", "reward", "prizes", "rewards" ] ]
 
  |> "^g w z '" <| [
@@ -2857,7 +2848,7 @@ lexicon = listing "Lexicon properties"
     -- jybwty  jiybuwtiy~      Nall    Djibouti     [[jiybuwtiy~/NOUN]]
     -- jybwty  jiybuwtiy~      Nall    Djibouti     [[jiybuwtiy~/ADJ]]
 
-    noun     KiRDUS                    {- jiybuwtiy~ -}     `gloss`  [ "Djibouti [ [ jiybuwtiy ~ / NOUN ] ]", "Djibouti [ [ jiybuwtiy ~ / ADJ ] ]" ] ]
+    noun     KiRDUS |< Iy              {- jiybuwtiy~ -}     `gloss`  [ "Djibouti [ [ jiybuwtiy ~ / NOUN ] ]", "Djibouti [ [ jiybuwtiy ~ / ADJ ] ]" ] ]
 
  |> "^g y d" <| [
 
@@ -2884,14 +2875,6 @@ lexicon = listing "Lexicon properties"
     -- AjyAl   >ajoyAl N       generations;epochs
 
     noun     FiCL                      {- jiyl -}           `others` [ "'a^gyAl N" ]
-                                                            `gloss`  [ "generation", "epoch", "generations", "epochs" ],
-
-    -- ;; jiyl_1
-    -- jyl     jiyl    Ndu     generation;epoch
-    -- >jyAl   >ajoyAl N       generations;epochs
-    -- AjyAl   >ajoyAl N       generations;epochs
-
-    noun     FIL                       {- jiyl -}           `others` [ "'a^gyAl N" ]
                                                             `gloss`  [ "generation", "epoch", "generations", "epochs" ] ]
 
  |> "^g y m y" <| [
@@ -2912,19 +2895,14 @@ lexicon = listing "Lexicon properties"
     -- ;; jiyn_2
     -- jyn     jiyn    Nprop   Gene;Jean
 
-    noun     FiCL                      {- jiyn -}           `gloss`  [ "Gene", "Jean" ],
-
-    -- ;; jiyn_2
-    -- jyn     jiyn    Nprop   Gene;Jean
-
-    noun     FIL                       {- jiyn -}           `gloss`  [ "Gene", "Jean" ] ]
+    noun     FiCL                      {- jiyn -}           `gloss`  [ "Gene", "Jean" ] ]
 
  |> "^g y r" <| [
 
     -- ;; jiyriy~_1
     -- jyry    jiyriy~ N/ap    calcareous;lime     [[jiyriy~/ADJ]]
 
-    noun     FiCL                      {- jiyriy~ -}        `gloss`  [ "calcareous", "lime [ [ jiyriy ~ / ADJ ] ]" ] ]
+    noun     FiCL |< Iy                {- jiyriy~ -}        `gloss`  [ "calcareous", "lime [ [ jiyriy ~ / ADJ ] ]" ] ]
 
  |> "^g y r m" <| [
 
@@ -2938,14 +2916,14 @@ lexicon = listing "Lexicon properties"
     -- ;; jiyzap_1
     -- jyz     jiyz    Nap     Giza
 
-    noun     FiCL                      {- jiyzap -}         `gloss`  [ "Giza" ] ]
+    noun     FiCL |< aT                {- jiyzap -}         `gloss`  [ "Giza" ] ]
 
  |> "^g y z n" <| [
 
     -- ;; jiyzAniy~_1
     -- jyzAny  jiyzAniy~       N0      Jizani
 
-    noun     KiRDAS                    {- jiyzAniy~ -}      `gloss`  [ "Jizani" ] ]
+    noun     KiRDAS |< Iy              {- jiyzAniy~ -}      `gloss`  [ "Jizani" ] ]
 
  |> "^g z '" <| [
 
@@ -2981,12 +2959,12 @@ lexicon = listing "Lexicon properties"
     -- ;; juzo}iy~_1
     -- jz}y    juzo}iy~        Nall    partial;petty     [[juzo}iy~/ADJ]]
 
-    noun     FuCL                      {- juzo}iy~ -}       `gloss`  [ "partial", "petty [ [ juzo } iy ~ / ADJ ] ]" ],
+    noun     FuCL |< Iy                {- juzo}iy~ -}       `gloss`  [ "partial", "petty [ [ juzo } iy ~ / ADJ ] ]" ],
 
     -- ;; tajozi}ap_1
     -- tjz}    tajozi} NapAt   partition;division
 
-    noun     TaFCiL                    {- tajozi}ap -}      `gloss`  [ "partition", "division" ],
+    noun     TaFCiL |< aT              {- tajozi}ap -}      `gloss`  [ "partition", "division" ],
 
     -- ;; jazA'_1
     -- jzA'    jazA'   N0_Nh   reward;punishment;penalty
@@ -2998,7 +2976,7 @@ lexicon = listing "Lexicon properties"
     -- ;; jazA}iy~_1
     -- jzA}y   jazA}iy~        Nall    penal     [[jazA}iy~/ADJ]]
 
-    noun     FaCAL                     {- jazA}iy~ -}       `gloss`  [ "penal [ [ jazA } iy ~ / ADJ ] ]" ] ]
+    noun     FaCAL |< Iy               {- jazA}iy~ -}       `gloss`  [ "penal [ [ jazA } iy ~ / ADJ ] ]" ] ]
 
  |> "^g z f" <| [
 
@@ -3012,13 +2990,13 @@ lexicon = listing "Lexicon properties"
     -- ;; juzAfAF_1
     -- jzAf    juzAf   NF      randomly     [[juzAf/ADV]]
 
-    noun     FuCAL                     {- juzAfAF -}        `others` [ "^guzAf NF" ]
+    noun     FuCAL |< aN               {- juzAfAF -}        `others` [ "^guzAf NF" ]
                                                             `gloss`  [ "randomly [ [ juzAf / ADV ] ]" ],
 
     -- ;; mujAzafap_1
     -- mjAzf   mujAzaf NapAt   recklessness;hazard
 
-    noun     MuFACaL                   {- mujAzafap -}      `gloss`  [ "recklessness", "hazard" ] ]
+    noun     MuFACaL |< aT             {- mujAzafap -}      `gloss`  [ "recklessness", "hazard" ] ]
 
  |> "^g z l" <| [
 
@@ -3049,32 +3027,32 @@ lexicon = listing "Lexicon properties"
     -- ;; jazA}iy~_1
     -- jzA}y   jazA}iy~        Nall    penal     [[jazA}iy~/ADJ]]
 
-    noun     FaCA'                     {- jazA}iy~ -}       `gloss`  [ "penal [ [ jazA } iy ~ / ADJ ] ]" ],
+    noun     FaCA' |< Iy               {- jazA}iy~ -}       `gloss`  [ "penal [ [ jazA } iy ~ / ADJ ] ]" ],
 
     -- ;; jiyzAniy~_1
     -- jyzAny  jiyzAniy~       N0      Jizani
 
-    noun     FICAL                     {- jiyzAniy~ -}      `gloss`  [ "Jizani" ] ]
+    noun     FICAL |< Iy               {- jiyzAniy~ -}      `gloss`  [ "Jizani" ] ]
 
  |> "^g z r" <| [
 
     -- ;; jaziyrap_1
     -- jzyr    jaziyr  Napdu   island;peninsula
 
-    noun     FaCIL                     {- jaziyrap -}       `gloss`  [ "island", "peninsula" ],
+    noun     FaCIL |< aT               {- jaziyrap -}       `gloss`  [ "island", "peninsula" ],
 
     -- ;; jaziyrap_2
     -- jzyrp   jaziyrap        N0      Jazeera
     -- Aljzyrp Alojaziyrap     N0      Al-Jazeera
 
-    noun     FaCIL                     {- jaziyrap -}       `others` [ "Al^gaziyraT N0" ]
+    noun     FaCIL |< aT               {- jaziyrap -}       `others` [ "Al^gaziyraT N0" ]
                                                             `gloss`  [ "Jazeera", "Al-Jazeera" ],
 
     -- ;; majozarap_1
     -- mjzr    majozar Napdu   massacre;slaughter
     -- mjAzr   majAzir Ndip    massacres;slaughters
 
-    noun     MaFCaL                    {- majozarap -}      `others` [ "ma^gAzir Ndip" ]
+    noun     MaFCaL |< aT              {- majozarap -}      `others` [ "ma^gAzir Ndip" ]
                                                             `gloss`  [ "massacre", "slaughter", "massacres", "slaughters" ] ]
 
  |> "^gA.guwAr" <| [
@@ -3230,7 +3208,14 @@ lexicon = listing "Lexicon properties"
     -- jzA}ry  jazA}iriy~      Nall    Algerian     [[jazA}iriy~/NOUN]]
     -- jzA}ry  jazA}iriy~      Nall    Algerian     [[jazA}iriy~/ADJ]]
 
-    noun     Identity                  {- jazA}iriy~ -}     `gloss`  [ "Algerian [ [ jazA } iriy ~ / NOUN ] ]", "Algerian [ [ jazA } iriy ~ / ADJ ] ]" ] ]
+    noun     Identity |< Iy            {- jazA}iriy~ -}     `gloss`  [ "Algerian [ [ jazA } iriy ~ / NOUN ] ]", "Algerian [ [ jazA } iriy ~ / ADJ ] ]" ] ]
+
+ |> "^ginA'iyy" <| [
+
+    -- ;; jinA}iy~_1
+    -- jnA}y   jinA}iy~        Nall    criminal;penal     [[jinA}iy~/ADJ]]
+
+    noun     Identity                  {- jinA}iy~ -}       `gloss`  [ "criminal", "penal [ [ jinA } iy ~ / ADJ ] ]" ] ]
 
  |> "^ginirAl" <| [
 
@@ -3433,13 +3418,13 @@ lexicon = listing "Lexicon properties"
  |> "^gwAntanAmuw" <| [
 
     -- ;; jwAnotanAmuw_1
-    -- jwAntnAmw       jwAnotanAmuw    N0      Guantánamo
-    -- gwAntnAmw       gwAnotanAmuw    N0      Guantánamo
-    -- jwAntAnAmw      jwAnotAnAmuw    N0      Guantánamo
-    -- gwAntAnAmw      gwAnotAnAmuw    N0      Guantánamo
+    -- jwAntnAmw       jwAnotanAmuw    N0      Guantanamo
+    -- gwAntnAmw       gwAnotanAmuw    N0      Guantanamo
+    -- jwAntAnAmw      jwAnotAnAmuw    N0      Guantanamo
+    -- gwAntAnAmw      gwAnotAnAmuw    N0      Guantanamo
 
     noun     Identity                  {- jwAnotanAmuw -}   `others` [ ".gwAntanAmuw N0", ".gwAntAnAmuw N0", "^gwAntAnAmuw N0" ]
-                                                            `gloss`  [ "Guantánamo" ] ]
+                                                            `gloss`  [ "Guantanamo" ] ]
 
  |> "^gyms" <| [
 
@@ -3447,13 +3432,6 @@ lexicon = listing "Lexicon properties"
     -- jyms    jyms    Nprop   James
 
     noun     Identity                  {- jyms -}           `gloss`  [ "James" ] ]
-
- |> "ma^gn" <| [
-
-    -- ;; majoniy~_1
-    -- mjny    majoniy~        Nall    victimized;aggrieved     [[majoniy~/ADJ]]
-
-    noun     Identity                  {- majoniy~ -}       `gloss`  [ "victimized", "aggrieved [ [ majoniy ~ / ADJ ] ]" ] ]
 
  |> "ta^gwAl" <| [
 

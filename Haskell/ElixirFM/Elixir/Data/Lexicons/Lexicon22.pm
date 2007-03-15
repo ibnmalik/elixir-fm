@@ -101,7 +101,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -130,7 +130,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCAL',
+      'morphs' => 'FiCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -209,7 +209,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCL',
+      'morphs' => 'FaCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -459,7 +459,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCAL',
+      'morphs' => 'FaCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -629,7 +629,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACiL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -732,7 +732,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'KaRDIS',
+      'morphs' => 'KaRDIS |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -820,7 +820,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -883,7 +883,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCaL',
+      'morphs' => 'FaCaL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -1015,7 +1015,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCAL',
+      'morphs' => 'FaCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -1042,7 +1042,7 @@ $lexicon = {
       ],
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FaCAL',
+      'morphs' => 'FaCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -1156,7 +1156,7 @@ $lexicon = {
       ],
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FaCIL',
+      'morphs' => 'FaCIL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -1183,7 +1183,7 @@ $lexicon = {
       ],
       'index' => '3',
       'entity' => 'noun',
-      'morphs' => 'FaCIL',
+      'morphs' => 'FaCIL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -1267,7 +1267,7 @@ $lexicon = {
       'form' => 'kuwhlir',
       'lines' => [
         ';; kuwholir_1',
-        'kwhlr   kuwholir        Nprop   Köhler;Koehler'
+        'kwhlr   kuwholir        Nprop   Kohler;Koehler'
       ],
       'index' => '1',
       'entity' => 'noun',
@@ -1275,15 +1275,15 @@ $lexicon = {
       'suffix' => '',
       'glosses' => [
         [
-          '"Köhler"'
+          '"Kohler"'
         ],
         [
           '"Koehler"'
         ]
       ],
       'glosshash' => {
-        "\"K\x{f6}hler\"" => 1,
-        '"Koehler"' => 1
+        '"Koehler"' => 1,
+        '"Kohler"' => 1
       },
       'orig' => 'kuwholir',
       'prefix' => ''
@@ -1386,7 +1386,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'CuL',
+      'morphs' => 'CuL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -1478,33 +1478,82 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'k l d n' => [
+  'k d y' => [
     {
-      'types' => {},
-      'entry' => 'kaldAn',
-      'form' => 'kaldAniyy',
+      'types' => {
+        'kdiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '\'akd' => {
+          'PV_ttAw' => 2
+        },
+        '\'akdA' => {
+          'PV_h' => 2
+        },
+        'kdY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '\'akday' => {
+          'PV_Atn' => 2
+        },
+        'kday' => {
+          'IV_Ann_Pass_yu' => 1
+        },
+        'kd' => {
+          'IV_0hwnyn_yu' => 1
+        }
+      },
+      'entry' => '\'akdY',
+      'form' => '\'akdY',
+      'others' => [
+        'kdiy IV_0hAnn_yu',
+        '\'akd PV_ttAw',
+        '\'akdA PV_h',
+        'kdY IV_0_Pass_yu',
+        '\'akday PV_Atn',
+        'kday IV_Ann_Pass_yu',
+        'kd IV_0hwnyn_yu'
+      ],
       'lines' => [
-        ';; kalodAniy~_1',
-        'kldAny  kalodAniy~      Nall    Chaldean     [[kalodAniy~/NOUN]]',
-        'kldAny  kalodAniy~      Nall    Chaldean     [[kalodAniy~/ADJ]]'
+        ';; >akodaY_1',
+        '>kdY    >akodaY PV_0    give little;skimp',
+        'AkdY    >akodaY PV_0    give little;skimp',
+        '>kdA    >akodA  PV_h    give little;skimp',
+        'AkdA    >akodA  PV_h    give little;skimp',
+        '>kdy    >akoday PV_Atn  give little;skimp',
+        'Akdy    >akoday PV_Atn  give little;skimp',
+        '>kd     >akod   PV_ttAw give little;skimp',
+        'Akd     >akod   PV_ttAw give little;skimp',
+        'kdy     kodiy   IV_0hAnn_yu     give little;skimp',
+        'kd      kod     IV_0hwnyn_yu    give little;skimp',
+        'kdY     kodaY   IV_0_Pass_yu    be given little;be skimped on',
+        'kdy     koday   IV_Ann_Pass_yu  be given little;be skimped on'
       ],
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => ' |< Iy',
+      'entity' => 'verb',
+      'morphs' => 'HaFCY',
+      'suffix' => '',
       'glosses' => [
         [
-          '"Chaldean [ [ kalodAniy ~ / NOUN ] ]"'
+          '"give little"'
         ],
         [
-          '"Chaldean [ [ kalodAniy ~ / ADJ ] ]"'
+          '"skimp"'
+        ],
+        [
+          '"be given little"'
+        ],
+        [
+          '"be skimped on"'
         ]
       ],
       'glosshash' => {
-        '"Chaldean [ [ kalodAniy ~ / NOUN ] ]"' => 1,
-        '"Chaldean [ [ kalodAniy ~ / ADJ ] ]"' => 1
+        '"be skimped on"' => 1,
+        '"be given little"' => 1,
+        '"give little"' => 1,
+        '"skimp"' => 1
       },
-      'orig' => 'kalodAniy~',
+      'orig' => 'OakodaY',
       'prefix' => ''
     }
   ],
@@ -1562,63 +1611,6 @@ $lexicon = {
       },
       'orig' => 'kiyn',
       'prefix' => ''
-    },
-    {
-      'types' => $lexicon->{'k y n'}[1]{'types'},
-      'entry' => 'kiyn',
-      'form' => 'kiyn',
-      'others' => $lexicon->{'k y n'}[1]{'others'},
-      'lines' => $lexicon->{'k y n'}[1]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FIL',
-      'suffix' => '',
-      'glosses' => $lexicon->{'k y n'}[1]{'glosses'},
-      'glosshash' => $lexicon->{'k y n'}[1]{'glosshash'},
-      'orig' => 'kiyn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'kiyn',
-      'form' => 'kiyniyy',
-      'lines' => [
-        ';; kiyniy~_1',
-        'kyny    kiyniy~ Nall    Kenyan     [[kiyniy~/NOUN]]',
-        'kyny    kiyniy~ Nall    Kenyan     [[kiyniy~/ADJ]]'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCL',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        [
-          '"Kenyan [ [ kiyniy ~ / NOUN ] ]"'
-        ],
-        [
-          '"Kenyan [ [ kiyniy ~ / ADJ ] ]"'
-        ]
-      ],
-      'glosshash' => {
-        '"Kenyan [ [ kiyniy ~ / ADJ ] ]"' => 1,
-        '"Kenyan [ [ kiyniy ~ / NOUN ] ]"' => 1
-      },
-      'orig' => 'kiyniy~',
-      'prefix' => ''
-    },
-    {
-      'types' => $lexicon->{'k y n'}[3]{'types'},
-      'entry' => 'kiyn',
-      'form' => 'kiyniyy',
-      'lines' => $lexicon->{'k y n'}[3]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FIL',
-      'suffix' => ' |< Iy',
-      'glosses' => $lexicon->{'k y n'}[3]{'glosses'},
-      'glosshash' => $lexicon->{'k y n'}[3]{'glosshash'},
-      'orig' => 'kiyniy~',
-      'prefix' => ''
     }
   ],
   'k w l n' => [
@@ -1646,35 +1638,6 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'k w m d' => [
-    {
-      'types' => {},
-      'entry' => 'kuwmiyd',
-      'form' => 'kuwmiydiyy',
-      'lines' => [
-        ';; kuwmiydiy~_1',
-        'kwmydy  kuwmiydiy~      Nall    comic;comedic     [[kuwmiydiy~/ADJ]]'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDIS',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        [
-          '"comic"'
-        ],
-        [
-          '"comedic [ [ kuwmiydiy ~ / ADJ ] ]"'
-        ]
-      ],
-      'glosshash' => {
-        '"comedic [ [ kuwmiydiy ~ / ADJ ] ]"' => 1,
-        '"comic"' => 1
-      },
-      'orig' => 'kuwmiydiy~',
-      'prefix' => ''
-    }
-  ],
   '\'uk_duwb' => [
     {
       'types' => {
@@ -1696,7 +1659,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -1738,130 +1701,6 @@ $lexicon = {
         '"chemistry"' => 1
       },
       'orig' => 'kiymiyA\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'kiymA\'iyy' => {
-          'N-ap' => 1
-        },
-        'kiymAwiyy' => {
-          'N-ap' => 1
-        },
-        'kiymiyy' => {
-          'N-ap' => 1
-        },
-        'kiymiyAwiyy' => {
-          'N-ap' => 1
-        }
-      },
-      'entry' => 'kiymiyA\'',
-      'form' => 'kiymiyA\'iyy',
-      'others' => [
-        'kiymA\'iyy N-ap',
-        'kiymAwiyy N-ap',
-        'kiymiyy N-ap',
-        'kiymiyAwiyy N-ap'
-      ],
-      'lines' => [
-        ';; kiymiyA}iy~_1',
-        'kymyA}y kiymiyA}iy~     N-ap    chemical     [[kiymiyA}iy~/ADJ]]',
-        'kymyAwy kiymiyAwiy~     N-ap    chemical     [[kiymiyAwiy~/ADJ]]',
-        'kymy    kiymiy~ N-ap    chemical     [[kiymiy~/ADJ]]',
-        'kymA}y  kiymA}iy~       N-ap    chemical     [[kiymA}iy~/ADJ]]',
-        'kymAwy  kiymAwiy~       N-ap    chemical     [[kiymAwiy~/ADJ]]'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        [
-          '"chemical [ [ kiymiyA } iy ~ / ADJ ] ]"'
-        ],
-        [
-          '"chemical [ [ kiymiyAwiy ~ / ADJ ] ]"'
-        ],
-        [
-          '"chemical [ [ kiymiy ~ / ADJ ] ]"'
-        ],
-        [
-          '"chemical [ [ kiymA } iy ~ / ADJ ] ]"'
-        ],
-        [
-          '"chemical [ [ kiymAwiy ~ / ADJ ] ]"'
-        ]
-      ],
-      'glosshash' => {
-        '"chemical [ [ kiymiyAwiy ~ / ADJ ] ]"' => 1,
-        '"chemical [ [ kiymiy ~ / ADJ ] ]"' => 1,
-        '"chemical [ [ kiymAwiy ~ / ADJ ] ]"' => 1,
-        '"chemical [ [ kiymiyA } iy ~ / ADJ ] ]"' => 1,
-        '"chemical [ [ kiymA } iy ~ / ADJ ] ]"' => 1
-      },
-      'orig' => 'kiymiyA}iy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'kiymA\'iyy' => {
-          'Nall' => 1
-        },
-        'kiymAwiyy' => {
-          'Nall' => 1
-        },
-        'kiymiyy' => {
-          'Nall' => 1
-        },
-        'kiymiyAwiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'kiymiyA\'',
-      'form' => 'kiymiyA\'iyy',
-      'others' => [
-        'kiymA\'iyy Nall',
-        'kiymAwiyy Nall',
-        'kiymiyy Nall',
-        'kiymiyAwiyy Nall'
-      ],
-      'lines' => [
-        ';; kiymiyA}iy~_2',
-        'kymyA}y kiymiyA}iy~     Nall    chemist     [[kiymiyA}iy~/ADJ]]',
-        'kymyAwy kiymiyAwiy~     Nall    chemist     [[kiymiyAwiy~/ADJ]]',
-        'kymy    kiymiy~ Nall    chemist     [[kiymiy~/ADJ]]',
-        'kymA}y  kiymA}iy~       Nall    chemist     [[kiymA}iy~/ADJ]]',
-        'kymAwy  kiymAwiy~       Nall    chemist     [[kiymAwiy~/ADJ]]'
-      ],
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        [
-          '"chemist [ [ kiymiyA } iy ~ / ADJ ] ]"'
-        ],
-        [
-          '"chemist [ [ kiymiyAwiy ~ / ADJ ] ]"'
-        ],
-        [
-          '"chemist [ [ kiymiy ~ / ADJ ] ]"'
-        ],
-        [
-          '"chemist [ [ kiymA } iy ~ / ADJ ] ]"'
-        ],
-        [
-          '"chemist [ [ kiymAwiy ~ / ADJ ] ]"'
-        ]
-      ],
-      'glosshash' => {
-        '"chemist [ [ kiymAwiy ~ / ADJ ] ]"' => 1,
-        '"chemist [ [ kiymiy ~ / ADJ ] ]"' => 1,
-        '"chemist [ [ kiymA } iy ~ / ADJ ] ]"' => 1,
-        '"chemist [ [ kiymiyA } iy ~ / ADJ ] ]"' => 1,
-        '"chemist [ [ kiymiyAwiy ~ / ADJ ] ]"' => 1
-      },
-      'orig' => 'kiymiyA}iy~',
       'prefix' => ''
     }
   ],
@@ -1969,6 +1808,59 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'k w r y' => [
+    {
+      'types' => {},
+      'entry' => 'kuwriyy',
+      'form' => 'kuwriyyaT',
+      'lines' => [
+        ';; kuwriy~ap_1',
+        'kwry    kuwriy~ Napdu   Korea'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDIS |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"Korea"'
+        ]
+      ],
+      'glosshash' => {
+        '"Korea"' => 1
+      },
+      'orig' => 'kuwriy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kuwriyy',
+      'form' => 'kuwriyy',
+      'lines' => [
+        ';; kuwriy~_1',
+        'kwry    kuwriy~ Nall    Korean     [[kuwriy~/NOUN]]',
+        'kwry    kuwriy~ Nall    Korean     [[kuwriy~/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDIS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Korean [ [ kuwriy ~ / NOUN ] ]"'
+        ],
+        [
+          '"Korean [ [ kuwriy ~ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"Korean [ [ kuwriy ~ / ADJ ] ]"' => 1,
+        '"Korean [ [ kuwriy ~ / NOUN ] ]"' => 1
+      },
+      'orig' => 'kuwriy~',
+      'prefix' => ''
+    }
+  ],
   'k _t b' => [
     {
       'types' => {},
@@ -1999,6 +1891,35 @@ $lexicon = {
         '"proximity"' => 1
       },
       'orig' => 'kavab',
+      'prefix' => ''
+    }
+  ],
+  'kuwmiydiyy' => [
+    {
+      'types' => {},
+      'entry' => 'kuwmiydiyy',
+      'form' => 'kuwmiydiyy',
+      'lines' => [
+        ';; kuwmiydiy~_1',
+        'kwmydy  kuwmiydiy~      Nall    comic;comedic     [[kuwmiydiy~/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"comic"'
+        ],
+        [
+          '"comedic [ [ kuwmiydiy ~ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"comedic [ [ kuwmiydiy ~ / ADJ ] ]"' => 1,
+        '"comic"' => 1
+      },
+      'orig' => 'kuwmiydiy~',
       'prefix' => ''
     }
   ],
@@ -2253,7 +2174,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -2354,7 +2275,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< Iy |< aT',
       'suffix' => ' |< Iy |< aT',
       'glosses' => [
         [
@@ -2452,37 +2373,6 @@ $lexicon = {
         '"Camp"' => 1
       },
       'orig' => 'kAmob',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'kamA',
-      'form' => 'kamA',
-      'lines' => [
-        ';; kamA_1',
-        'kmA     kamA    FW-Wa   and;as;also  [[kamA/CONJ]]'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCA',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"and"'
-        ],
-        [
-          '"as"'
-        ],
-        [
-          '"also [ [ kamA / CONJ ] ]"'
-        ]
-      ],
-      'glosshash' => {
-        '"and"' => 1,
-        '"as"' => 1,
-        '"also [ [ kamA / CONJ ] ]"' => 1
-      },
-      'orig' => 'kamA',
       'prefix' => ''
     }
   ],
@@ -3257,16 +3147,30 @@ $lexicon = {
       'prefix' => ''
     },
     {
-      'types' => $lexicon->{'k l d n'}[0]{'types'},
+      'types' => {},
       'entry' => 'kaldAn',
       'form' => 'kaldAniyy',
-      'lines' => $lexicon->{'k l d n'}[0]{'lines'},
+      'lines' => [
+        ';; kalodAniy~_1',
+        'kldAny  kalodAniy~      Nall    Chaldean     [[kalodAniy~/NOUN]]',
+        'kldAny  kalodAniy~      Nall    Chaldean     [[kalodAniy~/ADJ]]'
+      ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCLAn',
+      'morphs' => 'FaCLAn |< Iy',
       'suffix' => ' |< Iy',
-      'glosses' => $lexicon->{'k l d n'}[0]{'glosses'},
-      'glosshash' => $lexicon->{'k l d n'}[0]{'glosshash'},
+      'glosses' => [
+        [
+          '"Chaldean [ [ kalodAniy ~ / NOUN ] ]"'
+        ],
+        [
+          '"Chaldean [ [ kalodAniy ~ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"Chaldean [ [ kalodAniy ~ / NOUN ] ]"' => 1,
+        '"Chaldean [ [ kalodAniy ~ / ADJ ] ]"' => 1
+      },
       'orig' => 'kalodAniy~',
       'prefix' => ''
     }
@@ -3390,7 +3294,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCL',
+      'morphs' => 'FiCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -3614,7 +3518,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCL',
+      'morphs' => 'FaCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -3733,7 +3637,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCAL',
+      'morphs' => 'FiCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -3898,6 +3802,61 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'k r s y' => [
+    {
+      'types' => {
+        'karAsiy' => {
+          'N0_Nh' => 1
+        },
+        'karAsiyy' => {
+          'N' => 1
+        },
+        'karAs' => {
+          'NK' => 1
+        }
+      },
+      'entry' => 'kursiyy',
+      'form' => 'kursiyy',
+      'others' => [
+        'karAsiy N0_Nh',
+        'karAsiyy N',
+        'karAs NK'
+      ],
+      'lines' => [
+        ';; kurosiy~_1',
+        'krsy    kurosiy~        Ndu     chair;seat',
+        'krAsy   karAsiy~        N       chairs;seats',
+        'krAsy   karAsiy N0_Nh   chairs;seats',
+        'krAs    karAs   NK      chairs;seats'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDIS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"chair"'
+        ],
+        [
+          '"seat"'
+        ],
+        [
+          '"chairs"'
+        ],
+        [
+          '"seats"'
+        ]
+      ],
+      'glosshash' => {
+        '"seats"' => 1,
+        '"chairs"' => 1,
+        '"seat"' => 1,
+        '"chair"' => 1
+      },
+      'orig' => 'kurosiy~',
+      'prefix' => ''
+    }
+  ],
   'k ^s k' => [
     {
       'types' => {
@@ -3986,7 +3945,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCCAL',
+      'morphs' => 'FaCCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -4077,7 +4036,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCAL',
+      'morphs' => 'FiCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -4104,7 +4063,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFACaL',
+      'morphs' => 'MuFACaL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -4320,7 +4279,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACI',
+      'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
         [
@@ -4330,36 +4289,6 @@ $lexicon = {
       'glosshash' => {
         '"caustic"' => 1
       },
-      'orig' => 'kAwiy',
-      'prefix' => ''
-    },
-    {
-      'types' => $lexicon->{'k w y'}[0]{'types'},
-      'entry' => 'kAwiy',
-      'form' => 'kAwiy',
-      'others' => $lexicon->{'k w y'}[0]{'others'},
-      'lines' => $lexicon->{'k w y'}[0]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACI',
-      'suffix' => '',
-      'glosses' => $lexicon->{'k w y'}[0]{'glosses'},
-      'glosshash' => $lexicon->{'k w y'}[0]{'glosshash'},
-      'orig' => 'kAwiy',
-      'prefix' => ''
-    },
-    {
-      'types' => $lexicon->{'k w y'}[0]{'types'},
-      'entry' => 'kAwiy',
-      'form' => 'kAwiy',
-      'others' => $lexicon->{'k w y'}[0]{'others'},
-      'lines' => $lexicon->{'k w y'}[0]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => $lexicon->{'k w y'}[0]{'glosses'},
-      'glosshash' => $lexicon->{'k w y'}[0]{'glosshash'},
       'orig' => 'kAwiy',
       'prefix' => ''
     }
@@ -4449,7 +4378,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -4554,7 +4483,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCIL',
+      'morphs' => 'FaCIL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -4589,7 +4518,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCaL',
+      'morphs' => 'FaCaL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -4620,7 +4549,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MiFCaL',
+      'morphs' => 'MiFCaL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -4646,36 +4575,6 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'kuwluwmb' => [
-    {
-      'types' => {},
-      'entry' => 'kuwluwmb',
-      'form' => 'kuwluwmbiyy',
-      'lines' => [
-        ';; kuwluwmobiy~_1',
-        'kwlwmby kuwluwmobiy~    Nall    Colombian     [[kuwluwmobiy~/NOUN]]',
-        'kwlwmby kuwluwmobiy~    Nall    Colombian     [[kuwluwmobiy~/ADJ]]'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        [
-          '"Colombian [ [ kuwluwmobiy ~ / NOUN ] ]"'
-        ],
-        [
-          '"Colombian [ [ kuwluwmobiy ~ / ADJ ] ]"'
-        ]
-      ],
-      'glosshash' => {
-        '"Colombian [ [ kuwluwmobiy ~ / ADJ ] ]"' => 1,
-        '"Colombian [ [ kuwluwmobiy ~ / NOUN ] ]"' => 1
-      },
-      'orig' => 'kuwluwmobiy~',
-      'prefix' => ''
-    }
-  ],
   'k w f' => [
     {
       'types' => {},
@@ -4687,7 +4586,7 @@ $lexicon = {
       ],
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FuCL',
+      'morphs' => 'FuCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -4714,7 +4613,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUL',
+      'morphs' => 'FuCL |< Iy |< aT',
       'suffix' => ' |< Iy |< aT',
       'glosses' => [
         [
@@ -4724,20 +4623,6 @@ $lexicon = {
       'glosshash' => {
         '"kaffiyeh [ [ kuwfiy ~ / NOUN ] ]"' => 1
       },
-      'orig' => 'kuwfiy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => $lexicon->{'k w f'}[1]{'types'},
-      'entry' => 'kuwf',
-      'form' => 'kuwfiyyaT',
-      'lines' => $lexicon->{'k w f'}[1]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => $lexicon->{'k w f'}[1]{'glosses'},
-      'glosshash' => $lexicon->{'k w f'}[1]{'glosshash'},
       'orig' => 'kuwfiy~ap',
       'prefix' => ''
     }
@@ -4937,7 +4822,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'TaFCIL',
+      'morphs' => 'TaFCIL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -5023,7 +4908,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'TaFACuL',
+      'morphs' => 'TaFACuL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -5496,7 +5381,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL',
+      'morphs' => 'FuCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -5779,7 +5664,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -5891,7 +5776,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< Iy |< aT',
       'suffix' => ' |< Iy |< aT',
       'glosses' => [
         [
@@ -6371,7 +6256,7 @@ $lexicon = {
       ],
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -6798,7 +6683,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FIL',
+      'morphs' => 'FiCL',
       'suffix' => '',
       'glosses' => [
         [
@@ -6808,20 +6693,6 @@ $lexicon = {
       'glosshash' => {
         '"Kim"' => 1
       },
-      'orig' => 'kiym',
-      'prefix' => ''
-    },
-    {
-      'types' => $lexicon->{'k y m'}[0]{'types'},
-      'entry' => 'kiym',
-      'form' => 'kiym',
-      'lines' => $lexicon->{'k y m'}[0]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCL',
-      'suffix' => '',
-      'glosses' => $lexicon->{'k y m'}[0]{'glosses'},
-      'glosshash' => $lexicon->{'k y m'}[0]{'glosshash'},
       'orig' => 'kiym',
       'prefix' => ''
     }
@@ -6884,7 +6755,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCayL',
+      'morphs' => 'FuCayL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -7103,6 +6974,36 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'kuwluwmbiyy' => [
+    {
+      'types' => {},
+      'entry' => 'kuwluwmbiyy',
+      'form' => 'kuwluwmbiyy',
+      'lines' => [
+        ';; kuwluwmobiy~_1',
+        'kwlwmby kuwluwmobiy~    Nall    Colombian     [[kuwluwmobiy~/NOUN]]',
+        'kwlwmby kuwluwmobiy~    Nall    Colombian     [[kuwluwmobiy~/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Colombian [ [ kuwluwmobiy ~ / NOUN ] ]"'
+        ],
+        [
+          '"Colombian [ [ kuwluwmobiy ~ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"Colombian [ [ kuwluwmobiy ~ / ADJ ] ]"' => 1,
+        '"Colombian [ [ kuwluwmobiy ~ / NOUN ] ]"' => 1
+      },
+      'orig' => 'kuwluwmobiy~',
+      'prefix' => ''
+    }
+  ],
   'k n n' => [
     {
       'types' => {
@@ -7242,7 +7143,7 @@ $lexicon = {
   'k r w' => [
     {
       'types' => {},
-      'entry' => 'kuraw',
+      'entry' => 'kurY',
       'form' => 'kurawiyy',
       'lines' => [
         ';; kurawiy~_1',
@@ -7250,7 +7151,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCaL',
+      'morphs' => 'FuCaNY |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -7273,7 +7174,7 @@ $lexicon = {
           'N-ap' => 1
         }
       },
-      'entry' => 'kuraw',
+      'entry' => 'kurY',
       'form' => 'kurawiyy',
       'others' => [
         'kuwrawiyy N-ap'
@@ -7285,7 +7186,7 @@ $lexicon = {
       ],
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FuCaL',
+      'morphs' => 'FuCaNY |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -7380,7 +7281,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -7564,7 +7465,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCAL',
+      'morphs' => 'FiCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -7595,7 +7496,7 @@ $lexicon = {
       ],
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FiCAL',
+      'morphs' => 'FiCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -7639,7 +7540,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCIL',
+      'morphs' => 'FaCIL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -7729,7 +7630,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MaFCaL',
+      'morphs' => 'MaFCaL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -7760,7 +7661,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MaFCaL',
+      'morphs' => 'MaFCaL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -7920,7 +7821,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCL',
+      'morphs' => 'FaCL |< Iy |< aT',
       'suffix' => ' |< Iy |< aT',
       'glosses' => [
         [
@@ -8069,7 +7970,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL',
+      'morphs' => 'FuCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -8736,7 +8637,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL',
+      'morphs' => 'FuCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -8767,7 +8668,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL',
+      'morphs' => 'FuCL |< Iy |< aT',
       'suffix' => ' |< Iy |< aT',
       'glosses' => [
         [
@@ -8806,7 +8707,7 @@ $lexicon = {
       ],
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FuCL',
+      'morphs' => 'FuCL |< Iy |< aT',
       'suffix' => ' |< Iy |< aT',
       'glosses' => [
         [
@@ -9060,7 +8961,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCAL',
+      'morphs' => 'FaCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -9099,7 +9000,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFACaL',
+      'morphs' => 'MuFACaL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -9246,7 +9147,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -9318,87 +9219,6 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'k w r' => [
-    {
-      'types' => {},
-      'entry' => 'kuwr',
-      'form' => 'kuwriyyaT',
-      'lines' => [
-        ';; kuwriy~ap_1',
-        'kwry    kuwriy~ Napdu   Korea'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUL',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        [
-          '"Korea"'
-        ]
-      ],
-      'glosshash' => {
-        '"Korea"' => 1
-      },
-      'orig' => 'kuwriy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => $lexicon->{'k w r'}[0]{'types'},
-      'entry' => 'kuwr',
-      'form' => 'kuwriyyaT',
-      'lines' => $lexicon->{'k w r'}[0]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => $lexicon->{'k w r'}[0]{'glosses'},
-      'glosshash' => $lexicon->{'k w r'}[0]{'glosshash'},
-      'orig' => 'kuwriy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'kuwr',
-      'form' => 'kuwriyy',
-      'lines' => [
-        ';; kuwriy~_1',
-        'kwry    kuwriy~ Nall    Korean     [[kuwriy~/NOUN]]',
-        'kwry    kuwriy~ Nall    Korean     [[kuwriy~/ADJ]]'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUL',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        [
-          '"Korean [ [ kuwriy ~ / NOUN ] ]"'
-        ],
-        [
-          '"Korean [ [ kuwriy ~ / ADJ ] ]"'
-        ]
-      ],
-      'glosshash' => {
-        '"Korean [ [ kuwriy ~ / ADJ ] ]"' => 1,
-        '"Korean [ [ kuwriy ~ / NOUN ] ]"' => 1
-      },
-      'orig' => 'kuwriy~',
-      'prefix' => ''
-    },
-    {
-      'types' => $lexicon->{'k w r'}[2]{'types'},
-      'entry' => 'kuwr',
-      'form' => 'kuwriyy',
-      'lines' => $lexicon->{'k w r'}[2]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL',
-      'suffix' => ' |< Iy',
-      'glosses' => $lexicon->{'k w r'}[2]{'glosses'},
-      'glosshash' => $lexicon->{'k w r'}[2]{'glosshash'},
-      'orig' => 'kuwriy~',
-      'prefix' => ''
-    }
-  ],
   'k^gm' => [
     {
       'types' => {
@@ -9433,22 +9253,6 @@ $lexicon = {
         '"kilogram [ [ kjm / ABBREV ] ]"' => 1
       },
       'orig' => 'kjm',
-      'prefix' => ''
-    }
-  ],
-  'k n ` n' => [
-    {
-      'types' => $lexicon->{'k n `'}[0]{'types'},
-      'entry' => 'kan`An',
-      'form' => 'kan`An',
-      'lines' => $lexicon->{'k n `'}[0]{'lines'},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => $lexicon->{'k n `'}[0]{'glosses'},
-      'glosshash' => $lexicon->{'k n `'}[0]{'glosshash'},
-      'orig' => 'kanoEAn',
       'prefix' => ''
     }
   ],
@@ -9597,7 +9401,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCAL',
+      'morphs' => 'FaCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -9759,7 +9563,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -9989,7 +9793,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL',
+      'morphs' => 'FuCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -10107,7 +9911,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'TaFCiL',
+      'morphs' => 'TaFCiL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -10161,7 +9965,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFaCCaL',
+      'morphs' => 'MuFaCCaL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -10222,39 +10026,6 @@ $lexicon = {
         '"Corp ."' => 1
       },
       'orig' => 'kuwrob',
-      'prefix' => ''
-    }
-  ],
-  'kambyuwtir' => [
-    {
-      'types' => {
-        'kuwmbyuwtir' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'kambyuwtir',
-      'form' => 'kambyuwtir',
-      'others' => [
-        'kuwmbyuwtir NduAt'
-      ],
-      'lines' => [
-        ';; kamobyuwtir_1',
-        'kmbywtr kamobyuwtir     NduAt   computer',
-        'kwmbywtr        kuwmobyuwtir    NduAt   computer'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"computer"'
-        ]
-      ],
-      'glosshash' => {
-        '"computer"' => 1
-      },
-      'orig' => 'kamobyuwtir',
       'prefix' => ''
     }
   ],
@@ -10332,6 +10103,39 @@ $lexicon = {
         '"toil"' => 1
       },
       'orig' => 'kad~',
+      'prefix' => ''
+    }
+  ],
+  'kambyuwtir' => [
+    {
+      'types' => {
+        'kuwmbyuwtir' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'kambyuwtir',
+      'form' => 'kambyuwtir',
+      'others' => [
+        'kuwmbyuwtir NduAt'
+      ],
+      'lines' => [
+        ';; kamobyuwtir_1',
+        'kmbywtr kamobyuwtir     NduAt   computer',
+        'kwmbywtr        kuwmobyuwtir    NduAt   computer'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"computer"'
+        ]
+      ],
+      'glosshash' => {
+        '"computer"' => 1
+      },
+      'orig' => 'kamobyuwtir',
       'prefix' => ''
     }
   ],
@@ -10443,7 +10247,7 @@ $lexicon = {
       ],
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FiCL',
+      'morphs' => 'FiCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -10470,7 +10274,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACL',
+      'morphs' => 'FACL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -10527,6 +10331,39 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'k m \'' => [
+    {
+      'types' => {},
+      'entry' => 'kamA',
+      'form' => 'kamA',
+      'lines' => [
+        ';; kamA_1',
+        'kmA     kamA    FW-Wa   and;as;also  [[kamA/CONJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCA',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"and"'
+        ],
+        [
+          '"as"'
+        ],
+        [
+          '"also [ [ kamA / CONJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"and"' => 1,
+        '"as"' => 1,
+        '"also [ [ kamA / CONJ ] ]"' => 1
+      },
+      'orig' => 'kamA',
+      'prefix' => ''
+    }
+  ],
   'k w b' => [
     {
       'types' => {},
@@ -10539,7 +10376,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL',
+      'morphs' => 'FuCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -10563,7 +10400,7 @@ $lexicon = {
       'lines' => $lexicon->{'k w b'}[0]{'lines'},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUL',
+      'morphs' => 'FUL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => $lexicon->{'k w b'}[0]{'glosses'},
       'glosshash' => $lexicon->{'k w b'}[0]{'glosshash'},
@@ -10704,7 +10541,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCL',
+      'morphs' => 'FaCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -10785,7 +10622,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MaFAL',
+      'morphs' => 'MaFAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -11137,85 +10974,6 @@ $lexicon = {
         '"swarthy [ [ kAmid / ADJ ] ]"' => 1
       },
       'orig' => 'kAmid',
-      'prefix' => ''
-    }
-  ],
-  'k d b' => [
-    {
-      'types' => {
-        'kdiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '\'akd' => {
-          'PV_ttAw' => 2
-        },
-        '\'akdA' => {
-          'PV_h' => 2
-        },
-        'kdY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        '\'akday' => {
-          'PV_Atn' => 2
-        },
-        'kday' => {
-          'IV_Ann_Pass_yu' => 1
-        },
-        'kd' => {
-          'IV_0hwnyn_yu' => 1
-        }
-      },
-      'entry' => '\'akdY',
-      'form' => '\'akdY',
-      'others' => [
-        'kdiy IV_0hAnn_yu',
-        '\'akd PV_ttAw',
-        '\'akdA PV_h',
-        'kdY IV_0_Pass_yu',
-        '\'akday PV_Atn',
-        'kday IV_Ann_Pass_yu',
-        'kd IV_0hwnyn_yu'
-      ],
-      'lines' => [
-        ';; >akodaY_1',
-        '>kdY    >akodaY PV_0    give little;skimp',
-        'AkdY    >akodaY PV_0    give little;skimp',
-        '>kdA    >akodA  PV_h    give little;skimp',
-        'AkdA    >akodA  PV_h    give little;skimp',
-        '>kdy    >akoday PV_Atn  give little;skimp',
-        'Akdy    >akoday PV_Atn  give little;skimp',
-        '>kd     >akod   PV_ttAw give little;skimp',
-        'Akd     >akod   PV_ttAw give little;skimp',
-        'kdy     kodiy   IV_0hAnn_yu     give little;skimp',
-        'kd      kod     IV_0hwnyn_yu    give little;skimp',
-        'kdY     kodaY   IV_0_Pass_yu    be given little;be skimped on',
-        'kdy     koday   IV_Ann_Pass_yu  be given little;be skimped on'
-      ],
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCY',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"give little"'
-        ],
-        [
-          '"skimp"'
-        ],
-        [
-          '"be given little"'
-        ],
-        [
-          '"be skimped on"'
-        ]
-      ],
-      'glosshash' => {
-        '"be skimped on"' => 1,
-        '"be given little"' => 1,
-        '"give little"' => 1,
-        '"skimp"' => 1
-      },
-      'orig' => 'OakodaY',
       'prefix' => ''
     }
   ],
@@ -11646,7 +11404,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL',
+      'morphs' => 'FuCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -11975,35 +11733,6 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'k t t' => [
-    {
-      'types' => {},
-      'entry' => 'kattAn',
-      'form' => 'kattAn',
-      'lines' => [
-        ';; kat~An_1',
-        'ktAn    kat~An  N       flax;linen'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCLAn',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"flax"'
-        ],
-        [
-          '"linen"'
-        ]
-      ],
-      'glosshash' => {
-        '"linen"' => 1,
-        '"flax"' => 1
-      },
-      'orig' => 'kat~An',
-      'prefix' => ''
-    }
-  ],
   'kiysin^gir' => [
     {
       'types' => {
@@ -12090,7 +11819,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCAL',
+      'morphs' => 'FiCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -12127,7 +11856,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -12320,7 +12049,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCAL',
+      'morphs' => 'FaCAL |< Iy |< aT',
       'suffix' => ' |< Iy |< aT',
       'glosses' => [
         [
@@ -12457,7 +12186,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCL',
+      'morphs' => 'FaCL |< Iy |< aT',
       'suffix' => ' |< Iy |< aT',
       'glosses' => [
         [
@@ -12511,7 +12240,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -12585,7 +12314,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< Iy |< aT',
       'suffix' => ' |< Iy |< aT',
       'glosses' => [
         [
@@ -12621,6 +12350,132 @@ $lexicon = {
         '"sulfuric"' => 1
       },
       'orig' => 'kibriytiyk',
+      'prefix' => ''
+    }
+  ],
+  'kiymiyA\'iyy' => [
+    {
+      'types' => {
+        'kiymA\'iyy' => {
+          'N-ap' => 1
+        },
+        'kiymAwiyy' => {
+          'N-ap' => 1
+        },
+        'kiymiyy' => {
+          'N-ap' => 1
+        },
+        'kiymiyAwiyy' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'kiymiyA\'iyy',
+      'form' => 'kiymiyA\'iyy',
+      'others' => [
+        'kiymA\'iyy N-ap',
+        'kiymAwiyy N-ap',
+        'kiymiyy N-ap',
+        'kiymiyAwiyy N-ap'
+      ],
+      'lines' => [
+        ';; kiymiyA}iy~_1',
+        'kymyA}y kiymiyA}iy~     N-ap    chemical     [[kiymiyA}iy~/ADJ]]',
+        'kymyAwy kiymiyAwiy~     N-ap    chemical     [[kiymiyAwiy~/ADJ]]',
+        'kymy    kiymiy~ N-ap    chemical     [[kiymiy~/ADJ]]',
+        'kymA}y  kiymA}iy~       N-ap    chemical     [[kiymA}iy~/ADJ]]',
+        'kymAwy  kiymAwiy~       N-ap    chemical     [[kiymAwiy~/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"chemical [ [ kiymiyA } iy ~ / ADJ ] ]"'
+        ],
+        [
+          '"chemical [ [ kiymiyAwiy ~ / ADJ ] ]"'
+        ],
+        [
+          '"chemical [ [ kiymiy ~ / ADJ ] ]"'
+        ],
+        [
+          '"chemical [ [ kiymA } iy ~ / ADJ ] ]"'
+        ],
+        [
+          '"chemical [ [ kiymAwiy ~ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"chemical [ [ kiymiyAwiy ~ / ADJ ] ]"' => 1,
+        '"chemical [ [ kiymiy ~ / ADJ ] ]"' => 1,
+        '"chemical [ [ kiymAwiy ~ / ADJ ] ]"' => 1,
+        '"chemical [ [ kiymiyA } iy ~ / ADJ ] ]"' => 1,
+        '"chemical [ [ kiymA } iy ~ / ADJ ] ]"' => 1
+      },
+      'orig' => 'kiymiyA}iy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'kiymA\'iyy' => {
+          'Nall' => 1
+        },
+        'kiymAwiyy' => {
+          'Nall' => 1
+        },
+        'kiymiyy' => {
+          'Nall' => 1
+        },
+        'kiymiyAwiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'kiymiyA\'iyy',
+      'form' => 'kiymiyA\'iyy',
+      'others' => [
+        'kiymA\'iyy Nall',
+        'kiymAwiyy Nall',
+        'kiymiyy Nall',
+        'kiymiyAwiyy Nall'
+      ],
+      'lines' => [
+        ';; kiymiyA}iy~_2',
+        'kymyA}y kiymiyA}iy~     Nall    chemist     [[kiymiyA}iy~/ADJ]]',
+        'kymyAwy kiymiyAwiy~     Nall    chemist     [[kiymiyAwiy~/ADJ]]',
+        'kymy    kiymiy~ Nall    chemist     [[kiymiy~/ADJ]]',
+        'kymA}y  kiymA}iy~       Nall    chemist     [[kiymA}iy~/ADJ]]',
+        'kymAwy  kiymAwiy~       Nall    chemist     [[kiymAwiy~/ADJ]]'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"chemist [ [ kiymiyA } iy ~ / ADJ ] ]"'
+        ],
+        [
+          '"chemist [ [ kiymiyAwiy ~ / ADJ ] ]"'
+        ],
+        [
+          '"chemist [ [ kiymiy ~ / ADJ ] ]"'
+        ],
+        [
+          '"chemist [ [ kiymA } iy ~ / ADJ ] ]"'
+        ],
+        [
+          '"chemist [ [ kiymAwiy ~ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"chemist [ [ kiymAwiy ~ / ADJ ] ]"' => 1,
+        '"chemist [ [ kiymiy ~ / ADJ ] ]"' => 1,
+        '"chemist [ [ kiymA } iy ~ / ADJ ] ]"' => 1,
+        '"chemist [ [ kiymiyA } iy ~ / ADJ ] ]"' => 1,
+        '"chemist [ [ kiymiyAwiy ~ / ADJ ] ]"' => 1
+      },
+      'orig' => 'kiymiyA}iy~',
       'prefix' => ''
     }
   ],
@@ -12673,21 +12528,6 @@ $lexicon = {
       },
       'orig' => 'kuwz',
       'prefix' => ''
-    },
-    {
-      'types' => $lexicon->{'k w z'}[0]{'types'},
-      'entry' => 'kuwz',
-      'form' => 'kuwz',
-      'others' => $lexicon->{'k w z'}[0]{'others'},
-      'lines' => $lexicon->{'k w z'}[0]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUL',
-      'suffix' => '',
-      'glosses' => $lexicon->{'k w z'}[0]{'glosses'},
-      'glosshash' => $lexicon->{'k w z'}[0]{'glosshash'},
-      'orig' => 'kuwz',
-      'prefix' => ''
     }
   ],
   'k w t' => [
@@ -12725,7 +12565,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCayL',
+      'morphs' => 'FuCayL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -12748,7 +12588,7 @@ $lexicon = {
       'form' => 'kuwt',
       'lines' => [
         ';; kuwt_1',
-        'kwt     kuwt    N0      Côte'
+        'kwt     kuwt    N0      Cote'
       ],
       'index' => '1',
       'entity' => 'noun',
@@ -12756,26 +12596,12 @@ $lexicon = {
       'suffix' => '',
       'glosses' => [
         [
-          '"Côte"'
+          '"Cote"'
         ]
       ],
       'glosshash' => {
-        "\"C\x{f4}te\"" => 1
+        '"Cote"' => 1
       },
-      'orig' => 'kuwt',
-      'prefix' => ''
-    },
-    {
-      'types' => $lexicon->{'k w t'}[2]{'types'},
-      'entry' => 'kuwt',
-      'form' => 'kuwt',
-      'lines' => $lexicon->{'k w t'}[2]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUL',
-      'suffix' => '',
-      'glosses' => $lexicon->{'k w t'}[2]{'glosses'},
-      'glosshash' => $lexicon->{'k w t'}[2]{'glosshash'},
       'orig' => 'kuwt',
       'prefix' => ''
     }
@@ -12907,23 +12733,6 @@ $lexicon = {
         '"crossed"' => 1
       },
       'orig' => 'makotuwf',
-      'prefix' => ''
-    }
-  ],
-  'k f ' => [
-    {
-      'types' => $lexicon->{'k f y'}[4]{'types'},
-      'entry' => 'muktafiy',
-      'form' => 'muktafiy',
-      'others' => $lexicon->{'k f y'}[4]{'others'},
-      'lines' => $lexicon->{'k f y'}[4]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFtaCiN',
-      'suffix' => '',
-      'glosses' => $lexicon->{'k f y'}[4]{'glosses'},
-      'glosshash' => $lexicon->{'k f y'}[4]{'glosshash'},
-      'orig' => 'mukotafiy',
       'prefix' => ''
     }
   ],
@@ -13076,7 +12885,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCL',
+      'morphs' => 'FaCL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -13152,7 +12961,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'HaFCaL',
+      'morphs' => 'HaFCaL |< Iy |< aT',
       'suffix' => ' |< Iy |< aT',
       'glosses' => [
         [
@@ -13233,7 +13042,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCCAL',
+      'morphs' => 'FaCCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -13309,16 +13118,29 @@ $lexicon = {
   ],
   'k t n' => [
     {
-      'types' => $lexicon->{'k t t'}[0]{'types'},
+      'types' => {},
       'entry' => 'kattAn',
       'form' => 'kattAn',
-      'lines' => $lexicon->{'k t t'}[0]{'lines'},
+      'lines' => [
+        ';; kat~An_1',
+        'ktAn    kat~An  N       flax;linen'
+      ],
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCCAL',
       'suffix' => '',
-      'glosses' => $lexicon->{'k t t'}[0]{'glosses'},
-      'glosshash' => $lexicon->{'k t t'}[0]{'glosshash'},
+      'glosses' => [
+        [
+          '"flax"'
+        ],
+        [
+          '"linen"'
+        ]
+      ],
+      'glosshash' => {
+        '"linen"' => 1,
+        '"flax"' => 1
+      },
       'orig' => 'kat~An',
       'prefix' => ''
     }
@@ -13447,59 +13269,6 @@ $lexicon = {
         '"legitimization"' => 1
       },
       'orig' => 'takoriys',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'karAsiy' => {
-          'N0_Nh' => 1
-        },
-        'karAsiyy' => {
-          'N' => 1
-        },
-        'karAs' => {
-          'NK' => 1
-        }
-      },
-      'entry' => 'kurs',
-      'form' => 'kursiyy',
-      'others' => [
-        'karAsiy N0_Nh',
-        'karAsiyy N',
-        'karAs NK'
-      ],
-      'lines' => [
-        ';; kurosiy~_1',
-        'krsy    kurosiy~        Ndu     chair;seat',
-        'krAsy   karAsiy~        N       chairs;seats',
-        'krAsy   karAsiy N0_Nh   chairs;seats',
-        'krAs    karAs   NK      chairs;seats'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        [
-          '"chair"'
-        ],
-        [
-          '"seat"'
-        ],
-        [
-          '"chairs"'
-        ],
-        [
-          '"seats"'
-        ]
-      ],
-      'glosshash' => {
-        '"seats"' => 1,
-        '"chairs"' => 1,
-        '"seat"' => 1,
-        '"chair"' => 1
-      },
-      'orig' => 'kurosiy~',
       'prefix' => ''
     }
   ],
@@ -13630,7 +13399,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCiL',
+      'morphs' => 'FaCiL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -13708,7 +13477,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCAL',
+      'morphs' => 'FaCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -13747,7 +13516,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFACaL',
+      'morphs' => 'MuFACaL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -13797,6 +13566,36 @@ $lexicon = {
         '"discussion"' => 1
       },
       'orig' => 'takal~um',
+      'prefix' => ''
+    }
+  ],
+  'k y n y' => [
+    {
+      'types' => {},
+      'entry' => 'kiyniyy',
+      'form' => 'kiyniyy',
+      'lines' => [
+        ';; kiyniy~_1',
+        'kyny    kiyniy~ Nall    Kenyan     [[kiyniy~/NOUN]]',
+        'kyny    kiyniy~ Nall    Kenyan     [[kiyniy~/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDIS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Kenyan [ [ kiyniy ~ / NOUN ] ]"'
+        ],
+        [
+          '"Kenyan [ [ kiyniy ~ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"Kenyan [ [ kiyniy ~ / ADJ ] ]"' => 1,
+        '"Kenyan [ [ kiyniy ~ / NOUN ] ]"' => 1
+      },
+      'orig' => 'kiyniy~',
       'prefix' => ''
     }
   ],
@@ -13938,7 +13737,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [

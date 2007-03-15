@@ -1157,14 +1157,14 @@ lAHq    lAHiq   N-ap_L  attached;joined     <pos>lAHiq/ADJ</pos>
 lAHq    lAHiq   Napdu_L adjunct;appendage
 lwAHq   lawAHiq Ndip_L  adjuncts;appendages
 ;; muloHaq_1
-mlHq    muloHaq Nall    attach√<<©<<
+mlHq    muloHaq Nall    attache
 ;; muloHaq_2
 mlHq    muloHaq N-ap    appended;adjacent;annexed     <pos>muloHaq/ADJ</pos>
 ;; muloHaqAt_1
 mlHq    muloHaq NAt     appendix;addendum
 mlAHq   malAHiq Ndip    appendices;addenda
 ;; muloHaqiy~ap_1
-mlHqy   muloHaqiy~      NapAt   attach√<<©<<'s section     <pos>muloHaqiy~/NOUN</pos>
+mlHqy   muloHaqiy~      NapAt   attache's section     <pos>muloHaqiy~/NOUN</pos>
 ;; mulAHiq_1
 mlAHq   mulAHiq Nall    follower;companion
 ;; mutalAHiq_1

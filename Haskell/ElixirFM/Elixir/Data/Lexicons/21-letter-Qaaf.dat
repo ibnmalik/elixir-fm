@@ -174,7 +174,7 @@ mqAbs   maqAbis Ndip    socket
 <qtbAs  {iqotibAs       N/At    quotation;acquisition;adaptation
 AqtbAs  {iqotibAs       N/At    quotation;acquisition;adaptation
 ;; qAbis_1
-qAbs    qAbis   Ndip    Gabƒ<<ç<<s (Tun.)
+qAbs    qAbis   Ndip    Gabes (Tun.)
 ;; qAbis_2
 qAbs    qAbis   Ndu     electrical plug
 ;; muqotabas_1
@@ -1658,7 +1658,7 @@ AqtrAb  {iqotirAb       N/At    approach;approximation
 ;; muqar~ab_1
 mqrb    muqar~ab        Nall    close;near     <pos>muqar~ab/ADJ</pos>
 ;; muqar~ab_2
-mqrb    muqar~ab        Nall    close companion;prot√<<©<<g√<<©<<;intimate
+mqrb    muqar~ab        Nall    close companion;protege;intimate
 ;; muqArib_1
 mqArb   muqArib Nall    approximating     <pos>muqArib/ADJ</pos>
 ;; mutaqArib_1
@@ -6200,21 +6200,21 @@ mqhqh   muqahoqih       N-ap    hilarious     <pos>muqahoqih/ADJ</pos>
 qhw     qahow   Napdu   coffee
 qhw     qahaw   NAt     coffees
 ;; qahowAtiy~_1
-qhwAty  qahowAtiy~      N-ap    caf√<<©<< manager     <pos>qahowAtiy~/ADJ</pos>
+qhwAty  qahowAtiy~      N-ap    cafe manager     <pos>qahowAtiy~/ADJ</pos>
 ;; qahowAtiy~_2
 qhwAty  qahowAtiy~      N0      Qahwati
 ;; qahowAtiy~ap_1
-qhwAty  qahowAtiy~      Nap     caf√<<©<< owners     <pos>qahowAtiy~/NOUN</pos>
+qhwAty  qahowAtiy~      Nap     cafe owners     <pos>qahowAtiy~/NOUN</pos>
 ;; qahowajiy~_1
-qhwjy   qahowajiy~      N-ap    caf√<<©<< manager;coffee cook     <pos>qahowajiy~/ADJ</pos>
+qhwjy   qahowajiy~      N-ap    cafe manager;coffee cook     <pos>qahowajiy~/ADJ</pos>
 ;; maqohaY_1
-mqhY    maqohaY N0      caf√<<©<<;coffeehouse
-mqhA    maqohA  Nhy     caf√<<©<<;coffeehouse
-mqhy    maqohay NAn_Nayn        caf√<<©<<s;coffeehouses
-mqAhy   maqAhiy N0_Nh   caf√<<©<<s;coffeehouses
-mqAh    maqAh   NK      caf√<<©<<s;coffeehouses
+mqhY    maqohaY N0      cafe;coffeehouse
+mqhA    maqohA  Nhy     cafe;coffeehouse
+mqhy    maqohay NAn_Nayn        cafes;coffeehouses
+mqAhy   maqAhiy N0_Nh   cafes;coffeehouses
+mqAh    maqAh   NK      cafes;coffeehouses
 ;; maqohAp_1
-mqhA    maqohA  Napdu   caf√<<©<<;coffeehouse
+mqhA    maqohA  Napdu   cafe;coffeehouse
 ;
 ;--- qhy
 ;; qahiy-a_1

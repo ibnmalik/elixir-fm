@@ -14,7 +14,7 @@ lexicon = listing "Lexicon properties"
     -- ;; yAqap_1
     -- yAq     yAq     NapAt   collar
 
-    noun     FAL                       {- yAqap -}          `gloss`  [ "collar" ] ]
+    noun     FAL |< aT                 {- yAqap -}          `gloss`  [ "collar" ] ]
 
  |> "y ' s" <| [
 
@@ -50,12 +50,17 @@ lexicon = listing "Lexicon properties"
     noun     FaCL                      {- yaxot -}          `others` [ "yu_huwt N" ]
                                                             `gloss`  [ "yacht", "yachts" ] ]
 
- |> "y d w" <| [
+ |> "y d " <| [
 
     -- ;; yadawiy~_1
     -- ydwy    yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]
 
-    noun     FaCaL                     {- yadawiy~ -}       `gloss`  [ "manual", "hand [ [ yadawiy ~ / ADJ ] ]" ] ]
+    noun     FaCaNY |< Iy              {- yadawiy~ -}       `gloss`  [ "manual", "hand [ [ yadawiy ~ / ADJ ] ]" ],
+
+    -- ;; yadawiy~_1
+    -- ydwy    yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]
+
+    noun     FaCaNY |< Iy              {- yadawiy~ -}       `gloss`  [ "manual", "hand [ [ yadawiy ~ / ADJ ] ]" ] ]
 
  |> "y f `" <| [
 
@@ -69,12 +74,12 @@ lexicon = listing "Lexicon properties"
     -- ;; yahuwdiy~_1
     -- yhwdy   yahuwdiy~       N/ap    Jewish     [[yahuwdiy~/ADJ]]
 
-    noun     FaCUL                     {- yahuwdiy~ -}      `gloss`  [ "Jewish [ [ yahuwdiy ~ / ADJ ] ]" ],
+    noun     FaCUL |< Iy               {- yahuwdiy~ -}      `gloss`  [ "Jewish [ [ yahuwdiy ~ / ADJ ] ]" ],
 
     -- ;; yahuwdiy~ap_1
     -- yhwdy   yahuwdiy~       Nap     Judaism     [[yahuwdiy~/NOUN]]
 
-    noun     FaCUL                     {- yahuwdiy~ap -}    `gloss`  [ "Judaism [ [ yahuwdiy ~ / NOUN ] ]" ] ]
+    noun     FaCUL |< Iy |< aT         {- yahuwdiy~ap -}    `gloss`  [ "Judaism [ [ yahuwdiy ~ / NOUN ] ]" ] ]
 
  |> "y m n" <| [
 
@@ -87,12 +92,12 @@ lexicon = listing "Lexicon properties"
     -- ymny    yamaniy~        Nall    Yemeni     [[yamaniy~/NOUN]]
     -- ymny    yamaniy~        Nall    Yemeni     [[yamaniy~/ADJ]]
 
-    noun     FaCaL                     {- yamaniy~ -}       `gloss`  [ "Yemeni [ [ yamaniy ~ / NOUN ] ]", "Yemeni [ [ yamaniy ~ / ADJ ] ]" ],
+    noun     FaCaL |< Iy               {- yamaniy~ -}       `gloss`  [ "Yemeni [ [ yamaniy ~ / NOUN ] ]", "Yemeni [ [ yamaniy ~ / ADJ ] ]" ],
 
     -- ;; yamAniy~_2
     -- ymAny   yamAniy~        N0      Yamani
 
-    noun     FaCAL                     {- yamAniy~ -}       `gloss`  [ "Yamani" ],
+    noun     FaCAL |< Iy               {- yamAniy~ -}       `gloss`  [ "Yamani" ],
 
     -- ;; yamiyn_1
     -- ymyn    yamiyn  N       right side;right hand
@@ -112,7 +117,7 @@ lexicon = listing "Lexicon properties"
     -- ;; yamiyniy~_1
     -- ymyny   yamiyniy~       Nall    rightist;right-wing     [[yamiyniy~/ADJ]]
 
-    noun     FaCIL                     {- yamiyniy~ -}      `gloss`  [ "rightist", "right-wing [ [ yamiyniy ~ / ADJ ] ]" ],
+    noun     FaCIL |< Iy               {- yamiyniy~ -}      `gloss`  [ "rightist", "right-wing [ [ yamiyniy ~ / ADJ ] ]" ],
 
     -- ;; >ayoman_1
     -- >ymn    >ayoman Nprop   Ayman;Aiman
@@ -154,7 +159,7 @@ lexicon = listing "Lexicon properties"
     -- ywnAny  yuwnAniy~       Nall    Greek     [[yuwnAniy~/NOUN]]
     -- ywnAny  yuwnAniy~       Nall    Greek     [[yuwnAniy~/ADJ]]
 
-    noun     FUCAL                     {- yuwnAniy~ -}      `gloss`  [ "Greek [ [ yuwnAniy ~ / NOUN ] ]", "Greek [ [ yuwnAniy ~ / ADJ ] ]" ] ]
+    noun     FUCAL |< Iy               {- yuwnAniy~ -}      `gloss`  [ "Greek [ [ yuwnAniy ~ / NOUN ] ]", "Greek [ [ yuwnAniy ~ / ADJ ] ]" ] ]
 
  |> "y q .z" <| [
 
@@ -166,12 +171,6 @@ lexicon = listing "Lexicon properties"
 
     verb     HaFCaL                    {- OayoqaZ -}        `others` [ "wqa.z IV_Pass_yu", "wqi.z IV_yu" ]
                                                             `gloss`  [ "awaken", "warn", "be awakened", "be warned" ],
-
-    -- ;; <iyqAZ_1
-    -- <yqAZ   <iyqAZ  N/At    awakening;reveille
-    -- AyqAZ   <iyqAZ  N/At    awakening;reveille
-
-    noun     HICAL                     {- IiyqAZ -}         `gloss`  [ "awakening", "reveille" ],
 
     -- ;; <iyqAZ_1
     -- <yqAZ   <iyqAZ  N/At    awakening;reveille
@@ -219,13 +218,6 @@ lexicon = listing "Lexicon properties"
 
     noun     FUCiy                     {- yuwriy -}         `gloss`  [ "Youri", "Yuri" ] ]
 
- |> "y s .t" <| [
-
-    -- ;; yuwsiy_1
-    -- ywsy    yuwsiy  Nprop   Yosi;Yossi
-
-    noun     FUCiy                     {- yuwsiy -}         `gloss`  [ "Yosi", "Yossi" ] ]
-
  |> "y s `" <| [
 
     -- ;; yasuwE_1
@@ -237,7 +229,7 @@ lexicon = listing "Lexicon properties"
     -- yswEy   yasuwEiy~       Nall    Jesuit     [[yasuwEiy~/NOUN]]
     -- yswEy   yasuwEiy~       Nall    Jesuit     [[yasuwEiy~/ADJ]]
 
-    noun     FaCUL                     {- yasuwEiy~ -}      `gloss`  [ "Jesuit [ [ yasuwEiy ~ / NOUN ] ]", "Jesuit [ [ yasuwEiy ~ / ADJ ] ]" ] ]
+    noun     FaCUL |< Iy               {- yasuwEiy~ -}      `gloss`  [ "Jesuit [ [ yasuwEiy ~ / NOUN ] ]", "Jesuit [ [ yasuwEiy ~ / ADJ ] ]" ] ]
 
  |> "y s r" <| [
 
@@ -262,7 +254,7 @@ lexicon = listing "Lexicon properties"
     -- ;; yasAriy~_1
     -- ysAry   yasAriy~        Nall    leftist     [[yasAriy~/ADJ]]
 
-    noun     FaCAL                     {- yasAriy~ -}       `gloss`  [ "leftist [ [ yasAriy ~ / ADJ ] ]" ],
+    noun     FaCAL |< Iy               {- yasAriy~ -}       `gloss`  [ "leftist [ [ yasAriy ~ / ADJ ] ]" ],
 
     -- ;; yasiyr_1
     -- ysyr    yasiyr  N-ap    easy;simple     [[yasiyr/ADJ]]
@@ -294,6 +286,13 @@ lexicon = listing "Lexicon properties"
     -- mysr    muyas~ar        N-ap    made easy;facilitated;well-to-do     [[muyas~ar/ADJ]]
 
     noun     MuFaCCaL                  {- muyas~ar -}       `gloss`  [ "made easy", "facilitated", "well-to-do [ [ muyas ~ ar / ADJ ] ]" ] ]
+
+ |> "y s s" <| [
+
+    -- ;; yuwsiy_1
+    -- ywsy    yuwsiy  Nprop   Yosi;Yossi
+
+    noun     FUCiy                     {- yuwsiy -}         `gloss`  [ "Yosi", "Yossi" ] ]
 
  |> "y t m" <| [
 
@@ -334,7 +333,7 @@ lexicon = listing "Lexicon properties"
     -- ywmy    yawomiy~        NF      daily;per diem;on a daily basis     [[yawomiy~/ADV]]
     -- ywmy    yawomiy~        N-ap    daily     [[yawomiy~/ADJ]]
 
-    noun     FaCL                      {- yawomiy~ -}       `gloss`  [ "daily", "per diem", "on a daily basis [ [ yawomiy ~ / ADV ] ]", "daily [ [ yawomiy ~ / ADJ ] ]" ] ]
+    noun     FaCL |< Iy                {- yawomiy~ -}       `gloss`  [ "daily", "per diem", "on a daily basis [ [ yawomiy ~ / ADV ] ]", "daily [ [ yawomiy ~ / ADJ ] ]" ] ]
 
  |> "y w n ^s" <| [
 
@@ -362,7 +361,14 @@ lexicon = listing "Lexicon properties"
     -- ;; yuwsufiy~_1
     -- ywsfy   yuwsufiy~       N       tangerines
 
-    noun     KuRDuS                    {- yuwsufiy~ -}      `gloss`  [ "tangerines" ] ]
+    noun     KuRDuS |< Iy              {- yuwsufiy~ -}      `gloss`  [ "tangerines" ] ]
+
+ |> "y y " <| [
+
+    -- ;; yiy_1
+    -- yy      yiy     Nprop   Yi
+
+    noun     CI                        {- yiy -}            `gloss`  [ "Yi" ] ]
 
  |> "y y d" <| [
 
@@ -386,13 +392,6 @@ lexicon = listing "Lexicon properties"
     -- yn      yin     N       Yen
 
     noun     CiL                       {- yin -}            `gloss`  [ "Yen" ] ]
-
- |> "y y r" <| [
-
-    -- ;; yiy_1
-    -- yy      yiy     Nprop   Yi
-
-    noun     CI                        {- yiy -}            `gloss`  [ "Yi" ] ]
 
  |> "y y w" <| [
 
@@ -426,7 +425,7 @@ lexicon = listing "Lexicon properties"
     -- yAbAny  yAbAniy~        Nall    Japanese     [[yAbAniy~/NOUN]]
     -- yAbAny  yAbAniy~        Nall    Japanese     [[yAbAniy~/ADJ]]
 
-    noun     Identity                  {- yAbAniy~ -}       `gloss`  [ "Japanese [ [ yAbAniy ~ / NOUN ] ]", "Japanese [ [ yAbAniy ~ / ADJ ] ]" ] ]
+    noun     Identity |< Iy            {- yAbAniy~ -}       `gloss`  [ "Japanese [ [ yAbAniy ~ / NOUN ] ]", "Japanese [ [ yAbAniy ~ / ADJ ] ]" ] ]
 
  |> "yAfA" <| [
 
@@ -513,7 +512,7 @@ lexicon = listing "Lexicon properties"
     -- ywgslAf yuwgusolAf      N       Yugoslavians     [[yuwgusolAf/ADJ]]
     -- ywjslAf yuwjusolAf      N       Yugoslavians     [[yuwgusolAf/ADJ]]
 
-    noun     Identity                  {- yuwguwsolAfiy~ -} `others` [ "yuw^guslAf N", "yuw^guslAfiyy Nall", "yuw.guwslAf N", "yuw.guslAfiyy Nall", "yuw.guslAf N", "yuw^guwslAf N", "yuw^guwslAfiyy Nall" ]
+    noun     Identity |< Iy            {- yuwguwsolAfiy~ -} `others` [ "yuw^guslAf N", "yuw^guslAfiyy Nall", "yuw.guwslAf N", "yuw.guslAfiyy Nall", "yuw.guslAf N", "yuw^guwslAf N", "yuw^guwslAfiyy Nall" ]
                                                             `gloss`  [ "Yugoslavian [ [ yuwguwsolAfiy ~ / NOUN ] ]", "Yugoslavian [ [ yuwjuwsolAfiy ~ / NOUN ] ]", "Yugoslavian [ [ yuwguwsolAfiy ~ / ADJ ] ]", "Yugoslavian [ [ yuwjuwsolAfiy ~ / ADJ ] ]", "Yugoslavian [ [ yuwgusolAfiy ~ / NOUN ] ]", "Yugoslavian [ [ yuwgusolAfiy ~ / ADJ ] ]", "Yugoslavians [ [ yuwguwsolAf / NOUN ] ]", "Yugoslavians [ [ yuwguwsolAf / ADJ ] ]", "Yugoslavians [ [ yuwgusolAf / NOUN ] ]", "Yugoslavians [ [ yuwgusolAf / ADJ ] ]" ] ]
 
  |> "yuw.guwslAfiyA" <| [

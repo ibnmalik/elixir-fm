@@ -357,7 +357,7 @@ m&wn    mu&uwn  N       navels;umbilical holes
 ;; mu&onap_1
 m&n     mu&on   Nap     provisions;supplies
 m&wn    ma&uwn  Nap     provisions;supplies
-m&n     mu&an   N       provisions;supplies;matÃ<<©<<riel
+m&n     mu&an   N       provisions;supplies;materiel
 ;
 ;--- mAnj
 ;; mAnojuw_1
@@ -3690,7 +3690,7 @@ mql     muqal   N       eyes;eyeballs
 ;--- mqn
 ; village in Baalbek province
 ;; maqonap_1
-mqnp    maqonap Nprop   MaqnÃ<<©<<
+mqnp    maqonap Nprop   Maqne
 ;
 ;--- mqnq
 ;; maqAniq_1
@@ -4422,9 +4422,9 @@ mmtlk   mumotalak       NAt     property;possessions;dependencies
 ;
 ;--- mlm
 ;; mal~iym_1
-mlym    mal~iym NduAt   milliÃ<<¨<<me
-mlym    maliym  NduAt   milliÃ<<¨<<me
-mlAlym  malAliym        Ndip    milliÃ<<¨<<mes
+mlym    mal~iym NduAt   millieme
+mlym    maliym  NduAt   millieme
+mlAlym  malAliym        Ndip    milliemes
 ;; mlm_1
 mlm     mlm     FW      millimeter     <pos>mlm/ABBREV</pos>
 mm      mm      FW      millimeter     <pos>mm/ABBREV</pos>

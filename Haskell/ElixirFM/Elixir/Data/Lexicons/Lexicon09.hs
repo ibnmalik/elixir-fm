@@ -14,7 +14,7 @@ lexicon = listing "Lexicon properties"
     -- ;; *At_1
     -- *At     *At     N       same;self;essence     [[*At/NOUN]]
 
-    noun     Identity                  {- *At -}            `gloss`  [ "same", "self", "essence [ [ *At / NOUN ] ]" ] ]
+    noun     Identity |< At            {- *At -}            `gloss`  [ "same", "self", "essence [ [ *At / NOUN ] ]" ] ]
 
  |> "_d ' `" <| [
 
@@ -33,26 +33,12 @@ lexicon = listing "Lexicon properties"
     noun     FiCL                      {- *i}ob -}          `others` [ "_di'Ab N", "_du'bAn N" ]
                                                             `gloss`  [ "wolf", "jackal", "wolves", "jackals" ] ]
 
- |> "_d _d k" <| [
-
-    -- ;; *akiy~_1
-    -- *ky     *akiy~  N/ap    clever     [[*akiy~/ADJ]]
-    -- >*kyA'  >a*okiyA'       N0_Nh   clever
-    -- A*kyA'  >a*okiyA'       N0_Nh   clever
-    -- >*kyA&  >a*okiyA&       Nh      clever
-    -- A*kyA&  >a*okiyA&       Nh      clever
-    -- >*kyA}  >a*okiyA}       Nhy     clever
-    -- A*kyA}  >a*okiyA}       Nhy     clever
-
-    noun     CaL                       {- *akiy~ -}         `others` [ "'a_dkiyA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "clever [ [ *akiy ~ / ADJ ] ]", "clever" ] ]
-
  |> "_d _d r" <| [
 
     -- ;; *urap_1
     -- *r      *ur     Nap     sorghum;maize
 
-    noun     CuL                       {- *urap -}          `gloss`  [ "sorghum", "maize" ] ]
+    noun     CuL |< aT                 {- *urap -}          `gloss`  [ "sorghum", "maize" ] ]
 
  |> "_d _d w" <| [
 
@@ -86,7 +72,7 @@ lexicon = listing "Lexicon properties"
     -- *xyr    *axiyr  Napdu   ammunition;treasure;provisions
     -- *xA}r   *axA}ir Ndip    ammunition;treasure;provisions
 
-    noun     FaCIL                     {- *axiyrap -}       `others` [ "_da_hA'ir Ndip" ]
+    noun     FaCIL |< aT               {- *axiyrap -}       `others` [ "_da_hA'ir Ndip" ]
                                                             `gloss`  [ "ammunition", "treasure", "provisions" ] ]
 
  |> "_d ` n" <| [
@@ -134,7 +120,7 @@ lexicon = listing "Lexicon properties"
     -- m*bH    ma*obaH Napdu   massacre;slaughter
     -- m*AbH   ma*AbiH Ndip    massacres;slaughterhouses
 
-    noun     MaFCaL                    {- ma*obaHap -}      `others` [ "ma_dAbi.h Ndip" ]
+    noun     MaFCaL |< aT              {- ma*obaHap -}      `others` [ "ma_dAbi.h Ndip" ]
                                                             `gloss`  [ "massacre", "slaughter", "massacres", "slaughterhouses" ] ]
 
  |> "_d b _d b" <| [
@@ -143,7 +129,7 @@ lexicon = listing "Lexicon properties"
     -- *b*b    *abo*ab Napdu   oscillation;frequency;vibration
     -- *b*b    *abo*ab NAt     oscillations;frequencies;vibrations
 
-    noun     KaRDaS                    {- *abo*abap -}      `others` [ "_dab_dab NAt" ]
+    noun     KaRDaS |< aT              {- *abo*abap -}      `others` [ "_dab_dab NAt" ]
                                                             `gloss`  [ "oscillation", "frequency", "vibration", "oscillations", "frequencies", "vibrations" ],
 
     -- ;; ta*abo*ub_1
@@ -199,7 +185,7 @@ lexicon = listing "Lexicon properties"
     -- ;; *ahabiy~_1
     -- *hby    *ahabiy~        Nall    golden;gilded     [[*ahabiy~/ADJ]]
 
-    noun     FaCaL                     {- *ahabiy~ -}       `gloss`  [ "golden", "gilded [ [ *ahabiy ~ / ADJ ] ]" ],
+    noun     FaCaL |< Iy               {- *ahabiy~ -}       `gloss`  [ "golden", "gilded [ [ *ahabiy ~ / ADJ ] ]" ],
 
     -- ;; *ahAb_1
     -- *hAb    *ahAb   N       going;departure
@@ -216,7 +202,7 @@ lexicon = listing "Lexicon properties"
     -- ;; ma*ohabiy~_1
     -- m*hby   ma*ohabiy~      Nall    sectarian;doctrinal     [[ma*ohabiy~/ADJ]]
 
-    noun     MaFCaL                    {- ma*ohabiy~ -}     `gloss`  [ "sectarian", "doctrinal [ [ ma*ohabiy ~ / ADJ ] ]" ],
+    noun     MaFCaL |< Iy              {- ma*ohabiy~ -}     `gloss`  [ "sectarian", "doctrinal [ [ ma*ohabiy ~ / ADJ ] ]" ],
 
     -- ;; mu*ah~ab_1
     -- m*hb    mu*ah~ab        N-ap    gilded;golden     [[mu*ah~ab/ADJ]]
@@ -256,12 +242,12 @@ lexicon = listing "Lexicon properties"
     -- ;; *ihoniy~_1
     -- *hny    *ihoniy~        Nall    mental;intellectual     [[*ihoniy~/ADJ]]
 
-    noun     FiCL                      {- *ihoniy~ -}       `gloss`  [ "mental", "intellectual [ [ *ihoniy ~ / ADJ ] ]" ],
+    noun     FiCL |< Iy                {- *ihoniy~ -}       `gloss`  [ "mental", "intellectual [ [ *ihoniy ~ / ADJ ] ]" ],
 
     -- ;; *ihoniy~ap_1
     -- *hny    *ihoniy~        NapAt   mentality     [[*ihoniy~/NOUN]]
 
-    noun     FiCL                      {- *ihoniy~ap -}     `gloss`  [ "mentality [ [ *ihoniy ~ / NOUN ] ]" ] ]
+    noun     FiCL |< Iy |< aT          {- *ihoniy~ap -}     `gloss`  [ "mentality [ [ *ihoniy ~ / NOUN ] ]" ] ]
 
  |> "_d k '" <| [
 
@@ -332,7 +318,7 @@ lexicon = listing "Lexicon properties"
     -- ;; *Akirap_1
     -- *Akr    *Akir   Nap     memory
 
-    noun     FACiL                     {- *Akirap -}        `gloss`  [ "memory" ],
+    noun     FACiL |< aT               {- *Akirap -}        `gloss`  [ "memory" ],
 
     -- ;; ma*okuwr_1
     -- m*kwr   ma*okuwr        Nall    mentioned;worthy of mention     [[ma*okuwr/ADJ]]
@@ -342,7 +328,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mu*ak~irap_1
     -- m*kr    mu*ak~ir        NapAt   reminder;memorandum
 
-    noun     MuFaCCiL                  {- mu*ak~irap -}     `gloss`  [ "reminder", "memorandum" ] ]
+    noun     MuFaCCiL |< aT            {- mu*ak~irap -}     `gloss`  [ "reminder", "memorandum" ] ]
 
  |> "_d k w" <| [
 
@@ -352,6 +338,20 @@ lexicon = listing "Lexicon properties"
     -- *kA}    *akA}   Nhy     cleverness
 
     noun     FaCA'                     {- *akA' -}          `gloss`  [ "cleverness" ] ]
+
+ |> "_d k y" <| [
+
+    -- ;; *akiy~_1
+    -- *ky     *akiy~  N/ap    clever     [[*akiy~/ADJ]]
+    -- >*kyA'  >a*okiyA'       N0_Nh   clever
+    -- A*kyA'  >a*okiyA'       N0_Nh   clever
+    -- >*kyA&  >a*okiyA&       Nh      clever
+    -- A*kyA&  >a*okiyA&       Nh      clever
+    -- >*kyA}  >a*okiyA}       Nhy     clever
+    -- A*kyA}  >a*okiyA}       Nhy     clever
+
+    noun     FaCIL                     {- *akiy~ -}         `others` [ "'a_dkiyA' Nh Nhy N0_Nh" ]
+                                                            `gloss`  [ "clever [ [ *akiy ~ / ADJ ] ]", "clever" ] ]
 
  |> "_d l l" <| [
 
@@ -377,7 +377,7 @@ lexicon = listing "Lexicon properties"
     -- *m      *im~    Napdu   protection;security
     -- *mm     *imam   N       protection;security
 
-    noun     FiCL                      {- *im~ap -}         `others` [ "_dimam N" ]
+    noun     FiCL |< aT                {- *im~ap -}         `others` [ "_dimam N" ]
                                                             `gloss`  [ "protection", "security" ] ]
 
  |> "_d m r" <| [
@@ -441,7 +441,7 @@ lexicon = listing "Lexicon properties"
     -- *ryE    *ariyE  Napdu   means;pretext;expedient
     -- *rA}E   *arA}iE Ndip    pretexts;expediency;pragmatics
 
-    noun     FaCIL                     {- *ariyEap -}       `others` [ "_darA'i` Ndip" ]
+    noun     FaCIL |< aT               {- *ariyEap -}       `others` [ "_darA'i` Ndip" ]
                                                             `gloss`  [ "means", "pretext", "expedient", "pretexts", "expediency", "pragmatics" ] ]
 
  |> "_d r r" <| [
@@ -454,18 +454,18 @@ lexicon = listing "Lexicon properties"
     -- ;; *ar~ap_1
     -- *r      *ar~    NapAt   atom;particle
 
-    noun     FaCL                      {- *ar~ap -}         `gloss`  [ "atom", "particle" ],
+    noun     FaCL |< aT                {- *ar~ap -}         `gloss`  [ "atom", "particle" ],
 
     -- ;; *ar~iy~_1
     -- *ry     *ar~iy~ N-ap    atomic     [[*ar~iy~/ADJ]]
 
-    noun     FaCL                      {- *ar~iy~ -}        `gloss`  [ "atomic [ [ *ar ~ iy ~ / ADJ ] ]" ],
+    noun     FaCL |< Iy                {- *ar~iy~ -}        `gloss`  [ "atomic [ [ *ar ~ iy ~ / ADJ ] ]" ],
 
     -- ;; *ur~iy~ap_1
     -- *ry     *ur~iy~ NapAt   descendants;offspring     [[*ur~iy~/NOUN]]
     -- *rAry   *arAriy~        N       descendants;offspring
 
-    noun     FuCL                      {- *ur~iy~ap -}      `others` [ "_darAriyy N" ]
+    noun     FuCL |< Iy |< aT          {- *ur~iy~ap -}      `others` [ "_darAriyy N" ]
                                                             `gloss`  [ "descendants", "offspring [ [ *ur ~ iy ~ / NOUN ] ]", "offspring" ] ]
 
  |> "_d r w" <| [
@@ -476,32 +476,10 @@ lexicon = listing "Lexicon properties"
     -- *rY     *uraY   N0      peaks;summits
     -- *rA     *urA    Nhy     peaks;summits
 
-    noun     FuCL                      {- *urowap -}        `others` [ "_durA Nhy", "_dirw Napdu", "_durY N0" ]
+    noun     FuCL |< aT                {- *urowap -}        `others` [ "_durA Nhy", "_dirw Napdu", "_durY N0" ]
                                                             `gloss`  [ "peak", "summit", "peaks", "summits" ] ]
 
  |> "_d w `" <| [
-
-    -- ;; *awaY-i_1
-    -- *wY     *awaY   PV_0    wither;fade
-    -- *wy     *away   PV_Atn  wither;fade
-    -- *w      *aw     PV_ttAw wither;fade
-    -- *wy     *owiy   IV_0hAnn        wither;fade
-    -- *w      *ow     IV_0hwnyn       wither;fade
-
-    verb     FaCaNY                    {- *awaY-i -}        `imperf` [ FCiL ]
-                                                            `others` [ "_dwiy IV_0hAnn", "_daw PV_ttAw", "_dw IV_0hwnyn", "_daway PV_Atn" ]
-                                                            `gloss`  [ "wither", "fade" ],
-
-    -- ;; *awaY-i_1
-    -- *wY     *awaY   PV_0    wither;fade
-    -- *wy     *away   PV_Atn  wither;fade
-    -- *w      *aw     PV_ttAw wither;fade
-    -- *wy     *owiy   IV_0hAnn        wither;fade
-    -- *w      *ow     IV_0hwnyn       wither;fade
-
-    verb     FaCaNY                    {- *awaY-i -}        `imperf` [ FCiL ]
-                                                            `others` [ "_dwiy IV_0hAnn", "_daw PV_ttAw", "_dw IV_0hwnyn", "_daway PV_Atn" ]
-                                                            `gloss`  [ "wither", "fade" ],
 
     -- ;; >a*AE_1
     -- >*AE    >a*AE   PV_V    broadcast;propagate
@@ -524,19 +502,24 @@ lexicon = listing "Lexicon properties"
     -- <*AE    <i*AE   NAt     broadcasts;transmissions
     -- A*AE    <i*AE   NAt     broadcasts;transmissions
 
-    noun     HiFAL                     {- Ii*AEap -}        `others` [ "'i_dA` NAt" ]
+    noun     HiFAL |< aT               {- Ii*AEap -}        `others` [ "'i_dA` NAt" ]
                                                             `gloss`  [ "broadcast", "transmission", "broadcasts", "transmissions" ],
 
     -- ;; <i*AEiy~_1
     -- <*AEy   <i*AEiy~        Nall    radio;broadcast;transmission     [[<i*AEiy~/ADJ]]
     -- A*AEy   <i*AEiy~        Nall    radio;broadcast;transmission     [[<i*AEiy~/ADJ]]
 
-    noun     HiFAL                     {- Ii*AEiy~ -}       `gloss`  [ "radio", "broadcast", "transmission [ [" ],
+    noun     HiFAL |< Iy               {- Ii*AEiy~ -}       `gloss`  [ "radio", "broadcast", "transmission [ [" ],
 
     -- ;; *A}iE_1
     -- *A}E    *A}iE   Nall    widespread;widely known     [[*A}iE/ADJ]]
 
-    noun     FA'iL                     {- *A}iE -}          `gloss`  [ "widespread", "widely known [ [ *A } iE / ADJ ] ]" ] ]
+    noun     FA'iL                     {- *A}iE -}          `gloss`  [ "widespread", "widely known [ [ *A } iE / ADJ ] ]" ],
+
+    -- ;; mu*iyE_1
+    -- m*yE    mu*iyE  Nall    broadcaster;transmitter;announcer
+
+    noun     MuFIL                     {- mu*iyE -}         `gloss`  [ "broadcaster", "transmitter", "announcer" ] ]
 
  |> "_d w b" <| [
 
@@ -590,14 +573,33 @@ lexicon = listing "Lexicon properties"
     -- ;; *Atiy~_1
     -- *Aty    *Atiy~  N-ap    autonomous;self     [[*Atiy~/ADJ]]
 
-    noun     FAL                       {- *Atiy~ -}         `gloss`  [ "autonomous", "self [ [ *Atiy ~ / ADJ ] ]" ] ]
+    noun     FAL |< Iy                 {- *Atiy~ -}         `gloss`  [ "autonomous", "self [ [ *Atiy ~ / ADJ ] ]" ] ]
+
+ |> "_d w y" <| [
+
+    -- ;; *awaY-i_1
+    -- *wY     *awaY   PV_0    wither;fade
+    -- *wy     *away   PV_Atn  wither;fade
+    -- *w      *aw     PV_ttAw wither;fade
+    -- *wy     *owiy   IV_0hAnn        wither;fade
+    -- *w      *ow     IV_0hwnyn       wither;fade
+
+    verb     FaCaNY                    {- *awaY-i -}        `imperf` [ FCiL ]
+                                                            `others` [ "_dwiy IV_0hAnn", "_daw PV_ttAw", "_dw IV_0hwnyn", "_daway PV_Atn" ]
+                                                            `gloss`  [ "wither", "fade" ],
+
+    -- ;; *awaY-i_1
+    -- *wY     *awaY   PV_0    wither;fade
+    -- *wy     *away   PV_Atn  wither;fade
+    -- *w      *aw     PV_ttAw wither;fade
+    -- *wy     *owiy   IV_0hAnn        wither;fade
+    -- *w      *ow     IV_0hwnyn       wither;fade
+
+    verb     FaCaNY                    {- *awaY-i -}        `imperf` [ FCiL ]
+                                                            `others` [ "_dwiy IV_0hAnn", "_daw PV_ttAw", "_dw IV_0hwnyn", "_daway PV_Atn" ]
+                                                            `gloss`  [ "wither", "fade" ] ]
 
  |> "_d y `" <| [
-
-    -- ;; mu*iyE_1
-    -- m*yE    mu*iyE  Nall    broadcaster;transmitter;announcer
-
-    noun     MuFIL                     {- mu*iyE -}         `gloss`  [ "broadcaster", "transmitter", "announcer" ],
 
     -- ;; mu*iyE_1
     -- m*yE    mu*iyE  Nall    broadcaster;transmitter;announcer
@@ -652,7 +654,7 @@ lexicon = listing "Lexicon properties"
     -- ;; *ikorayAt_1
     -- *kry    *ikoray NAt     memoirs;diary
 
-    noun     Identity                  {- *ikorayAt -}      `others` [ "_dikray NAt" ]
+    noun     Identity |< At            {- *ikorayAt -}      `others` [ "_dikray NAt" ]
                                                             `gloss`  [ "memoirs", "diary" ] ]
 
  |> "bi_dA" <| [
@@ -707,7 +709,7 @@ lexicon = listing "Lexicon properties"
     -- ;; ta*okAriy~_1
     -- t*kAry  ta*okAriy~      N-ap    memorial;commemorative     [[ta*okAriy~/ADJ]]
 
-    noun     Identity                  {- ta*okAriy~ -}     `gloss`  [ "memorial", "commemorative [ [ ta*okAriy ~ / ADJ ] ]" ] ]
+    noun     Identity |< Iy            {- ta*okAriy~ -}     `gloss`  [ "memorial", "commemorative [ [ ta*okAriy ~ / ADJ ] ]" ] ]
 
  |> "ta_dkar" <| [
 
@@ -715,6 +717,6 @@ lexicon = listing "Lexicon properties"
     -- t*kr    ta*okar Napdu   ticket;card
     -- t*Akr   ta*Akir Ndip    tickets;cards
 
-    noun     Identity                  {- ta*okarap -}      `others` [ "ta_dAkir Ndip" ]
+    noun     Identity |< aT            {- ta*okarap -}      `others` [ "ta_dAkir Ndip" ]
                                                             `gloss`  [ "ticket", "card", "tickets", "cards" ] ]
 

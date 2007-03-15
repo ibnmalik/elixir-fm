@@ -275,7 +275,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FAL',
+      'morphs' => 'FAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         [
@@ -333,7 +333,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'KuRDuS',
+      'morphs' => 'KuRDuS |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -504,6 +504,35 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'y s s' => [
+    {
+      'types' => {},
+      'entry' => 'yuwsiy',
+      'form' => 'yuwsiy',
+      'lines' => [
+        ';; yuwsiy_1',
+        'ywsy    yuwsiy  Nprop   Yosi;Yossi'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCiy',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yosi"'
+        ],
+        [
+          '"Yossi"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yossi"' => 1,
+        '"Yosi"' => 1
+      },
+      'orig' => 'yuwsiy',
+      'prefix' => ''
+    }
+  ],
   'y s `' => [
     {
       'types' => {},
@@ -543,7 +572,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCUL',
+      'morphs' => 'FaCUL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -662,7 +691,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCAL',
+      'morphs' => 'FaCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -1009,6 +1038,49 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'y d ' => [
+    {
+      'types' => {},
+      'entry' => 'yadY',
+      'form' => 'yadawiyy',
+      'lines' => [
+        ';; yadawiy~_1',
+        'ydwy    yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaNY |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"manual"'
+        ],
+        [
+          '"hand [ [ yadawiy ~ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"manual"' => 1,
+        '"hand [ [ yadawiy ~ / ADJ ] ]"' => 1
+      },
+      'orig' => 'yadawiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => $lexicon->{'y d '}[0]{'types'},
+      'entry' => 'yadY',
+      'form' => 'yadawiyy',
+      'lines' => $lexicon->{'y d '}[0]{'lines'},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaNY |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => $lexicon->{'y d '}[0]{'glosses'},
+      'glosshash' => $lexicon->{'y d '}[0]{'glosshash'},
+      'orig' => 'yadawiy~',
+      'prefix' => ''
+    }
+  ],
   'ywmbl.gAz' => [
     {
       'types' => {},
@@ -1069,7 +1141,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCAL',
+      'morphs' => 'FUCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -1122,7 +1194,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCaL',
+      'morphs' => 'FaCaL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -1149,7 +1221,7 @@ $lexicon = {
       ],
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FaCAL',
+      'morphs' => 'FaCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -1241,7 +1313,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCIL',
+      'morphs' => 'FaCIL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -1503,7 +1575,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'HICAL',
+      'morphs' => 'HiFCAL',
       'suffix' => '',
       'glosses' => [
         [
@@ -1517,20 +1589,6 @@ $lexicon = {
         '"awakening"' => 1,
         '"reveille"' => 1
       },
-      'orig' => 'IiyqAZ',
-      'prefix' => ''
-    },
-    {
-      'types' => $lexicon->{'y q .z'}[1]{'types'},
-      'entry' => '\'iyqA.z',
-      'form' => '\'iyqA.z',
-      'lines' => $lexicon->{'y q .z'}[1]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HiFCAL',
-      'suffix' => '',
-      'glosses' => $lexicon->{'y q .z'}[1]{'glosses'},
-      'glosshash' => $lexicon->{'y q .z'}[1]{'glosshash'},
       'orig' => 'IiyqAZ',
       'prefix' => ''
     }
@@ -1753,31 +1811,6 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'y y r' => [
-    {
-      'types' => {},
-      'entry' => 'yiy',
-      'form' => 'yiy',
-      'lines' => [
-        ';; yiy_1',
-        'yy      yiy     Nprop   Yi'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CI',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"Yi"'
-        ]
-      ],
-      'glosshash' => {
-        '"Yi"' => 1
-      },
-      'orig' => 'yiy',
-      'prefix' => ''
-    }
-  ],
   'yuwn.g' => [
     {
       'types' => {
@@ -1816,35 +1849,6 @@ $lexicon = {
         '"Yung"' => 1
       },
       'orig' => 'yuwnog',
-      'prefix' => ''
-    }
-  ],
-  'y d w' => [
-    {
-      'types' => {},
-      'entry' => 'yadaw',
-      'form' => 'yadawiyy',
-      'lines' => [
-        ';; yadawiy~_1',
-        'ydwy    yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCaL',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        [
-          '"manual"'
-        ],
-        [
-          '"hand [ [ yadawiy ~ / ADJ ] ]"'
-        ]
-      ],
-      'glosshash' => {
-        '"manual"' => 1,
-        '"hand [ [ yadawiy ~ / ADJ ] ]"' => 1
-      },
-      'orig' => 'yadawiy~',
       'prefix' => ''
     }
   ],
@@ -1905,7 +1909,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -2076,7 +2080,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCL',
+      'morphs' => 'FaCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -2102,32 +2106,28 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'y s .t' => [
+  'y y ' => [
     {
       'types' => {},
-      'entry' => 'yuwsiy',
-      'form' => 'yuwsiy',
+      'entry' => 'yiy',
+      'form' => 'yiy',
       'lines' => [
-        ';; yuwsiy_1',
-        'ywsy    yuwsiy  Nprop   Yosi;Yossi'
+        ';; yiy_1',
+        'yy      yiy     Nprop   Yi'
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'CI',
       'suffix' => '',
       'glosses' => [
         [
-          '"Yosi"'
-        ],
-        [
-          '"Yossi"'
+          '"Yi"'
         ]
       ],
       'glosshash' => {
-        '"Yossi"' => 1,
-        '"Yosi"' => 1
+        '"Yi"' => 1
       },
-      'orig' => 'yuwsiy',
+      'orig' => 'yiy',
       'prefix' => ''
     }
   ],
@@ -2466,7 +2466,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCUL',
+      'morphs' => 'FaCUL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
@@ -2489,7 +2489,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCUL',
+      'morphs' => 'FaCUL |< Iy |< aT',
       'suffix' => ' |< Iy |< aT',
       'glosses' => [
         [
@@ -2568,16 +2568,16 @@ $lexicon = {
   ],
   'y y y' => [
     {
-      'types' => $lexicon->{'y y r'}[0]{'types'},
+      'types' => $lexicon->{'y y '}[0]{'types'},
       'entry' => 'yiy',
       'form' => 'yiy',
-      'lines' => $lexicon->{'y y r'}[0]{'lines'},
+      'lines' => $lexicon->{'y y '}[0]{'lines'},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'CiL',
       'suffix' => '',
-      'glosses' => $lexicon->{'y y r'}[0]{'glosses'},
-      'glosshash' => $lexicon->{'y y r'}[0]{'glosshash'},
+      'glosses' => $lexicon->{'y y '}[0]{'glosses'},
+      'glosshash' => $lexicon->{'y y '}[0]{'glosshash'},
       'orig' => 'yiy',
       'prefix' => ''
     }
@@ -2617,7 +2617,7 @@ $lexicon = {
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
+      'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [

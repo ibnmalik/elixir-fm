@@ -80,6 +80,8 @@ until (eof()) {
 
         if ($line =~ /^;--- (.+)$/) {
 
+            closeEntry();
+
             $root = $1;
 
             $root =~ tr[>&<][OWI];
@@ -89,8 +91,6 @@ until (eof()) {
             $root =~ tr[A]['];
 
             ($char) = $root =~ /^([\.\_\^]?[^\.\_\^])/;
-
-            closeEntry($root, $char);
         }
         elsif ($line =~ /^;;/) {
 
@@ -182,7 +182,7 @@ sub storeEntry ($$) {
 
     $Clone->{$_} = $Entry->{$_} foreach keys %{$Entry};
 
-    $Clone->{'morphs'} = $_[1];
+    $Clone->{'morphs'} = $Clone->{'prefix'} . $_[1] . $Clone->{'suffix'};
 
     push @{$Lexicon->{$_[0]}}, $Clone;
 
@@ -210,6 +210,11 @@ sub closeEntry {
 
         push @{$Entry->{'others'}}, ( join ' ', $form, keys %{$Entry->{'types'}->{$form}} );
     }
+
+
+    my @root = split / /, $root;
+
+    push @root, ('') x (3 - @root) unless @root > 3;
 
 
     my $entry = $Entry->{'form'};
@@ -240,7 +245,7 @@ sub closeEntry {
 
         if ($entry =~ /^(.*)AT$/) {
 
-            $entry = $1 . "aNY";
+            $entry = $1 . "Y";
             $suffix = ' |< aT' . $suffix;
         }
 
@@ -252,8 +257,16 @@ sub closeEntry {
 
         if ($entry =~ /^(.*)iyy$/) {
 
-            $entry = $1;
-            $suffix = ' |< Iy' . $suffix;
+            if ($entry =~ /^(.*)awiyy$/) {
+
+                $entry = $1 . "Y";
+                $suffix = ' |< Iy' . $suffix;
+            }
+            elsif ($root[-1] !~ /^[wy]$/) {
+
+                $entry = $1;
+                $suffix = ' |< Iy' . $suffix;
+            }
         }
     }
 
@@ -273,12 +286,12 @@ sub closeEntry {
 
         if ($Entry->{'entry'} =~ /^$pattern$/) {
 
-            my @root = defined $F || defined $C || defined $L ? ($F, $C, $L) : ($K, $R, $D, $S);
+            my @toor = defined $F || defined $C || defined $L ? ($F, $C, $L) : ($K, $R, $D, $S);
 
-            next if defined $root[0] and defined $root[1] and $root[0] eq $root[1] or
-                    @root == 4 and $root[1] eq $root[2] || $root[2] eq $root[3];
+            next if defined $toor[0] and defined $toor[1] and $toor[0] eq $toor[1] or
+                    @toor == 4 and $toor[1] eq $toor[2] || $toor[2] eq $toor[3];
 
-            push @{$root{join ' ', map { defined $_ ? $_ : '' } @root}}, $patterns{$pattern};
+            push @{$root{join ' ', map { defined $_ ? $_ : '' } @toor}}, $patterns{$pattern};
         }
     }
 
@@ -290,10 +303,6 @@ sub closeEntry {
     else {
 
         my $done = undef;
-
-        my @root = split / /, $root;
-
-        push @root, ('') x (3 - @root) unless @root > 3;
 
         foreach my $toor (keys %root) {
 

@@ -9,18 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon properties"
 
 
- |> "d ' '" <| [
-
-    -- ;; dA}iy_1
-    -- dA}y    dA}iy   Nprop   Da'i
-
-    noun     FACI                      {- dA}iy -}          `gloss`  [ "Da'i" ],
-
-    -- ;; dA}iy_1
-    -- dA}y    dA}iy   Nprop   Da'i
-
-    noun     FACI                      {- dA}iy -}          `gloss`  [ "Da'i" ] ]
-
  |> "d ' b" <| [
 
     -- ;; da>ab-a_1
@@ -67,20 +55,20 @@ lexicon = listing "Lexicon properties"
     -- dA}r    dA}ir   Napdu   office;bureau;district
     -- dwA}r   dawA}ir Ndip    offices;bureaus;districts
 
-    noun     FACiL                     {- dA}irap -}        `others` [ "dawA'ir Ndip" ]
+    noun     FACiL |< aT               {- dA}irap -}        `others` [ "dawA'ir Ndip" ]
                                                             `gloss`  [ "office", "bureau", "district", "offices", "bureaus", "districts" ],
 
     -- ;; dA}irap_2
     -- dA}r    dA}ir   Napdu   circle;ring;scope;circuit
     -- dA}r    dA}ir   NAt     circles;rings;scopes;circuits
 
-    noun     FACiL                     {- dA}irap -}        `others` [ "dA'ir NAt" ]
+    noun     FACiL |< aT               {- dA}irap -}        `others` [ "dA'ir NAt" ]
                                                             `gloss`  [ "circle", "ring", "scope", "circuit", "circles", "rings", "scopes", "circuits" ],
 
     -- ;; dA}iriy~_1
     -- dA}ry   dA}iriy~        Nall    circular;ring-shaped     [[dA}iriy~/ADJ]]
 
-    noun     FACiL                     {- dA}iriy~ -}       `gloss`  [ "circular", "ring-shaped [ [ dA } iriy ~ / ADJ ] ]" ] ]
+    noun     FACiL |< Iy               {- dA}iriy~ -}       `gloss`  [ "circular", "ring-shaped [ [ dA } iriy ~ / ADJ ] ]" ] ]
 
  |> "d ' y" <| [
 
@@ -88,6 +76,26 @@ lexicon = listing "Lexicon properties"
     -- dAy     dAy     FW      Dae (in "Kim Dae Jong")     [[dAy/NOUN_PROP]]
 
     noun     FAL                       {- dAy -}            `gloss`  [ "Dae ( in `` Kim Dae Jong '' ) [ [ dAy / NOUN_PROP ] ]" ],
+
+    -- ;; dAy_2
+    -- dAy     dAy     N/At    dey
+
+    noun     FAL                       {- dAy -}            `gloss`  [ "dey" ],
+
+    -- ;; dawA}iy~_1
+    -- dwA}y   dawA}iy~        N-ap    medicinal;curative     [[dawA}iy~/ADJ]]
+
+    noun     FawACIL                   {- dawA}iy~ -}       `gloss`  [ "medicinal", "curative [ [ dawA } iy ~ / ADJ ] ]" ],
+
+    -- ;; dA}iy_1
+    -- dA}y    dA}iy   Nprop   Da'i
+
+    noun     FACI                      {- dA}iy -}          `gloss`  [ "Da'i" ],
+
+    -- ;; dA}iy_1
+    -- dA}y    dA}iy   Nprop   Da'i
+
+    noun     FACI                      {- dA}iy -}          `gloss`  [ "Da'i" ],
 
     -- ;; dA}iy_1
     -- dA}y    dA}iy   Nprop   Da'i
@@ -127,7 +135,7 @@ lexicon = listing "Lexicon properties"
     -- ;; dijolap_1
     -- djl     dijol   Nap     Tigris
 
-    noun     FiCL                      {- dijolap -}        `gloss`  [ "Tigris" ] ]
+    noun     FiCL |< aT                {- dijolap -}        `gloss`  [ "Tigris" ] ]
 
  |> "d ^g n" <| [
 
@@ -213,7 +221,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mudAxalap_1
     -- mdAxl   mudAxal NapAt   interference;participation
 
-    noun     MuFACaL                   {- mudAxalap -}      `gloss`  [ "interference", "participation" ],
+    noun     MuFACaL |< aT             {- mudAxalap -}      `gloss`  [ "interference", "participation" ],
 
     -- ;; <idoxAl_1
     -- <dxAl   <idoxAl NduAt   insertion;entering;inclusion
@@ -240,7 +248,7 @@ lexicon = listing "Lexicon properties"
     -- dAxly   dAxiliy~        Nall    internal;domestic     [[dAxiliy~/ADJ]]
     -- dAxly   dAxiliy~        Nap     interior;of state     [[dAxiliy~/NOUN]]
 
-    noun     FACiL                     {- dAxiliy~ -}       `gloss`  [ "internal", "domestic [ [ dAxiliy ~ / ADJ ] ]", "interior", "of state [ [ dAxiliy ~ / NOUN ] ]" ],
+    noun     FACiL |< Iy               {- dAxiliy~ -}       `gloss`  [ "internal", "domestic [ [ dAxiliy ~ / ADJ ] ]", "interior", "of state [ [ dAxiliy ~ / NOUN ] ]" ],
 
     -- ;; madoxuwl_1
     -- mdxwl   madoxuwl        Nall    revenue;income
@@ -290,12 +298,7 @@ lexicon = listing "Lexicon properties"
     -- AdEy    >adoEiy Nap     call;request;invocation
 
     noun     FuCAL                     {- duEA' -}          `others` [ "'ad`iy Nap" ]
-                                                            `gloss`  [ "call", "request", "invocation" ],
-
-    -- ;; diEA}iy~_1
-    -- dEA}y   diEA}iy~        Nall    propagandistic     [[diEA}iy~/ADJ]]
-
-    noun     FiCAL                     {- diEA}iy~ -}       `gloss`  [ "propagandistic [ [ diEA } iy ~ / ADJ ] ]" ] ]
+                                                            `gloss`  [ "call", "request", "invocation" ] ]
 
  |> "d ` b" <| [
 
@@ -309,19 +312,7 @@ lexicon = listing "Lexicon properties"
     -- ;; duEAbap_1
     -- dEAb    duEAb   NapAt   joking;jesting
 
-    noun     FuCAL                     {- duEAbap -}        `gloss`  [ "joking", "jesting" ] ]
-
- |> "d ` d" <| [
-
-    -- ;; mud~aEiy_1
-    -- mdEy    mud~aEiy        N0_Nh   plaintiff;prosecutor
-    -- mdE     mud~aE  NK      plaintiff;prosecutor
-    -- mdEy    mud~aEiy        NAn_Nayn        plaintiff;prosecutor
-    -- mdE     mud~aE  Nuwn_Niyn       plaintiff;prosecutor
-    -- mdEy    mud~aEiy        NapAt   plaintiff;prosecutor
-
-    noun     MuFtaCiN                  {- mud~aEiy -}       `others` [ "mudda` Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "plaintiff", "prosecutor" ] ]
+    noun     FuCAL |< aT               {- duEAbap -}        `gloss`  [ "joking", "jesting" ] ]
 
  |> "d ` m" <| [
 
@@ -348,14 +339,14 @@ lexicon = listing "Lexicon properties"
     -- dEm     diEom   Nap     support;prop
     -- dEm     diEam   N       support;prop
 
-    noun     FiCL                      {- diEomap -}        `others` [ "di`am N" ]
+    noun     FiCL |< aT                {- diEomap -}        `others` [ "di`am N" ]
                                                             `gloss`  [ "support", "prop" ],
 
     -- ;; diEAmap_1
     -- dEAm    diEAm   NapAt   support;prop;pillar
     -- dEA}m   daEA}im Ndip    support;props;pillars
 
-    noun     FiCAL                     {- diEAmap -}        `others` [ "da`A'im Ndip" ]
+    noun     FiCAL |< aT               {- diEAmap -}        `others` [ "da`A'im Ndip" ]
                                                             `gloss`  [ "support", "prop", "pillar", "props", "pillars" ],
 
     -- ;; dAEim_1
@@ -379,7 +370,7 @@ lexicon = listing "Lexicon properties"
     -- dEAr    daEAr   Nap     indecency;immorality
     -- dEAr    diEAr   Nap     indecency;immorality
 
-    noun     FaCAL                     {- daEArap -}        `others` [ "di`Ar Nap" ]
+    noun     FaCAL |< aT               {- daEArap -}        `others` [ "di`Ar Nap" ]
                                                             `gloss`  [ "indecency", "immorality" ] ]
 
  |> "d ` w" <| [
@@ -427,13 +418,13 @@ lexicon = listing "Lexicon properties"
     -- dEw     daEow   Napdu   call;invitation;supplication
     -- dEw     daEaw   NAt     calls;invitations;supplications
 
-    noun     FaCL                      {- daEowap -}        `others` [ "da`aw NAt" ]
+    noun     FaCL |< aT                {- daEowap -}        `others` [ "da`aw NAt" ]
                                                             `gloss`  [ "call", "invitation", "supplication", "calls", "invitations", "supplications" ],
 
     -- ;; daEowap_2
     -- dEw     daEow   Nap     (Islamic) missionary work;Da'wah;propaganda
 
-    noun     FaCL                      {- daEowap -}        `gloss`  [ "( Islamic ) missionary work", "Da'wah", "propaganda" ],
+    noun     FaCL |< aT                {- daEowap -}        `gloss`  [ "( Islamic ) missionary work", "Da'wah", "propaganda" ],
 
     -- ;; daEowaY_1
     -- dEwY    daEowaY N0      lawsuit;allegation;legal action
@@ -454,10 +445,10 @@ lexicon = listing "Lexicon properties"
     noun     FuCA'                     {- duEA' -}          `others` [ "'ad`iy Nap" ]
                                                             `gloss`  [ "call", "request", "invocation" ],
 
-    -- ;; diEA}iy~_1
-    -- dEA}y   diEA}iy~        Nall    propagandistic     [[diEA}iy~/ADJ]]
+    -- ;; madoEAp_1
+    -- mdEA    madoEA  Nap     reason;motive
 
-    noun     FiCA'                     {- diEA}iy~ -}       `gloss`  [ "propagandistic [ [ diEA } iy ~ / ADJ ] ]" ],
+    noun     MaFCaNY |< aT             {- madoEAp -}        `gloss`  [ "reason", "motive" ],
 
     -- ;; tadAEiy_1
     -- tdAEy   tadAEiy N0_Nh   association;mutual summoning
@@ -511,25 +502,47 @@ lexicon = listing "Lexicon properties"
     -- ;; dAEiyap_1
     -- dAEy    dAEiy   Napdu   propagandist;missionary;motive
 
-    noun     FACI                      {- dAEiyap -}        `gloss`  [ "propagandist", "missionary", "motive" ],
+    noun     FACI |< aT                {- dAEiyap -}        `gloss`  [ "propagandist", "missionary", "motive" ],
 
     -- ;; dAEiyap_1
     -- dAEy    dAEiy   Napdu   propagandist;missionary;motive
 
-    noun     FACI                      {- dAEiyap -}        `gloss`  [ "propagandist", "missionary", "motive" ],
+    noun     FACI |< aT                {- dAEiyap -}        `gloss`  [ "propagandist", "missionary", "motive" ],
 
     -- ;; madoEuw~_1
     -- mdEw    madoEuw~        Nall    invited;called     [[madoEuw~/ADJ]]
     -- mdEw    madoEuw~        Nall    named;called     [[madoEuw~/ADJ]]
 
-    noun     MaFCUL                    {- madoEuw~ -}       `gloss`  [ "invited", "called [ [ madoEuw ~ / ADJ ] ]", "named" ] ]
+    noun     MaFCUL                    {- madoEuw~ -}       `gloss`  [ "invited", "called [ [ madoEuw ~ / ADJ ] ]", "named" ],
+
+    -- ;; mud~aEiy_1
+    -- mdEy    mud~aEiy        N0_Nh   plaintiff;prosecutor
+    -- mdE     mud~aE  NK      plaintiff;prosecutor
+    -- mdEy    mud~aEiy        NAn_Nayn        plaintiff;prosecutor
+    -- mdE     mud~aE  Nuwn_Niyn       plaintiff;prosecutor
+    -- mdEy    mud~aEiy        NapAt   plaintiff;prosecutor
+
+    noun     MuFtaCiN                  {- mud~aEiy -}       `others` [ "mudda` Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "plaintiff", "prosecutor" ] ]
 
  |> "d ` y" <| [
+
+    -- ;; daEiy~_1
+    -- dEy     daEiy~  Ndu     bastard;braggart;impostor
+    -- >dEyA'  >adoEiyA'       N0_Nh   bastards;braggarts;impostors
+    -- AdEyA'  >adoEiyA'       N0_Nh   bastards;braggarts;impostors
+    -- >dEyA&  >adoEiyA&       Nh      bastards;braggarts;impostors
+    -- AdEyA&  >adoEiyA&       Nh      bastards;braggarts;impostors
+    -- >dEyA}  >adoEiyA}       Nhy     bastards;braggarts;impostors
+    -- AdEyA}  >adoEiyA}       Nhy     bastards;braggarts;impostors
+
+    noun     FaCIL                     {- daEiy~ -}         `others` [ "'ad`iyA' Nh Nhy N0_Nh" ]
+                                                            `gloss`  [ "bastard", "braggart", "impostor", "bastards", "braggarts", "impostors" ],
 
     -- ;; diEAyap_1
     -- dEAy    diEAy   NapAt   propaganda;advertising
 
-    noun     FiCAL                     {- diEAyap -}        `gloss`  [ "propaganda", "advertising" ],
+    noun     FiCAL |< aT               {- diEAyap -}        `gloss`  [ "propaganda", "advertising" ],
 
     -- ;; dAEiy_1
     -- dAEy    dAEiy   N0F     cause;reason
@@ -554,7 +567,7 @@ lexicon = listing "Lexicon properties"
     -- ;; dAEiyap_1
     -- dAEy    dAEiy   Napdu   propagandist;missionary;motive
 
-    noun     FACiL                     {- dAEiyap -}        `gloss`  [ "propagandist", "missionary", "motive" ],
+    noun     FACiL |< aT               {- dAEiyap -}        `gloss`  [ "propagandist", "missionary", "motive" ],
 
     -- ;; mud~aEiy_1
     -- mdEy    mud~aEiy        N0_Nh   plaintiff;prosecutor
@@ -582,7 +595,7 @@ lexicon = listing "Lexicon properties"
     -- dbAb    dab~Ab  Napdu   tank
     -- dbAb    dab~Ab  NAt     tanks
 
-    noun     FaCCAL                    {- dab~Abap -}       `others` [ "dabbAb NAt" ]
+    noun     FaCCAL |< aT              {- dab~Abap -}       `others` [ "dabbAb NAt" ]
                                                             `gloss`  [ "tank", "tanks" ] ]
 
  |> "d b k" <| [
@@ -590,7 +603,7 @@ lexicon = listing "Lexicon properties"
     -- ;; dabokap_1
     -- dbk     dabok   Nap     dabka (dance)
 
-    noun     FaCL                      {- dabokap -}        `gloss`  [ "dabka ( dance )" ] ]
+    noun     FaCL |< aT                {- dabokap -}        `gloss`  [ "dabka ( dance )" ] ]
 
  |> "d b r" <| [
 
@@ -617,29 +630,10 @@ lexicon = listing "Lexicon properties"
 
  |> "d b y" <| [
 
-    -- ;; dAy_2
-    -- dAy     dAy     N/At    dey
-
-    noun     FAL                       {- dAy -}            `gloss`  [ "dey" ],
-
     -- ;; dubay~_1
     -- dby     dubay~  Nprop   Dubai
 
     noun     FuCayL                    {- dubay~ -}         `gloss`  [ "Dubai" ] ]
-
- |> "d d `" <| [
-
-    -- ;; daEiy~_1
-    -- dEy     daEiy~  Ndu     bastard;braggart;impostor
-    -- >dEyA'  >adoEiyA'       N0_Nh   bastards;braggarts;impostors
-    -- AdEyA'  >adoEiyA'       N0_Nh   bastards;braggarts;impostors
-    -- >dEyA&  >adoEiyA&       Nh      bastards;braggarts;impostors
-    -- AdEyA&  >adoEiyA&       Nh      bastards;braggarts;impostors
-    -- >dEyA}  >adoEiyA}       Nhy     bastards;braggarts;impostors
-    -- AdEyA}  >adoEiyA}       Nhy     bastards;braggarts;impostors
-
-    noun     CaL                       {- daEiy~ -}         `others` [ "'ad`iyA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "bastard", "braggart", "impostor", "bastards", "braggarts", "impostors" ] ]
 
  |> "d d m" <| [
 
@@ -657,12 +651,7 @@ lexicon = listing "Lexicon properties"
     -- ;; duw_1
     -- dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]
 
-    noun     CuL                       {- duw -}            `gloss`  [ "Du", "Do [ [ duw / NOUN_PROP ] ]" ],
-
-    -- ;; dawiy~_1
-    -- dwy     dawiy~  N       sound;drone;echo
-
-    noun     CaL                       {- dawiy~ -}         `gloss`  [ "sound", "drone", "echo" ] ]
+    noun     CuL                       {- duw -}            `gloss`  [ "Du", "Do [ [ duw / NOUN_PROP ] ]" ] ]
 
  |> "d f '" <| [
 
@@ -705,30 +694,30 @@ lexicon = listing "Lexicon properties"
     -- dfE     dafoE   Napdu   push;impulse
     -- dfE     dafaE   NAt     pushes;impulses
 
-    noun     FaCL                      {- dafoEap -}        `others` [ "dafa` NAt" ]
+    noun     FaCL |< aT                {- dafoEap -}        `others` [ "dafa` NAt" ]
                                                             `gloss`  [ "push", "impulse", "pushes", "impulses" ],
 
     -- ;; dafoEap_2
     -- dfE     dafoE   Napdu   payment
     -- dfE     dafaE   NAt     payments
 
-    noun     FaCL                      {- dafoEap -}        `others` [ "dafa` NAt" ]
+    noun     FaCL |< aT                {- dafoEap -}        `others` [ "dafa` NAt" ]
                                                             `gloss`  [ "payment", "payments" ],
 
     -- ;; dufoEap_1
     -- dfE     dufoE   NapAt   time;instance
 
-    noun     FuCL                      {- dufoEap -}        `gloss`  [ "time", "instance" ],
+    noun     FuCL |< aT                {- dufoEap -}        `gloss`  [ "time", "instance" ],
 
     -- ;; dufoEap_2
     -- dfE     dufoE   NapAt   batch;spurt
 
-    noun     FuCL                      {- dufoEap -}        `gloss`  [ "batch", "spurt" ],
+    noun     FuCL |< aT                {- dufoEap -}        `gloss`  [ "batch", "spurt" ],
 
     -- ;; dufoEap_3
     -- dfE     dufoE   NapAt   class (alumni);group (graduates)
 
-    noun     FuCL                      {- dufoEap -}        `gloss`  [ "class ( alumni )", "group ( graduates )" ],
+    noun     FuCL |< aT                {- dufoEap -}        `gloss`  [ "class ( alumni )", "group ( graduates )" ],
 
     -- ;; daf~AE_1
     -- dfAE    daf~AE  N/ap    propelling
@@ -746,12 +735,12 @@ lexicon = listing "Lexicon properties"
     -- ;; midofaEiy~_1
     -- mdfEy   midofaEiy~      N-ap    artillery;cannon     [[midofaEiy~/ADJ]]
 
-    noun     MiFCaL                    {- midofaEiy~ -}     `gloss`  [ "artillery", "cannon [ [ midofaEiy ~ / ADJ ] ]" ],
+    noun     MiFCaL |< Iy              {- midofaEiy~ -}     `gloss`  [ "artillery", "cannon [ [ midofaEiy ~ / ADJ ] ]" ],
 
     -- ;; midofaEiy~ap_1
     -- mdfEy   midofaEiy~      Nap     artillery     [[midofaEiy~/NOUN]]
 
-    noun     MiFCaL                    {- midofaEiy~ap -}   `gloss`  [ "artillery [ [ midofaEiy ~ / NOUN ] ]" ],
+    noun     MiFCaL |< Iy |< aT        {- midofaEiy~ap -}   `gloss`  [ "artillery [ [ midofaEiy ~ / NOUN ] ]" ],
 
     -- ;; difAE_1
     -- dfAE    difAE   N       defense
@@ -761,7 +750,7 @@ lexicon = listing "Lexicon properties"
     -- ;; difAEiy~_1
     -- dfAEy   difAEiy~        Nall    defensive;protective     [[difAEiy~/ADJ]]
 
-    noun     FiCAL                     {- difAEiy~ -}       `gloss`  [ "defensive", "protective [ [ difAEiy ~ / ADJ ] ]" ],
+    noun     FiCAL |< Iy               {- difAEiy~ -}       `gloss`  [ "defensive", "protective [ [ difAEiy ~ / ADJ ] ]" ],
 
     -- ;; dAfiE_1
     -- dAfE    dAfiE   Ndu     incentive;motive
@@ -797,12 +786,12 @@ lexicon = listing "Lexicon properties"
     -- ;; daf~ap_1
     -- df      daf~    Napdu   side;leaf
 
-    noun     FaCL                      {- daf~ap -}         `gloss`  [ "side", "leaf" ],
+    noun     FaCL |< aT                {- daf~ap -}         `gloss`  [ "side", "leaf" ],
 
     -- ;; daf~ap_3
     -- df      daf~    Napdu   cover
 
-    noun     FaCL                      {- daf~ap -}         `gloss`  [ "cover" ] ]
+    noun     FaCL |< aT                {- daf~ap -}         `gloss`  [ "cover" ] ]
 
  |> "d f n" <| [
 
@@ -882,7 +871,7 @@ lexicon = listing "Lexicon properties"
     -- ;; daho$ap_1
     -- dh$     daho$   Nap     surprise;alarm
 
-    noun     FaCL                      {- daho$ap -}        `gloss`  [ "surprise", "alarm" ],
+    noun     FaCL |< aT                {- daho$ap -}        `gloss`  [ "surprise", "alarm" ],
 
     -- ;; mudohi$_1
     -- mdh$    mudohi$ Nall    surprising;alarming     [[mudohi$/ADJ]]
@@ -910,7 +899,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mudAhamap_1
     -- mdAhm   mudAham NapAt   raid;storming;search
 
-    noun     MuFACaL                   {- mudAhamap -}      `gloss`  [ "raid", "storming", "search" ] ]
+    noun     MuFACaL |< aT             {- mudAhamap -}      `gloss`  [ "raid", "storming", "search" ] ]
 
  |> "d h n" <| [
 
@@ -986,24 +975,6 @@ lexicon = listing "Lexicon properties"
 
     noun     KuRDUS                    {- dukotuwr -}       `others` [ "dakAtir Nap" ]
                                                             `gloss`  [ "doctor", "doctors" ] ]
-
- |> "d l " <| [
-
-    -- ;; <idolA'_1
-    -- <dlA'   <idolA' N0_Nh   delivery;presentation;granting
-    -- AdlA'   <idolA' N0_Nh   delivery;presentation;granting
-    -- <dlA&   <idolA& Nh      delivery;presentation;granting
-    -- AdlA&   <idolA& Nh      delivery;presentation;granting
-    -- <dlA}   <idolA} Nhy     delivery;presentation;granting
-    -- AdlA}   <idolA} Nhy     delivery;presentation;granting
-    -- <dlA'   <idolA' NAn_Nayn        delivery;presentation;granting
-    -- AdlA'   <idolA' NAn_Nayn        delivery;presentation;granting
-    -- <dlA}   <idolA} Nayn    delivery;presentation;granting
-    -- AdlA}   <idolA} Nayn    delivery;presentation;granting
-    -- <dlA'   <idolA' NAt     delivery;presentation;granting
-    -- AdlA'   <idolA' NAt     delivery;presentation;granting
-
-    noun     HiFCA'                    {- IidolA' -}        `gloss`  [ "delivery", "presentation", "granting" ] ]
 
  |> "d l '" <| [
 
@@ -1097,7 +1068,7 @@ lexicon = listing "Lexicon properties"
     -- ;; dalAlap_1
     -- dlAl    dalAl   NapAt   meaning;indication
 
-    noun     FaCAL                     {- dalAlap -}        `gloss`  [ "meaning", "indication" ],
+    noun     FaCAL |< aT               {- dalAlap -}        `gloss`  [ "meaning", "indication" ],
 
     -- ;; mudal~al_1
     -- mdll    mudal~al        Nall    pampered;spoiled     [[mudal~al/ADJ]]
@@ -1123,13 +1094,6 @@ lexicon = listing "Lexicon properties"
     -- dwlAn   duwlAn  Nprop   Dolan
 
     noun     FUCAL                     {- duwlAn -}         `gloss`  [ "Dolan" ] ]
-
- |> "d l r" <| [
-
-    -- ;; duwlAriy~_1
-    -- dwlAry  duwlAriy~       Nall    dollar;dollar-based     [[duwlAriy~/ADJ]]
-
-    noun     FUCAL                     {- duwlAriy~ -}      `gloss`  [ "dollar", "dollar-based [ [ duwlAriy ~ / ADJ ] ]" ] ]
 
  |> "d l w" <| [
 
@@ -1168,7 +1132,23 @@ lexicon = listing "Lexicon properties"
     -- dly     dolay   IV_Ann_Pass_yu  be provided;be presented;be granted
 
     verb     HaFCY                     {- OadolaY -}        `others` [ "dlY IV_0_Pass_yu", "'adlay PV_Atn", "'adl PV_ttAw", "dliy IV_0hAnn_yu", "'adlA PV_h", "dl IV_0hwnyn_yu", "dlay IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "provide", "present", "grant", "be provided", "be presented", "be granted" ] ]
+                                                            `gloss`  [ "provide", "present", "grant", "be provided", "be presented", "be granted" ],
+
+    -- ;; <idolA'_1
+    -- <dlA'   <idolA' N0_Nh   delivery;presentation;granting
+    -- AdlA'   <idolA' N0_Nh   delivery;presentation;granting
+    -- <dlA&   <idolA& Nh      delivery;presentation;granting
+    -- AdlA&   <idolA& Nh      delivery;presentation;granting
+    -- <dlA}   <idolA} Nhy     delivery;presentation;granting
+    -- AdlA}   <idolA} Nhy     delivery;presentation;granting
+    -- <dlA'   <idolA' NAn_Nayn        delivery;presentation;granting
+    -- AdlA'   <idolA' NAn_Nayn        delivery;presentation;granting
+    -- <dlA}   <idolA} Nayn    delivery;presentation;granting
+    -- AdlA}   <idolA} Nayn    delivery;presentation;granting
+    -- <dlA'   <idolA' NAt     delivery;presentation;granting
+    -- AdlA'   <idolA' NAt     delivery;presentation;granting
+
+    noun     HiFCA'                    {- IidolA' -}        `gloss`  [ "delivery", "presentation", "granting" ] ]
 
  |> "d m .g" <| [
 
@@ -1268,13 +1248,6 @@ lexicon = listing "Lexicon properties"
 
     noun     MuFaCCaL                  {- mudam~ar -}       `gloss`  [ "destroyed [ [ mudam ~ ar / ADJ ] ]" ] ]
 
- |> "d m w" <| [
-
-    -- ;; damawiy~_1
-    -- dmwy    damawiy~        Nall    bloody;blood     [[damawiy~/ADJ]]
-
-    noun     FaCaL                     {- damawiy~ -}       `gloss`  [ "bloody", "blood [ [ damawiy ~ / ADJ ] ]" ] ]
-
  |> "d m y" <| [
 
     -- ;; >adomaY_1
@@ -1293,6 +1266,16 @@ lexicon = listing "Lexicon properties"
 
     verb     HaFCY                     {- OadomaY -}        `others` [ "dm IV_0hwnyn_yu", "dmiy IV_0hAnn_yu", "'admay PV_Atn", "dmY IV_0_Pass_yu", "'adm PV_ttAw", "dmay IV_Ann_Pass_yu", "'admA PV_h" ]
                                                             `gloss`  [ "make bleed", "be bled" ],
+
+    -- ;; damawiy~_1
+    -- dmwy    damawiy~        Nall    bloody;blood     [[damawiy~/ADJ]]
+
+    noun     FaCaNY |< Iy              {- damawiy~ -}       `gloss`  [ "bloody", "blood [ [ damawiy ~ / ADJ ] ]" ],
+
+    -- ;; damawiy~_1
+    -- dmwy    damawiy~        Nall    bloody;blood     [[damawiy~/ADJ]]
+
+    noun     FaCaNY |< Iy              {- damawiy~ -}       `gloss`  [ "bloody", "blood [ [ damawiy ~ / ADJ ] ]" ],
 
     -- ;; dAmiy_1
     -- dAmy    dAmiy   N0F     bloody
@@ -1335,13 +1318,6 @@ lexicon = listing "Lexicon properties"
     -- dnkAn   danokAn Nprop   Duncan
 
     noun     FaCLAn                    {- danokAn -}        `gloss`  [ "Duncan" ] ]
-
- |> "d n k n" <| [
-
-    -- ;; danokAn_1
-    -- dnkAn   danokAn Nprop   Duncan
-
-    noun     KaRDAS                    {- danokAn -}        `gloss`  [ "Duncan" ] ]
 
  |> "d n r" <| [
 
@@ -1424,9 +1400,7 @@ lexicon = listing "Lexicon properties"
     -- dAny    dAniy   NapAt   low;near;close
 
     noun     TaFaCCiN                  {- tadan~iy -}       `others` [ "dAniy NapAt NAn_Nayn N0F", "dAn Nuwn_Niyn NK", "tadann NK" ]
-                                                            `gloss`  [ "decline", "sinking", "low", "near", "close" ] ]
-
- |> "d n y" <| [
+                                                            `gloss`  [ "decline", "sinking", "low", "near", "close" ],
 
     -- ;; mutadan~iy_1
     -- mtdny   mutadan~iy      N0F_Nh  approaching;debased ??
@@ -1436,7 +1410,9 @@ lexicon = listing "Lexicon properties"
     -- mtdny   mutadan~iy      NapAt   approaching;debased ??
 
     noun     MutaFaCCiN                {- mutadan~iy -}     `others` [ "mutadann Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "approaching", "debased ? ?" ],
+                                                            `gloss`  [ "approaching", "debased ? ?" ] ]
+
+ |> "d n y" <| [
 
     -- ;; mutadan~iy_1
     -- mtdny   mutadan~iy      N0F_Nh  approaching;debased ??
@@ -1483,7 +1459,7 @@ lexicon = listing "Lexicon properties"
     -- ;; diq~ap_1
     -- dq      diq~    Nap     minuteness;accuracy;precision
 
-    noun     FiCL                      {- diq~ap -}         `gloss`  [ "minuteness", "accuracy", "precision" ],
+    noun     FiCL |< aT                {- diq~ap -}         `gloss`  [ "minuteness", "accuracy", "precision" ],
 
     -- ;; daqiyq_1
     -- dqyq    daqiyq  N/ap    precise;minute;delicate     [[daqiyq/ADJ]]
@@ -1503,7 +1479,7 @@ lexicon = listing "Lexicon properties"
     -- dqyq    daqiyq  Napdu   minute
     -- dqA}q   daqA}iq Ndip    minutes
 
-    noun     FaCIL                     {- daqiyqap -}       `others` [ "daqA'iq Ndip" ]
+    noun     FaCIL |< aT               {- daqiyqap -}       `others` [ "daqA'iq Ndip" ]
                                                             `gloss`  [ "minute", "minutes" ],
 
     -- ;; >adaq~_2
@@ -1562,13 +1538,13 @@ lexicon = listing "Lexicon properties"
     -- drj     daraj   Napdu   degree;class;rank;grade;level
     -- drj     daraj   NAt     degrees;classes;ranks;grades;levels
 
-    noun     FaCaL                     {- darajap -}        `others` [ "dara^g NAt" ]
+    noun     FaCaL |< aT               {- darajap -}        `others` [ "dara^g NAt" ]
                                                             `gloss`  [ "degree", "class", "rank", "grade", "level", "degrees", "classes", "ranks", "grades", "levels" ],
 
     -- ;; dar~Ajap_1
     -- drAj    dar~Aj  NapAt   bicycle
 
-    noun     FaCCAL                    {- dar~Ajap -}       `gloss`  [ "bicycle" ],
+    noun     FaCCAL |< aT              {- dar~Ajap -}       `gloss`  [ "bicycle" ],
 
     -- ;; tadoriyj_1
     -- tdryj   tadoriyj        NduAt   gradation;classification;categorization
@@ -1579,7 +1555,7 @@ lexicon = listing "Lexicon properties"
     -- tdryjy  tadoriyjiy~     Nall    gradual;progressive     [[tadoriyjiy~/ADJ]]
     -- tdryjy  tadoriyjiy~     NF      gradually;in stages;step by step     [[tadoriyjiy~/ADV]]
 
-    noun     TaFCIL                    {- tadoriyjiy~ -}    `gloss`  [ "gradual", "progressive [ [ tadoriyjiy ~ / ADJ ] ]", "gradually", "in stages", "step by step [ [ tadoriyjiy ~ / ADV ] ]" ],
+    noun     TaFCIL |< Iy              {- tadoriyjiy~ -}    `gloss`  [ "gradual", "progressive [ [ tadoriyjiy ~ / ADJ ] ]", "gradually", "in stages", "step by step [ [ tadoriyjiy ~ / ADV ] ]" ],
 
     -- ;; <idorAj_1
     -- <drAj   <idorAj NduAt   insertion;registration;recording
@@ -1619,7 +1595,7 @@ lexicon = listing "Lexicon properties"
     -- mdrE    mudar~aE        Napdu   armored vehicle
     -- mdrE    mudar~aE        NapAt   armored vehicles
 
-    noun     MuFaCCaL                  {- mudar~aEap -}     `gloss`  [ "armored vehicle", "armored vehicles" ] ]
+    noun     MuFaCCaL |< aT            {- mudar~aEap -}     `gloss`  [ "armored vehicle", "armored vehicles" ] ]
 
  |> "d r b" <| [
 
@@ -1652,7 +1628,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tadoriybiy~_1
     -- tdryby  tadoriybiy~     Nall    training;coaching;practice     [[tadoriybiy~/ADJ]]
 
-    noun     TaFCIL                    {- tadoriybiy~ -}    `gloss`  [ "training", "coaching", "practice [ [ tadoriybiy ~ / ADJ ] ]" ],
+    noun     TaFCIL |< Iy              {- tadoriybiy~ -}    `gloss`  [ "training", "coaching", "practice [ [ tadoriybiy ~ / ADJ ] ]" ],
 
     -- ;; mudar~ib_1
     -- mdrb    mudar~ib        Nall    trainer;coach;instructor
@@ -1674,7 +1650,7 @@ lexicon = listing "Lexicon properties"
     -- ;; daroda$ap_1
     -- drd$    daroda$ NapAt   chat;conversation
 
-    noun     KaRDaS                    {- daroda$ap -}      `gloss`  [ "chat", "conversation" ] ]
+    noun     KaRDaS |< aT              {- daroda$ap -}      `gloss`  [ "chat", "conversation" ] ]
 
  |> "d r k" <| [
 
@@ -1718,7 +1694,7 @@ lexicon = listing "Lexicon properties"
     -- ;; dirAmiy~_1
     -- drAmy   dirAmiy~        Nall    dramatic;theatrical     [[dirAmiy~/ADJ]]
 
-    noun     FiCAL                     {- dirAmiy~ -}       `gloss`  [ "dramatic", "theatrical [ [ dirAmiy ~ / ADJ ] ]" ] ]
+    noun     FiCAL |< Iy               {- dirAmiy~ -}       `gloss`  [ "dramatic", "theatrical [ [ dirAmiy ~ / ADJ ] ]" ] ]
 
  |> "d r r" <| [
 
@@ -1781,13 +1757,13 @@ lexicon = listing "Lexicon properties"
     -- drAs    dirAs   Napdu   study
     -- drAs    dirAs   NAt     studies;research
 
-    noun     FiCAL                     {- dirAsap -}        `others` [ "dirAs NAt" ]
+    noun     FiCAL |< aT               {- dirAsap -}        `others` [ "dirAs NAt" ]
                                                             `gloss`  [ "study", "studies", "research" ],
 
     -- ;; dirAsiy~_1
     -- drAsy   dirAsiy~        Nall    educational;scholastic;instructional     [[dirAsiy~/ADJ]]
 
-    noun     FiCAL                     {- dirAsiy~ -}       `gloss`  [ "educational", "scholastic", "instructional [ [ dirAsiy ~ / ADJ ] ]" ],
+    noun     FiCAL |< Iy               {- dirAsiy~ -}       `gloss`  [ "educational", "scholastic", "instructional [ [ dirAsiy ~ / ADJ ] ]" ],
 
     -- ;; dar~As_1
     -- drAs    dar~As  Nall    studious;eager student     [[dar~As/ADJ]]
@@ -1798,13 +1774,13 @@ lexicon = listing "Lexicon properties"
     -- mdrs    madoras Napdu   school
     -- mdArs   madAris Ndip    schools
 
-    noun     MaFCaL                    {- madorasap -}      `others` [ "madAris Ndip" ]
+    noun     MaFCaL |< aT              {- madorasap -}      `others` [ "madAris Ndip" ]
                                                             `gloss`  [ "school", "schools" ],
 
     -- ;; madorasiy~_1
     -- mdrsy   madorasiy~      Nall    scholastic;school     [[madorasiy~/ADJ]]
 
-    noun     MaFCaL                    {- madorasiy~ -}     `gloss`  [ "scholastic", "school [ [ madorasiy ~ / ADJ ] ]" ],
+    noun     MaFCaL |< Iy              {- madorasiy~ -}     `gloss`  [ "scholastic", "school [ [ madorasiy ~ / ADJ ] ]" ],
 
     -- ;; tadoriys_1
     -- tdrys   tadoriys        NduAt   teaching;instruction;faculty
@@ -1881,7 +1857,7 @@ lexicon = listing "Lexicon properties"
     -- ;; dirAyap_1
     -- drAy    dirAy   Nap     knowledge;knowing
 
-    noun     FiCAL                     {- dirAyap -}        `gloss`  [ "knowledge", "knowing" ] ]
+    noun     FiCAL |< aT               {- dirAyap -}        `gloss`  [ "knowledge", "knowing" ] ]
 
  |> "d r z" <| [
 
@@ -1889,7 +1865,7 @@ lexicon = listing "Lexicon properties"
     -- drzy    duroziy~        N/ap    Druze;Druse     [[duroziy~/ADJ]]
     -- drwz    duruwz  N       Druzes;Druses
 
-    noun     FuCL                      {- duroziy~ -}       `others` [ "duruwz N" ]
+    noun     FuCL |< Iy                {- duroziy~ -}       `others` [ "duruwz N" ]
                                                             `gloss`  [ "Druze", "Druse [ [ duroziy ~ / ADJ ] ]", "Druzes", "Druses" ] ]
 
  |> "d s s" <| [
@@ -1916,7 +1892,7 @@ lexicon = listing "Lexicon properties"
     -- ;; dusotuwriy~_1
     -- dstwry  dusotuwriy~     Nall    constitutional     [[dusotuwriy~/ADJ]]
 
-    noun     KuRDUS                    {- dusotuwriy~ -}    `gloss`  [ "constitutional [ [ dusotuwriy ~ / ADJ ] ]" ] ]
+    noun     KuRDUS |< Iy              {- dusotuwriy~ -}    `gloss`  [ "constitutional [ [ dusotuwriy ~ / ADJ ] ]" ] ]
 
  |> "d w '" <| [
 
@@ -1942,11 +1918,6 @@ lexicon = listing "Lexicon properties"
     noun     FaCAL                     {- dawA' -}          `others` [ "'adwiy Nap" ]
                                                             `gloss`  [ "remedy", "medication", "remedies", "medications" ],
 
-    -- ;; dawA}iy~_1
-    -- dwA}y   dawA}iy~        N-ap    medicinal;curative     [[dawA}iy~/ADJ]]
-
-    noun     FaCAL                     {- dawA}iy~ -}       `gloss`  [ "medicinal", "curative [ [ dawA } iy ~ / ADJ ] ]" ],
-
     -- ;; diwA'_1
     -- dwA'    diwA'   N0_Nh   therapy;treatment
     -- dwA&    diwA&   Nh      therapy;treatment
@@ -1954,12 +1925,19 @@ lexicon = listing "Lexicon properties"
 
     noun     FiCAL                     {- diwA' -}          `gloss`  [ "therapy", "treatment" ] ]
 
+ |> "d w ' y" <| [
+
+    -- ;; dawA}iy~_1
+    -- dwA}y   dawA}iy~        N-ap    medicinal;curative     [[dawA}iy~/ADJ]]
+
+    noun     KaRADIS                   {- dawA}iy~ -}       `gloss`  [ "medicinal", "curative [ [ dawA } iy ~ / ADJ ] ]" ] ]
+
  |> "d w .h" <| [
 
     -- ;; dawoHap_1
     -- dwH     dawoH   Nap     Doha
 
-    noun     FaCL                      {- dawoHap -}        `gloss`  [ "Doha" ] ]
+    noun     FaCL |< aT                {- dawoHap -}        `gloss`  [ "Doha" ] ]
 
  |> "d w ^s n" <| [
 
@@ -1978,11 +1956,6 @@ lexicon = listing "Lexicon properties"
     -- ;; duwk_2
     -- dwk     duwk    Nprop   Duke
 
-    noun     FUL                       {- duwk -}           `gloss`  [ "Duke" ],
-
-    -- ;; duwk_2
-    -- dwk     duwk    Nprop   Duke
-
     noun     FuCL                      {- duwk -}           `gloss`  [ "Duke" ] ]
 
  |> "d w l" <| [
@@ -1997,21 +1970,21 @@ lexicon = listing "Lexicon properties"
     -- dwl     dawol   Napdu   state;country
     -- dwl     duwal   N       states;countries
 
-    noun     FaCL                      {- dawolap -}        `others` [ "duwal N" ]
+    noun     FaCL |< aT                {- dawolap -}        `others` [ "duwal N" ]
                                                             `gloss`  [ "state", "country", "states", "countries" ],
 
     -- ;; dawoliy~_1
     -- dwly    dawoliy~        Nall    international;state     [[dawoliy~/ADJ]]
     -- dwly    duwaliy~        Nall    international;world     [[duwaliy~/ADJ]]
 
-    noun     FaCL                      {- dawoliy~ -}       `others` [ "duwaliyy Nall" ]
+    noun     FaCL |< Iy                {- dawoliy~ -}       `others` [ "duwaliyy Nall" ]
                                                             `gloss`  [ "international", "state [ [ dawoliy ~ / ADJ ] ]", "world [ [ duwaliy ~ / ADJ ] ]" ],
 
     -- ;; mudAwalap_1
     -- mdAwl   mudAwal NapAt   negotiation;deliberation
     -- mdAwlp  mudAwalapF      FW-Wa   alternately;one after the other    [[mudAwalapF/ADV]]
 
-    noun     MuFACaL                   {- mudAwalap -}      `others` [ "mudAwalaTaN FW-Wa" ]
+    noun     MuFACaL |< aT             {- mudAwalap -}      `others` [ "mudAwalaTaN FW-Wa" ]
                                                             `gloss`  [ "negotiation", "deliberation", "alternately", "one after the other [ [ mudAwalapF / ADV ] ]" ],
 
     -- ;; tadAwul_1
@@ -2022,7 +1995,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tadAwuliy~_1
     -- tdAwly  tadAwuliy~      N-ap    circulation     [[tadAwuliy~/ADJ]]
 
-    noun     TaFACuL                   {- tadAwuliy~ -}     `gloss`  [ "circulation [ [ tadAwuliy ~ / ADJ ] ]" ],
+    noun     TaFACuL |< Iy             {- tadAwuliy~ -}     `gloss`  [ "circulation [ [ tadAwuliy ~ / ADJ ] ]" ],
 
     -- ;; mutadAwal_1
     -- mtdAwl  mutadAwal       Nall    circulating;common;prevailing
@@ -2050,7 +2023,7 @@ lexicon = listing "Lexicon properties"
     -- ;; dawolarap_1
     -- dwlr    dawolar Nap     dollarization
 
-    noun     KaRDaS                    {- dawolarap -}      `gloss`  [ "dollarization" ],
+    noun     KaRDaS |< aT              {- dawolarap -}      `gloss`  [ "dollarization" ],
 
     -- ;; duwlAr_1
     -- dwlAr   duwlAr  NduAt   dollar
@@ -2060,7 +2033,7 @@ lexicon = listing "Lexicon properties"
     -- ;; duwlAriy~_1
     -- dwlAry  duwlAriy~       Nall    dollar;dollar-based     [[duwlAriy~/ADJ]]
 
-    noun     KuRDAS                    {- duwlAriy~ -}      `gloss`  [ "dollar", "dollar-based [ [ duwlAriy ~ / ADJ ] ]" ] ]
+    noun     KuRDAS |< Iy              {- duwlAriy~ -}      `gloss`  [ "dollar", "dollar-based [ [ duwlAriy ~ / ADJ ] ]" ] ]
 
  |> "d w m" <| [
 
@@ -2081,7 +2054,7 @@ lexicon = listing "Lexicon properties"
     -- ;; dawomAF_1
     -- dwm     dawom   NF      constantly;at all times     [[dawom/ADV]]
 
-    noun     FaCL                      {- dawomAF -}        `others` [ "dawm NF" ]
+    noun     FaCL |< aN                {- dawomAF -}        `others` [ "dawm NF" ]
                                                             `gloss`  [ "constantly", "at all times [ [ dawom / ADV ] ]" ],
 
     -- ;; dawAm_1
@@ -2092,7 +2065,7 @@ lexicon = listing "Lexicon properties"
     -- ;; daw~Amap_1
     -- dwAm    daw~Am  Nap     dizziness;whirlpool;vortex
 
-    noun     FaCCAL                    {- daw~Amap -}       `gloss`  [ "dizziness", "whirlpool", "vortex" ],
+    noun     FaCCAL |< aT              {- daw~Amap -}       `gloss`  [ "dizziness", "whirlpool", "vortex" ],
 
     -- ;; dA}im_1
     -- dA}m    dA}im   Nall    permanent;lasting;constant     [[dA}im/ADJ]]
@@ -2128,17 +2101,12 @@ lexicon = listing "Lexicon properties"
     -- ;; diywAniy~_1
     -- dywAny  diywAniy~       Nall    administrative;official     [[diywAniy~/ADJ]]
 
-    noun     FICAL                     {- diywAniy~ -}      `gloss`  [ "administrative", "official [ [ diywAniy ~ / ADJ ] ]" ],
+    noun     FICAL |< Iy               {- diywAniy~ -}      `gloss`  [ "administrative", "official [ [ diywAniy ~ / ADJ ] ]" ],
 
     -- ;; mudaw~an_1
     -- mdwn    mudaw~an        Nall    record;entry;document
 
     noun     MuFaCCaL                  {- mudaw~an -}       `gloss`  [ "record", "entry", "document" ],
-
-    -- ;; duwn_1
-    -- dwn     duwn    N       inferior;poor
-
-    noun     FUL                       {- duwn -}           `gloss`  [ "inferior", "poor" ],
 
     -- ;; duwn_1
     -- dwn     duwn    N       inferior;poor
@@ -2191,34 +2159,34 @@ lexicon = listing "Lexicon properties"
     -- ;; daworap_1
     -- dwr     dawor   NapAt   championship;tournament
 
-    noun     FaCL                      {- daworap -}        `gloss`  [ "championship", "tournament" ],
+    noun     FaCL |< aT                {- daworap -}        `gloss`  [ "championship", "tournament" ],
 
     -- ;; daworap_2
     -- dwr     dawor   NapAt   cycle;turn;rotation;revolution
 
-    noun     FaCL                      {- daworap -}        `gloss`  [ "cycle", "turn", "rotation", "revolution" ],
+    noun     FaCL |< aT                {- daworap -}        `gloss`  [ "cycle", "turn", "rotation", "revolution" ],
 
     -- ;; daworap_3
     -- dwr     dawor   Napdu   patrol;session;tour
     -- dwr     dawor   NAt     patrols;sessions;tours
 
-    noun     FaCL                      {- daworap -}        `others` [ "dawr NAt" ]
+    noun     FaCL |< aT                {- daworap -}        `others` [ "dawr NAt" ]
                                                             `gloss`  [ "patrol", "session", "tour", "patrols", "sessions", "tours" ],
 
     -- ;; daworiy~_1
     -- dwry    daworiy~        Nall    periodic;intermittent;circulatory     [[daworiy~/ADJ]]
 
-    noun     FaCL                      {- daworiy~ -}       `gloss`  [ "periodic", "intermittent", "circulatory [ [ daworiy ~ / ADJ ] ]" ],
+    noun     FaCL |< Iy                {- daworiy~ -}       `gloss`  [ "periodic", "intermittent", "circulatory [ [ daworiy ~ / ADJ ] ]" ],
 
     -- ;; daworiy~_2
     -- dwry    daworiy~        NduAt   league (sports)     [[daworiy~/NOUN]]
 
-    noun     FaCL                      {- daworiy~ -}       `gloss`  [ "league ( sports ) [ [ daworiy ~ / NOUN ] ]" ],
+    noun     FaCL |< Iy                {- daworiy~ -}       `gloss`  [ "league ( sports ) [ [ daworiy ~ / NOUN ] ]" ],
 
     -- ;; daworiy~ap_1
     -- dwry    daworiy~        NapAt   patrol;squad;periodical     [[daworiy~/NOUN]]
 
-    noun     FaCL                      {- daworiy~ap -}     `gloss`  [ "patrol", "squad", "periodical [ [ daworiy ~ / NOUN ] ]" ],
+    noun     FaCL |< Iy |< aT          {- daworiy~ap -}     `gloss`  [ "patrol", "squad", "periodical [ [ daworiy ~ / NOUN ] ]" ],
 
     -- ;; dawarAn_1
     -- dwrAn   dawarAn N       turning;rotation
@@ -2245,13 +2213,13 @@ lexicon = listing "Lexicon properties"
     -- <dAr    <idAr   NapAt   administration;management;bureau
     -- AdAr    <idAr   NapAt   administration;management;bureau
 
-    noun     HiFAL                     {- IidArap -}        `gloss`  [ "administration", "management", "bureau" ],
+    noun     HiFAL |< aT               {- IidArap -}        `gloss`  [ "administration", "management", "bureau" ],
 
     -- ;; <idAriy~_1
     -- <dAry   <idAriy~        Nall    administrative;management;departmental;officer     [[<idAriy~/ADJ]]
     -- AdAry   <idAriy~        Nall    administrative;management;departmental;officer     [[<idAriy~/ADJ]]
 
-    noun     HiFAL                     {- IidAriy~ -}       `gloss`  [ "administrative", "management", "departmental", "officer [ [" ],
+    noun     HiFAL |< Iy               {- IidAriy~ -}       `gloss`  [ "administrative", "management", "departmental", "officer [ [" ],
 
     -- ;; dA}ir_1
     -- dA}r    dA}ir   Nall    current;running     [[dA}ir/ADJ]]
@@ -2267,20 +2235,20 @@ lexicon = listing "Lexicon properties"
     -- dA}r    dA}ir   Napdu   office;bureau;district
     -- dwA}r   dawA}ir Ndip    offices;bureaus;districts
 
-    noun     FA'iL                     {- dA}irap -}        `others` [ "dawA'ir Ndip" ]
+    noun     FA'iL |< aT               {- dA}irap -}        `others` [ "dawA'ir Ndip" ]
                                                             `gloss`  [ "office", "bureau", "district", "offices", "bureaus", "districts" ],
 
     -- ;; dA}irap_2
     -- dA}r    dA}ir   Napdu   circle;ring;scope;circuit
     -- dA}r    dA}ir   NAt     circles;rings;scopes;circuits
 
-    noun     FA'iL                     {- dA}irap -}        `others` [ "dA'ir NAt" ]
+    noun     FA'iL |< aT               {- dA}irap -}        `others` [ "dA'ir NAt" ]
                                                             `gloss`  [ "circle", "ring", "scope", "circuit", "circles", "rings", "scopes", "circuits" ],
 
     -- ;; dA}iriy~_1
     -- dA}ry   dA}iriy~        Nall    circular;ring-shaped     [[dA}iriy~/ADJ]]
 
-    noun     FA'iL                     {- dA}iriy~ -}       `gloss`  [ "circular", "ring-shaped [ [ dA } iriy ~ / ADJ ] ]" ],
+    noun     FA'iL |< Iy               {- dA}iriy~ -}       `gloss`  [ "circular", "ring-shaped [ [ dA } iriy ~ / ADJ ] ]" ],
 
     -- ;; mudiyr_1
     -- mdyr    mudiyr  Nall    director;manager;chief
@@ -2294,12 +2262,12 @@ lexicon = listing "Lexicon properties"
     -- ;; mudiyriy~ap_1
     -- mdyry   mudiyriy~       Nap     administration;management     [[mudiyriy~/NOUN]]
 
-    noun     MuFIL                     {- mudiyriy~ap -}    `gloss`  [ "administration", "management [ [ mudiyriy ~ / NOUN ] ]" ],
+    noun     MuFIL |< Iy |< aT         {- mudiyriy~ap -}    `gloss`  [ "administration", "management [ [ mudiyriy ~ / NOUN ] ]" ],
 
     -- ;; mudiyriy~ap_2
     -- mdyry   mudiyriy~       NapAt   district;province     [[mudiyriy~/NOUN]]
 
-    noun     MuFIL                     {- mudiyriy~ap -}    `gloss`  [ "district", "province [ [ mudiyriy ~ / NOUN ] ]" ],
+    noun     MuFIL |< Iy |< aT         {- mudiyriy~ap -}    `gloss`  [ "district", "province [ [ mudiyriy ~ / NOUN ] ]" ],
 
     -- ;; musotadiyr_1
     -- mstdyr  musotadiyr      Nall    round;circular
@@ -2323,7 +2291,7 @@ lexicon = listing "Lexicon properties"
     -- ;; dawosariy~_1
     -- dwsry   dawosariy~      N0      Dosari;Dawsari
 
-    noun     KaRDaS                    {- dawosariy~ -}     `gloss`  [ "Dosari", "Dawsari" ] ]
+    noun     KaRDaS |< Iy              {- dawosariy~ -}     `gloss`  [ "Dosari", "Dawsari" ] ]
 
  |> "d w w" <| [
 
@@ -2351,6 +2319,11 @@ lexicon = listing "Lexicon properties"
     verb     FaCCY                     {- daw~aY -}         `others` [ "dawwiy IV_0hAnn_yu", "dawway PV_Atn", "dawwA PV_h", "daww IV_0hwnyn_yu PV_ttAw" ]
                                                             `gloss`  [ "buzz", "hum", "drone" ],
 
+    -- ;; dawiy~_1
+    -- dwy     dawiy~  N       sound;drone;echo
+
+    noun     FY |< Iy                  {- dawiy~ -}         `gloss`  [ "sound", "drone", "echo" ],
+
     -- ;; dawA'_1
     -- dwA'    dawA'   N0_Nh   remedy;medication
     -- dwA&    dawA&   Nh      remedy;medication
@@ -2364,7 +2337,7 @@ lexicon = listing "Lexicon properties"
     -- ;; dawA}iy~_1
     -- dwA}y   dawA}iy~        N-ap    medicinal;curative     [[dawA}iy~/ADJ]]
 
-    noun     FaCA'                     {- dawA}iy~ -}       `gloss`  [ "medicinal", "curative [ [ dawA } iy ~ / ADJ ] ]" ],
+    noun     FawA'IL                   {- dawA}iy~ -}       `gloss`  [ "medicinal", "curative [ [ dawA } iy ~ / ADJ ] ]" ],
 
     -- ;; diwA'_1
     -- dwA'    diwA'   N0_Nh   therapy;treatment
@@ -2381,7 +2354,12 @@ lexicon = listing "Lexicon properties"
     -- mdwy    mudaw~iy        NapAt   ringing;resounding
 
     noun     MuFaCCiL                  {- mudaw~iy -}       `others` [ "mudaww Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "ringing", "resounding" ] ]
+                                                            `gloss`  [ "ringing", "resounding" ],
+
+    -- ;; dA}iy_1
+    -- dA}y    dA}iy   Nprop   Da'i
+
+    noun     FA'iL                     {- dA}iy -}          `gloss`  [ "Da'i" ] ]
 
  |> "d y ^s y" <| [
 
@@ -2426,9 +2404,9 @@ lexicon = listing "Lexicon properties"
  |> "d y k r" <| [
 
     -- ;; diykuwr_1
-    -- dykwr   diykuwr N/At    décor;interior decoration
+    -- dykwr   diykuwr N/At    decor;interior decoration
 
-    noun     KiRDUS                    {- diykuwr -}        `gloss`  [ "décor", "interior decoration" ] ]
+    noun     KiRDUS                    {- diykuwr -}        `gloss`  [ "decor", "interior decoration" ] ]
 
  |> "d y l" <| [
 
@@ -2490,7 +2468,7 @@ lexicon = listing "Lexicon properties"
     -- <dAn    <idAn   NapAt   condemnation;censure
     -- AdAn    <idAn   NapAt   condemnation;censure
 
-    noun     HiFAL                     {- IidAnap -}        `gloss`  [ "condemnation", "censure" ],
+    noun     HiFAL |< aT               {- IidAnap -}        `gloss`  [ "condemnation", "censure" ],
 
     -- ;; dA}in_1
     -- dA}n    dA}in   Nall    creditor;lender
@@ -2510,7 +2488,7 @@ lexicon = listing "Lexicon properties"
     -- ;; madoyuwniy~ap_1
     -- mdywny  madoyuwniy~     Nap     indebtedness;obligation     [[madoyuwniy~/NOUN]]
 
-    noun     MaFCUL                    {- madoyuwniy~ap -}  `gloss`  [ "indebtedness", "obligation [ [ madoyuwniy ~ / NOUN ] ]" ],
+    noun     MaFCUL |< Iy |< aT        {- madoyuwniy~ap -}  `gloss`  [ "indebtedness", "obligation [ [ madoyuwniy ~ / NOUN ] ]" ],
 
     -- ;; diyn_1
     -- dyn     diyn    N       religion
@@ -2523,12 +2501,12 @@ lexicon = listing "Lexicon properties"
     -- ;; diyniy~_1
     -- dyny    diyniy~ N-ap    religious     [[diyniy~/ADJ]]
 
-    noun     FiCL                      {- diyniy~ -}        `gloss`  [ "religious [ [ diyniy ~ / ADJ ] ]" ],
+    noun     FiCL |< Iy                {- diyniy~ -}        `gloss`  [ "religious [ [ diyniy ~ / ADJ ] ]" ],
 
     -- ;; diyAnap_1
     -- dyAn    diyAn   NapAt   religion;creed
 
-    noun     FiCAL                     {- diyAnap -}        `gloss`  [ "religion", "creed" ],
+    noun     FiCAL |< aT               {- diyAnap -}        `gloss`  [ "religion", "creed" ],
 
     -- ;; mutaday~in_1
     -- mtdyn   mutaday~in      Nall    pious;religious     [[mutaday~in/ADJ]]
@@ -2573,7 +2551,7 @@ lexicon = listing "Lexicon properties"
     -- ;; dayoriy~_1
     -- dyry    dayoriy~        Nall    monastic     [[dayoriy~/ADJ]]
 
-    noun     FaCL                      {- dayoriy~ -}       `gloss`  [ "monastic [ [ dayoriy ~ / ADJ ] ]" ],
+    noun     FaCL |< Iy                {- dayoriy~ -}       `gloss`  [ "monastic [ [ dayoriy ~ / ADJ ] ]" ],
 
     -- ;; mudiyr_1
     -- mdyr    mudiyr  Nall    director;manager;chief
@@ -2587,12 +2565,12 @@ lexicon = listing "Lexicon properties"
     -- ;; mudiyriy~ap_1
     -- mdyry   mudiyriy~       Nap     administration;management     [[mudiyriy~/NOUN]]
 
-    noun     MuFiCL                    {- mudiyriy~ap -}    `gloss`  [ "administration", "management [ [ mudiyriy ~ / NOUN ] ]" ],
+    noun     MuFiCL |< Iy |< aT        {- mudiyriy~ap -}    `gloss`  [ "administration", "management [ [ mudiyriy ~ / NOUN ] ]" ],
 
     -- ;; mudiyriy~ap_2
     -- mdyry   mudiyriy~       NapAt   district;province     [[mudiyriy~/NOUN]]
 
-    noun     MuFiCL                    {- mudiyriy~ap -}    `gloss`  [ "district", "province [ [ mudiyriy ~ / NOUN ] ]" ],
+    noun     MuFiCL |< Iy |< aT        {- mudiyriy~ap -}    `gloss`  [ "district", "province [ [ mudiyriy ~ / NOUN ] ]" ],
 
     -- ;; musotadiyr_1
     -- mstdyr  musotadiyr      Nall    round;circular
@@ -2605,13 +2583,6 @@ lexicon = listing "Lexicon properties"
     -- dys     diys    FW      Dis (in "Abu Dis")     [[diys/NOUN_PROP]]
 
     noun     FiCL                      {- diys -}           `gloss`  [ "Dis ( in `` Abu Dis '' ) [ [ diys / NOUN_PROP ] ]" ] ]
-
- |> "d y y" <| [
-
-    -- ;; dA}iy_1
-    -- dA}y    dA}iy   Nprop   Da'i
-
-    noun     FA'iL                     {- dA}iy -}          `gloss`  [ "Da'i" ] ]
 
  |> "dA" <| [
 
@@ -2709,7 +2680,7 @@ lexicon = listing "Lexicon properties"
     -- ;; damaqoraTap_1
     -- dmqrT   damaqoraT       Nap     democratization
 
-    noun     Identity                  {- damaqoraTap -}    `gloss`  [ "democratization" ] ]
+    noun     Identity |< aT            {- damaqoraTap -}    `gloss`  [ "democratization" ] ]
 
  |> "danimArk" <| [
 
@@ -2737,7 +2708,14 @@ lexicon = listing "Lexicon properties"
     -- ;; dayomuwmap_1
     -- dymwm   dayomuwm        Nap     duration
 
-    noun     Identity                  {- dayomuwmap -}     `gloss`  [ "duration" ] ]
+    noun     Identity |< aT            {- dayomuwmap -}     `gloss`  [ "duration" ] ]
+
+ |> "di`A'iyy" <| [
+
+    -- ;; diEA}iy~_1
+    -- dEA}y   diEA}iy~        Nall    propagandistic     [[diEA}iy~/ADJ]]
+
+    noun     Identity                  {- diEA}iy~ -}       `gloss`  [ "propagandistic [ [ diEA } iy ~ / ADJ ] ]" ] ]
 
  |> "dibluwmAs" <| [
 
@@ -2745,21 +2723,21 @@ lexicon = listing "Lexicon properties"
     -- dblwmAsy        dibluwmAsiy~    N-ap    diplomatic     [[dibluwmAsiy~/ADJ]]
     -- dyblwmAsy       diybluwmAsiy~   N-ap    diplomatic     [[diybluwmAsiy~/ADJ]]
 
-    noun     Identity                  {- dibluwmAsiy~ -}   `others` [ "diybluwmAsiyy N-ap" ]
+    noun     Identity |< Iy            {- dibluwmAsiy~ -}   `others` [ "diybluwmAsiyy N-ap" ]
                                                             `gloss`  [ "diplomatic [ [ dibluwmAsiy ~ / ADJ ] ]", "diplomatic [ [ diybluwmAsiy ~ / ADJ ] ]" ],
 
     -- ;; dibluwmAsiy~_2
     -- dblwmAsy        dibluwmAsiy~    Nall    diplomat     [[dibluwmAsiy~/NOUN]]
     -- dyblwmAsy       diybluwmAsiy~   Nall    diplomat     [[diybluwmAsiy~/NOUN]]
 
-    noun     Identity                  {- dibluwmAsiy~ -}   `others` [ "diybluwmAsiyy Nall" ]
+    noun     Identity |< Iy            {- dibluwmAsiy~ -}   `others` [ "diybluwmAsiyy Nall" ]
                                                             `gloss`  [ "diplomat [ [ dibluwmAsiy ~ / NOUN ] ]", "diplomat [ [ diybluwmAsiy ~ / NOUN ] ]" ],
 
     -- ;; dibluwmAsiy~ap_1
     -- dblwmAsy        dibluwmAsiy~    Nap     diplomacy     [[dibluwmAsiy~/NOUN]]
     -- dyblwmAsy       diybluwmAsiy~   Nap     diplomacy     [[diybluwmAsiy~/NOUN]]
 
-    noun     Identity                  {- dibluwmAsiy~ap -} `others` [ "diybluwmAsiyy Nap" ]
+    noun     Identity |< Iy |< aT      {- dibluwmAsiy~ap -} `others` [ "diybluwmAsiyy Nap" ]
                                                             `gloss`  [ "diplomacy [ [ dibluwmAsiy ~ / NOUN ] ]", "diplomacy [ [ diybluwmAsiy ~ / NOUN ] ]" ] ]
 
  |> "diftiriyA" <| [
@@ -2789,7 +2767,7 @@ lexicon = listing "Lexicon properties"
     -- dm$qy   dima$oqiy~      Nall    from/of Damascus;Damascene     [[dima$oqiy~/ADJ]]
     -- dmA$q   damA$iq Nap     from/of Damascus;Damascenes
 
-    noun     Identity                  {- dima$oqiy~ -}     `others` [ "damA^siq Nap" ]
+    noun     Identity |< Iy            {- dima$oqiy~ -}     `others` [ "damA^siq Nap" ]
                                                             `gloss`  [ "from / of Damascus", "Damascene [ [ dima $ oqiy ~ / ADJ ] ]", "Damascenes" ] ]
 
  |> "dirAmA" <| [
@@ -2806,7 +2784,7 @@ lexicon = listing "Lexicon properties"
     -- ;; dirAmAtiykiy~_1
     -- drAmAtyky       dirAmAtiykiy~   Nall    dramatic     [[dirAmAtiykiy~/ADJ]]
 
-    noun     Identity                  {- dirAmAtiykiy~ -}  `gloss`  [ "dramatic [ [ dirAmAtiykiy ~ / ADJ ] ]" ] ]
+    noun     Identity |< Iy            {- dirAmAtiykiy~ -}  `gloss`  [ "dramatic [ [ dirAmAtiykiy ~ / ADJ ] ]" ] ]
 
  |> "dirham" <| [
 
@@ -2851,7 +2829,7 @@ lexicon = listing "Lexicon properties"
     -- dyktAtwry       diykotAtuwriy~  Nall    dictatorial     [[diykotAtuwriy~/ADJ]]
     -- dktAtwry        dikotAtuwriy~   Nall    dictatorial     [[dikotAtuwriy~/ADJ]]
 
-    noun     Identity                  {- diykotAtuwriy~ -} `others` [ "diktAtuwriyy Nall" ]
+    noun     Identity |< Iy            {- diykotAtuwriy~ -} `others` [ "diktAtuwriyy Nall" ]
                                                             `gloss`  [ "dictatorial [ [ diykotAtuwriy ~ / ADJ ] ]", "dictatorial [ [ dikotAtuwriy ~ / ADJ ] ]" ],
 
     -- ;; diykotAtuwriy~ap_1
@@ -2860,7 +2838,7 @@ lexicon = listing "Lexicon properties"
     -- dktAtwry        dikotAtuwriy~   Napdu   dictatorship     [[dikotAtuwriy~/NOUN]]
     -- dktAtwry        dikotAtuwriy~   NAt     dictatorships     [[dikotAtuwriy~/NOUN]]
 
-    noun     Identity                  {- diykotAtuwriy~ap -} `others` [ "diktAtuwriyy NAt Napdu", "diyktAtuwriyy NAt" ]
+    noun     Identity |< Iy |< aT      {- diykotAtuwriy~ap -} `others` [ "diktAtuwriyy NAt Napdu", "diyktAtuwriyy NAt" ]
                                                             `gloss`  [ "dictatorship [ [ diykotAtuwriy ~ / NOUN ] ]", "dictatorships [ [ diykotAtuwriy ~ / NOUN ] ]", "dictatorship [ [ dikotAtuwriy ~ / NOUN ] ]", "dictatorships [ [ dikotAtuwriy ~ / NOUN ] ]" ] ]
 
  |> "diymiytriy" <| [
@@ -2876,7 +2854,7 @@ lexicon = listing "Lexicon properties"
     -- dymwgrAfy       diymuwgrAfiy~   N-ap    demographic     [[diymuwgrAfiy~/ADJ]]
     -- dymwjrAfy       diymuwjrAfiy~   N-ap    demographic     [[diymuwjrAfiy~/ADJ]]
 
-    noun     Identity                  {- diymuwgrAfiy~ -}  `others` [ "diymuw^grAfiyy N-ap" ]
+    noun     Identity |< Iy            {- diymuwgrAfiy~ -}  `others` [ "diymuw^grAfiyy N-ap" ]
                                                             `gloss`  [ "demographic [ [ diymuwgrAfiy ~ / ADJ ] ]", "demographic [ [ diymuwjrAfiy ~ / ADJ ] ]" ] ]
 
  |> "diymuw.grAfiyA" <| [
@@ -2894,14 +2872,14 @@ lexicon = listing "Lexicon properties"
     -- dymwqrATy       diymuwqrATiy~   Nall    democratic     [[diymuwqrATiy~/ADJ]]
     -- dymqrATy        diymuqrATiy~    Nall    democratic     [[diymuqrATiy~/ADJ]]
 
-    noun     Identity                  {- diymuwqrATiy~ -}  `others` [ "diymuqrA.tiyy Nall" ]
+    noun     Identity |< Iy            {- diymuwqrATiy~ -}  `others` [ "diymuqrA.tiyy Nall" ]
                                                             `gloss`  [ "democratic [ [ diymuwqrATiy ~ / ADJ ] ]", "democratic [ [ diymuqrATiy ~ / ADJ ] ]" ],
 
     -- ;; diymuwqrATiy~ap_1
     -- dymwqrATy       diymuwqrATiy~   NapAt   democracy     [[diymuwqrATiy~/NOUN]]
     -- dymqrATy        diymuqrATiy~    NapAt   democracy     [[diymuqrATiy~/NOUN]]
 
-    noun     Identity                  {- diymuwqrATiy~ap -} `others` [ "diymuqrA.tiyy NapAt" ]
+    noun     Identity |< Iy |< aT      {- diymuwqrATiy~ap -} `others` [ "diymuqrA.tiyy NapAt" ]
                                                             `gloss`  [ "democracy [ [ diymuwqrATiy ~ / NOUN ] ]", "democracy [ [ diymuqrATiy ~ / NOUN ] ]" ] ]
 
  |> "diynAmiyk" <| [
@@ -2910,7 +2888,7 @@ lexicon = listing "Lexicon properties"
     -- dynAmyky        diynAmiykiy~    Nall    dynamic     [[diynAmiykiy~/ADJ]]
     -- dynAmyky        diynAmiykiy~    Nap     dynamism     [[diynAmiykiy~/NOUN]]
 
-    noun     Identity                  {- diynAmiykiy~ -}   `gloss`  [ "dynamic [ [ diynAmiykiy ~ / ADJ ] ]", "dynamism [ [ diynAmiykiy ~ / NOUN ] ]" ] ]
+    noun     Identity |< Iy            {- diynAmiykiy~ -}   `gloss`  [ "dynamic [ [ diynAmiykiy ~ / ADJ ] ]", "dynamism [ [ diynAmiykiy ~ / NOUN ] ]" ] ]
 
  |> "diynAmiyt" <| [
 
@@ -2932,9 +2910,9 @@ lexicon = listing "Lexicon properties"
 
     -- ;; diyziyriyh_1
     -- dyzyryh diyziyriyh      Nprop   Desire
-    -- dyzyryh diyziyriyh      Nprop   Desirée
+    -- dyzyryh diyziyriyh      Nprop   Desiree
 
-    noun     Identity                  {- diyziyriyh -}     `gloss`  [ "Desire", "Desirée" ] ]
+    noun     Identity                  {- diyziyriyh -}     `gloss`  [ "Desire", "Desiree" ] ]
 
  |> "diyzniy" <| [
 
@@ -2957,13 +2935,13 @@ lexicon = listing "Lexicon properties"
 
     noun     Identity                  {- druwriy -}        `gloss`  [ "Drury" ] ]
 
- |> "duktuwraNY" <| [
+ |> "duktuwrY" <| [
 
     -- ;; dukotuwrAp_1
     -- dktwrA  dukotuwrA       Napdu   doctorate
     -- dktwrAh dukotuwrAh      N       doctorate
 
-    noun     Identity                  {- dukotuwrAp -}     `others` [ "duktuwrAh N" ]
+    noun     Identity |< aT            {- dukotuwrAp -}     `others` [ "duktuwrAh N" ]
                                                             `gloss`  [ "doctorate" ] ]
 
  |> "duw.glAs" <| [
@@ -3031,11 +3009,4 @@ lexicon = listing "Lexicon properties"
 
     verb     Identity                  {- mAdAm -}          `others` [ "mAdum PV_C_intr" ]
                                                             `gloss`  [ "as long as" ] ]
-
- |> "mad`aNY" <| [
-
-    -- ;; madoEAp_1
-    -- mdEA    madoEA  Nap     reason;motive
-
-    noun     Identity                  {- madoEAp -}        `gloss`  [ "reason", "motive" ] ]
 

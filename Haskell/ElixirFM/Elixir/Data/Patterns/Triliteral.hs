@@ -251,7 +251,7 @@ data PatternT =
         |   MiFCAL              |   MICAL
         |   MiFCaL                                                                                      |   MiFaCL
 
-        |   HaFCAL
+        |   HaFCAL              |   HACAL
         |   HaFCiL
 
         |   HaFCiLA'

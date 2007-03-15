@@ -23,29 +23,7 @@ lexicon = listing "Lexicon properties"
     -- >rbEmA} >arobaEmA}      Nap     four-hundred
     -- ArbEmA} >arobaEmA}      Nap     four-hundred
 
-    noun     Identity                  {- OarobaEmA}ap -}   `gloss`  [ "four-hundred" ] ]
-
- |> "mar'" <| [
-
-    -- ;; maro}iy~_1
-    -- mr}y    maro}iy~        Nall    visual;seen;visible     [[maro}iy~/ADJ]]
-
-    noun     Identity                  {- maro}iy~ -}       `gloss`  [ "visual", "seen", "visible [ [ maro } iy ~ / ADJ ] ]" ] ]
-
- |> "mar`" <| [
-
-    -- ;; maroEiy~_1
-    -- mrEy    maroEiy~        N-ap    observed;complied with     [[maroEiy~/ADJ]]
-
-    noun     Identity                  {- maroEiy~ -}       `gloss`  [ "observed", "complied with [ [ maroEiy ~ / ADJ ] ]" ] ]
-
- |> "marw" <| [
-
-    -- ;; marowiy~At_1
-    -- mrwy    marowiy~        NAt     tales;stories;reports     [[marowiy~/NOUN]]
-
-    noun     Identity                  {- marowiy~At -}     `others` [ "marwiyy NAt" ]
-                                                            `gloss`  [ "tales", "stories", "reports [ [ marowiy ~ / NOUN ] ]" ] ]
+    noun     Identity |< aT            {- OarobaEmA}ap -}   `gloss`  [ "four-hundred" ] ]
 
  |> "mir'A" <| [
 
@@ -56,17 +34,15 @@ lexicon = listing "Lexicon properties"
     -- mrA}y   marA}iy N0_Nh   mirrors
     -- mrA'    marA'   NK      mirrors
 
-    noun     Identity                  {- miro|ap -}        `others` [ "marAyA N0_Nh", "mir'A Napdu", "marA' NK", "marA'iy N0_Nh", "mirAy NapAt" ]
+    noun     Identity |< aT            {- miro|ap -}        `others` [ "marAyA N0_Nh", "mir'A Napdu", "marA' NK", "marA'iy N0_Nh", "mirAy NapAt" ]
                                                             `gloss`  [ "mirror", "mirrors" ] ]
 
- |> "murA`aNY" <| [
+ |> "r ' " <| [
 
-    -- ;; murAEAp_1
-    -- mrAEA   murAEA  Napdu   compliance;observance;deference
-    -- mrAEy   murAEay NAt     compliance;observance;deference
+    -- ;; ri}awiy~_1
+    -- r}wy    ri}awiy~        Nall    pulmonary     [[ri}awiy~/ADJ]]
 
-    noun     Identity                  {- murAEAp -}        `others` [ "murA`ay NAt" ]
-                                                            `gloss`  [ "compliance", "observance", "deference" ] ]
+    noun     FiCaNY |< Iy              {- ri}awiy~ -}       `gloss`  [ "pulmonary [ [ ri } awiy ~ / ADJ ] ]" ] ]
 
  |> "r ' '" <| [
 
@@ -87,7 +63,7 @@ lexicon = listing "Lexicon properties"
     -- rA}H    rA}iH   Nap     odor;perfume
     -- rwA}H   rawA}iH Ndip    odors;perfume
 
-    noun     FACiL                     {- rA}iHap -}        `others` [ "rawA'i.h Ndip" ]
+    noun     FACiL |< aT               {- rA}iHap -}        `others` [ "rawA'i.h Ndip" ]
                                                             `gloss`  [ "odor", "perfume", "odors" ] ]
 
  |> "r ' ^g" <| [
@@ -128,7 +104,7 @@ lexicon = listing "Lexicon properties"
     -- ;; ra>ofap_1
     -- r>f     ra>of   Nap     mercy;pity;indulgence
 
-    noun     FaCL                      {- raOofap -}        `gloss`  [ "mercy", "pity", "indulgence" ],
+    noun     FaCL |< aT                {- raOofap -}        `gloss`  [ "mercy", "pity", "indulgence" ],
 
     -- ;; ra&uwf_1
     -- r&wf    ra&uwf  N0      Raouf
@@ -205,34 +181,27 @@ lexicon = listing "Lexicon properties"
     -- ;; ra}iysiy~_1
     -- r}ysy   ra}iysiy~       Nall    main;principal     [[ra}iysiy~/ADJ]]
 
-    noun     FaCIL                     {- ra}iysiy~ -}      `gloss`  [ "main", "principal [ [ ra } iysiy ~ / ADJ ] ]" ],
+    noun     FaCIL |< Iy               {- ra}iysiy~ -}      `gloss`  [ "main", "principal [ [ ra } iysiy ~ / ADJ ] ]" ],
 
     -- ;; ri}Asap_1
     -- r}As    ri}As   Nap     presidency;leadership;chairmanship
     -- ryAs    riyAs   Nap     presidency;leadership;chairmanship
     -- r|s     ra|s    Nap     presidency;leadership;chairmanship
 
-    noun     FiCAL                     {- ri}Asap -}        `others` [ "riyAs Nap", "ra'As Nap" ]
+    noun     FiCAL |< aT               {- ri}Asap -}        `others` [ "riyAs Nap", "ra'As Nap" ]
                                                             `gloss`  [ "presidency", "leadership", "chairmanship" ],
 
     -- ;; ri}Asiy~_1
     -- r}Asy   ri}Asiy~        Nall    presidential;executive     [[ri}Asiy~/ADJ]]
     -- ryAsy   riyAsiy~        Nall    presidential;executive     [[riyAsiy~/ADJ]]
 
-    noun     FiCAL                     {- ri}Asiy~ -}       `others` [ "riyAsiyy Nall" ]
+    noun     FiCAL |< Iy               {- ri}Asiy~ -}       `others` [ "riyAsiyy Nall" ]
                                                             `gloss`  [ "presidential", "executive [ [ ri } Asiy ~ / ADJ ] ]", "executive [ [ riyAsiy ~ / ADJ ] ]" ],
 
     -- ;; tara&~us_1
     -- tr&s    tara&~us        NduAt   leadership;chairmanship
 
     noun     TaFaCCuL                  {- taraW~us -}       `gloss`  [ "leadership", "chairmanship" ] ]
-
- |> "r ' w" <| [
-
-    -- ;; ri}awiy~_1
-    -- r}wy    ri}awiy~        Nall    pulmonary     [[ri}awiy~/ADJ]]
-
-    noun     FiCaL                     {- ri}awiy~ -}       `gloss`  [ "pulmonary [ [ ri } awiy ~ / ADJ ] ]" ] ]
 
  |> "r ' y" <| [
 
@@ -252,17 +221,17 @@ lexicon = listing "Lexicon properties"
     -- ;; rAyap_1
     -- rAy     rAy     NapAt   banner;flag
 
-    noun     FAL                       {- rAyap -}          `gloss`  [ "banner", "flag" ],
+    noun     FAL |< aT                 {- rAyap -}          `gloss`  [ "banner", "flag" ],
 
     -- ;; ru&oyap_1
     -- r&y     ru&oy   Nap     vision;sight;view;viewing
 
-    noun     FuCL                      {- ruWoyap -}        `gloss`  [ "vision", "sight", "view", "viewing" ],
+    noun     FuCL |< aT                {- ruWoyap -}        `gloss`  [ "vision", "sight", "view", "viewing" ],
 
     -- ;; ru&oyap_2
     -- r&y     ru&oy   Napdu   view;opinion
 
-    noun     FuCL                      {- ruWoyap -}        `gloss`  [ "view", "opinion" ],
+    noun     FuCL |< aT                {- ruWoyap -}        `gloss`  [ "view", "opinion" ],
 
     -- ;; ru&aY_1
     -- r&Y     ru&aY   N0      vision;dream
@@ -292,6 +261,11 @@ lexicon = listing "Lexicon properties"
 
     noun     FiCA'                     {- ri}A' -}          `others` [ "riyA' Nh Nhy N0_Nh" ]
                                                             `gloss`  [ "hypocrisy", "dissimulation" ],
+
+    -- ;; maro}iy~_1
+    -- mr}y    maro}iy~        Nall    visual;seen;visible     [[maro}iy~/ADJ]]
+
+    noun     MaFCIy                    {- maro}iy~ -}       `gloss`  [ "visual", "seen", "visible [ [ maro } iy ~ / ADJ ] ]" ],
 
     -- ;; rAy_1
     -- rAy     rAy     Nprop   Ray
@@ -341,13 +315,6 @@ lexicon = listing "Lexicon properties"
 
     noun     FaCIL                     {- raDiyE -}         `others` [ "ru.da`A' Nh Nhy N0_Nh", "ra.dA'i` Ndip" ]
                                                             `gloss`  [ "breast-feeding infant", "foster child [ [ raDiyE / ADJ ] ]", "breast-feeding infants", "foster children" ] ]
-
- |> "r .d b" <| [
-
-    -- ;; murotaDaY_1
-    -- mrtDY   murotaDaY       Nprop   Murtada
-
-    noun     MuFtaCaNY                 {- murotaDaY -}      `gloss`  [ "Murtada" ] ]
 
  |> "r .d w n" <| [
 
@@ -437,7 +404,12 @@ lexicon = listing "Lexicon properties"
     -- mrDy    muroDiy NapAt   satisfactory;pleasing;sufficient
 
     noun     MuFCiL                    {- muroDiy -}        `others` [ "mur.d Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "satisfactory", "pleasing", "sufficient [ [ muroDiy / ADJ ] ]", "sufficient" ] ]
+                                                            `gloss`  [ "satisfactory", "pleasing", "sufficient [ [ muroDiy / ADJ ] ]", "sufficient" ],
+
+    -- ;; murotaDaY_1
+    -- mrtDY   murotaDaY       Nprop   Murtada
+
+    noun     MuFtaCaNY                 {- murotaDaY -}      `gloss`  [ "Murtada" ] ]
 
  |> "r .g b" <| [
 
@@ -454,7 +426,7 @@ lexicon = listing "Lexicon properties"
     -- rgb     ragab   NAt     desires;wishes
     -- rgAb    rigAb   N       desires;wishes
 
-    noun     FaCL                      {- ragobap -}        `others` [ "ra.gab NAt", "ri.gAb N" ]
+    noun     FaCL |< aT                {- ragobap -}        `others` [ "ra.gab NAt", "ri.gAb N" ]
                                                             `gloss`  [ "desire", "wish", "desires", "wishes" ],
 
     -- ;; tarogiyb_1
@@ -477,7 +449,7 @@ lexicon = listing "Lexicon properties"
     -- ;; rAgidap_1
     -- rAgdp   rAgidap Nprop   Raghida
 
-    noun     FACiL                     {- rAgidap -}        `gloss`  [ "Raghida" ] ]
+    noun     FACiL |< aT               {- rAgidap -}        `gloss`  [ "Raghida" ] ]
 
  |> "r .g f" <| [
 
@@ -537,7 +509,7 @@ lexicon = listing "Lexicon properties"
     -- ;; maroHabAF_1
     -- mrHb    maroHab NF      welcome!;hello!     [[maroHab/ADV]]
 
-    noun     MaFCaL                    {- maroHabAF -}      `others` [ "mar.hab NF" ]
+    noun     MaFCaL |< aN              {- maroHabAF -}      `others` [ "mar.hab NF" ]
                                                             `gloss`  [ "welcome !", "hello ! [ [ maroHab / ADV ] ]" ],
 
     -- ;; taroHiyb_1
@@ -548,7 +520,7 @@ lexicon = listing "Lexicon properties"
     -- ;; taroHiybiy~_1
     -- trHyby  taroHiybiy~     N-ap    welcoming     [[taroHiybiy~/ADJ]]
 
-    noun     TaFCIL                    {- taroHiybiy~ -}    `gloss`  [ "welcoming [ [ taroHiybiy ~ / ADJ ] ]" ] ]
+    noun     TaFCIL |< Iy              {- taroHiybiy~ -}    `gloss`  [ "welcoming [ [ taroHiybiy ~ / ADJ ] ]" ] ]
 
  |> "r .h l" <| [
 
@@ -563,7 +535,7 @@ lexicon = listing "Lexicon properties"
     -- ;; riHolap_1
     -- rHl     riHol   NapAt   journey;career
 
-    noun     FiCL                      {- riHolap -}        `gloss`  [ "journey", "career" ],
+    noun     FiCL |< aT                {- riHolap -}        `gloss`  [ "journey", "career" ],
 
     -- ;; raHiyl_1
     -- rHyl    raHiyl  N       departure;demise
@@ -573,13 +545,13 @@ lexicon = listing "Lexicon properties"
     -- ;; raH~Alap_1
     -- rHAl    raH~Al  Nap     great traveler;explorer
 
-    noun     FaCCAL                    {- raH~Alap -}       `gloss`  [ "great traveler", "explorer" ],
+    noun     FaCCAL |< aT              {- raH~Alap -}       `gloss`  [ "great traveler", "explorer" ],
 
     -- ;; maroHalap_1
     -- mrHl    maroHal Napdu   phase;stage;round
     -- mrAHl   marAHil Ndip    phases;stages;rounds
 
-    noun     MaFCaL                    {- maroHalap -}      `others` [ "marA.hil Ndip" ]
+    noun     MaFCaL |< aT              {- maroHalap -}      `others` [ "marA.hil Ndip" ]
                                                             `gloss`  [ "phase", "stage", "round", "phases", "stages", "rounds" ],
 
     -- ;; taroHiyl_1
@@ -614,7 +586,7 @@ lexicon = listing "Lexicon properties"
     -- ;; raHomap_1
     -- rHm     raHom   Nap     compassion;mercy
 
-    noun     FaCL                      {- raHomap -}        `gloss`  [ "compassion", "mercy" ],
+    noun     FaCL |< aT                {- raHomap -}        `gloss`  [ "compassion", "mercy" ],
 
     -- ;; raHiym_1
     -- rHym    raHiym  N0      Rahim
@@ -640,17 +612,17 @@ lexicon = listing "Lexicon properties"
     -- ;; ruwHAniy~_1
     -- rwHAny  ruwHAniy~       Nall    Ruhani
 
-    noun     FUCAL                     {- ruwHAniy~ -}      `gloss`  [ "Ruhani" ],
+    noun     FUCAL |< Iy               {- ruwHAniy~ -}      `gloss`  [ "Ruhani" ],
 
     -- ;; ruwHAniy~ap_1
     -- rwHAny  ruwHAniy~       Nap     spirituality     [[ruwHAniy~/NOUN]]
 
-    noun     FUCAL                     {- ruwHAniy~ap -}    `gloss`  [ "spirituality [ [ ruwHAniy ~ / NOUN ] ]" ],
+    noun     FUCAL |< Iy |< aT         {- ruwHAniy~ap -}    `gloss`  [ "spirituality [ [ ruwHAniy ~ / NOUN ] ]" ],
 
     -- ;; riyoHAniy~_1
     -- ryHAny  riyoHAniy~      N0      Rihani
 
-    noun     FICAL                     {- riyoHAniy~ -}     `gloss`  [ "Rihani" ] ]
+    noun     FICAL |< Iy               {- riyoHAniy~ -}     `gloss`  [ "Rihani" ] ]
 
  |> "r .s .s" <| [
 
@@ -664,7 +636,7 @@ lexicon = listing "Lexicon properties"
     -- rSAS    raSAS   Napdu   bullet;shot
     -- rSAS    raSAS   NAt     bullets;shots
 
-    noun     FaCAL                     {- raSASap -}        `others` [ "ra.sA.s NAt" ]
+    noun     FaCAL |< aT               {- raSASap -}        `others` [ "ra.sA.s NAt" ]
                                                             `gloss`  [ "bullet", "shot", "bullets", "shots" ] ]
 
  |> "r .s `" <| [
@@ -896,17 +868,17 @@ lexicon = listing "Lexicon properties"
     -- ;; rajoEiy~_1
     -- rjEy    rajoEiy~        Nall    reactionary;retroactive     [[rajoEiy~/ADJ]]
 
-    noun     FaCL                      {- rajoEiy~ -}       `gloss`  [ "reactionary", "retroactive [ [ rajoEiy ~ / ADJ ] ]" ],
+    noun     FaCL |< Iy                {- rajoEiy~ -}       `gloss`  [ "reactionary", "retroactive [ [ rajoEiy ~ / ADJ ] ]" ],
 
     -- ;; rajoEiy~ap_1
     -- rjEy    rajoEiy~        Nap     reactionary conservatism;reaction     [[rajoEiy~/NOUN]]
 
-    noun     FaCL                      {- rajoEiy~ap -}     `gloss`  [ "reactionary conservatism", "reaction [ [ rajoEiy ~ / NOUN ] ]" ],
+    noun     FaCL |< Iy |< aT          {- rajoEiy~ap -}     `gloss`  [ "reactionary conservatism", "reaction [ [ rajoEiy ~ / NOUN ] ]" ],
 
     -- ;; rajoEap_1
     -- rjE     rajoE   Nap     return;voucher
 
-    noun     FaCL                      {- rajoEap -}        `gloss`  [ "return", "voucher" ],
+    noun     FaCL |< aT                {- rajoEap -}        `gloss`  [ "return", "voucher" ],
 
     -- ;; rujuwE_1
     -- rjwE    rujuwE  N       return;reverting
@@ -923,17 +895,17 @@ lexicon = listing "Lexicon properties"
     -- ;; marojiEiy~_1
     -- mrjEy   marojiEiy~      Nall    authoritative;qualified     [[marojiEiy~/ADJ]]
 
-    noun     MaFCiL                    {- marojiEiy~ -}     `gloss`  [ "authoritative", "qualified [ [ marojiEiy ~ / ADJ ] ]" ],
+    noun     MaFCiL |< Iy              {- marojiEiy~ -}     `gloss`  [ "authoritative", "qualified [ [ marojiEiy ~ / ADJ ] ]" ],
 
     -- ;; marojiEiy~ap_1
     -- mrjEy   marojiEiy~      Nap     authority     [[marojiEiy~/NOUN]]
 
-    noun     MaFCiL                    {- marojiEiy~ap -}   `gloss`  [ "authority [ [ marojiEiy ~ / NOUN ] ]" ],
+    noun     MaFCiL |< Iy |< aT        {- marojiEiy~ap -}   `gloss`  [ "authority [ [ marojiEiy ~ / NOUN ] ]" ],
 
     -- ;; murAjaEap_1
     -- mrAjE   murAjaE NapAt   review;inspection
 
-    noun     MuFACaL                   {- murAjaEap -}      `gloss`  [ "review", "inspection" ],
+    noun     MuFACaL |< aT             {- murAjaEap -}      `gloss`  [ "review", "inspection" ],
 
     -- ;; <irojAE_1
     -- <rjAE   <irojAE NduAt   return;attribution;reduction
@@ -957,22 +929,6 @@ lexicon = listing "Lexicon properties"
     noun     MutaFACiL                 {- mutarAjiE -}      `gloss`  [ "retreating", "falling behind [ [ mutarAjiE / ADJ ] ]" ] ]
 
  |> "r ^g b" <| [
-
-    -- ;; <irojA'_1
-    -- <rjA'   <irojA' N0_Nh   postponement;deferment
-    -- ArjA'   <irojA' N0_Nh   postponement;deferment
-    -- <rjA&   <irojA& Nh      postponement;deferment
-    -- ArjA&   <irojA& Nh      postponement;deferment
-    -- <rjA}   <irojA} Nhy     postponement;deferment
-    -- ArjA}   <irojA} Nhy     postponement;deferment
-    -- <rjA'   <irojA' NAn_Nayn        postponements;deferments
-    -- ArjA'   <irojA' NAn_Nayn        postponements;deferments
-    -- <rjA}   <irojA} Nayn    postponements;deferments
-    -- ArjA}   <irojA} Nayn    postponements;deferments
-    -- <rjA'   <irojA' NAt     postponements;deferments
-    -- ArjA'   <irojA' NAt     postponements;deferments
-
-    noun     HiFCA'                    {- IirojA' -}        `gloss`  [ "postponement", "deferment", "postponements", "deferments" ],
 
     -- ;; rajab_1
     -- rjb     rajab   N       Rajab (month)
@@ -1051,7 +1007,27 @@ lexicon = listing "Lexicon properties"
     -- ;; taraj~iy_2
     -- trjy    taraj~iy        N0      Taragi;Taraji
 
-    noun     TaFaCCiN                  {- taraj~iy -}       `gloss`  [ "Taragi", "Taraji" ] ]
+    noun     TaFaCCiN                  {- taraj~iy -}       `gloss`  [ "Taragi", "Taraji" ],
+
+    -- ;; rAjiy_1
+    -- rAjy    rAjiy   N0F     hoping;full of hope     [[rAjiy/ADJ]]
+    -- rAj     rAj     NK      hoping;full of hope
+    -- rAjy    rAjiy   NAn_Nayn        hoping;full of hope
+    -- rAj     rAj     Nuwn_Niyn       hoping;full of hope
+    -- rAjy    rAjiy   NapAt   hoping;full of hope
+
+    noun     FACI                      {- rAjiy -}          `others` [ "rA^g Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "hoping", "full of hope [ [ rAjiy / ADJ ] ]", "full of hope" ],
+
+    -- ;; rAjiy_1
+    -- rAjy    rAjiy   N0F     hoping;full of hope     [[rAjiy/ADJ]]
+    -- rAj     rAj     NK      hoping;full of hope
+    -- rAjy    rAjiy   NAn_Nayn        hoping;full of hope
+    -- rAj     rAj     Nuwn_Niyn       hoping;full of hope
+    -- rAjy    rAjiy   NapAt   hoping;full of hope
+
+    noun     FACI                      {- rAjiy -}          `others` [ "rA^g Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "hoping", "full of hope [ [ rAjiy / ADJ ] ]", "full of hope" ] ]
 
  |> "r ^g y" <| [
 
@@ -1125,7 +1101,7 @@ lexicon = listing "Lexicon properties"
     -- r$A$    ra$~A$  NAt     machine guns
     -- r$A$    ra$~A$  Ndu     machine gun
 
-    noun     FaCCAL                    {- ra$~A$ap -}       `others` [ "ra^s^sA^s NAt Ndu" ]
+    noun     FaCCAL |< aT              {- ra$~A$ap -}       `others` [ "ra^s^sA^s NAt Ndu" ]
                                                             `gloss`  [ "machine gun", "machine guns" ] ]
 
  |> "r ^s d" <| [
@@ -1212,7 +1188,7 @@ lexicon = listing "Lexicon properties"
     -- r$A     ri$AF   FW-WaBi bribes     [[ri$AF/NOUN]]
     -- r$A     ri$A    N0_Nhy  bribes
 
-    noun     FaCL                      {- ra$owap -}        `others` [ "ru^sY N0", "ra^sAwY N0", "ri^saN FW-WaBi", "ru^sA Nhy", "ri^sA N0_Nhy", "ra^sAwA Nhy" ]
+    noun     FaCL |< aT                {- ra$owap -}        `others` [ "ru^sY N0", "ra^sAwY N0", "ri^saN FW-WaBi", "ru^sA Nhy", "ri^sA N0_Nhy", "ra^sAwA Nhy" ]
                                                             `gloss`  [ "bribe", "bribes", "bribes [ [ ri $ AF / NOUN ] ]" ] ]
 
  |> "r _d _d" <| [
@@ -1221,17 +1197,6 @@ lexicon = listing "Lexicon properties"
     -- r*A*    ra*A*   N       drizzle;sprinkle
 
     noun     FaCAL                     {- ra*A* -}          `gloss`  [ "drizzle", "sprinkle" ] ]
-
- |> "r _h " <| [
-
-    -- ;; tarAxiy_1
-    -- trAxy   tarAxiy N0_Nh   languor;mitigation;looseness
-    -- trAx    tarAx   NK      languor;mitigation;looseness
-    -- trAxy   tarAxiy NAn_Nayn        languor;mitigation;looseness
-    -- trAxy   tarAxiy NAt     languor;mitigation;looseness
-
-    noun     TaFACiN                   {- tarAxiy -}        `others` [ "tarA_h NK" ]
-                                                            `gloss`  [ "languor", "mitigation", "looseness" ] ]
 
  |> "r _h '" <| [
 
@@ -1253,7 +1218,7 @@ lexicon = listing "Lexicon properties"
     -- rxS     ruxoS   Napdu   license;permit
     -- rxS     ruxaS   N       licenses;permits
 
-    noun     FuCL                      {- ruxoSap -}        `others` [ "ru_ha.s N" ]
+    noun     FuCL |< aT                {- ruxoSap -}        `others` [ "ru_ha.s N" ]
                                                             `gloss`  [ "license", "permit", "licenses", "permits" ],
 
     -- ;; raxiyS_1
@@ -1288,7 +1253,7 @@ lexicon = listing "Lexicon properties"
     -- ;; ruxAmiy~_1
     -- rxAmy   ruxAmiy~        Nall    marble     [[ruxAmiy~/ADJ]]
 
-    noun     FuCAL                     {- ruxAmiy~ -}       `gloss`  [ "marble [ [ ruxAmiy ~ / ADJ ] ]" ],
+    noun     FuCAL |< Iy               {- ruxAmiy~ -}       `gloss`  [ "marble [ [ ruxAmiy ~ / ADJ ] ]" ],
 
     -- ;; raxiym_1
     -- rxym    raxiym  N/ap    mellow;melodious     [[raxiym/ADJ]]
@@ -1315,9 +1280,25 @@ lexicon = listing "Lexicon properties"
     -- rxA&    raxA&   Nh      comfort;luxury
     -- rxA}    raxA}   Nhy     comfort;luxury
 
-    noun     FaCA'                     {- raxA' -}          `gloss`  [ "comfort", "luxury" ] ]
+    noun     FaCA'                     {- raxA' -}          `gloss`  [ "comfort", "luxury" ],
 
- |> "r _t " <| [
+    -- ;; tarAxiy_1
+    -- trAxy   tarAxiy N0_Nh   languor;mitigation;looseness
+    -- trAx    tarAx   NK      languor;mitigation;looseness
+    -- trAxy   tarAxiy NAn_Nayn        languor;mitigation;looseness
+    -- trAxy   tarAxiy NAt     languor;mitigation;looseness
+
+    noun     TaFACiN                   {- tarAxiy -}        `others` [ "tarA_h NK" ]
+                                                            `gloss`  [ "languor", "mitigation", "looseness" ] ]
+
+ |> "r _t _t" <| [
+
+    -- ;; ravAvap_1
+    -- rvAv    ravAv   Nap     shabbiness
+
+    noun     FaCAL |< aT               {- ravAvap -}        `gloss`  [ "shabbiness" ] ]
+
+ |> "r _t w" <| [
 
     -- ;; ravaY_1
     -- rvY     ravaY   PV_0    elegize;mourn
@@ -1343,13 +1324,6 @@ lexicon = listing "Lexicon properties"
     verb     FaCaNY                    {- ravaY -}          `others` [ "ra_tay PV_Atn", "r_t IV_0hwnyn", "r_tiy IV_0hAnn", "r_tY IV_0", "ra_t PV_ttAw", "ra_tA PV_h" ]
                                                             `gloss`  [ "elegize", "mourn" ] ]
 
- |> "r _t _t" <| [
-
-    -- ;; ravAvap_1
-    -- rvAv    ravAv   Nap     shabbiness
-
-    noun     FaCAL                     {- ravAvap -}        `gloss`  [ "shabbiness" ] ]
-
  |> "r ` b" <| [
 
     -- ;; ruEob_1
@@ -1369,7 +1343,7 @@ lexicon = listing "Lexicon properties"
     -- ;; raEodiy~_1
     -- rEdy    raEodiy~        N-ap    thunderous     [[raEodiy~/ADJ]]
 
-    noun     FaCL                      {- raEodiy~ -}       `gloss`  [ "thunderous [ [ raEodiy ~ / ADJ ] ]" ],
+    noun     FaCL |< Iy                {- raEodiy~ -}       `gloss`  [ "thunderous [ [ raEodiy ~ / ADJ ] ]" ],
 
     -- ;; murotaEid_1
     -- mrtEd   murotaEid       Nall    trembling     [[murotaEid/ADJ]]
@@ -1381,7 +1355,12 @@ lexicon = listing "Lexicon properties"
     -- ;; raEawiy~_1
     -- rEwy    raEawiy~        Nall    pastoral;bucolic     [[raEawiy~/ADJ]]
 
-    noun     FaCaL                     {- raEawiy~ -}       `gloss`  [ "pastoral", "bucolic [ [ raEawiy ~ / ADJ ] ]" ] ]
+    noun     FaCaNY |< Iy              {- raEawiy~ -}       `gloss`  [ "pastoral", "bucolic [ [ raEawiy ~ / ADJ ] ]" ],
+
+    -- ;; raEawiy~_1
+    -- rEwy    raEawiy~        Nall    pastoral;bucolic     [[raEawiy~/ADJ]]
+
+    noun     FaCaNY |< Iy              {- raEawiy~ -}       `gloss`  [ "pastoral", "bucolic [ [ raEawiy ~ / ADJ ] ]" ] ]
 
  |> "r ` y" <| [
 
@@ -1431,6 +1410,13 @@ lexicon = listing "Lexicon properties"
 
     noun     FaCL                      {- raEoy -}          `gloss`  [ "care", "custody", "protection" ],
 
+    -- ;; raEiy~ap_1
+    -- rEy     raEiy~  Napdu   subject;citizen     [[raEiy~/NOUN]]
+    -- rEAyA   raEAyA  N0_Nhy  subjects;citizens
+
+    noun     FaCIL |< aT               {- raEiy~ap -}       `others` [ "ra`AyA N0_Nhy" ]
+                                                            `gloss`  [ "subject", "citizen [ [ raEiy ~ / NOUN ] ]", "subjects", "citizens" ],
+
     -- ;; maroEaY_1
     -- mrEY    maroEaY N0      grassland;pasture
     -- mrEA    maroEA  Nhy     grassland;pasture
@@ -1443,7 +1429,14 @@ lexicon = listing "Lexicon properties"
     -- ;; riEAyap_1
     -- rEAy    riEAy   NapAt   custody;protection;sponsorship
 
-    noun     FiCAL                     {- riEAyap -}        `gloss`  [ "custody", "protection", "sponsorship" ],
+    noun     FiCAL |< aT               {- riEAyap -}        `gloss`  [ "custody", "protection", "sponsorship" ],
+
+    -- ;; murAEAp_1
+    -- mrAEA   murAEA  Napdu   compliance;observance;deference
+    -- mrAEy   murAEay NAt     compliance;observance;deference
+
+    noun     MuFACaNY |< aT            {- murAEAp -}        `others` [ "murA`ay NAt" ]
+                                                            `gloss`  [ "compliance", "observance", "deference" ],
 
     -- ;; rAEiy_1
     -- rAEy    rAEiy   N0F_Nh  guardian;patron;sponsor
@@ -1458,7 +1451,12 @@ lexicon = listing "Lexicon properties"
     -- rEA}    ruEA}   Nhy     guardians;patrons;sponsors
 
     noun     FACiL                     {- rAEiy -}          `others` [ "ru`A' Nh Nhy N0_Nh", "ru`A Nap", "rA` Nuwn_Niyn NK", "ru`yAn N" ]
-                                                            `gloss`  [ "guardian", "patron", "sponsor", "guardians", "patrons", "sponsors" ] ]
+                                                            `gloss`  [ "guardian", "patron", "sponsor", "guardians", "patrons", "sponsors" ],
+
+    -- ;; maroEiy~_1
+    -- mrEy    maroEiy~        N-ap    observed;complied with     [[maroEiy~/ADJ]]
+
+    noun     MaFCIy                    {- maroEiy~ -}       `gloss`  [ "observed", "complied with [ [ maroEiy ~ / ADJ ] ]" ] ]
 
  |> "r b .h" <| [
 
@@ -1481,12 +1479,12 @@ lexicon = listing "Lexicon properties"
     -- ;; riboHiy~_1
     -- rbHy    riboHiy~        Nall    profit;interest     [[riboHiy~/ADJ]]
 
-    noun     FiCL                      {- riboHiy~ -}       `gloss`  [ "profit", "interest [ [ riboHiy ~ / ADJ ] ]" ],
+    noun     FiCL |< Iy                {- riboHiy~ -}       `gloss`  [ "profit", "interest [ [ riboHiy ~ / ADJ ] ]" ],
 
     -- ;; murAbaHap_1
     -- mrAbH   murAbaH NapAt   resale for profit
 
-    noun     MuFACaL                   {- murAbaHap -}      `gloss`  [ "resale for profit" ],
+    noun     MuFACaL |< aT             {- murAbaHap -}      `gloss`  [ "resale for profit" ],
 
     -- ;; rAbiH_1
     -- rAbH    rAbiH   Nall    beneficiary;profiteer;lucrative
@@ -1536,7 +1534,7 @@ lexicon = listing "Lexicon properties"
     -- rbT     raboT   Napdu   tie;bandage
     -- rbT     rabaT   NAt     ties;bandages
 
-    noun     FaCL                      {- raboTap -}        `others` [ "raba.t NAt" ]
+    noun     FaCL |< aT                {- raboTap -}        `others` [ "raba.t NAt" ]
                                                             `gloss`  [ "tie", "bandage", "ties", "bandages" ],
 
     -- ;; ribAT_1
@@ -1562,14 +1560,14 @@ lexicon = listing "Lexicon properties"
     -- rAbT    rAbiT   Napdu   tie;link
     -- rwAbT   rawAbiT Ndip    ties;links
 
-    noun     FACiL                     {- rAbiTap -}        `others` [ "rawAbi.t Ndip" ]
+    noun     FACiL |< aT               {- rAbiTap -}        `others` [ "rawAbi.t Ndip" ]
                                                             `gloss`  [ "tie", "link", "ties", "links" ],
 
     -- ;; rAbiTap_2
     -- rAbT    rAbiT   Napdu   league;union
     -- rwAbT   rawAbiT Ndip    leagues;unions
 
-    noun     FACiL                     {- rAbiTap -}        `others` [ "rawAbi.t Ndip" ]
+    noun     FACiL |< aT               {- rAbiTap -}        `others` [ "rawAbi.t Ndip" ]
                                                             `gloss`  [ "league", "union", "leagues", "unions" ],
 
     -- ;; marobuwT_1
@@ -1634,7 +1632,7 @@ lexicon = listing "Lexicon properties"
     -- rbAEy   rubAEiy~        Nall    four-part;four-sided;     [[rubAEiy~/ADJ]]
     -- rbAEy   rubAEiy~        NduAt   quadrangle
 
-    noun     FuCAL                     {- rubAEiy~ -}       `gloss`  [ "four-part", "four-sided", "[ [ rubAEiy ~ / ADJ ] ]", "quadrangle" ],
+    noun     FuCAL |< Iy               {- rubAEiy~ -}       `gloss`  [ "four-part", "four-sided", "[ [ rubAEiy ~ / ADJ ] ]", "quadrangle" ],
 
     -- ;; >arobiEA'_1
     -- >rbEA'  >arobiEA'       N0_Nh   Wednesday
@@ -1667,7 +1665,7 @@ lexicon = listing "Lexicon properties"
     -- ;; murab~aEap_1
     -- mrbE    murab~aE        NapAt   section;district
 
-    noun     MuFaCCaL                  {- murab~aEap -}     `gloss`  [ "section", "district" ] ]
+    noun     MuFaCCaL |< aT            {- murab~aEap -}     `gloss`  [ "section", "district" ] ]
 
  |> "r b b" <| [
 
@@ -1688,7 +1686,7 @@ lexicon = listing "Lexicon properties"
     -- rbAny   rab~Aniy~       N-ap    divine     [[rab~Aniy~/ADJ]]
     -- rbAny   rab~Aniy~       NAt     divinities     [[rab~Aniy~/ADJ]]
 
-    noun     FaCLAn                    {- rab~Aniy~ -}      `gloss`  [ "divine [ [ rab ~ Aniy ~ / ADJ ] ]", "divinities [ [ rab ~ Aniy ~ / ADJ ] ]" ],
+    noun     FaCLAn |< Iy              {- rab~Aniy~ -}      `gloss`  [ "divine [ [ rab ~ Aniy ~ / ADJ ] ]", "divinities [ [ rab ~ Aniy ~ / ADJ ] ]" ],
 
     -- ;; rab~aY_1
     -- rbY     rab~aY  PV_0    raise;grow
@@ -1734,7 +1732,7 @@ lexicon = listing "Lexicon properties"
     -- rbAny   rab~Aniy~       N-ap    divine     [[rab~Aniy~/ADJ]]
     -- rbAny   rab~Aniy~       NAt     divinities     [[rab~Aniy~/ADJ]]
 
-    noun     FaCCAL                    {- rab~Aniy~ -}      `gloss`  [ "divine [ [ rab ~ Aniy ~ / ADJ ] ]", "divinities [ [ rab ~ Aniy ~ / ADJ ] ]" ] ]
+    noun     FaCCAL |< Iy              {- rab~Aniy~ -}      `gloss`  [ "divine [ [ rab ~ Aniy ~ / ADJ ] ]", "divinities [ [ rab ~ Aniy ~ / ADJ ] ]" ] ]
 
  |> "r b w" <| [
 
@@ -1756,19 +1754,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tarobiyap_1
     -- trby    tarobiy NapAt   education;pedagogy;breeding
 
-    noun     TaFCiL                    {- tarobiyap -}      `gloss`  [ "education", "pedagogy", "breeding" ] ]
-
- |> "r d " <| [
-
-    -- ;; mutarad~iy_1
-    -- mtrdy   mutarad~iy      N0F_Nh  deteriorating;worsened
-    -- mtrd    mutarad~        NK      deteriorating;worsened
-    -- mtrdy   mutarad~iy      NAn_Nayn        deteriorating;worsened
-    -- mtrd    mutarad~        Nuwn_Niyn       deteriorating;worsened
-    -- mtrdy   mutarad~iy      NapAt   deteriorating;worsened
-
-    noun     MutaFaCCiN                {- mutarad~iy -}     `others` [ "mutaradd Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "deteriorating", "worsened" ] ]
+    noun     TaFCiL |< aT              {- tarobiyap -}      `gloss`  [ "education", "pedagogy", "breeding" ] ]
 
  |> "r d '" <| [
 
@@ -1791,7 +1777,7 @@ lexicon = listing "Lexicon properties"
     -- ;; radA'ap_1
     -- rdA'    radA'   Nap     wickedness;maliciousness
 
-    noun     FaCAL                     {- radA'ap -}        `gloss`  [ "wickedness", "maliciousness" ] ]
+    noun     FaCAL |< aT               {- radA'ap -}        `gloss`  [ "wickedness", "maliciousness" ] ]
 
  |> "r d `" <| [
 
@@ -1811,13 +1797,6 @@ lexicon = listing "Lexicon properties"
 
     noun     FACiL                     {- rAdiE -}          `others` [ "rawAdi` Ndip" ]
                                                             `gloss`  [ "deterrence", "obstacle", "deterrences", "obstacles", "impediments" ] ]
-
- |> "r d b" <| [
-
-    -- ;; radA'ap_1
-    -- rdA'    radA'   Nap     wickedness;maliciousness
-
-    noun     FaCA'                     {- radA'ap -}        `gloss`  [ "wickedness", "maliciousness" ] ]
 
  |> "r d d" <| [
 
@@ -1861,13 +1840,13 @@ lexicon = listing "Lexicon properties"
     -- ;; rad~AF_1
     -- rd      rad~    NF      in reply to;in answer to     [[rad~/ADV]]
 
-    noun     FaCL                      {- rad~AF -}         `others` [ "radd NF" ]
+    noun     FaCL |< aN                {- rad~AF -}         `others` [ "radd NF" ]
                                                             `gloss`  [ "in reply to", "in answer to [ [ rad ~ / ADV ] ]" ],
 
     -- ;; rad~ap_1
     -- rd      rad~    Nap     reverberation;echo
 
-    noun     FaCL                      {- rad~ap -}         `gloss`  [ "reverberation", "echo" ],
+    noun     FaCL |< aT                {- rad~ap -}         `gloss`  [ "reverberation", "echo" ],
 
     -- ;; marad~_1
     -- mrd     marad~  Ndu     underlying factor;rejection
@@ -1893,7 +1872,7 @@ lexicon = listing "Lexicon properties"
     -- ;; maroduwdiy~ap_1
     -- mrdwdy  maroduwdiy~     Nap     profitability     [[maroduwdiy~/NOUN]]
 
-    noun     MaFCUL                    {- maroduwdiy~ap -}  `gloss`  [ "profitability [ [ maroduwdiy ~ / NOUN ] ]" ],
+    noun     MaFCUL |< Iy |< aT        {- maroduwdiy~ap -}  `gloss`  [ "profitability [ [ maroduwdiy ~ / NOUN ] ]" ],
 
     -- ;; rad~aY_1
     -- rdY     rad~aY  PV_0    make fall;annihilate
@@ -1906,7 +1885,12 @@ lexicon = listing "Lexicon properties"
     -- rdy     rad~ay  IV_Ann_Pass_yu  be struck down;be annihilated
 
     verb     FaCLY                     {- rad~aY -}         `others` [ "radday PV_Atn IV_Ann_Pass_yu", "radd IV_0hwnyn_yu PV_ttAw", "raddA PV_h", "raddiy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "make fall", "annihilate", "be struck down", "be annihilated" ] ]
+                                                            `gloss`  [ "make fall", "annihilate", "be struck down", "be annihilated" ],
+
+    -- ;; ruwdiy_1
+    -- rwdy    ruwdiy  Nprop   Rudi
+
+    noun     FUCiy                     {- ruwdiy -}         `gloss`  [ "Rudi" ] ]
 
  |> "r d f" <| [
 
@@ -1936,7 +1920,7 @@ lexicon = listing "Lexicon properties"
     -- rdynp   rudayonap       Nprop   Rdeneh;Rudaina
     -- rdynh   rudayonap       Nprop   Rdeneh;Rudaina
 
-    noun     FuCayL                    {- rudayonap -}      `gloss`  [ "Rdeneh", "Rudaina" ] ]
+    noun     FuCayL |< aT              {- rudayonap -}      `gloss`  [ "Rdeneh", "Rudaina" ] ]
 
  |> "r d y" <| [
 
@@ -1990,13 +1974,6 @@ lexicon = listing "Lexicon properties"
 
     noun     MutaFaCCiL                {- mutarad~iy -}     `others` [ "mutaradd Nuwn_Niyn NK" ]
                                                             `gloss`  [ "deteriorating", "worsened" ] ]
-
- |> "r d z" <| [
-
-    -- ;; ruwdiy_1
-    -- rwdy    ruwdiy  Nprop   Rudi
-
-    noun     FUCiy                     {- ruwdiy -}         `gloss`  [ "Rudi" ] ]
 
  |> "r f '" <| [
 
@@ -2077,12 +2054,12 @@ lexicon = listing "Lexicon properties"
     -- ;; rifoEap_1
     -- rfE     rifoE   Nap     height;elevation;high rank
 
-    noun     FiCL                      {- rifoEap -}        `gloss`  [ "height", "elevation", "high rank" ],
+    noun     FiCL |< aT                {- rifoEap -}        `gloss`  [ "height", "elevation", "high rank" ],
 
     -- ;; rifAEiy~_1
     -- rfAEy   rifAEiy~        N0      Rifa'i
 
-    noun     FiCAL                     {- rifAEiy~ -}       `gloss`  [ "Rifa'i" ],
+    noun     FiCAL |< Iy               {- rifAEiy~ -}       `gloss`  [ "Rifa'i" ],
 
     -- ;; rafiyE_1
     -- rfyE    rafiyE  Nall    high-ranking;top-level     [[rafiyE/ADJ]]
@@ -2113,7 +2090,7 @@ lexicon = listing "Lexicon properties"
     -- ;; murAfaEap_1
     -- mrAfE   murAfaE NapAt   legal proceeding
 
-    noun     MuFACaL                   {- murAfaEap -}      `gloss`  [ "legal proceeding" ],
+    noun     MuFACaL |< aT             {- murAfaEap -}      `gloss`  [ "legal proceeding" ],
 
     -- ;; rAfiE_1
     -- rAfE    rAfiE   N-ap    hoisting;lifting;crane
@@ -2163,12 +2140,12 @@ lexicon = listing "Lexicon properties"
     -- ;; rafAhiy~ap_1
     -- rfAhy   rafAhiy~        Nap     comfort;luxury     [[rafAhiy~/NOUN]]
 
-    noun     FaCAL                     {- rafAhiy~ap -}     `gloss`  [ "comfort", "luxury [ [ rafAhiy ~ / NOUN ] ]" ],
+    noun     FaCAL |< Iy |< aT         {- rafAhiy~ap -}     `gloss`  [ "comfort", "luxury [ [ rafAhiy ~ / NOUN ] ]" ],
 
     -- ;; tarofiyhiy~_1
     -- trfyhy  tarofiyhiy~     Nall    entertainment;recreation;amusement     [[tarofiyhiy~/ADJ]]
 
-    noun     TaFCIL                    {- tarofiyhiy~ -}    `gloss`  [ "entertainment", "recreation", "amusement [ [ tarofiyhiy ~ / ADJ ] ]" ] ]
+    noun     TaFCIL |< Iy              {- tarofiyhiy~ -}    `gloss`  [ "entertainment", "recreation", "amusement [ [ tarofiyhiy ~ / ADJ ] ]" ] ]
 
  |> "r f q" <| [
 
@@ -2201,7 +2178,7 @@ lexicon = listing "Lexicon properties"
     -- >rfAq   >arofAq N       groups;companions
     -- ArfAq   >arofAq N       groups;companions
 
-    noun     FiCL                      {- rifoqap -}        `others` [ "'arfAq N", "rifAq N", "rifaq N" ]
+    noun     FiCL |< aT                {- rifoqap -}        `others` [ "'arfAq N", "rifAq N", "rifaq N" ]
                                                             `gloss`  [ "company", "group", "groups", "companions" ],
 
     -- ;; rafiyq_1
@@ -2222,7 +2199,7 @@ lexicon = listing "Lexicon properties"
     -- ;; rafiyqap_1
     -- rfyq    rafiyq  NapAt   woman companion;mistress
 
-    noun     FaCIL                     {- rafiyqap -}       `gloss`  [ "woman companion", "mistress" ],
+    noun     FaCIL |< aT               {- rafiyqap -}       `gloss`  [ "woman companion", "mistress" ],
 
     -- ;; mirofaq_1
     -- mrfq    mirofaq Ndu     convenience;amenity;facility
@@ -2234,7 +2211,7 @@ lexicon = listing "Lexicon properties"
     -- ;; murAfaqap_1
     -- mrAfq   murAfaq NapAt   accompaniment;escort
 
-    noun     MuFACaL                   {- murAfaqap -}      `gloss`  [ "accompaniment", "escort" ],
+    noun     MuFACaL |< aT             {- murAfaqap -}      `gloss`  [ "accompaniment", "escort" ],
 
     -- ;; murAfiq_1
     -- mrAfq   murAfiq Nall    companion;adjutant
@@ -2261,7 +2238,7 @@ lexicon = listing "Lexicon properties"
     -- ;; rahobap_1
     -- rhb     rahob   Nap     fear;alarm
 
-    noun     FaCL                      {- rahobap -}        `gloss`  [ "fear", "alarm" ],
+    noun     FaCL |< aT                {- rahobap -}        `gloss`  [ "fear", "alarm" ],
 
     -- ;; rahiyb_1
     -- rhyb    rahiyb  Nall    dreadful;fearful;serious     [[rahiyb/ADJ]]
@@ -2285,14 +2262,14 @@ lexicon = listing "Lexicon properties"
     -- <rhAby  <irohAbiy~      Nall    terrorist     [[<irohAbiy~/ADJ]]
     -- ArhAby  <irohAbiy~      Nall    terrorist     [[<irohAbiy~/ADJ]]
 
-    noun     HiFCAL                    {- IirohAbiy~ -}     `gloss`  [ "terrorist [ [" ] ]
+    noun     HiFCAL |< Iy              {- IirohAbiy~ -}     `gloss`  [ "terrorist [ [" ] ]
 
  |> "r h b n" <| [
 
     -- ;; rahobanap_1
     -- rhbn    rahoban Nap     monasticism;monastic order
 
-    noun     KaRDaS                    {- rahobanap -}      `gloss`  [ "monasticism", "monastic order" ] ]
+    noun     KaRDaS |< aT              {- rahobanap -}      `gloss`  [ "monasticism", "monastic order" ] ]
 
  |> "r h f" <| [
 
@@ -2344,7 +2321,7 @@ lexicon = listing "Lexicon properties"
     -- rhyn    rahiyn  Napdu   hostage
     -- rhA}n   rahA}in Ndip    hostages
 
-    noun     FaCIL                     {- rahiynap -}       `others` [ "rahA'in Ndip" ]
+    noun     FaCIL |< aT               {- rahiynap -}       `others` [ "rahA'in Ndip" ]
                                                             `gloss`  [ "hostage", "hostages" ],
 
     -- ;; rihAn_1
@@ -2413,7 +2390,7 @@ lexicon = listing "Lexicon properties"
     -- rkb     rukob   NapAt   knee
     -- rkb     rukab   N       knees
 
-    noun     FuCL                      {- rukobap -}        `others` [ "rukab N" ]
+    noun     FuCL |< aT                {- rukobap -}        `others` [ "rukab N" ]
                                                             `gloss`  [ "knee", "knees" ],
 
     -- ;; rukuwb_2
@@ -2431,7 +2408,7 @@ lexicon = listing "Lexicon properties"
     -- ;; marokabap_1
     -- mrkb    marokab NapAt   vehicle;carriage;craft
 
-    noun     MaFCaL                    {- marokabap -}      `gloss`  [ "vehicle", "carriage", "craft" ],
+    noun     MaFCaL |< aT              {- marokabap -}      `gloss`  [ "vehicle", "carriage", "craft" ],
 
     -- ;; tarokiyb_1
     -- trkyb   tarokiyb        Ndu     installation;assembling
@@ -2442,7 +2419,7 @@ lexicon = listing "Lexicon properties"
     -- ;; tarokiybap_1
     -- trkyb   tarokiyb        NapAt   structure;composition
 
-    noun     TaFCIL                    {- tarokiybap -}     `gloss`  [ "structure", "composition" ],
+    noun     TaFCIL |< aT              {- tarokiybap -}     `gloss`  [ "structure", "composition" ],
 
     -- ;; rAkib_1
     -- rAkb    rAkib   Nall    rider;passenger
@@ -2543,7 +2520,7 @@ lexicon = listing "Lexicon properties"
     -- ;; rukoniy~_1
     -- rkny    rukoniy~        Nall    corner     [[rukoniy~/ADJ]]
 
-    noun     FuCL                      {- rukoniy~ -}       `gloss`  [ "corner [ [ rukoniy ~ / ADJ ] ]" ] ]
+    noun     FuCL |< Iy                {- rukoniy~ -}       `gloss`  [ "corner [ [ rukoniy ~ / ADJ ] ]" ] ]
 
  |> "r k z" <| [
 
@@ -2564,7 +2541,7 @@ lexicon = listing "Lexicon properties"
     -- rkyz    rakiyz  Napdu   support;pillar;pole
     -- rkA}z   rakA}iz Ndip    supports;pillars
 
-    noun     FaCIL                     {- rakiyzap -}       `others` [ "rakA'iz Ndip" ]
+    noun     FaCIL |< aT               {- rakiyzap -}       `others` [ "rakA'iz Ndip" ]
                                                             `gloss`  [ "support", "pillar", "pole", "supports", "pillars" ],
 
     -- ;; marokaz_1
@@ -2582,7 +2559,7 @@ lexicon = listing "Lexicon properties"
     -- ;; marokaziy~_1
     -- mrkzy   marokaziy~      N-ap    central     [[marokaziy~/ADJ]]
 
-    noun     MaFCaL                    {- marokaziy~ -}     `gloss`  [ "central [ [ marokaziy ~ / ADJ ] ]" ],
+    noun     MaFCaL |< Iy              {- marokaziy~ -}     `gloss`  [ "central [ [ marokaziy ~ / ADJ ] ]" ],
 
     -- ;; tarokiyz_1
     -- trkyz   tarokiyz        NduAt   emphasis;focus;concentration;installation
@@ -2606,7 +2583,7 @@ lexicon = listing "Lexicon properties"
 
     noun     FACL                      {- rAlf -}           `gloss`  [ "Ralph" ] ]
 
- |> "r l m" <| [
+ |> "r l l" <| [
 
     -- ;; rAliy_1
     -- rAly    rAliy   N0      rally
@@ -2625,18 +2602,6 @@ lexicon = listing "Lexicon properties"
 
     noun     FACiL                     {- rAliy -}          `gloss`  [ "rally" ] ]
 
- |> "r m " <| [
-
-    -- ;; mutarAmiy_1
-    -- mtrAmy  mutarAmiy       N0F_Nh  wide;extensive     [[mutarAmiy/ADJ]]
-    -- mtrAm   mutarAm NK      wide;extensive
-    -- mtrAmy  mutarAmiy       NAn_Nayn        wide;extensive
-    -- mtrAm   mutarAm Nuwn_Niyn       wide;extensive
-    -- mtrAmy  mutarAmiy       NapAt   wide;extensive
-
-    noun     MutaFACiN                 {- mutarAmiy -}      `others` [ "mutarAm Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "wide", "extensive [ [ mutarAmiy / ADJ ] ]", "extensive" ] ]
-
  |> "r m .d" <| [
 
     -- ;; ramaDAn_1
@@ -2648,7 +2613,7 @@ lexicon = listing "Lexicon properties"
     -- rmDAny  ramaDAniy~      Nall    Ramadan-related     [[ramaDAniy~/NOUN]]
     -- rmDAny  ramaDAniy~      Nall    Ramadan-related     [[ramaDAniy~/ADJ]]
 
-    noun     FaCaLAn                   {- ramaDAniy~ -}     `gloss`  [ "Ramadan-related [ [ ramaDAniy ~ / NOUN ] ]", "Ramadan-related [ [ ramaDAniy ~ / ADJ ] ]" ] ]
+    noun     FaCaLAn |< Iy             {- ramaDAniy~ -}     `gloss`  [ "Ramadan-related [ [ ramaDAniy ~ / NOUN ] ]", "Ramadan-related [ [ ramaDAniy ~ / ADJ ] ]" ] ]
 
  |> "r m d" <| [
 
@@ -2663,7 +2628,7 @@ lexicon = listing "Lexicon properties"
     -- ;; ramAdiy~_1
     -- rmAdy   ramAdiy~        Nall    ashen;ash-colored;gray;taupe     [[ramAdiy~/ADJ]]
 
-    noun     FaCAL                     {- ramAdiy~ -}       `gloss`  [ "ashen", "ash-colored", "gray", "taupe [ [ ramAdiy ~ / ADJ ] ]" ] ]
+    noun     FaCAL |< Iy               {- ramAdiy~ -}       `gloss`  [ "ashen", "ash-colored", "gray", "taupe [ [ ramAdiy ~ / ADJ ] ]" ] ]
 
  |> "r m l" <| [
 
@@ -2682,7 +2647,7 @@ lexicon = listing "Lexicon properties"
     -- >rAml   >arAmil Nap     widows
     -- ArAml   >arAmil Nap     widows
 
-    noun     HaFCaL                    {- Oaromalap -}      `others` [ "'arAmil Nap Ndip" ]
+    noun     HaFCaL |< aT              {- Oaromalap -}      `others` [ "'arAmil Nap Ndip" ]
                                                             `gloss`  [ "widow", "widows" ] ]
 
  |> "r m m" <| [
@@ -2690,7 +2655,7 @@ lexicon = listing "Lexicon properties"
     -- ;; rum~ap_1
     -- rm      rum~    Nap     entire;complete
 
-    noun     FuCL                      {- rum~ap -}         `gloss`  [ "entire", "complete" ],
+    noun     FuCL |< aT                {- rum~ap -}         `gloss`  [ "entire", "complete" ],
 
     -- ;; taromiym_1
     -- trmym   taromiym        NduAt   restoration;renovation
@@ -2703,7 +2668,7 @@ lexicon = listing "Lexicon properties"
     -- rwmAny  ruwmAniy~       Nall    Romanian     [[ruwmAniy~/NOUN]]
     -- rwmAny  ruwmAniy~       Nall    Romanian     [[ruwmAniy~/ADJ]]
 
-    noun     FUCAL                     {- ruwmAniy~ -}      `gloss`  [ "Romanian [ [ ruwmAniy ~ / NOUN ] ]", "Romanian [ [ ruwmAniy ~ / ADJ ] ]" ] ]
+    noun     FUCAL |< Iy               {- ruwmAniy~ -}      `gloss`  [ "Romanian [ [ ruwmAniy ~ / NOUN ] ]", "Romanian [ [ ruwmAniy ~ / ADJ ] ]" ] ]
 
  |> "r m q" <| [
 
@@ -2804,12 +2769,12 @@ lexicon = listing "Lexicon properties"
     -- ;; ramoziy~_1
     -- rmzy    ramoziy~        Nall    symbolic     [[ramoziy~/ADJ]]
 
-    noun     FaCL                      {- ramoziy~ -}       `gloss`  [ "symbolic [ [ ramoziy ~ / ADJ ] ]" ],
+    noun     FaCL |< Iy                {- ramoziy~ -}       `gloss`  [ "symbolic [ [ ramoziy ~ / ADJ ] ]" ],
 
     -- ;; ramoziy~ap_1
     -- rmzy    ramoziy~        Nap     symbolism     [[ramoziy~/NOUN]]
 
-    noun     FaCL                      {- ramoziy~ap -}     `gloss`  [ "symbolism [ [ ramoziy ~ / NOUN ] ]" ] ]
+    noun     FaCL |< Iy |< aT          {- ramoziy~ap -}     `gloss`  [ "symbolism [ [ ramoziy ~ / NOUN ] ]" ] ]
 
  |> "r n .h" <| [
 
@@ -2825,7 +2790,7 @@ lexicon = listing "Lexicon properties"
     -- rndp    ranodap Nprop   Randa
     -- rndh    ranodah Nprop   Randa
 
-    noun     FaCL                      {- ranodap -}        `others` [ "randah Nprop" ]
+    noun     FaCL |< aT                {- ranodap -}        `others` [ "randah Nprop" ]
                                                             `gloss`  [ "Randa" ] ]
 
  |> "r n n" <| [
@@ -2838,36 +2803,12 @@ lexicon = listing "Lexicon properties"
     -- ;; ran~An_1
     -- rnAn    ran~An  Nall    resounding;resonating;ringing;reverberating     [[ran~An/ADJ]]
 
-    noun     FaCLAn                    {- ran~An -}         `gloss`  [ "resounding", "resonating", "ringing", "reverberating [ [ ran ~ An / ADJ ] ]" ] ]
-
- |> "r n y" <| [
+    noun     FaCLAn                    {- ran~An -}         `gloss`  [ "resounding", "resonating", "ringing", "reverberating [ [ ran ~ An / ADJ ] ]" ],
 
     -- ;; ruwniy_1
     -- rwny    ruwniy  Nprop   Ronny;Ronnie
 
     noun     FUCiy                     {- ruwniy -}         `gloss`  [ "Ronny", "Ronnie" ] ]
-
- |> "r q " <| [
-
-    -- ;; rAqiy_1
-    -- rAqy    rAqiy   N0F     ascending;advanced     [[rAqiy/ADJ]]
-    -- rAq     rAq     NK      ascending;advanced
-    -- rAqy    rAqiy   NAn_Nayn        ascending;advanced
-    -- rAq     rAq     Nuwn_Niyn       ascending;advanced
-    -- rAqy    rAqiy   NapAt   ascending;advanced
-
-    noun     FACI                      {- rAqiy -}          `others` [ "rAq Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "ascending", "advanced [ [ rAqiy / ADJ ] ]", "advanced" ],
-
-    -- ;; rAqiy_1
-    -- rAqy    rAqiy   N0F     ascending;advanced     [[rAqiy/ADJ]]
-    -- rAq     rAq     NK      ascending;advanced
-    -- rAqy    rAqiy   NAn_Nayn        ascending;advanced
-    -- rAq     rAq     Nuwn_Niyn       ascending;advanced
-    -- rAqy    rAqiy   NapAt   ascending;advanced
-
-    noun     FACI                      {- rAqiy -}          `others` [ "rAq Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "ascending", "advanced [ [ rAqiy / ADJ ] ]", "advanced" ] ]
 
  |> "r q .s" <| [
 
@@ -2888,7 +2829,7 @@ lexicon = listing "Lexicon properties"
     -- rqS     raqoS   Napdu   dance
     -- rqS     raqaS   NAt     dances;dancing
 
-    noun     FaCL                      {- raqoSap -}        `others` [ "raqa.s NAt" ]
+    noun     FaCL |< aT                {- raqoSap -}        `others` [ "raqa.s NAt" ]
                                                             `gloss`  [ "dance", "dances", "dancing" ],
 
     -- ;; rAqiS_1
@@ -2903,7 +2844,7 @@ lexicon = listing "Lexicon properties"
     -- rqE     ruqaE   N       patches;plots of land
     -- rqAE    riqAE   N       patches;plots of land
 
-    noun     FuCL                      {- ruqoEap -}        `others` [ "ruqa` N", "riqA` N" ]
+    noun     FuCL |< aT                {- ruqoEap -}        `others` [ "ruqa` N", "riqA` N" ]
                                                             `gloss`  [ "patch", "plot of land", "patches", "plots of land" ] ]
 
  |> "r q b" <| [
@@ -2937,7 +2878,7 @@ lexicon = listing "Lexicon properties"
     -- rqAb    riqAb   N       necks
     -- rqAb    riqAb   N       slaves
 
-    noun     FaCaL                     {- raqabap -}        `others` [ "raqab NAt", "riqAb N" ]
+    noun     FaCaL |< aT               {- raqabap -}        `others` [ "raqab NAt", "riqAb N" ]
                                                             `gloss`  [ "neck", "necks", "slaves" ],
 
     -- ;; raqiyb_2
@@ -2952,22 +2893,22 @@ lexicon = listing "Lexicon properties"
     -- ;; raqAbap_1
     -- rqAb    raqAb   Nap     censorship;surveillance
 
-    noun     FaCAL                     {- raqAbap -}        `gloss`  [ "censorship", "surveillance" ],
+    noun     FaCAL |< aT               {- raqAbap -}        `gloss`  [ "censorship", "surveillance" ],
 
     -- ;; raqAbiy~_1
     -- rqAby   raqAbiy~        N-ap    censorship;surveillance     [[raqAbiy~/ADJ]]
 
-    noun     FaCAL                     {- raqAbiy~ -}       `gloss`  [ "censorship", "surveillance [ [ raqAbiy ~ / ADJ ] ]" ],
+    noun     FaCAL |< Iy               {- raqAbiy~ -}       `gloss`  [ "censorship", "surveillance [ [ raqAbiy ~ / ADJ ] ]" ],
 
     -- ;; murAqabap_1
     -- mrAqb   murAqab NapAt   surveillance;monitoring
 
-    noun     MuFACaL                   {- murAqabap -}      `gloss`  [ "surveillance", "monitoring" ],
+    noun     MuFACaL |< aT             {- murAqabap -}      `gloss`  [ "surveillance", "monitoring" ],
 
     -- ;; murAqabap_2
     -- mrAqb   murAqab NapAt   observation;inspection
 
-    noun     MuFACaL                   {- murAqabap -}      `gloss`  [ "observation", "inspection" ],
+    noun     MuFACaL |< aT             {- murAqabap -}      `gloss`  [ "observation", "inspection" ],
 
     -- ;; taraq~ub_1
     -- trqb    taraq~ub        NduAt   expectation;anticipation
@@ -3016,7 +2957,7 @@ lexicon = listing "Lexicon properties"
     -- ;; raqamiy~_1
     -- rqmy    raqamiy~        N-ap    numerical;number     [[raqamiy~/ADJ]]
 
-    noun     FaCaL                     {- raqamiy~ -}       `gloss`  [ "numerical", "number [ [ raqamiy ~ / ADJ ] ]" ],
+    noun     FaCaL |< Iy               {- raqamiy~ -}       `gloss`  [ "numerical", "number [ [ raqamiy ~ / ADJ ] ]" ],
 
     -- ;; taroqiym_1
     -- trqym   taroqiym        NduAt   numbering;numeration
@@ -3077,7 +3018,7 @@ lexicon = listing "Lexicon properties"
     -- ;; taroqiyap_1
     -- trqy    taroqiy NapAt   promotion;advancement;elevation
 
-    noun     TaFCiL                    {- taroqiyap -}      `gloss`  [ "promotion", "advancement", "elevation" ],
+    noun     TaFCiL |< aT              {- taroqiyap -}      `gloss`  [ "promotion", "advancement", "elevation" ],
 
     -- ;; rAqiy_1
     -- rAqy    rAqiy   N0F     ascending;advanced     [[rAqiy/ADJ]]
@@ -3096,50 +3037,15 @@ lexicon = listing "Lexicon properties"
     -- ry      riy~    Napdu   lung     [[riy~/NOUN]]
     -- r}wn    ri}uwn  N       lungs
 
-    noun     CiL                       {- ri}ap -}          `others` [ "ri'uwn N", "riyy Napdu" ]
+    noun     CiL |< aT                 {- ri}ap -}          `others` [ "ri'uwn N", "riyy Napdu" ]
                                                             `gloss`  [ "lung", "lung [ [ riy ~ / NOUN ] ]", "lungs" ] ]
-
- |> "r r `" <| [
-
-    -- ;; raEiy~ap_1
-    -- rEy     raEiy~  Napdu   subject;citizen     [[raEiy~/NOUN]]
-    -- rEAyA   raEAyA  N0_Nhy  subjects;citizens
-
-    noun     CaL                       {- raEiy~ap -}       `others` [ "ra`AyA N0_Nhy" ]
-                                                            `gloss`  [ "subject", "citizen [ [ raEiy ~ / NOUN ] ]", "subjects", "citizens" ] ]
 
  |> "r r f" <| [
 
     -- ;; rufAt_1
     -- rfAt    rufAt   N       remains;body
 
-    noun     CuL                       {- rufAt -}          `gloss`  [ "remains", "body" ] ]
-
- |> "r s " <| [
-
-    -- ;; rAsiy_1
-    -- rAsy    rAsiy   N0F     immovable;anchored;moored     [[rAsiy/ADJ]]
-    -- rAs     rAs     NK      immovable;anchored;moored
-    -- rAsy    rAsiy   NAn_Nayn        immovable;anchored;moored
-    -- rAs     rAs     Nuwn_Niyn       immovable;anchored;moored
-    -- rAsy    rAsiy   NapAt   immovable;anchored;moored
-    -- rwAsy   rawAsiy N0_Nh   immovable;anchored;moored
-    -- rwAs    rawAs   NK      immovable;anchored;moored
-
-    noun     FACI                      {- rAsiy -}          `others` [ "rawAsiy N0_Nh", "rawAs NK", "rAs Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "immovable", "anchored", "moored [ [ rAsiy / ADJ ] ]", "moored" ],
-
-    -- ;; rAsiy_1
-    -- rAsy    rAsiy   N0F     immovable;anchored;moored     [[rAsiy/ADJ]]
-    -- rAs     rAs     NK      immovable;anchored;moored
-    -- rAsy    rAsiy   NAn_Nayn        immovable;anchored;moored
-    -- rAs     rAs     Nuwn_Niyn       immovable;anchored;moored
-    -- rAsy    rAsiy   NapAt   immovable;anchored;moored
-    -- rwAsy   rawAsiy N0_Nh   immovable;anchored;moored
-    -- rwAs    rawAs   NK      immovable;anchored;moored
-
-    noun     FACI                      {- rAsiy -}          `others` [ "rawAsiy N0_Nh", "rawAs NK", "rAs Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "immovable", "anchored", "moored [ [ rAsiy / ADJ ] ]", "moored" ] ]
+    noun     CuL |< At                 {- rufAt -}          `gloss`  [ "remains", "body" ] ]
 
  |> "r s '" <| [
 
@@ -3232,18 +3138,18 @@ lexicon = listing "Lexicon properties"
     -- rsAl    risAl   Napdu   dissertation
     -- rsA}l   rasA}il Ndip    letters;messages
 
-    noun     FiCAL                     {- risAlap -}        `others` [ "rasA'il Ndip" ]
+    noun     FiCAL |< aT               {- risAlap -}        `others` [ "rasA'il Ndip" ]
                                                             `gloss`  [ "letter", "communication", "dissertation", "letters", "messages" ],
 
     -- ;; risAlap_2
     -- rsAl    risAl   NapAt   mission;task
 
-    noun     FiCAL                     {- risAlap -}        `gloss`  [ "mission", "task" ],
+    noun     FiCAL |< aT               {- risAlap -}        `gloss`  [ "mission", "task" ],
 
     -- ;; murAsalap_1
     -- mrAsl   murAsal NapAt   correspondence;communication
 
-    noun     MuFACaL                   {- murAsalap -}      `gloss`  [ "correspondence", "communication" ],
+    noun     MuFACaL |< aT             {- murAsalap -}      `gloss`  [ "correspondence", "communication" ],
 
     -- ;; <irosAl_1
     -- <rsAl   <irosAl NduAt   transmission;broadcast
@@ -3297,12 +3203,12 @@ lexicon = listing "Lexicon properties"
     -- ;; rasomiy~_1
     -- rsmy    rasomiy~        Nall    official     [[rasomiy~/ADJ]]
 
-    noun     FaCL                      {- rasomiy~ -}       `gloss`  [ "official [ [ rasomiy ~ / ADJ ] ]" ],
+    noun     FaCL |< Iy                {- rasomiy~ -}       `gloss`  [ "official [ [ rasomiy ~ / ADJ ] ]" ],
 
     -- ;; rasomiy~AF_1
     -- rsmy    rasomiy~        NF      officially     [[rasomiy~/ADV]]
 
-    noun     FaCL                      {- rasomiy~AF -}     `others` [ "rasmiyy NF" ]
+    noun     FaCL |< Iy |< aN          {- rasomiy~AF -}     `others` [ "rasmiyy NF" ]
                                                             `gloss`  [ "officially [ [ rasomiy ~ / ADV ] ]" ],
 
     -- ;; ras~Am_2
@@ -3398,7 +3304,31 @@ lexicon = listing "Lexicon properties"
     -- <rsA'   <irosA' NAt     anchorage
     -- ArsA'   <irosA' NAt     anchorage
 
-    noun     HiFCA'                    {- IirosA' -}        `gloss`  [ "anchorage" ] ]
+    noun     HiFCA'                    {- IirosA' -}        `gloss`  [ "anchorage" ],
+
+    -- ;; rAsiy_1
+    -- rAsy    rAsiy   N0F     immovable;anchored;moored     [[rAsiy/ADJ]]
+    -- rAs     rAs     NK      immovable;anchored;moored
+    -- rAsy    rAsiy   NAn_Nayn        immovable;anchored;moored
+    -- rAs     rAs     Nuwn_Niyn       immovable;anchored;moored
+    -- rAsy    rAsiy   NapAt   immovable;anchored;moored
+    -- rwAsy   rawAsiy N0_Nh   immovable;anchored;moored
+    -- rwAs    rawAs   NK      immovable;anchored;moored
+
+    noun     FACI                      {- rAsiy -}          `others` [ "rawAsiy N0_Nh", "rawAs NK", "rAs Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "immovable", "anchored", "moored [ [ rAsiy / ADJ ] ]", "moored" ],
+
+    -- ;; rAsiy_1
+    -- rAsy    rAsiy   N0F     immovable;anchored;moored     [[rAsiy/ADJ]]
+    -- rAs     rAs     NK      immovable;anchored;moored
+    -- rAsy    rAsiy   NAn_Nayn        immovable;anchored;moored
+    -- rAs     rAs     Nuwn_Niyn       immovable;anchored;moored
+    -- rAsy    rAsiy   NapAt   immovable;anchored;moored
+    -- rwAsy   rawAsiy N0_Nh   immovable;anchored;moored
+    -- rwAs    rawAs   NK      immovable;anchored;moored
+
+    noun     FACI                      {- rAsiy -}          `others` [ "rawAsiy N0_Nh", "rawAs NK", "rAs Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "immovable", "anchored", "moored [ [ rAsiy / ADJ ] ]", "moored" ] ]
 
  |> "r s y" <| [
 
@@ -3435,19 +3365,19 @@ lexicon = listing "Lexicon properties"
     -- rtb     rutob   Napdu   level;degree;rank
     -- rtb     rutab   N       levels;degrees;ranks
 
-    noun     FuCL                      {- rutobap -}        `others` [ "rutab N" ]
+    noun     FuCL |< aT                {- rutobap -}        `others` [ "rutab N" ]
                                                             `gloss`  [ "level", "degree", "rank", "levels", "degrees", "ranks" ],
 
     -- ;; ratAbap_1
     -- rtAb    ratAb   Nap     monotony
 
-    noun     FaCAL                     {- ratAbap -}        `gloss`  [ "monotony" ],
+    noun     FaCAL |< aT               {- ratAbap -}        `gloss`  [ "monotony" ],
 
     -- ;; marotabap_1
     -- mrtb    marotab Napdu   level;degree;rank;class
     -- mrAtb   marAtib Ndip    levels;degrees;ranks;classes
 
-    noun     MaFCaL                    {- marotabap -}      `others` [ "marAtib Ndip" ]
+    noun     MaFCaL |< aT              {- marotabap -}      `others` [ "marAtib Ndip" ]
                                                             `gloss`  [ "level", "degree", "rank", "class", "levels", "degrees", "ranks", "classes" ],
 
     -- ;; tarotiyb_1
@@ -3485,15 +3415,8 @@ lexicon = listing "Lexicon properties"
     -- trtyl   tarotiyl        Napdu   hymn
     -- trAtyl  tarAtiyl        Ndip    hymns
 
-    noun     TaFCIL                    {- tarotiylap -}     `others` [ "tarAtiyl Ndip" ]
+    noun     TaFCIL |< aT              {- tarotiylap -}     `others` [ "tarAtiyl Ndip" ]
                                                             `gloss`  [ "hymn", "hymns" ] ]
-
- |> "r w '" <| [
-
-    -- ;; riwA}iy~_1
-    -- rwA}y   riwA}iy~        Nall    novelist;narrator     [[riwA}iy~/ADJ]]
-
-    noun     FiCAL                     {- riwA}iy~ -}       `gloss`  [ "novelist", "narrator [ [ riwA } iy ~ / ADJ ] ]" ] ]
 
  |> "r w .d" <| [
 
@@ -3503,7 +3426,7 @@ lexicon = listing "Lexicon properties"
     -- ryDAn   riyDAn  N       gardens;meadows
     -- ryAD    riyAD   N       gardens
 
-    noun     FaCL                      {- rawoDap -}        `others` [ "riy.dAn N", "riyA.d N", "raw.d N" ]
+    noun     FaCL |< aT                {- rawoDap -}        `others` [ "riy.dAn N", "riyA.d N", "raw.d N" ]
                                                             `gloss`  [ "garden", "meadow", "kindergarten", "gardens", "meadows", "kindergartens" ] ]
 
  |> "r w .h" <| [
@@ -3547,12 +3470,12 @@ lexicon = listing "Lexicon properties"
     -- ;; rAHap_1
     -- rAH     rAH     Nap     rest;repose;leisure
 
-    noun     FAL                       {- rAHap -}          `gloss`  [ "rest", "repose", "leisure" ],
+    noun     FAL |< aT                 {- rAHap -}          `gloss`  [ "rest", "repose", "leisure" ],
 
     -- ;; rAHap_2
     -- rAH     rAH     NapAt   palm of the hand
 
-    noun     FAL                       {- rAHap -}          `gloss`  [ "palm of the hand" ],
+    noun     FAL |< aT                 {- rAHap -}          `gloss`  [ "palm of the hand" ],
 
     -- ;; ruwH_1
     -- rwH     ruwH    N       spirit;soul
@@ -3579,23 +3502,23 @@ lexicon = listing "Lexicon properties"
     -- rwHy    ruwHiy~ Nall    spiritual     [[ruwHiy~/ADJ]]
     -- rwHy    ruwHiy~ Nall    alcoholic     [[ruwHiy~/ADJ]]
 
-    noun     FUL                       {- ruwHiy~ -}        `gloss`  [ "spiritual [ [ ruwHiy ~ / ADJ ] ]", "alcoholic [ [ ruwHiy ~ / ADJ ] ]" ],
+    noun     FUL |< Iy                 {- ruwHiy~ -}        `gloss`  [ "spiritual [ [ ruwHiy ~ / ADJ ] ]", "alcoholic [ [ ruwHiy ~ / ADJ ] ]" ],
 
     -- ;; ruwHiy~_1
     -- rwHy    ruwHiy~ Nall    spiritual     [[ruwHiy~/ADJ]]
     -- rwHy    ruwHiy~ Nall    alcoholic     [[ruwHiy~/ADJ]]
 
-    noun     FuCL                      {- ruwHiy~ -}        `gloss`  [ "spiritual [ [ ruwHiy ~ / ADJ ] ]", "alcoholic [ [ ruwHiy ~ / ADJ ] ]" ],
+    noun     FuCL |< Iy                {- ruwHiy~ -}        `gloss`  [ "spiritual [ [ ruwHiy ~ / ADJ ] ]", "alcoholic [ [ ruwHiy ~ / ADJ ] ]" ],
 
     -- ;; ruwHiy~ap_1
     -- rwHy    ruwHiy~ Nap     spirituality     [[ruwHiy~/NOUN]]
 
-    noun     FUL                       {- ruwHiy~ap -}      `gloss`  [ "spirituality [ [ ruwHiy ~ / NOUN ] ]" ],
+    noun     FUL |< Iy |< aT           {- ruwHiy~ap -}      `gloss`  [ "spirituality [ [ ruwHiy ~ / NOUN ] ]" ],
 
     -- ;; ruwHiy~ap_1
     -- rwHy    ruwHiy~ Nap     spirituality     [[ruwHiy~/NOUN]]
 
-    noun     FuCL                      {- ruwHiy~ap -}      `gloss`  [ "spirituality [ [ ruwHiy ~ / NOUN ] ]" ],
+    noun     FuCL |< Iy |< aT          {- ruwHiy~ap -}      `gloss`  [ "spirituality [ [ ruwHiy ~ / NOUN ] ]" ],
 
     -- ;; riyH_1
     -- ryH     riyH    N       wind;odor
@@ -3612,26 +3535,26 @@ lexicon = listing "Lexicon properties"
     -- mrwH    mirowaH Napdu   fan;ventilator;propeller
     -- mrAwH   marAwiH Ndip    fans;ventilators;propellers
 
-    noun     MiFCaL                    {- mirowaHap -}      `others` [ "marAwi.h Ndip" ]
+    noun     MiFCaL |< aT              {- mirowaHap -}      `others` [ "marAwi.h Ndip" ]
                                                             `gloss`  [ "fan", "ventilator", "propeller", "fans", "ventilators", "propellers" ],
 
     -- ;; mirowaHiy~_1
     -- mrwHy   mirowaHiy~      Nall    propeller;helicopter     [[mirowaHiy~/ADJ]]
 
-    noun     MiFCaL                    {- mirowaHiy~ -}     `gloss`  [ "propeller", "helicopter [ [ mirowaHiy ~ / ADJ ] ]" ],
+    noun     MiFCaL |< Iy              {- mirowaHiy~ -}     `gloss`  [ "propeller", "helicopter [ [ mirowaHiy ~ / ADJ ] ]" ],
 
     -- ;; mirowaHiy~ap_1
     -- mrwHy   mirowaHiy~      Napdu   helicopter     [[mirowaHiy~/NOUN]]
     -- mrwHy   mirowaHiy~      NAt     helicopters     [[mirowaHiy~/NOUN]]
 
-    noun     MiFCaL                    {- mirowaHiy~ap -}   `others` [ "mirwa.hiyy NAt" ]
+    noun     MiFCaL |< Iy |< aT        {- mirowaHiy~ap -}   `others` [ "mirwa.hiyy NAt" ]
                                                             `gloss`  [ "helicopter [ [ mirowaHiy ~ / NOUN ] ]", "helicopters [ [ mirowaHiy ~ / NOUN ] ]" ],
 
     -- ;; rA}iHap_1
     -- rA}H    rA}iH   Nap     odor;perfume
     -- rwA}H   rawA}iH Ndip    odors;perfume
 
-    noun     FA'iL                     {- rA}iHap -}        `others` [ "rawA'i.h Ndip" ]
+    noun     FA'iL |< aT               {- rA}iHap -}        `others` [ "rawA'i.h Ndip" ]
                                                             `gloss`  [ "odor", "perfume", "odors" ],
 
     -- ;; muriyH_1
@@ -3649,12 +3572,12 @@ lexicon = listing "Lexicon properties"
     -- ;; ruwHAniy~_1
     -- rwHAny  ruwHAniy~       Nall    Ruhani
 
-    noun     KuRDAS                    {- ruwHAniy~ -}      `gloss`  [ "Ruhani" ],
+    noun     KuRDAS |< Iy              {- ruwHAniy~ -}      `gloss`  [ "Ruhani" ],
 
     -- ;; ruwHAniy~ap_1
     -- rwHAny  ruwHAniy~       Nap     spirituality     [[ruwHAniy~/NOUN]]
 
-    noun     KuRDAS                    {- ruwHAniy~ap -}    `gloss`  [ "spirituality [ [ ruwHAniy ~ / NOUN ] ]" ] ]
+    noun     KuRDAS |< Iy |< aT        {- ruwHAniy~ap -}    `gloss`  [ "spirituality [ [ ruwHAniy ~ / NOUN ] ]" ] ]
 
  |> "r w ^g" <| [
 
@@ -3750,12 +3673,12 @@ lexicon = listing "Lexicon properties"
     -- ;; ruwbiy~ap_1
     -- rwby    ruwbiy~ NapAt   rupee     [[ruwbiy~/NOUN]]
 
-    noun     FUL                       {- ruwbiy~ap -}      `gloss`  [ "rupee [ [ ruwbiy ~ / NOUN ] ]" ],
+    noun     FUL |< Iy |< aT           {- ruwbiy~ap -}      `gloss`  [ "rupee [ [ ruwbiy ~ / NOUN ] ]" ],
 
     -- ;; ruwbiy~ap_1
     -- rwby    ruwbiy~ NapAt   rupee     [[ruwbiy~/NOUN]]
 
-    noun     FuCL                      {- ruwbiy~ap -}      `gloss`  [ "rupee [ [ ruwbiy ~ / NOUN ] ]" ] ]
+    noun     FuCL |< Iy |< aT          {- ruwbiy~ap -}      `gloss`  [ "rupee [ [ ruwbiy ~ / NOUN ] ]" ] ]
 
  |> "r w b r" <| [
 
@@ -3790,7 +3713,7 @@ lexicon = listing "Lexicon properties"
     -- <rAd    <irAd   Nap     desire;will
     -- ArAd    <irAd   Nap     desire;will
 
-    noun     HiFAL                     {- IirAdap -}        `gloss`  [ "desire", "will" ],
+    noun     HiFAL |< aT               {- IirAdap -}        `gloss`  [ "desire", "will" ],
 
     -- ;; rA}id_1
     -- rA}d    rA}id   N/ap    leader;explorer;pioneer
@@ -3878,12 +3801,12 @@ lexicon = listing "Lexicon properties"
     -- ;; ruwmiy~_3
     -- rwmy    ruwmiy~ N0      Rumi;Roumi
 
-    noun     FUL                       {- ruwmiy~ -}        `gloss`  [ "Rumi", "Roumi" ],
+    noun     FUL |< Iy                 {- ruwmiy~ -}        `gloss`  [ "Rumi", "Roumi" ],
 
     -- ;; ruwmiy~_3
     -- rwmy    ruwmiy~ N0      Rumi;Roumi
 
-    noun     FuCL                      {- ruwmiy~ -}        `gloss`  [ "Rumi", "Roumi" ] ]
+    noun     FuCL |< Iy                {- ruwmiy~ -}        `gloss`  [ "Rumi", "Roumi" ] ]
 
  |> "r w m n" <| [
 
@@ -3891,7 +3814,7 @@ lexicon = listing "Lexicon properties"
     -- rwmAny  ruwmAniy~       Nall    Romanian     [[ruwmAniy~/NOUN]]
     -- rwmAny  ruwmAniy~       Nall    Romanian     [[ruwmAniy~/ADJ]]
 
-    noun     KuRDAS                    {- ruwmAniy~ -}      `gloss`  [ "Romanian [ [ ruwmAniy ~ / NOUN ] ]", "Romanian [ [ ruwmAniy ~ / ADJ ] ]" ] ]
+    noun     KuRDAS |< Iy              {- ruwmAniy~ -}      `gloss`  [ "Romanian [ [ ruwmAniy ~ / NOUN ] ]", "Romanian [ [ ruwmAniy ~ / ADJ ] ]" ] ]
 
  |> "r w q" <| [
 
@@ -3909,7 +3832,7 @@ lexicon = listing "Lexicon properties"
     -- <rAq    <irAq   NapAt   pouring out;shedding;spilling
     -- ArAq    <irAq   NapAt   pouring out;shedding;spilling
 
-    noun     HiFAL                     {- IirAqap -}        `gloss`  [ "pouring out", "shedding", "spilling" ],
+    noun     HiFAL |< aT               {- IirAqap -}        `gloss`  [ "pouring out", "shedding", "spilling" ],
 
     -- ;; rA}iq_1
     -- rA}q    rA}iq   Nall    clear;pure;unblemished     [[rA}iq/ADJ]]
@@ -3931,13 +3854,13 @@ lexicon = listing "Lexicon properties"
     -- rwsy    ruwsiy~ Nall    Russian     [[ruwsiy~/ADJ]]
     -- rws     ruws    N       Russians
 
-    noun     FuCL                      {- ruwsiy~ -}        `others` [ "ruws N" ]
+    noun     FuCL |< Iy                {- ruwsiy~ -}        `others` [ "ruws N" ]
                                                             `gloss`  [ "Russian [ [ ruwsiy ~ / NOUN ] ]", "Russian [ [ ruwsiy ~ / ADJ ] ]", "Russians" ],
 
     -- ;; ruwsiy~ap_1
     -- rwsy    ruwsiy~ Nap     Russian (language)     [[ruwsiy~/NOUN]]
 
-    noun     FuCL                      {- ruwsiy~ap -}      `gloss`  [ "Russian ( language ) [ [ ruwsiy ~ / NOUN ] ]" ],
+    noun     FuCL |< Iy |< aT          {- ruwsiy~ap -}      `gloss`  [ "Russian ( language ) [ [ ruwsiy ~ / NOUN ] ]" ],
 
     -- ;; ruws_1
     -- rws     ruws    Nprop   Ross
@@ -3949,7 +3872,7 @@ lexicon = listing "Lexicon properties"
     -- ;; ruwtiyniy~_1
     -- rwtyny  ruwtiyniy~      Nall    routine;bureaucratic     [[ruwtiyniy~/ADJ]]
 
-    noun     KuRDIS                    {- ruwtiyniy~ -}     `gloss`  [ "routine", "bureaucratic [ [ ruwtiyniy ~ / ADJ ] ]" ] ]
+    noun     KuRDIS |< Iy              {- ruwtiyniy~ -}     `gloss`  [ "routine", "bureaucratic [ [ ruwtiyniy ~ / ADJ ] ]" ] ]
 
  |> "r w y" <| [
 
@@ -3981,13 +3904,8 @@ lexicon = listing "Lexicon properties"
     -- rwAy    riwAy   Napdu   story;novel
     -- rwAy    riwAy   NAt     stories;novels
 
-    noun     FiCAL                     {- riwAyap -}        `others` [ "riwAy NAt" ]
+    noun     FiCAL |< aT               {- riwAyap -}        `others` [ "riwAy NAt" ]
                                                             `gloss`  [ "story", "novel", "stories", "novels" ],
-
-    -- ;; riwA}iy~_1
-    -- rwA}y   riwA}iy~        Nall    novelist;narrator     [[riwA}iy~/ADJ]]
-
-    noun     FiCA'                     {- riwA}iy~ -}       `gloss`  [ "novelist", "narrator [ [ riwA } iy ~ / ADJ ] ]" ],
 
     -- ;; rAwiy_1
     -- rAwy    rAwiy   N0F_Nh  narrator;storyteller
@@ -3999,7 +3917,13 @@ lexicon = listing "Lexicon properties"
     -- rwAyA   rawAyA  N0_Nhy  narrators;storytellers
 
     noun     FACiL                     {- rAwiy -}          `others` [ "rAw Nuwn_Niyn NK", "rawAyA N0_Nhy", "ruwA Nap" ]
-                                                            `gloss`  [ "narrator", "storyteller", "narrators", "storytellers" ] ]
+                                                            `gloss`  [ "narrator", "storyteller", "narrators", "storytellers" ],
+
+    -- ;; marowiy~At_1
+    -- mrwy    marowiy~        NAt     tales;stories;reports     [[marowiy~/NOUN]]
+
+    noun     MaFCIy |< At              {- marowiy~At -}     `others` [ "marwiyy NAt" ]
+                                                            `gloss`  [ "tales", "stories", "reports [ [ marowiy ~ / NOUN ] ]" ] ]
 
  |> "r w y l" <| [
 
@@ -4019,18 +3943,18 @@ lexicon = listing "Lexicon properties"
     -- ryAD    riyAD   NapAt   sport;physical exercise
     -- ryAD    riyAD   NapAt   mathematics
 
-    noun     FiCAL                     {- riyADap -}        `gloss`  [ "sport", "physical exercise", "mathematics" ],
+    noun     FiCAL |< aT               {- riyADap -}        `gloss`  [ "sport", "physical exercise", "mathematics" ],
 
     -- ;; riyADiy~_1
     -- ryADy   riyADiy~        Nall    sports;sportive;mathematical     [[riyADiy~/ADJ]]
     -- ryADy   riyADiy~        Nall    mathematician     [[riyADiy~/ADJ]]
 
-    noun     FiCAL                     {- riyADiy~ -}       `gloss`  [ "sports", "sportive", "mathematical [ [ riyADiy ~ / ADJ ] ]", "mathematician [ [ riyADiy ~ / ADJ ] ]" ],
+    noun     FiCAL |< Iy               {- riyADiy~ -}       `gloss`  [ "sports", "sportive", "mathematical [ [ riyADiy ~ / ADJ ] ]", "mathematician [ [ riyADiy ~ / ADJ ] ]" ],
 
     -- ;; riyADiy~_2
     -- ryADy   riyADiy~        N0      Riyadi;Sportif
 
-    noun     FiCAL                     {- riyADiy~ -}       `gloss`  [ "Riyadi", "Sportif" ] ]
+    noun     FiCAL |< Iy               {- riyADiy~ -}       `gloss`  [ "Riyadi", "Sportif" ] ]
 
  |> "r y .h" <| [
 
@@ -4069,7 +3993,7 @@ lexicon = listing "Lexicon properties"
     -- ;; riyoHAniy~_1
     -- ryHAny  riyoHAniy~      N0      Rihani
 
-    noun     KiRDAS                    {- riyoHAniy~ -}     `gloss`  [ "Rihani" ] ]
+    noun     KiRDAS |< Iy              {- riyoHAniy~ -}     `gloss`  [ "Rihani" ] ]
 
  |> "r y ^s" <| [
 
@@ -4115,7 +4039,7 @@ lexicon = listing "Lexicon properties"
     -- ;; riybiy~_1
     -- ryby    riybiy~ N-ap    ribo (in "deoxy-ribo-nucleic acid")     [[riybiy~/ADJ]]
 
-    noun     FiCL                      {- riybiy~ -}        `gloss`  [ "ribo ( in `` deoxy-ribo-nucleic acid '' ) [ [ riybiy ~ / ADJ ] ]" ] ]
+    noun     FiCL |< Iy                {- riybiy~ -}        `gloss`  [ "ribo ( in `` deoxy-ribo-nucleic acid '' ) [ [ riybiy ~ / ADJ ] ]" ] ]
 
  |> "r y f" <| [
 
@@ -4130,7 +4054,7 @@ lexicon = listing "Lexicon properties"
     -- ;; riyfiy~_1
     -- ryfy    riyfiy~ Nall    country;rural;rustic     [[riyfiy~/ADJ]]
 
-    noun     FiCL                      {- riyfiy~ -}        `gloss`  [ "country", "rural", "rustic [ [ riyfiy ~ / ADJ ] ]" ] ]
+    noun     FiCL |< Iy                {- riyfiy~ -}        `gloss`  [ "country", "rural", "rustic [ [ riyfiy ~ / ADJ ] ]" ] ]
 
  |> "r y f r" <| [
 
@@ -4302,7 +4226,7 @@ lexicon = listing "Lexicon properties"
     -- rAdykAly        rAdiykAliy~     Nall    radical     [[rAdiykAliy~/ADJ]]
     -- rAdkAly rAdikAliy~      Nall    radical     [[rAdikAliy~/ADJ]]
 
-    noun     Identity                  {- rAdiykAliy~ -}    `others` [ "rAdikAliyy Nall" ]
+    noun     Identity |< Iy            {- rAdiykAliy~ -}    `others` [ "rAdikAliyy Nall" ]
                                                             `gloss`  [ "radical [ [ rAdiykAliy ~ / ADJ ] ]", "radical [ [ rAdikAliy ~ / ADJ ] ]" ] ]
 
  |> "rAdiyuw" <| [
@@ -4379,14 +4303,14 @@ lexicon = listing "Lexicon properties"
     -- r>smAly ra>osmAliy~     Nall    capital;capitalist     [[ra>osmAliy~/ADJ]]
     -- rAsmAly rAsomAliy~      Nall    capital;capitalist     [[rAsomAliy~/ADJ]]
 
-    noun     Identity                  {- raOosmAliy~ -}    `others` [ "rAsmAliyy Nall" ]
+    noun     Identity |< Iy            {- raOosmAliy~ -}    `others` [ "rAsmAliyy Nall" ]
                                                             `gloss`  [ "capital", "capitalist [ [ ra>osmAliy ~ / ADJ ] ]", "capitalist [ [ rAsomAliy ~ / ADJ ] ]" ],
 
     -- ;; ra>osmAliy~ap_1
     -- r>smAly ra>osmAliy~     NapAt   capitalism     [[ra>osmAliy~/NOUN]]
     -- rAsmAly rAsomAliy~      NapAt   capitalism     [[rAsomAliy~/NOUN]]
 
-    noun     Identity                  {- raOosmAliy~ap -}  `others` [ "rAsmAliyy NapAt" ]
+    noun     Identity |< Iy |< aT      {- raOosmAliy~ap -}  `others` [ "rAsmAliyy NapAt" ]
                                                             `gloss`  [ "capitalism [ [ ra>osmAliy ~ / NOUN ] ]", "capitalism [ [ rAsomAliy ~ / NOUN ] ]" ] ]
 
  |> "ra.gma" <| [
@@ -4418,7 +4342,7 @@ lexicon = listing "Lexicon properties"
     -- ;; rafosanojAniy~_1
     -- rfsnjAny        rafosanojAniy~  Nprop   Rafsanjani
 
-    noun     Identity                  {- rafosanojAniy~ -} `gloss`  [ "Rafsanjani" ] ]
+    noun     Identity |< Iy            {- rafosanojAniy~ -} `gloss`  [ "Rafsanjani" ] ]
 
  |> "rahiyna" <| [
 
@@ -4454,6 +4378,13 @@ lexicon = listing "Lexicon properties"
     -- rfEt    rifoEat Nprop   Rifa'at;Rif'at
 
     noun     Identity                  {- rifoEat -}        `gloss`  [ "Rifa'at", "Rif'at" ] ]
+
+ |> "riwA'iyy" <| [
+
+    -- ;; riwA}iy~_1
+    -- rwA}y   riwA}iy~        Nall    novelist;narrator     [[riwA}iy~/ADJ]]
+
+    noun     Identity                  {- riwA}iy~ -}       `gloss`  [ "novelist", "narrator [ [ riwA } iy ~ / ADJ ] ]" ] ]
 
  |> "riy^stir" <| [
 
@@ -4605,14 +4536,14 @@ lexicon = listing "Lexicon properties"
     -- rwmAnsy ruwmAnosiy~     Nall    romantic     [[ruwmAnosiy~/ADJ]]
     -- rwmnsy  ruwmanosiy~     Nall    romantic     [[ruwmAnosiy~/ADJ]]
 
-    noun     Identity                  {- ruwmAnosiy~ -}    `others` [ "ruwmansiyy Nall" ]
+    noun     Identity |< Iy            {- ruwmAnosiy~ -}    `others` [ "ruwmansiyy Nall" ]
                                                             `gloss`  [ "romantic [ [ ruwmAnosiy ~ / ADJ ] ]" ],
 
     -- ;; ruwmAnosiy~ap_1
     -- rwmAnsy ruwmAnosiy~     Nap     romanticism     [[ruwmAnosiy~/NOUN]]
     -- rwmnsy  ruwmanosiy~     Nap     romanticism     [[ruwmAnosiy~/NOUN]]
 
-    noun     Identity                  {- ruwmAnosiy~ap -}  `others` [ "ruwmansiyy Nap" ]
+    noun     Identity |< Iy |< aT      {- ruwmAnosiy~ap -}  `others` [ "ruwmansiyy Nap" ]
                                                             `gloss`  [ "romanticism [ [ ruwmAnosiy ~ / NOUN ] ]" ] ]
 
  |> "ruwmAnuws" <| [
@@ -4628,7 +4559,7 @@ lexicon = listing "Lexicon properties"
     -- rwmnTyqy        ruwmanoTiyqiy~  Nall    romantic     [[ruwmanoTiyqiy~/ADJ]]
     -- rwmnTyqy        ruwmanoTiyqiy~  Nap     romanticism     [[ruwmanoTiyqiy~/NOUN]]
 
-    noun     Identity                  {- ruwmanoTiyqiy~ -} `gloss`  [ "romantic [ [ ruwmanoTiyqiy ~ / ADJ ] ]", "romanticism [ [ ruwmanoTiyqiy ~ / NOUN ] ]" ] ]
+    noun     Identity |< Iy            {- ruwmanoTiyqiy~ -} `gloss`  [ "romantic [ [ ruwmanoTiyqiy ~ / ADJ ] ]", "romanticism [ [ ruwmanoTiyqiy ~ / NOUN ] ]" ] ]
 
  |> "ruwnAlduw" <| [
 
@@ -4687,7 +4618,7 @@ lexicon = listing "Lexicon properties"
     -- rwznAm  ruwzonAm        NapAt   almanac;calendar
     -- rwznAmh ruwzonAmah      N0      almanac;calendar
 
-    noun     Identity                  {- ruwzonAmap -}     `others` [ "ruwznAmah N0" ]
+    noun     Identity |< aT            {- ruwzonAmap -}     `others` [ "ruwznAmah N0" ]
                                                             `gloss`  [ "almanac", "calendar" ] ]
 
  |> "rwn" <| [
@@ -4704,12 +4635,12 @@ lexicon = listing "Lexicon properties"
 
     noun     Identity                  {- rynw -}           `gloss`  [ "Reno" ] ]
 
- |> "tarbaw" <| [
+ |> "tarbY" <| [
 
     -- ;; tarobawiy~_1
     -- trbwy   tarobawiy~      Nall    pedagogical;educational     [[tarobawiy~/ADJ]]
 
-    noun     Identity                  {- tarobawiy~ -}     `gloss`  [ "pedagogical", "educational [ [ tarobawiy ~ / ADJ ] ]" ] ]
+    noun     Identity |< Iy            {- tarobawiy~ -}     `gloss`  [ "pedagogical", "educational [ [ tarobawiy ~ / ADJ ] ]" ] ]
 
  |> "tardAd" <| [
 

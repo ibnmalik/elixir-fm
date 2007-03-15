@@ -15,7 +15,7 @@ lexicon = listing "Lexicon properties"
     -- gAt     gAt     N0      GATT
     -- jAt     jAt     N0      GATT
 
-    noun     Identity                  {- gAt -}            `others` [ "^gAt N0" ]
+    noun     Identity |< At            {- gAt -}            `others` [ "^gAt N0" ]
                                                             `gloss`  [ "GATT" ] ]
 
  |> ".g ' b" <| [
@@ -39,7 +39,7 @@ lexicon = listing "Lexicon properties"
     -- gA}l    gA}il   Nap     calamity;havoc
     -- gwA}l   gawA}il Ndip    calamities;havoc
 
-    noun     FACiL                     {- gA}ilap -}        `others` [ ".gawA'il Ndip" ]
+    noun     FACiL |< aT               {- gA}ilap -}        `others` [ ".gawA'il Ndip" ]
                                                             `gloss`  [ "calamity", "havoc", "calamities" ] ]
 
  |> ".g ' z" <| [
@@ -53,18 +53,7 @@ lexicon = listing "Lexicon properties"
     -- ;; gAziy~_1
     -- gAzy    gAziy~  N-ap    gaseous     [[gAziy~/ADJ]]
 
-    noun     FAL                       {- gAziy~ -}         `gloss`  [ "gaseous [ [ gAziy ~ / ADJ ] ]" ] ]
-
- |> ".g .d " <| [
-
-    -- ;; tagADiy_1
-    -- tgADy   tagADiy N0_Nh   indifference;condoning
-    -- tgAD    tagAD   NK      indifference;condoning
-    -- tgADy   tagADiy NAn_Nayn        indifference;condoning
-    -- tgADy   tagADiy NAt     indifference;condoning
-
-    noun     TaFACiN                   {- tagADiy -}        `others` [ "ta.gA.d NK" ]
-                                                            `gloss`  [ "indifference", "condoning" ] ]
+    noun     FAL |< Iy                 {- gAziy~ -}         `gloss`  [ "gaseous [ [ gAziy ~ / ADJ ] ]" ] ]
 
  |> ".g .d .d" <| [
 
@@ -77,7 +66,7 @@ lexicon = listing "Lexicon properties"
     -- gDAD    gaDAD   Nap     deficiency;fault
     -- gDA}D   gaDA}iD Ndip    diminutions;shame
 
-    noun     FaCAL                     {- gaDADap -}        `others` [ ".ga.dA'i.d Ndip" ]
+    noun     FaCAL |< aT               {- gaDADap -}        `others` [ ".ga.dA'i.d Ndip" ]
                                                             `gloss`  [ "deficiency", "fault", "diminutions", "shame" ] ]
 
  |> ".g .d b" <| [
@@ -129,19 +118,16 @@ lexicon = listing "Lexicon properties"
 
     noun     FuCUL                     {- guDuwn -}         `gloss`  [ "interim", "during" ] ]
 
- |> ".g .g b" <| [
+ |> ".g .d w" <| [
 
-    -- ;; gabiy~_1
-    -- gby     gabiy~  N/ap    ignorant;stupid     [[gabiy~/ADJ]]
-    -- >gbyA'  >agobiyA'       N0_Nh   ignorant;stupid
-    -- AgbyA'  >agobiyA'       N0_Nh   ignorant;stupid
-    -- >gbyA&  >agobiyA&       Nh      ignorant;stupid
-    -- AgbyA&  >agobiyA&       Nh      ignorant;stupid
-    -- >gbyA}  >agobiyA}       Nhy     ignorant;stupid
-    -- AgbyA}  >agobiyA}       Nhy     ignorant;stupid
+    -- ;; tagADiy_1
+    -- tgADy   tagADiy N0_Nh   indifference;condoning
+    -- tgAD    tagAD   NK      indifference;condoning
+    -- tgADy   tagADiy NAn_Nayn        indifference;condoning
+    -- tgADy   tagADiy NAt     indifference;condoning
 
-    noun     CaL                       {- gabiy~ -}         `others` [ "'a.gbiyA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "ignorant", "stupid [ [ gabiy ~ / ADJ ] ]", "stupid" ] ]
+    noun     TaFACiN                   {- tagADiy -}        `others` [ "ta.gA.d NK" ]
+                                                            `gloss`  [ "indifference", "condoning" ] ]
 
  |> ".g .g d" <| [
 
@@ -149,20 +135,6 @@ lexicon = listing "Lexicon properties"
     -- gd      gad     N       tomorrow
 
     noun     CaL                       {- gad -}            `gloss`  [ "tomorrow" ] ]
-
- |> ".g .g n" <| [
-
-    -- ;; ganiy~_1
-    -- gny     ganiy~  N/ap    rich;wealthy     [[ganiy~/ADJ]]
-    -- >gnyA'  >agoniyA'       N0_Nh   rich;wealthy
-    -- AgnyA'  >agoniyA'       N0_Nh   rich;wealthy
-    -- >gnyA&  >agoniyA&       Nh      rich;wealthy
-    -- AgnyA&  >agoniyA&       Nh      rich;wealthy
-    -- >gnyA}  >agoniyA}       Nhy     rich;wealthy
-    -- AgnyA}  >agoniyA}       Nhy     rich;wealthy
-
-    noun     CaL                       {- ganiy~ -}         `others` [ "'a.gniyA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "rich", "wealthy [ [ ganiy ~ / ADJ ] ]", "wealthy" ] ]
 
  |> ".g .s .s" <| [
 
@@ -186,19 +158,6 @@ lexicon = listing "Lexicon properties"
     -- mgtSb   mugotaSab       N-ap    usurped;raped     [[mugotaSab/ADJ]]
 
     noun     MuFtaCaL                  {- mugotaSab -}      `gloss`  [ "usurped", "raped [ [ mugotaSab / ADJ ] ]" ] ]
-
- |> ".g .t " <| [
-
-    -- ;; mugaT~aY_1
-    -- mgTY    mugaT~aY        N0      covered     [[mugaT~aY/ADJ]]
-    -- mgTA    mugaT~A Nhy     covered
-    -- mgTy    mugaT~ay        NAn_Nayn        covered
-    -- mgT     mugaT~  Nuwn_Niyn       covered
-    -- mgTy    mugaT~ay        NAt     covered
-    -- mgTA    mugaT~A Napdu   covered
-
-    noun     MuFaCCaNY                 {- mugaT~aY -}       `others` [ "mu.ga.t.t Nuwn_Niyn", "mu.ga.t.tA Napdu Nhy", "mu.ga.t.tay NAt NAn_Nayn" ]
-                                                            `gloss`  [ "covered [ [ mugaT ~ aY / ADJ ] ]", "covered" ] ]
 
  |> ".g .t '" <| [
 
@@ -242,7 +201,7 @@ lexicon = listing "Lexicon properties"
     -- ;; gaTorasap_1
     -- gTrs    gaToras Nap     arrogance;insolence
 
-    noun     KaRDaS                    {- gaTorasap -}      `gloss`  [ "arrogance", "insolence" ],
+    noun     KaRDaS |< aT              {- gaTorasap -}      `gloss`  [ "arrogance", "insolence" ],
 
     -- ;; tagaTorus_1
     -- tgTrs   tagaTorus       N/At    arrogance;insolence
@@ -292,14 +251,25 @@ lexicon = listing "Lexicon properties"
     -- AgTy    >agoTiy Nap     covers;blankets
 
     noun     FiCA'                     {- giTA' -}          `others` [ "'a.g.tiy Nap" ]
-                                                            `gloss`  [ "cover", "blanket", "covers", "blankets" ] ]
+                                                            `gloss`  [ "cover", "blanket", "covers", "blankets" ],
+
+    -- ;; mugaT~aY_1
+    -- mgTY    mugaT~aY        N0      covered     [[mugaT~aY/ADJ]]
+    -- mgTA    mugaT~A Nhy     covered
+    -- mgTy    mugaT~ay        NAn_Nayn        covered
+    -- mgT     mugaT~  Nuwn_Niyn       covered
+    -- mgTy    mugaT~ay        NAt     covered
+    -- mgTA    mugaT~A Napdu   covered
+
+    noun     MuFaCCaNY                 {- mugaT~aY -}       `others` [ "mu.ga.t.t Nuwn_Niyn", "mu.ga.t.tA Napdu Nhy", "mu.ga.t.tay NAt NAn_Nayn" ]
+                                                            `gloss`  [ "covered [ [ mugaT ~ aY / ADJ ] ]", "covered" ] ]
 
  |> ".g .t y" <| [
 
     -- ;; tagoTiyap_1
     -- tgTy    tagoTiy NapAt   coverage;covering
 
-    noun     TaFCiL                    {- tagoTiyap -}      `gloss`  [ "coverage", "covering" ] ]
+    noun     TaFCiL |< aT              {- tagoTiyap -}      `gloss`  [ "coverage", "covering" ] ]
 
  |> ".g ^s ^s" <| [
 
@@ -325,17 +295,6 @@ lexicon = listing "Lexicon properties"
 
     noun     FACiL                     {- gA$im -}          `gloss`  [ "tyrannical", "iniquitous", "oppressor [ [ gA $ im / ADJ ] ]" ] ]
 
- |> ".g _d " <| [
-
-    -- ;; muga*~iy_1
-    -- mg*y    muga*~iy        N0F_Nh  nutritious;substantial     [[muga*~iy/ADJ]]
-    -- mg*     muga*~  NK      nutritious;substantial
-    -- mg*y    muga*~iy        NAn_Nayn        nutritious;substantial
-    -- mg*y    muga*~iy        Napdu   nutritious;substantial
-
-    noun     MuFaCCiN                  {- muga*~iy -}       `others` [ "mu.ga_d_d NK" ]
-                                                            `gloss`  [ "nutritious", "substantial [ [ muga* ~ iy / ADJ ] ]", "substantial" ] ]
-
  |> ".g _d '" <| [
 
     -- ;; gi*A'_1
@@ -346,12 +305,7 @@ lexicon = listing "Lexicon properties"
     -- Ag*y    >ago*iy Nap     food;provisions
 
     noun     FiCAL                     {- gi*A' -}          `others` [ "'a.g_diy Nap" ]
-                                                            `gloss`  [ "food", "provisions" ],
-
-    -- ;; gi*A}iy~_1
-    -- g*A}y   gi*A}iy~        Nall    food;alimentary;nutritional     [[gi*A}iy~/ADJ]]
-
-    noun     FiCAL                     {- gi*A}iy~ -}       `gloss`  [ "food", "alimentary", "nutritional [ [ gi*A } iy ~ / ADJ ] ]" ] ]
+                                                            `gloss`  [ "food", "provisions" ] ]
 
  |> ".g _d _d" <| [
 
@@ -395,17 +349,21 @@ lexicon = listing "Lexicon properties"
     noun     FiCA'                     {- gi*A' -}          `others` [ "'a.g_diy Nap" ]
                                                             `gloss`  [ "food", "provisions" ],
 
-    -- ;; gi*A}iy~_1
-    -- g*A}y   gi*A}iy~        Nall    food;alimentary;nutritional     [[gi*A}iy~/ADJ]]
+    -- ;; muga*~iy_1
+    -- mg*y    muga*~iy        N0F_Nh  nutritious;substantial     [[muga*~iy/ADJ]]
+    -- mg*     muga*~  NK      nutritious;substantial
+    -- mg*y    muga*~iy        NAn_Nayn        nutritious;substantial
+    -- mg*y    muga*~iy        Napdu   nutritious;substantial
 
-    noun     FiCA'                     {- gi*A}iy~ -}       `gloss`  [ "food", "alimentary", "nutritional [ [ gi*A } iy ~ / ADJ ] ]" ] ]
+    noun     MuFaCCiN                  {- muga*~iy -}       `others` [ "mu.ga_d_d NK" ]
+                                                            `gloss`  [ "nutritious", "substantial [ [ muga* ~ iy / ADJ ] ]", "substantial" ] ]
 
  |> ".g _d y" <| [
 
     -- ;; tago*iyap_1
     -- tg*y    tago*iy NapAt   feeding;nutrition
 
-    noun     TaFCiL                    {- tago*iyap -}      `gloss`  [ "feeding", "nutrition" ],
+    noun     TaFCiL |< aT              {- tago*iyap -}      `gloss`  [ "feeding", "nutrition" ],
 
     -- ;; muga*~iy_1
     -- mg*y    muga*~iy        N0F_Nh  nutritious;substantial     [[muga*~iy/ADJ]]
@@ -415,15 +373,6 @@ lexicon = listing "Lexicon properties"
 
     noun     MuFaCCiL                  {- muga*~iy -}       `others` [ "mu.ga_d_d NK" ]
                                                             `gloss`  [ "nutritious", "substantial [ [ muga* ~ iy / ADJ ] ]", "substantial" ] ]
-
- |> ".g b " <| [
-
-    -- ;; gabA'_1
-    -- gbA'    gabA'   N0_Nh   ignorance;stupidity
-    -- gbA&    gabA&   Nh      ignorance;stupidity
-    -- gbA}    gabA}   Nhy     ignorance;stupidity
-
-    noun     FaCA'                     {- gabA' -}          `gloss`  [ "ignorance", "stupidity" ] ]
 
  |> ".g b '" <| [
 
@@ -439,7 +388,7 @@ lexicon = listing "Lexicon properties"
     -- ;; giboTap_1
     -- gbT     giboT   Nap     happiness;delight
 
-    noun     FiCL                      {- giboTap -}        `gloss`  [ "happiness", "delight" ],
+    noun     FiCL |< aT                {- giboTap -}        `gloss`  [ "happiness", "delight" ],
 
     -- ;; mugotabiT_1
     -- mgtbT   mugotabiT       Nall    delighted;gratified     [[mugotabiT/ADJ]]
@@ -452,7 +401,7 @@ lexicon = listing "Lexicon properties"
     -- mgb     magab~  Napdu   consequence;result;outcome
     -- mgb     magab~  NAt     consequences;results;outcome
 
-    noun     MaFaCL                    {- magab~ap -}       `others` [ "ma.gabb NAt" ]
+    noun     MaFaCL |< aT              {- magab~ap -}       `others` [ "ma.gabb NAt" ]
                                                             `gloss`  [ "consequence", "result", "outcome", "consequences", "results" ] ]
 
  |> ".g b r" <| [
@@ -464,6 +413,27 @@ lexicon = listing "Lexicon properties"
 
     noun     FuCAL                     {- gubAr -}          `others` [ "'a.gbir Nap" ]
                                                             `gloss`  [ "dust" ] ]
+
+ |> ".g b y" <| [
+
+    -- ;; gabiy~_1
+    -- gby     gabiy~  N/ap    ignorant;stupid     [[gabiy~/ADJ]]
+    -- >gbyA'  >agobiyA'       N0_Nh   ignorant;stupid
+    -- AgbyA'  >agobiyA'       N0_Nh   ignorant;stupid
+    -- >gbyA&  >agobiyA&       Nh      ignorant;stupid
+    -- AgbyA&  >agobiyA&       Nh      ignorant;stupid
+    -- >gbyA}  >agobiyA}       Nhy     ignorant;stupid
+    -- AgbyA}  >agobiyA}       Nhy     ignorant;stupid
+
+    noun     FaCIL                     {- gabiy~ -}         `others` [ "'a.gbiyA' Nh Nhy N0_Nh" ]
+                                                            `gloss`  [ "ignorant", "stupid [ [ gabiy ~ / ADJ ] ]", "stupid" ],
+
+    -- ;; gabA'_1
+    -- gbA'    gabA'   N0_Nh   ignorance;stupidity
+    -- gbA&    gabA&   Nh      ignorance;stupidity
+    -- gbA}    gabA}   Nhy     ignorance;stupidity
+
+    noun     FaCA'                     {- gabA' -}          `gloss`  [ "ignorance", "stupidity" ] ]
 
  |> ".g d '" <| [
 
@@ -495,7 +465,7 @@ lexicon = listing "Lexicon properties"
     -- mgAdr   mugAdar Napdu   departure
     -- mgAdr   mugAdar NAt     departures
 
-    noun     MuFACaL                   {- mugAdarap -}      `others` [ "mu.gAdar NAt" ]
+    noun     MuFACaL |< aT             {- mugAdarap -}      `others` [ "mu.gAdar NAt" ]
                                                             `gloss`  [ "departure", "departures" ] ]
 
  |> ".g d w" <| [
@@ -519,7 +489,21 @@ lexicon = listing "Lexicon properties"
     -- Agdy    >agodiy Nap     breakfast;lunch
 
     noun     FaCA'                     {- gadA' -}          `others` [ "'a.gdiy Nap" ]
-                                                            `gloss`  [ "breakfast", "lunch" ] ]
+                                                            `gloss`  [ "breakfast", "lunch" ],
+
+    -- ;; gadAp_1
+    -- gdA     gadA    Nap     morning;tomorrow
+    -- gdw     gadaw   NAt     comings;mornings
+
+    noun     FaCaNY |< aT              {- gadAp -}          `others` [ ".gadaw NAt" ]
+                                                            `gloss`  [ "morning", "tomorrow", "comings", "mornings" ],
+
+    -- ;; gadAp_1
+    -- gdA     gadA    Nap     morning;tomorrow
+    -- gdw     gadaw   NAt     comings;mornings
+
+    noun     FaCaNY |< aT              {- gadAp -}          `others` [ ".gadaw NAt" ]
+                                                            `gloss`  [ "morning", "tomorrow", "comings", "mornings" ] ]
 
  |> ".g f l" <| [
 
@@ -561,7 +545,7 @@ lexicon = listing "Lexicon properties"
     -- gfw     gafow   Napdu   nap;siesta;sleepiness
     -- gfw     gafaw   NAt     naps;siestas
 
-    noun     FaCL                      {- gafowap -}        `others` [ ".gafaw NAt" ]
+    noun     FaCL |< aT                {- gafowap -}        `others` [ ".gafaw NAt" ]
                                                             `gloss`  [ "nap", "siesta", "sleepiness", "naps", "siestas" ] ]
 
  |> ".g l '" <| [
@@ -586,13 +570,13 @@ lexicon = listing "Lexicon properties"
     -- glT     galoT   Napdu   error;blunder
     -- glT     galaT   NAt     errors;blunders
 
-    noun     FaCL                      {- galoTap -}        `others` [ ".gala.t NAt" ]
+    noun     FaCL |< aT                {- galoTap -}        `others` [ ".gala.t NAt" ]
                                                             `gloss`  [ "error", "blunder", "errors", "blunders" ],
 
     -- ;; mugAlaTap_1
     -- mgAlT   mugAlaT NapAt   falsification;misrepresentation;deception
 
-    noun     MuFACaL                   {- mugAlaTap -}      `gloss`  [ "falsification", "misrepresentation", "deception" ],
+    noun     MuFACaL |< aT             {- mugAlaTap -}      `gloss`  [ "falsification", "misrepresentation", "deception" ],
 
     -- ;; magoluwT_1
     -- mglwT   magoluwT        N-ap    false;wrong     [[magoluwT/ADJ]]
@@ -618,7 +602,7 @@ lexicon = listing "Lexicon properties"
     -- ;; galobap_1
     -- glb     galob   Nap     victory;idle talk
 
-    noun     FaCL                      {- galobap -}        `gloss`  [ "victory", "idle talk" ],
+    noun     FaCL |< aT                {- galobap -}        `gloss`  [ "victory", "idle talk" ],
 
     -- ;; >agolab_1
     -- >glb    >agolab Nel     most;majority
@@ -630,7 +614,7 @@ lexicon = listing "Lexicon properties"
     -- >glby   >agolabiy~      Nap     majority     [[>agolabiy~/NOUN]]
     -- Aglby   >agolabiy~      Nap     majority     [[>agolabiy~/NOUN]]
 
-    noun     HaFCaL                    {- Oagolabiy~ap -}   `gloss`  [ "majority [ [ >agolabiy ~ / NOUN ] ]" ],
+    noun     HaFCaL |< Iy |< aT        {- Oagolabiy~ap -}   `gloss`  [ "majority [ [ >agolabiy ~ / NOUN ] ]" ],
 
     -- ;; tagoliyb_1
     -- tglyb   tagoliyb        NduAt   preference;granting victory
@@ -655,7 +639,7 @@ lexicon = listing "Lexicon properties"
     -- ;; gAlibiy~ap_1
     -- gAlby   gAlibiy~        Nap     majority     [[gAlibiy~/NOUN]]
 
-    noun     FACiL                     {- gAlibiy~ap -}     `gloss`  [ "majority [ [ gAlibiy ~ / NOUN ] ]" ] ]
+    noun     FACiL |< Iy |< aT         {- gAlibiy~ap -}     `gloss`  [ "majority [ [ gAlibiy ~ / NOUN ] ]" ] ]
 
  |> ".g l f" <| [
 
@@ -762,6 +746,13 @@ lexicon = listing "Lexicon properties"
     noun     HaFCY                     {- OagolaY -}        `others` [ "'a.glay NAn_Nayn", "'a.glA Nhy" ]
                                                             `gloss`  [ "more / most expensive", "most expensive" ],
 
+    -- ;; mugAlAp_1
+    -- mgAlA   mugAlA  Napdu   exaggeration;excess
+    -- mgAly   mugAlay NAt     exaggerations;excesses
+
+    noun     MuFACaNY |< aT            {- mugAlAp -}        `others` [ "mu.gAlay NAt" ]
+                                                            `gloss`  [ "exaggeration", "excess", "exaggerations", "excesses" ],
+
     -- ;; gAliy_1
     -- gAly    gAliy   N0F     costly;beloved
     -- gAl     gAl     NK      costly;beloved
@@ -839,7 +830,7 @@ lexicon = listing "Lexicon properties"
     -- gAmby   gAmobiy~        Nall    Gambian     [[gAmobiy~/NOUN]]
     -- gAmby   gAmobiy~        Nall    Gambian     [[gAmobiy~/ADJ]]
 
-    noun     FACL                      {- gAmobiy~ -}       `gloss`  [ "Gambian [ [ gAmobiy ~ / NOUN ] ]", "Gambian [ [ gAmobiy ~ / ADJ ] ]" ] ]
+    noun     FACL |< Iy                {- gAmobiy~ -}       `gloss`  [ "Gambian [ [ gAmobiy ~ / NOUN ] ]", "Gambian [ [ gAmobiy ~ / ADJ ] ]" ] ]
 
  |> ".g m r" <| [
 
@@ -855,13 +846,13 @@ lexicon = listing "Lexicon properties"
     -- gmr     gamor   Napdu   inundation;flood
     -- gmr     gamar   NAt     inundations;floods
 
-    noun     FaCL                      {- gamorap -}        `others` [ ".gamar NAt" ]
+    noun     FaCL |< aT                {- gamorap -}        `others` [ ".gamar NAt" ]
                                                             `gloss`  [ "inundation", "flood", "inundations", "floods" ],
 
     -- ;; mugAmarap_1
     -- mgAmr   mugAmar NapAt   adventure;risk
 
-    noun     MuFACaL                   {- mugAmarap -}      `gloss`  [ "adventure", "risk" ] ]
+    noun     MuFACaL |< aT             {- mugAmarap -}      `gloss`  [ "adventure", "risk" ] ]
 
  |> ".g n '" <| [
 
@@ -870,30 +861,7 @@ lexicon = listing "Lexicon properties"
     -- gnA&    ginA&   Nh      singing
     -- gnA}    ginA}   Nhy     singing
 
-    noun     FiCAL                     {- ginA' -}          `gloss`  [ "singing" ],
-
-    -- ;; ginA}iy~_1
-    -- gnA}y   ginA}iy~        Nall    singing;vocal;lyrical     [[ginA}iy~/ADJ]]
-
-    noun     FiCAL                     {- ginA}iy~ -}       `gloss`  [ "singing", "vocal", "lyrical [ [ ginA } iy ~ / ADJ ] ]" ] ]
-
- |> ".g n b" <| [
-
-    -- ;; gAniyap_1
-    -- gAny    gAniy   NapAt   pretty girl;belle
-    -- gwAny   gawAniy N0_Nh   pretty girls;belles
-    -- gwAn    gawAn   NK      pretty girls;belles
-
-    noun     FACI                      {- gAniyap -}        `others` [ ".gawAniy N0_Nh", ".gawAn NK" ]
-                                                            `gloss`  [ "pretty girl", "belle", "pretty girls", "belles" ],
-
-    -- ;; gAniyap_1
-    -- gAny    gAniy   NapAt   pretty girl;belle
-    -- gwAny   gawAniy N0_Nh   pretty girls;belles
-    -- gwAn    gawAn   NK      pretty girls;belles
-
-    noun     FACI                      {- gAniyap -}        `others` [ ".gawAniy N0_Nh", ".gawAn NK" ]
-                                                            `gloss`  [ "pretty girl", "belle", "pretty girls", "belles" ] ]
+    noun     FiCAL                     {- ginA' -}          `gloss`  [ "singing" ] ]
 
  |> ".g n d r" <| [
 
@@ -921,7 +889,7 @@ lexicon = listing "Lexicon properties"
     -- gnym    ganiym  Napdu   spoils;booty
     -- gnA}m   ganA}im Ndip    spoils;booty
 
-    noun     FaCIL                     {- ganiymap -}       `others` [ ".ganA'im Ndip" ]
+    noun     FaCIL |< aT               {- ganiymap -}       `others` [ ".ganA'im Ndip" ]
                                                             `gloss`  [ "spoils", "booty" ],
 
     -- ;; gAnim_1
@@ -980,17 +948,24 @@ lexicon = listing "Lexicon properties"
     noun     FiCaNY                    {- ginaY -}          `others` [ ".guny Nap", ".ginA Nhy" ]
                                                             `gloss`  [ "wealth" ],
 
+    -- ;; ganiy~_1
+    -- gny     ganiy~  N/ap    rich;wealthy     [[ganiy~/ADJ]]
+    -- >gnyA'  >agoniyA'       N0_Nh   rich;wealthy
+    -- AgnyA'  >agoniyA'       N0_Nh   rich;wealthy
+    -- >gnyA&  >agoniyA&       Nh      rich;wealthy
+    -- AgnyA&  >agoniyA&       Nh      rich;wealthy
+    -- >gnyA}  >agoniyA}       Nhy     rich;wealthy
+    -- AgnyA}  >agoniyA}       Nhy     rich;wealthy
+
+    noun     FaCIL                     {- ganiy~ -}         `others` [ "'a.gniyA' Nh Nhy N0_Nh" ]
+                                                            `gloss`  [ "rich", "wealthy [ [ ganiy ~ / ADJ ] ]", "wealthy" ],
+
     -- ;; ginA'_1
     -- gnA'    ginA'   N0_Nh   singing
     -- gnA&    ginA&   Nh      singing
     -- gnA}    ginA}   Nhy     singing
 
     noun     FiCA'                     {- ginA' -}          `gloss`  [ "singing" ],
-
-    -- ;; ginA}iy~_1
-    -- gnA}y   ginA}iy~        Nall    singing;vocal;lyrical     [[ginA}iy~/ADJ]]
-
-    noun     FiCA'                     {- ginA}iy~ -}       `gloss`  [ "singing", "vocal", "lyrical [ [ ginA } iy ~ / ADJ ] ]" ],
 
     -- ;; >ugoniyap_1
     -- >gny    >ugoniy NapAt   song;melody
@@ -1002,7 +977,7 @@ lexicon = listing "Lexicon properties"
     -- >gAn    >agAn   NK      songs;melodies
     -- AgAn    >agAn   NK      songs;melodies
 
-    noun     HuFCiL                    {- Ougoniyap -}      `others` [ "'u.gniyy NapAt", "'a.gAn NK", "'a.gAniy N0_Nh" ]
+    noun     HuFCiL |< aT              {- Ougoniyap -}      `others` [ "'u.gniyy NapAt", "'a.gAn NK", "'a.gAniy N0_Nh" ]
                                                             `gloss`  [ "song", "melody", "melody [ [ >ugoniy ~ / NOUN ] ]", "songs", "melodies" ],
 
     -- ;; gAniyap_1
@@ -1010,7 +985,7 @@ lexicon = listing "Lexicon properties"
     -- gwAny   gawAniy N0_Nh   pretty girls;belles
     -- gwAn    gawAn   NK      pretty girls;belles
 
-    noun     FACiL                     {- gAniyap -}        `others` [ ".gawAniy N0_Nh", ".gawAn NK" ]
+    noun     FACiL |< aT               {- gAniyap -}        `others` [ ".gawAniy N0_Nh", ".gawAn NK" ]
                                                             `gloss`  [ "pretty girl", "belle", "pretty girls", "belles" ] ]
 
  |> ".g r '" <| [
@@ -1047,12 +1022,12 @@ lexicon = listing "Lexicon properties"
     -- ;; garobiy~_1
     -- grby    garobiy~        Nall    west;western;westerner     [[garobiy~/ADJ]]
 
-    noun     FaCL                      {- garobiy~ -}       `gloss`  [ "west", "western", "westerner [ [ garobiy ~ / ADJ ] ]" ],
+    noun     FaCL |< Iy                {- garobiy~ -}       `gloss`  [ "west", "western", "westerner [ [ garobiy ~ / ADJ ] ]" ],
 
     -- ;; gurobap_1
     -- grb     gurob   Nap     exile
 
-    noun     FuCL                      {- gurobap -}        `gloss`  [ "exile" ],
+    noun     FuCL |< aT                {- gurobap -}        `gloss`  [ "exile" ],
 
     -- ;; gariyb_1
     -- gryb    gariyb  N-ap    strange     [[gariyb/ADJ]]
@@ -1068,11 +1043,11 @@ lexicon = listing "Lexicon properties"
     -- grbA'   gurabA' N0_Nh   strangers;foreigners
     -- grbA&   gurabA& Nh      strangers;foreigners
     -- grbA}   gurabA} Nhy     strangers;foreigners
-    -- >grAb   >agorAb N       strangers;foreigners;émigrés
-    -- AgrAb   >agorAb N       strangers;foreigners;émigrés
+    -- >grAb   >agorAb N       strangers;foreigners;emigres
+    -- AgrAb   >agorAb N       strangers;foreigners;emigres
 
     noun     FaCIL                     {- gariyb -}         `others` [ ".gurabA' Nh Nhy N0_Nh", "'a.grAb N" ]
-                                                            `gloss`  [ "stranger", "foreigner", "strangers", "foreigners", "émigrés" ],
+                                                            `gloss`  [ "stranger", "foreigner", "strangers", "foreigners", "emigres" ],
 
     -- ;; guruwb_1
     -- grwb    guruwb  N       setting
@@ -1082,7 +1057,7 @@ lexicon = listing "Lexicon properties"
     -- ;; garAbap_1
     -- grAb    garAb   Nap     strangeness;oddness
 
-    noun     FaCAL                     {- garAbap -}        `gloss`  [ "strangeness", "oddness" ],
+    noun     FaCAL |< aT               {- garAbap -}        `gloss`  [ "strangeness", "oddness" ],
 
     -- ;; >agorab_2
     -- >grb    >agorab Nel     stranger/strangest
@@ -1102,7 +1077,7 @@ lexicon = listing "Lexicon properties"
     -- mgArb   magArib Nap     Moroccan     [[magArib/NOUN]]
     -- mgArb   magArib Nap     Moroccan     [[magArib/ADJ]]
 
-    noun     MaFCiL                    {- magoribiy~ -}     `others` [ "ma.gArib Nap" ]
+    noun     MaFCiL |< Iy              {- magoribiy~ -}     `others` [ "ma.gArib Nap" ]
                                                             `gloss`  [ "Moroccan [ [ magoribiy ~ / NOUN ] ]", "Moroccan [ [ magoribiy ~ / ADJ ] ]", "Moroccan [ [ magArib / NOUN ] ]", "Moroccan [ [ magArib / ADJ ] ]" ],
 
     -- ;; magoribiy~_2
@@ -1111,7 +1086,7 @@ lexicon = listing "Lexicon properties"
     -- mgArb   magArib Nap     of/from the Maghrib (northwest Africa)     [[magArib/NOUN]]
     -- mgArb   magArib Nap     of/from the Maghrib (northwest Africa)     [[magArib/ADJ]]
 
-    noun     MaFCiL                    {- magoribiy~ -}     `others` [ "ma.gArib Nap" ]
+    noun     MaFCiL |< Iy              {- magoribiy~ -}     `others` [ "ma.gArib Nap" ]
                                                             `gloss`  [ "of / from the Maghrib ( northwest Africa ) [ [ magoribiy ~ / NOUN ] ]", "of / from the Maghrib ( northwest Africa ) [ [ magoribiy ~ / ADJ ] ]", "of / from the Maghrib ( northwest Africa ) [ [ magArib / NOUN ] ]", "of / from the Maghrib ( northwest Africa ) [ [ magArib / ADJ ] ]" ],
 
     -- ;; mugotarib_1
@@ -1123,7 +1098,7 @@ lexicon = listing "Lexicon properties"
     -- ;; mugArabiy~_1
     -- mgArby  mugArabiy~      N0      Mugharabi
 
-    noun     MuFACaL                   {- mugArabiy~ -}     `gloss`  [ "Mugharabi" ],
+    noun     MuFACaL |< Iy             {- mugArabiy~ -}     `gloss`  [ "Mugharabi" ],
 
     -- ;; musotagorab_1
     -- mstgrb  musotagorab     N       strange;odd     [[musotagorab/ADJ]]
@@ -1135,7 +1110,7 @@ lexicon = listing "Lexicon properties"
     -- ;; garobalap_1
     -- grbl    garobal Nap     sifting;sieving
 
-    noun     KaRDaS                    {- garobalap -}      `gloss`  [ "sifting", "sieving" ] ]
+    noun     KaRDaS |< aT              {- garobalap -}      `gloss`  [ "sifting", "sieving" ] ]
 
  |> ".g r d" <| [
 
@@ -1161,7 +1136,7 @@ lexicon = listing "Lexicon properties"
     -- grf     gurof   Napdu   room;chamber
     -- grf     guraf   N       rooms;chambers
 
-    noun     FuCL                      {- gurofap -}        `others` [ ".guraf N" ]
+    noun     FuCL |< aT                {- gurofap -}        `others` [ ".guraf N" ]
                                                             `gloss`  [ "room", "chamber", "rooms", "chambers" ] ]
 
  |> ".g r m" <| [
@@ -1169,7 +1144,7 @@ lexicon = listing "Lexicon properties"
     -- ;; garAmap_1
     -- grAm    garAm   NapAt   fine;penalty
 
-    noun     FaCAL                     {- garAmap -}        `gloss`  [ "fine", "penalty" ] ]
+    noun     FaCAL |< aT               {- garAmap -}        `gloss`  [ "fine", "penalty" ] ]
 
  |> ".g r n" <| [
 
@@ -1313,7 +1288,7 @@ lexicon = listing "Lexicon properties"
     -- ;; gariyzap_1
     -- gryz    gariyz  Nap     natural instinct;natural impulse
 
-    noun     FaCIL                     {- gariyzap -}       `gloss`  [ "natural instinct", "natural impulse" ] ]
+    noun     FaCIL |< aT               {- gariyzap -}       `gloss`  [ "natural instinct", "natural impulse" ] ]
 
  |> ".g s l" <| [
 
@@ -1339,7 +1314,7 @@ lexicon = listing "Lexicon properties"
     -- gsAl    gas~Al  Napdu   washing machine
     -- gsAl    gas~Al  NAt     washing machines
 
-    noun     FaCCAL                    {- gas~Alap -}       `others` [ ".gassAl NAt" ]
+    noun     FaCCAL |< aT              {- gas~Alap -}       `others` [ ".gassAl NAt" ]
                                                             `gloss`  [ "washing machine", "washing machines" ] ]
 
  |> ".g s n" <| [
@@ -1348,13 +1323,6 @@ lexicon = listing "Lexicon properties"
     -- gsAn    gas~An  N       Ghassan
 
     noun     FaCCAL                    {- gas~An -}         `gloss`  [ "Ghassan" ] ]
-
- |> ".g s s" <| [
-
-    -- ;; gas~An_1
-    -- gsAn    gas~An  N       Ghassan
-
-    noun     FaCLAn                    {- gas~An -}         `gloss`  [ "Ghassan" ] ]
 
  |> ".g w '" <| [
 
@@ -1389,19 +1357,14 @@ lexicon = listing "Lexicon properties"
     -- ;; gaw~ASap_1
     -- gwAS    gaw~AS  NapAt   submarine
 
-    noun     FaCCAL                    {- gaw~ASap -}       `gloss`  [ "submarine" ] ]
+    noun     FaCCAL |< aT              {- gaw~ASap -}       `gloss`  [ "submarine" ] ]
 
  |> ".g w .t" <| [
 
     -- ;; guwTap_1
     -- gwT     guwT    Nap     fertile valley;oasis
 
-    noun     FuCL                      {- guwTap -}         `gloss`  [ "fertile valley", "oasis" ],
-
-    -- ;; guwTap_1
-    -- gwT     guwT    Nap     fertile valley;oasis
-
-    noun     FUL                       {- guwTap -}         `gloss`  [ "fertile valley", "oasis" ] ]
+    noun     FuCL |< aT                {- guwTap -}         `gloss`  [ "fertile valley", "oasis" ] ]
 
  |> ".g w _t" <| [
 
@@ -1409,7 +1372,7 @@ lexicon = listing "Lexicon properties"
     -- <gAv    <igAv   NapAt   aid;relief assistance
     -- AgAv    <igAv   NapAt   aid;relief assistance
 
-    noun     HiFAL                     {- IigAvap -}        `gloss`  [ "aid", "relief assistance" ] ]
+    noun     HiFAL |< aT               {- IigAvap -}        `gloss`  [ "aid", "relief assistance" ] ]
 
  |> ".g w l" <| [
 
@@ -1417,7 +1380,7 @@ lexicon = listing "Lexicon properties"
     -- gA}l    gA}il   Nap     calamity;havoc
     -- gwA}l   gawA}il Ndip    calamities;havoc
 
-    noun     FA'iL                     {- gA}ilap -}        `others` [ ".gawA'il Ndip" ]
+    noun     FA'iL |< aT               {- gA}ilap -}        `others` [ ".gawA'il Ndip" ]
                                                             `gloss`  [ "calamity", "havoc", "calamities" ] ]
 
  |> ".g w m ^s" <| [
@@ -1446,7 +1409,7 @@ lexicon = listing "Lexicon properties"
     -- gAr     gAr     Napdu   raid;foray;attack
     -- gAr     gAr     NAt     raids;forays;attacks
 
-    noun     FAL                       {- gArap -}          `others` [ ".gAr NAt" ]
+    noun     FAL |< aT                 {- gArap -}          `others` [ ".gAr NAt" ]
                                                             `gloss`  [ "raid", "foray", "attack", "raids", "forays", "attacks" ],
 
     -- ;; gawor_1
@@ -1511,18 +1474,18 @@ lexicon = listing "Lexicon properties"
     -- gAb     gAb     NapAt   forest;jungle
     -- gAb     gAb     N       forest;jungle
 
-    noun     FAL                       {- gAbap -}          `others` [ ".gAb N" ]
+    noun     FAL |< aT                 {- gAbap -}          `others` [ ".gAb N" ]
                                                             `gloss`  [ "forest", "jungle" ],
 
     -- ;; gAbiy~_1
     -- gAby    gAbiy~  N-ap    forested;wooded     [[gAbiy~/ADJ]]
 
-    noun     FAL                       {- gAbiy~ -}         `gloss`  [ "forested", "wooded [ [ gAbiy ~ / ADJ ] ]" ],
+    noun     FAL |< Iy                 {- gAbiy~ -}         `gloss`  [ "forested", "wooded [ [ gAbiy ~ / ADJ ] ]" ],
 
     -- ;; gayobap_1
     -- gyb     gayob   Nap     absence
 
-    noun     FaCL                      {- gayobap -}        `gloss`  [ "absence" ],
+    noun     FaCL |< aT                {- gayobap -}        `gloss`  [ "absence" ],
 
     -- ;; giyAb_1
     -- gyAb    giyAb   N       absence;disappearance
@@ -1532,7 +1495,7 @@ lexicon = listing "Lexicon properties"
     -- ;; giyAbiy~_1
     -- gyAby   giyAbiy~        N-ap    absent;in absentia     [[giyAbiy~/ADJ]]
 
-    noun     FiCAL                     {- giyAbiy~ -}       `gloss`  [ "absent", "in absentia [ [ giyAbiy ~ / ADJ ] ]" ],
+    noun     FiCAL |< Iy               {- giyAbiy~ -}       `gloss`  [ "absent", "in absentia [ [ giyAbiy ~ / ADJ ] ]" ],
 
     -- ;; gA}ib_1
     -- gA}b    gA}ib   Nall    absent     [[gA}ib/ADJ]]
@@ -1603,45 +1566,21 @@ lexicon = listing "Lexicon properties"
     -- ;; gay~ap_1
     -- gy      gay~    NapAt   error;sin
 
-    noun     FaCL                      {- gay~ap -}         `gloss`  [ "error", "sin" ],
+    noun     FaCL |< aT                {- gay~ap -}         `gloss`  [ "error", "sin" ],
 
     -- ;; gAyap_1
     -- gAy     gAy     Napdu   goal;objective;purpose;intention
     -- gAy     gAy     NAt     goals;objectives
 
-    noun     FAL                       {- gAyap -}          `others` [ ".gAy NAt" ]
+    noun     FAL |< aT                 {- gAyap -}          `others` [ ".gAy NAt" ]
                                                             `gloss`  [ "goal", "objective", "purpose", "intention", "goals", "objectives" ],
 
     -- ;; gAyap_2
     -- gAy     gAy     Nap     utmost;extreme
     -- llgAyp  lilogAyap       FW-Wa   extremely;greatly   [[lilogAyap/ADV]]
 
-    noun     FAL                       {- gAyap -}          `others` [ "lil.gAyaT FW-Wa" ]
+    noun     FAL |< aT                 {- gAyap -}          `others` [ "lil.gAyaT FW-Wa" ]
                                                             `gloss`  [ "utmost", "extreme", "extremely", "greatly [ [ lilogAyap / ADV ] ]" ] ]
-
- |> ".g z " <| [
-
-    -- ;; gAziy_1
-    -- gAzy    gAziy   N0F_Nh  invader;raider;aggressor     [[gAziy/ADJ]]
-    -- gAz     gAz     NK      invader;raider;aggressor
-    -- gAzy    gAziy   NAn_Nayn        invader;raider;aggressor
-    -- gAz     gAz     Nuwn_Niyn       invader;raider;aggressor
-    -- gAzy    gAziy   NapAt   invader;raider;aggressor
-    -- gzA     guzA    Nap     invaders;raiders;aggressors
-
-    noun     FACI                      {- gAziy -}          `others` [ ".gAz Nuwn_Niyn NK", ".guzA Nap" ]
-                                                            `gloss`  [ "invader", "raider", "aggressor [ [ gAziy / ADJ ] ]", "aggressor", "invaders", "raiders", "aggressors" ],
-
-    -- ;; gAziy_1
-    -- gAzy    gAziy   N0F_Nh  invader;raider;aggressor     [[gAziy/ADJ]]
-    -- gAz     gAz     NK      invader;raider;aggressor
-    -- gAzy    gAziy   NAn_Nayn        invader;raider;aggressor
-    -- gAz     gAz     Nuwn_Niyn       invader;raider;aggressor
-    -- gAzy    gAziy   NapAt   invader;raider;aggressor
-    -- gzA     guzA    Nap     invaders;raiders;aggressors
-
-    noun     FACI                      {- gAziy -}          `others` [ ".gAz Nuwn_Niyn NK", ".guzA Nap" ]
-                                                            `gloss`  [ "invader", "raider", "aggressor [ [ gAziy / ADJ ] ]", "aggressor", "invaders", "raiders", "aggressors" ] ]
 
  |> ".g z l" <| [
 
@@ -1663,7 +1602,7 @@ lexicon = listing "Lexicon properties"
     -- ;; gazAlap_1
     -- gzAlp   gazAlap N0      Ghazala
 
-    noun     FaCAL                     {- gazAlap -}        `gloss`  [ "Ghazala" ],
+    noun     FaCAL |< aT               {- gazAlap -}        `gloss`  [ "Ghazala" ],
 
     -- ;; magozil_1
     -- mgzl    magozil Ndu     spinning mill
@@ -1718,7 +1657,29 @@ lexicon = listing "Lexicon properties"
     -- mgAz    magAz   NK      significance;meanings
 
     noun     MaFCaNY                   {- magozaY -}        `others` [ "ma.gzA Nhy", "ma.gzay NAn_Nayn", "ma.gAz NK", "ma.gAziy N0_Nh" ]
-                                                            `gloss`  [ "significance", "meaning", "meanings" ] ]
+                                                            `gloss`  [ "significance", "meaning", "meanings" ],
+
+    -- ;; gAziy_1
+    -- gAzy    gAziy   N0F_Nh  invader;raider;aggressor     [[gAziy/ADJ]]
+    -- gAz     gAz     NK      invader;raider;aggressor
+    -- gAzy    gAziy   NAn_Nayn        invader;raider;aggressor
+    -- gAz     gAz     Nuwn_Niyn       invader;raider;aggressor
+    -- gAzy    gAziy   NapAt   invader;raider;aggressor
+    -- gzA     guzA    Nap     invaders;raiders;aggressors
+
+    noun     FACI                      {- gAziy -}          `others` [ ".gAz Nuwn_Niyn NK", ".guzA Nap" ]
+                                                            `gloss`  [ "invader", "raider", "aggressor [ [ gAziy / ADJ ] ]", "aggressor", "invaders", "raiders", "aggressors" ],
+
+    -- ;; gAziy_1
+    -- gAzy    gAziy   N0F_Nh  invader;raider;aggressor     [[gAziy/ADJ]]
+    -- gAz     gAz     NK      invader;raider;aggressor
+    -- gAzy    gAziy   NAn_Nayn        invader;raider;aggressor
+    -- gAz     gAz     Nuwn_Niyn       invader;raider;aggressor
+    -- gAzy    gAziy   NapAt   invader;raider;aggressor
+    -- gzA     guzA    Nap     invaders;raiders;aggressors
+
+    noun     FACI                      {- gAziy -}          `others` [ ".gAz Nuwn_Niyn NK", ".guzA Nap" ]
+                                                            `gloss`  [ "invader", "raider", "aggressor [ [ gAziy / ADJ ] ]", "aggressor", "invaders", "raiders", "aggressors" ] ]
 
  |> ".g z y" <| [
 
@@ -1738,7 +1699,7 @@ lexicon = listing "Lexicon properties"
     -- ;; gaz~ap_1
     -- gz      gaz~    Nap     Gaza
 
-    noun     FaCL                      {- gaz~ap -}         `gloss`  [ "Gaza" ] ]
+    noun     FaCL |< aT                {- gaz~ap -}         `gloss`  [ "Gaza" ] ]
 
  |> ".gAbriyyil" <| [
 
@@ -1759,7 +1720,7 @@ lexicon = listing "Lexicon properties"
     -- ;; gAliyriy~_1
     -- gAlyry  gAliyriy~       N-ap    gallery     [[gAliyriy~/ADJ]]
 
-    noun     Identity                  {- gAliyriy~ -}      `gloss`  [ "gallery [ [ gAliyriy ~ / ADJ ] ]" ] ]
+    noun     Identity |< Iy            {- gAliyriy~ -}      `gloss`  [ "gallery [ [ gAliyriy ~ / ADJ ] ]" ] ]
 
  |> ".gAluw" <| [
 
@@ -1805,15 +1766,6 @@ lexicon = listing "Lexicon properties"
 
     noun     Identity                  {- g$tAd -}          `gloss`  [ "Gstaad" ] ]
 
- |> ".gadaNY" <| [
-
-    -- ;; gadAp_1
-    -- gdA     gadA    Nap     morning;tomorrow
-    -- gdw     gadaw   NAt     comings;mornings
-
-    noun     Identity                  {- gadAp -}          `others` [ ".gadaw NAt" ]
-                                                            `gloss`  [ "morning", "tomorrow", "comings", "mornings" ] ]
-
  |> ".gawdiyuw" <| [
 
     -- ;; gawodiyuw_1
@@ -1826,7 +1778,21 @@ lexicon = listing "Lexicon properties"
     -- ;; gayobuwbap_1
     -- gybwb   gayobuwb        Nap     unconsciousness;trance;coma
 
-    noun     Identity                  {- gayobuwbap -}     `gloss`  [ "unconsciousness", "trance", "coma" ] ]
+    noun     Identity |< aT            {- gayobuwbap -}     `gloss`  [ "unconsciousness", "trance", "coma" ] ]
+
+ |> ".gi_dA'iyy" <| [
+
+    -- ;; gi*A}iy~_1
+    -- g*A}y   gi*A}iy~        Nall    food;alimentary;nutritional     [[gi*A}iy~/ADJ]]
+
+    noun     Identity                  {- gi*A}iy~ -}       `gloss`  [ "food", "alimentary", "nutritional [ [ gi*A } iy ~ / ADJ ] ]" ] ]
+
+ |> ".ginA'iyy" <| [
+
+    -- ;; ginA}iy~_1
+    -- gnA}y   ginA}iy~        Nall    singing;vocal;lyrical     [[ginA}iy~/ADJ]]
+
+    noun     Identity                  {- ginA}iy~ -}       `gloss`  [ "singing", "vocal", "lyrical [ [ ginA } iy ~ / ADJ ] ]" ] ]
 
  |> ".giynAdiy" <| [
 
@@ -1899,13 +1865,4 @@ lexicon = listing "Lexicon properties"
     -- gwlmAr  guwlomAr        Nprop   Golmar
 
     noun     Identity                  {- guwlomAr -}       `gloss`  [ "Golmar" ] ]
-
- |> "mu.gAlaNY" <| [
-
-    -- ;; mugAlAp_1
-    -- mgAlA   mugAlA  Napdu   exaggeration;excess
-    -- mgAly   mugAlay NAt     exaggerations;excesses
-
-    noun     Identity                  {- mugAlAp -}        `others` [ "mu.gAlay NAt" ]
-                                                            `gloss`  [ "exaggeration", "excess", "exaggerations", "excesses" ] ]
 

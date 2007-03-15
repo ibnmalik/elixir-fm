@@ -9,12 +9,12 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon properties"
 
 
- |> ".t ' '" <| [
+ |> ".t  '" <| [
 
     -- ;; TA}iy~_1
     -- TA}y    TA}iy~  N0      Ta'i
 
-    noun     FAL                       {- TA}iy~ -}         `gloss`  [ "Ta'i" ] ]
+    noun     FAL |< Iy                 {- TA}iy~ -}         `gloss`  [ "Ta'i" ] ]
 
  |> ".t ' b" <| [
 
@@ -22,7 +22,7 @@ lexicon = listing "Lexicon properties"
     -- TAb     TAb     Nap     Taba
     -- TAbA    TAbA    N0      Taba
 
-    noun     FAL                       {- TAbap -}          `others` [ ".tAbA N0" ]
+    noun     FAL |< aT                 {- TAbap -}          `others` [ ".tAbA N0" ]
                                                             `gloss`  [ "Taba" ] ]
 
  |> ".t ' f" <| [
@@ -36,21 +36,21 @@ lexicon = listing "Lexicon properties"
     -- TA}f    TA}if   Napdu   sect;party;faction
     -- TwA}f   TawA}if Ndip    sects;parties;factions
 
-    noun     FACiL                     {- TA}ifap -}        `others` [ ".tawA'if Ndip" ]
+    noun     FACiL |< aT               {- TA}ifap -}        `others` [ ".tawA'if Ndip" ]
                                                             `gloss`  [ "sect", "party", "faction", "sects", "parties", "factions" ],
 
     -- ;; TA}ifiy~_1
     -- TA}fy   TA}ifiy~        Nall    sectarian;factional     [[TA}ifiy~/ADJ]]
     -- TA}fy   TA}ifiy~        Nap     sectarianism;factionalism     [[TA}ifiy~/NOUN]]
 
-    noun     FACiL                     {- TA}ifiy~ -}       `gloss`  [ "sectarian", "factional [ [ TA } ifiy ~ / ADJ ] ]", "sectarianism", "factionalism [ [ TA } ifiy ~ / NOUN ] ]" ] ]
+    noun     FACiL |< Iy               {- TA}ifiy~ -}       `gloss`  [ "sectarian", "factional [ [ TA } ifiy ~ / ADJ ] ]", "sectarianism", "factionalism [ [ TA } ifiy ~ / NOUN ] ]" ] ]
 
  |> ".t ' l" <| [
 
     -- ;; TA}ilap_1
     -- TA}l    TA}il   Nap     threat
 
-    noun     FACiL                     {- TA}ilap -}        `gloss`  [ "threat" ] ]
+    noun     FACiL |< aT               {- TA}ilap -}        `gloss`  [ "threat" ] ]
 
  |> ".t ' r" <| [
 
@@ -62,9 +62,28 @@ lexicon = listing "Lexicon properties"
     -- ;; TA}irap_1
     -- TA}r    TA}ir   NapAt   aircraft;airplane
 
-    noun     FACiL                     {- TA}irap -}        `gloss`  [ "aircraft", "airplane" ] ]
+    noun     FACiL |< aT               {- TA}irap -}        `gloss`  [ "aircraft", "airplane" ] ]
 
- |> ".t .g " <| [
+ |> ".t .g m" <| [
+
+    -- ;; Tugomap_1
+    -- Tgm     Tugom   NapAt   band;clique
+
+    noun     FuCL |< aT                {- Tugomap -}        `gloss`  [ "band", "clique" ] ]
+
+ |> ".t .g w" <| [
+
+    -- ;; TagA-u_1
+    -- TgA     TagA    PV_0    overstep;be excessive
+    -- Tgw     Tagaw   PV_Atn  overstep;be excessive
+    -- Tg      Tag     PV_ttAw overstep;be excessive
+    -- Tgw     Toguw   IV_0hAnn        overstep;be excessive
+    -- Tg      Tog     IV_0hwnyn       overstep;be excessive
+    -- TgY     TogaY   IV_0_Pass_yu    be overstepped
+
+    verb     FaCA                      {- TagA-u -}         `imperf` [ FCuL ]
+                                                            `others` [ ".t.gY IV_0_Pass_yu", ".ta.g PV_ttAw", ".t.g IV_0hwnyn", ".ta.gaw PV_Atn", ".t.guw IV_0hAnn" ]
+                                                            `gloss`  [ "overstep", "be excessive", "be overstepped" ],
 
     -- ;; TagaY-a_1
     -- TgY     TagaY   PV_0    dominate;control;be tyrannical
@@ -92,27 +111,6 @@ lexicon = listing "Lexicon properties"
                                                             `others` [ ".t.gY IV_0", ".ta.ga PV_ttAw", ".t.gay IV_Ann", ".t.gA IV_h", ".ta.gay PV_Atn", ".t.ga IV_0hwnyn" ]
                                                             `gloss`  [ "dominate", "control", "be tyrannical" ] ]
 
- |> ".t .g m" <| [
-
-    -- ;; Tugomap_1
-    -- Tgm     Tugom   NapAt   band;clique
-
-    noun     FuCL                      {- Tugomap -}        `gloss`  [ "band", "clique" ] ]
-
- |> ".t .g w" <| [
-
-    -- ;; TagA-u_1
-    -- TgA     TagA    PV_0    overstep;be excessive
-    -- Tgw     Tagaw   PV_Atn  overstep;be excessive
-    -- Tg      Tag     PV_ttAw overstep;be excessive
-    -- Tgw     Toguw   IV_0hAnn        overstep;be excessive
-    -- Tg      Tog     IV_0hwnyn       overstep;be excessive
-    -- TgY     TogaY   IV_0_Pass_yu    be overstepped
-
-    verb     FaCA                      {- TagA-u -}         `imperf` [ FCuL ]
-                                                            `others` [ ".t.gY IV_0_Pass_yu", ".ta.g PV_ttAw", ".t.g IV_0hwnyn", ".ta.gaw PV_Atn", ".t.guw IV_0hAnn" ]
-                                                            `gloss`  [ "overstep", "be excessive", "be overstepped" ] ]
-
  |> ".t .h n" <| [
 
     -- ;; TaHiyn_1
@@ -130,15 +128,8 @@ lexicon = listing "Lexicon properties"
     -- mTHn    maToHan Napdu   flour mill
     -- mTAHn   maTAHin Ndip    flour mills
 
-    noun     MiFCaL                    {- miToHanap -}      `others` [ "ma.t.han Napdu", "ma.tA.hin Ndip" ]
+    noun     MiFCaL |< aT              {- miToHanap -}      `others` [ "ma.t.han Napdu", "ma.tA.hin Ndip" ]
                                                             `gloss`  [ "flour mill", "flour mills" ] ]
-
- |> ".t .t r" <| [
-
-    -- ;; Tariy~_1
-    -- Try     Tariy~  N-ap    fresh;tender     [[Tariy~/ADJ]]
-
-    noun     CaL                       {- Tariy~ -}         `gloss`  [ "fresh", "tender [ [ Tariy ~ / ADJ ] ]" ] ]
 
  |> ".t ` m" <| [
 
@@ -150,7 +141,7 @@ lexicon = listing "Lexicon properties"
     -- ;; TaEomiy~ap_1
     -- TEmy    TaEomiy~        Nap     ta'miyah (Egyptian falafel)
 
-    noun     FaCL                      {- TaEomiy~ap -}     `gloss`  [ "ta'miyah ( Egyptian falafel )" ],
+    noun     FaCL |< Iy |< aT          {- TaEomiy~ap -}     `gloss`  [ "ta'miyah ( Egyptian falafel )" ],
 
     -- ;; TaEAm_1
     -- TEAm    TaEAm   N       food
@@ -188,7 +179,7 @@ lexicon = listing "Lexicon properties"
     -- TEn     TaEon   Napdu   stab;insult
     -- TEn     TaEan   NAt     stabs;insults
 
-    noun     FaCL                      {- TaEonap -}        `others` [ ".ta`an NAt" ]
+    noun     FaCL |< aT                {- TaEonap -}        `others` [ ".ta`an NAt" ]
                                                             `gloss`  [ "stab", "insult", "stabs", "insults" ],
 
     -- ;; TAEin_1
@@ -238,25 +229,25 @@ lexicon = listing "Lexicon properties"
     -- TbE     TaboE   Napdu   printing;edition
     -- TbE     TabaE   NAt     printings;editions
 
-    noun     FaCL                      {- TaboEap -}        `others` [ ".taba` NAt" ]
+    noun     FaCL |< aT                {- TaboEap -}        `others` [ ".taba` NAt" ]
                                                             `gloss`  [ "printing", "edition", "printings", "editions" ],
 
     -- ;; TibAEap_1
     -- TbAE    TibAE   Nap     printing
 
-    noun     FiCAL                     {- TibAEap -}        `gloss`  [ "printing" ],
+    noun     FiCAL |< aT               {- TibAEap -}        `gloss`  [ "printing" ],
 
     -- ;; TabiyEap_1
     -- TbyE    TabiyE  Nap     nature;natural
     -- TbA}E   TabA}iE Ndip    nature;natural
 
-    noun     FaCIL                     {- TabiyEap -}       `others` [ ".tabA'i` Ndip" ]
+    noun     FaCIL |< aT               {- TabiyEap -}       `others` [ ".tabA'i` Ndip" ]
                                                             `gloss`  [ "nature", "natural" ],
 
     -- ;; TabiyEiy~_1
     -- TbyEy   TabiyEiy~       N-ap    natural;normal     [[TabiyEiy~/ADJ]]
 
-    noun     FaCIL                     {- TabiyEiy~ -}      `gloss`  [ "natural", "normal [ [ TabiyEiy ~ / ADJ ] ]" ],
+    noun     FaCIL |< Iy               {- TabiyEiy~ -}      `gloss`  [ "natural", "normal [ [ TabiyEiy ~ / ADJ ] ]" ],
 
     -- ;; maTobaE_1
     -- mTbE    maTobaE Ndu     printing press
@@ -298,7 +289,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Tib~iy~_1
     -- Tby     Tib~iy~ N-ap    medical     [[Tib~iy~/ADJ]]
 
-    noun     FiCL                      {- Tib~iy~ -}        `gloss`  [ "medical [ [ Tib ~ iy ~ / ADJ ] ]" ],
+    noun     FiCL |< Iy                {- Tib~iy~ -}        `gloss`  [ "medical [ [ Tib ~ iy ~ / ADJ ] ]" ],
 
     -- ;; Tabiyb_1
     -- Tbyb    Tabiyb  N/ap    physician;doctor
@@ -317,7 +308,7 @@ lexicon = listing "Lexicon properties"
     -- ;; TibAbap_1
     -- TbAb    TibAb   Nap     medical profession;medical treatment
 
-    noun     FiCAL                     {- TibAbap -}        `gloss`  [ "medical profession", "medical treatment" ],
+    noun     FiCAL |< aT               {- TibAbap -}        `gloss`  [ "medical profession", "medical treatment" ],
 
     -- ;; maTab~_1
     -- mTb     maTab~  NduAt   pothole;air pocket;wind shear
@@ -359,13 +350,13 @@ lexicon = listing "Lexicon properties"
     -- ;; Tabaqap_1
     -- Tbq     Tabaq   NapAt   class;category
 
-    noun     FaCaL                     {- Tabaqap -}        `gloss`  [ "class", "category" ],
+    noun     FaCaL |< aT               {- Tabaqap -}        `gloss`  [ "class", "category" ],
 
     -- ;; Tabaqap_2
     -- Tbq     Tabaq   NapAt   level;layer
     -- TbAq    TibAq   N       strata;layers
 
-    noun     FaCaL                     {- Tabaqap -}        `others` [ ".tibAq N" ]
+    noun     FaCaL |< aT               {- Tabaqap -}        `others` [ ".tibAq N" ]
                                                             `gloss`  [ "level", "layer", "strata", "layers" ],
 
     -- ;; taTobiyq_1
@@ -376,7 +367,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muTAbaqap_1
     -- mTAbq   muTAbaq NapAt   conformity;agreement
 
-    noun     MuFACaL                   {- muTAbaqap -}      `gloss`  [ "conformity", "agreement" ],
+    noun     MuFACaL |< aT             {- muTAbaqap -}      `gloss`  [ "conformity", "agreement" ],
 
     -- ;; taTAbuq_1
     -- tTAbq   taTAbuq N/At    compatibility;correspondence
@@ -407,19 +398,6 @@ lexicon = listing "Lexicon properties"
 
     noun     FUCAL                     {- TuwbAs -}         `gloss`  [ "Tubas" ] ]
 
- |> ".t f " <| [
-
-    -- ;; TafA-u_1
-    -- TfA     TafA    PV_0    float;emerge
-    -- Tfw     Tafaw   PV_Atn  float;emerge
-    -- Tf      Taf     PV_ttAw float;emerge
-    -- Tfw     Tofuw   IV_0hAnn        float;emerge
-    -- Tf      Tof     IV_0hwnyn       float;emerge
-
-    verb     FaCA                      {- TafA-u -}         `imperf` [ FCuL ]
-                                                            `others` [ ".tf IV_0hwnyn", ".tafaw PV_Atn", ".tfuw IV_0hAnn", ".taf PV_ttAw" ]
-                                                            `gloss`  [ "float", "emerge" ] ]
-
  |> ".t f '" <| [
 
     -- ;; <iTofA'_1
@@ -442,15 +420,7 @@ lexicon = listing "Lexicon properties"
     -- <TfA}y  <iTofA}iy~      Nall    fire fighting;extinguishing     [[<iTofA}iy~/ADJ]]
     -- ATfA}y  <iTofA}iy~      Nall    fire fighting;extinguishing     [[<iTofA}iy~/ADJ]]
 
-    noun     HiFCAL                    {- IiTofA}iy~ -}     `gloss`  [ "fire fighting", "extinguishing [ [" ] ]
-
- |> ".t f .h" <| [
-
-    -- ;; <iTofA}iy~_1
-    -- <TfA}y  <iTofA}iy~      Nall    fire fighting;extinguishing     [[<iTofA}iy~/ADJ]]
-    -- ATfA}y  <iTofA}iy~      Nall    fire fighting;extinguishing     [[<iTofA}iy~/ADJ]]
-
-    noun     HiFCA'                    {- IiTofA}iy~ -}     `gloss`  [ "fire fighting", "extinguishing [ [" ] ]
+    noun     HiFCAL |< Iy              {- IiTofA}iy~ -}     `gloss`  [ "fire fighting", "extinguishing [ [" ] ]
 
  |> ".t f ^s" <| [
 
@@ -480,7 +450,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Tufuwlap_1
     -- Tfwl    Tufuwl  Nap     infancy
 
-    noun     FuCUL                     {- Tufuwlap -}       `gloss`  [ "infancy" ] ]
+    noun     FuCUL |< aT               {- Tufuwlap -}       `gloss`  [ "infancy" ] ]
 
  |> ".t f n" <| [
 
@@ -495,8 +465,21 @@ lexicon = listing "Lexicon properties"
     -- Tfr     Tafor   Napdu   leap;jump
     -- Tfr     Tafar   NAt     leaps;jumps
 
-    noun     FaCL                      {- Taforap -}        `others` [ ".tafar NAt" ]
+    noun     FaCL |< aT                {- Taforap -}        `others` [ ".tafar NAt" ]
                                                             `gloss`  [ "leap", "jump", "leaps", "jumps" ] ]
+
+ |> ".t f w" <| [
+
+    -- ;; TafA-u_1
+    -- TfA     TafA    PV_0    float;emerge
+    -- Tfw     Tafaw   PV_Atn  float;emerge
+    -- Tf      Taf     PV_ttAw float;emerge
+    -- Tfw     Tofuw   IV_0hAnn        float;emerge
+    -- Tf      Tof     IV_0hwnyn       float;emerge
+
+    verb     FaCA                      {- TafA-u -}         `imperf` [ FCuL ]
+                                                            `others` [ ".tf IV_0hwnyn", ".tafaw PV_Atn", ".tfuw IV_0hAnn", ".taf PV_ttAw" ]
+                                                            `gloss`  [ "float", "emerge" ] ]
 
  |> ".t f y" <| [
 
@@ -515,7 +498,7 @@ lexicon = listing "Lexicon properties"
     -- ;; TahArap_1
     -- ThAr    TahAr   Nap     purity;chastity
 
-    noun     FaCAL                     {- TahArap -}        `gloss`  [ "purity", "chastity" ],
+    noun     FaCAL |< aT               {- TahArap -}        `gloss`  [ "purity", "chastity" ],
 
     -- ;; taTohiyr_1
     -- tThyr   taTohiyr        N/At    purging;disinfecting
@@ -537,12 +520,29 @@ lexicon = listing "Lexicon properties"
 
     noun     FaCLAn                    {- TahorAn -}        `gloss`  [ "Tehran" ] ]
 
- |> ".t h r n" <| [
+ |> ".t h w" <| [
 
-    -- ;; TahorAn_1
-    -- ThrAn   TahorAn Ndip    Tehran
+    -- ;; TAhiy_1
+    -- TAhy    TAhiy   N0F_Nh  cook
+    -- TAh     TAh     NK      cook
+    -- TAhy    TAhiy   NAn_Nayn        cook
+    -- TAh     TAh     Nuwn_Niyn       cook
+    -- TAhy    TAhiy   NapAt   cook
+    -- ThA     TuhA    Nap     cooks
 
-    noun     KaRDAS                    {- TahorAn -}        `gloss`  [ "Tehran" ] ]
+    noun     FACI                      {- TAhiy -}          `others` [ ".tuhA Nap", ".tAh Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "cook", "cooks" ],
+
+    -- ;; TAhiy_1
+    -- TAhy    TAhiy   N0F_Nh  cook
+    -- TAh     TAh     NK      cook
+    -- TAhy    TAhiy   NAn_Nayn        cook
+    -- TAh     TAh     Nuwn_Niyn       cook
+    -- TAhy    TAhiy   NapAt   cook
+    -- ThA     TuhA    Nap     cooks
+
+    noun     FACI                      {- TAhiy -}          `others` [ ".tuhA Nap", ".tAh Nuwn_Niyn NK" ]
+                                                            `gloss`  [ "cook", "cooks" ] ]
 
  |> ".t h y" <| [
 
@@ -555,28 +555,6 @@ lexicon = listing "Lexicon properties"
     -- ThA     TuhA    Nap     cooks
 
     noun     FACiL                     {- TAhiy -}          `others` [ ".tuhA Nap", ".tAh Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "cook", "cooks" ],
-
-    -- ;; TAhiy_1
-    -- TAhy    TAhiy   N0F_Nh  cook
-    -- TAh     TAh     NK      cook
-    -- TAhy    TAhiy   NAn_Nayn        cook
-    -- TAh     TAh     Nuwn_Niyn       cook
-    -- TAhy    TAhiy   NapAt   cook
-    -- ThA     TuhA    Nap     cooks
-
-    noun     FACI                      {- TAhiy -}          `others` [ ".tuhA Nap", ".tAh Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "cook", "cooks" ],
-
-    -- ;; TAhiy_1
-    -- TAhy    TAhiy   N0F_Nh  cook
-    -- TAh     TAh     NK      cook
-    -- TAhy    TAhiy   NAn_Nayn        cook
-    -- TAh     TAh     Nuwn_Niyn       cook
-    -- TAhy    TAhiy   NapAt   cook
-    -- ThA     TuhA    Nap     cooks
-
-    noun     FACI                      {- TAhiy -}          `others` [ ".tuhA Nap", ".tAh Nuwn_Niyn NK" ]
                                                             `gloss`  [ "cook", "cooks" ] ]
 
  |> ".t l `" <| [
@@ -607,20 +585,20 @@ lexicon = listing "Lexicon properties"
     -- ;; TaloEap_1
     -- TlE     TaloE   Nap     appearance;guise
 
-    noun     FaCL                      {- TaloEap -}        `gloss`  [ "appearance", "guise" ],
+    noun     FaCL |< aT                {- TaloEap -}        `gloss`  [ "appearance", "guise" ],
 
     -- ;; TaliyEap_1
     -- TlyE    TaliyE  Napdu   vanguard
     -- TlA}E   TalA}iE Ndip    vanguards
     -- TlA}E   TalA}iE Ndip    symptoms
 
-    noun     FaCIL                     {- TaliyEap -}       `others` [ ".talA'i` Ndip" ]
+    noun     FaCIL |< aT               {- TaliyEap -}       `others` [ ".talA'i` Ndip" ]
                                                             `gloss`  [ "vanguard", "vanguards", "symptoms" ],
 
     -- ;; TaliyEiy~_1
     -- TlyEy   TaliyEiy~       Nall    vanguard     [[TaliyEiy~/ADJ]]
 
-    noun     FaCIL                     {- TaliyEiy~ -}      `gloss`  [ "vanguard [ [ TaliyEiy ~ / ADJ ] ]" ],
+    noun     FaCIL |< Iy               {- TaliyEiy~ -}      `gloss`  [ "vanguard [ [ TaliyEiy ~ / ADJ ] ]" ],
 
     -- ;; maTolaE_1
     -- mTlE    maTolaE Ndu     beginning;rise
@@ -632,7 +610,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muTAlaEap_1
     -- mTAlE   muTAlaE NapAt   perusal
 
-    noun     MuFACaL                   {- muTAlaEap -}      `gloss`  [ "perusal" ],
+    noun     MuFACaL |< aT             {- muTAlaEap -}      `gloss`  [ "perusal" ],
 
     -- ;; taTal~uE_1
     -- tTlE    taTal~uE        N/At    endeavor
@@ -642,7 +620,7 @@ lexicon = listing "Lexicon properties"
     -- ;; taTal~uEAt_1
     -- tTlE    taTal~uE        NAt     aspirations;hopes
 
-    noun     TaFaCCuL                  {- taTal~uEAt -}     `others` [ "ta.tallu` NAt" ]
+    noun     TaFaCCuL |< At            {- taTal~uEAt -}     `others` [ "ta.tallu` NAt" ]
                                                             `gloss`  [ "aspirations", "hopes" ],
 
     -- ;; muT~aliE_1
@@ -688,7 +666,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Talabiy~ap_1
     -- Tlby    Talabiy~        NapAt   order;commission     [[Talabiy~/NOUN]]
 
-    noun     FaCaL                     {- Talabiy~ap -}     `gloss`  [ "order", "commission [ [ Talabiy ~ / NOUN ] ]" ],
+    noun     FaCaL |< Iy |< aT         {- Talabiy~ap -}     `gloss`  [ "order", "commission [ [ Talabiy ~ / NOUN ] ]" ],
 
     -- ;; maTolab_1
     -- mTlb    maTolab N       quest
@@ -701,7 +679,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muTAlabap_1
     -- mTAlb   muTAlab NapAt   requirement;demand
 
-    noun     MuFACaL                   {- muTAlabap -}      `gloss`  [ "requirement", "demand" ],
+    noun     MuFACaL |< aT             {- muTAlabap -}      `gloss`  [ "requirement", "demand" ],
 
     -- ;; TAlib_1
     -- TAlb    TAlib   N/ap    student
@@ -714,12 +692,12 @@ lexicon = listing "Lexicon properties"
     -- ;; TAlibiy~_1
     -- TAlby   TAlibiy~        N-ap    student     [[TAlibiy~/ADJ]]
 
-    noun     FACiL                     {- TAlibiy~ -}       `gloss`  [ "student [ [ TAlibiy ~ / ADJ ] ]" ],
+    noun     FACiL |< Iy               {- TAlibiy~ -}       `gloss`  [ "student [ [ TAlibiy ~ / ADJ ] ]" ],
 
     -- ;; Tul~Abiy~_1
     -- TlAby   Tul~Abiy~       Nall    students     [[Tul~Abiy~/ADJ]]
 
-    noun     FuCCAL                    {- Tul~Abiy~ -}      `gloss`  [ "students [ [ Tul ~ Abiy ~ / ADJ ] ]" ],
+    noun     FuCCAL |< Iy              {- Tul~Abiy~ -}      `gloss`  [ "students [ [ Tul ~ Abiy ~ / ADJ ] ]" ],
 
     -- ;; TAlib_2
     -- TAlb    TAlib   N0      Talib;Taleb
@@ -796,7 +774,7 @@ lexicon = listing "Lexicon properties"
     -- ;; TalAqap_1
     -- TlAq    TalAq   Nap     facility;ease
 
-    noun     FaCAL                     {- TalAqap -}        `gloss`  [ "facility", "ease" ],
+    noun     FaCAL |< aT               {- TalAqap -}        `gloss`  [ "facility", "ease" ],
 
     -- ;; Talaq_1
     -- Tlq     Talaq   N       firing
@@ -809,7 +787,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Talaqap_1
     -- Tlq     Talaq   NapAt   shot
 
-    noun     FaCaL                     {- Talaqap -}        `gloss`  [ "shot" ],
+    noun     FaCaL |< aT               {- Talaqap -}        `gloss`  [ "shot" ],
 
     -- ;; <iTolAq_1
     -- <TlAq   <iTolAq N/At    release
@@ -827,7 +805,7 @@ lexicon = listing "Lexicon properties"
     -- <TlAq   <iTolAq NF      absolutely     [[<iTolAq/ADV]]
     -- ATlAq   <iTolAq NF      absolutely     [[<iTolAq/ADV]]
 
-    noun     HiFCAL                    {- IiTolAqAF -}      `others` [ "'i.tlAq NF" ]
+    noun     HiFCAL |< aN              {- IiTolAqAF -}      `others` [ "'i.tlAq NF" ]
                                                             `gloss`  [ "absolutely [ [" ],
 
     -- ;; muTolaq_1
@@ -865,7 +843,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Tamo>anap_1
     -- Tm>n    Tamo>an Nap     pacifying;calming;reassuring
 
-    noun     KaRDaS                    {- TamoOanap -}      `gloss`  [ "pacifying", "calming", "reassuring" ] ]
+    noun     KaRDaS |< aT              {- TamoOanap -}      `gloss`  [ "pacifying", "calming", "reassuring" ] ]
 
  |> ".t m .h" <| [
 
@@ -941,7 +919,7 @@ lexicon = listing "Lexicon properties"
     -- ;; TanoTAwiy~_2
     -- TnTAwy  TanoTAwiy~      N0      Tantawi;Tantaoui
 
-    noun     KaRDAS                    {- TanoTAwiy~ -}     `gloss`  [ "Tantawi", "Tantaoui" ] ]
+    noun     KaRDAS |< Iy              {- TanoTAwiy~ -}     `gloss`  [ "Tantawi", "Tantaoui" ] ]
 
  |> ".t n b" <| [
 
@@ -959,9 +937,7 @@ lexicon = listing "Lexicon properties"
     -- ATnAn   >aTonAn N       tons
 
     noun     FuCL                      {- Tun~ -}           `others` [ "'a.tnAn N" ]
-                                                            `gloss`  [ "ton", "tons" ] ]
-
- |> ".t n y" <| [
+                                                            `gloss`  [ "ton", "tons" ],
 
     -- ;; Tuwniy_1
     -- Twny    Tuwniy  Nprop   Tony
@@ -1022,7 +998,7 @@ lexicon = listing "Lexicon properties"
     -- TAr}    TAri}   Napdu   incident;contingent
     -- TwAr}   TawAri} Ndip    emergency
 
-    noun     FACiL                     {- TAri}ap -}        `others` [ ".tawAri' Ndip" ]
+    noun     FACiL |< aT               {- TAri}ap -}        `others` [ ".tawAri' Ndip" ]
                                                             `gloss`  [ "incident", "contingent", "emergency" ] ]
 
  |> ".t r .h" <| [
@@ -1106,7 +1082,7 @@ lexicon = listing "Lexicon properties"
     -- ;; muTAradap_1
     -- mTArd   muTArad NapAt   expulsion;pursuit;chase
 
-    noun     MuFACaL                   {- muTAradap -}      `gloss`  [ "expulsion", "pursuit", "chase" ],
+    noun     MuFACaL |< aT             {- muTAradap -}      `gloss`  [ "expulsion", "pursuit", "chase" ],
 
     -- ;; TArid_1
     -- TArd    TArid   Nall    expelling;repelling
@@ -1141,7 +1117,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Tarafiy~_1
     -- Trfy    Tarafiy~        N-ap    extreme     [[Tarafiy~/ADJ]]
 
-    noun     FaCaL                     {- Tarafiy~ -}       `gloss`  [ "extreme [ [ Tarafiy ~ / ADJ ] ]" ],
+    noun     FaCaL |< Iy               {- Tarafiy~ -}       `gloss`  [ "extreme [ [ Tarafiy ~ / ADJ ] ]" ],
 
     -- ;; Tariyf_1
     -- Tryf    Tariyf  N-ap    curious;strange     [[Tariyf/ADJ]]
@@ -1152,7 +1128,7 @@ lexicon = listing "Lexicon properties"
     -- ;; TarAfap_1
     -- TrAf    TarAf   Nap     novelty;originality
 
-    noun     FaCAL                     {- TarAfap -}        `gloss`  [ "novelty", "originality" ],
+    noun     FaCAL |< aT               {- TarAfap -}        `gloss`  [ "novelty", "originality" ],
 
     -- ;; taTar~uf_1
     -- tTrf    taTar~uf        N/At    extremism;radicalism
@@ -1208,13 +1184,13 @@ lexicon = listing "Lexicon properties"
     -- ;; Turoqap_1
     -- Trq     Turoq   NapAt   road
 
-    noun     FuCL                      {- Turoqap -}        `gloss`  [ "road" ],
+    noun     FuCL |< aT                {- Turoqap -}        `gloss`  [ "road" ],
 
     -- ;; Tariyqap_1
     -- Tryq    Tariyq  Napdu   method;procedure
     -- TrA}q   TarA}iq Ndip    methods;manners
 
-    noun     FaCIL                     {- Tariyqap -}       `others` [ ".tarA'iq Ndip" ]
+    noun     FaCIL |< aT               {- Tariyqap -}       `others` [ ".tarA'iq Ndip" ]
                                                             `gloss`  [ "method", "procedure", "methods", "manners" ],
 
     -- ;; miToraq_1
@@ -1229,6 +1205,13 @@ lexicon = listing "Lexicon properties"
     -- TArq    TAriq   N0      Tariq
 
     noun     FACiL                     {- TAriq -}          `gloss`  [ "Tariq" ] ]
+
+ |> ".t r y" <| [
+
+    -- ;; Tariy~_1
+    -- Try     Tariy~  N-ap    fresh;tender     [[Tariy~/ADJ]]
+
+    noun     FaCIL                     {- Tariy~ -}         `gloss`  [ "fresh", "tender [ [ Tariy ~ / ADJ ] ]" ] ]
 
  |> ".t r z" <| [
 
@@ -1260,7 +1243,7 @@ lexicon = listing "Lexicon properties"
     -- <TAH    <iTAH   NapAt   overthrow;topple
     -- ATAH    <iTAH   NapAt   overthrow;topple
 
-    noun     HiFAL                     {- IiTAHap -}        `gloss`  [ "overthrow", "topple" ] ]
+    noun     HiFAL |< aT               {- IiTAHap -}        `gloss`  [ "overthrow", "topple" ] ]
 
  |> ".t w `" <| [
 
@@ -1274,24 +1257,24 @@ lexicon = listing "Lexicon properties"
     -- TAE     TAE     Nap     obedience;compliance
     -- TwE     TawoE   N       obedience;compliance
 
-    noun     FAL                       {- TAEap -}          `others` [ ".taw` N" ]
+    noun     FAL |< aT                 {- TAEap -}          `others` [ ".taw` N" ]
                                                             `gloss`  [ "obedience", "compliance" ],
 
     -- ;; TawoEAF_1
     -- TwE     TawoE   NF      voluntarily     [[TawoE/ADV]]
 
-    noun     FaCL                      {- TawoEAF -}        `others` [ ".taw` NF" ]
+    noun     FaCL |< aN                {- TawoEAF -}        `others` [ ".taw` NF" ]
                                                             `gloss`  [ "voluntarily [ [ TawoE / ADV ] ]" ],
 
     -- ;; TawoEiy~_1
     -- TwEy    TawoEiy~        N-ap    voluntary     [[TawoEiy~/ADJ]]
 
-    noun     FaCL                      {- TawoEiy~ -}       `gloss`  [ "voluntary [ [ TawoEiy ~ / ADJ ] ]" ],
+    noun     FaCL |< Iy                {- TawoEiy~ -}       `gloss`  [ "voluntary [ [ TawoEiy ~ / ADJ ] ]" ],
 
     -- ;; TawAEiy~ap_1
     -- TwAEy   TawAEiy~        Nap     voluntariness
 
-    noun     FaCAL                     {- TawAEiy~ap -}     `gloss`  [ "voluntariness" ],
+    noun     FaCAL |< Iy |< aT         {- TawAEiy~ap -}     `gloss`  [ "voluntariness" ],
 
     -- ;; mutaTaw~iE_1
     -- mtTwE   mutaTaw~iE      Nall    volunteer;unsalaried trainee
@@ -1304,13 +1287,7 @@ lexicon = listing "Lexicon properties"
     -- Twb     Tuwb    N       bricks
     -- Twb     Tuwb    Napdu   brick
 
-    noun     FuCL                      {- Tuwb -}           `gloss`  [ "bricks", "brick" ],
-
-    -- ;; Tuwb_1
-    -- Twb     Tuwb    N       bricks
-    -- Twb     Tuwb    Napdu   brick
-
-    noun     FUL                       {- Tuwb -}           `gloss`  [ "bricks", "brick" ] ]
+    noun     FuCL                      {- Tuwb -}           `gloss`  [ "bricks", "brick" ] ]
 
  |> ".t w b s" <| [
 
@@ -1340,14 +1317,14 @@ lexicon = listing "Lexicon properties"
     -- TA}f    TA}if   Napdu   sect;party;faction
     -- TwA}f   TawA}if Ndip    sects;parties;factions
 
-    noun     FA'iL                     {- TA}ifap -}        `others` [ ".tawA'if Ndip" ]
+    noun     FA'iL |< aT               {- TA}ifap -}        `others` [ ".tawA'if Ndip" ]
                                                             `gloss`  [ "sect", "party", "faction", "sects", "parties", "factions" ],
 
     -- ;; TA}ifiy~_1
     -- TA}fy   TA}ifiy~        Nall    sectarian;factional     [[TA}ifiy~/ADJ]]
     -- TA}fy   TA}ifiy~        Nap     sectarianism;factionalism     [[TA}ifiy~/NOUN]]
 
-    noun     FA'iL                     {- TA}ifiy~ -}       `gloss`  [ "sectarian", "factional [ [ TA } ifiy ~ / ADJ ] ]", "sectarianism", "factionalism [ [ TA } ifiy ~ / NOUN ] ]" ],
+    noun     FA'iL |< Iy               {- TA}ifiy~ -}       `gloss`  [ "sectarian", "factional [ [ TA } ifiy ~ / ADJ ] ]", "sectarianism", "factionalism [ [ TA } ifiy ~ / NOUN ] ]" ],
 
     -- ;; maTAf_1
     -- mTAf    maTAf   N       consequence;upshot
@@ -1367,7 +1344,7 @@ lexicon = listing "Lexicon properties"
     -- TAwl    TAwil   Napdu   table
     -- TAwl    TAwil   NAt     tables
 
-    noun     FACiL                     {- TAwilap -}        `others` [ ".tAwil NAt" ]
+    noun     FACiL |< aT               {- TAwilap -}        `others` [ ".tAwil NAt" ]
                                                             `gloss`  [ "table", "tables" ],
 
     -- ;; TAl-u_1
@@ -1418,7 +1395,7 @@ lexicon = listing "Lexicon properties"
     -- ;; TawiylAF_1
     -- Twyl    Tawiyl  NF      for a long time;at length;extensively     [[Tawiyl/ADV]]
 
-    noun     FaCIL                     {- TawiylAF -}       `others` [ ".tawiyl NF" ]
+    noun     FaCIL |< aN               {- TawiylAF -}       `others` [ ".tawiyl NF" ]
                                                             `gloss`  [ "for a long time", "at length", "extensively [ [ Tawiyl / ADV ] ]" ],
 
     -- ;; >aTowal_1
@@ -1435,12 +1412,12 @@ lexicon = listing "Lexicon properties"
     -- <TAl    <iTAl   NapAt   lengthening;prolongation
     -- ATAl    <iTAl   NapAt   lengthening;prolongation
 
-    noun     HiFAL                     {- IiTAlap -}        `gloss`  [ "lengthening", "prolongation" ],
+    noun     HiFAL |< aT               {- IiTAlap -}        `gloss`  [ "lengthening", "prolongation" ],
 
     -- ;; TA}ilap_1
     -- TA}l    TA}il   Nap     threat
 
-    noun     FA'iL                     {- TA}ilap -}        `gloss`  [ "threat" ],
+    noun     FA'iL |< aT               {- TA}ilap -}        `gloss`  [ "threat" ],
 
     -- ;; muTaw~al_1
     -- mTwl    muTaw~al        N-ap    elaborate;comprehensive     [[muTaw~al/ADJ]]
@@ -1484,7 +1461,7 @@ lexicon = listing "Lexicon properties"
     -- ;; TAqap_1
     -- TAq     TAq     NapAt   energy;power;potential
 
-    noun     FAL                       {- TAqap -}          `gloss`  [ "energy", "power", "potential" ],
+    noun     FAL |< aT                 {- TAqap -}          `gloss`  [ "energy", "power", "potential" ],
 
     -- ;; taTowiyq_1
     -- tTwyq   taTowiyq        N/At    encirclement;surrounding
@@ -1672,12 +1649,12 @@ lexicon = listing "Lexicon properties"
     -- ;; TA}irap_1
     -- TA}r    TA}ir   NapAt   aircraft;airplane
 
-    noun     FA'iL                     {- TA}irap -}        `gloss`  [ "aircraft", "airplane" ],
+    noun     FA'iL |< aT               {- TA}irap -}        `gloss`  [ "aircraft", "airplane" ],
 
     -- ;; muTayoriy~_1
     -- mTyry   muTayoriy~      N0      Mutairi
 
-    noun     MuFaCL                    {- muTayoriy~ -}     `gloss`  [ "Mutairi" ] ]
+    noun     MuFaCL |< Iy              {- muTayoriy~ -}     `gloss`  [ "Mutairi" ] ]
 
  |> ".t y y" <| [
 
@@ -1697,7 +1674,7 @@ lexicon = listing "Lexicon properties"
     -- Ty      Tay~    NapAt   fold
     -- Ty      Tay~    NAt     interior;insides (of)
 
-    noun     FaCL                      {- Tay~ap -}         `others` [ ".tayy NAt" ]
+    noun     FaCL |< aT                {- Tay~ap -}         `others` [ ".tayy NAt" ]
                                                             `gloss`  [ "fold", "interior", "insides ( of )" ] ]
 
  |> ".t z ^g" <| [
@@ -1714,12 +1691,7 @@ lexicon = listing "Lexicon properties"
     -- ;; TAjiyk_1
     -- TAjyk   TAjiyk  N0      Tajiks
 
-    noun     Identity                  {- TAjiyk -}         `gloss`  [ "Tajiks" ],
-
-    -- ;; TAjiykiy~_1
-    -- TAjyky  TAjiykiy~       Nall    Tajik
-
-    noun     Identity                  {- TAjiykiy~ -}      `gloss`  [ "Tajik" ] ]
+    noun     Identity                  {- TAjiyk -}         `gloss`  [ "Tajiks" ] ]
 
  |> ".tA^giykistAn" <| [
 
@@ -1729,6 +1701,13 @@ lexicon = listing "Lexicon properties"
 
     noun     Identity                  {- TAjiykisotAn -}   `others` [ "tA^giykistAn N0" ]
                                                             `gloss`  [ "Tajikistan" ] ]
+
+ |> ".tA^giykiyy" <| [
+
+    -- ;; TAjiykiy~_1
+    -- TAjyky  TAjiykiy~       Nall    Tajik
+
+    noun     Identity                  {- TAjiykiy~ -}      `gloss`  [ "Tajik" ] ]
 
  |> ".tAlamA" <| [
 
@@ -1749,7 +1728,7 @@ lexicon = listing "Lexicon properties"
     -- ;; TAlibAniy~_2
     -- TAlbAny TAlibAniy~      N0      Talibani
 
-    noun     Identity                  {- TAlibAniy~ -}     `gloss`  [ "Talibani" ] ]
+    noun     Identity |< Iy            {- TAlibAniy~ -}     `gloss`  [ "Talibani" ] ]
 
  |> ".t_aha" <| [
 
@@ -1777,7 +1756,7 @@ lexicon = listing "Lexicon properties"
     -- ;; TarAbulosiy~_1
     -- TrAblsy TarAbulosiy~    N0      Tarabulsi
 
-    noun     Identity                  {- TarAbulosiy~ -}   `gloss`  [ "Tarabulsi" ] ]
+    noun     Identity |< Iy            {- TarAbulosiy~ -}   `gloss`  [ "Tarabulsi" ] ]
 
  |> ".tarAbulus" <| [
 
@@ -1813,7 +1792,7 @@ lexicon = listing "Lexicon properties"
     -- ;; Tumo>aniynap_1
     -- Tm>nyn  Tumo>aniyn      Nap     calm;tranquillity
 
-    noun     Identity                  {- TumoOaniynap -}   `gloss`  [ "calm", "tranquillity" ] ]
+    noun     Identity |< aT            {- TumoOaniynap -}   `gloss`  [ "calm", "tranquillity" ] ]
 
  |> ".tuwkiyuw" <| [
 

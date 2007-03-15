@@ -2712,8 +2712,8 @@ rsAm    ras~Am  Nall    artist;painter
 ;; risAmap_1
 rsAm    risAm   Nap     ordination;consecration
 ;; rawosam_1
-rwsm    rawosam Ndu     clich√<<©<<
-rwAsm   rawAsim Ndip    clich√<<©<<s
+rwsm    rawosam Ndu     cliche
+rwAsm   rawAsim Ndip    cliches
 ;; marosam_1
 mrsm    marosam Ndu     studio
 mrAsm   marAsim Ndip    regulations;protocol
@@ -6792,7 +6792,7 @@ rn      rin     IV-n    seize;overcome;prevail
 ;; riyAn_1
 ryAn    riyAn   N       Riyan
 ;
-; ETA's Ignacio Garcia Arregui (I√<<±<<aki de Renteria)
+; ETA's Ignacio Garcia Arregui (Inaki de Renteria)
 ;; riynotiyrA_1
 ryntyrA riynotiyrA      Nprop   Renteria
 ryntryA riynotiriyA     Nprop   Renteria
