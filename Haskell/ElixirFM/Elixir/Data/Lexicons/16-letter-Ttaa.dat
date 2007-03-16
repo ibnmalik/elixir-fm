@@ -478,9 +478,11 @@ TxArr   TaxArir Ndip    clouds;cirrus
 Txrwry  Tuxoruwriy~     N-ap    stratosphere;cloudy     <pos>Tuxoruwriy~/ADJ</pos>
 ;
 ;--- Txf
+;; TaxAf_1
 TxAf    TaxAf   N       thin wispy cloud
 ;
 ;--- Txy
+;; TaxA'_1
 TxA'    TaxA'   N0_Nh   thin wispy cloud
 TxA&    TaxA&   Nh      thin wispy cloud
 TxA}    TaxA}   Nhy     thin wispy cloud

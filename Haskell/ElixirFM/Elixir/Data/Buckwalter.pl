@@ -517,7 +517,7 @@ sub showEntry ($) {
                    (join "\n" . ' ' x 60,
                    (exists $entry->{'imperf'} ? '`imperf` [ ' .
                                     (join ', ', @{$entry->{'imperf'}}) . ' ]' : ()),
-                   (exists $entry->{'others'} ? '`others` [ ' .
+                   (exists $entry->{'others'} ? '-- `others` [ ' .
                                     (join ', ', map { '"' . $_ . '"' } @{$entry->{'others'}}) . ' ]' : ()),
 
                    (exists $entry->{'glosses'} ? '`gloss`  [ ' .
@@ -584,9 +584,6 @@ sub initialize_patterns {
 
                             $x =~ s/U/uw/g;
                             $x =~ s/I/iy/g;
-
-                            $x =~ s/aNY$/Y/;
-                            $x =~ s/iN$/iy/;
 
                             $x = quotemeta $x;
                             $x =~ s/\\~/\{2\}/g;

@@ -232,7 +232,7 @@ data PatternT =
 
         |   FaCIL
 
-     {- |   FACiL   -}                                  |   FA'iL               |   FACiN
+     {- |   FACiL   -}                                  |   FA'iL            {- |   FACI    -}
 
         |   MaFCUL                                      |   MaFUL               |   MaFCIy
 
@@ -246,25 +246,27 @@ data PatternT =
 
         |   FaCCUL
 
-        |   MaFCaL                                      |   MaFAL               |   MaFCaNY             |   MaFaCL
-        |   MaFCiL                                      |   MaFIL               |   MaFCiN
+        |   MaFCaL                                      |   MaFAL               |   MaFCY               |   MaFaCL
+        |   MaFCiL                                      |   MaFIL               |   MaFCI
         |   MiFCAL              |   MICAL
-        |   MiFCaL                                                                                      |   MiFaCL
+        |   MiFCaL                                                              |   MiFCY               |   MiFaCL
 
         |   HaFCAL              |   HACAL
         |   HaFCiL
 
         |   HaFCiLA'
 
+        |   FACUL
+
         |   FawACiL                                     |   FawA'iL
         |   FawACIL                                     |   FawA'IL
 
-        |   MaFACiL                                     |   MaFA'iL             |   MaFACiN             |   MaFACL
+        |   MaFACiL                                     |   MaFA'iL             |   MaFACI              |   MaFACL
         |   MaFACIL                                     |   MaFA'IL
 
-     {- |   FaCaL   -}                                                          |   FaCaNY
-        |   FiCaL                                                               |   FiCaNY
-        |   FuCaL                                                               |   FuCaNY
+     {- |   FaCaL   -}                                                       {- |   FaCY    -}
+        |   FiCaL                                                               |   FiCY
+        |   FuCaL                                                               |   FuCY
         |   FuCuL
 
         |   FaCLAn
@@ -272,8 +274,9 @@ data PatternT =
 
         |   FuCayL
 
-        |   FuCLY                                                               |   FuCyA
         |   FaCLY
+        |   FiCLY
+        |   FuCLY                                                               |   FuCyA
 
 --  Form II
 
@@ -287,8 +290,8 @@ data PatternT =
 
         |   TiFCAL                                                              |   TiFCA'
 
-        |   MuFaCCiL                                                            |   MuFaCCiN
-        |   MuFaCCaL                                                            |   MuFaCCaNY
+        |   MuFaCCiL                                                            |   MuFaCCI
+        |   MuFaCCaL                                                            |   MuFaCCY
 
 --  Form III
 
@@ -297,8 +300,8 @@ data PatternT =
 
         |   FACiL                                                               |   FACI
 
-        |   MuFACiL                                                             |   MuFACiN
-        |   MuFACaL                                                             |   MuFACaNY
+        |   MuFACiL                                                             |   MuFACI
+        |   MuFACaL                                                             |   MuFACY
 
 --  Form IV
 
@@ -311,30 +314,30 @@ data PatternT =
         |   HiFCAL              |   HICAL                                       |   HiFCA'
         |   HiFCaL              |   HICaL               |   HiFAL                                       |   HiFaCL
 
-        |   MuFCiL              |   MUCiL               |   MuFIL               |   MuFCiN              |   MuFiCL
-        |   MuFCaL              |   MUCaL               |   MuFAL               |   MuFCaNY             |   MuFaCL
-                                |   MUCiN
-                                |   MUCaNY
+        |   MuFCiL              |   MUCiL               |   MuFIL               |   MuFCI               |   MuFiCL
+        |   MuFCaL              |   MUCaL               |   MuFAL               |   MuFCY               |   MuFaCL
+                                |   MUCI
+                                |   MUCY
 
 --  Form V
 
         |   TaFaCCaL                                                            |   TaFaCCY
         |   TuFuCCiL                                                            |   TuFuCCiy
 
-        |   TaFaCCuL                                                            |   TaFaCCiN
+        |   TaFaCCuL                                                            |   TaFaCCI
 
-        |   MutaFaCCiL                                                          |   MutaFaCCiN
-        |   MutaFaCCaL                                                          |   MutaFaCCaNY
+        |   MutaFaCCiL                                                          |   MutaFaCCI
+        |   MutaFaCCaL                                                          |   MutaFaCCY
 
 --  Form VI
 
         |   TaFACaL                                                             |   TaFACY              |   TaFACL
         |   TuFUCiL                                                             |   TuFUCiy             |   TuFUCL
 
-        |   TaFACuL                                                             |   TaFACiN
+        |   TaFACuL                                                             |   TaFACI
 
-        |   MutaFACiL                                                           |   MutaFACiN
-        |   MutaFACaL                                                           |   MutaFACaNY
+        |   MutaFACiL                                                           |   MutaFACI
+        |   MutaFACaL                                                           |   MutaFACY
 
 --  Form VII
 
@@ -346,8 +349,8 @@ data PatternT =
 
         |   InFiCAL                                     |   InFiyAL             |   InFiCA'
 
-        |   MunFaCiL                                                            |   MunFaCiN            |   MunFaCL
-        |   MunFaCaL                                                            |   MunFaCaNY
+        |   MunFaCiL                                                            |   MunFaCI             |   MunFaCL
+        |   MunFaCaL                                                            |   MunFaCY
 
 --  Form VIII
 
@@ -359,8 +362,8 @@ data PatternT =
 
         |   IFtiCAL                                     |   IFtiyAL             |   IFtiCA'
 
-        |   MuFtaCiL                                    |   MuFtAL              |   MuFtaCiN            |   MuFtaCL
-        |   MuFtaCaL                                                            |   MuFtaCaNY
+        |   MuFtaCiL                                    |   MuFtAL              |   MuFtaCI             |   MuFtaCL
+        |   MuFtaCaL                                                            |   MuFtaCY
 
 --  Form IX
 
@@ -383,8 +386,8 @@ data PatternT =
 
         |   IstiFCAL            |   IstICAL             |   IstiFAL             |   IstiFCA'
 
-        |   MustaFCiL                                   |   MustaFIL            |   MustaFCiN           |   MustaFiCL
-        |   MustaFCaL                                   |   MustaFAL            |   MustaFCaNY          |   MustaFaCL
+        |   MustaFCiL                                   |   MustaFIL            |   MustaFCI            |   MustaFiCL
+        |   MustaFCaL                                   |   MustaFAL            |   MustaFCY            |   MustaFaCL
 
     deriving (Enum, Show, Eq)
 

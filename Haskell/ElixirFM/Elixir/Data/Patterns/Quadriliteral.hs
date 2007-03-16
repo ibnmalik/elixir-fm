@@ -60,6 +60,7 @@ data PatternQ =
 
             KaRDaS
 
+        |   KaRDiS
         |   KiRDiS
         |   KuRDuS
 
@@ -85,6 +86,7 @@ data PatternQ =
         |   KuRDIS
         |   KuRDUS
 
+        |   KaRADiS
         |   KaRADIS
 
     deriving (Enum, Show, Eq)

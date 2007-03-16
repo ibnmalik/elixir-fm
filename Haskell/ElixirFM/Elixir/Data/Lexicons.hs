@@ -23,8 +23,8 @@ import Elixir.Lexicon.Pretty
 
 import Elixir.Data.Lexicons.Lexicon00 as Extra
 
---import Elixir.Data.Lexicons.Lexicon01 as Alif
---import Elixir.Data.Lexicons.Lexicon02 as Baa
+import Elixir.Data.Lexicons.Lexicon01 as Alif
+import Elixir.Data.Lexicons.Lexicon02 as Baa
 import Elixir.Data.Lexicons.Lexicon03 as Taa
 import Elixir.Data.Lexicons.Lexicon04 as Thaa
 
@@ -36,7 +36,7 @@ import Elixir.Data.Lexicons.Lexicon08 as Daal
 import Elixir.Data.Lexicons.Lexicon09 as Dhaal
 import Elixir.Data.Lexicons.Lexicon10 as Raa
 import Elixir.Data.Lexicons.Lexicon11 as Zaay
---import Elixir.Data.Lexicons.Lexicon12 as Siin
+import Elixir.Data.Lexicons.Lexicon12 as Siin
 
 import Elixir.Data.Lexicons.Lexicon13 as Shiin
 import Elixir.Data.Lexicons.Lexicon14 as Ssaad
@@ -44,7 +44,7 @@ import Elixir.Data.Lexicons.Lexicon15 as Ddaad
 import Elixir.Data.Lexicons.Lexicon16 as Ttaa
 
 import Elixir.Data.Lexicons.Lexicon17 as Zzaa
---import Elixir.Data.Lexicons.Lexicon18 as Eayn
+import Elixir.Data.Lexicons.Lexicon18 as Eayn
 import Elixir.Data.Lexicons.Lexicon19 as Ghayn
 import Elixir.Data.Lexicons.Lexicon20 as Faa
 
@@ -67,8 +67,8 @@ lexicon =  -- Extra.lexicon ++ Yaa.lexicon
 
               Extra.lexicon
 
-           -- Alif.lexicon
-           -- Baa.lexicon
+           ++ Alif.lexicon
+           ++ Baa.lexicon
            ++ Taa.lexicon
            ++ Thaa.lexicon
 
@@ -80,7 +80,7 @@ lexicon =  -- Extra.lexicon ++ Yaa.lexicon
            ++ Dhaal.lexicon
            ++ Raa.lexicon
            ++ Zaay.lexicon
-           -- Siin.lexicon
+           ++ Siin.lexicon
 
            ++ Shiin.lexicon
            ++ Ssaad.lexicon
@@ -88,7 +88,7 @@ lexicon =  -- Extra.lexicon ++ Yaa.lexicon
            ++ Ttaa.lexicon
 
            ++ Zzaa.lexicon
-           -- Eayn.lexicon
+           ++ Eayn.lexicon
            ++ Ghayn.lexicon
            ++ Faa.lexicon
 
