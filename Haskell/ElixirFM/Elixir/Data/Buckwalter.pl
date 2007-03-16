@@ -278,12 +278,13 @@ sub closeEntry {
 
     my %root = ();
 
-    foreach my $pattern (@patterns) {
+    foreach our $pattern (@patterns) {
 
         next if $Entry->{'entity'} eq 'noun' and $patterns{$pattern} =~ /^FUCi?L$/;
 
-        my ($F, $C, $L, $K, $R, $D, $S);
+        our ($F, $C, $L, $K, $R, $D, $S) = (undef) x 7;
 
+#       if ($Entry->{'entry'} =~ /$pattern/) {
         if ($Entry->{'entry'} =~ /^$pattern$/) {
 
             my @toor = defined $F || defined $C || defined $L ? ($F, $C, $L) : ($K, $R, $D, $S);
@@ -580,6 +581,7 @@ sub initialize_patterns {
                             $x =~ s/^H/\'/;
                             $x =~ s/^I/i/;
                             $x =~ s/^M/m/;
+                            $x =~ s/^N/n/;
                             $x =~ s/^T/t/;
 
                             $x =~ s/U/uw/g;
@@ -596,7 +598,7 @@ sub initialize_patterns {
                                 $x =~ s/(?<!\$)$c/\\$r{$c}/g;
                             }
 
-                            $x
+                            qr/^$x$/
 
                     } }     @pAttErns;
 

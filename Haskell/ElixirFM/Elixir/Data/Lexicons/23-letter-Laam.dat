@@ -3307,7 +3307,7 @@ tlAms   talAmus N/At    mutual contact
 <ltmAs  {ilotimAs       N/At    request;solicitation;petition
 AltmAs  {ilotimAs       N/At    request;solicitation;petition
 ;; malomuws_1
-mlmws   malomuws        N-ap    tangible;noticeable     <pos>malomuws/ADJ</pos>     <pos>malomuws/ADJ</pos>
+mlmws   malomuws        N-ap    tangible;noticeable     <pos>malomuws/ADJ</pos>
 ;; mulotamas_1
 mltms   mulotamas       NduAt   request;petition;application
 ;
@@ -4329,7 +4329,7 @@ lAwy    lAwiy   NAn_Nayn_L      turning;twisting
 lAwy    lAwiy   NapAt_L turning;twisting
 lwA     luwA    Nap_L   turning;twisting
 ;; malowiy~_1
-mlwy    malowiy~        Nall    crooked;warped     <pos>malowiy~/ADJ</pos>     <pos>malowiy~/ADJ</pos>
+mlwy    malowiy~        Nall    crooked;warped     <pos>malowiy~/ADJ</pos>
 ;; mulotawiy_1
 mltwy   mulotawiy       N0_Nh   crooked;warped     <pos>mulotawiy/ADJ</pos>
 mltw    mulotaw NK      crooked;warped

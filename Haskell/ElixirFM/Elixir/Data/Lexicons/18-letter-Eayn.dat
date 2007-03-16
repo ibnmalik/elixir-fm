@@ -1422,7 +1422,7 @@ mEd     muEad~  NAt     equipment;material
 ;; mutaEad~id_1
 mtEdd   mutaEad~id      Nall    multi-;poly-;manifold;numerous     <pos>mutaEad~id/ADJ</pos>
 ;; musotaEid~_1
-mstEd   musotaEid~      Nall    ready;prepared     <pos>musotaEid~/ADJ</pos>     <pos>musotaEid~/ADJ</pos>
+mstEd   musotaEid~      Nall    ready;prepared     <pos>musotaEid~/ADJ</pos>
 ;
 ;--- Eds
 ;; Eadas_1
@@ -2820,7 +2820,7 @@ AEzAz   <iEozAz N/At    strengthening;fortifications
 <EtzAz  {iEotizAz       N/At    pride
 AEtzAz  {iEotizAz       N/At    pride
 ;; muEaz~iz_1
-mEzz    muEaz~iz        Nall    reinforcing;reinforcement     <pos>muEaz~iz/ADJ</pos>     <pos>muEaz~iz/ADJ</pos>
+mEzz    muEaz~iz        Nall    reinforcing;reinforcement     <pos>muEaz~iz/ADJ</pos>
 ;; muEotaz~_1
 mEtz    muEotaz~        Nall    proud;mighty     <pos>muEotaz~/ADJ</pos>
 ;; muEotaz~_2

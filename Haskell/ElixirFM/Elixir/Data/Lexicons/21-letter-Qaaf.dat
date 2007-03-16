@@ -1179,7 +1179,7 @@ mqdm    muqad~am        Nap     vanguard
 ;; mutaqad~im_1
 mtqdm   mutaqad~im      Nall    advanced;developed     <pos>mutaqad~im/ADJ</pos>
 ;; musotaqodam_1
-mstqdm  musotaqodam     N-ap    summoned;requested     <pos>musotaqodam/ADJ</pos>     <pos>musotaqodam/ADJ</pos>
+mstqdm  musotaqodam     N-ap    summoned;requested     <pos>musotaqodam/ADJ</pos>
 ;
 ;--- qdms
 ;; qudomuws_1
@@ -3455,7 +3455,7 @@ qSAd    qiSAd   Nap     legation
 ;; maqoSuwd_1
 mqSwd   maqoSuwd        Ndu     purpose;aim;goal
 ;; maqoSuwd_2
-mqSwd   maqoSuwd        N-ap    deliberate;intentional     <pos>maqoSuwd/ADJ</pos>     <pos>maqoSuwd/ADJ</pos>
+mqSwd   maqoSuwd        N-ap    deliberate;intentional     <pos>maqoSuwd/ADJ</pos>
 ;
 ;--- qSdr
 ;; qaSodar_1
@@ -4807,7 +4807,7 @@ qfAl    quf~Al  N       coming home;returning
 qAfl    qAfil   Napdu   convoy;column
 qwAfl   qawAfil Ndip    convoys;columns
 ;; muqofal_1
-mqfl    muqofal N-ap    locked;closed;blocked     <pos>muqofal/ADJ</pos>     <pos>muqofal/ADJ</pos>
+mqfl    muqofal N-ap    locked;closed;blocked     <pos>muqofal/ADJ</pos>
 ;
 ;--- qfw
 ;; qafA-u_1

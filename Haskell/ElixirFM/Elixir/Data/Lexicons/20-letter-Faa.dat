@@ -1921,7 +1921,7 @@ fArT    fAriT   N-ap    elapsed;past     <pos>fAriT/ADJ</pos>
 ;; mufar~iT_1
 mfrT    mufar~iT        Nall    squandering;prodigal     <pos>mufar~iT/ADJ</pos>
 ;; muforiT_1
-mfrT    muforiT Nall    excessive;lacking moderation     <pos>muforiT/ADJ</pos>     <pos>muforiT/ADJ</pos>
+mfrT    muforiT Nall    excessive;lacking moderation     <pos>muforiT/ADJ</pos>
 ;; {inofirAT_1
 <nfrAT  {inofirAT       N       dissolution;breaking up;separation
 AnfrAT  {inofirAT       N       dissolution;breaking up;separation
@@ -2969,7 +2969,7 @@ f$l     fa$al   N       failure
 <f$Al   <ifo$Al N/At    thwarting;torpedoing
 Af$Al   <ifo$Al N/At    thwarting;torpedoing
 ;; fA$il_1
-fA$l    fA$il   Nall    failing;unsuccessful     <pos>fA$il/ADJ</pos>     <pos>fA$il/ADJ</pos>
+fA$l    fA$il   Nall    failing;unsuccessful     <pos>fA$il/ADJ</pos>
 ;
 ;--- f$w f$y
 ;; fa$A-u_1
