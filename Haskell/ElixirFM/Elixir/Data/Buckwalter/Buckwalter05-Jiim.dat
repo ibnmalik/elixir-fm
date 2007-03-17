@@ -3204,6 +3204,9 @@ AjtmAE  {ijotimAE       NAt     meetings;gatherings
 ;; {ijotimAEiy~_1
 <jtmAEy {ijotimAEiy~    Nall    social     <pos>{ijotimAEiy~/ADJ</pos>
 AjtmAEy {ijotimAEiy~    Nall    social     <pos>{ijotimAEiy~/ADJ</pos>
+;; lA{ijotimAEiy~_1
+lA<jtmAEy       lA{ijotimAEiy~  Nall_L  antisocial;asocial     <pos>lA<ijotimAEiy~/ADJ</pos>
+lAAjtmAEy       lA{ijotimAEiy~  Nall_L  antisocial;asocial     <pos>lAAijotimAEiy~/ADJ</pos>
 ;; jAmiE_1
 jAmE    jAmiE   N/ap    comprehensive;extensive
 ;; jAmiE_2
@@ -3692,6 +3695,8 @@ jnsy    jinosiy~        N-ap    sexual     <pos>jinosiy~/ADJ</pos>
 jnsy    jinosiy~        N-ap    ethnic;racial;national     <pos>jinosiy~/ADJ</pos>
 ;; jinosiy~ap_1
 jnsy    jinosiy~        NapAt   nationality;citizenship     <pos>jinosiy~/NOUN</pos>
+;; lAjinosiy~ap_1
+lAjnsy  lAjinosiy~      Nap_L   statelessness     <pos>lAjinosiy~/NOUN</pos>
 ;; tajoniys_1
 tjnys   tajoniys        NduAt   naturalization
 ;; jinAs_1

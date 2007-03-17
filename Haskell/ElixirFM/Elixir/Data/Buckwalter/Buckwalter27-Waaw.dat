@@ -1879,6 +1879,8 @@ mwzwn   mawozuwn        Nall    weighed;balanced;judicious     <pos>mawozuwn/ADJ
 mwAzn   muwAzin Nall    weighing;balancing
 ;; mutawAzin_1
 mtwAzn  mutawAzin       N-ap    balanced     <pos>mutawAzin/ADJ</pos>
+;; lAmutawAzin_1
+lAmtwAzn        lAmutawAzin     Nall_L  imbalanced
 ;; mut~azin_1
 mtzn    mut~azin        N-ap    balanced;harmonious     <pos>mut~azin/ADJ</pos>
 ;
@@ -3414,6 +3416,8 @@ twEy    tawaE~ay        IV_Ann  be attentive;be cautious
 twE     tawaE~  IV_0hwnyn       be attentive;be cautious
 ;; waEoy_1
 wEy     waEoy   N       consciousness;awareness;attention
+;; lAwaEoy_1
+lAwEy   lAwaEoy N_L     unconscious
 ;; wiEA'_1
 wEA'    wiEA'   N0_Nh   container;receptacle;vessel
 wEA&    wiEA&   Nh      container;receptacle;vessel
@@ -3433,6 +3437,8 @@ wAE     wAE     NK      aware;alert;conscious
 wAEy    wAEiy   NAn_Nayn        aware;alert;conscious
 wAE     wAE     Nuwn_Niyn       aware;alert;conscious
 wAEy    wAEiy   NapAt   aware;alert;conscious
+;; lAwAEiy_1
+lAwAEy  lAwAEiy Nall_L  unconscious
 ;; wAEiyap_1
 wAEy    wAEiy   Nap     consciousness
 ;

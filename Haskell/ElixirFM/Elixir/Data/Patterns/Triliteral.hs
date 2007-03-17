@@ -243,8 +243,10 @@ data PatternT =
         |   FuCCaL
 
         |   FiCCIL
-
         |   FaCCUL
+
+        |   FaCACiL
+        |   FaCACIL
 
         |   MaFCaL                                      |   MaFAL               |   MaFCY               |   MaFaCL
         |   MaFCiL                                      |   MaFIL               |   MaFCI

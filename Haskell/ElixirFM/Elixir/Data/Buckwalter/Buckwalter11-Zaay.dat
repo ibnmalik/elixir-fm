@@ -1699,6 +1699,8 @@ tzAmn   tazAmun NduAt   simultaneity;coincidence
 mzmn    muzomin Nall    enduring;chronic     <pos>muzomin/ADJ</pos>
 ;; mutazAmin_1
 mtzAmn  mutazAmin       Nall    simultaneous;coincidental     <pos>mutazAmin/ADJ</pos>
+;; lAmutazAmin_1
+lAmtzAmn        lAmutazAmin     Nall_L  non-simultaneous
 ;
 ;--- zmhr
 ;; zamohar_1

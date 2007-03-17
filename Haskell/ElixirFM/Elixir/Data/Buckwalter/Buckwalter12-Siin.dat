@@ -138,6 +138,9 @@ ms}wl   maso}uwl        Nall    responsible;dependable     <pos>maso}uwl/ADJ</po
 ;; maso&uwliy~ap_1
 ms&wly  maso&uwliy~     NapAt   responsibility
 ms}wly  maso}uwliy~     NapAt   responsibility
+;; lAmaso&uwliy~ap_1
+lAms&wly        lAmaso&uwliy~   Nap_L   irresponsibility     <pos>lAmaso&uwliy~/NOUN</pos>
+lAms}wly        lAmaso}uwliy~   Nap_L   irresponsibility     <pos>lAmaso}uwliy~/NOUN</pos>
 ;; mutasA}il_1
 mtsA}l  mutasA}il       Nall    asking;wondering
 ;
@@ -196,6 +199,10 @@ sAmbrAs sAmobrAs        Nprop   Sampras
 ;; sAmiy~_1
 sAmy    sAmiy~  Nall    Semite;Semitic     <pos>sAmiy~/NOUN</pos>
 sAmy    sAmiy~  Nall    Semite;Semitic     <pos>sAmiy~/ADJ</pos>
+;; lAsAmiy~_1
+lAsAmy  lAsAmiy~        Nall_L  anti-Semite     <pos>lAsAmiy~/ADJ</pos>
+lAsAmy  lAsAmiy~        N-ap_L  anti-Semitic     <pos>lAsAmiy~/ADJ</pos>
+lAsAmy  lAsAmiy~        Nap_L   anti-Semitism     <pos>lAsAmiy~/NOUN</pos>
 ;; sAmiy~ap_1
 sAmy    sAmiy~  Nap     Semitism     <pos>sAmiy~/NOUN</pos>
 ;
@@ -4374,6 +4381,8 @@ slk     silok   N       corps;cadre
 AslAk   >asolAk N       corps;cadres
 ;; silokiy~_1
 slky    silokiy~        N-ap    wire;by wire (radio)    <pos>silokiy~/ADJ</pos>
+;; lAsilokiy~_1
+lAslky  lAsilokiy~      Nall_L  wireless;radio     <pos>lAsilokiy~/ADJ</pos>
 ;; suluwk_1
 slwk    suluwk  N       behavior;conduct
 ;; suluwkiy~_1
@@ -4423,6 +4432,8 @@ Astslm  {isotasolam     PV      surrender;capitulate
 stslm   sotasolim       IV      surrender;capitulate
 ;; silom_1
 slm     silom   N       peace
+;; lAsilom_1
+lAslm   lAsilom N_L     no peace
 ;; silomiy~_1
 slmy    silomiy~        Nall    peaceful;pacifist     <pos>silomiy~/ADJ</pos>
 ;; salomaY_1
@@ -6272,6 +6283,8 @@ syAsy   siyAsiy~        Nall    political     <pos>siyAsiy~/ADJ</pos>
 ;; siyAsiy~_2
 syAsy   siyAsiy~        Nall    politician;statesman     <pos>siyAsiy~/NOUN</pos>
 sAs     sAs     Nap     politicians;statesmen
+;; lAsiyAsiy~_1
+lAsyAsy lAsiyAsiy~      Nall_L  non-political     <pos>lAsiyAsiy~/ADJ</pos>
 ;; tasaw~us_1
 tsws    tasaw~us        NduAt   dental caries;rottenness
 ;; sA}is_1

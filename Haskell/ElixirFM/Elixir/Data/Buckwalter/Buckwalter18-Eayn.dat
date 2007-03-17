@@ -5338,6 +5338,8 @@ Eqwl    Euquwl  N       senses;intellects;brains
 Eqly    Eaqoliy~        N-ap    mental;intellectual     <pos>Eaqoliy~/ADJ</pos>
 ;; Eaqoliy~_2
 Eqly    Eaqoliy~        Nall    rational     <pos>Eaqoliy~/ADJ</pos>
+;; lAEaqoliy~_1
+lAEqly  lAEaqoliy~      Nall_L  irrational     <pos>lAEaqoliy~/ADJ</pos>
 ;; Eaqoliy~ap_1
 Eqly    Eaqoliy~        NapAt   mentality;attitude     <pos>Eaqoliy~/NOUN</pos>
 ;; EaqolAniy~_1
@@ -6964,8 +6966,14 @@ Enf     Eonif   IV_yu   treat severely;deal with harshly
 Enf     Eonaf   IV_Pass_yu      be treated severely;be dealt with harshly
 ;; Eunof_1
 Enf     Eunof   N       violence;force
+;; lAEunof_1
+lAEnf   lAEunof N_L     non-violence
 ;; Eunofiy~_1
 Enfy    Eunofiy~        Nall    violent;forceful     <pos>Eunofiy~/ADJ</pos>
+;; lAEunofiy~_1
+lAEnfy  lAEunofiy~      Nall_L  non-violent     <pos>lAEunofiy~/ADJ</pos>
+;; lAEunofiy~ap_1
+lAEnfy  lAEunofiy~      Nap_L   non-violence     <pos>lAEunofiy~/NOUN</pos>
 ;; EunofuwAn_1
 EnfwAn  EunofuwAn       N       prime;vigor
 ;; Eaniyf_1

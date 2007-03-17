@@ -1286,6 +1286,12 @@ dr      dar     PV_ttAw know;be aware of;notice
 dry     doriy   IV_0hAnn        know;be aware of;notice
 dr      dor     IV_0hwnyn       know;be aware of;notice
 drY     doraY   IV_0_Pass_yu    be known;be noticed
+;; lA>adoriy~_1
+lA>dry  lA>adoriy~      Nall_L  skeptic;agnostic     <pos>lA>adoriy~/ADJ</pos>
+lAAdry  lA>adoriy~      Nall_L  skeptic;agnostic     <pos>lAAadoriy~/ADJ</pos>
+;; lA>adoriy~ap_1
+lA>dry  lA>adoriy~      Nap_L   skepticism;agnosticism     <pos>lA>adoriy~/NOUN</pos>
+lAAdry  lA>adoriy~      Nap_L   skepticism;agnosticism     <pos>lAAadoriy~/NOUN</pos>
 ;; dAraY_1
 dArY    dAraY   PV_0    flatter;deceive;shelter
 dArA    dArA    PV_h    flatter;deceive;shelter
@@ -4524,6 +4530,10 @@ AdyAn   >adoyAn N       religions
 Aldyn   Ald~iyn FW      Al-Din;El-Din;Eddin     <pos>Ald~iyn/NOUN_PROP</pos>
 ;; diyniy~_1
 dyny    diyniy~ N-ap    religious     <pos>diyniy~/ADJ</pos>
+;; lAdiyniy~_1
+lAdyny  lAdiyniy~       Nall_L  anti-religious;secular     <pos>lAdiyniy~/ADJ</pos>
+;; lAdiyniy~ap_1
+lAdyny  lAdiyniy~       Nap_L   anti-religiousness;secularism     <pos>lAdiyniy~/NOUN</pos>
 ;; day~in_1
 dyn     day~in  Nall    religious
 ;; diyAnap_1

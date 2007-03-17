@@ -233,6 +233,15 @@ sub closeEntry {
             $prefix = $prefix . 'al >| ';
         }
 
+        if ($entry =~ /^lA(.*)$/) {
+
+            if ($char ne 'l') {
+
+                $entry = $1;
+                $prefix = $prefix . 'lA >| ';
+            }
+        }
+
         if ($entry =~ /^(.*)aN$/) {
 
             $entry = $1;
@@ -262,6 +271,11 @@ sub closeEntry {
             if ($entry =~ /^(.*)awiyy$/) {
 
                 $entry = $1 . "Y";
+                $suffix = ' |< Iy' . $suffix;
+            }
+            elsif ($entry =~ /^(.*o[wy])iyy$/) {
+
+                $entry = $1;
                 $suffix = ' |< Iy' . $suffix;
             }
             elsif ($root[-1] !~ /^[wy]$/) {

@@ -2938,6 +2938,9 @@ AnqsAmy {inoqisAmiy~    Nall    schismatic     <pos>{inoqisAmiy~/ADJ</pos>
 ;; {inoqisAmiy~ap_1
 <nqsAmy {inoqisAmiy~    Nap     divisibility     <pos>{inoqisAmiy~/NOUN</pos>
 AnqsAmy {inoqisAmiy~    Nap     divisibility     <pos>{inoqisAmiy~/NOUN</pos>
+;; lA<inoqisAmiy~ap_1
+lA<nqsAmy       lA<inoqisAmiy~  Nap_L   indivisibility     <pos>lA<inoqisAmiy~/NOUN</pos>
+lAAnqsAmy       lAAinoqisAmiy~  Nap_L   indivisibility     <pos>lAAinoqisAmiy~/NOUN</pos>
 ;; {iqotisAm_1
 <qtsAm  {iqotisAm       N/At    dividing;distribution
 AqtsAm  {iqotisAm       N/At    dividing;distribution
@@ -5729,6 +5732,8 @@ qwAnyn  qawAniyn        Ndip    laws;regulations;rules;statutes
 qAnwny  qAnuwniy~       Nall    legal;law-related;statutory     <pos>qAnuwniy~/ADJ</pos>
 ;; qAnuwniy~_2
 qAnwny  qAnuwniy~       N-ap    legitimate;licit;allowed;legal     <pos>qAnuwniy~/ADJ</pos>
+;; lAqAnuwniy~_1
+lAqAnwny        lAqAnuwniy~     Nall_L  illegal;unlawful     <pos>lAqAnuwniy~/ADJ</pos>
 ;; qAnuwniy~ap_1
 qAnwny  qAnuwniy~       Nap     legality;lawfulness     <pos>qAnuwniy~/NOUN</pos>
 ;; qiynAn_1

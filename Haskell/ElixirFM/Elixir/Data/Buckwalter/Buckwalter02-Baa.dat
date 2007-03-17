@@ -5610,6 +5610,9 @@ bAly    bAliy   IV_0hAnn_yu     care;concern;worry
 bAl     bAl     IV_0hwnyn_yu    care;concern;worry
 bAlY    bAlaY   IV_0_Pass_yu    be cared for;be a matter of concern
 bAly    bAlay   IV_Ann_Pass_yu  be cared for;be a matter of concern
+;; lA>ubAliy~ap_1
+lA>bAly lA>ubAliy~      Nap_L   indifference     <pos>lA>ubAliy~/NOUN</pos>
+lAAbAly lA>ubAliy~      Nap_L   indifference     <pos>lAAubAliy~/NOUN</pos>
 ;
 ;; >abolaY_1
 >blY    >abolaY PV_0    wear out;grind
@@ -5652,6 +5655,8 @@ blA}    balA}   Nhy     tribulation;affliction
 ;; mubAlAp_1
 mbAlA   mubAlA  Napdu   concern;care
 mbAly   mubAlay NAt     concerns;cares
+;; lAmubAlAp_1
+lAmbAlA lAmubAlA        Nap_L   indifference
 ;; {ibotilA'_1
 <btlA'  {ibotilA'       N0_Nh   affliction;tribulation
 AbtlA'  {ibotilA'       N0_Nh   affliction;tribulation
@@ -5677,6 +5682,9 @@ mbAl    mubAl   NK      concerned;caring
 mbAly   mubAliy NAn_Nayn        concerned;caring
 mbAl    mubAl   Nuwn_Niyn       concerned;caring
 mbAly   mubAliy NapAt   concerned;caring
+;; lAmubAliy~_1
+lAmbAly lAmubAliy~      Nall_L  indifferent;apathetic     <pos>lAmubAliy~/ADJ</pos>
+lAmbAly lAmubAliy~      Nap_L   indifference;apathy     <pos>lAmubAliy~/NOUN</pos>
 ;; mubotaliy_1
 mbtly   mubotaliy       N0_Nh   afflicting;testing;trying
 mbtl    mubotal NK      afflicting;testing;trying

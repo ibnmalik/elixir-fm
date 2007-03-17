@@ -463,6 +463,8 @@ Htm     Hatom   NF      definitely     <pos>Hatom/ADV</pos>
 Htmy    Hatomiy~        Nall    definitive;necessary     <pos>Hatomiy~/ADJ</pos>
 ;; Hatomiy~ap_1
 Htmy    Hatomiy~        Nap     necessity;definiteness     <pos>Hatomiy~/NOUN</pos>
+;; lAHatomiy~ap_1
+lAHtmy  lAHatomiy~      Nap_L   indeterminism;non-urgency     <pos>lAHatomiy~/NOUN</pos>
 ;; HAtim_1
 HAtm    HAtim   Nprop   Hatim;Hatem
 ;; maHotuwm_1
@@ -909,6 +911,10 @@ tHdyd   taHodiyd        NduAt   delimitation;specification;definition
 HAd     HAd~    N-ap    sharp;intense
 ;; maHoduwd_1
 mHdwd   maHoduwd        Nall    limited;determined     <pos>maHoduwd/ADJ</pos>
+;; lAmaHoduwd_1
+lAmHdwd lAmaHoduwd      Nall_L  unlimited
+;; lAmaHoduwdiy~_1
+lAmHdwdy        lAmaHoduwdiy~   Nall_L  unlimited     <pos>lAmaHoduwdiy~/ADJ</pos>
 ;; maHoduwdiy~ap_1
 mHdwdy  maHoduwdiy~     Nap     limited nature;restricted nature     <pos>maHoduwdiy~/NOUN</pos>
 ;; muHad~ad_1
@@ -1485,7 +1491,7 @@ mHrr    muHar~ar        Nall    written;booked
 ;; mutaHar~ir_1
 mtHrr   mutaHar~ir      Nall    emancipated
 ;
-;--- Hr
+;--- Hrb
 ;; HArab_1
 HArb    HArab   PV      fight;wage war
 HArb    HArib   IV_yu   fight;wage war
@@ -1499,6 +1505,8 @@ Htrb    Hotarib IV      fight
 ;; Harob_1
 Hrb     Harob   Ndu     war;warfare
 Hrwb    Huruwb  N       wars
+;; lAHarob_1
+lAHrb   lAHarob N_L     no war;non-belligerency
 ;; Harobiy~_1
 Hrby    Harobiy~        N-ap    military;war-related     <pos>Harobiy~/ADJ</pos>
 ;; Harobap_1
@@ -2131,6 +2139,8 @@ AHzAb   >aHozAb N       parties;bands
 Hzb     Hizob   N0      Hizb;Hezb
 ;; Hizobiy~_1
 Hzby    Hizobiy~        Nall    party;partisan;factional     <pos>Hizobiy~/ADJ</pos>
+;; laHizobiy~_1
+lHzby   laHizobiy~      Nall_L  independent;partyless     <pos>laHizobiy~/ADJ</pos>
 ;; taHaz~ub_1
 tHzb    taHaz~ub        NduAt   factionalism
 ;; HAzib_1

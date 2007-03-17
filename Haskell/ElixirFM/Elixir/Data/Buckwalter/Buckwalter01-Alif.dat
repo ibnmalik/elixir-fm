@@ -6271,12 +6271,18 @@ AnA     >anA    FW-Wa   I     <pos>>anA/PRON_1S</pos>
 ;; >anA_2
 >nA     >anA    N0      ego
 AnA     >anA    N0      ego
+;; lA>anA_1
+lA>nA   lA>anA  N0_L    non-ego
+lAAnA   lA>anA  N0_L    non-ego
 ;; >anAniy~_1
 >nAny   >anAniy~        Nall    egoistic;selfish     <pos>>anAniy~/ADJ</pos>
 AnAny   >anAniy~        Nall    egoistic;selfish     <pos>>anAniy~/ADJ</pos>
 ;; >anAniy~ap_1
 >nAny   >anAniy~        Nap     egoism;selfishness     <pos>>anAniy~/NOUN</pos>
 AnAny   >anAniy~        Nap     egoism;selfishness     <pos>>anAniy~/NOUN</pos>
+;; lA>anAniy~ap_1
+lA>nAny lA>anAniy~      Nap_L   unselfish;selflessness     <pos>lA>anAniy~/NOUN</pos>
+lAAnAny lA>anAniy~      Nap_L   unselfish;selflessness     <pos>lAAanAniy~/NOUN</pos>
 ;
 ;; |nA_1
 |nA     |nA     Nprop   Anna
@@ -6779,9 +6785,15 @@ AnAs    >unAs   N       human beings
 ;; <inosAniy~_1
 <nsAny  <inosAniy~      Nall    human;humane     <pos><inosAniy~/ADJ</pos>
 AnsAny  <inosAniy~      Nall    human;humane     <pos><inosAniy~/ADJ</pos>
+;; lA<inosAniy~_1
+lA<nsAny        lA<inosAniy~    Nall_L  inhuman     <pos>lA<inosAniy~/ADJ</pos>
+lAAnsAny        lA<inosAniy~    Nall_L  inhuman     <pos>lAAinosAniy~/ADJ</pos>
 ;; <inosAniy~ap_1
 <nsAny  <inosAniy~      Nap     humanity     <pos><inosAniy~/NOUN</pos>
 AnsAny  <inosAniy~      Nap     humanity     <pos><inosAniy~/NOUN</pos>
+;; lA<inosAniy~ap_1
+lA<nsAny        lA<inosAniy~    Nap_L   inhumanity     <pos>lA<inosAniy~/NOUN</pos>
+lAAnsAny        lA<inosAniy~    Nap_L   inhumanity     <pos>lAAinosAniy~/NOUN</pos>
 ;; <inosAniy~At_1
 <nsAny  <inosAniy~      NAt     Humanities     <pos><inosAniy~/NOUN</pos>
 AnsAny  <inosAniy~      NAt     Humanities     <pos><inosAniy~/NOUN</pos>

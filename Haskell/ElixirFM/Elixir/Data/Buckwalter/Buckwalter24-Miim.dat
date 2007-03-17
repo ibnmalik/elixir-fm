@@ -696,6 +696,8 @@ mmAvl   mumAval NapAt   resemblance;analogy
 tmvl    tamav~ul        N/At    assimilation
 ;; tamAvul_1
 tmAvl   tamAvul N/At    resemblance;symmetry;recovery
+;; lAtamAvul_1
+lAtmAvl lAtamAvul       N_L     asymmetry
 ;; {imotivAl_1
 <mtvAl  {imotivAl       N/At    obedience;compliance
 AmtvAl  {imotivAl       N/At    obedience;compliance
@@ -1328,6 +1330,8 @@ mAdy    mAd~iy~ N-ap    material;physical     <pos>mAd~iy~/ADJ</pos>
 mAdy    mAd~iy~ Nall    materialistic     <pos>mAd~iy~/ADJ</pos>
 ;; mAd~iy~ap_1
 mAdy    mAd~iy~ Nap     materialism     <pos>mAd~iy~/NOUN</pos>
+;; lAmAd~iy~ap_1
+lAmAdy  lAmAd~iy~       Nap_L   immaterialism     <pos>lAmAd~iy~/NOUN</pos>
 ;; mamoduwd_1
 mmdwd   mamoduwd        N-ap    extended;extensive;lengthened     <pos>mamoduwd/ADJ</pos>
 ;; mumad~ad_1

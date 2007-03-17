@@ -3157,6 +3157,10 @@ AgtnAm  {igotinAm       NduAt   profiting from;seizing (opportunity)
 ;; gunuwSiy~_1
 gnwSy   gunuwSiy~       Nall    gnostic     <pos>gunuwSiy~/ADJ</pos>
 gnwSy   gunuwSiy~       Nap     gnosticism     <pos>gunuwSiy~/NOUN</pos>
+;; lAgunuwSiy~_1
+lAgnwSy lAgunuwSiy~     Nall_L  agnostic     <pos>lAgunuwSiy~/ADJ</pos>
+;; lAgunuwSiy~ap_1
+lAgnwSy lAgunuwSiy~     Nap_L   agnosticism     <pos>lAgunuwSiy~/NOUN</pos>
 ;
 ;--- gny
 ;; ganiy-a_1

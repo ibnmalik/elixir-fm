@@ -4826,6 +4826,10 @@ mrkz    marokaz Ndu     ranking;position
 mrkzy   marokaziy~      N-ap    central     <pos>marokaziy~/ADJ</pos>
 ;; marokaziy~ap_1
 mrkzy   marokaziy~      Nap     centralization     <pos>marokaziy~/NOUN</pos>
+;; lAmarokaziy~_1
+lAmrkzy lAmarokaziy~    Nall_L  decentralized     <pos>lAmarokaziy~/ADJ</pos>
+;; lAmarokaziy~ap_1
+lAmrkzy lAmarokaziy~    Nap_L   decentralization     <pos>lAmarokaziy~/NOUN</pos>
 ;; tarokiyz_1
 trkyz   tarokiyz        NduAt   emphasis;focus;concentration;installation
 ;; tarAkuz_1
@@ -6005,6 +6009,9 @@ ArAd    <irAd   Nap     desire;will
 ;; <irAdiy~_1
 <rAdy   <irAdiy~        Nall    intentional;willful     <pos><irAdiy~/ADJ</pos>
 ArAdy   <irAdiy~        Nall    intentional;willful     <pos><irAdiy~/ADJ</pos>
+;; lA<irAdiy~_1
+lA<rAdy lA<irAdiy~      Nall_L  involuntary;instinctive     <pos>lA<irAdiy~/ADJ</pos>
+lAArAdy lA<irAdiy~      Nall_L  involuntary;instinctive     <pos>lAAirAdiy~/ADJ</pos>
 ;; {irotiyAd_1
 <rtyAd  {irotiyAd       NduAt   exploration;visit
 ArtyAd  {irotiyAd       NduAt   exploration;visit

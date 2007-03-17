@@ -4499,7 +4499,7 @@ mnADl   munADal NapAt   struggle;battle
 ;; munADil_1
 mnADl   munADil Nall    fighting;combatant;fighter
 ;
-;--- DnD
+;--- nDnD
 ;; naDonAD_1
 nDnAD   naDonAD N-ap    hissing menacingly
 ;
@@ -4827,6 +4827,8 @@ mnAZyr  manAZiyr        Ndip    viewers;telescopes;magnifying glasses
 mnAZr   munAZar NapAt   rivalry;quarrel;supervision
 ;; tanAZur_1
 tnAZr   tanAZur N/At    difference of opinion;altercation;symmetry
+;; lAtanAZur_1
+lAtnAZr lAtanAZur       N_L     asymmetry
 ;; {inotiZAr_1
 <ntZAr  {inotiZAr       N/At    waiting;anticipating
 AntZAr  {inotiZAr       N/At    waiting;anticipating
@@ -4910,6 +4912,8 @@ AnZm    >anoZim Nap     regimes;governments;systems
 nZAm    niZAm   N       methodology;system;order
 >nZm    >anoZim Nap     methodologies;systems
 AnZm    >anoZim Nap     methodologies;systems
+;; lAniZAm_1
+lAnZAm  lAniZAm N_L     chaos
 ;; niZAmiy~_1
 nZAmy   niZAmiy~        N-ap    systematic;regular;orderly     <pos>niZAmiy~/ADJ</pos>
 ;; tanoZiym_1
@@ -7290,7 +7294,7 @@ nmA*j   namA*ij Ndip    samples;models
 ;; namuw*ajiy~_1
 nmw*jy  namuw*ajiy~     Nall    exemplary;model     <pos>namuw*ajiy~/ADJ</pos>
 ;
-;--- mny
+;--- nmy
 ;; namaY-i_1
 nmY     namaY   PV_0    grow;make progress
 nmA     namA    PV_h    grow;make progress
@@ -7389,6 +7393,9 @@ AntmA'  {inotimA'       NAn_Nayn        membership;affiliation;commitment
 AntmA}  {inotimA}       Nayn    membership;affiliation;commitment
 <ntmA'  {inotimA'       NAt     membership;affiliation;commitment
 AntmA'  {inotimA'       NAt     membership;affiliation;commitment
+;; lA{inotimA}iy~_1
+lA<ntmA}y       lA{inotimA}iy~  Nall_L  non-committed     <pos>lA<inotimA}iy~/ADJ</pos>
+lAAntmA}y       lA{inotimA}iy~  Nall_L  non-committed     <pos>lAAinotimA}iy~/ADJ</pos>
 ;; nAmiy_1
 nAmy    nAmiy   N0F     developing     <pos>nAmiy/ADJ</pos>
 nAm     nAm     NK      developing
@@ -7410,6 +7417,8 @@ mntm    munotam NK      belonging;affiliated;committed
 mntmy   munotamiy       NAn_Nayn        belonging;affiliated;committed
 mntm    munotam Nuwn_Niyn       belonging;affiliated;committed
 mntmy   munotamiy       NapAt   belonging;affiliated;committed
+;; lAmunotamiy_1
+lAmntmy lAmunotamiy     N_L     ideological independence
 ;; munotamaY_1
 mntmY   munotamaY       N0      affiliation;membership;commitment
 mntmA   munotamA        Nhy     affiliation;membership;commitment
@@ -7487,6 +7496,8 @@ mnAhj   manAhij Ndip    methods;approaches;programs
 ;; manohajiy~_1
 mnhjy   manohajiy~      N-ap    methodological;programmatic     <pos>manohajiy~/ADJ</pos>
 mnhjy   minohajiy~      N-ap    methodological;programmatic     <pos>minohajiy~/ADJ</pos>
+;; lAminhajiy~_1
+lAmnhjy lAminhajiy~     N-ap_L  extra-curricular     <pos>lAminhajiy~/ADJ</pos>
 ;; minohAj_1
 mnhAj   minohAj Ndu     method;program;curriculum
 mnAhyj  manAhiyj        Ndip    methods;programs;curricula
@@ -7804,6 +7815,10 @@ nhA}y   nihA}iy~        Nall    final;definitive;conclusive     <pos>nihA}iy~/AD
 nhA}y   nihA}iy~        NF      finally;in the end     <pos>nihA}iy~/ADV</pos>
 ;; nihA}iy~_2
 nhA}y   nihA}iy~        NduAt   final (in sports)    <pos>nihA}iy~/NOUN</pos>
+;; lAnihA}iy~_1
+lAnhA}y lAnihA}iy~      Nall_L  infinite     <pos>lAnihA}iy~/ADJ</pos>
+;; lAnihA}iy~ap_1
+lAnhA}y lAnihA}iy~      Nap_L   infinity     <pos>lAnihA}iy~/NOUN</pos>
 ;; <inohA'_1
 <nhA'   <inohA' N0_Nh   termination;completion
 AnhA'   <inohA' N0_Nh   termination;completion
@@ -7839,6 +7854,8 @@ mtnAh   mutanAh NK      utmost;extreme;finished
 mtnAhy  mutanAhiy       NAn_Nayn        utmost;extreme;finished
 mtnAh   mutanAh Nuwn_Niyn       utmost;extreme;finished
 mtnAhy  mutanAhiy       NapAt   utmost;extreme;finished
+;; lAmutanAhiy_1
+lAmtnAhy        lAmutanAhiy     Nall_L  infinite
 ;; munotahiy_1
 mnthy   munotahiy       N0_Nh   finished;expired
 mnth    munotah NK      finished;expired

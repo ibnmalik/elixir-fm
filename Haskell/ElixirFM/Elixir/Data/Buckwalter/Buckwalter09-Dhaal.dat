@@ -786,8 +786,12 @@ m*hb    ma*ohab Ndu     ideology;trend
 m*Ahb   ma*Ahib Ndip    ideologies;trends;sects
 ;; ma*ohabiy~_1
 m*hby   ma*ohabiy~      Nall    sectarian;doctrinal     <pos>ma*ohabiy~/ADJ</pos>
+;; lAma*habiy~_1
+lAm*hby lAma*habiy~     Nall_L  ideologically indifferent     <pos>lAma*habiy~/ADJ</pos>
 ;; ma*ohabiy~ap_1
 m*hby   ma*ohabiy~      Nap     sectarianism     <pos>ma*ohabiy~/NOUN</pos>
+;; lAma*habiy~ap_1
+lAm*hby lAma*habiy~     Nap_L   non-denominationalism;ideological indifference     <pos>lAma*habiy~/NOUN</pos>
 ;; *Ahib_1
 *Ahb    *Ahib   Nall    going     <pos>*Ahib/ADJ</pos>
 ;; mu*ah~ab_1
@@ -903,6 +907,8 @@ A*Ab    <i*Ab   NapAt   dissolution;liquefaction;melting
 *wAty   *awAtiy~        Nall    high-class;exclusive     <pos>*awAtiy~/ADJ</pos>
 ;; *Atiy~_1
 *Aty    *Atiy~  N-ap    autonomous;self     <pos>*Atiy~/ADJ</pos>
+;; lA*Atiy~ap_1
+lA*Aty  lA*Atiy~        Nap_L   impersonality     <pos>lA*Atiy~/NOUN</pos>
 ;
 ;--- *wd
 ;; *Ad-u_1

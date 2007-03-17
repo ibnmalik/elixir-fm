@@ -2587,8 +2587,12 @@ Ast$Er  {isota$oEar     PV_intr be conscious of;realize;have a premonition of
 st$Er   sota$oEir       IV_intr be conscious of;realize;have a premonition of
 ;; $uEuwr_1
 $Ewr    $uEuwr  N       feeling;sentiment;awareness
+;; lA$uEuwr_1
+lA$Ewr  lA$uEuwr        N_L     unconscious
 ;; $uEuwriy~_1
 $Ewry   $uEuwriy~       Nall    conscious     <pos>$uEuwriy~/ADJ</pos>
+;; lA$uEuwriy~_1
+lA$Ewry lA$uEuwriy~     Nall_L  subconscious;unconscious     <pos>lA$uEuwriy~/ADJ</pos>
 ;; $iEor_1
 $Er     $iEor   N       poetry
 >$EAr   >a$oEAr N       poems
@@ -3566,6 +3570,8 @@ $kl     $akol   Napdu   diacritic;diacritical mark
 $kl     $akal   NAt     diacritics;diacritical marks
 ;; $akoliy~_1
 $kly    $akoliy~        Nall    formal;figurative     <pos>$akoliy~/ADJ</pos>
+;; lA$akoliy~_1
+lA$kly  lA$akoliy~      Nall_L  amorphous     <pos>lA$akoliy~/ADJ</pos>
 ;; $akoliy~ap_1
 $kly    $akoliy~        NapAt   formalism;formality     <pos>$akoliy~/NOUN</pos>
 ;; $ikAl_1
@@ -5143,8 +5149,13 @@ A$yA'   >a$oyA' N0_Nh   things
 A$yA&   >a$oyA& Nh      things
 >$yA}   >a$oyA} Nhy     things
 A$yA}   >a$oyA} Nhy     things
+;; lA$ayo'_1
+lA$y'   lA$ayo' N_L     nothingness;nonexistence
 ;; $ayo}iy~_1
 $y}y    $ayo}iy~        N-ap    objective;factual     <pos>$ayo}iy~/ADJ</pos>
+;; lA$ayo}iy~_1
+lA$y}y  lA$ayo}iy~      Nall_L  nonexistent;non-being     <pos>lA$ayo}iy~/ADJ</pos>
+lA$y}y  lA$ayo}iy~      Nap_L   nonexistence;non-being     <pos>lA$ayo}iy~/NOUN</pos>
 ;; $ayo}iy~ap_1
 $y}y    $ayo}iy~        Nap     objective;target
 ;; $uyay~'_1
