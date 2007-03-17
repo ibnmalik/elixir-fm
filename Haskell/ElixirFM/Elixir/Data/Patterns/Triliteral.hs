@@ -219,9 +219,9 @@ data PatternT =
         |   FCuL                |   CuL                 |   FUL                 |   FCU                 |   FuCL
                                 |   CI                  |   FY
 
-     -- |   FaCL
-     -- |   FiCL
-     -- |   FuCL
+     {- |   FaCL    -}
+     {- |   FiCL    -}
+     {- |   FuCL    -}
 
         |   FaCAL                                                               |   FaCA'
         |   FiCAL                                                               |   FiCA'
@@ -300,7 +300,7 @@ data PatternT =
 
         |   FACiL                                                               |   FACI
 
-        |   MuFACiL                                                             |   MuFACI
+        |   MuFACiL                                                             |   MuFACI              |   MuFACL
         |   MuFACaL                                                             |   MuFACY
 
 --  Form IV
