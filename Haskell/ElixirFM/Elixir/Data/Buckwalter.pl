@@ -27,6 +27,8 @@ our (%patterns, @patterns);
 
 our ($lexicon);
 
+our ($F, $C, $L, $K, $R, $D, $S);
+
 
 our $decode = "utf8";
 our $encode = "utf8";
@@ -278,16 +280,15 @@ sub closeEntry {
 
     my %root = ();
 
-    foreach our $pattern (@patterns) {
+    foreach my $pattern (@patterns) {
 
         next if $Entry->{'entity'} eq 'noun' and $patterns{$pattern} =~ /^FUCi?L$/;
 
-        our ($F, $C, $L, $K, $R, $D, $S) = (undef) x 7;
+        undef $_ foreach $F, $C, $L, $K, $R, $D, $S;
 
-#       if ($Entry->{'entry'} =~ /$pattern/) {
-        if ($Entry->{'entry'} =~ /^$pattern$/) {
+        if ($Entry->{'entry'} =~ $pattern) {
 
-            my @toor = defined $F || defined $C || defined $L ? ($F, $C, $L) : ($K, $R, $D, $S);
+            my @toor = (defined $F or defined $C or defined $L) ? ($F, $C, $L) : ($K, $R, $D, $S);
 
             next if defined $toor[0] and defined $toor[1] and $toor[0] eq $toor[1] or
                     @toor == 4 and $toor[1] eq $toor[2] || $toor[2] eq $toor[3];
@@ -566,7 +567,7 @@ sub readableEnglish {
 
 sub initialize_patterns {
 
-    my $C = "(\\'|b|t|\\_t|\\^g|\\.h|\\_h|d|\\_d|r|z|s|\\^s|\\.s|\\.d|\\.t|\\.z|\\`|\\.g|f|q|k|l|m|n|h|w|y)";
+    my $X = "(\\'|b|t|\\_t|\\^g|\\.h|\\_h|d|\\_d|r|z|s|\\^s|\\.s|\\.d|\\.t|\\.z|\\`|\\.g|f|q|k|l|m|n|h|w|y)";
     my $T = "(?:t|\\_t|d|\\_d|\\.t)";
 
     my @pAttErns = read_patterns('Patterns/Triliteral.hs', 'Patterns/Quadriliteral.hs');
@@ -588,17 +589,18 @@ sub initialize_patterns {
                             $x =~ s/I/iy/g;
 
                             $x = quotemeta $x;
-                            $x =~ s/\\~/\{2\}/g;
 
                             $x =~ s/(?<=F)t/$T/;
 
                             foreach my $c (keys %r) {
 
-                                $x =~ s/$c/$C(?{\$$c = \$^N})/;
+                                $x =~ s/$c/$X(?{\$$c = \$^N})/;
                                 $x =~ s/(?<!\$)$c/\\$r{$c}/g;
                             }
 
-                            qr/^$x$/
+                            $x = '^' . $x . '$';
+
+                            qr/$x/
 
                     } }     @pAttErns;
 
