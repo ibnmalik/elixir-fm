@@ -25,6 +25,13 @@ lexicon = listing "Lexicon properties"
 
     noun     Identity                  {- Oa -}             `gloss`  [ "A", "1st [ [ >a / ABBREV ] ]" ] ]
 
+ |> "'i" <| [
+
+    -- ;; <i_1
+    -- <       <i      FW      I     [[<i/ABBREV]]
+
+    noun     Identity                  {- Ii -}             `gloss`  [ "I [ [" ] ]
+
  |> "'iyh" <| [
 
     -- ;; <iyh_1
@@ -206,6 +213,13 @@ lexicon = listing "Lexicon properties"
 
     noun     CiL                       {- tiy -}            `gloss`  [ "T. [ [ tiy / ABBREV ] ]" ] ]
 
+ |> ".d" <| [
+
+    -- ;; D_1
+    -- D       D       FW      D;26th     [[D/ABBREV]]
+
+    noun     Identity                  {- D -}              `gloss`  [ "D", "26th [ [ D / ABBREV ] ]" ] ]
+
  |> ".g" <| [
 
     -- ;; g_1
@@ -213,12 +227,33 @@ lexicon = listing "Lexicon properties"
 
     noun     Identity                  {- g -}              `gloss`  [ "GH", "28th", "( Greenwich )", "( piaster )", "( gram ) [ [ g / ABBREV ] ]" ] ]
 
+ |> ".h" <| [
+
+    -- ;; H_1
+    -- H       H       FW      H;8th     [[H/ABBREV]]
+
+    noun     Identity                  {- H -}              `gloss`  [ "H", "8th [ [ H / ABBREV ] ]" ] ]
+
  |> ".s" <| [
 
     -- ;; S_1
     -- S       S       FW      S;18th     [[S/ABBREV]]
 
     noun     Identity                  {- S -}              `gloss`  [ "S", "18th [ [ S / ABBREV ] ]" ] ]
+
+ |> ".t" <| [
+
+    -- ;; T_1
+    -- T       T       FW      T;9th     [[T/ABBREV]]
+
+    noun     Identity                  {- T -}              `gloss`  [ "T", "9th [ [ T / ABBREV ] ]" ] ]
+
+ |> ".z" <| [
+
+    -- ;; Z_1
+    -- Z       Z       FW      ZH;27th     [[Z/ABBREV]]
+
+    noun     Identity                  {- Z -}              `gloss`  [ "ZH", "27th [ [ Z / ABBREV ] ]" ] ]
 
  |> "At^s" <| [
 
@@ -236,6 +271,20 @@ lexicon = listing "Lexicon properties"
 
     noun     Identity                  {- j -}              `gloss`  [ "J", "3rd", "( pounds / lira )", "( answer )", "( republic )", "( gram ) [ [ j / ABBREV ] ]" ] ]
 
+ |> "^s" <| [
+
+    -- ;; $_1
+    -- $       $       FW      SH;21st;(street)     [[$/ABBREV]]
+
+    noun     Identity                  {- $ -}              `gloss`  [ "SH", "21st", "( street ) [ [ $ / ABBREV ] ]" ] ]
+
+ |> "_d" <| [
+
+    -- ;; *_1
+    -- *       *       FW      DH;25th     [[*/ABBREV]]
+
+    noun     Identity                  {- * -}              `gloss`  [ "DH", "25th [ [ * / ABBREV ] ]" ] ]
+
  |> "_h" <| [
 
     -- ;; x_1
@@ -250,13 +299,20 @@ lexicon = listing "Lexicon properties"
 
     noun     Identity                  {- v -}              `gloss`  [ "TH", "23rd [ [ v / ABBREV ] ]" ] ]
 
+ |> "`" <| [
+
+    -- ;; E_1
+    -- E       E       FW      ('ayn);16th;(Arab)     [[E/ABBREV]]
+
+    noun     Identity                  {- E -}              `gloss`  [ "( ` ayn )", "16th", "( Arab ) [ [ E / ABBREV ] ]" ] ]
+
  |> "bi" <| [
 
     -- ;; bi_1
     -- b       bi      FW      with;by     [[bi/PREP]]
     -- b       b       FW      B;2nd;P     [[b/ABBREV]]
 
-    noun     Identity                  {- bi -}             `others` [ "b FW" ]
+    noun     Identity                  {- bi -}             -- `others` [ "b FW" ]
                                                             `gloss`  [ "with", "by [ [ bi / PREP ] ]", "B", "2nd", "P [ [ b / ABBREV ] ]" ] ]
 
  |> "d" <| [
@@ -279,7 +335,7 @@ lexicon = listing "Lexicon properties"
     -- f       fa      FW      and;so     [[fa/CONJ]]
     -- f       f       FW      F;17th;(fils)     [[f/ABBREV]]
 
-    noun     Identity                  {- fa -}             `others` [ "f FW" ]
+    noun     Identity                  {- fa -}             -- `others` [ "f FW" ]
                                                             `gloss`  [ "and", "so [ [ fa / CONJ ] ]", "F", "17th", "( fils ) [ [ f / ABBREV ] ]" ] ]
 
  |> "h" <| [
@@ -295,7 +351,7 @@ lexicon = listing "Lexicon properties"
     -- k       ka      FW      as;like     [[ka/PREP]]
     -- k       k       FW      K;11th;(kilo-)     [[k/ABBREV]]
 
-    noun     Identity                  {- ka -}             `others` [ "k FW" ]
+    noun     Identity                  {- ka -}             -- `others` [ "k FW" ]
                                                             `gloss`  [ "as", "like [ [ ka / PREP ] ]", "K", "11th", "( kilo- ) [ [ k / ABBREV ] ]" ] ]
 
  |> "li" <| [
@@ -304,7 +360,7 @@ lexicon = listing "Lexicon properties"
     -- l       li      FW      for;to     [[li/PREP]]
     -- l       l       FW      L;12th;(pounds/lira)     [[l/ABBREV]]
 
-    noun     Identity                  {- li -}             `others` [ "l FW" ]
+    noun     Identity                  {- li -}             -- `others` [ "l FW" ]
                                                             `gloss`  [ "for", "to [ [ li / PREP ] ]", "L", "12th", "( pounds / lira ) [ [ l / ABBREV ] ]" ] ]
 
  |> "m" <| [
@@ -363,7 +419,7 @@ lexicon = listing "Lexicon properties"
     -- w       wa      FW      and       [[wa/CONJ]]
     -- w       w       FW      W;6th     [[w/ABBREV]]
 
-    noun     Identity                  {- wa -}             `others` [ "w FW" ]
+    noun     Identity                  {- wa -}             -- `others` [ "w FW" ]
                                                             `gloss`  [ "and [ [ wa / CONJ ] ]", "W", "6th [ [ w / ABBREV ] ]" ] ]
 
  |> "y" <| [
@@ -373,4 +429,11 @@ lexicon = listing "Lexicon properties"
     -- Y       y       FW      Y;10th     [[y/ABBREV]]
 
     noun     Identity                  {- y -}              `gloss`  [ "Y", "10th [ [ y / ABBREV ] ]" ] ]
+
+ |> "z" <| [
+
+    -- ;; z_1
+    -- z       z       FW      Z;7th     [[z/ABBREV]]
+
+    noun     Identity                  {- z -}              `gloss`  [ "Z", "7th [ [ z / ABBREV ] ]" ] ]
 

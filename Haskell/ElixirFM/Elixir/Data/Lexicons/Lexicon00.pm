@@ -61,6 +61,35 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  '.t' => [
+    {
+      'types' => {},
+      'entry' => '.t',
+      'form' => '.t',
+      'lines' => [
+        ';; T_1',
+        'T       T       FW      T;9th     [[T/ABBREV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"T"'
+        ],
+        [
+          '"9th [ [ T / ABBREV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"9th [ [ T / ABBREV ] ]"' => 1,
+        '"T"' => 1
+      },
+      'orig' => 'T',
+      'prefix' => ''
+    }
+  ],
   'd' => [
     {
       'types' => {},
@@ -438,6 +467,64 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  '.d' => [
+    {
+      'types' => {},
+      'entry' => '.d',
+      'form' => '.d',
+      'lines' => [
+        ';; D_1',
+        'D       D       FW      D;26th     [[D/ABBREV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"D"'
+        ],
+        [
+          '"26th [ [ D / ABBREV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"26th [ [ D / ABBREV ] ]"' => 1,
+        '"D"' => 1
+      },
+      'orig' => 'D',
+      'prefix' => ''
+    }
+  ],
+  '.s' => [
+    {
+      'types' => {},
+      'entry' => '.s',
+      'form' => '.s',
+      'lines' => [
+        ';; S_1',
+        'S       S       FW      S;18th     [[S/ABBREV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"S"'
+        ],
+        [
+          '"18th [ [ S / ABBREV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"18th [ [ S / ABBREV ] ]"' => 1,
+        '"S"' => 1
+      },
+      'orig' => 'S',
+      'prefix' => ''
+    }
+  ],
   's' => [
     {
       'types' => {},
@@ -472,35 +559,6 @@ $lexicon = {
         '"S"' => 1
       },
       'orig' => 's',
-      'prefix' => ''
-    }
-  ],
-  '.s' => [
-    {
-      'types' => {},
-      'entry' => '.s',
-      'form' => '.s',
-      'lines' => [
-        ';; S_1',
-        'S       S       FW      S;18th     [[S/ABBREV]]'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"S"'
-        ],
-        [
-          '"18th [ [ S / ABBREV ] ]"'
-        ]
-      ],
-      'glosshash' => {
-        '"18th [ [ S / ABBREV ] ]"' => 1,
-        '"S"' => 1
-      },
-      'orig' => 'S',
       'prefix' => ''
     }
   ],
@@ -551,6 +609,35 @@ $lexicon = {
         '"C. [ [ siy / ABBREV ] ]"' => 1
       },
       'orig' => 'siy',
+      'prefix' => ''
+    }
+  ],
+  '_d' => [
+    {
+      'types' => {},
+      'entry' => '_d',
+      'form' => '_d',
+      'lines' => [
+        ';; *_1',
+        '*       *       FW      DH;25th     [[*/ABBREV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"DH"'
+        ],
+        [
+          '"25th [ [ * / ABBREV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"25th [ [ * / ABBREV ] ]"' => 1,
+        '"DH"' => 1
+      },
+      'orig' => '*',
       'prefix' => ''
     }
   ],
@@ -687,6 +774,130 @@ $lexicon = {
         '"I. [ [ | y / ABBREV ] ]"' => 1
       },
       'orig' => '|y',
+      'prefix' => ''
+    }
+  ],
+  'z' => [
+    {
+      'types' => {},
+      'entry' => 'z',
+      'form' => 'z',
+      'lines' => [
+        ';; z_1',
+        'z       z       FW      Z;7th     [[z/ABBREV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Z"'
+        ],
+        [
+          '"7th [ [ z / ABBREV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"7th [ [ z / ABBREV ] ]"' => 1,
+        '"Z"' => 1
+      },
+      'orig' => 'z',
+      'prefix' => ''
+    }
+  ],
+  '`' => [
+    {
+      'types' => {},
+      'entry' => '`',
+      'form' => '`',
+      'lines' => [
+        ';; E_1',
+        'E       E       FW      (\'ayn);16th;(Arab)     [[E/ABBREV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"( ` ayn )"'
+        ],
+        [
+          '"16th"'
+        ],
+        [
+          '"( Arab ) [ [ E / ABBREV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"16th"' => 1,
+        '"( Arab ) [ [ E / ABBREV ] ]"' => 1,
+        '"( ` ayn )"' => 1
+      },
+      'orig' => 'E',
+      'prefix' => ''
+    }
+  ],
+  '^s' => [
+    {
+      'types' => {},
+      'entry' => '^s',
+      'form' => '^s',
+      'lines' => [
+        ';; $_1',
+        '$       $       FW      SH;21st;(street)     [[$/ABBREV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"SH"'
+        ],
+        [
+          '"21st"'
+        ],
+        [
+          '"( street ) [ [ $ / ABBREV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"( street ) [ [ $ / ABBREV ] ]"' => 1,
+        '"21st"' => 1,
+        '"SH"' => 1
+      },
+      'orig' => '$',
+      'prefix' => ''
+    }
+  ],
+  '.h' => [
+    {
+      'types' => {},
+      'entry' => '.h',
+      'form' => '.h',
+      'lines' => [
+        ';; H_1',
+        'H       H       FW      H;8th     [[H/ABBREV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"H"'
+        ],
+        [
+          '"8th [ [ H / ABBREV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"H"' => 1,
+        '"8th [ [ H / ABBREV ] ]"' => 1
+      },
+      'orig' => 'H',
       'prefix' => ''
     }
   ],
@@ -1023,6 +1234,77 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  '\'i' => [
+    {
+      'types' => {},
+      'entry' => '\'i',
+      'form' => '\'i',
+      'lines' => [
+        ';; <i_1',
+        '<       <i      FW      I     [[<i/ABBREV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"I [ ["'
+        ]
+      ],
+      'glosshash' => {
+        '"I [ ["' => 1
+      },
+      'orig' => 'Ii',
+      'prefix' => ''
+    }
+  ],
+  '-- \' y' => [
+    {
+      'types' => $lexicon->{'-- \' --'}[0]{'types'},
+      'entry' => '\'iy',
+      'form' => '\'iy',
+      'lines' => $lexicon->{'-- \' --'}[0]{'lines'},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'CiL',
+      'suffix' => '',
+      'glosses' => $lexicon->{'-- \' --'}[0]{'glosses'},
+      'glosshash' => $lexicon->{'-- \' --'}[0]{'glosshash'},
+      'orig' => 'Iiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'ay',
+      'form' => '\'ay',
+      'lines' => [
+        ';; >ay_1',
+        '>y      >ay     FW      A.     [[>ay/ABBREV]]',
+        'Ay      >ay     FW      A.     [[>ay/ABBREV]]',
+        '>y      >ay     FW      I.     [[>ay/ABBREV]]',
+        'Ay      >ay     FW      I.     [[>ay/ABBREV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'CaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"A. [ [ >ay / ABBREV ] ]"'
+        ],
+        [
+          '"I. [ [ >ay / ABBREV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"A. [ [ >ay / ABBREV ] ]"' => 1,
+        '"I. [ [ >ay / ABBREV ] ]"' => 1
+      },
+      'orig' => 'Oay',
+      'prefix' => ''
+    }
+  ],
   'wa' => [
     {
       'types' => {
@@ -1113,52 +1395,6 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  '-- \' y' => [
-    {
-      'types' => $lexicon->{'-- \' --'}[0]{'types'},
-      'entry' => '\'iy',
-      'form' => '\'iy',
-      'lines' => $lexicon->{'-- \' --'}[0]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CiL',
-      'suffix' => '',
-      'glosses' => $lexicon->{'-- \' --'}[0]{'glosses'},
-      'glosshash' => $lexicon->{'-- \' --'}[0]{'glosshash'},
-      'orig' => 'Iiy',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'ay',
-      'form' => '\'ay',
-      'lines' => [
-        ';; >ay_1',
-        '>y      >ay     FW      A.     [[>ay/ABBREV]]',
-        'Ay      >ay     FW      A.     [[>ay/ABBREV]]',
-        '>y      >ay     FW      I.     [[>ay/ABBREV]]',
-        'Ay      >ay     FW      I.     [[>ay/ABBREV]]'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"A. [ [ >ay / ABBREV ] ]"'
-        ],
-        [
-          '"I. [ [ >ay / ABBREV ] ]"'
-        ]
-      ],
-      'glosshash' => {
-        '"A. [ [ >ay / ABBREV ] ]"' => 1,
-        '"I. [ [ >ay / ABBREV ] ]"' => 1
-      },
-      'orig' => 'Oay',
-      'prefix' => ''
-    }
-  ],
   '-- ^g --' => [
     {
       'types' => {},
@@ -1218,6 +1454,35 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  '.z' => [
+    {
+      'types' => {},
+      'entry' => '.z',
+      'form' => '.z',
+      'lines' => [
+        ';; Z_1',
+        'Z       Z       FW      ZH;27th     [[Z/ABBREV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"ZH"'
+        ],
+        [
+          '"27th [ [ Z / ABBREV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"27th [ [ Z / ABBREV ] ]"' => 1,
+        '"ZH"' => 1
+      },
+      'orig' => 'Z',
+      'prefix' => ''
+    }
+  ],
   '-- f --' => [
     {
       'types' => {},
@@ -1240,6 +1505,43 @@ $lexicon = {
         '"V. [ [ Viy / ABBREV ] ]"' => 1
       },
       'orig' => 'fiy',
+      'prefix' => ''
+    }
+  ],
+  'm' => [
+    {
+      'types' => {},
+      'entry' => 'm',
+      'form' => 'm',
+      'lines' => [
+        ';; m_1',
+        'm       m       FW      (A.D.);M;13th;meter     [[m/ABBREV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"( A.D. )"'
+        ],
+        [
+          '"M"'
+        ],
+        [
+          '"13th"'
+        ],
+        [
+          '"meter [ [ m / ABBREV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"13th"' => 1,
+        '"M"' => 1,
+        '"( A.D. )"' => 1,
+        '"meter [ [ m / ABBREV ] ]"' => 1
+      },
+      'orig' => 'm',
       'prefix' => ''
     }
   ],
@@ -1289,43 +1591,6 @@ $lexicon = {
         '"so [ [ fa / CONJ ] ]"' => 1
       },
       'orig' => 'fa',
-      'prefix' => ''
-    }
-  ],
-  'm' => [
-    {
-      'types' => {},
-      'entry' => 'm',
-      'form' => 'm',
-      'lines' => [
-        ';; m_1',
-        'm       m       FW      (A.D.);M;13th;meter     [[m/ABBREV]]'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"( A.D. )"'
-        ],
-        [
-          '"M"'
-        ],
-        [
-          '"13th"'
-        ],
-        [
-          '"meter [ [ m / ABBREV ] ]"'
-        ]
-      ],
-      'glosshash' => {
-        '"13th"' => 1,
-        '"M"' => 1,
-        '"( A.D. )"' => 1,
-        '"meter [ [ m / ABBREV ] ]"' => 1
-      },
-      'orig' => 'm',
       'prefix' => ''
     }
   ],

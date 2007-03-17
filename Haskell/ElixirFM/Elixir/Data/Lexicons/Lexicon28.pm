@@ -6,37 +6,102 @@ package Elixir::Data::Lexicons::Lexicon28;
 
 
 $lexicon = {
-  'yuwrAniyuwm' => [
+  'y f .t' => [
     {
       'types' => {
-        '\'uwrAniyuwm' => {
-          'N0' => 2
+        'yAf.t' => {
+          'NapAt' => 1
         }
       },
-      'entry' => 'yuwrAniyuwm',
-      'form' => 'yuwrAniyuwm',
+      'entry' => 'yaf.t',
+      'form' => 'yaf.taT',
       'others' => [
-        '\'uwrAniyuwm N0'
+        'yAf.t NapAt'
       ],
       'lines' => [
-        ';; yuwrAniyuwm_1',
-        'ywrAnywm        yuwrAniyuwm     N0      uranium',
-        '>wrAnywm        >uwrAniyuwm     N0      uranium',
-        'AwrAnywm        >uwrAniyuwm     N0      uranium'
+        ';; yafoTap_1',
+        'yfT     yafoT   NapAt   placard;sign',
+        'yAfT    yAfoT   NapAt   placard;sign'
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
         [
-          '"uranium"'
+          '"placard"'
+        ],
+        [
+          '"sign"'
         ]
       ],
       'glosshash' => {
-        '"uranium"' => 1
+        '"placard"' => 1,
+        '"sign"' => 1
       },
-      'orig' => 'yuwrAniyuwm',
+      'orig' => 'yafoTap',
+      'prefix' => ''
+    }
+  ],
+  'y ^s m q' => [
+    {
+      'types' => {
+        'ya^smak' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'ya^smaq',
+      'form' => 'ya^smaq',
+      'others' => [
+        'ya^smak N'
+      ],
+      'lines' => [
+        ';; ya$omaq_1',
+        'y$mq    ya$omaq N       veil',
+        'y$mk    ya$omak N       veil'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"veil"'
+        ]
+      ],
+      'glosshash' => {
+        '"veil"' => 1
+      },
+      'orig' => 'ya$omaq',
+      'prefix' => ''
+    }
+  ],
+  'y w r' => [
+    {
+      'types' => {},
+      'entry' => 'yAwir',
+      'form' => 'yAwir',
+      'lines' => [
+        ';; yAwir_1',
+        'yAwr    yAwir   Ndu     adjutant;aide-de-camp'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"adjutant"'
+        ],
+        [
+          '"aide-de-camp"'
+        ]
+      ],
+      'glosshash' => {
+        '"aide-de-camp"' => 1,
+        '"adjutant"' => 1
+      },
+      'orig' => 'yAwir',
       'prefix' => ''
     }
   ],
@@ -66,6 +131,31 @@ $lexicon = {
         '"Yaseen"' => 1
       },
       'orig' => 'yAsiyn',
+      'prefix' => ''
+    }
+  ],
+  'y z l' => [
+    {
+      'types' => {},
+      'entry' => 'yAzuwl',
+      'form' => 'yAzuwl',
+      'lines' => [
+        ';; yAzuwl_1',
+        'yAzwl   yAzuwl  N       wild garlic'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACUL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"wild garlic"'
+        ]
+      ],
+      'glosshash' => {
+        '"wild garlic"' => 1
+      },
+      'orig' => 'yAzuwl',
       'prefix' => ''
     }
   ],
@@ -119,6 +209,80 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'y f _t' => [
+    {
+      'types' => {},
+      'entry' => 'yAfi_t',
+      'form' => 'yAfi_t',
+      'lines' => [
+        ';; yAfiv_1',
+        'yAfv    yAfiv   Nprop   Yafith;Japheth'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yafith"'
+        ],
+        [
+          '"Japheth"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yafith"' => 1,
+        '"Japheth"' => 1
+      },
+      'orig' => 'yAfiv',
+      'prefix' => ''
+    }
+  ],
+  'y z k' => [
+    {
+      'types' => {
+        'yazak' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'yazak',
+      'form' => 'yazakiyy',
+      'others' => [
+        'yazak N'
+      ],
+      'lines' => [
+        ';; yazakiy~_1',
+        'yzky    yazakiy~        Ndu     guard;sentry',
+        'yzk     yazak   N       guards;sentries'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"guard"'
+        ],
+        [
+          '"sentry"'
+        ],
+        [
+          '"guards"'
+        ],
+        [
+          '"sentries"'
+        ]
+      ],
+      'glosshash' => {
+        '"sentry"' => 1,
+        '"guards"' => 1,
+        '"guard"' => 1,
+        '"sentries"' => 1
+      },
+      'orig' => 'yazakiy~',
+      'prefix' => ''
+    }
+  ],
   'yuwhAnsuwn' => [
     {
       'types' => {},
@@ -141,6 +305,35 @@ $lexicon = {
         '"Johansson"' => 1
       },
       'orig' => 'yuwhAnosuwn',
+      'prefix' => ''
+    }
+  ],
+  'y \' y' => [
+    {
+      'types' => {},
+      'entry' => 'yAy',
+      'form' => 'yAy',
+      'lines' => [
+        ';; yAy_1',
+        'yAy     yAy     NduAt   spring;spiral'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"spring"'
+        ],
+        [
+          '"spiral"'
+        ]
+      ],
+      'glosshash' => {
+        '"spiral"' => 1,
+        '"spring"' => 1
+      },
+      'orig' => 'yAy',
       'prefix' => ''
     }
   ],
@@ -173,65 +366,28 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'yanAyir' => [
-    {
-      'types' => {
-        'yanA\'ir' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'yanAyir',
-      'form' => 'yanAyir',
-      'others' => [
-        'yanA\'ir N0'
-      ],
-      'lines' => [
-        ';; yanAyir_1',
-        'ynAyr   yanAyir N0      January',
-        'ynA}r   yanA}ir N0      January'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"January"'
-        ]
-      ],
-      'glosshash' => {
-        '"January"' => 1
-      },
-      'orig' => 'yanAyir',
-      'prefix' => ''
-    }
-  ],
-  'y r r' => [
+  'y ^s b' => [
     {
       'types' => {},
-      'entry' => 'yuwriy',
-      'form' => 'yuwriy',
+      'entry' => 'ya^sb',
+      'form' => 'ya^sb',
       'lines' => [
-        ';; yuwriy_1',
-        'ywry    yuwriy  Nprop   Youri;Yuri'
+        ';; ya$ob_1',
+        'y$b     ya$ob   N       jasper'
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
         [
-          '"Youri"'
-        ],
-        [
-          '"Yuri"'
+          '"jasper"'
         ]
       ],
       'glosshash' => {
-        '"Yuri"' => 1,
-        '"Youri"' => 1
+        '"jasper"' => 1
       },
-      'orig' => 'yuwriy',
+      'orig' => 'ya$ob',
       'prefix' => ''
     }
   ],
@@ -261,31 +417,6 @@ $lexicon = {
         '"oh"' => 1
       },
       'orig' => 'yA',
-      'prefix' => ''
-    }
-  ],
-  'y \' q' => [
-    {
-      'types' => {},
-      'entry' => 'yAq',
-      'form' => 'yAqaT',
-      'lines' => [
-        ';; yAqap_1',
-        'yAq     yAq     NapAt   collar'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        [
-          '"collar"'
-        ]
-      ],
-      'glosshash' => {
-        '"collar"' => 1
-      },
-      'orig' => 'yAqap',
       'prefix' => ''
     }
   ],
@@ -322,185 +453,101 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'y w s f' => [
+  'y ^s y' => [
     {
       'types' => {},
-      'entry' => 'yuwsuf',
-      'form' => 'yuwsufiyy',
+      'entry' => 'ya^sAy',
+      'form' => 'ya^sAy',
       'lines' => [
-        ';; yuwsufiy~_1',
-        'ywsfy   yuwsufiy~       N       tangerines'
+        ';; ya$Ay_1',
+        'y$Ay    ya$Ay   Nprop   Yashai'
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'KuRDuS |< Iy',
-      'suffix' => ' |< Iy',
+      'morphs' => 'FaCAL',
+      'suffix' => '',
       'glosses' => [
         [
-          '"tangerines"'
+          '"Yashai"'
         ]
       ],
       'glosshash' => {
-        '"tangerines"' => 1
+        '"Yashai"' => 1
       },
-      'orig' => 'yuwsufiy~',
+      'orig' => 'ya$Ay',
       'prefix' => ''
     }
   ],
-  'y q n' => [
+  'y z ^g' => [
     {
-      'types' => {
-        'yqan' => {
-          'IV-n_intr' => 1
-        }
-      },
-      'entry' => 'yaqin',
-      'form' => 'yaqin',
-      'others' => [
-        'yqan IV-n_intr'
-      ],
+      'types' => {},
+      'entry' => 'yAzi^g',
+      'form' => 'yAzi^giyy',
       'lines' => [
-        ';; yaqin-a_1',
-        'yqn     yaqin   PV-n_intr       be sure;know for certain',
-        'yqn     yoqan   IV-n_intr       be sure;know for certain'
+        ';; yAzijiy~_1',
+        'yAzjy   yAzijiy~        N0      Yaziji'
       ],
       'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCiL',
+      'entity' => 'noun',
+      'morphs' => 'FACiL |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
         [
-          '"be sure"'
-        ],
-        [
-          '"know for certain"'
+          '"Yaziji"'
         ]
       ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
       'glosshash' => {
-        '"be sure"' => 1,
-        '"know for certain"' => 1
+        '"Yaziji"' => 1
       },
-      'orig' => 'yaqin-a',
+      'orig' => 'yAzijiy~',
       'prefix' => ''
-    },
+    }
+  ],
+  'y r m k' => [
     {
-      'types' => {
-        'yqin' => {
-          'IV-n' => 1
-        }
-      },
-      'entry' => '\'ayqan',
-      'form' => '\'ayqan',
-      'others' => [
-        'yqin IV-n'
-      ],
+      'types' => {},
+      'entry' => 'yarmuwk',
+      'form' => 'yarmuwk',
       'lines' => [
-        ';; >ayoqan_1',
-        '>yqn    >ayoqan PV-n    ascertain;be convinced',
-        'Ayqn    >ayoqan PV-n    ascertain;be convinced',
-        'yqn     yoqin   IV-n    ascertain;be convinced'
+        ';; yaromuwk_1',
+        'yrmwk   yaromuwk        Ndip    Yarmouk'
       ],
       'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCaL',
+      'entity' => 'noun',
+      'morphs' => 'KaRDUS',
       'suffix' => '',
       'glosses' => [
         [
-          '"ascertain"'
-        ],
-        [
-          '"be convinced"'
+          '"Yarmouk"'
         ]
       ],
       'glosshash' => {
-        '"be convinced"' => 1,
-        '"ascertain"' => 1
+        '"Yarmouk"' => 1
       },
-      'orig' => 'Oayoqan',
+      'orig' => 'yaromuwk',
       'prefix' => ''
     },
     {
       'types' => {},
-      'entry' => 'yaqiyn',
-      'form' => 'yaqiyn',
+      'entry' => 'yarmuwk',
+      'form' => 'yarmuwkiyy',
       'lines' => [
-        ';; yaqiyn_1',
-        'yqyn    yaqiyn  N       certainty;certitude;conviction'
+        ';; yaromuwkiy~_1',
+        'yrmwky  yaromuwkiy~     Nall    from/of Yarmouk     [[yaromuwkiy~/ADJ]]'
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
+      'morphs' => 'KaRDUS |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
         [
-          '"certainty"'
-        ],
-        [
-          '"certitude"'
-        ],
-        [
-          '"conviction"'
+          '"from / of Yarmouk [ [ yaromuwkiy ~ / ADJ ] ]"'
         ]
       ],
       'glosshash' => {
-        '"conviction"' => 1,
-        '"certitude"' => 1,
-        '"certainty"' => 1
+        '"from / of Yarmouk [ [ yaromuwkiy ~ / ADJ ] ]"' => 1
       },
-      'orig' => 'yaqiyn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'yaqiyn',
-      'form' => 'yaqiyn',
-      'lines' => [
-        ';; yaqiyn_2',
-        'yqyn    yaqiyn  Nall    convinced     [[yaqiyn/ADJ]]'
-      ],
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"convinced [ [ yaqiyn / ADJ ] ]"'
-        ]
-      ],
-      'glosshash' => {
-        '"convinced [ [ yaqiyn / ADJ ] ]"' => 1
-      },
-      'orig' => 'yaqiyn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mutayaqqin',
-      'form' => 'mutayaqqin',
-      'lines' => [
-        ';; mutayaq~in_1',
-        'mtyqn   mutayaq~in      Nall    convinced;certain     [[mutayaq~in/ADJ]]'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MutaFaCCiL',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"convinced"'
-        ],
-        [
-          '"certain [ [ mutayaq ~ in / ADJ ] ]"'
-        ]
-      ],
-      'glosshash' => {
-        '"convinced"' => 1,
-        '"certain [ [ mutayaq ~ in / ADJ ] ]"' => 1
-      },
-      'orig' => 'mutayaq~in',
+      'orig' => 'yaromuwkiy~',
       'prefix' => ''
     }
   ],
@@ -530,6 +577,68 @@ $lexicon = {
         '"Yosi"' => 1
       },
       'orig' => 'yuwsiy',
+      'prefix' => ''
+    }
+  ],
+  'y n y r' => [
+    {
+      'types' => {
+        'yanA\'ir' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'yanAyir',
+      'form' => 'yanAyir',
+      'others' => [
+        'yanA\'ir N0'
+      ],
+      'lines' => [
+        ';; yanAyir_1',
+        'ynAyr   yanAyir N0      January',
+        'ynA}r   yanA}ir N0      January'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRADiS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"January"'
+        ]
+      ],
+      'glosshash' => {
+        '"January"' => 1
+      },
+      'orig' => 'yanAyir',
+      'prefix' => ''
+    }
+  ],
+  'yahuw_dA' => [
+    {
+      'types' => {},
+      'entry' => 'yahuw_dA',
+      'form' => 'yahuw_dA',
+      'lines' => [
+        ';; yahuw*A_1',
+        'yhw*A   yahuw*A Nprop   Judah;Judea'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Judah"'
+        ],
+        [
+          '"Judea"'
+        ]
+      ],
+      'glosshash' => {
+        '"Judah"' => 1,
+        '"Judea"' => 1
+      },
+      'orig' => 'yahuw*A',
       'prefix' => ''
     }
   ],
@@ -590,7 +699,129 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'yuw.guwrt' => [
+    {
+      'types' => {},
+      'entry' => 'yuw.guwrt',
+      'form' => 'yuw.guwrt',
+      'lines' => [
+        ';; yuwguwrot_1',
+        'ywgwrt  yuwguwrot       N       yogurt'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"yogurt"'
+        ]
+      ],
+      'glosshash' => {
+        '"yogurt"' => 1
+      },
+      'orig' => 'yuwguwrot',
+      'prefix' => ''
+    }
+  ],
+  'y ^s m' => [
+    {
+      'types' => {},
+      'entry' => 'ya^sm',
+      'form' => 'ya^sm',
+      'lines' => [
+        ';; ya$om_1',
+        'y$m     ya$om   N       jade'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"jade"'
+        ]
+      ],
+      'glosshash' => {
+        '"jade"' => 1
+      },
+      'orig' => 'ya$om',
+      'prefix' => ''
+    }
+  ],
   'y s r' => [
+    {
+      'types' => {
+        'ysar' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'yasir',
+      'form' => 'yasir',
+      'others' => [
+        'ysar IV_intr'
+      ],
+      'lines' => [
+        ';; yasir-a_1',
+        'ysr     yasir   PV_intr become easy',
+        'ysr     yosar   IV_intr become easy'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        [
+          '"become easy"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'glosshash' => {
+        '"become easy"' => 1
+      },
+      'orig' => 'yasir-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ysur' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'yasur',
+      'form' => 'yasur',
+      'others' => [
+        'ysur IV_intr'
+      ],
+      'lines' => [
+        ';; yasur-u_1',
+        'ysr     yasur   PV_intr become easy;be small',
+        'ysr     yosur   IV_intr become easy;be small'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCuL',
+      'glosses' => [
+        [
+          '"become easy"'
+        ],
+        [
+          '"be small"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'glosshash' => {
+        '"become easy"' => 1,
+        '"be small"' => 1
+      },
+      'orig' => 'yasur-u',
+      'prefix' => ''
+    },
     {
       'types' => {
         'yassir' => {
@@ -624,6 +855,204 @@ $lexicon = {
         '"make easy"' => 1
       },
       'orig' => 'yas~ar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yAsir' => {
+          'IV_intr_yu' => 1
+        }
+      },
+      'entry' => 'yAsar',
+      'form' => 'yAsar',
+      'others' => [
+        'yAsir IV_intr_yu'
+      ],
+      'lines' => [
+        ';; yAsar_1',
+        'yAsr    yAsar   PV_intr be lenient with;be obliging with',
+        'yAsr    yAsir   IV_intr_yu      be lenient with;be obliging with'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FACaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"be lenient with"'
+        ],
+        [
+          '"be obliging with"'
+        ]
+      ],
+      'glosshash' => {
+        '"be obliging with"' => 1,
+        '"be lenient with"' => 1
+      },
+      'orig' => 'yAsar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'wsir' => {
+          'IV_yu' => 1
+        },
+        'wsar' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => '\'aysar',
+      'form' => '\'aysar',
+      'others' => [
+        'wsir IV_yu',
+        'wsar IV_Pass_yu'
+      ],
+      'lines' => [
+        ';; >ayosar_1',
+        '>ysr    >ayosar PV      live in comfort',
+        'Aysr    >ayosar PV      live in comfort',
+        'wsr     wsir    IV_yu   live in comfort',
+        'wsr     wsar    IV_Pass_yu      be made easy;be facilitated'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"live in comfort"'
+        ],
+        [
+          '"be made easy"'
+        ],
+        [
+          '"be facilitated"'
+        ]
+      ],
+      'glosshash' => {
+        '"be facilitated"' => 1,
+        '"be made easy"' => 1,
+        '"live in comfort"' => 1
+      },
+      'orig' => 'Oayosar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tayassar',
+      'form' => 'tayassar',
+      'lines' => [
+        ';; tayas~ar_1',
+        'tysr    tayas~ar        PV_intr be made easy;be facilitated',
+        'tysr    tayas~ar        IV_intr be made easy;be facilitated'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"be made easy"'
+        ],
+        [
+          '"be facilitated"'
+        ]
+      ],
+      'glosshash' => {
+        '"be facilitated"' => 1,
+        '"be made easy"' => 1
+      },
+      'orig' => 'tayas~ar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'staysir' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'istaysar',
+      'form' => 'istaysar',
+      'others' => [
+        'staysir IV_intr'
+      ],
+      'lines' => [
+        ';; {isotayosar_1',
+        '<stysr  {isotayosar     PV_intr be easy;be successful',
+        'Astysr  {isotayosar     PV_intr be easy;be successful',
+        'stysr   sotayosir       IV_intr be easy;be successful'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IstaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"be easy"'
+        ],
+        [
+          '"be successful"'
+        ]
+      ],
+      'glosshash' => {
+        '"be successful"' => 1,
+        '"be easy"' => 1
+      },
+      'orig' => '{isotayosar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yusr',
+      'form' => 'yusr',
+      'lines' => [
+        ';; yusor_1',
+        'ysr     yusor   N       ease;facility;affluence'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"ease"'
+        ],
+        [
+          '"facility"'
+        ],
+        [
+          '"affluence"'
+        ]
+      ],
+      'glosshash' => {
+        '"ease"' => 1,
+        '"facility"' => 1,
+        '"affluence"' => 1
+      },
+      'orig' => 'yusor',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yasr',
+      'form' => 'yasraT',
+      'lines' => [
+        ';; yasorap_1',
+        'ysr     yasor   Nap     left side'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"left side"'
+        ]
+      ],
+      'glosshash' => {
+        '"left side"' => 1
+      },
+      'orig' => 'yasorap',
       'prefix' => ''
     },
     {
@@ -732,6 +1161,33 @@ $lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => 'yasiyr',
+      'form' => 'yasiyr',
+      'lines' => [
+        ';; yasiyr_2',
+        'ysyr    yasiyr  N-ap    small;short     [[yasiyr/ADJ]]'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"small"'
+        ],
+        [
+          '"short [ [ yasiyr / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"small"' => 1,
+        '"short [ [ yasiyr / ADJ ] ]"' => 1
+      },
+      'orig' => 'yasiyr',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'yusray' => {
           'NAt' => 1,
@@ -785,6 +1241,140 @@ $lexicon = {
     },
     {
       'types' => {},
+      'entry' => '\'aysar',
+      'form' => '\'aysar',
+      'lines' => [
+        ';; >ayosar_3',
+        '>ysr    >ayosar Nel     easier/easiest;smaller/smallest',
+        'Aysr    >ayosar Nel     easier/easiest;smaller/smallest'
+      ],
+      'index' => '3',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"easier / easiest"'
+        ],
+        [
+          '"smaller / smallest"'
+        ]
+      ],
+      'glosshash' => {
+        '"easier / easiest"' => 1,
+        '"smaller / smallest"' => 1
+      },
+      'orig' => 'Oayosar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'maysir',
+      'form' => 'maysir',
+      'lines' => [
+        ';; mayosir_1',
+        'mysr    mayosir N       maisir (pre-Islamic gambling)'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"maisir ( pre-Islamic gambling )"'
+        ]
+      ],
+      'glosshash' => {
+        '"maisir ( pre-Islamic gambling )"' => 1
+      },
+      'orig' => 'mayosir',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mayAsir' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'maysar',
+      'form' => 'maysaraT',
+      'others' => [
+        'mayAsir Ndip'
+      ],
+      'lines' => [
+        ';; mayosarap_1',
+        'mysr    mayosar Napdu   left wing;left side',
+        'myAsr   mayAsir Ndip    left wings;left sides'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"left wing"'
+        ],
+        [
+          '"left side"'
+        ],
+        [
+          '"left wings"'
+        ],
+        [
+          '"left sides"'
+        ]
+      ],
+      'glosshash' => {
+        '"left sides"' => 1,
+        '"left wings"' => 1,
+        '"left wing"' => 1,
+        '"left side"' => 1
+      },
+      'orig' => 'mayosarap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'maysur' => {
+          'Nap' => 1
+        },
+        'maysir' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'maysar',
+      'form' => 'maysaraT',
+      'others' => [
+        'maysur Nap',
+        'maysir Nap'
+      ],
+      'lines' => [
+        ';; mayosarap_2',
+        'mysr    mayosar Nap     comfort;affluence',
+        'mysr    mayosur Nap     comfort;affluence',
+        'mysr    mayosir Nap     comfort;affluence'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'MaFCaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"comfort"'
+        ],
+        [
+          '"affluence"'
+        ]
+      ],
+      'glosshash' => {
+        '"comfort"' => 1,
+        '"affluence"' => 1
+      },
+      'orig' => 'mayosarap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'taysiyr',
       'form' => 'taysiyr',
       'lines' => [
@@ -802,6 +1392,29 @@ $lexicon = {
       ],
       'glosshash' => {
         '"facilitation"' => 1
+      },
+      'orig' => 'tayosiyr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'taysiyr',
+      'form' => 'taysiyr',
+      'lines' => [
+        ';; tayosiyr_2',
+        'tysyr   tayosiyr        N0      Taiseer'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'TaFCIL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Taiseer"'
+        ]
+      ],
+      'glosshash' => {
+        '"Taiseer"' => 1
       },
       'orig' => 'tayosiyr',
       'prefix' => ''
@@ -834,6 +1447,45 @@ $lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        'mayAsiyr' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'maysuwr',
+      'form' => 'maysuwr',
+      'others' => [
+        'mayAsiyr Ndip'
+      ],
+      'lines' => [
+        ';; mayosuwr_1',
+        'myswr   mayosuwr        N-ap    easily accomplished;feasible;well-to-do',
+        'myAsyr  mayAsiyr        Ndip    easily accomplished;feasible;well-to-do'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCUL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"easily accomplished"'
+        ],
+        [
+          '"feasible"'
+        ],
+        [
+          '"well-to-do"'
+        ]
+      ],
+      'glosshash' => {
+        '"well-to-do"' => 1,
+        '"easily accomplished"' => 1,
+        '"feasible"' => 1
+      },
+      'orig' => 'mayosuwr',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'muyassar',
       'form' => 'muyassar',
@@ -863,9 +1515,194 @@ $lexicon = {
       },
       'orig' => 'muyas~ar',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muwsir',
+      'form' => 'muwsir',
+      'lines' => [
+        ';; muwsir_1',
+        'mwsr    muwsir  Nall    well-to-do'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MUCiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"well-to-do"'
+        ]
+      ],
+      'glosshash' => {
+        '"well-to-do"' => 1
+      },
+      'orig' => 'muwsir',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mutayassir',
+      'form' => 'mutayassir',
+      'lines' => [
+        ';; mutayas~ir_1',
+        'mtysr   mutayas~ir      N-ap    made easy;facilitated     [[mutayas~ir/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MutaFaCCiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"made easy"'
+        ],
+        [
+          '"facilitated [ [ mutayas ~ ir / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"facilitated [ [ mutayas ~ ir / ADJ ] ]"' => 1,
+        '"made easy"' => 1
+      },
+      'orig' => 'mutayas~ir',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mutayassir',
+      'form' => 'mutayassir',
+      'lines' => [
+        ';; mutayas~ir_2',
+        'mtysr   mutayas~ir      Nall    well-to-do'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'MutaFaCCiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"well-to-do"'
+        ]
+      ],
+      'glosshash' => {
+        '"well-to-do"' => 1
+      },
+      'orig' => 'mutayas~ir',
+      'prefix' => ''
     }
   ],
   'y \' s' => [
+    {
+      'types' => {
+        'y\'as' => {
+          'IV' => 1
+        },
+        'y\'is' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'ya\'is',
+      'form' => 'ya\'is',
+      'others' => [
+        'y\'as IV',
+        'y\'is IV'
+      ],
+      'lines' => [
+        ';; ya}is-ai_1',
+        'y}s     ya}is   PV      despair;be hopeless',
+        'y>s     yo>as   IV      despair;be hopeless',
+        'y}s     yo}is   IV      despair;be hopeless'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        [
+          '"despair"'
+        ],
+        [
+          '"be hopeless"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL',
+        'FCiL'
+      ],
+      'glosshash' => {
+        '"be hopeless"' => 1,
+        '"despair"' => 1
+      },
+      'orig' => 'ya}is-ai',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'y\'is' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'ay\'as',
+      'form' => '\'ay\'as',
+      'others' => [
+        'y\'is IV_yu'
+      ],
+      'lines' => [
+        ';; >ayo>as_1',
+        '>y>s    >ayo>as PV      make despair',
+        'Ay>s    >ayo>as PV      make despair',
+        'y}s     yo}is   IV_yu   make despair'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"make despair"'
+        ]
+      ],
+      'glosshash' => {
+        '"make despair"' => 1
+      },
+      'orig' => 'OayoOas',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'stay\'is' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'istay\'as',
+      'form' => 'istay\'as',
+      'others' => [
+        'stay\'is IV'
+      ],
+      'lines' => [
+        ';; {isotayo>as_1',
+        '<sty>s  {isotayo>as     PV      despair;be hopeless',
+        'Asty>s  {isotayo>as     PV      despair;be hopeless',
+        'sty}s   sotayo}is       IV      despair;be hopeless'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IstaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"despair"'
+        ],
+        [
+          '"be hopeless"'
+        ]
+      ],
+      'glosshash' => {
+        '"be hopeless"' => 1,
+        '"despair"' => 1
+      },
+      'orig' => '{isotayoOas',
+      'prefix' => ''
+    },
     {
       'types' => {},
       'entry' => 'ya\'s',
@@ -891,6 +1728,92 @@ $lexicon = {
         '"despair"' => 1
       },
       'orig' => 'yaOos',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ya\'As',
+      'form' => 'ya\'AsaT',
+      'lines' => [
+        ';; ya|sap_1',
+        'y|s     ya|s    Nap     despair;hopelessness'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"despair"'
+        ],
+        [
+          '"hopelessness"'
+        ]
+      ],
+      'glosshash' => {
+        '"hopelessness"' => 1,
+        '"despair"' => 1
+      },
+      'orig' => 'ya|sap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ya\'uws',
+      'form' => 'ya\'uws',
+      'lines' => [
+        ';; ya&uws_1',
+        'y&ws    ya&uws  Nall    despairing;hopeless     [[ya&uws/ADJ]]',
+        'y}ws    ya}uws  Nall    despairing;hopeless'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCUL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"despairing"'
+        ],
+        [
+          '"hopeless [ [ ya&uws / ADJ ] ]"'
+        ],
+        [
+          '"hopeless"'
+        ]
+      ],
+      'glosshash' => {
+        '"hopeless [ [ ya&uws / ADJ ] ]"' => 1,
+        '"despairing"' => 1,
+        '"hopeless"' => 1
+      },
+      'orig' => 'yaWuws',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yA\'is',
+      'form' => 'yA\'is',
+      'lines' => [
+        ';; yA}is_1',
+        'yA}s    yA}is   Nall    hopeless;despairing     [[yA}is/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"hopeless"'
+        ],
+        [
+          '"despairing [ [ yA } is / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"despairing [ [ yA } is / ADJ ] ]"' => 1,
+        '"hopeless"' => 1
+      },
+      'orig' => 'yA}is',
       'prefix' => ''
     },
     {
@@ -924,41 +1847,43 @@ $lexicon = {
       },
       'orig' => 'mayoWuws',
       'prefix' => ''
-    }
-  ],
-  'y n ^s' => [
+    },
     {
       'types' => {},
-      'entry' => 'yuwnA^s',
-      'form' => 'yuwnA^s',
+      'entry' => 'mustay\'is',
+      'form' => 'mustay\'is',
       'lines' => [
-        ';; yuwnA$_1',
-        'ywnA$   yuwnA$  Nprop   Jonas'
+        ';; musotayo}is_1',
+        'msty}s  musotayo}is     Nall    hopeless;desperate'
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCAL',
+      'morphs' => 'MustaFCiL',
       'suffix' => '',
       'glosses' => [
         [
-          '"Jonas"'
+          '"hopeless"'
+        ],
+        [
+          '"desperate"'
         ]
       ],
       'glosshash' => {
-        '"Jonas"' => 1
+        '"desperate"' => 1,
+        '"hopeless"' => 1
       },
-      'orig' => 'yuwnA$',
+      'orig' => 'musotayo}is',
       'prefix' => ''
     }
   ],
-  'yuwrk' => [
+  'yif.giyniy' => [
     {
       'types' => {},
-      'entry' => 'yuwrk',
-      'form' => 'yuwrk',
+      'entry' => 'yif.giyniy',
+      'form' => 'yif.giyniy',
       'lines' => [
-        ';; yuwrk_1',
-        'ywrk    yuwrk   N0      York'
+        ';; yifogiyniy_1',
+        'yfgyny  yifogiyniy      Nprop   Yevgeni'
       ],
       'index' => '1',
       'entity' => 'noun',
@@ -966,13 +1891,69 @@ $lexicon = {
       'suffix' => '',
       'glosses' => [
         [
-          '"York"'
+          '"Yevgeni"'
         ]
       ],
       'glosshash' => {
-        '"York"' => 1
+        '"Yevgeni"' => 1
       },
-      'orig' => 'yuwrk',
+      'orig' => 'yifogiyniy',
+      'prefix' => ''
+    }
+  ],
+  'y s m n' => [
+    {
+      'types' => {},
+      'entry' => 'yasmiyn',
+      'form' => 'yasmiyn',
+      'lines' => [
+        ';; yasomiyn_1',
+        'ysmyn   yasomiyn        Nprop   Yasmin;Yasmeen;Jasmine'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDIS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yasmin"'
+        ],
+        [
+          '"Yasmeen"'
+        ],
+        [
+          '"Jasmine"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yasmin"' => 1,
+        '"Yasmeen"' => 1,
+        '"Jasmine"' => 1
+      },
+      'orig' => 'yasomiyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yasmiyn',
+      'form' => 'yasmiyn',
+      'lines' => [
+        ';; yasomiyn_2',
+        'ysmyn   yasomiyn        N       jasmine'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'KaRDIS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"jasmine"'
+        ]
+      ],
+      'glosshash' => {
+        '"jasmine"' => 1
+      },
+      'orig' => 'yasomiyn',
       'prefix' => ''
     }
   ],
@@ -1009,100 +1990,245 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'y y w' => [
+  'y z d' => [
     {
       'types' => {},
-      'entry' => 'yuw',
-      'form' => 'yuw',
+      'entry' => 'yaziyd',
+      'form' => 'yaziydiyy',
       'lines' => [
-        ';; yuw_1',
-        'yw      yuw     Nprop   Yo;Yu'
+        ';; yaziydiy~_1',
+        'yzydy   yaziydiy~       Nall    Yazidi     [[yaziydiy~/NOUN]]',
+        'yzydy   yaziydiy~       Nall    Yazidi     [[yaziydiy~/ADJ]]',
+        'yzydy   yaziydiy~       Nap     Yazidi     [[yaziydiy~/NOUN]]'
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'CuL',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"Yo"'
-        ],
-        [
-          '"Yu"'
-        ]
-      ],
-      'glosshash' => {
-        '"Yo"' => 1,
-        '"Yu"' => 1
-      },
-      'orig' => 'yuw',
-      'prefix' => ''
-    }
-  ],
-  'y d ' => [
-    {
-      'types' => {},
-      'entry' => 'yadY',
-      'form' => 'yadawiyy',
-      'lines' => [
-        ';; yadawiy~_1',
-        'ydwy    yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCaNY |< Iy',
+      'morphs' => 'FaCIL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         [
-          '"manual"'
+          '"Yazidi [ [ yaziydiy ~ / NOUN ] ]"'
         ],
         [
-          '"hand [ [ yadawiy ~ / ADJ ] ]"'
+          '"Yazidi [ [ yaziydiy ~ / ADJ ] ]"'
         ]
       ],
       'glosshash' => {
-        '"manual"' => 1,
-        '"hand [ [ yadawiy ~ / ADJ ] ]"' => 1
+        '"Yazidi [ [ yaziydiy ~ / NOUN ] ]"' => 1,
+        '"Yazidi [ [ yaziydiy ~ / ADJ ] ]"' => 1
       },
-      'orig' => 'yadawiy~',
+      'orig' => 'yaziydiy~',
+      'prefix' => ''
+    }
+  ],
+  'y w d' => [
+    {
+      'types' => {
+        'yuwd' => {
+          'N' => 1
+        },
+        'yawwid' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => 'yawwad',
+      'form' => 'yawwad',
+      'others' => [
+        'yuwd N',
+        'yawwid IV_yu'
+      ],
+      'lines' => [
+        ';; yaw~ad_1',
+        'ywd     yaw~ad  PV      iodize',
+        'ywd     yaw~id  IV_yu   iodize',
+        'ywd     yuwd    N       iodine'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"iodize"'
+        ],
+        [
+          '"iodine"'
+        ]
+      ],
+      'glosshash' => {
+        '"iodine"' => 1,
+        '"iodize"' => 1
+      },
+      'orig' => 'yaw~ad',
+      'prefix' => ''
+    }
+  ],
+  'y m m' => [
+    {
+      'types' => {
+        'yammim' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => 'yammam',
+      'form' => 'yammam',
+      'others' => [
+        'yammim IV_yu'
+      ],
+      'lines' => [
+        ';; yam~am_1',
+        'ymm     yam~am  PV      head for;turn to',
+        'ymm     yam~im  IV_yu   head for;turn to'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"head for"'
+        ],
+        [
+          '"turn to"'
+        ]
+      ],
+      'glosshash' => {
+        '"turn to"' => 1,
+        '"head for"' => 1
+      },
+      'orig' => 'yam~am',
       'prefix' => ''
     },
     {
-      'types' => $lexicon->{'y d '}[0]{'types'},
-      'entry' => 'yadY',
-      'form' => 'yadawiyy',
-      'lines' => $lexicon->{'y d '}[0]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCaNY |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => $lexicon->{'y d '}[0]{'glosses'},
-      'glosshash' => $lexicon->{'y d '}[0]{'glosshash'},
-      'orig' => 'yadawiy~',
-      'prefix' => ''
-    }
-  ],
-  'ywmbl.gAz' => [
-    {
       'types' => {},
-      'entry' => 'ywmbl.gAz',
-      'form' => 'ywmbl.gAz',
+      'entry' => 'tayammam',
+      'form' => 'tayammam',
       'lines' => [
-        ';; ywmblgAz_1',
-        'ywmblgAz        ywmblgAz        Nprop   Iompelgas ??'
+        ';; tayam~am_1',
+        'tymm    tayam~am        PV      turn to;head for;aim at',
+        'tymm    tayam~am        IV      turn to;head for;aim at'
       ],
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
       'suffix' => '',
       'glosses' => [
         [
-          '"Iompelgas ? ?"'
+          '"turn to"'
+        ],
+        [
+          '"head for"'
+        ],
+        [
+          '"aim at"'
         ]
       ],
       'glosshash' => {
-        '"Iompelgas ? ?"' => 1
+        '"aim at"' => 1,
+        '"turn to"' => 1,
+        '"head for"' => 1
       },
-      'orig' => 'ywmblgAz',
+      'orig' => 'tayam~am',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yumuwm',
+      'form' => 'yumuwm',
+      'lines' => [
+        ';; yumuwm_1',
+        'ymwm    yumuwm  N       open seas;side;part'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"open seas"'
+        ],
+        [
+          '"side"'
+        ],
+        [
+          '"part"'
+        ]
+      ],
+      'glosshash' => {
+        '"side"' => 1,
+        '"open seas"' => 1,
+        '"part"' => 1
+      },
+      'orig' => 'yumuwm',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yamA\'im' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'yamAm',
+      'form' => 'yamAm',
+      'others' => [
+        'yamA\'im Ndip'
+      ],
+      'lines' => [
+        ';; yamAm_1',
+        'ymAm    yamAm   N       pigeon;dove',
+        'ymAm    yamAm   NapAt   pigeon;dove',
+        'ymA}m   yamA}im Ndip    pigeons;doves'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"pigeon"'
+        ],
+        [
+          '"dove"'
+        ],
+        [
+          '"pigeons"'
+        ],
+        [
+          '"doves"'
+        ]
+      ],
+      'glosshash' => {
+        '"doves"' => 1,
+        '"pigeons"' => 1,
+        '"dove"' => 1,
+        '"pigeon"' => 1
+      },
+      'orig' => 'yamAm',
+      'prefix' => ''
+    }
+  ],
+  'y \' m' => [
+    {
+      'types' => {},
+      'entry' => 'yAm',
+      'form' => 'yAmiyy',
+      'lines' => [
+        ';; yAmiy~_1',
+        'yAmy    yAmiy~  N0      Yami'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"Yami"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yami"' => 1
+      },
+      'orig' => 'yAmiy~',
       'prefix' => ''
     }
   ],
@@ -1161,6 +2287,379 @@ $lexicon = {
   ],
   'y m n' => [
     {
+      'types' => {
+        'ymun' => {
+          'IV-n_intr' => 1
+        }
+      },
+      'entry' => 'yaman',
+      'form' => 'yaman',
+      'others' => [
+        'ymun IV-n_intr'
+      ],
+      'lines' => [
+        ';; yaman-u_1',
+        'ymn     yaman   PV-n_intr       be lucky;be fortunate',
+        'ymn     yomun   IV-n_intr       be lucky;be fortunate'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        [
+          '"be lucky"'
+        ],
+        [
+          '"be fortunate"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'glosshash' => {
+        '"be fortunate"' => 1,
+        '"be lucky"' => 1
+      },
+      'orig' => 'yaman-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yman' => {
+          'IV-n_intr' => 1
+        }
+      },
+      'entry' => 'yamin',
+      'form' => 'yamin',
+      'others' => [
+        'yman IV-n_intr'
+      ],
+      'lines' => [
+        ';; yamin-a_1',
+        'ymn     yamin   PV-n_intr       be lucky;be fortunate',
+        'ymn     yoman   IV-n_intr       be lucky;be fortunate'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        [
+          '"be lucky"'
+        ],
+        [
+          '"be fortunate"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'glosshash' => {
+        '"be fortunate"' => 1,
+        '"be lucky"' => 1
+      },
+      'orig' => 'yamin-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ymun' => {
+          'IV-n_intr' => 1
+        }
+      },
+      'entry' => 'yamun',
+      'form' => 'yamun',
+      'others' => [
+        'ymun IV-n_intr'
+      ],
+      'lines' => [
+        ';; yamun-u_1',
+        'ymn     yamun   PV-n_intr       be lucky;be fortunate',
+        'ymn     yomun   IV-n_intr       be lucky;be fortunate'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCuL',
+      'glosses' => [
+        [
+          '"be lucky"'
+        ],
+        [
+          '"be fortunate"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'glosshash' => {
+        '"be fortunate"' => 1,
+        '"be lucky"' => 1
+      },
+      'orig' => 'yamun-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yammin' => {
+          'IV-n_yu' => 1
+        }
+      },
+      'entry' => 'yamman',
+      'form' => 'yamman',
+      'others' => [
+        'yammin IV-n_yu'
+      ],
+      'lines' => [
+        ';; yam~an_1',
+        'ymn     yam~an  PV-n    go to the right',
+        'ymn     yam~in  IV-n_yu go to the right'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"go to the right"'
+        ]
+      ],
+      'glosshash' => {
+        '"go to the right"' => 1
+      },
+      'orig' => 'yam~an',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tayamman',
+      'form' => 'tayamman',
+      'lines' => [
+        ';; tayam~an_1',
+        'tymn    tayam~an        PV-n    see a good omen;regard as auspicious',
+        'tymn    tayam~an        IV-n    see a good omen;regard as auspicious'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"see a good omen"'
+        ],
+        [
+          '"regard as auspicious"'
+        ]
+      ],
+      'glosshash' => {
+        '"see a good omen"' => 1,
+        '"regard as auspicious"' => 1
+      },
+      'orig' => 'tayam~an',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'staymin' => {
+          'IV-n' => 1
+        }
+      },
+      'entry' => 'istayman',
+      'form' => 'istayman',
+      'others' => [
+        'staymin IV-n'
+      ],
+      'lines' => [
+        ';; {isotayoman_1',
+        '<stymn  {isotayoman     PV-n    see a good omen;regard as auspicious',
+        'Astymn  {isotayoman     PV-n    see a good omen;regard as auspicious',
+        'stymn   sotayomin       IV-n    see a good omen;regard as auspicious'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IstaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"see a good omen"'
+        ],
+        [
+          '"regard as auspicious"'
+        ]
+      ],
+      'glosshash' => {
+        '"see a good omen"' => 1,
+        '"regard as auspicious"' => 1
+      },
+      'orig' => '{isotayoman',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yumn',
+      'form' => 'yumn',
+      'lines' => [
+        ';; yumon_1',
+        'ymn     yumon   N       good fortune;success'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"good fortune"'
+        ],
+        [
+          '"success"'
+        ]
+      ],
+      'glosshash' => {
+        '"good fortune"' => 1,
+        '"success"' => 1
+      },
+      'orig' => 'yumon',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yamn' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'yaman',
+      'form' => 'yaman',
+      'others' => [
+        'yamn Nap'
+      ],
+      'lines' => [
+        ';; yaman_1',
+        'ymn     yaman   N       right side',
+        'ymn     yamon   Nap     right side'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"right side"'
+        ]
+      ],
+      'glosshash' => {
+        '"right side"' => 1
+      },
+      'orig' => 'yaman',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yaman' => {
+          'NF' => 1
+        }
+      },
+      'entry' => 'yaman',
+      'form' => 'yamanaN',
+      'others' => [
+        'yaman NF'
+      ],
+      'lines' => [
+        ';; yamanAF_1',
+        'ymn     yaman   NF      to the right     [[yaman/ADV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        [
+          '"to the right [ [ yaman / ADV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"to the right [ [ yaman / ADV ] ]"' => 1
+      },
+      'orig' => 'yamanAF',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yaman' => {
+          'NF' => 1
+        }
+      },
+      'entry' => 'yaman',
+      'form' => 'yamanaN',
+      'others' => [
+        'yaman NF'
+      ],
+      'lines' => [
+        ';; yamanAF_2',
+        'ymn     yaman   NF      to the south     [[yaman/ADV]]'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        [
+          '"to the south [ [ yaman / ADV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"to the south [ [ yaman / ADV ] ]"' => 1
+      },
+      'orig' => 'yamanAF',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yamn',
+      'form' => 'yamnaT',
+      'lines' => [
+        ';; yamonap_1',
+        'ymn     yamon   Nap     to the right'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"to the right"'
+        ]
+      ],
+      'glosshash' => {
+        '"to the right"' => 1
+      },
+      'orig' => 'yamonap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yamn',
+      'form' => 'yamnaT',
+      'lines' => [
+        ';; yamonap_2',
+        'ymn     yamon   Nap     to the south'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"to the south"'
+        ]
+      ],
+      'glosshash' => {
+        '"to the south"' => 1
+      },
+      'orig' => 'yamonap',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'yaman',
       'form' => 'yaman',
@@ -1216,6 +2715,34 @@ $lexicon = {
       'entry' => 'yamAn',
       'form' => 'yamAniyy',
       'lines' => [
+        ';; yamAniy~_1',
+        'ymAny   yamAniy~        Nall    Yemeni     [[yamAniy~/NOUN]]',
+        'ymAny   yamAniy~        Nall    Yemeni     [[yamAniy~/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"Yemeni [ [ yamAniy ~ / NOUN ] ]"'
+        ],
+        [
+          '"Yemeni [ [ yamAniy ~ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yemeni [ [ yamAniy ~ / ADJ ] ]"' => 1,
+        '"Yemeni [ [ yamAniy ~ / NOUN ] ]"' => 1
+      },
+      'orig' => 'yamAniy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yamAn',
+      'form' => 'yamAniyy',
+      'lines' => [
         ';; yamAniy~_2',
         'ymAny   yamAniy~        N0      Yamani'
       ],
@@ -1259,6 +2786,36 @@ $lexicon = {
         '"right side"' => 1
       },
       'orig' => 'yamiyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yamiyn' => {
+          'NF' => 1
+        }
+      },
+      'entry' => 'yamiyn',
+      'form' => 'yamiynaN',
+      'others' => [
+        'yamiyn NF'
+      ],
+      'lines' => [
+        ';; yamiynAF_1',
+        'ymyn    yamiyn  NF      to the right     [[yamiyn/ADV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        [
+          '"to the right [ [ yamiyn / ADV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"to the right [ [ yamiyn / ADV ] ]"' => 1
+      },
+      'orig' => 'yamiynAF',
       'prefix' => ''
     },
     {
@@ -1359,6 +2916,38 @@ $lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '\'ayman',
+      'form' => '\'ayman',
+      'lines' => [
+        ';; >ayoman_2',
+        '>ymn    >ayoman Nel     right;right hand;lucky     [[>ayoman/ADJ]]',
+        'Aymn    >ayoman Nel     right;right hand;lucky     [[>ayoman/ADJ]]'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"right"'
+        ],
+        [
+          '"right hand"'
+        ],
+        [
+          '"lucky [ [ >ayoman / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"right hand"' => 1,
+        '"lucky [ [ >ayoman / ADJ ] ]"' => 1,
+        '"right"' => 1
+      },
+      'orig' => 'Oayoman',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'yumnay' => {
           'NAt' => 1,
@@ -1421,6 +3010,103 @@ $lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => 'yumnY',
+      'form' => 'yumnY',
+      'lines' => [
+        ';; yumonaY_2',
+        'ymnY    yumonaY Nprop   Youmna;Yumna'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FuCLY',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Youmna"'
+        ],
+        [
+          '"Yumna"'
+        ]
+      ],
+      'glosshash' => {
+        '"Youmna"' => 1,
+        '"Yumna"' => 1
+      },
+      'orig' => 'yumonaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mayAmin' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'mayman',
+      'form' => 'maymanaT',
+      'others' => [
+        'mayAmin Ndip'
+      ],
+      'lines' => [
+        ';; mayomanap_1',
+        'mymn    mayoman Nap     right wing;right side',
+        'myAmn   mayAmin Ndip    right wings;right sides'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"right wing"'
+        ],
+        [
+          '"right side"'
+        ],
+        [
+          '"right wings"'
+        ],
+        [
+          '"right sides"'
+        ]
+      ],
+      'glosshash' => {
+        '"right side"' => 1,
+        '"right sides"' => 1,
+        '"right wings"' => 1,
+        '"right wing"' => 1
+      },
+      'orig' => 'mayomanap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tayammun',
+      'form' => 'tayammun',
+      'lines' => [
+        ';; tayam~un_1',
+        'tymn    tayam~un        N/At    good omen;auspiciousness'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFaCCuL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"good omen"'
+        ],
+        [
+          '"auspiciousness"'
+        ]
+      ],
+      'glosshash' => {
+        '"good omen"' => 1,
+        '"auspiciousness"' => 1
+      },
+      'orig' => 'tayam~un',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'mayAmiyn' => {
           'Ndip' => 1
@@ -1458,9 +3144,308 @@ $lexicon = {
       },
       'orig' => 'mayomuwn',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muyamman',
+      'form' => 'muyamman',
+      'lines' => [
+        ';; muyam~an_1',
+        'mymn    muyam~an        Nall    lucky;auspicious     [[muyam~an/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"lucky"'
+        ],
+        [
+          '"auspicious [ [ muyam ~ an / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"auspicious [ [ muyam ~ an / ADJ ] ]"' => 1,
+        '"lucky"' => 1
+      },
+      'orig' => 'muyam~an',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muyAmin',
+      'form' => 'muyAmin',
+      'lines' => [
+        ';; muyAmin_1',
+        'myAmn   muyAmin Nall    rightist;standing on the right side'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFACiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"rightist"'
+        ],
+        [
+          '"standing on the right side"'
+        ]
+      ],
+      'glosshash' => {
+        '"rightist"' => 1,
+        '"standing on the right side"' => 1
+      },
+      'orig' => 'muyAmin',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yAmuwn',
+      'form' => 'yAmuwn',
+      'lines' => [
+        ';; yAmuwn_1',
+        'yAmwn   yAmuwn  N0      Yamoun'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACUL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yamoun"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yamoun"' => 1
+      },
+      'orig' => 'yAmuwn',
+      'prefix' => ''
     }
   ],
   'y f `' => [
+    {
+      'types' => {
+        'yfa`' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'yafa`',
+      'form' => 'yafa`',
+      'others' => [
+        'yfa` IV'
+      ],
+      'lines' => [
+        ';; yafaE-a_1',
+        'yfE     yafaE   PV      reach adolescence',
+        'yfE     yofaE   IV      reach adolescence'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        [
+          '"reach adolescence"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'glosshash' => {
+        '"reach adolescence"' => 1
+      },
+      'orig' => 'yafaE-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'wfi`' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'ayfa`',
+      'form' => '\'ayfa`',
+      'others' => [
+        'wfi` IV_yu'
+      ],
+      'lines' => [
+        ';; >ayofaE_1',
+        '>yfE    >ayofaE PV      reach adolescence',
+        'AyfE    >ayofaE PV      reach adolescence',
+        'wfE     wfiE    IV_yu   reach adolescence'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"reach adolescence"'
+        ]
+      ],
+      'glosshash' => {
+        '"reach adolescence"' => 1
+      },
+      'orig' => 'OayofaE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tayaffa`',
+      'form' => 'tayaffa`',
+      'lines' => [
+        ';; tayaf~aE_1',
+        'tyfE    tayaf~aE        PV      reach adolescence',
+        'tyfE    tayaf~aE        IV      reach adolescence'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"reach adolescence"'
+        ]
+      ],
+      'glosshash' => {
+        '"reach adolescence"' => 1
+      },
+      'orig' => 'tayaf~aE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yaf`',
+      'form' => 'yaf`',
+      'lines' => [
+        ';; yafoE_1',
+        'yfE     yafoE   N       adolescence;puberty'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"adolescence"'
+        ],
+        [
+          '"puberty"'
+        ]
+      ],
+      'glosshash' => {
+        '"puberty"' => 1,
+        '"adolescence"' => 1
+      },
+      'orig' => 'yafoE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yafa`',
+      'form' => 'yafa`',
+      'lines' => [
+        ';; yafaE_1',
+        'yfE     yafaE   Ndu     hill'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"hill"'
+        ]
+      ],
+      'glosshash' => {
+        '"hill"' => 1
+      },
+      'orig' => 'yafaE',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'ayfA`' => {
+          'N' => 2
+        }
+      },
+      'entry' => 'yafa`',
+      'form' => 'yafa`',
+      'others' => [
+        '\'ayfA` N'
+      ],
+      'lines' => [
+        ';; yafaE_2',
+        'yfE     yafaE   Ndu     adolescent',
+        '>yfAE   >ayofAE N       adolescents',
+        'AyfAE   >ayofAE N       adolescents'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"adolescent"'
+        ],
+        [
+          '"adolescents"'
+        ]
+      ],
+      'glosshash' => {
+        '"adolescents"' => 1,
+        '"adolescent"' => 1
+      },
+      'orig' => 'yafaE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yafA`',
+      'form' => 'yafA`',
+      'lines' => [
+        ';; yafAE_1',
+        'yfAE    yafAE   N       hill'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"hill"'
+        ]
+      ],
+      'glosshash' => {
+        '"hill"' => 1
+      },
+      'orig' => 'yafAE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yAfi`',
+      'form' => 'yAfi`',
+      'lines' => [
+        ';; yAfiE_1',
+        'yAfE    yAfiE   Nprop   Yafie'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yafie"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yafie"' => 1
+      },
+      'orig' => 'yAfiE',
+      'prefix' => ''
+    },
     {
       'types' => {},
       'entry' => 'yAfi`',
@@ -1517,6 +3502,117 @@ $lexicon = {
   'y q .z' => [
     {
       'types' => {
+        'yqa.z' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'yaqi.z',
+      'form' => 'yaqi.z',
+      'others' => [
+        'yqa.z IV_intr'
+      ],
+      'lines' => [
+        ';; yaqiZ-a_1',
+        'yqZ     yaqiZ   PV_intr be awake;be alert',
+        'yqZ     yoqaZ   IV_intr be awake;be alert'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        [
+          '"be awake"'
+        ],
+        [
+          '"be alert"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'glosshash' => {
+        '"be awake"' => 1,
+        '"be alert"' => 1
+      },
+      'orig' => 'yaqiZ-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yqu.z' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'yaqu.z',
+      'form' => 'yaqu.z',
+      'others' => [
+        'yqu.z IV_intr'
+      ],
+      'lines' => [
+        ';; yaquZ-u_1',
+        'yqZ     yaquZ   PV_intr be awake;be alert',
+        'yqZ     yoquZ   IV_intr be awake;be alert'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCuL',
+      'glosses' => [
+        [
+          '"be awake"'
+        ],
+        [
+          '"be alert"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'glosshash' => {
+        '"be awake"' => 1,
+        '"be alert"' => 1
+      },
+      'orig' => 'yaquZ-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yaqqi.z' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => 'yaqqa.z',
+      'form' => 'yaqqa.z',
+      'others' => [
+        'yaqqi.z IV_yu'
+      ],
+      'lines' => [
+        ';; yaq~aZ_1',
+        'yqZ     yaq~aZ  PV      awaken;warn',
+        'yqZ     yaq~iZ  IV_yu   awaken;warn'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"awaken"'
+        ],
+        [
+          '"warn"'
+        ]
+      ],
+      'glosshash' => {
+        '"awaken"' => 1,
+        '"warn"' => 1
+      },
+      'orig' => 'yaq~aZ',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'wqa.z' => {
           'IV_Pass_yu' => 1
         },
@@ -1566,6 +3662,239 @@ $lexicon = {
     },
     {
       'types' => {},
+      'entry' => 'tayaqqa.z',
+      'form' => 'tayaqqa.z',
+      'lines' => [
+        ';; tayaq~aZ_1',
+        'tyqZ    tayaq~aZ        PV_intr be awake;be alert',
+        'tyqZ    tayaq~aZ        IV_intr be awake;be alert'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"be awake"'
+        ],
+        [
+          '"be alert"'
+        ]
+      ],
+      'glosshash' => {
+        '"be awake"' => 1,
+        '"be alert"' => 1
+      },
+      'orig' => 'tayaq~aZ',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'stayqi.z' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'istayqa.z',
+      'form' => 'istayqa.z',
+      'others' => [
+        'stayqi.z IV'
+      ],
+      'lines' => [
+        ';; {isotayoqaZ_1',
+        '<styqZ  {isotayoqaZ     PV      wake up;be roused;be alert',
+        'AstyqZ  {isotayoqaZ     PV      wake up;be roused;be alert',
+        'styqZ   sotayoqiZ       IV      wake up;be roused;be alert'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IstaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"wake up"'
+        ],
+        [
+          '"be roused"'
+        ],
+        [
+          '"be alert"'
+        ]
+      ],
+      'glosshash' => {
+        '"be alert"' => 1,
+        '"be roused"' => 1,
+        '"wake up"' => 1
+      },
+      'orig' => '{isotayoqaZ',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'ayqA.z' => {
+          'N' => 2
+        },
+        'yaqu.z' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'yaqi.z',
+      'form' => 'yaqi.z',
+      'others' => [
+        '\'ayqA.z N',
+        'yaqu.z N-ap'
+      ],
+      'lines' => [
+        ';; yaqiZ_1',
+        'yqZ     yaqiZ   N-ap    awake;alert;vigilant     [[yaqiZ/ADJ]]',
+        'yqZ     yaquZ   N-ap    awake;alert;vigilant',
+        '>yqAZ   >ayoqAZ N       awake;alert;vigilant',
+        'AyqAZ   >ayoqAZ N       awake;alert;vigilant'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"awake"'
+        ],
+        [
+          '"alert"'
+        ],
+        [
+          '"vigilant [ [ yaqiZ / ADJ ] ]"'
+        ],
+        [
+          '"vigilant"'
+        ]
+      ],
+      'glosshash' => {
+        '"vigilant [ [ yaqiZ / ADJ ] ]"' => 1,
+        '"alert"' => 1,
+        '"awake"' => 1,
+        '"vigilant"' => 1
+      },
+      'orig' => 'yaqiZ',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yaqa.z' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'yaq.z',
+      'form' => 'yaq.zaT',
+      'others' => [
+        'yaqa.z Nap'
+      ],
+      'lines' => [
+        ';; yaqoZap_1',
+        'yqZ     yaqoZ   Nap     alertness;wakefulness',
+        'yqZ     yaqaZ   Nap     alertness;wakefulness'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"alertness"'
+        ],
+        [
+          '"wakefulness"'
+        ]
+      ],
+      'glosshash' => {
+        '"wakefulness"' => 1,
+        '"alertness"' => 1
+      },
+      'orig' => 'yaqoZap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yaq.z',
+      'form' => 'yaq.zaT',
+      'lines' => [
+        ';; yaqoZap_2',
+        'yqZp    yaqoZap N0      Yaqza'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"Yaqza"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yaqza"' => 1
+      },
+      'orig' => 'yaqoZap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yaqA.zA' => {
+          'Nhy' => 1
+        },
+        'yaq.zA' => {
+          'Nhy' => 1
+        },
+        'yaq.zY' => {
+          'N0' => 1
+        },
+        'yaqA.zY' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'yaq.zAn',
+      'form' => 'yaq.zAn',
+      'others' => [
+        'yaqA.zA Nhy',
+        'yaq.zA Nhy',
+        'yaq.zY N0',
+        'yaqA.zY N0'
+      ],
+      'lines' => [
+        ';; yaqoZAn_1',
+        'yqZAn   yaqoZAn Ndip    awake;alert;vigilant     [[yaqoZAn/ADJ]]',
+        'yqZY    yaqoZY  N0      awake;alert;vigilant',
+        'yqZA    yaqoZA  Nhy     awake;alert;vigilant',
+        'yqAZY   yaqAZY  N0      awake;alert;vigilant',
+        'yqAZA   yaqAZA  Nhy     awake;alert;vigilant'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLAn',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"awake"'
+        ],
+        [
+          '"alert"'
+        ],
+        [
+          '"vigilant [ [ yaqoZAn / ADJ ] ]"'
+        ],
+        [
+          '"vigilant"'
+        ]
+      ],
+      'glosshash' => {
+        '"vigilant [ [ yaqoZAn / ADJ ] ]"' => 1,
+        '"alert"' => 1,
+        '"awake"' => 1,
+        '"vigilant"' => 1
+      },
+      'orig' => 'yaqoZAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => '\'iyqA.z',
       'form' => '\'iyqA.z',
       'lines' => [
@@ -1590,6 +3919,115 @@ $lexicon = {
         '"reveille"' => 1
       },
       'orig' => 'IiyqAZ',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tayaqqu.z',
+      'form' => 'tayaqqu.z',
+      'lines' => [
+        ';; tayaq~uZ_1',
+        'tyqZ    tayaq~uZ        N/At    awakening;alertness;vigilance'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFaCCuL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"awakening"'
+        ],
+        [
+          '"alertness"'
+        ],
+        [
+          '"vigilance"'
+        ]
+      ],
+      'glosshash' => {
+        '"alertness"' => 1,
+        '"vigilance"' => 1,
+        '"awakening"' => 1
+      },
+      'orig' => 'tayaq~uZ',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'istiyqA.z',
+      'form' => 'istiyqA.z',
+      'lines' => [
+        ';; {isotiyqAZ_1',
+        '<styqAZ {isotiyqAZ      NduAt   awakening;arousal',
+        'AstyqAZ {isotiyqAZ      NduAt   awakening;arousal'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IstiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"awakening"'
+        ],
+        [
+          '"arousal"'
+        ]
+      ],
+      'glosshash' => {
+        '"arousal"' => 1,
+        '"awakening"' => 1
+      },
+      'orig' => '{isotiyqAZ',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mutayaqqi.z',
+      'form' => 'mutayaqqi.z',
+      'lines' => [
+        ';; mutayaq~iZ_1',
+        'mtyqZ   mutayaq~iZ      Nall    awake;alert     [[mutayaq~iZ/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MutaFaCCiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"awake"'
+        ],
+        [
+          '"alert [ [ mutayaq ~ iZ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"awake"' => 1,
+        '"alert [ [ mutayaq ~ iZ / ADJ ] ]"' => 1
+      },
+      'orig' => 'mutayaq~iZ',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mustayqi.z',
+      'form' => 'mustayqi.z',
+      'lines' => [
+        ';; musotayoqiZ_1',
+        'mstyqZ  musotayoqiZ     Nall    awake     [[musotayoqiZ/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MustaFCiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"awake [ [ musotayoqiZ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"awake [ [ musotayoqiZ / ADJ ] ]"' => 1
+      },
+      'orig' => 'musotayoqiZ',
       'prefix' => ''
     }
   ],
@@ -1623,6 +4061,51 @@ $lexicon = {
         '"Jonah"' => 1
       },
       'orig' => 'yuwnis',
+      'prefix' => ''
+    }
+  ],
+  'y f _h' => [
+    {
+      'types' => {
+        'yawAfiy_h' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'yAfuw_h',
+      'form' => 'yAfuw_h',
+      'others' => [
+        'yawAfiy_h Ndip'
+      ],
+      'lines' => [
+        ';; yAfuwx_1',
+        'yAfwx   yAfuwx  Ndu     vertex;crown of the head',
+        'ywAfyx  yawAfiyx        Ndip    vertexes;crowns of heads'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACUL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"vertex"'
+        ],
+        [
+          '"crown of the head"'
+        ],
+        [
+          '"vertexes"'
+        ],
+        [
+          '"crowns of heads"'
+        ]
+      ],
+      'glosshash' => {
+        '"crowns of heads"' => 1,
+        '"vertex"' => 1,
+        '"vertexes"' => 1,
+        '"crown of the head"' => 1
+      },
+      'orig' => 'yAfuwx',
       'prefix' => ''
     }
   ],
@@ -1682,68 +4165,247 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'y w n ^s' => [
-    {
-      'types' => $lexicon->{'y n ^s'}[0]{'types'},
-      'entry' => 'yuwnA^s',
-      'form' => 'yuwnA^s',
-      'lines' => $lexicon->{'y n ^s'}[0]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDAS',
-      'suffix' => '',
-      'glosses' => $lexicon->{'y n ^s'}[0]{'glosses'},
-      'glosshash' => $lexicon->{'y n ^s'}[0]{'glosshash'},
-      'orig' => 'yuwnA$',
-      'prefix' => ''
-    }
-  ],
-  'yuwniysif' => [
+  'y b s' => [
     {
       'types' => {
-        'yuwnisiyf' => {
-          'N0' => 1
-        },
-        'yuwniysiyf' => {
-          'N0' => 1
+        'ybas' => {
+          'IV_intr' => 1
         }
       },
-      'entry' => 'yuwniysif',
-      'form' => 'yuwniysif',
+      'entry' => 'yabis',
+      'form' => 'yabis',
       'others' => [
-        'yuwnisiyf N0',
-        'yuwniysiyf N0'
+        'ybas IV_intr'
       ],
       'lines' => [
-        ';; yuwniysif_1',
-        'ywnysf  yuwniysif       N0      UNICEF',
-        'ywnysyf yuwniysiyf      N0      UNICEF',
-        'ywnsyf  yuwnisiyf       N0      UNICEF'
+        ';; yabis-a_1',
+        'ybs     yabis   PV_intr become dry',
+        'ybs     yobas   IV_intr become dry'
       ],
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        [
+          '"become dry"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'glosshash' => {
+        '"become dry"' => 1
+      },
+      'orig' => 'yabis-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yabbis' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => 'yabbas',
+      'form' => 'yabbas',
+      'others' => [
+        'yabbis IV_yu'
+      ],
+      'lines' => [
+        ';; yab~as_1',
+        'ybs     yab~as  PV      make dry;desiccate',
+        'ybs     yab~is  IV_yu   make dry;desiccate'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
       'suffix' => '',
       'glosses' => [
         [
-          '"UNICEF"'
+          '"make dry"'
+        ],
+        [
+          '"desiccate"'
         ]
       ],
       'glosshash' => {
-        '"UNICEF"' => 1
+        '"make dry"' => 1,
+        '"desiccate"' => 1
       },
-      'orig' => 'yuwniysif',
+      'orig' => 'yab~as',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'wbas' => {
+          'IV_Pass_yu' => 1
+        },
+        'wbis' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'aybas',
+      'form' => '\'aybas',
+      'others' => [
+        'wbas IV_Pass_yu',
+        'wbis IV_yu'
+      ],
+      'lines' => [
+        ';; >ayobas_1',
+        '>ybs    >ayobas PV      make dry;desiccate',
+        'Aybs    >ayobas PV      make dry;desiccate',
+        'wbs     wbis    IV_yu   make dry;desiccate',
+        'wbs     wbas    IV_Pass_yu      be dried;be desiccated'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"make dry"'
+        ],
+        [
+          '"desiccate"'
+        ],
+        [
+          '"be dried"'
+        ],
+        [
+          '"be desiccated"'
+        ]
+      ],
+      'glosshash' => {
+        '"be desiccated"' => 1,
+        '"make dry"' => 1,
+        '"be dried"' => 1,
+        '"desiccate"' => 1
+      },
+      'orig' => 'Oayobas',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yabas' => {
+          'N' => 1
+        },
+        'yubs' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'yabs',
+      'form' => 'yabs',
+      'others' => [
+        'yabas N',
+        'yubs N'
+      ],
+      'lines' => [
+        ';; yabos_1',
+        'ybs     yabos   N       dryness',
+        'ybs     yubos   N       dryness',
+        'ybs     yabas   N       dryness'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"dryness"'
+        ]
+      ],
+      'glosshash' => {
+        '"dryness"' => 1
+      },
+      'orig' => 'yabos',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yabis',
+      'form' => 'yabis',
+      'lines' => [
+        ';; yabis_1',
+        'ybs     yabis   N-ap    dried out;desiccated     [[yabis/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"dried out"'
+        ],
+        [
+          '"desiccated [ [ yabis / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"dried out"' => 1,
+        '"desiccated [ [ yabis / ADJ ] ]"' => 1
+      },
+      'orig' => 'yabis',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yubuws',
+      'form' => 'yubuwsaT',
+      'lines' => [
+        ';; yubuwsap_1',
+        'ybws    yubuws  Nap     dryness'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"dryness"'
+        ]
+      ],
+      'glosshash' => {
+        '"dryness"' => 1
+      },
+      'orig' => 'yubuwsap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yAbis',
+      'form' => 'yAbis',
+      'lines' => [
+        ';; yAbis_1',
+        'yAbs    yAbis   Nall    dried out;desiccated     [[yAbis/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"dried out"'
+        ],
+        [
+          '"desiccated [ [ yAbis / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"dried out"' => 1,
+        '"desiccated [ [ yAbis / ADJ ] ]"' => 1
+      },
+      'orig' => 'yAbis',
       'prefix' => ''
     }
   ],
-  'yuwnAytid' => [
+  'yArkAs' => [
     {
       'types' => {},
-      'entry' => 'yuwnAytid',
-      'form' => 'yuwnAytid',
+      'entry' => 'yArkAs',
+      'form' => 'yArkAs',
       'lines' => [
-        ';; yuwnAyotid_1',
-        'ywnAytd yuwnAyotid      Nprop   United'
+        ';; yArokAs_1',
+        'yArkAs  yArokAs N0      Yarkas'
       ],
       'index' => '1',
       'entity' => 'noun',
@@ -1751,13 +4413,13 @@ $lexicon = {
       'suffix' => '',
       'glosses' => [
         [
-          '"United"'
+          '"Yarkas"'
         ]
       ],
       'glosshash' => {
-        '"United"' => 1
+        '"Yarkas"' => 1
       },
-      'orig' => 'yuwnAyotid',
+      'orig' => 'yArokAs',
       'prefix' => ''
     }
   ],
@@ -1786,6 +4448,60 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'y b b' => [
+    {
+      'types' => {},
+      'entry' => 'yabAb',
+      'form' => 'yabAb',
+      'lines' => [
+        ';; yabAb_1',
+        'ybAb    yabAb   N       devastated;waste'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"devastated"'
+        ],
+        [
+          '"waste"'
+        ]
+      ],
+      'glosshash' => {
+        '"waste"' => 1,
+        '"devastated"' => 1
+      },
+      'orig' => 'yabAb',
+      'prefix' => ''
+    }
+  ],
+  'y _t r b' => [
+    {
+      'types' => {},
+      'entry' => 'ya_trib',
+      'form' => 'ya_trib',
+      'lines' => [
+        ';; yavorib_1',
+        'yvrb    yavorib Nprop   Yathrib'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDiS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yathrib"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yathrib"' => 1
+      },
+      'orig' => 'yavorib',
+      'prefix' => ''
+    }
+  ],
   'yAmiy^s' => [
     {
       'types' => {},
@@ -1811,22 +4527,39 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'yuwn.g' => [
+  'y .h b r' => [
     {
-      'types' => {
-        'yuwn^g' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'yuwn.g',
-      'form' => 'yuwn.g',
-      'others' => [
-        'yuwn^g Nprop'
-      ],
+      'types' => {},
+      'entry' => 'ya.hbuwr',
+      'form' => 'ya.hbuwr',
       'lines' => [
-        ';; yuwnog_1',
-        'ywng    yuwnog  Nprop   Jong;Jung;Yung',
-        'ywnj    yuwnoj  Nprop   Jong;Jung;Yung'
+        ';; yaHobuwr_1',
+        'yHbwr   yaHobuwr        N       bustard chick'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDUS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"bustard chick"'
+        ]
+      ],
+      'glosshash' => {
+        '"bustard chick"' => 1
+      },
+      'orig' => 'yaHobuwr',
+      'prefix' => ''
+    }
+  ],
+  'yu.hannA' => [
+    {
+      'types' => {},
+      'entry' => 'yu.hannA',
+      'form' => 'yu.hannA',
+      'lines' => [
+        ';; yuHan~A_1',
+        'yHnA    yuHan~A N0      Yuhanna;John'
       ],
       'index' => '1',
       'entity' => 'noun',
@@ -1834,21 +4567,75 @@ $lexicon = {
       'suffix' => '',
       'glosses' => [
         [
-          '"Jong"'
+          '"Yuhanna"'
         ],
         [
-          '"Jung"'
-        ],
-        [
-          '"Yung"'
+          '"John"'
         ]
       ],
       'glosshash' => {
-        '"Jong"' => 1,
-        '"Jung"' => 1,
-        '"Yung"' => 1
+        '"Yuhanna"' => 1,
+        '"John"' => 1
       },
-      'orig' => 'yuwnog',
+      'orig' => 'yuHan~A',
+      'prefix' => ''
+    }
+  ],
+  'yAwiriyy' => [
+    {
+      'types' => {},
+      'entry' => 'yAwiriyy',
+      'form' => 'yAwiriyyaT',
+      'lines' => [
+        ';; yAwiriy~ap_1',
+        'yAwry   yAwiriy~        Nap     adjutants;aides-de-camp     [[yAwiriy~/NOUN]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"adjutants"'
+        ],
+        [
+          '"aides-de-camp [ [ yAwiriy ~ / NOUN ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"adjutants"' => 1,
+        '"aides-de-camp [ [ yAwiriy ~ / NOUN ] ]"' => 1
+      },
+      'orig' => 'yAwiriy~ap',
+      'prefix' => ''
+    }
+  ],
+  'y .h r' => [
+    {
+      'types' => {},
+      'entry' => 'miy.hAr',
+      'form' => 'miy.hAr',
+      'lines' => [
+        ';; miyHAr_1',
+        'myHAr   miyHAr  Ndu     scepter;mallet'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"scepter"'
+        ],
+        [
+          '"mallet"'
+        ]
+      ],
+      'glosshash' => {
+        '"mallet"' => 1,
+        '"scepter"' => 1
+      },
+      'orig' => 'miyHAr',
       'prefix' => ''
     }
   ],
@@ -1959,50 +4746,38 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'yuw.guwslAfiyA' => [
+  'y w m' => [
     {
       'types' => {
-        'yuw^guslAfiyA' => {
-          'N0' => 1
-        },
-        'yuw.guslAfiyA' => {
-          'N0' => 1
-        },
-        'yuw^guwslAfiyA' => {
-          'N0' => 1
+        'yAwim' => {
+          'IV_yu' => 1
         }
       },
-      'entry' => 'yuw.guwslAfiyA',
-      'form' => 'yuw.guwslAfiyA',
+      'entry' => 'yAwam',
+      'form' => 'yAwam',
       'others' => [
-        'yuw^guslAfiyA N0',
-        'yuw.guslAfiyA N0',
-        'yuw^guwslAfiyA N0'
+        'yAwim IV_yu'
       ],
       'lines' => [
-        ';; yuwguwsolAfiyA_1',
-        'ywgwslAfyA      yuwguwsolAfiyA  N0      Yugoslavia',
-        'ywjwslAfyA      yuwjuwsolAfiyA  N0      Yugoslavia',
-        'ywgslAfyA       yuwgusolAfiyA   N0      Yugoslavia',
-        'ywjslAfyA       yuwjusolAfiyA   N0      Yugoslavia'
+        ';; yAwam_1',
+        'yAwm    yAwam   PV      hire (as a day laborer)',
+        'yAwm    yAwim   IV_yu   hire (as a day laborer)'
       ],
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
+      'entity' => 'verb',
+      'morphs' => 'FACaL',
       'suffix' => '',
       'glosses' => [
         [
-          '"Yugoslavia"'
+          '"hire ( as a day laborer )"'
         ]
       ],
       'glosshash' => {
-        '"Yugoslavia"' => 1
+        '"hire ( as a day laborer )"' => 1
       },
-      'orig' => 'yuwguwsolAfiyA',
+      'orig' => 'yAwam',
       'prefix' => ''
-    }
-  ],
-  'y w m' => [
+    },
     {
       'types' => {
         '\'ayyAm' => {
@@ -2070,6 +4845,59 @@ $lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        'Alyawma' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'yawm',
+      'form' => 'yawm',
+      'others' => [
+        'Alyawma FW-Wa'
+      ],
+      'lines' => [
+        ';; yawom_3',
+        'Alywm   Aloyawoma       FW-Wa   today       [[Aloyawoma/ADV]]'
+      ],
+      'index' => '3',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"today [ [ Aloyawoma / ADV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"today [ [ Aloyawoma / ADV ] ]"' => 1
+      },
+      'orig' => 'yawom',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yawm',
+      'form' => 'yawm',
+      'lines' => [
+        ';; yawom_4',
+        'ywm     yawom   N0      Youm'
+      ],
+      'index' => '4',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Youm"'
+        ]
+      ],
+      'glosshash' => {
+        '"Youm"' => 1
+      },
+      'orig' => 'yawom',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'yawm',
       'form' => 'yawmiyy',
@@ -2104,30 +4932,137 @@ $lexicon = {
       },
       'orig' => 'yawomiy~',
       'prefix' => ''
-    }
-  ],
-  'y y ' => [
+    },
     {
-      'types' => {},
-      'entry' => 'yiy',
-      'form' => 'yiy',
+      'types' => {
+        'yawmiyy' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'yawm',
+      'form' => 'yawmiyyAt',
+      'others' => [
+        'yawmiyy NAt'
+      ],
       'lines' => [
-        ';; yiy_1',
-        'yy      yiy     Nprop   Yi'
+        ';; yawomiy~At_1',
+        'ywmy    yawomiy~        NAt     diary;memoirs     [[yawomiy~/NOUN]]'
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'CI',
-      'suffix' => '',
+      'morphs' => 'FaCL |< Iy |< At',
+      'suffix' => ' |< Iy |< At',
       'glosses' => [
         [
-          '"Yi"'
+          '"diary"'
+        ],
+        [
+          '"memoirs [ [ yawomiy ~ / NOUN ] ]"'
         ]
       ],
       'glosshash' => {
-        '"Yi"' => 1
+        '"memoirs [ [ yawomiy ~ / NOUN ] ]"' => 1,
+        '"diary"' => 1
       },
-      'orig' => 'yiy',
+      'orig' => 'yawomiy~At',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muyAwam',
+      'form' => 'muyAwamaT',
+      'lines' => [
+        ';; muyAwamap_1',
+        'myAwm   muyAwam NapAt   day labor'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFACaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"day labor"'
+        ]
+      ],
+      'glosshash' => {
+        '"day labor"' => 1
+      },
+      'orig' => 'muyAwamap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muyAwam',
+      'form' => 'muyAwamaTaN',
+      'lines' => [
+        ';; muyAwamapF_1',
+        'myAwmp  muyAwamapF      FW-Wa   daily;per diem    [[muyAwamapF/ADV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFACaL |< aT |< aN',
+      'suffix' => ' |< aT |< aN',
+      'glosses' => [
+        [
+          '"daily"'
+        ],
+        [
+          '"per diem [ [ muyAwamapF / ADV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"daily"' => 1,
+        '"per diem [ [ muyAwamapF / ADV ] ]"' => 1
+      },
+      'orig' => 'muyAwamapF',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muyAwam',
+      'form' => 'muyAwam',
+      'lines' => [
+        ';; muyAwam_1',
+        'myAwm   muyAwam Nall    day laborer'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFACaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"day laborer"'
+        ]
+      ],
+      'glosshash' => {
+        '"day laborer"' => 1
+      },
+      'orig' => 'muyAwam',
+      'prefix' => ''
+    }
+  ],
+  'yuwfintuws' => [
+    {
+      'types' => {},
+      'entry' => 'yuwfintuws',
+      'form' => 'yuwfintuws',
+      'lines' => [
+        ';; yuwfinotuws_1',
+        'ywfntws yuwfinotuws     Nprop   Juventus'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Juventus"'
+        ]
+      ],
+      'glosshash' => {
+        '"Juventus"' => 1
+      },
+      'orig' => 'yuwfinotuws',
       'prefix' => ''
     }
   ],
@@ -2164,6 +5099,31 @@ $lexicon = {
       'prefix' => ''
     }
   ],
+  'yawma\'i_diN' => [
+    {
+      'types' => {},
+      'entry' => 'yawma\'i_diN',
+      'form' => 'yawma\'i_diN',
+      'lines' => [
+        ';; yawoma}i*K_1',
+        'ywm}*   yawoma}i*K      FW-Wa   on that day     [[yawoma}i*K/ADV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"on that day [ [ yawoma } i*K / ADV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"on that day [ [ yawoma } i*K / ADV ] ]"' => 1
+      },
+      'orig' => 'yawoma}i*K',
+      'prefix' => ''
+    }
+  ],
   'y w r n' => [
     {
       'types' => {},
@@ -2186,43 +5146,6 @@ $lexicon = {
         '"Uhrin"' => 1
       },
       'orig' => 'yuwriyn',
-      'prefix' => ''
-    }
-  ],
-  'y _h t' => [
-    {
-      'types' => {
-        'yu_huwt' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'ya_ht',
-      'form' => 'ya_ht',
-      'others' => [
-        'yu_huwt N'
-      ],
-      'lines' => [
-        ';; yaxot_1',
-        'yxt     yaxot   Ndu     yacht',
-        'yxwt    yuxuwt  N       yachts'
-      ],
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        [
-          '"yacht"'
-        ],
-        [
-          '"yachts"'
-        ]
-      ],
-      'glosshash' => {
-        '"yacht"' => 1,
-        '"yachts"' => 1
-      },
-      'orig' => 'yaxot',
       'prefix' => ''
     }
   ],
@@ -2275,6 +5198,2218 @@ $lexicon = {
         '"John"' => 1
       },
       'orig' => 'yaHoyaY',
+      'prefix' => ''
+    }
+  ],
+  'y y n' => [
+    {
+      'types' => {},
+      'entry' => 'yin',
+      'form' => 'yin',
+      'lines' => [
+        ';; yin_1',
+        'yn      yin     N       Yen'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'CiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yen"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yen"' => 1
+      },
+      'orig' => 'yin',
+      'prefix' => ''
+    }
+  ],
+  'y s n' => [
+    {
+      'types' => {},
+      'entry' => 'maysuwn',
+      'form' => 'maysuwn',
+      'lines' => [
+        ';; mayosuwn_1',
+        'myswn   mayosuwn        Nprop   Maysoun;Maisoun'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCUL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Maysoun"'
+        ],
+        [
+          '"Maisoun"'
+        ]
+      ],
+      'glosshash' => {
+        '"Maisoun"' => 1,
+        '"Maysoun"' => 1
+      },
+      'orig' => 'mayosuwn',
+      'prefix' => ''
+    }
+  ],
+  'y t m' => [
+    {
+      'types' => {},
+      'entry' => 'yAtuwm',
+      'form' => 'yAtuwm',
+      'lines' => [
+        ';; yAtuwm_1',
+        'yAtwm   yAtuwm  Nprop   Yatom'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACUL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yatom"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yatom"' => 1
+      },
+      'orig' => 'yAtuwm',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ytim' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'yatam',
+      'form' => 'yatam',
+      'others' => [
+        'ytim IV_intr'
+      ],
+      'lines' => [
+        ';; yatam-i_1',
+        'ytm     yatam   PV_intr be orphaned',
+        'ytm     yotim   IV_intr be orphaned'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        [
+          '"be orphaned"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'glosshash' => {
+        '"be orphaned"' => 1
+      },
+      'orig' => 'yatam-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ytum' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'yatum',
+      'form' => 'yatum',
+      'others' => [
+        'ytum IV_intr'
+      ],
+      'lines' => [
+        ';; yatum-u_1',
+        'ytm     yatum   PV_intr be orphaned',
+        'ytm     yotum   IV_intr be orphaned'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCuL',
+      'glosses' => [
+        [
+          '"be orphaned"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'glosshash' => {
+        '"be orphaned"' => 1
+      },
+      'orig' => 'yatum-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ytam' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'yatim',
+      'form' => 'yatim',
+      'others' => [
+        'ytam IV_intr'
+      ],
+      'lines' => [
+        ';; yatim-a_1',
+        'ytm     yatim   PV_intr be orphaned',
+        'ytm     yotam   IV_intr be orphaned'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        [
+          '"be orphaned"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'glosshash' => {
+        '"be orphaned"' => 1
+      },
+      'orig' => 'yatim-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'wtim' => {
+          'IV_yu' => 1
+        },
+        'wtam' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => '\'aytam',
+      'form' => '\'aytam',
+      'others' => [
+        'wtim IV_yu',
+        'wtam IV_Pass_yu'
+      ],
+      'lines' => [
+        ';; >ayotam_1',
+        '>ytm    >ayotam PV      make orphan',
+        'Aytm    >ayotam PV      make orphan',
+        'wtm     wtim    IV_yu   make orphan',
+        'wtm     wtam    IV_Pass_yu      be orphaned'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"make orphan"'
+        ],
+        [
+          '"be orphaned"'
+        ]
+      ],
+      'glosshash' => {
+        '"make orphan"' => 1,
+        '"be orphaned"' => 1
+      },
+      'orig' => 'Oayotam',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tayattam',
+      'form' => 'tayattam',
+      'lines' => [
+        ';; tayat~am_1',
+        'tytm    tayat~am        PV_intr be orphaned',
+        'tytm    tayat~am        IV_intr be orphaned'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"be orphaned"'
+        ]
+      ],
+      'glosshash' => {
+        '"be orphaned"' => 1
+      },
+      'orig' => 'tayat~am',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yatAmY' => {
+          'N0' => 1
+        },
+        '\'aytAm' => {
+          'N' => 2
+        },
+        'yatAmA' => {
+          'Nhy' => 1
+        }
+      },
+      'entry' => 'yatiym',
+      'form' => 'yatiym',
+      'others' => [
+        'yatAmY N0',
+        '\'aytAm N',
+        'yatAmA Nhy'
+      ],
+      'lines' => [
+        ';; yatiym_1',
+        'ytym    yatiym  N/ap    orphan;unique',
+        '>ytAm   >ayotAm N       orphans;unique',
+        'AytAm   >ayotAm N       orphans;unique',
+        'ytAmY   yatAmaY N0      orphans;unique',
+        'ytAmA   yatAmA  Nhy     orphans;unique'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"orphan"'
+        ],
+        [
+          '"unique"'
+        ],
+        [
+          '"orphans"'
+        ]
+      ],
+      'glosshash' => {
+        '"unique"' => 1,
+        '"orphans"' => 1,
+        '"orphan"' => 1
+      },
+      'orig' => 'yatiym',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mayAtim' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'maytam',
+      'form' => 'maytam',
+      'others' => [
+        'mayAtim Ndip'
+      ],
+      'lines' => [
+        ';; mayotam_1',
+        'mytm    mayotam Ndu     orphanage',
+        'myAtm   mayAtim Ndip    orphanages'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"orphanage"'
+        ],
+        [
+          '"orphanages"'
+        ]
+      ],
+      'glosshash' => {
+        '"orphanages"' => 1,
+        '"orphanage"' => 1
+      },
+      'orig' => 'mayotam',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muyattam',
+      'form' => 'muyattam',
+      'lines' => [
+        ';; muyat~am_1',
+        'mytm    muyat~am        Nall    orphaned;parentless;orphan'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"orphaned"'
+        ],
+        [
+          '"parentless"'
+        ],
+        [
+          '"orphan"'
+        ]
+      ],
+      'glosshash' => {
+        '"parentless"' => 1,
+        '"orphan"' => 1,
+        '"orphaned"' => 1
+      },
+      'orig' => 'muyat~am',
+      'prefix' => ''
+    }
+  ],
+  'y l m .z' => [
+    {
+      'types' => {},
+      'entry' => 'yilmA.z',
+      'form' => 'yilmA.z',
+      'lines' => [
+        ';; yilomAZ_1',
+        'ylmAZ   yilomAZ Nprop   Yilmaz'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDAS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yilmaz"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yilmaz"' => 1
+      },
+      'orig' => 'yilomAZ',
+      'prefix' => ''
+    }
+  ],
+  'yAzir^g' => [
+    {
+      'types' => {},
+      'entry' => 'yAzir^g',
+      'form' => 'yAzir^giyy',
+      'lines' => [
+        ';; yAzirojiy~_1',
+        'yAzrjy  yAzirojiy~      N/ap    astrologer     [[yAzirojiy~/NOUN]]',
+        'yAzrjy  yAzirojiy~      Nap     astrologers     [[yAzirojiy~/NOUN]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"astrologer [ [ yAzirojiy ~ / NOUN ] ]"'
+        ],
+        [
+          '"astrologers [ [ yAzirojiy ~ / NOUN ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"astrologers [ [ yAzirojiy ~ / NOUN ] ]"' => 1,
+        '"astrologer [ [ yAzirojiy ~ / NOUN ] ]"' => 1
+      },
+      'orig' => 'yAzirojiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yAzir^g',
+      'form' => 'yAzir^giyy',
+      'lines' => [
+        ';; yAzirojiy~_2',
+        'yAzrjy  yAzirojiy~      N       Yazirji'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"Yazirji"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yazirji"' => 1
+      },
+      'orig' => 'yAzirojiy~',
+      'prefix' => ''
+    }
+  ],
+  'yAmAhA' => [
+    {
+      'types' => {},
+      'entry' => 'yAmAhA',
+      'form' => 'yAmAhA',
+      'lines' => [
+        ';; yAmAhA_1',
+        'yAmAhA  yAmAhA  Nprop   Yamaha'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yamaha"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yamaha"' => 1
+      },
+      'orig' => 'yAmAhA',
+      'prefix' => ''
+    }
+  ],
+  'yuwniyuw' => [
+    {
+      'types' => {
+        'yuwniyaT' => {
+          'Nprop' => 1
+        },
+        'yuwniyah' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'yuwniyuw',
+      'form' => 'yuwniyuw',
+      'others' => [
+        'yuwniyaT Nprop',
+        'yuwniyah Nprop'
+      ],
+      'lines' => [
+        ';; yuwniyuw_1',
+        'ywnyw   yuwniyuw        Nprop   June',
+        'ywnyh   yuwniyah        Nprop   June',
+        'ywnyp   yuwniyap        Nprop   June'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"June"'
+        ]
+      ],
+      'glosshash' => {
+        '"June"' => 1
+      },
+      'orig' => 'yuwniyuw',
+      'prefix' => ''
+    }
+  ],
+  'y y y' => [
+    {
+      'types' => {},
+      'entry' => 'yiy',
+      'form' => 'yiy',
+      'lines' => [
+        ';; yiy_1',
+        'yy      yiy     Nprop   Yi'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'CiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yi"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yi"' => 1
+      },
+      'orig' => 'yiy',
+      'prefix' => ''
+    }
+  ],
+  'yuw.tn' => [
+    {
+      'types' => {},
+      'entry' => 'yuw.tn',
+      'form' => 'yuw.tnaT',
+      'lines' => [
+        ';; yuwTonap_1',
+        'ywTn    yuwTon  Nap     lieutenant'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"lieutenant"'
+        ]
+      ],
+      'glosshash' => {
+        '"lieutenant"' => 1
+      },
+      'orig' => 'yuwTonap',
+      'prefix' => ''
+    }
+  ],
+  'y _h n' => [
+    {
+      'types' => {},
+      'entry' => 'ya_hn',
+      'form' => 'ya_hnaT',
+      'lines' => [
+        ';; yaxonap_1',
+        'yxn     yaxon   Nap     ragout;meat and vegetable stew'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"ragout"'
+        ],
+        [
+          '"meat and vegetable stew"'
+        ]
+      ],
+      'glosshash' => {
+        '"meat and vegetable stew"' => 1,
+        '"ragout"' => 1
+      },
+      'orig' => 'yaxonap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ya_hn',
+      'form' => 'ya_hniyy',
+      'lines' => [
+        ';; yaxoniy~_1',
+        'yxny    yaxoniy~        N-ap    ragout;meat and vegetable stew     [[yaxoniy~/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"ragout"'
+        ],
+        [
+          '"meat and vegetable stew [ [ yaxoniy ~ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"meat and vegetable stew [ [ yaxoniy ~ / ADJ ] ]"' => 1,
+        '"ragout"' => 1
+      },
+      'orig' => 'yaxoniy~',
+      'prefix' => ''
+    }
+  ],
+  'y .s b' => [
+    {
+      'types' => {},
+      'entry' => 'ya.sb',
+      'form' => 'ya.sb',
+      'lines' => [
+        ';; yaSob_1',
+        'ySb     yaSob   N       jasper'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"jasper"'
+        ]
+      ],
+      'glosshash' => {
+        '"jasper"' => 1
+      },
+      'orig' => 'yaSob',
+      'prefix' => ''
+    }
+  ],
+  'yuwrAniyuwm' => [
+    {
+      'types' => {
+        '\'uwrAniyuwm' => {
+          'N0' => 2
+        }
+      },
+      'entry' => 'yuwrAniyuwm',
+      'form' => 'yuwrAniyuwm',
+      'others' => [
+        '\'uwrAniyuwm N0'
+      ],
+      'lines' => [
+        ';; yuwrAniyuwm_1',
+        'ywrAnywm        yuwrAniyuwm     N0      uranium',
+        '>wrAnywm        >uwrAniyuwm     N0      uranium',
+        'AwrAnywm        >uwrAniyuwm     N0      uranium'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"uranium"'
+        ]
+      ],
+      'glosshash' => {
+        '"uranium"' => 1
+      },
+      'orig' => 'yuwrAniyuwm',
+      'prefix' => ''
+    }
+  ],
+  'y n `' => [
+    {
+      'types' => {
+        'yna`' => {
+          'IV' => 1
+        },
+        'yni`' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'yana`',
+      'form' => 'yana`',
+      'others' => [
+        'yna` IV',
+        'yni` IV'
+      ],
+      'lines' => [
+        ';; yanaE-ai_1',
+        'ynE     yanaE   PV      ripen;mellow',
+        'ynE     yonaE   IV      ripen;mellow',
+        'ynE     yoniE   IV      ripen;mellow'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        [
+          '"ripen"'
+        ],
+        [
+          '"mellow"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL',
+        'FCiL'
+      ],
+      'glosshash' => {
+        '"mellow"' => 1,
+        '"ripen"' => 1
+      },
+      'orig' => 'yanaE-ai',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'wni`' => {
+          'IV_yu' => 1
+        },
+        'wna`' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => '\'ayna`',
+      'form' => '\'ayna`',
+      'others' => [
+        'wni` IV_yu',
+        'wna` IV_Pass_yu'
+      ],
+      'lines' => [
+        ';; >ayonaE_1',
+        '>ynE    >ayonaE PV      ripen;mellow',
+        'AynE    >ayonaE PV      ripen;mellow',
+        'wnE     wniE    IV_yu   ripen;mellow',
+        'wnE     wnaE    IV_Pass_yu      be ripened;be mellowed'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"ripen"'
+        ],
+        [
+          '"mellow"'
+        ],
+        [
+          '"be ripened"'
+        ],
+        [
+          '"be mellowed"'
+        ]
+      ],
+      'glosshash' => {
+        '"be mellowed"' => 1,
+        '"mellow"' => 1,
+        '"ripen"' => 1,
+        '"be ripened"' => 1
+      },
+      'orig' => 'OayonaE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yan`',
+      'form' => 'yan`',
+      'lines' => [
+        ';; yanoE_1',
+        'ynE     yanoE   N       ripening;mellowing'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"ripening"'
+        ],
+        [
+          '"mellowing"'
+        ]
+      ],
+      'glosshash' => {
+        '"mellowing"' => 1,
+        '"ripening"' => 1
+      },
+      'orig' => 'yanoE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yunuw`',
+      'form' => 'yunuw`',
+      'lines' => [
+        ';; yunuwE_1',
+        'ynwE    yunuwE  N       ripening;mellowing'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"ripening"'
+        ],
+        [
+          '"mellowing"'
+        ]
+      ],
+      'glosshash' => {
+        '"mellowing"' => 1,
+        '"ripening"' => 1
+      },
+      'orig' => 'yunuwE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yaniy`',
+      'form' => 'yaniy`',
+      'lines' => [
+        ';; yaniyE_1',
+        'ynyE    yaniyE  Nall    ripe;mellow     [[yaniyE/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"ripe"'
+        ],
+        [
+          '"mellow [ [ yaniyE / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"mellow [ [ yaniyE / ADJ ] ]"' => 1,
+        '"ripe"' => 1
+      },
+      'orig' => 'yaniyE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'iynA`',
+      'form' => '\'iynA`',
+      'lines' => [
+        ';; <iynAE_1',
+        '<ynAE   <iynAE  N/At    ripening;mellowing',
+        'AynAE   <iynAE  N/At    ripening;mellowing'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"ripening"'
+        ],
+        [
+          '"mellowing"'
+        ]
+      ],
+      'glosshash' => {
+        '"mellowing"' => 1,
+        '"ripening"' => 1
+      },
+      'orig' => 'IiynAE',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yan`' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'yAni`',
+      'form' => 'yAni`',
+      'others' => [
+        'yan` N-ap'
+      ],
+      'lines' => [
+        ';; yAniE_1',
+        'yAnE    yAniE   N/ap    ripe;mellow     [[yAniE/ADJ]]',
+        'ynE     yanoE   N-ap    ripe;mellow'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"ripe"'
+        ],
+        [
+          '"mellow [ [ yAniE / ADJ ] ]"'
+        ],
+        [
+          '"mellow"'
+        ]
+      ],
+      'glosshash' => {
+        '"mellow"' => 1,
+        '"mellow [ [ yAniE / ADJ ] ]"' => 1,
+        '"ripe"' => 1
+      },
+      'orig' => 'yAniE',
+      'prefix' => ''
+    }
+  ],
+  'yAnA.giysAwA' => [
+    {
+      'types' => {},
+      'entry' => 'yAnA.giysAwA',
+      'form' => 'yAnA.giysAwA',
+      'lines' => [
+        ';; yAnAgiysAwA_1',
+        'yAnAgysAwA      yAnAgiysAwA     Nprop   Yanagisawa'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yanagisawa"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yanagisawa"' => 1
+      },
+      'orig' => 'yAnAgiysAwA',
+      'prefix' => ''
+    }
+  ],
+  'yuwnuwsfiyr' => [
+    {
+      'types' => {},
+      'entry' => 'yuwnuwsfiyr',
+      'form' => 'yuwnuwsfiyr',
+      'lines' => [
+        ';; yuwnuwsofiyr_1',
+        'ywnwsfyr        yuwnuwsofiyr    N0      ionosphere'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"ionosphere"'
+        ]
+      ],
+      'glosshash' => {
+        '"ionosphere"' => 1
+      },
+      'orig' => 'yuwnuwsofiyr',
+      'prefix' => ''
+    }
+  ],
+  'yA.tA^s' => [
+    {
+      'types' => {},
+      'entry' => 'yA.tA^s',
+      'form' => 'yA.tA^s',
+      'lines' => [
+        ';; yATA$_1',
+        'yATA$   yATA$   N       piecework'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"piecework"'
+        ]
+      ],
+      'glosshash' => {
+        '"piecework"' => 1
+      },
+      'orig' => 'yATA$',
+      'prefix' => ''
+    }
+  ],
+  'muttaqin' => [
+    {
+      'types' => {},
+      'entry' => 'muttaqin',
+      'form' => 'muttaqin',
+      'lines' => [
+        ';; mut~aqin_1',
+        'mtqn    mut~aqin        Nall    confident     [[mut~aqin/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"confident [ [ mut ~ aqin / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"confident [ [ mut ~ aqin / ADJ ] ]"' => 1
+      },
+      'orig' => 'mut~aqin',
+      'prefix' => ''
+    }
+  ],
+  'y q t' => [
+    {
+      'types' => {},
+      'entry' => 'yAquwt',
+      'form' => 'yAquwt',
+      'lines' => [
+        ';; yAquwt_1',
+        'yAqwt   yAquwt  N0      Yaqout'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACUL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yaqout"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yaqout"' => 1
+      },
+      'orig' => 'yAquwt',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yawAqiyt' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'yAquwt',
+      'form' => 'yAquwt',
+      'others' => [
+        'yawAqiyt Ndip'
+      ],
+      'lines' => [
+        ';; yAquwt_2',
+        'yAqwt   yAquwt  Ndu     precious stone;ruby',
+        'yAqwt   yAquwt  Napdu   precious stone;ruby',
+        'ywAqyt  yawAqiyt        Ndip    precious stones;rubies'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FACUL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"precious stone"'
+        ],
+        [
+          '"ruby"'
+        ],
+        [
+          '"precious stones"'
+        ],
+        [
+          '"rubies"'
+        ]
+      ],
+      'glosshash' => {
+        '"ruby"' => 1,
+        '"precious stones"' => 1,
+        '"rubies"' => 1,
+        '"precious stone"' => 1
+      },
+      'orig' => 'yAquwt',
+      'prefix' => ''
+    }
+  ],
+  'yuwnskuwm' => [
+    {
+      'types' => {},
+      'entry' => 'yuwnskuwm',
+      'form' => 'yuwnskuwm',
+      'lines' => [
+        ';; yuwnoskuwm_1',
+        'ywnskwm yuwnoskuwm      Nprop   UNSCOM'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"UNSCOM"'
+        ]
+      ],
+      'glosshash' => {
+        '"UNSCOM"' => 1
+      },
+      'orig' => 'yuwnoskuwm',
+      'prefix' => ''
+    }
+  ],
+  'y r r' => [
+    {
+      'types' => {},
+      'entry' => 'yuwriy',
+      'form' => 'yuwriy',
+      'lines' => [
+        ';; yuwriy_1',
+        'ywry    yuwriy  Nprop   Youri;Yuri'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCiy',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Youri"'
+        ],
+        [
+          '"Yuri"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yuri"' => 1,
+        '"Youri"' => 1
+      },
+      'orig' => 'yuwriy',
+      'prefix' => ''
+    }
+  ],
+  'y w ^g n' => [
+    {
+      'types' => {},
+      'entry' => 'yuw^giyn',
+      'form' => 'yuw^giyn',
+      'lines' => [
+        ';; yuwjiyn_1',
+        'ywjyn   yuwjiyn Nprop   Eugene'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDIS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Eugene"'
+        ]
+      ],
+      'glosshash' => {
+        '"Eugene"' => 1
+      },
+      'orig' => 'yuwjiyn',
+      'prefix' => ''
+    }
+  ],
+  'y \' q' => [
+    {
+      'types' => {},
+      'entry' => 'yAq',
+      'form' => 'yAqaT',
+      'lines' => [
+        ';; yAqap_1',
+        'yAq     yAq     NapAt   collar'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"collar"'
+        ]
+      ],
+      'glosshash' => {
+        '"collar"' => 1
+      },
+      'orig' => 'yAqap',
+      'prefix' => ''
+    }
+  ],
+  'y w s f' => [
+    {
+      'types' => {},
+      'entry' => 'yuwsuf',
+      'form' => 'yuwsufiyy',
+      'lines' => [
+        ';; yuwsufiy~_1',
+        'ywsfy   yuwsufiy~       N       tangerines'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDuS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"tangerines"'
+        ]
+      ],
+      'glosshash' => {
+        '"tangerines"' => 1
+      },
+      'orig' => 'yuwsufiy~',
+      'prefix' => ''
+    }
+  ],
+  'y q n' => [
+    {
+      'types' => {
+        'yqan' => {
+          'IV-n_intr' => 1
+        }
+      },
+      'entry' => 'yaqin',
+      'form' => 'yaqin',
+      'others' => [
+        'yqan IV-n_intr'
+      ],
+      'lines' => [
+        ';; yaqin-a_1',
+        'yqn     yaqin   PV-n_intr       be sure;know for certain',
+        'yqn     yoqan   IV-n_intr       be sure;know for certain'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        [
+          '"be sure"'
+        ],
+        [
+          '"know for certain"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'glosshash' => {
+        '"be sure"' => 1,
+        '"know for certain"' => 1
+      },
+      'orig' => 'yaqin-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yqin' => {
+          'IV-n' => 1
+        }
+      },
+      'entry' => '\'ayqan',
+      'form' => '\'ayqan',
+      'others' => [
+        'yqin IV-n'
+      ],
+      'lines' => [
+        ';; >ayoqan_1',
+        '>yqn    >ayoqan PV-n    ascertain;be convinced',
+        'Ayqn    >ayoqan PV-n    ascertain;be convinced',
+        'yqn     yoqin   IV-n    ascertain;be convinced'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"ascertain"'
+        ],
+        [
+          '"be convinced"'
+        ]
+      ],
+      'glosshash' => {
+        '"be convinced"' => 1,
+        '"ascertain"' => 1
+      },
+      'orig' => 'Oayoqan',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tayaqqan',
+      'form' => 'tayaqqan',
+      'lines' => [
+        ';; tayaq~an_1',
+        'tyqn    tayaq~an        PV-n    ascertain;be convinced',
+        'tyqn    tayaq~an        IV-n    ascertain;be convinced'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"ascertain"'
+        ],
+        [
+          '"be convinced"'
+        ]
+      ],
+      'glosshash' => {
+        '"be convinced"' => 1,
+        '"ascertain"' => 1
+      },
+      'orig' => 'tayaq~an',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'stayqin' => {
+          'IV-n' => 1
+        }
+      },
+      'entry' => 'istayqan',
+      'form' => 'istayqan',
+      'others' => [
+        'stayqin IV-n'
+      ],
+      'lines' => [
+        ';; {isotayoqan_1',
+        '<styqn  {isotayoqan     PV-n    ascertain;be convinced',
+        'Astyqn  {isotayoqan     PV-n    ascertain;be convinced',
+        'styqn   sotayoqin       IV-n    ascertain;be convinced'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IstaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"ascertain"'
+        ],
+        [
+          '"be convinced"'
+        ]
+      ],
+      'glosshash' => {
+        '"be convinced"' => 1,
+        '"ascertain"' => 1
+      },
+      'orig' => '{isotayoqan',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yaqn',
+      'form' => 'yaqn',
+      'lines' => [
+        ';; yaqon_1',
+        'yqn     yaqon   N       certainty'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"certainty"'
+        ]
+      ],
+      'glosshash' => {
+        '"certainty"' => 1
+      },
+      'orig' => 'yaqon',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yaqan' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'yaqin',
+      'form' => 'yaqin',
+      'others' => [
+        'yaqan Nap'
+      ],
+      'lines' => [
+        ';; yaqin_1',
+        'yqn     yaqin   Nall    credulous;ingenuous',
+        'yqn     yaqan   Nap     credulous;ingenuous'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"credulous"'
+        ],
+        [
+          '"ingenuous"'
+        ]
+      ],
+      'glosshash' => {
+        '"ingenuous"' => 1,
+        '"credulous"' => 1
+      },
+      'orig' => 'yaqin',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yaqiyn',
+      'form' => 'yaqiyn',
+      'lines' => [
+        ';; yaqiyn_1',
+        'yqyn    yaqiyn  N       certainty;certitude;conviction'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"certainty"'
+        ],
+        [
+          '"certitude"'
+        ],
+        [
+          '"conviction"'
+        ]
+      ],
+      'glosshash' => {
+        '"conviction"' => 1,
+        '"certitude"' => 1,
+        '"certainty"' => 1
+      },
+      'orig' => 'yaqiyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yaqiyn',
+      'form' => 'yaqiyn',
+      'lines' => [
+        ';; yaqiyn_2',
+        'yqyn    yaqiyn  Nall    convinced     [[yaqiyn/ADJ]]'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"convinced [ [ yaqiyn / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"convinced [ [ yaqiyn / ADJ ] ]"' => 1
+      },
+      'orig' => 'yaqiyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yaqiyn',
+      'form' => 'yaqiyniyy',
+      'lines' => [
+        ';; yaqiyniy~_1',
+        'yqyny   yaqiyniy~       N-ap    indisputable;certain     [[yaqiyniy~/ADJ]]',
+        'yqyny   yaqiyniy~       NAt     indisputable facts;established truths     [[yaqiyniy~/NOUN]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"indisputable"'
+        ],
+        [
+          '"certain [ [ yaqiyniy ~ / ADJ ] ]"'
+        ],
+        [
+          '"indisputable facts"'
+        ],
+        [
+          '"established truths [ [ yaqiyniy ~ / NOUN ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"certain [ [ yaqiyniy ~ / ADJ ] ]"' => 1,
+        '"established truths [ [ yaqiyniy ~ / NOUN ] ]"' => 1,
+        '"indisputable facts"' => 1,
+        '"indisputable"' => 1
+      },
+      'orig' => 'yaqiyniy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'miyqAn',
+      'form' => 'miyqAn',
+      'lines' => [
+        ';; miyqAn_1',
+        'myqAn   miyqAn  Nall    credulous'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"credulous"'
+        ]
+      ],
+      'glosshash' => {
+        '"credulous"' => 1
+      },
+      'orig' => 'miyqAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mutayaqqin',
+      'form' => 'mutayaqqin',
+      'lines' => [
+        ';; mutayaq~in_1',
+        'mtyqn   mutayaq~in      Nall    convinced;certain     [[mutayaq~in/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MutaFaCCiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"convinced"'
+        ],
+        [
+          '"certain [ [ mutayaq ~ in / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"convinced"' => 1,
+        '"certain [ [ mutayaq ~ in / ADJ ] ]"' => 1
+      },
+      'orig' => 'mutayaq~in',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muwqin',
+      'form' => 'muwqin',
+      'lines' => [
+        ';; muwqin_1',
+        'mwqn    muwqin  Nall    convinced;certain;sure     [[muwqin/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MUCiL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"convinced"'
+        ],
+        [
+          '"certain"'
+        ],
+        [
+          '"sure [ [ muwqin / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"convinced"' => 1,
+        '"sure [ [ muwqin / ADJ ] ]"' => 1,
+        '"certain"' => 1
+      },
+      'orig' => 'muwqin',
+      'prefix' => ''
+    }
+  ],
+  'yuwniytA' => [
+    {
+      'types' => {},
+      'entry' => 'yuwniytA',
+      'form' => 'yuwniytA',
+      'lines' => [
+        ';; yuwniytA_1',
+        'ywnytA  yuwniytA        N0      UNITA'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"UNITA"'
+        ]
+      ],
+      'glosshash' => {
+        '"UNITA"' => 1
+      },
+      'orig' => 'yuwniytA',
+      'prefix' => ''
+    }
+  ],
+  'y \' \'' => [
+    {
+      'types' => {},
+      'entry' => 'yA\'',
+      'form' => 'yA\'',
+      'lines' => [
+        ';; yA\'_1',
+        'yA\'     yA\'     N0_Nh   ya\' (Arabic letter)',
+        'yA&     yA&     Nh      ya\' (Arabic letter)',
+        'yA}     yA}     Nhy     ya\' (Arabic letter)',
+        'yA\'     yA\'     NAt     ya\'s (Arabic letter)'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"ya \' ( Arabic letter )"'
+        ],
+        [
+          '"ya \'s ( Arabic letter )"'
+        ]
+      ],
+      'glosshash' => {
+        '"ya \' ( Arabic letter )"' => 1,
+        '"ya \'s ( Arabic letter )"' => 1
+      },
+      'orig' => 'yA\'',
+      'prefix' => ''
+    }
+  ],
+  'y n ^s' => [
+    {
+      'types' => {},
+      'entry' => 'yuwnA^s',
+      'form' => 'yuwnA^s',
+      'lines' => [
+        ';; yuwnA$_1',
+        'ywnA$   yuwnA$  Nprop   Jonas'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Jonas"'
+        ]
+      ],
+      'glosshash' => {
+        '"Jonas"' => 1
+      },
+      'orig' => 'yuwnA$',
+      'prefix' => ''
+    }
+  ],
+  'yuwrk' => [
+    {
+      'types' => {},
+      'entry' => 'yuwrk',
+      'form' => 'yuwrk',
+      'lines' => [
+        ';; yuwrk_1',
+        'ywrk    yuwrk   N0      York'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"York"'
+        ]
+      ],
+      'glosshash' => {
+        '"York"' => 1
+      },
+      'orig' => 'yuwrk',
+      'prefix' => ''
+    }
+  ],
+  'yits.hAk' => [
+    {
+      'types' => {},
+      'entry' => 'yits.hAk',
+      'form' => 'yits.hAk',
+      'lines' => [
+        ';; yitsoHAk_1',
+        'ytsHAk  yitsoHAk        Nprop   Yitzhak'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yitzhak"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yitzhak"' => 1
+      },
+      'orig' => 'yitsoHAk',
+      'prefix' => ''
+    }
+  ],
+  'y y w' => [
+    {
+      'types' => {},
+      'entry' => 'yuw',
+      'form' => 'yuw',
+      'lines' => [
+        ';; yuw_1',
+        'yw      yuw     Nprop   Yo;Yu'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'CuL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yo"'
+        ],
+        [
+          '"Yu"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yo"' => 1,
+        '"Yu"' => 1
+      },
+      'orig' => 'yuw',
+      'prefix' => ''
+    }
+  ],
+  'y d ' => [
+    {
+      'types' => {},
+      'entry' => 'yadY',
+      'form' => 'yadawiyy',
+      'lines' => [
+        ';; yadawiy~_1',
+        'ydwy    yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCY |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"manual"'
+        ],
+        [
+          '"hand [ [ yadawiy ~ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"manual"' => 1,
+        '"hand [ [ yadawiy ~ / ADJ ] ]"' => 1
+      },
+      'orig' => 'yadawiy~',
+      'prefix' => ''
+    }
+  ],
+  'y w s w' => [
+    {
+      'types' => {},
+      'entry' => 'yuwsuw',
+      'form' => 'yuwsuw',
+      'lines' => [
+        ';; yuwsuw_1',
+        'ywsw    yuwsuw  Nprop   Jusso;Yusso'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDuS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Jusso"'
+        ],
+        [
+          '"Yusso"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yusso"' => 1,
+        '"Jusso"' => 1
+      },
+      'orig' => 'yuwsuw',
+      'prefix' => ''
+    }
+  ],
+  'ywmbl.gAz' => [
+    {
+      'types' => {},
+      'entry' => 'ywmbl.gAz',
+      'form' => 'ywmbl.gAz',
+      'lines' => [
+        ';; ywmblgAz_1',
+        'ywmblgAz        ywmblgAz        Nprop   Iompelgas ??'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Iompelgas ? ?"'
+        ]
+      ],
+      'glosshash' => {
+        '"Iompelgas ? ?"' => 1
+      },
+      'orig' => 'ywmblgAz',
+      'prefix' => ''
+    }
+  ],
+  'yuwzbA^s' => [
+    {
+      'types' => {},
+      'entry' => 'yuwzbA^s',
+      'form' => 'yuwzbA^siyy',
+      'lines' => [
+        ';; yuwzobA$iy~_1',
+        'ywzbA$y yuwzobA$iy~     N/ap    captain     [[yuwzobA$iy~/ADJ]]',
+        'ywzbA$y yuwzobA$iy~     Nap     captains     [[yuwzobA$iy~/NOUN]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"captain [ [ yuwzobA $ iy ~ / ADJ ] ]"'
+        ],
+        [
+          '"captains [ [ yuwzobA $ iy ~ / NOUN ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"captain [ [ yuwzobA $ iy ~ / ADJ ] ]"' => 1,
+        '"captains [ [ yuwzobA $ iy ~ / NOUN ] ]"' => 1
+      },
+      'orig' => 'yuwzobA$iy~',
+      'prefix' => ''
+    }
+  ],
+  'y w n ^s' => [
+    {
+      'types' => $lexicon->{'y n ^s'}[0]{'types'},
+      'entry' => 'yuwnA^s',
+      'form' => 'yuwnA^s',
+      'lines' => $lexicon->{'y n ^s'}[0]{'lines'},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDAS',
+      'suffix' => '',
+      'glosses' => $lexicon->{'y n ^s'}[0]{'glosses'},
+      'glosshash' => $lexicon->{'y n ^s'}[0]{'glosshash'},
+      'orig' => 'yuwnA$',
+      'prefix' => ''
+    }
+  ],
+  'yuwniysif' => [
+    {
+      'types' => {
+        'yuwnisiyf' => {
+          'N0' => 1
+        },
+        'yuwniysiyf' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'yuwniysif',
+      'form' => 'yuwniysif',
+      'others' => [
+        'yuwnisiyf N0',
+        'yuwniysiyf N0'
+      ],
+      'lines' => [
+        ';; yuwniysif_1',
+        'ywnysf  yuwniysif       N0      UNICEF',
+        'ywnysyf yuwniysiyf      N0      UNICEF',
+        'ywnsyf  yuwnisiyf       N0      UNICEF'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"UNICEF"'
+        ]
+      ],
+      'glosshash' => {
+        '"UNICEF"' => 1
+      },
+      'orig' => 'yuwniysif',
+      'prefix' => ''
+    }
+  ],
+  'yuwnAytid' => [
+    {
+      'types' => {},
+      'entry' => 'yuwnAytid',
+      'form' => 'yuwnAytid',
+      'lines' => [
+        ';; yuwnAyotid_1',
+        'ywnAytd yuwnAyotid      Nprop   United'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"United"'
+        ]
+      ],
+      'glosshash' => {
+        '"United"' => 1
+      },
+      'orig' => 'yuwnAyotid',
+      'prefix' => ''
+    }
+  ],
+  'y r d' => [
+    {
+      'types' => {
+        'yArdah' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'yArd',
+      'form' => 'yArdaT',
+      'others' => [
+        'yArdah NduAt'
+      ],
+      'lines' => [
+        ';; yArodap_1',
+        'yArd    yArod   NapAt   yard',
+        'yArdh   yArodah NduAt   yard'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"yard"'
+        ]
+      ],
+      'glosshash' => {
+        '"yard"' => 1
+      },
+      'orig' => 'yArodap',
+      'prefix' => ''
+    }
+  ],
+  'yawma_dAk' => [
+    {
+      'types' => {},
+      'entry' => 'yawma_dAk',
+      'form' => 'yawma_dAk',
+      'lines' => [
+        ';; yawoma*Ak_1',
+        'ywm*Ak  yawoma*Ak       FW-Wa   on that day     [[yawoma*Ak/ADV]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"on that day [ [ yawoma*Ak / ADV ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"on that day [ [ yawoma*Ak / ADV ] ]"' => 1
+      },
+      'orig' => 'yawoma*Ak',
+      'prefix' => ''
+    }
+  ],
+  'yuwn.g' => [
+    {
+      'types' => {
+        'yuwn^g' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'yuwn.g',
+      'form' => 'yuwn.g',
+      'others' => [
+        'yuwn^g Nprop'
+      ],
+      'lines' => [
+        ';; yuwnog_1',
+        'ywng    yuwnog  Nprop   Jong;Jung;Yung',
+        'ywnj    yuwnoj  Nprop   Jong;Jung;Yung'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Jong"'
+        ],
+        [
+          '"Jung"'
+        ],
+        [
+          '"Yung"'
+        ]
+      ],
+      'glosshash' => {
+        '"Jong"' => 1,
+        '"Jung"' => 1,
+        '"Yung"' => 1
+      },
+      'orig' => 'yuwnog',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yuwn^g' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'yuwn.g',
+      'form' => 'yuwn.g',
+      'others' => [
+        'yuwn^g Nprop'
+      ],
+      'lines' => [
+        ';; yuwnog_2',
+        'ywng    yuwnog  Nprop   Young',
+        'ywnj    yuwnoj  Nprop   Young'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Young"'
+        ]
+      ],
+      'glosshash' => {
+        '"Young"' => 1
+      },
+      'orig' => 'yuwnog',
+      'prefix' => ''
+    }
+  ],
+  'yuw.guwslAfiyA' => [
+    {
+      'types' => {
+        'yuw^guslAfiyA' => {
+          'N0' => 1
+        },
+        'yuw.guslAfiyA' => {
+          'N0' => 1
+        },
+        'yuw^guwslAfiyA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'yuw.guwslAfiyA',
+      'form' => 'yuw.guwslAfiyA',
+      'others' => [
+        'yuw^guslAfiyA N0',
+        'yuw.guslAfiyA N0',
+        'yuw^guwslAfiyA N0'
+      ],
+      'lines' => [
+        ';; yuwguwsolAfiyA_1',
+        'ywgwslAfyA      yuwguwsolAfiyA  N0      Yugoslavia',
+        'ywjwslAfyA      yuwjuwsolAfiyA  N0      Yugoslavia',
+        'ywgslAfyA       yuwgusolAfiyA   N0      Yugoslavia',
+        'ywjslAfyA       yuwjusolAfiyA   N0      Yugoslavia'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Yugoslavia"'
+        ]
+      ],
+      'glosshash' => {
+        '"Yugoslavia"' => 1
+      },
+      'orig' => 'yuwguwsolAfiyA',
+      'prefix' => ''
+    }
+  ],
+  'yAsint' => [
+    {
+      'types' => {},
+      'entry' => 'yAsint',
+      'form' => 'yAsint',
+      'lines' => [
+        ';; yAsinot_1',
+        'yAsnt   yAsinot N       hyacinth'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"hyacinth"'
+        ]
+      ],
+      'glosshash' => {
+        '"hyacinth"' => 1
+      },
+      'orig' => 'yAsinot',
+      'prefix' => ''
+    }
+  ],
+  'y y ' => [
+    {
+      'types' => $lexicon->{'y y y'}[0]{'types'},
+      'entry' => 'yiy',
+      'form' => 'yiy',
+      'lines' => $lexicon->{'y y y'}[0]{'lines'},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'CI',
+      'suffix' => '',
+      'glosses' => $lexicon->{'y y y'}[0]{'glosses'},
+      'glosshash' => $lexicon->{'y y y'}[0]{'glosshash'},
+      'orig' => 'yiy',
+      'prefix' => ''
+    }
+  ],
+  'yasaq^g' => [
+    {
+      'types' => {},
+      'entry' => 'yasaq^g',
+      'form' => 'yasaq^giyy',
+      'lines' => [
+        ';; yasaqojiy~_1',
+        'ysqjy   yasaqojiy~      Nall    bodyguard     [[yasaqojiy~/NOUN]]',
+        'ysqjy   yasaqojiy~      Nall    bodyguard     [[yasaqojiy~/ADJ]]'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"bodyguard [ [ yasaqojiy ~ / NOUN ] ]"'
+        ],
+        [
+          '"bodyguard [ [ yasaqojiy ~ / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"bodyguard [ [ yasaqojiy ~ / NOUN ] ]"' => 1,
+        '"bodyguard [ [ yasaqojiy ~ / ADJ ] ]"' => 1
+      },
+      'orig' => 'yasaqojiy~',
+      'prefix' => ''
+    }
+  ],
+  'y _h t' => [
+    {
+      'types' => {
+        'yu_huwt' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'ya_ht',
+      'form' => 'ya_ht',
+      'others' => [
+        'yu_huwt N'
+      ],
+      'lines' => [
+        ';; yaxot_1',
+        'yxt     yaxot   Ndu     yacht',
+        'yxwt    yuxuwt  N       yachts'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"yacht"'
+        ],
+        [
+          '"yachts"'
+        ]
+      ],
+      'glosshash' => {
+        '"yacht"' => 1,
+        '"yachts"' => 1
+      },
+      'orig' => 'yaxot',
       'prefix' => ''
     }
   ],
@@ -2345,80 +7480,243 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'y y n' => [
+  'y r q' => [
     {
       'types' => {},
-      'entry' => 'yin',
-      'form' => 'yin',
+      'entry' => 'yaraq',
+      'form' => 'yaraqaT',
       'lines' => [
-        ';; yin_1',
-        'yn      yin     N       Yen'
+        ';; yaraqap_1',
+        'yrq     yaraq   NapAt   larva'
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'CiL',
-      'suffix' => '',
+      'morphs' => 'FaCaL |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
         [
-          '"Yen"'
+          '"larva"'
         ]
       ],
       'glosshash' => {
-        '"Yen"' => 1
+        '"larva"' => 1
       },
-      'orig' => 'yin',
+      'orig' => 'yaraqap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yaraqAn',
+      'form' => 'yaraqAn',
+      'lines' => [
+        ';; yaraqAn_1',
+        'yrqAn   yaraqAn N       mildew'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaLAn',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"mildew"'
+        ]
+      ],
+      'glosshash' => {
+        '"mildew"' => 1
+      },
+      'orig' => 'yaraqAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yaraqAn',
+      'form' => 'yaraqAn',
+      'lines' => [
+        ';; yaraqAn_2',
+        'yrqAn   yaraqAn N       jaundice'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCaLAn',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"jaundice"'
+        ]
+      ],
+      'glosshash' => {
+        '"jaundice"' => 1
+      },
+      'orig' => 'yaraqAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yaraqAn',
+      'form' => 'yaraqAn',
+      'lines' => [
+        ';; yaraqAn_3',
+        'yrqAn   yaraqAn N       larvae',
+        'yrqAn   yaraqAn Napdu   larva'
+      ],
+      'index' => '3',
+      'entity' => 'noun',
+      'morphs' => 'FaCaLAn',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"larvae"'
+        ],
+        [
+          '"larva"'
+        ]
+      ],
+      'glosshash' => {
+        '"larvae"' => 1,
+        '"larva"' => 1
+      },
+      'orig' => 'yaraqAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mayruwq',
+      'form' => 'mayruwq',
+      'lines' => [
+        ';; mayoruwq_1',
+        'myrwq   mayoruwq        N-ap    mildewy'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCUL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"mildewy"'
+        ]
+      ],
+      'glosshash' => {
+        '"mildewy"' => 1
+      },
+      'orig' => 'mayoruwq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mayruwq',
+      'form' => 'mayruwq',
+      'lines' => [
+        ';; mayoruwq_2',
+        'myrwq   mayoruwq        N-ap    jaundiced'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'MaFCUL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"jaundiced"'
+        ]
+      ],
+      'glosshash' => {
+        '"jaundiced"' => 1
+      },
+      'orig' => 'mayoruwq',
       'prefix' => ''
     }
   ],
-  'y t m' => [
+  'yiltsin' => [
     {
       'types' => {
-        'yatAmY' => {
-          'N0' => 1
-        },
-        '\'aytAm' => {
-          'N' => 2
-        },
-        'yatAmA' => {
-          'Nhy' => 1
+        'yiltsiyn' => {
+          'Nprop' => 1
         }
       },
-      'entry' => 'yatiym',
-      'form' => 'yatiym',
+      'entry' => 'yiltsin',
+      'form' => 'yiltsin',
       'others' => [
-        'yatAmY N0',
-        '\'aytAm N',
-        'yatAmA Nhy'
+        'yiltsiyn Nprop'
       ],
       'lines' => [
-        ';; yatiym_1',
-        'ytym    yatiym  N/ap    orphan;unique',
-        '>ytAm   >ayotAm N       orphans;unique',
-        'AytAm   >ayotAm N       orphans;unique',
-        'ytAmY   yatAmaY N0      orphans;unique',
-        'ytAmA   yatAmA  Nhy     orphans;unique'
+        ';; yilotsin_1',
+        'yltsn   yilotsin        Nprop   Yeltsin',
+        'yltsyn  yilotsiyn       Nprop   Yeltsin'
       ],
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCIL',
+      'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
         [
-          '"orphan"'
-        ],
-        [
-          '"unique"'
-        ],
-        [
-          '"orphans"'
+          '"Yeltsin"'
         ]
       ],
       'glosshash' => {
-        '"unique"' => 1,
-        '"orphans"' => 1,
-        '"orphan"' => 1
+        '"Yeltsin"' => 1
       },
-      'orig' => 'yatiym',
+      'orig' => 'yilotsin',
+      'prefix' => ''
+    }
+  ],
+  'yazar^g' => [
+    {
+      'types' => {
+        'yAzar^g' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'yazar^g',
+      'form' => 'yazar^gaT',
+      'others' => [
+        'yAzar^g Nap'
+      ],
+      'lines' => [
+        ';; yazarojap_1',
+        'yzrj    yazaroj Nap     astrology',
+        'yAzrj   yAzaroj Nap     astrology'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"astrology"'
+        ]
+      ],
+      'glosshash' => {
+        '"astrology"' => 1
+      },
+      'orig' => 'yazarojap',
+      'prefix' => ''
+    }
+  ],
+  'y n s n' => [
+    {
+      'types' => {},
+      'entry' => 'yansuwn',
+      'form' => 'yansuwn',
+      'lines' => [
+        ';; yanosuwn_1',
+        'ynswn   yanosuwn        N       aniseed;anise'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDUS',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"aniseed"'
+        ],
+        [
+          '"anise"'
+        ]
+      ],
+      'glosshash' => {
+        '"aniseed"' => 1,
+        '"anise"' => 1
+      },
+      'orig' => 'yanosuwn',
       'prefix' => ''
     }
   ],
@@ -2453,6 +7751,215 @@ $lexicon = {
       },
       'orig' => 'yAsomiyn',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yAsmiyn',
+      'form' => 'yAsmiyn',
+      'lines' => [
+        ';; yAsomiyn_2',
+        'yAsmyn  yAsomiyn        N       jasmine'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"jasmine"'
+        ]
+      ],
+      'glosshash' => {
+        '"jasmine"' => 1
+      },
+      'orig' => 'yAsomiyn',
+      'prefix' => ''
+    }
+  ],
+  'y r `' => [
+    {
+      'types' => {
+        'yra`' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'yari`',
+      'form' => 'yari`',
+      'others' => [
+        'yra` IV_intr'
+      ],
+      'lines' => [
+        ';; yariE-a_1',
+        'yrE     yariE   PV_intr be cowardly',
+        'yrE     yoraE   IV_intr be cowardly'
+      ],
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        [
+          '"be cowardly"'
+        ]
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'glosshash' => {
+        '"be cowardly"' => 1
+      },
+      'orig' => 'yariE-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yara`',
+      'form' => 'yara`',
+      'lines' => [
+        ';; yaraE_1',
+        'yrE     yaraE   N       cowardliness'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"cowardliness"'
+        ]
+      ],
+      'glosshash' => {
+        '"cowardliness"' => 1
+      },
+      'orig' => 'yaraE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yarA`',
+      'form' => 'yarA`',
+      'lines' => [
+        ';; yarAE_1',
+        'yrAE    yarAE   N       reed pen;firefly'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"reed pen"'
+        ],
+        [
+          '"firefly"'
+        ]
+      ],
+      'glosshash' => {
+        '"firefly"' => 1,
+        '"reed pen"' => 1
+      },
+      'orig' => 'yarAE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yarA`',
+      'form' => 'yarA`aT',
+      'lines' => [
+        ';; yarAEap_1',
+        'yrAE    yarAE   Napdu   firefly'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        [
+          '"firefly"'
+        ]
+      ],
+      'glosshash' => {
+        '"firefly"' => 1
+      },
+      'orig' => 'yarAEap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yarA`',
+      'form' => 'yarA`',
+      'lines' => [
+        ';; yarAE_2',
+        'yrAE    yarAE   N-ap    cowardly     [[yarAE/ADJ]]'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"cowardly [ [ yarAE / ADJ ] ]"'
+        ]
+      ],
+      'glosshash' => {
+        '"cowardly [ [ yarAE / ADJ ] ]"' => 1
+      },
+      'orig' => 'yarAE',
+      'prefix' => ''
+    }
+  ],
+  'yAnisuwn' => [
+    {
+      'types' => {},
+      'entry' => 'yAnisuwn',
+      'form' => 'yAnisuwn',
+      'lines' => [
+        ';; yAnisuwn_1',
+        'yAnswn  yAnisuwn        N       aniseed;anise'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"aniseed"'
+        ],
+        [
+          '"anise"'
+        ]
+      ],
+      'glosshash' => {
+        '"aniseed"' => 1,
+        '"anise"' => 1
+      },
+      'orig' => 'yAnisuwn',
+      'prefix' => ''
+    }
+  ],
+  'yuwruwmiyd' => [
+    {
+      'types' => {},
+      'entry' => 'yuwruwmiyd',
+      'form' => 'yuwruwmiyd',
+      'lines' => [
+        ';; yuwruwmiyd_1',
+        'ywrwmyd yuwruwmiyd      N0      Euro-Med (European-Mediterranean)'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"Euro-Med ( European-Mediterranean )"'
+        ]
+      ],
+      'glosshash' => {
+        '"Euro-Med ( European-Mediterranean )"' => 1
+      },
+      'orig' => 'yuwruwmiyd',
+      'prefix' => ''
     }
   ],
   'y h d' => [
@@ -2475,6 +7982,41 @@ $lexicon = {
       ],
       'glosshash' => {
         '"Jewish [ [ yahuwdiy ~ / ADJ ] ]"' => 1
+      },
+      'orig' => 'yahuwdiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'yahuwd' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'yahuwd',
+      'form' => 'yahuwdiyy',
+      'others' => [
+        'yahuwd N'
+      ],
+      'lines' => [
+        ';; yahuwdiy~_2',
+        'yhwdy   yahuwdiy~       N/ap    Jew',
+        'yhwd    yahuwd  N       Jews'
+      ],
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCUL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        [
+          '"Jew"'
+        ],
+        [
+          '"Jews"'
+        ]
+      ],
+      'glosshash' => {
+        '"Jews"' => 1,
+        '"Jew"' => 1
       },
       'orig' => 'yahuwdiy~',
       'prefix' => ''
@@ -2503,14 +8045,14 @@ $lexicon = {
       'prefix' => ''
     }
   ],
-  'yAmAhA' => [
+  'yuwfAnuwfiyt^s' => [
     {
       'types' => {},
-      'entry' => 'yAmAhA',
-      'form' => 'yAmAhA',
+      'entry' => 'yuwfAnuwfiyt^s',
+      'form' => 'yuwfAnuwfiyt^s',
       'lines' => [
-        ';; yAmAhA_1',
-        'yAmAhA  yAmAhA  Nprop   Yamaha'
+        ';; yuwfAnuwfiyt$_1',
+        'ywfAnwfyt$      yuwfAnuwfiyt$   Nprop   Jovanovic;Jovanovich'
       ],
       'index' => '1',
       'entity' => 'noun',
@@ -2518,37 +8060,28 @@ $lexicon = {
       'suffix' => '',
       'glosses' => [
         [
-          '"Yamaha"'
+          '"Jovanovic"'
+        ],
+        [
+          '"Jovanovich"'
         ]
       ],
       'glosshash' => {
-        '"Yamaha"' => 1
+        '"Jovanovich"' => 1,
+        '"Jovanovic"' => 1
       },
-      'orig' => 'yAmAhA',
+      'orig' => 'yuwfAnuwfiyt$',
       'prefix' => ''
     }
   ],
-  'yuwniyuw' => [
+  'yuwkuwhAmA' => [
     {
-      'types' => {
-        'yuwniyaT' => {
-          'Nprop' => 1
-        },
-        'yuwniyah' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'yuwniyuw',
-      'form' => 'yuwniyuw',
-      'others' => [
-        'yuwniyaT Nprop',
-        'yuwniyah Nprop'
-      ],
+      'types' => {},
+      'entry' => 'yuwkuwhAmA',
+      'form' => 'yuwkuwhAmA',
       'lines' => [
-        ';; yuwniyuw_1',
-        'ywnyw   yuwniyuw        Nprop   June',
-        'ywnyh   yuwniyah        Nprop   June',
-        'ywnyp   yuwniyap        Nprop   June'
+        ';; yuwkuwhAmA_1',
+        'ywkwhAmA        yuwkuwhAmA      N0      Yokohama'
       ],
       'index' => '1',
       'entity' => 'noun',
@@ -2556,29 +8089,13 @@ $lexicon = {
       'suffix' => '',
       'glosses' => [
         [
-          '"June"'
+          '"Yokohama"'
         ]
       ],
       'glosshash' => {
-        '"June"' => 1
+        '"Yokohama"' => 1
       },
-      'orig' => 'yuwniyuw',
-      'prefix' => ''
-    }
-  ],
-  'y y y' => [
-    {
-      'types' => $lexicon->{'y y '}[0]{'types'},
-      'entry' => 'yiy',
-      'form' => 'yiy',
-      'lines' => $lexicon->{'y y '}[0]{'lines'},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CiL',
-      'suffix' => '',
-      'glosses' => $lexicon->{'y y '}[0]{'glosses'},
-      'glosshash' => $lexicon->{'y y '}[0]{'glosshash'},
-      'orig' => 'yiy',
+      'orig' => 'yuwkuwhAmA',
       'prefix' => ''
     }
   ],
@@ -2632,6 +8149,31 @@ $lexicon = {
         '"Japanese [ [ yAbAniy ~ / NOUN ] ]"' => 1
       },
       'orig' => 'yAbAniy~',
+      'prefix' => ''
+    }
+  ],
+  'y .s f' => [
+    {
+      'types' => {},
+      'entry' => 'ya.sf',
+      'form' => 'ya.sf',
+      'lines' => [
+        ';; yaSof_1',
+        'ySf     yaSof   N       jasper'
+      ],
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        [
+          '"jasper"'
+        ]
+      ],
+      'glosshash' => {
+        '"jasper"' => 1
+      },
+      'orig' => 'yaSof',
       'prefix' => ''
     }
   ]
