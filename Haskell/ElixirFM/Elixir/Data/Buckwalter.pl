@@ -13,61 +13,31 @@ use re 'eval';
 
 use Encode::Arabic ':modes';
 
-use Lingua::EN::Tagger;
-
 use Data::Dumper;
 
 
 our ($ID, $Lexicon, $Entry);
 
-our (%lexiconEnglish, $rootReport, $skipOthers);
-
 our ($line, $root, $char);
-our (%patterns, @patterns);
 
-our ($lexicon);
+our (%patterns, @patterns, $report);
 
 our ($F, $C, $L, $K, $R, $D, $S);
 
 
-our $decode = "utf8";
-our $encode = "utf8";
-
-our $tagger = new Lingua::EN::Tagger;
-
-
 demode "buckwalter", "nowasla", "xml";
-
-%lexiconEnglish = ();
 
 initialize_patterns();
 
 
 $/ = "\n";
 
-
 @ARGV = glob join " ", @ARGV;
-
-if ($ARGV[0] eq '-I') {
-
-    shift @ARGV;
-
-    if (-f $ARGV[0]) {
-
-        require $ARGV[0];
-
-        shift @ARGV;
-    }
-    else {
-
-        die "'$ARGV[0]' does not exist, quitting";
-    }
-}
 
 
 until (eof()) {
 
-    ($ID) = $ARGV =~ /([0-9]+)\-/;
+    ($ID) = $ARGV =~ /([0-9]+)/;
 
     $ID = '00' unless $ID;
 
@@ -76,11 +46,11 @@ until (eof()) {
 
     until (eof) {
 
-        $line = decode $decode, scalar <>;
+        $line = decode "utf8", scalar <>;
 
         chomp $line;
 
-        if ($line =~ /^;--- (.+)$/) {
+        if ($line =~ /^;--- ([^\s\(]+)/) {
 
             closeEntry();
 
@@ -100,22 +70,11 @@ until (eof()) {
 
             $orig =~ tr[>&<][OWI];
 
-            $skipOthers = 0;
-
-            unless (not defined $lexicon or
-                    exists $lexicon->{$orig} and exists $lexicon->{$orig}{$index} and
-                    exists $lexicon->{$orig}{$index}{'done'} and $lexicon->{$orig}{$index}{'done'} > 0) {
-
-                $skipOthers = 1;
-
-                next;
-            }
-
             warn unless $index;
 
             beginEntry($orig, $index);
         }
-        elsif ($line !~ /^;/ and not $skipOthers) {
+        elsif ($line !~ /^;/) {
 
             $line =~ s/\<pos\>/\[\[/;
             $line =~ s/\<\/pos\>/\]\]/;
@@ -126,12 +85,9 @@ until (eof()) {
 
             $full =~ tr[>&<][OWI];
 
-            $gloss =~ s/(?:\s+\[\[[^\]]+\]\])?\s+$//;
+            $gloss =~ s/(?:\s+\[\[[^\]]+\]\])?\s*$//;
 
-            foreach (split /;/, $gloss) {
-
-                storeGloss(readableEnglish($tagger, $_));
-            }
+            storeGloss($_) foreach split /\s*;\s*/, $gloss;
 
             my $form = convert($full);
 
@@ -141,8 +97,6 @@ until (eof()) {
 
     closeLexicon();
 }
-
-produceEnglish();
 
 
 # ##################################################################################################
@@ -182,15 +136,25 @@ sub storeEntry ($$) {
 
     my $Clone = {};
 
+    delete $Entry->{'glosshash'};
+
     $Clone->{$_} = $Entry->{$_} foreach keys %{$Entry};
 
     $Clone->{'morphs'} = $Clone->{'prefix'} . $_[1] . $Clone->{'suffix'};
 
     push @{$Lexicon->{$_[0]}}, $Clone;
 
-    print STDERR "    " . $_[0] if length $_[0] < 8;
+    unless ($report->{$_[0]}++) {
 
-    print STDERR "\n" if ++$rootReport % 50 == 0;
+        if ($_[0] =~ / /) {
+
+            print STDERR $_[0] . " \t";
+        }
+        elsif (length $_[0] < 8) {
+
+            print STDERR "\n    " . $_[0] . " \t";
+        }
+    }
 }
 
 
@@ -227,7 +191,7 @@ sub closeEntry {
 
     if ($Entry->{'entity'} eq 'noun') {
 
-        if ($entry =~ /^al(.*)$/) {
+        if ($entry =~ /^Al(.*)$/) {
 
             $entry = $1;
             $prefix = $prefix . 'al >| ';
@@ -273,7 +237,7 @@ sub closeEntry {
                 $entry = $1 . "Y";
                 $suffix = ' |< Iy' . $suffix;
             }
-            elsif ($entry =~ /^(.*o[wy])iyy$/) {
+            elsif ($entry =~ /^(.*o[wy]|.*A\')iyy$/) {
 
                 $entry = $1;
                 $suffix = ' |< Iy' . $suffix;
@@ -305,7 +269,7 @@ sub closeEntry {
             my @toor = (defined $F or defined $C or defined $L) ? ($F, $C, $L) : ($K, $R, $D, $S);
 
             next if defined $toor[0] and defined $toor[1] and $toor[0] eq $toor[1] or
-                    @toor == 4 and $toor[1] eq $toor[2] || $toor[2] eq $toor[3];
+                    @toor == 4 and $toor[1] eq $toor[2];
 
             push @{$root{join ' ', map { defined $_ ? $_ : '' } @toor}}, $patterns{$pattern};
         }
@@ -353,48 +317,21 @@ sub closeEntry {
 }
 
 
-sub convert {
-
-    my $entry = $_[0];
-
-    $entry =~ s/AF/FA/;
-
-    $entry = encode "arabtex", decode "buckwalter", $entry;
-
-    $entry =~ s/\'\\shadda\{\}/\'\'/g;
-    $entry =~ s/aY/Y/;
-    $entry =~ s/aNA/aN/;
-
-    $entry =~ s/^Ai/i/;
-    $entry =~ s/^Au/u/;
-    $entry =~ s/^Aa/a/;
-
-    return $entry;
-}
-
-
 sub storeLine {
 
-    push @{$Entry->{'lines'}}, (encode $encode, $_[0]);
+    push @{$Entry->{'lines'}}, $_[0];
 }
 
 
 sub storeGloss {
 
-    my @words = @_;
-
-    my $gloss = join ' ', @words;
+    my ($gloss) = @_;
 
     unless (exists $Entry->{'glosshash'}->{$gloss}) {
 
         $Entry->{'glosshash'}->{$gloss}++;
 
-        foreach (@words) {
-
-            $lexiconEnglish{showEnglish($_)}++;
-        }
-
-        push @{$Entry->{'glosses'}}, [ map { encode $encode, $_ } @words ];
+        push @{$Entry->{'glosses'}}, $gloss;
     }
 }
 
@@ -419,74 +356,19 @@ sub storeType {
 }
 
 
-sub produceEnglish {
-
-    open L, '>', "English.hs" or die 'Do not redirect the standard output! Dying';
-
-    select L;
-
-    print << "    return;";
-
-module English where
-
-import Version
-
-version = revised "\$Revision: \$"
-
-
-english = [
-
-    return;
-
-    # english = error "English undefined"
-
-
-    foreach (sort keys %lexiconEnglish) {
-
-        print ' ' . ( encode $encode, $_ ) . ",\n";
-    }
-
-    print "\n \"\" ]\n";
-
-    close L;
-}
-
-
 sub beginLexicon {
 
     $Lexicon = {};
 
     $Entry = undef;
 
-    $rootReport = 0;
+    $report = {};
 
     print STDERR "Processing $ARGV\tinto Lexicon$ID.hs ...\n";
-
-    open L, '>', "Lexicon$ID.hs" or die 'Do not redirect the standard output! Dying';
-
-    select L;
-
-    print << "    return;";
-
-module Elixir.Data.Lexicons.Lexicon$ID where
-
-import Elixir.Lexicon
-
-
-version = revised "\$Revision: \$"
-
-lexicon = listing "Lexicon properties"
-
-
-    return;
 }
 
 
 sub closeLexicon {
-
-    print showNest($Lexicon->{$_}, $_) foreach sort keys %{$Lexicon};
-
-    close L;
 
     open L, '>', "Lexicon$ID.pm" or die 'Do not redirect the standard output! Dying';
 
@@ -494,7 +376,7 @@ sub closeLexicon {
 
     print << "    return;";
 
-package Elixir::Data::Lexicons::Lexicon$ID;
+package Elixir::Data::Buckwalter::Lexicon$ID;
 
 
 (\$VERSION) = q \$Revision: \$ =~ /(\\d+)/;
@@ -504,7 +386,7 @@ package Elixir::Data::Lexicons::Lexicon$ID;
 
     $Data::Dumper::Indent = 1;
 
-    print Data::Dumper->Dump([$Lexicon], ['lexicon']);
+    print Data::Dumper->Dump([$Lexicon], ['Lexicon']);
 
     close L;
 
@@ -512,71 +394,24 @@ package Elixir::Data::Lexicons::Lexicon$ID;
 }
 
 
-sub showNest ($$) {
-
-    return ' |> "' . $_[1] . '" <| [' . "\n\n" .
-
-            ( join ",\n\n", map { showEntry($_) } @{$_[0]} ) .
-
-            ' ]' . "\n\n";
-}
-
-
-sub showEntry ($) {
+sub convert {
 
     my $entry = $_[0];
 
-    return sprintf "%s\n    %-8s %-25s %-20s %s",
-                   (join '', map { '    -- ' . $_ . "\n" } @{$entry->{'lines'}}),
-                   $entry->{'entity'}, $entry->{'morphs'},
-                   (exists $entry->{'orig'} ? '{- ' . $entry->{'orig'} . ' -}' : ''),
-                   (join "\n" . ' ' x 60,
-                   (exists $entry->{'imperf'} ? '`imperf` [ ' .
-                                    (join ', ', @{$entry->{'imperf'}}) . ' ]' : ()),
-                   (exists $entry->{'others'} ? '-- `others` [ ' .
-                                    (join ', ', map { '"' . $_ . '"' } @{$entry->{'others'}}) . ' ]' : ()),
+    $entry =~ s/AF/FA/;
 
-                   (exists $entry->{'glosses'} ? '`gloss`  [ ' .
-                                    (join ', ', map { showGloss($_) } @{$entry->{'glosses'}}) . ' ]' : ()));
+    $entry = encode "arabtex", decode "buckwalter", $entry;
+
+    $entry =~ s/\'\\shadda\{\}/\'\'/g;
+    $entry =~ s/aY/Y/;
+    $entry =~ s/aNA/aN/;
+
+    $entry =~ s/^Ai/i/;
+    $entry =~ s/^Au/u/;
+    $entry =~ s/^Aa/a/;
+
+    return $entry;
 }
-
-
-sub showGloss ($) {
-
-    my @words = @{$_[0]};
-
-    return (join ', ', map { showEnglish($_) } @words);
-}
-
-
-sub showEnglish ($) {
-
-    my $word = $_[0];
-
-    return '' . $word;
-}
-
-
-sub readableEnglish {
-
-    my ($self, $text) = @_;
-
-    $text =~ s/\// \/ /g;
-
-    return unless $self->_valid_text($text);
-
-    my $tagged =  $self->add_tags($text);
-    my (@words) = split ' ', $tagged;
-
-    @words = map { /^<(\p{IsLower}+)>([^<]+)<\/\p{IsLower}+>$/o; $2 } @words;
-
-    return '"' . ( join ' ', @words ) . '"';
-}
-
-
-##  grep '{-' Lexicon*.hs | cut -c 75-121 | perl -pe 's/[ \-\}]+$//'
-##      | perl -pe 'tr[\}\>\<bvjHxd\*rzs\$SDTZEgfqklnh][C];s/(.)[mt]/$1C/g;s/^[yw]/C/'
-##      | sort | uniq -c | sort -n
 
 
 sub initialize_patterns {
