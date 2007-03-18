@@ -40,16 +40,6 @@ data Form = I | II | III | IV | V | VI | VII | VIII | IX | X
     deriving (Show, Eq, Enum)
 
 
-class Morphing m where
-
-    (>|) :: m Prefix -> a -> m a
-
-    (|<) :: m a -> Suffix -> m a
-
-
-infixl 7 >|, |<
-
-
 {-
 data Morphs a =     Pattern a
               |     Prefix  :>|:  Morphs a
@@ -59,16 +49,75 @@ infixr 7 :>|:
 infixl 8 :|<:
 -}
 
+
+{-class Morphing s m | s -> m where
+
+    morph :: s -> Morphs m
+-}
+
+class Morphing s m | s -> m where
+
+    morph :: s -> Morphs m
+--    morph :: s m -> Morphs m
+
+    -- morph x = Morphs [x] [] []
+
+type Id a = a
+
+
+(>|) :: Morphing s m => Prefix -> s -> Morphs m
+--(>|) :: Morphing s m => Prefix -> s m -> Morphs m
+
+x >| y = Morphs m (x : p) s
+
+    where Morphs m p s = morph y
+
+
+(|<) :: Morphing s m => s -> Suffix -> Morphs m
+--(|<) :: Morphing s m => s m -> Suffix -> Morphs m
+
+y |< x = Morphs m p (x : s)
+
+    where Morphs m p s = morph y
+
+
+infixl 7 >|, |<
+
+
 data Morphs a = Morphs a [Prefix] [Suffix]
 
     deriving (Show, Eq)
 
 
-instance Morphing Morphs where
+{-instance Morphing a a where
 
-    (>|) (Morphs t p s) x = Morphs x (t:p) s
+    morph = Morphs [a] [] []
+-}
 
-    (|<) (Morphs t p s) x = Morphs t p (x:s)
+
+{-instance Morphing (Morphs a) b where
+
+    morph x = const x x
+-}
+
+instance Morphing (Morphs a) a where
+
+    morph = id
+
+{-
+instance Morphing Prefix [a] where
+
+    morph x = Morphs [] [x] []
+
+
+instance Morphing Suffix (Maybe PatternL) where
+
+    morph x = Morphs [] [] [x]
+-}
+
+--instance Morphing a b where
+
+
 
 
 instance Template t => Template (Morphs t) where
@@ -82,9 +131,9 @@ instance Template t => Template (Morphs t) where
                                  (++) ((map show . reverse) s)
 
 
-morph :: a -> Morphs a
+--morph :: a -> Morphs a
 
-morph x = Morphs x [] []
+--morph x = Morphs x [] []
 
 
 {-

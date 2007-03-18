@@ -57,7 +57,7 @@ module Elixir.Lexicon (
 
         sumEntry, sumEntryChars,
 -}
-        noun, verb, root,
+        noun, verb, -- root,
 
         imperf, others, gloss,
 
@@ -134,6 +134,17 @@ instance Nestable PatternT where (>:) s l = NestT s l
 instance Nestable PatternQ where (>:) s l = NestQ s l
 
 
+{-
+
+instance Morphing Id PatternL where morph x = Morphs [x] [] []
+
+instance Morphing Id PatternT where morph x = Morphs [x] [] []
+
+instance Morphing Id PatternQ where morph x = Morphs [x] [] []
+
+-}
+
+
 --(|>) x y = (:<) x y
 
 (|>) = flip (:)
@@ -151,16 +162,8 @@ data Entry a = Entry {  entity  :: Entity,
     deriving Show
 
 
-instance Morphing Entry where
-
-    (>|) (Entry e m l) x = Entry e ((>|) m x) l
-
-    (|<) (Entry e m l) x = Entry e ((|<) m x) l
-
-
 data Entity = Verb (Maybe Voice)
             | Noun (Maybe Gender) (Maybe Number)
-            | Root
             | More
 
     deriving Show
@@ -184,19 +187,17 @@ data Number = Singular | Dual | Plural
     deriving Show
 
 
-verb, noun, root :: (Nestable a, Template a) => a -> Entry a
+verb, noun :: (Nestable c, Template a, Morphing a c) => a -> b -> Entry c
 
 
-verb x = Entry (Verb Nothing)
-               (Morphs x [] []) []
+verb m i = Entry (Verb Nothing) (morph m) []
+
+noun m i = Entry (Noun Nothing Nothing) (morph m) []
 
 
-noun x = Entry (Noun Nothing Nothing)
-               (Morphs x [] []) []
+infixl 3 `noun`
+infixl 3 `verb`
 
-
-root x = Entry (Root)
-               (Morphs x [] []) []
 
 
 infixl 3 `imperf`
