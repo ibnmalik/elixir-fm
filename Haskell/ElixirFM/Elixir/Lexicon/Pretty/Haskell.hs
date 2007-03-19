@@ -29,8 +29,7 @@ module Elixir.Lexicon.Pretty.Haskell (
 
         -- * Functions
 
-        prettyHaskell,
-        prettyPerl
+        prettyHaskell
 
     ) where
 
@@ -49,7 +48,7 @@ version = revised "$Revision$"
 
 
 prettyHaskell :: Lexicon -> String
-prettyHaskell   = prettyPrint
+prettyHaskell = prettyPrint
 
 
 instance Pretty Lexicon

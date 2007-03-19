@@ -25,6 +25,11 @@ import Version
 version = revised "$Revision$"
 
 
+instance Morphing PatternL PatternL where
+
+    morph x = Morphs x [] []
+
+
 instance Template PatternL where
 
     interlock r _ = (++) r

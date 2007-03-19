@@ -106,9 +106,18 @@ sub closeLexicon {
 
 sub showNest ($$) {
 
-    return ' |> "' . $_[1] . '" <| [' . "\n\n" .
+    my @entries = @{$_[0]};
+    my $root = $_[1];
 
-            ( join ",\n\n", map { showEntry($_) } @{$_[0]} ) .
+    @entries = grep { exists $lexicon->{$_->{'orig'}} and exists $lexicon->{$_->{'orig'}}{$_->{'index'}} and
+                      exists $lexicon->{$_->{'orig'}}{$_->{'index'}}{'done'} and
+                             $lexicon->{$_->{'orig'}}{$_->{'index'}}{'done'} > 0 } @entries if defined $lexicon;
+
+    return unless @entries;
+
+    return ' |> "' . $root . '" <| [' . "\n\n" .
+
+            ( join ",\n\n", map { showEntry($_) } @entries ) .
 
             ' ]' . "\n\n";
 }
@@ -120,16 +129,16 @@ sub showEntry ($) {
 
     return sprintf "%s\n    %-25s %-12s %-20s %s",
                    (join '', map { '    -- ' . $_ . "\n" } @{$entry->{'lines'}}),
-                   $entry->{'morphs'}, '`' . $entry->{'entity'} . '` []',
+                   $entry->{'morphs'}, '`' . $entry->{'entity'} . '`',
                    (exists $entry->{'orig'} ? '{- ' . $entry->{'orig'} . ' -}' : ''),
+
                    (join "\n" . ' ' x 60,
+                   (exists $entry->{'glosses'} ? '[ ' .
+                                    (join ', ', map { showGloss($_) } @{$entry->{'glosses'}}) . ' ]' : ()),
                    (exists $entry->{'imperf'} ? '`imperf` [ ' .
                                     (join ', ', @{$entry->{'imperf'}}) . ' ]' : ()),
-                   (exists $entry->{'others'} ? '-- `others` [ ' .
-                                    (join ', ', map { '"' . $_ . '"' } @{$entry->{'others'}}) . ' ]' : ()),
-
-                   (exists $entry->{'glosses'} ? '`gloss`  [ ' .
-                                    (join ', ', map { showGloss($_) } @{$entry->{'glosses'}}) . ' ]' : ()));
+                   (exists $entry->{'others'} ? '{- `others` [ ' .
+                                    (join ', ', map { '"' . $_ . '"' } @{$entry->{'others'}}) . ' ] -}' : ()));
 }
 
 

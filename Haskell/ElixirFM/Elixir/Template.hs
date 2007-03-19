@@ -50,23 +50,12 @@ infixl 8 :|<:
 -}
 
 
-{-class Morphing s m | s -> m where
-
-    morph :: s -> Morphs m
--}
-
 class Morphing s m | s -> m where
 
     morph :: s -> Morphs m
---    morph :: s m -> Morphs m
-
-    -- morph x = Morphs [x] [] []
-
-type Id a = a
 
 
 (>|) :: Morphing s m => Prefix -> s -> Morphs m
---(>|) :: Morphing s m => Prefix -> s m -> Morphs m
 
 x >| y = Morphs m (x : p) s
 
@@ -74,31 +63,20 @@ x >| y = Morphs m (x : p) s
 
 
 (|<) :: Morphing s m => s -> Suffix -> Morphs m
---(|<) :: Morphing s m => s m -> Suffix -> Morphs m
 
 y |< x = Morphs m p (x : s)
 
     where Morphs m p s = morph y
 
 
-infixl 7 >|, |<
+infixr 7 >|
+infixl 8 |<
 
 
 data Morphs a = Morphs a [Prefix] [Suffix]
 
     deriving (Show, Eq)
 
-
-{-instance Morphing a a where
-
-    morph = Morphs [a] [] []
--}
-
-
-{-instance Morphing (Morphs a) b where
-
-    morph x = const x x
--}
 
 instance Morphing (Morphs a) a where
 
@@ -115,10 +93,6 @@ instance Morphing Suffix (Maybe PatternL) where
     morph x = Morphs [] [] [x]
 -}
 
---instance Morphing a b where
-
-
-
 
 instance Template t => Template (Morphs t) where
 
@@ -126,14 +100,9 @@ instance Template t => Template (Morphs t) where
 --    interlock r (m :|<: a)  = interlock r m . (++) [show a]
 --    interlock r (Pattern s) = interlock r s
 
-    interlock r (Morphs t p s) = (++) ((map show . reverse) p) .
+    interlock r (Morphs t p s) = (++) (map show p) .
                                  interlock r t .
-                                 (++) ((map show . reverse) s)
-
-
---morph :: a -> Morphs a
-
---morph x = Morphs x [] []
+                                 (++) (map show (reverse s))
 
 
 {-
@@ -154,9 +123,6 @@ data Prefix =       Al
                 |   LA
 
     deriving (Show, Eq, Ord, Enum)
-
-
--- instance Template Prefix
 
 
 al  =   Al

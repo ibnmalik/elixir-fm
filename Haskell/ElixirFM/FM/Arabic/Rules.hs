@@ -44,21 +44,21 @@ import Elixir.Data.Patterns.Triliteral
 
 type Root = String
 
+type Id a = a
+
 
 data RootEntry a = RE Root (Entry a)
 
-instance Morphing RootEntry where
 
-    (>|) (RE r e) x = RE r ((>|) e x)
-
-    (|<) (RE r e) x = RE r ((|<) e x)
-
-
-class (Morphing m, Param b) => Inflect m b where
+class (Param b) => Inflect m b where
 
 --    inflect :: Template b => a -> b -> Root -> [String]
 
     inflect :: (Template a, Rules a) => m a -> b -> [String]
+
+
+
+
 
 {-
     prefix :: m a -> m a -> m a
@@ -109,7 +109,8 @@ instance Inflect RootEntry ParaVerb where
                             . map (\ x -> (x, verbStems x)))
                            [I .. X]-}
                            [ (x, y) | x <- [I .. X], y <- verbStems x,
-                                      let (a, _, _, _) = y, morph a == morphs e ]
+                                      let (a, _, _, _) = y,
+                                      let Morphs s _ _ = morphs e, s == a ]
 
 
 

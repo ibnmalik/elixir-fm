@@ -25,6 +25,11 @@ import Version
 version = revised "$Revision$"
 
 
+instance Morphing PatternT PatternT where
+
+    morph x = Morphs x [] []
+
+
 instance Template PatternT where
 
     interlock r p s = if isForm VIII p then (assimilate . show) p ++ s

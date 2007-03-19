@@ -59,7 +59,7 @@ module Elixir.Lexicon (
 -}
         noun, verb, -- root,
 
-        imperf, others, gloss,
+        imperf, others, -- gloss,
 
         rootCons
 
@@ -134,17 +134,6 @@ instance Nestable PatternT where (>:) s l = NestT s l
 instance Nestable PatternQ where (>:) s l = NestQ s l
 
 
-{-
-
-instance Morphing Id PatternL where morph x = Morphs [x] [] []
-
-instance Morphing Id PatternT where morph x = Morphs [x] [] []
-
-instance Morphing Id PatternQ where morph x = Morphs [x] [] []
-
--}
-
-
 --(|>) x y = (:<) x y
 
 (|>) = flip (:)
@@ -187,17 +176,14 @@ data Number = Singular | Dual | Plural
     deriving Show
 
 
-verb, noun :: (Nestable c, Template a, Morphing a c) => a -> b -> Entry c
+verb, noun :: (Template a, Morphing a b, Nestable b) => a -> [String] -> Entry b
+
+verb m t = Entry (Verb Nothing) (morph m) t
+
+noun m t = Entry (Noun Nothing Nothing) (morph m) t
 
 
-verb m i = Entry (Verb Nothing) (morph m) []
-
-noun m i = Entry (Noun Nothing Nothing) (morph m) []
-
-
-infixl 3 `noun`
-infixl 3 `verb`
-
+infixl 3 `verb`, `noun`
 
 
 infixl 3 `imperf`
@@ -210,10 +196,12 @@ infixl 3 `others`
 others = const
 
 
+{-
 infixl 3 `gloss`
 
 gloss (Entry e m l) n = Entry e m (n ++ l)
                                -- ([show (length n)] ++ l)
+-}
 
 
 rootCons :: String -> [String]
