@@ -59,7 +59,7 @@ module Elixir.Lexicon (
 -}
         noun, verb, -- root,
 
-        imperf, others, -- gloss,
+        imperf, plural, others, -- gloss,
 
         rootCons
 
@@ -144,16 +144,16 @@ instance Nestable PatternQ where (>:) s l = NestQ s l
 type Root = String
 
 
-data Entry a = Entry {  entity  :: Entity,
+data Entry a = Entry {  entity  :: Entity a,
                         morphs  :: Morphs a,
                         lexref  :: Lexref }
 
     deriving Show
 
 
-data Entity = Verb (Maybe Voice)
-            | Noun (Maybe Gender) (Maybe Number)
-            | More
+data Entity a = Verb [a] (Maybe Voice)
+              | Noun [Morphs a] (Maybe Gender) (Maybe Number)
+              | More
 
     deriving Show
 
@@ -176,19 +176,31 @@ data Number = Singular | Dual | Plural
     deriving Show
 
 
-verb, noun :: (Template a, Morphing a b, Nestable b) => a -> [String] -> Entry b
+verb, noun :: (Morphing a b, Nestable b) => a -> Lexref -> Entry b
 
-verb m t = Entry (Verb Nothing) (morph m) t
+verb m l = Entry (Verb [] Nothing) (morph m) l
 
-noun m t = Entry (Noun Nothing Nothing) (morph m) t
+noun m l = Entry (Noun [] Nothing Nothing) (morph m) l
 
 
 infixl 3 `verb`, `noun`
 
 
-infixl 3 `imperf`
+imperf :: Nestable a => Entry a -> [a] -> Entry a
 
-imperf = const
+imperf x y = x { entity = Verb (y ++ z) v }
+
+    where Verb z v = entity x
+
+
+plural :: (Morphing a b, Nestable b) => Entry b -> a -> Entry b
+
+plural x y = x { entity = Noun (morph y : z) g n }
+
+    where Noun z g n = entity x
+
+
+infixl 3 `imperf`, `plural`
 
 
 infixl 3 `others`

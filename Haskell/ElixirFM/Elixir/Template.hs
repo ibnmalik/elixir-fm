@@ -122,7 +122,13 @@ instance Template a => Combines a (Morphs a) where
 data Prefix =       Al
                 |   LA
 
-    deriving (Show, Eq, Ord, Enum)
+    deriving (Eq, Ord, Enum)
+
+
+instance Show Prefix where
+
+    show Al = "al-"
+    show LA = "lA"
 
 
 al  =   Al
@@ -139,7 +145,19 @@ data Suffix =       Iy
                 |   Ayn
                 |   AN
 
-    deriving (Show, Eq, Ord, Enum)
+    deriving (Eq, Ord, Enum)
+
+
+instance Show Suffix where
+
+    show Iy = "Iy"
+    show AT = "aT"
+    show At = "At"
+    show Un = "Un-a"
+    show In = "In-a"
+    show An = "An-i"
+    show Ayn = "ayn-i"
+    show AN = "aN"
 
 
 iyy =   Iy

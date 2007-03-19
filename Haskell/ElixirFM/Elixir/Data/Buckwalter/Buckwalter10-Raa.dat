@@ -1064,7 +1064,8 @@ mrtl    murat~al        N-ap    chanted;sung
 ;; ratam-i_1
 rtm     ratam   PV      utter;say
 rtm     rotim   IV      utter;say
-;; ratam-a_1
+; ERROR ??? ;; ratam-a_1
+;; ratam_1
 rtm     ratam   N       retem;juniper
 rtm     ratam   Nap     retem;juniper
 ;; ratomap_1

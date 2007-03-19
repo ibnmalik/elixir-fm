@@ -4393,7 +4393,8 @@ $nwdh   $inuwdah        Nprop   Shenouda
 $hAtysgAr       $hAtiysgAr      Nprop   Chattisgarh
 ;
 ;--- $hb
-;; $ahab-u_1
+; ERROR ??? ;; $ahab-u_1
+;; $ahab_1
 $hb     $ahab   N       gray
 $hb     $uhob   Nap     gray
 ;; $ihAb_1

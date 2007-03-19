@@ -127,6 +127,22 @@ sub showEntry ($) {
 
     my $entry = $_[0];
 
+    my $others = [];
+
+    my $plural = [];
+
+    foreach my $form (keys %{$entry->{'types'}}) {
+
+        next if $form eq $entry->{'form'};
+
+        push @{$plural}, @{$entry->{'types'}->{$form}->{'_pattern_'}}
+                                if exists $entry->{'types'}->{$form}->{'_pattern_'} and $entry->{'entity'} ne 'verb';
+
+        my @types = grep { $_ ne '_pattern_' } keys %{$entry->{'types'}->{$form}};
+
+        push @{$others}, ( join ' ', $form, @types );
+    }
+
     return sprintf "%s\n    %-25s %-12s %-20s %s",
                    (join '', map { '    -- ' . $_ . "\n" } @{$entry->{'lines'}}),
                    $entry->{'morphs'}, '`' . $entry->{'entity'} . '`',
@@ -137,8 +153,9 @@ sub showEntry ($) {
                                     (join ', ', map { showGloss($_) } @{$entry->{'glosses'}}) . ' ]' : ()),
                    (exists $entry->{'imperf'} ? '`imperf` [ ' .
                                     (join ', ', @{$entry->{'imperf'}}) . ' ]' : ()),
-                   (exists $entry->{'others'} ? '{- `others` [ ' .
-                                    (join ', ', map { '"' . $_ . '"' } @{$entry->{'others'}}) . ' ] -}' : ()));
+                   (@{$plural} > 0 ? map { '`plural` ' . $_ } @{$plural} : ()),
+                   (@{$others} > 0 ? '{- `others` [ ' .
+                                    (join ', ', map { '"' . $_ . '"' } @{$others}) . ' ] -}' : ()));
 }
 
 

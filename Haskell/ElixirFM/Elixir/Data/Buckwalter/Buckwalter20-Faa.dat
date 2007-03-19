@@ -1310,7 +1310,8 @@ fAr     fAr~    Nap     fugitives
 mftr    mufotar~        Nall    radiant;gleaming;smiling     <pos>mufotar~/ADJ</pos>
 ;
 ;--- frA
-;; fara>-a_1
+; ERROR ??? ;; fara>-a_1
+;; fara>_1
 fr>     fara>   N0_Nh   onager;wild ass
 fr&     fara&   Nh      onager;wild ass
 fr}     fara}   Nhy     onager;wild ass

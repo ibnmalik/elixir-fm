@@ -20,7 +20,7 @@ our ($ID, $Lexicon, $Entry);
 
 our ($line, $root, $char);
 
-our (%patterns, @patterns, $report);
+our (%patterns, @patterns, @pAttErns, $report);
 
 our ($F, $C, $L, $K, $R, $D, $S);
 
@@ -70,7 +70,7 @@ until (eof()) {
 
             $orig =~ tr[>&<][OWI];
 
-            warn unless $index;
+            warn "\nIncosistent data \t$orig\t" unless $index;
 
             beginEntry($orig, $index);
         }
@@ -134,6 +134,47 @@ sub beginEntry {
 
 sub storeEntry ($$) {
 
+    my @toor = split / /, $_[0];
+
+    if ($_[1] ne 'Identity' and @toor > 2) {
+
+        my @template = map { do { my $x = $_;
+
+                                  $x =~ s/^H/\'/;
+                                  $x =~ s/^I/i/;
+                                  $x =~ s/^M/m/;
+                                  $x =~ s/^N/n/;
+                                  $x =~ s/^T/t/;
+
+                                  $x =~ s/U/uw/g;
+                                  $x =~ s/I/iy/g;
+
+                                  $x =~ s/(?<=F)t/d/        if $toor[0] =~ /^[zd]$/;
+                                  $x =~ s/(?<=F)t/\_d/      if $toor[0] =~ /^\_d$/;
+                                  $x =~ s/(?<=F)t/\_t/      if $toor[0] =~ /^\_t$/;
+                                  $x =~ s/(?<=F)t/\.t/      if $toor[0] =~ /^\.[sdtz]$/;
+
+                                  $x =~ s/[FK]/$toor[0]/g;
+                                  $x =~ s/[CR]/$toor[1]/g;
+                                  $x =~ s/[LD]/$toor[2]/g;
+                                  $x =~ s/[S]/$toor[3]/g    if @toor > 3;
+
+                                  $x
+
+                            } }     @pAttErns;
+
+        foreach my $form (keys %{$Entry->{'types'}}) {
+
+            next if $form eq $Entry->{'form'};
+
+            for (my $i = 0; $i < @template; $i++) {
+
+                push @{$Entry->{'types'}->{$form}->{'_pattern_'}}, $pAttErns[$i] if $template[$i] eq $form;
+            }
+        }
+    }
+
+
     my $Clone = {};
 
     delete $Entry->{'glosshash'};
@@ -162,20 +203,21 @@ sub closeEntry {
 
     return unless defined $Entry;
 
-    foreach my $type (keys %{$Entry->{'types'}->{$Entry->{'form'}}}) {
+    my @types = keys %{$Entry->{'types'}->{$Entry->{'form'}}};
 
-        if ($type =~ /^[PI]V/) {
+    foreach my $type (@types) {
+
+        if ($type =~ /^[CIP]V/) {
+
+            delete $Entry->{'types'}->{$Entry->{'form'}}->{$type};
 
             $Entry->{'entity'} = 'verb';
         }
     }
 
-    delete $Entry->{'types'}->{$Entry->{'form'}};
+    @types = keys %{$Entry->{'types'}->{$Entry->{'form'}}};
 
-    foreach my $form (keys %{$Entry->{'types'}}) {
-
-        push @{$Entry->{'others'}}, ( join ' ', $form, keys %{$Entry->{'types'}->{$form}} );
-    }
+    warn "\nIncosistent data \t" . $Entry->{'form'} . "\t@types\t" if @types > 0 and $Entry->{'entity'} eq 'verb';
 
 
     my @root = split / /, $root;
@@ -419,7 +461,7 @@ sub initialize_patterns {
     my $X = "(\\'|b|t|\\_t|\\^g|\\.h|\\_h|d|\\_d|r|z|s|\\^s|\\.s|\\.d|\\.t|\\.z|\\`|\\.g|f|q|k|l|m|n|h|w|y)";
     my $T = "(?:t|\\_t|d|\\_d|\\.t)";
 
-    my @pAttErns = read_patterns('Patterns/Triliteral.hs', 'Patterns/Quadriliteral.hs');
+    @pAttErns = read_patterns('Patterns/Triliteral.hs', 'Patterns/Quadriliteral.hs');
 
     printf STDERR "%4d patterns\n", scalar @pAttErns;
 
