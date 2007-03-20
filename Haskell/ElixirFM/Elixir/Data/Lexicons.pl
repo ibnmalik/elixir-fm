@@ -9,7 +9,7 @@ our $VERSION = do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
 
 use strict;
 
-use Data::Dump;
+use Data::Dumper;
 
 
 our ($ID, $Lexicon);
@@ -131,16 +131,20 @@ sub showEntry ($) {
 
     my $plural = [];
 
-    foreach my $form (keys %{$entry->{'types'}}) {
+    foreach my $form (keys %{$entry->{'patterns'}}) {
 
-        next if $form eq $entry->{'form'};
+        my @types = keys %{$entry->{'types'}->{$form}};
 
-        push @{$plural}, @{$entry->{'types'}->{$form}->{'_pattern_'}}
-                                if exists $entry->{'types'}->{$form}->{'_pattern_'} and $entry->{'entity'} ne 'verb';
+        my $suffix = '';
 
-        my @types = grep { $_ ne '_pattern_' } keys %{$entry->{'types'}->{$form}};
+        $suffix .= ' |< At' if grep { /At(?:_|$)/ } @types;
+        $suffix .= ' |< aT' if grep { /ap(?:_|$)/ } @types;
+        $suffix .= ' |< Un' if grep { /iyn(?:_|$)/ } @types;
 
-        push @{$others}, ( join ' ', $form, @types );
+        push @{$plural}, map { $_ . $suffix } @{$entry->{'patterns'}->{$form}}
+                                if exists $entry->{'patterns'}->{$form} and $entry->{'entity'} ne 'verb';
+
+        push @{$others}, (join ' ', $form, @types);
     }
 
     return sprintf "%s\n    %-25s %-12s %-20s %s",
@@ -148,12 +152,12 @@ sub showEntry ($) {
                    $entry->{'morphs'}, '`' . $entry->{'entity'} . '`',
                    (exists $entry->{'orig'} ? '{- ' . $entry->{'orig'} . ' -}' : ''),
 
-                   (join "\n" . ' ' x 60,
+                   (join "\n" . ' ' x 30,
                    (exists $entry->{'glosses'} ? '[ ' .
                                     (join ', ', map { showGloss($_) } @{$entry->{'glosses'}}) . ' ]' : ()),
                    (exists $entry->{'imperf'} ? '`imperf` [ ' .
                                     (join ', ', @{$entry->{'imperf'}}) . ' ]' : ()),
-                   (@{$plural} > 0 ? map { '`plural` ' . $_ } @{$plural} : ()),
+                   (@{$plural} > 0 ? map { '`plural`     ' . $_ } @{$plural} : ()),
                    (@{$others} > 0 ? '{- `others` [ ' .
                                     (join ', ', map { '"' . $_ . '"' } @{$others}) . ' ] -}' : ()));
 }
@@ -161,5 +165,12 @@ sub showEntry ($) {
 
 sub showGloss ($) {
 
-    return Data::Dump::dump($_[0]);
+    $Data::Dumper::Terse = 1;
+    $Data::Dumper::Useqq = 1;
+
+    my $data = Data::Dumper->Dump([$_[0]]);
+
+    chomp $data;
+
+    return $data;
 }

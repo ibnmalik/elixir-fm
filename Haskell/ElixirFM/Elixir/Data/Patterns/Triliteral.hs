@@ -279,6 +279,9 @@ data PatternT =
         |   FaCLAn
         |   FaCaLAn
 
+        |   FiCLAn
+        |   FuCLAn
+
         |   FuCayL
 
         |   FaCLY

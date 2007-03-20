@@ -9,81 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon properties"
 
 
- |> "'an'A" <| [
-
-    -- ;; >ano|_1
-    -- >n|     >ano|   Nhy     farthest away;most remote
-    -- An|     >ano|   Nhy     farthest away;most remote
-    -- >n>y    >ano>ay NAn_Nayn        farthest away;most remote
-    -- An>y    >ano>ay NAn_Nayn        farthest away;most remote
-
-    noun     Identity                  {- Oano| -}          -- `others` [ "'an'ay NAn_Nayn" ]
-                                                            `gloss`  [ "farthest away", "most remote" ] ]
-
- |> "'an^gu_dAn" <| [
-
-    -- ;; >anoju*An_1
-    -- >nj*An  >anoju*An       Ndip    asafetida (plant)
-    -- Anj*An  >anoju*An       Ndip    asafetida (plant)
-
-    noun     Identity                  {- Oanoju*An -}      `gloss`  [ "asafetida ( plant )" ] ]
-
- |> "'anmY" <| [
-
-    -- ;; >anomaY_1
-    -- >nmY    >anomaY PV_0    make grow;advance
-    -- AnmY    >anomaY PV_0    make grow;advance
-    -- >nmA    >anomA  PV_h    make grow;advance
-    -- AnmA    >anomA  PV_h    make grow;advance
-    -- >nmy    >anomay PV_Atn  make grow;advance
-    -- Anmy    >anomay PV_Atn  make grow;advance
-    -- >nm     >anom   PV_ttAw make grow;advance
-    -- Anm     >anom   PV_ttAw make grow;advance
-    -- nmy     nomiy   IV_0hAnn_yu     make grow;advance
-    -- nm      nom     IV_0hwnyn_yu    make grow;advance
-    -- nmY     nomaY   IV_0_Pass_yu    be grown;be advanced
-    -- nmy     nomay   IV_Ann_Pass_yu  be grown;be advanced
-
-    verb     Identity                  {- OanomaY -}        -- `others` [ "nmay IV_Ann_Pass_yu", "nmY IV_0_Pass_yu", "'anmay PV_Atn", "'anmA PV_h", "nm IV_0hwnyn_yu", "'anm PV_ttAw", "nmiy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "make grow", "advance", "be grown", "be advanced" ] ]
-
- |> "'inmA'" <| [
-
-    -- ;; <inomA'_1
-    -- <nmA'   <inomA' N0_Nh   promotion;advancement
-    -- AnmA'   <inomA' N0_Nh   promotion;advancement
-    -- <nmA&   <inomA& Nh      promotion;advancement
-    -- AnmA&   <inomA& Nh      promotion;advancement
-    -- <nmA}   <inomA} Nhy     promotion;advancement
-    -- AnmA}   <inomA} Nhy     promotion;advancement
-    -- <nmA'   <inomA' NAn_Nayn        promotion;advancement
-    -- AnmA'   <inomA' NAn_Nayn        promotion;advancement
-    -- <nmA}   <inomA} Nayn    promotion;advancement
-    -- AnmA}   <inomA} Nayn    promotion;advancement
-    -- <nmA'   <inomA' NAt     promotion;advancement
-    -- AnmA'   <inomA' NAt     promotion;advancement
-
-    noun     Identity                  {- IinomA' -}        `gloss`  [ "promotion", "advancement" ] ]
-
- |> "'inmA'iyy" <| [
-
-    -- ;; <inomA}iy~_1
-    -- <nmA}y  <inomA}iy~      N-ap    development     [[<inomA}iy~/ADJ]]
-    -- AnmA}y  <inomA}iy~      N-ap    development     [[<inomA}iy~/ADJ]]
-
-    noun     Identity                  {- IinomA}iy~ -}     `gloss`  [ "development [ [" ] ]
-
- |> "'un^suw.t" <| [
-
-    -- ;; >uno$uwTap_1
-    -- >n$wT   >uno$uwT        Napdu   knot;noose
-    -- An$wT   >uno$uwT        Napdu   knot;noose
-    -- >nA$yT  >anA$iyT        Ndip    knots;nooses
-    -- AnA$yT  >anA$iyT        Ndip    knots;nooses
-
-    noun     Identity |< aT            {- Ouno$uwTap -}     -- `others` [ "'anA^siy.t Ndip" ]
-                                                            `gloss`  [ "knot", "noose", "knots", "nooses" ] ]
-
  |> "'un^suwd" <| [
 
     -- ;; >uno$uwdap_1
@@ -92,8 +17,7 @@ lexicon = listing "Lexicon properties"
     -- >nA$yd  >anA$iyd        Ndip    anthems;hymns;songs
     -- AnA$yd  >anA$iyd        Ndip    anthems;hymns;songs
 
-    noun     Identity |< aT            {- Ouno$uwdap -}     -- `others` [ "'anA^siyd Ndip" ]
-                                                            `gloss`  [ "anthem", "hymn", "song", "anthems", "hymns", "songs" ] ]
+    Identity |< aT            `noun`       {- Ouno$uwdap -}     [ "anthem", "hymn", "song", "anthems", "hymns", "songs" ] ]
 
  |> "'unbuwb" <| [
 
@@ -105,8 +29,7 @@ lexicon = listing "Lexicon properties"
     -- >nAbyb  >anAbiyb        Ndip    pipes;tubes
     -- AnAbyb  >anAbiyb        Ndip    pipes;tubes
 
-    noun     Identity                  {- Ounobuwb -}       -- `others` [ "'anAbiyb Ndip" ]
-                                                            `gloss`  [ "pipe", "tube", "pipes", "tubes" ],
+    Identity                  `noun`       {- Ounobuwb -}       [ "pipe", "tube", "pipes", "tubes" ],
 
     -- ;; >unobuwb_2
     -- >nbwb   >unobuwb        Ndu     cylinder;bottle
@@ -116,20 +39,7 @@ lexicon = listing "Lexicon properties"
     -- >nAbyb  >anAbiyb        Ndip    cylinders;bottles
     -- AnAbyb  >anAbiyb        Ndip    cylinders;bottles
 
-    noun     Identity                  {- Ounobuwb -}       -- `others` [ "'anAbiyb Ndip" ]
-                                                            `gloss`  [ "cylinder", "bottle", "cylinders", "bottles" ],
-
-    -- ;; >unobuwbiy~_1
-    -- >nbwby  >unobuwbiy~     Nall    tube-shaped     [[>unobuwbiy~/ADJ]]
-    -- Anbwby  >unobuwbiy~     Nall    tube-shaped     [[>unobuwbiy~/ADJ]]
-
-    noun     Identity |< Iy            {- Ounobuwbiy~ -}    `gloss`  [ "tube-shaped [ [ >unobuwbiy ~ / ADJ ] ]" ],
-
-    -- ;; >unobuwbiy~_2
-    -- >nbwby  >unobuwbiy~     Nall    cylindrical     [[>unobuwbiy~/ADJ]]
-    -- Anbwby  >unobuwbiy~     Nall    cylindrical     [[>unobuwbiy~/ADJ]]
-
-    noun     Identity |< Iy            {- Ounobuwbiy~ -}    `gloss`  [ "cylindrical [ [ >unobuwbiy ~ / ADJ ] ]" ] ]
+    Identity                  `noun`       {- Ounobuwb -}       [ "cylinder", "bottle", "cylinders", "bottles" ] ]
 
  |> "'unmuwl" <| [
 
@@ -139,124 +49,7 @@ lexicon = listing "Lexicon properties"
     -- >nAml   >anAmil Ndip    fingertips
     -- AnAml   >anAmil Ndip    fingertips
 
-    noun     Identity |< aT            {- Ounomuwlap -}     -- `others` [ "'anAmil Ndip" ]
-                                                            `gloss`  [ "fingertip", "fingertips" ] ]
-
- |> "intamY" <| [
-
-    -- ;; {inotamaY_1
-    -- <ntmY   {inotamaY       PV_0    belong to;be affiliated with;be a member of
-    -- AntmY   {inotamaY       PV_0    belong to;be affiliated with;be a member of
-    -- <ntmA   {inotamA        PV_h    belong to;be affiliated with;be a member of
-    -- AntmA   {inotamA        PV_h    belong to;be affiliated with;be a member of
-    -- <ntmy   {inotamay       PV_Atn  belong to;be affiliated with;be a member of
-    -- Antmy   {inotamay       PV_Atn  belong to;be affiliated with;be a member of
-    -- <ntm    {inotam PV_ttAw belong to;be affiliated with;be a member of
-    -- Antm    {inotam PV_ttAw belong to;be affiliated with;be a member of
-    -- ntmy    notamiy IV_0hAnn        belong to;be affiliated with;be a member of
-    -- ntm     notam   IV_0hwnyn       belong to;be affiliated with;be a member of
-    -- ntmY    notamaY IV_0_Pass_yu    belong to;be affiliated with;be a member of
-
-    verb     Identity                  {- {inotamaY -}      -- `others` [ "ntamY IV_0_Pass_yu", "intam PV_ttAw", "ntam IV_0hwnyn", "intamA PV_h", "ntamiy IV_0hAnn", "intamay PV_Atn" ]
-                                                            `gloss`  [ "belong to", "be affiliated with", "be a member of" ] ]
-
- |> "intimA'" <| [
-
-    -- ;; {inotimA'_1
-    -- <ntmA'  {inotimA'       N0_Nh   membership;affiliation;commitment
-    -- AntmA'  {inotimA'       N0_Nh   membership;affiliation;commitment
-    -- <ntmA&  {inotimA&       Nh      membership;affiliation;commitment
-    -- AntmA&  {inotimA&       Nh      membership;affiliation;commitment
-    -- <ntmA}  {inotimA}       Nhy     membership;affiliation;commitment
-    -- AntmA}  {inotimA}       Nhy     membership;affiliation;commitment
-    -- <ntmA'  {inotimA'       NAn_Nayn        membership;affiliation;commitment
-    -- AntmA'  {inotimA'       NAn_Nayn        membership;affiliation;commitment
-    -- <ntmA}  {inotimA}       Nayn    membership;affiliation;commitment
-    -- AntmA}  {inotimA}       Nayn    membership;affiliation;commitment
-    -- <ntmA'  {inotimA'       NAt     membership;affiliation;commitment
-    -- AntmA'  {inotimA'       NAt     membership;affiliation;commitment
-
-    noun     Identity                  {- {inotimA' -}      `gloss`  [ "membership", "affiliation", "commitment" ] ]
-
- |> "intiqA'iyy" <| [
-
-    -- ;; {inotiqA}iy~_1
-    -- <ntqA}y {inotiqA}iy~    Nall    selective;eclectic     [[{inotiqA}iy~/ADJ]]
-    -- AntqA}y {inotiqA}iy~    Nall    selective;eclectic     [[{inotiqA}iy~/ADJ]]
-
-    noun     Identity                  {- {inotiqA}iy~ -}   `gloss`  [ "selective", "eclectic [ [ { inotiqA } iy ~ / ADJ ] ]" ] ]
-
- |> "istinb" <| [
-
-    -- ;; {isotinobAt_1
-    -- <stnbAt {isotinobAt     N/At    planting;cultivation
-    -- AstnbAt {isotinobAt     N/At    planting;cultivation
-
-    noun     Identity |< At            {- {isotinobAt -}    `gloss`  [ "planting", "cultivation" ] ]
-
- |> "min.tiyq" <| [
-
-    -- ;; minoTiyq_1
-    -- mnTyq   minoTiyq        N-ap    eloquent
-
-    noun     Identity                  {- minoTiyq -}       `gloss`  [ "eloquent" ] ]
-
- |> "mitnAk" <| [
-
-    -- ;; mitonAk_1
-    -- mtnAk   mitonAk Nall    catamite;passive homosexual
-
-    noun     Identity                  {- mitonAk -}        `gloss`  [ "catamite", "passive homosexual" ],
-
-    -- ;; mitonAkap_1
-    -- mtnAk   mitonAk NapAt   whore;bitch
-
-    noun     Identity |< aT            {- mitonAkap -}      `gloss`  [ "whore", "bitch" ] ]
-
- |> "muntamY" <| [
-
-    -- ;; munotamaY_1
-    -- mntmY   munotamaY       N0      affiliation;membership;commitment
-    -- mntmA   munotamA        Nhy     affiliation;membership;commitment
-
-    noun     Identity                  {- munotamaY -}      -- `others` [ "muntamA Nhy" ]
-                                                            `gloss`  [ "affiliation", "membership", "commitment" ] ]
-
- |> "muntamiy" <| [
-
-    -- ;; munotamiy_1
-    -- mntmy   munotamiy       N0_Nh   belonging;affiliated;committed     [[munotamiy/ADJ]]
-    -- mntm    munotam NK      belonging;affiliated;committed
-    -- mntmy   munotamiy       NAn_Nayn        belonging;affiliated;committed
-    -- mntm    munotam Nuwn_Niyn       belonging;affiliated;committed
-    -- mntmy   munotamiy       NapAt   belonging;affiliated;committed
-
-    noun     Identity                  {- munotamiy -}      -- `others` [ "muntam Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "belonging", "affiliated", "committed [ [ munotamiy / ADJ ] ]", "committed" ] ]
-
- |> "mutanAmiy" <| [
-
-    -- ;; mutanAmiy_1
-    -- mtnAmy  mutanAmiy       N0F_Nh  growing gradually     [[mutanAmiy/ADJ]]
-    -- mtnAm   mutanAm NK      growing gradually
-    -- mtnAmy  mutanAmiy       NAn_Nayn        growing gradually
-    -- mtnAm   mutanAm Nuwn_Niyn       growing gradually
-    -- mtnAmy  mutanAmiy       NapAt   growing gradually
-
-    noun     Identity                  {- mutanAmiy -}      -- `others` [ "mutanAm Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "growing gradually [ [ mutanAmiy / ADJ ] ]", "growing gradually" ] ]
-
- |> "mutanabbiyy" <| [
-
-    -- ;; mutanab~iy~_1
-    -- mtnby   mutanab~iy~     N0      Mutanabbi
-
-    noun     Identity                  {- mutanab~iy~ -}    `gloss`  [ "Mutanabbi" ],
-
-    -- ;; mutanab~iy~_2
-    -- mtnby   mutanab~iy~     Nall    would-be-prophet
-
-    noun     Identity                  {- mutanab~iy~ -}    `gloss`  [ "would-be-prophet" ] ]
+    Identity |< aT            `noun`       {- Ounomuwlap -}     [ "fingertip", "fingertips" ] ]
 
  |> "n" <| [
 
@@ -265,17 +58,7 @@ lexicon = listing "Lexicon properties"
     -- ny'     niy'    N-ap    raw;uncooked
     -- ny}     niy}    N-ap    raw;uncooked
 
-    noun     Identity |< Iy            {- niy~ -}           -- `others` [ "niy' N-ap" ]
-                                                            `gloss`  [ "raw", "uncooked [ [ niy ~ / ADJ ] ]", "uncooked" ] ]
-
- |> "n ' .h" <| [
-
-    -- ;; nA}iHap_1
-    -- nA}H    nA}iH   NapAt   hired female mourner
-    -- nwA}H   nawA}iH Ndip    hired female mourners
-
-    noun     FACiL |< aT               {- nA}iHap -}        -- `others` [ "nawA'i.h Ndip" ]
-                                                            `gloss`  [ "hired female mourner", "hired female mourners" ] ]
+    Identity |< Iy            `noun`       {- niy~ -}           [ "raw", "uncooked" ] ]
 
  |> "n ' b" <| [
 
@@ -283,183 +66,9 @@ lexicon = listing "Lexicon properties"
     -- nA}b    nA}ib   N/ap    deputy;delegate;vice-
     -- nwAb    nuw~Ab  N       deputies;delegates
 
-    noun     FACiL                     {- nA}ib -}          -- `others` [ "nuwwAb N" ]
-                                                            `gloss`  [ "deputy", "delegate", "vice-", "deputies", "delegates" ],
-
-    -- ;; nA}ibap_1
-    -- nA}b    nA}ib   Napdu   misfortune
-    -- nwA}b   nawA}ib Ndip    vicissitudes
-
-    noun     FACiL |< aT               {- nA}ibap -}        -- `others` [ "nawA'ib Ndip" ]
-                                                            `gloss`  [ "misfortune", "vicissitudes" ] ]
-
- |> "n ' l" <| [
-
-    -- ;; nA}il_1
-    -- nA}l    nA}il   Nall    obtainer;acquirer;winner
-
-    noun     FACiL                     {- nA}il -}          `gloss`  [ "obtainer", "acquirer", "winner" ],
-
-    -- ;; nA}ilap_1
-    -- nA}lp   nA}ilap Nprop   Na'ila
-
-    noun     FACiL |< aT               {- nA}ilap -}        `gloss`  [ "Na'ila" ] ]
-
- |> "n ' m" <| [
-
-    -- ;; na>am-ia_1
-    -- n>m     na>am   PV      resound;groan
-    -- n}m     no}im   IV      resound;groan
-    -- n>m     no>am   IV      resound;groan
-
-    verb     FaCaL                     {- naOam-ia -}       `imperf` [ FCiL, FCaL ]
-                                                            -- `others` [ "n'am IV", "n'im IV" ]
-                                                            `gloss`  [ "resound", "groan" ],
-
-    -- ;; na>omap_1
-    -- n>m     na>om   Nap     noise;sound
-
-    noun     FaCL |< aT                {- naOomap -}        `gloss`  [ "noise", "sound" ],
-
-    -- ;; nA}im_1
-    -- nA}m    nA}im   Nall    sleeping;asleep     [[nA}im/ADJ]]
-    -- nyAm    niyAm   N       sleeping;asleep
-    -- nwm     nuw~am  N       sleeping;asleep
-    -- nym     nuy~am  N       sleeping;asleep
-    -- nwAm    nuw~Am  N       sleeping;asleep
-    -- nyAm    nuy~Am  N       sleeping;asleep
-
-    noun     FACiL                     {- nA}im -}          -- `others` [ "nuyyAm N", "nuwwAm N", "nuyyam N", "nuwwam N", "niyAm N" ]
-                                                            `gloss`  [ "sleeping", "asleep [ [ nA } im / ADJ ] ]", "asleep" ],
-
-    -- ;; na&uwm_1
-    -- n&wm    na&uwm  N       sleeper;later riser
-
-    noun     FaCUL                     {- naWuwm -}         `gloss`  [ "sleeper", "later riser" ] ]
-
- |> "n ' r" <| [
-
-    -- ;; nA}irap_1
-    -- nA}r    nA}ir   Nap     hatred;flame of war
-
-    noun     FACiL |< aT               {- nA}irap -}        `gloss`  [ "hatred", "flame of war" ] ]
+    FACiL                     `noun`       {- nA}ib -}          [ "deputy", "delegate", "vice-", "deputies", "delegates" ] ]
 
  |> "n ' y" <| [
-
-    -- ;; na>aY-a_1
-    -- n>Y     na>aY   PV_0    be distant;go away
-    -- n>y     na>ay   PV_Atn  be distant;go away
-    -- n>      na>a    PV_ttAw_intr    be distant;go away
-    -- n>Y     no>aY   IV_0    be distant;go away
-    -- n>y     no>ay   IV_Ann  be distant;go away
-    -- n>      no>a    IV_0hwnyn       be distant;go away
-
-    verb     FaCY                      {- naOaY-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n'a IV_0hwnyn", "n'Y IV_0", "na'a PV_ttAw_intr", "n'ay IV_Ann", "na'ay PV_Atn" ]
-                                                            `gloss`  [ "be distant", "go away" ],
-
-    -- ;; nA'aY_1
-    -- nA'Y    nA'aY   PV_0    keep far away
-    -- nA'A    nA'A    PV_h    keep far away
-    -- nA}y    nA}ay   PV_Atn  keep far away
-    -- nA'     nA'     PV_ttAw keep far away
-    -- nA&     nA&     PV_w    keep far away
-    -- nA}y    nA}iy   IV_0hAnn_yu     keep far away
-    -- nA'     nA'     IV_0hwnyn_yu    keep far away
-    -- nA&     nA&     IV_wn_yu        keep far away
-    -- nA}     nA}     IV_yn_yu        keep far away
-    -- nA'Y    nA'aY   IV_0_Pass_yu    be kept far away
-    -- nA}y    nA}ay   IV_Ann_Pass_yu  be kept far away
-
-    verb     FACY                      {- nA'aY -}          -- `others` [ "nA'ay PV_Atn IV_Ann_Pass_yu", "nA'A PV_h", "nA'iy IV_0hAnn_yu", "nA' IV_yn_yu IV_0hwnyn_yu PV_w PV_ttAw IV_wn_yu" ]
-                                                            `gloss`  [ "keep far away", "be kept far away" ],
-
-    -- ;; >ano>aY_1
-    -- >n>Y    >ano>aY PV_0    remove;place at a distance
-    -- An>Y    >ano>aY PV_0    remove;place at a distance
-    -- >n|     >ano|   PV_h    remove;place at a distance
-    -- An|     >ano|   PV_h    remove;place at a distance
-    -- >n>y    >ano>ay PV_Atn  remove;place at a distance
-    -- An>y    >ano>ay PV_Atn  remove;place at a distance
-    -- >n}y    >ano}ay PV_Atn  remove;place at a distance
-    -- An}y    >ano}ay PV_Atn  remove;place at a distance
-    -- >n>     >ano>   PV_ttAw remove;place at a distance
-    -- An>     >ano>   PV_ttAw remove;place at a distance
-    -- >n&     >ano&   PV_w    remove;place at a distance
-    -- An&     >ano&   PV_w    remove;place at a distance
-    -- n}y     no}iy   IV_0hAnn_yu     remove;place at a distance
-    -- n>      no>     IV_0hwnyn_yu    remove;place at a distance
-    -- n&      no&     IV_wn_yu        remove;place at a distance
-    -- n}      no}     IV_yn_yu        remove;place at a distance
-    -- n>Y     no>aY   IV_0_Pass_yu    be removed;be placed at a distance
-    -- n>y     no>ay   IV_Ann_Pass_yu  be removed;be placed at a distance
-
-    verb     HaFCY                     {- OanoOaY -}        -- `others` [ "n'Y IV_0_Pass_yu", "n'iy IV_0hAnn_yu", "'an'ay PV_Atn", "'an'A PV_h", "'an' PV_w PV_ttAw", "n' IV_yn_yu IV_0hwnyn_yu IV_wn_yu", "n'ay IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "remove", "place at a distance", "be removed", "be placed at a distance" ],
-
-    -- ;; tanA'aY_1
-    -- tnA'Y   tanA'aY PV_0    move apart;be separated;be distant
-    -- tnA|    tanA|   PV_h    move apart;be separated;be distant
-    -- tnA}y   tanA}ay PV_Atn  move apart;be separated;be distant
-    -- tnA'    tanA'   PV_ttAw move apart;be separated;be distant
-    -- tnA&    tanA&   PV_w    move apart;be separated;be distant
-    -- tnA'Y   tanA'aY IV_0    move apart;be separated;be distant
-    -- tnA|    tanA|   IV_h    move apart;be separated;be distant
-    -- tnA}y   tanA}ay IV_Ann  move apart;be separated;be distant
-    -- tnA'    tanA'   IV_0hwnyn       move apart;be separated;be distant
-    -- tnA&    tanA&   IV_wn   move apart;be separated;be distant
-    -- tnA}    tanA}   IV_yn   move apart;be separated;be distant
-
-    verb     TaFACY                    {- tanA'aY -}        -- `others` [ "tanA' IV_0hwnyn IV_wn PV_w PV_ttAw IV_yn", "tanA'A PV_h IV_h", "tanA'ay PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "move apart", "be separated", "be distant" ],
-
-    -- ;; {inota>aY_1
-    -- <nt>Y   {inota>aY       PV_0    be distant;go away
-    -- Ant>Y   {inota>aY       PV_0    be distant;go away
-    -- <nt|    {inota| PV_h    be distant;go away
-    -- Ant|    {inota| PV_h    be distant;go away
-    -- <nt>y   {inota>ay       PV_Atn  be distant;go away
-    -- Ant>y   {inota>ay       PV_Atn  be distant;go away
-    -- <nt>    {inota> PV_ttAw_intr    be distant;go away
-    -- Ant>    {inota> PV_ttAw_intr    be distant;go away
-    -- <nt&    {inota& PV_w_intr       be distant;go away
-    -- Ant&    {inota& PV_w_intr       be distant;go away
-    -- nt>y    nota>iy IV_0hAnn        be distant;go away
-    -- nt}y    nota}iy IV_0hAnn        be distant;go away
-    -- nt>     nota>   IV_0hwnyn       be distant;go away
-    -- nt&     nota&   IV_wn   be distant;go away
-    -- nt}     nota}   IV_yn   be distant;go away
-    -- nt>Y    nota>aY IV_0_Pass_yu    be distant;go away
-
-    verb     IFtaCY                    {- {inotaOaY -}      -- `others` [ "inta'ay PV_Atn", "nta' IV_0hwnyn IV_wn IV_yn", "inta'A PV_h", "nta'Y IV_0_Pass_yu", "inta' PV_ttAw_intr PV_w_intr", "nta'iy IV_0hAnn" ]
-                                                            `gloss`  [ "be distant", "go away" ],
-
-    -- ;; na>oy_1
-    -- n>y     na>oy   N       remoteness
-
-    noun     FaCL                      {- naOoy -}          `gloss`  [ "remoteness" ],
-
-    -- ;; na>oy_2
-    -- n>y     na>oy   Ndu     ditch
-    -- n&Y     nu&aY   N0      ditch
-    -- n&A     nu&A    Nhy     ditch
-    -- >n|     >ano|   N0_Nh   ditches
-    -- An|     >ano|   N0_Nh   ditches
-    -- |nA'    |nA'    N0_Nh   ditches
-    -- |nA&    |nA&    Nh      ditches
-    -- |nA}    |nA}    Nhy     ditches
-    -- AnA'    |nA'    N0_Nh   ditches
-    -- AnA&    |nA&    Nh      ditches
-    -- AnA}    |nA}    Nhy     ditches
-
-    noun     FaCL                      {- naOoy -}          -- `others` [ "'an'A N0_Nh", "nu'A Nhy", "nu'Y N0", "'AnA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "ditch", "ditches" ],
-
-    -- ;; >ano>aY_2
-    -- >n>Y    >ano>aY N0      farther/farthest away;more/most distant
-    -- An>Y    >ano>aY N0      farther/farthest away;more/most distant
-
-    noun     HaFCY                     {- OanoOaY -}        `gloss`  [ "farther / farthest away", "more / most distant" ],
 
     -- ;; mano>aY_1
     -- mn>Y    mano>aY N0      distant place;aloofness
@@ -467,17 +76,9 @@ lexicon = listing "Lexicon properties"
     -- mn>y    mano>ay NAn_Nayn        distant place;aloofness
     -- mn>y    mano>ay NAt     distant place;aloofness
 
-    noun     MaFCY                     {- manoOaY -}        -- `others` [ "man'ay NAt NAn_Nayn", "man'A Nhy" ]
-                                                            `gloss`  [ "distant place", "aloofness" ],
-
-    -- ;; tanA}iy_1
-    -- tnA}y   tanA}iy N0_Nh   remoteness;great distance
-    -- tnA'    tanA'   NK      remoteness;great distance
-    -- tnA}y   tanA}iy NAn_Nayn        remoteness;great distance
-    -- tnA}y   tanA}iy NAt     remoteness;great distance
-
-    noun     TaFACI                    {- tanA}iy -}        -- `others` [ "tanA' NK" ]
-                                                            `gloss`  [ "remoteness", "great distance" ],
+    MaFCY                     `noun`       {- manoOaY -}        [ "distant place", "aloofness" ]
+                              `plural`     MaFCaL |< At
+                              {- `others` [ "man'ay NAt NAn_Nayn" ] -},
 
     -- ;; nA}iy_1
     -- nA}y    nA}iy   N0F     remote;distant;secluded     [[nA}iy/ADJ]]
@@ -485,13 +86,12 @@ lexicon = listing "Lexicon properties"
     -- nA}y    nA}iy   NAn_Nayn        remote;distant;secluded
     -- nA}y    nA}iy   NapAt   remote;distant;secluded     [[nA}iy/ADJ]]
 
-    noun     FACiL                     {- nA}iy -}          -- `others` [ "nA' NK" ]
-                                                            `gloss`  [ "remote", "distant", "secluded [ [ nA } iy / ADJ ] ]", "secluded" ],
+    FACiL                     `noun`       {- nA}iy -}          [ "remote", "distant", "secluded" ],
 
     -- ;; nAy_1
     -- nAy     nAy     N/At    nay;bamboo flute
 
-    noun     FAL                       {- nAy -}            `gloss`  [ "nay", "bamboo flute" ] ]
+    FAL                       `noun`       {- nAy -}            [ "nay", "bamboo flute" ] ]
 
  |> "n ' z" <| [
 
@@ -500,135 +100,19 @@ lexicon = listing "Lexicon properties"
     -- nAzy    nAziy~  Nall    Nazi     [[nAziy~/ADJ]]
     -- nAzy    nAziy~  Nap     Nazism     [[nAziy~/NOUN]]
 
-    noun     FAL |< Iy                 {- nAziy~ -}         `gloss`  [ "Nazi [ [ nAziy ~ / NOUN ] ]", "Nazi [ [ nAziy ~ / ADJ ] ]", "Nazism [ [ nAziy ~ / NOUN ] ]" ] ]
-
- |> "n .d .d" <| [
-
-    -- ;; naD~-i_1
-    -- nD      naD~    PV_V    ripple;drip;percolate
-    -- nDD     naDaD   PV_C    ripple;drip;percolate
-    -- nD      niD~    IV_V    ripple;drip;percolate
-    -- nDD     noDiD   IV_C    ripple;drip;percolate
-
-    verb     FaCL                      {- naD~-i -}         `imperf` [ FCiL ]
-                                                            -- `others` [ "ni.d.d IV_V", "n.di.d IV_C", "na.da.d PV_C" ]
-                                                            `gloss`  [ "ripple", "drip", "percolate" ],
-
-    -- ;; naD~aD_1
-    -- nDD     naD~aD  PV      move;shake
-    -- nDD     naD~iD  IV_yu   move;shake
-
-    verb     FaCCaL                    {- naD~aD -}         -- `others` [ "na.d.di.d IV_yu" ]
-                                                            `gloss`  [ "move", "shake" ],
-
-    -- ;; naD~_1
-    -- nD      naD~    N       hard cash
-    -- nD      naD~    NF      in cash     [[naD~/ADV]]
-
-    noun     FaCL                      {- naD~ -}           `gloss`  [ "hard cash", "in cash [ [ naD ~ / ADV ] ]" ],
-
-    -- ;; naD~aY_1
-    -- nDY     naD~aY  PV_0    take off;strip
-    -- nDA     naD~A   PV_h    take off;strip
-    -- nDy     naD~ay  PV_Atn  take off;strip
-    -- nD      naD~    PV_ttAw take off;strip
-    -- nDy     naD~iy  IV_0hAnn_yu     take off;strip
-    -- nD      naD~    IV_0hwnyn_yu    take off;strip
-    -- nDY     naD~aY  IV_0_Pass_yu    be stripped
-    -- nDy     naD~ay  IV_Ann_Pass_yu  be stripped
-
-    verb     FaCLY                     {- naD~aY -}         -- `others` [ "na.d.dA PV_h", "na.d.d IV_0hwnyn_yu PV_ttAw", "na.d.diy IV_0hAnn_yu", "na.d.day PV_Atn IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "take off", "strip", "be stripped" ] ]
-
- |> "n .d .h" <| [
-
-    -- ;; naDaH-i_1
-    -- nDH     naDaH   PV      spray;water
-    -- nDH     noDiH   IV      spray;water
-
-    verb     FaCaL                     {- naDaH-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "n.di.h IV" ]
-                                                            `gloss`  [ "spray", "water" ],
-
-    -- ;; naDaH-i_2
-    -- nDH     naDaH   PV      defend;vindicate
-    -- nDH     noDiH   IV      defend;vindicate
-
-    verb     FaCaL                     {- naDaH-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "n.di.h IV" ]
-                                                            `gloss`  [ "defend", "vindicate" ],
-
-    -- ;; naDaH-a_1
-    -- nDH     naDaH   PV      perspire;leak;spill
-    -- nDH     noDaH   IV      perspire;leak;spill
-
-    verb     FaCaL                     {- naDaH-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.da.h IV" ]
-                                                            `gloss`  [ "perspire", "leak", "spill" ],
-
-    -- ;; naDoH_1
-    -- nDH     naDoH   N       spraying
-
-    noun     FaCL                      {- naDoH -}          `gloss`  [ "spraying" ],
-
-    -- ;; naD~AHap_1
-    -- nDAH    naD~AH  Nap     sprinkler
-
-    noun     FaCCAL |< aT              {- naD~AHap -}       `gloss`  [ "sprinkler" ],
-
-    -- ;; minoDaH_1
-    -- mnDH    minoDaH N       shower
-    -- mnDH    minoDaH Nap     shower
-    -- mnADH   manADiH Ndip    showers
-
-    noun     MiFCaL                    {- minoDaH -}        -- `others` [ "manA.di.h Ndip" ]
-                                                            `gloss`  [ "shower", "showers" ],
-
-    -- ;; minoDaHap_1
-    -- mnDH    minoDaH Nap     sprinkler;watering can
-    -- mnADH   manADiH Ndip    sprinklers;watering cans
-
-    noun     MiFCaL |< aT              {- minoDaHap -}      -- `others` [ "manA.di.h Ndip" ]
-                                                            `gloss`  [ "sprinkler", "watering can", "sprinklers", "watering cans" ] ]
+    FAL |< Iy                 `noun`       {- nAziy~ -}         [ "Nazi", "Nazism" ] ]
 
  |> "n .d ^g" <| [
-
-    -- ;; naDij-a_1
-    -- nDj     naDij   PV_intr be ripe;mature;be well cooked
-    -- nDj     noDaj   IV_intr be ripe;mature;be well cooked
-
-    verb     FaCiL                     {- naDij-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.da^g IV_intr" ]
-                                                            `gloss`  [ "be ripe", "mature", "be well cooked" ],
-
-    -- ;; >anoDaj_1
-    -- >nDj    >anoDaj PV      ripen;bring to maturity;cook well
-    -- AnDj    >anoDaj PV      ripen;bring to maturity;cook well
-    -- nDj     noDij   IV_yu   ripen;bring to maturity;cook well
-    -- nDj     noDaj   IV_Pass_yu      be ripened;be brought to maturity;be cooked well
-
-    verb     HaFCaL                    {- OanoDaj -}        -- `others` [ "n.da^g IV_Pass_yu", "n.di^g IV_yu" ]
-                                                            `gloss`  [ "ripen", "bring to maturity", "cook well", "be ripened", "be brought to maturity", "be cooked well" ],
 
     -- ;; naDoj_1
     -- nDj     naDoj   N       ripeness;maturity
 
-    noun     FaCL                      {- naDoj -}          `gloss`  [ "ripeness", "maturity" ],
-
-    -- ;; nuDuwj_1
-    -- nDwj    nuDuwj  N       ripeness;maturity
-
-    noun     FuCUL                     {- nuDuwj -}         `gloss`  [ "ripeness", "maturity" ],
-
-    -- ;; naDiyj_1
-    -- nDyj    naDiyj  N-ap    ripe;mature;well-cooked     [[naDiyj/ADJ]]
-
-    noun     FaCIL                     {- naDiyj -}         `gloss`  [ "ripe", "mature", "well-cooked [ [ naDiyj / ADJ ] ]" ],
+    FaCL                      `noun`       {- naDoj -}          [ "ripeness", "maturity" ],
 
     -- ;; nADij_1
     -- nADj    nADij   N-ap    ripe;mature;well-cooked     [[nADij/ADJ]]
 
-    noun     FACiL                     {- nADij -}          `gloss`  [ "ripe", "mature", "well-cooked [ [ nADij / ADJ ] ]" ] ]
+    FACiL                     `noun`       {- nADij -}          [ "ripe", "mature", "well-cooked" ] ]
 
  |> "n .d b" <| [
 
@@ -636,468 +120,50 @@ lexicon = listing "Lexicon properties"
     -- nDb     naDab   PV      dwindle;decrease;decline
     -- nDb     noDub   IV      dwindle;decrease;decline
 
-    verb     FaCaL                     {- naDab-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n.dub IV" ]
-                                                            `gloss`  [ "dwindle", "decrease", "decline" ],
-
-    -- ;; >anoDab_1
-    -- >nDb    >anoDab PV      deplete;drain;exhaust
-    -- AnDb    >anoDab PV      deplete;drain;exhaust
-    -- nDb     noDib   IV_yu   deplete;drain;exhaust
-    -- nDb     noDab   IV_Pass_yu      be depleted;be drained;be exhausted
-
-    verb     HaFCaL                    {- OanoDab -}        -- `others` [ "n.dab IV_Pass_yu", "n.dib IV_yu" ]
-                                                            `gloss`  [ "deplete", "drain", "exhaust", "be depleted", "be drained", "be exhausted" ],
-
-    -- ;; nuDuwb_1
-    -- nDwb    nuDuwb  N       barrenness;aridity;sterility
-
-    noun     FuCUL                     {- nuDuwb -}         `gloss`  [ "barrenness", "aridity", "sterility" ],
-
-    -- ;; nADib_1
-    -- nADb    nADib   N/ap    barren;sterile;arid
-    -- nDb     nuD~ab  N       barren;sterile;arid
-
-    noun     FACiL                     {- nADib -}          -- `others` [ "nu.d.dab N" ]
-                                                            `gloss`  [ "barren", "sterile", "arid" ],
+    FaCaL                     `verb`       {- naDab-u -}        [ "dwindle", "decrease", "decline" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "n.dub IV" ] -},
 
     -- ;; munaD~ab_1
     -- mnDb    munaD~ab        N-ap    depleted;drained;exhausted     [[munaD~ab/ADJ]]
 
-    noun     MuFaCCaL                  {- munaD~ab -}       `gloss`  [ "depleted", "drained", "exhausted [ [ munaD ~ ab / ADJ ] ]" ] ]
-
- |> "n .d d" <| [
-
-    -- ;; naDad-i_1
-    -- nDd     naDad   PV      pile up;arrange;order
-    -- nDd     noDid   IV      pile up;arrange;order
-
-    verb     FaCaL                     {- naDad-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "n.did IV" ]
-                                                            `gloss`  [ "pile up", "arrange", "order" ],
-
-    -- ;; naD~ad_1
-    -- nDd     naD~ad  PV      arrange
-    -- nDd     naD~id  IV_yu   arrange
-
-    verb     FaCCaL                    {- naD~ad -}         -- `others` [ "na.d.did IV_yu" ]
-                                                            `gloss`  [ "arrange" ],
-
-    -- ;; naDad_1
-    -- nDd     naDad   N       stack;rows;tiers
-    -- >nDAd   >anoDAd N       stacks;rows;tiers
-    -- AnDAd   >anoDAd N       stacks;rows;tiers
-
-    noun     FaCaL                     {- naDad -}          -- `others` [ "'an.dAd N" ]
-                                                            `gloss`  [ "stack", "rows", "tiers", "stacks" ],
-
-    -- ;; nuDud_1
-    -- nDd     nuDud   N       tables
-
-    noun     FuCuL                     {- nuDud -}          `gloss`  [ "tables" ],
-
-    -- ;; naDiyd_1
-    -- nDyd    naDiyd  N-ap    orderly;arranged in rows;arranged in layers     [[naDiyd/ADJ]]
-
-    noun     FaCIL                     {- naDiyd -}         `gloss`  [ "orderly", "arranged in rows", "arranged in layers [ [ naDiyd / ADJ ] ]" ],
-
-    -- ;; naDiydap_1
-    -- nDyd    naDiyd  Napdu   cushion;mattress;pillow
-    -- nDA}d   naDA}id Ndip    cushions;mattresses;pillows
-
-    noun     FaCIL |< aT               {- naDiydap -}       -- `others` [ "na.dA'id Ndip" ]
-                                                            `gloss`  [ "cushion", "mattress", "pillow", "cushions", "mattresses", "pillows" ],
-
-    -- ;; minoDadap_1
-    -- mnDd    minoDad Nap     cushion;mattress;pillow
-    -- mnADd   manADid Ndip    cushions;mattresses;pillows
-
-    noun     MiFCaL |< aT              {- minoDadap -}      -- `others` [ "manA.did Ndip" ]
-                                                            `gloss`  [ "cushion", "mattress", "pillow", "cushions", "mattresses", "pillows" ],
-
-    -- ;; tanoDiyd_1
-    -- tnDyd   tanoDiyd        N/At    typesetting;composition
-
-    noun     TaFCIL                    {- tanoDiyd -}       `gloss`  [ "typesetting", "composition" ],
-
-    -- ;; munaD~id_1
-    -- mnDd    munaD~id        Nall    typesetter;compositor
-
-    noun     MuFaCCiL                  {- munaD~id -}       `gloss`  [ "typesetter", "compositor" ],
-
-    -- ;; munaD~ad_1
-    -- mnDd    munaD~ad        N-ap    lined up;in a row     [[munaD~ad/ADJ]]
-    -- mnDd    munaD~ad        N-ap    typeset     [[munaD~ad/ADJ]]
-
-    noun     MuFaCCaL                  {- munaD~ad -}       `gloss`  [ "lined up", "in a row [ [ munaD ~ ad / ADJ ] ]", "typeset [ [ munaD ~ ad / ADJ ] ]" ] ]
-
- |> "n .d f" <| [
-
-    -- ;; naDaf_1
-    -- nDf     naDaf   N       wild marjoram
-
-    noun     FaCaL                     {- naDaf -}          `gloss`  [ "wild marjoram" ],
-
-    -- ;; naDif_1
-    -- nDf     naDif   N-ap    dirty;unclean     [[naDif/ADJ]]
-
-    noun     FaCiL                     {- naDif -}          `gloss`  [ "dirty", "unclean [ [ naDif / ADJ ] ]" ],
-
-    -- ;; naDiyf_1
-    -- nDyf    naDiyf  N-ap    dirty;unclean     [[naDiyf/ADJ]]
-
-    noun     FaCIL                     {- naDiyf -}         `gloss`  [ "dirty", "unclean [ [ naDiyf / ADJ ] ]" ] ]
+    MuFaCCaL                  `noun`       {- munaD~ab -}       [ "depleted", "drained", "exhausted" ] ]
 
  |> "n .d l" <| [
-
-    -- ;; naDal-u_1
-    -- nDl     naDal   PV      surpass;defeat
-    -- nDl     noDul   IV      surpass;defeat
-
-    verb     FaCaL                     {- naDal-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n.dul IV" ]
-                                                            `gloss`  [ "surpass", "defeat" ],
 
     -- ;; nADal_1
     -- nADl    nADal   PV      contend with;compete with
     -- nADl    nADil   IV_yu   contend with;compete with
 
-    verb     FACaL                     {- nADal -}          -- `others` [ "nA.dil IV_yu" ]
-                                                            `gloss`  [ "contend with", "compete with" ],
-
-    -- ;; tanADal_1
-    -- tnADl   tanADal PV      contend with each other;compete with each other
-    -- tnADl   tanADal IV      contend with each other;compete with each other
-
-    verb     TaFACaL                   {- tanADal -}        `gloss`  [ "contend with each other", "compete with each other" ],
+    FACaL                     `verb`       {- nADal -}          [ "contend with", "compete with" ]
+                              {- `others` [ "nA.dil IV_yu" ] -},
 
     -- ;; niDAl_1
     -- nDAl    niDAl   Nprop   Nidal
 
-    noun     FiCAL                     {- niDAl -}          `gloss`  [ "Nidal" ],
+    FiCAL                     `noun`       {- niDAl -}          [ "Nidal" ],
 
     -- ;; niDAl_2
     -- nDAl    niDAl   N/At    struggle;battle
 
-    noun     FiCAL                     {- niDAl -}          `gloss`  [ "struggle", "battle" ],
+    FiCAL                     `noun`       {- niDAl -}          [ "struggle", "battle" ],
 
     -- ;; niDAliy~_1
     -- nDAly   niDAliy~        Nall    fighting;pugnacious     [[niDAliy~/ADJ]]
 
-    noun     FiCAL |< Iy               {- niDAliy~ -}       `gloss`  [ "fighting", "pugnacious [ [ niDAliy ~ / ADJ ] ]" ],
+    FiCAL |< Iy               `noun`       {- niDAliy~ -}       [ "fighting", "pugnacious" ],
 
     -- ;; munADalap_1
     -- mnADl   munADal NapAt   struggle;battle
 
-    noun     MuFACaL |< aT             {- munADalap -}      `gloss`  [ "struggle", "battle" ],
+    MuFACaL |< aT             `noun`       {- munADalap -}      [ "struggle", "battle" ],
 
     -- ;; munADil_1
     -- mnADl   munADil Nall    fighting;combatant;fighter
 
-    noun     MuFACiL                   {- munADil -}        `gloss`  [ "fighting", "combatant", "fighter" ] ]
-
- |> "n .d r" <| [
-
-    -- ;; naDar-u_1
-    -- nDr     naDar   PV      flourish;be green;be bright
-    -- nDr     noDur   IV      flourish;be green;be bright
-
-    verb     FaCaL                     {- naDar-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n.dur IV" ]
-                                                            `gloss`  [ "flourish", "be green", "be bright" ],
-
-    -- ;; naDir-a_1
-    -- nDr     naDir   PV      flourish;be green;be bright
-    -- nDr     noDar   IV      flourish;be green;be bright
-
-    verb     FaCiL                     {- naDir-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.dar IV" ]
-                                                            `gloss`  [ "flourish", "be green", "be bright" ],
-
-    -- ;; naDur-u_1
-    -- nDr     naDur   PV      flourish;be green;be bright
-    -- nDr     noDur   IV      flourish;be green;be bright
-
-    verb     FaCuL                     {- naDur-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n.dur IV" ]
-                                                            `gloss`  [ "flourish", "be green", "be bright" ],
-
-    -- ;; naD~ar_1
-    -- nDr     naD~ar  PV      make shine;make bloom
-    -- nDr     naD~ir  IV_yu   make shine;make bloom
-
-    verb     FaCCaL                    {- naD~ar -}         -- `others` [ "na.d.dir IV_yu" ]
-                                                            `gloss`  [ "make shine", "make bloom" ],
-
-    -- ;; tanaD~ar_1
-    -- tnDr    tanaD~ar        PV_intr be lush;blossom
-    -- tnDr    tanaD~ar        IV_intr be lush;blossom
-
-    verb     TaFaCCaL                  {- tanaD~ar -}       `gloss`  [ "be lush", "blossom" ],
-
-    -- ;; naDir_1
-    -- nDr     naDir   N-ap    flourishing;blooming
-    -- nDwr    nuDuwr  N       flourishing;blooming
-
-    noun     FaCiL                     {- naDir -}          -- `others` [ "nu.duwr N" ]
-                                                            `gloss`  [ "flourishing", "blooming" ],
-
-    -- ;; naDorap_1
-    -- nDr     naDor   Nap     bloom;splendor;wealth
-
-    noun     FaCL |< aT                {- naDorap -}        `gloss`  [ "bloom", "splendor", "wealth" ],
-
-    -- ;; nuDAr_1
-    -- nDAr    nuDAr   N       pure gold
-
-    noun     FuCAL                     {- nuDAr -}          `gloss`  [ "pure gold" ],
-
-    -- ;; naDArap_1
-    -- nDAr    naDAr   Nap     bloom;vigor
-
-    noun     FaCAL |< aT               {- naDArap -}        `gloss`  [ "bloom", "vigor" ],
-
-    -- ;; naDiyr_1
-    -- nDyr    naDiyr  N-ap    flourishing;blooming     [[naDiyr/ADJ]]
-
-    noun     FaCIL                     {- naDiyr -}         `gloss`  [ "flourishing", "blooming [ [ naDiyr / ADJ ] ]" ],
-
-    -- ;; nADir_1
-    -- nADr    nADir   N-ap    flourishing;blooming     [[nADir/ADJ]]
-
-    noun     FACiL                     {- nADir -}          `gloss`  [ "flourishing", "blooming [ [ nADir / ADJ ] ]" ] ]
-
- |> "n .d w" <| [
-
-    -- ;; naDA-u_1
-    -- nDA     naDA    PV_0h   undress;dwindle;decline
-    -- nDw     naDaw   PV_Atn  undress;dwindle;decline
-    -- nD      naD     PV_ttAw undress;dwindle;decline
-    -- nDw     noDuw   IV_0hAnn        undress;dwindle;decline
-    -- nD      noD     IV_0hwnyn       undress;dwindle;decline
-    -- nDY     noDaY   IV_0_Pass_yu    be undressed
-    -- nDy     noDay   IV_Ann_Pass_yu  be undressed
-
-    verb     FaCA                      {- naDA-u -}         `imperf` [ FCuL ]
-                                                            -- `others` [ "n.duw IV_0hAnn", "n.day IV_Ann_Pass_yu", "na.d PV_ttAw", "na.daw PV_Atn", "n.dY IV_0_Pass_yu", "n.d IV_0hwnyn" ]
-                                                            `gloss`  [ "undress", "dwindle", "decline", "be undressed" ],
-
-    -- ;; naD~aY_1
-    -- nDY     naD~aY  PV_0    take off;strip
-    -- nDA     naD~A   PV_h    take off;strip
-    -- nDy     naD~ay  PV_Atn  take off;strip
-    -- nD      naD~    PV_ttAw take off;strip
-    -- nDy     naD~iy  IV_0hAnn_yu     take off;strip
-    -- nD      naD~    IV_0hwnyn_yu    take off;strip
-    -- nDY     naD~aY  IV_0_Pass_yu    be stripped
-    -- nDy     naD~ay  IV_Ann_Pass_yu  be stripped
-
-    verb     FaCCY                     {- naD~aY -}         -- `others` [ "na.d.dA PV_h", "na.d.d IV_0hwnyn_yu PV_ttAw", "na.d.diy IV_0hAnn_yu", "na.d.day PV_Atn IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "take off", "strip", "be stripped" ],
-
-    -- ;; >anoDaY_1
-    -- >nDY    >anoDaY PV_0    exhaust;make lean;wear out
-    -- AnDY    >anoDaY PV_0    exhaust;make lean;wear out
-    -- >nDA    >anoDA  PV_h    exhaust;make lean;wear out
-    -- AnDA    >anoDA  PV_h    exhaust;make lean;wear out
-    -- >nDy    >anoDay PV_Atn  exhaust;make lean;wear out
-    -- AnDy    >anoDay PV_Atn  exhaust;make lean;wear out
-    -- >nD     >anoD   PV_ttAw exhaust;make lean;wear out
-    -- AnD     >anoD   PV_ttAw exhaust;make lean;wear out
-    -- nDy     noDiy   IV_0hAnn_yu     exhaust;make lean;wear out
-    -- nD      noD     IV_0hwnyn_yu    exhaust;make lean;wear out
-    -- nDY     noDaY   IV_0_Pass_yu    be depleted;be worn out
-    -- nDy     noDay   IV_Ann_Pass_yu  be depleted;be worn out
-
-    verb     HaFCY                     {- OanoDaY -}        -- `others` [ "n.day IV_Ann_Pass_yu", "'an.dA PV_h", "n.dY IV_0_Pass_yu", "'an.day PV_Atn", "'an.d PV_ttAw", "n.diy IV_0hAnn_yu", "n.d IV_0hwnyn_yu" ]
-                                                            `gloss`  [ "exhaust", "make lean", "wear out", "be depleted", "be worn out" ],
-
-    -- ;; {inotaDaY_1
-    -- <ntDY   {inotaDaY       PV_0    unsheathe
-    -- AntDY   {inotaDaY       PV_0    unsheathe
-    -- <ntDA   {inotaDA        PV_h    unsheathe
-    -- AntDA   {inotaDA        PV_h    unsheathe
-    -- <ntDy   {inotaDay       PV_Atn  unsheathe
-    -- AntDy   {inotaDay       PV_Atn  unsheathe
-    -- <ntD    {inotaD PV_ttAw unsheathe
-    -- AntD    {inotaD PV_ttAw unsheathe
-    -- ntDy    notaDiy IV_0hAnn        unsheathe
-    -- ntD     notaD   IV_0hwnyn       unsheathe
-    -- ntDY    notaDaY IV_0    unsheathe
-
-    verb     IFtaCY                    {- {inotaDaY -}      -- `others` [ "nta.d IV_0hwnyn", "inta.dA PV_h", "nta.dY IV_0", "nta.diy IV_0hAnn", "inta.d PV_ttAw", "inta.day PV_Atn" ]
-                                                            `gloss`  [ "unsheathe" ],
-
-    -- ;; naDow_1
-    -- nDw     naDow   Ndu     tattered garment
-    -- >nDA'   >anoDA' N0_Nh   tattered garment
-    -- AnDA'   >anoDA' N0_Nh   tattered garment
-    -- >nDA&   >anoDA& Nh      tattered garment
-    -- AnDA&   >anoDA& Nh      tattered garment
-    -- >nDA}   >anoDA} Nhy     tattered garment
-    -- AnDA}   >anoDA} Nhy     tattered garment
-
-    noun     FaCL                      {- naDow -}          -- `others` [ "'an.dA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "tattered garment" ],
-
-    -- ;; niDow_1
-    -- nDw     niDow   N-ap    lean
-    -- >nDA'   >anoDA' N0_Nh   lean
-    -- AnDA'   >anoDA' N0_Nh   lean
-    -- >nDA&   >anoDA& Nh      lean
-    -- AnDA&   >anoDA& Nh      lean
-    -- >nDA}   >anoDA} Nhy     lean
-    -- AnDA}   >anoDA} Nhy     lean
-
-    noun     FiCL                      {- niDow -}          -- `others` [ "'an.dA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "lean" ] ]
-
- |> "n .g .s" <| [
-
-    -- ;; nag~aS_1
-    -- ngS     nag~aS  PV      disturb;make loathsome
-    -- ngS     nag~iS  IV_yu   disturb;make loathsome
-
-    verb     FaCCaL                    {- nag~aS -}         -- `others` [ "na.g.gi.s IV_yu" ]
-                                                            `gloss`  [ "disturb", "make loathsome" ],
-
-    -- ;; >anogaS_1
-    -- >ngS    >anogaS PV      disturb;make loathsome
-    -- AngS    >anogaS PV      disturb;make loathsome
-    -- ngS     nogiS   IV_yu   disturb;make loathsome
-    -- ngS     nogaS   IV_Pass_yu      be disturbed;be made loathsome
-
-    verb     HaFCaL                    {- OanogaS -}        -- `others` [ "n.gi.s IV_yu", "n.ga.s IV_Pass_yu" ]
-                                                            `gloss`  [ "disturb", "make loathsome", "be disturbed", "be made loathsome" ],
-
-    -- ;; tanag~aS_1
-    -- tngS    tanag~aS        PV_intr be disturbed;become loathsome
-    -- tngS    tanag~aS        IV_intr be disturbed;become loathsome
-
-    verb     TaFaCCaL                  {- tanag~aS -}       `gloss`  [ "be disturbed", "become loathsome" ] ]
-
- |> "n .g ^s" <| [
-
-    -- ;; naga$-a_1
-    -- ng$     naga$   PV_intr be agitated;be shaken
-    -- ng$     noga$   IV_intr be agitated;be shaken
-
-    verb     FaCaL                     {- naga$-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.ga^s IV_intr" ]
-                                                            `gloss`  [ "be agitated", "be shaken" ],
-
-    -- ;; nAga$_1
-    -- nAg$    nAga$   PV      play with;tease;flirt with
-    -- nAg$    nAgi$   IV_yu   play with;tease;flirt with
-
-    verb     FACaL                     {- nAga$ -}          -- `others` [ "nA.gi^s IV_yu" ]
-                                                            `gloss`  [ "play with", "tease", "flirt with" ],
-
-    -- ;; tanag~a$_1
-    -- tng$    tanag~a$        PV_intr be agitated;be shaken
-    -- tng$    tanag~a$        IV_intr be agitated;be shaken
-
-    verb     TaFaCCaL                  {- tanag~a$ -}       `gloss`  [ "be agitated", "be shaken" ],
-
-    -- ;; nago$ap_1
-    -- ng$     nago$   Napdu   motion;shaking
-    -- ng$     naga$   NAt     motions;shaking
-
-    noun     FaCL |< aT                {- nago$ap -}        -- `others` [ "na.ga^s NAt" ]
-                                                            `gloss`  [ "motion", "shaking", "motions" ],
-
-    -- ;; nugA$_1
-    -- ngA$    nugA$   Ndu     midget;dwarf
-
-    noun     FuCAL                     {- nugA$ -}          `gloss`  [ "midget", "dwarf" ],
-
-    -- ;; nugA$iy~_1
-    -- ngA$y   nugA$iy~        Nall    midget;dwarf     [[nugA$iy~/ADJ]]
-
-    noun     FuCAL |< Iy               {- nugA$iy~ -}       `gloss`  [ "midget", "dwarf [ [ nugA $ iy ~ / ADJ ] ]" ],
-
-    -- ;; nagA$ap_1
-    -- ngA$    nagA$   Nap     banter;teasing;elegance
-
-    noun     FaCAL |< aT               {- nagA$ap -}        `gloss`  [ "banter", "teasing", "elegance" ] ]
-
- |> "n .g b" <| [
-
-    -- ;; nagobap_1
-    -- ngb     nagob   Napdu   gulp;draught
-
-    noun     FaCL |< aT                {- nagobap -}        `gloss`  [ "gulp", "draught" ],
-
-    -- ;; nugobap_1
-    -- ngb     nugob   Napdu   gulp;draught
-
-    noun     FuCL |< aT                {- nugobap -}        `gloss`  [ "gulp", "draught" ] ]
-
- |> "n .g b ^s" <| [
-
-    -- ;; nagoba$ap_1
-    -- ngb$    nagoba$ Nap     noise
-
-    noun     KaRDaS |< aT              {- nagoba$ap -}      `gloss`  [ "noise" ] ]
-
- |> "n .g l" <| [
-
-    -- ;; nagil-a_1
-    -- ngl     nagil   PV      fester
-    -- ngl     nogal   IV      fester
-
-    verb     FaCiL                     {- nagil-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.gal IV" ]
-                                                            `gloss`  [ "fester" ],
-
-    -- ;; nagol_1
-    -- ngl     nagol   N-ap    illegitimate child;bastard
-    -- ngl     nagil   N-ap    illegitimate child;bastard
-
-    noun     FaCL                      {- nagol -}          -- `others` [ "na.gil N-ap" ]
-                                                            `gloss`  [ "illegitimate child", "bastard" ],
-
-    -- ;; nagiyl_1
-    -- ngyl    nagiyl  N/ap    illegitimate child;bastard
-
-    noun     FaCIL                     {- nagiyl -}         `gloss`  [ "illegitimate child", "bastard" ],
-
-    -- ;; nuguwlap_1
-    -- ngwl    nuguwl  Nap     illegitimacy;bastardy
-
-    noun     FuCUL |< aT               {- nuguwlap -}       `gloss`  [ "illegitimacy", "bastardy" ] ]
+    MuFACiL                   `noun`       {- munADil -}        [ "fighting", "combatant", "fighter" ] ]
 
  |> "n .g m" <| [
-
-    -- ;; nagam-ui_1
-    -- ngm     nagam   PV      hum softly
-    -- ngm     nogum   IV      hum softly
-    -- ngm     nogim   IV      hum softly
-
-    verb     FaCaL                     {- nagam-ui -}       `imperf` [ FCuL, FCiL ]
-                                                            -- `others` [ "n.gim IV", "n.gum IV" ]
-                                                            `gloss`  [ "hum softly" ],
-
-    -- ;; nagim-a_1
-    -- ngm     nagim   PV      hum softly
-    -- ngm     nogam   IV      hum softly
-
-    verb     FaCiL                     {- nagim-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.gam IV" ]
-                                                            `gloss`  [ "hum softly" ],
-
-    -- ;; nag~am_1
-    -- ngm     nag~am  PV      hum softly
-    -- ngm     nag~im  IV_yu   hum softly
-
-    verb     FaCCaL                    {- nag~am -}         -- `others` [ "na.g.gim IV_yu" ]
-                                                            `gloss`  [ "hum softly" ],
-
-    -- ;; tanag~am_1
-    -- tngm    tanag~am        PV      hum softly
-    -- tngm    tanag~am        IV      hum softly
-
-    verb     TaFaCCaL                  {- tanag~am -}       `gloss`  [ "hum softly" ],
 
     -- ;; nagom_1
     -- ngm     nagom   N       tune;sound;voice
@@ -1105,413 +171,46 @@ lexicon = listing "Lexicon properties"
     -- >ngAm   >anogAm N       tunes;sounds;voices
     -- AngAm   >anogAm N       tunes;sounds;voices
 
-    noun     FaCL                      {- nagom -}          -- `others` [ "'an.gAm N", "na.gam N" ]
-                                                            `gloss`  [ "tune", "sound", "voice", "tunes", "sounds", "voices" ],
+    FaCL                      `noun`       {- nagom -}          [ "tune", "sound", "voice", "tunes", "sounds", "voices" ]
+                              `plural`     HaFCAL
+                              `plural`     FaCaL
+                              {- `others` [ "'an.gAm N", "na.gam N" ] -},
 
     -- ;; nagomap_1
     -- ngm     nagom   Napdu   tune;song;sound
     -- ngm     nagam   NAt     tunes;songs;sounds
 
-    noun     FaCL |< aT                {- nagomap -}        -- `others` [ "na.gam NAt" ]
-                                                            `gloss`  [ "tune", "song", "sound", "tunes", "songs", "sounds" ],
+    FaCL |< aT                `noun`       {- nagomap -}        [ "tune", "song", "sound", "tunes", "songs", "sounds" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "na.gam NAt" ] -},
 
     -- ;; tanAgum_1
     -- tnAgm   tanAgum N/At    harmony;symphony
 
-    noun     TaFACuL                   {- tanAgum -}        `gloss`  [ "harmony", "symphony" ],
-
-    -- ;; manoguwm_1
-    -- mngwm   manoguwm        N-ap    melodious;lilting     [[manoguwm/ADJ]]
-
-    noun     MaFCUL                    {- manoguwm -}       `gloss`  [ "melodious", "lilting [ [ manoguwm / ADJ ] ]" ],
-
-    -- ;; munag~am_1
-    -- mngm    munag~am        N-ap    hummed softly     [[munag~am/ADJ]]
-
-    noun     MuFaCCaL                  {- munag~am -}       `gloss`  [ "hummed softly [ [ munag ~ am / ADJ ] ]" ] ]
-
- |> "n .g w" <| [
-
-    -- ;; nagA-u_1
-    -- ngA     nagA    PV_0h   speak
-    -- ngw     nagaw   PV_Atn  speak
-    -- ng      nag     PV_ttAw speak
-    -- ngw     noguw   IV_0hAnn        speak
-    -- ng      nog     IV_0hwnyn       speak
-    -- ngY     nogaY   IV_0_Pass_yu    be spoken
-    -- ngy     nogay   IV_Ann_Pass_yu  be spoken
-
-    verb     FaCA                      {- nagA-u -}         `imperf` [ FCuL ]
-                                                            -- `others` [ "n.g IV_0hwnyn", "na.gaw PV_Atn", "n.gay IV_Ann_Pass_yu", "n.guw IV_0hAnn", "na.g PV_ttAw", "n.gY IV_0_Pass_yu" ]
-                                                            `gloss`  [ "speak", "be spoken" ],
-
-    -- ;; nagaY-i_1
-    -- ngY     nagaY   PV_0    speak
-    -- ngA     nagA    PV_h    speak
-    -- ngy     nagay   PV_Atn  speak
-    -- ng      nag     PV_ttAw speak
-    -- ngy     nogiy   IV_0hAnn        speak
-    -- ng      nog     IV_0hwnyn       speak
-    -- ngY     nogaY   IV_0_Pass_yu    be spoken
-
-    verb     FaCY                      {- nagaY-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "na.gay PV_Atn", "n.g IV_0hwnyn", "n.giy IV_0hAnn", "na.g PV_ttAw", "n.gY IV_0_Pass_yu", "na.gA PV_h" ]
-                                                            `gloss`  [ "speak", "be spoken" ],
-
-    -- ;; nAgaY_1
-    -- nAgY    nAgaY   PV_0    whisper;flatter;twitter
-    -- nAgA    nAgA    PV_h    whisper;flatter;twitter
-    -- nAgy    nAgay   PV_Atn  whisper;flatter;twitter
-    -- nAg     nAg     PV_ttAw whisper;flatter;twitter
-    -- nAgy    nAgiy   IV_0hAnn_yu     whisper;flatter;twitter
-    -- nAg     nAg     IV_0hwnyn_yu    whisper;flatter;twitter
-    -- nAgY    nAgaY   IV_0_Pass_yu    be twittered;be flirted with
-    -- nAgy    nAgay   IV_Ann_Pass_yu  be twittered;be flirted with
-
-    verb     FACY                      {- nAgaY -}          -- `others` [ "nA.giy IV_0hAnn_yu", "nA.gA PV_h", "nA.g IV_0hwnyn_yu PV_ttAw", "nA.gay PV_Atn IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "whisper", "flatter", "twitter", "be twittered", "be flirted with" ],
-
-    -- ;; nagow_1
-    -- ngw     nagow   N       speaking
-
-    noun     FaCL                      {- nagow -}          `gloss`  [ "speaking" ] ]
-
- |> "n .g y" <| [
-
-    -- ;; nagoy_1
-    -- ngy     nagoy   N       speaking
-
-    noun     FaCL                      {- nagoy -}          `gloss`  [ "speaking" ] ]
-
- |> "n .g z" <| [
-
-    -- ;; nagaz-a_1
-    -- ngz     nagaz   PV      tickle;prick;sow dissension
-    -- ngz     nogaz   IV      tickle;prick;sow dissension
-
-    verb     FaCaL                     {- nagaz-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.gaz IV" ]
-                                                            `gloss`  [ "tickle", "prick", "sow dissension" ],
-
-    -- ;; nagoz_1
-    -- ngz     nagoz   N       tickling;pricking;sowing dissension
-
-    noun     FaCL                      {- nagoz -}          `gloss`  [ "tickling", "pricking", "sowing dissension" ] ]
-
- |> "n .h .h" <| [
-
-    -- ;; naH~At_1
-    -- nHAt    naH~At  Nall    sculptor
-    -- nHAt    naH~At  Nall    stonemason
-
-    noun     FaCL |< At                {- naH~At -}         `gloss`  [ "sculptor", "stonemason" ],
-
-    -- ;; naH~At_2
-    -- nHAt    naH~At  N0      Nahhat
-
-    noun     FaCL |< At                {- naH~At -}         `gloss`  [ "Nahhat" ],
-
-    -- ;; naH~aY_1
-    -- nHY     naH~aY  PV_0    put aside;eliminate
-    -- nHA     naH~A   PV_h    put aside;eliminate
-    -- nHy     naH~ay  PV_Atn  put aside;eliminate
-    -- nH      naH~    PV_ttAw put aside;eliminate
-    -- nHy     naH~iy  IV_0hAnn_yu     put aside;eliminate
-    -- nH      naH~    IV_0hwnyn_yu    put aside;eliminate
-    -- nHY     naH~aY  IV_0_Pass_yu    be put aside;be eliminated
-    -- nHy     naH~ay  IV_Ann_Pass_yu  be put aside;be eliminated
-
-    verb     FaCLY                     {- naH~aY -}         -- `others` [ "na.h.hiy IV_0hAnn_yu", "na.h.h IV_0hwnyn_yu PV_ttAw", "na.h.hay PV_Atn IV_Ann_Pass_yu", "na.h.hA PV_h" ]
-                                                            `gloss`  [ "put aside", "eliminate", "be put aside", "be eliminated" ] ]
-
- |> "n .h b" <| [
-
-    -- ;; naHab-ia_1
-    -- nHb     naHab   PV      weep;sob
-    -- nHb     noHib   IV      weep;sob
-    -- nHb     noHab   IV      weep;sob
-
-    verb     FaCaL                     {- naHab-ia -}       `imperf` [ FCiL, FCaL ]
-                                                            -- `others` [ "n.hab IV", "n.hib IV" ]
-                                                            `gloss`  [ "weep", "sob" ],
-
-    -- ;; {inotaHab_1
-    -- <ntHb   {inotaHab       PV      weep;sob
-    -- AntHb   {inotaHab       PV      weep;sob
-    -- ntHb    notaHib IV      weep;sob
-
-    verb     IFtaCaL                   {- {inotaHab -}      -- `others` [ "nta.hib IV" ]
-                                                            `gloss`  [ "weep", "sob" ],
-
-    -- ;; naHob_1
-    -- nHb     naHob   N       weeping;lamentation
-
-    noun     FaCL                      {- naHob -}          `gloss`  [ "weeping", "lamentation" ],
-
-    -- ;; naHiyb_1
-    -- nHyb    naHiyb  N       weeping;lamentation
-
-    noun     FaCIL                     {- naHiyb -}         `gloss`  [ "weeping", "lamentation" ] ]
-
- |> "n .h f" <| [
-
-    -- ;; naHuf-u_1
-    -- nHf     naHuf   PV_intr be thin;lose weight
-    -- nHf     noHuf   IV_intr be thin;lose weight
-
-    verb     FaCuL                     {- naHuf-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n.huf IV_intr" ]
-                                                            `gloss`  [ "be thin", "lose weight" ],
-
-    -- ;; naH~af_1
-    -- nHf     naH~af  PV      emaciate;weaken
-    -- nHf     naH~if  IV_yu   emaciate;weaken
-
-    verb     FaCCaL                    {- naH~af -}         -- `others` [ "na.h.hif IV_yu" ]
-                                                            `gloss`  [ "emaciate", "weaken" ],
-
-    -- ;; >anoHaf_1
-    -- >nHf    >anoHaf PV      emaciate;weaken
-    -- AnHf    >anoHaf PV      emaciate;weaken
-    -- nHf     noHif   IV_yu   emaciate;weaken
-
-    verb     HaFCaL                    {- OanoHaf -}        -- `others` [ "n.hif IV_yu" ]
-                                                            `gloss`  [ "emaciate", "weaken" ],
-
-    -- ;; naHAfap_1
-    -- nHAf    naHAf   Nap     emaciation;leanness
-
-    noun     FaCAL |< aT               {- naHAfap -}        `gloss`  [ "emaciation", "leanness" ],
-
-    -- ;; naHiyf_1
-    -- nHyf    naHiyf  N/ap    weak;emaciated
-    -- nHAf    niHAf   N       weak;emaciated
-    -- nHfA'   nuHafA' N0_Nh   weak;emaciated
-    -- nHfA&   nuHafA& Nh      weak;emaciated
-    -- nHfA}   nuHafA} Nhy     weak;emaciated
-
-    noun     FaCIL                     {- naHiyf -}         -- `others` [ "nu.hafA' Nh Nhy N0_Nh", "ni.hAf N" ]
-                                                            `gloss`  [ "weak", "emaciated" ],
-
-    -- ;; manoHaf_1
-    -- mnHf    manoHaf N       dieting clinic;weight-reducing resort
-
-    noun     MaFCaL                    {- manoHaf -}        `gloss`  [ "dieting clinic", "weight-reducing resort" ],
-
-    -- ;; tanoHiyf_1
-    -- tnHyf   tanoHiyf        N/At    weakening;emaciation
-
-    noun     TaFCIL                    {- tanoHiyf -}       `gloss`  [ "weakening", "emaciation" ],
-
-    -- ;; manoHuwf_1
-    -- mnHwf   manoHuwf        Nall    slender;debilitated;emaciated     [[manoHuwf/ADJ]]
-
-    noun     MaFCUL                    {- manoHuwf -}       `gloss`  [ "slender", "debilitated", "emaciated [ [ manoHuwf / ADJ ] ]" ] ]
+    TaFACuL                   `noun`       {- tanAgum -}        [ "harmony", "symphony" ] ]
 
  |> "n .h l" <| [
-
-    -- ;; naHal-ua_1
-    -- nHl     naHal   PV_intr be emaciated;lose weight
-    -- nHl     noHul   IV_intr be emaciated;lose weight
-    -- nHl     noHal   IV_intr be emaciated;lose weight
-
-    verb     FaCaL                     {- naHal-ua -}       `imperf` [ FCuL, FCaL ]
-                                                            -- `others` [ "n.hal IV_intr", "n.hul IV_intr" ]
-                                                            `gloss`  [ "be emaciated", "lose weight" ],
-
-    -- ;; naHul-u_1
-    -- nHl     naHul   PV_intr be emaciated;lose weight
-    -- nHl     noHul   IV_intr be emaciated;lose weight
-
-    verb     FaCuL                     {- naHul-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n.hul IV_intr" ]
-                                                            `gloss`  [ "be emaciated", "lose weight" ],
-
-    -- ;; naHil-a_1
-    -- nHl     naHil   PV_intr be emaciated;lose weight
-    -- nHl     noHal   IV_intr be emaciated;lose weight
-
-    verb     FaCiL                     {- naHil-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.hal IV_intr" ]
-                                                            `gloss`  [ "be emaciated", "lose weight" ],
-
-    -- ;; naHal-a_1
-    -- nHl     naHal   PV      make a donation to;attribute to
-    -- nHl     noHal   IV      make a donation to;attribute to
-
-    verb     FaCaL                     {- naHal-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.hal IV" ]
-                                                            `gloss`  [ "make a donation to", "attribute to" ],
-
-    -- ;; >anoHal_1
-    -- >nHl    >anoHal PV      emaciate;weaken
-    -- AnHl    >anoHal PV      emaciate;weaken
-    -- nHl     noHil   IV_yu   emaciate;weaken
-    -- nHl     noHal   IV_Pass_yu      be emaciated;be weakened
-
-    verb     HaFCaL                    {- OanoHal -}        -- `others` [ "n.hal IV_Pass_yu", "n.hil IV_yu" ]
-                                                            `gloss`  [ "emaciate", "weaken", "be emaciated", "be weakened" ],
-
-    -- ;; tanaH~al_1
-    -- tnHl    tanaH~al        PV      claim;adopt
-    -- tnHl    tanaH~al        IV      claim;adopt
-
-    verb     TaFaCCaL                  {- tanaH~al -}       `gloss`  [ "claim", "adopt" ],
-
-    -- ;; {inotaHal_1
-    -- <ntHl   {inotaHal       PV      claim;plagiarize;adopt
-    -- AntHl   {inotaHal       PV      claim;plagiarize;adopt
-    -- ntHl    notaHil IV      claim;plagiarize;adopt
-
-    verb     IFtaCaL                   {- {inotaHal -}      -- `others` [ "nta.hil IV" ]
-                                                            `gloss`  [ "claim", "plagiarize", "adopt" ],
 
     -- ;; naHol_1
     -- nHl     naHol   N       bees
     -- nHl     naHol   Napdu   bee
 
-    noun     FaCL                      {- naHol -}          `gloss`  [ "bees", "bee" ],
-
-    -- ;; naHol_2
-    -- nHl     naHol   N       false attribution
-
-    noun     FaCL                      {- naHol -}          `gloss`  [ "false attribution" ],
-
-    -- ;; niHolap_1
-    -- nHl     niHol   Napdu   gift;creed
-    -- nHl     niHal   N       gifts;creeds
-
-    noun     FiCL |< aT                {- niHolap -}        -- `others` [ "ni.hal N" ]
-                                                            `gloss`  [ "gift", "creed", "gifts", "creeds" ],
-
-    -- ;; naH~Al_1
-    -- nHAl    naH~Al  Nall    plagiarist
-
-    noun     FaCCAL                    {- naH~Al -}         `gloss`  [ "plagiarist" ],
-
-    -- ;; naH~Al_2
-    -- nHAl    naH~Al  Nall    beekeeper;apiarist
-
-    noun     FaCCAL                    {- naH~Al -}         `gloss`  [ "beekeeper", "apiarist" ],
+    FaCL                      `noun`       {- naHol -}          [ "bees", "bee" ],
 
     -- ;; naH~Al_3
     -- nHAl    naH~Al  N0      Nahhal
 
-    noun     FaCCAL                    {- naH~Al -}         `gloss`  [ "Nahhal" ],
-
-    -- ;; niHAlap_1
-    -- nHAl    niHAl   Nap     beekeeping
-
-    noun     FiCAL |< aT               {- niHAlap -}        `gloss`  [ "beekeeping" ],
-
-    -- ;; nuHuwl_1
-    -- nHwl    nuHuwl  N       leanness;emaciation
-
-    noun     FuCUL                     {- nuHuwl -}         `gloss`  [ "leanness", "emaciation" ],
+    FaCCAL                    `noun`       {- naH~Al -}         [ "Nahhal" ],
 
     -- ;; naHiyl_1
     -- nHyl    naHiyl  N/ap    slender;emaciated     [[naHiyl/ADJ]]
     -- nHl     nuH~al  N       slender;emaciated
     -- nAHl    nAHil   N/ap    slender;emaciated
 
-    noun     FaCIL                     {- naHiyl -}         -- `others` [ "nA.hil N/ap", "nu.h.hal N" ]
-                                                            `gloss`  [ "slender", "emaciated [ [ naHiyl / ADJ ] ]", "emaciated" ],
-
-    -- ;; naHiyl_2
-    -- nHyl    naHiyl  N-ap    narrow;weak     [[naHiyl/ADJ]]
-
-    noun     FaCIL                     {- naHiyl -}         `gloss`  [ "narrow", "weak [ [ naHiyl / ADJ ] ]" ],
-
-    -- ;; nAHil_1
-    -- nAHl    nAHil   N-ap    narrow;weak     [[nAHil/ADJ]]
-
-    noun     FACiL                     {- nAHil -}          `gloss`  [ "narrow", "weak [ [ nAHil / ADJ ] ]" ],
-
-    -- ;; nAHil_2
-    -- nAHl    nAHil   N-ap    slender;emaciated     [[nAHil/ADJ]]
-    -- nHlY    naHolaY N0      slender;emaciated
-    -- nHlA    naHolA  Nhy     slender;emaciated
-
-    noun     FACiL                     {- nAHil -}          -- `others` [ "na.hlA Nhy", "na.hlY N0" ]
-                                                            `gloss`  [ "slender", "emaciated [ [ nAHil / ADJ ] ]", "emaciated" ],
-
-    -- ;; manoHal_1
-    -- mnHl    manoHal Ndu     beehive;apiary
-    -- mnAHl   manAHil Ndip    beehives;apiaries
-
-    noun     MaFCaL                    {- manoHal -}        -- `others` [ "manA.hil Ndip" ]
-                                                            `gloss`  [ "beehive", "apiary", "beehives", "apiaries" ],
-
-    -- ;; {inotiHAl_1
-    -- <ntHAl  {inotiHAl       N/At    plagiarism;undue assumption
-    -- AntHAl  {inotiHAl       N/At    plagiarism;undue assumption
-
-    noun     IFtiCAL                   {- {inotiHAl -}      `gloss`  [ "plagiarism", "undue assumption" ],
-
-    -- ;; manoHuwl_1
-    -- mnHwl   manoHuwl        N-ap    spurious;apocryphal     [[manoHuwl/ADJ]]
-
-    noun     MaFCUL                    {- manoHuwl -}       `gloss`  [ "spurious", "apocryphal [ [ manoHuwl / ADJ ] ]" ],
-
-    -- ;; munotaHil_1
-    -- mntHl   munotaHil       Nall    plagiarist
-
-    noun     MuFtaCiL                  {- munotaHil -}      `gloss`  [ "plagiarist" ],
-
-    -- ;; munotaHal_1
-    -- mntHl   munotaHal       N-ap    plagiarized;spurious     [[munotaHal/ADJ]]
-
-    noun     MuFtaCaL                  {- munotaHal -}      `gloss`  [ "plagiarized", "spurious [ [ munotaHal / ADJ ] ]" ] ]
-
- |> "n .h m" <| [
-
-    -- ;; naHam-i_1
-    -- nHm     naHam   PV      clear the throat;wheeze;gasp
-    -- nHm     noHim   IV      clear the throat;wheeze;gasp
-
-    verb     FaCaL                     {- naHam-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "n.him IV" ]
-                                                            `gloss`  [ "clear the throat", "wheeze", "gasp" ],
-
-    -- ;; naHom_1
-    -- nHm     naHom   N       clearing the throat;wheezing;gasping
-
-    noun     FaCL                      {- naHom -}          `gloss`  [ "clearing the throat", "wheezing", "gasping" ],
-
-    -- ;; naHiym_1
-    -- nHym    naHiym  N       clearing the throat;wheezing;gasping
-
-    noun     FaCIL                     {- naHiym -}         `gloss`  [ "clearing the throat", "wheezing", "gasping" ],
-
-    -- ;; naHamAn_1
-    -- nHmAn   naHamAn N       clearing the throat;wheezing;gasping
-
-    noun     FaCaLAn                   {- naHamAn -}        `gloss`  [ "clearing the throat", "wheezing", "gasping" ],
-
-    -- ;; nuHAm_1
-    -- nHAm    nuHAm   N       flamingo
-
-    noun     FuCAL                     {- nuHAm -}          `gloss`  [ "flamingo" ] ]
-
- |> "n .h n .h" <| [
-
-    -- ;; naHonaH_1
-    -- nHnH    naHonaH PV      clear throat
-    -- nHnH    naHoniH IV_yu   clear throat
-
-    verb     KaRDaS                    {- naHonaH -}        -- `others` [ "na.hni.h IV_yu" ]
-                                                            `gloss`  [ "clear throat" ],
-
-    -- ;; tanaHonaH_1
-    -- tnHnH   tanaHonaH       PV      clear the throat
-    -- tnHnH   tanaHonaH       IV      clear the throat
-
-    verb     TaKaRDaS                  {- tanaHonaH -}      `gloss`  [ "clear the throat" ],
-
-    -- ;; naHonaHap_1
-    -- nHnH    naHonaH Napdu   clearing the throat;hawking
-
-    noun     KaRDaS |< aT              {- naHonaHap -}      `gloss`  [ "clearing the throat", "hawking" ] ]
+    FaCIL                     `noun`       {- naHiyl -}         [ "slender", "emaciated" ]
+                              `plural`     FACiL |< aT
+                              `plural`     FuCCaL
+                              {- `others` [ "nA.hil N/ap", "nu.h.hal N" ] -} ]
 
  |> "n .h r" <| [
 
@@ -1519,190 +218,43 @@ lexicon = listing "Lexicon properties"
     -- nHr     naHar   PV      slit the throat;slaughter
     -- nHr     noHur   IV      slit the throat;slaughter
 
-    verb     FaCaL                     {- naHar-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n.hur IV" ]
-                                                            `gloss`  [ "slit the throat", "slaughter" ],
-
-    -- ;; tanAHar_1
-    -- tnAHr   tanAHar PV      fight each other;kill each other
-    -- tnAHr   tanAHar IV      fight each other;kill each other
-
-    verb     TaFACaL                   {- tanAHar -}        `gloss`  [ "fight each other", "kill each other" ],
-
-    -- ;; {inotaHar_1
-    -- <ntHr   {inotaHar       PV      commit suicide
-    -- AntHr   {inotaHar       PV      commit suicide
-    -- ntHr    notaHir IV      commit suicide
-
-    verb     IFtaCaL                   {- {inotaHar -}      -- `others` [ "nta.hir IV" ]
-                                                            `gloss`  [ "commit suicide" ],
+    FaCaL                     `verb`       {- naHar-u -}        [ "slit the throat", "slaughter" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "n.hur IV" ] -},
 
     -- ;; naHor_1
     -- nHr     naHor   N       slaughtering;butchering
 
-    noun     FaCL                      {- naHor -}          `gloss`  [ "slaughtering", "butchering" ],
-
-    -- ;; naHor_2
-    -- nHr     naHor   N       throat
-    -- nHwr    nuHuwr  N       throats
-
-    noun     FaCL                      {- naHor -}          -- `others` [ "nu.huwr N" ]
-                                                            `gloss`  [ "throat", "throats" ],
-
-    -- ;; niHor_1
-    -- nHr     niHor   N-ap    skilled;experience
-
-    noun     FiCL                      {- niHor -}          `gloss`  [ "skilled", "experience" ],
-
-    -- ;; naHiyr_1
-    -- nHyr    naHiyr  Nall    slaughtered;butchered     [[naHiyr/ADJ]]
-
-    noun     FaCIL                     {- naHiyr -}         `gloss`  [ "slaughtered", "butchered [ [ naHiyr / ADJ ] ]" ],
-
-    -- ;; manoHuwr_1
-    -- mnHwr   manoHuwr        Nall    slaughtered;butchered     [[manoHuwr/ADJ]]
-
-    noun     MaFCUL                    {- manoHuwr -}       `gloss`  [ "slaughtered", "butchered [ [ manoHuwr / ADJ ] ]" ],
-
-    -- ;; manoHar_1
-    -- mnHr    manoHar Ndu     throat;neck
-
-    noun     MaFCaL                    {- manoHar -}        `gloss`  [ "throat", "neck" ],
-
-    -- ;; {inotiHAr_1
-    -- AntHAr  {inotiHAr       N/At    suicide
-    -- <ntHAr  {inotiHAr       N/At    suicide
-
-    noun     IFtiCAL                   {- {inotiHAr -}      `gloss`  [ "suicide" ],
-
-    -- ;; {inotiHAriy~_1
-    -- AntHAry {inotiHAriy~    Nall    suicidal;suicide     [[{inotiHAriy~/ADJ]]
-    -- <ntHAry {inotiHAriy~    Nall    suicidal;suicide     [[{inotiHAriy~/ADJ]]
-
-    noun     IFtiCAL |< Iy             {- {inotiHAriy~ -}   `gloss`  [ "suicidal", "suicide [ [ { inotiHAriy ~ / ADJ ] ]" ],
+    FaCL                      `noun`       {- naHor -}          [ "slaughtering", "butchering" ],
 
     -- ;; munotaHir_1
     -- mntHr   munotaHir       Nall    suicide (person)
 
-    noun     MuFtaCiL                  {- munotaHir -}      `gloss`  [ "suicide ( person )" ] ]
+    MuFtaCiL                  `noun`       {- munotaHir -}      [ "suicide (person)" ] ]
 
  |> "n .h s" <| [
-
-    -- ;; naHas-a_1
-    -- nHs     naHas   PV      sadden;bring bad luck to
-    -- nHs     noHas   IV      sadden;bring bad luck to
-
-    verb     FaCaL                     {- naHas-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.has IV" ]
-                                                            `gloss`  [ "sadden", "bring bad luck to" ],
-
-    -- ;; naHus-u_1
-    -- nHs     naHus   PV_intr be unlucky;be ill-fated
-    -- nHs     noHus   IV_intr be unlucky;be ill-fated
-
-    verb     FaCuL                     {- naHus-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n.hus IV_intr" ]
-                                                            `gloss`  [ "be unlucky", "be ill-fated" ],
-
-    -- ;; naHis-a_1
-    -- nHs     naHis   PV_intr be unlucky;be ill-fated
-    -- nHs     noHas   IV_intr be unlucky;be ill-fated
-
-    verb     FaCiL                     {- naHis-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.has IV_intr" ]
-                                                            `gloss`  [ "be unlucky", "be ill-fated" ],
-
-    -- ;; naH~as_1
-    -- nHs     naH~as  PV      coat with copper
-    -- nHs     naH~is  IV_yu   coat with copper
-
-    verb     FaCCaL                    {- naH~as -}         -- `others` [ "na.h.his IV_yu" ]
-                                                            `gloss`  [ "coat with copper" ],
-
-    -- ;; nuHuwsap_1
-    -- nHws    nuHuws  Nap     bad luck
-
-    noun     FuCUL |< aT               {- nuHuwsap -}       `gloss`  [ "bad luck" ],
-
-    -- ;; naHAsap_1
-    -- nHAs    naHAs   Nap     bad luck
-
-    noun     FaCAL |< aT               {- naHAsap -}        `gloss`  [ "bad luck" ],
-
-    -- ;; naHos_1
-    -- nHs     naHos   N       misfortune;disaster
-    -- nHws    nuHuws  N       misfortunes;disasters
-
-    noun     FaCL                      {- naHos -}          -- `others` [ "nu.huws N" ]
-                                                            `gloss`  [ "misfortune", "disaster", "misfortunes", "disasters" ],
-
-    -- ;; naHos_2
-    -- nHs     naHos   N-ap    unlucky;ill-fated
-
-    noun     FaCL                      {- naHos -}          `gloss`  [ "unlucky", "ill-fated" ],
-
-    -- ;; naHis_1
-    -- nHs     naHis   N-ap    unlucky;ill-fated
-
-    noun     FaCiL                     {- naHis -}          `gloss`  [ "unlucky", "ill-fated" ],
-
-    -- ;; naH~As_1
-    -- nHAs    naH~As  Nall    coppersmith
-
-    noun     FaCCAL                    {- naH~As -}         `gloss`  [ "coppersmith" ],
-
-    -- ;; naH~As_2
-    -- nHAs    naH~As  N0      Nahhas
-
-    noun     FaCCAL                    {- naH~As -}         `gloss`  [ "Nahhas" ],
 
     -- ;; nuHAs_1
     -- nHAs    nuHAs   N       copper
 
-    noun     FuCAL                     {- nuHAs -}          `gloss`  [ "copper" ],
+    FuCAL                     `noun`       {- nuHAs -}          [ "copper" ],
 
     -- ;; nuHAsiy~_1
     -- nHAsy   nuHAsiy~        N-ap    copper;brass     [[nuHAsiy~/ADJ]]
 
-    noun     FuCAL |< Iy               {- nuHAsiy~ -}       `gloss`  [ "copper", "brass [ [ nuHAsiy ~ / ADJ ] ]" ],
-
-    -- ;; manAHis_1
-    -- mnAHs   manAHis Ndip    ominous events
-
-    noun     MaFACiL                   {- manAHis -}        `gloss`  [ "ominous events" ],
-
-    -- ;; manoHuws_1
-    -- mnHws   manoHuws        Nall    unlucky;ill-fated     [[manoHuws/ADJ]]
-
-    noun     MaFCUL                    {- manoHuws -}       `gloss`  [ "unlucky", "ill-fated [ [ manoHuws / ADJ ] ]" ] ]
+    FuCAL |< Iy               `noun`       {- nuHAsiy~ -}       [ "copper", "brass" ] ]
 
  |> "n .h t" <| [
-
-    -- ;; naHat-iu_1
-    -- nHt     naHat   PV-t    sculpt;engrave;shape
-    -- nHt     noHit   IV      sculpt;engrave;shape
-    -- nHt     noHut   IV      sculpt;engrave;shape
-
-    verb     FaCaL                     {- naHat-iu -}       `imperf` [ FCiL, FCuL ]
-                                                            -- `others` [ "n.hut IV", "n.hit IV" ]
-                                                            `gloss`  [ "sculpt", "engrave", "shape" ],
 
     -- ;; naHot_1
     -- nHt     naHot   N       sculpturing;shaping
 
-    noun     FaCL                      {- naHot -}          `gloss`  [ "sculpturing", "shaping" ],
-
-    -- ;; minoHat_1
-    -- mnHt    minoHat Ndu     chisel
-    -- mnAHt   manAHit Ndip    chisels
-
-    noun     MiFCaL                    {- minoHat -}        -- `others` [ "manA.hit Ndip" ]
-                                                            `gloss`  [ "chisel", "chisels" ],
+    FaCL                      `noun`       {- naHot -}          [ "sculpturing", "shaping" ],
 
     -- ;; manoHuwtap_1
     -- mnHwt   manoHuwt        NapAt   relief sculpture
 
-    noun     MaFCUL |< aT              {- manoHuwtap -}     `gloss`  [ "relief sculpture" ] ]
+    MaFCUL |< aT              `noun`       {- manoHuwtap -}     [ "relief sculpture" ] ]
 
  |> "n .h w" <| [
 
@@ -1713,35 +265,9 @@ lexicon = listing "Lexicon properties"
     -- nHw     noHuw   IV_0hAnn        go towards;move towards
     -- nH      noH     IV_0hwnyn       go towards;move towards
 
-    verb     FaCA                      {- naHA-u -}         `imperf` [ FCuL ]
-                                                            -- `others` [ "n.huw IV_0hAnn", "na.haw PV_Atn", "n.h IV_0hwnyn", "na.h PV_ttAw" ]
-                                                            `gloss`  [ "go towards", "move towards" ],
-
-    -- ;; naHaY_1
-    -- nHY     naHaY   PV_0    go towards;move towards
-    -- nHA     naHA    PV_h    go towards;move towards
-    -- nHy     naHay   PV_Atn  go towards;move towards
-    -- nH      naHa    PV_ttAw go towards;move towards
-    -- nHY     noHaY   IV_0    go towards;move towards
-    -- nHA     noHA    IV_h    go towards;move towards
-    -- nHy     noHay   IV_Ann  go towards;move towards
-    -- nH      noHa    IV_0hwnyn       go towards;move towards
-
-    verb     FaCY                      {- naHaY -}          -- `others` [ "n.ha IV_0hwnyn", "n.hay IV_Ann", "n.hA IV_h", "na.hay PV_Atn", "n.hY IV_0", "na.hA PV_h", "na.ha PV_ttAw" ]
-                                                            `gloss`  [ "go towards", "move towards" ],
-
-    -- ;; naH~aY_1
-    -- nHY     naH~aY  PV_0    put aside;eliminate
-    -- nHA     naH~A   PV_h    put aside;eliminate
-    -- nHy     naH~ay  PV_Atn  put aside;eliminate
-    -- nH      naH~    PV_ttAw put aside;eliminate
-    -- nHy     naH~iy  IV_0hAnn_yu     put aside;eliminate
-    -- nH      naH~    IV_0hwnyn_yu    put aside;eliminate
-    -- nHY     naH~aY  IV_0_Pass_yu    be put aside;be eliminated
-    -- nHy     naH~ay  IV_Ann_Pass_yu  be put aside;be eliminated
-
-    verb     FaCCY                     {- naH~aY -}         -- `others` [ "na.h.hiy IV_0hAnn_yu", "na.h.h IV_0hwnyn_yu PV_ttAw", "na.h.hay PV_Atn IV_Ann_Pass_yu", "na.h.hA PV_h" ]
-                                                            `gloss`  [ "put aside", "eliminate", "be put aside", "be eliminated" ],
+    FaCA                      `verb`       {- naHA-u -}         [ "go towards", "move towards" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "n.huw IV_0hAnn", "na.haw PV_Atn" ] -},
 
     -- ;; >anoHaY_1
     -- >nHY    >anoHaY PV_0    turn away;overcome
@@ -1757,8 +283,8 @@ lexicon = listing "Lexicon properties"
     -- nHY     noHaY   IV_0_Pass_yu    be turned away;be overcome
     -- nHy     noHay   IV_Ann_Pass_yu  be turned away;be overcome
 
-    verb     HaFCY                     {- OanoHaY -}        -- `others` [ "n.hay IV_Ann_Pass_yu", "n.h IV_0hwnyn_yu", "'an.hA PV_h", "n.hY IV_0_Pass_yu", "n.hiy IV_0hAnn_yu", "'an.h PV_ttAw", "'an.hay PV_Atn" ]
-                                                            `gloss`  [ "turn away", "overcome", "be turned away", "be overcome" ],
+    HaFCY                     `verb`       {- OanoHaY -}        [ "turn away", "overcome", "be turned away", "be overcome" ]
+                              {- `others` [ "n.hY IV_0_Pass_yu", "n.hiy IV_0hAnn_yu" ] -},
 
     -- ;; tanaH~aY_1
     -- tnHY    tanaH~aY        PV_0    withdraw;forego;abandon
@@ -1768,24 +294,7 @@ lexicon = listing "Lexicon properties"
     -- tnHy    tanaH~ay        IV_Ann  withdraw;forego;abandon
     -- tnH     tanaH~  IV_0hwnyn       withdraw;forego;abandon
 
-    verb     TaFaCCY                   {- tanaH~aY -}       -- `others` [ "tana.h.hay PV_Atn IV_Ann", "tana.h.h IV_0hwnyn PV_ttAw" ]
-                                                            `gloss`  [ "withdraw", "forego", "abandon" ],
-
-    -- ;; {inotaHaY_1
-    -- <ntHY   {inotaHaY       PV_0    head for;move towards;withdraw to
-    -- AntHY   {inotaHaY       PV_0    head for;move towards;withdraw to
-    -- <ntHA   {inotaHA        PV_h    head for;move towards;withdraw to
-    -- AntHA   {inotaHA        PV_h    head for;move towards;withdraw to
-    -- <ntHy   {inotaHay       PV_Atn  head for;move towards;withdraw to
-    -- AntHy   {inotaHay       PV_Atn  head for;move towards;withdraw to
-    -- <ntH    {inotaH PV_ttAw head for;move towards;withdraw to
-    -- AntH    {inotaH PV_ttAw head for;move towards;withdraw to
-    -- ntHy    notaHiy IV_0hAnn        head for;move towards;withdraw to
-    -- ntH     notaH   IV_0hwnyn       head for;move towards;withdraw to
-    -- ntHY    notaHaY IV_0    head for;move towards;withdraw to
-
-    verb     IFtaCY                    {- {inotaHaY -}      -- `others` [ "nta.hY IV_0", "nta.h IV_0hwnyn", "inta.hay PV_Atn", "inta.hA PV_h", "inta.h PV_ttAw", "nta.hiy IV_0hAnn" ]
-                                                            `gloss`  [ "head for", "move towards", "withdraw to" ],
+    TaFaCCY                   `verb`       {- tanaH~aY -}       [ "withdraw", "forego", "abandon" ],
 
     -- ;; naHow_1
     -- nHw     naHow   N       manner;method
@@ -1796,18 +305,12 @@ lexicon = listing "Lexicon properties"
     -- >nHA}   >anoHA} Nhy     areas
     -- AnHA}   >anoHA} Nhy     areas
 
-    noun     FaCL                      {- naHow -}          -- `others` [ "'an.hA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "manner", "method", "areas" ],
+    FaCL                      `noun`       {- naHow -}          [ "manner", "method", "areas" ],
 
     -- ;; naHow_2
     -- nHw     naHow   N       grammar
 
-    noun     FaCL                      {- naHow -}          `gloss`  [ "grammar" ],
-
-    -- ;; naHawiy~_1
-    -- nHwy    naHawiy~        Nall    grammarian     [[naHawiy~/ADJ]]
-
-    noun     FaCY |< Iy                {- naHawiy~ -}       `gloss`  [ "grammarian [ [ naHawiy ~ / ADJ ] ]" ],
+    FaCL                      `noun`       {- naHow -}          [ "grammar" ],
 
     -- ;; manoHaY_1
     -- mnHY    manoHaY N0      field;domain
@@ -1816,8 +319,9 @@ lexicon = listing "Lexicon properties"
     -- mnAHy   manAHiy N0_Nh   fields;domains
     -- mnAH    manAH   NK      fields;domains
 
-    noun     MaFCY                     {- manoHaY -}        -- `others` [ "manA.hiy N0_Nh", "man.hay NAn_Nayn", "manA.h NK", "man.hA Nhy" ]
-                                                            `gloss`  [ "field", "domain", "fields", "domains" ],
+    MaFCY                     `noun`       {- manoHaY -}        [ "field", "domain", "fields", "domains" ]
+                              `plural`     MaFACI
+                              {- `others` [ "manA.hiy N0_Nh" ] -},
 
     -- ;; nAHiy_1
     -- nAHy    nAHiy   N0F_Nh  grammarian
@@ -1825,54 +329,33 @@ lexicon = listing "Lexicon properties"
     -- nAHy    nAHiy   NAn_Nayn        grammarian
     -- nHA     nuHA    Nap     grammarians
 
-    noun     FACI                      {- nAHiy -}          -- `others` [ "nA.h NK", "nu.hA Nap" ]
-                                                            `gloss`  [ "grammarian", "grammarians" ],
+    FACI                      `noun`       {- nAHiy -}          [ "grammarian", "grammarians" ],
 
     -- ;; nAHiyap_1
     -- nAHy    nAHiy   Napdu   side;perspective
     -- nwAHy   nawAHiy N0_Nh   sides;perspectives;areas;regions
     -- nwAH    nawAH   NK      sides;perspectives;areas;regions
 
-    noun     FACI |< aT                {- nAHiyap -}        -- `others` [ "nawA.h NK", "nawA.hiy N0_Nh" ]
-                                                            `gloss`  [ "side", "perspective", "sides", "perspectives", "areas", "regions" ] ]
-
- |> "n .h w y" <| [
-
-    -- ;; naHowiy~_1
-    -- nHwy    naHowiy~        N-ap    grammatical     [[naHowiy~/ADJ]]
-
-    noun     KaRDIS                    {- naHowiy~ -}       `gloss`  [ "grammatical [ [ naHowiy ~ / ADJ ] ]" ] ]
+    FACI |< aT                `noun`       {- nAHiyap -}        [ "side", "perspective", "sides", "perspectives", "areas", "regions" ] ]
 
  |> "n .h y" <| [
 
-    -- ;; tanoHiyap_1
-    -- tnHy    tanoHiy Nap     elimination;removal
-
-    noun     TaFCiL |< aT              {- tanoHiyap -}      `gloss`  [ "elimination", "removal" ],
-
     -- ;; nAHiy_1
     -- nAHy    nAHiy   N0F_Nh  grammarian
     -- nAH     nAH     NK      grammarian
     -- nAHy    nAHiy   NAn_Nayn        grammarian
     -- nHA     nuHA    Nap     grammarians
 
-    noun     FACiL                     {- nAHiy -}          -- `others` [ "nA.h NK", "nu.hA Nap" ]
-                                                            `gloss`  [ "grammarian", "grammarians" ],
+    FACiL                     `noun`       {- nAHiy -}          [ "grammarian", "grammarians" ],
 
     -- ;; nAHiyap_1
     -- nAHy    nAHiy   Napdu   side;perspective
     -- nwAHy   nawAHiy N0_Nh   sides;perspectives;areas;regions
     -- nwAH    nawAH   NK      sides;perspectives;areas;regions
 
-    noun     FACiL |< aT               {- nAHiyap -}        -- `others` [ "nawA.h NK", "nawA.hiy N0_Nh" ]
-                                                            `gloss`  [ "side", "perspective", "sides", "perspectives", "areas", "regions" ] ]
-
- |> "n .h z" <| [
-
-    -- ;; naHiyzap_1
-    -- nHyz    naHiyz  Nap     natural disposition;nature
-
-    noun     FaCIL |< aT               {- naHiyzap -}       `gloss`  [ "natural disposition", "nature" ] ]
+    FACiL |< aT               `noun`       {- nAHiyap -}        [ "side", "perspective", "sides", "perspectives", "areas", "regions" ]
+                              `plural`     FawACiL
+                              {- `others` [ "nawA.hiy N0_Nh" ] -} ]
 
  |> "n .s .h" <| [
 
@@ -1880,79 +363,20 @@ lexicon = listing "Lexicon properties"
     -- nSH     naSaH   PV      advise
     -- nSH     noSaH   IV      advise
 
-    verb     FaCaL                     {- naSaH-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.sa.h IV" ]
-                                                            `gloss`  [ "advise" ],
-
-    -- ;; nASaH_1
-    -- nASH    nASaH   PV      advise;be sincere toward
-    -- nASH    nASiH   IV_yu   advise;be sincere toward
-
-    verb     FACaL                     {- nASaH -}          -- `others` [ "nA.si.h IV_yu" ]
-                                                            `gloss`  [ "advise", "be sincere toward" ],
-
-    -- ;; tanASaH_1
-    -- tnASH   tanASaH PV_intr be sincere with each other
-    -- tnASH   tanASaH IV_intr be sincere with each other
-
-    verb     TaFACaL                   {- tanASaH -}        `gloss`  [ "be sincere with each other" ],
-
-    -- ;; {inotaSaH_1
-    -- <ntSH   {inotaSaH       PV      take good advice
-    -- AntSH   {inotaSaH       PV      take good advice
-    -- ntSH    notaSiH IV      take good advice
-
-    verb     IFtaCaL                   {- {inotaSaH -}      -- `others` [ "nta.si.h IV" ]
-                                                            `gloss`  [ "take good advice" ],
-
-    -- ;; {isotanoSaH_1
-    -- <stnSH  {isotanoSaH     PV      ask for advice;consult
-    -- AstnSH  {isotanoSaH     PV      ask for advice;consult
-    -- stnSH   sotanoSiH       IV      ask for advice;consult
-
-    verb     IstaFCaL                  {- {isotanoSaH -}    -- `others` [ "stan.si.h IV" ]
-                                                            `gloss`  [ "ask for advice", "consult" ],
+    FaCaL                     `verb`       {- naSaH-a -}        [ "advise" ]
+                              `imperf` [ FCaL ]
+                              {- `others` [ "n.sa.h IV" ] -},
 
     -- ;; naSoH_1
     -- nSH     naSoH   N       advice;counsel
 
-    noun     FaCL                      {- naSoH -}          `gloss`  [ "advice", "counsel" ],
-
-    -- ;; naSiyH_1
-    -- nSyH    naSiyH  N       sincere     [[naSiyH/ADJ]]
-
-    noun     FaCIL                     {- naSiyH -}         `gloss`  [ "sincere [ [ naSiyH / ADJ ] ]" ],
+    FaCL                      `noun`       {- naSoH -}          [ "advice", "counsel" ],
 
     -- ;; naSiyHap_1
     -- nSyH    naSiyH  Napdu   advice;word of advice
     -- nSA}H   naSA}iH Ndip    advice;words of advice
 
-    noun     FaCIL |< aT               {- naSiyHap -}       -- `others` [ "na.sA'i.h Ndip" ]
-                                                            `gloss`  [ "advice", "word of advice", "words of advice" ],
-
-    -- ;; naSuwH_1
-    -- nSwH    naSuwH  N-ap    sincere     [[naSuwH/ADJ]]
-
-    noun     FaCUL                     {- naSuwH -}         `gloss`  [ "sincere [ [ naSuwH / ADJ ] ]" ],
-
-    -- ;; {isotinoSAH_1
-    -- <stnSAH {isotinoSAH     N/At    consultation
-    -- AstnSAH {isotinoSAH     N/At    consultation
-
-    noun     IstiFCAL                  {- {isotinoSAH -}    `gloss`  [ "consultation" ],
-
-    -- ;; nASiH_1
-    -- nASH    nASiH   Nall    advising;counseling     [[nASiH/ADJ]]
-
-    noun     FACiL                     {- nASiH -}          `gloss`  [ "advising", "counseling [ [ nASiH / ADJ ] ]" ],
-
-    -- ;; nASiH_2
-    -- nASH    nASiH   N/ap    advisor;counselor
-    -- nSAH    nuS~AH  N       advisors;counselors
-    -- nSH     nuSaH   N       advisors;counselors
-
-    noun     FACiL                     {- nASiH -}          -- `others` [ "nu.s.sA.h N", "nu.sa.h N" ]
-                                                            `gloss`  [ "advisor", "counselor", "advisors", "counselors" ] ]
+    FaCIL |< aT               `noun`       {- naSiyHap -}       [ "advice", "word of advice", "words of advice" ] ]
 
  |> "n .s .s" <| [
 
@@ -1962,82 +386,42 @@ lexicon = listing "Lexicon properties"
     -- nS      nuS~    IV_V    stipulate;specify
     -- nSS     noSuS   IV_C    stipulate;specify
 
-    verb     FaCL                      {- naS~-u -}         `imperf` [ FCuL ]
-                                                            -- `others` [ "n.su.s IV_C", "nu.s.s IV_V", "na.sa.s PV_C" ]
-                                                            `gloss`  [ "stipulate", "specify" ],
+    FaCL                      `verb`       {- naS~-u -}         [ "stipulate", "specify" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "n.su.s IV_C", "nu.s.s IV_V", "na.sa.s PV_C" ] -},
 
     -- ;; naS~_1
     -- nS      naS~    Ndu     text
     -- nSwS    nuSuwS  N       texts
 
-    noun     FaCL                      {- naS~ -}           -- `others` [ "nu.suw.s N" ]
-                                                            `gloss`  [ "text", "texts" ],
+    FaCL                      `noun`       {- naS~ -}           [ "text", "texts" ]
+                              `plural`     FuCUL
+                              {- `others` [ "nu.suw.s N" ] -},
 
     -- ;; naS~_2
     -- nS      naS~    N       wording
 
-    noun     FaCL                      {- naS~ -}           `gloss`  [ "wording" ],
-
-    -- ;; nuS~ap_1
-    -- nS      nuS~    Napdu   forelock
-
-    noun     FuCL |< aT                {- nuS~ap -}         `gloss`  [ "forelock" ],
+    FaCL                      `noun`       {- naS~ -}           [ "wording" ],
 
     -- ;; minaS~ap_1
     -- mnS     minaS~  NapAt   platform;podium
     -- mnAS    manAS~  Ndip    platforms;podiums
 
-    noun     MiFaCL |< aT              {- minaS~ap -}       -- `others` [ "manA.s.s Ndip" ]
-                                                            `gloss`  [ "platform", "podium", "platforms", "podiums" ],
-
-    -- ;; tanoSiyS_1
-    -- tnSyS   tanoSiyS        N/At    quotation
-
-    noun     TaFCIL                    {- tanoSiyS -}       `gloss`  [ "quotation" ],
+    MiFaCL |< aT              `noun`       {- minaS~ap -}       [ "platform", "podium", "platforms", "podiums" ]
+                              `plural`     MaFACL
+                              {- `others` [ "manA.s.s Ndip" ] -},
 
     -- ;; manoSuwS_1
     -- mnSwS   manoSuwS        N       stipulated;specified;laid down in writing     [[manoSuwS/ADJ]]
 
-    noun     MaFCUL                    {- manoSuwS -}       `gloss`  [ "stipulated", "specified", "laid down in writing [ [ manoSuwS / ADJ ] ]" ] ]
+    MaFCUL                    `noun`       {- manoSuwS -}       [ "stipulated", "specified", "laid down in writing" ] ]
 
  |> "n .s `" <| [
-
-    -- ;; naSaE-a_1
-    -- nSE     naSaE   PV_intr be pure;be bright;be evident
-    -- nSE     noSaE   IV_intr be pure;be bright;be evident
-
-    verb     FaCaL                     {- naSaE-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.sa` IV_intr" ]
-                                                            `gloss`  [ "be pure", "be bright", "be evident" ],
-
-    -- ;; >anoSaE_1
-    -- >nSE    >anoSaE PV      recognize;acknowledge
-    -- AnSE    >anoSaE PV      recognize;acknowledge
-    -- nSE     noSiE   IV_yu   recognize;acknowledge
-    -- nSE     noSaE   IV_Pass_yu      be recognized;be acknowledged
-
-    verb     HaFCaL                    {- OanoSaE -}        -- `others` [ "n.sa` IV_Pass_yu", "n.si` IV_yu" ]
-                                                            `gloss`  [ "recognize", "acknowledge", "be recognized", "be acknowledged" ],
-
-    -- ;; nuSuwE_1
-    -- nSwE    nuSuwE  N       brightness;whiteness
-
-    noun     FuCUL                     {- nuSuwE -}         `gloss`  [ "brightness", "whiteness" ],
-
-    -- ;; naSiyE_1
-    -- nSyE    naSiyE  N-ap    clear;obvious;evident     [[naSiyE/ADJ]]
-
-    noun     FaCIL                     {- naSiyE -}         `gloss`  [ "clear", "obvious", "evident [ [ naSiyE / ADJ ] ]" ],
-
-    -- ;; naSAEap_1
-    -- nSAE    naSAE   Nap     purity;clarity
-
-    noun     FaCAL |< aT               {- naSAEap -}        `gloss`  [ "purity", "clarity" ],
 
     -- ;; nASiE_1
     -- nASE    nASiE   N-ap    clear;plain;evident     [[nASiE/ADJ]]
 
-    noun     FACiL                     {- nASiE -}          `gloss`  [ "clear", "plain", "evident [ [ nASiE / ADJ ] ]" ] ]
+    FACiL                     `noun`       {- nASiE -}          [ "clear", "plain", "evident" ] ]
 
  |> "n .s b" <| [
 
@@ -2045,104 +429,36 @@ lexicon = listing "Lexicon properties"
     -- nSb     naSab   PV      set up
     -- nSb     noSub   IV      set up
 
-    verb     FaCaL                     {- naSab-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n.sub IV" ]
-                                                            `gloss`  [ "set up" ],
-
-    -- ;; naSib-a_1
-    -- nSb     naSib   PV_intr be exhausted
-    -- nSb     noSab   IV_intr be exhausted
-
-    verb     FaCiL                     {- naSib-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.sab IV_intr" ]
-                                                            `gloss`  [ "be exhausted" ],
-
-    -- ;; naS~ab_1
-    -- nSb     naS~ab  PV      install;raise;appoint
-    -- nSb     naS~ib  IV_yu   install;raise;appoint
-
-    verb     FaCCaL                    {- naS~ab -}         -- `others` [ "na.s.sib IV_yu" ]
-                                                            `gloss`  [ "install", "raise", "appoint" ],
-
-    -- ;; nASab_1
-    -- nASb    nASab   PV_intr be hostile to;oppose
-    -- nASb    nASib   IV_intr_yu      be hostile to;oppose
-
-    verb     FACaL                     {- nASab -}          -- `others` [ "nA.sib IV_intr_yu" ]
-                                                            `gloss`  [ "be hostile to", "oppose" ],
-
-    -- ;; >anoSab_1
-    -- >nSb    >anoSab PV      exhaust;wear out
-    -- AnSb    >anoSab PV      exhaust;wear out
-    -- nSb     noSib   IV_yu   exhaust;wear out
-    -- nSb     noSab   IV_Pass_yu      be exhausted;be worn out
-
-    verb     HaFCaL                    {- OanoSab -}        -- `others` [ "n.sib IV_yu", "n.sab IV_Pass_yu" ]
-                                                            `gloss`  [ "exhaust", "wear out", "be exhausted", "be worn out" ],
-
-    -- ;; {inotaSab_1
-    -- <ntSb   {inotaSab       PV      rise;be upright;be appointed
-    -- AntSb   {inotaSab       PV      rise;be upright;be appointed
-    -- ntSb    notaSib IV      rise;be upright;be appointed
-
-    verb     IFtaCaL                   {- {inotaSab -}      -- `others` [ "nta.sib IV" ]
-                                                            `gloss`  [ "rise", "be upright", "be appointed" ],
+    FaCaL                     `verb`       {- naSab-u -}        [ "set up" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "n.sub IV" ] -},
 
     -- ;; naSob_1
     -- nSb     naSob   N       setting up;installing;appointing
 
-    noun     FaCL                      {- naSob -}          `gloss`  [ "setting up", "installing", "appointing" ],
-
-    -- ;; naSob_2
-    -- nSb     naSob   N-ap    erected;set up
-    -- >nSAb   >anoSAb N       erected;plants
-    -- AnSAb   >anoSAb N       erected;plants
-
-    noun     FaCL                      {- naSob -}          -- `others` [ "'an.sAb N" ]
-                                                            `gloss`  [ "erected", "set up", "plants" ],
+    FaCL                      `noun`       {- naSob -}          [ "setting up", "installing", "appointing" ],
 
     -- ;; nuSob_1
     -- nSb     nuSob   N       monument;memorial
     -- >nSAb   >anoSAb N       monuments;memorials
     -- AnSAb   >anoSAb N       monuments;memorials
 
-    noun     FuCL                      {- nuSob -}          -- `others` [ "'an.sAb N" ]
-                                                            `gloss`  [ "monument", "memorial", "monuments", "memorials" ],
-
-    -- ;; naSab_1
-    -- nSb     naSab   N       exertion;hard work
-    -- >nSAb   >anoSAb N       planted flags
-    -- AnSAb   >anoSAb N       planted flags
-
-    noun     FaCaL                     {- naSab -}          -- `others` [ "'an.sAb N" ]
-                                                            `gloss`  [ "exertion", "hard work", "planted flags" ],
+    FuCL                      `noun`       {- nuSob -}          [ "monument", "memorial", "monuments", "memorials" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'an.sAb N" ] -},
 
     -- ;; naSobap_1
     -- nSb     naSob   Napdu   plant
     -- nSb     naSab   NAt     plants
 
-    noun     FaCL |< aT                {- naSobap -}        -- `others` [ "na.sab NAt" ]
-                                                            `gloss`  [ "plant", "plants" ],
-
-    -- ;; nuSobap_1
-    -- nSb     nuSob   Napdu   post;stake;pillar
-
-    noun     FuCL |< aT                {- nuSobap -}        `gloss`  [ "post", "stake", "pillar" ],
+    FaCL |< aT                `noun`       {- naSobap -}        [ "plant", "plants" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "na.sab NAt" ] -},
 
     -- ;; niSAb_1
     -- nSAb    niSAb   N       proper place;normal state
 
-    noun     FiCAL                     {- niSAb -}          `gloss`  [ "proper place", "normal state" ],
-
-    -- ;; naS~Ab_1
-    -- nSAb    naS~Ab  Nall    swindler;impostor
-
-    noun     FaCCAL                    {- naS~Ab -}         `gloss`  [ "swindler", "impostor" ],
-
-    -- ;; naS~Ab_2
-    -- nSAb    naS~Ab  Nall    deceitful;fraudulent     [[naS~Ab/ADJ]]
-
-    noun     FaCCAL                    {- naS~Ab -}         `gloss`  [ "deceitful", "fraudulent [ [ naS ~ Ab / ADJ ] ]" ],
+    FiCAL                     `noun`       {- niSAb -}          [ "proper place", "normal state" ],
 
     -- ;; naSiyb_1
     -- nSyb    naSiyb  Ndu     share;dividend
@@ -2156,314 +472,96 @@ lexicon = listing "Lexicon properties"
     -- >nSbA}  >anoSibA}       Nhy     shares;dividends
     -- AnSbA}  >anoSibA}       Nhy     shares;dividends
 
-    noun     FaCIL                     {- naSiyb -}         -- `others` [ "'an.sibA' Nh Nhy N0_Nh", "nu.suwb N", "'an.sib Nap" ]
-                                                            `gloss`  [ "share", "dividend", "shares", "dividends" ],
-
-    -- ;; >anoSab_2
-    -- >nSb    >anoSab Nel     more/most strenuous
-    -- AnSb    >anoSab Nel     more/most strenuous
-
-    noun     HaFCaL                    {- OanoSab -}        `gloss`  [ "more / most strenuous" ],
+    FaCIL                     `noun`       {- naSiyb -}         [ "share", "dividend", "shares", "dividends" ]
+                              `plural`     HaFCiLA'
+                              `plural`     FuCUL
+                              `plural`     HaFCiL |< aT
+                              {- `others` [ "'an.sibA' Nh N0_Nh Nhy", "nu.suwb N", "'an.sib Nap" ] -},
 
     -- ;; manoSib_1
     -- mnSb    manoSib Ndu     post;position;office
     -- mnASb   manASib Ndip    posts;positions;offices
 
-    noun     MaFCiL                    {- manoSib -}        -- `others` [ "manA.sib Ndip" ]
-                                                            `gloss`  [ "post", "position", "office", "posts", "positions", "offices" ],
+    MaFCiL                    `noun`       {- manoSib -}        [ "post", "position", "office", "posts", "positions", "offices" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "manA.sib Ndip" ] -},
 
     -- ;; minoSab_1
     -- mnSb    minoSab Ndu     kitchen range
     -- mnASb   manASib Ndip    kitchen ranges
 
-    noun     MiFCaL                    {- minoSab -}        -- `others` [ "manA.sib Ndip" ]
-                                                            `gloss`  [ "kitchen range", "kitchen ranges" ],
-
-    -- ;; tanoSiyb_1
-    -- tnSyb   tanoSiyb        N/At    nomination;appointment
-
-    noun     TaFCIL                    {- tanoSiyb -}       `gloss`  [ "nomination", "appointment" ],
-
-    -- ;; tanoSiyb_2
-    -- tnSyb   tanoSiyb        N/At    establishment;setting up
-
-    noun     TaFCIL                    {- tanoSiyb -}       `gloss`  [ "establishment", "setting up" ],
-
-    -- ;; {inotiSAb_1
-    -- <ntSAb  {inotiSAb       N/At    setting up;erecting
-    -- AntSAb  {inotiSAb       N/At    setting up;erecting
-
-    noun     IFtiCAL                   {- {inotiSAb -}      `gloss`  [ "setting up", "erecting" ],
-
-    -- ;; nASib_1
-    -- nASb    nASib   N/ap    tiring;exhausting     [[nASib/ADJ]]
-    -- nwASb   nawASib Ndip    words (eg. prepositions) governing the subjunctive
-
-    noun     FACiL                     {- nASib -}          -- `others` [ "nawA.sib Ndip" ]
-                                                            `gloss`  [ "tiring", "exhausting [ [ nASib / ADJ ] ]", "words ( eg. prepositions ) governing the subjunctive" ],
-
-    -- ;; manoSuwb_1
-    -- mnSwb   manoSuwb        N-ap    erected;set up;installed     [[manoSuwb/ADJ]]
-
-    noun     MaFCUL                    {- manoSuwb -}       `gloss`  [ "erected", "set up", "installed [ [ manoSuwb / ADJ ] ]" ],
-
-    -- ;; manoSuwb_2
-    -- mnSwb   manoSuwb        N/At    noun in accusative case
-    -- mnSwb   manoSuwb        N/At    verb in subjunctive mood
-
-    noun     MaFCUL                    {- manoSuwb -}       `gloss`  [ "noun in accusative case", "verb in subjunctive mood" ],
-
-    -- ;; munotaSib_1
-    -- mntSb   munotaSib       N-ap    set upright;planted     [[munotaSib/ADJ]]
-
-    noun     MuFtaCiL                  {- munotaSib -}      `gloss`  [ "set upright", "planted [ [ munotaSib / ADJ ] ]" ] ]
+    MiFCaL                    `noun`       {- minoSab -}        [ "kitchen range", "kitchen ranges" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "manA.sib Ndip" ] -} ]
 
  |> "n .s f" <| [
-
-    -- ;; naS~af_1
-    -- nSf     naS~af  PV      divide in half;bisect
-    -- nSf     naS~if  IV_yu   divide in half;bisect
-
-    verb     FaCCaL                    {- naS~af -}         -- `others` [ "na.s.sif IV_yu" ]
-                                                            `gloss`  [ "divide in half", "bisect" ],
-
-    -- ;; nASaf_1
-    -- nASf    nASaf   PV      share equally
-    -- nASf    nASif   IV_yu   share equally
-
-    verb     FACaL                     {- nASaf -}          -- `others` [ "nA.sif IV_yu" ]
-                                                            `gloss`  [ "share equally" ],
-
-    -- ;; >anoSaf_1
-    -- >nSf    >anoSaf PV_intr be just;be impartial
-    -- AnSf    >anoSaf PV_intr be just;be impartial
-    -- nSf     noSif   IV_intr_yu      be just;be impartial
-
-    verb     HaFCaL                    {- OanoSaf -}        -- `others` [ "n.sif IV_intr_yu" ]
-                                                            `gloss`  [ "be just", "be impartial" ],
-
-    -- ;; tanaS~af_1
-    -- tnSf    tanaS~af        PV      submit to
-    -- tnSf    tanaS~af        IV      submit to
-
-    verb     TaFaCCaL                  {- tanaS~af -}       `gloss`  [ "submit to" ],
-
-    -- ;; {inotaSaf_1
-    -- <ntSf   {inotaSaf       PV_intr be midway;demand justice
-    -- AntSf   {inotaSaf       PV_intr be midway;demand justice
-    -- ntSf    notaSif IV_intr be midway;demand justice
-
-    verb     IFtaCaL                   {- {inotaSaf -}      -- `others` [ "nta.sif IV_intr" ]
-                                                            `gloss`  [ "be midway", "demand justice" ],
-
-    -- ;; {isotanoSaf_1
-    -- <stnSf  {isotanoSaf     PV      demand justice
-    -- AstnSf  {isotanoSaf     PV      demand justice
-    -- stnSf   sotanoSif       IV      demand justice
-
-    verb     IstaFCaL                  {- {isotanoSaf -}    -- `others` [ "stan.sif IV" ]
-                                                            `gloss`  [ "demand justice" ],
 
     -- ;; niSof_1
     -- nSf     niSof   Ndu     half;middle;semi-
     -- >nSAf   >anoSAf N       halves
     -- AnSAf   >anoSAf N       halves
 
-    noun     FiCL                      {- niSof -}          -- `others` [ "'an.sAf N" ]
-                                                            `gloss`  [ "half", "middle", "semi-", "halves" ],
+    FiCL                      `noun`       {- niSof -}          [ "half", "middle", "semi-", "halves" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'an.sAf N" ] -},
 
     -- ;; niSofiy~_1
     -- nSfy    niSofiy~        N-ap    semi-;half     [[niSofiy~/ADJ]]
 
-    noun     FiCL |< Iy                {- niSofiy~ -}       `gloss`  [ "semi-", "half [ [ niSofiy ~ / ADJ ] ]" ],
+    FiCL |< Iy                `noun`       {- niSofiy~ -}       [ "semi-", "half" ],
 
     -- ;; naSaf_1
     -- nSf     naSaf   N       justice
 
-    noun     FaCaL                     {- naSaf -}          `gloss`  [ "justice" ],
-
-    -- ;; naSafap_1
-    -- nSf     naSaf   Nap     justice
-
-    noun     FaCaL |< aT               {- naSafap -}        `gloss`  [ "justice" ],
-
-    -- ;; naSiyf_1
-    -- nSyf    naSiyf  N       veil
-
-    noun     FaCIL                     {- naSiyf -}         `gloss`  [ "veil" ],
-
-    -- ;; naSiyf_2
-    -- nSyf    naSiyf  N0      Naseef
-
-    noun     FaCIL                     {- naSiyf -}         `gloss`  [ "Naseef" ],
-
-    -- ;; tanoSiyf_1
-    -- tnSyf   tanoSiyf        N/At    bisecting;bisection;halving
-
-    noun     TaFCIL                    {- tanoSiyf -}       `gloss`  [ "bisecting", "bisection", "halving" ],
-
-    -- ;; munASafap_1
-    -- mnASf   munASaf NapAt   equal shares;fifty-fifty
-
-    noun     MuFACaL |< aT             {- munASafap -}      `gloss`  [ "equal shares", "fifty-fifty" ],
+    FaCaL                     `noun`       {- naSaf -}          [ "justice" ],
 
     -- ;; <inoSAf_1
     -- <nSAf   <inoSAf N/At    impartiality;fairness
     -- AnSAf   <inoSAf N/At    impartiality;fairness
 
-    noun     HiFCAL                    {- IinoSAf -}        `gloss`  [ "impartiality", "fairness" ],
-
-    -- ;; nASif_1
-    -- nASf    nASif   N/ap    servant
-    -- nSAf    nuS~Af  N       servants
-
-    noun     FACiL                     {- nASif -}          -- `others` [ "nu.s.sAf N" ]
-                                                            `gloss`  [ "servant", "servants" ],
-
-    -- ;; munaS~if_1
-    -- mnSf    munaS~if        Nall    bisecting;dividing in half
-
-    noun     MuFaCCiL                  {- munaS~if -}       `gloss`  [ "bisecting", "dividing in half" ],
+    HiFCAL                    `noun`       {- IinoSAf -}        [ "impartiality", "fairness" ],
 
     -- ;; munoSif_1
     -- mnSf    munoSif Nall    equitable;fair     [[munoSif/ADJ]]
 
-    noun     MuFCiL                    {- munoSif -}        `gloss`  [ "equitable", "fair [ [ munoSif / ADJ ] ]" ],
+    MuFCiL                    `noun`       {- munoSif -}        [ "equitable", "fair" ],
 
     -- ;; munotaSaf_1
     -- mntSf   munotaSaf       N       middle;halfway
 
-    noun     MuFtaCaL                  {- munotaSaf -}      `gloss`  [ "middle", "halfway" ] ]
+    MuFtaCaL                  `noun`       {- munotaSaf -}      [ "middle", "halfway" ] ]
 
  |> "n .s l" <| [
-
-    -- ;; naSal-ua_1
-    -- nSl     naSal   PV      drop;fade
-    -- nSl     noSul   IV      drop;fade
-    -- nSl     noSal   IV      drop;fade
-
-    verb     FaCaL                     {- naSal-ua -}       `imperf` [ FCuL, FCaL ]
-                                                            -- `others` [ "n.sal IV", "n.sul IV" ]
-                                                            `gloss`  [ "drop", "fade" ],
 
     -- ;; tanaS~al_1
     -- tnSl    tanaS~al        PV      renounce;withdraw;evade
     -- tnSl    tanaS~al        IV      renounce;withdraw;evade
 
-    verb     TaFaCCaL                  {- tanaS~al -}       `gloss`  [ "renounce", "withdraw", "evade" ],
-
-    -- ;; naSol_1
-    -- nSl     naSol   N       arrowhead;spearhead;blade
-    -- nSl     naSol   Napdu   arrowhead;spearhead;blade
-    -- nSAl    niSAl   N       arrowheads;spearheads;blades
-    -- >nSl    >anoSul N       arrowheads;spearheads;blades
-    -- AnSl    >anoSul N       arrowheads;spearheads;blades
-    -- nSwl    nuSuwl  N       arrowheads;spearheads;blades
-
-    noun     FaCL                      {- naSol -}          -- `others` [ "nu.suwl N", "'an.sul N", "ni.sAl N" ]
-                                                            `gloss`  [ "arrowhead", "spearhead", "blade", "arrowheads", "spearheads", "blades" ],
-
-    -- ;; nASil_1
-    -- nASl    nASil   Nall    falling;dropping;faded     [[nASil/ADJ]]
-
-    noun     FACiL                     {- nASil -}          `gloss`  [ "falling", "dropping", "faded [ [ nASil / ADJ ] ]" ] ]
-
- |> "n .s m" <| [
-
-    -- ;; naSamap_1
-    -- nSm     naSam   Nap     icon;idol
-
-    noun     FaCaL |< aT               {- naSamap -}        `gloss`  [ "icon", "idol" ] ]
+    TaFaCCaL                  `verb`       {- tanaS~al -}       [ "renounce", "withdraw", "evade" ] ]
 
  |> "n .s r" <| [
-
-    -- ;; naSar-u_1
-    -- nSr     naSar   PV      assist;render victorious;deliver
-    -- nSr     noSur   IV      assist;render victorious;deliver
-
-    verb     FaCaL                     {- naSar-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n.sur IV" ]
-                                                            `gloss`  [ "assist", "render victorious", "deliver" ],
-
-    -- ;; naS~ar_1
-    -- nSr     naS~ar  PV      Christianize
-    -- nSr     naS~ir  IV_yu   Christianize
-
-    verb     FaCCaL                    {- naS~ar -}         -- `others` [ "na.s.sir IV_yu" ]
-                                                            `gloss`  [ "Christianize" ],
 
     -- ;; nASar_1
     -- nASr    nASar   PV      assist;defend
     -- nASr    nASir   IV_yu   assist;defend
 
-    verb     FACaL                     {- nASar -}          -- `others` [ "nA.sir IV_yu" ]
-                                                            `gloss`  [ "assist", "defend" ],
-
-    -- ;; tanaS~ar_1
-    -- tnSr    tanaS~ar        PV_intr become a Christian
-    -- tnSr    tanaS~ar        IV_intr become a Christian
-
-    verb     TaFaCCaL                  {- tanaS~ar -}       `gloss`  [ "become a Christian" ],
-
-    -- ;; tanASar_1
-    -- tnASr   tanASar PV      assist each other
-    -- tnASr   tanASar IV      assist each other
-
-    verb     TaFACaL                   {- tanASar -}        `gloss`  [ "assist each other" ],
-
-    -- ;; {inotaSar_1
-    -- <ntSr   {inotaSar       PV_intr be victorious
-    -- AntSr   {inotaSar       PV_intr be victorious
-    -- ntSr    notaSir IV_intr be victorious
-
-    verb     IFtaCaL                   {- {inotaSar -}      -- `others` [ "nta.sir IV_intr" ]
-                                                            `gloss`  [ "be victorious" ],
-
-    -- ;; {isotanoSar_1
-    -- <stnSr  {isotanoSar     PV      ask for assistance
-    -- AstnSr  {isotanoSar     PV      ask for assistance
-    -- stnSr   sotanoSir       IV      ask for assistance
-
-    verb     IstaFCaL                  {- {isotanoSar -}    -- `others` [ "stan.sir IV" ]
-                                                            `gloss`  [ "ask for assistance" ],
+    FACaL                     `verb`       {- nASar -}          [ "assist", "defend" ]
+                              {- `others` [ "nA.sir IV_yu" ] -},
 
     -- ;; naSor_1
     -- nSr     naSor   N       victory;assistance
 
-    noun     FaCL                      {- naSor -}          `gloss`  [ "victory", "assistance" ],
+    FaCL                      `noun`       {- naSor -}          [ "victory", "assistance" ],
 
     -- ;; naSor_2
     -- nSr     naSor   N0      Nasr
 
-    noun     FaCL                      {- naSor -}          `gloss`  [ "Nasr" ],
+    FaCL                      `noun`       {- naSor -}          [ "Nasr" ],
 
     -- ;; nuSorap_1
     -- nSr     nuSor   Nap     assistance;backing
 
-    noun     FuCL |< aT                {- nuSorap -}        `gloss`  [ "assistance", "backing" ],
-
-    -- ;; naSorAniy~_1
-    -- nSrAny  naSorAniy~      N/ap    Christian     [[naSorAniy~/ADJ]]
-    -- nSArY   naSAraY N0      Christians
-    -- nSArA   naSArA  Nhy     Christians
-
-    noun     FaCLAn |< Iy              {- naSorAniy~ -}     -- `others` [ "na.sArY N0", "na.sArA Nhy" ]
-                                                            `gloss`  [ "Christian [ [ naSorAniy ~ / ADJ ] ]", "Christians" ],
-
-    -- ;; naSorAniy~ap_1
-    -- nSrAny  naSorAniy~      Nap     Christianity     [[naSorAniy~/NOUN]]
-
-    noun     FaCLAn |< Iy |< aT        {- naSorAniy~ap -}   `gloss`  [ "Christianity [ [ naSorAniy ~ / NOUN ] ]" ],
-
-    -- ;; nuSayoriy~_1
-    -- nSyry   nuSayoriy~      N0      Nusairi
-
-    noun     FuCayL |< Iy              {- nuSayoriy~ -}     `gloss`  [ "Nusairi" ],
-
-    -- ;; nuSayoriy~ap_1
-    -- nSyry   nuSayoriy~      Nap     Nusairis (Shiite sect)
-
-    noun     FuCayL |< Iy |< aT        {- nuSayoriy~ap -}   `gloss`  [ "Nusairis ( Shiite sect )" ],
+    FuCL |< aT                `noun`       {- nuSorap -}        [ "assistance", "backing" ],
 
     -- ;; naSiyr_1
     -- nSyr    naSiyr  N/ap    partisan;supporter
@@ -2471,169 +569,88 @@ lexicon = listing "Lexicon properties"
     -- nSrA&   nuSarA& Nh      partisan;supporter
     -- nSrA}   nuSarA} Nhy     partisan;supporter
 
-    noun     FaCIL                     {- naSiyr -}         -- `others` [ "nu.sarA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "partisan", "supporter" ],
-
-    -- ;; nASuwr_1
-    -- nASwr   nASuwr  N       fistula
-    -- nwASyr  nawASiyr        Ndip    fistulas
-
-    noun     FACUL                     {- nASuwr -}         -- `others` [ "nawA.siyr Ndip" ]
-                                                            `gloss`  [ "fistula", "fistulas" ],
-
-    -- ;; manoSar_1
-    -- mnSr    manoSar Ndu     gang of thieves
-    -- mnASr   manASir Ndip    gangs of thieves
-
-    noun     MaFCaL                    {- manoSar -}        -- `others` [ "manA.sir Ndip" ]
-                                                            `gloss`  [ "gang of thieves", "gangs of thieves" ],
-
-    -- ;; tanoSiyr_1
-    -- tnSyr   tanoSiyr        N/At    Christianization
-
-    noun     TaFCIL                    {- tanoSiyr -}       `gloss`  [ "Christianization" ],
-
-    -- ;; munASarap_1
-    -- mnASr   munASar NapAt   assistance;backing;patronage
-
-    noun     MuFACaL |< aT             {- munASarap -}      `gloss`  [ "assistance", "backing", "patronage" ],
-
-    -- ;; {inotiSAr_1
-    -- <ntSAr  {inotiSAr       N/At    victory
-    -- AntSAr  {inotiSAr       N/At    victory
-
-    noun     IFtiCAL                   {- {inotiSAr -}      `gloss`  [ "victory" ],
-
-    -- ;; {inotiSAr_2
-    -- <ntSAr  {inotiSAr       Nprop   Intisar
-    -- AntSAr  {inotiSAr       Nprop   Intisar
-
-    noun     IFtiCAL                   {- {inotiSAr -}      `gloss`  [ "Intisar" ],
+    FaCIL                     `noun`       {- naSiyr -}         [ "partisan", "supporter" ],
 
     -- ;; >anoSAr_1
     -- >nSAr   >anoSAr N       partisans;followers
     -- AnSAr   >anoSAr N       partisans;followers
 
-    noun     HaFCAL                    {- OanoSAr -}        `gloss`  [ "partisans", "followers" ],
+    HaFCAL                    `noun`       {- OanoSAr -}        [ "partisans", "followers" ],
 
     -- ;; >anoSAr_2
     -- >nSAr   >anoSAr N       Ansar
     -- AnSAr   >anoSAr N       Ansar
 
-    noun     HaFCAL                    {- OanoSAr -}        `gloss`  [ "Ansar" ],
+    HaFCAL                    `noun`       {- OanoSAr -}        [ "Ansar" ],
 
     -- ;; >anoSAriy~_1
     -- >nSAry  >anoSAriy~      N0      Ansari
     -- AnSAry  >anoSAriy~      N0      Ansari
 
-    noun     HaFCAL |< Iy              {- OanoSAriy~ -}     `gloss`  [ "Ansari" ],
-
-    -- ;; >anoSAriy~_2
-    -- >nSAry  >anoSAriy~      Nall    Ansari;Ansar-related     [[>anoSAriy~/ADJ]]
-    -- AnSAry  >anoSAriy~      Nall    Ansari;Ansar-related     [[>anoSAriy~/ADJ]]
-
-    noun     HaFCAL |< Iy              {- OanoSAriy~ -}     `gloss`  [ "Ansari", "Ansar-related [ [ >anoSAriy ~ / ADJ ] ]" ],
+    HaFCAL |< Iy              `noun`       {- OanoSAriy~ -}     [ "Ansari" ],
 
     -- ;; nASir_1
     -- nASr    nASir   N0      Nasser;Nasir
 
-    noun     FACiL                     {- nASir -}          `gloss`  [ "Nasser", "Nasir" ],
+    FACiL                     `noun`       {- nASir -}          [ "Nasser", "Nasir" ],
 
     -- ;; nASir_2
     -- nASr    nASir   Nall    partisan;supporter
     -- nSAr    nuS~Ar  N       partisans;supporters
 
-    noun     FACiL                     {- nASir -}          -- `others` [ "nu.s.sAr N" ]
-                                                            `gloss`  [ "partisan", "supporter", "partisans", "supporters" ],
+    FACiL                     `noun`       {- nASir -}          [ "partisan", "supporter", "partisans", "supporters" ]
+                              `plural`     FuCCAL
+                              {- `others` [ "nu.s.sAr N" ] -},
 
     -- ;; nASirap_1
     -- nASr    nASir   Nap     Nazareth
 
-    noun     FACiL |< aT               {- nASirap -}        `gloss`  [ "Nazareth" ],
+    FACiL |< aT               `noun`       {- nASirap -}        [ "Nazareth" ],
 
     -- ;; nASiriy~_1
     -- nASry   nASiriy~        N0      Nasseri
 
-    noun     FACiL |< Iy               {- nASiriy~ -}       `gloss`  [ "Nasseri" ],
+    FACiL |< Iy               `noun`       {- nASiriy~ -}       [ "Nasseri" ],
 
     -- ;; nASiriy~_2
     -- nASry   nASiriy~        Nall    Nasserist     [[nASiriy~/NOUN]]
     -- nASry   nASiriy~        Nall    Nasserist     [[nASiriy~/ADJ]]
 
-    noun     FACiL |< Iy               {- nASiriy~ -}       `gloss`  [ "Nasserist [ [ nASiriy ~ / NOUN ] ]", "Nasserist [ [ nASiriy ~ / ADJ ] ]" ],
-
-    -- ;; nASiriy~_3
-    -- nASry   nASiriy~        Nall    of/from Nazareth     [[nASiriy~/NOUN]]
-    -- nASry   nASiriy~        Nall    of/from Nazareth     [[nASiriy~/ADJ]]
-
-    noun     FACiL |< Iy               {- nASiriy~ -}       `gloss`  [ "of / from Nazareth [ [ nASiriy ~ / NOUN ] ]", "of / from Nazareth [ [ nASiriy ~ / ADJ ] ]" ],
-
-    -- ;; nASiriy~ap_1
-    -- nASry   nASiriy~        Nap     Nasserism     [[nASiriy~/NOUN]]
-
-    noun     FACiL |< Iy |< aT         {- nASiriy~ap -}     `gloss`  [ "Nasserism [ [ nASiriy ~ / NOUN ] ]" ],
+    FACiL |< Iy               `noun`       {- nASiriy~ -}       [ "Nasserist" ],
 
     -- ;; manoSuwr_1
     -- mnSwr   manoSuwr        Nprop   Mansour
 
-    noun     MaFCUL                    {- manoSuwr -}       `gloss`  [ "Mansour" ],
+    MaFCUL                    `noun`       {- manoSuwr -}       [ "Mansour" ],
 
     -- ;; manoSuwr_2
     -- mnSwr   manoSuwr        Nall    victorious
 
-    noun     MaFCUL                    {- manoSuwr -}       `gloss`  [ "victorious" ],
-
-    -- ;; manoSuwrap_1
-    -- mnSwr   manoSuwr        Nap     Mansoura
-
-    noun     MaFCUL |< aT              {- manoSuwrap -}     `gloss`  [ "Mansoura" ],
-
-    -- ;; manoSuwriy~_1
-    -- mnSwry  manoSuwriy~     N0      Mansouri
-
-    noun     MaFCUL |< Iy              {- manoSuwriy~ -}    `gloss`  [ "Mansouri" ],
+    MaFCUL                    `noun`       {- manoSuwr -}       [ "victorious" ],
 
     -- ;; manoSuwriy~_2
     -- mnSwry  manoSuwriy~     Nall    of/from Mansoura (Egy.)
 
-    noun     MaFCUL |< Iy              {- manoSuwriy~ -}    `gloss`  [ "of / from Mansoura ( Egy . )" ],
+    MaFCUL |< Iy              `noun`       {- manoSuwriy~ -}    [ "of/from Mansoura (Egy.)" ],
 
     -- ;; munASir_1
     -- mnASr   munASir Nall    supported;defender
 
-    noun     MuFACiL                   {- munASir -}        `gloss`  [ "supported", "defender" ],
-
-    -- ;; mutanaS~ir_1
-    -- mtnSr   mutanaS~ir      Nall    Christianized     [[mutanaS~ir/ADJ]]
-
-    noun     MutaFaCCiL                {- mutanaS~ir -}     `gloss`  [ "Christianized [ [ mutanaS ~ ir / ADJ ] ]" ],
-
-    -- ;; munotaSir_1
-    -- mntSr   munotaSir       Nall    victorious     [[munotaSir/ADJ]]
-
-    noun     MuFtaCiL                  {- munotaSir -}      `gloss`  [ "victorious [ [ munotaSir / ADJ ] ]" ],
+    MuFACiL                   `noun`       {- munASir -}        [ "supported", "defender" ],
 
     -- ;; munotaSir_2
     -- mntSr   munotaSir       N0      Muntasir
 
-    noun     MuFtaCiL                  {- munotaSir -}      `gloss`  [ "Muntasir" ] ]
+    MuFtaCiL                  `noun`       {- munotaSir -}      [ "Muntasir" ] ]
 
  |> "n .s r y" <| [
 
     -- ;; naSoriy_1
     -- nSry    naSoriy N0      Nasri
 
-    noun     KaRDiS                    {- naSoriy -}        `gloss`  [ "Nasri" ] ]
+    KaRDiS                    `noun`       {- naSoriy -}        [ "Nasri" ] ]
 
  |> "n .s t" <| [
-
-    -- ;; naSat-i_1
-    -- nSt     naSat   PV-t    listen
-    -- nSt     noSit   IV      listen
-
-    verb     FaCaL                     {- naSat-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "n.sit IV" ]
-                                                            `gloss`  [ "listen" ],
 
     -- ;; >anoSat_1
     -- >nSt    >anoSat PV-t    listen
@@ -2641,252 +658,23 @@ lexicon = listing "Lexicon properties"
     -- nSt     noSit   IV_yu   listen
     -- nSt     noSat   IV_Pass_yu      be listened
 
-    verb     HaFCaL                    {- OanoSat -}        -- `others` [ "n.sit IV_yu", "n.sat IV_Pass_yu" ]
-                                                            `gloss`  [ "listen", "be listened" ],
-
-    -- ;; tanaS~at_1
-    -- tnSt    tanaS~at        PV-t    eavesdrop
-    -- tnSt    tanaS~at        IV      eavesdrop
-
-    verb     TaFaCCaL                  {- tanaS~at -}       `gloss`  [ "eavesdrop" ],
+    HaFCaL                    `verb`       {- OanoSat -}        [ "listen", "be listened" ]
+                              {- `others` [ "n.sit IV_yu", "n.sat IV_Pass_yu" ] -},
 
     -- ;; tanaS~ut_1
     -- tnSt    tanaS~ut        N/At    eavesdropping
 
-    noun     TaFaCCuL                  {- tanaS~ut -}       `gloss`  [ "eavesdropping" ],
-
-    -- ;; mutanaS~it_1
-    -- mtnSt   mutanaS~it      Nall    eavesdropping;eavesdropper
-
-    noun     MutaFaCCiL                {- mutanaS~it -}     `gloss`  [ "eavesdropping", "eavesdropper" ] ]
-
- |> "n .s y" <| [
-
-    -- ;; tanASaY_1
-    -- tnASY   tanASaY PV_0    join forces;unite;associate
-    -- tnASA   tanASA  PV_h    join forces;unite;associate
-    -- tnASy   tanASay PV_Atn  join forces;unite;associate
-    -- tnAS    tanAS   PV_ttAw join forces;unite;associate
-    -- tnASY   tanASaY IV_0    join forces;unite;associate
-    -- tnASA   tanASA  IV_h    join forces;unite;associate
-    -- tnASy   tanASay IV_Ann  join forces;unite;associate
-    -- tnAS    tanAS   IV_0hwnyn       join forces;unite;associate
-
-    verb     TaFACY                    {- tanASaY -}        -- `others` [ "tanA.s IV_0hwnyn PV_ttAw", "tanA.sA PV_h IV_h", "tanA.say PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "join forces", "unite", "associate" ],
-
-    -- ;; nASiyap_1
-    -- nASy    nASiy   Nap     corner;affairs;situation
-    -- nwASy   nawASiy N0_Nh   corners;affairs;situation
-    -- nwAS    nawAS   NK      corners;affairs;situation
-
-    noun     FACiL |< aT               {- nASiyap -}        -- `others` [ "nawA.s NK", "nawA.siy N0_Nh" ]
-                                                            `gloss`  [ "corner", "affairs", "situation", "corners" ] ]
+    TaFaCCuL                  `noun`       {- tanaS~ut -}       [ "eavesdropping" ] ]
 
  |> "n .t .h" <| [
-
-    -- ;; naTaH-a_1
-    -- nTH     naTaH   PV      push;butt
-    -- nTH     noTaH   IV      push;butt
-
-    verb     FaCaL                     {- naTaH-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.ta.h IV" ]
-                                                            `gloss`  [ "push", "butt" ],
-
-    -- ;; nATaH_1
-    -- nATH    nATaH   PV      bump;ram;touch
-    -- nATH    nATiH   IV_yu   bump;ram;touch
-
-    verb     FACaL                     {- nATaH -}          -- `others` [ "nA.ti.h IV_yu" ]
-                                                            `gloss`  [ "bump", "ram", "touch" ],
-
-    -- ;; tanATaH_1
-    -- tnATH   tanATaH PV      butt each another;struggle with each other
-    -- tnATH   tanATaH IV      butt each another;struggle with each other
-
-    verb     TaFACaL                   {- tanATaH -}        `gloss`  [ "butt each another", "struggle with each other" ],
-
-    -- ;; {inotaTaH_1
-    -- <ntTH   {inotaTaH       PV      butt each another;struggle with each other
-    -- AntTH   {inotaTaH       PV      butt each another;struggle with each other
-    -- ntTH    notaTiH IV      butt each another;struggle with each other
-
-    verb     IFtaCaL                   {- {inotaTaH -}      -- `others` [ "nta.ti.h IV" ]
-                                                            `gloss`  [ "butt each another", "struggle with each other" ],
-
-    -- ;; naToH_1
-    -- nTH     naToH   N       pushing;butting
-
-    noun     FaCL                      {- naToH -}          `gloss`  [ "pushing", "butting" ],
-
-    -- ;; naToHap_1
-    -- nTH     naToH   Napdu   thrust;push
-
-    noun     FaCL |< aT                {- naToHap -}        `gloss`  [ "thrust", "push" ],
-
-    -- ;; naT~AH_1
-    -- nTAH    naT~AH  N       thruster;booster
-
-    noun     FaCCAL                    {- naT~AH -}         `gloss`  [ "thruster", "booster" ],
-
-    -- ;; naTiyH_1
-    -- nTyH    naTiyH  N-ap    butted;thrust     [[naTiyH/ADJ]]
-
-    noun     FaCIL                     {- naTiyH -}         `gloss`  [ "butted", "thrust [ [ naTiyH / ADJ ] ]" ],
-
-    -- ;; munATaHap_1
-    -- mnATH   munATaH NapAt   bullfight
-
-    noun     MuFACaL |< aT             {- munATaHap -}      `gloss`  [ "bullfight" ],
 
     -- ;; nATiHap_1
     -- nATH    nATiH   NapAt   skyscraper
     -- nwATH   nawATiH Ndip    skyscrapers
 
-    noun     FACiL |< aT               {- nATiHap -}        -- `others` [ "nawA.ti.h Ndip" ]
-                                                            `gloss`  [ "skyscraper", "skyscrapers" ] ]
-
- |> "n .t .t" <| [
-
-    -- ;; naT~-u_1
-    -- nT      naT~    PV_V    jump;leap
-    -- nTT     naTaT   PV_C    jump;leap
-    -- nT      nuT~    IV_V    jump;leap
-    -- nTT     noTuT   IV_C    jump;leap
-
-    verb     FaCL                      {- naT~-u -}         `imperf` [ FCuL ]
-                                                            -- `others` [ "n.tu.t IV_C", "na.ta.t PV_C", "nu.t.t IV_V" ]
-                                                            `gloss`  [ "jump", "leap" ],
-
-    -- ;; naT~_1
-    -- nT      naT~    N       jumping;leaping
-
-    noun     FaCL                      {- naT~ -}           `gloss`  [ "jumping", "leaping" ],
-
-    -- ;; naT~ap_1
-    -- nT      naT~    Napdu   jump;leap
-
-    noun     FaCL |< aT                {- naT~ap -}         `gloss`  [ "jump", "leap" ],
-
-    -- ;; naT~AT_1
-    -- nTAT    naT~AT  Nall    jumper;jumpy
-
-    noun     FaCCAL                    {- naT~AT -}         `gloss`  [ "jumper", "jumpy" ],
-
-    -- ;; naT~AT_2
-    -- nTAT    naT~AT  N       grasshopper
-    -- nTAT    naT~AT  NapAt   grasshopper
-
-    noun     FaCCAL                    {- naT~AT -}         `gloss`  [ "grasshopper" ] ]
-
- |> "n .t `" <| [
-
-    -- ;; naTaE-a_1
-    -- nTE     naTaE   PV      change color;turn pale
-    -- nTE     noTaE   IV      change color;turn pale
-
-    verb     FaCaL                     {- naTaE-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n.ta` IV" ]
-                                                            `gloss`  [ "change color", "turn pale" ],
-
-    -- ;; tanaT~aE_1
-    -- tnTE    tanaT~aE        PV_intr be meticulous;be fastidious
-    -- tnTE    tanaT~aE        IV_intr be meticulous;be fastidious
-
-    verb     TaFaCCaL                  {- tanaT~aE -}       `gloss`  [ "be meticulous", "be fastidious" ],
-
-    -- ;; naToE_1
-    -- nTE     naToE   N       leather mat
-    -- nTE     niToE   N       leather mat
-    -- >nTAE   >anoTAE N       leather mats
-    -- AnTAE   >anoTAE N       leather mats
-    -- nTwE    nuTuwE  N       leather mats
-
-    noun     FaCL                      {- naToE -}          -- `others` [ "ni.t` N", "nu.tuw` N", "'an.tA` N" ]
-                                                            `gloss`  [ "leather mat", "leather mats" ],
-
-    -- ;; niToE_1
-    -- nTE     niToE   N       hard palate
-    -- nTE     niTaE   N       hard palate
-    -- nTwE    nuTuwE  N       hard palates
-
-    noun     FiCL                      {- niToE -}          -- `others` [ "ni.ta` N", "nu.tuw` N" ]
-                                                            `gloss`  [ "hard palate", "hard palates" ],
-
-    -- ;; niToEiy~_1
-    -- nTEy    niToEiy~        N-ap    palatal     [[niToEiy~/ADJ]]
-
-    noun     FiCL |< Iy                {- niToEiy~ -}       `gloss`  [ "palatal [ [ niToEiy ~ / ADJ ] ]" ] ]
-
- |> "n .t f" <| [
-
-    -- ;; naTaf-ui_1
-    -- nTf     naTaf   PV      dribble;trickle
-    -- nTf     noTuf   IV      dribble;trickle
-    -- nTf     noTif   IV      dribble;trickle
-
-    verb     FaCaL                     {- naTaf-ui -}       `imperf` [ FCuL, FCiL ]
-                                                            -- `others` [ "n.tif IV", "n.tuf IV" ]
-                                                            `gloss`  [ "dribble", "trickle" ],
-
-    -- ;; naTof_1
-    -- nTf     naTof   N       dribbling;trickling
-
-    noun     FaCL                      {- naTof -}          `gloss`  [ "dribbling", "trickling" ],
-
-    -- ;; naTafAn_1
-    -- nTfAn   naTafAn N       dribbling;trickling
-
-    noun     FaCaLAn                   {- naTafAn -}        `gloss`  [ "dribbling", "trickling" ],
-
-    -- ;; niTAfap_1
-    -- nTAf    niTAf   Nap     dribbling;trickling
-
-    noun     FiCAL |< aT               {- niTAfap -}        `gloss`  [ "dribbling", "trickling" ],
-
-    -- ;; nuTofap_1
-    -- nTf     nuTof   Napdu   drop
-    -- nTf     nuTaf   N       drops
-
-    noun     FuCL |< aT                {- nuTofap -}        -- `others` [ "nu.taf N" ]
-                                                            `gloss`  [ "drop", "drops" ],
-
-    -- ;; nuTofap_2
-    -- nTf     nuTof   Napdu   sperm
-    -- nTf     nuTaf   N       sperm
-
-    noun     FuCL |< aT                {- nuTofap -}        -- `others` [ "nu.taf N" ]
-                                                            `gloss`  [ "sperm" ] ]
-
- |> "n .t l" <| [
-
-    -- ;; naTal-u_1
-    -- nTl     naTal   PV      apply a warm compress to;bathe (in medicated liquid)
-    -- nTl     noTul   IV      apply a warm compress to;bathe (in medicated liquid)
-
-    verb     FaCaL                     {- naTal-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n.tul IV" ]
-                                                            `gloss`  [ "apply a warm compress to", "bathe ( in medicated liquid )" ],
-
-    -- ;; naTol_1
-    -- nTl     naTol   N       application of a warm compress
-    -- nTl     naTol   N       bathing (in a medicated liquid)
-
-    noun     FaCL                      {- naTol -}          `gloss`  [ "application of a warm compress", "bathing ( in a medicated liquid )" ],
-
-    -- ;; naTuwl_1
-    -- nTwl    naTuwl  N       warm compress;bath (in a medicated liquid)
-
-    noun     FaCUL                     {- naTuwl -}         `gloss`  [ "warm compress", "bath ( in a medicated liquid )" ] ]
-
- |> "n .t n .t" <| [
-
-    -- ;; naTonaT_1
-    -- nTnT    naTonaT PV      hop up and down;skip
-    -- nTnT    naToniT IV_yu   hop up and down;skip
-
-    verb     KaRDaS                    {- naTonaT -}        -- `others` [ "na.tni.t IV_yu" ]
-                                                            `gloss`  [ "hop up and down", "skip" ] ]
+    FACiL |< aT               `noun`       {- nATiHap -}        [ "skyscraper", "skyscrapers" ]
+                              `plural`     FawACiL
+                              {- `others` [ "nawA.ti.h Ndip" ] -} ]
 
  |> "n .t q" <| [
 
@@ -2895,228 +683,55 @@ lexicon = listing "Lexicon properties"
     -- nTq     noTuq   IV      speak;utter;pronounce
     -- nTq     noTaq   IV_Pass_yu      be spoken;be uttered;be pronounced
 
-    verb     FaCaL                     {- naTaq-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n.taq IV_Pass_yu", "n.tuq IV" ]
-                                                            `gloss`  [ "speak", "utter", "pronounce", "be spoken", "be uttered", "be pronounced" ],
-
-    -- ;; naT~aq_1
-    -- nTq     naT~aq  PV      make speak
-    -- nTq     naT~iq  IV_yu   make speak
-
-    verb     FaCCaL                    {- naT~aq -}         -- `others` [ "na.t.tiq IV_yu" ]
-                                                            `gloss`  [ "make speak" ],
-
-    -- ;; >anoTaq_1
-    -- >nTq    >anoTaq PV      make speak
-    -- AnTq    >anoTaq PV      make speak
-    -- nTq     noTiq   IV_yu   make speak
-    -- nTq     noTaq   IV_Pass_yu      be made to speak
-
-    verb     HaFCaL                    {- OanoTaq -}        -- `others` [ "n.tiq IV_yu", "n.taq IV_Pass_yu" ]
-                                                            `gloss`  [ "make speak", "be made to speak" ],
-
-    -- ;; tanaT~aq_1
-    -- tnTq    tanaT~aq        PV_intr be surrounded;be girded
-    -- tnTq    tanaT~aq        IV_intr be surrounded;be girded
-
-    verb     TaFaCCaL                  {- tanaT~aq -}       `gloss`  [ "be surrounded", "be girded" ],
-
-    -- ;; {inotaTaq_1
-    -- <ntTq   {inotaTaq       PV      gird oneself
-    -- AntTq   {inotaTaq       PV      gird oneself
-    -- ntTq    notaTiq IV      gird oneself
-
-    verb     IFtaCaL                   {- {inotaTaq -}      -- `others` [ "nta.tiq IV" ]
-                                                            `gloss`  [ "gird oneself" ],
-
-    -- ;; {isotanoTaq_1
-    -- <stnTq  {isotanoTaq     PV      make speak;question;interrogate
-    -- AstnTq  {isotanoTaq     PV      make speak;question;interrogate
-    -- stnTq   sotanoTiq       IV      make speak;question;interrogate
-
-    verb     IstaFCaL                  {- {isotanoTaq -}    -- `others` [ "stan.tiq IV" ]
-                                                            `gloss`  [ "make speak", "question", "interrogate" ],
+    FaCaL                     `verb`       {- naTaq-u -}        [ "speak", "utter", "pronounce", "be spoken", "be uttered", "be pronounced" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "n.taq IV_Pass_yu", "n.tuq IV" ] -},
 
     -- ;; nuToq_1
     -- nTq     nuToq   N       pronunciation;utterance
     -- nTq     nuToq   N       decree
 
-    noun     FuCL                      {- nuToq -}          `gloss`  [ "pronunciation", "utterance", "decree" ],
-
-    -- ;; nuToqiy~_1
-    -- nTqy    nuToqiy~        N-ap    phonetic;pronunciation     [[nuToqiy~/ADJ]]
-
-    noun     FuCL |< Iy                {- nuToqiy~ -}       `gloss`  [ "phonetic", "pronunciation [ [ nuToqiy ~ / ADJ ] ]" ],
+    FuCL                      `noun`       {- nuToq -}          [ "pronunciation", "utterance", "decree" ],
 
     -- ;; niTAq_1
     -- nTAq    niTAq   Ndu     scope;range;extent
 
-    noun     FiCAL                     {- niTAq -}          `gloss`  [ "scope", "range", "extent" ],
+    FiCAL                     `noun`       {- niTAq -}          [ "scope", "range", "extent" ],
 
     -- ;; manoTiq_1
     -- mnTq    manoTiq N       logic
 
-    noun     MaFCiL                    {- manoTiq -}        `gloss`  [ "logic" ],
+    MaFCiL                    `noun`       {- manoTiq -}        [ "logic" ],
 
     -- ;; manoTiqiy~_1
     -- mnTqy   manoTiqiy~      Nall    logical     [[manoTiqiy~/ADJ]]
 
-    noun     MaFCiL |< Iy              {- manoTiqiy~ -}     `gloss`  [ "logical [ [ manoTiqiy ~ / ADJ ] ]" ],
-
-    -- ;; minoTaq_1
-    -- mnTq    minoTaq N       belt
-
-    noun     MiFCaL                    {- minoTaq -}        `gloss`  [ "belt" ],
+    MaFCiL |< Iy              `noun`       {- manoTiqiy~ -}     [ "logical" ],
 
     -- ;; minoTaqap_1
     -- mnTq    minoTaq Napdu   area;zone;territory
     -- mnATq   manATiq Ndip    areas;zones;territories
 
-    noun     MiFCaL |< aT              {- minoTaqap -}      -- `others` [ "manA.tiq Ndip" ]
-                                                            `gloss`  [ "area", "zone", "territory", "areas", "zones", "territories" ],
+    MiFCaL |< aT              `noun`       {- minoTaqap -}      [ "area", "zone", "territory", "areas", "zones", "territories" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "manA.tiq Ndip" ] -},
 
     -- ;; minoTaqiy~_1
     -- mnTqy   minoTaqiy~      N-ap    zonal;area     [[minoTaqiy~/ADJ]]
 
-    noun     MiFCaL |< Iy              {- minoTaqiy~ -}     `gloss`  [ "zonal", "area [ [ minoTaqiy ~ / ADJ ] ]" ],
-
-    -- ;; {isotinoTAq_1
-    -- <stnTAq {isotinoTAq     N/At    interrogation;questioning
-    -- AstnTAq {isotinoTAq     N/At    interrogation;questioning
-
-    noun     IstiFCAL                  {- {isotinoTAq -}    `gloss`  [ "interrogation", "questioning" ],
+    MiFCaL |< Iy              `noun`       {- minoTaqiy~ -}     [ "zonal", "area" ],
 
     -- ;; nATiq_1
     -- nATq    nATiq   Nall    speaker;speaking;spokesman
 
-    noun     FACiL                     {- nATiq -}          `gloss`  [ "speaker", "speaking", "spokesman" ],
-
-    -- ;; manoTuwq_1
-    -- #mnTwq  manoTuwq        N-ap    pronounced;uttered
-
-    noun     MaFCUL                    {- manoTuwq -}       `gloss`  [ "pronounced", "uttered" ],
-
-    -- ;; manoTuwq_2
-    -- mnTwq   manoTuwq        Ndu     statement;formulation
-
-    noun     MaFCUL                    {- manoTuwq -}       `gloss`  [ "statement", "formulation" ],
-
-    -- ;; manoTuwqap_1
-    -- mnTwq   manoTuwq        Napdu   dictum;statement;utterance
-
-    noun     MaFCUL |< aT              {- manoTuwqap -}     `gloss`  [ "dictum", "statement", "utterance" ],
-
-    -- ;; musotanoTiq_1
-    -- mstnTq  musotanoTiq     Nall    examining magistrate;interrogator
-
-    noun     MustaFCiL                 {- musotanoTiq -}    `gloss`  [ "examining magistrate", "interrogator" ] ]
-
- |> "n .t r" <| [
-
-    -- ;; naTar-u_1
-    -- nTr     naTar   PV      watch;guard;push away
-    -- nTr     noTur   IV      watch;guard;push away
-
-    verb     FaCaL                     {- naTar-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n.tur IV" ]
-                                                            `gloss`  [ "watch", "guard", "push away" ],
-
-    -- ;; naTor_1
-    -- nTr     naTor   N       watch;guard;protection
-
-    noun     FaCL                      {- naTor -}          `gloss`  [ "watch", "guard", "protection" ],
-
-    -- ;; niTArap_1
-    -- nTAr    niTAr   Nap     watch;guard;protection
-
-    noun     FiCAL |< aT               {- niTArap -}        `gloss`  [ "watch", "guard", "protection" ],
-
-    -- ;; nuT~Ar_1
-    -- nTAr    nuT~Ar  Ndu     scarecrow
-
-    noun     FuCCAL                    {- nuT~Ar -}         `gloss`  [ "scarecrow" ],
-
-    -- ;; nATir_1
-    -- nATr    nATir   Ndu     guard;lookout;warden
-    -- nTAr    nuT~Ar  N       guards;lookouts;wardens
-    -- nTrA'   nuTarA' N0_Nh   guards;lookouts;wardens
-    -- nTrA&   nuTarA& Nh      guards;lookouts;wardens
-    -- nTrA}   nuTarA} Nhy     guards;lookouts;wardens
-    -- nTr     naTar   Nap     guards;lookouts;wardens
-    -- nwATr   nawATir Ndip    guards;lookouts;wardens
-
-    noun     FACiL                     {- nATir -}          -- `others` [ "nu.t.tAr N", "na.tar Nap", "nawA.tir Ndip", "nu.tarA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "guard", "lookout", "warden", "guards", "lookouts", "wardens" ],
-
-    -- ;; nATuwr_1
-    -- nATwr   nATuwr  Ndu     guard;lookout;warden
-    -- nwATyr  nawATiyr        Ndip    guards;lookouts;wardens
-
-    noun     FACUL                     {- nATuwr -}         -- `others` [ "nawA.tiyr Ndip" ]
-                                                            `gloss`  [ "guard", "lookout", "warden", "guards", "lookouts", "wardens" ],
-
-    -- ;; nATuwrap_1
-    -- nATwr   nATuwr  Nap     female chaperon;female guard
-
-    noun     FACUL |< aT               {- nATuwrap -}       `gloss`  [ "female chaperon", "female guard" ] ]
-
- |> "n .t r n" <| [
-
-    -- ;; naToruwn_1
-    -- nTrwn   naToruwn        N       natron
-
-    noun     KaRDUS                    {- naToruwn -}       `gloss`  [ "natron" ] ]
-
- |> "n .t s" <| [
-
-    -- ;; tanaT~as_1
-    -- tnTs    tanaT~as        PV      examine;scrutinize;be proficient
-    -- tnTs    tanaT~as        IV      examine;scrutinize;be proficient
-
-    verb     TaFaCCaL                  {- tanaT~as -}       `gloss`  [ "examine", "scrutinize", "be proficient" ],
-
-    -- ;; naTos_1
-    -- nTs     naTos   Nall    well-informed;experienced;skilled
-    -- nTs     naTus   Nall    well-informed;experienced;skilled
-
-    noun     FaCL                      {- naTos -}          -- `others` [ "na.tus Nall" ]
-                                                            `gloss`  [ "well-informed", "experienced", "skilled" ],
-
-    -- ;; naTAsiy~_1
-    -- nTAsy   naTAsiy~        Nall    well-informed;experienced;skilled     [[naTAsiy~/ADJ]]
-    -- nTAsy   niTAsiy~        Nall    well-informed;experienced;skilled     [[niTAsiy~/ADJ]]
-    -- nTs     nuTus   N       well-informed;experienced;skilled
-
-    noun     FaCAL |< Iy               {- naTAsiy~ -}       -- `others` [ "ni.tAsiyy Nall", "nu.tus N" ]
-                                                            `gloss`  [ "well-informed", "experienced", "skilled [ [ naTAsiy ~ / ADJ ] ]", "skilled [ [ niTAsiy ~ / ADJ ] ]", "skilled" ] ]
+    FACiL                     `noun`       {- nATiq -}          [ "speaker", "speaking", "spokesman" ] ]
 
  |> "n .z f" <| [
-
-    -- ;; naZuf-u_1
-    -- nZf     naZuf   PV_intr be clean;be neat
-    -- nZf     noZuf   IV_intr be clean;be neat
-
-    verb     FaCuL                     {- naZuf-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n.zuf IV_intr" ]
-                                                            `gloss`  [ "be clean", "be neat" ],
-
-    -- ;; naZ~af_1
-    -- nZf     naZ~af  PV      clean;polish
-    -- nZf     naZ~if  IV_yu   clean;polish
-
-    verb     FaCCaL                    {- naZ~af -}         -- `others` [ "na.z.zif IV_yu" ]
-                                                            `gloss`  [ "clean", "polish" ],
-
-    -- ;; tanaZ~af_1
-    -- tnZf    tanaZ~af        PV_intr become clean
-    -- tnZf    tanaZ~af        IV_intr become clean
-
-    verb     TaFaCCaL                  {- tanaZ~af -}       `gloss`  [ "become clean" ],
 
     -- ;; naZAfap_1
     -- nZAf    naZAf   Nap     cleanliness;cleaning
 
-    noun     FaCAL |< aT               {- naZAfap -}        `gloss`  [ "cleanliness", "cleaning" ],
+    FaCAL |< aT               `noun`       {- naZAfap -}        [ "cleanliness", "cleaning" ],
 
     -- ;; naZiyf_1
     -- nZyf    naZiyf  N/ap    clean;tidy     [[naZiyf/ADJ]]
@@ -3125,31 +740,14 @@ lexicon = listing "Lexicon properties"
     -- nZfA}   nuZafA} Nhy     clean;tidy
     -- nZAf    niZAf   N       clean;tidy
 
-    noun     FaCIL                     {- naZiyf -}         -- `others` [ "ni.zAf N", "nu.zafA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "clean", "tidy [ [ naZiyf / ADJ ] ]", "tidy" ],
-
-    -- ;; >anoZaf_1
-    -- >nZf    >anoZaf Nel     cleaner;cleanest
-    -- AnZf    >anoZaf Nel     cleaner;cleanest
-
-    noun     HaFCaL                    {- OanoZaf -}        `gloss`  [ "cleaner", "cleanest" ],
+    FaCIL                     `noun`       {- naZiyf -}         [ "clean", "tidy" ]
+                              `plural`     FiCAL
+                              {- `others` [ "ni.zAf N" ] -},
 
     -- ;; tanoZiyf_1
     -- tnZyf   tanoZiyf        N/At    cleaning
 
-    noun     TaFCIL                    {- tanoZiyf -}       `gloss`  [ "cleaning" ],
-
-    -- ;; munaZ~if_1
-    -- mnZf    munaZ~if        NduAt   cleaner;cleanser;cleaning agent
-
-    noun     MuFaCCiL                  {- munaZ~if -}       `gloss`  [ "cleaner", "cleanser", "cleaning agent" ] ]
-
- |> "n .z l" <| [
-
-    -- ;; naZoliy~_1
-    -- nZly    naZoliy~        Nall    delicate;feminine     [[naZoliy~/ADJ]]
-
-    noun     FaCL |< Iy                {- naZoliy~ -}       `gloss`  [ "delicate", "feminine [ [ naZoliy ~ / ADJ ] ]" ] ]
+    TaFCIL                    `noun`       {- tanoZiyf -}       [ "cleaning" ] ]
 
  |> "n .z m" <| [
 
@@ -3157,9 +755,9 @@ lexicon = listing "Lexicon properties"
     -- nZm     naZam   PV      arrange;organize;compose
     -- nZm     noZim   IV      arrange;organize;compose
 
-    verb     FaCaL                     {- naZam-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "n.zim IV" ]
-                                                            `gloss`  [ "arrange", "organize", "compose" ],
+    FaCaL                     `verb`       {- naZam-i -}        [ "arrange", "organize", "compose" ]
+                              `imperf` [ FCiL ]
+                              {- `others` [ "n.zim IV" ] -},
 
     -- ;; naZ~am_1
     -- nZm     naZ~am  PV      arrange;organize;regulate
@@ -3167,125 +765,93 @@ lexicon = listing "Lexicon properties"
     -- nZm     nuZ~im  PV_Pass be arranged;be organized;be regulated
     -- nZm     naZ~am  IV_Pass_yu      be arranged;be organized;be regulated
 
-    verb     FaCCaL                    {- naZ~am -}         -- `others` [ "nu.z.zim PV_Pass", "na.z.zim IV_yu" ]
-                                                            `gloss`  [ "arrange", "organize", "regulate", "be arranged", "be organized", "be regulated" ],
-
-    -- ;; tanaZ~am_1
-    -- tnZm    tanaZ~am        PV_intr be organized;be regulated
-    -- tnZm    tanaZ~am        IV_intr be organized;be regulated
-
-    verb     TaFaCCaL                  {- tanaZ~am -}       `gloss`  [ "be organized", "be regulated" ],
-
-    -- ;; tanAZam_1
-    -- tnAZm   tanAZam PV_intr be well arranged;be well organized
-    -- tnAZm   tanAZam IV_intr be well arranged;be well organized
-
-    verb     TaFACaL                   {- tanAZam -}        `gloss`  [ "be well arranged", "be well organized" ],
-
-    -- ;; {inotaZam_1
-    -- <ntZm   {inotaZam       PV_intr be organized;be regulated
-    -- AntZm   {inotaZam       PV_intr be organized;be regulated
-    -- ntZm    notaZim IV_intr be organized;be regulated
-
-    verb     IFtaCaL                   {- {inotaZam -}      -- `others` [ "nta.zim IV_intr" ]
-                                                            `gloss`  [ "be organized", "be regulated" ],
+    FaCCaL                    `verb`       {- naZ~am -}         [ "arrange", "organize", "regulate", "be arranged", "be organized", "be regulated" ]
+                              {- `others` [ "nu.z.zim PV_Pass", "na.z.zim IV_yu" ] -},
 
     -- ;; naZom_1
     -- nZm     naZom   N       system;organization
 
-    noun     FaCL                      {- naZom -}          `gloss`  [ "system", "organization" ],
+    FaCL                      `noun`       {- naZom -}          [ "system", "organization" ],
 
     -- ;; niZAm_1
     -- nZAm    niZAm   NduAt   regime;government
     -- >nZm    >anoZim Nap     regimes;governments;systems
     -- AnZm    >anoZim Nap     regimes;governments;systems
 
-    noun     FiCAL                     {- niZAm -}          -- `others` [ "'an.zim Nap" ]
-                                                            `gloss`  [ "regime", "government", "regimes", "governments", "systems" ],
+    FiCAL                     `noun`       {- niZAm -}          [ "regime", "government", "regimes", "governments", "systems" ]
+                              `plural`     HaFCiL |< aT
+                              {- `others` [ "'an.zim Nap" ] -},
 
     -- ;; niZAm_2
     -- nZAm    niZAm   N       methodology;system;order
     -- >nZm    >anoZim Nap     methodologies;systems
     -- AnZm    >anoZim Nap     methodologies;systems
 
-    noun     FiCAL                     {- niZAm -}          -- `others` [ "'an.zim Nap" ]
-                                                            `gloss`  [ "methodology", "system", "order", "methodologies", "systems" ],
+    FiCAL                     `noun`       {- niZAm -}          [ "methodology", "system", "order", "methodologies", "systems" ]
+                              `plural`     HaFCiL |< aT
+                              {- `others` [ "'an.zim Nap" ] -},
+
+    -- ;; lAniZAm_1
+    -- lAnZAm  lAniZAm N_L     chaos
+
+    lA >| FiCAL               `noun`       {- lAniZAm -}        [ "chaos" ],
 
     -- ;; niZAmiy~_1
     -- nZAmy   niZAmiy~        N-ap    systematic;regular;orderly     [[niZAmiy~/ADJ]]
 
-    noun     FiCAL |< Iy               {- niZAmiy~ -}       `gloss`  [ "systematic", "regular", "orderly [ [ niZAmiy ~ / ADJ ] ]" ],
+    FiCAL |< Iy               `noun`       {- niZAmiy~ -}       [ "systematic", "regular", "orderly" ],
 
     -- ;; tanoZiym_1
     -- tnZym   tanoZiym        NduAt   organization;network
 
-    noun     TaFCIL                    {- tanoZiym -}       `gloss`  [ "organization", "network" ],
+    TaFCIL                    `noun`       {- tanoZiym -}       [ "organization", "network" ],
 
     -- ;; tanoZiym_2
     -- tnZym   tanoZiym        N/At    organizing;controlling;planning;regulating
 
-    noun     TaFCIL                    {- tanoZiym -}       `gloss`  [ "organizing", "controlling", "planning", "regulating" ],
-
-    -- ;; tanoZiym_3
-    -- tnZym   tanoZiym        N0      Tanzim
-
-    noun     TaFCIL                    {- tanoZiym -}       `gloss`  [ "Tanzim" ],
+    TaFCIL                    `noun`       {- tanoZiym -}       [ "organizing", "controlling", "planning", "regulating" ],
 
     -- ;; tanoZiymiy~_1
     -- tnZymy  tanoZiymiy~     Nall    organizational;controlling;planning;regulating     [[tanoZiymiy~/ADJ]]
 
-    noun     TaFCIL |< Iy              {- tanoZiymiy~ -}    `gloss`  [ "organizational", "controlling", "planning", "regulating [ [ tanoZiymiy ~ / ADJ ] ]" ],
-
-    -- ;; {inotiZAm_1
-    -- <ntZAm  {inotiZAm       N/At    order;regularity
-    -- AntZAm  {inotiZAm       N/At    order;regularity
-
-    noun     IFtiCAL                   {- {inotiZAm -}      `gloss`  [ "order", "regularity" ],
+    TaFCIL |< Iy              `noun`       {- tanoZiymiy~ -}    [ "organizational", "controlling", "planning", "regulating" ],
 
     -- ;; nAZim_1
     -- nAZm    nAZim   Nall    organizer;arranger;regulator
     -- nwAZm   nawAZim Ndip    organizers;arrangers;regulators
 
-    noun     FACiL                     {- nAZim -}          -- `others` [ "nawA.zim Ndip" ]
-                                                            `gloss`  [ "organizer", "arranger", "regulator", "organizers", "arrangers", "regulators" ],
-
-    -- ;; manoZuwm_1
-    -- mnZwm   manoZuwm        Nall    organized;orderly;systematic     [[manoZuwm/ADJ]]
-
-    noun     MaFCUL                    {- manoZuwm -}       `gloss`  [ "organized", "orderly", "systematic [ [ manoZuwm / ADJ ] ]" ],
+    FACiL                     `noun`       {- nAZim -}          [ "organizer", "arranger", "regulator", "organizers", "arrangers", "regulators" ]
+                              `plural`     FawACiL
+                              {- `others` [ "nawA.zim Ndip" ] -},
 
     -- ;; manoZuwmap_1
     -- mnZwm   manoZuwm        NapAt   structure;hierarchy
     -- mnZwm   manoZuwm        NapAt   row;rank
 
-    noun     MaFCUL |< aT              {- manoZuwmap -}     `gloss`  [ "structure", "hierarchy", "row", "rank" ],
+    MaFCUL |< aT              `noun`       {- manoZuwmap -}     [ "structure", "hierarchy", "row", "rank" ],
 
     -- ;; munaZ~im_1
     -- mnZm    munaZ~im        Nall    organizer;sponsor
 
-    noun     MuFaCCiL                  {- munaZ~im -}       `gloss`  [ "organizer", "sponsor" ],
-
-    -- ;; munaZ~im_2
-    -- mnZm    munaZ~im        NduAt   regulator;governor
-
-    noun     MuFaCCiL                  {- munaZ~im -}       `gloss`  [ "regulator", "governor" ],
+    MuFaCCiL                  `noun`       {- munaZ~im -}       [ "organizer", "sponsor" ],
 
     -- ;; munaZ~am_1
     -- mnZm    munaZ~am        Nall    organized;orderly;arranged     [[munaZ~am/ADJ]]
 
-    noun     MuFaCCaL                  {- munaZ~am -}       `gloss`  [ "organized", "orderly", "arranged [ [ munaZ ~ am / ADJ ] ]" ],
+    MuFaCCaL                  `noun`       {- munaZ~am -}       [ "organized", "orderly", "arranged" ],
 
     -- ;; munaZ~amap_1
     -- mnZm    munaZ~am        Napdu   organization
     -- mnZm    munaZ~am        NAt     organizations
 
-    noun     MuFaCCaL |< aT            {- munaZ~amap -}     -- `others` [ "muna.z.zam NAt" ]
-                                                            `gloss`  [ "organization", "organizations" ],
+    MuFaCCaL |< aT            `noun`       {- munaZ~amap -}     [ "organization", "organizations" ]
+                              `plural`     MuFaCCaL |< At
+                              {- `others` [ "muna.z.zam NAt" ] -},
 
     -- ;; munotaZim_1
     -- mntZm   munotaZim       Nall    regular;orderly;systematic
 
-    noun     MuFtaCiL                  {- munotaZim -}      `gloss`  [ "regular", "orderly", "systematic" ] ]
+    MuFtaCiL                  `noun`       {- munotaZim -}      [ "regular", "orderly", "systematic" ] ]
 
  |> "n .z r" <| [
 
@@ -3295,75 +861,43 @@ lexicon = listing "Lexicon properties"
     -- >nZr    >unoZur CV      look!;see!
     -- AnZr    >unoZur CV      look!;see!
 
-    verb     FaCaL                     {- naZar-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "'un.zur CV", "n.zur IV" ]
-                                                            `gloss`  [ "look", "observe", "see", "look !", "see !" ],
+    FaCaL                     `verb`       {- naZar-u -}        [ "look", "observe", "see", "look!", "see!" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "n.zur IV" ] -},
 
     -- ;; nAZar_1
     -- nAZr    nAZar   PV      equalize
     -- nAZr    nAZir   IV_yu   equalize
 
-    verb     FACaL                     {- nAZar -}          -- `others` [ "nA.zir IV_yu" ]
-                                                            `gloss`  [ "equalize" ],
-
-    -- ;; tanaZ~ar_1
-    -- tnZr    tanaZ~ar        PV      scrutinize;watch
-    -- tnZr    tanaZ~ar        IV      scrutinize;watch
-
-    verb     TaFaCCaL                  {- tanaZ~ar -}       `gloss`  [ "scrutinize", "watch" ],
-
-    -- ;; tanAZar_1
-    -- tnAZr   tanAZar PV      face each other;contend with each other
-    -- tnAZr   tanAZar IV      face each other;contend with each other
-
-    verb     TaFACaL                   {- tanAZar -}        `gloss`  [ "face each other", "contend with each other" ],
-
-    -- ;; {inotaZar_1
-    -- <ntZr   {inotaZar       PV      expect;wait for
-    -- AntZr   {inotaZar       PV      expect;wait for
-    -- ntZr    notaZir IV      expect;wait for
-    -- ntZr    notaZar IV_Pass_yu      be expected;be waited for
-
-    verb     IFtaCaL                   {- {inotaZar -}      -- `others` [ "nta.zir IV", "nta.zar IV_Pass_yu" ]
-                                                            `gloss`  [ "expect", "wait for", "be expected", "be waited for" ],
-
-    -- ;; {isotanoZar_1
-    -- <stnZr  {isotanoZar     PV      wait for;anticipate
-    -- AstnZr  {isotanoZar     PV      wait for;anticipate
-    -- stnZr   sotanoZir       IV      wait for;anticipate
-
-    verb     IstaFCaL                  {- {isotanoZar -}    -- `others` [ "stan.zir IV" ]
-                                                            `gloss`  [ "wait for", "anticipate" ],
+    FACaL                     `verb`       {- nAZar -}          [ "equalize" ]
+                              {- `others` [ "nA.zir IV_yu" ] -},
 
     -- ;; naZar_1
     -- nZr     naZar   N       view;look;seeing
     -- >nZAr   >anoZAr N       glances;looking
     -- AnZAr   >anoZAr N       glances;looking
 
-    noun     FaCaL                     {- naZar -}          -- `others` [ "'an.zAr N" ]
-                                                            `gloss`  [ "view", "look", "seeing", "glances", "looking" ],
+    FaCaL                     `noun`       {- naZar -}          [ "view", "look", "seeing", "glances", "looking" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'an.zAr N" ] -},
 
     -- ;; naZorap_1
     -- nZr     naZor   Napdu   look;glance;view
     -- nZr     naZar   NAt     looks;glances;views
 
-    noun     FaCL |< aT                {- naZorap -}        -- `others` [ "na.zar NAt" ]
-                                                            `gloss`  [ "look", "glance", "view", "looks", "glances", "views" ],
+    FaCL |< aT                `noun`       {- naZorap -}        [ "look", "glance", "view", "looks", "glances", "views" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "na.zar NAt" ] -},
 
     -- ;; naZariy~_1
     -- nZry    naZariy~        N-ap    theoretical;speculative     [[naZariy~/ADJ]]
 
-    noun     FaCaL |< Iy               {- naZariy~ -}       `gloss`  [ "theoretical", "speculative [ [ naZariy ~ / ADJ ] ]" ],
-
-    -- ;; naZariy~_2
-    -- nZry    naZariy~        Nall    theoretician     [[naZariy~/ADJ]]
-
-    noun     FaCaL |< Iy               {- naZariy~ -}       `gloss`  [ "theoretician [ [ naZariy ~ / ADJ ] ]" ],
+    FaCaL |< Iy               `noun`       {- naZariy~ -}       [ "theoretical", "speculative" ],
 
     -- ;; naZariy~ap_1
     -- nZry    naZariy~        NapAt   theory     [[naZariy~/NOUN]]
 
-    noun     FaCaL |< Iy |< aT         {- naZariy~ap -}     `gloss`  [ "theory [ [ naZariy ~ / NOUN ] ]" ],
+    FaCaL |< Iy |< aT         `noun`       {- naZariy~ap -}     [ "theory" ],
 
     -- ;; naZiyr_1
     -- nZyr    naZiyr  N/ap    counterpart;opposite number;colleague;peer
@@ -3372,118 +906,70 @@ lexicon = listing "Lexicon properties"
     -- nZrA}   nuZarA} Nhy     counterparts;colleagues;peers
     -- nZA}r   naZA}ir Ndip    counterparts;colleagues;peers
 
-    noun     FaCIL                     {- naZiyr -}         -- `others` [ "na.zA'ir Ndip", "nu.zarA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "counterpart", "opposite number", "colleague", "peer", "counterparts", "colleagues", "peers" ],
-
-    -- ;; naZiyrap_1
-    -- nZyr    naZiyr  Nap     foremost rank;head
-
-    noun     FaCIL |< aT               {- naZiyrap -}       `gloss`  [ "foremost rank", "head" ],
-
-    -- ;; naZ~Ar_1
-    -- nZAr    naZ~Ar  Nall    sharp-eyed
-
-    noun     FaCCAL                    {- naZ~Ar -}         `gloss`  [ "sharp-eyed" ],
+    FaCIL                     `noun`       {- naZiyr -}         [ "counterpart", "opposite number", "colleague", "peer", "counterparts", "colleagues", "peers" ],
 
     -- ;; naZ~Ar_2
     -- nZAr    naZ~Ar  N/ap    spectator
     -- nZAr    naZAr   Nap     spectators
 
-    noun     FaCCAL                    {- naZ~Ar -}         -- `others` [ "na.zAr Nap" ]
-                                                            `gloss`  [ "spectator", "spectators" ],
+    FaCCAL                    `noun`       {- naZ~Ar -}         [ "spectator", "spectators" ]
+                              `plural`     FaCAL |< aT
+                              {- `others` [ "na.zAr Nap" ] -},
 
     -- ;; naZ~Arap_1
     -- nZAr    naZ~Ar  NapAt   eyeglasses;binoculars
 
-    noun     FaCCAL |< aT              {- naZ~Arap -}       `gloss`  [ "eyeglasses", "binoculars" ],
-
-    -- ;; niZArap_1
-    -- nZAr    niZAr   Nap     supervision;administration
-
-    noun     FiCAL |< aT               {- niZArap -}        `gloss`  [ "supervision", "administration" ],
-
-    -- ;; nAZuwr_1
-    -- nAZwr   nAZuwr  N       field glasses
-
-    noun     FACUL                     {- nAZuwr -}         `gloss`  [ "field glasses" ],
+    FaCCAL |< aT              `noun`       {- naZ~Arap -}       [ "eyeglasses", "binoculars" ],
 
     -- ;; manoZar_1
     -- mnZr    manoZar Ndu     view;scenery;appearance
     -- mnZr    manoZar Napdu   view;scene
     -- mnAZr   manAZir Ndip    views;scenery
 
-    noun     MaFCaL                    {- manoZar -}        -- `others` [ "manA.zir Ndip" ]
-                                                            `gloss`  [ "view", "scenery", "appearance", "scene", "views" ],
+    MaFCaL                    `noun`       {- manoZar -}        [ "view", "scenery", "appearance", "scene", "views" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "manA.zir Ndip" ] -},
 
     -- ;; minoZAr_1
     -- mnZAr   minoZAr Ndu     viewer;telescope;magnifying glass
     -- mnAZyr  manAZiyr        Ndip    viewers;telescopes;magnifying glasses
 
-    noun     MiFCAL                    {- minoZAr -}        -- `others` [ "manA.ziyr Ndip" ]
-                                                            `gloss`  [ "viewer", "telescope", "magnifying glass", "viewers", "telescopes", "magnifying glasses" ],
+    MiFCAL                    `noun`       {- minoZAr -}        [ "viewer", "telescope", "magnifying glass", "viewers", "telescopes", "magnifying glasses" ]
+                              `plural`     MaFACIL
+                              {- `others` [ "manA.ziyr Ndip" ] -},
 
     -- ;; munAZarap_1
     -- mnAZr   munAZar NapAt   rivalry;quarrel;supervision
 
-    noun     MuFACaL |< aT             {- munAZarap -}      `gloss`  [ "rivalry", "quarrel", "supervision" ],
-
-    -- ;; tanAZur_1
-    -- tnAZr   tanAZur N/At    difference of opinion;altercation;symmetry
-
-    noun     TaFACuL                   {- tanAZur -}        `gloss`  [ "difference of opinion", "altercation", "symmetry" ],
-
-    -- ;; {inotiZAr_1
-    -- <ntZAr  {inotiZAr       N/At    waiting;anticipating
-    -- AntZAr  {inotiZAr       N/At    waiting;anticipating
-
-    noun     IFtiCAL                   {- {inotiZAr -}      `gloss`  [ "waiting", "anticipating" ],
+    MuFACaL |< aT             `noun`       {- munAZarap -}      [ "rivalry", "quarrel", "supervision" ],
 
     -- ;; nAZir_1
     -- nAZr    nAZir   Nall    looking;observer;supervisor
     -- nZAr    nuZ~Ar  N       looking;observers;supervisors
 
-    noun     FACiL                     {- nAZir -}          -- `others` [ "nu.z.zAr N" ]
-                                                            `gloss`  [ "looking", "observer", "supervisor", "observers", "supervisors" ],
-
-    -- ;; nAZirap_1
-    -- nAZr    nAZir   NapAt   directress;matron
-
-    noun     FACiL |< aT               {- nAZirap -}        `gloss`  [ "directress", "matron" ],
-
-    -- ;; nAZir_2
-    -- nAZr    nAZir   Ndu     eye;glance
-    -- nAZr    nAZir   Napdu   eye;glance
-    -- nwAZr   nawAZir Ndip    eyes;glances
-
-    noun     FACiL                     {- nAZir -}          -- `others` [ "nawA.zir Ndip" ]
-                                                            `gloss`  [ "eye", "glance", "eyes", "glances" ],
+    FACiL                     `noun`       {- nAZir -}          [ "looking", "observer", "supervisor", "observers", "supervisors" ]
+                              `plural`     FuCCAL
+                              {- `others` [ "nu.z.zAr N" ] -},
 
     -- ;; manoZuwr_1
     -- mnZwr   manoZuwr        N-ap    perspective;angle;point of view
 
-    noun     MaFCUL                    {- manoZuwr -}       `gloss`  [ "perspective", "angle", "point of view" ],
+    MaFCUL                    `noun`       {- manoZuwr -}       [ "perspective", "angle", "point of view" ],
 
     -- ;; munAZir_1
     -- mnAZr   munAZir Nall    similar;competitor;rival
 
-    noun     MuFACiL                   {- munAZir -}        `gloss`  [ "similar", "competitor", "rival" ],
+    MuFACiL                   `noun`       {- munAZir -}        [ "similar", "competitor", "rival" ],
 
     -- ;; munotaZir_1
     -- mntZr   munotaZir       Nall    waiting;anticipating
 
-    noun     MuFtaCiL                  {- munotaZir -}      `gloss`  [ "waiting", "anticipating" ],
+    MuFtaCiL                  `noun`       {- munotaZir -}      [ "waiting", "anticipating" ],
 
     -- ;; munotaZar_1
     -- mntZr   munotaZar       N-ap    anticipated;expected     [[munotaZar/ADJ]]
 
-    noun     MuFtaCaL                  {- munotaZar -}      `gloss`  [ "anticipated", "expected [ [ munotaZar / ADJ ] ]" ],
-
-    -- ;; manoZarap_1
-    -- mnZr    manoZar Napdu   reception room
-    -- mnAZr   manAZir Ndip    reception rooms
-
-    noun     MaFCaL |< aT              {- manoZarap -}      -- `others` [ "manA.zir Ndip" ]
-                                                            `gloss`  [ "reception room", "reception rooms" ] ]
+    MuFtaCaL                  `noun`       {- munotaZar -}      [ "anticipated", "expected" ] ]
 
  |> "n ^g .h" <| [
 
@@ -3491,225 +977,51 @@ lexicon = listing "Lexicon properties"
     -- njH     najaH   PV      succeed
     -- njH     nojaH   IV      succeed
 
-    verb     FaCaL                     {- najaH-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n^ga.h IV" ]
-                                                            `gloss`  [ "succeed" ],
-
-    -- ;; naj~aH_1
-    -- njH     naj~aH  PV      make successful
-    -- njH     naj~iH  IV_yu   make successful
-
-    verb     FaCCaL                    {- naj~aH -}         -- `others` [ "na^g^gi.h IV_yu" ]
-                                                            `gloss`  [ "make successful" ],
-
-    -- ;; >anojaH_1
-    -- >njH    >anojaH PV      make successful
-    -- AnjH    >anojaH PV      make successful
-    -- njH     nojiH   IV_yu   make successful
-    -- njH     nojaH   IV_Pass_yu      be made successful
-
-    verb     HaFCaL                    {- OanojaH -}        -- `others` [ "n^ga.h IV_Pass_yu", "n^gi.h IV_yu" ]
-                                                            `gloss`  [ "make successful", "be made successful" ],
-
-    -- ;; nujoH_1
-    -- njH     nujoH   N       success;favorable outcome
-
-    noun     FuCL                      {- nujoH -}          `gloss`  [ "success", "favorable outcome" ],
+    FaCaL                     `verb`       {- najaH-a -}        [ "succeed" ]
+                              `imperf` [ FCaL ]
+                              {- `others` [ "n^ga.h IV" ] -},
 
     -- ;; najAH_1
     -- njAH    najAH   Ndu     success
     -- njAH    najAH   NAt     successes
 
-    noun     FaCAL                     {- najAH -}          `gloss`  [ "success", "successes" ],
-
-    -- ;; najAH_2
-    -- njAH    najAH   N0      Najah
-
-    noun     FaCAL                     {- najAH -}          `gloss`  [ "Najah" ],
-
-    -- ;; najiyH_1
-    -- njyH    najiyH  N-ap    good;sound     [[najiyH/ADJ]]
-
-    noun     FaCIL                     {- najiyH -}         `gloss`  [ "good", "sound [ [ najiyH / ADJ ] ]" ],
+    FaCAL                     `noun`       {- najAH -}          [ "success", "successes" ],
 
     -- ;; <inojAH_1
     -- <njAH   <inojAH N/At    success
     -- AnjAH   <inojAH N/At    success
 
-    noun     HiFCAL                    {- IinojAH -}        `gloss`  [ "success" ],
+    HiFCAL                    `noun`       {- IinojAH -}        [ "success" ],
 
     -- ;; nAjiH_1
     -- nAjH    nAjiH   Nall    successful
 
-    noun     FACiL                     {- nAjiH -}          `gloss`  [ "successful" ],
-
-    -- ;; >anojaH_2
-    -- >njH    >anojaH Nel     more/most successful
-    -- AnjH    >anojaH Nel     more/most successful
-
-    noun     HaFCaL                    {- OanojaH -}        `gloss`  [ "more / most successful" ] ]
-
- |> "n ^g ^g" <| [
-
-    -- ;; naj~aY_1
-    -- njY     naj~aY  PV_0    rescue
-    -- njA     naj~A   PV_h    rescue
-    -- njy     naj~ay  PV_Atn  rescue
-    -- nj      naj~    PV_ttAw rescue
-    -- njy     naj~iy  IV_0hAnn_yu     rescue
-    -- nj      naj~    IV_0hwnyn_yu    rescue
-    -- njY     naj~aY  IV_0_Pass_yu    be rescued
-    -- njy     naj~ay  IV_Ann_Pass_yu  be rescued
-
-    verb     FaCLY                     {- naj~aY -}         -- `others` [ "na^g^gA PV_h", "na^g^giy IV_0hAnn_yu", "na^g^g IV_0hwnyn_yu PV_ttAw", "na^g^gay PV_Atn IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "rescue", "be rescued" ] ]
-
- |> "n ^g ^s" <| [
-
-    -- ;; najA$iy~_1
-    -- njA$y   najA$iy~        N-ap    Negus     [[najA$iy~/ADJ]]
-    -- njA$y   nijA$iy~        N-ap    Negus     [[nijA$iy~/ADJ]]
-
-    noun     FaCAL |< Iy               {- najA$iy~ -}       -- `others` [ "ni^gA^siyy N-ap" ]
-                                                            `gloss`  [ "Negus [ [ najA $ iy ~ / ADJ ] ]", "Negus [ [ nijA $ iy ~ / ADJ ] ]" ],
-
-    -- ;; najA$iy~_2
-    -- njA$y   najA$iy~        N0      Najashi
-
-    noun     FaCAL |< Iy               {- najA$iy~ -}       `gloss`  [ "Najashi" ] ]
-
- |> "n ^g _d" <| [
-
-    -- ;; naja*-i_1
-    -- nj*     naja*   PV      importune
-    -- nj*     noji*   IV      importune
-
-    verb     FaCaL                     {- naja*-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "n^gi_d IV" ]
-                                                            `gloss`  [ "importune" ],
-
-    -- ;; najo*_1
-    -- nj*     najo*   N       importuning
-
-    noun     FaCL                      {- najo* -}          `gloss`  [ "importuning" ],
-
-    -- ;; manAji*_1
-    -- mnAj*   manAji* Ndip    moles (zool.)
-
-    noun     MaFACiL                   {- manAji* -}        `gloss`  [ "moles ( zool . )" ],
-
-    -- ;; nAji*_1
-    -- nAj*    nAji*   Ndu     molar
-    -- nwAj*   nawAji* Ndip    molars;teeth
-
-    noun     FACiL                     {- nAji* -}          -- `others` [ "nawA^gi_d Ndip" ]
-                                                            `gloss`  [ "molar", "molars", "teeth" ] ]
+    FACiL                     `noun`       {- nAjiH -}          [ "successful" ] ]
 
  |> "n ^g `" <| [
-
-    -- ;; najaE-a_1
-    -- njE     najaE   PV_intr be useful;be beneficial
-    -- njE     nojaE   IV_intr be useful;be beneficial
-
-    verb     FaCaL                     {- najaE-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n^ga` IV_intr" ]
-                                                            `gloss`  [ "be useful", "be beneficial" ],
-
-    -- ;; naj~aE_1
-    -- njE     naj~aE  PV_intr be useful;be beneficial
-    -- njE     naj~iE  IV_intr_yu      be useful;be beneficial
-
-    verb     FaCCaL                    {- naj~aE -}         -- `others` [ "na^g^gi` IV_intr_yu" ]
-                                                            `gloss`  [ "be useful", "be beneficial" ],
-
-    -- ;; >anojaE_1
-    -- >njE    >anojaE PV_intr be useful;be beneficial
-    -- AnjE    >anojaE PV_intr be useful;be beneficial
-    -- njE     nojiE   IV_intr_yu      be useful;be beneficial
-
-    verb     HaFCaL                    {- OanojaE -}        -- `others` [ "n^gi` IV_intr_yu" ]
-                                                            `gloss`  [ "be useful", "be beneficial" ],
-
-    -- ;; {inotajaE_1
-    -- <ntjE   {inotajaE       PV      take refuge with;have recourse to
-    -- AntjE   {inotajaE       PV      take refuge with;have recourse to
-    -- ntjE    notajiE IV      take refuge with;have recourse to
-
-    verb     IFtaCaL                   {- {inotajaE -}      -- `others` [ "nta^gi` IV" ]
-                                                            `gloss`  [ "take refuge with", "have recourse to" ],
-
-    -- ;; {isotanojaE_1
-    -- <stnjE  {isotanojaE     PV      seek
-    -- AstnjE  {isotanojaE     PV      seek
-    -- stnjE   sotanojiE       IV      seek
-
-    verb     IstaFCaL                  {- {isotanojaE -}    -- `others` [ "stan^gi` IV" ]
-                                                            `gloss`  [ "seek" ],
-
-    -- ;; najoE_1
-    -- njE     najoE   N       usefulness;salutariness
-    -- njwE    nujuwE  N       usefulness;salutariness
-
-    noun     FaCL                      {- najoE -}          -- `others` [ "nu^guw` N" ]
-                                                            `gloss`  [ "usefulness", "salutariness" ],
-
-    -- ;; najoE_2
-    -- njE     najoE   Ndu     hamlet;small village
-    -- njwE    nujuwE  N       hamlets;small villages
-
-    noun     FaCL                      {- najoE -}          -- `others` [ "nu^guw` N" ]
-                                                            `gloss`  [ "hamlet", "small village", "hamlets", "small villages" ],
-
-    -- ;; najoE_3
-    -- njE     najoE   Nprop   Nag
-
-    noun     FaCL                      {- najoE -}          `gloss`  [ "Nag" ],
-
-    -- ;; nujoEap_1
-    -- njE     nujoE   Nap     search for food
-
-    noun     FuCL |< aT                {- nujoEap -}        `gloss`  [ "search for food" ],
 
     -- ;; najAEap_1
     -- njAE    najAE   Nap     usefulness;salutariness
 
-    noun     FaCAL |< aT               {- najAEap -}        `gloss`  [ "usefulness", "salutariness" ],
-
-    -- ;; najiyE_1
-    -- njyE    najiyE  N-ap    useful;beneficial;healthful     [[najiyE/ADJ]]
-
-    noun     FaCIL                     {- najiyE -}         `gloss`  [ "useful", "beneficial", "healthful [ [ najiyE / ADJ ] ]" ],
-
-    -- ;; najiyE_2
-    -- njyE    najiyE  N       blood
-
-    noun     FaCIL                     {- najiyE -}         `gloss`  [ "blood" ],
+    FaCAL |< aT               `noun`       {- najAEap -}        [ "usefulness", "salutariness" ],
 
     -- ;; >anojaE_2
     -- >njE    >anojaE Nel     more/most useful/wholesome
     -- AnjE    >anojaE Nel     more/most useful/wholesome
 
-    noun     HaFCaL                    {- OanojaE -}        `gloss`  [ "more / most useful / wholesome" ],
+    HaFCaL                    `noun`       {- OanojaE -}        [ "more/most useful/wholesome" ],
 
     -- ;; nAjiE_1
     -- nAjE    nAjiE   N-ap    useful;beneficial;healthful
 
-    noun     FACiL                     {- nAjiE -}          `gloss`  [ "useful", "beneficial", "healthful" ],
+    FACiL                     `noun`       {- nAjiE -}          [ "useful", "beneficial", "healthful" ],
 
     -- ;; munotajaE_1
     -- mntjE   munotajaE       NduAt   resort (vacation place)
 
-    noun     MuFtaCaL                  {- munotajaE -}      `gloss`  [ "resort ( vacation place )" ] ]
+    MuFtaCaL                  `noun`       {- munotajaE -}      [ "resort (vacation place)" ] ]
 
  |> "n ^g b" <| [
-
-    -- ;; najub-u_1
-    -- njb     najub   PV_intr be of noble birth;be generous
-    -- njb     nojub   IV_intr be of noble birth;be generous
-
-    verb     FaCuL                     {- najub-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n^gub IV_intr" ]
-                                                            `gloss`  [ "be of noble birth", "be generous" ],
 
     -- ;; >anojab_1
     -- >njb    >anojab PV      give birth
@@ -3717,241 +1029,54 @@ lexicon = listing "Lexicon properties"
     -- njb     nojib   IV_yu   give birth
     -- njb     nojab   IV_Pass_yu      be given birth
 
-    verb     HaFCaL                    {- Oanojab -}        -- `others` [ "n^gib IV_yu", "n^gab IV_Pass_yu" ]
-                                                            `gloss`  [ "give birth", "be given birth" ],
-
-    -- ;; {inotajab_1
-    -- <ntjb   {inotajab       PV      choose;select
-    -- Antjb   {inotajab       PV      choose;select
-    -- ntjb    notajib IV      choose;select
-
-    verb     IFtaCaL                   {- {inotajab -}      -- `others` [ "nta^gib IV" ]
-                                                            `gloss`  [ "choose", "select" ],
-
-    -- ;; {isotanojab_1
-    -- <stnjb  {isotanojab     PV      choose;select
-    -- Astnjb  {isotanojab     PV      choose;select
-    -- stnjb   sotanojib       IV      choose;select
-
-    verb     IstaFCaL                  {- {isotanojab -}    -- `others` [ "stan^gib IV" ]
-                                                            `gloss`  [ "choose", "select" ],
-
-    -- ;; najob_1
-    -- njb     najob   N-ap    noble;generous
-    -- njb     nujab   Nap     noble;generous
-
-    noun     FaCL                      {- najob -}          -- `others` [ "nu^gab Nap" ]
-                                                            `gloss`  [ "noble", "generous" ],
-
-    -- ;; najAbap_1
-    -- njAb    najAb   Nap     nobility;eminence;excellence
-
-    noun     FaCAL |< aT               {- najAbap -}        `gloss`  [ "nobility", "eminence", "excellence" ],
+    HaFCaL                    `verb`       {- Oanojab -}        [ "give birth", "be given birth" ]
+                              {- `others` [ "n^gib IV_yu", "n^gab IV_Pass_yu" ] -},
 
     -- ;; najiyb_1
     -- njyb    najiyb  N0      Naguib;Najeeb;Najib
 
-    noun     FaCIL                     {- najiyb -}         `gloss`  [ "Naguib", "Najeeb", "Najib" ],
-
-    -- ;; najiyb_2
-    -- njyb    najiyb  N/ap    noble;excellent
-
-    noun     FaCIL                     {- najiyb -}         `gloss`  [ "noble", "excellent" ],
-
-    -- ;; naj~Ab_1
-    -- njAb    naj~Ab  Nall    courier
-    -- njAb    naj~Ab  Nall    camel rider
-
-    noun     FaCCAL                    {- naj~Ab -}         `gloss`  [ "courier", "camel rider" ],
-
-    -- ;; naj~Ab_2
-    -- njAb    naj~Ab  N0      Najjab
-
-    noun     FaCCAL                    {- naj~Ab -}         `gloss`  [ "Najjab" ],
+    FaCIL                     `noun`       {- najiyb -}         [ "Naguib", "Najeeb", "Najib" ],
 
     -- ;; <inojAb_1
     -- <njAb   <inojAb NduAt   giving birth
     -- AnjAb   <inojAb NduAt   giving birth
 
-    noun     HiFCAL                    {- IinojAb -}        `gloss`  [ "giving birth" ],
+    HiFCAL                    `noun`       {- IinojAb -}        [ "giving birth" ],
 
     -- ;; <inojAbiy~_1
     -- <njAby  <inojAbiy~      Nall    birthing;giving birth
     -- AnjAby  <inojAbiy~      Nall    birthing;giving birth
 
-    noun     HiFCAL |< Iy              {- IinojAbiy~ -}     `gloss`  [ "birthing", "giving birth" ],
-
-    -- ;; {inotijAb_1
-    -- <ntjAb  {inotijAb       N/At    choice;selection
-    -- AntjAb  {inotijAb       N/At    choice;selection
-
-    noun     IFtiCAL                   {- {inotijAb -}      `gloss`  [ "choice", "selection" ] ]
+    HiFCAL |< Iy              `noun`       {- IinojAbiy~ -}     [ "birthing", "giving birth" ] ]
 
  |> "n ^g d" <| [
-
-    -- ;; najad-u_1
-    -- njd     najad   PV      help;support
-    -- njd     nojud   IV      help;support
-
-    verb     FaCaL                     {- najad-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n^gud IV" ]
-                                                            `gloss`  [ "help", "support" ],
-
-    -- ;; najid-a_1
-    -- njd     najid   PV      perspire
-    -- njd     nojad   IV      perspire
-
-    verb     FaCiL                     {- najid-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n^gad IV" ]
-                                                            `gloss`  [ "perspire" ],
-
-    -- ;; naj~ad_1
-    -- njd     naj~ad  PV      furnish;upholster;comb
-    -- njd     naj~id  IV_yu   furnish;upholster;comb
-
-    verb     FaCCaL                    {- naj~ad -}         -- `others` [ "na^g^gid IV_yu" ]
-                                                            `gloss`  [ "furnish", "upholster", "comb" ],
-
-    -- ;; nAjad_1
-    -- nAjd    nAjad   PV      help;support
-    -- nAjd    nAjid   IV_yu   help;support
-
-    verb     FACaL                     {- nAjad -}          -- `others` [ "nA^gid IV_yu" ]
-                                                            `gloss`  [ "help", "support" ],
-
-    -- ;; >anojad_1
-    -- >njd    >anojad PV      help;support
-    -- Anjd    >anojad PV      help;support
-    -- njd     nojid   IV_yu   help;support
-    -- njd     nojad   IV_Pass_yu      be helped;be supported
-
-    verb     HaFCaL                    {- Oanojad -}        -- `others` [ "n^gid IV_yu", "n^gad IV_Pass_yu" ]
-                                                            `gloss`  [ "help", "support", "be helped", "be supported" ],
-
-    -- ;; {isotanojad_1
-    -- <stnjd  {isotanojad     PV      ask for assistance
-    -- Astnjd  {isotanojad     PV      ask for assistance
-    -- stnjd   sotanojid       IV      ask for assistance
-
-    verb     IstaFCaL                  {- {isotanojad -}    -- `others` [ "stan^gid IV" ]
-                                                            `gloss`  [ "ask for assistance" ],
-
-    -- ;; najod_1
-    -- njd     najod   N       Nejd
-
-    noun     FaCL                      {- najod -}          `gloss`  [ "Nejd" ],
-
-    -- ;; najod_2
-    -- njd     najod   N       highland;plateau
-    -- njAd    nijAd   N       highlands;plateaus
-
-    noun     FaCL                      {- najod -}          -- `others` [ "ni^gAd N" ]
-                                                            `gloss`  [ "highland", "plateau", "highlands", "plateaus" ],
-
-    -- ;; najodiy~_1
-    -- njdy    najodiy~        Nall    Nejdi
-
-    noun     FaCL |< Iy                {- najodiy~ -}       `gloss`  [ "Nejdi" ],
-
-    -- ;; najodiy~_2
-    -- njdy    najodiy~        Nall    of/from Nejd     [[najodiy~/ADJ]]
-
-    noun     FaCL |< Iy                {- najodiy~ -}       `gloss`  [ "of / from Nejd [ [ najodiy ~ / ADJ ] ]" ],
 
     -- ;; najodap_1
     -- njd     najod   Napdu   help;assistance
     -- njd     najad   NAt     help;assistance
     -- njd     najad   NAt     reinforcements;auxiliaries
 
-    noun     FaCL |< aT                {- najodap -}        -- `others` [ "na^gad NAt" ]
-                                                            `gloss`  [ "help", "assistance", "reinforcements", "auxiliaries" ],
-
-    -- ;; najodap_2
-    -- njdp    najodap N0      Najda
-
-    noun     FaCL |< aT                {- najodap -}        `gloss`  [ "Najda" ],
-
-    -- ;; nijAd_2
-    -- njAd    nijAd   N       sword belt
-
-    noun     FiCAL                     {- nijAd -}          `gloss`  [ "sword belt" ],
-
-    -- ;; nijAd_3
-    -- njAd    nijAd   N       stature
-
-    noun     FiCAL                     {- nijAd -}          `gloss`  [ "stature" ],
-
-    -- ;; naj~Ad_1
-    -- njAd    naj~Ad  Ndu     upholsterer
-    -- njAd    naj~Ad  Nap     upholsterers
-    -- njAd    naj~Ad  Nap     boy scouts
-
-    noun     FaCCAL                    {- naj~Ad -}         `gloss`  [ "upholsterer", "upholsterers", "boy scouts" ],
-
-    -- ;; naj~Ad_2
-    -- njAd    naj~Ad  N0      Najjad
-
-    noun     FaCCAL                    {- naj~Ad -}         `gloss`  [ "Najjad" ],
-
-    -- ;; najAdap_1
-    -- njAd    najAd   Nap     bravery;steadfastness
-
-    noun     FaCAL |< aT               {- najAdap -}        `gloss`  [ "bravery", "steadfastness" ],
-
-    -- ;; tanojiyd_1
-    -- tnjyd   tanojiyd        N/At    upholstering
-
-    noun     TaFCIL                    {- tanojiyd -}       `gloss`  [ "upholstering" ],
-
-    -- ;; munaj~id_1
-    -- mnjd    munaj~id        Nall    upholsterer
-
-    noun     MuFaCCiL                  {- munaj~id -}       `gloss`  [ "upholsterer" ],
-
-    -- ;; munaj~id_2
-    -- mnjd    munaj~id        N0      Munajjid
-
-    noun     MuFaCCiL                  {- munaj~id -}       `gloss`  [ "Munajjid" ] ]
+    FaCL |< aT                `noun`       {- najodap -}        [ "help", "assistance", "reinforcements", "auxiliaries" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "na^gad NAt" ] -} ]
 
  |> "n ^g f" <| [
 
     -- ;; najaf_1
     -- njf     najaf   N       Najaf (Iraq)
 
-    noun     FaCaL                     {- najaf -}          `gloss`  [ "Najaf ( Iraq )" ],
-
-    -- ;; najaf_2
-    -- njf     najaf   N       hill;dune
-
-    noun     FaCaL                     {- najaf -}          `gloss`  [ "hill", "dune" ],
-
-    -- ;; najafap_1
-    -- njf     najaf   NapAt   chandelier;luster
-
-    noun     FaCaL |< aT               {- najafap -}        `gloss`  [ "chandelier", "luster" ] ]
+    FaCaL                     `noun`       {- najaf -}          [ "Najaf (Iraq)" ] ]
 
  |> "n ^g l" <| [
-
-    -- ;; najal-u_1
-    -- njl     najal   PV      beget;sire
-    -- njl     nojul   IV      beget;sire
-
-    verb     FaCaL                     {- najal-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n^gul IV" ]
-                                                            `gloss`  [ "beget", "sire" ],
 
     -- ;; najol_1
     -- njl     najol   Ndu     son;scion
     -- >njAl   >anojAl N       sons;scions;progeny
     -- AnjAl   >anojAl N       sons;scions;progeny
 
-    noun     FaCL                      {- najol -}          -- `others` [ "'an^gAl N" ]
-                                                            `gloss`  [ "son", "scion", "sons", "scions", "progeny" ],
-
-    -- ;; najiyl_1
-    -- njyl    najiyl  N       couch grass;quitch
-
-    noun     FaCIL                     {- najiyl -}         `gloss`  [ "couch grass", "quitch" ],
+    FaCL                      `noun`       {- najol -}          [ "son", "scion", "sons", "scions", "progeny" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'an^gAl N" ] -},
 
     -- ;; >anojal_1
     -- >njl    >anojal Nel     wide-eyed;gaping
@@ -3960,25 +1085,7 @@ lexicon = listing "Lexicon properties"
     -- njlA&   najolA& Nh      wide-eyed;gaping
     -- njlA}   najolA} Nhy     wide-eyed;gaping
 
-    noun     HaFCaL                    {- Oanojal -}        -- `others` [ "na^glA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "wide-eyed", "gaping" ],
-
-    -- ;; minojal_1
-    -- mnjl    minojal Ndu     scythe;sickle
-    -- mnAjl   manAjil Ndip    scythes;sickles
-
-    noun     MiFCaL                    {- minojal -}        -- `others` [ "manA^gil Ndip" ]
-                                                            `gloss`  [ "scythe", "sickle", "scythes", "sickles" ],
-
-    -- ;; minojaliy~_1
-    -- mnjly   minojaliy~      N-ap    sickle-shaped;falciform     [[minojaliy~/ADJ]]
-
-    noun     MiFCaL |< Iy              {- minojaliy~ -}     `gloss`  [ "sickle-shaped", "falciform [ [ minojaliy ~ / ADJ ] ]" ],
-
-    -- ;; manojalap_1
-    -- mnjl    manojal Nap     vise
-
-    noun     MaFCaL |< aT              {- manojalap -}      `gloss`  [ "vise" ] ]
+    HaFCaL                    `noun`       {- Oanojal -}        [ "wide-eyed", "gaping" ] ]
 
  |> "n ^g m" <| [
 
@@ -3986,30 +1093,9 @@ lexicon = listing "Lexicon properties"
     -- njm     najam   PV      appear;originate
     -- njm     nojum   IV      appear;originate
 
-    verb     FaCaL                     {- najam-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n^gum IV" ]
-                                                            `gloss`  [ "appear", "originate" ],
-
-    -- ;; naj~am_1
-    -- njm     naj~am  PV      observe the stars;practice astrology;pay in installments
-    -- njm     naj~im  IV_yu   observe the stars;practice astrology;pay in installments
-
-    verb     FaCCaL                    {- naj~am -}         -- `others` [ "na^g^gim IV_yu" ]
-                                                            `gloss`  [ "observe the stars", "practice astrology", "pay in installments" ],
-
-    -- ;; >anojam_1
-    -- >njm    >anojam PV_intr be starry;appear in the heavens
-    -- Anjm    >anojam PV_intr be starry;appear in the heavens
-    -- njm     nojim   IV_intr_yu      be starry;appear in the heavens
-
-    verb     HaFCaL                    {- Oanojam -}        -- `others` [ "n^gim IV_intr_yu" ]
-                                                            `gloss`  [ "be starry", "appear in the heavens" ],
-
-    -- ;; tanaj~am_1
-    -- tnjm    tanaj~am        PV      observe the stars;practice astrology
-    -- tnjm    tanaj~am        IV      observe the stars;practice astrology
-
-    verb     TaFaCCaL                  {- tanaj~am -}       `gloss`  [ "observe the stars", "practice astrology" ],
+    FaCaL                     `verb`       {- najam-u -}        [ "appear", "originate" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "n^gum IV" ] -},
 
     -- ;; najom_1
     -- njm     najom   Ndu     star;constellation
@@ -4017,234 +1103,56 @@ lexicon = listing "Lexicon properties"
     -- >njm    >anojum N       stars;constellations
     -- Anjm    >anojum N       stars;constellations
 
-    noun     FaCL                      {- najom -}          -- `others` [ "nu^guwm N", "'an^gum N" ]
-                                                            `gloss`  [ "star", "constellation", "stars", "constellations" ],
+    FaCL                      `noun`       {- najom -}          [ "star", "constellation", "stars", "constellations" ]
+                              `plural`     FuCUL
+                              {- `others` [ "nu^guwm N" ] -},
 
     -- ;; najomap_1
     -- njm     najom   Napdu   star;asterisk
     -- njm     najam   NAt     stars;asterisks
 
-    noun     FaCL |< aT                {- najomap -}        -- `others` [ "na^gam NAt" ]
-                                                            `gloss`  [ "star", "asterisk", "stars", "asterisks" ],
+    FaCL |< aT                `noun`       {- najomap -}        [ "star", "asterisk", "stars", "asterisks" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "na^gam NAt" ] -},
 
     -- ;; najomap_2
     -- njm     najom   Nap     Najma;Nagma
 
-    noun     FaCL |< aT                {- najomap -}        `gloss`  [ "Najma", "Nagma" ],
-
-    -- ;; najomiy~_1
-    -- njmy    najomiy~        N0      Najmi;Nagmy
-
-    noun     FaCL |< Iy                {- najomiy~ -}       `gloss`  [ "Najmi", "Nagmy" ],
-
-    -- ;; najomiy~_2
-    -- njmy    najomiy~        N-ap    star-shaped;stellar     [[najomiy~/ADJ]]
-
-    noun     FaCL |< Iy                {- najomiy~ -}       `gloss`  [ "star-shaped", "stellar [ [ najomiy ~ / ADJ ] ]" ],
+    FaCL |< aT                `noun`       {- najomap -}        [ "Najma", "Nagma" ],
 
     -- ;; najom_2
     -- njm     najom   Ndu     installment;partial payment
     -- njwm    nujuwm  N       installments;partial payments
     -- njwm    nujuwm  NF      in installments     [[nujuwm/ADV]]
 
-    noun     FaCL                      {- najom -}          -- `others` [ "nu^guwm NF N" ]
-                                                            `gloss`  [ "installment", "partial payment", "installments", "partial payments", "in installments [ [ nujuwm / ADV ] ]" ],
-
-    -- ;; najomiy~_3
-    -- njmy    najomiy~        N-ap    in installments     [[najomiy~/ADJ]]
-
-    noun     FaCL |< Iy                {- najomiy~ -}       `gloss`  [ "in installments [ [ najomiy ~ / ADJ ] ]" ],
-
-    -- ;; nujayomap_1
-    -- njym    nujayom Nap     starlet;small star
-
-    noun     FuCayL |< aT              {- nujayomap -}      `gloss`  [ "starlet", "small star" ],
-
-    -- ;; naj~Am_1
-    -- njAm    naj~Am  Nall    astrologer
-
-    noun     FaCCAL                    {- naj~Am -}         `gloss`  [ "astrologer" ],
-
-    -- ;; naj~Am_2
-    -- njAm    naj~Am  N0      Najjam
-
-    noun     FaCCAL                    {- naj~Am -}         `gloss`  [ "Najjam" ],
+    FaCL                      `noun`       {- najom -}          [ "installment", "partial payment", "installments", "partial payments", "in installments" ]
+                              `plural`     FuCUL
+                              {- `others` [ "nu^guwm N NF" ] -},
 
     -- ;; manojam_1
     -- mnjm    manojam Ndu     mine;pit;source
     -- mnAjm   manAjim Ndip    mines;pits;sources
 
-    noun     MaFCaL                    {- manojam -}        -- `others` [ "manA^gim Ndip" ]
-                                                            `gloss`  [ "mine", "pit", "source", "mines", "pits", "sources" ],
+    MaFCaL                    `noun`       {- manojam -}        [ "mine", "pit", "source", "mines", "pits", "sources" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "manA^gim Ndip" ] -},
 
     -- ;; manojamiy~_1
     -- mnjmy   manojamiy~      Nall    mining     [[manojamiy~/ADJ]]
 
-    noun     MaFCaL |< Iy              {- manojamiy~ -}     `gloss`  [ "mining [ [ manojamiy ~ / ADJ ] ]" ],
+    MaFCaL |< Iy              `noun`       {- manojamiy~ -}     [ "mining" ],
 
     -- ;; nAjim_1
     -- nAjm    nAjim   Nall    originating;arising;derived
 
-    noun     FACiL                     {- nAjim -}          `gloss`  [ "originating", "arising", "derived" ],
-
-    -- ;; tanojiym_1
-    -- tnjym   tanojiym        N/At    astrology
-
-    noun     TaFCIL                    {- tanojiym -}       `gloss`  [ "astrology" ],
-
-    -- ;; manojuwm_1
-    -- mnjwm   manojuwm        N-ap    starred;marked with an asterisk     [[manojuwm/ADJ]]
-
-    noun     MaFCUL                    {- manojuwm -}       `gloss`  [ "starred", "marked with an asterisk [ [ manojuwm / ADJ ] ]" ],
-
-    -- ;; munaj~im_1
-    -- mnjm    munaj~im        Nall    astrologer
-
-    noun     MuFaCCiL                  {- munaj~im -}       `gloss`  [ "astrologer" ],
-
-    -- ;; munaj~im_2
-    -- mnjm    munaj~im        N0      Munajjim
-
-    noun     MuFaCCiL                  {- munaj~im -}       `gloss`  [ "Munajjim" ] ]
-
- |> "n ^g m w" <| [
-
-    -- ;; najomAwiy~_1
-    -- njmAwy  najomAwiy~      Nall    Najmawi;Nagmaoui;Nadjmaoui
-
-    noun     KaRDAS |< Iy              {- najomAwiy~ -}     `gloss`  [ "Najmawi", "Nagmaoui", "Nadjmaoui" ] ]
+    FACiL                     `noun`       {- nAjim -}          [ "originating", "arising", "derived" ] ]
 
  |> "n ^g r" <| [
-
-    -- ;; najar-u_1
-    -- njr     najar   PV      carve;hew
-    -- njr     nojur   IV      carve;hew
-
-    verb     FaCaL                     {- najar-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n^gur IV" ]
-                                                            `gloss`  [ "carve", "hew" ],
-
-    -- ;; najor_1
-    -- njr     najor   N       carving;hewing
-
-    noun     FaCL                      {- najor -}          `gloss`  [ "carving", "hewing" ],
-
-    -- ;; najor_2
-    -- njr     najor   N       heat;hot time of the day
-
-    noun     FaCL                      {- najor -}          `gloss`  [ "heat", "hot time of the day" ],
-
-    -- ;; najorAn_1
-    -- njrAn   najorAn Nprop   Najran
-
-    noun     FaCLAn                    {- najorAn -}        `gloss`  [ "Najran" ],
 
     -- ;; naj~Ar_1
     -- njAr    naj~Ar  N0      Najjar;Naggar
 
-    noun     FaCCAL                    {- naj~Ar -}         `gloss`  [ "Najjar", "Naggar" ],
-
-    -- ;; naj~Ar_2
-    -- njAr    naj~Ar  Nall    carpenter
-
-    noun     FaCCAL                    {- naj~Ar -}         `gloss`  [ "carpenter" ],
-
-    -- ;; nujAr_1
-    -- njAr    nujAr   N       origin;descent;stock
-
-    noun     FuCAL                     {- nujAr -}          `gloss`  [ "origin", "descent", "stock" ],
-
-    -- ;; nujArap_1
-    -- njAr    nujAr   Nap     wood shavings
-
-    noun     FuCAL |< aT               {- nujArap -}        `gloss`  [ "wood shavings" ],
-
-    -- ;; nijArap_1
-    -- njAr    nijAr   Nap     carpentry;woodworking
-
-    noun     FiCAL |< aT               {- nijArap -}        `gloss`  [ "carpentry", "woodworking" ],
-
-    -- ;; minojar_1
-    -- mnjr    minojar Ndu     plane (tool)
-    -- mnAjr   manAjir Ndip    planes (tool)
-
-    noun     MiFCaL                    {- minojar -}        -- `others` [ "manA^gir Ndip" ]
-                                                            `gloss`  [ "plane ( tool )", "planes ( tool )" ],
-
-    -- ;; manojuwr_1
-    -- mnjwr   manojuwr        Ndu     pulley;water-wheel
-
-    noun     MaFCUL                    {- manojuwr -}       `gloss`  [ "pulley", "water-wheel" ],
-
-    -- ;; manojuwriy~_1
-    -- mnjwry  manojuwriy~     N0      Manjouri
-
-    noun     MaFCUL |< Iy              {- manojuwriy~ -}    `gloss`  [ "Manjouri" ] ]
-
- |> "n ^g s" <| [
-
-    -- ;; najus-u_1
-    -- njs     najus   PV_intr be impure;be dirty
-    -- njs     nojus   IV_intr be impure;be dirty
-
-    verb     FaCuL                     {- najus-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n^gus IV_intr" ]
-                                                            `gloss`  [ "be impure", "be dirty" ],
-
-    -- ;; najis-a_1
-    -- njs     najis   PV_intr be impure;be dirty
-    -- njs     nojas   IV_intr be impure;be dirty
-
-    verb     FaCiL                     {- najis-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n^gas IV_intr" ]
-                                                            `gloss`  [ "be impure", "be dirty" ],
-
-    -- ;; naj~as_1
-    -- njs     naj~as  PV      pollute;contaminate
-    -- njs     naj~is  IV_yu   pollute;contaminate
-
-    verb     FaCCaL                    {- naj~as -}         -- `others` [ "na^g^gis IV_yu" ]
-                                                            `gloss`  [ "pollute", "contaminate" ],
-
-    -- ;; >anojas_1
-    -- >njs    >anojas PV      pollute;contaminate
-    -- Anjs    >anojas PV      pollute;contaminate
-    -- njs     nojis   IV_yu   pollute;contaminate
-    -- njs     nojas   IV_Pass_yu      be polluted;be contaminated
-
-    verb     HaFCaL                    {- Oanojas -}        -- `others` [ "n^gas IV_Pass_yu", "n^gis IV_yu" ]
-                                                            `gloss`  [ "pollute", "contaminate", "be polluted", "be contaminated" ],
-
-    -- ;; tanaj~as_1
-    -- tnjs    tanaj~as        PV_intr be impure;be contaminated
-    -- tnjs    tanaj~as        IV_intr be impure;be contaminated
-
-    verb     TaFaCCaL                  {- tanaj~as -}       `gloss`  [ "be impure", "be contaminated" ],
-
-    -- ;; najas_1
-    -- njs     najas   N       impurity;uncleanliness
-    -- njAs    najAs   Nap     impurity;uncleanliness
-    -- njs     najis   N/ap    impure;polluted;contaminated
-    -- >njAs   >anojAs N       impure;polluted;contaminated
-    -- AnjAs   >anojAs N       impure;polluted;contaminated
-
-    noun     FaCaL                     {- najas -}          -- `others` [ "'an^gAs N", "na^gis N/ap", "na^gAs Nap" ]
-                                                            `gloss`  [ "impurity", "uncleanliness", "impure", "polluted", "contaminated" ],
-
-    -- ;; najis_1
-    -- njs     najis   N-ap    incurable
-
-    noun     FaCiL                     {- najis -}          `gloss`  [ "incurable" ],
-
-    -- ;; najiys_1
-    -- njys    najiys  N-ap    incurable     [[najiys/ADJ]]
-
-    noun     FaCIL                     {- najiys -}         `gloss`  [ "incurable [ [ najiys / ADJ ] ]" ],
-
-    -- ;; tanojiys_1
-    -- tnjys   tanojiys        N/At    pollution;contamination;defilement
-
-    noun     TaFCIL                    {- tanojiys -}       `gloss`  [ "pollution", "contamination", "defilement" ] ]
+    FaCCAL                    `noun`       {- naj~Ar -}         [ "Najjar", "Naggar" ] ]
 
  |> "n ^g w" <| [
 
@@ -4255,158 +1163,24 @@ lexicon = listing "Lexicon properties"
     -- njw     nojuw   IV_0hAnn        escape;be rescued
     -- nj      noj     IV_0hwnyn       escape;be rescued
 
-    verb     FaCA                      {- najA-u -}         `imperf` [ FCuL ]
-                                                            -- `others` [ "n^guw IV_0hAnn", "n^g IV_0hwnyn", "na^g PV_ttAw", "na^gaw PV_Atn" ]
-                                                            `gloss`  [ "escape", "be rescued" ],
-
-    -- ;; naj~aY_1
-    -- njY     naj~aY  PV_0    rescue
-    -- njA     naj~A   PV_h    rescue
-    -- njy     naj~ay  PV_Atn  rescue
-    -- nj      naj~    PV_ttAw rescue
-    -- njy     naj~iy  IV_0hAnn_yu     rescue
-    -- nj      naj~    IV_0hwnyn_yu    rescue
-    -- njY     naj~aY  IV_0_Pass_yu    be rescued
-    -- njy     naj~ay  IV_Ann_Pass_yu  be rescued
-
-    verb     FaCCY                     {- naj~aY -}         -- `others` [ "na^g^gA PV_h", "na^g^giy IV_0hAnn_yu", "na^g^g IV_0hwnyn_yu PV_ttAw", "na^g^gay PV_Atn IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "rescue", "be rescued" ],
-
-    -- ;; nAjaY_1
-    -- nAjY    nAjaY   PV_0    whisper to;confide in
-    -- nAjA    nAjA    PV_h    whisper to;confide in
-    -- nAjy    nAjay   PV_Atn  whisper to;confide in
-    -- nAj     nAj     PV_ttAw whisper to;confide in
-    -- nAjy    nAjiy   IV_0hAnn_yu     whisper to;confide in
-    -- nAj     nAj     IV_0hwnyn_yu    whisper to;confide in
-    -- nAjY    nAjaY   IV_0_Pass_yu    be whispered to;be confided in
-    -- nAjy    nAjay   IV_Ann_Pass_yu  be whispered to;be confided in
-
-    verb     FACY                      {- nAjaY -}          -- `others` [ "nA^giy IV_0hAnn_yu", "nA^g IV_0hwnyn_yu PV_ttAw", "nA^gay PV_Atn IV_Ann_Pass_yu", "nA^gA PV_h" ]
-                                                            `gloss`  [ "whisper to", "confide in", "be whispered to", "be confided in" ],
-
-    -- ;; >anojaY_1
-    -- >njY    >anojaY PV_0    rescue
-    -- AnjY    >anojaY PV_0    rescue
-    -- >njA    >anojA  PV_h    rescue
-    -- AnjA    >anojA  PV_h    rescue
-    -- >njy    >anojay PV_Atn  rescue
-    -- Anjy    >anojay PV_Atn  rescue
-    -- >nj     >anoj   PV_ttAw rescue
-    -- Anj     >anoj   PV_ttAw rescue
-    -- njy     nojiy   IV_0hAnn_yu     rescue
-    -- nj      noj     IV_0hwnyn_yu    rescue
-    -- njY     nojaY   IV_0_Pass_yu    be rescued
-    -- njy     nojay   IV_Ann_Pass_yu  be rescued
-
-    verb     HaFCY                     {- OanojaY -}        -- `others` [ "n^gY IV_0_Pass_yu", "n^g IV_0hwnyn_yu", "'an^gA PV_h", "n^giy IV_0hAnn_yu", "'an^gay PV_Atn", "'an^g PV_ttAw", "n^gay IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "rescue", "be rescued" ],
-
-    -- ;; tanAjaY_1
-    -- tnAjY   tanAjaY PV_0    whisper to each other;exchange confidences
-    -- tnAjA   tanAjA  PV_h    whisper to each other;exchange confidences
-    -- tnAjy   tanAjay PV_Atn  whisper to each other;exchange confidences
-    -- tnAj    tanAj   PV_ttAw whisper to each other;exchange confidences
-    -- tnAjY   tanAjaY IV_0    whisper to each other;exchange confidences
-    -- tnAjA   tanAjA  IV_h    whisper to each other;exchange confidences
-    -- tnAjy   tanAjay IV_Ann  whisper to each other;exchange confidences
-    -- tnAj    tanAj   IV_0hwnyn       whisper to each other;exchange confidences
-
-    verb     TaFACY                    {- tanAjaY -}        -- `others` [ "tanA^gA PV_h IV_h", "tanA^g IV_0hwnyn PV_ttAw", "tanA^gay PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "whisper to each other", "exchange confidences" ],
-
-    -- ;; {inotajaY_1
-    -- <ntjY   {inotajaY       PV_0    whisper to each other
-    -- AntjY   {inotajaY       PV_0    whisper to each other
-    -- <ntjA   {inotajA        PV_h    whisper to each other
-    -- AntjA   {inotajA        PV_h    whisper to each other
-    -- <ntjy   {inotajay       PV_Atn  whisper to each other
-    -- Antjy   {inotajay       PV_Atn  whisper to each other
-    -- <ntj    {inotaj PV_ttAw whisper to each other
-    -- Antj    {inotaj PV_ttAw whisper to each other
-    -- ntjy    notajiy IV_0hAnn        whisper to each other
-    -- ntj     notaj   IV_0hwnyn       whisper to each other
-    -- ntjY    notajaY IV_0    whisper to each other
-
-    verb     IFtaCY                    {- {inotajaY -}      -- `others` [ "nta^giy IV_0hAnn", "inta^gA PV_h", "inta^gay PV_Atn", "nta^g IV_0hwnyn", "nta^gY IV_0", "inta^g PV_ttAw" ]
-                                                            `gloss`  [ "whisper to each other" ],
-
-    -- ;; {isotanojaY_1
-    -- <stnjY  {isotanojaY     PV_0    escape;be delivered
-    -- AstnjY  {isotanojaY     PV_0    escape;be delivered
-    -- <stnjA  {isotanojA      PV_h    escape;be delivered
-    -- AstnjA  {isotanojA      PV_h    escape;be delivered
-    -- <stnjy  {isotanojay     PV_Atn  escape;be delivered
-    -- Astnjy  {isotanojay     PV_Atn  escape;be delivered
-    -- <stnj   {isotanoj       PV_ttAw escape;be delivered
-    -- Astnj   {isotanoj       PV_ttAw escape;be delivered
-    -- stnjy   sotanojiy       IV_0hAnn        escape;be delivered
-    -- stnj    sotanoj IV_0hwnyn       escape;be delivered
-    -- stnjY   sotanojaY       IV_0    escape;be delivered
-
-    verb     IstaFCY                   {- {isotanojaY -}    -- `others` [ "stan^g IV_0hwnyn", "istan^g PV_ttAw", "stan^gY IV_0", "stan^giy IV_0hAnn", "istan^gay PV_Atn", "istan^gA PV_h" ]
-                                                            `gloss`  [ "escape", "be delivered" ],
+    FaCA                      `verb`       {- najA-u -}         [ "escape", "be rescued" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "n^guw IV_0hAnn", "na^gaw PV_Atn" ] -},
 
     -- ;; najAp_1
     -- njA     najA    Nap     rescue;survival;escape;salvation
 
-    noun     FaCY |< aT                {- najAp -}          `gloss`  [ "rescue", "survival", "escape", "salvation" ],
+    FaCY |< aT                `noun`       {- najAp -}          [ "rescue", "survival", "escape", "salvation" ],
 
     -- ;; najAp_2
     -- njA     najA    Nap     Najat
 
-    noun     FaCY |< aT                {- najAp -}          `gloss`  [ "Najat" ],
-
-    -- ;; najow_1
-    -- njw     najow   N       excrement
-
-    noun     FaCL                      {- najow -}          `gloss`  [ "excrement" ],
-
-    -- ;; najowap_1
-    -- njw     najow   Nap     elevation;upland
-
-    noun     FaCL |< aT                {- najowap -}        `gloss`  [ "elevation", "upland" ],
-
-    -- ;; najowaY_1
-    -- njwY    najowaY N0      confidential talk;soliloquy
-    -- njwA    najowA  Nhy     confidential talk;soliloquy
-    -- njAwY   najAwaY N0      confidential talks;soliloquies
-    -- njAwA   najAwA  Nhy     confidential talks;soliloquies
-
-    noun     FaCLY                     {- najowaY -}        -- `others` [ "na^gwA Nhy", "na^gAwY N0", "na^gAwA Nhy" ]
-                                                            `gloss`  [ "confidential talk", "soliloquy", "confidential talks", "soliloquies" ],
-
-    -- ;; manojaY_1
-    -- mnjY    manojaY N0      safety;security
-    -- mnjA    manojA  Nhy     safety;security
-
-    noun     MaFCY                     {- manojaY -}        -- `others` [ "man^gA Nhy" ]
-                                                            `gloss`  [ "safety", "security" ],
-
-    -- ;; manojAp_1
-    -- mnjA    manojA  Nap     safeguard;protection;salvation
-
-    noun     MaFCY |< aT               {- manojAp -}        `gloss`  [ "safeguard", "protection", "salvation" ],
-
-    -- ;; manojAp_2
-    -- mnjA    manojA  Napdu   haven;safe place
-    -- mnAjy   manAjiy N0_Nh   havens;safe places
-    -- mnAj    manAj   NK      havens;safe places
-
-    noun     MaFCY |< aT               {- manojAp -}        -- `others` [ "manA^giy N0_Nh", "manA^g NK" ]
-                                                            `gloss`  [ "haven", "safe place", "havens", "safe places" ],
-
-    -- ;; munAjAp_1
-    -- mnAjA   munAjA  Napdu   confidential talk;intimate discourse
-    -- mnAjy   munAjay NAt     confidential talks;intimate discourse
-
-    noun     MuFACY |< aT              {- munAjAp -}        -- `others` [ "munA^gay NAt" ]
-                                                            `gloss`  [ "confidential talk", "intimate discourse", "confidential talks" ],
+    FaCY |< aT                `noun`       {- najAp -}          [ "Najat" ],
 
     -- ;; nAjiy_1
     -- nAjy    nAjiy   Nprop   Naji;Nagi
 
-    noun     FACI                      {- nAjiy -}          `gloss`  [ "Naji", "Nagi" ],
+    FACI                      `noun`       {- nAjiy -}          [ "Naji", "Nagi" ],
 
     -- ;; nAjiy_2
     -- nAjy    nAjiy   N0F_Nh  escaping;surviving;survivor
@@ -4415,50 +1189,14 @@ lexicon = listing "Lexicon properties"
     -- nAj     nAj     Nuwn_Niyn       escaping;surviving;survivor
     -- nAjy    nAjiy   NapAt   escaping;surviving;survivor
 
-    noun     FACI                      {- nAjiy -}          -- `others` [ "nA^g Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "escaping", "surviving", "survivor" ],
-
-    -- ;; munaj~iy_1
-    -- mnjy    munaj~iy        N0F_Nh  rescuer;deliverer
-    -- mnj     munaj~  NK      rescuer;deliverer
-    -- mnjy    munaj~iy        NAn_Nayn        rescuers;deliverers
-    -- mnj     munaj~  Nuwn_Niyn       rescuers;deliverers
-    -- mnjy    munaj~iy        NapAt   rescuer;deliverer
-
-    noun     MuFaCCI                   {- munaj~iy -}       -- `others` [ "muna^g^g Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "rescuer", "deliverer", "rescuers", "deliverers" ] ]
+    FACI                      `noun`       {- nAjiy -}          [ "escaping", "surviving", "survivor" ] ]
 
  |> "n ^g y" <| [
 
-    -- ;; najiy~_1
-    -- njy     najiy~  Ndu     secret
-    -- >njy    >anojiy Nap     secrets
-    -- Anjy    >anojiy Nap     secrets
-
-    noun     FaCIL                     {- najiy~ -}         -- `others` [ "'an^giy Nap" ]
-                                                            `gloss`  [ "secret", "secrets" ],
-
-    -- ;; najiy~_2
-    -- njy     najiy~  N/ap    confidant;bosom friend     [[najiy~/NOUN]]
-    -- >njyA'  >anojiyA'       N0_Nh   confidants;bosom friends
-    -- AnjyA'  >anojiyA'       N0_Nh   confidants;bosom friends
-    -- >njyA&  >anojiyA&       Nh      confidants;bosom friends
-    -- AnjyA&  >anojiyA&       Nh      confidants;bosom friends
-    -- >njyA}  >anojiyA}       Nhy     confidants;bosom friends
-    -- AnjyA}  >anojiyA}       Nhy     confidants;bosom friends
-
-    noun     FaCIL                     {- najiy~ -}         -- `others` [ "'an^giyA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "confidant", "bosom friend [ [ najiy ~ / NOUN ] ]", "confidants", "bosom friends" ],
-
-    -- ;; tanojiyap_1
-    -- tnjy    tanojiy Nap     rescue;deliverance
-
-    noun     TaFCiL |< aT              {- tanojiyap -}      `gloss`  [ "rescue", "deliverance" ],
-
     -- ;; nAjiy_1
     -- nAjy    nAjiy   Nprop   Naji;Nagi
 
-    noun     FACiL                     {- nAjiy -}          `gloss`  [ "Naji", "Nagi" ],
+    FACiL                     `noun`       {- nAjiy -}          [ "Naji", "Nagi" ],
 
     -- ;; nAjiy_2
     -- nAjy    nAjiy   N0F_Nh  escaping;surviving;survivor
@@ -4467,50 +1205,9 @@ lexicon = listing "Lexicon properties"
     -- nAj     nAj     Nuwn_Niyn       escaping;surviving;survivor
     -- nAjy    nAjiy   NapAt   escaping;surviving;survivor
 
-    noun     FACiL                     {- nAjiy -}          -- `others` [ "nA^g Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "escaping", "surviving", "survivor" ],
-
-    -- ;; munaj~iy_1
-    -- mnjy    munaj~iy        N0F_Nh  rescuer;deliverer
-    -- mnj     munaj~  NK      rescuer;deliverer
-    -- mnjy    munaj~iy        NAn_Nayn        rescuers;deliverers
-    -- mnj     munaj~  Nuwn_Niyn       rescuers;deliverers
-    -- mnjy    munaj~iy        NapAt   rescuer;deliverer
-
-    noun     MuFaCCiL                  {- munaj~iy -}       -- `others` [ "muna^g^g Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "rescuer", "deliverer", "rescuers", "deliverers" ] ]
+    FACiL                     `noun`       {- nAjiy -}          [ "escaping", "surviving", "survivor" ] ]
 
  |> "n ^g z" <| [
-
-    -- ;; najaz-u_1
-    -- njz     najaz   PV      accomplish;carry out
-    -- njz     nojuz   IV      accomplish;carry out
-
-    verb     FaCaL                     {- najaz-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n^guz IV" ]
-                                                            `gloss`  [ "accomplish", "carry out" ],
-
-    -- ;; najiz-a_1
-    -- njz     najiz   PV_intr be accomplished;be carried out
-    -- njz     nojaz   IV_intr be accomplished;be carried out
-
-    verb     FaCiL                     {- najiz-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n^gaz IV_intr" ]
-                                                            `gloss`  [ "be accomplished", "be carried out" ],
-
-    -- ;; naj~az_1
-    -- njz     naj~az  PV      accomplish;carry out
-    -- njz     naj~iz  IV_yu   accomplish;carry out
-
-    verb     FaCCaL                    {- naj~az -}         -- `others` [ "na^g^giz IV_yu" ]
-                                                            `gloss`  [ "accomplish", "carry out" ],
-
-    -- ;; nAjaz_1
-    -- nAjz    nAjaz   PV      fight against;contend with
-    -- nAjz    nAjiz   IV_yu   fight against;contend with
-
-    verb     FACaL                     {- nAjaz -}          -- `others` [ "nA^giz IV_yu" ]
-                                                            `gloss`  [ "fight against", "contend with" ],
 
     -- ;; >anojaz_1
     -- >njz    >anojaz PV      implement;accomplish;perform
@@ -4520,37 +1217,14 @@ lexicon = listing "Lexicon properties"
     -- Anjz    >unojiz PV_Pass be implemented;be accomplished;be performed
     -- njz     nojaz   IV_Pass_yu      be implemented;be accomplished;be performed
 
-    verb     HaFCaL                    {- Oanojaz -}        -- `others` [ "n^gaz IV_Pass_yu", "'un^giz PV_Pass", "n^giz IV_yu" ]
-                                                            `gloss`  [ "implement", "accomplish", "perform", "be implemented", "be accomplished", "be performed" ],
-
-    -- ;; {isotanojaz_1
-    -- <stnjz  {isotanojaz     PV      ask for the fulfillment of
-    -- Astnjz  {isotanojaz     PV      ask for the fulfillment of
-    -- stnjz   sotanojiz       IV      ask for the fulfillment of
-
-    verb     IstaFCaL                  {- {isotanojaz -}    -- `others` [ "stan^giz IV" ]
-                                                            `gloss`  [ "ask for the fulfillment of" ],
-
-    -- ;; najoz_1
-    -- njz     najoz   N       accomplishment;implementation;effectuation
-
-    noun     FaCL                      {- najoz -}          `gloss`  [ "accomplishment", "implementation", "effectuation" ],
-
-    -- ;; najAz_1
-    -- njAz    najAz   N       accomplishment;implementation;effectuation
-
-    noun     FaCAL                     {- najAz -}          `gloss`  [ "accomplishment", "implementation", "effectuation" ],
-
-    -- ;; tanojiyz_1
-    -- tnjyz   tanojiyz        N/At    implementation;effectuation;accomplishment
-
-    noun     TaFCIL                    {- tanojiyz -}       `gloss`  [ "implementation", "effectuation", "accomplishment" ],
+    HaFCaL                    `verb`       {- Oanojaz -}        [ "implement", "accomplish", "perform", "be implemented", "be accomplished", "be performed" ]
+                              {- `others` [ "n^gaz IV_Pass_yu", "'un^giz PV_Pass", "n^giz IV_yu" ] -},
 
     -- ;; <inojAz_1
     -- <njAz   <inojAz N       implementation;effectuation
     -- AnjAz   <inojAz N       implementation;effectuation
 
-    noun     HiFCAL                    {- IinojAz -}        `gloss`  [ "implementation", "effectuation" ],
+    HiFCAL                    `noun`       {- IinojAz -}        [ "implementation", "effectuation" ],
 
     -- ;; <inojAz_2
     -- <njAz   <inojAz Ndu     accomplishment;achievement;success
@@ -4558,28 +1232,13 @@ lexicon = listing "Lexicon properties"
     -- <njAz   <inojAz NAt     accomplishments;achievements;successes
     -- AnjAz   <inojAz NAt     accomplishments;achievements;successes
 
-    noun     HiFCAL                    {- IinojAz -}        `gloss`  [ "accomplishment", "achievement", "success", "accomplishments", "achievements", "successes" ],
-
-    -- ;; munAjazap_1
-    -- mnAjz   munAjaz NapAt   struggle;contention
-
-    noun     MuFACaL |< aT             {- munAjazap -}      `gloss`  [ "struggle", "contention" ],
-
-    -- ;; tanAjuz_1
-    -- tnAjz   tanAjuz N/At    struggle;contention
-
-    noun     TaFACuL                   {- tanAjuz -}        `gloss`  [ "struggle", "contention" ],
-
-    -- ;; nAjiz_1
-    -- nAjz    nAjiz   N-ap    completed;accomplished
-
-    noun     FACiL                     {- nAjiz -}          `gloss`  [ "completed", "accomplished" ],
+    HiFCAL                    `noun`       {- IinojAz -}        [ "accomplishment", "achievement", "success", "accomplishments", "achievements", "successes" ],
 
     -- ;; munojaz_1
     -- mnjz    munojaz Ndu     accomplishment;achievement;success
     -- mnjz    munojaz NAt     accomplishments;achievements;successes
 
-    noun     MuFCaL                    {- munojaz -}        `gloss`  [ "accomplishment", "achievement", "success", "accomplishments", "achievements", "successes" ] ]
+    MuFCaL                    `noun`       {- munojaz -}        [ "accomplishment", "achievement", "success", "accomplishments", "achievements", "successes" ] ]
 
  |> "n ^s '" <| [
 
@@ -4592,27 +1251,9 @@ lexicon = listing "Lexicon properties"
     -- n$&     no$a&   IV_wn   rise;grow
     -- n$}     no$a}   IV_yn   rise;grow
 
-    verb     FaCaL                     {- na$aO-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "na^sa'A PV-|", "n^sa'A IV-|", "n^sa' IV IV_wn IV_yn" ]
-                                                            `gloss`  [ "rise", "grow" ],
-
-    -- ;; na$u&-u_1
-    -- n$&     na$u&   PV_intr rise;grow
-    -- n$&     no$u&   IV_intr rise;grow
-    -- n$}     no$u}   IV_yn   rise;grow
-
-    verb     FaCuL                     {- na$uW-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n^su' IV_intr IV_yn" ]
-                                                            `gloss`  [ "rise", "grow" ],
-
-    -- ;; na$~a>_1
-    -- n$>     na$~a>  PV->    make grow;raise
-    -- n$|     na$~a|  PV-|    make grow;raise
-    -- n$&     na$~a&  PV_w    make grow;raise
-    -- n$}     na$~i}  IV_yu   make grow;raise
-
-    verb     FaCCaL                    {- na$~aO -}         -- `others` [ "na^s^sa'A PV-|", "na^s^si' IV_yu" ]
-                                                            `gloss`  [ "make grow", "raise" ],
+    FaCaL                     `verb`       {- na$aO-a -}        [ "rise", "grow" ]
+                              `imperf` [ FCaL ]
+                              {- `others` [ "n^sa' IV IV_wn IV_yn" ] -},
 
     -- ;; >ano$a>_1
     -- >n$>    >ano$a> PV->    establish;found;install
@@ -4626,54 +1267,19 @@ lexicon = listing "Lexicon properties"
     -- >n$}    >uno$i} PV_Pass be established;be founded;be installed
     -- An$}    >uno$i} PV_Pass be established;be founded;be installed
 
-    verb     HaFCaL                    {- Oano$aO -}        -- `others` [ "'un^si' PV_Pass", "n^si' IV_yu", "n^sa' IV_Pass_yu", "'an^sa'A PV-|" ]
-                                                            `gloss`  [ "establish", "found", "install", "be established", "be founded", "be installed" ],
-
-    -- ;; tana$~a>_1
-    -- tn$>    tana$~a>        PV->    grow;develop
-    -- tn$|    tana$~a|        PV-|    grow;develop
-    -- tn$&    tana$~a&        PV_w    grow;develop
-    -- tn$>    tana$~a>        IV      grow;develop
-    -- tn$|    tana$~a|        IV-|    grow;develop
-    -- tn$&    tana$~a&        IV_wn   grow;develop
-    -- tn$}    tana$~a}        IV_yn   grow;develop
-
-    verb     TaFaCCaL                  {- tana$~aO -}       -- `others` [ "tana^s^sa'A IV-| PV-|" ]
-                                                            `gloss`  [ "grow", "develop" ],
-
-    -- ;; {isotano$a>_1
-    -- <stn$>  {isotano$a>     PV->    search for;ask for
-    -- Astn$>  {isotano$a>     PV->    search for;ask for
-    -- <stn$|  {isotano$a|     PV-|    search for;ask for
-    -- Astn$|  {isotano$a|     PV-|    search for;ask for
-    -- <stn$&  {isotano$a&     PV_w    search for;ask for
-    -- Astn$&  {isotano$a&     PV_w    search for;ask for
-    -- stn$}   sotano$i}       IV      search for;ask for
-
-    verb     IstaFCaL                  {- {isotano$aO -}    -- `others` [ "stan^si' IV", "istan^sa'A PV-|" ]
-                                                            `gloss`  [ "search for", "ask for" ],
-
-    -- ;; na$o'_1
-    -- n$'     na$o'   N0      youth;generation
-    -- n$}     na$o}   NF_Nhy  youth;generation
-
-    noun     FaCL                      {- na$o' -}          `gloss`  [ "youth", "generation" ],
+    HaFCaL                    `verb`       {- Oano$aO -}        [ "establish", "found", "install", "be established", "be founded", "be installed" ]
+                              {- `others` [ "'un^si' PV_Pass", "n^si' IV_yu", "n^sa' IV_Pass_yu" ] -},
 
     -- ;; na$o>ap_1
     -- n$>     na$o>   Nap     growth;development;evolution
 
-    noun     FaCL |< aT                {- na$oOap -}        `gloss`  [ "growth", "development", "evolution" ],
+    FaCL |< aT                `noun`       {- na$oOap -}        [ "growth", "development", "evolution" ],
 
     -- ;; nu$uw'_1
     -- n$w'    nu$uw'  N0_Nh   growth;development;evolution
     -- n$w}    nu$uw}  Nhy     growth;development;evolution
 
-    noun     FuCUL                     {- nu$uw' -}         `gloss`  [ "growth", "development", "evolution" ],
-
-    -- ;; nu$uw}iy~_1
-    -- n$w}y   nu$uw}iy~       Nall    evolutionist     [[nu$uw}iy~/ADJ]]
-
-    noun     FuCUL |< Iy               {- nu$uw}iy~ -}      `gloss`  [ "evolutionist [ [ nu $ uw } iy ~ / ADJ ] ]" ],
+    FuCUL                     `noun`       {- nu$uw' -}         [ "growth", "development", "evolution" ],
 
     -- ;; mano$a>_1
     -- mn$>    mano$a> N0_Nh   source;origin;generation
@@ -4683,17 +1289,7 @@ lexicon = listing "Lexicon properties"
     -- mn$|    mano$a| N-|     sources;origins;generations
     -- mn$     mano$a  N-|t    sources;origins;generations
 
-    noun     MaFCaL                    {- mano$aO -}        -- `others` [ "man^sa'A N-|", "man^sa N-|t" ]
-                                                            `gloss`  [ "source", "origin", "generation", "sources", "origins", "generations" ],
-
-    -- ;; tano$iy'_1
-    -- tn$y'   tano$iy'        N0      upbringing;education
-    -- tn$y}   tano$iy}        NF_Nhy  upbringing;education
-    -- tn$y}   tano$iy}        NAt     upbringing;education
-    -- tn$}    tano$i} Nap     upbringing;education
-
-    noun     TaFCIL                    {- tano$iy' -}       -- `others` [ "tan^si' Nap" ]
-                                                            `gloss`  [ "upbringing", "education" ],
+    MaFCaL                    `noun`       {- mano$aO -}        [ "source", "origin", "generation", "sources", "origins", "generations" ],
 
     -- ;; <ino$A'_1
     -- <n$A'   <ino$A' N0_Nh   establishing;setting up;founding
@@ -4703,7 +1299,7 @@ lexicon = listing "Lexicon properties"
     -- <n$A}   <ino$A} Nhy     establishing;setting up;founding
     -- An$A}   <ino$A} Nhy     establishing;setting up;founding
 
-    noun     HiFCAL                    {- Iino$A' -}        `gloss`  [ "establishing", "setting up", "founding" ],
+    HiFCAL                    `noun`       {- Iino$A' -}        [ "establishing", "setting up", "founding" ],
 
     -- ;; <ino$A'_2
     -- <n$A'   <ino$A' N0_Nh   construction;installation
@@ -4719,7 +1315,7 @@ lexicon = listing "Lexicon properties"
     -- <n$A'   <ino$A' NAt     constructions;installations
     -- An$A'   <ino$A' NAt     constructions;installations
 
-    noun     HiFCAL                    {- Iino$A' -}        `gloss`  [ "construction", "installation", "constructions", "installations" ],
+    HiFCAL                    `noun`       {- Iino$A' -}        [ "construction", "installation", "constructions", "installations" ],
 
     -- ;; <ino$A'_3
     -- <n$A'   <ino$A' N0_Nh   essay;composition
@@ -4735,61 +1331,31 @@ lexicon = listing "Lexicon properties"
     -- <n$A'   <ino$A' NAt     essays;compositions
     -- An$A'   <ino$A' NAt     essays;compositions
 
-    noun     HiFCAL                    {- Iino$A' -}        `gloss`  [ "essay", "composition", "essays", "compositions" ],
+    HiFCAL                    `noun`       {- Iino$A' -}        [ "essay", "composition", "essays", "compositions" ],
 
     -- ;; <ino$A}iy~_1
     -- <n$A}y  <ino$A}iy~      N-ap    construction;composition     [[<ino$A}iy~/ADJ]]
     -- An$A}y  <ino$A}iy~      N-ap    construction;composition     [[<ino$A}iy~/ADJ]]
 
-    noun     HiFCAL |< Iy              {- Iino$A}iy~ -}     `gloss`  [ "construction", "composition [ [" ],
+    HiFCAL |< Iy              `noun`       {- Iino$A}iy~ -}     [ "construction", "composition" ],
 
     -- ;; nA$i}_1
     -- nA$}    nA$i}   N-ap    growing;arising;resulting     [[nA$i}/ADJ]]
 
-    noun     FACiL                     {- nA$i} -}          `gloss`  [ "growing", "arising", "resulting [ [ nA $ i } / ADJ ] ]" ],
+    FACiL                     `noun`       {- nA$i} -}          [ "growing", "arising", "resulting" ],
 
     -- ;; nA$i}_2
     -- nA$}    nA$i}   Nall    youth
     -- nA$}    nA$i}   Nap     youth;rising generation
 
-    noun     FACiL                     {- nA$i} -}          `gloss`  [ "youth", "rising generation" ],
-
-    -- ;; muno$i}_1
-    -- mn$}    muno$i} N-ap    creative     [[muno$i}/ADJ]]
-
-    noun     MuFCiL                    {- muno$i} -}        `gloss`  [ "creative [ [ muno $ i } / ADJ ] ]" ],
-
-    -- ;; muno$i}_2
-    -- mn$}    muno$i} Nall    originator;builder;founder
-
-    noun     MuFCiL                    {- muno$i} -}        `gloss`  [ "originator", "builder", "founder" ],
+    FACiL                     `noun`       {- nA$i} -}          [ "youth", "rising generation" ],
 
     -- ;; muno$a>ap_1
     -- mn$>    muno$a> Napdu   establishment;firm
     -- mn$     muno$a  N-|t    establishments;firms
     -- mn$     muno$a  N-|t    installations;facilities
 
-    noun     MuFCaL |< aT              {- muno$aOap -}      -- `others` [ "mun^sa N-|t" ]
-                                                            `gloss`  [ "establishment", "firm", "establishments", "firms", "installations", "facilities" ],
-
-    -- ;; na$A'_1
-    -- n$A'    na$A'   N0_Nh   starch;farina
-    -- n$A&    na$A&   Nh      starch;farina
-    -- n$A}    na$A}   Nhy     starch;farina
-
-    noun     FaCAL                     {- na$A' -}          `gloss`  [ "starch", "farina" ],
-
-    -- ;; {inoti$A'_1
-    -- <nt$A'  {inoti$A'       N0_Nh   intoxication
-    -- Ant$A'  {inoti$A'       N0_Nh   intoxication
-    -- <nt$A&  {inoti$A&       Nh      intoxication
-    -- Ant$A&  {inoti$A&       Nh      intoxication
-    -- <nt$A}  {inoti$A}       Nhy     intoxication
-    -- Ant$A}  {inoti$A}       Nhy     intoxication
-    -- <nt$A'  {inoti$A'       NAt     intoxication
-    -- Ant$A'  {inoti$A'       NAt     intoxication
-
-    noun     IFtiCAL                   {- {inoti$A' -}      `gloss`  [ "intoxication" ] ]
+    MuFCaL |< aT              `noun`       {- muno$aOap -}      [ "establishment", "firm", "establishments", "firms", "installations", "facilities" ] ]
 
  |> "n ^s .t" <| [
 
@@ -4797,49 +1363,29 @@ lexicon = listing "Lexicon properties"
     -- n$T     na$iT   PV_intr be active;be energetic
     -- n$T     no$aT   IV_intr be active;be energetic
 
-    verb     FaCiL                     {- na$iT-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n^sa.t IV_intr" ]
-                                                            `gloss`  [ "be active", "be energetic" ],
+    FaCiL                     `verb`       {- na$iT-a -}        [ "be active", "be energetic" ]
+                              `imperf` [ FCaL ]
+                              {- `others` [ "n^sa.t IV_intr" ] -},
 
     -- ;; na$aT-u_1
     -- n$T     na$aT   PV_intr be active;be energetic
     -- n$T     no$uT   IV_intr be active;be energetic
 
-    verb     FaCaL                     {- na$aT-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n^su.t IV_intr" ]
-                                                            `gloss`  [ "be active", "be energetic" ],
+    FaCaL                     `verb`       {- na$aT-u -}        [ "be active", "be energetic" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "n^su.t IV_intr" ] -},
 
     -- ;; na$~aT_1
     -- n$T     na$~aT  PV      stimulate;encourage
     -- n$T     na$~iT  IV_yu   stimulate;encourage
 
-    verb     FaCCaL                    {- na$~aT -}         -- `others` [ "na^s^si.t IV_yu" ]
-                                                            `gloss`  [ "stimulate", "encourage" ],
-
-    -- ;; >ano$aT_1
-    -- >n$T    >ano$aT PV      stimulate;invigorate;tie up
-    -- An$T    >ano$aT PV      stimulate;invigorate;tie up
-    -- n$T     no$iT   IV_yu   stimulate;invigorate;tie up
-    -- n$T     no$aT   IV_Pass_yu      be stimulated;be invigorated;be tied up
-
-    verb     HaFCaL                    {- Oano$aT -}        -- `others` [ "n^si.t IV_yu", "n^sa.t IV_Pass_yu" ]
-                                                            `gloss`  [ "stimulate", "invigorate", "tie up", "be stimulated", "be invigorated", "be tied up" ],
-
-    -- ;; tana$~aT_1
-    -- tn$T    tana$~aT        PV_intr be active;work energetically
-    -- tn$T    tana$~aT        IV_intr be active;work energetically
-
-    verb     TaFaCCaL                  {- tana$~aT -}       `gloss`  [ "be active", "work energetically" ],
+    FaCCaL                    `verb`       {- na$~aT -}         [ "stimulate", "encourage" ]
+                              {- `others` [ "na^s^si.t IV_yu" ] -},
 
     -- ;; na$iT_1
     -- n$T     na$iT   N-ap    active;energetic     [[na$iT/ADJ]]
 
-    noun     FaCiL                     {- na$iT -}          `gloss`  [ "active", "energetic [ [ na $ iT / ADJ ] ]" ],
-
-    -- ;; na$oTap_1
-    -- n$T     na$oT   Nap     energy;zeal
-
-    noun     FaCL |< aT                {- na$oTap -}        `gloss`  [ "energy", "zeal" ],
+    FaCiL                     `noun`       {- na$iT -}          [ "active", "energetic" ],
 
     -- ;; na$AT_1
     -- n$AT    na$AT   N       activity;active
@@ -4847,8 +1393,9 @@ lexicon = listing "Lexicon properties"
     -- >n$T    >ano$iT Nap     activities
     -- An$T    >ano$iT Nap     activities
 
-    noun     FaCAL                     {- na$AT -}          -- `others` [ "'an^si.t Nap" ]
-                                                            `gloss`  [ "activity", "active", "activities" ],
+    FaCAL                     `noun`       {- na$AT -}          [ "activity", "active", "activities" ]
+                              `plural`     HaFCiL |< aT
+                              {- `others` [ "'an^si.t Nap" ] -},
 
     -- ;; na$iyT_1
     -- n$yT    na$iyT  N/ap    active;energetic     [[na$iyT/ADJ]]
@@ -4860,131 +1407,39 @@ lexicon = listing "Lexicon properties"
     -- n$TA&   nu$aTA& Nh      activists
     -- n$TA}   nu$aTA} Nhy     activists
 
-    noun     FaCIL                     {- na$iyT -}         -- `others` [ "ni^sA.t N", "nu^sa.tA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "active", "energetic [ [ na $ iyT / ADJ ] ]", "energetic", "activists" ],
-
-    -- ;; mano$aT_1
-    -- mn$T    mano$aT N       pleasant thing
-
-    noun     MaFCaL                    {- mano$aT -}        `gloss`  [ "pleasant thing" ],
+    FaCIL                     `noun`       {- na$iyT -}         [ "active", "energetic", "activists" ]
+                              `plural`     FiCAL
+                              {- `others` [ "ni^sA.t N" ] -},
 
     -- ;; tano$iyT_1
     -- tn$yT   tano$iyT        N/At    stimulation;encouragement
 
-    noun     TaFCIL                    {- tano$iyT -}       `gloss`  [ "stimulation", "encouragement" ],
+    TaFCIL                    `noun`       {- tano$iyT -}       [ "stimulation", "encouragement" ],
 
     -- ;; tano$iyTiy~_1
     -- tn$yTy  tano$iyTiy~     N-ap    energizing;stimulative;encouraging     [[tano$iyTiy~/ADJ]]
 
-    noun     TaFCIL |< Iy              {- tano$iyTiy~ -}    `gloss`  [ "energizing", "stimulative", "encouraging [ [ tano $ iyTiy ~ / ADJ ] ]" ],
+    TaFCIL |< Iy              `noun`       {- tano$iyTiy~ -}    [ "energizing", "stimulative", "encouraging" ],
 
     -- ;; nA$iT_1
     -- nA$T    nA$iT   Nall    activist
 
-    noun     FACiL                     {- nA$iT -}          `gloss`  [ "activist" ],
+    FACiL                     `noun`       {- nA$iT -}          [ "activist" ],
 
     -- ;; nA$iT_2
     -- nA$T    nA$iT   Nall    energetic;active     [[nA$iT/ADJ]]
 
-    noun     FACiL                     {- nA$iT -}          `gloss`  [ "energetic", "active [ [ nA $ iT / ADJ ] ]" ],
+    FACiL                     `noun`       {- nA$iT -}          [ "energetic", "active" ],
 
     -- ;; muna$~iT_1
     -- mn$T    muna$~iT        NduAt   stimulant
 
-    noun     MuFaCCiL                  {- muna$~iT -}       `gloss`  [ "stimulant" ],
-
-    -- ;; muna$~iT_2
-    -- mn$T    muna$~iT        Nall    stimulating;activating     [[muna$~iT/ADJ]]
-
-    noun     MuFaCCiL                  {- muna$~iT -}       `gloss`  [ "stimulating", "activating [ [ muna $ ~ iT / ADJ ] ]" ],
+    MuFaCCiL                  `noun`       {- muna$~iT -}       [ "stimulant" ],
 
     -- ;; muna$~iT_3
     -- mn$T    muna$~iT        Nall    activist
 
-    noun     MuFaCCiL                  {- muna$~iT -}       `gloss`  [ "activist" ],
-
-    -- ;; muno$iT_1
-    -- mn$T    muno$iT N/At    incentive;stimulus
-
-    noun     MuFCiL                    {- muno$iT -}        `gloss`  [ "incentive", "stimulus" ] ]
-
- |> "n ^s ^g" <| [
-
-    -- ;; na$aj-i_1
-    -- n$j     na$aj   PV      weep
-    -- n$j     no$ij   IV      weep
-
-    verb     FaCaL                     {- na$aj-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "n^si^g IV" ]
-                                                            `gloss`  [ "weep" ],
-
-    -- ;; na$iyj_1
-    -- n$yj    na$iyj  N       weeping
-
-    noun     FaCIL                     {- na$iyj -}         `gloss`  [ "weeping" ] ]
-
- |> "n ^s ^s" <| [
-
-    -- ;; na$~-i_1
-    -- n$      na$~    PV_V    sizzle;hiss
-    -- n$$     na$a$   PV_C    sizzle;hiss
-    -- n$      ni$~    IV_V    sizzle;hiss
-    -- n$$     no$i$   IV_C    sizzle;hiss
-
-    verb     FaCL                      {- na$~-i -}         `imperf` [ FCiL ]
-                                                            -- `others` [ "na^sa^s PV_C", "n^si^s IV_C", "ni^s^s IV_V" ]
-                                                            `gloss`  [ "sizzle", "hiss" ],
-
-    -- ;; na$~A$_1
-    -- n$A$    na$~A$  N       blotting
-
-    noun     FaCCAL                    {- na$~A$ -}         `gloss`  [ "blotting" ],
-
-    -- ;; mina$~ap_1
-    -- mn$     mina$~  Nap     fly swatter
-
-    noun     MiFaCL |< aT              {- mina$~ap -}       `gloss`  [ "fly swatter" ],
-
-    -- ;; na$~aY_1
-    -- n$Y     na$~aY  PV_0    starch
-    -- n$A     na$~A   PV_h    starch
-    -- n$y     na$~ay  PV_Atn  starch
-    -- n$      na$~    PV_ttAw starch
-    -- n$y     na$~iy  IV_0hAnn_yu     starch
-    -- n$      na$~    IV_0hwnyn_yu    starch
-    -- n$Y     na$~aY  IV_0_Pass_yu    be starched
-    -- n$y     na$~ay  IV_Ann_Pass_yu  be starched
-
-    verb     FaCLY                     {- na$~aY -}         -- `others` [ "na^s^siy IV_0hAnn_yu", "na^s^s IV_0hwnyn_yu PV_ttAw", "na^s^say PV_Atn IV_Ann_Pass_yu", "na^s^sA PV_h" ]
-                                                            `gloss`  [ "starch", "be starched" ] ]
-
- |> "n ^s `" <| [
-
-    -- ;; na$aE-a_1
-    -- n$E     na$aE   PV      tear out;tear off
-    -- n$E     no$aE   IV      tear out;tear off
-
-    verb     FaCaL                     {- na$aE-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n^sa` IV" ]
-                                                            `gloss`  [ "tear out", "tear off" ],
-
-    -- ;; {inota$aE_1
-    -- <nt$E   {inota$aE       PV      tear out;tear off
-    -- Ant$E   {inota$aE       PV      tear out;tear off
-    -- nt$E    nota$iE IV      tear out;tear off
-
-    verb     IFtaCaL                   {- {inota$aE -}      -- `others` [ "nta^si` IV" ]
-                                                            `gloss`  [ "tear out", "tear off" ],
-
-    -- ;; na$oE_1
-    -- n$E     na$oE   N       seepage;leak
-
-    noun     FaCL                      {- na$oE -}          `gloss`  [ "seepage", "leak" ],
-
-    -- ;; muno$aE_1
-    -- mn$E    muno$aE N-ap    soaked;soggy     [[muno$aE/ADJ]]
-
-    noun     MuFCaL                    {- muno$aE -}        `gloss`  [ "soaked", "soggy [ [ muno $ aE / ADJ ] ]" ] ]
+    MuFaCCiL                  `noun`       {- muna$~iT -}       [ "activist" ] ]
 
  |> "n ^s b" <| [
 
@@ -4992,59 +1447,14 @@ lexicon = listing "Lexicon properties"
     -- n$b     na$ib   PV      break out;be attached to
     -- n$b     no$ab   IV      break out;be attached to
 
-    verb     FaCiL                     {- na$ib-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n^sab IV" ]
-                                                            `gloss`  [ "break out", "be attached to" ],
-
-    -- ;; na$~ab_1
-    -- n$b     na$~ab  PV      stick on;dig in;attach
-    -- n$b     na$~ib  IV_yu   stick on;dig in;attach
-
-    verb     FaCCaL                    {- na$~ab -}         -- `others` [ "na^s^sib IV_yu" ]
-                                                            `gloss`  [ "stick on", "dig in", "attach" ],
-
-    -- ;; >ano$ab_1
-    -- >n$b    >ano$ab PV      stick on;dig in;attach
-    -- An$b    >ano$ab PV      stick on;dig in;attach
-    -- n$b     no$ib   IV_yu   stick on;dig in;attach
-    -- n$b     no$ab   IV_Pass_yu      be attached
-
-    verb     HaFCaL                    {- Oano$ab -}        -- `others` [ "n^sab IV_Pass_yu", "n^sib IV_yu" ]
-                                                            `gloss`  [ "stick on", "dig in", "attach", "be attached" ],
-
-    -- ;; na$ab_1
-    -- n$b     na$ab   N       property;possession
-
-    noun     FaCaL                     {- na$ab -}          `gloss`  [ "property", "possession" ],
+    FaCiL                     `verb`       {- na$ib-a -}        [ "break out", "be attached to" ]
+                              `imperf` [ FCaL ]
+                              {- `others` [ "n^sab IV" ] -},
 
     -- ;; nu$uwb_1
     -- n$wb    nu$uwb  N       outbreak;adherence to
 
-    noun     FuCUL                     {- nu$uwb -}         `gloss`  [ "outbreak", "adherence to" ],
-
-    -- ;; na$~Ab_1
-    -- n$Ab    na$~Ab  Nall    archer
-    -- n$Ab    na$~Ab  Nall    arrow maker
-
-    noun     FaCCAL                    {- na$~Ab -}         `gloss`  [ "archer", "arrow maker" ],
-
-    -- ;; na$~Ab_2
-    -- n$Ab    na$~Ab  N0      Nashshab
-
-    noun     FaCCAL                    {- na$~Ab -}         `gloss`  [ "Nashshab" ],
-
-    -- ;; nu$~Ab_1
-    -- n$Ab    nu$~Ab  N       arrows
-    -- n$Ab    nu$~Ab  Napdu   arrow
-    -- n$A$yb  na$A$iyb        Ndip    arrows
-
-    noun     FuCCAL                    {- nu$~Ab -}         -- `others` [ "na^sA^siyb Ndip" ]
-                                                            `gloss`  [ "arrows", "arrow" ],
-
-    -- ;; munota$ib_1
-    -- mnt$b   munota$ib       N-ap    fierce;violent     [[munota$ib/ADJ]]
-
-    noun     MuFtaCiL                  {- munota$ib -}      `gloss`  [ "fierce", "violent [ [ munota $ ib / ADJ ] ]" ] ]
+    FuCUL                     `noun`       {- nu$uwb -}         [ "outbreak", "adherence to" ] ]
 
  |> "n ^s d" <| [
 
@@ -5052,16 +1462,16 @@ lexicon = listing "Lexicon properties"
     -- n$d     na$ad   PV      seek;implore
     -- n$d     no$ud   IV      seek;implore
 
-    verb     FaCaL                     {- na$ad-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n^sud IV" ]
-                                                            `gloss`  [ "seek", "implore" ],
+    FaCaL                     `verb`       {- na$ad-u -}        [ "seek", "implore" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "n^sud IV" ] -},
 
     -- ;; nA$ad_1
     -- nA$d    nA$ad   PV      urge;implore
     -- nA$d    nA$id   IV_yu   urge;implore
 
-    verb     FACaL                     {- nA$ad -}          -- `others` [ "nA^sid IV_yu" ]
-                                                            `gloss`  [ "urge", "implore" ],
+    FACaL                     `verb`       {- nA$ad -}          [ "urge", "implore" ]
+                              {- `others` [ "nA^sid IV_yu" ] -},
 
     -- ;; >ano$ad_1
     -- >n$d    >ano$ad PV      seek;sing;recite
@@ -5069,22 +1479,8 @@ lexicon = listing "Lexicon properties"
     -- n$d     no$id   IV_yu   seek;sing;recite
     -- n$d     no$ad   IV_Pass_yu      be sung;be recited
 
-    verb     HaFCaL                    {- Oano$ad -}        -- `others` [ "n^sad IV_Pass_yu", "n^sid IV_yu" ]
-                                                            `gloss`  [ "seek", "sing", "recite", "be sung", "be recited" ],
-
-    -- ;; tanA$ad_1
-    -- tnA$d   tanA$ad PV      recite verses to each other
-    -- tnA$d   tanA$ad IV      recite verses to each other
-
-    verb     TaFACaL                   {- tanA$ad -}        `gloss`  [ "recite verses to each other" ],
-
-    -- ;; {isotano$ad_1
-    -- <stn$d  {isotano$ad     PV      ask to recite verses
-    -- Astn$d  {isotano$ad     PV      ask to recite verses
-    -- stn$d   sotano$id       IV      ask to recite verses
-
-    verb     IstaFCaL                  {- {isotano$ad -}    -- `others` [ "stan^sid IV" ]
-                                                            `gloss`  [ "ask to recite verses" ],
+    HaFCaL                    `verb`       {- Oano$ad -}        [ "seek", "sing", "recite", "be sung", "be recited" ]
+                              {- `others` [ "n^sad IV_Pass_yu", "n^sid IV_yu" ] -},
 
     -- ;; na$iyd_1
     -- n$yd    na$iyd  Ndu     anthem;hymn;song
@@ -5093,265 +1489,25 @@ lexicon = listing "Lexicon properties"
     -- >n$Ad   >ano$Ad N       anthems;hymns;songs
     -- An$Ad   >ano$Ad N       anthems;hymns;songs
 
-    noun     FaCIL                     {- na$iyd -}         -- `others` [ "na^sA'id Ndip", "'an^sAd N" ]
-                                                            `gloss`  [ "anthem", "hymn", "song", "anthems", "hymns", "songs" ],
+    FaCIL                     `noun`       {- na$iyd -}         [ "anthem", "hymn", "song", "anthems", "hymns", "songs" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'an^sAd N" ] -},
 
     -- ;; munA$adap_1
     -- mnA$d   munA$ad NapAt   urgent request;earnest appeal
 
-    noun     MuFACaL |< aT             {- munA$adap -}      `gloss`  [ "urgent request", "earnest appeal" ],
+    MuFACaL |< aT             `noun`       {- munA$adap -}      [ "urgent request", "earnest appeal" ],
 
     -- ;; <ino$Ad_1
     -- <n$Ad   <ino$Ad N/At    recitation;declaration
     -- An$Ad   <ino$Ad N/At    recitation;declaration
 
-    noun     HiFCAL                    {- Iino$Ad -}        `gloss`  [ "recitation", "declaration" ],
+    HiFCAL                    `noun`       {- Iino$Ad -}        [ "recitation", "declaration" ],
 
     -- ;; mano$uwd_1
     -- mn$wd   mano$uwd        N-ap    pursued;desired;desirable;wanted;sought     [[mano$uwd/ADJ]]
 
-    noun     MaFCUL                    {- mano$uwd -}       `gloss`  [ "pursued", "desired", "desirable", "wanted", "sought [ [ mano $ uwd / ADJ ] ]" ],
-
-    -- ;; mano$uwd_2
-    -- mn$wd   mano$uwd        Ndu     goal;objective
-    -- mn$wd   mano$uwd        NAt     goals;objectives
-
-    noun     MaFCUL                    {- mano$uwd -}       `gloss`  [ "goal", "objective", "goals", "objectives" ],
-
-    -- ;; muno$id_1
-    -- mn$d    muno$id Nall    singer;chorister
-
-    noun     MuFCiL                    {- muno$id -}        `gloss`  [ "singer", "chorister" ] ]
-
- |> "n ^s f" <| [
-
-    -- ;; na$af-u_1
-    -- n$f     na$af   PV      absorb
-    -- n$f     no$uf   IV      absorb
-
-    verb     FaCaL                     {- na$af-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n^suf IV" ]
-                                                            `gloss`  [ "absorb" ],
-
-    -- ;; na$if-a_1
-    -- n$f     na$if   PV_intr dry up
-    -- n$f     no$af   IV_intr dry up
-
-    verb     FaCiL                     {- na$if-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n^saf IV_intr" ]
-                                                            `gloss`  [ "dry up" ],
-
-    -- ;; na$~af_1
-    -- n$f     na$~af  PV      make dry;wipe
-    -- n$f     na$~if  IV_yu   make dry;wipe
-
-    verb     FaCCaL                    {- na$~af -}         -- `others` [ "na^s^sif IV_yu" ]
-                                                            `gloss`  [ "make dry", "wipe" ],
-
-    -- ;; tana$~af_1
-    -- tn$f    tana$~af        PV      dry up;become dry
-    -- tn$f    tana$~af        IV      dry up;become dry
-
-    verb     TaFaCCaL                  {- tana$~af -}       `gloss`  [ "dry up", "become dry" ],
-
-    -- ;; na$of_1
-    -- n$f     na$of   N       absorption
-
-    noun     FaCL                      {- na$of -}          `gloss`  [ "absorption" ],
-
-    -- ;; na$af_1
-    -- n$f     na$af   N       desiccation;dryness
-
-    noun     FaCaL                     {- na$af -}          `gloss`  [ "desiccation", "dryness" ],
-
-    -- ;; na$~Af_1
-    -- n$Af    na$~Af  N       blotting paper;drier
-    -- n$Af    na$~Af  Nap     blotter;towel;drier
-
-    noun     FaCCAL                    {- na$~Af -}         `gloss`  [ "blotting paper", "drier", "blotter", "towel" ],
-
-    -- ;; mino$afap_1
-    -- mn$f    mino$af Nap     towel;napkin;drier
-    -- mnA$f   manA$if Ndip    towels;napkins;driers
-
-    noun     MiFCaL |< aT              {- mino$afap -}      -- `others` [ "manA^sif Ndip" ]
-                                                            `gloss`  [ "towel", "napkin", "drier", "towels", "napkins", "driers" ],
-
-    -- ;; tano$iyf_1
-    -- tn$yf   tano$iyf        N/At    drying
-
-    noun     TaFCIL                    {- tano$iyf -}       `gloss`  [ "drying" ],
-
-    -- ;; nA$if_1
-    -- nA$f    nA$if   N-ap    dry;desiccated;stiff     [[nA$if/ADJ]]
-
-    noun     FACiL                     {- nA$if -}          `gloss`  [ "dry", "desiccated", "stiff [ [ nA $ if / ADJ ] ]" ] ]
-
- |> "n ^s l" <| [
-
-    -- ;; na$al-u_1
-    -- n$l     na$al   PV      snatch;pilfer
-    -- n$l     no$ul   IV      snatch;pilfer
-
-    verb     FaCaL                     {- na$al-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n^sul IV" ]
-                                                            `gloss`  [ "snatch", "pilfer" ],
-
-    -- ;; na$al-u_2
-    -- n$l     na$al   PV      extricate;rescue
-    -- n$l     no$ul   IV      extricate;rescue
-
-    verb     FaCaL                     {- na$al-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n^sul IV" ]
-                                                            `gloss`  [ "extricate", "rescue" ],
-
-    -- ;; {inota$al_1
-    -- <nt$l   {inota$al       PV      rescue;extricate
-    -- Ant$l   {inota$al       PV      rescue;extricate
-    -- nt$l    nota$il IV      rescue;extricate
-
-    verb     IFtaCaL                   {- {inota$al -}      -- `others` [ "nta^sil IV" ]
-                                                            `gloss`  [ "rescue", "extricate" ],
-
-    -- ;; na$ol_1
-    -- n$l     na$ol   N       pickpocketing
-
-    noun     FaCL                      {- na$ol -}          `gloss`  [ "pickpocketing" ],
-
-    -- ;; na$~Al_1
-    -- n$Al    na$~Al  Nall    pickpocket
-
-    noun     FaCCAL                    {- na$~Al -}         `gloss`  [ "pickpocket" ],
-
-    -- ;; {inoti$Al_1
-    -- <nt$Al  {inoti$Al       NduAt   rescuing;extricating
-    -- Ant$Al  {inoti$Al       NduAt   rescuing;extricating
-
-    noun     IFtiCAL                   {- {inoti$Al -}      `gloss`  [ "rescuing", "extricating" ],
-
-    -- ;; {inoti$Aliy~_1
-    -- <nt$Aly {inoti$Aliy~    Nall    rescue
-    -- Ant$Aly {inoti$Aliy~    Nall    rescue
-
-    noun     IFtiCAL |< Iy             {- {inoti$Aliy~ -}   `gloss`  [ "rescue" ] ]
-
- |> "n ^s n" <| [
-
-    -- ;; na$~an-i_1
-    -- n$n     na$~an  PV-n    aim
-    -- n$n     na$~in  IV-n_yu aim
-
-    verb     FaCCaL                    {- na$~an-i -}       `imperf` [ FCiL ]
-                                                            -- `others` [ "na^s^sin IV-n_yu" ]
-                                                            `gloss`  [ "aim" ],
-
-    -- ;; ni$An_1
-    -- n$An    ni$An   N       target;mark
-
-    noun     FiCAL                     {- ni$An -}          `gloss`  [ "target", "mark" ],
-
-    -- ;; niy$An_1
-    -- ny$An   niy$An  N       target;mark
-    -- nyA$yn  nayA$iyn        Ndip    targets;marks
-
-    noun     FICAL                     {- niy$An -}         -- `others` [ "nayA^siyn Ndip" ]
-                                                            `gloss`  [ "target", "mark", "targets", "marks" ],
-
-    -- ;; tano$iyn_1
-    -- tn$yn   tano$iyn        N/At    target shooting;aiming
-
-    noun     TaFCIL                    {- tano$iyn -}       `gloss`  [ "target shooting", "aiming" ] ]
-
- |> "n ^s n ^s" <| [
-
-    -- ;; na$ona$_1
-    -- n$n$    na$ona$ PV_intr be nimble;simmer
-    -- n$n$    na$oni$ IV_intr_yu      be nimble;simmer
-
-    verb     KaRDaS                    {- na$ona$ -}        -- `others` [ "na^sni^s IV_intr_yu" ]
-                                                            `gloss`  [ "be nimble", "simmer" ],
-
-    -- ;; tana$ona$_1
-    -- tn$n$   tana$ona$       PV_intr be nimble;revive
-    -- tn$n$   tana$ona$       IV_intr be nimble;revive
-
-    verb     TaKaRDaS                  {- tana$ona$ -}      `gloss`  [ "be nimble", "revive" ] ]
-
- |> "n ^s q" <| [
-
-    -- ;; na$iq-a_1
-    -- n$q     na$iq   PV      smell;inhale
-    -- n$q     no$aq   IV      smell;inhale
-
-    verb     FaCiL                     {- na$iq-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n^saq IV" ]
-                                                            `gloss`  [ "smell", "inhale" ],
-
-    -- ;; na$~aq_1
-    -- n$q     na$~aq  PV      give to smell;make inhale
-    -- n$q     na$~iq  IV_yu   give to smell;make inhale
-
-    verb     FaCCaL                    {- na$~aq -}         -- `others` [ "na^s^siq IV_yu" ]
-                                                            `gloss`  [ "give to smell", "make inhale" ],
-
-    -- ;; >ano$aq_1
-    -- >n$q    >ano$aq PV      give to smell;make inhale
-    -- An$q    >ano$aq PV      give to smell;make inhale
-    -- n$q     no$iq   IV_yu   give to smell;make inhale
-    -- n$q     no$aq   IV_Pass_yu      be given to smell;be made to inhale
-
-    verb     HaFCaL                    {- Oano$aq -}        -- `others` [ "n^siq IV_yu", "n^saq IV_Pass_yu" ]
-                                                            `gloss`  [ "give to smell", "make inhale", "be given to smell", "be made to inhale" ],
-
-    -- ;; tana$~aq_1
-    -- tn$q    tana$~aq        PV      inhale;snuff up
-    -- tn$q    tana$~aq        IV      inhale;snuff up
-
-    verb     TaFaCCaL                  {- tana$~aq -}       `gloss`  [ "inhale", "snuff up" ],
-
-    -- ;; {inota$aq_1
-    -- <nt$q   {inota$aq       PV      inhale;snuff up
-    -- Ant$q   {inota$aq       PV      inhale;snuff up
-    -- nt$q    nota$iq IV      inhale;snuff up
-
-    verb     IFtaCaL                   {- {inota$aq -}      -- `others` [ "nta^siq IV" ]
-                                                            `gloss`  [ "inhale", "snuff up" ],
-
-    -- ;; {isotano$aq_1
-    -- <stn$q  {isotano$aq     PV      inhale;nose around for
-    -- Astn$q  {isotano$aq     PV      inhale;nose around for
-    -- stn$q   sotano$iq       IV      inhale;nose around for
-
-    verb     IstaFCaL                  {- {isotano$aq -}    -- `others` [ "stan^siq IV" ]
-                                                            `gloss`  [ "inhale", "nose around for" ],
-
-    -- ;; na$oq_1
-    -- n$q     na$oq   N       inhaling;inhalation
-
-    noun     FaCL                      {- na$oq -}          `gloss`  [ "inhaling", "inhalation" ],
-
-    -- ;; na$uwq_1
-    -- n$wq    na$uwq  N       snuff
-    -- n$wq    nu$uwq  N       snuff
-
-    noun     FaCUL                     {- na$uwq -}         -- `others` [ "nu^suwq N" ]
-                                                            `gloss`  [ "snuff" ],
-
-    -- ;; tano$iyqap_1
-    -- tn$yq   tano$iyq        Nap     pinch of snuff
-
-    noun     TaFCIL |< aT              {- tano$iyqap -}     `gloss`  [ "pinch of snuff" ],
-
-    -- ;; tana$~uq_1
-    -- tn$q    tana$~uq        N/At    inhaling;inhalation
-
-    noun     TaFaCCuL                  {- tana$~uq -}       `gloss`  [ "inhaling", "inhalation" ],
-
-    -- ;; {isotino$Aq_1
-    -- <stn$Aq {isotino$Aq     N/At    inhaling;inhalation
-    -- Astn$Aq {isotino$Aq     N/At    inhaling;inhalation
-
-    noun     IstiFCAL                  {- {isotino$Aq -}    `gloss`  [ "inhaling", "inhalation" ] ]
+    MaFCUL                    `noun`       {- mano$uwd -}       [ "pursued", "desired", "desirable", "wanted", "sought" ] ]
 
  |> "n ^s r" <| [
 
@@ -5361,339 +1517,60 @@ lexicon = listing "Lexicon properties"
     -- n$r     nu$ir   PV_Pass be published;be announced;be spread
     -- n$r     no$ar   IV_Pass_yu      be published;be announced;be spread
 
-    verb     FaCaL                     {- na$ar-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nu^sir PV_Pass", "n^sar IV_Pass_yu", "n^sur IV" ]
-                                                            `gloss`  [ "publish", "announce", "spread", "be published", "be announced", "be spread" ],
+    FaCaL                     `verb`       {- na$ar-u -}        [ "publish", "announce", "spread", "be published", "be announced", "be spread" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "nu^sir PV_Pass", "n^sar IV_Pass_yu", "n^sur IV" ] -},
 
     -- ;; na$~ar_1
     -- n$r     na$~ar  PV      spread
     -- n$r     na$~ir  IV_yu   spread
 
-    verb     FaCCaL                    {- na$~ar -}         -- `others` [ "na^s^sir IV_yu" ]
-                                                            `gloss`  [ "spread" ],
-
-    -- ;; >ano$ar_1
-    -- >n$r    >ano$ar PV      resurrect
-    -- An$r    >ano$ar PV      resurrect
-    -- n$r     no$ir   IV_yu   resurrect
-    -- n$r     no$ar   IV_Pass_yu      be resurrected
-
-    verb     HaFCaL                    {- Oano$ar -}        -- `others` [ "n^sar IV_Pass_yu", "n^sir IV_yu" ]
-                                                            `gloss`  [ "resurrect", "be resurrected" ],
-
-    -- ;; tana$~ar_1
-    -- tn$r    tana$~ar        PV_intr be spread out;be propagated
-    -- tn$r    tana$~ar        IV_intr be spread out;be propagated
-
-    verb     TaFaCCaL                  {- tana$~ar -}       `gloss`  [ "be spread out", "be propagated" ],
-
-    -- ;; {inota$ar_1
-    -- <nt$r   {inota$ar       PV_intr be spread;be diffused;be publicized
-    -- Ant$r   {inota$ar       PV_intr be spread;be diffused;be publicized
-    -- nt$r    nota$ir IV_intr be spread;be diffused;be publicized
-
-    verb     IFtaCaL                   {- {inota$ar -}      -- `others` [ "nta^sir IV_intr" ]
-                                                            `gloss`  [ "be spread", "be diffused", "be publicized" ],
+    FaCCaL                    `verb`       {- na$~ar -}         [ "spread" ]
+                              {- `others` [ "na^s^sir IV_yu" ] -},
 
     -- ;; na$or_1
     -- n$r     na$or   N       spreading;propagation
 
-    noun     FaCL                      {- na$or -}          `gloss`  [ "spreading", "propagation" ],
+    FaCL                      `noun`       {- na$or -}          [ "spreading", "propagation" ],
 
     -- ;; na$or_2
     -- n$r     na$or   N       publication;announcement
 
-    noun     FaCL                      {- na$or -}          `gloss`  [ "publication", "announcement" ],
+    FaCL                      `noun`       {- na$or -}          [ "publication", "announcement" ],
 
     -- ;; na$orap_1
     -- n$r     na$or   Napdu   report;announcement;proclamation
     -- n$r     na$ar   NAt     reports;announcements;proclamations
 
-    noun     FaCL |< aT                {- na$orap -}        -- `others` [ "na^sar NAt" ]
-                                                            `gloss`  [ "report", "announcement", "proclamation", "reports", "announcements", "proclamations" ],
-
-    -- ;; na$~Ar_1
-    -- n$Ar    na$~Ar  Nall    sawyer;sawing wood
-
-    noun     FaCCAL                    {- na$~Ar -}         `gloss`  [ "sawyer", "sawing wood" ],
-
-    -- ;; na$~Ar_2
-    -- n$Ar    na$~Ar  N0      Nashshar
-
-    noun     FaCCAL                    {- na$~Ar -}         `gloss`  [ "Nashshar" ],
-
-    -- ;; ni$Arap_1
-    -- n$Ar    ni$Ar   Nap     wood sawing
-
-    noun     FiCAL |< aT               {- ni$Arap -}        `gloss`  [ "wood sawing" ],
-
-    -- ;; nu$Arap_1
-    -- n$Ar    nu$Ar   Nap     sawdust
-
-    noun     FuCAL |< aT               {- nu$Arap -}        `gloss`  [ "sawdust" ],
-
-    -- ;; nu$uwr_1
-    -- n$wr    nu$uwr  N       resurrection
-
-    noun     FuCUL                     {- nu$uwr -}         `gloss`  [ "resurrection" ],
-
-    -- ;; mino$Ar_1
-    -- mn$Ar   mino$Ar Ndu     saw
-    -- mnA$yr  manA$iyr        Ndip    saws
-
-    noun     MiFCAL                    {- mino$Ar -}        -- `others` [ "manA^siyr Ndip" ]
-                                                            `gloss`  [ "saw", "saws" ],
-
-    -- ;; {inoti$Ar_1
-    -- <nt$Ar  {inoti$Ar       N/At    spreading;spread;diffusion
-    -- Ant$Ar  {inoti$Ar       N/At    spreading;spread;diffusion
-
-    noun     IFtiCAL                   {- {inoti$Ar -}      `gloss`  [ "spreading", "spread", "diffusion" ],
+    FaCL |< aT                `noun`       {- na$orap -}        [ "report", "announcement", "proclamation", "reports", "announcements", "proclamations" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "na^sar NAt" ] -},
 
     -- ;; nA$ir_1
     -- nA$r    nA$ir   Nall    publisher
 
-    noun     FACiL                     {- nA$ir -}          `gloss`  [ "publisher" ],
+    FACiL                     `noun`       {- nA$ir -}          [ "publisher" ],
 
     -- ;; mano$uwr_1
     -- mn$wr   mano$uwr        N-ap    published;spread out     [[mano$uwr/ADJ]]
     -- mn$wr   mano$uwr        NAt     publications     [[mano$uwr/NOUN]]
     -- mnA$yr  manA$iyr        Ndip    leaflets;circulars
 
-    noun     MaFCUL                    {- mano$uwr -}       -- `others` [ "manA^siyr Ndip" ]
-                                                            `gloss`  [ "published", "spread out [ [ mano $ uwr / ADJ ] ]", "publications [ [ mano $ uwr / NOUN ] ]", "leaflets", "circulars" ],
+    MaFCUL                    `noun`       {- mano$uwr -}       [ "published", "spread out", "publications", "leaflets", "circulars" ]
+                              `plural`     MaFACIL
+                              {- `others` [ "manA^siyr Ndip" ] -},
 
     -- ;; munota$ir_1
     -- mnt$r   munota$ir       Nall    spreading;scattered;prevalent     [[munota$ir/ADJ]]
 
-    noun     MuFtaCiL                  {- munota$ir -}      `gloss`  [ "spreading", "scattered", "prevalent [ [ munota $ ir / ADJ ] ]" ] ]
-
- |> "n ^s w" <| [
-
-    -- ;; na$owap_1
-    -- n$w     na$ow   Nap     intoxication;rapture;elation
-
-    noun     FaCL |< aT                {- na$owap -}        `gloss`  [ "intoxication", "rapture", "elation" ],
-
-    -- ;; na$owAn_1
-    -- n$wAn   na$owAn Ndip    intoxicated
-    -- n$wY    na$owaY N0      intoxicated
-    -- n$wA    na$owA  Nhy     intoxicated
-    -- n$AwY   na$AwaY N0      intoxicated
-    -- n$AwA   na$AwA  Nhy     intoxicated
-
-    noun     FaCLAn                    {- na$owAn -}        -- `others` [ "na^sAwA Nhy", "na^swA Nhy", "na^swY N0", "na^sAwY N0" ]
-                                                            `gloss`  [ "intoxicated" ] ]
-
- |> "n ^s w n" <| [
-
-    -- ;; na$owAn_1
-    -- n$wAn   na$owAn Ndip    intoxicated
-    -- n$wY    na$owaY N0      intoxicated
-    -- n$wA    na$owA  Nhy     intoxicated
-    -- n$AwY   na$AwaY N0      intoxicated
-    -- n$AwA   na$AwA  Nhy     intoxicated
-
-    noun     KaRDAS                    {- na$owAn -}        -- `others` [ "na^sAwA Nhy", "na^swA Nhy", "na^swY N0", "na^sAwY N0" ]
-                                                            `gloss`  [ "intoxicated" ] ]
-
- |> "n ^s w y" <| [
-
-    -- ;; na$owiy~_1
-    -- n$wy    na$owiy~        N-ap    intoxicating     [[na$owiy~/ADJ]]
-
-    noun     KaRDIS                    {- na$owiy~ -}       `gloss`  [ "intoxicating [ [ na $ owiy ~ / ADJ ] ]" ] ]
+    MuFtaCiL                  `noun`       {- munota$ir -}      [ "spreading", "scattered", "prevalent" ] ]
 
  |> "n ^s y" <| [
-
-    -- ;; na$iy-a_1
-    -- n$y     na$iy   PV_no-w_intr    become intoxicated
-    -- n$      na$     PV_w_intr       become intoxicated
-    -- n$Y     no$aY   IV_0    become intoxicated
-    -- n$y     no$ay   IV_Ann  become intoxicated
-    -- n$      no$a    IV_0hwnyn       become intoxicated
-
-    verb     FaCiL                     {- na$iy-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n^sY IV_0", "n^sa IV_0hwnyn", "n^say IV_Ann", "na^s PV_w_intr" ]
-                                                            `gloss`  [ "become intoxicated" ],
-
-    -- ;; na$~aY_1
-    -- n$Y     na$~aY  PV_0    starch
-    -- n$A     na$~A   PV_h    starch
-    -- n$y     na$~ay  PV_Atn  starch
-    -- n$      na$~    PV_ttAw starch
-    -- n$y     na$~iy  IV_0hAnn_yu     starch
-    -- n$      na$~    IV_0hwnyn_yu    starch
-    -- n$Y     na$~aY  IV_0_Pass_yu    be starched
-    -- n$y     na$~ay  IV_Ann_Pass_yu  be starched
-
-    verb     FaCCY                     {- na$~aY -}         -- `others` [ "na^s^siy IV_0hAnn_yu", "na^s^s IV_0hwnyn_yu PV_ttAw", "na^s^say PV_Atn IV_Ann_Pass_yu", "na^s^sA PV_h" ]
-                                                            `gloss`  [ "starch", "be starched" ],
-
-    -- ;; {inota$aY_1
-    -- <nt$Y   {inota$aY       PV_0    become intoxicated;be starched
-    -- Ant$Y   {inota$aY       PV_0    become intoxicated;be starched
-    -- <nt$A   {inota$A        PV_h    become intoxicated;be starched
-    -- Ant$A   {inota$A        PV_h    become intoxicated;be starched
-    -- <nt$y   {inota$ay       PV_Atn  become intoxicated;be starched
-    -- Ant$y   {inota$ay       PV_Atn  become intoxicated;be starched
-    -- <nt$    {inota$ PV_ttAw_intr    become intoxicated;be starched
-    -- Ant$    {inota$ PV_ttAw_intr    become intoxicated;be starched
-    -- nt$y    nota$iy IV_0hAnn        become intoxicated;be starched
-    -- nt$     nota$   IV_0hwnyn       become intoxicated;be starched
-    -- nt$Y    nota$aY IV_0_Pass_yu    become intoxicated;be starched
-
-    verb     IFtaCY                    {- {inota$aY -}      -- `others` [ "inta^sA PV_h", "nta^s IV_0hwnyn", "inta^s PV_ttAw_intr", "nta^siy IV_0hAnn", "inta^say PV_Atn", "nta^sY IV_0_Pass_yu" ]
-                                                            `gloss`  [ "become intoxicated", "be starched" ],
-
-    -- ;; {isotano$aY_1
-    -- <stn$Y  {isotano$aY     PV_0    smell;inhale
-    -- Astn$Y  {isotano$aY     PV_0    smell;inhale
-    -- <stn$A  {isotano$A      PV_h    smell;inhale
-    -- Astn$A  {isotano$A      PV_h    smell;inhale
-    -- <stn$y  {isotano$ay     PV_Atn  smell;inhale
-    -- Astn$y  {isotano$ay     PV_Atn  smell;inhale
-    -- <stn$   {isotano$       PV_ttAw smell;inhale
-    -- Astn$   {isotano$       PV_ttAw smell;inhale
-    -- stn$y   sotano$iy       IV_0hAnn        smell;inhale
-    -- stn$    sotano$ IV_0hwnyn       smell;inhale
-    -- stn$Y   sotano$aY       IV_0_Pass_yu    be smelled;be inhaled
-
-    verb     IstaFCY                   {- {isotano$aY -}    -- `others` [ "istan^s PV_ttAw", "stan^s IV_0hwnyn", "stan^siy IV_0hAnn", "stan^sY IV_0_Pass_yu", "istan^say PV_Atn", "istan^sA PV_h" ]
-                                                            `gloss`  [ "smell", "inhale", "be smelled", "be inhaled" ],
-
-    -- ;; {isotano$aY_2
-    -- <stn$Y  {isotano$aY     PV_0    get drunk
-    -- Astn$Y  {isotano$aY     PV_0    get drunk
-    -- <stn$y  {isotano$ay     PV_Atn  get drunk
-    -- Astn$y  {isotano$ay     PV_Atn  get drunk
-    -- <stn$   {isotano$       PV_ttAw_intr    get drunk
-    -- Astn$   {isotano$       PV_ttAw_intr    get drunk
-    -- stn$y   sotano$iy       IV_0hAnn        get drunk
-    -- stn$    sotano$ IV_0hwnyn       get drunk
-
-    verb     IstaFCY                   {- {isotano$aY -}    -- `others` [ "istan^s PV_ttAw_intr", "stan^s IV_0hwnyn", "stan^siy IV_0hAnn", "istan^say PV_Atn" ]
-                                                            `gloss`  [ "get drunk" ],
-
-    -- ;; na$A'_1
-    -- n$A'    na$A'   N0_Nh   starch;farina
-    -- n$A&    na$A&   Nh      starch;farina
-    -- n$A}    na$A}   Nhy     starch;farina
-
-    noun     FaCA'                     {- na$A' -}          `gloss`  [ "starch", "farina" ],
 
     -- ;; na$awiy~_1
     -- n$wy    na$awiy~        N-ap    starchy     [[na$awiy~/ADJ]]
 
-    noun     FaCY |< Iy                {- na$awiy~ -}       `gloss`  [ "starchy [ [ na $ awiy ~ / ADJ ] ]" ],
-
-    -- ;; na$awiy~At_1
-    -- n$wy    na$awiy~        NAt     starches;starchy foodstuffs     [[na$awiy~/NOUN]]
-
-    noun     FaCY |< Iy |< At          {- na$awiy~At -}     -- `others` [ "na^sawiyy NAt" ]
-                                                            `gloss`  [ "starches", "starchy foodstuffs [ [ na $ awiy ~ / NOUN ] ]" ],
-
-    -- ;; {inoti$A'_1
-    -- <nt$A'  {inoti$A'       N0_Nh   intoxication
-    -- Ant$A'  {inoti$A'       N0_Nh   intoxication
-    -- <nt$A&  {inoti$A&       Nh      intoxication
-    -- Ant$A&  {inoti$A&       Nh      intoxication
-    -- <nt$A}  {inoti$A}       Nhy     intoxication
-    -- Ant$A}  {inoti$A}       Nhy     intoxication
-    -- <nt$A'  {inoti$A'       NAt     intoxication
-    -- Ant$A'  {inoti$A'       NAt     intoxication
-
-    noun     IFtiCA'                   {- {inoti$A' -}      `gloss`  [ "intoxication" ] ]
-
- |> "n ^s z" <| [
-
-    -- ;; na$az-ui_1
-    -- n$z     na$az   PV_intr rise;be recalcitrant
-    -- n$z     no$uz   IV_intr rise;be recalcitrant
-    -- n$z     no$iz   IV_intr rise;be recalcitrant
-
-    verb     FaCaL                     {- na$az-ui -}       `imperf` [ FCuL, FCiL ]
-                                                            -- `others` [ "n^siz IV_intr", "n^suz IV_intr" ]
-                                                            `gloss`  [ "rise", "be recalcitrant" ],
-
-    -- ;; >ano$az_1
-    -- >n$z    >ano$az PV      revive;reanimate
-    -- An$z    >ano$az PV      revive;reanimate
-    -- n$z     no$iz   IV_yu   revive;reanimate
-    -- n$z     no$az   IV_Pass_yu      be revived;be reanimated
-
-    verb     HaFCaL                    {- Oano$az -}        -- `others` [ "n^saz IV_Pass_yu", "n^siz IV_yu" ]
-                                                            `gloss`  [ "revive", "reanimate", "be revived", "be reanimated" ],
-
-    -- ;; na$az_1
-    -- n$z     na$az   N       high ground;elevated place
-    -- >n$Az   >ano$Az N       high ground;elevated places
-    -- An$Az   >ano$Az N       high ground;elevated places
-
-    noun     FaCaL                     {- na$az -}          -- `others` [ "'an^sAz N" ]
-                                                            `gloss`  [ "high ground", "elevated place", "elevated places" ],
-
-    -- ;; na$Az_1
-    -- n$Az    na$Az   N       discordant melody;cacophony
-
-    noun     FaCAL                     {- na$Az -}          `gloss`  [ "discordant melody", "cacophony" ],
-
-    -- ;; nu$uwz_1
-    -- n$wz    nu$uwz  N       hostility;discord
-    -- n$wz    nu$uwz  N       marital discord
-
-    noun     FuCUL                     {- nu$uwz -}         `gloss`  [ "hostility", "discord", "marital discord" ],
-
-    -- ;; nA$iz_1
-    -- nA$z    nA$iz   N-ap    elevated;dissonant     [[nA$iz/ADJ]]
-
-    noun     FACiL                     {- nA$iz -}          `gloss`  [ "elevated", "dissonant [ [ nA $ iz / ADJ ] ]" ],
-
-    -- ;; nA$iz_2
-    -- nA$z    nA$iz   Nall    rebelious;disobedient
-
-    noun     FACiL                     {- nA$iz -}          `gloss`  [ "rebelious", "disobedient" ],
-
-    -- ;; nA$izap_1
-    -- nA$z    nA$iz   Napdu   rebelious wife (isl. law);shrew
-    -- nwA$z   nawA$iz Ndip    rebelious wives (isl. law);shrews
-
-    noun     FACiL |< aT               {- nA$izap -}        -- `others` [ "nawA^siz Ndip" ]
-                                                            `gloss`  [ "rebelious wife ( isl. law )", "shrew", "rebelious wives ( isl. law )", "shrews" ] ]
-
- |> "n _d l" <| [
-
-    -- ;; na*ul-u_1
-    -- n*l     na*ul   PV_intr be depraved;be despicable
-    -- n*l     no*ul   IV_intr be depraved;be despicable
-
-    verb     FaCuL                     {- na*ul-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n_dul IV_intr" ]
-                                                            `gloss`  [ "be depraved", "be despicable" ],
-
-    -- ;; na*ol_1
-    -- n*l     na*ol   N/ap    despicable
-    -- >n*Al   >ano*Al N       despicable
-    -- An*Al   >ano*Al N       despicable
-    -- n*wl    nu*uwl  N       despicable
-
-    noun     FaCL                      {- na*ol -}          -- `others` [ "nu_duwl N", "'an_dAl N" ]
-                                                            `gloss`  [ "despicable" ],
-
-    -- ;; na*iyl_1
-    -- n*yl    na*iyl  N/ap    despicable
-    -- n*lA'   nu*alA' N0_Nh   despicable
-    -- n*lA&   nu*alA& Nh      despicable
-    -- n*lA}   nu*alA} Nhy     despicable
-    -- n*Al    ni*Al   N       despicable
-
-    noun     FaCIL                     {- na*iyl -}         -- `others` [ "ni_dAl N", "nu_dalA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "despicable" ],
-
-    -- ;; na*Alap_1
-    -- n*Al    na*Al   Nap     depravity
-
-    noun     FaCAL |< aT               {- na*Alap -}        `gloss`  [ "depravity" ] ]
+    FaCY |< Iy                `noun`       {- na$awiy~ -}       [ "starchy" ] ]
 
  |> "n _d r" <| [
 
@@ -5702,17 +1579,17 @@ lexicon = listing "Lexicon properties"
     -- n*r     no*ur   IV      dedicate;vow
     -- n*r     no*ir   IV      dedicate;vow
 
-    verb     FaCaL                     {- na*ar-ui -}       `imperf` [ FCuL, FCiL ]
-                                                            -- `others` [ "n_dur IV", "n_dir IV" ]
-                                                            `gloss`  [ "dedicate", "vow" ],
+    FaCaL                     `verb`       {- na*ar-ui -}       [ "dedicate", "vow" ]
+                              `imperf` [ FCuL, FCiL ]
+                              {- `others` [ "n_dur IV", "n_dir IV" ] -},
 
     -- ;; na*ir-a_1
     -- n*r     na*ir   PV_intr be warned;be on guard
     -- n*r     no*ar   IV_intr be warned;be on guard
 
-    verb     FaCiL                     {- na*ir-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n_dar IV_intr" ]
-                                                            `gloss`  [ "be warned", "be on guard" ],
+    FaCiL                     `verb`       {- na*ir-a -}        [ "be warned", "be on guard" ]
+                              `imperf` [ FCaL ]
+                              {- `others` [ "n_dar IV_intr" ] -},
 
     -- ;; >ano*ar_1
     -- >n*r    >ano*ar PV      warn;caution
@@ -5720,807 +1597,119 @@ lexicon = listing "Lexicon properties"
     -- n*r     no*ir   IV_yu   warn;caution
     -- n*r     no*ar   IV_Pass_yu      be warned;be cautioned
 
-    verb     HaFCaL                    {- Oano*ar -}        -- `others` [ "n_dar IV_Pass_yu", "n_dir IV_yu" ]
-                                                            `gloss`  [ "warn", "caution", "be warned", "be cautioned" ],
-
-    -- ;; na*or_1
-    -- n*r     na*or   N       vow;pledge
-    -- n*wr    nu*uwr  N/At    vows;pledges
-
-    noun     FaCL                      {- na*or -}          -- `others` [ "nu_duwr N/At" ]
-                                                            `gloss`  [ "vow", "pledge", "vows", "pledges" ],
+    HaFCaL                    `verb`       {- Oano*ar -}        [ "warn", "caution", "be warned", "be cautioned" ]
+                              {- `others` [ "n_dar IV_Pass_yu", "n_dir IV_yu" ] -},
 
     -- ;; na*iyr_1
     -- n*yr    na*iyr  Ndu     warning;alarm
     -- n*r     nu*ur   N       warnings;alarm systems
 
-    noun     FaCIL                     {- na*iyr -}         -- `others` [ "nu_dur N" ]
-                                                            `gloss`  [ "warning", "alarm", "warnings", "alarm systems" ],
+    FaCIL                     `noun`       {- na*iyr -}         [ "warning", "alarm", "warnings", "alarm systems" ]
+                              `plural`     FuCuL
+                              {- `others` [ "nu_dur N" ] -},
 
     -- ;; <ino*Ar_1
     -- <n*Ar   <ino*Ar NduAt   warning;cautioning;alarm
     -- An*Ar   <ino*Ar NduAt   warning;cautioning;alarm
 
-    noun     HiFCAL                    {- Iino*Ar -}        `gloss`  [ "warning", "cautioning", "alarm" ],
-
-    -- ;; tanA*ur_1
-    -- tnA*r   tanA*ur N/At    syndrome
-
-    noun     TaFACuL                   {- tanA*ur -}        `gloss`  [ "syndrome" ],
-
-    -- ;; nA*ir_1
-    -- nA*r    nA*ir   N       pledging
-
-    noun     FACiL                     {- nA*ir -}          `gloss`  [ "pledging" ],
-
-    -- ;; mano*uwr_1
-    -- mn*wr   mano*uwr        Nall    pledged;vowed;consecrated     [[mano*uwr/ADJ]]
-
-    noun     MaFCUL                    {- mano*uwr -}       `gloss`  [ "pledged", "vowed", "consecrated [ [ mano*uwr / ADJ ] ]" ],
+    HiFCAL                    `noun`       {- Iino*Ar -}        [ "warning", "cautioning", "alarm" ],
 
     -- ;; muno*ir_1
     -- mn*r    muno*ir N0      Mundhir;Munthir
 
-    noun     MuFCiL                    {- muno*ir -}        `gloss`  [ "Mundhir", "Munthir" ],
-
-    -- ;; muno*ir_2
-    -- mn*r    muno*ir Nall    monitor;warning;cautioning
-
-    noun     MuFCiL                    {- muno*ir -}        `gloss`  [ "monitor", "warning", "cautioning" ],
-
-    -- ;; muno*iriy~_1
-    -- mn*ry   muno*iriy~      N0      Mundhiri
-
-    noun     MuFCiL |< Iy              {- muno*iriy~ -}     `gloss`  [ "Mundhiri" ],
-
-    -- ;; muno*irap_1
-    -- mn*r    muno*ir NapAt   warning sign;alarm system
-
-    noun     MuFCiL |< aT              {- muno*irap -}      `gloss`  [ "warning sign", "alarm system" ] ]
-
- |> "n _h _h" <| [
-
-    -- ;; nax~_1
-    -- nx      nax~    Ndu     mat;rug;carpet
-    -- >nxAx   >anoxAx N       mat;rug;carpet
-    -- AnxAx   >anoxAx N       mat;rug;carpet
-
-    noun     FaCL                      {- nax~ -}           -- `others` [ "'an_hA_h N" ]
-                                                            `gloss`  [ "mat", "rug", "carpet" ],
-
-    -- ;; nax~aY_1
-    -- nxY     nax~aY  PV_0    incite;arouse
-    -- nxA     nax~A   PV_h    incite;arouse
-    -- nxy     nax~ay  PV_Atn  incite;arouse
-    -- nx      nax~    PV_ttAw incite;arouse
-    -- nxy     nax~iy  IV_0hAnn_yu     incite;arouse
-    -- nx      nax~    IV_0hwnyn_yu    incite;arouse
-    -- nxY     nax~aY  IV_0_Pass_yu    be incited;be aroused
-    -- nxy     nax~ay  IV_Ann_Pass_yu  be incited;be aroused
-
-    verb     FaCLY                     {- nax~aY -}         -- `others` [ "na_h_h IV_0hwnyn_yu PV_ttAw", "na_h_hiy IV_0hAnn_yu", "na_h_hay PV_Atn IV_Ann_Pass_yu", "na_h_hA PV_h" ]
-                                                            `gloss`  [ "incite", "arouse", "be incited", "be aroused" ] ]
-
- |> "n _h `" <| [
-
-    -- ;; tanax~aE_1
-    -- tnxE    tanax~aE        PV      expectorate;clear the throat
-    -- tnxE    tanax~aE        IV      expectorate;clear the throat
-
-    verb     TaFaCCaL                  {- tanax~aE -}       `gloss`  [ "expectorate", "clear the throat" ],
-
-    -- ;; nuxAE_1
-    -- nxAE    nuxAE   N       spinal cord;brain
-    -- nxAE    nixAE   N       spinal cord;brain
-    -- nxE     nuxuE   N       spinal cords;brains
-
-    noun     FuCAL                     {- nuxAE -}          -- `others` [ "ni_hA` N", "nu_hu` N" ]
-                                                            `gloss`  [ "spinal cord", "brain", "spinal cords", "brains" ],
-
-    -- ;; nuxAEap_1
-    -- nxAE    nuxAE   Nap     phlegm;sputum
-
-    noun     FuCAL |< aT               {- nuxAEap -}        `gloss`  [ "phlegm", "sputum" ] ]
+    MuFCiL                    `noun`       {- muno*ir -}        [ "Mundhir", "Munthir" ] ]
 
  |> "n _h b" <| [
-
-    -- ;; naxab-u_1
-    -- nxb     naxab   PV      choose;select;elect
-    -- nxb     noxub   IV      choose;select;elect
-
-    verb     FaCaL                     {- naxab-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n_hub IV" ]
-                                                            `gloss`  [ "choose", "select", "elect" ],
-
-    -- ;; {inotaxab_1
-    -- <ntxb   {inotaxab       PV      elect;choose
-    -- Antxb   {inotaxab       PV      elect;choose
-    -- ntxb    notaxib IV      elect;choose
-    -- <ntxb   {unotuxib       PV_Pass be elected;be chosen
-    -- Antxb   {unotuxib       PV_Pass be elected;be chosen
-    -- ntxb    notaxab IV_Pass_yu      be elected;be chosen
-
-    verb     IFtaCaL                   {- {inotaxab -}      -- `others` [ "nta_hab IV_Pass_yu", "untu_hib PV_Pass", "nta_hib IV" ]
-                                                            `gloss`  [ "elect", "choose", "be elected", "be chosen" ],
-
-    -- ;; naxob_1
-    -- nxb     naxob   N       selection;choice
-
-    noun     FaCL                      {- naxob -}          `gloss`  [ "selection", "choice" ],
 
     -- ;; nuxobap_1
     -- nxb     nuxob   Nap     elite
     -- nxb     nuxab   N       elites;selected
 
-    noun     FuCL |< aT                {- nuxobap -}        -- `others` [ "nu_hab N" ]
-                                                            `gloss`  [ "elite", "elites", "selected" ],
-
-    -- ;; {inotixAb_1
-    -- <ntxAb  {inotixAb       NduAt   election;selection
-    -- AntxAb  {inotixAb       NduAt   election;selection
-
-    noun     IFtiCAL                   {- {inotixAb -}      `gloss`  [ "election", "selection" ],
-
-    -- ;; {inotixAbiy~_1
-    -- <ntxAby {inotixAbiy~    N-ap    electoral;election;selection     [[{inotixAbiy~/ADJ]]
-    -- AntxAby {inotixAbiy~    N-ap    electoral;election;selection     [[{inotixAbiy~/ADJ]]
-
-    noun     IFtiCAL |< Iy             {- {inotixAbiy~ -}   `gloss`  [ "electoral", "election", "selection [ [ { inotixAbiy ~ / ADJ ] ]" ],
+    FuCL |< aT                `noun`       {- nuxobap -}        [ "elite", "elites", "selected" ]
+                              `plural`     FuCaL
+                              {- `others` [ "nu_hab N" ] -},
 
     -- ;; nAxib_1
     -- nAxb    nAxib   Nall    voter;elector
 
-    noun     FACiL                     {- nAxib -}          `gloss`  [ "voter", "elector" ],
-
-    -- ;; manoxuwb_1
-    -- mnxwb   manoxuwb        Nall    lean;emaciated     [[manoxuwb/ADJ]]
-
-    noun     MaFCUL                    {- manoxuwb -}       `gloss`  [ "lean", "emaciated [ [ manoxuwb / ADJ ] ]" ],
-
-    -- ;; munotaxib_1
-    -- mntxb   munotaxib       Nall    voter;elector
-
-    noun     MuFtaCiL                  {- munotaxib -}      `gloss`  [ "voter", "elector" ],
+    FACiL                     `noun`       {- nAxib -}          [ "voter", "elector" ],
 
     -- ;; munotaxab_1
     -- mntxb   munotaxab       Nall    elected candidate;elect
 
-    noun     MuFtaCaL                  {- munotaxab -}      `gloss`  [ "elected candidate", "elect" ],
+    MuFtaCaL                  `noun`       {- munotaxab -}      [ "elected candidate", "elect" ],
 
     -- ;; munotaxab_2
     -- mntxb   munotaxab       NduAt   national team
     -- mntxb   munotaxab       NAt     anthology
 
-    noun     MuFtaCaL                  {- munotaxab -}      `gloss`  [ "national team", "anthology" ] ]
+    MuFtaCaL                  `noun`       {- munotaxab -}      [ "national team", "anthology" ] ]
 
  |> "n _h l" <| [
-
-    -- ;; naxal-u_1
-    -- nxl     naxal   PV      sift;strain
-    -- nxl     noxul   IV      sift;strain
-
-    verb     FaCaL                     {- naxal-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n_hul IV" ]
-                                                            `gloss`  [ "sift", "strain" ],
-
-    -- ;; tanax~al_1
-    -- tnxl    tanax~al        PV      sift;strain
-    -- tnxl    tanax~al        IV      sift;strain
-
-    verb     TaFaCCaL                  {- tanax~al -}       `gloss`  [ "sift", "strain" ],
-
-    -- ;; {inotaxal_1
-    -- <ntxl   {inotaxal       PV      sift;strain
-    -- Antxl   {inotaxal       PV      sift;strain
-    -- ntxl    notaxil IV      sift;strain
-
-    verb     IFtaCaL                   {- {inotaxal -}      -- `others` [ "nta_hil IV" ]
-                                                            `gloss`  [ "sift", "strain" ],
 
     -- ;; naxol_1
     -- nxl     naxol   N       date palms
     -- nxl     naxol   Napdu   date palm
     -- nxyl    naxiyl  N       date palms
 
-    noun     FaCL                      {- naxol -}          -- `others` [ "na_hiyl N" ]
-                                                            `gloss`  [ "date palms", "date palm" ],
-
-    -- ;; naxol_2
-    -- nxl     naxol   N0      Nakhl
-
-    noun     FaCL                      {- naxol -}          `gloss`  [ "Nakhl" ],
+    FaCL                      `noun`       {- naxol -}          [ "date palms", "date palm" ]
+                              `plural`     FaCIL
+                              {- `others` [ "na_hiyl N" ] -},
 
     -- ;; naxolap_1
     -- nxlp    naxolap Nprop   Nakhla
 
-    noun     FaCL |< aT                {- naxolap -}        `gloss`  [ "Nakhla" ],
-
-    -- ;; naxiyl_1
-    -- nxyl    naxiyl  N0      Nakheel
-
-    noun     FaCIL                     {- naxiyl -}         `gloss`  [ "Nakheel" ],
-
-    -- ;; nuxAlap_1
-    -- nxAl    nuxAl   Nap     waste;residue
-
-    noun     FuCAL |< aT               {- nuxAlap -}        `gloss`  [ "waste", "residue" ],
-
-    -- ;; munoxal_1
-    -- mnxl    munoxal Ndu     sieve
-    -- mnAxl   manAxil Ndip    sieves
-
-    noun     MuFCaL                    {- munoxal -}        -- `others` [ "manA_hil Ndip" ]
-                                                            `gloss`  [ "sieve", "sieves" ] ]
-
- |> "n _h m" <| [
-
-    -- ;; naxim-a_1
-    -- nxm     naxim   PV      expectorate;clear the throat
-    -- nxm     noxam   IV      expectorate;clear the throat
-
-    verb     FaCiL                     {- naxim-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n_ham IV" ]
-                                                            `gloss`  [ "expectorate", "clear the throat" ],
-
-    -- ;; tanax~am_1
-    -- tnxm    tanax~am        PV      expectorate;clear the throat
-    -- tnxm    tanax~am        IV      expectorate;clear the throat
-
-    verb     TaFaCCaL                  {- tanax~am -}       `gloss`  [ "expectorate", "clear the throat" ],
-
-    -- ;; nuxAmap_1
-    -- nxAm    nuxAm   Nap     phlegm;spit
-
-    noun     FuCAL |< aT               {- nuxAmap -}        `gloss`  [ "phlegm", "spit" ],
-
-    -- ;; nuxAmiy~_1
-    -- nxAmy   nuxAmiy~        N-ap    pituitary     [[nuxAmiy~/ADJ]]
-
-    noun     FuCAL |< Iy               {- nuxAmiy~ -}       `gloss`  [ "pituitary [ [ nuxAmiy ~ / ADJ ] ]" ] ]
-
- |> "n _h r" <| [
-
-    -- ;; naxar-ui_1
-    -- nxr     naxar   PV      snort;gnaw;eat away at
-    -- nxr     noxur   IV      snort;gnaw;eat away at
-    -- nxr     noxir   IV      snort;gnaw;eat away at
-
-    verb     FaCaL                     {- naxar-ui -}       `imperf` [ FCuL, FCiL ]
-                                                            -- `others` [ "n_hir IV", "n_hur IV" ]
-                                                            `gloss`  [ "snort", "gnaw", "eat away at" ],
-
-    -- ;; naxir-a_1
-    -- nxr     naxir   PV_intr decay;disintegrate
-    -- nxr     noxar   IV_intr decay;disintegrate
-
-    verb     FaCiL                     {- naxir-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n_har IV_intr" ]
-                                                            `gloss`  [ "decay", "disintegrate" ],
-
-    -- ;; naxor_1
-    -- nxr     naxor   N       snorting;snoring
-
-    noun     FaCL                      {- naxor -}          `gloss`  [ "snorting", "snoring" ],
-
-    -- ;; naxar_1
-    -- nxr     naxar   N       (tooth) decay
-    -- nxr     naxir   N-ap    decaying;carious
-    -- nAxr    nAxir   N-ap    decaying;carious
-
-    noun     FaCaL                     {- naxar -}          -- `others` [ "na_hir N-ap", "nA_hir N-ap" ]
-                                                            `gloss`  [ "( tooth ) decay", "decaying", "carious" ],
-
-    -- ;; naxiyr_1
-    -- nxyr    naxiyr  N       snoring;snorting
-
-    noun     FaCIL                     {- naxiyr -}         `gloss`  [ "snoring", "snorting" ],
-
-    -- ;; manoxar_1
-    -- mnxr    manoxar Ndu     nose;nostril
-    -- mnxr    minoxar Ndu     nose;nostril
-    -- mnAxr   manAxir Ndip    noses;nostrils
-
-    noun     MaFCaL                    {- manoxar -}        -- `others` [ "min_har Ndu", "manA_hir Ndip" ]
-                                                            `gloss`  [ "nose", "nostril", "noses", "nostrils" ],
-
-    -- ;; minoxAr_1
-    -- mnxAr   minoxAr Ndu     nose;nostril
-    -- mnAxyr  manAxiyr        Ndip    noses;nostrils
-
-    noun     MiFCAL                    {- minoxAr -}        -- `others` [ "manA_hiyr Ndip" ]
-                                                            `gloss`  [ "nose", "nostril", "noses", "nostrils" ] ]
-
- |> "n _h r b" <| [
-
-    -- ;; naxorab_1
-    -- nxrb    naxorab PV      eat away;hollow out
-    -- nxrb    naxorib IV_yu   eat away;hollow out
-
-    verb     KaRDaS                    {- naxorab -}        -- `others` [ "na_hrib IV_yu" ]
-                                                            `gloss`  [ "eat away", "hollow out" ],
-
-    -- ;; nuxoruwb_1
-    -- nxrwb   nuxoruwb        N       cavity;hollow;honeycomb
-    -- nxAryb  naxAriyb        Ndip    cavities;hollows;honeycombs
-
-    noun     KuRDUS                    {- nuxoruwb -}       -- `others` [ "na_hAriyb Ndip" ]
-                                                            `gloss`  [ "cavity", "hollow", "honeycomb", "cavities", "hollows", "honeycombs" ] ]
+    FaCL |< aT                `noun`       {- naxolap -}        [ "Nakhla" ] ]
 
  |> "n _h s" <| [
-
-    -- ;; naxas-au_1
-    -- nxs     naxas   PV      goad;urge on
-    -- nxs     noxas   IV      goad;urge on
-    -- nxs     noxus   IV      goad;urge on
-
-    verb     FaCaL                     {- naxas-au -}       `imperf` [ FCaL, FCuL ]
-                                                            -- `others` [ "n_has IV", "n_hus IV" ]
-                                                            `gloss`  [ "goad", "urge on" ],
-
-    -- ;; naxos_1
-    -- nxs     naxos   N       goading;urging on
-
-    noun     FaCL                      {- naxos -}          `gloss`  [ "goading", "urging on" ],
-
-    -- ;; nax~As_1
-    -- nxAs    nax~As  Nall    cattle dealer
-    -- nxAs    nax~As  Nall    slave trader
-
-    noun     FaCCAL                    {- nax~As -}         `gloss`  [ "cattle dealer", "slave trader" ],
 
     -- ;; nixAsap_1
     -- nxAs    nixAs   Nap     cattle trade
     -- nxAs    nixAs   Nap     slave trade
 
-    noun     FiCAL |< aT               {- nixAsap -}        `gloss`  [ "cattle trade", "slave trade" ],
-
-    -- ;; minoxas_1
-    -- mnxs    minoxas Ndu     cattle prod
-    -- mnAxs   manAxis Ndip    cattle prods
-
-    noun     MiFCaL                    {- minoxas -}        -- `others` [ "manA_his Ndip" ]
-                                                            `gloss`  [ "cattle prod", "cattle prods" ],
-
-    -- ;; minoxAs_1
-    -- mnxAs   minoxAs Ndu     cattle prod
-    -- mnAxys  manAxiys        Ndip    cattle prods
-
-    noun     MiFCAL                    {- minoxAs -}        -- `others` [ "manA_hiys Ndip" ]
-                                                            `gloss`  [ "cattle prod", "cattle prods" ] ]
-
- |> "n _h w" <| [
-
-    -- ;; naxA-u_1
-    -- nxA     naxA    PV_0    be proud;be haughty
-    -- nxw     naxaw   PV_Atn  be proud;be haughty
-    -- nx      nax     PV_ttAw_intr    be proud;be haughty
-    -- nxw     noxuw   IV_0hAnn        be proud;be haughty
-    -- nx      nox     IV_0hwnyn       be proud;be haughty
-
-    verb     FaCA                      {- naxA-u -}         `imperf` [ FCuL ]
-                                                            -- `others` [ "na_h PV_ttAw_intr", "n_huw IV_0hAnn", "n_h IV_0hwnyn", "na_haw PV_Atn" ]
-                                                            `gloss`  [ "be proud", "be haughty" ],
-
-    -- ;; nax~aY_1
-    -- nxY     nax~aY  PV_0    incite;arouse
-    -- nxA     nax~A   PV_h    incite;arouse
-    -- nxy     nax~ay  PV_Atn  incite;arouse
-    -- nx      nax~    PV_ttAw incite;arouse
-    -- nxy     nax~iy  IV_0hAnn_yu     incite;arouse
-    -- nx      nax~    IV_0hwnyn_yu    incite;arouse
-    -- nxY     nax~aY  IV_0_Pass_yu    be incited;be aroused
-    -- nxy     nax~ay  IV_Ann_Pass_yu  be incited;be aroused
-
-    verb     FaCCY                     {- nax~aY -}         -- `others` [ "na_h_h IV_0hwnyn_yu PV_ttAw", "na_h_hiy IV_0hAnn_yu", "na_h_hay PV_Atn IV_Ann_Pass_yu", "na_h_hA PV_h" ]
-                                                            `gloss`  [ "incite", "arouse", "be incited", "be aroused" ],
-
-    -- ;; >anoxaY_1
-    -- >nxY    >anoxaY PV_0    incite;arouse
-    -- AnxY    >anoxaY PV_0    incite;arouse
-    -- >nxA    >anoxA  PV_h    incite;arouse
-    -- AnxA    >anoxA  PV_h    incite;arouse
-    -- >nxy    >anoxay PV_Atn  incite;arouse
-    -- Anxy    >anoxay PV_Atn  incite;arouse
-    -- >nx     >anox   PV_ttAw incite;arouse
-    -- Anx     >anox   PV_ttAw incite;arouse
-    -- nxy     noxiy   IV_0hAnn_yu     incite;arouse
-    -- nx      nox     IV_0hwnyn_yu    incite;arouse
-    -- nxY     noxaY   IV_0_Pass_yu    be incited;be aroused
-    -- nxy     noxay   IV_Ann_Pass_yu  be incited;be aroused
-
-    verb     HaFCY                     {- OanoxaY -}        -- `others` [ "'an_h PV_ttAw", "n_hay IV_Ann_Pass_yu", "n_h IV_0hwnyn_yu", "n_hY IV_0_Pass_yu", "'an_hA PV_h", "'an_hay PV_Atn", "n_hiy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "incite", "arouse", "be incited", "be aroused" ],
-
-    -- ;; naxowap_1
-    -- nxw     naxow   Nap     arrogance;dignity;nobility
-
-    noun     FaCL |< aT                {- naxowap -}        `gloss`  [ "arrogance", "dignity", "nobility" ] ]
-
- |> "n _h z" <| [
-
-    -- ;; naxaz-a_1
-    -- nxz     naxaz   PV      bore through
-    -- nxz     noxaz   IV      bore through
-
-    verb     FaCaL                     {- naxaz-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n_haz IV" ]
-                                                            `gloss`  [ "bore through" ],
-
-    -- ;; naxoz_1
-    -- nxz     naxoz   N       boring through
-
-    noun     FaCL                      {- naxoz -}          `gloss`  [ "boring through" ] ]
+    FiCAL |< aT               `noun`       {- nixAsap -}        [ "cattle trade", "slave trade" ] ]
 
  |> "n _t r" <| [
-
-    -- ;; navar-ui_1
-    -- nvr     navar   PV      scatter;sprinkle;write in prose
-    -- nvr     novur   IV      scatter;sprinkle;write in prose
-    -- nvr     novir   IV      scatter;sprinkle;write in prose
-
-    verb     FaCaL                     {- navar-ui -}       `imperf` [ FCuL, FCiL ]
-                                                            -- `others` [ "n_tur IV", "n_tir IV" ]
-                                                            `gloss`  [ "scatter", "sprinkle", "write in prose" ],
-
-    -- ;; nav~ar_1
-    -- nvr     nav~ar  PV      scatter;disperse
-    -- nvr     nav~ir  IV_yu   scatter;disperse
-
-    verb     FaCCaL                    {- nav~ar -}         -- `others` [ "na_t_tir IV_yu" ]
-                                                            `gloss`  [ "scatter", "disperse" ],
 
     -- ;; tanAvar_1
     -- tnAvr   tanAvar PV_intr be scattered;be dispersed;fall off
     -- tnAvr   tanAvar IV_intr be scattered;be dispersed;fall off
 
-    verb     TaFACaL                   {- tanAvar -}        `gloss`  [ "be scattered", "be dispersed", "fall off" ],
-
-    -- ;; {inotavar_1
-    -- <ntvr   {inotavar       PV_intr be scattered;be dispersed;fall off
-    -- Antvr   {inotavar       PV_intr be scattered;be dispersed;fall off
-    -- ntvr    notavir IV_intr be scattered;be dispersed;fall off
-
-    verb     IFtaCaL                   {- {inotavar -}      -- `others` [ "nta_tir IV_intr" ]
-                                                            `gloss`  [ "be scattered", "be dispersed", "fall off" ],
-
-    -- ;; navor_1
-    -- nvr     navor   N       scattering;dispersal
-
-    noun     FaCL                      {- navor -}          `gloss`  [ "scattering", "dispersal" ],
+    TaFACaL                   `verb`       {- tanAvar -}        [ "be scattered", "be dispersed", "fall off" ],
 
     -- ;; navor_2
     -- nvr     navor   N       prose
 
-    noun     FaCL                      {- navor -}          `gloss`  [ "prose" ],
-
-    -- ;; navorap_1
-    -- nvr     navor   Napdu   particle;piece;bit
-    -- nvr     navar   NAt     particles;pieces;bits
-
-    noun     FaCL |< aT                {- navorap -}        -- `others` [ "na_tar NAt" ]
-                                                            `gloss`  [ "particle", "piece", "bit", "particles", "pieces", "bits" ],
-
-    -- ;; navarAt_1
-    -- nvr     navar   NAt     spangles
-
-    noun     FaCaL |< At               {- navarAt -}        -- `others` [ "na_tar NAt" ]
-                                                            `gloss`  [ "spangles" ],
-
-    -- ;; navoriy~_1
-    -- nvry    navoriy~        N-ap    prose;petty;insignificant     [[navoriy~/ADJ]]
-    -- nvry    navoriy~        NAt     miscellaneous;incidental     [[navoriy~/NOUN]]
-
-    noun     FaCL |< Iy                {- navoriy~ -}       `gloss`  [ "prose", "petty", "insignificant [ [ navoriy ~ / ADJ ] ]", "miscellaneous", "incidental [ [ navoriy ~ / NOUN ] ]" ],
-
-    -- ;; nuvAr_1
-    -- nvAr    nuvAr   N       fragments;particles
-
-    noun     FuCAL                     {- nuvAr -}          `gloss`  [ "fragments", "particles" ],
-
-    -- ;; naviyr_1
-    -- nvyr    naviyr  N-ap    scattered;dispersed     [[naviyr/ADJ]]
-
-    noun     FaCIL                     {- naviyr -}         `gloss`  [ "scattered", "dispersed [ [ naviyr / ADJ ] ]" ],
-
-    -- ;; tanAvur_1
-    -- tnAvr   tanAvur N/At    dispersion
-
-    noun     TaFACuL                   {- tanAvur -}        `gloss`  [ "dispersion" ],
-
-    -- ;; {inotivAr_1
-    -- <ntvAr  {inotivAr       N/At    dispersal
-    -- AntvAr  {inotivAr       N/At    dispersal
-
-    noun     IFtiCAL                   {- {inotivAr -}      `gloss`  [ "dispersal" ],
-
-    -- ;; nAvir_1
-    -- nAvr    nAvir   Nall    prose writer
-
-    noun     FACiL                     {- nAvir -}          `gloss`  [ "prose writer" ],
-
-    -- ;; manovuwr_1
-    -- mnvwr   manovuwr        N-ap    scattered;dispersed     [[manovuwr/ADJ]]
-
-    noun     MaFCUL                    {- manovuwr -}       `gloss`  [ "scattered", "dispersed [ [ manovuwr / ADJ ] ]" ],
-
-    -- ;; manovuwr_2
-    -- mnvwr   manovuwr        N-ap    prose
-
-    noun     MaFCUL                    {- manovuwr -}       `gloss`  [ "prose" ],
-
-    -- ;; mutanAvir_1
-    -- mtnAvr  mutanAvir       Nall    scattered;dispersed     [[mutanAvir/ADJ]]
-
-    noun     MutaFACiL                 {- mutanAvir -}      `gloss`  [ "scattered", "dispersed [ [ mutanAvir / ADJ ] ]" ] ]
-
- |> "n ` .z" <| [
-
-    -- ;; naEaZ-a_1
-    -- nEZ     naEaZ   PV_intr become erect;be sexually aroused
-    -- nEZ     noEaZ   IV_intr become erect;be sexually aroused
-
-    verb     FaCaL                     {- naEaZ-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n`a.z IV_intr" ]
-                                                            `gloss`  [ "become erect", "be sexually aroused" ],
-
-    -- ;; >anoEaZ_1
-    -- >nEZ    >anoEaZ PV_intr become erect;be sexually aroused
-    -- AnEZ    >anoEaZ PV_intr become erect;be sexually aroused
-    -- nEZ     noEiZ   IV_intr_yu      become erect;be sexually aroused
-    -- nEZ     noEaZ   IV_Pass_yu      become erect;be sexually aroused
-
-    verb     HaFCaL                    {- OanoEaZ -}        -- `others` [ "n`a.z IV_Pass_yu", "n`i.z IV_intr_yu" ]
-                                                            `gloss`  [ "become erect", "be sexually aroused" ],
-
-    -- ;; naEoZ_1
-    -- nEZ     naEoZ   N       erection;sexual arousal
-    -- nEZ     naEaZ   N       erection;sexual arousal
-    -- nEwZ    nuEuwZ  N       erection;sexual arousal
-
-    noun     FaCL                      {- naEoZ -}          -- `others` [ "na`a.z N", "nu`uw.z N" ]
-                                                            `gloss`  [ "erection", "sexual arousal" ],
-
-    -- ;; nAEuwZ_1
-    -- nAEwZ   nAEuwZ  N       aphrodisiac
-
-    noun     FACUL                     {- nAEuwZ -}         `gloss`  [ "aphrodisiac" ],
-
-    -- ;; <inoEAZ_1
-    -- <nEAZ   <inoEAZ NduAt   orgasm
-    -- AnEAZ   <inoEAZ NduAt   orgasm
-
-    noun     HiFCAL                    {- IinoEAZ -}        `gloss`  [ "orgasm" ] ]
-
- |> "n ` ^g" <| [
-
-    -- ;; naEojap_1
-    -- nEj     naEoj   Napdu   sheep;ewe
-    -- nEj     naEaj   NAt     sheep;ewes
-    -- nEAj    niEAj   N       sheep;ewes
-
-    noun     FaCL |< aT                {- naEojap -}        -- `others` [ "na`a^g NAt", "ni`A^g N" ]
-                                                            `gloss`  [ "sheep", "ewe", "ewes" ] ]
+    FaCL                      `noun`       {- navor -}          [ "prose" ] ]
 
  |> "n ` ^s" <| [
-
-    -- ;; naEa$-a_1
-    -- nE$     naEa$   PV      raise;revive;stimulate
-    -- nE$     noEa$   IV      raise;revive;stimulate
-
-    verb     FaCaL                     {- naEa$-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n`a^s IV" ]
-                                                            `gloss`  [ "raise", "revive", "stimulate" ],
 
     -- ;; naE~a$_1
     -- nE$     naE~a$  PV      raise;revive;stimulate
     -- nE$     naE~i$  IV_yu   raise;revive;stimulate
 
-    verb     FaCCaL                    {- naE~a$ -}         -- `others` [ "na``i^s IV_yu" ]
-                                                            `gloss`  [ "raise", "revive", "stimulate" ],
-
-    -- ;; >anoEa$_1
-    -- >nE$    >anoEa$ PV      raise;revive;stimulate
-    -- AnE$    >anoEa$ PV      raise;revive;stimulate
-    -- nE$     noEi$   IV_yu   raise;revive;stimulate
-    -- nE$     noEa$   IV_Pass_yu      be raised;be revived;be stimulated
-
-    verb     HaFCaL                    {- OanoEa$ -}        -- `others` [ "n`i^s IV_yu", "n`a^s IV_Pass_yu" ]
-                                                            `gloss`  [ "raise", "revive", "stimulate", "be raised", "be revived", "be stimulated" ],
-
-    -- ;; {inotaEa$_1
-    -- <ntE$   {inotaEa$       PV      recover;recuperate;be invigorated
-    -- AntE$   {inotaEa$       PV      recover;recuperate;be invigorated
-    -- ntE$    notaEi$ IV      recover;recuperate;be invigorated
-
-    verb     IFtaCaL                   {- {inotaEa$ -}      -- `others` [ "nta`i^s IV" ]
-                                                            `gloss`  [ "recover", "recuperate", "be invigorated" ],
-
-    -- ;; naEo$_1
-    -- nE$     naEo$   N       coffin;casket;bier
-
-    noun     FaCL                      {- naEo$ -}          `gloss`  [ "coffin", "casket", "bier" ],
-
-    -- ;; naEo$ap_1
-    -- nE$     naEo$   Nap     euphoria;song
-
-    noun     FaCL |< aT                {- naEo$ap -}        `gloss`  [ "euphoria", "song" ],
+    FaCCaL                    `verb`       {- naE~a$ -}         [ "raise", "revive", "stimulate" ]
+                              {- `others` [ "na``i^s IV_yu" ] -},
 
     -- ;; <inoEA$_1
     -- <nEA$   <inoEA$ N/At    revival;resuscitation
     -- AnEA$   <inoEA$ N/At    revival;resuscitation
 
-    noun     HiFCAL                    {- IinoEA$ -}        `gloss`  [ "revival", "resuscitation" ],
-
-    -- ;; {inotiEA$_1
-    -- <ntEA$  {inotiEA$       N/At    resurgence;revival
-    -- AntEA$  {inotiEA$       N/At    resurgence;revival
-
-    noun     IFtiCAL                   {- {inotiEA$ -}      `gloss`  [ "resurgence", "revival" ],
-
-    -- ;; munoEi$_1
-    -- mnE$    munoEi$ Nall    animating;invigorating;restorative     [[munoEi$/ADJ]]
-
-    noun     MuFCiL                    {- munoEi$ -}        `gloss`  [ "animating", "invigorating", "restorative [ [ munoEi $ / ADJ ] ]" ] ]
-
- |> "n ` b" <| [
-
-    -- ;; naEab-a_1
-    -- nEb     naEab   PV      croak;caw;speed along
-    -- nEb     noEab   IV      croak;caw;speed along
-
-    verb     FaCaL                     {- naEab-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n`ab IV" ]
-                                                            `gloss`  [ "croak", "caw", "speed along" ],
-
-    -- ;; naEab-i_1
-    -- nEb     naEab   PV      croak;caw
-    -- nEb     noEib   IV      croak;caw
-
-    verb     FaCaL                     {- naEab-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "n`ib IV" ]
-                                                            `gloss`  [ "croak", "caw" ],
-
-    -- ;; nuEAb_1
-    -- nEAb    nuEAb   N       croaking;cawing
-
-    noun     FuCAL                     {- nuEAb -}          `gloss`  [ "croaking", "cawing" ],
-
-    -- ;; naE~Ab_1
-    -- nEAb    naE~Ab  N-ap    ominous;croaking;cawing
-
-    noun     FaCCAL                    {- naE~Ab -}         `gloss`  [ "ominous", "croaking", "cawing" ] ]
-
- |> "n ` l" <| [
-
-    -- ;; naEal-a_1
-    -- nEl     naEal   PV      sole;shoe
-    -- nEl     noEal   IV      sole;shoe
-
-    verb     FaCaL                     {- naEal-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n`al IV" ]
-                                                            `gloss`  [ "sole", "shoe" ],
-
-    -- ;; naEil-a_1
-    -- nEl     naEil   PV_intr be shod
-    -- nEl     noEal   IV_intr be shod
-
-    verb     FaCiL                     {- naEil-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n`al IV_intr" ]
-                                                            `gloss`  [ "be shod" ],
-
-    -- ;; naE~al_1
-    -- nEl     naE~al  PV      sole;shoe
-    -- nEl     naE~il  IV_yu   sole;shoe
-
-    verb     FaCCaL                    {- naE~al -}         -- `others` [ "na``il IV_yu" ]
-                                                            `gloss`  [ "sole", "shoe" ],
-
-    -- ;; >anoEal_1
-    -- >nEl    >anoEal PV      sole;shoe
-    -- AnEl    >anoEal PV      sole;shoe
-    -- nEl     noEil   IV_yu   sole;shoe
-    -- nEl     noEal   IV_Pass_yu      be soled;be shod
-
-    verb     HaFCaL                    {- OanoEal -}        -- `others` [ "n`al IV_Pass_yu", "n`il IV_yu" ]
-                                                            `gloss`  [ "sole", "shoe", "be soled", "be shod" ],
-
-    -- ;; tanaE~al_1
-    -- tnEl    tanaE~al        PV_intr be shod
-    -- tnEl    tanaE~al        IV_intr be shod
-
-    verb     TaFaCCaL                  {- tanaE~al -}       `gloss`  [ "be shod" ],
-
-    -- ;; {inotaEal_1
-    -- <ntEl   {inotaEal       PV      wear sandals;be shod
-    -- AntEl   {inotaEal       PV      wear sandals;be shod
-    -- ntEl    notaEil IV      wear sandals;be shod
-
-    verb     IFtaCaL                   {- {inotaEal -}      -- `others` [ "nta`il IV" ]
-                                                            `gloss`  [ "wear sandals", "be shod" ],
-
-    -- ;; naEol_1
-    -- nEl     naEol   Ndu     sole;sandals
-    -- nEAl    niEAl   N       soles;sandals
-    -- >nEl    >anoEul N       soles;sandals
-    -- AnEl    >anoEul N       soles;sandals
-
-    noun     FaCL                      {- naEol -}          -- `others` [ "'an`ul N", "ni`Al N" ]
-                                                            `gloss`  [ "sole", "sandals", "soles" ],
-
-    -- ;; nAEil_1
-    -- nAEl    nAEil   N-ap    shod;soled
-
-    noun     FACiL                     {- nAEil -}          `gloss`  [ "shod", "soled" ] ]
+    HiFCAL                    `noun`       {- IinoEA$ -}        [ "revival", "resuscitation" ] ]
 
  |> "n ` m" <| [
 
     -- ;; naEam_1
     -- nEm     naEam   FW-Wa   yes    [[naEam/INTERJ]]
 
-    noun     FaCaL                     {- naEam -}          `gloss`  [ "yes [ [ naEam / INTERJ ] ]" ],
-
-    -- ;; naEam-ua_2
-    -- nEm     naEam   PV      live in comfort;be delighted;enjoy
-    -- nEm     noEum   IV      live in comfort;be delighted;enjoy
-    -- nEm     noEam   IV      live in comfort;be delighted;enjoy
-
-    verb     FaCaL                     {- naEam-ua -}       `imperf` [ FCuL, FCaL ]
-                                                            -- `others` [ "n`um IV", "n`am IV" ]
-                                                            `gloss`  [ "live in comfort", "be delighted", "enjoy" ],
-
-    -- ;; naEim-a_1
-    -- nEm     naEim   PV_intr be tender;become powdery
-    -- nEm     noEam   IV_intr be tender;become powdery
-
-    verb     FaCiL                     {- naEim-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n`am IV_intr" ]
-                                                            `gloss`  [ "be tender", "become powdery" ],
-
-    -- ;; naEum-u_1
-    -- nEm     naEum   PV_intr be soft;be smooth
-    -- nEm     noEum   IV_intr be soft;be smooth
-
-    verb     FaCuL                     {- naEum-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "n`um IV_intr" ]
-                                                            `gloss`  [ "be soft", "be smooth" ],
+    FaCaL                     `noun`       {- naEam -}          [ "yes" ],
 
     -- ;; naE~am_1
     -- nEm     naE~am  PV      soften;pulverize
     -- nEm     naE~im  IV_yu   soften;pulverize
 
-    verb     FaCCaL                    {- naE~am -}         -- `others` [ "na``im IV_yu" ]
-                                                            `gloss`  [ "soften", "pulverize" ],
-
-    -- ;; >anoEam_1
-    -- >nEm    >anoEam PV      make pleasant;bestow favors
-    -- AnEm    >anoEam PV      make pleasant;bestow favors
-    -- nEm     noEim   IV_yu   make pleasant;bestow favors
-    -- nEm     noEam   IV_Pass_yu      be made pleasant;be bestown favors
-
-    verb     HaFCaL                    {- OanoEam -}        -- `others` [ "n`im IV_yu", "n`am IV_Pass_yu" ]
-                                                            `gloss`  [ "make pleasant", "bestow favors", "be made pleasant", "be bestown favors" ],
-
-    -- ;; tanaE~am_1
-    -- tnEm    tanaE~am        PV      live in luxury;enjoy
-    -- tnEm    tanaE~am        IV      live in luxury;enjoy
-
-    verb     TaFaCCaL                  {- tanaE~am -}       `gloss`  [ "live in luxury", "enjoy" ],
-
-    -- ;; niEom_1
-    -- nEm     niEom   N       wonderful
-
-    noun     FiCL                      {- niEom -}          `gloss`  [ "wonderful" ],
-
-    -- ;; >anoEAm_1
-    -- >nEAm   >anoEAm N       grazing livestock
-    -- AnEAm   >anoEAm N       grazing livestock
-
-    noun     HaFCAL                    {- OanoEAm -}        `gloss`  [ "grazing livestock" ],
-
-    -- ;; naEomap_1
-    -- nEm     naEom   Nap     comfort;pleasure
-
-    noun     FaCL |< aT                {- naEomap -}        `gloss`  [ "comfort", "pleasure" ],
+    FaCCaL                    `verb`       {- naE~am -}         [ "soften", "pulverize" ]
+                              {- `others` [ "na``im IV_yu" ] -},
 
     -- ;; niEomap_1
     -- nEm     niEom   NapAt   blessing
@@ -6528,343 +1717,55 @@ lexicon = listing "Lexicon properties"
     -- >nEm    >anoEum N       blessings
     -- AnEm    >anoEum N       blessings
 
-    noun     FiCL |< aT                {- niEomap -}        -- `others` [ "'an`um N", "ni`am N" ]
-                                                            `gloss`  [ "blessing", "blessings" ],
-
-    -- ;; nuEomaY_1
-    -- nEmY    nuEomaY N0      happiness
-    -- nEmA    nuEomA  Nhy     happiness
-
-    noun     FuCLY                     {- nuEomaY -}        -- `others` [ "nu`mA Nhy" ]
-                                                            `gloss`  [ "happiness" ],
-
-    -- ;; naEAm_1
-    -- nEAm    naEAm   N       ostrich
-    -- nEAm    naEAm   Napdu   ostrich
-    -- nEA}m   naEA}im Ndip    ostriches
-
-    noun     FaCAL                     {- naEAm -}          -- `others` [ "na`A'im Ndip" ]
-                                                            `gloss`  [ "ostrich", "ostriches" ],
-
-    -- ;; naEiym_1
-    -- nEym    naEiym  N0      Naim;Naeem
-
-    noun     FaCIL                     {- naEiym -}         `gloss`  [ "Naim", "Naeem" ],
-
-    -- ;; naEiym_2
-    -- nEym    naEiym  N       comfort;happiness
-
-    noun     FaCIL                     {- naEiym -}         `gloss`  [ "comfort", "happiness" ],
-
-    -- ;; naEiym_3
-    -- nEym    naEiym  N/ap    gentle;peaceful     [[naEiym/ADJ]]
-    -- nEA}m   naEA}im Ndip    stars in Sagitta
-
-    noun     FaCIL                     {- naEiym -}         -- `others` [ "na`A'im Ndip" ]
-                                                            `gloss`  [ "gentle", "peaceful [ [ naEiym / ADJ ] ]", "stars in Sagitta" ],
-
-    -- ;; nuEayomap_1
-    -- nEymp   nuEayomap       N0      Nuaima;Nu'aima
-
-    noun     FuCayL |< aT              {- nuEayomap -}      `gloss`  [ "Nuaima", "Nu'aima" ],
-
-    -- ;; nuEayomiy~_1
-    -- nEymy   nuEayomiy~      N0      Nuaimi;Nu'aimi
-
-    noun     FuCayL |< Iy              {- nuEayomiy~ -}     `gloss`  [ "Nuaimi", "Nu'aimi" ],
-
-    -- ;; nuEuwmap_1
-    -- nEwm    nuEuwm  Nap     smoothness;delicacy
-
-    noun     FuCUL |< aT               {- nuEuwmap -}       `gloss`  [ "smoothness", "delicacy" ],
-
-    -- ;; >anoEam_2
-    -- >nEm    >anoEam Nel     softer/softest
-    -- AnEm    >anoEam Nel     softer/softest
-
-    noun     HaFCaL                    {- OanoEam -}        `gloss`  [ "softer / softest" ],
-
-    -- ;; minoEAm_1
-    -- mnEAm   minoEAm Ndu     benefactor
-
-    noun     MiFCAL                    {- minoEAm -}        `gloss`  [ "benefactor" ],
-
-    -- ;; manAEim_1
-    -- mnAEm   manAEim Ndip    blessings;favors
-
-    noun     MaFACiL                   {- manAEim -}        `gloss`  [ "blessings", "favors" ],
-
-    -- ;; manAEim_2
-    -- mnAEm   manAEim Ndip    amenities;comforts
-
-    noun     MaFACiL                   {- manAEim -}        `gloss`  [ "amenities", "comforts" ],
-
-    -- ;; tanoEiym_1
-    -- tnEym   tanoEiym        N/At    pampering;coddling;effemination
-
-    noun     TaFCIL                    {- tanoEiym -}       `gloss`  [ "pampering", "coddling", "effemination" ],
-
-    -- ;; tanoEiym_2
-    -- tnEym   tanoEiym        N/At    favor;donation;award
-
-    noun     TaFCIL                    {- tanoEiym -}       `gloss`  [ "favor", "donation", "award" ],
-
-    -- ;; nAEim_1
-    -- nAEm    nAEim   N-ap    smooth;soft     [[nAEim/ADJ]]
-
-    noun     FACiL                     {- nAEim -}          `gloss`  [ "smooth", "soft [ [ nAEim / ADJ ] ]" ],
-
-    -- ;; munaE~am_1
-    -- mnEm    munaE~am        Nall    blessed;spoiled by comfort     [[munaE~am/ADJ]]
-
-    noun     MuFaCCaL                  {- munaE~am -}       `gloss`  [ "blessed", "spoiled by comfort [ [ munaE ~ am / ADJ ] ]" ],
-
-    -- ;; munoEim_1
-    -- mnEm    munoEim Nall    donor;benefactor
-
-    noun     MuFCiL                    {- munoEim -}        `gloss`  [ "donor", "benefactor" ],
-
-    -- ;; munoEim_2
-    -- mnEm    munoEim N0      Mun'im
-
-    noun     MuFCiL                    {- munoEim -}        `gloss`  [ "Mun'im" ],
-
-    -- ;; munoEim_3
-    -- mnEm    munoEim N0      Menem
-
-    noun     MuFCiL                    {- munoEim -}        `gloss`  [ "Menem" ] ]
-
- |> "n ` m '" <| [
-
-    -- ;; naEomA'_1
-    -- nEmA'   naEomA' N0_Nh   favor;kindness;grace
-    -- nEmA&   naEomA& Nh      favor;kindness;grace
-    -- nEmA}   naEomA} Nhy     favor;kindness;grace
-
-    noun     KaRDAS                    {- naEomA' -}        `gloss`  [ "favor", "kindness", "grace" ] ]
-
- |> "n ` m n" <| [
+    FiCL |< aT                `noun`       {- niEomap -}        [ "blessing", "blessings" ]
+                              `plural`     FiCaL
+                              {- `others` [ "ni`am N" ] -},
 
     -- ;; nuEomAn_1
     -- nEmAn   nuEomAn Nprop   Nu'man
 
-    noun     KuRDAS                    {- nuEomAn -}        `gloss`  [ "Nu'man" ],
+    FuCLAn                    `noun`       {- nuEomAn -}        [ "Nu'man" ],
 
     -- ;; nuEomAn_2
     -- nEmAn   nuEomAn N       blood
 
-    noun     KuRDAS                    {- nuEomAn -}        `gloss`  [ "blood" ] ]
+    FuCLAn                    `noun`       {- nuEomAn -}        [ "blood" ],
+
+    -- ;; naEiym_1
+    -- nEym    naEiym  N0      Naim;Naeem
+
+    FaCIL                     `noun`       {- naEiym -}         [ "Naim", "Naeem" ],
+
+    -- ;; nuEayomap_1
+    -- nEymp   nuEayomap       N0      Nuaima;Nu'aima
+
+    FuCayL |< aT              `noun`       {- nuEayomap -}      [ "Nuaima", "Nu'aima" ],
+
+    -- ;; nuEayomiy~_1
+    -- nEymy   nuEayomiy~      N0      Nuaimi;Nu'aimi
+
+    FuCayL |< Iy              `noun`       {- nuEayomiy~ -}     [ "Nuaimi", "Nu'aimi" ],
+
+    -- ;; munoEim_2
+    -- mnEm    munoEim N0      Mun'im
+
+    MuFCiL                    `noun`       {- munoEim -}        [ "Mun'im" ] ]
 
  |> "n ` n `" <| [
 
     -- ;; naEonaE_1
     -- nEnE    naEonaE N       mint;peppermint
 
-    noun     KaRDaS                    {- naEonaE -}        `gloss`  [ "mint", "peppermint" ],
-
-    -- ;; naEonAE_1
-    -- nEnAE   naEonAE N       mint;peppermint
-
-    noun     KaRDAS                    {- naEonAE -}        `gloss`  [ "mint", "peppermint" ],
-
-    -- ;; naEonAEiy~_1
-    -- nEnAEy  naEonAEiy~      N-ap    peppermint     [[naEonAEiy~/ADJ]]
-
-    noun     KaRDAS |< Iy              {- naEonAEiy~ -}     `gloss`  [ "peppermint [ [ naEonAEiy ~ / ADJ ] ]" ] ]
-
- |> "n ` q" <| [
-
-    -- ;; naEaq-ia_1
-    -- nEq     naEaq   PV      screech;bleat
-    -- nEq     noEiq   IV      screech;bleat
-    -- nEq     noEaq   IV      screech;bleat
-
-    verb     FaCaL                     {- naEaq-ia -}       `imperf` [ FCiL, FCaL ]
-                                                            -- `others` [ "n`iq IV", "n`aq IV" ]
-                                                            `gloss`  [ "screech", "bleat" ],
-
-    -- ;; naEiyq_1
-    -- nEyq    naEiyq  N       screeching;bleating
-
-    noun     FaCIL                     {- naEiyq -}         `gloss`  [ "screeching", "bleating" ],
-
-    -- ;; nAEiq_1
-    -- nAEq    nAEiq   Nall    screaming;screeching
-
-    noun     FACiL                     {- nAEiq -}          `gloss`  [ "screaming", "screeching" ] ]
+    KaRDaS                    `noun`       {- naEonaE -}        [ "mint", "peppermint" ] ]
 
  |> "n ` r" <| [
-
-    -- ;; naEar-ia_1
-    -- nEr     naEar   PV      grunt;snort;howl
-    -- nEr     noEir   IV      grunt;snort;howl
-    -- nEr     noEar   IV      grunt;snort;howl
-
-    verb     FaCaL                     {- naEar-ia -}       `imperf` [ FCiL, FCaL ]
-                                                            -- `others` [ "n`ir IV", "n`ar IV" ]
-                                                            `gloss`  [ "grunt", "snort", "howl" ],
-
-    -- ;; nuEAr_1
-    -- nEAr    nuEAr   N       grunting;snorting;howling
-
-    noun     FuCAL                     {- nuEAr -}          `gloss`  [ "grunting", "snorting", "howling" ],
-
-    -- ;; naEorap_1
-    -- nEr     naEor   Nap     grunt;snort;howl
-
-    noun     FaCL |< aT                {- naEorap -}        `gloss`  [ "grunt", "snort", "howl" ],
-
-    -- ;; nuEorap_1
-    -- nEr     nuEor   Nap     nose
-
-    noun     FuCL |< aT                {- nuEorap -}        `gloss`  [ "nose" ],
-
-    -- ;; nuEarap_1
-    -- nEr     nuEar   NapAt   horsefly;gadfly
-    -- nEr     nuEar   N       horseflies;gadflies
-
-    noun     FuCaL |< aT               {- nuEarap -}        -- `others` [ "nu`ar N" ]
-                                                            `gloss`  [ "horsefly", "gadfly", "horseflies", "gadflies" ],
 
     -- ;; naEarap_1
     -- nEr     naEar   NapAt   arrogance;pride;chauvinism
 
-    noun     FaCaL |< aT               {- naEarap -}        `gloss`  [ "arrogance", "pride", "chauvinism" ],
-
-    -- ;; naE~Ar_1
-    -- nEAr    naE~Ar  Nall    vociferous;agitator     [[naE~Ar/ADJ]]
-
-    noun     FaCCAL                    {- naE~Ar -}         `gloss`  [ "vociferous", "agitator [ [ naE ~ Ar / ADJ ] ]" ],
-
-    -- ;; naEiyr_1
-    -- nEyr    naEiyr  N       noise;clamor;bellowing
-
-    noun     FaCIL                     {- naEiyr -}         `gloss`  [ "noise", "clamor", "bellowing" ],
-
-    -- ;; naEArap_1
-    -- nEAr    naEAr   Napdu   earthen jug;pot
-
-    noun     FaCAL |< aT               {- naEArap -}        `gloss`  [ "earthen jug", "pot" ],
-
-    -- ;; naE~Arap_1
-    -- nEAr    naE~Ar  Napdu   earthen jug;pot
-
-    noun     FaCCAL |< aT              {- naE~Arap -}       `gloss`  [ "earthen jug", "pot" ],
-
-    -- ;; nAEuwr_1
-    -- nAEwr   nAEuwr  N       hemophilia
-
-    noun     FACUL                     {- nAEuwr -}         `gloss`  [ "hemophilia" ],
-
-    -- ;; nAEuwrap_1
-    -- nAEwr   nAEuwr  Napdu   noria (water wheel with buckets)
-    -- nwAEyr  nawAEiyr        Ndip    norias (water wheels with buckets)
-
-    noun     FACUL |< aT               {- nAEuwrap -}       -- `others` [ "nawA`iyr Ndip" ]
-                                                            `gloss`  [ "noria ( water wheel with buckets )", "norias ( water wheels with buckets )" ] ]
-
- |> "n ` s" <| [
-
-    -- ;; naEas-ua_1
-    -- nEs     naEas   PV_intr be sleepy;doze off;be dull
-    -- nEs     noEus   IV_intr be sleepy;doze off;be dull
-    -- nEs     noEas   IV_intr be sleepy;doze off;be dull
-
-    verb     FaCaL                     {- naEas-ua -}       `imperf` [ FCuL, FCaL ]
-                                                            -- `others` [ "n`as IV_intr", "n`us IV_intr" ]
-                                                            `gloss`  [ "be sleepy", "doze off", "be dull" ],
-
-    -- ;; naE~as_1
-    -- nEs     naE~as  PV      make sleepy;put to sleep
-    -- nEs     naE~is  IV_yu   make sleepy;put to sleep
-
-    verb     FaCCaL                    {- naE~as -}         -- `others` [ "na``is IV_yu" ]
-                                                            `gloss`  [ "make sleepy", "put to sleep" ],
-
-    -- ;; >anoEas_1
-    -- >nEs    >anoEas PV      make sleepy;put to sleep
-    -- AnEs    >anoEas PV      make sleepy;put to sleep
-    -- nEs     noEis   IV_yu   make sleepy;put to sleep
-    -- nEs     noEas   IV_Pass_yu      be made sleepy;be put to sleep
-
-    verb     HaFCaL                    {- OanoEas -}        -- `others` [ "n`is IV_yu", "n`as IV_Pass_yu" ]
-                                                            `gloss`  [ "make sleepy", "put to sleep", "be made sleepy", "be put to sleep" ],
-
-    -- ;; tanAEas_1
-    -- tnAEs   tanAEas PV      feign drowsiness;feel drowsy;doze off
-    -- tnAEs   tanAEas IV      feign drowsiness;feel drowsy;doze off
-
-    verb     TaFACaL                   {- tanAEas -}        `gloss`  [ "feign drowsiness", "feel drowsy", "doze off" ],
-
-    -- ;; naEosap_1
-    -- nEs     naEos   Nap     doze;nap
-
-    noun     FaCL |< aT                {- naEosap -}        `gloss`  [ "doze", "nap" ],
-
-    -- ;; nuEAs_1
-    -- nEAs    nuEAs   N       sleepiness;lethargy
-
-    noun     FuCAL                     {- nuEAs -}          `gloss`  [ "sleepiness", "lethargy" ],
-
-    -- ;; naEosAn_1
-    -- nEsAn   naEosAn Ndip    sleepy;drowsy     [[naEosAn/ADJ]]
-
-    noun     FaCLAn                    {- naEosAn -}        `gloss`  [ "sleepy", "drowsy [ [ naEosAn / ADJ ] ]" ],
-
-    -- ;; nAEis_1
-    -- nAEs    nAEis   N/ap    sleepy;drowsy;asleep     [[nAEis/ADJ]]
-    -- nEs     nuEos   N       sleepy;drowsy;asleep
-
-    noun     FACiL                     {- nAEis -}          -- `others` [ "nu`s N" ]
-                                                            `gloss`  [ "sleepy", "drowsy", "asleep [ [ nAEis / ADJ ] ]", "asleep" ] ]
-
- |> "n ` t" <| [
-
-    -- ;; naEat-a_1
-    -- nEt     naEat   PV-t    describe;characterize
-    -- nEt     noEat   IV      describe;characterize
-
-    verb     FaCaL                     {- naEat-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "n`at IV" ]
-                                                            `gloss`  [ "describe", "characterize" ],
-
-    -- ;; naEot_1
-    -- nEt     naEot   N       description;characterization
-
-    noun     FaCL                      {- naEot -}          `gloss`  [ "description", "characterization" ],
-
-    -- ;; naEot_2
-    -- nEt     naEot   Ndu     characteristic;feature
-    -- nEwt    nuEuwt  N       characteristics;features
-
-    noun     FaCL                      {- naEot -}          -- `others` [ "nu`uwt N" ]
-                                                            `gloss`  [ "characteristic", "feature", "characteristics", "features" ],
-
-    -- ;; naEotiy~_1
-    -- nEty    naEotiy~        N-ap    descriptive     [[naEotiy~/ADJ]]
-
-    noun     FaCL |< Iy                {- naEotiy~ -}       `gloss`  [ "descriptive [ [ naEotiy ~ / ADJ ] ]" ],
-
-    -- ;; manoEuwt_1
-    -- mnEwt   manoEuwt        N-ap    described     [[manoEuwt/ADJ]]
-
-    noun     MaFCUL                    {- manoEuwt -}       `gloss`  [ "described [ [ manoEuwt / ADJ ] ]" ] ]
+    FaCaL |< aT               `noun`       {- naEarap -}        [ "arrogance", "pride", "chauvinism" ] ]
 
  |> "n ` y" <| [
-
-    -- ;; naEaY-a_1
-    -- nEY     naEaY   PV_0    announce the death of
-    -- nEA     naEA    PV_h    announce the death of
-    -- nEy     naEay   PV_Atn  announce the death of
-    -- nE      naEa    PV_ttAw announce the death of
-    -- nEY     noEaY   IV_0    announce the death of
-    -- nEA     noEA    IV_h    announce the death of
-    -- nEy     noEay   IV_Ann  announce the death of
-    -- nE      noEa    IV_0hwnyn       announce the death of
-
-    verb     FaCY                      {- naEaY-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "na`a PV_ttAw", "n`a IV_0hwnyn", "n`A IV_h", "na`A PV_h", "n`Y IV_0", "n`ay IV_Ann", "na`ay PV_Atn" ]
-                                                            `gloss`  [ "announce the death of" ],
 
     -- ;; naEaY-i_1
     -- nEY     naEaY   PV_0    mourn;lament
@@ -6875,73 +1776,16 @@ lexicon = listing "Lexicon properties"
     -- nE      noE     IV_0hwnyn       mourn;lament
     -- nEY     noEaY   IV_0_Pass_yu    be mourned;be lamented
 
-    verb     FaCY                      {- naEaY-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "na` PV_ttAw", "na`A PV_h", "n` IV_0hwnyn", "n`iy IV_0hAnn", "n`Y IV_0_Pass_yu", "na`ay PV_Atn" ]
-                                                            `gloss`  [ "mourn", "lament", "be mourned", "be lamented" ],
+    FaCY                      `verb`       {- naEaY-i -}        [ "mourn", "lament", "be mourned", "be lamented" ]
+                              `imperf` [ FCiL ]
+                              {- `others` [ "na`A PV_h", "n`iy IV_0hAnn", "n`Y IV_0_Pass_yu", "na`ay PV_Atn" ] -},
 
     -- ;; naEoy_1
     -- nEy     naEoy   N       obituary notice
 
-    noun     FaCL                      {- naEoy -}          `gloss`  [ "obituary notice" ],
-
-    -- ;; naEiy~_1
-    -- nEy     naEiy~  N       blame;reproach
-
-    noun     FaCIL                     {- naEiy~ -}         `gloss`  [ "blame", "reproach" ],
-
-    -- ;; naEoyap_1
-    -- nEy     naEoy   Napdu   obituary notice
-    -- nEy     naEay   NAt     obituary notices
-
-    noun     FaCL |< aT                {- naEoyap -}        -- `others` [ "na`ay NAt" ]
-                                                            `gloss`  [ "obituary notice", "obituary notices" ],
-
-    -- ;; manoEaY_1
-    -- mnEY    manoEaY N0      obituary
-    -- mnEA    manoEA  Nhy     obituary
-    -- mnEA    manoEA  Napdu   obituary
-    -- mnAEy   manAEiy N0_Nh   obituaries
-    -- mnAE    manAE   NK      obituaries
-
-    noun     MaFCY                     {- manoEaY -}        -- `others` [ "manA` NK", "man`A Napdu Nhy", "manA`iy N0_Nh" ]
-                                                            `gloss`  [ "obituary", "obituaries" ] ]
+    FaCL                      `noun`       {- naEoy -}          [ "obituary notice" ] ]
 
  |> "n b '" <| [
-
-    -- ;; naba>-a_1
-    -- nb>     naba>   PV->_intr       be elevated;overcome;withdraw
-    -- nb|     naba|   PV-|_intr       be elevated;overcome;withdraw
-    -- nb&     naba&   PV_w_intr       be elevated;overcome;withdraw
-    -- nb>     noba>   IV_intr be elevated;overcome;withdraw
-    -- nb|     noba|   IV-|    be elevated;overcome;withdraw
-    -- nb&     noba&   IV_wn   be elevated;overcome;withdraw
-    -- nb}     noba}   IV_yn   be elevated;overcome;withdraw
-
-    verb     FaCaL                     {- nabaO-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nba'A IV-|", "naba'A PV-|_intr", "nba' IV_wn IV_intr IV_yn" ]
-                                                            `gloss`  [ "be elevated", "overcome", "withdraw" ],
-
-    -- ;; nab~a>_1
-    -- nb>     nab~a>  PV->    inform;indicate
-    -- nb|     nab~a|  PV-|    inform;indicate
-    -- nb&     nab~a&  PV_w    inform;indicate
-    -- nb}     nab~i}  IV_yu   inform;indicate
-
-    verb     FaCCaL                    {- nab~aO -}         -- `others` [ "nabba'A PV-|", "nabbi' IV_yu" ]
-                                                            `gloss`  [ "inform", "indicate" ],
-
-    -- ;; >anoba>_1
-    -- >nb>    >anoba> PV->    inform;announce
-    -- Anb>    >anoba> PV->    inform;announce
-    -- >nb|    >anoba| PV-|    inform;announce
-    -- Anb|    >anoba| PV-|    inform;announce
-    -- >nb&    >anoba& PV_w    inform;announce
-    -- Anb&    >anoba& PV_w    inform;announce
-    -- nb}     nobi}   IV_yu   inform;announce
-    -- nb>     noba>   IV_Pass_yu      be announced
-
-    verb     HaFCaL                    {- OanobaO -}        -- `others` [ "'anba'A PV-|", "nbi' IV_yu", "nba' IV_Pass_yu" ]
-                                                            `gloss`  [ "inform", "announce", "be announced" ],
 
     -- ;; tanab~a>_1
     -- tnb>    tanab~a>        PV->    predict;forecast
@@ -6952,20 +1796,7 @@ lexicon = listing "Lexicon properties"
     -- tnb&    tanab~a&        IV_wn   predict;forecast
     -- tnb}    tanab~a}        IV_yn   predict;forecast
 
-    verb     TaFaCCaL                  {- tanab~aO -}       -- `others` [ "tanabba'A IV-| PV-|" ]
-                                                            `gloss`  [ "predict", "forecast" ],
-
-    -- ;; {isotanoba>_1
-    -- <stnb>  {isotanoba>     PV->    ask for information;inquire
-    -- Astnb>  {isotanoba>     PV->    ask for information;inquire
-    -- <stnb|  {isotanoba|     PV-|    ask for information;inquire
-    -- Astnb|  {isotanoba|     PV-|    ask for information;inquire
-    -- <stnb&  {isotanoba&     PV_w    ask for information;inquire
-    -- Astnb&  {isotanoba&     PV_w    ask for information;inquire
-    -- stnb}   sotanobi}       IV      ask for information;inquire
-
-    verb     IstaFCaL                  {- {isotanobaO -}    -- `others` [ "stanbi' IV", "istanba'A PV-|" ]
-                                                            `gloss`  [ "ask for information", "inquire" ],
+    TaFaCCaL                  `verb`       {- tanab~aO -}       [ "predict", "forecast" ],
 
     -- ;; naba>_1
     -- nb>     naba>   N0_Nh   news item;report
@@ -6979,51 +1810,20 @@ lexicon = listing "Lexicon properties"
     -- >nbA}   >anobA} Nhy     news items;reports
     -- AnbA}   >anobA} Nhy     news items;reports
 
-    noun     FaCaL                     {- nabaO -}          -- `others` [ "'anbA' Nh Nhy N0_Nh", "naba'A N-|" ]
-                                                            `gloss`  [ "news item", "report", "news items", "reports" ],
-
-    -- ;; nabo>ap_1
-    -- nb>     nabo>   Nap     faint noise;low sound
-
-    noun     FaCL |< aT                {- naboOap -}        `gloss`  [ "faint noise", "low sound" ],
+    FaCaL                     `noun`       {- nabaO -}          [ "news item", "report", "news items", "reports" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'anbA' Nh N0_Nh Nhy" ] -},
 
     -- ;; nubuw'ap_1
     -- nbw'    nubuw'  NapAt   prophecy;prognosis
 
-    noun     FuCUL |< aT               {- nubuw'ap -}       `gloss`  [ "prophecy", "prognosis" ],
-
-    -- ;; <inobA'_1
-    -- <nbA'   <inobA' N0_Nh   notification;communication
-    -- AnbA'   <inobA' N0_Nh   notification;communication
-    -- <nbA&   <inobA& Nh      notification;communication
-    -- AnbA&   <inobA& Nh      notification;communication
-    -- <nbA}   <inobA} Nhy     notification;communication
-    -- AnbA}   <inobA} Nhy     notification;communication
-    -- <nbA'   <inobA' NAn_Nayn        notifications;communications
-    -- AnbA'   <inobA' NAn_Nayn        notifications;communications
-    -- <nbA}   <inobA} Nayn    notifications;communications
-    -- AnbA}   <inobA} Nayn    notifications;communications
-    -- <nbA'   <inobA' NAt     notifications;communications
-    -- AnbA'   <inobA' NAt     notifications;communications
-
-    noun     HiFCAL                    {- IinobA' -}        `gloss`  [ "notification", "communication", "notifications", "communications" ],
+    FuCUL |< aT               `noun`       {- nubuw'ap -}       [ "prophecy", "prognosis" ],
 
     -- ;; tanab~u&_1
     -- tnb&    tanab~u&        N/At    prediction;forecast;prognosis
     -- tnb}    tanab~u}        Nhy     prediction;forecast;prognosis
 
-    noun     TaFaCCuL                  {- tanab~uW -}       `gloss`  [ "prediction", "forecast", "prognosis" ],
-
-    -- ;; tanab~u}iy~_1
-    -- tnb}y   tanab~u}iy~     N-ap    predictive;prognostic     [[tanab~u}iy~/ADJ]]
-    -- tnb&y   tanab~u&iy~     N-ap    predictive;prognostic     [[tanab~u&iy~/ADJ]]
-
-    noun     TaFaCCuL |< Iy            {- tanab~u}iy~ -}    `gloss`  [ "predictive", "prognostic [ [ tanab ~ u } iy ~ / ADJ ] ]", "prognostic [ [ tanab ~ u&iy ~ / ADJ ] ]" ],
-
-    -- ;; mutanab~i}_1
-    -- mtnb}   mutanab~i}      Nall    predicting     [[mutanab~i}/ADJ]]
-
-    noun     MutaFaCCiL                {- mutanab~i} -}     `gloss`  [ "predicting [ [ mutanab ~ i } / ADJ ] ]" ] ]
+    TaFaCCuL                  `noun`       {- tanab~uW -}       [ "prediction", "forecast", "prognosis" ] ]
 
  |> "n b .d" <| [
 
@@ -7031,17 +1831,9 @@ lexicon = listing "Lexicon properties"
     -- nbD     nabaD   PV_intr pulsate;throb;beat
     -- nbD     nobiD   IV_intr pulsate;throb;beat
 
-    verb     FaCaL                     {- nabaD-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nbi.d IV_intr" ]
-                                                            `gloss`  [ "pulsate", "throb", "beat" ],
-
-    -- ;; nabaD-u_1
-    -- nbD     nabaD   PV_intr flow;drain
-    -- nbD     nobuD   IV_intr flow;drain
-
-    verb     FaCaL                     {- nabaD-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nbu.d IV_intr" ]
-                                                            `gloss`  [ "flow", "drain" ],
+    FaCaL                     `verb`       {- nabaD-i -}        [ "pulsate", "throb", "beat" ]
+                              `imperf` [ FCiL ]
+                              {- `others` [ "nbi.d IV_intr" ] -},
 
     -- ;; naboD_1
     -- nbD     naboD   N       beating;palpitation;throbbing
@@ -7049,266 +1841,25 @@ lexicon = listing "Lexicon properties"
     -- >nbAD   >anobAD N       palpitations;pulsations
     -- AnbAD   >anobAD N       palpitations;pulsations
 
-    noun     FaCL                      {- naboD -}          -- `others` [ "naba.d N", "'anbA.d N" ]
-                                                            `gloss`  [ "beating", "palpitation", "throbbing", "palpitations", "pulsations" ],
-
-    -- ;; nabaDAn_1
-    -- nbDAn   nabaDAn N       beating;palpitation;throbbing
-
-    noun     FaCaLAn                   {- nabaDAn -}        `gloss`  [ "beating", "palpitation", "throbbing" ],
+    FaCL                      `noun`       {- naboD -}          [ "beating", "palpitation", "throbbing", "palpitations", "pulsations" ]
+                              `plural`     FaCaL
+                              `plural`     HaFCAL
+                              {- `others` [ "naba.d N", "'anbA.d N" ] -},
 
     -- ;; naboDap_1
     -- nbD     naboD   Napdu   pulse;beat;pulsation
     -- nbD     nabaD   NAt     pulses;beats;pulsations
 
-    noun     FaCL |< aT                {- naboDap -}        -- `others` [ "naba.d NAt" ]
-                                                            `gloss`  [ "pulse", "beat", "pulsation", "pulses", "beats", "pulsations" ],
-
-    -- ;; nAbiD_1
-    -- nAbD    nAbiD   N-ap    pulsating;beating;vibrant
-
-    noun     FACiL                     {- nAbiD -}          `gloss`  [ "pulsating", "beating", "vibrant" ],
-
-    -- ;; nAbiD_2
-    -- nAbD    nAbiD   Ndu     coil spring
-
-    noun     FACiL                     {- nAbiD -}          `gloss`  [ "coil spring" ],
-
-    -- ;; manobiD_1
-    -- mnbD    manobiD Ndu     pulse;spot for taking the pulse
-    -- mnAbD   manAbiD Ndip    pulses;spots for taking the pulse
-
-    noun     MaFCiL                    {- manobiD -}        -- `others` [ "manAbi.d Ndip" ]
-                                                            `gloss`  [ "pulse", "spot for taking the pulse", "pulses", "spots for taking the pulse" ],
-
-    -- ;; minobaDap_1
-    -- mnbD    minobaD Napdu   sphygmograph
-
-    noun     MiFCaL |< aT              {- minobaDap -}      `gloss`  [ "sphygmograph" ] ]
-
- |> "n b .g" <| [
-
-    -- ;; nabag-uia_1
-    -- nbg     nabag   PV      appear;emerge;excel
-    -- nbg     nobug   IV      appear;emerge;excel
-    -- nbg     nobig   IV      appear;emerge;excel
-    -- nbg     nobag   IV      appear;emerge;excel
-
-    verb     FaCaL                     {- nabag-uia -}      `imperf` [ FCuL, FCiL, FCaL ]
-                                                            -- `others` [ "nba.g IV", "nbi.g IV", "nbu.g IV" ]
-                                                            `gloss`  [ "appear", "emerge", "excel" ],
-
-    -- ;; nabog_1
-    -- nbg     nabog   N       appearance;emergence;excelling
-
-    noun     FaCL                      {- nabog -}          `gloss`  [ "appearance", "emergence", "excelling" ],
-
-    -- ;; nubuwg_1
-    -- nbwg    nubuwg  N       emergence;eminence;exceptional faculties
-
-    noun     FuCUL                     {- nubuwg -}         `gloss`  [ "emergence", "eminence", "exceptional faculties" ],
-
-    -- ;; >anobag_1
-    -- >nbg    >anobag Nel     pre-eminent;superior     [[>anobag/ADJ]]
-    -- Anbg    >anobag Nel     pre-eminent;superior
-
-    noun     HaFCaL                    {- Oanobag -}        `gloss`  [ "pre-eminent", "superior [ [ >anobag / ADJ ] ]", "superior" ],
-
-    -- ;; nAbig_1
-    -- nAbg    nAbig   Nall    talented;brilliant;outstanding     [[nAbig/ADJ]]
-
-    noun     FACiL                     {- nAbig -}          `gloss`  [ "talented", "brilliant", "outstanding [ [ nAbig / ADJ ] ]" ],
-
-    -- ;; nAbigap_1
-    -- nAbg    nAbig   Nap     genius;master
-    -- nwAbg   nawAbig Ndip    geniuses;masters
-
-    noun     FACiL |< aT               {- nAbigap -}        -- `others` [ "nawAbi.g Ndip" ]
-                                                            `gloss`  [ "genius", "master", "geniuses", "masters" ],
-
-    -- ;; nAbigap_2
-    -- nAbg    nAbig   Nap     Nabigha
-
-    noun     FACiL |< aT               {- nAbigap -}        `gloss`  [ "Nabigha" ] ]
-
- |> "n b .h" <| [
-
-    -- ;; nabaH-a_1
-    -- nbH     nabaH   PV      bark
-    -- nbH     nobaH   IV      bark
-
-    verb     FaCaL                     {- nabaH-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nba.h IV" ]
-                                                            `gloss`  [ "bark" ],
-
-    -- ;; tanAbaH_1
-    -- tnAbH   tanAbaH PV      bark at each other
-    -- tnAbH   tanAbaH IV      bark at each other
-
-    verb     TaFACaL                   {- tanAbaH -}        `gloss`  [ "bark at each other" ],
-
-    -- ;; naboH_1
-    -- nbH     naboH   N       barking
-
-    noun     FaCL                      {- naboH -}          `gloss`  [ "barking" ],
-
-    -- ;; nubAH_1
-    -- nbAH    nubAH   N       barking
-    -- nbAH    nibAH   N       barking
-
-    noun     FuCAL                     {- nubAH -}          -- `others` [ "nibA.h N" ]
-                                                            `gloss`  [ "barking" ],
-
-    -- ;; nabiyH_1
-    -- nbyH    nabiyH  N       barking
-
-    noun     FaCIL                     {- nabiyH -}         `gloss`  [ "barking" ],
-
-    -- ;; nab~AH_1
-    -- nbAH    nab~AH  Nall    barking;yelping     [[nab~AH/ADJ]]
-
-    noun     FaCCAL                    {- nab~AH -}         `gloss`  [ "barking", "yelping [ [ nab ~ AH / ADJ ] ]" ] ]
+    FaCL |< aT                `noun`       {- naboDap -}        [ "pulse", "beat", "pulsation", "pulses", "beats", "pulsations" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "naba.d NAt" ] -} ]
 
  |> "n b .t" <| [
-
-    -- ;; nabaT-ui_1
-    -- nbT     nabaT   PV      gush out
-    -- nbT     nobuT   IV      gush out
-    -- nbT     nobiT   IV      gush out
-
-    verb     FaCaL                     {- nabaT-ui -}       `imperf` [ FCuL, FCiL ]
-                                                            -- `others` [ "nbu.t IV", "nbi.t IV" ]
-                                                            `gloss`  [ "gush out" ],
-
-    -- ;; nab~aT_1
-    -- nbT     nab~aT  PV      find fault;scoff at
-    -- nbT     nab~iT  IV_yu   find fault;scoff at
-
-    verb     FaCCaL                    {- nab~aT -}         -- `others` [ "nabbi.t IV_yu" ]
-                                                            `gloss`  [ "find fault", "scoff at" ],
-
-    -- ;; >anobaT_1
-    -- >nbT    >anobaT PV      cause to gush out;discover
-    -- AnbT    >anobaT PV      cause to gush out;discover
-    -- nbT     nobiT   IV_yu   cause to gush out;discover
-    -- nbT     nobaT   IV_Pass_yu      be made to gush out;be discovered
-
-    verb     HaFCaL                    {- OanobaT -}        -- `others` [ "nba.t IV_Pass_yu", "nbi.t IV_yu" ]
-                                                            `gloss`  [ "cause to gush out", "discover", "be made to gush out", "be discovered" ],
-
-    -- ;; {isotanobaT_1
-    -- <stnbT  {isotanobaT     PV      discover;deduce;invent
-    -- AstnbT  {isotanobaT     PV      discover;deduce;invent
-    -- stnbT   sotanobiT       IV      discover;deduce;invent
-
-    verb     IstaFCaL                  {- {isotanobaT -}    -- `others` [ "stanbi.t IV" ]
-                                                            `gloss`  [ "discover", "deduce", "invent" ],
-
-    -- ;; naboT_1
-    -- nbT     naboT   N       gushing out
-
-    noun     FaCL                      {- naboT -}          `gloss`  [ "gushing out" ],
-
-    -- ;; nubuwT_1
-    -- nbwT    nubuwT  N       gushing out
-
-    noun     FuCUL                     {- nubuwT -}         `gloss`  [ "gushing out" ],
-
-    -- ;; nabaT_1
-    -- nbT     nabaT   N       depth;core
-
-    noun     FaCaL                     {- nabaT -}          `gloss`  [ "depth", "core" ],
 
     -- ;; nabaTiy~_1
     -- nbTy    nabaTiy~        Nall    Nabatean     [[nabaTiy~/ADJ]]
 
-    noun     FaCaL |< Iy               {- nabaTiy~ -}       `gloss`  [ "Nabatean [ [ nabaTiy ~ / ADJ ] ]" ],
-
-    -- ;; nabaTiy~_2
-    -- nbTy    nabaTiy~        Nall    Nabatean     [[nabaTiy~/NOUN]]
-    -- >nbAT   >anobAT N       Nabateans
-    -- AnbAT   >anobAT N       Nabateans
-    -- nbT     nabaT   N       Nabateans
-
-    noun     FaCaL |< Iy               {- nabaTiy~ -}       -- `others` [ "'anbA.t N", "naba.t N" ]
-                                                            `gloss`  [ "Nabatean [ [ nabaTiy ~ / NOUN ] ]", "Nabateans" ],
-
-    -- ;; {isotinobAT_1
-    -- <stnbAT {isotinobAT     NduAt   discovery;deduction;invention
-    -- AstnbAT {isotinobAT     NduAt   discovery;deduction;invention
-
-    noun     IstiFCAL                  {- {isotinobAT -}    `gloss`  [ "discovery", "deduction", "invention" ],
-
-    -- ;; musotanobiT_1
-    -- mstnbT  musotanobiT     Nall    discoverer;inventor
-
-    noun     MustaFCiL                 {- musotanobiT -}    `gloss`  [ "discoverer", "inventor" ],
-
-    -- ;; musotanobaT_1
-    -- mstnbT  musotanobaT     N-ap    discovered;deduced;invented     [[musotanobaT/ADJ]]
-
-    noun     MustaFCaL                 {- musotanobaT -}    `gloss`  [ "discovered", "deduced", "invented [ [ musotanobaT / ADJ ] ]" ],
-
-    -- ;; musotanobaTAt_1
-    -- mstnbT  musotanobaT     NAt     discoveries;inventions
-
-    noun     MustaFCaL |< At           {- musotanobaTAt -}  -- `others` [ "mustanba.t NAt" ]
-                                                            `gloss`  [ "discoveries", "inventions" ] ]
-
- |> "n b ^g" <| [
-
-    -- ;; {inotabaj_1
-    -- <ntbj   {inotabaj       PV      swell up
-    -- Antbj   {inotabaj       PV      swell up
-    -- ntbj    notabij IV      swell up
-
-    verb     IFtaCaL                   {- {inotabaj -}      -- `others` [ "ntabi^g IV" ]
-                                                            `gloss`  [ "swell up" ],
-
-    -- ;; {inotibAj_1
-    -- <ntbAj  {inotibAj       NduAt   swelling
-    -- AntbAj  {inotibAj       NduAt   swelling
-
-    noun     IFtiCAL                   {- {inotibAj -}      `gloss`  [ "swelling" ] ]
-
- |> "n b ^s" <| [
-
-    -- ;; naba$-u_1
-    -- nb$     naba$   PV      excavate;unearth;discover
-    -- nb$     nobu$   IV      excavate;unearth;discover
-
-    verb     FaCaL                     {- naba$-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nbu^s IV" ]
-                                                            `gloss`  [ "excavate", "unearth", "discover" ],
-
-    -- ;; nab~a$_1
-    -- nb$     nab~a$  PV      search;ransack
-    -- nb$     nab~i$  IV_yu   search;ransack
-
-    verb     FaCCaL                    {- nab~a$ -}         -- `others` [ "nabbi^s IV_yu" ]
-                                                            `gloss`  [ "search", "ransack" ],
-
-    -- ;; nabo$_1
-    -- nb$     nabo$   N       excavation;search;disclosure
-
-    noun     FaCL                      {- nabo$ -}          `gloss`  [ "excavation", "search", "disclosure" ],
-
-    -- ;; nab~A$_1
-    -- nbA$    nab~A$  Nall    excavator;grave robber
-
-    noun     FaCCAL                    {- nab~A$ -}         `gloss`  [ "excavator", "grave robber" ],
-
-    -- ;; nabiy$_1
-    -- nby$    nabiy$  N-ap    excavated;dug up
-    -- >nbw$   >unobuw$        Ndu     excavation;excavated object
-    -- Anbw$   >unobuw$        Ndu     excavation;excavated object
-    -- >nbw$   >unobuw$        Napdu   excavation;excavated object
-    -- Anbw$   >unobuw$        Napdu   excavation;excavated object
-    -- >nAby$  >anAbiy$        Ndip    excavations;excavated objects
-    -- AnAby$  >anAbiy$        Ndip    excavations;excavated objects
-
-    noun     FaCIL                     {- nabiy$ -}         -- `others` [ "'unbuw^s Napdu Ndu", "'anAbiy^s Ndip" ]
-                                                            `gloss`  [ "excavated", "dug up", "excavation", "excavated object", "excavations", "excavated objects" ] ]
+    FaCaL |< Iy               `noun`       {- nabaTiy~ -}       [ "Nabatean" ] ]
 
  |> "n b _d" <| [
 
@@ -7316,86 +1867,26 @@ lexicon = listing "Lexicon properties"
     -- nb*     naba*   PV      discard;reject;withdraw
     -- nb*     nobi*   IV      discard;reject;withdraw
 
-    verb     FaCaL                     {- naba*-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nbi_d IV" ]
-                                                            `gloss`  [ "discard", "reject", "withdraw" ],
-
-    -- ;; nab~a*_1
-    -- nb*     nab~a*  PV      make wine;discard;reject;withdraw
-    -- nb*     nab~i*  IV_yu   make wine;discard;reject;withdraw
-
-    verb     FaCCaL                    {- nab~a* -}         -- `others` [ "nabbi_d IV_yu" ]
-                                                            `gloss`  [ "make wine", "discard", "reject", "withdraw" ],
-
-    -- ;; nAba*_1
-    -- nAb*    nAba*   PV      withdraw from;oppose
-    -- nAb*    nAbi*   IV_yu   withdraw from;oppose
-
-    verb     FACaL                     {- nAba* -}          -- `others` [ "nAbi_d IV_yu" ]
-                                                            `gloss`  [ "withdraw from", "oppose" ],
-
-    -- ;; >anoba*_1
-    -- >nb*    >anoba* PV      make wine;press
-    -- Anb*    >anoba* PV      make wine;press
-    -- nb*     nobi*   IV_yu   make wine;press
-    -- nb*     noba*   IV_Pass_yu      be made into wine;be pressed
-
-    verb     HaFCaL                    {- Oanoba* -}        -- `others` [ "nba_d IV_Pass_yu", "nbi_d IV_yu" ]
-                                                            `gloss`  [ "make wine", "press", "be made into wine", "be pressed" ],
-
-    -- ;; tanAba*_1
-    -- tnAb*   tanAba* PV_intr be feuding
-    -- tnAb*   tanAba* IV_intr be feuding
-
-    verb     TaFACaL                   {- tanAba* -}        `gloss`  [ "be feuding" ],
-
-    -- ;; {inotaba*_1
-    -- <ntb*   {inotaba*       PV      withdraw;retreat
-    -- Antb*   {inotaba*       PV      withdraw;retreat
-    -- ntb*    notabi* IV      withdraw;retreat
-
-    verb     IFtaCaL                   {- {inotaba* -}      -- `others` [ "ntabi_d IV" ]
-                                                            `gloss`  [ "withdraw", "retreat" ],
-
-    -- ;; nabo*_1
-    -- nb*     nabo*   N       discarding;rejection;renunciation
-
-    noun     FaCL                      {- nabo* -}          `gloss`  [ "discarding", "rejection", "renunciation" ],
+    FaCaL                     `verb`       {- naba*-i -}        [ "discard", "reject", "withdraw" ]
+                              `imperf` [ FCiL ]
+                              {- `others` [ "nbi_d IV" ] -},
 
     -- ;; nubo*ap_1
     -- nb*     nubo*   Napdu   overview;summary;fragment;section;leaflet;brochure
     -- nb*     nuba*   N       overviews;summaries;fragments;sections;leaflets;brochures
 
-    noun     FuCL |< aT                {- nubo*ap -}        -- `others` [ "nuba_d N" ]
-                                                            `gloss`  [ "overview", "summary", "fragment", "section", "leaflet", "brochure", "overviews", "summaries", "fragments", "sections", "leaflets", "brochures" ],
+    FuCL |< aT                `noun`       {- nubo*ap -}        [ "overview", "summary", "fragment", "section", "leaflet", "brochure", "overviews", "summaries", "fragments", "sections", "leaflets", "brochures" ]
+                              `plural`     FuCaL
+                              {- `others` [ "nuba_d N" ] -},
 
     -- ;; nabiy*_1
     -- nby*    nabiy*  N       wine
     -- >nb*    >anobi* Nap     wines
     -- Anb*    >anobi* Nap     wines
 
-    noun     FaCIL                     {- nabiy* -}         -- `others` [ "'anbi_d Nap" ]
-                                                            `gloss`  [ "wine", "wines" ],
-
-    -- ;; nabiy*_2
-    -- nby*    nabiy*  N-ap    discarded;rejected
-
-    noun     FaCIL                     {- nabiy* -}         `gloss`  [ "discarded", "rejected" ],
-
-    -- ;; nAbi*_1
-    -- nAb*    nAbi*   N-ap    centrifugal
-
-    noun     FACiL                     {- nAbi* -}          `gloss`  [ "centrifugal" ],
-
-    -- ;; manobuw*_1
-    -- mnbw*   manobuw*        Nall    ostracized;banished     [[manobuw*/ADJ]]
-
-    noun     MaFCUL                    {- manobuw* -}       `gloss`  [ "ostracized", "banished [ [ manobuw* / ADJ ] ]" ],
-
-    -- ;; manobuw*_2
-    -- mnbw*   manobuw*        Nall    pariah;untouchable
-
-    noun     MaFCUL                    {- manobuw* -}       `gloss`  [ "pariah", "untouchable" ] ]
+    FaCIL                     `noun`       {- nabiy* -}         [ "wine", "wines" ]
+                              `plural`     HaFCiL |< aT
+                              {- `others` [ "'anbi_d Nap" ] -} ]
 
  |> "n b `" <| [
 
@@ -7405,256 +1896,62 @@ lexicon = listing "Lexicon properties"
     -- nbE     nobiE   IV      emerge;originate;emanate
     -- nbE     nobaE   IV      emerge;originate;emanate
 
-    verb     FaCaL                     {- nabaE-uia -}      `imperf` [ FCuL, FCiL, FCaL ]
-                                                            -- `others` [ "nba` IV", "nbi` IV", "nbu` IV" ]
-                                                            `gloss`  [ "emerge", "originate", "emanate" ],
-
-    -- ;; >anobaE_1
-    -- >nbE    >anobaE PV      cause to gush forth
-    -- AnbE    >anobaE PV      cause to gush forth
-    -- nbE     nobiE   IV_yu   cause to gush forth
-    -- nbE     nobaE   IV_Pass_yu      be made to gush forth
-
-    verb     HaFCaL                    {- OanobaE -}        -- `others` [ "nba` IV_Pass_yu", "nbi` IV_yu" ]
-                                                            `gloss`  [ "cause to gush forth", "be made to gush forth" ],
-
-    -- ;; naboE_1
-    -- nbE     naboE   N       emergence
-
-    noun     FaCL                      {- naboE -}          `gloss`  [ "emergence" ],
-
-    -- ;; nubuwE_1
-    -- nbwE    nubuwE  N       emergence
-
-    noun     FuCUL                     {- nubuwE -}         `gloss`  [ "emergence" ],
-
-    -- ;; nabaEAn_1
-    -- nbEAn   nabaEAn N       emergence
-
-    noun     FaCaLAn                   {- nabaEAn -}        `gloss`  [ "emergence" ],
-
-    -- ;; naboE_2
-    -- nbE     naboE   N       source;spring
-
-    noun     FaCL                      {- naboE -}          `gloss`  [ "source", "spring" ],
+    FaCaL                     `verb`       {- nabaE-uia -}      [ "emerge", "originate", "emanate" ]
+                              `imperf` [ FCuL, FCiL, FCaL ]
+                              {- `others` [ "nba` IV", "nbi` IV", "nbu` IV" ] -},
 
     -- ;; manobaE_1
     -- mnbE    manobaE Ndu     source;spring
     -- mnAbE   manAbiE Ndip    sources;springs
 
-    noun     MaFCaL                    {- manobaE -}        -- `others` [ "manAbi` Ndip" ]
-                                                            `gloss`  [ "source", "spring", "sources", "springs" ],
+    MaFCaL                    `noun`       {- manobaE -}        [ "source", "spring", "sources", "springs" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "manAbi` Ndip" ] -},
 
     -- ;; nAbiE_1
     -- nAbE    nAbiE   Nall    emerging;originating;emanating     [[nAbiE/ADJ]]
 
-    noun     FACiL                     {- nAbiE -}          `gloss`  [ "emerging", "originating", "emanating [ [ nAbiE / ADJ ] ]" ] ]
+    FACiL                     `noun`       {- nAbiE -}          [ "emerging", "originating", "emanating" ] ]
 
  |> "n b h" <| [
-
-    -- ;; nabah-u_1
-    -- nbh     nabah   PV_intr be well known
-    -- nbh     nobuh   IV_intr be well known
-
-    verb     FaCaL                     {- nabah-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nbuh IV_intr" ]
-                                                            `gloss`  [ "be well known" ],
 
     -- ;; nabih-a_1
     -- nbh     nabih   PV_intr be well known;take notice;awaken
     -- nbh     nobah   IV_intr be well known;take notice;awaken
 
-    verb     FaCiL                     {- nabih-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nbah IV_intr" ]
-                                                            `gloss`  [ "be well known", "take notice", "awaken" ],
-
-    -- ;; nabuh-u_1
-    -- nbh     nabuh   PV_intr be well known
-    -- nbh     nobuh   IV_intr be well known
-
-    verb     FaCuL                     {- nabuh-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nbuh IV_intr" ]
-                                                            `gloss`  [ "be well known" ],
+    FaCiL                     `verb`       {- nabih-a -}        [ "be well known", "take notice", "awaken" ]
+                              `imperf` [ FCaL ]
+                              {- `others` [ "nbah IV_intr" ] -},
 
     -- ;; nab~ah_1
     -- nbh     nab~ah  PV      warn;caution;point out
     -- nbh     nab~ih  IV_yu   warn;caution;point out
 
-    verb     FaCCaL                    {- nab~ah -}         -- `others` [ "nabbih IV_yu" ]
-                                                            `gloss`  [ "warn", "caution", "point out" ],
-
-    -- ;; >anobah_1
-    -- >nbh    >anobah PV      awaken;rouse
-    -- Anbh    >anobah PV      awaken;rouse
-    -- nbh     nobih   IV_yu   awaken;rouse
-    -- nbh     nobah   IV_Pass_yu      be awakened;be roused
-
-    verb     HaFCaL                    {- Oanobah -}        -- `others` [ "nbah IV_Pass_yu", "nbih IV_yu" ]
-                                                            `gloss`  [ "awaken", "rouse", "be awakened", "be roused" ],
+    FaCCaL                    `verb`       {- nab~ah -}         [ "warn", "caution", "point out" ]
+                              {- `others` [ "nabbih IV_yu" ] -},
 
     -- ;; tanab~ah_1
     -- tnbh    tanab~ah        PV_intr become aware;be alert
     -- tnbh    tanab~ah        IV_intr become aware;be alert
 
-    verb     TaFaCCaL                  {- tanab~ah -}       `gloss`  [ "become aware", "be alert" ],
-
-    -- ;; {inotabah_1
-    -- <ntbh   {inotabah       PV_intr be cautious;be alert;be aware
-    -- Antbh   {inotabah       PV_intr be cautious;be alert;be aware
-    -- ntbh    notabih IV_intr be cautious;be alert;be aware
-
-    verb     IFtaCaL                   {- {inotabah -}      -- `others` [ "ntabih IV_intr" ]
-                                                            `gloss`  [ "be cautious", "be alert", "be aware" ],
-
-    -- ;; nabah_1
-    -- nbh     nabah   N       heeding;noticing
-
-    noun     FaCaL                     {- nabah -}          `gloss`  [ "heeding", "noticing" ],
-
-    -- ;; nuboh_1
-    -- nbh     nuboh   N       alertness;discernment
-
-    noun     FuCL                      {- nuboh -}          `gloss`  [ "alertness", "discernment" ],
-
-    -- ;; nabih_1
-    -- nbh     nabih   N-ap    eminent;noble     [[nabih/ADJ]]
-
-    noun     FaCiL                     {- nabih -}          `gloss`  [ "eminent", "noble [ [ nabih / ADJ ] ]" ],
-
-    -- ;; nabiyh_1
-    -- nbyh    nabiyh  N/ap    eminent;noble     [[nabiyh/ADJ]]
-    -- nbhA'   nubahA' N0_Nh   eminent;noble
-    -- nbhA&   nubahA& Nh      eminent;noble
-    -- nbhA}   nubahA} Nhy     eminent;noble
-
-    noun     FaCIL                     {- nabiyh -}         -- `others` [ "nubahA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "eminent", "noble [ [ nabiyh / ADJ ] ]", "noble" ],
+    TaFaCCaL                  `verb`       {- tanab~ah -}       [ "become aware", "be alert" ],
 
     -- ;; nabiyh_2
     -- nbyh    nabiyh  Nprop   Nabih;Nabeeh
 
-    noun     FaCIL                     {- nabiyh -}         `gloss`  [ "Nabih", "Nabeeh" ],
-
-    -- ;; nabAhap_1
-    -- nbAh    nabAh   Nap     alertness;vigilance
-
-    noun     FaCAL |< aT               {- nabAhap -}        `gloss`  [ "alertness", "vigilance" ],
-
-    -- ;; nabAhap_2
-    -- nbAh    nabAh   Nap     eminence;nobility
-
-    noun     FaCAL |< aT               {- nabAhap -}        `gloss`  [ "eminence", "nobility" ],
-
-    -- ;; manobahap_1
-    -- mnbh    manobah Nap     drawing attention;incitement;incentive
-
-    noun     MaFCaL |< aT              {- manobahap -}      `gloss`  [ "drawing attention", "incitement", "incentive" ],
-
-    -- ;; tanobiyh_1
-    -- tnbyh   tanobiyh        N/At    warning;alerting;alarm
-
-    noun     TaFCIL                    {- tanobiyh -}       `gloss`  [ "warning", "alerting", "alarm" ],
-
-    -- ;; tanab~uh_1
-    -- tnbh    tanab~uh        N/At    alertness
-
-    noun     TaFaCCuL                  {- tanab~uh -}       `gloss`  [ "alertness" ],
-
-    -- ;; {inotibAh_1
-    -- <ntbAh  {inotibAh       N/At    attention;caution;vigilance
-    -- AntbAh  {inotibAh       N/At    attention;caution;vigilance
-
-    noun     IFtiCAL                   {- {inotibAh -}      `gloss`  [ "attention", "caution", "vigilance" ],
-
-    -- ;; nAbih_1
-    -- nAbh    nAbih   N-ap    noble;eminent     [[nAbih/ADJ]]
-
-    noun     FACiL                     {- nAbih -}          `gloss`  [ "noble", "eminent [ [ nAbih / ADJ ] ]" ],
+    FaCIL                     `noun`       {- nabiyh -}         [ "Nabih", "Nabeeh" ],
 
     -- ;; munab~ih_1
     -- mnbh    munab~ih        Nall    cautioning;alerting
 
-    noun     MuFaCCiL                  {- munab~ih -}       `gloss`  [ "cautioning", "alerting" ],
-
-    -- ;; munab~ih_2
-    -- mnbh    munab~ih        NduAt   alarm (clock)
-
-    noun     MuFaCCiL                  {- munab~ih -}       `gloss`  [ "alarm ( clock )" ],
-
-    -- ;; munab~ih_3
-    -- mnbh    munab~ih        NduAt   stimulus;stimulant
-
-    noun     MuFaCCiL                  {- munab~ih -}       `gloss`  [ "stimulus", "stimulant" ],
-
-    -- ;; mutanab~ih_1
-    -- mtnbh   mutanab~ih      Nall    alert;vigilant     [[mutanab~ih/ADJ]]
-
-    noun     MutaFaCCiL                {- mutanab~ih -}     `gloss`  [ "alert", "vigilant [ [ mutanab ~ ih / ADJ ] ]" ],
-
-    -- ;; munotabih_1
-    -- mntbh   munotabih       Nall    alert;vigilant;cautious     [[munotabih/ADJ]]
-
-    noun     MuFtaCiL                  {- munotabih -}      `gloss`  [ "alert", "vigilant", "cautious [ [ munotabih / ADJ ] ]" ] ]
-
- |> "n b k" <| [
-
-    -- ;; nabokap_1
-    -- nbk     nabok   Napdu   hill;hillock
-
-    noun     FaCL |< aT                {- nabokap -}        `gloss`  [ "hill", "hillock" ] ]
+    MuFaCCiL                  `noun`       {- munab~ih -}       [ "cautioning", "alerting" ] ]
 
  |> "n b l" <| [
-
-    -- ;; nabal-u_1
-    -- nbl     nabal   PV      shoot arrows at
-    -- nbl     nobul   IV      shoot arrows at
-
-    verb     FaCaL                     {- nabal-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nbul IV" ]
-                                                            `gloss`  [ "shoot arrows at" ],
-
-    -- ;; nabul-u_1
-    -- nbl     nabul   PV_intr be noble;ba magnanimous
-    -- nbl     nobul   IV_intr be noble;ba magnanimous
-
-    verb     FaCuL                     {- nabul-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nbul IV_intr" ]
-                                                            `gloss`  [ "be noble", "ba magnanimous" ],
-
-    -- ;; nabol_1
-    -- nbl     nabol   N       arrow
-    -- nbl     nabol   Napdu   arrow
-    -- nbAl    nibAl   N       arrows
-    -- >nbAl   >anobAl N       arrows
-    -- AnbAl   >anobAl N       arrows
-
-    noun     FaCL                      {- nabol -}          -- `others` [ "'anbAl N", "nibAl N" ]
-                                                            `gloss`  [ "arrow", "arrows" ],
-
-    -- ;; nubol_1
-    -- nbl     nubol   N       nobility
-
-    noun     FuCL                      {- nubol -}          `gloss`  [ "nobility" ],
-
-    -- ;; nabAlap_1
-    -- nbAl    nabAl   Nap     nobility
-
-    noun     FaCAL |< aT               {- nabAlap -}        `gloss`  [ "nobility" ],
-
-    -- ;; nabol_2
-    -- nbl     nabol   N-ap    noble
-
-    noun     FaCL                      {- nabol -}          `gloss`  [ "noble" ],
 
     -- ;; nabiyl_1
     -- nbyl    nabiyl  Nprop   Nabil
 
-    noun     FaCIL                     {- nabiyl -}         `gloss`  [ "Nabil" ],
-
-    -- ;; nabiylap_1
-    -- nbylp   nabiylap        Nprop   Nabila
-
-    noun     FaCIL |< aT               {- nabiylap -}       `gloss`  [ "Nabila" ],
+    FaCIL                     `noun`       {- nabiyl -}         [ "Nabil" ],
 
     -- ;; nabiyl_2
     -- nbyl    nabiyl  N/ap    noble     [[nabiyl/ADJ]]
@@ -7663,115 +1960,35 @@ lexicon = listing "Lexicon properties"
     -- nblA&   nubalA& Nh      noble
     -- nblA}   nubalA} Nhy     noble
 
-    noun     FaCIL                     {- nabiyl -}         -- `others` [ "nibAl N", "nubalA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "noble [ [ nabiyl / ADJ ] ]", "noble" ],
-
-    -- ;; nab~Al_1
-    -- nbAl    nab~Al  Ndu     archer
-    -- nbAl    nab~Al  Nap     archers
-
-    noun     FaCCAL                    {- nab~Al -}         `gloss`  [ "archer", "archers" ],
+    FaCIL                     `noun`       {- nabiyl -}         [ "noble" ]
+                              `plural`     FiCAL
+                              {- `others` [ "nibAl N" ] -},
 
     -- ;; nAbil_1
     -- nAbl    nAbil   Nall    archer
     -- nbl     nub~al  N       archers
 
-    noun     FACiL                     {- nAbil -}          -- `others` [ "nubbal N" ]
-                                                            `gloss`  [ "archer", "archers" ],
-
-    -- ;; >anobal_1
-    -- >nbl    >anobal Nel     nobler/noblest
-    -- Anbl    >anobal Nel     nobler/noblest
-
-    noun     HaFCaL                    {- Oanobal -}        `gloss`  [ "nobler / noblest" ] ]
-
- |> "n b q" <| [
-
-    -- ;; naboq_1
-    -- nbq     naboq   N       nabaq (lotus blossom)
-    -- nbq     niboq   N       nabaq (lotus blossom)
-    -- nbq     nabiq   N       nabaq (lotus blossom)
-    -- nbq     naboq   Napdu   nabaq (lotus blossom)
-
-    noun     FaCL                      {- naboq -}          -- `others` [ "nibq N", "nabiq N" ]
-                                                            `gloss`  [ "nabaq ( lotus blossom )" ],
-
-    -- ;; nabaq_1
-    -- nbq     nabaq   N0      Nabaq
-
-    noun     FaCaL                     {- nabaq -}          `gloss`  [ "Nabaq" ] ]
+    FACiL                     `noun`       {- nAbil -}          [ "archer", "archers" ]
+                              `plural`     FuCCaL
+                              {- `others` [ "nubbal N" ] -} ]
 
  |> "n b r" <| [
-
-    -- ;; nabar-i_1
-    -- nbr     nabar   PV      elevate;emphasize;raise the voice
-    -- nbr     nobir   IV      elevate;emphasize;raise the voice
-
-    verb     FaCaL                     {- nabar-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nbir IV" ]
-                                                            `gloss`  [ "elevate", "emphasize", "raise the voice" ],
-
-    -- ;; {inotabar_1
-    -- <ntbr   {inotabar       PV      swell;become swollen
-    -- Antbr   {inotabar       PV      swell;become swollen
-    -- ntbr    notabir IV      swell;become swollen
-
-    verb     IFtaCaL                   {- {inotabar -}      -- `others` [ "ntabir IV" ]
-                                                            `gloss`  [ "swell", "become swollen" ],
-
-    -- ;; nabor_1
-    -- nbr     nabor   N       emphasis;accentuation
-
-    noun     FaCL                      {- nabor -}          `gloss`  [ "emphasis", "accentuation" ],
-
-    -- ;; nibor_1
-    -- nbr     nibor   Ndu     barn;granary;warehouse
-    -- >nbAr   >anobAr N       barns;granaries;warehouses
-    -- AnbAr   >anobAr N       barns;granaries;warehouses
-    -- >nAbr   >anAbir Ndip    barns;granaries;warehouses
-    -- AnAbr   >anAbir Ndip    barns;granaries;warehouses
-    -- >nAbyr  >anAbiyr        Ndip    barns;granaries;warehouses
-    -- AnAbyr  >anAbiyr        Ndip    barns;granaries;warehouses
-
-    noun     FiCL                      {- nibor -}          -- `others` [ "'anAbiyr Ndip", "'anAbir Ndip", "'anbAr N" ]
-                                                            `gloss`  [ "barn", "granary", "warehouse", "barns", "granaries", "warehouses" ],
 
     -- ;; naborap_1
     -- nbr     nabor   Napdu   accentuation;intonation
     -- nbr     nabar   NAt     accentuations;intonations
 
-    noun     FaCL |< aT                {- naborap -}        -- `others` [ "nabar NAt" ]
-                                                            `gloss`  [ "accentuation", "intonation", "accentuations", "intonations" ],
+    FaCL |< aT                `noun`       {- naborap -}        [ "accentuation", "intonation", "accentuations", "intonations" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "nabar NAt" ] -},
 
     -- ;; minobar_1
     -- mnbr    minobar Ndu     minbar;pulpit;rostrum
     -- mnAbr   manAbir Ndip    minbars;pulpits;rostrums
 
-    noun     MiFCaL                    {- minobar -}        -- `others` [ "manAbir Ndip" ]
-                                                            `gloss`  [ "minbar", "pulpit", "rostrum", "minbars", "pulpits", "rostrums" ],
-
-    -- ;; minobAr_1
-    -- mnbAr   minobAr Ndu     intestine;gut
-    -- mnAbyr  manAbiyr        Ndip    intestines;guts
-
-    noun     MiFCAL                    {- minobAr -}        -- `others` [ "manAbiyr Ndip" ]
-                                                            `gloss`  [ "intestine", "gut", "intestines", "guts" ] ]
-
- |> "n b r s" <| [
-
-    -- ;; niborAs_1
-    -- nbrAs   niborAs Ndu     lantern;light
-    -- nbArys  nabAriys        Ndip    lanterns;lights
-
-    noun     KiRDAS                    {- niborAs -}        -- `others` [ "nabAriys Ndip" ]
-                                                            `gloss`  [ "lantern", "light", "lanterns", "lights" ],
-
-    -- ;; niborAs_2
-    -- nbrAs   niborAs Ndu     example;model
-    -- nbArys  nabAriys        Ndip    examples;models
-
-    noun     KiRDAS                    {- niborAs -}        -- `others` [ "nabAriys Ndip" ]
-                                                            `gloss`  [ "example", "model", "examples", "models" ] ]
+    MiFCaL                    `noun`       {- minobar -}        [ "minbar", "pulpit", "rostrum", "minbars", "pulpits", "rostrums" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "manAbir Ndip" ] -} ]
 
  |> "n b s" <| [
 
@@ -7780,43 +1997,11 @@ lexicon = listing "Lexicon properties"
     -- nbs     nobis   IV      utter;speak
     -- nbs     nobus   IV      utter;speak
 
-    verb     FaCaL                     {- nabas-iu -}       `imperf` [ FCiL, FCuL ]
-                                                            -- `others` [ "nbis IV", "nbus IV" ]
-                                                            `gloss`  [ "utter", "speak" ],
-
-    -- ;; nab~as_1
-    -- nbs     nab~as  PV      utter;speak
-    -- nbs     nab~is  IV_yu   utter;speak
-
-    verb     FaCCaL                    {- nab~as -}         -- `others` [ "nabbis IV_yu" ]
-                                                            `gloss`  [ "utter", "speak" ],
-
-    -- ;; nabos_1
-    -- nbs     nabos   N       uttering;speaking
-
-    noun     FaCL                      {- nabos -}          `gloss`  [ "uttering", "speaking" ],
-
-    -- ;; nubosap_1
-    -- nbs     nubos   Napdu   utterance
-
-    noun     FuCL |< aT                {- nubosap -}        `gloss`  [ "utterance" ] ]
+    FaCaL                     `verb`       {- nabas-iu -}       [ "utter", "speak" ]
+                              `imperf` [ FCiL, FCuL ]
+                              {- `others` [ "nbis IV", "nbus IV" ] -} ]
 
  |> "n b t" <| [
-
-    -- ;; nabat-u_1
-    -- nbt     nabat   PV-t    grow;germinate;sprout;produce vegetation
-    -- nbt     nobut   IV      grow;germinate;sprout;produce vegetation
-
-    verb     FaCaL                     {- nabat-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nbut IV" ]
-                                                            `gloss`  [ "grow", "germinate", "sprout", "produce vegetation" ],
-
-    -- ;; nab~at_1
-    -- nbt     nab~at  PV-t    plant;sow
-    -- nbt     nab~it  IV_yu   plant;sow
-
-    verb     FaCCaL                    {- nab~at -}         -- `others` [ "nabbit IV_yu" ]
-                                                            `gloss`  [ "plant", "sow" ],
 
     -- ;; >anobat_1
     -- >nbt    >anobat PV-t    germinate;make grow;make sprout;cultivate
@@ -7824,124 +2009,20 @@ lexicon = listing "Lexicon properties"
     -- nbt     nobit   IV_yu   germinate;make grow;make sprout;cultivate
     -- nbt     nobat   IV_Pass_yu      be germinated;be grown;be cultivated
 
-    verb     HaFCaL                    {- Oanobat -}        -- `others` [ "nbat IV_Pass_yu", "nbit IV_yu" ]
-                                                            `gloss`  [ "germinate", "make grow", "make sprout", "cultivate", "be germinated", "be grown", "be cultivated" ],
-
-    -- ;; {isotanobat_1
-    -- <stnbt  {isotanobat     PV-t    cultivate;breed
-    -- Astnbt  {isotanobat     PV-t    cultivate;breed
-    -- stnbt   sotanobit       IV      cultivate;breed
-
-    verb     IstaFCaL                  {- {isotanobat -}    -- `others` [ "stanbit IV" ]
-                                                            `gloss`  [ "cultivate", "breed" ],
-
-    -- ;; nabot_1
-    -- nbt     nabot   N       germination;growth;vegetation
-
-    noun     FaCL                      {- nabot -}          `gloss`  [ "germination", "growth", "vegetation" ],
-
-    -- ;; nabotap_1
-    -- nbt     nabot   Napdu   sprout;seedling
-
-    noun     FaCL |< aT                {- nabotap -}        `gloss`  [ "sprout", "seedling" ],
+    HaFCaL                    `verb`       {- Oanobat -}        [ "germinate", "make grow", "make sprout", "cultivate", "be germinated", "be grown", "be cultivated" ]
+                              {- `others` [ "nbat IV_Pass_yu", "nbit IV_yu" ] -},
 
     -- ;; nabAtiy~_1
     -- nbAty   nabAtiy~        N-ap    vegetable;botanical     [[nabAtiy~/ADJ]]
 
-    noun     FaCAL |< Iy               {- nabAtiy~ -}       `gloss`  [ "vegetable", "botanical [ [ nabAtiy ~ / ADJ ] ]" ],
-
-    -- ;; nabAtiy~_2
-    -- nbAty   nabAtiy~        Nall    botanist;vegetarian     [[nabAtiy~/ADJ]]
-
-    noun     FaCAL |< Iy               {- nabAtiy~ -}       `gloss`  [ "botanist", "vegetarian [ [ nabAtiy ~ / ADJ ] ]" ],
-
-    -- ;; nab~uwt_1
-    -- nbwt    nab~uwt Ndu     stick;truncheon;bludgeon
-    -- nbAbyt  nabAbiyt        Ndip    stick;truncheons;bludgeons
-
-    noun     FaCCUL                    {- nab~uwt -}        -- `others` [ "nabAbiyt Ndip" ]
-                                                            `gloss`  [ "stick", "truncheon", "bludgeon", "truncheons", "bludgeons" ],
-
-    -- ;; manobat_1
-    -- mnbt    manobat Ndu     plantation;arboretum
-    -- mnbt    manobit Ndu     plantation;arboretum
-    -- mnAbt   manAbit Ndip    plantations;arboretums
-
-    noun     MaFCaL                    {- manobat -}        -- `others` [ "manAbit Ndip", "manbit Ndu" ]
-                                                            `gloss`  [ "plantation", "arboretum", "plantations", "arboretums" ],
-
-    -- ;; manobat_2
-    -- mnbt    manobat Ndu     birthplace;origin
-    -- mnbt    manobit Ndu     birthplace;origin
-    -- mnAbt   manAbit Ndip    birthplaces;origins
-
-    noun     MaFCaL                    {- manobat -}        -- `others` [ "manAbit Ndip", "manbit Ndu" ]
-                                                            `gloss`  [ "birthplace", "origin", "birthplaces", "origins" ],
-
-    -- ;; tanobiyt_1
-    -- tnbyt   tanobiyt        N/At    planting;cultivation
-
-    noun     TaFCIL                    {- tanobiyt -}       `gloss`  [ "planting", "cultivation" ],
-
-    -- ;; nAbitap_1
-    -- nAbt    nAbit   Napdu   generation
-
-    noun     FACiL |< aT               {- nAbitap -}        `gloss`  [ "generation" ],
-
-    -- ;; musotanobat_1
-    -- mstnbt  musotanobat     Nall    cultivated;grown;raised     [[musotanobat/ADJ]]
-
-    noun     MustaFCaL                 {- musotanobat -}    `gloss`  [ "cultivated", "grown", "raised [ [ musotanobat / ADJ ] ]" ],
-
-    -- ;; musotanobat_2
-    -- mstnbt  musotanobat     NduAt   plantation;nursery
-
-    noun     MustaFCaL                 {- musotanobat -}    `gloss`  [ "plantation", "nursery" ] ]
-
- |> "n b t n" <| [
-
-    -- ;; nabAtiyn_1
-    -- nbAtyn  nabAtiyn        N       margarine
-
-    noun     KaRADIS                   {- nabAtiyn -}       `gloss`  [ "margarine" ],
-
-    -- ;; nibotuwn_1
-    -- nbtwn   nibotuwn        N0      Neptune
-
-    noun     KiRDUS                    {- nibotuwn -}       `gloss`  [ "Neptune" ] ]
+    FaCAL |< Iy               `noun`       {- nabAtiy~ -}       [ "vegetable", "botanical" ] ]
 
  |> "n b w" <| [
-
-    -- ;; nabA-u_1
-    -- nbA     nabA    PV_0    be remote;bounce off;disagree
-    -- nbw     nabaw   PV_Atn  be remote;bounce off;disagree
-    -- nb      nab     PV_ttAw_intr    be remote;bounce off;disagree
-    -- nbw     nobuw   IV_0hAnn        be remote;bounce off;disagree
-    -- nb      nob     IV_0hwnyn       be remote;bounce off;disagree
-
-    verb     FaCA                      {- nabA-u -}         `imperf` [ FCuL ]
-                                                            -- `others` [ "nb IV_0hwnyn", "nabaw PV_Atn", "nab PV_ttAw_intr", "nbuw IV_0hAnn" ]
-                                                            `gloss`  [ "be remote", "bounce off", "disagree" ],
-
-    -- ;; nabow_1
-    -- nbw     nabow   N       being remote;bouncing off;disagreeing
-
-    noun     FaCL                      {- nabow -}          `gloss`  [ "being remote", "bouncing off", "disagreeing" ],
-
-    -- ;; nubuw~_1
-    -- nbw     nubuw~  N       being remote;bouncing off;disagreeing
-
-    noun     FuCUL                     {- nubuw~ -}         `gloss`  [ "being remote", "bouncing off", "disagreeing" ],
 
     -- ;; nabawiy~_1
     -- nbwy    nabawiy~        N-ap    prophetic;of the Prophet     [[nabawiy~/ADJ]]
 
-    noun     FaCY |< Iy                {- nabawiy~ -}       `gloss`  [ "prophetic", "of the Prophet [ [ nabawiy ~ / ADJ ] ]" ],
-
-    -- ;; nubuw~ap_1
-    -- nbw     nubuw~  Nap     prophethood
-
-    noun     FuCUL |< aT               {- nubuw~ap -}       `gloss`  [ "prophethood" ],
+    FaCY |< Iy                `noun`       {- nabawiy~ -}       [ "prophetic", "of the Prophet" ],
 
     -- ;; nAbiy_1
     -- nAby    nAbiy   N0F     repugnant;improper     [[nAbiy/ADJ]]
@@ -7950,8 +2031,7 @@ lexicon = listing "Lexicon properties"
     -- nAb     nAb     Nuwn_Niyn       repugnant;improper
     -- nAby    nAbiy   NapAt   repugnant;improper
 
-    noun     FACI                      {- nAbiy -}          -- `others` [ "nAb Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "repugnant", "improper [ [ nAbiy / ADJ ] ]", "improper" ] ]
+    FACI                      `noun`       {- nAbiy -}          [ "repugnant", "improper" ] ]
 
  |> "n b y" <| [
 
@@ -7964,8 +2044,9 @@ lexicon = listing "Lexicon properties"
     -- >nbyA}  >anobiyA}       Nhy     prophets
     -- AnbyA}  >anobiyA}       Nhy     prophets
 
-    noun     FaCIL                     {- nabiy~ -}         -- `others` [ "'anbiyA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "prophet [ [ nabiy ~ / ADJ ] ]", "prophets" ],
+    FaCIL                     `noun`       {- nabiy~ -}         [ "prophet", "prophets" ]
+                              `plural`     HaFCiLA'
+                              {- `others` [ "'anbiyA' Nh N0_Nh Nhy" ] -},
 
     -- ;; nAbiy_1
     -- nAby    nAbiy   N0F     repugnant;improper     [[nAbiy/ADJ]]
@@ -7974,33 +2055,7 @@ lexicon = listing "Lexicon properties"
     -- nAb     nAb     Nuwn_Niyn       repugnant;improper
     -- nAby    nAbiy   NapAt   repugnant;improper
 
-    noun     FACiL                     {- nAbiy -}          -- `others` [ "nAb Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "repugnant", "improper [ [ nAbiy / ADJ ] ]", "improper" ] ]
-
- |> "n b z" <| [
-
-    -- ;; nabaz-i_1
-    -- nbz     nabaz   PV      deride;insult
-    -- nbz     nobiz   IV      deride;insult
-
-    verb     FaCaL                     {- nabaz-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nbiz IV" ]
-                                                            `gloss`  [ "deride", "insult" ],
-
-    -- ;; nab~az_1
-    -- nbz     nab~az  PV      deride;insult
-    -- nbz     nab~iz  IV_yu   deride;insult
-
-    verb     FaCCaL                    {- nab~az -}         -- `others` [ "nabbiz IV_yu" ]
-                                                            `gloss`  [ "deride", "insult" ],
-
-    -- ;; naboz_1
-    -- nbz     naboz   Ndu     nickname;sobriquet
-    -- >nbAz   >anobAz N       nicknames;sobriquets
-    -- AnbAz   >anobAz N       nicknames;sobriquets
-
-    noun     FaCL                      {- naboz -}          -- `others` [ "'anbAz N" ]
-                                                            `gloss`  [ "nickname", "sobriquet", "nicknames", "sobriquets" ] ]
+    FACiL                     `noun`       {- nAbiy -}          [ "repugnant", "improper" ] ]
 
  |> "n d '" <| [
 
@@ -8012,405 +2067,62 @@ lexicon = listing "Lexicon properties"
     -- ndA}    nidA}   Nayn    calls;appeals;invitations
     -- ndA'    nidA'   NAt     calls;appeals;invitations
 
-    noun     FiCAL                     {- nidA' -}          `gloss`  [ "call", "appeal", "invitation", "summons", "calls", "appeals", "invitations" ] ]
-
- |> "n d .h" <| [
-
-    -- ;; nadaH-a_1
-    -- ndH     nadaH   PV      extend;enlarge
-    -- ndH     nodaH   IV      extend;enlarge
-
-    verb     FaCaL                     {- nadaH-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nda.h IV" ]
-                                                            `gloss`  [ "extend", "enlarge" ],
-
-    -- ;; nadoHap_1
-    -- ndH     nadoH   Nap     alternative;choice;freedom of action
-
-    noun     FaCL |< aT                {- nadoHap -}        `gloss`  [ "alternative", "choice", "freedom of action" ],
-
-    -- ;; nudoHap_1
-    -- ndH     nudoH   Nap     open space;freedom of action
-
-    noun     FuCL |< aT                {- nudoHap -}        `gloss`  [ "open space", "freedom of action" ],
-
-    -- ;; manoduwHap_1
-    -- mndwH   manoduwH        Nap     alternative;choice;freedom of action
-    -- mnAdH   manAdiH Ndip    alternative;choice;freedom of action
-
-    noun     MaFCUL |< aT              {- manoduwHap -}     -- `others` [ "manAdi.h Ndip" ]
-                                                            `gloss`  [ "alternative", "choice", "freedom of action" ],
-
-    -- ;; munotadaH_1
-    -- mntdH   munotadaH       N       alternative;choice;freedom of action
-
-    noun     MuFtaCaL                  {- munotadaH -}      `gloss`  [ "alternative", "choice", "freedom of action" ] ]
+    FiCAL                     `noun`       {- nidA' -}          [ "call", "appeal", "invitation", "summons", "calls", "appeals", "invitations" ] ]
 
  |> "n d b" <| [
-
-    -- ;; nadab-u_1
-    -- ndb     nadab   PV      lament;deputize;entrust
-    -- ndb     nodub   IV      lament;deputize;entrust
-
-    verb     FaCaL                     {- nadab-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "ndub IV" ]
-                                                            `gloss`  [ "lament", "deputize", "entrust" ],
-
-    -- ;; nadib-a_1
-    -- ndb     nadib   PV      form a scar;cicatrize
-    -- ndb     nodab   IV      form a scar;cicatrize
-
-    verb     FaCiL                     {- nadib-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "ndab IV" ]
-                                                            `gloss`  [ "form a scar", "cicatrize" ],
-
-    -- ;; >anodab_1
-    -- >ndb    >anodab PV      form a scar;cicatrize
-    -- Andb    >anodab PV      form a scar;cicatrize
-    -- ndb     nodib   IV_yu   form a scar;cicatrize
-
-    verb     HaFCaL                    {- Oanodab -}        -- `others` [ "ndib IV_yu" ]
-                                                            `gloss`  [ "form a scar", "cicatrize" ],
-
-    -- ;; {inotadab_1
-    -- <ntdb   {inotadab       PV      appoint;commission;deputize;dedicate
-    -- Antdb   {inotadab       PV      appoint;commission;deputize;dedicate
-    -- ntdb    notadib IV      appoint;commission;deputize;dedicate
-
-    verb     IFtaCaL                   {- {inotadab -}      -- `others` [ "ntadib IV" ]
-                                                            `gloss`  [ "appoint", "commission", "deputize", "dedicate" ],
-
-    -- ;; nadob_1
-    -- ndb     nadob   N       assignment;deputation;commission
-
-    noun     FaCL                      {- nadob -}          `gloss`  [ "assignment", "deputation", "commission" ],
-
-    -- ;; nadab_1
-    -- ndb     nadab   Ndu     scar
-    -- >ndAb   >anodAb N       scars
-    -- AndAb   >anodAb N       scars
-    -- ndwb    nuduwb  N       scars
-
-    noun     FaCaL                     {- nadab -}          -- `others` [ "nuduwb N", "'andAb N" ]
-                                                            `gloss`  [ "scar", "scars" ],
-
-    -- ;; nudobap_1
-    -- ndb     nudob   Nap     dirge;funeral song
-
-    noun     FuCL |< aT                {- nudobap -}        `gloss`  [ "dirge", "funeral song" ],
-
-    -- ;; nad~Abap_1
-    -- ndAb    nad~Ab  NapAt   hired female mourner
-
-    noun     FaCCAL |< aT              {- nad~Abap -}       `gloss`  [ "hired female mourner" ],
-
-    -- ;; manodab_1
-    -- mndb    manodab N       lamentation
-    -- mnAdb   manAdib Ndip    lamentations
-
-    noun     MaFCaL                    {- manodab -}        -- `others` [ "manAdib Ndip" ]
-                                                            `gloss`  [ "lamentation", "lamentations" ],
-
-    -- ;; {inotidAb_1
-    -- <ntdAb  {inotidAb       N       appointing;commissioning;deputation;dedication
-    -- AntdAb  {inotidAb       N       appointing;commissioning;deputation;dedication
-
-    noun     IFtiCAL                   {- {inotidAb -}      `gloss`  [ "appointing", "commissioning", "deputation", "dedication" ],
-
-    -- ;; {inotidAb_2
-    -- <ntdAb  {inotidAb       NduAt   mandate;mandatory rule
-    -- AntdAb  {inotidAb       NduAt   mandate;mandatory rule
-
-    noun     IFtiCAL                   {- {inotidAb -}      `gloss`  [ "mandate", "mandatory rule" ],
-
-    -- ;; {inotidAbiy~_1
-    -- <ntdAby {inotidAbiy~    N-ap    mandatory;mandate     [[{inotidAbiy~/ADJ]]
-    -- AntdAby {inotidAbiy~    N-ap    mandatory;mandate     [[{inotidAbiy~/ADJ]]
-
-    noun     IFtiCAL |< Iy             {- {inotidAbiy~ -}   `gloss`  [ "mandatory", "mandate [ [ { inotidAbiy ~ / ADJ ] ]" ],
-
-    -- ;; nAdibap_1
-    -- nAdb    nAdib   NapAt   hired female mourner
-    -- nwAdb   nawAdib Ndip    hired female mourners
-
-    noun     FACiL |< aT               {- nAdibap -}        -- `others` [ "nawAdib Ndip" ]
-                                                            `gloss`  [ "hired female mourner", "hired female mourners" ],
 
     -- ;; manoduwb_1
     -- mndwb   manoduwb        Nall    delegate;representative;deputy;agent
 
-    noun     MaFCUL                    {- manoduwb -}       `gloss`  [ "delegate", "representative", "deputy", "agent" ],
-
-    -- ;; manoduwbiy~ap_1
-    -- mndwby  manoduwbiy~     Nap     delegation     [[manoduwbiy~/NOUN]]
-
-    noun     MaFCUL |< Iy |< aT        {- manoduwbiy~ap -}  `gloss`  [ "delegation [ [ manoduwbiy ~ / NOUN ] ]" ],
+    MaFCUL                    `noun`       {- manoduwb -}       [ "delegate", "representative", "deputy", "agent" ],
 
     -- ;; munotadab_1
     -- mntdb   munotadab       Nall    delegated;deputized;assigned;mandated
 
-    noun     MuFtaCaL                  {- munotadab -}      `gloss`  [ "delegated", "deputized", "assigned", "mandated" ] ]
+    MuFtaCaL                  `noun`       {- munotadab -}      [ "delegated", "deputized", "assigned", "mandated" ] ]
 
  |> "n d d" <| [
-
-    -- ;; nAdiyap_1
-    -- nAdyp   nAdiyap Nprop   Nadia
-
-    noun     FACI |< aT                {- nAdiyap -}        `gloss`  [ "Nadia" ],
-
-    -- ;; nad~-i_1
-    -- nd      nad~    PV_V    escape;flee
-    -- ndd     nadad   PV_C    escape;flee
-    -- nd      nid~    IV_V    escape;flee
-    -- ndd     nodid   IV_C    escape;flee
-
-    verb     FaCL                      {- nad~-i -}         `imperf` [ FCiL ]
-                                                            -- `others` [ "ndid IV_C", "nadad PV_C", "nidd IV_V" ]
-                                                            `gloss`  [ "escape", "flee" ],
 
     -- ;; nad~ad_1
     -- ndd     nad~ad  PV      criticize;denounce
     -- ndd     nad~id  IV_yu   criticize;denounce
 
-    verb     FaCCaL                    {- nad~ad -}         -- `others` [ "naddid IV_yu" ]
-                                                            `gloss`  [ "criticize", "denounce" ],
-
-    -- ;; nad~_1
-    -- nd      nad~    N       high hill;incense
-
-    noun     FaCL                      {- nad~ -}           `gloss`  [ "high hill", "incense" ],
-
-    -- ;; nid~_1
-    -- nd      nid~    N       incense
-
-    noun     FiCL                      {- nid~ -}           `gloss`  [ "incense" ],
+    FaCCaL                    `verb`       {- nad~ad -}         [ "criticize", "denounce" ]
+                              {- `others` [ "naddid IV_yu" ] -},
 
     -- ;; nid~_2
     -- nd      nid~    Ndu     peer;colleague;counterpart
     -- >ndAd   >anodAd N       peers;colleagues;counterparts
     -- AndAd   >anodAd N       peers;colleagues;counterparts
 
-    noun     FiCL                      {- nid~ -}           -- `others` [ "'andAd N" ]
-                                                            `gloss`  [ "peer", "colleague", "counterpart", "peers", "colleagues", "counterparts" ],
-
-    -- ;; nadiyd_1
-    -- ndyd    nadiyd  N/ap    peer;rival
-    -- nddA'   nudadA' N0_Nh   peers;rivals
-    -- nddA&   nudadA& Nh      peers;rivals
-    -- nddA}   nudadA} Nhy     peers;rivals
-
-    noun     FaCIL                     {- nadiyd -}         -- `others` [ "nudadA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "peer", "rival", "peers", "rivals" ],
+    FiCL                      `noun`       {- nid~ -}           [ "peer", "colleague", "counterpart", "peers", "colleagues", "counterparts" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'andAd N" ] -},
 
     -- ;; tanodiyd_1
     -- tndyd   tanodiyd        N/At    criticism;abuse;defamation
 
-    noun     TaFCIL                    {- tanodiyd -}       `gloss`  [ "criticism", "abuse", "defamation" ],
+    TaFCIL                    `noun`       {- tanodiyd -}       [ "criticism", "abuse", "defamation" ],
 
     -- ;; munad~id_1
     -- mndd    munad~id        Nall    criticizing;denouncing     [[munad~id/ADJ]]
 
-    noun     MuFaCCiL                  {- munad~id -}       `gloss`  [ "criticizing", "denouncing [ [ munad ~ id / ADJ ] ]" ],
-
-    -- ;; nad~aY_1
-    -- ndY     nad~aY  PV_0    moisten;make damp
-    -- ndA     nad~A   PV_h    moisten;make damp
-    -- ndy     nad~ay  PV_Atn  moisten;make damp
-    -- nd      nad~    PV_ttAw moisten;make damp
-    -- ndy     nad~iy  IV_0hAnn_yu     moisten;make damp
-    -- nd      nad~    IV_0hwnyn_yu    moisten;make damp
-    -- ndY     nad~aY  IV_0_Pass_yu    be moistened
-    -- ndy     nad~ay  IV_Ann_Pass_yu  be moistened
-
-    verb     FaCLY                     {- nad~aY -}         -- `others` [ "nadday PV_Atn IV_Ann_Pass_yu", "naddiy IV_0hAnn_yu", "naddA PV_h", "nadd IV_0hwnyn_yu PV_ttAw" ]
-                                                            `gloss`  [ "moisten", "make damp", "be moistened" ] ]
-
- |> "n d f" <| [
-
-    -- ;; nadaf-i_1
-    -- ndf     nadaf   PV      comb;card
-    -- ndf     nodif   IV      comb;card
-
-    verb     FaCaL                     {- nadaf-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "ndif IV" ]
-                                                            `gloss`  [ "comb", "card" ],
-
-    -- ;; nadof_1
-    -- ndf     nadof   N       combing;carding
-
-    noun     FaCL                      {- nadof -}          `gloss`  [ "combing", "carding" ],
-
-    -- ;; nudofap_1
-    -- ndf     nudof   Napdu   flake;flock
-    -- ndf     nudaf   N       flakes;flocks
-
-    noun     FuCL |< aT                {- nudofap -}        -- `others` [ "nudaf N" ]
-                                                            `gloss`  [ "flake", "flock", "flakes", "flocks" ],
-
-    -- ;; nadiyf_1
-    -- ndyf    nadiyf  N-ap    carded;teased
-
-    noun     FaCIL                     {- nadiyf -}         `gloss`  [ "carded", "teased" ],
-
-    -- ;; manoduwf_1
-    -- mndwf   manoduwf        N-ap    carded;teased
-
-    noun     MaFCUL                    {- manoduwf -}       `gloss`  [ "carded", "teased" ],
-
-    -- ;; nad~Af_1
-    -- ndAf    nad~Af  Nall    cotton carder;cotton teaser
-
-    noun     FaCCAL                    {- nad~Af -}         `gloss`  [ "cotton carder", "cotton teaser" ],
-
-    -- ;; nad~Af_2
-    -- ndAf    nad~Af  N0      Naddaf
-
-    noun     FaCCAL                    {- nad~Af -}         `gloss`  [ "Naddaf" ],
-
-    -- ;; minodaf_1
-    -- mndf    minodaf Ndu     teasing bow for carding cotton
-    -- mnAdf   manAdif Ndip    teasing bows for carding cotton
-
-    noun     MiFCaL                    {- minodaf -}        -- `others` [ "manAdif Ndip" ]
-                                                            `gloss`  [ "teasing bow for carding cotton", "teasing bows for carding cotton" ] ]
-
- |> "n d h" <| [
-
-    -- ;; nadah-a_1
-    -- ndh     nadah   PV      urge on;drive away
-    -- ndh     nodah   IV      urge on;drive away
-
-    verb     FaCaL                     {- nadah-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "ndah IV" ]
-                                                            `gloss`  [ "urge on", "drive away" ],
-
-    -- ;; nadoh_1
-    -- ndh     nadoh   N       urging on;driving away
-
-    noun     FaCL                      {- nadoh -}          `gloss`  [ "urging on", "driving away" ] ]
-
- |> "n d l" <| [
-
-    -- ;; nadal-u_1
-    -- ndl     nadal   PV      snatch away
-    -- ndl     nodul   IV      snatch away
-
-    verb     FaCaL                     {- nadal-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "ndul IV" ]
-                                                            `gloss`  [ "snatch away" ],
-
-    -- ;; nadol_1
-    -- ndl     nadol   N       snatching away
-
-    noun     FaCL                      {- nadol -}          `gloss`  [ "snatching away" ],
-
-    -- ;; nadol_2
-    -- ndl     nadol   N-ap    coward;despicable
-
-    noun     FaCL                      {- nadol -}          `gloss`  [ "coward", "despicable" ],
-
-    -- ;; minodAlap_1
-    -- mndAl   minodAl Nap     rammer
-
-    noun     MiFCAL |< aT              {- minodAlap -}      `gloss`  [ "rammer" ],
-
-    -- ;; nAdil_1
-    -- nAdl    nAdil   N/ap    waiter;servant
-    -- ndl     nudul   N       waiters;servants
-
-    noun     FACiL                     {- nAdil -}          -- `others` [ "nudul N" ]
-                                                            `gloss`  [ "waiter", "servant", "waiters", "servants" ] ]
+    MuFaCCiL                  `noun`       {- munad~id -}       [ "criticizing", "denouncing" ] ]
 
  |> "n d m" <| [
-
-    -- ;; nadim-a_1
-    -- ndm     nadim   PV      repent;regret
-    -- ndm     nodam   IV      repent;regret
-
-    verb     FaCiL                     {- nadim-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "ndam IV" ]
-                                                            `gloss`  [ "repent", "regret" ],
-
-    -- ;; nAdam_1
-    -- nAdm    nAdam   PV      drink with;carouse with
-    -- nAdm    nAdim   IV_yu   drink with;carouse with
-
-    verb     FACaL                     {- nAdam -}          -- `others` [ "nAdim IV_yu" ]
-                                                            `gloss`  [ "drink with", "carouse with" ],
-
-    -- ;; tanad~am_1
-    -- tndm    tanad~am        PV      repent;regret
-    -- tndm    tanad~am        IV      repent;regret
-
-    verb     TaFaCCaL                  {- tanad~am -}       `gloss`  [ "repent", "regret" ],
-
-    -- ;; tanAdam_1
-    -- tnAdm   tanAdam PV      drink together;carouse together
-    -- tnAdm   tanAdam IV      drink together;carouse together
-
-    verb     TaFACaL                   {- tanAdam -}        `gloss`  [ "drink together", "carouse together" ],
 
     -- ;; nadam_1
     -- ndm     nadam   N       remorse;regret
     -- ndAm    nadAm   Nap     remorse;regret
 
-    noun     FaCaL                     {- nadam -}          -- `others` [ "nadAm Nap" ]
-                                                            `gloss`  [ "remorse", "regret" ],
-
-    -- ;; nadiym_1
-    -- ndym    nadiym  N/ap    confidant;close friend
-    -- ndmA'   nudamA' N0_Nh   confidants;close friends
-    -- ndmA&   nudamA& Nh      confidants;close friends
-    -- ndmA}   nudamA} Nhy     confidants;close friends
-    -- ndAm    nidAm   N       confidants;close friends
-
-    noun     FaCIL                     {- nadiym -}         -- `others` [ "nidAm N", "nudamA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "confidant", "close friend", "confidants", "close friends" ],
+    FaCaL                     `noun`       {- nadam -}          [ "remorse", "regret" ]
+                              `plural`     FaCAL |< aT
+                              {- `others` [ "nadAm Nap" ] -},
 
     -- ;; nadiym_2
     -- ndym    nadiym  Nprop   Nadeem
 
-    noun     FaCIL                     {- nadiym -}         `gloss`  [ "Nadeem" ],
-
-    -- ;; nadomAn_1
-    -- ndmAn   nadomAn Ndip    repentant;regretful
-    -- ndAmY   nadAmaY N0      repentant;regretful
-    -- ndAmA   nadAmA  Nhy     repentant;regretful
-
-    noun     FaCLAn                    {- nadomAn -}        -- `others` [ "nadAmA Nhy", "nadAmY N0" ]
-                                                            `gloss`  [ "repentant", "regretful" ],
-
-    -- ;; manodam_1
-    -- mndm    manodam N       remorse;regret
-
-    noun     MaFCaL                    {- manodam -}        `gloss`  [ "remorse", "regret" ],
-
-    -- ;; munAdamap_1
-    -- mnAdm   munAdam NapAt   intimate friendship
-
-    noun     MuFACaL |< aT             {- munAdamap -}      `gloss`  [ "intimate friendship" ],
-
-    -- ;; tanad~um_1
-    -- tndm    tanad~um        N/At    remorse;regret
-
-    noun     TaFaCCuL                  {- tanad~um -}       `gloss`  [ "remorse", "regret" ],
-
-    -- ;; nAdim_1
-    -- nAdm    nAdim   N/ap    remorseful;repenting
-    -- ndAm    nud~Am  N       remorseful;repenting
-
-    noun     FACiL                     {- nAdim -}          -- `others` [ "nuddAm N" ]
-                                                            `gloss`  [ "remorseful", "repenting" ],
-
-    -- ;; munAdim_1
-    -- mnAdm   munAdim Nall    drinking companion;intimate friend
-
-    noun     MuFACiL                   {- munAdim -}        `gloss`  [ "drinking companion", "intimate friend" ],
-
-    -- ;; mutanad~im_1
-    -- mtndm   mutanad~im      Nall    repenting;remorseful     [[mutanad~im/ADJ]]
-
-    noun     MutaFaCCiL                {- mutanad~im -}     `gloss`  [ "repenting", "remorseful [ [ mutanad ~ im / ADJ ] ]" ] ]
+    FaCIL                     `noun`       {- nadiym -}         [ "Nadeem" ] ]
 
  |> "n d r" <| [
 
@@ -8418,100 +2130,24 @@ lexicon = listing "Lexicon properties"
     -- ndr     nadar   PV_intr be rare;be unusual
     -- ndr     nodur   IV_intr be rare;be unusual
 
-    verb     FaCaL                     {- nadar-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "ndur IV_intr" ]
-                                                            `gloss`  [ "be rare", "be unusual" ],
-
-    -- ;; nadur-u_1
-    -- ndr     nadur   PV_intr be strange;be unusual
-    -- ndr     nodur   IV_intr be strange;be unusual
-
-    verb     FaCuL                     {- nadur-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "ndur IV_intr" ]
-                                                            `gloss`  [ "be strange", "be unusual" ],
-
-    -- ;; tanad~ar_1
-    -- tndr    tanad~ar        PV      jest;joke
-    -- tndr    tanad~ar        IV      jest;joke
-
-    verb     TaFaCCaL                  {- tanad~ar -}       `gloss`  [ "jest", "joke" ],
-
-    -- ;; tanAdar_1
-    -- tnAdr   tanAdar PV      tell stories;tell jokes
-    -- tnAdr   tanAdar IV      tell stories;tell jokes
-
-    verb     TaFACaL                   {- tanAdar -}        `gloss`  [ "tell stories", "tell jokes" ],
-
-    -- ;; nador_1
-    -- ndr     nador   N       rare;odd
-
-    noun     FaCL                      {- nador -}          `gloss`  [ "rare", "odd" ],
+    FaCaL                     `verb`       {- nadar-u -}        [ "be rare", "be unusual" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "ndur IV_intr" ] -},
 
     -- ;; nadorap_1
     -- ndr     nador   Nap     rarity
     -- ndr     nudor   Nap     rarity
     -- ndrp    nadorapF        FW-Wa   rarely;seldom    [[nadorapF/ADV]]
 
-    noun     FaCL |< aT                {- nadorap -}        -- `others` [ "nadraTaN FW-Wa", "nudr Nap" ]
-                                                            `gloss`  [ "rarity", "rarely", "seldom [ [ nadorapF / ADV ] ]" ],
-
-    -- ;; >anodar_1
-    -- >ndr    >anodar N       threshing floor
-    -- Andr    >anodar N       threshing floor
-    -- >nAdr   >anAdir Ndip    threshing floors
-    -- AnAdr   >anAdir Ndip    threshing floors
-
-    noun     HaFCaL                    {- Oanodar -}        -- `others` [ "'anAdir Ndip" ]
-                                                            `gloss`  [ "threshing floor", "threshing floors" ],
-
-    -- ;; >anodar_2
-    -- >ndr    >anodar Nel     rarer/rarest
-    -- Andr    >anodar Nel     rarer/rarest
-
-    noun     HaFCaL                    {- Oanodar -}        `gloss`  [ "rarer / rarest" ],
-
-    -- ;; manodarap_1
-    -- mndr    manodar Nap     threshing floor
-    -- mnAdr   manAdir Ndip    threshing floor
-
-    noun     MaFCaL |< aT              {- manodarap -}      -- `others` [ "manAdir Ndip" ]
-                                                            `gloss`  [ "threshing floor" ],
-
-    -- ;; munAdarAt_1
-    -- mnAdr   munAdar NAt     witty topics
-
-    noun     MuFACaL |< At             {- munAdarAt -}      -- `others` [ "munAdar NAt" ]
-                                                            `gloss`  [ "witty topics" ],
-
-    -- ;; tanad~ur_1
-    -- tndr    tanad~ur        N/At    joking;jesting
-
-    noun     TaFaCCuL                  {- tanad~ur -}       `gloss`  [ "joking", "jesting" ],
-
-    -- ;; tanAdur_1
-    -- tnAdr   tanAdur N/At    joking;jesting
-
-    noun     TaFACuL                   {- tanAdur -}        `gloss`  [ "joking", "jesting" ],
+    FaCL |< aT                `noun`       {- nadorap -}        [ "rarity", "rarely", "seldom" ]
+                              `plural`     FuCL |< aT
+                              {- `others` [ "nudr Nap" ] -},
 
     -- ;; nAdir_1
     -- nAdr    nAdir   Nall    rare;unusual;infrequent     [[nAdir/ADJ]]
     -- nAdr    nAdir   NF      rarely;seldom     [[nAdir/ADV]]
 
-    noun     FACiL                     {- nAdir -}          `gloss`  [ "rare", "unusual", "infrequent [ [ nAdir / ADJ ] ]", "rarely", "seldom [ [ nAdir / ADV ] ]" ],
-
-    -- ;; nAdirap_1
-    -- nAdr    nAdir   Napdu   rare thing;anecdote
-    -- nwAdr   nawAdir Ndip    rare things;anecdotes
-
-    noun     FACiL |< aT               {- nAdirap -}        -- `others` [ "nawAdir Ndip" ]
-                                                            `gloss`  [ "rare thing", "anecdote", "rare things", "anecdotes" ],
-
-    -- ;; manodarap_2
-    -- mndr    manodar Napdu   reception room
-    -- mnAdr   manAdir Ndip    reception rooms
-
-    noun     MaFCaL |< aT              {- manodarap -}      -- `others` [ "manAdir Ndip" ]
-                                                            `gloss`  [ "reception room", "reception rooms" ] ]
+    FACiL                     `noun`       {- nAdir -}          [ "rare", "unusual", "infrequent", "rarely", "seldom" ] ]
 
  |> "n d s" <| [
 
@@ -8519,36 +2155,10 @@ lexicon = listing "Lexicon properties"
     -- nds     nadas   PV      throw down;defame
     -- nds     nodus   IV      throw down;defame
 
-    verb     FaCaL                     {- nadas -}          -- `others` [ "ndus IV" ]
-                                                            `gloss`  [ "throw down", "defame" ] ]
+    FaCaL                     `verb`       {- nadas -}          [ "throw down", "defame" ]
+                              {- `others` [ "ndus IV" ] -} ]
 
  |> "n d w" <| [
-
-    -- ;; nadA-u_1
-    -- ndA     nadA    PV_0h   call;invite;convene
-    -- ndw     nadaw   PV_Atn  call;invite;convene
-    -- nd      nad     PV_ttAw call;invite;convene
-    -- ndw     noduw   IV_0hAnn        call;invite;convene
-    -- nd      nod     IV_0hwnyn       call;invite;convene
-    -- ndY     nodaY   IV_0_Pass_yu    be called;be invited
-    -- ndy     noday   IV_Ann_Pass_yu  be called;be invited
-
-    verb     FaCA                      {- nadA-u -}         `imperf` [ FCuL ]
-                                                            -- `others` [ "nday IV_Ann_Pass_yu", "nad PV_ttAw", "ndY IV_0_Pass_yu", "nd IV_0hwnyn", "nduw IV_0hAnn", "nadaw PV_Atn" ]
-                                                            `gloss`  [ "call", "invite", "convene", "be called", "be invited" ],
-
-    -- ;; nad~aY_1
-    -- ndY     nad~aY  PV_0    moisten;make damp
-    -- ndA     nad~A   PV_h    moisten;make damp
-    -- ndy     nad~ay  PV_Atn  moisten;make damp
-    -- nd      nad~    PV_ttAw moisten;make damp
-    -- ndy     nad~iy  IV_0hAnn_yu     moisten;make damp
-    -- nd      nad~    IV_0hwnyn_yu    moisten;make damp
-    -- ndY     nad~aY  IV_0_Pass_yu    be moistened
-    -- ndy     nad~ay  IV_Ann_Pass_yu  be moistened
-
-    verb     FaCCY                     {- nad~aY -}         -- `others` [ "nadday PV_Atn IV_Ann_Pass_yu", "naddiy IV_0hAnn_yu", "naddA PV_h", "nadd IV_0hwnyn_yu PV_ttAw" ]
-                                                            `gloss`  [ "moisten", "make damp", "be moistened" ],
 
     -- ;; nAdaY_1
     -- nAdY    nAdaY   PV_0    announce;summon
@@ -8560,36 +2170,8 @@ lexicon = listing "Lexicon properties"
     -- nAdY    nAdaY   IV_0_Pass_yu    be announced;be summoned
     -- nAdy    nAday   IV_Ann_Pass_yu  be announced;be summoned
 
-    verb     FACY                      {- nAdaY -}          -- `others` [ "nAday PV_Atn IV_Ann_Pass_yu", "nAdiy IV_0hAnn_yu", "nAd IV_0hwnyn_yu PV_ttAw", "nAdA PV_h" ]
-                                                            `gloss`  [ "announce", "summon", "be announced", "be summoned" ],
-
-    -- ;; >anodaY_1
-    -- >ndY    >anodaY PV_0    moisten;make damp
-    -- AndY    >anodaY PV_0    moisten;make damp
-    -- >ndA    >anodA  PV_h    moisten;make damp
-    -- AndA    >anodA  PV_h    moisten;make damp
-    -- >ndy    >anoday PV_Atn  moisten;make damp
-    -- Andy    >anoday PV_Atn  moisten;make damp
-    -- >nd     >anod   PV_ttAw moisten;make damp
-    -- And     >anod   PV_ttAw moisten;make damp
-    -- ndy     nodiy   IV_0hAnn_yu     moisten;make damp
-    -- nd      nod     IV_0hwnyn_yu    moisten;make damp
-    -- ndY     nodaY   IV_0_Pass_yu    be moistened;be dampened
-    -- ndy     noday   IV_Ann_Pass_yu  be moistened;be dampened
-
-    verb     HaFCY                     {- OanodaY -}        -- `others` [ "nday IV_Ann_Pass_yu", "'anday PV_Atn", "nd IV_0hwnyn_yu", "'andA PV_h", "ndiy IV_0hAnn_yu", "'and PV_ttAw", "ndY IV_0_Pass_yu" ]
-                                                            `gloss`  [ "moisten", "make damp", "be moistened", "be dampened" ],
-
-    -- ;; tanad~aY_1
-    -- tndY    tanad~aY        PV_0    be moistened;appear generous
-    -- tndy    tanad~ay        PV_Atn  be moistened;appear generous
-    -- tnd     tanad~  PV_ttAw_intr    be moistened;appear generous
-    -- tndY    tanad~aY        IV_0    be moistened;appear generous
-    -- tndy    tanad~ay        IV_Ann  be moistened;appear generous
-    -- tnd     tanad~  IV_0hwnyn       be moistened;appear generous
-
-    verb     TaFaCCY                   {- tanad~aY -}       -- `others` [ "tanadday PV_Atn IV_Ann", "tanadd PV_ttAw_intr IV_0hwnyn" ]
-                                                            `gloss`  [ "be moistened", "appear generous" ],
+    FACY                      `verb`       {- nAdaY -}          [ "announce", "summon", "be announced", "be summoned" ]
+                              {- `others` [ "nAdiy IV_0hAnn_yu" ] -},
 
     -- ;; tanAdaY_1
     -- tnAdY   tanAdaY PV_0    call out to each other;work together
@@ -8601,56 +2183,15 @@ lexicon = listing "Lexicon properties"
     -- tnAdy   tanAday IV_Ann  call out to each other;work together
     -- tnAd    tanAd   IV_0hwnyn       call out to each other;work together
 
-    verb     TaFACY                    {- tanAdaY -}        -- `others` [ "tanAday PV_Atn IV_Ann", "tanAd IV_0hwnyn PV_ttAw", "tanAdA PV_h IV_h" ]
-                                                            `gloss`  [ "call out to each other", "work together" ],
-
-    -- ;; {inotadaY_1
-    -- <ntdY   {inotadaY       PV_0    assemble;convene
-    -- AntdY   {inotadaY       PV_0    assemble;convene
-    -- <ntdA   {inotadA        PV_h    assemble;convene
-    -- AntdA   {inotadA        PV_h    assemble;convene
-    -- <ntdy   {inotaday       PV_Atn  assemble;convene
-    -- Antdy   {inotaday       PV_Atn  assemble;convene
-    -- <ntd    {inotad PV_ttAw assemble;convene
-    -- Antd    {inotad PV_ttAw assemble;convene
-    -- ntdy    notadiy IV_0hAnn        assemble;convene
-    -- ntd     notad   IV_0hwnyn       assemble;convene
-    -- ntdY    notadaY IV_0_Passyu     be assembled;be convened
-
-    verb     IFtaCY                    {- {inotadaY -}      -- `others` [ "intadA PV_h", "ntadY IV_0_Passyu", "ntadiy IV_0hAnn", "intad PV_ttAw", "ntad IV_0hwnyn", "intaday PV_Atn" ]
-                                                            `gloss`  [ "assemble", "convene", "be assembled", "be convened" ],
+    TaFACY                    `verb`       {- tanAdaY -}        [ "call out to each other", "work together" ],
 
     -- ;; nadowap_1
     -- ndw     nadow   Napdu   seminar;symposium
     -- ndw     nadaw   NAt     seminars;symposia
 
-    noun     FaCL |< aT                {- nadowap -}        -- `others` [ "nadaw NAt" ]
-                                                            `gloss`  [ "seminar", "symposium", "seminars", "symposia" ],
-
-    -- ;; nuduw~ap_1
-    -- ndw     nuduw~  Nap     moistness;dampness
-    -- ndAw    nadAw   Nap     moistness;dampness
-
-    noun     FuCUL |< aT               {- nuduw~ap -}       -- `others` [ "nadAw Nap" ]
-                                                            `gloss`  [ "moistness", "dampness" ],
-
-    -- ;; nadaY_1
-    -- ndY     nadaY   N0      dew;generosity
-    -- ndA     nadA    Nhy     dew;generosity
-    -- >ndA'   >anodA' N0_Nh   dew;generosity
-    -- AndA'   >anodA' N0_Nh   dew;generosity
-    -- >ndA&   >anodA& Nh      dew;generosity
-    -- AndA&   >anodA& Nh      dew;generosity
-    -- >ndA}   >anodA} Nhy     dew;generosity
-    -- AndA}   >anodA} Nhy     dew;generosity
-
-    noun     FaCY                      {- nadaY -}          -- `others` [ "'andA' Nh Nhy N0_Nh", "nadA Nhy" ]
-                                                            `gloss`  [ "dew", "generosity" ],
-
-    -- ;; nadA_1
-    -- ndA     nadA    N0      Nada
-
-    noun     FaCA                      {- nadA -}           `gloss`  [ "Nada" ],
+    FaCL |< aT                `noun`       {- nadowap -}        [ "seminar", "symposium", "seminars", "symposia" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "nadaw NAt" ] -},
 
     -- ;; nidA'_1
     -- ndA'    nidA'   N0_Nh   call;appeal;invitation;summons
@@ -8660,19 +2201,7 @@ lexicon = listing "Lexicon properties"
     -- ndA}    nidA}   Nayn    calls;appeals;invitations
     -- ndA'    nidA'   NAt     calls;appeals;invitations
 
-    noun     FiCA'                     {- nidA' -}          `gloss`  [ "call", "appeal", "invitation", "summons", "calls", "appeals", "invitations" ],
-
-    -- ;; nadowAn_1
-    -- ndwAn   nadowAn Ndip    moist;damp;generous
-
-    noun     FaCLAn                    {- nadowAn -}        `gloss`  [ "moist", "damp", "generous" ],
-
-    -- ;; munAdAp_1
-    -- mnAdA   munAdA  Napdu   appeal;calling out;shouting
-    -- mnAdy   munAday NAt     appeals;calls;shouts
-
-    noun     MuFACY |< aT              {- munAdAp -}        -- `others` [ "munAday NAt" ]
-                                                            `gloss`  [ "appeal", "calling out", "shouting", "appeals", "calls", "shouts" ],
+    FiCA'                     `noun`       {- nidA' -}          [ "call", "appeal", "invitation", "summons", "calls", "appeals", "invitations" ],
 
     -- ;; nAdiy_1
     -- nAdy    nAdiy   N0F_Nh  club;association
@@ -8683,40 +2212,7 @@ lexicon = listing "Lexicon properties"
     -- nwAdy   nawAdiy N0_Nh   clubs;associations
     -- nwAd    nawAd   NK      clubs;associations
 
-    noun     FACI                      {- nAdiy -}          -- `others` [ "nawAd NK", "nawAdiy N0_Nh", "'andiy Nap", "nAd NK" ]
-                                                            `gloss`  [ "club", "association", "clubs", "associations" ],
-
-    -- ;; munad~aY_1
-    -- mndY    munad~aY        N0      wet;damp     [[munad~aY/ADJ]]
-    -- mndA    munad~A Nhy     wet;damp
-    -- mndy    munad~ay        NAn_Nayn        wet;damp
-    -- mndA    munad~A Napdu   wet;damp
-
-    noun     MuFaCCY                   {- munad~aY -}       -- `others` [ "munaddA Napdu Nhy", "munadday NAn_Nayn" ]
-                                                            `gloss`  [ "wet", "damp [ [ munad ~ aY / ADJ ] ]", "damp" ],
-
-    -- ;; munAdiy_1
-    -- mnAdy   munAdiy N0F_Nh  caller;calling
-    -- mnAd    munAd   NK      caller;calling
-    -- mnAdy   munAdiy NAn_Nayn        callers;calling
-    -- mnAd    munAd   Nuwn_Niyn       callers;calling
-    -- mnAdy   munAdiy NapAt   caller;calling
-
-    noun     MuFACI                    {- munAdiy -}        -- `others` [ "munAd Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "caller", "calling", "callers" ],
-
-    -- ;; munAdaY_1
-    -- mnAdY   munAdaY N0      called;summoned     [[munAdaY/ADJ]]
-    -- mnAdy   munAday NAn_Nayn        called;summoned
-    -- mnAdA   munAdA  Napdu   called;summoned
-
-    noun     MuFACY                    {- munAdaY -}        -- `others` [ "munAday NAn_Nayn", "munAdA Napdu" ]
-                                                            `gloss`  [ "called", "summoned [ [ munAdaY / ADJ ] ]", "summoned" ],
-
-    -- ;; munodiyap_1
-    -- mndy    munodiy NapAt   disgraceful deed;insult
-
-    noun     MuFCI |< aT               {- munodiyap -}      `gloss`  [ "disgraceful deed", "insult" ],
+    FACI                      `noun`       {- nAdiy -}          [ "club", "association", "clubs", "associations" ],
 
     -- ;; munotadaY_1
     -- mntdY   munotadaY       N0      assembly room;gathering place
@@ -8724,36 +2220,9 @@ lexicon = listing "Lexicon properties"
     -- mntdy   munotaday       NAn_Nayn        assembly rooms;gathering places
     -- mntdy   munotaday       NAt     assembly rooms;gathering places
 
-    noun     MuFtaCY                   {- munotadaY -}      -- `others` [ "muntadA Nhy", "muntaday NAt NAn_Nayn" ]
-                                                            `gloss`  [ "assembly room", "gathering place", "assembly rooms", "gathering places" ] ]
+    MuFtaCY                   `noun`       {- munotadaY -}      [ "assembly room", "gathering place", "assembly rooms", "gathering places" ] ]
 
  |> "n d y" <| [
-
-    -- ;; nAdiyap_1
-    -- nAdyp   nAdiyap Nprop   Nadia
-
-    noun     FACiL |< aT               {- nAdiyap -}        `gloss`  [ "Nadia" ],
-
-    -- ;; nadiy-a_1
-    -- ndy     nadiy   PV_no-w_intr    be moist;be damp
-    -- nd      nad     PV_w_intr       be moist;be damp
-    -- ndY     nodaY   IV_0    be moist;be damp
-    -- ndy     noday   IV_Ann  be moist;be damp
-    -- nd      noda    IV_0hwnyn       be moist;be damp
-
-    verb     FaCiL                     {- nadiy-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nda IV_0hwnyn", "nday IV_Ann", "nad PV_w_intr", "ndY IV_0" ]
-                                                            `gloss`  [ "be moist", "be damp" ],
-
-    -- ;; nadiy~_1
-    -- ndy     nadiy~  N/ap    moist;damp;generous     [[nadiy~/ADJ]]
-
-    noun     FaCIL                     {- nadiy~ -}         `gloss`  [ "moist", "damp", "generous [ [ nadiy ~ / ADJ ] ]" ],
-
-    -- ;; nadoyAn_1
-    -- ndyAn   nadoyAn Ndip    moist;damp;generous
-
-    noun     FaCLAn                    {- nadoyAn -}        `gloss`  [ "moist", "damp", "generous" ],
 
     -- ;; nAdiy_1
     -- nAdy    nAdiy   N0F_Nh  club;association
@@ -8764,191 +2233,10 @@ lexicon = listing "Lexicon properties"
     -- nwAdy   nawAdiy N0_Nh   clubs;associations
     -- nwAd    nawAd   NK      clubs;associations
 
-    noun     FACiL                     {- nAdiy -}          -- `others` [ "nawAd NK", "nawAdiy N0_Nh", "'andiy Nap", "nAd NK" ]
-                                                            `gloss`  [ "club", "association", "clubs", "associations" ],
-
-    -- ;; munAdiy_1
-    -- mnAdy   munAdiy N0F_Nh  caller;calling
-    -- mnAd    munAd   NK      caller;calling
-    -- mnAdy   munAdiy NAn_Nayn        callers;calling
-    -- mnAd    munAd   Nuwn_Niyn       callers;calling
-    -- mnAdy   munAdiy NapAt   caller;calling
-
-    noun     MuFACiL                   {- munAdiy -}        -- `others` [ "munAd Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "caller", "calling", "callers" ],
-
-    -- ;; munodiyap_1
-    -- mndy    munodiy NapAt   disgraceful deed;insult
-
-    noun     MuFCiL |< aT              {- munodiyap -}      `gloss`  [ "disgraceful deed", "insult" ] ]
-
- |> "n d y n" <| [
-
-    -- ;; nadoyAn_1
-    -- ndyAn   nadoyAn Ndip    moist;damp;generous
-
-    noun     KaRDAS                    {- nadoyAn -}        `gloss`  [ "moist", "damp", "generous" ] ]
-
- |> "n f '" <| [
-
-    -- ;; nafA'_1
-    -- nfA'    nafA'   N0_Nh   refuse;discarded item
-    -- nfA&    nafA&   Nh      refuse;discarded item
-    -- nfA}    nafA}   Nhy     refuse;discarded item
-    -- nfA     nafA    Nap     refuse;discarded item
-
-    noun     FaCAL                     {- nafA' -}          -- `others` [ "nafA Nap" ]
-                                                            `gloss`  [ "refuse", "discarded item" ],
-
-    -- ;; {inotifA'_1
-    -- <ntfA'  {inotifA'       N0_Nh   absence;lack
-    -- AntfA'  {inotifA'       N0_Nh   absence;lack
-    -- <ntfA&  {inotifA&       Nh      absence;lack
-    -- AntfA&  {inotifA&       Nh      absence;lack
-    -- <ntfA}  {inotifA}       Nhy     absence;lack
-    -- AntfA}  {inotifA}       Nhy     absence;lack
-    -- <ntfA'  {inotifA'       NAt     absence;lack
-    -- AntfA'  {inotifA'       NAt     absence;lack
-
-    noun     IFtiCAL                   {- {inotifA' -}      `gloss`  [ "absence", "lack" ] ]
-
- |> "n f .d" <| [
-
-    -- ;; nafaD-u_1
-    -- nfD     nafaD   PV      shake;recover
-    -- nfD     nofuD   IV      shake;recover
-
-    verb     FaCaL                     {- nafaD-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nfu.d IV" ]
-                                                            `gloss`  [ "shake", "recover" ],
-
-    -- ;; naf~aD_1
-    -- nfD     naf~aD  PV      shake
-    -- nfD     naf~iD  IV_yu   shake
-
-    verb     FaCCaL                    {- naf~aD -}         -- `others` [ "naffi.d IV_yu" ]
-                                                            `gloss`  [ "shake" ],
-
-    -- ;; >anofaD_1
-    -- >nfD    >anofaD PV      deplete;be depleted;remove
-    -- AnfD    >anofaD PV      deplete;be depleted;remove
-    -- nfD     nofiD   IV_yu   deplete;be depleted;remove
-    -- nfD     nofaD   IV_Pass_yu      be depleted;be removed
-
-    verb     HaFCaL                    {- OanofaD -}        -- `others` [ "nfi.d IV_yu", "nfa.d IV_Pass_yu" ]
-                                                            `gloss`  [ "deplete", "be depleted", "remove", "be removed" ],
-
-    -- ;; tanaf~aD_1
-    -- tnfD    tanaf~aD        PV_intr be shaken
-    -- tnfD    tanaf~aD        IV_intr be shaken
-
-    verb     TaFaCCaL                  {- tanaf~aD -}       `gloss`  [ "be shaken" ],
-
-    -- ;; {inotafaD_1
-    -- <ntfD   {inotafaD       PV      awaken;rise up
-    -- AntfD   {inotafaD       PV      awaken;rise up
-    -- ntfD    notafiD IV      awaken;rise up
-
-    verb     IFtaCaL                   {- {inotafaD -}      -- `others` [ "ntafi.d IV" ]
-                                                            `gloss`  [ "awaken", "rise up" ],
-
-    -- ;; nafaD_1
-    -- nfD     nafaD   N       shedding
-
-    noun     FaCaL                     {- nafaD -}          `gloss`  [ "shedding" ],
-
-    -- ;; nafaDiy~_1
-    -- nfDy    nafaDiy~        N-ap    shedding     [[nafaDiy~/ADJ]]
-
-    noun     FaCaL |< Iy               {- nafaDiy~ -}       `gloss`  [ "shedding [ [ nafaDiy ~ / ADJ ] ]" ],
-
-    -- ;; nafaDap_1
-    -- nfD     nafaD   Nap     scouting party;reconnaissance patrol
-
-    noun     FaCaL |< aT               {- nafaDap -}        `gloss`  [ "scouting party", "reconnaissance patrol" ],
-
-    -- ;; nufaDap_1
-    -- nfD     nufaD   Nap     shiver;ague fit
-    -- nfAD    nafAD   N       shiver;ague fit
-
-    noun     FuCaL |< aT               {- nufaDap -}        -- `others` [ "nafA.d N" ]
-                                                            `gloss`  [ "shiver", "ague fit" ],
-
-    -- ;; nufADap_1
-    -- nfAD    nufAD   Nap     shedding
-
-    noun     FuCAL |< aT               {- nufADap -}        `gloss`  [ "shedding" ],
-
-    -- ;; nafiyDap_1
-    -- nfyD    nafiyD  Nap     scouting party;reconnaissance patrol
-    -- nfA}D   nafA}iD Ndip    scouting parties;reconnaissance patrols
-
-    noun     FaCIL |< aT               {- nafiyDap -}       -- `others` [ "nafA'i.d Ndip" ]
-                                                            `gloss`  [ "scouting party", "reconnaissance patrol", "scouting parties", "reconnaissance patrols" ],
-
-    -- ;; minofaD_1
-    -- mnfD    minofaD N       sieve;winnow
-
-    noun     MiFCaL                    {- minofaD -}        `gloss`  [ "sieve", "winnow" ],
-
-    -- ;; minofaDap_1
-    -- mnfD    minofaD Napdu   ashtray
-    -- mnAfD   manAfiD Ndip    ashtrays
-
-    noun     MiFCaL |< aT              {- minofaDap -}      -- `others` [ "manAfi.d Ndip" ]
-                                                            `gloss`  [ "ashtray", "ashtrays" ],
-
-    -- ;; {inotifAD_1
-    -- <ntfAD  {inotifAD       N/At    tremor;awakening
-    -- AntfAD  {inotifAD       N/At    tremor;awakening
-
-    noun     IFtiCAL                   {- {inotifAD -}      `gloss`  [ "tremor", "awakening" ],
-
-    -- ;; {inotifADap_1
-    -- <ntfAD  {inotifAD       NapAt   Intifadah
-    -- AntfAD  {inotifAD       NapAt   Intifadah
-
-    noun     IFtiCAL |< aT             {- {inotifADap -}    `gloss`  [ "Intifadah" ],
-
-    -- ;; {inotifADap_2
-    -- <ntfAD  {inotifAD       NapAt   popular uprising
-    -- AntfAD  {inotifAD       NapAt   popular uprising
-
-    noun     IFtiCAL |< aT             {- {inotifADap -}    `gloss`  [ "popular uprising" ],
-
-    -- ;; munotafiD_1
-    -- mntfD   munotafiD       Nall    rebelling;rising up against     [[munotafiD/ADJ]]
-
-    noun     MuFtaCiL                  {- munotafiD -}      `gloss`  [ "rebelling", "rising up against [ [ munotafiD / ADJ ] ]" ] ]
-
- |> "n f .h" <| [
-
-    -- ;; nafaH-a_1
-    -- nfH     nafaH   PV      spread;be fragrant
-    -- nfH     nofaH   IV      spread;be fragrant
-
-    verb     FaCaL                     {- nafaH-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nfa.h IV" ]
-                                                            `gloss`  [ "spread", "be fragrant" ],
-
-    -- ;; nAfaH_1
-    -- nAfH    nAfaH   PV      protect;defend
-    -- nAfH    nAfiH   IV_yu   protect;defend
-
-    verb     FACaL                     {- nAfaH -}          -- `others` [ "nAfi.h IV_yu" ]
-                                                            `gloss`  [ "protect", "defend" ],
-
-    -- ;; nafoHap_1
-    -- nfH     nafoH   Napdu   fragrance;scent
-    -- nfH     nafaH   NAt     fragrances;scents
-
-    noun     FaCL |< aT                {- nafoHap -}        -- `others` [ "nafa.h NAt" ]
-                                                            `gloss`  [ "fragrance", "scent", "fragrances", "scents" ],
-
-    -- ;; minofaHap_1
-    -- mnfH    minofaH Nap     rennet (substance for curdling milk)
-
-    noun     MiFCaL |< aT              {- minofaHap -}      `gloss`  [ "rennet ( substance for curdling milk )" ] ]
+    FACiL                     `noun`       {- nAdiy -}          [ "club", "association", "clubs", "associations" ]
+                              `plural`     FawACiL
+                              `plural`     HaFCiL |< aT
+                              {- `others` [ "nawAdiy N0_Nh", "'andiy Nap" ] -} ]
 
  |> "n f .t" <| [
 
@@ -8956,132 +2244,23 @@ lexicon = listing "Lexicon properties"
     -- nfT     nafoT   N       petroleum;oil
     -- nfwT    nufuwT  N       petroleum;oil
 
-    noun     FaCL                      {- nafoT -}          -- `others` [ "nufuw.t N" ]
-                                                            `gloss`  [ "petroleum", "oil" ],
+    FaCL                      `noun`       {- nafoT -}          [ "petroleum", "oil" ]
+                              `plural`     FuCUL
+                              {- `others` [ "nufuw.t N" ] -},
 
     -- ;; nafoTiy~_1
     -- nfTy    nafoTiy~        Nall    petroleum;oil     [[nafoTiy~/ADJ]]
 
-    noun     FaCL |< Iy                {- nafoTiy~ -}       `gloss`  [ "petroleum", "oil [ [ nafoTiy ~ / ADJ ] ]" ],
-
-    -- ;; nafoTap_1
-    -- nfT     nafoT   Nap     blister
-
-    noun     FaCL |< aT                {- nafoTap -}        `gloss`  [ "blister" ],
-
-    -- ;; nufaTap_1
-    -- nfT     nufaT   Nap     irritable;hot-tempered
-
-    noun     FuCaL |< aT               {- nufaTap -}        `gloss`  [ "irritable", "hot-tempered" ],
-
-    -- ;; munaf~iT_1
-    -- mnfT    munaf~iT        N-ap    blistering;vesicatory
-
-    noun     MuFaCCiL                  {- munaf~iT -}       `gloss`  [ "blistering", "vesicatory" ] ]
-
- |> "n f ^g" <| [
-
-    -- ;; nafaj-u_1
-    -- nfj     nafaj   PV      jump;leap;boast
-    -- nfj     nofuj   IV      jump;leap;boast
-
-    verb     FaCaL                     {- nafaj-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nfu^g IV" ]
-                                                            `gloss`  [ "jump", "leap", "boast" ],
-
-    -- ;; tanaf~aj_1
-    -- tnfj    tanaf~aj        PV      boast
-    -- tnfj    tanaf~aj        IV      boast
-
-    verb     TaFaCCaL                  {- tanaf~aj -}       `gloss`  [ "boast" ],
-
-    -- ;; {inotafaj_1
-    -- <ntfj   {inotafaj       PV      jump;leap;boast
-    -- Antfj   {inotafaj       PV      jump;leap;boast
-    -- ntfj    notafij IV      jump;leap;boast
-
-    verb     IFtaCaL                   {- {inotafaj -}      -- `others` [ "ntafi^g IV" ]
-                                                            `gloss`  [ "jump", "leap", "boast" ],
-
-    -- ;; nafoj_1
-    -- nfj     nafoj   N       bragging;boasting
-
-    noun     FaCL                      {- nafoj -}          `gloss`  [ "bragging", "boasting" ],
-
-    -- ;; naf~Aj_1
-    -- nfAj    naf~Aj  Nall    braggart;snob
-
-    noun     FaCCAL                    {- naf~Aj -}         `gloss`  [ "braggart", "snob" ],
-
-    -- ;; nAfijap_1
-    -- nAfj    nAfij   Nap     musk container
-    -- nwAfj   nawAfij Ndip    musk containers
-
-    noun     FACiL |< aT               {- nAfijap -}        -- `others` [ "nawAfi^g Ndip" ]
-                                                            `gloss`  [ "musk container", "musk containers" ] ]
-
- |> "n f ^s" <| [
-
-    -- ;; nafa$-u_1
-    -- nf$     nafa$   PV      puff up;swell;ruffle
-    -- nf$     nofu$   IV      puff up;swell;ruffle
-
-    verb     FaCaL                     {- nafa$-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nfu^s IV" ]
-                                                            `gloss`  [ "puff up", "swell", "ruffle" ],
-
-    -- ;; naf~a$_1
-    -- nf$     naf~a$  PV      comb;card
-    -- nf$     naf~i$  IV_yu   comb;card
-
-    verb     FaCCaL                    {- naf~a$ -}         -- `others` [ "naffi^s IV_yu" ]
-                                                            `gloss`  [ "comb", "card" ],
-
-    -- ;; tanaf~a$_1
-    -- tnf$    tanaf~a$        PV      puff up;become inflated;ruffle
-    -- tnf$    tanaf~a$        IV      puff up;become inflated;ruffle
-
-    verb     TaFaCCaL                  {- tanaf~a$ -}       `gloss`  [ "puff up", "become inflated", "ruffle" ],
-
-    -- ;; {inotafa$_1
-    -- <ntf$   {inotafa$       PV      puff up;become inflated;ruffle
-    -- Antf$   {inotafa$       PV      puff up;become inflated;ruffle
-    -- ntf$    notafi$ IV      puff up;become inflated;ruffle
-
-    verb     IFtaCaL                   {- {inotafa$ -}      -- `others` [ "ntafi^s IV" ]
-                                                            `gloss`  [ "puff up", "become inflated", "ruffle" ],
-
-    -- ;; nafa$_1
-    -- nf$     nafa$   N       wool
-
-    noun     FaCaL                     {- nafa$ -}          `gloss`  [ "wool" ],
-
-    -- ;; naf~A$_1
-    -- nfA$    naf~A$  N       lemon
-
-    noun     FaCCAL                    {- naf~A$ -}         `gloss`  [ "lemon" ],
-
-    -- ;; manofuw$_1
-    -- mnfw$   manofuw$        Nall    inflated     [[manofuw$/ADJ]]
-
-    noun     MaFCUL                    {- manofuw$ -}       `gloss`  [ "inflated [ [ manofuw $ / ADJ ] ]" ] ]
+    FaCL |< Iy                `noun`       {- nafoTiy~ -}       [ "petroleum", "oil" ] ]
 
  |> "n f _d" <| [
-
-    -- ;; nafa*-u_1
-    -- nf*     nafa*   PV      penetrate;pass through;be operative
-    -- nf*     nofu*   IV      penetrate;pass through;be operative
-
-    verb     FaCaL                     {- nafa*-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nfu_d IV" ]
-                                                            `gloss`  [ "penetrate", "pass through", "be operative" ],
 
     -- ;; naf~a*_1
     -- nf*     naf~a*  PV      implement;carry out;accomplish
     -- nf*     naf~i*  IV_yu   implement;carry out;accomplish
 
-    verb     FaCCaL                    {- naf~a* -}         -- `others` [ "naffi_d IV_yu" ]
-                                                            `gloss`  [ "implement", "carry out", "accomplish" ],
+    FaCCaL                    `verb`       {- naf~a* -}         [ "implement", "carry out", "accomplish" ]
+                              {- `others` [ "naffi_d IV_yu" ] -},
 
     -- ;; >anofa*_1
     -- >nf*    >anofa* PV      implement;carry out;accomplish
@@ -9089,195 +2268,72 @@ lexicon = listing "Lexicon properties"
     -- nf*     nofi*   IV_yu   implement;carry out;accomplish
     -- nf*     nofa*   IV_Pass_yu      be implemented;be carried out;be accomplished
 
-    verb     HaFCaL                    {- Oanofa* -}        -- `others` [ "nfi_d IV_yu", "nfa_d IV_Pass_yu" ]
-                                                            `gloss`  [ "implement", "carry out", "accomplish", "be implemented", "be carried out", "be accomplished" ],
-
-    -- ;; tanaf~a*_1
-    -- tnf*    tanaf~a*        PV_intr be implemented;be carried out
-    -- tnf*    tanaf~a*        IV_intr be implemented;be carried out
-
-    verb     TaFaCCaL                  {- tanaf~a* -}       `gloss`  [ "be implemented", "be carried out" ],
-
-    -- ;; {isotanofa*_1
-    -- <stnf*  {isotanofa*     PV_intr be implemented;be carried out
-    -- Astnf*  {isotanofa*     PV_intr be implemented;be carried out
-    -- stnf*   sotanofi*       IV_intr be implemented;be carried out
-
-    verb     IstaFCaL                  {- {isotanofa* -}    -- `others` [ "stanfi_d IV_intr" ]
-                                                            `gloss`  [ "be implemented", "be carried out" ],
-
-    -- ;; nafa*_1
-    -- nf*     nafa*   N       opening;outlet;exit
-    -- >nfA*   >anofA* N       openings;outlets;exits
-    -- AnfA*   >anofA* N       openings;outlets;exits
-
-    noun     FaCaL                     {- nafa* -}          -- `others` [ "'anfA_d N" ]
-                                                            `gloss`  [ "opening", "outlet", "exit", "openings", "outlets", "exits" ],
+    HaFCaL                    `verb`       {- Oanofa* -}        [ "implement", "carry out", "accomplish", "be implemented", "be carried out", "be accomplished" ]
+                              {- `others` [ "nfi_d IV_yu", "nfa_d IV_Pass_yu" ] -},
 
     -- ;; nafA*_1
     -- nfA*    nafA*   N       action;implementation;effectuation
 
-    noun     FaCAL                     {- nafA* -}          `gloss`  [ "action", "implementation", "effectuation" ],
+    FaCAL                     `noun`       {- nafA* -}          [ "action", "implementation", "effectuation" ],
 
     -- ;; nafA*_2
     -- nfA*    nafA*   N       penetration
 
-    noun     FaCAL                     {- nafA* -}          `gloss`  [ "penetration" ],
-
-    -- ;; nafA*iy~ap_1
-    -- nfA*y   nafA*iy~        Nap     permeability;penetrating power     [[nafA*iy~/NOUN]]
-
-    noun     FaCAL |< Iy |< aT         {- nafA*iy~ap -}     `gloss`  [ "permeability", "penetrating power [ [ nafA*iy ~ / NOUN ] ]" ],
-
-    -- ;; naf~A*_1
-    -- nfA*    naf~A*  N-ap    penetrating;effective;permeable     [[naf~A*/ADJ]]
-
-    noun     FaCCAL                    {- naf~A* -}         `gloss`  [ "penetrating", "effective", "permeable [ [ naf ~ A* / ADJ ] ]" ],
+    FaCAL                     `noun`       {- nafA* -}          [ "penetration" ],
 
     -- ;; nufuw*_1
     -- nfw*    nufuw*  N       influence;effect
 
-    noun     FuCUL                     {- nufuw* -}         `gloss`  [ "influence", "effect" ],
+    FuCUL                     `noun`       {- nufuw* -}         [ "influence", "effect" ],
 
     -- ;; manofa*_1
     -- mnf*    manofa* Ndu     exit;opening
     -- mnf*    manofi* Ndu     exit;opening
     -- mnAf*   manAfi* Ndip    exits;openings
 
-    noun     MaFCaL                    {- manofa* -}        -- `others` [ "manAfi_d Ndip", "manfi_d Ndu" ]
-                                                            `gloss`  [ "exit", "opening", "exits", "openings" ],
+    MaFCaL                    `noun`       {- manofa* -}        [ "exit", "opening", "exits", "openings" ]
+                              `plural`     MaFACiL
+                              `plural`     MaFCiL
+                              {- `others` [ "manAfi_d Ndip", "manfi_d Ndu" ] -},
 
     -- ;; tanofiy*_1
     -- tnfy*   tanofiy*        N/At    implementation;execution;carrying out
 
-    noun     TaFCIL                    {- tanofiy* -}       `gloss`  [ "implementation", "execution", "carrying out" ],
+    TaFCIL                    `noun`       {- tanofiy* -}       [ "implementation", "execution", "carrying out" ],
 
     -- ;; tanofiy*iy~_1
     -- tnfy*y  tanofiy*iy~     N-ap    executive     [[tanofiy*iy~/ADJ]]
 
-    noun     TaFCIL |< Iy              {- tanofiy*iy~ -}    `gloss`  [ "executive [ [ tanofiy*iy ~ / ADJ ] ]" ],
+    TaFCIL |< Iy              `noun`       {- tanofiy*iy~ -}    [ "executive" ],
 
     -- ;; <inofA*_1
     -- <nfA*   <inofA* N/At    performance;carrying out;implementation
     -- AnfA*   <inofA* N/At    performance;carrying out;implementation
 
-    noun     HiFCAL                    {- IinofA* -}        `gloss`  [ "performance", "carrying out", "implementation" ],
+    HiFCAL                    `noun`       {- IinofA* -}        [ "performance", "carrying out", "implementation" ],
 
     -- ;; nAfi*_1
     -- nAf*    nAfi*   N-ap    effective;operative;valid     [[nAfi*/ADJ]]
 
-    noun     FACiL                     {- nAfi* -}          `gloss`  [ "effective", "operative", "valid [ [ nAfi* / ADJ ] ]" ],
+    FACiL                     `noun`       {- nAfi* -}          [ "effective", "operative", "valid" ],
 
     -- ;; nAfi*ap_1
     -- nAf*    nAfi*   Napdu   window
     -- nwAf*   nawAfi* Ndip    windows
 
-    noun     FACiL |< aT               {- nAfi*ap -}        -- `others` [ "nawAfi_d Ndip" ]
-                                                            `gloss`  [ "window", "windows" ],
+    FACiL |< aT               `noun`       {- nAfi*ap -}        [ "window", "windows" ]
+                              `plural`     FawACiL
+                              {- `others` [ "nawAfi_d Ndip" ] -},
 
     -- ;; munaf~i*_1
     -- mnf*    munaf~i*        Nall    executor;executant
 
-    noun     MuFaCCiL                  {- munaf~i* -}       `gloss`  [ "executor", "executant" ],
+    MuFaCCiL                  `noun`       {- munaf~i* -}       [ "executor", "executant" ],
 
     -- ;; mutanaf~i*_1
     -- mtnf*   mutanaf~i*      Nall    influential
 
-    noun     MutaFaCCiL                {- mutanaf~i* -}     `gloss`  [ "influential" ] ]
-
- |> "n f _h" <| [
-
-    -- ;; nafax-u_1
-    -- nfx     nafax   PV      inflate;blow into
-    -- nfx     nofux   IV      inflate;blow into
-
-    verb     FaCaL                     {- nafax-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nfu_h IV" ]
-                                                            `gloss`  [ "inflate", "blow into" ],
-
-    -- ;; tanaf~ax_1
-    -- tnfx    tanaf~ax        PV_intr be inflated;swell
-    -- tnfx    tanaf~ax        IV_intr be inflated;swell
-
-    verb     TaFaCCaL                  {- tanaf~ax -}       `gloss`  [ "be inflated", "swell" ],
-
-    -- ;; {inotafax_1
-    -- <ntfx   {inotafax       PV_intr be inflated;swell
-    -- Antfx   {inotafax       PV_intr be inflated;swell
-    -- ntfx    notafix IV_intr be inflated;swell
-
-    verb     IFtaCaL                   {- {inotafax -}      -- `others` [ "ntafi_h IV_intr" ]
-                                                            `gloss`  [ "be inflated", "swell" ],
-
-    -- ;; nafox_1
-    -- nfx     nafox   N       inflation;blowing into
-
-    noun     FaCL                      {- nafox -}          `gloss`  [ "inflation", "blowing into" ],
-
-    -- ;; nafoxap_1
-    -- nfx     nafox   Napdu   puff;inflation;swelling
-
-    noun     FaCL |< aT                {- nafoxap -}        `gloss`  [ "puff", "inflation", "swelling" ],
-
-    -- ;; nufAx_1
-    -- nfAx    nufAx   N       emphysema
-
-    noun     FuCAL                     {- nufAx -}          `gloss`  [ "emphysema" ],
-
-    -- ;; naf~Ax_1
-    -- nfAx    naf~Ax  Nall    grandiloquent;flatulent
-
-    noun     FaCCAL                    {- naf~Ax -}         `gloss`  [ "grandiloquent", "flatulent" ],
-
-    -- ;; nuf~Ax_1
-    -- nfAx    nuf~Ax  N       vesicle;inflation
-
-    noun     FuCCAL                    {- nuf~Ax -}         `gloss`  [ "vesicle", "inflation" ],
-
-    -- ;; nuf~Axap_1
-    -- nfAx    nuf~Ax  Nap     blister;bladder;bubble
-
-    noun     FuCCAL |< aT              {- nuf~Axap -}       `gloss`  [ "blister", "bladder", "bubble" ],
-
-    -- ;; minofax_1
-    -- mnfx    minofax Ndu     bellows
-    -- mnAfx   manAfix Ndip    bellows
-
-    noun     MiFCaL                    {- minofax -}        -- `others` [ "manAfi_h Ndip" ]
-                                                            `gloss`  [ "bellows" ],
-
-    -- ;; minofAx_1
-    -- mnfAx   minofAx Ndu     air pump;blowpipe
-    -- mnAfyx  manAfiyx        Ndip    air pumps;blowpipes
-
-    noun     MiFCAL                    {- minofAx -}        -- `others` [ "manAfiy_h Ndip" ]
-                                                            `gloss`  [ "air pump", "blowpipe", "air pumps", "blowpipes" ],
-
-    -- ;; tanaf~ux_1
-    -- tnfx    tanaf~ux        N/At    inflatedness;inflation;pride
-
-    noun     TaFaCCuL                  {- tanaf~ux -}       `gloss`  [ "inflatedness", "inflation", "pride" ],
-
-    -- ;; {inotifAx_1
-    -- <ntfAx  {inotifAx       N/At    inflation;swelling;flatulence
-    -- AntfAx  {inotifAx       N/At    inflation;swelling;flatulence
-
-    noun     IFtiCAL                   {- {inotifAx -}      `gloss`  [ "inflation", "swelling", "flatulence" ],
-
-    -- ;; nAfix_1
-    -- nAfx    nAfix   Nall    blowing;blower;wind-instrument player
-
-    noun     FACiL                     {- nAfix -}          `gloss`  [ "blowing", "blower", "wind-instrument player" ],
-
-    -- ;; manofuwx_1
-    -- mnfwx   manofuwx        Nall    inflated;swollen;full of air;conceited     [[manofuwx/ADJ]]
-
-    noun     MaFCUL                    {- manofuwx -}       `gloss`  [ "inflated", "swollen", "full of air", "conceited [ [ manofuwx / ADJ ] ]" ],
-
-    -- ;; munotafix_1
-    -- mntfx   munotafix       N-ap    inflated;swollen;puffed up     [[munotafix/ADJ]]
-
-    noun     MuFtaCiL                  {- munotafix -}      `gloss`  [ "inflated", "swollen", "puffed up [ [ munotafix / ADJ ] ]" ] ]
+    MutaFaCCiL                `noun`       {- mutanaf~i* -}     [ "influential" ] ]
 
  |> "n f _t" <| [
 
@@ -9286,50 +2342,9 @@ lexicon = listing "Lexicon properties"
     -- nfv     nofuv   IV      spit out;exhale
     -- nfv     nofiv   IV      spit out;exhale
 
-    verb     FaCaL                     {- nafav-ui -}       `imperf` [ FCuL, FCiL ]
-                                                            -- `others` [ "nfu_t IV", "nfi_t IV" ]
-                                                            `gloss`  [ "spit out", "exhale" ],
-
-    -- ;; nafov_1
-    -- nfv     nafov   N       expectoration;saliva
-    -- nfv     nafov   Napdu   expectoration;saliva
-    -- nfv     nafav   NAt     expectoration;saliva
-
-    noun     FaCL                      {- nafov -}          -- `others` [ "nafa_t NAt" ]
-                                                            `gloss`  [ "expectoration", "saliva" ],
-
-    -- ;; nafov_2
-    -- nfv     nafav   NAt     emissions;output;discharge
-
-    noun     FaCL                      {- nafov -}          -- `others` [ "nafa_t NAt" ]
-                                                            `gloss`  [ "emissions", "output", "discharge" ],
-
-    -- ;; nufAvap_1
-    -- nfAv    nufAv   Nap     spittle;saliva
-
-    noun     FuCAL |< aT               {- nufAvap -}        `gloss`  [ "spittle", "saliva" ],
-
-    -- ;; naf~Av_1
-    -- nfAv    naf~Av  N-ap    jet;jet-propelled
-
-    noun     FaCCAL                    {- naf~Av -}         `gloss`  [ "jet", "jet-propelled" ],
-
-    -- ;; naf~Avap_1
-    -- nfAv    naf~Av  NapAt   jet aircraft
-
-    noun     FaCCAL |< aT              {- naf~Avap -}       `gloss`  [ "jet aircraft" ],
-
-    -- ;; naf~Aviy~_1
-    -- nfAvy   naf~Aviy~       N-ap    jet propulsion     [[naf~Aviy~/ADJ]]
-
-    noun     FaCCAL |< Iy              {- naf~Aviy~ -}      `gloss`  [ "jet propulsion [ [ naf ~ Aviy ~ / ADJ ] ]" ],
-
-    -- ;; minofav_1
-    -- mnfv    minofav N       jet
-    -- mnAfv   manAfiv Ndip    jet
-
-    noun     MiFCaL                    {- minofav -}        -- `others` [ "manAfi_t Ndip" ]
-                                                            `gloss`  [ "jet" ] ]
+    FaCaL                     `verb`       {- nafav-ui -}       [ "spit out", "exhale" ]
+                              `imperf` [ FCuL, FCiL ]
+                              {- `others` [ "nfu_t IV", "nfi_t IV" ] -} ]
 
  |> "n f `" <| [
 
@@ -9337,90 +2352,37 @@ lexicon = listing "Lexicon properties"
     -- nfE     nafaE   PV_intr be useful;be advantageous
     -- nfE     nofaE   IV_intr be useful;be advantageous
 
-    verb     FaCaL                     {- nafaE-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nfa` IV_intr" ]
-                                                            `gloss`  [ "be useful", "be advantageous" ],
-
-    -- ;; naf~aE_1
-    -- nfE     naf~aE  PV      utilize
-    -- nfE     naf~iE  IV_yu   utilize
-
-    verb     FaCCaL                    {- naf~aE -}         -- `others` [ "naffi` IV_yu" ]
-                                                            `gloss`  [ "utilize" ],
-
-    -- ;; {inotafaE_1
-    -- <ntfE   {inotafaE       PV      profit from;utilize
-    -- AntfE   {inotafaE       PV      profit from;utilize
-    -- ntfE    notafiE IV      profit from;utilize
-
-    verb     IFtaCaL                   {- {inotafaE -}      -- `others` [ "ntafi` IV" ]
-                                                            `gloss`  [ "profit from", "utilize" ],
-
-    -- ;; {isotanofaE_1
-    -- <stnfE  {isotanofaE     PV      utilize
-    -- AstnfE  {isotanofaE     PV      utilize
-    -- stnfE   sotanofiE       IV      utilize
-
-    verb     IstaFCaL                  {- {isotanofaE -}    -- `others` [ "stanfi` IV" ]
-                                                            `gloss`  [ "utilize" ],
+    FaCaL                     `verb`       {- nafaE-a -}        [ "be useful", "be advantageous" ]
+                              `imperf` [ FCaL ]
+                              {- `others` [ "nfa` IV_intr" ] -},
 
     -- ;; nafoE_1
     -- nfE     nafoE   N       benefit;advantage;use
 
-    noun     FaCL                      {- nafoE -}          `gloss`  [ "benefit", "advantage", "use" ],
-
-    -- ;; nafoEiy~_1
-    -- nfEy    nafoEiy~        Nall    utilitarian;profit-oriented     [[nafoEiy~/ADJ]]
-
-    noun     FaCL |< Iy                {- nafoEiy~ -}       `gloss`  [ "utilitarian", "profit-oriented [ [ nafoEiy ~ / ADJ ] ]" ],
-
-    -- ;; nafoEiy~ap_1
-    -- nfEy    nafoEiy~        Nap     usefulness;utilitarianism     [[nafoEiy~/NOUN]]
-
-    noun     FaCL |< Iy |< aT          {- nafoEiy~ap -}     `gloss`  [ "usefulness", "utilitarianism [ [ nafoEiy ~ / NOUN ] ]" ],
+    FaCL                      `noun`       {- nafoE -}          [ "benefit", "advantage", "use" ],
 
     -- ;; naf~AE_1
     -- nfAE    naf~AE  N       useful     [[naf~AE/ADJ]]
 
-    noun     FaCCAL                    {- naf~AE -}         `gloss`  [ "useful [ [ naf ~ AE / ADJ ] ]" ],
-
-    -- ;; nafuwE_1
-    -- nfwE    nafuwE  N-ap    useful     [[nafuwE/ADJ]]
-
-    noun     FaCUL                     {- nafuwE -}         `gloss`  [ "useful [ [ nafuwE / ADJ ] ]" ],
+    FaCCAL                    `noun`       {- naf~AE -}         [ "useful" ],
 
     -- ;; manofaEap_1
     -- mnfE    manofaE Napdu   benefit;advantage
     -- mnAfE   manAfiE Ndip    facilities;benefits
 
-    noun     MaFCaL |< aT              {- manofaEap -}      -- `others` [ "manAfi` Ndip" ]
-                                                            `gloss`  [ "benefit", "advantage", "facilities", "benefits" ],
-
-    -- ;; {inotifAE_1
-    -- <ntfAE  {inotifAE       N/At    use;exploitation;benefit
-    -- AntfAE  {inotifAE       N/At    use;exploitation;benefit
-
-    noun     IFtiCAL                   {- {inotifAE -}      `gloss`  [ "use", "exploitation", "benefit" ],
+    MaFCaL |< aT              `noun`       {- manofaEap -}      [ "benefit", "advantage", "facilities", "benefits" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "manAfi` Ndip" ] -},
 
     -- ;; nAfiE_1
     -- nAfE    nAfiE   Nall    useful;beneficial;productive
 
-    noun     FACiL                     {- nAfiE -}          `gloss`  [ "useful", "beneficial", "productive" ],
-
-    -- ;; nAfiE_2
-    -- nAfE    nAfiE   Nprop   Nafie
-
-    noun     FACiL                     {- nAfiE -}          `gloss`  [ "Nafie" ],
-
-    -- ;; nAfiEap_1
-    -- nAfE    nAfiE   Nap     public works
-
-    noun     FACiL |< aT               {- nAfiEap -}        `gloss`  [ "public works" ],
+    FACiL                     `noun`       {- nAfiE -}          [ "useful", "beneficial", "productive" ],
 
     -- ;; munotafiE_1
     -- mntfE   munotafiE       Nall    beneficiary
 
-    noun     MuFtaCiL                  {- munotafiE -}      `gloss`  [ "beneficiary" ] ]
+    MuFtaCiL                  `noun`       {- munotafiE -}      [ "beneficiary" ] ]
 
  |> "n f d" <| [
 
@@ -9428,173 +2390,16 @@ lexicon = listing "Lexicon properties"
     -- nfd     nafid   PV_intr be depleted;dwindle
     -- nfd     nofad   IV_intr be depleted;dwindle
 
-    verb     FaCiL                     {- nafid-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nfad IV_intr" ]
-                                                            `gloss`  [ "be depleted", "dwindle" ],
-
-    -- ;; >anofad_1
-    -- >nfd    >anofad PV      consume;deplete
-    -- Anfd    >anofad PV      consume;deplete
-    -- nfd     nofid   IV_yu   consume;deplete
-    -- nfd     nofad   IV_Pass_yu      be consumed;be depleted
-
-    verb     HaFCaL                    {- Oanofad -}        -- `others` [ "nfad IV_Pass_yu", "nfid IV_yu" ]
-                                                            `gloss`  [ "consume", "deplete", "be consumed", "be depleted" ],
-
-    -- ;; {isotanofad_1
-    -- <stnfd  {isotanofad     PV      consume;deplete
-    -- Astnfd  {isotanofad     PV      consume;deplete
-    -- stnfd   sotanofid       IV      consume;deplete
-
-    verb     IstaFCaL                  {- {isotanofad -}    -- `others` [ "stanfid IV" ]
-                                                            `gloss`  [ "consume", "deplete" ],
-
-    -- ;; nafodap_1
-    -- nfd     nafod   Napdu   ledger entry;booked item
-    -- nfd     nafad   NAt     ledger entries;booked items
-
-    noun     FaCL |< aT                {- nafodap -}        -- `others` [ "nafad NAt" ]
-                                                            `gloss`  [ "ledger entry", "booked item", "ledger entries", "booked items" ],
-
-    -- ;; nafAd_1
-    -- nfAd    nafAd   N       depletion;exhaustion;dwindling
-
-    noun     FaCAL                     {- nafAd -}          `gloss`  [ "depletion", "exhaustion", "dwindling" ],
-
-    -- ;; nafuwd_1
-    -- nfwd    nafuwd  N       Nafud (SA)
-
-    noun     FaCUL                     {- nafuwd -}         `gloss`  [ "Nafud ( SA )" ],
+    FaCiL                     `verb`       {- nafid-a -}        [ "be depleted", "dwindle" ]
+                              `imperf` [ FCaL ]
+                              {- `others` [ "nfad IV_intr" ] -},
 
     -- ;; nAfid_1
     -- nAfd    nAfid   Nall    exhausted;depleted of     [[nAfid/ADJ]]
 
-    noun     FACiL                     {- nAfid -}          `gloss`  [ "exhausted", "depleted of [ [ nAfid / ADJ ] ]" ],
-
-    -- ;; nAfidap_1
-    -- nAfd    nAfid   Nap     void;vacuum
-
-    noun     FACiL |< aT               {- nAfidap -}        `gloss`  [ "void", "vacuum" ] ]
-
- |> "n f f" <| [
-
-    -- ;; naf~-i_1
-    -- nf      naf~    PV_V    blow the nose;snuff
-    -- nff     nafaf   PV_C    blow the nose;snuff
-    -- nf      nif~    IV_V    blow the nose;snuff
-    -- nff     nofif   IV_C    blow the nose;snuff
-
-    verb     FaCL                      {- naf~-i -}         `imperf` [ FCiL ]
-                                                            -- `others` [ "niff IV_V", "nafaf PV_C", "nfif IV_C" ]
-                                                            `gloss`  [ "blow the nose", "snuff" ],
-
-    -- ;; naf~ap_1
-    -- nf      naf~    Nap     pinch of snuff
-
-    noun     FaCL |< aT                {- naf~ap -}         `gloss`  [ "pinch of snuff" ],
-
-    -- ;; naf~Af_1
-    -- nfAf    naf~Af  Nall    snuff user;snuffer
-
-    noun     FaCCAL                    {- naf~Af -}         `gloss`  [ "snuff user", "snuffer" ] ]
-
- |> "n f l" <| [
-
-    -- ;; tanaf~al_1
-    -- tnfl    tanaf~al        PV      do more than required
-    -- tnfl    tanaf~al        IV      do more than required
-
-    verb     TaFaCCaL                  {- tanaf~al -}       `gloss`  [ "do more than required" ],
-
-    -- ;; {inotafal_1
-    -- <ntfl   {inotafal       PV      do more than required
-    -- Antfl   {inotafal       PV      do more than required
-    -- ntfl    notafil IV      do more than required
-
-    verb     IFtaCaL                   {- {inotafal -}      -- `others` [ "ntafil IV" ]
-                                                            `gloss`  [ "do more than required" ],
-
-    -- ;; nafol_1
-    -- nfl     nafol   N       more than required
-
-    noun     FaCL                      {- nafol -}          `gloss`  [ "more than required" ],
-
-    -- ;; nafal_1
-    -- nfl     nafal   N       booty;loot
-    -- >nfAl   >anofAl N       booty;loot
-    -- AnfAl   >anofAl N       booty;loot
-    -- nfwl    nufuwl  N       booty;loot
-
-    noun     FaCaL                     {- nafal -}          -- `others` [ "'anfAl N", "nufuwl N" ]
-                                                            `gloss`  [ "booty", "loot" ],
-
-    -- ;; nafal_2
-    -- nfl     nafal   N       clover
-
-    noun     FaCaL                     {- nafal -}          `gloss`  [ "clover" ],
-
-    -- ;; nAfilap_1
-    -- nAfl    nAfil   Nap     taken for granted
-    -- nwAfl   nawAfil Ndip    taken for granted
-
-    noun     FACiL |< aT               {- nAfilap -}        -- `others` [ "nawAfil Ndip" ]
-                                                            `gloss`  [ "taken for granted" ] ]
-
- |> "n f n f" <| [
-
-    -- ;; nafonaf_1
-    -- nfnf    nafonaf N       atmosphere;steep hillside;cliff
-    -- nfAnf   nafAnif Ndip    atmosphere;steep hillsides;cliffs
-
-    noun     KaRDaS                    {- nafonaf -}        -- `others` [ "nafAnif Ndip" ]
-                                                            `gloss`  [ "atmosphere", "steep hillside", "cliff", "steep hillsides", "cliffs" ],
-
-    -- ;; nafonuwf_1
-    -- nfnwf   nafonuwf        N       dress
-    -- nfAnyf  nafAniyf        Ndip    dresses
-
-    noun     KaRDUS                    {- nafonuwf -}       -- `others` [ "nafAniyf Ndip" ]
-                                                            `gloss`  [ "dress", "dresses" ] ]
+    FACiL                     `noun`       {- nAfid -}          [ "exhausted", "depleted of" ] ]
 
  |> "n f q" <| [
-
-    -- ;; nafaq-u_1
-    -- nfq     nafaq   PV      sell well;find a ready market;be active
-    -- nfq     nofuq   IV      sell well;find a ready market;be active
-
-    verb     FaCaL                     {- nafaq-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nfuq IV" ]
-                                                            `gloss`  [ "sell well", "find a ready market", "be active" ],
-
-    -- ;; nafaq-u_2
-    -- nfq     nafaq   PV_intr die;perish
-    -- nfq     nofuq   IV_intr die;perish
-
-    verb     FaCaL                     {- nafaq-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nfuq IV_intr" ]
-                                                            `gloss`  [ "die", "perish" ],
-
-    -- ;; nafiq-a_1
-    -- nfq     nafiq   PV_intr be depleted
-    -- nfq     nofaq   IV_intr be depleted
-
-    verb     FaCiL                     {- nafiq-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nfaq IV_intr" ]
-                                                            `gloss`  [ "be depleted" ],
-
-    -- ;; naf~aq_1
-    -- nfq     naf~aq  PV      sell
-    -- nfq     naf~iq  IV_yu   sell
-
-    verb     FaCCaL                    {- naf~aq -}         -- `others` [ "naffiq IV_yu" ]
-                                                            `gloss`  [ "sell" ],
-
-    -- ;; nAfaq_1
-    -- nAfq    nAfaq   PV      dissimulate;act hypocritically
-    -- nAfq    nAfiq   IV_yu   dissimulate;act hypocritically
-
-    verb     FACaL                     {- nAfaq -}          -- `others` [ "nAfiq IV_yu" ]
-                                                            `gloss`  [ "dissimulate", "act hypocritically" ],
 
     -- ;; >anofaq_1
     -- >nfq    >anofaq PV      spend;disburse
@@ -9602,168 +2407,74 @@ lexicon = listing "Lexicon properties"
     -- nfq     nofiq   IV_yu   spend;disburse
     -- nfq     nofaq   IV_Pass_yu      be spent;be disbursed
 
-    verb     HaFCaL                    {- Oanofaq -}        -- `others` [ "nfiq IV_yu", "nfaq IV_Pass_yu" ]
-                                                            `gloss`  [ "spend", "disburse", "be spent", "be disbursed" ],
-
-    -- ;; {isotanofaq_1
-    -- <stnfq  {isotanofaq     PV      spend;waste
-    -- Astnfq  {isotanofaq     PV      spend;waste
-    -- stnfq   sotanofiq       IV      spend;waste
-
-    verb     IstaFCaL                  {- {isotanofaq -}    -- `others` [ "stanfiq IV" ]
-                                                            `gloss`  [ "spend", "waste" ],
+    HaFCaL                    `verb`       {- Oanofaq -}        [ "spend", "disburse", "be spent", "be disbursed" ]
+                              {- `others` [ "nfiq IV_yu", "nfaq IV_Pass_yu" ] -},
 
     -- ;; nafaq_1
     -- nfq     nafaq   N       tunnel;subway shaft
     -- >nfAq   >anofAq N       subway;tunnels
     -- AnfAq   >anofAq N       subway;tunnels
 
-    noun     FaCaL                     {- nafaq -}          -- `others` [ "'anfAq N" ]
-                                                            `gloss`  [ "tunnel", "subway shaft", "subway", "tunnels" ],
+    FaCaL                     `noun`       {- nafaq -}          [ "tunnel", "subway shaft", "subway", "tunnels" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'anfAq N" ] -},
 
     -- ;; nafaqap_1
     -- nfq     nafaq   Napdu   expenditure;disbursement
     -- nfq     nafaq   NAt     expenditures;disbursements
 
-    noun     FaCaL |< aT               {- nafaqap -}        -- `others` [ "nafaq NAt" ]
-                                                            `gloss`  [ "expenditure", "disbursement", "expenditures", "disbursements" ],
+    FaCaL |< aT               `noun`       {- nafaqap -}        [ "expenditure", "disbursement", "expenditures", "disbursements" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "nafaq NAt" ] -},
 
     -- ;; nifAq_1
     -- nfAq    nifAq   N       expenditure;disbursement
 
-    noun     FiCAL                     {- nifAq -}          `gloss`  [ "expenditure", "disbursement" ],
-
-    -- ;; nafAq_1
-    -- nfAq    nafAq   N       brisk trade
-
-    noun     FaCAL                     {- nafAq -}          `gloss`  [ "brisk trade" ],
-
-    -- ;; minofAq_1
-    -- mnfAq   minofAq N       profligate;spendthrift
-
-    noun     MiFCAL                    {- minofAq -}        `gloss`  [ "profligate", "spendthrift" ],
-
-    -- ;; munAfaqap_1
-    -- mnAfq   munAfaq NapAt   hypocrisy;dissimulation
-
-    noun     MuFACaL |< aT             {- munAfaqap -}      `gloss`  [ "hypocrisy", "dissimulation" ],
+    FiCAL                     `noun`       {- nifAq -}          [ "expenditure", "disbursement" ],
 
     -- ;; <inofAq_1
     -- <nfAq   <inofAq N/At    expenditure;disbursement;expenses
     -- AnfAq   <inofAq N/At    expenditure;disbursement;expenses
 
-    noun     HiFCAL                    {- IinofAq -}        `gloss`  [ "expenditure", "disbursement", "expenses" ],
-
-    -- ;; nAfiq_1
-    -- nAfq    nAfiq   N-ap    selling well;in demand     [[nAfiq/ADJ]]
-
-    noun     FACiL                     {- nAfiq -}          `gloss`  [ "selling well", "in demand [ [ nAfiq / ADJ ] ]" ],
-
-    -- ;; munAfiq_1
-    -- mnAfq   munAfiq Nall    hypocrite;hypocritical
-
-    noun     MuFACiL                   {- munAfiq -}        `gloss`  [ "hypocrite", "hypocritical" ] ]
+    HiFCAL                    `noun`       {- IinofAq -}        [ "expenditure", "disbursement", "expenses" ] ]
 
  |> "n f r" <| [
-
-    -- ;; nafar-ui_1
-    -- nfr     nafar   PV      flee;be averse to;be alienated
-    -- nfr     nofur   IV      flee;be averse to;be alienated
-    -- nfr     nofir   IV      flee;be averse to;be alienated
-
-    verb     FaCaL                     {- nafar-ui -}       `imperf` [ FCuL, FCiL ]
-                                                            -- `others` [ "nfur IV", "nfir IV" ]
-                                                            `gloss`  [ "flee", "be averse to", "be alienated" ],
-
-    -- ;; naf~ar_1
-    -- nfr     naf~ar  PV      alienate;repulse
-    -- nfr     naf~ir  IV_yu   alienate;repulse
-
-    verb     FaCCaL                    {- naf~ar -}         -- `others` [ "naffir IV_yu" ]
-                                                            `gloss`  [ "alienate", "repulse" ],
-
-    -- ;; nAfar_1
-    -- nAfr    nAfar   PV      avoid;contradict;be incompatible with
-    -- nAfr    nAfir   IV_yu   avoid;contradict;be incompatible with
-
-    verb     FACaL                     {- nAfar -}          -- `others` [ "nAfir IV_yu" ]
-                                                            `gloss`  [ "avoid", "contradict", "be incompatible with" ],
-
-    -- ;; tanAfar_1
-    -- tnAfr   tanAfar PV      avoid each other;clash;be incompatible
-    -- tnAfr   tanAfar IV      avoid each other;clash;be incompatible
-
-    verb     TaFACaL                   {- tanAfar -}        `gloss`  [ "avoid each other", "clash", "be incompatible" ],
-
-    -- ;; {isotanofar_1
-    -- <stnfr  {isotanofar     PV_intr be frightened away;call into battle
-    -- Astnfr  {isotanofar     PV_intr be frightened away;call into battle
-    -- stnfr   sotanofir       IV_intr be frightened away;call into battle
-
-    verb     IstaFCaL                  {- {isotanofar -}    -- `others` [ "stanfir IV_intr" ]
-                                                            `gloss`  [ "be frightened away", "call into battle" ],
 
     -- ;; nafar_1
     -- nfr     nafar   N       soldier;private
     -- >nfAr   >anofAr N       soldiers;troops
     -- AnfAr   >anofAr N       soldiers;troops
 
-    noun     FaCaL                     {- nafar -}          -- `others` [ "'anfAr N" ]
-                                                            `gloss`  [ "soldier", "private", "soldiers", "troops" ],
+    FaCaL                     `noun`       {- nafar -}          [ "soldier", "private", "soldiers", "troops" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'anfAr N" ] -},
 
     -- ;; naforap_1
     -- nfr     nafor   Nap     aversion;dislike
     -- nfwr    nufuwr  N       aversion;alienation
 
-    noun     FaCL |< aT                {- naforap -}        -- `others` [ "nufuwr N" ]
-                                                            `gloss`  [ "aversion", "dislike", "alienation" ],
-
-    -- ;; nafuwr_1
-    -- nfwr    nafuwr  N-ap    easily frightened;shy
-
-    noun     FaCUL                     {- nafuwr -}         `gloss`  [ "easily frightened", "shy" ],
+    FaCL |< aT                `noun`       {- naforap -}        [ "aversion", "dislike", "alienation" ]
+                              `plural`     FuCUL
+                              {- `others` [ "nufuwr N" ] -},
 
     -- ;; nafiyr_1
     -- nfyr    nafiyr  N       call to arms;departure into battle
     -- >nfr    >anofir Nap     troops
     -- Anfr    >anofir Nap     troops
 
-    noun     FaCIL                     {- nafiyr -}         -- `others` [ "'anfir Nap" ]
-                                                            `gloss`  [ "call to arms", "departure into battle", "troops" ],
-
-    -- ;; tanofiyr_1
-    -- tnfyr   tanofiyr        N/At    alienation;repulsion
-
-    noun     TaFCIL                    {- tanofiyr -}       `gloss`  [ "alienation", "repulsion" ],
-
-    -- ;; tanAfur_1
-    -- tnAfr   tanAfur N/At    mutual aversion;dissension;discord
-
-    noun     TaFACuL                   {- tanAfur -}        `gloss`  [ "mutual aversion", "dissension", "discord" ],
-
-    -- ;; {isotinofAr_1
-    -- <stnfAr {isotinofAr     N/At    calling into battle;being frightened away
-    -- AstnfAr {isotinofAr     N/At    calling into battle;being frightened away
-
-    noun     IstiFCAL                  {- {isotinofAr -}    `gloss`  [ "calling into battle", "being frightened away" ],
+    FaCIL                     `noun`       {- nafiyr -}         [ "call to arms", "departure into battle", "troops" ]
+                              `plural`     HaFCiL |< aT
+                              {- `others` [ "'anfir Nap" ] -},
 
     -- ;; nAfir_1
     -- nAfr    nAfir   N/ap    fearful;averse;protruding
     -- nfr     nafor   N       fearful;averse;protruding
     -- nfr     nuf~ar  N       fearful;averse;protruding
 
-    noun     FACiL                     {- nAfir -}          -- `others` [ "nuffar N", "nafr N" ]
-                                                            `gloss`  [ "fearful", "averse", "protruding" ],
-
-    -- ;; munaf~ir_1
-    -- mnfr    munaf~ir        Nall    repulsive;repellent
-
-    noun     MuFaCCiL                  {- munaf~ir -}       `gloss`  [ "repulsive", "repellent" ],
-
-    -- ;; nAfuwrap_1
-    -- nAfwr   nAfuwr  Nap     fountain
-
-    noun     FACUL |< aT               {- nAfuwrap -}       `gloss`  [ "fountain" ] ]
+    FACiL                     `noun`       {- nAfir -}          [ "fearful", "averse", "protruding" ]
+                              `plural`     FuCCaL
+                              `plural`     FaCL
+                              {- `others` [ "nuffar N", "nafr N" ] -} ]
 
  |> "n f s" <| [
 
@@ -9772,50 +2483,20 @@ lexicon = listing "Lexicon properties"
     -- >nfs    >anofus N       selves
     -- Anfs    >anofus N       selves
 
-    noun     FaCL                      {- nafos -}          -- `others` [ "'anfus N" ]
-                                                            `gloss`  [ "same", "self [ [ nafos / NOUN ] ]", "selves" ],
-
-    -- ;; nafus-u_1
-    -- nfs     nafus   PV_intr be precious;be priceless
-    -- nfs     nofus   IV_intr be precious;be priceless
-
-    verb     FaCuL                     {- nafus-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nfus IV_intr" ]
-                                                            `gloss`  [ "be precious", "be priceless" ],
-
-    -- ;; nafis-a_1
-    -- nfs     nafis   PV      envy;be envious of
-    -- nfs     nofas   IV      envy;be envious of
-
-    verb     FaCiL                     {- nafis-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nfas IV" ]
-                                                            `gloss`  [ "envy", "be envious of" ],
-
-    -- ;; naf~as_1
-    -- nfs     naf~as  PV      cheer up;give vent to
-    -- nfs     naf~is  IV_yu   cheer up;give vent to
-
-    verb     FaCCaL                    {- naf~as -}         -- `others` [ "naffis IV_yu" ]
-                                                            `gloss`  [ "cheer up", "give vent to" ],
+    FaCL                      `noun`       {- nafos -}          [ "same", "self", "selves" ],
 
     -- ;; nAfas_1
     -- nAfs    nAfas   PV      compete with
     -- nAfs    nAfis   IV_yu   compete with
 
-    verb     FACaL                     {- nAfas -}          -- `others` [ "nAfis IV_yu" ]
-                                                            `gloss`  [ "compete with" ],
-
-    -- ;; tanaf~as_1
-    -- tnfs    tanaf~as        PV      breathe
-    -- tnfs    tanaf~as        IV      breathe
-
-    verb     TaFaCCaL                  {- tanaf~as -}       `gloss`  [ "breathe" ],
+    FACaL                     `verb`       {- nAfas -}          [ "compete with" ]
+                              {- `others` [ "nAfis IV_yu" ] -},
 
     -- ;; tanAfas_1
     -- tnAfs   tanAfas PV      compete
     -- tnAfs   tanAfas IV      compete
 
-    verb     TaFACaL                   {- tanAfas -}        `gloss`  [ "compete" ],
+    TaFACaL                   `verb`       {- tanAfas -}        [ "compete" ],
 
     -- ;; nafos_2
     -- nfs     nafos   N       soul
@@ -9823,138 +2504,71 @@ lexicon = listing "Lexicon properties"
     -- >nfs    >anofus N       souls
     -- Anfs    >anofus N       souls
 
-    noun     FaCL                      {- nafos -}          -- `others` [ "nufuws N", "'anfus N" ]
-                                                            `gloss`  [ "soul", "souls" ],
+    FaCL                      `noun`       {- nafos -}          [ "soul", "souls" ]
+                              `plural`     FuCUL
+                              {- `others` [ "nufuws N" ] -},
 
     -- ;; nafosiy~_1
     -- nfsy    nafosiy~        N-ap    mental;spiritual;psychological     [[nafosiy~/ADJ]]
 
-    noun     FaCL |< Iy                {- nafosiy~ -}       `gloss`  [ "mental", "spiritual", "psychological [ [ nafosiy ~ / ADJ ] ]" ],
+    FaCL |< Iy                `noun`       {- nafosiy~ -}       [ "mental", "spiritual", "psychological" ],
 
     -- ;; nafas_1
     -- nfs     nafas   N       breath;puff
     -- >nfAs   >anofAs N       breaths;puffs
     -- AnfAs   >anofAs N       breaths;puffs
 
-    noun     FaCaL                     {- nafas -}          -- `others` [ "'anfAs N" ]
-                                                            `gloss`  [ "breath", "puff", "breaths", "puffs" ],
-
-    -- ;; nufosap_1
-    -- nfs     nufos   Nap     delay
-
-    noun     FuCL |< aT                {- nufosap -}        `gloss`  [ "delay" ],
-
-    -- ;; nafosAniy~_1
-    -- nfsAny  nafosAniy~      Nall    mental;psychological     [[nafosAniy~/ADJ]]
-
-    noun     FaCLAn |< Iy              {- nafosAniy~ -}     `gloss`  [ "mental", "psychological [ [ nafosAniy ~ / ADJ ] ]" ],
-
-    -- ;; nafosAniy~ap_1
-    -- nfsAny  nafosAniy~      Nap     psychology     [[nafosAniy~/NOUN]]
-
-    noun     FaCLAn |< Iy |< aT        {- nafosAniy~ap -}   `gloss`  [ "psychology [ [ nafosAniy ~ / NOUN ] ]" ],
-
-    -- ;; nifAs_1
-    -- nfAs    nifAs   N       parturition;birthing
-
-    noun     FiCAL                     {- nifAs -}          `gloss`  [ "parturition", "birthing" ],
-
-    -- ;; nafAsap_1
-    -- nfAs    nafAs   Nap     preciousness;costliness
-
-    noun     FaCAL |< aT               {- nafAsap -}        `gloss`  [ "preciousness", "costliness" ],
+    FaCaL                     `noun`       {- nafas -}          [ "breath", "puff", "breaths", "puffs" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'anfAs N" ] -},
 
     -- ;; nafiys_1
     -- nfys    nafiys  N-ap    precious;costly     [[nafiys/ADJ]]
 
-    noun     FaCIL                     {- nafiys -}         `gloss`  [ "precious", "costly [ [ nafiys / ADJ ] ]" ],
-
-    -- ;; nafiysap_1
-    -- nfys    nafiys  Nap     object of value;gem
-    -- nfA}s   nafA}is Ndip    object of values;gems
-
-    noun     FaCIL |< aT               {- nafiysap -}       -- `others` [ "nafA'is Ndip" ]
-                                                            `gloss`  [ "object of value", "gem", "object of values", "gems" ],
-
-    -- ;; manofas_1
-    -- mnfs    manofas Ndu     air hole;valve
-    -- mnAfs   manAfis Ndip    air hole;valve
-
-    noun     MaFCaL                    {- manofas -}        -- `others` [ "manAfis Ndip" ]
-                                                            `gloss`  [ "air hole", "valve" ],
-
-    -- ;; minofasap_1
-    -- mnfs    minofas Nap     pneumograph
-
-    noun     MiFCaL |< aT              {- minofasap -}      `gloss`  [ "pneumograph" ],
+    FaCIL                     `noun`       {- nafiys -}         [ "precious", "costly" ],
 
     -- ;; tanofiys_1
     -- tnfys   tanofiys        N/At    ventilation;airing
 
-    noun     TaFCIL                    {- tanofiys -}       `gloss`  [ "ventilation", "airing" ],
+    TaFCIL                    `noun`       {- tanofiys -}       [ "ventilation", "airing" ],
 
     -- ;; munAfasap_1
     -- mnAfs   munAfas Napdu   competition;rivalry
     -- mnAfs   munAfas NAt     competitions;rivalries
 
-    noun     MuFACaL |< aT             {- munAfasap -}      -- `others` [ "munAfas NAt" ]
-                                                            `gloss`  [ "competition", "rivalry", "competitions", "rivalries" ],
-
-    -- ;; nifAs_2
-    -- nfAs    nifAs   N       competition;rivalry
-
-    noun     FiCAL                     {- nifAs -}          `gloss`  [ "competition", "rivalry" ],
+    MuFACaL |< aT             `noun`       {- munAfasap -}      [ "competition", "rivalry", "competitions", "rivalries" ]
+                              `plural`     MuFACaL |< At
+                              {- `others` [ "munAfas NAt" ] -},
 
     -- ;; tanaf~us_1
     -- tnfs    tanaf~us        N/At    respiration
 
-    noun     TaFaCCuL                  {- tanaf~us -}       `gloss`  [ "respiration" ],
+    TaFaCCuL                  `noun`       {- tanaf~us -}       [ "respiration" ],
 
     -- ;; tanaf~usiy~_1
     -- tnfsy   tanaf~usiy~     N-ap    respiratory     [[tanaf~usiy~/ADJ]]
 
-    noun     TaFaCCuL |< Iy            {- tanaf~usiy~ -}    `gloss`  [ "respiratory [ [ tanaf ~ usiy ~ / ADJ ] ]" ],
+    TaFaCCuL |< Iy            `noun`       {- tanaf~usiy~ -}    [ "respiratory" ],
 
     -- ;; tanAfus_1
     -- tnAfs   tanAfus N/At    competition;rivalry
 
-    noun     TaFACuL                   {- tanAfus -}        `gloss`  [ "competition", "rivalry" ],
+    TaFACuL                   `noun`       {- tanAfus -}        [ "competition", "rivalry" ],
 
     -- ;; tanAfusiy~_1
     -- tnAfsy  tanAfusiy~      Nall    competitive;antagonistic     [[tanAfusiy~/ADJ]]
 
-    noun     TaFACuL |< Iy             {- tanAfusiy~ -}     `gloss`  [ "competitive", "antagonistic [ [ tanAfusiy ~ / ADJ ] ]" ],
+    TaFACuL |< Iy             `noun`       {- tanAfusiy~ -}     [ "competitive", "antagonistic" ],
 
     -- ;; munAfis_1
     -- mnAfs   munAfis Nall    competitor;competing;rival
 
-    noun     MuFACiL                   {- munAfis -}        `gloss`  [ "competitor", "competing", "rival" ],
-
-    -- ;; mutanaf~as_1
-    -- mtnfs   mutanaf~as      N       breathing space;free scope;escape
-
-    noun     MutaFaCCaL                {- mutanaf~as -}     `gloss`  [ "breathing space", "free scope", "escape" ],
+    MuFACiL                   `noun`       {- munAfis -}        [ "competitor", "competing", "rival" ],
 
     -- ;; mutanAfis_1
     -- mtnAfs  mutanAfis       Nall    competitor;opponent
 
-    noun     MutaFACiL                 {- mutanAfis -}      `gloss`  [ "competitor", "opponent" ],
-
-    -- ;; mutanAfas_1
-    -- mtnAfs  mutanAfas       N-ap    competed for     [[mutanAfas/ADJ]]
-
-    noun     MutaFACaL                 {- mutanAfas -}      `gloss`  [ "competed for [ [ mutanAfas / ADJ ] ]" ] ]
-
- |> "n f s '" <| [
-
-    -- ;; nafosA'_1
-    -- nfsA'   nafosA' N0_Nh   in childbed
-    -- nfsA&   nafosA& Nh      in childbed
-    -- nfsA}   nafosA} Nhy     in childbed
-    -- nwAfs   nawAfis Ndip    in childbed
-
-    noun     KaRDAS                    {- nafosA' -}        -- `others` [ "nawAfis Ndip" ]
-                                                            `gloss`  [ "in childbed" ] ]
+    MutaFACiL                 `noun`       {- mutanAfis -}      [ "competitor", "opponent" ] ]
 
  |> "n f w" <| [
 
@@ -9967,9 +2581,9 @@ lexicon = listing "Lexicon properties"
     -- nfY     nofaY   IV_0_Pass_yu    be denied;be refuted;be rejected
     -- nfy     nofay   IV_Ann_Pass_yu  be denied;be refuted;be rejected
 
-    verb     FaCA                      {- nafA-u -}         `imperf` [ FCuL ]
-                                                            -- `others` [ "nfuw IV_0hAnn", "nfY IV_0_Pass_yu", "naf PV_ttAw", "nfay IV_Ann_Pass_yu", "nf IV_0hwnyn", "nafaw PV_Atn" ]
-                                                            `gloss`  [ "deny", "refute", "reject", "be denied", "be refuted", "be rejected" ],
+    FaCA                      `verb`       {- nafA-u -}         [ "deny", "refute", "reject", "be denied", "be refuted", "be rejected" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "nfuw IV_0hAnn", "nfY IV_0_Pass_yu", "nafaw PV_Atn" ] -},
 
     -- ;; nafaY_1
     -- nfY     nafaY   PV_0    deny;disavow;reject
@@ -9980,21 +2594,8 @@ lexicon = listing "Lexicon properties"
     -- nf      nof     IV_0hwnyn       deny;disavow;reject
     -- nfY     nofaY   IV_0_Pass_yu    be denied;be disavowed;be rejected
 
-    verb     FaCY                      {- nafaY -}          -- `others` [ "nafay PV_Atn", "nfY IV_0_Pass_yu", "nafA PV_h", "nfiy IV_0hAnn", "naf PV_ttAw", "nf IV_0hwnyn" ]
-                                                            `gloss`  [ "deny", "disavow", "reject", "be denied", "be disavowed", "be rejected" ],
-
-    -- ;; nAfaY_1
-    -- nAfY    nAfaY   PV_0    pursue;contradict;be inconsistent with
-    -- nAfA    nAfA    PV_h    pursue;contradict;be inconsistent with
-    -- nAfy    nAfay   PV_Atn  pursue;contradict;be inconsistent with
-    -- nAf     nAf     PV_ttAw pursue;contradict;be inconsistent with
-    -- nAfy    nAfiy   IV_0hAnn_yu     pursue;contradict;be inconsistent with
-    -- nAf     nAf     IV_0hwnyn_yu    pursue;contradict;be inconsistent with
-    -- nAfY    nAfaY   IV_0_Pass_yu    be contradicted
-    -- nAfy    nAfay   IV_Ann_Pass_yu  be contradicted
-
-    verb     FACY                      {- nAfaY -}          -- `others` [ "nAfiy IV_0hAnn_yu", "nAfay PV_Atn IV_Ann_Pass_yu", "nAfA PV_h", "nAf IV_0hwnyn_yu PV_ttAw" ]
-                                                            `gloss`  [ "pursue", "contradict", "be inconsistent with", "be contradicted" ],
+    FaCY                      `verb`       {- nafaY -}          [ "deny", "disavow", "reject", "be denied", "be disavowed", "be rejected" ]
+                              {- `others` [ "nfY IV_0_Pass_yu", "nafA PV_h", "nfiy IV_0hAnn" ] -},
 
     -- ;; tanAfaY_1
     -- tnAfY   tanAfaY PV_0    be contradicting;be incompatible
@@ -10006,61 +2607,13 @@ lexicon = listing "Lexicon properties"
     -- tnAfy   tanAfay IV_Ann  be contradicting;be incompatible
     -- tnAf    tanAf   IV_0hwnyn       be contradicting;be incompatible
 
-    verb     TaFACY                    {- tanAfaY -}        -- `others` [ "tanAf PV_ttAw_intr IV_0hwnyn", "tanAfay PV_Atn IV_Ann", "tanAfA PV_h IV_h" ]
-                                                            `gloss`  [ "be contradicting", "be incompatible" ],
-
-    -- ;; {inotafaY_1
-    -- <ntfY   {inotafaY       PV_0    be banished;be denied;be omitted
-    -- AntfY   {inotafaY       PV_0    be banished;be denied;be omitted
-    -- <ntfA   {inotafA        PV_h    be banished;be denied;be omitted
-    -- AntfA   {inotafA        PV_h    be banished;be denied;be omitted
-    -- <ntfy   {inotafay       PV_Atn  be banished;be denied;be omitted
-    -- Antfy   {inotafay       PV_Atn  be banished;be denied;be omitted
-    -- <ntf    {inotaf PV_ttAw_intr    be banished;be denied;be omitted
-    -- Antf    {inotaf PV_ttAw_intr    be banished;be denied;be omitted
-    -- ntfy    notafiy IV_0hAnn        be banished;be denied;be omitted
-    -- ntf     notaf   IV_0hwnyn       be banished;be denied;be omitted
-    -- ntfY    notafaY IV_0_Pass_yu    be banished;be denied;be omitted
-
-    verb     IFtaCY                    {- {inotafaY -}      -- `others` [ "ntaf IV_0hwnyn", "intaf PV_ttAw_intr", "intafA PV_h", "ntafY IV_0_Pass_yu", "ntafiy IV_0hAnn", "intafay PV_Atn" ]
-                                                            `gloss`  [ "be banished", "be denied", "be omitted" ],
-
-    -- ;; {isotanofaY_1
-    -- <stnfY  {isotanofaY     PV_0    reject
-    -- AstnfY  {isotanofaY     PV_0    reject
-    -- <stnfA  {isotanofA      PV_h    reject
-    -- AstnfA  {isotanofA      PV_h    reject
-    -- <stnfy  {isotanofay     PV_Atn  reject
-    -- Astnfy  {isotanofay     PV_Atn  reject
-    -- <stnf   {isotanof       PV_ttAw reject
-    -- Astnf   {isotanof       PV_ttAw reject
-    -- stnfy   sotanofiy       IV_0hAnn        reject
-    -- stnf    sotanof IV_0hwnyn       reject
-    -- stnfY   sotanofaY       IV_0_Pass_yu    be rejected
-
-    verb     IstaFCY                   {- {isotanofaY -}    -- `others` [ "stanf IV_0hwnyn", "stanfiy IV_0hAnn", "stanfY IV_0_Pass_yu", "istanfay PV_Atn", "istanfA PV_h", "istanf PV_ttAw" ]
-                                                            `gloss`  [ "reject", "be rejected" ],
-
-    -- ;; nafA'_1
-    -- nfA'    nafA'   N0_Nh   refuse;discarded item
-    -- nfA&    nafA&   Nh      refuse;discarded item
-    -- nfA}    nafA}   Nhy     refuse;discarded item
-    -- nfA     nafA    Nap     refuse;discarded item
-
-    noun     FaCA'                     {- nafA' -}          -- `others` [ "nafA Nap" ]
-                                                            `gloss`  [ "refuse", "discarded item" ],
-
-    -- ;; nufAwap_1
-    -- nfAw    nufAw   Nap     refused;discarded item
-
-    noun     FuCAL |< aT               {- nufAwap -}        `gloss`  [ "refused", "discarded item" ],
+    TaFACY                    `verb`       {- tanAfaY -}        [ "be contradicting", "be incompatible" ],
 
     -- ;; manofaY_1
     -- mnfY    manofaY N0      exile;banishment
     -- mnfA    manofA  Nhy     exile;banishment
 
-    noun     MaFCY                     {- manofaY -}        -- `others` [ "manfA Nhy" ]
-                                                            `gloss`  [ "exile", "banishment" ],
+    MaFCY                     `noun`       {- manofaY -}        [ "exile", "banishment" ],
 
     -- ;; manofaY_2
     -- mnfY    manofaY N0      place of exile;banishment
@@ -10069,104 +2622,39 @@ lexicon = listing "Lexicon properties"
     -- mnAfy   manAfiy N0_Nh   places of exile;banishment
     -- mnAf    manAf   NK      places of exile;banishment
 
-    noun     MaFCY                     {- manofaY -}        -- `others` [ "manAfiy N0_Nh", "manAf NK", "manfA Nhy", "manfay NAn_Nayn" ]
-                                                            `gloss`  [ "place of exile", "banishment", "places of exile" ],
-
-    -- ;; munAfAp_1
-    -- mnAfA   munAfA  Napdu   contradiction;inconsistency;incompatibility
-    -- mnAfy   munAfay NAt     contradiction;inconsistency;incompatibility
-
-    noun     MuFACY |< aT              {- munAfAp -}        -- `others` [ "munAfay NAt" ]
-                                                            `gloss`  [ "contradiction", "inconsistency", "incompatibility" ],
-
-    -- ;; tanAfiy_1
-    -- tnAfy   tanAfiy N0_Nh   mutual incompatibility
-    -- tnAf    tanAf   NK      mutual incompatibility
-    -- tnAfy   tanAfiy NAn_Nayn        mutual incompatibilities
-    -- tnAfy   tanAfiy NAt     mutual incompatibilities
-
-    noun     TaFACI                    {- tanAfiy -}        -- `others` [ "tanAf NK" ]
-                                                            `gloss`  [ "mutual incompatibility", "mutual incompatibilities" ],
-
-    -- ;; {inotifA'_1
-    -- <ntfA'  {inotifA'       N0_Nh   absence;lack
-    -- AntfA'  {inotifA'       N0_Nh   absence;lack
-    -- <ntfA&  {inotifA&       Nh      absence;lack
-    -- AntfA&  {inotifA&       Nh      absence;lack
-    -- <ntfA}  {inotifA}       Nhy     absence;lack
-    -- AntfA}  {inotifA}       Nhy     absence;lack
-    -- <ntfA'  {inotifA'       NAt     absence;lack
-    -- AntfA'  {inotifA'       NAt     absence;lack
-
-    noun     IFtiCA'                   {- {inotifA' -}      `gloss`  [ "absence", "lack" ],
-
-    -- ;; nAfiyAF_1
-    -- nAfy    nAfiy   NF      denying;disavowing;rejecting
-
-    noun     FACI |< aN                {- nAfiyAF -}        -- `others` [ "nAfiy NF" ]
-                                                            `gloss`  [ "denying", "disavowing", "rejecting" ],
-
-    -- ;; manofiy~_1
-    -- mnfy    manofiy~        N-ap    denied;rejected;discarded     [[manofiy~/ADJ]]
-
-    noun     MaFCIy                    {- manofiy~ -}       `gloss`  [ "denied", "rejected", "discarded [ [ manofiy ~ / ADJ ] ]" ],
+    MaFCY                     `noun`       {- manofaY -}        [ "place of exile", "banishment", "places of exile" ]
+                              `plural`     MaFACI
+                              {- `others` [ "manAfiy N0_Nh" ] -},
 
     -- ;; manofiy~_2
     -- mnfy    manofiy~        Nall    exiled;deported     [[manofiy~/ADJ]]
 
-    noun     MaFCIy                    {- manofiy~ -}       `gloss`  [ "exiled", "deported [ [ manofiy ~ / ADJ ] ]" ],
-
-    -- ;; munAfiy_1
-    -- mnAfy   munAfiy N0F_Nh  incompatible     [[munAfiy/ADJ]]
-    -- mnAf    munAf   NK      incompatible
-    -- mnAfy   munAfiy NAn_Nayn        incompatible
-    -- mnAf    munAf   Nuwn_Niyn       incompatible
-    -- mnAfy   munAfiy NapAt   incompatible
-
-    noun     MuFACI                    {- munAfiy -}        -- `others` [ "munAf Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "incompatible [ [ munAfiy / ADJ ] ]", "incompatible" ] ]
+    MaFCIy                    `noun`       {- manofiy~ -}       [ "exiled", "deported" ] ]
 
  |> "n f y" <| [
 
     -- ;; nafoy_1
     -- nfy     nafoy   N       denial;disavowal
 
-    noun     FaCL                      {- nafoy -}          `gloss`  [ "denial", "disavowal" ],
-
-    -- ;; nafiy~_1
-    -- nfy     nafiy~  N-ap    denied;rejected     [[nafiy~/ADJ]]
-
-    noun     FaCIL                     {- nafiy~ -}         `gloss`  [ "denied", "rejected [ [ nafiy ~ / ADJ ] ]" ],
+    FaCL                      `noun`       {- nafoy -}          [ "denial", "disavowal" ],
 
     -- ;; nufAyap_1
     -- nfAy    nufAy   NapAt   waste;refuse
 
-    noun     FuCAL |< aT               {- nufAyap -}        `gloss`  [ "waste", "refuse" ],
-
-    -- ;; nAfiyAF_1
-    -- nAfy    nAfiy   NF      denying;disavowing;rejecting
-
-    noun     FACiL |< aN               {- nAfiyAF -}        -- `others` [ "nAfiy NF" ]
-                                                            `gloss`  [ "denying", "disavowing", "rejecting" ],
-
-    -- ;; munAfiy_1
-    -- mnAfy   munAfiy N0F_Nh  incompatible     [[munAfiy/ADJ]]
-    -- mnAf    munAf   NK      incompatible
-    -- mnAfy   munAfiy NAn_Nayn        incompatible
-    -- mnAf    munAf   Nuwn_Niyn       incompatible
-    -- mnAfy   munAfiy NapAt   incompatible
-
-    noun     MuFACiL                   {- munAfiy -}        -- `others` [ "munAf Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "incompatible [ [ munAfiy / ADJ ] ]", "incompatible" ] ]
+    FuCAL |< aT               `noun`       {- nufAyap -}        [ "waste", "refuse" ] ]
 
  |> "n h '" <| [
 
-    -- ;; nihA'_1
-    -- nhA'    nihA'   N0_Nh   termination;conclusion
-    -- nhA&    nihA&   Nh      termination;conclusion
-    -- nhA}    nihA}   Nhy     termination;conclusion
+    -- ;; nihA}iy~_1
+    -- nhA}y   nihA}iy~        Nall    final;definitive;conclusive     [[nihA}iy~/ADJ]]
+    -- nhA}y   nihA}iy~        NF      finally;in the end     [[nihA}iy~/ADV]]
 
-    noun     FiCAL                     {- nihA' -}          `gloss`  [ "termination", "conclusion" ],
+    FiCAL |< Iy               `noun`       {- nihA}iy~ -}       [ "final", "definitive", "conclusive", "finally", "in the end" ],
+
+    -- ;; nihA}iy~_2
+    -- nhA}y   nihA}iy~        NduAt   final (in sports)    [[nihA}iy~/NOUN]]
+
+    FiCAL |< Iy               `noun`       {- nihA}iy~ -}       [ "final (in sports)" ],
 
     -- ;; <inohA'_1
     -- <nhA'   <inohA' N0_Nh   termination;completion
@@ -10178,19 +2666,7 @@ lexicon = listing "Lexicon properties"
     -- <nhA'   <inohA' NAt     termination;completion
     -- AnhA'   <inohA' NAt     termination;completion
 
-    noun     HiFCAL                    {- IinohA' -}        `gloss`  [ "termination", "completion" ],
-
-    -- ;; {inotihA'_1
-    -- AnthA'  {inotihA'       N0_Nh   finishing;completion;conclusion
-    -- <nthA'  {inotihA'       N0_Nh   finishing;completion;conclusion
-    -- AnthA&  {inotihA&       Nh      finishing;completion;conclusion
-    -- <nthA&  {inotihA&       Nh      finishing;completion;conclusion
-    -- AnthA}  {inotihA}       Nhy     finishing;completion;conclusion
-    -- <nthA}  {inotihA}       Nhy     finishing;completion;conclusion
-    -- AnthA'  {inotihA'       NAt     finishing;completion;conclusion
-    -- <nthA'  {inotihA'       NAt     finishing;completion;conclusion
-
-    noun     IFtiCAL                   {- {inotihA' -}      `gloss`  [ "finishing", "completion", "conclusion" ] ]
+    HiFCAL                    `noun`       {- IinohA' -}        [ "termination", "completion" ] ]
 
  |> "n h .d" <| [
 
@@ -10198,16 +2674,9 @@ lexicon = listing "Lexicon properties"
     -- nhD     nahaD   PV      rise;awaken;rebel
     -- nhD     nohaD   IV      rise;awaken;rebel
 
-    verb     FaCaL                     {- nahaD-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nha.d IV" ]
-                                                            `gloss`  [ "rise", "awaken", "rebel" ],
-
-    -- ;; nAhaD_1
-    -- nAhD    nAhaD   PV      oppose;resist
-    -- nAhD    nAhiD   IV_yu   oppose;resist
-
-    verb     FACaL                     {- nAhaD -}          -- `others` [ "nAhi.d IV_yu" ]
-                                                            `gloss`  [ "oppose", "resist" ],
+    FaCaL                     `verb`       {- nahaD-a -}        [ "rise", "awaken", "rebel" ]
+                              `imperf` [ FCaL ]
+                              {- `others` [ "nha.d IV" ] -},
 
     -- ;; >anohaD_1
     -- >nhD    >anohaD PV      raise;help up
@@ -10215,196 +2684,68 @@ lexicon = listing "Lexicon properties"
     -- nhD     nohiD   IV_yu   raise;help up
     -- nhD     nohaD   IV_Pass_yu      be raised;be helped up
 
-    verb     HaFCaL                    {- OanohaD -}        -- `others` [ "nhi.d IV_yu", "nha.d IV_Pass_yu" ]
-                                                            `gloss`  [ "raise", "help up", "be raised", "be helped up" ],
-
-    -- ;; tanAhaD_1
-    -- tnAhD   tanAhaD PV      get up;rise
-    -- tnAhD   tanAhaD IV      get up;rise
-
-    verb     TaFACaL                   {- tanAhaD -}        `gloss`  [ "get up", "rise" ],
-
-    -- ;; {inotahaD_1
-    -- <nthD   {inotahaD       PV      get up;rise
-    -- AnthD   {inotahaD       PV      get up;rise
-    -- nthD    notahiD IV      get up;rise
-
-    verb     IFtaCaL                   {- {inotahaD -}      -- `others` [ "ntahi.d IV" ]
-                                                            `gloss`  [ "get up", "rise" ],
-
-    -- ;; {isotanohaD_1
-    -- <stnhD  {isotanohaD     PV      awaken;stimulate;incite
-    -- AstnhD  {isotanohaD     PV      awaken;stimulate;incite
-    -- stnhD   sotanohiD       IV      awaken;stimulate;incite
-
-    verb     IstaFCaL                  {- {isotanohaD -}    -- `others` [ "stanhi.d IV" ]
-                                                            `gloss`  [ "awaken", "stimulate", "incite" ],
-
-    -- ;; nahoD_1
-    -- nhD     nahoD   N       awakening;growth
-
-    noun     FaCL                      {- nahoD -}          `gloss`  [ "awakening", "growth" ],
+    HaFCaL                    `verb`       {- OanohaD -}        [ "raise", "help up", "be raised", "be helped up" ]
+                              {- `others` [ "nhi.d IV_yu", "nha.d IV_Pass_yu" ] -},
 
     -- ;; nahoDap_1
     -- nhD     nahoD   Napdu   renaissance;advancement;promotion
     -- nhD     nahaD   NAt     renaissance;advancements;promotions
 
-    noun     FaCL |< aT                {- nahoDap -}        -- `others` [ "naha.d NAt" ]
-                                                            `gloss`  [ "renaissance", "advancement", "promotion", "advancements", "promotions" ],
-
-    -- ;; nahoDap_2
-    -- nhD     nahoD   Nap     Nehdat;Renaissance
-
-    noun     FaCL |< aT                {- nahoDap -}        `gloss`  [ "Nehdat", "Renaissance" ],
+    FaCL |< aT                `noun`       {- nahoDap -}        [ "renaissance", "advancement", "promotion", "advancements", "promotions" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "naha.d NAt" ] -},
 
     -- ;; nuhuwD_1
     -- nhwD    nuhuwD  N       promotion;advancement
 
-    noun     FuCUL                     {- nuhuwD -}         `gloss`  [ "promotion", "advancement" ],
-
-    -- ;; nihAD_1
-    -- nhAD    nihAD   N0      Nehad
-
-    noun     FiCAL                     {- nihAD -}          `gloss`  [ "Nehad" ],
+    FuCUL                     `noun`       {- nuhuwD -}         [ "promotion", "advancement" ],
 
     -- ;; munAhaDap_1
     -- mnAhD   munAhaD NapAt   opposition;resistance
 
-    noun     MuFACaL |< aT             {- munAhaDap -}      `gloss`  [ "opposition", "resistance" ],
-
-    -- ;; <inohAD_1
-    -- <nhAD   <inohAD N/At    promotion;advancement
-    -- AnhAD   <inohAD N/At    promotion;advancement
-
-    noun     HiFCAL                    {- IinohAD -}        `gloss`  [ "promotion", "advancement" ],
-
-    -- ;; {isotinohAD_1
-    -- <stnhAD {isotinohAD     N/At    promotion;advancement
-    -- AstnhAD {isotinohAD     N/At    promotion;advancement
-
-    noun     IstiFCAL                  {- {isotinohAD -}    `gloss`  [ "promotion", "advancement" ],
-
-    -- ;; nAhiD_1
-    -- nAhD    nAhiD   Nall    energetic;active
-
-    noun     FACiL                     {- nAhiD -}          `gloss`  [ "energetic", "active" ],
-
-    -- ;; nAhiD_2
-    -- nAhD    nAhiD   N-ap    conclusive;indisputable     [[nAhiD/ADJ]]
-
-    noun     FACiL                     {- nAhiD -}          `gloss`  [ "conclusive", "indisputable [ [ nAhiD / ADJ ] ]" ],
+    MuFACaL |< aT             `noun`       {- munAhaDap -}      [ "opposition", "resistance" ],
 
     -- ;; munAhiD_1
     -- mnAhD   munAhiD Nall    fighting;resisting     [[munAhiD/ADJ]]
 
-    noun     MuFACiL                   {- munAhiD -}        `gloss`  [ "fighting", "resisting [ [ munAhiD / ADJ ] ]" ] ]
+    MuFACiL                   `noun`       {- munAhiD -}        [ "fighting", "resisting" ] ]
 
  |> "n h ^g" <| [
-
-    -- ;; nahaj-a_1
-    -- nhj     nahaj   PV      pursue;follow;proceed
-    -- nhj     nohaj   IV      pursue;follow;proceed
-
-    verb     FaCaL                     {- nahaj-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nha^g IV" ]
-                                                            `gloss`  [ "pursue", "follow", "proceed" ],
-
-    -- ;; nahaj-i_1
-    -- nhj     nahaj   PV_intr be out of breath
-    -- nhj     nohij   IV_intr be out of breath
-
-    verb     FaCaL                     {- nahaj-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nhi^g IV_intr" ]
-                                                            `gloss`  [ "be out of breath" ],
-
-    -- ;; nahij-a_1
-    -- nhj     nahij   PV_intr be out of breath
-    -- nhj     nohaj   IV_intr be out of breath
-
-    verb     FaCiL                     {- nahij-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nha^g IV_intr" ]
-                                                            `gloss`  [ "be out of breath" ],
-
-    -- ;; nah~aj_1
-    -- nhj     nah~aj  PV      make breathless
-    -- nhj     nah~ij  IV_yu   make breathless
-
-    verb     FaCCaL                    {- nah~aj -}         -- `others` [ "nahhi^g IV_yu" ]
-                                                            `gloss`  [ "make breathless" ],
-
-    -- ;; >anohaj_1
-    -- >nhj    >anohaj PV      clarify;explain
-    -- Anhj    >anohaj PV      clarify;explain
-    -- nhj     nohij   IV_yu   clarify;explain
-    -- nhj     nohaj   IV_Pass_yu      be clarified;be explained
-
-    verb     HaFCaL                    {- Oanohaj -}        -- `others` [ "nha^g IV_Pass_yu", "nhi^g IV_yu" ]
-                                                            `gloss`  [ "clarify", "explain", "be clarified", "be explained" ],
-
-    -- ;; {inotahaj_1
-    -- <nthj   {inotahaj       PV      follow;pursue
-    -- Anthj   {inotahaj       PV      follow;pursue
-    -- nthj    notahij IV      follow;pursue
-
-    verb     IFtaCaL                   {- {inotahaj -}      -- `others` [ "ntahi^g IV" ]
-                                                            `gloss`  [ "follow", "pursue" ],
-
-    -- ;; {isotanohaj_1
-    -- <stnhj  {isotanohaj     PV      imitate
-    -- Astnhj  {isotanohaj     PV      imitate
-    -- stnhj   sotanohij       IV      imitate
-
-    verb     IstaFCaL                  {- {isotanohaj -}    -- `others` [ "stanhi^g IV" ]
-                                                            `gloss`  [ "imitate" ],
 
     -- ;; nahoj_1
     -- nhj     nahoj   N       pursuing;following
 
-    noun     FaCL                      {- nahoj -}          `gloss`  [ "pursuing", "following" ],
+    FaCL                      `noun`       {- nahoj -}          [ "pursuing", "following" ],
 
     -- ;; nahoj_2
     -- nhj     nahoj   N       way;method;procedure
     -- nhwj    nuhuwj  N       ways;methods;procedures
 
-    noun     FaCL                      {- nahoj -}          -- `others` [ "nuhuw^g N" ]
-                                                            `gloss`  [ "way", "method", "procedure", "ways", "methods", "procedures" ],
-
-    -- ;; nahiyj_1
-    -- nhyj    nahiyj  N-ap    breathless     [[nahiyj/ADJ]]
-
-    noun     FaCIL                     {- nahiyj -}         `gloss`  [ "breathless [ [ nahiyj / ADJ ] ]" ],
+    FaCL                      `noun`       {- nahoj -}          [ "way", "method", "procedure", "ways", "methods", "procedures" ]
+                              `plural`     FuCUL
+                              {- `others` [ "nuhuw^g N" ] -},
 
     -- ;; manohaj_1
     -- mnhj    manohaj Ndu     method;approach;program
     -- mnAhj   manAhij Ndip    methods;approaches;programs
 
-    noun     MaFCaL                    {- manohaj -}        -- `others` [ "manAhi^g Ndip" ]
-                                                            `gloss`  [ "method", "approach", "program", "methods", "approaches", "programs" ],
+    MaFCaL                    `noun`       {- manohaj -}        [ "method", "approach", "program", "methods", "approaches", "programs" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "manAhi^g Ndip" ] -},
 
     -- ;; manohajiy~_1
     -- mnhjy   manohajiy~      N-ap    methodological;programmatic     [[manohajiy~/ADJ]]
     -- mnhjy   minohajiy~      N-ap    methodological;programmatic     [[minohajiy~/ADJ]]
 
-    noun     MaFCaL |< Iy              {- manohajiy~ -}     -- `others` [ "minha^giyy N-ap" ]
-                                                            `gloss`  [ "methodological", "programmatic [ [ manohajiy ~ / ADJ ] ]", "programmatic [ [ minohajiy ~ / ADJ ] ]" ],
+    MaFCaL |< Iy              `noun`       {- manohajiy~ -}     [ "methodological", "programmatic" ],
 
     -- ;; minohAj_1
     -- mnhAj   minohAj Ndu     method;program;curriculum
     -- mnAhyj  manAhiyj        Ndip    methods;programs;curricula
 
-    noun     MiFCAL                    {- minohAj -}        -- `others` [ "manAhiy^g Ndip" ]
-                                                            `gloss`  [ "method", "program", "curriculum", "methods", "programs", "curricula" ],
-
-    -- ;; nAhij_1
-    -- nAhj    nAhij   N       well-trodden path
-
-    noun     FACiL                     {- nAhij -}          `gloss`  [ "well-trodden path" ],
-
-    -- ;; {inotihAj_1
-    -- AnthAj  {inotihAj       NduAt   pursuit;following
-    -- <nthAj  {inotihAj       NduAt   pursuit;following
-
-    noun     IFtiCAL                   {- {inotihAj -}      `gloss`  [ "pursuit", "following" ] ]
+    MiFCAL                    `noun`       {- minohAj -}        [ "method", "program", "curriculum", "methods", "programs", "curricula" ]
+                              `plural`     MaFACIL
+                              {- `others` [ "manAhiy^g Ndip" ] -} ]
 
  |> "n h ^s" <| [
 
@@ -10412,19 +2753,9 @@ lexicon = listing "Lexicon properties"
     -- nh$     naha$   PV      bite;tear;mangle
     -- nh$     nohi$   IV      bite;tear;mangle
 
-    verb     FaCaL                     {- naha$-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nhi^s IV" ]
-                                                            `gloss`  [ "bite", "tear", "mangle" ],
-
-    -- ;; naho$_1
-    -- nh$     naho$   N       biting;tearing;mangling
-
-    noun     FaCL                      {- naho$ -}          `gloss`  [ "biting", "tearing", "mangling" ],
-
-    -- ;; nah~A$_1
-    -- nhA$    nah~A$  Nall    biting;sharp
-
-    noun     FaCCAL                    {- nah~A$ -}         `gloss`  [ "biting", "sharp" ] ]
+    FaCaL                     `verb`       {- naha$-i -}        [ "bite", "tear", "mangle" ]
+                              `imperf` [ FCiL ]
+                              {- `others` [ "nhi^s IV" ] -} ]
 
  |> "n h b" <| [
 
@@ -10433,318 +2764,24 @@ lexicon = listing "Lexicon properties"
     -- nhb     nohub   IV      plunder;loot
     -- nhb     nohab   IV      plunder;loot
 
-    verb     FaCaL                     {- nahab-ua -}       `imperf` [ FCuL, FCaL ]
-                                                            -- `others` [ "nhab IV", "nhub IV" ]
-                                                            `gloss`  [ "plunder", "loot" ],
-
-    -- ;; nahib-a_1
-    -- nhb     nahib   PV      plunder;loot
-    -- nhb     nohab   IV      plunder;loot
-
-    verb     FaCiL                     {- nahib-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nhab IV" ]
-                                                            `gloss`  [ "plunder", "loot" ],
-
-    -- ;; >anohab_1
-    -- >nhb    >anohab PV      expose to looting;surrender as booty
-    -- Anhb    >anohab PV      expose to looting;surrender as booty
-    -- nhb     nohib   IV_yu   expose to looting;surrender as booty
-    -- nhb     nohab   IV_Pass_yu      be expose to looting;be surrendered as booty
-
-    verb     HaFCaL                    {- Oanohab -}        -- `others` [ "nhab IV_Pass_yu", "nhib IV_yu" ]
-                                                            `gloss`  [ "expose to looting", "surrender as booty", "be expose to looting", "be surrendered as booty" ],
-
-    -- ;; tanAhab_1
-    -- tnAhb   tanAhab PV      grip
-    -- tnAhb   tanAhab IV      grip
-
-    verb     TaFACaL                   {- tanAhab -}        `gloss`  [ "grip" ],
-
-    -- ;; {inotahab_1
-    -- <nthb   {inotahab       PV      seize
-    -- Anthb   {inotahab       PV      seize
-    -- nthb    notahib IV      seize
-    -- nthb    notahab IV_Pass_yu      be seized
-
-    verb     IFtaCaL                   {- {inotahab -}      -- `others` [ "ntahab IV_Pass_yu", "ntahib IV" ]
-                                                            `gloss`  [ "seize", "be seized" ],
+    FaCaL                     `verb`       {- nahab-ua -}       [ "plunder", "loot" ]
+                              `imperf` [ FCuL, FCaL ]
+                              {- `others` [ "nhab IV", "nhub IV" ] -},
 
     -- ;; nahob_1
     -- nhb     nahob   N       looting;plundering
     -- nhb     nahob   NF      by robbery or looting     [[nahob/ADV]]
 
-    noun     FaCL                      {- nahob -}          `gloss`  [ "looting", "plundering", "by robbery or looting [ [ nahob / ADV ] ]" ],
-
-    -- ;; nuhobap_1
-    -- nhb     nuhob   Nap     prey;loot
-
-    noun     FuCL |< aT                {- nuhobap -}        `gloss`  [ "prey", "loot" ],
-
-    -- ;; nuhobaY_1
-    -- nhbY    nuhobaY N0      loot;plunder
-    -- nhbA    nuhobA  Nhy     loot;plunder
-
-    noun     FuCLY                     {- nuhobaY -}        -- `others` [ "nuhbA Nhy" ]
-                                                            `gloss`  [ "loot", "plunder" ],
-
-    -- ;; nah~Ab_1
-    -- nhAb    nah~Ab  Nall    looter;robber
-
-    noun     FaCCAL                    {- nah~Ab -}         `gloss`  [ "looter", "robber" ],
-
-    -- ;; nAhib_1
-    -- nAhb    nAhib   Nall    looter;robber
-
-    noun     FACiL                     {- nAhib -}          `gloss`  [ "looter", "robber" ] ]
-
- |> "n h d" <| [
-
-    -- ;; nahad-au_1
-    -- nhd     nahad   PV_intr be buxom;have large breasts
-    -- nhd     nohad   IV_intr be buxom;have large breasts
-    -- nhd     nohud   IV_intr be buxom;have large breasts
-
-    verb     FaCaL                     {- nahad-au -}       `imperf` [ FCaL, FCuL ]
-                                                            -- `others` [ "nhad IV_intr", "nhud IV_intr" ]
-                                                            `gloss`  [ "be buxom", "have large breasts" ],
-
-    -- ;; tanah~ad_1
-    -- tnhd    tanah~ad        PV      sigh;heave the chest
-    -- tnhd    tanah~ad        IV      sigh;heave the chest
-
-    verb     TaFaCCaL                  {- tanah~ad -}       `gloss`  [ "sigh", "heave the chest" ],
-
-    -- ;; tanAhad_1
-    -- tnAhd   tanAhad PV      share the expenses;distribute equitably
-    -- tnAhd   tanAhad IV      share the expenses;distribute equitably
-
-    verb     TaFACaL                   {- tanAhad -}        `gloss`  [ "share the expenses", "distribute equitably" ],
-
-    -- ;; nahod_1
-    -- nhd     nahod   Ndu     breast;bump
-    -- nhwd    nuhuwd  N       breasts;bumps
-
-    noun     FaCL                      {- nahod -}          -- `others` [ "nuhuwd N" ]
-                                                            `gloss`  [ "breast", "bump", "breasts", "bumps" ],
-
-    -- ;; tanah~ud_1
-    -- tnhd    tanah~ud        N       sighing
-
-    noun     TaFaCCuL                  {- tanah~ud -}       `gloss`  [ "sighing" ],
-
-    -- ;; tanah~udap_1
-    -- tnhd    tanah~ud        Napdu   sigh
-    -- tnhd    tanah~ud        NAt     sighs
-
-    noun     TaFaCCuL |< aT            {- tanah~udap -}     -- `others` [ "tanahhud NAt" ]
-                                                            `gloss`  [ "sigh", "sighs" ],
-
-    -- ;; nAhid_1
-    -- nAhd    nAhid   N-ap    round;swelling     [[nAhid/ADJ]]
-
-    noun     FACiL                     {- nAhid -}          `gloss`  [ "round", "swelling [ [ nAhid / ADJ ] ]" ],
-
-    -- ;; nAhid_2
-    -- nAhd    nAhid   Nall    in the prime of youth     [[nAhid/ADJ]]
-
-    noun     FACiL                     {- nAhid -}          `gloss`  [ "in the prime of youth [ [ nAhid / ADJ ] ]" ],
-
-    -- ;; nAhidap_1
-    -- nAhd    nAhid   NapAt   buxom
-
-    noun     FACiL |< aT               {- nAhidap -}        `gloss`  [ "buxom" ],
-
-    -- ;; nAhidap_2
-    -- nAhdp   nAhidap Nprop   Nahida
-
-    noun     FACiL |< aT               {- nAhidap -}        `gloss`  [ "Nahida" ] ]
+    FaCL                      `noun`       {- nahob -}          [ "looting", "plundering", "by robbery or looting" ] ]
 
  |> "n h k" <| [
-
-    -- ;; nahak-a_1
-    -- nhk     nahak   PV      wear out;consume;crush
-    -- nhk     nohak   IV      wear out;consume;crush
-
-    verb     FaCaL                     {- nahak-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nhak IV" ]
-                                                            `gloss`  [ "wear out", "consume", "crush" ],
-
-    -- ;; nahik-a_1
-    -- nhk     nahik   PV      weaken;exhaust;enervate
-    -- nhk     nohak   IV      weaken;exhaust;enervate
-
-    verb     FaCiL                     {- nahik-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nhak IV" ]
-                                                            `gloss`  [ "weaken", "exhaust", "enervate" ],
-
-    -- ;; >anohak_1
-    -- >nhk    >anohak PV      exhaust;enervate
-    -- Anhk    >anohak PV      exhaust;enervate
-    -- nhk     nohik   IV_yu   exhaust;enervate
-    -- nhk     nohak   IV_Pass_yu      be exhausted;be enervated
-
-    verb     HaFCaL                    {- Oanohak -}        -- `others` [ "nhik IV_yu", "nhak IV_Pass_yu" ]
-                                                            `gloss`  [ "exhaust", "enervate", "be exhausted", "be enervated" ],
-
-    -- ;; {inotahak_1
-    -- <nthk   {inotahak       PV      violate;exhaust
-    -- Anthk   {inotahak       PV      violate;exhaust
-    -- nthk    notahik IV      violate;exhaust
-
-    verb     IFtaCaL                   {- {inotahak -}      -- `others` [ "ntahik IV" ]
-                                                            `gloss`  [ "violate", "exhaust" ],
-
-    -- ;; nahok_1
-    -- nhk     nahok   N       violation;depletion
-
-    noun     FaCL                      {- nahok -}          `gloss`  [ "violation", "depletion" ],
-
-    -- ;; nahokap_1
-    -- nhk     nahok   Nap     exhaustion;emaciation
-
-    noun     FaCL |< aT                {- nahokap -}        `gloss`  [ "exhaustion", "emaciation" ],
-
-    -- ;; <inohAk_1
-    -- <nhAk   <inohAk N/At    exhaustion
-    -- AnhAk   <inohAk N/At    exhaustion
-
-    noun     HiFCAL                    {- IinohAk -}        `gloss`  [ "exhaustion" ],
-
-    -- ;; {inotihAk_1
-    -- <nthAk  {inotihAk       N       exhaustion
-    -- AnthAk  {inotihAk       N       exhaustion
-
-    noun     IFtiCAL                   {- {inotihAk -}      `gloss`  [ "exhaustion" ],
-
-    -- ;; {inotihAk_2
-    -- <nthAk  {inotihAk       N/At    violation;contravention
-    -- AnthAk  {inotihAk       N/At    violation;contravention
-    -- <nthAk  {inotihAk       NAt     violations;contraventions;encroachments
-    -- AnthAk  {inotihAk       NAt     violations;contraventions;encroachments
-
-    noun     IFtiCAL                   {- {inotihAk -}      `gloss`  [ "violation", "contravention", "violations", "contraventions", "encroachments" ],
 
     -- ;; munotahak_1
     -- mnthk   munotahak       Nall    emaciated;exhausted     [[munotahak/ADJ]]
 
-    noun     MuFtaCaL                  {- munotahak -}      `gloss`  [ "emaciated", "exhausted [ [ munotahak / ADJ ] ]" ],
-
-    -- ;; munohik_1
-    -- mnhk    munohik N-ap    exhausting;grueling     [[munohik/ADJ]]
-
-    noun     MuFCiL                    {- munohik -}        `gloss`  [ "exhausting", "grueling [ [ munohik / ADJ ] ]" ] ]
-
- |> "n h l" <| [
-
-    -- ;; nahil-a_1
-    -- nhl     nahil   PV      drink
-    -- nhl     nohal   IV      drink
-
-    verb     FaCiL                     {- nahil-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nhal IV" ]
-                                                            `gloss`  [ "drink" ],
-
-    -- ;; nahol_1
-    -- nhl     nahol   N       drinking
-
-    noun     FaCL                      {- nahol -}          `gloss`  [ "drinking" ],
-
-    -- ;; manohal_1
-    -- mnhl    manohal N       drinking
-
-    noun     MaFCaL                    {- manohal -}        `gloss`  [ "drinking" ],
-
-    -- ;; naholap_1
-    -- nhl     nahol   Napdu   drink;gulp
-    -- nhl     nahal   NAt     drinks;gulps
-
-    noun     FaCL |< aT                {- naholap -}        -- `others` [ "nahal NAt" ]
-                                                            `gloss`  [ "drink", "gulp", "drinks", "gulps" ],
-
-    -- ;; manohal_2
-    -- mnhl    manohal Ndu     watering place;spring
-    -- mnAhl   manAhil Ndip    watering places;springs
-
-    noun     MaFCaL                    {- manohal -}        -- `others` [ "manAhil Ndip" ]
-                                                            `gloss`  [ "watering place", "spring", "watering places", "springs" ] ]
-
- |> "n h m" <| [
-
-    -- ;; nahim-a_1
-    -- nhm     nahim   PV_intr be insatiable;be covetous
-    -- nhm     noham   IV_intr be insatiable;be covetous
-
-    verb     FaCiL                     {- nahim-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nham IV_intr" ]
-                                                            `gloss`  [ "be insatiable", "be covetous" ],
-
-    -- ;; naham_1
-    -- nhm     naham   N       voracity;greed
-
-    noun     FaCaL                     {- naham -}          `gloss`  [ "voracity", "greed" ],
-
-    -- ;; nahAmap_1
-    -- nhAm    nahAm   Nap     voracity;greed
-
-    noun     FaCAL |< aT               {- nahAmap -}        `gloss`  [ "voracity", "greed" ],
-
-    -- ;; nahomap_1
-    -- nhm     nahom   Nap     craving;acute desire
-
-    noun     FaCL |< aT                {- nahomap -}        `gloss`  [ "craving", "acute desire" ],
-
-    -- ;; nahim_1
-    -- nhm     nahim   Nall    greedy;voracious     [[nahim/ADJ]]
-
-    noun     FaCiL                     {- nahim -}          `gloss`  [ "greedy", "voracious [ [ nahim / ADJ ] ]" ],
-
-    -- ;; nahiym_1
-    -- nhym    nahiym  N/ap    greedy;voracious     [[nahiym/ADJ]]
-
-    noun     FaCIL                     {- nahiym -}         `gloss`  [ "greedy", "voracious [ [ nahiym / ADJ ] ]" ],
-
-    -- ;; manohuwm_1
-    -- mnhwm   manohuwm        Nall    greedy;voracious     [[manohuwm/ADJ]]
-
-    noun     MaFCUL                    {- manohuwm -}       `gloss`  [ "greedy", "voracious [ [ manohuwm / ADJ ] ]" ] ]
-
- |> "n h n h" <| [
-
-    -- ;; nahonah_1
-    -- nhnh    nahonah PV      restrain;prevent;sob
-    -- nhnh    nahonih IV_yu   restrain;prevent;sob
-
-    verb     KaRDaS                    {- nahonah -}        -- `others` [ "nahnih IV_yu" ]
-                                                            `gloss`  [ "restrain", "prevent", "sob" ] ]
-
- |> "n h q" <| [
-
-    -- ;; nahaq-ia_1
-    -- nhq     nahaq   PV      bray
-    -- nhq     nahiq   PV      bray
-    -- nhq     nohaq   IV      bray
-
-    verb     FaCaL                     {- nahaq-ia -}       `imperf` [ FCiL, FCaL ]
-                                                            -- `others` [ "nahiq PV", "nhaq IV" ]
-                                                            `gloss`  [ "bray" ] ]
+    MuFtaCaL                  `noun`       {- munotahak -}      [ "emaciated", "exhausted" ] ]
 
  |> "n h r" <| [
-
-    -- ;; nahar-a_1
-    -- nhr     nahar   PV      flow;rebuff
-    -- nhr     nohar   IV      flow;rebuff
-
-    verb     FaCaL                     {- nahar-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nhar IV" ]
-                                                            `gloss`  [ "flow", "rebuff" ],
-
-    -- ;; {inotahar_1
-    -- <nthr   {inotahar       PV      scold;rebuff
-    -- Anthr   {inotahar       PV      scold;rebuff
-    -- nthr    notahir IV      scold;rebuff
-
-    verb     IFtaCaL                   {- {inotahar -}      -- `others` [ "ntahir IV" ]
-                                                            `gloss`  [ "scold", "rebuff" ],
 
     -- ;; nahor_1
     -- nhr     nahor   Ndu     river
@@ -10754,13 +2791,15 @@ lexicon = listing "Lexicon properties"
     -- Anhr    >anohur N       rivers
     -- nhwr    nuhuwr  N       rivers
 
-    noun     FaCL                      {- nahor -}          -- `others` [ "'anhAr N", "nuhuwr N", "'anhur N" ]
-                                                            `gloss`  [ "river", "rivers" ],
+    FaCL                      `noun`       {- nahor -}          [ "river", "rivers" ]
+                              `plural`     HaFCAL
+                              `plural`     FuCUL
+                              {- `others` [ "'anhAr N", "nuhuwr N" ] -},
 
     -- ;; nahoriy~_1
     -- nhry    nahoriy~        Nall    river;fluvial     [[nahoriy~/ADJ]]
 
-    noun     FaCL |< Iy                {- nahoriy~ -}       `gloss`  [ "river", "fluvial [ [ nahoriy ~ / ADJ ] ]" ],
+    FaCL |< Iy                `noun`       {- nahoriy~ -}       [ "river", "fluvial" ],
 
     -- ;; nahAr_1
     -- nhAr    nahAr   Ndu     daytime;day
@@ -10769,73 +2808,22 @@ lexicon = listing "Lexicon properties"
     -- Anhr    >anohur N       daytime
     -- nhr     nuhur   N       daytime
 
-    noun     FaCAL                     {- nahAr -}          -- `others` [ "nuhur N", "'anhur N" ]
-                                                            `gloss`  [ "daytime", "day", "by day [ [ nahAr / ADV ] ]" ],
+    FaCAL                     `noun`       {- nahAr -}          [ "daytime", "day", "by day" ]
+                              `plural`     FuCuL
+                              {- `others` [ "nuhur N" ] -},
 
     -- ;; nahAr_2
     -- nhAr    nahAr   N0      Nahar
 
-    noun     FaCAL                     {- nahAr -}          `gloss`  [ "Nahar" ],
+    FaCAL                     `noun`       {- nahAr -}          [ "Nahar" ],
 
     -- ;; nahAriy~_1
     -- nhAry   nahAriy~        Nall    daytime;diurnal;daylight     [[nahAriy~/ADJ]]
     -- nhAry   nahAriy~        NAt     news of the day     [[nahAriy~/NOUN]]
 
-    noun     FaCAL |< Iy               {- nahAriy~ -}       `gloss`  [ "daytime", "diurnal", "daylight [ [ nahAriy ~ / ADJ ] ]", "news of the day [ [ nahAriy ~ / NOUN ] ]" ],
-
-    -- ;; nahiyr_1
-    -- nhyr    nahiyr  N-ap    abundant     [[nahiyr/ADJ]]
-
-    noun     FaCIL                     {- nahiyr -}         `gloss`  [ "abundant [ [ nahiyr / ADJ ] ]" ],
-
-    -- ;; nuhayor_1
-    -- nhyr    nuhayor NduAt   creek;small river;tributary
-
-    noun     FuCayL                    {- nuhayor -}        `gloss`  [ "creek", "small river", "tributary" ],
-
-    -- ;; {inotihAr_1
-    -- AnthAr  {inotihAr       N/At    rebuke;reprimand;rebuff
-    -- <nthAr  {inotihAr       N/At    rebuke;reprimand;rebuff
-
-    noun     IFtiCAL                   {- {inotihAr -}      `gloss`  [ "rebuke", "reprimand", "rebuff" ] ]
+    FaCAL |< Iy               `noun`       {- nahAriy~ -}       [ "daytime", "diurnal", "daylight", "news of the day" ] ]
 
  |> "n h w" <| [
-
-    -- ;; nahA-u_1
-    -- nhA     nahA    PV_0h   forbid;restrain
-    -- nhw     nahaw   PV_Atn  forbid;restrain
-    -- nh      nah     PV_ttAw forbid;restrain
-    -- nhw     nohuw   IV_0hAnn        forbid;restrain
-    -- nh      noh     IV_0hwnyn       forbid;restrain
-    -- nhY     nohaY   IV_0_Pass_yu    be forbidden;be restrained
-    -- nhy     nohay   IV_Ann_Pass_yu  be forbidden;be restrained
-
-    verb     FaCA                      {- nahA-u -}         `imperf` [ FCuL ]
-                                                            -- `others` [ "nah PV_ttAw", "nhY IV_0_Pass_yu", "nahaw PV_Atn", "nhuw IV_0hAnn", "nhay IV_Ann_Pass_yu", "nh IV_0hwnyn" ]
-                                                            `gloss`  [ "forbid", "restrain", "be forbidden", "be restrained" ],
-
-    -- ;; nahaY-i_1
-    -- nhY     nahaY   PV_0    forbid;restrain
-    -- nhA     nahA    PV_h    forbid;restrain
-    -- nhy     nahay   PV_Atn  forbid;restrain
-    -- nh      naha    PV_ttAw forbid;restrain
-    -- nhY     nohaY   IV_0    forbid;restrain
-    -- nhA     nohA    IV_h    forbid;restrain
-    -- nhy     nohay   IV_Ann  forbid;restrain
-    -- nh      noha    IV_0hwnyn       forbid;restrain
-
-    verb     FaCY                      {- nahaY-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nha IV_0hwnyn", "nahA PV_h", "naha PV_ttAw", "nhA IV_h", "nhY IV_0", "nhay IV_Ann", "nahay PV_Atn" ]
-                                                            `gloss`  [ "forbid", "restrain" ],
-
-    -- ;; nahaY-i_2
-    -- nhy     nuhiy   PV_Pass-aAat    reach;be informed
-    -- nhY     nohaY   IV_0_Pass_yu    reach;be informed
-    -- nhy     nohay   IV_Ann_Pass_yu  reach;be informed
-
-    verb     FaCY                      {- nahaY-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nhY IV_0_Pass_yu", "nhay IV_Ann_Pass_yu", "nuhiy PV_Pass-aAat" ]
-                                                            `gloss`  [ "reach", "be informed" ],
 
     -- ;; >anohaY_1
     -- >nhY    >anohaY PV_0    complete;communicate
@@ -10851,56 +2839,19 @@ lexicon = listing "Lexicon properties"
     -- nhY     nohaY   IV_0_Pass_yu    be completed;be communicated
     -- nhy     nohay   IV_Ann_Pass_yu  be completed;be communicated
 
-    verb     HaFCY                     {- OanohaY -}        -- `others` [ "nhY IV_0_Pass_yu", "'anh PV_ttAw", "'anhay PV_Atn", "'anhA PV_h", "nhay IV_Ann_Pass_yu", "nh IV_0hwnyn_yu", "nhiy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "complete", "communicate", "be completed", "be communicated" ],
+    HaFCY                     `verb`       {- OanohaY -}        [ "complete", "communicate", "be completed", "be communicated" ]
+                              {- `others` [ "nhY IV_0_Pass_yu", "nhiy IV_0hAnn_yu" ] -},
 
-    -- ;; tanAhaY_1
-    -- tnAhY   tanAhaY PV_0    be completed;be communicated
-    -- tnAhA   tanAhA  PV_h    be completed;be communicated
-    -- tnAhy   tanAhay PV_Atn  be completed;be communicated
-    -- tnAh    tanAh   PV_ttAw_intr    be completed;be communicated
-    -- tnAhY   tanAhaY IV_0    be completed;be communicated
-    -- tnAhA   tanAhA  IV_h    be completed;be communicated
-    -- tnAhy   tanAhay IV_Ann  be completed;be communicated
-    -- tnAh    tanAh   IV_0hwnyn       be completed;be communicated
+    -- ;; nihA}iy~_1
+    -- nhA}y   nihA}iy~        Nall    final;definitive;conclusive     [[nihA}iy~/ADJ]]
+    -- nhA}y   nihA}iy~        NF      finally;in the end     [[nihA}iy~/ADV]]
 
-    verb     TaFACY                    {- tanAhaY -}        -- `others` [ "tanAhA PV_h IV_h", "tanAh PV_ttAw_intr IV_0hwnyn", "tanAhay PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "be completed", "be communicated" ],
+    FiCA' |< Iy               `noun`       {- nihA}iy~ -}       [ "final", "definitive", "conclusive", "finally", "in the end" ],
 
-    -- ;; {inotahaY_1
-    -- <nthY   {inotahaY       PV_0    be concluded;be completed
-    -- AnthY   {inotahaY       PV_0    be concluded;be completed
-    -- <nthA   {inotahA        PV_h    be concluded;be completed
-    -- AnthA   {inotahA        PV_h    be concluded;be completed
-    -- <nthy   {inotahay       PV_Atn  be concluded;be completed
-    -- Anthy   {inotahay       PV_Atn  be concluded;be completed
-    -- <nth    {inotah PV_ttAw_intr    be concluded;be completed
-    -- Anth    {inotah PV_ttAw_intr    be concluded;be completed
-    -- nthy    notahiy IV_0hAnn        be concluded;be completed
-    -- nth     notah   IV_0hwnyn       be concluded;be completed
-    -- nthY    notahaY IV_0_Pass_yu    be concluded;be completed
+    -- ;; nihA}iy~_2
+    -- nhA}y   nihA}iy~        NduAt   final (in sports)    [[nihA}iy~/NOUN]]
 
-    verb     IFtaCY                    {- {inotahaY -}      -- `others` [ "ntah IV_0hwnyn", "intahA PV_h", "ntahY IV_0_Pass_yu", "intah PV_ttAw_intr", "ntahiy IV_0hAnn", "intahay PV_Atn" ]
-                                                            `gloss`  [ "be concluded", "be completed" ],
-
-    -- ;; nahow_1
-    -- nhw     nahow   N       termination;conclusion
-
-    noun     FaCL                      {- nahow -}          `gloss`  [ "termination", "conclusion" ],
-
-    -- ;; nuhaY_1
-    -- nhY     nuhaY   N0      mind;intellect;reason
-    -- nhA     nuhA    Nhy     mind;intellect;reason
-
-    noun     FuCY                      {- nuhaY -}          -- `others` [ "nuhA Nhy" ]
-                                                            `gloss`  [ "mind", "intellect", "reason" ],
-
-    -- ;; nihA'_1
-    -- nhA'    nihA'   N0_Nh   termination;conclusion
-    -- nhA&    nihA&   Nh      termination;conclusion
-    -- nhA}    nihA}   Nhy     termination;conclusion
-
-    noun     FiCA'                     {- nihA' -}          `gloss`  [ "termination", "conclusion" ],
+    FiCA' |< Iy               `noun`       {- nihA}iy~ -}       [ "final (in sports)" ],
 
     -- ;; <inohA'_1
     -- <nhA'   <inohA' N0_Nh   termination;completion
@@ -10912,41 +2863,7 @@ lexicon = listing "Lexicon properties"
     -- <nhA'   <inohA' NAt     termination;completion
     -- AnhA'   <inohA' NAt     termination;completion
 
-    noun     HiFCA'                    {- IinohA' -}        `gloss`  [ "termination", "completion" ],
-
-    -- ;; {inotihA'_1
-    -- AnthA'  {inotihA'       N0_Nh   finishing;completion;conclusion
-    -- <nthA'  {inotihA'       N0_Nh   finishing;completion;conclusion
-    -- AnthA&  {inotihA&       Nh      finishing;completion;conclusion
-    -- <nthA&  {inotihA&       Nh      finishing;completion;conclusion
-    -- AnthA}  {inotihA}       Nhy     finishing;completion;conclusion
-    -- <nthA}  {inotihA}       Nhy     finishing;completion;conclusion
-    -- AnthA'  {inotihA'       NAt     finishing;completion;conclusion
-    -- <nthA'  {inotihA'       NAt     finishing;completion;conclusion
-
-    noun     IFtiCA'                   {- {inotihA' -}      `gloss`  [ "finishing", "completion", "conclusion" ],
-
-    -- ;; nAhiy_1
-    -- nAhy    nAhiy   N0F     prohibitive;interdictory     [[nAhiy/ADJ]]
-    -- nAh     nAh     NK      prohibitive;interdictory
-    -- nAhy    nAhiy   NAn_Nayn        prohibitive;interdictory
-    -- nAhy    nAhiy   NapAt   prohibitive;interdictory
-
-    noun     FACI                      {- nAhiy -}          -- `others` [ "nAh NK" ]
-                                                            `gloss`  [ "prohibitive", "interdictory [ [ nAhiy / ADJ ] ]", "interdictory" ],
-
-    -- ;; nAhiyap_1
-    -- nAhy    nAhiy   Napdu   ban;proscription
-    -- nwAhy   nawAhiy N0_Nh   proscriptions;prohibition orders
-    -- nwAh    nawAh   NK      proscriptions;prohibition orders
-
-    noun     FACI |< aT                {- nAhiyap -}        -- `others` [ "nawAh NK", "nawAhiy N0_Nh" ]
-                                                            `gloss`  [ "ban", "proscription", "proscriptions", "prohibition orders" ],
-
-    -- ;; manohiy~_1
-    -- mnhy    manohiy~        N-ap    forbidden;illicit     [[manohiy~/ADJ]]
-
-    noun     MaFCIy                    {- manohiy~ -}       `gloss`  [ "forbidden", "illicit [ [ manohiy ~ / ADJ ] ]" ],
+    HiFCA'                    `noun`       {- IinohA' -}        [ "termination", "completion" ],
 
     -- ;; mutanAhiy_1
     -- mtnAhy  mutanAhiy       N0F_Nh  utmost;extreme;finished
@@ -10955,8 +2872,7 @@ lexicon = listing "Lexicon properties"
     -- mtnAh   mutanAh Nuwn_Niyn       utmost;extreme;finished
     -- mtnAhy  mutanAhiy       NapAt   utmost;extreme;finished
 
-    noun     MutaFACI                  {- mutanAhiy -}      -- `others` [ "mutanAh Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "utmost", "extreme", "finished" ],
+    MutaFACI                  `noun`       {- mutanAhiy -}      [ "utmost", "extreme", "finished" ],
 
     -- ;; munotahiy_1
     -- mnthy   munotahiy       N0_Nh   finished;expired
@@ -10965,58 +2881,20 @@ lexicon = listing "Lexicon properties"
     -- mnth    munotah Nuwn_Niyn       finished;expired
     -- mnthy   munotahiy       NapAt   finished;expired
 
-    noun     MuFtaCI                   {- munotahiy -}      -- `others` [ "muntah Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "finished", "expired" ],
-
-    -- ;; munotahaY_1
-    -- mnthY   munotahaY       N0      utmost;extreme;terminated
-    -- mnthA   munotahA        Nhy     utmost;extreme;terminated
-    -- mnthy   munotahay       NAn_Nayn        utmost;extreme;terminated
-    -- mnthA   munotahA        Napdu   utmost;extreme;terminated
-
-    noun     MuFtaCY                   {- munotahaY -}      -- `others` [ "muntahA Napdu Nhy", "muntahay NAn_Nayn" ]
-                                                            `gloss`  [ "utmost", "extreme", "terminated" ] ]
+    MuFtaCI                   `noun`       {- munotahiy -}      [ "finished", "expired" ] ]
 
  |> "n h y" <| [
-
-    -- ;; nahoy_1
-    -- nhy     nahoy   N       prohibition;interdiction
-
-    noun     FaCL                      {- nahoy -}          `gloss`  [ "prohibition", "interdiction" ],
 
     -- ;; nahoyAn_1
     -- nhyAn   nahoyAn Nprop   Nahyan;Nahayyan
 
-    noun     FaCLAn                    {- nahoyAn -}        `gloss`  [ "Nahyan", "Nahayyan" ],
-
-    -- ;; nuhoyap_1
-    -- nhy     nuhoy   Nap     mind;intellect
-
-    noun     FuCL |< aT                {- nuhoyap -}        `gloss`  [ "mind", "intellect" ],
+    FaCLAn                    `noun`       {- nahoyAn -}        [ "Nahyan", "Nahayyan" ],
 
     -- ;; nihAyap_1
     -- nhAy    nihAy   NapAt   end;termination
     -- nhAyp   nihAyapF        FW-Wa   ultimately;finally    [[nihAyapF/ADV]]
 
-    noun     FiCAL |< aT               {- nihAyap -}        -- `others` [ "nihAyaTaN FW-Wa" ]
-                                                            `gloss`  [ "end", "termination", "ultimately", "finally [ [ nihAyapF / ADV ] ]" ],
-
-    -- ;; nAhiy_1
-    -- nAhy    nAhiy   N0F     prohibitive;interdictory     [[nAhiy/ADJ]]
-    -- nAh     nAh     NK      prohibitive;interdictory
-    -- nAhy    nAhiy   NAn_Nayn        prohibitive;interdictory
-    -- nAhy    nAhiy   NapAt   prohibitive;interdictory
-
-    noun     FACiL                     {- nAhiy -}          -- `others` [ "nAh NK" ]
-                                                            `gloss`  [ "prohibitive", "interdictory [ [ nAhiy / ADJ ] ]", "interdictory" ],
-
-    -- ;; nAhiyap_1
-    -- nAhy    nAhiy   Napdu   ban;proscription
-    -- nwAhy   nawAhiy N0_Nh   proscriptions;prohibition orders
-    -- nwAh    nawAh   NK      proscriptions;prohibition orders
-
-    noun     FACiL |< aT               {- nAhiyap -}        -- `others` [ "nawAh NK", "nawAhiy N0_Nh" ]
-                                                            `gloss`  [ "ban", "proscription", "proscriptions", "prohibition orders" ],
+    FiCAL |< aT               `noun`       {- nihAyap -}        [ "end", "termination", "ultimately", "finally" ],
 
     -- ;; mutanAhiy_1
     -- mtnAhy  mutanAhiy       N0F_Nh  utmost;extreme;finished
@@ -11025,8 +2903,7 @@ lexicon = listing "Lexicon properties"
     -- mtnAh   mutanAh Nuwn_Niyn       utmost;extreme;finished
     -- mtnAhy  mutanAhiy       NapAt   utmost;extreme;finished
 
-    noun     MutaFACiL                 {- mutanAhiy -}      -- `others` [ "mutanAh Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "utmost", "extreme", "finished" ],
+    MutaFACiL                 `noun`       {- mutanAhiy -}      [ "utmost", "extreme", "finished" ],
 
     -- ;; munotahiy_1
     -- mnthy   munotahiy       N0_Nh   finished;expired
@@ -11035,237 +2912,23 @@ lexicon = listing "Lexicon properties"
     -- mnth    munotah Nuwn_Niyn       finished;expired
     -- mnthy   munotahiy       NapAt   finished;expired
 
-    noun     MuFtaCiL                  {- munotahiy -}      -- `others` [ "muntah Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "finished", "expired" ] ]
+    MuFtaCiL                  `noun`       {- munotahiy -}      [ "finished", "expired" ] ]
 
  |> "n h y n" <| [
 
     -- ;; nahoyAn_1
     -- nhyAn   nahoyAn Nprop   Nahyan;Nahayyan
 
-    noun     KaRDAS                    {- nahoyAn -}        `gloss`  [ "Nahyan", "Nahayyan" ] ]
+    KaRDAS                    `noun`       {- nahoyAn -}        [ "Nahyan", "Nahayyan" ] ]
 
  |> "n h z" <| [
-
-    -- ;; nahaz-a_1
-    -- nhz     nahaz   PV      push;urge on
-    -- nhz     nohaz   IV      push;urge on
-
-    verb     FaCaL                     {- nahaz-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nhaz IV" ]
-                                                            `gloss`  [ "push", "urge on" ],
 
     -- ;; nAhaz_1
     -- nAhz    nAhaz   PV      approach;attain
     -- nAhz    nAhiz   IV_yu   approach;attain
 
-    verb     FACaL                     {- nAhaz -}          -- `others` [ "nAhiz IV_yu" ]
-                                                            `gloss`  [ "approach", "attain" ],
-
-    -- ;; {inotahaz_1
-    -- <nthz   {inotahaz       PV      take advantage of;seize
-    -- Anthz   {inotahaz       PV      take advantage of;seize
-    -- nthz    notahiz IV      take advantage of;seize
-
-    verb     IFtaCaL                   {- {inotahaz -}      -- `others` [ "ntahiz IV" ]
-                                                            `gloss`  [ "take advantage of", "seize" ],
-
-    -- ;; nuhozap_1
-    -- nhz     nuhoz   Napdu   opportunity;occasion
-
-    noun     FuCL |< aT                {- nuhozap -}        `gloss`  [ "opportunity", "occasion" ],
-
-    -- ;; nah~Az_1
-    -- nhAz    nah~Az  Nall    quick to seize;quick to take advantage of;opportunist
-
-    noun     FaCCAL                    {- nah~Az -}         `gloss`  [ "quick to seize", "quick to take advantage of", "opportunist" ],
-
-    -- ;; {inotihAz_1
-    -- <nthAz  {inotihAz       N/At    taking advantage of;opportunism
-    -- AnthAz  {inotihAz       N/At    taking advantage of;opportunism
-
-    noun     IFtiCAL                   {- {inotihAz -}      `gloss`  [ "taking advantage of", "opportunism" ],
-
-    -- ;; {inotihAziy~_1
-    -- <nthAzy {inotihAziy~    Nall    opportunist;time-saver     [[{inotihAziy~/ADJ]]
-    -- AnthAzy {inotihAziy~    Nall    opportunist;time-saver     [[{inotihAziy~/ADJ]]
-
-    noun     IFtiCAL |< Iy             {- {inotihAziy~ -}   `gloss`  [ "opportunist", "time-saver [ [ { inotihAziy ~ / ADJ ] ]" ],
-
-    -- ;; {inotihAziy~ap_1
-    -- <nthAzy {inotihAziy~    Nap     opportunism     [[{inotihAziy~/NOUN]]
-    -- AnthAzy {inotihAziy~    Nap     opportunism     [[{inotihAziy~/NOUN]]
-
-    noun     IFtiCAL |< Iy |< aT       {- {inotihAziy~ap -} `gloss`  [ "opportunism [ [ { inotihAziy ~ / NOUN ] ]" ] ]
-
- |> "n k '" <| [
-
-    -- ;; naka>-a_1
-    -- nk>     naka>   PV->    scrape off (scab)
-    -- nk|     naka|   PV-|    scrape off (scab)
-    -- nk&     naka&   PV_w    scrape off (scab)
-    -- nk>     noka>   IV      scrape off (scab)
-    -- nk|     noka|   IV-|    scrape off (scab)
-    -- nk&     noka&   IV_wn   scrape off (scab)
-    -- nk}     noka}   IV_yn   scrape off (scab)
-
-    verb     FaCaL                     {- nakaO-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "naka'A PV-|", "nka' IV IV_wn IV_yn", "nka'A IV-|" ]
-                                                            `gloss`  [ "scrape off ( scab )" ],
-
-    -- ;; nako'_1
-    -- nk'     nako'   N0      scraping off (scab)
-    -- nk}     nako}   NF_Nhy  scraping off (scab)
-
-    noun     FaCL                      {- nako' -}          `gloss`  [ "scraping off ( scab )" ] ]
-
- |> "n k .h" <| [
-
-    -- ;; nakaH-uia_1
-    -- nkH     nakaH   PV      marry;get married to
-    -- nkH     nokuH   IV      marry;get married to
-    -- nkH     nokiH   IV      marry;get married to
-    -- nkH     nokaH   IV      marry;get married to
-
-    verb     FaCaL                     {- nakaH-uia -}      `imperf` [ FCuL, FCiL, FCaL ]
-                                                            -- `others` [ "nki.h IV", "nku.h IV", "nka.h IV" ]
-                                                            `gloss`  [ "marry", "get married to" ],
-
-    -- ;; nAkaH_1
-    -- nAkH    nAkaH   PV_intr become related through marriage
-    -- nAkH    nAkiH   IV_intr_yu      become related through marriage
-
-    verb     FACaL                     {- nAkaH -}          -- `others` [ "nAki.h IV_intr_yu" ]
-                                                            `gloss`  [ "become related through marriage" ],
-
-    -- ;; >anokaH_1
-    -- >nkH    >anokaH PV      give in marriage;marry off
-    -- AnkH    >anokaH PV      give in marriage;marry off
-    -- nkH     nokiH   IV_yu   give in marriage;marry off
-    -- nkH     nokaH   IV_Pass_yu      be given in marriage;be married off
-
-    verb     HaFCaL                    {- OanokaH -}        -- `others` [ "nki.h IV_yu", "nka.h IV_Pass_yu" ]
-                                                            `gloss`  [ "give in marriage", "marry off", "be given in marriage", "be married off" ],
-
-    -- ;; nikAH_1
-    -- nkAH    nikAH   N       marriage;wedlock;copulation
-
-    noun     FiCAL                     {- nikAH -}          `gloss`  [ "marriage", "wedlock", "copulation" ],
-
-    -- ;; manAkiH_1
-    -- mnAkH   manAkiH Ndip    women
-
-    noun     MaFACiL                   {- manAkiH -}        `gloss`  [ "women" ],
-
-    -- ;; nAkiH_1
-    -- nAkH    nAkiH   Ndu     married man
-
-    noun     FACiL                     {- nAkiH -}          `gloss`  [ "married man" ],
-
-    -- ;; manokuwH_1
-    -- mnkwH   manokuwH        N/ap    married woman
-
-    noun     MaFCUL                    {- manokuwH -}       `gloss`  [ "married woman" ] ]
-
- |> "n k .s" <| [
-
-    -- ;; nakaS-iu_1
-    -- nkS     nakaS   PV      withdraw;recoil
-    -- nkS     nokiS   IV      withdraw;recoil
-    -- nkS     nokuS   IV      withdraw;recoil
-
-    verb     FaCaL                     {- nakaS-iu -}       `imperf` [ FCiL, FCuL ]
-                                                            -- `others` [ "nki.s IV", "nku.s IV" ]
-                                                            `gloss`  [ "withdraw", "recoil" ],
-
-    -- ;; nak~aS_1
-    -- nkS     nak~aS  PV      cause to retreat
-    -- nkS     nak~iS  IV_yu   cause to retreat
-
-    verb     FaCCaL                    {- nak~aS -}         -- `others` [ "nakki.s IV_yu" ]
-                                                            `gloss`  [ "cause to retreat" ],
-
-    -- ;; {inotakaS_1
-    -- <ntkS   {inotakaS       PV      fall back;retreat;recoil
-    -- AntkS   {inotakaS       PV      fall back;retreat;recoil
-    -- ntkS    notakiS IV      fall back;retreat;recoil
-
-    verb     IFtaCaL                   {- {inotakaS -}      -- `others` [ "ntaki.s IV" ]
-                                                            `gloss`  [ "fall back", "retreat", "recoil" ],
-
-    -- ;; nakoS_1
-    -- nkS     nakoS   N       withdrawing;turning away;recoiling
-
-    noun     FaCL                      {- nakoS -}          `gloss`  [ "withdrawing", "turning away", "recoiling" ],
-
-    -- ;; nukuwS_1
-    -- nkwS    nukuwS  N       withdrawing;turning away;recoiling
-
-    noun     FuCUL                     {- nukuwS -}         `gloss`  [ "withdrawing", "turning away", "recoiling" ],
-
-    -- ;; manokaS_1
-    -- mnkS    manokaS N       withdrawing;turning away;recoiling
-
-    noun     MaFCaL                    {- manokaS -}        `gloss`  [ "withdrawing", "turning away", "recoiling" ] ]
-
- |> "n k ^s" <| [
-
-    -- ;; naka$-ia_1
-    -- nk$     naka$   PV      dredge;stir up;ransack
-    -- nk$     noki$   IV      dredge;stir up;ransack
-    -- nk$     noka$   IV      dredge;stir up;ransack
-
-    verb     FaCaL                     {- naka$-ia -}       `imperf` [ FCiL, FCaL ]
-                                                            -- `others` [ "nka^s IV", "nki^s IV" ]
-                                                            `gloss`  [ "dredge", "stir up", "ransack" ],
-
-    -- ;; nako$_1
-    -- nk$     nako$   N       dredging;stirring up;ransacking
-
-    noun     FaCL                      {- nako$ -}          `gloss`  [ "dredging", "stirring up", "ransacking" ],
-
-    -- ;; minoka$_1
-    -- mnk$    minoka$ Ndu     hoe;rake
-    -- mnAk$   manAki$ Ndip    hoe;rake
-
-    noun     MiFCaL                    {- minoka$ -}        -- `others` [ "manAki^s Ndip" ]
-                                                            `gloss`  [ "hoe", "rake" ],
-
-    -- ;; minokA$_1
-    -- mnkA$   minokA$ Ndu     dredge;pickax
-    -- mnAky$  manAkiy$        Ndip    dredges;pickaxes
-
-    noun     MiFCAL                    {- minokA$ -}        -- `others` [ "manAkiy^s Ndip" ]
-                                                            `gloss`  [ "dredge", "pickax", "dredges", "pickaxes" ] ]
-
- |> "n k _t" <| [
-
-    -- ;; nakav-ui_1
-    -- nkv     nakav   PV      violate
-    -- nkv     nokuv   IV      violate
-    -- nkv     nokiv   IV      violate
-
-    verb     FaCaL                     {- nakav-ui -}       `imperf` [ FCuL, FCiL ]
-                                                            -- `others` [ "nki_t IV", "nku_t IV" ]
-                                                            `gloss`  [ "violate" ],
-
-    -- ;; {inotakav_1
-    -- <ntkv   {inotakav       PV_intr be violated
-    -- Antkv   {inotakav       PV_intr be violated
-    -- ntkv    notakiv IV_intr be violated
-
-    verb     IFtaCaL                   {- {inotakav -}      -- `others` [ "ntaki_t IV_intr" ]
-                                                            `gloss`  [ "be violated" ],
-
-    -- ;; nakov_1
-    -- nkv     nakov   N       breach;violation
-
-    noun     FaCL                      {- nakov -}          `gloss`  [ "breach", "violation" ],
-
-    -- ;; nAkiv_1
-    -- nAkv    nAkiv   Nall    perfidious;disloyal     [[nAkiv/ADJ]]
-
-    noun     FACiL                     {- nAkiv -}          `gloss`  [ "perfidious", "disloyal [ [ nAkiv / ADJ ] ]" ] ]
+    FACaL                     `verb`       {- nAhaz -}          [ "approach", "attain" ]
+                              {- `others` [ "nAhiz IV_yu" ] -} ]
 
  |> "n k b" <| [
 
@@ -11273,295 +2936,43 @@ lexicon = listing "Lexicon properties"
     -- nkb     nakab   PV      afflict;deviate
     -- nkb     nokub   IV      afflict;deviate
 
-    verb     FaCaL                     {- nakab-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nkub IV" ]
-                                                            `gloss`  [ "afflict", "deviate" ],
-
-    -- ;; nak~ab_1
-    -- nkb     nak~ab  PV      divert;deflect
-    -- nkb     nak~ib  IV_yu   divert;deflect
-
-    verb     FaCCaL                    {- nak~ab -}         -- `others` [ "nakkib IV_yu" ]
-                                                            `gloss`  [ "divert", "deflect" ],
-
-    -- ;; tanak~ab_1
-    -- tnkb    tanak~ab        PV      deviate;avoid
-    -- tnkb    tanak~ab        IV      deviate;avoid
-
-    verb     TaFaCCaL                  {- tanak~ab -}       `gloss`  [ "deviate", "avoid" ],
-
-    -- ;; nakob_1
-    -- nkb     nakob   Ndu     misfortune;calamity
-    -- nkwb    nukuwb  N       misfortunes;calamities
-
-    noun     FaCL                      {- nakob -}          -- `others` [ "nukuwb N" ]
-                                                            `gloss`  [ "misfortune", "calamity", "misfortunes", "calamities" ],
+    FaCaL                     `verb`       {- nakab-u -}        [ "afflict", "deviate" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "nkub IV" ] -},
 
     -- ;; nakobap_1
     -- nkb     nakob   Napdu   disaster;fiasco
     -- nkb     nakab   NAt     disasters;fiascos
 
-    noun     FaCL |< aT                {- nakobap -}        -- `others` [ "nakab NAt" ]
-                                                            `gloss`  [ "disaster", "fiasco", "disasters", "fiascos" ],
-
-    -- ;; manokib_1
-    -- mnkb    manokib Ndu     shoulder;flank;upland
-    -- mnAkb   manAkib Ndip    shoulders;flanks;uplands
-
-    noun     MaFCiL                    {- manokib -}        -- `others` [ "manAkib Ndip" ]
-                                                            `gloss`  [ "shoulder", "flank", "upland", "shoulders", "flanks", "uplands" ],
+    FaCL |< aT                `noun`       {- nakobap -}        [ "disaster", "fiasco", "disasters", "fiascos" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "nakab NAt" ] -},
 
     -- ;; manokuwb_1
     -- mnkwb   manokuwb        Nall    victim
 
-    noun     MaFCUL                    {- manokuwb -}       `gloss`  [ "victim" ],
+    MaFCUL                    `noun`       {- manokuwb -}       [ "victim" ],
 
     -- ;; manokuwb_2
     -- mnkwb   manokuwb        N-ap    ill-fated;doomed     [[manokuwb/ADJ]]
 
-    noun     MaFCUL                    {- manokuwb -}       `gloss`  [ "ill-fated", "doomed [ [ manokuwb / ADJ ] ]" ] ]
-
- |> "n k d" <| [
-
-    -- ;; nakid-a_1
-    -- nkd     nakid   PV_intr be harsh;be unhappy
-    -- nkd     nokad   IV_intr be harsh;be unhappy
-
-    verb     FaCiL                     {- nakid-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nkad IV_intr" ]
-                                                            `gloss`  [ "be harsh", "be unhappy" ],
-
-    -- ;; nakad-u_1
-    -- nkd     nakad   PV      give little;torment
-    -- nkd     nokud   IV      give little;torment
-
-    verb     FaCaL                     {- nakad-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nkud IV" ]
-                                                            `gloss`  [ "give little", "torment" ],
-
-    -- ;; nak~ad_1
-    -- nkd     nak~ad  PV      make life difficult
-    -- nkd     nak~id  IV_yu   make life difficult
-
-    verb     FaCCaL                    {- nak~ad -}         -- `others` [ "nakkid IV_yu" ]
-                                                            `gloss`  [ "make life difficult" ],
-
-    -- ;; nAkad_1
-    -- nAkd    nAkad   PV      torment;harass
-    -- nAkd    nAkid   IV_yu   torment;harass
-
-    verb     FACaL                     {- nAkad -}          -- `others` [ "nAkid IV_yu" ]
-                                                            `gloss`  [ "torment", "harass" ],
-
-    -- ;; tanak~ad_1
-    -- tnkd    tanak~ad        PV_intr be made miserable;be embittered
-    -- tnkd    tanak~ad        IV_intr be made miserable;be embittered
-
-    verb     TaFaCCaL                  {- tanak~ad -}       `gloss`  [ "be made miserable", "be embittered" ],
-
-    -- ;; nakod_1
-    -- nkd     nakod   N       hardship;trouble
-    -- >nkAd   >anokAd N       hardships;troubles
-    -- AnkAd   >anokAd N       hardships;troubles
-
-    noun     FaCL                      {- nakod -}          -- `others` [ "'ankAd N" ]
-                                                            `gloss`  [ "hardship", "trouble", "hardships", "troubles" ],
-
-    -- ;; nakid_1
-    -- nkd     nakid   N-ap    troublesome;laborious
-
-    noun     FaCiL                     {- nakid -}          `gloss`  [ "troublesome", "laborious" ],
-
-    -- ;; nakid_2
-    -- nkd     nakid   N/ap    irritable;bad-tempered
-    -- >nkAd   >anokAd N       irritable;bad-tempered
-    -- AnkAd   >anokAd N       irritable;bad-tempered
-    -- mnAkyd  manAkiyd        Ndip    irritable;bad-tempered
-
-    noun     FaCiL                     {- nakid -}          -- `others` [ "manAkiyd Ndip", "'ankAd N" ]
-                                                            `gloss`  [ "irritable", "bad-tempered" ],
-
-    -- ;; >anokad_1
-    -- >nkd    >anokad Nel     troublesome;painful
-    -- Ankd    >anokad Nel     troublesome;painful
-
-    noun     HaFCaL                    {- Oanokad -}        `gloss`  [ "troublesome", "painful" ],
-
-    -- ;; munAkadap_1
-    -- mnAkd   munAkad NapAt   inconvenience;discomfort
-
-    noun     MuFACaL |< aT             {- munAkadap -}      `gloss`  [ "inconvenience", "discomfort" ],
-
-    -- ;; manokuwd_1
-    -- mnkwd   manokuwd        Nall    unhappy;ill-fated
-
-    noun     MaFCUL                    {- manokuwd -}       `gloss`  [ "unhappy", "ill-fated" ] ]
-
- |> "n k f" <| [
-
-    -- ;; nakaf-u_1
-    -- nkf     nakaf   PV      stop;disdain;reject
-    -- nkf     nokuf   IV      stop;disdain;reject
-
-    verb     FaCaL                     {- nakaf-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nkuf IV" ]
-                                                            `gloss`  [ "stop", "disdain", "reject" ],
-
-    -- ;; nAkaf_1
-    -- nAkf    nAkaf   PV      vex;harass
-    -- nAkf    nAkif   IV_yu   vex;harass
-
-    verb     FACaL                     {- nAkaf -}          -- `others` [ "nAkif IV_yu" ]
-                                                            `gloss`  [ "vex", "harass" ],
-
-    -- ;; {isotanokaf_1
-    -- <stnkf  {isotanokaf     PV_intr be proud;disdain;loathe
-    -- Astnkf  {isotanokaf     PV_intr be proud;disdain;loathe
-    -- stnkf   sotanokif       IV_intr be proud;disdain;loathe
-
-    verb     IstaFCaL                  {- {isotanokaf -}    -- `others` [ "stankif IV_intr" ]
-                                                            `gloss`  [ "be proud", "disdain", "loathe" ],
-
-    -- ;; nakof_1
-    -- nkf     nakof   N       stopping;disdaining;rejecting
-
-    noun     FaCL                      {- nakof -}          `gloss`  [ "stopping", "disdaining", "rejecting" ],
-
-    -- ;; nakafap_1
-    -- nkf     nakaf   Nap     parotid gland
-
-    noun     FaCaL |< aT               {- nakafap -}        `gloss`  [ "parotid gland" ],
-
-    -- ;; nakafiy~_1
-    -- nkfy    nakafiy~        N-ap    parotid     [[nakafiy~/ADJ]]
-
-    noun     FaCaL |< Iy               {- nakafiy~ -}       `gloss`  [ "parotid [ [ nakafiy ~ / ADJ ] ]" ],
-
-    -- ;; nukaf_1
-    -- nkf     nukaf   N       mumps;parotitis
-
-    noun     FuCaL                     {- nukaf -}          `gloss`  [ "mumps", "parotitis" ] ]
+    MaFCUL                    `noun`       {- manokuwb -}       [ "ill-fated", "doomed" ] ]
 
  |> "n k h" <| [
-
-    -- ;; nakah-ia_1
-    -- nkh     nakah   PV      breathe;blow
-    -- nkh     nokih   IV      breathe;blow
-    -- nkh     nokah   IV      breathe;blow
-
-    verb     FaCaL                     {- nakah-ia -}       `imperf` [ FCiL, FCaL ]
-                                                            -- `others` [ "nkih IV", "nkah IV" ]
-                                                            `gloss`  [ "breathe", "blow" ],
-
-    -- ;; nakoh_1
-    -- nkh     nakoh   N       breathing;blowing
-
-    noun     FaCL                      {- nakoh -}          `gloss`  [ "breathing", "blowing" ],
 
     -- ;; nakohap_1
     -- nkh     nakoh   Nap     fragrance;breath
 
-    noun     FaCL |< aT                {- nakohap -}        `gloss`  [ "fragrance", "breath" ] ]
-
- |> "n k k" <| [
-
-    -- ;; nak~At_1
-    -- nkAt    nak~At  Nall    witty;joker
-
-    noun     FaCL |< At                {- nak~At -}         `gloss`  [ "witty", "joker" ] ]
+    FaCL |< aT                `noun`       {- nakohap -}        [ "fragrance", "breath" ] ]
 
  |> "n k l" <| [
-
-    -- ;; nakal-iu_1
-    -- nkl     nakal   PV      recoil;shirk;violate
-    -- nkl     nokil   IV      recoil;shirk;violate
-    -- nkl     nokul   IV      recoil;shirk;violate
-
-    verb     FaCaL                     {- nakal-iu -}       `imperf` [ FCiL, FCuL ]
-                                                            -- `others` [ "nkul IV", "nkil IV" ]
-                                                            `gloss`  [ "recoil", "shirk", "violate" ],
-
-    -- ;; nakil-a_1
-    -- nkl     nakil   PV      recoil;shirk;violate
-    -- nkl     nokal   IV      recoil;shirk;violate
-
-    verb     FaCiL                     {- nakil-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nkal IV" ]
-                                                            `gloss`  [ "recoil", "shirk", "violate" ],
-
-    -- ;; nak~al_1
-    -- nkl     nak~al  PV      punish;maltreat;repel
-    -- nkl     nak~il  IV_yu   punish;maltreat;repel
-
-    verb     FaCCaL                    {- nak~al -}         -- `others` [ "nakkil IV_yu" ]
-                                                            `gloss`  [ "punish", "maltreat", "repel" ],
-
-    -- ;; >anokal_1
-    -- >nkl    >anokal PV      repel;deter
-    -- Ankl    >anokal PV      repel;deter
-    -- nkl     nokil   IV_yu   repel;deter
-    -- nkl     nokal   IV_Pass_yu      be repelled;be deterred
-
-    verb     HaFCaL                    {- Oanokal -}        -- `others` [ "nkil IV_yu", "nkal IV_Pass_yu" ]
-                                                            `gloss`  [ "repel", "deter", "be repelled", "be deterred" ],
-
-    -- ;; nakol_1
-    -- nkl     nakol   N       breach;violate
-
-    noun     FaCL                      {- nakol -}          `gloss`  [ "breach", "violate" ],
-
-    -- ;; nikol_1
-    -- nkl     nikol   N       shackle;chain
-    -- >nkAl   >anokAl N       shackles;chains
-    -- AnkAl   >anokAl N       shackles;chains
-    -- nkwl    nukuwl  N       shackles;chains
-
-    noun     FiCL                      {- nikol -}          -- `others` [ "'ankAl N", "nukuwl N" ]
-                                                            `gloss`  [ "shackle", "chain", "shackles", "chains" ],
-
-    -- ;; nakAl_1
-    -- nkAl    nakAl   N       exemplary punishment;warning example
-
-    noun     FaCAL                     {- nakAl -}          `gloss`  [ "exemplary punishment", "warning example" ],
-
-    -- ;; nukuwl_1
-    -- nkwl    nukuwl  N       refusal to testify
-
-    noun     FuCUL                     {- nukuwl -}         `gloss`  [ "refusal to testify" ],
 
     -- ;; tanokiyl_1
     -- tnkyl   tanokiyl        N/At    exemplary punishment;containment;maltreatment
 
-    noun     TaFCIL                    {- tanokiyl -}       `gloss`  [ "exemplary punishment", "containment", "maltreatment" ],
-
-    -- ;; tanokiyl_2
-    -- tnkyl   tanokiyl        N/At    plating with nickel
-
-    noun     TaFCIL                    {- tanokiyl -}       `gloss`  [ "plating with nickel" ] ]
+    TaFCIL                    `noun`       {- tanokiyl -}       [ "exemplary punishment", "containment", "maltreatment" ] ]
 
  |> "n k r" <| [
-
-    -- ;; nakir-a_1
-    -- nkr     nakir   PV_intr be ignorant of;deny;disavow
-    -- nkr     nokar   IV_intr be ignorant of;deny;disavow
-
-    verb     FaCiL                     {- nakir-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nkar IV_intr" ]
-                                                            `gloss`  [ "be ignorant of", "deny", "disavow" ],
-
-    -- ;; nak~ar_1
-    -- nkr     nak~ar  PV      disguise;mask
-    -- nkr     nak~ir  IV_yu   disguise;mask
-
-    verb     FaCCaL                    {- nak~ar -}         -- `others` [ "nakkir IV_yu" ]
-                                                            `gloss`  [ "disguise", "mask" ],
-
-    -- ;; nAkar_1
-    -- nAkr    nAkar   PV      disapprove of;reject
-    -- nAkr    nAkir   IV_yu   disapprove of;reject
-
-    verb     FACaL                     {- nAkar -}          -- `others` [ "nAkir IV_yu" ]
-                                                            `gloss`  [ "disapprove of", "reject" ],
 
     -- ;; >anokar_1
     -- >nkr    >anokar PV      deny;disavow;refuse
@@ -11569,285 +2980,66 @@ lexicon = listing "Lexicon properties"
     -- nkr     nokir   IV_yu   deny;disavow;refuse
     -- nkr     nokar   IV_Pass_yu      be denied;be disavowed;be refused
 
-    verb     HaFCaL                    {- Oanokar -}        -- `others` [ "nkar IV_Pass_yu", "nkir IV_yu" ]
-                                                            `gloss`  [ "deny", "disavow", "refuse", "be denied", "be disavowed", "be refused" ],
+    HaFCaL                    `verb`       {- Oanokar -}        [ "deny", "disavow", "refuse", "be denied", "be disavowed", "be refused" ]
+                              {- `others` [ "nkar IV_Pass_yu", "nkir IV_yu" ] -},
 
     -- ;; tanak~ar_1
     -- tnkr    tanak~ar        PV_intr be disguised
     -- tnkr    tanak~ar        IV_intr be disguised
 
-    verb     TaFaCCaL                  {- tanak~ar -}       `gloss`  [ "be disguised" ],
-
-    -- ;; tanAkar_1
-    -- tnAkr   tanAkar PV_intr be ignorant of;feign ignorance of
-    -- tnAkr   tanAkar IV_intr be ignorant of;feign ignorance of
-
-    verb     TaFACaL                   {- tanAkar -}        `gloss`  [ "be ignorant of", "feign ignorance of" ],
-
-    -- ;; {isotanokar_1
-    -- <stnkr  {isotanokar     PV_intr be ignorant of;have no knowledge of;repudiate
-    -- Astnkr  {isotanokar     PV_intr be ignorant of;have no knowledge of;repudiate
-    -- stnkr   sotanokir       IV_intr be ignorant of;have no knowledge of;repudiate
-
-    verb     IstaFCaL                  {- {isotanokar -}    -- `others` [ "stankir IV_intr" ]
-                                                            `gloss`  [ "be ignorant of", "have no knowledge of", "repudiate" ],
-
-    -- ;; nukor_1
-    -- nkr     nukor   N       denial;disavowal
-
-    noun     FuCL                      {- nukor -}          `gloss`  [ "denial", "disavowal" ],
-
-    -- ;; nakir_1
-    -- nkr     nakir   N-ap    unknown;little known     [[nakir/ADJ]]
-
-    noun     FaCiL                     {- nakir -}          `gloss`  [ "unknown", "little known [ [ nakir / ADJ ] ]" ],
-
-    -- ;; nakirap_1
-    -- nkr     nakir   NapAt   unknown person;
-
-    noun     FaCiL |< aT               {- nakirap -}        `gloss`  [ "unknown person" ],
-
-    -- ;; nakirap_2
-    -- nkr     nakir   NapAt   indefinite noun
-
-    noun     FaCiL |< aT               {- nakirap -}        `gloss`  [ "indefinite noun" ],
-
-    -- ;; nakiyr_1
-    -- nkyr    nakiyr  N       disavowal;reproach;blame
-
-    noun     FaCIL                     {- nakiyr -}         `gloss`  [ "disavowal", "reproach", "blame" ],
-
-    -- ;; >anokar_2
-    -- >nkr    >anokar Nel     reprehensible;disapproving
-    -- Ankr    >anokar Nel     reprehensible;disapproving
-    -- nkrA'   nakorA' N0_Nh   reprehensible;disapproving
-    -- nkrA&   nakorA& Nh      reprehensible;disapproving
-    -- nkrA}   nakorA} Nhy     reprehensible;disapproving
-
-    noun     HaFCaL                    {- Oanokar -}        -- `others` [ "nakrA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "reprehensible", "disapproving" ],
+    TaFaCCaL                  `verb`       {- tanak~ar -}       [ "be disguised" ],
 
     -- ;; <inokAr_1
     -- <nkAr   <inokAr N/At    denial;disavowal;refusal
     -- AnkAr   <inokAr N/At    denial;disavowal;refusal
 
-    noun     HiFCAL                    {- IinokAr -}        `gloss`  [ "denial", "disavowal", "refusal" ],
-
-    -- ;; <inokAriy~_1
-    -- <nkAry  <inokAriy~      N-ap    denying;negative     [[<inokAriy~/ADJ]]
-    -- AnkAry  <inokAriy~      N-ap    denying;negative     [[<inokAriy~/ADJ]]
-
-    noun     HiFCAL |< Iy              {- IinokAriy~ -}     `gloss`  [ "denying", "negative [ [" ],
+    HiFCAL                    `noun`       {- IinokAr -}        [ "denial", "disavowal", "refusal" ],
 
     -- ;; tanak~ur_1
     -- tnkr    tanak~ur        N/At    disguise;masquerade
 
-    noun     TaFaCCuL                  {- tanak~ur -}       `gloss`  [ "disguise", "masquerade" ],
-
-    -- ;; tanak~uriy~_1
-    -- tnkry   tanak~uriy~     N-ap    disguise;masquerade;carnival     [[tanak~uriy~/ADJ]]
-
-    noun     TaFaCCuL |< Iy            {- tanak~uriy~ -}    `gloss`  [ "disguise", "masquerade", "carnival [ [ tanak ~ uriy ~ / ADJ ] ]" ],
-
-    -- ;; {isotinokAr_1
-    -- <stnkAr {isotinokAr     N/At    repudiation;ignorance;lack of knowledge
-    -- AstnkAr {isotinokAr     N/At    repudiation;ignorance;lack of knowledge
-
-    noun     IstiFCAL                  {- {isotinokAr -}    `gloss`  [ "repudiation", "ignorance", "lack of knowledge" ],
-
-    -- ;; nAkir_1
-    -- nAkr    nAkir   Nall    denying;disavowing
-
-    noun     FACiL                     {- nAkir -}          `gloss`  [ "denying", "disavowing" ],
-
-    -- ;; manokuwr_1
-    -- mnkwr   manokuwr        Nall    reprehensible
-
-    noun     MaFCUL                    {- manokuwr -}       `gloss`  [ "reprehensible" ],
-
-    -- ;; munak~ar_1
-    -- mnkr    munak~ar        N-ap    indeterminate     [[munak~ar/ADJ]]
-
-    noun     MuFaCCaL                  {- munak~ar -}       `gloss`  [ "indeterminate [ [ munak ~ ar / ADJ ] ]" ],
-
-    -- ;; munokir_1
-    -- mnkr    munokir Nall    denier;denying;disavowing
-
-    noun     MuFCiL                    {- munokir -}        `gloss`  [ "denier", "denying", "disavowing" ],
-
-    -- ;; munokar_1
-    -- mnkr    munokar N-ap    denied;reprehensible     [[munokar/ADJ]]
-
-    noun     MuFCaL                    {- munokar -}        `gloss`  [ "denied", "reprehensible [ [ munokar / ADJ ] ]" ],
+    TaFaCCuL                  `noun`       {- tanak~ur -}       [ "disguise", "masquerade" ],
 
     -- ;; munokarAt_1
     -- mnkr    munokar NAt     reprehensible acts
 
-    noun     MuFCaL |< At              {- munokarAt -}      -- `others` [ "munkar NAt" ]
-                                                            `gloss`  [ "reprehensible acts" ],
-
-    -- ;; mutanak~ir_1
-    -- mtnkr   mutanak~ir      Nall    disguised;masquerading;incognito
-
-    noun     MutaFaCCiL                {- mutanak~ir -}     `gloss`  [ "disguised", "masquerading", "incognito" ],
-
-    -- ;; musotanokar_1
-    -- mstnkr  musotanokar     Nall    reprehensible;objectionable     [[musotanokar/ADJ]]
-
-    noun     MustaFCaL                 {- musotanokar -}    `gloss`  [ "reprehensible", "objectionable [ [ musotanokar / ADJ ] ]" ] ]
-
- |> "n k r n" <| [
-
-    -- ;; nukorAn_1
-    -- nkrAn   nukorAn N       disavowal;denial
-
-    noun     KuRDAS                    {- nukorAn -}        `gloss`  [ "disavowal", "denial" ] ]
+    MuFCaL |< At              `noun`       {- munokarAt -}      [ "reprehensible acts" ]
+                              `plural`     MuFCaL |< At
+                              {- `others` [ "munkar NAt" ] -} ]
 
  |> "n k s" <| [
-
-    -- ;; nakas-u_1
-    -- nks     nakas   PV      invert;reverse;lower
-    -- nks     nokus   IV      invert;reverse;lower
-    -- nks     nukis   PV_Pass relapse
-    -- nks     nokas   IV_Pass_yu      relapse
-
-    verb     FaCaL                     {- nakas-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nukis PV_Pass", "nkus IV", "nkas IV_Pass_yu" ]
-                                                            `gloss`  [ "invert", "reverse", "lower", "relapse" ],
-
-    -- ;; nak~as_1
-    -- nks     nak~as  PV      invert;reverse
-    -- nks     nak~is  IV_yu   invert;reverse
-
-    verb     FaCCaL                    {- nak~as -}         -- `others` [ "nakkis IV_yu" ]
-                                                            `gloss`  [ "invert", "reverse" ],
-
-    -- ;; {inotakas_1
-    -- <ntks   {inotakas       PV_intr be inverted;be reversed;relapse
-    -- Antks   {inotakas       PV_intr be inverted;be reversed;relapse
-    -- ntks    notakis IV_intr be inverted;be reversed;relapse
-
-    verb     IFtaCaL                   {- {inotakas -}      -- `others` [ "ntakis IV_intr" ]
-                                                            `gloss`  [ "be inverted", "be reversed", "relapse" ],
-
-    -- ;; nukos_1
-    -- nks     nukos   N       relapse;degeneration
-
-    noun     FuCL                      {- nukos -}          `gloss`  [ "relapse", "degeneration" ],
 
     -- ;; nakosap_1
     -- nks     nakos   Napdu   setback;reverse;relapse
     -- nks     nakas   NAt     setbacks;reverses;relapses
 
-    noun     FaCL |< aT                {- nakosap -}        -- `others` [ "nakas NAt" ]
-                                                            `gloss`  [ "setback", "reverse", "relapse", "setbacks", "reverses", "relapses" ],
+    FaCL |< aT                `noun`       {- nakosap -}        [ "setback", "reverse", "relapse", "setbacks", "reverses", "relapses" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "nakas NAt" ] -} ]
 
-    -- ;; tanak~us_1
-    -- tnks    tanak~us        N/At    degeneration
+ |> "n m '" <| [
 
-    noun     TaFaCCuL                  {- tanak~us -}       `gloss`  [ "degeneration" ],
+    -- ;; <inomA'_1
+    -- <nmA'   <inomA' N0_Nh   promotion;advancement
+    -- AnmA'   <inomA' N0_Nh   promotion;advancement
+    -- <nmA&   <inomA& Nh      promotion;advancement
+    -- AnmA&   <inomA& Nh      promotion;advancement
+    -- <nmA}   <inomA} Nhy     promotion;advancement
+    -- AnmA}   <inomA} Nhy     promotion;advancement
+    -- <nmA'   <inomA' NAn_Nayn        promotion;advancement
+    -- AnmA'   <inomA' NAn_Nayn        promotion;advancement
+    -- <nmA}   <inomA} Nayn    promotion;advancement
+    -- AnmA}   <inomA} Nayn    promotion;advancement
+    -- <nmA'   <inomA' NAt     promotion;advancement
+    -- AnmA'   <inomA' NAt     promotion;advancement
 
-    -- ;; {inotikAs_1
-    -- <ntkAs  {inotikAs       N/At    relapse
-    -- AntkAs  {inotikAs       N/At    relapse
+    HiFCAL                    `noun`       {- IinomA' -}        [ "promotion", "advancement" ],
 
-    noun     IFtiCAL                   {- {inotikAs -}      `gloss`  [ "relapse" ],
+    -- ;; <inomA}iy~_1
+    -- <nmA}y  <inomA}iy~      N-ap    development     [[<inomA}iy~/ADJ]]
+    -- AnmA}y  <inomA}iy~      N-ap    development     [[<inomA}iy~/ADJ]]
 
-    -- ;; manokuws_1
-    -- mnkws   manokuws        Nall    reversed;inverted;relapsing
-
-    noun     MaFCUL                    {- manokuws -}       `gloss`  [ "reversed", "inverted", "relapsing" ],
-
-    -- ;; munak~as_1
-    -- mnks    munak~as        N-ap    reversed;inverted;lowered     [[munak~as/ADJ]]
-
-    noun     MuFaCCaL                  {- munak~as -}       `gloss`  [ "reversed", "inverted", "lowered [ [ munak ~ as / ADJ ] ]" ],
-
-    -- ;; munotakis_1
-    -- mntks   munotakis       Nall    relapsing
-
-    noun     MuFtaCiL                  {- munotakis -}      `gloss`  [ "relapsing" ] ]
-
- |> "n k t" <| [
-
-    -- ;; nakat-u_1
-    -- nkt     nakat   PV-t    scratch up
-    -- nkt     nokut   IV      scratch up
-
-    verb     FaCaL                     {- nakat-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nkut IV" ]
-                                                            `gloss`  [ "scratch up" ],
-
-    -- ;; nak~at_1
-    -- nkt     nak~at  PV-t    ridicule;joke
-    -- nkt     nak~it  IV_yu   ridicule;joke
-
-    verb     FaCCaL                    {- nak~at -}         -- `others` [ "nakkit IV_yu" ]
-                                                            `gloss`  [ "ridicule", "joke" ],
-
-    -- ;; nukotap_1
-    -- nkt     nukot   Napdu   joke;wisecrack
-    -- nkt     nukat   N       jokes;wisecracks
-    -- nkt     nikat   N       jokes;wisecracks
-
-    noun     FuCL |< aT                {- nukotap -}        -- `others` [ "nikat N", "nukat N" ]
-                                                            `gloss`  [ "joke", "wisecrack", "jokes", "wisecracks" ],
-
-    -- ;; tanokiyt_1
-    -- tnkyt   tanokiyt        N/At    banter;jesting
-
-    noun     TaFCIL                    {- tanokiyt -}       `gloss`  [ "banter", "jesting" ],
-
-    -- ;; munak~it_1
-    -- mnkt    munak~it        Nall    jester;joker
-
-    noun     MuFaCCiL                  {- munak~it -}       `gloss`  [ "jester", "joker" ] ]
-
- |> "n k y" <| [
-
-    -- ;; nakaY-i_1
-    -- nkY     nakaY   PV_0    harm;injure;offend
-    -- nkA     nakA    PV_h    harm;injure;offend
-    -- nky     nakay   PV_Atn  harm;injure;offend
-    -- nk      nak     PV_ttAw harm;injure;offend
-    -- nky     nokiy   IV_0hAnn        harm;injure;offend
-    -- nk      nok     IV_0hwnyn       harm;injure;offend
-    -- nkY     nokaY   IV_0    harm;injure;offend
-
-    verb     FaCY                      {- nakaY-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nak PV_ttAw", "nakA PV_h", "nk IV_0hwnyn", "nkiy IV_0hAnn", "nakay PV_Atn", "nkY IV_0" ]
-                                                            `gloss`  [ "harm", "injure", "offend" ],
-
-    -- ;; nikAyap_1
-    -- nkAy    nikAy   Nap     damage;prejudice;offense
-
-    noun     FiCAL |< aT               {- nikAyap -}        `gloss`  [ "damage", "prejudice", "offense" ],
-
-    -- ;; >anokaY_1
-    -- >nkY    >anokaY N0      worse;worst;more/most harmful
-    -- AnkY    >anokaY N0      worse;worst;more/most harmful
-    -- >nkA    >anokA  Nhy     worst;most harmful
-    -- AnkA    >anokA  Nhy     worst;most harmful
-    -- >nky    >anokay NAn_Nayn        worst;most harmful
-    -- Anky    >anokay NAn_Nayn        worst;most harmful
-
-    noun     HaFCY                     {- OanokaY -}        -- `others` [ "'ankA Nhy", "'ankay NAn_Nayn" ]
-                                                            `gloss`  [ "worse", "worst", "more / most harmful", "most harmful" ] ]
-
- |> "n k z" <| [
-
-    -- ;; nakaz-u_1
-    -- nkz     nakaz   PV      goad;incite
-    -- nkz     nokuz   IV      goad;incite
-
-    verb     FaCaL                     {- nakaz-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nkuz IV" ]
-                                                            `gloss`  [ "goad", "incite" ],
-
-    -- ;; nakoz_1
-    -- nkz     nakoz   N       goading;inciting
-
-    noun     FaCL                      {- nakoz -}          `gloss`  [ "goading", "inciting" ] ]
+    HiFCAL |< Iy              `noun`       {- IinomA}iy~ -}     [ "development" ] ]
 
  |> "n m .t" <| [
 
@@ -11857,101 +3049,22 @@ lexicon = listing "Lexicon properties"
     -- AnmAT   >anomAT N       types;kinds;manners;forms
     -- nmAT    nimAT   N       types;kinds;manners;forms
 
-    noun     FaCaL                     {- namaT -}          -- `others` [ "nimA.t N", "'anmA.t N" ]
-                                                            `gloss`  [ "type", "kind", "manner", "form", "types", "kinds", "manners", "forms" ],
+    FaCaL                     `noun`       {- namaT -}          [ "type", "kind", "manner", "form", "types", "kinds", "manners", "forms" ]
+                              `plural`     FiCAL
+                              `plural`     HaFCAL
+                              {- `others` [ "nimA.t N", "'anmA.t N" ] -},
 
     -- ;; namaTiy~_1
     -- nmTy    namaTiy~        Nall    formal;rigid     [[namaTiy~/ADJ]]
 
-    noun     FaCaL |< Iy               {- namaTiy~ -}       `gloss`  [ "formal", "rigid [ [ namaTiy ~ / ADJ ] ]" ] ]
-
- |> "n m ^s" <| [
-
-    -- ;; nami$-a_1
-    -- nm$     nami$   PV_intr be freckled
-    -- nm$     noma$   IV_intr be freckled
-
-    verb     FaCiL                     {- nami$-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nma^s IV_intr" ]
-                                                            `gloss`  [ "be freckled" ],
-
-    -- ;; nama$_1
-    -- nm$     nama$   N       freckles
-    -- nm$     nama$   Napdu   freckle
-
-    noun     FaCaL                     {- nama$ -}          `gloss`  [ "freckles", "freckle" ],
-
-    -- ;; nami$_1
-    -- nm$     nami$   Nall    freckled     [[nami$/ADJ]]
-
-    noun     FaCiL                     {- nami$ -}          `gloss`  [ "freckled [ [ nami $ / ADJ ] ]" ],
-
-    -- ;; >anoma$_1
-    -- >nm$    >anoma$ Nel     freckled
-    -- Anm$    >anoma$ Nel     freckled
-    -- nm$A'   namo$A' N0_Nh   freckled
-    -- nm$A&   namo$A& Nh      freckled
-    -- nm$A}   namo$A} Nhy     freckled
-    -- nm$     numo$   N       freckled
-
-    noun     HaFCaL                    {- Oanoma$ -}        -- `others` [ "num^s N", "nam^sA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "freckled" ] ]
+    FaCaL |< Iy               `noun`       {- namaTiy~ -}       [ "formal", "rigid" ] ]
 
  |> "n m d r" <| [
 
     -- ;; namodAr_1
     -- nmdAr   namodAr Nprop   Namdar
 
-    noun     KaRDAS                    {- namodAr -}        `gloss`  [ "Namdar" ] ]
-
- |> "n m l" <| [
-
-    -- ;; namil-a_1
-    -- nml     namil   PV      tingle;be numb
-    -- nml     nomal   IV      tingle;be numb
-
-    verb     FaCiL                     {- namil-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nmal IV" ]
-                                                            `gloss`  [ "tingle", "be numb" ],
-
-    -- ;; namol_1
-    -- nml     namol   N       ants
-    -- nml     namol   Napdu   ant
-    -- nml     namol   NAt     ants
-    -- nmAl    nimAl   N       ants
-
-    noun     FaCL                      {- namol -}          -- `others` [ "nimAl N" ]
-                                                            `gloss`  [ "ants", "ant" ],
-
-    -- ;; namoliy~_1
-    -- nmly    namoliy~        N-ap    antlike;formic     [[namoliy~/ADJ]]
-
-    noun     FaCL |< Iy                {- namoliy~ -}       `gloss`  [ "antlike", "formic [ [ namoliy ~ / ADJ ] ]" ],
-
-    -- ;; namoliy~ap_1
-    -- nmly    namoliy~        Nap     meat safe;food safe     [[namoliy~/NOUN]]
-
-    noun     FaCL |< Iy |< aT          {- namoliy~ap -}     `gloss`  [ "meat safe", "food safe [ [ namoliy ~ / NOUN ] ]" ],
-
-    -- ;; namal_1
-    -- nml     namal   N       itching;tingling
-
-    noun     FaCaL                     {- namal -}          `gloss`  [ "itching", "tingling" ],
-
-    -- ;; namil_1
-    -- nml     namil   N-ap    crawling;creeping;teeming with ants
-
-    noun     FaCiL                     {- namil -}          `gloss`  [ "crawling", "creeping", "teeming with ants" ],
-
-    -- ;; tanomiyl_1
-    -- tnmyl   tanomiyl        N/At    itching;tingling
-
-    noun     TaFCIL                    {- tanomiyl -}       `gloss`  [ "itching", "tingling" ],
-
-    -- ;; manomuwl_1
-    -- mnmwl   manomuwl        N-ap    teeming with ants     [[manomuwl/ADJ]]
-
-    noun     MaFCUL                    {- manomuwl -}       `gloss`  [ "teeming with ants [ [ manomuwl / ADJ ] ]" ] ]
+    KaRDAS                    `noun`       {- namodAr -}        [ "Namdar" ] ]
 
  |> "n m m" <| [
 
@@ -11963,252 +3076,23 @@ lexicon = listing "Lexicon properties"
     -- nm      nim~    IV_V    slander;gossip about
     -- nmm     nomim   IV_C    slander;gossip about
 
-    verb     FaCL                      {- nam~-ui -}        `imperf` [ FCuL, FCiL ]
-                                                            -- `others` [ "nmum IV_C", "numm IV_V", "namam PV_C", "nimm IV_V", "nmim IV_C" ]
-                                                            `gloss`  [ "slander", "gossip about" ],
-
-    -- ;; nam~_1
-    -- nm      nam~    N       slander;gossip
-
-    noun     FaCL                      {- nam~ -}           `gloss`  [ "slander", "gossip" ],
-
-    -- ;; nam~_2
-    -- nm      nam~    Nall    slanderer;scandalmonger
-    -- >nmA'   >anim~A'        N0_Nh   slanderers;scandalmongers
-    -- AnmA'   >anim~A'        N0_Nh   slanderers;scandalmongers
-    -- >nmA&   >anim~A&        Nh      slanderers;scandalmongers
-    -- AnmA&   >anim~A&        Nh      slanderers;scandalmongers
-    -- >nmA}   >anim~A}        Nhy     slanderers;scandalmongers
-    -- AnmA}   >anim~A}        Nhy     slanderers;scandalmongers
-
-    noun     FaCL                      {- nam~ -}           -- `others` [ "'animmA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "slanderer", "scandalmonger", "slanderers", "scandalmongers" ],
-
-    -- ;; nim~ap_1
-    -- nm      nim~    Napdu   louse
-
-    noun     FiCL |< aT                {- nim~ap -}         `gloss`  [ "louse" ],
-
-    -- ;; nam~Am_1
-    -- nmAm    nam~Am  Nall    slanderer;calumniator
-
-    noun     FaCCAL                    {- nam~Am -}         `gloss`  [ "slanderer", "calumniator" ],
-
-    -- ;; namiymap_1
-    -- nmym    namiym  Napdu   slander;calumny
-    -- nmA}m   namA}im Ndip    slander;calumnies
-
-    noun     FaCIL |< aT               {- namiymap -}       -- `others` [ "namA'im Ndip" ]
-                                                            `gloss`  [ "slander", "calumny", "calumnies" ],
-
-    -- ;; nAm~ap_1
-    -- nAm     nAm~    Nap     bustle;stir
-
-    noun     FACL |< aT                {- nAm~ap -}         `gloss`  [ "bustle", "stir" ],
-
-    -- ;; num~iy~_1
-    -- nmy     num~iy~ N-ap    numismatic;coin     [[num~iy~/ADJ]]
-    -- nmy     num~iy~ NAt     numismatics;coins     [[num~iy~/NOUN]]
-
-    noun     FuCL |< Iy                {- num~iy~ -}        `gloss`  [ "numismatic", "coin [ [ num ~ iy ~ / ADJ ] ]", "numismatics", "coins [ [ num ~ iy ~ / NOUN ] ]" ] ]
+    FaCL                      `verb`       {- nam~-ui -}        [ "slander", "gossip about" ]
+                              `imperf` [ FCuL, FCiL ]
+                              {- `others` [ "nmum IV_C", "numm IV_V", "namam PV_C", "nimm IV_V", "nmim IV_C" ] -} ]
 
  |> "n m n m" <| [
-
-    -- ;; namonam_1
-    -- nmnm    namonam PV      adorn;embellish
-    -- nmnm    namonim IV_yu   adorn;embellish
-
-    verb     KaRDaS                    {- namonam -}        -- `others` [ "namnim IV_yu" ]
-                                                            `gloss`  [ "adorn", "embellish" ],
-
-    -- ;; nimonim_1
-    -- nmnm    nimonim N       ripples
-
-    noun     KiRDiS                    {- nimonim -}        `gloss`  [ "ripples" ],
-
-    -- ;; namonamap_1
-    -- nmnm    namonam Nap     wren
-
-    noun     KaRDaS |< aT              {- namonamap -}      `gloss`  [ "wren" ],
 
     -- ;; munamonam_1
     -- mnmnm   munamonam       N-ap    adorned;decorated;miniature     [[munamonam/ADJ]]
 
-    noun     MuKaRDaS                  {- munamonam -}      `gloss`  [ "adorned", "decorated", "miniature [ [ munamonam / ADJ ] ]" ],
-
-    -- ;; munamonamap_1
-    -- mnmnm   munamonam       NapAt   miniature
-
-    noun     MuKaRDaS |< aT            {- munamonamap -}    `gloss`  [ "miniature" ] ]
-
- |> "n m q" <| [
-
-    -- ;; nam~aq_1
-    -- nmq     nam~aq  PV      embellish;polish;formulate with care
-    -- nmq     nam~iq  IV_yu   embellish;polish;formulate with care
-
-    verb     FaCCaL                    {- nam~aq -}         -- `others` [ "nammiq IV_yu" ]
-                                                            `gloss`  [ "embellish", "polish", "formulate with care" ],
-
-    -- ;; tanomiyq_1
-    -- tnmyq   tanomiyq        N/At    embellishment;careful formulation
-
-    noun     TaFCIL                    {- tanomiyq -}       `gloss`  [ "embellishment", "careful formulation" ],
-
-    -- ;; munam~aq_1
-    -- mnmq    munam~aq        N-ap    embellished;well formulated     [[munam~aq/ADJ]]
-
-    noun     MuFaCCaL                  {- munam~aq -}       `gloss`  [ "embellished", "well formulated [ [ munam ~ aq / ADJ ] ]" ] ]
+    MuKaRDaS                  `noun`       {- munamonam -}      [ "adorned", "decorated", "miniature" ] ]
 
  |> "n m r" <| [
-
-    -- ;; nam~ar_1
-    -- nmr     nam~ar  PV      number
-    -- nmr     nam~ir  IV_yu   number
-
-    verb     FaCCaL                    {- nam~ar -}         -- `others` [ "nammir IV_yu" ]
-                                                            `gloss`  [ "number" ],
-
-    -- ;; tanam~ar_1
-    -- tnmr    tanam~ar        PV_intr be numbered;become angry
-    -- tnmr    tanam~ar        IV_intr be numbered;become angry
-
-    verb     TaFaCCaL                  {- tanam~ar -}       `gloss`  [ "be numbered", "become angry" ],
-
-    -- ;; namir_1
-    -- nmr     namir   N       tiger;leopard;panther
-    -- nmr     numur   N       tigers;leopards;panthers
-    -- nmwr    numuwr  N       tigers;leopards;panthers
-    -- >nmAr   >anomAr N       tigers;leopards;panthers
-    -- AnmAr   >anomAr N       tigers;leopards;panthers
-
-    noun     FaCiL                     {- namir -}          -- `others` [ "numur N", "'anmAr N", "numuwr N" ]
-                                                            `gloss`  [ "tiger", "leopard", "panther", "tigers", "leopards", "panthers" ],
 
     -- ;; numuwr_1
     -- nmwr    numuwr  N       Tigers (in "Tamil Tigers")
 
-    noun     FuCUL                     {- numuwr -}         `gloss`  [ "Tigers ( in `` Tamil Tigers '' )" ],
-
-    -- ;; namir_2
-    -- nmr     namir   N-ap    clean;wholesome
-
-    noun     FaCiL                     {- namir -}          `gloss`  [ "clean", "wholesome" ],
-
-    -- ;; numorap_1
-    -- nmr     numor   Nap     speck
-
-    noun     FuCL |< aT                {- numorap -}        `gloss`  [ "speck" ],
-
-    -- ;; >anomar_1
-    -- >nmr    >anomar Nel     speckled
-    -- Anmr    >anomar Nel     speckled
-    -- nmrA'   namorA' N0_Nh   speckled
-    -- nmrA&   namorA& Nh      speckled
-    -- nmrA}   namorA} Nhy     speckled
-    -- nmr     numor   N       speckled
-
-    noun     HaFCaL                    {- Oanomar -}        -- `others` [ "namrA' Nh Nhy N0_Nh", "numr N" ]
-                                                            `gloss`  [ "speckled" ],
-
-    -- ;; munam~ar_1
-    -- mnmr    munam~ar        N-ap    spotted;striped
-
-    noun     MuFaCCaL                  {- munam~ar -}       `gloss`  [ "spotted", "striped" ],
-
-    -- ;; nimorap_1
-    -- nmr     nimor   Napdu   number
-    -- nmr     numor   Nap     number
-
-    noun     FiCL |< aT                {- nimorap -}        -- `others` [ "numr Nap" ]
-                                                            `gloss`  [ "number" ],
-
-    -- ;; numayoriy~_1
-    -- nmyry   numayoriy~      N0      Numeiri
-
-    noun     FuCayL |< Iy              {- numayoriy~ -}     `gloss`  [ "Numeiri" ],
-
-    -- ;; nam~Arap_1
-    -- nmAr    nam~Ar  NapAt   numbering matching;date stamp
-
-    noun     FaCCAL |< aT              {- nam~Arap -}       `gloss`  [ "numbering matching", "date stamp" ],
-
-    -- ;; tanomiyr_1
-    -- tnmyr   tanomiyr        N/At    numbering;numeration
-
-    noun     TaFCIL                    {- tanomiyr -}       `gloss`  [ "numbering", "numeration" ],
-
-    -- ;; munam~ar_2
-    -- mnmr    munam~ar        N-ap    numbered;counted     [[munam~ar/ADJ]]
-
-    noun     MuFaCCaL                  {- munam~ar -}       `gloss`  [ "numbered", "counted [ [ munam ~ ar / ADJ ] ]" ] ]
-
- |> "n m r q" <| [
-
-    -- ;; numoruq_1
-    -- nmrq    numoruq Ndu     cushion;pillow;saddle pad
-    -- nmrq    numoruq Napdu   cushion;pillow;saddle pad
-    -- nmArq   namAriq Ndip    cushions;pillows;saddle pads
-
-    noun     KuRDuS                    {- numoruq -}        -- `others` [ "namAriq Ndip" ]
-                                                            `gloss`  [ "cushion", "pillow", "saddle pad", "cushions", "pillows", "saddle pads" ] ]
-
- |> "n m r s" <| [
-
-    -- ;; numorusiy~_1
-    -- nmrsy   numorusiy~      N/ap    chinaware dealer     [[numorusiy~/NOUN]]
-    -- nmArs   namAris Nap     chinaware dealers
-
-    noun     KuRDuS |< Iy              {- numorusiy~ -}     -- `others` [ "namAris Nap" ]
-                                                            `gloss`  [ "chinaware dealer [ [ numorusiy ~ / NOUN ] ]", "chinaware dealers" ] ]
-
- |> "n m s" <| [
-
-    -- ;; namas-i_1
-    -- nms     namas   PV      conceal;confide in
-    -- nms     nomis   IV      conceal;confide in
-
-    verb     FaCaL                     {- namas-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nmis IV" ]
-                                                            `gloss`  [ "conceal", "confide in" ],
-
-    -- ;; nAmas_1
-    -- nAms    nAmas   PV      confide in
-    -- nAms    nAmis   IV_yu   confide in
-
-    verb     FACaL                     {- nAmas -}          -- `others` [ "nAmis IV_yu" ]
-                                                            `gloss`  [ "confide in" ],
-
-    -- ;; namos_1
-    -- nms     namos   N       concealing;confiding in
-
-    noun     FaCL                      {- namos -}          `gloss`  [ "concealing", "confiding in" ],
-
-    -- ;; nimos_1
-    -- nms     nimos   N       mongoose;weasel
-    -- nms     nimos   Napdu   mongoose;weasel
-    -- nmws    numuws  N       mongooses;weasels
-
-    noun     FiCL                      {- nimos -}          -- `others` [ "numuws N" ]
-                                                            `gloss`  [ "mongoose", "weasel", "mongooses", "weasels" ],
-
-    -- ;; nAmuws_1
-    -- nAmws   nAmuws  Ndu     law
-    -- nwAmys  nawAmiys        Ndip    laws
-
-    noun     FACUL                     {- nAmuws -}         -- `others` [ "nawAmiys Ndip" ]
-                                                            `gloss`  [ "law", "laws" ],
-
-    -- ;; nAmuws_2
-    -- nAmws   nAmuws  N       mosquitoes
-    -- nAmws   nAmuws  NapAt   mosquito
-
-    noun     FACUL                     {- nAmuws -}         `gloss`  [ "mosquitoes", "mosquito" ],
-
-    -- ;; nAmuwsiy~ap_1
-    -- nAmwsy  nAmuwsiy~       Nap     mosquito net     [[nAmuwsiy~/NOUN]]
-
-    noun     FACUL |< Iy |< aT         {- nAmuwsiy~ap -}    `gloss`  [ "mosquito net [ [ nAmuwsiy ~ / NOUN ] ]" ] ]
+    FuCUL                     `noun`       {- numuwr -}         [ "Tigers (in \"Tamil Tigers\")" ] ]
 
  |> "n m s w" <| [
 
@@ -12218,8 +3102,7 @@ lexicon = listing "Lexicon properties"
     -- nmswy   namosawiy~      Nall    Austrian     [[namosawiy~/NOUN]]
     -- nmswy   namosawiy~      Nall    Austrian     [[namosawiy~/ADJ]]
 
-    noun     KaRDAS |< Iy              {- namosAwiy~ -}     -- `others` [ "namsawiyy Nall" ]
-                                                            `gloss`  [ "Austrian [ [ namosAwiy ~ / NOUN ] ]", "Austrian [ [ namosAwiy ~ / ADJ ] ]", "Austrian [ [ namosawiy ~ / NOUN ] ]", "Austrian [ [ namosawiy ~ / ADJ ] ]" ] ]
+    KaRDAS |< Iy              `noun`       {- namosAwiy~ -}     [ "Austrian" ] ]
 
  |> "n m w" <| [
 
@@ -12230,71 +3113,98 @@ lexicon = listing "Lexicon properties"
     -- nmw     nomuw   IV_0hAnn        grow;develop;rise;increase
     -- nm      nom     IV_0hwnyn       grow;develop;rise;increase
 
-    verb     FaCA                      {- namA-u -}         `imperf` [ FCuL ]
-                                                            -- `others` [ "namaw PV_Atn", "nm IV_0hwnyn", "nmuw IV_0hAnn", "nam PV_ttAw" ]
-                                                            `gloss`  [ "grow", "develop", "rise", "increase" ],
+    FaCA                      `verb`       {- namA-u -}         [ "grow", "develop", "rise", "increase" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "namaw PV_Atn", "nmuw IV_0hAnn" ] -},
 
     -- ;; numuw~_1
     -- nmw     numuw~  N       development;growth;progress
 
-    noun     FuCUL                     {- numuw~ -}         `gloss`  [ "development", "growth", "progress" ] ]
+    FuCUL                     `noun`       {- numuw~ -}         [ "development", "growth", "progress" ] ]
 
- |> "n n .h" <| [
+ |> "n m y" <| [
 
-    -- ;; nuHAtap_1
-    -- nHAt    nuHAt   Nap     chips;shavings;slivers
+    -- ;; tanAmaY_1
+    -- tnAmY   tanAmaY PV_0    grow gradually;increase continually
+    -- tnAmA   tanAmA  PV_h    grow gradually;increase continually
+    -- tnAmy   tanAmay PV_Atn  grow gradually;increase continually
+    -- tnAm    tanAm   PV_ttAw grow gradually;increase continually
+    -- tnAmY   tanAmaY IV_0    grow gradually;increase continually
+    -- tnAmA   tanAmA  IV_h    grow gradually;increase continually
+    -- tnAmy   tanAmay IV_Ann  grow gradually;increase continually
+    -- tnAm    tanAm   IV_0hwnyn       grow gradually;increase continually
 
-    noun     CuL |< At |< aT           {- nuHAtap -}        `gloss`  [ "chips", "shavings", "slivers" ] ]
+    TaFACY                    `verb`       {- tanAmaY -}        [ "grow gradually", "increase continually" ]
+                              {- `others` [ "tanAmay PV_Atn IV_Ann" ] -},
 
- |> "n n ^g" <| [
+    -- ;; tanomiyap_1
+    -- tnmy    tanomiy Nap     development;growth
 
-    -- ;; najAF_1
-    -- njA     najAF   FW-WaBi rescue;survival;escape;salvation     [[najAF/NOUN]]
-    -- njA     najA    N0_Nhy  rescue;survival;escape;salvation
+    TaFCiL |< aT              `noun`       {- tanomiyap -}      [ "development", "growth" ],
 
-    noun     CaL |< aN                 {- najAF -}          -- `others` [ "na^gA N0_Nhy" ]
-                                                            `gloss`  [ "rescue", "survival", "escape", "salvation [ [ najAF / NOUN ] ]", "salvation" ] ]
+    -- ;; <inomA'_1
+    -- <nmA'   <inomA' N0_Nh   promotion;advancement
+    -- AnmA'   <inomA' N0_Nh   promotion;advancement
+    -- <nmA&   <inomA& Nh      promotion;advancement
+    -- AnmA&   <inomA& Nh      promotion;advancement
+    -- <nmA}   <inomA} Nhy     promotion;advancement
+    -- AnmA}   <inomA} Nhy     promotion;advancement
+    -- <nmA'   <inomA' NAn_Nayn        promotion;advancement
+    -- AnmA'   <inomA' NAn_Nayn        promotion;advancement
+    -- <nmA}   <inomA} Nayn    promotion;advancement
+    -- AnmA}   <inomA} Nayn    promotion;advancement
+    -- <nmA'   <inomA' NAt     promotion;advancement
+    -- AnmA'   <inomA' NAt     promotion;advancement
 
- |> "n n ^s" <| [
+    HiFCA'                    `noun`       {- IinomA' -}        [ "promotion", "advancement" ],
 
-    -- ;; na$AF_1
-    -- n$A     na$AF   FW-WaBi aroma;scent;perfume;starch     [[na$AF/NOUN]]
-    -- n$A     na$A    N0_Nhy  aroma;scent;perfume;starch
+    -- ;; <inomA}iy~_1
+    -- <nmA}y  <inomA}iy~      N-ap    development     [[<inomA}iy~/ADJ]]
+    -- AnmA}y  <inomA}iy~      N-ap    development     [[<inomA}iy~/ADJ]]
 
-    noun     CaL |< aN                 {- na$AF -}          -- `others` [ "na^sA N0_Nhy" ]
-                                                            `gloss`  [ "aroma", "scent", "perfume", "starch [ [ na $ AF / NOUN ] ]", "starch" ] ]
+    HiFCA' |< Iy              `noun`       {- IinomA}iy~ -}     [ "development" ],
+
+    -- ;; tanAmiy_1
+    -- tnAmy   tanAmiy N0_Nh   gradual growth;continual increase
+    -- tnAm    tanAm   NK      gradual growth;continual increase
+    -- tnAmy   tanAmiy NAn_Nayn        gradual growth;continual increase
+    -- tnAmy   tanAmiy NAt     gradual growth;continual increase
+
+    TaFACI                    `noun`       {- tanAmiy -}        [ "gradual growth", "continual increase" ],
+
+    -- ;; nAmiy_1
+    -- nAmy    nAmiy   N0F     developing     [[nAmiy/ADJ]]
+    -- nAm     nAm     NK      developing
+    -- nAmy    nAmiy   NAn_Nayn        developing
+    -- nAm     nAm     Nuwn_Niyn       developing
+    -- nAmy    nAmiy   NapAt   developing
+
+    FACiL                     `noun`       {- nAmiy -}          [ "developing" ],
+
+    -- ;; mutanAmiy_1
+    -- mtnAmy  mutanAmiy       N0F_Nh  growing gradually     [[mutanAmiy/ADJ]]
+    -- mtnAm   mutanAm NK      growing gradually
+    -- mtnAmy  mutanAmiy       NAn_Nayn        growing gradually
+    -- mtnAm   mutanAm Nuwn_Niyn       growing gradually
+    -- mtnAmy  mutanAmiy       NapAt   growing gradually
+
+    MutaFACiL                 `noun`       {- mutanAmiy -}      [ "growing gradually" ],
+
+    -- ;; munotamiy_1
+    -- mntmy   munotamiy       N0_Nh   belonging;affiliated;committed     [[munotamiy/ADJ]]
+    -- mntm    munotam NK      belonging;affiliated;committed
+    -- mntmy   munotamiy       NAn_Nayn        belonging;affiliated;committed
+    -- mntm    munotam Nuwn_Niyn       belonging;affiliated;committed
+    -- mntmy   munotamiy       NapAt   belonging;affiliated;committed
+
+    MuFtaCiL                  `noun`       {- munotamiy -}      [ "belonging", "affiliated", "committed" ] ]
 
  |> "n n b" <| [
 
     -- ;; nabAt_1
     -- nbAt    nabAt   N/At    plants;vegetation
 
-    noun     CaL |< At                 {- nabAt -}          `gloss`  [ "plants", "vegetation" ] ]
-
- |> "n q '" <| [
-
-    -- ;; naqA'_1
-    -- nqA'    naqA'   N0_Nh   purity
-    -- nqA&    naqA&   Nh      purity
-    -- nqA}    naqA}   Nhy     purity
-
-    noun     FaCAL                     {- naqA' -}          `gloss`  [ "purity" ],
-
-    -- ;; {inotiqA'_1
-    -- <ntqA'  {inotiqA'       N0_Nh   selection
-    -- AntqA'  {inotiqA'       N0_Nh   selection
-    -- <ntqA&  {inotiqA&       Nh      selection
-    -- AntqA&  {inotiqA&       Nh      selection
-    -- <ntqA}  {inotiqA}       Nhy     selection
-    -- AntqA}  {inotiqA}       Nhy     selection
-    -- <ntqA'  {inotiqA'       NAn_Nayn        selections
-    -- AntqA'  {inotiqA'       NAn_Nayn        selections
-    -- <ntqA}  {inotiqA}       Nayn    selections
-    -- AntqA}  {inotiqA}       Nayn    selections
-    -- <ntqA'  {inotiqA'       NAt     selections
-    -- AntqA'  {inotiqA'       NAt     selections
-
-    noun     IFtiCAL                   {- {inotiqA' -}      `gloss`  [ "selection", "selections" ] ]
+    CaL |< At                 `noun`       {- nabAt -}          [ "plants", "vegetation" ] ]
 
  |> "n q .d" <| [
 
@@ -12302,134 +3212,46 @@ lexicon = listing "Lexicon properties"
     -- nqD     naqaD   PV      destroy;violate;rescind
     -- nqD     noquD   IV      destroy;violate;rescind
 
-    verb     FaCaL                     {- naqaD-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nqu.d IV" ]
-                                                            `gloss`  [ "destroy", "violate", "rescind" ],
+    FaCaL                     `verb`       {- naqaD-u -}        [ "destroy", "violate", "rescind" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "nqu.d IV" ] -},
 
     -- ;; nAqaD_1
     -- nAqD    nAqaD   PV      contradict;be incompatible with
     -- nAqD    nAqiD   IV_yu   contradict;be incompatible with
 
-    verb     FACaL                     {- nAqaD -}          -- `others` [ "nAqi.d IV_yu" ]
-                                                            `gloss`  [ "contradict", "be incompatible with" ],
-
-    -- ;; >anoqaD_1
-    -- >nqD    >anoqaD PV      overload
-    -- AnqD    >anoqaD PV      overload
-    -- nqD     noqiD   IV_yu   overload
-    -- nqD     noqaD   IV_Pass_yu      be overloaded
-
-    verb     HaFCaL                    {- OanoqaD -}        -- `others` [ "nqi.d IV_yu", "nqa.d IV_Pass_yu" ]
-                                                            `gloss`  [ "overload", "be overloaded" ],
-
-    -- ;; tanaq~aD_1
-    -- tnqD    tanaq~aD        PV_intr be destroyed;be violated
-    -- tnqD    tanaq~aD        IV_intr be destroyed;be violated
-
-    verb     TaFaCCaL                  {- tanaq~aD -}       `gloss`  [ "be destroyed", "be violated" ],
+    FACaL                     `verb`       {- nAqaD -}          [ "contradict", "be incompatible with" ]
+                              {- `others` [ "nAqi.d IV_yu" ] -},
 
     -- ;; tanAqaD_1
     -- tnAqD   tanAqaD PV      contradict each other;be inconsistent
     -- tnAqD   tanAqaD IV      contradict each other;be inconsistent
 
-    verb     TaFACaL                   {- tanAqaD -}        `gloss`  [ "contradict each other", "be inconsistent" ],
-
-    -- ;; {inotaqaD_1
-    -- <ntqD   {inotaqaD       PV_intr be destroyed;rebel;attack
-    -- AntqD   {inotaqaD       PV_intr be destroyed;rebel;attack
-    -- ntqD    notaqiD IV_intr be destroyed;rebel;attack
-
-    verb     IFtaCaL                   {- {inotaqaD -}      -- `others` [ "ntaqi.d IV_intr" ]
-                                                            `gloss`  [ "be destroyed", "rebel", "attack" ],
+    TaFACaL                   `verb`       {- tanAqaD -}        [ "contradict each other", "be inconsistent" ],
 
     -- ;; naqoD_1
     -- nqD     naqoD   N       contradiction;destruction
     -- >nqAD   >anoqAD N       ruins;debris
     -- AnqAD   >anoqAD N       ruins;debris
 
-    noun     FaCL                      {- naqoD -}          -- `others` [ "'anqA.d N" ]
-                                                            `gloss`  [ "contradiction", "destruction", "ruins", "debris" ],
+    FaCL                      `noun`       {- naqoD -}          [ "contradiction", "destruction", "ruins", "debris" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'anqA.d N" ] -},
 
     -- ;; naqiyD_1
     -- nqyD    naqiyD  N       opposite;contrary;contrast
 
-    noun     FaCIL                     {- naqiyD -}         `gloss`  [ "opposite", "contrary", "contrast" ],
-
-    -- ;; naqiyDap_1
-    -- nqyD    naqiyD  Nap     contrast
-    -- nqA}D   naqA}iD Ndip    contrasts
-
-    noun     FaCIL |< aT               {- naqiyDap -}       -- `others` [ "naqA'i.d Ndip" ]
-                                                            `gloss`  [ "contrast", "contrasts" ],
-
-    -- ;; munAqaDap_1
-    -- mnAqD   munAqaD NapAt   contradiction;contrast;opposition
-
-    noun     MuFACaL |< aT             {- munAqaDap -}      `gloss`  [ "contradiction", "contrast", "opposition" ],
+    FaCIL                     `noun`       {- naqiyD -}         [ "opposite", "contrary", "contrast" ],
 
     -- ;; tanAquD_1
     -- tnAqD   tanAquD N/At    inconsistency;incompatibility;conflict
 
-    noun     TaFACuL                   {- tanAquD -}        `gloss`  [ "inconsistency", "incompatibility", "conflict" ],
-
-    -- ;; {inotiqAD_1
-    -- <ntqAD  {inotiqAD       N/At    collapse;revolt;rebellion
-    -- AntqAD  {inotiqAD       N/At    collapse;revolt;rebellion
-
-    noun     IFtiCAL                   {- {inotiqAD -}      `gloss`  [ "collapse", "revolt", "rebellion" ],
-
-    -- ;; manoquwD_1
-    -- mnqwD   manoquwD        N-ap    destroyed;violated;refutable     [[manoquwD/ADJ]]
-
-    noun     MaFCUL                    {- manoquwD -}       `gloss`  [ "destroyed", "violated", "refutable [ [ manoquwD / ADJ ] ]" ],
+    TaFACuL                   `noun`       {- tanAquD -}        [ "inconsistency", "incompatibility", "conflict" ],
 
     -- ;; munAqiD_1
     -- mnAqD   munAqiD N-ap    contradictory;inconsistent;incompatible     [[munAqiD/ADJ]]
 
-    noun     MuFACiL                   {- munAqiD -}        `gloss`  [ "contradictory", "inconsistent", "incompatible [ [ munAqiD / ADJ ] ]" ],
-
-    -- ;; mutanAqiD_1
-    -- mtnAqD  mutanAqiD       N-ap    contradictory;inconsistent;incompatible     [[mutanAqiD/ADJ]]
-
-    noun     MutaFACiL                 {- mutanAqiD -}      `gloss`  [ "contradictory", "inconsistent", "incompatible [ [ mutanAqiD / ADJ ] ]" ] ]
-
- |> "n q .h" <| [
-
-    -- ;; naqaH-a_1
-    -- nqH     naqaH   PV      trim;prune
-    -- nqH     noqaH   IV      trim;prune
-
-    verb     FaCaL                     {- naqaH-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nqa.h IV" ]
-                                                            `gloss`  [ "trim", "prune" ],
-
-    -- ;; naq~aH_1
-    -- nqH     naq~aH  PV      trim;prune
-    -- nqH     naq~iH  IV_yu   trim;prune
-
-    verb     FaCCaL                    {- naq~aH -}         -- `others` [ "naqqi.h IV_yu" ]
-                                                            `gloss`  [ "trim", "prune" ],
-
-    -- ;; naq~aH_2
-    -- nqH     naq~aH  PV      review;proofread
-    -- nqH     naq~iH  IV_yu   review;proofread
-
-    verb     FaCCaL                    {- naq~aH -}         -- `others` [ "naqqi.h IV_yu" ]
-                                                            `gloss`  [ "review", "proofread" ],
-
-    -- ;; >anoqaH_1
-    -- >nqH    >anoqaH PV      review;proofread
-    -- AnqH    >anoqaH PV      review;proofread
-    -- nqH     noqiH   IV_yu   review;proofread
-    -- nqH     noqaH   IV_Pass_yu      be reviewed;be proofread
-
-    verb     HaFCaL                    {- OanoqaH -}        -- `others` [ "nqi.h IV_yu", "nqa.h IV_Pass_yu" ]
-                                                            `gloss`  [ "review", "proofread", "be reviewed", "be proofread" ],
-
-    -- ;; tanoqiyH_1
-    -- tnqyH   tanoqiyH        N/At    review;proofreading
-
-    noun     TaFCIL                    {- tanoqiyH -}       `gloss`  [ "review", "proofreading" ] ]
+    MuFACiL                   `noun`       {- munAqiD -}        [ "contradictory", "inconsistent", "incompatible" ] ]
 
  |> "n q .s" <| [
 
@@ -12437,16 +3259,9 @@ lexicon = listing "Lexicon properties"
     -- nqS     naqaS   PV      decrease;lack
     -- nqS     noquS   IV      decrease;lack
 
-    verb     FaCaL                     {- naqaS-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nqu.s IV" ]
-                                                            `gloss`  [ "decrease", "lack" ],
-
-    -- ;; naq~aS_1
-    -- nqS     naq~aS  PV      decrease;curtail
-    -- nqS     naq~iS  IV_yu   decrease;curtail
-
-    verb     FaCCaL                    {- naq~aS -}         -- `others` [ "naqqi.s IV_yu" ]
-                                                            `gloss`  [ "decrease", "curtail" ],
+    FaCaL                     `verb`       {- naqaS-u -}        [ "decrease", "lack" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "nqu.s IV" ] -},
 
     -- ;; >anoqaS_1
     -- >nqS    >anoqaS PV      decrease;curtail
@@ -12454,274 +3269,103 @@ lexicon = listing "Lexicon properties"
     -- nqS     noqiS   IV_yu   decrease;curtail
     -- nqS     noqaS   IV_Pass_yu      be decreased;be curtailed
 
-    verb     HaFCaL                    {- OanoqaS -}        -- `others` [ "nqi.s IV_yu", "nqa.s IV_Pass_yu" ]
-                                                            `gloss`  [ "decrease", "curtail", "be decreased", "be curtailed" ],
-
-    -- ;; nAqaS_1
-    -- nAqS    nAqaS   PV      invite bids;submit a tender
-    -- nAqS    nAqiS   IV_yu   invite bids;submit a tender
-
-    verb     FACaL                     {- nAqaS -}          -- `others` [ "nAqi.s IV_yu" ]
-                                                            `gloss`  [ "invite bids", "submit a tender" ],
+    HaFCaL                    `verb`       {- OanoqaS -}        [ "decrease", "curtail", "be decreased", "be curtailed" ]
+                              {- `others` [ "nqi.s IV_yu", "nqa.s IV_Pass_yu" ] -},
 
     -- ;; tanAqaS_1
     -- tnAqS   tanAqaS PV      decrease gradually
     -- tnAqS   tanAqaS IV      decrease gradually
 
-    verb     TaFACaL                   {- tanAqaS -}        `gloss`  [ "decrease gradually" ],
-
-    -- ;; {inotaqaS_1
-    -- <ntqS   {inotaqaS       PV      decrease;wane
-    -- AntqS   {inotaqaS       PV      decrease;wane
-    -- ntqS    notaqiS IV      decrease;wane
-
-    verb     IFtaCaL                   {- {inotaqaS -}      -- `others` [ "ntaqi.s IV" ]
-                                                            `gloss`  [ "decrease", "wane" ],
-
-    -- ;; {isotanoqaS_1
-    -- <stnqS  {isotanoqaS     PV      ask for a reduction;find deficient
-    -- AstnqS  {isotanoqaS     PV      ask for a reduction;find deficient
-    -- stnqS   sotanoqiS       IV      ask for a reduction;find deficient
-
-    verb     IstaFCaL                  {- {isotanoqaS -}    -- `others` [ "stanqi.s IV" ]
-                                                            `gloss`  [ "ask for a reduction", "find deficient" ],
+    TaFACaL                   `verb`       {- tanAqaS -}        [ "decrease gradually" ],
 
     -- ;; naqoS_1
     -- nqS     naqoS   N       deficit
 
-    noun     FaCL                      {- naqoS -}          `gloss`  [ "deficit" ],
+    FaCL                      `noun`       {- naqoS -}          [ "deficit" ],
 
     -- ;; naqoS_2
     -- nqS     naqoS   N       decrease;loss;deficiency;lack
 
-    noun     FaCL                      {- naqoS -}          `gloss`  [ "decrease", "loss", "deficiency", "lack" ],
+    FaCL                      `noun`       {- naqoS -}          [ "decrease", "loss", "deficiency", "lack" ],
 
     -- ;; naqiySap_1
     -- nqyS    naqiyS  Napdu   shortcoming;defect
     -- nqA}S   naqA}iS Ndip    shortcomings;defects
 
-    noun     FaCIL |< aT               {- naqiySap -}       -- `others` [ "naqA'i.s Ndip" ]
-                                                            `gloss`  [ "shortcoming", "defect", "shortcomings", "defects" ],
-
-    -- ;; tanoqiyS_1
-    -- tnqyS   tanoqiyS        N/At    decrease
-
-    noun     TaFCIL                    {- tanoqiyS -}       `gloss`  [ "decrease" ],
+    FaCIL |< aT               `noun`       {- naqiySap -}       [ "shortcoming", "defect", "shortcomings", "defects" ],
 
     -- ;; munAqaSap_1
     -- mnAqS   munAqaS NapAt   public bidding;adjudication
 
-    noun     MuFACaL |< aT             {- munAqaSap -}      `gloss`  [ "public bidding", "adjudication" ],
-
-    -- ;; <inoqAS_1
-    -- <nqAS   <inoqAS N/At    reduction;lowering;curtailment
-    -- AnqAS   <inoqAS N/At    reduction;lowering;curtailment
-
-    noun     HiFCAL                    {- IinoqAS -}        `gloss`  [ "reduction", "lowering", "curtailment" ],
-
-    -- ;; tanAquS_1
-    -- tnAqS   tanAquS N/At    decrease;diminution
-
-    noun     TaFACuL                   {- tanAquS -}        `gloss`  [ "decrease", "diminution" ],
-
-    -- ;; {inotiqAS_1
-    -- <ntqAS  {inotiqAS       N/At    impairment;lessening
-    -- AntqAS  {inotiqAS       N/At    impairment;lessening
-
-    noun     IFtiCAL                   {- {inotiqAS -}      `gloss`  [ "impairment", "lessening" ],
+    MuFACaL |< aT             `noun`       {- munAqaSap -}      [ "public bidding", "adjudication" ],
 
     -- ;; nAqiS_1
     -- nAqS    nAqiS   N/ap    incomplete;defective;lacking
     -- nqS     nuq~aS  N       incomplete;defective;lacking
 
-    noun     FACiL                     {- nAqiS -}          -- `others` [ "nuqqa.s N" ]
-                                                            `gloss`  [ "incomplete", "defective", "lacking" ],
-
-    -- ;; nawAqiS_1
-    -- nwAqS   nawAqiS Ndip    shortcomings;defects;faults
-
-    noun     FawACiL                   {- nawAqiS -}        `gloss`  [ "shortcomings", "defects", "faults" ],
-
-    -- ;; manoquwS_1
-    -- mnqwS   manoquwS        N-ap    reduced;deficient;insufficient     [[manoquwS/ADJ]]
-
-    noun     MaFCUL                    {- manoquwS -}       `gloss`  [ "reduced", "deficient", "insufficient [ [ manoquwS / ADJ ] ]" ],
-
-    -- ;; munAqiS_1
-    -- mnAqS   munAqiS Nall    bidder
-
-    noun     MuFACiL                   {- munAqiS -}        `gloss`  [ "bidder" ] ]
-
- |> "n q .s n" <| [
-
-    -- ;; nuqoSAn_1
-    -- nqSAn   nuqoSAn N       omissions;imperfection
-
-    noun     KuRDAS                    {- nuqoSAn -}        `gloss`  [ "omissions", "imperfection" ] ]
+    FACiL                     `noun`       {- nAqiS -}          [ "incomplete", "defective", "lacking" ]
+                              `plural`     FuCCaL
+                              {- `others` [ "nuqqa.s N" ] -} ]
 
  |> "n q .t" <| [
-
-    -- ;; naqaT-u_1
-    -- nqT     naqaT   PV      point;drip
-    -- nqT     noquT   IV      point;drip
-
-    verb     FaCaL                     {- naqaT-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nqu.t IV" ]
-                                                            `gloss`  [ "point", "drip" ],
-
-    -- ;; naq~aT_1
-    -- nqT     naq~aT  PV      point;speckle;drip
-    -- nqT     naq~iT  IV_yu   point;speckle;drip
-
-    verb     FaCCaL                    {- naq~aT -}         -- `others` [ "naqqi.t IV_yu" ]
-                                                            `gloss`  [ "point", "speckle", "drip" ],
 
     -- ;; nuqoTap_1
     -- nqT     nuqoT   Napdu   point;location;position
     -- nqT     nuqaT   N       points;locations;positions
     -- nqAT    niqAT   N       points;locations;positions
 
-    noun     FuCL |< aT                {- nuqoTap -}        -- `others` [ "nuqa.t N", "niqA.t N" ]
-                                                            `gloss`  [ "point", "location", "position", "points", "locations", "positions" ],
-
-    -- ;; nuquwT_1
-    -- nqwT    nuquwT  N       wedding present
-
-    noun     FuCUL                     {- nuquwT -}         `gloss`  [ "wedding present" ],
-
-    -- ;; nuqayoTap_1
-    -- nqyT    nuqayoT Napdu   droplet
-
-    noun     FuCayL |< aT              {- nuqayoTap -}      `gloss`  [ "droplet" ],
-
-    -- ;; naq~ATap_1
-    -- nqAT    naq~AT  Nap     dropping tube;pipette
-
-    noun     FaCCAL |< aT              {- naq~ATap -}       `gloss`  [ "dropping tube", "pipette" ],
-
-    -- ;; manoquwT_1
-    -- mnqwT   manoquwT        N-ap    dotted;speckled;spotted     [[manoquwT/ADJ]]
-
-    noun     MaFCUL                    {- manoquwT -}       `gloss`  [ "dotted", "speckled", "spotted [ [ manoquwT / ADJ ] ]" ],
-
-    -- ;; munaq~aT_1
-    -- mnqT    munaq~aT        N-ap    dotted;speckled;spotted     [[munaq~aT/ADJ]]
-
-    noun     MuFaCCaL                  {- munaq~aT -}       `gloss`  [ "dotted", "speckled", "spotted [ [ munaq ~ aT / ADJ ] ]" ] ]
+    FuCL |< aT                `noun`       {- nuqoTap -}        [ "point", "location", "position", "points", "locations", "positions" ]
+                              `plural`     FuCaL
+                              `plural`     FiCAL
+                              {- `others` [ "nuqa.t N", "niqA.t N" ] -} ]
 
  |> "n q ^s" <| [
-
-    -- ;; naqa$-u_1
-    -- nq$     naqa$   PV      paint;sculpture;engrave
-    -- nq$     noqu$   IV      paint;sculpture;engrave
-
-    verb     FaCaL                     {- naqa$-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nqu^s IV" ]
-                                                            `gloss`  [ "paint", "sculpture", "engrave" ],
-
-    -- ;; naq~a$_1
-    -- nq$     naq~a$  PV      paint;sculpture;engrave
-    -- nq$     naq~i$  IV_yu   paint;sculpture;engrave
-
-    verb     FaCCaL                    {- naq~a$ -}         -- `others` [ "naqqi^s IV_yu" ]
-                                                            `gloss`  [ "paint", "sculpture", "engrave" ],
 
     -- ;; nAqa$_1
     -- nAq$    nAqa$   PV      argue with;debate with
     -- nAq$    nAqi$   IV_yu   argue with;debate with
 
-    verb     FACaL                     {- nAqa$ -}          -- `others` [ "nAqi^s IV_yu" ]
-                                                            `gloss`  [ "argue with", "debate with" ],
+    FACaL                     `verb`       {- nAqa$ -}          [ "argue with", "debate with" ]
+                              {- `others` [ "nAqi^s IV_yu" ] -},
 
     -- ;; tanAqa$_1
     -- tnAq$   tanAqa$ PV      debate each other;argue with each other
     -- tnAq$   tanAqa$ IV      debate each other;argue with each other
 
-    verb     TaFACaL                   {- tanAqa$ -}        `gloss`  [ "debate each other", "argue with each other" ],
-
-    -- ;; {inotaqa$_1
-    -- <ntq$   {inotaqa$       PV      extract;pull out
-    -- Antq$   {inotaqa$       PV      extract;pull out
-    -- ntq$    notaqi$ IV      extract;pull out
-
-    verb     IFtaCaL                   {- {inotaqa$ -}      -- `others` [ "ntaqi^s IV" ]
-                                                            `gloss`  [ "extract", "pull out" ],
+    TaFACaL                   `verb`       {- tanAqa$ -}        [ "debate each other", "argue with each other" ],
 
     -- ;; naqo$_1
     -- nq$     naqo$   Ndu     painting;engraving;sculpture
     -- nqw$    nuquw$  N       paintings;engravings;sculptures
 
-    noun     FaCL                      {- naqo$ -}          -- `others` [ "nuquw^s N" ]
-                                                            `gloss`  [ "painting", "engraving", "sculpture", "paintings", "engravings", "sculptures" ],
-
-    -- ;; naq~A$_1
-    -- nqA$    naq~A$  N       painter;artist;sculptor
-
-    noun     FaCCAL                    {- naq~A$ -}         `gloss`  [ "painter", "artist", "sculptor" ],
+    FaCL                      `noun`       {- naqo$ -}          [ "painting", "engraving", "sculpture", "paintings", "engravings", "sculptures" ]
+                              `plural`     FuCUL
+                              {- `others` [ "nuquw^s N" ] -},
 
     -- ;; naq~A$_2
     -- nqA$    naq~A$  N0      Naqqash
 
-    noun     FaCCAL                    {- naq~A$ -}         `gloss`  [ "Naqqash" ],
-
-    -- ;; niqA$ap_1
-    -- nqA$    niqA$   Nap     painting;sculpture
-
-    noun     FiCAL |< aT               {- niqA$ap -}        `gloss`  [ "painting", "sculpture" ],
-
-    -- ;; minoqa$_1
-    -- mnq$    minoqa$ Ndu     chisel
-    -- mnAq$   manAqi$ Ndip    chisels
-
-    noun     MiFCaL                    {- minoqa$ -}        -- `others` [ "manAqi^s Ndip" ]
-                                                            `gloss`  [ "chisel", "chisels" ],
-
-    -- ;; minoqA$_1
-    -- mnqA$   minoqA$ Ndu     chisel
-    -- mnAqy$  manAqiy$        Ndip    chisels
-
-    noun     MiFCAL                    {- minoqA$ -}        -- `others` [ "manAqiy^s Ndip" ]
-                                                            `gloss`  [ "chisel", "chisels" ],
+    FaCCAL                    `noun`       {- naq~A$ -}         [ "Naqqash" ],
 
     -- ;; munAqa$ap_1
     -- mnAq$   munAqa$ Napdu   argument;debate
     -- mnAq$   munAqa$ NAt     arguments;debates
 
-    noun     MuFACaL |< aT             {- munAqa$ap -}      -- `others` [ "munAqa^s NAt" ]
-                                                            `gloss`  [ "argument", "debate", "arguments", "debates" ],
+    MuFACaL |< aT             `noun`       {- munAqa$ap -}      [ "argument", "debate", "arguments", "debates" ]
+                              `plural`     MuFACaL |< At
+                              {- `others` [ "munAqa^s NAt" ] -},
 
     -- ;; niqA$_1
     -- nqA$    niqA$   N/At    debate;argument;controversy
 
-    noun     FiCAL                     {- niqA$ -}          `gloss`  [ "debate", "argument", "controversy" ],
-
-    -- ;; manoquw$_1
-    -- mnqw$   manoquw$        N-ap    colored;engraved;sculptured
-
-    noun     MaFCUL                    {- manoquw$ -}       `gloss`  [ "colored", "engraved", "sculptured" ],
+    FiCAL                     `noun`       {- niqA$ -}          [ "debate", "argument", "controversy" ],
 
     -- ;; munAqi$_1
     -- mnAq$   munAqi$ Nall    debater;arguing
 
-    noun     MuFACiL                   {- munAqi$ -}        `gloss`  [ "debater", "arguing" ] ]
+    MuFACiL                   `noun`       {- munAqi$ -}        [ "debater", "arguing" ] ]
 
  |> "n q _d" <| [
-
-    -- ;; naqa*-u_1
-    -- nq*     naqa*   PV      save;rescue
-    -- nq*     noqu*   IV      save;rescue
-
-    verb     FaCaL                     {- naqa*-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nqu_d IV" ]
-                                                            `gloss`  [ "save", "rescue" ],
-
-    -- ;; naqi*-a_1
-    -- nq*     naqi*   PV_intr be saved;be rescued;escape
-    -- nq*     noqa*   IV_intr be saved;be rescued;escape
-
-    verb     FaCiL                     {- naqi*-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nqa_d IV_intr" ]
-                                                            `gloss`  [ "be saved", "be rescued", "escape" ],
 
     -- ;; >anoqa*_1
     -- >nq*    >anoqa* PV      save;rescue;salvage
@@ -12729,194 +3373,35 @@ lexicon = listing "Lexicon properties"
     -- nq*     noqi*   IV_yu   save;rescue;salvage
     -- nq*     noqa*   IV_Pass_yu      be saved;be rescued;be salvaged
 
-    verb     HaFCaL                    {- Oanoqa* -}        -- `others` [ "nqa_d IV_Pass_yu", "nqi_d IV_yu" ]
-                                                            `gloss`  [ "save", "rescue", "salvage", "be saved", "be rescued", "be salvaged" ],
-
-    -- ;; {isotanoqa*_1
-    -- <stnq*  {isotanoqa*     PV      save;rescue;salvage
-    -- Astnq*  {isotanoqa*     PV      save;rescue;salvage
-    -- stnq*   sotanoqi*       IV      save;rescue;salvage
-
-    verb     IstaFCaL                  {- {isotanoqa* -}    -- `others` [ "stanqi_d IV" ]
-                                                            `gloss`  [ "save", "rescue", "salvage" ],
+    HaFCaL                    `verb`       {- Oanoqa* -}        [ "save", "rescue", "salvage", "be saved", "be rescued", "be salvaged" ]
+                              {- `others` [ "nqa_d IV_Pass_yu", "nqi_d IV_yu" ] -},
 
     -- ;; <inoqA*_1
     -- <nqA*   <inoqA* N/At    rescue;salvation;relief
     -- AnqA*   <inoqA* N/At    rescue;salvation;relief
 
-    noun     HiFCAL                    {- IinoqA* -}        `gloss`  [ "rescue", "salvation", "relief" ],
-
-    -- ;; {isotinoqA*_1
-    -- <stnqA* {isotinoqA*     N/At    rescue;salvation;relief
-    -- AstnqA* {isotinoqA*     N/At    rescue;salvation;relief
-
-    noun     IstiFCAL                  {- {isotinoqA* -}    `gloss`  [ "rescue", "salvation", "relief" ],
-
-    -- ;; munoqi*_1
-    -- mnq*    munoqi* Nall    rescuer;deliverer
-
-    noun     MuFCiL                    {- munoqi* -}        `gloss`  [ "rescuer", "deliverer" ] ]
+    HiFCAL                    `noun`       {- IinoqA* -}        [ "rescue", "salvation", "relief" ] ]
 
  |> "n q `" <| [
-
-    -- ;; naqaE-a_1
-    -- nqE     naqaE   PV      soak;brew
-    -- nqE     noqaE   IV      soak;brew
-
-    verb     FaCaL                     {- naqaE-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nqa` IV" ]
-                                                            `gloss`  [ "soak", "brew" ],
-
-    -- ;; naqaE-a_2
-    -- nqE     naqaE   PV_intr be stagnant
-    -- nqE     noqaE   IV_intr be stagnant
-
-    verb     FaCaL                     {- naqaE-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nqa` IV_intr" ]
-                                                            `gloss`  [ "be stagnant" ],
-
-    -- ;; >anoqaE_1
-    -- >nqE    >anoqaE PV      soak;quench
-    -- AnqE    >anoqaE PV      soak;quench
-    -- nqE     noqiE   IV_yu   soak;quench
-    -- nqE     noqaE   IV_Pass_yu      be soaked;be quenched
-
-    verb     HaFCaL                    {- OanoqaE -}        -- `others` [ "nqa` IV_Pass_yu", "nqi` IV_yu" ]
-                                                            `gloss`  [ "soak", "quench", "be soaked", "be quenched" ],
-
-    -- ;; {isotanoqaE_1
-    -- <stnqE  {isotanoqaE     PV_intr be stagnant;be swampy
-    -- AstnqE  {isotanoqaE     PV_intr be stagnant;be swampy
-    -- stnqE   sotanoqiE       IV_intr be stagnant;be swampy
-
-    verb     IstaFCaL                  {- {isotanoqaE -}    -- `others` [ "stanqi` IV_intr" ]
-                                                            `gloss`  [ "be stagnant", "be swampy" ],
-
-    -- ;; naqoE_1
-    -- nqE     naqoE   N       soaking;steeping;infusion
-
-    noun     FaCL                      {- naqoE -}          `gloss`  [ "soaking", "steeping", "infusion" ],
-
-    -- ;; naqoE_2
-    -- nqE     naqoE   Ndu     stagnant water;quagmire
-    -- >nqE    >anoquE N       stagnant water;quagmire
-    -- AnqE    >anoquE N       stagnant water;quagmire
-
-    noun     FaCL                      {- naqoE -}          -- `others` [ "'anqu` N" ]
-                                                            `gloss`  [ "stagnant water", "quagmire" ],
-
-    -- ;; niqAE_1
-    -- nqAE    niqAE   N       dust
-    -- nqwE    nuquwE  N       dust
-
-    noun     FiCAL                     {- niqAE -}          -- `others` [ "nuquw` N" ]
-                                                            `gloss`  [ "dust" ],
-
-    -- ;; nuqAEap_1
-    -- nqAE    nuqAE   Nap     infusion
-
-    noun     FuCAL |< aT               {- nuqAEap -}        `gloss`  [ "infusion" ],
-
-    -- ;; nuqAEiy~_1
-    -- nqAEy   nuqAEiy~        N-ap    microscopic     [[nuqAEiy~/ADJ]]
-    -- nqAEy   nuqAEiy~        NAt     infusoria (microscopic sea creatures)    [[nuqAEiy~/NOUN]]
-
-    noun     FuCAL |< Iy               {- nuqAEiy~ -}       `gloss`  [ "microscopic [ [ nuqAEiy ~ / ADJ ] ]", "infusoria ( microscopic sea creatures ) [ [ nuqAEiy ~ / NOUN ] ]" ],
-
-    -- ;; naqiyE_1
-    -- nqyE    naqiyE  N       infusion;juice
-
-    noun     FaCIL                     {- naqiyE -}         `gloss`  [ "infusion", "juice" ],
-
-    -- ;; naquwE_1
-    -- nqwE    naquwE  N       dried fruit
-
-    noun     FaCUL                     {- naquwE -}         `gloss`  [ "dried fruit" ],
-
-    -- ;; manoqaE_1
-    -- mnqE    manoqaE Ndu     quagmire;swamp
-    -- mnAqE   manAqiE Ndip    quagmires;swamps
-
-    noun     MaFCaL                    {- manoqaE -}        -- `others` [ "manAqi` Ndip" ]
-                                                            `gloss`  [ "quagmire", "swamp", "quagmires", "swamps" ],
-
-    -- ;; manoquwE_1
-    -- mnqwE   manoquwE        N-ap    soaked;infusion
-
-    noun     MaFCUL                    {- manoquwE -}       `gloss`  [ "soaked", "infusion" ],
 
     -- ;; musotanoqaE_1
     -- mstnqE  musotanoqaE     NduAt   quagmire;swamp;morass
 
-    noun     MustaFCaL                 {- musotanoqaE -}    `gloss`  [ "quagmire", "swamp", "morass" ] ]
+    MustaFCaL                 `noun`       {- musotanoqaE -}    [ "quagmire", "swamp", "morass" ] ]
 
  |> "n q b" <| [
-
-    -- ;; naqab-u_1
-    -- nqb     naqab   PV      perforate;traverse;investigate
-    -- nqb     noqub   IV      perforate;traverse;investigate
-
-    verb     FaCaL                     {- naqab-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nqub IV" ]
-                                                            `gloss`  [ "perforate", "traverse", "investigate" ],
-
-    -- ;; naqib_1
-    -- nqb     naqib   PV_intr be perforated
-    -- nqb     noqab   IV_intr be perforated
-
-    verb     FaCiL                     {- naqib -}          -- `others` [ "nqab IV_intr" ]
-                                                            `gloss`  [ "be perforated" ],
 
     -- ;; naq~ab_1
     -- nqb     naq~ab  PV      drill;dig
     -- nqb     naq~ib  IV_yu   drill;dig
 
-    verb     FaCCaL                    {- naq~ab -}         -- `others` [ "naqqib IV_yu" ]
-                                                            `gloss`  [ "drill", "dig" ],
-
-    -- ;; nAqab_1
-    -- nAqb    nAqab   PV      vie in virtues with
-    -- nAqb    nAqib   IV_yu   vie in virtues with
-
-    verb     FACaL                     {- nAqab -}          -- `others` [ "nAqib IV_yu" ]
-                                                            `gloss`  [ "vie in virtues with" ],
-
-    -- ;; tanaq~ab_1
-    -- tnqb    tanaq~ab        PV      examine;be perforated
-    -- tnqb    tanaq~ab        IV      examine;be perforated
-
-    verb     TaFaCCaL                  {- tanaq~ab -}       `gloss`  [ "examine", "be perforated" ],
-
-    -- ;; {inotaqab_1
-    -- <ntqb   {inotaqab       PV      put on a veil
-    -- Antqb   {inotaqab       PV      put on a veil
-    -- ntqb    notaqib IV      put on a veil
-
-    verb     IFtaCaL                   {- {inotaqab -}      -- `others` [ "ntaqib IV" ]
-                                                            `gloss`  [ "put on a veil" ],
-
-    -- ;; naqob_1
-    -- nqb     naqob   N       hole;excavation
-    -- >nqAb   >anoqAb N       holes;excavations
-    -- AnqAb   >anoqAb N       holes;excavations
-
-    noun     FaCL                      {- naqob -}          -- `others` [ "'anqAb N" ]
-                                                            `gloss`  [ "hole", "excavation", "holes", "excavations" ],
-
-    -- ;; naqobap_1
-    -- nqb     naqob   Napdu   hole
-
-    noun     FaCL |< aT                {- naqobap -}        `gloss`  [ "hole" ],
+    FaCCaL                    `verb`       {- naq~ab -}         [ "drill", "dig" ]
+                              {- `others` [ "naqqib IV_yu" ] -},
 
     -- ;; naqab_1
     -- nqb     naqab   N0      Negev
 
-    noun     FaCaL                     {- naqab -}          `gloss`  [ "Negev" ],
-
-    -- ;; naq~Ab_1
-    -- nqAb    naq~Ab  N       punch
-
-    noun     FaCCAL                    {- naq~Ab -}         `gloss`  [ "punch" ],
+    FaCaL                     `noun`       {- naqab -}          [ "Negev" ],
 
     -- ;; niqAb_1
     -- nqAb    niqAb   N       veil
@@ -12924,30 +3409,28 @@ lexicon = listing "Lexicon properties"
     -- >nqb    >anoqib Nap     veils
     -- Anqb    >anoqib Nap     veils
 
-    noun     FiCAL                     {- niqAb -}          -- `others` [ "nuqub N", "'anqib Nap" ]
-                                                            `gloss`  [ "veil", "veils" ],
+    FiCAL                     `noun`       {- niqAb -}          [ "veil", "veils" ]
+                              `plural`     FuCuL
+                              `plural`     HaFCiL |< aT
+                              {- `others` [ "nuqub N", "'anqib Nap" ] -},
 
     -- ;; niqAbap_1
     -- nqAb    niqAb   Napdu   union;syndicate
     -- nqAb    niqAb   NAt     unions;syndicates
 
-    noun     FiCAL |< aT               {- niqAbap -}        -- `others` [ "niqAb NAt" ]
-                                                            `gloss`  [ "union", "syndicate", "unions", "syndicates" ],
+    FiCAL |< aT               `noun`       {- niqAbap -}        [ "union", "syndicate", "unions", "syndicates" ]
+                              `plural`     FiCAL |< At
+                              {- `others` [ "niqAb NAt" ] -},
 
     -- ;; niqAbiy~_1
     -- nqAby   niqAbiy~        Nall    union;syndicate     [[niqAbiy~/ADJ]]
 
-    noun     FiCAL |< Iy               {- niqAbiy~ -}       `gloss`  [ "union", "syndicate [ [ niqAbiy ~ / ADJ ] ]" ],
+    FiCAL |< Iy               `noun`       {- niqAbiy~ -}       [ "union", "syndicate" ],
 
     -- ;; niqAbiy~_2
     -- nqAby   niqAbiy~        Nall    unionist;syndicalist     [[niqAbiy~/ADJ]]
 
-    noun     FiCAL |< Iy               {- niqAbiy~ -}       `gloss`  [ "unionist", "syndicalist [ [ niqAbiy ~ / ADJ ] ]" ],
-
-    -- ;; niqAbiy~ap_1
-    -- nqAby   niqAbiy~        Nap     syndicalism;trade-unionism     [[niqAbiy~/NOUN]]
-
-    noun     FiCAL |< Iy |< aT         {- niqAbiy~ap -}     `gloss`  [ "syndicalism", "trade-unionism [ [ niqAbiy ~ / NOUN ] ]" ],
+    FiCAL |< Iy               `noun`       {- niqAbiy~ -}       [ "unionist", "syndicalist" ],
 
     -- ;; naqiyb_1
     -- nqyb    naqiyb  Ndu     captain;staff sergeant;first sergeant
@@ -12955,8 +3438,7 @@ lexicon = listing "Lexicon properties"
     -- nqbA&   nuqabA& Nh      captains;staff sergeants;first sergeants
     -- nqbA}   nuqabA} Nhy     captains;staff sergeants;first sergeants
 
-    noun     FaCIL                     {- naqiyb -}         -- `others` [ "nuqabA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "captain", "staff sergeant", "first sergeant", "captains", "staff sergeants", "first sergeants" ],
+    FaCIL                     `noun`       {- naqiyb -}         [ "captain", "staff sergeant", "first sergeant", "captains", "staff sergeants", "first sergeants" ],
 
     -- ;; naqiyb_2
     -- nqyb    naqiyb  N       union leader
@@ -12964,244 +3446,59 @@ lexicon = listing "Lexicon properties"
     -- nqbA&   nuqabA& Nh      union leaders
     -- nqbA}   nuqabA} Nhy     union leaders
 
-    noun     FaCIL                     {- naqiyb -}         -- `others` [ "nuqabA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "union leader", "union leaders" ],
-
-    -- ;; naqiybap_1
-    -- nqyb    naqiyb  Nap     temperament;character
-    -- nqA}b   naqA}ib Ndip    temperament;character
-
-    noun     FaCIL |< aT               {- naqiybap -}       -- `others` [ "naqA'ib Ndip" ]
-                                                            `gloss`  [ "temperament", "character" ],
-
-    -- ;; manoqib_1
-    -- mnqb    manoqib Ndu     mountain trail;pass;defile
-    -- mnqb    minoqab Ndu     mountain trail;pass;defile
-
-    noun     MaFCiL                    {- manoqib -}        -- `others` [ "minqab Ndu" ]
-                                                            `gloss`  [ "mountain trail", "pass", "defile" ],
-
-    -- ;; manoqabap_1
-    -- mnqb    manoqab Nap     mountain trail;pass;defile
-    -- mnAqb   manAqib Ndip    mountain trails;passes;defiles
-
-    noun     MaFCaL |< aT              {- manoqabap -}      -- `others` [ "manAqib Ndip" ]
-                                                            `gloss`  [ "mountain trail", "pass", "defile", "mountain trails", "passes", "defiles" ],
-
-    -- ;; minoqab_1
-    -- mnqb    minoqab Ndu     perforator;drill;punch
-    -- mnqb    minoqab Napdu   perforator;drill;punch
-
-    noun     MiFCaL                    {- minoqab -}        `gloss`  [ "perforator", "drill", "punch" ],
-
-    -- ;; manAqib_1
-    -- mnAqb   manAqib Ndip    virtues;exploits
-
-    noun     MaFACiL                   {- manAqib -}        `gloss`  [ "virtues", "exploits" ],
+    FaCIL                     `noun`       {- naqiyb -}         [ "union leader", "union leaders" ],
 
     -- ;; tanoqiyb_1
     -- tnqyb   tanoqiyb        N/At    drilling;excavation;exploration
 
-    noun     TaFCIL                    {- tanoqiyb -}       `gloss`  [ "drilling", "excavation", "exploration" ],
-
-    -- ;; tanoqiybiy~_1
-    -- tnqyby  tanoqiybiy~     N-ap    exploratory     [[tanoqiybiy~/ADJ]]
-
-    noun     TaFCIL |< Iy              {- tanoqiybiy~ -}    `gloss`  [ "exploratory [ [ tanoqiybiy ~ / ADJ ] ]" ],
-
-    -- ;; munaq~ib_1
-    -- mnqb    munaq~ib        Nall    driller;excavator;prospector
-
-    noun     MuFaCCiL                  {- munaq~ib -}       `gloss`  [ "driller", "excavator", "prospector" ] ]
+    TaFCIL                    `noun`       {- tanoqiyb -}       [ "drilling", "excavation", "exploration" ] ]
 
  |> "n q d" <| [
-
-    -- ;; naqad-u_1
-    -- nqd     naqad   PV      criticize
-    -- nqd     noqud   IV      criticize
-
-    verb     FaCaL                     {- naqad-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nqud IV" ]
-                                                            `gloss`  [ "criticize" ],
-
-    -- ;; nAqad_1
-    -- nAqd    nAqad   PV      call to account
-    -- nAqd    nAqid   IV_yu   call to account
-
-    verb     FACaL                     {- nAqad -}          -- `others` [ "nAqid IV_yu" ]
-                                                            `gloss`  [ "call to account" ],
-
-    -- ;; >anoqad_1
-    -- >nqd    >anoqad PV      pay
-    -- Anqd    >anoqad PV      pay
-    -- nqd     noqid   IV_yu   pay
-    -- nqd     noqad   IV_Pass_yu      be paid
-
-    verb     HaFCaL                    {- Oanoqad -}        -- `others` [ "nqad IV_Pass_yu", "nqid IV_yu" ]
-                                                            `gloss`  [ "pay", "be paid" ],
-
-    -- ;; {inotaqad_1
-    -- <ntqd   {inotaqad       PV      criticize
-    -- Antqd   {inotaqad       PV      criticize
-    -- ntqd    notaqid IV      criticize
-    -- <ntqd   {unotuqid       PV_Pass be criticized
-    -- Antqd   {unotuqid       PV_Pass be criticized
-    -- ntqd    notaqad IV_Pass be criticized
-
-    verb     IFtaCaL                   {- {inotaqad -}      -- `others` [ "ntaqad IV_Pass", "untuqid PV_Pass", "ntaqid IV" ]
-                                                            `gloss`  [ "criticize", "be criticized" ],
 
     -- ;; naqod_1
     -- nqd     naqod   NduAt   criticism;critique
 
-    noun     FaCL                      {- naqod -}          `gloss`  [ "criticism", "critique" ],
+    FaCL                      `noun`       {- naqod -}          [ "criticism", "critique" ],
 
     -- ;; naqod_2
     -- nqd     naqod   N       cash;money
     -- nqwd    nuquwd  N       cash;money
 
-    noun     FaCL                      {- naqod -}          -- `others` [ "nuquwd N" ]
-                                                            `gloss`  [ "cash", "money" ],
+    FaCL                      `noun`       {- naqod -}          [ "cash", "money" ]
+                              `plural`     FuCUL
+                              {- `others` [ "nuquwd N" ] -},
 
     -- ;; naqodiy~_1
     -- nqdy    naqodiy~        N-ap    monetary;cash     [[naqodiy~/ADJ]]
 
-    noun     FaCL |< Iy                {- naqodiy~ -}       `gloss`  [ "monetary", "cash [ [ naqodiy ~ / ADJ ] ]" ],
+    FaCL |< Iy                `noun`       {- naqodiy~ -}       [ "monetary", "cash" ],
 
     -- ;; naqodiy~_2
     -- nqdy    naqodiy~        N-ap    critical     [[naqodiy~/ADJ]]
 
-    noun     FaCL |< Iy                {- naqodiy~ -}       `gloss`  [ "critical [ [ naqodiy ~ / ADJ ] ]" ],
-
-    -- ;; naqodiy~ap_1
-    -- nqdy    naqodiy~        Nap     ready money;cash     [[naqodiy~/NOUN]]
-
-    noun     FaCL |< Iy |< aT          {- naqodiy~ap -}     `gloss`  [ "ready money", "cash [ [ naqodiy ~ / NOUN ] ]" ],
-
-    -- ;; naq~Ad_1
-    -- nqAd    naq~Ad  Nall    critic;reviewer
-
-    noun     FaCCAL                    {- naq~Ad -}         `gloss`  [ "critic", "reviewer" ],
-
-    -- ;; naq~Adap_1
-    -- nqAd    naq~Ad  Nap     carper;captious critic
-
-    noun     FaCCAL |< aT              {- naq~Adap -}       `gloss`  [ "carper", "captious critic" ],
-
-    -- ;; manoqad_1
-    -- mnqd    manoqad Ndu     brazier
-
-    noun     MaFCaL                    {- manoqad -}        `gloss`  [ "brazier" ],
-
-    -- ;; minoqAd_1
-    -- mnqAd   minoqAd Ndu     beak;bill
-    -- mnAqyd  manAqiyd        Ndip    beaks;bills
-
-    noun     MiFCAL                    {- minoqAd -}        -- `others` [ "manAqiyd Ndip" ]
-                                                            `gloss`  [ "beak", "bill", "beaks", "bills" ],
-
-    -- ;; {inotiqAd_1
-    -- AntqAd  {inotiqAd       N/At    criticism;censure
-    -- <ntqAd  {inotiqAd       N/At    criticism;censure
-
-    noun     IFtiCAL                   {- {inotiqAd -}      `gloss`  [ "criticism", "censure" ],
-
-    -- ;; {inotiqAdiy~_1
-    -- AntqAdy {inotiqAdiy~    Nall    critical;censuring
-    -- <ntqAdy {inotiqAdiy~    Nall    critical;censuring
-
-    noun     IFtiCAL |< Iy             {- {inotiqAdiy~ -}   `gloss`  [ "critical", "censuring" ],
+    FaCL |< Iy                `noun`       {- naqodiy~ -}       [ "critical" ],
 
     -- ;; nAqid_1
     -- nAqd    nAqid   Nall    critic;critical
     -- nqAd    nuq~Ad  N       critics
     -- nqd     naqad   Nap     critics
 
-    noun     FACiL                     {- nAqid -}          -- `others` [ "naqad Nap", "nuqqAd N" ]
-                                                            `gloss`  [ "critic", "critical", "critics" ],
+    FACiL                     `noun`       {- nAqid -}          [ "critic", "critical", "critics" ]
+                              `plural`     FaCaL |< aT
+                              `plural`     FuCCAL
+                              {- `others` [ "naqad Nap", "nuqqAd N" ] -},
 
     -- ;; munotaqid_1
     -- mntqd   munotaqid       Nall    critic
 
-    noun     MuFtaCiL                  {- munotaqid -}      `gloss`  [ "critic" ],
-
-    -- ;; munotaqad_1
-    -- mntqd   munotaqad       Nall    reprehensible;objectionable
-
-    noun     MuFtaCaL                  {- munotaqad -}      `gloss`  [ "reprehensible", "objectionable" ] ]
-
- |> "n q f" <| [
-
-    -- ;; naqaf-u_1
-    -- nqf     naqaf   PV      tap;knock;rap
-    -- nqf     noquf   IV      tap;knock;rap
-
-    verb     FaCaL                     {- naqaf-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nquf IV" ]
-                                                            `gloss`  [ "tap", "knock", "rap" ],
-
-    -- ;; naqof_1
-    -- nqf     naqof   N       tapping;knocking;rapping
-
-    noun     FaCL                      {- naqof -}          `gloss`  [ "tapping", "knocking", "rapping" ],
-
-    -- ;; naqof_2
-    -- nqf     naqof   N       baby chick;little chicken
-    -- nqf     niqof   N       baby chick;little chicken
-
-    noun     FaCL                      {- naqof -}          -- `others` [ "niqf N" ]
-                                                            `gloss`  [ "baby chick", "little chicken" ],
-
-    -- ;; naqiyfap_1
-    -- nqyf    naqiyf  Napdu   slingshot;catapult
-    -- nqyf    naqiyf  NAt     slingshots;catapults
-
-    noun     FaCIL |< aT               {- naqiyfap -}       -- `others` [ "naqiyf NAt" ]
-                                                            `gloss`  [ "slingshot", "catapult", "slingshots", "catapults" ] ]
+    MuFtaCiL                  `noun`       {- munotaqid -}      [ "critic" ] ]
 
  |> "n q h" <| [
-
-    -- ;; naqah-ai_1
-    -- nqh     naqah   PV      recover;convalesce
-    -- nqh     noqah   IV      recover;convalesce
-    -- nqh     naqih   PV      recover;convalesce
-
-    verb     FaCaL                     {- naqah-ai -}       `imperf` [ FCaL, FCiL ]
-                                                            -- `others` [ "naqih PV", "nqah IV" ]
-                                                            `gloss`  [ "recover", "convalesce" ],
-
-    -- ;; {inotaqah_1
-    -- <ntqh   {inotaqah       PV      recover;convalesce
-    -- Antqh   {inotaqah       PV      recover;convalesce
-    -- ntqh    notaqih IV      recover;convalesce
-
-    verb     IFtaCaL                   {- {inotaqah -}      -- `others` [ "ntaqih IV" ]
-                                                            `gloss`  [ "recover", "convalesce" ],
-
-    -- ;; naqah_1
-    -- nqh     naqah   N       recovery;convalescence
-
-    noun     FaCaL                     {- naqah -}          `gloss`  [ "recovery", "convalescence" ],
-
-    -- ;; naqohap_1
-    -- nqh     naqoh   Nap     recovery;convalescence
-
-    noun     FaCL |< aT                {- naqohap -}        `gloss`  [ "recovery", "convalescence" ],
-
-    -- ;; naqih_1
-    -- nqh     naqih   Nall    recovering;convalescent     [[naqih/ADJ]]
-
-    noun     FaCiL                     {- naqih -}          `gloss`  [ "recovering", "convalescent [ [ naqih / ADJ ] ]" ],
 
     -- ;; naqAhap_1
     -- nqAh    naqAh   Nap     recovery;convalescence
 
-    noun     FaCAL |< aT               {- naqAhap -}        `gloss`  [ "recovery", "convalescence" ],
-
-    -- ;; nAqih_1
-    -- nAqh    nAqih   Nall    recovering;convalescent     [[nAqih/ADJ]]
-
-    noun     FACiL                     {- nAqih -}          `gloss`  [ "recovering", "convalescent [ [ nAqih / ADJ ] ]" ] ]
+    FaCAL |< aT               `noun`       {- naqAhap -}        [ "recovery", "convalescence" ] ]
 
  |> "n q l" <| [
 
@@ -13211,169 +3508,92 @@ lexicon = listing "Lexicon properties"
     -- nql     nuqil   PV_Pass be transferred;be transported;be transmited;be translated
     -- nql     noqul   IV_Pass_yu      be transferred;be transported;be transmited;be translated
 
-    verb     FaCaL                     {- naqal-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nuqil PV_Pass", "nqul IV IV_Pass_yu" ]
-                                                            `gloss`  [ "transfer", "transport", "transmit", "translate", "be transferred", "be transported", "be transmited", "be translated" ],
+    FaCaL                     `verb`       {- naqal-u -}        [ "transfer", "transport", "transmit", "translate", "be transferred", "be transported", "be transmited", "be translated" ]
+                              `imperf` [ FCuL ]
+                              {- `others` [ "nuqil PV_Pass", "nqul IV IV_Pass_yu" ] -},
 
     -- ;; naq~al_1
     -- nql     naq~al  PV      move;displace
     -- nql     naq~il  IV_yu   move;displace
 
-    verb     FaCCaL                    {- naq~al -}         -- `others` [ "naqqil IV_yu" ]
-                                                            `gloss`  [ "move", "displace" ],
-
-    -- ;; nAqal_1
-    -- nAql    nAqal   PV      inform
-    -- nAql    nAqil   IV_yu   inform
-
-    verb     FACaL                     {- nAqal -}          -- `others` [ "nAqil IV_yu" ]
-                                                            `gloss`  [ "inform" ],
+    FaCCaL                    `verb`       {- naq~al -}         [ "move", "displace" ]
+                              {- `others` [ "naqqil IV_yu" ] -},
 
     -- ;; tanaq~al_1
     -- tnql    tanaq~al        PV_intr be transferred;be transmitted;be conveyed
     -- tnql    tanaq~al        IV_intr be transferred;be transmitted;be conveyed
 
-    verb     TaFaCCaL                  {- tanaq~al -}       `gloss`  [ "be transferred", "be transmitted", "be conveyed" ],
+    TaFaCCaL                  `verb`       {- tanaq~al -}       [ "be transferred", "be transmitted", "be conveyed" ],
 
     -- ;; tanAqal_1
     -- tnAql   tanAqal PV      exchange
     -- tnAql   tanAqal IV      exchange
 
-    verb     TaFACaL                   {- tanAqal -}        `gloss`  [ "exchange" ],
-
-    -- ;; {inotaqal_1
-    -- <ntql   {inotaqal       PV      move;transfer
-    -- Antql   {inotaqal       PV      move;transfer
-    -- ntql    notaqil IV      move;transfer
-
-    verb     IFtaCaL                   {- {inotaqal -}      -- `others` [ "ntaqil IV" ]
-                                                            `gloss`  [ "move", "transfer" ],
+    TaFACaL                   `verb`       {- tanAqal -}        [ "exchange" ],
 
     -- ;; naqol_1
     -- nql     naqol   N       transportation;transfer
 
-    noun     FaCL                      {- naqol -}          `gloss`  [ "transportation", "transfer" ],
+    FaCL                      `noun`       {- naqol -}          [ "transportation", "transfer" ],
 
     -- ;; naqol_2
     -- nql     naqol   N       transmission;relaying
 
-    noun     FaCL                      {- naqol -}          `gloss`  [ "transmission", "relaying" ],
-
-    -- ;; naqoliy~_1
-    -- nqly    naqoliy~        N-ap    transportation     [[naqoliy~/ADJ]]
-    -- nqly    naqoliy~        NAt     transport services     [[naqoliy~/NOUN]]
-
-    noun     FaCL |< Iy                {- naqoliy~ -}       `gloss`  [ "transportation [ [ naqoliy ~ / ADJ ] ]", "transport services [ [ naqoliy ~ / NOUN ] ]" ],
-
-    -- ;; nuquwl_1
-    -- nqwl    nuquwl  N       salted nuts
-
-    noun     FuCUL                     {- nuquwl -}         `gloss`  [ "salted nuts" ],
+    FaCL                      `noun`       {- naqol -}          [ "transmission", "relaying" ],
 
     -- ;; naqolap_1
     -- nql     naqol   Nap     acceleration
 
-    noun     FaCL |< aT                {- naqolap -}        `gloss`  [ "acceleration" ],
+    FaCL |< aT                `noun`       {- naqolap -}        [ "acceleration" ],
 
     -- ;; nuqolap_1
     -- nql     nuqol   Nap     transfer;move
 
-    noun     FuCL |< aT                {- nuqolap -}        `gloss`  [ "transfer", "move" ],
+    FuCL |< aT                `noun`       {- nuqolap -}        [ "transfer", "move" ],
 
     -- ;; nuqolap_2
     -- nql     nuqol   Nap     pattern;model
 
-    noun     FuCL |< aT                {- nuqolap -}        `gloss`  [ "pattern", "model" ],
+    FuCL |< aT                `noun`       {- nuqolap -}        [ "pattern", "model" ],
 
     -- ;; naq~Al_1
     -- nqAl    naq~Al  N       portable
 
-    noun     FaCCAL                    {- naq~Al -}         `gloss`  [ "portable" ],
-
-    -- ;; naq~Alap_1
-    -- nqAl    naq~Al  NapAt   transport vehicle;stretcher
-
-    noun     FaCCAL |< aT              {- naq~Alap -}       `gloss`  [ "transport vehicle", "stretcher" ],
-
-    -- ;; naq~Aliy~_1
-    -- nqAly   naq~Aliy~       N-ap    transportable;mobile     [[naq~Aliy~/ADJ]]
-
-    noun     FaCCAL |< Iy              {- naq~Aliy~ -}      `gloss`  [ "transportable", "mobile [ [ naq ~ Aliy ~ / ADJ ] ]" ],
-
-    -- ;; naqiyl_1
-    -- nqyl    naqiyl  N       mountain trail;defile;pass
-
-    noun     FaCIL                     {- naqiyl -}         `gloss`  [ "mountain trail", "defile", "pass" ],
-
-    -- ;; manoqal_1
-    -- mnql    manoqal Ndu     brazier
-    -- mnAql   manAqil Ndip    braziers
-
-    noun     MaFCaL                    {- manoqal -}        -- `others` [ "manAqil Ndip" ]
-                                                            `gloss`  [ "brazier", "braziers" ],
-
-    -- ;; manoqalap_1
-    -- mnql    manoqal Nap     stage;way station
-
-    noun     MaFCaL |< aT              {- manoqalap -}      `gloss`  [ "stage", "way station" ],
-
-    -- ;; minoqalap_1
-    -- mnql    minoqal Nap     protractor
-
-    noun     MiFCaL |< aT              {- minoqalap -}      `gloss`  [ "protractor" ],
+    FaCCAL                    `noun`       {- naq~Al -}         [ "portable" ],
 
     -- ;; tanaq~ul_1
     -- tnql    tanaq~ul        N/At    transportation;transfer;movement
 
-    noun     TaFaCCuL                  {- tanaq~ul -}       `gloss`  [ "transportation", "transfer", "movement" ],
-
-    -- ;; {inotiqAl_1
-    -- <ntqAl  {inotiqAl       N/At    transfer;communication
-    -- AntqAl  {inotiqAl       N/At    transfer;communication
-
-    noun     IFtiCAL                   {- {inotiqAl -}      `gloss`  [ "transfer", "communication" ],
-
-    -- ;; {inotiqAliy~_1
-    -- <ntqAly {inotiqAliy~    N-ap    transitional     [[{inotiqAliy~/ADJ]]
-    -- AntqAly {inotiqAliy~    N-ap    transitional     [[{inotiqAliy~/ADJ]]
-
-    noun     IFtiCAL |< Iy             {- {inotiqAliy~ -}   `gloss`  [ "transitional [ [ { inotiqAliy ~ / ADJ ] ]" ],
+    TaFaCCuL                  `noun`       {- tanaq~ul -}       [ "transportation", "transfer", "movement" ],
 
     -- ;; nAqil_1
     -- nAql    nAqil   Nall    transmitting;carrying;conveying
     -- nql     naqal   Nap     carriers
     -- nqAl    nuq~Al  N       carriers
 
-    noun     FACiL                     {- nAqil -}          -- `others` [ "nuqqAl N", "naqal Nap" ]
-                                                            `gloss`  [ "transmitting", "carrying", "conveying", "carriers" ],
+    FACiL                     `noun`       {- nAqil -}          [ "transmitting", "carrying", "conveying", "carriers" ]
+                              `plural`     FuCCAL
+                              `plural`     FaCaL |< aT
+                              {- `others` [ "nuqqAl N", "naqal Nap" ] -},
 
     -- ;; nAqilap_1
     -- nAql    nAqil   Napdu   transport;tanker;carrier
     -- nAql    nAqil   NAt     transports;tankers;carriers
 
-    noun     FACiL |< aT               {- nAqilap -}        -- `others` [ "nAqil NAt" ]
-                                                            `gloss`  [ "transport", "tanker", "carrier", "transports", "tankers", "carriers" ],
-
-    -- ;; nAqiliy~ap_1
-    -- nAqly   nAqiliy~        Nap     conductivity     [[nAqiliy~/NOUN]]
-
-    noun     FACiL |< Iy |< aT         {- nAqiliy~ap -}     `gloss`  [ "conductivity [ [ nAqiliy ~ / NOUN ] ]" ],
+    FACiL |< aT               `noun`       {- nAqilap -}        [ "transport", "tanker", "carrier", "transports", "tankers", "carriers" ]
+                              `plural`     FACiL |< At
+                              {- `others` [ "nAqil NAt" ] -},
 
     -- ;; manoquwl_1
     -- mnqwl   manoquwl        N-ap    conveyed;transferred;mobile     [[manoquwl/ADJ]]
     -- mnqwl   manoquwl        NAt     movable goods     [[manoquwl/NOUN]]
 
-    noun     MaFCUL                    {- manoquwl -}       `gloss`  [ "conveyed", "transferred", "mobile [ [ manoquwl / ADJ ] ]", "movable goods [ [ manoquwl / NOUN ] ]" ],
+    MaFCUL                    `noun`       {- manoquwl -}       [ "conveyed", "transferred", "mobile", "movable goods" ],
 
     -- ;; mutanaq~il_1
     -- mtnql   mutanaq~il      Nall    mobile;portable     [[mutanaq~il/ADJ]]
 
-    noun     MutaFaCCiL                {- mutanaq~il -}     `gloss`  [ "mobile", "portable [ [ mutanaq ~ il / ADJ ] ]" ],
-
-    -- ;; munotaqil_1
-    -- mntql   munotaqil       Nall    ambulatory;mobile;movable     [[munotaqil/ADJ]]
-
-    noun     MuFtaCiL                  {- munotaqil -}      `gloss`  [ "ambulatory", "mobile", "movable [ [ munotaqil / ADJ ] ]" ] ]
+    MutaFaCCiL                `noun`       {- mutanaq~il -}     [ "mobile", "portable" ] ]
 
  |> "n q m" <| [
 
@@ -13381,256 +3601,31 @@ lexicon = listing "Lexicon properties"
     -- nqm     naqam   PV      take revenge;be hostile
     -- nqm     noqim   IV      take revenge;be hostile
 
-    verb     FaCaL                     {- naqam-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nqim IV" ]
-                                                            `gloss`  [ "take revenge", "be hostile" ],
-
-    -- ;; naqim-a_1
-    -- nqm     naqim   PV      take revenge;be hostile
-    -- nqm     noqam   IV      take revenge;be hostile
-
-    verb     FaCiL                     {- naqim-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nqam IV" ]
-                                                            `gloss`  [ "take revenge", "be hostile" ],
-
-    -- ;; {inotaqam_1
-    -- <ntqm   {inotaqam       PV      retaliate;take revenge;avenge
-    -- Antqm   {inotaqam       PV      retaliate;take revenge;avenge
-    -- ntqm    notaqim IV      retaliate;take revenge;avenge
-
-    verb     IFtaCaL                   {- {inotaqam -}      -- `others` [ "ntaqim IV" ]
-                                                            `gloss`  [ "retaliate", "take revenge", "avenge" ],
+    FaCaL                     `verb`       {- naqam-i -}        [ "take revenge", "be hostile" ]
+                              `imperf` [ FCiL ]
+                              {- `others` [ "nqim IV" ] -},
 
     -- ;; naqomap_1
     -- nqm     naqom   NapAt   revenge;malice
     -- nqm     niqom   NapAt   revenge;malice
     -- nqm     niqam   N       revenge;malice
 
-    noun     FaCL |< aT                {- naqomap -}        -- `others` [ "niqam N", "niqm NapAt" ]
-                                                            `gloss`  [ "revenge", "malice" ],
-
-    -- ;; {inotiqAm_1
-    -- <ntqAm  {inotiqAm       N/At    retaliation;reprisal;revenge
-    -- AntqAm  {inotiqAm       N/At    retaliation;reprisal;revenge
-
-    noun     IFtiCAL                   {- {inotiqAm -}      `gloss`  [ "retaliation", "reprisal", "revenge" ],
-
-    -- ;; {inotiqAmiy~_1
-    -- <ntqAmy {inotiqAmiy~    N-ap    retaliatory;reprisal;vindictive     [[{inotiqAmiy~/ADJ]]
-    -- AntqAmy {inotiqAmiy~    N-ap    retaliatory;reprisal;vindictive     [[{inotiqAmiy~/ADJ]]
-
-    noun     IFtiCAL |< Iy             {- {inotiqAmiy~ -}   `gloss`  [ "retaliatory", "reprisal", "vindictive [ [ { inotiqAmiy ~ / ADJ ] ]" ],
+    FaCL |< aT                `noun`       {- naqomap -}        [ "revenge", "malice" ]
+                              `plural`     FiCaL
+                              `plural`     FiCL |< At
+                              {- `others` [ "niqam N", "niqm NapAt" ] -},
 
     -- ;; nAqim_1
     -- nAqm    nAqim   Nall    hostile;indignant     [[nAqim/ADJ]]
 
-    noun     FACiL                     {- nAqim -}          `gloss`  [ "hostile", "indignant [ [ nAqim / ADJ ] ]" ],
-
-    -- ;; munotaqim_1
-    -- mntqm   munotaqim       Nall    vindictive;retaliatory     [[munotaqim/ADJ]]
-
-    noun     MuFtaCiL                  {- munotaqim -}      `gloss`  [ "vindictive", "retaliatory [ [ munotaqim / ADJ ] ]" ] ]
-
- |> "n q n q" <| [
-
-    -- ;; naqonaq_1
-    -- nqnq    naqonaq PV      croak;cackle
-    -- nqnq    naqoniq IV_yu   croak;cackle
-
-    verb     KaRDaS                    {- naqonaq -}        -- `others` [ "naqniq IV_yu" ]
-                                                            `gloss`  [ "croak", "cackle" ],
-
-    -- ;; naqAniq_1
-    -- nqAnq   naqAniq Ndip    mutton sausage
-
-    noun     KaRADiS                   {- naqAniq -}        `gloss`  [ "mutton sausage" ] ]
-
- |> "n q q" <| [
-
-    -- ;; naq~-i_1
-    -- nq      naq~    PV_V    croak;cluck
-    -- nqq     naqaq   PV_C    croak;cluck
-    -- nq      niq~    IV_V    croak;cluck
-    -- nqq     noqiq   IV_C    croak;cluck
-
-    verb     FaCL                      {- naq~-i -}         `imperf` [ FCiL ]
-                                                            -- `others` [ "niqq IV_V", "nqiq IV_C", "naqaq PV_C" ]
-                                                            `gloss`  [ "croak", "cluck" ],
-
-    -- ;; naq~_1
-    -- nq      naq~    N       cackle;croaking
-
-    noun     FaCL                      {- naq~ -}           `gloss`  [ "cackle", "croaking" ],
-
-    -- ;; naq~Aq_1
-    -- nqAq    naq~Aq  Nall    grumbler;complainer
-
-    noun     FaCCAL                    {- naq~Aq -}         `gloss`  [ "grumbler", "complainer" ],
-
-    -- ;; naq~Aqap_1
-    -- nqAq    naq~Aq  Napdu   frog
-
-    noun     FaCCAL |< aT              {- naq~Aqap -}       `gloss`  [ "frog" ],
-
-    -- ;; naqiyq_1
-    -- nqyq    naqiyq  N       croaking;cackling
-
-    noun     FaCIL                     {- naqiyq -}         `gloss`  [ "croaking", "cackling" ],
-
-    -- ;; naq~aY_1
-    -- nqY     naq~aY  PV_0    purify;clarify
-    -- nqA     naq~A   PV_h    purify;clarify
-    -- nqy     naq~ay  PV_Atn  purify;clarify
-    -- nq      naq~    PV_ttAw purify;clarify
-    -- nqy     naq~iy  IV_0hAnn_yu     purify;clarify
-    -- nq      naq~    IV_0hwnyn_yu    purify;clarify
-    -- nqY     naq~aY  IV_0_Pass_yu    be purified;be clarified
-    -- nqy     naq~ay  IV_Ann_Pass_yu  be purified;be clarified
-
-    verb     FaCLY                     {- naq~aY -}         -- `others` [ "naqqay PV_Atn IV_Ann_Pass_yu", "naqq IV_0hwnyn_yu PV_ttAw", "naqqiy IV_0hAnn_yu", "naqqA PV_h" ]
-                                                            `gloss`  [ "purify", "clarify", "be purified", "be clarified" ] ]
+    FACiL                     `noun`       {- nAqim -}          [ "hostile", "indignant" ] ]
 
  |> "n q r" <| [
-
-    -- ;; naqar-u_1
-    -- nqr     naqar   PV      excavate;engrave;strike
-    -- nqr     noqur   IV      excavate;engrave;strike
-
-    verb     FaCaL                     {- naqar-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nqur IV" ]
-                                                            `gloss`  [ "excavate", "engrave", "strike" ],
-
-    -- ;; naqir-a_1
-    -- nqr     naqir   PV_intr be offended
-    -- nqr     noqar   IV_intr be offended
-
-    verb     FaCiL                     {- naqir-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nqar IV_intr" ]
-                                                            `gloss`  [ "be offended" ],
-
-    -- ;; naq~ar_1
-    -- nqr     naq~ar  PV      investigate
-    -- nqr     naq~ir  IV_yu   investigate
-
-    verb     FaCCaL                    {- naq~ar -}         -- `others` [ "naqqir IV_yu" ]
-                                                            `gloss`  [ "investigate" ],
-
-    -- ;; nAqar_1
-    -- nAqr    nAqar   PV      quarrel with
-    -- nAqr    nAqir   IV_yu   quarrel with
-
-    verb     FACaL                     {- nAqar -}          -- `others` [ "nAqir IV_yu" ]
-                                                            `gloss`  [ "quarrel with" ],
-
-    -- ;; naqor_1
-    -- nqr     naqor   N       excavation;engraving
-
-    noun     FaCL                      {- naqor -}          `gloss`  [ "excavation", "engraving" ],
-
-    -- ;; naqor_2
-    -- nqr     naqor   Ndu     hollow;cavity
-
-    noun     FaCL                      {- naqor -}          `gloss`  [ "hollow", "cavity" ],
-
-    -- ;; naqir_1
-    -- nqr     naqir   N-ap    annoyed;offended     [[naqir/ADJ]]
-
-    noun     FaCiL                     {- naqir -}          `gloss`  [ "annoyed", "offended [ [ naqir / ADJ ] ]" ],
-
-    -- ;; naqorap_1
-    -- nqr     naqor   Napdu   knock;bang;plucking
-    -- nqr     naqar   NAt     knocks;bang;plucking
-
-    noun     FaCL |< aT                {- naqorap -}        -- `others` [ "naqar NAt" ]
-                                                            `gloss`  [ "knock", "bang", "plucking", "knocks" ],
-
-    -- ;; nuqorap_1
-    -- nqr     nuqor   Nap     cavity;hole;depression
-    -- nqr     nuqar   N       cavities;holes;depressions
-    -- nqAr    niqAr   N       cavities;holes;depressions
-
-    noun     FuCL |< aT                {- nuqorap -}        -- `others` [ "nuqar N", "niqAr N" ]
-                                                            `gloss`  [ "cavity", "hole", "depression", "cavities", "holes", "depressions" ],
-
-    -- ;; niqorap_1
-    -- nqr     niqor   Nap     bickering;argument
-
-    noun     FiCL |< aT                {- niqorap -}        `gloss`  [ "bickering", "argument" ],
-
-    -- ;; naq~Ar_1
-    -- nqAr    naq~Ar  Nall    engraver;carver
-
-    noun     FaCCAL                    {- naq~Ar -}         `gloss`  [ "engraver", "carver" ],
-
-    -- ;; naq~Ar_2
-    -- nqAr    naq~Ar  N0      Naqqar
-
-    noun     FaCCAL                    {- naq~Ar -}         `gloss`  [ "Naqqar" ],
-
-    -- ;; naqiyr_1
-    -- nqyr    naqiyr  N       worthless thing
-
-    noun     FaCIL                     {- naqiyr -}         `gloss`  [ "worthless thing" ],
-
-    -- ;; naqiyrap_1
-    -- nqyr    naqiyr  Nap     corvette (small warship)
-    -- nqA}r   naqA}ir Ndip    corvettes (small warships)
-
-    noun     FaCIL |< aT               {- naqiyrap -}       -- `others` [ "naqA'ir Ndip" ]
-                                                            `gloss`  [ "corvette ( small warship )", "corvettes ( small warships )" ],
-
-    -- ;; naq~Arap_1
-    -- nqAr    naq~Ar  Nap     drum
-
-    noun     FaCCAL |< aT              {- naq~Arap -}       `gloss`  [ "drum" ],
-
-    -- ;; nuq~Ariy~ap_1
-    -- nqAry   nuq~Ariy~       NapAt   kettledrum     [[nuq~Ariy~/NOUN]]
-
-    noun     FuCCAL |< Iy |< aT        {- nuq~Ariy~ap -}    `gloss`  [ "kettledrum [ [ nuq ~ Ariy ~ / NOUN ] ]" ],
-
-    -- ;; nAquwr_1
-    -- nAqwr   nAquwr  N       trumpet
-    -- nwAqyr  nawAqiyr        Ndip    trumpets
-
-    noun     FACUL                     {- nAquwr -}         -- `others` [ "nawAqiyr Ndip" ]
-                                                            `gloss`  [ "trumpet", "trumpets" ],
 
     -- ;; nAquwrap_1
     -- nAqwr   nAquwr  Nap     Naqoura
 
-    noun     FACUL |< aT               {- nAquwrap -}       `gloss`  [ "Naqoura" ],
-
-    -- ;; naquwrap_1
-    -- nqwr    naquwr  Nap     prattle;idle talk
-
-    noun     FaCUL |< aT               {- naquwrap -}       `gloss`  [ "prattle", "idle talk" ],
-
-    -- ;; minoqAr_1
-    -- mnqAr   minoqAr Ndu     pickax
-    -- mnAqyr  manAqiyr        Ndip    pickaxes
-
-    noun     MiFCAL                    {- minoqAr -}        -- `others` [ "manAqiyr Ndip" ]
-                                                            `gloss`  [ "pickax", "pickaxes" ],
-
-    -- ;; minoqAr_2
-    -- mnqAr   minoqAr Ndu     beak;bill
-    -- mnAqyr  manAqiyr        Ndip    beaks;bills
-
-    noun     MiFCAL                    {- minoqAr -}        -- `others` [ "manAqiyr Ndip" ]
-                                                            `gloss`  [ "beak", "bill", "beaks", "bills" ],
-
-    -- ;; munAqarap_1
-    -- mnAqr   munAqar NapAt   bickering;quarrel
-
-    noun     MuFACaL |< aT             {- munAqarap -}      `gloss`  [ "bickering", "quarrel" ],
-
-    -- ;; nAqir_1
-    -- nAqr    nAqir   Napdu   bickering;quarrel;misfortune
-    -- nwAqr   nawAqir Ndip    bickering;quarrels;misfortunes
-
-    noun     FACiL                     {- nAqir -}          -- `others` [ "nawAqir Ndip" ]
-                                                            `gloss`  [ "bickering", "quarrel", "misfortune", "quarrels", "misfortunes" ] ]
+    FACUL |< aT               `noun`       {- nAquwrap -}       [ "Naqoura" ] ]
 
  |> "n q s" <| [
 
@@ -13638,456 +3633,70 @@ lexicon = listing "Lexicon properties"
     -- nAqws   nAquws  Ndu     bell;gong;bell jar
     -- nwAqys  nawAqiys        Ndip    bells;gongs;bell jars
 
-    noun     FACUL                     {- nAquws -}         -- `others` [ "nawAqiys Ndip" ]
-                                                            `gloss`  [ "bell", "gong", "bell jar", "bells", "gongs", "bell jars" ] ]
-
- |> "n q w" <| [
-
-    -- ;; naq~aY_1
-    -- nqY     naq~aY  PV_0    purify;clarify
-    -- nqA     naq~A   PV_h    purify;clarify
-    -- nqy     naq~ay  PV_Atn  purify;clarify
-    -- nq      naq~    PV_ttAw purify;clarify
-    -- nqy     naq~iy  IV_0hAnn_yu     purify;clarify
-    -- nq      naq~    IV_0hwnyn_yu    purify;clarify
-    -- nqY     naq~aY  IV_0_Pass_yu    be purified;be clarified
-    -- nqy     naq~ay  IV_Ann_Pass_yu  be purified;be clarified
-
-    verb     FaCCY                     {- naq~aY -}         -- `others` [ "naqqay PV_Atn IV_Ann_Pass_yu", "naqq IV_0hwnyn_yu PV_ttAw", "naqqiy IV_0hAnn_yu", "naqqA PV_h" ]
-                                                            `gloss`  [ "purify", "clarify", "be purified", "be clarified" ],
-
-    -- ;; >anoqaY_1
-    -- >nqY    >anoqaY PV_0    purify;cleanse
-    -- AnqY    >anoqaY PV_0    purify;cleanse
-    -- >nqA    >anoqA  PV_h    purify;cleanse
-    -- AnqA    >anoqA  PV_h    purify;cleanse
-    -- >nqy    >anoqay PV_Atn  purify;cleanse
-    -- Anqy    >anoqay PV_Atn  purify;cleanse
-    -- >nq     >anoq   PV_ttAw purify;cleanse
-    -- Anq     >anoq   PV_ttAw purify;cleanse
-    -- nqy     noqiy   IV_0hAnn_yu     purify;cleanse
-    -- nq      noq     IV_0hwnyn_yu    purify;cleanse
-    -- nqY     noqaY   IV_0_Pass_yu    be purified;be cleansed
-    -- nqy     noqay   IV_Ann_Pass_yu  be purified;be cleansed
-
-    verb     HaFCY                     {- OanoqaY -}        -- `others` [ "nqY IV_0_Pass_yu", "'anqA PV_h", "nqiy IV_0hAnn_yu", "'anqay PV_Atn", "nqay IV_Ann_Pass_yu", "nq IV_0hwnyn_yu", "'anq PV_ttAw" ]
-                                                            `gloss`  [ "purify", "cleanse", "be purified", "be cleansed" ],
-
-    -- ;; {inotaqaY_1
-    -- <ntqY   {inotaqaY       PV_0    select
-    -- AntqY   {inotaqaY       PV_0    select
-    -- <ntqA   {inotaqA        PV_h    select
-    -- AntqA   {inotaqA        PV_h    select
-    -- <ntqy   {inotaqay       PV_Atn  select
-    -- Antqy   {inotaqay       PV_Atn  select
-    -- <ntq    {inotaq PV_ttAw select
-    -- Antq    {inotaq PV_ttAw select
-    -- ntqy    notaqiy IV_0hAnn        select
-    -- ntq     notaq   IV_0hwnyn       select
-    -- ntqY    notaqaY IV_0    select
-
-    verb     IFtaCY                    {- {inotaqaY -}      -- `others` [ "ntaqY IV_0", "intaq PV_ttAw", "intaqay PV_Atn", "ntaq IV_0hwnyn", "intaqA PV_h", "ntaqiy IV_0hAnn" ]
-                                                            `gloss`  [ "select" ],
-
-    -- ;; naqA'_1
-    -- nqA'    naqA'   N0_Nh   purity
-    -- nqA&    naqA&   Nh      purity
-    -- nqA}    naqA}   Nhy     purity
-
-    noun     FaCA'                     {- naqA' -}          `gloss`  [ "purity" ],
-
-    -- ;; naqAwap_1
-    -- nqAw    naqAw   Nap     purity;cleanness
-
-    noun     FaCAL |< aT               {- naqAwap -}        `gloss`  [ "purity", "cleanness" ],
-
-    -- ;; nuqAwap_1
-    -- nqAw    nuqAw   Nap     selection;choice;select
-
-    noun     FuCAL |< aT               {- nuqAwap -}        `gloss`  [ "selection", "choice", "select" ],
-
-    -- ;; >anoqaY_2
-    -- >nqY    >anoqaY N0      purer/purest;cleaner/cleanest
-    -- AnqY    >anoqaY N0      purer/purest;cleaner/cleanest
-    -- >nqA    >anoqA  Nhy     purest;cleanest
-    -- AnqA    >anoqA  Nhy     purest;cleanest
-    -- >nqy    >anoqay NAn_Nayn        purest;cleanest
-    -- Anqy    >anoqay NAn_Nayn        purest;cleanest
-
-    noun     HaFCY                     {- OanoqaY -}        -- `others` [ "'anqA Nhy", "'anqay NAn_Nayn" ]
-                                                            `gloss`  [ "purer / purest", "cleaner / cleanest", "purest", "cleanest" ],
-
-    -- ;; {inotiqA'_1
-    -- <ntqA'  {inotiqA'       N0_Nh   selection
-    -- AntqA'  {inotiqA'       N0_Nh   selection
-    -- <ntqA&  {inotiqA&       Nh      selection
-    -- AntqA&  {inotiqA&       Nh      selection
-    -- <ntqA}  {inotiqA}       Nhy     selection
-    -- AntqA}  {inotiqA}       Nhy     selection
-    -- <ntqA'  {inotiqA'       NAn_Nayn        selections
-    -- AntqA'  {inotiqA'       NAn_Nayn        selections
-    -- <ntqA}  {inotiqA}       Nayn    selections
-    -- AntqA}  {inotiqA}       Nayn    selections
-    -- <ntqA'  {inotiqA'       NAt     selections
-    -- AntqA'  {inotiqA'       NAt     selections
-
-    noun     IFtiCA'                   {- {inotiqA' -}      `gloss`  [ "selection", "selections" ],
-
-    -- ;; munotaqaY_1
-    -- mntqY   munotaqaY       N0      selected;select;choicest
-    -- mntqA   munotaqA        Nhy     selected;select;choicest
-    -- mntqy   munotaqay       NAn_Nayn        selected;select;choicest
-    -- mntqA   munotaqA        Napdu   selected;select;choicest
-
-    noun     MuFtaCY                   {- munotaqaY -}      -- `others` [ "muntaqay NAn_Nayn", "muntaqA Napdu Nhy" ]
-                                                            `gloss`  [ "selected", "select", "choicest" ] ]
+    FACUL                     `noun`       {- nAquws -}         [ "bell", "gong", "bell jar", "bells", "gongs", "bell jars" ]
+                              `plural`     FawACIL
+                              {- `others` [ "nawAqiys Ndip" ] -} ]
 
  |> "n q y" <| [
-
-    -- ;; naqiy-a_1
-    -- nqy     naqiy   PV_no-w_intr    be pure
-    -- nq      naq     PV_w_intr       be pure
-    -- nqY     noqaY   IV_0    be pure
-    -- nqy     noqay   IV_Ann  be pure
-    -- nq      noqa    IV_0hwnyn       be pure
-
-    verb     FaCiL                     {- naqiy-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nqY IV_0", "nqay IV_Ann", "nqa IV_0hwnyn", "naq PV_w_intr" ]
-                                                            `gloss`  [ "be pure" ],
-
-    -- ;; nuqAyap_1
-    -- nqAy    nuqAy   Nap     selection;choice;select
-    -- nqAyA   nuqAyA  N0_Nhy  selection;choice;select
-
-    noun     FuCAL |< aT               {- nuqAyap -}        -- `others` [ "nuqAyA N0_Nhy" ]
-                                                            `gloss`  [ "selection", "choice", "select" ],
-
-    -- ;; naqiy~_1
-    -- nqy     naqiy~  N-ap    pure;clean;undiluted     [[naqiy~/ADJ]]
-    -- nqA'    niqA'   N0_Nh   pure;clean;undiluted
-    -- nqA&    niqA&   Nh      pure;clean;undiluted
-    -- nqA}    niqA}   Nhy     pure;clean;undiluted
-    -- >nqyA'  >anoqiyA'       N0_Nh   pure;clean;undiluted
-    -- AnqyA'  >anoqiyA'       N0_Nh   pure;clean;undiluted
-    -- >nqyA&  >anoqiyA&       Nh      pure;clean;undiluted
-    -- AnqyA&  >anoqiyA&       Nh      pure;clean;undiluted
-    -- >nqyA}  >anoqiyA}       Nhy     pure;clean;undiluted
-    -- AnqyA}  >anoqiyA}       Nhy     pure;clean;undiluted
-
-    noun     FaCIL                     {- naqiy~ -}         -- `others` [ "'anqiyA' Nh Nhy N0_Nh", "niqA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "pure", "clean", "undiluted [ [ naqiy ~ / ADJ ] ]", "undiluted" ],
 
     -- ;; tanoqiyap_1
     -- tnqy    tanoqiy Nap     purification;cleansing
 
-    noun     TaFCiL |< aT              {- tanoqiyap -}      `gloss`  [ "purification", "cleansing" ],
-
-    -- ;; tanoqiyap_2
-    -- tnqy    tanoqiy Nap     clearing;clarifying;dispelling
-
-    noun     TaFCiL |< aT              {- tanoqiyap -}      `gloss`  [ "clearing", "clarifying", "dispelling" ] ]
-
- |> "n q z" <| [
-
-    -- ;; naqaz-ui_1
-    -- nqz     naqaz   PV      leap;hop
-    -- nqz     noquz   IV      leap;hop
-    -- nqz     noqiz   IV      leap;hop
-
-    verb     FaCaL                     {- naqaz-ui -}       `imperf` [ FCuL, FCiL ]
-                                                            -- `others` [ "nquz IV", "nqiz IV" ]
-                                                            `gloss`  [ "leap", "hop" ],
-
-    -- ;; naq~az_1
-    -- nqz     naq~az  PV      dandle;rock
-    -- nqz     naq~iz  IV_yu   dandle;rock
-
-    verb     FaCCaL                    {- naq~az -}         -- `others` [ "naqqiz IV_yu" ]
-                                                            `gloss`  [ "dandle", "rock" ],
-
-    -- ;; naqozap_1
-    -- nqz     naqoz   Napdu   jump;leap
-
-    noun     FaCL |< aT                {- naqozap -}        `gloss`  [ "jump", "leap" ] ]
+    TaFCiL |< aT              `noun`       {- tanoqiyap -}      [ "purification", "cleansing" ] ]
 
  |> "n r ^g" <| [
 
     -- ;; naruwj_1
     -- nrwj    naruwj  N0      Norway
 
-    noun     FaCUL                     {- naruwj -}         `gloss`  [ "Norway" ],
+    FaCUL                     `noun`       {- naruwj -}         [ "Norway" ],
 
     -- ;; naruwjiy~_1
     -- nrwjy   naruwjiy~       Nall    Norwegian     [[naruwjiy~/NOUN]]
     -- nrwjy   naruwjiy~       Nall    Norwegian     [[naruwjiy~/ADJ]]
 
-    noun     FaCUL |< Iy               {- naruwjiy~ -}      `gloss`  [ "Norwegian [ [ naruwjiy ~ / NOUN ] ]", "Norwegian [ [ naruwjiy ~ / ADJ ] ]" ] ]
-
- |> "n r ^g l" <| [
-
-    -- ;; narojiyl_1
-    -- nrjyl   narojiyl        N       coconut
-    -- nrjyl   narojiyl        Napdu   coconut
-
-    noun     KaRDIS                    {- narojiyl -}       `gloss`  [ "coconut" ],
-
-    -- ;; narojiylap_1
-    -- nrjyl   narojiyl        NapAt   narghile (water pipe)
-    -- nrAjyl  narAjiyl        Ndip    narghiles (water pipes)
-
-    noun     KaRDIS |< aT              {- narojiylap -}     -- `others` [ "narA^giyl Ndip" ]
-                                                            `gloss`  [ "narghile ( water pipe )", "narghiles ( water pipes )" ] ]
-
- |> "n r ^g s" <| [
-
-    -- ;; narojis_1
-    -- nrjs    narojis N       narcissus
-    -- nrjs    nirojis N       narcissus
-
-    noun     KaRDiS                    {- narojis -}        -- `others` [ "nir^gis N" ]
-                                                            `gloss`  [ "narcissus" ],
-
-    -- ;; narojis_2
-    -- nrjs    narojis Nprop   Narjis;Narges
-
-    noun     KaRDiS                    {- narojis -}        `gloss`  [ "Narjis", "Narges" ],
-
-    -- ;; narojisiy~_1
-    -- nrjsy   narojisiy~      Nall    narcissistic     [[narojisiy~/ADJ]]
-
-    noun     KaRDiS |< Iy              {- narojisiy~ -}     `gloss`  [ "narcissistic [ [ narojisiy ~ / ADJ ] ]" ],
-
-    -- ;; narojisiy~ap_1
-    -- nrjsy   narojisiy~      Nap     narcissism     [[narojisiy~/NOUN]]
-
-    noun     KaRDiS |< Iy |< aT        {- narojisiy~ap -}   `gloss`  [ "narcissism [ [ narojisiy ~ / NOUN ] ]" ] ]
-
- |> "n r b ^g" <| [
-
-    -- ;; narobiyj_1
-    -- nrbyj   narobiyj        Ndu     narghile mouthpiece
-    -- nrAbyj  narAbiyj        Ndip    narghile mouthpieces
-
-    noun     KaRDIS                    {- narobiyj -}       -- `others` [ "narAbiy^g Ndip" ]
-                                                            `gloss`  [ "narghile mouthpiece", "narghile mouthpieces" ] ]
-
- |> "n r b ^s" <| [
-
-    -- ;; narobiy$_1
-    -- nrby$   narobiy$        Ndu     narghile mouthpiece
-    -- nrAby$  narAbiy$        Ndip    narghile mouthpieces
-
-    noun     KaRDIS                    {- narobiy$ -}       -- `others` [ "narAbiy^s Ndip" ]
-                                                            `gloss`  [ "narghile mouthpiece", "narghile mouthpieces" ] ]
-
- |> "n r d" <| [
-
-    -- ;; narod_1
-    -- nrd     narod   N       backgammon;tricktrack
-
-    noun     FaCL                      {- narod -}          `gloss`  [ "backgammon", "tricktrack" ] ]
-
- |> "n r d n" <| [
-
-    -- ;; narodiyn_1
-    -- nrdyn   narodiyn        N       nard;spikenard
-
-    noun     KaRDIS                    {- narodiyn -}       `gloss`  [ "nard", "spikenard" ] ]
-
- |> "n r f z" <| [
-
-    -- ;; narofaz_1
-    -- nrfz    narofaz PV      make nervous;make angry
-    -- nrfz    narofiz IV_yu   make nervous;make angry
-
-    verb     KaRDaS                    {- narofaz -}        -- `others` [ "narfiz IV_yu" ]
-                                                            `gloss`  [ "make nervous", "make angry" ],
-
-    -- ;; narofazap_1
-    -- nrfz    narofaz Nap     making nervous or angry;nervousness;anger
-
-    noun     KaRDaS |< aT              {- narofazap -}      `gloss`  [ "making nervous or angry", "nervousness", "anger" ],
-
-    -- ;; narofazap_2
-    -- nrfz    narofaz Nap     nervousness;anger
-
-    noun     KaRDaS |< aT              {- narofazap -}      `gloss`  [ "nervousness", "anger" ],
-
-    -- ;; munarofaz_1
-    -- mnrfz   munarofaz       Nall    nervous;angry     [[munarofaz/ADJ]]
-
-    noun     MuKaRDaS                  {- munarofaz -}      `gloss`  [ "nervous", "angry [ [ munarofaz / ADJ ] ]" ] ]
-
- |> "n r m n" <| [
-
-    -- ;; niromiyn_1
-    -- nrmyn   niromiyn        Nprop   Nermine;Nirmine
-    -- nyrmyn  niyromiyn       Nprop   Nermine;Nirmine
-
-    noun     KiRDIS                    {- niromiyn -}       -- `others` [ "niyrmiyn Nprop" ]
-                                                            `gloss`  [ "Nermine", "Nirmine" ] ]
-
- |> "n r n" <| [
-
-    -- ;; nuwrAniy~_1
-    -- nwrAny  nuwrAniy~       N-ap    luminous     [[nuwrAniy~/ADJ]]
-
-    noun     FUCAL |< Iy               {- nuwrAniy~ -}      `gloss`  [ "luminous [ [ nuwrAniy ~ / ADJ ] ]" ],
-
-    -- ;; nuwrAniy~ap_1
-    -- nwrAny  nuwrAniy~       Nap     luminosity;brilliance     [[nuwrAniy~/NOUN]]
-
-    noun     FUCAL |< Iy |< aT         {- nuwrAniy~ap -}    `gloss`  [ "luminosity", "brilliance [ [ nuwrAniy ~ / NOUN ] ]" ] ]
+    FaCUL |< Iy               `noun`       {- naruwjiy~ -}      [ "Norwegian" ] ]
 
  |> "n r r" <| [
 
     -- ;; nuwriy_1
     -- nwry    nuwriy  Nprop   Nouri;Nuri
 
-    noun     FUCiy                     {- nuwriy -}         `gloss`  [ "Nouri", "Nuri" ] ]
+    FUCiy                     `noun`       {- nuwriy -}         [ "Nouri", "Nuri" ] ]
 
  |> "n r w ^g" <| [
 
     -- ;; nurowiyj_1
     -- nrwyj   nurowiyj        N0      Norway
 
-    noun     KuRDIS                    {- nurowiyj -}       `gloss`  [ "Norway" ],
+    KuRDIS                    `noun`       {- nurowiyj -}       [ "Norway" ],
 
     -- ;; nurowiyjiy~_1
     -- nrwyjy  nurowiyjiy~     Nall    Norwegian     [[nurowiyjiy~/NOUN]]
     -- nrwyjy  nurowiyjiy~     Nall    Norwegian     [[nurowiyjiy~/ADJ]]
 
-    noun     KuRDIS |< Iy              {- nurowiyjiy~ -}    `gloss`  [ "Norwegian [ [ nurowiyjiy ~ / NOUN ] ]", "Norwegian [ [ nurowiyjiy ~ / ADJ ] ]" ] ]
+    KuRDIS |< Iy              `noun`       {- nurowiyjiy~ -}    [ "Norwegian" ] ]
 
  |> "n s '" <| [
-
-    -- ;; nasa>-a_1
-    -- ns>     nasa>   PV->    postpone;delay;defer
-    -- ns|     nasa|   PV-|    postpone;delay;defer
-    -- ns&     nasa&   PV_w    postpone;delay;defer
-    -- ns>     nosa>   IV      postpone;delay;defer
-    -- ns|     nosa|   IV-|    postpone;delay;defer
-    -- ns&     nosa&   IV_wn   postpone;delay;defer
-    -- ns}     nosa}   IV_yn   postpone;delay;defer
-
-    verb     FaCaL                     {- nasaO-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nasa'A PV-|", "nsa'A IV-|", "nsa' IV IV_wn IV_yn" ]
-                                                            `gloss`  [ "postpone", "delay", "defer" ],
-
-    -- ;; >anosa>_1
-    -- >ns>    >anosa> PV->    postpone;delay;defer
-    -- Ans>    >anosa> PV->    postpone;delay;defer
-    -- >ns|    >anosa| PV-|    postpone;delay;defer
-    -- Ans|    >anosa| PV-|    postpone;delay;defer
-    -- >ns&    >anosa& PV_w    postpone;delay;defer
-    -- Ans&    >anosa& PV_w    postpone;delay;defer
-    -- ns}     nosi}   IV_yu   postpone;delay;defer
-    -- ns>     nosa>   IV_Pass_yu      be postponed;be delayed;be deferred
-
-    verb     HaFCaL                    {- OanosaO -}        -- `others` [ "nsi' IV_yu", "'ansa'A PV-|", "nsa' IV_Pass_yu" ]
-                                                            `gloss`  [ "postpone", "delay", "defer", "be postponed", "be delayed", "be deferred" ],
-
-    -- ;; naso'_1
-    -- ns'     naso'   N0      postponement;delay;deferral
-    -- ns}     naso}   NF_Nhy  postponement;delay;deferral
-
-    noun     FaCL                      {- naso' -}          `gloss`  [ "postponement", "delay", "deferral" ],
-
-    -- ;; nasA'_1
-    -- nsA'    nasA'   N0_Nh   longevity
-    -- nsA&    nasA&   Nh      longevity
-    -- nsA}    nasA}   Nhy     longevity
-
-    noun     FaCAL                     {- nasA' -}          `gloss`  [ "longevity" ],
-
-    -- ;; nasiy}ap_1
-    -- nsy}    nasiy}  Nap     deferred payment;credit
-
-    noun     FaCIL |< aT               {- nasiy}ap -}       `gloss`  [ "deferred payment", "credit" ],
-
-    -- ;; minosa>ap_1
-    -- mns>    minosa> Napdu   stick;staff
-
-    noun     MiFCaL |< aT              {- minosaOap -}      `gloss`  [ "stick", "staff" ],
 
     -- ;; nisA'_1
     -- nsA'    nisA'   N0_Nh   women
     -- nsA&    nisA&   Nh      women
     -- nsA}    nisA}   Nhy     women
 
-    noun     FiCAL                     {- nisA' -}          `gloss`  [ "women" ],
+    FiCAL                     `noun`       {- nisA' -}          [ "women" ],
 
-    -- ;; nas~A'_1
-    -- nsA'    nas~A'  N0_Nh   forgetful;oblivious
-    -- nsA'    nas~A'  Nh_Nuwn forgetful;oblivious
-    -- nsA}    nas~A}  Nh_Niyn forgetful;oblivious
+    -- ;; nisA}iy~_1
+    -- nsA}y   nisA}iy~        N-ap    women's;feminist;feminine     [[nisA}iy~/ADJ]]
 
-    noun     FaCCAL                    {- nas~A' -}         `gloss`  [ "forgetful", "oblivious" ] ]
-
- |> "n s .g" <| [
-
-    -- ;; nusog_1
-    -- nsg     nusog   N       sap (plant)
-
-    noun     FuCL                      {- nusog -}          `gloss`  [ "sap ( plant )" ] ]
-
- |> "n s .t r" <| [
-
-    -- ;; nusoTuwr_1
-    -- nsTwr   nusoTuwr        Ndip    Nestor
-
-    noun     KuRDUS                    {- nusoTuwr -}       `gloss`  [ "Nestor" ],
-
-    -- ;; nusoTuwr_2
-    -- nsTwr   nusoTuwr        Ndip    Nestorius
-
-    noun     KuRDUS                    {- nusoTuwr -}       `gloss`  [ "Nestorius" ],
-
-    -- ;; nusoTuwriy~_1
-    -- nsTwry  nusoTuwriy~     N-ap    Nestorian     [[nusoTuwriy~/ADJ]]
-    -- nsATr   nasATir Nap     Nestorians
-
-    noun     KuRDUS |< Iy              {- nusoTuwriy~ -}    -- `others` [ "nasA.tir Nap" ]
-                                                            `gloss`  [ "Nestorian [ [ nusoTuwriy ~ / ADJ ] ]", "Nestorians" ] ]
+    FiCAL |< Iy               `noun`       {- nisA}iy~ -}       [ "women's", "feminist", "feminine" ] ]
 
  |> "n s ^g" <| [
-
-    -- ;; nasaj-ui_1
-    -- nsj     nasaj   PV      weave;knit
-    -- nsj     nosuj   IV      weave;knit
-    -- nsj     nosij   IV      weave;knit
-
-    verb     FaCaL                     {- nasaj-ui -}       `imperf` [ FCuL, FCiL ]
-                                                            -- `others` [ "nsu^g IV", "nsi^g IV" ]
-                                                            `gloss`  [ "weave", "knit" ],
-
-    -- ;; {inotasaj_1
-    -- <ntsj   {inotasaj       PV_intr be woven
-    -- Antsj   {inotasaj       PV_intr be woven
-    -- ntsj    notasij IV_intr be woven
-
-    verb     IFtaCaL                   {- {inotasaj -}      -- `others` [ "ntasi^g IV_intr" ]
-                                                            `gloss`  [ "be woven" ],
 
     -- ;; nasoj_1
     -- nsj     nasoj   N       weaving;fabric
 
-    noun     FaCL                      {- nasoj -}          `gloss`  [ "weaving", "fabric" ],
-
-    -- ;; nas~Aj_1
-    -- nsAj    nas~Aj  Nall    weaver
-
-    noun     FaCCAL                    {- nas~Aj -}         `gloss`  [ "weaver" ],
-
-    -- ;; nas~Aj_2
-    -- nsAj    nas~Aj  N0      Nassaj
-
-    noun     FaCCAL                    {- nas~Aj -}         `gloss`  [ "Nassaj" ],
-
-    -- ;; nisAjap_1
-    -- nsAj    nisAj   Nap     weaver's trade;textile industry
-
-    noun     FiCAL |< aT               {- nisAjap -}        `gloss`  [ "weaver 's trade", "textile industry" ],
+    FaCL                      `noun`       {- nasoj -}          [ "weaving", "fabric" ],
 
     -- ;; nasiyj_1
     -- nsyj    nasiyj  N       textile;fabric;tissue
@@ -14097,143 +3706,32 @@ lexicon = listing "Lexicon properties"
     -- >nsAj   >anosAj N       textiles;fabrics;tissue
     -- AnsAj   >anosAj N       textiles;fabrics;tissue
 
-    noun     FaCIL                     {- nasiyj -}         -- `others` [ "'ansi^g Nap", "'ansA^g N", "nusu^g N" ]
-                                                            `gloss`  [ "textile", "fabric", "tissue", "textiles", "fabrics" ],
-
-    -- ;; manosaj_1
-    -- mnsj    manosaj Ndu     weaving mill
-    -- mnAsj   manAsij Ndip    weaving mill
-
-    noun     MaFCaL                    {- manosaj -}        -- `others` [ "manAsi^g Ndip" ]
-                                                            `gloss`  [ "weaving mill" ],
-
-    -- ;; minosaj_1
-    -- mnsj    minosaj N       weaver's loom
-
-    noun     MiFCaL                    {- minosaj -}        `gloss`  [ "weaver 's loom" ],
+    FaCIL                     `noun`       {- nasiyj -}         [ "textile", "fabric", "tissue", "textiles", "fabrics" ]
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCAL
+                              `plural`     FuCuL
+                              {- `others` [ "'ansi^g Nap", "'ansA^g N", "nusu^g N" ] -},
 
     -- ;; manosuwj_1
     -- mnswj   manosuwj        N-ap    woven;textile;tissue
     -- mnswj   manosuwj        NAt     textiles
 
-    noun     MaFCUL                    {- manosuwj -}       `gloss`  [ "woven", "textile", "tissue", "textiles" ] ]
+    MaFCUL                    `noun`       {- manosuwj -}       [ "woven", "textile", "tissue", "textiles" ] ]
 
  |> "n s _h" <| [
-
-    -- ;; nasax-a_1
-    -- nsx     nasax   PV      copy;transcribe;abrogate;delete
-    -- nsx     nosax   IV      copy;transcribe;abrogate;delete
-
-    verb     FaCaL                     {- nasax-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nsa_h IV" ]
-                                                            `gloss`  [ "copy", "transcribe", "abrogate", "delete" ],
-
-    -- ;; nAsax_1
-    -- nAsx    nAsax   PV      supersede
-    -- nAsx    nAsix   IV_yu   supersede
-
-    verb     FACaL                     {- nAsax -}          -- `others` [ "nAsi_h IV_yu" ]
-                                                            `gloss`  [ "supersede" ],
-
-    -- ;; tanas~ax_1
-    -- tnsx    tanas~ax        PV_intr be abrogated
-    -- tnsx    tanas~ax        IV_intr be abrogated
-
-    verb     TaFaCCaL                  {- tanas~ax -}       `gloss`  [ "be abrogated" ],
-
-    -- ;; tanAsax_1
-    -- tnAsx   tanAsax PV      follow successively
-    -- tnAsx   tanAsax IV      follow successively
-
-    verb     TaFACaL                   {- tanAsax -}        `gloss`  [ "follow successively" ],
-
-    -- ;; {inotasax_1
-    -- <ntsx   {inotasax       PV      abrogate;copy
-    -- Antsx   {inotasax       PV      abrogate;copy
-    -- ntsx    notasix IV      abrogate;copy
-
-    verb     IFtaCaL                   {- {inotasax -}      -- `others` [ "ntasi_h IV" ]
-                                                            `gloss`  [ "abrogate", "copy" ],
-
-    -- ;; {isotanosax_1
-    -- <stnsx  {isotanosax     PV      copy;transcribe;clone
-    -- Astnsx  {isotanosax     PV      copy;transcribe;clone
-    -- stnsx   sotanosix       IV      copy;transcribe;clone
-
-    verb     IstaFCaL                  {- {isotanosax -}    -- `others` [ "stansi_h IV" ]
-                                                            `gloss`  [ "copy", "transcribe", "clone" ],
-
-    -- ;; nasox_1
-    -- nsx     nasox   N       transcription;copying
-
-    noun     FaCL                      {- nasox -}          `gloss`  [ "transcription", "copying" ],
-
-    -- ;; nasox_2
-    -- nsx     nasox   N       abrogation;cancellation
-
-    noun     FaCL                      {- nasox -}          `gloss`  [ "abrogation", "cancellation" ],
-
-    -- ;; nasox_3
-    -- nsx     nasox   N       Naskh (Arabic script)
-
-    noun     FaCL                      {- nasox -}          `gloss`  [ "Naskh ( Arabic script )" ],
-
-    -- ;; nasoxiy~_1
-    -- nsxy    nasoxiy~        N       Naskhi (Arabic script)
-
-    noun     FaCL |< Iy                {- nasoxiy~ -}       `gloss`  [ "Naskhi ( Arabic script )" ],
 
     -- ;; nusoxap_1
     -- nsx     nusox   Napdu   copy
     -- nsx     nusax   N       copies
 
-    noun     FuCL |< aT                {- nusoxap -}        -- `others` [ "nusa_h N" ]
-                                                            `gloss`  [ "copy", "copies" ],
-
-    -- ;; nas~Ax_1
-    -- nsAx    nas~Ax  Ndu     copyist;scribe
-    -- nsAx    nas~Ax  Nap     copyists;scribes
-
-    noun     FaCCAL                    {- nas~Ax -}         `gloss`  [ "copyist", "scribe", "copyists", "scribes" ],
-
-    -- ;; nas~Ax_2
-    -- nsAx    nas~Ax  N0      Nassakh
-
-    noun     FaCCAL                    {- nas~Ax -}         `gloss`  [ "Nassakh" ],
+    FuCL |< aT                `noun`       {- nusoxap -}        [ "copy", "copies" ]
+                              `plural`     FuCaL
+                              {- `others` [ "nusa_h N" ] -},
 
     -- ;; tanAsux_1
     -- tnAsx   tanAsux N/At    succession
 
-    noun     TaFACuL                   {- tanAsux -}        `gloss`  [ "succession" ],
-
-    -- ;; {isotinosAx_1
-    -- <stnsAx {isotinosAx     N/At    cloning;copying;transcription
-    -- AstnsAx {isotinosAx     N/At    cloning;copying;transcription
-
-    noun     IstiFCAL                  {- {isotinosAx -}    `gloss`  [ "cloning", "copying", "transcription" ],
-
-    -- ;; nAsix_1
-    -- nAsx    nAsix   N-ap    abrogating;abolishing
-
-    noun     FACiL                     {- nAsix -}          `gloss`  [ "abrogating", "abolishing" ],
-
-    -- ;; nAsix_2
-    -- nAsx    nAsix   Ndu     copyist;transcriber
-    -- nsAx    nus~Ax  N       copyists;transcribers
-
-    noun     FACiL                     {- nAsix -}          -- `others` [ "nussA_h N" ]
-                                                            `gloss`  [ "copyist", "transcriber", "copyists", "transcribers" ],
-
-    -- ;; manosuwx_1
-    -- mnswx   manosuwx        N-ap    abrogated;superseded     [[manosuwx/ADJ]]
-
-    noun     MaFCUL                    {- manosuwx -}       `gloss`  [ "abrogated", "superseded [ [ manosuwx / ADJ ] ]" ],
-
-    -- ;; musotanosax_1
-    -- mstnsx  musotanosax     Nall    cloned     [[musotanosax/ADJ]]
-    -- mstnsx  musotanosax     Nall    copied;transcribed     [[musotanosax/ADJ]]
-
-    noun     MustaFCaL                 {- musotanosax -}    `gloss`  [ "cloned [ [ musotanosax / ADJ ] ]", "copied", "transcribed [ [ musotanosax / ADJ ] ]" ] ]
+    TaFACuL                   `noun`       {- tanAsux -}        [ "succession" ] ]
 
  |> "n s b" <| [
 
@@ -14242,670 +3740,192 @@ lexicon = listing "Lexicon properties"
     -- nsb     nosub   IV      relate;trace;attribute
     -- nsb     nosib   IV      relate;trace;attribute
 
-    verb     FaCaL                     {- nasab-ui -}       `imperf` [ FCuL, FCiL ]
-                                                            -- `others` [ "nsib IV", "nsub IV" ]
-                                                            `gloss`  [ "relate", "trace", "attribute" ],
+    FaCaL                     `verb`       {- nasab-ui -}       [ "relate", "trace", "attribute" ]
+                              `imperf` [ FCuL, FCiL ]
+                              {- `others` [ "nsib IV", "nsub IV" ] -},
 
     -- ;; nAsab_1
     -- nAsb    nAsab   PV_intr be compatible with;harmonize with
     -- nAsb    nAsib   IV_intr_yu      be compatible with;harmonize with
 
-    verb     FACaL                     {- nAsab -}          -- `others` [ "nAsib IV_intr_yu" ]
-                                                            `gloss`  [ "be compatible with", "harmonize with" ],
+    FACaL                     `verb`       {- nAsab -}          [ "be compatible with", "harmonize with" ]
+                              {- `others` [ "nAsib IV_intr_yu" ] -},
 
     -- ;; tanAsab_1
     -- tnAsb   tanAsab PV_intr be in agreement;be compatible
     -- tnAsb   tanAsab IV_intr be in agreement;be compatible
 
-    verb     TaFACaL                   {- tanAsab -}        `gloss`  [ "be in agreement", "be compatible" ],
-
-    -- ;; {inotasab_1
-    -- <ntsb   {inotasab       PV_intr be related;be affiliated;be derived
-    -- Antsb   {inotasab       PV_intr be related;be affiliated;be derived
-    -- ntsb    notasib IV_intr be related;be affiliated;be derived
-
-    verb     IFtaCaL                   {- {inotasab -}      -- `others` [ "ntasib IV_intr" ]
-                                                            `gloss`  [ "be related", "be affiliated", "be derived" ],
-
-    -- ;; {isotanosab_1
-    -- <stnsb  {isotanosab     PV      deem proper;sanction;condone
-    -- Astnsb  {isotanosab     PV      deem proper;sanction;condone
-    -- stnsb   sotanosib       IV      deem proper;sanction;condone
-
-    verb     IstaFCaL                  {- {isotanosab -}    -- `others` [ "stansib IV" ]
-                                                            `gloss`  [ "deem proper", "sanction", "condone" ],
+    TaFACaL                   `verb`       {- tanAsab -}        [ "be in agreement", "be compatible" ],
 
     -- ;; nasab_1
     -- nsb     nasab   N       lineage;kinship
     -- >nsAb   >anosAb N       lineage;kinship;genealogy
     -- AnsAb   >anosAb N       lineage;kinship;genealogy
 
-    noun     FaCaL                     {- nasab -}          -- `others` [ "'ansAb N" ]
-                                                            `gloss`  [ "lineage", "kinship", "genealogy" ],
+    FaCaL                     `noun`       {- nasab -}          [ "lineage", "kinship", "genealogy" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'ansAb N" ] -},
 
     -- ;; nisobap_1
     -- nsb     nisob   Nap     ratio;rate
 
-    noun     FiCL |< aT                {- nisobap -}        `gloss`  [ "ratio", "rate" ],
+    FiCL |< aT                `noun`       {- nisobap -}        [ "ratio", "rate" ],
 
     -- ;; nisobap_2
     -- nsb     nisob   Nap     link;relation
     -- nsb     nisab   N       links;relations;percentage figures
 
-    noun     FiCL |< aT                {- nisobap -}        -- `others` [ "nisab N" ]
-                                                            `gloss`  [ "link", "relation", "links", "relations", "percentage figures" ],
+    FiCL |< aT                `noun`       {- nisobap -}        [ "link", "relation", "links", "relations", "percentage figures" ]
+                              `plural`     FiCaL
+                              {- `others` [ "nisab N" ] -},
 
     -- ;; nisobiy~_1
     -- nsby    nisobiy~        N-ap    relative     [[nisobiy~/ADJ]]
     -- nsby    nisobiy~        NF      relatively     [[nisobiy~/ADV]]
 
-    noun     FiCL |< Iy                {- nisobiy~ -}       `gloss`  [ "relative [ [ nisobiy ~ / ADJ ] ]", "relatively [ [ nisobiy ~ / ADV ] ]" ],
+    FiCL |< Iy                `noun`       {- nisobiy~ -}       [ "relative", "relatively" ],
 
     -- ;; nisobiy~ap_1
     -- nsby    nisobiy~        Nap     relativity     [[nisobiy~/NOUN]]
 
-    noun     FiCL |< Iy |< aT          {- nisobiy~ap -}     `gloss`  [ "relativity [ [ nisobiy ~ / NOUN ] ]" ],
-
-    -- ;; nas~Ab_1
-    -- nsAb    nas~Ab  Nall    genealogist
-
-    noun     FaCCAL                    {- nas~Ab -}         `gloss`  [ "genealogist" ],
-
-    -- ;; nas~Ab_2
-    -- nsAb    nas~Ab  N0      Nassab
-
-    noun     FaCCAL                    {- nas~Ab -}         `gloss`  [ "Nassab" ],
-
-    -- ;; nasiyb_1
-    -- nsyb    nasiyb  N       relative;kinsman
-    -- >nsbA'  >anosibA'       N0_Nh   relatives;kinsmen
-    -- AnsbA'  >anosibA'       N0_Nh   relatives;kinsmen
-    -- >nsbA&  >anosibA&       Nh      relatives;kinsmen
-    -- AnsbA&  >anosibA&       Nh      relatives;kinsmen
-    -- >nsbA}  >anosibA}       Nhy     relatives;kinsmen
-    -- AnsbA}  >anosibA}       Nhy     relatives;kinsmen
-
-    noun     FaCIL                     {- nasiyb -}         -- `others` [ "'ansibA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "relative", "kinsman", "relatives", "kinsmen" ],
-
-    -- ;; nasiyb_2
-    -- nsyb    nasiyb  Nprop   Naseeb;Nasib
-
-    noun     FaCIL                     {- nasiyb -}         `gloss`  [ "Naseeb", "Nasib" ],
-
-    -- ;; nusayobap_1
-    -- nsybp   nusayobap       N0      Nuseiba
-
-    noun     FuCayL |< aT              {- nusayobap -}      `gloss`  [ "Nuseiba" ],
+    FiCL |< Iy |< aT          `noun`       {- nisobiy~ap -}     [ "relativity" ],
 
     -- ;; >anosab_1
     -- >nsb    >anosab Nel     more/most adequate/suitable;better/best qualified
     -- Ansb    >anosab Nel     more/most adequate/suitable;better/best qualified
 
-    noun     HaFCaL                    {- Oanosab -}        `gloss`  [ "more / most adequate / suitable", "better / best qualified" ],
+    HaFCaL                    `noun`       {- Oanosab -}        [ "more/most adequate/suitable", "better/best qualified" ],
 
     -- ;; munAsabap_1
     -- mnAsb   munAsab Napdu   occasion;opportunity
     -- mnAsb   munAsab NAt     occasions;opportunities
 
-    noun     MuFACaL |< aT             {- munAsabap -}      -- `others` [ "munAsab NAt" ]
-                                                            `gloss`  [ "occasion", "opportunity", "occasions", "opportunities" ],
+    MuFACaL |< aT             `noun`       {- munAsabap -}      [ "occasion", "opportunity", "occasions", "opportunities" ]
+                              `plural`     MuFACaL |< At
+                              {- `others` [ "munAsab NAt" ] -},
 
     -- ;; tanAsub_1
     -- tnAsb   tanAsub N/At    proportional relation;balance;uniformity
 
-    noun     TaFACuL                   {- tanAsub -}        `gloss`  [ "proportional relation", "balance", "uniformity" ],
-
-    -- ;; {inotisAb_1
-    -- <ntsAb  {inotisAb       N/At    relation;connection;affiliation
-    -- AntsAb  {inotisAb       N/At    relation;connection;affiliation
-
-    noun     IFtiCAL                   {- {inotisAb -}      `gloss`  [ "relation", "connection", "affiliation" ],
-
-    -- ;; {isotinosAb_1
-    -- <stnsAb {isotinosAb     N/At    sanctioning;condoning;deeming proper
-    -- AstnsAb {isotinosAb     N/At    sanctioning;condoning;deeming proper
-
-    noun     IstiFCAL                  {- {isotinosAb -}    `gloss`  [ "sanctioning", "condoning", "deeming proper" ],
-
-    -- ;; {isotinosAbiy~_1
-    -- <stnsAby        {isotinosAbiy~  Nall    sanctioning;condoning;deeming proper     [[{isotinosAbiy~/ADJ]]
-    -- AstnsAby        {isotinosAbiy~  Nall    sanctioning;condoning;deeming proper     [[{isotinosAbiy~/ADJ]]
-
-    noun     IstiFCAL |< Iy            {- {isotinosAbiy~ -} `gloss`  [ "sanctioning", "condoning", "deeming proper [ [ { isotinosAbiy ~ / ADJ ] ]" ],
+    TaFACuL                   `noun`       {- tanAsub -}        [ "proportional relation", "balance", "uniformity" ],
 
     -- ;; manosuwb_1
     -- mnswb   manosuwb        N-ap    attributed;pertaining;relative     [[manosuwb/ADJ]]
 
-    noun     MaFCUL                    {- manosuwb -}       `gloss`  [ "attributed", "pertaining", "relative [ [ manosuwb / ADJ ] ]" ],
+    MaFCUL                    `noun`       {- manosuwb -}       [ "attributed", "pertaining", "relative" ],
 
     -- ;; manosuwb_2
     -- mnswb   manosuwb        N       level;altitude
     -- mnAsyb  manAsiyb        Ndip    levels;altitudes
 
-    noun     MaFCUL                    {- manosuwb -}       -- `others` [ "manAsiyb Ndip" ]
-                                                            `gloss`  [ "level", "altitude", "levels", "altitudes" ],
-
-    -- ;; manosuwbiy~ap_1
-    -- mnswby  manosuwbiy~     Nap     nepotism     [[manosuwbiy~/NOUN]]
-
-    noun     MaFCUL |< Iy |< aT        {- manosuwbiy~ap -}  `gloss`  [ "nepotism [ [ manosuwbiy ~ / NOUN ] ]" ],
+    MaFCUL                    `noun`       {- manosuwb -}       [ "level", "altitude", "levels", "altitudes" ]
+                              `plural`     MaFACIL
+                              {- `others` [ "manAsiyb Ndip" ] -},
 
     -- ;; munAsib_1
     -- mnAsb   munAsib Nall    suitable;appropriate     [[munAsib/ADJ]]
 
-    noun     MuFACiL                   {- munAsib -}        `gloss`  [ "suitable", "appropriate [ [ munAsib / ADJ ] ]" ],
+    MuFACiL                   `noun`       {- munAsib -}        [ "suitable", "appropriate" ],
 
     -- ;; mutanAsib_1
     -- mtnAsb  mutanAsib       N-ap    proportionate;analogous     [[mutanAsib/ADJ]]
 
-    noun     MutaFACiL                 {- mutanAsib -}      `gloss`  [ "proportionate", "analogous [ [ mutanAsib / ADJ ] ]" ],
+    MutaFACiL                 `noun`       {- mutanAsib -}      [ "proportionate", "analogous" ],
 
     -- ;; munotasib_1
     -- mntsb   munotasib       Nall    affiliated;associate     [[munotasib/ADJ]]
 
-    noun     MuFtaCiL                  {- munotasib -}      `gloss`  [ "affiliated", "associate [ [ munotasib / ADJ ] ]" ] ]
+    MuFtaCiL                  `noun`       {- munotasib -}      [ "affiliated", "associate" ] ]
 
  |> "n s f" <| [
-
-    -- ;; nasaf-i_1
-    -- nsf     nasaf   PV      pulverize;scatter;blow up
-    -- nsf     nosif   IV      pulverize;scatter;blow up
-
-    verb     FaCaL                     {- nasaf-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nsif IV" ]
-                                                            `gloss`  [ "pulverize", "scatter", "blow up" ],
-
-    -- ;; >anosaf_1
-    -- >nsf    >anosaf PV      scatter
-    -- Ansf    >anosaf PV      scatter
-    -- nsf     nosif   IV_yu   scatter
-    -- nsf     nosaf   IV_Pass_yu      be scattered
-
-    verb     HaFCaL                    {- Oanosaf -}        -- `others` [ "nsaf IV_Pass_yu", "nsif IV_yu" ]
-                                                            `gloss`  [ "scatter", "be scattered" ],
-
-    -- ;; {inotasaf_1
-    -- <ntsf   {inotasaf       PV      raze;blow up
-    -- Antsf   {inotasaf       PV      raze;blow up
-    -- ntsf    notasif IV      raze;blow up
-
-    verb     IFtaCaL                   {- {inotasaf -}      -- `others` [ "ntasif IV" ]
-                                                            `gloss`  [ "raze", "blow up" ],
 
     -- ;; nasof_1
     -- nsf     nasof   N       demolishing;blowing up
 
-    noun     FaCL                      {- nasof -}          `gloss`  [ "demolishing", "blowing up" ],
-
-    -- ;; nus~Af_1
-    -- nsAf    nus~Af  N       hornbill;swallow
-    -- nsAsyf  nasAsiyf        Ndip    hornbills;swallows
-
-    noun     FuCCAL                    {- nus~Af -}         -- `others` [ "nasAsiyf Ndip" ]
-                                                            `gloss`  [ "hornbill", "swallow", "hornbills", "swallows" ],
-
-    -- ;; nusAfap_1
-    -- nsAf    nusAf   Nap     chaff
-
-    noun     FuCAL |< aT               {- nusAfap -}        `gloss`  [ "chaff" ],
-
-    -- ;; nas~Afap_1
-    -- nsAf    nas~Af  NapAt   torpedo boat
-
-    noun     FaCCAL |< aT              {- nas~Afap -}       `gloss`  [ "torpedo boat" ],
-
-    -- ;; minosaf_1
-    -- mnsf    minosaf N       winnow
-    -- mnsf    minosaf Nap     winnow
-    -- mnAsf   manAsif Ndip    winnows
-
-    noun     MiFCaL                    {- minosaf -}        -- `others` [ "manAsif Ndip" ]
-                                                            `gloss`  [ "winnow", "winnows" ],
-
-    -- ;; nAsif_1
-    -- nAsf    nAsif   Ndu     explosive;dynamite
-
-    noun     FACiL                     {- nAsif -}          `gloss`  [ "explosive", "dynamite" ],
-
-    -- ;; nAsifap_1
-    -- nAsf    nAsif   Napdu   explosive;dynamite
-
-    noun     FACiL |< aT               {- nAsifap -}        `gloss`  [ "explosive", "dynamite" ],
+    FaCL                      `noun`       {- nasof -}          [ "demolishing", "blowing up" ],
 
     -- ;; nAsif_2
     -- nAsf    nAsif   N-ap    exploding     [[nAsif/ADJ]]
 
-    noun     FACiL                     {- nAsif -}          `gloss`  [ "exploding [ [ nAsif / ADJ ] ]" ] ]
-
- |> "n s k" <| [
-
-    -- ;; nasak-u_1
-    -- nsk     nasak   PV_intr be devout;be ascetic
-    -- nsk     nasuk   PV_intr be devout;be ascetic
-    -- nsk     nosuk   IV_intr be devout;be ascetic
-
-    verb     FaCaL                     {- nasak-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nasuk PV_intr", "nsuk IV_intr" ]
-                                                            `gloss`  [ "be devout", "be ascetic" ],
-
-    -- ;; tanas~ak_1
-    -- tnsk    tanas~ak        PV_intr be pious;be devout
-    -- tnsk    tanas~ak        IV_intr be pious;be devout
-
-    verb     TaFaCCaL                  {- tanas~ak -}       `gloss`  [ "be pious", "be devout" ],
-
-    -- ;; nasok_1
-    -- nsk     nasok   N       piety;devoutness;reclusion
-    -- nsk     nusok   N       piety;devoutness;reclusion
-    -- nsk     nusuk   N       piety;devoutness;reclusion
-
-    noun     FaCL                      {- nasok -}          -- `others` [ "nusk N", "nusuk N" ]
-                                                            `gloss`  [ "piety", "devoutness", "reclusion" ],
-
-    -- ;; nusukiy~_1
-    -- nsky    nusukiy~        Nall    ascetic     [[nusukiy~/ADJ]]
-
-    noun     FuCuL |< Iy               {- nusukiy~ -}       `gloss`  [ "ascetic [ [ nusukiy ~ / ADJ ] ]" ],
-
-    -- ;; nusuk_1
-    -- nsk     nusuk   N       sacrifice;pilgrimage ceremonies
-
-    noun     FuCuL                     {- nusuk -}          `gloss`  [ "sacrifice", "pilgrimage ceremonies" ],
-
-    -- ;; nAsik_1
-    -- nAsk    nAsik   Ndu     hermit;ascetic;pious
-    -- nsAk    nus~Ak  N       hermits;ascetics;pious
-
-    noun     FACiL                     {- nAsik -}          -- `others` [ "nussAk N" ]
-                                                            `gloss`  [ "hermit", "ascetic", "pious", "hermits", "ascetics" ],
-
-    -- ;; manosik_1
-    -- mnsk    manosik Ndu     hermitage
-    -- mnAsk   manAsik Ndip    hermitages
-
-    noun     MaFCiL                    {- manosik -}        -- `others` [ "manAsik Ndip" ]
-                                                            `gloss`  [ "hermitage", "hermitages" ],
-
-    -- ;; manosik_2
-    -- mnsk    manosik N       pilgrimage ceremony
-    -- mnAsk   manAsik Ndip    pilgrimage ceremonies
-
-    noun     MaFCiL                    {- manosik -}        -- `others` [ "manAsik Ndip" ]
-                                                            `gloss`  [ "pilgrimage ceremony", "pilgrimage ceremonies" ] ]
+    FACiL                     `noun`       {- nAsif -}          [ "exploding" ] ]
 
  |> "n s l" <| [
-
-    -- ;; nasal-u_1
-    -- nsl     nasal   PV      beget
-    -- nsl     nosul   IV      beget
-
-    verb     FaCaL                     {- nasal-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nsul IV" ]
-                                                            `gloss`  [ "beget" ],
-
-    -- ;; nasal-u_2
-    -- nsl     nasal   PV_intr fall out
-    -- nsl     nosul   IV_intr fall out
-
-    verb     FaCaL                     {- nasal-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nsul IV_intr" ]
-                                                            `gloss`  [ "fall out" ],
-
-    -- ;; nas~al_1
-    -- nsl     nas~al  PV      shred;unravel
-    -- nsl     nas~il  IV_yu   shred;unravel
-
-    verb     FaCCaL                    {- nas~al -}         -- `others` [ "nassil IV_yu" ]
-                                                            `gloss`  [ "shred", "unravel" ],
-
-    -- ;; >anosal_1
-    -- >nsl    >anosal PV      procreate
-    -- Ansl    >anosal PV      procreate
-    -- nsl     nosil   IV_yu   procreate
-    -- nsl     nosal   IV_Pass_yu      be procreated
-
-    verb     HaFCaL                    {- Oanosal -}        -- `others` [ "nsil IV_yu", "nsal IV_Pass_yu" ]
-                                                            `gloss`  [ "procreate", "be procreated" ],
-
-    -- ;; tanAsal_1
-    -- tnAsl   tanAsal PV      reproduce;be descended
-    -- tnAsl   tanAsal IV      reproduce;be descended
-
-    verb     TaFACaL                   {- tanAsal -}        `gloss`  [ "reproduce", "be descended" ],
-
-    -- ;; nusuwl_1
-    -- nswl    nusuwl  N       falling out
-
-    noun     FuCUL                     {- nusuwl -}         `gloss`  [ "falling out" ],
-
-    -- ;; nasol_1
-    -- nsl     nasol   N       progeny;offspring
-    -- >nsAl   >anosAl N       progeny;descendants
-    -- AnsAl   >anosAl N       progeny;descendants
-
-    noun     FaCL                      {- nasol -}          -- `others` [ "'ansAl N" ]
-                                                            `gloss`  [ "progeny", "offspring", "descendants" ],
-
-    -- ;; nusAlap_1
-    -- nsAl    nusAl   Nap     fibrous waste;lint
-
-    noun     FuCAL |< aT               {- nusAlap -}        `gloss`  [ "fibrous waste", "lint" ],
-
-    -- ;; nas~Alap_1
-    -- nsAl    nas~Al  Nap     raveling machine;willow
-
-    noun     FaCCAL |< aT              {- nas~Alap -}       `gloss`  [ "raveling machine", "willow" ],
-
-    -- ;; nasuwlap_1
-    -- nswl    nasuwl  Nap     breed animal
-
-    noun     FaCUL |< aT               {- nasuwlap -}       `gloss`  [ "breed animal" ],
-
-    -- ;; nasiylap_1
-    -- nsyl    nasiyl  Nap     offprint;reprint
-
-    noun     FaCIL |< aT               {- nasiylap -}       `gloss`  [ "offprint", "reprint" ],
-
-    -- ;; <inosAl_1
-    -- <nsAl   <inosAl N       procreation;generation
-    -- AnsAl   <inosAl N       procreation;generation
-
-    noun     HiFCAL                    {- IinosAl -}        `gloss`  [ "procreation", "generation" ],
-
-    -- ;; tanAsul_1
-    -- tnAsl   tanAsul N/At    reproduction;procreation
-
-    noun     TaFACuL                   {- tanAsul -}        `gloss`  [ "reproduction", "procreation" ],
 
     -- ;; tanAsuliy~_1
     -- tnAsly  tanAsuliy~      N-ap    sexual;reproductive     [[tanAsuliy~/ADJ]]
 
-    noun     TaFACuL |< Iy             {- tanAsuliy~ -}     `gloss`  [ "sexual", "reproductive [ [ tanAsuliy ~ / ADJ ] ]" ],
-
-    -- ;; tanAsuliy~At_1
-    -- tnAsly  tanAsuliy~      NAt     sexual organs     [[tanAsuliy~/NOUN]]
-
-    noun     TaFACuL |< Iy |< At       {- tanAsuliy~At -}   -- `others` [ "tanAsuliyy NAt" ]
-                                                            `gloss`  [ "sexual organs [ [ tanAsuliy ~ / NOUN ] ]" ] ]
+    TaFACuL |< Iy             `noun`       {- tanAsuliy~ -}     [ "sexual", "reproductive" ] ]
 
  |> "n s m" <| [
-
-    -- ;; nasam-i_1
-    -- nsm     nasam   PV      blow gently
-    -- nsm     nosim   IV      blow gently
-
-    verb     FaCaL                     {- nasam-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nsim IV" ]
-                                                            `gloss`  [ "blow gently" ],
-
-    -- ;; nas~am_1
-    -- nsm     nas~am  PV      commence
-    -- nsm     nas~im  IV_yu   commence
-
-    verb     FaCCaL                    {- nas~am -}         -- `others` [ "nassim IV_yu" ]
-                                                            `gloss`  [ "commence" ],
-
-    -- ;; tanas~am_1
-    -- tnsm    tanas~am        PV      sniff;breathe;be fragrant
-    -- tnsm    tanas~am        IV      sniff;breathe;be fragrant
-
-    verb     TaFaCCaL                  {- tanas~am -}       `gloss`  [ "sniff", "breathe", "be fragrant" ],
-
-    -- ;; nasam_1
-    -- nsm     nasam   N       breath
-    -- >nsAm   >anosAm N       breath
-    -- AnsAm   >anosAm N       breath
-
-    noun     FaCaL                     {- nasam -}          -- `others` [ "'ansAm N" ]
-                                                            `gloss`  [ "breath" ],
 
     -- ;; nasamap_1
     -- nsm     nasam   NapAt   persons;population
 
-    noun     FaCaL |< aT               {- nasamap -}        `gloss`  [ "persons", "population" ],
+    FaCaL |< aT               `noun`       {- nasamap -}        [ "persons", "population" ],
 
     -- ;; nasamap_2
     -- nsm     nasam   NapAt   breath;breeze
 
-    noun     FaCaL |< aT               {- nasamap -}        `gloss`  [ "breath", "breeze" ],
-
-    -- ;; nasiym_1
-    -- nsym    nasiym  N       fresh air;breeze
-    -- nsAm    nisAm   N       fresh air;breeze
-    -- nsA}m   nasA}im Ndip    fresh air;breeze
-
-    noun     FaCIL                     {- nasiym -}         -- `others` [ "nisAm N", "nasA'im Ndip" ]
-                                                            `gloss`  [ "fresh air", "breeze" ],
-
-    -- ;; nasiym_2
-    -- nsym    nasiym  N0      Naseem;Nasim
-
-    noun     FaCIL                     {- nasiym -}         `gloss`  [ "Naseem", "Nasim" ],
-
-    -- ;; manosim_1
-    -- mnsm    manosim Ndu     foot sole;padded foot
-    -- mnAsm   manAsim Ndip    foot soles;padded feet
-
-    noun     MaFCiL                    {- manosim -}        -- `others` [ "manAsim Ndip" ]
-                                                            `gloss`  [ "foot sole", "padded foot", "foot soles", "padded feet" ],
-
-    -- ;; mutanas~am_1
-    -- mtnsm   mutanas~am      N       place of emanation
-
-    noun     MutaFaCCaL                {- mutanas~am -}     `gloss`  [ "place of emanation" ] ]
+    FaCaL |< aT               `noun`       {- nasamap -}        [ "breath", "breeze" ] ]
 
  |> "n s n" <| [
 
     -- ;; niysAn_1
     -- nysAn   niysAn  N0      April
 
-    noun     FICAL                     {- niysAn -}         `gloss`  [ "April" ],
-
-    -- ;; niysAn_2
-    -- nysAn   niysAn  N0      Nissan
-
-    noun     FICAL                     {- niysAn -}         `gloss`  [ "Nissan" ] ]
-
- |> "n s n s" <| [
-
-    -- ;; nasonAs_1
-    -- nsnAs   nasonAs N       monkey
-    -- nsnAs   nisonAs N       monkey
-    -- nsAnys  nasAniys        Ndip    monkeys
-
-    noun     KaRDAS                    {- nasonAs -}        -- `others` [ "nisnAs N", "nasAniys Ndip" ]
-                                                            `gloss`  [ "monkey", "monkeys" ] ]
+    FICAL                     `noun`       {- niysAn -}         [ "April" ] ]
 
  |> "n s q" <| [
-
-    -- ;; nasaq-u_1
-    -- nsq     nasaq   PV      arrange;array;order
-    -- nsq     nosuq   IV      arrange;array;order
-
-    verb     FaCaL                     {- nasaq-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nsuq IV" ]
-                                                            `gloss`  [ "arrange", "array", "order" ],
-
-    -- ;; nas~aq_1
-    -- nsq     nas~aq  PV      arrange;coordinate
-    -- nsq     nas~iq  IV_yu   arrange;coordinate
-
-    verb     FaCCaL                    {- nas~aq -}         -- `others` [ "nassiq IV_yu" ]
-                                                            `gloss`  [ "arrange", "coordinate" ],
-
-    -- ;; tanas~aq_1
-    -- tnsq    tanas~aq        PV_intr be coordinated;be arranged
-    -- tnsq    tanas~aq        IV_intr be coordinated;be arranged
-
-    verb     TaFaCCaL                  {- tanas~aq -}       `gloss`  [ "be coordinated", "be arranged" ],
-
-    -- ;; tanAsaq_1
-    -- tnAsq   tanAsaq PV_intr be balanced;be proportional
-    -- tnAsq   tanAsaq IV_intr be balanced;be proportional
-
-    verb     TaFACaL                   {- tanAsaq -}        `gloss`  [ "be balanced", "be proportional" ],
-
-    -- ;; {inotasaq_1
-    -- <ntsq   {inotasaq       PV_intr be coordinated;be arranged
-    -- Antsq   {inotasaq       PV_intr be coordinated;be arranged
-    -- ntsq    notasiq IV_intr be coordinated;be arranged
-
-    verb     IFtaCaL                   {- {inotasaq -}      -- `others` [ "ntasiq IV_intr" ]
-                                                            `gloss`  [ "be coordinated", "be arranged" ],
-
-    -- ;; nasoq_1
-    -- nsq     nasoq   N       ordering;arranging;alignment
-
-    noun     FaCL                      {- nasoq -}          `gloss`  [ "ordering", "arranging", "alignment" ],
 
     -- ;; nasaq_1
     -- nsq     nasaq   Ndu     order;arrangement;symmetry
     -- nsq     nasaq   NF      in rows;in regular order     [[nasaq/ADV]]
 
-    noun     FaCaL                     {- nasaq -}          `gloss`  [ "order", "arrangement", "symmetry", "in rows", "in regular order [ [ nasaq / ADV ] ]" ],
-
-    -- ;; nasiyq_1
-    -- nsyq    nasiyq  N-ap    regular;even;uniform     [[nasiyq/ADJ]]
-
-    noun     FaCIL                     {- nasiyq -}         `gloss`  [ "regular", "even", "uniform [ [ nasiyq / ADJ ] ]" ],
+    FaCaL                     `noun`       {- nasaq -}          [ "order", "arrangement", "symmetry", "in rows", "in regular order" ],
 
     -- ;; tanosiyq_1
     -- tnsyq   tanosiyq        N/At    coordination;steering;systematic arrangement
 
-    noun     TaFCIL                    {- tanosiyq -}       `gloss`  [ "coordination", "steering", "systematic arrangement" ],
+    TaFCIL                    `noun`       {- tanosiyq -}       [ "coordination", "steering", "systematic arrangement" ],
 
     -- ;; tanosiyqiy~_1
     -- tnsyqy  tanosiyqiy~     N-ap    coordinative;steering;systematic     [[tanosiyqiy~/ADJ]]
 
-    noun     TaFCIL |< Iy              {- tanosiyqiy~ -}    `gloss`  [ "coordinative", "steering", "systematic [ [ tanosiyqiy ~ / ADJ ] ]" ],
-
-    -- ;; tanas~uq_1
-    -- tnsq    tanas~uq        N/At    uniformity;coordinated state
-
-    noun     TaFaCCuL                  {- tanas~uq -}       `gloss`  [ "uniformity", "coordinated state" ],
-
-    -- ;; tanAsuq_1
-    -- tnAsq   tanAsuq N/At    order;symmetry;harmony
-
-    noun     TaFACuL                   {- tanAsuq -}        `gloss`  [ "order", "symmetry", "harmony" ],
+    TaFCIL |< Iy              `noun`       {- tanosiyqiy~ -}    [ "coordinative", "steering", "systematic" ],
 
     -- ;; munas~iq_1
     -- mnsq    munas~iq        Nall    coordinator
 
-    noun     MuFaCCiL                  {- munas~iq -}       `gloss`  [ "coordinator" ],
+    MuFaCCiL                  `noun`       {- munas~iq -}       [ "coordinator" ],
 
     -- ;; munas~aq_1
     -- mnsq    munas~aq        N-ap    coordinated;well-arranged     [[munas~aq/ADJ]]
 
-    noun     MuFaCCaL                  {- munas~aq -}       `gloss`  [ "coordinated", "well-arranged [ [ munas ~ aq / ADJ ] ]" ],
+    MuFaCCaL                  `noun`       {- munas~aq -}       [ "coordinated", "well-arranged" ],
 
     -- ;; mutanAsiq_1
     -- mtnAsq  mutanAsiq       Nall    arranged;ordered;coordinated     [[mutanAsiq/ADJ]]
 
-    noun     MutaFACiL                 {- mutanAsiq -}      `gloss`  [ "arranged", "ordered", "coordinated [ [ mutanAsiq / ADJ ] ]" ] ]
-
- |> "n s r" <| [
-
-    -- ;; tanas~ar_1
-    -- tnsr    tanas~ar        PV_intr be torn;break
-    -- tnsr    tanas~ar        IV_intr be torn;break
-
-    verb     TaFaCCaL                  {- tanas~ar -}       `gloss`  [ "be torn", "break" ],
-
-    -- ;; {isotanosar_1
-    -- <stnsr  {isotanosar     PV_intr be aquiline
-    -- Astnsr  {isotanosar     PV_intr be aquiline
-    -- stnsr   sotanosir       IV_intr be aquiline
-
-    verb     IstaFCaL                  {- {isotanosar -}    -- `others` [ "stansir IV_intr" ]
-                                                            `gloss`  [ "be aquiline" ],
-
-    -- ;; nasor_1
-    -- nsr     nasor   N       eagle;vulture
-    -- nswr    nusuwr  N       eagles;vultures
-    -- nswr    nusuwr  Nap     eagles;vultures
-
-    noun     FaCL                      {- nasor -}          -- `others` [ "nusuwr Nap N" ]
-                                                            `gloss`  [ "eagle", "vulture", "eagles", "vultures" ],
-
-    -- ;; nasorap_1
-    -- nsr     nasor   Nap     chip;splint
-
-    noun     FaCL |< aT                {- nasorap -}        `gloss`  [ "chip", "splint" ],
-
-    -- ;; nusAriy~ap_1
-    -- nsAry   nusAriy~        Nap     eagle     [[nusAriy~/NOUN]]
-
-    noun     FuCAL |< Iy |< aT         {- nusAriy~ap -}     `gloss`  [ "eagle [ [ nusAriy ~ / NOUN ] ]" ],
-
-    -- ;; nAsuwr_1
-    -- nAswr   nAsuwr  Ndu     fistula;tumor
-    -- nwAsyr  nawAsiyr        Ndip    fistulas;tumors
-
-    noun     FACUL                     {- nAsuwr -}         -- `others` [ "nawAsiyr Ndip" ]
-                                                            `gloss`  [ "fistula", "tumor", "fistulas", "tumors" ],
-
-    -- ;; manosar_1
-    -- mnsr    manosar Ndu     gang;clique
-    -- mnAsr   manAsir Ndip    gangs;cliques
-
-    noun     MaFCaL                    {- manosar -}        -- `others` [ "manAsir Ndip" ]
-                                                            `gloss`  [ "gang", "clique", "gangs", "cliques" ],
-
-    -- ;; minosar_1
-    -- mnsr    minosar Ndu     beak
-    -- mnAsr   manAsir Ndip    beaks
-
-    noun     MiFCaL                    {- minosar -}        -- `others` [ "manAsir Ndip" ]
-                                                            `gloss`  [ "beak", "beaks" ] ]
-
- |> "n s r n" <| [
-
-    -- ;; nisoriyn_1
-    -- nsryn   nisoriyn        Nprop   Nisreen
-
-    noun     KiRDIS                    {- nisoriyn -}       `gloss`  [ "Nisreen" ],
-
-    -- ;; nisoriyn_2
-    -- nsryn   nisoriyn        N       jonquil
-
-    noun     KiRDIS                    {- nisoriyn -}       `gloss`  [ "jonquil" ] ]
-
- |> "n s t" <| [
-
-    -- ;; nAsuwt_1
-    -- nAswt   nAsuwt  N       mankind;human nature
-
-    noun     FACUL                     {- nAsuwt -}         `gloss`  [ "mankind", "human nature" ] ]
+    MutaFACiL                 `noun`       {- mutanAsiq -}      [ "arranged", "ordered", "coordinated" ] ]
 
  |> "n s w" <| [
 
     -- ;; nisowap_1
     -- nsw     nisow   Nap     women
 
-    noun     FiCL |< aT                {- nisowap -}        `gloss`  [ "women" ],
+    FiCL |< aT                `noun`       {- nisowap -}        [ "women" ],
 
     -- ;; nisA'_1
     -- nsA'    nisA'   N0_Nh   women
     -- nsA&    nisA&   Nh      women
     -- nsA}    nisA}   Nhy     women
 
-    noun     FiCA'                     {- nisA' -}          `gloss`  [ "women" ] ]
+    FiCA'                     `noun`       {- nisA' -}          [ "women" ],
 
- |> "n s w n" <| [
+    -- ;; nisA}iy~_1
+    -- nsA}y   nisA}iy~        N-ap    women's;feminist;feminine     [[nisA}iy~/ADJ]]
 
-    -- ;; nisowAn_1
-    -- nswAn   nisowAn N       women
-
-    noun     KiRDAS                    {- nisowAn -}        `gloss`  [ "women" ] ]
-
- |> "n s w y" <| [
-
-    -- ;; nisowiy~_1
-    -- nswy    nisowiy~        N-ap    women's;feminist;feminine     [[nisowiy~/ADJ]]
-
-    noun     KiRDIS                    {- nisowiy~ -}       `gloss`  [ "women 's", "feminist", "feminine [ [ nisowiy ~ / ADJ ] ]" ] ]
+    FiCA' |< Iy               `noun`       {- nisA}iy~ -}       [ "women's", "feminist", "feminine" ] ]
 
  |> "n s y" <| [
 
@@ -14919,9 +3939,9 @@ lexicon = listing "Lexicon properties"
     -- nsY     nosaY   IV_0_Pass_yu    be forgotten
     -- nsy     nosay   IV_Ann_Pass_yu  be forgotten
 
-    verb     FaCiL                     {- nasiy-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nsa IV_0hwnyn", "nas PV_w", "nsay IV_Ann IV_Ann_Pass_yu", "nsA IV_h", "nsY IV_0 IV_0_Pass_yu" ]
-                                                            `gloss`  [ "forget", "be forgotten" ],
+    FaCiL                     `verb`       {- nasiy-a -}        [ "forget", "be forgotten" ]
+                              `imperf` [ FCaL ]
+                              {- `others` [ "nsay IV_Ann IV_Ann_Pass_yu", "nsY IV_0 IV_0_Pass_yu" ] -},
 
     -- ;; >anosaY_1
     -- >nsY    >anosaY PV_0    make forget
@@ -14937,126 +3957,18 @@ lexicon = listing "Lexicon properties"
     -- nsY     nosaY   IV_0_Pass_yu    be made to forget
     -- nsy     nosay   IV_Ann_Pass_yu  be made to forget
 
-    verb     HaFCY                     {- OanosaY -}        -- `others` [ "nsY IV_0_Pass_yu", "ns IV_0hwnyn_yu", "'ans PV_ttAw", "nsay IV_Ann_Pass_yu", "'ansA PV_h", "'ansay PV_Atn", "nsiy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "make forget", "be made to forget" ],
-
-    -- ;; tanAsaY_1
-    -- tnAsY   tanAsaY PV_0    pretend to have forgotten;neglect;be oblivious of
-    -- tnAsA   tanAsA  PV_h    pretend to have forgotten;neglect;be oblivious of
-    -- tnAsy   tanAsay PV_Atn  pretend to have forgotten;neglect;be oblivious of
-    -- tnAs    tanAs   PV_ttAw pretend to have forgotten;neglect;be oblivious of
-    -- tnAsY   tanAsaY IV_0    pretend to have forgotten;neglect;be oblivious of
-    -- tnAsA   tanAsA  IV_h    pretend to have forgotten;neglect;be oblivious of
-    -- tnAsy   tanAsay IV_Ann  pretend to have forgotten;neglect;be oblivious of
-    -- tnAs    tanAs   IV_0hwnyn       pretend to have forgotten;neglect;be oblivious of
-
-    verb     TaFACY                    {- tanAsaY -}        -- `others` [ "tanAs IV_0hwnyn PV_ttAw", "tanAsay PV_Atn IV_Ann", "tanAsA PV_h IV_h" ]
-                                                            `gloss`  [ "pretend to have forgotten", "neglect", "be oblivious of" ],
-
-    -- ;; nasoy_1
-    -- nsy     nasoy   N       forgetfulness;oblivion
-
-    noun     FaCL                      {- nasoy -}          `gloss`  [ "forgetfulness", "oblivion" ],
-
-    -- ;; nasiy~_1
-    -- nsy     nasiy~  N-ap    forgetful;oblivious     [[nasiy~/ADJ]]
-
-    noun     FaCIL                     {- nasiy~ -}         `gloss`  [ "forgetful", "oblivious [ [ nasiy ~ / ADJ ] ]" ],
-
-    -- ;; nasoyAn_1
-    -- nsyAn   nasoyAn Ndip    forgetful;oblivious
-
-    noun     FaCLAn                    {- nasoyAn -}        `gloss`  [ "forgetful", "oblivious" ],
-
-    -- ;; manosiy~_1
-    -- mnsy    manosiy~        Nall    forgotten     [[manosiy~/ADJ]]
-
-    noun     MaFCIy                    {- manosiy~ -}       `gloss`  [ "forgotten [ [ manosiy ~ / ADJ ] ]" ],
-
-    -- ;; manosiy~At_1
-    -- mnsy    manosiy~        NAt     forgotten things     [[manosiy~/NOUN]]
-
-    noun     MaFCIy |< At              {- manosiy~At -}     -- `others` [ "mansiyy NAt" ]
-                                                            `gloss`  [ "forgotten things [ [ manosiy ~ / NOUN ] ]" ] ]
-
- |> "n s y n" <| [
+    HaFCY                     `verb`       {- OanosaY -}        [ "make forget", "be made to forget" ]
+                              {- `others` [ "nsay IV_Ann_Pass_yu", "'ansay PV_Atn", "nsiy IV_0hAnn_yu", "nsY IV_0_Pass_yu" ] -},
 
     -- ;; nisoyAn_1
     -- nsyAn   nisoyAn N       forgetfulness;oblivion
 
-    noun     KiRDAS                    {- nisoyAn -}        `gloss`  [ "forgetfulness", "oblivion" ] ]
+    FiCLAn                    `noun`       {- nisoyAn -}        [ "forgetfulness", "oblivion" ],
 
- |> "n t '" <| [
+    -- ;; manosiy~_1
+    -- mnsy    manosiy~        Nall    forgotten     [[manosiy~/ADJ]]
 
-    -- ;; nata>-a_1
-    -- nt>     nata>   PV->    bulge;protrude
-    -- nt|     nata|   PV-|    bulge;protrude
-    -- nt&     nata&   PV_w    bulge;protrude
-    -- nt>     nota>   IV      bulge;protrude
-    -- nt|     nota|   IV-|    bulge;protrude
-    -- nt&     nota&   IV_wn   bulge;protrude
-    -- nt}     nota}   IV_yn   bulge;protrude
-
-    verb     FaCaL                     {- nataO-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nata'A PV-|", "nta'A IV-|", "nta' IV IV_wn IV_yn" ]
-                                                            `gloss`  [ "bulge", "protrude" ],
-
-    -- ;; nato'_1
-    -- nt'     nato'   N0      bulging;protruding
-    -- nt}     nato}   NF_Nhy  bulging;protruding
-
-    noun     FaCL                      {- nato' -}          `gloss`  [ "bulging", "protruding" ],
-
-    -- ;; nato>ap_1
-    -- nt>     nato>   Napdu   hill;hillock
-
-    noun     FaCL |< aT                {- natoOap -}        `gloss`  [ "hill", "hillock" ],
-
-    -- ;; nutuw'_1
-    -- ntw'    nutuw'  N0_Nh   swelling;protrusion
-    -- ntw}    nutuw}  Nhy     swelling;protrusion
-
-    noun     FuCUL                     {- nutuw' -}         `gloss`  [ "swelling", "protrusion" ],
-
-    -- ;; nAti}_1
-    -- nAt}    nAti}   Ndu     swollen;protruding;bulging     [[nAti}/ADJ]]
-    -- nwAt}   nawAti} Ndip    swollen;protruding;bulging
-
-    noun     FACiL                     {- nAti} -}          -- `others` [ "nawAti' Ndip" ]
-                                                            `gloss`  [ "swollen", "protruding", "bulging [ [ nAti } / ADJ ] ]", "bulging" ],
-
-    -- ;; nAti}ap_1
-    -- nAt}    nAti}   Napdu   protrusion;outgrowth;elevation
-    -- nwAt}   nawAti} Ndip    protrusions;outgrowths;elevations
-
-    noun     FACiL |< aT               {- nAti}ap -}        -- `others` [ "nawAti' Ndip" ]
-                                                            `gloss`  [ "protrusion", "outgrowth", "elevation", "protrusions", "outgrowths", "elevations" ] ]
-
- |> "n t .h" <| [
-
-    -- ;; nataH-ai_1
-    -- ntH     nataH   PV      ooze from the pores;exude
-    -- ntH     notaH   IV      ooze from the pores;exude
-    -- ntH     notiH   IV      ooze from the pores;exude
-
-    verb     FaCaL                     {- nataH-ai -}       `imperf` [ FCaL, FCiL ]
-                                                            -- `others` [ "nta.h IV", "nti.h IV" ]
-                                                            `gloss`  [ "ooze from the pores", "exude" ],
-
-    -- ;; natoH_1
-    -- ntH     natoH   N       oozing;exuding
-
-    noun     FaCL                      {- natoH -}          `gloss`  [ "oozing", "exuding" ],
-
-    -- ;; nutuwH_1
-    -- ntwH    nutuwH  N       oozing;exuding
-
-    noun     FuCUL                     {- nutuwH -}         `gloss`  [ "oozing", "exuding" ],
-
-    -- ;; natoHap_1
-    -- ntH     natoH   Nap     exudation
-
-    noun     FaCL |< aT                {- natoHap -}        `gloss`  [ "exudation" ] ]
+    MaFCIy                    `noun`       {- manosiy~ -}       [ "forgotten" ] ]
 
  |> "n t ^g" <| [
 
@@ -15064,9 +3976,9 @@ lexicon = listing "Lexicon properties"
     -- ntj     nataj   PV      bring forth;result in
     -- ntj     notij   IV      bring forth;result in
 
-    verb     FaCaL                     {- nataj-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nti^g IV" ]
-                                                            `gloss`  [ "bring forth", "result in" ],
+    FaCaL                     `verb`       {- nataj-i -}        [ "bring forth", "result in" ]
+                              `imperf` [ FCiL ]
+                              {- `others` [ "nti^g IV" ] -},
 
     -- ;; >anotaj_1
     -- >ntj    >anotaj PV      produce;yield;cause
@@ -15074,452 +3986,93 @@ lexicon = listing "Lexicon properties"
     -- ntj     notij   IV_yu   produce;yield;cause
     -- ntj     notaj   IV_Pass_yu      be produced;be yielded;be caused
 
-    verb     HaFCaL                    {- Oanotaj -}        -- `others` [ "nta^g IV_Pass_yu", "nti^g IV_yu" ]
-                                                            `gloss`  [ "produce", "yield", "cause", "be produced", "be yielded", "be caused" ],
-
-    -- ;; {isotanotaj_1
-    -- <stntj  {isotanotaj     PV      conclude;infer;derive
-    -- Astntj  {isotanotaj     PV      conclude;infer;derive
-    -- stntj   sotanotij       IV      conclude;infer;derive
-
-    verb     IstaFCaL                  {- {isotanotaj -}    -- `others` [ "stanti^g IV" ]
-                                                            `gloss`  [ "conclude", "infer", "derive" ],
+    HaFCaL                    `verb`       {- Oanotaj -}        [ "produce", "yield", "cause", "be produced", "be yielded", "be caused" ]
+                              {- `others` [ "nta^g IV_Pass_yu", "nti^g IV_yu" ] -},
 
     -- ;; nitAj_1
     -- ntAj    nitAj   N       production;offspring
 
-    noun     FiCAL                     {- nitAj -}          `gloss`  [ "production", "offspring" ],
+    FiCAL                     `noun`       {- nitAj -}          [ "production", "offspring" ],
 
     -- ;; natiyjap_1
     -- ntyj    natiyj  Napdu   result;consequence
     -- ntA}j   natA}ij Ndip    results;consequences
 
-    noun     FaCIL |< aT               {- natiyjap -}       -- `others` [ "natA'i^g Ndip" ]
-                                                            `gloss`  [ "result", "consequence", "results", "consequences" ],
+    FaCIL |< aT               `noun`       {- natiyjap -}       [ "result", "consequence", "results", "consequences" ],
 
     -- ;; <inotAj_1
     -- <ntAj   <inotAj N/At    production;output
     -- AntAj   <inotAj N/At    production;output
 
-    noun     HiFCAL                    {- IinotAj -}        `gloss`  [ "production", "output" ],
+    HiFCAL                    `noun`       {- IinotAj -}        [ "production", "output" ],
 
     -- ;; <inotAjiy~_1
     -- <ntAjy  <inotAjiy~      N-ap    production;productive     [[<inotAjiy~/ADJ]]
     -- AntAjy  <inotAjiy~      N-ap    production;productive     [[<inotAjiy~/ADJ]]
 
-    noun     HiFCAL |< Iy              {- IinotAjiy~ -}     `gloss`  [ "production", "productive [ [" ],
+    HiFCAL |< Iy              `noun`       {- IinotAjiy~ -}     [ "production", "productive" ],
 
     -- ;; <inotAjiy~ap_1
     -- <ntAjy  <inotAjiy~      Nap     productivity     [[<inotAjiy~/NOUN]]
     -- AntAjy  <inotAjiy~      Nap     productivity     [[<inotAjiy~/NOUN]]
 
-    noun     HiFCAL |< Iy |< aT        {- IinotAjiy~ap -}   `gloss`  [ "productivity [ [" ],
-
-    -- ;; {isotinotAj_1
-    -- <stntAj {isotinotAj     NduAt   conclusion;deduction;inference
-    -- AstntAj {isotinotAj     NduAt   conclusion;deduction;inference
-
-    noun     IstiFCAL                  {- {isotinotAj -}    `gloss`  [ "conclusion", "deduction", "inference" ],
+    HiFCAL |< Iy |< aT        `noun`       {- IinotAjiy~ap -}   [ "productivity" ],
 
     -- ;; nAtij_1
     -- nAtj    nAtij   N-ap    resulting from;ensuing     [[nAtij/ADJ]]
 
-    noun     FACiL                     {- nAtij -}          `gloss`  [ "resulting from", "ensuing [ [ nAtij / ADJ ] ]" ],
+    FACiL                     `noun`       {- nAtij -}          [ "resulting from", "ensuing" ],
 
     -- ;; nAtij_2
     -- nAtj    nAtij   N       production;output
 
-    noun     FACiL                     {- nAtij -}          `gloss`  [ "production", "output" ],
+    FACiL                     `noun`       {- nAtij -}          [ "production", "output" ],
 
     -- ;; manotuwj_1
     -- mntwj   manotuwj        Ndu     product;production
     -- mntwj   manotuwj        NAt     products;merchandise
 
-    noun     MaFCUL                    {- manotuwj -}       `gloss`  [ "product", "production", "products", "merchandise" ],
+    MaFCUL                    `noun`       {- manotuwj -}       [ "product", "production", "products", "merchandise" ],
 
     -- ;; munotij_1
     -- mntj    munotij N-ap    productive;producing     [[munotij/ADJ]]
 
-    noun     MuFCiL                    {- munotij -}        `gloss`  [ "productive", "producing [ [ munotij / ADJ ] ]" ],
+    MuFCiL                    `noun`       {- munotij -}        [ "productive", "producing" ],
 
     -- ;; munotij_2
     -- mntj    munotij Nall    manufacturer;maker;producer
 
-    noun     MuFCiL                    {- munotij -}        `gloss`  [ "manufacturer", "maker", "producer" ],
+    MuFCiL                    `noun`       {- munotij -}        [ "manufacturer", "maker", "producer" ],
 
     -- ;; munotaj_1
     -- mntj    munotaj N-ap    produced     [[munotaj/ADJ]]
     -- mntj    munotaj Ndu     product;production
     -- mntj    munotaj NAt     products;manufactured goods
 
-    noun     MuFCaL                    {- munotaj -}        `gloss`  [ "produced [ [ munotaj / ADJ ] ]", "product", "production", "products", "manufactured goods" ],
-
-    -- ;; musotanotij_1
-    -- mstntj  musotanotij     Nall    maker;manufacturer;producer
-
-    noun     MustaFCiL                 {- musotanotij -}    `gloss`  [ "maker", "manufacturer", "producer" ] ]
-
- |> "n t ^s" <| [
-
-    -- ;; nata$_1
-    -- nt$     nata$   PV      extract;pluck out;strike
-    -- nt$     noti$   IV      extract;pluck out;strike
-
-    verb     FaCaL                     {- nata$ -}          -- `others` [ "nti^s IV" ]
-                                                            `gloss`  [ "extract", "pluck out", "strike" ],
-
-    -- ;; nato$_1
-    -- nt$     nato$   N       extracting;plucking out;striking
-
-    noun     FaCL                      {- nato$ -}          `gloss`  [ "extracting", "plucking out", "striking" ],
-
-    -- ;; minotA$_1
-    -- mntA$   minotA$ Ndu     tweezers;pincers
-
-    noun     MiFCAL                    {- minotA$ -}        `gloss`  [ "tweezers", "pincers" ] ]
-
- |> "n t `" <| [
-
-    -- ;; nataE-ui_1
-    -- ntE     nataE   PV      trickle out;bubble up
-    -- ntE     notuE   IV      trickle out;bubble up
-    -- ntE     notiE   IV      trickle out;bubble up
-
-    verb     FaCaL                     {- nataE-ui -}       `imperf` [ FCuL, FCiL ]
-                                                            -- `others` [ "ntu` IV", "nti` IV" ]
-                                                            `gloss`  [ "trickle out", "bubble up" ],
-
-    -- ;; nutuwE_1
-    -- ntwE    nutuwE  N       trickling out;bubbling up
-
-    noun     FuCUL                     {- nutuwE -}         `gloss`  [ "trickling out", "bubbling up" ] ]
-
- |> "n t f" <| [
-
-    -- ;; nataf-i_1
-    -- ntf     nataf   PV      pull out;pluck
-    -- ntf     notif   IV      pull out;pluck
-
-    verb     FaCaL                     {- nataf-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "ntif IV" ]
-                                                            `gloss`  [ "pull out", "pluck" ],
-
-    -- ;; nat~af_1
-    -- ntf     nat~af  PV      pull out;pluck
-    -- ntf     nat~if  IV_yu   pull out;pluck
-
-    verb     FaCCaL                    {- nat~af -}         -- `others` [ "nattif IV_yu" ]
-                                                            `gloss`  [ "pull out", "pluck" ],
-
-    -- ;; natof_1
-    -- ntf     natof   N       pulling out;plucking
-
-    noun     FaCL                      {- natof -}          `gloss`  [ "pulling out", "plucking" ],
-
-    -- ;; nutofap_1
-    -- ntf     nutof   Napdu   small amount;tuft of hair
-    -- ntf     nutaf   N       small amounts;tufts of hair
-
-    noun     FuCL |< aT                {- nutofap -}        -- `others` [ "nutaf N" ]
-                                                            `gloss`  [ "small amount", "tuft of hair", "small amounts", "tufts of hair" ],
-
-    -- ;; natiyf_1
-    -- ntyf    natiyf  N-ap    pulled out;plucked     [[natiyf/ADJ]]
-
-    noun     FaCIL                     {- natiyf -}         `gloss`  [ "pulled out", "plucked [ [ natiyf / ADJ ] ]" ],
-
-    -- ;; minotAf_1
-    -- mntAf   minotAf NduAt   tweezers
-
-    noun     MiFCAL                    {- minotAf -}        `gloss`  [ "tweezers" ] ]
+    MuFCaL                    `noun`       {- munotaj -}        [ "produced", "product", "production", "products", "manufactured goods" ] ]
 
  |> "n t n" <| [
-
-    -- ;; natan-i_1
-    -- ntn     natan   PV-n    stink;decompose
-    -- ntn     notin   IV-n    stink;decompose
-
-    verb     FaCaL                     {- natan-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "ntin IV-n" ]
-                                                            `gloss`  [ "stink", "decompose" ],
-
-    -- ;; natin-a_1
-    -- ntn     natin   PV-n    stink;decompose
-    -- ntn     notan   IV-n    stink;decompose
-
-    verb     FaCiL                     {- natin-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "ntan IV-n" ]
-                                                            `gloss`  [ "stink", "decompose" ],
-
-    -- ;; natun-u_1
-    -- ntn     natun   PV-n    stink;decompose
-    -- ntn     notun   IV-n    stink;decompose
-
-    verb     FaCuL                     {- natun-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "ntun IV-n" ]
-                                                            `gloss`  [ "stink", "decompose" ],
-
-    -- ;; nat~an_1
-    -- ntn     nat~an  PV-n    render putrid;cause to decay
-    -- ntn     nat~in  IV-n_yu render putrid;cause to decay
-
-    verb     FaCCaL                    {- nat~an -}         -- `others` [ "nattin IV-n_yu" ]
-                                                            `gloss`  [ "render putrid", "cause to decay" ],
-
-    -- ;; >anotan_1
-    -- >ntn    >anotan PV-n    stink;decompose;become putrid
-    -- Antn    >anotan PV-n    stink;decompose;become putrid
-    -- ntn     notin   IV-n_yu stink;decompose;become putrid
-
-    verb     HaFCaL                    {- Oanotan -}        -- `others` [ "ntin IV-n_yu" ]
-                                                            `gloss`  [ "stink", "decompose", "become putrid" ],
-
-    -- ;; naton_1
-    -- ntn     naton   N       stench;rotting;decomposition
-
-    noun     FaCL                      {- naton -}          `gloss`  [ "stench", "rotting", "decomposition" ],
-
-    -- ;; natAnap_1
-    -- ntAn    natAn   Nap     stench;rotting;decomposition
-
-    noun     FaCAL |< aT               {- natAnap -}        `gloss`  [ "stench", "rotting", "decomposition" ],
-
-    -- ;; nutuwnap_1
-    -- ntwn    nutuwn  Nap     stench;rotting;decomposition
-
-    noun     FuCUL |< aT               {- nutuwnap -}       `gloss`  [ "stench", "rotting", "decomposition" ],
 
     -- ;; natin_1
     -- ntn     natin   N-ap    stinking;rotten;decomposed
 
-    noun     FaCiL                     {- natin -}          `gloss`  [ "stinking", "rotten", "decomposed" ],
-
-    -- ;; munat~an_1
-    -- mntn    munat~an        N-ap    stinking;rotten;decomposed     [[munat~an/ADJ]]
-
-    noun     MuFaCCaL                  {- munat~an -}       `gloss`  [ "stinking", "rotten", "decomposed [ [ munat ~ an / ADJ ] ]" ],
-
-    -- ;; munotin_1
-    -- mntn    munotin N-ap    stinking;rotten;decomposed     [[munotin/ADJ]]
-
-    noun     MuFCiL                    {- munotin -}        `gloss`  [ "stinking", "rotten", "decomposed [ [ munotin / ADJ ] ]" ] ]
-
- |> "n t r" <| [
-
-    -- ;; natar-u_1
-    -- ntr     natar   PV      seize;take away
-    -- ntr     notur   IV      seize;take away
-
-    verb     FaCaL                     {- natar-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "ntur IV" ]
-                                                            `gloss`  [ "seize", "take away" ],
-
-    -- ;; nator_1
-    -- ntr     nator   N       seizing;taking away
-
-    noun     FaCL                      {- nator -}          `gloss`  [ "seizing", "taking away" ],
-
-    -- ;; nitorAt_1
-    -- ntrAt   nitorAt N       nitrate
-
-    noun     FiCL |< At                {- nitorAt -}        `gloss`  [ "nitrate" ] ]
+    FaCiL                     `noun`       {- natin -}          [ "stinking", "rotten", "decomposed" ] ]
 
  |> "n w '" <| [
-
-    -- ;; nA'-u_1
-    -- nA'     nA'     PV_V    weigh heavily;bear with difficulty;be oppressed
-    -- nA&     nA&     PV_w    weigh heavily;bear with difficulty;be oppressed
-    -- n&      nu&     PV_C    weigh heavily;bear with difficulty;be oppressed
-    -- nw'     nuw'    IV_V    weigh heavily;bear with difficulty;be oppressed
-    -- nw&     nuw&    IV_wn   weigh heavily;bear with difficulty;be oppressed
-    -- nw}     nuw}    IV_yn   weigh heavily;bear with difficulty;be oppressed
-    -- n&      nu&     IV_C    weigh heavily;bear with difficulty;be oppressed
-
-    verb     FAL                       {- nA'-u -}          `imperf` [ FCuL ]
-                                                            -- `others` [ "nu' PV_C IV_C", "nuw' IV_V IV_wn IV_yn" ]
-                                                            `gloss`  [ "weigh heavily", "bear with difficulty", "be oppressed" ],
-
-    -- ;; nAwa>_1
-    -- nAw>    nAwa>   PV      resist;oppose;compete with;contend with
-    -- nAw&    nAwa&   PV_w    resist;oppose;compete with;contend with
-    -- nAw'    nAwi'   IV_yu   resist;oppose;compete with;contend with
-    -- nAw}    nAwi}   IV_yu   resist;oppose;compete with;contend with
-    -- nAw&    nAwi&   IV_wn_yu        resist;oppose;compete with;contend with
-
-    verb     FACaL                     {- nAwaO -}          -- `others` [ "nAwi' IV_wn_yu IV_yu" ]
-                                                            `gloss`  [ "resist", "oppose", "compete with", "contend with" ],
-
-    -- ;; >anA'_1
-    -- >nA'    >anA'   PV_V    weigh down;crush
-    -- AnA'    >anA'   PV_V    weigh down;crush
-    -- >nA&    >anA&   PV_w    weigh down;crush
-    -- AnA&    >anA&   PV_w    weigh down;crush
-    -- >n>     >ana>   PV_C    weigh down;crush
-    -- An>     >ana>   PV_C    weigh down;crush
-    -- ny'     niy'    IV_V_yu weigh down;crush
-    -- ny}     niy}    IV_V_yu weigh down;crush
-    -- ny&     niy&    IV_wn_yu        weigh down;crush
-    -- n}      ni}     IV_C_yu weigh down;crush
-
-    verb     HaFAL                     {- OanA' -}          -- `others` [ "ni' IV_C_yu", "'ana' PV_C", "niy' IV_V_yu IV_wn_yu" ]
-                                                            `gloss`  [ "weigh down", "crush" ],
-
-    -- ;; nawo'_1
-    -- nw'     nawo'   N0F     storm;hurricane
-    -- nw>     nawo>   Nh      storm;hurricane
-    -- nw&     nawo&   Nh      storm;hurricane
-    -- nw}     nawo}   Nhy     storm;hurricane
-    -- >nwA'   >anowA' N0_Nh   storms;hurricanes
-    -- AnwA'   >anowA' N0_Nh   storms;hurricanes
-    -- >nwA&   >anowA& Nh      storms;hurricanes
-    -- AnwA&   >anowA& Nh      storms;hurricanes
-    -- >nwA}   >anowA} Nhy     storms;hurricanes
-    -- AnwA}   >anowA} Nhy     storms;hurricanes
-    -- nw|n    nuw|n   N       storms;hurricanes
-
-    noun     FaCL                      {- nawo' -}          -- `others` [ "nuw'An N", "'anwA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "storm", "hurricane", "storms", "hurricanes" ],
-
-    -- ;; munAwa>ap_1
-    -- mnAw>   munAwa> Napdu   resistance;opposition;insubordination
-    -- mnAw    munAwa  N-|t    resistance;opposition;insubordination
-
-    noun     MuFACaL |< aT             {- munAwaOap -}      -- `others` [ "munAwa N-|t" ]
-                                                            `gloss`  [ "resistance", "opposition", "insubordination" ],
-
-    -- ;; munAwi}_1
-    -- mnAw}   munAwi} Nall    opponent;antagonist     [[munAwi}/NOUN]]
-
-    noun     MuFACiL                   {- munAwi} -}        `gloss`  [ "opponent", "antagonist [ [ munAwi } / NOUN ] ]" ],
 
     -- ;; munAwi}_2
     -- mnAw}   munAwi} Nall    resisting;opposing     [[munAwi}/ADJ]]
 
-    noun     MuFACiL                   {- munAwi} -}        `gloss`  [ "resisting", "opposing [ [ munAwi } / ADJ ] ]" ] ]
+    MuFACiL                   `noun`       {- munAwi} -}        [ "resisting", "opposing" ] ]
 
  |> "n w .h" <| [
-
-    -- ;; nAH-u_1
-    -- nAH     nAH     PV_V    mourn
-    -- nH      nuH     PV_C    mourn
-    -- nwH     nuwH    IV_V    mourn
-    -- nH      nuH     IV_C    mourn
-    -- nyH     niyH    PV_V_Pass       be lamented;be mourned
-    -- nAH     nAH     IV_V_Pass_yu    be lamented;be mourned
-
-    verb     FAL                       {- nAH-u -}          `imperf` [ FCuL ]
-                                                            -- `others` [ "nuw.h IV_V", "nu.h PV_C IV_C", "niy.h PV_V_Pass" ]
-                                                            `gloss`  [ "mourn", "be lamented", "be mourned" ],
-
-    -- ;; nAwaH_1
-    -- nAwH    nAwaH   PV_intr be opposite;face
-    -- nAwH    nAwiH   IV_intr_yu      be opposite;face
-
-    verb     FACaL                     {- nAwaH -}          -- `others` [ "nAwi.h IV_intr_yu" ]
-                                                            `gloss`  [ "be opposite", "face" ],
-
-    -- ;; tanaw~aH_1
-    -- tnwH    tanaw~aH        PV      swing;dangle
-    -- tnwH    tanaw~aH        IV      swing;dangle
-
-    verb     TaFaCCaL                  {- tanaw~aH -}       `gloss`  [ "swing", "dangle" ],
-
-    -- ;; tanAwaH_1
-    -- tnAwH   tanAwaH PV      howl
-    -- tnAwH   tanAwaH IV      howl
-
-    verb     TaFACaL                   {- tanAwaH -}        `gloss`  [ "howl" ],
 
     -- ;; nuwH_1
     -- nwH     nuwH    N       Noah
 
-    noun     FuCL                      {- nuwH -}           `gloss`  [ "Noah" ],
-
-    -- ;; nawoH_1
-    -- nwH     nawoH   N       weeping;mourning
-    -- nwAH    nuwAH   N       weeping;mourning
-
-    noun     FaCL                      {- nawoH -}          -- `others` [ "nuwA.h N" ]
-                                                            `gloss`  [ "weeping", "mourning" ],
-
-    -- ;; naw~AH_1
-    -- nwAH    naw~AH  Nall    mourner
-
-    noun     FaCCAL                    {- naw~AH -}         `gloss`  [ "mourner" ],
-
-    -- ;; naw~AHap_1
-    -- nwAH    naw~AH  NapAt   hired female mourner
-
-    noun     FaCCAL |< aT              {- naw~AHap -}       `gloss`  [ "hired female mourner" ],
-
-    -- ;; nA}iHap_1
-    -- nA}H    nA}iH   NapAt   hired female mourner
-    -- nwA}H   nawA}iH Ndip    hired female mourners
-
-    noun     FA'iL |< aT               {- nA}iHap -}        -- `others` [ "nawA'i.h Ndip" ]
-                                                            `gloss`  [ "hired female mourner", "hired female mourners" ],
-
-    -- ;; manAHap_1
-    -- mnAH    manAH   Nap     wailing;mourning
-
-    noun     MaFAL |< aT               {- manAHap -}        `gloss`  [ "wailing", "mourning" ] ]
-
- |> "n w .s" <| [
-
-    -- ;; nAS-u_1
-    -- nAS     nAS     PV_V    avoid;dodge
-    -- nS      nuS     PV_C    avoid;dodge
-    -- nwS     nuwS    IV_V    avoid;dodge
-    -- nS      nuS     IV_C    avoid;dodge
-
-    verb     FAL                       {- nAS-u -}          `imperf` [ FCuL ]
-                                                            -- `others` [ "nuw.s IV_V", "nu.s PV_C IV_C" ]
-                                                            `gloss`  [ "avoid", "dodge" ],
-
-    -- ;; {inotAS_1
-    -- <ntAS   {inotAS PV_V    grow dim;die down
-    -- AntAS   {inotAS PV_V    grow dim;die down
-    -- <ntS    {inotaS PV_C    grow dim;die down
-    -- AntS    {inotaS PV_C    grow dim;die down
-    -- ntAS    notAS   IV_V    grow dim;die down
-    -- ntS     notaS   IV_C    grow dim;die down
-
-    verb     IFtAL                     {- {inotAS -}        -- `others` [ "nta.s IV_C", "ntA.s IV_V", "inta.s PV_C" ]
-                                                            `gloss`  [ "grow dim", "die down" ],
-
-    -- ;; nawoS_1
-    -- nwS     nawoS   N       wild ass;onager
-
-    noun     FaCL                      {- nawoS -}          `gloss`  [ "wild ass", "onager" ],
-
-    -- ;; manAS_1
-    -- mnAS    manAS   N       escape;evasion;shirking
-
-    noun     MaFAL                     {- manAS -}          `gloss`  [ "escape", "evasion", "shirking" ],
-
-    -- ;; maniyS_1
-    -- mnyS    maniyS  N       escape;evasion;shirking
-
-    noun     MaFIL                     {- maniyS -}         `gloss`  [ "escape", "evasion", "shirking" ] ]
+    FuCL                      `noun`       {- nuwH -}           [ "Noah" ] ]
 
  |> "n w .t" <| [
-
-    -- ;; nAT-u_1
-    -- nAT     nAT     PV_V    entrust;make dependent;make conditional
-    -- nT      nuT     PV_C    entrust;make dependent;make conditional
-    -- nwT     nuwT    IV_V    entrust;make dependent;make conditional
-    -- nT      nuT     IV_C    entrust;make dependent;make conditional
-
-    verb     FAL                       {- nAT-u -}          `imperf` [ FCuL ]
-                                                            -- `others` [ "nu.t PV_C IV_C", "nuw.t IV_V" ]
-                                                            `gloss`  [ "entrust", "make dependent", "make conditional" ],
-
-    -- ;; naw~aT_1
-    -- nwT     naw~aT  PV      entrust;make dependent;make conditional
-    -- nwT     naw~iT  IV_yu   entrust;make dependent;make conditional
-
-    verb     FaCCaL                    {- naw~aT -}         -- `others` [ "nawwi.t IV_yu" ]
-                                                            `gloss`  [ "entrust", "make dependent", "make conditional" ],
 
     -- ;; >anAT_1
     -- >nAT    >anAT   PV_V    entrust;make dependent;make conditional
@@ -15531,457 +4084,130 @@ lexicon = listing "Lexicon properties"
     -- nAT     nAT     IV_V_Pass_yu    be entrusted;be assigned
     -- nT      naT     IV_C_Pass_yu    be entrusted;be assigned
 
-    verb     HaFAL                     {- OanAT -}          -- `others` [ "niy.t IV_V_yu", "ni.t IV_C_yu", "na.t IV_C_Pass_yu", "nA.t IV_V_Pass_yu", "'ana.t PV_C" ]
-                                                            `gloss`  [ "entrust", "make dependent", "make conditional", "be entrusted", "be assigned" ],
-
-    -- ;; nawoT_1
-    -- nwT     nawoT   N       badge;medal;pendant
-    -- >nwAT   >anowAT N       badges;medals;pendants
-    -- AnwAT   >anowAT N       badges;medals;pendants
-    -- nyAT    niyAT   N       badges;medals;pendants
-
-    noun     FaCL                      {- nawoT -}          -- `others` [ "niyA.t N", "'anwA.t N" ]
-                                                            `gloss`  [ "badge", "medal", "pendant", "badges", "medals", "pendants" ],
-
-    -- ;; manAT_1
-    -- mnAT    manAT   N       place of suspension;anchor;object
-
-    noun     MaFAL                     {- manAT -}          `gloss`  [ "place of suspension", "anchor", "object" ],
-
-    -- ;; tanaw~uT_1
-    -- tnwT    tanaw~uT        N       weaverbird
-    -- tnwT    tunaw~iT        N       weaverbird
-
-    noun     TaFaCCuL                  {- tanaw~uT -}       -- `others` [ "tunawwi.t N" ]
-                                                            `gloss`  [ "weaverbird" ],
-
-    -- ;; manuwT_1
-    -- mnwT    manuwT  N-ap    dependent;conditional     [[manuwT/ADJ]]
-
-    noun     MaFUL                     {- manuwT -}         `gloss`  [ "dependent", "conditional [ [ manuwT / ADJ ] ]" ],
+    HaFAL                     `verb`       {- OanAT -}          [ "entrust", "make dependent", "make conditional", "be entrusted", "be assigned" ]
+                              {- `others` [ "niy.t IV_V_yu", "nA.t IV_V_Pass_yu" ] -},
 
     -- ;; munaw~aT_1
     -- mnwT    munaw~aT        Nall    entrusted;commissioned     [[munaw~aT/ADJ]]
 
-    noun     MuFaCCaL                  {- munaw~aT -}       `gloss`  [ "entrusted", "commissioned [ [ munaw ~ aT / ADJ ] ]" ],
+    MuFaCCaL                  `noun`       {- munaw~aT -}       [ "entrusted", "commissioned" ],
 
     -- ;; munAT_1
     -- mnAT    munAT   Nall    entrusted;commissioned     [[munAT/ADJ]]
 
-    noun     MuFAL                     {- munAT -}          `gloss`  [ "entrusted", "commissioned [ [ munAT / ADJ ] ]" ] ]
-
- |> "n w ^s" <| [
-
-    -- ;; nAwa$_1
-    -- nAw$    nAwa$   PV      challenge;provoke
-    -- nAw$    nAwi$   IV_yu   challenge;provoke
-
-    verb     FACaL                     {- nAwa$ -}          -- `others` [ "nAwi^s IV_yu" ]
-                                                            `gloss`  [ "challenge", "provoke" ],
-
-    -- ;; nawo$ap_1
-    -- nw$     nawo$   Nap     typhoid fever
-
-    noun     FaCL |< aT                {- nawo$ap -}        `gloss`  [ "typhoid fever" ],
-
-    -- ;; munAwa$ap_1
-    -- mnAw$   munAwa$ NapAt   provocation;skirmish
-
-    noun     MuFACaL |< aT             {- munAwa$ap -}      `gloss`  [ "provocation", "skirmish" ],
-
-    -- ;; manAwiy$_1
-    -- mnAwy$  manAwiy$        Ndip    bluish purple
-
-    noun     MaFACIL                   {- manAwiy$ -}       `gloss`  [ "bluish purple" ],
-
-    -- ;; manAwiy$iy~_1
-    -- mnAwy$y manAwiy$iy~     N-ap    bluish purple     [[manAwiy$iy~/ADJ]]
-
-    noun     MaFACIL |< Iy             {- manAwiy$iy~ -}    `gloss`  [ "bluish purple [ [ manAwiy $ iy ~ / ADJ ] ]" ] ]
+    MuFAL                     `noun`       {- munAT -}          [ "entrusted", "commissioned" ] ]
 
  |> "n w _h" <| [
-
-    -- ;; naw~ax_1
-    -- nwx     naw~ax  PV      halt for a rest;take up residence
-    -- nwx     naw~ix  IV_yu   halt for a rest;take up residence
-
-    verb     FaCCaL                    {- naw~ax -}         -- `others` [ "nawwi_h IV_yu" ]
-                                                            `gloss`  [ "halt for a rest", "take up residence" ],
-
-    -- ;; >anAx_1
-    -- >nAx    >anAx   PV_V    stay;remain;weigh heavily
-    -- AnAx    >anAx   PV_V    stay;remain;weigh heavily
-    -- >nx     >anax   PV_C    stay;remain;weigh heavily
-    -- Anx     >anax   PV_C    stay;remain;weigh heavily
-    -- nyx     niyx    IV_V_yu stay;remain;weigh heavily
-    -- nx      nix     IV_C_yu stay;remain;weigh heavily
-    -- nAx     nAx     IV_V_Pass_yu    stay;remain;weigh heavily
-    -- nx      nax     IV_C_Pass_yu    stay;remain;weigh heavily
-
-    verb     HaFAL                     {- OanAx -}          -- `others` [ "ni_h IV_C_yu", "na_h IV_C_Pass_yu", "niy_h IV_V_yu", "nA_h IV_V_Pass_yu", "'ana_h PV_C" ]
-                                                            `gloss`  [ "stay", "remain", "weigh heavily" ],
-
-    -- ;; {isotanAx_1
-    -- <stnAx  {isotanAx       PV_V    kneel down
-    -- AstnAx  {isotanAx       PV_V    kneel down
-    -- <stnx   {isotanax       PV_C    kneel down
-    -- Astnx   {isotanax       PV_C    kneel down
-    -- stnyx   sotaniyx        IV_V    kneel down
-    -- stnx    sotanix IV_C    kneel down
-
-    verb     IstaFAL                   {- {isotanAx -}      -- `others` [ "staniy_h IV_V", "istana_h PV_C", "stani_h IV_C" ]
-                                                            `gloss`  [ "kneel down" ],
 
     -- ;; munAx_1
     -- mnAx    munAx   NduAt   climate;atmosphere
     -- mnAx    manAx   NduAt   climate;atmosphere
 
-    noun     MuFAL                     {- munAx -}          -- `others` [ "manA_h NduAt" ]
-                                                            `gloss`  [ "climate", "atmosphere" ],
-
-    -- ;; manAx_2
-    -- mnAx    manAx   N0      Manakh
-
-    noun     MaFAL                     {- manAx -}          `gloss`  [ "Manakh" ],
+    MuFAL                     `noun`       {- munAx -}          [ "climate", "atmosphere" ]
+                              `plural`     MaFAL |< At
+                              {- `others` [ "manA_h NduAt" ] -},
 
     -- ;; munAxiy~_1
     -- mnAxy   munAxiy~        N-ap    climatic     [[munAxiy~/ADJ]]
     -- mnAxy   manAxiy~        N-ap    climatic     [[manAxiy~/ADJ]]
 
-    noun     MuFAL |< Iy               {- munAxiy~ -}       -- `others` [ "manA_hiyy N-ap" ]
-                                                            `gloss`  [ "climatic [ [ munAxiy ~ / ADJ ] ]", "climatic [ [ manAxiy ~ / ADJ ] ]" ] ]
+    MuFAL |< Iy               `noun`       {- munAxiy~ -}       [ "climatic" ] ]
 
  |> "n w `" <| [
-
-    -- ;; naw~aE_1
-    -- nwE     naw~aE  PV      diversify
-    -- nwE     naw~iE  IV_yu   diversify
-
-    verb     FaCCaL                    {- naw~aE -}         -- `others` [ "nawwi` IV_yu" ]
-                                                            `gloss`  [ "diversify" ],
 
     -- ;; tanaw~aE_1
     -- tnwE    tanaw~aE        PV_intr be variegated;be diverse;be complex
     -- tnwE    tanaw~aE        IV_intr be variegated;be diverse;be complex
 
-    verb     TaFaCCaL                  {- tanaw~aE -}       `gloss`  [ "be variegated", "be diverse", "be complex" ],
+    TaFaCCaL                  `verb`       {- tanaw~aE -}       [ "be variegated", "be diverse", "be complex" ],
 
     -- ;; nawoE_1
     -- nwE     nawoE   Ndu     type;kind;form
     -- >nwAE   >anowAE N       types;kinds;forms
     -- AnwAE   >anowAE N       types;kinds;forms
 
-    noun     FaCL                      {- nawoE -}          -- `others` [ "'anwA` N" ]
-                                                            `gloss`  [ "type", "kind", "form", "types", "kinds", "forms" ],
+    FaCL                      `noun`       {- nawoE -}          [ "type", "kind", "form", "types", "kinds", "forms" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'anwA` N" ] -},
 
     -- ;; nawoEiy~_1
     -- nwEy    nawoEiy~        N-ap    type;characteristic;specific     [[nawoEiy~/ADJ]]
 
-    noun     FaCL |< Iy                {- nawoEiy~ -}       `gloss`  [ "type", "characteristic", "specific [ [ nawoEiy ~ / ADJ ] ]" ],
+    FaCL |< Iy                `noun`       {- nawoEiy~ -}       [ "type", "characteristic", "specific" ],
 
     -- ;; nawoEiy~ap_1
     -- nwEy    nawoEiy~        NapAt   characteristic;peculiar quality     [[nawoEiy~/NOUN]]
 
-    noun     FaCL |< Iy |< aT          {- nawoEiy~ap -}     `gloss`  [ "characteristic", "peculiar quality [ [ nawoEiy ~ / NOUN ] ]" ],
+    FaCL |< Iy |< aT          `noun`       {- nawoEiy~ap -}     [ "characteristic", "peculiar quality" ],
 
     -- ;; tanowiyE_1
     -- tnwyE   tanowiyE        N       diversification
 
-    noun     TaFCIL                    {- tanowiyE -}       `gloss`  [ "diversification" ],
-
-    -- ;; tanowiyEAt_1
-    -- tnwyE   tanowiyE        NAt     miscellany;mixture
-
-    noun     TaFCIL |< At              {- tanowiyEAt -}     -- `others` [ "tanwiy` NAt" ]
-                                                            `gloss`  [ "miscellany", "mixture" ],
+    TaFCIL                    `noun`       {- tanowiyE -}       [ "diversification" ],
 
     -- ;; tanaw~uE_1
     -- tnwE    tanaw~uE        N/At    variety;diversity
 
-    noun     TaFaCCuL                  {- tanaw~uE -}       `gloss`  [ "variety", "diversity" ],
+    TaFaCCuL                  `noun`       {- tanaw~uE -}       [ "variety", "diversity" ],
 
     -- ;; munaw~aE_1
     -- mnwE    munaw~aE        N-ap    diverse;mixed     [[munaw~aE/ADJ]]
 
-    noun     MuFaCCaL                  {- munaw~aE -}       `gloss`  [ "diverse", "mixed [ [ munaw ~ aE / ADJ ] ]" ],
-
-    -- ;; munaw~aE_2
-    -- mnwE    munaw~aE        NAt     miscellany;medley
-
-    noun     MuFaCCaL                  {- munaw~aE -}       `gloss`  [ "miscellany", "medley" ],
+    MuFaCCaL                  `noun`       {- munaw~aE -}       [ "diverse", "mixed" ],
 
     -- ;; mutanaw~iE_1
     -- mtnwE   mutanaw~iE      N-ap    diverse;sundry;various     [[mutanaw~iE/ADJ]]
 
-    noun     MutaFaCCiL                {- mutanaw~iE -}     `gloss`  [ "diverse", "sundry", "various [ [ mutanaw ~ iE / ADJ ] ]" ],
-
-    -- ;; mutanaw~iE_2
-    -- mtnwE   mutanaw~iE      NAt     miscellany;diverse items
-
-    noun     MutaFaCCiL                {- mutanaw~iE -}     `gloss`  [ "miscellany", "diverse items" ] ]
+    MutaFaCCiL                `noun`       {- mutanaw~iE -}     [ "diverse", "sundry", "various" ] ]
 
  |> "n w b" <| [
-
-    -- ;; nAb-u_1
-    -- nAb     nAb     PV_V    represent;substitute
-    -- nb      nub     PV_C    represent;substitute
-    -- nwb     nuwb    IV_V    represent;substitute
-    -- nb      nub     IV_C    represent;substitute
-
-    verb     FAL                       {- nAb-u -}          `imperf` [ FCuL ]
-                                                            -- `others` [ "nuwb IV_V", "nub PV_C IV_C" ]
-                                                            `gloss`  [ "represent", "substitute" ],
-
-    -- ;; naw~ab_1
-    -- nwb     naw~ab  PV      appoint as deputy;deputize
-    -- nwb     naw~ib  IV_yu   appoint as deputy;deputize
-
-    verb     FaCCaL                    {- naw~ab -}         -- `others` [ "nawwib IV_yu" ]
-                                                            `gloss`  [ "appoint as deputy", "deputize" ],
-
-    -- ;; nAwab_1
-    -- nAwb    nAwab   PV      alternate;take turns
-    -- nAwb    nAwib   IV_yu   alternate;take turns
-
-    verb     FACaL                     {- nAwab -}          -- `others` [ "nAwib IV_yu" ]
-                                                            `gloss`  [ "alternate", "take turns" ],
-
-    -- ;; >anAb_1
-    -- >nAb    >anAb   PV_V    deputize;authorize
-    -- AnAb    >anAb   PV_V    deputize;authorize
-    -- >nb     >anab   PV_C    deputize;authorize
-    -- Anb     >anab   PV_C    deputize;authorize
-    -- nyb     niyb    IV_V_yu deputize;authorize
-    -- nb      nib     IV_C_yu deputize;authorize
-    -- nAb     nAb     IV_V_Pass_yu    be deputized;be replaced
-    -- nb      nab     IV_C_Pass_yu    be deputized;be replaced
-
-    verb     HaFAL                     {- OanAb -}          -- `others` [ "nAb IV_V_Pass_yu", "nib IV_C_yu", "nab IV_C_Pass_yu", "'anab PV_C", "niyb IV_V_yu" ]
-                                                            `gloss`  [ "deputize", "authorize", "be deputized", "be replaced" ],
-
-    -- ;; tanAwab_1
-    -- tnAwb   tanAwab PV      alternate;take turns
-    -- tnAwb   tanAwab IV      alternate;take turns
-
-    verb     TaFACaL                   {- tanAwab -}        `gloss`  [ "alternate", "take turns" ],
-
-    -- ;; {inotAb_1
-    -- <ntAb   {inotAb PV_V    afflict;happen
-    -- AntAb   {inotAb PV_V    afflict;happen
-    -- <ntb    {inotab PV_C    afflict;happen
-    -- Antb    {inotab PV_C    afflict;happen
-    -- ntAb    notAb   IV_V    afflict;happen
-    -- ntb     notab   IV_C    afflict;happen
-
-    verb     IFtAL                     {- {inotAb -}        -- `others` [ "ntab IV_C", "intab PV_C", "ntAb IV_V" ]
-                                                            `gloss`  [ "afflict", "happen" ],
-
-    -- ;; nawobap_1
-    -- nwb     nawob   NapAt   attack;crisis
-
-    noun     FaCL |< aT                {- nawobap -}        `gloss`  [ "attack", "crisis" ],
-
-    -- ;; nawobap_2
-    -- nwb     nawob   Napdu   alternation;rotation;turn
-    -- nwb     nuwab   N       alternations;rotations
-
-    noun     FaCL |< aT                {- nawobap -}        -- `others` [ "nuwab N" ]
-                                                            `gloss`  [ "alternation", "rotation", "turn", "alternations", "rotations" ],
-
-    -- ;; nuwbap_1
-    -- nwb     nuwb    Nap     mishap
-    -- nwb     nuwab   N       mishaps
-
-    noun     FuCL |< aT                {- nuwbap -}         -- `others` [ "nuwab N" ]
-                                                            `gloss`  [ "mishap", "mishaps" ],
-
-    -- ;; manAb_1
-    -- mnAb    manAb   N       replacement;deputyship
-
-    noun     MaFAL                     {- manAb -}          `gloss`  [ "replacement", "deputyship" ],
-
-    -- ;; munAwabap_1
-    -- mnAwb   munAwab NapAt   alternation;rotation
-
-    noun     MuFACaL |< aT             {- munAwabap -}      `gloss`  [ "alternation", "rotation" ],
 
     -- ;; <inAbap_1
     -- <nAb    <inAb   NapAt   deputization;authorization
     -- AnAb    <inAb   NapAt   deputization;authorization
 
-    noun     HiFAL |< aT               {- IinAbap -}        `gloss`  [ "deputization", "authorization" ],
+    HiFAL |< aT               `noun`       {- IinAbap -}        [ "deputization", "authorization" ],
 
     -- ;; tanAwub_1
     -- tnAwb   tanAwub N/At    alternation;rotation
 
-    noun     TaFACuL                   {- tanAwub -}        `gloss`  [ "alternation", "rotation" ],
+    TaFACuL                   `noun`       {- tanAwub -}        [ "alternation", "rotation" ],
 
     -- ;; nA}ib_1
     -- nA}b    nA}ib   N/ap    deputy;delegate;vice-
     -- nwAb    nuw~Ab  N       deputies;delegates
 
-    noun     FA'iL                     {- nA}ib -}          -- `others` [ "nuwwAb N" ]
-                                                            `gloss`  [ "deputy", "delegate", "vice-", "deputies", "delegates" ],
-
-    -- ;; nA}ibap_1
-    -- nA}b    nA}ib   Napdu   misfortune
-    -- nwA}b   nawA}ib Ndip    vicissitudes
-
-    noun     FA'iL |< aT               {- nA}ibap -}        -- `others` [ "nawA'ib Ndip" ]
-                                                            `gloss`  [ "misfortune", "vicissitudes" ],
-
-    -- ;; munaw~ib_1
-    -- mnwb    munaw~ib        Nall    constituent;voter
-
-    noun     MuFaCCiL                  {- munaw~ib -}       `gloss`  [ "constituent", "voter" ],
-
-    -- ;; munaw~ab_1
-    -- mnwb    munaw~ab        Nall    on duty;deputized
-
-    noun     MuFaCCaL                  {- munaw~ab -}       `gloss`  [ "on duty", "deputized" ],
+    FA'iL                     `noun`       {- nA}ib -}          [ "deputy", "delegate", "vice-", "deputies", "delegates" ]
+                              `plural`     FuCCAL
+                              `plural`     FUCAL
+                              {- `others` [ "nuwwAb N" ] -},
 
     -- ;; munAwib_1
     -- mnAwb   munAwib Nall    on duty;on call
 
-    noun     MuFACiL                   {- munAwib -}        `gloss`  [ "on duty", "on call" ],
-
-    -- ;; muniyb_1
-    -- mnyb    muniyb  Nall    repentant
-
-    noun     MuFIL                     {- muniyb -}         `gloss`  [ "repentant" ],
-
-    -- ;; mutanAwib_1
-    -- mtnAwb  mutanAwib       Nall    alternating;rotating
-
-    noun     MutaFACiL                 {- mutanAwib -}      `gloss`  [ "alternating", "rotating" ],
-
-    -- ;; mutanAwib_2
-    -- mtnAwb  mutanAwib       N-ap    rotational;in shifts
-
-    noun     MutaFACiL                 {- mutanAwib -}      `gloss`  [ "rotational", "in shifts" ],
+    MuFACiL                   `noun`       {- munAwib -}        [ "on duty", "on call" ],
 
     -- ;; nuwbiy~_1
     -- nwby    nuwbiy~ Nall    Nubian     [[nuwbiy~/NOUN]]
     -- nwby    nuwbiy~ Nall    Nubian     [[nuwbiy~/ADJ]]
     -- nwb     nuwb    Nap     Nubians
 
-    noun     FuCL |< Iy                {- nuwbiy~ -}        -- `others` [ "nuwb Nap" ]
-                                                            `gloss`  [ "Nubian [ [ nuwbiy ~ / NOUN ] ]", "Nubian [ [ nuwbiy ~ / ADJ ] ]", "Nubians" ] ]
-
- |> "n w d" <| [
-
-    -- ;; nAd-u_1
-    -- nAd     nAd     PV_V    sway;swing
-    -- nd      nud     PV_C    sway;swing
-    -- nwd     nuwd    IV_V    sway;swing
-    -- nd      nud     IV_C    sway;swing
-
-    verb     FAL                       {- nAd-u -}          `imperf` [ FCuL ]
-                                                            -- `others` [ "nuwd IV_V", "nud PV_C IV_C" ]
-                                                            `gloss`  [ "sway", "swing" ],
-
-    -- ;; tanaw~ad_1
-    -- tnwd    tanaw~ad        PV      sway;swing
-    -- tnwd    tanaw~ad        IV      sway;swing
-
-    verb     TaFaCCaL                  {- tanaw~ad -}       `gloss`  [ "sway", "swing" ],
-
-    -- ;; nawod_1
-    -- nwd     nawod   N       swaying;swinging
-
-    noun     FaCL                      {- nawod -}          `gloss`  [ "swaying", "swinging" ],
-
-    -- ;; nuwAd_1
-    -- nwAd    nuwAd   N       swaying;swinging
-
-    noun     FuCAL                     {- nuwAd -}          `gloss`  [ "swaying", "swinging" ],
-
-    -- ;; nawadAn_1
-    -- nwdAn   nawadAn N       swaying;swinging
-
-    noun     FaCaLAn                   {- nawadAn -}        `gloss`  [ "swaying", "swinging" ] ]
+    FuCL |< Iy                `noun`       {- nuwbiy~ -}        [ "Nubian", "Nubians" ]
+                              `plural`     FUL |< aT
+                              `plural`     FuCL |< aT
+                              {- `others` [ "nuwb Nap" ] -} ]
 
  |> "n w f" <| [
-
-    -- ;; nAf-u_1
-    -- nAf     nAf     PV_V    exceed
-    -- nf      nuf     PV_C    exceed
-    -- nwf     nuwf    IV_V    exceed
-    -- nf      nuf     IV_C    exceed
-
-    verb     FAL                       {- nAf-u -}          `imperf` [ FCuL ]
-                                                            -- `others` [ "nuf PV_C IV_C", "nuwf IV_V" ]
-                                                            `gloss`  [ "exceed" ],
-
-    -- ;; >anAf_1
-    -- >nAf    >anAf   PV_V    exceed
-    -- AnAf    >anAf   PV_V    exceed
-    -- >nf     >anaf   PV_C    exceed
-    -- Anf     >anaf   PV_C    exceed
-    -- nyf     niyf    IV_V_yu exceed
-    -- nf      nif     IV_C_yu exceed
-    -- nAf     nAf     IV_V_Pass_yu    be exceeded
-    -- nf      naf     IV_C_Pass_yu    be exceeded
-
-    verb     HaFAL                     {- OanAf -}          -- `others` [ "niyf IV_V_yu", "nif IV_C_yu", "naf IV_C_Pass_yu", "nAf IV_V_Pass_yu", "'anaf PV_C" ]
-                                                            `gloss`  [ "exceed", "be exceeded" ],
-
-    -- ;; nAf_1
-    -- nAf     nAf     N       yoke
-
-    noun     FAL                       {- nAf -}            `gloss`  [ "yoke" ],
-
-    -- ;; nawof_1
-    -- nwf     nawof   Ndu     surplus;excess
-    -- >nwAf   >anowAf N       surplus;excess
-    -- AnwAf   >anowAf N       surplus;excess
-
-    noun     FaCL                      {- nawof -}          -- `others` [ "'anwAf N" ]
-                                                            `gloss`  [ "surplus", "excess" ],
-
-    -- ;; nawAf_1
-    -- nwAf    nawAf   Nprop   Nawaf
-
-    noun     FaCAL                     {- nawAf -}          `gloss`  [ "Nawaf" ],
 
     -- ;; manuwfiy~ap_1
     -- mnwfy   manuwfiy~       Nap     Manoufiya
 
-    noun     MaFUL |< Iy |< aT         {- manuwfiy~ap -}    `gloss`  [ "Manoufiya" ],
+    MaFUL |< Iy |< aT         `noun`       {- manuwfiy~ap -}    [ "Manoufiya" ],
 
     -- ;; manuwfiy~_1
     -- mnwfy   manuwfiy~       N0      Manoufi
 
-    noun     MaFUL |< Iy               {- manuwfiy~ -}      `gloss`  [ "Manoufi" ],
-
-    -- ;; manuwfiy~_2
-    -- mnwfy   manuwfiy~       Nall    of/from Manoufiya
-
-    noun     MaFUL |< Iy               {- manuwfiy~ -}      `gloss`  [ "of / from Manoufiya" ],
-
-    -- ;; muniyf_1
-    -- mnyf    muniyf  Nall    lofty;sublime;outstanding
-
-    noun     MuFIL                     {- muniyf -}         `gloss`  [ "lofty", "sublime", "outstanding" ],
-
-    -- ;; muniyf_2
-    -- mnyf    muniyf  N0      Mounif;Muneef
-
-    noun     MuFIL                     {- muniyf -}         `gloss`  [ "Mounif", "Muneef" ] ]
-
- |> "n w f l" <| [
-
-    -- ;; nuwfiyl_1
-    -- nwfyl   nuwfiyl Nprop   Novell
-
-    noun     KuRDIS                    {- nuwfiyl -}        `gloss`  [ "Novell" ] ]
-
- |> "n w f r" <| [
-
-    -- ;; nawofarap_1
-    -- nwfr    nawofar NapAt   fountain
-
-    noun     KaRDaS |< aT              {- nawofarap -}      `gloss`  [ "fountain" ] ]
+    MaFUL |< Iy               `noun`       {- manuwfiy~ -}      [ "Manoufi" ] ]
 
  |> "n w h" <| [
 
@@ -15989,108 +4215,53 @@ lexicon = listing "Lexicon properties"
     -- nwh     naw~ah  PV      allude;mention;praise
     -- nwh     naw~ih  IV_yu   allude;mention;praise
 
-    verb     FaCCaL                    {- naw~ah -}         -- `others` [ "nawwih IV_yu" ]
-                                                            `gloss`  [ "allude", "mention", "praise" ],
+    FaCCaL                    `verb`       {- naw~ah -}         [ "allude", "mention", "praise" ]
+                              {- `others` [ "nawwih IV_yu" ] -},
 
     -- ;; tanowiyh_1
     -- tnwyh   tanowiyh        N/At    allusion;mention;praise
 
-    noun     TaFCIL                    {- tanowiyh -}       `gloss`  [ "allusion", "mention", "praise" ] ]
+    TaFCIL                    `noun`       {- tanowiyh -}       [ "allusion", "mention", "praise" ] ]
 
  |> "n w l" <| [
-
-    -- ;; nAl-u_1
-    -- nAl     nAl     PV_V    grant;confer
-    -- nl      nul     PV_C    grant;confer
-    -- nwl     nuwl    IV_V    grant;confer
-    -- nl      nul     IV_C    grant;confer
-
-    verb     FAL                       {- nAl-u -}          `imperf` [ FCuL ]
-                                                            -- `others` [ "nuwl IV_V", "nul PV_C IV_C" ]
-                                                            `gloss`  [ "grant", "confer" ],
-
-    -- ;; naw~al_1
-    -- nwl     naw~al  PV      let obtain
-    -- nwl     naw~il  IV_yu   let obtain
-
-    verb     FaCCaL                    {- naw~al -}         -- `others` [ "nawwil IV_yu" ]
-                                                            `gloss`  [ "let obtain" ],
 
     -- ;; nAwal_1
     -- nAwl    nAwal   PV      hand over;deliver
     -- nAwl    nAwil   IV_yu   hand over;deliver
 
-    verb     FACaL                     {- nAwal -}          -- `others` [ "nAwil IV_yu" ]
-                                                            `gloss`  [ "hand over", "deliver" ],
+    FACaL                     `verb`       {- nAwal -}          [ "hand over", "deliver" ]
+                              {- `others` [ "nAwil IV_yu" ] -},
 
     -- ;; tanAwal_1
     -- tnAwl   tanAwal PV      deal with;eat
     -- tnAwl   tanAwal IV      deal with;eat
 
-    verb     TaFACaL                   {- tanAwal -}        `gloss`  [ "deal with", "eat" ],
-
-    -- ;; nawol_1
-    -- nwl     nawol   N       gift;award
-    -- >nwAl   >anowAl N       gift;award
-    -- AnwAl   >anowAl N       gift;award
-
-    noun     FaCL                      {- nawol -}          -- `others` [ "'anwAl N" ]
-                                                            `gloss`  [ "gift", "award" ],
+    TaFACaL                   `verb`       {- tanAwal -}        [ "deal with", "eat" ],
 
     -- ;; nawAl_1
     -- nwAl    nawAl   N0      Nawal
 
-    noun     FaCAL                     {- nawAl -}          `gloss`  [ "Nawal" ],
-
-    -- ;; nawAl_2
-    -- nwAl    nawAl   N       favor;benefit
-
-    noun     FaCAL                     {- nawAl -}          `gloss`  [ "favor", "benefit" ],
-
-    -- ;; nawAl_3
-    -- nwAl    nawAl   N       duty;obligation
-
-    noun     FaCAL                     {- nawAl -}          `gloss`  [ "duty", "obligation" ],
+    FaCAL                     `noun`       {- nawAl -}          [ "Nawal" ],
 
     -- ;; munAwalap_1
     -- mnAwl   munAwal NapAt   handing over;delivery
 
-    noun     MuFACaL |< aT             {- munAwalap -}      `gloss`  [ "handing over", "delivery" ],
+    MuFACaL |< aT             `noun`       {- munAwalap -}      [ "handing over", "delivery" ],
 
     -- ;; tanAwul_1
     -- tnAwl   tanAwul N/At    dealing with;eating
 
-    noun     TaFACuL                   {- tanAwul -}        `gloss`  [ "dealing with", "eating" ],
-
-    -- ;; mutanAwil_1
-    -- mtnAwl  mutanAwil       Nall    dealing with;eating
-
-    noun     MutaFACiL                 {- mutanAwil -}      `gloss`  [ "dealing with", "eating" ],
+    TaFACuL                   `noun`       {- tanAwul -}        [ "dealing with", "eating" ],
 
     -- ;; mutanAwal_1
     -- mtnAwl  mutanAwal       N       available;within reach
 
-    noun     MutaFACaL                 {- mutanAwal -}      `gloss`  [ "available", "within reach" ],
-
-    -- ;; minowal_1
-    -- mnwl    minowal N       loom
-
-    noun     MiFCaL                    {- minowal -}        `gloss`  [ "loom" ],
+    MutaFACaL                 `noun`       {- mutanAwal -}      [ "available", "within reach" ],
 
     -- ;; minowAl_1
     -- mnwAl   minowAl N       manner;fashion
 
-    noun     MiFCAL                    {- minowAl -}        `gloss`  [ "manner", "fashion" ] ]
-
- |> "n w l n" <| [
-
-    -- ;; nawoluwn_1
-    -- nwlwn   nawoluwn        Ndu     freight;freightage
-    -- nAwlwn  nAwuluwn        N0      freight;freightage
-    -- nwAlyn  nawAliyn        Ndip    freight;freightage
-
-    noun     KaRDUS                    {- nawoluwn -}       -- `others` [ "nAwuluwn N0", "nawAliyn Ndip" ]
-                                                            `gloss`  [ "freight", "freightage" ] ]
+    MiFCAL                    `noun`       {- minowAl -}        [ "manner", "fashion" ] ]
 
  |> "n w m" <| [
 
@@ -16100,138 +4271,25 @@ lexicon = listing "Lexicon properties"
     -- nAm     nAm     IV_V    sleep;lie down
     -- nm      nam     IV_C    sleep;lie down
 
-    verb     FAL                       {- nAm-a -}          `imperf` [ FCaL ]
-                                                            -- `others` [ "nim PV_C", "nam IV_C" ]
-                                                            `gloss`  [ "sleep", "lie down" ],
-
-    -- ;; naw~am_1
-    -- nwm     naw~am  PV      lull to sleep;lay down;anesthetize
-    -- nwm     naw~im  IV_yu   lull to sleep;lay down;anesthetize
-
-    verb     FaCCaL                    {- naw~am -}         -- `others` [ "nawwim IV_yu" ]
-                                                            `gloss`  [ "lull to sleep", "lay down", "anesthetize" ],
-
-    -- ;; >anAm_1
-    -- >nAm    >anAm   PV_V    make sleep;lay down;anesthetize
-    -- AnAm    >anAm   PV_V    make sleep;lay down;anesthetize
-    -- >nm     >anam   PV_C    make sleep;lay down;anesthetize
-    -- Anm     >anam   PV_C    make sleep;lay down;anesthetize
-    -- nym     niym    IV_V_yu make sleep;lay down;anesthetize
-    -- nm      nim     IV_C_yu make sleep;lay down;anesthetize
-    -- nAm     nAm     IV_V_Pass_yu    be put to sleep;be anesthetized
-    -- nm      nam     IV_C_Pass_yu    be put to sleep;be anesthetized
-
-    verb     HaFAL                     {- OanAm -}          -- `others` [ "niym IV_V_yu", "'anam PV_C", "nim IV_C_yu", "nAm IV_V_Pass_yu", "nam IV_C_Pass_yu" ]
-                                                            `gloss`  [ "make sleep", "lay down", "anesthetize", "be put to sleep", "be anesthetized" ],
-
-    -- ;; tanAwam_1
-    -- tnAwm   tanAwam PV      look sleepy;pretend to be asleep
-    -- tnAwm   tanAwam IV      look sleepy;pretend to be asleep
-
-    verb     TaFACaL                   {- tanAwam -}        `gloss`  [ "look sleepy", "pretend to be asleep" ],
-
-    -- ;; {isotanAm_1
-    -- <stnAm  {isotanAm       PV_V_intr       be lulled to sleep;comply;trust
-    -- AstnAm  {isotanAm       PV_V_intr       be lulled to sleep;comply;trust
-    -- <stnm   {isotanam       PV_C_intr       be lulled to sleep;comply;trust
-    -- Astnm   {isotanam       PV_C_intr       be lulled to sleep;comply;trust
-    -- stnym   sotaniym        IV_V_intr       be lulled to sleep;comply;trust
-    -- stnm    sotanim IV_C_intr       be lulled to sleep;comply;trust
-
-    verb     IstaFAL                   {- {isotanAm -}      -- `others` [ "staniym IV_V_intr", "stanim IV_C_intr", "istanam PV_C_intr" ]
-                                                            `gloss`  [ "be lulled to sleep", "comply", "trust" ],
+    FAL                       `verb`       {- nAm-a -}          [ "sleep", "lie down" ]
+                              `imperf` [ FCaL ],
 
     -- ;; nawom_1
     -- nwm     nawom   N       sleep
 
-    noun     FaCL                      {- nawom -}          `gloss`  [ "sleep" ],
-
-    -- ;; nawomiy~_1
-    -- nwmy    nawomiy~        N-ap    sleep;sleeping     [[nawomiy~/ADJ]]
-
-    noun     FaCL |< Iy                {- nawomiy~ -}       `gloss`  [ "sleep", "sleeping [ [ nawomiy ~ / ADJ ] ]" ],
-
-    -- ;; nawomap_1
-    -- nwm     nawom   Nap     sleep;nap
-
-    noun     FaCL |< aT                {- nawomap -}        `gloss`  [ "sleep", "nap" ],
-
-    -- ;; nuwamap_1
-    -- nwm     nuwam   Nap     sleeper
-
-    noun     FuCaL |< aT               {- nuwamap -}        `gloss`  [ "sleeper" ],
-
-    -- ;; naw~Am_1
-    -- nwAm    naw~Am  Nall    sleeper
-
-    noun     FaCCAL                    {- naw~Am -}         `gloss`  [ "sleeper" ],
-
-    -- ;; manAm_1
-    -- mnAm    manAm   N       sleep;dormitory
-
-    noun     MaFAL                     {- manAm -}          `gloss`  [ "sleep", "dormitory" ],
-
-    -- ;; manAm_2
-    -- mnAm    manAm   NduAt   dream
-
-    noun     MaFAL                     {- manAm -}          `gloss`  [ "dream" ],
+    FaCL                      `noun`       {- nawom -}          [ "sleep" ],
 
     -- ;; manAmap_1
     -- mnAm    manAm   Nap     Manama
 
-    noun     MaFAL |< aT               {- manAmap -}        `gloss`  [ "Manama" ],
+    MaFAL |< aT               `noun`       {- manAmap -}        [ "Manama" ],
 
     -- ;; manAmap_2
     -- mnAm    manAm   Napdu   dormitory
 
-    noun     MaFAL |< aT               {- manAmap -}        `gloss`  [ "dormitory" ],
-
-    -- ;; tanowiym_1
-    -- tnwym   tanowiym        N/At    anesthetization
-    -- tnwym   tanowiym        N/At    hypnosis
-    -- tnwym   tanowiym        N/At    lulling to sleep
-
-    noun     TaFCIL                    {- tanowiym -}       `gloss`  [ "anesthetization", "hypnosis", "lulling to sleep" ],
-
-    -- ;; nA}im_1
-    -- nA}m    nA}im   Nall    sleeping;asleep     [[nA}im/ADJ]]
-    -- nyAm    niyAm   N       sleeping;asleep
-    -- nwm     nuw~am  N       sleeping;asleep
-    -- nym     nuy~am  N       sleeping;asleep
-    -- nwAm    nuw~Am  N       sleeping;asleep
-    -- nyAm    nuy~Am  N       sleeping;asleep
-
-    noun     FA'iL                     {- nA}im -}          -- `others` [ "nuyyAm N", "nuwwAm N", "nuyyam N", "nuwwam N", "niyAm N" ]
-                                                            `gloss`  [ "sleeping", "asleep [ [ nA } im / ADJ ] ]", "asleep" ],
-
-    -- ;; munaw~im_1
-    -- mnwm    munaw~im        N-ap    sleep-inducing
-
-    noun     MuFaCCiL                  {- munaw~im -}       `gloss`  [ "sleep-inducing" ],
-
-    -- ;; munaw~imap_1
-    -- mnwm    munaw~im        NapAt   soporific;sleeping (pill)
-
-    noun     MuFaCCiL |< aT            {- munaw~imap -}     `gloss`  [ "soporific", "sleeping ( pill )" ],
-
-    -- ;; munaw~im_2
-    -- mnwm    munaw~im        Nall    hypnotist
-
-    noun     MuFaCCiL                  {- munaw~im -}       `gloss`  [ "hypnotist" ] ]
+    MaFAL |< aT               `noun`       {- manAmap -}        [ "dormitory" ] ]
 
  |> "n w n" <| [
-
-    -- ;; naw~an_1
-    -- nwn     naw~an  PV-n    insert a case ending
-    -- nwn     naw~in  IV-n_yu insert a case ending
-
-    verb     FaCCaL                    {- naw~an -}         -- `others` [ "nawwin IV-n_yu" ]
-                                                            `gloss`  [ "insert a case ending" ],
-
-    -- ;; nuwn_1
-    -- nwn     nuwn    NduAt   nun (Arabic letter)
-
-    noun     FuCL                      {- nuwn -}           `gloss`  [ "nun ( Arabic letter )" ],
 
     -- ;; nuwn_2
     -- nwn     nuwn    Ndu     whale
@@ -16239,191 +4297,73 @@ lexicon = listing "Lexicon properties"
     -- >nwAn   >anowAn N       whales
     -- AnwAn   >anowAn N       whales
 
-    noun     FuCL                      {- nuwn -}           -- `others` [ "niynAn N", "'anwAn N" ]
-                                                            `gloss`  [ "whale", "whales" ],
-
-    -- ;; nuwniy~_1
-    -- nwny    nuwniy~ N-ap    crescent-shaped     [[nuwniy~/ADJ]]
-
-    noun     FuCL |< Iy                {- nuwniy~ -}        `gloss`  [ "crescent-shaped [ [ nuwniy ~ / ADJ ] ]" ],
-
-    -- ;; nuwnap_1
-    -- nwn     nuwn    Napdu   dimple
-
-    noun     FuCL |< aT                {- nuwnap -}         `gloss`  [ "dimple" ],
-
-    -- ;; tanowiyn_1
-    -- tnwyn   tanowiyn        N       nunnation (insertion of case endings)
-
-    noun     TaFCIL                    {- tanowiyn -}       `gloss`  [ "nunnation ( insertion of case endings )" ] ]
+    FuCL                      `noun`       {- nuwn -}           [ "whale", "whales" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'anwAn N" ] -} ]
 
  |> "n w n w" <| [
 
     -- ;; nuwnuw_1
     -- nwnw    nuwnuw  Nprop   Nuno
 
-    noun     KuRDuS                    {- nuwnuw -}         `gloss`  [ "Nuno" ] ]
+    KuRDuS                    `noun`       {- nuwnuw -}         [ "Nuno" ] ]
 
  |> "n w q" <| [
-
-    -- ;; tanaw~aq_1
-    -- tnwq    tanaw~aq        PV_intr be squeamish;be choosy
-    -- tnwq    tanaw~aq        IV_intr be squeamish;be choosy
-
-    verb     TaFaCCaL                  {- tanaw~aq -}       `gloss`  [ "be squeamish", "be choosy" ],
-
-    -- ;; {isotanowaq_1
-    -- <stnwq  {isotanowaq     PV      make a mistake
-    -- Astnwq  {isotanowaq     PV      make a mistake
-    -- stnwq   sotanowiq       IV      make a mistake
-
-    verb     IstaFCaL                  {- {isotanowaq -}    -- `others` [ "stanwiq IV" ]
-                                                            `gloss`  [ "make a mistake" ],
 
     -- ;; nAqap_1
     -- nAq     nAq     NapAt   she-camel
     -- nwq     nuwq    N       she-camels
     -- nyAq    niyAq   N       she-camels
 
-    noun     FAL |< aT                 {- nAqap -}          -- `others` [ "niyAq N", "nuwq N" ]
-                                                            `gloss`  [ "she-camel", "she-camels" ],
-
-    -- ;; >anowaq_1
-    -- >nwq    >anowaq Nel     foolish;stupid
-    -- Anwq    >anowaq Nel     foolish;stupid
-
-    noun     HaFCaL                    {- Oanowaq -}        `gloss`  [ "foolish", "stupid" ] ]
+    FAL |< aT                 `noun`       {- nAqap -}          [ "she-camel", "she-camels" ]
+                              `plural`     FUL
+                              `plural`     FuCL
+                              {- `others` [ "nuwq N" ] -} ]
 
  |> "n w r" <| [
-
-    -- ;; naw~ar_1
-    -- nwr     naw~ar  PV      shed light;enlighten
-    -- nwr     naw~ir  IV_yu   shed light;enlighten
-
-    verb     FaCCaL                    {- naw~ar -}         -- `others` [ "nawwir IV_yu" ]
-                                                            `gloss`  [ "shed light", "enlighten" ],
 
     -- ;; nAwar_1
     -- nAwr    nAwar   PV      maneuver
     -- nAwr    nAwir   IV_yu   maneuver
 
-    verb     FACaL                     {- nAwar -}          -- `others` [ "nAwir IV_yu" ]
-                                                            `gloss`  [ "maneuver" ],
-
-    -- ;; >anAr_1
-    -- >nAr    >anAr   PV_V    light;fill with light;elucidate
-    -- AnAr    >anAr   PV_V    light;fill with light;elucidate
-    -- >nr     >anar   PV_C    light;fill with light;elucidate
-    -- Anr     >anar   PV_C    light;fill with light;elucidate
-    -- nyr     niyr    IV_V_yu light;fill with light;elucidate
-    -- nr      nir     IV_C_yu light;fill with light;elucidate
-    -- nAr     nAr     IV_V_Pass_yu    be lit;be made bright;be illuminated
-    -- nr      nar     IV_C_Pass_yu    be lit;be made bright;be illuminated
-
-    verb     HaFAL                     {- OanAr -}          -- `others` [ "nir IV_C_yu", "niyr IV_V_yu", "nar IV_C_Pass_yu", "nAr IV_V_Pass_yu", "'anar PV_C" ]
-                                                            `gloss`  [ "light", "fill with light", "elucidate", "be lit", "be made bright", "be illuminated" ],
-
-    -- ;; >anowar_1
-    -- >nwr    >anowar PV      come to light;be revealed
-    -- Anwr    >anowar PV      come to light;be revealed
-    -- nwr     nowir   IV_yu   come to light;be revealed
-    -- nwr     nowar   IV_Pass_yu      be brought to light;be revealed
-
-    verb     HaFCaL                    {- Oanowar -}        -- `others` [ "nwar IV_Pass_yu", "nwir IV_yu" ]
-                                                            `gloss`  [ "come to light", "be revealed", "be brought to light" ],
-
-    -- ;; tanaw~ar_1
-    -- tnwr    tanaw~ar        PV_intr be lit;be enlightened
-    -- tnwr    tanaw~ar        IV_intr be lit;be enlightened
-
-    verb     TaFaCCaL                  {- tanaw~ar -}       `gloss`  [ "be lit", "be enlightened" ],
-
-    -- ;; {isotanAr_1
-    -- <stnAr  {isotanAr       PV_V    seek enlightenment;obtain enlightenment
-    -- AstnAr  {isotanAr       PV_V    seek enlightenment;obtain enlightenment
-    -- <stnr   {isotanar       PV_C    seek enlightenment;obtain enlightenment
-    -- Astnr   {isotanar       PV_C    seek enlightenment;obtain enlightenment
-    -- stnyr   sotaniyr        IV_V    seek enlightenment;obtain enlightenment
-    -- stnr    sotanir IV_C    seek enlightenment;obtain enlightenment
-
-    verb     IstaFAL                   {- {isotanAr -}      -- `others` [ "stanir IV_C", "istanar PV_C", "staniyr IV_V" ]
-                                                            `gloss`  [ "seek enlightenment", "obtain enlightenment" ],
+    FACaL                     `verb`       {- nAwar -}          [ "maneuver" ]
+                              {- `others` [ "nAwir IV_yu" ] -},
 
     -- ;; nAr_1
     -- nAr     nAr     N       fire
     -- nyrAn   niyrAn  N       fire;fires
 
-    noun     FAL                       {- nAr -}            -- `others` [ "niyrAn N" ]
-                                                            `gloss`  [ "fire", "fires" ],
+    FAL                       `noun`       {- nAr -}            [ "fire", "fires" ],
 
     -- ;; nAriy~_1
     -- nAry    nAriy~  N-ap    fire     [[nAriy~/ADJ]]
 
-    noun     FAL |< Iy                 {- nAriy~ -}         `gloss`  [ "fire [ [ nAriy ~ / ADJ ] ]" ],
+    FAL |< Iy                 `noun`       {- nAriy~ -}         [ "fire" ],
 
     -- ;; nuwr_1
     -- nwr     nuwr    N0      Nour;Noor
 
-    noun     FuCL                      {- nuwr -}           `gloss`  [ "Nour", "Noor" ],
-
-    -- ;; nuwr_1
-    -- nwr     nuwr    N0      Nour;Noor
-
-    noun     FUL                       {- nuwr -}           `gloss`  [ "Nour", "Noor" ],
+    FuCL                      `noun`       {- nuwr -}           [ "Nour", "Noor" ],
 
     -- ;; nuwr_2
     -- nwr     nuwr    Ndu     light
     -- >nwAr   >anowAr N       lights
     -- AnwAr   >anowAr N       lights
 
-    noun     FuCL                      {- nuwr -}           -- `others` [ "'anwAr N" ]
-                                                            `gloss`  [ "light", "lights" ],
-
-    -- ;; nuwr_2
-    -- nwr     nuwr    Ndu     light
-    -- >nwAr   >anowAr N       lights
-    -- AnwAr   >anowAr N       lights
-
-    noun     FUL                       {- nuwr -}           -- `others` [ "'anwAr N" ]
-                                                            `gloss`  [ "light", "lights" ],
-
-    -- ;; nuwriy~_1
-    -- nwry    nuwriy~ N-ap    light;lighting;shining     [[nuwriy~/ADJ]]
-
-    noun     FuCL |< Iy                {- nuwriy~ -}        `gloss`  [ "light", "lighting", "shining [ [ nuwriy ~ / ADJ ] ]" ],
-
-    -- ;; nuwriy~_1
-    -- nwry    nuwriy~ N-ap    light;lighting;shining     [[nuwriy~/ADJ]]
-
-    noun     FUL |< Iy                 {- nuwriy~ -}        `gloss`  [ "light", "lighting", "shining [ [ nuwriy ~ / ADJ ] ]" ],
+    FuCL                      `noun`       {- nuwr -}           [ "light", "lights" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'anwAr N" ] -},
 
     -- ;; naworap_1
     -- nwr     nawor   NapAt   blossom
 
-    noun     FaCL |< aT                {- naworap -}        `gloss`  [ "blossom" ],
-
-    -- ;; nuwrap_1
-    -- nwr     nuwr    Nap     lime
-
-    noun     FuCL |< aT                {- nuwrap -}         `gloss`  [ "lime" ],
-
-    -- ;; nuwrap_1
-    -- nwr     nuwr    Nap     lime
-
-    noun     FUL |< aT                 {- nuwrap -}         `gloss`  [ "lime" ],
+    FaCL |< aT                `noun`       {- naworap -}        [ "blossom" ],
 
     -- ;; >anowar_2
     -- >nwr    >anowar Nprop   Anwar
     -- Anwr    >anowar Nprop   Anwar
 
-    noun     HaFCaL                    {- Oanowar -}        `gloss`  [ "Anwar" ],
-
-    -- ;; manowar_1
-    -- mnwr    manowar Ndu     skylight
-    -- mnAwr   manAwir Ndip    skylight
-
-    noun     MaFCaL                    {- manowar -}        -- `others` [ "manAwir Ndip" ]
-                                                            `gloss`  [ "skylight" ],
+    HaFCaL                    `noun`       {- Oanowar -}        [ "Anwar" ],
 
     -- ;; manAr_1
     -- mnAr    manAr   Ndu     lighthouse
@@ -16431,228 +4371,56 @@ lexicon = listing "Lexicon properties"
     -- mnA}r   manA}ir Ndip    lighthouses
     -- mnAwr   manAwir Ndip    lighthouses
 
-    noun     MaFAL                     {- manAr -}          -- `others` [ "manA'ir Ndip", "manAwir Ndip" ]
-                                                            `gloss`  [ "lighthouse", "lighthouses" ],
+    MaFAL                     `noun`       {- manAr -}          [ "lighthouse", "lighthouses" ]
+                              `plural`     MaFA'iL
+                              `plural`     MaFACiL
+                              {- `others` [ "manA'ir Ndip", "manAwir Ndip" ] -},
 
     -- ;; tanowiyr_1
     -- tnwyr   tanowiyr        N/At    lighting;enlightenment;blossoming
 
-    noun     TaFCIL                    {- tanowiyr -}       `gloss`  [ "lighting", "enlightenment", "blossoming" ],
+    TaFCIL                    `noun`       {- tanowiyr -}       [ "lighting", "enlightenment", "blossoming" ],
 
     -- ;; <inArap_1
     -- <nAr    <inAr   NapAt   lighting;illumination;enlightenment
     -- AnAr    <inAr   NapAt   lighting;illumination;enlightenment
 
-    noun     HiFAL |< aT               {- IinArap -}        `gloss`  [ "lighting", "illumination", "enlightenment" ],
-
-    -- ;; {isotinArap_1
-    -- <stnAr  {isotinAr       NapAt   illumination;enlightenment
-    -- AstnAr  {isotinAr       NapAt   illumination;enlightenment
-
-    noun     IstiFAL |< aT             {- {isotinArap -}    `gloss`  [ "illumination", "enlightenment" ],
-
-    -- ;; nA}irap_1
-    -- nA}r    nA}ir   Nap     hatred;flame of war
-
-    noun     FA'iL |< aT               {- nA}irap -}        `gloss`  [ "hatred", "flame of war" ],
+    HiFAL |< aT               `noun`       {- IinArap -}        [ "lighting", "illumination", "enlightenment" ],
 
     -- ;; munaw~ar_1
     -- mnwr    munaw~ar        N-ap    shining;bright     [[munaw~ar/ADJ]]
 
-    noun     MuFaCCaL                  {- munaw~ar -}       `gloss`  [ "shining", "bright [ [ munaw ~ ar / ADJ ] ]" ],
+    MuFaCCaL                  `noun`       {- munaw~ar -}       [ "shining", "bright" ],
 
     -- ;; munaw~ar_2
     -- mnwr    munaw~ar        N-ap    honored     [[munaw~ar/ADJ]]
 
-    noun     MuFaCCaL                  {- munaw~ar -}       `gloss`  [ "honored [ [ munaw ~ ar / ADJ ] ]" ],
-
-    -- ;; munaw~ar_3
-    -- mnwr    munaw~ar        N0      Munawwar
-
-    noun     MuFaCCaL                  {- munaw~ar -}       `gloss`  [ "Munawwar" ],
+    MuFaCCaL                  `noun`       {- munaw~ar -}       [ "honored" ],
 
     -- ;; muniyr_1
     -- mnyr    muniyr  N0      Munir
 
-    noun     MuFIL                     {- muniyr -}         `gloss`  [ "Munir" ],
-
-    -- ;; muniyr_2
-    -- mnyr    muniyr  N-ap    shining;radiant;luminous     [[muniyr/ADJ]]
-
-    noun     MuFIL                     {- muniyr -}         `gloss`  [ "shining", "radiant", "luminous [ [ muniyr / ADJ ] ]" ],
+    MuFIL                     `noun`       {- muniyr -}         [ "Munir" ],
 
     -- ;; muniyrap_1
     -- mnyrp   muniyrap        N0      Munira
 
-    noun     MuFIL |< aT               {- muniyrap -}       `gloss`  [ "Munira" ],
-
-    -- ;; mutanaw~ir_1
-    -- mtnwr   mutanaw~ir      N-ap    lighted;illuminated     [[mutanaw~ir/ADJ]]
-
-    noun     MutaFaCCiL                {- mutanaw~ir -}     `gloss`  [ "lighted", "illuminated [ [ mutanaw ~ ir / ADJ ] ]" ],
-
-    -- ;; musotaniyr_1
-    -- mstnyr  musotaniyr      Nall    illuminated;enlightened     [[musotaniyr/ADJ]]
-
-    noun     MustaFIL                  {- musotaniyr -}     `gloss`  [ "illuminated", "enlightened [ [ musotaniyr / ADJ ] ]" ],
-
-    -- ;; nuw~Ar_1
-    -- nwAr    nuw~Ar  N       blossoms
-    -- nwAr    nuw~Ar  Napdu   blossom
-    -- nwAwyr  nawAwiyr        Ndip    blossoms
-
-    noun     FuCCAL                    {- nuw~Ar -}         -- `others` [ "nawAwiyr Ndip" ]
-                                                            `gloss`  [ "blossoms", "blossom" ],
-
-    -- ;; nuw~Ar_1
-    -- nwAr    nuw~Ar  N       blossoms
-    -- nwAr    nuw~Ar  Napdu   blossom
-    -- nwAwyr  nawAwiyr        Ndip    blossoms
-
-    noun     FUCAL                     {- nuw~Ar -}         -- `others` [ "nawAwiyr Ndip" ]
-                                                            `gloss`  [ "blossoms", "blossom" ],
-
-    -- ;; nawar_1
-    -- nwr     nawar   N       gypsies;vagabonds;white trash
-
-    noun     FaCaL                     {- nawar -}          `gloss`  [ "gypsies", "vagabonds", "white trash" ],
-
-    -- ;; nawariy~_1
-    -- nwry    nawariy~        Nall    gypsy;vagabond;white trash     [[nawariy~/ADJ]]
-
-    noun     FaCaL |< Iy               {- nawariy~ -}       `gloss`  [ "gypsy", "vagabond", "white trash [ [ nawariy ~ / ADJ ] ]" ],
+    MuFIL |< aT               `noun`       {- muniyrap -}       [ "Munira" ],
 
     -- ;; munAwarap_1
     -- mnAwr   munAwar Napdu   maneuver
     -- mnAwr   munAwar NAt     maneuvers
 
-    noun     MuFACaL |< aT             {- munAwarap -}      -- `others` [ "munAwar NAt" ]
-                                                            `gloss`  [ "maneuver", "maneuvers" ],
-
-    -- ;; munAwir_1
-    -- mnAwr   munAwir Nall    maneuver;maneuvering;tactician
-
-    noun     MuFACiL                   {- munAwir -}        `gloss`  [ "maneuver", "maneuvering", "tactician" ] ]
-
- |> "n w r .s" <| [
-
-    -- ;; naworaS_1
-    -- nwrS    naworaS Ndu     sea gull
-    -- nwArS   nawAriS Ndip    sea gulls
-
-    noun     KaRDaS                    {- naworaS -}        -- `others` [ "nawAri.s Ndip" ]
-                                                            `gloss`  [ "sea gull", "sea gulls" ] ]
-
- |> "n w r ^g" <| [
-
-    -- ;; naworaj_1
-    -- nwrj    naworaj Ndu     threshing machine
-    -- nwArj   nawArij Ndip    threshing machines
-
-    noun     KaRDaS                    {- naworaj -}        -- `others` [ "nawAri^g Ndip" ]
-                                                            `gloss`  [ "threshing machine", "threshing machines" ] ]
-
- |> "n w r n" <| [
-
-    -- ;; nuwrAniy~_1
-    -- nwrAny  nuwrAniy~       N-ap    luminous     [[nuwrAniy~/ADJ]]
-
-    noun     KuRDAS |< Iy              {- nuwrAniy~ -}      `gloss`  [ "luminous [ [ nuwrAniy ~ / ADJ ] ]" ],
-
-    -- ;; nuwrAniy~ap_1
-    -- nwrAny  nuwrAniy~       Nap     luminosity;brilliance     [[nuwrAniy~/NOUN]]
-
-    noun     KuRDAS |< Iy |< aT        {- nuwrAniy~ap -}    `gloss`  [ "luminosity", "brilliance [ [ nuwrAniy ~ / NOUN ] ]" ] ]
-
- |> "n w r z" <| [
-
-    -- ;; naworuwz_1
-    -- nwrwz   naworuwz        N0      Nawrouz
-
-    noun     KaRDUS                    {- naworuwz -}       `gloss`  [ "Nawrouz" ] ]
+    MuFACaL |< aT             `noun`       {- munAwarap -}      [ "maneuver", "maneuvers" ]
+                              `plural`     MuFACaL |< At
+                              {- `others` [ "munAwar NAt" ] -} ]
 
  |> "n w s" <| [
-
-    -- ;; nAs-u_1
-    -- nAs     nAs     PV_V    dangle
-    -- ns      nus     PV_C    dangle
-    -- nws     nuws    IV_V    dangle
-    -- ns      nus     IV_C    dangle
-
-    verb     FAL                       {- nAs-u -}          `imperf` [ FCuL ]
-                                                            -- `others` [ "nus PV_C IV_C", "nuws IV_V" ]
-                                                            `gloss`  [ "dangle" ],
 
     -- ;; nAs_1
     -- nAs     nAs     N       people
 
-    noun     FAL                       {- nAs -}            `gloss`  [ "people" ],
-
-    -- ;; nawos_1
-    -- nws     nawos   N       dangling
-
-    noun     FaCL                      {- nawos -}          `gloss`  [ "dangling" ],
-
-    -- ;; nawasAn_1
-    -- nwsAn   nawasAn N       dangling
-
-    noun     FaCaLAn                   {- nawasAn -}        `gloss`  [ "dangling" ],
-
-    -- ;; naw~As_1
-    -- nwAs    naw~As  N       pendulum
-
-    noun     FaCCAL                    {- naw~As -}         `gloss`  [ "pendulum" ],
-
-    -- ;; nAwuws_1
-    -- nAwws   nAwuws  N       sarcophagus
-    -- nwAwys  nawAwiys        Ndip    sarcophagi
-
-    noun     FACUL                     {- nAwuws -}         -- `others` [ "nawAwiys Ndip" ]
-                                                            `gloss`  [ "sarcophagus", "sarcophagi" ] ]
-
- |> "n w s r" <| [
-
-    -- ;; nawosar_1
-    -- nwsr    nawosar PV      form a fistula
-    -- nwsr    nawosir IV_yu   form a fistula
-
-    verb     KaRDaS                    {- nawosar -}        -- `others` [ "nawsir IV_yu" ]
-                                                            `gloss`  [ "form a fistula" ] ]
-
- |> "n w t" <| [
-
-    -- ;; nAt-u_1
-    -- nAt     nAt     PV_V    sway;stagger
-    -- nt      nut     PV_Ct   sway;stagger
-    -- nwt     nuwt    IV_V    sway;stagger
-    -- nt      nut     IV_C    sway;stagger
-
-    verb     FAL                       {- nAt-u -}          `imperf` [ FCuL ]
-                                                            -- `others` [ "nuwt IV_V", "nut PV_Ct IV_C" ]
-                                                            `gloss`  [ "sway", "stagger" ],
-
-    -- ;; nuwt_1
-    -- nwt     nuwt    N       music note
-
-    noun     FuCL                      {- nuwt -}           `gloss`  [ "music note" ],
-
-    -- ;; nuwtap_1
-    -- nwt     nuwt    Napdu   music note
-
-    noun     FuCL |< aT                {- nuwtap -}         `gloss`  [ "music note" ],
-
-    -- ;; tanowiyt_1
-    -- tnwyt   tanowiyt        N/At    musical notation;scoring
-
-    noun     TaFCIL                    {- tanowiyt -}       `gloss`  [ "musical notation", "scoring" ],
-
-    -- ;; nuwtiy~_1
-    -- nwty    nuwtiy~ N/ap    sailor;skipper     [[nuwtiy~/NOUN]]
-    -- nwAty   nawAtiy~        N       crew;sailors
-    -- nwty    nuwtiy~ Nap     crew;sailors     [[nuwtiy~/NOUN]]
-
-    noun     FuCL |< Iy                {- nuwtiy~ -}        -- `others` [ "nawAtiyy N" ]
-                                                            `gloss`  [ "sailor", "skipper [ [ nuwtiy ~ / NOUN ] ]", "crew", "sailors", "sailors [ [ nuwtiy ~ / NOUN ] ]" ] ]
+    FAL                       `noun`       {- nAs -}            [ "people" ] ]
 
  |> "n w y" <| [
 
@@ -16665,45 +4433,9 @@ lexicon = listing "Lexicon properties"
     -- nw      now     IV_0hwnyn       intend;consider
     -- nwY     nowaY   IV_0_Pass_yu    be intended;be considered
 
-    verb     FaCY                      {- nawaY-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nwY IV_0_Pass_yu", "naway PV_Atn", "nawA PV_h", "nw IV_0hwnyn", "naw PV_ttAw", "nwiy IV_0hAnn" ]
-                                                            `gloss`  [ "intend", "consider", "be intended", "be considered" ],
-
-    -- ;; nAwaY_1
-    -- nAwY    nAwaY   PV_0    be hostile to;fall out with
-    -- nAwA    nAwA    PV_h    be hostile to;fall out with
-    -- nAwy    nAway   PV_Atn  be hostile to;fall out with
-    -- nAw     nAw     PV_ttAw_intr    be hostile to;fall out with
-    -- nAwy    nAwiy   IV_0hAnn_yu     be hostile to;fall out with
-    -- nAw     nAw     IV_0hwnyn_yu    be hostile to;fall out with
-    -- nAwY    nAwaY   IV_0_Pass_yu    be hostile to;fall out with
-    -- nAwy    nAway   IV_Ann_Pass_yu  be hostile to;fall out with
-
-    verb     FACY                      {- nAwaY -}          -- `others` [ "nAway PV_Atn IV_Ann_Pass_yu", "nAw PV_ttAw_intr IV_0hwnyn_yu", "nAwA PV_h", "nAwiy IV_0hAnn_yu" ]
-                                                            `gloss`  [ "be hostile to", "fall out with" ],
-
-    -- ;; {inotawaY_1
-    -- <ntwY   {inotawaY       PV_0    intend;consider
-    -- AntwY   {inotawaY       PV_0    intend;consider
-    -- <ntwA   {inotawA        PV_h    intend;consider
-    -- AntwA   {inotawA        PV_h    intend;consider
-    -- <ntwy   {inotaway       PV_Atn  intend;consider
-    -- Antwy   {inotaway       PV_Atn  intend;consider
-    -- <ntw    {inotaw PV_ttAw intend;consider
-    -- Antw    {inotaw PV_ttAw intend;consider
-    -- ntwy    notawiy IV_0hAnn        intend;consider
-    -- ntw     notaw   IV_0hwnyn       intend;consider
-    -- ntwY    notawaY IV_0Pass_yu     be intended;be considered
-
-    verb     IFtaCY                    {- {inotawaY -}      -- `others` [ "intawA PV_h", "intaway PV_Atn", "intaw PV_ttAw", "ntawiy IV_0hAnn", "ntaw IV_0hwnyn", "ntawY IV_0Pass_yu" ]
-                                                            `gloss`  [ "intend", "consider", "be intended", "be considered" ],
-
-    -- ;; nawaY_1
-    -- nwY     nawaY   N0      distance;destination
-    -- nwA     nawA    Nhy     distance;destination
-
-    noun     FaCY                      {- nawaY -}          -- `others` [ "nawA Nhy" ]
-                                                            `gloss`  [ "distance", "destination" ],
+    FaCY                      `verb`       {- nawaY-i -}        [ "intend", "consider", "be intended", "be considered" ]
+                              `imperf` [ FCiL ]
+                              {- `others` [ "nwY IV_0_Pass_yu", "naway PV_Atn", "nawA PV_h", "nwiy IV_0hAnn" ] -},
 
     -- ;; nawAp_1
     -- nwA     nawA    Napdu   nucleus;core
@@ -16711,8 +4443,10 @@ lexicon = listing "Lexicon properties"
     -- >nwy    >anowiy Nap     nuclei;cores
     -- Anwy    >anowiy Nap     nuclei;cores
 
-    noun     FaCY |< aT                {- nawAp -}          -- `others` [ "'anwiy Nap", "naway NAt" ]
-                                                            `gloss`  [ "nucleus", "core", "nuclei", "cores" ],
+    FaCY |< aT                `noun`       {- nawAp -}          [ "nucleus", "core", "nuclei", "cores" ]
+                              `plural`     HaFCiL |< aT
+                              `plural`     FaCaL |< At
+                              {- `others` [ "'anwiy Nap", "naway NAt" ] -},
 
     -- ;; nawAp_2
     -- nwA     nawA    Napdu   fruit pit
@@ -16720,195 +4454,61 @@ lexicon = listing "Lexicon properties"
     -- nwY     nawaY   N0      fruit pits
     -- nwA     nawA    Nhy     fruit pits
 
-    noun     FaCY |< aT                {- nawAp -}          -- `others` [ "nawY N0", "naway NAt", "nawA Nhy" ]
-                                                            `gloss`  [ "fruit pit", "fruit pits" ],
+    FaCY |< aT                `noun`       {- nawAp -}          [ "fruit pit", "fruit pits" ]
+                              `plural`     FaCY
+                              `plural`     FaCaL |< At
+                              `plural`     FaCA
+                              {- `others` [ "nawY N0", "naway NAt", "nawA Nhy" ] -},
 
     -- ;; nawawiy~_1
     -- nwwy    nawawiy~        Nall    nuclear;atomic;nucleic     [[nawawiy~/ADJ]]
 
-    noun     FaCY |< Iy                {- nawawiy~ -}       `gloss`  [ "nuclear", "atomic", "nucleic [ [ nawawiy ~ / ADJ ] ]" ],
-
-    -- ;; munAwiy_1
-    -- mnAwy   munAwiy N0F_Nh  hostile;unfriendly     [[munAwiy/ADJ]]
-    -- mnAw    munAw   NK      hostile;unfriendly
-    -- mnAwy   munAwiy NAn_Nayn        hostile;unfriendly
-    -- mnAw    munAw   Nuwn_Niyn       hostile;unfriendly
-    -- mnAwy   munAwiy NapAt   hostile;unfriendly
-
-    noun     MuFACiL                   {- munAwiy -}        -- `others` [ "munAw Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "hostile", "unfriendly [ [ munAwiy / ADJ ] ]", "unfriendly" ],
+    FaCY |< Iy                `noun`       {- nawawiy~ -}       [ "nuclear", "atomic", "nucleic" ],
 
     -- ;; niy~ap_1
     -- ny      niy~    NapAt   intention;purpose;desire     [[niy~/NOUN]]
     -- nwAyA   nawAyA  N0_Nhy  intentions;desires
 
-    noun     FIL |< aT                 {- niy~ap -}         -- `others` [ "nawAyA N0_Nhy" ]
-                                                            `gloss`  [ "intention", "purpose", "desire [ [ niy ~ / NOUN ] ]", "intentions", "desires" ] ]
-
- |> "n y '" <| [
-
-    -- ;; nA'-i_1
-    -- nA'     nA'     PV_V_intr       be raw;be uncooked
-    -- ny'     niy'    IV_V_intr       be raw;be uncooked
-    -- n'      ni'     IV_C_intr       be raw;be uncooked
-
-    verb     FAL                       {- nA'-i -}          `imperf` [ FCiL ]
-                                                            -- `others` [ "ni' IV_C_intr", "niy' IV_V_intr" ]
-                                                            `gloss`  [ "be raw", "be uncooked" ],
-
-    -- ;; nayo'_1
-    -- ny'     nayo'   N0      raw state;uncooked state
-    -- ny}     nayo}   NF_Nhy  raw state;uncooked state
-
-    noun     FaCL                      {- nayo' -}          `gloss`  [ "raw state", "uncooked state" ],
-
-    -- ;; nuyuw'_1
-    -- nyw'    nuyuw'  N0_Nh   raw state;uncooked state
-    -- nyw}    nuyuw}  Nhy     raw state;uncooked state
-
-    noun     FuCUL                     {- nuyuw' -}         `gloss`  [ "raw state", "uncooked state" ],
-
-    -- ;; nuyuw'ap_1
-    -- nyw'    nuyuw'  Nap     raw state;uncooked state
-
-    noun     FuCUL |< aT               {- nuyuw'ap -}       `gloss`  [ "raw state", "uncooked state" ] ]
-
- |> "n y .h" <| [
-
-    -- ;; mutanay~aH_1
-    -- mtnyH   mutanay~aH      N       deceased;lamented     [[mutanay~aH/ADJ]]
-
-    noun     MutaFaCCaL                {- mutanay~aH -}     `gloss`  [ "deceased", "lamented [ [ mutanay ~ aH / ADJ ] ]" ] ]
+    FIL |< aT                 `noun`       {- niy~ap -}         [ "intention", "purpose", "desire", "intentions", "desires" ] ]
 
  |> "n y ^g r" <| [
 
     -- ;; nayojar_1
     -- nyjr    nayojar N0      Niger
 
-    noun     KaRDaS                    {- nayojar -}        `gloss`  [ "Niger" ],
+    KaRDaS                    `noun`       {- nayojar -}        [ "Niger" ],
 
     -- ;; nayojiyriy~_1
     -- nyjyry  nayojiyriy~     Nall    Nigerian     [[nayojiyriy~/NOUN]]
     -- nyjyry  nayojiyriy~     Nall    Nigerian     [[nayojiyriy~/ADJ]]
 
-    noun     KaRDIS |< Iy              {- nayojiyriy~ -}    `gloss`  [ "Nigerian [ [ nayojiyriy ~ / NOUN ] ]", "Nigerian [ [ nayojiyriy ~ / ADJ ] ]" ] ]
-
- |> "n y `" <| [
-
-    -- ;; nayoE_1
-    -- nyE     nayoE   Ndu     aorta
-    -- nyAE    niyAE   N       aorta
-
-    noun     FaCL                      {- nayoE -}          -- `others` [ "niyA` N" ]
-                                                            `gloss`  [ "aorta" ] ]
+    KaRDIS |< Iy              `noun`       {- nayojiyriy~ -}    [ "Nigerian" ] ]
 
  |> "n y b" <| [
 
     -- ;; niyAbap_1
     -- nyAb    niyAb   NapAt   proxy;deputyship
 
-    noun     FiCAL |< aT               {- niyAbap -}        `gloss`  [ "proxy", "deputyship" ],
+    FiCAL |< aT               `noun`       {- niyAbap -}        [ "proxy", "deputyship" ],
 
     -- ;; niyAbap_2
     -- nyAb    niyAb   Nap     instead of;in lieu of
 
-    noun     FiCAL |< aT               {- niyAbap -}        `gloss`  [ "instead of", "in lieu of" ],
+    FiCAL |< aT               `noun`       {- niyAbap -}        [ "instead of", "in lieu of" ],
 
     -- ;; niyAbiy~_1
     -- nyAby   niyAbiy~        Nall    representative;delegated;deputed     [[niyAbiy~/ADJ]]
 
-    noun     FiCAL |< Iy               {- niyAbiy~ -}       `gloss`  [ "representative", "delegated", "deputed [ [ niyAbiy ~ / ADJ ] ]" ],
-
-    -- ;; muniyb_1
-    -- mnyb    muniyb  Nall    repentant
-
-    noun     MuFiCL                    {- muniyb -}         `gloss`  [ "repentant" ],
-
-    -- ;; nAb_1
-    -- nAb     nAb     Ndu     canine tooth;fang;tusk
-    -- >nyAb   >anoyAb N       canine teeth;fangs;tusks
-    -- AnyAb   >anoyAb N       canine teeth;fangs;tusks
-    -- nywb    nuyuwb  N       canine teeth;fangs;tusks
-    -- >nAyyb  >anAyiyb        Ndip    canine teeth;fangs;tusks
-    -- AnAyyb  >anAyiyb        Ndip    canine teeth;fangs;tusks
-
-    noun     FAL                       {- nAb -}            -- `others` [ "nuyuwb N", "'anAyiyb Ndip", "'anyAb N" ]
-                                                            `gloss`  [ "canine tooth", "fang", "tusk", "canine teeth", "fangs", "tusks" ],
-
-    -- ;; niyb_1
-    -- nyb     niyb    N       old she-camel
-
-    noun     FiCL                      {- niyb -}           `gloss`  [ "old she-camel" ] ]
+    FiCAL |< Iy               `noun`       {- niyAbiy~ -}       [ "representative", "delegated", "deputed" ] ]
 
  |> "n y f" <| [
-
-    -- ;; nay~af_1
-    -- nyf     nay~af  PV      exceed
-    -- nyf     nay~if  IV_yu   exceed
-
-    verb     FaCCaL                    {- nay~af -}         -- `others` [ "nayyif IV_yu" ]
-                                                            `gloss`  [ "exceed" ],
-
-    -- ;; nay~if_1
-    -- nyf     nay~if  N       some;excess;surplus
-
-    noun     FaCCiL                    {- nay~if -}         `gloss`  [ "some", "excess", "surplus" ],
-
-    -- ;; niyAfap_1
-    -- nyAf    niyAf   Nap     Excellency;Eminence
-
-    noun     FiCAL |< aT               {- niyAfap -}        `gloss`  [ "Excellency", "Eminence" ],
 
     -- ;; nAyif_1
     -- nAyf    nAyif   Nprop   Nayef;Nayif
 
-    noun     FACiL                     {- nAyif -}          `gloss`  [ "Nayef", "Nayif" ],
-
-    -- ;; muniyf_1
-    -- mnyf    muniyf  Nall    lofty;sublime;outstanding
-
-    noun     MuFiCL                    {- muniyf -}         `gloss`  [ "lofty", "sublime", "outstanding" ],
-
-    -- ;; muniyf_2
-    -- mnyf    muniyf  N0      Mounif;Muneef
-
-    noun     MuFiCL                    {- muniyf -}         `gloss`  [ "Mounif", "Muneef" ] ]
-
- |> "n y k" <| [
-
-    -- ;; nAk-i_1
-    -- nAk     nAk     PV_V    have sex with
-    -- nk      nik     PV_C    have sex with
-    -- nyk     niyk    IV_V    have sex with
-    -- nk      nik     IV_C    have sex with
-
-    verb     FAL                       {- nAk-i -}          `imperf` [ FCiL ]
-                                                            -- `others` [ "niyk IV_V", "nik PV_C IV_C" ]
-                                                            `gloss`  [ "have sex with" ],
-
-    -- ;; niykap_1
-    -- nyk     niyk    Napdu   have sex with
-
-    noun     FiCL |< aT                {- niykap -}         `gloss`  [ "have sex with" ],
-
-    -- ;; manoyak_1
-    -- mnyk    manoyak Ndu     fucker
-    -- mnAyk   manAyik Ndip    fuckers
-
-    noun     MaFCaL                    {- manoyak -}        -- `others` [ "manAyik Ndip" ]
-                                                            `gloss`  [ "fucker", "fuckers" ],
-
-    -- ;; manoyuwk_1
-    -- mnywk   manoyuwk        Nall    fucked
-
-    noun     MaFCUL                    {- manoyuwk -}       `gloss`  [ "fucked" ] ]
+    FACiL                     `noun`       {- nAyif -}          [ "Nayef", "Nayif" ] ]
 
  |> "n y l" <| [
-
-    -- ;; nAyol_1
-    -- nAyl    nAyol   Nprop   Nile
-
-    noun     FACL                      {- nAyol -}          `gloss`  [ "Nile" ],
 
     -- ;; nAl-a_1
     -- nAl     nAl     PV_V    attain;achieve;acquire
@@ -16918,182 +4518,62 @@ lexicon = listing "Lexicon properties"
     -- nAl     nAl     IV_V_Pass_yu    be attained;be achieved;be acquired
     -- nl      nal     IV_C_Pass_yu    be attained;be achieved;be acquired
 
-    verb     FAL                       {- nAl-a -}          `imperf` [ FCaL ]
-                                                            -- `others` [ "nil PV_C", "nal IV_C IV_C_Pass_yu" ]
-                                                            `gloss`  [ "attain", "achieve", "acquire", "be attained", "be achieved", "be acquired" ],
-
-    -- ;; nay~al_1
-    -- nyl     nay~al  PV      dye with indigo
-    -- nyl     nay~il  IV_yu   dye with indigo
-
-    verb     FaCCaL                    {- nay~al -}         -- `others` [ "nayyil IV_yu" ]
-                                                            `gloss`  [ "dye with indigo" ],
-
-    -- ;; >anAl_1
-    -- >nAl    >anAl   PV_V    let/make obtain
-    -- AnAl    >anAl   PV_V    let/make obtain
-    -- >nl     >anal   PV_C    let/make obtain
-    -- Anl     >anal   PV_C    let/make obtain
-    -- nyl     niyl    IV_V_yu let/make obtain
-    -- nl      nil     IV_C_yu let/make obtain
-
-    verb     HaFAL                     {- OanAl -}          -- `others` [ "nil IV_C_yu", "niyl IV_V_yu", "'anal PV_C" ]
-                                                            `gloss`  [ "let / make obtain" ],
+    FAL                       `verb`       {- nAl-a -}          [ "attain", "achieve", "acquire", "be attained", "be achieved", "be acquired" ]
+                              `imperf` [ FCaL ],
 
     -- ;; nayol_1
     -- nyl     nayol   N       attainment;achievement;acquiring
 
-    noun     FaCL                      {- nayol -}          `gloss`  [ "attainment", "achievement", "acquiring" ],
-
-    -- ;; nA}il_1
-    -- nA}l    nA}il   Nall    obtainer;acquirer;winner
-
-    noun     FA'iL                     {- nA}il -}          `gloss`  [ "obtainer", "acquirer", "winner" ],
-
-    -- ;; nA}ilap_1
-    -- nA}lp   nA}ilap Nprop   Na'ila
-
-    noun     FA'iL |< aT               {- nA}ilap -}        `gloss`  [ "Na'ila" ],
+    FaCL                      `noun`       {- nayol -}          [ "attainment", "achievement", "acquiring" ],
 
     -- ;; niyl_1
     -- nyl     niyl    N       indigo
 
-    noun     FiCL                      {- niyl -}           `gloss`  [ "indigo" ],
-
-    -- ;; niylap_1
-    -- nyl     niyl    Nap     indigo
-
-    noun     FiCL |< aT                {- niylap -}         `gloss`  [ "indigo" ],
+    FiCL                      `noun`       {- niyl -}           [ "indigo" ],
 
     -- ;; niyl_2
     -- nyl     niyl    N       Nile
 
-    noun     FiCL                      {- niyl -}           `gloss`  [ "Nile" ],
-
-    -- ;; niyliy~_1
-    -- nyly    niyliy~ Nall    Nilotic;of the Nile     [[niyliy~/NOUN]]
-    -- nyly    niyliy~ Nall    Nilotic;of the Nile     [[niyliy~/ADJ]]
-
-    noun     FiCL |< Iy                {- niyliy~ -}        `gloss`  [ "Nilotic", "of the Nile [ [ niyliy ~ / NOUN ] ]", "of the Nile [ [ niyliy ~ / ADJ ] ]" ],
-
-    -- ;; manoyal_1
-    -- mnyl    manoyal N       nilometer
-
-    noun     MaFCaL                    {- manoyal -}        `gloss`  [ "nilometer" ],
+    FiCL                      `noun`       {- niyl -}           [ "Nile" ],
 
     -- ;; manAl_1
     -- mnAl    manAl   N       attainment;acquiring;obtaining
 
-    noun     MaFAL                     {- manAl -}          `gloss`  [ "attainment", "acquiring", "obtaining" ],
-
-    -- ;; manAl_2
-    -- mnAl    manAl   Nprop   Manal
-
-    noun     MaFAL                     {- manAl -}          `gloss`  [ "Manal" ],
-
-    -- ;; tanoyiyl_1
-    -- tnyyl   tanoyiyl        N/At    alluviation of soil by the Nile
-
-    noun     TaFCIL                    {- tanoyiyl -}       `gloss`  [ "alluviation of soil by the Nile" ],
-
-    -- ;; munay~al_1
-    -- mnyl    munay~al        N-ap    dyed with indigo
-
-    noun     MuFaCCaL                  {- munay~al -}       `gloss`  [ "dyed with indigo" ] ]
-
- |> "n y m _t" <| [
-
-    -- ;; niymiyv_1
-    -- nymyv   niymiyv Nprop   Nemeth
-
-    noun     KiRDIS                    {- niymiyv -}        `gloss`  [ "Nemeth" ] ]
-
- |> "n y q" <| [
-
-    -- ;; tanay~aq_1
-    -- tnyq    tanay~aq        PV_intr be squeamish;fastidious
-    -- tnyq    tanay~aq        IV_intr be squeamish;fastidious
-
-    verb     TaFaCCaL                  {- tanay~aq -}       `gloss`  [ "be squeamish", "fastidious" ],
-
-    -- ;; nay~iq_1
-    -- nyq     nay~iq  Nall    squeamish;fastidious
-
-    noun     FaCCiL                    {- nay~iq -}         `gloss`  [ "squeamish", "fastidious" ] ]
+    MaFAL                     `noun`       {- manAl -}          [ "attainment", "acquiring", "obtaining" ] ]
 
  |> "n y r" <| [
-
-    -- ;; nay~ir_1
-    -- nyr     nay~ir  N-ap    luminous;clear
-    -- nyr     nay~ir  NAn_Nayn        sun and moon
-
-    noun     FaCCiL                    {- nay~ir -}         `gloss`  [ "luminous", "clear", "sun and moon" ],
 
     -- ;; muniyr_1
     -- mnyr    muniyr  N0      Munir
 
-    noun     MuFiCL                    {- muniyr -}         `gloss`  [ "Munir" ],
-
-    -- ;; muniyr_2
-    -- mnyr    muniyr  N-ap    shining;radiant;luminous     [[muniyr/ADJ]]
-
-    noun     MuFiCL                    {- muniyr -}         `gloss`  [ "shining", "radiant", "luminous [ [ muniyr / ADJ ] ]" ],
+    MuFiCL                    `noun`       {- muniyr -}         [ "Munir" ],
 
     -- ;; muniyrap_1
     -- mnyrp   muniyrap        N0      Munira
 
-    noun     MuFiCL |< aT              {- muniyrap -}       `gloss`  [ "Munira" ],
+    MuFiCL |< aT              `noun`       {- muniyrap -}       [ "Munira" ] ]
 
-    -- ;; musotaniyr_1
-    -- mstnyr  musotaniyr      Nall    illuminated;enlightened     [[musotaniyr/ADJ]]
+ |> "n y s" <| [
 
-    noun     MustaFiCL                 {- musotaniyr -}     `gloss`  [ "illuminated", "enlightened [ [ musotaniyr / ADJ ] ]" ],
+    -- ;; niysAn_1
+    -- nysAn   niysAn  N0      April
 
-    -- ;; niyr_1
-    -- nyr     niyr    N       yoke
-    -- >nyAr   >anoyAr N       yokes
-    -- AnyAr   >anoyAr N       yokes
-
-    noun     FiCL                      {- niyr -}           -- `others` [ "'anyAr N" ]
-                                                            `gloss`  [ "yoke", "yokes" ],
-
-    -- ;; niyrap_1
-    -- nyr     niyr    Nap     gums of the teeth
-
-    noun     FiCL |< aT                {- niyrap -}         `gloss`  [ "gums of the teeth" ] ]
+    FiCLAn                    `noun`       {- niysAn -}         [ "April" ] ]
 
  |> "n y s n" <| [
 
     -- ;; niysAn_1
     -- nysAn   niysAn  N0      April
 
-    noun     KiRDAS                    {- niysAn -}         `gloss`  [ "April" ],
-
-    -- ;; niysAn_2
-    -- nysAn   niysAn  N0      Nissan
-
-    noun     KiRDAS                    {- niysAn -}         `gloss`  [ "Nissan" ] ]
-
- |> "n y w t" <| [
-
-    -- ;; niywiyt_1
-    -- nywyt   niywiyt Nprop   Niweat
-
-    noun     KiRDIS                    {- niywiyt -}        `gloss`  [ "Niweat" ] ]
+    KiRDAS                    `noun`       {- niysAn -}         [ "April" ] ]
 
  |> "n y y" <| [
-
-    -- ;; nay~_1
-    -- ny      nay~    N       fat
-
-    noun     FaCL                      {- nay~ -}           `gloss`  [ "fat" ],
 
     -- ;; niy~ap_1
     -- ny      niy~    NapAt   intention;purpose;desire     [[niy~/NOUN]]
     -- nwAyA   nawAyA  N0_Nhy  intentions;desires
 
-    noun     FiCL |< aT                {- niy~ap -}         -- `others` [ "nawAyA N0_Nhy" ]
-                                                            `gloss`  [ "intention", "purpose", "desire [ [ niy ~ / NOUN ] ]", "intentions", "desires" ] ]
+    FiCL |< aT                `noun`       {- niy~ap -}         [ "intention", "purpose", "desire", "intentions", "desires" ] ]
 
  |> "n y z k" <| [
 
@@ -17101,18 +4581,9 @@ lexicon = listing "Lexicon properties"
     -- nyzk    nayozak Ndu     meteor
     -- nyAzk   nayAzik Ndip    meteors
 
-    noun     KaRDaS                    {- nayozak -}        -- `others` [ "nayAzik Ndip" ]
-                                                            `gloss`  [ "meteor", "meteors" ] ]
-
- |> "n z .g" <| [
-
-    -- ;; nazog_1
-    -- nzg     nazog   N       incitement to evil
-    -- nzg     nazog   Napdu   incitement to evil
-    -- nzg     nazag   NAt     incitements to evil
-
-    noun     FaCL                      {- nazog -}          -- `others` [ "naza.g NAt" ]
-                                                            `gloss`  [ "incitement to evil", "incitements to evil" ] ]
+    KaRDaS                    `noun`       {- nayozak -}        [ "meteor", "meteors" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "nayAzik Ndip" ] -} ]
 
  |> "n z .h" <| [
 
@@ -17121,64 +4592,14 @@ lexicon = listing "Lexicon properties"
     -- nzH     nozaH   IV_intr be distant;migrate
     -- nzH     noziH   IV_intr be distant;migrate
 
-    verb     FaCaL                     {- nazaH-ai -}       `imperf` [ FCaL, FCiL ]
-                                                            -- `others` [ "nzi.h IV_intr", "nza.h IV_intr" ]
-                                                            `gloss`  [ "be distant", "migrate" ],
-
-    -- ;; >anozaH_1
-    -- >nzH    >anozaH PV      scoop out;drain
-    -- AnzH    >anozaH PV      scoop out;drain
-    -- nzH     noziH   IV_yu   scoop out;drain
-    -- nzH     nozaH   IV_Pass_yu      be scooped out;be drained
-
-    verb     HaFCaL                    {- OanozaH -}        -- `others` [ "nzi.h IV_yu", "nza.h IV_Pass_yu" ]
-                                                            `gloss`  [ "scoop out", "drain", "be scooped out", "be drained" ],
-
-    -- ;; {inotazaH_1
-    -- <ntzH   {inotazaH       PV      emigrate
-    -- AntzH   {inotazaH       PV      emigrate
-    -- ntzH    notaziH IV      emigrate
-
-    verb     IFtaCaL                   {- {inotazaH -}      -- `others` [ "ntazi.h IV" ]
-                                                            `gloss`  [ "emigrate" ],
-
-    -- ;; nazaH_1
-    -- nzH     nazaH   N       drainage;draining
-
-    noun     FaCaL                     {- nazaH -}          `gloss`  [ "drainage", "draining" ],
-
-    -- ;; nazaH_2
-    -- nzH     nazaH   N       muddy water
-    -- >nzAH   >anozAH N       muddy water
-    -- AnzAH   >anozAH N       muddy water
-
-    noun     FaCaL                     {- nazaH -}          -- `others` [ "'anzA.h N" ]
-                                                            `gloss`  [ "muddy water" ],
-
-    -- ;; nuzuwH_1
-    -- nzwH    nuzuwH  N       emigration;migration
-
-    noun     FuCUL                     {- nuzuwH -}         `gloss`  [ "emigration", "migration" ],
-
-    -- ;; nazuwH_1
-    -- nzwH    nazuwH  N-ap    distant;remote     [[nazuwH/ADJ]]
-
-    noun     FaCUL                     {- nazuwH -}         `gloss`  [ "distant", "remote [ [ nazuwH / ADJ ] ]" ],
-
-    -- ;; naziyH_1
-    -- nzyH    naziyH  N-ap    distant;remote     [[naziyH/ADJ]]
-
-    noun     FaCIL                     {- naziyH -}         `gloss`  [ "distant", "remote [ [ naziyH / ADJ ] ]" ],
-
-    -- ;; nAziH_1
-    -- nAzH    nAziH   N-ap    distant;remote     [[nAziH/ADJ]]
-
-    noun     FACiL                     {- nAziH -}          `gloss`  [ "distant", "remote [ [ nAziH / ADJ ] ]" ],
+    FaCaL                     `verb`       {- nazaH-ai -}       [ "be distant", "migrate" ]
+                              `imperf` [ FCaL, FCiL ]
+                              {- `others` [ "nzi.h IV_intr", "nza.h IV_intr" ] -},
 
     -- ;; nAziH_2
     -- nAzH    nAziH   Nall    emigrant
 
-    noun     FACiL                     {- nAziH -}          `gloss`  [ "emigrant" ] ]
+    FACiL                     `noun`       {- nAziH -}          [ "emigrant" ] ]
 
  |> "n z `" <| [
 
@@ -17186,156 +4607,49 @@ lexicon = listing "Lexicon properties"
     -- nzE     nazaE   PV      remove;eliminate;divest
     -- nzE     noziE   IV      remove;eliminate;divest
 
-    verb     FaCaL                     {- nazaE-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nzi` IV" ]
-                                                            `gloss`  [ "remove", "eliminate", "divest" ],
-
-    -- ;; naz~aE_1
-    -- nzE     naz~aE  PV      remove;take away
-    -- nzE     naz~iE  IV_yu   remove;take away
-
-    verb     FaCCaL                    {- naz~aE -}         -- `others` [ "nazzi` IV_yu" ]
-                                                            `gloss`  [ "remove", "take away" ],
-
-    -- ;; nAzaE_1
-    -- nAzE    nAzaE   PV      fight with;contend with
-    -- nAzE    nAziE   IV_yu   fight with;contend with
-
-    verb     FACaL                     {- nAzaE -}          -- `others` [ "nAzi` IV_yu" ]
-                                                            `gloss`  [ "fight with", "contend with" ],
-
-    -- ;; tanAzaE_1
-    -- tnAzE   tanAzaE PV      contend with each another;compete for
-    -- tnAzE   tanAzaE IV      contend with each another;compete for
-
-    verb     TaFACaL                   {- tanAzaE -}        `gloss`  [ "contend with each another", "compete for" ],
-
-    -- ;; {inotazaE_1
-    -- <ntzE   {inotazaE       PV      remove;withdraw;eliminate
-    -- AntzE   {inotazaE       PV      remove;withdraw;eliminate
-    -- ntzE    notaziE IV      remove;withdraw;eliminate
-
-    verb     IFtaCaL                   {- {inotazaE -}      -- `others` [ "ntazi` IV" ]
-                                                            `gloss`  [ "remove", "withdraw", "eliminate" ],
+    FaCaL                     `verb`       {- nazaE-i -}        [ "remove", "eliminate", "divest" ]
+                              `imperf` [ FCiL ]
+                              {- `others` [ "nzi` IV" ] -},
 
     -- ;; nazoE_1
     -- nzE     nazoE   N       removal;elimination;deposition
 
-    noun     FaCL                      {- nazoE -}          `gloss`  [ "removal", "elimination", "deposition" ],
+    FaCL                      `noun`       {- nazoE -}          [ "removal", "elimination", "deposition" ],
 
     -- ;; nazoEap_1
     -- nzE     nazoE   Napdu   inclination;tendency;trend
     -- nzE     nazaE   NAt     inclinations;tendencies;trends
 
-    noun     FaCL |< aT                {- nazoEap -}        -- `others` [ "naza` NAt" ]
-                                                            `gloss`  [ "inclination", "tendency", "trend", "inclinations", "tendencies", "trends" ],
-
-    -- ;; nuzuwE_1
-    -- nzwE    nuzuwE  N       striving;endeavor;desire
-
-    noun     FuCUL                     {- nuzuwE -}         `gloss`  [ "striving", "endeavor", "desire" ],
-
-    -- ;; nuzuwEiy~_1
-    -- nzwEy   nuzuwEiy~       N-ap    motivational;instinctual     [[nuzuwEiy~/ADJ]]
-
-    noun     FuCUL |< Iy               {- nuzuwEiy~ -}      `gloss`  [ "motivational", "instinctual [ [ nuzuwEiy ~ / ADJ ] ]" ],
-
-    -- ;; naz~AE_1
-    -- nzAE    naz~AE  N       tending;having an inclination;leaning
-
-    noun     FaCCAL                    {- naz~AE -}         `gloss`  [ "tending", "having an inclination", "leaning" ],
-
-    -- ;; naziyE_1
-    -- nzyE    naziyE  N/ap    stranger
-    -- nzAE    nuz~AE  N       strangers
-
-    noun     FaCIL                     {- naziyE -}         -- `others` [ "nuzzA` N" ]
-                                                            `gloss`  [ "stranger", "strangers" ],
-
-    -- ;; manozaE_1
-    -- mnzE    manozaE Ndu     behavior;tendency;trend
-
-    noun     MaFCaL                    {- manozaE -}        `gloss`  [ "behavior", "tendency", "trend" ],
-
-    -- ;; minozaE_1
-    -- mnzE    minozaE Ndu     arrow
-    -- mnAzE   manAziE Ndip    arrows
-
-    noun     MiFCaL                    {- minozaE -}        -- `others` [ "manAzi` Ndip" ]
-                                                            `gloss`  [ "arrow", "arrows" ],
+    FaCL |< aT                `noun`       {- nazoEap -}        [ "inclination", "tendency", "trend", "inclinations", "tendencies", "trends" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "naza` NAt" ] -},
 
     -- ;; nizAE_1
     -- nzAE    nizAE   N/At    conflict;struggle
 
-    noun     FiCAL                     {- nizAE -}          `gloss`  [ "conflict", "struggle" ],
+    FiCAL                     `noun`       {- nizAE -}          [ "conflict", "struggle" ],
 
     -- ;; munAzaEap_1
     -- mnAzE   munAzaE NapAt   conflict;struggle;dispute
 
-    noun     MuFACaL |< aT             {- munAzaEap -}      `gloss`  [ "conflict", "struggle", "dispute" ],
-
-    -- ;; tanAzuE_1
-    -- tnAzE   tanAzuE N/At    conflict;struggle;dispute
-
-    noun     TaFACuL                   {- tanAzuE -}        `gloss`  [ "conflict", "struggle", "dispute" ],
-
-    -- ;; {inotizAE_1
-    -- <ntzAE  {inotizAE       N/At    removal;elimination
-    -- AntzAE  {inotizAE       N/At    removal;elimination
-
-    noun     IFtiCAL                   {- {inotizAE -}      `gloss`  [ "removal", "elimination" ],
-
-    -- ;; nAziEap_1
-    -- nAzE    nAziE   Napdu   tendency;inclination
-    -- nwAzE   nawAziE Ndip    tendencies;inclinations
-
-    noun     FACiL |< aT               {- nAziEap -}        -- `others` [ "nawAzi` Ndip" ]
-                                                            `gloss`  [ "tendency", "inclination", "tendencies", "inclinations" ],
+    MuFACaL |< aT             `noun`       {- munAzaEap -}      [ "conflict", "struggle", "dispute" ],
 
     -- ;; manozuwE_1
     -- mnzwE   manozuwE        N-ap    removed;taken away     [[manozuwE/ADJ]]
 
-    noun     MaFCUL                    {- manozuwE -}       `gloss`  [ "removed", "taken away [ [ manozuwE / ADJ ] ]" ],
+    MaFCUL                    `noun`       {- manozuwE -}       [ "removed", "taken away" ],
 
     -- ;; munAziE_1
     -- mnAzE   munAziE Nall    struggling;contending
 
-    noun     MuFACiL                   {- munAziE -}        `gloss`  [ "struggling", "contending" ],
-
-    -- ;; munAzaE_1
-    -- mnAzE   munAzaE N       contested;disputed     [[munAzaE/ADJ]]
-
-    noun     MuFACaL                   {- munAzaE -}        `gloss`  [ "contested", "disputed [ [ munAzaE / ADJ ] ]" ],
-
-    -- ;; mutanAziE_1
-    -- mtnAzE  mutanAziE       Nall    conflicting;clashing
-
-    noun     MutaFACiL                 {- mutanAziE -}      `gloss`  [ "conflicting", "clashing" ],
+    MuFACiL                   `noun`       {- munAziE -}        [ "struggling", "contending" ],
 
     -- ;; mutanAzaE_1
     -- mtnAzE  mutanAzaE       N       contested;disputed     [[mutanAzaE/ADJ]]
 
-    noun     MutaFACaL                 {- mutanAzaE -}      `gloss`  [ "contested", "disputed [ [ mutanAzaE / ADJ ] ]" ],
-
-    -- ;; mutanAzaE_2
-    -- mtnAzE  mutanAzaE       N-ap    debatable;controversial     [[mutanAzaE/ADJ]]
-
-    noun     MutaFACaL                 {- mutanAzaE -}      `gloss`  [ "debatable", "controversial [ [ mutanAzaE / ADJ ] ]" ],
-
-    -- ;; munotazaE_1
-    -- mntzE   munotazaE       N-ap    withdrawn;taken away
-
-    noun     MuFtaCaL                  {- munotazaE -}      `gloss`  [ "withdrawn", "taken away" ] ]
+    MutaFACaL                 `noun`       {- mutanAzaE -}      [ "contested", "disputed" ] ]
 
  |> "n z f" <| [
-
-    -- ;; nazaf-i_1
-    -- nzf     nazaf   PV      drain;bleed
-    -- nzf     nozif   IV      drain;bleed
-
-    verb     FaCaL                     {- nazaf-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nzif IV" ]
-                                                            `gloss`  [ "drain", "bleed" ],
 
     -- ;; >anozaf_1
     -- >nzf    >anozaf PV      drain;bleed
@@ -17343,83 +4657,20 @@ lexicon = listing "Lexicon properties"
     -- nzf     nozif   IV_yu   drain;bleed
     -- nzf     nozaf   IV_Pass_yu      be drained;be bled
 
-    verb     HaFCaL                    {- Oanozaf -}        -- `others` [ "nzaf IV_Pass_yu", "nzif IV_yu" ]
-                                                            `gloss`  [ "drain", "bleed", "be drained", "be bled" ],
-
-    -- ;; {isotanozaf_1
-    -- <stnzf  {isotanozaf     PV      drain;bleed;exhaust
-    -- Astnzf  {isotanozaf     PV      drain;bleed;exhaust
-    -- stnzf   sotanozif       IV      drain;bleed;exhaust
-
-    verb     IstaFCaL                  {- {isotanozaf -}    -- `others` [ "stanzif IV" ]
-                                                            `gloss`  [ "drain", "bleed", "exhaust" ],
+    HaFCaL                    `verb`       {- Oanozaf -}        [ "drain", "bleed", "be drained", "be bled" ]
+                              {- `others` [ "nzaf IV_Pass_yu", "nzif IV_yu" ] -},
 
     -- ;; nazof_1
     -- nzf     nazof   N       draining;exhaustion;bleeding;hemorrhage
 
-    noun     FaCL                      {- nazof -}          `gloss`  [ "draining", "exhaustion", "bleeding", "hemorrhage" ],
-
-    -- ;; nazofiy~_1
-    -- nzfy    nazofiy~        N-ap    bleeding;hemorrhage     [[nazofiy~/ADJ]]
-
-    noun     FaCL |< Iy                {- nazofiy~ -}       `gloss`  [ "bleeding", "hemorrhage [ [ nazofiy ~ / ADJ ] ]" ],
-
-    -- ;; nuzofap_1
-    -- nzf     nuzof   Nap     small quantity;modicum
-
-    noun     FuCL |< aT                {- nuzofap -}        `gloss`  [ "small quantity", "modicum" ],
+    FaCL                      `noun`       {- nazof -}          [ "draining", "exhaustion", "bleeding", "hemorrhage" ],
 
     -- ;; naziyf_1
     -- nzyf    naziyf  N       bleeding;hemorrhage
 
-    noun     FaCIL                     {- naziyf -}         `gloss`  [ "bleeding", "hemorrhage" ],
-
-    -- ;; {isotinozAf_1
-    -- <stnzAf {isotinozAf     N/At    drainage;exhaustion
-    -- AstnzAf {isotinozAf     N/At    drainage;exhaustion
-
-    noun     IstiFCAL                  {- {isotinozAf -}    `gloss`  [ "drainage", "exhaustion" ],
-
-    -- ;; manozuwf_1
-    -- mnzwf   manozuwf        Nall    exhausted     [[manozuwf/ADJ]]
-
-    noun     MaFCUL                    {- manozuwf -}       `gloss`  [ "exhausted [ [ manozuwf / ADJ ] ]" ] ]
+    FaCIL                     `noun`       {- naziyf -}         [ "bleeding", "hemorrhage" ] ]
 
  |> "n z h" <| [
-
-    -- ;; nazuh-u_1
-    -- nzh     nazuh   PV_intr be untouched;refrain
-    -- nzh     nozuh   IV_intr be untouched;refrain
-
-    verb     FaCuL                     {- nazuh-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nzuh IV_intr" ]
-                                                            `gloss`  [ "be untouched", "refrain" ],
-
-    -- ;; nazih-a_1
-    -- nzh     nazih   PV_intr be respectable;be decent
-    -- nzh     nozah   IV_intr be respectable;be decent
-
-    verb     FaCiL                     {- nazih-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nzah IV_intr" ]
-                                                            `gloss`  [ "be respectable", "be decent" ],
-
-    -- ;; naz~ah_1
-    -- nzh     naz~ah  PV      entertain
-    -- nzh     naz~ih  IV_yu   entertain
-
-    verb     FaCCaL                    {- naz~ah -}         -- `others` [ "nazzih IV_yu" ]
-                                                            `gloss`  [ "entertain" ],
-
-    -- ;; tanaz~ah_1
-    -- tnzh    tanaz~ah        PV      take a stroll;be entertained
-    -- tnzh    tanaz~ah        IV      take a stroll;be entertained
-
-    verb     TaFaCCaL                  {- tanaz~ah -}       `gloss`  [ "take a stroll", "be entertained" ],
-
-    -- ;; nazih_1
-    -- nzh     nazih   N-ap    blameless;righteous
-
-    noun     FaCiL                     {- nazih -}          `gloss`  [ "blameless", "righteous" ],
 
     -- ;; naziyh_1
     -- nzyh    naziyh  N/ap    blameless;righteous;fair;impartial     [[naziyh/ADJ]]
@@ -17428,90 +4679,29 @@ lexicon = listing "Lexicon properties"
     -- nzhA}   nuzahA} Nhy     blameless;righteous;fair;impartial
     -- nzAh    nizAh   N       blameless;righteous;fair;impartial
 
-    noun     FaCIL                     {- naziyh -}         -- `others` [ "nuzahA' Nh Nhy N0_Nh", "nizAh N" ]
-                                                            `gloss`  [ "blameless", "righteous", "fair", "impartial [ [ naziyh / ADJ ] ]", "impartial" ],
-
-    -- ;; naziyh_2
-    -- nzyh    naziyh  Nprop   Nazih
-
-    noun     FaCIL                     {- naziyh -}         `gloss`  [ "Nazih" ],
-
-    -- ;; nazah_1
-    -- nzh     nazah   N       blamelessness;integrity
-
-    noun     FaCaL                     {- nazah -}          `gloss`  [ "blamelessness", "integrity" ],
+    FaCIL                     `noun`       {- naziyh -}         [ "blameless", "righteous", "fair", "impartial" ]
+                              `plural`     FiCAL
+                              {- `others` [ "nizAh N" ] -},
 
     -- ;; nazAhap_1
     -- nzAh    nazAh   Nap     impartiality;neutral attitude
 
-    noun     FaCAL |< aT               {- nazAhap -}        `gloss`  [ "impartiality", "neutral attitude" ],
+    FaCAL |< aT               `noun`       {- nazAhap -}        [ "impartiality", "neutral attitude" ],
 
     -- ;; nuzohap_1
     -- nzh     nuzoh   NapAt   picnic;outing;diversion
 
-    noun     FuCL |< aT                {- nuzohap -}        `gloss`  [ "picnic", "outing", "diversion" ],
-
-    -- ;; nuzah_1
-    -- nzh     nuzah   N       outings;diversions
-
-    noun     FuCaL                     {- nuzah -}          `gloss`  [ "outings", "diversions" ],
-
-    -- ;; manozahap_1
-    -- mnzh    manozah Napdu   picnic area
-
-    noun     MaFCaL |< aT              {- manozahap -}      `gloss`  [ "picnic area" ],
-
-    -- ;; manozahap_2
-    -- mnzh    manozah Napdu   garden;park
-    -- mnAzh   manAzih Ndip    gardens;parks
-
-    noun     MaFCaL |< aT              {- manozahap -}      -- `others` [ "manAzih Ndip" ]
-                                                            `gloss`  [ "garden", "park", "gardens", "parks" ],
-
-    -- ;; tanoziyh_1
-    -- tnzyh   tanoziyh        N/At    entertainment
-
-    noun     TaFCIL                    {- tanoziyh -}       `gloss`  [ "entertainment" ],
-
-    -- ;; tanaz~uh_1
-    -- tnzh    tanaz~uh        N/At    stroll;promenade
-
-    noun     TaFaCCuL                  {- tanaz~uh -}       `gloss`  [ "stroll", "promenade" ],
+    FuCL |< aT                `noun`       {- nuzohap -}        [ "picnic", "outing", "diversion" ],
 
     -- ;; munaz~ah_1
     -- mnzh    munaz~ah        N-ap    infallible     [[munaz~ah/ADJ]]
 
-    noun     MuFaCCaL                  {- munaz~ah -}       `gloss`  [ "infallible [ [ munaz ~ ah / ADJ ] ]" ],
+    MuFaCCaL                  `noun`       {- munaz~ah -}       [ "infallible" ],
 
     -- ;; mutanaz~ih_1
     -- mtnzh   mutanaz~ih      Nall    strolling;promenading     [[mutanaz~ih/ADJ]]
 
-    noun     MutaFaCCiL                {- mutanaz~ih -}     `gloss`  [ "strolling", "promenading [ [ mutanaz ~ ih / ADJ ] ]" ],
-
-    -- ;; mutanaz~ah_1
-    -- mtnzh   mutanaz~ah      N       promenade;stroll
-
-    noun     MutaFaCCaL                {- mutanaz~ah -}     `gloss`  [ "promenade", "stroll" ],
-
-    -- ;; munotazah_1
-    -- mntzh   munotazah       NduAt   park;recreation ground
-
-    noun     MuFtaCaL                  {- munotazah -}      `gloss`  [ "park", "recreation ground" ] ]
-
- |> "n z k" <| [
-
-    -- ;; nazak-u_1
-    -- nzk     nazak   PV      stab;pierce
-    -- nzk     nozuk   IV      stab;pierce
-
-    verb     FaCaL                     {- nazak-u -}        `imperf` [ FCuL ]
-                                                            -- `others` [ "nzuk IV" ]
-                                                            `gloss`  [ "stab", "pierce" ],
-
-    -- ;; nazok_1
-    -- nzk     nazok   N       stabbing;piercing
-
-    noun     FaCL                      {- nazok -}          `gloss`  [ "stabbing", "piercing" ] ]
+    MutaFaCCiL                `noun`       {- mutanaz~ih -}     [ "strolling", "promenading" ] ]
 
  |> "n z l" <| [
 
@@ -17519,104 +4709,43 @@ lexicon = listing "Lexicon properties"
     -- nzl     nazal   PV      descend;stay
     -- nzl     nozil   IV      descend;stay
 
-    verb     FaCaL                     {- nazal-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nzil IV" ]
-                                                            `gloss`  [ "descend", "stay" ],
-
-    -- ;; nazil-a_1
-    -- nzl     nazil   PV      descend;stay
-    -- nzl     nozal   IV      descend;stay
-
-    verb     FaCiL                     {- nazil-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nzal IV" ]
-                                                            `gloss`  [ "descend", "stay" ],
+    FaCaL                     `verb`       {- nazal-i -}        [ "descend", "stay" ]
+                              `imperf` [ FCiL ]
+                              {- `others` [ "nzil IV" ] -},
 
     -- ;; naz~al_1
     -- nzl     naz~al  PV      lower;unload
     -- nzl     naz~il  IV_yu   lower;unload
 
-    verb     FaCCaL                    {- naz~al -}         -- `others` [ "nazzil IV_yu" ]
-                                                            `gloss`  [ "lower", "unload" ],
-
-    -- ;; nAzal_1
-    -- nAzl    nAzal   PV      clash with
-    -- nAzl    nAzil   IV_yu   clash with
-
-    verb     FACaL                     {- nAzal -}          -- `others` [ "nAzil IV_yu" ]
-                                                            `gloss`  [ "clash with" ],
-
-    -- ;; >anozal_1
-    -- >nzl    >anozal PV      bring down;lower
-    -- Anzl    >anozal PV      bring down;lower
-    -- nzl     nozil   IV_yu   bring down;lower
-    -- >nzl    >unozil PV_Pass be revealed;be sent down
-    -- Anzl    >unozil PV_Pass be revealed;be sent down
-    -- nzl     nozal   IV_Pass_yu      be revealed;be sent down
-
-    verb     HaFCaL                    {- Oanozal -}        -- `others` [ "'unzil PV_Pass", "nzil IV_yu", "nzal IV_Pass_yu" ]
-                                                            `gloss`  [ "bring down", "lower", "be revealed", "be sent down" ],
-
-    -- ;; tanaz~al_1
-    -- tnzl    tanaz~al        PV      condescend
-    -- tnzl    tanaz~al        IV      condescend
-
-    verb     TaFaCCaL                  {- tanaz~al -}       `gloss`  [ "condescend" ],
+    FaCCaL                    `verb`       {- naz~al -}         [ "lower", "unload" ]
+                              {- `others` [ "nazzil IV_yu" ] -},
 
     -- ;; tanAzal_1
     -- tnAzl   tanAzal PV      surrender;waive;forego
     -- tnAzl   tanAzal IV      surrender;waive;forego
 
-    verb     TaFACaL                   {- tanAzal -}        `gloss`  [ "surrender", "waive", "forego" ],
-
-    -- ;; {isotanozal_1
-    -- <stnzl  {isotanozal     PV      ask to step down;deduct
-    -- Astnzl  {isotanozal     PV      ask to step down;deduct
-    -- stnzl   sotanozil       IV      ask to step down;deduct
-
-    verb     IstaFCaL                  {- {isotanozal -}    -- `others` [ "stanzil IV" ]
-                                                            `gloss`  [ "ask to step down", "deduct" ],
+    TaFACaL                   `verb`       {- tanAzal -}        [ "surrender", "waive", "forego" ],
 
     -- ;; nazol_1
     -- nzl     nazol   N       lodging
     -- nzwl    nuzuwl  N       lodgings
 
-    noun     FaCL                      {- nazol -}          -- `others` [ "nuzuwl N" ]
-                                                            `gloss`  [ "lodging", "lodgings" ],
-
-    -- ;; nuzol_1
-    -- nzl     nuzol   N       food served to a guest
-    -- >nzAl   >anozAl N       food served to a guest
-    -- AnzAl   >anozAl N       food served to a guest
-
-    noun     FuCL                      {- nuzol -}          -- `others` [ "'anzAl N" ]
-                                                            `gloss`  [ "food served to a guest" ],
-
-    -- ;; nazolap_1
-    -- nzl     nazol   Nap     stop;arrival
-
-    noun     FaCL |< aT                {- nazolap -}        `gloss`  [ "stop", "arrival" ],
+    FaCL                      `noun`       {- nazol -}          [ "lodging", "lodgings" ]
+                              `plural`     FuCUL
+                              {- `others` [ "nuzuwl N" ] -},
 
     -- ;; nazolap_2
     -- nzl     nazol   Napdu   cold;catarrh
     -- nzl     nazal   NAt     colds;catarrh
 
-    noun     FaCL |< aT                {- nazolap -}        -- `others` [ "nazal NAt" ]
-                                                            `gloss`  [ "cold", "catarrh", "colds" ],
-
-    -- ;; nizAlap_1
-    -- nzAl    nizAl   Nap     settlement;colony
-
-    noun     FiCAL |< aT               {- nizAlap -}        `gloss`  [ "settlement", "colony" ],
+    FaCL |< aT                `noun`       {- nazolap -}        [ "cold", "catarrh", "colds" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "nazal NAt" ] -},
 
     -- ;; nuzuwl_1
     -- nzwl    nuzuwl  N       descent;resignation
 
-    noun     FuCUL                     {- nuzuwl -}         `gloss`  [ "descent", "resignation" ],
-
-    -- ;; nuzuwliy~_1
-    -- nzwly   nuzuwliy~       N-ap    declining;falling;recessive     [[nuzuwliy~/ADJ]]     <pos>nuzuwliy~/ADJ</pos>
-
-    noun     FuCUL |< Iy               {- nuzuwliy~ -}      `gloss`  [ "declining", "falling", "recessive [ [ nuzuwliy ~ / ADJ ] ] nuzuwliy ~ /  / pos>" ],
+    FuCUL                     `noun`       {- nuzuwl -}         [ "descent", "resignation" ],
 
     -- ;; naziyl_1
     -- nzyl    naziyl  N/ap    inmate;tenant
@@ -17624,329 +4753,72 @@ lexicon = listing "Lexicon properties"
     -- nzlA&   nuzalA& Nh      inmates;tenants
     -- nzlA}   nuzalA} Nhy     inmates;tenants
 
-    noun     FaCIL                     {- naziyl -}         -- `others` [ "nuzalA' Nh Nhy N0_Nh" ]
-                                                            `gloss`  [ "inmate", "tenant", "inmates", "tenants" ],
+    FaCIL                     `noun`       {- naziyl -}         [ "inmate", "tenant", "inmates", "tenants" ],
 
     -- ;; manozil_1
     -- mnzl    manozil Ndu     house;residence
     -- mnAzl   manAzil Ndip    houses;residences
 
-    noun     MaFCiL                    {- manozil -}        -- `others` [ "manAzil Ndip" ]
-                                                            `gloss`  [ "house", "residence", "houses", "residences" ],
+    MaFCiL                    `noun`       {- manozil -}        [ "house", "residence", "houses", "residences" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "manAzil Ndip" ] -},
 
     -- ;; manoziliy~_1
     -- mnzly   manoziliy~      N-ap    domestic;household     [[manoziliy~/ADJ]]
 
-    noun     MaFCiL |< Iy              {- manoziliy~ -}     `gloss`  [ "domestic", "household [ [ manoziliy ~ / ADJ ] ]" ],
+    MaFCiL |< Iy              `noun`       {- manoziliy~ -}     [ "domestic", "household" ],
 
     -- ;; manozilap_1
     -- mnzl    manozil Nap     grade;rank;position
     -- mnAzl   manAzil Ndip    grades;ranks;positions
 
-    noun     MaFCiL |< aT              {- manozilap -}      -- `others` [ "manAzil Ndip" ]
-                                                            `gloss`  [ "grade", "rank", "position", "grades", "ranks", "positions" ],
-
-    -- ;; tanoziyl_1
-    -- tnzyl   tanoziyl        N/At    reduction;subtraction
-
-    noun     TaFCIL                    {- tanoziyl -}       `gloss`  [ "reduction", "subtraction" ],
-
-    -- ;; tanoziyl_2
-    -- tnzyl   tanoziyl        N       bring down;revelation
-
-    noun     TaFCIL                    {- tanoziyl -}       `gloss`  [ "bring down", "revelation" ],
-
-    -- ;; nizAl_1
-    -- nzAl    nizAl   N       lining up for battle;hostile encounter
-
-    noun     FiCAL                     {- nizAl -}          `gloss`  [ "lining up for battle", "hostile encounter" ],
-
-    -- ;; munAzalap_1
-    -- mnAzl   munAzal NapAt   lining up for battle;hostile encounter
-
-    noun     MuFACaL |< aT             {- munAzalap -}      `gloss`  [ "lining up for battle", "hostile encounter" ],
+    MaFCiL |< aT              `noun`       {- manozilap -}      [ "grade", "rank", "position", "grades", "ranks", "positions" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "manAzil Ndip" ] -},
 
     -- ;; <inozAl_1
     -- <nzAl   <inozAl N/At    lowering;disembarking;landing
     -- AnzAl   <inozAl N/At    lowering;disembarking;landing
 
-    noun     HiFCAL                    {- IinozAl -}        `gloss`  [ "lowering", "disembarking", "landing" ],
+    HiFCAL                    `noun`       {- IinozAl -}        [ "lowering", "disembarking", "landing" ],
 
     -- ;; tanAzul_1
     -- tnAzl   tanAzul N/At    concession;waiver;yielding
 
-    noun     TaFACuL                   {- tanAzul -}        `gloss`  [ "concession", "waiver", "yielding" ],
-
-    -- ;; tanAzuliy~_1
-    -- tnAzly  tanAzuliy~      N-ap    concessionary;yielding;in descending order     [[tanAzuliy~/ADJ]]
-
-    noun     TaFACuL |< Iy             {- tanAzuliy~ -}     `gloss`  [ "concessionary", "yielding", "in descending order [ [ tanAzuliy ~ / ADJ ] ]" ],
-
-    -- ;; {isotinozAl_1
-    -- <stnzAl {isotinozAl     N/At    deduction;discount
-    -- AstnzAl {isotinozAl     N/At    deduction;discount
-
-    noun     IstiFCAL                  {- {isotinozAl -}    `gloss`  [ "deduction", "discount" ],
+    TaFACuL                   `noun`       {- tanAzul -}        [ "concession", "waiver", "yielding" ],
 
     -- ;; nAzil_1
     -- nAzl    nAzil   Nall    staying;lodged
 
-    noun     FACiL                     {- nAzil -}          `gloss`  [ "staying", "lodged" ],
-
-    -- ;; nAzilap_1
-    -- nAzl    nAzil   Nap     event;mishap;action
-    -- nwAzl   nawAzil Ndip    events;mishaps;action
-
-    noun     FACiL |< aT               {- nAzilap -}        -- `others` [ "nawAzil Ndip" ]
-                                                            `gloss`  [ "event", "mishap", "action", "events", "mishaps" ],
-
-    -- ;; manozuwl_1
-    -- mnzwl   manozuwl        N       narcotic
-
-    noun     MaFCUL                    {- manozuwl -}       `gloss`  [ "narcotic" ],
-
-    -- ;; manozuwliy~_1
-    -- mnzwly  manozuwliy~     Nall    dope addict     [[manozuwliy~/ADJ]]
-
-    noun     MaFCUL |< Iy              {- manozuwliy~ -}    `gloss`  [ "dope addict [ [ manozuwliy ~ / ADJ ] ]" ],
-
-    -- ;; munaz~al_1
-    -- mnzl    munaz~al        N-ap    inlaid
-
-    noun     MuFaCCaL                  {- munaz~al -}       `gloss`  [ "inlaid" ],
-
-    -- ;; munAzil_1
-    -- mnAzl   munAzil Nall    adversary;opponent
-
-    noun     MuFACiL                   {- munAzil -}        `gloss`  [ "adversary", "opponent" ],
-
-    -- ;; munozal_1
-    -- mnzl    munozal N       revealed     [[munozal/ADJ]]
-
-    noun     MuFCaL                    {- munozal -}        `gloss`  [ "revealed [ [ munozal / ADJ ] ]" ],
-
-    -- ;; mutanAzil_1
-    -- mtnAzl  mutanAzil       Nall    abdicating;resigning
-
-    noun     MutaFACiL                 {- mutanAzil -}      `gloss`  [ "abdicating", "resigning" ],
-
-    -- ;; musotanozil_1
-    -- mstnzl  musotanozil     Nall    lessee
-
-    noun     MustaFCiL                 {- musotanozil -}    `gloss`  [ "lessee" ] ]
-
- |> "n z n z" <| [
-
-    -- ;; nazonaz_1
-    -- nznz    nazonaz PV      rock;dandle
-    -- nznz    nazoniz IV_yu   rock;dandle
-
-    verb     KaRDaS                    {- nazonaz -}        -- `others` [ "nazniz IV_yu" ]
-                                                            `gloss`  [ "rock", "dandle" ],
-
-    -- ;; nazonazap_1
-    -- nznz    nazonaz Nap     rocking;dandling
-
-    noun     KaRDaS |< aT              {- nazonazap -}      `gloss`  [ "rocking", "dandling" ] ]
-
- |> "n z q" <| [
-
-    -- ;; nazaq-i_1
-    -- nzq     nazaq   PV      rush forward;be rash
-    -- nzq     noziq   IV      rush forward;be rash
-
-    verb     FaCaL                     {- nazaq-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nziq IV" ]
-                                                            `gloss`  [ "rush forward", "be rash" ],
-
-    -- ;; naziq-a_1
-    -- nzq     naziq   PV      rush forward;be rash
-    -- nzq     nozaq   IV      rush forward;be rash
-
-    verb     FaCiL                     {- naziq-a -}        `imperf` [ FCaL ]
-                                                            -- `others` [ "nzaq IV" ]
-                                                            `gloss`  [ "rush forward", "be rash" ],
-
-    -- ;; naz~aq_1
-    -- nzq     naz~aq  PV      spur on
-    -- nzq     naz~iq  IV_yu   spur on
-
-    verb     FaCCaL                    {- naz~aq -}         -- `others` [ "nazziq IV_yu" ]
-                                                            `gloss`  [ "spur on" ],
-
-    -- ;; nazaq_1
-    -- nzq     nazaq   N       haste;impetuosity
-
-    noun     FaCaL                     {- nazaq -}          `gloss`  [ "haste", "impetuosity" ],
-
-    -- ;; nuzuwq_1
-    -- nzwq    nuzuwq  N       haste;impetuosity
-
-    noun     FuCUL                     {- nuzuwq -}         `gloss`  [ "haste", "impetuosity" ],
-
-    -- ;; naziq_1
-    -- nzq     naziq   Nall    hasty;impetuous;rash
-
-    noun     FaCiL                     {- naziq -}          `gloss`  [ "hasty", "impetuous", "rash" ] ]
+    FACiL                     `noun`       {- nAzil -}          [ "staying", "lodged" ] ]
 
  |> "n z r" <| [
-
-    -- ;; nazor_1
-    -- nzr     nazor   N-ap    small amount;trifle
-
-    noun     FaCL                      {- nazor -}          `gloss`  [ "small amount", "trifle" ],
-
-    -- ;; naziyr_1
-    -- nzyr    naziyr  N-ap    small amount;trifle
-
-    noun     FaCIL                     {- naziyr -}         `gloss`  [ "small amount", "trifle" ],
 
     -- ;; nizAr_1
     -- nzAr    nizAr   Nprop   Nizar
 
-    noun     FiCAL                     {- nizAr -}          `gloss`  [ "Nizar" ] ]
-
- |> "n z w" <| [
-
-    -- ;; nazA-u_1
-    -- nzA     nazA    PV_0    leap;escape
-    -- nzw     nazaw   PV_Atn  leap;escape
-    -- nz      naz     PV_ttAw leap;escape
-    -- nzw     nozuw   IV_0hAnn        leap;escape
-    -- nz      noz     IV_0hwnyn       leap;escape
-
-    verb     FaCA                      {- nazA-u -}         `imperf` [ FCuL ]
-                                                            -- `others` [ "nz IV_0hwnyn", "nzuw IV_0hAnn", "naz PV_ttAw", "nazaw PV_Atn" ]
-                                                            `gloss`  [ "leap", "escape" ],
-
-    -- ;; tanaz~aY_1
-    -- tnzY    tanaz~aY        PV_0    leap;tremble
-    -- tnzy    tanaz~ay        PV_Atn  leap;tremble
-    -- tnz     tanaz~  PV_ttAw leap;tremble
-    -- tnzY    tanaz~aY        IV_0    leap;tremble
-    -- tnzy    tanaz~ay        IV_Ann  leap;tremble
-    -- tnz     tanaz~  IV_0hwnyn       leap;tremble
-
-    verb     TaFaCCY                   {- tanaz~aY -}       -- `others` [ "tanazz IV_0hwnyn PV_ttAw", "tanazzay PV_Atn IV_Ann" ]
-                                                            `gloss`  [ "leap", "tremble" ],
-
-    -- ;; nazowap_1
-    -- nzw     nazow   Napdu   outburst;eruption
-    -- nzw     nazaw   NAt     outbursts;eruptions
-
-    noun     FaCL |< aT                {- nazowap -}        -- `others` [ "nazaw NAt" ]
-                                                            `gloss`  [ "outburst", "eruption", "outbursts", "eruptions" ],
-
-    -- ;; nazowap_2
-    -- nzw     nazow   Napdu   leap;jump
-    -- nzw     nazaw   NAt     leaps;jumps
-    -- nzw     nazaw   NAt     leaping;jumping
-
-    noun     FaCL |< aT                {- nazowap -}        -- `others` [ "nazaw NAt" ]
-                                                            `gloss`  [ "leap", "jump", "leaps", "jumps", "leaping", "jumping" ],
-
-    -- ;; nazawAn_1
-    -- nzwAn   nazawAn N       outburst;eruption
-
-    noun     FaCaLAn                   {- nazawAn -}        `gloss`  [ "outburst", "eruption" ] ]
-
- |> "n z w y" <| [
-
-    -- ;; nazowiy~_1
-    -- nzwy    nazowiy~        Nall    capricious     [[nazowiy~/ADJ]]
-
-    noun     KaRDIS                    {- nazowiy~ -}       `gloss`  [ "capricious [ [ nazowiy ~ / ADJ ] ]" ] ]
-
- |> "n z z" <| [
-
-    -- ;; naz~-i_1
-    -- nz      naz~    PV_V    leak;trickle
-    -- nzz     nazaz   PV_C    leak;trickle
-    -- nz      niz~    IV_V    leak;trickle
-    -- nzz     noziz   IV_C    leak;trickle
-
-    verb     FaCL                      {- naz~-i -}         `imperf` [ FCiL ]
-                                                            -- `others` [ "nziz IV_C", "nazaz PV_C", "nizz IV_V" ]
-                                                            `gloss`  [ "leak", "trickle" ],
-
-    -- ;; naziyz_1
-    -- nzyz    naziyz  N       leaking;trickling
-
-    noun     FaCIL                     {- naziyz -}         `gloss`  [ "leaking", "trickling" ],
-
-    -- ;; naz~_1
-    -- nz      naz~    N       leaking;trickling;seepage
-    -- nz      niz~    N       leaking;trickling;seepage
-
-    noun     FaCL                      {- naz~ -}           -- `others` [ "nizz N" ]
-                                                            `gloss`  [ "leaking", "trickling", "seepage" ],
-
-    -- ;; nuzAz_1
-    -- nzAz    nuzAz   Nap     leaking;trickling;seepage
-
-    noun     FuCAL                     {- nuzAz -}          `gloss`  [ "leaking", "trickling", "seepage" ],
-
-    -- ;; nuzuwz_1
-    -- nzwz    nuzuwz  N       leaking;trickling;seepage
-
-    noun     FuCUL                     {- nuzuwz -}         `gloss`  [ "leaking", "trickling", "seepage" ],
-
-    -- ;; naz~_2
-    -- nz      naz~    N-ap    swift;agile;fickle
-
-    noun     FaCL                      {- naz~ -}           `gloss`  [ "swift", "agile", "fickle" ],
-
-    -- ;; naz~ap_1
-    -- nz      naz~    Nap     lust
-    -- nz      niz~    Nap     lust
-
-    noun     FaCL |< aT                {- naz~ap -}         -- `others` [ "nizz Nap" ]
-                                                            `gloss`  [ "lust" ],
-
-    -- ;; naziyz_2
-    -- nzyz    naziyz  N-ap    unstable;sensuous     [[naziyz/ADJ]]
-
-    noun     FaCIL                     {- naziyz -}         `gloss`  [ "unstable", "sensuous [ [ naziyz / ADJ ] ]" ] ]
+    FiCAL                     `noun`       {- nizAr -}          [ "Nizar" ] ]
 
  |> "n.guwbAniy" <| [
 
     -- ;; nguwbAniy_1
     -- ngwbAny nguwbAniy       Nprop   Ngubani
 
-    noun     Identity                  {- nguwbAniy -}      `gloss`  [ "Ngubani" ] ]
+    Identity                  `noun`       {- nguwbAniy -}      [ "Ngubani" ] ]
 
  |> "nA.giyuwfA" <| [
 
     -- ;; nAgiyuwfA_1
     -- nAgywfA nAgiyuwfA       Nprop   Nagyova
 
-    noun     Identity                  {- nAgiyuwfA -}      `gloss`  [ "Nagyova" ] ]
-
- |> "nA.siyb" <| [
-
-    -- ;; nASiyb_1
-    -- nASyb   nASiyb  N       lottery
-
-    noun     Identity                  {- nASiyb -}         `gloss`  [ "lottery" ] ]
+    Identity                  `noun`       {- nAgiyuwfA -}      [ "Nagyova" ] ]
 
  |> "nA_hiyt^siyfAn" <| [
 
     -- ;; nAxiyt$iyfAn_1
     -- nAxyt$yfAn      nAxiyt$iyfAn    N0      Nakhichevan
 
-    noun     Identity                  {- nAxiyt$iyfAn -}   `gloss`  [ "Nakhichevan" ] ]
-
- |> "nAbilyuwn" <| [
-
-    -- ;; nAbiloyuwn_1
-    -- nAblywn nAbiloyuwn      Nprop   Napoleon
-
-    noun     Identity                  {- nAbiloyuwn -}     `gloss`  [ "Napoleon" ],
-
-    -- ;; nAbiloyuwniy~_1
-    -- nAblywny        nAbiloyuwniy~   Nall    Napoleonic     [[nAbiloyuwniy~/ADJ]]
-
-    noun     Identity |< Iy            {- nAbiloyuwniy~ -}  `gloss`  [ "Napoleonic [ [ nAbiloyuwniy ~ / ADJ ] ]" ] ]
+    Identity                  `noun`       {- nAxiyt$iyfAn -}   [ "Nakhichevan" ] ]
 
  |> "nAbuliy" <| [
 
@@ -17954,125 +4826,42 @@ lexicon = listing "Lexicon properties"
     -- nAbly   nAbuliy N0      Naples
     -- nAbwly  nAbuwliy        N0      Naples
 
-    noun     Identity                  {- nAbuliy -}        -- `others` [ "nAbuwliy N0" ]
-                                                            `gloss`  [ "Naples" ] ]
-
- |> "nAbuls" <| [
-
-    -- ;; nAbulosiy~_1
-    -- nAblsy  nAbulosiy~      Nall    from/of Nablus;Nabulsi     [[nAbulosiy~/ADJ]]
-
-    noun     Identity |< Iy            {- nAbulosiy~ -}     `gloss`  [ "from / of Nablus", "Nabulsi [ [ nAbulosiy ~ / ADJ ] ]" ] ]
+    Identity                  `noun`       {- nAbuliy -}        [ "Naples" ] ]
 
  |> "nAbulus" <| [
 
     -- ;; nAbulus_1
     -- nAbls   nAbulus Ndip    Nablus
 
-    noun     Identity                  {- nAbulus -}        `gloss`  [ "Nablus" ] ]
+    Identity                  `noun`       {- nAbulus -}        [ "Nablus" ] ]
 
  |> "nAhiyk" <| [
 
     -- ;; nAhiyk_1
     -- nAhyk   nAhiyk  FW-Wa   not to mention     [[nAhiyk/FUNC_WORD]]
 
-    noun     Identity                  {- nAhiyk -}         `gloss`  [ "not to mention [ [ nAhiyk / FUNC_WORD ] ]" ] ]
-
- |> "nAmiy" <| [
-
-    -- ;; nAmiy_1
-    -- nAmy    nAmiy   N0F     developing     [[nAmiy/ADJ]]
-    -- nAm     nAm     NK      developing
-    -- nAmy    nAmiy   NAn_Nayn        developing
-    -- nAm     nAm     Nuwn_Niyn       developing
-    -- nAmy    nAmiy   NapAt   developing
-
-    noun     Identity                  {- nAmiy -}          -- `others` [ "nAm Nuwn_Niyn NK" ]
-                                                            `gloss`  [ "developing [ [ nAmiy / ADJ ] ]", "developing" ],
-
-    -- ;; nAmiy_2
-    -- nwAmy   nawAmiy N0_Nh   tumors
-    -- nwAm    nawAm   NK      tumors
-
-    noun     Identity                  {- nAmiy -}          -- `others` [ "nawAm NK", "nawAmiy N0_Nh" ]
-                                                            `gloss`  [ "tumors" ] ]
-
- |> "nAmiyb" <| [
-
-    -- ;; nAmiybiy~_1
-    -- nAmyby  nAmiybiy~       Nall    Namibian     [[nAmiybiy~/ADJ]]
-    -- nAmyby  nAmiybiy~       Nall    Namibian     [[nAmiybiy~/NOUN]]
-
-    noun     Identity |< Iy            {- nAmiybiy~ -}      `gloss`  [ "Namibian [ [ nAmiybiy ~ / ADJ ] ]", "Namibian [ [ nAmiybiy ~ / NOUN ] ]" ] ]
+    Identity                  `noun`       {- nAhiyk -}         [ "not to mention" ] ]
 
  |> "nAmiybiyA" <| [
 
     -- ;; nAmiybiyA_1
     -- nAmybyA nAmiybiyA       N0      Namibia
 
-    noun     Identity                  {- nAmiybiyA -}      `gloss`  [ "Namibia" ] ]
-
- |> "nAnAmiy" <| [
-
-    -- ;; nAnAmiy_1
-    -- nAnAmy  nAnAmiy N0      Nanami
-
-    noun     Identity                  {- nAnAmiy -}        `gloss`  [ "Nanami" ] ]
+    Identity                  `noun`       {- nAmiybiyA -}      [ "Namibia" ] ]
 
  |> "nAndrwlwn" <| [
 
     -- ;; nAndrwlwn_1
     -- nAndrwlwn       nAndrwlwn       N0      Nandrolone
 
-    noun     Identity                  {- nAndrwlwn -}      `gloss`  [ "Nandrolone" ] ]
+    Identity                  `noun`       {- nAndrwlwn -}      [ "Nandrolone" ] ]
 
  |> "nAnsiy" <| [
 
     -- ;; nAnosiy_1
     -- nAnsy   nAnosiy Nprop   Nancy
 
-    noun     Identity                  {- nAnosiy -}        `gloss`  [ "Nancy" ] ]
-
- |> "nAnt" <| [
-
-    -- ;; nAnt_1
-    -- nAnt    nAnt    Nprop   Nantes
-
-    noun     Identity                  {- nAnt -}           `gloss`  [ "Nantes" ] ]
-
- |> "nArAyAnAn" <| [
-
-    -- ;; nArAyAnAn_1
-    -- nArAyAnAn       nArAyAnAn       Nprop   Narayanan
-
-    noun     Identity                  {- nArAyAnAn -}      `gloss`  [ "Narayanan" ] ]
-
- |> "nAr^giyl" <| [
-
-    -- ;; nArjiyl_1
-    -- nArjyl  nArjiyl N       coconut
-    -- nArjyl  nArjiyl Napdu   coconut
-
-    noun     Identity                  {- nArjiyl -}        `gloss`  [ "coconut" ],
-
-    -- ;; nArjiylap_1
-    -- nArjyl  nArjiyl NapAt   narghile;water pipe
-
-    noun     Identity |< aT            {- nArjiylap -}      `gloss`  [ "narghile", "water pipe" ] ]
-
- |> "nAran^g" <| [
-
-    -- ;; nAranoj_1
-    -- nArnj   nAranoj N       bitter orange
-
-    noun     Identity                  {- nAranoj -}        `gloss`  [ "bitter orange" ] ]
-
- |> "nArandiyn" <| [
-
-    -- ;; nAranodiyn_1
-    -- nArndyn nAranodiyn      N0      nard;spikenard
-
-    noun     Identity                  {- nAranodiyn -}     `gloss`  [ "nard", "spikenard" ] ]
+    Identity                  `noun`       {- nAnosiy -}        [ "Nancy" ] ]
 
  |> "nAsdAk" <| [
 
@@ -18082,64 +4871,35 @@ lexicon = listing "Lexicon properties"
     -- nAsdAq  nAsodAq N0      NASDAQ
     -- nAzdAq  nAzodAq N0      NASDAQ
 
-    noun     Identity                  {- nAsodAk -}        -- `others` [ "nAzdAk N0", "nAsdAq N0", "nAzdAq N0" ]
-                                                            `gloss`  [ "NASDAQ" ] ]
+    Identity                  `noun`       {- nAsodAk -}        [ "NASDAQ" ] ]
 
  |> "nAsywnAl" <| [
 
     -- ;; nAsywnAl_1
     -- nAsywnAl        nAsywnAl        N0      National;Nacional
 
-    noun     Identity                  {- nAsywnAl -}       `gloss`  [ "National", "Nacional" ] ]
+    Identity                  `noun`       {- nAsywnAl -}       [ "National", "Nacional" ] ]
 
  |> "nAtAliy" <| [
 
     -- ;; nAtAliy_1
     -- nAtAly  nAtAliy Nprop   Nathalie;Natalie
 
-    noun     Identity                  {- nAtAliy -}        `gloss`  [ "Nathalie", "Natalie" ] ]
+    Identity                  `noun`       {- nAtAliy -}        [ "Nathalie", "Natalie" ] ]
 
  |> "nAtuw" <| [
 
     -- ;; nAtuw_1
     -- nAtw    nAtuw   N0      NATO
 
-    noun     Identity                  {- nAtuw -}          `gloss`  [ "NATO" ] ]
-
- |> "nAwhiyruw" <| [
-
-    -- ;; nAwohiyruw_1
-    -- nAwhyrw nAwohiyruw      Nprop   Naohiro
-
-    noun     Identity                  {- nAwohiyruw -}     `gloss`  [ "Naohiro" ] ]
-
- |> "nAyluwn" <| [
-
-    -- ;; nAyoluwn_1
-    -- nAylwn  nAyoluwn        N       nylon
-
-    noun     Identity                  {- nAyoluwn -}       `gloss`  [ "nylon" ] ]
-
- |> "nAymiks" <| [
-
-    -- ;; nAyomikos_1
-    -- nAymks  nAyomikos       N0      NYMEX (New York Mercantile Exchange)
-
-    noun     Identity                  {- nAyomikos -}      `gloss`  [ "NYMEX ( New York Mercantile Exchange )" ] ]
-
- |> "na.dnA.d" <| [
-
-    -- ;; naDonAD_1
-    -- nDnAD   naDonAD N-ap    hissing menacingly
-
-    noun     Identity                  {- naDonAD -}        `gloss`  [ "hissing menacingly" ] ]
+    Identity                  `noun`       {- nAtuw -}          [ "NATO" ] ]
 
  |> "na.hnu" <| [
 
     -- ;; naHonu_1
     -- nHn     naHonu  FW-Wa   we   [[naHonu/PRON_1P]]
 
-    noun     Identity                  {- naHonu -}         `gloss`  [ "we [ [ naHonu / PRON_1P ] ]" ] ]
+    Identity                  `noun`       {- naHonu -}         [ "we" ] ]
 
  |> "na.hwa" <| [
 
@@ -18147,136 +4907,28 @@ lexicon = listing "Lexicon properties"
     -- nHw     naHowa  FW-Wa   towards;approximately     [[naHowa/PREP]]
     -- nHw     naHowa  FW-Wa-a towards;approximately     [[naHowa/PREP]]
 
-    noun     Identity                  {- naHowa -}         `gloss`  [ "towards", "approximately [ [ naHowa / PREP ] ]" ] ]
-
- |> "na.siybiyn" <| [
-
-    -- ;; naSiybiyn_1
-    -- nSybyn  naSiybiyn       Ndip    Nisibin
-
-    noun     Identity                  {- naSiybiyn -}      `gloss`  [ "Nisibin" ] ]
+    Identity                  `noun`       {- naHowa -}         [ "towards", "approximately" ] ]
 
  |> "na.srAllh" <| [
 
     -- ;; naSorAllh_1
     -- nSrAllh naSorAll~`h     N0      Nasrallah
 
-    noun     Identity                  {- naSorAllh -}      -- `others` [ "na.srAlll_ah N0" ]
-                                                            `gloss`  [ "Nasrallah" ] ]
+    Identity                  `noun`       {- naSorAllh -}      [ "Nasrallah" ] ]
 
  |> "na.srAwiy" <| [
 
     -- ;; naSorAwiy_1
     -- nSrAwy  naSorAwiy       N0      Nasrawi;Nasraoui
 
-    noun     Identity                  {- naSorAwiy -}      `gloss`  [ "Nasrawi", "Nasraoui" ] ]
-
- |> "na.z.zArAt" <| [
-
-    -- ;; naZ~ArAtiy~_1
-    -- nZArAty naZ~ArAtiy~     Nall    optometrist;optician     [[naZ~ArAtiy~/ADJ]]
-
-    noun     Identity |< Iy            {- naZ~ArAtiy~ -}    `gloss`  [ "optometrist", "optician [ [ naZ ~ ArAtiy ~ / ADJ ] ]" ] ]
-
- |> "na^sA^siyb" <| [
-
-    -- ;; na$A$iyb_1
-    -- n$A$yb  na$A$iyb        N0      Nashashib
-
-    noun     Identity                  {- na$A$iyb -}       `gloss`  [ "Nashashib" ],
-
-    -- ;; na$A$iybiy~_1
-    -- n$A$ybiy~       na$A$iybiy~     N0      arrow maker
-
-    noun     Identity |< Iy            {- na$A$iybiy~ -}    `gloss`  [ "arrow maker" ],
-
-    -- ;; na$A$iybiy~_2
-    -- n$A$ybiy~       na$A$iybiy~     N0      Nashashibi
-
-    noun     Identity |< Iy            {- na$A$iybiy~ -}    `gloss`  [ "Nashashibi" ] ]
-
- |> "na_h^suw^s" <| [
-
-    -- ;; naxo$uw$_1
-    -- nx$w$   naxo$uw$        Ndu     gill;branchia
-    -- nxA$y$  naxA$iy$        Ndip    gills;branchia
-
-    noun     Identity                  {- naxo$uw$ -}       -- `others` [ "na_hA^siy^s Ndip" ]
-                                                            `gloss`  [ "gill", "branchia", "gills" ] ]
-
- |> "nafyiyy" <| [
-
-    -- ;; nafoyiy~_1
-    -- nfyy    nafoyiy~        N-ap    negative     [[nafoyiy~/ADJ]]
-
-    noun     Identity                  {- nafoyiy~ -}       `gloss`  [ "negative [ [ nafoyiy ~ / ADJ ] ]" ] ]
-
- |> "nahyiyy" <| [
-
-    -- ;; nahoyiy~_1
-    -- nhyy    nahoyiy~        Nall    prohibitive;interdictory     [[nahoyiy~/ADJ]]
-
-    noun     Identity                  {- nahoyiy~ -}       `gloss`  [ "prohibitive", "interdictory [ [ nahoyiy ~ / ADJ ] ]" ] ]
-
- |> "namA'" <| [
-
-    -- ;; namA'_1
-    -- nmA'    namA'   N0_Nh   growth;accretion
-    -- nmA&    namA&   Nh      growth;accretion
-    -- nmA}    namA}   Nhy     growth;accretion
-
-    noun     Identity                  {- namA' -}          `gloss`  [ "growth", "accretion" ] ]
-
- |> "namY" <| [
-
-    -- ;; namaY-i_1
-    -- nmY     namaY   PV_0    grow;make progress
-    -- nmA     namA    PV_h    grow;make progress
-    -- nmy     namay   PV_Atn  grow;make progress
-    -- nm      nam     PV_ttAw grow;make progress
-    -- nmy     nomiy   IV_0hAnn        grow;make progress
-    -- nm      nom     IV_0hwnyn       grow;make progress
-
-    verb     Identity                  {- namaY-i -}        `imperf` [ FCiL ]
-                                                            -- `others` [ "nm IV_0hwnyn", "namay PV_Atn", "nmiy IV_0hAnn", "nam PV_ttAw", "namA PV_h" ]
-                                                            `gloss`  [ "grow", "make progress" ],
-
-    -- ;; namAp_1
-    -- nmA     namA    Nap     louse
-    -- nmY     namaY   N0      lice
-    -- nmA     namA    Nhy     lice
-
-    noun     Identity |< aT            {- namAp -}          -- `others` [ "namY N0", "namA Nhy" ]
-                                                            `gloss`  [ "louse", "lice" ] ]
-
- |> "namiyy" <| [
-
-    -- ;; namiy~_1
-    -- nmy     namiy~  N       growth;accretion
-
-    noun     Identity                  {- namiy~ -}         `gloss`  [ "growth", "accretion" ] ]
-
- |> "nammY" <| [
-
-    -- ;; nam~aY_1
-    -- nmY     nam~aY  PV_0    make grow;advance
-    -- nmA     nam~A   PV_h    make grow;advance
-    -- nmy     nam~ay  PV_Atn  make grow;advance
-    -- nm      nam~    PV_ttAw make grow;advance
-    -- nmy     nam~iy  IV_0hAnn_yu     make grow;advance
-    -- nm      nam~    IV_0hwnyn_yu    make grow;advance
-    -- nmY     nam~aY  IV_0_Pass_yu    be grown;be developed;be advanced
-    -- nmy     nam~ay  IV_Ann_Pass_yu  be grown;be developed;be advanced
-
-    verb     Identity                  {- nam~aY -}         -- `others` [ "nammA PV_h", "namm IV_0hwnyn_yu PV_ttAw", "nammiy IV_0hAnn_yu", "nammay PV_Atn IV_Ann_Pass_yu" ]
-                                                            `gloss`  [ "make grow", "advance", "be grown", "be developed", "be advanced" ] ]
+    Identity                  `noun`       {- naSorAwiy -}      [ "Nasrawi", "Nasraoui" ] ]
 
  |> "namsA" <| [
 
     -- ;; namosA_1
     -- nmsA    namosA  N0      Austria
 
-    noun     Identity                  {- namosA -}         `gloss`  [ "Austria" ] ]
+    Identity                  `noun`       {- namosA -}         [ "Austria" ] ]
 
  |> "namuw_da^g" <| [
 
@@ -18286,128 +4938,40 @@ lexicon = listing "Lexicon properties"
     -- Anmw*j  >unomuw*aj      Ndu     sample;model
     -- nmA*j   namA*ij Ndip    samples;models
 
-    noun     Identity                  {- namuw*aj -}       -- `others` [ "namA_di^g Ndip", "'unmuw_da^g Ndu" ]
-                                                            `gloss`  [ "sample", "model", "samples", "models" ],
+    Identity                  `noun`       {- namuw*aj -}       [ "sample", "model", "samples", "models" ],
 
     -- ;; namuw*ajiy~_1
     -- nmw*jy  namuw*ajiy~     Nall    exemplary;model     [[namuw*ajiy~/ADJ]]
 
-    noun     Identity |< Iy            {- namuw*ajiy~ -}    `gloss`  [ "exemplary", "model [ [ namuw*ajiy ~ / ADJ ] ]" ] ]
-
- |> "naran^g" <| [
-
-    -- ;; naranoj_1
-    -- nrnj    naranoj N       bitter orange
-
-    noun     Identity                  {- naranoj -}        `gloss`  [ "bitter orange" ] ]
+    Identity |< Iy            `noun`       {- namuw*ajiy~ -}    [ "exemplary", "model" ] ]
 
  |> "nawAk^suw.t" <| [
 
     -- ;; nawAko$uwT_1
     -- nwAk$wT nawAko$uwT      N0      Nouakchott
 
-    noun     Identity                  {- nawAko$uwT -}     `gloss`  [ "Nouakchott" ] ]
-
- |> "nawbat^g" <| [
-
-    -- ;; nawobatojiy~_1
-    -- nwbtjy  nawobatojiy~    Nall    on duty;on call     [[nawobatojiy~/ADJ]]
-
-    noun     Identity |< Iy            {- nawobatojiy~ -}   `gloss`  [ "on duty", "on call [ [ nawobatojiy ~ / ADJ ] ]" ],
-
-    -- ;; nawobatojiy~ap_1
-    -- nwbtjy  nawobatojiy~    Nap     shift duty;night duty     [[nawobatojiy~/NOUN]]
-
-    noun     Identity |< Iy |< aT      {- nawobatojiy~ap -} `gloss`  [ "shift duty", "night duty [ [ nawobatojiy ~ / NOUN ] ]" ] ]
+    Identity                  `noun`       {- nawAko$uwT -}     [ "Nouakchott" ] ]
 
  |> "nay^giyriyA" <| [
 
     -- ;; nayojiyriyA_1
     -- nyjyryA nayojiyriyA     N0      Nigeria
 
-    noun     Identity                  {- nayojiyriyA -}    `gloss`  [ "Nigeria" ] ]
+    Identity                  `noun`       {- nayojiyriyA -}    [ "Nigeria" ] ]
 
  |> "nayruwbiy" <| [
 
     -- ;; nayoruwbiy_1
     -- nyrwby  nayoruwbiy      Nprop   Nairobi
 
-    noun     Identity                  {- nayoruwbiy -}     `gloss`  [ "Nairobi" ] ]
-
- |> "ni.hriyr" <| [
-
-    -- ;; niHoriyr_1
-    -- nHryr   niHoriyr        N/ap    skilled;experience
-    -- nHAryr  naHAriyr        Ndip    skilled;experience
-
-    noun     Identity                  {- niHoriyr -}       -- `others` [ "na.hAriyr Ndip" ]
-                                                            `gloss`  [ "skilled", "experience" ] ]
-
- |> "ni^sAn^g" <| [
-
-    -- ;; ni$Anojiy~_1
-    -- n$Anjy  ni$Anojiy~      Nall    sharpshooter;marksman;sniper     [[ni$Anojiy~/ADJ]]
-
-    noun     Identity |< Iy            {- ni$Anojiy~ -}     `gloss`  [ "sharpshooter", "marksman", "sniper [ [ ni $ Anojiy ~ / ADJ ] ]" ] ]
-
- |> "ni^san^g" <| [
-
-    -- ;; ni$anojiy~_1
-    -- n$njy   ni$anojiy~      Nall    sharpshooter;marksman;sniper     [[na$anojiy~/ADJ]]
-
-    noun     Identity |< Iy            {- ni$anojiy~ -}     `gloss`  [ "sharpshooter", "marksman", "sniper [ [ na $ anojiy ~ / ADJ ] ]" ] ]
+    Identity                  `noun`       {- nayoruwbiy -}     [ "Nairobi" ] ]
 
  |> "ni`mat" <| [
 
     -- ;; niEomat_1
     -- nEmt    niEomat Nprop   Nimat
 
-    noun     Identity                  {- niEomat -}        `gloss`  [ "Nimat" ] ]
-
- |> "nihA'iyy" <| [
-
-    -- ;; nihA}iy~_1
-    -- nhA}y   nihA}iy~        Nall    final;definitive;conclusive     [[nihA}iy~/ADJ]]
-    -- nhA}y   nihA}iy~        NF      finally;in the end     [[nihA}iy~/ADV]]
-
-    noun     Identity                  {- nihA}iy~ -}       `gloss`  [ "final", "definitive", "conclusive [ [ nihA } iy ~ / ADJ ] ]", "finally", "in the end [ [ nihA } iy ~ / ADV ] ]" ],
-
-    -- ;; nihA}iy~_2
-    -- nhA}y   nihA}iy~        NduAt   final (in sports)    [[nihA}iy~/NOUN]]
-
-    noun     Identity                  {- nihA}iy~ -}       `gloss`  [ "final ( in sports ) [ [ nihA } iy ~ / NOUN ] ]" ] ]
-
- |> "nisA'iyy" <| [
-
-    -- ;; nisA}iy~_1
-    -- nsA}y   nisA}iy~        N-ap    women's;feminist;feminine     [[nisA}iy~/ADJ]]
-
-    noun     Identity                  {- nisA}iy~ -}       `gloss`  [ "women 's", "feminist", "feminine [ [ nisA } iy ~ / ADJ ] ]" ],
-
-    -- ;; nisA}iy~At_1
-    -- nsA}y   nisA}iy~        NAt     women's affairs     [[nisA}iy~/NOUN]]
-
-    noun     Identity |< At            {- nisA}iy~At -}     -- `others` [ "nisA'iyy NAt" ]
-                                                            `gloss`  [ "women 's affairs [ [ nisA } iy ~ / NOUN ] ]" ],
-
-    -- ;; nisA}iy~ap_1
-    -- nsA}y   nisA}iy~        Nap     feminism;feminist movement     [[nisA}iy~/NOUN]]
-
-    noun     Identity |< aT            {- nisA}iy~ap -}     `gloss`  [ "feminism", "feminist movement [ [ nisA } iy ~ / NOUN ] ]" ] ]
-
- |> "nistA" <| [
-
-    -- ;; nisotA_1
-    -- nstA    nisotA  Nprop   Nesta
-
-    noun     Identity                  {- nisotA -}         `gloss`  [ "Nesta" ] ]
-
- |> "niswAniyy" <| [
-
-    -- ;; nisowAniy~_1
-    -- nswAny  nisowAniy~      Nall    feminist     [[nisowAniy~/ADJ]]
-
-    noun     Identity                  {- nisowAniy~ -}     `gloss`  [ "feminist [ [ nisowAniy ~ / ADJ ] ]" ] ]
+    Identity                  `noun`       {- niEomat -}        [ "Nimat" ] ]
 
  |> "nitAnyAhuw" <| [
 
@@ -18416,36 +4980,14 @@ lexicon = listing "Lexicon properties"
     -- ntnyAhw nitanoyAhuw     Nprop   Netanyahu
     -- nytAnyAhw       niytAnoyAhuw    Nprop   Netanyahu
 
-    noun     Identity                  {- nitAnoyAhuw -}    -- `others` [ "nitanyAhuw Nprop", "niytAnyAhuw Nprop" ]
-                                                            `gloss`  [ "Netanyahu" ] ]
-
- |> "nitruw^giyn" <| [
-
-    -- ;; nitoruwjiyn_1
-    -- ntrwjyn nitoruwjiyn     N       nitrogen
-
-    noun     Identity                  {- nitoruwjiyn -}    `gloss`  [ "nitrogen" ] ]
+    Identity                  `noun`       {- nitAnoyAhuw -}    [ "Netanyahu" ] ]
 
  |> "nitsAriym" <| [
 
     -- ;; nitosAriym_1
     -- ntsArym nitosAriym      N0      Netzarim
 
-    noun     Identity                  {- nitosAriym -}     `gloss`  [ "Netzarim" ] ]
-
- |> "niy.gArd" <| [
-
-    -- ;; niygArd_1
-    -- nygArd  niygArd Nprop   Nygard
-
-    noun     Identity                  {- niygArd -}        `gloss`  [ "Nygard" ] ]
-
- |> "niyfAdA" <| [
-
-    -- ;; niyfAdA_1
-    -- nyfAdA  niyfAdA Nprop   Nevada
-
-    noun     Identity                  {- niyfAdA -}        `gloss`  [ "Nevada" ] ]
+    Identity                  `noun`       {- nitosAriym -}     [ "Netzarim" ] ]
 
  |> "niykay" <| [
 
@@ -18453,134 +4995,61 @@ lexicon = listing "Lexicon properties"
     -- nyky    niykay  N0      Nikkei
     -- nykAy   niykAy  N0      Nikkei
 
-    noun     Identity                  {- niykay -}         -- `others` [ "niykAy N0" ]
-                                                            `gloss`  [ "Nikkei" ] ]
-
- |> "niykl" <| [
-
-    -- ;; niykol_1
-    -- nykl    niykol  N       nickel
-    -- nkl     nikol   N       nickel
-
-    noun     Identity                  {- niykol -}         -- `others` [ "nikl N" ]
-                                                            `gloss`  [ "nickel" ] ]
+    Identity                  `noun`       {- niykay -}         [ "Nikkei" ] ]
 
  |> "niyksuwn" <| [
 
     -- ;; niykosuwn_1
     -- nykswn  niykosuwn       Nprop   Nixon
 
-    noun     Identity                  {- niykosuwn -}      `gloss`  [ "Nixon" ] ]
+    Identity                  `noun`       {- niykosuwn -}      [ "Nixon" ] ]
 
  |> "niykuwlA" <| [
 
     -- ;; niykuwlA_1
     -- nykwlA  niykuwlA        Nprop   Nicola
 
-    noun     Identity                  {- niykuwlA -}       `gloss`  [ "Nicola" ] ]
-
- |> "niykuwlAs" <| [
-
-    -- ;; niykuwlAs_1
-    -- nykwlAs niykuwlAs       Nprop   Nicholas
-
-    noun     Identity                  {- niykuwlAs -}      `gloss`  [ "Nicholas" ] ]
+    Identity                  `noun`       {- niykuwlA -}       [ "Nicola" ] ]
 
  |> "niykuwtiyn" <| [
 
     -- ;; niykuwtiyn_1
     -- nykwtyn niykuwtiyn      N0      nicotine
 
-    noun     Identity                  {- niykuwtiyn -}     `gloss`  [ "nicotine" ] ]
-
- |> "niylsuwn" <| [
-
-    -- ;; niylosuwn_1
-    -- nylswn  niylosuwn       Nprop   Nelson
-    -- nlswn   nilosuwn        Nprop   Nelson
-
-    noun     Identity                  {- niylosuwn -}      -- `others` [ "nilsuwn Nprop" ]
-                                                            `gloss`  [ "Nelson" ] ]
-
- |> "niyniyuw" <| [
-
-    -- ;; niyniyuw_1
-    -- nynyw   niyniyuw        N0      Nino
-
-    noun     Identity                  {- niyniyuw -}       `gloss`  [ "Nino" ] ]
+    Identity                  `noun`       {- niykuwtiyn -}     [ "nicotine" ] ]
 
  |> "niyquwsiyA" <| [
 
     -- ;; niyquwsiyA_1
     -- nyqwsyA niyquwsiyA      Nprop   Nicosia
 
-    noun     Identity                  {- niyquwsiyA -}     `gloss`  [ "Nicosia" ] ]
-
- |> "niytruw^giyn" <| [
-
-    -- ;; niytruwjiyn_1
-    -- nytrwjyn        niytruwjiyn     N       nitrogen
-
-    noun     Identity                  {- niytruwjiyn -}    `gloss`  [ "nitrogen" ],
-
-    -- ;; niytruwjiyniy~_1
-    -- nytrwjyny       niytruwjiyniy~  N       nitrogen     [[niytruwjiyniy~/ADJ]]
-
-    noun     Identity |< Iy            {- niytruwjiyniy~ -} `gloss`  [ "nitrogen [ [ niytruwjiyniy ~ / ADJ ] ]" ] ]
+    Identity                  `noun`       {- niyquwsiyA -}     [ "Nicosia" ] ]
 
  |> "niyuw" <| [
 
     -- ;; niyuw_1
     -- nyw     niyuw   N0      New
 
-    noun     Identity                  {- niyuw -}          `gloss`  [ "New" ],
+    Identity                  `noun`       {- niyuw -}          [ "New" ],
 
     -- ;; niyuw_2
     -- nyw     niyuw   N0      Neo
 
-    noun     Identity                  {- niyuw -}          `gloss`  [ "Neo" ] ]
+    Identity                  `noun`       {- niyuw -}          [ "Neo" ] ]
 
  |> "niyuwdilhiy" <| [
 
     -- ;; niyuwdilohiy_1
     -- nywdlhy niyuwdilohiy    Nprop   New Delhi
 
-    noun     Identity                  {- niyuwdilohiy -}   `gloss`  [ "New Delhi" ] ]
-
- |> "niyuwkAsil" <| [
-
-    -- ;; niyuwkAsil_1
-    -- nywkAsl niyuwkAsil      Nprop   Newcastle
-
-    noun     Identity                  {- niyuwkAsil -}     `gloss`  [ "Newcastle" ] ]
-
- |> "niyuwt" <| [
-
-    -- ;; niyuwt_1
-    -- nywt    niyuwt  N0      Newt
-
-    noun     Identity                  {- niyuwt -}         `gloss`  [ "Newt" ] ]
-
- |> "niyuwtun" <| [
-
-    -- ;; niyuwtun_1
-    -- nywtn   niyuwtun        N0      Newton
-
-    noun     Identity                  {- niyuwtun -}       `gloss`  [ "Newton" ] ]
-
- |> "niyuwwAyif" <| [
-
-    -- ;; niyuwwAyif_1
-    -- nywwAyf niyuwwAyif      N0      New Wave
-
-    noun     Identity                  {- niyuwwAyif -}     `gloss`  [ "New Wave" ] ]
+    Identity                  `noun`       {- niyuwdilohiy -}   [ "New Delhi" ] ]
 
  |> "niyuwyuwrk" <| [
 
     -- ;; niyuwyuwrok_1
     -- nywywrk niyuwyuwrok     N0      New York
 
-    noun     Identity                  {- niyuwyuwrok -}    `gloss`  [ "New York" ] ]
+    Identity                  `noun`       {- niyuwyuwrok -}    [ "New York" ] ]
 
  |> "niyuwyuwrkiyy" <| [
 
@@ -18588,29 +5057,14 @@ lexicon = listing "Lexicon properties"
     -- nywywrky        niyuwyuwrokiy~  Nall    New Yorker     [[niyuwyuwrokiy~/NOUN]]
     -- nywywrky        niyuwyuwrokiy~  Nall    New Yorker     [[niyuwyuwrokiy~/ADJ]]
 
-    noun     Identity                  {- niyuwyuwrokiy~ -} `gloss`  [ "New Yorker [ [ niyuwyuwrokiy ~ / NOUN ] ]", "New Yorker [ [ niyuwyuwrokiy ~ / ADJ ] ]" ] ]
+    Identity                  `noun`       {- niyuwyuwrokiy~ -} [ "New Yorker" ] ]
 
  |> "niyuwz" <| [
 
     -- ;; niyuwz_1
     -- nywz    niyuwz  Nprop   News
 
-    noun     Identity                  {- niyuwz -}         `gloss`  [ "News" ] ]
-
- |> "niyuwzwiyk" <| [
-
-    -- ;; niyuwzwiyk_1
-    -- nywzwyk niyuwzwiyk      Nprop   Newsweek
-
-    noun     Identity                  {- niyuwzwiyk -}     `gloss`  [ "Newsweek" ] ]
-
- |> "nu.sba" <| [
-
-    -- ;; nuSoba_1
-    -- nSb     nuSoba  FW-Wa   in front of     [[nuSoba/PREP]]
-    -- nSb     nuSoba  FW-Wa-a in front of     [[nuSoba/PREP]]
-
-    noun     Identity                  {- nuSoba -}         `gloss`  [ "in front of [ [ nuSoba / PREP ] ]" ] ]
+    Identity                  `noun`       {- niyuwz -}         [ "News" ] ]
 
  |> "nu^sAdir" <| [
 
@@ -18618,27 +5072,14 @@ lexicon = listing "Lexicon properties"
     -- n$Adr   nu$Adir N       ammonia
     -- nw$Adr  nuw$Adir        N       ammonia
 
-    noun     Identity                  {- nu$Adir -}        -- `others` [ "nuw^sAdir N" ]
-                                                            `gloss`  [ "ammonia" ],
-
-    -- ;; nu$Adiriy~_1
-    -- n$Adry  nu$Adiriy~      Nall    ammonia     [[nu$Adiriy~/ADJ]]
-
-    noun     Identity |< Iy            {- nu$Adiriy~ -}     `gloss`  [ "ammonia [ [ nu $ Adiriy ~ / ADJ ] ]" ] ]
-
- |> "nuway.sir" <| [
-
-    -- ;; nuwayoSir_1
-    -- nwySr   nuwayoSir       N0      Nuwaysir;Nuwaisir
-
-    noun     Identity                  {- nuwayoSir -}      `gloss`  [ "Nuwaysir", "Nuwaisir" ] ]
+    Identity                  `noun`       {- nu$Adir -}        [ "ammonia" ] ]
 
  |> "nuwbil" <| [
 
     -- ;; nuwbil_1
     -- nwbl    nuwbil  N0      Nobel
 
-    noun     Identity                  {- nuwbil -}         `gloss`  [ "Nobel" ] ]
+    Identity                  `noun`       {- nuwbil -}         [ "Nobel" ] ]
 
  |> "nuwfimbir" <| [
 
@@ -18646,80 +5087,21 @@ lexicon = listing "Lexicon properties"
     -- nwfmbr  nuwfimobir      N0      November
     -- nfmbr   nufimobir       N0      November
 
-    noun     Identity                  {- nuwfimobir -}     -- `others` [ "nufimbir N0" ]
-                                                            `gloss`  [ "November" ] ]
+    Identity                  `noun`       {- nuwfimobir -}     [ "November" ] ]
 
  |> "nuwfuwstiy" <| [
 
     -- ;; nuwfuwsotiy_1
     -- nwfwsty nuwfuwsotiy     N0      Novosti;Novosty
 
-    noun     Identity                  {- nuwfuwsotiy -}    `gloss`  [ "Novosti", "Novosty" ] ]
-
- |> "nuwmiydiyA" <| [
-
-    -- ;; nuwmiydiyA_1
-    -- nwmydyA nuwmiydiyA      N0      Numidia
-
-    noun     Identity                  {- nuwmiydiyA -}     `gloss`  [ "Numidia" ] ]
-
- |> "nuwmiydiyy" <| [
-
-    -- ;; nuwmiydiy~_1
-    -- nwmydy  nuwmiydiy~      Nall    Numidian     [[nuwmiydiy~/NOUN]]
-    -- nwmydy  nuwmiydiy~      Nall    Numidian     [[nuwmiydiy~/ADJ]]
-
-    noun     Identity                  {- nuwmiydiy~ -}     `gloss`  [ "Numidian [ [ nuwmiydiy ~ / NOUN ] ]", "Numidian [ [ nuwmiydiy ~ / ADJ ] ]" ] ]
-
- |> "nuwrA" <| [
-
-    -- ;; nuwrA_1
-    -- nwrA    nuwrA   Nprop   Noura
-
-    noun     Identity                  {- nuwrA -}          `gloss`  [ "Noura" ] ]
+    Identity                  `noun`       {- nuwfuwsotiy -}    [ "Novosti", "Novosty" ] ]
 
  |> "nuwrAlddiyn" <| [
 
     -- ;; nuwrAld~iyn_1
     -- nwrAldyn        nuwrAld~iyn     N0      Noureddin
 
-    noun     Identity                  {- nuwrAld~iyn -}    `gloss`  [ "Noureddin" ] ]
-
- |> "nuwrastAniyA" <| [
-
-    -- ;; nuwrasotAniyA_1
-    -- nwrstAnyA       nuwrasotAniyA   N0      neurasthenia
-
-    noun     Identity                  {- nuwrasotAniyA -}  `gloss`  [ "neurasthenia" ] ]
-
- |> "nuwrfuwlk" <| [
-
-    -- ;; nuwrofuwlk_1
-    -- nwrfwlk nuwrofuwlk      N0      Norfolk
-
-    noun     Identity                  {- nuwrofuwlk -}     `gloss`  [ "Norfolk" ] ]
-
- |> "nuwrmAnd" <| [
-
-    -- ;; nuwromAndiy~_1
-    -- nwrmAndy        nuwromAndiy~    Nall    Norman     [[nuwromAndiy~/NOUN]]
-    -- nwrmAndy        nuwromAndiy~    Nall    Norman     [[nuwromAndiy~/ADJ]]
-
-    noun     Identity |< Iy            {- nuwromAndiy~ -}   `gloss`  [ "Norman [ [ nuwromAndiy ~ / NOUN ] ]", "Norman [ [ nuwromAndiy ~ / ADJ ] ]" ] ]
-
- |> "nuwrmAndiyA" <| [
-
-    -- ;; nuwromAndiyA_1
-    -- nwrmAndyA       nuwromAndiyA    N0      Normandy
-
-    noun     Identity                  {- nuwromAndiyA -}   `gloss`  [ "Normandy" ] ]
-
- |> "nuwrwiy^giyAn" <| [
-
-    -- ;; nuwrowiyjiyAn_1
-    -- nwrwyjyAn       nuwrowiyjiyAn   N0      Norwegian
-
-    noun     Identity                  {- nuwrowiyjiyAn -}  `gloss`  [ "Norwegian" ] ]
+    Identity                  `noun`       {- nuwrAld~iyn -}    [ "Noureddin" ] ]
 
  |> "nywziylAnd" <| [
 
@@ -18731,8 +5113,7 @@ lexicon = listing "Lexicon properties"
     -- nywzlndy        nywzilanodiy~   Nall    New Zealander     [[nywziylanodiy~/NOUN]]
     -- nywzlndy        nywzilanodiy~   Nall    New Zealander     [[nywziylanodiy~/ADJ]]
 
-    noun     Identity |< Iy            {- nywziylAnodiy~ -} -- `others` [ "nywziylandiyy Nall", "nywzilandiyy Nall" ]
-                                                            `gloss`  [ "New Zealander [ [ nywziylAnodiy ~ / NOUN ] ]", "New Zealander [ [ nywziylAnodiy ~ / ADJ ] ]", "New Zealander [ [ nywziylanodiy ~ / NOUN ] ]", "New Zealander [ [ nywziylanodiy ~ / ADJ ] ]" ] ]
+    Identity |< Iy            `noun`       {- nywziylAnodiy~ -} [ "New Zealander" ] ]
 
  |> "nywziylAndA" <| [
 
@@ -18741,90 +5122,19 @@ lexicon = listing "Lexicon properties"
     -- nywzlndA        nywzilanodA     N0      New Zealand
     -- nywzylndA       nywziylanodA    N0      New Zealand
 
-    noun     Identity                  {- nywziylAnodA -}   -- `others` [ "nywziylandA N0", "nywzilandA N0" ]
-                                                            `gloss`  [ "New Zealand" ] ]
-
- |> "tan.tAf" <| [
-
-    -- ;; tanoTAf_1
-    -- tnTAf   tanoTAf N       dribbling;trickling
-
-    noun     Identity                  {- tanoTAf -}        `gloss`  [ "dribbling", "trickling" ] ]
-
- |> "tanAmY" <| [
-
-    -- ;; tanAmaY_1
-    -- tnAmY   tanAmaY PV_0    grow gradually;increase continually
-    -- tnAmA   tanAmA  PV_h    grow gradually;increase continually
-    -- tnAmy   tanAmay PV_Atn  grow gradually;increase continually
-    -- tnAm    tanAm   PV_ttAw grow gradually;increase continually
-    -- tnAmY   tanAmaY IV_0    grow gradually;increase continually
-    -- tnAmA   tanAmA  IV_h    grow gradually;increase continually
-    -- tnAmy   tanAmay IV_Ann  grow gradually;increase continually
-    -- tnAm    tanAm   IV_0hwnyn       grow gradually;increase continually
-
-    verb     Identity                  {- tanAmaY -}        -- `others` [ "tanAmA PV_h IV_h", "tanAmay PV_Atn IV_Ann", "tanAm IV_0hwnyn PV_ttAw" ]
-                                                            `gloss`  [ "grow gradually", "increase continually" ] ]
-
- |> "tanAmiy" <| [
-
-    -- ;; tanAmiy_1
-    -- tnAmy   tanAmiy N0_Nh   gradual growth;continual increase
-    -- tnAm    tanAm   NK      gradual growth;continual increase
-    -- tnAmy   tanAmiy NAn_Nayn        gradual growth;continual increase
-    -- tnAmy   tanAmiy NAt     gradual growth;continual increase
-
-    noun     Identity                  {- tanAmiy -}        -- `others` [ "tanAm NK" ]
-                                                            `gloss`  [ "gradual growth", "continual increase" ] ]
+    Identity                  `noun`       {- nywziylAnodA -}   [ "New Zealand" ] ]
 
  |> "tanmY" <| [
 
     -- ;; tanomawiy~_1
     -- tnmwy   tanomawiy~      Nall    developmental;growth-related     [[tanomawiy~/ADJ]]
 
-    noun     Identity |< Iy            {- tanomawiy~ -}     `gloss`  [ "developmental", "growth-related [ [ tanomawiy ~ / ADJ ] ]" ] ]
-
- |> "tanmiy" <| [
-
-    -- ;; tanomiyap_1
-    -- tnmy    tanomiy Nap     development;growth
-
-    noun     Identity |< aT            {- tanomiyap -}      `gloss`  [ "development", "growth" ] ]
-
- |> "yAna.siyb" <| [
-
-    -- ;; yAnaSiyb_1
-    -- yAnSyb  yAnaSiyb        N       lottery
-    -- yAnASyb yAnASiyb        N       lottery
-
-    noun     Identity                  {- yAnaSiyb -}       -- `others` [ "yAnA.siyb N" ]
-                                                            `gloss`  [ "lottery" ],
-
-    -- ;; yAnaSiybiy~_1
-    -- yAnSyby yAnaSiybiy~     Nall    lottery     [[yAnaSiybiy~/ADJ]]
-    -- yAnASyby        yAnASiybiy~     Nall    lottery     [[yAnASiybiy~/ADJ]]
-
-    noun     Identity |< Iy            {- yAnaSiybiy~ -}    -- `others` [ "yAnA.siybiyy Nall" ]
-                                                            `gloss`  [ "lottery [ [ yAnaSiybiy ~ / ADJ ] ]", "lottery [ [ yAnASiybiy ~ / ADJ ] ]" ] ]
+    Identity |< Iy            `noun`       {- tanomawiy~ -}     [ "developmental", "growth-related" ] ]
 
  |> "yanba`Aw" <| [
 
     -- ;; yanobaEAwiy~_1
     -- ynbEAwy yanobaEAwiy~    N0      Yanbawi
 
-    noun     Identity |< Iy            {- yanobaEAwiy~ -}   `gloss`  [ "Yanbawi" ] ]
-
- |> "yanbuw`" <| [
-
-    -- ;; yanobuwE_1
-    -- ynbwE   yanobuwE        N       spring;source
-    -- ynAbyE  yanAbiyE        Ndip    sources;springs
-
-    noun     Identity                  {- yanobuwE -}       -- `others` [ "yanAbiy` Ndip" ]
-                                                            `gloss`  [ "spring", "source", "sources", "springs" ],
-
-    -- ;; yanobuwE_2
-    -- ynbwE   yanobuwE        N       Yanbou (Saudi Ar.)
-
-    noun     Identity                  {- yanobuwE -}       `gloss`  [ "Yanbou ( Saudi Ar . )" ] ]
+    Identity |< Iy            `noun`       {- yanobaEAwiy~ -}   [ "Yanbawi" ] ]
 

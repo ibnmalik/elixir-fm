@@ -209,7 +209,7 @@ instance Param Definite where
 
 type Annexing = Bool
 
-instance Param Bool     where values = enum
+instance Param Annexing where values = enum
 
 
 data Case   = Nominative
@@ -224,6 +224,11 @@ instance Show Case where
     show Nominative = "1"
     show Genitive   = "2"
     show Accusative = "4"
+
+
+type Humanness = Bool
+
+-- instance Param Humanness
 
 
 data LogDefin   = Indefinite

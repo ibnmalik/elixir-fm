@@ -21,6 +21,9 @@ import Elixir.Lexicon
 
 import Elixir.Lexicon.Pretty
 
+import Elixir.Template
+import Data.List
+
 import Elixir.Data.Lexicons.Lexicon00 as Extra
 
 import Elixir.Data.Lexicons.Lexicon01 as Alif
@@ -101,3 +104,18 @@ lexicon =  -- Extra.lexicon ++ Yaa.lexicon
            ++ Haa.lexicon
            ++ Waaw.lexicon
            ++ Yaa.lexicon
+
+{-
+
+maybe (0,0,[]) (\x -> let y = nub x in (length x, length y, y))
+
+$ lookup MiFCY
+$ sortBy (\x y -> length (snd x) `compare` length (snd y))
+$ map (\x -> (head (snd x), fst x) . unzip)
+$ groupBy (\x y -> snd x == snd y)
+$ sortBy (\x y -> fromEnum (snd x) `compare` fromEnum (snd y))
+$ concat
+$ map (\x -> case x of NestT r ys -> [ (r, y) | (Morphs y _ _) <- map morphs ys]
+                       _          -> []) lexicon
+
+-}

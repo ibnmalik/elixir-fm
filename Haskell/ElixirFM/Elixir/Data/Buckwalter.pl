@@ -11,6 +11,8 @@ use strict;
 
 use re 'eval';
 
+use Regexp::Common 'comment';
+
 use Encode::Arabic ':modes';
 
 use Data::Dumper;
@@ -134,9 +136,19 @@ sub beginEntry {
 
 sub storeEntry ($$) {
 
+    my ($toor, $ptrn) = @_;
+
     my @toor = split / /, $_[0];
 
-    if ($_[1] ne 'Identity' and @toor > 2) {
+    my $Clone = {};
+
+    $Clone->{$_} = $Entry->{$_} foreach keys %{$Entry};
+
+    $Clone->{'morphs'} = $Clone->{'prefix'} . $ptrn . $Clone->{'suffix'};
+
+    $Clone->{'patterns'} = {};
+
+    if ($ptrn ne 'Identity' and @toor > 2) {
 
         my @template = map { do { my $x = $_;
 
@@ -154,46 +166,46 @@ sub storeEntry ($$) {
                                   $x =~ s/(?<=F)t/\_t/      if $toor[0] =~ /^\_t$/;
                                   $x =~ s/(?<=F)t/\.t/      if $toor[0] =~ /^\.[sdtz]$/;
 
-                                  $x =~ s/[FK]/$toor[0]/g;
-                                  $x =~ s/[CR]/$toor[1]/g;
-                                  $x =~ s/[LD]/$toor[2]/g;
-                                  $x =~ s/[S]/$toor[3]/g    if @toor > 3;
+                                  if (@toor > 3) {
+
+                                      $x =~ s/K/$toor[0]/g;
+                                      $x =~ s/R/$toor[1]/g;
+                                      $x =~ s/D/$toor[2]/g;
+                                      $x =~ s/S/$toor[3]/g;
+                                  }
+                                  else {
+
+                                      $x =~ s/F/$toor[0]/g;
+                                      $x =~ s/C/$toor[1]/g;
+                                      $x =~ s/L/$toor[2]/g;
+                                  }
 
                                   $x
 
                             } }     @pAttErns;
 
-        foreach my $form (keys %{$Entry->{'types'}}) {
+        foreach my $form (keys %{$Clone->{'types'}}) {
 
-            next if $form eq $Entry->{'form'};
+            next if $form eq $Clone->{'form'};
 
             for (my $i = 0; $i < @template; $i++) {
 
-                push @{$Entry->{'types'}->{$form}->{'_pattern_'}}, $pAttErns[$i] if $template[$i] eq $form;
+                push @{$Clone->{'patterns'}->{$form}}, $pAttErns[$i] if $template[$i] eq $form;
             }
         }
     }
 
+    push @{$Lexicon->{$toor}}, $Clone;
 
-    my $Clone = {};
-
-    delete $Entry->{'glosshash'};
-
-    $Clone->{$_} = $Entry->{$_} foreach keys %{$Entry};
-
-    $Clone->{'morphs'} = $Clone->{'prefix'} . $_[1] . $Clone->{'suffix'};
-
-    push @{$Lexicon->{$_[0]}}, $Clone;
-
-    unless ($report->{$_[0]}++) {
+    unless ($report->{$toor}++) {
 
         if ($_[0] =~ / /) {
 
-            print STDERR $_[0] . " \t";
+            print STDERR $toor . " \t";
         }
-        elsif (length $_[0] < 8) {
+        elsif (length $toor < 8) {
 
-            print STDERR "\n    " . $_[0] . " \t";
+            print STDERR "\n    " . $toor . " \t";
         }
     }
 }
@@ -202,6 +214,8 @@ sub storeEntry ($$) {
 sub closeEntry {
 
     return unless defined $Entry;
+
+    delete $Entry->{'glosshash'};
 
     my @types = keys %{$Entry->{'types'}->{$Entry->{'form'}}};
 
@@ -426,6 +440,7 @@ package Elixir::Data::Buckwalter::Lexicon$ID;
 
     return;
 
+    $Data::Dumper::Purity = 1;
     $Data::Dumper::Indent = 1;
 
     print Data::Dumper->Dump([$Lexicon], ['Lexicon']);
@@ -511,30 +526,17 @@ sub read_patterns {
 
         open F, '<', $file;
 
-        while ($line = <F>) {
-
-            if ($line =~ /^data \s+ Pattern[TQ] \s+ = (.*)$/x) {
-
-                push @lines, ( split /--/, $1, 2 )[0];
-                last;
-            }
-        }
+        local $/ = undef;
 
         while ($line = <F>) {
 
-            if ($line =~ /^(.*) \s+ deriving \s+/x and $1 !~ /--/) {
+            $line =~ s/$RE{'comment'}{'Haskell'}//g;
 
-                push @lines, $1;
-                last;
-            }
-            else {
-
-                push @lines, ( split /--/, $line, 2 )[0];
-            }
+            push @lines, $1 if $line =~ /^\s* data \s+ Pattern[TQ] \s+ = (.+?) deriving/msx;
         }
 
         close F;
     }
 
-    return grep { $_ ne '' } map { s/\{\- .*? \-\}//gx; split /\|\s*|\s+/, $_ } @lines;
+    return grep { $_ ne '' } map { split /\|\s*|\s+/, $_ } @lines;
 }
