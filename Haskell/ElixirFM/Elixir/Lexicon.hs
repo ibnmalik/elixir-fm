@@ -59,9 +59,7 @@ module Elixir.Lexicon (
 -}
         noun, verb, -- root,
 
-        imperf, plural, others, -- gloss,
-
-        rootCons
+        imperf, plural, others -- gloss
 
     ) where
 
@@ -215,7 +213,7 @@ gloss (Entry e m l) n = Entry e m (n ++ l)
                                -- ([show (length n)] ++ l)
 -}
 
-
+{-
 rootCons :: String -> [String]
 
 rootCons []     = []
@@ -226,7 +224,7 @@ rootCons (x:xs) = let rootxs = rootCons xs in
                 '_' -> ((:) '_' . head) rootxs : tail rootxs
                 '^' -> ((:) '^' . head) rootxs : tail rootxs
                 _   -> [x] : rootxs
-
+-}
 
 {-
 (|>) :: Lexicon -> Nest -> Map a b

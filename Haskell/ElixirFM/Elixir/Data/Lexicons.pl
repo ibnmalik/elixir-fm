@@ -155,7 +155,7 @@ sub showEntry ($) {
                    (join "\n" . ' ' x 30,
                    (exists $entry->{'glosses'} ? '[ ' .
                                     (join ', ', map { showGloss($_) } @{$entry->{'glosses'}}) . ' ]' : ()),
-                   (exists $entry->{'imperf'} ? '`imperf` [ ' .
+                   (exists $entry->{'imperf'} ? '`imperf`     [ ' .
                                     (join ', ', @{$entry->{'imperf'}}) . ' ]' : ()),
                    (@{$plural} > 0 ? map { '`plural`     ' . $_ } @{$plural} : ()),
                    (@{$others} > 0 ? '{- `others` [ ' .

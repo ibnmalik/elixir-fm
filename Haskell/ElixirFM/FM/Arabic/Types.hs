@@ -130,6 +130,8 @@ data Number = Singular
 instance Param Number   where values = enum
 
 
+data ParaNoun' = Noun Number Case State deriving (Eq, Show)
+
 
 data ParaNoun   = NounS              Number Case State
                 | NounP Voice Gender Number Case State
@@ -178,6 +180,8 @@ data State = Definite
            | Underdetermined
 -}
 
+data State' = Def | Indef | Const
+
 
 data Couple a b = a :-: b
 
@@ -204,7 +208,7 @@ type Definite = Maybe Bool
 
 instance Param Definite where
 
-    values = [ Nothing, Just True, Just False ]
+    values = [Nothing, Just True, Just False]
 
 
 type Annexing = Bool

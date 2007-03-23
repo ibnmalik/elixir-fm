@@ -57,20 +57,23 @@ class (Param b) => Inflect m b where
     inflect :: (Template a, Rules a) => m a -> b -> [String]
 
 
-
+{-
+[ (v, inflect (FiCAL |< Iy |< aT `noun` []) v)
+  | x :: ParaNoun <- values,
+    let y = case x of { NounS _ _ _ -> [x]; _ -> [] }, v <- y ]
+-}
 
 
 {-
     prefix :: m a -> m a -> m a
 
     suffix :: m a -> m a -> m a
-
 -}
 
 
 instance Inflect Entry ParaVerb where
 
-    inflect x = inflect (RE "drs" x)
+    inflect x = inflect (RE "d r s" x)
 
 
 instance Inflect RootEntry ParaVerb where
@@ -96,7 +99,7 @@ instance Inflect RootEntry ParaVerb where
                   (x, (_, _, ia, _)) = findStem e
                   i = imperativePrefix x t
 
-        where stem s = (concat . interlock (rootCons r)
+        where stem s = (concat . interlock (words r)
                                            (s)) []
 
               findStem e = case findForm e of
@@ -176,12 +179,12 @@ instance Rules PatternQ where
 
 instance Inflect RootEntry ParaNoun where
 
-    inflect (RE r e) = inflectNoun (concat (interlock (rootCons r)
+    inflect (RE r e) = inflectNoun (concat (interlock (words r)
                                                       (morphs e) []))
 
 instance Inflect Entry ParaNoun where
 
-    inflect x = inflect (RE "drs" x)
+    inflect x = inflect (RE "d r s" x)
 
 
 prefix x y = x ++ y

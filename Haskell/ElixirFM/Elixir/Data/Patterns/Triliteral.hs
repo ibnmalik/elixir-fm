@@ -97,6 +97,8 @@ instance Forming PatternT where
 
     verbStems I = [
 
+        -- Regular
+
         (   FaCaL,      FuCiL,      FCaL,       FCaL        ),
         (   FaCaL,      FuCiL,      FCiL,       FCaL        ),
         (   FaCaL,      FuCiL,      FCuL,       FCaL        ),
@@ -104,7 +106,37 @@ instance Forming PatternT where
         (   FaCiL,      FuCiL,      FCaL,       FCaL        ),
 
         (   FaCuL,      FuCiL,      FCaL,       FCaL        ),
-        (   FaCuL,      FuCiL,      FCuL,       FCaL        )
+        (   FaCuL,      FuCiL,      FCuL,       FCaL        ),
+
+        --  First
+
+        (   FaCaL,      FuCiL,      CaL,        FCaL        ),
+        (   FaCaL,      FuCiL,      CiL,        FCaL        ),
+        (   FaCaL,      FuCiL,      CuL,        FCaL        ),
+
+        (   FaCiL,      FuCiL,      CaL,        FCaL        ),
+
+        (   FaCuL,      FuCiL,      CaL,        FCaL        ),
+        (   FaCuL,      FuCiL,      CuL,        FCaL        ),
+
+        --  Second
+
+        (   FAL,        FIL,        FUL,        FAL         ),  -- qAla
+        (   FAL,        FIL,        FAL,        FAL         ),  -- nAma
+        (   FAL,        FIL,        FIL,        FAL         ),  -- sAra
+        (   FAL,        FIL,        FAL,        FAL         ),  -- nAla
+
+        -- Third
+
+        (   FaCA,       FuCiL,      FCU,        FCY         ),  -- da`A
+        (   FaCY,       FIL,        FCI,        FCY         ),  -- ramY
+        (   FaCiL,      FuCiL,      FCY,        FCY         ),  -- nasiya
+
+        -- Double
+
+        (   FaCL,       FuCL,       FaCL,       FaCL        ),
+        (   FaCL,       FuCL,       FiCL,       FaCL        ),
+        (   FaCL,       FuCL,       FuCL,       FaCL        )
 
         ]
 

@@ -33,7 +33,7 @@ arabicDict :: Dictionary
 arabicDict = (dictionary . map lex2dict) lexicon
 
     where   lex2dict (NestT x y) = ((unwords . map (concat . interlockz)) y,"Category",["Inherent"],[("Untyped",(0,["String"]))])
-                where interlockz s = interlock (rootCons x) (morphs s) []
+                where interlockz s = interlock (words x) (morphs s) []
             lex2dict _           = ("","Category",["Inherent"],[("Untyped",(0,["String"]))])
 
 
