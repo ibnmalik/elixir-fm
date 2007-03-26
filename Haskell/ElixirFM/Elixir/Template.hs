@@ -28,6 +28,11 @@ class Template a where
     interlock :: [String] -> a -> [String] -> [String]
 
 
+merge :: Template a => String -> a -> String
+
+merge r t = concat (interlock (words r) t [])
+
+
 class Forming a where
 
     isForm :: Form -> a -> Bool
