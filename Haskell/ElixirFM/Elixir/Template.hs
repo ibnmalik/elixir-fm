@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Template
--- Copyright   :  Otakar Smrz 2005-2006
+-- Copyright   :  Otakar Smrz 2005-2007
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -133,7 +133,7 @@ data Prefix =       Al
 instance Show Prefix where
 
     show Al = "al-"
-    show LA = "lA"
+    show LA = "lA-"
 
 
 al  =   Al
