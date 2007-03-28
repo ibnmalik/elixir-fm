@@ -18,6 +18,8 @@
 module Elixir.Template where
 
 
+import FM.Arabic.Types
+
 import Version
 
 version = revised "$Revision$"
@@ -43,6 +45,15 @@ class Forming a where
 data Form = I | II | III | IV | V | VI | VII | VIII | IX | X
 
     deriving (Show, Eq, Enum)
+
+
+class Eq a => Rules a where
+
+    imperfectPrefix :: Form -> Voice -> a -> String
+
+    imperativePrefix :: Form -> a -> String
+
+    isDiptote :: a -> Bool
 
 
 {-
@@ -149,6 +160,7 @@ data Suffix =       Iy
                 |   An
                 |   Ayn
                 |   AN
+                |   AJIy
 
     deriving (Eq, Ord, Enum)
 
@@ -163,13 +175,17 @@ instance Show Suffix where
     show An = "An-i"
     show Ayn = "ayn-i"
     show AN = "aN"
+    show AJIy = "a^gIy"
 
 
-iyy =   Iy
-aT  =   AT
-aat =   At
-uwn =   Un
-iyn =   In
-aan =   An
-ayn =   Ayn
-aN  =   AN
+iyy   = Iy
+aT    = AT
+aat   = At
+uwn   = Un
+iyn   = In
+aan   = An
+ayn   = Ayn
+aN    = AN
+aJIy  = AJIy
+ajIy  = AJIy
+ajiyy = AJIy

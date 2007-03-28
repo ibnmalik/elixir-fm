@@ -54,7 +54,7 @@ class (Param b) => Inflect m b where
 
 --    inflect :: Template b => a -> b -> Root -> [String]
 
-    inflect :: (Template a, Rules a) => m a -> b -> [String]
+    inflect :: (Template a, Rules a, Forming a) => m a -> b -> [String]
 
 
 {-
@@ -116,67 +116,6 @@ instance Inflect RootEntry ParaVerb where
                                       let Morphs s _ _ = morphs e, s == a ]
 
 
-
-class (Eq a, Forming a) => Rules a where
-
-    imperfectPrefix :: Form -> Voice -> a -> String
-
-    imperativePrefix :: Form -> a -> String
-
-
-instance Rules PatternT where
-
-    imperfectPrefix x v t =
-
-        if elem x [II .. IV] || v == Passive
-
-            then "u"
-            else "a"
-
-    imperativePrefix x t =
-
-        if x == I
-
-            then case t of FCuL -> "u"
-                           _    -> "i"
-
-            else if x == IV
-
-                then "'a"
-                else if elem x [VII .. X]
-
-                        then "i"
-                        else ""
-
-{-
-    imperfectPrefix v t =
-
-        if any (`isForm` t) [II .. IV]
-           || v == Passive
-
-            then "u"
-            else "a"
-
-    imperativePrefix t =
-
-        if any (`isForm` t) [I]
-
-            then case t of FCuL -> "u"
-                           _    -> "i"
-
-            else if any (`isForm` t) [VII .. X]
-
-                    then "i"
-                    else ""
--}
-
-instance Rules PatternQ where
-
-    imperfectPrefix _ _ _ = "u"
-
-    imperativePrefix _ _ = ""
-
-
 instance Inflect RootEntry ParaNoun where
 
     inflect (RE r e) = inflectNoun (concat (interlock (words r)
@@ -219,8 +158,8 @@ moony = [ "'", "b", "^g", ".h", "_h", "`", ".g",
           "c", "^c", ",c", "^z", "^n", "^l", ".r" ]
 
 
-prefixDefArticle :: String -> String
-prefixDefArticle s =
+prefixDefinite :: String -> String
+prefixDefinite s =
 
     case filter (flip isPrefixOf s) sunny of
 
@@ -249,8 +188,8 @@ inflectNoun word = case reverse word of
                 NounA   g n c (d :-: a) -> complete p c d a w
 
           complete p c d a w = case d of
-                Just True   -> [ prefixDefArticle $ p c d a w ]
-                _           -> [                    p c d a w ]
+                Just True   -> [ prefixDefinite $ p c d a w ]
+                _           -> [                  p c d a w ]
 
 
 paraI3N c d s = case (c, d, s) of

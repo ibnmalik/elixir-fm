@@ -20,6 +20,8 @@ module Elixir.Data.Patterns.Triliteral where
 
 import Elixir.Template
 
+import FM.Arabic.Types
+
 import Version
 
 version = revised "$Revision$"
@@ -236,6 +238,75 @@ instance Forming PatternT where
         ]
 
 
+instance Rules PatternT where
+
+    imperfectPrefix x v t =
+
+        if elem x [II .. IV] || v == Passive
+
+            then "u"
+            else "a"
+
+    imperativePrefix x t =
+
+        if x == I
+
+            then case t of FCuL -> "u"
+                           _    -> "i"
+
+            else if x == IV
+
+                then "'a"
+                else if elem x [VII .. X]
+
+                        then "i"
+                        else ""
+
+{-
+    imperfectPrefix v t =
+
+        if any (`isForm` t) [II .. IV]
+           || v == Passive
+
+            then "u"
+            else "a"
+
+    imperativePrefix t =
+
+        if any (`isForm` t) [I]
+
+            then case t of FCuL -> "u"
+                           _    -> "i"
+
+            else if any (`isForm` t) [VII .. X]
+
+                    then "i"
+                    else ""
+-}
+
+    isDiptote = flip elem [ HaFCaL,
+                            FuCLY,
+                            FaCLA',
+                            FuCaLA',
+                            HaFCiLA',
+                            FaCACiL,
+                            FaCACIL,
+                            FawACiL, FawA'iL,
+                            FawACIL, FawA'IL,
+                            MaFACiL, MaFA'iL, MaFACL,
+                            MaFACIL, MaFA'IL,
+                            FaCLAn ]
+
+
+instance Rules (Morphs PatternT) where
+
+    isDiptote x = x `elem` []
+
+                || p == [] && s == [] && isDiptote m
+
+        where Morphs m p s = x
+
+
 -- concat $ map (\(a,b,c,d) -> [ concat $ interlock ["m","^s","y"] x [] | x <- [a,b,c,d] ] )
 
 
@@ -268,6 +339,9 @@ data PatternT =
         |   FuCUL
 
         |   FaCIL
+
+        |   FaCLA'
+        |   FuCaLA'
 
      {- |   FACiL   -}                                  |   FA'iL            {- |   FACI    -}
 

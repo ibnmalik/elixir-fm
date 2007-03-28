@@ -61,6 +61,24 @@ instance Template PatternQ where
 instance Forming PatternQ
 
 
+instance Rules PatternQ where
+
+    imperfectPrefix _ _ _ = "u"
+
+    imperativePrefix _ _ = ""
+
+    isDiptote = flip elem [ KaRADiS, KaRADIS ]
+
+
+instance Rules (Morphs PatternQ) where
+
+    isDiptote x = x `elem` []
+
+                || p == [] && s == [] && isDiptote m
+
+        where Morphs m p s = x
+
+
 data PatternQ =
 
             KaRDaS
@@ -102,96 +120,96 @@ data PatternQ =
 
 ;--- [^thfElmAwynTH][^thfElmAwynTH][^thfElmAwynTH][^thfElmAwynTH]$
 
-Lexicons\07-letter-Khaa.dat(910): ;--- xrb$
-Lexicons\07-letter-Khaa.dat(927): ;--- xrbq
-Lexicons\08-letter-Daal.dat(885): ;--- drbs
-Lexicons\11-letter-Zaay.dat(700): ;--- zrk$
-Lexicons\11-letter-Zaay.dat(1036): ;--- zgrd
-Lexicons\13-letter-Shiin.dat(274): ;--- $brq
-Lexicons\13-letter-Shiin.dat(1510): ;--- $rbk
-Lexicons\13-letter-Shiin.dat(1619): ;--- $rdq
-Lexicons\21-letter-Qaaf.dat(2641): ;--- qzdr
-Lexicons\21-letter-Qaaf.dat(3460): ;--- qSdr
-Lexicons\22-letter-Kaaf.dat(1581): ;--- krbj
-Lexicons\22-letter-Kaaf.dat(1720): ;--- krds
+Elixir\Data\Buckwalter\Buckwalter07-Khaa.dat(910): ;--- xrb$
+Elixir\Data\Buckwalter\Buckwalter07-Khaa.dat(927): ;--- xrbq
+Elixir\Data\Buckwalter\Buckwalter08-Daal.dat(885): ;--- drbs
+Elixir\Data\Buckwalter\Buckwalter11-Zaay.dat(701): ;--- zrk$
+Elixir\Data\Buckwalter\Buckwalter11-Zaay.dat(1037): ;--- zgrd
+Elixir\Data\Buckwalter\Buckwalter13-Shiin.dat(274): ;--- $brq
+Elixir\Data\Buckwalter\Buckwalter13-Shiin.dat(1510): ;--- $rbk
+Elixir\Data\Buckwalter\Buckwalter13-Shiin.dat(1619): ;--- $rdq
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(2641): ;--- qzdr
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(3463): ;--- qSdr
+Elixir\Data\Buckwalter\Buckwalter22-Kaaf.dat(1581): ;--- krbj
+Elixir\Data\Buckwalter\Buckwalter22-Kaaf.dat(1720): ;--- krds
 
-Lexicons\02-letter-Baa.dat(1951): ;--- brjz
-Lexicons\02-letter-Baa.dat(2337): ;--- brgv
-Lexicons\07-letter-Khaa.dat(1026): ;--- xrxr
-Lexicons\07-letter-Khaa.dat(1048): ;--- xrdq
-Lexicons\07-letter-Khaa.dat(1401): ;--- xzrj
-Lexicons\07-letter-Khaa.dat(1739): ;--- x$x$
-Lexicons\07-letter-Khaa.dat(1776): ;--- x$kr
-Lexicons\07-letter-Khaa.dat(2007): ;--- xSxS
-Lexicons\07-letter-Khaa.dat(2164): ;--- xDxD
-Lexicons\08-letter-Daal.dat(197): ;--- dbdb
-Lexicons\08-letter-Daal.dat(806): ;--- drbz
-Lexicons\08-letter-Daal.dat(895): ;--- drbk
-Lexicons\08-letter-Daal.dat(994): ;--- drdb
-Lexicons\08-letter-Daal.dat(999): ;--- drdr
-Lexicons\08-letter-Daal.dat(1012): ;--- drd$
-Lexicons\08-letter-Daal.dat(1083): ;--- drsd
-Lexicons\08-letter-Daal.dat(1806): ;--- dgdg
-Lexicons\09-letter-Dhaal.dat(79): ;--- *b*b
-Lexicons\10-letter-Raa.dat(1274): ;--- rjrj
-Lexicons\10-letter-Raa.dat(2584): ;--- rsrs
-Lexicons\10-letter-Raa.dat(2928): ;--- r$r$
-Lexicons\10-letter-Raa.dat(3197): ;--- rDrD
-Lexicons\10-letter-Raa.dat(3789): ;--- rgrg
-Lexicons\10-letter-Raa.dat(4432): ;--- rqrq
-Lexicons\11-letter-Zaay.dat(156): ;--- zbrj
-Lexicons\11-letter-Zaay.dat(581): ;--- zrzr
-Lexicons\11-letter-Zaay.dat(1011): ;--- zgbr
-Lexicons\11-letter-Zaay.dat(1032): ;--- zgrb
-Lexicons\11-letter-Zaay.dat(1052): ;--- zgzg
-Lexicons\11-letter-Zaay.dat(1185): ;--- zqzq
-Lexicons\12-letter-Siin.dat(500): ;--- sbsb
-Lexicons\12-letter-Siin.dat(2098): ;--- srxs
-Lexicons\12-letter-Siin.dat(2124): ;--- srdr
-Lexicons\12-letter-Siin.dat(2128): ;--- srdq
-Lexicons\12-letter-Siin.dat(2132): ;--- srdk
-Lexicons\12-letter-Siin.dat(2297): ;--- srqs
-Lexicons\12-letter-Siin.dat(2315): ;--- srks
-Lexicons\12-letter-Siin.dat(3241): ;--- sqsq
-Lexicons\12-letter-Siin.dat(3576): ;--- skbj
-Lexicons\12-letter-Siin.dat(3696): ;--- skrj
-Lexicons\12-letter-Siin.dat(3709): ;--- sksk
-Lexicons\13-letter-Shiin.dat(281): ;--- $b$b
-Lexicons\13-letter-Shiin.dat(397): ;--- $bk$
-Lexicons\13-letter-Shiin.dat(1094): ;--- $x$x
-Lexicons\13-letter-Shiin.dat(1669): ;--- $r$r
-Lexicons\13-letter-Shiin.dat(2073): ;--- $rks
-Lexicons\13-letter-Shiin.dat(3326): ;--- $qrq
-Lexicons\13-letter-Shiin.dat(3333): ;--- $q$q
-Lexicons\14-letter-Ssaad.dat(1229): ;--- SrSr
-Lexicons\19-letter-Ghayn.dat(948): ;--- grgr
-Lexicons\21-letter-Qaaf.dat(137): ;--- qbrs
-Lexicons\21-letter-Qaaf.dat(141): ;--- qbrS
-Lexicons\21-letter-Qaaf.dat(290): ;--- qbqb
-Lexicons\21-letter-Qaaf.dat(1677): ;--- qrbs
-Lexicons\21-letter-Qaaf.dat(1783): ;--- qrdb
-Lexicons\21-letter-Qaaf.dat(1795): ;--- qrds
-Lexicons\21-letter-Qaaf.dat(2226): ;--- qrq*
-Lexicons\21-letter-Qaaf.dat(2230): ;--- qrqr
-Lexicons\21-letter-Qaaf.dat(2243): ;--- qrqz
-Lexicons\21-letter-Qaaf.dat(2248): ;--- qrqs
-Lexicons\21-letter-Qaaf.dat(2252): ;--- qrq$
-Lexicons\21-letter-Qaaf.dat(2256): ;--- qrqD
-Lexicons\21-letter-Qaaf.dat(2661): ;--- qzqz
-Lexicons\21-letter-Qaaf.dat(3251): ;--- q$q$
-Lexicons\21-letter-Qaaf.dat(3610): ;--- qSqS
-Lexicons\22-letter-Kaaf.dat(659): ;--- kbkb
-Lexicons\22-letter-Kaaf.dat(666): ;--- kbkj
-Lexicons\22-letter-Kaaf.dat(1590): ;--- krbr
-Lexicons\22-letter-Kaaf.dat(1594): ;--- krbs
-Lexicons\22-letter-Kaaf.dat(1882): ;--- krkb
-Lexicons\22-letter-Kaaf.dat(1889): ;--- krkd
-Lexicons\22-letter-Kaaf.dat(1894): ;--- krkr
-Lexicons\22-letter-Kaaf.dat(1901): ;--- krkz
-Lexicons\22-letter-Kaaf.dat(2425): ;--- kzbr
-Lexicons\22-letter-Kaaf.dat(2436): ;--- kzkz
-Lexicons\22-letter-Kaaf.dat(2488): ;--- ksbr
-Lexicons\22-letter-Kaaf.dat(2683): ;--- ksks
-Lexicons\22-letter-Kaaf.dat(2958): ;--- k$k$
+Elixir\Data\Buckwalter\Buckwalter02-Baa.dat(1951): ;--- brjz
+Elixir\Data\Buckwalter\Buckwalter02-Baa.dat(2337): ;--- brgv
+Elixir\Data\Buckwalter\Buckwalter07-Khaa.dat(1026): ;--- xrxr
+Elixir\Data\Buckwalter\Buckwalter07-Khaa.dat(1048): ;--- xrdq
+Elixir\Data\Buckwalter\Buckwalter07-Khaa.dat(1401): ;--- xzrj
+Elixir\Data\Buckwalter\Buckwalter07-Khaa.dat(1739): ;--- x$x$
+Elixir\Data\Buckwalter\Buckwalter07-Khaa.dat(1776): ;--- x$kr
+Elixir\Data\Buckwalter\Buckwalter07-Khaa.dat(2007): ;--- xSxS
+Elixir\Data\Buckwalter\Buckwalter07-Khaa.dat(2164): ;--- xDxD
+Elixir\Data\Buckwalter\Buckwalter08-Daal.dat(197): ;--- dbdb
+Elixir\Data\Buckwalter\Buckwalter08-Daal.dat(806): ;--- drbz
+Elixir\Data\Buckwalter\Buckwalter08-Daal.dat(895): ;--- drbk
+Elixir\Data\Buckwalter\Buckwalter08-Daal.dat(994): ;--- drdb
+Elixir\Data\Buckwalter\Buckwalter08-Daal.dat(999): ;--- drdr
+Elixir\Data\Buckwalter\Buckwalter08-Daal.dat(1012): ;--- drd$
+Elixir\Data\Buckwalter\Buckwalter08-Daal.dat(1083): ;--- drsd
+Elixir\Data\Buckwalter\Buckwalter08-Daal.dat(1812): ;--- dgdg
+Elixir\Data\Buckwalter\Buckwalter09-Dhaal.dat(79): ;--- *b*b
+Elixir\Data\Buckwalter\Buckwalter10-Raa.dat(1276): ;--- rjrj
+Elixir\Data\Buckwalter\Buckwalter10-Raa.dat(2586): ;--- rsrs
+Elixir\Data\Buckwalter\Buckwalter10-Raa.dat(2931): ;--- r$r$
+Elixir\Data\Buckwalter\Buckwalter10-Raa.dat(3200): ;--- rDrD
+Elixir\Data\Buckwalter\Buckwalter10-Raa.dat(3793): ;--- rgrg
+Elixir\Data\Buckwalter\Buckwalter10-Raa.dat(4436): ;--- rqrq
+Elixir\Data\Buckwalter\Buckwalter11-Zaay.dat(157): ;--- zbrj
+Elixir\Data\Buckwalter\Buckwalter11-Zaay.dat(582): ;--- zrzr
+Elixir\Data\Buckwalter\Buckwalter11-Zaay.dat(1012): ;--- zgbr
+Elixir\Data\Buckwalter\Buckwalter11-Zaay.dat(1033): ;--- zgrb
+Elixir\Data\Buckwalter\Buckwalter11-Zaay.dat(1053): ;--- zgzg
+Elixir\Data\Buckwalter\Buckwalter11-Zaay.dat(1186): ;--- zqzq
+Elixir\Data\Buckwalter\Buckwalter12-Siin.dat(507): ;--- sbsb
+Elixir\Data\Buckwalter\Buckwalter12-Siin.dat(2106): ;--- srxs
+Elixir\Data\Buckwalter\Buckwalter12-Siin.dat(2132): ;--- srdr
+Elixir\Data\Buckwalter\Buckwalter12-Siin.dat(2136): ;--- srdq
+Elixir\Data\Buckwalter\Buckwalter12-Siin.dat(2140): ;--- srdk
+Elixir\Data\Buckwalter\Buckwalter12-Siin.dat(2305): ;--- srqs
+Elixir\Data\Buckwalter\Buckwalter12-Siin.dat(2323): ;--- srks
+Elixir\Data\Buckwalter\Buckwalter12-Siin.dat(3249): ;--- sqsq
+Elixir\Data\Buckwalter\Buckwalter12-Siin.dat(3584): ;--- skbj
+Elixir\Data\Buckwalter\Buckwalter12-Siin.dat(3704): ;--- skrj
+Elixir\Data\Buckwalter\Buckwalter12-Siin.dat(3717): ;--- sksk
+Elixir\Data\Buckwalter\Buckwalter13-Shiin.dat(281): ;--- $b$b
+Elixir\Data\Buckwalter\Buckwalter13-Shiin.dat(397): ;--- $bk$
+Elixir\Data\Buckwalter\Buckwalter13-Shiin.dat(1094): ;--- $x$x
+Elixir\Data\Buckwalter\Buckwalter13-Shiin.dat(1669): ;--- $r$r
+Elixir\Data\Buckwalter\Buckwalter13-Shiin.dat(2073): ;--- $rks
+Elixir\Data\Buckwalter\Buckwalter13-Shiin.dat(3330): ;--- $qrq
+Elixir\Data\Buckwalter\Buckwalter13-Shiin.dat(3337): ;--- $q$q
+Elixir\Data\Buckwalter\Buckwalter14-Ssaad.dat(1229): ;--- SrSr
+Elixir\Data\Buckwalter\Buckwalter19-Ghayn.dat(948): ;--- grgr
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(137): ;--- qbrs
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(141): ;--- qbrS
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(290): ;--- qbqb
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(1677): ;--- qrbs
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(1783): ;--- qrdb
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(1795): ;--- qrds
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(2226): ;--- qrq*
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(2230): ;--- qrqr
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(2243): ;--- qrqz
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(2248): ;--- qrqs
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(2252): ;--- qrq$
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(2256): ;--- qrqD
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(2661): ;--- qzqz
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(3254): ;--- q$q$
+Elixir\Data\Buckwalter\Buckwalter21-Qaaf.dat(3613): ;--- qSqS
+Elixir\Data\Buckwalter\Buckwalter22-Kaaf.dat(659): ;--- kbkb
+Elixir\Data\Buckwalter\Buckwalter22-Kaaf.dat(666): ;--- kbkj
+Elixir\Data\Buckwalter\Buckwalter22-Kaaf.dat(1590): ;--- krbr
+Elixir\Data\Buckwalter\Buckwalter22-Kaaf.dat(1594): ;--- krbs
+Elixir\Data\Buckwalter\Buckwalter22-Kaaf.dat(1882): ;--- krkb
+Elixir\Data\Buckwalter\Buckwalter22-Kaaf.dat(1889): ;--- krkd
+Elixir\Data\Buckwalter\Buckwalter22-Kaaf.dat(1894): ;--- krkr
+Elixir\Data\Buckwalter\Buckwalter22-Kaaf.dat(1901): ;--- krkz
+Elixir\Data\Buckwalter\Buckwalter22-Kaaf.dat(2425): ;--- kzbr
+Elixir\Data\Buckwalter\Buckwalter22-Kaaf.dat(2436): ;--- kzkz
+Elixir\Data\Buckwalter\Buckwalter22-Kaaf.dat(2488): ;--- ksbr
+Elixir\Data\Buckwalter\Buckwalter22-Kaaf.dat(2683): ;--- ksks
+Elixir\Data\Buckwalter\Buckwalter22-Kaaf.dat(2958): ;--- k$k$
 
 -}

@@ -171,21 +171,10 @@ instance Enum ParaNoun where
     toEnum = (!!) values
 
 
-{-
-data State = Definite
-           | Indefinite
-           | Construct
-           | AbsoluteNegative
-           | Overdetermined
-           | Underdetermined
--}
-
-data State' = Def | Indef | Const
-
-
 data Couple a b = a :-: b
 
     deriving Eq
+
 
 type State = Couple Definite Annexing
 
@@ -202,6 +191,17 @@ instance Show State where
     show (Nothing    :-: True)  = "R"
     show (Just True  :-: True)  = "C"
     show (Just False :-: True)  = "-"
+
+state (Nothing    :-: False) = "Indefinite"
+state (Just True  :-: False) = "Definite"
+state (Just False :-: False) = "AbsoluteNegative"
+
+state (Nothing    :-: True)  = "Construct"
+state (Just True  :-: True)  = "Overdetermined"
+state (Just False :-: True)  = "Underdetermined"
+
+
+data State' = Def | Indef | Const
 
 
 type Definite = Maybe Bool
@@ -235,28 +235,14 @@ type Humanness = Bool
 -- instance Param Humanness
 
 
-data LogDefin   = Indefinite
-                | Definite
-    deriving (Eq, Show, Enum)
+type Definiteness = Bool
 
-instance Param LogDefin     where values = enum
+-- instance Param Definiteness
 
 
-data LogNumber  = LogSingular
-                | LogDual
-                | LogPlural
-    deriving (Eq, Show, Enum)
+newtype Logical a = Logical a
 
-instance Param LogNumber    where values = enum
-
-
-data LogGender  = LogMasculine
-                | LogFeminine
-    deriving (Eq, Show, Enum)
-
-instance Param LogGender    where values = enum
-
-
+    deriving (Eq, Show)
 
 
 data ParaPron   = PronN Person Gender Number Case
