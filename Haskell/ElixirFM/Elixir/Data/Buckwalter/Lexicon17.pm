@@ -2358,7 +2358,11 @@ $Lexicon = {
         'ZrfA}   ZurafA} Nhy     adroit;elegant',
         'ZrA}f   ZarA}if Ndip    adroit;elegant;courteous'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.zurafA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -3375,7 +3379,11 @@ $Lexicon = {
         'ZlmA&   ZalomA& Nh      darkness',
         'ZlmA}   ZalomA} Nhy     darkness'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.zalmA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCL |< aT',

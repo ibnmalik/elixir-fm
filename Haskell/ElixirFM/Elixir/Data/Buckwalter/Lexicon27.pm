@@ -288,7 +288,11 @@ $Lexicon = {
         'wrvA&   wuravA& Nh      heirs;inheritors',
         'wrvA}   wuravA} Nhy     heirs;inheritors'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'wura_tA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -1388,7 +1392,11 @@ $Lexicon = {
         'wklA&   wukalA& Nh      representatives;agents',
         'wklA}   wukalA} Nhy     representatives;agents'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'wukalA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -7448,6 +7456,56 @@ $Lexicon = {
         'plans'
       ],
       'orig' => 'tawax~iy',
+      'prefix' => ''
+    }
+  ],
+  'way' => [
+    {
+      'types' => {
+        'waykunna' => {
+          'FW-Wa' => 1
+        },
+        'waykum' => {
+          'FW-Wa' => 1
+        },
+        'wayka' => {
+          'FW-Wa' => 1
+        },
+        'way' => {
+          'FW-Wa' => 1
+        },
+        'waykumA' => {
+          'FW-Wa' => 1
+        },
+        'wayki' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'way',
+      'form' => 'way',
+      'lines' => [
+        ';; way_1',
+        'wy      wayo    FW-Wa   shame on                     [[wayo/INTERJ]]',
+        'wyk     wayoka  FW-Wa   shame on + you [masc.sg.]    [[wayo/INTERJ+ka/PRON_2MS]]',
+        'wyk     wayoki  FW-Wa   shame on + you [fem.sg.]     [[wayo/INTERJ+ki/PRON_2FS]]',
+        'wykmA   wayokumA        FW-Wa   shame on + you both          [[wayo/INTERJ+kumA/PRON_2D]]',
+        'wykm    wayokum FW-Wa   shame on + you [masc.pl.]    [[wayo/INTERJ+kum/PRON_2MP]]',
+        'wykn    wayokun~a       FW-Wa   shame on + you [fem.pl.]     [[wayo/INTERJ+kun~a/PRON_2FP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'shame on',
+        'shame on + you [masc.sg.]',
+        'shame on + you [fem.sg.]',
+        'shame on + you both',
+        'shame on + you [masc.pl.]',
+        'shame on + you [fem.pl.]'
+      ],
+      'orig' => 'way',
       'prefix' => ''
     }
   ],
@@ -16003,7 +16061,11 @@ $Lexicon = {
         'wbrA&   waborA& Nh      hairy;fluffy',
         'wbrA}   waborA} Nhy     hairy;fluffy'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'wabrA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -18329,7 +18391,11 @@ $Lexicon = {
         'wDEA&   wuDaEA& Nh      lowly;inferior;humble',
         'wDEA}   wuDaEA} Nhy     lowly;inferior;humble'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'wu.da`A\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -19976,36 +20042,6 @@ $Lexicon = {
         'twinkle'
       ],
       'orig' => 'wamiyD',
-      'prefix' => ''
-    }
-  ],
-  'w ` _t \'' => [
-    {
-      'types' => {
-        'wa`_tA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'wa`_tA\'',
-      'form' => 'wa`_tA\'',
-      'lines' => [
-        ';; waEovA\'_1',
-        'wEvA\'   waEovA\' N0_Nh   difficulty;inconvenience',
-        'wEvA&   waEovA& Nh      difficulty;inconvenience',
-        'wEvA}   waEovA} Nhy     difficulty;inconvenience'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'difficulty',
-        'inconvenience'
-      ],
-      'orig' => 'waEovA\'',
       'prefix' => ''
     }
   ],
@@ -24034,7 +24070,11 @@ $Lexicon = {
         'wsmA&   wusamA& Nh      graceful;good-looking',
         'wsmA}   wusamA} Nhy     graceful;good-looking'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'wusamA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -24973,33 +25013,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tuka\'' => [
-    {
-      'types' => {
-        'tuka\'aT' => {
-          'Napdu' => 1
-        }
-      },
-      'entry' => 'tuka\'',
-      'form' => 'tuka\'aT',
-      'lines' => [
-        ';; tuka>ap_1',
-        'tk>     tuka>   Napdu   support;prop;staff'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'support',
-        'prop',
-        'staff'
-      ],
-      'orig' => 'tukaOap',
-      'prefix' => ''
-    }
-  ],
   'w .d b' => [
     {
       'types' => {
@@ -25053,6 +25066,33 @@ $Lexicon = {
         'putting in order'
       ],
       'orig' => 'tawoDiyb',
+      'prefix' => ''
+    }
+  ],
+  'tuka\'' => [
+    {
+      'types' => {
+        'tuka\'aT' => {
+          'Napdu' => 1
+        }
+      },
+      'entry' => 'tuka\'',
+      'form' => 'tuka\'aT',
+      'lines' => [
+        ';; tuka>ap_1',
+        'tk>     tuka>   Napdu   support;prop;staff'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'support',
+        'prop',
+        'staff'
+      ],
+      'orig' => 'tukaOap',
       'prefix' => ''
     }
   ],
@@ -32391,7 +32431,11 @@ $Lexicon = {
         'wsTA&   wusaTA& Nh      mediators;go-betweens;intermediaries',
         'wsTA}   wusaTA} Nhy     mediators;go-betweens;intermediaries'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'wusa.tA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -33355,7 +33399,11 @@ $Lexicon = {
         'wzrA&   wuzarA& Nh      ministers',
         'wzrA}   wuzarA} Nhy     ministers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'wuzarA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -34156,7 +34204,11 @@ $Lexicon = {
         'wSfA&   wuSafA& Nh      valets;lads;pages',
         'wSfA}   wuSafA} Nhy     valets;lads;pages'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'wu.safA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -36355,35 +36407,6 @@ $Lexicon = {
         'lassos'
       ],
       'orig' => 'wahoq',
-      'prefix' => ''
-    }
-  ],
-  'w .t f \'' => [
-    {
-      'types' => {
-        'wa.tfA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'wa.tfA\'',
-      'form' => 'wa.tfA\'',
-      'lines' => [
-        ';; waTofA\'_1',
-        'wTfA\'   waTofA\' N0_Nh   heavy clouds',
-        'wTfA&   waTofA& Nh      heavy clouds',
-        'wTfA}   waTofA} Nhy     heavy clouds'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'heavy clouds'
-      ],
-      'orig' => 'waTofA\'',
       'prefix' => ''
     }
   ],
@@ -39622,7 +39645,11 @@ $Lexicon = {
         'wjhA&   wujahA& Nh      prominent;distinguished;socialites',
         'wjhA}   wujahA} Nhy     prominent;distinguished;socialites'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'wu^gahA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -41254,56 +41281,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'w w y' => [
-    {
-      'types' => {
-        'waykunna' => {
-          'FW-Wa' => 1
-        },
-        'waykum' => {
-          'FW-Wa' => 1
-        },
-        'wayka' => {
-          'FW-Wa' => 1
-        },
-        'way' => {
-          'FW-Wa' => 1
-        },
-        'waykumA' => {
-          'FW-Wa' => 1
-        },
-        'wayki' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => 'way',
-      'form' => 'way',
-      'lines' => [
-        ';; way_1',
-        'wy      wayo    FW-Wa   shame on                     [[wayo/INTERJ]]',
-        'wyk     wayoka  FW-Wa   shame on + you [masc.sg.]    [[wayo/INTERJ+ka/PRON_2MS]]',
-        'wyk     wayoki  FW-Wa   shame on + you [fem.sg.]     [[wayo/INTERJ+ki/PRON_2FS]]',
-        'wykmA   wayokumA        FW-Wa   shame on + you both          [[wayo/INTERJ+kumA/PRON_2D]]',
-        'wykm    wayokum FW-Wa   shame on + you [masc.pl.]    [[wayo/INTERJ+kum/PRON_2MP]]',
-        'wykn    wayokun~a       FW-Wa   shame on + you [fem.pl.]     [[wayo/INTERJ+kun~a/PRON_2FP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL',
-      'suffix' => '',
-      'glosses' => [
-        'shame on',
-        'shame on + you [masc.sg.]',
-        'shame on + you [fem.sg.]',
-        'shame on + you both',
-        'shame on + you [masc.pl.]',
-        'shame on + you [fem.pl.]'
-      ],
-      'orig' => 'way',
-      'prefix' => ''
-    }
-  ],
   'ittihAm' => [
     {
       'types' => {
@@ -41416,7 +41393,11 @@ $Lexicon = {
         'wTfA&   waTofA& Nh      bushy-browed',
         'wTfA}   waTofA} Nhy     bushy-browed'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'wa.tfA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -41425,6 +41406,33 @@ $Lexicon = {
         'bushy-browed'
       ],
       'orig' => 'OawoTaf',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'wa.tfA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'wa.tfA\'',
+      'form' => 'wa.tfA\'',
+      'lines' => [
+        ';; waTofA\'_1',
+        'wTfA\'   waTofA\' N0_Nh   heavy clouds',
+        'wTfA&   waTofA& Nh      heavy clouds',
+        'wTfA}   waTofA} Nhy     heavy clouds'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'heavy clouds'
+      ],
+      'orig' => 'waTofA\'',
       'prefix' => ''
     }
   ],
@@ -41797,6 +41805,34 @@ $Lexicon = {
         'laborious'
       ],
       'orig' => 'waEov',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'wa`_tA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'wa`_tA\'',
+      'form' => 'wa`_tA\'',
+      'lines' => [
+        ';; waEovA\'_1',
+        'wEvA\'   waEovA\' N0_Nh   difficulty;inconvenience',
+        'wEvA&   waEovA& Nh      difficulty;inconvenience',
+        'wEvA}   waEovA} Nhy     difficulty;inconvenience'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'difficulty',
+        'inconvenience'
+      ],
+      'orig' => 'waEovA\'',
       'prefix' => ''
     }
   ],
@@ -44992,6 +45028,20 @@ $Lexicon = {
       'glosses' => [],
       'orig' => 'wa$~aY',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'wa^s^sA\'',
+      'form' => 'wa^s^sA\'',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'wa$~A\'',
+      'prefix' => ''
     }
   ],
   'ittaqY' => [
@@ -45990,3 +46040,6 @@ $Lexicon->{'w s y'}[4]{'glosses'} = $Lexicon->{'w s y'}[3]{'glosses'};
 $Lexicon->{'w ^s ^s'}[0]{'types'} = $Lexicon->{'w ^s y'}[1]{'types'};
 $Lexicon->{'w ^s ^s'}[0]{'lines'} = $Lexicon->{'w ^s y'}[1]{'lines'};
 $Lexicon->{'w ^s ^s'}[0]{'glosses'} = $Lexicon->{'w ^s y'}[1]{'glosses'};
+$Lexicon->{'w ^s ^s'}[1]{'types'} = $Lexicon->{'w ^s \''}[0]{'types'};
+$Lexicon->{'w ^s ^s'}[1]{'lines'} = $Lexicon->{'w ^s \''}[0]{'lines'};
+$Lexicon->{'w ^s ^s'}[1]{'glosses'} = $Lexicon->{'w ^s \''}[0]{'glosses'};

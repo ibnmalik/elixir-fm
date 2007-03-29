@@ -236,9 +236,6 @@ sub closeEntry {
 
     my @root = split / /, $root;
 
-    push @root, ('') x (3 - @root) unless @root > 3;
-
-
     my $entry = $Entry->{'form'};
 
     my ($suffix, $prefix, $imperf);
@@ -293,7 +290,7 @@ sub closeEntry {
                 $entry = $1 . "Y";
                 $suffix = ' |< Iy' . $suffix;
             }
-            elsif ($entry =~ /^(.*o[wy]|.*A\')iyy$/) {
+            elsif ($entry =~ /^(.*(?:o[wy]|ww|yy|A\'))iyy$/) {
 
                 $entry = $1;
                 $suffix = ' |< Iy' . $suffix;
@@ -302,6 +299,8 @@ sub closeEntry {
 
                 $entry = $1;
                 $suffix = ' |< Iy' . $suffix;
+
+                $entry =~ s/Aw$/A\'/;
             }
         }
     }
@@ -351,16 +350,16 @@ sub closeEntry {
                 $done = 1;
 
                 $toor[1] = $root[1] if $toor[1] eq '';
-                $toor[2] = $root[2] if $toor[2] eq '';
+                $toor[2] = @root > 1 ? $root[-1] : '' if $toor[2] eq '';
 
                 storeEntry((join ' ', @toor), $_) foreach @{$root{$toor}};
             }
-            elsif ($toor[0] eq '' and $toor[1] ne '') {
+            elsif ($toor[0] eq '' and $toor[1] ne '' and $toor[1] ne $char) {
 
                 $done = 1;
 
                 $toor[0] = $root[0];
-                $toor[2] = $root[2] if $toor[2] eq '';
+                $toor[2] = @root > 1 ? $root[-1] : '' if $toor[2] eq '';
 
                 storeEntry((join ' ', @toor), $_) foreach @{$root{$toor}};
             }

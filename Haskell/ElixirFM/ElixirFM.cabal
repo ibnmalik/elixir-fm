@@ -3,7 +3,7 @@ version:            0.1
 license:            GPL
 license-file:       LICENSE
 extra-source-files: INSTALL
-copyright:          2006
+copyright:          2007
 author:             Otakar Smrz
 maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
@@ -12,13 +12,17 @@ category:           Various
 build-depends:      Encode, Cabal, base
 hs-source-dirs:     ., ../Encode
 synopsis:           Functional Arabic Morphology
-description:        The "Elixir" and "FM" libraries are an implementation of
-                    Functional Arabic Morphology and an extension to the
-                    /Functional Morphology/ library developed by Markus
-                    Forsberg in his licenciate thesis /Applications of
-                    Functional Programming in Processing Formal and Natural
-                    Languages/, G&#246;teborg University and Chalmers
-                    University of Technology, December 2004,
+description:        The "Elixir" and "FM" libraries implement Functional Arabic
+                    Morphology and are part of the author's PhD thesis
+                    /Functional Arabic Morphology. Formal System and
+                    Implementation/, Charles University in Prague, expected
+                    2007, <http://ufal.mff.cuni.cz/~smrz/ElixirFM/>.
+                    .
+                    /ElixirFM/ is an extension to the /Functional Morphology/
+                    library developed by Markus Forsberg in his licenciate
+                    thesis /Applications of Functional Programming in Processing
+                    Formal and Natural Languages/, G&#246;teborg University and
+                    Chalmers University of Technology, December 2004,
                     <http://www.cs.chalmers.se/~markus/FM/>.
                     .
                     The "Version" library is just a simple support for
@@ -34,34 +38,34 @@ exposed-modules:    ElixirFM,
                                 Elixir.Lexicon.Pretty.Perl,
                         -- Elixir.Data,
                             Elixir.Data.Lexicons,
-                                -- Elixir.Data.Lexicons.Lexicon00,
-                                -- Elixir.Data.Lexicons.Lexicon01,
-                                -- Elixir.Data.Lexicons.Lexicon02,
-                                -- Elixir.Data.Lexicons.Lexicon03,
-                                -- Elixir.Data.Lexicons.Lexicon04,
-                                -- Elixir.Data.Lexicons.Lexicon05,
-                                -- Elixir.Data.Lexicons.Lexicon06,
-                                -- Elixir.Data.Lexicons.Lexicon07,
-                                -- Elixir.Data.Lexicons.Lexicon08,
-                                -- Elixir.Data.Lexicons.Lexicon09,
-                                -- Elixir.Data.Lexicons.Lexicon10,
-                                -- Elixir.Data.Lexicons.Lexicon11,
-                                -- Elixir.Data.Lexicons.Lexicon12,
-                                -- Elixir.Data.Lexicons.Lexicon13,
-                                -- Elixir.Data.Lexicons.Lexicon14,
-                                -- Elixir.Data.Lexicons.Lexicon15,
-                                -- Elixir.Data.Lexicons.Lexicon16,
-                                -- Elixir.Data.Lexicons.Lexicon17,
-                                -- Elixir.Data.Lexicons.Lexicon18,
-                                -- Elixir.Data.Lexicons.Lexicon19,
-                                -- Elixir.Data.Lexicons.Lexicon20,
-                                -- Elixir.Data.Lexicons.Lexicon21,
-                                -- Elixir.Data.Lexicons.Lexicon22,
-                                -- Elixir.Data.Lexicons.Lexicon23,
-                                -- Elixir.Data.Lexicons.Lexicon24,
-                                -- Elixir.Data.Lexicons.Lexicon25,
-                                -- Elixir.Data.Lexicons.Lexicon26,
-                                -- Elixir.Data.Lexicons.Lexicon27,
+                                Elixir.Data.Lexicons.Lexicon00,
+                                Elixir.Data.Lexicons.Lexicon01,
+                                Elixir.Data.Lexicons.Lexicon02,
+                                Elixir.Data.Lexicons.Lexicon03,
+                                Elixir.Data.Lexicons.Lexicon04,
+                                Elixir.Data.Lexicons.Lexicon05,
+                                Elixir.Data.Lexicons.Lexicon06,
+                                Elixir.Data.Lexicons.Lexicon07,
+                                Elixir.Data.Lexicons.Lexicon08,
+                                Elixir.Data.Lexicons.Lexicon09,
+                                Elixir.Data.Lexicons.Lexicon10,
+                                Elixir.Data.Lexicons.Lexicon11,
+                                Elixir.Data.Lexicons.Lexicon12,
+                                Elixir.Data.Lexicons.Lexicon13,
+                                Elixir.Data.Lexicons.Lexicon14,
+                                Elixir.Data.Lexicons.Lexicon15,
+                                Elixir.Data.Lexicons.Lexicon16,
+                                Elixir.Data.Lexicons.Lexicon17,
+                                Elixir.Data.Lexicons.Lexicon18,
+                                Elixir.Data.Lexicons.Lexicon19,
+                                Elixir.Data.Lexicons.Lexicon20,
+                                Elixir.Data.Lexicons.Lexicon21,
+                                Elixir.Data.Lexicons.Lexicon22,
+                                Elixir.Data.Lexicons.Lexicon23,
+                                Elixir.Data.Lexicons.Lexicon24,
+                                Elixir.Data.Lexicons.Lexicon25,
+                                Elixir.Data.Lexicons.Lexicon26,
+                                Elixir.Data.Lexicons.Lexicon27,
                                 Elixir.Data.Lexicons.Lexicon28,
                             Elixir.Data.Patterns,
                                 Elixir.Data.Patterns.Literal,
@@ -102,5 +106,5 @@ exposed-modules:    ElixirFM,
                             FM.Arabic.Lexicon,
                     Version
 extensions:         MultiParamTypeClasses,
-                    -- FunctionalDependencies,
+                    FunctionalDependencies,
                     OverlappingInstances

@@ -353,39 +353,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.t r f \'' => [
-    {
-      'types' => {
-        '.tarfA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        },
-        '.tarf' => {
-          'Napdu' => 1
-        }
-      },
-      'entry' => '.tarfA\'',
-      'form' => '.tarfA\'',
-      'lines' => [
-        ';; TarofA\'_1',
-        'TrfA\'   TarofA\' N0_Nh   tamarisk',
-        'TrfA&   TarofA& Nh      tamarisk',
-        'TrfA}   TarofA} Nhy     tamarisk',
-        'Trf     Tarof   Napdu   tamarisk'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'tamarisk'
-      ],
-      'orig' => 'TarofA\'',
-      'prefix' => ''
-    }
-  ],
   '.t f r' => [
     {
       'types' => {
@@ -1270,54 +1237,6 @@ $Lexicon = {
         'talismans'
       ],
       'orig' => 'Til~asom',
-      'prefix' => ''
-    }
-  ],
-  '.t w b w' => [
-    {
-      'types' => {
-        '.tuwbAwiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => '.tuwbAw',
-      'form' => '.tuwbAwiyy',
-      'lines' => [
-        ';; TuwbAwiy~_1',
-        'TwbAwy  TuwbAwiy~       Nall    blessed     [[TuwbAwiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'blessed'
-      ],
-      'orig' => 'TuwbAwiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.tuwbAwiyyaT' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => '.tuwbAw',
-      'form' => '.tuwbAwiyyaT',
-      'lines' => [
-        ';; TuwbAwiy~ap_1',
-        'TwbAwy  TuwbAwiy~       Nap     blessedness     [[TuwbAwiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDAS |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'blessedness'
-      ],
-      'orig' => 'TuwbAwiy~ap',
       'prefix' => ''
     }
   ],
@@ -2254,6 +2173,9 @@ $Lexicon = {
         'Tr$     Turo$   N       deaf'
       ],
       'patterns' => {
+        '.tar^sA\'' => [
+          'FaCLA\''
+        ],
         '.tur^s' => [
           'FuCL'
         ]
@@ -3803,6 +3725,52 @@ $Lexicon = {
         'utopian'
       ],
       'orig' => 'TuwbA}iy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.tuwbAwiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => '.tuwbA\'',
+      'form' => '.tuwbAwiyy',
+      'lines' => [
+        ';; TuwbAwiy~_1',
+        'TwbAwy  TuwbAwiy~       Nall    blessed     [[TuwbAwiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'blessed'
+      ],
+      'orig' => 'TuwbAwiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.tuwbAwiyyaT' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => '.tuwbA\'',
+      'form' => '.tuwbAwiyyaT',
+      'lines' => [
+        ';; TuwbAwiy~ap_1',
+        'TwbAwy  TuwbAwiy~       Nap     blessedness     [[TuwbAwiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCAL |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'blessedness'
+      ],
+      'orig' => 'TuwbAwiy~ap',
       'prefix' => ''
     }
   ],
@@ -6676,55 +6644,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.t n .t w' => [
-    {
-      'types' => {
-        '.tan.tAwiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => '.tan.tAw',
-      'form' => '.tan.tAwiyy',
-      'lines' => [
-        ';; TanoTAwiy~_1',
-        'TnTAwy  TanoTAwiy~      Nall    from/of Tanta [Egy.]     [[TanoTAwiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'from/of Tanta [Egy.]'
-      ],
-      'orig' => 'TanoTAwiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.tan.tAwiyy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => '.tan.tAw',
-      'form' => '.tan.tAwiyy',
-      'lines' => [
-        ';; TanoTAwiy~_2',
-        'TnTAwy  TanoTAwiy~      N0      Tantawi;Tantaoui'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Tantawi',
-        'Tantaoui'
-      ],
-      'orig' => 'TanoTAwiy~',
-      'prefix' => ''
-    }
-  ],
   '.t l m' => [
     {
       'types' => {
@@ -8506,7 +8425,11 @@ $Lexicon = {
         'TlqA&   TulaqA& Nh      free;released;at large',
         'TlqA}   TulaqA} Nhy     free;released;at large'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.tulaqA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -12175,36 +12098,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.t b w' => [
-    {
-      'types' => {},
-      'entry' => '.tuwbAw',
-      'form' => '.tuwbAwiyy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [],
-      'orig' => 'TuwbAwiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.tuwbAw',
-      'form' => '.tuwbAwiyyaT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCAL |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [],
-      'orig' => 'TuwbAwiy~ap',
-      'prefix' => ''
-    }
-  ],
   'i.tmi\'nAn' => [
     {
       'types' => {
@@ -12639,6 +12532,35 @@ $Lexicon = {
         'unavenged'
       ],
       'orig' => 'muTal~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.tallA\'' => {
+          'Nh_Niyn' => 1,
+          'NapAt' => 1,
+          'Nh_Nuwn' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '.tallA\'',
+      'form' => '.tallA\'',
+      'lines' => [
+        ';; Tal~A\'_1',
+        'TlA\'    Tal~A\'  N0_Nh   electroplate',
+        'TlA&    Tal~A&  Nh_Nuwn electroplate',
+        'TlA}    Tal~A}  Nh_Niyn electroplate',
+        'TlA\'    Tal~A\'  NapAt   electroplate'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'electroplate'
+      ],
+      'orig' => 'Tal~A\'',
       'prefix' => ''
     }
   ],
@@ -16971,6 +16893,55 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.t n .t \'' => [
+    {
+      'types' => {
+        '.tan.tAwiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => '.tan.tA\'',
+      'form' => '.tan.tAwiyy',
+      'lines' => [
+        ';; TanoTAwiy~_1',
+        'TnTAwy  TanoTAwiy~      Nall    from/of Tanta [Egy.]     [[TanoTAwiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDAS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'from/of Tanta [Egy.]'
+      ],
+      'orig' => 'TanoTAwiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.tan.tAwiyy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => '.tan.tA\'',
+      'form' => '.tan.tAwiyy',
+      'lines' => [
+        ';; TanoTAwiy~_2',
+        'TnTAwy  TanoTAwiy~      N0      Tantawi;Tantaoui'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'KaRDAS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Tantawi',
+        'Tantaoui'
+      ],
+      'orig' => 'TanoTAwiy~',
+      'prefix' => ''
+    }
+  ],
   '.t w r s' => [
     {
       'types' => {
@@ -20108,6 +20079,41 @@ $Lexicon = {
     },
     {
       'types' => {
+        '.tarfA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        },
+        '.tarf' => {
+          'Napdu' => 1
+        }
+      },
+      'entry' => '.tarfA\'',
+      'form' => '.tarfA\'',
+      'lines' => [
+        ';; TarofA\'_1',
+        'TrfA\'   TarofA\' N0_Nh   tamarisk',
+        'TrfA&   TarofA& Nh      tamarisk',
+        'TrfA}   TarofA} Nhy     tamarisk',
+        'Trf     Tarof   Napdu   tamarisk'
+      ],
+      'patterns' => {
+        '.tarf' => [
+          'FaCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'tamarisk'
+      ],
+      'orig' => 'TarofA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '.tariyf' => {
           'N-ap' => 2
         }
@@ -23044,31 +23050,16 @@ $Lexicon = {
   ],
   '.t l \'' => [
     {
-      'types' => {
-        '.tallA\'' => {
-          'Nh_Niyn' => 1,
-          'NapAt' => 1,
-          'Nh_Nuwn' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '.tallA\'',
       'form' => '.tallA\'',
-      'lines' => [
-        ';; Tal~A\'_1',
-        'TlA\'    Tal~A\'  N0_Nh   electroplate',
-        'TlA&    Tal~A&  Nh_Nuwn electroplate',
-        'TlA}    Tal~A}  Nh_Niyn electroplate',
-        'TlA\'    Tal~A\'  NapAt   electroplate'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCCAL',
       'suffix' => '',
-      'glosses' => [
-        'electroplate'
-      ],
+      'glosses' => [],
       'orig' => 'Tal~A\'',
       'prefix' => ''
     }
@@ -24773,6 +24764,34 @@ $Lexicon = {
       'suffix' => ' |< Iy',
       'glosses' => [],
       'orig' => 'TuwbA}iy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.tuwbA\'',
+      'form' => '.tuwbAwiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDAS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'TuwbAwiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.tuwbA\'',
+      'form' => '.tuwbAwiyyaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDAS |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [],
+      'orig' => 'TuwbAwiy~ap',
       'prefix' => ''
     }
   ],
@@ -26663,12 +26682,6 @@ $Lexicon->{'.t n n'}[6]{'glosses'} = $Lexicon->{'.t n n'}[5]{'glosses'};
 $Lexicon->{'.t h w'}[4]{'types'} = $Lexicon->{'.t h y'}[1]{'types'};
 $Lexicon->{'.t h w'}[4]{'lines'} = $Lexicon->{'.t h y'}[1]{'lines'};
 $Lexicon->{'.t h w'}[4]{'glosses'} = $Lexicon->{'.t h y'}[1]{'glosses'};
-$Lexicon->{'.t b w'}[0]{'types'} = $Lexicon->{'.t w b w'}[0]{'types'};
-$Lexicon->{'.t b w'}[0]{'lines'} = $Lexicon->{'.t w b w'}[0]{'lines'};
-$Lexicon->{'.t b w'}[0]{'glosses'} = $Lexicon->{'.t w b w'}[0]{'glosses'};
-$Lexicon->{'.t b w'}[1]{'types'} = $Lexicon->{'.t w b w'}[1]{'types'};
-$Lexicon->{'.t b w'}[1]{'lines'} = $Lexicon->{'.t w b w'}[1]{'lines'};
-$Lexicon->{'.t b w'}[1]{'glosses'} = $Lexicon->{'.t w b w'}[1]{'glosses'};
 $Lexicon->{'.t y ^s'}[1]{'types'} = $Lexicon->{'.t \' ^s'}[0]{'types'};
 $Lexicon->{'.t y ^s'}[1]{'lines'} = $Lexicon->{'.t \' ^s'}[0]{'lines'};
 $Lexicon->{'.t y ^s'}[1]{'glosses'} = $Lexicon->{'.t \' ^s'}[0]{'glosses'};
@@ -26735,6 +26748,9 @@ $Lexicon->{'.t \' f'}[2]{'glosses'} = $Lexicon->{'.t w f'}[12]{'glosses'};
 $Lexicon->{'.t \' f'}[3]{'types'} = $Lexicon->{'.t w f'}[13]{'types'};
 $Lexicon->{'.t \' f'}[3]{'lines'} = $Lexicon->{'.t w f'}[13]{'lines'};
 $Lexicon->{'.t \' f'}[3]{'glosses'} = $Lexicon->{'.t w f'}[13]{'glosses'};
+$Lexicon->{'.t l \''}[0]{'types'} = $Lexicon->{'.t l l'}[10]{'types'};
+$Lexicon->{'.t l \''}[0]{'lines'} = $Lexicon->{'.t l l'}[10]{'lines'};
+$Lexicon->{'.t l \''}[0]{'glosses'} = $Lexicon->{'.t l l'}[10]{'glosses'};
 $Lexicon->{'.t b s'}[0]{'types'} = $Lexicon->{'.t w b s'}[0]{'types'};
 $Lexicon->{'.t b s'}[0]{'lines'} = $Lexicon->{'.t w b s'}[0]{'lines'};
 $Lexicon->{'.t b s'}[0]{'glosses'} = $Lexicon->{'.t w b s'}[0]{'glosses'};
@@ -26747,6 +26763,12 @@ $Lexicon->{'.t b s'}[2]{'glosses'} = $Lexicon->{'.t w b s'}[2]{'glosses'};
 $Lexicon->{'.t w b \''}[0]{'types'} = $Lexicon->{'.t b \''}[0]{'types'};
 $Lexicon->{'.t w b \''}[0]{'lines'} = $Lexicon->{'.t b \''}[0]{'lines'};
 $Lexicon->{'.t w b \''}[0]{'glosses'} = $Lexicon->{'.t b \''}[0]{'glosses'};
+$Lexicon->{'.t w b \''}[1]{'types'} = $Lexicon->{'.t b \''}[1]{'types'};
+$Lexicon->{'.t w b \''}[1]{'lines'} = $Lexicon->{'.t b \''}[1]{'lines'};
+$Lexicon->{'.t w b \''}[1]{'glosses'} = $Lexicon->{'.t b \''}[1]{'glosses'};
+$Lexicon->{'.t w b \''}[2]{'types'} = $Lexicon->{'.t b \''}[2]{'types'};
+$Lexicon->{'.t w b \''}[2]{'lines'} = $Lexicon->{'.t b \''}[2]{'lines'};
+$Lexicon->{'.t w b \''}[2]{'glosses'} = $Lexicon->{'.t b \''}[2]{'glosses'};
 $Lexicon->{'.t r w'}[1]{'types'} = $Lexicon->{'.t r r'}[9]{'types'};
 $Lexicon->{'.t r w'}[1]{'lines'} = $Lexicon->{'.t r r'}[9]{'lines'};
 $Lexicon->{'.t r w'}[1]{'glosses'} = $Lexicon->{'.t r r'}[9]{'glosses'};

@@ -6,16 +6,16 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> "'Ay" <| [
 
     -- ;; |y_1
-    -- |y      |y      FW      A.     [[|y/ABBREV]]
-    -- |y      |y      FW      I.     [[|y/ABBREV]]
+    -- \|y      |y      FW      A.     [[|y/ABBREV]]
+    -- \|y      |y      FW      I.     [[|y/ABBREV]]
 
-    Identity                  `noun`       {- |y -}             [ "A.", "I." ] ]
+    Identity                  `noun`       {- \|y -}            [ "A.", "I." ] ]
 
  |> "'a" <| [
 
@@ -90,7 +90,7 @@ lexicon = listing "Lexicon properties"
 
     -- ;; <is_1
     -- <s      <is     FW      S.     [[<is/ABBREV]]
-    -- |s      <is     FW      S.     [[<is/ABBREV]]
+    -- \|s      <is     FW      S.     [[<is/ABBREV]]
     -- As      <is     FW      S.     [[<is/ABBREV]]
 
     CiL                       `noun`       {- Iis -}            [ "S." ] ]

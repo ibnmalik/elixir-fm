@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> "^gihY" <| [
@@ -569,7 +569,7 @@ lexicon = listing "Lexicon properties"
     -- wSl     wSal    IV_Pass_yu      be arrived at;be reached;be connected
 
     FaCaL                     `verb`       {- waSal-i -}        [ "arrive at", "reach", "connect", "be arrived at", "be reached", "be connected" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".sil IV", "w.sal IV_Pass_yu" ] -},
 
     -- ;; waS~al_1
@@ -766,7 +766,7 @@ lexicon = listing "Lexicon properties"
     -- T}      Ta}     IV_yn   tread on;step on;trample underfoot
 
     FaCiL                     `verb`       {- waTi}-a -}        [ "tread on", "step on", "trample underfoot" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".ta' IV IV_wn IV_yn", "wa.ta' PV-> PV_w" ] -},
 
     -- ;; waTo>ap_1
@@ -902,7 +902,7 @@ lexicon = listing "Lexicon properties"
     -- jb      jib     IV_intr be necessary;be incumbent
 
     FaCaL                     `verb`       {- wajab-i -}        [ "be necessary", "be incumbent" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "^gib IV_intr" ] -},
 
     -- ;; waj~ab_1
@@ -999,7 +999,7 @@ lexicon = listing "Lexicon properties"
     -- wjd     wjad    IV_Pass_yu      be found;exist
 
     FaCaL                     `verb`       {- wajad-i -}        [ "find", "be found", "exist" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "w^gad IV_Pass_yu", "^gid IV", "wu^gid PV_Pass" ] -},
 
     -- ;; >awojad_1
@@ -1242,11 +1242,11 @@ lexicon = listing "Lexicon properties"
     -- w$A     wa$A    PV_h    embellish;denounce
     -- w$y     wa$ay   PV_Atn  embellish;denounce
     -- w$      wa$     PV_ttAw embellish;denounce
-    -- $y      $iy     IV_0hAnn        embellish;denounce
+    -- \$y      $iy     IV_0hAnn        embellish;denounce
     -- w$Y     w$aY    IV_0_Pass_yu    be embellished;be denounced
 
     FaCY                      `verb`       {- wa$aY-i -}        [ "embellish", "denounce", "be embellished", "be denounced" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "wa^sA PV_h", "^siy IV_0hAnn", "wa^say PV_Atn", "w^sY IV_0_Pass_yu" ] -} ]
 
  |> "w _h m" <| [
@@ -1288,7 +1288,8 @@ lexicon = listing "Lexicon properties"
     -- wvq     wvaq    IV_Pass_yu      be trusted;be relied on;be depended on
 
     FaCiL                     `verb`       {- waviq-ia -}       [ "trust", "rely", "depend", "be trusted", "be relied on", "be depended on" ]
-                              `imperf` [ FCiL, FCaL ]
+                              `imperf`     FCiL
+                              `imperf`     FCaL
                               {- `others` [ "_tiq IV", "w_taq IV_Pass_yu" ] -},
 
     -- ;; wav~aq_1
@@ -1361,14 +1362,14 @@ lexicon = listing "Lexicon properties"
 
     FiCAL                     `noun`       {- wiEA' -}          [ "container", "receptacle", "vessel", "containers", "receptacles", "vessels" ] ]
 
- |> "w ` _t '" <| [
+ |> "w ` _t" <| [
 
     -- ;; waEovA'_1
     -- wEvA'   waEovA' N0_Nh   difficulty;inconvenience
     -- wEvA&   waEovA& Nh      difficulty;inconvenience
     -- wEvA}   waEovA} Nhy     difficulty;inconvenience
 
-    KaRDAS                    `noun`       {- waEovA' -}        [ "difficulty", "inconvenience" ] ]
+    FaCLA'                    `noun`       {- waEovA' -}        [ "difficulty", "inconvenience" ] ]
 
  |> "w ` b" <| [
 
@@ -1385,7 +1386,7 @@ lexicon = listing "Lexicon properties"
     -- wEd     wEad    IV_Pass_yu      be promised
 
     FaCaL                     `verb`       {- waEad-i -}        [ "promise", "be promised" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "w`ad IV_Pass_yu", "`id IV" ] -},
 
     -- ;; tawaE~ad_1
@@ -1481,7 +1482,7 @@ lexicon = listing "Lexicon properties"
     -- wEY     wEaY    IV_0    be aware of;pay attention to
 
     FaCY                      `verb`       {- waEaY-i -}        [ "be aware of", "pay attention to" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "w`Y IV_0", "`iy IV_0hAnn", "wa`ay PV_Atn", "wa`A PV_h" ] -},
 
     -- ;; waEoy_1
@@ -1572,7 +1573,7 @@ lexicon = listing "Lexicon properties"
     -- wbl     wbul    IV_intr be unhealthy;be noxious
 
     FaCuL                     `verb`       {- wabul-u -}        [ "be unhealthy", "be noxious" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "wbul IV_intr" ] -},
 
     -- ;; wAbil_1
@@ -1588,7 +1589,7 @@ lexicon = listing "Lexicon properties"
     -- dE      daE     CV      let;allow
 
     FaCaL                     `verb`       {- wadaE-a -}        [ "let", "allow" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "da` IV CV" ] -},
 
     -- ;; wad~aE_1
@@ -1655,7 +1656,7 @@ lexicon = listing "Lexicon properties"
     -- wdd     wodad   IV_C    want;would like
 
     FaCL                      `verb`       {- wad~-a -}         [ "want", "would like" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "wadid PV_C", "wdad IV_C" ] -},
 
     -- ;; wud~_1
@@ -1816,7 +1817,7 @@ lexicon = listing "Lexicon properties"
     -- fq      fiq     IV_intr be right;be suitable
 
     FaCaL                     `verb`       {- wafaq-i -}        [ "be right", "be suitable" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "fiq IV_intr" ] -},
 
     -- ;; waf~aq_1
@@ -1961,7 +1962,7 @@ lexicon = listing "Lexicon properties"
     -- wfY     wfaY    IV_0_Pass_yu    fulfill;carry out
 
     FaCY                      `verb`       {- wafaY-i -}        [ "fulfill", "carry out" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "wafA PV_h", "wfY IV_0_Pass_yu", "fiy IV_0hAnn", "wafay PV_Atn" ] -},
 
     -- ;; tawaf~aY_1
@@ -2059,7 +2060,7 @@ lexicon = listing "Lexicon properties"
     -- whb     whab    IV_Pass_yu      be donated;be granted
 
     FaCaL                     `verb`       {- wahab-a -}        [ "donate", "grant", "be donated", "be granted" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "hab IV", "whab IV_Pass_yu" ] -},
 
     -- ;; hibap_1
@@ -2192,7 +2193,9 @@ lexicon = listing "Lexicon properties"
     -- wklA&   wukalA& Nh      representatives;agents
     -- wklA}   wukalA} Nhy     representatives;agents
 
-    FaCIL                     `noun`       {- wakiyl -}         [ "representative", "agent", "representatives", "agents" ],
+    FaCIL                     `noun`       {- wakiyl -}         [ "representative", "agent", "representatives", "agents" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "wukalA' Nh N0_Nh Nhy" ] -},
 
     -- ;; wikAlap_1
     -- wkAl    wikAl   Napdu   agency
@@ -2290,7 +2293,7 @@ lexicon = listing "Lexicon properties"
     -- wld     wlad    IV_Pass_yu      be born
 
     FaCaL                     `verb`       {- walad-i -}        [ "give birth to", "be born" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "wlad IV_Pass_yu", "wulid PV_Pass", "lid IV" ] -},
 
     -- ;; wal~ad_1
@@ -2423,7 +2426,7 @@ lexicon = listing "Lexicon properties"
     -- wls     wlas    IV_Pass_yu      be deceived;be cheated
 
     FaCaL                     `verb`       {- walas-i -}        [ "deceive", "cheat", "be deceived", "be cheated" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "lis IV", "wlas IV_Pass_yu" ] -} ]
 
  |> "w l y" <| [
@@ -2434,7 +2437,7 @@ lexicon = listing "Lexicon properties"
     -- l       l       IV_0hwnyn       follow;come after
 
     FaCiL                     `verb`       {- waliy-i -}        [ "follow", "come after" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "liy IV_0hAnn" ] -},
 
     -- ;; wal~aY_1
@@ -2690,7 +2693,7 @@ lexicon = listing "Lexicon properties"
     -- qE      qaE     IV      fall down;take place;be located
 
     FaCaL                     `verb`       {- waqaE-a -}        [ "fall down", "take place", "be located" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "qa` IV" ] -},
 
     -- ;; waq~aE_1
@@ -2857,7 +2860,7 @@ lexicon = listing "Lexicon properties"
     -- qf      qif     IV      stop;cease;stand
 
     FaCaL                     `verb`       {- waqaf-i -}        [ "stop", "cease", "stand" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "qif IV" ] -},
 
     -- ;; waq~af_1
@@ -3006,7 +3009,7 @@ lexicon = listing "Lexicon properties"
     -- wqY     woqaY   IV_0_Pass_yu    be preserved;be safeguarded
 
     FaCY                      `verb`       {- waqaY-i -}        [ "preserve", "safeguard", "be preserved", "be safeguarded" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "waqay PV_Atn", "wqY IV_0_Pass_yu", "waqA PV_h", "qiy IV_0hAnn" ] -},
 
     -- ;; wiqAyap_1
@@ -3090,7 +3093,7 @@ lexicon = listing "Lexicon properties"
     -- wrv     wrav    IV_Pass_yu      be inherited
 
     FaCiL                     `verb`       {- wariv-i -}        [ "inherit", "be inherited" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "wra_t IV_Pass_yu", "wuri_t PV_Pass", "ri_t IV" ] -},
 
     -- ;; war~av_1
@@ -3147,7 +3150,7 @@ lexicon = listing "Lexicon properties"
     -- rd      rid     IV_intr be mentioned;appear;arrive
 
     FaCaL                     `verb`       {- warad-i -}        [ "be mentioned", "appear", "arrive" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "rid IV_intr" ] -},
 
     -- ;; war~ad_1
@@ -3328,7 +3331,9 @@ lexicon = listing "Lexicon properties"
     -- wsTA&   wusaTA& Nh      mediators;go-betweens;intermediaries
     -- wsTA}   wusaTA} Nhy     mediators;go-betweens;intermediaries
 
-    FaCIL                     `noun`       {- wasiyT -}         [ "mediator", "go-between", "intermediary", "mediators", "go-betweens", "intermediaries" ],
+    FaCIL                     `noun`       {- wasiyT -}         [ "mediator", "go-between", "intermediary", "mediators", "go-betweens", "intermediaries" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "wusa.tA' Nh N0_Nh Nhy" ] -},
 
     -- ;; wasiyT_2
     -- wsyT    wasiyT  N-ap    middle;medium
@@ -3389,7 +3394,7 @@ lexicon = listing "Lexicon properties"
     -- sE      saE     IV_intr be spacious;be wide;be able;be possible
 
     FaCiL                     `verb`       {- wasiE-a -}        [ "be spacious", "be wide", "be able", "be possible" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "sa` IV_intr" ] -},
 
     -- ;; was~aE_1
@@ -3478,7 +3483,7 @@ lexicon = listing "Lexicon properties"
     -- sm      sim     IV      stamp;brand
 
     FaCaL                     `verb`       {- wasam-i -}        [ "stamp", "brand" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "sim IV" ] -},
 
     -- ;; simap_1
@@ -3509,7 +3514,9 @@ lexicon = listing "Lexicon properties"
     -- wsmA&   wusamA& Nh      graceful;good-looking
     -- wsmA}   wusamA} Nhy     graceful;good-looking
 
-    FaCIL                     `noun`       {- wasiym -}         [ "graceful", "good-looking" ],
+    FaCIL                     `noun`       {- wasiym -}         [ "graceful", "good-looking" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "wusamA' Nh N0_Nh Nhy" ] -},
 
     -- ;; wasiym_2
     -- wsym    wasiym  N0      Waseem;Wasim
@@ -3660,7 +3667,7 @@ lexicon = listing "Lexicon properties"
     -- zn      zin     IV-n    weight;equilibrate
 
     FaCaL                     `verb`       {- wazan-i -}        [ "weight", "equilibrate" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "zin IV-n" ] -},
 
     -- ;; wAzan_1
@@ -3749,7 +3756,9 @@ lexicon = listing "Lexicon properties"
     -- wzrA&   wuzarA& Nh      ministers
     -- wzrA}   wuzarA} Nhy     ministers
 
-    FaCIL                     `noun`       {- waziyr -}         [ "minister", "ministers" ],
+    FaCIL                     `noun`       {- waziyr -}         [ "minister", "ministers" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "wuzarA' Nh N0_Nh Nhy" ] -},
 
     -- ;; wizArap_1
     -- wzAr    wizAr   Napdu   ministry
@@ -3777,7 +3786,7 @@ lexicon = listing "Lexicon properties"
     -- wAzy    wAzay   IV_Ann_Pass_yu  be parallel;be equivalent
 
     FACY                      `verb`       {- wAzaY-i -}        [ "be parallel", "be equivalent" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "wAzay PV_Atn IV_Ann_Pass_yu", "wAziy IV_0hAnn_yu" ] -},
 
     -- ;; muwAzAp_1

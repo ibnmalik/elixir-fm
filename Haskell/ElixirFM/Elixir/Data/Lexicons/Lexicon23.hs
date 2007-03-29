@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> "l ' .h" <| [
@@ -226,7 +226,7 @@ lexicon = listing "Lexicon properties"
     -- lHZ     loHaZ   IV      perceive;regard
 
     FaCaL                     `verb`       {- laHaZ-a -}        [ "perceive", "regard" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "l.ha.z IV" ] -},
 
     -- ;; lAHaZ_1
@@ -337,7 +337,7 @@ lexicon = listing "Lexicon properties"
     -- lHq     loHaq   IV      follow;be attached
 
     FaCiL                     `verb`       {- laHiq-a -}        [ "follow", "be attached" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "l.haq IV" ] -},
 
     -- ;; lAHaq_1
@@ -502,7 +502,7 @@ lexicon = listing "Lexicon properties"
     -- lj}     loja}   IV_yn   resort;have recourse;take refuge
 
     FaCaL                     `verb`       {- lajaO-a -}        [ "resort", "have recourse", "take refuge" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "l^ga' IV IV_wn IV_yn" ] -},
 
     -- ;; laj~a>_1
@@ -607,7 +607,7 @@ lexicon = listing "Lexicon properties"
     -- l*      lo*a    IV_0hwnyn       adhere;cleave
 
     FaCiL                     `verb`       {- la*iy-a -}        [ "adhere", "cleave" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "l_day IV_Ann", "l_dY IV_0" ] -} ]
 
  |> "l _h .s" <| [
@@ -653,7 +653,7 @@ lexicon = listing "Lexicon properties"
     -- lEb     loEab   IV      play
 
     FaCiL                     `verb`       {- laEib-a -}        [ "play" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "l`ab IV" ] -},
 
     -- ;; laEob_1
@@ -710,7 +710,7 @@ lexicon = listing "Lexicon properties"
     -- lbv     lobav   IV      linger;remain;persist
 
     FaCiL                     `verb`       {- labiv-a -}        [ "linger", "remain", "persist" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "lba_t IV" ] -} ]
 
  |> "l b b" <| [
@@ -903,7 +903,7 @@ lexicon = listing "Lexicon properties"
     -- lfZ     lofiZ   IV      pronounce;express
 
     FaCaL                     `verb`       {- lafaZ-i -}        [ "pronounce", "express" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "lfi.z IV" ] -},
 
     -- ;; lafoZ_1
@@ -960,7 +960,7 @@ lexicon = listing "Lexicon properties"
     -- lft     lofit   IV      turn;attract
 
     FaCaL                     `verb`       {- lafat-i -}        [ "turn", "attract" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "lfit IV" ] -},
 
     -- ;; >alofat_1
@@ -1095,53 +1095,6 @@ lexicon = listing "Lexicon properties"
 
     MuFACaL |< aT             `noun`       {- mulAkamap -}      [ "boxing" ] ]
 
- |> "l l " <| [
-
-    -- ;; liy_1
-    -- ly      liy     Nprop   Lee;Li
-
-    CI                        `noun`       {- liy -}            [ "Lee", "Li" ] ]
-
- |> "l l .g" <| [
-
-    -- ;; lugap_1
-    -- lg      lug     NapAt_L language
-
-    CuL |< aT                 `noun`       {- lugap -}          [ "language" ] ]
-
- |> "l l m" <| [
-
-    -- ;; lam_1
-    -- lm      lam     FW-Wa   not   [[lam/NEG_PART]]
-
-    CaL                       `noun`       {- lam -}            [ "not" ] ]
-
- |> "l l n" <| [
-
-    -- ;; lan_1
-    -- ln      lan     FW-Wa   (will) not   [[lan/NEG_PART]]
-
-    CaL                       `noun`       {- lan -}            [ "(will) not" ] ]
-
- |> "l l w" <| [
-
-    -- ;; law_1
-    -- lw      law     FW-Wa   if           [[law/CONJ]]
-
-    CaL                       `noun`       {- law -}            [ "if" ],
-
-    -- ;; luw_1
-    -- lw      luw     FW-Wa   Le     [[luw/NOUN_PROP]]
-
-    CuL                       `noun`       {- luw -}            [ "Le" ] ]
-
- |> "l l y" <| [
-
-    -- ;; liy_1
-    -- ly      liy     Nprop   Lee;Li
-
-    CiL                       `noun`       {- liy -}            [ "Lee", "Li" ] ]
-
  |> "l m .h" <| [
 
     -- ;; lamaH-a_1
@@ -1149,7 +1102,7 @@ lexicon = listing "Lexicon properties"
     -- lmH     lomaH   IV      glance;notice
 
     FaCaL                     `verb`       {- lamaH-a -}        [ "glance", "notice" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "lma.h IV" ] -},
 
     -- ;; lam~aH_1
@@ -1237,7 +1190,7 @@ lexicon = listing "Lexicon properties"
     -- lmm     lomum   IV_C    collect;put in order
 
     FaCL                      `verb`       {- lam~-u -}         [ "collect", "put in order" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "lamam PV_C", "lmum IV_C", "lumm IV_V" ] -},
 
     -- ;; >alam~_1
@@ -1265,7 +1218,8 @@ lexicon = listing "Lexicon properties"
     -- lms     lomis   IV      touch;perceive
 
     FaCaL                     `verb`       {- lamas-ui -}       [ "touch", "perceive" ]
-                              `imperf` [ FCuL, FCiL ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL
                               {- `others` [ "lmis IV", "lmus IV" ] -},
 
     -- ;; lAmas_1
@@ -1453,7 +1407,7 @@ lexicon = listing "Lexicon properties"
     -- lq      loqa    IV_0hwnyn       meet;encounter;find
 
     FaCiL                     `verb`       {- laqiy-a -}        [ "meet", "encounter", "find" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "lqay IV_Ann", "lqY IV_0" ] -},
 
     -- ;; lAqaY_1
@@ -1726,7 +1680,7 @@ lexicon = listing "Lexicon properties"
     -- l*      lu*     IV_C    seek refuge;have recourse
 
     FAL                       `verb`       {- lA*-u -}          [ "seek refuge", "have recourse" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "luw_d IV_V" ] -},
 
     -- ;; malA*_1
@@ -1757,7 +1711,7 @@ lexicon = listing "Lexicon properties"
     -- lm      lum     IV_C    blame;censure
 
     FAL                       `verb`       {- lAm-u -}          [ "blame", "censure" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "luwm IV_V" ] -},
 
     -- ;; lawom_1
@@ -2003,7 +1957,7 @@ lexicon = listing "Lexicon properties"
     -- lq      liq     IV_C_intr       be proper for;be suitable for
 
     FAL                       `verb`       {- lAq-i -}          [ "be proper for", "be suitable for" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "liyq IV_V_intr" ] -},
 
     -- ;; liyAqap_1
@@ -2036,7 +1990,7 @@ lexicon = listing "Lexicon properties"
     -- lys     loyas   IV_intr be valiant
 
     FaCiL                     `verb`       {- layis-a -}        [ "be valiant" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "lyas IV_intr" ] -} ]
 
  |> "l y z r" <| [
@@ -2053,7 +2007,7 @@ lexicon = listing "Lexicon properties"
     -- lzm     lozam   IV      be necessary;be required
 
     FaCiL                     `verb`       {- lazim-a -}        [ "be necessary", "be required" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "lzam IV" ] -},
 
     -- ;; lAzam_1
@@ -2197,12 +2151,33 @@ lexicon = listing "Lexicon properties"
 
     Identity                  `noun`       {- l`kin~a -}        [ "however" ] ]
 
+ |> "lam" <| [
+
+    -- ;; lam_1
+    -- lm      lam     FW-Wa   not   [[lam/NEG_PART]]
+
+    Identity                  `noun`       {- lam -}            [ "not" ] ]
+
  |> "lammA" <| [
 
     -- ;; lam~A_1
     -- lmA     lam~A   FW-Wa   when;after     [[lam~A/CONJ]]
 
     Identity                  `noun`       {- lam~A -}          [ "when", "after" ] ]
+
+ |> "lan" <| [
+
+    -- ;; lan_1
+    -- ln      lan     FW-Wa   (will) not   [[lan/NEG_PART]]
+
+    Identity                  `noun`       {- lan -}            [ "(will) not" ] ]
+
+ |> "law" <| [
+
+    -- ;; law_1
+    -- lw      law     FW-Wa   if           [[law/CONJ]]
+
+    Identity                  `noun`       {- law -}            [ "if" ] ]
 
  |> "lawlA" <| [
 
@@ -2286,6 +2261,13 @@ lexicon = listing "Lexicon properties"
     -- lyvwAnyA        liyvowAniyA     N0_L    Lithuania
 
     Identity                  `noun`       {- litwAniyA -}      [ "Lithuania" ] ]
+
+ |> "liy" <| [
+
+    -- ;; liy_1
+    -- ly      liy     Nprop   Lee;Li
+
+    Identity                  `noun`       {- liy -}            [ "Lee", "Li" ] ]
 
  |> "liybirAl" <| [
 
@@ -2379,6 +2361,20 @@ lexicon = listing "Lexicon properties"
     -- lywr    liyuwr  Nprop   Lior
 
     Identity                  `noun`       {- liyuwr -}         [ "Lior" ] ]
+
+ |> "lu.g" <| [
+
+    -- ;; lugap_1
+    -- lg      lug     NapAt_L language
+
+    Identity |< aT            `noun`       {- lugap -}          [ "language" ] ]
+
+ |> "luw" <| [
+
+    -- ;; luw_1
+    -- lw      luw     FW-Wa   Le     [[luw/NOUN_PROP]]
+
+    Identity                  `noun`       {- luw -}            [ "Le" ] ]
 
  |> "luw^gist" <| [
 

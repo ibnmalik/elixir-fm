@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> "'a_tnA'a" <| [
@@ -40,7 +40,7 @@ lexicon = listing "Lexicon properties"
     -- v>r     vo>ar   IV      avenge;take revenge
 
     FaCaL                     `verb`       {- vaOar-a -}        [ "avenge", "take revenge" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "_t'ar IV" ] -},
 
     -- ;; va>or_1
@@ -67,26 +67,6 @@ lexicon = listing "Lexicon properties"
                               `plural`     FaCaL |< At
                               {- `others` [ "_ta.gar NAt" ] -} ]
 
- |> "_t _t b" <| [
-
-    -- ;; vabAt_1
-    -- vbAt    vabAt   N       reliability;constancy
-
-    CaL |< At                 `noun`       {- vabAt -}          [ "reliability", "constancy" ] ]
-
- |> "_t _t r" <| [
-
-    -- ;; variy~_1
-    -- vry     variy~  N/ap    wealthy     [[variy~/ADJ]]
-    -- >vryA'  >avoriyA'       N0_Nh   wealthy
-    -- AvryA'  >avoriyA'       N0_Nh   wealthy
-    -- >vryA&  >avoriyA&       Nh      wealthy
-    -- AvryA&  >avoriyA&       Nh      wealthy
-    -- >vryA}  >avoriyA}       Nhy     wealthy
-    -- AvryA}  >avoriyA}       Nhy     wealthy
-
-    CaL |< Iy                 `noun`       {- variy~ -}         [ "wealthy" ] ]
-
  |> "_t b r" <| [
 
     -- ;; vAbar_1
@@ -108,7 +88,7 @@ lexicon = listing "Lexicon properties"
     -- vbt     vobut   IV_intr be stable;be established
 
     FaCaL                     `verb`       {- vabat-u -}        [ "be stable", "be established" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "_tbut IV_intr" ] -},
 
     -- ;; vab~at_1
@@ -441,7 +421,7 @@ lexicon = listing "Lexicon properties"
     -- vnY     vonaY   IV_0    fold;double
 
     FaCY                      `verb`       {- vanaY-i -}        [ "fold", "double" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "_tnY IV_0", "_tanA PV_h", "_tniy IV_0hAnn", "_tanay PV_Atn" ] -},
 
     -- ;; vunA}iy~_1
@@ -530,7 +510,8 @@ lexicon = listing "Lexicon properties"
 
     FaCIL                     `noun`       {- vaqiyl -}         [ "heavy", "oppressive" ]
                               `plural`     FiCAL
-                              {- `others` [ "_tiqAl N" ] -},
+                              `plural`     FuCaLA'
+                              {- `others` [ "_tiqAl N", "_tuqalA' Nh N0_Nh Nhy" ] -},
 
     -- ;; mivoqAl_1
     -- mvqAl   mivoqAl Ndu     weight;miskal
@@ -664,7 +645,7 @@ lexicon = listing "Lexicon properties"
     -- vr      vur     IV_C    revolt;arise
 
     FAL                       `verb`       {- vAr-u -}          [ "revolt", "arise" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "_tuwr IV_V" ] -},
 
     -- ;; >avAr_1
@@ -751,6 +732,13 @@ lexicon = listing "Lexicon properties"
 
     MuFiCL                    `noun`       {- muviyr -}         [ "provoking", "agitating", "stirring up" ] ]
 
+ |> "_tab" <| [
+
+    -- ;; vabAt_1
+    -- vbAt    vabAt   N       reliability;constancy
+
+    Identity |< At            `noun`       {- vabAt -}          [ "reliability", "constancy" ] ]
+
  |> "_talA_tmA'" <| [
 
     -- ;; valAvmA}ap_1
@@ -772,6 +760,19 @@ lexicon = listing "Lexicon properties"
     -- vmp     vam~apa FW-Wa   there (is/are)              [[vam~apa/ADV]]
 
     Identity                  `noun`       {- vam~apa -}        [ "there (is/are)" ] ]
+
+ |> "_tar" <| [
+
+    -- ;; variy~_1
+    -- vry     variy~  N/ap    wealthy     [[variy~/ADJ]]
+    -- >vryA'  >avoriyA'       N0_Nh   wealthy
+    -- AvryA'  >avoriyA'       N0_Nh   wealthy
+    -- >vryA&  >avoriyA&       Nh      wealthy
+    -- AvryA&  >avoriyA&       Nh      wealthy
+    -- >vryA}  >avoriyA}       Nhy     wealthy
+    -- AvryA}  >avoriyA}       Nhy     wealthy
+
+    Identity |< Iy            `noun`       {- variy~ -}         [ "wealthy" ] ]
 
  |> "_tulA_tA'" <| [
 

@@ -149,42 +149,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.gufarA\'' => [
-    {
-      'types' => {
-        '.gafiyr' => {
-          'N-ap' => 1
-        },
-        '.gufarA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '.gufarA\'',
-      'form' => '.gufarA\'',
-      'lines' => [
-        ';; gufarA\'_1',
-        'gfyr    gafiyr  N-ap    sentinel;guard',
-        'gfrA\'   gufarA\' N0_Nh   sentinels;guards',
-        'gfrA&   gufarA& Nh      sentinels;guards',
-        'gfrA}   gufarA} Nhy     sentinels;guards'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'sentinel',
-        'guard',
-        'sentinels',
-        'guards'
-      ],
-      'orig' => 'gufarA\'',
-      'prefix' => ''
-    }
-  ],
   '.g w .s' => [
     {
       'types' => {
@@ -4126,6 +4090,9 @@ $Lexicon = {
         'gbr     gubor   N       dust-colored'
       ],
       'patterns' => {
+        '.gabrA\'' => [
+          'FaCLA\''
+        ],
         '.gubr' => [
           'FuCL'
         ]
@@ -4161,7 +4128,11 @@ $Lexicon = {
         'gbrA&   gaborA& Nh      earth;Earth',
         'gbrA}   gaborA} Nhy     earth;Earth'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.gabrA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '3',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -6427,37 +6398,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.g .g .d' => [
-    {
-      'types' => {
-        '.ga.dA' => {
-          'Nhy' => 1
-        },
-        '.ga.daN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => '.ga.d',
-      'form' => '.ga.daN',
-      'lines' => [
-        ';; gaDAF_1',
-        'gDA     gaDAF   FW-WaBi hot spot;predicament;unbearable situation     [[gaDAF/NOUN]]',
-        'gDA     gaDA    Nhy     hot spot;predicament;unbearable situation'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'hot spot',
-        'predicament',
-        'unbearable situation'
-      ],
-      'orig' => 'gaDAF',
-      'prefix' => ''
-    }
-  ],
   '.g l .g l' => [
     {
       'types' => {
@@ -7267,7 +7207,11 @@ $Lexicon = {
         'gynA&   gayonA& Nh      bushy;dense',
         'gynA}   gayonA} Nhy     bushy;dense'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.gaynA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -7372,6 +7316,55 @@ $Lexicon = {
         'women dancers'
       ],
       'orig' => 'gawAziy',
+      'prefix' => ''
+    }
+  ],
+  '.g z \'' => [
+    {
+      'types' => {
+        '.gazzAwiyy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => '.gazzA\'',
+      'form' => '.gazzAwiyy',
+      'lines' => [
+        ';; gaz~Awiy~_1',
+        'gzAwy   gaz~Awiy~       N0      Ghazzawi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Ghazzawi'
+      ],
+      'orig' => 'gaz~Awiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.gazzAwiyy' => {
+          'Nall' => 2
+        }
+      },
+      'entry' => '.gazzA\'',
+      'form' => '.gazzAwiyy',
+      'lines' => [
+        ';; gaz~Awiy~_2',
+        'gzAwy   gaz~Awiy~       Nall    Gazan (of/from Gaza)     [[gaz~Awiy~/NOUN]]',
+        'gzAwy   gaz~Awiy~       Nall    Gazan (of/from Gaza)     [[gaz~Awiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Gazan (of/from Gaza)'
+      ],
+      'orig' => 'gaz~Awiy~',
       'prefix' => ''
     }
   ],
@@ -9430,35 +9423,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.g .t ^s \'' => [
-    {
-      'types' => {
-        '.ga.t^sA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '.ga.t^sA\'',
-      'form' => '.ga.t^sA\'',
-      'lines' => [
-        ';; gaTo$A\'_1',
-        'gT$A\'   gaTo$A\' N0_Nh   pitch dark',
-        'gT$A&   gaTo$A& Nh      pitch dark',
-        'gT$A}   gaTo$A} Nhy     pitch dark'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'pitch dark'
-      ],
-      'orig' => 'gaTo$A\'',
-      'prefix' => ''
-    }
-  ],
   '.g w l' => [
     {
       'types' => {
@@ -9737,32 +9701,6 @@ $Lexicon = {
         'fecal'
       ],
       'orig' => 'gA}iTiy~',
-      'prefix' => ''
-    }
-  ],
-  '.g .g w' => [
-    {
-      'types' => {
-        '.guw' => {
-          'FW' => 1
-        }
-      },
-      'entry' => '.guw',
-      'form' => '.guw',
-      'lines' => [
-        ';; guw_1',
-        'gw      guw     FW      Gou;Gu     [[guw/NOUN_PROP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CuL',
-      'suffix' => '',
-      'glosses' => [
-        'Gou',
-        'Gu'
-      ],
-      'orig' => 'guw',
       'prefix' => ''
     }
   ],
@@ -10634,31 +10572,32 @@ $Lexicon = {
       ],
       'orig' => 'gaTa$An',
       'prefix' => ''
-    }
-  ],
-  '.g l b w' => [
+    },
     {
       'types' => {
-        '.galbAwiyy' => {
-          'Nall' => 1
+        '.ga.t^sA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
         }
       },
-      'entry' => '.galbAw',
-      'form' => '.galbAwiyy',
+      'entry' => '.ga.t^sA\'',
+      'form' => '.ga.t^sA\'',
       'lines' => [
-        ';; galobAwiy~_1',
-        'glbAwy  galobAwiy~      Nall    garrulous;chatterbox     [[galobAwiy~/ADJ]]'
+        ';; gaTo$A\'_1',
+        'gT$A\'   gaTo$A\' N0_Nh   pitch dark',
+        'gT$A&   gaTo$A& Nh      pitch dark',
+        'gT$A}   gaTo$A} Nhy     pitch dark'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'KaRDAS |< Iy',
-      'suffix' => ' |< Iy',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
       'glosses' => [
-        'garrulous',
-        'chatterbox'
+        'pitch dark'
       ],
-      'orig' => 'galobAwiy~',
+      'orig' => 'gaTo$A\'',
       'prefix' => ''
     }
   ],
@@ -12106,54 +12045,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.g .g d' => [
-    {
-      'types' => {
-        '.gadaN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => '.gad',
-      'form' => '.gadaN',
-      'lines' => [
-        ';; gadAF_1',
-        'gdA     gadAF   FW-WaBi tomorrow     [[gadAF/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'tomorrow'
-      ],
-      'orig' => 'gadAF',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.gad' => {
-          'N' => 1
-        }
-      },
-      'entry' => '.gad',
-      'form' => '.gad',
-      'lines' => [
-        ';; gad_1',
-        'gd      gad     N       tomorrow'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL',
-      'suffix' => '',
-      'glosses' => [
-        'tomorrow'
-      ],
-      'orig' => 'gad',
-      'prefix' => ''
-    }
-  ],
   'mun.gA.z' => [
     {
       'types' => {
@@ -13405,7 +13296,11 @@ $Lexicon = {
         'gbsA&   gabosA& Nh      light-tan',
         'gbsA}   gabosA} Nhy     light-tan'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.gabsA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -14079,84 +13974,6 @@ $Lexicon = {
         'be boiled'
       ],
       'orig' => 'gal~aY',
-      'prefix' => ''
-    }
-  ],
-  '.g w .g \'' => [
-    {
-      'types' => {
-        '.gaw.gA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '.gaw.gA\'',
-      'form' => '.gaw.gA\'',
-      'lines' => [
-        ';; gawogA\'_1',
-        'gwgA\'   gawogA\' N0_Nh   riffraff;rabble;tumult',
-        'gwgA&   gawogA& Nh      riffraff;rabble;tumult',
-        'gwgA}   gawogA} Nhy     riffraff;rabble;tumult'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'riffraff',
-        'rabble',
-        'tumult'
-      ],
-      'orig' => 'gawogA\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.gaw.gA\'iyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => '.gaw.gA\'',
-      'form' => '.gaw.gA\'iyy',
-      'lines' => [
-        ';; gawogA}iy~_1',
-        'gwgA}y  gawogA}iy~      Nall    demagogue;demagogic     [[gawogA}iy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'demagogue',
-        'demagogic'
-      ],
-      'orig' => 'gawogA}iy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.gaw.gA\'iyyaT' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => '.gaw.gA\'',
-      'form' => '.gaw.gA\'iyyaT',
-      'lines' => [
-        ';; gawogA}iy~ap_1',
-        'gwgA}y  gawogA}iy~      Nap     demagoguery     [[gawogA}iy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'demagoguery'
-      ],
-      'orig' => 'gawogA}iy~ap',
       'prefix' => ''
     }
   ],
@@ -14859,36 +14676,6 @@ $Lexicon = {
         'Gaudio'
       ],
       'orig' => 'gawodiyuw',
-      'prefix' => ''
-    }
-  ],
-  '.g .d r \'' => [
-    {
-      'types' => {
-        '.ga.drA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '.ga.drA\'',
-      'form' => '.ga.drA\'',
-      'lines' => [
-        ';; gaDorA\'_1',
-        'gDrA\'   gaDorA\' N0_Nh   abundance;prosperity',
-        'gDrA&   gaDorA& Nh      abundance;prosperity',
-        'gDrA}   gaDorA} Nhy     abundance;prosperity'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'abundance',
-        'prosperity'
-      ],
-      'orig' => 'gaDorA\'',
       'prefix' => ''
     }
   ],
@@ -16926,53 +16713,6 @@ $Lexicon = {
   '.g z w' => [
     {
       'types' => {
-        '.gazzAwiyy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => '.gazzAw',
-      'form' => '.gazzAwiyy',
-      'lines' => [
-        ';; gaz~Awiy~_1',
-        'gzAwy   gaz~Awiy~       N0      Ghazzawi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Ghazzawi'
-      ],
-      'orig' => 'gaz~Awiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.gazzAwiyy' => {
-          'Nall' => 2
-        }
-      },
-      'entry' => '.gazzAw',
-      'form' => '.gazzAwiyy',
-      'lines' => [
-        ';; gaz~Awiy~_2',
-        'gzAwy   gaz~Awiy~       Nall    Gazan (of/from Gaza)     [[gaz~Awiy~/NOUN]]',
-        'gzAwy   gaz~Awiy~       Nall    Gazan (of/from Gaza)     [[gaz~Awiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Gazan (of/from Gaza)'
-      ],
-      'orig' => 'gaz~Awiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
         '.gazA' => {},
         '.gzay' => {
           'IV_Ann_Pass_yu' => 1
@@ -17881,7 +17621,11 @@ $Lexicon = {
         'glfA&   galofA& Nh      rude;uncivilized',
         'glfA}   galofA} Nhy     rude;uncivilized'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.galfA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -18210,6 +17954,82 @@ $Lexicon = {
         'tumult'
       ],
       'orig' => 'gAgap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.gaw.gA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '.gaw.gA\'',
+      'form' => '.gaw.gA\'',
+      'lines' => [
+        ';; gawogA\'_1',
+        'gwgA\'   gawogA\' N0_Nh   riffraff;rabble;tumult',
+        'gwgA&   gawogA& Nh      riffraff;rabble;tumult',
+        'gwgA}   gawogA} Nhy     riffraff;rabble;tumult'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'riffraff',
+        'rabble',
+        'tumult'
+      ],
+      'orig' => 'gawogA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.gaw.gA\'iyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => '.gaw.gA\'',
+      'form' => '.gaw.gA\'iyy',
+      'lines' => [
+        ';; gawogA}iy~_1',
+        'gwgA}y  gawogA}iy~      Nall    demagogue;demagogic     [[gawogA}iy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'demagogue',
+        'demagogic'
+      ],
+      'orig' => 'gawogA}iy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.gaw.gA\'iyyaT' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => '.gaw.gA\'',
+      'form' => '.gaw.gA\'iyyaT',
+      'lines' => [
+        ';; gawogA}iy~ap_1',
+        'gwgA}y  gawogA}iy~      Nap     demagoguery     [[gawogA}iy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\' |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'demagoguery'
+      ],
+      'orig' => 'gawogA}iy~ap',
       'prefix' => ''
     }
   ],
@@ -18727,6 +18547,34 @@ $Lexicon = {
         'prosperity'
       ],
       'orig' => 'gaDArap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.ga.drA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '.ga.drA\'',
+      'form' => '.ga.drA\'',
+      'lines' => [
+        ';; gaDorA\'_1',
+        'gDrA\'   gaDorA\' N0_Nh   abundance;prosperity',
+        'gDrA&   gaDorA& Nh      abundance;prosperity',
+        'gDrA}   gaDorA} Nhy     abundance;prosperity'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'abundance',
+        'prosperity'
+      ],
+      'orig' => 'gaDorA\'',
       'prefix' => ''
     }
   ],
@@ -21524,7 +21372,11 @@ $Lexicon = {
         'gmSA&   gamoSA& Nh      sticky-eyed',
         'gmSA}   gamoSA} Nhy     sticky-eyed'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.gam.sA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -22031,7 +21883,11 @@ $Lexicon = {
         'gmA&    gam~A&  Nh      overcast',
         'gmA}    gam~A}  Nhy     overcast'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.gammA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'HaFaCL',
@@ -22063,7 +21919,11 @@ $Lexicon = {
         'gmA&    gam~A&  Nh      hirsute',
         'gmA}    gam~A}  Nhy     hirsute'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.gammA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '3',
       'entity' => 'noun',
       'morphs' => 'HaFaCL',
@@ -22770,6 +22630,37 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.ga.d' => [
+    {
+      'types' => {
+        '.ga.dA' => {
+          'Nhy' => 1
+        },
+        '.ga.daN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => '.ga.d',
+      'form' => '.ga.daN',
+      'lines' => [
+        ';; gaDAF_1',
+        'gDA     gaDAF   FW-WaBi hot spot;predicament;unbearable situation     [[gaDAF/NOUN]]',
+        'gDA     gaDA    Nhy     hot spot;predicament;unbearable situation'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'hot spot',
+        'predicament',
+        'unbearable situation'
+      ],
+      'orig' => 'gaDAF',
+      'prefix' => ''
+    }
+  ],
   '.g d y' => [
     {
       'types' => {
@@ -23175,6 +23066,32 @@ $Lexicon = {
         'Gothic'
       ],
       'orig' => 'guwTiy~',
+      'prefix' => ''
+    }
+  ],
+  '.g l b \'' => [
+    {
+      'types' => {
+        '.galbAwiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => '.galbA\'',
+      'form' => '.galbAwiyy',
+      'lines' => [
+        ';; galobAwiy~_1',
+        'glbAwy  galobAwiy~      Nall    garrulous;chatterbox     [[galobAwiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDAS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'garrulous',
+        'chatterbox'
+      ],
+      'orig' => 'galobAwiy~',
       'prefix' => ''
     }
   ],
@@ -24557,6 +24474,9 @@ $Lexicon = {
         'gr      gur~    N       esteemed'
       ],
       'patterns' => {
+        '.garrA\'' => [
+          'FaCLA\''
+        ],
         '.gurr' => [
           'FuCL'
         ]
@@ -25617,6 +25537,9 @@ $Lexicon = {
       'patterns' => {
         '.gub^s' => [
           'FuCL'
+        ],
+        '.gab^sA\'' => [
+          'FaCLA\''
         ]
       },
       'index' => '1',
@@ -27655,7 +27578,11 @@ $Lexicon = {
         'gnA&    gan~A&  Nh      melodious;sonorous',
         'gnA}    gan~A}  Nhy     melodious;sonorous'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.gannA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'HaFaCL',
@@ -27688,7 +27615,11 @@ $Lexicon = {
         'gnA&    gan~A&  Nh      lush;green',
         'gnA}    gan~A}  Nhy     lush;green'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.gannA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '3',
       'entity' => 'noun',
       'morphs' => 'HaFaCL',
@@ -28119,7 +28050,11 @@ $Lexicon = {
         'grbA&   gurabA& Nh      strange',
         'grbA}   gurabA} Nhy     strange'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.gurabA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -28156,6 +28091,9 @@ $Lexicon = {
         'AgrAb   >agorAb N       strangers;foreigners;emigres'
       ],
       'patterns' => {
+        '.gurabA\'' => [
+          'FuCaLA\''
+        ],
         '\'a.grAb' => [
           'HaFCAL'
         ]
@@ -29025,6 +28963,9 @@ $Lexicon = {
         'gyd     giyd    N       flexible;delicate'
       ],
       'patterns' => {
+        '.gaydA\'' => [
+          'FaCLA\''
+        ],
         '.giyd' => [
           'FIL',
           'FiCL'
@@ -29683,6 +29624,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.gArniyt' => [
+    {
+      'types' => {
+        '.gArniyt' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => '.gArniyt',
+      'form' => '.gArniyt',
+      'lines' => [
+        ';; gAroniyt_1',
+        'gArnyt  gAroniyt        Nprop   Garnett'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Garnett'
+      ],
+      'orig' => 'gAroniyt',
+      'prefix' => ''
+    }
+  ],
   '.g f r' => [
     {
       'types' => {
@@ -30014,6 +29980,44 @@ $Lexicon = {
     },
     {
       'types' => {
+        '.gafiyr' => {
+          'N-ap' => 1
+        },
+        '.gufarA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '.gufarA\'',
+      'form' => '.gufarA\'',
+      'lines' => [
+        ';; gufarA\'_1',
+        'gfyr    gafiyr  N-ap    sentinel;guard',
+        'gfrA\'   gufarA\' N0_Nh   sentinels;guards',
+        'gfrA&   gufarA& Nh      sentinels;guards',
+        'gfrA}   gufarA} Nhy     sentinels;guards'
+      ],
+      'patterns' => {
+        '.gafiyr' => [
+          'FaCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCaLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'sentinel',
+        'guard',
+        'sentinels',
+        'guards'
+      ],
+      'orig' => 'gufarA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '.gufrAn' => {
           'N' => 1
         }
@@ -30142,31 +30146,6 @@ $Lexicon = {
         'propitiatory'
       ],
       'orig' => '{isotigofAriy~',
-      'prefix' => ''
-    }
-  ],
-  '.gArniyt' => [
-    {
-      'types' => {
-        '.gArniyt' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => '.gArniyt',
-      'form' => '.gArniyt',
-      'lines' => [
-        ';; gAroniyt_1',
-        'gArnyt  gAroniyt        Nprop   Garnett'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Garnett'
-      ],
-      'orig' => 'gAroniyt',
       'prefix' => ''
     }
   ],
@@ -30634,7 +30613,11 @@ $Lexicon = {
         'grmA&   guramA& Nh      debtors;creditors',
         'grmA}   guramA} Nhy     debtors;creditors'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.guramA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -30668,7 +30651,11 @@ $Lexicon = {
         'grmA&   guramA& Nh      adversaries;opponents',
         'grmA}   guramA} Nhy     adversaries;opponents'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.guramA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -31252,6 +31239,54 @@ $Lexicon = {
         'gulp'
       ],
       'orig' => 'gub~ap',
+      'prefix' => ''
+    }
+  ],
+  '.gad' => [
+    {
+      'types' => {
+        '.gadaN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => '.gad',
+      'form' => '.gadaN',
+      'lines' => [
+        ';; gadAF_1',
+        'gdA     gadAF   FW-WaBi tomorrow     [[gadAF/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'tomorrow'
+      ],
+      'orig' => 'gadAF',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.gad' => {
+          'N' => 1
+        }
+      },
+      'entry' => '.gad',
+      'form' => '.gad',
+      'lines' => [
+        ';; gad_1',
+        'gd      gad     N       tomorrow'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'tomorrow'
+      ],
+      'orig' => 'gad',
       'prefix' => ''
     }
   ],
@@ -32336,6 +32371,34 @@ $Lexicon = {
       ],
       'orig' => 'gaz~ap',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.gazzA\'',
+      'form' => '.gazzAwiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'gaz~Awiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.gazzA\'',
+      'form' => '.gazzAwiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'gaz~Awiy~',
+      'prefix' => ''
     }
   ],
   '.g m \'' => [
@@ -33050,6 +33113,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.guw' => [
+    {
+      'types' => {
+        '.guw' => {
+          'FW' => 1
+        }
+      },
+      'entry' => '.guw',
+      'form' => '.guw',
+      'lines' => [
+        ';; guw_1',
+        'gw      guw     FW      Gou;Gu     [[guw/NOUN_PROP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Gou',
+        'Gu'
+      ],
+      'orig' => 'guw',
+      'prefix' => ''
+    }
+  ],
   '.g f f' => [
     {
       'types' => {
@@ -33722,7 +33811,11 @@ $Lexicon = {
         'g$mA&   gu$amA& Nh      inexperienced;unskilled;clumsy',
         'g$mA}   gu$amA} Nhy     inexperienced;unskilled;clumsy'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.gu^samA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -33859,12 +33952,12 @@ $Lexicon->{'.g .t \''}[0]{'glosses'} = $Lexicon->{'.g .t w'}[4]{'glosses'};
 $Lexicon->{'.g .t \''}[1]{'types'} = $Lexicon->{'.g .t w'}[5]{'types'};
 $Lexicon->{'.g .t \''}[1]{'lines'} = $Lexicon->{'.g .t w'}[5]{'lines'};
 $Lexicon->{'.g .t \''}[1]{'glosses'} = $Lexicon->{'.g .t w'}[5]{'glosses'};
-$Lexicon->{'.g z w'}[7]{'types'} = $Lexicon->{'.g z y'}[0]{'types'};
-$Lexicon->{'.g z w'}[7]{'lines'} = $Lexicon->{'.g z y'}[0]{'lines'};
-$Lexicon->{'.g z w'}[7]{'glosses'} = $Lexicon->{'.g z y'}[0]{'glosses'};
-$Lexicon->{'.g z w'}[8]{'types'} = $Lexicon->{'.g z y'}[1]{'types'};
-$Lexicon->{'.g z w'}[8]{'lines'} = $Lexicon->{'.g z y'}[1]{'lines'};
-$Lexicon->{'.g z w'}[8]{'glosses'} = $Lexicon->{'.g z y'}[1]{'glosses'};
+$Lexicon->{'.g z w'}[5]{'types'} = $Lexicon->{'.g z y'}[0]{'types'};
+$Lexicon->{'.g z w'}[5]{'lines'} = $Lexicon->{'.g z y'}[0]{'lines'};
+$Lexicon->{'.g z w'}[5]{'glosses'} = $Lexicon->{'.g z y'}[0]{'glosses'};
+$Lexicon->{'.g z w'}[6]{'types'} = $Lexicon->{'.g z y'}[1]{'types'};
+$Lexicon->{'.g z w'}[6]{'lines'} = $Lexicon->{'.g z y'}[1]{'lines'};
+$Lexicon->{'.g z w'}[6]{'glosses'} = $Lexicon->{'.g z y'}[1]{'glosses'};
 $Lexicon->{'.g w \''}[0]{'types'} = $Lexicon->{'.g w y'}[6]{'types'};
 $Lexicon->{'.g w \''}[0]{'lines'} = $Lexicon->{'.g w y'}[6]{'lines'};
 $Lexicon->{'.g w \''}[0]{'glosses'} = $Lexicon->{'.g w y'}[6]{'glosses'};
@@ -33967,6 +34060,12 @@ $Lexicon->{'.g t m'}[0]{'glosses'} = $Lexicon->{'.g m m'}[4]{'glosses'};
 $Lexicon->{'.g t m'}[1]{'types'} = $Lexicon->{'.g m m'}[16]{'types'};
 $Lexicon->{'.g t m'}[1]{'lines'} = $Lexicon->{'.g m m'}[16]{'lines'};
 $Lexicon->{'.g t m'}[1]{'glosses'} = $Lexicon->{'.g m m'}[16]{'glosses'};
+$Lexicon->{'.g z z'}[4]{'types'} = $Lexicon->{'.g z \''}[0]{'types'};
+$Lexicon->{'.g z z'}[4]{'lines'} = $Lexicon->{'.g z \''}[0]{'lines'};
+$Lexicon->{'.g z z'}[4]{'glosses'} = $Lexicon->{'.g z \''}[0]{'glosses'};
+$Lexicon->{'.g z z'}[5]{'types'} = $Lexicon->{'.g z \''}[1]{'types'};
+$Lexicon->{'.g z z'}[5]{'lines'} = $Lexicon->{'.g z \''}[1]{'lines'};
+$Lexicon->{'.g z z'}[5]{'glosses'} = $Lexicon->{'.g z \''}[1]{'glosses'};
 $Lexicon->{'.g m \''}[0]{'types'} = $Lexicon->{'.g m y'}[4]{'types'};
 $Lexicon->{'.g m \''}[0]{'lines'} = $Lexicon->{'.g m y'}[4]{'lines'};
 $Lexicon->{'.g m \''}[0]{'glosses'} = $Lexicon->{'.g m y'}[4]{'glosses'};

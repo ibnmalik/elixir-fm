@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> "'arba`iyn" <| [
@@ -36,14 +36,12 @@ lexicon = listing "Lexicon properties"
 
     Identity |< aT            `noun`       {- miro|ap -}        [ "mirror", "mirrors" ] ]
 
- |> "r ' " <| [
+ |> "r ' '" <| [
 
     -- ;; ri}awiy~_1
     -- r}wy    ri}awiy~        Nall    pulmonary     [[ri}awiy~/ADJ]]
 
-    FiCY |< Iy                `noun`       {- ri}awiy~ -}       [ "pulmonary" ] ]
-
- |> "r ' '" <| [
+    FiCY |< Iy                `noun`       {- ri}awiy~ -}       [ "pulmonary" ],
 
     -- ;; ri}A'_1
     -- r}A'    ri}A'   N0_Nh   hypocrisy;dissimulation
@@ -133,7 +131,8 @@ lexicon = listing "Lexicon properties"
     -- r}s     ro}is   IV      lead;direct
 
     FaCaL                     `verb`       {- raOas-ai -}       [ "lead", "direct" ]
-                              `imperf` [ FCaL, FCiL ]
+                              `imperf`     FCaL
+                              `imperf`     FCiL
                               {- `others` [ "r'is IV", "r'as IV" ] -},
 
     -- ;; tara>~as_1
@@ -176,7 +175,9 @@ lexicon = listing "Lexicon properties"
     -- r&sA&   ru&asA& Nh      presidents
     -- r&sA}   ru&asA} Nhy     presidents
 
-    FaCIL                     `noun`       {- ra}iys -}         [ "president", "head", "chairman", "presidents" ],
+    FaCIL                     `noun`       {- ra}iys -}         [ "president", "head", "chairman", "presidents" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "ru'asA' Nh N0_Nh Nhy" ] -},
 
     -- ;; ra}iysiy~_1
     -- r}ysy   ra}iysiy~       Nall    main;principal     [[ra}iysiy~/ADJ]]
@@ -208,11 +209,11 @@ lexicon = listing "Lexicon properties"
     -- ;; ra>oy_1
     -- r>y     ra>oy   N       opinion;view;idea
     -- rAy     ra>oy   N       opinion;view;idea
-    -- |rA'    |rA'    N0_Nh   opinions;views;ideas
+    -- \|rA'    |rA'    N0_Nh   opinions;views;ideas
     -- ArA'    |rA'    N0_Nh   opinions;views;ideas
-    -- |rA&    |rA&    Nh      opinions;views;ideas
+    -- \|rA&    |rA&    Nh      opinions;views;ideas
     -- ArA&    |rA&    Nh      opinions;views;ideas
-    -- |rA}    |rA}    Nhy     opinions;views;ideas
+    -- \|rA}    |rA}    Nhy     opinions;views;ideas
     -- ArA}    |rA}    Nhy     opinions;views;ideas
 
     FaCL                      `noun`       {- raOoy -}          [ "opinion", "view", "idea", "opinions", "views", "ideas" ],
@@ -316,7 +317,9 @@ lexicon = listing "Lexicon properties"
     -- rDEA}   ruDaEA} Nhy     breast-feeding infants;foster children
     -- rDA}E   raDA}iE Ndip    breast-feeding infants;foster children
 
-    FaCIL                     `noun`       {- raDiyE -}         [ "breast-feeding infant", "foster child", "breast-feeding infants", "foster children" ] ]
+    FaCIL                     `noun`       {- raDiyE -}         [ "breast-feeding infant", "foster child", "breast-feeding infants", "foster children" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "ru.da`A' Nh N0_Nh Nhy" ] -} ]
 
  |> "r .d w" <| [
 
@@ -343,7 +346,7 @@ lexicon = listing "Lexicon properties"
     -- rD      roDa    IV_0hwnyn       be pleased;agree;approve
 
     FaCiL                     `verb`       {- raDiy-a -}        [ "be pleased", "agree", "approve" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "r.day IV_Ann", "r.dY IV_0" ] -},
 
     -- ;; >aroDaY_1
@@ -424,7 +427,7 @@ lexicon = listing "Lexicon properties"
     -- rgb     rogab   IV      wish;desire
 
     FaCiL                     `verb`       {- ragib-a -}        [ "wish", "desire" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "r.gab IV" ] -},
 
     -- ;; ragobap_1
@@ -499,7 +502,7 @@ lexicon = listing "Lexicon properties"
     -- rHb     roHab   IV_intr be spacious
 
     FaCiL                     `verb`       {- raHib-a -}        [ "be spacious" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "r.hab IV_intr" ] -},
 
     -- ;; raHub-u_1
@@ -507,7 +510,7 @@ lexicon = listing "Lexicon properties"
     -- rHb     roHub   IV_intr be spacious
 
     FaCuL                     `verb`       {- raHub-u -}        [ "be spacious" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "r.hub IV_intr" ] -},
 
     -- ;; raH~ab_1
@@ -541,7 +544,7 @@ lexicon = listing "Lexicon properties"
     -- rHl     roHal   IV      depart;move away
 
     FaCaL                     `verb`       {- raHal-a -}        [ "depart", "move away" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "r.hal IV" ] -},
 
     -- ;; riHolap_1
@@ -594,7 +597,7 @@ lexicon = listing "Lexicon properties"
     -- rHm     roHam   IV_intr be merciful
 
     FaCiL                     `verb`       {- raHim-a -}        [ "have mercy with", "be merciful" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "r.ham IV IV_intr" ] -},
 
     -- ;; raHomap_1
@@ -613,7 +616,9 @@ lexicon = listing "Lexicon properties"
     -- rHmA&   ruHamA& Nh      compassionate
     -- rHmA}   ruHamA} Nhy     compassionate
 
-    FaCIL                     `noun`       {- raHiym -}         [ "compassionate" ],
+    FaCIL                     `noun`       {- raHiym -}         [ "compassionate" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "ru.hamA' Nh N0_Nh Nhy" ] -},
 
     -- ;; maroHuwm_1
     -- mrHwm   maroHuwm        Nall    deceased;late     [[maroHuwm/ADJ]]
@@ -667,7 +672,8 @@ lexicon = listing "Lexicon properties"
     -- rSd     roSad   IV_Pass_yu      be observed;be watched
 
     FaCaL                     `verb`       {- raSad-ua -}       [ "observe", "watch", "be observed", "be watched" ]
-                              `imperf` [ FCuL, FCaL ]
+                              `imperf`     FCuL
+                              `imperf`     FCaL
                               {- `others` [ "r.sud IV", "r.sad IV_Pass_yu" ] -},
 
     -- ;; raS~ad_1
@@ -737,7 +743,9 @@ lexicon = listing "Lexicon properties"
     -- rSfA&   ruSafA& Nh      colleagues
     -- rSfA}   ruSafA} Nhy     colleagues
 
-    FaCIL                     `noun`       {- raSiyf -}         [ "colleague", "colleagues" ] ]
+    FaCIL                     `noun`       {- raSiyf -}         [ "colleague", "colleagues" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "ru.safA' Nh N0_Nh Nhy" ] -} ]
 
  |> "r .t b" <| [
 
@@ -810,7 +818,9 @@ lexicon = listing "Lexicon properties"
     -- rjH     rojaH   IV_intr be likely;be expected;weigh more
 
     FaCaL                     `verb`       {- rajaH-uia -}      [ "be likely", "be expected", "weigh more" ]
-                              `imperf` [ FCuL, FCiL, FCaL ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL
+                              `imperf`     FCaL
                               {- `others` [ "r^gu.h IV_intr", "r^gi.h IV_intr", "r^ga.h IV_intr" ] -},
 
     -- ;; raj~aH_1
@@ -853,7 +863,7 @@ lexicon = listing "Lexicon properties"
     -- rjE     rojiE   IV      return
 
     FaCaL                     `verb`       {- rajaE-i -}        [ "return" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "r^gi` IV" ] -},
 
     -- ;; rAjaE_1
@@ -1004,7 +1014,7 @@ lexicon = listing "Lexicon properties"
     -- rjy     rojay   IV_Ann_Pass_yu  be requested;be hoped for;be pleaded to
 
     FaCA                      `verb`       {- rajA-u -}         [ "request", "hope for", "plead to", "be requested", "be hoped for", "be pleaded to" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "r^gY IV_0_Pass_yu", "r^guw IV_0hAnn", "ra^gaw PV_Atn" ] -},
 
     -- ;; rajA'_1
@@ -1051,7 +1061,7 @@ lexicon = listing "Lexicon properties"
     -- r$H     ro$aH   IV      perspire;filter
 
     FaCaL                     `verb`       {- ra$aH-a -}        [ "perspire", "filter" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "r^sa.h IV" ] -},
 
     -- ;; ra$~aH_1
@@ -1140,7 +1150,9 @@ lexicon = listing "Lexicon properties"
     -- r$dA&   ru$adA& Nh      rational;mature
     -- r$dA}   ru$adA} Nhy     rational;mature
 
-    FaCIL                     `noun`       {- ra$iyd -}         [ "rational", "mature" ],
+    FaCIL                     `noun`       {- ra$iyd -}         [ "rational", "mature" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "ru^sadA' Nh N0_Nh Nhy" ] -},
 
     -- ;; taro$iyd_1
     -- tr$yd   taro$iyd        NduAt   guidance
@@ -1170,7 +1182,7 @@ lexicon = listing "Lexicon properties"
     -- r$q     ro$uq   IV      throw;strike;insert
 
     FaCaL                     `verb`       {- ra$aq-u -}        [ "throw", "strike", "insert" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "r^suq IV" ] -} ]
 
  |> "r ^s r ^s" <| [
@@ -1361,7 +1373,7 @@ lexicon = listing "Lexicon properties"
     -- rE      roEa    IV_0hwnyn       protect;care for;sponsor;promote
 
     FaCY                      `verb`       {- raEaY-a -}        [ "protect", "care for", "sponsor", "promote" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "r`ay IV_Ann", "ra`ay PV_Atn", "ra`A PV_h", "r`Y IV_0" ] -},
 
     -- ;; rAEaY_1
@@ -1441,7 +1453,7 @@ lexicon = listing "Lexicon properties"
     -- rbH     robaH   IV      gain;profit
 
     FaCiL                     `verb`       {- rabiH-a -}        [ "gain", "profit" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "rba.h IV" ] -},
 
     -- ;; riboH_1
@@ -1499,7 +1511,8 @@ lexicon = listing "Lexicon properties"
     -- rbT     robiT   IV      tie;connect
 
     FaCaL                     `verb`       {- rabaT-ui -}       [ "tie", "connect" ]
-                              `imperf` [ FCuL, FCiL ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL
                               {- `others` [ "rbi.t IV", "rbu.t IV" ] -},
 
     -- ;; raboT_1
@@ -1694,7 +1707,7 @@ lexicon = listing "Lexicon properties"
     -- rbk     robuk   IV      muddle;complicate
 
     FaCaL                     `verb`       {- rabak-u -}        [ "muddle", "complicate" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "rbuk IV" ] -},
 
     -- ;; >arobak_1
@@ -1793,7 +1806,7 @@ lexicon = listing "Lexicon properties"
     -- rdd     rodud   IV_C    answer;reply;return
 
     FaCL                      `verb`       {- rad~-u -}         [ "answer", "reply", "return" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "radad PV_C", "rdud IV_C", "rudd IV_V" ] -},
 
     -- ;; rad~ad_1
@@ -1887,7 +1900,7 @@ lexicon = listing "Lexicon properties"
     -- rdf     roduf   IV      follow;come immediately after;succeed
 
     FaCaL                     `verb`       {- radaf-u -}        [ "follow", "come immediately after", "succeed" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "rduf IV" ] -},
 
     -- ;; murAdif_1
@@ -1986,7 +1999,7 @@ lexicon = listing "Lexicon properties"
     -- rfD     rofuD   IV      reject;refuse
 
     FaCaL                     `verb`       {- rafaD-u -}        [ "reject", "refuse" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "rfu.d IV" ] -},
 
     -- ;; rafoD_1
@@ -2018,7 +2031,7 @@ lexicon = listing "Lexicon properties"
     -- rfE     rofaE   IV      lift;raise;increase
 
     FaCaL                     `verb`       {- rafaE-a -}        [ "lift", "raise", "increase" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "rfa` IV" ] -},
 
     -- ;; raf~aE_1
@@ -2187,8 +2200,9 @@ lexicon = listing "Lexicon properties"
     -- rfAq    rifAq   N       companions;partners;comrades
 
     FaCIL                     `noun`       {- rafiyq -}         [ "companion", "partner", "comrade", "companions", "partners", "comrades" ]
+                              `plural`     FuCaLA'
                               `plural`     FiCAL
-                              {- `others` [ "rifAq N" ] -},
+                              {- `others` [ "rufaqA' Nh N0_Nh Nhy", "rifAq N" ] -},
 
     -- ;; rafiyqap_1
     -- rfyq    rafiyq  NapAt   woman companion;mistress
@@ -2370,7 +2384,7 @@ lexicon = listing "Lexicon properties"
     -- rkD     rokuD   IV      run;race
 
     FaCaL                     `verb`       {- rakaD-u -}        [ "run", "race" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "rku.d IV" ] -} ]
 
  |> "r k `" <| [
@@ -2701,7 +2715,7 @@ lexicon = listing "Lexicon properties"
     -- rmY     romaY   IV_0_Pass_yu    be thrown;be flung;be shot
 
     FaCY                      `verb`       {- ramaY-i -}        [ "throw", "fling", "shoot", "be thrown", "be flung", "be shot" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "ramay PV_Atn", "rmY IV_0_Pass_yu", "rmiy IV_0hAnn", "ramA PV_h" ] -},
 
     -- ;; ramoy_1
@@ -2745,7 +2759,8 @@ lexicon = listing "Lexicon properties"
     -- rmz     romaz   IV_Pass_yu      be indicated;be represented;be designated
 
     FaCaL                     `verb`       {- ramaz-ui -}       [ "signal", "designate", "indicate", "symbolize", "represent", "be indicated", "be represented", "be designated" ]
-                              `imperf` [ FCuL, FCiL ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL
                               {- `others` [ "rmaz IV_Pass_yu", "rmuz IV", "rmiz IV" ] -},
 
     -- ;; ramoz_1
@@ -2806,7 +2821,7 @@ lexicon = listing "Lexicon properties"
     -- rqS     roquS   IV      dance
 
     FaCaL                     `verb`       {- raqaS-u -}        [ "dance" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "rqu.s IV" ] -},
 
     -- ;; raqoS_1
@@ -2846,7 +2861,7 @@ lexicon = listing "Lexicon properties"
     -- rqb     roqub   IV      monitor;observe;supervise
 
     FaCaL                     `verb`       {- raqab-u -}        [ "monitor", "observe", "supervise" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "rqub IV" ] -},
 
     -- ;; rAqab_1
@@ -2881,7 +2896,9 @@ lexicon = listing "Lexicon properties"
     -- rqbA&   ruqabA& Nh      observers;inspectors
     -- rqbA}   ruqabA} Nhy     observers;inspectors
 
-    FaCIL                     `noun`       {- raqiyb -}         [ "observer", "inspector", "observers", "inspectors" ],
+    FaCIL                     `noun`       {- raqiyb -}         [ "observer", "inspector", "observers", "inspectors" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "ruqabA' Nh N0_Nh Nhy" ] -},
 
     -- ;; raqAbap_1
     -- rqAb    raqAb   Nap     censorship;surveillance
@@ -2925,7 +2942,7 @@ lexicon = listing "Lexicon properties"
     -- rqd     roqud   IV      lie down;subside;abate
 
     FaCaL                     `verb`       {- raqad-u -}        [ "lie down", "subside", "abate" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "rqud IV" ] -},
 
     -- ;; rAqid_1
@@ -2998,7 +3015,7 @@ lexicon = listing "Lexicon properties"
     -- rq      roqa    IV_0hwnyn       ascend;rise;promote
 
     FaCiL                     `verb`       {- raqiy-a -}        [ "ascend", "rise", "promote" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "rqay IV_Ann", "rqY IV_0" ] -},
 
     -- ;; >aroqaY_1
@@ -3027,22 +3044,6 @@ lexicon = listing "Lexicon properties"
 
     FACiL                     `noun`       {- rAqiy -}          [ "ascending", "advanced" ] ]
 
- |> "r r '" <| [
-
-    -- ;; ri}ap_1
-    -- r}      ri}     Napdu   lung
-    -- ry      riy~    Napdu   lung     [[riy~/NOUN]]
-    -- r}wn    ri}uwn  N       lungs
-
-    CiL |< aT                 `noun`       {- ri}ap -}          [ "lung", "lungs" ] ]
-
- |> "r r f" <| [
-
-    -- ;; rufAt_1
-    -- rfAt    rufAt   N       remains;body
-
-    CuL |< At                 `noun`       {- rufAt -}          [ "remains", "body" ] ]
-
  |> "r s '" <| [
 
     -- ;; <irosA'_1
@@ -3068,7 +3069,7 @@ lexicon = listing "Lexicon properties"
     -- rsx     rosux   IV_intr be firmly rooted;be permeated
 
     FaCaL                     `verb`       {- rasax-u -}        [ "be firmly rooted", "be permeated" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "rsu_h IV_intr" ] -},
 
     -- ;; ras~ax_1
@@ -3170,7 +3171,7 @@ lexicon = listing "Lexicon properties"
     -- rsm     rosum   IV      trace;sketch
 
     FaCaL                     `verb`       {- rasam-u -}        [ "trace", "sketch" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "rsum IV" ] -},
 
     -- ;; rasam-u_2
@@ -3178,7 +3179,7 @@ lexicon = listing "Lexicon properties"
     -- rsm     rosum   IV      prescribe
 
     FaCaL                     `verb`       {- rasam-u -}        [ "prescribe" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "rsum IV" ] -},
 
     -- ;; rasom_1
@@ -3437,7 +3438,7 @@ lexicon = listing "Lexicon properties"
     -- rH      ruH     IV_C    begin;go
 
     FAL                       `verb`       {- rAH-u -}          [ "begin", "go" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "ruw.h IV_V" ] -},
 
     -- ;; rAwaH_1
@@ -3605,7 +3606,7 @@ lexicon = listing "Lexicon properties"
     -- rE      ruE     IV_C    surprise;startle;thrill
 
     FAL                       `verb`       {- rAE-u -}          [ "surprise", "startle", "thrill" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "ruw` IV_V" ] -},
 
     -- ;; raw~aE_1
@@ -3763,7 +3764,7 @@ lexicon = listing "Lexicon properties"
     -- mAyrAm  mAyurAm FW      fine;okay     [[mAyurAm/FUNC_WORD]]
 
     FAL                       `verb`       {- rAm-u -}          [ "desire", "wish", "covet", "fine", "okay" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "ruwm IV_V" ] -},
 
     -- ;; ruwm_1
@@ -3795,7 +3796,7 @@ lexicon = listing "Lexicon properties"
     -- rq      ruq     IV_C    please;be pure;surpass
 
     FAL                       `verb`       {- rAq-u -}          [ "please", "be pure", "surpass" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "ruwq IV_V" ] -},
 
     -- ;; <irAqap_1
@@ -3858,7 +3859,7 @@ lexicon = listing "Lexicon properties"
     -- rw      row     IV_0hwnyn       tell;report;relate;narrate
 
     FaCY                      `verb`       {- rawaY-i -}        [ "tell", "report", "relate", "narrate" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "raway PV_Atn", "rwiy IV_0hAnn", "rawA PV_h" ] -},
 
     -- ;; riwAyap_1
@@ -4104,7 +4105,7 @@ lexicon = listing "Lexicon properties"
     -- rzH     rozaH   IV      sink down;be burdened;suffer
 
     FaCaL                     `verb`       {- razaH-a -}        [ "sink down", "be burdened", "suffer" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "rza.h IV" ] -},
 
     -- ;; rAziH_1
@@ -4320,6 +4321,15 @@ lexicon = listing "Lexicon properties"
 
     Identity                  `noun`       {- rayovamA -}       [ "as long as", "until" ] ]
 
+ |> "ri'" <| [
+
+    -- ;; ri}ap_1
+    -- r}      ri}     Napdu   lung
+    -- ry      riy~    Napdu   lung     [[riy~/NOUN]]
+    -- r}wn    ri}uwn  N       lungs
+
+    Identity |< aT            `noun`       {- ri}ap -}          [ "lung", "lungs" ] ]
+
  |> "ri.dA" <| [
 
     -- ;; riDA_1
@@ -4376,6 +4386,13 @@ lexicon = listing "Lexicon properties"
     -- lrbmA   larub~amA       FW-Wa   perhaps;maybe     [[la/EMPHATIC_PARTICLE+rub~amA/ADV]]
 
     Identity                  `noun`       {- rub~amA -}        [ "perhaps", "maybe" ] ]
+
+ |> "ruf" <| [
+
+    -- ;; rufAt_1
+    -- rfAt    rufAt   N       remains;body
+
+    Identity |< At            `noun`       {- rufAt -}          [ "remains", "body" ] ]
 
  |> "ruwAndA" <| [
 

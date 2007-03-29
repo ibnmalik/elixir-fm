@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> "'ikliyl" <| [
@@ -93,7 +93,7 @@ lexicon = listing "Lexicon properties"
     -- k$f     ko$af   IV_Pass_yu      be discovered;be revealed;be disclosed;examine
 
     FaCaL                     `verb`       {- ka$af-i -}        [ "discover", "reveal", "disclose", "examine", "be discovered", "be revealed", "be disclosed" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "k^saf IV_Pass_yu", "k^sif IV", "ku^sif PV_Pass" ] -},
 
     -- ;; ka$of_1
@@ -165,7 +165,7 @@ lexicon = listing "Lexicon properties"
     -- k*b     ko*ib   IV      lie;deceive
 
     FaCaL                     `verb`       {- ka*ab-i -}        [ "lie", "deceive" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "k_dib IV" ] -},
 
     -- ;; ka*~ab_1
@@ -255,7 +255,7 @@ lexicon = listing "Lexicon properties"
     -- kvr     kovur   IV_intr be numerous
 
     FaCuL                     `verb`       {- kavur-u -}        [ "be numerous" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "k_tur IV_intr" ] -},
 
     -- ;; >akovar_1
@@ -342,7 +342,7 @@ lexicon = listing "Lexicon properties"
     -- kb$     kobu$   IV      clench
 
     FaCaL                     `verb`       {- kaba$-u -}        [ "clench" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "kbu^s IV" ] -} ]
 
  |> "k b b" <| [
@@ -384,7 +384,7 @@ lexicon = listing "Lexicon properties"
     -- kbr     kobur   IV      grow older;increase;augment
 
     FaCaL                     `verb`       {- kabar-u -}        [ "grow older", "increase", "augment" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "kbur IV" ] -},
 
     -- ;; kabiyr_1
@@ -395,8 +395,9 @@ lexicon = listing "Lexicon properties"
     -- kbrA}   kubarA} Nhy     senior;adults
 
     FaCIL                     `noun`       {- kabiyr -}         [ "large", "great", "important", "senior", "adults" ]
+                              `plural`     FuCaLA'
                               `plural`     FiCAL
-                              {- `others` [ "kibAr N" ] -},
+                              {- `others` [ "kubarA' Nh N0_Nh Nhy", "kibAr N" ] -},
 
     -- ;; >akobar_2
     -- >kbr    >akobar Nel     larger/largest;greater/greatest     [[>akobar/ADJ]]
@@ -487,7 +488,7 @@ lexicon = listing "Lexicon properties"
     -- kdd     kodud   IV_C    work hard;exhaust
 
     FaCL                      `verb`       {- kad~-u -}         [ "work hard", "exhaust" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "kadad PV_C", "kudd IV_V", "kdud IV_C" ] -},
 
     -- ;; kad~_1
@@ -614,7 +615,7 @@ lexicon = listing "Lexicon properties"
     -- kff     kofuf   IV_C    refrain;abstain
 
     FaCL                      `verb`       {- kaf~-u -}         [ "refrain", "abstain" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "kfuf IV_C", "kuff IV_V", "kafaf PV_C" ] -},
 
     -- ;; kaf~_1
@@ -646,7 +647,7 @@ lexicon = listing "Lexicon properties"
     -- kfl     koful   IV      support
 
     FaCaL                     `verb`       {- kafal-u -}        [ "support" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "kful IV" ] -},
 
     -- ;; kafal-i_1
@@ -654,7 +655,7 @@ lexicon = listing "Lexicon properties"
     -- kfl     kofil   IV      vouch for;guarantee;secure
 
     FaCaL                     `verb`       {- kafal-i -}        [ "vouch for", "guarantee", "secure" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "kfil IV" ] -},
 
     -- ;; kaf~al_1
@@ -734,7 +735,7 @@ lexicon = listing "Lexicon properties"
     -- kf      kof     IV_0hwnyn       be enough;suffice
 
     FaCY                      `verb`       {- kafaY-i -}        [ "be enough", "suffice" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "kafay PV_Atn", "kfiy IV_0hAnn", "kafA PV_h" ] -},
 
     -- ;; kifAyap_1
@@ -805,35 +806,6 @@ lexicon = listing "Lexicon properties"
                               `plural`     FuCCAL
                               {- `others` [ "kahan Nap", "kuhhAn N" ] -} ]
 
- |> "k k m" <| [
-
-    -- ;; kam_1
-    -- km      kam     FW-WaBi how many/much   [[kam/REL_PRON]]
-
-    CaL                       `noun`       {- kam -}            [ "how many/much" ],
-
-    -- ;; kam_2
-    -- km      kam     FW-WaBi how many/much   [[kam/INTERROG_PART]]
-
-    CaL                       `noun`       {- kam -}            [ "how many/much" ] ]
-
- |> "k k r" <| [
-
-    -- ;; kurap_1
-    -- kr      kur     NapAt   globe;sphere;ball
-    -- krY     kuraY   N0      globes;spheres;balls
-    -- krA     kurA    Nhy     globes;spheres;balls
-
-    CuL |< aT                 `noun`       {- kurap -}          [ "globe", "sphere", "ball", "globes", "spheres", "balls" ] ]
-
- |> "k k y" <| [
-
-    -- ;; kay_1
-    -- ky      kay     FW-Wa   in order to  [[kay/CONJ]]
-    -- lky     likay   FW-Wa   in order to  [[likay/CONJ]]
-
-    CaL                       `noun`       {- kay -}            [ "in order to" ] ]
-
  |> "k l _t m" <| [
 
     -- ;; kulovuwm_1
@@ -861,7 +833,7 @@ lexicon = listing "Lexicon properties"
     -- klf     kolaf   IV_intr be fond of
 
     FaCiL                     `verb`       {- kalif-a -}        [ "be fond of" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "klaf IV_intr" ] -},
 
     -- ;; kal~af_1
@@ -1135,7 +1107,7 @@ lexicon = listing "Lexicon properties"
     -- kmm     komum   IV_C    cover;hide
 
     FaCL                      `verb`       {- kam~-u -}         [ "cover", "hide" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "kmum IV_C", "kamam PV_C", "kumm IV_V" ] -},
 
     -- ;; kam~_1
@@ -1155,7 +1127,7 @@ lexicon = listing "Lexicon properties"
     -- kmn     komun   IV-n_intr       be latent;be concealed
 
     FaCaL                     `verb`       {- kaman-u -}        [ "be latent", "be concealed" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "kmun IV-n_intr" ] -},
 
     -- ;; kamiyn_1
@@ -1164,7 +1136,9 @@ lexicon = listing "Lexicon properties"
     -- kmnA&   kumanA& Nh      hidden;ambush
     -- kmnA}   kumanA} Nhy     hidden;ambush
 
-    FaCIL                     `noun`       {- kamiyn -}         [ "hidden", "ambush" ],
+    FaCIL                     `noun`       {- kamiyn -}         [ "hidden", "ambush" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "kumanA' Nh N0_Nh Nhy" ] -},
 
     -- ;; makoman_2
     -- mkmn    makoman Ndu     deposit;reserve
@@ -1287,7 +1261,7 @@ lexicon = listing "Lexicon properties"
     -- knw     konuw   IV_0hAnn        allude to;express indirectly;nickname
 
     FaCA                      `verb`       {- kanA-u -}         [ "allude to", "express indirectly", "nickname" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "kanaw PV_Atn", "knuw IV_0hAnn" ] -} ]
 
  |> "k n y" <| [
@@ -1421,7 +1395,8 @@ lexicon = listing "Lexicon properties"
 
     FaCIL                     `noun`       {- kariym -}         [ "distinguished", "generous", "noble", "precious" ]
                               `plural`     FiCAL
-                              {- `others` [ "kirAm N" ] -},
+                              `plural`     FuCaLA'
+                              {- `others` [ "kirAm N", "kuramA' Nh N0_Nh Nhy" ] -},
 
     -- ;; kariymap_2
     -- krym    kariym  Napdu   daughter
@@ -1453,11 +1428,6 @@ lexicon = listing "Lexicon properties"
     KaRDaS                    `noun`       {- karomal -}        [ "Karmal" ] ]
 
  |> "k r r" <| [
-
-    -- ;; kAriy_1
-    -- kAry    kAriy   Nprop   Carey
-
-    FACI                      `noun`       {- kAriy -}          [ "Carey" ],
 
     -- ;; kar~ar_1
     -- krr     kar~ar  PV      repeat;reiterate
@@ -1566,6 +1536,11 @@ lexicon = listing "Lexicon properties"
     -- ;; kAriy_1
     -- kAry    kAriy   Nprop   Carey
 
+    FACI                      `noun`       {- kAriy -}          [ "Carey" ],
+
+    -- ;; kAriy_1
+    -- kAry    kAriy   Nprop   Carey
+
     FACiL                     `noun`       {- kAriy -}          [ "Carey" ],
 
     -- ;; kuray~ap_1
@@ -1598,7 +1573,7 @@ lexicon = listing "Lexicon properties"
     -- ksb     kosib   IV      gain;acquire;obtain
 
     FaCaL                     `verb`       {- kasab-i -}        [ "gain", "acquire", "obtain" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "ksib IV" ] -},
 
     -- ;; kasob_1
@@ -1648,7 +1623,7 @@ lexicon = listing "Lexicon properties"
     -- ksr     kosir   IV      break;defeat
 
     FaCaL                     `verb`       {- kasar-i -}        [ "break", "defeat" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "ksir IV" ] -},
 
     -- ;; kasor_1
@@ -1676,7 +1651,7 @@ lexicon = listing "Lexicon properties"
     -- ktb     kotab   IV_Pass_yu      be written;be fated;be destined
 
     FaCaL                     `verb`       {- katab-u -}        [ "write", "be written", "be fated", "be destined" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "ktab IV_Pass_yu", "kutib PV_Pass", "ktub IV" ] -},
 
     -- ;; kitAb_1
@@ -1869,7 +1844,7 @@ lexicon = listing "Lexicon properties"
     -- kd      kad     IV_C_intr       almost;hardly;no sooner
 
     FAL                       `verb`       {- kAd-a -}          [ "almost", "hardly", "no sooner" ]
-                              `imperf` [ FCaL ] ]
+                              `imperf`     FCaL ]
 
  |> "k w f" <| [
 
@@ -2403,6 +2378,18 @@ lexicon = listing "Lexicon properties"
 
     Identity                  `noun`       {- kal~A -}          [ "not at all", "definitely not" ] ]
 
+ |> "kam" <| [
+
+    -- ;; kam_1
+    -- km      kam     FW-WaBi how many/much   [[kam/REL_PRON]]
+
+    Identity                  `noun`       {- kam -}            [ "how many/much" ],
+
+    -- ;; kam_2
+    -- km      kam     FW-WaBi how many/much   [[kam/INTERROG_PART]]
+
+    Identity                  `noun`       {- kam -}            [ "how many/much" ] ]
+
  |> "kaman^gA" <| [
 
     -- ;; kamanojA_1
@@ -2474,6 +2461,14 @@ lexicon = listing "Lexicon properties"
     -- krblA}  karobalA}       Nhy     Karbala
 
     Identity                  `noun`       {- karobalA' -}      [ "Karbala" ] ]
+
+ |> "kay" <| [
+
+    -- ;; kay_1
+    -- ky      kay     FW-Wa   in order to  [[kay/CONJ]]
+    -- lky     likay   FW-Wa   in order to  [[likay/CONJ]]
+
+    Identity                  `noun`       {- kay -}            [ "in order to" ] ]
 
  |> "kayfa" <| [
 
@@ -2739,6 +2734,15 @@ lexicon = listing "Lexicon properties"
     -- kwnfydrAly      kuwnofiydrAliy~ Nap     confederation     [[kuwnofiydrAliy~/NOUN]]
 
     Identity |< Iy |< aT      `noun`       {- kunofidrAliy~ap -} [ "confederation" ] ]
+
+ |> "kur" <| [
+
+    -- ;; kurap_1
+    -- kr      kur     NapAt   globe;sphere;ball
+    -- krY     kuraY   N0      globes;spheres;balls
+    -- krA     kurA    Nhy     globes;spheres;balls
+
+    Identity |< aT            `noun`       {- kurap -}          [ "globe", "sphere", "ball", "globes", "spheres", "balls" ] ]
 
  |> "kurdistAn" <| [
 

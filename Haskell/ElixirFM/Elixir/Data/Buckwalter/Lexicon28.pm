@@ -121,6 +121,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'y r y' => [
+    {
+      'types' => {
+        'yuwriy' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'yuwriy',
+      'form' => 'yuwriy',
+      'lines' => [
+        ';; yuwriy_1',
+        'ywry    yuwriy  Nprop   Youri;Yuri'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCiy',
+      'suffix' => '',
+      'glosses' => [
+        'Youri',
+        'Yuri'
+      ],
+      'orig' => 'yuwriy',
+      'prefix' => ''
+    }
+  ],
   'y z l' => [
     {
       'types' => {
@@ -3582,6 +3608,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'yin' => [
+    {
+      'types' => {
+        'yin' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'yin',
+      'form' => 'yin',
+      'lines' => [
+        ';; yin_1',
+        'yn      yin     N       Yen'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Yen'
+      ],
+      'orig' => 'yin',
+      'prefix' => ''
+    }
+  ],
   'y f _h' => [
     {
       'types' => {
@@ -3615,56 +3666,6 @@ $Lexicon = {
         'crowns of heads'
       ],
       'orig' => 'yAfuwx',
-      'prefix' => ''
-    }
-  ],
-  'y y d' => [
-    {
-      'types' => {
-        '\'ayd' => {
-          'NK' => 2
-        },
-        '\'aydiy' => {
-          'N0_Nh' => 2
-        },
-        '\'ayAd' => {
-          'NK' => 2
-        },
-        'yad' => {
-          'Ndu' => 1
-        },
-        '\'ayAdiy' => {
-          'N0_Nh' => 2
-        }
-      },
-      'entry' => 'yad',
-      'form' => 'yad',
-      'lines' => [
-        ';; yad_1',
-        'yd      yad     Ndu     hand',
-        '>ydy    >ayodiy N0_Nh   hands',
-        'Aydy    >ayodiy N0_Nh   hands',
-        '>yd     >ayod   NK      hands',
-        'Ayd     >ayod   NK      hands',
-        '>yAdy   >ayAdiy N0_Nh   hands',
-        'AyAdy   >ayAdiy N0_Nh   hands',
-        '>yAd    >ayAd   NK      hands',
-        'AyAd    >ayAd   NK      hands'
-      ],
-      'patterns' => {
-        '\'ayAd' => [
-          'HaFAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL',
-      'suffix' => '',
-      'glosses' => [
-        'hand',
-        'hands'
-      ],
-      'orig' => 'yad',
       'prefix' => ''
     }
   ],
@@ -3921,6 +3922,32 @@ $Lexicon = {
         'jubilee'
       ],
       'orig' => 'yuwbiyl',
+      'prefix' => ''
+    }
+  ],
+  'yuw' => [
+    {
+      'types' => {
+        'yuw' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'yuw',
+      'form' => 'yuw',
+      'lines' => [
+        ';; yuw_1',
+        'yw      yuw     Nprop   Yo;Yu'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Yo',
+        'Yu'
+      ],
+      'orig' => 'yuw',
       'prefix' => ''
     }
   ],
@@ -4571,31 +4598,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'y y n' => [
-    {
-      'types' => {
-        'yin' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'yin',
-      'form' => 'yin',
-      'lines' => [
-        ';; yin_1',
-        'yn      yin     N       Yen'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CiL',
-      'suffix' => '',
-      'glosses' => [
-        'Yen'
-      ],
-      'orig' => 'yin',
-      'prefix' => ''
-    }
-  ],
   'y s n' => [
     {
       'types' => {
@@ -5029,31 +5031,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'y y y' => [
-    {
-      'types' => {
-        'yiy' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'yiy',
-      'form' => 'yiy',
-      'lines' => [
-        ';; yiy_1',
-        'yy      yiy     Nprop   Yi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CiL',
-      'suffix' => '',
-      'glosses' => [
-        'Yi'
-      ],
-      'orig' => 'yiy',
-      'prefix' => ''
-    }
-  ],
   'yuw.tn' => [
     {
       'types' => {
@@ -5439,6 +5416,52 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'yad' => [
+    {
+      'types' => {
+        '\'ayd' => {
+          'NK' => 2
+        },
+        '\'aydiy' => {
+          'N0_Nh' => 2
+        },
+        '\'ayAd' => {
+          'NK' => 2
+        },
+        'yad' => {
+          'Ndu' => 1
+        },
+        '\'ayAdiy' => {
+          'N0_Nh' => 2
+        }
+      },
+      'entry' => 'yad',
+      'form' => 'yad',
+      'lines' => [
+        ';; yad_1',
+        'yd      yad     Ndu     hand',
+        '>ydy    >ayodiy N0_Nh   hands',
+        'Aydy    >ayodiy N0_Nh   hands',
+        '>yd     >ayod   NK      hands',
+        'Ayd     >ayod   NK      hands',
+        '>yAdy   >ayAdiy N0_Nh   hands',
+        'AyAdy   >ayAdiy N0_Nh   hands',
+        '>yAd    >ayAd   NK      hands',
+        'AyAd    >ayAd   NK      hands'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'hand',
+        'hands'
+      ],
+      'orig' => 'yad',
+      'prefix' => ''
+    }
+  ],
   'yA.tA^s' => [
     {
       'types' => {
@@ -5575,32 +5598,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'y r r' => [
-    {
-      'types' => {
-        'yuwriy' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'yuwriy',
-      'form' => 'yuwriy',
-      'lines' => [
-        ';; yuwriy_1',
-        'ywry    yuwriy  Nprop   Youri;Yuri'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCiy',
-      'suffix' => '',
-      'glosses' => [
-        'Youri',
-        'Yuri'
-      ],
-      'orig' => 'yuwriy',
-      'prefix' => ''
-    }
-  ],
   'y w ^g n' => [
     {
       'types' => {
@@ -5648,6 +5645,32 @@ $Lexicon = {
         'collar'
       ],
       'orig' => 'yAqap',
+      'prefix' => ''
+    }
+  ],
+  'y d d' => [
+    {
+      'types' => {
+        'yadawiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'yadY',
+      'form' => 'yadawiyy',
+      'lines' => [
+        ';; yadawiy~_1',
+        'ydwy    yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCY |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'manual',
+        'hand'
+      ],
+      'orig' => 'yadawiy~',
       'prefix' => ''
     }
   ],
@@ -6052,6 +6075,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'yiy' => [
+    {
+      'types' => {
+        'yiy' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'yiy',
+      'form' => 'yiy',
+      'lines' => [
+        ';; yiy_1',
+        'yy      yiy     Nprop   Yi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Yi'
+      ],
+      'orig' => 'yiy',
+      'prefix' => ''
+    }
+  ],
   'y n ^s' => [
     {
       'types' => {
@@ -6124,58 +6172,6 @@ $Lexicon = {
         'Yitzhak'
       ],
       'orig' => 'yitsoHAk',
-      'prefix' => ''
-    }
-  ],
-  'y y w' => [
-    {
-      'types' => {
-        'yuw' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'yuw',
-      'form' => 'yuw',
-      'lines' => [
-        ';; yuw_1',
-        'yw      yuw     Nprop   Yo;Yu'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CuL',
-      'suffix' => '',
-      'glosses' => [
-        'Yo',
-        'Yu'
-      ],
-      'orig' => 'yuw',
-      'prefix' => ''
-    }
-  ],
-  'y d ' => [
-    {
-      'types' => {
-        'yadawiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'yadY',
-      'form' => 'yadawiyy',
-      'lines' => [
-        ';; yadawiy~_1',
-        'ydwy    yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCY |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'manual',
-        'hand'
-      ],
-      'orig' => 'yadawiy~',
       'prefix' => ''
     }
   ],
@@ -6563,22 +6559,6 @@ $Lexicon = {
         'hyacinth'
       ],
       'orig' => 'yAsinot',
-      'prefix' => ''
-    }
-  ],
-  'y y ' => [
-    {
-      'types' => {},
-      'entry' => 'yiy',
-      'form' => 'yiy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'yiy',
       'prefix' => ''
     }
   ],
@@ -7377,6 +7357,3 @@ $Lexicon->{'y w n'}[0]{'glosses'} = $Lexicon->{'y n n'}[0]{'glosses'};
 $Lexicon->{'y w n'}[1]{'types'} = $Lexicon->{'y n n'}[1]{'types'};
 $Lexicon->{'y w n'}[1]{'lines'} = $Lexicon->{'y n n'}[1]{'lines'};
 $Lexicon->{'y w n'}[1]{'glosses'} = $Lexicon->{'y n n'}[1]{'glosses'};
-$Lexicon->{'y y '}[0]{'types'} = $Lexicon->{'y y y'}[0]{'types'};
-$Lexicon->{'y y '}[0]{'lines'} = $Lexicon->{'y y y'}[0]{'lines'};
-$Lexicon->{'y y '}[0]{'glosses'} = $Lexicon->{'y y y'}[0]{'glosses'};

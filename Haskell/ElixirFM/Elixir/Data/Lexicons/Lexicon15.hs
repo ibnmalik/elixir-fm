@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> ".d ' `" <| [
@@ -37,8 +37,9 @@ lexicon = listing "Lexicon properties"
     -- D&lA}   Du&alA} Nhy     small;meager;sparse
 
     FaCIL                     `noun`       {- Da}iyl -}         [ "small", "meager", "sparse" ]
+                              `plural`     FuCaLA'
                               `plural`     FiCAL
-                              {- `others` [ ".di'Al N" ] -} ]
+                              {- `others` [ ".du'alA' Nh N0_Nh Nhy", ".di'Al N" ] -} ]
 
  |> ".d ' q" <| [
 
@@ -86,7 +87,7 @@ lexicon = listing "Lexicon properties"
     -- DHk     DoHak   IV_Pass_yu      be laughd at
 
     FaCiL                     `verb`       {- DaHik-a -}        [ "laugh", "be laughd at" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".d.hak IV IV_Pass_yu" ] -},
 
     -- ;; >aDoHak_1
@@ -205,7 +206,7 @@ lexicon = listing "Lexicon properties"
     -- Dxx     Doxux   IV_C    inject;pump;spurt
 
     FaCL                      `verb`       {- Dax~-u -}         [ "inject", "pump", "spurt" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".d_hu_h IV_C", ".du_h_h IV_V", ".da_ha_h PV_C" ] -},
 
     -- ;; Dax~_1
@@ -296,7 +297,8 @@ lexicon = listing "Lexicon properties"
                               `plural`     FaCLAn
                               `plural`     FiCAL
                               `plural`     FaCaL |< aT
-                              {- `others` [ ".da`fAn N", ".di`Af N", ".da`af Nap" ] -},
+                              `plural`     FuCaLA'
+                              {- `others` [ ".da`fAn N", ".di`Af N", ".da`af Nap", ".du`afA' Nh N0_Nh Nhy" ] -},
 
     -- ;; <iDoEAf_1
     -- <DEAf   <iDoEAf N/At    weakening;impairment
@@ -358,7 +360,8 @@ lexicon = listing "Lexicon properties"
     -- DbT     DobiT   IV      regulate;adjust;fix
 
     FaCaL                     `verb`       {- DabaT-ui -}       [ "regulate", "adjust", "fix" ]
-                              `imperf` [ FCuL, FCiL ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL
                               {- `others` [ ".dbi.t IV", ".dbu.t IV" ] -},
 
     -- ;; DaboT_1
@@ -583,7 +586,7 @@ lexicon = listing "Lexicon properties"
     -- Dmm     Domum   IV_C    include;comprise;incorporate
 
     FaCL                      `verb`       {- Dam~-u -}         [ "include", "comprise", "incorporate" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".dumm IV_V", ".dmum IV_C", ".damam PV_C" ] -},
 
     -- ;; Dam~_1
@@ -613,7 +616,7 @@ lexicon = listing "Lexicon properties"
     -- Dmn     Doman   IV-n    guarantee;insure
 
     FaCiL                     `verb`       {- Damin-a -}        [ "guarantee", "insure" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".dman IV-n" ] -},
 
     -- ;; Dam~an_1
@@ -683,8 +686,9 @@ lexicon = listing "Lexicon properties"
     -- DmnA}   DumanA} Nhy     guarantors;responsible;liable
 
     FACiL                     `noun`       {- DAmin -}          [ "guarantor", "responsible", "liable", "guarantors" ]
+                              `plural`     FuCaLA'
                               `plural`     FaCIL |< aT
-                              {- `others` [ ".damiyn N-ap" ] -},
+                              {- `others` [ ".dumanA' Nh N0_Nh Nhy", ".damiyn N-ap" ] -},
 
     -- ;; maDomuwn_1
     -- mDmwn   maDomuwn        N       content
@@ -749,7 +753,7 @@ lexicon = listing "Lexicon properties"
     -- Dnn     Donan   IV-n    hold back;economize
 
     FaCL                      `verb`       {- Dan~-a -}         [ "hold back", "economize" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".dnan IV-n", ".danin PV_Cn" ] -} ]
 
  |> ".d n y" <| [
@@ -897,7 +901,7 @@ lexicon = listing "Lexicon properties"
     -- Drr     Dorur   IV_C    harm;injure
 
     FaCL                      `verb`       {- Dar~-u -}         [ "harm", "injure" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".darar PV_C", ".drur IV_C", ".durr IV_V" ] -},
 
     -- ;; >aDar~_1
@@ -1053,7 +1057,7 @@ lexicon = listing "Lexicon properties"
     -- Dr      Dir     IV_C    harm;injure
 
     FAL                       `verb`       {- DAr-i -}          [ "harm", "injure" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".diyr IV_V" ] -} ]
 
  |> ".d y '" <| [
@@ -1085,7 +1089,7 @@ lexicon = listing "Lexicon properties"
     -- DE      DiE     IV_C    disappear;vanish
 
     FAL                       `verb`       {- DAE-i -}          [ "disappear", "vanish" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".diy` IV_V" ] -},
 
     -- ;; Day~aE_1

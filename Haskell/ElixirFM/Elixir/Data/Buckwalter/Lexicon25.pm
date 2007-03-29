@@ -2297,6 +2297,37 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'n m s \'' => [
+    {
+      'types' => {
+        'namsawiyy' => {
+          'Nall' => 2
+        },
+        'namsAwiyy' => {
+          'Nall' => 2
+        }
+      },
+      'entry' => 'namsA\'',
+      'form' => 'namsAwiyy',
+      'lines' => [
+        ';; namosAwiy~_1',
+        'nmsAwy  namosAwiy~      Nall    Austrian     [[namosAwiy~/NOUN]]',
+        'nmsAwy  namosAwiy~      Nall    Austrian     [[namosAwiy~/ADJ]]',
+        'nmswy   namosawiy~      Nall    Austrian     [[namosawiy~/NOUN]]',
+        'nmswy   namosawiy~      Nall    Austrian     [[namosawiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDAS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Austrian'
+      ],
+      'orig' => 'namosAwiy~',
+      'prefix' => ''
+    }
+  ],
   'n k y' => [
     {
       'types' => {
@@ -4364,6 +4395,9 @@ $Lexicon = {
         'nHfA}   nuHafA} Nhy     weak;emaciated'
       ],
       'patterns' => {
+        'nu.hafA\'' => [
+          'FuCaLA\''
+        ],
         'ni.hAf' => [
           'FiCAL'
         ]
@@ -4518,38 +4552,6 @@ $Lexicon = {
         'honeycombs'
       ],
       'orig' => 'nuxoruwb',
-      'prefix' => ''
-    }
-  ],
-  'n n ^s' => [
-    {
-      'types' => {
-        'na^sA' => {
-          'N0_Nhy' => 1
-        },
-        'na^saN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => 'na^s',
-      'form' => 'na^saN',
-      'lines' => [
-        ';; na$AF_1',
-        'n$A     na$AF   FW-WaBi aroma;scent;perfume;starch     [[na$AF/NOUN]]',
-        'n$A     na$A    N0_Nhy  aroma;scent;perfume;starch'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'aroma',
-        'scent',
-        'perfume',
-        'starch'
-      ],
-      'orig' => 'na$AF',
       'prefix' => ''
     }
   ],
@@ -4750,6 +4752,9 @@ $Lexicon = {
         ],
         'na.tar' => [
           'FaCaL'
+        ],
+        'nu.tarA\'' => [
+          'FuCaLA\''
         ],
         'nawA.tir' => [
           'FawACiL'
@@ -6983,33 +6988,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'n n .h' => [
-    {
-      'types' => {
-        'nu.hAtaT' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'nu.h',
-      'form' => 'nu.hAtaT',
-      'lines' => [
-        ';; nuHAtap_1',
-        'nHAt    nuHAt   Nap     chips;shavings;slivers'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CuL |< At |< aT',
-      'suffix' => ' |< At |< aT',
-      'glosses' => [
-        'chips',
-        'shavings',
-        'slivers'
-      ],
-      'orig' => 'nuHAtap',
-      'prefix' => ''
-    }
-  ],
   'n m ^s' => [
     {
       'types' => {
@@ -7118,6 +7096,9 @@ $Lexicon = {
         'nm$     numo$   N       freckled'
       ],
       'patterns' => {
+        'nam^sA\'' => [
+          'FaCLA\''
+        ],
         'num^s' => [
           'FuCL'
         ]
@@ -10012,6 +9993,41 @@ $Lexicon = {
     },
     {
       'types' => {
+        'nawAfis' => {
+          'Ndip' => 1
+        },
+        'nafsA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'nafsA\'',
+      'form' => 'nafsA\'',
+      'lines' => [
+        ';; nafosA\'_1',
+        'nfsA\'   nafosA\' N0_Nh   in childbed',
+        'nfsA&   nafosA& Nh      in childbed',
+        'nfsA}   nafosA} Nhy     in childbed',
+        'nwAfs   nawAfis Ndip    in childbed'
+      ],
+      'patterns' => {
+        'nawAfis' => [
+          'FawACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'in childbed'
+      ],
+      'orig' => 'nafosA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'nafsAniyy' => {
           'Nall' => 1
         }
@@ -11847,6 +11863,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'nab' => [
+    {
+      'types' => {
+        'nabAt' => {
+          'N/At' => 1
+        }
+      },
+      'entry' => 'nab',
+      'form' => 'nabAt',
+      'lines' => [
+        ';; nabAt_1',
+        'nbAt    nabAt   N/At    plants;vegetation'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'plants',
+        'vegetation'
+      ],
+      'orig' => 'nabAt',
+      'prefix' => ''
+    }
+  ],
   'n _h _h' => [
     {
       'types' => {
@@ -12915,7 +12957,11 @@ $Lexicon = {
         'nzlA&   nuzalA& Nh      inmates;tenants',
         'nzlA}   nuzalA} Nhy     inmates;tenants'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'nuzalA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -14667,37 +14713,6 @@ $Lexicon = {
         'shirking'
       ],
       'orig' => 'maniyS',
-      'prefix' => ''
-    }
-  ],
-  'n m s w' => [
-    {
-      'types' => {
-        'namsawiyy' => {
-          'Nall' => 2
-        },
-        'namsAwiyy' => {
-          'Nall' => 2
-        }
-      },
-      'entry' => 'namsAw',
-      'form' => 'namsAwiyy',
-      'lines' => [
-        ';; namosAwiy~_1',
-        'nmsAwy  namosAwiy~      Nall    Austrian     [[namosAwiy~/NOUN]]',
-        'nmsAwy  namosAwiy~      Nall    Austrian     [[namosAwiy~/ADJ]]',
-        'nmswy   namosawiy~      Nall    Austrian     [[namosawiy~/NOUN]]',
-        'nmswy   namosawiy~      Nall    Austrian     [[namosawiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Austrian'
-      ],
-      'orig' => 'namosAwiy~',
       'prefix' => ''
     }
   ],
@@ -23407,7 +23422,11 @@ $Lexicon = {
         'nqbA&   nuqabA& Nh      captains;staff sergeants;first sergeants',
         'nqbA}   nuqabA} Nhy     captains;staff sergeants;first sergeants'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'nuqabA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -23443,7 +23462,11 @@ $Lexicon = {
         'nqbA&   nuqabA& Nh      union leaders',
         'nqbA}   nuqabA} Nhy     union leaders'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'nuqabA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -32731,7 +32754,11 @@ $Lexicon = {
         'nbhA&   nubahA& Nh      eminent;noble',
         'nbhA}   nubahA} Nhy     eminent;noble'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'nubahA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -34420,6 +34447,9 @@ $Lexicon = {
       'patterns' => {
         'ni_dAl' => [
           'FiCAL'
+        ],
+        'nu_dalA\'' => [
+          'FuCaLA\''
         ]
       },
       'index' => '1',
@@ -37198,6 +37228,36 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'n s s' => [
+    {
+      'types' => {
+        'nassA\'' => {
+          'Nh_Niyn' => 1,
+          'Nh_Nuwn' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'nassA\'',
+      'form' => 'nassA\'',
+      'lines' => [
+        ';; nas~A\'_1',
+        'nsA\'    nas~A\'  N0_Nh   forgetful;oblivious',
+        'nsA\'    nas~A\'  Nh_Nuwn forgetful;oblivious',
+        'nsA}    nas~A}  Nh_Niyn forgetful;oblivious'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'forgetful',
+        'oblivious'
+      ],
+      'orig' => 'nas~A\'',
+      'prefix' => ''
+    }
+  ],
   'ni^san^g' => [
     {
       'types' => {
@@ -37549,38 +37609,6 @@ $Lexicon = {
         'mutton sausage'
       ],
       'orig' => 'naqAniq',
-      'prefix' => ''
-    }
-  ],
-  'n n ^g' => [
-    {
-      'types' => {
-        'na^gaN' => {
-          'FW-WaBi' => 1
-        },
-        'na^gA' => {
-          'N0_Nhy' => 1
-        }
-      },
-      'entry' => 'na^g',
-      'form' => 'na^gaN',
-      'lines' => [
-        ';; najAF_1',
-        'njA     najAF   FW-WaBi rescue;survival;escape;salvation     [[najAF/NOUN]]',
-        'njA     najA    N0_Nhy  rescue;survival;escape;salvation'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'rescue',
-        'survival',
-        'escape',
-        'salvation'
-      ],
-      'orig' => 'najAF',
       'prefix' => ''
     }
   ],
@@ -39880,6 +39908,35 @@ $Lexicon = {
         'happiness'
       ],
       'orig' => 'nuEomaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'na`mA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'na`mA\'',
+      'form' => 'na`mA\'',
+      'lines' => [
+        ';; naEomA\'_1',
+        'nEmA\'   naEomA\' N0_Nh   favor;kindness;grace',
+        'nEmA&   naEomA& Nh      favor;kindness;grace',
+        'nEmA}   naEomA} Nhy     favor;kindness;grace'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'favor',
+        'kindness',
+        'grace'
+      ],
+      'orig' => 'naEomA\'',
       'prefix' => ''
     },
     {
@@ -43846,6 +43903,38 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'na^s' => [
+    {
+      'types' => {
+        'na^sA' => {
+          'N0_Nhy' => 1
+        },
+        'na^saN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => 'na^s',
+      'form' => 'na^saN',
+      'lines' => [
+        ';; na$AF_1',
+        'n$A     na$AF   FW-WaBi aroma;scent;perfume;starch     [[na$AF/NOUN]]',
+        'n$A     na$A    N0_Nhy  aroma;scent;perfume;starch'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'aroma',
+        'scent',
+        'perfume',
+        'starch'
+      ],
+      'orig' => 'na$AF',
+      'prefix' => ''
+    }
+  ],
   'n .g .s' => [
     {
       'types' => {
@@ -44549,33 +44638,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'n ^g m w' => [
-    {
-      'types' => {
-        'na^gmAwiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'na^gmAw',
-      'form' => 'na^gmAwiyy',
-      'lines' => [
-        ';; najomAwiy~_1',
-        'njmAwy  najomAwiy~      Nall    Najmawi;Nagmaoui;Nadjmaoui'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Najmawi',
-        'Nagmaoui',
-        'Nadjmaoui'
-      ],
-      'orig' => 'najomAwiy~',
-      'prefix' => ''
-    }
-  ],
   'n s q' => [
     {
       'types' => {
@@ -45169,6 +45231,9 @@ $Lexicon = {
         'nmr     numor   N       speckled'
       ],
       'patterns' => {
+        'namrA\'' => [
+          'FaCLA\''
+        ],
         'numr' => [
           'FuCL'
         ]
@@ -45610,6 +45675,9 @@ $Lexicon = {
       'patterns' => {
         'ni^sA.t' => [
           'FiCAL'
+        ],
+        'nu^sa.tA\'' => [
+          'FuCaLA\''
         ]
       },
       'index' => '1',
@@ -47235,6 +47303,9 @@ $Lexicon = {
         'ndAm    nidAm   N       confidants;close friends'
       ],
       'patterns' => {
+        'nudamA\'' => [
+          'FuCaLA\''
+        ],
         'nidAm' => [
           'FiCAL'
         ]
@@ -47456,39 +47527,6 @@ $Lexicon = {
         'remorseful'
       ],
       'orig' => 'mutanad~im',
-      'prefix' => ''
-    }
-  ],
-  'n f s \'' => [
-    {
-      'types' => {
-        'nawAfis' => {
-          'Ndip' => 1
-        },
-        'nafsA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'nafsA\'',
-      'form' => 'nafsA\'',
-      'lines' => [
-        ';; nafosA\'_1',
-        'nfsA\'   nafosA\' N0_Nh   in childbed',
-        'nfsA&   nafosA& Nh      in childbed',
-        'nfsA}   nafosA} Nhy     in childbed',
-        'nwAfs   nawAfis Ndip    in childbed'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'in childbed'
-      ],
-      'orig' => 'nafosA\'',
       'prefix' => ''
     }
   ],
@@ -47742,6 +47780,9 @@ $Lexicon = {
       'patterns' => {
         'nibAl' => [
           'FiCAL'
+        ],
+        'nubalA\'' => [
+          'FuCaLA\''
         ]
       },
       'index' => '2',
@@ -50754,6 +50795,31 @@ $Lexicon = {
         'in installments'
       ],
       'orig' => 'najomiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'na^gmAwiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'na^gmA\'',
+      'form' => 'na^gmAwiyy',
+      'lines' => [
+        ';; najomAwiy~_1',
+        'njmAwy  najomAwiy~      Nall    Najmawi;Nagmaoui;Nadjmaoui'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Najmawi',
+        'Nagmaoui',
+        'Nadjmaoui'
+      ],
+      'orig' => 'najomAwiy~',
       'prefix' => ''
     },
     {
@@ -57884,7 +57950,11 @@ $Lexicon = {
         'nddA&   nudadA& Nh      peers;rivals',
         'nddA}   nudadA} Nhy     peers;rivals'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'nudadA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -59927,6 +59997,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'yanba`A\'' => [
+    {
+      'types' => {
+        'yanba`Awiyy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'yanba`A\'',
+      'form' => 'yanba`Awiyy',
+      'lines' => [
+        ';; yanobaEAwiy~_1',
+        'ynbEAwy yanobaEAwiy~    N0      Yanbawi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Yanbawi'
+      ],
+      'orig' => 'yanobaEAwiy~',
+      'prefix' => ''
+    }
+  ],
   'n ` r' => [
     {
       'types' => {
@@ -61318,30 +61413,16 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'nassA\'' => {
-          'Nh_Niyn' => 1,
-          'Nh_Nuwn' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'nassA\'',
       'form' => 'nassA\'',
-      'lines' => [
-        ';; nas~A\'_1',
-        'nsA\'    nas~A\'  N0_Nh   forgetful;oblivious',
-        'nsA\'    nas~A\'  Nh_Nuwn forgetful;oblivious',
-        'nsA}    nas~A}  Nh_Niyn forgetful;oblivious'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCCAL',
       'suffix' => '',
-      'glosses' => [
-        'forgetful',
-        'oblivious'
-      ],
+      'glosses' => [],
       'orig' => 'nas~A\'',
       'prefix' => ''
     }
@@ -66450,7 +66531,11 @@ $Lexicon = {
         'nZrA}   nuZarA} Nhy     counterparts;colleagues;peers',
         'nZA}r   naZA}ir Ndip    counterparts;colleagues;peers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'nu.zarA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -68276,7 +68361,11 @@ $Lexicon = {
         'nkrA&   nakorA& Nh      reprehensible;disapproving',
         'nkrA}   nakorA} Nhy     reprehensible;disapproving'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'nakrA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -68929,6 +69018,9 @@ $Lexicon = {
         'nzAh    nizAh   N       blameless;righteous;fair;impartial'
       ],
       'patterns' => {
+        'nuzahA\'' => [
+          'FuCaLA\''
+        ],
         'nizAh' => [
           'FiCAL'
         ]
@@ -70588,7 +70680,11 @@ $Lexicon = {
         'nSrA&   nuSarA& Nh      partisan;supporter',
         'nSrA}   nuSarA} Nhy     partisan;supporter'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'nu.sarA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -71469,31 +71565,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yanba`Aw' => [
-    {
-      'types' => {
-        'yanba`Awiyy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'yanba`Aw',
-      'form' => 'yanba`Awiyy',
-      'lines' => [
-        ';; yanobaEAwiy~_1',
-        'ynbEAwy yanobaEAwiy~    N0      Yanbawi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Yanbawi'
-      ],
-      'orig' => 'yanobaEAwiy~',
-      'prefix' => ''
-    }
-  ],
   'n .h s' => [
     {
       'types' => {
@@ -72029,6 +72100,9 @@ $Lexicon = {
       'patterns' => {
         'ni.zAf' => [
           'FiCAL'
+        ],
+        'nu.zafA\'' => [
+          'FuCaLA\''
         ]
       },
       'index' => '1',
@@ -72662,7 +72736,11 @@ $Lexicon = {
         'njlA&   najolA& Nh      wide-eyed;gaping',
         'njlA}   najolA} Nhy     wide-eyed;gaping'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'na^glA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -72811,6 +72889,33 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => '{inotimA\'',
+      'prefix' => ''
+    }
+  ],
+  'nu.h' => [
+    {
+      'types' => {
+        'nu.hAtaT' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'nu.h',
+      'form' => 'nu.hAtaT',
+      'lines' => [
+        ';; nuHAtap_1',
+        'nHAt    nuHAt   Nap     chips;shavings;slivers'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< At |< aT',
+      'suffix' => ' |< At |< aT',
+      'glosses' => [
+        'chips',
+        'shavings',
+        'slivers'
+      ],
+      'orig' => 'nuHAtap',
       'prefix' => ''
     }
   ],
@@ -73715,32 +73820,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'n n b' => [
-    {
-      'types' => {
-        'nabAt' => {
-          'N/At' => 1
-        }
-      },
-      'entry' => 'nab',
-      'form' => 'nabAt',
-      'lines' => [
-        ';; nabAt_1',
-        'nbAt    nabAt   N/At    plants;vegetation'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'plants',
-        'vegetation'
-      ],
-      'orig' => 'nabAt',
-      'prefix' => ''
-    }
-  ],
   'niyuw' => [
     {
       'types' => {
@@ -74326,34 +74405,35 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'n ` m \'' => [
+  'na^g' => [
     {
       'types' => {
-        'na`mA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
+        'na^gaN' => {
+          'FW-WaBi' => 1
+        },
+        'na^gA' => {
+          'N0_Nhy' => 1
         }
       },
-      'entry' => 'na`mA\'',
-      'form' => 'na`mA\'',
+      'entry' => 'na^g',
+      'form' => 'na^gaN',
       'lines' => [
-        ';; naEomA\'_1',
-        'nEmA\'   naEomA\' N0_Nh   favor;kindness;grace',
-        'nEmA&   naEomA& Nh      favor;kindness;grace',
-        'nEmA}   naEomA} Nhy     favor;kindness;grace'
+        ';; najAF_1',
+        'njA     najAF   FW-WaBi rescue;survival;escape;salvation     [[najAF/NOUN]]',
+        'njA     najA    N0_Nhy  rescue;survival;escape;salvation'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
+      'morphs' => 'Identity |< aN',
+      'suffix' => ' |< aN',
       'glosses' => [
-        'favor',
-        'kindness',
-        'grace'
+        'rescue',
+        'survival',
+        'escape',
+        'salvation'
       ],
-      'orig' => 'naEomA\'',
+      'orig' => 'najAF',
       'prefix' => ''
     }
   ],
@@ -78307,6 +78387,9 @@ $Lexicon->{'n s \''}[8]{'glosses'} = $Lexicon->{'n s w'}[4]{'glosses'};
 $Lexicon->{'n s \''}[9]{'types'} = $Lexicon->{'n s w'}[5]{'types'};
 $Lexicon->{'n s \''}[9]{'lines'} = $Lexicon->{'n s w'}[5]{'lines'};
 $Lexicon->{'n s \''}[9]{'glosses'} = $Lexicon->{'n s w'}[5]{'glosses'};
+$Lexicon->{'n s \''}[10]{'types'} = $Lexicon->{'n s s'}[0]{'types'};
+$Lexicon->{'n s \''}[10]{'lines'} = $Lexicon->{'n s s'}[0]{'lines'};
+$Lexicon->{'n s \''}[10]{'glosses'} = $Lexicon->{'n s s'}[0]{'glosses'};
 $Lexicon->{'n q q'}[5]{'types'} = $Lexicon->{'n q w'}[0]{'types'};
 $Lexicon->{'n q q'}[5]{'lines'} = $Lexicon->{'n q w'}[0]{'lines'};
 $Lexicon->{'n q q'}[5]{'glosses'} = $Lexicon->{'n q w'}[0]{'glosses'};

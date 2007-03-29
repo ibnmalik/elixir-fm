@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> ".h ' .t" <| [
@@ -52,7 +52,7 @@ lexicon = listing "Lexicon properties"
     -- HDD     HoDuD   IV_C    incite;prod
 
     FaCL                      `verb`       {- HaD~-u -}         [ "incite", "prod" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".ha.da.d PV_C", ".hu.d.d IV_V", ".h.du.d IV_C" ] -},
 
     -- ;; HaD~_1
@@ -86,7 +86,7 @@ lexicon = listing "Lexicon properties"
     -- HDr     HoDur   IV_intr attend;appear
 
     FaCaL                     `verb`       {- HaDar-u -}        [ "attend", "appear" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".h.dur IV_intr" ] -},
 
     -- ;; HaD~ar_1
@@ -243,7 +243,8 @@ lexicon = listing "Lexicon properties"
     -- HSd     HoSud   IV      harvest;mow
 
     FaCaL                     `verb`       {- HaSad-iu -}       [ "harvest", "mow" ]
-                              `imperf` [ FCiL, FCuL ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL
                               {- `others` [ ".h.sud IV", ".h.sid IV" ] -},
 
     -- ;; HiSAd_1
@@ -258,7 +259,7 @@ lexicon = listing "Lexicon properties"
     -- HSl     HoSul   IV_intr obtain;acquire;get
 
     FaCaL                     `verb`       {- HaSal-u -}        [ "obtain", "acquire", "get" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".h.sul IV_intr" ] -},
 
     -- ;; HaSal-u_2
@@ -266,7 +267,7 @@ lexicon = listing "Lexicon properties"
     -- HSl     HoSul   IV_intr occur;happen;take place
 
     FaCaL                     `verb`       {- HaSal-u -}        [ "occur", "happen", "take place" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".h.sul IV_intr" ] -},
 
     -- ;; taHaS~al_1
@@ -393,7 +394,8 @@ lexicon = listing "Lexicon properties"
     -- HSr     HoSur   IV      surround;blockade
 
     FaCaL                     `verb`       {- HaSar-iu -}       [ "surround", "blockade" ]
-                              `imperf` [ FCiL, FCuL ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL
                               {- `others` [ ".h.sir IV", ".h.sur IV" ] -},
 
     -- ;; HASar_1
@@ -513,7 +515,7 @@ lexicon = listing "Lexicon properties"
     -- HTT     HoTuT   IV_C_intr       descend;land
 
     FaCL                      `verb`       {- HaT~-u -}         [ "descend", "land" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".hu.t.t IV_V_intr", ".h.tu.t IV_C_intr", ".ha.ta.t PV_C_intr" ] -},
 
     -- ;; HaT~-u_2
@@ -523,7 +525,7 @@ lexicon = listing "Lexicon properties"
     -- HTT     HoTuT   IV_C    set down;lower
 
     FaCL                      `verb`       {- HaT~-u -}         [ "set down", "lower" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".hu.t.t IV_V", ".h.tu.t IV_C", ".ha.ta.t PV_C" ] -},
 
     -- ;; HaT~_1
@@ -555,7 +557,7 @@ lexicon = listing "Lexicon properties"
     -- HTm     HoTim   IV      smash;demolish
 
     FaCaL                     `verb`       {- HaTam-i -}        [ "smash", "demolish" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".h.tim IV" ] -},
 
     -- ;; HaT~am_1
@@ -614,7 +616,7 @@ lexicon = listing "Lexicon properties"
     -- HZr     HoZur   IV      prohibit;fence in
 
     FaCaL                     `verb`       {- HaZar-u -}        [ "prohibit", "fence in" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".h.zur IV" ] -},
 
     -- ;; HaZor_1
@@ -638,7 +640,7 @@ lexicon = listing "Lexicon properties"
     -- HZ      HoZa    IV_0hwnyn       enjoy;gain
 
     FaCiL                     `verb`       {- HaZiy-a -}        [ "enjoy", "gain" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".h.zay IV_Ann", ".h.zY IV_0" ] -} ]
 
  |> ".h ^g ^g" <| [
@@ -786,7 +788,8 @@ lexicon = listing "Lexicon properties"
     -- Hjz     Hojiz   IV      retain;reserve
 
     FaCaL                     `verb`       {- Hajaz-ui -}       [ "retain", "reserve" ]
-                              `imperf` [ FCuL, FCiL ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL
                               {- `others` [ ".h^giz IV", ".h^guz IV" ] -},
 
     -- ;; Hajaz-ui_2
@@ -795,7 +798,8 @@ lexicon = listing "Lexicon properties"
     -- Hjz     Hojiz   IV      restrain;block
 
     FaCaL                     `verb`       {- Hajaz-ui -}       [ "restrain", "block" ]
-                              `imperf` [ FCuL, FCiL ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL
                               {- `others` [ ".h^giz IV", ".h^guz IV" ] -},
 
     -- ;; Hajoz_1
@@ -838,7 +842,8 @@ lexicon = listing "Lexicon properties"
     -- H$d     Ho$ud   IV      gather;mobilize
 
     FaCaL                     `verb`       {- Ha$ad-iu -}       [ "gather", "mobilize" ]
-                              `imperf` [ FCiL, FCuL ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL
                               {- `others` [ ".h^sud IV", ".h^sid IV" ] -},
 
     -- ;; Ha$od_1
@@ -864,7 +869,8 @@ lexicon = listing "Lexicon properties"
     -- H$r     Ho$ur   IV      assemble;crowd;stuff
 
     FaCaL                     `verb`       {- Ha$ar-iu -}       [ "assemble", "crowd", "stuff" ]
-                              `imperf` [ FCiL, FCuL ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL
                               {- `others` [ ".h^sir IV", ".h^sur IV" ] -},
 
     -- ;; Ha$ariy~_1
@@ -995,7 +1001,7 @@ lexicon = listing "Lexicon properties"
     -- Hvv     Hovuv   IV_C    urge;incite
 
     FaCL                      `verb`       {- Hav~-u -}         [ "urge", "incite" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".hu_t_t IV_V", ".ha_ta_t PV_C", ".h_tu_t IV_C" ] -},
 
     -- ;; Haviyv_1
@@ -1158,7 +1164,7 @@ lexicon = listing "Lexicon properties"
     -- Hdv     Hoduv   IV      happen;take place
 
     FaCaL                     `verb`       {- Hadav-u -}        [ "happen", "take place" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".hdu_t IV" ] -},
 
     -- ;; >aHodav_1
@@ -1201,7 +1207,8 @@ lexicon = listing "Lexicon properties"
 
     FaCIL                     `noun`       {- Hadiyv -}         [ "new", "recent", "modern", "recently", "lately" ]
                               `plural`     FiCAL
-                              {- `others` [ ".hidA_t N" ] -},
+                              `plural`     FuCaLA'
+                              {- `others` [ ".hidA_t N", ".huda_tA' Nh N0_Nh Nhy" ] -},
 
     -- ;; Hadiyv_2
     -- Hdyv    Hadiyv  Ndu     discussion;talk;interview
@@ -1299,7 +1306,9 @@ lexicon = listing "Lexicon properties"
     -- HdbA&   HadobA& Nh      hunchbacked
     -- HdbA}   HadobA} Nhy     hunchbacked
 
-    HaFCaL                    `noun`       {- OaHodab -}        [ "hunchbacked" ] ]
+    HaFCaL                    `noun`       {- OaHodab -}        [ "hunchbacked" ]
+                              `plural`     FaCLA'
+                              {- `others` [ ".hadbA' Nh N0_Nh Nhy" ] -} ]
 
  |> ".h d d" <| [
 
@@ -1310,7 +1319,7 @@ lexicon = listing "Lexicon properties"
     -- Hdd     Hodud   IV_C    delimit;halt
 
     FaCL                      `verb`       {- Had~-u -}         [ "delimit", "halt" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".hdud IV_C", ".hadad PV_C", ".hudd IV_V" ] -},
 
     -- ;; Had~ad_1
@@ -1467,7 +1476,7 @@ lexicon = listing "Lexicon properties"
     -- Hdy     Hoday   IV_Ann_Pass_yu  be spurred on;be instigated
 
     FaCA                      `verb`       {- HadA-u -}         [ "spur on", "instigate", "be spurred on", "be instigated" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".hadaw PV_Atn", ".hduw IV_0hAnn", ".hdY IV_0_Pass_yu" ] -},
 
     -- ;; taHad~aY_1
@@ -1511,7 +1520,7 @@ lexicon = listing "Lexicon properties"
     -- HfZ     HofaZ   IV      preserve;protect;maintain
 
     FaCiL                     `verb`       {- HafiZ-a -}        [ "preserve", "protect", "maintain" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".hfa.z IV" ] -},
 
     -- ;; HAfaZ_1
@@ -1627,7 +1636,7 @@ lexicon = listing "Lexicon properties"
     -- Hfl     Hofil   IV      gather;abound;be concerned
 
     FaCaL                     `verb`       {- Hafal-i -}        [ "gather", "abound", "be concerned" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".hfil IV" ] -},
 
     -- ;; Hafol_1
@@ -1674,7 +1683,7 @@ lexicon = listing "Lexicon properties"
     -- Hfr     Hofir   IV      dig;excavate
 
     FaCaL                     `verb`       {- Hafar-i -}        [ "dig", "excavate" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".hfir IV" ] -},
 
     -- ;; Hafor_1
@@ -1704,7 +1713,7 @@ lexicon = listing "Lexicon properties"
     -- Hfz     Hofiz   IV      stab;incite
 
     FaCaL                     `verb`       {- Hafaz-i -}        [ "stab", "incite" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".hfiz IV" ] -},
 
     -- ;; HAfiz_1
@@ -1729,7 +1738,7 @@ lexicon = listing "Lexicon properties"
     -- Hkm     Hokum   IV      judge;sentence
 
     FaCaL                     `verb`       {- Hakam-u -}        [ "judge", "sentence" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".hkum IV" ] -},
 
     -- ;; Hakam-u_2
@@ -1737,7 +1746,7 @@ lexicon = listing "Lexicon properties"
     -- Hkm     Hokum   IV      rule;govern
 
     FaCaL                     `verb`       {- Hakam-u -}        [ "rule", "govern" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".hkum IV" ] -},
 
     -- ;; HAkam_1
@@ -1805,7 +1814,9 @@ lexicon = listing "Lexicon properties"
     -- HkmA&   HukamA& Nh      wise;sage     [[HukamA&/ADJ]]
     -- HkmA}   HukamA} Nhy     wise;sage     [[HukamA}/ADJ]]
 
-    FaCIL                     `noun`       {- Hakiym -}         [ "wise", "sage" ],
+    FaCIL                     `noun`       {- Hakiym -}         [ "wise", "sage" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ ".hukamA' Nh N0_Nh Nhy" ] -},
 
     -- ;; Hakiym_3
     -- Hkym    Hakiym  N/ap    physician
@@ -1813,7 +1824,9 @@ lexicon = listing "Lexicon properties"
     -- HkmA&   HukamA& Nh      physicians
     -- HkmA}   HukamA} Nhy     physicians
 
-    FaCIL                     `noun`       {- Hakiym -}         [ "physician", "physicians" ],
+    FaCIL                     `noun`       {- Hakiym -}         [ "physician", "physicians" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ ".hukamA' Nh N0_Nh Nhy" ] -},
 
     -- ;; Hukuwmap_1
     -- Hkwm    Hukuwm  Napdu   government;administration
@@ -1917,7 +1930,7 @@ lexicon = listing "Lexicon properties"
     -- HkY     HokaY   IV_0    relate;report
 
     FaCY                      `verb`       {- HakaY-i -}        [ "relate", "report" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".hakay PV_Atn", ".hkY IV_0", ".hakA PV_h", ".hkiy IV_0hAnn" ] -},
 
     -- ;; HikAyap_1
@@ -1993,7 +2006,9 @@ lexicon = listing "Lexicon properties"
     -- HlfA&   HulafA& Nh      allies
     -- HlfA}   HulafA} Nhy     allies
 
-    FaCIL                     `noun`       {- Haliyf -}         [ "ally", "allied", "confederate", "allies" ],
+    FaCIL                     `noun`       {- Haliyf -}         [ "ally", "allied", "confederate", "allies" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ ".hulafA' Nh N0_Nh Nhy" ] -},
 
     -- ;; taHAluf_1
     -- tHAlf   taHAluf NduAt   alliance
@@ -2019,7 +2034,7 @@ lexicon = listing "Lexicon properties"
     -- Hll     Holul   IV_C    dissolve;untie
 
     FaCL                      `verb`       {- Hal~-u -}         [ "dissolve", "untie" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".hlul IV_C", ".hull IV_V", ".halal PV_C" ] -},
 
     -- ;; Hal~-i_1
@@ -2029,7 +2044,7 @@ lexicon = listing "Lexicon properties"
     -- Hll     Holil   IV_C_intr       begin;arrive
 
     FaCL                      `verb`       {- Hal~-i -}         [ "begin", "arrive" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".hill IV_V_intr", ".halal PV_C_intr", ".hlil IV_C_intr" ] -},
 
     -- ;; >aHal~_1
@@ -2134,7 +2149,7 @@ lexicon = listing "Lexicon properties"
     -- Hlm     Holum   IV      dream
 
     FaCaL                     `verb`       {- Halam-u -}        [ "dream" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".hlum IV" ] -},
 
     -- ;; Halum-u_1
@@ -2142,7 +2157,7 @@ lexicon = listing "Lexicon properties"
     -- Hlm     Holum   IV_intr be gentle
 
     FaCuL                     `verb`       {- Halum-u -}        [ "be gentle" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".hlum IV_intr" ] -},
 
     -- ;; Hulom_1
@@ -2171,7 +2186,7 @@ lexicon = listing "Lexicon properties"
     -- Hlq     Holiq   IV      shave
 
     FaCaL                     `verb`       {- Halaq-i -}        [ "shave" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".hliq IV" ] -},
 
     -- ;; Hal~aq_1
@@ -2219,7 +2234,7 @@ lexicon = listing "Lexicon properties"
     -- HlY     HolaY   IV_0    be sweet;be pleasant
 
     FaCuL                     `verb`       {- Haluw-u -}        [ "be sweet", "be pleasant" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".hluw IV_0hAnn", ".hlY IV_0", ".halaw PV_Atn", ".halA PV_0" ] -},
 
     -- ;; Hulow_1
@@ -2430,7 +2445,7 @@ lexicon = listing "Lexicon properties"
     -- Hml     Homil   IV      carry;bear;transport
 
     FaCaL                     `verb`       {- Hamal-i -}        [ "carry", "bear", "transport" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".hmil IV" ] -},
 
     -- ;; Ham~al_1
@@ -2580,7 +2595,9 @@ lexicon = listing "Lexicon properties"
     -- HmrA&   HamorA& Nh      red
     -- HmrA}   HamorA} Nhy     red
 
-    HaFCaL                    `noun`       {- OaHomar -}        [ "red" ],
+    HaFCaL                    `noun`       {- OaHomar -}        [ "red" ]
+                              `plural`     FaCLA'
+                              {- `others` [ ".hamrA' Nh N0_Nh Nhy" ] -},
 
     -- ;; >aHomar_2
     -- >Hmr    >aHomar N0      Red
@@ -2592,7 +2609,8 @@ lexicon = listing "Lexicon properties"
 
     HaFCaL                    `noun`       {- OaHomar -}        [ "Red", "Alhambra", "reds", "redskins" ]
                               `plural`     FuCuL
-                              {- `others` [ ".humur N" ] -} ]
+                              `plural`     FaCLA'
+                              {- `others` [ ".humur N", ".hamrA' Nh N0_Nh Nhy" ] -} ]
 
  |> ".h m s" <| [
 
@@ -2639,7 +2657,7 @@ lexicon = listing "Lexicon properties"
     -- HmY     HomaY   IV_0    defend;protect;forbid
 
     FaCY                      `verb`       {- HamaY-i -}        [ "defend", "protect", "forbid" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".hmY IV_0", ".hamA PV_h", ".hmiy IV_0hAnn", ".hamay PV_Atn" ] -},
 
     -- ;; HimAyap_1
@@ -2832,7 +2850,8 @@ lexicon = listing "Lexicon properties"
     -- Hqq     Hoquq   IV_C_intr       be correct;be right
 
     FaCL                      `verb`       {- Haq~-iu -}        [ "be correct", "be right" ]
-                              `imperf` [ FCiL, FCuL ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL
                               {- `others` [ ".haqaq PV_C_intr", ".hqiq IV_C_intr", ".hquq IV_C_intr", ".huqq IV_V_intr", ".hiqq IV_V_intr" ] -},
 
     -- ;; Haq~aq_1
@@ -2979,7 +2998,7 @@ lexicon = listing "Lexicon properties"
     -- HrS     HoriS   IV      desire;be eager
 
     FaCaL                     `verb`       {- HaraS-i -}        [ "desire", "be eager" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".hri.s IV" ] -},
 
     -- ;; HariS-a_1
@@ -2987,7 +3006,7 @@ lexicon = listing "Lexicon properties"
     -- HrS     HoraS   IV      desire;be eager
 
     FaCiL                     `verb`       {- HariS-a -}        [ "desire", "be eager" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".hra.s IV" ] -},
 
     -- ;; HiroS_1
@@ -3125,7 +3144,9 @@ lexicon = listing "Lexicon properties"
     -- HrfA&   HurafA& Nh      customers
     -- HrfA}   HurafA} Nhy     customers
 
-    FaCIL                     `noun`       {- Hariyf -}         [ "customer", "customers" ],
+    FaCIL                     `noun`       {- Hariyf -}         [ "customer", "customers" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ ".hurafA' Nh N0_Nh Nhy" ] -},
 
     -- ;; taHoriyf_1
     -- tHryf   taHoriyf        NduAt   distortion;corruption
@@ -3202,7 +3223,7 @@ lexicon = listing "Lexicon properties"
     -- Hrm     Horam   IV_intr be forbidden
 
     FaCiL                     `verb`       {- Harim-a -}        [ "be forbidden" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".hram IV_intr" ] -},
 
     -- ;; Haram-iu_1
@@ -3211,7 +3232,8 @@ lexicon = listing "Lexicon properties"
     -- Hrm     Horum   IV      forbid;deprive
 
     FaCaL                     `verb`       {- Haram-iu -}       [ "forbid", "deprive" ]
-                              `imperf` [ FCiL, FCuL ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL
                               {- `others` [ ".hrim IV", ".hrum IV" ] -},
 
     -- ;; Har~am_1
@@ -3280,7 +3302,7 @@ lexicon = listing "Lexicon properties"
     -- Hrq     Horiq   IV      burn;hurt
 
     FaCaL                     `verb`       {- Haraq-i -}        [ "burn", "hurt" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".hriq IV" ] -},
 
     -- ;; >aHoraq_1
@@ -3445,7 +3467,7 @@ lexicon = listing "Lexicon properties"
     -- Hrs     Horus   IV      safeguard;supervise
 
     FaCaL                     `verb`       {- Haras-u -}        [ "safeguard", "supervise" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".hrus IV" ] -},
 
     -- ;; taHar~as_1
@@ -3545,7 +3567,7 @@ lexicon = listing "Lexicon properties"
     -- Hsb     Hosub   IV      compute;charge
 
     FaCaL                     `verb`       {- Hasab-u -}        [ "compute", "charge" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".hsub IV" ] -},
 
     -- ;; Hasib-i_1
@@ -3553,7 +3575,7 @@ lexicon = listing "Lexicon properties"
     -- Hsb     Hosib   IV      regard;consider
 
     FaCiL                     `verb`       {- Hasib-i -}        [ "regard", "consider" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".hsib IV" ] -},
 
     -- ;; HAsab_1
@@ -3591,7 +3613,9 @@ lexicon = listing "Lexicon properties"
     -- HsbA&   HusabA& Nh      respected;noble
     -- HsbA}   HusabA} Nhy     respected;noble
 
-    FaCIL                     `noun`       {- Hasiyb -}         [ "respected", "noble" ],
+    FaCIL                     `noun`       {- Hasiyb -}         [ "respected", "noble" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ ".husabA' Nh N0_Nh Nhy" ] -},
 
     -- ;; HusobAn_1
     -- HsbAn   HusobAn N       calculation;consideration
@@ -3661,7 +3685,7 @@ lexicon = listing "Lexicon properties"
     -- Hsm     Hosim   IV      cut off;finish;discount
 
     FaCaL                     `verb`       {- Hasam-i -}        [ "cut off", "finish", "discount" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".hsim IV" ] -},
 
     -- ;; Hasom_1
@@ -3746,8 +3770,9 @@ lexicon = listing "Lexicon properties"
     -- Hsny    Husonay NAt     best;beauties
 
     HaFCaL                    `noun`       {- OaHosan -}        [ "better/best", "beauty", "belle", "best", "beauties" ]
+                              `plural`     FaCLA'
                               `plural`     FuCLY
-                              {- `others` [ ".husnY N0" ] -},
+                              {- `others` [ ".hasnA' Nh N0_Nh Nhy", ".husnY N0" ] -},
 
     -- ;; maHAsin_1
     -- mHAsn   maHAsin Ndip    merits;good qualities
@@ -3863,7 +3888,7 @@ lexicon = listing "Lexicon properties"
     -- Htm     Hotim   IV      prescribe;decide;impose
 
     FaCaL                     `verb`       {- Hatam-i -}        [ "prescribe", "decide", "impose" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".htim IV" ] -},
 
     -- ;; Hat~am_1
@@ -4037,7 +4062,7 @@ lexicon = listing "Lexicon properties"
     -- Hk      Huk     IV_C    contrive;fabricate
 
     FAL                       `verb`       {- HAk-u -}          [ "contrive", "fabricate" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".huwk IV_V" ] -} ]
 
  |> ".h w l" <| [
@@ -4049,7 +4074,7 @@ lexicon = listing "Lexicon properties"
     -- Hl      Hul     IV_C    prevent
 
     FAL                       `verb`       {- HAl-u -}          [ "prevent" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".huwl IV_V" ] -},
 
     -- ;; Haw~al_1
@@ -4174,7 +4199,9 @@ lexicon = listing "Lexicon properties"
     -- HwlA&   HawolA& Nh      squinting;cross-eyed
     -- HwlA}   HawolA} Nhy     squinting;cross-eyed
 
-    HaFCaL                    `noun`       {- OaHowal -}        [ "squinting", "cross-eyed" ],
+    HaFCaL                    `noun`       {- OaHowal -}        [ "squinting", "cross-eyed" ]
+                              `plural`     FaCLA'
+                              {- `others` [ ".hawlA' Nh N0_Nh Nhy" ] -},
 
     -- ;; HiwAl_1
     -- HwAl    HiwAl   N       obstacle;partition
@@ -4190,7 +4217,7 @@ lexicon = listing "Lexicon properties"
     -- Hm      Hum     IV_C    hover;circle;glide
 
     FAL                       `verb`       {- HAm-u -}          [ "hover", "circle", "glide" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".huwm IV_V" ] -},
 
     -- ;; Haw~am_1
@@ -4265,7 +4292,7 @@ lexicon = listing "Lexicon properties"
     -- HwY     HowaY   IV_0    gather;encompass;clasp
 
     FaCY                      `verb`       {- HawaY-i -}        [ "gather", "encompass", "clasp" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".hawA PV_h", ".hwY IV_0", ".haway PV_Atn", ".hwiy IV_0hAnn" ] -},
 
     -- ;; HAwiy_1
@@ -4297,7 +4324,7 @@ lexicon = listing "Lexicon properties"
     -- Hz      Huz     IV_C    possess;attain
 
     FAL                       `verb`       {- HAz-u -}          [ "possess", "attain" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".huwz IV_V" ] -},
 
     -- ;; Hawoz_2
@@ -4423,7 +4450,7 @@ lexicon = listing "Lexicon properties"
     -- Hn      Hin     IV_C    arrive;approach
 
     FAL                       `verb`       {- HAn-i -}          [ "arrive", "approach" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".hiyn IV_V" ] -},
 
     -- ;; Hiyn_1
@@ -4480,7 +4507,7 @@ lexicon = listing "Lexicon properties"
     -- Hy      Hoya    IV_0hwnyn       live;experience;witness
 
     FaCL                      `verb`       {- Hay~-a -}         [ "live", "experience", "witness" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".hyay IV_Ann", ".hyY IV_0", ".hayiy PV_no-w" ] -},
 
     -- ;; Hay~_2
@@ -4646,7 +4673,7 @@ lexicon = listing "Lexicon properties"
     -- Hzn     Hozun   IV-n    sadden;grieve
 
     FaCaL                     `verb`       {- Hazan-u -}        [ "sadden", "grieve" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".hzun IV-n" ] -},
 
     -- ;; Huzon_1

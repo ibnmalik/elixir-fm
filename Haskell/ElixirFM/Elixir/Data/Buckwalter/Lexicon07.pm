@@ -6,33 +6,6 @@ package Elixir::Data::Buckwalter::Lexicon07;
 
 
 $Lexicon = {
-  '_h .s ' => [
-    {
-      'types' => {
-        '\'i_h.sA\'iyy' => {
-          'Nall' => 2
-        }
-      },
-      'entry' => '\'i_h.sA\'',
-      'form' => '\'i_h.sA\'iyy',
-      'lines' => [
-        ';; <ixoSA}iy~_1',
-        '<xSA}y  <ixoSA}iy~      Nall    specialist;expert     [[<ixoSA}iy~/ADJ]]',
-        'AxSA}y  <ixoSA}iy~      Nall    specialist;expert     [[<ixoSA}iy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HiFCA\' |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'specialist',
-        'expert'
-      ],
-      'orig' => 'IixoSA}iy~',
-      'prefix' => ''
-    }
-  ],
   '_h r r' => [
     {
       'types' => {
@@ -315,7 +288,11 @@ $Lexicon = {
         'xf$A&   xafo$A& Nh      day blind;weak-sighted',
         'xf$A}   xafo$A} Nhy     day blind;weak-sighted'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_haf^sA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -1431,7 +1408,11 @@ $Lexicon = {
         'xnA&    xan~A&  Nh      twanging',
         'xnA}    xan~A}  Nhy     twanging'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hannA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFaCL',
@@ -1710,6 +1691,9 @@ $Lexicon = {
         ],
         '_hursAn' => [
           'FuCLAn'
+        ],
+        '_harsA\'' => [
+          'FaCLA\''
         ]
       },
       'index' => '3',
@@ -2986,7 +2970,11 @@ $Lexicon = {
         'xlqA&   xulaqA& Nh      qualified;suitable;adequate',
         'xlqA}   xulaqA} Nhy     qualified;suitable;adequate'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hulaqA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -5609,7 +5597,11 @@ $Lexicon = {
         'xfrA&   xufarA& Nh      guards;protectors',
         'xfrA}   xufarA} Nhy     guards;protectors'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hufarA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -8020,7 +8012,11 @@ $Lexicon = {
         'xlEA&   xulaEA& Nh      deposed;repudiated;dissolute',
         'xlEA}   xulaEA} Nhy     deposed;repudiated;dissolute'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hula`A\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -9453,6 +9449,9 @@ $Lexicon = {
         'x$n     xu$un   N       rough;rude'
       ],
       'patterns' => {
+        '_ha^snA\'' => [
+          'FaCLA\''
+        ],
         '_hu^sun' => [
           'FuCuL'
         ]
@@ -13790,7 +13789,11 @@ $Lexicon = {
         'xbvA&   xubavA& Nh      malicious',
         'xbvA}   xubavA} Nhy     malicious'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_huba_tA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -14153,6 +14156,9 @@ $Lexicon = {
         'xrq     xuroq   N       clumsy;foolish'
       ],
       'patterns' => {
+        '_harqA\'' => [
+          'FaCLA\''
+        ],
         '_hurq' => [
           'FuCL'
         ]
@@ -16693,6 +16699,9 @@ $Lexicon = {
         'xylA}   xuyalA} Nhy     conceit;arrogance'
       ],
       'patterns' => {
+        '_huyalA\'' => [
+          'FuCaLA\''
+        ],
         '_hiyl' => [
           'FIL',
           'FiCL'
@@ -17572,6 +17581,9 @@ $Lexicon = {
       'patterns' => {
         '_hu.smAn' => [
           'FuCLAn'
+        ],
+        '_hu.samA\'' => [
+          'FuCaLA\''
         ]
       },
       'index' => '1',
@@ -18155,6 +18167,31 @@ $Lexicon = {
         'apportionment'
       ],
       'orig' => 'taxoSiyS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'i_h.sA\'iyy' => {
+          'Nall' => 2
+        }
+      },
+      'entry' => '\'i_h.sA\'',
+      'form' => '\'i_h.sA\'iyy',
+      'lines' => [
+        ';; <ixoSA}iy~_1',
+        '<xSA}y  <ixoSA}iy~      Nall    specialist;expert     [[<ixoSA}iy~/ADJ]]',
+        'AxSA}y  <ixoSA}iy~      Nall    specialist;expert     [[<ixoSA}iy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'specialist',
+        'expert'
+      ],
+      'orig' => 'IixoSA}iy~',
       'prefix' => ''
     },
     {
@@ -24165,7 +24202,11 @@ $Lexicon = {
         'xDrA&   xaDorA& Nh      green',
         'xDrA}   xaDorA} Nhy     green'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_ha.drA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -24594,6 +24635,9 @@ $Lexicon = {
         'xns     xunus   N       pug-nosed'
       ],
       'patterns' => {
+        '_hansA\'' => [
+          'FaCLA\''
+        ],
         '_hunus' => [
           'FuCuL'
         ]
@@ -24606,6 +24650,29 @@ $Lexicon = {
         'pug-nosed'
       ],
       'orig' => 'Oaxonas',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hansA\'' => {
+          'N0' => 1
+        }
+      },
+      'entry' => '_hansA\'',
+      'form' => '_hansA\'',
+      'lines' => [
+        ';; xanosA\'_1',
+        'xnsA\'   xanosA\' N0      Khansa'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'Khansa'
+      ],
+      'orig' => 'xanosA\'',
       'prefix' => ''
     }
   ],
@@ -25319,31 +25386,6 @@ $Lexicon = {
         'leverets'
       ],
       'orig' => 'xironiq',
-      'prefix' => ''
-    }
-  ],
-  '_h n s \'' => [
-    {
-      'types' => {
-        '_hansA\'' => {
-          'N0' => 1
-        }
-      },
-      'entry' => '_hansA\'',
-      'form' => '_hansA\'',
-      'lines' => [
-        ';; xanosA\'_1',
-        'xnsA\'   xanosA\' N0      Khansa'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'Khansa'
-      ],
-      'orig' => 'xanosA\'',
       'prefix' => ''
     }
   ],
@@ -32348,7 +32390,11 @@ $Lexicon = {
         'xlTA&   xulaTA& Nh      associates;companions',
         'xlTA}   xulaTA} Nhy     associates;companions'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hula.tA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -34628,7 +34674,11 @@ $Lexicon = {
         'xlfA}   xulafA} Nhy     deputies;caliphs',
         'xlA}f   xalA}if Ndip    deputies'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hulafA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL |< aT',
@@ -39257,7 +39307,11 @@ $Lexicon = {
         'xbrA&   xubarA& Nh      experts;specialists',
         'xbrA}   xubarA} Nhy     experts;specialists'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hubarA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -41299,18 +41353,18 @@ $Lexicon->{'_h t l'}[8]{'glosses'} = $Lexicon->{'_h l l'}[17]{'glosses'};
 $Lexicon->{'_h .s .s'}[3]{'types'} = $Lexicon->{'_h t .s'}[0]{'types'};
 $Lexicon->{'_h .s .s'}[3]{'lines'} = $Lexicon->{'_h t .s'}[0]{'lines'};
 $Lexicon->{'_h .s .s'}[3]{'glosses'} = $Lexicon->{'_h t .s'}[0]{'glosses'};
-$Lexicon->{'_h .s .s'}[17]{'types'} = $Lexicon->{'_h t .s'}[1]{'types'};
-$Lexicon->{'_h .s .s'}[17]{'lines'} = $Lexicon->{'_h t .s'}[1]{'lines'};
-$Lexicon->{'_h .s .s'}[17]{'glosses'} = $Lexicon->{'_h t .s'}[1]{'glosses'};
-$Lexicon->{'_h .s .s'}[18]{'types'} = $Lexicon->{'_h t .s'}[2]{'types'};
-$Lexicon->{'_h .s .s'}[18]{'lines'} = $Lexicon->{'_h t .s'}[2]{'lines'};
-$Lexicon->{'_h .s .s'}[18]{'glosses'} = $Lexicon->{'_h t .s'}[2]{'glosses'};
-$Lexicon->{'_h .s .s'}[27]{'types'} = $Lexicon->{'_h t .s'}[3]{'types'};
-$Lexicon->{'_h .s .s'}[27]{'lines'} = $Lexicon->{'_h t .s'}[3]{'lines'};
-$Lexicon->{'_h .s .s'}[27]{'glosses'} = $Lexicon->{'_h t .s'}[3]{'glosses'};
-$Lexicon->{'_h .s \''}[0]{'types'} = $Lexicon->{'_h .s '}[0]{'types'};
-$Lexicon->{'_h .s \''}[0]{'lines'} = $Lexicon->{'_h .s '}[0]{'lines'};
-$Lexicon->{'_h .s \''}[0]{'glosses'} = $Lexicon->{'_h .s '}[0]{'glosses'};
+$Lexicon->{'_h .s .s'}[18]{'types'} = $Lexicon->{'_h t .s'}[1]{'types'};
+$Lexicon->{'_h .s .s'}[18]{'lines'} = $Lexicon->{'_h t .s'}[1]{'lines'};
+$Lexicon->{'_h .s .s'}[18]{'glosses'} = $Lexicon->{'_h t .s'}[1]{'glosses'};
+$Lexicon->{'_h .s .s'}[19]{'types'} = $Lexicon->{'_h t .s'}[2]{'types'};
+$Lexicon->{'_h .s .s'}[19]{'lines'} = $Lexicon->{'_h t .s'}[2]{'lines'};
+$Lexicon->{'_h .s .s'}[19]{'glosses'} = $Lexicon->{'_h t .s'}[2]{'glosses'};
+$Lexicon->{'_h .s .s'}[28]{'types'} = $Lexicon->{'_h t .s'}[3]{'types'};
+$Lexicon->{'_h .s .s'}[28]{'lines'} = $Lexicon->{'_h t .s'}[3]{'lines'};
+$Lexicon->{'_h .s .s'}[28]{'glosses'} = $Lexicon->{'_h t .s'}[3]{'glosses'};
+$Lexicon->{'_h .s \''}[0]{'types'} = $Lexicon->{'_h .s .s'}[15]{'types'};
+$Lexicon->{'_h .s \''}[0]{'lines'} = $Lexicon->{'_h .s .s'}[15]{'lines'};
+$Lexicon->{'_h .s \''}[0]{'glosses'} = $Lexicon->{'_h .s .s'}[15]{'glosses'};
 $Lexicon->{'_h \' .t'}[0]{'types'} = $Lexicon->{'_h y .t'}[9]{'types'};
 $Lexicon->{'_h \' .t'}[0]{'lines'} = $Lexicon->{'_h y .t'}[9]{'lines'};
 $Lexicon->{'_h \' .t'}[0]{'glosses'} = $Lexicon->{'_h y .t'}[9]{'glosses'};

@@ -1247,6 +1247,9 @@ $Lexicon = {
         'D&lA}   Du&alA} Nhy     small;meager;sparse'
       ],
       'patterns' => {
+        '.du\'alA\'' => [
+          'FuCaLA\''
+        ],
         '.di\'Al' => [
           'FiCAL'
         ]
@@ -3631,6 +3634,9 @@ $Lexicon = {
         'DmnA}   DumanA} Nhy     guarantors;responsible;liable'
       ],
       'patterns' => {
+        '.dumanA\'' => [
+          'FuCaLA\''
+        ],
         '.damiyn' => [
           'FaCIL'
         ]
@@ -7739,6 +7745,9 @@ $Lexicon = {
         'DbT     DuboT   N       ambidextrous'
       ],
       'patterns' => {
+        '.dab.tA\'' => [
+          'FaCLA\''
+        ],
         '.dub.t' => [
           'FuCL'
         ]
@@ -9476,6 +9485,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '.darrA\'',
+      'form' => '.darrA\'',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'Dar~A\'',
+      'prefix' => ''
+    },
+    {
       'types' => {
         '.daruwraT' => {
           'NapAt' => 1
@@ -9885,6 +9908,9 @@ $Lexicon = {
         ],
         '.da`fAn' => [
           'FaCLAn'
+        ],
+        '.du`afA\'' => [
+          'FuCaLA\''
         ],
         '.da`af' => [
           'FaCaL'
@@ -11939,6 +11965,34 @@ $Lexicon = {
   '.d w .d' => [
     {
       'types' => {
+        '.daw.dA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '.daw.dA\'',
+      'form' => '.daw.dA\'',
+      'lines' => [
+        ';; DawoDA\'_1',
+        'DwDA\'   DawoDA\' N0_Nh   tumult;noise',
+        'DwDA&   DawoDA& Nh      tumult;noise',
+        'DwDA}   DawoDA} Nhy     tumult;noise'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'tumult',
+        'noise'
+      ],
+      'orig' => 'DawoDA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '.daw.dY' => {
           'N0' => 1
         },
@@ -13650,36 +13704,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.d w .d \'' => [
-    {
-      'types' => {
-        '.daw.dA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '.daw.dA\'',
-      'form' => '.daw.dA\'',
-      'lines' => [
-        ';; DawoDA\'_1',
-        'DwDA\'   DawoDA\' N0_Nh   tumult;noise',
-        'DwDA&   DawoDA& Nh      tumult;noise',
-        'DwDA}   DawoDA} Nhy     tumult;noise'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'tumult',
-        'noise'
-      ],
-      'orig' => 'DawoDA\'',
-      'prefix' => ''
-    }
-  ],
   '.d h r' => [
     {
       'types' => {
@@ -15270,18 +15294,21 @@ $Lexicon->{'.d r y'}[0]{'glosses'} = $Lexicon->{'.d w r y'}[0]{'glosses'};
 $Lexicon->{'.d r r'}[4]{'types'} = $Lexicon->{'.d .t r'}[0]{'types'};
 $Lexicon->{'.d r r'}[4]{'lines'} = $Lexicon->{'.d .t r'}[0]{'lines'};
 $Lexicon->{'.d r r'}[4]{'glosses'} = $Lexicon->{'.d .t r'}[0]{'glosses'};
-$Lexicon->{'.d r r'}[16]{'types'} = $Lexicon->{'.d .t r'}[1]{'types'};
-$Lexicon->{'.d r r'}[16]{'lines'} = $Lexicon->{'.d .t r'}[1]{'lines'};
-$Lexicon->{'.d r r'}[16]{'glosses'} = $Lexicon->{'.d .t r'}[1]{'glosses'};
-$Lexicon->{'.d r r'}[17]{'types'} = $Lexicon->{'.d .t r'}[2]{'types'};
-$Lexicon->{'.d r r'}[17]{'lines'} = $Lexicon->{'.d .t r'}[2]{'lines'};
-$Lexicon->{'.d r r'}[17]{'glosses'} = $Lexicon->{'.d .t r'}[2]{'glosses'};
-$Lexicon->{'.d r r'}[19]{'types'} = $Lexicon->{'.d .t r'}[3]{'types'};
-$Lexicon->{'.d r r'}[19]{'lines'} = $Lexicon->{'.d .t r'}[3]{'lines'};
-$Lexicon->{'.d r r'}[19]{'glosses'} = $Lexicon->{'.d .t r'}[3]{'glosses'};
-$Lexicon->{'.d r r'}[21]{'types'} = $Lexicon->{'.d r b'}[34]{'types'};
-$Lexicon->{'.d r r'}[21]{'lines'} = $Lexicon->{'.d r b'}[34]{'lines'};
-$Lexicon->{'.d r r'}[21]{'glosses'} = $Lexicon->{'.d r b'}[34]{'glosses'};
+$Lexicon->{'.d r r'}[11]{'types'} = $Lexicon->{'.d r \''}[0]{'types'};
+$Lexicon->{'.d r r'}[11]{'lines'} = $Lexicon->{'.d r \''}[0]{'lines'};
+$Lexicon->{'.d r r'}[11]{'glosses'} = $Lexicon->{'.d r \''}[0]{'glosses'};
+$Lexicon->{'.d r r'}[17]{'types'} = $Lexicon->{'.d .t r'}[1]{'types'};
+$Lexicon->{'.d r r'}[17]{'lines'} = $Lexicon->{'.d .t r'}[1]{'lines'};
+$Lexicon->{'.d r r'}[17]{'glosses'} = $Lexicon->{'.d .t r'}[1]{'glosses'};
+$Lexicon->{'.d r r'}[18]{'types'} = $Lexicon->{'.d .t r'}[2]{'types'};
+$Lexicon->{'.d r r'}[18]{'lines'} = $Lexicon->{'.d .t r'}[2]{'lines'};
+$Lexicon->{'.d r r'}[18]{'glosses'} = $Lexicon->{'.d .t r'}[2]{'glosses'};
+$Lexicon->{'.d r r'}[20]{'types'} = $Lexicon->{'.d .t r'}[3]{'types'};
+$Lexicon->{'.d r r'}[20]{'lines'} = $Lexicon->{'.d .t r'}[3]{'lines'};
+$Lexicon->{'.d r r'}[20]{'glosses'} = $Lexicon->{'.d .t r'}[3]{'glosses'};
+$Lexicon->{'.d r r'}[22]{'types'} = $Lexicon->{'.d r b'}[34]{'types'};
+$Lexicon->{'.d r r'}[22]{'lines'} = $Lexicon->{'.d r b'}[34]{'lines'};
+$Lexicon->{'.d r r'}[22]{'glosses'} = $Lexicon->{'.d r b'}[34]{'glosses'};
 $Lexicon->{'.d f y'}[0]{'types'} = $Lexicon->{'.d f b'}[3]{'types'};
 $Lexicon->{'.d f y'}[0]{'lines'} = $Lexicon->{'.d f b'}[3]{'lines'};
 $Lexicon->{'.d f y'}[0]{'glosses'} = $Lexicon->{'.d f b'}[3]{'glosses'};

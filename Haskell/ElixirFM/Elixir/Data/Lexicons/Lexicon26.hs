@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> "h ' l" <| [
@@ -160,7 +160,7 @@ lexicon = listing "Lexicon properties"
     -- hjy     hojay   IV_Ann_Pass_yu  be ridiculed;be satirized
 
     FaCA                      `verb`       {- hajA-u -}         [ "ridicule", "satirize", "be ridiculed", "be satirized" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "h^gY IV_0_Pass_yu", "ha^gaw PV_Atn", "h^guw IV_0hAnn" ] -} ]
 
  |> "h ^s ^s" <| [
@@ -201,7 +201,8 @@ lexicon = listing "Lexicon properties"
     -- hbT     hobiT   IV      land;descend;fall
 
     FaCaL                     `verb`       {- habaT-ui -}       [ "land", "descend", "fall" ]
-                              `imperf` [ FCuL, FCiL ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL
                               {- `others` [ "hbu.t IV", "hbi.t IV" ] -},
 
     -- ;; hubuwT_1
@@ -226,7 +227,7 @@ lexicon = listing "Lexicon properties"
     -- hbb     hobub   IV_C    get up;set out;blow
 
     FaCL                      `verb`       {- hab~-u -}         [ "get up", "set out", "blow" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "habab PV_C", "hbub IV_C", "hubb IV_V" ] -},
 
     -- ;; >ahab~_1
@@ -249,7 +250,9 @@ lexicon = listing "Lexicon properties"
     -- ;; hubuwb_1
     -- hbwb    hubuwb  N       blowing
 
-    FuCUL                     `noun`       {- hubuwb -}         [ "blowing" ],
+    FuCUL                     `noun`       {- hubuwb -}         [ "blowing" ] ]
+
+ |> "h b y" <| [
 
     -- ;; huwbiy_1
     -- hwby    huwbiy  Nprop   Hobby
@@ -268,7 +271,7 @@ lexicon = listing "Lexicon properties"
     -- hd}     hoda}   IV_yn   calm down;subside
 
     FaCaL                     `verb`       {- hadaO-a -}        [ "calm down", "subside" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "hda' IV IV_wn IV_yn" ] -},
 
     -- ;; >ahoda>_1
@@ -343,7 +346,7 @@ lexicon = listing "Lexicon properties"
     -- hdd     hodud   IV_C    demolish;destroy
 
     FaCL                      `verb`       {- had~-u -}         [ "demolish", "destroy" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "hudd IV_V", "hadad PV_C", "hdud IV_C" ] -},
 
     -- ;; had~ad_1
@@ -388,7 +391,7 @@ lexicon = listing "Lexicon properties"
     -- hdf     hodaf   IV_Pass_yu      be intended;be aimed at
 
     FaCaL                     `verb`       {- hadaf-i -}        [ "aim", "intend", "be intended", "be aimed at" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "hdaf IV_Pass_yu", "hdif IV" ] -},
 
     -- ;; hadaf_1
@@ -437,7 +440,7 @@ lexicon = listing "Lexicon properties"
     -- hdm     hodim   IV      tear down;demolish
 
     FaCaL                     `verb`       {- hadam-i -}        [ "tear down", "demolish" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "hdim IV" ] -},
 
     -- ;; tahad~am_1
@@ -492,7 +495,7 @@ lexicon = listing "Lexicon properties"
     -- hdY     hodaY   IV_0_Pass_yu    be guided;be directed;be led
 
     FaCY                      `verb`       {- hadaY-i -}        [ "guide", "direct", "lead", "be guided", "be directed", "be led" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "hdiy IV_0hAnn", "hdY IV_0_Pass_yu", "haday PV_Atn", "hadA PV_h" ] -},
 
     -- ;; >ahodaY_1
@@ -563,32 +566,6 @@ lexicon = listing "Lexicon properties"
 
     TaFACuL                   `noun`       {- tahAfut -}        [ "infatuation" ] ]
 
- |> "h h l" <| [
-
-    -- ;; hal_1
-    -- hl      hal     FW-Wa   does/do?;did?;is/are?     [[hal/INTERROG_PART]]
-
-    CaL                       `noun`       {- hal -}            [ "does/do?", "did?", "is/are?" ] ]
-
- |> "h h m" <| [
-
-    -- ;; hum_1
-    -- hm      hum     FW-Wa   they [masc.pl]       [[hum/PRON_3MP]]
-
-    CuL                       `noun`       {- hum -}            [ "they [masc.pl]" ] ]
-
- |> "h h w" <| [
-
-    -- ;; huwiy~ap_1
-    -- hwy     huwiy~  NapAt   identity card;identity     [[huwiy~/NOUN]]
-
-    CuL |< Iy |< aT           `noun`       {- huwiy~ap -}       [ "identity card", "identity" ],
-
-    -- ;; huw_1
-    -- hw      huw     FW-WaBi Ho (in "Ho Chi Minh")    [[huw/NOUN_PROP]]
-
-    CuL                       `noun`       {- huw -}            [ "Ho (in \"Ho Chi Minh\")" ] ]
-
  |> "h k k" <| [
 
     -- ;; huwkiy_1
@@ -655,7 +632,7 @@ lexicon = listing "Lexicon properties"
     -- hll     holil   IV_C    begin;appear
 
     FaCL                      `verb`       {- hal~-i -}         [ "begin", "appear" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "hlil IV_C", "hill IV_V", "halal PV_C" ] -},
 
     -- ;; >ahal~_1
@@ -783,7 +760,7 @@ lexicon = listing "Lexicon properties"
     -- hmm     homum   IV_C    be ready;intend
 
     FaCL                      `verb`       {- ham~-u -}         [ "be ready", "intend" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "hmum IV_C", "hamam PV_C", "humm IV_V" ] -},
 
     -- ;; >aham~_1
@@ -885,7 +862,9 @@ lexicon = listing "Lexicon properties"
     -- hn}     hona}   IV_yn   be beneficial;be wholesome
 
     FaCaL                     `verb`       {- hanaO-uia -}      [ "be beneficial", "be wholesome" ]
-                              `imperf` [ FCuL, FCiL, FCaL ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL
+                              `imperf`     FCaL
                               {- `others` [ "hni' IV_intr", "hnu' IV_intr", "hna' IV_wn IV_intr IV_yn" ] -},
 
     -- ;; han~a>_1
@@ -1049,7 +1028,7 @@ lexicon = listing "Lexicon properties"
     -- hrE     horaE   IV      hurry;rush
 
     FaCaL                     `verb`       {- haraE-a -}        [ "hurry", "rush" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "hra` IV" ] -} ]
 
  |> "h r b" <| [
@@ -1059,7 +1038,7 @@ lexicon = listing "Lexicon properties"
     -- hrb     horub   IV      flee;escape;desert
 
     FaCaL                     `verb`       {- harab-u -}        [ "flee", "escape", "desert" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "hrub IV" ] -},
 
     -- ;; har~ab_1
@@ -1171,7 +1150,7 @@ lexicon = listing "Lexicon properties"
     -- htf     hotif   IV      call;shout;cheer
 
     FaCaL                     `verb`       {- hataf-i -}        [ "call", "shout", "cheer" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "htif IV" ] -},
 
     -- ;; hutAf_1
@@ -1287,7 +1266,7 @@ lexicon = listing "Lexicon properties"
     -- hl      hul     IV_C    frighten;intimidate
 
     FAL                       `verb`       {- hAl-u -}          [ "frighten", "intimidate" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "huwl IV_V" ] -},
 
     -- ;; hAlap_1
@@ -1394,7 +1373,7 @@ lexicon = listing "Lexicon properties"
     -- hwY     howaY   IV_0_Pass_yu    be toppled
 
     FaCY                      `verb`       {- hawaY-i -}        [ "fall", "collapse", "topple", "be toppled" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "haway PV_Atn", "hwiy IV_0hAnn", "hwY IV_0_Pass_yu", "hawA PV_h" ] -},
 
     -- ;; hawaY_1
@@ -1640,7 +1619,7 @@ lexicon = listing "Lexicon properties"
     -- hzm     hozim   IV      defeat
 
     FaCaL                     `verb`       {- hazam-i -}        [ "defeat" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "hzim IV" ] -},
 
     -- ;; haziym_1
@@ -1668,7 +1647,7 @@ lexicon = listing "Lexicon properties"
     -- hzz     hozuz   IV_C    shake;jolt;rock
 
     FaCL                      `verb`       {- haz~-u -}         [ "shake", "jolt", "rock" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "hazaz PV_C", "hzuz IV_C", "huzz IV_V" ] -},
 
     -- ;; haz~_1
@@ -1782,6 +1761,13 @@ lexicon = listing "Lexicon properties"
     -- hArts   ha|rits Nprop   Haaretz
 
     Identity                  `noun`       {- ha|rits -}        [ "Haaretz" ] ]
+
+ |> "hal" <| [
+
+    -- ;; hal_1
+    -- hl      hal     FW-Wa   does/do?;did?;is/are?     [[hal/INTERROG_PART]]
+
+    Identity                  `noun`       {- hal -}            [ "does/do?", "did?", "is/are?" ] ]
 
  |> "hallA" <| [
 
@@ -1921,6 +1907,13 @@ lexicon = listing "Lexicon properties"
 
     Identity                  `noun`       {- hiyuwsotun -}     [ "Houston" ] ]
 
+ |> "hum" <| [
+
+    -- ;; hum_1
+    -- hm      hum     FW-Wa   they [masc.pl]       [[hum/PRON_3MP]]
+
+    Identity                  `noun`       {- hum -}            [ "they [masc.pl]" ] ]
+
  |> "humA" <| [
 
     -- ;; humA_1
@@ -1944,12 +1937,26 @@ lexicon = listing "Lexicon properties"
 
     Identity                  `noun`       {- hunAka -}         [ "there", "there (is/are)" ] ]
 
+ |> "huw" <| [
+
+    -- ;; huw_1
+    -- hw      huw     FW-WaBi Ho (in "Ho Chi Minh")    [[huw/NOUN_PROP]]
+
+    Identity                  `noun`       {- huw -}            [ "Ho (in \"Ho Chi Minh\")" ] ]
+
  |> "huwa" <| [
 
     -- ;; huwa_1
     -- hw      huwa    FW-Wa   it/he                [[huwa/PRON_3MS]]
 
     Identity                  `noun`       {- huwa -}           [ "it/he" ] ]
+
+ |> "huwiyy" <| [
+
+    -- ;; huwiy~ap_1
+    -- hwy     huwiy~  NapAt   identity card;identity     [[huwiy~/NOUN]]
+
+    Identity |< aT            `noun`       {- huwiy~ap -}       [ "identity card", "identity" ] ]
 
  |> "huwlAnd" <| [
 

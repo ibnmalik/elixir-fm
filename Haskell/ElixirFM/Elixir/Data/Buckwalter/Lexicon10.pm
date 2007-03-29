@@ -6351,7 +6351,11 @@ $Lexicon = {
         'rDEA}   ruDaEA} Nhy     breast-feeding infants;foster children',
         'rDA}E   raDA}iE Ndip    breast-feeding infants;foster children'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ru.da`A\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -7310,6 +7314,9 @@ $Lexicon = {
         'rfAq    rifAq   N       companions;partners;comrades'
       ],
       'patterns' => {
+        'rufaqA\'' => [
+          'FuCaLA\''
+        ],
         'rifAq' => [
           'FiCAL'
         ]
@@ -17129,31 +17136,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'r \' ' => [
-    {
-      'types' => {
-        'ri\'awiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'ri\'Y',
-      'form' => 'ri\'awiyy',
-      'lines' => [
-        ';; ri}awiy~_1',
-        'r}wy    ri}awiy~        Nall    pulmonary     [[ri}awiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCY |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'pulmonary'
-      ],
-      'orig' => 'ri}awiy~',
-      'prefix' => ''
-    }
-  ],
   'r  \'' => [
     {
       'types' => {
@@ -17506,7 +17488,11 @@ $Lexicon = {
         'rqbA&   ruqabA& Nh      sergeants',
         'rqbA}   ruqabA} Nhy     sergeants'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ruqabA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -17538,7 +17524,11 @@ $Lexicon = {
         'rqbA&   ruqabA& Nh      observers;inspectors',
         'rqbA}   ruqabA} Nhy     observers;inspectors'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ruqabA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -18645,6 +18635,32 @@ $Lexicon = {
         'Rudi'
       ],
       'orig' => 'ruwdiy',
+      'prefix' => ''
+    }
+  ],
+  'ruf' => [
+    {
+      'types' => {
+        'rufAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'ruf',
+      'form' => 'rufAt',
+      'lines' => [
+        ';; rufAt_1',
+        'rfAt    rufAt   N       remains;body'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'remains',
+        'body'
+      ],
+      'orig' => 'rufAt',
       'prefix' => ''
     }
   ],
@@ -24213,7 +24229,11 @@ $Lexicon = {
         'rSfA&   ruSafA& Nh      colleagues',
         'rSfA}   ruSafA} Nhy     colleagues'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ru.safA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -24461,189 +24481,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'r _h _h' => [
-    {
-      'types' => {
-        'r_hu_h' => {
-          'IV_C' => 1
-        },
-        'ra_h_h' => {},
-        'ru_h_h' => {
-          'IV_V' => 1
-        },
-        'ra_ha_h' => {
-          'PV_C' => 1
-        }
-      },
-      'entry' => 'ra_h_h',
-      'form' => 'ra_h_h',
-      'lines' => [
-        ';; rax~-u_1',
-        'rx      rax~    PV_V    dilute',
-        'rxx     raxax   PV_C    dilute',
-        'rx      rux~    IV_V    dilute',
-        'rxx     roxux   IV_C    dilute'
-      ],
-      'patterns' => {
-        'r_hu_h' => [
-          'FCuL'
-        ],
-        'ra_ha_h' => [
-          'FaCaL'
-        ],
-        'ru_h_h' => [
-          'FuCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCL',
-      'glosses' => [
-        'dilute'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'rax~-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ra_h_h' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'ra_h_h',
-      'form' => 'ra_h_h',
-      'lines' => [
-        ';; rax~_1',
-        'rx      rax~    N       light shower'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'light shower'
-      ],
-      'orig' => 'rax~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ra_h_haT' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'ra_h_h',
-      'form' => 'ra_h_haT',
-      'lines' => [
-        ';; rax~ap_1',
-        'rx      rax~    Nap     light shower'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'light shower'
-      ],
-      'orig' => 'rax~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ru_h_h' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'ru_h_h',
-      'form' => 'ru_h_h',
-      'lines' => [
-        ';; rux~_1',
-        'rx      rux~    N       rukh (legendary bird);griffin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL',
-      'suffix' => '',
-      'glosses' => [
-        'rukh (legendary bird)',
-        'griffin'
-      ],
-      'orig' => 'rux~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ri_hA_h' => {
-          'N' => 1
-        },
-        'ri_ha_h' => {
-          'Nap' => 1
-        },
-        'ru_h_h' => {
-          'Ndu' => 1
-        }
-      },
-      'entry' => 'ru_h_h',
-      'form' => 'ru_h_h',
-      'lines' => [
-        ';; rux~_2',
-        'rx      rux~    Ndu     rook;castle (chess)',
-        'rxAx    rixAx   N       rooks;castles (chess)',
-        'rxx     rixax   Nap     rooks;castles (chess)'
-      ],
-      'patterns' => {
-        'ri_hA_h' => [
-          'FiCAL'
-        ],
-        'ri_ha_h' => [
-          'FiCaL'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FuCL',
-      'suffix' => '',
-      'glosses' => [
-        'rook',
-        'castle (chess)',
-        'rooks',
-        'castles (chess)'
-      ],
-      'orig' => 'rux~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ra_hA_h' => {
-          'N-ap' => 1
-        }
-      },
-      'entry' => 'ra_hA_h',
-      'form' => 'ra_hA_h',
-      'lines' => [
-        ';; raxAx_1',
-        'rxAx    raxAx   N-ap    soft;comfortable     [[raxAx/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCAL',
-      'suffix' => '',
-      'glosses' => [
-        'soft',
-        'comfortable'
-      ],
-      'orig' => 'raxAx',
-      'prefix' => ''
-    }
-  ],
   'r _t w' => [
     {
       'types' => {
@@ -24831,6 +24668,189 @@ $Lexicon = {
         'elegies'
       ],
       'orig' => 'maroviyap',
+      'prefix' => ''
+    }
+  ],
+  'r _h _h' => [
+    {
+      'types' => {
+        'r_hu_h' => {
+          'IV_C' => 1
+        },
+        'ra_h_h' => {},
+        'ru_h_h' => {
+          'IV_V' => 1
+        },
+        'ra_ha_h' => {
+          'PV_C' => 1
+        }
+      },
+      'entry' => 'ra_h_h',
+      'form' => 'ra_h_h',
+      'lines' => [
+        ';; rax~-u_1',
+        'rx      rax~    PV_V    dilute',
+        'rxx     raxax   PV_C    dilute',
+        'rx      rux~    IV_V    dilute',
+        'rxx     roxux   IV_C    dilute'
+      ],
+      'patterns' => {
+        'r_hu_h' => [
+          'FCuL'
+        ],
+        'ra_ha_h' => [
+          'FaCaL'
+        ],
+        'ru_h_h' => [
+          'FuCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCL',
+      'glosses' => [
+        'dilute'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'rax~-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ra_h_h' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'ra_h_h',
+      'form' => 'ra_h_h',
+      'lines' => [
+        ';; rax~_1',
+        'rx      rax~    N       light shower'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'light shower'
+      ],
+      'orig' => 'rax~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ra_h_haT' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'ra_h_h',
+      'form' => 'ra_h_haT',
+      'lines' => [
+        ';; rax~ap_1',
+        'rx      rax~    Nap     light shower'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'light shower'
+      ],
+      'orig' => 'rax~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ru_h_h' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'ru_h_h',
+      'form' => 'ru_h_h',
+      'lines' => [
+        ';; rux~_1',
+        'rx      rux~    N       rukh (legendary bird);griffin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL',
+      'suffix' => '',
+      'glosses' => [
+        'rukh (legendary bird)',
+        'griffin'
+      ],
+      'orig' => 'rux~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ri_hA_h' => {
+          'N' => 1
+        },
+        'ri_ha_h' => {
+          'Nap' => 1
+        },
+        'ru_h_h' => {
+          'Ndu' => 1
+        }
+      },
+      'entry' => 'ru_h_h',
+      'form' => 'ru_h_h',
+      'lines' => [
+        ';; rux~_2',
+        'rx      rux~    Ndu     rook;castle (chess)',
+        'rxAx    rixAx   N       rooks;castles (chess)',
+        'rxx     rixax   Nap     rooks;castles (chess)'
+      ],
+      'patterns' => {
+        'ri_hA_h' => [
+          'FiCAL'
+        ],
+        'ri_ha_h' => [
+          'FiCaL'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FuCL',
+      'suffix' => '',
+      'glosses' => [
+        'rook',
+        'castle (chess)',
+        'rooks',
+        'castles (chess)'
+      ],
+      'orig' => 'rux~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ra_hA_h' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'ra_hA_h',
+      'form' => 'ra_hA_h',
+      'lines' => [
+        ';; raxAx_1',
+        'rxAx    raxAx   N-ap    soft;comfortable     [[raxAx/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL',
+      'suffix' => '',
+      'glosses' => [
+        'soft',
+        'comfortable'
+      ],
+      'orig' => 'raxAx',
       'prefix' => ''
     }
   ],
@@ -25244,6 +25264,34 @@ $Lexicon = {
         'scorchedness'
       ],
       'orig' => 'ramaD',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ram.dA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'ram.dA\'',
+      'form' => 'ram.dA\'',
+      'lines' => [
+        ';; ramoDA\'_1',
+        'rmDA\'   ramoDA\' N0_Nh   sun-baked ground;hot ground',
+        'rmDA&   ramoDA& Nh      sun-baked ground;hot ground',
+        'rmDA}   ramoDA} Nhy     sun-baked ground;hot ground'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'sun-baked ground',
+        'hot ground'
+      ],
+      'orig' => 'ramoDA\'',
       'prefix' => ''
     },
     {
@@ -29472,7 +29520,11 @@ $Lexicon = {
         'rslA&   rusalA& Nh      messenger;runner',
         'rslA}   rusalA} Nhy     messenger;runner'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'rusalA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -30222,7 +30274,11 @@ $Lexicon = {
         'r*lA&   ru*alA& Nh      despicable;depraved',
         'r*lA}   ru*alA} Nhy     despicable;depraved'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ru_dalA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -30337,7 +30393,11 @@ $Lexicon = {
         'rmkA&   ramokA& Nh      gray;ashen',
         'rmkA}   ramokA} Nhy     gray;ashen'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ramkA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -38275,6 +38335,40 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'ri\'' => [
+    {
+      'types' => {
+        'ri\'aT' => {
+          'Napdu' => 1
+        },
+        'ri\'uwn' => {
+          'N' => 1
+        },
+        'riyy' => {
+          'Napdu' => 1
+        }
+      },
+      'entry' => 'ri\'',
+      'form' => 'ri\'aT',
+      'lines' => [
+        ';; ri}ap_1',
+        'r}      ri}     Napdu   lung',
+        'ry      riy~    Napdu   lung     [[riy~/NOUN]]',
+        'r}wn    ri}uwn  N       lungs'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'lung',
+        'lungs'
+      ],
+      'orig' => 'ri}ap',
+      'prefix' => ''
+    }
+  ],
   'r .d b' => [
     {
       'types' => {
@@ -39155,7 +39249,11 @@ $Lexicon = {
         'rtA&    rat~A&  Nh      speech-defective',
         'rtA}    rat~A}  Nhy     speech-defective'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'rattA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFaCL',
@@ -41605,7 +41703,11 @@ $Lexicon = {
         'rwHA&   rawoHA& Nh      more/most calming;more/most soothing',
         'rwHA}   rawoHA} Nhy     more/most calming;more/most soothing'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'raw.hA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -41615,6 +41717,29 @@ $Lexicon = {
         'more/most soothing'
       ],
       'orig' => 'OarowaH',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'raw.hA\'' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'raw.hA\'',
+      'form' => 'raw.hA\'',
+      'lines' => [
+        ';; rawoHA\'_1',
+        'rwHA\'   rawoHA\' N0      Rawha'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'Rawha'
+      ],
+      'orig' => 'rawoHA\'',
       'prefix' => ''
     },
     {
@@ -43802,7 +43927,11 @@ $Lexicon = {
         'r&sA&   ru&asA& Nh      presidents',
         'r&sA}   ru&asA} Nhy     presidents'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ru\'asA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -46200,7 +46329,11 @@ $Lexicon = {
         'r$dA&   ru$adA& Nh      rational;mature',
         'r$dA}   ru$adA} Nhy     rational;mature'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ru^sadA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -46642,40 +46775,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'r r \'' => [
-    {
-      'types' => {
-        'ri\'aT' => {
-          'Napdu' => 1
-        },
-        'ri\'uwn' => {
-          'N' => 1
-        },
-        'riyy' => {
-          'Napdu' => 1
-        }
-      },
-      'entry' => 'ri\'',
-      'form' => 'ri\'aT',
-      'lines' => [
-        ';; ri}ap_1',
-        'r}      ri}     Napdu   lung',
-        'ry      riy~    Napdu   lung     [[riy~/NOUN]]',
-        'r}wn    ri}uwn  N       lungs'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CiL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'lung',
-        'lungs'
-      ],
-      'orig' => 'ri}ap',
-      'prefix' => ''
-    }
-  ],
   'r .g w' => [
     {
       'types' => {
@@ -46878,32 +46977,6 @@ $Lexicon = {
         'froth'
       ],
       'orig' => 'rugAwap',
-      'prefix' => ''
-    }
-  ],
-  'r r f' => [
-    {
-      'types' => {
-        'rufAt' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'ruf',
-      'form' => 'rufAt',
-      'lines' => [
-        ';; rufAt_1',
-        'rfAt    rufAt   N       remains;body'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CuL |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'remains',
-        'body'
-      ],
-      'orig' => 'rufAt',
       'prefix' => ''
     }
   ],
@@ -48589,6 +48662,20 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'rag~aY',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ra.g.gA\'',
+      'form' => 'ra.g.gA\'',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'rag~A\'',
       'prefix' => ''
     }
   ],
@@ -51170,6 +51257,29 @@ $Lexicon = {
   ],
   'r \' \'' => [
     {
+      'types' => {
+        'ri\'awiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'ri\'Y',
+      'form' => 'ri\'awiyy',
+      'lines' => [
+        ';; ri}awiy~_1',
+        'r}wy    ri}awiy~        Nall    pulmonary     [[ri}awiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCY |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'pulmonary'
+      ],
+      'orig' => 'ri}awiy~',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'ri\'A\'',
       'form' => 'ri\'A\'',
@@ -52399,31 +52509,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'r w .h \'' => [
-    {
-      'types' => {
-        'raw.hA\'' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'raw.hA\'',
-      'form' => 'raw.hA\'',
-      'lines' => [
-        ';; rawoHA\'_1',
-        'rwHA\'   rawoHA\' N0      Rawha'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'Rawha'
-      ],
-      'orig' => 'rawoHA\'',
-      'prefix' => ''
-    }
-  ],
   'r w b .s' => [
     {
       'types' => {
@@ -53442,7 +53527,11 @@ $Lexicon = {
         'rHmA&   ruHamA& Nh      compassionate',
         'rHmA}   ruHamA} Nhy     compassionate'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ru.hamA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -57208,36 +57297,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'r m .d \'' => [
-    {
-      'types' => {
-        'ram.dA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'ram.dA\'',
-      'form' => 'ram.dA\'',
-      'lines' => [
-        ';; ramoDA\'_1',
-        'rmDA\'   ramoDA\' N0_Nh   sun-baked ground;hot ground',
-        'rmDA&   ramoDA& Nh      sun-baked ground;hot ground',
-        'rmDA}   ramoDA} Nhy     sun-baked ground;hot ground'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'sun-baked ground',
-        'hot ground'
-      ],
-      'orig' => 'ramoDA\'',
-      'prefix' => ''
-    }
-  ],
   'r t b' => [
     {
       'types' => {
@@ -57380,7 +57439,11 @@ $Lexicon = {
         'rtyb    ratiyb  N/ap    monotonous     [[ratiyb/ADJ]]',
         'rtbA\'   rutabA\' N0_Nh   monotonous'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'rutabA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -57411,7 +57474,11 @@ $Lexicon = {
         'rtbA&   rutabA& Nh      noncommissioned officers',
         'rtbA}   rutabA} Nhy     noncommissioned officers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'rutabA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -57986,24 +58053,24 @@ $Lexicon->{'r w .h'}[21]{'glosses'} = $Lexicon->{'r y .h'}[1]{'glosses'};
 $Lexicon->{'r w .h'}[22]{'types'} = $Lexicon->{'r y .h'}[2]{'types'};
 $Lexicon->{'r w .h'}[22]{'lines'} = $Lexicon->{'r y .h'}[2]{'lines'};
 $Lexicon->{'r w .h'}[22]{'glosses'} = $Lexicon->{'r y .h'}[2]{'glosses'};
-$Lexicon->{'r w .h'}[34]{'types'} = $Lexicon->{'r y .h'}[12]{'types'};
-$Lexicon->{'r w .h'}[34]{'lines'} = $Lexicon->{'r y .h'}[12]{'lines'};
-$Lexicon->{'r w .h'}[34]{'glosses'} = $Lexicon->{'r y .h'}[12]{'glosses'};
-$Lexicon->{'r w .h'}[40]{'types'} = $Lexicon->{'r y .h'}[13]{'types'};
-$Lexicon->{'r w .h'}[40]{'lines'} = $Lexicon->{'r y .h'}[13]{'lines'};
-$Lexicon->{'r w .h'}[40]{'glosses'} = $Lexicon->{'r y .h'}[13]{'glosses'};
-$Lexicon->{'r w .h'}[42]{'types'} = $Lexicon->{'r y .h'}[14]{'types'};
-$Lexicon->{'r w .h'}[42]{'lines'} = $Lexicon->{'r y .h'}[14]{'lines'};
-$Lexicon->{'r w .h'}[42]{'glosses'} = $Lexicon->{'r y .h'}[14]{'glosses'};
+$Lexicon->{'r w .h'}[35]{'types'} = $Lexicon->{'r y .h'}[12]{'types'};
+$Lexicon->{'r w .h'}[35]{'lines'} = $Lexicon->{'r y .h'}[12]{'lines'};
+$Lexicon->{'r w .h'}[35]{'glosses'} = $Lexicon->{'r y .h'}[12]{'glosses'};
+$Lexicon->{'r w .h'}[41]{'types'} = $Lexicon->{'r y .h'}[13]{'types'};
+$Lexicon->{'r w .h'}[41]{'lines'} = $Lexicon->{'r y .h'}[13]{'lines'};
+$Lexicon->{'r w .h'}[41]{'glosses'} = $Lexicon->{'r y .h'}[13]{'glosses'};
+$Lexicon->{'r w .h'}[43]{'types'} = $Lexicon->{'r y .h'}[14]{'types'};
+$Lexicon->{'r w .h'}[43]{'lines'} = $Lexicon->{'r y .h'}[14]{'lines'};
+$Lexicon->{'r w .h'}[43]{'glosses'} = $Lexicon->{'r y .h'}[14]{'glosses'};
 $Lexicon->{'r s s'}[0]{'types'} = $Lexicon->{'r s w'}[1]{'types'};
 $Lexicon->{'r s s'}[0]{'lines'} = $Lexicon->{'r s w'}[1]{'lines'};
 $Lexicon->{'r s s'}[0]{'glosses'} = $Lexicon->{'r s w'}[1]{'glosses'};
-$Lexicon->{'r \' .h'}[0]{'types'} = $Lexicon->{'r w .h'}[38]{'types'};
-$Lexicon->{'r \' .h'}[0]{'lines'} = $Lexicon->{'r w .h'}[38]{'lines'};
-$Lexicon->{'r \' .h'}[0]{'glosses'} = $Lexicon->{'r w .h'}[38]{'glosses'};
-$Lexicon->{'r \' .h'}[1]{'types'} = $Lexicon->{'r w .h'}[39]{'types'};
-$Lexicon->{'r \' .h'}[1]{'lines'} = $Lexicon->{'r w .h'}[39]{'lines'};
-$Lexicon->{'r \' .h'}[1]{'glosses'} = $Lexicon->{'r w .h'}[39]{'glosses'};
+$Lexicon->{'r \' .h'}[0]{'types'} = $Lexicon->{'r w .h'}[39]{'types'};
+$Lexicon->{'r \' .h'}[0]{'lines'} = $Lexicon->{'r w .h'}[39]{'lines'};
+$Lexicon->{'r \' .h'}[0]{'glosses'} = $Lexicon->{'r w .h'}[39]{'glosses'};
+$Lexicon->{'r \' .h'}[1]{'types'} = $Lexicon->{'r w .h'}[40]{'types'};
+$Lexicon->{'r \' .h'}[1]{'lines'} = $Lexicon->{'r w .h'}[40]{'lines'};
+$Lexicon->{'r \' .h'}[1]{'glosses'} = $Lexicon->{'r w .h'}[40]{'glosses'};
 $Lexicon->{'r ^g w'}[4]{'types'} = $Lexicon->{'r ^g \''}[4]{'types'};
 $Lexicon->{'r ^g w'}[4]{'lines'} = $Lexicon->{'r ^g \''}[4]{'lines'};
 $Lexicon->{'r ^g w'}[4]{'glosses'} = $Lexicon->{'r ^g \''}[4]{'glosses'};
@@ -58022,6 +58089,9 @@ $Lexicon->{'r w w'}[0]{'glosses'} = $Lexicon->{'r w y'}[1]{'glosses'};
 $Lexicon->{'r .g .g'}[0]{'types'} = $Lexicon->{'r .g w'}[1]{'types'};
 $Lexicon->{'r .g .g'}[0]{'lines'} = $Lexicon->{'r .g w'}[1]{'lines'};
 $Lexicon->{'r .g .g'}[0]{'glosses'} = $Lexicon->{'r .g w'}[1]{'glosses'};
+$Lexicon->{'r .g .g'}[1]{'types'} = $Lexicon->{'r .g \''}[0]{'types'};
+$Lexicon->{'r .g .g'}[1]{'lines'} = $Lexicon->{'r .g \''}[0]{'lines'};
+$Lexicon->{'r .g .g'}[1]{'glosses'} = $Lexicon->{'r .g \''}[0]{'glosses'};
 $Lexicon->{'r ^s \''}[0]{'types'} = $Lexicon->{'r ^s w'}[4]{'types'};
 $Lexicon->{'r ^s \''}[0]{'lines'} = $Lexicon->{'r ^s w'}[4]{'lines'};
 $Lexicon->{'r ^s \''}[0]{'glosses'} = $Lexicon->{'r ^s w'}[4]{'glosses'};
@@ -58034,9 +58104,9 @@ $Lexicon->{'r \' b'}[4]{'glosses'} = $Lexicon->{'r w b'}[5]{'glosses'};
 $Lexicon->{'r h \''}[0]{'types'} = $Lexicon->{'r h w'}[4]{'types'};
 $Lexicon->{'r h \''}[0]{'lines'} = $Lexicon->{'r h w'}[4]{'lines'};
 $Lexicon->{'r h \''}[0]{'glosses'} = $Lexicon->{'r h w'}[4]{'glosses'};
-$Lexicon->{'r \' \''}[0]{'types'} = $Lexicon->{'r \' y'}[13]{'types'};
-$Lexicon->{'r \' \''}[0]{'lines'} = $Lexicon->{'r \' y'}[13]{'lines'};
-$Lexicon->{'r \' \''}[0]{'glosses'} = $Lexicon->{'r \' y'}[13]{'glosses'};
+$Lexicon->{'r \' \''}[1]{'types'} = $Lexicon->{'r \' y'}[13]{'types'};
+$Lexicon->{'r \' \''}[1]{'lines'} = $Lexicon->{'r \' y'}[13]{'lines'};
+$Lexicon->{'r \' \''}[1]{'glosses'} = $Lexicon->{'r \' y'}[13]{'glosses'};
 $Lexicon->{'r b b'}[14]{'types'} = $Lexicon->{'r b n'}[0]{'types'};
 $Lexicon->{'r b b'}[14]{'lines'} = $Lexicon->{'r b n'}[0]{'lines'};
 $Lexicon->{'r b b'}[14]{'glosses'} = $Lexicon->{'r b n'}[0]{'glosses'};

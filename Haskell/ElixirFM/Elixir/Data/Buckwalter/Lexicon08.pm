@@ -577,39 +577,6 @@ $Lexicon = {
       'prefix' => 'lA >| '
     }
   ],
-  'd d m' => [
-    {
-      'types' => {
-        'dam' => {
-          'N' => 1
-        },
-        'dimA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'dam',
-      'form' => 'dam',
-      'lines' => [
-        ';; dam_1',
-        'dm      dam     N       blood',
-        'dmA\'    dimA\'   N0_Nh   blood',
-        'dmA&    dimA&   Nh      blood',
-        'dmA}    dimA}   Nhy     blood'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL',
-      'suffix' => '',
-      'glosses' => [
-        'blood'
-      ],
-      'orig' => 'dam',
-      'prefix' => ''
-    }
-  ],
   'd ^s r' => [
     {
       'types' => {
@@ -1965,6 +1932,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'duw' => [
+    {
+      'types' => {
+        'duw' => {
+          'FW' => 1
+        }
+      },
+      'entry' => 'duw',
+      'form' => 'duw',
+      'lines' => [
+        ';; duw_1',
+        'dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Du',
+        'Do'
+      ],
+      'orig' => 'duw',
+      'prefix' => ''
+    }
+  ],
   'd y n m' => [
     {
       'types' => {
@@ -2368,6 +2361,9 @@ $Lexicon = {
         'dkn     dukon   N       dark;blackish'
       ],
       'patterns' => {
+        'daknA\'' => [
+          'FaCLA\''
+        ],
         'duknY' => [
           'FuCLY'
         ],
@@ -3106,7 +3102,11 @@ $Lexicon = {
         'dnsA&   dunasA& Nh      soiled;polluted;stained',
         'dnsA}   dunasA} Nhy     soiled;polluted;stained'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'dunasA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCAL',
@@ -5396,35 +5396,6 @@ $Lexicon = {
         'Dolan'
       ],
       'orig' => 'duwlAn',
-      'prefix' => ''
-    }
-  ],
-  'd h n \'' => [
-    {
-      'types' => {
-        'dahnA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'dahnA\'',
-      'form' => 'dahnA\'',
-      'lines' => [
-        ';; dahonA\'_1',
-        'dhnA\'   dahonA\' N0_Nh   Dahna',
-        'dhnA&   dahonA& Nh      Dahna',
-        'dhnA}   dahonA} Nhy     Dahna'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'Dahna'
-      ],
-      'orig' => 'dahonA\'',
       'prefix' => ''
     }
   ],
@@ -9683,6 +9654,9 @@ $Lexicon = {
       'patterns' => {
         'du`^g' => [
           'FuCL'
+        ],
+        'da`^gA\'' => [
+          'FaCLA\''
         ]
       },
       'index' => '1',
@@ -10515,7 +10489,11 @@ $Lexicon = {
         'dxlA&   duxalA& Nh      foreigners;intruders',
         'dxlA}   duxalA} Nhy     foreigners;intruders'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'du_halA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -11344,7 +11322,11 @@ $Lexicon = {
         'dfnA&   dufanA& Nh      buried;hidden',
         'dfnA}   dufanA} Nhy     buried;hidden'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'dufanA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -12421,6 +12403,33 @@ $Lexicon = {
         'greasy substances'
       ],
       'orig' => 'duhoniy~At',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'dahnA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'dahnA\'',
+      'form' => 'dahnA\'',
+      'lines' => [
+        ';; dahonA\'_1',
+        'dhnA\'   dahonA\' N0_Nh   Dahna',
+        'dhnA&   dahonA& Nh      Dahna',
+        'dhnA}   dahonA} Nhy     Dahna'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'Dahna'
+      ],
+      'orig' => 'dahonA\'',
       'prefix' => ''
     },
     {
@@ -22311,6 +22320,9 @@ $Lexicon = {
         'dsm     dusom   N       fatty;greasy;pithy'
       ],
       'patterns' => {
+        'dasmA\'' => [
+          'FaCLA\''
+        ],
         'dusm' => [
           'FuCL'
         ]
@@ -24605,6 +24617,9 @@ $Lexicon = {
         'dhm     duhom   N       black'
       ],
       'patterns' => {
+        'dahmA\'' => [
+          'FaCLA\''
+        ],
         'duhm' => [
           'FuCL'
         ]
@@ -24617,6 +24632,34 @@ $Lexicon = {
         'black'
       ],
       'orig' => 'Oadoham',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'dahmA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'dahmA\'',
+      'form' => 'dahmA\'',
+      'lines' => [
+        ';; dahomA\'_1',
+        'dhmA\'   dahomA\' N0_Nh   masses;common folk',
+        'dhmA&   dahomA& Nh      masses;common folk',
+        'dhmA}   dahomA} Nhy     masses;common folk'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'masses',
+        'common folk'
+      ],
+      'orig' => 'dahomA\'',
       'prefix' => ''
     },
     {
@@ -30505,6 +30548,39 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'dam' => [
+    {
+      'types' => {
+        'dam' => {
+          'N' => 1
+        },
+        'dimA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'dam',
+      'form' => 'dam',
+      'lines' => [
+        ';; dam_1',
+        'dm      dam     N       blood',
+        'dmA\'    dimA\'   N0_Nh   blood',
+        'dmA&    dimA&   Nh      blood',
+        'dmA}    dimA}   Nhy     blood'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'blood'
+      ],
+      'orig' => 'dam',
+      'prefix' => ''
+    }
+  ],
   'd w b' => [
     {
       'types' => {
@@ -34105,36 +34181,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'd h m \'' => [
-    {
-      'types' => {
-        'dahmA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'dahmA\'',
-      'form' => 'dahmA\'',
-      'lines' => [
-        ';; dahomA\'_1',
-        'dhmA\'   dahomA\' N0_Nh   masses;common folk',
-        'dhmA&   dahomA& Nh      masses;common folk',
-        'dhmA}   dahomA} Nhy     masses;common folk'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'masses',
-        'common folk'
-      ],
-      'orig' => 'dahomA\'',
-      'prefix' => ''
-    }
-  ],
   'd w q' => [
     {
       'types' => {
@@ -35592,32 +35638,6 @@ $Lexicon = {
         'trainee'
       ],
       'orig' => 'mutadar~ib',
-      'prefix' => ''
-    }
-  ],
-  'd d w' => [
-    {
-      'types' => {
-        'duw' => {
-          'FW' => 1
-        }
-      },
-      'entry' => 'duw',
-      'form' => 'duw',
-      'lines' => [
-        ';; duw_1',
-        'dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CuL',
-      'suffix' => '',
-      'glosses' => [
-        'Du',
-        'Do'
-      ],
-      'orig' => 'duw',
       'prefix' => ''
     }
   ],

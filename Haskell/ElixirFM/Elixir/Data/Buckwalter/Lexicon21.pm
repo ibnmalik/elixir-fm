@@ -6,35 +6,6 @@ package Elixir::Data::Buckwalter::Lexicon21;
 
 
 $Lexicon = {
-  'q m r \'' => [
-    {
-      'types' => {
-        'qamrA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'qamrA\'',
-      'form' => 'qamrA\'',
-      'lines' => [
-        ';; qamorA\'_1',
-        'qmrA\'   qamorA\' N0_Nh   moonlight',
-        'qmrA&   qamorA& Nh      moonlight',
-        'qmrA}   qamorA} Nhy     moonlight'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'moonlight'
-      ],
-      'orig' => 'qamorA\'',
-      'prefix' => ''
-    }
-  ],
   'qalqiyliy' => [
     {
       'types' => {
@@ -716,7 +687,11 @@ $Lexicon = {
         'qrnA&   quranA& Nh      associates;comrades',
         'qrnA}   quranA} Nhy     associates;comrades'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'quranA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -825,7 +800,11 @@ $Lexicon = {
         'qrnA&   qaronA& Nh      horned',
         'qrnA}   qaronA} Nhy     horned'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qarnA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -2068,31 +2047,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qara.dAw' => [
-    {
-      'types' => {
-        'qara.dAwiyy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'qara.dAw',
-      'form' => 'qara.dAwiyy',
-      'lines' => [
-        ';; qaraDAwiy~_1',
-        'qrDAwy  qaraDAwiy~      N0      Qaradawi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Qaradawi'
-      ],
-      'orig' => 'qaraDAwiy~',
-      'prefix' => ''
-    }
-  ],
   'qabla' => [
     {
       'types' => {
@@ -3219,6 +3173,73 @@ $Lexicon = {
         'extirpate'
       ],
       'orig' => '{iqotav~',
+      'prefix' => ''
+    }
+  ],
+  'qaf' => [
+    {
+      'types' => {
+        'qifiyy' => {
+          'N' => 1
+        },
+        '\'aqf' => {
+          'NK' => 2
+        },
+        'qafaN' => {
+          'FW-WaBi' => 1
+        },
+        'qufiyy' => {
+          'N' => 1
+        },
+        '\'aqfiy' => {
+          'Nap' => 2,
+          'N0_Nh' => 2
+        },
+        'qafA' => {
+          'N0_Nhy' => 1
+        },
+        '\'aqfA\'' => {
+          'Nh' => 2,
+          'Nhy' => 2,
+          'N0_Nh' => 2
+        }
+      },
+      'entry' => 'qaf',
+      'form' => 'qafaN',
+      'lines' => [
+        ';; qafAF_1',
+        'qfA     qafAF   FW-WaBi neck;nape;back;reverse     [[qafAF/NOUN]]',
+        'qfA     qafA    N0_Nhy  neck;nape;back;reverse',
+        '>qfy    >aqofiy Nap     necks;napes;backs',
+        'Aqfy    >aqofiy Nap     necks;napes;backs',
+        '>qfy    >aqofiy N0_Nh   necks;napes;backs',
+        'Aqfy    >aqofiy N0_Nh   necks;napes;backs',
+        '>qf     >aqof   NK      necks;napes;backs',
+        'Aqf     >aqof   NK      necks;napes;backs',
+        '>qfA\'   >aqofA\' N0_Nh   necks;napes;backs',
+        'AqfA\'   >aqofA\' N0_Nh   necks;napes;backs',
+        '>qfA&   >aqofA& Nh      necks;napes;backs',
+        'AqfA&   >aqofA& Nh      necks;napes;backs',
+        '>qfA}   >aqofA} Nhy     necks;napes;backs',
+        'AqfA}   >aqofA} Nhy     necks;napes;backs',
+        'qfy     qufiy~  N       necks;napes;backs',
+        'qfy     qifiy~  N       necks;napes;backs'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'neck',
+        'nape',
+        'back',
+        'reverse',
+        'necks',
+        'napes',
+        'backs'
+      ],
+      'orig' => 'qafAF',
       'prefix' => ''
     }
   ],
@@ -5418,31 +5439,6 @@ $Lexicon = {
         'kittens'
       ],
       'orig' => 'quTayoTap',
-      'prefix' => ''
-    }
-  ],
-  'q r q w' => [
-    {
-      'types' => {
-        'qarqAwiyy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'qarqAw',
-      'form' => 'qarqAwiyy',
-      'lines' => [
-        ';; qaroqAwiy~_1',
-        'qrqAwy  qaroqAwiy~      N0      Qarqawi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Qarqawi'
-      ],
-      'orig' => 'qaroqAwiy~',
       'prefix' => ''
     }
   ],
@@ -12482,59 +12478,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'q q d' => [
-    {
-      'types' => {
-        'qad' => {
-          'FW-Wa' => 1
-        },
-        'laqad' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => 'qad',
-      'form' => 'qad',
-      'lines' => [
-        ';; qad_1',
-        'qd      qad     FW-Wa   (has/have)           [[qad/FUNC_WORD]]',
-        'lqd     laqad   FW-Wa   indeed (has/have)  [[laqad/FUNC_WORD]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL',
-      'suffix' => '',
-      'glosses' => [
-        '(has/have)',
-        'indeed (has/have)'
-      ],
-      'orig' => 'qad',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'qad' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => 'qad',
-      'form' => 'qad',
-      'lines' => [
-        ';; qad_2',
-        'qd      qad     FW-Wa   may/might     [[qad/FUNC_WORD]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'CaL',
-      'suffix' => '',
-      'glosses' => [
-        'may/might'
-      ],
-      'orig' => 'qad',
-      'prefix' => ''
-    }
-  ],
   'q w q' => [
     {
       'types' => {
@@ -13574,6 +13517,59 @@ $Lexicon = {
         'adversities'
       ],
       'orig' => 'qawomas',
+      'prefix' => ''
+    }
+  ],
+  'qad' => [
+    {
+      'types' => {
+        'qad' => {
+          'FW-Wa' => 1
+        },
+        'laqad' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'qad',
+      'form' => 'qad',
+      'lines' => [
+        ';; qad_1',
+        'qd      qad     FW-Wa   (has/have)           [[qad/FUNC_WORD]]',
+        'lqd     laqad   FW-Wa   indeed (has/have)  [[laqad/FUNC_WORD]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        '(has/have)',
+        'indeed (has/have)'
+      ],
+      'orig' => 'qad',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'qad' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'qad',
+      'form' => 'qad',
+      'lines' => [
+        ';; qad_2',
+        'qd      qad     FW-Wa   may/might     [[qad/FUNC_WORD]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'may/might'
+      ],
+      'orig' => 'qad',
       'prefix' => ''
     }
   ],
@@ -18013,7 +18009,11 @@ $Lexicon = {
         'qTEA&   qaToEA& Nh      amputee;mute',
         'qTEA}   qaToEA} Nhy     amputee;mute'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qa.t`A\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '3',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -18932,6 +18932,36 @@ $Lexicon = {
         'thick'
       ],
       'orig' => 'qAsiH',
+      'prefix' => ''
+    }
+  ],
+  'qa.t' => [
+    {
+      'types' => {
+        'qa.t' => {},
+        'qa.tA' => {
+          'N0_Nhy' => 1
+        },
+        'qa.taN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => 'qa.t',
+      'form' => 'qa.t',
+      'lines' => [
+        ';; qaT_1',
+        'qTA     qaTAF   FW-WaBi sand grouse     [[qaTAF/NOUN]]',
+        'qTA     qaTA    N0_Nhy  sand grouse'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'sand grouse'
+      ],
+      'orig' => 'qaT',
       'prefix' => ''
     }
   ],
@@ -26034,6 +26064,42 @@ $Lexicon = {
       ],
       'orig' => 'quHuwlap',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'qa.hlA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        },
+        'qA.hil' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'qa.hlA\'',
+      'form' => 'qa.hlA\'',
+      'lines' => [
+        ';; qaHolA\'_1',
+        'qHlA\'   qaHolA\' N0_Nh   arid;dry     [[qaHolA\'/ADJ]]',
+        'qHlA&   qaHolA& Nh      arid;dry',
+        'qHlA}   qaHolA} Nhy     arid;dry',
+        'qAHl    qAHil   N-ap    arid;dry'
+      ],
+      'patterns' => {
+        'qA.hil' => [
+          'FACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'arid',
+        'dry'
+      ],
+      'orig' => 'qaHolA\'',
+      'prefix' => ''
     }
   ],
   'q ^s t l' => [
@@ -28019,7 +28085,11 @@ $Lexicon = {
         'qdmA&   qudamA& Nh      old;ancients',
         'qdmA}   qudamA} Nhy     old;ancients'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qudamA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -30390,7 +30460,11 @@ $Lexicon = {
         'qrEA&   qaroEA& Nh      bald;bare',
         'qrEA}   qaroEA} Nhy     bald;bare'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qar`A\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -40441,6 +40515,9 @@ $Lexicon = {
         'AqsmA}  >aqosimA}       Nhy     partners;participants'
       ],
       'patterns' => {
+        'qusamA\'' => [
+          'FuCaLA\''
+        ],
         '\'aqsimA\'' => [
           'HaFCiLA\''
         ]
@@ -42575,40 +42652,6 @@ $Lexicon = {
         'springboards'
       ],
       'orig' => 'maqofiz',
-      'prefix' => ''
-    }
-  ],
-  'q .h l \'' => [
-    {
-      'types' => {
-        'qa.hlA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        },
-        'qA.hil' => {
-          'N-ap' => 1
-        }
-      },
-      'entry' => 'qa.hlA\'',
-      'form' => 'qa.hlA\'',
-      'lines' => [
-        ';; qaHolA\'_1',
-        'qHlA\'   qaHolA\' N0_Nh   arid;dry     [[qaHolA\'/ADJ]]',
-        'qHlA&   qaHolA& Nh      arid;dry',
-        'qHlA}   qaHolA} Nhy     arid;dry',
-        'qAHl    qAHil   N-ap    arid;dry'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'arid',
-        'dry'
-      ],
-      'orig' => 'qaHolA\'',
       'prefix' => ''
     }
   ],
@@ -46089,6 +46132,33 @@ $Lexicon = {
     },
     {
       'types' => {
+        'qamrA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'qamrA\'',
+      'form' => 'qamrA\'',
+      'lines' => [
+        ';; qamorA\'_1',
+        'qmrA\'   qamorA\' N0_Nh   moonlight',
+        'qmrA&   qamorA& Nh      moonlight',
+        'qmrA}   qamorA} Nhy     moonlight'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'moonlight'
+      ],
+      'orig' => 'qamorA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'qamiyr' => {
           'N/ap' => 1
         },
@@ -46760,46 +46830,28 @@ $Lexicon = {
       ],
       'orig' => 'qaroq',
       'prefix' => ''
-    }
-  ],
-  'quwabA\'' => [
+    },
     {
       'types' => {
-        'quwabA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        },
-        'quwab' => {
-          'Nap' => 1,
-          'N' => 1
-        },
-        'quwb' => {
-          'Nap' => 1
+        'qarqAwiyy' => {
+          'N0' => 1
         }
       },
-      'entry' => 'quwabA\'',
-      'form' => 'quwabA\'',
+      'entry' => 'qarqA\'',
+      'form' => 'qarqAwiyy',
       'lines' => [
-        ';; quwabA\'_1',
-        'qwbA\'   quwabA\' N0_Nh   tetter;eczema',
-        'qwbA&   quwabA& Nh      tetter;eczema',
-        'qwbA}   quwabA} Nhy     tetter;eczema',
-        'qwb     quwb    Nap     tetter;eczema',
-        'qwb     quwab   Nap     tetter;eczema',
-        'qwb     quwab   N       tetters;eczema'
+        ';; qaroqAwiy~_1',
+        'qrqAwy  qaroqAwiy~      N0      Qarqawi'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
+      'morphs' => 'FaCLA\' |< Iy',
+      'suffix' => ' |< Iy',
       'glosses' => [
-        'tetter',
-        'eczema',
-        'tetters'
+        'Qarqawi'
       ],
-      'orig' => 'quwabA\'',
+      'orig' => 'qaroqAwiy~',
       'prefix' => ''
     }
   ],
@@ -49133,73 +49185,6 @@ $Lexicon = {
         'grenades'
       ],
       'orig' => 'qunobulap',
-      'prefix' => ''
-    }
-  ],
-  'q q f' => [
-    {
-      'types' => {
-        'qifiyy' => {
-          'N' => 1
-        },
-        '\'aqf' => {
-          'NK' => 2
-        },
-        'qafaN' => {
-          'FW-WaBi' => 1
-        },
-        'qufiyy' => {
-          'N' => 1
-        },
-        '\'aqfiy' => {
-          'Nap' => 2,
-          'N0_Nh' => 2
-        },
-        'qafA' => {
-          'N0_Nhy' => 1
-        },
-        '\'aqfA\'' => {
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
-        }
-      },
-      'entry' => 'qaf',
-      'form' => 'qafaN',
-      'lines' => [
-        ';; qafAF_1',
-        'qfA     qafAF   FW-WaBi neck;nape;back;reverse     [[qafAF/NOUN]]',
-        'qfA     qafA    N0_Nhy  neck;nape;back;reverse',
-        '>qfy    >aqofiy Nap     necks;napes;backs',
-        'Aqfy    >aqofiy Nap     necks;napes;backs',
-        '>qfy    >aqofiy N0_Nh   necks;napes;backs',
-        'Aqfy    >aqofiy N0_Nh   necks;napes;backs',
-        '>qf     >aqof   NK      necks;napes;backs',
-        'Aqf     >aqof   NK      necks;napes;backs',
-        '>qfA\'   >aqofA\' N0_Nh   necks;napes;backs',
-        'AqfA\'   >aqofA\' N0_Nh   necks;napes;backs',
-        '>qfA&   >aqofA& Nh      necks;napes;backs',
-        'AqfA&   >aqofA& Nh      necks;napes;backs',
-        '>qfA}   >aqofA} Nhy     necks;napes;backs',
-        'AqfA}   >aqofA} Nhy     necks;napes;backs',
-        'qfy     qufiy~  N       necks;napes;backs',
-        'qfy     qifiy~  N       necks;napes;backs'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'neck',
-        'nape',
-        'back',
-        'reverse',
-        'necks',
-        'napes',
-        'backs'
-      ],
-      'orig' => 'qafAF',
       'prefix' => ''
     }
   ],
@@ -53619,6 +53604,33 @@ $Lexicon = {
     },
     {
       'types' => {
+        'qafrA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'qafrA\'',
+      'form' => 'qafrA\'',
+      'lines' => [
+        ';; qaforA\'_1',
+        'qfrA\'   qaforA\' N0_Nh   arid',
+        'qfrA&   qaforA& Nh      arid',
+        'qfrA}   qaforA} Nhy     arid'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'arid'
+      ],
+      'orig' => 'qaforA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '\'iqfAr' => {
           'N/At' => 2
         }
@@ -57107,6 +57119,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'qara.dA\'' => [
+    {
+      'types' => {
+        'qara.dAwiyy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'qara.dA\'',
+      'form' => 'qara.dAwiyy',
+      'lines' => [
+        ';; qaraDAwiy~_1',
+        'qrDAwy  qaraDAwiy~      N0      Qaradawi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Qaradawi'
+      ],
+      'orig' => 'qaraDAwiy~',
+      'prefix' => ''
+    }
+  ],
   'q ^s m ^s' => [
     {
       'types' => {
@@ -57130,36 +57167,6 @@ $Lexicon = {
         'seedless raisins'
       ],
       'orig' => 'qi$omi$',
-      'prefix' => ''
-    }
-  ],
-  'q q .t' => [
-    {
-      'types' => {
-        'qa.t' => {},
-        'qa.tA' => {
-          'N0_Nhy' => 1
-        },
-        'qa.taN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => 'qa.t',
-      'form' => 'qa.t',
-      'lines' => [
-        ';; qaT_1',
-        'qTA     qaTAF   FW-WaBi sand grouse     [[qaTAF/NOUN]]',
-        'qTA     qaTA    N0_Nhy  sand grouse'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL',
-      'suffix' => '',
-      'glosses' => [
-        'sand grouse'
-      ],
-      'orig' => 'qaT',
       'prefix' => ''
     }
   ],
@@ -60037,6 +60044,53 @@ $Lexicon = {
       ],
       'orig' => 'quwb',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'quwabA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        },
+        'quwab' => {
+          'Nap' => 1,
+          'N' => 1
+        },
+        'quwb' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'quwabA\'',
+      'form' => 'quwabA\'',
+      'lines' => [
+        ';; quwabA\'_1',
+        'qwbA\'   quwabA\' N0_Nh   tetter;eczema',
+        'qwbA&   quwabA& Nh      tetter;eczema',
+        'qwbA}   quwabA} Nhy     tetter;eczema',
+        'qwb     quwb    Nap     tetter;eczema',
+        'qwb     quwab   Nap     tetter;eczema',
+        'qwb     quwab   N       tetters;eczema'
+      ],
+      'patterns' => {
+        'quwab' => [
+          'FuCaL'
+        ],
+        'quwb' => [
+          'FUL',
+          'FuCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCaLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'tetter',
+        'eczema',
+        'tetters'
+      ],
+      'orig' => 'quwabA\'',
+      'prefix' => ''
     }
   ],
   'q l `' => [
@@ -61666,35 +61720,6 @@ $Lexicon = {
         'Muqtadir'
       ],
       'orig' => 'muqotadir',
-      'prefix' => ''
-    }
-  ],
-  'q f r \'' => [
-    {
-      'types' => {
-        'qafrA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'qafrA\'',
-      'form' => 'qafrA\'',
-      'lines' => [
-        ';; qaforA\'_1',
-        'qfrA\'   qaforA\' N0_Nh   arid',
-        'qfrA&   qaforA& Nh      arid',
-        'qfrA}   qaforA} Nhy     arid'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'arid'
-      ],
-      'orig' => 'qaforA\'',
       'prefix' => ''
     }
   ],

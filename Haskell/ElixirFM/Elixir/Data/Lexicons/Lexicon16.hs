@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> ".t  '" <| [
@@ -83,7 +83,7 @@ lexicon = listing "Lexicon properties"
     -- TgY     TogaY   IV_0_Pass_yu    be overstepped
 
     FaCA                      `verb`       {- TagA-u -}         [ "overstep", "be excessive", "be overstepped" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".t.gY IV_0_Pass_yu", ".ta.gaw PV_Atn", ".t.guw IV_0hAnn" ] -},
 
     -- ;; TagaY-a_1
@@ -96,7 +96,7 @@ lexicon = listing "Lexicon properties"
     -- Tg      Toga    IV_0hwnyn       dominate;control;be tyrannical
 
     FaCY                      `verb`       {- TagaY-a -}        [ "dominate", "control", "be tyrannical" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".t.gY IV_0" ] -} ]
 
  |> ".t .h n" <| [
@@ -157,7 +157,7 @@ lexicon = listing "Lexicon properties"
     -- TEn     ToEan   IV-n    stab;challenge
 
     FaCaL                     `verb`       {- TaEan-a -}        [ "stab", "challenge" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".t`an IV-n" ] -},
 
     -- ;; TaEon_1
@@ -204,7 +204,7 @@ lexicon = listing "Lexicon properties"
     -- TbE     TobaE   IV_Pass_yu      be printed;be imprinted
 
     FaCaL                     `verb`       {- TabaE-a -}        [ "print", "impress", "be printed", "be imprinted" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".tba` IV IV_Pass_yu" ] -},
 
     -- ;; TaboE_1
@@ -472,7 +472,7 @@ lexicon = listing "Lexicon properties"
     -- Tf      Tof     IV_0hwnyn       float;emerge
 
     FaCA                      `verb`       {- TafA-u -}         [ "float", "emerge" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".tafaw PV_Atn", ".tfuw IV_0hAnn" ] -} ]
 
  |> ".t f y" <| [
@@ -545,7 +545,7 @@ lexicon = listing "Lexicon properties"
     -- TlE     ToluE   IV      appear;rise
 
     FaCaL                     `verb`       {- TalaE-u -}        [ "appear", "rise" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".tlu` IV" ] -},
 
     -- ;; >aTolaE_1
@@ -618,7 +618,7 @@ lexicon = listing "Lexicon properties"
     -- Tlb     Tolub   IV      request
 
     FaCaL                     `verb`       {- Talab-u -}        [ "request" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".tlub IV" ] -},
 
     -- ;; TAlab_1
@@ -840,7 +840,7 @@ lexicon = listing "Lexicon properties"
     -- TmH     TomaH   IV      covet;desire
 
     FaCaL                     `verb`       {- TamaH-a -}        [ "covet", "desire" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".tma.h IV" ] -},
 
     -- ;; TumuwH_1
@@ -863,7 +863,7 @@ lexicon = listing "Lexicon properties"
     -- TmE     TomaE   IV      covet;desire
 
     FaCiL                     `verb`       {- TamiE-a -}        [ "covet", "desire" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".tma` IV" ] -},
 
     -- ;; TamaE_1
@@ -889,7 +889,7 @@ lexicon = listing "Lexicon properties"
     -- Tms     Tomis   IV      eradicate;obliterate
 
     FaCaL                     `verb`       {- Tamas-i -}        [ "eradicate", "obliterate" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".tmis IV" ] -},
 
     -- ;; Tamos_1
@@ -904,7 +904,7 @@ lexicon = listing "Lexicon properties"
 
     FaCL                      `noun`       {- Tamoy -}          [ "alluvial mud" ] ]
 
- |> ".t n .t w" <| [
+ |> ".t n .t '" <| [
 
     -- ;; TanoTAwiy~_2
     -- TnTAwy  TanoTAwiy~      N0      Tantawi;Tantaoui
@@ -974,7 +974,7 @@ lexicon = listing "Lexicon properties"
     -- Tr}     Tora}   IV_yn   occur;happen
 
     FaCaL                     `verb`       {- TaraO-a -}        [ "occur", "happen" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".tra' IV_wn IV_intr IV_yn" ] -},
 
     -- ;; TAri}_1
@@ -1004,7 +1004,7 @@ lexicon = listing "Lexicon properties"
     -- TrH     ToraH   IV_Pass_yu      be submitted;be suggested;be proposed
 
     FaCaL                     `verb`       {- TaraH-a -}        [ "submit", "suggest", "propose", "be submitted", "be suggested", "be proposed" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".tra.h IV IV_Pass_yu", ".turi.h PV_Pass" ] -},
 
     -- ;; TaroH_1
@@ -1053,7 +1053,7 @@ lexicon = listing "Lexicon properties"
     -- Trd     Torad   IV_Pass_yu      be expelled;be dismissed;be kicked out
 
     FaCaL                     `verb`       {- Tarad-u -}        [ "expel", "dismiss", "kick out", "be expelled", "be dismissed", "be kicked out" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".trud IV", ".trad IV_Pass_yu", ".turid PV_Pass" ] -},
 
     -- ;; TArad_1
@@ -1117,6 +1117,16 @@ lexicon = listing "Lexicon properties"
 
     FaCaL |< Iy               `noun`       {- Tarafiy~ -}       [ "extreme" ],
 
+    -- ;; TarofA'_1
+    -- TrfA'   TarofA' N0_Nh   tamarisk
+    -- TrfA&   TarofA& Nh      tamarisk
+    -- TrfA}   TarofA} Nhy     tamarisk
+    -- Trf     Tarof   Napdu   tamarisk
+
+    FaCLA'                    `noun`       {- TarofA' -}        [ "tamarisk" ]
+                              `plural`     FaCL
+                              {- `others` [ ".tarf Napdu" ] -},
+
     -- ;; Tariyf_1
     -- Tryf    Tariyf  N-ap    curious;strange     [[Tariyf/ADJ]]
     -- Tryf    Tariyf  N-ap    original;novel     [[Tariyf/ADJ]]
@@ -1138,16 +1148,6 @@ lexicon = listing "Lexicon properties"
 
     MutaFaCCiL                `noun`       {- mutaTar~if -}     [ "extremist", "radical" ] ]
 
- |> ".t r f '" <| [
-
-    -- ;; TarofA'_1
-    -- TrfA'   TarofA' N0_Nh   tamarisk
-    -- TrfA&   TarofA& Nh      tamarisk
-    -- TrfA}   TarofA} Nhy     tamarisk
-    -- Trf     Tarof   Napdu   tamarisk
-
-    KaRDAS                    `noun`       {- TarofA' -}        [ "tamarisk" ] ]
-
  |> ".t r q" <| [
 
     -- ;; Taraq-u_1
@@ -1156,7 +1156,7 @@ lexicon = listing "Lexicon properties"
     -- Trq     Toraq   IV_Pass_yu      be knocked on (door)
 
     FaCaL                     `verb`       {- Taraq-u -}        [ "knock", "be knocked on (door)" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".traq IV_Pass_yu", ".truq IV" ] -},
 
     -- ;; taTar~aq_1
@@ -1307,7 +1307,7 @@ lexicon = listing "Lexicon properties"
     -- Tf      Tuf     IV_C    circulate;wander about
 
     FAL                       `verb`       {- TAf-u -}          [ "circulate", "wander about" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".tuwf IV_V" ] -},
 
     -- ;; TuwfAn_1
@@ -1356,7 +1356,7 @@ lexicon = listing "Lexicon properties"
     -- Tl      Tul     IV_C_intr       be long
 
     FAL                       `verb`       {- TAl-u -}          [ "be long" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".tuwl IV_V_intr" ] -},
 
     -- ;; TAwal_1
@@ -1535,7 +1535,7 @@ lexicon = listing "Lexicon properties"
     -- TwY     TowaY   IV_0_Pass_yu    be folded;be wrapped
 
     FaCY                      `verb`       {- TawaY-i -}        [ "fold", "wrap", "be folded", "be wrapped" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".twY IV_0_Pass_yu", ".twiy IV_0hAnn", ".taway PV_Atn", ".tawA PV_h" ] -} ]
 
  |> ".t y `" <| [
@@ -1554,7 +1554,7 @@ lexicon = listing "Lexicon properties"
     -- Tb      Tib     IV_C_intr       be good;be pleasant
 
     FAL                       `verb`       {- TAb-i -}          [ "be good", "be pleasant" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".tiyb IV_V_intr" ] -},
 
     -- ;; Tay~ib_1
@@ -1616,7 +1616,7 @@ lexicon = listing "Lexicon properties"
     -- Tr      Tir     IV_C    fly
 
     FAL                       `verb`       {- TAr-i -}          [ "fly" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".tiyr IV_V" ] -},
 
     -- ;; Tayor_1

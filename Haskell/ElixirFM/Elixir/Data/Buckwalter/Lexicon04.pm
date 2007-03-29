@@ -550,6 +550,34 @@ $Lexicon = {
       ],
       'orig' => 'tavA\'ab',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '_tu\'abA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '_tu\'abA\'',
+      'form' => '_tu\'abA\'',
+      'lines' => [
+        ';; vu&abA\'_1',
+        'v&bA\'   vu&abA\' N0_Nh   yawning;fatigue',
+        'v&bA&   vu&abA& Nh      yawning;fatigue',
+        'v&bA}   vu&abA} Nhy     yawning;fatigue'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCaLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'yawning',
+        'fatigue'
+      ],
+      'orig' => 'vuWabA\'',
+      'prefix' => ''
     }
   ],
   '_t y b' => [
@@ -2170,6 +2198,9 @@ $Lexicon = {
       'patterns' => {
         '_tiqAl' => [
           'FiCAL'
+        ],
+        '_tuqalA\'' => [
+          'FuCaLA\''
         ]
       },
       'index' => '1',
@@ -2650,32 +2681,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_t _t b' => [
-    {
-      'types' => {
-        '_tabAt' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_tab',
-      'form' => '_tabAt',
-      'lines' => [
-        ';; vabAt_1',
-        'vbAt    vabAt   N       reliability;constancy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'reliability',
-        'constancy'
-      ],
-      'orig' => 'vabAt',
-      'prefix' => ''
-    }
-  ],
   '_t d y' => [
     {
       'types' => {
@@ -2732,6 +2737,33 @@ $Lexicon = {
         'breasts'
       ],
       'orig' => 'vadoy',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_tadyA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '_tadyA\'',
+      'form' => '_tadyA\'',
+      'lines' => [
+        ';; vadoyA\'_1',
+        'vdyA\'   vadoyA\' N0_Nh   buxom',
+        'vdyA&   vadoyA& Nh      buxom',
+        'vdyA}   vadoyA} Nhy     buxom'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'buxom'
+      ],
+      'orig' => 'vadoyA\'',
       'prefix' => ''
     },
     {
@@ -3003,29 +3035,16 @@ $Lexicon = {
   ],
   '_t d y \'' => [
     {
-      'types' => {
-        '_tadyA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
+      'types' => {},
       'entry' => '_tadyA\'',
       'form' => '_tadyA\'',
-      'lines' => [
-        ';; vadoyA\'_1',
-        'vdyA\'   vadoyA\' N0_Nh   buxom',
-        'vdyA&   vadoyA& Nh      buxom',
-        'vdyA}   vadoyA} Nhy     buxom'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRDAS',
       'suffix' => '',
-      'glosses' => [
-        'buxom'
-      ],
+      'glosses' => [],
       'orig' => 'vadoyA\'',
       'prefix' => ''
     }
@@ -4106,6 +4125,32 @@ $Lexicon = {
         'blade of grass'
       ],
       'orig' => 'vumAm',
+      'prefix' => ''
+    }
+  ],
+  '_tab' => [
+    {
+      'types' => {
+        '_tabAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_tab',
+      'form' => '_tabAt',
+      'lines' => [
+        ';; vabAt_1',
+        'vbAt    vabAt   N       reliability;constancy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'reliability',
+        'constancy'
+      ],
+      'orig' => 'vabAt',
       'prefix' => ''
     }
   ],
@@ -5779,36 +5824,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_tu\'abA\'' => [
-    {
-      'types' => {
-        '_tu\'abA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '_tu\'abA\'',
-      'form' => '_tu\'abA\'',
-      'lines' => [
-        ';; vu&abA\'_1',
-        'v&bA\'   vu&abA\' N0_Nh   yawning;fatigue',
-        'v&bA&   vu&abA& Nh      yawning;fatigue',
-        'v&bA}   vu&abA} Nhy     yawning;fatigue'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'yawning',
-        'fatigue'
-      ],
-      'orig' => 'vuWabA\'',
-      'prefix' => ''
-    }
-  ],
   'lilAi_tnatay' => [
     {
       'types' => {
@@ -6583,6 +6598,42 @@ $Lexicon = {
         'to/for + the + (1st word in "twelve")'
       ],
       'orig' => 'lil{ivonayo',
+      'prefix' => ''
+    }
+  ],
+  '_tar' => [
+    {
+      'types' => {
+        '\'a_triyA\'' => {
+          'Nh' => 2,
+          'Nhy' => 2,
+          'N0_Nh' => 2
+        },
+        '_tariyy' => {
+          'N/ap' => 1
+        }
+      },
+      'entry' => '_tar',
+      'form' => '_tariyy',
+      'lines' => [
+        ';; variy~_1',
+        'vry     variy~  N/ap    wealthy     [[variy~/ADJ]]',
+        '>vryA\'  >avoriyA\'       N0_Nh   wealthy',
+        'AvryA\'  >avoriyA\'       N0_Nh   wealthy',
+        '>vryA&  >avoriyA&       Nh      wealthy',
+        'AvryA&  >avoriyA&       Nh      wealthy',
+        '>vryA}  >avoriyA}       Nhy     wealthy',
+        'AvryA}  >avoriyA}       Nhy     wealthy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'wealthy'
+      ],
+      'orig' => 'variy~',
       'prefix' => ''
     }
   ],
@@ -8137,7 +8188,11 @@ $Lexicon = {
         'vxnA&   vuxanA& Nh      thick;dense',
         'vxnA}   vuxanA} Nhy     thick;dense'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_tu_hanA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -9546,42 +9601,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_t _t r' => [
-    {
-      'types' => {
-        '\'a_triyA\'' => {
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
-        },
-        '_tariyy' => {
-          'N/ap' => 1
-        }
-      },
-      'entry' => '_tar',
-      'form' => '_tariyy',
-      'lines' => [
-        ';; variy~_1',
-        'vry     variy~  N/ap    wealthy     [[variy~/ADJ]]',
-        '>vryA\'  >avoriyA\'       N0_Nh   wealthy',
-        'AvryA\'  >avoriyA\'       N0_Nh   wealthy',
-        '>vryA&  >avoriyA&       Nh      wealthy',
-        'AvryA&  >avoriyA&       Nh      wealthy',
-        '>vryA}  >avoriyA}       Nhy     wealthy',
-        'AvryA}  >avoriyA}       Nhy     wealthy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'wealthy'
-      ],
-      'orig' => 'variy~',
-      'prefix' => ''
-    }
-  ],
   '_t \' r' => [
     {
       'types' => {
@@ -10662,6 +10681,9 @@ $Lexicon = {
 $Lexicon->{'_t w m'}[1]{'types'} = $Lexicon->{'_t w m'}[0]{'types'};
 $Lexicon->{'_t w m'}[1]{'lines'} = $Lexicon->{'_t w m'}[0]{'lines'};
 $Lexicon->{'_t w m'}[1]{'glosses'} = $Lexicon->{'_t w m'}[0]{'glosses'};
+$Lexicon->{'_t d y \''}[0]{'types'} = $Lexicon->{'_t d y'}[1]{'types'};
+$Lexicon->{'_t d y \''}[0]{'lines'} = $Lexicon->{'_t d y'}[1]{'lines'};
+$Lexicon->{'_t d y \''}[0]{'glosses'} = $Lexicon->{'_t d y'}[1]{'glosses'};
 $Lexicon->{'_t n y'}[4]{'types'} = $Lexicon->{'_t n n'}[1]{'types'};
 $Lexicon->{'_t n y'}[4]{'lines'} = $Lexicon->{'_t n n'}[1]{'lines'};
 $Lexicon->{'_t n y'}[4]{'glosses'} = $Lexicon->{'_t n n'}[1]{'glosses'};

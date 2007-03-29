@@ -89,7 +89,7 @@ import Elixir.Lexicon
 
 version = revised "\$Revision: \$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
     return;
@@ -148,15 +148,15 @@ sub showEntry ($) {
     }
 
     return sprintf "%s\n    %-25s %-12s %-20s %s",
-                   (join '', map { '    -- ' . $_ . "\n" } @{$entry->{'lines'}}),
+                   (join '', map { '    -- ' . escape($_) . "\n" } @{$entry->{'lines'}}),
                    $entry->{'morphs'}, '`' . $entry->{'entity'} . '`',
-                   (exists $entry->{'orig'} ? '{- ' . $entry->{'orig'} . ' -}' : ''),
+                   (exists $entry->{'orig'} ? '{- ' . escape($entry->{'orig'}) . ' -}' : ''),
 
                    (join "\n" . ' ' x 30,
                    (exists $entry->{'glosses'} ? '[ ' .
                                     (join ', ', map { showGloss($_) } @{$entry->{'glosses'}}) . ' ]' : ()),
-                   (exists $entry->{'imperf'} ? '`imperf`     [ ' .
-                                    (join ', ', @{$entry->{'imperf'}}) . ' ]' : ()),
+                   (exists $entry->{'imperf'} ?
+                                     map { '`imperf`     ' . $_ } @{$entry->{'imperf'}} : ()),
                    (@{$plural} > 0 ? map { '`plural`     ' . $_ } @{$plural} : ()),
                    (@{$others} > 0 ? '{- `others` [ ' .
                                     (join ', ', map { '"' . $_ . '"' } @{$others}) . ' ] -}' : ()));
@@ -173,4 +173,14 @@ sub showGloss ($) {
     chomp $data;
 
     return $data;
+}
+
+
+sub escape {
+
+    my $entry = $_[0];
+
+    $entry =~ s/^([\|\*\$])/\\$1/;
+
+    return $entry;
 }

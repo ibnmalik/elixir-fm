@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> ".z b y" <| [
@@ -45,7 +45,7 @@ lexicon = listing "Lexicon properties"
     -- Zhr     Zohar   IV      appear;emerge
 
     FaCaL                     `verb`       {- Zahar-a -}        [ "appear", "emerge" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".zhar IV" ] -},
 
     -- ;; >aZohar_1
@@ -216,7 +216,7 @@ lexicon = listing "Lexicon properties"
     -- Znn     Zonun   IV-n    think;believe;presume
 
     FaCL                      `verb`       {- Zan~-u -}         [ "think", "believe", "presume" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".znun IV-n", ".zanan PV_Cn", ".zunn IV_V" ] -},
 
     -- ;; Zan~_1
@@ -261,7 +261,9 @@ lexicon = listing "Lexicon properties"
     -- ZrfA}   ZurafA} Nhy     adroit;elegant
     -- ZrA}f   ZarA}if Ndip    adroit;elegant;courteous
 
-    FaCIL                     `noun`       {- Zariyf -}         [ "adroit", "elegant", "courteous" ],
+    FaCIL                     `noun`       {- Zariyf -}         [ "adroit", "elegant", "courteous" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ ".zurafA' Nh N0_Nh Nhy" ] -},
 
     -- ;; maZoruwf_1
     -- mZrwf   maZoruwf        Ndu     envelope

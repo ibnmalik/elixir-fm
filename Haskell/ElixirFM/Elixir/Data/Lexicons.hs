@@ -66,6 +66,8 @@ import Version
 version = revised "$Revision$"
 
 
+lexicon :: Lexicon
+
 lexicon =  -- Extra.lexicon ++ Yaa.lexicon
 
               Extra.lexicon

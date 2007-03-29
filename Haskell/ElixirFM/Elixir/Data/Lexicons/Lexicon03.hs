@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> "litawwi-" <| [
@@ -142,7 +142,7 @@ lexicon = listing "Lexicon properties"
     -- tEb     toEab   IV_intr be tired;work hard
 
     FaCiL                     `verb`       {- taEib-a -}        [ "be tired", "work hard" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "t`ab IV_intr" ] -},
 
     -- ;; >atoEab_1
@@ -182,7 +182,7 @@ lexicon = listing "Lexicon properties"
     -- tbE     tobaE   IV      follow;pursue
 
     FaCiL                     `verb`       {- tabiE-a -}        [ "follow", "pursue" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "tba` IV" ] -},
 
     -- ;; tAbaE_1
@@ -308,6 +308,39 @@ lexicon = listing "Lexicon properties"
 
     MuKaRDaS                  `noun`       {- mutalofaz -}      [ "televised" ] ]
 
+ |> "t l k" <| [
+
+    -- ;; talA-u_1
+    -- tlA     talA    PV_0h   follow;recite
+    -- tlw     talaw   PV_Atn  follow;recite
+    -- tl      tal     PV_ttAw follow;recite
+    -- tlw     toluw   IV_0hAnn        follow;recite
+    -- tl      tol     IV_0hwnyn       follow;recite
+    -- tlY     tolaY   IV_0_Pass_yu    be followed;be recited
+    -- tly     tolay   IV_Ann_Pass_yu  be followed;be recited
+
+    FaCA                      `verb`       {- talA-u -}         [ "follow", "recite", "be followed", "be recited" ]
+                              `imperf`     FCuL
+                              {- `others` [ "tluw IV_0hAnn", "tlY IV_0_Pass_yu" ] -},
+
+    -- ;; tAliy_1
+    -- tAly    tAliy   N0F     following;subsequent     [[tAliy/ADJ]]
+    -- tAl     tAl     NK      following;subsequent     [[tAl/ADJ]]
+    -- tAly    tAliy   NAn_Nayn        following;subsequent     [[tAliy/ADJ]]
+    -- tAl     tAl     Nuwn_Niyn       following;subsequent     [[tAl/ADJ]]
+    -- tAly    tAliy   NapAt   following;subsequent     [[tAliy/ADJ]]
+
+    FACI                      `noun`       {- tAliy -}          [ "following", "subsequent" ],
+
+    -- ;; mutatAliy_1
+    -- mttAly  mutatAliy       N0F_Nh  consecutive;successive
+    -- mttAl   mutatAl NK      consecutive;successive
+    -- mttAly  mutatAliy       NAn_Nayn        consecutive;successive
+    -- mttAl   mutatAl Nuwn_Niyn       consecutive;successive
+    -- mttAly  mutatAliy       NapAt   consecutive;successive
+
+    MutaFACI                  `noun`       {- mutatAliy -}      [ "consecutive", "successive" ] ]
+
  |> "t l l" <| [
 
     -- ;; tal~_1
@@ -351,39 +384,6 @@ lexicon = listing "Lexicon properties"
                               `plural`     KaRADiS |< aT
                               {- `others` [ "talAmiy_d Ndip", "talAmi_d Nap" ] -} ]
 
- |> "t l t" <| [
-
-    -- ;; talA-u_1
-    -- tlA     talA    PV_0h   follow;recite
-    -- tlw     talaw   PV_Atn  follow;recite
-    -- tl      tal     PV_ttAw follow;recite
-    -- tlw     toluw   IV_0hAnn        follow;recite
-    -- tl      tol     IV_0hwnyn       follow;recite
-    -- tlY     tolaY   IV_0_Pass_yu    be followed;be recited
-    -- tly     tolay   IV_Ann_Pass_yu  be followed;be recited
-
-    FaCA                      `verb`       {- talA-u -}         [ "follow", "recite", "be followed", "be recited" ]
-                              `imperf` [ FCuL ]
-                              {- `others` [ "tluw IV_0hAnn", "tlY IV_0_Pass_yu" ] -},
-
-    -- ;; tAliy_1
-    -- tAly    tAliy   N0F     following;subsequent     [[tAliy/ADJ]]
-    -- tAl     tAl     NK      following;subsequent     [[tAl/ADJ]]
-    -- tAly    tAliy   NAn_Nayn        following;subsequent     [[tAliy/ADJ]]
-    -- tAl     tAl     Nuwn_Niyn       following;subsequent     [[tAl/ADJ]]
-    -- tAly    tAliy   NapAt   following;subsequent     [[tAliy/ADJ]]
-
-    FACI                      `noun`       {- tAliy -}          [ "following", "subsequent" ],
-
-    -- ;; mutatAliy_1
-    -- mttAly  mutatAliy       N0F_Nh  consecutive;successive
-    -- mttAl   mutatAl NK      consecutive;successive
-    -- mttAly  mutatAliy       NAn_Nayn        consecutive;successive
-    -- mttAl   mutatAl Nuwn_Niyn       consecutive;successive
-    -- mttAly  mutatAliy       NapAt   consecutive;successive
-
-    MutaFACI                  `noun`       {- mutatAliy -}      [ "consecutive", "successive" ] ]
-
  |> "t l y" <| [
 
     -- ;; tAliy_1
@@ -421,7 +421,7 @@ lexicon = listing "Lexicon properties"
     -- tmm     tomim   IV_C    conclude;take place
 
     FaCL                      `verb`       {- tam~-i -}         [ "conclude", "take place" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "tmim IV_C", "timm IV_V", "tamam PV_C" ] -},
 
     -- ;; >atam~_1
@@ -682,7 +682,7 @@ lexicon = listing "Lexicon properties"
     -- Atrk    {utoruk CV      leave;quit
 
     FaCaL                     `verb`       {- tarak-u -}        [ "leave", "quit" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "truk IV" ] -},
 
     -- ;; tarok_1
@@ -812,7 +812,7 @@ lexicon = listing "Lexicon properties"
     -- th      tuh     IV_C    go astray;get lost
 
     FAL                       `verb`       {- tAh-u -}          [ "go astray", "get lost" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "tuwh IV_V" ] -} ]
 
  |> "t w m" <| [
@@ -850,7 +850,7 @@ lexicon = listing "Lexicon properties"
     -- tq      tuq     IV_C    yearn;wish;desire
 
     FAL                       `verb`       {- tAq-u -}          [ "yearn", "wish", "desire" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "tuwq IV_V" ] -},
 
     -- ;; taw~Aq_1

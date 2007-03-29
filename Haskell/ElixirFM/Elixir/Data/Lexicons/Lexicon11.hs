@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> "mAzAla" <| [
@@ -49,13 +49,6 @@ lexicon = listing "Lexicon properties"
 
     lA >| Identity            `noun`       {- lAyazAl -}        [ "not + stop/cease + he/it (he/it continues)", "not + stop/cease + they [masc.du.] (they both continue)", "not + stop/cease + they (they continue)", "not + stop/cease + it/she/they (it/she/they continue(s))", "not + stop/cease + they [fem.du.] (they both continue)", "not + stop/cease + they [fem.] (they continue)", "not + stop/cease + you [masc.sg.] (you continue)", "not + stop/cease + you [du.] (you both continue)", "not + stop/cease + you [masc.pl.] (you continue)", "not + stop/cease + you [fem.sg.] (you continue)", "not + stop/cease + you [fem.pl.] (you continue)", "not + stop/cease + I (I continue)", "not + stop/cease + we (we continue)" ] ]
 
- |> "z" <| [
-
-    -- ;; ziy~_1
-    -- zy      ziy~    N       uniform;clothing
-
-    Identity |< Iy            `noun`       {- ziy~ -}           [ "uniform", "clothing" ] ]
-
  |> "z ' d" <| [
 
     -- ;; zA}id_1
@@ -92,7 +85,7 @@ lexicon = listing "Lexicon properties"
     -- zHf     zoHaf   IV      crawl;advance;march
 
     FaCaL                     `verb`       {- zaHaf-a -}        [ "crawl", "advance", "march" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "z.haf IV" ] -},
 
     -- ;; zaHof_1
@@ -136,7 +129,7 @@ lexicon = listing "Lexicon properties"
     -- zjj     zojuj   IV_C    throw;push;press
 
     FaCL                      `verb`       {- zaj~-u -}         [ "throw", "push", "press" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "z^gu^g IV_C", "za^ga^g PV_C", "zu^g^g IV_V" ] -},
 
     -- ;; zujAj_1
@@ -169,7 +162,7 @@ lexicon = listing "Lexicon properties"
     -- zxr     zoxar   IV      abound;overflow
 
     FaCaL                     `verb`       {- zaxar-a -}        [ "abound", "overflow" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "z_har IV" ] -},
 
     -- ;; zAxir_1
@@ -199,7 +192,7 @@ lexicon = listing "Lexicon properties"
     -- zEj     zoEaj   IV      bother;anger;harass
 
     FaCaL                     `verb`       {- zaEaj-a -}        [ "bother", "anger", "harass" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "z`a^g IV" ] -},
 
     -- ;; >azoEaj_1
@@ -229,7 +222,7 @@ lexicon = listing "Lexicon properties"
     -- zEm     zoEum   IV      allege;claim
 
     FaCaL                     `verb`       {- zaEam-u -}        [ "allege", "claim" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "z`um IV" ] -},
 
     -- ;; tazaE~am_1
@@ -249,7 +242,9 @@ lexicon = listing "Lexicon properties"
     -- zEmA&   zuEamA& Nh      leaders;heads of state
     -- zEmA}   zuEamA} Nhy     leaders;heads of state
 
-    FaCIL                     `noun`       {- zaEiym -}         [ "leader", "head of state", "leaders", "heads of state" ],
+    FaCIL                     `noun`       {- zaEiym -}         [ "leader", "head of state", "leaders", "heads of state" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "zu`amA' Nh N0_Nh Nhy" ] -},
 
     -- ;; zaEAmap_1
     -- zEAm    zaEAm   Napdu   leadership
@@ -279,7 +274,7 @@ lexicon = listing "Lexicon properties"
     -- zEq     zoEaq   IV      cry;yell
 
     FaCaL                     `verb`       {- zaEaq-a -}        [ "cry", "yell" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "z`aq IV" ] -} ]
 
  |> "z ` z `" <| [
@@ -452,7 +447,7 @@ lexicon = listing "Lexicon properties"
     -- zlq     zoluq   IV      slip;glide
 
     FaCaL                     `verb`       {- zalaq-u -}        [ "slip", "glide" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "zluq IV" ] -},
 
     -- ;; mazolaq_1
@@ -511,7 +506,9 @@ lexicon = listing "Lexicon properties"
     -- zmlA&   zumalA& Nh      colleagues;associates;companions
     -- zmlA}   zumalA} Nhy     colleagues;associates;companions
 
-    FaCIL                     `noun`       {- zamiyl -}         [ "colleague", "associate", "companion", "colleagues", "associates", "companions" ] ]
+    FaCIL                     `noun`       {- zamiyl -}         [ "colleague", "associate", "companion", "colleagues", "associates", "companions" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "zumalA' Nh N0_Nh Nhy" ] -} ]
 
  |> "z m l k" <| [
 
@@ -623,7 +620,7 @@ lexicon = listing "Lexicon properties"
     -- zrE     zoraE   IV      plant;implant;cultivate
 
     FaCaL                     `verb`       {- zaraE-a -}        [ "plant", "implant", "cultivate" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "zra` IV" ] -},
 
     -- ;; zaroE_1
@@ -699,7 +696,8 @@ lexicon = listing "Lexicon properties"
 
     HaFCaL                    `noun`       {- Oazoraq -}        [ "blue" ]
                               `plural`     FuCuL
-                              {- `others` [ "zuruq N" ] -} ]
+                              `plural`     FaCLA'
+                              {- `others` [ "zuruq N", "zarqA' Nh N0_Nh Nhy" ] -} ]
 
  |> "z r r" <| [
 
@@ -710,7 +708,7 @@ lexicon = listing "Lexicon properties"
     -- zrr     zorur   IV_C    button up;contort
 
     FaCL                      `verb`       {- zar~-u -}         [ "button up", "contort" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "zarar PV_C", "zurr IV_V", "zrur IV_C" ] -},
 
     -- ;; zir~_1
@@ -852,7 +850,7 @@ lexicon = listing "Lexicon properties"
     -- zl      zul     IV_C    disappear
 
     FAL                       `verb`       {- zAl-u -}          [ "disappear" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "zuwl IV_V" ] -},
 
     -- ;; zAl-a_1
@@ -862,7 +860,7 @@ lexicon = listing "Lexicon properties"
     -- zl      zal     IV_C    cease;stop being;stop doing
 
     FAL                       `verb`       {- zAl-a -}          [ "cease", "stop being", "stop doing" ]
-                              `imperf` [ FCaL ],
+                              `imperf`     FCaL,
 
     -- ;; zAwal_1
     -- zAwl    zAwal   PV      pursue
@@ -920,7 +918,7 @@ lexicon = listing "Lexicon properties"
     -- zr      zur     IV_C    visit
 
     FAL                       `verb`       {- zAr-u -}          [ "visit" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "zuwr IV_V" ] -},
 
     -- ;; zuwr_1
@@ -1018,7 +1016,7 @@ lexicon = listing "Lexicon properties"
     -- zd      zad     IV_C_Pass_yu    be increased;be added
 
     FAL                       `verb`       {- zAd-i -}          [ "increase", "exceed", "add", "be increased", "be added" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "ziyd IV_V" ] -},
 
     -- ;; zay~ad_1
@@ -1197,6 +1195,16 @@ lexicon = listing "Lexicon properties"
     KaRDUS                    `noun`       {- zayotuwn -}       [ "olives", "olive tree" ] ]
 
  |> "z y y" <| [
+
+    -- ;; ziy~_1
+    -- zy      ziy~    N       uniform;clothing
+
+    FIL                       `noun`       {- ziy~ -}           [ "uniform", "clothing" ],
+
+    -- ;; ziy~_1
+    -- zy      ziy~    N       uniform;clothing
+
+    FiCL                      `noun`       {- ziy~ -}           [ "uniform", "clothing" ],
 
     -- ;; zay~At_1
     -- zyAt    zay~At  N0      Zayyat

@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> "y ' q" <| [
@@ -51,7 +51,7 @@ lexicon = listing "Lexicon properties"
                               `plural`     FuCUL
                               {- `others` [ "yu_huwt N" ] -} ]
 
- |> "y d " <| [
+ |> "y d d" <| [
 
     -- ;; yadawiy~_1
     -- ydwy    yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]
@@ -189,7 +189,7 @@ lexicon = listing "Lexicon properties"
     -- yqn     yoqan   IV-n_intr       be sure;know for certain
 
     FaCiL                     `verb`       {- yaqin-a -}        [ "be sure", "know for certain" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "yqan IV-n_intr" ] -},
 
     -- ;; >ayoqan_1
@@ -215,7 +215,7 @@ lexicon = listing "Lexicon properties"
 
     MutaFaCCiL                `noun`       {- mutayaq~in -}     [ "convinced", "certain" ] ]
 
- |> "y r r" <| [
+ |> "y r y" <| [
 
     -- ;; yuwriy_1
     -- ywry    yuwriy  Nprop   Youri;Yuri
@@ -393,51 +393,6 @@ lexicon = listing "Lexicon properties"
 
     KuRDuS |< Iy              `noun`       {- yuwsufiy~ -}      [ "tangerines" ] ]
 
- |> "y y " <| [
-
-    -- ;; yiy_1
-    -- yy      yiy     Nprop   Yi
-
-    CI                        `noun`       {- yiy -}            [ "Yi" ] ]
-
- |> "y y d" <| [
-
-    -- ;; yad_1
-    -- yd      yad     Ndu     hand
-    -- >ydy    >ayodiy N0_Nh   hands
-    -- Aydy    >ayodiy N0_Nh   hands
-    -- >yd     >ayod   NK      hands
-    -- Ayd     >ayod   NK      hands
-    -- >yAdy   >ayAdiy N0_Nh   hands
-    -- AyAdy   >ayAdiy N0_Nh   hands
-    -- >yAd    >ayAd   NK      hands
-    -- AyAd    >ayAd   NK      hands
-
-    CaL                       `noun`       {- yad -}            [ "hand", "hands" ]
-                              `plural`     HaFAL
-                              {- `others` [ "'ayAd NK" ] -} ]
-
- |> "y y n" <| [
-
-    -- ;; yin_1
-    -- yn      yin     N       Yen
-
-    CiL                       `noun`       {- yin -}            [ "Yen" ] ]
-
- |> "y y w" <| [
-
-    -- ;; yuw_1
-    -- yw      yuw     Nprop   Yo;Yu
-
-    CuL                       `noun`       {- yuw -}            [ "Yo", "Yu" ] ]
-
- |> "y y y" <| [
-
-    -- ;; yiy_1
-    -- yy      yiy     Nprop   Yi
-
-    CiL                       `noun`       {- yiy -}            [ "Yi" ] ]
-
  |> "yA" <| [
 
     -- ;; yA_1
@@ -500,6 +455,21 @@ lexicon = listing "Lexicon properties"
 
     Identity                  `noun`       {- yAsomiyn -}       [ "Yasmin", "Yasmeen", "Jasmine" ] ]
 
+ |> "yad" <| [
+
+    -- ;; yad_1
+    -- yd      yad     Ndu     hand
+    -- >ydy    >ayodiy N0_Nh   hands
+    -- Aydy    >ayodiy N0_Nh   hands
+    -- >yd     >ayod   NK      hands
+    -- Ayd     >ayod   NK      hands
+    -- >yAdy   >ayAdiy N0_Nh   hands
+    -- AyAdy   >ayAdiy N0_Nh   hands
+    -- >yAd    >ayAd   NK      hands
+    -- AyAd    >ayAd   NK      hands
+
+    Identity                  `noun`       {- yad -}            [ "hand", "hands" ] ]
+
  |> "yadiy`uwt" <| [
 
     -- ;; yadiyEuwt_1
@@ -507,12 +477,33 @@ lexicon = listing "Lexicon properties"
 
     Identity                  `noun`       {- yadiyEuwt -}      [ "Yediot" ] ]
 
+ |> "yin" <| [
+
+    -- ;; yin_1
+    -- yn      yin     N       Yen
+
+    Identity                  `noun`       {- yin -}            [ "Yen" ] ]
+
+ |> "yiy" <| [
+
+    -- ;; yiy_1
+    -- yy      yiy     Nprop   Yi
+
+    Identity                  `noun`       {- yiy -}            [ "Yi" ] ]
+
  |> "yusriy" <| [
 
     -- ;; yusoriy_1
     -- ysry    yusoriy Nprop   Yusri;Yosri
 
     Identity                  `noun`       {- yusoriy -}        [ "Yusri", "Yosri" ] ]
+
+ |> "yuw" <| [
+
+    -- ;; yuw_1
+    -- yw      yuw     Nprop   Yo;Yu
+
+    Identity                  `noun`       {- yuw -}            [ "Yo", "Yu" ] ]
 
  |> "yuw.guwslAf" <| [
 

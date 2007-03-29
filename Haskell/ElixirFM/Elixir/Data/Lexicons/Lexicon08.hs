@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> "d ' b" <| [
@@ -16,7 +16,7 @@ lexicon = listing "Lexicon properties"
     -- d>b     do>ab   IV      persist;be devoted
 
     FaCaL                     `verb`       {- daOab-a -}        [ "persist", "be devoted" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "d'ab IV" ] -},
 
     -- ;; da'uwb_1
@@ -160,7 +160,7 @@ lexicon = listing "Lexicon properties"
     -- dxl     doxal   IV_Pass_yu      be entered
 
     FaCaL                     `verb`       {- daxal-u -}        [ "enter", "be entered" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "d_hul IV", "d_hal IV_Pass_yu" ] -},
 
     -- ;; >adoxal_1
@@ -189,7 +189,9 @@ lexicon = listing "Lexicon properties"
     -- dxlA&   duxalA& Nh      foreigners;intruders
     -- dxlA}   duxalA} Nhy     foreigners;intruders
 
-    FaCIL                     `noun`       {- daxiyl -}         [ "foreign", "intruder", "foreigners", "intruders" ],
+    FaCIL                     `noun`       {- daxiyl -}         [ "foreign", "intruder", "foreigners", "intruders" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "du_halA' Nh N0_Nh Nhy" ] -},
 
     -- ;; daxiyl_2
     -- dxyl    daxiyl  Nall    internal;inner     [[daxiyl/ADJ]]
@@ -316,7 +318,7 @@ lexicon = listing "Lexicon properties"
     -- dEm     doEam   IV      support;strengthen
 
     FaCaL                     `verb`       {- daEam-a -}        [ "support", "strengthen" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "d`am IV" ] -},
 
     -- ;; tadaE~am_1
@@ -381,7 +383,7 @@ lexicon = listing "Lexicon properties"
     -- dEy     doEay   IV_Ann_Pass_yu  be called;be invited
 
     FaCA                      `verb`       {- daEA-u -}         [ "call", "invite", "be called", "be invited" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "da`aw PV_Atn", "d`uw IV_0hAnn", "d`Y IV_0_Pass_yu" ] -},
 
     -- ;; dAEaY_1
@@ -558,7 +560,7 @@ lexicon = listing "Lexicon properties"
     -- dbb     dobib   IV_C    crawl;advance;spread
 
     FaCL                      `verb`       {- dab~-i -}         [ "crawl", "advance", "spread" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "dibb IV_V", "dbib IV_C", "dabab PV_C" ] -},
 
     -- ;; dab~Abap_1
@@ -605,23 +607,6 @@ lexicon = listing "Lexicon properties"
 
     FuCayL                    `noun`       {- dubay~ -}         [ "Dubai" ] ]
 
- |> "d d m" <| [
-
-    -- ;; dam_1
-    -- dm      dam     N       blood
-    -- dmA'    dimA'   N0_Nh   blood
-    -- dmA&    dimA&   Nh      blood
-    -- dmA}    dimA}   Nhy     blood
-
-    CaL                       `noun`       {- dam -}            [ "blood" ] ]
-
- |> "d d w" <| [
-
-    -- ;; duw_1
-    -- dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]
-
-    CuL                       `noun`       {- duw -}            [ "Du", "Do" ] ]
-
  |> "d f '" <| [
 
     -- ;; difo'_1
@@ -643,7 +628,7 @@ lexicon = listing "Lexicon properties"
     -- dfE     dofaE   IV      push;motivate;pay
 
     FaCaL                     `verb`       {- dafaE-a -}        [ "push", "motivate", "pay" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "dfa` IV" ] -},
 
     -- ;; dAfaE_1
@@ -773,7 +758,7 @@ lexicon = listing "Lexicon properties"
     -- dfn     dofin   IV-n    bury;hide
 
     FaCaL                     `verb`       {- dafan-i -}        [ "bury", "hide" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "dfin IV-n" ] -},
 
     -- ;; dafon_1
@@ -787,7 +772,9 @@ lexicon = listing "Lexicon properties"
     -- dfnA&   dufanA& Nh      buried;hidden
     -- dfnA}   dufanA} Nhy     buried;hidden
 
-    FaCIL                     `noun`       {- dafiyn -}         [ "buried", "hidden" ],
+    FaCIL                     `noun`       {- dafiyn -}         [ "buried", "hidden" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "dufanA' Nh N0_Nh Nhy" ] -},
 
     -- ;; madofan_1
     -- mdfn    madofan Ndu     cemetery;burial place
@@ -860,7 +847,7 @@ lexicon = listing "Lexicon properties"
     -- dhm     doham   IV      surprise;raid
 
     FaCaL                     `verb`       {- daham-a -}        [ "surprise", "raid" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "dham IV", "dahim PV" ] -},
 
     -- ;; dAham_1
@@ -882,7 +869,7 @@ lexicon = listing "Lexicon properties"
     -- dhn     dohun   IV-n    paint;varnish
 
     FaCaL                     `verb`       {- dahan-u -}        [ "paint", "varnish" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "dhun IV-n" ] -},
 
     -- ;; dihAn_1
@@ -913,7 +900,7 @@ lexicon = listing "Lexicon properties"
     -- dhs     dohas   IV      trample;crush;run over
 
     FaCaL                     `verb`       {- dahas-a -}        [ "trample", "crush", "run over" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "dhas IV" ] -} ]
 
  |> "d h w r" <| [
@@ -1015,7 +1002,7 @@ lexicon = listing "Lexicon properties"
     -- dll     dolul   IV_C    point;indicate
 
     FaCL                      `verb`       {- dal~-u -}         [ "point", "indicate" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "dlul IV_C", "dalal PV_C", "dull IV_V" ] -},
 
     -- ;; dal~al_1
@@ -1198,7 +1185,7 @@ lexicon = listing "Lexicon properties"
     -- dmr     domur   IV      perish;be destroyed
 
     FaCaL                     `verb`       {- damar-u -}        [ "perish", "be destroyed" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "dmur IV" ] -},
 
     -- ;; dam~ar_1
@@ -1416,7 +1403,7 @@ lexicon = listing "Lexicon properties"
     -- dqq     doquq   IV_C    knock;strike;throb
 
     FaCL                      `verb`       {- daq~-u -}         [ "knock", "strike", "throb" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "duqq IV_V", "daqaq PV_C", "dquq IV_C" ] -},
 
     -- ;; daq~_1
@@ -1701,7 +1688,7 @@ lexicon = listing "Lexicon properties"
     -- drs     dorus   IV      study;learn
 
     FaCaL                     `verb`       {- daras-u -}        [ "study", "learn" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "drus IV" ] -},
 
     -- ;; dar~as_1
@@ -1802,7 +1789,7 @@ lexicon = listing "Lexicon properties"
     -- drY     doraY   IV_0_Pass_yu    be known;be noticed
 
     FaCY                      `verb`       {- daraY-i -}        [ "know", "be aware of", "notice", "be known", "be noticed" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "daray PV_Atn", "darA PV_h", "drY IV_0_Pass_yu", "driy IV_0hAnn" ] -},
 
     -- ;; >adoraY_1
@@ -1846,7 +1833,7 @@ lexicon = listing "Lexicon properties"
     -- dss     dosus   IV_C    insert;stick
 
     FaCL                      `verb`       {- das~-u -}         [ "insert", "stick" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "dsus IV_C", "duss IV_V", "dasas PV_C" ] -} ]
 
  |> "d s t r" <| [
@@ -2098,7 +2085,7 @@ lexicon = listing "Lexicon properties"
     -- dr      dur     IV_C    go around;turn
 
     FAL                       `verb`       {- dAr-u -}          [ "go around", "turn" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "duwr IV_V" ] -},
 
     -- ;; >adAr_1
@@ -2265,7 +2252,7 @@ lexicon = listing "Lexicon properties"
     -- ds      dus     IV_C    step on;run over
 
     FAL                       `verb`       {- dAs-u -}          [ "step on", "run over" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "duws IV_V" ] -} ]
 
  |> "d w s r" <| [
@@ -2437,7 +2424,7 @@ lexicon = listing "Lexicon properties"
     -- dn      din     IV_C    condemn;borrow;profess
 
     FAL                       `verb`       {- dAn-i -}          [ "condemn", "borrow", "profess" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "diyn IV_V" ] -},
 
     -- ;; >adAn_1
@@ -2662,6 +2649,16 @@ lexicon = listing "Lexicon properties"
     -- dAwwd   dAwwud  Nprop   David;Daud;Daoud
 
     Identity                  `noun`       {- dAwud -}          [ "David", "Daud", "Daoud" ] ]
+
+ |> "dam" <| [
+
+    -- ;; dam_1
+    -- dm      dam     N       blood
+    -- dmA'    dimA'   N0_Nh   blood
+    -- dmA&    dimA&   Nh      blood
+    -- dmA}    dimA}   Nhy     blood
+
+    Identity                  `noun`       {- dam -}            [ "blood" ] ]
 
  |> "damanhuwr" <| [
 
@@ -2908,6 +2905,13 @@ lexicon = listing "Lexicon properties"
     -- dktwrAh dukotuwrAh      N       doctorate
 
     Identity |< aT            `noun`       {- dukotuwrAp -}     [ "doctorate" ] ]
+
+ |> "duw" <| [
+
+    -- ;; duw_1
+    -- dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]
+
+    Identity                  `noun`       {- duw -}            [ "Du", "Do" ] ]
 
  |> "duw.glAs" <| [
 

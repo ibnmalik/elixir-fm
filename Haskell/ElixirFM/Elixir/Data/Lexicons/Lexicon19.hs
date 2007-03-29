@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> ".g" <| [
@@ -75,7 +75,7 @@ lexicon = listing "Lexicon properties"
     -- gDb     goDab   IV_intr become angry
 
     FaCiL                     `verb`       {- gaDib-a -}        [ "become angry" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".g.dab IV_intr" ] -},
 
     -- ;; >agoDab_1
@@ -128,13 +128,6 @@ lexicon = listing "Lexicon properties"
 
     TaFACI                    `noun`       {- tagADiy -}        [ "indifference", "condoning" ] ]
 
- |> ".g .g d" <| [
-
-    -- ;; gad_1
-    -- gd      gad     N       tomorrow
-
-    CaL                       `noun`       {- gad -}            [ "tomorrow" ] ]
-
  |> ".g .s .s" <| [
 
     -- ;; gaS~_1
@@ -178,7 +171,7 @@ lexicon = listing "Lexicon properties"
     -- gTT     goTuT   IV_C    immerse;dip;plunge
 
     FaCL                      `verb`       {- gaT~-u -}         [ "immerse", "dip", "plunge" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".g.tu.t IV_C", ".ga.ta.t PV_C", ".gu.t.t IV_V" ] -},
 
     -- ;; gaT~aY_1
@@ -225,7 +218,7 @@ lexicon = listing "Lexicon properties"
     -- gTy     goTay   IV_Ann_Pass_yu  be covered
 
     FaCA                      `verb`       {- gaTA-u -}         [ "cover", "be covered" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".g.tY IV_0_Pass_yu", ".g.tuw IV_0hAnn", ".ga.taw PV_Atn" ] -},
 
     -- ;; gaT~aY_1
@@ -490,7 +483,7 @@ lexicon = listing "Lexicon properties"
     -- gd      god     IV_0hwnyn       depart;become current
 
     FaCA                      `verb`       {- gadA-u -}         [ "depart", "become current" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".gduw IV_0hAnn", ".gadaw PV_Atn" ] -},
 
     -- ;; gadA'_1
@@ -597,7 +590,7 @@ lexicon = listing "Lexicon properties"
     -- glb     golib   IV      defeat;overcome
 
     FaCaL                     `verb`       {- galab-i -}        [ "defeat", "overcome" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".glib IV" ] -},
 
     -- ;; tagal~ab_1
@@ -836,7 +829,7 @@ lexicon = listing "Lexicon properties"
     -- gmr     gomur   IV      immerse;flood
 
     FaCaL                     `verb`       {- gamar-u -}        [ "immerse", "flood" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".gmur IV" ] -},
 
     -- ;; gamorap_1
@@ -1046,7 +1039,9 @@ lexicon = listing "Lexicon properties"
     -- grbA&   gurabA& Nh      strange
     -- grbA}   gurabA} Nhy     strange
 
-    FaCIL                     `noun`       {- gariyb -}         [ "strange" ],
+    FaCIL                     `noun`       {- gariyb -}         [ "strange" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ ".gurabA' Nh N0_Nh Nhy" ] -},
 
     -- ;; gariyb_2
     -- gryb    gariyb  Nall    stranger;foreigner
@@ -1057,8 +1052,9 @@ lexicon = listing "Lexicon properties"
     -- AgrAb   >agorAb N       strangers;foreigners;emigres
 
     FaCIL                     `noun`       {- gariyb -}         [ "stranger", "foreigner", "strangers", "foreigners", "emigres" ]
+                              `plural`     FuCaLA'
                               `plural`     HaFCAL
-                              {- `others` [ "'a.grAb N" ] -},
+                              {- `others` [ ".gurabA' Nh N0_Nh Nhy", "'a.grAb N" ] -},
 
     -- ;; guruwb_1
     -- grwb    guruwb  N       setting
@@ -1132,7 +1128,7 @@ lexicon = listing "Lexicon properties"
     -- grd     gorad   IV      twitter;warble
 
     FaCiL                     `verb`       {- garid-a -}        [ "twitter", "warble" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".grad IV" ] -} ]
 
  |> ".g r f" <| [
@@ -1142,7 +1138,7 @@ lexicon = listing "Lexicon properties"
     -- grf     gorif   IV      scoop up
 
     FaCaL                     `verb`       {- garaf-i -}        [ "scoop up" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".grif IV" ] -},
 
     -- ;; gurofap_1
@@ -1174,7 +1170,7 @@ lexicon = listing "Lexicon properties"
     -- grq     goraq   IV      sink;drown;be submerged
 
     FaCiL                     `verb`       {- gariq-a -}        [ "sink", "drown", "be submerged" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ ".graq IV" ] -},
 
     -- ;; >agoraq_1
@@ -1222,7 +1218,7 @@ lexicon = listing "Lexicon properties"
     -- grs     goris   IV      implant;plant
 
     FaCaL                     `verb`       {- garas-i -}        [ "implant", "plant" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".gris IV" ] -},
 
     -- ;; >agoras_1
@@ -1304,7 +1300,7 @@ lexicon = listing "Lexicon properties"
     -- gsl     gosil   IV      wash;clean
 
     FaCaL                     `verb`       {- gasal-i -}        [ "wash", "clean" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".gsil IV" ] -},
 
     -- ;; gusol_1
@@ -1477,7 +1473,7 @@ lexicon = listing "Lexicon properties"
     -- gb      gib     IV_C_intr       be absent
 
     FAL                       `verb`       {- gAb-i -}          [ "be absent" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ ".giyb IV_V_intr" ] -},
 
     -- ;; gAbap_1
@@ -1660,7 +1656,7 @@ lexicon = listing "Lexicon properties"
     -- gzy     gozay   IV_Ann_Pass_yu  be invaded;be conquered
 
     FaCA                      `verb`       {- gazA-u -}         [ "invade", "conquer", "be invaded", "be conquered" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ ".gzY IV_0_Pass_yu", ".gzuw IV_0hAnn", ".gazaw PV_Atn" ] -},
 
     -- ;; gazow_1
@@ -1768,6 +1764,13 @@ lexicon = listing "Lexicon properties"
     -- g$tAd   g$tAd   Nprop   Gstaad
 
     Identity                  `noun`       {- g$tAd -}          [ "Gstaad" ] ]
+
+ |> ".gad" <| [
+
+    -- ;; gad_1
+    -- gd      gad     N       tomorrow
+
+    Identity                  `noun`       {- gad -}            [ "tomorrow" ] ]
 
  |> ".gawdiyuw" <| [
 

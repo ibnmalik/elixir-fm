@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lexicon
--- Copyright   :  Otakar Smrz 2005-2006
+-- Copyright   :  Otakar Smrz 2005-2007
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -57,9 +57,9 @@ module Elixir.Lexicon (
 
         sumEntry, sumEntryChars,
 -}
-        noun, verb, -- root,
+        noun, verb,
 
-        imperf, plural, others -- gloss
+        imperf, plural, others
 
     ) where
 
@@ -184,9 +184,15 @@ noun m l = Entry (Noun [] Nothing Nothing) (morph m) l
 infixl 3 `verb`, `noun`
 
 
+{-
 imperf :: Nestable a => Entry a -> [a] -> Entry a
-
 imperf x y = x { entity = Verb (y ++ z) v }
+    where Verb z v = entity x
+-}
+
+imperf :: Nestable a => Entry a -> a -> Entry a
+
+imperf x y = x { entity = Verb (y : z) v }
 
     where Verb z v = entity x
 

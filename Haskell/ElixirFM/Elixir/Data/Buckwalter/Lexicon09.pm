@@ -1017,6 +1017,55 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_daw' => [
+    {
+      'types' => {
+        '_dawAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_daw',
+      'form' => '_dawAt',
+      'lines' => [
+        ';; *awAt_1',
+        '*wAt    *awAt   N       selves;beings'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'selves',
+        'beings'
+      ],
+      'orig' => '*awAt',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_dawAt' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => '_daw',
+      'form' => '_dawAt',
+      'lines' => [
+        ';; *awAt_2',
+        '*wAt    *awAt   FW-WaBi those     [[*awAt/DEM_PRON_FP]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'those'
+      ],
+      'orig' => '*awAt',
+      'prefix' => ''
+    }
+  ],
   'iddakar' => [
     {
       'types' => {
@@ -1850,144 +1899,6 @@ $Lexicon = {
         'feeble'
       ],
       'orig' => '*Abil',
-      'prefix' => ''
-    }
-  ],
-  '_d _d r' => [
-    {
-      'types' => {
-        '_duraT' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => '_dur',
-      'form' => '_duraT',
-      'lines' => [
-        ';; *urap_1',
-        '*r      *ur     Nap     sorghum;maize'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CuL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'sorghum',
-        'maize'
-      ],
-      'orig' => '*urap',
-      'prefix' => ''
-    }
-  ],
-  '_d _d w' => [
-    {
-      'types' => {
-        '_dawuw' => {
-          'FW-Wa' => 1,
-          'FW-Wa-a' => 1
-        },
-        '_dawiy' => {
-          'FW-Wa-y' => 1,
-          'FW-WaBi' => 1
-        },
-        '_duw' => {
-          'FW-Wa' => 1
-        },
-        '_dawA' => {
-          'FW-Wa' => 1,
-          'FW-Wa-A' => 1
-        },
-        '_diy' => {
-          'FW-Wa' => 1
-        },
-        '_daway' => {
-          'FW-Wa-y' => 1,
-          'FW-WaBi' => 1
-        },
-        '_dA' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => '_duw',
-      'form' => '_duw',
-      'lines' => [
-        ';; *uw_1',
-        '*w      *uw     FW-Wa   of;with     [[*uw/DEM_PRON_MS]]',
-        '*y      *iy     FW-Wa   of;with     [[*iy/DEM_PRON_MS]]',
-        '*A      *A      FW-Wa   of;with     [[*A/DEM_PRON_MS]]',
-        '*wA     *awA    FW-Wa   (two relatives) of     [[*awA/DEM_PRON_MD]]',
-        '*wA     *awA    FW-Wa-A (two relatives) of     [[*awA/DEM_PRON_MD]]',
-        '*wy     *away   FW-WaBi (two relatives) of     [[*away/DEM_PRON_MD]]',
-        '*wy     *away   FW-Wa-y (two relatives) of     [[*away/DEM_PRON_MD]]',
-        '*ww     *awuw   FW-Wa   (relatives) of;family     [[*awuw/DEM_PRON_MP]]',
-        '*ww     *awuw   FW-Wa-a (relatives) of;family     [[*awuw/DEM_PRON_MP]]',
-        '*wy     *awiy   FW-WaBi (relatives) of;family     [[*awiy/DEM_PRON_MD]]',
-        '*wy     *awiy   FW-Wa-y (relatives) of;family     [[*awiy/DEM_PRON_MD]]'
-      ],
-      'patterns' => {
-        '_diy' => [
-          'CI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CuL',
-      'suffix' => '',
-      'glosses' => [
-        'of',
-        'with',
-        '(two relatives) of',
-        '(relatives) of',
-        'family'
-      ],
-      'orig' => '*uw',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_dawAt' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_daw',
-      'form' => '_dawAt',
-      'lines' => [
-        ';; *awAt_1',
-        '*wAt    *awAt   N       selves;beings'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'selves',
-        'beings'
-      ],
-      'orig' => '*awAt',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_dawAt' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => '_daw',
-      'form' => '_dawAt',
-      'lines' => [
-        ';; *awAt_2',
-        '*wAt    *awAt   FW-WaBi those     [[*awAt/DEM_PRON_FP]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'CaL |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'those'
-      ],
-      'orig' => '*awAt',
       'prefix' => ''
     }
   ],
@@ -3072,6 +2983,67 @@ $Lexicon = {
         'slaughterhouses'
       ],
       'orig' => 'ma*obaHap',
+      'prefix' => ''
+    }
+  ],
+  '_duw' => [
+    {
+      'types' => {
+        '_dawuw' => {
+          'FW-Wa' => 1,
+          'FW-Wa-a' => 1
+        },
+        '_dawiy' => {
+          'FW-Wa-y' => 1,
+          'FW-WaBi' => 1
+        },
+        '_duw' => {
+          'FW-Wa' => 1
+        },
+        '_dawA' => {
+          'FW-Wa' => 1,
+          'FW-Wa-A' => 1
+        },
+        '_diy' => {
+          'FW-Wa' => 1
+        },
+        '_daway' => {
+          'FW-Wa-y' => 1,
+          'FW-WaBi' => 1
+        },
+        '_dA' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => '_duw',
+      'form' => '_duw',
+      'lines' => [
+        ';; *uw_1',
+        '*w      *uw     FW-Wa   of;with     [[*uw/DEM_PRON_MS]]',
+        '*y      *iy     FW-Wa   of;with     [[*iy/DEM_PRON_MS]]',
+        '*A      *A      FW-Wa   of;with     [[*A/DEM_PRON_MS]]',
+        '*wA     *awA    FW-Wa   (two relatives) of     [[*awA/DEM_PRON_MD]]',
+        '*wA     *awA    FW-Wa-A (two relatives) of     [[*awA/DEM_PRON_MD]]',
+        '*wy     *away   FW-WaBi (two relatives) of     [[*away/DEM_PRON_MD]]',
+        '*wy     *away   FW-Wa-y (two relatives) of     [[*away/DEM_PRON_MD]]',
+        '*ww     *awuw   FW-Wa   (relatives) of;family     [[*awuw/DEM_PRON_MP]]',
+        '*ww     *awuw   FW-Wa-a (relatives) of;family     [[*awuw/DEM_PRON_MP]]',
+        '*wy     *awiy   FW-WaBi (relatives) of;family     [[*awiy/DEM_PRON_MD]]',
+        '*wy     *awiy   FW-Wa-y (relatives) of;family     [[*awiy/DEM_PRON_MD]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'of',
+        'with',
+        '(two relatives) of',
+        '(relatives) of',
+        'family'
+      ],
+      'orig' => '*uw',
       'prefix' => ''
     }
   ],
@@ -5636,6 +5608,9 @@ $Lexicon = {
       'patterns' => {
         '_dulf' => [
           'FuCL'
+        ],
+        '_dalfA\'' => [
+          'FaCLA\''
         ]
       },
       'index' => '1',
@@ -8309,6 +8284,32 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'mu*iyE',
+      'prefix' => ''
+    }
+  ],
+  '_dur' => [
+    {
+      'types' => {
+        '_duraT' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => '_dur',
+      'form' => '_duraT',
+      'lines' => [
+        ';; *urap_1',
+        '*r      *ur     Nap     sorghum;maize'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'sorghum',
+        'maize'
+      ],
+      'orig' => '*urap',
       'prefix' => ''
     }
   ],

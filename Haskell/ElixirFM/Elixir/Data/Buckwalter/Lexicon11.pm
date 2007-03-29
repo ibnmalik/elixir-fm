@@ -562,6 +562,9 @@ $Lexicon = {
       'patterns' => {
         'zu^g^g' => [
           'FuCL'
+        ],
+        'za^g^gA\'' => [
+          'FaCLA\''
         ]
       },
       'index' => '1',
@@ -1116,6 +1119,54 @@ $Lexicon = {
         'Zahrani'
       ],
       'orig' => 'zahorAniy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'zahrAwiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'zahrA\'',
+      'form' => 'zahrAwiyy',
+      'lines' => [
+        ';; zahorAwiy~_1',
+        'zhrAwy  zahorAwiy~      Nall    cheerful;merry     [[zahorAwiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'cheerful',
+        'merry'
+      ],
+      'orig' => 'zahorAwiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'zahrAwiyy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'zahrA\'',
+      'form' => 'zahrAwiyy',
+      'lines' => [
+        ';; zahorAwiy~_2',
+        'zhrAwy  zahorAwiy~      N0      Zahrawi;Zahraoui'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Zahrawi',
+        'Zahraoui'
+      ],
+      'orig' => 'zahorAwiy~',
       'prefix' => ''
     },
     {
@@ -6181,7 +6232,11 @@ $Lexicon = {
         'zxmA&   zaxomA& Nh      stinking',
         'zxmA}   zaxomA} Nhy     stinking'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'za_hmA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -6941,6 +6996,9 @@ $Lexicon = {
         'zrq     zuruq   N       blue'
       ],
       'patterns' => {
+        'zarqA\'' => [
+          'FaCLA\''
+        ],
         'zuruq' => [
           'FuCuL'
         ]
@@ -13095,56 +13153,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'z h r w' => [
-    {
-      'types' => {
-        'zahrAwiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'zahrAw',
-      'form' => 'zahrAwiyy',
-      'lines' => [
-        ';; zahorAwiy~_1',
-        'zhrAwy  zahorAwiy~      Nall    cheerful;merry     [[zahorAwiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'cheerful',
-        'merry'
-      ],
-      'orig' => 'zahorAwiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'zahrAwiyy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'zahrAw',
-      'form' => 'zahrAwiyy',
-      'lines' => [
-        ';; zahorAwiy~_2',
-        'zhrAwy  zahorAwiy~      N0      Zahrawi;Zahraoui'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Zahrawi',
-        'Zahraoui'
-      ],
-      'orig' => 'zahorAwiy~',
-      'prefix' => ''
-    }
-  ],
   'z m `' => [
     {
       'types' => {
@@ -14211,6 +14219,108 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => 'zayyY',
+      'form' => 'zayyY',
+      'lines' => [],
+      'patterns' => {
+        'zayyiy' => [
+          'FaCCiL',
+          'FaCCI'
+        ],
+        'zayyay' => [
+          'FaCCaL'
+        ],
+        'zayy' => [
+          'FaCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCY',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'zay~aY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'tazayyay' => {
+          'PV_Atn' => 1,
+          'IV_Ann' => 1
+        },
+        'tazayy' => {
+          'PV_ttAw_intr' => 1,
+          'IV_0hwnyn' => 1
+        },
+        'tazayyY' => {}
+      },
+      'entry' => 'tazayyY',
+      'form' => 'tazayyY',
+      'lines' => [
+        ';; tazay~aY_1',
+        'tzyY    tazay~aY        PV_0    be dressed;be clothed',
+        'tzyy    tazay~ay        PV_Atn  be dressed;be clothed',
+        'tzy     tazay~  PV_ttAw_intr    be dressed;be clothed',
+        'tzyY    tazay~aY        IV_0    be dressed;be clothed',
+        'tzyy    tazay~ay        IV_Ann  be dressed;be clothed',
+        'tzy     tazay~  IV_0hwnyn       be dressed;be clothed'
+      ],
+      'patterns' => {
+        'tazayyay' => [
+          'TaFaCCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCY',
+      'suffix' => '',
+      'glosses' => [
+        'be dressed',
+        'be clothed'
+      ],
+      'orig' => 'tazay~aY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ziyy' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'ziyy',
+      'form' => 'ziyy',
+      'lines' => [
+        ';; ziy~_1',
+        'zy      ziy~    N       uniform;clothing'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FIL',
+      'suffix' => '',
+      'glosses' => [
+        'uniform',
+        'clothing'
+      ],
+      'orig' => 'ziy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ziyy',
+      'form' => 'ziyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'ziy~',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'zayyAt' => {
           'N0' => 1
@@ -14378,32 +14488,6 @@ $Lexicon = {
         'Zhi'
       ],
       'orig' => 'zhiy',
-      'prefix' => ''
-    }
-  ],
-  'z' => [
-    {
-      'types' => {
-        'ziyy' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'z',
-      'form' => 'ziyy',
-      'lines' => [
-        ';; ziy~_1',
-        'zy      ziy~    N       uniform;clothing'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'uniform',
-        'clothing'
-      ],
-      'orig' => 'ziy~',
       'prefix' => ''
     }
   ],
@@ -16123,7 +16207,11 @@ $Lexicon = {
         'zmlA&   zumalA& Nh      colleagues;associates;companions',
         'zmlA}   zumalA} Nhy     colleagues;associates;companions'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'zumalA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -16942,7 +17030,11 @@ $Lexicon = {
         'zEmA&   zuEamA& Nh      leaders;heads of state',
         'zEmA}   zuEamA} Nhy     leaders;heads of state'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'zu`amA\'' => [
+          'FuCaLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -18011,7 +18103,11 @@ $Lexicon = {
         'zErA&   zaEorA& Nh      thin-haired',
         'zErA}   zaEorA} Nhy     thin-haired'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'za`rA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -18251,38 +18347,6 @@ $Lexicon = {
         'garbage bins'
       ],
       'orig' => 'mazobalap',
-      'prefix' => ''
-    }
-  ],
-  'z z k' => [
-    {
-      'types' => {
-        'zakA' => {
-          'N0_Nhy' => 1
-        },
-        'zakaN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => 'zak',
-      'form' => 'zakaN',
-      'lines' => [
-        ';; zakAF_1',
-        'zkA     zakAF   FW-WaBi alms;purity;honesty;integrity     [[zakAF/NOUN]]',
-        'zkA     zakA    N0_Nhy  alms;purity;honesty;integrity'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CaL |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'alms',
-        'purity',
-        'honesty',
-        'integrity'
-      ],
-      'orig' => 'zakAF',
       'prefix' => ''
     }
   ],
@@ -20370,6 +20434,9 @@ $Lexicon = {
       'patterns' => {
         'zubb' => [
           'FuCL'
+        ],
+        'zabbA\'' => [
+          'FaCLA\''
         ]
       },
       'index' => '1',
@@ -23244,7 +23311,11 @@ $Lexicon = {
         'zwrA&   zaworA& Nh      crooked;oblique',
         'zwrA}   zaworA} Nhy     crooked;oblique'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'zawrA\'' => [
+          'FaCLA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -23282,6 +23353,9 @@ $Lexicon = {
         'zwr     zuwr    N       cross-eyed'
       ],
       'patterns' => {
+        'zawrA\'' => [
+          'FaCLA\''
+        ],
         'zuwr' => [
           'FUL',
           'FuCL'
@@ -23612,57 +23686,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'z y ' => [
-    {
-      'types' => {},
-      'entry' => 'zayyY',
-      'form' => 'zayyY',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'zay~aY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'tazayyay' => {
-          'PV_Atn' => 1,
-          'IV_Ann' => 1
-        },
-        'tazayy' => {
-          'PV_ttAw_intr' => 1,
-          'IV_0hwnyn' => 1
-        },
-        'tazayyY' => {}
-      },
-      'entry' => 'tazayyY',
-      'form' => 'tazayyY',
-      'lines' => [
-        ';; tazay~aY_1',
-        'tzyY    tazay~aY        PV_0    be dressed;be clothed',
-        'tzyy    tazay~ay        PV_Atn  be dressed;be clothed',
-        'tzy     tazay~  PV_ttAw_intr    be dressed;be clothed',
-        'tzyY    tazay~aY        IV_0    be dressed;be clothed',
-        'tzyy    tazay~ay        IV_Ann  be dressed;be clothed',
-        'tzy     tazay~  IV_0hwnyn       be dressed;be clothed'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCY',
-      'suffix' => '',
-      'glosses' => [
-        'be dressed',
-        'be clothed'
-      ],
-      'orig' => 'tazay~aY',
-      'prefix' => ''
-    }
-  ],
   'z f \'' => [
     {
       'types' => {},
@@ -23676,6 +23699,38 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'zuwfA\'',
+      'prefix' => ''
+    }
+  ],
+  'zak' => [
+    {
+      'types' => {
+        'zakA' => {
+          'N0_Nhy' => 1
+        },
+        'zakaN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => 'zak',
+      'form' => 'zakaN',
+      'lines' => [
+        ';; zakAF_1',
+        'zkA     zakAF   FW-WaBi alms;purity;honesty;integrity     [[zakAF/NOUN]]',
+        'zkA     zakA    N0_Nhy  alms;purity;honesty;integrity'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'alms',
+        'purity',
+        'honesty',
+        'integrity'
+      ],
+      'orig' => 'zakAF',
       'prefix' => ''
     }
   ],
@@ -24179,6 +24234,12 @@ $Lexicon->{'z y ^g'}[2]{'glosses'} = $Lexicon->{'z w ^g'}[11]{'glosses'};
 $Lexicon->{'z w y'}[1]{'types'} = $Lexicon->{'z w w'}[0]{'types'};
 $Lexicon->{'z w y'}[1]{'lines'} = $Lexicon->{'z w w'}[0]{'lines'};
 $Lexicon->{'z w y'}[1]{'glosses'} = $Lexicon->{'z w w'}[0]{'glosses'};
+$Lexicon->{'z y y'}[1]{'types'} = $Lexicon->{'z y y'}[0]{'types'};
+$Lexicon->{'z y y'}[1]{'lines'} = $Lexicon->{'z y y'}[0]{'lines'};
+$Lexicon->{'z y y'}[1]{'glosses'} = $Lexicon->{'z y y'}[0]{'glosses'};
+$Lexicon->{'z y y'}[4]{'types'} = $Lexicon->{'z y y'}[3]{'types'};
+$Lexicon->{'z y y'}[4]{'lines'} = $Lexicon->{'z y y'}[3]{'lines'};
+$Lexicon->{'z y y'}[4]{'glosses'} = $Lexicon->{'z y y'}[3]{'glosses'};
 $Lexicon->{'z r \''}[0]{'types'} = $Lexicon->{'z r y'}[7]{'types'};
 $Lexicon->{'z r \''}[0]{'lines'} = $Lexicon->{'z r y'}[7]{'lines'};
 $Lexicon->{'z r \''}[0]{'glosses'} = $Lexicon->{'z r y'}[7]{'glosses'};
@@ -24221,9 +24282,6 @@ $Lexicon->{'z w r'}[15]{'glosses'} = $Lexicon->{'z \' r'}[3]{'glosses'};
 $Lexicon->{'z w r'}[16]{'types'} = $Lexicon->{'z \' r'}[4]{'types'};
 $Lexicon->{'z w r'}[16]{'lines'} = $Lexicon->{'z \' r'}[4]{'lines'};
 $Lexicon->{'z w r'}[16]{'glosses'} = $Lexicon->{'z \' r'}[4]{'glosses'};
-$Lexicon->{'z y '}[0]{'types'} = $Lexicon->{'z y y'}[0]{'types'};
-$Lexicon->{'z y '}[0]{'lines'} = $Lexicon->{'z y y'}[0]{'lines'};
-$Lexicon->{'z y '}[0]{'glosses'} = $Lexicon->{'z y y'}[0]{'glosses'};
 $Lexicon->{'z f \''}[0]{'types'} = $Lexicon->{'z w f \''}[0]{'types'};
 $Lexicon->{'z f \''}[0]{'lines'} = $Lexicon->{'z w f \''}[0]{'lines'};
 $Lexicon->{'z f \''}[0]{'glosses'} = $Lexicon->{'z w f \''}[0]{'glosses'};

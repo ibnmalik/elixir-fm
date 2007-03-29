@@ -6,7 +6,7 @@ import Elixir.Lexicon
 
 version = revised "$Revision$"
 
-lexicon = listing "Lexicon properties"
+lexicon = listing "Lexicon's properties"
 
 
  |> "'ifl" <| [
@@ -191,7 +191,7 @@ lexicon = listing "Lexicon properties"
     -- fDH     foDaH   IV      expose;disgrace
 
     FaCaL                     `verb`       {- faDaH-a -}        [ "expose", "disgrace" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "f.da.h IV" ] -},
 
     -- ;; faDiyHap_1
@@ -258,7 +258,9 @@ lexicon = listing "Lexicon properties"
     -- fDlA&   fuDalA& Nh      distinguished;eminent;virtuous
     -- fDlA}   fuDalA} Nhy     distinguished;eminent;virtuous
 
-    FaCIL                     `noun`       {- faDiyl -}         [ "distinguished", "eminent", "virtuous" ],
+    FaCIL                     `noun`       {- faDiyl -}         [ "distinguished", "eminent", "virtuous" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "fu.dalA' Nh N0_Nh Nhy" ] -},
 
     -- ;; faDiylap_1
     -- fDyl    faDiyl  Napdu   virtue;His Eminence
@@ -354,7 +356,7 @@ lexicon = listing "Lexicon properties"
     -- AfHS    <ifoHaS CV      search
 
     FaCaL                     `verb`       {- faHaS-a -}        [ "examine", "scrutinize", "investigate", "search" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "f.ha.s IV", "'if.ha.s CV" ] -},
 
     -- ;; tafaH~aS_1
@@ -405,8 +407,9 @@ lexicon = listing "Lexicon properties"
     -- fHAw    faHAw   NK      sense;content;substance
 
     FaCLY                     `noun`       {- faHowaY -}        [ "sense", "content", "substance" ]
+                              `plural`     FaCLA'
                               `plural`     FaCAL
-                              {- `others` [ "fa.hAw NK" ] -} ]
+                              {- `others` [ "fa.hwA' Nh N0_Nh Nhy", "fa.hAw NK" ] -} ]
 
  |> "f .s .h" <| [
 
@@ -428,7 +431,8 @@ lexicon = listing "Lexicon properties"
 
     FaCIL                     `noun`       {- faSiyH -}         [ "eloquent", "fluent" ]
                               `plural`     FiCAL
-                              {- `others` [ "fi.sA.h N" ] -},
+                              `plural`     FuCaLA'
+                              {- `others` [ "fi.sA.h N", "fu.sa.hA' Nh N0_Nh Nhy" ] -},
 
     -- ;; faSAHap_1
     -- fSAH    faSAH   Nap     eloquence
@@ -461,7 +465,7 @@ lexicon = listing "Lexicon properties"
     -- fSl     foSil   IV      separate;detach;set apart
 
     FaCaL                     `verb`       {- faSal-i -}        [ "separate", "detach", "set apart" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "f.sil IV" ] -},
 
     -- ;; faS~al_1
@@ -717,7 +721,7 @@ lexicon = listing "Lexicon properties"
     -- f$l     fo$al   IV      fail;be unsuccessful
 
     FaCiL                     `verb`       {- fa$il-a -}        [ "fail", "be unsuccessful" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "f^sal IV" ] -},
 
     -- ;; >afo$al_1
@@ -873,7 +877,7 @@ lexicon = listing "Lexicon properties"
     -- fEl     foEal   IV      do;act
 
     FaCaL                     `verb`       {- faEal-a -}        [ "do", "act" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "f`al IV" ] -},
 
     -- ;; tafAEal_1
@@ -1029,7 +1033,7 @@ lexicon = listing "Lexicon properties"
     -- fdY     fodaY   IV_0    redeem;ransom
 
     FaCY                      `verb`       {- fadaY-i -}        [ "redeem", "ransom" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "faday PV_Atn", "fdY IV_0", "fdiy IV_0hAnn", "fadA PV_h" ] -},
 
     -- ;; tafAdaY_1
@@ -1074,38 +1078,6 @@ lexicon = listing "Lexicon properties"
 
     TaFACI                    `noun`       {- tafAdiy -}        [ "avoidance" ] ]
 
- |> "f f " <| [
-
-    -- ;; fiy_1
-    -- fy      fiy     FW-Wa   in       [[fiy/PREP]]
-    -- fy      fiy     FW-Wa-y in       [[fiy/PREP]]
-    -- fY      fiy     FW-Wa   in       [[fiy/PREP]]
-
-    CI                        `noun`       {- fiy -}            [ "in" ] ]
-
- |> "f f '" <| [
-
-    -- ;; fi}ap_1
-    -- f}      fi}     NapAt   faction;party
-
-    CiL |< aT                 `noun`       {- fi}ap -}          [ "faction", "party" ] ]
-
- |> "f f w" <| [
-
-    -- ;; fawAt_1
-    -- fwAt    fawAt   N       expiration;passing
-
-    CaL |< At                 `noun`       {- fawAt -}          [ "expiration", "passing" ] ]
-
- |> "f f y" <| [
-
-    -- ;; fiy_1
-    -- fy      fiy     FW-Wa   in       [[fiy/PREP]]
-    -- fy      fiy     FW-Wa-y in       [[fiy/PREP]]
-    -- fY      fiy     FW-Wa   in       [[fiy/PREP]]
-
-    CiL                       `noun`       {- fiy -}            [ "in" ] ]
-
  |> "f h d" <| [
 
     -- ;; fahod_1
@@ -1122,7 +1094,7 @@ lexicon = listing "Lexicon properties"
     -- fhm     foham   IV_Pass_yu      be understood
 
     FaCiL                     `verb`       {- fahim-a -}        [ "understand", "be understood" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "fuhim PV_Pass", "fham IV IV_Pass_yu" ] -},
 
     -- ;; >afoham_1
@@ -1201,7 +1173,7 @@ lexicon = listing "Lexicon properties"
     -- fkk     fokuk   IV_C    separate;dismantle;detach;disengage
 
     FaCL                      `verb`       {- fak~-u -}         [ "separate", "dismantle", "detach", "disengage" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "fkuk IV_C", "fukk IV_V", "fakak PV_C" ] -},
 
     -- ;; fak~ak_1
@@ -1518,7 +1490,7 @@ lexicon = listing "Lexicon properties"
     -- fqd     foqad   IV_Pass_yu      be lost
 
     FaCaL                     `verb`       {- faqad-i -}        [ "lose", "be lost" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "fqad IV_Pass_yu", "fqid IV" ] -},
 
     -- ;; >afoqad_1
@@ -1585,7 +1557,7 @@ lexicon = listing "Lexicon properties"
     -- fqh     foqah   IV      comprehend
 
     FaCiL                     `verb`       {- faqih-a -}        [ "comprehend" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "fqah IV" ] -},
 
     -- ;; fiqoh_1
@@ -1642,7 +1614,9 @@ lexicon = listing "Lexicon properties"
     -- fqrA&   fuqarA& Nh      poor;destitute
     -- fqrA}   fuqarA} Nhy     poor;destitute
 
-    FaCIL                     `noun`       {- faqiyr -}         [ "poor", "destitute" ] ]
+    FaCIL                     `noun`       {- faqiyr -}         [ "poor", "destitute" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "fuqarA' Nh N0_Nh Nhy" ] -} ]
 
  |> "f r .d" <| [
 
@@ -1681,7 +1655,7 @@ lexicon = listing "Lexicon properties"
     -- frg     forug   IV_intr be empty;be unoccupied
 
     FaCaL                     `verb`       {- farag-u -}        [ "be empty", "be unoccupied" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "fru.g IV_intr" ] -},
 
     -- ;; far~ag_1
@@ -1736,7 +1710,7 @@ lexicon = listing "Lexicon properties"
     -- frH     foraH   IV      rejoice;be glad
 
     FaCiL                     `verb`       {- fariH-a -}        [ "rejoice", "be glad" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "fra.h IV" ] -},
 
     -- ;; >aforaH_1
@@ -2038,7 +2012,7 @@ lexicon = listing "Lexicon properties"
     -- frq     foruq   IV      differentiate;distinguish;discriminate
 
     FaCaL                     `verb`       {- faraq-u -}        [ "differentiate", "distinguish", "discriminate" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "fruq IV" ] -},
 
     -- ;; fAraq_1
@@ -2102,7 +2076,9 @@ lexicon = listing "Lexicon properties"
     -- frqA&   furaqA& Nh      lieutenant generals
     -- frqA}   furaqA} Nhy     lieutenant generals
 
-    FaCIL                     `noun`       {- fariyq -}         [ "lieutenant general", "lieutenant generals" ],
+    FaCIL                     `noun`       {- fariyq -}         [ "lieutenant general", "lieutenant generals" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "furaqA' Nh N0_Nh Nhy" ] -},
 
     -- ;; fariyq_3
     -- fryq    fariyq  N0      Fareeq
@@ -2176,7 +2152,7 @@ lexicon = listing "Lexicon properties"
     -- frr     forir   IV_C    escape;flee;defect;desert
 
     FaCL                      `verb`       {- far~-i -}         [ "escape", "flee", "defect", "desert" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "frir IV_C", "farar PV_C", "firr IV_V" ] -},
 
     -- ;; firAr_1
@@ -2242,7 +2218,7 @@ lexicon = listing "Lexicon properties"
     -- frz     foriz   IV      sort out;select;classify
 
     FaCaL                     `verb`       {- faraz-i -}        [ "sort out", "select", "classify" ]
-                              `imperf` [ FCiL ]
+                              `imperf`     FCiL
                               {- `others` [ "friz IV" ] -},
 
     -- ;; >aforaz_1
@@ -2266,7 +2242,7 @@ lexicon = listing "Lexicon properties"
     -- fsH     fosaH   IV      make room;clear a space
 
     FaCaL                     `verb`       {- fasaH-a -}        [ "make room", "clear a space" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "fsa.h IV" ] -},
 
     -- ;; fas~aH_1
@@ -2427,7 +2403,7 @@ lexicon = listing "Lexicon properties"
     -- <ftH    {ifotaH CV      open
 
     FaCaL                     `verb`       {- fataH-a -}        [ "open", "conquer", "be opened", "be conquered" ]
-                              `imperf` [ FCaL ]
+                              `imperf`     FCaL
                               {- `others` [ "fta.h IV IV_Pass_yu", "futi.h PV_Pass" ] -},
 
     -- ;; fatoH_1
@@ -2570,7 +2546,7 @@ lexicon = listing "Lexicon properties"
     -- ftt     fotut   IV_C    weaken;enervate
 
     FaCL                      `verb`       {- fat~-u -}         [ "weaken", "enervate" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "fatat PV_Ct", "futt IV_V", "ftut IV_C" ] -} ]
 
  |> "f t w" <| [
@@ -2734,7 +2710,7 @@ lexicon = listing "Lexicon properties"
     -- fH      fuH     IV_C_intr       be fragrant;emanate
 
     FAL                       `verb`       {- fAH-u -}          [ "be fragrant", "emanate" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "fuw.h IV_V_intr" ] -} ]
 
  |> "f w ^g" <| [
@@ -2810,7 +2786,7 @@ lexicon = listing "Lexicon properties"
     -- fq      fuq     IV_C    surpass;excel
 
     FAL                       `verb`       {- fAq-u -}          [ "surpass", "excel" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "fuwq IV_V" ] -},
 
     -- ;; tafaw~aq_1
@@ -2881,7 +2857,7 @@ lexicon = listing "Lexicon properties"
     -- ft      fut     IV_C    expire;go by
 
     FAL                       `verb`       {- fAt-u -}          [ "expire", "go by" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "fuwt IV_V" ] -},
 
     -- ;; tafAwat_1
@@ -2914,7 +2890,7 @@ lexicon = listing "Lexicon properties"
     -- fz      fuz     IV_C    win;be victorious
 
     FAL                       `verb`       {- fAz-u -}          [ "win", "be victorious" ]
-                              `imperf` [ FCuL ]
+                              `imperf`     FCuL
                               {- `others` [ "fuwz IV_V" ] -},
 
     -- ;; fawoz_1
@@ -3267,6 +3243,13 @@ lexicon = listing "Lexicon properties"
 
     Identity                  `noun`       {- faranosA -}       [ "France" ] ]
 
+ |> "faw" <| [
+
+    -- ;; fawAt_1
+    -- fwAt    fawAt   N       expiration;passing
+
+    Identity |< At            `noun`       {- fawAt -}          [ "expiration", "passing" ] ]
+
  |> "fawqa" <| [
 
     -- ;; fawoqa_1
@@ -3295,6 +3278,13 @@ lexicon = listing "Lexicon properties"
     -- flAsf   falAsif Nap     philosophers
 
     Identity                  `noun`       {- fayolasuwf -}     [ "philosopher", "philosophers" ] ]
+
+ |> "fi'" <| [
+
+    -- ;; fi}ap_1
+    -- f}      fi}     NapAt   faction;party
+
+    Identity |< aT            `noun`       {- fi}ap -}          [ "faction", "party" ] ]
 
  |> "fibrAyir" <| [
 
@@ -3390,6 +3380,15 @@ lexicon = listing "Lexicon properties"
     -- frnAndw fironAnoduw     Nprop   Fernando
 
     Identity                  `noun`       {- fironAnoduw -}    [ "Fernando" ] ]
+
+ |> "fiy" <| [
+
+    -- ;; fiy_1
+    -- fy      fiy     FW-Wa   in       [[fiy/PREP]]
+    -- fy      fiy     FW-Wa-y in       [[fiy/PREP]]
+    -- fY      fiy     FW-Wa   in       [[fiy/PREP]]
+
+    Identity                  `noun`       {- fiy -}            [ "in" ] ]
 
  |> "fiy.guw" <| [
 
