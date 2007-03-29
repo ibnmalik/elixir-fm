@@ -10876,6 +10876,36 @@ $Lexicon = {
     },
     {
       'types' => {
+        'i.hlawlak' => {},
+        '.hlawlik' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'i.hlawlak',
+      'form' => 'i.hlawlak',
+      'lines' => [
+        ';; {iHolawolak_1',
+        '<Hlwlk  {iHolawolak     PV_intr be pitch-black',
+        'AHlwlk  {iHolawolak     PV_intr be pitch-black',
+        'Hlwlk   Holawolik       IV_intr be pitch-black'
+      ],
+      'patterns' => {
+        '.hlawlik' => [
+          'FCawCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFCawCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be pitch-black'
+      ],
+      'orig' => '{iHolawolak',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '.halak' => {
           'N' => 1
         }
@@ -14744,36 +14774,6 @@ $Lexicon = {
         'Humaidi'
       ],
       'orig' => 'Humayodiy',
-      'prefix' => ''
-    }
-  ],
-  'i.hdawdab' => [
-    {
-      'types' => {
-        'i.hdawdab' => {},
-        '.hdawdib' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'i.hdawdab',
-      'form' => 'i.hdawdab',
-      'lines' => [
-        ';; {iHodawodab_1',
-        '<Hdwdb  {iHodawodab     PV_intr be vaulted;be embossed;be convex',
-        'AHdwdb  {iHodawodab     PV_intr be vaulted;be embossed;be convex',
-        'Hdwdb   Hodawodib       IV_intr be vaulted;be embossed;be convex'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be vaulted',
-        'be embossed',
-        'be convex'
-      ],
-      'orig' => '{iHodawodab',
       'prefix' => ''
     }
   ],
@@ -30487,6 +30487,38 @@ $Lexicon = {
     },
     {
       'types' => {
+        'i.hdawdab' => {},
+        '.hdawdib' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'i.hdawdab',
+      'form' => 'i.hdawdab',
+      'lines' => [
+        ';; {iHodawodab_1',
+        '<Hdwdb  {iHodawodab     PV_intr be vaulted;be embossed;be convex',
+        'AHdwdb  {iHodawodab     PV_intr be vaulted;be embossed;be convex',
+        'Hdwdb   Hodawodib       IV_intr be vaulted;be embossed;be convex'
+      ],
+      'patterns' => {
+        '.hdawdib' => [
+          'FCawCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFCawCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be vaulted',
+        'be embossed',
+        'be convex'
+      ],
+      'orig' => '{iHodawodab',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '.hadab' => {
           'N' => 1
         },
@@ -32861,89 +32893,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.h n t' => [
-    {
-      'types' => {
-        '.hAnuwt' => {
-          'Ndu' => 1
-        },
-        '.hawAniyt' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '.hAnuwt',
-      'form' => '.hAnuwt',
-      'lines' => [
-        ';; HAnuwt_1',
-        'HAnwt   HAnuwt  Ndu     tavern;pub',
-        'HwAnyt  HawAniyt        Ndip    taverns;pubs'
-      ],
-      'patterns' => {
-        '.hawAniyt' => [
-          'FawACIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACUL',
-      'suffix' => '',
-      'glosses' => [
-        'tavern',
-        'pub',
-        'taverns',
-        'pubs'
-      ],
-      'orig' => 'HAnuwt',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.hAnuwtiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => '.hAnuwt',
-      'form' => '.hAnuwtiyy',
-      'lines' => [
-        ';; HAnuwtiy~_1',
-        'HAnwty  HAnuwtiy~       Nall    shop keeper;undertaker     [[HAnuwtiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACUL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'shop keeper',
-        'undertaker'
-      ],
-      'orig' => 'HAnuwtiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.hAnuwtiyy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => '.hAnuwt',
-      'form' => '.hAnuwtiyy',
-      'lines' => [
-        ';; HAnuwtiy~_2',
-        'HAnwty  HAnuwtiy~       N0      Hanouti'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FACUL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Hanouti'
-      ],
-      'orig' => 'HAnuwtiy~',
-      'prefix' => ''
-    }
-  ],
   '.h .t m' => [
     {
       'types' => {
@@ -33264,6 +33213,89 @@ $Lexicon = {
         'broken'
       ],
       'orig' => 'muHaT~am',
+      'prefix' => ''
+    }
+  ],
+  '.h n t' => [
+    {
+      'types' => {
+        '.hAnuwt' => {
+          'Ndu' => 1
+        },
+        '.hawAniyt' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '.hAnuwt',
+      'form' => '.hAnuwt',
+      'lines' => [
+        ';; HAnuwt_1',
+        'HAnwt   HAnuwt  Ndu     tavern;pub',
+        'HwAnyt  HawAniyt        Ndip    taverns;pubs'
+      ],
+      'patterns' => {
+        '.hawAniyt' => [
+          'FawACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACUL',
+      'suffix' => '',
+      'glosses' => [
+        'tavern',
+        'pub',
+        'taverns',
+        'pubs'
+      ],
+      'orig' => 'HAnuwt',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.hAnuwtiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => '.hAnuwt',
+      'form' => '.hAnuwtiyy',
+      'lines' => [
+        ';; HAnuwtiy~_1',
+        'HAnwty  HAnuwtiy~       Nall    shop keeper;undertaker     [[HAnuwtiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACUL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'shop keeper',
+        'undertaker'
+      ],
+      'orig' => 'HAnuwtiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.hAnuwtiyy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => '.hAnuwt',
+      'form' => '.hAnuwtiyy',
+      'lines' => [
+        ';; HAnuwtiy~_2',
+        'HAnwty  HAnuwtiy~       N0      Hanouti'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FACUL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Hanouti'
+      ],
+      'orig' => 'HAnuwtiy~',
       'prefix' => ''
     }
   ],
@@ -57222,34 +57254,6 @@ $Lexicon = {
         'loins'
       ],
       'orig' => 'Haqow',
-      'prefix' => ''
-    }
-  ],
-  'i.hlawlak' => [
-    {
-      'types' => {
-        'i.hlawlak' => {},
-        '.hlawlik' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'i.hlawlak',
-      'form' => 'i.hlawlak',
-      'lines' => [
-        ';; {iHolawolak_1',
-        '<Hlwlk  {iHolawolak     PV_intr be pitch-black',
-        'AHlwlk  {iHolawolak     PV_intr be pitch-black',
-        'Hlwlk   Holawolik       IV_intr be pitch-black'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be pitch-black'
-      ],
-      'orig' => '{iHolawolak',
       'prefix' => ''
     }
   ],

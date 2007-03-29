@@ -22608,34 +22608,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'i`^saw^sab' => [
-    {
-      'types' => {
-        'i`^saw^sab' => {},
-        '`^saw^sib' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'i`^saw^sab',
-      'form' => 'i`^saw^sab',
-      'lines' => [
-        ';; {iEo$awo$ab_1',
-        '<E$w$b  {iEo$awo$ab     PV_intr be covered with vegetation',
-        'AE$w$b  {iEo$awo$ab     PV_intr be covered with vegetation',
-        'E$w$b   Eo$awo$ib       IV_intr be covered with vegetation'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be covered with vegetation'
-      ],
-      'orig' => '{iEo$awo$ab',
-      'prefix' => ''
-    }
-  ],
   '` b k' => [
     {
       'types' => {
@@ -23746,6 +23718,36 @@ $Lexicon = {
         'botanize'
       ],
       'orig' => 'taEa$~ab',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i`^saw^sab' => {},
+        '`^saw^sib' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'i`^saw^sab',
+      'form' => 'i`^saw^sab',
+      'lines' => [
+        ';; {iEo$awo$ab_1',
+        '<E$w$b  {iEo$awo$ab     PV_intr be covered with vegetation',
+        'AE$w$b  {iEo$awo$ab     PV_intr be covered with vegetation',
+        'E$w$b   Eo$awo$ib       IV_intr be covered with vegetation'
+      ],
+      'patterns' => {
+        '`^saw^sib' => [
+          'FCawCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFCawCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be covered with vegetation'
+      ],
+      'orig' => '{iEo$awo$ab',
       'prefix' => ''
     },
     {

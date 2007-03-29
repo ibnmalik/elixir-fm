@@ -4540,6 +4540,47 @@ $Lexicon = {
       ],
       'orig' => 'qa$oEar',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'iq^sa`rar' => {
+          'PV_C' => 2
+        },
+        'q^sa`irr' => {
+          'IV_V' => 1
+        },
+        'iq^sa`arr' => {},
+        'q^sa`rir' => {
+          'IV_C' => 1
+        }
+      },
+      'entry' => 'iq^sa`arr',
+      'form' => 'iq^sa`arr',
+      'lines' => [
+        ';; {iqo$aEar~_1',
+        '<q$Er   {iqo$aEar~      PV_V    tremble;shudder;get goose bumps',
+        'Aq$Er   {iqo$aEar~      PV_V    tremble;shudder;get goose bumps',
+        '<q$Err  {iqo$aEorar     PV_C    tremble;shudder;get goose bumps',
+        'Aq$Err  {iqo$aEorar     PV_C    tremble;shudder;get goose bumps',
+        'q$Er    qo$aEir~        IV_V    tremble;shudder;get goose bumps',
+        'q$Err   qo$aEorir       IV_C    tremble;shudder;get goose bumps'
+      ],
+      'patterns' => {
+        'q^sa`irr' => [
+          'KRaDiSS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IKRaDaSS',
+      'suffix' => '',
+      'glosses' => [
+        'tremble',
+        'shudder',
+        'get goose bumps'
+      ],
+      'orig' => '{iqo$aEar~',
+      'prefix' => ''
     }
   ],
   'qarabiyn' => [
@@ -14367,6 +14408,36 @@ $Lexicon = {
         'disregard'
       ],
       'orig' => 'taqAEas',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'iq`ansas' => {},
+        'q`ansis' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'iq`ansas',
+      'form' => 'iq`ansas',
+      'lines' => [
+        ';; {iqoEanosas_1',
+        '<qEnss  {iqoEanosas     PV_intr be pigeon-breasted',
+        'AqEnss  {iqoEanosas     PV_intr be pigeon-breasted',
+        'qEnss   qoEanosis       IV_intr be pigeon-breasted'
+      ],
+      'patterns' => {
+        'q`ansis' => [
+          'FCanLiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFCanLaL',
+      'suffix' => '',
+      'glosses' => [
+        'be pigeon-breasted'
+      ],
+      'orig' => '{iqoEanosas',
       'prefix' => ''
     },
     {
@@ -42379,45 +42450,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'iq^sa`arr' => [
-    {
-      'types' => {
-        'iq^sa`rar' => {
-          'PV_C' => 2
-        },
-        'q^sa`irr' => {
-          'IV_V' => 1
-        },
-        'iq^sa`arr' => {},
-        'q^sa`rir' => {
-          'IV_C' => 1
-        }
-      },
-      'entry' => 'iq^sa`arr',
-      'form' => 'iq^sa`arr',
-      'lines' => [
-        ';; {iqo$aEar~_1',
-        '<q$Er   {iqo$aEar~      PV_V    tremble;shudder;get goose bumps',
-        'Aq$Er   {iqo$aEar~      PV_V    tremble;shudder;get goose bumps',
-        '<q$Err  {iqo$aEorar     PV_C    tremble;shudder;get goose bumps',
-        'Aq$Err  {iqo$aEorar     PV_C    tremble;shudder;get goose bumps',
-        'q$Er    qo$aEir~        IV_V    tremble;shudder;get goose bumps',
-        'q$Err   qo$aEorir       IV_C    tremble;shudder;get goose bumps'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'tremble',
-        'shudder',
-        'get goose bumps'
-      ],
-      'orig' => '{iqo$aEar~',
-      'prefix' => ''
-    }
-  ],
   'q f z' => [
     {
       'types' => {
@@ -50122,34 +50154,6 @@ $Lexicon = {
         'calender'
       ],
       'orig' => 'qalanodAr',
-      'prefix' => ''
-    }
-  ],
-  'iq`ansas' => [
-    {
-      'types' => {
-        'iq`ansas' => {},
-        'q`ansis' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'iq`ansas',
-      'form' => 'iq`ansas',
-      'lines' => [
-        ';; {iqoEanosas_1',
-        '<qEnss  {iqoEanosas     PV_intr be pigeon-breasted',
-        'AqEnss  {iqoEanosas     PV_intr be pigeon-breasted',
-        'qEnss   qoEanosis       IV_intr be pigeon-breasted'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be pigeon-breasted'
-      ],
-      'orig' => '{iqoEanosas',
       'prefix' => ''
     }
   ],

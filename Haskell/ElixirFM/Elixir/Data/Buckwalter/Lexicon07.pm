@@ -9370,6 +9370,37 @@ $Lexicon = {
     },
     {
       'types' => {
+        '_h^saw^sin' => {
+          'IV-n_intr' => 1
+        },
+        'i_h^saw^san' => {}
+      },
+      'entry' => 'i_h^saw^san',
+      'form' => 'i_h^saw^san',
+      'lines' => [
+        ';; {ixo$awo$an_1',
+        '<x$w$n  {ixo$awo$an     PV-n_intr       be rude;be uncivil',
+        'Ax$w$n  {ixo$awo$an     PV-n_intr       be rude;be uncivil',
+        'x$w$n   xo$awo$in       IV-n_intr       be rude;be uncivil'
+      ],
+      'patterns' => {
+        '_h^saw^sin' => [
+          'FCawCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFCawCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be rude',
+        'be uncivil'
+      ],
+      'orig' => '{ixo$awo$an',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '_ha^sin' => {
           'N/ap' => 1
         },
@@ -15539,34 +15570,6 @@ $Lexicon = {
         'xa\'s (Arabic letter)'
       ],
       'orig' => 'xA\'',
-      'prefix' => ''
-    }
-  ],
-  'i_h.daw.dar' => [
-    {
-      'types' => {
-        '_h.daw.dir' => {
-          'IV_intr' => 1
-        },
-        'i_h.daw.dar' => {}
-      },
-      'entry' => 'i_h.daw.dar',
-      'form' => 'i_h.daw.dar',
-      'lines' => [
-        ';; {ixoDawoDar_1',
-        '<xDwDr  {ixoDawoDar     PV_intr become green',
-        'AxDwDr  {ixoDawoDar     PV_intr become green',
-        'xDwDr   xoDawoDir       IV_intr become green'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'become green'
-      ],
-      'orig' => '{ixoDawoDar',
       'prefix' => ''
     }
   ],
@@ -23982,6 +23985,36 @@ $Lexicon = {
     },
     {
       'types' => {
+        '_h.daw.dir' => {
+          'IV_intr' => 1
+        },
+        'i_h.daw.dar' => {}
+      },
+      'entry' => 'i_h.daw.dar',
+      'form' => 'i_h.daw.dar',
+      'lines' => [
+        ';; {ixoDawoDar_1',
+        '<xDwDr  {ixoDawoDar     PV_intr become green',
+        'AxDwDr  {ixoDawoDar     PV_intr become green',
+        'xDwDr   xoDawoDir       IV_intr become green'
+      ],
+      'patterns' => {
+        '_h.daw.dir' => [
+          'FCawCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFCawCaL',
+      'suffix' => '',
+      'glosses' => [
+        'become green'
+      ],
+      'orig' => '{ixoDawoDar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '_ha.dir' => {
           'N' => 1
         }
@@ -27379,6 +27412,36 @@ $Lexicon = {
     },
     {
       'types' => {
+        '_h.daw.dib' => {
+          'IV_intr' => 1
+        },
+        'i_h.daw.dab' => {}
+      },
+      'entry' => 'i_h.daw.dab',
+      'form' => 'i_h.daw.dab',
+      'lines' => [
+        ';; {ixoDawoDab_1',
+        '<xDwDb  {ixoDawoDab     PV_intr become green',
+        'AxDwDb  {ixoDawoDab     PV_intr become green',
+        'xDwDb   xoDawoDib       IV_intr become green'
+      ],
+      'patterns' => {
+        '_h.daw.dib' => [
+          'FCawCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFCawCaL',
+      'suffix' => '',
+      'glosses' => [
+        'become green'
+      ],
+      'orig' => '{ixoDawoDab',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '_ha.db' => {
           'N' => 1
         }
@@ -29489,6 +29552,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_hirwa`' => [
+    {
+      'types' => {
+        '_hirwa`' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hirwa`',
+      'form' => '_hirwa`',
+      'lines' => [
+        ';; xirwaE_1',
+        'xrwE    xirwaE  N       castor-oil plant'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'castor-oil plant'
+      ],
+      'orig' => 'xirwaE',
+      'prefix' => ''
+    }
+  ],
   '_h y b' => [
     {
       'types' => {
@@ -29675,31 +29763,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'xA}ib',
-      'prefix' => ''
-    }
-  ],
-  '_hirwa`' => [
-    {
-      'types' => {
-        '_hirwa`' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hirwa`',
-      'form' => '_hirwa`',
-      'lines' => [
-        ';; xirwaE_1',
-        'xrwE    xirwaE  N       castor-oil plant'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'castor-oil plant'
-      ],
-      'orig' => 'xirwaE',
       'prefix' => ''
     }
   ],
@@ -35090,34 +35153,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'i_h.daw.dab' => [
-    {
-      'types' => {
-        '_h.daw.dib' => {
-          'IV_intr' => 1
-        },
-        'i_h.daw.dab' => {}
-      },
-      'entry' => 'i_h.daw.dab',
-      'form' => 'i_h.daw.dab',
-      'lines' => [
-        ';; {ixoDawoDab_1',
-        '<xDwDb  {ixoDawoDab     PV_intr become green',
-        'AxDwDb  {ixoDawoDab     PV_intr become green',
-        'xDwDb   xoDawoDib       IV_intr become green'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'become green'
-      ],
-      'orig' => '{ixoDawoDab',
-      'prefix' => ''
-    }
-  ],
   '_h r d q' => [
     {
       'types' => {
@@ -37426,35 +37461,6 @@ $Lexicon = {
         'silk fabric'
       ],
       'orig' => 'xuzuwz',
-      'prefix' => ''
-    }
-  ],
-  'i_h^saw^san' => [
-    {
-      'types' => {
-        '_h^saw^sin' => {
-          'IV-n_intr' => 1
-        },
-        'i_h^saw^san' => {}
-      },
-      'entry' => 'i_h^saw^san',
-      'form' => 'i_h^saw^san',
-      'lines' => [
-        ';; {ixo$awo$an_1',
-        '<x$w$n  {ixo$awo$an     PV-n_intr       be rude;be uncivil',
-        'Ax$w$n  {ixo$awo$an     PV-n_intr       be rude;be uncivil',
-        'x$w$n   xo$awo$in       IV-n_intr       be rude;be uncivil'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be rude',
-        'be uncivil'
-      ],
-      'orig' => '{ixo$awo$an',
       'prefix' => ''
     }
   ],

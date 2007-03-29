@@ -9905,6 +9905,46 @@ $Lexicon = {
     },
     {
       'types' => {
+        '.tma\'nin' => {
+          'IV_Cn_intr' => 1
+        },
+        'i.tma\'ann' => {},
+        'i.tma\'nan' => {
+          'PV_Cn_intr' => 2
+        },
+        '.tma\'inn' => {
+          'IV_V_intr' => 1
+        }
+      },
+      'entry' => 'i.tma\'ann',
+      'form' => 'i.tma\'ann',
+      'lines' => [
+        ';; {iToma>an~_1',
+        '<Tm>n   {iToma>an~      PV_V_intr       be calm;be reassured',
+        'ATm>n   {iToma>an~      PV_V_intr       be calm;be reassured',
+        '<Tm>nn  {iToma>onan     PV_Cn_intr      be calm;be reassured',
+        'ATm>nn  {iToma>onan     PV_Cn_intr      be calm;be reassured',
+        'Tm}n    Toma}in~        IV_V_intr       be calm;be reassured',
+        'Tm>nn   Toma>onin       IV_Cn_intr      be calm;be reassured'
+      ],
+      'patterns' => {
+        '.tma\'inn' => [
+          'KRaDiSS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IKRaDaSS',
+      'suffix' => '',
+      'glosses' => [
+        'be calm',
+        'be reassured'
+      ],
+      'orig' => '{iTomaOan~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '.tam\'anaT' => {
           'Nap' => 1
         }
@@ -23204,44 +23244,6 @@ $Lexicon = {
         'mayonnaise'
       ],
       'orig' => 'TaraTuwr',
-      'prefix' => ''
-    }
-  ],
-  'i.tma\'ann' => [
-    {
-      'types' => {
-        '.tma\'nin' => {
-          'IV_Cn_intr' => 1
-        },
-        'i.tma\'ann' => {},
-        'i.tma\'nan' => {
-          'PV_Cn_intr' => 2
-        },
-        '.tma\'inn' => {
-          'IV_V_intr' => 1
-        }
-      },
-      'entry' => 'i.tma\'ann',
-      'form' => 'i.tma\'ann',
-      'lines' => [
-        ';; {iToma>an~_1',
-        '<Tm>n   {iToma>an~      PV_V_intr       be calm;be reassured',
-        'ATm>n   {iToma>an~      PV_V_intr       be calm;be reassured',
-        '<Tm>nn  {iToma>onan     PV_Cn_intr      be calm;be reassured',
-        'ATm>nn  {iToma>onan     PV_Cn_intr      be calm;be reassured',
-        'Tm}n    Toma}in~        IV_V_intr       be calm;be reassured',
-        'Tm>nn   Toma>onin       IV_Cn_intr      be calm;be reassured'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be calm',
-        'be reassured'
-      ],
-      'orig' => '{iTomaOan~',
       'prefix' => ''
     }
   ],

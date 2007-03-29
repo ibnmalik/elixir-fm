@@ -1055,6 +1055,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.d m .h l' => [
+    {
+      'types' => {
+        'i.dma.hall' => {},
+        '.dma.hill' => {
+          'IV_V' => 1
+        },
+        'i.dma.hlal' => {
+          'PV_C' => 2
+        },
+        '.dma.hlil' => {
+          'IV_C' => 1
+        }
+      },
+      'entry' => 'i.dma.hall',
+      'form' => 'i.dma.hall',
+      'lines' => [
+        ';; {iDomaHal~_1',
+        '<DmHl   {iDomaHal~      PV_V    disappear;vanish',
+        'ADmHl   {iDomaHal~      PV_V    disappear;vanish',
+        '<DmHll  {iDomaHolal     PV_C    disappear;vanish',
+        'ADmHll  {iDomaHolal     PV_C    disappear;vanish',
+        'DmHl    DomaHil~        IV_V    disappear;vanish',
+        'DmHll   DomaHolil       IV_C    disappear;vanish'
+      ],
+      'patterns' => {
+        '.dma.hill' => [
+          'KRaDiSS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IKRaDaSS',
+      'suffix' => '',
+      'glosses' => [
+        'disappear',
+        'vanish'
+      ],
+      'orig' => '{iDomaHal~',
+      'prefix' => ''
+    }
+  ],
   '.d b `' => [
     {
       'types' => {
@@ -1337,44 +1379,6 @@ $Lexicon = {
         'decreasing'
       ],
       'orig' => 'mutaDA}il',
-      'prefix' => ''
-    }
-  ],
-  'i.dma.hall' => [
-    {
-      'types' => {
-        'i.dma.hall' => {},
-        '.dma.hill' => {
-          'IV_V' => 1
-        },
-        'i.dma.hlal' => {
-          'PV_C' => 2
-        },
-        '.dma.hlil' => {
-          'IV_C' => 1
-        }
-      },
-      'entry' => 'i.dma.hall',
-      'form' => 'i.dma.hall',
-      'lines' => [
-        ';; {iDomaHal~_1',
-        '<DmHl   {iDomaHal~      PV_V    disappear;vanish',
-        'ADmHl   {iDomaHal~      PV_V    disappear;vanish',
-        '<DmHll  {iDomaHolal     PV_C    disappear;vanish',
-        'ADmHll  {iDomaHolal     PV_C    disappear;vanish',
-        'DmHl    DomaHil~        IV_V    disappear;vanish',
-        'DmHll   DomaHolil       IV_C    disappear;vanish'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'disappear',
-        'vanish'
-      ],
-      'orig' => '{iDomaHal~',
       'prefix' => ''
     }
   ],

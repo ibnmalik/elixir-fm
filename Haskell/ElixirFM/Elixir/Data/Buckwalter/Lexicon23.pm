@@ -11224,44 +11224,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ilhA^g^g' => [
-    {
-      'types' => {
-        'ilhA^g^g' => {},
-        'ilhA^ga^g' => {
-          'PV_C' => 2
-        },
-        'lhA^g^g' => {
-          'IV_V' => 1
-        },
-        'lhA^ga^g' => {
-          'IV_C' => 1
-        }
-      },
-      'entry' => 'ilhA^g^g',
-      'form' => 'ilhA^g^g',
-      'lines' => [
-        ';; {ilohAj~_1',
-        '<lhAj   {ilohAj~        PV_V    curdle;coagulate',
-        'AlhAj   {ilohAj~        PV_V    curdle;coagulate',
-        '<lhAjj  {ilohAjaj       PV_C    curdle;coagulate',
-        'AlhAjj  {ilohAjaj       PV_C    curdle;coagulate',
-        'lhAj    lohAj~  IV_V    curdle;coagulate',
-        'lhAjj   lohAjaj IV_C    curdle;coagulate'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'curdle',
-        'coagulate'
-      ],
-      'orig' => '{ilohAj~',
-      'prefix' => ''
-    }
-  ],
   'l t m s' => [
     {
       'types' => {
@@ -24596,6 +24558,46 @@ $Lexicon = {
         'be praised'
       ],
       'orig' => 'Oalohaj',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ilhA^g^g' => {},
+        'ilhA^ga^g' => {
+          'PV_C' => 2
+        },
+        'lhA^g^g' => {
+          'IV_V' => 1
+        },
+        'lhA^ga^g' => {
+          'IV_C' => 1
+        }
+      },
+      'entry' => 'ilhA^g^g',
+      'form' => 'ilhA^g^g',
+      'lines' => [
+        ';; {ilohAj~_1',
+        '<lhAj   {ilohAj~        PV_V    curdle;coagulate',
+        'AlhAj   {ilohAj~        PV_V    curdle;coagulate',
+        '<lhAjj  {ilohAjaj       PV_C    curdle;coagulate',
+        'AlhAjj  {ilohAjaj       PV_C    curdle;coagulate',
+        'lhAj    lohAj~  IV_V    curdle;coagulate',
+        'lhAjj   lohAjaj IV_C    curdle;coagulate'
+      ],
+      'patterns' => {
+        'lhA^g^g' => [
+          'FCALL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFCALL',
+      'suffix' => '',
+      'glosses' => [
+        'curdle',
+        'coagulate'
+      ],
+      'orig' => '{ilohAj~',
       'prefix' => ''
     },
     {

@@ -19408,6 +19408,47 @@ $Lexicon = {
   'd l h m' => [
     {
       'types' => {
+        'idlahamm' => {},
+        'dlahimm' => {
+          'IV_V_intr' => 1
+        },
+        'idlahmam' => {
+          'PV_C_intr' => 2
+        },
+        'dlahmim' => {
+          'IV_C_intr' => 1
+        }
+      },
+      'entry' => 'idlahamm',
+      'form' => 'idlahamm',
+      'lines' => [
+        ';; {idolaham~_1',
+        '<dlhm   {idolaham~      PV_V_intr       be dark;be gloomy;be pitch-black',
+        'Adlhm   {idolaham~      PV_V_intr       be dark;be gloomy;be pitch-black',
+        '<dlhmm  {idolahomam     PV_C_intr       be dark;be gloomy;be pitch-black',
+        'Adlhmm  {idolahomam     PV_C_intr       be dark;be gloomy;be pitch-black',
+        'dlhm    dolahim~        IV_V_intr       be dark;be gloomy;be pitch-black',
+        'dlhmm   dolahomim       IV_C_intr       be dark;be gloomy;be pitch-black'
+      ],
+      'patterns' => {
+        'dlahimm' => [
+          'KRaDiSS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IKRaDaSS',
+      'suffix' => '',
+      'glosses' => [
+        'be dark',
+        'be gloomy',
+        'be pitch-black'
+      ],
+      'orig' => '{idolaham~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'dalham' => {
           'N' => 1
         }
@@ -23096,45 +23137,6 @@ $Lexicon = {
         'trim'
       ],
       'orig' => 'dar~am',
-      'prefix' => ''
-    }
-  ],
-  'idlahamm' => [
-    {
-      'types' => {
-        'idlahamm' => {},
-        'dlahimm' => {
-          'IV_V_intr' => 1
-        },
-        'idlahmam' => {
-          'PV_C_intr' => 2
-        },
-        'dlahmim' => {
-          'IV_C_intr' => 1
-        }
-      },
-      'entry' => 'idlahamm',
-      'form' => 'idlahamm',
-      'lines' => [
-        ';; {idolaham~_1',
-        '<dlhm   {idolaham~      PV_V_intr       be dark;be gloomy;be pitch-black',
-        'Adlhm   {idolaham~      PV_V_intr       be dark;be gloomy;be pitch-black',
-        '<dlhmm  {idolahomam     PV_C_intr       be dark;be gloomy;be pitch-black',
-        'Adlhmm  {idolahomam     PV_C_intr       be dark;be gloomy;be pitch-black',
-        'dlhm    dolahim~        IV_V_intr       be dark;be gloomy;be pitch-black',
-        'dlhmm   dolahomim       IV_C_intr       be dark;be gloomy;be pitch-black'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be dark',
-        'be gloomy',
-        'be pitch-black'
-      ],
-      'orig' => '{idolaham~',
       'prefix' => ''
     }
   ],

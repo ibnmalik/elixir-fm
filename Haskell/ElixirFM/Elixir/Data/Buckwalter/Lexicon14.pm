@@ -8557,43 +8557,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'i.shAbb' => [
-    {
-      'types' => {
-        '.shAbb' => {
-          'IV_V_intr' => 1
-        },
-        'i.shAbab' => {
-          'PV_C_intr' => 2
-        },
-        'i.shAbb' => {},
-        '.shAbab' => {
-          'IV_C_intr' => 1
-        }
-      },
-      'entry' => 'i.shAbb',
-      'form' => 'i.shAbb',
-      'lines' => [
-        ';; {iSohAb~_1',
-        '<ShAb   {iSohAb~        PV_V_intr       become reddish',
-        'AShAb   {iSohAb~        PV_V_intr       become reddish',
-        '<ShAbb  {iSohAbab       PV_C_intr       become reddish',
-        'AShAbb  {iSohAbab       PV_C_intr       become reddish',
-        'ShAb    SohAb~  IV_V_intr       become reddish',
-        'ShAbb   SohAbab IV_C_intr       become reddish'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'become reddish'
-      ],
-      'orig' => '{iSohAb~',
-      'prefix' => ''
-    }
-  ],
   '.s f \'' => [
     {
       'types' => {
@@ -30362,6 +30325,45 @@ $Lexicon = {
         'become reddish'
       ],
       'orig' => '{iSohab~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.shAbb' => {
+          'IV_V_intr' => 1
+        },
+        'i.shAbab' => {
+          'PV_C_intr' => 2
+        },
+        'i.shAbb' => {},
+        '.shAbab' => {
+          'IV_C_intr' => 1
+        }
+      },
+      'entry' => 'i.shAbb',
+      'form' => 'i.shAbb',
+      'lines' => [
+        ';; {iSohAb~_1',
+        '<ShAb   {iSohAb~        PV_V_intr       become reddish',
+        'AShAb   {iSohAb~        PV_V_intr       become reddish',
+        '<ShAbb  {iSohAbab       PV_C_intr       become reddish',
+        'AShAbb  {iSohAbab       PV_C_intr       become reddish',
+        'ShAb    SohAb~  IV_V_intr       become reddish',
+        'ShAbb   SohAbab IV_C_intr       become reddish'
+      ],
+      'patterns' => {
+        '.shAbb' => [
+          'FCALL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFCALL',
+      'suffix' => '',
+      'glosses' => [
+        'become reddish'
+      ],
+      'orig' => '{iSohAb~',
       'prefix' => ''
     },
     {

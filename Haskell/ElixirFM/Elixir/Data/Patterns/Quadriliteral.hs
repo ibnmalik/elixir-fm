@@ -81,6 +81,8 @@ instance Rules (Morphs PatternQ) where
 
 data PatternQ =
 
+--  Form I
+
             KaRDaS
 
         |   KaRDiS
@@ -90,13 +92,6 @@ data PatternQ =
 
         |   MuKaRDiS
         |   MuKaRDaS
-
-        |   TaKaRDaS
-
-        |   MutaKaRDiS
-        |   MutaKaRDaS
-
-        |   TaKaRDuS
 
         |   KaRDAS
         |   KaRDIS
@@ -112,6 +107,25 @@ data PatternQ =
 
         |   KaRADiS
         |   KaRADIS
+
+--  Form II
+
+        |   TaKaRDaS
+
+        |   MutaKaRDiS
+        |   MutaKaRDaS
+
+        |   TaKaRDuS
+
+--  Form III
+
+        |   IKRanDaS
+        |   KRaNDiS
+
+--  Form IV
+
+        |   IKRaDaSS
+        |   KRaDiSS
 
     deriving (Enum, Show, Eq)
 

@@ -506,6 +506,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '^s m \' z' => [
+    {
+      'types' => {
+        '^sma\'ziz' => {
+          'IV_C_intr' => 1
+        },
+        'i^sma\'zaz' => {
+          'PV_C_intr' => 2
+        },
+        '^sma\'izz' => {
+          'IV_V_intr' => 1
+        },
+        'i^sma\'azz' => {}
+      },
+      'entry' => 'i^sma\'azz',
+      'form' => 'i^sma\'azz',
+      'lines' => [
+        ';; {i$oma>az~_1',
+        '<$m>z   {i$oma>az~      PV_V_intr       be disgusted;be nauseated',
+        'A$m>z   {i$oma>az~      PV_V_intr       be disgusted;be nauseated',
+        '<$m>zz  {i$oma>ozaz     PV_C_intr       be disgusted;be nauseated',
+        'A$m>zz  {i$oma>ozaz     PV_C_intr       be disgusted;be nauseated',
+        '$m}z    $oma}iz~        IV_V_intr       be disgusted;be nauseated',
+        '$m>zz   $oma>oziz       IV_C_intr       be disgusted;be nauseated'
+      ],
+      'patterns' => {
+        '^sma\'izz' => [
+          'KRaDiSS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IKRaDaSS',
+      'suffix' => '',
+      'glosses' => [
+        'be disgusted',
+        'be nauseated'
+      ],
+      'orig' => '{i$omaOaz~',
+      'prefix' => ''
+    }
+  ],
   '^s .h _d' => [
     {
       'types' => {
@@ -10191,44 +10233,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'i^sma\'azz' => [
-    {
-      'types' => {
-        '^sma\'ziz' => {
-          'IV_C_intr' => 1
-        },
-        'i^sma\'zaz' => {
-          'PV_C_intr' => 2
-        },
-        '^sma\'izz' => {
-          'IV_V_intr' => 1
-        },
-        'i^sma\'azz' => {}
-      },
-      'entry' => 'i^sma\'azz',
-      'form' => 'i^sma\'azz',
-      'lines' => [
-        ';; {i$oma>az~_1',
-        '<$m>z   {i$oma>az~      PV_V_intr       be disgusted;be nauseated',
-        'A$m>z   {i$oma>az~      PV_V_intr       be disgusted;be nauseated',
-        '<$m>zz  {i$oma>ozaz     PV_C_intr       be disgusted;be nauseated',
-        'A$m>zz  {i$oma>ozaz     PV_C_intr       be disgusted;be nauseated',
-        '$m}z    $oma}iz~        IV_V_intr       be disgusted;be nauseated',
-        '$m>zz   $oma>oziz       IV_C_intr       be disgusted;be nauseated'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be disgusted',
-        'be nauseated'
-      ],
-      'orig' => '{i$omaOaz~',
-      'prefix' => ''
-    }
-  ],
   '^s f r' => [
     {
       'types' => {
@@ -14159,44 +14163,6 @@ $Lexicon = {
         'hemp'
       ],
       'orig' => '$aronaqap',
-      'prefix' => ''
-    }
-  ],
-  'i^sra\'abb' => [
-    {
-      'types' => {
-        'i^sra\'bab' => {
-          'PV_C' => 2
-        },
-        '^sra\'bib' => {
-          'IV_C' => 1
-        },
-        '^sra\'ibb' => {
-          'IV_V' => 1
-        },
-        'i^sra\'abb' => {}
-      },
-      'entry' => 'i^sra\'abb',
-      'form' => 'i^sra\'abb',
-      'lines' => [
-        ';; {i$ora>ab~_1',
-        '<$r>b   {i$ora>ab~      PV_V    crane the neck;stretch the neck',
-        'A$r>b   {i$ora>ab~      PV_V    crane the neck;stretch the neck',
-        '<$r>bb  {i$ora>obab     PV_C    crane the neck;stretch the neck',
-        'A$r>bb  {i$ora>obab     PV_C    crane the neck;stretch the neck',
-        '$r}b    $ora}ib~        IV_V    crane the neck;stretch the neck',
-        '$r>bb   $ora>obib       IV_C    crane the neck;stretch the neck'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'crane the neck',
-        'stretch the neck'
-      ],
-      'orig' => '{i$oraOab~',
       'prefix' => ''
     }
   ],
@@ -21055,6 +21021,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '^s m _h r' => [
+    {
+      'types' => {
+        'i^sma_harr' => {},
+        '^sma_hirr' => {
+          'IV_V_intr' => 1
+        },
+        'i^sma_hrar' => {
+          'PV_C_intr' => 2
+        },
+        '^sma_hrir' => {
+          'IV_C_intr' => 1
+        }
+      },
+      'entry' => 'i^sma_harr',
+      'form' => 'i^sma_harr',
+      'lines' => [
+        ';; {i$omaxar~_1',
+        '<$mxr   {i$omaxar~      PV_V_intr       be gigantic;be proud',
+        'A$mxr   {i$omaxar~      PV_V_intr       be gigantic;be proud',
+        '<$mxrr  {i$omaxorar     PV_C_intr       be gigantic;be proud',
+        'A$mxrr  {i$omaxorar     PV_C_intr       be gigantic;be proud',
+        '$mxr    $omaxir~        IV_V_intr       be gigantic;be proud',
+        '$mxrr   $omaxorir       IV_C_intr       be gigantic;be proud'
+      ],
+      'patterns' => {
+        '^sma_hirr' => [
+          'KRaDiSS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IKRaDaSS',
+      'suffix' => '',
+      'glosses' => [
+        'be gigantic',
+        'be proud'
+      ],
+      'orig' => '{i$omaxar~',
+      'prefix' => ''
+    }
+  ],
   '^s n r' => [
     {
       'types' => {
@@ -21590,6 +21598,48 @@ $Lexicon = {
         'malevolent'
       ],
       'orig' => '$Ani}',
+      'prefix' => ''
+    }
+  ],
+  '^s r \' b' => [
+    {
+      'types' => {
+        'i^sra\'bab' => {
+          'PV_C' => 2
+        },
+        '^sra\'bib' => {
+          'IV_C' => 1
+        },
+        '^sra\'ibb' => {
+          'IV_V' => 1
+        },
+        'i^sra\'abb' => {}
+      },
+      'entry' => 'i^sra\'abb',
+      'form' => 'i^sra\'abb',
+      'lines' => [
+        ';; {i$ora>ab~_1',
+        '<$r>b   {i$ora>ab~      PV_V    crane the neck;stretch the neck',
+        'A$r>b   {i$ora>ab~      PV_V    crane the neck;stretch the neck',
+        '<$r>bb  {i$ora>obab     PV_C    crane the neck;stretch the neck',
+        'A$r>bb  {i$ora>obab     PV_C    crane the neck;stretch the neck',
+        '$r}b    $ora}ib~        IV_V    crane the neck;stretch the neck',
+        '$r>bb   $ora>obib       IV_C    crane the neck;stretch the neck'
+      ],
+      'patterns' => {
+        '^sra\'ibb' => [
+          'KRaDiSS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IKRaDaSS',
+      'suffix' => '',
+      'glosses' => [
+        'crane the neck',
+        'stretch the neck'
+      ],
+      'orig' => '{i$oraOab~',
       'prefix' => ''
     }
   ],
@@ -24692,44 +24742,6 @@ $Lexicon = {
         'darnel'
       ],
       'orig' => '$ayolam',
-      'prefix' => ''
-    }
-  ],
-  'i^sma_harr' => [
-    {
-      'types' => {
-        'i^sma_harr' => {},
-        '^sma_hirr' => {
-          'IV_V_intr' => 1
-        },
-        'i^sma_hrar' => {
-          'PV_C_intr' => 2
-        },
-        '^sma_hrir' => {
-          'IV_C_intr' => 1
-        }
-      },
-      'entry' => 'i^sma_harr',
-      'form' => 'i^sma_harr',
-      'lines' => [
-        ';; {i$omaxar~_1',
-        '<$mxr   {i$omaxar~      PV_V_intr       be gigantic;be proud',
-        'A$mxr   {i$omaxar~      PV_V_intr       be gigantic;be proud',
-        '<$mxrr  {i$omaxorar     PV_C_intr       be gigantic;be proud',
-        'A$mxrr  {i$omaxorar     PV_C_intr       be gigantic;be proud',
-        '$mxr    $omaxir~        IV_V_intr       be gigantic;be proud',
-        '$mxrr   $omaxorir       IV_C_intr       be gigantic;be proud'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be gigantic',
-        'be proud'
-      ],
-      'orig' => '{i$omaxar~',
       'prefix' => ''
     }
   ],

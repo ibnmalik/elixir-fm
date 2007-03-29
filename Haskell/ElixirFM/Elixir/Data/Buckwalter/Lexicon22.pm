@@ -26508,44 +26508,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ikfaharr' => [
-    {
-      'types' => {
-        'ikfaharr' => {},
-        'kfahirr' => {
-          'IV_V_intr' => 1
-        },
-        'kfahrir' => {
-          'IV_C_intr' => 1
-        },
-        'ikfahrar' => {
-          'PV_C_intr' => 2
-        }
-      },
-      'entry' => 'ikfaharr',
-      'form' => 'ikfaharr',
-      'lines' => [
-        ';; {ikofahar~_1',
-        '<kfhr   {ikofahar~      PV_V_intr       be dark;be gloomy',
-        'Akfhr   {ikofahar~      PV_V_intr       be dark;be gloomy',
-        '<kfhrr  {ikofahorar     PV_C_intr       be dark;be gloomy',
-        'Akfhrr  {ikofahorar     PV_C_intr       be dark;be gloomy',
-        'kfhr    kofahir~        IV_V_intr       be dark;be gloomy',
-        'kfhrr   kofahorir       IV_C_intr       be dark;be gloomy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be dark',
-        'be gloomy'
-      ],
-      'orig' => '{ikofahar~',
-      'prefix' => ''
-    }
-  ],
   'kuwmbAk' => [
     {
       'types' => {
@@ -43933,6 +43895,48 @@ $Lexicon = {
         'Canterbury'
       ],
       'orig' => 'kAnotirobriy',
+      'prefix' => ''
+    }
+  ],
+  'k f h r' => [
+    {
+      'types' => {
+        'ikfaharr' => {},
+        'kfahirr' => {
+          'IV_V_intr' => 1
+        },
+        'kfahrir' => {
+          'IV_C_intr' => 1
+        },
+        'ikfahrar' => {
+          'PV_C_intr' => 2
+        }
+      },
+      'entry' => 'ikfaharr',
+      'form' => 'ikfaharr',
+      'lines' => [
+        ';; {ikofahar~_1',
+        '<kfhr   {ikofahar~      PV_V_intr       be dark;be gloomy',
+        'Akfhr   {ikofahar~      PV_V_intr       be dark;be gloomy',
+        '<kfhrr  {ikofahorar     PV_C_intr       be dark;be gloomy',
+        'Akfhrr  {ikofahorar     PV_C_intr       be dark;be gloomy',
+        'kfhr    kofahir~        IV_V_intr       be dark;be gloomy',
+        'kfhrr   kofahorir       IV_C_intr       be dark;be gloomy'
+      ],
+      'patterns' => {
+        'kfahirr' => [
+          'KRaDiSS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IKRaDaSS',
+      'suffix' => '',
+      'glosses' => [
+        'be dark',
+        'be gloomy'
+      ],
+      'orig' => '{ikofahar~',
       'prefix' => ''
     }
   ],

@@ -5989,35 +5989,6 @@ $Lexicon = {
       'prefix' => 'lA >| '
     }
   ],
-  'i.grawraq' => [
-    {
-      'types' => {
-        '.grawriq' => {
-          'IV_intr' => 1
-        },
-        'i.grawraq' => {}
-      },
-      'entry' => 'i.grawraq',
-      'form' => 'i.grawraq',
-      'lines' => [
-        ';; {igoraworaq_1',
-        '<grwrq  {igoraworaq     PV_intr be immersed;be drowned',
-        'Agrwrq  {igoraworaq     PV_intr be immersed;be drowned',
-        'grwrq   goraworiq       IV_intr be immersed;be drowned'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be immersed',
-        'be drowned'
-      ],
-      'orig' => '{igoraworaq',
-      'prefix' => ''
-    }
-  ],
   '.g \' w' => [
     {
       'types' => {
@@ -9353,6 +9324,37 @@ $Lexicon = {
     }
   ],
   '.g d n' => [
+    {
+      'types' => {
+        'i.gdawdan' => {},
+        '.gdawdin' => {
+          'IV-n' => 1
+        }
+      },
+      'entry' => 'i.gdawdan',
+      'form' => 'i.gdawdan',
+      'lines' => [
+        ';; {igodawodan_1',
+        '<gdwdn  {igodawodan     PV-n    grow luxuriantly;become lush',
+        'Agdwdn  {igodawodan     PV-n    grow luxuriantly;become lush',
+        'gdwdn   godawodin       IV-n    grow luxuriantly;become lush'
+      ],
+      'patterns' => {
+        '.gdawdin' => [
+          'FCawCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFCawCaL',
+      'suffix' => '',
+      'glosses' => [
+        'grow luxuriantly',
+        'become lush'
+      ],
+      'orig' => '{igodawodan',
+      'prefix' => ''
+    },
     {
       'types' => {
         '.gadan' => {
@@ -14676,35 +14678,6 @@ $Lexicon = {
         'Gaudio'
       ],
       'orig' => 'gawodiyuw',
-      'prefix' => ''
-    }
-  ],
-  'i.gdawdan' => [
-    {
-      'types' => {
-        'i.gdawdan' => {},
-        '.gdawdin' => {
-          'IV-n' => 1
-        }
-      },
-      'entry' => 'i.gdawdan',
-      'form' => 'i.gdawdan',
-      'lines' => [
-        ';; {igodawodan_1',
-        '<gdwdn  {igodawodan     PV-n    grow luxuriantly;become lush',
-        'Agdwdn  {igodawodan     PV-n    grow luxuriantly;become lush',
-        'gdwdn   godawodin       IV-n    grow luxuriantly;become lush'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'grow luxuriantly',
-        'become lush'
-      ],
-      'orig' => '{igodawodan',
       'prefix' => ''
     }
   ],
@@ -31503,6 +31476,37 @@ $Lexicon = {
         'last'
       ],
       'orig' => '{isotagoraq',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.grawriq' => {
+          'IV_intr' => 1
+        },
+        'i.grawraq' => {}
+      },
+      'entry' => 'i.grawraq',
+      'form' => 'i.grawraq',
+      'lines' => [
+        ';; {igoraworaq_1',
+        '<grwrq  {igoraworaq     PV_intr be immersed;be drowned',
+        'Agrwrq  {igoraworaq     PV_intr be immersed;be drowned',
+        'grwrq   goraworiq       IV_intr be immersed;be drowned'
+      ],
+      'patterns' => {
+        '.grawriq' => [
+          'FCawCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFCawCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be immersed',
+        'be drowned'
+      ],
+      'orig' => '{igoraworaq',
       'prefix' => ''
     },
     {

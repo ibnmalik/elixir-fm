@@ -11288,6 +11288,32 @@ $Lexicon = {
   's l .t .h' => [
     {
       'types' => {
+        'slan.ti.h' => {
+          'IV_intr' => 1
+        },
+        'islan.ta.h' => {}
+      },
+      'entry' => 'islan.ta.h',
+      'form' => 'islan.ta.h',
+      'lines' => [
+        ';; {isolanoTaH_1',
+        '<slnTH  {isolanoTaH     PV_intr be wide',
+        'AslnTH  {isolanoTaH     PV_intr be wide',
+        'slnTH   solanoTiH       IV_intr be wide'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IKRanDaS',
+      'suffix' => '',
+      'glosses' => [
+        'be wide'
+      ],
+      'orig' => '{isolanoTaH',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'musal.ta.h' => {
           'N-ap' => 1
         }
@@ -21702,34 +21728,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'islan.ta.h' => [
-    {
-      'types' => {
-        'slan.ti.h' => {
-          'IV_intr' => 1
-        },
-        'islan.ta.h' => {}
-      },
-      'entry' => 'islan.ta.h',
-      'form' => 'islan.ta.h',
-      'lines' => [
-        ';; {isolanoTaH_1',
-        '<slnTH  {isolanoTaH     PV_intr be wide',
-        'AslnTH  {isolanoTaH     PV_intr be wide',
-        'slnTH   solanoTiH       IV_intr be wide'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'be wide'
-      ],
-      'orig' => '{isolanoTaH',
-      'prefix' => ''
-    }
-  ],
   'siymbA' => [
     {
       'types' => {
@@ -23908,6 +23906,48 @@ $Lexicon = {
         'disqualified'
       ],
       'orig' => 'munosaHib',
+      'prefix' => ''
+    }
+  ],
+  's t s r' => [
+    {
+      'types' => {
+        'istasarr' => {},
+        'istasrar' => {
+          'PV_C' => 2
+        },
+        'stasrir' => {
+          'IV_C' => 1
+        },
+        'stasirr' => {
+          'IV_V' => 1
+        }
+      },
+      'entry' => 'istasarr',
+      'form' => 'istasarr',
+      'lines' => [
+        ';; {isotasar~_1',
+        '<stsr   {isotasar~      PV_V    attempt to hide;take as concubine',
+        'Astsr   {isotasar~      PV_V    attempt to hide;take as concubine',
+        '<stsrr  {isotasorar     PV_C    attempt to hide;take as concubine',
+        'Astsrr  {isotasorar     PV_C    attempt to hide;take as concubine',
+        'stsr    sotasir~        IV_V    attempt to hide;take as concubine',
+        'stsrr   sotasorir       IV_C    attempt to hide;take as concubine'
+      ],
+      'patterns' => {
+        'stasirr' => [
+          'KRaDiSS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IKRaDaSS',
+      'suffix' => '',
+      'glosses' => [
+        'attempt to hide',
+        'take as concubine'
+      ],
+      'orig' => '{isotasar~',
       'prefix' => ''
     }
   ],
@@ -42787,29 +42827,10 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'istasarr' => {},
-        'istasrar' => {
-          'PV_C' => 2
-        },
-        'stasrir' => {
-          'IV_C' => 1
-        },
-        'stasirr' => {
-          'IV_V' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'istasarr',
       'form' => 'istasarr',
-      'lines' => [
-        ';; {isotasar~_1',
-        '<stsr   {isotasar~      PV_V    attempt to hide;take as concubine',
-        'Astsr   {isotasar~      PV_V    attempt to hide;take as concubine',
-        '<stsrr  {isotasorar     PV_C    attempt to hide;take as concubine',
-        'Astsrr  {isotasorar     PV_C    attempt to hide;take as concubine',
-        'stsr    sotasir~        IV_V    attempt to hide;take as concubine',
-        'stsrr   sotasorir       IV_C    attempt to hide;take as concubine'
-      ],
+      'lines' => [],
       'patterns' => {
         'istasrar' => [
           'IstaFCaL'
@@ -42819,10 +42840,7 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'IstaFaCL',
       'suffix' => '',
-      'glosses' => [
-        'attempt to hide',
-        'take as concubine'
-      ],
+      'glosses' => [],
       'orig' => '{isotasar~',
       'prefix' => ''
     },
@@ -61070,6 +61088,9 @@ $Lexicon->{'s n w'}[4]{'glosses'} = $Lexicon->{'s n \''}[0]{'glosses'};
 $Lexicon->{'s n w'}[5]{'types'} = $Lexicon->{'s n \''}[1]{'types'};
 $Lexicon->{'s n w'}[5]{'lines'} = $Lexicon->{'s n \''}[1]{'lines'};
 $Lexicon->{'s n w'}[5]{'glosses'} = $Lexicon->{'s n \''}[1]{'glosses'};
+$Lexicon->{'s r r'}[7]{'types'} = $Lexicon->{'s t s r'}[0]{'types'};
+$Lexicon->{'s r r'}[7]{'lines'} = $Lexicon->{'s t s r'}[0]{'lines'};
+$Lexicon->{'s r r'}[7]{'glosses'} = $Lexicon->{'s t s r'}[0]{'glosses'};
 $Lexicon->{'s r r'}[21]{'types'} = $Lexicon->{'s r \''}[0]{'types'};
 $Lexicon->{'s r r'}[21]{'lines'} = $Lexicon->{'s r \''}[0]{'lines'};
 $Lexicon->{'s r r'}[21]{'glosses'} = $Lexicon->{'s r \''}[0]{'glosses'};

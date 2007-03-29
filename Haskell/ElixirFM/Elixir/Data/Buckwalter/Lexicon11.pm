@@ -8492,44 +8492,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'izmaharr' => [
-    {
-      'types' => {
-        'izmaharr' => {},
-        'zmahirr' => {
-          'IV_V_intr' => 1
-        },
-        'zmahrir' => {
-          'IV_C_intr' => 1
-        },
-        'izmahrar' => {
-          'PV_C_intr' => 2
-        }
-      },
-      'entry' => 'izmaharr',
-      'form' => 'izmaharr',
-      'lines' => [
-        ';; {izomahar~_1',
-        '<zmhr   {izomahar~      PV_V_intr       become flushed;be bloodshot',
-        'Azmhr   {izomahar~      PV_V_intr       become flushed;be bloodshot',
-        '<zmhrr  {izomahorar     PV_C_intr       become flushed;be bloodshot',
-        'Azmhrr  {izomahorar     PV_C_intr       become flushed;be bloodshot',
-        'zmhr    zomahir~        IV_V_intr       become flushed;be bloodshot',
-        'zmhrr   zomahorir       IV_C_intr       become flushed;be bloodshot'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'become flushed',
-        'be bloodshot'
-      ],
-      'orig' => '{izomahar~',
-      'prefix' => ''
-    }
-  ],
   'z r `' => [
     {
       'types' => {
@@ -11590,6 +11552,46 @@ $Lexicon = {
         'be bloodshot'
       ],
       'orig' => 'zamohar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'izmaharr' => {},
+        'zmahirr' => {
+          'IV_V_intr' => 1
+        },
+        'zmahrir' => {
+          'IV_C_intr' => 1
+        },
+        'izmahrar' => {
+          'PV_C_intr' => 2
+        }
+      },
+      'entry' => 'izmaharr',
+      'form' => 'izmaharr',
+      'lines' => [
+        ';; {izomahar~_1',
+        '<zmhr   {izomahar~      PV_V_intr       become flushed;be bloodshot',
+        'Azmhr   {izomahar~      PV_V_intr       become flushed;be bloodshot',
+        '<zmhrr  {izomahorar     PV_C_intr       become flushed;be bloodshot',
+        'Azmhrr  {izomahorar     PV_C_intr       become flushed;be bloodshot',
+        'zmhr    zomahir~        IV_V_intr       become flushed;be bloodshot',
+        'zmhrr   zomahorir       IV_C_intr       become flushed;be bloodshot'
+      ],
+      'patterns' => {
+        'zmahirr' => [
+          'KRaDiSS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IKRaDaSS',
+      'suffix' => '',
+      'glosses' => [
+        'become flushed',
+        'be bloodshot'
+      ],
+      'orig' => '{izomahar~',
       'prefix' => ''
     }
   ],

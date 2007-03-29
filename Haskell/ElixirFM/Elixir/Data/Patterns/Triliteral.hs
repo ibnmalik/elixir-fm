@@ -327,9 +327,9 @@ data PatternT =
         |   FCuL                |   CuL                 |   FUL                 |   FCU                 |   FuCL
                                 |   CI                  |   FY
 
-     {- |   FaCL    -}
-     {- |   FiCL    -}
-     {- |   FuCL    -}
+    {-- |   FaCL    --}
+    {-- |   FiCL    --}
+    {-- |   FuCL    --}
 
         |   FaCAL                                                               |   FaCA'
         |   FiCAL                                                               |   FiCA'
@@ -343,7 +343,7 @@ data PatternT =
         |   FaCLA'
         |   FuCaLA'
 
-     {- |   FACiL   -}                                  |   FA'iL            {- |   FACI    -}
+    {-- |   FACiL   --}                                 |   FA'iL           {-- |   FACI    --}
 
         |   MaFCUL                                      |   MaFUL               |   MaFCIy
 
@@ -377,7 +377,7 @@ data PatternT =
         |   MaFACiL                                     |   MaFA'iL             |   MaFACI              |   MaFACL
         |   MaFACIL                                     |   MaFA'IL
 
-     {- |   FaCaL   -}                                                       {- |   FaCY    -}
+    {-- |   FaCaL   --}                                                     {-- |   FaCY    --}
         |   FiCaL                                                               |   FiCY
         |   FuCaL                                                               |   FuCY
         |   FuCuL
@@ -504,6 +504,31 @@ data PatternT =
 
         |   MustaFCiL                                   |   MustaFIL            |   MustaFCI            |   MustaFiCL
         |   MustaFCaL                                   |   MustaFAL            |   MustaFCY            |   MustaFaCL
+
+--  Form XI
+
+        |   IFCALL
+        |   FCALL
+
+--  Form XII
+
+        |   IFCawCaL
+        |   FCawCiL
+
+--  Form XIII
+
+        |   IFCawwaL
+        |   FCawwiL
+
+--  Form XIV
+
+        |   IFCanLaL
+        |   FCanLiL
+
+--  Form XV
+
+        |   IFCanLY
+        |   FCanLI
 
     deriving (Enum, Show, Eq)
 
