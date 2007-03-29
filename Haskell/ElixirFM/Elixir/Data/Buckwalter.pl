@@ -349,8 +349,8 @@ sub closeEntry {
 
                 $done = 1;
 
-                $toor[1] = $root[1] if $toor[1] eq '';
-                $toor[2] = @root > 1 ? $root[-1] : '' if $toor[2] eq '';
+                $toor[1] = $root[1]  if $toor[1] eq '' and @root > 1;
+                $toor[2] = $root[-1] if $toor[2] eq '' and @root > 1;
 
                 storeEntry((join ' ', @toor), $_) foreach @{$root{$toor}};
             }
@@ -359,7 +359,7 @@ sub closeEntry {
                 $done = 1;
 
                 $toor[0] = $root[0];
-                $toor[2] = @root > 1 ? $root[-1] : '' if $toor[2] eq '';
+                $toor[2] = $root[-1] if $toor[2] eq '' and @root > 1;
 
                 storeEntry((join ' ', @toor), $_) foreach @{$root{$toor}};
             }

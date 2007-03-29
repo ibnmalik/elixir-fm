@@ -54,7 +54,7 @@ class (Param b) => Inflect m b where
 
 --    inflect :: Template b => a -> b -> Root -> [String]
 
-    inflect :: (Template a, Rules a, Forming a) => m a -> b -> [String]
+    inflect :: (Template a, Rules a, Rules (Morphs a), Forming a) => m a -> b -> [String]
 
 
 {-
@@ -71,9 +71,20 @@ class (Param b) => Inflect m b where
 -}
 
 
+instance Inflect RootEntry a => Inflect Entry a where
+
+    inflect x = inflect (RE "f ` l" x)
+
+
 instance Inflect Entry ParaVerb where
 
     inflect x = inflect (RE "d r s" x)
+
+
+instance Inflect Entry ParaNoun where
+
+    inflect x = inflect (RE "k t b" x)
+
 
 
 instance Inflect RootEntry ParaVerb where
@@ -111,19 +122,37 @@ instance Inflect RootEntry ParaVerb where
                            (filter (\ (x, (a, _, _, _)) -> morph a == morphs e))
                             . map (\ x -> (x, verbStems x)))
                            [I .. X]-}
-                           [ (x, y) | x <- [I .. X], y <- verbStems x,
+                           [ (x, y) | x <- [I ..], y <- verbStems x,
                                       let (a, _, _, _) = y,
                                       let Morphs s _ _ = morphs e, s == a ]
 
 
 instance Inflect RootEntry ParaNoun where
 
-    inflect (RE r e) = inflectNoun (concat (interlock (words r)
-                                                      (morphs e) []))
+    inflect (RE r e) = let t@(Morphs m p s) = morphs e in
 
-instance Inflect Entry ParaNoun where
+        case s of
 
-    inflect x = inflect (RE "d r s" x)
+            At : _      ->  apply paraAat (merge r m)
+
+            An : _      ->  apply paraAan (merge r m)
+
+            Un : _      ->  apply paraUun (merge r m)
+
+            _           ->  if isDiptote t then apply paraU2a (merge r t)
+                                           else apply paraU3N (merge r t)
+
+        --  _           ->  \ x -> [""]
+
+
+        where apply p w f = case f of
+                    NounS     n c (d :-: a) -> complete p c d a w
+                    NounP v g n c (d :-: a) -> complete p c d a w
+                    NounA   g n c (d :-: a) -> complete p c d a w
+
+              complete p c d a w = case d of
+                    Just True   -> [ prefixDefinite $ p c d a w ]
+                    _           -> [                  p c d a w ]
 
 
 prefix x y = x ++ y
@@ -166,30 +195,6 @@ prefixDefinite s =
         []      -> if isPrefixOf "i" s then prefix "al-i-" s
                                        else prefix "al-" s
         ls : _  ->                          prefix ("a" ++ ls ++ "-") s
-
-
-inflectNoun :: DictForm -> Noun
-
-inflectNoun word = case reverse word of
-
-        'Y' : 'N' : 'a' : r   ->  apply paraY3N (reverse r)
-        'Y'             : r   ->  apply paraY2Y (reverse r)
-        'N' : 'a'       : r   ->  apply paraAaA (reverse r)
-        'N' : 'i'       : r   ->  apply paraI3N (reverse r)
-        'I'             : r   ->  apply paraI2a (reverse r)
-        'u'             : r   ->  apply paraU2a (reverse r)
-        't' : 'A'       : r   ->  apply paraAat word
-        _               : r   ->  apply paraU3N word
-        _                     ->  \ x -> [""]
-
-    where apply p w f = case f of
-                NounS     n c (d :-: a) -> complete p c d a w
-                NounP v g n c (d :-: a) -> complete p c d a w
-                NounA   g n c (d :-: a) -> complete p c d a w
-
-          complete p c d a w = case d of
-                Just True   -> [ prefixDefinite $ p c d a w ]
-                _           -> [                  p c d a w ]
 
 
 paraI3N c d s = case (c, d, s) of

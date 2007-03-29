@@ -94,7 +94,12 @@ instance Forming PatternT where
                             VII     ->  init [InFaCaL .. IFtaCaL]
                             VIII    ->  init [IFtaCaL .. IFCaLL]
                             IX      ->  init [IFCaLL .. IstaFCaL]
-                            X       ->  [IstaFCaL ..]
+                            X       ->  init [IstaFCaL .. IFCALL]
+                            XI      ->  init [IFCALL .. IFCawCaL]
+                            XII     ->  init [IFCawCaL .. IFCawwaL]
+                            XIII    ->  init [IFCawwaL .. IFCanLaL]
+                            XIV     ->  init [IFCanLaL .. IFCanLY]
+                            XV      ->  [IFCanLY ..]
 
 
     verbStems I = [
@@ -234,6 +239,40 @@ instance Forming PatternT where
         (   IstaFAL,    UstuFIL,    StaFIL,     StaFAL      ),
         (   IstaFCY,    UstuFCiy,   StaFCI,     StaFCY      ),
         (   IstaFaCL,   UstuFiCL,   StaFiCL,    StaFaCL     )
+
+        ]
+
+    verbStems XI = [
+
+        (   IFCALL,     UFCULL,     FCALL,      FCALL       )
+
+        ]
+
+
+    verbStems XII = [
+
+        (   IFCawCaL,   UFCUCiL,    FCawCiL,    FCawCaL     )
+
+        ]
+
+
+    verbStems XIII = [
+
+        (   IFCawwaL,   UFCUwiL,    FCawwiL,    FCawwaL     )
+
+        ]
+
+
+    verbStems XIV = [
+
+        (   IFCanLaL,   UFCunLiL,   FCanLiL,    FCanLaL     )
+
+        ]
+
+
+    verbStems XV = [
+
+        (   IFCanLY,    UFCunLY,    FCanLI,     FCanLY      )
 
         ]
 
@@ -508,27 +547,41 @@ data PatternT =
 --  Form XI
 
         |   IFCALL
+        |   UFCULL
+
         |   FCALL
 
 --  Form XII
 
         |   IFCawCaL
+        |   UFCUCiL
+
         |   FCawCiL
+        |   FCawCaL
 
 --  Form XIII
 
         |   IFCawwaL
+        |   UFCUwiL
+
         |   FCawwiL
+        |   FCawwaL
 
 --  Form XIV
 
         |   IFCanLaL
+        |   UFCunLiL
+
         |   FCanLiL
+        |   FCanLaL
 
 --  Form XV
 
         |   IFCanLY
+        |   UFCunLY
+
         |   FCanLI
+        |   FCanLY
 
     deriving (Enum, Show, Eq)
 

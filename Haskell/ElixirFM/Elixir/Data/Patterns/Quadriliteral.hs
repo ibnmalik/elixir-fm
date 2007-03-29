@@ -58,7 +58,15 @@ instance Template PatternQ where
                                     _       -> x
 
 
-instance Forming PatternQ
+instance Forming PatternQ where
+
+    isForm f x = x `elem` case f of
+
+                            I       ->  init [KaRDaS .. TaKaRDaS]
+                            II      ->  init [TaKaRDaS .. IKRanDaS]
+                            III     ->  init [IKRanDaS .. IKRaDaSS]
+                            IV      ->  [IKRaDaSS ..]
+                            _       ->  []
 
 
 instance Rules PatternQ where
