@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir
--- Copyright   :  Otakar Smrz 2005-2006
+-- Copyright   :  Otakar Smrz 2005-2007
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -16,7 +16,7 @@
 
 {-
     Elixir -- Lexical information used with Functional Arabic Morphology
-    Copyright (C) 2005-2006  Otakar Smrz  (C) 2001-2002  Tim Buckwalter
+    Copyright (C) 2005-2007  Otakar Smrz  (C) 2001-2002  Tim Buckwalter
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -37,7 +37,8 @@
 module Elixir where
 
 
-import Encode
+import Elixir.Data.Lexicons
+import Elixir.Lexicon
 
 import Version
 

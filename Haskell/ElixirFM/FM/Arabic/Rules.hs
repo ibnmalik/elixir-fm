@@ -54,13 +54,17 @@ class (Param b) => Inflect m b where
 
 --    inflect :: Template b => a -> b -> Root -> [String]
 
-    inflect :: (Template a, Rules a, Rules (Morphs a), Forming a) => m a -> b -> [String]
+    inflect :: (Template a, Template (Morphs a), Rules a, Rules (Morphs a), Forming a) => m a -> b -> [String]
 
 
 {-
+
 [ (v, inflect (FiCAL |< Iy |< aT `noun` []) v)
   | x :: ParaNoun <- values,
     let y = case x of { NounS _ _ _ -> [x]; _ -> [] }, v <- y ]
+
+head [ l | NestT r l <- lexicon, r == "k t b" ]  !! 3
+
 -}
 
 
@@ -129,30 +133,32 @@ instance Inflect RootEntry ParaVerb where
 
 instance Inflect RootEntry ParaNoun where
 
-    inflect (RE r e) = let t@(Morphs m p s) = morphs e in
+    inflect (RE r e) (NounS n c s) = (map (findForm r c s) . findStem n) e
+
+    inflect _        _             = error "Unexpected case ..."
+
+
+findStem Plural e = case entity e of Noun l _ _ -> l
+                                     _          -> error "Incompatible Noun"
+
+findStem Dual e = [morphs e |< An]
+
+findStem _ e = [morphs e]
+
+
+findForm r c (d :-: a) t@(Morphs m p s) =
+
+        ( case d of Just True -> prefixDefinite
+                    _         -> id ) $
 
         case s of
 
-            At : _      ->  apply paraAat (merge r m)
+            At : _      ->  paraAat c d a (merge r t)
+            An : xs     ->  paraAan c d a (merge r (Morphs m p xs))
+            Un : _      ->  paraUun c d a (merge r m)
 
-            An : _      ->  apply paraAan (merge r m)
-
-            Un : _      ->  apply paraUun (merge r m)
-
-            _           ->  if isDiptote t then apply paraU2a (merge r t)
-                                           else apply paraU3N (merge r t)
-
-        --  _           ->  \ x -> [""]
-
-
-        where apply p w f = case f of
-                    NounS     n c (d :-: a) -> complete p c d a w
-                    NounP v g n c (d :-: a) -> complete p c d a w
-                    NounA   g n c (d :-: a) -> complete p c d a w
-
-              complete p c d a w = case d of
-                    Just True   -> [ prefixDefinite $ p c d a w ]
-                    _           -> [                  p c d a w ]
+            _           ->  if isDiptote t then paraU2a c d a (merge r t)
+                                           else paraU3N c d a (merge r t)
 
 
 prefix x y = x ++ y

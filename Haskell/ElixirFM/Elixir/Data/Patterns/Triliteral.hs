@@ -81,6 +81,39 @@ assimilating c = case c of
             _       ->  (c, "t")
 
 
+instance Template PatternT => Template (Morphs PatternT) where
+
+    interlock r (Morphs t p []) = (++) (map show p) . interlock r t
+
+    interlock r (Morphs t p s)  = (++) (map show p) .
+                                   (:) (init shown) . (:) modified .
+                                  (++) (map show (tail suff))
+
+        where shown = concat (interlock r t [])
+              suff  = reverse s
+              ix    = head suff
+
+              modified = case last shown of
+
+                'Y' -> case ix of   AT -> "AT"
+                                    Iy -> "aw" ++ show Iy
+                                    Un -> "awn"
+                                    In -> "ayn"
+                                    ch -> "ay" ++ show ch
+
+                'I' -> case ix of   Un -> "Un"
+                                    In -> "In"
+                                    ch -> "iy" ++ show ch
+
+                -- exprerimental and non-verified
+
+                'A' -> case ix of   AT -> "AT"
+                                    Iy -> "Aw" ++ show Iy
+                                    ch -> "aw" ++ show ch
+
+                ch  -> [ch]
+
+
 instance Forming PatternT where
 
     isForm f x = x `elem` case f of

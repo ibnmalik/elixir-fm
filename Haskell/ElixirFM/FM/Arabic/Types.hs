@@ -130,7 +130,7 @@ data Number = Singular
 instance Param Number   where values = enum
 
 
-data ParaNoun' = Noun Number Case State deriving (Eq, Show)
+-- data ParaNoun' = Noun Number Case State deriving (Eq, Show)
 
 
 data ParaNoun   = NounS              Number Case State
@@ -199,6 +199,15 @@ state (Just False :-: False) = "AbsoluteNegative"
 state (Nothing    :-: True)  = "Construct"
 state (Just True  :-: True)  = "Overdetermined"
 state (Just False :-: True)  = "Underdetermined"
+
+
+stateI = Nothing    :-: False
+stateD = Just True  :-: False
+stateA = Just False :-: False
+
+stateR = Nothing    :-: True
+stateC = Just True  :-: True
+stateU = Just False :-: True
 
 
 data State' = Def | Indef | Const

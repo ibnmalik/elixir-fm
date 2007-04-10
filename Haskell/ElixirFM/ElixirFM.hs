@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  ElixirFM
--- Copyright   :  Otakar Smrz 2005-2006
+-- Copyright   :  Otakar Smrz 2005-2007
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -16,7 +16,7 @@
 
 {-
     ElixirFM -- Implementation of Functional Arabic Morphology
-    Copyright (C) 2005-2006  Otakar Smrz
+    Copyright (C) 2005-2007  Otakar Smrz
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -37,8 +37,15 @@
 module ElixirFM where
 
 
-import Elixir
-import FM
+import Elixir.Data.Lexicons
+import Elixir.Lexicon
+import Elixir.Template
+
+import FM.Arabic.Rules
+import FM.Arabic.Types
+
+import Encode
+import Encode.Arabic
 
 import Version
 

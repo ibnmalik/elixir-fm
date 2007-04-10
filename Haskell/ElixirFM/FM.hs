@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  FM
--- Copyright   :  Otakar Smrz 2005-2006
+-- Copyright   :  Otakar Smrz 2005-2007
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -16,7 +16,7 @@
 
 {-
     FM -- Extending Markus Forsberg's Functional Morphology library
-    Copyright (C) 2005-2006  Otakar Smrz  (C) 2004  Markus Forsberg
+    Copyright (C) 2005-2007 Otakar Smrz  (C) 2004  Markus Forsberg
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -43,9 +43,6 @@ import FM.Arabic.Types
 
 import Elixir.Lexicon
 import Elixir.Data.Patterns
-
-import Encode
-import Encode.Arabic
 
 import Version
 

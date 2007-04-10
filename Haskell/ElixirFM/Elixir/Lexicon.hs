@@ -30,7 +30,7 @@ module Elixir.Lexicon (
 --        Lexicon ((:<)), Nest, Entry,
 --        -- (94686 reductions, 229830 cells)
 
-        Lexicon, Nest (..), Entry (..),
+        Lexicon, Nest (..), Entry (..), Entity (..),
         -- (93617 reductions, 227671 cells)
 
         PatternL (..),
@@ -57,9 +57,12 @@ module Elixir.Lexicon (
 
         sumEntry, sumEntryChars,
 -}
-        noun, verb,
 
-        imperf, plural, others
+        verb, noun, adj, num, prep, conj, part,
+
+        imperf, gerund, plural, others,
+
+        countNest, countEntry, countEach
 
     ) where
 
@@ -70,7 +73,7 @@ import Elixir.Data.Patterns
 
 -- import English
 
-import Data.Map
+import Data.Map hiding (map)
 import Data.List (groupBy)
 
 import Version
@@ -151,6 +154,7 @@ data Entry a = Entry {  entity  :: Entity a,
 
 data Entity a = Verb [a] (Maybe Voice)
               | Noun [Morphs a] (Maybe Gender) (Maybe Number)
+              | Adj [Morphs a] (Maybe Number)
               | More
 
     deriving Show
@@ -174,14 +178,21 @@ data Number = Singular | Dual | Plural
     deriving Show
 
 
-verb, noun :: (Morphing a b, Nestable b) => a -> Lexref -> Entry b
+verb, noun, adj, num, prep, conj, part :: (Morphing a b, Nestable b) => a -> Lexref -> Entry b
 
 verb m l = Entry (Verb [] Nothing) (morph m) l
 
 noun m l = Entry (Noun [] Nothing Nothing) (morph m) l
 
+adj  m l = Entry (Adj [] Nothing) (morph m) l
 
-infixl 3 `verb`, `noun`
+num  m l = Entry (Adj [] Nothing) (morph m) l
+
+prep = noun
+conj = noun
+part = noun
+
+infixl 3 `verb`, `noun`, `adj`, `num`, `prep`, `conj`, `part`
 
 
 {-
@@ -197,6 +208,9 @@ imperf x y = x { entity = Verb (y : z) v }
     where Verb z v = entity x
 
 
+gerund = const
+
+
 plural :: (Morphing a b, Nestable b) => Entry b -> a -> Entry b
 
 plural x y = x { entity = Noun (morph y : z) g n }
@@ -204,12 +218,24 @@ plural x y = x { entity = Noun (morph y : z) g n }
     where Noun z g n = entity x
 
 
-infixl 3 `imperf`, `plural`
+infixl 3 `imperf`, `gerund`, `plural`
 
 
 infixl 3 `others`
 
 others = const
+
+
+countNest :: Lexicon -> Int
+countNest = length
+
+countEntry :: Lexicon -> Int
+countEntry = sum . map countEach
+
+countEach :: Nest -> Int
+countEach (NestT _ l) = length l
+countEach (NestQ _ l) = length l
+countEach (NestL _ l) = length l
 
 
 {-
