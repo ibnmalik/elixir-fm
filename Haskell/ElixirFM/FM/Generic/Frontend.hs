@@ -3,9 +3,9 @@ module FM.Generic.Frontend where
 import FM.Generic.Map as Map
 import FM.Generic.Dictionary
 import FM.Generic.ErrM
-import Data.Char
 import FM.Generic.General
 import Data.Maybe (isJust)
+import Data.Char
 
 -- A class defined to be able to construct a language independent frontend
 

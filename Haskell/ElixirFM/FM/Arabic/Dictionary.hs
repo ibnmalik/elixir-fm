@@ -21,21 +21,48 @@ module FM.Arabic.Dictionary where
 
 import FM.Arabic.Build
 import FM.Generic.Dictionary
+import FM.Generic.General
 import FM.Arabic.Types
+import FM.Arabic.Rules
 
 import Elixir.Data.Lexicons
 import Elixir.Lexicon
 import Elixir.Template
 
+import Encode
+import Encode.Arabic
+
+recode = encode Tim . decode TeX . (++) "\\noneplus "
 
 arabicDict :: Dictionary
 
-arabicDict = (dictionary . map lex2dict) lexicon
+arabicDict = (dictionary . concat . map lex2dict) $ take 80 $ drop 1000 lexicon
 
-    where   lex2dict (NestT x y) = ((unwords . map (concat . interlockz)) y,"Category",["Inherent"],[("Untyped",(0,["String"]))])
-                where interlockz s = interlock (words x) (morphs s) []
-            lex2dict _           = ("","Category",["Inherent"],[("Untyped",(0,["String"]))])
+    where   lex2dict (NestT x ys) = [ case entity y of
 
+                                        Noun _ _ _ -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
+                                                            "Noun", [],
+                                                            [ (show v, (0, map recode (inflect (RE x y) v))) | v :: ParaNoun <- values ])
+
+                                      --  Verb _ _   -> (dictword (inflect y :: ParaVerb -> [String]),
+                                      --                      "Verb", [],
+                                      --                      [ (show v, (0, inflect y v)) | v :: ParaVerb <- values ])
+                                        _          -> ("Dictword",
+                                                            "Category", ["Inherent"],
+                                                            [ ("Untyped",(0,["String"])) ]) | y <- ys ]
+                where root = words x
+
+            lex2dict _            = [ ("Others", "Category", [], [ ("Untyped", (0, [])) ]) ]
+
+{-
+    where   lex2dict (NestT x ys) = [ (dictword $ inflect y,
+                                       category $ inflect y, -- (RE x y),
+                                       ["Inherent properties"],
+                                       [("Untyped",(0,["String"]))]) | y <- ys ]
+                where root = words x
+
+            lex2dict _            = [ ("","Category",["Inherent"],[("Untyped",(0,["String"]))]) ]
+-}
 
 instance Show Dictionary where
 

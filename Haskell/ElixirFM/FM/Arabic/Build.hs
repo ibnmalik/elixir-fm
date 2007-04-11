@@ -110,9 +110,17 @@ neuter n = noun n Neuter
 
 -- Dictionary instances
 
-instance Dict ParaNoun      where category _ = "Noun"
-instance Dict ParaVerb      where category _ = "Verb"
-                                  dictword f = head $ f (VerbP Active Third Masculine Singular)
+instance Dict ParaNoun where
+
+    category = const "Noun"
+    dictword = concat . take 1 . flip ($) value0
+
+
+instance Dict ParaVerb where
+
+    category = const "Verb"
+    dictword f = head $ f (VerbP Active Third Masculine Singular)
+
 {-
 instance Dict ParaAdverb    where category _ = "Adverb"
 instance Dict ParaAdjective where category _ = "Adjective"

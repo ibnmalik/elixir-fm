@@ -142,11 +142,11 @@ data ParaNoun   = NounS              Number Case State
 instance Param ParaNoun where
 
     values  =  [ NounS     n c s | n <- values,
-                                   s <- values, c <- values  ]
-            ++ [ NounP v g n c s | v <- values, n <- values, g <- values,
-                                   s <- values, c <- values  ]
-            ++ [ NounA   g n c s | n <- values, g <- values,
-                                   s <- values, c <- values  ]
+                                   s <- values, c <- values ]
+            -- ++ [ NounP v g n c s | v <- values, n <- values, g <- values,
+            --                        s <- values, c <- values ]
+            -- ++ [ NounA   g n c s | n <- values, g <- values,
+            --                        s <- values, c <- values ]
 
 
 instance Show ParaNoun where

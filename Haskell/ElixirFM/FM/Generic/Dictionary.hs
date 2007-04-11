@@ -111,33 +111,6 @@ dict2fullform dict = sortAssocs $ concatMap mkOne $ zip (unDict dict) [0..] wher
                 unwords (stem : ("(" ++ show n ++ ")") : typ : sp : par : sp : inhs))) | s <- str]
     sp = "-"
 
--- word analyzator that handles interpunctation and initial upper case letter.
-
---aAáeEéiIíoOóuUúüyýY
-
-nWords :: String -> [String]
-nWords [] = []
-nWords (c:cs)
- | alphanumeric c = case span alphanumeric cs of
-            (xs,ys) -> ((case c of
-                 '\193' -> '\225'
-                 '\201' -> '\233'
-                 '\205' -> '\237'
-                 '\211' -> '\243'
-                 'U'    -> '\250' --obs!
-                 '\220' -> '\252'
-                 '\221' -> '\253'
-                 '\209' -> '\241'
-                 c   -> toLower c):xs):nWords ys
- | isSpace c    = nWords cs
- | otherwise    = nWords cs -- throw away special characters
- where
-  alphanumeric c = isAlpha c || elem c "ÁáÉéÍíÓóúÜüÝýŃń"
-
--- binary search tree applicable to analysis
-
--- auxiliaries
-
 -- binary search tree with logarithmic lookup
 data BinTree a = NT | BT a (BinTree a) (BinTree a) deriving (Show,Read)
 

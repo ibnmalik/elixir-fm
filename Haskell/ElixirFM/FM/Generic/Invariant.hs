@@ -6,11 +6,11 @@ import FM.Generic.Dictionary
 data Invariant = Invariant
   deriving (Show,Eq,Enum,Ord,Bounded)
 
-instance Param Invariant
-    where values = enum
+instance Param Invariant where values = enum
 
-instance Dict Invariant
-    where category = const "Invariant"
+instance Dict Invariant where
+
+    category = const "Invariant"
 
 invar = "Invariant"
 

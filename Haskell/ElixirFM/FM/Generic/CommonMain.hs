@@ -2,14 +2,14 @@ module FM.Generic.CommonMain where
 
 import FM.Generic.Dictionary.Pretty
 import FM.Generic.Trie
-import Data.List (intersperse)
 import System.Environment (getArgs, getEnv)
 import FM.Generic.GeneralIO
 import System.IO
 import FM.Generic.Dictionary
 import FM.Generic.Frontend
-import Data.Char
 import FM.Generic.ErrM
+import Data.List (intersperse)
+import Data.Char
 
 gfTypes :: Language a => a -> String
 gfTypes l = "types." ++ name l ++ ".gf"
@@ -25,9 +25,7 @@ readTrie l f = do d <- readDict l f
                   return $ trieDict d
 
 uName :: Language a => a -> String
-uName l = case name l of
-       [] -> []
-       (x:xs) -> toUpper x : xs
+uName = upperFirst . name
 
 commonMain :: Language a => a -> IO ()
 commonMain l = do
@@ -89,8 +87,18 @@ commonMain l = do
           xs             -> do prErr $ "Invalid parameter" ++ unwords xs
                                help
 
+
+upperFirst, lowerFirst :: String -> String
+
+upperFirst [] = []
+upperFirst (x:xs) = toUpper x : xs
+
+lowerFirst [] = []
+lowerFirst (x:xs) = toLower x : xs
+
+
 run :: (String -> [[String]]) -> IO ()
-run f =  interact $ analyze (f) . nWords
+run f = interact (analyze f . words)    -- analyze f . map lowerFirst . words
 
 analyze :: (String -> [[String]]) -> [String] -> String
 analyze _  []  = []

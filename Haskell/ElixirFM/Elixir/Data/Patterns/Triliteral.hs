@@ -99,19 +99,19 @@ instance Template PatternT => Template (Morphs PatternT) where
                                     Iy -> "aw" ++ show Iy
                                     Un -> "awn"
                                     In -> "ayn"
-                                    ch -> "ay" ++ show ch
+                                    _  -> "ay" ++ show ix
 
                 'I' -> case ix of   Un -> "Un"
                                     In -> "In"
-                                    ch -> "iy" ++ show ch
+                                    _  -> "iy" ++ show ix
 
                 -- exprerimental and non-verified
 
                 'A' -> case ix of   AT -> "AT"
                                     Iy -> "Aw" ++ show Iy
-                                    ch -> "aw" ++ show ch
+                                    _  -> "aw" ++ show ix
 
-                ch  -> [ch]
+                ch  -> [ch] ++ show ix
 
 
 instance Forming PatternT where
