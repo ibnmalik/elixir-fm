@@ -34,8 +34,8 @@ instance Morphing PatternT PatternT where
 
 instance Template PatternT where
 
-    interlock r p s = if isForm VIII p then (assimilate . show) p ++ s
-                                       else (substitute . show) p ++ s
+    interlock r p = if isForm VIII p then (assimilate . show) p
+                                     else (substitute . show) p
 
         where substitute x = (replace . restore) x
 
@@ -83,35 +83,36 @@ assimilating c = case c of
 
 instance Template PatternT => Template (Morphs PatternT) where
 
-    interlock r (Morphs t p []) = (++) (map show p) . interlock r t
+    interlock r (Morphs t p []) = map ((++ "-") . show) p ++
+                                  interlock r t
 
-    interlock r (Morphs t p s)  = (++) (map show p) .
-                                   (:) (init shown) . (:) modified .
-                                  (++) (map show (tail suff))
+    interlock r (Morphs t p s)  = map ((++ "-") . show) p ++
+                                  [init shown ++ modifi, ed] ++
+                                  map show (tail suff)
 
-        where shown = concat (interlock r t [])
+        where shown = concat (interlock r t)
               suff  = reverse s
               ix    = head suff
 
-              modified = case last shown of
+              (modifi, ed) = case last shown of
 
-                'Y' -> case ix of   AT -> "AT"
-                                    Iy -> "aw" ++ show Iy
-                                    Un -> "awn"
-                                    In -> "ayn"
-                                    _  -> "ay" ++ show ix
+                'Y' -> case ix of   AT -> ("A", "T")
+                                    Iy -> ("aw", show Iy)
+                                    Un -> ("aw", "n-a")
+                                    In -> ("ay", "n-a")
+                                    _  -> ("ay", show ix)
 
-                'I' -> case ix of   Un -> "Un"
-                                    In -> "In"
-                                    _  -> "iy" ++ show ix
+                'I' -> case ix of   Un -> ("U", "n-a")
+                                    In -> ("I", "n-a")
+                                    _  -> ("iy", show ix)
 
                 -- exprerimental and non-verified
 
-                'A' -> case ix of   AT -> "AT"
-                                    Iy -> "Aw" ++ show Iy
-                                    _  -> "aw" ++ show ix
+                'A' -> case ix of   AT -> ("A", "T")
+                                    Iy -> ("Aw", show Iy)
+                                    _  -> ("aw", show ix)
 
-                ch  -> [ch] ++ show ix
+                ch  -> ([ch], show ix)
 
 
 instance Forming PatternT where

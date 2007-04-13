@@ -27,12 +27,12 @@ version = revised "$Revision$"
 
 class Template a where
 
-    interlock :: [String] -> a -> [String] -> [String]
+    interlock :: [String] -> a -> [String]
 
 
 merge :: Template a => String -> a -> String
 
-merge r t = concat (interlock (words r) t [])
+merge r t = concat (interlock (words r) t)
 
 
 class Forming a where
@@ -92,7 +92,16 @@ infixl 8 |<
 
 data Morphs a = Morphs a [Prefix] [Suffix]
 
-    deriving (Show, Eq)
+    deriving Eq
+
+
+instance Show a => Show (Morphs a) where
+
+    showsPrec _ (Morphs m p s) =
+
+                    foldr (((.) . flip (.) ((++) " >| ") . shows)) id p .
+                    shows m .
+                    foldl (flip ((.) . (.) ((++) " |< ") . shows)) id s
 
 
 instance Morphing (Morphs a) a where
@@ -117,9 +126,9 @@ instance Template t => Template (Morphs t) where
 --    interlock r (m :|<: a)  = interlock r m . (++) [show a]
 --    interlock r (Pattern s) = interlock r s
 
-    interlock r (Morphs t p s) = (++) (map show p) .
-                                 interlock r t .
-                                 (++) (map show (reverse s))
+    interlock r (Morphs t p s) = map ((++ "-") . show) p ++
+                                 [concat (interlock r t)] ++
+                                 map show (reverse s)
 
 
 {-
@@ -144,8 +153,8 @@ data Prefix =       Al
 
 instance Show Prefix where
 
-    show Al = "al-"
-    show LA = "lA-"
+    show Al = "al"
+    show LA = "lA"
 
 
 al  =   Al

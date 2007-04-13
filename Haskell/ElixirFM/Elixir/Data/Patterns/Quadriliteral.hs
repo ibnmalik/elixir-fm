@@ -32,8 +32,8 @@ instance Morphing PatternQ PatternQ where
 
 instance Template PatternQ where
 
-    interlock r p s = {- if isFormVIII p then (assimilate . show) p ++ s
-                                      else -} (substitute . show) p ++ s
+    interlock r p = {- if isFormVIII p then (assimilate . show) p
+                                      else -} (substitute . show) p
 
         where substitute x = (replace . restore) x
 

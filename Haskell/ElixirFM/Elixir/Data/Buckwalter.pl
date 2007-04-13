@@ -138,7 +138,7 @@ sub storeEntry ($$) {
 
     my ($toor, $ptrn) = @_;
 
-    my @toor = split / /, $_[0];
+    my @toor = split / /, $toor;
 
     my $Clone = {};
 

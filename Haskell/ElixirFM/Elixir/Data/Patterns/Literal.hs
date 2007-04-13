@@ -32,7 +32,7 @@ instance Morphing PatternL PatternL where
 
 instance Template PatternL where
 
-    interlock r _ = (++) r
+    interlock = const
 
 
 data PatternL =  Identity
