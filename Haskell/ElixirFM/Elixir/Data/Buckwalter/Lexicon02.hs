@@ -1,0 +1,17506 @@
+
+module Elixir.Data.Lexicons.Lexicon02 where
+
+import Elixir.Lexicon
+
+
+version = revised "$Revision$"
+
+lexicon = listing "Lexicon's properties"
+
+
+ |> "'abA.ti.h" <| [
+
+    -- ;; >abATiH_1
+    -- >bATH   >abATiH Ndip    wide valley;plain
+    -- AbATH   >abATiH Ndip    wide valley;plain
+
+    Identity                  `noun`       {- OabATiH -}        [ "wide valley", "plain" ] ]
+
+ |> "'abA.tir" <| [
+
+    -- ;; >abATirap_1
+    -- >bATr   >abATir Nap     emperors
+    -- AbATr   >abATir Nap     emperors
+
+    Identity |< aT            `noun`       {- OabATirap -}      [ "emperors" ] ]
+
+ |> "'abA.tiyl" <| [
+
+    -- ;; >abATiyl_1
+    -- >bATyl  >abATiyl        Ndip    vanities;falsehood
+    -- AbATyl  >abATiyl        Ndip    vanities;falsehood
+
+    Identity                  `noun`       {- OabATiyl -}       [ "vanities", "falsehood" ] ]
+
+ |> "'abA`id" <| [
+
+    -- ;; >abAEid_1
+    -- >bAEd   >abAEid Ndip    farther;farthest
+    -- AbAEd   >abAEid Ndip    farther;farthest
+
+    Identity                  `noun`       {- OabAEid -}        [ "farther", "farthest" ] ]
+
+ |> "'abAdiyd" <| [
+
+    -- ;; >abAdiyd_1
+    -- >bAdyd  >abAdiyd        Ndip    scattered
+    -- AbAdyd  >abAdiyd        Ndip    scattered
+
+    Identity                  `noun`       {- OabAdiyd -}       [ "scattered" ] ]
+
+ |> "'ubAliyy" <| [
+
+    -- ;; lA>ubAliy~ap_1
+    -- lA>bAly lA>ubAliy~      Nap_L   indifference     [[lA>ubAliy~/NOUN]]
+    -- lAAbAly lA>ubAliy~      Nap_L   indifference     [[lAAubAliy~/NOUN]]
+
+    lA >| Identity |< aT      `noun`       {- lAOubAliy~ap -}   [ "indifference" ] ]
+
+ |> "'ubsuw.t" <| [
+
+    -- ;; >ubosuwTap_1
+    -- >bswT   >ubosuwT        Napdu   wheel rim
+    -- AbswT   >ubosuwT        Napdu   wheel rim
+    -- <bsyT   <ibosiyT        Ndu     wheel rim
+    -- AbsyT   <ibosiyT        Ndu     wheel rim
+    -- >bAsyT  >abAsiyT        Ndip    wheel rims
+    -- AbAsyT  >abAsiyT        Ndip    wheel rims
+
+    Identity |< aT            `noun`       {- OubosuwTap -}     [ "wheel rim", "wheel rims" ] ]
+
+ |> "b  '" <| [
+
+    -- ;; bA'_1
+    -- bA'     bA'     N0_Nh   ba' (Arabic letter)
+    -- bA&     bA&     Nh      ba' (Arabic letter)
+    -- bA}     bA}     Nhy     ba' (Arabic letter)
+    -- bA'     bA'     NAt     ba's (Arabic letter)
+
+    FAL                       `noun`       {- bA' -}            [ "ba' (Arabic letter)", "ba's (Arabic letter)" ] ]
+
+ |> "b ' .d" <| [
+
+    -- ;; bA}iD_1
+    -- bA}D    bA}iD   Nall    egg-laying
+    -- bwA}D   bawA}iD Ndip    egg-laying
+
+    FACiL                     `noun`       {- bA}iD -}          [ "egg-laying" ]
+                              `plural`     FawACiL
+                              `plural`     FawA'iL
+                              {- `others` [ "bawA'i.d Ndip" ] -} ]
+
+ |> "b ' .g" <| [
+
+    -- ;; bAgap_1
+    -- bAg     bAg     Nap     celluloid;tortoise shell
+
+    FAL |< aT                 `noun`       {- bAgap -}          [ "celluloid", "tortoise shell" ] ]
+
+ |> "b ' .s" <| [
+
+    -- ;; bAS_1
+    -- bAS     bAS     N/At    bus
+
+    FAL                       `noun`       {- bAS -}            [ "bus" ] ]
+
+ |> "b ' ^s" <| [
+
+    -- ;; bA$_1
+    -- bA$     bA$     N       chief
+
+    FAL                       `noun`       {- bA$ -}            [ "chief" ] ]
+
+ |> "b ' _h" <| [
+
+    -- ;; bA}ix_1
+    -- bA}x    bA}ix   Nall    spoiled;insipid
+
+    FACiL                     `noun`       {- bA}ix -}          [ "spoiled", "insipid" ] ]
+
+ |> "b ' `" <| [
+
+    -- ;; bA}iE_1
+    -- bA}E    bA}iE   Nall    vendor;merchant
+
+    FACiL                     `noun`       {- bA}iE -}          [ "vendor", "merchant" ] ]
+
+ |> "b ' b '" <| [
+
+    -- ;; ba>oba>_1
+    -- b>b>    ba>oba> PV->    babble
+    -- b>b|    ba>oba| PV-|    babble
+    -- b>b&    ba>oba& PV_w    babble
+    -- b>b}    ba>obi} IV_yu   babble
+
+    KaRDaS                    `verb`       {- baOobaO -}        [ "babble" ]
+                              {- `others` [ "ba'bi' IV_yu" ] -},
+
+    -- ;; bu&obu&_1
+    -- b&b&    bu&obu& N0_Nh   pupil;source
+    -- b&b}    bu&obu} Nhy     pupil;source
+
+    KuRDuS                    `noun`       {- buWobuW -}        [ "pupil", "source" ] ]
+
+ |> "b ' d" <| [
+
+    -- ;; bA}id_1
+    -- bA}d    bA}id   Nall    bygone;temporal
+
+    FACiL                     `noun`       {- bA}id -}          [ "bygone", "temporal" ] ]
+
+ |> "b ' l" <| [
+
+    -- ;; bAl_1
+    -- bAl     bAl     N       mind;attention
+
+    FAL                       `noun`       {- bAl -}            [ "mind", "attention" ],
+
+    -- ;; bAlap_1
+    -- bAl     bAl     NapAt   bale;bundle
+
+    FAL |< aT                 `noun`       {- bAlap -}          [ "bale", "bundle" ],
+
+    -- ;; bAl_2
+    -- bAl     bAl     Ndu     whale
+
+    FAL                       `noun`       {- bAl -}            [ "whale" ] ]
+
+ |> "b ' n" <| [
+
+    -- ;; ba&uwnap_1
+    -- b&wn    ba&uwn  Nap     Ba'una (10th Coptic month, June 8-July 7)
+
+    FaCUL |< aT               `noun`       {- baWuwnap -}       [ "Ba'una (10th Coptic month, June 8-July 7)" ],
+
+    -- ;; bA}in_1
+    -- bA}n    bA}in   Nall    plain;evident
+    -- bAyn    bAyin   Nall    plain;evident
+
+    FACiL                     `noun`       {- bA}in -}          [ "plain", "evident" ],
+
+    -- ;; bA}inap_1
+    -- bA}n    bA}in   Nap     dowry
+
+    FACiL |< aT               `noun`       {- bA}inap -}        [ "dowry" ] ]
+
+ |> "b ' q" <| [
+
+    -- ;; bA}iqap_1
+    -- bA}q    bA}iq   Nap     misfortune
+    -- bwA}q   bawA}iq Ndip    misfortunes
+
+    FACiL |< aT               `noun`       {- bA}iqap -}        [ "misfortune", "misfortunes" ]
+                              `plural`     FawACiL
+                              `plural`     FawA'iL
+                              {- `others` [ "bawA'iq Ndip" ] -} ]
+
+ |> "b ' r" <| [
+
+    -- ;; ba>ar-a_1
+    -- b>r     ba>ar   PV      dig a well;focus
+    -- b>r     bo>ar   IV      dig a well;focus
+
+    FaCaL                     `verb`       {- baOar-a -}        [ "dig a well", "focus" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b'ar IV" ] -},
+
+    -- ;; bi}or_1
+    -- b}r     bi}or   Ndu     well;spring
+    -- \|bAr    |bAr    N       wells;springs
+    -- AbAr    |bAr    N       wells;springs
+    -- b}Ar    bi}Ar   N       wells;springs
+
+    FiCL                      `noun`       {- bi}or -}          [ "well", "spring", "wells", "springs" ]
+                              `plural`     FiCAL
+                              {- `others` [ "bi'Ar N" ] -},
+
+    -- ;; bu&orap_1
+    -- b&r     bu&or   Napdu   center;focus
+    -- b&r     bu&ar   N       centers;foci
+
+    FuCL |< aT                `noun`       {- buWorap -}        [ "center", "focus", "centers", "foci" ]
+                              `plural`     FuCaL
+                              {- `others` [ "bu'ar N" ] -},
+
+    -- ;; bu&oriy~_1
+    -- b&ry    bu&oriy~        Nall    focal     [[bu&oriy~/ADJ]]
+
+    FuCL |< Iy                `adj`        {- buWoriy~ -}       [ "focal" ],
+
+    -- ;; bA}ir_1
+    -- bA}r    bA}ir   Nall    fallow;uncultivated
+
+    FACiL                     `noun`       {- bA}ir -}          [ "fallow", "uncultivated" ] ]
+
+ |> "b ' s" <| [
+
+    -- ;; ba>as-u_1
+    -- b>s     ba>as   PV_intr be strong;be brave
+    -- b&s     bo&us   IV_intr be strong;be brave
+
+    FaCaL                     `verb`       {- baOas-u -}        [ "be strong", "be brave" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b'us IV_intr" ] -},
+
+    -- ;; ba}is-a_1
+    -- b}s     ba}is   PV_intr be dejected;be miserable
+    -- b>s     bo>as   IV_intr be dejected;be miserable
+
+    FaCiL                     `verb`       {- ba}is-a -}        [ "be dejected", "be miserable" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b'as IV_intr" ] -},
+
+    -- ;; tabA'as_1
+    -- tbA's   tabA'as PV      feign misery;feign dejection
+    -- tbA's   tabA'as IV      feign misery;feign dejection
+
+    TaFACaL                   `verb`       {- tabA'as -}        [ "feign misery", "feign dejection" ],
+
+    -- ;; {ibota>as_1
+    -- <bt>s   {ibota>as       PV_intr be dejected;be worried
+    -- Abt>s   {ibota>as       PV_intr be dejected;be worried
+    -- bt}s    bota}is IV_intr be dejected;be worried
+
+    IFtaCaL                   `verb`       {- {ibotaOas -}      [ "be dejected", "be worried" ]
+                              {- `others` [ "bta'is IV_intr" ] -},
+
+    -- ;; ba>os_1
+    -- b>s     ba>os   N       bad;objection
+
+    FaCL                      `noun`       {- baOos -}          [ "bad", "objection" ],
+
+    -- ;; bi}os_1
+    -- b}s     bi}os   N       misfortune
+
+    FiCL                      `noun`       {- bi}os -}          [ "misfortune" ],
+
+    -- ;; bu&os_1
+    -- b&s     bu&os   N       dejection;misery
+    -- b>sA'   ba>osA' N0_Nh   dejection;misery
+    -- b>sA&   ba>osA& Nh      dejection;misery
+    -- b>sA}   ba>osA} Nhy     dejection;misery
+    -- b&ws    bu&uws  N       dejection;misery
+    -- b&sY    bu&osaY N0      dejection;misery
+    -- b&sA    bu&osA  Nhy     dejection;misery
+    -- >b&s    >abo&us N       dejection;misery
+    -- Ab&s    >abo&us N       dejection;misery
+
+    FuCL                      `noun`       {- buWos -}          [ "dejection", "misery" ]
+                              `plural`     FuCUL
+                              `plural`     FuCLY
+                              `plural`     FaCLA'
+                              {- `others` [ "bu'uws N", "bu'sY N0", "ba'sA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; ba}iys_1
+    -- b}ys    ba}iys  Nall    dejected;miserable
+    -- b&sA'   bu&asA' N0_Nh   dejected;miserable
+    -- b&sA&   bu&asA& Nh      dejected;miserable
+    -- b&sA}   bu&asA} Nhy     dejected;miserable
+
+    FaCIL                     `noun`       {- ba}iys -}         [ "dejected", "miserable" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "bu'asA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; bA}is_1
+    -- bA}s    bA}is   Nall    dejected;miserable
+
+    FACiL                     `noun`       {- bA}is -}          [ "dejected", "miserable" ] ]
+
+ |> "b ' t" <| [
+
+    -- ;; bA}it_1
+    -- bA}t    bA}it   Nall    stale;unpromoted
+
+    FACiL                     `noun`       {- bA}it -}          [ "stale", "unpromoted" ] ]
+
+ |> "b ' y" <| [
+
+    -- ;; bAy_1
+    -- bAy     bAy     N/ap    Bey
+
+    FAL                       `noun`       {- bAy -}            [ "Bey" ] ]
+
+ |> "b ' z" <| [
+
+    -- ;; ba>oz_1
+    -- b>z     ba>oz   Ndu     falcon
+    -- b&wz    bu&uwz  N       falcons
+    -- b}zAn   bi}ozAn N       falcons
+
+    FaCL                      `noun`       {- baOoz -}          [ "falcon", "falcons" ]
+                              `plural`     FiCLAn
+                              `plural`     FuCUL
+                              {- `others` [ "bi'zAn N", "bu'uwz N" ] -} ]
+
+ |> "b .d .d" <| [
+
+    -- ;; baD~-i_1
+    -- bD      baD~    PV_V    tune (instrument)
+    -- bDD     baDaD   PV_C    tune (instrument)
+    -- bD      biD~    IV_V    tune (instrument)
+    -- bDD     boDiD   IV_C    tune (instrument)
+
+    FaCL                      `verb`       {- baD~-i -}         [ "tune (instrument)" ]
+                              `imperf`     FCiL
+                              {- `others` [ "bi.d.d IV_V", "ba.da.d PV_C", "b.di.d IV_C" ] -},
+
+    -- ;; baD~_1
+    -- bD      baD~    N       tuning (instrument)
+
+    FaCL                      `noun`       {- baD~ -}           [ "tuning (instrument)" ],
+
+    -- ;; buDuwD_1
+    -- bDwD    buDuwD  N       tuning (instrument)
+
+    FuCUL                     `noun`       {- buDuwD -}         [ "tuning (instrument)" ],
+
+    -- ;; baDiyD_1
+    -- bDyD    baDiyD  N       tuning (instrument)
+
+    FaCIL                     `noun`       {- baDiyD -}         [ "tuning (instrument)" ],
+
+    -- ;; baD~_2
+    -- bD      baD~    N/ap    soft-skinned
+
+    FaCL                      `noun`       {- baD~ -}           [ "soft-skinned" ] ]
+
+ |> "b .d `" <| [
+
+    -- ;; baDaE-a_1
+    -- bDE     baDaE   PV      dissect;operate
+    -- bDE     boDaE   IV      dissect;operate
+
+    FaCaL                     `verb`       {- baDaE-a -}        [ "dissect", "operate" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b.da` IV" ] -},
+
+    -- ;; baD~aE_1
+    -- bDE     baD~aE  PV      dissect
+    -- bDE     baD~iE  IV_yu   dissect
+    -- bDE     baD~aE  IV_Pass_yu      be dissected
+
+    FaCCaL                    `verb`       {- baD~aE -}         [ "dissect", "be dissected" ]
+                              {- `others` [ "ba.d.di` IV_yu" ] -},
+
+    -- ;; bADaE_1
+    -- bADE    bADaE   PV      have sex with
+    -- bADE    bADiE   IV_yu   have sex with
+
+    FACaL                     `verb`       {- bADaE -}          [ "have sex with" ]
+                              {- `others` [ "bA.di` IV_yu" ] -},
+
+    -- ;; >aboDaE_1
+    -- >bDE    >aboDaE PV      invest
+    -- AbDE    >aboDaE PV      invest
+    -- bDE     boDiE   IV_yu   invest
+
+    HaFCaL                    `verb`       {- OaboDaE -}        [ "invest" ]
+                              {- `others` [ "b.di` IV_yu" ] -},
+
+    -- ;; tabaD~aE_1
+    -- tbDE    tabaD~aE        PV      do business
+    -- tbDE    tabaD~aE        IV      do business
+
+    TaFaCCaL                  `verb`       {- tabaD~aE -}       [ "do business" ],
+
+    -- ;; {isotaboDaE_1
+    -- <stbDE  {isotaboDaE     PV      trade;do business
+    -- AstbDE  {isotaboDaE     PV      trade;do business
+    -- stbDE   sotaboDiE       IV      trade;do business
+
+    IstaFCaL                  `verb`       {- {isotaboDaE -}    [ "trade", "do business" ],
+
+    -- ;; baDoE_1
+    -- bDE     baDoE   N       amputation
+
+    FaCL                      `noun`       {- baDoE -}          [ "amputation" ],
+
+    -- ;; buDuwE_1
+    -- bDwE    buDuwE  N       amputation
+
+    FuCUL                     `noun`       {- buDuwE -}         [ "amputation" ],
+
+    -- ;; biDoE_1
+    -- bDE     biDoE   N       some;several
+    -- bDE     biDoE   Nap     some;several
+
+    FiCL                      `noun`       {- biDoE -}          [ "some", "several" ],
+
+    -- ;; biDAEap_1
+    -- bDAE    biDAE   NapAt   merchandise;goods
+    -- bDA}E   baDA}iE Ndip    merchandise;goods
+
+    FiCAL |< aT               `noun`       {- biDAEap -}        [ "merchandise", "goods" ],
+
+    -- ;; miboDaE_1
+    -- mbDE    miboDaE Ndu     scalpel
+    -- mbADE   mabADiE Ndip    scalpels
+
+    MiFCaL                    `noun`       {- miboDaE -}        [ "scalpel", "scalpels" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "mabA.di` Ndip" ] -},
+
+    -- ;; <iboDAE_1
+    -- <bDAE   <iboDAE NduAt   partnership;investment
+    -- AbDAE   <iboDAE NduAt   partnership;investment
+
+    HiFCAL                    `noun`       {- IiboDAE -}        [ "partnership", "investment" ],
+
+    -- ;; muboDiE_1
+    -- mbDE    muboDiE Nall    limited partner
+
+    MuFCiL                    `noun`       {- muboDiE -}        [ "limited partner" ],
+
+    -- ;; musotaboDiE_1
+    -- mstbDE  musotaboDiE     Nall    manager
+
+    MustaFCiL                 `noun`       {- musotaboDiE -}    [ "manager" ],
+
+    -- ;; maboDuwE_1
+    -- mbDwE   maboDuwE        Nall    operated;dissected
+
+    MaFCUL                    `noun`       {- maboDuwE -}       [ "operated", "dissected" ],
+
+    -- ;; tabaD~uE_1
+    -- tbDE    tabaD~uE        NduAt   shopping
+
+    TaFaCCuL                  `noun`       {- tabaD~uE -}       [ "shopping" ] ]
+
+ |> "b .g '" <| [
+
+    -- ;; bigA'_1
+    -- bgA'    bigA'   N0_Nh   prostitution
+    -- bgA&    bigA&   Nh      prostitution
+    -- bgA}    bigA}   Nhy     prostitution
+
+    FiCAL                     `noun`       {- bigA' -}          [ "prostitution" ],
+
+    -- ;; bugA'_1
+    -- bgA'    bugA'   N0_Nh   desire;endeavor
+    -- bgA&    bugA&   Nh      desire;endeavor
+    -- bgA}    bugA}   Nhy     desire;endeavor
+
+    FuCAL                     `noun`       {- bugA' -}          [ "desire", "endeavor" ],
+
+    -- ;; {ibotigA'_1
+    -- <btgA'  {ibotigA'       N0_Nh   desire;wish
+    -- AbtgA'  {ibotigA'       N0_Nh   desire;wish
+    -- <btgA&  {ibotigA&       Nh      desire;wish
+    -- AbtgA&  {ibotigA&       Nh      desire;wish
+    -- <btgA}  {ibotigA}       Nhy     desire;wish
+    -- AbtgA}  {ibotigA}       Nhy     desire;wish
+    -- <btgA'  {ibotigA'       NAn_Nayn        desire;wish
+    -- AbtgA'  {ibotigA'       NAn_Nayn        desire;wish
+    -- <btgA}  {ibotigA}       Nayn    desire;wish
+    -- AbtgA}  {ibotigA}       Nayn    desire;wish
+    -- <btgA'  {ibotigA'       NAt     desire;wish
+    -- AbtgA'  {ibotigA'       NAt     desire;wish
+
+    IFtiCAL                   `noun`       {- {ibotigA' -}      [ "desire", "wish" ],
+
+    -- ;; {ibotigA'F_1
+    -- <btgA'  {ibotigA'F      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'F/ADV]]
+    -- AbtgA'  {ibotigA'F      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'F/ADV]]
+
+    IFtiCAL |< aN             `noun`       {- {ibotigA'F -}     [ "with the aim of", "for the purpose of" ] ]
+
+ |> "b .g .d" <| [
+
+    -- ;; bagiD-a_1
+    -- bgD     bagiD   PV      despise;hate
+    -- bgD     bogaD   IV      despise;hate
+
+    FaCiL                     `verb`       {- bagiD-a -}        [ "despise", "hate" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b.ga.d IV" ] -},
+
+    -- ;; baguD-u_1
+    -- bgD     baguD   PV_intr be hateful
+    -- bgD     boguD   IV_intr be hateful
+
+    FaCuL                     `verb`       {- baguD-u -}        [ "be hateful" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b.gu.d IV_intr" ] -},
+
+    -- ;; bag~aD_1
+    -- bgD     bag~aD  PV      make hateful
+    -- bgD     bag~iD  IV_yu   make hateful
+    -- bgD     bag~aD  IV_Pass_yu      be made hateful
+
+    FaCCaL                    `verb`       {- bag~aD -}         [ "make hateful", "be made hateful" ]
+                              {- `others` [ "ba.g.gi.d IV_yu" ] -},
+
+    -- ;; bAgaD_1
+    -- bAgD    bAgaD   PV      loathe
+    -- bAgD    bAgiD   IV_yu   loathe
+
+    FACaL                     `verb`       {- bAgaD -}          [ "loathe" ]
+                              {- `others` [ "bA.gi.d IV_yu" ] -},
+
+    -- ;; >abogaD_1
+    -- >bgD    >abogaD PV      detest;hate
+    -- AbgD    >abogaD PV      detest;hate
+    -- bgD     bogiD   IV_yu   detest;hate
+    -- bgD     bogaD   IV_Pass_yu      be detested;be hated
+
+    HaFCaL                    `verb`       {- OabogaD -}        [ "detest", "hate", "be detested", "be hated" ]
+                              {- `others` [ "b.ga.d IV_Pass_yu", "b.gi.d IV_yu" ] -},
+
+    -- ;; tabAgaD_1
+    -- tbAgD   tabAgaD PV      detest;hate
+    -- tbAgD   tabAgaD IV      detest;hate
+
+    TaFACaL                   `verb`       {- tabAgaD -}        [ "detest", "hate" ],
+
+    -- ;; bugoD_1
+    -- bgD     bugoD   N       hatred
+    -- bgD     bigoD   Nap     hatred
+    -- bgDA'   bagoDA' N0_Nh   hatred
+    -- bgDA&   bagoDA& Nh      hatred
+    -- bgDA}   bagoDA} Nhy     hatred
+
+    FuCL                      `noun`       {- bugoD -}          [ "hatred" ]
+                              `plural`     FaCLA'
+                              `plural`     FiCL |< aT
+                              {- `others` [ "ba.g.dA' Nh N0_Nh Nhy", "bi.g.d Nap" ] -},
+
+    -- ;; bagiyD_1
+    -- bgyD    bagiyD  Nall    odious;loathsome
+
+    FaCIL                     `noun`       {- bagiyD -}         [ "odious", "loathsome" ],
+
+    -- ;; tabAguD_1
+    -- tbAgD   tabAguD NduAt   mutual hatred
+
+    TaFACuL                   `noun`       {- tabAguD -}        [ "mutual hatred" ],
+
+    -- ;; maboguwD_1
+    -- mbgwD   maboguwD        Nall    detested;odious
+
+    MaFCUL                    `noun`       {- maboguwD -}       [ "detested", "odious" ],
+
+    -- ;; mubogiD_1
+    -- mbgD    mubogiD Nall    hating;detesting
+
+    MuFCiL                    `noun`       {- mubogiD -}        [ "hating", "detesting" ],
+
+    -- ;; mubogaD_1
+    -- mbgD    mubogaD Nall    detested;odious
+
+    MuFCaL                    `noun`       {- mubogaD -}        [ "detested", "odious" ] ]
+
+ |> "b .g ^s" <| [
+
+    -- ;; baga$-a_1
+    -- bg$     baga$   PV      shower
+    -- bg$     boga$   IV      shower
+
+    FaCaL                     `verb`       {- baga$-a -}        [ "shower" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b.ga^s IV" ] -},
+
+    -- ;; bago$ap_1
+    -- bg$     bago$   Napdu   shower
+    -- bg$     baga$   NAt     showers
+
+    FaCL |< aT                `noun`       {- bago$ap -}        [ "shower", "showers" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "ba.ga^s NAt" ] -},
+
+    -- ;; bugo$ap_1
+    -- bg$     bugo$   NapAt   bughsha (Yemeni copper coin)
+
+    FuCL |< aT                `noun`       {- bugo$ap -}        [ "bughsha (Yemeni copper coin)" ],
+
+    -- ;; bugA$ap_1
+    -- bgA$    bugA$   NapAt   boughashah ("cigar" pastries with walnut filling)
+
+    FuCAL |< aT               `noun`       {- bugA$ap -}        [ "boughashah (\"cigar\" pastries with walnut filling)" ] ]
+
+ |> "b .g _t" <| [
+
+    -- ;; bugAv_1
+    -- bgAv    bugAv   N       sparrows
+    -- bgvAn   bigovAn N       sparrows
+
+    FuCAL                     `noun`       {- bugAv -}          [ "sparrows" ]
+                              `plural`     FiCLAn
+                              {- `others` [ "bi.g_tAn N" ] -} ]
+
+ |> "b .g _t r" <| [
+
+    -- ;; bagovarap_1
+    -- bgvr    bagovar Nap     agitation;aversion
+
+    KaRDaS |< aT              `noun`       {- bagovarap -}      [ "agitation", "aversion" ] ]
+
+ |> "b .g d" <| [
+
+    -- ;; bagaY-i_1
+    -- bgY     bagaY   PV_0    want;desire
+    -- bgA     bagA    PV_h    want;desire
+    -- bgy     bagay   PV_Atn  want;desire
+    -- bg      bag     PV_ttAw want;desire
+    -- bgy     bogiy   IV_0hAnn        want;desire
+    -- bg      bog     IV_0hwnyn       want;desire
+    -- bgY     bogaY   IV_0_Pass_yu    be wanted;be desired
+
+    FaCY                      `verb`       {- bagaY-i -}        [ "want", "desire", "be wanted", "be desired" ]
+                              `imperf`     FCiL
+                              {- `others` [ "ba.gA PV_h", "b.gY IV_0_Pass_yu", "b.giy IV_0hAnn" ] -},
+
+    -- ;; {inobagaY_1
+    -- <nbgY   {inobagaY       PV_0    be incumbent;be necessary
+    -- AnbgY   {inobagaY       PV_0    be incumbent;be necessary
+    -- <nbgA   {inobagA        PV_h    be incumbent;be necessary
+    -- AnbgA   {inobagA        PV_h    be incumbent;be necessary
+    -- <nbgy   {inobagay       PV_Atn  be incumbent;be necessary
+    -- Anbgy   {inobagay       PV_Atn  be incumbent;be necessary
+    -- <nbg    {inobag PV_ttAw_intr    be incumbent;be necessary
+    -- Anbg    {inobag PV_ttAw_intr    be incumbent;be necessary
+    -- nbgy    nobagiy IV_0hAnn        be incumbent;be necessary
+    -- nbg     nobag   IV_0hwnyn       be incumbent;be necessary
+    -- nbgY    nobagaY IV_0_Pass_yu    be incumbent;be necessary
+
+    InFaCY                    `verb`       {- {inobagaY -}      [ "be incumbent", "be necessary" ]
+                              {- `others` [ "nba.giy IV_0hAnn", "nba.gY IV_0_Pass_yu" ] -},
+
+    -- ;; {ibotagaY_1
+    -- <btgY   {ibotagaY       PV_0    desire;want
+    -- AbtgY   {ibotagaY       PV_0    desire;want
+    -- <btgA   {ibotagA        PV_h    desire;want
+    -- AbtgA   {ibotagA        PV_h    desire;want
+    -- <btgy   {ibotagay       PV_Atn  desire;want
+    -- Abtgy   {ibotagay       PV_Atn  desire;want
+    -- <btg    {ibotag PV_ttAw desire;want
+    -- Abtg    {ibotag PV_ttAw desire;want
+    -- btgy    botagiy IV_0hAnn        desire;want
+    -- btg     botag   IV_0hwnyn       desire;want
+    -- btgY    botagaY IV_0    desire;want
+
+    IFtaCY                    `verb`       {- {ibotagaY -}      [ "desire", "want" ]
+                              {- `others` [ "bta.giy IV_0hAnn", "bta.gY IV_0" ] -},
+
+    -- ;; bigA'_1
+    -- bgA'    bigA'   N0_Nh   prostitution
+    -- bgA&    bigA&   Nh      prostitution
+    -- bgA}    bigA}   Nhy     prostitution
+
+    FiCA'                     `noun`       {- bigA' -}          [ "prostitution" ],
+
+    -- ;; bugA'_1
+    -- bgA'    bugA'   N0_Nh   desire;endeavor
+    -- bgA&    bugA&   Nh      desire;endeavor
+    -- bgA}    bugA}   Nhy     desire;endeavor
+
+    FuCA'                     `noun`       {- bugA' -}          [ "desire", "endeavor" ],
+
+    -- ;; mabogaY_1
+    -- mbgY    mabogaY N0      desideratum
+    -- mbgA    mabogA  Nhy     desideratum
+    -- mbgy    mabogay NAn_Nayn        desiderata
+    -- mbAgy   mabAgiy N0_Nh   desiderata
+    -- mbAg    mabAg   NK      desiderata
+
+    MaFCY                     `noun`       {- mabogaY -}        [ "desideratum", "desiderata" ]
+                              `plural`     MaFACI
+                              {- `others` [ "mabA.giy N0_Nh" ] -},
+
+    -- ;; {ibotigA'_1
+    -- <btgA'  {ibotigA'       N0_Nh   desire;wish
+    -- AbtgA'  {ibotigA'       N0_Nh   desire;wish
+    -- <btgA&  {ibotigA&       Nh      desire;wish
+    -- AbtgA&  {ibotigA&       Nh      desire;wish
+    -- <btgA}  {ibotigA}       Nhy     desire;wish
+    -- AbtgA}  {ibotigA}       Nhy     desire;wish
+    -- <btgA'  {ibotigA'       NAn_Nayn        desire;wish
+    -- AbtgA'  {ibotigA'       NAn_Nayn        desire;wish
+    -- <btgA}  {ibotigA}       Nayn    desire;wish
+    -- AbtgA}  {ibotigA}       Nayn    desire;wish
+    -- <btgA'  {ibotigA'       NAt     desire;wish
+    -- AbtgA'  {ibotigA'       NAt     desire;wish
+
+    IFtiCA'                   `noun`       {- {ibotigA' -}      [ "desire", "wish" ],
+
+    -- ;; {ibotigA'F_1
+    -- <btgA'  {ibotigA'F      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'F/ADV]]
+    -- AbtgA'  {ibotigA'F      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'F/ADV]]
+
+    IFtiCA' |< aN             `noun`       {- {ibotigA'F -}     [ "with the aim of", "for the purpose of" ],
+
+    -- ;; bAgiy_1
+    -- bAgy    bAgiy   N0F     oppressive;tyrant
+    -- bAg     bAg     NK      oppressive;tyrant
+    -- bAgy    bAgiy   NAn_Nayn        oppressive;tyrant
+    -- bAg     bAg     Nuwn_Niyn       oppressive;tyrant
+    -- bAgy    bAgiy   NapAt   oppressive;tyrant
+    -- bgA     bugA    Nap     oppressors;tyrants
+
+    FACI                      `noun`       {- bAgiy -}          [ "oppressive", "tyrant", "oppressors", "tyrants" ],
+
+    -- ;; bAgiy_2
+    -- bAgy    bAgiy   N0F     desiring
+    -- bAg     bAg     NK      desiring
+    -- bAgy    bAgiy   NAn_Nayn        desiring
+    -- bAg     bAg     Nuwn_Niyn       desiring
+    -- bAgy    bAgiy   NapAt   desiring
+    -- bgA     bugA    Nap     desiring
+
+    FACI                      `noun`       {- bAgiy -}          [ "desiring" ],
+
+    -- ;; mubotagaY_1
+    -- mbtgY   mubotagaY       N0      aspiration;goal
+    -- mbtgA   mubotagA        Nhy     aspiration;goal
+    -- mbtgy   mubotagay       NAn_Nayn        aspirations;goals
+    -- mbtgy   mubotagay       NAt     aspirations;goals
+
+    MuFtaCY                   `noun`       {- mubotagaY -}      [ "aspiration", "goal", "aspirations", "goals" ],
+
+    -- ;; buwgAdap_1
+    -- bwgAd   buwgAd  Nap     potash;lye
+    -- bwgAD   buwgAD  Nap     potash;lye
+
+    FUCAL |< aT               `noun`       {- buwgAdap -}       [ "potash", "lye" ] ]
+
+ |> "b .g d d" <| [
+
+    -- ;; tabagodad_1
+    -- tbgdd   tabagodad       PV      swagger
+    -- tbgdd   tabagodad       IV      swagger
+
+    TaKaRDaS                  `verb`       {- tabagodad -}      [ "swagger" ],
+
+    -- ;; bagodAd_1
+    -- bgdAd   bagodAd N0      Baghdad
+
+    KaRDAS                    `noun`       {- bagodAd -}        [ "Baghdad" ],
+
+    -- ;; bagodAdiy~_1
+    -- bgdAdy  bagodAdiy~      Nall    from/of Baghdad;Baghdadi     [[bagodAdiy~/ADJ]]
+    -- bgAdd   bagAdid Nap     from/of Baghdad;Baghdadis
+
+    KaRDAS |< Iy              `adj`        {- bagodAdiy~ -}     [ "from/of Baghdad", "Baghdadi", "Baghdadis" ]
+                              `plural`     KaRADiS |< aT
+                              {- `others` [ "ba.gAdid Nap" ] -},
+
+    -- ;; bagodAdiy~_2
+    -- bgdAdy  bagodAdiy~      N0      Baghdadi
+
+    KaRDAS |< Iy              `adj`        {- bagodAdiy~ -}     [ "Baghdadi" ] ]
+
+ |> "b .g l" <| [
+
+    -- ;; bagol_1
+    -- bgl     bagol   Ndu     mule
+    -- bgl     bagol   Napdu   she-ass
+    -- bgAl    bigAl   N       mules
+    -- >bgAl   >abogAl N       mules
+    -- AbgAl   >abogAl N       mules
+
+    FaCL                      `noun`       {- bagol -}          [ "mule", "she-ass", "mules" ]
+                              `plural`     FiCAL
+                              `plural`     HaFCAL
+                              {- `others` [ "bi.gAl N", "'ab.gAl N" ] -},
+
+    -- ;; bag~Al_1
+    -- bgAl    bag~Al  Nall    muleteer
+
+    FaCCAL                    `noun`       {- bag~Al -}         [ "muleteer" ] ]
+
+ |> "b .g r" <| [
+
+    -- ;; bagar-u_1
+    -- bgr     bagar   PV      forecast rain
+    -- bgr     bogur   IV      forecast rain
+
+    FaCaL                     `verb`       {- bagar-u -}        [ "forecast rain" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b.gur IV" ] -},
+
+    -- ;; buguwr_1
+    -- bgwr    buguwr  N       forecasting rain
+
+    FuCUL                     `noun`       {- buguwr -}         [ "forecasting rain" ],
+
+    -- ;; bagorap_1
+    -- bgr     bagor   Nap     rain shower
+
+    FaCL |< aT                `noun`       {- bagorap -}        [ "rain shower" ],
+
+    -- ;; maboguwr_1
+    -- mbgwr   maboguwr        Nall    drenched;soaked
+
+    MaFCUL                    `noun`       {- maboguwr -}       [ "drenched", "soaked" ] ]
+
+ |> "b .g t" <| [
+
+    -- ;; bagat-a_1
+    -- bgt     bagat   PV-t    surprise;arrive suddenly
+    -- bgt     bogat   IV      surprise;arrive suddenly
+
+    FaCaL                     `verb`       {- bagat-a -}        [ "surprise", "arrive suddenly" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b.gat IV" ] -},
+
+    -- ;; bAgat_1
+    -- bAgt    bAgat   PV-t    surprise;arrive suddenly
+    -- bAgt    bAgit   IV_yu   surprise;arrive suddenly
+
+    FACaL                     `verb`       {- bAgat -}          [ "surprise", "arrive suddenly" ]
+                              {- `others` [ "bA.git IV_yu" ] -},
+
+    -- ;; {inobagat_1
+    -- <nbgt   {inobagat       PV-t_intr       be surprised
+    -- Anbgt   {inobagat       PV-t_intr       be surprised
+    -- nbgt    nobagit IV_intr be surprised
+
+    InFaCaL                   `verb`       {- {inobagat -}      [ "be surprised" ]
+                              {- `others` [ "nba.git IV_intr" ] -},
+
+    -- ;; bagotap_1
+    -- bgt     bagot   Napdu   surprise
+    -- bgt     bagat   NAt     surprises
+
+    FaCL |< aT                `noun`       {- bagotap -}        [ "surprise", "surprises" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "ba.gat NAt" ] -},
+
+    -- ;; bagotiy~_1
+    -- bgty    bagotiy~        N-ap    sudden;unexpected     [[bagotiy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- bagotiy~ -}       [ "sudden", "unexpected" ],
+
+    -- ;; mubAgatap_1
+    -- mbAgt   mubAgat NapAt   sudden arrival;surprise
+
+    MuFACaL |< aT             `noun`       {- mubAgatap -}      [ "sudden arrival", "surprise" ],
+
+    -- ;; bAgit_1
+    -- bAgt    bAgit   N-ap    sudden;unexpected     [[bAgit/ADJ]]
+
+    FACiL                     `adj`        {- bAgit -}          [ "sudden", "unexpected" ],
+
+    -- ;; mubAgit_1
+    -- mbAgt   mubAgit Nall    sudden;unexpected     [[mubAgit/ADJ]]
+
+    MuFACiL                   `adj`        {- mubAgit -}        [ "sudden", "unexpected" ] ]
+
+ |> "b .g y" <| [
+
+    -- ;; bagoy_1
+    -- bgy     bagoy   N       injustice
+
+    FaCL                      `noun`       {- bagoy -}          [ "injustice" ],
+
+    -- ;; bugoyap_1
+    -- bgy     bugoy   Napdu   wish;purpose
+    -- bgy     bigoy   Napdu   wish;purpose
+
+    FuCL |< aT                `noun`       {- bugoyap -}        [ "wish", "purpose" ]
+                              `plural`     FiCL
+                              {- `others` [ "bi.gy Napdu" ] -},
+
+    -- ;; bAgiy_1
+    -- bAgy    bAgiy   N0F     oppressive;tyrant
+    -- bAg     bAg     NK      oppressive;tyrant
+    -- bAgy    bAgiy   NAn_Nayn        oppressive;tyrant
+    -- bAg     bAg     Nuwn_Niyn       oppressive;tyrant
+    -- bAgy    bAgiy   NapAt   oppressive;tyrant
+    -- bgA     bugA    Nap     oppressors;tyrants
+
+    FACiL                     `noun`       {- bAgiy -}          [ "oppressive", "tyrant", "oppressors", "tyrants" ],
+
+    -- ;; bAgiy_2
+    -- bAgy    bAgiy   N0F     desiring
+    -- bAg     bAg     NK      desiring
+    -- bAgy    bAgiy   NAn_Nayn        desiring
+    -- bAg     bAg     Nuwn_Niyn       desiring
+    -- bAgy    bAgiy   NapAt   desiring
+    -- bgA     bugA    Nap     desiring
+
+    FACiL                     `noun`       {- bAgiy -}          [ "desiring" ] ]
+
+ |> "b .g z" <| [
+
+    -- ;; buwgAz_1
+    -- bwgAz   buwgAz  N       strait;harbor
+    -- bwAgyz  bawAgiyz        Ndip    straits;harbors
+
+    FUCAL                     `noun`       {- buwgAz -}         [ "strait", "harbor", "straits", "harbors" ]
+                              `plural`     FawACIL
+                              {- `others` [ "bawA.giyz Ndip" ] -} ]
+
+ |> "b .h .h" <| [
+
+    -- ;; baH~-u_1
+    -- bH      baH~    PV_V_intr       be hoarse;be harsh
+    -- bHH     baHaH   PV_C_intr       be hoarse;be harsh
+    -- bH      buH~    IV_V_intr       be hoarse;be harsh
+    -- bHH     boHuH   IV_C_intr       be hoarse;be harsh
+
+    FaCL                      `verb`       {- baH~-u -}         [ "be hoarse", "be harsh" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b.hu.h IV_C_intr", "bu.h.h IV_V_intr", "ba.ha.h PV_C_intr" ] -},
+
+    -- ;; baH~aH_1
+    -- bHH     baH~aH  PV      make hoarse
+    -- bHH     baH~iH  IV_yu   make hoarse
+    -- bHH     baH~aH  IV_Pass_yu      be made hoarse
+
+    FaCCaL                    `verb`       {- baH~aH -}         [ "make hoarse", "be made hoarse" ]
+                              {- `others` [ "ba.h.hi.h IV_yu" ] -},
+
+    -- ;; >abaH~_1
+    -- >bH     >abaH~  PV_V    make hoarse
+    -- AbH     >abaH~  PV_V    make hoarse
+    -- >bHH    >aboHaH PV_C    make hoarse
+    -- AbHH    >aboHaH PV_C    make hoarse
+    -- bH      biH~    IV_V_yu make hoarse
+    -- bHH     boHiH   IV_C_yu make hoarse
+
+    HaFaCL                    `verb`       {- OabaH~ -}         [ "make hoarse" ]
+                              {- `others` [ "'ab.ha.h PV_C", "bi.h.h IV_V_yu", "b.hi.h IV_C_yu" ] -},
+
+    -- ;; buH~ap_1
+    -- bH      buH~    Nap     hoarseness
+    -- bHAH    buHAH   N       hoarseness
+    -- bHAH    baHAH   Nap     hoarseness
+    -- bHwH    buHuwH  Nap     hoarseness
+
+    FuCL |< aT                `noun`       {- buH~ap -}         [ "hoarseness" ]
+                              `plural`     FuCUL |< aT
+                              `plural`     FuCAL
+                              `plural`     FaCAL |< aT
+                              {- `others` [ "bu.huw.h Nap", "bu.hA.h N", "ba.hA.h Nap" ] -},
+
+    -- ;; >abaH~_2
+    -- >bH     >abaH~  Nel     hoarse
+    -- AbH     >abaH~  Nel     hoarse
+    -- bHA'    baH~A'  N0_Nh   hoarse
+    -- bHA&    baH~A&  Nh      hoarse
+    -- bHA}    baH~A}  Nhy     hoarse
+
+    HaFaCL                    `noun`       {- OabaH~ -}         [ "hoarse" ]
+                              `plural`     FaCLA'
+                              {- `others` [ "ba.h.hA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; maboHuwH_1
+    -- mbHwH   maboHuwH        Nall    hoarse
+
+    MaFCUL                    `noun`       {- maboHuwH -}       [ "hoarse" ] ]
+
+ |> "b .h ^s" <| [
+
+    -- ;; baHa$-a_1
+    -- bH$     baHa$   PV      dig
+    -- bH$     boHa$   IV      dig
+
+    FaCaL                     `verb`       {- baHa$-a -}        [ "dig" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b.ha^s IV" ] -} ]
+
+ |> "b .h _t" <| [
+
+    -- ;; baHav-a_1
+    -- bHv     baHav   PV      discuss;search
+    -- bHv     boHav   IV      discuss;search
+    -- <bHv    {iboHav CV      search;discuss
+    -- AbHv    {iboHav CV      search;discuss
+
+    FaCaL                     `verb`       {- baHav-a -}        [ "discuss", "search" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b.ha_t IV" ] -},
+
+    -- ;; bAHav_1
+    -- bAHv    bAHav   PV      discuss;deliberate
+    -- bAHv    bAHiv   IV_yu   discuss;deliberate
+
+    FACaL                     `verb`       {- bAHav -}          [ "discuss", "deliberate" ]
+                              {- `others` [ "bA.hi_t IV_yu" ] -},
+
+    -- ;; tabAHav_1
+    -- tbAHv   tabAHav PV      discuss;confer
+    -- tbAHv   tabAHav IV      discuss;confer
+
+    TaFACaL                   `verb`       {- tabAHav -}        [ "discuss", "confer" ],
+
+    -- ;; baHov_1
+    -- bHv     baHov   N       discussion
+
+    FaCL                      `noun`       {- baHov -}          [ "discussion" ],
+
+    -- ;; baHov_2
+    -- bHv     baHov   N       search;examination;research
+    -- bHwv    buHuwv  N/At    research
+    -- >bHAv   >aboHAv N       research
+    -- AbHAv   >aboHAv N       research
+
+    FaCL                      `noun`       {- baHov -}          [ "search", "examination", "research" ]
+                              `plural`     HaFCAL
+                              `plural`     FuCUL |< At
+                              {- `others` [ "'ab.hA_t N", "bu.huw_t N/At" ] -},
+
+    -- ;; baHoviy~_1
+    -- bHvy    baHoviy~        Nall    research     [[baHoviy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- baHoviy~ -}       [ "research" ],
+
+    -- ;; baH~Av_1
+    -- bHAv    baH~Av  Nall    scholar;researcher
+    -- bHAv    baH~Av  Nap     scholar;researcher
+
+    FaCCAL                    `noun`       {- baH~Av -}         [ "scholar", "researcher" ],
+
+    -- ;; maboHav_1
+    -- mbHv    maboHav Ndu     research;investigation
+    -- mbAHv   mabAHiv Ndip    research;investigations
+
+    MaFCaL                    `noun`       {- maboHav -}        [ "research", "investigation", "investigations" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "mabA.hi_t Ndip" ] -},
+
+    -- ;; mubAHavap_1
+    -- mbAHv   mubAHav Napdu   discussion;talk;negotiation
+    -- mbAHv   mubAHav NAt     discussions;talks;negotiations
+
+    MuFACaL |< aT             `noun`       {- mubAHavap -}      [ "discussion", "talk", "negotiation", "discussions", "talks", "negotiations" ]
+                              `plural`     MuFACaL |< At
+                              {- `others` [ "mubA.ha_t NAt" ] -},
+
+    -- ;; tabAHuv_1
+    -- tbAHv   tabAHuv N/At    conferring;discussing
+
+    TaFACuL                   `noun`       {- tabAHuv -}        [ "conferring", "discussing" ],
+
+    -- ;; bAHiv_1
+    -- bAHv    bAHiv   Nall    scholar;researcher
+    -- bHAv    buH~Av  N       scholars;researchers
+
+    FACiL                     `noun`       {- bAHiv -}          [ "scholar", "researcher", "scholars", "researchers" ]
+                              `plural`     FuCCAL
+                              {- `others` [ "bu.h.hA_t N" ] -} ]
+
+ |> "b .h _t r" <| [
+
+    -- ;; baHovar_1
+    -- bHvr    baHovar PV      scatter;squander
+    -- bHvr    baHovir IV_yu   scatter;squander
+
+    KaRDaS                    `verb`       {- baHovar -}        [ "scatter", "squander" ]
+                              {- `others` [ "ba.h_tir IV_yu" ] -},
+
+    -- ;; tabaHovar_1
+    -- tbHvr   tabaHovar       PV_intr be scattered;be squandered
+    -- tbHvr   tabaHovar       IV_intr be scattered;be squandered
+
+    TaKaRDaS                  `verb`       {- tabaHovar -}      [ "be scattered", "be squandered" ],
+
+    -- ;; baHovarap_1
+    -- bHvr    baHovar Nap     waste;dissipation
+
+    KaRDaS |< aT              `noun`       {- baHovarap -}      [ "waste", "dissipation" ],
+
+    -- ;; mubaHovir_1
+    -- mbHvr   mubaHovir       Nall    squanderer;dissipating
+
+    MuKaRDiS                  `noun`       {- mubaHovir -}      [ "squanderer", "dissipating" ] ]
+
+ |> "b .h b .h" <| [
+
+    -- ;; tabaHobaH_1
+    -- tbHbH   tabaHobaH       PV      have leisure;be prosperous
+    -- tbHbH   tabaHobaH       IV      have leisure;be prosperous
+
+    TaKaRDaS                  `verb`       {- tabaHobaH -}      [ "have leisure", "be prosperous" ],
+
+    -- ;; baHobuwH_1
+    -- bHbwH   baHobuwH        Nall    merry
+
+    KaRDUS                    `noun`       {- baHobuwH -}       [ "merry" ],
+
+    -- ;; buHobuwHap_1
+    -- bHbwH   buHobuwH        Nap     affluence;leisure
+    -- bHAbyH  baHAbiyH        Ndip    affluence;leisure
+
+    KuRDUS |< aT              `noun`       {- buHobuwHap -}     [ "affluence", "leisure" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "ba.hAbiy.h Ndip" ] -},
+
+    -- ;; mubaHobaH_1
+    -- mbHbH   mubaHobaH       Nall    well-to-do;leisurely
+
+    MuKaRDaS                  `noun`       {- mubaHobaH -}      [ "well-to-do", "leisurely" ],
+
+    -- ;; tabaHobuH_1
+    -- tbHbH   tabaHobuH       N/At    affluence;leisure
+
+    TaKaRDuS                  `noun`       {- tabaHobuH -}      [ "affluence", "leisure" ] ]
+
+ |> "b .h l q" <| [
+
+    -- ;; baHolaq_1
+    -- bHlq    baHolaq PV      gaze
+    -- bHlq    baHoliq IV_yu   gaze
+
+    KaRDaS                    `verb`       {- baHolaq -}        [ "gaze" ]
+                              {- `others` [ "ba.hliq IV_yu" ] -} ]
+
+ |> "b .h r" <| [
+
+    -- ;; baHir-a_1
+    -- bHr     baHir   PV_intr be startled;be bewildered
+    -- bHr     boHar   IV_intr be startled;be bewildered
+
+    FaCiL                     `verb`       {- baHir-a -}        [ "be startled", "be bewildered" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b.har IV_intr" ] -},
+
+    -- ;; baH~ar_1
+    -- bHr     baH~ar  PV      travel by sea
+    -- bHr     baH~ir  IV_yu   travel by sea
+    -- bHr     baH~ar  IV_Pass_yu      be sent by sea
+
+    FaCCaL                    `verb`       {- baH~ar -}         [ "travel by sea", "be sent by sea" ]
+                              {- `others` [ "ba.h.hir IV_yu" ] -},
+
+    -- ;; >aboHar_1
+    -- >bHr    >aboHar PV      travel by sea;set sail
+    -- AbHr    >aboHar PV      travel by sea;set sail
+    -- bHr     boHir   IV_yu   travel by sea;set sail
+
+    HaFCaL                    `verb`       {- OaboHar -}        [ "travel by sea", "set sail" ]
+                              {- `others` [ "b.hir IV_yu" ] -},
+
+    -- ;; tabaH~ar_1
+    -- tbHr    tabaH~ar        PV      delve into;study
+    -- tbHr    tabaH~ar        IV      delve into;study
+
+    TaFaCCaL                  `verb`       {- tabaH~ar -}       [ "delve into", "study" ],
+
+    -- ;; {isotaboHar_1
+    -- <stbHr  {isotaboHar     PV      delve into;expand
+    -- AstbHr  {isotaboHar     PV      delve into;expand
+    -- stbHr   sotaboHir       IV      delve into;expand
+
+    IstaFCaL                  `verb`       {- {isotaboHar -}    [ "delve into", "expand" ],
+
+    -- ;; baHor_1
+    -- bHr     baHor   Ndu     sea
+    -- bHAr    biHAr   N       seas
+    -- bHwr    buHuwr  N       seas
+    -- >bHAr   >aboHAr N       seas
+    -- AbHAr   >aboHAr N       seas
+    -- >bHr    >aboHur N       seas
+    -- AbHr    >aboHur N       seas
+
+    FaCL                      `noun`       {- baHor -}          [ "sea", "seas" ]
+                              `plural`     HaFCAL
+                              `plural`     FiCAL
+                              `plural`     FuCUL
+                              {- `others` [ "'ab.hAr N", "bi.hAr N", "bu.huwr N" ] -},
+
+    -- ;; baHoriy~_1
+    -- bHry    baHoriy~        Nall    naval;maritime     [[baHoriy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- baHoriy~ -}       [ "naval", "maritime" ],
+
+    -- ;; baHoriy~ap_1
+    -- bHry    baHoriy~        Nap     navy;marine     [[baHoriy~/NOUN]]
+
+    FaCL |< Iy |< aT          `noun`       {- baHoriy~ap -}     [ "navy", "marine" ],
+
+    -- ;; baHorap_1
+    -- bHr     baHor   Nap     pond;pool
+
+    FaCL |< aT                `noun`       {- baHorap -}        [ "pond", "pool" ],
+
+    -- ;; baHorAwiy~_1
+    -- bHrAwy  baHorAwiy~      N0      Bahrawi;Bahraoui
+
+    FaCLA' |< Iy              `adj`        {- baHorAwiy~ -}     [ "Bahrawi", "Bahraoui" ],
+
+    -- ;; baH~Ar_1
+    -- bHAr    baH~Ar  Nall    seaman;sailor
+
+    FaCCAL                    `noun`       {- baH~Ar -}         [ "seaman", "sailor" ],
+
+    -- ;; baH~Arap_1
+    -- bHAr    baH~Ar  Nap     sailors;crew
+
+    FaCCAL |< aT              `noun`       {- baH~Arap -}       [ "sailors", "crew" ],
+
+    -- ;; buHayorap_1
+    -- bHyr    buHayor NapAt   lake
+    -- bHA}r   baHA}ir Ndip    lakes
+
+    FuCayL |< aT              `noun`       {- buHayorap -}      [ "lake", "lakes" ],
+
+    -- ;; buHorAn_1
+    -- bHrAn   buHorAn N       crisis;culmination
+
+    FuCLAn                    `noun`       {- buHorAn -}        [ "crisis", "culmination" ],
+
+    -- ;; <iboHAr_1
+    -- <bHAr   <iboHAr NduAt   navigation;seafaring
+    -- AbHAr   <iboHAr NduAt   navigation;seafaring
+
+    HiFCAL                    `noun`       {- IiboHAr -}        [ "navigation", "seafaring" ],
+
+    -- ;; tabaH~ur_1
+    -- tbHr    tabaH~ur        NduAt   delving;penetration
+
+    TaFaCCuL                  `noun`       {- tabaH~ur -}       [ "delving", "penetration" ],
+
+    -- ;; mutabaH~ir_1
+    -- mtbHr   mutabaH~ir      Nall    delving;penetrating
+
+    MutaFaCCiL                `noun`       {- mutabaH~ir -}     [ "delving", "penetrating" ],
+
+    -- ;; baHorAniy~_1
+    -- bHrAny  baHorAniy~      Nall    Bahraini     [[baHorAniy~/NOUN]]
+    -- bHrAny  baHorAniy~      Nall    Bahraini     [[baHorAniy~/ADJ]]
+    -- bHArn   baHArin Nap     Bahrainis
+
+    FaCLAn |< Iy              `adj`        {- baHorAniy~ -}     [ "Bahraini", "Bahrainis" ] ]
+
+ |> "b .h r '" <| [
+
+    -- ;; baHorAwiy~_1
+    -- bHrAwy  baHorAwiy~      N0      Bahrawi;Bahraoui
+
+    KaRDAS |< Iy              `adj`        {- baHorAwiy~ -}     [ "Bahrawi", "Bahraoui" ] ]
+
+ |> "b .h r n" <| [
+
+    -- ;; buHorAn_1
+    -- bHrAn   buHorAn N       crisis;culmination
+
+    KuRDAS                    `noun`       {- buHorAn -}        [ "crisis", "culmination" ],
+
+    -- ;; baHorAniy~_1
+    -- bHrAny  baHorAniy~      Nall    Bahraini     [[baHorAniy~/NOUN]]
+    -- bHrAny  baHorAniy~      Nall    Bahraini     [[baHorAniy~/ADJ]]
+    -- bHArn   baHArin Nap     Bahrainis
+
+    KaRDAS |< Iy              `adj`        {- baHorAniy~ -}     [ "Bahraini", "Bahrainis" ]
+                              `plural`     KaRADiS |< aT
+                              {- `others` [ "ba.hArin Nap" ] -} ]
+
+ |> "b .h t" <| [
+
+    -- ;; bAHat_1
+    -- bAHt    bAHat   PV-t    promise
+    -- bAHt    bAHit   IV_yu   promise
+
+    FACaL                     `verb`       {- bAHat -}          [ "promise" ]
+                              {- `others` [ "bA.hit IV_yu" ] -},
+
+    -- ;; baHot_1
+    -- bHt     baHot   N       pure;exclusive
+
+    FaCL                      `noun`       {- baHot -}          [ "pure", "exclusive" ],
+
+    -- ;; baHotAF_1
+    -- bHt     baHot   NF      purely;exclusively     [[baHot/ADV]]
+
+    FaCL |< aN                `noun`       {- baHotAF -}        [ "purely", "exclusively" ]
+                              `plural`     FaCL
+                              {- `others` [ "ba.ht NF" ] -},
+
+    -- ;; mubAHatap_1
+    -- mbAHt   mubAHat NapAt   promise
+
+    MuFACaL |< aT             `noun`       {- mubAHatap -}      [ "promise" ] ]
+
+ |> "b .h t r" <| [
+
+    -- ;; buHotur_1
+    -- bHtr    buHotur N-ap    stocky;pudgy
+
+    KuRDuS                    `noun`       {- buHotur -}        [ "stocky", "pudgy" ],
+
+    -- ;; buHoturiy~_1
+    -- bHtry   buHoturiy~      N0      Buhturi
+
+    KuRDuS |< Iy              `adj`        {- buHoturiy~ -}     [ "Buhturi" ],
+
+    -- ;; buHoturiy~_2
+    -- bHtry   buHoturiy~      Nall    stocky;pudgy     [[buHoturiy~/ADJ]]
+
+    KuRDuS |< Iy              `adj`        {- buHoturiy~ -}     [ "stocky", "pudgy" ] ]
+
+ |> "b .s .s" <| [
+
+    -- ;; baS~-u_1
+    -- bS      baS~    PV_V    look
+    -- bSS     baSaS   PV_C    look
+    -- bS      buS~    IV_V    look
+    -- bSS     boSuS   IV_C    look
+
+    FaCL                      `verb`       {- baS~-u -}         [ "look" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b.su.s IV_C", "bu.s.s IV_V", "ba.sa.s PV_C" ] -},
+
+    -- ;; baS~-i_1
+    -- bS      baS~    PV_V    glow;sparkle
+    -- bSS     baSaS   PV_C    glow;sparkle
+    -- bS      biS~    IV_V    glow;sparkle
+    -- bSS     boSiS   IV_C    glow;sparkle
+
+    FaCL                      `verb`       {- baS~-i -}         [ "glow", "sparkle" ]
+                              `imperf`     FCiL
+                              {- `others` [ "b.si.s IV_C", "bi.s.s IV_V", "ba.sa.s PV_C" ] -},
+
+    -- ;; baS~ap_1
+    -- bS      baS~    Nap     embers
+
+    FaCL |< aT                `noun`       {- baS~ap -}         [ "embers" ],
+
+    -- ;; baSiyS_1
+    -- bSyS    baSiyS  N       glow;radiance
+
+    FaCIL                     `noun`       {- baSiyS -}         [ "glow", "radiance" ],
+
+    -- ;; baSiyS_2
+    -- bSyS    baSiyS  Nall    shining;glowing
+
+    FaCIL                     `noun`       {- baSiyS -}         [ "shining", "glowing" ],
+
+    -- ;; baS~AS_1
+    -- bSAS    baS~AS  N-ap    shining;lustrous
+
+    FaCCAL                    `noun`       {- baS~AS -}         [ "shining", "lustrous" ],
+
+    -- ;; baS~AS_2
+    -- bSAS    baS~AS  Nall    spy;detective
+
+    FaCCAL                    `noun`       {- baS~AS -}         [ "spy", "detective" ],
+
+    -- ;; buS~_1
+    -- bS      buS~    N0      Buss
+
+    FuCL                      `noun`       {- buS~ -}           [ "Buss" ] ]
+
+ |> "b .s _h" <| [
+
+    -- ;; baSaxap_1
+    -- bSx     baSax   Nap     Easter;Passion Week
+
+    FaCaL |< aT               `noun`       {- baSaxap -}        [ "Easter", "Passion Week" ] ]
+
+ |> "b .s b .s" <| [
+
+    -- ;; baSobaS_1
+    -- bSbS    baSobaS PV      wag (tail)
+    -- bSbS    baSobiS IV_yu   wag (tail)
+
+    KaRDaS                    `verb`       {- baSobaS -}        [ "wag (tail)" ]
+                              {- `others` [ "ba.sbi.s IV_yu" ] -},
+
+    -- ;; baSobaS_2
+    -- bSbS    baSobaS PV      ogle;stare
+    -- bSbS    baSobiS IV_yu   ogle;stare
+
+    KaRDaS                    `verb`       {- baSobaS -}        [ "ogle", "stare" ]
+                              {- `others` [ "ba.sbi.s IV_yu" ] -},
+
+    -- ;; baSobaSap_1
+    -- bSbS    baSobaS Nap     wagging
+
+    KaRDaS |< aT              `noun`       {- baSobaSap -}      [ "wagging" ],
+
+    -- ;; baSobaSap_2
+    -- bSbS    baSobaS Nap     ogling;staring
+
+    KaRDaS |< aT              `noun`       {- baSobaSap -}      [ "ogling", "staring" ] ]
+
+ |> "b .s l" <| [
+
+    -- ;; baSal_1
+    -- bSl     baSal   N       onion
+    -- bSl     baSal   NapAt   onion
+
+    FaCaL                     `noun`       {- baSal -}          [ "onion" ],
+
+    -- ;; baSaliy~_1
+    -- bSly    baSaliy~        Nall    bulbous;onion-like     [[baSaliy~/ADJ]]
+
+    FaCaL |< Iy               `adj`        {- baSaliy~ -}       [ "bulbous", "onion-like" ],
+
+    -- ;; buSayolap_1
+    -- bSyl    buSayol NapAt   bulb;small onion
+
+    FuCayL |< aT              `noun`       {- buSayolap -}      [ "bulb", "small onion" ] ]
+
+ |> "b .s m" <| [
+
+    -- ;; baSam-u_1
+    -- bSm     baSam   PV      imprint;stamp
+    -- bSm     boSum   IV      imprint;stamp
+
+    FaCaL                     `verb`       {- baSam-u -}        [ "imprint", "stamp" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b.sum IV" ] -},
+
+    -- ;; baSomap_1
+    -- bSm     baSom   Napdu   fingerprint;imprint
+    -- bSm     baSam   NAt     fingerprints;imprints
+
+    FaCL |< aT                `noun`       {- baSomap -}        [ "fingerprint", "imprint", "fingerprints", "imprints" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "ba.sam NAt" ] -} ]
+
+ |> "b .s q" <| [
+
+    -- ;; baSaq-u_1
+    -- bSq     baSaq   PV      spit
+    -- bSq     boSuq   IV      spit
+
+    FaCaL                     `verb`       {- baSaq-u -}        [ "spit" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b.suq IV" ] -},
+
+    -- ;; baSoq_1
+    -- bSq     baSoq   Nap     spit;saliva
+
+    FaCL                      `noun`       {- baSoq -}          [ "spit", "saliva" ],
+
+    -- ;; buSAq_1
+    -- bSAq    buSAq   N       spit;saliva
+
+    FuCAL                     `noun`       {- buSAq -}          [ "spit", "saliva" ],
+
+    -- ;; miboSaqap_1
+    -- mbSq    miboSaq Nap     spittoon
+    -- mbASq   mabASiq Ndip    spittoons
+
+    MiFCaL |< aT              `noun`       {- miboSaqap -}      [ "spittoon", "spittoons" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "mabA.siq Ndip" ] -} ]
+
+ |> "b .s r" <| [
+
+    -- ;; baSur-u_1
+    -- bSr     baSur   PV      perceive;understand;realize;see
+    -- bSr     boSur   IV      perceive;understand;realize;see
+
+    FaCuL                     `verb`       {- baSur-u -}        [ "perceive", "understand", "realize", "see" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b.sur IV" ] -},
+
+    -- ;; baSir-a_1
+    -- bSr     baSir   PV      perceive;understand;realize;see
+    -- bSr     boSar   IV      perceive;understand;realize;see
+
+    FaCiL                     `verb`       {- baSir-a -}        [ "perceive", "understand", "realize", "see" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b.sar IV" ] -},
+
+    -- ;; baS~ar_1
+    -- bSr     baS~ar  PV      make see;enlighten
+    -- bSr     baS~ir  IV_yu   make see;enlighten
+    -- bSr     baS~ar  IV_Pass_yu      be enlightened
+
+    FaCCaL                    `verb`       {- baS~ar -}         [ "make see", "enlighten", "be enlightened" ]
+                              {- `others` [ "ba.s.sir IV_yu" ] -},
+
+    -- ;; >aboSar_1
+    -- >bSr    >aboSar PV      see;notice
+    -- AbSr    >aboSar PV      see;notice
+    -- bSr     boSir   IV_yu   see;notice
+
+    HaFCaL                    `verb`       {- OaboSar -}        [ "see", "notice" ]
+                              {- `others` [ "b.sir IV_yu" ] -},
+
+    -- ;; tabaS~ar_1
+    -- tbSr    tabaS~ar        PV      envisage;ponder
+    -- tbSr    tabaS~ar        IV      envisage;ponder
+
+    TaFaCCaL                  `verb`       {- tabaS~ar -}       [ "envisage", "ponder" ],
+
+    -- ;; {isotaboSar_1
+    -- <stbSr  {isotaboSar     PV_intr be rational;reflect
+    -- AstbSr  {isotaboSar     PV_intr be rational;reflect
+    -- stbSr   sotaboSir       IV_intr be rational;reflect
+
+    IstaFCaL                  `verb`       {- {isotaboSar -}    [ "be rational", "reflect" ],
+
+    -- ;; baSar_1
+    -- bSr     baSar   N       vision;glance
+
+    FaCaL                     `noun`       {- baSar -}          [ "vision", "glance" ],
+
+    -- ;; >aboSAr_1
+    -- >bSAr   >aboSAr N       perceptions;views;glances
+    -- AbSAr   >aboSAr N       perceptions;views;glances
+
+    HaFCAL                    `noun`       {- OaboSAr -}        [ "perceptions", "views", "glances" ],
+
+    -- ;; baSariy~_1
+    -- bSry    baSariy~        Nall    visual;optical     [[baSariy~/ADJ]]
+
+    FaCaL |< Iy               `adj`        {- baSariy~ -}       [ "visual", "optical" ],
+
+    -- ;; baSariy~At_1
+    -- bSry    baSariy~        NAt     optics     [[baSariy~/NOUN]]
+
+    FaCaL |< Iy |< At         `noun`       {- baSariy~At -}     [ "optics" ],
+
+    -- ;; baSArap_1
+    -- bSAr    baSAr   Nap     perception
+
+    FaCAL |< aT               `noun`       {- baSArap -}        [ "perception" ],
+
+    -- ;; baSiyr_1
+    -- bSyr    baSiyr  Nall    seeing;discerning
+    -- bSrA'   buSarA' N0_Nh   seeing;discerning
+    -- bSrA&   buSarA& Nh      seeing;discerning
+    -- bSrA}   buSarA} Nhy     seeing;discerning
+
+    FaCIL                     `noun`       {- baSiyr -}         [ "seeing", "discerning" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "bu.sarA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; baSiyrap_1
+    -- bSyr    baSiyr  Nap     insight;discernment
+    -- bSA}r   baSA}ir Ndip    insights;discernment
+
+    FaCIL |< aT               `noun`       {- baSiyrap -}       [ "insight", "discernment", "insights" ],
+
+    -- ;; >aboSar_2
+    -- >bSr    >aboSar Nel     more/most discerning
+    -- AbSr    >aboSar Nel     more/most discerning
+
+    HaFCaL                    `noun`       {- OaboSar -}        [ "more/most discerning" ],
+
+    -- ;; taboSirap_1
+    -- tbSr    taboSir Nap     enlightenment;instruction
+
+    TaFCiL |< aT              `noun`       {- taboSirap -}      [ "enlightenment", "instruction" ],
+
+    -- ;; <iboSAr_1
+    -- <bSAr   <iboSAr N/At    perception;vision
+    -- AbSAr   <iboSAr N/At    perception;vision
+
+    HiFCAL                    `noun`       {- IiboSAr -}        [ "perception", "vision" ],
+
+    -- ;; <iboSAriy~_1
+    -- <bSAry  <iboSAriy~      Nall    optical     [[<iboSAriy~/ADJ]]
+    -- AbSAry  <iboSAriy~      Nall    optical     [[<iboSAriy~/ADJ]]
+
+    HiFCAL |< Iy              `adj`        {- IiboSAriy~ -}     [ "optical" ],
+
+    -- ;; tabaS~ur_1
+    -- tbSr    tabaS~ur        N/At    reflection;consideration
+
+    TaFaCCuL                  `noun`       {- tabaS~ur -}       [ "reflection", "consideration" ],
+
+    -- ;; {isotiboSAr_1
+    -- <stbSAr {isotiboSAr     N/At    insight;psychology
+    -- AstbSAr {isotiboSAr     N/At    insight;psychology
+
+    IstiFCAL                  `noun`       {- {isotiboSAr -}    [ "insight", "psychology" ],
+
+    -- ;; bASir_1
+    -- bASr    bASir   N0      Basir
+
+    FACiL                     `noun`       {- bASir -}          [ "Basir" ],
+
+    -- ;; bASir_2
+    -- bASr    bASir   N0      All-seeing (God)
+
+    FACiL                     `noun`       {- bASir -}          [ "All-seeing (God)" ],
+
+    -- ;; bASirap_1
+    -- bASr    bASir   Napdu   eye
+    -- bwASr   bawASir Ndip    eyes
+
+    FACiL |< aT               `noun`       {- bASirap -}        [ "eye", "eyes" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawA.sir Ndip" ] -},
+
+    -- ;; mutabaS~ir_1
+    -- mtbSr   mutabaS~ir      Nall    insightful;informed
+
+    MutaFaCCiL                `noun`       {- mutabaS~ir -}     [ "insightful", "informed" ],
+
+    -- ;; baSorap_1
+    -- bSr     baSor   Nap     Basra
+
+    FaCL |< aT                `noun`       {- baSorap -}        [ "Basra" ],
+
+    -- ;; baSoriy~_1
+    -- bSry    baSoriy~        N0      Basri
+
+    FaCL |< Iy                `adj`        {- baSoriy~ -}       [ "Basri" ],
+
+    -- ;; baSoriy~_2
+    -- bSry    baSoriy~        Nall    of/from Basra
+
+    FaCL |< Iy                `adj`        {- baSoriy~ -}       [ "of/from Basra" ],
+
+    -- ;; biSArap_1
+    -- bSAr    biSAr   Nap     porridge
+    -- bSAr    buSAr   Nap     porridge
+
+    FiCAL |< aT               `noun`       {- biSArap -}        [ "porridge" ]
+                              `plural`     FuCAL |< aT
+                              {- `others` [ "bu.sAr Nap" ] -} ]
+
+ |> "b .s w" <| [
+
+    -- ;; baSowap_1
+    -- bSw     baSow   Napdu   ember
+    -- bSw     baSaw   NAt     embers
+
+    FaCL |< aT                `noun`       {- baSowap -}        [ "ember", "embers" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "ba.saw NAt" ] -} ]
+
+ |> "b .t '" <| [
+
+    -- ;; baTu&-u_1
+    -- bT&     baTu&   PV_intr be slow;be late
+    -- bT&     boTu&   IV_intr be slow;be late
+    -- bT}     boTu}   IV_yn   be slow;be late
+
+    FaCuL                     `verb`       {- baTuW-u -}        [ "be slow", "be late" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b.tu' IV_intr IV_yn" ] -},
+
+    -- ;; baT~a>_1
+    -- bT>     baT~a>  PV->    delay;retard
+    -- bT|     baT~a|  PV-|    delay;retard
+    -- bT&     baT~a&  PV_w    delay;retard
+    -- bT}     baT~i}  IV_yu   delay;retard
+    -- bT>     baT~a>  IV_Pass_yu      be delayed;be retarded
+
+    FaCCaL                    `verb`       {- baT~aO -}         [ "delay", "retard", "be delayed", "be retarded" ]
+                              {- `others` [ "ba.t.ti' IV_yu" ] -},
+
+    -- ;; >aboTa>_1
+    -- >bT>    >aboTa> PV->    delay;retard
+    -- AbT>    >aboTa> PV->    delay;retard
+    -- >bT|    >aboTa| PV-|    delay;retard
+    -- AbT|    >aboTa| PV-|    delay;retard
+    -- >bT&    >aboTa& PV_w    delay;retard
+    -- AbT&    >aboTa& PV_w    delay;retard
+    -- bT}     boTi}   IV_yu   delay;retard
+    -- bT>     boTa>   IV_Pass_yu      be delayed;be behind schedule
+
+    HaFCaL                    `verb`       {- OaboTaO -}        [ "delay", "retard", "be delayed", "be behind schedule" ]
+                              {- `others` [ "b.ta' IV_Pass_yu", "b.ti' IV_yu" ] -},
+
+    -- ;; tabaT~a>_1
+    -- tbT>    tabaT~a>        PV->_intr       be slow;be late
+    -- tbT|    tabaT~a|        PV-|_intr       be slow;be late
+    -- tbT&    tabaT~a&        PV_w_intr       be slow;be late
+    -- tbT>    tabaT~a>        IV      be slow;be late
+    -- tbT|    tabaT~a|        IV-|    be slow;be late
+    -- tbT&    tabaT~a&        IV_wn   be slow;be late
+    -- tbT}    tabaT~a}        IV_yn   be slow;be late
+
+    TaFaCCaL                  `verb`       {- tabaT~aO -}       [ "be slow", "be late" ],
+
+    -- ;; tabATa>_1
+    -- tbAT>   tabATa> PV->_intr       be slow;be late
+    -- tbAT|   tabATa| PV-|_intr       be slow;be late
+    -- tbAT&   tabATa& PV_w_intr       be slow;be late
+    -- tbAT>   tabATa> IV_intr be slow;be late
+    -- tbAT|   tabATa| IV-|    be slow;be late
+    -- tbAT&   tabATa& IV_wn   be slow;be late
+    -- tbAT}   tabATa} IV_yn   be slow;be late
+
+    TaFACaL                   `verb`       {- tabATaO -}        [ "be slow", "be late" ],
+
+    -- ;; {isotaboTa>_1
+    -- <stbT>  {isotaboTa>     PV->    find slow;keep waiting
+    -- AstbT>  {isotaboTa>     PV->    find slow;keep waiting
+    -- <stbT|  {isotaboTa|     PV-|    find slow;keep waiting
+    -- AstbT|  {isotaboTa|     PV-|    find slow;keep waiting
+    -- <stbT&  {isotaboTa&     PV_w    find slow;keep waiting
+    -- AstbT&  {isotaboTa&     PV_w    find slow;keep waiting
+    -- stbT}   sotaboTi}       IV      find slow;keep waiting
+
+    IstaFCaL                  `verb`       {- {isotaboTaO -}    [ "find slow", "keep waiting" ],
+
+    -- ;; buTo'_1
+    -- bT'     buTo'   N0_Nh   slowness;tardiness
+    -- bT&     buTo&   Nh      slowness;tardiness
+    -- bT}     buTo}   Nhy     slowness;tardiness
+
+    FuCL                      `noun`       {- buTo' -}          [ "slowness", "tardiness" ],
+
+    -- ;; baTiy'_1
+    -- bTy'    baTiy'  N0      slow     [[baTiy'/ADJ]]
+    -- bTy}    baTiy}  NF      slow
+    -- bTy}    baTiy}  NapAt   slow
+    -- bTy}    baTiy}  NAn_Nayn        slow
+    -- bTy}    baTiy}  Nuwn_Niyn       slow
+    -- bTA'    biTA'   N0      slow;tardy
+
+    FaCIL                     `adj`        {- baTiy' -}         [ "slow", "tardy" ]
+                              `plural`     FiCAL
+                              `plural`     FiCA'
+                              {- `others` [ "bi.tA' N0" ] -},
+
+    -- ;; >aboTa>_2
+    -- >bT>    >aboTa> N0_Nh   slower/slowest
+    -- AbT>    >aboTa> N0_Nh   slower/slowest
+    -- >bT&    >aboTa& Nh      slower/slowest
+    -- AbT&    >aboTa& Nh      slower/slowest
+    -- >bT}    >aboTa} Nhy     slower/slowest
+    -- AbT}    >aboTa} Nhy     slower/slowest
+    -- >bT|    >aboTa| N-|     slower/slowest
+    -- AbT|    >aboTa| N-|     slower/slowest
+
+    HaFCaL                    `noun`       {- OaboTaO -}        [ "slower/slowest" ],
+
+    -- ;; <iboTA'_1
+    -- <bTA'   <iboTA' N0_Nh   delay;slowing down
+    -- AbTA'   <iboTA' N0_Nh   delay;slowing down
+    -- <bTA&   <iboTA& Nh      delay;slowing down
+    -- AbTA&   <iboTA& Nh      delay;slowing down
+    -- <bTA}   <iboTA} Nhy     delay;slowing down
+    -- AbTA}   <iboTA} Nhy     delay;slowing down
+    -- <bTA'   <iboTA' NAn_Nayn        delay;slowing down
+    -- AbTA'   <iboTA' NAn_Nayn        delay;slowing down
+    -- <bTA}   <iboTA} Nayn    delay;slowing down
+    -- AbTA}   <iboTA} Nayn    delay;slowing down
+    -- <bTA'   <iboTA' NAt     delay;slowing down
+    -- AbTA'   <iboTA' NAt     delay;slowing down
+
+    HiFCAL                    `noun`       {- IiboTA' -}        [ "delay", "slowing down" ],
+
+    -- ;; tabATu&_1
+    -- tbAT&   tabATu& NduAt   delay;slowness
+    -- tbAT}   tabATu} Nhy     delay;slowness
+
+    TaFACuL                   `noun`       {- tabATuW -}        [ "delay", "slowness" ],
+
+    -- ;; taboTi}ap_1
+    -- tbT}    taboTi} NapAt   delaying;slowing down
+
+    TaFCiL |< aT              `noun`       {- taboTi}ap -}      [ "delaying", "slowing down" ],
+
+    -- ;; mutabATi}_1
+    -- mtbAT}  mutabATi}       Nall    delaying;slowing down
+
+    MutaFACiL                 `noun`       {- mutabATi} -}      [ "delaying", "slowing down" ] ]
+
+ |> "b .t .h" <| [
+
+    -- ;; baTaH-a_1
+    -- bTH     baTaH   PV      knock down;lay down;floor
+    -- bTH     boTaH   IV      knock down;lay down;floor
+
+    FaCaL                     `verb`       {- baTaH-a -}        [ "knock down", "lay down", "floor" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b.ta.h IV" ] -},
+
+    -- ;; tabaT~aH_1
+    -- tbTH    tabaT~aH        PV      lie down;be floored
+    -- tbTH    tabaT~aH        IV      lie down;be floored
+
+    TaFaCCaL                  `verb`       {- tabaT~aH -}       [ "lie down", "be floored" ],
+
+    -- ;; {inobaTaH_1
+    -- <nbTH   {inobaTaH       PV      lie down;be floored
+    -- AnbTH   {inobaTaH       PV      lie down;be floored
+    -- nbTH    nobaTiH IV      lie down;be floored
+
+    InFaCaL                   `verb`       {- {inobaTaH -}      [ "lie down", "be floored" ]
+                              {- `others` [ "nba.ti.h IV" ] -},
+
+    -- ;; >aboTaH_1
+    -- >bTH    >aboTaH Nel     flat;level
+    -- AbTH    >aboTaH Nel     flat;level
+
+    HaFCaL                    `noun`       {- OaboTaH -}        [ "flat", "level" ],
+
+    -- ;; baToHA'_1
+    -- bTHA'   baToHA' N0_Nh   wide valley;plain
+    -- bTHA&   baToHA& Nh      wide valley;plain
+    -- bTHA}   baToHA} Nhy     wide valley;plain
+    -- bTAH    biTAH   N       wide valleys;plains
+    -- bTHAw   baToHAw NAt     wide valleys;plains
+
+    FaCLA'                    `noun`       {- baToHA' -}        [ "wide valley", "plain", "wide valleys", "plains" ]
+                              `plural`     FiCAL
+                              {- `others` [ "bi.tA.h N" ] -},
+
+    -- ;; baTiyHap_1
+    -- bTyH    baTiyH  Napdu   wide valley;plain
+    -- bTA}H   baTA}iH Ndip    wide valley;plain
+
+    FaCIL |< aT               `noun`       {- baTiyHap -}       [ "wide valley", "plain" ],
+
+    -- ;; munobaTiH_1
+    -- mnbTH   munobaTiH       Nall    prostrate;lying down
+
+    MunFaCiL                  `noun`       {- munobaTiH -}      [ "prostrate", "lying down" ],
+
+    -- ;; munobaTiH_2
+    -- mnbTH   munobaTiH       N-ap    plain;flat
+
+    MunFaCiL                  `noun`       {- munobaTiH -}      [ "plain", "flat" ],
+
+    -- ;; {inobiTAH_1
+    -- <nbTAH  {inobiTAH       NduAt   prostration;lying down
+    -- AnbTAH  {inobiTAH       NduAt   prostration;lying down
+
+    InFiCAL                   `noun`       {- {inobiTAH -}      [ "prostration", "lying down" ] ]
+
+ |> "b .t .h '" <| [
+
+    -- ;; baToHA'_1
+    -- bTHA'   baToHA' N0_Nh   wide valley;plain
+    -- bTHA&   baToHA& Nh      wide valley;plain
+    -- bTHA}   baToHA} Nhy     wide valley;plain
+    -- bTAH    biTAH   N       wide valleys;plains
+    -- bTHAw   baToHAw NAt     wide valleys;plains
+
+    KaRDAS                    `noun`       {- baToHA' -}        [ "wide valley", "plain", "wide valleys", "plains" ] ]
+
+ |> "b .t .t" <| [
+
+    -- ;; baT~-u_1
+    -- bT      baT~    PV_V    flush;pierce
+    -- bTT     baTaT   PV_C    flush;pierce
+    -- bT      buT~    IV_V    flush;pierce
+    -- bTT     boTuT   IV_C    flush;pierce
+
+    FaCL                      `verb`       {- baT~-u -}         [ "flush", "pierce" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bu.t.t IV_V", "ba.ta.t PV_C", "b.tu.t IV_C" ] -},
+
+    -- ;; baT~_1
+    -- bT      baT~    N       duck
+    -- bT      baT~    Nap     duck
+    -- bTwT    buTuwT  N       ducks
+
+    FaCL                      `noun`       {- baT~ -}           [ "duck", "ducks" ]
+                              `plural`     FuCUL
+                              {- `others` [ "bu.tuw.t N" ] -},
+
+    -- ;; mibaT~_1
+    -- mbT     mibaT~  Ndu     scalpel
+
+    MiFaCL                    `noun`       {- mibaT~ -}         [ "scalpel" ],
+
+    -- ;; mibaT~ap_1
+    -- mbT     mibaT~  Napdu   scalpel
+
+    MiFaCL |< aT              `noun`       {- mibaT~ap -}       [ "scalpel" ],
+
+    -- ;; baTuwTiy~_1
+    -- bTwTy   baTuwTiy~       N0      Batouty;Battouti
+
+    FaCUL |< Iy               `adj`        {- baTuwTiy~ -}      [ "Batouty", "Battouti" ],
+
+    -- ;; baT~Aniy~ap_1
+    -- bTAny   baT~Aniy~       NapAt   blanket     [[baT~Aniy~/NOUN]]
+    -- bTATyn  baTATiyn        Ndip    blankets
+
+    FaCLAn |< Iy |< aT        `noun`       {- baT~Aniy~ap -}    [ "blanket", "blankets" ] ]
+
+ |> "b .t ^s" <| [
+
+    -- ;; baTa$-iu_1
+    -- bT$     baTa$   PV      attack;strike;lunge
+    -- bT$     boTi$   IV      attack;strike;lunge
+    -- bT$     boTu$   IV      attack;strike;lunge
+
+    FaCaL                     `verb`       {- baTa$-iu -}       [ "attack", "strike", "lunge" ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL
+                              {- `others` [ "b.tu^s IV", "b.ti^s IV" ] -},
+
+    -- ;; baTo$_1
+    -- bT$     baTo$   N       force;oppression
+
+    FaCL                      `noun`       {- baTo$ -}          [ "force", "oppression" ],
+
+    -- ;; baTo$ap_1
+    -- bT$     baTo$   Napdu   impact
+    -- bT$     baTa$   NAt     impacts
+
+    FaCL |< aT                `noun`       {- baTo$ap -}        [ "impact", "impacts" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "ba.ta^s NAt" ] -} ]
+
+ |> "b .t b .t" <| [
+
+    -- ;; baTobaT_1
+    -- bTbT    baTobaT PV      quack
+    -- bTbT    baTobiT IV_yu   quack
+
+    KaRDaS                    `verb`       {- baTobaT -}        [ "quack" ]
+                              {- `others` [ "ba.tbi.t IV_yu" ] -},
+
+    -- ;; baTobaTap_1
+    -- bTbT    baTobaT NapAt   quacking
+
+    KaRDaS |< aT              `noun`       {- baTobaTap -}      [ "quacking" ] ]
+
+ |> "b .t k" <| [
+
+    -- ;; <iboTA'_1
+    -- <bTA'   <iboTA' N0_Nh   delay;slowing down
+    -- AbTA'   <iboTA' N0_Nh   delay;slowing down
+    -- <bTA&   <iboTA& Nh      delay;slowing down
+    -- AbTA&   <iboTA& Nh      delay;slowing down
+    -- <bTA}   <iboTA} Nhy     delay;slowing down
+    -- AbTA}   <iboTA} Nhy     delay;slowing down
+    -- <bTA'   <iboTA' NAn_Nayn        delay;slowing down
+    -- AbTA'   <iboTA' NAn_Nayn        delay;slowing down
+    -- <bTA}   <iboTA} Nayn    delay;slowing down
+    -- AbTA}   <iboTA} Nayn    delay;slowing down
+    -- <bTA'   <iboTA' NAt     delay;slowing down
+    -- AbTA'   <iboTA' NAt     delay;slowing down
+
+    HiFCA'                    `noun`       {- IiboTA' -}        [ "delay", "slowing down" ],
+
+    -- ;; bATiyap_1
+    -- bATy    bATiy   Napdu   pitcher;jug
+    -- bwATy   bawATiy N0_Nh   pitchers;jugs
+    -- bwAT    bawAT   NK      pitchers;jugs
+
+    FACI |< aT                `noun`       {- bATiyap -}        [ "pitcher", "jug", "pitchers", "jugs" ] ]
+
+ |> "b .t l" <| [
+
+    -- ;; baTal-u_1
+    -- bTl     baTal   PV_intr become void
+    -- bTl     boTul   IV_intr become void
+
+    FaCaL                     `verb`       {- baTal-u -}        [ "become void" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b.tul IV_intr" ] -},
+
+    -- ;; baTul-u_1
+    -- bTl     baTul   PV_intr be heroic
+    -- bTl     boTul   IV_intr be heroic
+
+    FaCuL                     `verb`       {- baTul-u -}        [ "be heroic" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b.tul IV_intr" ] -},
+
+    -- ;; baT~al_1
+    -- bTl     baT~al  PV      thwart;abolish
+    -- bTl     baT~il  IV_yu   thwart;abolish
+    -- bTl     baT~al  IV_Pass_yu      be thwarted;be abolished
+
+    FaCCaL                    `verb`       {- baT~al -}         [ "thwart", "abolish", "be thwarted", "be abolished" ]
+                              {- `others` [ "ba.t.til IV_yu" ] -},
+
+    -- ;; >aboTal_1
+    -- >bTl    >aboTal PV      neutralize;invalidate
+    -- AbTl    >aboTal PV      neutralize;invalidate
+    -- bTl     boTil   IV_yu   neutralize;invalidate
+
+    HaFCaL                    `verb`       {- OaboTal -}        [ "neutralize", "invalidate" ]
+                              {- `others` [ "b.til IV_yu" ] -},
+
+    -- ;; buTol_1
+    -- bTl     buTol   N       nullity
+
+    FuCL                      `noun`       {- buTol -}          [ "nullity" ],
+
+    -- ;; biTAlap_1
+    -- bTAl    biTAl   Nap     idleness;joblessness
+    -- bTAl    baTAl   Nap     idleness;joblessness
+
+    FiCAL |< aT               `noun`       {- biTAlap -}        [ "idleness", "joblessness" ]
+                              `plural`     FaCAL |< aT
+                              {- `others` [ "ba.tAl Nap" ] -},
+
+    -- ;; baT~Al_1
+    -- bTAl    baT~Al  Nall    inactive;jobless
+
+    FaCCAL                    `noun`       {- baT~Al -}         [ "inactive", "jobless" ],
+
+    -- ;; buTolAn_1
+    -- bTlAn   buTolAn N       nullity;falsity
+
+    FuCLAn                    `noun`       {- buTolAn -}        [ "nullity", "falsity" ],
+
+    -- ;; <iboTAl_1
+    -- <bTAl   <iboTAl NduAt   thwarting;abolition
+    -- AbTAl   <iboTAl NduAt   thwarting;abolition
+
+    HiFCAL                    `noun`       {- IiboTAl -}        [ "thwarting", "abolition" ],
+
+    -- ;; bATil_1
+    -- bATl    bATil   Nall    void;false
+
+    FACiL                     `noun`       {- bATil -}          [ "void", "false" ],
+
+    -- ;; muboTil_1
+    -- mbTl    muboTil Nall    prattler;liar
+
+    MuFCiL                    `noun`       {- muboTil -}        [ "prattler", "liar" ],
+
+    -- ;; muboTal_1
+    -- mbTl    muboTal Nall    false;futile
+
+    MuFCaL                    `noun`       {- muboTal -}        [ "false", "futile" ],
+
+    -- ;; mutabaT~il_1
+    -- mtbTl   mutabaT~il      Nall    unemployed
+
+    MutaFaCCiL                `noun`       {- mutabaT~il -}     [ "unemployed" ],
+
+    -- ;; baTal_1
+    -- bTl     baTal   Ndu     hero;champion;star
+    -- bTl     baTal   NapAt   heroine;champion;star
+    -- >bTAl   >aboTAl N       heroes;champions;stars
+    -- AbTAl   >aboTAl N       heroes;champions;stars
+
+    FaCaL                     `noun`       {- baTal -}          [ "hero", "champion", "star", "heroine", "heroes", "champions", "stars" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'ab.tAl N" ] -},
+
+    -- ;; buTuwlap_1
+    -- bTwl    buTuwl  NapAt   championship;starring role;heroism
+
+    FuCUL |< aT               `noun`       {- buTuwlap -}       [ "championship", "starring role", "heroism" ],
+
+    -- ;; buTuwliy~_1
+    -- bTwly   buTuwliy~       Nall    heroic     [[buTuwliy~/ADJ]]
+
+    FuCUL |< Iy               `adj`        {- buTuwliy~ -}      [ "heroic" ],
+
+    -- ;; baTAl_1
+    -- bTAl    baTAl   Nap     heroism
+
+    FaCAL                     `noun`       {- baTAl -}          [ "heroism" ] ]
+
+ |> "b .t l n" <| [
+
+    -- ;; buTolAn_1
+    -- bTlAn   buTolAn N       nullity;falsity
+
+    KuRDAS                    `noun`       {- buTolAn -}        [ "nullity", "falsity" ] ]
+
+ |> "b .t l s" <| [
+
+    -- ;; baTAlisap_1
+    -- bTAls   baTAlis Nap     Ptolemies
+
+    KaRADiS |< aT             `noun`       {- baTAlisap -}      [ "Ptolemies" ] ]
+
+ |> "b .t m" <| [
+
+    -- ;; buTom_1
+    -- bTm     buTom   N       terebinth
+
+    FuCL                      `noun`       {- buTom -}          [ "terebinth" ],
+
+    -- ;; buTomiy~_1
+    -- bTmy    buTomiy~        NAt     terebinths     [[buTomiy~/NOUN]]
+
+    FuCL |< Iy                `noun`       {- buTomiy~ -}       [ "terebinths" ] ]
+
+ |> "b .t n" <| [
+
+    -- ;; baTan-u_1
+    -- bTn     baTan   PV-n    hide;conceal
+    -- bTn     boTun   IV-n    hide;conceal
+
+    FaCaL                     `verb`       {- baTan-u -}        [ "hide", "conceal" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b.tun IV-n" ] -},
+
+    -- ;; baTun-u_1
+    -- bTn     baTun   PV-n_intr       be paunchy
+    -- bTn     boTun   IV-n_intr       be paunchy
+
+    FaCuL                     `verb`       {- baTun-u -}        [ "be paunchy" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b.tun IV-n_intr" ] -},
+
+    -- ;; baT~an_1
+    -- bTn     baT~an  PV-n    cover;resurface
+    -- bTn     baT~in  IV-n_yu cover;resurface
+
+    FaCCaL                    `verb`       {- baT~an -}         [ "cover", "resurface" ]
+                              {- `others` [ "ba.t.tin IV-n_yu" ] -},
+
+    -- ;; >aboTan_1
+    -- >bTn    >aboTan PV-n    hide;conceal
+    -- AbTn    >aboTan PV-n    hide;conceal
+    -- bTn     boTin   IV-n_yu hide;conceal
+    -- bTn     boTan   IV-n_Pass_yu    be hidden;be concealed
+
+    HaFCaL                    `verb`       {- OaboTan -}        [ "hide", "conceal", "be hidden", "be concealed" ]
+                              {- `others` [ "b.tan IV-n_Pass_yu", "b.tin IV-n_yu" ] -},
+
+    -- ;; tabaT~an_1
+    -- tbTn    tabaT~an        PV-n_intr       be lined
+    -- tbTn    tabaT~an        IV-n_intr       be lined
+
+    TaFaCCaL                  `verb`       {- tabaT~an -}       [ "be lined" ],
+
+    -- ;; {isotaboTan_1
+    -- <stbTn  {isotaboTan     PV-n    delve;penetrate
+    -- AstbTn  {isotaboTan     PV-n    delve;penetrate
+    -- stbTn   sotaboTin       IV-n    delve;penetrate
+
+    IstaFCaL                  `verb`       {- {isotaboTan -}    [ "delve", "penetrate" ],
+
+    -- ;; baTon_1
+    -- bTn     baTon   Ndu     stomach;depth
+    -- >bTn    >aboTun N       stomachs;interior
+    -- AbTn    >aboTun N       stomachs;interior
+
+    FaCL                      `noun`       {- baTon -}          [ "stomach", "depth", "stomachs", "interior" ],
+
+    -- ;; buTuwn_1
+    -- bTwn    buTuwn  N       interior
+
+    FuCUL                     `noun`       {- buTuwn -}         [ "interior" ],
+
+    -- ;; baToniy~_1
+    -- bTny    baToniy~        Nall    abdominal;belly     [[baToniy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- baToniy~ -}       [ "abdominal", "belly" ],
+
+    -- ;; biTonap_1
+    -- bTn     biTon   Nap     gluttony
+
+    FiCL |< aT                `noun`       {- biTonap -}        [ "gluttony" ],
+
+    -- ;; biTAn_1
+    -- bTAn    biTAn   N       girth;paunchy
+
+    FiCAL                     `noun`       {- biTAn -}          [ "girth", "paunchy" ],
+
+    -- ;; baTAnap_1
+    -- bTAn    baTAn   Nap     lining;inside
+    -- bTAn    biTAn   Nap     lining;inside
+
+    FaCAL |< aT               `noun`       {- baTAnap -}        [ "lining", "inside" ]
+                              `plural`     FiCAL |< aT
+                              {- `others` [ "bi.tAn Nap" ] -},
+
+    -- ;; baTiyn_1
+    -- bTyn    baTiyn  Nall    paunchy
+
+    FaCIL                     `noun`       {- baTiyn -}         [ "paunchy" ],
+
+    -- ;; miboTAn_1
+    -- mbTAn   miboTAn N       paunchy
+
+    MiFCAL                    `noun`       {- miboTAn -}        [ "paunchy" ],
+
+    -- ;; buTayon_1
+    -- bTyn    buTayon NduAt   ventricle
+
+    FuCayL                    `noun`       {- buTayon -}        [ "ventricle" ],
+
+    -- ;; baT~Aniy~ap_1
+    -- bTAny   baT~Aniy~       NapAt   blanket     [[baT~Aniy~/NOUN]]
+    -- bTATyn  baTATiyn        Ndip    blankets
+
+    FaCCAL |< Iy |< aT        `noun`       {- baT~Aniy~ap -}    [ "blanket", "blankets" ]
+                              `plural`     FaCACIL
+                              {- `others` [ "ba.tA.tiyn Ndip" ] -},
+
+    -- ;; bATin_1
+    -- bATn    bATin   Nall    inner;hidden
+    -- bwATn   bawATin Ndip    inner;hidden
+
+    FACiL                     `noun`       {- bATin -}          [ "inner", "hidden" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawA.tin Ndip" ] -},
+
+    -- ;; bATiniy~_1
+    -- bATny   bATiniy~        Nall    interior;internal     [[bATiniy~/ADJ]]
+
+    FACiL |< Iy               `adj`        {- bATiniy~ -}       [ "interior", "internal" ],
+
+    -- ;; maboTuwn_1
+    -- mbTwn   maboTuwn        Nall    indisposed
+
+    MaFCUL                    `noun`       {- maboTuwn -}       [ "indisposed" ],
+
+    -- ;; mubaT~an_1
+    -- mbTn    mubaT~an        Nall    lined;filled
+
+    MuFaCCaL                  `noun`       {- mubaT~an -}       [ "lined", "filled" ],
+
+    -- ;; {isotiboTAn_1
+    -- <stbTAn {isotiboTAn     N/At    introspection
+    -- AstbTAn {isotiboTAn     N/At    introspection
+
+    IstiFCAL                  `noun`       {- {isotiboTAn -}    [ "introspection" ],
+
+    -- ;; {isotiboTAniy~_1
+    -- <stbTAny        {isotiboTAniy~  Nall    introspective     [[{isotiboTAniy~/ADJ]]
+    -- AstbTAny        {isotiboTAniy~  Nall    introspective     [[{isotiboTAniy~/ADJ]]
+
+    IstiFCAL |< Iy            `adj`        {- {isotiboTAniy~ -} [ "introspective" ],
+
+    -- ;; bATuwn_1
+    -- bATwn   bATuwn  N       concrete
+
+    FACUL                     `noun`       {- bATuwn -}         [ "concrete" ] ]
+
+ |> "b .t q" <| [
+
+    -- ;; biTAqap_1
+    -- bTAq    biTAq   Napdu   card;tag;ballot
+    -- bTAq    biTAq   NAt     cards;tags;ballots
+    -- bTA}q   baTA}iq Ndip    cards;tags;ballots
+
+    FiCAL |< aT               `noun`       {- biTAqap -}        [ "card", "tag", "ballot", "cards", "tags", "ballots" ]
+                              `plural`     FiCAL |< At
+                              {- `others` [ "bi.tAq NAt" ] -} ]
+
+ |> "b .t r" <| [
+
+    -- ;; baT~Ariy~ap_1
+    -- bTAry   baT~Ariy~       NapAt   battery     [[baT~Ariy~/NOUN]]
+
+    FaCCAL |< Iy |< aT        `noun`       {- baT~Ariy~ap -}    [ "battery" ],
+
+    -- ;; baTir-a_1
+    -- bTr     baTir   PV_intr be wild;be vain
+    -- bTr     boTar   IV_intr be wild;be vain
+
+    FaCiL                     `verb`       {- baTir-a -}        [ "be wild", "be vain" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b.tar IV_intr" ] -},
+
+    -- ;; baTir-a_2
+    -- bTr     baTir   PV      disregard;disdain
+    -- bTr     boTar   IV      disregard;disdain
+
+    FaCiL                     `verb`       {- baTir-a -}        [ "disregard", "disdain" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b.tar IV" ] -},
+
+    -- ;; >aboTar_1
+    -- >bTr    >aboTar PV      make vain;make proud
+    -- AbTr    >aboTar PV      make vain;make proud
+    -- bTr     boTir   IV_yu   make vain;make proud
+
+    HaFCaL                    `verb`       {- OaboTar -}        [ "make vain", "make proud" ]
+                              {- `others` [ "b.tir IV_yu" ] -},
+
+    -- ;; baTar_1
+    -- bTr     baTar   N       wantonness;arrogance
+
+    FaCaL                     `noun`       {- baTar -}          [ "wantonness", "arrogance" ],
+
+    -- ;; baTir_1
+    -- bTr     baTir   Nall    arrogant;insolent
+    -- mbTr    muboTir Nall    arrogant;insolent
+
+    FaCiL                     `noun`       {- baTir -}          [ "arrogant", "insolent" ]
+                              `plural`     MuFCiL
+                              {- `others` [ "mub.tir Nall" ] -},
+
+    -- ;; baTorA'_1
+    -- bTrA'   baTorA' N0_Nh   Petra
+    -- bTrA&   baTorA& Nh      Petra
+    -- bTrA}   baTorA} Nhy     Petra
+
+    FaCLA'                    `noun`       {- baTorA' -}        [ "Petra" ] ]
+
+ |> "b .t r '" <| [
+
+    -- ;; baTorA'_1
+    -- bTrA'   baTorA' N0_Nh   Petra
+    -- bTrA&   baTorA& Nh      Petra
+    -- bTrA}   baTorA} Nhy     Petra
+
+    KaRDAS                    `noun`       {- baTorA' -}        [ "Petra" ] ]
+
+ |> "b .t r _h" <| [
+
+    -- ;; baTorax_1
+    -- bTrx    baTorax N       roe;caviar
+    -- bTArx   baTArix Ndip    roe;caviar
+
+    KaRDaS                    `noun`       {- baTorax -}        [ "roe", "caviar" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "ba.tAri_h Ndip" ] -} ]
+
+ |> "b .t r k" <| [
+
+    -- ;; baTorak_1
+    -- bTrk    baTorak Ndu     Patriarch
+    -- bTryk   baToriyk        Ndu     Patriarch
+    -- bTArk   baTArik Nap     Patriarchs
+
+    KaRDaS                    `noun`       {- baTorak -}        [ "Patriarch", "Patriarchs" ]
+                              `plural`     KaRADiS |< aT
+                              `plural`     KaRDIS
+                              {- `others` [ "ba.tArik Nap", "ba.triyk Ndu" ] -},
+
+    -- ;; baTorakiy~ap_1
+    -- bTrky   baTorakiy~      Nap     patriarchate     [[baTorakiy~/NOUN]]
+
+    KaRDaS |< Iy |< aT        `noun`       {- baTorakiy~ap -}   [ "patriarchate" ],
+
+    -- ;; baTorakap_1
+    -- bTrk    baTorak Nap     patriarchate
+
+    KaRDaS |< aT              `noun`       {- baTorakap -}      [ "patriarchate" ] ]
+
+ |> "b .t r q" <| [
+
+    -- ;; biToriyq_1
+    -- bTryq   biToriyq        Ndu     patrician;penguin
+    -- bTArq   baTAriq Nap     patricians;penguins
+    -- bTAryq  baTAriyq        Ndip    patricians;penguins
+
+    KiRDIS                    `noun`       {- biToriyq -}       [ "patrician", "penguin", "patricians", "penguins" ]
+                              `plural`     KaRADiS |< aT
+                              `plural`     KaRADIS
+                              {- `others` [ "ba.tAriq Nap", "ba.tAriyq Ndip" ] -} ]
+
+ |> "b .t r s" <| [
+
+    -- ;; buTorus_1
+    -- bTrs    buTorus N0      Boutros
+
+    KuRDuS                    `noun`       {- buTorus -}        [ "Boutros" ],
+
+    -- ;; buTorus_2
+    -- bTrs    buTorus N0      Peter
+
+    KuRDuS                    `noun`       {- buTorus -}        [ "Peter" ],
+
+    -- ;; buTorusiy~_1
+    -- bTrsy   buTorusiy~      Nall    St. Peter     [[buTorusiy~/ADJ]]
+
+    KuRDuS |< Iy              `adj`        {- buTorusiy~ -}     [ "St. Peter" ] ]
+
+ |> "b .t s" <| [
+
+    -- ;; baTATis_1
+    -- bTATs   baTATis N       potatoes
+
+    FaCACiL                   `noun`       {- baTATis -}        [ "potatoes" ] ]
+
+ |> "b .t y" <| [
+
+    -- ;; bATiyap_1
+    -- bATy    bATiy   Napdu   pitcher;jug
+    -- bwATy   bawATiy N0_Nh   pitchers;jugs
+    -- bwAT    bawAT   NK      pitchers;jugs
+
+    FACiL |< aT               `noun`       {- bATiyap -}        [ "pitcher", "jug", "pitchers", "jugs" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawA.tiy N0_Nh" ] -} ]
+
+ |> "b .z .z" <| [
+
+    -- ;; baZ~-u_1
+    -- bZ      baZ~    PV_V    swell;expand
+    -- bZZ     baZaZ   PV_C    swell;expand
+    -- bZ      buZ~    IV_V    swell;expand
+    -- bZZ     boZuZ   IV_C    swell;expand
+
+    FaCL                      `verb`       {- baZ~-u -}         [ "swell", "expand" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b.zu.z IV_C", "ba.za.z PV_C", "bu.z.z IV_V" ] -},
+
+    -- ;; baZ~_1
+    -- bZ      baZ~    N       swelling;expanding
+
+    FaCL                      `noun`       {- baZ~ -}           [ "swelling", "expanding" ] ]
+
+ |> "b .z r" <| [
+
+    -- ;; baZor_1
+    -- bZr     baZor   Ndu     clitoris
+    -- bZwr    buZuwr  N       clitorises
+
+    FaCL                      `noun`       {- baZor -}          [ "clitoris", "clitorises" ]
+                              `plural`     FuCUL
+                              {- `others` [ "bu.zuwr N" ] -} ]
+
+ |> "b ^g .h" <| [
+
+    -- ;; bajiH-a_1
+    -- bjH     bajiH   PV      rejoice
+    -- bjH     bojaH   IV      rejoice
+
+    FaCiL                     `verb`       {- bajiH-a -}        [ "rejoice" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b^ga.h IV" ] -},
+
+    -- ;; tabaj~aH_1
+    -- tbjH    tabaj~aH        PV      boast;brag
+    -- tbjH    tabaj~aH        IV      boast;brag
+
+    TaFaCCaL                  `verb`       {- tabaj~aH -}       [ "boast", "brag" ],
+
+    -- ;; tabaj~uH_1
+    -- tbjH    tabaj~uH        NduAt   boasting;bragging
+
+    TaFaCCuL                  `noun`       {- tabaj~uH -}       [ "boasting", "bragging" ],
+
+    -- ;; mutabaj~iH_1
+    -- mtbjH   mutabaj~iH      Nall    braggart;bragging
+
+    MutaFaCCiL                `noun`       {- mutabaj~iH -}     [ "braggart", "bragging" ],
+
+    -- ;; bajaH_1
+    -- bjH     bajaH   N       rejoicing
+
+    FaCaL                     `noun`       {- bajaH -}          [ "rejoicing" ],
+
+    -- ;; baj~AH_1
+    -- bjAH    baj~AH  Nall    braggart
+
+    FaCCAL                    `noun`       {- baj~AH -}         [ "braggart" ] ]
+
+ |> "b ^g `" <| [
+
+    -- ;; bajaE_1
+    -- bjE     bajaE   N       pelican
+    -- bjE     bajaE   NapAt   pelican
+
+    FaCaL                     `noun`       {- bajaE -}          [ "pelican" ] ]
+
+ |> "b ^g d" <| [
+
+    -- ;; bajodap_1
+    -- bjd     bajod   Nap     heart;essence;source
+
+    FaCL |< aT                `noun`       {- bajodap -}        [ "heart", "essence", "source" ],
+
+    -- ;; bijAdiy~_1
+    -- bjAdy   bijAdiy~        N-ap    garnet     [[bijAdiy~/ADJ]]
+
+    FiCAL |< Iy               `adj`        {- bijAdiy~ -}       [ "garnet" ] ]
+
+ |> "b ^g l" <| [
+
+    -- ;; baj~al_1
+    -- bjl     baj~al  PV      honor;respect;venerate
+    -- bjl     baj~il  IV_yu   honor;respect;venerate
+    -- bjl     baj~al  IV_Pass_yu      be honored;be respected;be venerated
+
+    FaCCaL                    `verb`       {- baj~al -}         [ "honor", "respect", "venerate", "be honored", "be respected", "be venerated" ]
+                              {- `others` [ "ba^g^gil IV_yu" ] -},
+
+    -- ;; tabaj~al_1
+    -- tbjl    tabaj~al        PV_intr be honored;be respected;be venerated
+    -- tbjl    tabaj~al        IV_intr be honored;be respected;be venerated
+
+    TaFaCCaL                  `verb`       {- tabaj~al -}       [ "be honored", "be respected", "be venerated" ],
+
+    -- ;; bajal_1
+    -- bjl     bajal   N       syphilis
+
+    FaCaL                     `noun`       {- bajal -}          [ "syphilis" ],
+
+    -- ;; tabojiyl_1
+    -- tbjyl   tabojiyl        NduAt   deference;reverence
+
+    TaFCIL                    `noun`       {- tabojiyl -}       [ "deference", "reverence" ],
+
+    -- ;; mubaj~al_1
+    -- mbjl    mubaj~al        Nall    revered;venerable
+
+    MuFaCCaL                  `noun`       {- mubaj~al -}       [ "revered", "venerable" ] ]
+
+ |> "b ^g m" <| [
+
+    -- ;; bajam-i_1
+    -- bjm     bajam   PV_intr be speechless;be dumfounded
+    -- bjm     bojim   IV_intr be speechless;be dumfounded
+
+    FaCaL                     `verb`       {- bajam-i -}        [ "be speechless", "be dumfounded" ]
+                              `imperf`     FCiL
+                              {- `others` [ "b^gim IV_intr" ] -},
+
+    -- ;; bajom_1
+    -- bjm     bajom   N       speechlessness
+    -- bjwm    bujuwm  N       speechlessness
+
+    FaCL                      `noun`       {- bajom -}          [ "speechlessness" ]
+                              `plural`     FuCUL
+                              {- `others` [ "bu^guwm N" ] -} ]
+
+ |> "b ^g n" <| [
+
+    -- ;; baj~an_1
+    -- bjn     baj~an  PV-n    clinch (a nail);inculcate
+    -- bjn     baj~in  IV-n_yu clinch (a nail);inculcate
+
+    FaCCaL                    `verb`       {- baj~an -}         [ "clinch (a nail)", "inculcate" ]
+                              {- `others` [ "ba^g^gin IV-n_yu" ] -},
+
+    -- ;; biyjAn_1
+    -- byjAn   biyjAn  Nprop   Bijan
+
+    FICAL                     `noun`       {- biyjAn -}         [ "Bijan" ] ]
+
+ |> "b ^g r" <| [
+
+    -- ;; >abojar_1
+    -- >bjr    >abojar Nel     obese;corpulent
+    -- Abjr    >abojar Nel     obese;corpulent
+
+    HaFCaL                    `noun`       {- Oabojar -}        [ "obese", "corpulent" ] ]
+
+ |> "b ^g s" <| [
+
+    -- ;; bajas-ui_1
+    -- bjs     bajas   PV      make flow
+    -- bjs     bojus   IV      make flow
+    -- bjs     bojis   IV      make flow
+
+    FaCaL                     `verb`       {- bajas-ui -}       [ "make flow" ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL
+                              {- `others` [ "b^gis IV", "b^gus IV" ] -},
+
+    -- ;; baj~as_1
+    -- bjs     baj~as  PV      make flow
+    -- bjs     baj~is  IV_yu   make flow
+    -- bjs     baj~as  IV_Pass_yu      be made to flow
+
+    FaCCaL                    `verb`       {- baj~as -}         [ "make flow", "be made to flow" ]
+                              {- `others` [ "ba^g^gis IV_yu" ] -},
+
+    -- ;; tabaj~as_1
+    -- tbjs    tabaj~as        PV      flow;pour
+    -- tbjs    tabaj~as        IV      flow;pour
+
+    TaFaCCaL                  `verb`       {- tabaj~as -}       [ "flow", "pour" ],
+
+    -- ;; {inobajas_1
+    -- <nbjs   {inobajas       PV      flow;pour
+    -- Anbjs   {inobajas       PV      flow;pour
+    -- nbjs    nobajis IV      flow;pour
+
+    InFaCaL                   `verb`       {- {inobajas -}      [ "flow", "pour" ]
+                              {- `others` [ "nba^gis IV" ] -},
+
+    -- ;; bajos_1
+    -- bjs     bajos   N       flowing;streaming
+
+    FaCL                      `noun`       {- bajos -}          [ "flowing", "streaming" ],
+
+    -- ;; bajiys_1
+    -- bjys    bajiys  Nall    flowing;streaming
+
+    FaCIL                     `noun`       {- bajiys -}         [ "flowing", "streaming" ] ]
+
+ |> "b ^s ^s" <| [
+
+    -- ;; ba$~-a_1
+    -- b$      ba$~    PV_V_intr       be happy;be playful
+    -- b$$     ba$a$   PV_C_intr       be happy;be playful
+    -- b$      ba$~    IV_V_intr       be happy;be playful
+    -- b$$     bo$a$   IV_C_intr       be happy;be playful
+
+    FaCL                      `verb`       {- ba$~-a -}         [ "be happy", "be playful" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b^sa^s IV_C_intr", "ba^sa^s PV_C_intr" ] -},
+
+    -- ;; ba$uw$_1
+    -- b$w$    ba$uw$  Nall    smiling;cheerful
+
+    FaCUL                     `noun`       {- ba$uw$ -}         [ "smiling", "cheerful" ],
+
+    -- ;; ba$~A$_1
+    -- b$A$    ba$~A$  Nall    smiling;cheerful
+
+    FaCCAL                    `noun`       {- ba$~A$ -}         [ "smiling", "cheerful" ],
+
+    -- ;; ba$A$ap_1
+    -- b$A$    ba$A$   Nap     gaiety;smile
+
+    FaCAL |< aT               `noun`       {- ba$A$ap -}        [ "gaiety", "smile" ],
+
+    -- ;; bA$~_1
+    -- bA$     bA$~    Nall    smiling;happy
+
+    FACL                      `noun`       {- bA$~ -}           [ "smiling", "happy" ] ]
+
+ |> "b ^s `" <| [
+
+    -- ;; ba$iE-a_1
+    -- b$E     ba$iE   PV_intr be ugly;be loathsome
+    -- b$E     bo$aE   IV_intr be ugly;be loathsome
+
+    FaCiL                     `verb`       {- ba$iE-a -}        [ "be ugly", "be loathsome" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b^sa` IV_intr" ] -},
+
+    -- ;; ba$~aE_1
+    -- b$E     ba$~aE  PV      make ugly;disfigure
+    -- b$E     ba$~iE  IV_yu   make ugly;disfigure
+    -- b$E     ba$~aE  IV_Pass_yu      be made ugly;be disfigured
+
+    FaCCaL                    `verb`       {- ba$~aE -}         [ "make ugly", "disfigure", "be made ugly", "be disfigured" ]
+                              {- `others` [ "ba^s^si` IV_yu" ] -},
+
+    -- ;; {isotabo$aE_1
+    -- <stb$E  {isotabo$aE     PV      consider ugly
+    -- Astb$E  {isotabo$aE     PV      consider ugly
+    -- stb$E   sotabo$iE       IV      consider ugly
+
+    IstaFCaL                  `verb`       {- {isotabo$aE -}    [ "consider ugly" ],
+
+    -- ;; ba$AEap_1
+    -- b$AE    ba$AE   Nap     ugliness;repugnance
+
+    FaCAL |< aT               `noun`       {- ba$AEap -}        [ "ugliness", "repugnance" ],
+
+    -- ;; ba$iE_1
+    -- b$E     ba$iE   Nall    ugly;repugnant
+
+    FaCiL                     `noun`       {- ba$iE -}          [ "ugly", "repugnant" ],
+
+    -- ;; ba$iyE_1
+    -- b$yE    ba$iyE  Nall    ugly;repugnant
+
+    FaCIL                     `noun`       {- ba$iyE -}         [ "ugly", "repugnant" ],
+
+    -- ;; >abo$aE_1
+    -- >b$E    >abo$aE Nel     uglier;ugliest
+    -- Ab$E    >abo$aE Nel     uglier;ugliest
+
+    HaFCaL                    `noun`       {- Oabo$aE -}        [ "uglier", "ugliest" ],
+
+    -- ;; tabo$iyE_1
+    -- tb$yE   tabo$iyE        N/At    disfiguration
+
+    TaFCIL                    `noun`       {- tabo$iyE -}       [ "disfiguration" ] ]
+
+ |> "b ^s k" <| [
+
+    -- ;; bA$ak_1
+    -- bA$k    bA$ak   N       sparrow hawk
+
+    FACaL                     `noun`       {- bA$ak -}          [ "sparrow hawk" ],
+
+    -- ;; {ibota$ak_1
+    -- <bt$k   {ibota$ak       PV      lie;deceive
+    -- Abt$k   {ibota$ak       PV      lie;deceive
+    -- bt$k    bota$ik IV      lie;deceive
+
+    IFtaCaL                   `verb`       {- {ibota$ak -}      [ "lie", "deceive" ]
+                              {- `others` [ "bta^sik IV" ] -},
+
+    -- ;; ba$~Ak_1
+    -- b$Ak    ba$~Ak  Nall    liar
+
+    FaCCAL                    `noun`       {- ba$~Ak -}         [ "liar" ],
+
+    -- ;; {iboti$Ak_1
+    -- <bt$Ak  {iboti$Ak       NduAt   deceit
+    -- Abt$Ak  {iboti$Ak       NduAt   deceit
+
+    IFtiCAL                   `noun`       {- {iboti$Ak -}      [ "deceit" ],
+
+    -- ;; bA$ik_1
+    -- bA$k    bA$ik   Ndu     sparrow hawk
+    -- bwA$k   bawA$ik Ndip    sparrow hawks
+
+    FACiL                     `noun`       {- bA$ik -}          [ "sparrow hawk", "sparrow hawks" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawA^sik Ndip" ] -} ]
+
+ |> "b ^s k r" <| [
+
+    -- ;; ba$okuwr_1
+    -- b$kwr   ba$okuwr        Ndu     fire iron
+    -- b$Akyr  ba$Akiyr        Ndip    fire irons
+
+    KaRDUS                    `noun`       {- ba$okuwr -}       [ "fire iron", "fire irons" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "ba^sAkiyr Ndip" ] -},
+
+    -- ;; ba$okiyr_1
+    -- b$kyr   ba$okiyr        Ndu     bath towel
+    -- bA$kyr  bA$okiyr        Ndu     bath towel
+    -- b$Akyr  ba$Akiyr        Ndip    bath towels
+
+    KaRDIS                    `noun`       {- ba$okiyr -}       [ "bath towel", "bath towels" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "ba^sAkiyr Ndip" ] -} ]
+
+ |> "b ^s m" <| [
+
+    -- ;; ba$im-a_1
+    -- b$m     ba$im   PV_intr be nauseated;have indigestion
+    -- b$m     bo$am   IV_intr be nauseated;have indigestion
+
+    FaCiL                     `verb`       {- ba$im-a -}        [ "be nauseated", "have indigestion" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b^sam IV_intr" ] -},
+
+    -- ;; >abo$am_1
+    -- >b$m    >abo$am PV      nauseate;give indigestion
+    -- Ab$m    >abo$am PV      nauseate;give indigestion
+    -- b$m     bo$im   IV_yu   nauseate;give indigestion
+
+    HaFCaL                    `verb`       {- Oabo$am -}        [ "nauseate", "give indigestion" ]
+                              {- `others` [ "b^sim IV_yu" ] -},
+
+    -- ;; ba$am_1
+    -- b$m     ba$am   N       indigestion;nausea
+
+    FaCaL                     `noun`       {- ba$am -}          [ "indigestion", "nausea" ] ]
+
+ |> "b ^s m q" <| [
+
+    -- ;; ba$omaq_1
+    -- b$mq    ba$omaq N0      Bashmaq
+
+    KaRDaS                    `noun`       {- ba$omaq -}        [ "Bashmaq" ],
+
+    -- ;; ba$omaq_2
+    -- b$mq    ba$omaq Ndu     slipper
+
+    KaRDaS                    `noun`       {- ba$omaq -}        [ "slipper" ] ]
+
+ |> "b ^s m r" <| [
+
+    -- ;; ba$omAr_1
+    -- b$mAr   ba$omAr N       lacework
+
+    KaRDAS                    `noun`       {- ba$omAr -}        [ "lacework" ],
+
+    -- ;; ba$Amiriy~_1
+    -- b$Amry  ba$Amiriy~      Nall    laceworker     [[ba$Amiriy~/ADJ]]
+
+    KaRADiS |< Iy             `adj`        {- ba$Amiriy~ -}     [ "laceworker" ] ]
+
+ |> "b ^s n" <| [
+
+    -- ;; ba$onap_1
+    -- b$n     ba$on   Nap     sorghum
+
+    FaCL |< aT                `noun`       {- ba$onap -}        [ "sorghum" ] ]
+
+ |> "b ^s n n" <| [
+
+    -- ;; ba$oniyn_1
+    -- b$nyn   ba$oniyn        N       lotus
+
+    KaRDIS                    `noun`       {- ba$oniyn -}       [ "lotus" ] ]
+
+ |> "b ^s n q" <| [
+
+    -- ;; ba$onuwqap_1
+    -- b$nwq   ba$onuwq        Nap     kerchief
+    -- b$nyq   ba$oniyq        Nap     kerchief
+    -- b$Anq   ba$Aniq Ndip    kerchiefs
+
+    KaRDUS |< aT              `noun`       {- ba$onuwqap -}     [ "kerchief", "kerchiefs" ]
+                              `plural`     KaRDIS |< aT
+                              `plural`     KaRADiS
+                              {- `others` [ "ba^sniyq Nap", "ba^sAniq Ndip" ] -} ]
+
+ |> "b ^s r" <| [
+
+    -- ;; ba$ar-i_1
+    -- b$r     ba$ar   PV      rejoice
+    -- b$r     bo$ir   IV      rejoice
+
+    FaCaL                     `verb`       {- ba$ar-i -}        [ "rejoice" ]
+                              `imperf`     FCiL
+                              {- `others` [ "b^sir IV" ] -},
+
+    -- ;; ba$ir-a_1
+    -- b$r     ba$ir   PV      rejoice
+    -- b$r     bo$ar   IV      rejoice
+
+    FaCiL                     `verb`       {- ba$ir-a -}        [ "rejoice" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b^sar IV" ] -},
+
+    -- ;; ba$ar-u_1
+    -- b$r     ba$ar   PV      peel;scrape
+    -- b$r     bo$ur   IV      peel;scrape
+
+    FaCaL                     `verb`       {- ba$ar-u -}        [ "peel", "scrape" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b^sur IV" ] -},
+
+    -- ;; ba$~ar_1
+    -- b$r     ba$~ar  PV      augur;evangelize
+    -- b$r     ba$~ir  IV_yu   augur;evangelize
+    -- b$r     ba$~ar  IV_Pass_yu      be augured;be evangelized
+
+    FaCCaL                    `verb`       {- ba$~ar -}         [ "augur", "evangelize", "be augured", "be evangelized" ]
+                              {- `others` [ "ba^s^sir IV_yu" ] -},
+
+    -- ;; bA$ar_1
+    -- bA$r    bA$ar   PV      embark upon;proceed
+    -- bA$r    bA$ir   IV_yu   embark upon;proceed
+
+    FACaL                     `verb`       {- bA$ar -}          [ "embark upon", "proceed" ]
+                              {- `others` [ "bA^sir IV_yu" ] -},
+
+    -- ;; >abo$ar_1
+    -- >b$r    >abo$ar PV      rejoice
+    -- Ab$r    >abo$ar PV      rejoice
+    -- b$r     bo$ir   IV_yu   rejoice
+
+    HaFCaL                    `verb`       {- Oabo$ar -}        [ "rejoice" ]
+                              {- `others` [ "b^sir IV_yu" ] -},
+
+    -- ;; {isotabo$ar_1
+    -- <stb$r  {isotabo$ar     PV      rejoice;welcome
+    -- Astb$r  {isotabo$ar     PV      rejoice;welcome
+    -- stb$r   sotabo$ir       IV      rejoice;welcome
+
+    IstaFCaL                  `verb`       {- {isotabo$ar -}    [ "rejoice", "welcome" ],
+
+    -- ;; bi$or_1
+    -- b$r     bi$or   N       joy
+
+    FiCL                      `noun`       {- bi$or -}          [ "joy" ],
+
+    -- ;; bu$or_1
+    -- b$r     bu$or   N       good news
+
+    FuCL                      `noun`       {- bu$or -}          [ "good news" ],
+
+    -- ;; bu$orap_1
+    -- b$r     bu$or   Nap     good news
+    -- b$rY    bu$oraY N0      good news
+    -- b$rA    bu$orA  Nhy     good news
+    -- b$ry    bu$oray NAn_Nayn        good news
+    -- b$ry    bu$oray NAt     good news
+
+    FuCL |< aT                `noun`       {- bu$orap -}        [ "good news" ]
+                              `plural`     FuCLY
+                              {- `others` [ "bu^srY N0" ] -},
+
+    -- ;; bu$orap_2
+    -- b$rp    bu$orap N0      Bushra
+
+    FuCL |< aT                `noun`       {- bu$orap -}        [ "Bushra" ],
+
+    -- ;; bu$oraY_1
+    -- b$rY    bu$oraY N0      Bushra
+
+    FuCLY                     `noun`       {- bu$oraY -}        [ "Bushra" ],
+
+    -- ;; ba$iyr_1
+    -- b$yr    ba$iyr  N0      Bashir
+
+    FaCIL                     `noun`       {- ba$iyr -}         [ "Bashir" ],
+
+    -- ;; ba$iyrap_1
+    -- b$yrp   ba$iyrap        Nprop   Bashira
+
+    FaCIL |< aT               `noun`       {- ba$iyrap -}       [ "Bashira" ],
+
+    -- ;; ba$iyr_2
+    -- b$yr    ba$iyr  Ndu     herald;messenger;evangelist
+    -- b$rA'   bu$arA' N0_Nh   heralds;messengers;evangelists
+    -- b$rA&   bu$arA& Nh      heralds;messengers;evangelists
+    -- b$rA}   bu$arA} Nhy     heralds;messengers;evangelists
+
+    FaCIL                     `noun`       {- ba$iyr -}         [ "herald", "messenger", "evangelist", "heralds", "messengers", "evangelists" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "bu^sarA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; ba$~Ar_1
+    -- b$Ar    ba$~Ar  Nprop   Bashshar
+
+    FaCCAL                    `noun`       {- ba$~Ar -}         [ "Bashshar" ],
+
+    -- ;; bi$Arap_1
+    -- b$Arp   bi$Arap N0      Bishara
+
+    FiCAL |< aT               `noun`       {- bi$Arap -}        [ "Bishara" ],
+
+    -- ;; bi$Arap_2
+    -- b$Ar    bi$Ar   NapAt   good news
+    -- b$A}r   ba$A}ir Ndip    good news
+
+    FiCAL |< aT               `noun`       {- bi$Arap -}        [ "good news" ],
+
+    -- ;; tabo$iyr_1
+    -- tb$yr   tabo$iyr        NduAt   evangelization
+
+    TaFCIL                    `noun`       {- tabo$iyr -}       [ "evangelization" ],
+
+    -- ;; tabo$iyr_2
+    -- tb$yr   tabo$iyr        NduAt   announcement
+
+    TaFCIL                    `noun`       {- tabo$iyr -}       [ "announcement" ],
+
+    -- ;; tabo$iyriy~_1
+    -- tb$yry  tabo$iyriy~     Nall    missionary     [[tabo$iyriy~/ADJ]]
+
+    TaFCIL |< Iy              `adj`        {- tabo$iyriy~ -}    [ "missionary" ],
+
+    -- ;; muba$~ir_1
+    -- mb$r    muba$~ir        Nall    missionary;announcer
+
+    MuFaCCiL                  `noun`       {- muba$~ir -}       [ "missionary", "announcer" ],
+
+    -- ;; musotabo$ir_1
+    -- mstb$r  musotabo$ir     Nall    happy;cheerful
+
+    MustaFCiL                 `noun`       {- musotabo$ir -}    [ "happy", "cheerful" ],
+
+    -- ;; ba$ar_1
+    -- b$r     ba$ar   N       mankind
+
+    FaCaL                     `noun`       {- ba$ar -}          [ "mankind" ],
+
+    -- ;; ba$ariy~_1
+    -- b$ry    ba$ariy~        Nall    human     [[ba$ariy~/ADJ]]
+
+    FaCaL |< Iy               `adj`        {- ba$ariy~ -}       [ "human" ],
+
+    -- ;; ba$ariy~ap_1
+    -- b$ry    ba$ariy~        Nap     humankind;mankind     [[ba$ariy~/NOUN]]
+
+    FaCaL |< Iy |< aT         `noun`       {- ba$ariy~ap -}     [ "humankind", "mankind" ],
+
+    -- ;; ba$arap_1
+    -- b$r     ba$ar   Nap     epidermis
+
+    FaCaL |< aT               `noun`       {- ba$arap -}        [ "epidermis" ],
+
+    -- ;; mibo$arap_1
+    -- mb$r    mibo$ar NapAt   scraper;grater
+    -- mbA$r   mabA$ir Ndip    scrapers;graters
+
+    MiFCaL |< aT              `noun`       {- mibo$arap -}      [ "scraper", "grater", "scrapers", "graters" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "mabA^sir Ndip" ] -},
+
+    -- ;; mubA$arap_1
+    -- mbA$r   mubA$ar NapAt   beginning;pursuit
+
+    MuFACaL |< aT             `noun`       {- mubA$arap -}      [ "beginning", "pursuit" ],
+
+    -- ;; mubA$arapF_1
+    -- mbA$rp  mubA$arapF      FW-Wa   directly;immediately    [[mubA$arapF/ADV]]
+
+    MuFACaL |< aT |< aN       `noun`       {- mubA$arapF -}     [ "directly", "immediately" ],
+
+    -- ;; mabo$uwr_1
+    -- mb$wr   mabo$uwr        Nall    grated;shredded
+
+    MaFCUL                    `noun`       {- mabo$uwr -}       [ "grated", "shredded" ],
+
+    -- ;; mubA$ir_1
+    -- mbA$r   mubA$ir Nall    direct;immediate
+
+    MuFACiL                   `noun`       {- mubA$ir -}        [ "direct", "immediate" ] ]
+
+ |> "b ^s s" <| [
+
+    -- ;; bA$awiy~_1
+    -- bA$wy   bA$awiy~        Nall    rank of pasha     [[bA$awiy~/ADJ]]
+
+    FACY |< Iy                `adj`        {- bA$awiy~ -}       [ "rank of pasha" ] ]
+
+ |> "b ^s t" <| [
+
+    -- ;; bu$ot_1
+    -- b$t     bu$ot   N       cloak
+
+    FuCL                      `noun`       {- bu$ot -}          [ "cloak" ],
+
+    -- ;; bi$otap_1
+    -- b$t     bi$ot   Nap     cloak
+
+    FiCL |< aT                `noun`       {- bi$otap -}        [ "cloak" ] ]
+
+ |> "b ^s t n" <| [
+
+    -- ;; ba$otuwn_1
+    -- b$twn   ba$otuwn        N0      Pashtun     [[ba$otuwn/NOUN]]
+    -- b$twn   ba$otuwn        N0      Pashtun     [[ba$otuwn/ADJ]]
+    -- bA$twn  bA$otuwn        N0      Pashtun     [[ba$otuwn/NOUN]]
+    -- bA$twn  bA$otuwn        N0      Pashtun     [[ba$otuwn/ADJ]]
+
+    KaRDUS                    `adj`        {- ba$otuwn -}       [ "Pashtun" ] ]
+
+ |> "b _d '" <| [
+
+    -- ;; ba*a>-a_1
+    -- b*>     ba*a>   PV->    revile;abuse
+    -- b*|     ba*a|   PV-|    revile;abuse
+    -- b*&     ba*a&   PV_w    revile;abuse
+    -- b*>     bo*a>   IV      revile;abuse
+    -- b*|     bo*a|   IV-|    revile;abuse
+    -- b*&     bo*a&   IV_wn   revile;abuse
+    -- b*}     bo*a}   IV_yn   revile;abuse
+
+    FaCaL                     `verb`       {- ba*aO-a -}        [ "revile", "abuse" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b_da' IV IV_wn IV_yn" ] -},
+
+    -- ;; ba*i}-u_1
+    -- b*}     ba*i}   PV_intr be shameless;be obscene
+    -- b*&     ba*u&   PV_intr be shameless;be obscene
+    -- b*&     bo*u&   IV_intr be shameless;be obscene
+    -- b*}     bo*u}   IV_yn   be shameless;be obscene
+
+    FaCiL                     `verb`       {- ba*i}-u -}        [ "be shameless", "be obscene" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b_du' IV_intr IV_yn", "ba_du' PV_intr" ] -},
+
+    -- ;; ba*iy'_1
+    -- b*y'    ba*iy'  N0      disgusting;obscene     [[ba*iy'/ADJ]]
+    -- b*y}    ba*iy}  NF      disgusting;obscene
+    -- b*y}    ba*iy}  NapAt   disgusting;obscene
+    -- b*y}    ba*iy}  NAn_Nayn        disgusting;obscene
+    -- b*y}    ba*iy}  Nuwn_Niyn       disgusting;obscene
+
+    FaCIL                     `adj`        {- ba*iy' -}         [ "disgusting", "obscene" ],
+
+    -- ;; ba*A'_1
+    -- b*A'    ba*A'   N0_Nh   obscenity;contempt
+    -- b*A&    ba*A&   Nh      obscenity;contempt
+    -- b*A}    ba*A}   Nhy     obscenity;contempt
+    -- b*A'    ba*A'   Nap     obscenity;contempt
+
+    FaCAL                     `noun`       {- ba*A' -}          [ "obscenity", "contempt" ] ]
+
+ |> "b _d _d" <| [
+
+    -- ;; ba*~-u_1
+    -- b*      ba*~    PV_V    surpass;beat
+    -- b**     ba*a*   PV_C    surpass;beat
+    -- b*      bu*~    IV_V    surpass;beat
+    -- b**     bo*u*   IV_C    surpass;beat
+
+    FaCL                      `verb`       {- ba*~-u -}         [ "surpass", "beat" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bu_d_d IV_V", "b_du_d IV_C", "ba_da_d PV_C" ] -},
+
+    -- ;; ba*~_1
+    -- b*      ba*~    N       slovenly;squalid
+
+    FaCL                      `noun`       {- ba*~ -}           [ "slovenly", "squalid" ],
+
+    -- ;; bA*~_1
+    -- bA*     bA*~    Nall    slovenly;squalid
+
+    FACL                      `noun`       {- bA*~ -}           [ "slovenly", "squalid" ],
+
+    -- ;; ba*A*ap_1
+    -- b*A*    ba*A*   Nap     slovenliness;squalor
+
+    FaCAL |< aT               `noun`       {- ba*A*ap -}        [ "slovenliness", "squalor" ] ]
+
+ |> "b _d _h" <| [
+
+    -- ;; ba*ax-a_1
+    -- b*x     ba*ax   PV_intr be haughty;be proud
+    -- b*x     bo*ax   IV_intr be haughty;be proud
+
+    FaCaL                     `verb`       {- ba*ax-a -}        [ "be haughty", "be proud" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b_da_h IV_intr" ] -},
+
+    -- ;; ba*ax_1
+    -- b*x     ba*ax   N       luxury;pride
+
+    FaCaL                     `noun`       {- ba*ax -}          [ "luxury", "pride" ],
+
+    -- ;; bA*ix_1
+    -- bA*x    bA*ix   Nall    luxurious;haughty
+    -- bwA*x   bawA*ix Ndip    luxurious;haughty
+
+    FACiL                     `noun`       {- bA*ix -}          [ "luxurious", "haughty" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawA_di_h Ndip" ] -} ]
+
+ |> "b _d l" <| [
+
+    -- ;; ba*al-u_1
+    -- b*l     ba*al   PV      strive;exert
+    -- b*l     bo*ul   IV      strive;exert
+
+    FaCaL                     `verb`       {- ba*al-u -}        [ "strive", "exert" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b_dul IV" ] -},
+
+    -- ;; taba*~al_1
+    -- tb*l    taba*~al        PV_intr be shameless;lose self control
+    -- tb*l    taba*~al        IV_intr be shameless;lose self control
+
+    TaFaCCaL                  `verb`       {- taba*~al -}       [ "be shameless", "lose self control" ],
+
+    -- ;; {ibota*al_1
+    -- <bt*l   {ibota*al       PV      neglect;be debased
+    -- Abt*l   {ibota*al       PV      neglect;be debased
+    -- bt*l    bota*il IV      neglect;be debased
+
+    IFtaCaL                   `verb`       {- {ibota*al -}      [ "neglect", "be debased" ]
+                              {- `others` [ "bta_dil IV" ] -},
+
+    -- ;; ba*ol_1
+    -- b*l     ba*ol   N       spending;donating
+
+    FaCL                      `noun`       {- ba*ol -}          [ "spending", "donating" ],
+
+    -- ;; ba*olap_1
+    -- b*l     ba*ol   Napdu   suit;costume
+    -- b*l     ba*al   NAt     suits;costumes
+
+    FaCL |< aT                `noun`       {- ba*olap -}        [ "suit", "costume", "suits", "costumes" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "ba_dal NAt" ] -},
+
+    -- ;; mibo*al_1
+    -- mb*l    mibo*al Ndu     slipper;house clothes
+    -- mbA*l   mabA*il Ndip    slippers;house clothes
+
+    MiFCaL                    `noun`       {- mibo*al -}        [ "slipper", "house clothes", "slippers" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "mabA_dil Ndip" ] -},
+
+    -- ;; taba*~ul_1
+    -- tb*l    taba*~ul        N/At    banality
+
+    TaFaCCuL                  `noun`       {- taba*~ul -}       [ "banality" ],
+
+    -- ;; {iboti*Al_1
+    -- <bt*Al  {iboti*Al       NduAt   degradation;vulgarity
+    -- Abt*Al  {iboti*Al       NduAt   degradation;vulgarity
+
+    IFtiCAL                   `noun`       {- {iboti*Al -}      [ "degradation", "vulgarity" ],
+
+    -- ;; bA*il_1
+    -- bA*l    bA*il   Nall    spender;spending
+
+    FACiL                     `noun`       {- bA*il -}          [ "spender", "spending" ],
+
+    -- ;; mabo*uwl_1
+    -- mb*wl   mabo*uwl        N-ap    exerted;expended     [[mabo*uwl/ADJ]]
+
+    MaFCUL                    `adj`        {- mabo*uwl -}       [ "exerted", "expended" ],
+
+    -- ;; mutaba*~il_1
+    -- mtb*l   mutaba*~il      Nall    vulgar
+
+    MutaFaCCiL                `noun`       {- mutaba*~il -}     [ "vulgar" ],
+
+    -- ;; mubota*al_1
+    -- mbt*l   mubota*al       Nall    vulgar;degraded
+
+    MuFtaCaL                  `noun`       {- mubota*al -}      [ "vulgar", "degraded" ] ]
+
+ |> "b _d r" <| [
+
+    -- ;; ba*ar-u_1
+    -- b*r     ba*ar   PV      sow;disseminate;disperse
+    -- b*r     bo*ur   IV      sow;disseminate;disperse
+
+    FaCaL                     `verb`       {- ba*ar-u -}        [ "sow", "disseminate", "disperse" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b_dur IV" ] -},
+
+    -- ;; ba*~ar_1
+    -- b*r     ba*~ar  PV      waste;squander
+    -- b*r     ba*~ir  IV_yu   waste;squander
+    -- b*r     ba*~ar  IV_Pass_yu      be wasted;be squandered
+
+    FaCCaL                    `verb`       {- ba*~ar -}         [ "waste", "squander", "be wasted", "be squandered" ]
+                              {- `others` [ "ba_d_dir IV_yu" ] -},
+
+    -- ;; ba*or_1
+    -- b*r     ba*or   N       spread;propagation
+
+    FaCL                      `noun`       {- ba*or -}          [ "spread", "propagation" ],
+
+    -- ;; ba*or_2
+    -- b*r     ba*or   N       seed
+    -- b*wr    bu*uwr  N       seeds
+    -- b*Ar    bi*Ar   N       seeds
+
+    FaCL                      `noun`       {- ba*or -}          [ "seed", "seeds" ]
+                              `plural`     FuCUL
+                              `plural`     FiCAL
+                              {- `others` [ "bu_duwr N", "bi_dAr N" ] -},
+
+    -- ;; bi*orap_1
+    -- b*r     bi*or   NapAt   seed;germ
+
+    FiCL |< aT                `noun`       {- bi*orap -}        [ "seed", "germ" ],
+
+    -- ;; bu*ayorap_1
+    -- b*yr    bu*ayor NapAt   germ;seed
+
+    FuCayL |< aT              `noun`       {- bu*ayorap -}      [ "germ", "seed" ],
+
+    -- ;; tabo*iyr_1
+    -- tb*yr   tabo*iyr        NduAt   squandering
+
+    TaFCIL                    `noun`       {- tabo*iyr -}       [ "squandering" ],
+
+    -- ;; muba*~ir_1
+    -- mb*r    muba*~ir        Nall    squanderer
+
+    MuFaCCiL                  `noun`       {- muba*~ir -}       [ "squanderer" ] ]
+
+ |> "b _d s" <| [
+
+    -- ;; ba*A'_1
+    -- b*A'    ba*A'   N0_Nh   obscenity;contempt
+    -- b*A&    ba*A&   Nh      obscenity;contempt
+    -- b*A}    ba*A}   Nhy     obscenity;contempt
+    -- b*A'    ba*A'   Nap     obscenity;contempt
+
+    FaCA'                     `noun`       {- ba*A' -}          [ "obscenity", "contempt" ] ]
+
+ |> "b _h ^s ^s" <| [
+
+    -- ;; baxo$iy$_1
+    -- bx$y$   baxo$iy$        N       baksheesh;gratuity
+    -- bxA$y$  baxA$iy$        Ndip    baksheesh;gratuities
+
+    KaRDIS                    `noun`       {- baxo$iy$ -}       [ "baksheesh", "gratuity", "gratuities" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "ba_hA^siy^s Ndip" ] -} ]
+
+ |> "b _h _h" <| [
+
+    -- ;; bax~-u_1
+    -- bx      bax~    PV_V    sprinkle;splatter
+    -- bxx     baxax   PV_C    sprinkle;splatter
+    -- bx      bux~    IV_V    sprinkle;splatter
+    -- bxx     boxux   IV_C    sprinkle;splatter
+
+    FaCL                      `verb`       {- bax~-u -}         [ "sprinkle", "splatter" ]
+                              `imperf`     FCuL
+                              {- `others` [ "ba_ha_h PV_C", "b_hu_h IV_C", "bu_h_h IV_V" ] -},
+
+    -- ;; bax~Ax_1
+    -- bxAx    bax~Ax  N       nozzle
+    -- bxAx    bax~Ax  NapAt   nozzle
+
+    FaCCAL                    `noun`       {- bax~Ax -}         [ "nozzle" ],
+
+    -- ;; buxayoxap_1
+    -- bxyx    buxayox NapAt   squirt;syringe
+
+    FuCayL |< aT              `noun`       {- buxayoxap -}      [ "squirt", "syringe" ],
+
+    -- ;; mibax~ap_1
+    -- mbx     mibax~  NapAt   nozzle;sprayer
+
+    MiFaCL |< aT              `noun`       {- mibax~ap -}       [ "nozzle", "sprayer" ] ]
+
+ |> "b _h `" <| [
+
+    -- ;; baxaE-a_1
+    -- bxE     baxaE   PV_intr be extreme;be violent
+    -- bxE     boxaE   IV_intr be extreme;be violent
+
+    FaCaL                     `verb`       {- baxaE-a -}        [ "be extreme", "be violent" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b_ha` IV_intr" ] -} ]
+
+ |> "b _h l" <| [
+
+    -- ;; baxil-a_1
+    -- bxl     baxil   PV_intr be miserly;skimp
+    -- bxl     boxal   IV_intr be miserly;skimp
+
+    FaCiL                     `verb`       {- baxil-a -}        [ "be miserly", "skimp" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b_hal IV_intr" ] -},
+
+    -- ;; baxul-u_1
+    -- bxl     baxul   PV_intr be miserly;skimp
+    -- bxl     boxul   IV_intr be miserly;skimp
+
+    FaCuL                     `verb`       {- baxul-u -}        [ "be miserly", "skimp" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b_hul IV_intr" ] -},
+
+    -- ;; tabAxal_1
+    -- tbAxl   tabAxal PV      give reluctantly
+    -- tbAxl   tabAxal IV      give reluctantly
+
+    TaFACaL                   `verb`       {- tabAxal -}        [ "give reluctantly" ],
+
+    -- ;; buxol_1
+    -- bxl     buxol   N       avarice
+
+    FuCL                      `noun`       {- buxol -}          [ "avarice" ],
+
+    -- ;; baxiyl_1
+    -- bxyl    baxiyl  Nall    miser;avaricious
+    -- bxlA'   buxalA' N0_Nh   misers;avaricious
+    -- bxlA&   buxalA& Nh      misers;avaricious
+    -- bxlA}   buxalA} Nhy     misers;avaricious
+
+    FaCIL                     `noun`       {- baxiyl -}         [ "miser", "avaricious", "misers" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "bu_halA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; maboxalap_1
+    -- mbxl    maboxal Nap     avarice
+
+    MaFCaL |< aT              `noun`       {- maboxalap -}      [ "avarice" ] ]
+
+ |> "b _h n q" <| [
+
+    -- ;; buxonuq_1
+    -- bxnq    buxonuq Ndu     kerchief;veil
+    -- bxAnq   baxAniq Ndip    kerchiefs;veils
+
+    KuRDuS                    `noun`       {- buxonuq -}        [ "kerchief", "veil", "kerchiefs", "veils" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "ba_hAniq Ndip" ] -} ]
+
+ |> "b _h q" <| [
+
+    -- ;; >aboxaq_1
+    -- >bxq    >aboxaq Nel     one-eyed
+    -- Abxq    >aboxaq Nel     one-eyed
+    -- bxqA'   baxoqA' N0_Nh   one-eyed
+    -- bxqA&   baxoqA& Nh      one-eyed
+    -- bxqA}   baxoqA} Nhy     one-eyed
+
+    HaFCaL                    `noun`       {- Oaboxaq -}        [ "one-eyed" ]
+                              `plural`     FaCLA'
+                              {- `others` [ "ba_hqA' Nh N0_Nh Nhy" ] -} ]
+
+ |> "b _h r" <| [
+
+    -- ;; baxar-a_1
+    -- bxr     baxar   PV      steam;smoke
+    -- bxr     boxar   IV      steam;smoke
+
+    FaCaL                     `verb`       {- baxar-a -}        [ "steam", "smoke" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b_har IV" ] -},
+
+    -- ;; bax~ar_1
+    -- bxr     bax~ar  PV      fumigate;burn incense;vaporize
+    -- bxr     bax~ir  IV_yu   fumigate;burn incense;vaporize
+    -- bxr     bax~ar  IV_Pass_yu      be fumigated;be burned (incense);be vaporized
+
+    FaCCaL                    `verb`       {- bax~ar -}         [ "fumigate", "burn incense", "vaporize", "be fumigated", "be burned (incense)", "be vaporized" ]
+                              {- `others` [ "ba_h_hir IV_yu" ] -},
+
+    -- ;; tabax~ar_1
+    -- tbxr    tabax~ar        PV      evaporate;vaporize
+    -- tbxr    tabax~ar        IV      evaporate;vaporize
+
+    TaFaCCaL                  `verb`       {- tabax~ar -}       [ "evaporate", "vaporize" ],
+
+    -- ;; buxAr_1
+    -- bxAr    buxAr   N/At    vapor;steam
+    -- >bxr    >aboxir Nap     vapor;steam
+    -- Abxr    >aboxir Nap     vapor;steam
+
+    FuCAL                     `noun`       {- buxAr -}          [ "vapor", "steam" ]
+                              `plural`     HaFCiL |< aT
+                              {- `others` [ "'ab_hir Nap" ] -},
+
+    -- ;; buxAriy~_1
+    -- bxAry   buxAriy~        N0      Bukhari
+
+    FuCAL |< Iy               `adj`        {- buxAriy~ -}       [ "Bukhari" ],
+
+    -- ;; buxAriy~_2
+    -- bxAry   buxAriy~        N-ap    steam;steam-driven     [[buxAriy~/ADJ]]
+
+    FuCAL |< Iy               `adj`        {- buxAriy~ -}       [ "steam", "steam-driven" ],
+
+    -- ;; baxuwr_1
+    -- bxwr    baxuwr  N       incense;frankincense
+
+    FaCUL                     `noun`       {- baxuwr -}         [ "incense", "frankincense" ],
+
+    -- ;; >aboxar_1
+    -- >bxr    >aboxar Nel     foul-breathed
+    -- Abxr    >aboxar Nel     foul-breathed
+
+    HaFCaL                    `noun`       {- Oaboxar -}        [ "foul-breathed" ],
+
+    -- ;; miboxarap_1
+    -- mbxr    miboxar Napdu   fumigator;censer
+    -- mbAxr   mabAxir Ndip    fumigators;censers
+
+    MiFCaL |< aT              `noun`       {- miboxarap -}      [ "fumigator", "censer", "fumigators", "censers" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "mabA_hir Ndip" ] -},
+
+    -- ;; taboxiyr_1
+    -- tbxyr   taboxiyr        NduAt   fumigation
+
+    TaFCIL                    `noun`       {- taboxiyr -}       [ "fumigation" ],
+
+    -- ;; tabax~ur_1
+    -- tbxr    tabax~ur        NduAt   evaporation;vaporization
+
+    TaFaCCuL                  `noun`       {- tabax~ur -}       [ "evaporation", "vaporization" ],
+
+    -- ;; bAxirap_1
+    -- bAxr    bAxir   NapAt   steamship;ship
+    -- bwAxr   bawAxir Ndip    steamships;ships
+
+    FACiL |< aT               `noun`       {- bAxirap -}        [ "steamship", "ship", "steamships", "ships" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawA_hir Ndip" ] -} ]
+
+ |> "b _h s" <| [
+
+    -- ;; baxas-a_1
+    -- bxs     baxas   PV      depreciate;underestimate
+    -- bxs     boxas   IV      depreciate;underestimate
+
+    FaCaL                     `verb`       {- baxas-a -}        [ "depreciate", "underestimate" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b_has IV" ] -},
+
+    -- ;; baxos_1
+    -- bxs     baxos   N       depreciation;very little
+
+    FaCL                      `noun`       {- baxos -}          [ "depreciation", "very little" ],
+
+    -- ;; >aboxas_1
+    -- >bxs    >aboxas Nel     smaller;lower
+    -- Abxs    >aboxas Nel     smaller;lower
+
+    HaFCaL                    `noun`       {- Oaboxas -}        [ "smaller", "lower" ],
+
+    -- ;; bAxis_1
+    -- bAxs    bAxis   Nall    trifling;minuscule
+
+    FACiL                     `noun`       {- bAxis -}          [ "trifling", "minuscule" ],
+
+    -- ;; baxA-u_1
+    -- bxA     baxA    PV_0    abate;subside
+    -- bxw     baxaw   PV_Atn  abate;subside
+    -- bx      bax     PV_ttAw abate;subside
+    -- bxw     boxuw   IV_0hAnn        abate;subside
+    -- bx      box     IV_0hwnyn       abate;subside
+
+    FaCA                      `verb`       {- baxA-u -}         [ "abate", "subside" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b_huw IV_0hAnn" ] -} ]
+
+ |> "b _h t" <| [
+
+    -- ;; baxot_1
+    -- bxt     baxot   N       luck;fortune
+    -- bxwt    buxuwt  N       luck;fortune
+
+    FaCL                      `noun`       {- baxot -}          [ "luck", "fortune" ]
+                              `plural`     FuCUL
+                              {- `others` [ "bu_huwt N" ] -},
+
+    -- ;; baxiyt_1
+    -- bxyt    baxiyt  Nall    lucky;fortunate
+
+    FaCIL                     `noun`       {- baxiyt -}         [ "lucky", "fortunate" ],
+
+    -- ;; maboxuwt_1
+    -- mbxwt   maboxuwt        Nall    lucky;fortunate
+
+    MaFCUL                    `noun`       {- maboxuwt -}       [ "lucky", "fortunate" ] ]
+
+ |> "b _h t r" <| [
+
+    -- ;; baxotar_1
+    -- bxtr    baxotar PV      swagger;strut
+    -- bxtr    baxotir IV_yu   swagger;strut
+
+    KaRDaS                    `verb`       {- baxotar -}        [ "swagger", "strut" ]
+                              {- `others` [ "ba_htir IV_yu" ] -},
+
+    -- ;; tabaxotar_1
+    -- tbxtr   tabaxotar       PV      swagger;strut
+    -- tbxtr   tabaxotar       IV      swagger;strut
+
+    TaKaRDaS                  `verb`       {- tabaxotar -}      [ "swagger", "strut" ],
+
+    -- ;; baxotarap_1
+    -- bxtr    baxotar Nap     swaggering;strutting
+
+    KaRDaS |< aT              `noun`       {- baxotarap -}      [ "swaggering", "strutting" ],
+
+    -- ;; tabaxotur_1
+    -- tbxtr   tabaxotur       NduAt   strutting gait
+
+    TaKaRDuS                  `noun`       {- tabaxotur -}      [ "strutting gait" ] ]
+
+ |> "b _t _t" <| [
+
+    -- ;; bav~-u_1
+    -- bv      bav~    PV_V    transmit;disseminate
+    -- bvv     bavav   PV_C    transmit;disseminate
+    -- bv      buv~    IV_V    transmit;disseminate
+    -- bvv     bovuv   IV_C    transmit;disseminate
+
+    FaCL                      `verb`       {- bav~-u -}         [ "transmit", "disseminate" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bu_t_t IV_V", "ba_ta_t PV_C", "b_tu_t IV_C" ] -},
+
+    -- ;; {inobav~_1
+    -- <nbv    {inobav~        PV_V_intr       be transmitted;be disseminated
+    -- Anbv    {inobav~        PV_V_intr       be transmitted;be disseminated
+    -- <nbvv   {inobavav       PV_C_intr       be transmitted;be disseminated
+    -- Anbvv   {inobavav       PV_C_intr       be transmitted;be disseminated
+    -- nbv     nobav~  IV_V_intr       be transmitted;be disseminated
+    -- nbvv    nobaviv IV_C_intr       be transmitted;be disseminated
+
+    InFaCL                    `verb`       {- {inobav~ -}       [ "be transmitted", "be disseminated" ]
+                              {- `others` [ "nba_ti_t IV_C_intr", "nba_t_t IV_V_intr", "inba_ta_t PV_C_intr" ] -},
+
+    -- ;; bav~_1
+    -- bv      bav~    N       broadcast;transmission;dissemination
+
+    FaCL                      `noun`       {- bav~ -}           [ "broadcast", "transmission", "dissemination" ],
+
+    -- ;; munobav~_1
+    -- mnbv    munobav~        Nall    broadcast;transmitted;disseminated
+
+    MunFaCL                   `noun`       {- munobav~ -}       [ "broadcast", "transmitted", "disseminated" ] ]
+
+ |> "b _t n" <| [
+
+    -- ;; buvayonap_1
+    -- bvynp   buvayonap       Nprop   Buthaina
+
+    FuCayL |< aT              `noun`       {- buvayonap -}      [ "Buthaina" ] ]
+
+ |> "b _t q" <| [
+
+    -- ;; bavaq-iu_1
+    -- bvq     bavaq   PV      make overflow
+    -- bvq     boviq   IV      make overflow
+    -- bvq     bovuq   IV      make overflow
+
+    FaCaL                     `verb`       {- bavaq-iu -}       [ "make overflow" ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL
+                              {- `others` [ "b_tiq IV", "b_tuq IV" ] -},
+
+    -- ;; {inobavaq_1
+    -- <nbvq   {inobavaq       PV      emanate;result
+    -- Anbvq   {inobavaq       PV      emanate;result
+    -- nbvq    nobaviq IV      emanate;result
+
+    InFaCaL                   `verb`       {- {inobavaq -}      [ "emanate", "result" ]
+                              {- `others` [ "nba_tiq IV" ] -},
+
+    -- ;; {inobivAq_1
+    -- <nbvAq  {inobivAq       NduAt   effusion;emanation
+    -- AnbvAq  {inobivAq       NduAt   effusion;emanation
+
+    InFiCAL                   `noun`       {- {inobivAq -}      [ "effusion", "emanation" ],
+
+    -- ;; munobaviq_1
+    -- mnbvq   munobaviq       Nall    resulting;emanating
+
+    MunFaCiL                  `noun`       {- munobaviq -}      [ "resulting", "emanating" ],
+
+    -- ;; munobavaq_1
+    -- mnbvq   munobavaq       NduAt   result
+
+    MunFaCaL                  `noun`       {- munobavaq -}      [ "result" ] ]
+
+ |> "b _t r" <| [
+
+    -- ;; bavar-i_1
+    -- bvr     bavar   PV      pustulate
+    -- bvr     bovir   IV      pustulate
+
+    FaCaL                     `verb`       {- bavar-i -}        [ "pustulate" ]
+                              `imperf`     FCiL
+                              {- `others` [ "b_tir IV" ] -},
+
+    -- ;; bavir-a_1
+    -- bvr     bavir   PV      pustulate
+    -- bvr     bovar   IV      pustulate
+
+    FaCiL                     `verb`       {- bavir-a -}        [ "pustulate" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b_tar IV" ] -},
+
+    -- ;; tabav~ar_1
+    -- tbvr    tabav~ar        PV      pustulate
+    -- tbvr    tabav~ar        IV      pustulate
+
+    TaFaCCaL                  `verb`       {- tabav~ar -}       [ "pustulate" ],
+
+    -- ;; bavor_1
+    -- bvr     bavor   N       pustules
+    -- bvwr    buvuwr  N       pustules
+    -- bvr     bavor   Napdu   pustule
+    -- bvr     bavar   NAt     pustules
+
+    FaCL                      `noun`       {- bavor -}          [ "pustules", "pustule" ]
+                              `plural`     FaCaL |< At
+                              `plural`     FuCUL
+                              {- `others` [ "ba_tar NAt", "bu_tuwr N" ] -},
+
+    -- ;; bavir_1
+    -- bvr     bavir   N-ap    pustulated
+
+    FaCiL                     `noun`       {- bavir -}          [ "pustulated" ],
+
+    -- ;; baviyr_1
+    -- bvyr    baviyr  Nall    pustulated
+
+    FaCIL                     `noun`       {- baviyr -}         [ "pustulated" ] ]
+
+ |> "b ` .d" <| [
+
+    -- ;; baEoD_1
+    -- bED     baEoD   N       some;several     [[baEoD/ADJ]]
+
+    FaCL                      `adj`        {- baEoD -}          [ "some", "several" ],
+
+    -- ;; baE~aD_1
+    -- bED     baE~aD  PV      divide;portion
+    -- bED     baE~iD  IV_yu   divide;portion
+    -- bED     baE~aD  IV_Pass_yu      be divided;be apportioned
+
+    FaCCaL                    `verb`       {- baE~aD -}         [ "divide", "portion", "be divided", "be apportioned" ]
+                              {- `others` [ "ba``i.d IV_yu" ] -},
+
+    -- ;; tabaE~aD_1
+    -- tbED    tabaE~aD        PV_intr be divided;be portioned
+    -- tbED    tabaE~aD        IV_intr be divided;be portioned
+
+    TaFaCCaL                  `verb`       {- tabaE~aD -}       [ "be divided", "be portioned" ],
+
+    -- ;; baEuwD_1
+    -- bEwD    baEuwD  N       gnat;mosquito
+    -- bEwD    baEuwD  NapAt   gnat;mosquito
+
+    FaCUL                     `noun`       {- baEuwD -}         [ "gnat", "mosquito" ],
+
+    -- ;; taboEiyD_1
+    -- tbEyD   taboEiyD        NduAt   division;portioning
+
+    TaFCIL                    `noun`       {- taboEiyD -}       [ "division", "portioning" ],
+
+    -- ;; taboEiyDiy~_1
+    -- tbEyDy  taboEiyDiy~     Nall    divisive     [[taboEiyDiy~/ADJ]]
+
+    TaFCIL |< Iy              `adj`        {- taboEiyDiy~ -}    [ "divisive" ],
+
+    -- ;; maboEuwD_1
+    -- mbEwD   maboEuwD        N-ap    mosquito-infested
+
+    MaFCUL                    `noun`       {- maboEuwD -}       [ "mosquito-infested" ] ]
+
+ |> "b ` ^g" <| [
+
+    -- ;; baEaj-a_1
+    -- bEj     baEaj   PV      disembowel;dent
+    -- bEj     boEaj   IV      disembowel;dent
+
+    FaCaL                     `verb`       {- baEaj-a -}        [ "disembowel", "dent" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b`a^g IV" ] -},
+
+    -- ;; tabaE~aj_1
+    -- tbEj    tabaE~aj        PV      crack;burst
+    -- tbEj    tabaE~aj        IV      crack;burst
+
+    TaFaCCaL                  `verb`       {- tabaE~aj -}       [ "crack", "burst" ],
+
+    -- ;; {inobaEaj_1
+    -- <nbEj   {inobaEaj       PV      crack;burst
+    -- AnbEj   {inobaEaj       PV      crack;burst
+    -- nbEj    nobaEij IV      crack;burst
+
+    InFaCaL                   `verb`       {- {inobaEaj -}      [ "crack", "burst" ]
+                              {- `others` [ "nba`i^g IV" ] -},
+
+    -- ;; munobaEij_1
+    -- mnbEj   munobaEij       Nall    cracking;bursting
+
+    MunFaCiL                  `noun`       {- munobaEij -}      [ "cracking", "bursting" ],
+
+    -- ;; maboEuwj_1
+    -- mbEwj   maboEuwj        N-ap    disemboweled
+
+    MaFCUL                    `noun`       {- maboEuwj -}       [ "disemboweled" ] ]
+
+ |> "b ` _t" <| [
+
+    -- ;; baEav-a_1
+    -- bEv     baEav   PV      send;emit
+    -- bEv     boEav   IV      send;emit
+
+    FaCaL                     `verb`       {- baEav-a -}        [ "send", "emit" ]
+                              `imperf`     FCaL
+                              {- `others` [ "b`a_t IV" ] -},
+
+    -- ;; {inobaEav_1
+    -- <nbEv   {inobaEav       PV      revive;resurrect
+    -- AnbEv   {inobaEav       PV      revive;resurrect
+    -- nbEv    nobaEiv IV      revive;resurrect
+
+    InFaCaL                   `verb`       {- {inobaEav -}      [ "revive", "resurrect" ]
+                              {- `others` [ "nba`i_t IV" ] -},
+
+    -- ;; {inobaEav_2
+    -- <nbEv   {inobaEav       PV_intr be sent out;be revived
+    -- AnbEv   {inobaEav       PV_intr be sent out;be revived
+    -- nbEv    nobaEiv IV_intr be sent out;be revived
+
+    InFaCaL                   `verb`       {- {inobaEav -}      [ "be sent out", "be revived" ]
+                              {- `others` [ "nba`i_t IV_intr" ] -},
+
+    -- ;; {ibotaEav_1
+    -- <btEv   {ibotaEav       PV      send;dispatch
+    -- AbtEv   {ibotaEav       PV      send;dispatch
+    -- btEv    botaEiv IV      send;dispatch
+
+    IFtaCaL                   `verb`       {- {ibotaEav -}      [ "send", "dispatch" ]
+                              {- `others` [ "bta`i_t IV" ] -},
+
+    -- ;; {ibotaEav_2
+    -- <btEv   {ibotaEav       PV      exhume;revive
+    -- AbtEv   {ibotaEav       PV      exhume;revive
+    -- btEv    botaEiv IV      exhume;revive
+
+    IFtaCaL                   `verb`       {- {ibotaEav -}      [ "exhume", "revive" ]
+                              {- `others` [ "bta`i_t IV" ] -},
+
+    -- ;; baEov_1
+    -- bEv     baEov   N       emission;awakening
+
+    FaCL                      `noun`       {- baEov -}          [ "emission", "awakening" ],
+
+    -- ;; baEov_2
+    -- bEv     baEov   N0      Baath
+
+    FaCL                      `noun`       {- baEov -}          [ "Baath" ],
+
+    -- ;; baEov_3
+    -- bEv     baEov   Ndu     delegation
+    -- bEwv    buEuwv  N       delegations
+
+    FaCL                      `noun`       {- baEov -}          [ "delegation", "delegations" ]
+                              `plural`     FuCUL
+                              {- `others` [ "bu`uw_t N" ] -},
+
+    -- ;; baEoviy~_1
+    -- bEvy    baEoviy~        Nall    Baathist     [[baEoviy~/NOUN]]
+    -- bEvy    baEoviy~        Nall    Baathist     [[baEoviy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- baEoviy~ -}       [ "Baathist" ],
+
+    -- ;; baEovap_1
+    -- bEv     baEov   Napdu   delegation;mission
+    -- bEv     biEov   Napdu   delegation;mission
+    -- bEv     baEav   NAt     delegations;missions
+
+    FaCL |< aT                `noun`       {- baEovap -}        [ "delegation", "mission", "delegations", "missions" ]
+                              `plural`     FaCaL |< At
+                              `plural`     FiCL
+                              {- `others` [ "ba`a_t NAt", "bi`_t Napdu" ] -},
+
+    -- ;; bAEuwv_1
+    -- bAEwv   bAEuwv  N       Easter
+
+    FACUL                     `noun`       {- bAEuwv -}         [ "Easter" ],
+
+    -- ;; maboEav_1
+    -- mbEv    maboEav Ndu     cause;factor
+    -- mbAEv   mabAEiv Ndip    causes;factors
+
+    MaFCaL                    `noun`       {- maboEav -}        [ "cause", "factor", "causes", "factors" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "mabA`i_t Ndip" ] -},
+
+    -- ;; bAEiv_1
+    -- bAEv    bAEiv   Nall    sending;sender
+
+    FACiL                     `noun`       {- bAEiv -}          [ "sending", "sender" ],
+
+    -- ;; bAEiv_2
+    -- bAEv    bAEiv   Ndu     incentive;motive
+    -- bwAEv   bawAEiv Ndip    incentives;motives
+
+    FACiL                     `noun`       {- bAEiv -}          [ "incentive", "motive", "incentives", "motives" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawA`i_t Ndip" ] -},
+
+    -- ;; maboEuwv_1
+    -- mbEwv   maboEuwv        Nall    envoy;representative
+
+    MaFCUL                    `noun`       {- maboEuwv -}       [ "envoy", "representative" ],
+
+    -- ;; munobaEav_1
+    -- mnbEv   munobaEav       Nall    sent
+
+    MunFaCaL                  `noun`       {- munobaEav -}      [ "sent" ],
+
+    -- ;; munobaEav_2
+    -- mnbEv   munobaEav       NduAt   source
+
+    MunFaCaL                  `noun`       {- munobaEav -}      [ "source" ],
+
+    -- ;; {inobiEAv_1
+    -- <nbEAv  {inobiEAv       NduAt   revival;resurrection
+    -- AnbEAv  {inobiEAv       NduAt   revival;resurrection
+
+    InFiCAL                   `noun`       {- {inobiEAv -}      [ "revival", "resurrection" ],
+
+    -- ;; munobaEiv_1
+    -- mnbEv   munobaEiv       Nall    resurgent
+
+    MunFaCiL                  `noun`       {- munobaEiv -}      [ "resurgent" ] ]
+
+ |> "b ` _t r" <| [
+
+    -- ;; baEovar_1
+    -- bEvr    baEovar PV      scatter;disperse
+    -- bEvr    baEovir IV_yu   scatter;disperse
+
+    KaRDaS                    `verb`       {- baEovar -}        [ "scatter", "disperse" ]
+                              {- `others` [ "ba`_tir IV_yu" ] -},
+
+    -- ;; tabaEovar_1
+    -- tbEvr   tabaEovar       PV_intr be scattered;be dispersed
+    -- tbEvr   tabaEovar       IV_intr be scattered;be dispersed
+
+    TaKaRDaS                  `verb`       {- tabaEovar -}      [ "be scattered", "be dispersed" ],
+
+    -- ;; mubaEovar_1
+    -- mbEvr   mubaEovar       Nall    scattered;dispersed
+
+    MuKaRDaS                  `noun`       {- mubaEovar -}      [ "scattered", "dispersed" ],
+
+    -- ;; tabaEovur_1
+    -- tbEvr   tabaEovur       N/At    scattering;dispersal
+
+    TaKaRDuS                  `noun`       {- tabaEovur -}      [ "scattering", "dispersal" ] ]
+
+ |> "b ` b `" <| [
+
+    -- ;; buEobuE_1
+    -- bEbE    buEobuE Ndu     monster;specter
+    -- bEAbE   baEAbiE Ndip    monster;specters
+
+    KuRDuS                    `noun`       {- buEobuE -}        [ "monster", "specter", "specters" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "ba`Abi` Ndip" ] -} ]
+
+ |> "b ` d" <| [
+
+    -- ;; baEud-u_1
+    -- bEd     baEud   PV_intr be distant
+    -- bEd     boEud   IV_intr be distant
+
+    FaCuL                     `verb`       {- baEud-u -}        [ "be distant" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b`ud IV_intr" ] -},
+
+    -- ;; bAEad_1
+    -- bAEd    bAEad   PV      separate
+    -- bAEd    bAEid   IV_yu   separate
+
+    FACaL                     `verb`       {- bAEad -}          [ "separate" ]
+                              {- `others` [ "bA`id IV_yu" ] -},
+
+    -- ;; >aboEad_1
+    -- >bEd    >aboEad PV      remove;expel
+    -- AbEd    >aboEad PV      remove;expel
+    -- bEd     boEid   IV_yu   remove;expel
+
+    HaFCaL                    `verb`       {- OaboEad -}        [ "remove", "expel" ]
+                              {- `others` [ "b`id IV_yu" ] -},
+
+    -- ;; >uboEid_1
+    -- >bEd    >uboEid PV_Pass be removed;be expelled
+    -- AbEd    >uboEid PV_Pass be removed;be expelled
+    -- bEd     boEad   IV_Pass_yu      be removed;be expelled
+
+    HuFCiL                    `verb`       {- OuboEid -}        [ "be removed", "be expelled" ]
+                              {- `others` [ "b`ad IV_Pass_yu" ] -},
+
+    -- ;; tabAEad_1
+    -- tbAEd   tabAEad PV      diverge;separate
+    -- tbAEd   tabAEad IV      diverge;separate
+
+    TaFACaL                   `verb`       {- tabAEad -}        [ "diverge", "separate" ],
+
+    -- ;; {ibotaEad_1
+    -- <btEd   {ibotaEad       PV      move away;eschew
+    -- AbtEd   {ibotaEad       PV      move away;eschew
+    -- btEd    botaEid IV      move away;eschew
+
+    IFtaCaL                   `verb`       {- {ibotaEad -}      [ "move away", "eschew" ]
+                              {- `others` [ "bta`id IV" ] -},
+
+    -- ;; {isotaboEad_1
+    -- <stbEd  {isotaboEad     PV      rule out;reject
+    -- AstbEd  {isotaboEad     PV      rule out;reject
+    -- stbEd   sotaboEid       IV      rule out;reject
+
+    IstaFCaL                  `verb`       {- {isotaboEad -}    [ "rule out", "reject" ],
+
+    -- ;; buEod_1
+    -- bEd     buEod   Ndu     dimension;distance
+    -- >bEAd   >aboEAd N       dimensions;distances
+    -- AbEAd   >aboEAd N       dimensions;distances
+
+    FuCL                      `noun`       {- buEod -}          [ "dimension", "distance", "dimensions", "distances" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'ab`Ad N" ] -},
+
+    -- ;; baEiyd_1
+    -- bEyd    baEiyd  Nall    remote;distant;far     [[baEiyd/ADJ]]
+    -- bEdA'   buEadA' N0_Nh   remote;distant;far
+    -- bEdA&   buEadA& Nh      remote;distant;far
+    -- bEdA}   buEadA} Nhy     remote;distant;far
+
+    FaCIL                     `adj`        {- baEiyd -}         [ "remote", "distant", "far" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "bu`adA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; >aboEad_2
+    -- >bEd    >aboEad Nel     farther;farthest     [[>aboEad/ADJ]]
+    -- AbEd    >aboEad Nel     farther;farthest     [[>aboEad/ADJ]]
+
+    HaFCaL                    `adj`        {- OaboEad -}        [ "farther", "farthest" ],
+
+    -- ;; >aboEAdiy~ap_1
+    -- >bEAdy  >aboEAdiy~      NapAt   country estate     [[>aboEAdiy~/NOUN]]
+    -- AbEAdy  >aboEAdiy~      NapAt   country estate     [[>aboEAdiy~/NOUN]]
+
+    HaFCAL |< Iy |< aT        `noun`       {- OaboEAdiy~ap -}   [ "country estate" ],
+
+    -- ;; biEAd_1
+    -- bEAd    biEAd   N       distance
+
+    FiCAL                     `noun`       {- biEAd -}          [ "distance" ],
+
+    -- ;; taboEiyd_1
+    -- tbEyd   taboEiyd        NduAt   banishment
+
+    TaFCIL                    `noun`       {- taboEiyd -}       [ "banishment" ],
+
+    -- ;; mubAEadap_1
+    -- mbAEd   mubAEad NapAt   alienation;sowing dissent
+
+    MuFACaL |< aT             `noun`       {- mubAEadap -}      [ "alienation", "sowing dissent" ],
+
+    -- ;; <iboEAd_1
+    -- <bEAd   <iboEAd NduAt   deportation;exile;removal
+    -- AbEAd   <iboEAd NduAt   deportation;exile;removal
+
+    HiFCAL                    `noun`       {- IiboEAd -}        [ "deportation", "exile", "removal" ],
+
+    -- ;; tabAEud_1
+    -- tbAEd   tabAEud NduAt   estrangement
+
+    TaFACuL                   `noun`       {- tabAEud -}        [ "estrangement" ],
+
+    -- ;; {ibotiEAd_1
+    -- <btEAd  {ibotiEAd       NduAt   avoiding;eschewing
+    -- AbtEAd  {ibotiEAd       NduAt   avoiding;eschewing
+
+    IFtiCAL                   `noun`       {- {ibotiEAd -}      [ "avoiding", "eschewing" ],
+
+    -- ;; {isotiboEAd_1
+    -- <stbEAd {isotiboEAd     NduAt   ruling out;distancing
+    -- AstbEAd {isotiboEAd     NduAt   ruling out;distancing
+
+    IstiFCAL                  `noun`       {- {isotiboEAd -}    [ "ruling out", "distancing" ],
+
+    -- ;; muboEad_1
+    -- mbEd    muboEad Nall    deported;deportee
+
+    MuFCaL                    `noun`       {- muboEad -}        [ "deported", "deportee" ],
+
+    -- ;; mutabAEid_1
+    -- mtbAEd  mutabAEid       Nall    separate;infrequent
+
+    MutaFACiL                 `noun`       {- mutabAEid -}      [ "separate", "infrequent" ],
+
+    -- ;; musotaboEad_1
+    -- mstbEd  musotaboEad     Nall    improbable;unlikely
+
+    MustaFCaL                 `noun`       {- musotaboEad -}    [ "improbable", "unlikely" ],
+
+    -- ;; maboEadap_1
+    -- mbEd    maboEad Nap     distance;remoteness
+
+    MaFCaL |< aT              `noun`       {- maboEadap -}      [ "distance", "remoteness" ] ]
+
+ |> "b ` k k" <| [
+
+    -- ;; buEokuwkap_1
+    -- bEkwk   buEokuwk        NapAt   club;society
+
+    KuRDUS |< aT              `noun`       {- buEokuwkap -}     [ "club", "society" ] ]
+
+ |> "b ` l" <| [
+
+    -- ;; baEol_1
+    -- bEl     baEol   N       husband
+    -- bEwl    buEuwl  N       husbands
+    -- bEwl    buEuwl  Nap     husbands
+    -- bEAl    biEAl   N       husbands
+
+    FaCL                      `noun`       {- baEol -}          [ "husband", "husbands" ]
+                              `plural`     FiCAL
+                              `plural`     FuCUL |< aT
+                              {- `others` [ "bi`Al N", "bu`uwl Nap N" ] -},
+
+    -- ;; baEol_2
+    -- bEl     baEol   N0      Baal
+
+    FaCL                      `noun`       {- baEol -}          [ "Baal" ],
+
+    -- ;; baEolap_1
+    -- bEl     baEol   Napdu   wife
+    -- bEl     baEal   NAt     wives
+
+    FaCL |< aT                `noun`       {- baEolap -}        [ "wife", "wives" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "ba`al NAt" ] -},
+
+    -- ;; baEoliy~_1
+    -- bEly    baEoliy~        N-ap    unirrigated     [[baEoliy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- baEoliy~ -}       [ "unirrigated" ] ]
+
+ |> "b ` q" <| [
+
+    -- ;; baEaq-u_1
+    -- bEq     baEaq   PV      irrigate;water
+    -- bEq     boEuq   IV      irrigate;water
+
+    FaCaL                     `verb`       {- baEaq-u -}        [ "irrigate", "water" ]
+                              `imperf`     FCuL
+                              {- `others` [ "b`uq IV" ] -},
+
+    -- ;; {inobaEaq_1
+    -- <nbEq   {inobaEaq       PV      sprinkle
+    -- AnbEq   {inobaEaq       PV      sprinkle
+    -- nbEq    nobaEiq IV      sprinkle
+
+    InFaCaL                   `verb`       {- {inobaEaq -}      [ "sprinkle" ]
+                              {- `others` [ "nba`iq IV" ] -} ]
+
+ |> "b ` r" <| [
+
+    -- ;; baEor_1
+    -- bEr     baEor   N       dung;droppings
+    -- >bEAr   >aboEAr N       dung;droppings
+    -- AbEAr   >aboEAr N       dung;droppings
+
+    FaCL                      `noun`       {- baEor -}          [ "dung", "droppings" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'ab`Ar N" ] -},
+
+    -- ;; baEiyr_1
+    -- bEyr    baEiyr  Ndu     camel
+    -- >bEr    >aboEir Nap     camels
+    -- AbEr    >aboEir Nap     camels
+    -- bErAn   buEorAn N       camels
+    -- >bAEr   >abAEir Ndip    camels
+    -- AbAEr   >abAEir Ndip    camels
+    -- bEAryn  baEAriyn        Ndip    camels
+
+    FaCIL                     `noun`       {- baEiyr -}         [ "camel", "camels" ]
+                              `plural`     FuCLAn
+                              `plural`     HaFCiL |< aT
+                              {- `others` [ "bu`rAn N", "'ab`ir Nap" ] -} ]
+
+ |> "b ` z q" <| [
+
+    -- ;; baEozaq_1
+    -- bEzq    baEozaq PV      scatter;squander
+    -- bEzq    baEoziq IV_yu   scatter;squander
+
+    KaRDaS                    `verb`       {- baEozaq -}        [ "scatter", "squander" ]
+                              {- `others` [ "ba`ziq IV_yu" ] -},
+
+    -- ;; baEozaqap_1
+    -- bEzq    baEozaq Nap     scattering;squandering
+
+    KaRDaS |< aT              `noun`       {- baEozaqap -}      [ "scattering", "squandering" ],
+
+    -- ;; mubaEoziq_1
+    -- mbEzq   mubaEoziq       Nall    squanderer;spendthrift
+
+    MuKaRDiS                  `noun`       {- mubaEoziq -}      [ "squanderer", "spendthrift" ] ]
+
+ |> "b d '" <| [
+
+    -- ;; bada>-a_1
+    -- bdA     bada>   PV->    start;begin
+    -- bd>     bada>   PV->    start;begin
+    -- bd|     bada|   PV-|    start;begin
+    -- bd&     bada&   PV_w    start;begin
+    -- bd>     boda>   IV      start;begin
+    -- bd|     boda|   IV-|    start;begin
+    -- bd&     boda&   IV_wn   start;begin
+    -- bd}     boda}   IV_yn   start;begin
+
+    FaCaL                     `verb`       {- badaO-a -}        [ "start", "begin" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bda' IV IV_wn IV_yn" ] -},
+
+    -- ;; bAda>_1
+    -- bAd>    bAda>   PV->    initiate;lead
+    -- bAd|    bAda|   PV-|    initiate;lead
+    -- bAd&    bAda&   PV_w    initiate;lead
+    -- bAd}    bAdi}   IV_yu   initiate;lead
+
+    FACaL                     `verb`       {- bAdaO -}          [ "initiate", "lead" ]
+                              {- `others` [ "bAdi' IV_yu" ] -},
+
+    -- ;; >aboda>_1
+    -- >bd>    >aboda> PV->    initiate;begin
+    -- Abd>    >aboda> PV->    initiate;begin
+    -- >bd|    >aboda| PV-|    initiate;begin
+    -- Abd|    >aboda| PV-|    initiate;begin
+    -- >bd&    >aboda& PV_w    initiate;begin
+    -- Abd&    >aboda& PV_w    initiate;begin
+    -- bd}     bodi}   IV_yu   initiate;begin
+
+    HaFCaL                    `verb`       {- OabodaO -}        [ "initiate", "begin" ]
+                              {- `others` [ "bdi' IV_yu" ] -},
+
+    -- ;; {ibotada>_1
+    -- <btd>   {ibotada>       PV->    begin;start
+    -- Abtd>   {ibotada>       PV->    begin;start
+    -- <btd|   {ibotada|       PV-|    begin;start
+    -- Abtd|   {ibotada|       PV-|    begin;start
+    -- <btd&   {ibotada&       PV_w    begin;start
+    -- Abtd&   {ibotada&       PV_w    begin;start
+    -- btd}    botadi} IV      begin;start
+
+    IFtaCaL                   `verb`       {- {ibotadaO -}      [ "begin", "start" ]
+                              {- `others` [ "btadi' IV" ] -},
+
+    -- ;; bado'_1
+    -- bd'     bado'   N0F     start;beginning
+    -- bd>     bado>   Nh      start;beginning
+    -- bd&     bado&   Nh      start;beginning
+    -- bd}     bado}   Nhy     start;beginning
+
+    FaCL                      `noun`       {- bado' -}          [ "start", "beginning" ],
+
+    -- ;; bado>ap_1
+    -- bd>     bado>   Napdu   beginning;start
+
+    FaCL |< aT                `noun`       {- badoOap -}        [ "beginning", "start" ],
+
+    -- ;; badiy}ap_1
+    -- bdy}    badiy}  Napdu   beginning;start
+
+    FaCIL |< aT               `noun`       {- badiy}ap -}       [ "beginning", "start" ],
+
+    -- ;; badA'ap_1
+    -- bdA'    badA'   NapAt   beginning;start
+
+    FaCAL |< aT               `noun`       {- badA'ap -}        [ "beginning", "start" ],
+
+    -- ;; badA}iy~_1
+    -- bdA}y   badA}iy~        Nall    initial;original     [[badA}iy~/ADJ]]
+
+    FaCAL |< Iy               `adj`        {- badA}iy~ -}       [ "initial", "original" ],
+
+    -- ;; bidA}iy~_1
+    -- bdA}y   bidA}iy~        Nall    primitive;original     [[bidA}iy~/ADJ]]
+
+    FiCAL |< Iy               `adj`        {- bidA}iy~ -}       [ "primitive", "original" ],
+
+    -- ;; badA}iy~ap_1
+    -- bdA}y   badA}iy~        Nap     primitiveness     [[badA}iy~/NOUN]]
+    -- bdA}y   bidA}iy~        Nap     primitiveness     [[bidA}iy~/NOUN]]
+
+    FaCAL |< Iy |< aT         `noun`       {- badA}iy~ap -}     [ "primitiveness" ],
+
+    -- ;; maboda>_1
+    -- mbd>    maboda> N0_Nh   principle;basis
+    -- mbd&    maboda& Nh      principle;basis
+    -- mbd}    maboda} Nhy     principle;basis
+    -- mbd|    maboda| N-|     principles;bases
+    -- mbd}    maboda} Nayn    principles;bases
+    -- mbAd}   mabAdi} Ndip    principles;bases
+
+    MaFCaL                    `noun`       {- mabodaO -}        [ "principle", "basis", "principles", "bases" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "mabAdi' Ndip" ] -},
+
+    -- ;; maboda}iy~_1
+    -- mbd}y   maboda}iy~      Nall    fundamental;basic     [[maboda}iy~/ADJ]]
+    -- mbd>y   maboda>iy~      Nall    fundamental;basic     [[maboda>iy~/ADJ]]
+
+    MaFCaL |< Iy              `adj`        {- maboda}iy~ -}     [ "fundamental", "basic" ],
+
+    -- ;; maboda}iy~AF_1
+    -- mbd}y   maboda}iy~      NF      in principle     [[maboda}iy~/ADV]]
+    -- mbd>y   maboda>iy~      NF      in principle     [[maboda>iy~/ADV]]
+
+    MaFCaL |< Iy |< aN        `adj`        {- maboda}iy~AF -}   [ "in principle" ],
+
+    -- ;; {ibotidA'_1
+    -- <btdA'  {ibotidA'       N0_Nh   beginning;start
+    -- AbtdA'  {ibotidA'       N0_Nh   beginning;start
+    -- <btdA&  {ibotidA&       Nh      beginning;start
+    -- AbtdA&  {ibotidA&       Nh      beginning;start
+    -- <btdA}  {ibotidA}       Nhy     beginning;start
+    -- AbtdA}  {ibotidA}       Nhy     beginning;start
+    -- <btdA'  {ibotidA'       NAn_Nayn        beginning;starts
+    -- AbtdA'  {ibotidA'       NAn_Nayn        beginning;starts
+    -- <btdA}  {ibotidA}       Nayn    beginning;starts
+    -- AbtdA}  {ibotidA}       Nayn    beginning;starts
+    -- <btdA'  {ibotidA'       NAt     beginning;starts
+    -- AbtdA'  {ibotidA'       NAt     beginning;starts
+
+    IFtiCAL                   `noun`       {- {ibotidA' -}      [ "beginning", "start", "starts" ],
+
+    -- ;; {ibotidA'F_1
+    -- <btdA'  {ibotidA'F      FW-Wa   beginning from;as of     [[{ibotidA'F/ADJ]]
+    -- AbtdA'  {ibotidA'F      FW-Wa   beginning from;as of     [[{ibotidA'F/ADJ]]
+
+    IFtiCAL |< aN             `adj`        {- {ibotidA'F -}     [ "beginning from", "as of" ],
+
+    -- ;; {ibotidA}iy~_1
+    -- <btdA}y {ibotidA}iy~    Nall    elementary;preparatory     [[{ibotidA}iy~/ADJ]]
+    -- AbtdA}y {ibotidA}iy~    Nall    elementary;preparatory     [[{ibotidA}iy~/ADJ]]
+
+    IFtiCAL |< Iy             `adj`        {- {ibotidA}iy~ -}   [ "elementary", "preparatory" ],
+
+    -- ;; bAdi}_1
+    -- bAd}    bAdi}   Nall    beginning
+
+    FACiL                     `noun`       {- bAdi} -}          [ "beginning" ],
+
+    -- ;; mubotadi}_1
+    -- mbtd}   mubotadi}       Nall    beginning;beginner
+
+    MuFtaCiL                  `noun`       {- mubotadi} -}      [ "beginning", "beginner" ],
+
+    -- ;; mubotada>_1
+    -- mbtd>   mubotada>       N0_Nh   begun;subject;topic
+    -- mbtd|   mubotada|       N-|     begun;subject;topic
+    -- mbtd    mubotada        N-|t    begun;subject;topic
+    -- mbtd}   mubotada}       Nayn    begun;subject;topic
+
+    MuFtaCaL                  `noun`       {- mubotadaO -}      [ "begun", "subject", "topic" ],
+
+    -- ;; <ibodA'_1
+    -- <bdA'   <ibodA' N0_Nh   expression;manifestation
+    -- AbdA'   <ibodA' N0_Nh   expression;manifestation
+    -- <bdA&   <ibodA& Nh      expression;manifestation
+    -- AbdA&   <ibodA& Nh      expression;manifestation
+    -- <bdA}   <ibodA} Nhy     expression;manifestation
+    -- AbdA}   <ibodA} Nhy     expression;manifestation
+    -- <bdA'   <ibodA' NAn_Nayn        expressions;manifestations
+    -- AbdA'   <ibodA' NAn_Nayn        expressions;manifestations
+    -- <bdA}   <ibodA} Nayn    expressions;manifestations
+    -- AbdA}   <ibodA} Nayn    expressions;manifestations
+    -- <bdA'   <ibodA' NAt     expressions;manifestations
+    -- AbdA'   <ibodA' NAt     expressions;manifestations
+
+    HiFCAL                    `noun`       {- IibodA' -}        [ "expression", "manifestation", "expressions", "manifestations" ] ]
+
+ |> "b d ' h" <| [
+
+    -- ;; badA}ih_1
+    -- bdA}h   badA}ih Ndip    self-evident truths
+
+    KaRADiS                   `noun`       {- badA}ih -}        [ "self-evident truths" ] ]
+
+ |> "b d `" <| [
+
+    -- ;; badaE_1
+    -- bdE     badaE   PV      innovate;invent
+    -- bdE     bodaE   IV      innovate;invent
+
+    FaCaL                     `verb`       {- badaE -}          [ "innovate", "invent" ]
+                              {- `others` [ "bda` IV" ] -},
+
+    -- ;; bad~aE_1
+    -- bdE     bad~aE  PV      excel
+    -- bdE     bad~iE  IV_yu   excel
+    -- bdE     bad~aE  IV_Pass_yu      be excelled
+
+    FaCCaL                    `verb`       {- bad~aE -}         [ "excel", "be excelled" ]
+                              {- `others` [ "baddi` IV_yu" ] -},
+
+    -- ;; >abodaE_1
+    -- >bdE    >abodaE PV      innovate;create
+    -- AbdE    >abodaE PV      innovate;create
+    -- bdE     bodiE   IV_yu   innovate;create
+
+    HaFCaL                    `verb`       {- OabodaE -}        [ "innovate", "create" ]
+                              {- `others` [ "bdi` IV_yu" ] -},
+
+    -- ;; {ibotadaE_1
+    -- <btdE   {ibotadaE       PV      contrive;invent
+    -- AbtdE   {ibotadaE       PV      contrive;invent
+    -- btdE    botadiE IV      contrive;invent
+
+    IFtaCaL                   `verb`       {- {ibotadaE -}      [ "contrive", "invent" ]
+                              {- `others` [ "btadi` IV" ] -},
+
+    -- ;; {isotabodaE_1
+    -- <stbdE  {isotabodaE     PV      find extraordinary;find strange
+    -- AstbdE  {isotabodaE     PV      find extraordinary;find strange
+    -- stbdE   sotabodiE       IV      find extraordinary;find strange
+
+    IstaFCaL                  `verb`       {- {isotabodaE -}    [ "find extraordinary", "find strange" ],
+
+    -- ;; badoE_1
+    -- bdE     badoE   N       innovation;creation
+
+    FaCL                      `noun`       {- badoE -}          [ "innovation", "creation" ],
+
+    -- ;; bidoE_1
+    -- bdE     bidoE   N       original;wonder
+
+    FiCL                      `noun`       {- bidoE -}          [ "original", "wonder" ],
+
+    -- ;; >abodAE_1
+    -- >bdAE   >abodAE N       wonders;novelties
+    -- AbdAE   >abodAE N       wonders;novelties
+
+    HaFCAL                    `noun`       {- OabodAE -}        [ "wonders", "novelties" ],
+
+    -- ;; bidoEap_1
+    -- bdE     bidoE   Napdu   heresy;novelty
+    -- bdE     bidaE   N       heresies;novelties
+
+    FiCL |< aT                `noun`       {- bidoEap -}        [ "heresy", "novelty", "heresies", "novelties" ]
+                              `plural`     FiCaL
+                              {- `others` [ "bida` N" ] -},
+
+    -- ;; badiyE_1
+    -- bdyE    badiyE  N0      Badie
+
+    FaCIL                     `noun`       {- badiyE -}         [ "Badie" ],
+
+    -- ;; badiyE_2
+    -- bdyE    badiyE  Ndu     wonderful;marvelous
+
+    FaCIL                     `noun`       {- badiyE -}         [ "wonderful", "marvelous" ],
+
+    -- ;; badiyEap_1
+    -- bdyE    badiyE  Napdu   wonder;marvel
+    -- bdA}E   badA}iE Ndip    wonders;marvels
+
+    FaCIL |< aT               `noun`       {- badiyEap -}       [ "wonder", "marvel", "wonders", "marvels" ],
+
+    -- ;; badiyEiy~_1
+    -- bdyEy   badiyEiy~       Nall    rhetorical     [[badiyEiy~/ADJ]]
+
+    FaCIL |< Iy               `adj`        {- badiyEiy~ -}      [ "rhetorical" ],
+
+    -- ;; >abodaE_2
+    -- >bdE    >abodaE Nel     more/most amazing
+    -- AbdE    >abodaE Nel     more/most amazing
+
+    HaFCaL                    `noun`       {- OabodaE -}        [ "more/most amazing" ],
+
+    -- ;; <ibodAE_1
+    -- <bdAE   <ibodAE NduAt   originality;creativity
+    -- AbdAE   <ibodAE NduAt   originality;creativity
+
+    HiFCAL                    `noun`       {- IibodAE -}        [ "originality", "creativity" ],
+
+    -- ;; <ibodAEiy~_1
+    -- <bdAEy  <ibodAEiy~      Nall    original;creative     [[<ibodAEiy~/ADJ]]
+    -- AbdAEy  <ibodAEiy~      Nall    original;creative     [[<ibodAEiy~/ADJ]]
+
+    HiFCAL |< Iy              `adj`        {- IibodAEiy~ -}     [ "original", "creative" ],
+
+    -- ;; {ibotidAE_1
+    -- <btdAE  {ibotidAE       NduAt   innovation
+    -- AbtdAE  {ibotidAE       NduAt   innovation
+
+    IFtiCAL                   `noun`       {- {ibotidAE -}      [ "innovation" ],
+
+    -- ;; {ibotidAEiy~_1
+    -- <btdAEy {ibotidAEiy~    Nall    innovative     [[{ibotidAEiy~/ADJ]]
+    -- AbtdAEy {ibotidAEiy~    Nall    innovative     [[{ibotidAEiy~/ADJ]]
+
+    IFtiCAL |< Iy             `adj`        {- {ibotidAEiy~ -}   [ "innovative" ],
+
+    -- ;; mubodiE_1
+    -- mbdE    mubodiE Nall    innovator;creative
+
+    MuFCiL                    `noun`       {- mubodiE -}        [ "innovator", "creative" ],
+
+    -- ;; mubotadiE_1
+    -- mbtdE   mubotadiE       Nall    innovator;creative
+
+    MuFtaCiL                  `noun`       {- mubotadiE -}      [ "innovator", "creative" ] ]
+
+ |> "b d d" <| [
+
+    -- ;; bad~-u_1
+    -- bd      bad~    PV_V    disperse;distribute
+    -- bdd     badad   PV_C    disperse;distribute
+    -- bd      bud~    IV_V    disperse;distribute
+    -- bdd     bodud   IV_C    disperse;distribute
+
+    FaCL                      `verb`       {- bad~-u -}         [ "disperse", "distribute" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bdud IV_C", "badad PV_C", "budd IV_V" ] -},
+
+    -- ;; bad~ad_1
+    -- bdd     bad~ad  PV      squander;disperse
+    -- bdd     bad~id  IV_yu   squander;disperse
+    -- bdd     bad~ad  IV_Pass_yu      be squandered;be dispersed
+
+    FaCCaL                    `verb`       {- bad~ad -}         [ "squander", "disperse", "be squandered", "be dispersed" ]
+                              {- `others` [ "baddid IV_yu" ] -},
+
+    -- ;; tabad~ad_1
+    -- tbdd    tabad~ad        PV_intr be squandered;be dispersed
+    -- tbdd    tabad~ad        IV_intr be squandered;be dispersed
+
+    TaFaCCaL                  `verb`       {- tabad~ad -}       [ "be squandered", "be dispersed" ],
+
+    -- ;; {isotabad~_1
+    -- <stbd   {isotabad~      PV_V    tyrannize;monopolize
+    -- Astbd   {isotabad~      PV_V    tyrannize;monopolize
+    -- <stbdd  {isotabodad     PV_C    tyrannize;monopolize
+    -- Astbdd  {isotabodad     PV_C    tyrannize;monopolize
+    -- stbd    sotabid~        IV_V    tyrannize;monopolize
+    -- stbdd   sotabodid       IV_C    tyrannize;monopolize
+
+    IstaFaCL                  `verb`       {- {isotabad~ -}     [ "tyrannize", "monopolize" ]
+                              {- `others` [ "istabdad PV_C" ] -},
+
+    -- ;; bud~_1
+    -- bd      bud~    N       escape;avoiding
+
+    FuCL                      `noun`       {- bud~ -}           [ "escape", "avoiding" ],
+
+    -- ;; tabodiyd_1
+    -- tbdyd   tabodiyd        NduAt   defusing;squandering;dispersal
+
+    TaFCIL                    `noun`       {- tabodiyd -}       [ "defusing", "squandering", "dispersal" ],
+
+    -- ;; {isotibodAd_1
+    -- <stbdAd {isotibodAd     N/At    despotism;monopolization
+    -- AstbdAd {isotibodAd     N/At    despotism;monopolization
+
+    IstiFCAL                  `noun`       {- {isotibodAd -}    [ "despotism", "monopolization" ],
+
+    -- ;; {isotibodAdiy~_1
+    -- <stbdAdy        {isotibodAdiy~  Nall    arbitrary;authoritarian     [[{isotibodAdiy~/ADJ]]
+    -- AstbdAdy        {isotibodAdiy~  Nall    arbitrary;authoritarian     [[{isotibodAdiy~/ADJ]]
+
+    IstiFCAL |< Iy            `adj`        {- {isotibodAdiy~ -} [ "arbitrary", "authoritarian" ],
+
+    -- ;; {isotibodAdiy~ap_1
+    -- <stbdAdy        {isotibodAdiy~  Nap     authoritarianism;autocracy     [[{isotibodAdiy~/NOUN]]
+    -- AstbdAdy        {isotibodAdiy~  Nap     authoritarianism;autocracy     [[{isotibodAdiy~/NOUN]]
+
+    IstiFCAL |< Iy |< aT      `noun`       {- {isotibodAdiy~ap -} [ "authoritarianism", "autocracy" ],
+
+    -- ;; mubad~id_1
+    -- mbdd    mubad~id        Nall    squanderer;scatterer
+
+    MuFaCCiL                  `noun`       {- mubad~id -}       [ "squanderer", "scatterer" ],
+
+    -- ;; musotabid~_1
+    -- mstbd   musotabid~      Nall    autocratic;arbitrary;despotic
+
+    MustaFiCL                 `noun`       {- musotabid~ -}     [ "autocratic", "arbitrary", "despotic" ] ]
+
+ |> "b d h" <| [
+
+    -- ;; badah-a_1
+    -- bdh     badah   PV      surprise;do spontaneously
+    -- bdh     bodah   IV      surprise;do spontaneously
+
+    FaCaL                     `verb`       {- badah-a -}        [ "surprise", "do spontaneously" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bdah IV" ] -},
+
+    -- ;; bAdah_1
+    -- bAdh    bAdah   PV      arrive unexpectedly;surprise
+    -- bAdh    bAdih   IV_yu   arrive unexpectedly;surprise
+
+    FACaL                     `verb`       {- bAdah -}          [ "arrive unexpectedly", "surprise" ]
+                              {- `others` [ "bAdih IV_yu" ] -},
+
+    -- ;; {ibotadah_1
+    -- <btdh   {ibotadah       PV      improvise;extemporize
+    -- Abtdh   {ibotadah       PV      improvise;extemporize
+    -- btdh    botadih IV      improvise;extemporize
+
+    IFtaCaL                   `verb`       {- {ibotadah -}      [ "improvise", "extemporize" ]
+                              {- `others` [ "btadih IV" ] -},
+
+    -- ;; badAhap_1
+    -- bdAh    badAh   NapAt   spontaneity
+
+    FaCAL |< aT               `noun`       {- badAhap -}        [ "spontaneity" ],
+
+    -- ;; badAhapF_1
+    -- bdAhp   badAhapF        FW-Wa   spontaneously    [[badAhapF/ADV]]
+
+    FaCAL |< aT |< aN         `noun`       {- badAhapF -}       [ "spontaneously" ],
+
+    -- ;; badiyhap_1
+    -- bdyh    badiyh  NapAt   intuitive grasp
+
+    FaCIL |< aT               `noun`       {- badiyhap -}       [ "intuitive grasp" ],
+
+    -- ;; badiyhiy~_1
+    -- bdyhy   badiyhiy~       Nall    obvious;intuitive;self-evident     [[badiyhiy~/ADJ]]
+
+    FaCIL |< Iy               `adj`        {- badiyhiy~ -}      [ "obvious", "intuitive", "self-evident" ],
+
+    -- ;; badiyhiy~ap_1
+    -- bdyhy   badiyhiy~       NapAt   platitude;axiom     [[badiyhiy~/NOUN]]
+
+    FaCIL |< Iy |< aT         `noun`       {- badiyhiy~ap -}    [ "platitude", "axiom" ] ]
+
+ |> "b d l" <| [
+
+    -- ;; badal-u_1
+    -- bdl     badal   PV      exchange;replace;substitute
+    -- bdl     bodul   IV      exchange;replace;substitute
+
+    FaCaL                     `verb`       {- badal-u -}        [ "exchange", "replace", "substitute" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bdul IV" ] -},
+
+    -- ;; bad~al_1
+    -- bdl     bad~al  PV      change;modify
+    -- bdl     bad~il  IV_yu   change;modify
+    -- bdl     bad~al  IV_Pass_yu      be changed;be modified
+
+    FaCCaL                    `verb`       {- bad~al -}         [ "change", "modify", "be changed", "be modified" ]
+                              {- `others` [ "baddil IV_yu" ] -},
+
+    -- ;; bAdal_1
+    -- bAdl    bAdal   PV      exchange;trade
+    -- bAdl    bAdil   IV_yu   exchange;trade
+
+    FACaL                     `verb`       {- bAdal -}          [ "exchange", "trade" ]
+                              {- `others` [ "bAdil IV_yu" ] -},
+
+    -- ;; >abodal_1
+    -- >bdl    >abodal PV      substitute;exchange;replace
+    -- Abdl    >abodal PV      substitute;exchange;replace
+    -- bdl     bodil   IV_yu   substitute;exchange;replace
+
+    HaFCaL                    `verb`       {- Oabodal -}        [ "substitute", "exchange", "replace" ]
+                              {- `others` [ "bdil IV_yu" ] -},
+
+    -- ;; tabad~al_1
+    -- tbdl    tabad~al        PV_intr be exchanged
+    -- tbdl    tabad~al        IV_intr be exchanged
+
+    TaFaCCaL                  `verb`       {- tabad~al -}       [ "be exchanged" ],
+
+    -- ;; tabAdal_1
+    -- tbAdl   tabAdal PV      exchange
+    -- tbAdl   tabAdal IV      exchange
+
+    TaFACaL                   `verb`       {- tabAdal -}        [ "exchange" ],
+
+    -- ;; {isotabodal_1
+    -- <stbdl  {isotabodal     PV      replace;substitute
+    -- Astbdl  {isotabodal     PV      replace;substitute
+    -- stbdl   sotabodil       IV      replace;substitute
+
+    IstaFCaL                  `verb`       {- {isotabodal -}    [ "replace", "substitute" ],
+
+    -- ;; badal_1
+    -- bdl     badal   N/At    substitute
+    -- >bdAl   >abodAl N       substitutes
+    -- AbdAl   >abodAl N       substitutes
+
+    FaCaL                     `noun`       {- badal -}          [ "substitute", "substitutes" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abdAl N" ] -},
+
+    -- ;; badalAF_1
+    -- bdl     badal   NF      instead of;in lieu of     [[badal/ADV]]
+
+    FaCaL |< aN               `noun`       {- badalAF -}        [ "instead of", "in lieu of" ]
+                              `plural`     FaCaL
+                              {- `others` [ "badal NF" ] -},
+
+    -- ;; badolap_1
+    -- bdl     badol   Napdu   suit;costume
+    -- bdl     badal   NAt     suits;costumes
+    -- bdl     bidal   N       suits;costumes
+
+    FaCL |< aT                `noun`       {- badolap -}        [ "suit", "costume", "suits", "costumes" ]
+                              `plural`     FiCaL
+                              `plural`     FaCaL |< At
+                              {- `others` [ "bidal N", "badal NAt" ] -},
+
+    -- ;; badaliy~ap_1
+    -- bdly    badaliy~        NapAt   compensation     [[badaliy~/NOUN]]
+
+    FaCaL |< Iy |< aT         `noun`       {- badaliy~ap -}     [ "compensation" ],
+
+    -- ;; badiyl_1
+    -- bdyl    badiyl  Nall    substitute;alternate
+    -- bdlA'   budalA' N0_Nh   substitutes;alternates
+    -- bdlA&   budalA& Nh      substitutes;alternates
+    -- bdlA}   budalA} Nhy     substitutes;alternates
+    -- bdA}l   badA}il Ndip    substitutes;alternates
+
+    FaCIL                     `noun`       {- badiyl -}         [ "substitute", "alternate", "substitutes", "alternates" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "budalA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; bad~Al_1
+    -- bdAl    bad~Al  Nall    exchanger
+
+    FaCCAL                    `noun`       {- bad~Al -}         [ "exchanger" ],
+
+    -- ;; bad~Al_2
+    -- bdAl    bad~Al  N/At    pedal
+
+    FaCCAL                    `noun`       {- bad~Al -}         [ "pedal" ],
+
+    -- ;; bad~Alap_1
+    -- bdAl    bad~Al  NapAt   telephone exchange
+
+    FaCCAL |< aT              `noun`       {- bad~Alap -}       [ "telephone exchange" ],
+
+    -- ;; mabAdil_1
+    -- mbAdl   mabAdil Ndip    house clothes;casual dress
+
+    MaFACiL                   `noun`       {- mabAdil -}        [ "house clothes", "casual dress" ],
+
+    -- ;; tabodiyl_1
+    -- tbdyl   tabodiyl        NduAt   replacement;exchange
+
+    TaFCIL                    `noun`       {- tabodiyl -}       [ "replacement", "exchange" ],
+
+    -- ;; mubAdalap_1
+    -- mbAdl   mubAdal NapAt   exchange
+
+    MuFACaL |< aT             `noun`       {- mubAdalap -}      [ "exchange" ],
+
+    -- ;; <ibodAl_1
+    -- <bdAl   <ibodAl N       substitute;replace
+    -- AbdAl   <ibodAl N       substitute;replace
+
+    HiFCAL                    `noun`       {- IibodAl -}        [ "substitute", "replace" ],
+
+    -- ;; <ibodAl_2
+    -- <bdAl   <ibodAl NduAt   substitution;replacement
+    -- AbdAl   <ibodAl NduAt   substitution;replacement
+
+    HiFCAL                    `noun`       {- IibodAl -}        [ "substitution", "replacement" ],
+
+    -- ;; tabad~ul_1
+    -- tbdl    tabad~ul        NduAt   transformation;shift
+
+    TaFaCCuL                  `noun`       {- tabad~ul -}       [ "transformation", "shift" ],
+
+    -- ;; tabAdul_1
+    -- tbAdl   tabAdul NduAt   exchange
+
+    TaFACuL                   `noun`       {- tabAdul -}        [ "exchange" ],
+
+    -- ;; {isotibodAl_1
+    -- <stbdAl {isotibodAl     NduAt   substitution;exchange;replacement
+    -- AstbdAl {isotibodAl     NduAt   substitution;exchange;replacement
+
+    IstiFCAL                  `noun`       {- {isotibodAl -}    [ "substitution", "exchange", "replacement" ],
+
+    -- ;; mutabAdal_1
+    -- mtbAdl  mutabAdal       Nall    mutual;reciprocal     [[mutabAdal/ADJ]]
+
+    MutaFACaL                 `adj`        {- mutabAdal -}      [ "mutual", "reciprocal" ],
+
+    -- ;; musotabodal_1
+    -- mstbdl  musotabodal     Nall    replacement;reserve
+
+    MustaFCaL                 `noun`       {- musotabodal -}    [ "replacement", "reserve" ] ]
+
+ |> "b d n" <| [
+
+    -- ;; badun-u_1
+    -- bdn     badun   PV-n_intr       be corpulent
+    -- bdn     bodun   IV-n_intr       be corpulent
+
+    FaCuL                     `verb`       {- badun-u -}        [ "be corpulent" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bdun IV-n_intr" ] -},
+
+    -- ;; badan-u_1
+    -- bdn     badan   PV-n_intr       be corpulent
+    -- bdn     bodun   IV-n_intr       be corpulent
+
+    FaCaL                     `verb`       {- badan-u -}        [ "be corpulent" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bdun IV-n_intr" ] -},
+
+    -- ;; badan_1
+    -- bdn     badan   N       body
+    -- >bdAn   >abodAn N       bodies
+    -- AbdAn   >abodAn N       bodies
+    -- >bdn    >abodun N       bodies
+    -- Abdn    >abodun N       bodies
+
+    FaCaL                     `noun`       {- badan -}          [ "body", "bodies" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abdAn N" ] -},
+
+    -- ;; badaniy~_1
+    -- bdny    badaniy~        Nall    physical;bodily     [[badaniy~/ADJ]]
+
+    FaCaL |< Iy               `adj`        {- badaniy~ -}       [ "physical", "bodily" ],
+
+    -- ;; badAnap_1
+    -- bdAn    badAn   Nap     obesity;corpulence
+
+    FaCAL |< aT               `noun`       {- badAnap -}        [ "obesity", "corpulence" ],
+
+    -- ;; badiyn_1
+    -- bdyn    badiyn  Nall    corpulent;obese
+    -- bdn     budun   N       corpulent;obese
+
+    FaCIL                     `noun`       {- badiyn -}         [ "corpulent", "obese" ]
+                              `plural`     FuCuL
+                              {- `others` [ "budun N" ] -},
+
+    -- ;; buduwnap_1
+    -- bdwn    buduwn  Nap     corpulence;obesity
+
+    FuCUL |< aT               `noun`       {- buduwnap -}       [ "corpulence", "obesity" ],
+
+    -- ;; bAdin_1
+    -- bAdn    bAdin   Nall    corpulent;obese
+
+    FACiL                     `noun`       {- bAdin -}          [ "corpulent", "obese" ] ]
+
+ |> "b d r" <| [
+
+    -- ;; badar-u_1
+    -- bdr     badar   PV      surprise;come suddenly
+    -- bdr     bodur   IV      surprise;come suddenly
+
+    FaCaL                     `verb`       {- badar-u -}        [ "surprise", "come suddenly" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bdur IV" ] -},
+
+    -- ;; bAdar_1
+    -- bAdr    bAdar   PV      initiate;surprise
+    -- bAdr    bAdir   IV_yu   initiate;surprise
+
+    FACaL                     `verb`       {- bAdar -}          [ "initiate", "surprise" ]
+                              {- `others` [ "bAdir IV_yu" ] -},
+
+    -- ;; tabAdar_1
+    -- tbAdr   tabAdar PV      come first
+    -- tbAdr   tabAdar IV      come first
+
+    TaFACaL                   `verb`       {- tabAdar -}        [ "come first" ],
+
+    -- ;; {ibotadar_1
+    -- <btdr   {ibotadar       PV      rush at;hurry to
+    -- Abtdr   {ibotadar       PV      rush at;hurry to
+    -- btdr    botadir IV      rush at;hurry to
+
+    IFtaCaL                   `verb`       {- {ibotadar -}      [ "rush at", "hurry to" ]
+                              {- `others` [ "btadir IV" ] -},
+
+    -- ;; buduwr_1
+    -- bdwr    buduwr  N       sudden appearance
+
+    FuCUL                     `noun`       {- buduwr -}         [ "sudden appearance" ],
+
+    -- ;; bador_1
+    -- bdr     bador   N       full moon
+    -- bdwr    buduwr  N       full moon
+
+    FaCL                      `noun`       {- bador -}          [ "full moon" ]
+                              `plural`     FuCUL
+                              {- `others` [ "buduwr N" ] -},
+
+    -- ;; badorap_1
+    -- bdr     bador   Napdu   large sum
+    -- bdr     badar   NAt     large sums
+    -- bdAr    bidAr   N       large sums
+
+    FaCL |< aT                `noun`       {- badorap -}        [ "large sum", "large sums" ]
+                              `plural`     FiCAL
+                              `plural`     FaCaL |< At
+                              {- `others` [ "bidAr N", "badar NAt" ] -},
+
+    -- ;; badorAn_1
+    -- bdrAn   badorAn N0      Badran
+
+    FaCLAn                    `noun`       {- badorAn -}        [ "Badran" ],
+
+    -- ;; badorAwiy~_1
+    -- bdrAwy  badorAwiy~      N0      Badrawi
+
+    FaCLA' |< Iy              `adj`        {- badorAwiy~ -}     [ "Badrawi" ],
+
+    -- ;; bidArAF_1
+    -- bdAr    bidAr   NF      quickly;hastily     [[bidAr/ADV]]
+
+    FiCAL |< aN               `noun`       {- bidArAF -}        [ "quickly", "hastily" ]
+                              `plural`     FiCAL
+                              {- `others` [ "bidAr NF" ] -},
+
+    -- ;; mubAdarap_1
+    -- mbAdr   mubAdar NapAt   initiative;proposal
+
+    MuFACaL |< aT             `noun`       {- mubAdarap -}      [ "initiative", "proposal" ],
+
+    -- ;; bAdir_1
+    -- bAdr    bAdir   Nprop   Bader
+
+    FACiL                     `noun`       {- bAdir -}          [ "Bader" ],
+
+    -- ;; bAdirap_1
+    -- bAdr    bAdir   Napdu   gesture;first sign
+    -- bwAdr   bawAdir Ndip    gestures;first signs
+    -- byAdr   bayAdir Ndip    gestures;first signs
+
+    FACiL |< aT               `noun`       {- bAdirap -}        [ "gesture", "first sign", "gestures", "first signs" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawAdir Ndip" ] -},
+
+    -- ;; biydAr_1
+    -- bydAr   biydAr  Nprop   Bidar
+
+    FICAL                     `noun`       {- biydAr -}         [ "Bidar" ] ]
+
+ |> "b d r '" <| [
+
+    -- ;; badorAwiy~_1
+    -- bdrAwy  badorAwiy~      N0      Badrawi
+
+    KaRDAS |< Iy              `adj`        {- badorAwiy~ -}     [ "Badrawi" ] ]
+
+ |> "b d r .g" <| [
+
+    -- ;; bidrAg_1
+    -- bdrAg   bidrAg  Nprop   Pedrag
+
+    KiRDAS                    `noun`       {- bidrAg -}         [ "Pedrag" ] ]
+
+ |> "b d r m" <| [
+
+    -- ;; badoruwm_1
+    -- bdrwm   badoruwm        N/At    basement
+    -- bdrwn   badoruwn        N/At    basement
+
+    KaRDUS                    `noun`       {- badoruwm -}       [ "basement" ] ]
+
+ |> "b d r n" <| [
+
+    -- ;; badorAn_1
+    -- bdrAn   badorAn N0      Badran
+
+    KaRDAS                    `noun`       {- badorAn -}        [ "Badran" ] ]
+
+ |> "b d s" <| [
+
+    -- ;; badA'ap_1
+    -- bdA'    badA'   NapAt   beginning;start
+
+    FaCA' |< aT               `noun`       {- badA'ap -}        [ "beginning", "start" ],
+
+    -- ;; badA}iy~_1
+    -- bdA}y   badA}iy~        Nall    initial;original     [[badA}iy~/ADJ]]
+
+    FaCA' |< Iy               `adj`        {- badA}iy~ -}       [ "initial", "original" ],
+
+    -- ;; bidA}iy~_1
+    -- bdA}y   bidA}iy~        Nall    primitive;original     [[bidA}iy~/ADJ]]
+
+    FiCA' |< Iy               `adj`        {- bidA}iy~ -}       [ "primitive", "original" ],
+
+    -- ;; badA}iy~ap_1
+    -- bdA}y   badA}iy~        Nap     primitiveness     [[badA}iy~/NOUN]]
+    -- bdA}y   bidA}iy~        Nap     primitiveness     [[bidA}iy~/NOUN]]
+
+    FaCA' |< Iy |< aT         `noun`       {- badA}iy~ap -}     [ "primitiveness" ],
+
+    -- ;; {ibotidA'_1
+    -- <btdA'  {ibotidA'       N0_Nh   beginning;start
+    -- AbtdA'  {ibotidA'       N0_Nh   beginning;start
+    -- <btdA&  {ibotidA&       Nh      beginning;start
+    -- AbtdA&  {ibotidA&       Nh      beginning;start
+    -- <btdA}  {ibotidA}       Nhy     beginning;start
+    -- AbtdA}  {ibotidA}       Nhy     beginning;start
+    -- <btdA'  {ibotidA'       NAn_Nayn        beginning;starts
+    -- AbtdA'  {ibotidA'       NAn_Nayn        beginning;starts
+    -- <btdA}  {ibotidA}       Nayn    beginning;starts
+    -- AbtdA}  {ibotidA}       Nayn    beginning;starts
+    -- <btdA'  {ibotidA'       NAt     beginning;starts
+    -- AbtdA'  {ibotidA'       NAt     beginning;starts
+
+    IFtiCA'                   `noun`       {- {ibotidA' -}      [ "beginning", "start", "starts" ],
+
+    -- ;; {ibotidA'F_1
+    -- <btdA'  {ibotidA'F      FW-Wa   beginning from;as of     [[{ibotidA'F/ADJ]]
+    -- AbtdA'  {ibotidA'F      FW-Wa   beginning from;as of     [[{ibotidA'F/ADJ]]
+
+    IFtiCA' |< aN             `adj`        {- {ibotidA'F -}     [ "beginning from", "as of" ],
+
+    -- ;; {ibotidA}iy~_1
+    -- <btdA}y {ibotidA}iy~    Nall    elementary;preparatory     [[{ibotidA}iy~/ADJ]]
+    -- AbtdA}y {ibotidA}iy~    Nall    elementary;preparatory     [[{ibotidA}iy~/ADJ]]
+
+    IFtiCA' |< Iy             `adj`        {- {ibotidA}iy~ -}   [ "elementary", "preparatory" ],
+
+    -- ;; badA-u_1
+    -- bdA     badA    PV_0    appear;seem
+    -- bdw     badaw   PV_Atn  appear;seem
+    -- bd      bad     PV_ttAw appear;seem
+    -- bdw     boduw   IV_0hAnn        appear;seem
+    -- bd      bod     IV_0hwnyn       appear;seem
+
+    FaCA                      `verb`       {- badA-u -}         [ "appear", "seem" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bduw IV_0hAnn" ] -},
+
+    -- ;; bAdaY_1
+    -- bAdY    bAdaY   PV_0    reveal;show
+    -- bAdA    bAdA    PV_h    reveal;show
+    -- bAdy    bAday   PV_Atn  reveal;show
+    -- bAd     bAd     PV_ttAw reveal;show
+    -- bAdy    bAdiy   IV_0hAnn_yu     reveal;show
+    -- bAd     bAd     IV_0hwnyn_yu    reveal;show
+    -- bAdY    bAdaY   IV_0_Pass_yu    be revealed;be shown
+    -- bAdy    bAday   IV_Ann_Pass_yu  be revealed;be shown
+
+    FACY                      `verb`       {- bAdaY -}          [ "reveal", "show", "be revealed", "be shown" ]
+                              {- `others` [ "bAdiy IV_0hAnn_yu" ] -},
+
+    -- ;; >abodaY_1
+    -- >bdY    >abodaY PV_0    express;demonstrate;show
+    -- AbdY    >abodaY PV_0    express;demonstrate;show
+    -- >bdA    >abodA  PV_h    express;demonstrate;show
+    -- AbdA    >abodA  PV_h    express;demonstrate;show
+    -- >bdy    >aboday PV_Atn  express;demonstrate;show
+    -- Abdy    >aboday PV_Atn  express;demonstrate;show
+    -- >bd     >abod   PV_ttAw express;demonstrate;show
+    -- Abd     >abod   PV_ttAw express;demonstrate;show
+    -- bdy     bodiy   IV_0hAnn_yu     express;demonstrate;show
+    -- bd      bod     IV_0hwnyn_yu    express;demonstrate;show
+    -- bdY     bodaY   IV_0_Pass_yu    be expressed;be demonstrated;be shown
+    -- bdy     boday   IV_Ann_Pass_yu  be expressed;be demonstrated;be shown
+
+    HaFCY                     `verb`       {- OabodaY -}        [ "express", "demonstrate", "show", "be expressed", "be demonstrated", "be shown" ]
+                              {- `others` [ "bdY IV_0_Pass_yu", "bdiy IV_0hAnn_yu" ] -},
+
+    -- ;; tabad~aY_1
+    -- tbdY    tabad~aY        PV_0    appear;be manifested
+    -- tbdA    tabad~A PV_h    appear;be manifested
+    -- tbdy    tabad~ay        PV_Atn  appear;be manifested
+    -- tbd     tabad~  PV_ttAw appear;be manifested
+    -- tbdY    tabad~aY        IV_0    appear;be manifested
+    -- tbdA    tabad~A IV_h    appear;be manifested
+    -- tbdy    tabad~ay        IV_Ann  appear;be manifested
+    -- tbd     tabad~  IV_0hwnyn       appear;be manifested
+
+    TaFaCCY                   `verb`       {- tabad~aY -}       [ "appear", "be manifested" ],
+
+    -- ;; badAp_1
+    -- bdA     badA    Napdu   whim;caprice
+    -- bdw     badaw   NAt     whims;caprices
+
+    FaCY |< aT                `noun`       {- badAp -}          [ "whim", "caprice", "whims", "caprices" ],
+
+    -- ;; badawiy~_1
+    -- bdwy    badawiy~        Nall    Bedouin     [[badawiy~/NOUN]]
+    -- bdwy    badawiy~        Nall    Bedouin     [[badawiy~/ADJ]]
+    -- bdw     badow   N       Bedouins
+    -- bdA     budA    Nap     Bedouins
+
+    FaCY |< Iy                `adj`        {- badawiy~ -}       [ "Bedouin", "Bedouins" ],
+
+    -- ;; <ibodA'_1
+    -- <bdA'   <ibodA' N0_Nh   expression;manifestation
+    -- AbdA'   <ibodA' N0_Nh   expression;manifestation
+    -- <bdA&   <ibodA& Nh      expression;manifestation
+    -- AbdA&   <ibodA& Nh      expression;manifestation
+    -- <bdA}   <ibodA} Nhy     expression;manifestation
+    -- AbdA}   <ibodA} Nhy     expression;manifestation
+    -- <bdA'   <ibodA' NAn_Nayn        expressions;manifestations
+    -- AbdA'   <ibodA' NAn_Nayn        expressions;manifestations
+    -- <bdA}   <ibodA} Nayn    expressions;manifestations
+    -- AbdA}   <ibodA} Nayn    expressions;manifestations
+    -- <bdA'   <ibodA' NAt     expressions;manifestations
+    -- AbdA'   <ibodA' NAt     expressions;manifestations
+
+    HiFCA'                    `noun`       {- IibodA' -}        [ "expression", "manifestation", "expressions", "manifestations" ],
+
+    -- ;; bAdiy_1
+    -- bAdy    bAdiy   N0F     apparent;obvious
+    -- bAd     bAd     NK      apparent;obvious
+    -- bAdy    bAdiy   NAn_Nayn        apparent;obvious
+    -- bAd     bAd     Nuwn_Niyn       apparent;obvious
+    -- bAdy    bAdiy   NapAt   apparent;obvious
+
+    FACI                      `noun`       {- bAdiy -}          [ "apparent", "obvious" ],
+
+    -- ;; bAdiyap_1
+    -- bAdy    bAdiy   NapAt   desert
+
+    FACI |< aT                `noun`       {- bAdiyap -}        [ "desert" ],
+
+    -- ;; mubodiyAF_1
+    -- mbdy    mubodiy NF      expressing;showing;demonstrating
+    -- mbdy    mubodiy N0      expressing;showing;demonstrating
+
+    MuFCI |< aN               `noun`       {- mubodiyAF -}      [ "expressing", "showing", "demonstrating" ]
+                              `plural`     MuFCI
+                              {- `others` [ "mubdiy NF N0" ] -} ]
+
+ |> "b d w" <| [
+
+    -- ;; badAwap_1
+    -- bdAw    badAw   Nap     desert life;nomadism;Bedouin life
+    -- bdAw    bidAw   Nap     desert life;nomadism;Bedouin life
+
+    FaCAL |< aT               `noun`       {- badAwap -}        [ "desert life", "nomadism", "Bedouin life" ]
+                              `plural`     FiCAL |< aT
+                              {- `others` [ "bidAw Nap" ] -} ]
+
+ |> "b d y" <| [
+
+    -- ;; bidAyap_1
+    -- bdAy    bidAy   NapAt   beginning;start
+
+    FiCAL |< aT               `noun`       {- bidAyap -}        [ "beginning", "start" ],
+
+    -- ;; bAdiy_1
+    -- bAdy    bAdiy   N0F     apparent;obvious
+    -- bAd     bAd     NK      apparent;obvious
+    -- bAdy    bAdiy   NAn_Nayn        apparent;obvious
+    -- bAd     bAd     Nuwn_Niyn       apparent;obvious
+    -- bAdy    bAdiy   NapAt   apparent;obvious
+
+    FACiL                     `noun`       {- bAdiy -}          [ "apparent", "obvious" ],
+
+    -- ;; bAdiyap_1
+    -- bAdy    bAdiy   NapAt   desert
+
+    FACiL |< aT               `noun`       {- bAdiyap -}        [ "desert" ],
+
+    -- ;; bawAdiy_1
+    -- bwAdy   bawAdiy N0_Nh   nomads;Bedouins
+    -- bwAd    bawAd   NK      nomads;Bedouins
+
+    FawACiL                   `noun`       {- bawAdiy -}        [ "nomads", "Bedouins" ],
+
+    -- ;; mubodiyAF_1
+    -- mbdy    mubodiy NF      expressing;showing;demonstrating
+    -- mbdy    mubodiy N0      expressing;showing;demonstrating
+
+    MuFCiL |< aN              `noun`       {- mubodiyAF -}      [ "expressing", "showing", "demonstrating" ]
+                              `plural`     MuFCiL
+                              `plural`     MuFCI
+                              {- `others` [ "mubdiy NF N0" ] -} ]
+
+ |> "b f l" <| [
+
+    -- ;; bAfil_1
+    -- bAfl    bAfil   Nprop   Pavel
+
+    FACiL                     `noun`       {- bAfil -}          [ "Pavel" ] ]
+
+ |> "b f s" <| [
+
+    -- ;; bAfs_1
+    -- bAfs    bAfs    Nprop   Puffs
+
+    FACL                      `noun`       {- bAfs -}           [ "Puffs" ] ]
+
+ |> "b f t" <| [
+
+    -- ;; bafotap_1
+    -- bft     bafot   Nap     calico
+
+    FaCL |< aT                `noun`       {- bafotap -}        [ "calico" ] ]
+
+ |> "b f t k" <| [
+
+    -- ;; bifotiyk_1
+    -- bftyk   bifotiyk        N       beefsteak
+
+    KiRDIS                    `noun`       {- bifotiyk -}       [ "beefsteak" ] ]
+
+ |> "b h '" <| [
+
+    -- ;; bahA'_1
+    -- bhA'    bahA'   N0_Nh   beauty;brilliancy
+    -- bhA&    bahA&   Nh      beauty;brilliancy
+    -- bhA}    bahA}   Nhy     beauty;brilliancy
+
+    FaCAL                     `noun`       {- bahA' -}          [ "beauty", "brilliancy" ],
+
+    -- ;; bahA}iy~_1
+    -- bhA}y   bahA}iy~        Nall    Baha'i     [[bahA}iy~/NOUN]]
+    -- bhA}y   bahA}iy~        Nall    Baha'i     [[bahA}iy~/ADJ]]
+
+    FaCAL |< Iy               `adj`        {- bahA}iy~ -}       [ "Baha'i" ] ]
+
+ |> "b h .z" <| [
+
+    -- ;; bahaZ_1
+    -- bhZ     bahaZ   PV      oppress
+    -- bhZ     bohaZ   IV      oppress
+
+    FaCaL                     `verb`       {- bahaZ -}          [ "oppress" ]
+                              {- `others` [ "bha.z IV" ] -},
+
+    -- ;; >abohaZ_1
+    -- >bhZ    >abohaZ PV      oppress;overload
+    -- AbhZ    >abohaZ PV      oppress;overload
+    -- bhZ     bohiZ   IV_yu   oppress;overload
+    -- bhZ     bohaZ   IV_Pass_yu      be oppressed;be overloaded
+
+    HaFCaL                    `verb`       {- OabohaZ -}        [ "oppress", "overload", "be oppressed", "be overloaded" ]
+                              {- `others` [ "bha.z IV_Pass_yu", "bhi.z IV_yu" ] -},
+
+    -- ;; bAhiZ_1
+    -- bAhZ    bAhiZ   Nall    oppressive;exorbitant
+
+    FACiL                     `noun`       {- bAhiZ -}          [ "oppressive", "exorbitant" ] ]
+
+ |> "b h ^g" <| [
+
+    -- ;; bahij-a_1
+    -- bhj     bahij   PV      rejoice
+    -- bhj     bohaj   IV      rejoice
+
+    FaCiL                     `verb`       {- bahij-a -}        [ "rejoice" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bha^g IV" ] -},
+
+    -- ;; bahuj-u_1
+    -- bhj     bahuj   PV_intr be beautiful
+    -- bhj     bohuj   IV_intr be beautiful
+
+    FaCuL                     `verb`       {- bahuj-u -}        [ "be beautiful" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bhu^g IV_intr" ] -},
+
+    -- ;; bah~aj_1
+    -- bhj     bah~aj  PV      make happy;embellish
+    -- bhj     bah~ij  IV_yu   make happy;embellish
+
+    FaCCaL                    `verb`       {- bah~aj -}         [ "make happy", "embellish" ]
+                              {- `others` [ "bahhi^g IV_yu" ] -},
+
+    -- ;; >abohaj_1
+    -- >bhj    >abohaj PV      make happy
+    -- Abhj    >abohaj PV      make happy
+    -- bhj     bohij   IV_yu   make happy
+    -- bhj     bohaj   IV_Pass_yu      be made happy
+
+    HaFCaL                    `verb`       {- Oabohaj -}        [ "make happy", "be made happy" ]
+                              {- `others` [ "bhi^g IV_yu", "bha^g IV_Pass_yu" ] -},
+
+    -- ;; {ibotahaj_1
+    -- <bthj   {ibotahaj       PV      rejoice
+    -- Abthj   {ibotahaj       PV      rejoice
+    -- bthj    botahij IV      rejoice
+
+    IFtaCaL                   `verb`       {- {ibotahaj -}      [ "rejoice" ]
+                              {- `others` [ "btahi^g IV" ] -},
+
+    -- ;; bahojap_1
+    -- bhj     bahoj   Nap     splendor;delight
+
+    FaCL |< aT                `noun`       {- bahojap -}        [ "splendor", "delight" ],
+
+    -- ;; bahij_1
+    -- bhj     bahij   Nall    magnificent;happy
+
+    FaCiL                     `noun`       {- bahij -}          [ "magnificent", "happy" ],
+
+    -- ;; bahiyj_1
+    -- bhyj    bahiyj  Nall    magnificent;happy
+
+    FaCIL                     `noun`       {- bahiyj -}         [ "magnificent", "happy" ],
+
+    -- ;; mabohajap_1
+    -- mbhj    mabohaj NapAt   delight
+    -- mbAhj   mabAhij Ndip    delights
+
+    MaFCaL |< aT              `noun`       {- mabohajap -}      [ "delight", "delights" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "mabAhi^g Ndip" ] -},
+
+    -- ;; {ibotihAj_1
+    -- <bthAj  {ibotihAj       NduAt   rejoicing;delight
+    -- AbthAj  {ibotihAj       NduAt   rejoicing;delight
+
+    IFtiCAL                   `noun`       {- {ibotihAj -}      [ "rejoicing", "delight" ],
+
+    -- ;; mubohij_1
+    -- mbhj    mubohij Nall    charming;delightful
+
+    MuFCiL                    `noun`       {- mubohij -}        [ "charming", "delightful" ],
+
+    -- ;; mubotahij_1
+    -- mbthj   mubotahij       Nall    delighted
+
+    MuFtaCiL                  `noun`       {- mubotahij -}      [ "delighted" ] ]
+
+ |> "b h ^g t" <| [
+
+    -- ;; bahojat_1
+    -- bhjt    bahojat Nprop   Bahjat
+
+    KaRDaS                    `noun`       {- bahojat -}        [ "Bahjat" ] ]
+
+ |> "b h d l" <| [
+
+    -- ;; bahodal_1
+    -- bhdl    bahodal PV      insult;ridicule
+    -- bhdl    bahodil IV_yu   insult;ridicule
+
+    KaRDaS                    `verb`       {- bahodal -}        [ "insult", "ridicule" ]
+                              {- `others` [ "bahdil IV_yu" ] -},
+
+    -- ;; tabahodal_1
+    -- tbhdl   tabahodal       PV_intr be insulted;be in disarray
+    -- tbhdl   tabahodal       IV_intr be insulted;be in disarray
+
+    TaKaRDaS                  `verb`       {- tabahodal -}      [ "be insulted", "be in disarray" ],
+
+    -- ;; bahodalap_1
+    -- bhdl    bahodal Nap     insult;affront
+
+    KaRDaS |< aT              `noun`       {- bahodalap -}      [ "insult", "affront" ],
+
+    -- ;; mubahodal_1
+    -- mbhdl   mubahodal       Nall    mistreated
+
+    MuKaRDaS                  `noun`       {- mubahodal -}      [ "mistreated" ] ]
+
+ |> "b h l" <| [
+
+    -- ;; bahal-a_1
+    -- bhl     bahal   PV      curse
+    -- bhl     bohal   IV      curse
+
+    FaCaL                     `verb`       {- bahal-a -}        [ "curse" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bhal IV" ] -},
+
+    -- ;; tabah~al_1
+    -- tbhl    tabah~al        PV      curse
+    -- tbhl    tabah~al        IV      curse
+
+    TaFaCCaL                  `verb`       {- tabah~al -}       [ "curse" ],
+
+    -- ;; tabAhal_1
+    -- tbAhl   tabAhal PV      curse each other
+    -- tbAhl   tabAhal IV      curse each other
+
+    TaFACaL                   `verb`       {- tabAhal -}        [ "curse each other" ],
+
+    -- ;; {ibotahal_1
+    -- <bthl   {ibotahal       PV      supplicate
+    -- Abthl   {ibotahal       PV      supplicate
+    -- bthl    botahil IV      supplicate
+
+    IFtaCaL                   `verb`       {- {ibotahal -}      [ "supplicate" ]
+                              {- `others` [ "btahil IV" ] -},
+
+    -- ;; >abohal_1
+    -- >bhl    >abohal N       savin;savine (evergreen shrub)
+    -- Abhl    >abohal N       savin;savine (evergreen shrub)
+
+    HaFCaL                    `noun`       {- Oabohal -}        [ "savin", "savine (evergreen shrub)" ],
+
+    -- ;; mubAhalap_1
+    -- mbAhl   mubAhal Nap     cursing
+
+    MuFACaL |< aT             `noun`       {- mubAhalap -}      [ "cursing" ],
+
+    -- ;; {ibotihAl_1
+    -- <bthAl  {ibotihAl       NduAt   supplication;prayer
+    -- AbthAl  {ibotihAl       NduAt   supplication;prayer
+
+    IFtiCAL                   `noun`       {- {ibotihAl -}      [ "supplication", "prayer" ],
+
+    -- ;; bAhil_1
+    -- bAhl    bAhil   Nall    free;independent
+    -- bhl     buhol   N       free;independent
+    -- bhl     buh~al  N       free;independent
+
+    FACiL                     `noun`       {- bAhil -}          [ "free", "independent" ]
+                              `plural`     FuCL
+                              `plural`     FuCCaL
+                              {- `others` [ "buhl N", "buhhal N" ] -},
+
+    -- ;; baholawiy~_1
+    -- bhlwy   baholawiy~      N0      Pahlavi;Pahlevi
+
+    FaCLY |< Iy               `adj`        {- baholawiy~ -}     [ "Pahlavi", "Pahlevi" ],
+
+    -- ;; baholawiy~_2
+    -- bhlwy   baholawiy~      N0      Bahlawi;Bahlaoui
+
+    FaCLY |< Iy               `adj`        {- baholawiy~ -}     [ "Bahlawi", "Bahlaoui" ] ]
+
+ |> "b h l l" <| [
+
+    -- ;; baholuwl_1
+    -- bhlwl   baholuwl        N0      Bahloul
+
+    KaRDUS                    `noun`       {- baholuwl -}       [ "Bahloul" ],
+
+    -- ;; buholuwl_1
+    -- bhlwl   buholuwl        Ndu     clown;jester
+    -- bhlwl   baholuwl        Ndu     clown;jester
+    -- bhAlyl  bahAliyl        Ndip    clowns;jesters
+
+    KuRDUS                    `noun`       {- buholuwl -}       [ "clown", "jester", "clowns", "jesters" ]
+                              `plural`     KaRADIS
+                              `plural`     KaRDUS
+                              {- `others` [ "bahAliyl Ndip", "bahluwl Ndu" ] -} ]
+
+ |> "b h m" <| [
+
+    -- ;; >aboham_1
+    -- >bhm    >aboham PV      make obscure;be ambiguous
+    -- Abhm    >aboham PV      make obscure;be ambiguous
+    -- bhm     bohim   IV_yu   make obscure;be ambiguous
+    -- bhm     boham   IV_Pass_yu      be made obscure
+
+    HaFCaL                    `verb`       {- Oaboham -}        [ "make obscure", "be ambiguous", "be made obscure" ]
+                              {- `others` [ "bhim IV_yu", "bham IV_Pass_yu" ] -},
+
+    -- ;; tabah~am_1
+    -- tbhm    tabah~am        PV_intr be obscure
+    -- tbhm    tabah~am        IV_intr be obscure
+
+    TaFaCCaL                  `verb`       {- tabah~am -}       [ "be obscure" ],
+
+    -- ;; {isotaboham_1
+    -- <stbhm  {isotaboham     PV_intr be obscure
+    -- Astbhm  {isotaboham     PV_intr be obscure
+    -- stbhm   sotabohim       IV_intr be obscure
+
+    IstaFCaL                  `verb`       {- {isotaboham -}    [ "be obscure" ],
+
+    -- ;; bahomap_1
+    -- bhm     bahom   Nap     sheep
+
+    FaCL |< aT                `noun`       {- bahomap -}        [ "sheep" ],
+
+    -- ;; bahiym_1
+    -- bhym    bahiym  N       jet-black;dark
+    -- bhm     buhum   N       jet-black;dark
+
+    FaCIL                     `noun`       {- bahiym -}         [ "jet-black", "dark" ]
+                              `plural`     FuCuL
+                              {- `others` [ "buhum N" ] -},
+
+    -- ;; bahiymap_1
+    -- bhym    bahiym  Napdu   animal;beast
+    -- bhA}m   bahA}im Ndip    livestock;cattle
+
+    FaCIL |< aT               `noun`       {- bahiymap -}       [ "animal", "beast", "livestock", "cattle" ],
+
+    -- ;; bahiymiy~_1
+    -- bhymy   bahiymiy~       Nall    animal;bestial     [[bahiymiy~/ADJ]]
+
+    FaCIL |< Iy               `adj`        {- bahiymiy~ -}      [ "animal", "bestial" ],
+
+    -- ;; <ibohAm_1
+    -- <bhAm   <ibohAm NduAt   obscurity;incomprehensibility
+    -- AbhAm   <ibohAm NduAt   obscurity;incomprehensibility
+
+    HiFCAL                    `noun`       {- IibohAm -}        [ "obscurity", "incomprehensibility" ],
+
+    -- ;; bAhim_1
+    -- bAhm    bAhim   Ndu     big toe;thumb
+    -- >bAhym  >abAhiym        Ndip    big toes;thumbs
+    -- AbAhym  >abAhiym        Ndip    big toes;thumbs
+
+    FACiL                     `noun`       {- bAhim -}          [ "big toe", "thumb", "big toes", "thumbs" ],
+
+    -- ;; muboham_1
+    -- mbhm    muboham Nall    unintelligible;abstract
+
+    MuFCaL                    `noun`       {- muboham -}        [ "unintelligible", "abstract" ],
+
+    -- ;; mubohamAt_1
+    -- mbhm    muboham NAt     inscrutable topics
+
+    MuFCaL |< At              `noun`       {- mubohamAt -}      [ "inscrutable topics" ]
+                              `plural`     MuFCaL |< At
+                              {- `others` [ "mubham NAt" ] -} ]
+
+ |> "b h n" <| [
+
+    -- ;; bAhaY_1
+    -- bAhY    bAhaY   PV_0    compete;be proud
+    -- bAhA    bAhA    PV_h    compete;be proud
+    -- bAhy    bAhay   PV_Atn  compete;be proud
+    -- bAh     bAh     PV_ttAw compete;be proud
+    -- bAhy    bAhiy   IV_0hAnn_yu     compete;be proud
+    -- bAh     bAh     IV_0hwnyn_yu    compete;be proud
+    -- bAhY    bAhaY   IV_0_Pass_yu    be contested;be proud
+    -- bAhy    bAhay   IV_Ann_Pass_yu  be contested;be proud
+
+    FACY                      `verb`       {- bAhaY -}          [ "compete", "be proud", "be contested" ]
+                              {- `others` [ "bAhiy IV_0hAnn_yu" ] -},
+
+    -- ;; tabAhaY_1
+    -- tbAhY   tabAhaY PV_0    be vain;boast
+    -- tbAhA   tabAhA  PV_h    be vain;boast
+    -- tbAhy   tabAhay PV_Atn  be vain;boast
+    -- tbAh    tabAh   PV_ttAw_intr    be vain;boast
+    -- tbAhY   tabAhaY IV_0    be vain;boast
+    -- tbAhA   tabAhA  IV_h    be vain;boast
+    -- tbAhy   tabAhay IV_Ann  be vain;boast
+    -- tbAh    tabAh   IV_0hwnyn       be vain;boast
+
+    TaFACY                    `verb`       {- tabAhaY -}        [ "be vain", "boast" ],
+
+    -- ;; bahA'_1
+    -- bhA'    bahA'   N0_Nh   beauty;brilliancy
+    -- bhA&    bahA&   Nh      beauty;brilliancy
+    -- bhA}    bahA}   Nhy     beauty;brilliancy
+
+    FaCA'                     `noun`       {- bahA' -}          [ "beauty", "brilliancy" ],
+
+    -- ;; bahA}iy~_1
+    -- bhA}y   bahA}iy~        Nall    Baha'i     [[bahA}iy~/NOUN]]
+    -- bhA}y   bahA}iy~        Nall    Baha'i     [[bahA}iy~/ADJ]]
+
+    FaCA' |< Iy               `adj`        {- bahA}iy~ -}       [ "Baha'i" ],
+
+    -- ;; >abohaY_1
+    -- >bhY    >abohaY N0      more/most splendid
+    -- AbhY    >abohaY N0      more/most splendid
+    -- >bhA    >abohA  Nhy     more/most splendid
+    -- AbhA    >abohA  Nhy     more/most splendid
+    -- >bhy    >abohay NAn_Nayn        more/most splendid
+    -- Abhy    >abohay NAn_Nayn        more/most splendid
+
+    HaFCY                     `noun`       {- OabohaY -}        [ "more/most splendid" ],
+
+    -- ;; mubAhAp_1
+    -- mbAhA   mubAhA  Nap     pride;boastfulness
+
+    MuFACY |< aT              `noun`       {- mubAhAp -}        [ "pride", "boastfulness" ],
+
+    -- ;; tabAhiy_1
+    -- tbAhy   tabAhiy N0_Nh   pride;boastfulness
+    -- tbAh    tabAh   NK      pride;boastfulness
+    -- tbAhy   tabAhiy NAn_Nayn        pride;boastfulness
+    -- tbAhy   tabAhiy NAt     pride;boastfulness
+
+    TaFACI                    `noun`       {- tabAhiy -}        [ "pride", "boastfulness" ],
+
+    -- ;; mutabAhiy_1
+    -- mtbAhy  mutabAhiy       N0F_Nh  proud;boastful
+    -- mtbAh   mutabAh NK      proud;boastful
+    -- mtbAhy  mutabAhiy       NAn_Nayn        proud;boastful
+    -- mtbAh   mutabAh Nuwn_Niyn       proud;boastful
+    -- mtbAhy  mutabAhiy       NapAt   proud;boastful
+
+    MutaFACI                  `noun`       {- mutabAhiy -}      [ "proud", "boastful" ] ]
+
+ |> "b h q" <| [
+
+    -- ;; bahaq_1
+    -- bhq     bahaq   N       herpes
+
+    FaCaL                     `noun`       {- bahaq -}          [ "herpes" ],
+
+    -- ;; >abohaq_1
+    -- >bhq    >abohaq Nel     herpetic
+    -- Abhq    >abohaq Nel     herpetic
+    -- bhqA'   bahoqA' N0      herpetic
+
+    HaFCaL                    `noun`       {- Oabohaq -}        [ "herpetic" ]
+                              `plural`     FaCLA'
+                              {- `others` [ "bahqA' N0" ] -} ]
+
+ |> "b h r" <| [
+
+    -- ;; bahar-a_1
+    -- bhr     bahar   PV      blind;dazzle
+    -- bhr     bohar   IV      blind;dazzle
+
+    FaCaL                     `verb`       {- bahar-a -}        [ "blind", "dazzle" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bhar IV" ] -},
+
+    -- ;; >abohar_1
+    -- >bhr    >abohar PV      dazzle
+    -- Abhr    >abohar PV      dazzle
+    -- bhr     bohir   IV_yu   dazzle
+    -- bhr     bohar   IV_Pass_yu      be dazzled
+
+    HaFCaL                    `verb`       {- Oabohar -}        [ "dazzle", "be dazzled" ]
+                              {- `others` [ "bhir IV_yu", "bhar IV_Pass_yu" ] -},
+
+    -- ;; {inobahar_1
+    -- <nbhr   {inobahar       PV_intr be dazzled;be blinded
+    -- Anbhr   {inobahar       PV_intr be dazzled;be blinded
+    -- nbhr    nobahir IV_intr be dazzled;be blinded
+
+    InFaCaL                   `verb`       {- {inobahar -}      [ "be dazzled", "be blinded" ]
+                              {- `others` [ "nbahir IV_intr" ] -},
+
+    -- ;; {ibotahar_1
+    -- <bthr   {ibotahar       PV      flaunt
+    -- Abthr   {ibotahar       PV      flaunt
+    -- bthr    botahir IV      flaunt
+
+    IFtaCaL                   `verb`       {- {ibotahar -}      [ "flaunt" ]
+                              {- `others` [ "btahir IV" ] -},
+
+    -- ;; bahor_1
+    -- bhr     bahor   N       deception
+
+    FaCL                      `noun`       {- bahor -}          [ "deception" ],
+
+    -- ;; buhor_1
+    -- bhr     buhor   N       labored breathing
+
+    FuCL                      `noun`       {- buhor -}          [ "labored breathing" ],
+
+    -- ;; bahorap_1
+    -- bhr     bahor   Nap     dazzlement
+
+    FaCL |< aT                `noun`       {- bahorap -}        [ "dazzlement" ],
+
+    -- ;; buhorap_1
+    -- bhr     buhor   Nap     center;middle
+
+    FuCL |< aT                `noun`       {- buhorap -}        [ "center", "middle" ],
+
+    -- ;; >abohar_2
+    -- >bhr    >abohar Nel     more/most brilliant
+    -- Abhr    >abohar Nel     more/most brilliant
+
+    HaFCaL                    `noun`       {- Oabohar -}        [ "more/most brilliant" ],
+
+    -- ;; >abohar_3
+    -- >bhr    >abohar Ndu     aorta
+    -- Abhr    >abohar Ndu     aorta
+
+    HaFCaL                    `noun`       {- Oabohar -}        [ "aorta" ],
+
+    -- ;; >abohariy~_1
+    -- >bhry   >abohariy~      N-ap    aortic     [[>abohariy~/ADJ]]
+    -- Abhry   >abohariy~      N-ap    aortic     [[>abohariy~/ADJ]]
+
+    HaFCaL |< Iy              `adj`        {- Oabohariy~ -}     [ "aortic" ],
+
+    -- ;; bahAr_1
+    -- bhAr    bahAr   N/At    spice
+
+    FaCAL                     `noun`       {- bahAr -}          [ "spice" ],
+
+    -- ;; {ibotihAr_1
+    -- <bthAr  {ibotihAr       NduAt   display;show
+    -- AbthAr  {ibotihAr       NduAt   display;show
+
+    IFtiCAL                   `noun`       {- {ibotihAr -}      [ "display", "show" ],
+
+    -- ;; bAhir_1
+    -- bAhr    bAhir   Nall    dazzling;splendid
+
+    FACiL                     `noun`       {- bAhir -}          [ "dazzling", "splendid" ],
+
+    -- ;; mabohuwr_1
+    -- mbhwr   mabohuwr        Nall    out of breath;panting
+
+    MaFCUL                    `noun`       {- mabohuwr -}       [ "out of breath", "panting" ] ]
+
+ |> "b h r ^g" <| [
+
+    -- ;; bahoraj_1
+    -- bhrj    bahoraj PV      disguise
+    -- bhrj    bahorij IV_yu   disguise
+
+    KaRDaS                    `verb`       {- bahoraj -}        [ "disguise" ]
+                              {- `others` [ "bahri^g IV_yu" ] -},
+
+    -- ;; tabahoraj_1
+    -- tbhrj   tabahoraj       PV      disguise
+    -- tbhrj   tabahoraj       IV      disguise
+
+    TaKaRDaS                  `verb`       {- tabahoraj -}      [ "disguise" ],
+
+    -- ;; bahoraj_2
+    -- bhrj    bahoraj Ndu     spurious;cheap
+    -- bhArj   bahArij Ndip    spurious;false
+
+    KaRDaS                    `noun`       {- bahoraj -}        [ "spurious", "cheap", "false" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "bahAri^g Ndip" ] -},
+
+    -- ;; bahorajap_1
+    -- bhrj    bahoraj Nap     hollow pomp
+
+    KaRDaS |< aT              `noun`       {- bahorajap -}      [ "hollow pomp" ],
+
+    -- ;; mubahoraj_1
+    -- mbhrj   mubahoraj       Nall    gaudy;trashy
+
+    MuKaRDaS                  `noun`       {- mubahoraj -}      [ "gaudy", "trashy" ] ]
+
+ |> "b h r z" <| [
+
+    -- ;; bihoruwz_1
+    -- bhrwz   bihoruwz        Nprop   Behrouz
+
+    KiRDUS                    `noun`       {- bihoruwz -}       [ "Behrouz" ],
+
+    -- ;; bahoriyz_1
+    -- bhryz   bahoriyz        N0      Bahriz
+
+    KaRDIS                    `noun`       {- bahoriyz -}       [ "Bahriz" ],
+
+    -- ;; bahoriyz_2
+    -- bhryz   bahoriyz        N       broth
+
+    KaRDIS                    `noun`       {- bahoriyz -}       [ "broth" ] ]
+
+ |> "b h t" <| [
+
+    -- ;; bahit-a_1
+    -- bht     bahit   PV-t_intr       become pale;blanche
+    -- bht     bohat   IV_intr become pale;blanche
+
+    FaCiL                     `verb`       {- bahit-a -}        [ "become pale", "blanche" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bhat IV_intr" ] -},
+
+    -- ;; bahut-u_1
+    -- bht     bahut   PV-t_intr       be astonished
+    -- bht     bohut   IV_intr be astonished
+
+    FaCuL                     `verb`       {- bahut-u -}        [ "be astonished" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bhut IV_intr" ] -},
+
+    -- ;; bahat-a_1
+    -- bht     bahat   PV-t    assail;astonish
+    -- bht     bohat   IV      assail;astonish
+
+    FaCaL                     `verb`       {- bahat-a -}        [ "assail", "astonish" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bhat IV" ] -},
+
+    -- ;; bAhat_1
+    -- bAht    bAhat   PV-t    startle;astonish
+    -- bAht    bAhit   IV_yu   startle;astonish
+
+    FACaL                     `verb`       {- bAhat -}          [ "startle", "astonish" ]
+                              {- `others` [ "bAhit IV_yu" ] -},
+
+    -- ;; >abohat_1
+    -- >bht    >abohat PV-t    astonish;startle
+    -- Abht    >abohat PV-t    astonish;startle
+    -- bht     bohit   IV_yu   astonish;startle
+    -- bht     bohat   IV_Pass_yu      be astonished;be startled
+
+    HaFCaL                    `verb`       {- Oabohat -}        [ "astonish", "startle", "be astonished", "be startled" ]
+                              {- `others` [ "bhit IV_yu", "bhat IV_Pass_yu" ] -},
+
+    -- ;; {inobahat_1
+    -- <nbht   {inobahat       PV-t_intr       be astonished
+    -- Anbht   {inobahat       PV-t_intr       be astonished
+    -- nbht    nobahit IV_intr be astonished
+
+    InFaCaL                   `verb`       {- {inobahat -}      [ "be astonished" ]
+                              {- `others` [ "nbahit IV_intr" ] -},
+
+    -- ;; buhot_1
+    -- bht     buhot   N       slander
+
+    FuCL                      `noun`       {- buhot -}          [ "slander" ],
+
+    -- ;; buhotAn_1
+    -- bhtAn   buhotAn N       slander
+
+    FuCLAn                    `noun`       {- buhotAn -}        [ "slander" ],
+
+    -- ;; bahotap_1
+    -- bht     bahot   Nap     amazement
+
+    FaCL |< aT                `noun`       {- bahotap -}        [ "amazement" ],
+
+    -- ;; bAhit_1
+    -- bAht    bAhit   Nall    pale;astonished;startled
+
+    FACiL                     `noun`       {- bAhit -}          [ "pale", "astonished", "startled" ],
+
+    -- ;; mabohuwt_1
+    -- mbhwt   mabohuwt        Nall    astonished;startled
+
+    MaFCUL                    `noun`       {- mabohuwt -}       [ "astonished", "startled" ] ]
+
+ |> "b h t n" <| [
+
+    -- ;; buhotAn_1
+    -- bhtAn   buhotAn N       slander
+
+    KuRDAS                    `noun`       {- buhotAn -}        [ "slander" ] ]
+
+ |> "b h t r" <| [
+
+    -- ;; bahotar_1
+    -- bhtr    bahotar PV      lie
+    -- bhtr    bahotir IV_yu   lie
+
+    KaRDaS                    `verb`       {- bahotar -}        [ "lie" ]
+                              {- `others` [ "bahtir IV_yu" ] -},
+
+    -- ;; bahotarap_1
+    -- bhtr    bahotar Nap     lying
+
+    KaRDaS |< aT              `noun`       {- bahotarap -}      [ "lying" ] ]
+
+ |> "b h w" <| [
+
+    -- ;; bahow_1
+    -- bhw     bahow   Ndu     parlor;lobby
+    -- >bhA'   >abohA' N0_Nh   parlors;lobbies
+    -- AbhA'   >abohA' N0_Nh   parlors;lobbies
+    -- >bhA&   >abohA& Nh      parlors;lobbies
+    -- AbhA&   >abohA& Nh      parlors;lobbies
+    -- >bhA}   >abohA} Nhy     parlors;lobbies
+    -- AbhA}   >abohA} Nhy     parlors;lobbies
+
+    FaCL                      `noun`       {- bahow -}          [ "parlor", "lobby", "parlors", "lobbies" ] ]
+
+ |> "b h y" <| [
+
+    -- ;; bahiy-a_1
+    -- bhy     bahiy   PV_no-w_intr    be beautiful
+    -- bh      bah     PV_w_intr       be beautiful
+    -- bhY     bohaY   IV_0    be beautiful
+    -- bhy     bohay   IV_Ann  be beautiful
+    -- bh      boha    IV_0hwnyn       be beautiful
+
+    FaCiL                     `verb`       {- bahiy-a -}        [ "be beautiful" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bhY IV_0", "bhay IV_Ann" ] -},
+
+    -- ;; mutabAhiy_1
+    -- mtbAhy  mutabAhiy       N0F_Nh  proud;boastful
+    -- mtbAh   mutabAh NK      proud;boastful
+    -- mtbAhy  mutabAhiy       NAn_Nayn        proud;boastful
+    -- mtbAh   mutabAh Nuwn_Niyn       proud;boastful
+    -- mtbAhy  mutabAhiy       NapAt   proud;boastful
+
+    MutaFACiL                 `noun`       {- mutabAhiy -}      [ "proud", "boastful" ] ]
+
+ |> "b h z" <| [
+
+    -- ;; bahaz-a_1
+    -- bhz     bahaz   PV      push;reject
+    -- bhz     bohaz   IV      push;reject
+
+    FaCaL                     `verb`       {- bahaz-a -}        [ "push", "reject" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bhaz IV" ] -},
+
+    -- ;; bahozap_1
+    -- bhz     bahoz   Napdu   rejection
+    -- bhz     bahaz   NAt     rejections
+
+    FaCL |< aT                `noun`       {- bahozap -}        [ "rejection", "rejections" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "bahaz NAt" ] -} ]
+
+ |> "b k '" <| [
+
+    -- ;; bakiy'_1
+    -- bky'    bakiy'  N0      sparing;sparce     [[bakiy'/ADJ]]
+    -- bky}    bakiy}  NF      sparing;sparce
+    -- bky}    bakiy}  NapAt   sparing;sparce
+    -- bky}    bakiy}  NAn_Nayn        sparing;sparce
+    -- bky}    bakiy}  Nuwn_Niyn       sparing;sparce
+    -- bkA'    bikA'   N0      sparing;sparce
+
+    FaCIL                     `adj`        {- bakiy' -}         [ "sparing", "sparce" ]
+                              `plural`     FiCAL
+                              `plural`     FiCA'
+                              {- `others` [ "bikA' N0" ] -},
+
+    -- ;; bakaY-i_1
+    -- bkY     bakaY   PV_0    cry;weep
+    -- bkA     bakA    PV_h    cry;weep
+    -- bky     bakay   PV_Atn  cry;weep
+    -- bk      bak     PV_ttAw cry;weep
+    -- bky     bokiy   IV_0hAnn        cry;weep
+    -- bk      bok     IV_0hwnyn       cry;weep
+    -- bkY     bokaY   IV_0    cry;weep
+
+    FaCY                      `verb`       {- bakaY-i -}        [ "cry", "weep" ]
+                              `imperf`     FCiL
+                              {- `others` [ "bkY IV_0", "bakA PV_h", "bkiy IV_0hAnn" ] -},
+
+    -- ;; bak~aY_1
+    -- bkY     bak~aY  PV_0    make cry
+    -- bkA     bak~A   PV_h    make cry
+    -- bky     bak~ay  PV_Atn  make cry
+    -- bk      bak~    PV_ttAw make cry
+    -- bky     bak~iy  IV_0hAnn_yu     make cry
+    -- bk      bak~    IV_0hwnyn_yu    make cry
+    -- bkY     bak~aY  IV_0_Pass_yu    be made to cry
+    -- bky     bak~ay  IV_Ann_Pass_yu  be made to cry
+
+    FaCCY                     `verb`       {- bak~aY -}         [ "make cry", "be made to cry" ]
+                              {- `others` [ "bakkiy IV_0hAnn_yu" ] -},
+
+    -- ;; >abokaY_1
+    -- >bkY    >abokaY PV_0    make cry
+    -- AbkY    >abokaY PV_0    make cry
+    -- >bkA    >abokA  PV_h    make cry
+    -- AbkA    >abokA  PV_h    make cry
+    -- >bky    >abokay PV_Atn  make cry
+    -- Abky    >abokay PV_Atn  make cry
+    -- >bk     >abok   PV_ttAw make cry
+    -- Abk     >abok   PV_ttAw make cry
+    -- bky     bokiy   IV_0hAnn_yu     make cry
+    -- bk      bok     IV_0hwnyn_yu    make cry
+    -- bkY     bokaY   IV_0_Pass_yu    be made to cry
+    -- bky     bokay   IV_Ann_Pass_yu  be made to cry
+
+    HaFCY                     `verb`       {- OabokaY -}        [ "make cry", "be made to cry" ]
+                              {- `others` [ "bkY IV_0_Pass_yu", "bkiy IV_0hAnn_yu" ] -},
+
+    -- ;; tabAkaY_1
+    -- tbAkY   tabAkaY PV_0    feign tears;shed crocodile tears
+    -- tbAkA   tabAkA  PV_h    feign tears;shed crocodile tears
+    -- tbAky   tabAkay PV_Atn  feign tears;shed crocodile tears
+    -- tbAk    tabAk   PV_ttAw feign tears;shed crocodile tears
+    -- tbAkY   tabAkaY IV_0    feign tears;shed crocodile tears
+    -- tbAkA   tabAkA  IV_h    feign tears;shed crocodile tears
+    -- tbAky   tabAkay IV_Ann  feign tears;shed crocodile tears
+    -- tbAk    tabAk   IV_0hwnyn       feign tears;shed crocodile tears
+
+    TaFACY                    `verb`       {- tabAkaY -}        [ "feign tears", "shed crocodile tears" ],
+
+    -- ;; {isotabokaY_1
+    -- <stbkY  {isotabokaY     PV_0    make cry
+    -- AstbkY  {isotabokaY     PV_0    make cry
+    -- <stbkA  {isotabokA      PV_h    make cry
+    -- AstbkA  {isotabokA      PV_h    make cry
+    -- <stbky  {isotabokay     PV_Atn  make cry
+    -- Astbky  {isotabokay     PV_Atn  make cry
+    -- <stbk   {isotabok       PV_ttAw make cry
+    -- Astbk   {isotabok       PV_ttAw make cry
+    -- stbky   sotabokiy       IV_0hAnn        make cry
+    -- stbk    sotabok IV_0hwnyn       make cry
+
+    IstaFCY                   `verb`       {- {isotabokaY -}    [ "make cry" ],
+
+    -- ;; bukA'_1
+    -- bkA'    bukA'   N0_Nh   crying;weeping
+    -- bkA&    bukA&   Nh      crying;weeping
+    -- bkA}    bukA}   Nhy     crying;weeping
+
+    FuCAL                     `noun`       {- bukA' -}          [ "crying", "weeping" ],
+
+    -- ;; bak~A'_1
+    -- bkA'    bak~A'  N0      tearful
+    -- bkA'    bak~A'  Nh      tearful
+    -- bkA&    bak~A&  Nh      tearful
+    -- bkA}    bak~A}  Nhy     tearful
+    -- bkA}    bak~A}  NAn_Nayn        tearful
+    -- bkA&    bak~A&  Nuwn_Niyn       tearful
+
+    FaCCAL                    `noun`       {- bak~A' -}         [ "tearful" ],
+
+    -- ;; mabokaY_1
+    -- mbkY    mabokaY N0      wailing
+    -- mbkA    mabokA  Nhy     wailing
+
+    MaFCY                     `noun`       {- mabokaY -}        [ "wailing" ],
+
+    -- ;; bAkiy_1
+    -- bAky    bAkiy   N0F     mourner;weeping
+    -- bAk     bAk     NK      mourner;weeping
+    -- bAky    bAkiy   NAn_Nayn        mourner;weeping
+    -- bAk     bAk     Nuwn_Niyn       mourner;weeping
+    -- bAky    bAkiy   NapAt   mourner;weeping
+    -- bkA     bukA    Nap     mourners;weepers
+    -- bwAky   bawAkiy N0_Nh   mourners;weeping
+    -- bwAk    bawAk   NK      mourners;weeping
+
+    FACI                      `noun`       {- bAkiy -}          [ "mourner", "weeping", "mourners", "weepers" ],
+
+    -- ;; mubak~iy_1
+    -- mbky    mubak~iy        N0F_Nh  tearful;lamentable
+    -- mbk     mubak~  NK      tearful;lamentable
+    -- mbky    mubak~iy        NAn_Nayn        tearful;lamentable
+    -- mbk     mubak~  Nuwn_Niyn       tearful;lamentable
+    -- mbky    mubak~iy        NapAt   tearful;lamentable
+    -- mbky    mubokiy N0F_Nh  tearful;lamentable
+    -- mbk     mubok   NK      tearful;lamentable
+    -- mbky    mubokiy NAn_Nayn        tearful;lamentable
+    -- mbk     mubok   Nuwn_Niyn       tearful;lamentable
+    -- mbky    mubokiy NapAt   tearful;lamentable
+
+    MuFaCCI                   `noun`       {- mubak~iy -}       [ "tearful", "lamentable" ]
+                              `plural`     MuFCI |< At
+                              {- `others` [ "mubkiy N0F_Nh NapAt NAn_Nayn" ] -} ]
+
+ |> "b k b ^s" <| [
+
+    -- ;; bikobA$iy~_1
+    -- bkbA$y  bikobA$iy~      Nall    lieutenant colonel     [[bikobA$iy~/ADJ]]
+
+    KiRDAS |< Iy              `adj`        {- bikobA$iy~ -}     [ "lieutenant colonel" ] ]
+
+ |> "b k k" <| [
+
+    -- ;; bak~ap_1
+    -- bkp     bak~ap  N0      Bakka (ancient name of Mecca)
+
+    FaCL |< aT                `noun`       {- bak~ap -}         [ "Bakka (ancient name of Mecca)" ],
+
+    -- ;; bak~aY_1
+    -- bkY     bak~aY  PV_0    make cry
+    -- bkA     bak~A   PV_h    make cry
+    -- bky     bak~ay  PV_Atn  make cry
+    -- bk      bak~    PV_ttAw make cry
+    -- bky     bak~iy  IV_0hAnn_yu     make cry
+    -- bk      bak~    IV_0hwnyn_yu    make cry
+    -- bkY     bak~aY  IV_0_Pass_yu    be made to cry
+    -- bky     bak~ay  IV_Ann_Pass_yu  be made to cry
+
+    FaCLY                     `verb`       {- bak~aY -}         [ "make cry", "be made to cry" ]
+                              {- `others` [ "bakkiy IV_0hAnn_yu", "bakk IV_0hwnyn_yu PV_ttAw" ] -} ]
+
+ |> "b k l" <| [
+
+    -- ;; bak~al_1
+    -- bkl     bak~al  PV      buckle;fold
+    -- bkl     bak~il  IV_yu   buckle;fold
+    -- bkl     bak~al  IV_Pass_yu      be buckled;be folded
+
+    FaCCaL                    `verb`       {- bak~al -}         [ "buckle", "fold", "be buckled", "be folded" ]
+                              {- `others` [ "bakkil IV_yu" ] -},
+
+    -- ;; bukolap_1
+    -- bkl     bukol   NapAt   clasp
+    -- bkl     bukal   N       clasps
+
+    FuCL |< aT                `noun`       {- bukolap -}        [ "clasp", "clasps" ]
+                              `plural`     FuCaL
+                              {- `others` [ "bukal N" ] -} ]
+
+ |> "b k m" <| [
+
+    -- ;; bakim-a_1
+    -- bkm     bakim   PV_intr be mute
+    -- bkm     bokam   IV_intr be mute
+
+    FaCiL                     `verb`       {- bakim-a -}        [ "be mute" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bkam IV_intr" ] -},
+
+    -- ;; bakum-u_1
+    -- bkm     bakum   PV_intr be silent
+    -- bkm     bokum   IV_intr be silent
+
+    FaCuL                     `verb`       {- bakum-u -}        [ "be silent" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bkum IV_intr" ] -},
+
+    -- ;; >abokam_1
+    -- >bkm    >abokam PV      silence;mute
+    -- Abkm    >abokam PV      silence;mute
+    -- bkm     bokim   IV_yu   silence;mute
+    -- bkm     bokam   IV_Pass_yu      be silenced;be muted
+
+    HaFCaL                    `verb`       {- Oabokam -}        [ "silence", "mute", "be silenced", "be muted" ]
+                              {- `others` [ "bkim IV_yu", "bkam IV_Pass_yu" ] -},
+
+    -- ;; tabak~am_1
+    -- tbkm    tabak~am        PV_intr be silent;be mute
+    -- tbkm    tabak~am        IV_intr be silent;be mute
+
+    TaFaCCaL                  `verb`       {- tabak~am -}       [ "be silent", "be mute" ],
+
+    -- ;; bakam_1
+    -- bkm     bakam   N       muteness;silence
+
+    FaCaL                     `noun`       {- bakam -}          [ "muteness", "silence" ],
+
+    -- ;; >abokam_2
+    -- >bkm    >abokam Nel     silent;mute
+    -- Abkm    >abokam Nel     silent;mute
+    -- bkmA'   bakomA' N0_Nh   silent;mute
+    -- bkmA&   bakomA& Nh      silent;mute
+    -- bkmA}   bakomA} Nhy     silent;mute
+    -- bkm     bukom   N       silent;mute
+
+    HaFCaL                    `noun`       {- Oabokam -}        [ "silent", "mute" ]
+                              `plural`     FuCL
+                              `plural`     FaCLA'
+                              {- `others` [ "bukm N", "bakmA' Nh N0_Nh Nhy" ] -} ]
+
+ |> "b k r" <| [
+
+    -- ;; bakar-u_1
+    -- bkr     bakar   PV      rise early
+    -- bkr     bokur   IV      rise early
+
+    FaCaL                     `verb`       {- bakar-u -}        [ "rise early" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bkur IV" ] -},
+
+    -- ;; bak~ar_1
+    -- bkr     bak~ar  PV      do early
+    -- bkr     bak~ir  IV_yu   do early
+    -- bkr     bak~ar  IV_Pass_yu      be done early
+
+    FaCCaL                    `verb`       {- bak~ar -}         [ "do early", "be done early" ]
+                              {- `others` [ "bakkir IV_yu" ] -},
+
+    -- ;; bAkar_1
+    -- bAkr    bAkar   PV      anticipate;forestall
+    -- bAkr    bAkir   IV_yu   anticipate;forestall
+
+    FACaL                     `verb`       {- bAkar -}          [ "anticipate", "forestall" ]
+                              {- `others` [ "bAkir IV_yu" ] -},
+
+    -- ;; >abokar_1
+    -- >bkr    >abokar PV_intr be the first;be precocious
+    -- Abkr    >abokar PV_intr be the first;be precocious
+    -- bkr     bokir   IV_intr_yu      be the first;be precocious
+
+    HaFCaL                    `verb`       {- Oabokar -}        [ "be the first", "be precocious" ]
+                              {- `others` [ "bkir IV_intr_yu" ] -},
+
+    -- ;; {ibotakar_1
+    -- <btkr   {ibotakar       PV      invent;originate
+    -- Abtkr   {ibotakar       PV      invent;originate
+    -- btkr    botakir IV      invent;originate
+
+    IFtaCaL                   `verb`       {- {ibotakar -}      [ "invent", "originate" ]
+                              {- `others` [ "btakir IV" ] -},
+
+    -- ;; bakor_1
+    -- bkr     bakor   N0      Bakr
+
+    FaCL                      `noun`       {- bakor -}          [ "Bakr" ],
+
+    -- ;; bakoriy~_1
+    -- bkry    bakoriy~        N0      Bakri
+
+    FaCL |< Iy                `adj`        {- bakoriy~ -}       [ "Bakri" ],
+
+    -- ;; bakor_2
+    -- bkr     bakor   N       young camel
+    -- >bkr    >abokur N       young camels
+    -- Abkr    >abokur N       young camels
+    -- bkrAn   bukorAn N       young camels
+
+    FaCL                      `noun`       {- bakor -}          [ "young camel", "young camels" ]
+                              `plural`     FuCLAn
+                              {- `others` [ "bukrAn N" ] -},
+
+    -- ;; bikor_1
+    -- bkr     bikor   N       eldest;first-born     [[bikor/ADJ]]
+    -- >bkAr   >abokAr N       eldest;first-born     [[>abokAr/ADJ]]
+    -- AbkAr   >abokAr N       eldest;first-born     [[>abokAr/ADJ]]
+
+    FiCL                      `adj`        {- bikor -}          [ "eldest", "first-born" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abkAr N" ] -},
+
+    -- ;; bikoriy~_1
+    -- bkry    bikoriy~        Nall    first-born     [[bikoriy~/ADJ]]
+
+    FiCL |< Iy                `adj`        {- bikoriy~ -}       [ "first-born" ],
+
+    -- ;; bakorap_1
+    -- bkr     bakor   Napdu   reel;pulley;winch
+    -- bkr     bakar   NAt     reels;pulleys;winches
+    -- bkr     bakar   N       reels;pulleys;winches
+
+    FaCL |< aT                `noun`       {- bakorap -}        [ "reel", "pulley", "winch", "reels", "pulleys", "winches" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "bakar NAt N" ] -},
+
+    -- ;; bukorap_1
+    -- bkr     bukor   Nap     tomorrow
+
+    FuCL |< aT                `noun`       {- bukorap -}        [ "tomorrow" ],
+
+    -- ;; bakiyr_1
+    -- bkyr    bakiyr  Nall    early;precocious
+    -- bkwr    bakuwr  Nall    early;premature
+    -- bAkwr   bAkuwr  Nall    early;premature
+
+    FaCIL                     `noun`       {- bakiyr -}         [ "early", "precocious", "premature" ]
+                              `plural`     FACUL
+                              `plural`     FaCUL
+                              {- `others` [ "bAkuwr Nall", "bakuwr Nall" ] -},
+
+    -- ;; bukuwr_1
+    -- bkwr    bukuwr  N       earliness;daybreak
+
+    FuCUL                     `noun`       {- bukuwr -}         [ "earliness", "daybreak" ],
+
+    -- ;; bakArap_1
+    -- bkAr    bakAr   Nap     virginity
+
+    FaCAL |< aT               `noun`       {- bakArap -}        [ "virginity" ],
+
+    -- ;; bak~Arap_1
+    -- bkAr    bak~Ar  NapAt   pulley
+
+    FaCCAL |< aT              `noun`       {- bak~Arap -}       [ "pulley" ],
+
+    -- ;; bukuwrap_1
+    -- bkwr    bukuwr  Nap     primogeniture
+    -- bkwry   bukuwriy~       Nap     primogeniture     [[bukuwriy~/NOUN]]
+
+    FuCUL |< aT               `noun`       {- bukuwrap -}       [ "primogeniture" ],
+
+    -- ;; bAkuwrap_1
+    -- bAkwr   bAkuwr  Nap     first works
+    -- bwAkyr  bawAkiyr        Ndip    first works
+
+    FACUL |< aT               `noun`       {- bAkuwrap -}       [ "first works" ]
+                              `plural`     FawACIL
+                              {- `others` [ "bawAkiyr Ndip" ] -},
+
+    -- ;; >abokar_2
+    -- >bkr    >abokar Nel     earlier/earliest
+    -- Abkr    >abokar Nel     earlier/earliest
+
+    HaFCaL                    `noun`       {- Oabokar -}        [ "earlier/earliest" ],
+
+    -- ;; mibokAr_1
+    -- mbkAr   mibokAr Ndu     precocious
+
+    MiFCAL                    `noun`       {- mibokAr -}        [ "precocious" ],
+
+    -- ;; {ibotikAr_1
+    -- <btkAr  {ibotikAr       Ndu     invention
+    -- AbtkAr  {ibotikAr       Ndu     invention
+    -- <btkAr  {ibotikAr       NAt     inventions
+    -- AbtkAr  {ibotikAr       NAt     inventions
+
+    IFtiCAL                   `noun`       {- {ibotikAr -}      [ "invention", "inventions" ],
+
+    -- ;; {ibotikAriy~_1
+    -- <btkAry {ibotikAriy~    Nall    original;inventive     [[{ibotikAriy~/ADJ]]
+    -- AbtkAry {ibotikAriy~    Nall    original;inventive     [[{ibotikAriy~/ADJ]]
+
+    IFtiCAL |< Iy             `adj`        {- {ibotikAriy~ -}   [ "original", "inventive" ],
+
+    -- ;; {ibotikAriy~ap_1
+    -- <btkAry {ibotikAriy~    Nap     originality;inventiveness     [[{ibotikAriy~/NOUN]]
+    -- AbtkAry {ibotikAriy~    Nap     originality;inventiveness     [[{ibotikAriy~/NOUN]]
+
+    IFtiCAL |< Iy |< aT       `noun`       {- {ibotikAriy~ap -} [ "originality", "inventiveness" ],
+
+    -- ;; bAkir_1
+    -- bAkr    bAkir   N-ap    early
+
+    FACiL                     `noun`       {- bAkir -}          [ "early" ],
+
+    -- ;; bAkirap_1
+    -- bAkr    bAkir   Nap     harbinger;early fruits
+    -- bwAkr   bawAkir Ndip    harbingers;early fruits
+
+    FACiL |< aT               `noun`       {- bAkirap -}        [ "harbinger", "early fruits", "harbingers" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawAkir Ndip" ] -},
+
+    -- ;; mubak~ir_1
+    -- mbkr    mubak~ir        Nall    early     [[mubak~ir/ADJ]]
+
+    MuFaCCiL                  `adj`        {- mubak~ir -}       [ "early" ],
+
+    -- ;; mubotakir_1
+    -- mbtkr   mubotakir       Nall    inventor;original
+
+    MuFtaCiL                  `noun`       {- mubotakir -}      [ "inventor", "original" ],
+
+    -- ;; mubotakar_1
+    -- mbtkr   mubotakar       Ndu     invention;creation
+    -- mbtkr   mubotakar       NAt     inventions;creations
+
+    MuFtaCaL                  `noun`       {- mubotakar -}      [ "invention", "creation", "inventions", "creations" ],
+
+    -- ;; biykAr_1
+    -- bykAr   biykAr  N       compass;dividers
+
+    FICAL                     `noun`       {- biykAr -}         [ "compass", "dividers" ] ]
+
+ |> "b k r ^g" <| [
+
+    -- ;; bakoraj_1
+    -- bkrj    bakoraj N       kettle;coffee pot
+    -- bkArj   bakArij Ndip    kettles;coffee pots
+
+    KaRDaS                    `noun`       {- bakoraj -}        [ "kettle", "coffee pot", "kettles", "coffee pots" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "bakAri^g Ndip" ] -} ]
+
+ |> "b k t" <| [
+
+    -- ;; bak~at_1
+    -- bkt     bak~at  PV-t    censure;reprimand
+    -- bkt     bak~it  IV_yu   censure;reprimand
+    -- bkt     bak~at  IV_Pass_yu      be censured;be reprimanded
+
+    FaCCaL                    `verb`       {- bak~at -}         [ "censure", "reprimand", "be censured", "be reprimanded" ]
+                              {- `others` [ "bakkit IV_yu" ] -},
+
+    -- ;; tabokiyt_1
+    -- tbkyt   tabokiyt        NduAt   reproach;remorse
+
+    TaFCIL                    `noun`       {- tabokiyt -}       [ "reproach", "remorse" ] ]
+
+ |> "b k t r" <| [
+
+    -- ;; bakotiyriy~_1
+    -- bktyry  bakotiyriy~     Nall    bacterial     [[bakotiyriy~/ADJ]]
+
+    KaRDIS |< Iy              `adj`        {- bakotiyriy~ -}    [ "bacterial" ] ]
+
+ |> "b k y" <| [
+
+    -- ;; bakiy-a_1
+    -- bky     bakiy   PV_no-w mourn
+    -- bk      bak     PV_w    mourn
+    -- bkY     bokaY   IV_0    mourn
+    -- bkA     bokA    IV_h    mourn
+    -- bky     bokay   IV_Ann  mourn
+    -- bk      boka    IV_0hwnyn       mourn
+
+    FaCiL                     `verb`       {- bakiy-a -}        [ "mourn" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bkY IV_0", "bkay IV_Ann" ] -},
+
+    -- ;; bAkiy_1
+    -- bAky    bAkiy   N0F     mourner;weeping
+    -- bAk     bAk     NK      mourner;weeping
+    -- bAky    bAkiy   NAn_Nayn        mourner;weeping
+    -- bAk     bAk     Nuwn_Niyn       mourner;weeping
+    -- bAky    bAkiy   NapAt   mourner;weeping
+    -- bkA     bukA    Nap     mourners;weepers
+    -- bwAky   bawAkiy N0_Nh   mourners;weeping
+    -- bwAk    bawAk   NK      mourners;weeping
+
+    FACiL                     `noun`       {- bAkiy -}          [ "mourner", "weeping", "mourners", "weepers" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawAkiy N0_Nh" ] -},
+
+    -- ;; mubak~iy_1
+    -- mbky    mubak~iy        N0F_Nh  tearful;lamentable
+    -- mbk     mubak~  NK      tearful;lamentable
+    -- mbky    mubak~iy        NAn_Nayn        tearful;lamentable
+    -- mbk     mubak~  Nuwn_Niyn       tearful;lamentable
+    -- mbky    mubak~iy        NapAt   tearful;lamentable
+    -- mbky    mubokiy N0F_Nh  tearful;lamentable
+    -- mbk     mubok   NK      tearful;lamentable
+    -- mbky    mubokiy NAn_Nayn        tearful;lamentable
+    -- mbk     mubok   Nuwn_Niyn       tearful;lamentable
+    -- mbky    mubokiy NapAt   tearful;lamentable
+
+    MuFaCCiL                  `noun`       {- mubak~iy -}       [ "tearful", "lamentable" ]
+                              `plural`     MuFCiL |< At
+                              `plural`     MuFCI |< At
+                              {- `others` [ "mubkiy N0F_Nh NapAt NAn_Nayn" ] -} ]
+
+ |> "b l '" <| [
+
+    -- ;; balA'_1
+    -- blA'    balA'   N0_Nh   tribulation;affliction
+    -- blA&    balA&   Nh      tribulation;affliction
+    -- blA}    balA}   Nhy     tribulation;affliction
+
+    FaCAL                     `noun`       {- balA' -}          [ "tribulation", "affliction" ],
+
+    -- ;; {ibotilA'_1
+    -- <btlA'  {ibotilA'       N0_Nh   affliction;tribulation
+    -- AbtlA'  {ibotilA'       N0_Nh   affliction;tribulation
+    -- <btlA&  {ibotilA&       Nh      affliction;tribulation
+    -- AbtlA&  {ibotilA&       Nh      affliction;tribulation
+    -- <btlA}  {ibotilA}       Nhy     affliction;tribulation
+    -- AbtlA}  {ibotilA}       Nhy     affliction;tribulation
+    -- <btlA'  {ibotilA'       NAn_Nayn        afflictions;tribulations
+    -- AbtlA'  {ibotilA'       NAn_Nayn        afflictions;tribulations
+    -- <btlA}  {ibotilA}       Nayn    afflictions;tribulations
+    -- AbtlA}  {ibotilA}       Nayn    afflictions;tribulations
+    -- <btlA'  {ibotilA'       NAt     afflictions;tribulations
+    -- AbtlA'  {ibotilA'       NAt     afflictions;tribulations
+
+    IFtiCAL                   `noun`       {- {ibotilA' -}      [ "affliction", "tribulation", "afflictions", "tribulations" ] ]
+
+ |> "b l .g" <| [
+
+    -- ;; balag-u_1
+    -- blg     balag   PV      reach;attain
+    -- blg     bolug   IV      reach;attain
+
+    FaCaL                     `verb`       {- balag-u -}        [ "reach", "attain" ]
+                              `imperf`     FCuL
+                              {- `others` [ "blu.g IV" ] -},
+
+    -- ;; balug-u_1
+    -- blg     balug   PV_intr be eloquent
+    -- blg     bolug   IV_intr be eloquent
+
+    FaCuL                     `verb`       {- balug-u -}        [ "be eloquent" ]
+                              `imperf`     FCuL
+                              {- `others` [ "blu.g IV_intr" ] -},
+
+    -- ;; bal~ag_1
+    -- blg     bal~ag  PV      communicate;convey
+    -- blg     bal~ig  IV_yu   communicate;convey
+
+    FaCCaL                    `verb`       {- bal~ag -}         [ "communicate", "convey" ]
+                              {- `others` [ "balli.g IV_yu" ] -},
+
+    -- ;; bAlag_1
+    -- bAlg    bAlag   PV      exaggerate
+    -- bAlg    bAlig   IV_yu   exaggerate
+
+    FACaL                     `verb`       {- bAlag -}          [ "exaggerate" ]
+                              {- `others` [ "bAli.g IV_yu" ] -},
+
+    -- ;; >abolag_1
+    -- >blg    >abolag PV      report;inform;notify
+    -- Ablg    >abolag PV      report;inform;notify
+    -- blg     bolig   IV_yu   report;inform;notify
+    -- blg     bolag   IV_Pass_yu      be reported;be informed;be notified
+
+    HaFCaL                    `verb`       {- Oabolag -}        [ "report", "inform", "notify", "be reported", "be informed", "be notified" ]
+                              {- `others` [ "bli.g IV_yu", "bla.g IV_Pass_yu" ] -},
+
+    -- ;; tabal~ag_1
+    -- tblg    tabal~ag        PV_intr be informed
+    -- tblg    tabal~ag        IV_intr be informed
+
+    TaFaCCaL                  `verb`       {- tabal~ag -}       [ "be informed" ],
+
+    -- ;; bulogap_1
+    -- blg     bulog   Nap     competency;adequacy
+
+    FuCL |< aT                `noun`       {- bulogap -}        [ "competency", "adequacy" ],
+
+    -- ;; balAg_1
+    -- blAg    balAg   NduAt   communique;report;notification;notice
+
+    FaCAL                     `noun`       {- balAg -}          [ "communique", "report", "notification", "notice" ],
+
+    -- ;; baliyg_1
+    -- blyg    baliyg  Nall    orator
+    -- blgA'   bulagA' N0_Nh   orators
+    -- blgA&   bulagA& Nh      orators
+    -- blgA}   bulagA} Nhy     orators
+
+    FaCIL                     `noun`       {- baliyg -}         [ "orator", "orators" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "bula.gA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; baliyg_2
+    -- blyg    baliyg  Nall    eloquent     [[baliyg/ADJ]]
+    -- blgA'   bulagA' N0_Nh   eloquent     [[bulagA'/ADJ]]
+    -- blgA&   bulagA& Nh      eloquent     [[bulagA&/ADJ]]
+    -- blgA}   bulagA} Nhy     eloquent     [[bulagA}/ADJ]]
+
+    FaCIL                     `adj`        {- baliyg -}         [ "eloquent" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "bula.gA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; buluwg_1
+    -- blwg    buluwg  N       reaching;attainment
+
+    FuCUL                     `noun`       {- buluwg -}         [ "reaching", "attainment" ],
+
+    -- ;; balAgap_1
+    -- blAg    balAg   Nap     eloquence
+
+    FaCAL |< aT               `noun`       {- balAgap -}        [ "eloquence" ],
+
+    -- ;; >abolag_2
+    -- >blg    >abolag Nel     more/most eloquent
+    -- Ablg    >abolag Nel     more/most eloquent
+
+    HaFCaL                    `noun`       {- Oabolag -}        [ "more/most eloquent" ],
+
+    -- ;; mabolag_1
+    -- mblg    mabolag Ndu     amount;sum
+    -- mbAlg   mabAlig Ndip    amounts;sums
+
+    MaFCaL                    `noun`       {- mabolag -}        [ "amount", "sum", "amounts", "sums" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "mabAli.g Ndip" ] -},
+
+    -- ;; taboliyg_1
+    -- tblyg   taboliyg        NduAt   conveyance;notification;informing
+
+    TaFCIL                    `noun`       {- taboliyg -}       [ "conveyance", "notification", "informing" ],
+
+    -- ;; mubAlagap_1
+    -- mbAlg   mubAlag NapAt   exaggeration
+
+    MuFACaL |< aT             `noun`       {- mubAlagap -}      [ "exaggeration" ],
+
+    -- ;; <ibolAg_1
+    -- <blAg   <ibolAg NduAt   reporting;notification;informing
+    -- AblAg   <ibolAg NduAt   reporting;notification;informing
+
+    HiFCAL                    `noun`       {- IibolAg -}        [ "reporting", "notification", "informing" ],
+
+    -- ;; bAlig_1
+    -- bAlg    bAlig   N-ap    extreme;profound     [[bAlig/ADJ]]
+
+    FACiL                     `adj`        {- bAlig -}          [ "extreme", "profound" ],
+
+    -- ;; bAlig_2
+    -- bAlg    bAlig   Nall    reaching;attaining     [[bAlig/ADJ]]
+    -- bAlg    bAlig   Nall    adult
+
+    FACiL                     `adj`        {- bAlig -}          [ "reaching", "attaining", "adult" ],
+
+    -- ;; bAlig_3
+    -- bAlg    bAlig   N-ap    serious;critical
+
+    FACiL                     `noun`       {- bAlig -}          [ "serious", "critical" ],
+
+    -- ;; mubal~ig_1
+    -- mblg    mubal~ig        Nall    informer;announcing
+
+    MuFaCCiL                  `noun`       {- mubal~ig -}       [ "informer", "announcing" ],
+
+    -- ;; mubAlig_1
+    -- mbAlg   mubAlig Nall    exaggerating
+
+    MuFACiL                   `noun`       {- mubAlig -}        [ "exaggerating" ],
+
+    -- ;; mubAlag_1
+    -- mbAlg   mubAlag N       exaggerated
+
+    MuFACaL                   `noun`       {- mubAlag -}        [ "exaggerated" ],
+
+    -- ;; bulogap_2
+    -- blg     bulog   NapAt   slipper
+    -- blg     bulag   N       slippers
+
+    FuCL |< aT                `noun`       {- bulogap -}        [ "slipper", "slippers" ]
+                              `plural`     FuCaL
+                              {- `others` [ "bula.g N" ] -} ]
+
+ |> "b l .g m" <| [
+
+    -- ;; balogam_1
+    -- blgm    balogam N       phlegm
+    -- blAgm   balAgim Ndip    phlegm
+
+    KaRDaS                    `noun`       {- balogam -}        [ "phlegm" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "balA.gim Ndip" ] -},
+
+    -- ;; balogamiy~_1
+    -- blgmy   balogamiy~      Nall    mucous;phlegmy     [[balogamiy~/ADJ]]
+
+    KaRDaS |< Iy              `adj`        {- balogamiy~ -}     [ "mucous", "phlegmy" ] ]
+
+ |> "b l .g r" <| [
+
+    -- ;; bulogAr_1
+    -- blgAr   bulogAr N       Bulgarians
+
+    KuRDAS                    `noun`       {- bulogAr -}        [ "Bulgarians" ],
+
+    -- ;; bulogAriy~_1
+    -- blgAry  bulogAriy~      Nall    Bulgarian     [[bulogAriy~/NOUN]]
+    -- blgAry  bulogAriy~      Nall    Bulgarian     [[bulogAriy~/ADJ]]
+
+    KuRDAS |< Iy              `adj`        {- bulogAriy~ -}     [ "Bulgarian" ] ]
+
+ |> "b l .h" <| [
+
+    -- ;; balaH_1
+    -- blH     balaH   N0      Balah
+
+    FaCaL                     `noun`       {- balaH -}          [ "Balah" ],
+
+    -- ;; balaH-a_1
+    -- blH     balaH   PV_intr dry up
+    -- blH     bolaH   IV_intr dry up
+
+    FaCaL                     `verb`       {- balaH-a -}        [ "dry up" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bla.h IV_intr" ] -},
+
+    -- ;; balaH_2
+    -- blH     balaH   N       dates (fruit)
+    -- blH     balaH   NapAt   date (fruit)
+
+    FaCaL                     `noun`       {- balaH -}          [ "dates (fruit)", "date (fruit)" ] ]
+
+ |> "b l .s" <| [
+
+    -- ;; balaS-u_1
+    -- blS     balaS   PV      extort;blackmail
+    -- blS     boluS   IV      extort;blackmail
+
+    FaCaL                     `verb`       {- balaS-u -}        [ "extort", "blackmail" ]
+                              `imperf`     FCuL
+                              {- `others` [ "blu.s IV" ] -},
+
+    -- ;; bal~aS_1
+    -- blS     bal~aS  PV      extort;blackmail
+    -- blS     bal~iS  IV_yu   extort;blackmail
+
+    FaCCaL                    `verb`       {- bal~aS -}         [ "extort", "blackmail" ]
+                              {- `others` [ "balli.s IV_yu" ] -},
+
+    -- ;; baloS_1
+    -- blS     baloS   N       extortion;blackmail
+
+    FaCL                      `noun`       {- baloS -}          [ "extortion", "blackmail" ],
+
+    -- ;; bal~AS_1
+    -- blAS    bal~AS  N       jar
+    -- blAlyS  balAliyS        Ndip    jars
+
+    FaCCAL                    `noun`       {- bal~AS -}         [ "jar", "jars" ]
+                              `plural`     FaCACIL
+                              {- `others` [ "balAliy.s Ndip" ] -} ]
+
+ |> "b l .t" <| [
+
+    -- ;; bal~aT_1
+    -- blT     bal~aT  PV      pave;tile
+    -- blT     bal~iT  IV_yu   pave;tile
+
+    FaCCaL                    `verb`       {- bal~aT -}         [ "pave", "tile" ]
+                              {- `others` [ "balli.t IV_yu" ] -},
+
+    -- ;; balAT_1
+    -- blAT    balAT   N       court;palace
+
+    FaCAL                     `noun`       {- balAT -}          [ "court", "palace" ],
+
+    -- ;; balATap_1
+    -- blATp   balATap N0      Balata
+
+    FaCAL |< aT               `noun`       {- balATap -}        [ "Balata" ],
+
+    -- ;; balATap_2
+    -- blAT    balAT   NapAt   floor tile
+    -- blAT    balAT   N       floor tiles
+    -- >blT    >aboliT Nap     floor tiles
+    -- AblT    >aboliT Nap     floor tiles
+
+    FaCAL |< aT               `noun`       {- balATap -}        [ "floor tile", "floor tiles" ]
+                              `plural`     HaFCiL |< aT
+                              `plural`     FaCAL
+                              {- `others` [ "'abli.t Nap", "balA.t N" ] -},
+
+    -- ;; taboliyT_1
+    -- tblyT   taboliyT        NduAt   tile-laying;paving
+
+    TaFCIL                    `noun`       {- taboliyT -}       [ "tile-laying", "paving" ],
+
+    -- ;; mubal~aT_1
+    -- mblT    mubal~aT        N-ap    tiled;paved
+
+    MuFaCCaL                  `noun`       {- mubal~aT -}       [ "tiled", "paved" ],
+
+    -- ;; bal~uwT_1
+    -- blwT    bal~uwT N       oak;acorn
+
+    FaCCUL                    `noun`       {- bal~uwT -}        [ "oak", "acorn" ],
+
+    -- ;; bal~uwTap_1
+    -- blwT    bal~uwT Napdu   acorn;oak
+
+    FaCCUL |< aT              `noun`       {- bal~uwTap -}      [ "acorn", "oak" ],
+
+    -- ;; baloTap_1
+    -- blT     baloT   Napdu   ax
+    -- blT     balaT   NAt     axes
+    -- blT     bulaT   N       axes
+
+    FaCL |< aT                `noun`       {- baloTap -}        [ "ax", "axes" ]
+                              `plural`     FuCaL
+                              `plural`     FaCaL |< At
+                              {- `others` [ "bula.t N", "bala.t NAt" ] -} ]
+
+ |> "b l .t ^g" <| [
+
+    -- ;; baloTajiy~_1
+    -- blTjy   baloTajiy~      Nall    ruffian     [[baloTajiy~/ADJ]]
+
+    KaRDaS |< Iy              `adj`        {- baloTajiy~ -}     [ "ruffian" ] ]
+
+ |> "b l .t q" <| [
+
+    -- ;; baloTiyq_1
+    -- blTyq   baloTiyq        N       Baltic
+    -- blTyk   baloTiyk        N       Baltic
+
+    KaRDIS                    `noun`       {- baloTiyq -}       [ "Baltic" ] ]
+
+ |> "b l .z" <| [
+
+    -- ;; bAluwZap_1
+    -- bAlwZ   bAluwZ  Nap     cream
+
+    FACUL |< aT               `noun`       {- bAluwZap -}       [ "cream" ] ]
+
+ |> "b l ^g" <| [
+
+    -- ;; balaj-u_1
+    -- blj     balaj   PV      dawn;shine
+    -- blj     boluj   IV      dawn;shine
+
+    FaCaL                     `verb`       {- balaj-u -}        [ "dawn", "shine" ]
+                              `imperf`     FCuL
+                              {- `others` [ "blu^g IV" ] -},
+
+    -- ;; balij-a_1
+    -- blj     balij   PV_intr be happy;be serene
+    -- blj     bolaj   IV_intr be happy;be serene
+
+    FaCiL                     `verb`       {- balij-a -}        [ "be happy", "be serene" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bla^g IV_intr" ] -},
+
+    -- ;; >abolaj_1
+    -- >blj    >abolaj PV      dawn;shine
+    -- Ablj    >abolaj PV      dawn;shine
+    -- blj     bolij   IV_yu   dawn;shine
+
+    HaFCaL                    `verb`       {- Oabolaj -}        [ "dawn", "shine" ]
+                              {- `others` [ "bli^g IV_yu" ] -},
+
+    -- ;; {inobalaj_1
+    -- <nblj   {inobalaj       PV      dawn;shine
+    -- Anblj   {inobalaj       PV      dawn;shine
+    -- nblj    nobalij IV      dawn;shine
+
+    InFaCaL                   `verb`       {- {inobalaj -}      [ "dawn", "shine" ]
+                              {- `others` [ "nbali^g IV" ] -},
+
+    -- ;; {ibotalaj_1
+    -- <btlj   {ibotalaj       PV_intr be happy;dawn;shine
+    -- Abtlj   {ibotalaj       PV_intr be happy;dawn;shine
+    -- btlj    botalij IV_intr be happy;dawn;shine
+
+    IFtaCaL                   `verb`       {- {ibotalaj -}      [ "be happy", "dawn", "shine" ]
+                              {- `others` [ "btali^g IV_intr" ] -},
+
+    -- ;; >abolaj_2
+    -- >blj    >abolaj Nel     bright;beautiful
+    -- Ablj    >abolaj Nel     bright;beautiful
+
+    HaFCaL                    `noun`       {- Oabolaj -}        [ "bright", "beautiful" ],
+
+    -- ;; {inobilAj_1
+    -- <nblAj  {inobilAj       NduAt   dawning;daybreak
+    -- AnblAj  {inobilAj       NduAt   dawning;daybreak
+
+    InFiCAL                   `noun`       {- {inobilAj -}      [ "dawning", "daybreak" ] ]
+
+ |> "b l ^g k" <| [
+
+    -- ;; bilojiykiy~_1
+    -- bljyky  bilojiykiy~     Nall    Belgian     [[bilojiykiy~/NOUN]]
+    -- bljyky  bilojiykiy~     Nall    Belgian     [[bilojiykiy~/ADJ]]
+
+    KiRDIS |< Iy              `adj`        {- bilojiykiy~ -}    [ "Belgian" ] ]
+
+ |> "b l ^s" <| [
+
+    -- ;; bilA$_1
+    -- blA$    bilA$   N       gratis
+
+    FiCAL                     `noun`       {- bilA$ -}          [ "gratis" ],
+
+    -- ;; bilA$_2
+    -- blA$    bilA$   FW-Wa   never mind;forget about
+
+    FiCAL                     `noun`       {- bilA$ -}          [ "never mind", "forget about" ] ]
+
+ |> "b l ^s f" <| [
+
+    -- ;; balo$af_1
+    -- bl$f    balo$af PV      Bolshevize
+    -- bl$f    balo$if IV_yu   Bolshevize
+
+    KaRDaS                    `verb`       {- balo$af -}        [ "Bolshevize" ]
+                              {- `others` [ "bal^sif IV_yu" ] -},
+
+    -- ;; tabalo$af_1
+    -- tbl$f   tabalo$af       PV_intr be Bolshevized
+    -- tbl$f   tabalo$af       IV_intr be Bolshevized
+
+    TaKaRDaS                  `verb`       {- tabalo$af -}      [ "be Bolshevized" ],
+
+    -- ;; balo$afap_1
+    -- bl$f    balo$af Nap     Bolshevization
+
+    KaRDaS |< aT              `noun`       {- balo$afap -}      [ "Bolshevization" ],
+
+    -- ;; balo$afiy~_1
+    -- bl$fy   balo$afiy~      Nall    Bolshevist     [[balo$afiy~/NOUN]]
+    -- bl$fy   balo$afiy~      Nall    Bolshevist     [[balo$afiy~/ADJ]]
+    -- blA$f   balA$if Nap     Bolshevists
+
+    KaRDaS |< Iy              `adj`        {- balo$afiy~ -}     [ "Bolshevist", "Bolshevists" ]
+                              `plural`     KaRADiS |< aT
+                              {- `others` [ "balA^sif Nap" ] -},
+
+    -- ;; balo$afiy~ap_1
+    -- bl$fy   balo$afiy~      Nap     Bolshevism     [[balo$afiy~/NOUN]]
+
+    KaRDaS |< Iy |< aT        `noun`       {- balo$afiy~ap -}   [ "Bolshevism" ] ]
+
+ |> "b l `" <| [
+
+    -- ;; balaE-a_1
+    -- blE     balaE   PV      swallow;absorb
+    -- blE     bolaE   IV      swallow;absorb
+
+    FaCaL                     `verb`       {- balaE-a -}        [ "swallow", "absorb" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bla` IV" ] -},
+
+    -- ;; baliE-a_1
+    -- blE     baliE   PV      swallow;absorb
+    -- blE     bolaE   IV      swallow;absorb
+
+    FaCiL                     `verb`       {- baliE-a -}        [ "swallow", "absorb" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bla` IV" ] -},
+
+    -- ;; bal~aE_1
+    -- blE     bal~aE  PV      make swallow
+    -- blE     bal~iE  IV_yu   make swallow
+
+    FaCCaL                    `verb`       {- bal~aE -}         [ "make swallow" ]
+                              {- `others` [ "balli` IV_yu" ] -},
+
+    -- ;; >abolaE_1
+    -- >blE    >abolaE PV      make swallow
+    -- AblE    >abolaE PV      make swallow
+    -- blE     boliE   IV_yu   make swallow
+    -- blE     bolaE   IV_Pass_yu      be made to swallow
+
+    HaFCaL                    `verb`       {- OabolaE -}        [ "make swallow", "be made to swallow" ]
+                              {- `others` [ "bli` IV_yu", "bla` IV_Pass_yu" ] -},
+
+    -- ;; {inobalaE_1
+    -- <nblE   {inobalaE       PV_intr be swallowed
+    -- AnblE   {inobalaE       PV_intr be swallowed
+    -- nblE    nobaliE IV_intr be swallowed
+
+    InFaCaL                   `verb`       {- {inobalaE -}      [ "be swallowed" ]
+                              {- `others` [ "nbali` IV_intr" ] -},
+
+    -- ;; {ibotalaE_1
+    -- <btlE   {ibotalaE       PV      swallow
+    -- AbtlE   {ibotalaE       PV      swallow
+    -- btlE    botaliE IV      swallow
+
+    IFtaCaL                   `verb`       {- {ibotalaE -}      [ "swallow" ]
+                              {- `others` [ "btali` IV" ] -},
+
+    -- ;; baloE_1
+    -- blE     baloE   N       swallowing;absorption
+
+    FaCL                      `noun`       {- baloE -}          [ "swallowing", "absorption" ],
+
+    -- ;; baloEap_1
+    -- blE     baloE   Napdu   gulp
+
+    FaCL |< aT                `noun`       {- baloEap -}        [ "gulp" ],
+
+    -- ;; bal~AEap_1
+    -- blAE    bal~AE  NapAt   drain;sink
+    -- blwE    bal~uwE NapAt   drain;sink
+    -- blAlyE  balAliyE        Ndip    drains;sinks
+
+    FaCCAL |< aT              `noun`       {- bal~AEap -}       [ "drain", "sink", "drains", "sinks" ]
+                              `plural`     FaCACIL
+                              `plural`     FaCCUL |< At
+                              {- `others` [ "balAliy` Ndip", "balluw` NapAt" ] -},
+
+    -- ;; bAluwE_1
+    -- bAlwE   bAluwE  NapAt   drain;sewer
+    -- bwAlyE  bawAliyE        Ndip    drains;sewers
+
+    FACUL                     `noun`       {- bAluwE -}         [ "drain", "sewer", "drains", "sewers" ]
+                              `plural`     FawACIL
+                              {- `others` [ "bawAliy` Ndip" ] -} ]
+
+ |> "b l ` m" <| [
+
+    -- ;; baloEam_1
+    -- blEm    baloEam N       phagocyte
+    -- blEm    baloEam Napdu   phagocyte
+    -- blAEm   balAEim Ndip    phagocytes
+
+    KaRDaS                    `noun`       {- baloEam -}        [ "phagocyte", "phagocytes" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "balA`im Ndip" ] -},
+
+    -- ;; buloEum_1
+    -- blEm    buloEum N       pharynx
+    -- blAEm   balAEim Ndip    pharynxes
+
+    KuRDuS                    `noun`       {- buloEum -}        [ "pharynx", "pharynxes" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "balA`im Ndip" ] -},
+
+    -- ;; buloEuwm_1
+    -- blEwm   buloEuwm        N       pharynx
+    -- blAEym  balAEiym        Ndip    pharynxes
+
+    KuRDUS                    `noun`       {- buloEuwm -}       [ "pharynx", "pharynxes" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "balA`iym Ndip" ] -} ]
+
+ |> "b l b .t" <| [
+
+    -- ;; balobaT_1
+    -- blbT    balobaT PV      gurgle
+    -- blbT    balobiT IV_yu   gurgle
+
+    KaRDaS                    `verb`       {- balobaT -}        [ "gurgle" ]
+                              {- `others` [ "balbi.t IV_yu" ] -} ]
+
+ |> "b l b l" <| [
+
+    -- ;; balobal_1
+    -- blbl    balobal PV      agitate;disturb
+    -- blbl    balobil IV_yu   agitate;disturb
+
+    KaRDaS                    `verb`       {- balobal -}        [ "agitate", "disturb" ]
+                              {- `others` [ "balbil IV_yu" ] -},
+
+    -- ;; tabalobal_1
+    -- tblbl   tabalobal       PV_intr be agitated;be disturbed
+    -- tblbl   tabalobal       IV_intr be agitated;be disturbed
+
+    TaKaRDaS                  `verb`       {- tabalobal -}      [ "be agitated", "be disturbed" ],
+
+    -- ;; balobalap_1
+    -- blbl    balobal Nap     confusion;chaos
+    -- blAbl   balAbil Ndip    confusion;chaos
+
+    KaRDaS |< aT              `noun`       {- balobalap -}      [ "confusion", "chaos" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "balAbil Ndip" ] -},
+
+    -- ;; balobAl_1
+    -- blbAl   balobAl N       anxiety
+
+    KaRDAS                    `noun`       {- balobAl -}        [ "anxiety" ],
+
+    -- ;; tabalobul_1
+    -- tblbl   tabalobul       NduAt   muddle;confusion
+
+    TaKaRDuS                  `noun`       {- tabalobul -}      [ "muddle", "confusion" ],
+
+    -- ;; bulobul_1
+    -- blbl    bulobul Ndu     nightingale
+    -- blAbl   balAbil Ndip    nightingales
+
+    KuRDuS                    `noun`       {- bulobul -}        [ "nightingale", "nightingales" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "balAbil Ndip" ] -} ]
+
+ |> "b l d" <| [
+
+    -- ;; balud-u_1
+    -- bld     balud   PV_intr be stupid
+    -- bld     bolud   IV_intr be stupid
+
+    FaCuL                     `verb`       {- balud-u -}        [ "be stupid" ]
+                              `imperf`     FCuL
+                              {- `others` [ "blud IV_intr" ] -},
+
+    -- ;; bal~ad_1
+    -- bld     bal~ad  PV      acclimate;habituate
+    -- bld     bal~id  IV_yu   acclimate;habituate
+
+    FaCCaL                    `verb`       {- bal~ad -}         [ "acclimate", "habituate" ]
+                              {- `others` [ "ballid IV_yu" ] -},
+
+    -- ;; tabal~ad_1
+    -- tbld    tabal~ad        PV_intr be habituated;be acclimated
+    -- tbld    tabal~ad        IV_intr be habituated;be acclimated
+
+    TaFaCCaL                  `verb`       {- tabal~ad -}       [ "be habituated", "be acclimated" ],
+
+    -- ;; tabAlad_1
+    -- tbAld   tabAlad PV      feign stupidity
+    -- tbAld   tabAlad IV      feign stupidity
+
+    TaFACaL                   `verb`       {- tabAlad -}        [ "feign stupidity" ],
+
+    -- ;; balad_1
+    -- bld     balad   Ndu     country
+    -- blAd    bilAd   N       country;countries
+    -- bldAn   bulodAn N       countries
+
+    FaCaL                     `noun`       {- balad -}          [ "country", "countries" ]
+                              `plural`     FuCLAn
+                              `plural`     FiCAL
+                              {- `others` [ "buldAn N", "bilAd N" ] -},
+
+    -- ;; balodap_1
+    -- bld     balod   NapAt   township
+
+    FaCL |< aT                `noun`       {- balodap -}        [ "township" ],
+
+    -- ;; baladiy~_1
+    -- bldy    baladiy~        Nall    indigenous;popular     [[baladiy~/ADJ]]
+
+    FaCaL |< Iy               `adj`        {- baladiy~ -}       [ "indigenous", "popular" ],
+
+    -- ;; baladiy~ap_1
+    -- bldy    baladiy~        NapAt   municipality;township     [[baladiy~/NOUN]]
+
+    FaCaL |< Iy |< aT         `noun`       {- baladiy~ap -}     [ "municipality", "township" ],
+
+    -- ;; baliyd_1
+    -- blyd    baliyd  Nall    stupid
+
+    FaCIL                     `noun`       {- baliyd -}         [ "stupid" ],
+
+    -- ;; >abolad_1
+    -- >bld    >abolad Nel     stupid
+    -- Abld    >abolad Nel     stupid
+
+    HaFCaL                    `noun`       {- Oabolad -}        [ "stupid" ],
+
+    -- ;; balAd_1
+    -- blAd    balAd   Nap     stupidity
+
+    FaCAL                     `noun`       {- balAd -}          [ "stupidity" ],
+
+    -- ;; tabal~ud_1
+    -- tbld    tabal~ud        N/At    idiocy;apathy
+
+    TaFaCCuL                  `noun`       {- tabal~ud -}       [ "idiocy", "apathy" ],
+
+    -- ;; mutabal~id_1
+    -- mtbld   mutabal~id      Nall    stupid;apathetic
+
+    MutaFaCCiL                `noun`       {- mutabal~id -}     [ "stupid", "apathetic" ],
+
+    -- ;; buwlAd_1
+    -- bwlAd   buwlAd  N       steel
+    -- bwlA*   buwlA*  N       steel
+
+    FUCAL                     `noun`       {- buwlAd -}         [ "steel" ] ]
+
+ |> "b l f" <| [
+
+    -- ;; balaf-i_1
+    -- blf     balaf   PV      bluff
+    -- blf     bolif   IV      bluff
+
+    FaCaL                     `verb`       {- balaf-i -}        [ "bluff" ]
+                              `imperf`     FCiL
+                              {- `others` [ "blif IV" ] -},
+
+    -- ;; bal~af_1
+    -- blf     bal~af  PV      bluff
+    -- blf     bal~if  IV_yu   bluff
+
+    FaCCaL                    `verb`       {- bal~af -}         [ "bluff" ]
+                              {- `others` [ "ballif IV_yu" ] -},
+
+    -- ;; balof_1
+    -- blf     balof   N       bluff
+    -- blf     balof   Nap     bluff
+
+    FaCL                      `noun`       {- balof -}          [ "bluff" ] ]
+
+ |> "b l f r" <| [
+
+    -- ;; balofuwr_1
+    -- blfwr   balofuwr        Nprop   Balfour
+
+    KaRDUS                    `noun`       {- balofuwr -}       [ "Balfour" ],
+
+    -- ;; balofuwriy~_1
+    -- blfwry  balofuwriy~     Nall    Balfour     [[balofuwriy~/ADJ]]
+
+    KaRDUS |< Iy              `adj`        {- balofuwriy~ -}    [ "Balfour" ] ]
+
+ |> "b l h" <| [
+
+    -- ;; balih-a_1
+    -- blh     balih   PV_intr be stupid
+    -- blh     bolah   IV_intr be stupid
+
+    FaCiL                     `verb`       {- balih-a -}        [ "be stupid" ]
+                              `imperf`     FCaL
+                              {- `others` [ "blah IV_intr" ] -},
+
+    -- ;; tabAlah_1
+    -- tbAlh   tabAlah PV      feign stupidity;play the fool
+    -- tbAlh   tabAlah IV      feign stupidity;play the fool
+
+    TaFACaL                   `verb`       {- tabAlah -}        [ "feign stupidity", "play the fool" ],
+
+    -- ;; {isotabolah_1
+    -- <stblh  {isotabolah     PV      deem stupid
+    -- Astblh  {isotabolah     PV      deem stupid
+    -- stblh   sotabolih       IV      deem stupid
+
+    IstaFCaL                  `verb`       {- {isotabolah -}    [ "deem stupid" ],
+
+    -- ;; balah_1
+    -- blh     balah   N       stupidity
+    -- blAh    balAh   Nap     stupidity
+
+    FaCaL                     `noun`       {- balah -}          [ "stupidity" ]
+                              `plural`     FaCAL |< aT
+                              {- `others` [ "balAh Nap" ] -},
+
+    -- ;; >abolah_1
+    -- >blh    >abolah Nel     doltish;dumb
+    -- Ablh    >abolah Nel     doltish;dumb
+    -- blhA'   balohA' N0_Nh   doltish;dumb
+    -- blhA&   balohA& Nh      doltish;dumb
+    -- blhA}   balohA} Nhy     doltish;dumb
+    -- blh     buloh   N       doltish;dumb
+
+    HaFCaL                    `noun`       {- Oabolah -}        [ "doltish", "dumb" ]
+                              `plural`     FaCLA'
+                              `plural`     FuCL
+                              {- `others` [ "balhA' Nh N0_Nh Nhy", "bulh N" ] -} ]
+
+ |> "b l h n" <| [
+
+    -- ;; bulohuwn_1
+    -- blhwn   bulohuwn        Ndu     sphinx
+    -- blAhyn  balAhiyn        Ndip    sphinxes
+
+    KuRDUS                    `noun`       {- bulohuwn -}       [ "sphinx", "sphinxes" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "balAhiyn Ndip" ] -} ]
+
+ |> "b l k" <| [
+
+    -- ;; blak_1
+    -- blk     blak    N/At    spark plug
+
+    FCaL                      `noun`       {- blak -}           [ "spark plug" ],
+
+    -- ;; buluwk_1
+    -- blwk    buluwk  NduAt   block
+
+    FuCUL                     `noun`       {- buluwk -}         [ "block" ],
+
+    -- ;; buluk_1
+    -- blk     buluk   Ndu     company (mil.)
+    -- blwk    buluwk  N       company (mil.)
+
+    FuCuL                     `noun`       {- buluk -}          [ "company (mil.)" ]
+                              `plural`     FuCUL
+                              {- `others` [ "buluwk N" ] -} ]
+
+ |> "b l k n" <| [
+
+    -- ;; balokuwn_1
+    -- blkwn   balokuwn        N       balcony
+    -- blkwn   balokuwn        NapAt   balcony
+
+    KaRDUS                    `noun`       {- balokuwn -}       [ "balcony" ] ]
+
+ |> "b l l" <| [
+
+    -- ;; bal~-u_1
+    -- bl      bal~    PV_V    soak;wet
+    -- bll     balal   PV_C    soak;wet
+    -- bl      bul~    IV_V    soak;wet
+    -- bll     bolul   IV_C    soak;wet
+
+    FaCL                      `verb`       {- bal~-u -}         [ "soak", "wet" ]
+                              `imperf`     FCuL
+                              {- `others` [ "blul IV_C", "bull IV_V", "balal PV_C" ] -},
+
+    -- ;; bal~-i_1
+    -- bl      bal~    PV_V    recover
+    -- bll     balal   PV_C    recover
+    -- bl      bil~    IV_V    recover
+    -- bll     bolil   IV_C    recover
+
+    FaCL                      `verb`       {- bal~-i -}         [ "recover" ]
+                              `imperf`     FCiL
+                              {- `others` [ "blil IV_C", "balal PV_C", "bill IV_V" ] -},
+
+    -- ;; bal~al_1
+    -- bll     bal~al  PV      dampen;humidify;wet
+    -- bll     bal~il  IV_yu   dampen;humidify;wet
+    -- bll     bal~al  IV_Pass_yu      be dampened;be humidified;be wet
+
+    FaCCaL                    `verb`       {- bal~al -}         [ "dampen", "humidify", "wet", "be dampened", "be humidified", "be wet" ]
+                              {- `others` [ "ballil IV_yu" ] -},
+
+    -- ;; >abal~_1
+    -- >bl     >abal~  PV_V    convalesce;recover
+    -- Abl     >abal~  PV_V    convalesce;recover
+    -- >bll    >abolal PV_C    convalesce;recover
+    -- Abll    >abolal PV_C    convalesce;recover
+    -- bl      bil~    IV_V_yu convalesce;recover
+    -- bll     bolil   IV_C_yu convalesce;recover
+
+    HaFaCL                    `verb`       {- Oabal~ -}         [ "convalesce", "recover" ]
+                              {- `others` [ "blil IV_C_yu", "'ablal PV_C", "bill IV_V_yu" ] -},
+
+    -- ;; tabal~al_1
+    -- tbll    tabal~al        PV_intr become wet
+    -- tbll    tabal~al        IV_intr become wet
+
+    TaFaCCaL                  `verb`       {- tabal~al -}       [ "become wet" ],
+
+    -- ;; {ibotal~_1
+    -- <btl    {ibotal~        PV_V_intr       be wet;be humid
+    -- Abtl    {ibotal~        PV_V_intr       be wet;be humid
+    -- <btll   {ibotalal       PV_C_intr       be wet;be humid
+    -- Abtll   {ibotalal       PV_C_intr       be wet;be humid
+    -- btl     botal~  IV_V_intr       be wet;be humid
+    -- btll    botalil IV_C_intr       be wet;be humid
+
+    IFtaCL                    `verb`       {- {ibotal~ -}       [ "be wet", "be humid" ]
+                              {- `others` [ "btall IV_V_intr", "btalil IV_C_intr", "ibtalal PV_C_intr" ] -},
+
+    -- ;; bal~_1
+    -- bl      bal~    N       moisture
+
+    FaCL                      `noun`       {- bal~ -}           [ "moisture" ],
+
+    -- ;; bil~_1
+    -- bl      bil~    N       recovery;convalescence
+
+    FiCL                      `noun`       {- bil~ -}           [ "recovery", "convalescence" ],
+
+    -- ;; bil~ap_1
+    -- bl      bil~    Nap     moisture
+    -- bll     balal   N       moisture;wetness
+
+    FiCL |< aT                `noun`       {- bil~ap -}         [ "moisture", "wetness" ]
+                              `plural`     FaCaL
+                              {- `others` [ "balal N" ] -},
+
+    -- ;; baliyl_1
+    -- blyl    baliyl  N       cool wind
+
+    FaCIL                     `noun`       {- baliyl -}         [ "cool wind" ],
+
+    -- ;; baliylap_1
+    -- blyl    baliyl  Nap     porridge
+
+    FaCIL |< aT               `noun`       {- baliylap -}       [ "porridge" ],
+
+    -- ;; <ibolAl_1
+    -- <blAl   <ibolAl NduAt   recovery;convalescence
+    -- AblAl   <ibolAl NduAt   recovery;convalescence
+
+    HiFCAL                    `noun`       {- IibolAl -}        [ "recovery", "convalescence" ],
+
+    -- ;; tabal~ul_1
+    -- tbll    tabal~ul        NduAt   moistness;humidity
+
+    TaFaCCuL                  `noun`       {- tabal~ul -}       [ "moistness", "humidity" ],
+
+    -- ;; maboluwl_1
+    -- mblwl   maboluwl        Nall    wet;drenched
+
+    MaFCUL                    `noun`       {- maboluwl -}       [ "wet", "drenched" ],
+
+    -- ;; mubal~al_1
+    -- mbll    mubal~al        Nall    wet;drenched
+
+    MuFaCCaL                  `noun`       {- mubal~al -}       [ "wet", "drenched" ],
+
+    -- ;; mubotal~_1
+    -- mbtl    mubotal~        Nall    wet;drenched
+
+    MuFtaCL                   `noun`       {- mubotal~ -}       [ "wet", "drenched" ],
+
+    -- ;; bilAl_1
+    -- blAl    bilAl   N0      Bilal
+
+    FiCAL                     `noun`       {- bilAl -}          [ "Bilal" ],
+
+    -- ;; bal~An_1
+    -- blAn    bal~An  N/ap    bath-maid
+
+    FaCLAn                    `noun`       {- bal~An -}         [ "bath-maid" ] ]
+
+ |> "b l m" <| [
+
+    -- ;; bAlom_1
+    -- bAlm    bAlom   Nprop   Palm
+
+    FACL                      `noun`       {- bAlom -}          [ "Palm" ],
+
+    -- ;; >abolam_1
+    -- >blm    >abolam PV_intr be silent
+    -- Ablm    >abolam PV_intr be silent
+    -- blm     bolim   IV_intr_yu      be silent
+
+    HaFCaL                    `verb`       {- Oabolam -}        [ "be silent" ]
+                              {- `others` [ "blim IV_intr_yu" ] -},
+
+    -- ;; balam_1
+    -- blm     balam   N       anchovy;sailing barge
+
+    FaCaL                     `noun`       {- balam -}          [ "anchovy", "sailing barge" ],
+
+    -- ;; >abolAm_1
+    -- >blAm   >abolAm N       sailing barges
+    -- AblAm   >abolAm N       sailing barges
+
+    HaFCAL                    `noun`       {- OabolAm -}        [ "sailing barges" ] ]
+
+ |> "b l m r" <| [
+
+    -- ;; balomar_1
+    -- blmr    balomar PV      polymerize
+    -- blmr    balomir IV_yu   polymerize
+
+    KaRDaS                    `verb`       {- balomar -}        [ "polymerize" ]
+                              {- `others` [ "balmir IV_yu" ] -},
+
+    -- ;; tabalomar_1
+    -- tblmr   tabalomar       PV_intr be polymerized
+    -- tblmr   tabalomar       IV_intr be polymerized
+
+    TaKaRDaS                  `verb`       {- tabalomar -}      [ "be polymerized" ],
+
+    -- ;; balomarap_1
+    -- blmr    balomar Nap     polymerization
+
+    KaRDaS |< aT              `noun`       {- balomarap -}      [ "polymerization" ] ]
+
+ |> "b l n" <| [
+
+    -- ;; bAluwn_1
+    -- bAlwn   bAluwn  N/At    balloon
+
+    FACUL                     `noun`       {- bAluwn -}         [ "balloon" ],
+
+    -- ;; bal~An_1
+    -- blAn    bal~An  N/ap    bath-maid
+
+    FaCCAL                    `noun`       {- bal~An -}         [ "bath-maid" ],
+
+    -- ;; bal~uwn_1
+    -- blwn    bal~uwn N/ap    balloon
+    -- bllwn   baloluwn        N/ap    balloon
+
+    FaCCUL                    `noun`       {- bal~uwn -}        [ "balloon" ] ]
+
+ |> "b l q" <| [
+
+    -- ;; >abolaq_1
+    -- >blq    >abolaq Nel     black and white;pinto;piebald
+    -- Ablq    >abolaq Nel     black and white;pinto;piebald
+    -- blqA'   baloqA' N0_Nh   black and white;pinto;piebald
+
+    HaFCaL                    `noun`       {- Oabolaq -}        [ "black and white", "pinto", "piebald" ]
+                              `plural`     FaCLA'
+                              {- `others` [ "balqA' N0_Nh" ] -},
+
+    -- ;; baloqAn_1
+    -- blqAn   baloqAn N       Balkans
+
+    FaCLAn                    `noun`       {- baloqAn -}        [ "Balkans" ],
+
+    -- ;; baloqAniy~_1
+    -- blqAny  baloqAniy~      Nall    Balkan     [[baloqAniy~/NOUN]]
+    -- blqAny  baloqAniy~      Nall    Balkan     [[baloqAniy~/ADJ]]
+
+    FaCLAn |< Iy              `adj`        {- baloqAniy~ -}     [ "Balkan" ] ]
+
+ |> "b l q `" <| [
+
+    -- ;; baloqaE_1
+    -- blqE    baloqaE Ndu     wasteland
+    -- blqE    baloqaE Napdu   wasteland
+    -- blAqE   balAqiE Ndip    wastelands
+
+    KaRDaS                    `noun`       {- baloqaE -}        [ "wasteland", "wastelands" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "balAqi` Ndip" ] -} ]
+
+ |> "b l q n" <| [
+
+    -- ;; baloqAn_1
+    -- blqAn   baloqAn N       Balkans
+
+    KaRDAS                    `noun`       {- baloqAn -}        [ "Balkans" ],
+
+    -- ;; baloqAniy~_1
+    -- blqAny  baloqAniy~      Nall    Balkan     [[baloqAniy~/NOUN]]
+    -- blqAny  baloqAniy~      Nall    Balkan     [[baloqAniy~/ADJ]]
+
+    KaRDAS |< Iy              `adj`        {- baloqAniy~ -}     [ "Balkan" ],
+
+    -- ;; baloqanap_1
+    -- blqn    baloqan Nap     Balkanization
+
+    KaRDaS |< aT              `noun`       {- baloqanap -}      [ "Balkanization" ] ]
+
+ |> "b l q s" <| [
+
+    -- ;; biloqiys_1
+    -- blqys   biloqiys        Ndip    Bilqis
+
+    KiRDIS                    `noun`       {- biloqiys -}       [ "Bilqis" ] ]
+
+ |> "b l r" <| [
+
+    -- ;; bal~uwr_1
+    -- blwr    bal~uwr N       crystal
+    -- blwr    bal~uwr NapAt   crystal
+    -- blwry   bal~uwriy~      N-ap    crystal     [[bal~uwriy~/ADJ]]
+
+    FaCCUL                    `adj`        {- bal~uwr -}        [ "crystal" ] ]
+
+ |> "b l s" <| [
+
+    -- ;; balasAn_1
+    -- blsAn   balasAn N       garden balm;balm-tree
+
+    FaCaLAn                   `noun`       {- balasAn -}        [ "garden balm", "balm-tree" ] ]
+
+ |> "b l s m" <| [
+
+    -- ;; balosam_1
+    -- blsm    balosam N       balsam
+    -- blAsm   balAsim Ndip    balsam
+
+    KaRDaS                    `noun`       {- balosam -}        [ "balsam" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "balAsim Ndip" ] -},
+
+    -- ;; balosamiy~_1
+    -- blsmy   balosamiy~      Nall    balsamic     [[balosamiy~/ADJ]]
+
+    KaRDaS |< Iy              `adj`        {- balosamiy~ -}     [ "balsamic" ] ]
+
+ |> "b l w" <| [
+
+    -- ;; balaY_1
+    -- blY     balaY   FW-Wa   indeed;certainly     [[balaY/INTERJ]]
+
+    FaCY                      `noun`       {- balaY -}          [ "indeed", "certainly" ],
+
+    -- ;; balA-u_1
+    -- blA     balA    PV_0h   afflict;test
+    -- blw     balaw   PV_Atn  afflict;test
+    -- bl      bal     PV_ttAw afflict;test
+    -- blw     boluw   IV_0hAnn        afflict;test
+    -- bl      bol     IV_0hwnyn       afflict;test
+    -- blY     bolaY   IV_0_Pass_yu    be afflicted;be tested
+    -- bly     bolay   IV_Ann_Pass_yu  be afflicted;be tested
+
+    FaCA                      `verb`       {- balA-u -}         [ "afflict", "test", "be afflicted", "be tested" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bluw IV_0hAnn", "balaw PV_Atn", "blY IV_0_Pass_yu" ] -},
+
+    -- ;; balowaY_1
+    -- blwY    balowaY N0      affliction;necessity
+    -- blwA    balowA  Nhy     affliction;necessity
+
+    FaCLY                     `noun`       {- balowaY -}        [ "affliction", "necessity" ],
+
+    -- ;; bAlaY_1
+    -- bAlY    bAlaY   PV_0    care;concern;worry
+    -- bAlA    bAlA    PV_h    care;concern;worry
+    -- bAly    bAlay   PV_Atn  care;concern;worry
+    -- bAl     bAl     PV_ttAw care;concern;worry
+    -- bAly    bAliy   IV_0hAnn_yu     care;concern;worry
+    -- bAl     bAl     IV_0hwnyn_yu    care;concern;worry
+    -- bAlY    bAlaY   IV_0_Pass_yu    be cared for;be a matter of concern
+    -- bAly    bAlay   IV_Ann_Pass_yu  be cared for;be a matter of concern
+
+    FACY                      `verb`       {- bAlaY -}          [ "care", "concern", "worry", "be cared for", "be a matter of concern" ]
+                              {- `others` [ "bAliy IV_0hAnn_yu" ] -},
+
+    -- ;; >abolaY_1
+    -- >blY    >abolaY PV_0    wear out;grind
+    -- AblY    >abolaY PV_0    wear out;grind
+    -- >blA    >abolA  PV_h    wear out;grind
+    -- AblA    >abolA  PV_h    wear out;grind
+    -- >bly    >abolay PV_Atn  wear out;grind
+    -- Ably    >abolay PV_Atn  wear out;grind
+    -- >bl     >abol   PV_ttAw wear out;grind
+    -- Abl     >abol   PV_ttAw wear out;grind
+    -- bly     boliy   IV_0hAnn_yu     wear out;grind
+    -- bl      bol     IV_0hwnyn_yu    wear out;grind
+    -- blY     bolaY   IV_0_Pass_yu    be worn out;be ground
+    -- bly     bolay   IV_Ann_Pass_yu  be worn out;be ground
+
+    HaFCY                     `verb`       {- OabolaY -}        [ "wear out", "grind", "be worn out", "be ground" ]
+                              {- `others` [ "bliy IV_0hAnn_yu", "blY IV_0_Pass_yu" ] -},
+
+    -- ;; {ibotalaY_1
+    -- <btlY   {ibotalaY       PV_0    test;afflict
+    -- AbtlY   {ibotalaY       PV_0    test;afflict
+    -- <btlA   {ibotalA        PV_h    test;afflict
+    -- AbtlA   {ibotalA        PV_h    test;afflict
+    -- <btly   {ibotalay       PV_Atn  test;afflict
+    -- Abtly   {ibotalay       PV_Atn  test;afflict
+    -- <btl    {ibotal PV_ttAw test;afflict
+    -- Abtl    {ibotal PV_ttAw test;afflict
+    -- btly    botaliy IV_0hAnn        test;afflict
+    -- btl     botal   IV_0hwnyn       test;afflict
+    -- btlY    botalaY IV_0_Pass_yu    be tested;be afflicted
+
+    IFtaCY                    `verb`       {- {ibotalaY -}      [ "test", "afflict", "be tested", "be afflicted" ]
+                              {- `others` [ "btalY IV_0_Pass_yu", "btaliy IV_0hAnn" ] -},
+
+    -- ;; bilaY_1
+    -- blY     bilaY   N0      deterioration;decline
+    -- blA     bilA    Nh      deterioration;decline
+
+    FiCY                      `noun`       {- bilaY -}          [ "deterioration", "decline" ],
+
+    -- ;; balA'_1
+    -- blA'    balA'   N0_Nh   tribulation;affliction
+    -- blA&    balA&   Nh      tribulation;affliction
+    -- blA}    balA}   Nhy     tribulation;affliction
+
+    FaCA'                     `noun`       {- balA' -}          [ "tribulation", "affliction" ],
+
+    -- ;; mubAlAp_1
+    -- mbAlA   mubAlA  Napdu   concern;care
+    -- mbAly   mubAlay NAt     concerns;cares
+
+    MuFACY |< aT              `noun`       {- mubAlAp -}        [ "concern", "care", "concerns", "cares" ],
+
+    -- ;; lAmubAlAp_1
+    -- lAmbAlA lAmubAlA        Nap_L   indifference
+
+    lA >| MuFACY |< aT        `noun`       {- lAmubAlAp -}      [ "indifference" ],
+
+    -- ;; {ibotilA'_1
+    -- <btlA'  {ibotilA'       N0_Nh   affliction;tribulation
+    -- AbtlA'  {ibotilA'       N0_Nh   affliction;tribulation
+    -- <btlA&  {ibotilA&       Nh      affliction;tribulation
+    -- AbtlA&  {ibotilA&       Nh      affliction;tribulation
+    -- <btlA}  {ibotilA}       Nhy     affliction;tribulation
+    -- AbtlA}  {ibotilA}       Nhy     affliction;tribulation
+    -- <btlA'  {ibotilA'       NAn_Nayn        afflictions;tribulations
+    -- AbtlA'  {ibotilA'       NAn_Nayn        afflictions;tribulations
+    -- <btlA}  {ibotilA}       Nayn    afflictions;tribulations
+    -- AbtlA}  {ibotilA}       Nayn    afflictions;tribulations
+    -- <btlA'  {ibotilA'       NAt     afflictions;tribulations
+    -- AbtlA'  {ibotilA'       NAt     afflictions;tribulations
+
+    IFtiCA'                   `noun`       {- {ibotilA' -}      [ "affliction", "tribulation", "afflictions", "tribulations" ],
+
+    -- ;; bAliy_1
+    -- bAly    bAliy   N0F     dilapidated;worn
+    -- bAl     bAl     NK      dilapidated;worn
+    -- bAly    bAliy   NAn_Nayn        dilapidated;worn
+    -- bAl     bAl     Nuwn_Niyn       dilapidated;worn
+    -- bAly    bAliy   NapAt   dilapidated;worn
+
+    FACI                      `noun`       {- bAliy -}          [ "dilapidated", "worn" ],
+
+    -- ;; mubAliy_1
+    -- mbAly   mubAliy N0F_Nh  concerned;caring
+    -- mbAl    mubAl   NK      concerned;caring
+    -- mbAly   mubAliy NAn_Nayn        concerned;caring
+    -- mbAl    mubAl   Nuwn_Niyn       concerned;caring
+    -- mbAly   mubAliy NapAt   concerned;caring
+
+    MuFACI                    `noun`       {- mubAliy -}        [ "concerned", "caring" ],
+
+    -- ;; mubotaliy_1
+    -- mbtly   mubotaliy       N0_Nh   afflicting;testing;trying
+    -- mbtl    mubotal NK      afflicting;testing;trying
+    -- mbtly   mubotaliy       NAn_Nayn        afflicting;testing;trying
+    -- mbtl    mubotal Nuwn_Niyn       afflicting;testing;trying
+    -- mbtly   mubotaliy       NapAt   afflicting;testing;trying
+
+    MuFtaCI                   `noun`       {- mubotaliy -}      [ "afflicting", "testing", "trying" ],
+
+    -- ;; mubotalaY_1
+    -- mbtlY   mubotalaY       N0      afflicted;suffering
+    -- mbtlA   mubotalA        Nhy     afflicted;suffering
+    -- mbtly   mubotalay       NAn_Nayn        afflicted;suffering
+    -- mbtl    mubotal Nuwn_Niyn       afflicted;suffering
+    -- mbtlA   mubotalA        Napdu   afflicted;suffering
+    -- mbtly   mubotalay       NAt     afflicted;suffering
+
+    MuFtaCY                   `noun`       {- mubotalaY -}      [ "afflicted", "suffering" ] ]
+
+ |> "b l w r" <| [
+
+    -- ;; balowar_1
+    -- blwr    balowar PV      crystallize;clarify
+    -- blwr    balowir IV_yu   crystallize;clarify
+
+    KaRDaS                    `verb`       {- balowar -}        [ "crystallize", "clarify" ]
+                              {- `others` [ "balwir IV_yu" ] -},
+
+    -- ;; tabalowar_1
+    -- tblwr   tabalowar       PV_intr be crystallized;be clarified
+    -- tblwr   tabalowar       IV_intr be crystallized;be clarified
+
+    TaKaRDaS                  `verb`       {- tabalowar -}      [ "be crystallized", "be clarified" ],
+
+    -- ;; balowarap_1
+    -- blwr    balowar Nap     crystallization
+    -- tblwr   tabalowur       NduAt   crystallization
+
+    KaRDaS |< aT              `noun`       {- balowarap -}      [ "crystallization" ]
+                              `plural`     TaKaRDuS |< At
+                              {- `others` [ "tabalwur NduAt" ] -},
+
+    -- ;; mubalowar_1
+    -- mblwr   mubalowar       Nall    crystallized;candied
+
+    MuKaRDaS                  `noun`       {- mubalowar -}      [ "crystallized", "candied" ],
+
+    -- ;; mutabalowir_1
+    -- mtblwr  mutabalowir     Nall    crystalline
+
+    MutaKaRDiS                `noun`       {- mutabalowir -}    [ "crystalline" ] ]
+
+ |> "b l y" <| [
+
+    -- ;; baliy-a_1
+    -- bly     baliy   PV_no-w deteriorate
+    -- bl      bal     PV_w    deteriorate
+    -- blY     bolaY   IV_0    deteriorate
+    -- bly     bolay   IV_Ann  deteriorate
+    -- bl      bola    IV_0hwnyn       deteriorate
+
+    FaCiL                     `verb`       {- baliy-a -}        [ "deteriorate" ]
+                              `imperf`     FCaL
+                              {- `others` [ "blay IV_Ann", "blY IV_0" ] -},
+
+    -- ;; baliy~_1
+    -- bly     baliy~  N       dilapidated;worn
+
+    FaCIL                     `noun`       {- baliy~ -}         [ "dilapidated", "worn" ],
+
+    -- ;; baliy~ap_1
+    -- bly     baliy~  Napdu   tribulation;affliction     [[baliy~/NOUN]]
+    -- blAyA   balAyA  N0      tribulations;afflictions
+    -- blAyA   balAyA  Nhy     tribulations;afflictions
+
+    FaCIL |< aT               `noun`       {- baliy~ap -}       [ "tribulation", "affliction", "tribulations", "afflictions" ],
+
+    -- ;; bAliy_1
+    -- bAly    bAliy   N0F     dilapidated;worn
+    -- bAl     bAl     NK      dilapidated;worn
+    -- bAly    bAliy   NAn_Nayn        dilapidated;worn
+    -- bAl     bAl     Nuwn_Niyn       dilapidated;worn
+    -- bAly    bAliy   NapAt   dilapidated;worn
+
+    FACiL                     `noun`       {- bAliy -}          [ "dilapidated", "worn" ],
+
+    -- ;; mubAliy_1
+    -- mbAly   mubAliy N0F_Nh  concerned;caring
+    -- mbAl    mubAl   NK      concerned;caring
+    -- mbAly   mubAliy NAn_Nayn        concerned;caring
+    -- mbAl    mubAl   Nuwn_Niyn       concerned;caring
+    -- mbAly   mubAliy NapAt   concerned;caring
+
+    MuFACiL                   `noun`       {- mubAliy -}        [ "concerned", "caring" ],
+
+    -- ;; mubotaliy_1
+    -- mbtly   mubotaliy       N0_Nh   afflicting;testing;trying
+    -- mbtl    mubotal NK      afflicting;testing;trying
+    -- mbtly   mubotaliy       NAn_Nayn        afflicting;testing;trying
+    -- mbtl    mubotal Nuwn_Niyn       afflicting;testing;trying
+    -- mbtly   mubotaliy       NapAt   afflicting;testing;trying
+
+    MuFtaCiL                  `noun`       {- mubotaliy -}      [ "afflicting", "testing", "trying" ] ]
+
+ |> "b l y n" <| [
+
+    -- ;; biloyuwn_1
+    -- blywn   biloyuwn        NduAt   billion
+    -- blAyyn  balAyiyn        Ndip    billions
+
+    KiRDUS                    `noun`       {- biloyuwn -}       [ "billion", "billions" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "balAyiyn Ndip" ] -} ]
+
+ |> "b m b .g" <| [
+
+    -- ;; bumobAg_1
+    -- bmbAg   bumobAg N/ap    bow tie
+
+    KuRDAS                    `noun`       {- bumobAg -}        [ "bow tie" ] ]
+
+ |> "b m b h" <| [
+
+    -- ;; bamobah_1
+    -- bmbh    bamobah N       hot pink
+
+    KaRDaS                    `noun`       {- bamobah -}        [ "hot pink" ] ]
+
+ |> "b m b y" <| [
+
+    -- ;; bumobAy_1
+    -- bmbAy   bumobAy N       Bombay
+
+    KuRDAS                    `noun`       {- bumobAy -}        [ "Bombay" ],
+
+    -- ;; bamobiy~_1
+    -- bmby    bamobiy~        Nall    hot pink     [[bamobiy~/ADJ]]
+
+    KaRDIS                    `adj`        {- bamobiy~ -}       [ "hot pink" ] ]
+
+ |> "b n '" <| [
+
+    -- ;; binA'_1
+    -- bnA'    binA'   N0_Nh   build;construct
+    -- bnA&    binA&   Nh      build;construct
+    -- bnA}    binA}   Nhy     build;construct
+
+    FiCAL                     `noun`       {- binA' -}          [ "build", "construct" ],
+
+    -- ;; binA'_2
+    -- bnA'    binA'   N0_Nh   building;structure
+    -- bnA&    binA&   Nh      building;structure
+    -- bnA}    binA}   Nhy     building;structure
+    -- bnA'    binA'   NAn_Nayn        buildings;structures
+    -- bnA}    binA}   Nayn    buildings;structures
+    -- >bny    >aboniy Nap     buildings;structures
+    -- Abny    >aboniy Nap     buildings;structures
+    -- >bny    >aboniy NAt     buildings;structures
+    -- Abny    >aboniy NAt     buildings;structures
+
+    FiCAL                     `noun`       {- binA' -}          [ "building", "structure", "buildings", "structures" ],
+
+    -- ;; binA'F_1
+    -- bnA'    binA'F  FW-Wa   based on;according to     [[binA'F/ADV]]
+
+    FiCAL |< aN               `noun`       {- binA'F -}         [ "based on", "according to" ],
+
+    -- ;; binA}iy~_1
+    -- bnA}y   binA}iy~        Nall    structural;architectural     [[binA}iy~/ADJ]]
+
+    FiCAL |< Iy               `adj`        {- binA}iy~ -}       [ "structural", "architectural" ],
+
+    -- ;; ban~A'_1
+    -- bnA'    ban~A'  N0      builder;mason
+    -- bnA'    ban~A'  Nh      builder;mason
+    -- bnA&    ban~A&  Nh      builder;mason
+    -- bnA}    ban~A}  Nhy     builder;mason
+    -- bnA}    ban~A}  NAn_Nayn        builder;mason
+    -- bnA&    ban~A&  Nuwn_Niyn       builder;mason
+
+    FaCCAL                    `noun`       {- ban~A' -}         [ "builder", "mason" ],
+
+    -- ;; ban~A'_2
+    -- bnA'    ban~A'  N0      constructive     [[ban~A'/ADJ]]
+    -- bnA'    ban~A'  NAn_Nayn        constructive     [[ban~A'/ADJ]]
+    -- bnA'    ban~A'  Napdu   constructive     [[ban~A'/ADJ]]
+
+    FaCCAL                    `adj`        {- ban~A' -}         [ "constructive" ],
+
+    -- ;; ban~A'_3
+    -- bnA'    ban~A'  N0      Banna
+
+    FaCCAL                    `noun`       {- ban~A' -}         [ "Banna" ],
+
+    -- ;; bA'-u_1
+    -- bA'     bA'     PV_V    return;incur
+    -- bA&     bA&     PV_w    return;incur
+    -- b&      bu&     PV_C    return;incur
+    -- bw'     buw'    IV_V    return;incur
+    -- bw&     buw&    IV_wn   return;incur
+    -- bw}     buw}    IV_yn   return;incur
+    -- b&      bu&     IV_C    return;incur
+
+    FAL                       `verb`       {- bA'-u -}          [ "return", "incur" ]
+                              `imperf`     FCuL
+                              {- `others` [ "buw' IV_V IV_wn IV_yn" ] -},
+
+    -- ;; >abA'_1
+    -- >bA'    >abA'   PV_V    accommodate;reside
+    -- AbA'    >abA'   PV_V    accommodate;reside
+    -- >bA&    >abA&   PV_w    accommodate;reside
+    -- AbA&    >abA&   PV_w    accommodate;reside
+    -- >b>     >aba>   PV_C    accommodate;reside
+    -- Ab>     >aba>   PV_C    accommodate;reside
+    -- by'     biy'    IV_V_yu accommodate;reside
+    -- by}     biy}    IV_V_yu accommodate;reside
+    -- by&     biy&    IV_wn_yu        accommodate;reside
+    -- b}      bi}     IV_C_yu accommodate;reside
+
+    HaFAL                     `verb`       {- OabA' -}          [ "accommodate", "reside" ]
+                              {- `others` [ "biy' IV_V_yu IV_wn_yu" ] -},
+
+    -- ;; biy}ap_1
+    -- by}     biy}    NapAt   environment;milieu
+
+    FIL |< aT                 `noun`       {- biy}ap -}         [ "environment", "milieu" ],
+
+    -- ;; biy}iy~_1
+    -- by}y    biy}iy~ Nall    environmental     [[biy}iy~/ADJ]]
+
+    FIL |< Iy                 `adj`        {- biy}iy~ -}        [ "environmental" ],
+
+    -- ;; mabA'ap_1
+    -- mbA'    mabA'   Napdu   abode;habitation
+
+    MaFAL |< aT               `noun`       {- mabA'ap -}        [ "abode", "habitation" ] ]
+
+ |> "b n .g l" <| [
+
+    -- ;; banogAl_1
+    -- bngAl   banogAl N0      Bengal
+
+    KaRDAS                    `noun`       {- banogAl -}        [ "Bengal" ],
+
+    -- ;; banogAliy~_1
+    -- bngAly  banogAliy~      Nall    Bengali
+
+    KaRDAS |< Iy              `adj`        {- banogAliy~ -}     [ "Bengali" ] ]
+
+ |> "b n .g z" <| [
+
+    -- ;; banogAziy~_1
+    -- bngAzy  banogAziy~      Nall    Benghazi     [[banogAziy~/NOUN]]
+    -- bngAzy  banogAziy~      Nall    Benghazi     [[banogAziy~/ADJ]]
+
+    KaRDAS |< Iy              `adj`        {- banogAziy~ -}     [ "Benghazi" ] ]
+
+ |> "b n .s r" <| [
+
+    -- ;; binoSir_1
+    -- bnSr    binoSir Ndu     little finger;pinkie
+    -- bnASr   banASir Ndip    little fingers;pinkies
+
+    KiRDiS                    `noun`       {- binoSir -}        [ "little finger", "pinkie", "little fingers", "pinkies" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "banA.sir Ndip" ] -} ]
+
+ |> "b n .t" <| [
+
+    -- ;; bunoT_1
+    -- bnT     bunoT   Ndu     point
+    -- bnwT    bunuwT  N       points
+
+    FuCL                      `noun`       {- bunoT -}          [ "point", "points" ]
+                              `plural`     FuCUL
+                              {- `others` [ "bunuw.t N" ] -},
+
+    -- ;; bunoTap_1
+    -- bnT     bunoT   Napdu   drill bit
+    -- bnT     bunaT   N       drill bits
+
+    FuCL |< aT                `noun`       {- bunoTap -}        [ "drill bit", "drill bits" ]
+                              `plural`     FuCaL
+                              {- `others` [ "buna.t N" ] -} ]
+
+ |> "b n ^g" <| [
+
+    -- ;; ban~aj_1
+    -- bnj     ban~aj  PV      anesthetize;narcotize
+    -- bnj     ban~ij  IV_yu   anesthetize;narcotize
+
+    FaCCaL                    `verb`       {- ban~aj -}         [ "anesthetize", "narcotize" ]
+                              {- `others` [ "banni^g IV_yu" ] -},
+
+    -- ;; banoj_1
+    -- bnj     banoj   N       henbane (poisonous plant);anesthetic;narcotic;bong
+
+    FaCL                      `noun`       {- banoj -}          [ "henbane (poisonous plant)", "anesthetic", "narcotic", "bong" ] ]
+
+ |> "b n ^g b" <| [
+
+    -- ;; banojAb_1
+    -- bnjAb   banojAb N0      Punjab
+
+    KaRDAS                    `noun`       {- banojAb -}        [ "Punjab" ],
+
+    -- ;; banojAbiy~_1
+    -- bnjAby  banojAbiy~      Nall    Punjabi
+
+    KaRDAS |< Iy              `adj`        {- banojAbiy~ -}     [ "Punjabi" ] ]
+
+ |> "b n ^g l" <| [
+
+    -- ;; banojAl_1
+    -- bnjAl   banojAl N0      Bengal
+
+    KaRDAS                    `noun`       {- banojAl -}        [ "Bengal" ],
+
+    -- ;; banojAliy~_1
+    -- bnjAly  banojAliy~      Nall    Bengali
+
+    KaRDAS |< Iy              `adj`        {- banojAliy~ -}     [ "Bengali" ] ]
+
+ |> "b n ^g r" <| [
+
+    -- ;; banojar_1
+    -- bnjr    banojar N       sugar beet;red beet
+
+    KaRDaS                    `noun`       {- banojar -}        [ "sugar beet", "red beet" ] ]
+
+ |> "b n ^s r" <| [
+
+    -- ;; bano$ar_1
+    -- bn$r    bano$ar NduAt   puncture;flat
+
+    KaRDaS                    `noun`       {- bano$ar -}        [ "puncture", "flat" ] ]
+
+ |> "b n b ^s" <| [
+
+    -- ;; binobA$iy~_1
+    -- bnbA$y  binobA$iy~      Nall    lieutenant colonel     [[binobA$iy~/ADJ]]
+
+    KiRDAS |< Iy              `adj`        {- binobA$iy~ -}     [ "lieutenant colonel" ] ]
+
+ |> "b n d" <| [
+
+    -- ;; ban~ad_1
+    -- bnd     ban~ad  PV      band
+    -- bnd     ban~id  IV_yu   band
+
+    FaCCaL                    `verb`       {- ban~ad -}         [ "band" ]
+                              {- `others` [ "bannid IV_yu" ] -},
+
+    -- ;; banod_1
+    -- bnd     banod   Ndu     article;clause
+    -- bnwd    bunuwd  N       articles;clauses
+
+    FaCL                      `noun`       {- banod -}          [ "article", "clause", "articles", "clauses" ]
+                              `plural`     FuCUL
+                              {- `others` [ "bunuwd N" ] -} ]
+
+ |> "b n d l" <| [
+
+    -- ;; banoduwl_1
+    -- bndwl   banoduwl        N/ap    pendulum
+
+    KaRDUS                    `noun`       {- banoduwl -}       [ "pendulum" ] ]
+
+ |> "b n d q" <| [
+
+    -- ;; bunoduq_1
+    -- bndq    bunoduq Ndu     hazelnut;bullet
+    -- bndq    bunoduq Napdu   hazelnut;bullet
+    -- bnAdq   banAdiq Ndip    hazelnuts;bullets
+
+    KuRDuS                    `noun`       {- bunoduq -}        [ "hazelnut", "bullet", "hazelnuts", "bullets" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "banAdiq Ndip" ] -},
+
+    -- ;; bunoduqiy~_1
+    -- bndqy   bunoduqiy~      Nall    Venetian     [[bunoduqiy~/NOUN]]
+    -- bndqy   bunoduqiy~      Nall    Venetian     [[bunoduqiy~/ADJ]]
+
+    KuRDuS |< Iy              `adj`        {- bunoduqiy~ -}     [ "Venetian" ],
+
+    -- ;; bunoduqiy~ap_1
+    -- bndqy   bunoduqiy~      NapAt   rifle     [[bunoduqiy~/NOUN]]
+
+    KuRDuS |< Iy |< aT        `noun`       {- bunoduqiy~ap -}   [ "rifle" ],
+
+    -- ;; bunoduqiy~ap_2
+    -- bndqyp  bunoduqiy~ap    N0      Venice     [[bunoduqiy~/NOUN_PROP]]
+
+    KuRDuS |< Iy |< aT        `noun`       {- bunoduqiy~ap -}   [ "Venice" ],
+
+    -- ;; bunoduwq_1
+    -- bndwq   bunoduwq        Ndu     bastard
+    -- bnAdyq  banAdiyq        Ndip    bastards
+
+    KuRDUS                    `noun`       {- bunoduwq -}       [ "bastard", "bastards" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "banAdiyq Ndip" ] -} ]
+
+ |> "b n d r" <| [
+
+    -- ;; banodar_1
+    -- bndr    banodar Nprop   Bandar
+
+    KaRDaS                    `noun`       {- banodar -}        [ "Bandar" ],
+
+    -- ;; banodariy~_1
+    -- bndry   banodariy~      N0      Bandary;Bandari
+
+    KaRDaS |< Iy              `adj`        {- banodariy~ -}     [ "Bandary", "Bandari" ],
+
+    -- ;; banodar_2
+    -- bndr    banodar Ndu     seaport;district capital
+    -- bnAdr   banAdir Ndip    seaports;district capitals
+
+    KaRDaS                    `noun`       {- banodar -}        [ "seaport", "district capital", "seaports", "district capitals" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "banAdir Ndip" ] -},
+
+    -- ;; banodiyrap_1
+    -- bndyr   banodiyr        Nap     banner
+
+    KaRDIS |< aT              `noun`       {- banodiyrap -}     [ "banner" ] ]
+
+ |> "b n f ^s" <| [
+
+    -- ;; banofa$_1
+    -- bnf$    banofa$ N       amethyst
+    -- bnf$    banaf$  N       amethyst
+
+    KaRDaS                    `noun`       {- banofa$ -}        [ "amethyst" ] ]
+
+ |> "b n k" <| [
+
+    -- ;; bunok_1
+    -- bnk     bunok   N       root;core
+
+    FuCL                      `noun`       {- bunok -}          [ "root", "core" ],
+
+    -- ;; banok_1
+    -- bnk     banok   Ndu     bank
+    -- bnwk    bunuwk  N       banks
+
+    FaCL                      `noun`       {- banok -}          [ "bank", "banks" ]
+                              `plural`     FuCUL
+                              {- `others` [ "bunuwk N" ] -},
+
+    -- ;; banokiy~_1
+    -- bnky    banokiy~        Nall    bank;banking     [[banokiy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- banokiy~ -}       [ "bank", "banking" ],
+
+    -- ;; muban~ak_1
+    -- mbnk    muban~ak        Nall    stranded;shrewd
+
+    MuFaCCaL                  `noun`       {- muban~ak -}       [ "stranded", "shrewd" ] ]
+
+ |> "b n n" <| [
+
+    -- ;; banuwn_1
+    -- bnwn    banuwn  N       sons;children
+    -- bnyn    baniyn  N       sons;children
+    -- bnw     banuw   N0      sons;children
+    -- bny     baniy   N0      sons;children
+
+    FaCUL                     `noun`       {- banuwn -}         [ "sons", "children" ]
+                              `plural`     FaCIL
+                              {- `others` [ "baniyn N" ] -},
+
+    -- ;; banawiy~_1
+    -- bnwy    banawiy~        Nall    filial     [[banawiy~/ADJ]]
+
+    FaCY |< Iy                `adj`        {- banawiy~ -}       [ "filial" ],
+
+    -- ;; bun~_1
+    -- bn      bun~    N       coffee beans
+
+    FuCL                      `noun`       {- bun~ -}           [ "coffee beans" ],
+
+    -- ;; banAn_1
+    -- bnAn    banAn   N       finger tips
+
+    FaCAL                     `noun`       {- banAn -}          [ "finger tips" ],
+
+    -- ;; banaY-i_1
+    -- bnY     banaY   PV_0    build;erect
+    -- bnA     banA    PV_h    build;erect
+    -- bny     banay   PV_Atn  build;erect
+    -- bn      ban     PV_ttAw build;erect
+    -- bny     boniy   IV_0hAnn        build;erect
+    -- bn      bon     IV_0hwnyn       build;erect
+    -- bnY     bonaY   IV_0_Pass_yu    be built;be erected
+    -- bny     bonay   IV_Ann_Pass_yu  be built;be erected
+
+    FaCY                      `verb`       {- banaY-i -}        [ "build", "erect", "be built", "be erected" ]
+                              `imperf`     FCiL
+                              {- `others` [ "bnY IV_0_Pass_yu", "banA PV_h", "bniy IV_0hAnn" ] -},
+
+    -- ;; taban~aY_1
+    -- tbnY    taban~aY        PV_0    adopt
+    -- tbnA    taban~A PV_h    adopt
+    -- tbny    taban~ay        PV_Atn  adopt
+    -- tbn     taban~  PV_ttAw adopt
+    -- tbnY    taban~aY        IV_0    adopt
+    -- tbnA    taban~A IV_h    adopt
+    -- tbny    taban~ay        IV_Ann  adopt
+    -- tbn     taban~  IV_0hwnyn       adopt
+
+    TaFaCCY                   `verb`       {- taban~aY -}       [ "adopt" ],
+
+    -- ;; taban~aY_2
+    -- tbnY    taban~aY        PV_0    be built
+    -- tbny    taban~ay        PV_Atn  be built
+    -- tbn     taban~  PV_ttAw_intr    be built
+    -- tbnY    taban~aY        IV_0    be built
+    -- tbny    taban~ay        IV_Ann  be built
+    -- tbn     taban~  IV_0hwnyn       be built
+
+    TaFaCCY                   `verb`       {- taban~aY -}       [ "be built" ],
+
+    -- ;; {inobanaY_1
+    -- <nbnY   {inobanaY       PV_0    be built
+    -- AnbnY   {inobanaY       PV_0    be built
+    -- <nbnA   {inobanA        PV_h    be built
+    -- AnbnA   {inobanA        PV_h    be built
+    -- <nbny   {inobanay       PV_Atn  be built
+    -- Anbny   {inobanay       PV_Atn  be built
+    -- <nbn    {inoban PV_ttAw_intr    be built
+    -- Anbn    {inoban PV_ttAw_intr    be built
+    -- nbny    nobaniy IV_0hAnn        be built
+    -- nbn     noban   IV_0hwnyn       be built
+    -- nbnY    nobanaY IV_0_Pass_yu    be built
+
+    InFaCY                    `verb`       {- {inobanaY -}      [ "be built" ]
+                              {- `others` [ "nbanY IV_0_Pass_yu", "nbaniy IV_0hAnn" ] -},
+
+    -- ;; {ibotanaY_1
+    -- <btnY   {ibotanaY       PV_0    build;construct;be built
+    -- AbtnY   {ibotanaY       PV_0    build;construct;be built
+    -- <btnA   {ibotanA        PV_h    build;construct;be built
+    -- AbtnA   {ibotanA        PV_h    build;construct;be built
+    -- <btny   {ibotanay       PV_Atn  build;construct;be built
+    -- Abtny   {ibotanay       PV_Atn  build;construct;be built
+    -- <btn    {ibotan PV_ttAw build;construct;be built
+    -- Abtn    {ibotan PV_ttAw build;construct;be built
+    -- btny    botaniy IV_0hAnn        build;construct;be built
+    -- btn     botan   IV_0hwnyn       build;construct;be built
+    -- btnY    botanaY IV_0    build;construct;be built
+
+    IFtaCY                    `verb`       {- {ibotanaY -}      [ "build", "construct", "be built" ]
+                              {- `others` [ "btaniy IV_0hAnn", "btanY IV_0" ] -},
+
+    -- ;; taban~iy_1
+    -- tbny    taban~iy        N0_Nh   adoption
+    -- tbn     taban~  NK      adoption
+    -- tbny    taban~iy        NAn_Nayn        adoption
+    -- tbny    taban~iy        NAt     adoption
+
+    TaFaCCI                   `noun`       {- taban~iy -}       [ "adoption" ],
+
+    -- ;; binA'_1
+    -- bnA'    binA'   N0_Nh   build;construct
+    -- bnA&    binA&   Nh      build;construct
+    -- bnA}    binA}   Nhy     build;construct
+
+    FiCA'                     `noun`       {- binA' -}          [ "build", "construct" ],
+
+    -- ;; binA'_2
+    -- bnA'    binA'   N0_Nh   building;structure
+    -- bnA&    binA&   Nh      building;structure
+    -- bnA}    binA}   Nhy     building;structure
+    -- bnA'    binA'   NAn_Nayn        buildings;structures
+    -- bnA}    binA}   Nayn    buildings;structures
+    -- >bny    >aboniy Nap     buildings;structures
+    -- Abny    >aboniy Nap     buildings;structures
+    -- >bny    >aboniy NAt     buildings;structures
+    -- Abny    >aboniy NAt     buildings;structures
+
+    FiCA'                     `noun`       {- binA' -}          [ "building", "structure", "buildings", "structures" ],
+
+    -- ;; binA'F_1
+    -- bnA'    binA'F  FW-Wa   based on;according to     [[binA'F/ADV]]
+
+    FiCA' |< aN               `noun`       {- binA'F -}         [ "based on", "according to" ],
+
+    -- ;; binA}iy~_1
+    -- bnA}y   binA}iy~        Nall    structural;architectural     [[binA}iy~/ADJ]]
+
+    FiCA' |< Iy               `adj`        {- binA}iy~ -}       [ "structural", "architectural" ],
+
+    -- ;; ban~A'_1
+    -- bnA'    ban~A'  N0      builder;mason
+    -- bnA'    ban~A'  Nh      builder;mason
+    -- bnA&    ban~A&  Nh      builder;mason
+    -- bnA}    ban~A}  Nhy     builder;mason
+    -- bnA}    ban~A}  NAn_Nayn        builder;mason
+    -- bnA&    ban~A&  Nuwn_Niyn       builder;mason
+
+    FaCLA'                    `noun`       {- ban~A' -}         [ "builder", "mason" ],
+
+    -- ;; ban~A'_2
+    -- bnA'    ban~A'  N0      constructive     [[ban~A'/ADJ]]
+    -- bnA'    ban~A'  NAn_Nayn        constructive     [[ban~A'/ADJ]]
+    -- bnA'    ban~A'  Napdu   constructive     [[ban~A'/ADJ]]
+
+    FaCLA'                    `adj`        {- ban~A' -}         [ "constructive" ],
+
+    -- ;; ban~A'_3
+    -- bnA'    ban~A'  N0      Banna
+
+    FaCLA'                    `noun`       {- ban~A' -}         [ "Banna" ],
+
+    -- ;; mabonaY_1
+    -- mbnY    mabonaY N0      building;structure
+    -- mbnA    mabonA  Nhy     building;structure
+    -- mbny    mabonay NAn_Nayn        buildings;structures
+    -- mbAny   mabAniy N0_Nh   buildings;structures
+    -- mbAn    mabAn   NK      buildings;structures
+
+    MaFCY                     `noun`       {- mabonaY -}        [ "building", "structure", "buildings", "structures" ]
+                              `plural`     MaFACI
+                              `plural`     MaFAL
+                              {- `others` [ "mabAniy N0_Nh", "mabAn NK" ] -},
+
+    -- ;; bAniy_1
+    -- bAny    bAniy   N0F     building;builder
+    -- bAn     bAn     NK      building;builder
+    -- bAny    bAniy   NAn_Nayn        building;builder
+    -- bAn     bAn     Nuwn_Niyn       building;builder
+    -- bAny    bAniy   NapAt   building;builder
+    -- bnA     bunA    Nap     builders
+
+    FACI                      `noun`       {- bAniy -}          [ "building", "builder", "builders" ]
+                              `plural`     FAL |< Un
+                              {- `others` [ "bAn Nuwn_Niyn NK" ] -},
+
+    -- ;; buwniy_1
+    -- bwny    buwniy  Nprop   Boni
+
+    FUCiy                     `noun`       {- buwniy -}         [ "Boni" ] ]
+
+ |> "b n q" <| [
+
+    -- ;; binaqap_1
+    -- bnq     binaq   Nap     gore;gusset
+    -- bnyq    baniyq  Nap     gore;gusset
+
+    FiCaL |< aT               `noun`       {- binaqap -}        [ "gore", "gusset" ]
+                              `plural`     FaCIL |< aT
+                              {- `others` [ "baniyq Nap" ] -} ]
+
+ |> "b n r" <| [
+
+    -- ;; ban~uwr_1
+    -- bnwr    ban~uwr N       glass
+
+    FaCCUL                    `noun`       {- ban~uwr -}        [ "glass" ] ]
+
+ |> "b n r s" <| [
+
+    -- ;; banAris_1
+    -- bnArs   banAris N0      Benares
+
+    KaRADiS                   `noun`       {- banAris -}        [ "Benares" ] ]
+
+ |> "b n s" <| [
+
+    -- ;; bAnuws_1
+    -- bAnws   bAnuws  Nprop   Panos
+
+    FACUL                     `noun`       {- bAnuws -}         [ "Panos" ] ]
+
+ |> "b n t" <| [
+
+    -- ;; binot_1
+    -- bnt     binot   Ndu     daughter;girl
+    -- bn      ban     NAt     daughters;girls
+
+    FiCL                      `noun`       {- binot -}          [ "daughter", "girl", "daughters", "girls" ] ]
+
+ |> "b n w" <| [
+
+    -- ;; bunuw~ap_1
+    -- bnw     bunuw~  Nap     sonship;filiation
+
+    FuCUL |< aT               `noun`       {- bunuw~ap -}       [ "sonship", "filiation" ] ]
+
+ |> "b n w r" <| [
+
+    -- ;; banowAr_1
+    -- bnwAr   banowAr N       baignoire
+
+    KaRDAS                    `noun`       {- banowAr -}        [ "baignoire" ] ]
+
+ |> "b n y" <| [
+
+    -- ;; baniy_1
+    -- bny     baniy   FW-WaBi Bani;Beni;Benny     [[baniy/NOUN_PROP]]
+
+    FaCiL                     `noun`       {- baniy -}          [ "Bani", "Beni", "Benny" ],
+
+    -- ;; baniy_2
+    -- bny     baniy   FW-WaBi sons/children of     [[baniy/NOUN]]
+
+    FaCiL                     `noun`       {- baniy -}          [ "sons/children of" ],
+
+    -- ;; bunay~_1
+    -- bny     bunay~  N       little son
+
+    FuCayL                    `noun`       {- bunay~ -}         [ "little son" ],
+
+    -- ;; binoyap_1
+    -- bny     binoy   Nap     structure;make-up
+    -- bny     bunoy   Nap     structure;make-up
+    -- bnY     binaY   N0      structures;make-up
+    -- bnA     binA    Nh      structures;make-up
+    -- bnY     bunaY   N0      structures;make-up
+
+    FiCL |< aT                `noun`       {- binoyap -}        [ "structure", "make-up", "structures" ]
+                              `plural`     FuCL |< aT
+                              `plural`     FuCY
+                              `plural`     FiCY
+                              {- `others` [ "buny Nap", "bunY N0", "binY N0" ] -},
+
+    -- ;; bunoyawiy~_1
+    -- bnywy   bunoyawiy~      Nall    structural     [[bunoyawiy~/ADJ]]
+    -- bnywy   binoyawiy~      Nall    structural     [[binoyawiy~/ADJ]]
+
+    FuCLY |< Iy               `adj`        {- bunoyawiy~ -}     [ "structural" ],
+
+    -- ;; bunoyawiy~ap_1
+    -- bnywy   bunoyawiy~      Nap     structuralism     [[bunoyawiy~/NOUN]]
+    -- bnywy   binoyawiy~      Nap     structuralism     [[binoyawiy~/NOUN]]
+
+    FuCLY |< Iy |< aT         `noun`       {- bunoyawiy~ap -}   [ "structuralism" ],
+
+    -- ;; binAyap_1
+    -- bnAy    binAy   NapAt   building;structure
+
+    FiCAL |< aT               `noun`       {- binAyap -}        [ "building", "structure" ],
+
+    -- ;; bunoyAn_1
+    -- bnyAn   bunoyAn N       structure;edifice
+
+    FuCLAn                    `noun`       {- bunoyAn -}        [ "structure", "edifice" ],
+
+    -- ;; bAniy_1
+    -- bAny    bAniy   N0F     building;builder
+    -- bAn     bAn     NK      building;builder
+    -- bAny    bAniy   NAn_Nayn        building;builder
+    -- bAn     bAn     Nuwn_Niyn       building;builder
+    -- bAny    bAniy   NapAt   building;builder
+    -- bnA     bunA    Nap     builders
+
+    FACiL                     `noun`       {- bAniy -}          [ "building", "builder", "builders" ] ]
+
+ |> "b n y n" <| [
+
+    -- ;; bunoyAn_1
+    -- bnyAn   bunoyAn N       structure;edifice
+
+    KuRDAS                    `noun`       {- bunoyAn -}        [ "structure", "edifice" ] ]
+
+ |> "b n z l" <| [
+
+    -- ;; binozuwl_1
+    -- bnzwl   binozuwl        N       benzol;benzene
+
+    KiRDUS                    `noun`       {- binozuwl -}       [ "benzol", "benzene" ] ]
+
+ |> "b n z n" <| [
+
+    -- ;; binoziyn_1
+    -- bnzyn   binoziyn        N       gasoline;benzine;benzene
+
+    KiRDIS                    `noun`       {- binoziyn -}       [ "gasoline", "benzine", "benzene" ] ]
+
+ |> "b q '" <| [
+
+    -- ;; baqA'_1
+    -- bqA'    baqA'   N0_Nh   survival;remaining
+    -- bqA&    baqA&   Nh      survival;remaining
+    -- bqA}    baqA}   Nhy     survival;remaining
+
+    FaCAL                     `noun`       {- baqA' -}          [ "survival", "remaining" ],
+
+    -- ;; <iboqA'_1
+    -- <bqA'   <iboqA' N0_Nh   continuation;preservation
+    -- AbqA'   <iboqA' N0_Nh   continuation;preservation
+    -- <bqA&   <iboqA& Nh      continuation;preservation
+    -- AbqA&   <iboqA& Nh      continuation;preservation
+    -- <bqA}   <iboqA} Nhy     continuation;preservation
+    -- AbqA}   <iboqA} Nhy     continuation;preservation
+    -- <bqA'   <iboqA' NAn_Nayn        continuation;preservation
+    -- AbqA'   <iboqA' NAn_Nayn        continuation;preservation
+    -- <bqA}   <iboqA} Nayn    continuation;preservation
+    -- AbqA}   <iboqA} Nayn    continuation;preservation
+    -- <bqA'   <iboqA' NAt     continuation;preservation
+    -- AbqA'   <iboqA' NAt     continuation;preservation
+
+    HiFCAL                    `noun`       {- IiboqA' -}        [ "continuation", "preservation" ],
+
+    -- ;; {isotiboqA'_1
+    -- <stbqA' {isotiboqA'     N0_Nh   maintenance;continuation
+    -- AstbqA' {isotiboqA'     N0_Nh   maintenance;continuation
+    -- <stbqA& {isotiboqA&     Nh      maintenance;continuation
+    -- AstbqA& {isotiboqA&     Nh      maintenance;continuation
+    -- <stbqA} {isotiboqA}     Nhy     maintenance;continuation
+    -- AstbqA} {isotiboqA}     Nhy     maintenance;continuation
+    -- <stbqA' {isotiboqA'     NAn_Nayn        maintenance;continuation
+    -- AstbqA' {isotiboqA'     NAn_Nayn        maintenance;continuation
+    -- <stbqA} {isotiboqA}     Nayn    maintenance;continuation
+    -- AstbqA} {isotiboqA}     Nayn    maintenance;continuation
+    -- <stbqA' {isotiboqA'     NAt     maintenance;continuation
+    -- AstbqA' {isotiboqA'     NAt     maintenance;continuation
+
+    IstiFCAL                  `noun`       {- {isotiboqA' -}    [ "maintenance", "continuation" ] ]
+
+ |> "b q ^g" <| [
+
+    -- ;; buqojap_1
+    -- bqj     buqoj   Napdu   bundle;package
+    -- bqj     buqaj   N       bundles;packages
+
+    FuCL |< aT                `noun`       {- buqojap -}        [ "bundle", "package", "bundles", "packages" ]
+                              `plural`     FuCaL
+                              {- `others` [ "buqa^g N" ] -} ]
+
+ |> "b q ^s" <| [
+
+    -- ;; buqo$ap_1
+    -- bq$     buqo$   Napdu   buqsha (Yemeni copper coin)
+
+    FuCL |< aT                `noun`       {- buqo$ap -}        [ "buqsha (Yemeni copper coin)" ] ]
+
+ |> "b q ^s ^s" <| [
+
+    -- ;; baqo$iy$_1
+    -- bq$y$   baqo$iy$        N       baksheesh;gratuity;tip
+    -- bqA$y$  baqA$iy$        Ndip    baksheesh;gratuities;tips
+
+    KaRDIS                    `noun`       {- baqo$iy$ -}       [ "baksheesh", "gratuity", "tip", "gratuities", "tips" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "baqA^siy^s Ndip" ] -} ]
+
+ |> "b q `" <| [
+
+    -- ;; baq~aE_1
+    -- bqE     baq~aE  PV      stain;soil
+    -- bqE     baq~iE  IV_yu   stain;soil
+    -- bqE     baq~aE  IV_Pass_yu      be stained;be soiled
+
+    FaCCaL                    `verb`       {- baq~aE -}         [ "stain", "soil", "be stained", "be soiled" ]
+                              {- `others` [ "baqqi` IV_yu" ] -},
+
+    -- ;; tabaq~aE_1
+    -- tbqE    tabaq~aE        PV_intr be stained;be spotted
+    -- tbqE    tabaq~aE        IV_intr be stained;be spotted
+
+    TaFaCCaL                  `verb`       {- tabaq~aE -}       [ "be stained", "be spotted" ],
+
+    -- ;; buqoEap_1
+    -- bqE     buqoE   NapAt   spot;stain
+    -- bqE     buqaE   N       spots;stains
+
+    FuCL |< aT                `noun`       {- buqoEap -}        [ "spot", "stain", "spots", "stains" ]
+                              `plural`     FuCaL
+                              {- `others` [ "buqa` N" ] -},
+
+    -- ;; biqAE_1
+    -- bqAE    biqAE   N0      Bekaa;Biqa
+
+    FiCAL                     `noun`       {- biqAE -}          [ "Bekaa", "Biqa" ],
+
+    -- ;; biqAE_2
+    -- bqAE    biqAE   N       regions;spots
+
+    FiCAL                     `noun`       {- biqAE -}          [ "regions", "spots" ],
+
+    -- ;; >aboqaE_1
+    -- >bqE    >aboqaE Nel     spotted;speckled
+    -- AbqE    >aboqaE Nel     spotted;speckled
+
+    HaFCaL                    `noun`       {- OaboqaE -}        [ "spotted", "speckled" ],
+
+    -- ;; bAqiEap_1
+    -- bAqE    bAqiE   Nap     sly;shrewd
+    -- bwAqE   bawAqiE Ndip    sly;shrewd
+
+    FACiL |< aT               `noun`       {- bAqiEap -}        [ "sly", "shrewd" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawAqi` Ndip" ] -} ]
+
+ |> "b q b q" <| [
+
+    -- ;; baqobaq_1
+    -- bqbq    baqobaq PV      prattle;chatter
+    -- bqbq    baqobiq IV_yu   prattle;chatter
+
+    KaRDaS                    `verb`       {- baqobaq -}        [ "prattle", "chatter" ]
+                              {- `others` [ "baqbiq IV_yu" ] -},
+
+    -- ;; baqobaqap_1
+    -- bqbq    baqobaq Nap     gurgling;prattle
+
+    KaRDaS |< aT              `noun`       {- baqobaqap -}      [ "gurgling", "prattle" ],
+
+    -- ;; baqobAq_1
+    -- bqbAq   baqobAq Nall    loquacious
+
+    KaRDAS                    `noun`       {- baqobAq -}        [ "loquacious" ],
+
+    -- ;; baqobuwqap_1
+    -- bqbwq   baqobuwq        NapAt   blister
+
+    KaRDUS |< aT              `noun`       {- baqobuwqap -}     [ "blister" ] ]
+
+ |> "b q d" <| [
+
+    -- ;; >aboqaY_1
+    -- >bqY    >aboqaY PV_0    maintain;preserve
+    -- AbqY    >aboqaY PV_0    maintain;preserve
+    -- >bqA    >aboqA  PV_h    maintain;preserve
+    -- AbqA    >aboqA  PV_h    maintain;preserve
+    -- >bqy    >aboqay PV_Atn  maintain;preserve
+    -- Abqy    >aboqay PV_Atn  maintain;preserve
+    -- >bq     >aboq   PV_ttAw maintain;preserve
+    -- Abq     >aboq   PV_ttAw maintain;preserve
+    -- bqy     boqiy   IV_0hAnn_yu     maintain;preserve
+    -- bq      boq     IV_0hwnyn_yu    maintain;preserve
+    -- bqY     boqaY   IV_0_Pass_yu    be maintained;be preserved
+    -- bqy     boqay   IV_Ann_Pass_yu  be maintained;be preserved
+
+    HaFCY                     `verb`       {- OaboqaY -}        [ "maintain", "preserve", "be maintained", "be preserved" ]
+                              {- `others` [ "bqY IV_0_Pass_yu", "bqiy IV_0hAnn_yu" ] -},
+
+    -- ;; tabaq~aY_1
+    -- tbqY    tabaq~aY        PV_0    remain;stay
+    -- tbqA    tabaq~A PV_h    remain;stay
+    -- tbqy    tabaq~ay        PV_Atn  remain;stay
+    -- tbq     tabaq~  PV_ttAw remain;stay
+    -- tbqY    tabaq~aY        IV_0    remain;stay
+    -- tbqA    tabaq~A IV_h    remain;stay
+    -- tbqy    tabaq~ay        IV_Ann  remain;stay
+    -- tbq     tabaq~  IV_0hwnyn       remain;stay
+
+    TaFaCCY                   `verb`       {- tabaq~aY -}       [ "remain", "stay" ],
+
+    -- ;; {isotaboqaY_1
+    -- <stbqY  {isotaboqaY     PV_0    maintain;retain;preserve
+    -- AstbqY  {isotaboqaY     PV_0    maintain;retain;preserve
+    -- <stbqA  {isotaboqA      PV_h    maintain;retain;preserve
+    -- AstbqA  {isotaboqA      PV_h    maintain;retain;preserve
+    -- <stbqy  {isotaboqay     PV_Atn  maintain;retain;preserve
+    -- Astbqy  {isotaboqay     PV_Atn  maintain;retain;preserve
+    -- <stbq   {isotaboq       PV_ttAw maintain;retain;preserve
+    -- Astbq   {isotaboq       PV_ttAw maintain;retain;preserve
+    -- stbqy   sotaboqiy       IV_0hAnn        maintain;retain;preserve
+    -- stbq    sotaboq IV_0hwnyn       maintain;retain;preserve
+    -- stbqY   sotaboqaY       IV_0_Pass_yu    be maintained;be retained;be preserved
+
+    IstaFCY                   `verb`       {- {isotaboqaY -}    [ "maintain", "retain", "preserve", "be maintained", "be retained", "be preserved" ],
+
+    -- ;; baqA'_1
+    -- bqA'    baqA'   N0_Nh   survival;remaining
+    -- bqA&    baqA&   Nh      survival;remaining
+    -- bqA}    baqA}   Nhy     survival;remaining
+
+    FaCA'                     `noun`       {- baqA' -}          [ "survival", "remaining" ],
+
+    -- ;; >aboqaY_2
+    -- >bqY    >aboqaY N0      more lasting;more durable
+    -- AbqY    >aboqaY N0      more lasting;more durable
+    -- >bqA    >aboqA  Nhy     more lasting;more durable
+    -- AbqA    >aboqA  Nhy     more lasting;more durable
+    -- >bqy    >aboqay NAn_Nayn        more lasting;more durable
+    -- Abqy    >aboqay NAn_Nayn        more lasting;more durable
+
+    HaFCY                     `noun`       {- OaboqaY -}        [ "more lasting", "more durable" ],
+
+    -- ;; <iboqA'_1
+    -- <bqA'   <iboqA' N0_Nh   continuation;preservation
+    -- AbqA'   <iboqA' N0_Nh   continuation;preservation
+    -- <bqA&   <iboqA& Nh      continuation;preservation
+    -- AbqA&   <iboqA& Nh      continuation;preservation
+    -- <bqA}   <iboqA} Nhy     continuation;preservation
+    -- AbqA}   <iboqA} Nhy     continuation;preservation
+    -- <bqA'   <iboqA' NAn_Nayn        continuation;preservation
+    -- AbqA'   <iboqA' NAn_Nayn        continuation;preservation
+    -- <bqA}   <iboqA} Nayn    continuation;preservation
+    -- AbqA}   <iboqA} Nayn    continuation;preservation
+    -- <bqA'   <iboqA' NAt     continuation;preservation
+    -- AbqA'   <iboqA' NAt     continuation;preservation
+
+    HiFCA'                    `noun`       {- IiboqA' -}        [ "continuation", "preservation" ],
+
+    -- ;; {isotiboqA'_1
+    -- <stbqA' {isotiboqA'     N0_Nh   maintenance;continuation
+    -- AstbqA' {isotiboqA'     N0_Nh   maintenance;continuation
+    -- <stbqA& {isotiboqA&     Nh      maintenance;continuation
+    -- AstbqA& {isotiboqA&     Nh      maintenance;continuation
+    -- <stbqA} {isotiboqA}     Nhy     maintenance;continuation
+    -- AstbqA} {isotiboqA}     Nhy     maintenance;continuation
+    -- <stbqA' {isotiboqA'     NAn_Nayn        maintenance;continuation
+    -- AstbqA' {isotiboqA'     NAn_Nayn        maintenance;continuation
+    -- <stbqA} {isotiboqA}     Nayn    maintenance;continuation
+    -- AstbqA} {isotiboqA}     Nayn    maintenance;continuation
+    -- <stbqA' {isotiboqA'     NAt     maintenance;continuation
+    -- AstbqA' {isotiboqA'     NAt     maintenance;continuation
+
+    IstiFCA'                  `noun`       {- {isotiboqA' -}    [ "maintenance", "continuation" ],
+
+    -- ;; bAqiy_1
+    -- bAqy    bAqiy   N0      Baqi
+
+    FACI                      `noun`       {- bAqiy -}          [ "Baqi" ],
+
+    -- ;; bAqiy_2
+    -- bAqy    bAqiy   N0F_Nh  remaining
+    -- bAq     bAq     NK      remaining
+    -- bAqy    bAqiy   NAn_Nayn        remaining
+    -- bAq     bAq     Nuwn_Niyn       remaining
+    -- bAqy    bAqiy   NapAt   remaining
+
+    FACI                      `noun`       {- bAqiy -}          [ "remaining" ],
+
+    -- ;; mutabaq~iy_1
+    -- mtbqy   mutabaq~iy      N0F_Nh  residue;remnant
+    -- mtbq    mutabaq~        NK      residue;remnant
+    -- mtbqy   mutabaq~iy      NAn_Nayn        residue;remnant
+    -- mtbq    mutabaq~        Nuwn_Niyn       residue;remnant
+    -- mtbqy   mutabaq~iy      NapAt   residue;remnant
+
+    MutaFaCCI                 `noun`       {- mutabaq~iy -}     [ "residue", "remnant" ] ]
+
+ |> "b q l" <| [
+
+    -- ;; baqal-u_1
+    -- bql     baqal   PV      sprout
+    -- bql     boqul   IV      sprout
+
+    FaCaL                     `verb`       {- baqal-u -}        [ "sprout" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bqul IV" ] -},
+
+    -- ;; baqol_1
+    -- bql     baqol   N       herb;legume
+    -- bql     baqol   Napdu   herb;legume
+    -- bql     baqal   NAt     herbs;legumes
+    -- bqwl    buquwl  N       herbs;legumes
+
+    FaCL                      `noun`       {- baqol -}          [ "herb", "legume", "herbs", "legumes" ]
+                              `plural`     FaCaL |< At
+                              `plural`     FuCUL
+                              {- `others` [ "baqal NAt", "buquwl N" ] -},
+
+    -- ;; baqoliy~_1
+    -- bqly    baqoliy~        Nall    leguminous     [[baqoliy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- baqoliy~ -}       [ "leguminous" ],
+
+    -- ;; baq~Al_1
+    -- bqAl    baq~Al  Nall    green-grocer;grocer
+
+    FaCCAL                    `noun`       {- baq~Al -}         [ "green-grocer", "grocer" ],
+
+    -- ;; biqAlap_1
+    -- bqAl    biqAl   NapAt   grocery
+
+    FiCAL |< aT               `noun`       {- biqAlap -}        [ "grocery" ],
+
+    -- ;; buwqAl_1
+    -- bwqAl   buwqAl  Ndu     mug
+    -- bwqAl   buwqAl  NapAt   mug
+    -- bwAqyl  bawAqiyl        Ndip    mugs
+
+    FUCAL                     `noun`       {- buwqAl -}         [ "mug", "mugs" ]
+                              `plural`     FawACIL
+                              {- `others` [ "bawAqiyl Ndip" ] -} ]
+
+ |> "b q l w" <| [
+
+    -- ;; baqolAwap_1
+    -- bqlAw   baqolAw Nap     baklava
+    -- bqlAwA  baqolAwA        N0      baklava
+
+    KaRDAS |< aT              `noun`       {- baqolAwap -}      [ "baklava" ] ]
+
+ |> "b q m" <| [
+
+    -- ;; baq~am_1
+    -- bqm     baq~am  N       brazilwood
+
+    FaCCaL                    `noun`       {- baq~am -}         [ "brazilwood" ],
+
+    -- ;; baqamiy~_1
+    -- bqmy    baqamiy~        N0      Baqami
+
+    FaCaL |< Iy               `adj`        {- baqamiy~ -}       [ "Baqami" ],
+
+    -- ;; baqomiy~_1
+    -- bqmy    baqomiy~        N0      Baqmi
+
+    FaCL |< Iy                `adj`        {- baqomiy~ -}       [ "Baqmi" ] ]
+
+ |> "b q q" <| [
+
+    -- ;; baq~-u_1
+    -- bq      baq~    PV_V_intr       be bounteous
+    -- bqq     baqaq   PV_C_intr       be bounteous
+    -- bq      buq~    IV_V_intr       be bounteous
+    -- bqq     boquq   IV_C_intr       be bounteous
+
+    FaCL                      `verb`       {- baq~-u -}         [ "be bounteous" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bquq IV_C_intr", "buqq IV_V_intr", "baqaq PV_C_intr" ] -},
+
+    -- ;; baq~_1
+    -- bq      baq~    N/ap    bedbug
+
+    FaCL                      `noun`       {- baq~ -}           [ "bedbug" ],
+
+    -- ;; baq~_2
+    -- bq      baq~    N/ap    bounty
+
+    FaCL                      `noun`       {- baq~ -}           [ "bounty" ],
+
+    -- ;; baq~Aq_1
+    -- bqAq    baq~Aq  Nall    loquacious
+
+    FaCCAL                    `noun`       {- baq~Aq -}         [ "loquacious" ] ]
+
+ |> "b q r" <| [
+
+    -- ;; baqar-u_1
+    -- bqr     baqar   PV      split open;disembowel
+    -- bqr     boqur   IV      split open;disembowel
+    -- bqr     boqar   IV      split open;disembowel
+
+    FaCaL                     `verb`       {- baqar-u -}        [ "split open", "disembowel" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bqur IV", "bqar IV" ] -},
+
+    -- ;; >aboqar_1
+    -- >bqr    >aboqar PV      split open;disembowel
+    -- Abqr    >aboqar PV      split open;disembowel
+    -- bqr     boqir   IV_yu   split open;disembowel
+    -- bqr     boqar   IV_Pass_yu      be split open;be disemboweled
+
+    HaFCaL                    `verb`       {- Oaboqar -}        [ "split open", "disembowel", "be split open", "be disemboweled" ]
+                              {- `others` [ "bqir IV_yu", "bqar IV_Pass_yu" ] -},
+
+    -- ;; baqar_1
+    -- bqr     baqar   N       cows
+    -- bqr     baqar   NapAt   cow
+    -- >bqAr   >aboqAr N       cows
+    -- AbqAr   >aboqAr N       cows
+    -- bqwr    buquwr  N       cows
+
+    FaCaL                     `noun`       {- baqar -}          [ "cows", "cow" ]
+                              `plural`     HaFCAL
+                              `plural`     FuCUL
+                              {- `others` [ "'abqAr N", "buquwr N" ] -},
+
+    -- ;; baqariy~_1
+    -- bqry    baqariy~        Nall    bovine;cow     [[baqariy~/ADJ]]
+
+    FaCaL |< Iy               `adj`        {- baqariy~ -}       [ "bovine", "cow" ],
+
+    -- ;; baq~Ar_1
+    -- bqAr    baq~Ar  Nall    cowboy;cowhand
+
+    FaCCAL                    `noun`       {- baq~Ar -}         [ "cowboy", "cowhand" ],
+
+    -- ;; bAqir_1
+    -- bAqr    bAqir   N0      Baqir
+
+    FACiL                     `noun`       {- bAqir -}          [ "Baqir" ],
+
+    -- ;; bAqiriy~_1
+    -- bAqry   bAqiriy~        N0      Baqiri;Bagheri
+
+    FACiL |< Iy               `adj`        {- bAqiriy~ -}       [ "Baqiri", "Bagheri" ] ]
+
+ |> "b q r .t" <| [
+
+    -- ;; buqrAT_1
+    -- bqrAT   buqrAT  Ndip    Hippocrates
+
+    KuRDAS                    `noun`       {- buqrAT -}         [ "Hippocrates" ],
+
+    -- ;; buqrATiy~_1
+    -- bqrATy  buqrATiy~       Nall    Hippocratic     [[buqrATiy~/ADJ]]
+
+    KuRDAS |< Iy              `adj`        {- buqrATiy~ -}      [ "Hippocratic" ] ]
+
+ |> "b q r ^g" <| [
+
+    -- ;; baqoraj_1
+    -- bqrj    baqoraj N       kettle;coffee pot
+    -- bqArj   baqArij Ndip    kettles;coffee pots
+
+    KaRDaS                    `noun`       {- baqoraj -}        [ "kettle", "coffee pot", "kettles", "coffee pots" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "baqAri^g Ndip" ] -} ]
+
+ |> "b q s" <| [
+
+    -- ;; baqos_1
+    -- bqs     baqos   N       box
+
+    FaCL                      `noun`       {- baqos -}          [ "box" ] ]
+
+ |> "b q s m" <| [
+
+    -- ;; buqosumAt_1
+    -- bqsm    buqosum NAt     rusk;biscuit
+
+    KuRDuS |< At              `noun`       {- buqosumAt -}      [ "rusk", "biscuit" ]
+                              `plural`     KuRDuS |< At
+                              {- `others` [ "buqsum NAt" ] -} ]
+
+ |> "b q y" <| [
+
+    -- ;; baqiy-a_1
+    -- bqy     baqiy   PV_no-w remain;last
+    -- bq      baq     PV_w    remain;last
+    -- bqY     boqaY   IV_0    remain;last
+    -- bqy     boqay   IV_Ann  remain;last
+    -- bq      boqa    IV_0hwnyn       remain;last
+
+    FaCiL                     `verb`       {- baqiy-a -}        [ "remain", "last" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bqY IV_0", "bqay IV_Ann" ] -},
+
+    -- ;; bAqiy_1
+    -- bAqy    bAqiy   N0      Baqi
+
+    FACiL                     `noun`       {- bAqiy -}          [ "Baqi" ],
+
+    -- ;; bawAqiy_1
+    -- bwAqy   bawAqiy N0      Bawaqi
+
+    FawACiL                   `noun`       {- bawAqiy -}        [ "Bawaqi" ],
+
+    -- ;; bAqiy_2
+    -- bAqy    bAqiy   N0F_Nh  remaining
+    -- bAq     bAq     NK      remaining
+    -- bAqy    bAqiy   NAn_Nayn        remaining
+    -- bAq     bAq     Nuwn_Niyn       remaining
+    -- bAqy    bAqiy   NapAt   remaining
+
+    FACiL                     `noun`       {- bAqiy -}          [ "remaining" ],
+
+    -- ;; mutabaq~iy_1
+    -- mtbqy   mutabaq~iy      N0F_Nh  residue;remnant
+    -- mtbq    mutabaq~        NK      residue;remnant
+    -- mtbqy   mutabaq~iy      NAn_Nayn        residue;remnant
+    -- mtbq    mutabaq~        Nuwn_Niyn       residue;remnant
+    -- mtbqy   mutabaq~iy      NapAt   residue;remnant
+
+    MutaFaCCiL                `noun`       {- mutabaq~iy -}     [ "residue", "remnant" ] ]
+
+ |> "b r '" <| [
+
+    -- ;; bara>-a_1
+    -- br>     bara>   PV->    create
+    -- br|     bara|   PV-|    create
+    -- br&     bara&   PV_w    create
+    -- br>     bora>   IV      create
+    -- br|     bora|   IV-|    create
+    -- br&     bora&   IV_wn   create
+    -- br}     bora}   IV_yn   create
+
+    FaCaL                     `verb`       {- baraO-a -}        [ "create" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bra' IV IV_wn IV_yn" ] -},
+
+    -- ;; bari}-a_1
+    -- br}     bari}   PV_intr be absolved;recover
+    -- br>     bora>   IV      be absolved;recover
+    -- br|     bora|   IV-|    be absolved;recover
+    -- br&     bora&   IV_wn   be absolved;recover
+    -- br}     bora}   IV_yn   be absolved;recover
+
+    FaCiL                     `verb`       {- bari}-a -}        [ "be absolved", "recover" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bra' IV IV_wn IV_yn" ] -},
+
+    -- ;; bar~a>_1
+    -- br>     bar~a>  PV->    absolve;exonerate;pardon
+    -- br|     bar~a|  PV-|    absolve;exonerate;pardon
+    -- br&     bar~a&  PV_w    absolve;exonerate;pardon
+    -- br}     bar~i}  IV_yu   absolve;exonerate;pardon
+    -- br>     bar~a>  IV_Pass_yu      be absolved;be exonerated;be pardoned
+
+    FaCCaL                    `verb`       {- bar~aO -}         [ "absolve", "exonerate", "pardon", "be absolved", "be exonerated", "be pardoned" ]
+                              {- `others` [ "barri' IV_yu" ] -},
+
+    -- ;; >abora>_1
+    -- >br>    >abora> PV->    acquit;absolve;exonerate
+    -- Abr>    >abora> PV->    acquit;absolve;exonerate
+    -- >br|    >abora| PV-|    acquit;absolve;exonerate
+    -- Abr|    >abora| PV-|    acquit;absolve;exonerate
+    -- >br&    >abora& PV_w    acquit;absolve;exonerate
+    -- Abr&    >abora& PV_w    acquit;absolve;exonerate
+    -- br}     bori}   IV_yu   acquit;absolve;exonerate
+    -- br>     bora>   IV_Pass_yu      be acquitted;be absolved;be exonerated
+
+    HaFCaL                    `verb`       {- OaboraO -}        [ "acquit", "absolve", "exonerate", "be acquitted", "be absolved", "be exonerated" ]
+                              {- `others` [ "bra' IV_Pass_yu", "bri' IV_yu" ] -},
+
+    -- ;; tabar~a>_1
+    -- tbr>    tabar~a>        PV->_intr       be absolved;be innocent
+    -- tbr|    tabar~a|        PV-|_intr       be absolved;be innocent
+    -- tbr&    tabar~a&        PV_w_intr       be absolved;be innocent
+    -- tbr>    tabar~a>        IV      be absolved;be innocent
+    -- tbr|    tabar~a|        IV-|    be absolved;be innocent
+    -- tbr&    tabar~a&        IV_wn   be absolved;be innocent
+    -- tbr}    tabar~a}        IV_yn   be absolved;be innocent
+
+    TaFaCCaL                  `verb`       {- tabar~aO -}       [ "be absolved", "be innocent" ],
+
+    -- ;; {isotabora>_1
+    -- <stbr>  {isotabora>     PV->    restore to health;be emancipated
+    -- Astbr>  {isotabora>     PV->    restore to health;be emancipated
+    -- <stbr|  {isotabora|     PV-|    restore to health;be emancipated
+    -- Astbr|  {isotabora|     PV-|    restore to health;be emancipated
+    -- <stbr&  {isotabora&     PV_w    restore to health;be emancipated
+    -- Astbr&  {isotabora&     PV_w    restore to health;be emancipated
+    -- stbr}   sotabori}       IV      restore to health;be emancipated
+
+    IstaFCaL                  `verb`       {- {isotaboraO -}    [ "restore to health", "be emancipated" ],
+
+    -- ;; baro'_1
+    -- br'     baro'   N0F     creation
+    -- br>     baro>   Nh      creation
+    -- br&     baro&   Nh      creation
+    -- br}     baro}   Nhy     creation
+
+    FaCL                      `noun`       {- baro' -}          [ "creation" ],
+
+    -- ;; bAri}_1
+    -- bAr}    bAri}   N0      Creator
+
+    FACiL                     `noun`       {- bAri} -}          [ "Creator" ],
+
+    -- ;; bAri}_2
+    -- bAr}    bAri}   Nall    creating
+
+    FACiL                     `noun`       {- bAri} -}          [ "creating" ],
+
+    -- ;; buro'_1
+    -- br'     buro'   N0F_Nh  recovery;convalescence
+    -- br&     buro&   Nh      recovery;convalescence
+    -- br}     buro}   Nhy     recovery;convalescence
+    -- brw'    buruw'  N0_Nh   recovery;convalescence
+    -- brw}    buruw}  Nhy     recovery;convalescence
+
+    FuCL                      `noun`       {- buro' -}          [ "recovery", "convalescence" ]
+                              `plural`     FuCUL
+                              {- `others` [ "buruw' N0_Nh Nhy" ] -},
+
+    -- ;; bariy'_1
+    -- bry'    bariy'  N0      innocent;exempt     [[bariy'/ADJ]]
+    -- bry}    bariy}  NF      innocent;exempt
+    -- bry}    bariy}  NapAt   innocent;exempt
+    -- bry}    bariy}  NAn_Nayn        innocent;exempt
+    -- bry}    bariy}  Nuwn_Niyn       innocent;exempt
+    -- brA'    burA'   N0_Nh   innocent;exempt
+    -- brA&    burA&   Nh      innocent;exempt
+    -- brA}    burA}   Nhy     innocent;exempt
+    -- brA'    barA'   N0_Nh   innocent;exempt
+    -- brA&    barA&   Nh      innocent;exempt
+    -- brA}    barA}   Nhy     innocent;exempt
+
+    FaCIL                     `adj`        {- bariy' -}         [ "innocent", "exempt" ]
+                              `plural`     FaCAL
+                              `plural`     FaCA'
+                              `plural`     FuCAL
+                              `plural`     FuCA'
+                              {- `others` [ "barA' Nh N0_Nh Nhy", "burA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; barA'ap_1
+    -- brA'    barA'   Nap     innocence
+
+    FaCAL |< aT               `noun`       {- barA'ap -}        [ "innocence" ],
+
+    -- ;; barA'ap_2
+    -- brA'    barA'   NapAt   license;patent
+
+    FaCAL |< aT               `noun`       {- barA'ap -}        [ "license", "patent" ],
+
+    -- ;; tabori}ap_1
+    -- tbr}    tabori} NapAt   exemption;acquittal
+
+    TaFCiL |< aT              `noun`       {- tabori}ap -}      [ "exemption", "acquittal" ],
+
+    -- ;; mubAra>ap_1
+    -- mbAr>   mubAra> Napdu   divorce
+    -- mbAr    mubAra  N-|t    divorces
+
+    MuFACaL |< aT             `noun`       {- mubAraOap -}      [ "divorce", "divorces" ],
+
+    -- ;; <iborA'_1
+    -- <brA'   <iborA' N0_Nh   acquittal;exoneration
+    -- AbrA'   <iborA' N0_Nh   acquittal;exoneration
+    -- <brA&   <iborA& Nh      acquittal;exoneration
+    -- AbrA&   <iborA& Nh      acquittal;exoneration
+    -- <brA}   <iborA} Nhy     acquittal;exoneration
+    -- AbrA}   <iborA} Nhy     acquittal;exoneration
+    -- <brA'   <iborA' NAn_Nayn        acquittals;exonerations
+    -- AbrA'   <iborA' NAn_Nayn        acquittals;exonerations
+    -- <brA}   <iborA} Nayn    acquittals;exonerations
+    -- AbrA}   <iborA} Nayn    acquittals;exonerations
+    -- <brA'   <iborA' NAt     acquittals;exonerations
+    -- AbrA'   <iborA' NAt     acquittals;exonerations
+
+    HiFCAL                    `noun`       {- IiborA' -}        [ "acquittal", "exoneration", "acquittals", "exonerations" ],
+
+    -- ;; {isotiborA'_1
+    -- <stbrA' {isotiborA'     N0_Nh   purification
+    -- AstbrA' {isotiborA'     N0_Nh   purification
+    -- <stbrA& {isotiborA&     Nh      purification
+    -- AstbrA& {isotiborA&     Nh      purification
+    -- <stbrA} {isotiborA}     Nhy     purification
+    -- AstbrA} {isotiborA}     Nhy     purification
+    -- <stbrA' {isotiborA'     NAn_Nayn        purifications
+    -- AstbrA' {isotiborA'     NAn_Nayn        purifications
+    -- <stbrA} {isotiborA}     Nayn    purifications
+    -- AstbrA} {isotiborA}     Nayn    purifications
+    -- <stbrA' {isotiborA'     NAt     purifications
+    -- AstbrA' {isotiborA'     NAt     purifications
+
+    IstiFCAL                  `noun`       {- {isotiborA' -}    [ "purification", "purifications" ] ]
+
+ |> "b r .d" <| [
+
+    -- ;; baraD-u_1
+    -- brD     baraD   PV      germinate;sprout
+    -- brD     boruD   IV      germinate;sprout
+
+    FaCaL                     `verb`       {- baraD-u -}        [ "germinate", "sprout" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bru.d IV" ] -},
+
+    -- ;; buruwD_1
+    -- brwD    buruwD  N       germination;sprouting
+
+    FuCUL                     `noun`       {- buruwD -}         [ "germination", "sprouting" ] ]
+
+ |> "b r .g ^s" <| [
+
+    -- ;; baroga$_1
+    -- brg$    baroga$ N       gnats;midges
+    -- brg$    baroga$ Napdu   gnat;midge
+
+    KaRDaS                    `noun`       {- baroga$ -}        [ "gnats", "midges", "gnat", "midge" ] ]
+
+ |> "b r .g _t" <| [
+
+    -- ;; baroguwv_1
+    -- brgwv   baroguwv        Ndu     flea
+    -- brAgyv  barAgiyv        Ndip    fleas
+
+    KaRDUS                    `noun`       {- baroguwv -}       [ "flea", "fleas" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "barA.giy_t Ndip" ] -},
+
+    -- ;; baroguwviy~_1
+    -- brgwvy  baroguwviy~     N0      Barghouthi
+
+    KaRDUS |< Iy              `adj`        {- baroguwviy~ -}    [ "Barghouthi" ] ]
+
+ |> "b r .g l" <| [
+
+    -- ;; burogul_1
+    -- brgl    burogul N       bulgur
+
+    KuRDuS                    `noun`       {- burogul -}        [ "bulgur" ] ]
+
+ |> "b r .g r" <| [
+
+    -- ;; barogar_1
+    -- brgr    barogar Nprop   Berger;Burger
+
+    KaRDaS                    `noun`       {- barogar -}        [ "Berger", "Burger" ] ]
+
+ |> "b r .h" <| [
+
+    -- ;; bariH_1
+    -- brH     bariH   PV      quit;leave;finish;end
+    -- brH     boraH   IV      quit;leave;finish;end
+
+    FaCiL                     `verb`       {- bariH -}          [ "quit", "leave", "finish", "end" ]
+                              {- `others` [ "bra.h IV" ] -},
+
+    -- ;; bar~aH_1
+    -- brH     bar~aH  PV      overwhelm;afflict;torment
+    -- brH     bar~iH  IV_yu   overwhelm;afflict;torment
+    -- brH     bar~aH  IV_Pass_yu      be overwhelmed;be afflicted;be tormented
+
+    FaCCaL                    `verb`       {- bar~aH -}         [ "overwhelm", "afflict", "torment", "be overwhelmed", "be afflicted", "be tormented" ]
+                              {- `others` [ "barri.h IV_yu" ] -},
+
+    -- ;; bAraH_1
+    -- bArH    bAraH   PV      give up
+    -- bArH    bAriH   IV_yu   give up
+
+    FACaL                     `verb`       {- bAraH -}          [ "give up" ]
+                              {- `others` [ "bAri.h IV_yu" ] -},
+
+    -- ;; >aboraH_1
+    -- >brH    >aboraH PV      do good
+    -- AbrH    >aboraH PV      do good
+    -- brH     boriH   IV_yu   do good
+
+    HaFCaL                    `verb`       {- OaboraH -}        [ "do good" ]
+                              {- `others` [ "bri.h IV_yu" ] -},
+
+    -- ;; barAH_1
+    -- brAH    barAH   N       empty land;cessation
+
+    FaCAL                     `noun`       {- barAH -}          [ "empty land", "cessation" ],
+
+    -- ;; barAHAF_1
+    -- brAH    barAH   NF      openly;patently     [[barAH/ADV]]
+
+    FaCAL |< aN               `noun`       {- barAHAF -}        [ "openly", "patently" ]
+                              `plural`     FaCAL
+                              {- `others` [ "barA.h NF" ] -},
+
+    -- ;; mubAraHap_1
+    -- mbArH   mubAraH NapAt   departure
+
+    MuFACaL |< aT             `noun`       {- mubAraHap -}      [ "departure" ],
+
+    -- ;; bAriH_1
+    -- bArH    bAriH   Nall    ominous
+
+    FACiL                     `noun`       {- bAriH -}          [ "ominous" ],
+
+    -- ;; bAriHap_1
+    -- bArH    bAriH   Nap     yesterday;yesteryear
+
+    FACiL |< aT               `noun`       {- bAriHap -}        [ "yesterday", "yesteryear" ],
+
+    -- ;; mubar~iH_1
+    -- mbrH    mubar~iH        Nall    agonizing;violent
+
+    MuFaCCiL                  `noun`       {- mubar~iH -}       [ "agonizing", "violent" ],
+
+    -- ;; mubar~aH_1
+    -- mbrH    mubar~aH        N       afflicted;tormented
+
+    MuFaCCaL                  `noun`       {- mubar~aH -}       [ "afflicted", "tormented" ] ]
+
+ |> "b r .s" <| [
+
+    -- ;; bariS-a_1
+    -- brS     bariS   PV      have leprosy
+    -- brS     boraS   IV      have leprosy
+
+    FaCiL                     `verb`       {- bariS-a -}        [ "have leprosy" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bra.s IV" ] -},
+
+    -- ;; buroS_1
+    -- brS     buroS   N       gecko
+
+    FuCL                      `noun`       {- buroS -}          [ "gecko" ],
+
+    -- ;; baraS_1
+    -- brS     baraS   N       leprosy
+    -- >brS    >aboraS Nel     leprous;leper
+    -- AbrS    >aboraS Nel     leprous;leper
+
+    FaCaL                     `noun`       {- baraS -}          [ "leprosy", "leprous", "leper" ]
+                              `plural`     HaFCaL
+                              {- `others` [ "'abra.s Nel" ] -},
+
+    -- ;; buroSap_1
+    -- brS     buroS   NapAt   stock exchange
+
+    FuCL |< aT                `noun`       {- buroSap -}        [ "stock exchange" ] ]
+
+ |> "b r .t `" <| [
+
+    -- ;; baroTaE_1
+    -- brTE    baroTaE PV      gallop
+    -- brTE    baroTiE IV_yu   gallop
+
+    KaRDaS                    `verb`       {- baroTaE -}        [ "gallop" ]
+                              {- `others` [ "bar.ti` IV_yu" ] -} ]
+
+ |> "b r .t l" <| [
+
+    -- ;; baroTal_1
+    -- brTl    baroTal PV      bribe;corrupt
+    -- brTl    baroTil IV_yu   bribe;corrupt
+
+    KaRDaS                    `verb`       {- baroTal -}        [ "bribe", "corrupt" ]
+                              {- `others` [ "bar.til IV_yu" ] -},
+
+    -- ;; tabaroTal_1
+    -- tbrTl   tabaroTal       PV      take bribes;be corrupted
+    -- tbrTl   tabaroTal       IV      take bribes;be corrupted
+
+    TaKaRDaS                  `verb`       {- tabaroTal -}      [ "take bribes", "be corrupted" ],
+
+    -- ;; biroTiyl_1
+    -- brTyl   biroTiyl        Ndu     bribe
+    -- brATyl  barATiyl        Ndip    bribes
+
+    KiRDIS                    `noun`       {- biroTiyl -}       [ "bribe", "bribes" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "barA.tiyl Ndip" ] -} ]
+
+ |> "b r .t m" <| [
+
+    -- ;; baroTam_1
+    -- brTm    baroTam PV      talk nonsense
+    -- brTm    baroTim IV_yu   talk nonsense
+
+    KaRDaS                    `verb`       {- baroTam -}        [ "talk nonsense" ]
+                              {- `others` [ "bar.tim IV_yu" ] -},
+
+    -- ;; buroTuwm_1
+    -- brTwm   buroTuwm        Ndu     elephant trunk
+    -- brTwm   baroTuwm        Ndu     elephant trunk
+
+    KuRDUS                    `noun`       {- buroTuwm -}       [ "elephant trunk" ]
+                              `plural`     KaRDUS
+                              {- `others` [ "bar.tuwm Ndu" ] -} ]
+
+ |> "b r .t z" <| [
+
+    -- ;; baroTuwz_1
+    -- brTwz   baroTuwz        N       crew's quarters
+
+    KaRDUS                    `noun`       {- baroTuwz -}       [ "crew's quarters" ] ]
+
+ |> "b r ^g" <| [
+
+    -- ;; tabar~aj_1
+    -- tbrj    tabar~aj        PV      adorn;deck
+    -- tbrj    tabar~aj        IV      adorn;deck
+
+    TaFaCCaL                  `verb`       {- tabar~aj -}       [ "adorn", "deck" ],
+
+    -- ;; buroj_1
+    -- brj     buroj   Ndu     tower;constellation
+    -- brwj    buruwj  N       towers;constellations
+    -- >brAj   >aborAj N       towers;constellations
+    -- AbrAj   >aborAj N       towers;constellations
+
+    FuCL                      `noun`       {- buroj -}          [ "tower", "constellation", "towers", "constellations" ]
+                              `plural`     HaFCAL
+                              `plural`     FuCUL
+                              {- `others` [ "'abrA^g N", "buruw^g N" ] -},
+
+    -- ;; buroj_2
+    -- brj     buroj   N0      Burj
+
+    FuCL                      `noun`       {- buroj -}          [ "Burj" ],
+
+    -- ;; burayoj_1
+    -- bryj    burayoj N0      Bureij;Boureij
+
+    FuCayL                    `noun`       {- burayoj -}        [ "Bureij", "Boureij" ],
+
+    -- ;; burayoj_2
+    -- bryj    burayoj NduAt   small tower;small constellation
+
+    FuCayL                    `noun`       {- burayoj -}        [ "small tower", "small constellation" ],
+
+    -- ;; bArijap_1
+    -- bArj    bArij   Napdu   battleship;barge
+    -- bwArj   bawArij Ndip    battleships;barges
+
+    FACiL |< aT               `noun`       {- bArijap -}        [ "battleship", "barge", "battleships", "barges" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawAri^g Ndip" ] -} ]
+
+ |> "b r ^g l" <| [
+
+    -- ;; barojal_1
+    -- brjl    barojal Ndu     compass
+    -- brjl    barojal N       compass
+    -- brAjl   barAjil Ndip    compasses;dividers
+
+    KaRDaS                    `noun`       {- barojal -}        [ "compass", "compasses", "dividers" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "barA^gil Ndip" ] -} ]
+
+ |> "b r ^g m" <| [
+
+    -- ;; burojumap_1
+    -- brjm    burojum Nap     knuckle
+    -- brAjm   barAjim Ndip    knuckles
+
+    KuRDuS |< aT              `noun`       {- burojumap -}      [ "knuckle", "knuckles" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "barA^gim Ndip" ] -} ]
+
+ |> "b r ^g s" <| [
+
+    -- ;; birojAs_1
+    -- brjAs   birojAs N       birjas (equestrian joust)
+
+    KiRDAS                    `noun`       {- birojAs -}        [ "birjas (equestrian joust)" ],
+
+    -- ;; birojiys_1
+    -- brjys   birojiys        N       Jupiter
+
+    KiRDIS                    `noun`       {- birojiys -}       [ "Jupiter" ] ]
+
+ |> "b r ^g z" <| [
+
+    -- ;; tabarojaz_1
+    -- tbrjz   tabarojaz       PV_intr become bourgeois
+    -- tbrjz   tabarojaz       IV_intr become bourgeois
+
+    TaKaRDaS                  `verb`       {- tabarojaz -}      [ "become bourgeois" ],
+
+    -- ;; tabarojuz_1
+    -- tbrjz   tabarojuz       N/At    becoming bourgeois
+
+    TaKaRDuS                  `noun`       {- tabarojuz -}      [ "becoming bourgeois" ],
+
+    -- ;; mutabarojiz_1
+    -- mtbrjz  mutabarojiz     Nall    bourgeois
+
+    MutaKaRDiS                `noun`       {- mutabarojiz -}    [ "bourgeois" ] ]
+
+ |> "b r ^s" <| [
+
+    -- ;; buro$_1
+    -- br$     buro$   Ndu     mat
+    -- >brA$   >aborA$ N       mats
+    -- AbrA$   >aborA$ N       mats
+
+    FuCL                      `noun`       {- buro$ -}          [ "mat", "mats" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abrA^s N" ] -},
+
+    -- ;; >abora$_1
+    -- >br$    >abora$ Nel     spotted;speckled
+    -- Abr$    >abora$ Nel     spotted;speckled
+
+    HaFCaL                    `noun`       {- Oabora$ -}        [ "spotted", "speckled" ],
+
+    -- ;; barA$_1
+    -- brA$    barA$   N0      Barash
+
+    FaCAL                     `noun`       {- barA$ -}          [ "Barash" ] ]
+
+ |> "b r ^s m" <| [
+
+    -- ;; baro$am_1
+    -- br$m    baro$am PV      stare;gaze
+    -- br$m    baro$im IV_yu   stare;gaze
+
+    KaRDaS                    `verb`       {- baro$am -}        [ "stare", "gaze" ]
+                              {- `others` [ "bar^sim IV_yu" ] -},
+
+    -- ;; baro$am_2
+    -- br$m    baro$am PV      rivet;hem
+    -- br$m    baro$im IV_yu   rivet;hem
+
+    KaRDaS                    `verb`       {- baro$am -}        [ "rivet", "hem" ]
+                              {- `others` [ "bar^sim IV_yu" ] -},
+
+    -- ;; baro$amap_1
+    -- br$m    baro$am Nap     riveting
+
+    KaRDaS |< aT              `noun`       {- baro$amap -}      [ "riveting" ],
+
+    -- ;; buro$Amap_1
+    -- br$Am   buro$Am NapAt   rivet
+
+    KuRDAS |< aT              `noun`       {- buro$Amap -}      [ "rivet" ],
+
+    -- ;; buro$Am_1
+    -- br$Am   buro$Am N       communion wafer
+    -- br$Am   buro$Am Nap     communion wafer
+    -- br$An   buro$An N/ap    communion wafer
+
+    KuRDAS                    `noun`       {- buro$Am -}        [ "communion wafer" ],
+
+    -- ;; baro$uwmiy~_1
+    -- br$wmy  baro$uwmiy~     Nall    prickly pear     [[baro$uwmiy~/ADJ]]
+
+    KaRDUS |< Iy              `adj`        {- baro$uwmiy~ -}    [ "prickly pear" ] ]
+
+ |> "b r _d `" <| [
+
+    -- ;; baro*aEap_1
+    -- br*E    baro*aE Napdu   saddle cloth;pack-saddle
+    -- brA*E   barA*iE Ndip    saddle cloths;pack-saddles
+
+    KaRDaS |< aT              `noun`       {- baro*aEap -}      [ "saddle cloth", "pack-saddle", "saddle cloths", "pack-saddles" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "barA_di` Ndip" ] -},
+
+    -- ;; barA*iEiy~_1
+    -- brA*Ey  barA*iEiy~      Nall    saddle maker     [[barA*iEiy~/ADJ]]
+
+    KaRADiS |< Iy             `adj`        {- barA*iEiy~ -}     [ "saddle maker" ] ]
+
+ |> "b r _t n" <| [
+
+    -- ;; burovun_1
+    -- brvn    burovun Ndu     claw;talon
+    -- brAvn   barAvin Ndip    claws;talons
+
+    KuRDuS                    `noun`       {- burovun -}        [ "claw", "talon", "claws", "talons" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "barA_tin Ndip" ] -} ]
+
+ |> "b r `" <| [
+
+    -- ;; baraE-a_1
+    -- brE     baraE   PV      excel;be distinguished
+    -- brE     boraE   IV      excel;be distinguished
+
+    FaCaL                     `verb`       {- baraE-a -}        [ "excel", "be distinguished" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bra` IV" ] -},
+
+    -- ;; baruE-u_1
+    -- brE     baruE   PV      excel;be distinguished
+    -- brE     boruE   IV      excel;be distinguished
+
+    FaCuL                     `verb`       {- baruE-u -}        [ "excel", "be distinguished" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bru` IV" ] -},
+
+    -- ;; bAraE_1
+    -- bArE    bAraE   PV      strive;work
+    -- bArE    bAriE   IV_yu   strive;work
+
+    FACaL                     `verb`       {- bAraE -}          [ "strive", "work" ]
+                              {- `others` [ "bAri` IV_yu" ] -},
+
+    -- ;; tabar~aE_1
+    -- tbrE    tabar~aE        PV      contribute;donate;give
+    -- tbrE    tabar~aE        IV      contribute;donate;give
+
+    TaFaCCaL                  `verb`       {- tabar~aE -}       [ "contribute", "donate", "give" ],
+
+    -- ;; barAEap_1
+    -- brAE    barAE   Nap     skill;proficiency
+
+    FaCAL |< aT               `noun`       {- barAEap -}        [ "skill", "proficiency" ],
+
+    -- ;; buruwEap_1
+    -- brwE    buruwE  Nap     eminence
+
+    FuCUL |< aT               `noun`       {- buruwEap -}       [ "eminence" ],
+
+    -- ;; >aboraE_1
+    -- >brE    >aboraE Nel     more/most eminent;more/most skillful
+    -- AbrE    >aboraE Nel     more/most eminent;more/most skillful
+
+    HaFCaL                    `noun`       {- OaboraE -}        [ "more/most eminent", "more/most skillful" ],
+
+    -- ;; tabar~uE_1
+    -- tbrE    tabar~uE        Ndu     donation;contribution
+    -- tbrE    tabar~uE        NAt     donations;contributions
+
+    TaFaCCuL                  `noun`       {- tabar~uE -}       [ "donation", "contribution", "donations", "contributions" ],
+
+    -- ;; bAriE_1
+    -- bArE    bAriE   Nall    skilled;proficient     [[bAriE/ADJ]]
+
+    FACiL                     `adj`        {- bAriE -}          [ "skilled", "proficient" ],
+
+    -- ;; mutabar~iE_1
+    -- mtbrE   mutabar~iE      Nall    donor;contributor
+
+    MutaFaCCiL                `noun`       {- mutabar~iE -}     [ "donor", "contributor" ] ]
+
+ |> "b r ` m" <| [
+
+    -- ;; baroEam_1
+    -- brEm    baroEam PV      burgeon;bud
+    -- brEm    baroEim IV_yu   burgeon;bud
+
+    KaRDaS                    `verb`       {- baroEam -}        [ "burgeon", "bud" ]
+                              {- `others` [ "bar`im IV_yu" ] -},
+
+    -- ;; tabaroEam_1
+    -- tbrEm   tabaroEam       PV      burgeon;bud
+    -- tbrEm   tabaroEam       IV      burgeon;bud
+
+    TaKaRDaS                  `verb`       {- tabaroEam -}      [ "burgeon", "bud" ],
+
+    -- ;; buroEum_1
+    -- brEm    buroEum Ndu     bud;blossom
+    -- brAEm   barAEim Ndip    buds;blossoms
+
+    KuRDuS                    `noun`       {- buroEum -}        [ "bud", "blossom", "buds", "blossoms" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "barA`im Ndip" ] -},
+
+    -- ;; buroEuwm_1
+    -- brEwm   buroEuwm        Ndu     bud;blossom
+    -- brAEym  barAEiym        Ndip    buds;blossoms
+
+    KuRDUS                    `noun`       {- buroEuwm -}       [ "bud", "blossom", "buds", "blossoms" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "barA`iym Ndip" ] -},
+
+    -- ;; tabaroEum_1
+    -- tbrEm   tabaroEum       NduAt   gemmation;budding;blossoming
+
+    TaKaRDuS                  `noun`       {- tabaroEum -}      [ "gemmation", "budding", "blossoming" ] ]
+
+ |> "b r b" <| [
+
+    -- ;; birobap_1
+    -- brb     birob   Nap     labyrinth
+    -- brbY    birobaY N0      labyrinths
+    -- brbA    birobA  Nhy     labyrinths
+    -- brAby   barAbiy N0_Nh   labyrinths
+    -- brAb    barAb   NK      labyrinths
+
+    FiCL |< aT                `noun`       {- birobap -}        [ "labyrinth", "labyrinths" ]
+                              `plural`     FiCLY
+                              `plural`     FaCAL
+                              {- `others` [ "birbY N0", "barAb NK" ] -} ]
+
+ |> "b r b .t" <| [
+
+    -- ;; barobaT_1
+    -- brbT    barobaT PV      splash;paddle
+    -- brbT    barobiT IV_yu   splash;paddle
+
+    KaRDaS                    `verb`       {- barobaT -}        [ "splash", "paddle" ]
+                              {- `others` [ "barbi.t IV_yu" ] -} ]
+
+ |> "b r b ^s" <| [
+
+    -- ;; barobuw$_1
+    -- brbw$   barobuw$        N       couscous
+
+    KaRDUS                    `noun`       {- barobuw$ -}       [ "couscous" ],
+
+    -- ;; barobiy$_1
+    -- brby$   barobiy$        N       tube
+
+    KaRDIS                    `noun`       {- barobiy$ -}       [ "tube" ] ]
+
+ |> "b r b _h" <| [
+
+    -- ;; barobax_1
+    -- brbx    barobax Ndu     water pipe;culvert
+    -- brAbx   barAbix Ndip    water pipes;culverts
+
+    KaRDaS                    `noun`       {- barobax -}        [ "water pipe", "culvert", "water pipes", "culverts" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "barAbi_h Ndip" ] -} ]
+
+ |> "b r b r" <| [
+
+    -- ;; barobar_1
+    -- brbr    barobar PV      babble;jabber
+    -- brbr    barobir IV_yu   babble;jabber
+
+    KaRDaS                    `verb`       {- barobar -}        [ "babble", "jabber" ]
+                              {- `others` [ "barbir IV_yu" ] -},
+
+    -- ;; barobariy~_1
+    -- brbry   barobariy~      Nall    Berber     [[barobariy~/NOUN]]
+    -- brbry   barobariy~      Nall    Berber     [[barobariy~/ADJ]]
+    -- brAbr   barAbir Nap     Berbers
+    -- brbr    barobar N       Berbers
+
+    KaRDaS |< Iy              `adj`        {- barobariy~ -}     [ "Berber", "Berbers" ]
+                              `plural`     KaRADiS |< aT
+                              `plural`     KaRDaS
+                              {- `others` [ "barAbir Nap", "barbar N" ] -},
+
+    -- ;; barobariy~_2
+    -- brbry   barobariy~      Nall    barbaric     [[barobariy~/ADJ]]
+
+    KaRDaS |< Iy              `adj`        {- barobariy~ -}     [ "barbaric" ],
+
+    -- ;; barobariy~ap_1
+    -- brbry   barobariy~      Nap     barbarism;savagery     [[barobariy~/NOUN]]
+
+    KaRDaS |< Iy |< aT        `noun`       {- barobariy~ap -}   [ "barbarism", "savagery" ],
+
+    -- ;; mutabarobir_1
+    -- mtbrbr  mutabarobir     Nall    barbaric
+
+    MutaKaRDiS                `noun`       {- mutabarobir -}    [ "barbaric" ] ]
+
+ |> "b r b s" <| [
+
+    -- ;; barobiys_1
+    -- brbys   barobiys        N       barbel
+
+    KaRDIS                    `noun`       {- barobiys -}       [ "barbel" ] ]
+
+ |> "b r d" <| [
+
+    -- ;; barad-u_1
+    -- brd     barad   PV      calm;cool
+    -- brd     borud   IV      calm;cool
+
+    FaCaL                     `verb`       {- barad-u -}        [ "calm", "cool" ]
+                              `imperf`     FCuL
+                              {- `others` [ "brud IV" ] -},
+
+    -- ;; barud-u_1
+    -- brd     barud   PV_intr become cold
+    -- brd     borud   IV_intr become cold
+
+    FaCuL                     `verb`       {- barud-u -}        [ "become cold" ]
+                              `imperf`     FCuL
+                              {- `others` [ "brud IV_intr" ] -},
+
+    -- ;; bar~ad_1
+    -- brd     bar~ad  PV      refrigerate;make cold
+    -- brd     bar~id  IV_yu   refrigerate;make cold
+    -- brd     bar~ad  IV_Pass_yu      be refrigerated;be cooled
+
+    FaCCaL                    `verb`       {- bar~ad -}         [ "refrigerate", "make cold", "be refrigerated", "be cooled" ]
+                              {- `others` [ "barrid IV_yu" ] -},
+
+    -- ;; >aborad_1
+    -- >brd    >aborad PV      mail
+    -- Abrd    >aborad PV      mail
+    -- brd     borid   IV_yu   mail
+
+    HaFCaL                    `verb`       {- Oaborad -}        [ "mail" ]
+                              {- `others` [ "brid IV_yu" ] -},
+
+    -- ;; tabar~ad_1
+    -- tbrd    tabar~ad        PV_intr be cold
+    -- tbrd    tabar~ad        IV_intr be cold
+
+    TaFaCCaL                  `verb`       {- tabar~ad -}       [ "be cold" ],
+
+    -- ;; {ibotarad_1
+    -- <btrd   {ibotarad       PV      cool off
+    -- Abtrd   {ibotarad       PV      cool off
+    -- btrd    botarid IV      cool off
+
+    IFtaCaL                   `verb`       {- {ibotarad -}      [ "cool off" ]
+                              {- `others` [ "btarid IV" ] -},
+
+    -- ;; barod_1
+    -- brd     barod   N       cold;cooling
+
+    FaCL                      `noun`       {- barod -}          [ "cold", "cooling" ],
+
+    -- ;; barad_1
+    -- brd     barad   N       hail;hailstone
+
+    FaCaL                     `noun`       {- barad -}          [ "hail", "hailstone" ],
+
+    -- ;; baradap_1
+    -- brd     barad   Nap     hailstone
+
+    FaCaL |< aT               `noun`       {- baradap -}        [ "hailstone" ],
+
+    -- ;; burod_1
+    -- brd     burod   N       garment
+    -- >brAd   >aborAd N       garments
+    -- AbrAd   >aborAd N       garments
+
+    FuCL                      `noun`       {- burod -}          [ "garment", "garments" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abrAd N" ] -},
+
+    -- ;; baruwd_1
+    -- brwd    baruwd  N       collyrium (medicated solution for the eyes)
+
+    FaCUL                     `noun`       {- baruwd -}         [ "collyrium (medicated solution for the eyes)" ],
+
+    -- ;; buruwd_1
+    -- brwd    buruwd  N       coldness
+    -- brwd    buruwd  Nap     coldness
+
+    FuCUL                     `noun`       {- buruwd -}         [ "coldness" ],
+
+    -- ;; barodiy~ap_1
+    -- brdy    barodiy~        Nap     ague;fever attack     [[barodiy~/NOUN]]
+    -- brdA'   buradA' N0_Nh   ague;fever attack
+    -- brdA&   buradA& Nh      ague;fever attack
+    -- brdA}   buradA} Nhy     ague;fever attack
+
+    FaCL |< Iy |< aT          `noun`       {- barodiy~ap -}     [ "ague", "fever attack" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "buradA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; bar~Ad_1
+    -- brAd    bar~Ad  Ndu     refrigerator
+
+    FaCCAL                    `noun`       {- bar~Ad -}         [ "refrigerator" ],
+
+    -- ;; bar~Ad_2
+    -- brAd    bar~Ad  Ndu     teapot
+
+    FaCCAL                    `noun`       {- bar~Ad -}         [ "teapot" ],
+
+    -- ;; bar~Adap_1
+    -- brAd    bar~Ad  NapAt   refrigerator
+
+    FaCCAL |< aT              `noun`       {- bar~Adap -}       [ "refrigerator" ],
+
+    -- ;; bar~Ad_3
+    -- brAd    bar~Ad  Nall    tool cutter
+
+    FaCCAL                    `noun`       {- bar~Ad -}         [ "tool cutter" ],
+
+    -- ;; birAdap_1
+    -- brAd    birAd   Nap     tool cutting
+
+    FiCAL |< aT               `noun`       {- birAdap -}        [ "tool cutting" ],
+
+    -- ;; burAdap_1
+    -- brAd    burAd   Nap     iron filings
+
+    FuCAL |< aT               `noun`       {- burAdap -}        [ "iron filings" ],
+
+    -- ;; miborad_1
+    -- mbrd    miborad Ndu     file;tool cutter
+
+    MiFCaL                    `noun`       {- miborad -}        [ "file", "tool cutter" ],
+
+    -- ;; taboriyd_1
+    -- tbryd   taboriyd        NduAt   refrigeration;cooling
+
+    TaFCIL                    `noun`       {- taboriyd -}       [ "refrigeration", "cooling" ],
+
+    -- ;; bArid_1
+    -- bArd    bArid   Nall    cold;frigid
+
+    FACiL                     `noun`       {- bArid -}          [ "cold", "frigid" ],
+
+    -- ;; mubar~id_1
+    -- mbrd    mubar~id        Nall    cooler;refreshing
+
+    MuFaCCiL                  `noun`       {- mubar~id -}       [ "cooler", "refreshing" ],
+
+    -- ;; mubar~ad_1
+    -- mbrd    mubar~ad        N-ap    cooled;chilled
+
+    MuFaCCaL                  `noun`       {- mubar~ad -}       [ "cooled", "chilled" ],
+
+    -- ;; bariyd_1
+    -- bryd    bariyd  N       mail;post office
+
+    FaCIL                     `noun`       {- bariyd -}         [ "mail", "post office" ],
+
+    -- ;; bariydiy~_1
+    -- brydy   bariydiy~       Nall    postal     [[bariydiy~/ADJ]]
+
+    FaCIL |< Iy               `adj`        {- bariydiy~ -}      [ "postal" ],
+
+    -- ;; bAruwd_1
+    -- bArwd   bAruwd  N       gunpowder
+
+    FACUL                     `noun`       {- bAruwd -}         [ "gunpowder" ],
+
+    -- ;; bAruwdiy~_1
+    -- bArwdy  bAruwdiy~       N0      Baroudi
+
+    FACUL |< Iy               `adj`        {- bAruwdiy~ -}      [ "Baroudi" ],
+
+    -- ;; bAruwdap_1
+    -- bArwd   bAruwd  Napdu   rifle;carbine
+    -- bwAryd  bawAriyd        Ndip    rifles;carbines
+
+    FACUL |< aT               `noun`       {- bAruwdap -}       [ "rifle", "carbine", "rifles", "carbines" ]
+                              `plural`     FawACIL
+                              {- `others` [ "bawAriyd Ndip" ] -},
+
+    -- ;; barodiy~_1
+    -- brdy    barodiy~        Nall    papyrus     [[barodiy~/ADJ]]
+    -- brdy    burodiy~        Nall    papyrus     [[burodiy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- barodiy~ -}       [ "papyrus" ],
+
+    -- ;; barodiy~ap_2
+    -- brdy    barodiy~        NapAt   papyrology     [[barodiy~/NOUN]]
+    -- brdy    burodiy~        NapAt   papyrology     [[burodiy~/NOUN]]
+
+    FaCL |< Iy |< aT          `noun`       {- barodiy~ap -}     [ "papyrology" ],
+
+    -- ;; burayodap_1
+    -- brydp   burayodap       N0      Bureida
+
+    FuCayL |< aT              `noun`       {- burayodap -}      [ "Bureida" ] ]
+
+ |> "b r d _h" <| [
+
+    -- ;; barodax_1
+    -- brdx    barodax PV      polish;burnish
+    -- brdx    barodix IV_yu   polish;burnish
+
+    KaRDaS                    `verb`       {- barodax -}        [ "polish", "burnish" ]
+                              {- `others` [ "bardi_h IV_yu" ] -},
+
+    -- ;; barodaxap_1
+    -- brdx    barodax Nap     polishing;burnishing
+
+    KaRDaS |< aT              `noun`       {- barodaxap -}      [ "polishing", "burnishing" ] ]
+
+ |> "b r d `" <| [
+
+    -- ;; barodaEap_1
+    -- brdE    barodaE Napdu   saddle cloth;pack-saddle
+    -- brAdE   barAdiE Ndip    saddle cloths;pack-saddles
+
+    KaRDaS |< aT              `noun`       {- barodaEap -}      [ "saddle cloth", "pack-saddle", "saddle cloths", "pack-saddles" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "barAdi` Ndip" ] -},
+
+    -- ;; barAdiEiy~_1
+    -- brAdEy  barAdiEiy~      Nall    saddle maker     [[barAdiEiy~/ADJ]]
+
+    KaRADiS |< Iy             `adj`        {- barAdiEiy~ -}     [ "saddle maker" ] ]
+
+ |> "b r d q" <| [
+
+    -- ;; barodAq_1
+    -- brdAq   barodAq Ndu     pitcher;jug
+    -- brAdyq  barAdiyq        Ndip    pitchers;jugs
+
+    KaRDAS                    `noun`       {- barodAq -}        [ "pitcher", "jug", "pitchers", "jugs" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "barAdiyq Ndip" ] -} ]
+
+ |> "b r d r" <| [
+
+    -- ;; baroduwrap_1
+    -- brdwr   baroduwr        Nap     curbstone;curb
+
+    KaRDUS |< aT              `noun`       {- baroduwrap -}     [ "curbstone", "curb" ] ]
+
+ |> "b r f r" <| [
+
+    -- ;; birofiyr_1
+    -- brfyr   birofiyr        N       purple
+    -- brAfyr  barAfiyr        Ndip    purple
+
+    KiRDIS                    `noun`       {- birofiyr -}       [ "purple" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "barAfiyr Ndip" ] -} ]
+
+ |> "b r f z" <| [
+
+    -- ;; barofiyz_1
+    -- brfyz   barofiyz        Nprop   Parvez
+    -- brwyz   barowiyz        Nprop   Parvez
+
+    KaRDIS                    `noun`       {- barofiyz -}       [ "Parvez" ] ]
+
+ |> "b r h" <| [
+
+    -- ;; burohap_1
+    -- brh     buroh   Napdu   instant;moment
+    -- brh     burah   NAt     instants;moments
+
+    FuCL |< aT                `noun`       {- burohap -}        [ "instant", "moment", "instants", "moments" ]
+                              `plural`     FuCaL |< At
+                              {- `others` [ "burah NAt" ] -},
+
+    -- ;; burayohap_1
+    -- bryh    burayoh Nap     a little while
+
+    FuCayL |< aT              `noun`       {- burayohap -}      [ "a little while" ],
+
+    -- ;; burohiy~_1
+    -- brhy    burohiy~        N-ap    momentarily     [[burohiy~/ADJ]]
+
+    FuCL |< Iy                `adj`        {- burohiy~ -}       [ "momentarily" ] ]
+
+ |> "b r h m" <| [
+
+    -- ;; barohamap_1
+    -- brhm    baroham Nap     Brahmanism
+
+    KaRDaS |< aT              `noun`       {- barohamap -}      [ "Brahmanism" ],
+
+    -- ;; barohamiy~_1
+    -- brhmy   barohamiy~      Nall    Brahman     [[barohamiy~/NOUN]]
+    -- brhmy   barohamiy~      Nall    Brahman     [[barohamiy~/ADJ]]
+
+    KaRDaS |< Iy              `adj`        {- barohamiy~ -}     [ "Brahman" ],
+
+    -- ;; barohamiy~ap_1
+    -- brhmy   barohamiy~      Nap     Brahmanism     [[barohamiy~/NOUN]]
+
+    KaRDaS |< Iy |< aT        `noun`       {- barohamiy~ap -}   [ "Brahmanism" ] ]
+
+ |> "b r h n" <| [
+
+    -- ;; barohan_1
+    -- brhn    barohan PV-n    prove;demonstrate
+    -- brhn    barohin IV-n_yu prove;demonstrate
+
+    KaRDaS                    `verb`       {- barohan -}        [ "prove", "demonstrate" ]
+                              {- `others` [ "barhin IV-n_yu" ] -},
+
+    -- ;; barohanap_1
+    -- brhn    barohan NapAt   proving;demonstration
+
+    KaRDaS |< aT              `noun`       {- barohanap -}      [ "proving", "demonstration" ],
+
+    -- ;; burohAn_1
+    -- brhAn   burohAn N0      Burhan
+
+    KuRDAS                    `noun`       {- burohAn -}        [ "Burhan" ],
+
+    -- ;; burohAn_2
+    -- brhAn   burohAn Ndu     proof
+    -- brAhyn  barAhiyn        Ndip    proof
+
+    KuRDAS                    `noun`       {- burohAn -}        [ "proof" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "barAhiyn Ndip" ] -} ]
+
+ |> "b r k" <| [
+
+    -- ;; barak-u_1
+    -- brk     barak   PV      kneel
+    -- brk     boruk   IV      kneel
+
+    FaCaL                     `verb`       {- barak-u -}        [ "kneel" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bruk IV" ] -},
+
+    -- ;; bar~ak_1
+    -- brk     bar~ak  PV      make kneel
+    -- brk     bar~ik  IV_yu   make kneel
+    -- brk     bar~ak  IV_Pass_yu      be made to kneel
+
+    FaCCaL                    `verb`       {- bar~ak -}         [ "make kneel", "be made to kneel" ]
+                              {- `others` [ "barrik IV_yu" ] -},
+
+    -- ;; bArak_1
+    -- bArk    bArak   PV      bless;congratulate
+    -- bArk    bArik   IV_yu   bless;congratulate
+
+    FACaL                     `verb`       {- bArak -}          [ "bless", "congratulate" ]
+                              {- `others` [ "bArik IV_yu" ] -},
+
+    -- ;; >aborak_1
+    -- >brk    >aborak PV      make kneel
+    -- Abrk    >aborak PV      make kneel
+    -- brk     borik   IV_yu   make kneel
+
+    HaFCaL                    `verb`       {- Oaborak -}        [ "make kneel" ]
+                              {- `others` [ "brik IV_yu" ] -},
+
+    -- ;; tabar~ak_1
+    -- tbrk    tabar~ak        PV_intr be blessed;be prosperous
+    -- tbrk    tabar~ak        IV_intr be blessed;be prosperous
+
+    TaFaCCaL                  `verb`       {- tabar~ak -}       [ "be blessed", "be prosperous" ],
+
+    -- ;; tabArak_1
+    -- tbArk   tabArak PV_intr be blessed
+    -- tbArk   tabArak IV_intr be blessed
+
+    TaFACaL                   `verb`       {- tabArak -}        [ "be blessed" ],
+
+    -- ;; {isotaborak_1
+    -- <stbrk  {isotaborak     PV_intr be blessed
+    -- Astbrk  {isotaborak     PV_intr be blessed
+    -- stbrk   sotaborik       IV_intr be blessed
+
+    IstaFCaL                  `verb`       {- {isotaborak -}    [ "be blessed" ],
+
+    -- ;; birokap_1
+    -- brk     birok   Napdu   pool
+    -- brk     birak   N       pools
+
+    FiCL |< aT                `noun`       {- birokap -}        [ "pool", "pools" ]
+                              `plural`     FiCaL
+                              {- `others` [ "birak N" ] -},
+
+    -- ;; barakap_1
+    -- brk     barak   Napdu   blessing
+    -- brk     barak   NAt     blessings
+
+    FaCaL |< aT               `noun`       {- barakap -}        [ "blessing", "blessings" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "barak NAt" ] -},
+
+    -- ;; barakAt_1
+    -- brkAt   barakAt N0      Barakaat;Barakat
+
+    FaCaL |< At               `noun`       {- barakAt -}        [ "Barakaat", "Barakat" ],
+
+    -- ;; >aborak_2
+    -- >brk    >aborak Nel     more/most blessed
+    -- Abrk    >aborak Nel     more/most blessed
+
+    HaFCaL                    `noun`       {- Oaborak -}        [ "more/most blessed" ],
+
+    -- ;; maboruwk_1
+    -- mbrwk   maboruwk        FW-Wa   congratulations!
+
+    MaFCUL                    `noun`       {- maboruwk -}       [ "congratulations!" ],
+
+    -- ;; maboruwk_2
+    -- mbrwk   maboruwk        Nall    blessed
+
+    MaFCUL                    `noun`       {- maboruwk -}       [ "blessed" ],
+
+    -- ;; taboriyk_1
+    -- tbryk   taboriyk        NduAt   blessing;benediction
+
+    TaFCIL                    `noun`       {- taboriyk -}       [ "blessing", "benediction" ],
+
+    -- ;; mubArak_1
+    -- mbArk   mubArak N0      Mubarak
+
+    MuFACaL                   `noun`       {- mubArak -}        [ "Mubarak" ],
+
+    -- ;; mubArak_2
+    -- mbArk   mubArak Nall    blessed;fortunate
+
+    MuFACaL                   `noun`       {- mubArak -}        [ "blessed", "fortunate" ],
+
+    -- ;; mubArakiy~_1
+    -- mbArky  mubArakiy~      N0      Moubarki
+
+    MuFACaL |< Iy             `adj`        {- mubArakiy~ -}     [ "Moubarki" ],
+
+    -- ;; barAriyk_1
+    -- brAryk  barAriyk        N       barracks
+
+    FaCACIL                   `noun`       {- barAriyk -}       [ "barracks" ],
+
+    -- ;; burokAn_1
+    -- brkAn   burokAn Ndu     volcano
+    -- brAkyn  barAkiyn        Ndip    volcanos
+
+    FuCLAn                    `noun`       {- burokAn -}        [ "volcano", "volcanos" ],
+
+    -- ;; burokAniy~_1
+    -- brkAny  burokAniy~      Nall    volcanic     [[burokAniy~/ADJ]]
+
+    FuCLAn |< Iy              `adj`        {- burokAniy~ -}     [ "volcanic" ] ]
+
+ |> "b r k n" <| [
+
+    -- ;; burokAn_1
+    -- brkAn   burokAn Ndu     volcano
+    -- brAkyn  barAkiyn        Ndip    volcanos
+
+    KuRDAS                    `noun`       {- burokAn -}        [ "volcano", "volcanos" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "barAkiyn Ndip" ] -},
+
+    -- ;; burokAniy~_1
+    -- brkAny  burokAniy~      Nall    volcanic     [[burokAniy~/ADJ]]
+
+    KuRDAS |< Iy              `adj`        {- burokAniy~ -}     [ "volcanic" ] ]
+
+ |> "b r k r" <| [
+
+    -- ;; birokAr_1
+    -- brkAr   birokAr N       compass;dividers
+
+    KiRDAS                    `noun`       {- birokAr -}        [ "compass", "dividers" ] ]
+
+ |> "b r l n" <| [
+
+    -- ;; baroliyn_1
+    -- brlyn   baroliyn        N0      Berlin
+
+    KaRDIS                    `noun`       {- baroliyn -}       [ "Berlin" ] ]
+
+ |> "b r m" <| [
+
+    -- ;; barim-a_1
+    -- brm     barim   PV_intr be discontented;be bored
+    -- brm     boram   IV_intr be discontented;be bored
+
+    FaCiL                     `verb`       {- barim-a -}        [ "be discontented", "be bored" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bram IV_intr" ] -},
+
+    -- ;; baram-u_1
+    -- brm     baram   PV      braid;twist
+    -- brm     borum   IV      braid;twist
+
+    FaCaL                     `verb`       {- baram-u -}        [ "braid", "twist" ]
+                              `imperf`     FCuL
+                              {- `others` [ "brum IV" ] -},
+
+    -- ;; bar~am_1
+    -- brm     bar~am  PV      twist;twine
+    -- brm     bar~im  IV_yu   twist;twine
+    -- brm     bar~am  IV_Pass_yu      be twisted;be twined
+
+    FaCCaL                    `verb`       {- bar~am -}         [ "twist", "twine", "be twisted", "be twined" ]
+                              {- `others` [ "barrim IV_yu" ] -},
+
+    -- ;; >aboram_1
+    -- >brm    >aboram PV      conclude;ratify
+    -- Abrm    >aboram PV      conclude;ratify
+    -- brm     borim   IV_yu   conclude;ratify
+    -- brm     boram   IV_Pass_yu      be concluded;be ratified
+
+    HaFCaL                    `verb`       {- Oaboram -}        [ "conclude", "ratify", "be concluded", "be ratified" ]
+                              {- `others` [ "bram IV_Pass_yu", "brim IV_yu" ] -},
+
+    -- ;; tabar~am_1
+    -- tbrm    tabar~am        PV_intr be bored;be fed up
+    -- tbrm    tabar~am        IV_intr be bored;be fed up
+
+    TaFaCCaL                  `verb`       {- tabar~am -}       [ "be bored", "be fed up" ],
+
+    -- ;; {inobaram_1
+    -- <nbrm   {inobaram       PV_intr be settled;be twisted
+    -- Anbrm   {inobaram       PV_intr be settled;be twisted
+    -- nbrm    nobarim IV_intr be settled;be twisted
+
+    InFaCaL                   `verb`       {- {inobaram -}      [ "be settled", "be twisted" ]
+                              {- `others` [ "nbarim IV_intr" ] -},
+
+    -- ;; barim_1
+    -- brm     barim   Ndu     weary;tired
+
+    FaCiL                     `noun`       {- barim -}          [ "weary", "tired" ],
+
+    -- ;; tabar~um_1
+    -- tbrm    tabar~um        NduAt   boredom;dissatisfaction
+
+    TaFaCCuL                  `noun`       {- tabar~um -}       [ "boredom", "dissatisfaction" ],
+
+    -- ;; mutabar~im_1
+    -- mtbrm   mutabar~im      Nall    annoyed
+
+    MutaFaCCiL                `noun`       {- mutabar~im -}     [ "annoyed" ],
+
+    -- ;; bar~Amap_1
+    -- brAm    bar~Am  NapAt   drill;drilling machine
+
+    FaCCAL |< aT              `noun`       {- bar~Amap -}       [ "drill", "drilling machine" ],
+
+    -- ;; bariym_1
+    -- brym    bariym  Ndu     rope;twine
+
+    FaCIL                     `noun`       {- bariym -}         [ "rope", "twine" ],
+
+    -- ;; maboruwm_1
+    -- mbrwm   maboruwm        Nall    crooked;twisted
+
+    MaFCUL                    `noun`       {- maboruwm -}       [ "crooked", "twisted" ],
+
+    -- ;; muborim_1
+    -- mbrm    muborim NduAt   conclusion;ratification
+
+    MuFCiL                    `noun`       {- muborim -}        [ "conclusion", "ratification" ],
+
+    -- ;; muboram_1
+    -- mbrm    muboram N-ap    concluded;ratified
+
+    MuFCaL                    `noun`       {- muboram -}        [ "concluded", "ratified" ],
+
+    -- ;; muboram_2
+    -- mbrm    muboram Nall    established;irrevocable
+
+    MuFCaL                    `noun`       {- muboram -}        [ "established", "irrevocable" ],
+
+    -- ;; <iborAm_1
+    -- <brAm   <iborAm NduAt   ratification;conclusion
+    -- AbrAm   <iborAm NduAt   ratification;conclusion
+
+    HiFCAL                    `noun`       {- IiborAm -}        [ "ratification", "conclusion" ],
+
+    -- ;; buromap_1
+    -- brm     burom   Nap     earthenware pot
+    -- brm     buram   N       earthenware pots
+    -- brAm    birAm   N       earthenware pots
+
+    FuCL |< aT                `noun`       {- buromap -}        [ "earthenware pot", "earthenware pots" ]
+                              `plural`     FuCaL
+                              `plural`     FiCAL
+                              {- `others` [ "buram N", "birAm N" ] -},
+
+    -- ;; buromiy~_1
+    -- brmy    buromiy~        Nall    Burmese     [[buromiy~/NOUN]]
+    -- brmy    buromiy~        Nall    Burmese     [[buromiy~/ADJ]]
+
+    FuCL |< Iy                `adj`        {- buromiy~ -}       [ "Burmese" ],
+
+    -- ;; baromA}iy~_1
+    -- brmA}y  baromA}iy~      Nall    amphibious     [[baromA}iy~/ADJ]]
+    -- brmAwy  baromAwiy~      Nall    amphibious     [[baromAwiy~/ADJ]]
+
+    FaCLA' |< Iy              `adj`        {- baromA}iy~ -}     [ "amphibious" ] ]
+
+ |> "b r m '" <| [
+
+    -- ;; baromA}iy~_1
+    -- brmA}y  baromA}iy~      Nall    amphibious     [[baromA}iy~/ADJ]]
+    -- brmAwy  baromAwiy~      Nall    amphibious     [[baromAwiy~/ADJ]]
+
+    KaRDAS |< Iy              `adj`        {- baromA}iy~ -}     [ "amphibious" ] ]
+
+ |> "b r m ^g" <| [
+
+    -- ;; baromaj_1
+    -- brmj    baromaj PV      program
+    -- brmj    baromij IV_yu   program
+
+    KaRDaS                    `verb`       {- baromaj -}        [ "program" ]
+                              {- `others` [ "barmi^g IV_yu" ] -},
+
+    -- ;; tabaromaj_1
+    -- tbrmj   tabaromaj       PV_intr be programmed
+    -- tbrmj   tabaromaj       IV_intr be programmed
+
+    TaKaRDaS                  `verb`       {- tabaromaj -}      [ "be programmed" ],
+
+    -- ;; baromajap_1
+    -- brmj    baromaj NapAt   programming
+
+    KaRDaS |< aT              `noun`       {- baromajap -}      [ "programming" ],
+
+    -- ;; mubaromaj_1
+    -- mbrmj   mubaromaj       N-ap    programmed;scheduled
+
+    MuKaRDaS                  `noun`       {- mubaromaj -}      [ "programmed", "scheduled" ],
+
+    -- ;; mubaromij_1
+    -- mbrmj   mubaromij       Nall    programmer
+
+    MuKaRDiS                  `noun`       {- mubaromij -}      [ "programmer" ],
+
+    -- ;; baromajiy~_1
+    -- brmjy   baromajiy~      Nall    programming;software     [[baromajiy~/ADJ]]
+
+    KaRDaS |< Iy              `adj`        {- baromajiy~ -}     [ "programming", "software" ],
+
+    -- ;; baromajiy~At_1
+    -- brmjy   baromajiy~      NAt     software     [[baromajiy~/NOUN]]
+
+    KaRDaS |< Iy |< At        `noun`       {- baromajiy~At -}   [ "software" ] ]
+
+ |> "b r m d" <| [
+
+    -- ;; biromuwdiy~_1
+    -- brmwdy  biromuwdiy~     Nall    Bermudan     [[biromuwdiy~/NOUN]]
+    -- brmwdy  biromuwdiy~     Nall    Bermudan     [[biromuwdiy~/ADJ]]
+
+    KiRDUS |< Iy              `adj`        {- biromuwdiy~ -}    [ "Bermudan" ],
+
+    -- ;; baromuwdap_1
+    -- brmwdp  baromuwdap      N0      Barmudah (8th Coptic month, Apr. 9-May 8)
+
+    KaRDUS |< aT              `noun`       {- baromuwdap -}     [ "Barmudah (8th Coptic month, Apr. 9-May 8)" ] ]
+
+ |> "b r m l" <| [
+
+    -- ;; baromiyl_1
+    -- brmyl   baromiyl        N       barrel
+    -- brAmyl  barAmiyl        Ndip    barrels
+
+    KaRDIS                    `noun`       {- baromiyl -}       [ "barrel", "barrels" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "barAmiyl Ndip" ] -} ]
+
+ |> "b r m q" <| [
+
+    -- ;; baromaq_1
+    -- brmq    baromaq N       baluster;post;spike
+    -- brAmq   barAmiq N       balusters;posts;spikes
+
+    KaRDaS                    `noun`       {- baromaq -}        [ "baluster", "post", "spike", "balusters", "posts", "spikes" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "barAmiq N" ] -} ]
+
+ |> "b r n" <| [
+
+    -- ;; bAruwn_1
+    -- bArwn   bAruwn  N0      Baron
+    -- bArwn   bAruwn  N       baron
+
+    FACUL                     `noun`       {- bAruwn -}         [ "Baron", "baron" ],
+
+    -- ;; bar~Aniy~_1
+    -- brAny   bar~Aniy~       Nall    exterior;external     [[bar~Aniy~/ADJ]]
+
+    FaCCAL |< Iy              `adj`        {- bar~Aniy~ -}      [ "exterior", "external" ],
+
+    -- ;; biron_1
+    -- brn     biron   Nprop   Bern
+
+    FiCL                      `noun`       {- biron -}          [ "Bern" ],
+
+    -- ;; baroniy~ap_1
+    -- brny    baroniy~        Nap     clay vessel     [[baroniy~/NOUN]]
+    -- brAny   barAniy N       clay vessels
+
+    FaCL |< Iy |< aT          `noun`       {- baroniy~ap -}     [ "clay vessel", "clay vessels" ] ]
+
+ |> "b r n .t" <| [
+
+    -- ;; tabaronaT_1
+    -- tbrnT   tabaronaT       PV      wear/put on a (Western) hat
+    -- tbrnT   tabaronaT       IV      wear/put on a (Western) hat
+
+    TaKaRDaS                  `verb`       {- tabaronaT -}      [ "wear/put on a (Western) hat" ] ]
+
+ |> "b r n q" <| [
+
+    -- ;; baronaq_1
+    -- brnq    baronaq PV      varnish
+    -- brnq    baroniq IV_yu   varnish
+
+    KaRDaS                    `verb`       {- baronaq -}        [ "varnish" ]
+                              {- `others` [ "barniq IV_yu" ] -} ]
+
+ |> "b r n s" <| [
+
+    -- ;; buronus_1
+    -- brns    buronus N       burnoose
+    -- brAns   barAnis Ndip    burnooses
+    -- brnws   buronuws        N       burnoose
+    -- brAnys  barAniys        Ndip    burnooses
+
+    KuRDuS                    `noun`       {- buronus -}        [ "burnoose", "burnooses" ]
+                              `plural`     KaRADIS
+                              `plural`     KuRDUS
+                              `plural`     KaRADiS
+                              {- `others` [ "barAniys Ndip", "burnuws N", "barAnis Ndip" ] -},
+
+    -- ;; barAnis_1
+    -- brAns   barAnis N       Pyrenees
+
+    KaRADiS                   `noun`       {- barAnis -}        [ "Pyrenees" ] ]
+
+ |> "b r n z" <| [
+
+    -- ;; baronaz_1
+    -- brnz    baronaz PV      bronze
+    -- brnz    baroniz IV_yu   bronze
+
+    KaRDaS                    `verb`       {- baronaz -}        [ "bronze" ]
+                              {- `others` [ "barniz IV_yu" ] -},
+
+    -- ;; baronazap_1
+    -- brnz    baronaz Nap     bronzing
+
+    KaRDaS |< aT              `noun`       {- baronazap -}      [ "bronzing" ],
+
+    -- ;; mubaronaz_1
+    -- mbrnz   mubaronaz       Nall    bronzed
+
+    MuKaRDaS                  `noun`       {- mubaronaz -}      [ "bronzed" ] ]
+
+ |> "b r q" <| [
+
+    -- ;; baraq-u_1
+    -- brq     baraq   PV      flash;shine
+    -- brq     boruq   IV      flash;shine
+
+    FaCaL                     `verb`       {- baraq-u -}        [ "flash", "shine" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bruq IV" ] -},
+
+    -- ;; >aboraq_1
+    -- >brq    >aboraq PV      flash;shine
+    -- Abrq    >aboraq PV      flash;shine
+    -- brq     boriq   IV_yu   flash;shine
+
+    HaFCaL                    `verb`       {- Oaboraq -}        [ "flash", "shine" ]
+                              {- `others` [ "briq IV_yu" ] -},
+
+    -- ;; baroq_1
+    -- brq     baroq   Ndu     lightning;telegraph
+
+    FaCL                      `noun`       {- baroq -}          [ "lightning", "telegraph" ],
+
+    -- ;; buruwq_1
+    -- brwq    buruwq  N       lightning;flash
+
+    FuCUL                     `noun`       {- buruwq -}         [ "lightning", "flash" ],
+
+    -- ;; baroqiy~_1
+    -- brqy    baroqiy~        Nall    telegraph;telegraphic     [[baroqiy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- baroqiy~ -}       [ "telegraph", "telegraphic" ],
+
+    -- ;; baroqiy~ap_1
+    -- brqy    baroqiy~        NapAt   telegram     [[baroqiy~/NOUN]]
+
+    FaCL |< Iy |< aT          `noun`       {- baroqiy~ap -}     [ "telegram" ],
+
+    -- ;; bariyq_1
+    -- bryq    bariyq  Ndu     glitter
+    -- brA}q   barA}iq Ndip    glitter
+
+    FaCIL                     `noun`       {- bariyq -}         [ "glitter" ],
+
+    -- ;; burAq_1
+    -- brAq    burAq   N0      Buraq
+
+    FuCAL                     `noun`       {- burAq -}          [ "Buraq" ],
+
+    -- ;; bar~Aq_1
+    -- brAq    bar~Aq  N-ap    shining;flashing
+
+    FaCCAL                    `noun`       {- bar~Aq -}         [ "shining", "flashing" ],
+
+    -- ;; maboraq_1
+    -- mbrq    maboraq N       glitter;flash
+
+    MaFCaL                    `noun`       {- maboraq -}        [ "glitter", "flash" ],
+
+    -- ;; bAriq_1
+    -- bArq    bAriq   Nall    glimpse;glitter
+    -- bArq    bAriq   NapAt   gleam;twinkle;glitter
+    -- bwArq   bawAriq Ndip    gleam;twinkle;glitter
+
+    FACiL                     `noun`       {- bAriq -}          [ "glimpse", "glitter", "gleam", "twinkle" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawAriq Ndip" ] -},
+
+    -- ;; muboriq_1
+    -- mbrq    muboriq N       teletype
+    -- mbrq    muboriq Nap     teletype
+
+    MuFCiL                    `noun`       {- muboriq -}        [ "teletype" ],
+
+    -- ;; baroqap_1
+    -- brqp    baroqap N0      Cyrenaica
+
+    FaCL |< aT                `noun`       {- baroqap -}        [ "Cyrenaica" ] ]
+
+ |> "b r q ^s" <| [
+
+    -- ;; baroqa$_1
+    -- brq$    baroqa$ PV      embellish;variegate
+    -- brq$    baroqi$ IV_yu   embellish;variegate
+
+    KaRDaS                    `verb`       {- baroqa$ -}        [ "embellish", "variegate" ]
+                              {- `others` [ "barqi^s IV_yu" ] -},
+
+    -- ;; tabaroqa$_1
+    -- tbrq$   tabaroqa$       PV_intr be embellished;be variegated
+    -- tbrq$   tabaroqa$       IV_intr be embellished;be variegated
+
+    TaKaRDaS                  `verb`       {- tabaroqa$ -}      [ "be embellished", "be variegated" ],
+
+    -- ;; biroqi$_1
+    -- brq$    biroqi$ N       bishop bird
+    -- brAq$   barAqi$ Ndip    bishop bird
+
+    KiRDiS                    `noun`       {- biroqi$ -}        [ "bishop bird" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "barAqi^s Ndip" ] -},
+
+    -- ;; baroqa$ap_1
+    -- brq$    baroqa$ Nap     variegation;colorful
+
+    KaRDaS |< aT              `noun`       {- baroqa$ap -}      [ "variegation", "colorful" ],
+
+    -- ;; mubaroqa$_1
+    -- mbrq$   mubaroqa$       Nall    multicolored;variegated
+
+    MuKaRDaS                  `noun`       {- mubaroqa$ -}      [ "multicolored", "variegated" ] ]
+
+ |> "b r q `" <| [
+
+    -- ;; baroqaE_1
+    -- brqE    baroqaE PV      veil;drape
+    -- brqE    baroqiE IV_yu   veil;drape
+
+    KaRDaS                    `verb`       {- baroqaE -}        [ "veil", "drape" ]
+                              {- `others` [ "barqi` IV_yu" ] -},
+
+    -- ;; tabaroqaE_1
+    -- tbrqE   tabaroqaE       PV_intr be veiled
+    -- tbrqE   tabaroqaE       IV_intr be veiled
+
+    TaKaRDaS                  `verb`       {- tabaroqaE -}      [ "be veiled" ],
+
+    -- ;; buroquE_1
+    -- brqE    buroquE Ndu     veil
+    -- brAqE   barAqiE Ndip    veils
+
+    KuRDuS                    `noun`       {- buroquE -}        [ "veil", "veils" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "barAqi` Ndip" ] -} ]
+
+ |> "b r q q" <| [
+
+    -- ;; baroquwq_1
+    -- brqwq   baroquwq        N       plum
+
+    KaRDUS                    `noun`       {- baroquwq -}       [ "plum" ],
+
+    -- ;; baroquwqiy~_1
+    -- brqwqy  baroquwqiy~     Nall    plum;purple     [[baroquwqiy~/ADJ]]
+
+    KaRDUS |< Iy              `adj`        {- baroquwqiy~ -}    [ "plum", "purple" ] ]
+
+ |> "b r r" <| [
+
+    -- ;; bAriy_2
+    -- bAry    bAriy   Nprop   Paris
+
+    FACI                      `noun`       {- bAriy -}          [ "Paris" ],
+
+    -- ;; bar~-i_1
+    -- br      bar~    PV_V_intr       be charitable;be devoted
+    -- brr     barar   PV_C_intr       be charitable;be devoted
+    -- br      bar~    IV_V_intr       be charitable;be devoted
+    -- brr     borar   IV_C_intr       be charitable;be devoted
+    -- br      bir~    IV_V_intr       be charitable;be devoted
+    -- brr     borir   IV_C_intr       be charitable;be devoted
+
+    FaCL                      `verb`       {- bar~-i -}         [ "be charitable", "be devoted" ]
+                              `imperf`     FCiL
+                              {- `others` [ "birr IV_V_intr", "brar IV_C_intr", "brir IV_C_intr", "barar PV_C_intr" ] -},
+
+    -- ;; bar~ar_1
+    -- brr     bar~ar  PV      justify;warrant;vindicate;acquit
+    -- brr     bar~ir  IV_yu   justify;warrant;vindicate;acquit
+    -- brr     bar~ar  IV_Pass_yu      be justified;be warranted
+
+    FaCCaL                    `verb`       {- bar~ar -}         [ "justify", "warrant", "vindicate", "acquit", "be justified", "be warranted" ]
+                              {- `others` [ "barrir IV_yu" ] -},
+
+    -- ;; >abar~_1
+    -- >br     >abar~  PV_V    fulfill
+    -- Abr     >abar~  PV_V    fulfill
+    -- >brr    >aborar PV_C    fulfill
+    -- Abrr    >aborar PV_C    fulfill
+    -- br      bir~    IV_V_yu fulfill
+    -- brr     borir   IV_C_yu fulfill
+
+    HaFaCL                    `verb`       {- Oabar~ -}         [ "fulfill" ]
+                              {- `others` [ "birr IV_V_yu", "'abrar PV_C", "brir IV_C_yu" ] -},
+
+    -- ;; tabar~ar_1
+    -- tbrr    tabar~ar        PV_intr be justified;be legitimized
+    -- tbrr    tabar~ar        IV_intr be justified;be legitimized
+
+    TaFaCCaL                  `verb`       {- tabar~ar -}       [ "be justified", "be legitimized" ],
+
+    -- ;; bir~_1
+    -- br      bir~    N       charity;piety
+
+    FiCL                      `noun`       {- bir~ -}           [ "charity", "piety" ],
+
+    -- ;; bar~_1
+    -- br      bar~    N       land;earth
+
+    FaCL                      `noun`       {- bar~ -}           [ "land", "earth" ],
+
+    -- ;; bar~AF_1
+    -- br      bar~    NF      by land     [[bar~/ADV]]
+
+    FaCL |< aN                `noun`       {- bar~AF -}         [ "by land" ]
+                              `plural`     FaCL
+                              {- `others` [ "barr NF" ] -},
+
+    -- ;; bAr~_1
+    -- bAr     bAr~    Nall    pious;charitable
+    -- >brAr   >aborAr N       pious;charitable
+    -- AbrAr   >aborAr N       pious;charitable
+    -- brr     barar   Nap     pious;charitable
+
+    FACL                      `noun`       {- bAr~ -}           [ "pious", "charitable" ]
+                              `plural`     FaCaL |< aT
+                              `plural`     HaFCAL
+                              {- `others` [ "barar Nap", "'abrAr N" ] -},
+
+    -- ;; mabar~ap_1
+    -- mbr     mabar~  NapAt   charity;benefaction
+    -- mbAr    mabAr~  Ndip    charities;benefactions
+
+    MaFaCL |< aT              `noun`       {- mabar~ap -}       [ "charity", "benefaction", "charities", "benefactions" ]
+                              `plural`     MaFACL
+                              {- `others` [ "mabArr Ndip" ] -},
+
+    -- ;; taboriyr_1
+    -- tbryr   taboriyr        NduAt   justification;pretext
+
+    TaFCIL                    `noun`       {- taboriyr -}       [ "justification", "pretext" ],
+
+    -- ;; taboriyrAF_1
+    -- tbryr   taboriyr        NF      in justification;as a pretext     [[taboriyr/ADV]]
+
+    TaFCIL |< aN              `noun`       {- taboriyrAF -}     [ "in justification", "as a pretext" ]
+                              `plural`     TaFCIL
+                              {- `others` [ "tabriyr NF" ] -},
+
+    -- ;; taboriyriy~_1
+    -- tbryry  taboriyriy~     N-ap    justifying;extenuating     [[taboriyriy~/ADJ]]
+
+    TaFCIL |< Iy              `adj`        {- taboriyriy~ -}    [ "justifying", "extenuating" ],
+
+    -- ;; maboruwr_1
+    -- mbrwr   maboruwr        Nall    blessed
+
+    MaFCUL                    `noun`       {- maboruwr -}       [ "blessed" ],
+
+    -- ;; mubar~ir_1
+    -- mbrr    mubar~ir        NduAt   excuse;justification
+
+    MuFaCCiL                  `noun`       {- mubar~ir -}       [ "excuse", "justification" ],
+
+    -- ;; mubar~ir_2
+    -- mbrr    mubar~ir        Nall    justifying
+
+    MuFaCCiL                  `noun`       {- mubar~ir -}       [ "justifying" ],
+
+    -- ;; bar~iy~_1
+    -- bry     bar~iy~ Nall    land;rural     [[bar~iy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- bar~iy~ -}        [ "land", "rural" ],
+
+    -- ;; bar~iy~ap_1
+    -- bry     bar~iy~ NapAt   open country;steppe     [[bar~iy~/NOUN]]
+
+    FaCL |< Iy |< aT          `noun`       {- bar~iy~ap -}      [ "open country", "steppe" ],
+
+    -- ;; bar~Aniy~_1
+    -- brAny   bar~Aniy~       Nall    exterior;external     [[bar~Aniy~/ADJ]]
+
+    FaCLAn |< Iy              `adj`        {- bar~Aniy~ -}      [ "exterior", "external" ],
+
+    -- ;; bur~_1
+    -- br      bur~    N       wheat
+    -- br      bar~    N       wheat
+
+    FuCL                      `noun`       {- bur~ -}           [ "wheat" ]
+                              `plural`     FaCL
+                              {- `others` [ "barr N" ] -},
+
+    -- ;; buwriy_1
+    -- bwry    buwriy  N/At    bugle;signal horn
+
+    FUCiy                     `noun`       {- buwriy -}         [ "bugle", "signal horn" ] ]
+
+ |> "b r s" <| [
+
+    -- ;; barA'ap_1
+    -- brA'    barA'   Nap     innocence
+
+    FaCA' |< aT               `noun`       {- barA'ap -}        [ "innocence" ],
+
+    -- ;; barA'ap_2
+    -- brA'    barA'   NapAt   license;patent
+
+    FaCA' |< aT               `noun`       {- barA'ap -}        [ "license", "patent" ],
+
+    -- ;; <iborA'_1
+    -- <brA'   <iborA' N0_Nh   acquittal;exoneration
+    -- AbrA'   <iborA' N0_Nh   acquittal;exoneration
+    -- <brA&   <iborA& Nh      acquittal;exoneration
+    -- AbrA&   <iborA& Nh      acquittal;exoneration
+    -- <brA}   <iborA} Nhy     acquittal;exoneration
+    -- AbrA}   <iborA} Nhy     acquittal;exoneration
+    -- <brA'   <iborA' NAn_Nayn        acquittals;exonerations
+    -- AbrA'   <iborA' NAn_Nayn        acquittals;exonerations
+    -- <brA}   <iborA} Nayn    acquittals;exonerations
+    -- AbrA}   <iborA} Nayn    acquittals;exonerations
+    -- <brA'   <iborA' NAt     acquittals;exonerations
+    -- AbrA'   <iborA' NAt     acquittals;exonerations
+
+    HiFCA'                    `noun`       {- IiborA' -}        [ "acquittal", "exoneration", "acquittals", "exonerations" ],
+
+    -- ;; {isotiborA'_1
+    -- <stbrA' {isotiborA'     N0_Nh   purification
+    -- AstbrA' {isotiborA'     N0_Nh   purification
+    -- <stbrA& {isotiborA&     Nh      purification
+    -- AstbrA& {isotiborA&     Nh      purification
+    -- <stbrA} {isotiborA}     Nhy     purification
+    -- AstbrA} {isotiborA}     Nhy     purification
+    -- <stbrA' {isotiborA'     NAn_Nayn        purifications
+    -- AstbrA' {isotiborA'     NAn_Nayn        purifications
+    -- <stbrA} {isotiborA}     Nayn    purifications
+    -- AstbrA} {isotiborA}     Nayn    purifications
+    -- <stbrA' {isotiborA'     NAt     purifications
+    -- AstbrA' {isotiborA'     NAt     purifications
+
+    IstiFCA'                  `noun`       {- {isotiborA' -}    [ "purification", "purifications" ],
+
+    -- ;; bris_1
+    -- brs     bris    N0      Press
+
+    FCiL                      `noun`       {- bris -}           [ "Press" ] ]
+
+ |> "b r s m" <| [
+
+    -- ;; birosAm_1
+    -- brsAm   birosAm N       pleurisy (lung inflammation)
+
+    KiRDAS                    `noun`       {- birosAm -}        [ "pleurisy (lung inflammation)" ],
+
+    -- ;; birosiym_1
+    -- brsym   birosiym        N       clover
+
+    KiRDIS                    `noun`       {- birosiym -}       [ "clover" ] ]
+
+ |> "b r w" <| [
+
+    -- ;; barowap_1
+    -- brw     barow   Napdu   waste;scrap
+    -- brw     baraw   NAt     waste;scrap
+
+    FaCL |< aT                `noun`       {- barowap -}        [ "waste", "scrap" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "baraw NAt" ] -} ]
+
+ |> "b r w z" <| [
+
+    -- ;; barowaz_1
+    -- brwz    barowaz PV      frame
+    -- brwz    barowiz IV_yu   frame
+
+    KaRDaS                    `verb`       {- barowaz -}        [ "frame" ]
+                              {- `others` [ "barwiz IV_yu" ] -},
+
+    -- ;; barowAz_1
+    -- brwAz   barowAz Ndu     frame
+    -- brwAz   birowAz Ndu     frame
+    -- brAwyz  barAwiyz        Ndip    frames
+
+    KaRDAS                    `noun`       {- barowAz -}        [ "frame", "frames" ]
+                              `plural`     KiRDAS
+                              `plural`     KaRADIS
+                              {- `others` [ "birwAz Ndu", "barAwiyz Ndip" ] -} ]
+
+ |> "b r y" <| [
+
+    -- ;; bAriy_2
+    -- bAry    bAriy   Nprop   Paris
+
+    FACiL                     `noun`       {- bAriy -}          [ "Paris" ],
+
+    -- ;; >aboriyA'_1
+    -- >bryA'  >aboriyA'       N0_Nh   innocent;exempt
+    -- AbryA'  >aboriyA'       N0_Nh   innocent;exempt
+    -- >bryA&  >aboriyA&       Nh      innocent;exempt
+    -- AbryA&  >aboriyA&       Nh      innocent;exempt
+    -- >bryA}  >aboriyA}       Nhy     innocent;exempt
+    -- AbryA}  >aboriyA}       Nhy     innocent;exempt
+
+    HaFCiLA'                  `noun`       {- OaboriyA' -}      [ "innocent", "exempt" ],
+
+    -- ;; baraY-i_1
+    -- brY     baraY   PV_0    sharpen;trim;wear out
+    -- brA     barA    PV_h    sharpen;trim;wear out
+    -- bry     baray   PV_Atn  sharpen;trim;wear out
+    -- br      bar     PV_ttAw sharpen;trim;wear out
+    -- bry     boriy   IV_0hAnn        sharpen;trim;wear out
+    -- br      bor     IV_0hwnyn       sharpen;trim;wear out
+    -- brY     boraY   IV_0_Pass_yu    be sharpened;be trimmed;be worn out
+
+    FaCY                      `verb`       {- baraY-i -}        [ "sharpen", "trim", "wear out", "be sharpened", "be trimmed", "be worn out" ]
+                              `imperf`     FCiL
+                              {- `others` [ "briy IV_0hAnn", "brY IV_0_Pass_yu", "barA PV_h", "baray PV_Atn" ] -},
+
+    -- ;; bAraY_1
+    -- bArY    bAraY   PV_0    challenge;confront
+    -- bArA    bArA    PV_h    challenge;confront
+    -- bAry    bAray   PV_Atn  challenge;confront
+    -- bAr     bAr     PV_ttAw challenge;confront
+    -- bAry    bAriy   IV_0hAnn_yu     challenge;confront
+    -- bAr     bAr     IV_0hwnyn_yu    challenge;confront
+    -- bArY    bAraY   IV_0_Pass_yu    be challenged;be confronted
+    -- bAry    bAray   IV_Ann_Pass_yu  be challenged;be confronted
+
+    FACY                      `verb`       {- bAraY -}          [ "challenge", "confront", "be challenged", "be confronted" ]
+                              {- `others` [ "bAray PV_Atn IV_Ann_Pass_yu", "bAriy IV_0hAnn_yu" ] -},
+
+    -- ;; tabAraY_1
+    -- tbArY   tabAraY PV_0    challenge;confront
+    -- tbArA   tabArA  PV_h    challenge;confront
+    -- tbAry   tabAray PV_Atn  challenge;confront
+    -- tbAr    tabAr   PV_ttAw challenge;confront
+    -- tbArY   tabAraY IV_0    challenge;confront
+    -- tbArA   tabArA  IV_h    challenge;confront
+    -- tbAry   tabAray IV_Ann  challenge;confront
+    -- tbAr    tabAr   IV_0hwnyn       challenge;confront
+
+    TaFACY                    `verb`       {- tabAraY -}        [ "challenge", "confront" ]
+                              {- `others` [ "tabAray PV_Atn IV_Ann" ] -},
+
+    -- ;; {inobaraY_1
+    -- <nbrY   {inobaraY       PV_0    be sharpened;be tired
+    -- AnbrY   {inobaraY       PV_0    be sharpened;be tired
+    -- <nbrA   {inobarA        PV_h    be sharpened;be tired
+    -- AnbrA   {inobarA        PV_h    be sharpened;be tired
+    -- <nbry   {inobaray       PV_Atn  be sharpened;be tired
+    -- Anbry   {inobaray       PV_Atn  be sharpened;be tired
+    -- <nbr    {inobar PV_ttAw_intr    be sharpened;be tired
+    -- Anbr    {inobar PV_ttAw_intr    be sharpened;be tired
+    -- nbry    nobariy IV_0hAnn        be sharpened;be tired
+    -- nbr     nobar   IV_0hwnyn       be sharpened;be tired
+    -- nbrY    nobaraY IV_0_Pass_yu    be sharpened;be tired
+
+    InFaCY                    `verb`       {- {inobaraY -}      [ "be sharpened", "be tired" ]
+                              {- `others` [ "nbarY IV_0_Pass_yu", "inbaray PV_Atn", "nbariy IV_0hAnn" ] -},
+
+    -- ;; bariy~ap_1
+    -- bry     bariy~  NapAt   creation;creature     [[bariy~/NOUN]]
+    -- brAyA   barAyA  N0      creation;creatures
+    -- brAyA   barAyA  Nhy     creation;creatures
+
+    FaCIL |< aT               `noun`       {- bariy~ap -}       [ "creation", "creature", "creatures" ],
+
+    -- ;; baraY_1
+    -- brY     baraY   N0      dust;earth
+    -- brA     barA    Nhy     dust;earth
+
+    FaCY                      `noun`       {- baraY -}          [ "dust", "earth" ]
+                              `plural`     FaCA
+                              {- `others` [ "barA Nhy" ] -},
+
+    -- ;; bar~Ayap_1
+    -- brAy    bar~Ay  NapAt   sharpener
+
+    FaCCAL |< aT              `noun`       {- bar~Ayap -}       [ "sharpener" ],
+
+    -- ;; mubArAp_1
+    -- mbArA   mubArA  Napdu   match;game;competition
+    -- mbAry   mubAray NAt     matches;games;competitions
+
+    MuFACY |< aT              `noun`       {- mubArAp -}        [ "match", "game", "competition", "matches", "games", "competitions" ]
+                              `plural`     MuFACaL |< At
+                              {- `others` [ "mubAray NAt" ] -},
+
+    -- ;; bAriy_1
+    -- bAry    bAriy   N0      Bari;Bary
+
+    FACiL                     `noun`       {- bAriy -}          [ "Bari", "Bary" ],
+
+    -- ;; mutabAriy_1
+    -- mtbAry  mutabAriy       N0F_Nh  participant;competitor
+    -- mtbAr   mutabAr NK      participant;competitor
+    -- mtbAry  mutabAriy       NAn_Nayn        participant;competitor
+    -- mtbAr   mutabAr Nuwn_Niyn       participant;competitor
+    -- mtbAry  mutabAriy       NapAt   participant;competitor
+
+    MutaFACiL                 `noun`       {- mutabAriy -}      [ "participant", "competitor" ] ]
+
+ |> "b r z" <| [
+
+    -- ;; baraz-u_1
+    -- brz     baraz   PV      appear;emerge
+    -- brz     boruz   IV      appear;emerge
+
+    FaCaL                     `verb`       {- baraz-u -}        [ "appear", "emerge" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bruz IV" ] -},
+
+    -- ;; baruz-u_1
+    -- brz     baruz   PV      surpass;excel
+    -- brz     boruz   IV      surpass;excel
+
+    FaCuL                     `verb`       {- baruz-u -}        [ "surpass", "excel" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bruz IV" ] -},
+
+    -- ;; bar~az_1
+    -- brz     bar~az  PV      expose;highlight
+    -- brz     bar~iz  IV_yu   expose;highlight
+    -- brz     bar~az  IV_Pass_yu      be exposed;be highlighted
+
+    FaCCaL                    `verb`       {- bar~az -}         [ "expose", "highlight", "be exposed", "be highlighted" ]
+                              {- `others` [ "barriz IV_yu" ] -},
+
+    -- ;; bAraz_1
+    -- bArz    bAraz   PV      compete against
+    -- bArz    bAriz   IV_yu   compete against
+
+    FACaL                     `verb`       {- bAraz -}          [ "compete against" ]
+                              {- `others` [ "bAriz IV_yu" ] -},
+
+    -- ;; >aboraz_1
+    -- >brz    >aboraz PV      highlight;expose
+    -- Abrz    >aboraz PV      highlight;expose
+    -- brz     boriz   IV_yu   highlight;expose
+
+    HaFCaL                    `verb`       {- Oaboraz -}        [ "highlight", "expose" ]
+                              {- `others` [ "briz IV_yu" ] -},
+
+    -- ;; tabar~az_1
+    -- tbrz    tabar~az        PV      defecate
+    -- tbrz    tabar~az        IV      defecate
+
+    TaFaCCaL                  `verb`       {- tabar~az -}       [ "defecate" ],
+
+    -- ;; tabAraz_1
+    -- tbArz   tabAraz PV      compete against
+    -- tbArz   tabAraz IV      compete against
+
+    TaFACaL                   `verb`       {- tabAraz -}        [ "compete against" ],
+
+    -- ;; {ibotaraz_1
+    -- <btrz   {ibotaraz       PV      excel;surpass
+    -- Abtrz   {ibotaraz       PV      excel;surpass
+    -- btrz    botariz IV      excel;surpass
+
+    IFtaCaL                   `verb`       {- {ibotaraz -}      [ "excel", "surpass" ]
+                              {- `others` [ "btariz IV" ] -},
+
+    -- ;; buruwz_1
+    -- brwz    buruwz  N       prominence;appearance
+
+    FuCUL                     `noun`       {- buruwz -}         [ "prominence", "appearance" ],
+
+    -- ;; birAz_1
+    -- brAz    birAz   N       dung;compost
+
+    FiCAL                     `noun`       {- birAz -}          [ "dung", "compost" ],
+
+    -- ;; birAz_2
+    -- brAz    birAz   N       competition;duel
+
+    FiCAL                     `noun`       {- birAz -}          [ "competition", "duel" ],
+
+    -- ;; burayozap_1
+    -- bryz    burayoz NapAt   bureiza (10-piaster coin)
+
+    FuCayL |< aT              `noun`       {- burayozap -}      [ "bureiza (10-piaster coin)" ],
+
+    -- ;; >aboraz_2
+    -- >brz    >aboraz Nel     more/most prominent     [[>aboraz/ADJ]]
+    -- Abrz    >aboraz Nel     more/most prominent     [[>aboraz/ADJ]]
+
+    HaFCaL                    `adj`        {- Oaboraz -}        [ "more/most prominent" ],
+
+    -- ;; mubArazap_1
+    -- mbArz   mubAraz NapAt   contest;duel;competition
+
+    MuFACaL |< aT             `noun`       {- mubArazap -}      [ "contest", "duel", "competition" ],
+
+    -- ;; <iborAz_1
+    -- <brAz   <iborAz NduAt   displaying;emphasizing;accentuation
+    -- AbrAz   <iborAz NduAt   displaying;emphasizing;accentuation
+
+    HiFCAL                    `noun`       {- IiborAz -}        [ "displaying", "emphasizing", "accentuation" ],
+
+    -- ;; bAriz_1
+    -- bArz    bAriz   Nall    prominent;distinct     [[bAriz/ADJ]]
+
+    FACiL                     `adj`        {- bAriz -}          [ "prominent", "distinct" ],
+
+    -- ;; mubar~iz_1
+    -- mbrz    mubar~iz        Nall    surpassing     [[mubar~iz/ADJ]]
+    -- mbrz    mubar~iz        Nall    winner
+
+    MuFaCCiL                  `adj`        {- mubar~iz -}       [ "surpassing", "winner" ],
+
+    -- ;; mubar~az_1
+    -- mbrz    mubar~az        N-ap    embossed
+
+    MuFaCCaL                  `noun`       {- mubar~az -}       [ "embossed" ],
+
+    -- ;; mubAriz_1
+    -- mbArz   mubAriz Nall    competitor
+
+    MuFACiL                   `noun`       {- mubAriz -}        [ "competitor" ],
+
+    -- ;; bariyzap_1
+    -- bryz    bariyz  Napdu   socket;wall plug
+    -- brA}z   barA}iz Ndip    sockets;wall plugs
+
+    FaCIL |< aT               `noun`       {- bariyzap -}       [ "socket", "wall plug", "sockets", "wall plugs" ],
+
+    -- ;; barazAn_1
+    -- brzAn   barazAn N       trumpet
+
+    FaCaLAn                   `noun`       {- barazAn -}        [ "trumpet" ],
+
+    -- ;; barazAniy~_1
+    -- brzAny  barazAniy~      N0      Barazani
+    -- bArzAny bArazAniy~      N0      Barazani
+
+    FaCaLAn |< Iy             `adj`        {- barazAniy~ -}     [ "Barazani" ] ]
+
+ |> "b r z _h" <| [
+
+    -- ;; barozax_1
+    -- brzx    barozax Ndu     partition;isthmus
+    -- brAzx   barAzix Ndip    partitions;straits
+
+    KaRDaS                    `noun`       {- barozax -}        [ "partition", "isthmus", "partitions", "straits" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "barAzi_h Ndip" ] -} ]
+
+ |> "b r z l" <| [
+
+    -- ;; barAziyl_1
+    -- brAzyl  barAziyl        N       Brazil
+
+    KaRADIS                   `noun`       {- barAziyl -}       [ "Brazil" ],
+
+    -- ;; barAziyliy~_1
+    -- brAzyly barAziyliy~     Nall    Brazilian     [[barAziyliy~/NOUN]]
+    -- brAzyly barAziyliy~     Nall    Brazilian     [[barAziyliy~/ADJ]]
+
+    KaRADIS |< Iy             `adj`        {- barAziyliy~ -}    [ "Brazilian" ] ]
+
+ |> "b r z q" <| [
+
+    -- ;; burozuwq_1
+    -- brzwq   burozuwq        N       sidewalk
+
+    KuRDUS                    `noun`       {- burozuwq -}       [ "sidewalk" ] ]
+
+ |> "b s '" <| [
+
+    -- ;; basa>-a_1
+    -- bs>     basa>   PV->    treat amicably;be intimate
+    -- bs|     basa|   PV-|    treat amicably;be intimate
+    -- bs&     basa&   PV_w    treat amicably;be intimate
+    -- bs>     bosa>   IV      treat amicably;be intimate
+    -- bs|     bosa|   IV-|    treat amicably;be intimate
+    -- bs&     bosa&   IV_wn   treat amicably;be intimate
+    -- bs}     bosa}   IV_yn   treat amicably;be intimate
+
+    FaCaL                     `verb`       {- basaO-a -}        [ "treat amicably", "be intimate" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bsa' IV IV_wn IV_yn" ] -},
+
+    -- ;; baso'_1
+    -- bs'     baso'   N0      amicable treatment;intimacy
+    -- bs}     baso}   NF_Nhy  amicable treatment;intimacy
+
+    FaCL                      `noun`       {- baso' -}          [ "amicable treatment", "intimacy" ] ]
+
+ |> "b s ' .t" <| [
+
+    -- ;; basA}iT_1
+    -- bsA}T   basA}iT Ndip    basic facts;elements
+
+    KaRADiS                   `noun`       {- basA}iT -}        [ "basic facts", "elements" ] ]
+
+ |> "b s .t" <| [
+
+    -- ;; basaT-u_1
+    -- bsT     basaT   PV      spread;extend
+    -- bsT     bosuT   IV      spread;extend
+
+    FaCaL                     `verb`       {- basaT-u -}        [ "spread", "extend" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bsu.t IV" ] -},
+
+    -- ;; basuT-u_1
+    -- bsT     basuT   PV_intr be simple
+    -- bsT     bosuT   IV_intr be simple
+
+    FaCuL                     `verb`       {- basuT-u -}        [ "be simple" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bsu.t IV_intr" ] -},
+
+    -- ;; bas~aT_1
+    -- bsT     bas~aT  PV      spread;simplify
+    -- bsT     bas~iT  IV_yu   spread;simplify
+    -- bsT     bas~aT  IV_Pass_yu      be spread;be simplified
+
+    FaCCaL                    `verb`       {- bas~aT -}         [ "spread", "simplify", "be spread", "be simplified" ]
+                              {- `others` [ "bassi.t IV_yu" ] -},
+
+    -- ;; bAsaT_1
+    -- bAsT    bAsaT   PV_intr be sincere;speak openly
+    -- bAsT    bAsiT   IV_intr_yu      be sincere;speak openly
+
+    FACaL                     `verb`       {- bAsaT -}          [ "be sincere", "speak openly" ]
+                              {- `others` [ "bAsi.t IV_intr_yu" ] -},
+
+    -- ;; tabas~aT_1
+    -- tbsT    tabas~aT        PV_intr be simple;be frank
+    -- tbsT    tabas~aT        IV_intr be simple;be frank
+
+    TaFaCCaL                  `verb`       {- tabas~aT -}       [ "be simple", "be frank" ],
+
+    -- ;; {inobasaT_1
+    -- <nbsT   {inobasaT       PV      have fun;be happy
+    -- AnbsT   {inobasaT       PV      have fun;be happy
+    -- nbsT    nobasiT IV      have fun;be happy
+
+    InFaCaL                   `verb`       {- {inobasaT -}      [ "have fun", "be happy" ]
+                              {- `others` [ "nbasi.t IV" ] -},
+
+    -- ;; {inobasaT_2
+    -- <nbsT   {inobasaT       PV      stretch;spread out
+    -- AnbsT   {inobasaT       PV      stretch;spread out
+    -- nbsT    nobasiT IV      stretch;spread out
+
+    InFaCaL                   `verb`       {- {inobasaT -}      [ "stretch", "spread out" ]
+                              {- `others` [ "nbasi.t IV" ] -},
+
+    -- ;; basoT_1
+    -- bsT     basoT   N       spreading;extension
+
+    FaCL                      `noun`       {- basoT -}          [ "spreading", "extension" ],
+
+    -- ;; basoTap_1
+    -- bsT     basoT   Napdu   extension;exposition
+    -- bsT     basaT   NAt     extensions;expositions
+
+    FaCL |< aT                `noun`       {- basoTap -}        [ "extension", "exposition", "extensions", "expositions" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "basa.t NAt" ] -},
+
+    -- ;; bisAT_1
+    -- bsAT    bisAT   N       dais;platform
+
+    FiCAL                     `noun`       {- bisAT -}          [ "dais", "platform" ],
+
+    -- ;; bisAT_2
+    -- bsAT    bisAT   N/At    carpet
+    -- bsT     busuT   N       carpets
+    -- >bsT    >abosiT Nap     carpets
+    -- AbsT    >abosiT Nap     carpets
+
+    FiCAL                     `noun`       {- bisAT -}          [ "carpet", "carpets" ]
+                              `plural`     HaFCiL |< aT
+                              `plural`     FuCuL
+                              {- `others` [ "'absi.t Nap", "busu.t N" ] -},
+
+    -- ;; basiyT_1
+    -- bsyT    basiyT  N/ap    simple;plain
+    -- bsTA'   busaTA' N0_Nh   simple;plain
+    -- bsTA&   busaTA& Nh      simple;plain
+    -- bsTA}   busaTA} Nhy     simple;plain
+
+    FaCIL                     `noun`       {- basiyT -}         [ "simple", "plain" ]
+                              `plural`     FuCaLA'
+                              {- `others` [ "busa.tA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; basiyTap_1
+    -- bsyTp   basiyTap        FW-Wa   no problem;okay     [[basiyTap/INTERJ]]
+
+    FaCIL |< aT               `noun`       {- basiyTap -}       [ "no problem", "okay" ],
+
+    -- ;; basATap_1
+    -- bsAT    basAT   Nap     simplicity;plainness
+
+    FaCAL |< aT               `noun`       {- basATap -}        [ "simplicity", "plainness" ],
+
+    -- ;; >abosaT_1
+    -- >bsT    >abosaT Nel     simpler/simplest;most basic
+    -- AbsT    >abosaT Nel     simpler/simplest;most basic
+
+    HaFCaL                    `noun`       {- OabosaT -}        [ "simpler/simplest", "most basic" ],
+
+    -- ;; tabosiyT_1
+    -- tbsyT   tabosiyT        NduAt   simplification
+
+    TaFCIL                    `noun`       {- tabosiyT -}       [ "simplification" ],
+
+    -- ;; tabas~uT_1
+    -- tbsT    tabas~uT        NduAt   candor;frankness
+
+    TaFaCCuL                  `noun`       {- tabas~uT -}       [ "candor", "frankness" ],
+
+    -- ;; {inobisAT_1
+    -- <nbsAT  {inobisAT       N/At    cheerfulness
+    -- AnbsAT  {inobisAT       N/At    cheerfulness
+
+    InFiCAL                   `noun`       {- {inobisAT -}      [ "cheerfulness" ],
+
+    -- ;; {inobisAT_2
+    -- <nbsAT  {inobisAT       N/At    extension
+    -- AnbsAT  {inobisAT       N/At    extension
+
+    InFiCAL                   `noun`       {- {inobisAT -}      [ "extension" ],
+
+    -- ;; {inobisATap_1
+    -- <nbsAT  {inobisAT       Nap     extension
+    -- AnbsAT  {inobisAT       Nap     extension
+
+    InFiCAL |< aT             `noun`       {- {inobisATap -}    [ "extension" ],
+
+    -- ;; bAsiT_1
+    -- bAsT    bAsiT   N0      Basit
+
+    FACiL                     `noun`       {- bAsiT -}          [ "Basit" ],
+
+    -- ;; mabosuwT_1
+    -- mbswT   mabosuwT        Nall    cheerful
+
+    MaFCUL                    `noun`       {- mabosuwT -}       [ "cheerful" ],
+
+    -- ;; munobasiT_1
+    -- mnbsT   munobasiT       Nall    cheerful
+
+    MunFaCiL                  `noun`       {- munobasiT -}      [ "cheerful" ],
+
+    -- ;; munobasaT_1
+    -- mnbsT   munobasaT       N-ap    flat;level
+
+    MunFaCaL                  `noun`       {- munobasaT -}      [ "flat", "level" ] ]
+
+ |> "b s _h" <| [
+
+    -- ;; basoxap_1
+    -- bsx     basox   Nap     Easter;Passion Week
+
+    FaCL |< aT                `noun`       {- basoxap -}        [ "Easter", "Passion Week" ] ]
+
+ |> "b s b s" <| [
+
+    -- ;; basobAs_1
+    -- bsbAs   basobAs N       mace;fennel
+    -- bsbAs   basobAs Nap     mace;fennel
+
+    KaRDAS                    `noun`       {- basobAs -}        [ "mace", "fennel" ],
+
+    -- ;; basobuwsap_1
+    -- bsbws   basobuws        Nap     basbousah (semolina cake)
+    -- bsAbs   basAbis Ndip    basbousahs (semolina cakes)
+
+    KaRDUS |< aT              `noun`       {- basobuwsap -}     [ "basbousah (semolina cake)", "basbousahs (semolina cakes)" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "basAbis Ndip" ] -} ]
+
+ |> "b s f r" <| [
+
+    -- ;; busofuwr_1
+    -- bsfwr   busofuwr        N       Bosphorus;Bosporus
+
+    KuRDUS                    `noun`       {- busofuwr -}       [ "Bosphorus", "Bosporus" ] ]
+
+ |> "b s k" <| [
+
+    -- ;; bAsk_1
+    -- bAsk    bAsk    N0      Basques     [[bAsk/NOUN]]
+    -- bAsk    bAsk    N0      Basque      [[bAsk/ADJ]]
+
+    FACL                      `adj`        {- bAsk -}           [ "Basques", "Basque" ] ]
+
+ |> "b s k t" <| [
+
+    -- ;; bisokuwt_1
+    -- bskwt   bisokuwt        N       biscuit
+    -- bskwyt  baskawiyt       N       biscuit
+
+    KiRDUS                    `noun`       {- bisokuwt -}       [ "biscuit" ] ]
+
+ |> "b s k y" <| [
+
+    -- ;; bisokAy_1
+    -- bskAy   bisokAy N       Biscay
+
+    KiRDAS                    `noun`       {- bisokAy -}        [ "Biscay" ] ]
+
+ |> "b s l" <| [
+
+    -- ;; basul-u_1
+    -- bsl     basul   PV_intr be brave;be intrepid
+    -- bsl     bosul   IV_intr be brave;be intrepid
+
+    FaCuL                     `verb`       {- basul-u -}        [ "be brave", "be intrepid" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bsul IV_intr" ] -},
+
+    -- ;; tabas~al_1
+    -- tbsl    tabas~al        PV      scowl;be brave
+    -- tbsl    tabas~al        IV      scowl;be brave
+
+    TaFaCCaL                  `verb`       {- tabas~al -}       [ "scowl", "be brave" ],
+
+    -- ;; {isotabosal_1
+    -- <stbsl  {isotabosal     PV_intr be courageous
+    -- Astbsl  {isotabosal     PV_intr be courageous
+    -- stbsl   sotabosil       IV_intr be courageous
+
+    IstaFCaL                  `verb`       {- {isotabosal -}    [ "be courageous" ],
+
+    -- ;; basAlap_1
+    -- bsAl    basAl   Nap     courage
+    -- <stbsAl {isotibosAl     N/At    courage
+    -- AstbsAl {isotibosAl     N/At    courage
+
+    FaCAL |< aT               `noun`       {- basAlap -}        [ "courage" ]
+                              `plural`     IstiFCAL |< At
+                              {- `others` [ "istibsAl N/At" ] -},
+
+    -- ;; bAsil_1
+    -- bAsl    bAsil   N0      Basil
+
+    FACiL                     `noun`       {- bAsil -}          [ "Basil" ],
+
+    -- ;; bAsil_2
+    -- bAsl    bAsil   Nall    fearless;brave
+    -- bslA'   busalA' N0_Nh   fearless;intrepid
+    -- bslA&   busalA& Nh      fearless;intrepid
+    -- bslA}   busalA} Nhy     fearless;intrepid
+    -- bwAsl   bawAsil Ndip    fearless;intrepid
+
+    FACiL                     `noun`       {- bAsil -}          [ "fearless", "brave", "intrepid" ]
+                              `plural`     FawACiL
+                              `plural`     FuCaLA'
+                              {- `others` [ "bawAsil Ndip", "busalA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; musotabosil_1
+    -- mstbsl  musotabosil     Nall    fearless;intrepid
+
+    MustaFCiL                 `noun`       {- musotabosil -}    [ "fearless", "intrepid" ] ]
+
+ |> "b s m" <| [
+
+    -- ;; basam-i_1
+    -- bsm     basam   PV      smile
+    -- bsm     bosim   IV      smile
+
+    FaCaL                     `verb`       {- basam-i -}        [ "smile" ]
+                              `imperf`     FCiL
+                              {- `others` [ "bsim IV" ] -},
+
+    -- ;; tabas~am_1
+    -- tbsm    tabas~am        PV      smile
+    -- tbsm    tabas~am        IV      smile
+
+    TaFaCCaL                  `verb`       {- tabas~am -}       [ "smile" ],
+
+    -- ;; {ibotasam_1
+    -- <btsm   {ibotasam       PV      smile
+    -- Abtsm   {ibotasam       PV      smile
+    -- btsm    botasim IV      smile
+
+    IFtaCaL                   `verb`       {- {ibotasam -}      [ "smile" ]
+                              {- `others` [ "btasim IV" ] -},
+
+    -- ;; basom_1
+    -- bsm     basom   N       smiling
+
+    FaCL                      `noun`       {- basom -}          [ "smiling" ],
+
+    -- ;; basomap_1
+    -- bsm     basom   Napdu   smile
+    -- bsm     basam   NAt     smiles;smiling
+
+    FaCL |< aT                `noun`       {- basomap -}        [ "smile", "smiles", "smiling" ]
+                              `plural`     FaCaL |< At
+                              {- `others` [ "basam NAt" ] -},
+
+    -- ;; bAsim_1
+    -- bAsm    bAsim   Nprop   Basem;Basim
+
+    FACiL                     `noun`       {- bAsim -}          [ "Basem", "Basim" ],
+
+    -- ;; bAsim_2
+    -- bAsm    bAsim   Nall    smiling
+
+    FACiL                     `noun`       {- bAsim -}          [ "smiling" ],
+
+    -- ;; bas~Am_1
+    -- bsAm    bas~Am  Nprop   Bassam
+
+    FaCCAL                    `noun`       {- bas~Am -}         [ "Bassam" ],
+
+    -- ;; bas~Am_2
+    -- bsAm    bas~Am  Nall    smiling
+
+    FaCCAL                    `noun`       {- bas~Am -}         [ "smiling" ],
+
+    -- ;; basiym_1
+    -- bsym    basiym  Nprop   Baseem
+
+    FaCIL                     `noun`       {- basiym -}         [ "Baseem" ],
+
+    -- ;; basiymap_1
+    -- bsymp   basiymap        Nprop   Baseema
+
+    FaCIL |< aT               `noun`       {- basiymap -}       [ "Baseema" ],
+
+    -- ;; mabosim_1
+    -- mbsm    mabosim Ndu     mouthpiece
+    -- mbAsm   mabAsim Ndip    mouthpieces
+
+    MaFCiL                    `noun`       {- mabosim -}        [ "mouthpiece", "mouthpieces" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "mabAsim Ndip" ] -},
+
+    -- ;; {ibotisAm_1
+    -- <btsAm  {ibotisAm       N0      Ibtisam
+    -- AbtsAm  {ibotisAm       N0      Ibtisam
+
+    IFtiCAL                   `noun`       {- {ibotisAm -}      [ "Ibtisam" ],
+
+    -- ;; {ibotisAm_2
+    -- <btsAm  {ibotisAm       N       smiling
+    -- AbtsAm  {ibotisAm       N       smiling
+
+    IFtiCAL                   `noun`       {- {ibotisAm -}      [ "smiling" ],
+
+    -- ;; {ibotisAmap_1
+    -- <btsAm  {ibotisAm       NapAt   smile
+    -- AbtsAm  {ibotisAm       NapAt   smile
+
+    IFtiCAL |< aT             `noun`       {- {ibotisAmap -}    [ "smile" ] ]
+
+ |> "b s m l" <| [
+
+    -- ;; basomal_1
+    -- bsml    basomal PV      say "bismillah" (in the name of God, the Merciful, the Compassionate)
+    -- bsml    basomil IV_yu   say "bismillah" (in the name of God, the Merciful, the Compassionate)
+
+    KaRDaS                    `verb`       {- basomal -}        [ "say \"bismillah\" (in the name of God, the Merciful, the Compassionate)" ]
+                              {- `others` [ "basmil IV_yu" ] -},
+
+    -- ;; basomalap_1
+    -- bsml    basomal NapAt   "bismillah" (in the name of God, the Merciful, the Compassionate)
+
+    KaRDaS |< aT              `noun`       {- basomalap -}      [ "\"bismillah\" (in the name of God, the Merciful, the Compassionate)" ] ]
+
+ |> "b s n" <| [
+
+    -- ;; busayonap_1
+    -- bsyn    busayon Nap     kitty
+
+    FuCayL |< aT              `noun`       {- busayonap -}      [ "kitty" ] ]
+
+ |> "b s q" <| [
+
+    -- ;; basaq-u_1
+    -- bsq     basaq   PV_intr be tall;excel
+    -- bsq     bosuq   IV_intr be tall;excel
+
+    FaCaL                     `verb`       {- basaq-u -}        [ "be tall", "excel" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bsuq IV_intr" ] -},
+
+    -- ;; bAsiq_1
+    -- bAsq    bAsiq   Nall    lofty;towering
+
+    FACiL                     `noun`       {- bAsiq -}          [ "lofty", "towering" ],
+
+    -- ;; mubosiq_1
+    -- mbsq    mubosiq Nall    lofty;towering
+
+    MuFCiL                    `noun`       {- mubosiq -}        [ "lofty", "towering" ] ]
+
+ |> "b s r" <| [
+
+    -- ;; basar-u_1
+    -- bsr     basar   PV      scowl;frown
+    -- bsr     bosur   IV      scowl;frown
+
+    FaCaL                     `verb`       {- basar-u -}        [ "scowl", "frown" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bsur IV" ] -},
+
+    -- ;; {ibotasar_1
+    -- <btsr   {ibotasar       PV_intr be rash;be premature
+    -- Abtsr   {ibotasar       PV_intr be rash;be premature
+    -- btsr    botasir IV_intr be rash;be premature
+
+    IFtaCaL                   `verb`       {- {ibotasar -}      [ "be rash", "be premature" ]
+                              {- `others` [ "btasir IV_intr" ] -},
+
+    -- ;; busuwr_1
+    -- bswr    busuwr  N       scowling;frowning
+
+    FuCUL                     `noun`       {- busuwr -}         [ "scowling", "frowning" ],
+
+    -- ;; busor_1
+    -- bsr     busor   N       unripe dates
+    -- bsr     busor   NapAt   unripe date
+    -- bsAr    bisAr   N       unripe dates
+
+    FuCL                      `noun`       {- busor -}          [ "unripe dates", "unripe date" ]
+                              `plural`     FiCAL
+                              {- `others` [ "bisAr N" ] -},
+
+    -- ;; bAsuwr_1
+    -- bAswr   bAsuwr  N       hemorrhoids
+    -- bwAsyr  bawAsiyr        Ndip    hemorrhoids
+
+    FACUL                     `noun`       {- bAsuwr -}         [ "hemorrhoids" ]
+                              `plural`     FawACIL
+                              {- `others` [ "bawAsiyr Ndip" ] -} ]
+
+ |> "b s s" <| [
+
+    -- ;; bas~-u_1
+    -- bs      bas~    PV_V    crush;pulverize
+    -- bss     basas   PV_C    crush;pulverize
+    -- bs      bus~    IV_V    crush;pulverize
+    -- bss     bosus   IV_C    crush;pulverize
+
+    FaCL                      `verb`       {- bas~-u -}         [ "crush", "pulverize" ]
+                              `imperf`     FCuL
+                              {- `others` [ "basas PV_C", "buss IV_V", "bsus IV_C" ] -},
+
+    -- ;; bas~ap_1
+    -- bs      bas~    Napdu   cat
+    -- bsAs    bisAs   N       cats
+
+    FaCL |< aT                `noun`       {- bas~ap -}         [ "cat", "cats" ]
+                              `plural`     FiCAL
+                              {- `others` [ "bisAs N" ] -} ]
+
+ |> "b s t" <| [
+
+    -- ;; busotAn_1
+    -- bstAn   busotAn Ndu     garden
+    -- bsAtyn  basAtiyn        Ndip    gardens
+
+    FuCLAn                    `noun`       {- busotAn -}        [ "garden", "gardens" ] ]
+
+ |> "b s t n" <| [
+
+    -- ;; busotAn_1
+    -- bstAn   busotAn Ndu     garden
+    -- bsAtyn  basAtiyn        Ndip    gardens
+
+    KuRDAS                    `noun`       {- busotAn -}        [ "garden", "gardens" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "basAtiyn Ndip" ] -},
+
+    -- ;; basotanap_1
+    -- bstn    basotan Nap     gardening
+
+    KaRDaS |< aT              `noun`       {- basotanap -}      [ "gardening" ],
+
+    -- ;; bisotuwn_1
+    -- bstwn   bisotuwn        NduAt   piston
+    -- bstn    bisotan NduAt   piston
+    -- bsAtn   basAtin Ndip    pistons
+
+    KiRDUS                    `noun`       {- bisotuwn -}       [ "piston", "pistons" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "basAtin Ndip" ] -} ]
+
+ |> "b s t r" <| [
+
+    -- ;; basotar_1
+    -- bstr    basotar PV      pasteurize
+    -- bstr    basotir IV_yu   pasteurize
+
+    KaRDaS                    `verb`       {- basotar -}        [ "pasteurize" ]
+                              {- `others` [ "bastir IV_yu" ] -},
+
+    -- ;; tabasotar_1
+    -- tbstr   tabasotar       PV_intr be pasteurized
+    -- tbstr   tabasotar       IV_intr be pasteurized
+
+    TaKaRDaS                  `verb`       {- tabasotar -}      [ "be pasteurized" ],
+
+    -- ;; basotarap_1
+    -- bstr    basotar Nap     pasteurization
+
+    KaRDaS |< aT              `noun`       {- basotarap -}      [ "pasteurization" ],
+
+    -- ;; mubasotar_1
+    -- mbstr   mubasotar       Nall    pasteurized
+
+    MuKaRDaS                  `noun`       {- mubasotar -}      [ "pasteurized" ] ]
+
+ |> "b t `" <| [
+
+    -- ;; >abotaE_1
+    -- >btE    >abotaE Nel     altogether;entire
+    -- AbtE    >abotaE Nel     altogether;entire
+
+    HaFCaL                    `noun`       {- OabotaE -}        [ "altogether", "entire" ],
+
+    -- ;; bAtiE_1
+    -- bAtE    bAtiE   Nall    strong;entire
+
+    FACiL                     `noun`       {- bAtiE -}          [ "strong", "entire" ] ]
+
+ |> "b t b" <| [
+
+    -- ;; buwtiy_1
+    -- bwty    buwtiy  Nprop   Petit
+
+    FUCiy                     `noun`       {- buwtiy -}         [ "Petit" ] ]
+
+ |> "b t k" <| [
+
+    -- ;; bat~ak_1
+    -- btk     bat~ak  PV      sever;cut off
+    -- btk     bat~ik  IV_yu   sever;cut off
+    -- btk     bat~ak  IV_Pass_yu      be severed;be cut off
+
+    FaCCaL                    `verb`       {- bat~ak -}         [ "sever", "cut off", "be severed", "be cut off" ]
+                              {- `others` [ "battik IV_yu" ] -},
+
+    -- ;; tabotiyk_1
+    -- tbtyk   tabotiyk        N/At    severing;cutting off
+
+    TaFCIL                    `noun`       {- tabotiyk -}       [ "severing", "cutting off" ] ]
+
+ |> "b t l" <| [
+
+    -- ;; bAtl_1
+    -- bAtl    bAtl    Nprop   Patel;Batil ??
+
+    FACL                      `noun`       {- bAtl -}           [ "Patel", "Batil ??" ],
+
+    -- ;; batal-iu_1
+    -- btl     batal   PV      sever;finalize
+    -- btl     botil   IV      sever;finalize
+    -- btl     botul   IV      sever;finalize
+
+    FaCaL                     `verb`       {- batal-iu -}       [ "sever", "finalize" ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL
+                              {- `others` [ "btil IV", "btul IV" ] -},
+
+    -- ;; bat~al_1
+    -- btl     bat~al  PV      sever;finalize
+    -- btl     bat~il  IV_yu   sever;finalize
+    -- btl     bat~al  IV_Pass_yu      be severed;be finalized
+
+    FaCCaL                    `verb`       {- bat~al -}         [ "sever", "finalize", "be severed", "be finalized" ]
+                              {- `others` [ "battil IV_yu" ] -},
+
+    -- ;; bat~al_2
+    -- btl     bat~al  PV_intr be chaste;be pious
+    -- btl     bat~il  IV_intr_yu      be chaste;be pious
+
+    FaCCaL                    `verb`       {- bat~al -}         [ "be chaste", "be pious" ]
+                              {- `others` [ "battil IV_intr_yu" ] -},
+
+    -- ;; tabat~al_1
+    -- tbtl    tabat~al        PV_intr be chaste;be pious
+    -- tbtl    tabat~al        IV_intr be chaste;be pious
+
+    TaFaCCaL                  `verb`       {- tabat~al -}       [ "be chaste", "be pious" ],
+
+    -- ;; {inobatal_1
+    -- <nbtl   {inobatal       PV_intr be severed;be finalized
+    -- Anbtl   {inobatal       PV_intr be severed;be finalized
+    -- nbtl    nobatil IV_intr be severed;be finalized
+
+    InFaCaL                   `verb`       {- {inobatal -}      [ "be severed", "be finalized" ]
+                              {- `others` [ "nbatil IV_intr" ] -},
+
+    -- ;; batuwl_1
+    -- btwl    batuwl  N       virgin
+
+    FaCUL                     `noun`       {- batuwl -}         [ "virgin" ],
+
+    -- ;; batuwliy~_1
+    -- btwly   batuwliy~       Nall    virgin;virginal     [[batuwliy~/ADJ]]
+
+    FaCUL |< Iy               `adj`        {- batuwliy~ -}      [ "virgin", "virginal" ],
+
+    -- ;; batuwliy~ap_1
+    -- btwly   batuwliy~       Nap     virginity     [[batuwliy~/NOUN]]
+
+    FaCUL |< Iy |< aT         `noun`       {- batuwliy~ap -}    [ "virginity" ],
+
+    -- ;; mutabat~il_1
+    -- mtbtl   mutabat~il      Nall    ascetic;pious
+
+    MutaFaCCiL                `noun`       {- mutabat~il -}     [ "ascetic", "pious" ],
+
+    -- ;; batolapF_1
+    -- btlp    batolapF        FW-Wa   definitively;decisively    [[batolapF/ADV]]
+
+    FaCL |< aT |< aN          `noun`       {- batolapF -}       [ "definitively", "decisively" ],
+
+    -- ;; batalap_1
+    -- btl     batal   NapAt   petal
+
+    FaCaL |< aT               `noun`       {- batalap -}        [ "petal" ],
+
+    -- ;; {ibotal~_1
+    -- <btl    {ibotal~        PV_V_intr       be wet;be humid
+    -- Abtl    {ibotal~        PV_V_intr       be wet;be humid
+    -- <btll   {ibotalal       PV_C_intr       be wet;be humid
+    -- Abtll   {ibotalal       PV_C_intr       be wet;be humid
+    -- btl     botal~  IV_V_intr       be wet;be humid
+    -- btll    botalil IV_C_intr       be wet;be humid
+
+    IFCaLL                    `verb`       {- {ibotal~ -}       [ "be wet", "be humid" ]
+                              {- `others` [ "btall IV_V_intr" ] -},
+
+    -- ;; mubotal~_1
+    -- mbtl    mubotal~        Nall    wet;drenched
+
+    MuFCaLL                   `noun`       {- mubotal~ -}       [ "wet", "drenched" ] ]
+
+ |> "b t r" <| [
+
+    -- ;; batar-u_1
+    -- btr     batar   PV      amputate;mutilate
+    -- btr     botur   IV      amputate;mutilate
+
+    FaCaL                     `verb`       {- batar-u -}        [ "amputate", "mutilate" ]
+                              `imperf`     FCuL
+                              {- `others` [ "btur IV" ] -},
+
+    -- ;; {inobatar_1
+    -- <nbtr   {inobatar       PV_intr be amputated;be mutilated
+    -- Anbtr   {inobatar       PV_intr be amputated;be mutilated
+    -- nbtr    nobatir IV_intr be amputated;be mutilated
+
+    InFaCaL                   `verb`       {- {inobatar -}      [ "be amputated", "be mutilated" ]
+                              {- `others` [ "nbatir IV_intr" ] -},
+
+    -- ;; bator_1
+    -- btr     bator   N       amputation;severance
+
+    FaCL                      `noun`       {- bator -}          [ "amputation", "severance" ],
+
+    -- ;; >abotar_1
+    -- >btr    >abotar Nel     amputee;defective
+    -- Abtr    >abotar Nel     amputee;defective
+    -- btrA'   batorA' N0_Nh   amputee;defective
+    -- btrA&   batorA& Nh      amputee;defective
+    -- btrA}   batorA} Nhy     amputee;defective
+    -- btr     butor   N       amputees;defective
+
+    HaFCaL                    `noun`       {- Oabotar -}        [ "amputee", "defective", "amputees" ]
+                              `plural`     FaCLA'
+                              `plural`     FuCL
+                              {- `others` [ "batrA' Nh N0_Nh Nhy", "butr N" ] -},
+
+    -- ;; bat~Ar_1
+    -- btAr    bat~Ar  Nall    sharp;cutting
+
+    FaCCAL                    `noun`       {- bat~Ar -}         [ "sharp", "cutting" ],
+
+    -- ;; bAtir_1
+    -- bAtr    bAtir   Nall    sharp;cutting
+    -- bwAtr   bawAtir Ndip    sharp;cutting
+
+    FACiL                     `noun`       {- bAtir -}          [ "sharp", "cutting" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawAtir Ndip" ] -},
+
+    -- ;; mabotuwr_1
+    -- mbtwr   mabotuwr        Nall    mutilated;incomplete
+
+    MaFCUL                    `noun`       {- mabotuwr -}       [ "mutilated", "incomplete" ],
+
+    -- ;; biytAr_1
+    -- bytAr   biytAr  Nprop   Bitar;Betar
+
+    FICAL                     `noun`       {- biytAr -}         [ "Bitar", "Betar" ] ]
+
+ |> "b t r '" <| [
+
+    -- ;; bitorA'_1
+    -- btrA'   bitorA' Ndip    Petra
+    -- btrA'   batorA' Ndip    Petra
+
+    KiRDAS                    `noun`       {- bitorA' -}        [ "Petra" ]
+                              `plural`     KaRDAS
+                              {- `others` [ "batrA' Ndip" ] -} ]
+
+ |> "b t r k" <| [
+
+    -- ;; batorak_1
+    -- btrk    batorak N       patriarch
+
+    KaRDaS                    `noun`       {- batorak -}        [ "patriarch" ] ]
+
+ |> "b t r l" <| [
+
+    -- ;; bitoruwl_1
+    -- btrwl   bitoruwl        N       petroleum
+
+    KiRDUS                    `noun`       {- bitoruwl -}       [ "petroleum" ],
+
+    -- ;; bitoruwliy~_1
+    -- btrwly  bitoruwliy~     Nall    petroleum     [[bitoruwliy~/ADJ]]
+
+    KiRDUS |< Iy              `adj`        {- bitoruwliy~ -}    [ "petroleum" ] ]
+
+ |> "b t t" <| [
+
+    -- ;; bat~-ui_1
+    -- bt      bat~    PV_V    determine;complete
+    -- btt     batat   PV_Ct   determine;complete
+    -- bt      but~    IV_V    determine;complete
+    -- btt     botut   IV_C    determine;complete
+    -- bt      bit~    IV_V    determine;complete
+    -- btt     botit   IV_C    determine;complete
+
+    FaCL                      `verb`       {- bat~-ui -}        [ "determine", "complete" ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL
+                              {- `others` [ "bitt IV_V", "butt IV_V", "batat PV_Ct", "btut IV_C", "btit IV_C" ] -},
+
+    -- ;; bat~at_1
+    -- btt     bat~at  PV-t    accomplish;adjudicate
+    -- btt     bat~it  IV_yu   accomplish;adjudicate
+    -- btt     bat~at  IV_Pass_yu      be accomplished;be adjudicated
+
+    FaCCaL                    `verb`       {- bat~at -}         [ "accomplish", "adjudicate", "be accomplished", "be adjudicated" ]
+                              {- `others` [ "battit IV_yu" ] -},
+
+    -- ;; {inobat~_1
+    -- <nbt    {inobat~        PV_V_intr       be decided;be ruled
+    -- Anbt    {inobat~        PV_V_intr       be decided;be ruled
+    -- <nbtt   {inobatat       PV_Ct_intr      be decided;be ruled
+    -- Anbtt   {inobatat       PV_Ct_intr      be decided;be ruled
+    -- nbt     nobat~  IV_V_intr       be decided;be ruled
+    -- nbtt    nobatit IV_C_intr       be decided;be ruled
+
+    InFaCL                    `verb`       {- {inobat~ -}       [ "be decided", "be ruled" ]
+                              {- `others` [ "nbatit IV_C_intr", "nbatt IV_V_intr", "inbatat PV_Ct_intr" ] -},
+
+    -- ;; bat~_1
+    -- bt      bat~    N       settlement;decision
+
+    FaCL                      `noun`       {- bat~ -}           [ "settlement", "decision" ],
+
+    -- ;; bat~AF_1
+    -- bt      bat~    NF      definitely;once and for all     [[bat~/ADV]]
+
+    FaCL |< aN                `noun`       {- bat~AF -}         [ "definitely", "once and for all" ]
+                              `plural`     FaCL
+                              {- `others` [ "batt NF" ] -},
+
+    -- ;; bat~ap_1
+    -- bt      bat~    NapAt   adjudication;final decision
+
+    FaCL |< aT                `noun`       {- bat~ap -}         [ "adjudication", "final decision" ],
+
+    -- ;; bat~apF_1
+    -- btp     bat~apF FW-Wa   absolutely    [[bat~apF/ADV]]
+
+    FaCL |< aT |< aN          `noun`       {- bat~apF -}        [ "absolutely" ],
+
+    -- ;; bat~iy~_1
+    -- bty     bat~iy~ Nall    definite     [[bat~iy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- bat~iy~ -}        [ "definite" ],
+
+    -- ;; bit~iy~ap_1
+    -- bty     bit~iy~ NapAt   barrel;tub     [[bit~iy~/NOUN]]
+    -- btAty   batAtiy N0_Nh   barrels;tubs
+    -- btAt    batAt   NK      barrels;tubs
+
+    FiCL |< Iy |< aT          `noun`       {- bit~iy~ap -}      [ "barrel", "tub", "barrels", "tubs" ]
+                              `plural`     FaCAL
+                              {- `others` [ "batAt NK" ] -},
+
+    -- ;; tabotiyt_1
+    -- tbtyt   tabotiyt        NduAt   adjudication;award
+
+    TaFCIL                    `noun`       {- tabotiyt -}       [ "adjudication", "award" ],
+
+    -- ;; bAt~_1
+    -- bAt     bAt~    Nall    categorical;definitive
+
+    FACL                      `noun`       {- bAt~ -}           [ "categorical", "definitive" ],
+
+    -- ;; mabotuwt_1
+    -- mbtwt   mabotuwt        Nall    severed;terminated
+
+    MaFCUL                    `noun`       {- mabotuwt -}       [ "severed", "terminated" ] ]
+
+ |> "b t z" <| [
+
+    -- ;; {ibotaz~_1
+    -- <btz    {ibotaz~        PV_V    embezzle;extort
+    -- Abtz    {ibotaz~        PV_V    embezzle;extort
+    -- <btzz   {ibotazaz       PV_C    embezzle;extort
+    -- Abtzz   {ibotazaz       PV_C    embezzle;extort
+    -- btz     botaz~  IV_V    embezzle;extort
+    -- btzz    botaziz IV_C    embezzle;extort
+
+    IFCaLL                    `verb`       {- {ibotaz~ -}       [ "embezzle", "extort" ]
+                              {- `others` [ "btazz IV_V" ] -},
+
+    -- ;; {ibotizAz_1
+    -- <btzAz  {ibotizAz       NduAt   embezzlement;extortion
+    -- AbtzAz  {ibotizAz       NduAt   embezzlement;extortion
+
+    IFCiLAL                   `noun`       {- {ibotizAz -}      [ "embezzlement", "extortion" ] ]
+
+ |> "b w '" <| [
+
+    -- ;; baw~a>_1
+    -- bw>     baw~a>  PV      accommodate;bring
+    -- bw&     baw~a&  PV_w    accommodate;bring
+    -- bw'     baw~i'  IV_yu   accommodate;bring
+    -- bw}     baw~i}  IV_yu   accommodate;bring
+
+    FaCCaL                    `verb`       {- baw~aO -}         [ "accommodate", "bring" ]
+                              {- `others` [ "bawwi' IV_yu" ] -},
+
+    -- ;; tabaw~a>_1
+    -- tbw>    tabaw~a>        PV      hold;occupy;accede (throne)
+    -- tbw&    tabaw~a&        PV_w    hold;occupy;accede (throne)
+    -- tbw>    tabaw~a>        IV      hold;occupy;accede (throne)
+    -- tbw|    tabaw~a|        IV-|    hold;occupy;accede (throne)
+    -- tbw&    tabaw~a&        IV_wn   hold;occupy;accede (throne)
+    -- tbw}    tabaw~a}        IV_yn   hold;occupy;accede (throne)
+
+    TaFaCCaL                  `verb`       {- tabaw~aO -}       [ "hold", "occupy", "accede (throne)" ],
+
+    -- ;; tabaw~u'_1
+    -- tbw'    tabaw~u'        NduAt   accession
+    -- tbw&    tabaw~u&        Nh      accession
+    -- tbw}    tabaw~u}        Nhy     accession
+
+    TaFaCCuL                  `noun`       {- tabaw~u' -}       [ "accession" ],
+
+    -- ;; mutabaw~i}_1
+    -- mtbw}   mutabaw~i}      Nall    holding;occupying;acceding (throne)
+
+    MutaFaCCiL                `noun`       {- mutabaw~i} -}     [ "holding", "occupying", "acceding (throne)" ] ]
+
+ |> "b w .d" <| [
+
+    -- ;; buwayoD_1
+    -- bwyD    buwayoD Ndu     ovule;ovum;small egg
+    -- byyD    buyayoD Ndu     ovule;ovum;small egg
+    -- bwyD    buwayoD NapAt   ovule;ovum;small egg
+    -- byyD    buyayoD NapAt   ovule;ovum;small egg
+
+    FuCayL                    `noun`       {- buwayoD -}        [ "ovule", "ovum", "small egg" ] ]
+
+ |> "b w .g" <| [
+
+    -- ;; baw~ag_1
+    -- bwg     baw~ag  PV      surprise
+    -- bwg     baw~ig  IV_yu   surprise
+
+    FaCCaL                    `verb`       {- baw~ag -}         [ "surprise" ]
+                              {- `others` [ "bawwi.g IV_yu" ] -} ]
+
+ |> "b w .g d" <| [
+
+    -- ;; buwgAdap_1
+    -- bwgAd   buwgAd  Nap     potash;lye
+    -- bwgAD   buwgAD  Nap     potash;lye
+
+    KuRDAS |< aT              `noun`       {- buwgAdap -}       [ "potash", "lye" ] ]
+
+ |> "b w .g z" <| [
+
+    -- ;; buwgAz_1
+    -- bwgAz   buwgAz  N       strait;harbor
+    -- bwAgyz  bawAgiyz        Ndip    straits;harbors
+
+    KuRDAS                    `noun`       {- buwgAz -}         [ "strait", "harbor", "straits", "harbors" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "bawA.giyz Ndip" ] -} ]
+
+ |> "b w .h" <| [
+
+    -- ;; bAH-u_1
+    -- bAH     bAH     PV_V    disclose;divulge
+    -- bH      buH     PV_C    disclose;divulge
+    -- bwH     buwH    IV_V    disclose;divulge
+    -- bH      buH     IV_C    disclose;divulge
+
+    FAL                       `verb`       {- bAH-u -}          [ "disclose", "divulge" ]
+                              `imperf`     FCuL
+                              {- `others` [ "buw.h IV_V" ] -},
+
+    -- ;; >abAH_1
+    -- >bAH    >abAH   PV_V    reveal;allow
+    -- AbAH    >abAH   PV_V    reveal;allow
+    -- >bH     >abaH   PV_C    reveal;allow
+    -- AbH     >abaH   PV_C    reveal;allow
+    -- byH     biyH    IV_V_yu reveal;allow
+    -- bH      biH     IV_C_yu reveal;allow
+    -- bAH     bAH     IV_V_Pass_yu    be revealed;be allowed
+    -- bH      baH     IV_C_Pass_yu    be revealed;be allowed
+
+    HaFAL                     `verb`       {- OabAH -}          [ "reveal", "allow", "be revealed", "be allowed" ]
+                              {- `others` [ "biy.h IV_V_yu", "bA.h IV_V_Pass_yu" ] -},
+
+    -- ;; {isotabAH_1
+    -- <stbAH  {isotabAH       PV_V    allow;seize
+    -- AstbAH  {isotabAH       PV_V    allow;seize
+    -- <stbH   {isotabaH       PV_C    allow;seize
+    -- AstbH   {isotabaH       PV_C    allow;seize
+    -- stbyH   sotabiyH        IV_V    allow;seize
+    -- stbH    sotabiH IV_C    allow;seize
+
+    IstaFAL                   `verb`       {- {isotabAH -}      [ "allow", "seize" ],
+
+    -- ;; bawoH_1
+    -- bwH     bawoH   N       divulgence;confession
+
+    FaCL                      `noun`       {- bawoH -}          [ "divulgence", "confession" ],
+
+    -- ;; buwH_1
+    -- bwH     buwH    N       courtyard;hall
+
+    FuCL                      `noun`       {- buwH -}           [ "courtyard", "hall" ],
+
+    -- ;; bAHap_1
+    -- bAH     bAH     NapAt   courtyard;plaza
+
+    FAL |< aT                 `noun`       {- bAHap -}          [ "courtyard", "plaza" ],
+
+    -- ;; <ibAHap_1
+    -- <bAH    <ibAH   NapAt   permission;licentiousness
+    -- AbAH    <ibAH   NapAt   permission;licentiousness
+
+    HiFAL |< aT               `noun`       {- IibAHap -}        [ "permission", "licentiousness" ],
+
+    -- ;; <ibAHiy~_1
+    -- <bAHy   <ibAHiy~        Nall    licentious     [[<ibAHiy~/ADJ]]
+    -- AbAHy   <ibAHiy~        Nall    licentious     [[<ibAHiy~/ADJ]]
+
+    HiFAL |< Iy               `adj`        {- IibAHiy~ -}       [ "licentious" ],
+
+    -- ;; <ibAHiy~ap_1
+    -- <bAHy   <ibAHiy~        Nap     freethinking;anarchism     [[<ibAHiy~/NOUN]]
+    -- AbAHy   <ibAHiy~        Nap     freethinking;anarchism     [[<ibAHiy~/NOUN]]
+
+    HiFAL |< Iy |< aT         `noun`       {- IibAHiy~ap -}     [ "freethinking", "anarchism" ],
+
+    -- ;; {isotibAHap_1
+    -- <stbAH  {isotibAH       NapAt   appropriation;seizure
+    -- AstbAH  {isotibAH       NapAt   appropriation;seizure
+
+    IstiFAL |< aT             `noun`       {- {isotibAHap -}    [ "appropriation", "seizure" ],
+
+    -- ;; mubAH_1
+    -- mbAH    mubAH   Nall    permissible
+
+    MuFAL                     `noun`       {- mubAH -}          [ "permissible" ] ]
+
+ |> "b w .s" <| [
+
+    -- ;; buwS_1
+    -- bwS     buwS    N       reed;fabric
+
+    FuCL                      `noun`       {- buwS -}           [ "reed", "fabric" ],
+
+    -- ;; buwSap_1
+    -- bwS     buwS    Napdu   inch
+    -- bwS     buwS    NAt     inches
+
+    FuCL |< aT                `noun`       {- buwSap -}         [ "inch", "inches" ]
+                              `plural`     FUL |< At
+                              `plural`     FuCL |< At
+                              {- `others` [ "buw.s NAt" ] -} ]
+
+ |> "b w .s l" <| [
+
+    -- ;; bawoSalap_1
+    -- bwSl    bawoSal NapAt   compass
+
+    KaRDaS |< aT              `noun`       {- bawoSalap -}      [ "compass" ] ]
+
+ |> "b w .t" <| [
+
+    -- ;; buwAT_1
+    -- bwAT    buwAT   NduAt   can;box (boite)
+
+    FuCAL                     `noun`       {- buwAT -}          [ "can", "box (boite)" ],
+
+    -- ;; buwTap_1
+    -- bwT     buwT    Nap     crucible;melting pot
+
+    FuCL |< aT                `noun`       {- buwTap -}         [ "crucible", "melting pot" ] ]
+
+ |> "b w .z" <| [
+
+    -- ;; buwZap_1
+    -- bwZ     buwZ    Nap     ice-cream (Levant)
+
+    FuCL |< aT                `noun`       {- buwZap -}         [ "ice-cream (Levant)" ],
+
+    -- ;; buwZap_2
+    -- bwZ     buwZ    Nap     beer (Egy.)
+
+    FuCL |< aT                `noun`       {- buwZap -}         [ "beer (Egy.)" ] ]
+
+ |> "b w ^g h" <| [
+
+    -- ;; buwjiyh_1
+    -- bwjyh   buwjiyh N/At    spark plug
+
+    KuRDIS                    `noun`       {- buwjiyh -}        [ "spark plug" ] ]
+
+ |> "b w ^s" <| [
+
+    -- ;; buw$_1
+    -- bw$     buw$    Nprop   Bush
+
+    FuCL                      `noun`       {- buw$ -}           [ "Bush" ],
+
+    -- ;; buw$iy~_1
+    -- bw$y    buw$iy~ N0      Boushi
+
+    FuCL |< Iy                `adj`        {- buw$iy~ -}        [ "Boushi" ],
+
+    -- ;; bA$-u_1
+    -- bA$     bA$     PV_V_intr       be boisterous
+    -- b$      bu$     PV_C_intr       be boisterous
+    -- bw$     buw$    IV_V_intr       be boisterous
+    -- b$      bu$     IV_C_intr       be boisterous
+
+    FAL                       `verb`       {- bA$-u -}          [ "be boisterous" ]
+                              `imperf`     FCuL
+                              {- `others` [ "buw^s IV_V_intr" ] -},
+
+    -- ;; baw~a$_1
+    -- bw$     baw~a$  PV_intr be boisterous
+    -- bw$     baw~i$  IV_intr_yu      be boisterous
+
+    FaCCaL                    `verb`       {- baw~a$ -}         [ "be boisterous" ]
+                              {- `others` [ "bawwi^s IV_intr_yu" ] -},
+
+    -- ;; bawo$_1
+    -- bw$     bawo$   N       mob;rabble
+    -- >bwA$   >abowA$ N       mobs;rabble
+    -- AbwA$   >abowA$ N       mobs;rabble
+
+    FaCL                      `noun`       {- bawo$ -}          [ "mob", "rabble", "mobs" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abwA^s N" ] -} ]
+
+ |> "b w _d" <| [
+
+    -- ;; buw*iy~_1
+    -- bw*y    buw*iy~ Nall    Buddhist     [[buw*iy~/NOUN]]
+    -- bw*y    buw*iy~ Nall    Buddhist     [[buw*iy~/ADJ]]
+    -- bw*y    buw*iy~ Nap     Buddhism     [[buw*iy~/NOUN]]
+
+    FuCL |< Iy                `adj`        {- buw*iy~ -}        [ "Buddhist", "Buddhism" ],
+
+    -- ;; buw*iy~_1
+    -- bw*y    buw*iy~ Nall    Buddhist     [[buw*iy~/NOUN]]
+    -- bw*y    buw*iy~ Nall    Buddhist     [[buw*iy~/ADJ]]
+    -- bw*y    buw*iy~ Nap     Buddhism     [[buw*iy~/NOUN]]
+
+    FUL |< Iy                 `adj`        {- buw*iy~ -}        [ "Buddhist", "Buddhism" ] ]
+
+ |> "b w _h" <| [
+
+    -- ;; bAx-u_1
+    -- bAx     bAx     PV_V    subside;spoil
+    -- bx      bux     PV_C    subside;spoil
+    -- bwx     buwx    IV_V    subside;spoil
+    -- bx      bux     IV_C    subside;spoil
+
+    FAL                       `verb`       {- bAx-u -}          [ "subside", "spoil" ]
+                              `imperf`     FCuL
+                              {- `others` [ "buw_h IV_V" ] -},
+
+    -- ;; baw~ax_1
+    -- bwx     baw~ax  PV      spoil;ruin
+    -- bwx     baw~ix  IV_yu   spoil;ruin
+
+    FaCCaL                    `verb`       {- baw~ax -}         [ "spoil", "ruin" ]
+                              {- `others` [ "bawwi_h IV_yu" ] -},
+
+    -- ;; buwAx_1
+    -- bwAx    buwAx   N       evaporation;steam
+
+    FuCAL                     `noun`       {- buwAx -}          [ "evaporation", "steam" ],
+
+    -- ;; bA}ix_1
+    -- bA}x    bA}ix   Nall    spoiled;insipid
+
+    FA'iL                     `noun`       {- bA}ix -}          [ "spoiled", "insipid" ] ]
+
+ |> "b w _h m" <| [
+
+    -- ;; buwxuwm_1
+    -- bwxwm   buwxuwm Nprop   Bochum
+
+    KuRDUS                    `noun`       {- buwxuwm -}        [ "Bochum" ] ]
+
+ |> "b w `" <| [
+
+    -- ;; buwE_1
+    -- bwE     buwE    N       metatarsal
+
+    FuCL                      `noun`       {- buwE -}           [ "metatarsal" ],
+
+    -- ;; bAE_1
+    -- bAE     bAE     Ndu     fathom (3 meters)
+    -- >bwAE   >abowAE Ndip    fathoms (3 meters ea.)
+    -- AbwAE   >abowAE Ndip    fathoms (3 meters ea.)
+
+    FAL                       `noun`       {- bAE -}            [ "fathom (3 meters)", "fathoms (3 meters ea.)" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abwA` Ndip" ] -} ]
+
+ |> "b w b" <| [
+
+    -- ;; baw~ab_1
+    -- bwb     baw~ab  PV      classify;subdivide
+    -- bwb     baw~ib  IV_yu   classify;subdivide
+
+    FaCCaL                    `verb`       {- baw~ab -}         [ "classify", "subdivide" ]
+                              {- `others` [ "bawwib IV_yu" ] -},
+
+    -- ;; bAb_1
+    -- bAb     bAb     Ndu     door;gate
+    -- bybAn   biybAn  N       doors;gates
+    -- >bwAb   >abowAb N       doors;gates
+    -- AbwAb   >abowAb N       doors;gates
+
+    FAL                       `noun`       {- bAb -}            [ "door", "gate", "doors", "gates" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abwAb N" ] -},
+
+    -- ;; bAb_2
+    -- bAb     bAb     Ndu     category;rubric
+    -- >bwAb   >abowAb N       categories;rubrics
+    -- AbwAb   >abowAb N       categories;rubrics
+
+    FAL                       `noun`       {- bAb -}            [ "category", "rubric", "categories", "rubrics" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abwAb N" ] -},
+
+    -- ;; baw~Ab_1
+    -- bwAb    baw~Ab  Nall    doorman;gatekeeper;concierge
+
+    FaCCAL                    `noun`       {- baw~Ab -}         [ "doorman", "gatekeeper", "concierge" ],
+
+    -- ;; biwAbap_1
+    -- bwAb    biwAb   Nap     gatekeeper
+
+    FiCAL |< aT               `noun`       {- biwAbap -}        [ "gatekeeper" ],
+
+    -- ;; baw~Abap_1
+    -- bwAb    baw~Ab  NapAt   gate;portal
+
+    FaCCAL |< aT              `noun`       {- baw~Abap -}       [ "gate", "portal" ],
+
+    -- ;; tabowiyb_1
+    -- tbwyb   tabowiyb        NduAt   classification;arrangement
+
+    TaFCIL                    `noun`       {- tabowiyb -}       [ "classification", "arrangement" ],
+
+    -- ;; mubaw~ab_1
+    -- mbwb    mubaw~ab        Nall    classified;arranged
+
+    MuFaCCaL                  `noun`       {- mubaw~ab -}       [ "classified", "arranged" ],
+
+    -- ;; buwb_1
+    -- bwb     buwb    N0      pop
+
+    FuCL                      `noun`       {- buwb -}           [ "pop" ] ]
+
+ |> "b w b n" <| [
+
+    -- ;; buwbiynap_1
+    -- bwbyn   buwbiyn Nap     spool;reel
+
+    KuRDIS |< aT              `noun`       {- buwbiynap -}      [ "spool", "reel" ] ]
+
+ |> "b w d q" <| [
+
+    -- ;; buwdaqap_1
+    -- bwdq    buwdaq  Nap     crucible;melting pot
+    -- bwAdq   bawAdiq Ndip    crucibles;melting pots
+
+    KuRDaS |< aT              `noun`       {- buwdaqap -}       [ "crucible", "melting pot", "crucibles", "melting pots" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "bawAdiq Ndip" ] -} ]
+
+ |> "b w d y" <| [
+
+    -- ;; bawAdiy_1
+    -- bwAdy   bawAdiy N0_Nh   nomads;Bedouins
+    -- bwAd    bawAd   NK      nomads;Bedouins
+
+    KaRADiS                   `noun`       {- bawAdiy -}        [ "nomads", "Bedouins" ] ]
+
+ |> "b w f h" <| [
+
+    -- ;; buwfiyh_1
+    -- bwfyh   buwfiyh N       buffet
+    -- bwfyh   buwfiyh NAt     buffets
+
+    KuRDIS                    `noun`       {- buwfiyh -}        [ "buffet", "buffets" ] ]
+
+ |> "b w f n" <| [
+
+    -- ;; buwfuwn_1
+    -- bwfwn   buwfuwn Nprop   Buffon
+
+    KuRDUS                    `noun`       {- buwfuwn -}        [ "Buffon" ] ]
+
+ |> "b w h m" <| [
+
+    -- ;; buwhiymiy~_1
+    -- bwhymy  buwhiymiy~      Nall    Bohemian     [[buwhiymiy~/NOUN]]
+    -- bwhymy  buwhiymiy~      Nall    Bohemian     [[buwhiymiy~/ADJ]]
+
+    KuRDIS |< Iy              `adj`        {- buwhiymiy~ -}     [ "Bohemian" ] ]
+
+ |> "b w k r" <| [
+
+    -- ;; buwkar_1
+    -- bwkr    buwkar  N       poker
+
+    KuRDaS                    `noun`       {- buwkar -}         [ "poker" ] ]
+
+ |> "b w l" <| [
+
+    -- ;; bAwil_1
+    -- bAwl    bAwil   Nprop   Powell
+
+    FACiL                     `noun`       {- bAwil -}          [ "Powell" ],
+
+    -- ;; buwl_1
+    -- bwl     buwl    Nprop   Paul
+
+    FuCL                      `noun`       {- buwl -}           [ "Paul" ],
+
+    -- ;; buwl_2
+    -- bwl     buwl    Nprop   Puhl
+
+    FuCL                      `noun`       {- buwl -}           [ "Puhl" ],
+
+    -- ;; buwl_3
+    -- bwl     buwl    N       postage stamp
+
+    FuCL                      `noun`       {- buwl -}           [ "postage stamp" ],
+
+    -- ;; bAl-u_1
+    -- bAl     bAl     PV_V    urinate
+    -- bl      bul     PV_C    urinate
+    -- bwl     buwl    IV_V    urinate
+    -- bl      bul     IV_C    urinate
+
+    FAL                       `verb`       {- bAl-u -}          [ "urinate" ]
+                              `imperf`     FCuL
+                              {- `others` [ "buwl IV_V" ] -},
+
+    -- ;; baw~al_1
+    -- bwl     baw~al  PV      urinate
+    -- bwl     baw~il  IV_yu   urinate
+
+    FaCCaL                    `verb`       {- baw~al -}         [ "urinate" ]
+                              {- `others` [ "bawwil IV_yu" ] -},
+
+    -- ;; >abAl_1
+    -- >bAl    >abAl   PV_V    make urinate;be diuretic
+    -- AbAl    >abAl   PV_V    make urinate;be diuretic
+    -- >bl     >abal   PV_C    make urinate;be diuretic
+    -- Abl     >abal   PV_C    make urinate;be diuretic
+    -- byl     biyl    IV_V_yu make urinate;be diuretic
+    -- bl      bil     IV_C_yu make urinate;be diuretic
+
+    HaFAL                     `verb`       {- OabAl -}          [ "make urinate", "be diuretic" ]
+                              {- `others` [ "biyl IV_V_yu" ] -},
+
+    -- ;; tabaw~al_1
+    -- tbwl    tabaw~al        PV      urinate
+    -- tbwl    tabaw~al        IV      urinate
+
+    TaFaCCaL                  `verb`       {- tabaw~al -}       [ "urinate" ],
+
+    -- ;; {isotabAl_1
+    -- <stbAl  {isotabAl       PV_V    make urinate
+    -- AstbAl  {isotabAl       PV_V    make urinate
+    -- <stbl   {isotabal       PV_C    make urinate
+    -- Astbl   {isotabal       PV_C    make urinate
+    -- stbyl   sotabiyl        IV_V    make urinate
+    -- stbl    sotabil IV_C    make urinate
+
+    IstaFAL                   `verb`       {- {isotabAl -}      [ "make urinate" ],
+
+    -- ;; bawol_1
+    -- bwl     bawol   N       urine
+    -- >bwAl   >abowAl N       urine
+    -- AbwAl   >abowAl N       urine
+
+    FaCL                      `noun`       {- bawol -}          [ "urine" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abwAl N" ] -},
+
+    -- ;; bawoliy~_1
+    -- bwly    bawoliy~        Nall    uric;urinary     [[bawoliy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- bawoliy~ -}       [ "uric", "urinary" ],
+
+    -- ;; biylap_1
+    -- byl     biyl    Nap     urine
+
+    FIL |< aT                 `noun`       {- biylap -}         [ "urine" ],
+
+    -- ;; baw~Alap_1
+    -- bwAl    baw~Al  Nap     pissoir
+
+    FaCCAL |< aT              `noun`       {- baw~Alap -}       [ "pissoir" ],
+
+    -- ;; mabowalap_1
+    -- mbwl    mabowal NapAt   urinal
+    -- mbAwl   mabAwil Ndip    urinals
+
+    MaFCaL |< aT              `noun`       {- mabowalap -}      [ "urinal", "urinals" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "mabAwil Ndip" ] -},
+
+    -- ;; mibowalap_1
+    -- mbwl    mibowal NapAt   bedpan
+
+    MiFCaL |< aT              `noun`       {- mibowalap -}      [ "bedpan" ] ]
+
+ |> "b w l .s" <| [
+
+    -- ;; buwliySap_1
+    -- bwlyS   buwliyS Nap     policy;insurance
+    -- bwAlS   bawAliS Ndip    policies;insurance
+
+    KuRDIS |< aT              `noun`       {- buwliySap -}      [ "policy", "insurance", "policies" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "bawAli.s Ndip" ] -} ]
+
+ |> "b w l d" <| [
+
+    -- ;; buwlAd_1
+    -- bwlAd   buwlAd  N       steel
+    -- bwlA*   buwlA*  N       steel
+
+    KuRDAS                    `noun`       {- buwlAd -}         [ "steel" ] ]
+
+ |> "b w l f" <| [
+
+    -- ;; buwliyfiy~_1
+    -- bwlyfy  buwliyfiy~      Nall    Bolivian     [[buwliyfiy~/NOUN]]
+    -- bwlyfy  buwliyfiy~      Nall    Bolivian     [[buwliyfiy~/ADJ]]
+
+    KuRDIS |< Iy              `adj`        {- buwliyfiy~ -}     [ "Bolivian" ] ]
+
+ |> "b w l q" <| [
+
+    -- ;; buwlAq_1
+    -- bwlAq   buwlAq  N       Bulaq
+
+    KuRDAS                    `noun`       {- buwlAq -}         [ "Bulaq" ] ]
+
+ |> "b w l s" <| [
+
+    -- ;; buwliys_1
+    -- bwlys   buwliys N       police
+
+    KuRDIS                    `noun`       {- buwliys -}        [ "police" ],
+
+    -- ;; buwliysap_1
+    -- bwlys   buwliys Nap     policy;insurance
+    -- bwAls   bawAlis Ndip    policies;insurance
+
+    KuRDIS |< aT              `noun`       {- buwliysap -}      [ "policy", "insurance", "policies" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "bawAlis Ndip" ] -},
+
+    -- ;; buwliysiy~_1
+    -- bwlysy  buwliysiy~      Nall    police;detective     [[buwliysiy~/ADJ]]
+
+    KuRDIS |< Iy              `adj`        {- buwliysiy~ -}     [ "police", "detective" ] ]
+
+ |> "b w l w" <| [
+
+    -- ;; buwluw_1
+    -- bwlw    buwluw  N       polo
+
+    KuRDuS                    `noun`       {- buwluw -}         [ "polo" ] ]
+
+ |> "b w m" <| [
+
+    -- ;; buwm_1
+    -- bwm     buwm    N       owl
+    -- bwm     buwm    NapAt   owl
+    -- >bwAm   >abowAm N       owls
+    -- AbwAm   >abowAm N       owls
+
+    FuCL                      `noun`       {- buwm -}           [ "owl", "owls" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abwAm N" ] -},
+
+    -- ;; buwm_1
+    -- bwm     buwm    N       owl
+    -- bwm     buwm    NapAt   owl
+    -- >bwAm   >abowAm N       owls
+    -- AbwAm   >abowAm N       owls
+
+    FUL                       `noun`       {- buwm -}           [ "owl", "owls" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abwAm N" ] -} ]
+
+ |> "b w n" <| [
+
+    -- ;; bawn_1
+    -- bwn     bawn    N       interval;distance
+    -- bwn     buwn    N       interval;distance
+
+    FaCL                      `noun`       {- bawn -}           [ "interval", "distance" ]
+                              `plural`     FUL
+                              `plural`     FuCL
+                              {- `others` [ "buwn N" ] -} ]
+
+ |> "b w q" <| [
+
+    -- ;; baw~aq_1
+    -- bwq     baw~aq  PV      trumpet;blare
+    -- bwq     baw~iq  IV_yu   trumpet;blare
+
+    FaCCaL                    `verb`       {- baw~aq -}         [ "trumpet", "blare" ]
+                              {- `others` [ "bawwiq IV_yu" ] -},
+
+    -- ;; buwq_1
+    -- bwq     buwq    N/At    trumpet;horn
+    -- >bwAq   >abowAq N       trumpets;horns
+    -- AbwAq   >abowAq N       trumpets;horns
+
+    FuCL                      `noun`       {- buwq -}           [ "trumpet", "horn", "trumpets", "horns" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abwAq N" ] -},
+
+    -- ;; buwq_2
+    -- bwq     buwq    N/At    funnel
+    -- >bwAq   >abowAq N       funnels
+    -- AbwAq   >abowAq N       funnels
+
+    FuCL                      `noun`       {- buwq -}           [ "funnel", "funnels" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abwAq N" ] -},
+
+    -- ;; baw~Aq_1
+    -- bwAq    baw~Aq  Nall    trumpeter
+
+    FaCCAL                    `noun`       {- baw~Aq -}         [ "trumpeter" ],
+
+    -- ;; bAqap_1
+    -- bAq     bAq     Nap     bouquet
+
+    FAL |< aT                 `noun`       {- bAqap -}          [ "bouquet" ],
+
+    -- ;; bA}iqap_1
+    -- bA}q    bA}iq   Nap     misfortune
+    -- bwA}q   bawA}iq Ndip    misfortunes
+
+    FA'iL |< aT               `noun`       {- bA}iqap -}        [ "misfortune", "misfortunes" ]
+                              `plural`     FawA'iL
+                              {- `others` [ "bawA'iq Ndip" ] -} ]
+
+ |> "b w q l" <| [
+
+    -- ;; buwqAl_1
+    -- bwqAl   buwqAl  Ndu     mug
+    -- bwqAl   buwqAl  NapAt   mug
+    -- bwAqyl  bawAqiyl        Ndip    mugs
+
+    KuRDAS                    `noun`       {- buwqAl -}         [ "mug", "mugs" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "bawAqiyl Ndip" ] -} ]
+
+ |> "b w q y" <| [
+
+    -- ;; bawAqiy_1
+    -- bwAqy   bawAqiy N0      Bawaqi
+
+    KaRADiS                   `noun`       {- bawAqiy -}        [ "Bawaqi" ] ]
+
+ |> "b w r" <| [
+
+    -- ;; buwayorap_1
+    -- bwyrp   buwayorap       N0      Bouaira
+    -- b&yrp   bu&ayorap       N0      Bouaira
+
+    FuCayL |< aT              `noun`       {- buwayorap -}      [ "Bouaira" ],
+
+    -- ;; bAwir_1
+    -- bAwr    bAwir   Nprop   Bauer
+
+    FACiL                     `noun`       {- bAwir -}          [ "Bauer" ],
+
+    -- ;; bAr-u_1
+    -- bAr     bAr     PV_V_intr       perish;be futile
+    -- br      bur     PV_C_intr       perish;be futile
+    -- bwr     buwr    IV_V_intr       perish;be futile
+    -- br      bur     IV_C_intr       perish;be futile
+
+    FAL                       `verb`       {- bAr-u -}          [ "perish", "be futile" ]
+                              `imperf`     FCuL
+                              {- `others` [ "buwr IV_V_intr" ] -},
+
+    -- ;; baw~ar_1
+    -- bwr     baw~ar  PV      make useless
+    -- bwr     baw~ir  IV_yu   make useless
+
+    FaCCaL                    `verb`       {- baw~ar -}         [ "make useless" ]
+                              {- `others` [ "bawwir IV_yu" ] -},
+
+    -- ;; >abAr_1
+    -- >bAr    >abAr   PV_V    destroy
+    -- AbAr    >abAr   PV_V    destroy
+    -- >br     >abar   PV_C    destroy
+    -- Abr     >abar   PV_C    destroy
+    -- byr     biyr    IV_V_yu destroy
+    -- br      bir     IV_C_yu destroy
+    -- bAr     bAr     IV_V_Pass_yu    be destroyed
+    -- br      bar     IV_C_Pass_yu    be destroyed
+
+    HaFAL                     `verb`       {- OabAr -}          [ "destroy", "be destroyed" ]
+                              {- `others` [ "bAr IV_V_Pass_yu", "biyr IV_V_yu" ] -},
+
+    -- ;; buwr_1
+    -- bwr     buwr    N       fallow
+
+    FuCL                      `noun`       {- buwr -}           [ "fallow" ],
+
+    -- ;; bawAr_1
+    -- bwAr    bawAr   N       perdition;ruin
+
+    FaCAL                     `noun`       {- bawAr -}          [ "perdition", "ruin" ],
+
+    -- ;; bA}ir_1
+    -- bA}r    bA}ir   Nall    fallow;uncultivated
+
+    FA'iL                     `noun`       {- bA}ir -}          [ "fallow", "uncultivated" ],
+
+    -- ;; buwr_2
+    -- bwr     buwr    N       Port
+
+    FuCL                      `noun`       {- buwr -}           [ "Port" ],
+
+    -- ;; buwrAniy~_1
+    -- bwrAny  buwrAniy~       N       vegetable stew
+
+    FuCLAn |< Iy              `adj`        {- buwrAniy~ -}      [ "vegetable stew" ] ]
+
+ |> "b w r ^g" <| [
+
+    -- ;; buwruwjiy~_1
+    -- bwrwjy  buwruwjiy~      Nall    bugler     [[buwruwjiy~/ADJ]]
+
+    KuRDUS |< Iy              `adj`        {- buwruwjiy~ -}     [ "bugler" ] ]
+
+ |> "b w r q" <| [
+
+    -- ;; baworaq_1
+    -- bwrq    baworaq N       borax
+
+    KaRDaS                    `noun`       {- baworaq -}        [ "borax" ] ]
+
+ |> "b w r s" <| [
+
+    -- ;; buwriys_1
+    -- bwrys   buwriys Nprop   Boris
+
+    KuRDIS                    `noun`       {- buwriys -}        [ "Boris" ] ]
+
+ |> "b w s" <| [
+
+    -- ;; bAs-u_1
+    -- bAs     bAs     PV_V    kiss
+    -- bs      bus     PV_C    kiss
+    -- bws     buws    IV_V    kiss
+    -- bs      bus     IV_C    kiss
+
+    FAL                       `verb`       {- bAs-u -}          [ "kiss" ]
+                              `imperf`     FCuL
+                              {- `others` [ "buws IV_V" ] -},
+
+    -- ;; bawosap_1
+    -- bws     bawos   NapAt   kiss
+    -- bws     buws    NapAt   kiss
+
+    FaCL |< aT                `noun`       {- bawosap -}        [ "kiss" ]
+                              `plural`     FUL |< At
+                              `plural`     FuCL |< At
+                              {- `others` [ "buws NapAt" ] -} ]
+
+ |> "b w t" <| [
+
+    -- ;; buwayot_1
+    -- bwyt    buwayot N/At    small house
+
+    FuCayL                    `noun`       {- buwayot -}        [ "small house" ] ]
+
+ |> "b w t k" <| [
+
+    -- ;; buwtiyk_1
+    -- bwtyk   buwtiyk N/At    boutique
+
+    KuRDIS                    `noun`       {- buwtiyk -}        [ "boutique" ] ]
+
+ |> "b w t n" <| [
+
+    -- ;; buwtiyn_1
+    -- bwtyn   buwtiyn Nprop   Putin
+
+    KuRDIS                    `noun`       {- buwtiyn -}        [ "Putin" ] ]
+
+ |> "b w t q" <| [
+
+    -- ;; buwtaqap_1
+    -- bwtq    buwtaq  Nap     crucible;melting pot
+    -- bwAtq   bawAtiq Ndip    crucibles;melting pots
+
+    KuRDaS |< aT              `noun`       {- buwtaqap -}       [ "crucible", "melting pot", "crucibles", "melting pots" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "bawAtiq Ndip" ] -} ]
+
+ |> "b w t w" <| [
+
+    -- ;; buwtuw_1
+    -- bwtw    buwtuw  Nprop   Bhutto
+
+    KuRDuS                    `noun`       {- buwtuw -}         [ "Bhutto" ] ]
+
+ |> "b w y" <| [
+
+    -- ;; buwyap_1
+    -- bwy     buwy    NapAt   paint
+
+    FUL |< aT                 `noun`       {- buwyap -}         [ "paint" ],
+
+    -- ;; buwyap_1
+    -- bwy     buwy    NapAt   paint
+
+    FuCL |< aT                `noun`       {- buwyap -}         [ "paint" ] ]
+
+ |> "b w z" <| [
+
+    -- ;; baw~az_1
+    -- bwz     baw~az  PV_intr be glum;be sullen
+    -- bwz     baw~iz  IV_intr_yu      be glum;be sullen
+
+    FaCCaL                    `verb`       {- baw~az -}         [ "be glum", "be sullen" ]
+                              {- `others` [ "bawwiz IV_intr_yu" ] -},
+
+    -- ;; buwz_1
+    -- bwz     buwz    Ndu     muzzle;snout
+    -- >bwAz   >abowAz N       muzzles;snouts
+    -- AbwAz   >abowAz N       muzzles;snouts
+
+    FuCL                      `noun`       {- buwz -}           [ "muzzle", "snout", "muzzles", "snouts" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abwAz N" ] -},
+
+    -- ;; tabowiyzap_1
+    -- tbwyz   tabowiyz        NapAt   sullen look
+
+    TaFCIL |< aT              `noun`       {- tabowiyzap -}     [ "sullen look" ],
+
+    -- ;; mubaw~iz_1
+    -- mbwz    mubaw~iz        Nall    sullen
+
+    MuFaCCiL                  `noun`       {- mubaw~iz -}       [ "sullen" ],
+
+    -- ;; bAz_1
+    -- bAz     bAz     Ndu     falcon
+    -- byzAn   biyzAn  N       falcons
+
+    FAL                       `noun`       {- bAz -}            [ "falcon", "falcons" ] ]
+
+ |> "b y '" <| [
+
+    -- ;; biy}ap_1
+    -- by}     biy}    NapAt   environment;milieu
+
+    FiCL |< aT                `noun`       {- biy}ap -}         [ "environment", "milieu" ],
+
+    -- ;; biy}iy~_1
+    -- by}y    biy}iy~ Nall    environmental     [[biy}iy~/ADJ]]
+
+    FiCL |< Iy                `adj`        {- biy}iy~ -}        [ "environmental" ] ]
+
+ |> "b y .d" <| [
+
+    -- ;; bAD-i_1
+    -- bAD     bAD     PV_V    lay an egg;settle down
+    -- bD      biD     PV_C    lay an egg;settle down
+    -- byD     biyD    IV_V    lay an egg;settle down
+    -- bD      biD     IV_C    lay an egg;settle down
+
+    FAL                       `verb`       {- bAD-i -}          [ "lay an egg", "settle down" ]
+                              `imperf`     FCiL
+                              {- `others` [ "biy.d IV_V" ] -},
+
+    -- ;; bay~aD_1
+    -- byD     bay~aD  PV      bleach;blanch
+    -- byD     bay~iD  IV_yu   bleach;blanch
+    -- byD     bay~aD  IV_Pass_yu      be bleached;be blanched
+
+    FaCCaL                    `verb`       {- bay~aD -}         [ "bleach", "blanch", "be bleached", "be blanched" ]
+                              {- `others` [ "bayyi.d IV_yu" ] -},
+
+    -- ;; tabay~aD_1
+    -- tbyD    tabay~aD        PV_intr be blanched/bleached;become white
+    -- tbyD    tabay~aD        IV_intr be blanched/bleached;become white
+
+    TaFaCCaL                  `verb`       {- tabay~aD -}       [ "be blanched/bleached", "become white" ],
+
+    -- ;; {iboyaD~_1
+    -- <byD    {iboyaD~        PV_V_intr       become white
+    -- AbyD    {iboyaD~        PV_V_intr       become white
+    -- <byDD   {iboyaDaD       PV_C_intr       become white
+    -- AbyDD   {iboyaDaD       PV_C_intr       become white
+    -- byD     boyaD~  IV_V_intr       become white
+    -- byDD    boyaDaD IV_C_intr       become white
+
+    IFCaLL                    `verb`       {- {iboyaD~ -}       [ "become white" ]
+                              {- `others` [ "bya.d.d IV_V_intr" ] -},
+
+    -- ;; bayoD_1
+    -- byD     bayoD   N       eggs
+    -- byD     bayoD   NapAt   egg
+
+    FaCL                      `noun`       {- bayoD -}          [ "eggs", "egg" ],
+
+    -- ;; bayoDap_1
+    -- byD     bayoD   Nap     main part
+
+    FaCL |< aT                `noun`       {- bayoDap -}        [ "main part" ],
+
+    -- ;; bayoDiy~_1
+    -- byDy    bayoDiy~        Nall    oval     [[bayoDiy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- bayoDiy~ -}       [ "oval" ],
+
+    -- ;; bayoDawiy~_1
+    -- byDwy   bayoDawiy~      Nall    oval     [[bayoDawiy~/ADJ]]
+
+    FaCLY |< Iy               `adj`        {- bayoDawiy~ -}     [ "oval" ],
+
+    -- ;; bayoDAwiy~_1
+    -- byDAwy  bayoDAwiy~      Nall    oval     [[bayoDAwiy~/ADJ]]
+
+    FaCLA' |< Iy              `adj`        {- bayoDAwiy~ -}     [ "oval" ],
+
+    -- ;; bayoDAwiy~_2
+    -- byDAwy  bayoDAwiy~      Nall    Casablancan     [[bayoDAwiy~/ADJ]]
+
+    FaCLA' |< Iy              `adj`        {- bayoDAwiy~ -}     [ "Casablancan" ],
+
+    -- ;; bayAD_1
+    -- byAD    bayAD   N       whiteness
+
+    FaCAL                     `noun`       {- bayAD -}          [ "whiteness" ],
+
+    -- ;; >aboyaD_1
+    -- >byD    >aboyaD Nel     white
+    -- AbyD    >aboyaD Nel     white
+    -- byDA'   bayoDA' N0_Nh   white
+    -- byDA&   bayoDA& Nh      white
+    -- byDA}   bayoDA} Nhy     white
+
+    HaFCaL                    `noun`       {- OaboyaD -}        [ "white" ]
+                              `plural`     FaCLA'
+                              {- `others` [ "bay.dA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; biyD_1
+    -- byD     biyD    N       white;Caucasian
+
+    FiCL                      `noun`       {- biyD -}           [ "white", "Caucasian" ],
+
+    -- ;; mabiyD_1
+    -- mbyD    mabiyD  N       ovary
+
+    MaFIL                     `noun`       {- mabiyD -}         [ "ovary" ],
+
+    -- ;; taboyiyD_1
+    -- tbyyD   taboyiyD        NduAt   bleaching;blanching;white-washing
+
+    TaFCIL                    `noun`       {- taboyiyD -}       [ "bleaching", "blanching", "white-washing" ],
+
+    -- ;; taboyiyDap_1
+    -- tbyyD   taboyiyD        Nap     fair copy
+
+    TaFCIL |< aT              `noun`       {- taboyiyDap -}     [ "fair copy" ],
+
+    -- ;; {iboyiDAD_1
+    -- <byDAD  {iboyiDAD       N/At    leukemia
+    -- AbyDAD  {iboyiDAD       N/At    leukemia
+
+    IFCiLAL                   `noun`       {- {iboyiDAD -}      [ "leukemia" ],
+
+    -- ;; bA}iD_1
+    -- bA}D    bA}iD   Nall    egg-laying
+    -- bwA}D   bawA}iD Ndip    egg-laying
+
+    FA'iL                     `noun`       {- bA}iD -}          [ "egg-laying" ]
+                              `plural`     FawA'iL
+                              {- `others` [ "bawA'i.d Ndip" ] -},
+
+    -- ;; mubay~iD_1
+    -- mbyD    mubay~iD        Nall    whitewasher;copyist
+
+    MuFaCCiL                  `noun`       {- mubay~iD -}       [ "whitewasher", "copyist" ],
+
+    -- ;; mubay~aDap_1
+    -- mbyD    mubay~aD        NapAt   fair copy
+
+    MuFaCCaL |< aT            `noun`       {- mubay~aDap -}     [ "fair copy" ] ]
+
+ |> "b y .g n" <| [
+
+    -- ;; biygin_1
+    -- bygn    biygin  Nprop   Begin
+
+    KiRDiS                    `noun`       {- biygin -}         [ "Begin" ] ]
+
+ |> "b y .t r" <| [
+
+    -- ;; bayoTar_1
+    -- byTr    bayoTar PV      practice veterinary
+    -- byTr    bayoTir IV_yu   practice veterinary
+
+    KaRDaS                    `verb`       {- bayoTar -}        [ "practice veterinary" ]
+                              {- `others` [ "bay.tir IV_yu" ] -},
+
+    -- ;; bayoTAr_1
+    -- byTAr   bayoTAr Ndu     veterinarian
+    -- byATr   bayATir Nap     veterinarians
+
+    KaRDAS                    `noun`       {- bayoTAr -}        [ "veterinarian", "veterinarians" ]
+                              `plural`     KaRADiS |< aT
+                              {- `others` [ "bayA.tir Nap" ] -},
+
+    -- ;; bayoTariy~_1
+    -- byTry   bayoTariy~      Nall    veterinary     [[bayoTariy~/ADJ]]
+
+    KaRDaS |< Iy              `adj`        {- bayoTariy~ -}     [ "veterinary" ],
+
+    -- ;; bayoTarap_1
+    -- byTr    bayoTar Nap     veterinary
+
+    KaRDaS |< aT              `noun`       {- bayoTarap -}      [ "veterinary" ] ]
+
+ |> "b y ^g" <| [
+
+    -- ;; biyjAn_1
+    -- byjAn   biyjAn  Nprop   Bijan
+
+    FiCLAn                    `noun`       {- biyjAn -}         [ "Bijan" ] ]
+
+ |> "b y ^g n" <| [
+
+    -- ;; biyjAn_1
+    -- byjAn   biyjAn  Nprop   Bijan
+
+    KiRDAS                    `noun`       {- biyjAn -}         [ "Bijan" ] ]
+
+ |> "b y ^s" <| [
+
+    -- ;; biy$iy~_1
+    -- by$y    biy$iy~ N0      Bishi
+
+    FiCL |< Iy                `adj`        {- biy$iy~ -}        [ "Bishi" ] ]
+
+ |> "b y `" <| [
+
+    -- ;; bAE-i_1
+    -- bAE     bAE     PV_V    sell
+    -- bE      biE     PV_C    sell
+    -- byE     biyE    IV_V    sell
+    -- bE      biE     IV_C    sell
+
+    FAL                       `verb`       {- bAE-i -}          [ "sell" ]
+                              `imperf`     FCiL
+                              {- `others` [ "biy` IV_V" ] -},
+
+    -- ;; bAyaE_1
+    -- bAyE    bAyaE   PV      pledge allegiance to;recognize as leader
+    -- bAyE    bAyiE   IV_yu   pledge allegiance to;recognize as leader
+    -- bwyE    buwyiE  PV_Pass be recognized as leader
+    -- bAyE    bAyaE   IV_Pass_yu      be recognized as leader
+
+    FACaL                     `verb`       {- bAyaE -}          [ "pledge allegiance to", "recognize as leader", "be recognized as leader" ]
+                              {- `others` [ "buwyi` PV_Pass", "bAyi` IV_yu" ] -},
+
+    -- ;; >abAE_1
+    -- >bAE    >abAE   PV_V    offer for sale;tender
+    -- AbAE    >abAE   PV_V    offer for sale;tender
+    -- >bE     >abaE   PV_C    offer for sale;tender
+    -- AbE     >abaE   PV_C    offer for sale;tender
+    -- byE     biyE    IV_V_yu offer for sale;tender
+    -- bE      biE     IV_C_yu offer for sale;tender
+    -- bAE     bAE     IV_V_Pass_yu    be offered for sale;tendered
+    -- bE      baE     IV_C_Pass_yu    be offered for sale;tendered
+
+    HaFAL                     `verb`       {- OabAE -}          [ "offer for sale", "tender", "be offered for sale", "tendered" ]
+                              {- `others` [ "biy` IV_V_yu", "bA` IV_V_Pass_yu" ] -},
+
+    -- ;; tabAyaE_1
+    -- tbAyE   tabAyaE PV      transact
+    -- tbAyE   tabAyaE IV      transact
+
+    TaFACaL                   `verb`       {- tabAyaE -}        [ "transact" ],
+
+    -- ;; {inobAE_1
+    -- <nbAE   {inobAE PV_V_intr       be sold;be for sale
+    -- AnbAE   {inobAE PV_V_intr       be sold;be for sale
+    -- <nbE    {inobaE PV_C_intr       be sold;be for sale
+    -- AnbE    {inobaE PV_C_intr       be sold;be for sale
+    -- nbAE    nobAE   IV_V_intr       be sold;be for sale
+    -- nbE     nobaE   IV_C_intr       be sold;be for sale
+
+    InFAL                     `verb`       {- {inobAE -}        [ "be sold", "be for sale" ]
+                              {- `others` [ "nbA` IV_V_intr" ] -},
+
+    -- ;; {ibotAE_1
+    -- <btAE   {ibotAE PV_V    purchase
+    -- AbtAE   {ibotAE PV_V    purchase
+    -- <btE    {ibotaE PV_C    purchase
+    -- AbtE    {ibotaE PV_C    purchase
+    -- btAE    botAE   IV_V    purchase
+    -- btE     botaE   IV_C    purchase
+
+    IFtAL                     `verb`       {- {ibotAE -}        [ "purchase" ]
+                              {- `others` [ "btA` IV_V" ] -},
+
+    -- ;; bayoE_1
+    -- byE     bayoE   N       sale
+
+    FaCL                      `noun`       {- bayoE -}          [ "sale" ],
+
+    -- ;; buyuwE_1
+    -- bywE    buyuwE  N/At    sale
+
+    FuCUL                     `noun`       {- buyuwE -}         [ "sale" ],
+
+    -- ;; bayoEap_1
+    -- byE     bayoE   Nap     homage;transaction
+
+    FaCL |< aT                `noun`       {- bayoEap -}        [ "homage", "transaction" ],
+
+    -- ;; bay~AE_1
+    -- byAE    bay~AE  Nall    salesman;middleman
+
+    FaCCAL                    `noun`       {- bay~AE -}         [ "salesman", "middleman" ],
+
+    -- ;; mubAyaEap_1
+    -- mbAyE   mubAyaE NapAt   allegiance;transaction
+
+    MuFACaL |< aT             `noun`       {- mubAyaEap -}      [ "allegiance", "transaction" ],
+
+    -- ;; {ibotiyAE_1
+    -- <btyAE  {ibotiyAE       NduAt   purchase
+    -- AbtyAE  {ibotiyAE       NduAt   purchase
+
+    IFtiCAL                   `noun`       {- {ibotiyAE -}      [ "purchase" ],
+
+    -- ;; bA}iE_1
+    -- bA}E    bA}iE   Nall    vendor;merchant
+
+    FA'iL                     `noun`       {- bA}iE -}          [ "vendor", "merchant" ],
+
+    -- ;; bAEap_1
+    -- bAE     bAE     Nap     merchants;vendors
+
+    FAL |< aT                 `noun`       {- bAEap -}          [ "merchants", "vendors" ],
+
+    -- ;; mabiyE_1
+    -- mbyE    mabiyE  Nall    sold
+
+    MaFIL                     `noun`       {- mabiyE -}         [ "sold" ],
+
+    -- ;; mabiyEAt_1
+    -- mbyE    mabiyE  NAt     sales
+
+    MaFIL |< At               `noun`       {- mabiyEAt -}       [ "sales" ]
+                              `plural`     MaFIL |< At
+                              {- `others` [ "mabiy` NAt" ] -},
+
+    -- ;; mubAE_1
+    -- mbAE    mubAE   Nall    sold
+
+    MuFAL                     `noun`       {- mubAE -}          [ "sold" ],
+
+    -- ;; mubotAE_1
+    -- mbtAE   mubotAE Nall    buyer;purchaser
+
+    MuFtAL                    `noun`       {- mubotAE -}        [ "buyer", "purchaser" ],
+
+    -- ;; biyEap_1
+    -- byE     biyE    NapAt   church;synagogue
+
+    FiCL |< aT                `noun`       {- biyEap -}         [ "church", "synagogue" ] ]
+
+ |> "b y b" <| [
+
+    -- ;; biyb_1
+    -- byb     biyb    N       pipe;tube
+
+    FiCL                      `noun`       {- biyb -}           [ "pipe", "tube" ] ]
+
+ |> "b y d" <| [
+
+    -- ;; biyAdap_1
+    -- byAd    biyAd   Nap     infantry
+
+    FiCAL |< aT               `noun`       {- biyAdap -}        [ "infantry" ],
+
+    -- ;; biyAdiy~_1
+    -- byAdy   biyAdiy~        Nall    infantryman;foot soldier     [[biyAdiy~/ADJ]]
+
+    FiCAL |< Iy               `adj`        {- biyAdiy~ -}       [ "infantryman", "foot soldier" ],
+
+    -- ;; bAd-i_1
+    -- bAd     bAd     PV_V    perish;disappear
+    -- bd      bid     PV_C    perish;disappear
+    -- byd     biyd    IV_V    perish;disappear
+    -- bd      bid     IV_C    perish;disappear
+
+    FAL                       `verb`       {- bAd-i -}          [ "perish", "disappear" ]
+                              `imperf`     FCiL
+                              {- `others` [ "biyd IV_V" ] -},
+
+    -- ;; >abAd_1
+    -- >bAd    >abAd   PV_V    exterminate
+    -- AbAd    >abAd   PV_V    exterminate
+    -- >bd     >abad   PV_C    exterminate
+    -- Abd     >abad   PV_C    exterminate
+    -- byd     biyd    IV_V_yu exterminate
+    -- bd      bid     IV_C_yu exterminate
+    -- bAd     bAd     IV_V_Pass_yu    be exterminated
+    -- bd      bad     IV_C_Pass_yu    be exterminated
+
+    HaFAL                     `verb`       {- OabAd -}          [ "exterminate", "be exterminated" ]
+                              {- `others` [ "bAd IV_V_Pass_yu", "biyd IV_V_yu" ] -},
+
+    -- ;; bayodA'_1
+    -- bydA'   bayodA' N0_Nh   wilderness;desert
+    -- bydA&   bayodA& Nh      wilderness;desert
+    -- bydA}   bayodA} Nhy     wilderness;desert
+
+    FaCLA'                    `noun`       {- bayodA' -}        [ "wilderness", "desert" ],
+
+    -- ;; biyd_1
+    -- byd     biyd    N       wilderness
+    -- bydAw   biydAw  NAt     wilderness
+
+    FiCL                      `noun`       {- biyd -}           [ "wilderness" ],
+
+    -- ;; <ibAdap_1
+    -- <bAd    <ibAd   NapAt   extermination;annihilation
+    -- AbAd    <ibAd   NapAt   extermination;annihilation
+
+    HiFAL |< aT               `noun`       {- IibAdap -}        [ "extermination", "annihilation" ],
+
+    -- ;; bA}id_1
+    -- bA}d    bA}id   Nall    bygone;temporal
+
+    FA'iL                     `noun`       {- bA}id -}          [ "bygone", "temporal" ],
+
+    -- ;; mubiyd_1
+    -- mbyd    mubiyd  Nall    destructive;exterminating
+
+    MuFiCL                    `noun`       {- mubiyd -}         [ "destructive", "exterminating" ] ]
+
+ |> "b y d q" <| [
+
+    -- ;; bayodaq_1
+    -- bydq    bayodaq Ndu     pawn
+    -- by*q    bayo*aq Ndu     pawn
+    -- byAdq   bayAdiq Ndip    pawns
+    -- byA*q   bayA*iq Ndip    pawns
+
+    KaRDaS                    `noun`       {- bayodaq -}        [ "pawn", "pawns" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "bayAdiq Ndip" ] -} ]
+
+ |> "b y d r" <| [
+
+    -- ;; biydAr_1
+    -- bydAr   biydAr  Nprop   Bidar
+
+    KiRDAS                    `noun`       {- biydAr -}         [ "Bidar" ],
+
+    -- ;; bayodar_1
+    -- bydr    bayodar N       threshing floor
+    -- byAdr   bayAdir Ndip    threshing floors
+
+    KaRDaS                    `noun`       {- bayodar -}        [ "threshing floor", "threshing floors" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "bayAdir Ndip" ] -} ]
+
+ |> "b y k n" <| [
+
+    -- ;; biykiyn_1
+    -- bykyn   biykiyn Nprop   Peking;Beijing
+
+    KiRDIS                    `noun`       {- biykiyn -}        [ "Peking", "Beijing" ] ]
+
+ |> "b y k r" <| [
+
+    -- ;; biykAr_1
+    -- bykAr   biykAr  N       compass;dividers
+
+    KiRDAS                    `noun`       {- biykAr -}         [ "compass", "dividers" ],
+
+    -- ;; bayokir_1
+    -- bykr    bayokir Nprop   Baker
+
+    KaRDiS                    `noun`       {- bayokir -}        [ "Baker" ] ]
+
+ |> "b y l" <| [
+
+    -- ;; biylap_1
+    -- byl     biyl    Nap     urine
+
+    FiCL |< aT                `noun`       {- biylap -}         [ "urine" ],
+
+    -- ;; biyl_1
+    -- byl     biyl    Nprop   Bill
+
+    FIL                       `noun`       {- biyl -}           [ "Bill" ],
+
+    -- ;; biyl_1
+    -- byl     biyl    Nprop   Bill
+
+    FiCL                      `noun`       {- biyl -}           [ "Bill" ],
+
+    -- ;; biyl_2
+    -- byl     biyl    N       ball bearing;marble
+
+    FIL                       `noun`       {- biyl -}           [ "ball bearing", "marble" ],
+
+    -- ;; biyl_2
+    -- byl     biyl    N       ball bearing;marble
+
+    FiCL                      `noun`       {- biyl -}           [ "ball bearing", "marble" ] ]
+
+ |> "b y n" <| [
+
+    -- ;; bAyin_1
+    -- bAyn    bAyin   Nprop   Pine
+
+    FACiL                     `noun`       {- bAyin -}          [ "Pine" ],
+
+    -- ;; bAyuwn_1
+    -- bAywn   bAyuwn  Nprop   Baioun
+
+    FACUL                     `noun`       {- bAyuwn -}         [ "Baioun" ],
+
+    -- ;; bayoniy~_1
+    -- byny    bayoniy~        N-ap    in-between;interface ??     [[bayoniy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- bayoniy~ -}       [ "in-between", "interface ??" ],
+
+    -- ;; bAn-i_1
+    -- bAn     bAn     PV_V_intr       appear;be evident
+    -- bn      bin     PV_Cn_intr      appear;be evident
+    -- byn     biyn    IV_V_intr       appear;be evident
+    -- bn      bin     IV_C_intr       appear;be evident
+
+    FAL                       `verb`       {- bAn-i -}          [ "appear", "be evident" ]
+                              `imperf`     FCiL
+                              {- `others` [ "biyn IV_V_intr" ] -},
+
+    -- ;; bay~an_1
+    -- byn     bay~an  PV-n    declare;demonstrate
+    -- byn     bay~in  IV-n_yu declare;demonstrate
+
+    FaCCaL                    `verb`       {- bay~an -}         [ "declare", "demonstrate" ]
+                              {- `others` [ "bayyin IV-n_yu" ] -},
+
+    -- ;; bAyan_1
+    -- bAyn    bAyan   PV-n    depart;conflict
+    -- bAyn    bAyin   IV-n_yu depart;conflict
+
+    FACaL                     `verb`       {- bAyan -}          [ "depart", "conflict" ]
+                              {- `others` [ "bAyin IV-n_yu" ] -},
+
+    -- ;; >abAn_1
+    -- >bAn    >abAn   PV_V    explain
+    -- AbAn    >abAn   PV_V    explain
+    -- >bn     >aban   PV_Cn   explain
+    -- Abn     >aban   PV_Cn   explain
+    -- byn     biyn    IV_V_yu explain
+    -- bn      bin     IV-n_yu explain
+    -- bAn     bAn     IV_V_Pass_yu    be explained
+    -- bn      ban     IV-n_Pass_yu    be explained
+
+    HaFAL                     `verb`       {- OabAn -}          [ "explain", "be explained" ]
+                              {- `others` [ "biyn IV_V_yu", "bAn IV_V_Pass_yu" ] -},
+
+    -- ;; tabay~an_1
+    -- tbyn    tabay~an        PV-n_intr       become clear
+    -- tbyn    tabay~an        IV-n    become clear
+
+    TaFaCCaL                  `verb`       {- tabay~an -}       [ "become clear" ],
+
+    -- ;; tabAyan_1
+    -- tbAyn   tabAyan PV-n    differ;vary
+    -- tbAyn   tabAyan IV-n    differ;vary
+
+    TaFACaL                   `verb`       {- tabAyan -}        [ "differ", "vary" ],
+
+    -- ;; {isotabAn_1
+    -- <stbAn  {isotabAn       PV_V    clarify;explain
+    -- AstbAn  {isotabAn       PV_V    clarify;explain
+    -- <stbn   {isotaban       PV_Cn   clarify;explain
+    -- Astbn   {isotaban       PV_Cn   clarify;explain
+    -- stbyn   sotabiyn        IV_V    clarify;explain
+    -- stbn    sotabin IV-n    clarify;explain
+
+    IstaFAL                   `verb`       {- {isotabAn -}      [ "clarify", "explain" ],
+
+    -- ;; {isotaboyan_1
+    -- <stbyn  {isotaboyan     PV-n    poll;canvass
+    -- Astbyn  {isotaboyan     PV-n    poll;canvass
+    -- stbyn   sotaboyin       IV-n    poll;canvass
+
+    IstaFCaL                  `verb`       {- {isotaboyan -}    [ "poll", "canvass" ],
+
+    -- ;; bay~in_1
+    -- byn     bay~in  Ndu     clear;evident;explicit
+
+    FaCCiL                    `noun`       {- bay~in -}         [ "clear", "evident", "explicit" ],
+
+    -- ;; >aboyinA'_1
+    -- >bynA'  >aboyinA'       N0_Nh   eloquent
+    -- AbynA'  >aboyinA'       N0_Nh   eloquent
+    -- >bynA&  >aboyinA&       Nh      eloquent
+    -- AbynA&  >aboyinA&       Nh      eloquent
+    -- >bynA}  >aboyinA}       Nhy     eloquent
+    -- AbynA}  >aboyinA}       Nhy     eloquent
+
+    HaFCiLA'                  `noun`       {- OaboyinA' -}      [ "eloquent" ],
+
+    -- ;; bay~inap_1
+    -- byn     bay~in  NapAt   proof;evidence
+
+    FaCCiL |< aT              `noun`       {- bay~inap -}       [ "proof", "evidence" ],
+
+    -- ;; bayAn_1
+    -- byAn    bayAn   NduAt   communique;statement;declaration
+
+    FaCAL                     `noun`       {- bayAn -}          [ "communique", "statement", "declaration" ],
+
+    -- ;; bayAn_2
+    -- byAn    bayAn   N0      Bayan
+
+    FaCAL                     `noun`       {- bayAn -}          [ "Bayan" ],
+
+    -- ;; bayAnAt_1
+    -- byAn    bayAn   NAt     data
+
+    FaCAL |< At               `noun`       {- bayAnAt -}        [ "data" ]
+                              `plural`     FaCAL |< At
+                              {- `others` [ "bayAn NAt" ] -},
+
+    -- ;; bayAniy~_1
+    -- byAny   bayAniy~        Nall    explanatory;declarative     [[bayAniy~/ADJ]]
+
+    FaCAL |< Iy               `adj`        {- bayAniy~ -}       [ "explanatory", "declarative" ],
+
+    -- ;; miboyAn_1
+    -- mbyAn   miboyAn NduAt   graph
+
+    MiFCAL                    `noun`       {- miboyAn -}        [ "graph" ],
+
+    -- ;; >aboyan_1
+    -- >byn    >aboyan Nel     clearer;clearest
+    -- Abyn    >aboyan Nel     clearer;clearest
+
+    HaFCaL                    `noun`       {- Oaboyan -}        [ "clearer", "clearest" ],
+
+    -- ;; tiboyAn_1
+    -- tbyAn   tiboyAn N       exposition;illustration
+
+    TiFCAL                    `noun`       {- tiboyAn -}        [ "exposition", "illustration" ],
+
+    -- ;; taboyiyn_1
+    -- tbyyn   taboyiyn        NduAt   exposition;illustration
+
+    TaFCIL                    `noun`       {- taboyiyn -}       [ "exposition", "illustration" ],
+
+    -- ;; <ibAnap_1
+    -- <bAn    <ibAn   NapAt   exposition;illustration
+    -- AbAn    <ibAn   NapAt   exposition;illustration
+
+    HiFAL |< aT               `noun`       {- IibAnap -}        [ "exposition", "illustration" ],
+
+    -- ;; tabay~un_1
+    -- tbyn    tabay~un        N/At    appearance
+
+    TaFaCCuL                  `noun`       {- tabay~un -}       [ "appearance" ],
+
+    -- ;; tabAyun_1
+    -- tbAyn   tabAyun NduAt   difference;disparity
+
+    TaFACuL                   `noun`       {- tabAyun -}        [ "difference", "disparity" ],
+
+    -- ;; tabAyuniy~_1
+    -- tbAyny  tabAyuniy~      Nall    conflicting     [[tabAyuniy~/ADJ]]
+
+    TaFACuL |< Iy             `adj`        {- tabAyuniy~ -}     [ "conflicting" ],
+
+    -- ;; {isotibAnap_1
+    -- <stbAn  {isotibAn       NapAt   clarification;explanation
+    -- AstbAn  {isotibAn       NapAt   clarification;explanation
+
+    IstiFAL |< aT             `noun`       {- {isotibAnap -}    [ "clarification", "explanation" ],
+
+    -- ;; {isotiboyAn_1
+    -- <stbyAn {isotiboyAn     NduAt   poll;questionnaire
+    -- AstbyAn {isotiboyAn     NduAt   poll;questionnaire
+
+    IstiFCAL                  `noun`       {- {isotiboyAn -}    [ "poll", "questionnaire" ],
+
+    -- ;; bA}in_1
+    -- bA}n    bA}in   Nall    plain;evident
+    -- bAyn    bAyin   Nall    plain;evident
+
+    FA'iL                     `noun`       {- bA}in -}          [ "plain", "evident" ]
+                              `plural`     FACiL
+                              {- `others` [ "bAyin Nall" ] -},
+
+    -- ;; bA}inap_1
+    -- bA}n    bA}in   Nap     dowry
+
+    FA'iL |< aT               `noun`       {- bA}inap -}        [ "dowry" ],
+
+    -- ;; mubay~in_1
+    -- mbyn    mubay~in        Nall    indicator
+
+    MuFaCCiL                  `noun`       {- mubay~in -}       [ "indicator" ],
+
+    -- ;; mubiyn_1
+    -- mbyn    mubiyn  Nall    plain;clear;evident
+
+    MuFiCL                    `noun`       {- mubiyn -}         [ "plain", "clear", "evident" ],
+
+    -- ;; mutabAyin_1
+    -- mtbAyn  mutabAyin       Nall    dissimilar;varying
+
+    MutaFACiL                 `noun`       {- mutabAyin -}      [ "dissimilar", "varying" ],
+
+    -- ;; maboyuwnap_1
+    -- mbywn   maboyuwn        Nap     distance
+
+    MaFCUL |< aT              `noun`       {- maboyuwnap -}     [ "distance" ] ]
+
+ |> "b y n n" <| [
+
+    -- ;; biynuwn_1
+    -- bynwn   biynuwn Nprop   Benon
+
+    KiRDUS                    `noun`       {- biynuwn -}        [ "Benon" ] ]
+
+ |> "b y r" <| [
+
+    -- ;; bAyir_1
+    -- bAyr    bAyir   Nprop   Bayer
+
+    FACiL                     `noun`       {- bAyir -}          [ "Bayer" ],
+
+    -- ;; biyAr_1
+    -- byAr    biyAr   Nprop   Pierre
+
+    FiCAL                     `noun`       {- biyAr -}          [ "Pierre" ],
+
+    -- ;; bay~Arap_1
+    -- byAr    bay~Ar  NapAt   plantation;grove
+
+    FaCCAL |< aT              `noun`       {- bay~Arap -}       [ "plantation", "grove" ],
+
+    -- ;; biyrap_1
+    -- byrp    biyrap  N0      Birah;Bireh
+
+    FiCL |< aT                `noun`       {- biyrap -}         [ "Birah", "Bireh" ] ]
+
+ |> "b y r n" <| [
+
+    -- ;; biyruwn_1
+    -- byrwn   biyruwn Nprop   Peron
+
+    KiRDUS                    `noun`       {- biyruwn -}        [ "Peron" ] ]
+
+ |> "b y r q" <| [
+
+    -- ;; bayoraq_1
+    -- byrq    bayoraq N       banner
+    -- byArq   bayAriq Ndip    banners
+
+    KaRDaS                    `noun`       {- bayoraq -}        [ "banner", "banners" ]
+                              `plural`     KaRADiS
+                              {- `others` [ "bayAriq Ndip" ] -} ]
+
+ |> "b y r s" <| [
+
+    -- ;; biyriys_1
+    -- byrys   biyriys Nprop   Peres
+
+    KiRDIS                    `noun`       {- biyriys -}        [ "Peres" ] ]
+
+ |> "b y r t" <| [
+
+    -- ;; bayoruwt_1
+    -- byrwt   bayoruwt        Ndip    Beirut
+
+    KaRDUS                    `noun`       {- bayoruwt -}       [ "Beirut" ] ]
+
+ |> "b y r y" <| [
+
+    -- ;; biyriy_1
+    -- byry    biyriy  Nprop   Perry
+
+    KiRDiS                    `noun`       {- biyriy -}         [ "Perry" ] ]
+
+ |> "b y r z" <| [
+
+    -- ;; biyriyz_1
+    -- byryz   biyriyz Nprop   Peres
+
+    KiRDIS                    `noun`       {- biyriyz -}        [ "Peres" ] ]
+
+ |> "b y s" <| [
+
+    -- ;; bayosap_1
+    -- bys     bayos   Napdu   baysa (Yemeni coin)
+    -- bysh    bayosah N0      baysa (Yemeni coin)
+
+    FaCL |< aT                `noun`       {- bayosap -}        [ "baysa (Yemeni coin)" ] ]
+
+ |> "b y s n" <| [
+
+    -- ;; biysuwn_1
+    -- byswn   biysuwn N       bison
+
+    KiRDUS                    `noun`       {- biysuwn -}        [ "bison" ] ]
+
+ |> "b y t" <| [
+
+    -- ;; bAt-i_1
+    -- bAt     bAt     PV_V    become;remain
+    -- bt      bit     PV_Ct   become;remain
+    -- byt     biyt    IV_V    become;remain
+    -- bt      bit     IV_C    become;remain
+
+    FAL                       `verb`       {- bAt-i -}          [ "become", "remain" ]
+                              `imperf`     FCiL
+                              {- `others` [ "biyt IV_V" ] -},
+
+    -- ;; bay~at_1
+    -- byt     bay~at  PV-t    plot;scheme
+    -- byt     bay~it  IV_yu   plot;scheme
+
+    FaCCaL                    `verb`       {- bay~at -}         [ "plot", "scheme" ]
+                              {- `others` [ "bayyit IV_yu" ] -},
+
+    -- ;; >abAt_1
+    -- >bAt    >abAt   PV_V    give overnight lodging
+    -- AbAt    >abAt   PV_V    give overnight lodging
+    -- >bt     >abat   PV_Ct   give overnight lodging
+    -- Abt     >abat   PV_Ct   give overnight lodging
+    -- byt     biyt    IV_V_yu give overnight lodging
+    -- bt      bit     IV_C_yu give overnight lodging
+    -- bAt     bAt     IV_V_Pass_yu    be given overnight lodging
+    -- bt      bat     IV_C_Pass_yu    be given overnight lodging
+
+    HaFAL                     `verb`       {- OabAt -}          [ "give overnight lodging", "be given overnight lodging" ]
+                              {- `others` [ "biyt IV_V_yu", "bAt IV_V_Pass_yu" ] -},
+
+    -- ;; bayot_1
+    -- byt     bayot   Nprop   Beit
+
+    FaCL                      `noun`       {- bayot -}          [ "Beit" ],
+
+    -- ;; bayot_2
+    -- byt     bayot   Nprop   Bet
+
+    FaCL                      `noun`       {- bayot -}          [ "Bet" ],
+
+    -- ;; bayot_3
+    -- byt     bayot   Ndu     house
+    -- bywt    buyuwt  N/At    houses
+
+    FaCL                      `noun`       {- bayot -}          [ "house", "houses" ]
+                              `plural`     FuCUL |< At
+                              {- `others` [ "buyuwt N/At" ] -},
+
+    -- ;; bayot_4
+    -- byt     bayot   Ndu     house;verse
+    -- >byAt   >aboyAt N       verses
+    -- AbyAt   >aboyAt N       verses
+
+    FaCL                      `noun`       {- bayot -}          [ "house", "verse", "verses" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abyAt N" ] -},
+
+    -- ;; bayotiy~_1
+    -- byty    bayotiy~        Nall    domestic     [[bayotiy~/ADJ]]
+
+    FaCL |< Iy                `adj`        {- bayotiy~ -}       [ "domestic" ],
+
+    -- ;; bay~uwt_1
+    -- bywt    bay~uwt N       stale;old
+
+    FaCCUL                    `noun`       {- bay~uwt -}        [ "stale", "old" ],
+
+    -- ;; mabiyt_1
+    -- mbyt    mabiyt  Ndu     lodging
+
+    MaFIL                     `noun`       {- mabiyt -}         [ "lodging" ],
+
+    -- ;; bA}it_1
+    -- bA}t    bA}it   Nall    stale;unpromoted
+
+    FA'iL                     `noun`       {- bA}it -}          [ "stale", "unpromoted" ],
+
+    -- ;; mubay~it_1
+    -- mbyt    mubay~it        Nall    plotter;schemer
+
+    MuFaCCiL                  `noun`       {- mubay~it -}       [ "plotter", "schemer" ],
+
+    -- ;; bayotAwiy~_1
+    -- bytAwy  bayotAwiy~      N0      Beitawi
+
+    FaCLA' |< Iy              `adj`        {- bayotAwiy~ -}     [ "Beitawi" ] ]
+
+ |> "b y t r" <| [
+
+    -- ;; biytAr_1
+    -- bytAr   biytAr  Nprop   Bitar;Betar
+
+    KiRDAS                    `noun`       {- biytAr -}         [ "Bitar", "Betar" ] ]
+
+ |> "b y t s" <| [
+
+    -- ;; biytiys_1
+    -- bytys   biytiys Nprop   Betis
+
+    KiRDIS                    `noun`       {- biytiys -}        [ "Betis" ] ]
+
+ |> "b y y" <| [
+
+    -- ;; bay~At_1
+    -- byAt    bay~At  Nall    boarder;boarding student
+
+    FaCL |< At                `noun`       {- bay~At -}         [ "boarder", "boarding student" ] ]
+
+ |> "b z .g" <| [
+
+    -- ;; bazag-u_1
+    -- bzg     bazag   PV      rise;appear
+    -- bzg     bozug   IV      rise;appear
+
+    FaCaL                     `verb`       {- bazag-u -}        [ "rise", "appear" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bzu.g IV" ] -},
+
+    -- ;; buzuwg_1
+    -- bzwg    buzuwg  N       rise;appearance
+
+    FuCUL                     `noun`       {- buzuwg -}         [ "rise", "appearance" ] ]
+
+ |> "b z b z" <| [
+
+    -- ;; bazobuwz_1
+    -- bzbwz   bazobuwz        N       nozzle;spout
+    -- bzAbyz  bazAbiyz        Ndip    nozzles;spouts
+
+    KaRDUS                    `noun`       {- bazobuwz -}       [ "nozzle", "spout", "nozzles", "spouts" ]
+                              `plural`     KaRADIS
+                              {- `others` [ "bazAbiyz Ndip" ] -} ]
+
+ |> "b z l" <| [
+
+    -- ;; bazal-u_1
+    -- bzl     bazal   PV      pierce;puncture
+    -- bzl     bozul   IV      pierce;puncture
+
+    FaCaL                     `verb`       {- bazal-u -}        [ "pierce", "puncture" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bzul IV" ] -},
+
+    -- ;; bazol_1
+    -- bzl     bazol   N       puncture;paracentesis
+
+    FaCL                      `noun`       {- bazol -}          [ "puncture", "paracentesis" ],
+
+    -- ;; buzAl_1
+    -- bzAl    buzAl   N       tap;spigot;faucet
+
+    FuCAL                     `noun`       {- buzAl -}          [ "tap", "spigot", "faucet" ],
+
+    -- ;; mibozal_1
+    -- mbzl    mibozal Ndu     tap;spigot;faucet
+    -- mbAzl   mabAzil Ndip    taps;spigots;faucets
+
+    MiFCaL                    `noun`       {- mibozal -}        [ "tap", "spigot", "faucet", "taps", "spigots", "faucets" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "mabAzil Ndip" ] -} ]
+
+ |> "b z m t" <| [
+
+    -- ;; bizomuwt_1
+    -- bzmwt   bizomuwt        N       bismuth (metallic element)
+    -- bzmwv   bizomuwv        N       bismuth (metallic element)
+
+    KiRDUS                    `noun`       {- bizomuwt -}       [ "bismuth (metallic element)" ] ]
+
+ |> "b z q" <| [
+
+    -- ;; bazaq-u_1
+    -- bzq     bazaq   PV      spit
+    -- bzq     bozuq   IV      spit
+
+    FaCaL                     `verb`       {- bazaq-u -}        [ "spit" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bzuq IV" ] -},
+
+    -- ;; bazoq_1
+    -- bzq     bazoq   N       spitting
+
+    FaCL                      `noun`       {- bazoq -}          [ "spitting" ],
+
+    -- ;; buzAq_1
+    -- bzAq    buzAq   N       spittle;saliva
+
+    FuCAL                     `noun`       {- buzAq -}          [ "spittle", "saliva" ],
+
+    -- ;; baz~Aqap_1
+    -- bzAq    baz~Aq  NapAt   cobra;snail
+
+    FaCCAL |< aT              `noun`       {- baz~Aqap -}       [ "cobra", "snail" ],
+
+    -- ;; baz~Aqap_2
+    -- bzAq    baz~Aq  NapAt   spittoon
+
+    FaCCAL |< aT              `noun`       {- baz~Aqap -}       [ "spittoon" ],
+
+    -- ;; mibozaqap_1
+    -- mbzq    mibozaq NapAt   spittoon
+
+    MiFCaL |< aT              `noun`       {- mibozaqap -}      [ "spittoon" ] ]
+
+ |> "b z r" <| [
+
+    -- ;; bazar-i_1
+    -- bzr     bazar   PV      sow;spice
+    -- bzr     bozir   IV      sow;spice
+
+    FaCaL                     `verb`       {- bazar-i -}        [ "sow", "spice" ]
+                              `imperf`     FCiL
+                              {- `others` [ "bzir IV" ] -},
+
+    -- ;; baz~ar_1
+    -- bzr     baz~ar  PV      sow;spice
+    -- bzr     baz~ir  IV_yu   sow;spice
+    -- bzr     baz~ar  IV_Pass_yu      be sown;be spiced
+
+    FaCCaL                    `verb`       {- baz~ar -}         [ "sow", "spice", "be sown", "be spiced" ]
+                              {- `others` [ "bazzir IV_yu" ] -},
+
+    -- ;; bizor_1
+    -- bzr     bizor   N       seed
+    -- bzwr    buzuwr  N       seeds
+    -- bzr     bizor   NapAt   seed;germ
+
+    FiCL                      `noun`       {- bizor -}          [ "seed", "seeds", "germ" ]
+                              `plural`     FuCUL
+                              {- `others` [ "buzuwr N" ] -},
+
+    -- ;; bizor_2
+    -- bzr     bizor   N       spice
+    -- >bzAr   >abozAr N       spice
+    -- AbzAr   >abozAr N       spice
+    -- >bAzyr  >abAziyr        Ndip    spice
+    -- AbAzyr  >abAziyr        Ndip    spice
+
+    FiCL                      `noun`       {- bizor -}          [ "spice" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'abzAr N" ] -},
+
+    -- ;; baz~Ar_1
+    -- bzAr    baz~Ar  N       seedman
+
+    FaCCAL                    `noun`       {- baz~Ar -}         [ "seedman" ],
+
+    -- ;; buzayorap_1
+    -- bzyr    buzayor NapAt   spore
+
+    FuCayL |< aT              `noun`       {- buzayorap -}      [ "spore" ] ]
+
+ |> "b z y" <| [
+
+    -- ;; bAziy_1
+    -- bAzy    bAziy   N0F_Nh  falcon
+    -- bAz     bAz     NK      falcon
+    -- bzA     buzA    Nap     falcons
+    -- bwAzy   bawAziy N0_Nh   falcons
+    -- bwAz    bawAz   NK      falcons
+
+    FACiL                     `noun`       {- bAziy -}          [ "falcon", "falcons" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawAziy N0_Nh" ] -},
+
+    -- ;; bAziy_1
+    -- bAzy    bAziy   N0F_Nh  falcon
+    -- bAz     bAz     NK      falcon
+    -- bzA     buzA    Nap     falcons
+    -- bwAzy   bawAziy N0_Nh   falcons
+    -- bwAz    bawAz   NK      falcons
+
+    FACI                      `noun`       {- bAziy -}          [ "falcon", "falcons" ]
+                              `plural`     FawACiL
+                              {- `others` [ "bawAziy N0_Nh" ] -} ]
+
+ |> "b z z" <| [
+
+    -- ;; baz~-u_1
+    -- bz      baz~    PV_V    steal;defeat
+    -- bzz     bazaz   PV_C    steal;defeat
+    -- bz      buz~    IV_V    steal;defeat
+    -- bzz     bozuz   IV_C    steal;defeat
+
+    FaCL                      `verb`       {- baz~-u -}         [ "steal", "defeat" ]
+                              `imperf`     FCuL
+                              {- `others` [ "bzuz IV_C", "buzz IV_V", "bazaz PV_C" ] -},
+
+    -- ;; baz~-a_1
+    -- bz      baz~    PV_V    bud;burgeon
+    -- bzz     bazaz   PV_C    bud;burgeon
+    -- bz      buz~    IV_V    bud;burgeon
+    -- bzz     bozuz   IV_C    bud;burgeon
+
+    FaCL                      `verb`       {- baz~-a -}         [ "bud", "burgeon" ]
+                              `imperf`     FCaL
+                              {- `others` [ "bzuz IV_C", "buzz IV_V", "bazaz PV_C" ] -},
+
+    -- ;; {ibotaz~_1
+    -- <btz    {ibotaz~        PV_V    embezzle;extort
+    -- Abtz    {ibotaz~        PV_V    embezzle;extort
+    -- <btzz   {ibotazaz       PV_C    embezzle;extort
+    -- Abtzz   {ibotazaz       PV_C    embezzle;extort
+    -- btz     botaz~  IV_V    embezzle;extort
+    -- btzz    botaziz IV_C    embezzle;extort
+
+    IFtaCL                    `verb`       {- {ibotaz~ -}       [ "embezzle", "extort" ]
+                              {- `others` [ "btaziz IV_C", "btazz IV_V", "ibtazaz PV_C" ] -},
+
+    -- ;; baz~_1
+    -- bz      baz~    N       linen;cloth
+
+    FaCL                      `noun`       {- baz~ -}           [ "linen", "cloth" ],
+
+    -- ;; baz~_2
+    -- bz      baz~    N       theft
+
+    FaCL                      `noun`       {- baz~ -}           [ "theft" ],
+
+    -- ;; buzuwz_1
+    -- bzwz    buzuwz  N       linen;cloth
+
+    FuCUL                     `noun`       {- buzuwz -}         [ "linen", "cloth" ],
+
+    -- ;; buz~_1
+    -- bz      buz~    Ndu     nipple;teat
+    -- bz      biz~    Ndu     nipple;teat
+    -- bzAz    bizAz   N       nipples;teats
+    -- >bzAz   >abozAz N       nipples;teats
+    -- AbzAz   >abozAz N       nipples;teats
+
+    FuCL                      `noun`       {- buz~ -}           [ "nipple", "teat", "nipples", "teats" ]
+                              `plural`     FiCAL
+                              `plural`     HaFCAL
+                              `plural`     FiCL
+                              {- `others` [ "bizAz N", "'abzAz N", "bizz Ndu" ] -},
+
+    -- ;; baz~ap_1
+    -- bz      baz~    Nap     clothing;dress
+
+    FaCL |< aT                `noun`       {- baz~ap -}         [ "clothing", "dress" ],
+
+    -- ;; bizAzap_1
+    -- bzAz    bizAz   Nap     cloth trade
+
+    FiCAL |< aT               `noun`       {- bizAzap -}        [ "cloth trade" ],
+
+    -- ;; baz~Az_1
+    -- bzAz    baz~Az  N       draper;cloth merchant
+
+    FaCCAL                    `noun`       {- baz~Az -}         [ "draper", "cloth merchant" ],
+
+    -- ;; baz~Azap_1
+    -- bzAz    baz~Az  NapAt   pacifier;baby's bottle
+
+    FaCCAL |< aT              `noun`       {- baz~Azap -}       [ "pacifier", "baby's bottle" ],
+
+    -- ;; {ibotizAz_1
+    -- <btzAz  {ibotizAz       NduAt   embezzlement;extortion
+    -- AbtzAz  {ibotizAz       NduAt   embezzlement;extortion
+
+    IFtiCAL                   `noun`       {- {ibotizAz -}      [ "embezzlement", "extortion" ] ]
+
+ |> "bA.tAn" <| [
+
+    -- ;; bATAn_1
+    -- bATAn   bATAn   N       fulling mill
+
+    Identity                  `noun`       {- bATAn -}          [ "fulling mill" ] ]
+
+ |> "bA^giyuw" <| [
+
+    -- ;; bAjiyuw_1
+    -- bAjyw   bAjiyuw Nprop   Baggio
+
+    Identity                  `noun`       {- bAjiyuw -}        [ "Baggio" ] ]
+
+ |> "bA^s.hakiym" <| [
+
+    -- ;; bA$oHakiym_1
+    -- bA$Hkym bA$oHakiym      N       head physician
+
+    Identity                  `noun`       {- bA$oHakiym -}     [ "head physician" ] ]
+
+ |> "bA^sA" <| [
+
+    -- ;; bA$A_1
+    -- bA$A    bA$A    N0      pasha
+    -- bA$Aw   bA$Aw   NAt     pashas
+    -- bA$w    bA$aw   NAt     pashas
+
+    Identity                  `noun`       {- bA$A -}           [ "pasha", "pashas" ] ]
+
+ |> "bA^s^gAwiy^s" <| [
+
+    -- ;; bA$ojAwiy$_1
+    -- bA$jAwy$        bA$ojAwiy$      N       sergeant major
+
+    Identity                  `noun`       {- bA$ojAwiy$ -}     [ "sergeant major" ] ]
+
+ |> "bA^skAtib" <| [
+
+    -- ;; bA$okAtib_1
+    -- bA$kAtb bA$okAtib       N       chief clerk
+
+    Identity                  `noun`       {- bA$okAtib -}      [ "chief clerk" ] ]
+
+ |> "bA^skAyA" <| [
+
+    -- ;; bA$kAyA_1
+    -- bA$kAyA bA$kAyA Nprop   Bashkaya
+
+    Identity                  `noun`       {- bA$kAyA -}        [ "Bashkaya" ] ]
+
+ |> "bA^smufatti^s" <| [
+
+    -- ;; bA$omufat~i$_1
+    -- bA$mft$ bA$omufat~i$    Nall    chief inspector
+
+    Identity                  `noun`       {- bA$omufat~i$ -}   [ "chief inspector" ] ]
+
+ |> "bA^smuftiy" <| [
+
+    -- ;; bA$omufotiy_1
+    -- bA$mfty bA$omufotiy     N       chief mufti
+
+    Identity                  `noun`       {- bA$omufotiy -}    [ "chief mufti" ] ]
+
+ |> "bA^smuhandis" <| [
+
+    -- ;; bA$omuhanodis_1
+    -- bA$mhnds        bA$omuhanodis   Nall    chief engineer
+
+    Identity                  `noun`       {- bA$omuhanodis -}  [ "chief engineer" ] ]
+
+ |> "bA^sqird" <| [
+
+    -- ;; bA$oqirod_1
+    -- bA$qrd  bA$oqirod       N       Bashkir
+
+    Identity                  `noun`       {- bA$oqirod -}      [ "Bashkir" ] ]
+
+ |> "bA_din^gAn" <| [
+
+    -- ;; bA*inojAn_1
+    -- bA*njAn bA*inojAn       N/ap    eggplant
+    -- by*njAn bayo*injAn      N/ap    eggplant
+
+    Identity                  `noun`       {- bA*inojAn -}      [ "eggplant" ] ]
+
+ |> "bA_tuwluw^g" <| [
+
+    -- ;; bAvuwluwjiy~_1
+    -- bAvwlwjy        bAvuwluwjiy~    Nall    pathological     [[bAvuwluwjiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- bAvuwluwjiy~ -}   [ "pathological" ] ]
+
+ |> "bA_tuwluw^giyA" <| [
+
+    -- ;; bAvuwluwjiyA_1
+    -- bAvwlwjyA       bAvuwluwjiyA    N0      pathology
+    -- bAjbyr  bAjobiyr        N0      Bajbeir
+
+    Identity                  `noun`       {- bAvuwluwjiyA -}   [ "pathology", "Bajbeir" ] ]
+
+ |> "bA`ubayd" <| [
+
+    -- ;; bAEubayod_1
+    -- bAEbyd  bAEubayod       N0      Baobaid
+
+    Identity                  `noun`       {- bAEubayod -}      [ "Baobaid" ] ]
+
+ |> "bAbA" <| [
+
+    -- ;; bAbA_1
+    -- bAbA    bAbA    N0      Pope
+
+    Identity                  `noun`       {- bAbA -}           [ "Pope" ] ]
+
+ |> "bAbAmuwbiyl" <| [
+
+    -- ;; bAbAmuwbiyl_1
+    -- bAbAmwbyl       bAbAmuwbiyl     N0      Popemobile
+
+    Identity                  `noun`       {- bAbAmuwbiyl -}    [ "Popemobile" ] ]
+
+ |> "bAbAndriyuw" <| [
+
+    -- ;; bAbAnodriyuw_1
+    -- bAbAndryw       bAbAnodriyuw    Nprop   Papandreou
+
+    Identity                  `noun`       {- bAbAnodriyuw -}   [ "Papandreou" ] ]
+
+ |> "bAbY" <| [
+
+    -- ;; bAbawiy~_1
+    -- bAbwy   bAbawiy~        Nall    papal     [[bAbawiy~/ADJ]]
+    -- bAbAwy  bAbAwiy~        Nall    papal     [[bAbAwiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- bAbawiy~ -}       [ "papal" ],
+
+    -- ;; bAbawiy~ap_1
+    -- bAbwy   bAbawiy~        Nap     papacy     [[bAbawiy~/NOUN]]
+
+    Identity |< Iy |< aT      `noun`       {- bAbawiy~ap -}     [ "papacy" ] ]
+
+ |> "bAbih" <| [
+
+    -- ;; bAbih_1
+    -- bAbh    bAbih   N0      Babih
+
+    Identity                  `noun`       {- bAbih -}          [ "Babih" ] ]
+
+ |> "bAbil" <| [
+
+    -- ;; bAbil_1
+    -- bAbl    bAbil   N       Babel;Babylon
+
+    Identity                  `noun`       {- bAbil -}          [ "Babel", "Babylon" ],
+
+    -- ;; bAbiliy~_1
+    -- bAbly   bAbiliy~        Nall    Babylonian     [[bAbiliy~/NOUN]]
+    -- bAbly   bAbiliy~        Nall    Babylonian     [[bAbiliy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- bAbiliy~ -}       [ "Babylonian" ] ]
+
+ |> "bAbiyt^siyf" <| [
+
+    -- ;; bAbiyt$iyf_1
+    -- bAbyt$yf        bAbiyt$iyf      Nprop   Babichev
+
+    Identity                  `noun`       {- bAbiyt$iyf -}     [ "Babichev" ] ]
+
+ |> "bAbluw" <| [
+
+    -- ;; bAboluw_1
+    -- bAblw   bAboluw Nprop   Pablo
+
+    Identity                  `noun`       {- bAboluw -}        [ "Pablo" ] ]
+
+ |> "bAbuw^g" <| [
+
+    -- ;; bAbuwj_1
+    -- bAbwj   bAbuwj  Ndu     slipper
+    -- bwAbyj  bawAbiyj        Ndip    slippers
+
+    Identity                  `noun`       {- bAbuwj -}         [ "slipper", "slippers" ] ]
+
+ |> "bAbuwna^g" <| [
+
+    -- ;; bAbuwnaj_1
+    -- bAbwnj  bAbuwnaj        N       chamomile
+
+    Identity                  `noun`       {- bAbuwnaj -}       [ "chamomile" ] ]
+
+ |> "bAbuwr" <| [
+
+    -- ;; bAbuwr_1
+    -- bAbwr   bAbuwr  NduAt   steamship;steamer
+    -- bwAbyr  bawAbiyr        Ndip    steamships;steamers
+
+    Identity                  `noun`       {- bAbuwr -}         [ "steamship", "steamer", "steamships", "steamers" ] ]
+
+ |> "bAfAriyA" <| [
+
+    -- ;; bAfAriyA_1
+    -- bAfAryA bAfAriyA        Nprop   Bavaria
+
+    Identity                  `noun`       {- bAfAriyA -}       [ "Bavaria" ] ]
+
+ |> "bAfluwf" <| [
+
+    -- ;; bAfoluwf_1
+    -- bAflwf  bAfoluwf        Nprop   Pavlov
+
+    Identity                  `noun`       {- bAfoluwf -}       [ "Pavlov" ] ]
+
+ |> "bAkAl" <| [
+
+    -- ;; bAkAl_1
+    -- bAkAl   bAkAl   Nprop   Bacall
+
+    Identity                  `noun`       {- bAkAl -}          [ "Bacall" ] ]
+
+ |> "bAkistAn" <| [
+
+    -- ;; bAkisotAn_1
+    -- bAkstAn bAkisotAn       N       Pakistan
+
+    Identity                  `noun`       {- bAkisotAn -}      [ "Pakistan" ],
+
+    -- ;; bAkistAniy~_1
+    -- bAkstAny        bAkistAniy~     Nall    Pakistani     [[bAkistAniy~/NOUN]]
+    -- bAkstAny        bAkistAniy~     Nall    Pakistani     [[bAkistAniy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- bAkistAniy~ -}    [ "Pakistani" ] ]
+
+ |> "bAktiyr" <| [
+
+    -- ;; bAkotiyriy~_1
+    -- bAktyry bAkotiyriy~     Nall    bacterial     [[bAkotiyriy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- bAkotiyriy~ -}    [ "bacterial" ] ]
+
+ |> "bAktiyriyA" <| [
+
+    -- ;; bAkotiyriyA_1
+    -- bAktyryA        bAkotiyriyA     N0      bacteria
+
+    Identity                  `noun`       {- bAkotiyriyA -}    [ "bacteria" ] ]
+
+ |> "bAkuw" <| [
+
+    -- ;; bAkuw_1
+    -- bAkw    bAkuw   N0      Baku
+
+    Identity                  `noun`       {- bAkuw -}          [ "Baku" ],
+
+    -- ;; bAkuw_2
+    -- bAkw    bAkuw   N       packet
+    -- bAkw    bAkaw   NAt     packets
+
+    Identity                  `noun`       {- bAkuw -}          [ "packet", "packets" ] ]
+
+ |> "bAl.tuw" <| [
+
+    -- ;; bAloTuw_1
+    -- bAlTw   bAloTuw NduAt   overcoat
+    -- blATy   balATiy N       overcoats
+
+    Identity                  `noun`       {- bAloTuw -}        [ "overcoat", "overcoats" ] ]
+
+ |> "bAlbiyd" <| [
+
+    -- ;; bAlobiyd_1
+    -- bAlbyd  bAlobiyd        Nprop   Balbeed
+
+    Identity                  `noun`       {- bAlobiyd -}       [ "Balbeed" ] ]
+
+ |> "bAliyAr" <| [
+
+    -- ;; bAliyAr_1
+    -- bAlyAr  bAliyAr N       Balearic
+
+    Identity                  `noun`       {- bAliyAr -}        [ "Balearic" ] ]
+
+ |> "bAliyh" <| [
+
+    -- ;; bAliyh_1
+    -- bAlyh   bAliyh  N       ballet
+
+    Identity                  `noun`       {- bAliyh -}         [ "ballet" ] ]
+
+ |> "bAliyrmuw" <| [
+
+    -- ;; bAliyromuw_1
+    -- bAlyrmw bAliyromuw      Nprop   Palermo
+
+    Identity                  `noun`       {- bAliyromuw -}     [ "Palermo" ] ]
+
+ |> "bAlsiyls" <| [
+
+    -- ;; bAlosiyls_1
+    -- bAlsyls bAlosiyls       Nprop   Balcells
+
+    Identity                  `noun`       {- bAlosiyls -}      [ "Balcells" ] ]
+
+ |> "bAltAsAr" <| [
+
+    -- ;; bAltAsAr_1
+    -- bAltAsAr        bAltAsAr        N0      Baltasar;Baltazar
+
+    Identity                  `noun`       {- bAltAsAr -}       [ "Baltasar", "Baltazar" ] ]
+
+ |> "bAltiyAnskiy" <| [
+
+    -- ;; bAlotiyAnosokiy_1
+    -- bAltyAnsky      bAlotiyAnosokiy N0      Baltiansky
+
+    Identity                  `noun`       {- bAlotiyAnosokiy -} [ "Baltiansky" ] ]
+
+ |> "bAmiyA" <| [
+
+    -- ;; bAmiyA_1
+    -- bAmyA   bAmiyA  N0      okra
+    -- bAmy    bAmiy   Nap     okra
+
+    Identity                  `noun`       {- bAmiyA -}         [ "okra" ] ]
+
+ |> "bAn.taluwn" <| [
+
+    -- ;; bAnoTaluwn_1
+    -- bAnTlwn bAnoTaluwn      N       trousers
+
+    Identity                  `noun`       {- bAnoTaluwn -}     [ "trousers" ] ]
+
+ |> "bAnamA" <| [
+
+    -- ;; bAnamA_1
+    -- bAnmA   bAnamA  N0      Panama
+
+    Identity                  `noun`       {- bAnamA -}         [ "Panama" ] ]
+
+ |> "bAndA^g" <| [
+
+    -- ;; bAnodAj_1
+    -- bAndAj  bAnodAj N       bandage
+
+    Identity                  `noun`       {- bAnodAj -}        [ "bandage" ] ]
+
+ |> "bAnduwnduw" <| [
+
+    -- ;; bAnduwnoduw_1
+    -- bAndwndw        bAnduwnoduw     N0      Bandondo
+
+    Identity                  `noun`       {- bAnduwnoduw -}    [ "Bandondo" ] ]
+
+ |> "bAniyk" <| [
+
+    -- ;; bAniyk_1
+    -- bAnyk   bAniyk  Nprop   Banik
+
+    Identity                  `noun`       {- bAniyk -}         [ "Banik" ] ]
+
+ |> "bAniyt^sbAkdiy" <| [
+
+    -- ;; bAniyt$obAkodiy_1
+    -- bAnyt$bAkdy     bAniyt$obAkodiy Nprop   Panitchpakdi
+
+    Identity                  `noun`       {- bAniyt$obAkodiy -} [ "Panitchpakdi" ] ]
+
+ |> "bAnkuwk" <| [
+
+    -- ;; bAnokuwk_1
+    -- bAnkwk  bAnokuwk        Nprop   Bankok
+
+    Identity                  `noun`       {- bAnokuwk -}       [ "Bankok" ] ]
+
+ |> "bAnt^s" <| [
+
+    -- ;; bAnt$_1
+    -- bAnt$   bAnt$   Nprop   Punch
+
+    Identity                  `noun`       {- bAnt$ -}          [ "Punch" ] ]
+
+ |> "bAntiyliyf" <| [
+
+    -- ;; bAnotiyliyf_1
+    -- bAntylyf        bAnotiyliyf     Nprop   Pantilev
+
+    Identity                  `noun`       {- bAnotiyliyf -}    [ "Pantilev" ] ]
+
+ |> "bAntuwmiym" <| [
+
+    -- ;; bAnotuwmiym_1
+    -- bAntwmym        bAnotuwmiym     N       pantomime
+
+    Identity                  `noun`       {- bAnotuwmiym -}    [ "pantomime" ] ]
+
+ |> "bAnuwfA" <| [
+
+    -- ;; bAnuwfA_1
+    -- bAnwfA  bAnuwfA Nprop   Panova
+
+    Identity                  `noun`       {- bAnuwfA -}        [ "Panova" ] ]
+
+ |> "bAnuwrAm" <| [
+
+    -- ;; bAnuwrAmiy~_1
+    -- bAnwrAmy        bAnuwrAmiy~     Nall    panoramic     [[bAnuwrAmiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- bAnuwrAmiy~ -}    [ "panoramic" ] ]
+
+ |> "bAnuwrAmA" <| [
+
+    -- ;; bAnuwrAmA_1
+    -- bAnwrAmA        bAnuwrAmA       N0      panorama
+
+    Identity                  `noun`       {- bAnuwrAmA -}      [ "panorama" ] ]
+
+ |> "bAnyAs" <| [
+
+    -- ;; bAnoyAs_1
+    -- bAnyAs  bAnoyAs Nprop   Banias;Banyas
+
+    Identity                  `noun`       {- bAnoyAs -}        [ "Banias", "Banyas" ] ]
+
+ |> "bArA^suwt" <| [
+
+    -- ;; bArA$uwt_1
+    -- bArA$wt bArA$uwt        N       parachute
+
+    Identity                  `noun`       {- bArA$uwt -}       [ "parachute" ] ]
+
+ |> "bArAduwrn" <| [
+
+    -- ;; bArAduwrn_1
+    -- bArAdwrn        bArAduwrn       Nprop   Paradorn
+
+    Identity                  `noun`       {- bArAduwrn -}      [ "Paradorn" ] ]
+
+ |> "bArAk" <| [
+
+    -- ;; bArAk_1
+    -- bArAk   bArAk   Nprop   Barak
+    -- bArk    bArak   Nprop   Barak
+
+    Identity                  `noun`       {- bArAk -}          [ "Barak" ] ]
+
+ |> "bArAnuwf" <| [
+
+    -- ;; bArAnuwf_1
+    -- bArAnwf bArAnuwf        Nprop   Baranov
+
+    Identity                  `noun`       {- bArAnuwf -}       [ "Baranov" ] ]
+
+ |> "bArAnuwyA" <| [
+
+    -- ;; bArAnuwyA_1
+    -- bArAnwyA        bArAnuwyA       N       paranoia
+
+    Identity                  `noun`       {- bArAnuwyA -}      [ "paranoia" ] ]
+
+ |> "bAra^guwA'" <| [
+
+    -- ;; bArajuwA}iy~_1
+    -- bArjwA}y        bArajuwA}iy~    Nall    Paraguayan
+    -- bArgwA}y        bAraguwA}iy~    Nall    Paraguayan
+    -- bArAjwA}y       bArAjuwA}iy~    Nall    Paraguayan
+    -- bArAgwA}y       bArAguwA}iy~    Nall    Paraguayan
+    -- brAjwA}y        barAjwA}iy~     Nall    Paraguayan
+    -- brAgwA}y        barAgwA}iy~     Nall    Paraguayan
+
+    Identity |< Iy            `adj`        {- bArajuwA}iy~ -}   [ "Paraguayan" ] ]
+
+ |> "bAra^guwAy" <| [
+
+    -- ;; bArajuwAy_1
+    -- bArjwAy bArajuwAy       N0      Paraguay
+    -- bArgwAy bAraguwAy       N0      Paraguay
+    -- bArAjwAy        bArAjuwAy       N0      Paraguay
+    -- bArAgwAy        bArAguwAy       N0      Paraguay
+    -- brAjwAy barAjwAy        N0      Paraguay
+    -- brAgwAy barAgwAy        N0      Paraguay
+
+    Identity                  `noun`       {- bArajuwAy -}      [ "Paraguay" ] ]
+
+ |> "bArbAduws" <| [
+
+    -- ;; bArobAduws_1
+    -- bArbAdws        bArobAduws      N0      Barbados
+    -- brbAdws barobAduws      N0      Barbados
+
+    Identity                  `noun`       {- bArobAduws -}     [ "Barbados" ] ]
+
+ |> "bArbir" <| [
+
+    -- ;; bArobir_1
+    -- bArbr   bArobir N0      Barber
+
+    Identity                  `noun`       {- bArobir -}        [ "Barber" ] ]
+
+ |> "bArfAn" <| [
+
+    -- ;; bArfAn_1
+    -- bArfAn  bArfAn  N       perfume
+
+    Identity                  `noun`       {- bArfAn -}         [ "perfume" ] ]
+
+ |> "bArints" <| [
+
+    -- ;; bArinots_1
+    -- bArnts  bArinots        N0      Barents
+
+    Identity                  `noun`       {- bArinots -}       [ "Barents" ] ]
+
+ |> "bAriyba" <| [
+
+    -- ;; bAriyba_1
+    -- bArybA  bAriybA Nprop   Bariba
+
+    Identity                  `noun`       {- bAriyba -}        [ "Bariba" ] ]
+
+ |> "bAriys" <| [
+
+    -- ;; bAriys_1
+    -- bArys   bAriys  Nprop   Paris
+
+    Identity                  `noun`       {- bAriys -}         [ "Paris" ],
+
+    -- ;; bAriysiy~_1
+    -- bArysy  bAriysiy~       Nall    Parisian     [[bAriysiy~/NOUN]]
+    -- bArysy  bAriysiy~       Nall    Parisian     [[bAriysiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- bAriysiy~ -}      [ "Parisian" ] ]
+
+ |> "bAriyuwm" <| [
+
+    -- ;; bAriyuwm_1
+    -- bArywm  bAriyuwm        N       barium
+
+    Identity                  `noun`       {- bAriyuwm -}       [ "barium" ] ]
+
+ |> "bAriyziyAn" <| [
+
+    -- ;; bAriyziyAn_1
+    -- bAryzyAn        bAriyziyAn      N0      Parisien
+
+    Identity                  `noun`       {- bAriyziyAn -}     [ "Parisien" ] ]
+
+ |> "bArkir" <| [
+
+    -- ;; bArokir_1
+    -- bArkr   bArokir Nprop   Parker
+
+    Identity                  `noun`       {- bArokir -}        [ "Parker" ],
+
+    -- ;; bArokir_2
+    -- bArkr   bArokir Nprop   Barker
+
+    Identity                  `noun`       {- bArokir -}        [ "Barker" ] ]
+
+ |> "bArluwr" <| [
+
+    -- ;; bAroluwr_1
+    -- bArlwr  bAroluwr        N0      Parlour
+
+    Identity                  `noun`       {- bAroluwr -}       [ "Parlour" ] ]
+
+ |> "bArmA" <| [
+
+    -- ;; bAromA_1
+    -- bArmA   bAromA  N0      Parma
+
+    Identity                  `noun`       {- bAromA -}         [ "Parma" ] ]
+
+ |> "bArnysAndnwbl" <| [
+
+    -- ;; bArnysAndnwbl_1
+    -- bArnysAndnwbl   bArnysAndnwbl   Nprop   Barnes and Noble
+
+    Identity                  `noun`       {- bArnysAndnwbl -}  [ "Barnes and Noble" ] ]
+
+ |> "bArtnraz" <| [
+
+    -- ;; bArtonraz_1
+    -- bArtnrz bArtonraz       N0      Partners
+
+    Identity                  `noun`       {- bArtonraz -}      [ "Partners" ] ]
+
+ |> "bArtuw" <| [
+
+    -- ;; bArotuw_1
+    -- bArtw   bArotuw Nprop   Barto
+    -- bArtyz  bArotiyz        Nprop   Barthez
+
+    Identity                  `noun`       {- bArotuw -}        [ "Barto", "Barthez" ] ]
+
+ |> "bAsbuwr" <| [
+
+    -- ;; bAsobuwr_1
+    -- bAsbwr  bAsobuwr        NduAt   passport
+
+    Identity                  `noun`       {- bAsobuwr -}       [ "passport" ] ]
+
+ |> "bAsiyd^giy" <| [
+
+    -- ;; bAsiydjiy_1
+    -- bAsydjy bAsiydjiy       N0      Basiji
+
+    Identity                  `noun`       {- bAsiydjiy -}      [ "Basiji" ] ]
+
+ |> "bAsiyl" <| [
+
+    -- ;; bAsiyl_1
+    -- bAsyl   bAsiyl  N       bacilli
+
+    Identity                  `noun`       {- bAsiyl -}         [ "bacilli" ] ]
+
+ |> "bAskuwAl" <| [
+
+    -- ;; bAsokuwAl_1
+    -- bAskwAl bAsokuwAl       N0      Pascual
+
+    Identity                  `noun`       {- bAsokuwAl -}      [ "Pascual" ] ]
+
+ |> "bAstil" <| [
+
+    -- ;; bAsotil_1
+    -- bAstl   bAsotil Nprop   Bastl
+    -- bAstyl  bAsotiyl        Nprop   Bastl
+
+    Identity                  `noun`       {- bAsotil -}        [ "Bastl" ] ]
+
+ |> "bAstiyA" <| [
+
+    -- ;; bAsotiyA_1
+    -- bAstyA  bAsotiyA        N0      Bastia
+
+    Identity                  `noun`       {- bAsotiyA -}       [ "Bastia" ] ]
+
+ |> "bAstiyl" <| [
+
+    -- ;; bAsotiyl_1
+    -- bAstyl  bAsotiyl        N       pastel
+
+    Identity                  `noun`       {- bAsotiyl -}       [ "pastel" ] ]
+
+ |> "bAsuw" <| [
+
+    -- ;; bAsuw_1
+    -- bAsw    bAsuw   N0      Paso
+
+    Identity                  `noun`       {- bAsuw -}          [ "Paso" ] ]
+
+ |> "bAtistah" <| [
+
+    -- ;; bAtistah_1
+    -- bAtsth  bAtistah        N0      batiste
+
+    Identity                  `noun`       {- bAtistah -}       [ "batiste" ] ]
+
+ |> "bAtiystuwtA" <| [
+
+    -- ;; bAtiysotuwtA_1
+    -- bAtystwtA       bAtiysotuwtA    Nprop   Batistuta
+
+    Identity                  `noun`       {- bAtiysotuwtA -}   [ "Batistuta" ] ]
+
+ |> "bAtlar" <| [
+
+    -- ;; bAtolar_1
+    -- bAtlr   bAtolar Nprop   Butler
+    -- btlr    batolar Nprop   Butler
+
+    Identity                  `noun`       {- bAtolar -}        [ "Butler" ] ]
+
+ |> "bAtriyk" <| [
+
+    -- ;; bAtriyk_1
+    -- bAtryk  bAtriyk Nprop   Patrick
+
+    Identity                  `noun`       {- bAtriyk -}        [ "Patrick" ] ]
+
+ |> "bAtuwlA" <| [
+
+    -- ;; bAtuwlA_1
+    -- bAtwlA  bAtuwlA N0      birch tree
+
+    Identity                  `noun`       {- bAtuwlA -}        [ "birch tree" ] ]
+
+ |> "bAwlA" <| [
+
+    -- ;; bAwolA_1
+    -- bAwlA   bAwolA  Nprop   Paula
+
+    Identity                  `noun`       {- bAwolA -}         [ "Paula" ] ]
+
+ |> "bAwluw" <| [
+
+    -- ;; bAwoluw_1
+    -- bAwlw   bAwoluw Nprop   Paulo
+
+    Identity                  `noun`       {- bAwoluw -}        [ "Paulo" ] ]
+
+ |> "bAwmAn" <| [
+
+    -- ;; bAwmAn_1
+    -- bAwmAn  bAwmAn  Nprop   Bauman
+
+    Identity                  `noun`       {- bAwmAn -}         [ "Bauman" ] ]
+
+ |> "bAwnd" <| [
+
+    -- ;; bAwnd_1
+    -- bAwnd   bAwnd   Nprop   Pound
+
+    Identity                  `noun`       {- bAwnd -}          [ "Pound" ] ]
+
+ |> "bAwt^sir" <| [
+
+    -- ;; bAwto$ir_1
+    -- bAwt$r  bAwto$ir        Nprop   Voucher
+
+    Identity                  `noun`       {- bAwto$ir -}       [ "Voucher" ] ]
+
+ |> "bAyA" <| [
+
+    -- ;; bAyA_1
+    -- bAyA    bAyA    Nprop   Baia
+    -- byA     bayA    Nprop   Baia
+
+    Identity                  `noun`       {- bAyA -}           [ "Baia" ] ]
+
+ |> "bAybil" <| [
+
+    -- ;; bAybil_1
+    -- bAybl   bAybil  Nprop   Bible ??
+
+    Identity                  `noun`       {- bAybil -}         [ "Bible ??" ] ]
+
+ |> "bAyirn" <| [
+
+    -- ;; bAyiron_1
+    -- bAyrn   bAyiron Nprop   Bayern
+
+    Identity                  `noun`       {- bAyiron -}        [ "Bayern" ] ]
+
+ |> "bAykuwn" <| [
+
+    -- ;; bAyokuwn_1
+    -- bAykwn  bAyokuwn        Nprop   Bacon
+    -- bAykn   bAyokun Nprop   Bacon
+
+    Identity                  `noun`       {- bAyokuwn -}       [ "Bacon" ] ]
+
+ |> "bAynliy_h" <| [
+
+    -- ;; bAynoliyx_1
+    -- bAynlyx bAynoliyx       Nprop   Beinlich
+
+    Identity                  `noun`       {- bAynoliyx -}      [ "Beinlich" ] ]
+
+ |> "bAyts" <| [
+
+    -- ;; bAytos_1
+    -- bAyts   bAytos  Nprop   Bates
+
+    Identity                  `noun`       {- bAytos -}         [ "Bates" ] ]
+
+ |> "bAytuwn" <| [
+
+    -- ;; bAytuwn_1
+    -- bAytwn  bAytuwn Nprop   Payton
+
+    Identity                  `noun`       {- bAytuwn -}        [ "Payton" ] ]
+
+ |> "bAzAr" <| [
+
+    -- ;; bAzAr_1
+    -- bAzAr   bAzAr   N/At    bazaar
+
+    Identity                  `noun`       {- bAzAr -}          [ "bazaar" ] ]
+
+ |> "bAzalt" <| [
+
+    -- ;; bAzalot_1
+    -- bAzlt   bAzalot N       basalt
+
+    Identity                  `noun`       {- bAzalot -}        [ "basalt" ] ]
+
+ |> "bAzuwband" <| [
+
+    -- ;; bAzuwbanod_1
+    -- bAzwbnd bAzuwbanod      N       bracelet
+
+    Identity                  `noun`       {- bAzuwbanod -}     [ "bracelet" ] ]
+
+ |> "ba.g" <| [
+
+    -- ;; bagiy~_1
+    -- bgy     bagiy~  Ndu     whore
+    -- bgAyA   bagAyA  N0      whores
+    -- bgAyA   bagAyA  Nhy     whores
+
+    Identity |< Iy            `adj`        {- bagiy~ -}         [ "whore", "whores" ] ]
+
+ |> "ba.hrayn" <| [
+
+    -- ;; baHorayoniy~_1
+    -- bHryny  baHorayoniy~    Nall    Bahraini     [[baHorayoniy~/NOUN]]
+    -- bHryny  baHorayoniy~    Nall    Bahraini     [[baHorayoniy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- baHorayoniy~ -}   [ "Bahraini" ] ]
+
+ |> "ba.hrayni" <| [
+
+    -- ;; baHorayoni_1
+    -- bHryn   baHorayoni      N0      Bahrain
+
+    Identity                  `noun`       {- baHorayoni -}     [ "Bahrain" ] ]
+
+ |> "ba.sratAn" <| [
+
+    -- ;; baSoratAn_1
+    -- bSrt    baSorat NAn_Nayn        Basras (Basra and Kufa)
+
+    Identity                  `noun`       {- baSoratAn -}      [ "Basras (Basra and Kufa)" ] ]
+
+ |> "ba.t.tiy_h" <| [
+
+    -- ;; baT~iyx_1
+    -- bTyx    baT~iyx N       watermelon
+    -- bTAx    baT~Ax  NapAt   watermelon
+
+    Identity                  `noun`       {- baT~iyx -}        [ "watermelon" ] ]
+
+ |> "ba.tA.tA" <| [
+
+    -- ;; baTATA_1
+    -- bTATA   baTATA  N0      sweet potato
+    -- bTAT    baTAT   Napdu   sweet potato
+
+    Identity                  `noun`       {- baTATA -}         [ "sweet potato" ] ]
+
+ |> "ba.talyaws" <| [
+
+    -- ;; baTaloyawos_1
+    -- bTlyws  baTaloyawos     N       Badajoz
+
+    Identity                  `noun`       {- baTaloyawos -}    [ "Badajoz" ] ]
+
+ |> "ba.tlaymuws" <| [
+
+    -- ;; baTolayomuws_1
+    -- bTlymws baTolayomuws    N       Ptolemy
+    -- bTlmyws baTolamiyuws    N       Ptolemy
+
+    Identity                  `noun`       {- baTolayomuws -}   [ "Ptolemy" ],
+
+    -- ;; baTolayomuwsiy~_1
+    -- bTlymwsy        baTolayomuwsiy~ Nall    Ptolemaic     [[baTolayomuwsiy~/NOUN]]
+    -- bTlymwsy        baTolayomuwsiy~ Nall    Ptolemaic     [[baTolayomuwsiy~/ADJ]]
+    -- bTlmywsy        baTolamiyuwsiy~ Nall    Ptolemaic     [[baTolamiyuwsiy~/NOUN]]
+    -- bTlmywsy        baTolamiyuwsiy~ Nall    Ptolemaic     [[baTolamiyuwsiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- baTolayomuwsiy~ -} [ "Ptolemaic" ] ]
+
+ |> "ba.tra^siyl" <| [
+
+    -- ;; baTora$iyl_1
+    -- bTr$yl  baTora$iyl      N       stole (ecclesiastical scarf)
+    -- bTr$yn  baTora$iyn      N       stole (ecclesiastical scarf)
+    -- bTAr$   baTAri$ Ndip    stoles (ecclesiastical scarfs)
+
+    Identity                  `noun`       {- baTora$iyl -}     [ "stole (ecclesiastical scarf)", "stoles (ecclesiastical scarfs)" ] ]
+
+ |> "ba.trak_hAn" <| [
+
+    -- ;; baTorakoxAnap_1
+    -- bTrkxAn baTorakoxAn     Nap     patriarchal seat
+
+    Identity |< aT            `noun`       {- baTorakoxAnap -}  [ "patriarchal seat" ] ]
+
+ |> "ba.triyark" <| [
+
+    -- ;; baToriyarok_1
+    -- bTryrk  baToriyarok     N       Patriarch
+
+    Identity                  `noun`       {- baToriyarok -}    [ "Patriarch" ],
+
+    -- ;; baToriyarokiy~ap_1
+    -- bTryrky baToriyarokiy~  Nap     patriarchate     [[baToriyarkiy~/NOUN]]
+
+    Identity |< Iy |< aT      `noun`       {- baToriyarokiy~ap -} [ "patriarchate" ] ]
+
+ |> "ba^sans" <| [
+
+    -- ;; ba$anos_1
+    -- b$ns    ba$anos N0      Bashans (9th Coptic month, May 9-June 7)
+
+    Identity                  `noun`       {- ba$anos -}        [ "Bashans (9th Coptic month, May 9-June 7)" ] ]
+
+ |> "ba^saruw^s" <| [
+
+    -- ;; ba$aruw$_1
+    -- b$rw$   ba$aruw$        N       flamingo
+
+    Identity                  `noun`       {- ba$aruw$ -}       [ "flamingo" ] ]
+
+ |> "ba_h" <| [
+
+    -- ;; bax_1
+    -- bx      bax     FW      bravo!     [[bax/INTERJ]]
+
+    Identity                  `noun`       {- bax -}            [ "bravo!" ] ]
+
+ |> "ba`abdA" <| [
+
+    -- ;; baEabodA_1
+    -- bEbdA   baEabodA        N0      Baabda
+
+    Identity                  `noun`       {- baEabodA -}       [ "Baabda" ] ]
+
+ |> "ba`da" <| [
+
+    -- ;; baEoda_1
+    -- bEd     baEoda  FW-Wa   after     [[baEoda/PREP]]
+    -- bEd     baEodi  FW-Wa   after     [[baEodi/PREP]]
+    -- bEd     baEoda  FW-Wa-a after     [[baEoda/PREP]]
+    -- bEd     baEodi  FW-Wa-i after     [[baEodi/PREP]]
+    -- bEd     baEod   FW-Wa-o after     [[baEod/PREP]]
+
+    Identity                  `noun`       {- baEoda -}         [ "after" ] ]
+
+ |> "ba`damA" <| [
+
+    -- ;; baEodamA_1
+    -- bEdmA   baEodamA        FW-Wa   after                                  [[baEodamA/CONJ]]
+
+    Identity                  `noun`       {- baEodamA -}       [ "after" ],
+
+    -- ;; baEodamA_2
+    -- bEdmA   baEodamA        FW-Wa   after what                             [[baEoda/PREP+mA/REL_PRON]]
+
+    Identity                  `noun`       {- baEodamA -}       [ "after what" ] ]
+
+ |> "ba`du" <| [
+
+    -- ;; baEodu_1
+    -- bEd     baEodu  FW-Wa   afterward;later;(not) yet              [[baEodu/ADV]]
+
+    Identity                  `noun`       {- baEodu -}         [ "afterward", "later", "(not) yet" ] ]
+
+ |> "ba`labakk" <| [
+
+    -- ;; baEolabak~_1
+    -- bElbk   baEolabak~      N0      Baalbek
+
+    Identity                  `noun`       {- baEolabak~ -}     [ "Baalbek" ],
+
+    -- ;; baEolabak~iy~_1
+    -- bElbky  baEolabak~iy~   Nall    from/of Baalbek     [[baEolabak~iy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- baEolabak~iy~ -}  [ "from/of Baalbek" ],
+
+    -- ;; baEolabak~iy~_2
+    -- bElbky  baEolabak~iy~   N0      Baalbakki
+
+    Identity |< Iy            `adj`        {- baEolabak~iy~ -}  [ "Baalbakki" ] ]
+
+ |> "bab.gA'" <| [
+
+    -- ;; babogA'_1
+    -- bbgA'   babogA' N0_Nh   parrot
+    -- bbgA&   babogA& Nh      parrot
+    -- bbgA}   babogA} Nhy     parrot
+    -- bbgA'   bab~agA'        N0_Nh   parrot
+    -- bbgA&   bab~agA&        Nh      parrot
+    -- bbgA}   bab~agA}        Nhy     parrot
+    -- bbgAw   babogAw NAt     parrots
+    -- bbgAw   bab~agAw        NAt     parrots
+
+    Identity                  `noun`       {- babogA' -}        [ "parrot", "parrots" ] ]
+
+ |> "babr" <| [
+
+    -- ;; babor_1
+    -- bbr     babor   Ndu     tiger
+    -- bbwr    bubuwr  N       tigers
+
+    Identity                  `noun`       {- babor -}          [ "tiger", "tigers" ] ]
+
+ |> "badAri" <| [
+
+    -- ;; badAri_1
+    -- bdAr    badAri  FW-Wa   hurry!     [[badAri/INTERJ]]
+    -- AlbdAr  AlobadAri       FW-Wa   hurry!     [[AlobadAri/INTERJ]]
+
+    Identity                  `noun`       {- badAri -}         [ "hurry!" ] ]
+
+ |> "bah" <| [
+
+    -- ;; bahiy~_1
+    -- bhy     bahiy~  N-ap    beautiful;brilliant     [[bahiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- bahiy~ -}         [ "beautiful", "brilliant" ] ]
+
+ |> "bahAmA" <| [
+
+    -- ;; bahAmA_1
+    -- bhAmA   bahAmA  N0      Bahamas
+
+    Identity                  `noun`       {- bahAmA -}         [ "Bahamas" ] ]
+
+ |> "bahbahAniy" <| [
+
+    -- ;; bahobahAniy_1
+    -- bhbhAny bahobahAniy     N0      Bahbahani
+
+    Identity                  `noun`       {- bahobahAniy -}    [ "Bahbahani" ] ]
+
+ |> "bahlawAn" <| [
+
+    -- ;; baholawAn_1
+    -- bhlwAn  baholawAn       N/ap    acrobat
+    -- bhAlyn  bahAliyn        Ndip    acrobats
+
+    Identity                  `noun`       {- baholawAn -}      [ "acrobat", "acrobats" ],
+
+    -- ;; baholawAniy~_1
+    -- bhlwAny baholawAniy~    Nall    acrobatic     [[baholawAniy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- baholawAniy~ -}   [ "acrobatic" ] ]
+
+ |> "bahra^gAn" <| [
+
+    -- ;; bahorajAn_1
+    -- bhrjAn  bahorajAn       N       tinsel
+
+    Identity                  `noun`       {- bahorajAn -}      [ "tinsel" ] ]
+
+ |> "bak" <| [
+
+    -- ;; bak_1
+    -- bk      bak     N       Bey
+    -- byk     biyk    N       Bey
+    -- byh     biyh    N       Bey
+    -- bkw     bakaw   NAt     beys
+    -- bhw     bahaw   NAt     beys
+
+    Identity                  `noun`       {- bak -}            [ "Bey", "beys" ] ]
+
+ |> "bakAluwriyA" <| [
+
+    -- ;; bakAluwriyA_1
+    -- bkAlwryA        bakAluwriyA     N0      baccalaureate;B.A.
+    -- bklwryA bakaluwriyA     N0      baccalaureate;B.A.
+
+    Identity                  `noun`       {- bakAluwriyA -}    [ "baccalaureate", "B.A." ] ]
+
+ |> "bakalAh" <| [
+
+    -- ;; bakalAh_1
+    -- bklAh   bakalAh N       codfish
+
+    Identity                  `noun`       {- bakalAh -}        [ "codfish" ] ]
+
+ |> "bakaluwriyuws" <| [
+
+    -- ;; bakaluwriyuws_1
+    -- bklwryws        bakaluwriyuws   N       Bachelor's;B.A.
+    -- bkAlwryws       bakAluwriyuws   N       Bachelor's;B.A.
+
+    Identity                  `noun`       {- bakaluwriyuws -}  [ "Bachelor's", "B.A." ] ]
+
+ |> "bakitt" <| [
+
+    -- ;; bakit~ap_1
+    -- bkt     bakit~  NapAt   packet
+
+    Identity |< aT            `noun`       {- bakit~ap -}       [ "packet" ] ]
+
+ |> "bakiytA" <| [
+
+    -- ;; bakiytA_1
+    -- bkytA   bakiytA Nprop   Bakita
+
+    Identity                  `noun`       {- bakiytA -}        [ "Bakita" ] ]
+
+ |> "baktiyriyA" <| [
+
+    -- ;; bakotiyriyA_1
+    -- bktyryA bakotiyriyA     N0      bacteria
+
+    Identity                  `noun`       {- bakotiyriyA -}    [ "bacteria" ] ]
+
+ |> "bal" <| [
+
+    -- ;; bal_1
+    -- bl      bal     FW-Wa   but rather;in fact     [[bal/CONJ]]
+
+    Identity                  `noun`       {- bal -}            [ "but rather", "in fact" ] ]
+
+ |> "bal.grAd" <| [
+
+    -- ;; balogrAd_1
+    -- blgrAd  balogrAd        Nprop   Belgrade
+    -- bljrAd  balojrAd        Nprop   Belgrade
+
+    Identity                  `noun`       {- balogrAd -}       [ "Belgrade" ],
+
+    -- ;; balogrAdiy~_1
+    -- blgrAdy balogrAdiy~     Nall    Belgrade     [[balogrAdiy~/ADJ]]
+    -- bljrAdy balojrAdiy~     Nall    Belgrade     [[balojrAdiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- balogrAdiy~ -}    [ "Belgrade" ] ]
+
+ |> "balA^grA" <| [
+
+    -- ;; balAjrA_1
+    -- blAjrA  balAjrA N0      pellagra
+
+    Identity                  `noun`       {- balAjrA -}        [ "pellagra" ] ]
+
+ |> "balAra^g" <| [
+
+    -- ;; balAraj_1
+    -- blArj   balAraj N       stork
+
+    Identity                  `noun`       {- balAraj -}        [ "stork" ] ]
+
+ |> "bala^suwn" <| [
+
+    -- ;; bala$uwn_1
+    -- bl$wn   bala$uwn        N       heron
+
+    Identity                  `noun`       {- bala$uwn -}       [ "heron" ] ]
+
+ |> "balansiy" <| [
+
+    -- ;; balanosiyap_1
+    -- blnsy   balanosiy       Nap     Valencia
+    -- blnsyA  balanosiyA      N0      Valencia
+
+    Identity |< aT            `noun`       {- balanosiyap -}    [ "Valencia" ] ]
+
+ |> "balariynA" <| [
+
+    -- ;; balariynA_1
+    -- blrynA  balariynA       N0      ballerina
+    -- bllrynA balolariynA     N0      ballerina
+
+    Identity                  `noun`       {- balariynA -}      [ "ballerina" ] ]
+
+ |> "balha" <| [
+
+    -- ;; baloha_1
+    -- blh     baloha  FW-Wa   not to mention     [[baloha/ADV]]
+    -- blh     baloha  FW-Wa-a not to mention     [[baloha/ADV]]
+
+    Identity                  `noun`       {- baloha -}         [ "not to mention" ] ]
+
+ |> "balhawAn" <| [
+
+    -- ;; balohawAn_1
+    -- blhwAn  balohawAn       N       acrobat
+
+    Identity                  `noun`       {- balohawAn -}      [ "acrobat" ] ]
+
+ |> "baluw^siystAn" <| [
+
+    -- ;; baluw$iysotAn_1
+    -- blw$ystAn       baluw$iysotAn   N0      Baluchistan
+
+    Identity                  `noun`       {- baluw$iysotAn -}  [ "Baluchistan" ] ]
+
+ |> "baluw^siyy" <| [
+
+    -- ;; baluw$iy~_1
+    -- blw$y   baluw$iy~       Nall    Baluchi
+
+    Identity                  `noun`       {- baluw$iy~ -}      [ "Baluchi" ] ]
+
+ |> "ban.gAluwr" <| [
+
+    -- ;; banogAluwr_1
+    -- bngAlwr banogAluwr      N0      Bangalore
+
+    Identity                  `noun`       {- banogAluwr -}     [ "Bangalore" ],
+
+    -- ;; banogAluwriy~_1
+    -- bngAlwry        banogAluwriy~   Nall    Bangalorean
+
+    Identity |< Iy            `adj`        {- banogAluwriy~ -}  [ "Bangalorean" ] ]
+
+ |> "ban.taluwn" <| [
+
+    -- ;; banoTaluwn_1
+    -- bnTlwn  banoTaluwn      NduAt   trousers
+
+    Identity                  `noun`       {- banoTaluwn -}     [ "trousers" ] ]
+
+ |> "banAduwr" <| [
+
+    -- ;; banAduwrap_1
+    -- bnAdwr  banAduwr        Nap     tomatoes
+    -- bndwr   banoduwr        Nap     tomatoes
+
+    Identity |< aT            `noun`       {- banAduwrap -}     [ "tomatoes" ] ]
+
+ |> "ban^glAdiy^s" <| [
+
+    -- ;; banojlAdiy$_1
+    -- bnjlAdy$        banojlAdiy$     N       Bangladesh
+    -- bnjlAd$ banojlAdi$      N       Bangladesh
+    -- bnglAdy$        banoglAdiy$     N       Bangladesh
+    -- bnglAd$ banoglAdi$      N       Bangladesh
+
+    Identity                  `noun`       {- banojlAdiy$ -}    [ "Bangladesh" ],
+
+    -- ;; banojlAdiy$iy~_1
+    -- bnjlAdy$y       banojlAdiy$iy~  Nall    Bangladesh     [[banojalAdiy$iy~/NOUN]]
+    -- bnglAdy$y       banoglAdiy$iy~  Nall    Bangladesh     [[banogalAdiy$iy~/NOUN]]
+    -- bnjlAdy$y       banojlAdiy$iy~  Nall    Bangladesh     [[banojalAdiy$iy~/ADJ]]
+    -- bnglAdy$y       banoglAdiy$iy~  Nall    Bangladesh     [[banogalAdiy$iy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- banojlAdiy$iy~ -} [ "Bangladesh" ] ]
+
+ |> "banafsa^g" <| [
+
+    -- ;; banafosaj_1
+    -- bnfsj   banafosaj       N/ap    violet
+
+    Identity                  `noun`       {- banafosaj -}      [ "violet" ],
+
+    -- ;; banafosajiy~_1
+    -- bnfsjy  banafosajiy~    Nall    violet     [[banafosajiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- banafosajiy~ -}   [ "violet" ] ]
+
+ |> "banamA" <| [
+
+    -- ;; banamA_1
+    -- bnmA    banamA  N0      Panama
+
+    Identity                  `noun`       {- banamA -}         [ "Panama" ] ]
+
+ |> "banamA'" <| [
+
+    -- ;; banamAwiy~_1
+    -- bnmAwy  banamAwiy~      Nall    Panamanian
+
+    Identity |< Iy            `adj`        {- banamAwiy~ -}     [ "Panamanian" ] ]
+
+ |> "bandA" <| [
+
+    -- ;; banodA_1
+    -- bndA    banodA  N0      panda
+    -- bnd     banod   NapAt   panda
+
+    Identity                  `noun`       {- banodA -}         [ "panda" ] ]
+
+ |> "banhA" <| [
+
+    -- ;; banohA_1
+    -- bnhA    banohA  N0      Benha
+
+    Identity                  `noun`       {- banohA -}         [ "Benha" ] ]
+
+ |> "banknuwt" <| [
+
+    -- ;; bankonuwt_1
+    -- bnknwt  bankonuwt       N/ap    bank note
+
+    Identity                  `noun`       {- bankonuwt -}      [ "bank note" ] ]
+
+ |> "bankriyAs" <| [
+
+    -- ;; bankriyAs_1
+    -- bnkryAs bankriyAs       NduAt   pancreas
+
+    Identity                  `noun`       {- bankriyAs -}      [ "pancreas" ],
+
+    -- ;; bankriyAsiy~_1
+    -- bnkryAsy        bankriyAsiy~    Nall    pancreatic
+
+    Identity |< Iy            `adj`        {- bankriyAsiy~ -}   [ "pancreatic" ] ]
+
+ |> "bansiyuwn" <| [
+
+    -- ;; banosiyuwn_1
+    -- bnsywn  banosiyuwn      N/At    pension;boardinghouse
+
+    Identity                  `noun`       {- banosiyuwn -}     [ "pension", "boardinghouse" ] ]
+
+ |> "banyuw" <| [
+
+    -- ;; banoyuw_1
+    -- bnyw    banoyuw N       bath
+    -- bnywh   banoyuwh        NAt     baths
+
+    Identity                  `noun`       {- banoyuw -}        [ "bath", "baths" ] ]
+
+ |> "baq" <| [
+
+    -- ;; baqiy~ap_1
+    -- bqy     baqiy~  Nap     remainder;remnant     [[baqiy~/NOUN]]
+    -- bqAyA   baqAyA  N0      remainders;remnants
+    -- bqAyA   baqAyA  Nhy     remainders;remnants
+
+    Identity |< Iy |< aT      `noun`       {- baqiy~ap -}       [ "remainder", "remnant", "remainders", "remnants" ] ]
+
+ |> "baqduwnis" <| [
+
+    -- ;; baqoduwnis_1
+    -- bqdwns  baqoduwnis      N       parsley
+
+    Identity                  `noun`       {- baqoduwnis -}     [ "parsley" ] ]
+
+ |> "bar.tamAn" <| [
+
+    -- ;; baroTamAn_1
+    -- brTmAn  baroTamAn       NduAt   glass jar
+
+    Identity                  `noun`       {- baroTamAn -}      [ "glass jar" ],
+
+    -- ;; baroTamAn_2
+    -- brTmAn  baroTamAn       NduAt   apartment
+
+    Identity                  `noun`       {- baroTamAn -}      [ "apartment" ] ]
+
+ |> "bar^siluwnah" <| [
+
+    -- ;; baro$iluwnah_1
+    -- br$lwnp baro$iluwnap    N0      Barcelona
+
+    Identity                  `noun`       {- baro$iluwnah -}   [ "Barcelona" ] ]
+
+ |> "baradY" <| [
+
+    -- ;; baradaY_1
+    -- brdY    baradaY N0      Barada (river in Syr.)
+
+    Identity                  `noun`       {- baradaY -}        [ "Barada (river in Syr.)" ] ]
+
+ |> "barahmA" <| [
+
+    -- ;; barahomA_1
+    -- brhmA   barahomA        N0      Brahma
+
+    Identity                  `noun`       {- barahomA -}       [ "Brahma" ] ]
+
+ |> "barahman" <| [
+
+    -- ;; barahoman_1
+    -- brhmn   barahoman       N       Brahman
+    -- brAhm   barAhim Nap     Brahmans
+
+    Identity                  `noun`       {- barahoman -}      [ "Brahman", "Brahmans" ] ]
+
+ |> "baramh" <| [
+
+    -- ;; baramohAt_1
+    -- brmhAt  baramohAt       N0      Baramhat (7th Coptic month, Mar. 10-Apr. 8)
+
+    Identity |< At            `noun`       {- baramohAt -}      [ "Baramhat (7th Coptic month, Mar. 10-Apr. 8)" ] ]
+
+ |> "barbArA" <| [
+
+    -- ;; barobArA_1
+    -- brbArA  barobArA        Nprop   Barbara
+    -- brbArp  barobArap       Nprop   Barbara
+
+    Identity                  `noun`       {- barobArA -}       [ "Barbara" ] ]
+
+ |> "bardaquw^s" <| [
+
+    -- ;; barodaquw$_1
+    -- brdqw$  barodaquw$      N       marjoram
+
+    Identity                  `noun`       {- barodaquw$ -}     [ "marjoram" ] ]
+
+ |> "barlamAn" <| [
+
+    -- ;; barolamAn_1
+    -- brlmAn  barolamAn       N/At    parliament
+
+    Identity                  `noun`       {- barolamAn -}      [ "parliament" ],
+
+    -- ;; barolamAniy~_1
+    -- brlmAny barolamAniy~    Nall    parliamentary     [[barolamAniy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- barolamAniy~ -}   [ "parliamentary" ] ]
+
+ |> "barmAnant" <| [
+
+    -- ;; baromAnant_1
+    -- brmAnnt baromAnant      N       permanent
+
+    Identity                  `noun`       {- baromAnant -}     [ "permanent" ] ]
+
+ |> "barmAwiy" <| [
+
+    -- ;; baromAwiy_1
+    -- brmAwy  baromAwiy       N0      Barmawi
+
+    Identity                  `noun`       {- baromAwiy -}      [ "Barmawi" ] ]
+
+ |> "barnAma^g" <| [
+
+    -- ;; baronAmaj_1
+    -- brnAmj  baronAmaj       Ndu     program
+    -- bArnAmj bAronAmij       Ndu     program
+    -- brAmj   barAmij Ndip    programs
+
+    Identity                  `noun`       {- baronAmaj -}      [ "program", "programs" ] ]
+
+ |> "barnaqa" <| [
+
+    -- ;; baronaqao_1
+    -- brnq    baronaq Nap     varnishing
+
+    Identity                  `noun`       {- baronaqao -}      [ "varnishing" ] ]
+
+ |> "barriym" <| [
+
+    -- ;; bar~iymap_1
+    -- brym    bar~iym NapAt   drill;auger;bit
+
+    Identity |< aT            `noun`       {- bar~iymap -}      [ "drill", "auger", "bit" ],
+
+    -- ;; bar~iymiy~ap_1
+    -- brymy   bar~iymiy~      Nap     drill-shaped;spirochete     [[bar~iymiy~/NOUN]]
+
+    Identity |< Iy |< aT      `noun`       {- bar~iymiy~ap -}   [ "drill-shaped", "spirochete" ] ]
+
+ |> "bas.turm" <| [
+
+    -- ;; basoTurmap_1
+    -- bsTrm   basoTurm        Nap     basturma (grilled marinated meat)
+
+    Identity |< aT            `noun`       {- basoTurmap -}     [ "basturma (grilled marinated meat)" ] ]
+
+ |> "bastill" <| [
+
+    -- ;; basotil~ap_1
+    -- bstl    basotil~        NapAt   tub
+
+    Identity |< aT            `noun`       {- basotil~ap -}     [ "tub" ] ]
+
+ |> "bastuwniyy" <| [
+
+    -- ;; bastuwniy~_1
+    -- bstwny  bastuwniy~      N       spades
+
+    Identity                  `noun`       {- bastuwniy~ -}     [ "spades" ] ]
+
+ |> "basyuwniy" <| [
+
+    -- ;; basoyuwniy_1
+    -- bsywny  basoyuwniy      N0      Basyouni;Bassiuni
+
+    Identity                  `noun`       {- basoyuwniy -}     [ "Basyouni", "Bassiuni" ] ]
+
+ |> "bat" <| [
+
+    -- ;; batAtAF_1
+    -- btAt    batAt   NF      absolutely     [[batAt/ADV]]
+
+    Identity |< At |< aN      `noun`       {- batAtAF -}        [ "absolutely" ] ]
+
+ |> "bay" <| [
+
+    -- ;; bayAt_1
+    -- byAt    bayAt   N       hibernation
+
+    Identity |< At            `noun`       {- bayAt -}          [ "hibernation" ] ]
+
+ |> "bayda" <| [
+
+    -- ;; bayoda_1
+    -- byd     bayoda  FW-Wa   whereas;however     [[bayoda/CONJ]]
+
+    Identity                  `noun`       {- bayoda -}         [ "whereas", "however" ] ]
+
+ |> "bayna" <| [
+
+    -- ;; bayona_1
+    -- byn     bayona  FW-Wa   between/among     [[bayona/PREP]]
+    -- byn     bayoni  FW-Wa   between/among     [[bayoni/PREP]]
+    -- byn     bayona  FW-Wa-a between/among     [[bayona/PREP]]
+    -- byn     bayoni  FW-Wa-i between/among     [[bayoni/PREP]]
+    -- byn     bayon   FW-Wa-o between/among     [[bayon/PREP]]
+
+    Identity                  `noun`       {- bayona -}         [ "between/among" ] ]
+
+ |> "baynamA" <| [
+
+    -- ;; bayonamA_1
+    -- bynmA   bayonamA        FW-Wa   while      [[bayonamA/CONJ]]
+
+    Identity                  `noun`       {- bayonamA -}       [ "while" ] ]
+
+ |> "bayraqdAr" <| [
+
+    -- ;; bayoraqodAr_1
+    -- byrqdAr bayoraqodAr     N       flag-bearer
+
+    Identity                  `noun`       {- bayoraqodAr -}    [ "flag-bearer" ] ]
+
+ |> "bayruwtiyy" <| [
+
+    -- ;; bayoruwtiy~_1
+    -- byrwty  bayoruwtiy~     Nall    Beiruti     [[bayoruwtiy~/NOUN]]
+    -- byrwty  bayoruwtiy~     Nall    Beiruti     [[bayoruwtiy~/ADJ]]
+
+    Identity                  `adj`        {- bayoruwtiy~ -}    [ "Beiruti" ],
+
+    -- ;; bayoruwtiy~_2
+    -- byrwty  bayoruwtiy~     N0      Beirouti;Bairuti
+
+    Identity                  `noun`       {- bayoruwtiy~ -}    [ "Beirouti", "Bairuti" ] ]
+
+ |> "bayyum" <| [
+
+    -- ;; bay~umiy~_1
+    -- bywmy   bay~umiy~       N0      Bayyoumi
+
+    Identity |< Iy            `adj`        {- bay~umiy~ -}      [ "Bayyoumi" ] ]
+
+ |> "bfiystir" <| [
+
+    -- ;; bfiysotir_1
+    -- bfystr  bfiysotir       Nprop   Pfister
+
+    Identity                  `noun`       {- bfiysotir -}      [ "Pfister" ] ]
+
+ |> "bfyl^syftr" <| [
+
+    -- ;; bfyl$yftr_1
+    -- bfyl$yftr       bfyl$yftr       N0      Pfeilschifter
+
+    Identity                  `noun`       {- bfyl$yftr -}      [ "Pfeilschifter" ] ]
+
+ |> "bi'sa" <| [
+
+    -- ;; bi}osa_1
+    -- b}s     bi}osa  FW-Wa   bad;evil;poor;unfortunate
+
+    Identity                  `noun`       {- bi}osa -}         [ "bad", "evil", "poor", "unfortunate" ] ]
+
+ |> "bi'samA" <| [
+
+    -- ;; bi}osamA_1
+    -- b}smA   bi}osamA        FW-Wa   how bad;how evil;how poor;how unfortunate
+
+    Identity                  `noun`       {- bi}osamA -}       [ "how bad", "how evil", "how poor", "how unfortunate" ] ]
+
+ |> "bi-" <| [
+
+    -- ;; bi-_1
+    -- bh      bihi    FW-Wa   with/by + it/him                       [[bi/PREP+hi/PRON_3MS]]
+    -- bhmA    bihimA  FW-Wa   with/by + them both                    [[bi/PREP+himA/PRON_3D]]
+    -- bhA     bihA    FW-Wa   with/by + it/them/her                  [[bi/PREP+hA/PRON_3FS]]
+    -- bhm     bihim   FW-Wa   with/by + them [masc.pl.]              [[bi/PREP+him/PRON_3MP]]
+    -- bhn     bihin~a FW-Wa   with/by + them [fem.pl.]               [[bi/PREP+hin~a/PRON_3FP]]
+    -- bk      bika    FW-Wa   with/by + you [masc.sg.]               [[bi/PREP+ka/PRON_2MS]]
+    -- bk      biki    FW-Wa   with/by + you [fem.sg.]                [[bi/PREP+ki/PRON_2FS]]
+    -- bkmA    bikumA  FW-Wa   with/by + you both                     [[bi/PREP+kumA/PRON_2D]]
+    -- bkm     bikum   FW-Wa   with/by + you [masc.pl.]               [[bi/PREP+kum/PRON_2MP]]
+    -- bkn     bikun~a FW-Wa   with/by + you [fem.pl.]                [[bi/PREP+kun~a/PRON_2FP]]
+    -- by      biya    FW-Wa   with/by + me                           [[bi/PREP+ya/PRON_1S]]
+    -- bnA     binA    FW-Wa   with/by + us                           [[bi/PREP+nA/PRON_1P]]
+
+    Identity                  `noun`       {- bi- -}            [ "with/by + it/him", "with/by + them both", "with/by + it/them/her", "with/by + them [masc.pl.]", "with/by + them [fem.pl.]", "with/by + you [masc.sg.]", "with/by + you [fem.sg.]", "with/by + you both", "with/by + you [masc.pl.]", "with/by + you [fem.pl.]", "with/by + me", "with/by + us" ] ]
+
+ |> "bi^sill" <| [
+
+    -- ;; bi$il~ap_1
+    -- b$l     bi$il~  NapAt   bacillus
+
+    Identity |< aT            `noun`       {- bi$il~ap -}       [ "bacillus" ] ]
+
+ |> "bidiykiyr" <| [
+
+    -- ;; bidiykiyr_1
+    -- bdykyr  bidiykiyr       N       pedicure
+
+    Identity                  `noun`       {- bidiykiyr -}      [ "pedicure" ] ]
+
+ |> "bikiyn" <| [
+
+    -- ;; bikiyn_1
+    -- bkyn    bikiyn  Ndip    Peking;Beijing
+
+    Identity                  `noun`       {- bikiyn -}         [ "Peking", "Beijing" ] ]
+
+ |> "bilA^sakk" <| [
+
+    -- ;; bilA$ak~_1
+    -- blA$k   bilA$ak~        FW-Wa   undoubtedly     [[bilA$ak~/ADV]]
+
+    Identity                  `noun`       {- bilA$ak~ -}       [ "undoubtedly" ] ]
+
+ |> "bil^giykA" <| [
+
+    -- ;; bilojiykA_1
+    -- bljykA  bilojiykA       N0      Belgium
+
+    Identity                  `noun`       {- bilojiykA -}      [ "Belgium" ] ]
+
+ |> "bilhArsiyA" <| [
+
+    -- ;; bilohArosiyA_1
+    -- blhArsyA        bilohArosiyA    N0      bilharzia;schistosomiasis
+    -- blhArsy bilohArosiy     Nap     bilharzia;schistosomiasis
+
+    Identity                  `noun`       {- bilohArosiyA -}   [ "bilharzia", "schistosomiasis" ] ]
+
+ |> "biliyz" <| [
+
+    -- ;; biliyz_1
+    -- blyz    biliyz  N0      Belize
+
+    Identity                  `noun`       {- biliyz -}         [ "Belize" ] ]
+
+ |> "biliyziyy" <| [
+
+    -- ;; biliyziy~_1
+    -- blyzy   biliyziy~       Nall    Belizean;Belizian
+
+    Identity                  `noun`       {- biliyziy~ -}      [ "Belizean", "Belizian" ] ]
+
+ |> "billawr" <| [
+
+    -- ;; bil~awr_1
+    -- blwr    bil~awr N/ap    crystal
+
+    Identity                  `noun`       {- bil~awr -}        [ "crystal" ] ]
+
+ |> "billawriyy" <| [
+
+    -- ;; bil~aworiy~_1
+    -- blwry   bil~aworiy~     Nall    crystalline     [[bil~aworiy~/ADJ]]
+
+    Identity                  `adj`        {- bil~aworiy~ -}    [ "crystalline" ] ]
+
+ |> "billiy" <| [
+
+    -- ;; bil~iy_1
+    -- bly     bil~iy  N       ball bearing
+
+    Identity                  `noun`       {- bil~iy -}         [ "ball bearing" ] ]
+
+ |> "billiytruw" <| [
+
+    -- ;; biloliytruw_1
+    -- bllytrw biloliytruw     Nprop   Pelletreau
+
+    Identity                  `noun`       {- biloliytruw -}    [ "Pelletreau" ] ]
+
+ |> "bilyArdw" <| [
+
+    -- ;; biloyArodw_1
+    -- blyArdw biloyArodw      N0      billiards
+
+    Identity                  `noun`       {- biloyArodw -}     [ "billiards" ] ]
+
+ |> "bilyuwniyr" <| [
+
+    -- ;; biloyuwniyr_1
+    -- blywnyr biloyuwniyr     NduAt   billionaire
+
+    Identity                  `noun`       {- biloyuwniyr -}    [ "billionaire" ] ]
+
+ |> "bimA" <| [
+
+    -- ;; bimA_1
+    -- bmA     bimA    FW-Wa   by/with + what         [[bi/PREP+mA/REL_PRON]]
+
+    Identity                  `noun`       {- bimA -}           [ "by/with + what" ],
+
+    -- ;; bimA_2
+    -- bmA     bimA    FW-Wa   by/with + what/which   [[bi/PREP+mA/INTERROG_PART]]
+
+    Identity                  `noun`       {- bimA -}           [ "by/with + what/which" ] ]
+
+ |> "bima" <| [
+
+    -- ;; bima_1
+    -- bm      bima    FW-Wa   with what    [[be/PREP+ma/INTERROG_PART]]
+
+    Identity                  `noun`       {- bima -}           [ "with what" ] ]
+
+ |> "bimbA^siyy" <| [
+
+    -- ;; bimobA$iy~_1
+    -- bmbA$y  bimobA$iy~      Nall    lieutenant colonel     [[bimobA$iy~/ADJ]]
+
+    Identity                  `adj`        {- bimobA$iy~ -}     [ "lieutenant colonel" ] ]
+
+ |> "bin" <| [
+
+    -- ;; bin_1
+    -- bn      bin     FW-WaBi son     [[bin/NOUN]]
+
+    Identity                  `noun`       {- bin -}            [ "son" ],
+
+    -- ;; bin_2
+    -- bn      bin     FW-WaBi Bin;Ben     [[bin/NOUN_PROP]]
+
+    Identity                  `noun`       {- bin -}            [ "Bin", "Ben" ] ]
+
+ |> "binAltiy" <| [
+
+    -- ;; binAlotiy_1
+    -- bnAlty  binAlotiy       N0      penalty (shot)
+
+    Identity                  `noun`       {- binAlotiy -}      [ "penalty (shot)" ] ]
+
+ |> "binfiykA" <| [
+
+    -- ;; binfiykA_1
+    -- bnfykA  binfiykA        Nprop   Benfica
+
+    Identity                  `noun`       {- binfiykA -}       [ "Benfica" ] ]
+
+ |> "binisiliyn" <| [
+
+    -- ;; binisiliyn_1
+    -- bnslyn  binisiliyn      N       penicillin
+    -- bnsylyn binisiyliyn     N       penicillin
+
+    Identity                  `noun`       {- binisiliyn -}     [ "penicillin" ] ]
+
+ |> "biniyn" <| [
+
+    -- ;; biniyn_1
+    -- bnyn    biniyn  N0      Benin
+
+    Identity                  `noun`       {- biniyn -}         [ "Benin" ] ]
+
+ |> "binsilfAn" <| [
+
+    -- ;; binosilofAniy~_1
+    -- bnslfAny        binosilofAniy~  Nall    Pennsylvanian     [[binosilofAniy~/NOUN]]
+    -- bnslfAny        binosilofAniy~  Nall    Pennsylvanian     [[binosilofAniy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- binosilofAniy~ -} [ "Pennsylvanian" ] ]
+
+ |> "binsilfAniyA" <| [
+
+    -- ;; binosilofAniyA_1
+    -- bnslfAnyA       binosilofAniyA  Nprop   Pennsylvania
+
+    Identity                  `noun`       {- binosilofAniyA -} [ "Pennsylvania" ] ]
+
+ |> "bintA.guwn" <| [
+
+    -- ;; binotAguwn_1
+    -- bntAgwn binotAguwn      N0      Pentagon
+    -- bntAjwn binotAjuwn      N0      Pentagon
+
+    Identity                  `noun`       {- binotAguwn -}     [ "Pentagon" ] ]
+
+ |> "binyAmiyn" <| [
+
+    -- ;; binoyAmiyn_1
+    -- bnyAmyn binoyAmiyn      Nprop   Benyamin;Benjamin
+
+    Identity                  `noun`       {- binoyAmiyn -}     [ "Benyamin", "Benjamin" ] ]
+
+ |> "bir_dawn" <| [
+
+    -- ;; biro*awon_1
+    -- br*wn   biro*awon       N       work horse;nag
+    -- brA*yn  barA*iyn        N       work horses;nags
+
+    Identity                  `noun`       {- biro*awon -}      [ "work horse", "nag", "work horses", "nags" ] ]
+
+ |> "biri^st" <| [
+
+    -- ;; biri$t_1
+    -- br$t    biri$t  N       birisht (soft-boiled egg)
+
+    Identity                  `noun`       {- biri$t -}         [ "birisht (soft-boiled egg)" ] ]
+
+ |> "biriystruwykA" <| [
+
+    -- ;; biriysotruwykA_1
+    -- brystrwykA      biriysotruwykA  N0      perestroika
+
+    Identity                  `noun`       {- biriysotruwykA -} [ "perestroika" ] ]
+
+ |> "birmuwdA" <| [
+
+    -- ;; biromuwdA_1
+    -- brmwdA  biromuwdA       N0      Bermuda
+
+    Identity                  `noun`       {- biromuwdA -}      [ "Bermuda" ] ]
+
+ |> "birnAduwt" <| [
+
+    -- ;; bironAduwt_1
+    -- brnAdwt bironAduwt      Nprop   Bernadotte
+    -- byrnAdwt        biyronAduwt     Nprop   Bernadotte
+
+    Identity                  `noun`       {- bironAduwt -}     [ "Bernadotte" ] ]
+
+ |> "birtuwtuw" <| [
+
+    -- ;; birotuwtuw_1
+    -- brtwtw  birotuwtuw      Nprop   Bertotto
+
+    Identity                  `noun`       {- birotuwtuw -}     [ "Bertotto" ] ]
+
+ |> "bisArAbiyA" <| [
+
+    -- ;; bisArAbiyA_1
+    -- bsArAbyA        bisArAbiyA      N0      Bessarabia
+
+    Identity                  `noun`       {- bisArAbiyA -}     [ "Bessarabia" ] ]
+
+ |> "biskiliyt" <| [
+
+    -- ;; bisokiliyt_1
+    -- bsklyt  bisokiliyt      N/ap    bicycle
+
+    Identity                  `noun`       {- bisokiliyt -}     [ "bicycle" ] ]
+
+ |> "bismi" <| [
+
+    -- ;; bisomi_1
+    -- bsm     bisomi  FW-Wa   in/by + (the) Name of     [[bi/PREP+somi/NOUN]]
+
+    Identity                  `noun`       {- bisomi -}         [ "in/by + (the) Name of" ] ]
+
+ |> "bitruwkiymA'" <| [
+
+    -- ;; bitruwkiymAwiy~_1
+    -- btrwkymAwy      bitruwkiymAwiy~ Nall    petrochemical     [[bitruwkiymAwiy~/ADJ]]
+    -- btrwkymyA}y     bitruwkiymyA}iy~        Nall    petrochemical     [[bitruwkiymyA}iy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- bitruwkiymAwiy~ -} [ "petrochemical" ] ]
+
+ |> "bitruwliyuwm" <| [
+
+    -- ;; bitruwliyuwm_1
+    -- btrwlywm        bitruwliyuwm    Nprop   Petroleum
+
+    Identity                  `noun`       {- bitruwliyuwm -}   [ "Petroleum" ] ]
+
+ |> "bitruwstrAtiy^giy" <| [
+
+    -- ;; bitoruwstrAtiyjiy_1
+    -- btrwstrAtyjy    bitoruwstrAtiyjiy       N0      Petrostrategy
+
+    Identity                  `noun`       {- bitoruwstrAtiyjiy -} [ "Petrostrategy" ] ]
+
+ |> "biy.gAwAn" <| [
+
+    -- ;; biygAwAn_1
+    -- bygAwAn biygAwAn        Nprop   Begawan
+
+    Identity                  `noun`       {- biygAwAn -}       [ "Begawan" ] ]
+
+ |> "biy.guwfiyt^s" <| [
+
+    -- ;; biyguwfiyt$_1
+    -- bygwfyt$        biyguwfiyt$     Nprop   Begovich
+
+    Identity                  `noun`       {- biyguwfiyt$ -}    [ "Begovich" ] ]
+
+ |> "biyAnuw" <| [
+
+    -- ;; biyAnuw_1
+    -- byAnw   biyAnuw N0      piano
+    -- byAnwh  biyAnuwh        NAt     pianos
+
+    Identity                  `noun`       {- biyAnuw -}        [ "piano", "pianos" ] ]
+
+ |> "biyAt^sntiyniy" <| [
+
+    -- ;; biyAt$notiyniy_1
+    -- byAt$ntyny      biyAt$notiyniy  Nprop   Piacentini
+
+    Identity                  `noun`       {- biyAt$notiyniy -} [ "Piacentini" ] ]
+
+ |> "biy^gAmA" <| [
+
+    -- ;; biyjAmA_1
+    -- byjAmA  biyjAmA N0      pajama
+    -- byjAm   biyjAm  NapAt   pajama
+
+    Identity                  `noun`       {- biyjAmA -}        [ "pajama" ] ]
+
+ |> "biy^sAwar" <| [
+
+    -- ;; biy$Awar_1
+    -- by$Awr  biy$Awar        Nprop   Peshawar
+
+    Identity                  `noun`       {- biy$Awar -}       [ "Peshawar" ] ]
+
+ |> "biyanAl" <| [
+
+    -- ;; biyanAliy~_1
+    -- bynAly  biyanAliy~      Nall    biennial     [[biyanAliy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- biyanAliy~ -}     [ "biennial" ] ]
+
+ |> "biydA.guw^g" <| [
+
+    -- ;; biydAguwjiy~_1
+    -- bydAgwjy        biydAguwjiy~    Nall    pedagogical     [[biydAguwjiy~/ADJ]]
+    -- bdAgwjy bidAguwjiy~     Nall    pedagogical     [[bidAguwjiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- biydAguwjiy~ -}   [ "pedagogical" ] ]
+
+ |> "biyfiyrliy" <| [
+
+    -- ;; biyfiyroliy_1
+    -- byfyrly biyfiyroliy     Nprop   Beverley
+
+    Identity                  `noun`       {- biyfiyroliy -}    [ "Beverley" ] ]
+
+ |> "biyftiyk" <| [
+
+    -- ;; biyfotiyk_1
+    -- byftyk  biyfotiyk       N       beefsteak
+
+    Identity                  `noun`       {- biyfotiyk -}      [ "beefsteak" ] ]
+
+ |> "biyhAriy" <| [
+
+    -- ;; biyhAriy_1
+    -- byhAry  biyhAriy        Nprop   Behari
+
+    Identity                  `noun`       {- biyhAriy -}       [ "Behari" ] ]
+
+ |> "biykiyn.ghAm" <| [
+
+    -- ;; biykiyngohAm_1
+    -- bykynghAm       biykiyngohAm    Nprop   Beckingham
+
+    Identity                  `noun`       {- biykiyngohAm -}   [ "Beckingham" ] ]
+
+ |> "biykliyr" <| [
+
+    -- ;; biykliyr_1
+    -- byklyr  biykliyr        Nprop   Beclere
+
+    Identity                  `noun`       {- biykliyr -}       [ "Beclere" ] ]
+
+ |> "biyktil" <| [
+
+    -- ;; biykotil_1
+    -- byktl   biykotil        Nprop   Bechtel
+
+    Identity                  `noun`       {- biykotil -}       [ "Bechtel" ] ]
+
+ |> "biylAruws" <| [
+
+    -- ;; biylAruws_1
+    -- bylArws biylAruws       N0      Belarus
+
+    Identity                  `noun`       {- biylAruws -}      [ "Belarus" ],
+
+    -- ;; biylAruwsiy~_1
+    -- bylArwsy        biylAruwsiy~    Nall    Belarusian
+
+    Identity |< Iy            `adj`        {- biylAruwsiy~ -}   [ "Belarusian" ] ]
+
+ |> "biylAt^sy" <| [
+
+    -- ;; biylAto$y_1
+    -- bylAt$y biylAto$y       Nprop   Balaci
+
+    Identity                  `noun`       {- biylAto$y -}      [ "Balaci" ] ]
+
+ |> "biylhArsiyA" <| [
+
+    -- ;; biylohArosiyA_1
+    -- bylhArsyA       biylohArosiyA   N0      bilharzia;schistosomiasis
+    -- bylhArsy        biylohArosiy    Nap     bilharzia;schistosomiasis
+
+    Identity                  `noun`       {- biylohArosiyA -}  [ "bilharzia", "schistosomiasis" ] ]
+
+ |> "biyliyfiyld" <| [
+
+    -- ;; biyliyfiylod_1
+    -- bylyfyld        biyliyfiylod    N0      Bielefeld
+
+    Identity                  `noun`       {- biyliyfiylod -}   [ "Bielefeld" ] ]
+
+ |> "biyliyuwn" <| [
+
+    -- ;; biyliyuwn_1
+    -- bylywn  biyliyuwn       N0      Pelion
+
+    Identity                  `noun`       {- biyliyuwn -}      [ "Pelion" ] ]
+
+ |> "biylyah" <| [
+
+    -- ;; biyloyah_1
+    -- bylyh   biyloyah        N/At    marble
+
+    Identity                  `noun`       {- biyloyah -}       [ "marble" ] ]
+
+ |> "biylzbuwriy" <| [
+
+    -- ;; biylzobuwriy_1
+    -- bylzbwry        biylzobuwriy    N0      Pillsbury
+
+    Identity                  `noun`       {- biylzobuwriy -}   [ "Pillsbury" ] ]
+
+ |> "biymAristAn" <| [
+
+    -- ;; biymArisotAn_1
+    -- bymArstAn       biymArisotAn    NduAt   hospital;asylum
+
+    Identity                  `noun`       {- biymArisotAn -}   [ "hospital", "asylum" ] ]
+
+ |> "biyndiyksiyn" <| [
+
+    -- ;; biynodiykosiyn_1
+    -- byndyksyn       biynodiykosiyn  Nprop   Bendixen
+
+    Identity                  `noun`       {- biynodiykosiyn -} [ "Bendixen" ] ]
+
+ |> "biynuw^siyh" <| [
+
+    -- ;; biynuw$iyh_1
+    -- bynw$yh biynuw$iyh      Nprop   Pinochet
+
+    Identity                  `noun`       {- biynuw$iyh -}     [ "Pinochet" ] ]
+
+ |> "biyrA" <| [
+
+    -- ;; biyrA_1
+    -- byrA    biyrA   N0      beer
+    -- byr     biyr    Napdu   beer
+
+    Identity                  `noun`       {- biyrA -}          [ "beer" ] ]
+
+ |> "biyrd" <| [
+
+    -- ;; biyrd_1
+    -- byrd    biyrd   Nprop   Beard;Byrd;Bird
+
+    Identity                  `noun`       {- biyrd -}          [ "Beard", "Byrd", "Bird" ] ]
+
+ |> "biyrhuwf" <| [
+
+    -- ;; biyrohuwf_1
+    -- byrhwf  biyrohuwf       Nprop   Bierhoff
+
+    Identity                  `noun`       {- biyrohuwf -}      [ "Bierhoff" ] ]
+
+ |> "biyriniyh" <| [
+
+    -- ;; biyriniyh_1
+    -- byrnyh  biyriniyh       N0      Pyrenees
+
+    Identity                  `noun`       {- biyriniyh -}      [ "Pyrenees" ] ]
+
+ |> "biyriy_hiyl" <| [
+
+    -- ;; biyriyxiyl_1
+    -- byryxyl biyriyxiyl      N0      Perejil
+
+    Identity                  `noun`       {- biyriyxiyl -}     [ "Perejil" ] ]
+
+ |> "biyriyrA" <| [
+
+    -- ;; biyriyrA_1
+    -- byryrA  biyriyrA        Nprop   Pereira;Parreira
+
+    Identity                  `noun`       {- biyriyrA -}       [ "Pereira", "Parreira" ] ]
+
+ |> "biyrl" <| [
+
+    -- ;; biyrl_1
+    -- byrl    biyrl   Nprop   Pearle
+
+    Identity                  `noun`       {- biyrl -}          [ "Pearle" ] ]
+
+ |> "biyrnz" <| [
+
+    -- ;; biyrnoz_1
+    -- byrnz   biyrnoz Nprop   Burns
+
+    Identity                  `noun`       {- biyrnoz -}        [ "Burns" ] ]
+
+ |> "biyrsiy" <| [
+
+    -- ;; biyrosiy_1
+    -- byrsy   biyrosiy        Nprop   Bercy
+
+    Identity                  `noun`       {- biyrosiy -}       [ "Bercy" ],
+
+    -- ;; biyrosiy_2
+    -- byrsy   biyrosiy        Nprop   Percy
+
+    Identity                  `noun`       {- biyrosiy -}       [ "Percy" ] ]
+
+ |> "biyrsuwl" <| [
+
+    -- ;; biyrosuwl_1
+    -- byrswl  biyrosuwl       Nprop   Peirsol
+
+    Identity                  `noun`       {- biyrosuwl -}      [ "Peirsol" ] ]
+
+ |> "biyrtiy" <| [
+
+    -- ;; biyrotiy_1
+    -- byrty   biyrotiy        N0      Berti
+
+    Identity                  `noun`       {- biyrotiy -}       [ "Berti" ] ]
+
+ |> "biyruw" <| [
+
+    -- ;; biyruw_1
+    -- byrw    biyruw  N0      Peru
+
+    Identity                  `noun`       {- biyruw -}         [ "Peru" ] ]
+
+ |> "biyruwfiyy" <| [
+
+    -- ;; biyruwfiy~_1
+    -- byrwfy  biyruwfiy~      Nall    Peruvian     [[biyruwfiy~/NOUN]]
+    -- byrwfy  biyruwfiy~      Nall    Peruvian     [[biyruwfiy~/ADJ]]
+
+    Identity                  `adj`        {- biyruwfiy~ -}     [ "Peruvian" ] ]
+
+ |> "biyruwniyy" <| [
+
+    -- ;; biyruwniy~_1
+    -- byrwny  biyruwniy~      N0      Biruni;Birouni
+
+    Identity                  `noun`       {- biyruwniy~ -}     [ "Biruni", "Birouni" ] ]
+
+ |> "biyruwqrA.tiyy" <| [
+
+    -- ;; biyruwqrATiy~_1
+    -- byrwqrATy       biyruwqrATiy~   Nall    bureaucratic     [[biyruwqrATiy~/ADJ]]
+
+    Identity                  `adj`        {- biyruwqrATiy~ -}  [ "bureaucratic" ],
+
+    -- ;; biyruwqrATiy~ap_1
+    -- byrwqrATy       biyruwqrATiy~   Nap     bureaucracy     [[biyruwqrATiy~/NOUN]]
+
+    Identity |< aT            `noun`       {- biyruwqrATiy~ap -} [ "bureaucracy" ] ]
+
+ |> "biyruwziy" <| [
+
+    -- ;; biyruwziy_1
+    -- byrwzy  biyruwziy       N0      Piruzi
+
+    Identity                  `noun`       {- biyruwziy -}      [ "Piruzi" ] ]
+
+ |> "biyrwAniyy" <| [
+
+    -- ;; biyrwAniy~_1
+    -- byrwAny biyrwAniy~      Nall    Peruvian     [[biyrwAniy~/NOUN]]
+    -- byrwAny biyrwAniy~      Nall    Peruvian     [[biyrwAniy~/ADJ]]
+
+    Identity                  `adj`        {- biyrwAniy~ -}     [ "Peruvian" ] ]
+
+ |> "biysuw" <| [
+
+    -- ;; biysuw_1
+    -- bysw    biysuw  N0      peso (currency)
+
+    Identity                  `noun`       {- biysuw -}         [ "peso (currency)" ] ]
+
+ |> "biytA" <| [
+
+    -- ;; biytA_1
+    -- bytA    biytA   N0      beta
+
+    Identity                  `noun`       {- biytA -}          [ "beta" ] ]
+
+ |> "biyt^s" <| [
+
+    -- ;; biyt$_1
+    -- byt$    biyt$   Nprop   Beach
+
+    Identity                  `noun`       {- biyt$ -}          [ "Beach" ] ]
+
+ |> "biytriyt^s" <| [
+
+    -- ;; biytoriyt$_1
+    -- bytryt$ biytoriyt$      Nprop   Petrich
+
+    Identity                  `noun`       {- biytoriyt$ -}     [ "Petrich" ] ]
+
+ |> "biytsiyliym" <| [
+
+    -- ;; biytosiyliym_1
+    -- bytsylym        biytosiyliym    N0      B'Tselem
+
+    Identity                  `noun`       {- biytosiyliym -}   [ "B'Tselem" ] ]
+
+ |> "biytuwrAtAnA" <| [
+
+    -- ;; biytuwrAtAnA_1
+    -- bytwrAtAnA      biytuwrAtAnA    Nprop   Pituratana
+
+    Identity                  `noun`       {- biytuwrAtAnA -}   [ "Pituratana" ] ]
+
+ |> "biytzA" <| [
+
+    -- ;; biytozA_1
+    -- bytzA   biytozA N0      pizza
+    -- bytz    biytoz  Napdu   pizza
+
+    Identity                  `noun`       {- biytozA -}        [ "pizza" ] ]
+
+ |> "biyuw.grAf" <| [
+
+    -- ;; biyuwgrAfiy~_1
+    -- bywgrAfy        biyuwgrAfiy~    Nall    biographical
+
+    Identity |< Iy            `adj`        {- biyuwgrAfiy~ -}   [ "biographical" ] ]
+
+ |> "biyuw.grAfiyA" <| [
+
+    -- ;; biyuwgrAfiyA_1
+    -- bywgrAfyA       biyuwgrAfiyA    N0      biography
+    -- bywjrAfyA       biyuwjrAfiyA    N0      biography
+    -- bywgrAfy        biyuwgrAfiy~    NapAt   biography
+    -- bywjrAfy        biyuwjrAfiy~    NapAt   biography
+
+    Identity                  `noun`       {- biyuwgrAfiyA -}   [ "biography" ] ]
+
+ |> "biyuwluw^giyA" <| [
+
+    -- ;; biyuwluwjiyA_1
+    -- bywlwjyA        biyuwluwjiyA    N       biology
+
+    Identity                  `noun`       {- biyuwluwjiyA -}   [ "biology" ] ]
+
+ |> "biyuwluw^giyy" <| [
+
+    -- ;; biyuwluwjiy~_1
+    -- bywlwjy biyuwluwjiy~    Nall    biological     [[biyuwluwjiy~/ADJ]]
+
+    Identity                  `adj`        {- biyuwluwjiy~ -}   [ "biological" ] ]
+
+ |> "biyuwrkmAn" <| [
+
+    -- ;; biyuwrkomAn_1
+    -- bywrkmAn        biyuwrkomAn     Nprop   Bjorkman
+
+    Identity                  `noun`       {- biyuwrkomAn -}    [ "Bjorkman" ] ]
+
+ |> "biyzan.t" <| [
+
+    -- ;; biyzanoTiy~_1
+    -- byznTy  biyzanoTiy~     Nall    Byzantine     [[biyzanoTiy~/NOUN]]
+    -- byznTy  biyzanoTiy~     Nall    Byzantine     [[biyzanoTiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- biyzanoTiy~ -}    [ "Byzantine" ] ]
+
+ |> "biyziytA" <| [
+
+    -- ;; biyziytA_1
+    -- byzytA  biyziytA        N0      peseta
+
+    Identity                  `noun`       {- biyziytA -}       [ "peseta" ] ]
+
+ |> "bizan.tiyy" <| [
+
+    -- ;; bizanoTiy~_1
+    -- bznTy   bizanoTiy~      Nall    Byzantine     [[bizanoTiy~/NOUN]]
+    -- bznTy   bizanoTiy~      Nall    Byzantine     [[bizanoTiy~/ADJ]]
+
+    Identity                  `adj`        {- bizanoTiy~ -}     [ "Byzantine" ] ]
+
+ |> "bizill" <| [
+
+    -- ;; bizil~ap_1
+    -- bzl     bizil~  Nap     green peas
+    -- bzlA    bizil~A N0      green peas
+    -- bsl     bisil~  Nap     green peas
+
+    Identity |< aT            `noun`       {- bizil~ap -}       [ "green peas" ] ]
+
+ |> "blA^g" <| [
+
+    -- ;; blAj_1
+    -- blAj    blAj    NduAt   beach
+
+    Identity                  `noun`       {- blAj -}           [ "beach" ] ]
+
+ |> "blAk" <| [
+
+    -- ;; blAk_1
+    -- blAk    blAk    Nprop   Black
+
+    Identity                  `noun`       {- blAk -}           [ "Black" ] ]
+
+ |> "blAkhuwk" <| [
+
+    -- ;; blAkohuwk_1
+    -- blAkhwk blAkohuwk       N0      Black Hawk
+
+    Identity                  `noun`       {- blAkohuwk -}      [ "Black Hawk" ] ]
+
+ |> "blAniyt" <| [
+
+    -- ;; blAniyt_1
+    -- blAnyt  blAniyt N0      Planet
+
+    Identity                  `noun`       {- blAniyt -}        [ "Planet" ] ]
+
+ |> "blAnkuw" <| [
+
+    -- ;; blAnokuw_1
+    -- blAnkw  blAnokuw        N0      Blanco
+
+    Identity                  `noun`       {- blAnokuw -}       [ "Blanco" ] ]
+
+ |> "blAntiy^sn" <| [
+
+    -- ;; blAnotiy$n_1
+    -- blAnty$n        blAnotiy$n      N0      Plantation
+
+    Identity                  `noun`       {- blAnotiy$n -}     [ "Plantation" ] ]
+
+ |> "blAntiyr" <| [
+
+    -- ;; blAnotiyr_1
+    -- blAntyr blAnotiyr       N0      Blantyre
+
+    Identity                  `noun`       {- blAnotiyr -}      [ "Blantyre" ] ]
+
+ |> "blAs" <| [
+
+    -- ;; blAs_1
+    -- blAs    blAs    Nprop   Blas
+
+    Identity                  `noun`       {- blAs -}           [ "Blas" ] ]
+
+ |> "blAstiyk" <| [
+
+    -- ;; blAsotiyk_1
+    -- blAstyk blAsotiyk       N       plastic
+
+    Identity                  `noun`       {- blAsotiyk -}      [ "plastic" ],
+
+    -- ;; blAsotiykiy~_1
+    -- blAstyky        blAsotiykiy~    Nall    plastic     [[blAsotiykiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- blAsotiykiy~ -}   [ "plastic" ] ]
+
+ |> "blAt^siy" <| [
+
+    -- ;; blAto$iy_1
+    -- blAt$y  blAto$iy        Nprop   Blatchy
+
+    Identity                  `noun`       {- blAto$iy -}       [ "Blatchy" ] ]
+
+ |> "blAtir" <| [
+
+    -- ;; blAtir_1
+    -- blAtr   blAtir  Nprop   Blatter
+
+    Identity                  `noun`       {- blAtir -}         [ "Blatter" ] ]
+
+ |> "blAtiyn" <| [
+
+    -- ;; blAtiyn_1
+    -- blAtyn  blAtiyn N       platinum
+
+    Identity                  `noun`       {- blAtiyn -}        [ "platinum" ] ]
+
+ |> "blAtuwh" <| [
+
+    -- ;; blAtuwh_1
+    -- blAtwh  blAtuwh N/At    plateau;stage
+
+    Identity                  `noun`       {- blAtuwh -}        [ "plateau", "stage" ] ]
+
+ |> "bliyks" <| [
+
+    -- ;; bliyks_1
+    -- blyks   bliyks  Nprop   Blicks
+
+    Identity                  `noun`       {- bliyks -}         [ "Blicks" ] ]
+
+ |> "bliyr" <| [
+
+    -- ;; bliyr_1
+    -- blyr    bliyr   Nprop   Blair
+
+    Identity                  `noun`       {- bliyr -}          [ "Blair" ] ]
+
+ |> "bliyz" <| [
+
+    -- ;; bliyz_1
+    -- blyz    bliyz   FW-Wa   please
+
+    Identity                  `noun`       {- bliyz -}          [ "please" ] ]
+
+ |> "bliyzir" <| [
+
+    -- ;; bliyzir_1
+    -- blyzr   bliyzir N/At    blazer
+
+    Identity                  `noun`       {- bliyzir -}        [ "blazer" ] ]
+
+ |> "bliyzirz" <| [
+
+    -- ;; bliyziroz_1
+    -- blyzrz  bliyziroz       N0      Blazers
+
+    Identity                  `noun`       {- bliyziroz -}      [ "Blazers" ] ]
+
+ |> "bluw^giynz" <| [
+
+    -- ;; bluwjiynoz_1
+    -- blwjynz bluwjiynoz      N       bluejeans
+
+    Identity                  `noun`       {- bluwjiynoz -}     [ "bluejeans" ] ]
+
+ |> "bluwtuw" <| [
+
+    -- ;; bluwtuw_1
+    -- blwtw   bluwtuw N       Pluto
+    -- blwTw   bluwTuw N       Pluto
+
+    Identity                  `noun`       {- bluwtuw -}        [ "Pluto" ] ]
+
+ |> "bluwtuwniyuwm" <| [
+
+    -- ;; bluwtuwniyuwm_1
+    -- blwtwnywm       bluwtuwniyuwm   N0      plutonium
+
+    Identity                  `noun`       {- bluwtuwniyuwm -}  [ "plutonium" ] ]
+
+ |> "bluwtuwniyy" <| [
+
+    -- ;; bluwtuwniy~_1
+    -- blwtwny bluwtuwniy~     Nall    plutonium     [[bluwtuwniy~/ADJ]]
+
+    Identity                  `adj`        {- bluwtuwniy~ -}    [ "plutonium" ] ]
+
+ |> "bluwtuwqrA.tiyy" <| [
+
+    -- ;; bluwtuwqrATiy~_1
+    -- blwtwqrATy      bluwtuwqrATiy~  Nall    plutocrat
+
+    Identity                  `noun`       {- bluwtuwqrATiy~ -} [ "plutocrat" ],
+
+    -- ;; bluwtuwqrATiy~_2
+    -- blwtwqrATy      bluwtuwqrATiy~  Nall    plutocratic     [[bluwtuwqrATiy~/ADJ]]
+
+    Identity                  `adj`        {- bluwtuwqrATiy~ -} [ "plutocratic" ],
+
+    -- ;; bluwtuwqrATiy~ap_1
+    -- blwtwqrATy      bluwtuwqrATiy~  Napdu   plutocracy     [[bluwtuwqrATiy~/ADJ]]
+    -- blwtwqrATy      bluwtuwqrATiy~  NAt     plutocracies     [[bluwtuwqrATiy~/ADJ]]
+
+    Identity |< aT            `adj`        {- bluwtuwqrATiy~ap -} [ "plutocracy", "plutocracies" ] ]
+
+ |> "bluwz" <| [
+
+    -- ;; bluwz_1
+    -- blwz    bluwz   N/ap    blouse
+
+    Identity                  `noun`       {- bluwz -}          [ "blouse" ] ]
+
+ |> "brA.g" <| [
+
+    -- ;; brAg_1
+    -- brAg    brAg    N       Prague
+
+    Identity                  `noun`       {- brAg -}           [ "Prague" ] ]
+
+ |> "brA_hA" <| [
+
+    -- ;; brAxA_1
+    -- brAxA   brAxA   Nprop   Brakha
+
+    Identity                  `noun`       {- brAxA -}          [ "Brakha" ] ]
+
+ |> "brAdiy^s" <| [
+
+    -- ;; brAdiy$_1
+    -- brAdy$  brAdiy$ Nprop   Pradesh
+
+    Identity                  `noun`       {- brAdiy$ -}        [ "Pradesh" ] ]
+
+ |> "brAfdA" <| [
+
+    -- ;; brAfodA_1
+    -- brAfdA  brAfodA N0      Pravda
+
+    Identity                  `noun`       {- brAfodA -}        [ "Pravda" ] ]
+
+ |> "brAfuw" <| [
+
+    -- ;; brAfuw_1
+    -- brAfw   brAfuw  FW      bravo     [[brAVuw/INTERJ]]
+
+    Identity                  `noun`       {- brAfuw -}         [ "bravo" ] ]
+
+ |> "brAkiyuw" <| [
+
+    -- ;; brAkiyuw_1
+    -- brAkyw  brAkiyuw        Nprop   Bracio
+
+    Identity                  `noun`       {- brAkiyuw -}       [ "Bracio" ] ]
+
+ |> "brAmAtArskiy" <| [
+
+    -- ;; brAmAtAroskiy_1
+    -- brAmAtArsky     brAmAtAroskiy   Nprop   Pramatarski
+
+    Identity                  `noun`       {- brAmAtAroskiy -}  [ "Pramatarski" ] ]
+
+ |> "brAndiy" <| [
+
+    -- ;; brAnodiy_1
+    -- brAndy  brAnodiy        N0      brandy
+
+    Identity                  `noun`       {- brAnodiy -}       [ "brandy" ],
+
+    -- ;; brAnodiy_2
+    -- brAndy  brAnodiy        N0      Brandy
+
+    Identity                  `noun`       {- brAnodiy -}       [ "Brandy" ] ]
+
+ |> "brAnniykuwf" <| [
+
+    -- ;; brAn~iykuwf_1
+    -- brAnykwf        brAn~iykuwf     N0      Barannikov
+
+    Identity                  `noun`       {- brAn~iykuwf -}    [ "Barannikov" ] ]
+
+ |> "brAwn" <| [
+
+    -- ;; brAwn_1
+    -- brAwn   brAwn   Nprop   Brown
+
+    Identity                  `noun`       {- brAwn -}          [ "Brown" ] ]
+
+ |> "brAyin" <| [
+
+    -- ;; brAyin_1
+    -- brAyn   brAyin  N0      Brian
+
+    Identity                  `noun`       {- brAyin -}         [ "Brian" ] ]
+
+ |> "brAyint" <| [
+
+    -- ;; brAyinot_1
+    -- brAynt  brAyinot        Nprop   Bryant
+
+    Identity                  `noun`       {- brAyinot -}       [ "Bryant" ] ]
+
+ |> "brAzAfiyl" <| [
+
+    -- ;; brAzAfiyl_1
+    -- brAzAfyl        brAzAfiyl       N0      Brazzaville
+
+    Identity                  `noun`       {- brAzAfiyl -}      [ "Brazzaville" ] ]
+
+ |> "brid^g" <| [
+
+    -- ;; bridoj_1
+    -- brdj    bridoj  N       bridge (game)
+    -- brydj   briydj  N       bridge (game)
+
+    Identity                  `noun`       {- bridoj -}         [ "bridge (game)" ] ]
+
+ |> "brint" <| [
+
+    -- ;; brint_1
+    -- brnt    brint   Nprop   Brent
+
+    Identity                  `noun`       {- brint -}          [ "Brent" ] ]
+
+ |> "briy.g" <| [
+
+    -- ;; briyg_1
+    -- bryg    briyg   Nprop   Brig
+
+    Identity                  `noun`       {- briyg -}          [ "Brig" ] ]
+
+ |> "briy.tAniyA" <| [
+
+    -- ;; briyTAniyA_1
+    -- bryTAnyA        briyTAniyA      N0      Britain
+
+    Identity                  `noun`       {- briyTAniyA -}     [ "Britain" ] ]
+
+ |> "briy.tAniyy" <| [
+
+    -- ;; briyTAniy~_1
+    -- bryTAny briyTAniy~      Nall    British     [[biriyTAniy~/NOUN]]
+    -- bryTAny briyTAniy~      Nall    British     [[biriyTAniy~/ADJ]]
+
+    Identity                  `adj`        {- briyTAniy~ -}     [ "British" ] ]
+
+ |> "briy^giyt" <| [
+
+    -- ;; briyjiyt_1
+    -- bryjyt  briyjiyt        Nprop   Brigite;Bridget;Bridgitte;Brighit
+
+    Identity                  `noun`       {- briyjiyt -}       [ "Brigite", "Bridget", "Bridgitte", "Brighit" ] ]
+
+ |> "briy^siyA" <| [
+
+    -- ;; briy$iyA_1
+    -- bry$yA  briy$iyA        Nprop   Brescia
+
+    Identity                  `noun`       {- briy$iyA -}       [ "Brescia" ] ]
+
+ |> "briydrA.g" <| [
+
+    -- ;; briydrAg_1
+    -- brydrAg briydrAg        Nprop   Predrag
+
+    Identity                  `noun`       {- briydrAg -}       [ "Predrag" ] ]
+
+ |> "briymAkuwf" <| [
+
+    -- ;; briymAkuwf_1
+    -- brymAkwf        briymAkuwf      Nprop   Primakoff
+
+    Identity                  `noun`       {- briymAkuwf -}     [ "Primakoff" ] ]
+
+ |> "briymin" <| [
+
+    -- ;; briymin_1
+    -- brymn   briymin N0      Bremen
+
+    Identity                  `noun`       {- briymin -}        [ "Bremen" ] ]
+
+ |> "briynt" <| [
+
+    -- ;; briynt_1
+    -- brynt   briynt  Nprop   Print
+
+    Identity                  `noun`       {- briynt -}         [ "Print" ] ]
+
+ |> "briysliy" <| [
+
+    -- ;; briysoliy_1
+    -- brysly  briysoliy       Nprop   Presley
+
+    Identity                  `noun`       {- briysoliy -}      [ "Presley" ] ]
+
+ |> "briytiy^s" <| [
+
+    -- ;; briytiy$_1
+    -- bryty$  briytiy$        N0      British
+    -- bryt$   briyti$ N0      British
+
+    Identity                  `noun`       {- briytiy$ -}       [ "British" ] ]
+
+ |> "briyzbAn" <| [
+
+    -- ;; briyzobAn_1
+    -- bryzbAn briyzobAn       N0      Brisbane
+
+    Identity                  `noun`       {- briyzobAn -}      [ "Brisbane" ] ]
+
+ |> "bruwArd" <| [
+
+    -- ;; bruwArod_1
+    -- brwArd  bruwArod        N0      Brouard
+
+    Identity                  `noun`       {- bruwArod -}       [ "Brouard" ] ]
+
+ |> "bruw^g" <| [
+
+    -- ;; bruwj_1
+    -- brwj    bruwj   Nprop   Brugge
+
+    Identity                  `noun`       {- bruwj -}          [ "Brugge" ] ]
+
+ |> "bruw^grAm" <| [
+
+    -- ;; bruwjrAm_1
+    -- brwjrAm bruwjrAm        N/At    program
+
+    Identity                  `noun`       {- bruwjrAm -}       [ "program" ] ]
+
+ |> "bruw^siyh" <| [
+
+    -- ;; bruw$iyh_1
+    -- brw$yh  bruw$iyh        NduAt   brochure;prospectus
+
+    Identity                  `noun`       {- bruw$iyh -}       [ "brochure", "prospectus" ] ]
+
+ |> "bruwf" <| [
+
+    -- ;; bruwfap_1
+    -- brwf    bruwf   NapAt   test;trial run;proof
+
+    Identity |< aT            `noun`       {- bruwfap -}        [ "test", "trial run", "proof" ] ]
+
+ |> "bruwfisuwr" <| [
+
+    -- ;; bruwfisuwr_1
+    -- brwfswr bruwfisuwr      N       professor
+    -- brwfyswr        bruwfiysuwr     N       professor
+
+    Identity                  `noun`       {- bruwfisuwr -}     [ "professor" ] ]
+
+ |> "bruwiyn" <| [
+
+    -- ;; bruwiyn_1
+    -- brwyn   bruwiyn Nprop   Bruijn;Bruin
+
+    Identity                  `noun`       {- bruwiyn -}        [ "Bruijn", "Bruin" ] ]
+
+ |> "bruwksil" <| [
+
+    -- ;; bruwkosil_1
+    -- brwksl  bruwkosil       Nprop   Brussels
+    -- brwksAl bruwkosAl       Nprop   Brussels
+    -- brwksyl bruwkosiyl      Nprop   Brussels
+
+    Identity                  `noun`       {- bruwkosil -}      [ "Brussels" ] ]
+
+ |> "bruwliytAriyA" <| [
+
+    -- ;; bruwliytAriyA_1
+    -- brwlytAryA      bruwliytAriyA   N0      proletariat
+
+    Identity                  `noun`       {- bruwliytAriyA -}  [ "proletariat" ] ]
+
+ |> "bruwliytAriyy" <| [
+
+    -- ;; bruwliytAriy~_1
+    -- brwlytAry       bruwliytAriy~   Nall    proletarian     [[bruwliytAriy~/ADJ]]
+
+    Identity                  `adj`        {- bruwliytAriy~ -}  [ "proletarian" ] ]
+
+ |> "bruwnAy" <| [
+
+    -- ;; bruwnAy_1
+    -- brwnAy  bruwnAy N0      Brunei
+
+    Identity                  `noun`       {- bruwnAy -}        [ "Brunei" ] ]
+
+ |> "bruws" <| [
+
+    -- ;; bruws_1
+    -- brws    bruws   Nprop   Bruce
+
+    Identity                  `noun`       {- bruws -}          [ "Bruce" ] ]
+
+ |> "bruwsiyA" <| [
+
+    -- ;; bruwsiyA_1
+    -- brwsyA  bruwsiyA        N0      Prussia
+
+    Identity                  `noun`       {- bruwsiyA -}       [ "Prussia" ] ]
+
+ |> "bruwtistAntiyy" <| [
+
+    -- ;; bruwtisotAnotiy~_1
+    -- brwtstAnty      bruwtisotAnotiy~        Nall    Protestant     [[bruwtisotAntiy~/NOUN]]
+    -- brwtstAnty      bruwtisotAnotiy~        Nall    Protestant     [[bruwtisotAntiy~/ADJ]]
+    -- brwtstAntyny    bruwtisotAnotiyniy~     Nall    Protestant     [[bruwtisotAntiyniy~/NOUN]]
+    -- brwtstAntyny    bruwtisotAnotiyniy~     Nall    Protestant     [[bruwtisotAntiyniy~/ADJ]]
+    -- brwtstAnt       bruwtisotAnt    N       Protestants
+
+    Identity                  `adj`        {- bruwtisotAnotiy~ -} [ "Protestant", "Protestants" ] ]
+
+ |> "bruwtistuw" <| [
+
+    -- ;; bruwtisotuw_1
+    -- brwtstw bruwtisotuw     N0      protest
+
+    Identity                  `noun`       {- bruwtisotuw -}    [ "protest" ] ]
+
+ |> "bruwtiyn" <| [
+
+    -- ;; bruwtiyn_1
+    -- brwtyn  bruwtiyn        NduAt   protein
+    -- brwtyyn bruwtiyiyn      NduAt   protein
+
+    Identity                  `noun`       {- bruwtiyn -}       [ "protein" ] ]
+
+ |> "bruwtuwkuwl" <| [
+
+    -- ;; bruwtuwkuwl_1
+    -- brwtwkwl        bruwtuwkuwl     NduAt   protocol
+
+    Identity                  `noun`       {- bruwtuwkuwl -}    [ "protocol" ] ]
+
+ |> "bruwtuwkuwliyy" <| [
+
+    -- ;; bruwtuwkuwliy~_1
+    -- brwtwkwly       bruwtuwkuwliy~  Nall    protocol     [[bruwtuwkuwliy~/ADJ]]
+
+    Identity                  `adj`        {- bruwtuwkuwliy~ -} [ "protocol" ] ]
+
+ |> "bruwtuwn" <| [
+
+    -- ;; bruwtuwn_1
+    -- brwtwn  bruwtuwn        NduAt   proton
+
+    Identity                  `noun`       {- bruwtuwn -}       [ "proton" ] ]
+
+ |> "bsiykuwluw^g" <| [
+
+    -- ;; bsiykuwluwjiy~_1
+    -- bsykwlwjy       bsiykuwluwjiy~  Nall    psychological     [[bsiykuwluwjiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- bsiykuwluwjiy~ -} [ "psychological" ] ]
+
+ |> "bsiykuwluw^giyA" <| [
+
+    -- ;; bsiykuwluwjiyA_1
+    -- bsykwlwjyA      bsiykuwluwjiyA  N0      psychology
+
+    Identity                  `noun`       {- bsiykuwluwjiyA -} [ "psychology" ] ]
+
+ |> "bu.trus.grAd" <| [
+
+    -- ;; buTorusogrAd_1
+    -- bTrsgrAd        buTorusogrAd    Nprop   St. Petersburg
+
+    Identity                  `noun`       {- buTorusogrAd -}   [ "St. Petersburg" ] ]
+
+ |> "bu`ayda" <| [
+
+    -- ;; buEayoda_1
+    -- bEyd    buEayoda        FW-Wa   shortly after;soon after     [[buEayoda/PREP]]
+    -- bEyd    buEayodi        FW-Wa   shortly after;soon after     [[buEayodi/PREP]]
+    -- bEyd    buEayoda        FW-Wa-a shortly after;soon after     [[buEayoda/PREP]]
+    -- bEyd    buEayodi        FW-Wa-i shortly after;soon after     [[buEayodi/PREP]]
+    -- bEyd    buEayod FW-Wa-o shortly after;soon after     [[buEayod/PREP]]
+
+    Identity                  `noun`       {- buEayoda -}       [ "shortly after", "soon after" ] ]
+
+ |> "buksumAd" <| [
+
+    -- ;; bukosumAd_1
+    -- bksmAd  bukosumAd       N       rusk;biscuit
+    -- bksmAT  bukosumAT       N       rusk;biscuit
+
+    Identity                  `noun`       {- bukosumAd -}      [ "rusk", "biscuit" ] ]
+
+ |> "bul.gAriyA" <| [
+
+    -- ;; bulogAriyA_1
+    -- blgAryA bulogAriyA      N0      Bulgaria
+
+    Identity                  `noun`       {- bulogAriyA -}     [ "Bulgaria" ] ]
+
+ |> "bulahniy" <| [
+
+    -- ;; bulahoniyap_1
+    -- blhny   bulahoniy       Nap     wealth;abundance
+
+    Identity |< aT            `noun`       {- bulahoniyap -}    [ "wealth", "abundance" ] ]
+
+ |> "buland" <| [
+
+    -- ;; bulanod_1
+    -- blnd    bulanod Nprop   Bulent;Boland;Buland
+    -- bwlnd   buwlanod        Nprop   Bulent;Boland;Buland
+
+    Identity                  `noun`       {- bulanod -}        [ "Bulent", "Boland", "Buland" ] ]
+
+ |> "bulay.hA'" <| [
+
+    -- ;; bulayoHA'_1
+    -- blyHA'  bulayoHA'       N0      reseda;grayish green
+
+    Identity                  `noun`       {- bulayoHA' -}      [ "reseda", "grayish green" ] ]
+
+ |> "buluwfir" <| [
+
+    -- ;; buluwfir_1
+    -- blwfr   buluwfir        NduAt   pullover
+
+    Identity                  `noun`       {- buluwfir -}       [ "pullover" ] ]
+
+ |> "bunduqAn" <| [
+
+    -- ;; bunoduqAniy~_1
+    -- bndqAny bunoduqAniy~    Nall    Venetian     [[bunoduqAniy~/NOUN]]
+    -- bndqAny bunoduqAniy~    Nall    Venetian     [[bunoduqAniy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- bunoduqAniy~ -}   [ "Venetian" ] ]
+
+ |> "bur.giy" <| [
+
+    -- ;; burogiy_1
+    -- brgy    burogiy Ndu     screw
+    -- brAgy   barAgiy N0_Nh   screws
+
+    Identity                  `noun`       {- burogiy -}        [ "screw", "screws" ] ]
+
+ |> "bur^sAm^g" <| [
+
+    -- ;; buro$Amojiy~_1
+    -- br$Amjy buro$Amojiy~    Nall    riveter     [[buro$Amojiy~/ADJ]]
+    -- br$Amjy buro$Amojiy~    Nap     riveting     [[buro$Amojiy~/NOUN]]
+
+    Identity |< Iy            `adj`        {- buro$Amojiy~ -}   [ "riveter", "riveting" ] ]
+
+ |> "burmA" <| [
+
+    -- ;; buromA_1
+    -- brmA    buromA  N0      Burma
+
+    Identity                  `noun`       {- buromA -}         [ "Burma" ] ]
+
+ |> "burnay.t" <| [
+
+    -- ;; buronayoTap_1
+    -- brnyT   buronayoT       NapAt   (Western) hat
+    -- brAnyT  barAniyT        Ndip    (Western) hats
+
+    Identity |< aT            `noun`       {- buronayoTap -}    [ "(Western) hat", "(Western) hats" ] ]
+
+ |> "burtu.gAl" <| [
+
+    -- ;; burotugAl_1
+    -- brtgAl  burotugAl       N       Portugal
+    -- brtwgAl burotuwgAl      N       Portugal
+
+    Identity                  `noun`       {- burotugAl -}      [ "Portugal" ],
+
+    -- ;; burotugAliy~_1
+    -- brtgAly burotugAliy~    Nall    Portuguese     [[burotugAliy~/NOUN]]
+    -- brtgAly burotugAliy~    Nall    Portuguese     [[burotugAliy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- burotugAliy~ -}   [ "Portuguese" ] ]
+
+ |> "burtuqAl" <| [
+
+    -- ;; burotuqAl_1
+    -- brtqAl  burotuqAl       N       oranges
+    -- brtqAn  burotuqAn       N       oranges
+    -- brdqAn  buroduqAn       N       oranges
+
+    Identity                  `noun`       {- burotuqAl -}      [ "oranges" ],
+
+    -- ;; burotuqAliy~_1
+    -- brtqAly burotuqAliy~    Nall    orange     [[burotuqAliy~/ADJ]]
+    -- brtqAny burotuqAniy~    Nall    orange     [[burotuqAniy~/ADJ]]
+    -- brdqAny buroduqAniy~    Nall    orange     [[buroduqAniy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- burotuqAliy~ -}   [ "orange" ] ]
+
+ |> "burtuw.gAl" <| [
+
+    -- ;; burotuwgAliy~_1
+    -- brtwgAly        burotuwgAliy~   Nall    Portuguese     [[burotuwgAliy~/NOUN]]
+    -- brtwgAly        burotuwgAliy~   Nall    Portuguese     [[burotuwgAliy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- burotuwgAliy~ -}  [ "Portuguese" ] ]
+
+ |> "burun^guk" <| [
+
+    -- ;; burunojuk_1
+    -- brnjk   burunojuk       N       gauze;crepe
+
+    Identity                  `noun`       {- burunojuk -}      [ "gauze", "crepe" ] ]
+
+ |> "buruw^giyy" <| [
+
+    -- ;; buruwjiy~_1
+    -- brwjy   buruwjiy~       Nall    trumpeter;bugler     [[buruwjiy~/ADJ]]
+
+    Identity                  `adj`        {- buruwjiy~ -}      [ "trumpeter", "bugler" ] ]
+
+ |> "buruwnz" <| [
+
+    -- ;; buruwnz_1
+    -- brwnz   buruwnz N       bronze
+
+    Identity                  `noun`       {- buruwnz -}        [ "bronze" ] ]
+
+ |> "buruwnziyy" <| [
+
+    -- ;; buruwnoziy~_1
+    -- brwnzy  buruwnoziy~     Nall    bronze     [[buruwnoziy~/ADJ]]
+
+    Identity                  `adj`        {- buruwnoziy~ -}    [ "bronze" ] ]
+
+ |> "buruwsiyy" <| [
+
+    -- ;; buruwsiy~_1
+    -- brwsy   buruwsiy~       Nall    Prussian     [[buruwsiy~/NOUN]]
+    -- brwsy   buruwsiy~       Nall    Prussian     [[buruwsiy~/ADJ]]
+
+    Identity                  `adj`        {- buruwsiy~ -}      [ "Prussian" ] ]
+
+ |> "bustAniyy" <| [
+
+    -- ;; busotAniy~_1
+    -- bstAny  busotAniy~      N       Boustani
+
+    Identity                  `noun`       {- busotAniy~ -}     [ "Boustani" ],
+
+    -- ;; busotAniy~_2
+    -- bstAny  busotAniy~      Nall    gardener     [[busotAniy~/ADJ]]
+
+    Identity                  `adj`        {- busotAniy~ -}     [ "gardener" ] ]
+
+ |> "buw" <| [
+
+    -- ;; buw_1
+    -- bw      buw     Nprop   Bou
+
+    Identity                  `noun`       {- buw -}            [ "Bou" ] ]
+
+ |> "buw.haliyq" <| [
+
+    -- ;; buwHaliyqap_1
+    -- bwHlyqp buwHaliyqap     N0      Buhaliqa
+
+    Identity |< aT            `noun`       {- buwHaliyqap -}    [ "Buhaliqa" ] ]
+
+ |> "buwAfiystA" <| [
+
+    -- ;; buwAfiysotA_1
+    -- bwAfystA        buwAfiysotA     N0      Boavista
+
+    Identity                  `noun`       {- buwAfiysotA -}    [ "Boavista" ] ]
+
+ |> "buw^sa`iyb" <| [
+
+    -- ;; buw$aEiyb_1
+    -- bw$Eyb  buw$aEiyb       Nprop   Bouchaib
+
+    Identity                  `noun`       {- buw$aEiyb -}      [ "Bouchaib" ] ]
+
+ |> "buw^sir" <| [
+
+    -- ;; buw$ir_1
+    -- bw$r    buw$ir  Nprop   Boucher
+
+    Identity                  `noun`       {- buw$ir -}         [ "Boucher" ] ]
+
+ |> "buw^skA^s" <| [
+
+    -- ;; buw$kA$_1
+    -- bw$kA$  buw$kA$ Nprop   Puskas
+
+    Identity                  `noun`       {- buw$kA$ -}        [ "Puskas" ] ]
+
+ |> "buw^skiyn" <| [
+
+    -- ;; buw$okiyn_1
+    -- bw$kyn  buw$okiyn       Nprop   Pushkin
+
+    Identity                  `noun`       {- buw$okiyn -}      [ "Pushkin" ] ]
+
+ |> "buw_dA" <| [
+
+    -- ;; buw*A_1
+    -- bw*A    buw*A   N0      Buddha
+
+    Identity                  `noun`       {- buw*A -}          [ "Buddha" ] ]
+
+ |> "buw_hArist" <| [
+
+    -- ;; buwxArisot_1
+    -- bwxArst buwxArisot      Nprop   Bucharest
+
+    Identity                  `noun`       {- buwxArisot -}     [ "Bucharest" ],
+
+    -- ;; buwxArisotiy~_1
+    -- bwxArsty        buwxArisotiy~   Nall    of/from Bucharest     [[buwxArisotiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- buwxArisotiy~ -}  [ "of/from Bucharest" ] ]
+
+ |> "buw`aynayn" <| [
+
+    -- ;; buwEayonayon_1
+    -- bwEynyn buwEayonayon    N0      Bouainein
+
+    Identity                  `noun`       {- buwEayonayon -}   [ "Bouainein" ] ]
+
+ |> "buw`aziyz" <| [
+
+    -- ;; buwEaziyz_1
+    -- bwEzyz  buwEaziyz       N0      Bouaziz
+
+    Identity                  `noun`       {- buwEaziyz -}      [ "Bouaziz" ] ]
+
+ |> "buw`aziyziy" <| [
+
+    -- ;; buwEaziyziy_1
+    -- bwEzyzy buwEaziyziy     N0      Bouazizi
+
+    Identity                  `noun`       {- buwEaziyziy -}    [ "Bouazizi" ] ]
+
+ |> "buway_hir" <| [
+
+    -- ;; buwayoxirap_1
+    -- bwyxr   buwayoxir       NapAt   small steamship
+
+    Identity |< aT            `noun`       {- buwayoxirap -}    [ "small steamship" ] ]
+
+ |> "buwbliyn" <| [
+
+    -- ;; buwboliyn_1
+    -- bwblyn  buwboliyn       N       poplin
+
+    Identity                  `noun`       {- buwboliyn -}      [ "poplin" ] ]
+
+ |> "buwd.guwriyt^sA" <| [
+
+    -- ;; buwdoguwriyt$A_1
+    -- bwdgwryt$A      buwdoguwriyt$A  Nprop   Podgorica
+
+    Identity                  `noun`       {- buwdoguwriyt$A -} [ "Podgorica" ] ]
+
+ |> "buwdAbist" <| [
+
+    -- ;; buwdAbisot_1
+    -- bwdAbst buwdAbisot      Nprop   Budapest
+
+    Identity                  `noun`       {- buwdAbisot -}     [ "Budapest" ],
+
+    -- ;; buwdAbisotiy~_1
+    -- bwdAbsty        buwdAbisotiy~   Nall    of/from Budapest     [[buwdAbisotiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- buwdAbisotiy~ -}  [ "of/from Budapest" ] ]
+
+ |> "buwdiyruw.gA" <| [
+
+    -- ;; buwdiyruwgA_1
+    -- bwdyrwgA        buwdiyruwgA     Nprop   Bodiroga
+
+    Identity                  `noun`       {- buwdiyruwgA -}    [ "Bodiroga" ] ]
+
+ |> "buwdr" <| [
+
+    -- ;; buwdrap_1
+    -- bwdr    buwdr   Nap     powder
+
+    Identity |< aT            `noun`       {- buwdrap -}        [ "powder" ] ]
+
+ |> "buwfAriy" <| [
+
+    -- ;; buwfAriy_1
+    -- bwfAry  buwfAriy        Nprop   Bovary
+
+    Identity                  `noun`       {- buwfAriy -}       [ "Bovary" ] ]
+
+ |> "buwiyn.g" <| [
+
+    -- ;; buwiyng_1
+    -- bwyng   buwiyng N0      Boeing
+    -- bwynj   buwiynj N0      Boeing
+
+    Identity                  `noun`       {- buwiyng -}        [ "Boeing" ] ]
+
+ |> "buwiynus" <| [
+
+    -- ;; buwiynus_1
+    -- bwyns   buwiynus        N0      Buenos
+    -- bywns   biyuwnus        N0      Buenos
+
+    Identity                  `noun`       {- buwiynus -}       [ "Buenos" ] ]
+
+ |> "buwks" <| [
+
+    -- ;; buwkos_1
+    -- bwks    buwkos  N       boxing
+
+    Identity                  `noun`       {- buwkos -}         [ "boxing" ] ]
+
+ |> "buwland" <| [
+
+    -- ;; buwlanodiy~_1
+    -- bwlndy  buwlanodiy~     Nall    Polish     [[buwlanodiy~/NOUN]]
+    -- bwlndy  buwlanodiy~     Nall    Polish     [[buwlanodiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- buwlanodiy~ -}    [ "Polish" ] ]
+
+ |> "buwlandA" <| [
+
+    -- ;; buwlanodA_1
+    -- bwlndA  buwlanodA       N0      Poland
+    -- bwlnd   buwlanod        Nap     Poland
+
+    Identity                  `noun`       {- buwlanodA -}      [ "Poland" ] ]
+
+ |> "buwlfAr" <| [
+
+    -- ;; buwlofAr_1
+    -- bwlfAr  buwlofAr        N       boulevard
+
+    Identity                  `noun`       {- buwlofAr -}       [ "boulevard" ] ]
+
+ |> "buwliyfiyA" <| [
+
+    -- ;; buwliyfiyA_1
+    -- bwlyfyA buwliyfiyA      N0      Bolivia
+
+    Identity                  `noun`       {- buwliyfiyA -}     [ "Bolivia" ] ]
+
+ |> "buwliysAriyuw" <| [
+
+    -- ;; buwliysAriyuw_1
+    -- bwlysAryw       buwliysAriyuw   N0      Polisario
+
+    Identity                  `noun`       {- buwliysAriyuw -}  [ "Polisario" ] ]
+
+ |> "buwltuwn" <| [
+
+    -- ;; buwlotuwn_1
+    -- bwltwn  buwlotuwn       Nprop   Bolton
+
+    Identity                  `noun`       {- buwlotuwn -}      [ "Bolton" ] ]
+
+ |> "buwluwniyA" <| [
+
+    -- ;; buwluwniyA_1
+    -- bwlwnyA buwluwniyA      N0      Bologna
+
+    Identity                  `noun`       {- buwluwniyA -}     [ "Bologna" ] ]
+
+ |> "buwlz" <| [
+
+    -- ;; buwloz_1
+    -- bwlz    buwloz  Nprop   Bulls
+
+    Identity                  `noun`       {- buwloz -}         [ "Bulls" ] ]
+
+ |> "buwmirdAs" <| [
+
+    -- ;; buwmirodAs_1
+    -- bwmrdAs buwmirodAs      N0      Boumerdes;Boumerdas
+
+    Identity                  `noun`       {- buwmirodAs -}     [ "Boumerdes", "Boumerdas" ] ]
+
+ |> "buwndisliy.g" <| [
+
+    -- ;; buwnodisoliyg_1
+    -- bwndslyg        buwnodisoliyg   N0      Bundeslig
+
+    Identity                  `noun`       {- buwnodisoliyg -}  [ "Bundeslig" ] ]
+
+ |> "buwndisliy.gah" <| [
+
+    -- ;; buwnodisoliygah_1
+    -- bwndslygh       buwnodisoliygah N0      Bundesliga
+
+    Identity                  `noun`       {- buwnodisoliygah -} [ "Bundesliga" ] ]
+
+ |> "buwntA" <| [
+
+    -- ;; buwnotA_1
+    -- bwntA   buwnotA Nprop   Punta
+
+    Identity                  `noun`       {- buwnotA -}        [ "Punta" ] ]
+
+ |> "buwnyA" <| [
+
+    -- ;; buwnoyA_1
+    -- bwnyA   buwnoyA Nprop   Bonia ??
+
+    Identity                  `noun`       {- buwnoyA -}        [ "Bonia ??" ] ]
+
+ |> "buwr.g" <| [
+
+    -- ;; buwrog_1
+    -- bwrg    buwrog  Nprop   Burg;Bourg
+
+    Identity                  `noun`       {- buwrog -}         [ "Burg", "Bourg" ] ]
+
+ |> "buwr.gAs" <| [
+
+    -- ;; buwrogAs_1
+    -- bwrgAs  buwrogAs        Nprop   Burgas
+
+    Identity                  `noun`       {- buwrogAs -}       [ "Burgas" ] ]
+
+ |> "buwr.s" <| [
+
+    -- ;; buwroSap_1
+    -- bwrS    buwroS  NapAt   stock exchange;bourse
+
+    Identity |< aT            `noun`       {- buwroSap -}       [ "stock exchange", "bourse" ] ]
+
+ |> "buwrA" <| [
+
+    -- ;; buwrA_1
+    -- bwrA    buwrA   Nprop   Bora
+
+    Identity                  `noun`       {- buwrA -}          [ "Bora" ] ]
+
+ |> "buwr^g" <| [
+
+    -- ;; buwroj_1
+    -- bwrj    buwroj  Nprop   Burg
+
+    Identity                  `noun`       {- buwroj -}         [ "Burg" ] ]
+
+ |> "buwr^guwAz" <| [
+
+    -- ;; buwrojuwAziy~_1
+    -- bwrjwAzy        buwrojuwAziy~   Nall    bourgeois     [[buwrojuwAziy~/ADJ]]
+    -- brjwAzy burojuwAziy~    Nall    bourgeois     [[burojuwAziy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- buwrojuwAziy~ -}  [ "bourgeois" ],
+
+    -- ;; buwrojuwAziy~ap_1
+    -- bwrjwAzy        buwrojuwAziy~   Nap     bourgeoisie     [[buwrojuwAziy~/NOUN]]
+    -- brjwAzy burojuwAziy~    Nap     bourgeoisie     [[burojuwAziy~/NOUN]]
+
+    Identity |< Iy |< aT      `noun`       {- buwrojuwAziy~ap -} [ "bourgeoisie" ] ]
+
+ |> "buwrdir" <| [
+
+    -- ;; buwrodir_1
+    -- bwrdr   buwrodir        Nprop   Burdir ??
+
+    Identity                  `noun`       {- buwrodir -}       [ "Burdir ??" ] ]
+
+ |> "buwrduw" <| [
+
+    -- ;; buwroduw_1
+    -- bwrdw   buwroduw        Nprop   Bordeaux
+
+    Identity                  `noun`       {- buwroduw -}       [ "Bordeaux" ] ]
+
+ |> "buwrm" <| [
+
+    -- ;; buwromiy~_1
+    -- bwrmy   buwromiy~       Nall    Burmese     [[buwromiy~/NOUN]]
+    -- bwrmy   buwromiy~       Nall    Burmese     [[buwromiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- buwromiy~ -}      [ "Burmese" ] ]
+
+ |> "buwrmA" <| [
+
+    -- ;; buwromA_1
+    -- bwrmA   buwromA N0      Burma
+
+    Identity                  `noun`       {- buwromA -}        [ "Burma" ] ]
+
+ |> "buwrsa`iyd" <| [
+
+    -- ;; buwrosaEiyd_1
+    -- bwrsEyd buwrosaEiyd     Nprop   Port Said
+
+    Identity                  `noun`       {- buwrosaEiyd -}    [ "Port Said" ],
+
+    -- ;; buwrosaEiydiy~_1
+    -- bwrsEydy        buwrosaEiydiy~  Nall    from/of Port Said     [[buwrosaEiydiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- buwrosaEiydiy~ -} [ "from/of Port Said" ] ]
+
+ |> "buwrsuwdAn" <| [
+
+    -- ;; buwrosuwdAn_1
+    -- bwrswdAn        buwrosuwdAn     Nprop   Port Sudan
+
+    Identity                  `noun`       {- buwrosuwdAn -}    [ "Port Sudan" ],
+
+    -- ;; buwrosuwdAniy~_1
+    -- bwrswdAny       buwrosuwdAniy~  Nall    from/of Port Sudan     [[buwrosuwdAniy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- buwrosuwdAniy~ -} [ "from/of Port Sudan" ] ]
+
+ |> "buwrtAs" <| [
+
+    -- ;; buwrotAs_1
+    -- bwrtAs  buwrotAs        Nprop   Portas
+
+    Identity                  `noun`       {- buwrotAs -}       [ "Portas" ] ]
+
+ |> "buwrtlAnd" <| [
+
+    -- ;; buwrotlAnod_1
+    -- bwrtlAnd        buwrotlAnod     Nprop   Portland
+
+    Identity                  `noun`       {- buwrotlAnod -}    [ "Portland" ] ]
+
+ |> "buwrtuw" <| [
+
+    -- ;; buwrotuw_1
+    -- bwrtw   buwrotuw        Nprop   Porto
+
+    Identity                  `noun`       {- buwrotuw -}       [ "Porto" ],
+
+    -- ;; buwrotuw_2
+    -- bwrtw   buwrotuw        Nprop   Puerto
+
+    Identity                  `noun`       {- buwrotuw -}       [ "Puerto" ] ]
+
+ |> "buwrtuwriyk" <| [
+
+    -- ;; buwrotuwriykiy~_1
+    -- bwrtwryky       buwrotuwriykiy~ Nall    Puerto Rican
+
+    Identity |< Iy            `adj`        {- buwrotuwriykiy~ -} [ "Puerto Rican" ] ]
+
+ |> "buwrtuwriykuw" <| [
+
+    -- ;; buwrotuwriykuw_1
+    -- bwrtwrykw       buwrotuwriykuw  Nprop   Puerto Rico
+
+    Identity                  `noun`       {- buwrotuwriykuw -} [ "Puerto Rico" ] ]
+
+ |> "buwrund" <| [
+
+    -- ;; buwrunodiy~_1
+    -- bwrwndy buwruwnodiy~    Nall    Burundian     [[buwruwnodiy~/ADJ]]
+    -- brwndy  buruwnodiy~     Nall    Burundian     [[buruwnodiy~/ADJ]]
+    -- brndy   burunodiy~      Nall    Burundian     [[burunodiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- buwrunodiy~ -}    [ "Burundian" ] ]
+
+ |> "buwruwndiy" <| [
+
+    -- ;; buwruwnodiy_1
+    -- bwrwndy buwruwnodiy     Nprop   Burundi
+    -- brwndy  buruwnodiy      Nprop   Burundi
+    -- brndy   burunodiy       Nprop   Burundi
+
+    Identity                  `noun`       {- buwruwnodiy -}    [ "Burundi" ] ]
+
+ |> "buwruwsiyA" <| [
+
+    -- ;; buwruwsiyA_1
+    -- bwrwsyA buwruwsiyA      Nprop   Borussia
+
+    Identity                  `noun`       {- buwruwsiyA -}     [ "Borussia" ] ]
+
+ |> "buws.t" <| [
+
+    -- ;; buwsoTap_1
+    -- bwsT    buwsoT  Nap     mail
+    -- bwst    buwsot  Nap     mail
+
+    Identity |< aT            `noun`       {- buwsoTap -}       [ "mail" ] ]
+
+ |> "buws.ta^g" <| [
+
+    -- ;; buwsoTajiy~_1
+    -- bwsTjy  buwsoTajiy~     Nall    mailman     [[buwsoTajiy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- buwsoTajiy~ -}    [ "mailman" ] ]
+
+ |> "buws.tun" <| [
+
+    -- ;; buwsoTun_1
+    -- bwsTn   buwsoTun        Nprop   Boston
+
+    Identity                  `noun`       {- buwsoTun -}       [ "Boston" ] ]
+
+ |> "buwsfuwr" <| [
+
+    -- ;; buwsofuwr_1
+    -- bwsfwr  buwsofuwr       N       Bosphorus;Bosporus
+
+    Identity                  `noun`       {- buwsofuwr -}      [ "Bosphorus", "Bosporus" ] ]
+
+ |> "buwsn" <| [
+
+    -- ;; buwsoniy~_1
+    -- bwsny   buwsoniy~       Nall    Bosnian     [[buwsoniy~/NOUN]]
+    -- bwsny   buwsoniy~       Nall    Bosnian     [[buwsoniy~/ADJ]]
+    -- bwsn    buwson  Nap     Bosnians
+
+    Identity |< Iy            `adj`        {- buwsoniy~ -}      [ "Bosnian", "Bosnians" ],
+
+    -- ;; buwsonap_1
+    -- bwsn    buwson  Nap     Bosnia
+
+    Identity |< aT            `noun`       {- buwsonap -}       [ "Bosnia" ] ]
+
+ |> "buwst" <| [
+
+    -- ;; buwsot_1
+    -- bwst    buwsot  N0      Post
+
+    Identity                  `noun`       {- buwsot -}         [ "Post" ] ]
+
+ |> "buwsuwfAliyuwk" <| [
+
+    -- ;; buwsuwfAliyuwk_1
+    -- bwswfAlywk      buwsuwfAliyuwk  Nprop   Posovaliuk
+
+    Identity                  `noun`       {- buwsuwfAliyuwk -} [ "Posovaliuk" ] ]
+
+ |> "buwtA^gAz" <| [
+
+    -- ;; buwtAjAz_1
+    -- bwtAjAz buwtAjAz        N/At    gas stove
+
+    Identity                  `noun`       {- buwtAjAz -}       [ "gas stove" ] ]
+
+ |> "buwtAsA" <| [
+
+    -- ;; buwtAsA_1
+    -- bwtAsA  buwtAsA N0      potash
+    -- bwtAs   buwtAs  N       potash
+
+    Identity                  `noun`       {- buwtAsA -}        [ "potash" ] ]
+
+ |> "buwtafliyq" <| [
+
+    -- ;; buwtafliyqap_1
+    -- bwtflyqp        buwtafliyqap    N0      Bouteflika
+
+    Identity |< aT            `noun`       {- buwtafliyqap -}   [ "Bouteflika" ] ]
+
+ |> "buwtiyih" <| [
+
+    -- ;; buwtiyih_1
+    -- bwtyh   buwtiyih        Nprop   Boutier
+
+    Identity                  `noun`       {- buwtiyih -}       [ "Boutier" ] ]
+
+ |> "buwtrA" <| [
+
+    -- ;; buwtrA_1
+    -- bwtrA   buwtrA  Nprop   Putra
+
+    Identity                  `noun`       {- buwtrA -}         [ "Putra" ] ]
+
+ |> "buwtziy" <| [
+
+    -- ;; buwtoziy_1
+    -- bwtzy   buwtoziy        Nprop   Pozzi
+
+    Identity                  `noun`       {- buwtoziy -}       [ "Pozzi" ] ]
+
+ |> "bwyz" <| [
+
+    -- ;; bwyz_1
+    -- bwyz    bwyz    Nprop   Boys
+
+    Identity                  `noun`       {- bwyz -}           [ "Boys" ] ]
+
+ |> "by.dwn" <| [
+
+    -- ;; byDwn_1
+    -- byDwn   byDwn   Nprop   Baidun;Baidoun
+
+    Identity                  `noun`       {- byDwn -}          [ "Baidun", "Baidoun" ] ]
+
+ |> "by`" <| [
+
+    -- ;; byE_1
+    -- byE     byE     PV_V_Pass       be sold
+    -- bAE     bAE     IV_V_Pass_yu    be sold
+    -- bE      baE     IV_C_Pass_yu    be sold
+
+    Identity                  `verb`       {- byE -}            [ "be sold" ] ]
+
+ |> "bylyn" <| [
+
+    -- ;; bylyn_1
+    -- bylyn   bylyn   Nprop   Bilin;Billin
+
+    Identity                  `noun`       {- bylyn -}          [ "Bilin", "Billin" ] ]
+
+ |> "byrs" <| [
+
+    -- ;; byrs_1
+    -- byrs    byrs    Nprop   Pierce
+
+    Identity                  `noun`       {- byrs -}           [ "Pierce" ],
+
+    -- ;; byrs_2
+    -- byrs    byrs    Nprop   Peres
+
+    Identity                  `noun`       {- byrs -}           [ "Peres" ] ]
+
+ |> "byruw^giyA" <| [
+
+    -- ;; byruwjiyA_1
+    -- byrwjyA byruwjiyA       N0      Peruggia
+
+    Identity                  `noun`       {- byruwjiyA -}      [ "Peruggia" ] ]
+
+ |> "byt^snyk" <| [
+
+    -- ;; byt$nyk_1
+    -- byt$nyk byt$nyk Nprop   Bichnik;Pitchnick;Beachnik ??
+
+    Identity                  `noun`       {- byt$nyk -}        [ "Bichnik", "Pitchnick", "Beachnik ??" ] ]
+
+ |> "bytr" <| [
+
+    -- ;; bytr_1
+    -- bytr    bytr    Nprop   Peter
+
+    Identity                  `noun`       {- bytr -}           [ "Peter" ] ]
+
+ |> "ibti.gA'a" <| [
+
+    -- ;; {ibotigA'a_1
+    -- <btgA'  {ibotigA'a      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
+    -- AbtgA'  {ibotigA'a      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
+    -- <btgA'  {ibotigA'a      FW-Wa-a with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
+    -- AbtgA'  {ibotigA'a      FW-Wa-a with the aim of;for the purpose of     [[{ibotigA'a/PREP]]
+
+    Identity                  `noun`       {- {ibotigA'a -}     [ "with the aim of", "for the purpose of" ] ]
+
+ |> "mAbayna" <| [
+
+    -- ;; mAbayona_1
+    -- mAbyn   mAbayona        FW-Wa   between/among     [[mA/REL_PRON+bayona]]
+    -- mAbyn   mAbayona        FW-Wa-a between/among     [[mA/REL_PRON+bayona]]
+    -- mAbyn   mAbayoni        FW-Wa-i between/among     [[mA/REL_PRON+bayoni]]
+    -- mAbyn   mAbayon FW-Wa-o between/among     [[mA/REL_PRON+bayon]]
+
+    Identity                  `noun`       {- mAbayona -}       [ "between/among" ] ]
+
+ |> "mabn" <| [
+
+    -- ;; maboniy~_1
+    -- mbny    maboniy~        Nall    built;based     [[maboniy~/ADJ]]
+
+    Identity |< Iy            `adj`        {- maboniy~ -}       [ "built", "based" ] ]
+
+ |> "mibrA" <| [
+
+    -- ;; miborA_1
+    -- mbrA    miborA  Napdu   sharpener;pocket-knife
+    -- mbry    miboray NAt     sharpeners;pocket-knives
+    -- mbAry   mabAriy N0_Nh   sharpeners;pocket-knives
+    -- mbAr    mabAr   NK      sharpeners;pocket-knives
+
+    Identity                  `noun`       {- miborA -}         [ "sharpener", "pocket-knife", "sharpeners", "pocket-knives" ] ]
+
+ |> "mubAliyy" <| [
+
+    -- ;; lAmubAliy~_1
+    -- lAmbAly lAmubAliy~      Nall_L  indifferent;apathetic     [[lAmubAliy~/ADJ]]
+    -- lAmbAly lAmubAliy~      Nap_L   indifference;apathy     [[lAmubAliy~/NOUN]]
+
+    lA >| Identity            `adj`        {- lAmubAliy~ -}     [ "indifferent", "apathetic", "indifference", "apathy" ] ]
+
+ |> "tabA^siyr" <| [
+
+    -- ;; tabA$iyr_1
+    -- tbA$yr  tabA$iyr        Ndip    first signs;precursors
+
+    Identity                  `noun`       {- tabA$iyr -}       [ "first signs", "precursors" ] ]
+
+ |> "tabAriy.h" <| [
+
+    -- ;; tabAriyH_1
+    -- tbAryH  tabAriyH        Ndip    agonies;torments
+
+    Identity                  `noun`       {- tabAriyH -}       [ "agonies", "torments" ] ]
+

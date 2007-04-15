@@ -125,7 +125,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuKaRDaS',
       'suffix' => '',
       'glosses' => [
@@ -294,7 +294,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCUL',
       'suffix' => '',
       'glosses' => [
@@ -318,7 +318,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MiFCAL',
       'suffix' => '',
       'glosses' => [
@@ -369,7 +369,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFiCL',
       'suffix' => '',
       'glosses' => [
@@ -562,7 +562,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -884,7 +884,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -907,7 +907,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -1577,7 +1577,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -2031,7 +2031,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -2103,7 +2103,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFACiL',
       'suffix' => '',
       'glosses' => [
@@ -2393,7 +2393,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFCaL',
       'suffix' => '',
       'glosses' => [
@@ -2582,7 +2582,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FuCY |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -2606,7 +2606,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FuCY |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -2678,7 +2678,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [
@@ -2739,7 +2739,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFCY',
       'suffix' => '',
       'glosses' => [
@@ -2840,7 +2840,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'KaRDaS |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -3085,7 +3085,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -3132,7 +3132,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FuCLAn |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -3158,7 +3158,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FiCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -3496,7 +3496,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -3520,7 +3520,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity |< Iy |< aN',
       'suffix' => ' |< Iy |< aN',
       'glosses' => [
@@ -3543,7 +3543,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -3818,7 +3818,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -3842,7 +3842,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFCaL',
       'suffix' => '',
       'glosses' => [
@@ -3989,7 +3989,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MutaKaRDiS',
       'suffix' => '',
       'glosses' => [
@@ -4212,7 +4212,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
@@ -4237,7 +4237,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -4511,7 +4511,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCLAn',
       'suffix' => '',
       'glosses' => [
@@ -4585,7 +4585,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'IFtiCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -4609,7 +4609,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFtaCiL',
       'suffix' => '',
       'glosses' => [
@@ -5003,7 +5003,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFCaLL',
       'suffix' => '',
       'glosses' => [
@@ -5329,7 +5329,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -5748,7 +5748,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -5831,7 +5831,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -5909,7 +5909,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCaL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -6030,7 +6030,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -6225,7 +6225,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
       'suffix' => '',
       'glosses' => [
@@ -6596,7 +6596,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCiL',
       'suffix' => '',
       'glosses' => [
@@ -6644,7 +6644,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
       'suffix' => '',
       'glosses' => [
@@ -6668,7 +6668,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFtAL',
       'suffix' => '',
       'glosses' => [
@@ -6692,7 +6692,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFtAL',
       'suffix' => '',
       'glosses' => [
@@ -7141,7 +7141,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCCAL',
       'suffix' => '',
       'glosses' => [
@@ -7164,7 +7164,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FiCCIL',
       'suffix' => '',
       'glosses' => [
@@ -7211,7 +7211,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FuCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -7711,7 +7711,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -7866,7 +7866,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
@@ -8133,7 +8133,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
@@ -8157,7 +8157,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -8616,7 +8616,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCY |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -8749,7 +8749,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [
@@ -8783,7 +8783,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFCI',
       'suffix' => '',
       'glosses' => [
@@ -9352,7 +9352,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -9376,7 +9376,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFiCL',
       'suffix' => '',
       'glosses' => [
@@ -9719,7 +9719,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -10402,7 +10402,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'HiFCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -10476,7 +10476,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'IFtiCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -10500,7 +10500,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
@@ -10630,7 +10630,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFCiL',
       'suffix' => '',
       'glosses' => [
@@ -10654,7 +10654,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFCaL',
       'suffix' => '',
       'glosses' => [
@@ -10701,7 +10701,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFtaCiL',
       'suffix' => '',
       'glosses' => [
@@ -11083,7 +11083,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -11179,7 +11179,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'HiFCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -11971,7 +11971,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
@@ -11995,7 +11995,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCIy',
       'suffix' => '',
       'glosses' => [
@@ -12029,7 +12029,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFtaCiL',
       'suffix' => '',
       'glosses' => [
@@ -12324,7 +12324,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FA\'iL',
       'suffix' => '',
       'glosses' => [
@@ -12374,7 +12374,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCiL',
       'suffix' => '',
       'glosses' => [
@@ -12483,7 +12483,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACUL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -12506,7 +12506,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACUL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -12622,7 +12622,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -12840,7 +12840,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -13029,7 +13029,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity |< At',
       'suffix' => ' |< At',
       'glosses' => [
@@ -13055,7 +13055,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -13335,7 +13335,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCCAL',
       'suffix' => '',
       'glosses' => [
@@ -13385,7 +13385,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'HaFCaL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -13537,7 +13537,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MutaFaCCiL',
       'suffix' => '',
       'glosses' => [
@@ -13802,7 +13802,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FuCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -13874,7 +13874,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCUL',
       'suffix' => '',
       'glosses' => [
@@ -14136,7 +14136,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCLAn',
       'suffix' => '',
       'glosses' => [
@@ -14170,7 +14170,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -14195,7 +14195,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
@@ -14219,7 +14219,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -14244,7 +14244,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MutaFaCCiL',
       'suffix' => '',
       'glosses' => [
@@ -14585,7 +14585,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCUL',
       'suffix' => '',
       'glosses' => [
@@ -14652,7 +14652,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
@@ -14710,7 +14710,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFCiL',
       'suffix' => '',
       'glosses' => [
@@ -14734,7 +14734,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFtaCiL',
       'suffix' => '',
       'glosses' => [
@@ -15295,7 +15295,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'TiFCA\' |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -15320,7 +15320,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'TiFCA\' |< Iy |< aN',
       'suffix' => ' |< Iy |< aN',
       'glosses' => [
@@ -15651,7 +15651,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFCY',
       'suffix' => '',
       'glosses' => [
@@ -15686,7 +15686,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MutaFaCCiL',
       'suffix' => '',
       'glosses' => [
@@ -15996,7 +15996,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FiCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -16021,7 +16021,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FiCLAn |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -16478,7 +16478,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -16549,7 +16549,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCaL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -16930,7 +16930,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCiL',
       'suffix' => '',
       'glosses' => [
@@ -17136,7 +17136,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
       'suffix' => '',
       'glosses' => [
@@ -17159,7 +17159,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MutaFaCCiL',
       'suffix' => '',
       'glosses' => [
@@ -17554,7 +17554,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -17577,7 +17577,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
       'suffix' => '',
       'glosses' => [
@@ -18011,7 +18011,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCCiL',
       'suffix' => '',
       'glosses' => [
@@ -18134,7 +18134,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCiL',
       'suffix' => '',
       'glosses' => [
@@ -18411,7 +18411,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -18559,7 +18559,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FuCayL',
       'suffix' => '',
       'glosses' => [
@@ -18743,7 +18743,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
@@ -19135,7 +19135,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -19413,7 +19413,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -19466,7 +19466,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
       'suffix' => '',
       'glosses' => [
@@ -19541,7 +19541,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFtaCiL',
       'suffix' => '',
       'glosses' => [
@@ -19674,7 +19674,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -19725,7 +19725,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -19911,7 +19911,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
       'suffix' => '',
       'glosses' => [
@@ -20703,7 +20703,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFUL',
       'suffix' => '',
       'glosses' => [
@@ -20735,7 +20735,7 @@ $Lexicon = {
         ]
       },
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFUL',
       'suffix' => '',
       'glosses' => [
@@ -20783,7 +20783,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFIL',
       'suffix' => '',
       'glosses' => [
@@ -20807,7 +20807,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFIL',
       'suffix' => '',
       'glosses' => [
@@ -21051,7 +21051,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCaL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -21249,7 +21249,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
@@ -21276,7 +21276,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
@@ -21357,7 +21357,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFCaL',
       'suffix' => '',
       'glosses' => [
@@ -21467,7 +21467,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MutaFACiL',
       'suffix' => '',
       'glosses' => [
@@ -21572,7 +21572,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
       'suffix' => '',
       'glosses' => [
@@ -21820,7 +21820,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
       'suffix' => '',
       'glosses' => [
@@ -22231,7 +22231,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -22264,7 +22264,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -22288,7 +22288,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MutaFACiL',
       'suffix' => '',
       'glosses' => [
@@ -22635,7 +22635,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -22709,7 +22709,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFACaL',
       'suffix' => '',
       'glosses' => [
@@ -23160,7 +23160,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFCaL',
       'suffix' => '',
       'glosses' => [
@@ -23321,7 +23321,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'TiFCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [],
@@ -23335,7 +23335,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'TiFCAL |< Iy |< aN',
       'suffix' => ' |< Iy |< aN',
       'glosses' => [],
@@ -23696,7 +23696,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCCAL',
       'suffix' => '',
       'glosses' => [
@@ -23802,7 +23802,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCiL',
       'suffix' => '',
       'glosses' => [
@@ -24018,7 +24018,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -24090,7 +24090,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -24295,7 +24295,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFACiL',
       'suffix' => '',
       'glosses' => [
@@ -24346,7 +24346,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFCaL',
       'suffix' => '',
       'glosses' => [
@@ -24373,7 +24373,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MutaFACiL',
       'suffix' => '',
       'glosses' => [
@@ -24397,7 +24397,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFtaCiL',
       'suffix' => '',
       'glosses' => [
@@ -25005,7 +25005,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'TaFCIL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -25028,7 +25028,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -25437,7 +25437,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFCiL',
       'suffix' => '',
       'glosses' => [
@@ -25635,7 +25635,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -25687,7 +25687,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
       'suffix' => '',
       'glosses' => [
@@ -25712,7 +25712,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MutaFaCCiL',
       'suffix' => '',
       'glosses' => [
@@ -25737,7 +25737,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MutaFaCCiL',
       'suffix' => '',
       'glosses' => [
@@ -25876,7 +25876,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [],
@@ -26148,7 +26148,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MutaFaCCiL',
       'suffix' => '',
       'glosses' => [
@@ -26198,7 +26198,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -26509,7 +26509,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFACiL',
       'suffix' => '',
       'glosses' => [
@@ -26647,7 +26647,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -26697,7 +26697,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -26817,7 +26817,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [],
@@ -26831,7 +26831,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFCiL',
       'suffix' => '',
       'glosses' => [],
@@ -27138,7 +27138,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -27680,7 +27680,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'KiRDAS |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -27872,7 +27872,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity',
       'suffix' => '',
       'glosses' => [
@@ -28152,7 +28152,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFtaCiL',
       'suffix' => '',
       'glosses' => [
@@ -28722,7 +28722,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FiCY |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -28869,7 +28869,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'KaRDaS |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -29047,7 +29047,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
@@ -29194,7 +29194,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCuL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -29276,7 +29276,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
@@ -29676,7 +29676,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [],
@@ -29899,7 +29899,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
       'suffix' => '',
       'glosses' => [
@@ -29979,7 +29979,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuKaRDaS',
       'suffix' => '',
       'glosses' => [
@@ -30082,7 +30082,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'KaRDaS |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -30392,7 +30392,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFtAL',
       'suffix' => '',
       'glosses' => [
@@ -30844,7 +30844,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -31287,7 +31287,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'KiRDIS |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -31741,7 +31741,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
       'suffix' => '',
       'glosses' => [
@@ -31765,7 +31765,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MutaFaCCiL',
       'suffix' => '',
       'glosses' => [
@@ -31975,7 +31975,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'KuRDuS |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -32025,7 +32025,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MutaKaRDiS',
       'suffix' => '',
       'glosses' => [
@@ -32347,7 +32347,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCiL',
       'suffix' => '',
       'glosses' => [
@@ -32730,7 +32730,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -33013,7 +33013,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCaL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -33366,7 +33366,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FuCLAn |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -33485,7 +33485,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -33574,7 +33574,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FuCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -33826,7 +33826,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFACiL',
       'suffix' => '',
       'glosses' => [
@@ -33986,7 +33986,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MutaFaCCiL',
       'suffix' => '',
       'glosses' => [
@@ -34641,7 +34641,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -34688,7 +34688,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
       'suffix' => '',
       'glosses' => [
@@ -34704,7 +34704,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFtaCL',
       'suffix' => '',
       'glosses' => [],
@@ -34741,7 +34741,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -35117,7 +35117,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCiL',
       'suffix' => '',
       'glosses' => [
@@ -35239,7 +35239,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FiCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -35598,7 +35598,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCUL',
       'suffix' => '',
       'glosses' => [
@@ -36278,7 +36278,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
       'suffix' => '',
       'glosses' => [
@@ -36406,7 +36406,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MuKaRDaS',
       'suffix' => '',
       'glosses' => [
@@ -36554,7 +36554,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -36612,7 +36612,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -36660,7 +36660,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'MaFCUL',
       'suffix' => '',
       'glosses' => [
@@ -36830,7 +36830,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCiL',
       'suffix' => '',
       'glosses' => [
@@ -36854,7 +36854,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -37197,7 +37197,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCIL',
       'suffix' => '',
       'glosses' => [
@@ -37673,7 +37673,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCLAn',
       'suffix' => '',
       'glosses' => [
@@ -37697,7 +37697,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FACiL',
       'suffix' => '',
       'glosses' => [
@@ -37841,7 +37841,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'FaCCAL',
       'suffix' => '',
       'glosses' => [
@@ -37890,7 +37890,7 @@ $Lexicon = {
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'adj',
       'morphs' => 'Identity |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
