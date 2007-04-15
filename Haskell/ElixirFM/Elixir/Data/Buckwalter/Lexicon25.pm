@@ -35204,32 +35204,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'AintimA\'' => [
-    {
-      'types' => {
-        'lAAintimA\'iyy' => {
-          'Nall_L' => 2
-        }
-      },
-      'entry' => 'AintimA\'',
-      'form' => 'lAAintimA\'iyy',
-      'lines' => [
-        ';; lA{inotimA}iy~_1',
-        'lA<ntmA}y       lA{inotimA}iy~  Nall_L  non-committed     [[lA<inotimA}iy~/ADJ]]',
-        'lAAntmA}y       lA{inotimA}iy~  Nall_L  non-committed     [[lAAinotimA}iy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'lA >| Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'non-committed'
-      ],
-      'orig' => 'lA{inotimA}iy~',
-      'prefix' => 'lA >| '
-    }
-  ],
   'nAmiyb' => [
     {
       'types' => {
@@ -55744,6 +55718,30 @@ $Lexicon = {
     },
     {
       'types' => {
+        'lAintimA\'iyy' => {
+          'Nall_L' => 2
+        }
+      },
+      'entry' => 'intimA\'',
+      'form' => 'lAintimA\'iyy',
+      'lines' => [
+        ';; lA{inotimA}iy~_1',
+        'lA<ntmA}y       lA{inotimA}iy~  Nall_L  non-committed     [[lA<inotimA}iy~/ADJ]]',
+        'lAAntmA}y       lA{inotimA}iy~  Nall_L  non-committed     [[lAAinotimA}iy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'lA >| IFtiCA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'non-committed'
+      ],
+      'orig' => 'lA{inotimA}iy~',
+      'prefix' => 'lA >| '
+    },
+    {
+      'types' => {
         'nAmiy' => {
           'NapAt' => 1,
           'NAn_Nayn' => 1,
@@ -72890,6 +72888,20 @@ $Lexicon = {
       'glosses' => [],
       'orig' => '{inotimA\'',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'intimA\'',
+      'form' => 'lAintimA\'iyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'lA >| IFtiCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'lA{inotimA}iy~',
+      'prefix' => 'lA >| '
     }
   ],
   'nu.h' => [
@@ -78423,6 +78435,9 @@ $Lexicon->{'n m \''}[2]{'glosses'} = $Lexicon->{'n m y'}[10]{'glosses'};
 $Lexicon->{'n m \''}[3]{'types'} = $Lexicon->{'n m y'}[12]{'types'};
 $Lexicon->{'n m \''}[3]{'lines'} = $Lexicon->{'n m y'}[12]{'lines'};
 $Lexicon->{'n m \''}[3]{'glosses'} = $Lexicon->{'n m y'}[12]{'glosses'};
+$Lexicon->{'n m \''}[4]{'types'} = $Lexicon->{'n m y'}[13]{'types'};
+$Lexicon->{'n m \''}[4]{'lines'} = $Lexicon->{'n m y'}[13]{'lines'};
+$Lexicon->{'n m \''}[4]{'glosses'} = $Lexicon->{'n m y'}[13]{'glosses'};
 $Lexicon->{'n h w'}[8]{'types'} = $Lexicon->{'n h \''}[0]{'types'};
 $Lexicon->{'n h w'}[8]{'lines'} = $Lexicon->{'n h \''}[0]{'lines'};
 $Lexicon->{'n h w'}[8]{'glosses'} = $Lexicon->{'n h \''}[0]{'glosses'};

@@ -17,14 +17,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- Oajosur -}        [ "bridges" ] ]
 
- |> "Ai^gtimA`" <| [
-
-    -- ;; lA{ijotimAEiy~_1
-    -- lA<jtmAEy       lA{ijotimAEiy~  Nall_L  antisocial;asocial     [[lA<ijotimAEiy~/ADJ]]
-    -- lAAjtmAEy       lA{ijotimAEiy~  Nall_L  antisocial;asocial     [[lAAijotimAEiy~/ADJ]]
-
-    lA >| Identity |< Iy      `adj`        {- lA{ijotimAEiy~ -} [ "antisocial", "asocial" ] ]
-
  |> "^g ' '" <| [
 
     -- ;; jAwiy~_1
@@ -4900,6 +4892,12 @@ lexicon = listing "Lexicon's properties"
     -- AjtmAEy {ijotimAEiy~    Nall    social     [[{ijotimAEiy~/ADJ]]
 
     IFtiCAL |< Iy             `adj`        {- {ijotimAEiy~ -}   [ "social" ],
+
+    -- ;; lA{ijotimAEiy~_1
+    -- lA<jtmAEy       lA{ijotimAEiy~  Nall_L  antisocial;asocial     [[lA<ijotimAEiy~/ADJ]]
+    -- lAAjtmAEy       lA{ijotimAEiy~  Nall_L  antisocial;asocial     [[lAAijotimAEiy~/ADJ]]
+
+    lA >| IFtiCAL |< Iy       `adj`        {- lA{ijotimAEiy~ -} [ "antisocial", "asocial" ],
 
     -- ;; jAmiE_1
     -- jAmE    jAmiE   N/ap    comprehensive;extensive

@@ -91,14 +91,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`       {- Ounomuwlap -}     [ "fingertip", "fingertips" ] ]
 
- |> "AintimA'" <| [
-
-    -- ;; lA{inotimA}iy~_1
-    -- lA<ntmA}y       lA{inotimA}iy~  Nall_L  non-committed     [[lA<inotimA}iy~/ADJ]]
-    -- lAAntmA}y       lA{inotimA}iy~  Nall_L  non-committed     [[lAAinotimA}iy~/ADJ]]
-
-    lA >| Identity |< Iy      `adj`        {- lA{inotimA}iy~ -} [ "non-committed" ] ]
-
  |> "istinb" <| [
 
     -- ;; {isotinobAt_1
@@ -12102,7 +12094,13 @@ lexicon = listing "Lexicon's properties"
     -- <ntmA'  {inotimA'       NAt     membership;affiliation;commitment
     -- AntmA'  {inotimA'       NAt     membership;affiliation;commitment
 
-    IFtiCAL                   `noun`       {- {inotimA' -}      [ "membership", "affiliation", "commitment" ] ]
+    IFtiCAL                   `noun`       {- {inotimA' -}      [ "membership", "affiliation", "commitment" ],
+
+    -- ;; lA{inotimA}iy~_1
+    -- lA<ntmA}y       lA{inotimA}iy~  Nall_L  non-committed     [[lA<inotimA}iy~/ADJ]]
+    -- lAAntmA}y       lA{inotimA}iy~  Nall_L  non-committed     [[lAAinotimA}iy~/ADJ]]
+
+    lA >| IFtiCAL |< Iy       `adj`        {- lA{inotimA}iy~ -} [ "non-committed" ] ]
 
  |> "n m .t" <| [
 
@@ -12665,6 +12663,12 @@ lexicon = listing "Lexicon's properties"
     -- AntmA'  {inotimA'       NAt     membership;affiliation;commitment
 
     IFtiCA'                   `noun`       {- {inotimA' -}      [ "membership", "affiliation", "commitment" ],
+
+    -- ;; lA{inotimA}iy~_1
+    -- lA<ntmA}y       lA{inotimA}iy~  Nall_L  non-committed     [[lA<inotimA}iy~/ADJ]]
+    -- lAAntmA}y       lA{inotimA}iy~  Nall_L  non-committed     [[lAAinotimA}iy~/ADJ]]
+
+    lA >| IFtiCA' |< Iy       `adj`        {- lA{inotimA}iy~ -} [ "non-committed" ],
 
     -- ;; nAmiy_1
     -- nAmy    nAmiy   N0F     developing     [[nAmiy/ADJ]]

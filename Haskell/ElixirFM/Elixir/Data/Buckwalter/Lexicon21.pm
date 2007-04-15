@@ -35361,35 +35361,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'inqisAm' => [
-    {
-      'types' => {
-        'lAAinqisAmiyy' => {
-          'Nap_L' => 1
-        },
-        'lA\'inqisAmiyyaT' => {
-          'Nap_L' => 1
-        }
-      },
-      'entry' => '\'inqisAm',
-      'form' => 'lA\'inqisAmiyyaT',
-      'lines' => [
-        ';; lA<inoqisAmiy~ap_1',
-        'lA<nqsAmy       lA<inoqisAmiy~  Nap_L   indivisibility     [[lA<inoqisAmiy~/NOUN]]',
-        'lAAnqsAmy       lAAinoqisAmiy~  Nap_L   indivisibility     [[lAAinoqisAmiy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'lA >| Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'indivisibility'
-      ],
-      'orig' => 'lAIinoqisAmiy~ap',
-      'prefix' => 'lA >| '
-    }
-  ],
   'q .s d r' => [
     {
       'types' => {
@@ -40945,6 +40916,33 @@ $Lexicon = {
       ],
       'orig' => '{inoqisAmiy~ap',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'lA\'inqisAmiyy' => {
+          'Nap_L' => 1
+        },
+        'lAinqisAmiyyaT' => {
+          'Nap_L' => 1
+        }
+      },
+      'entry' => 'inqisAm',
+      'form' => 'lAinqisAmiyyaT',
+      'lines' => [
+        ';; lA{inoqisAmiy~ap_1',
+        'lA<nqsAmy       lA<inoqisAmiy~  Nap_L   indivisibility     [[lA<inoqisAmiy~/NOUN]]',
+        'lAAnqsAmy       lAAinoqisAmiy~  Nap_L   indivisibility     [[lAAinoqisAmiy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'lA >| InFiCAL |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'indivisibility'
+      ],
+      'orig' => 'lA{inoqisAmiy~ap',
+      'prefix' => 'lA >| '
     },
     {
       'types' => {

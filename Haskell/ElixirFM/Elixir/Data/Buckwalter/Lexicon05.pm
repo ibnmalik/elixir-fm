@@ -17609,6 +17609,31 @@ $Lexicon = {
     },
     {
       'types' => {
+        'lAi^gtimA`iyy' => {
+          'Nall_L' => 2
+        }
+      },
+      'entry' => 'i^gtimA`',
+      'form' => 'lAi^gtimA`iyy',
+      'lines' => [
+        ';; lA{ijotimAEiy~_1',
+        'lA<jtmAEy       lA{ijotimAEiy~  Nall_L  antisocial;asocial     [[lA<ijotimAEiy~/ADJ]]',
+        'lAAjtmAEy       lA{ijotimAEiy~  Nall_L  antisocial;asocial     [[lAAijotimAEiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'lA >| IFtiCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'antisocial',
+        'asocial'
+      ],
+      'orig' => 'lA{ijotimAEiy~',
+      'prefix' => 'lA >| '
+    },
+    {
+      'types' => {
         '^gAmi`' => {
           'N/ap' => 1
         }
@@ -36455,33 +36480,6 @@ $Lexicon = {
       ],
       'orig' => 'jasomAniy~ap',
       'prefix' => ''
-    }
-  ],
-  'Ai^gtimA`' => [
-    {
-      'types' => {
-        'lAAi^gtimA`iyy' => {
-          'Nall_L' => 2
-        }
-      },
-      'entry' => 'Ai^gtimA`',
-      'form' => 'lAAi^gtimA`iyy',
-      'lines' => [
-        ';; lA{ijotimAEiy~_1',
-        'lA<jtmAEy       lA{ijotimAEiy~  Nall_L  antisocial;asocial     [[lA<ijotimAEiy~/ADJ]]',
-        'lAAjtmAEy       lA{ijotimAEiy~  Nall_L  antisocial;asocial     [[lAAijotimAEiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'lA >| Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'antisocial',
-        'asocial'
-      ],
-      'orig' => 'lA{ijotimAEiy~',
-      'prefix' => 'lA >| '
     }
   ],
   '^g h l' => [

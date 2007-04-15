@@ -87,13 +87,15 @@ until (eof()) {
 
             $full =~ tr[>&<][OWI];
 
-            $gloss =~ s/(?:\s+\[\[[^\]]+\]\])?\s*$//;
+            $gloss =~ s/(?:\s+\[\[([^\]]+)\]\])?\s*$//;
+
+            my $tags = defined $1 ? $1 : '';
 
             storeGloss($_) foreach split /\s*;\s*/, $gloss;
 
             my $form = convert($full);
 
-            storeType($form, $type);
+            storeType($form, $type, $tags);
         }
     }
 
@@ -129,7 +131,7 @@ sub beginEntry {
     }
     else {
 
-        $Entry->{'entity'} = 'noun';
+        $Entry->{'entity'} = '';
     }
 }
 
@@ -242,7 +244,7 @@ sub closeEntry {
 
     $suffix = $prefix = '';
 
-    if ($Entry->{'entity'} eq 'noun') {
+    if ($Entry->{'entity'} ne 'verb') {
 
         if ($entry =~ /^Al(.*)$/) {
 
@@ -303,6 +305,23 @@ sub closeEntry {
                 $entry =~ s/Aw$/A\'/;
             }
         }
+
+        foreach my $tag (keys %{$Entry->{'tags'}}) {
+
+            $Entry->{'entity'} = 'noun' if $tag =~ /\/NOUN/;
+        }
+
+        foreach my $tag (keys %{$Entry->{'tags'}}) {
+
+            $Entry->{'entity'} = 'adj' if $tag =~ /\/ADJ/;
+        }
+
+        delete $Entry->{'tags'};
+
+        if ($Entry->{'entity'} eq '') {
+
+            $Entry->{'entity'} = $suffix =~ /^ \|\< Iy( \|\< aN)?$/ ? 'adj' : 'noun';
+        }
     }
 
     $Entry->{'entry'} = $entry;
@@ -315,7 +334,7 @@ sub closeEntry {
 
     foreach my $pattern (@patterns) {
 
-        next if $Entry->{'entity'} eq 'noun' and $patterns{$pattern} =~ /^FUCi?L$/;
+        next if $Entry->{'entity'} ne 'verb' and $patterns{$pattern} =~ /^FUCi?L$/;
 
         undef $_ foreach $F, $C, $L, $K, $R, $D, $S;
 
@@ -393,7 +412,7 @@ sub storeGloss {
 
 sub storeType {
 
-    my ($form, $type) = @_;
+    my ($form, $type, $tags) = @_;
 
     if ($Entry->{'form'} =~ /T$/ and $type =~ /^Nap/) {
 
@@ -406,6 +425,8 @@ sub storeType {
             $form .= 'aT'   if $form eq substr $Entry->{'form'}, 0, -2;
         }
     }
+
+    $Entry->{'tags'}->{$tags}++ unless $tags eq '';
 
     $Entry->{'types'}->{$form}->{$type}++;
 }
@@ -461,6 +482,8 @@ sub convert {
     $entry =~ s/\'\\shadda\{\}/\'\'/g;
     $entry =~ s/aY/Y/;
     $entry =~ s/aNA/aN/;
+
+    $entry =~ s/^lAAi/lAi/;
 
     $entry =~ s/^Ai/i/;
     $entry =~ s/^Au/u/;

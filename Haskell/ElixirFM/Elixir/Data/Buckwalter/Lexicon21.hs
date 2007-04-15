@@ -9,14 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'inqisAm" <| [
-
-    -- ;; lA<inoqisAmiy~ap_1
-    -- lA<nqsAmy       lA<inoqisAmiy~  Nap_L   indivisibility     [[lA<inoqisAmiy~/NOUN]]
-    -- lAAnqsAmy       lAAinoqisAmiy~  Nap_L   indivisibility     [[lAAinoqisAmiy~/NOUN]]
-
-    lA >| Identity |< Iy |< aT `noun`       {- lAIinoqisAmiy~ap -} [ "indivisibility" ] ]
-
  |> "'iqliyd" <| [
 
     -- ;; <iqoliyd_1
@@ -11979,6 +11971,12 @@ lexicon = listing "Lexicon's properties"
     -- AnqsAmy {inoqisAmiy~    Nap     divisibility     [[{inoqisAmiy~/NOUN]]
 
     InFiCAL |< Iy |< aT       `noun`       {- {inoqisAmiy~ap -} [ "divisibility" ],
+
+    -- ;; lA{inoqisAmiy~ap_1
+    -- lA<nqsAmy       lA<inoqisAmiy~  Nap_L   indivisibility     [[lA<inoqisAmiy~/NOUN]]
+    -- lAAnqsAmy       lAAinoqisAmiy~  Nap_L   indivisibility     [[lAAinoqisAmiy~/NOUN]]
+
+    lA >| InFiCAL |< Iy |< aT `noun`       {- lA{inoqisAmiy~ap -} [ "indivisibility" ],
 
     -- ;; {iqotisAm_1
     -- <qtsAm  {iqotisAm       N/At    dividing;distribution

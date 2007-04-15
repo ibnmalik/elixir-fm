@@ -147,19 +147,20 @@ sub showEntry ($) {
         push @{$others}, (join ' ', $form, @types);
     }
 
-    return sprintf "%s\n    %-25s %-12s %-20s %s",
-                   (join '', map { '    -- ' . escape($_) . "\n" } @{$entry->{'lines'}}),
+    return sprintf "%s    %-25s %-12s %-20s %s",
+                   (defined $lexicon ? '' :
+                            (join "\n", map { '    -- ' . escape($_) } @{$entry->{'lines'}}) . "\n\n"),
                    $entry->{'morphs'}, '`' . $entry->{'entity'} . '`',
                    (exists $entry->{'orig'} ? '{- ' . escape($entry->{'orig'}) . ' -}' : ''),
 
                    (join "\n" . ' ' x 30,
                    (exists $entry->{'glosses'} ? '[ ' .
-                                    (join ', ', map { showGloss($_) } @{$entry->{'glosses'}}) . ' ]' : ()),
+                            (join ", ", map { showGloss($_) } @{$entry->{'glosses'}}) . ' ]' : ()),
                    (exists $entry->{'imperf'} ?
                                      map { '`imperf`     ' . $_ } @{$entry->{'imperf'}} : ()),
                    (@{$plural} > 0 ? map { '`plural`     ' . $_ } @{$plural} : ()),
                    (@{$others} > 0 ? '{- `others` [ ' .
-                                    (join ', ', map { '"' . $_ . '"' } @{$others}) . ' ] -}' : ()));
+                            (join ", ", map { '"' . $_ . '"' } @{$others}) . ' ] -}' : ()));
 }
 
 
