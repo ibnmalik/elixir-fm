@@ -95,29 +95,26 @@ instance Inflect RootEntry ParaVerb where
 
     inflect (RE r e) f = (:[]) $ case f of
 
-        VerbP   v p g n -> paraVerbP   v p g n (stem t)
+        VerbP   v p g n -> paraVerbP   v p g n (merge r t)
 
             where t = case v of Active  -> pa
                                 Passive -> pp
                   (_, (pa, pp, _, _)) = findStem e
 
-        VerbI m v p g n -> paraVerbI m v p g n i (stem t)
+        VerbI m v p g n -> paraVerbI m v p g n i (merge r t)
 
             where t = case v of Active  -> ia
                                 Passive -> ip
                   (x, (_, _, ia, ip)) = findStem e
                   i = imperfectPrefix x v t
 
-        VerbC       g n -> paraVerbC       g n i (stem t)
+        VerbC       g n -> paraVerbC       g n i (merge r t)
 
             where t = ia
                   (x, (_, _, ia, _)) = findStem e
                   i = imperativePrefix x t
 
-        where stem s = (concat . interlock (words r)
-                                           (s)) []
-
-              findStem e = case findForm e of
+        where findStem e = case findForm e of
 
                             x : _ -> x
                             _     -> error "Form not found"

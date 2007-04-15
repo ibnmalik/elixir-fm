@@ -96,21 +96,23 @@ instance Template PatternT => Template (Morphs PatternT) where
 
               (modifi, ed) = case last shown of
 
-                'Y' -> case ix of   AT -> ("A", "T")
-                                    Iy -> ("aw", show Iy)
-                                    Un -> ("aw", "n-a")
-                                    In -> ("ay", "n-a")
-                                    _  -> ("ay", show ix)
+                'Y' -> case ix of   AT   -> ("A", "T")
+                                    Iy   -> ("aw", show Iy)
+                                    Un   -> ("aw", "n-a")
+                                    In   -> ("ay", "n-a")
+                                    AN   -> ("", "-aNY")
+                                    AJIy -> ("", show AJIy)
+                                    _    -> ("ay", show ix)
 
-                'I' -> case ix of   Un -> ("U", "n-a")
-                                    In -> ("I", "n-a")
-                                    _  -> ("iy", show ix)
+                'I' -> case ix of   Un   -> ("U", "n-a")
+                                    In   -> ("I", "n-a")
+                                    _    -> ("iy", show ix)
 
                 -- exprerimental and non-verified
 
-                'A' -> case ix of   AT -> ("A", "T")
-                                    Iy -> ("Aw", show Iy)
-                                    _  -> ("aw", show ix)
+                'A' -> case ix of   AT   -> ("A", "T")
+                                    Iy   -> ("Aw", show Iy)
+                                    _    -> ("aw", show ix)
 
                 ch  -> ([ch], show ix)
 

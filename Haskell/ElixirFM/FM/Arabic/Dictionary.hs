@@ -32,7 +32,9 @@ import Elixir.Template
 import Encode
 import Encode.Arabic
 
-recode = encode Tim . decode TeX . (++) "\\noneplus "
+-- recode = encode Tim . decode TeX . (++) "\\noneplus "
+recode = id
+
 
 arabicDict :: Dictionary
 
