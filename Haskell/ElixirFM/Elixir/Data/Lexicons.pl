@@ -11,30 +11,39 @@ use strict;
 
 use Data::Dumper;
 
+use Getopt::Std;
 
-our ($ID, $Lexicon);
+$Getopt::Std::STANDARD_HELP_VERSION = 1;
 
-our ($lexicon);
+
+our ($DIR, $Lexicon, $ID);
+
+our ($include, $options);
 
 
 $/ = "\n";
 
 @ARGV = glob join " ", @ARGV;
 
+$options = {};
 
-if ($ARGV[0] eq '-I') {
+getopts('d:i:v', $options);
 
-    shift @ARGV;
+die $VERSION . "\n" if exists $options->{'v'};
 
-    if (-f $ARGV[0]) {
 
-        require $ARGV[0];
+$DIR = exists $options->{'d'} ? $options->{'d'} : 'Lexicons';
 
-        shift @ARGV;
+
+if (exists $options->{'i'}) {
+
+    if (-f $options->{'i'}) {
+
+        require $options->{'i'};
     }
     else {
 
-        die "'$ARGV[0]' does not exist, quitting";
+        die "'$options->{'i'}' does not exist, quitting";
     }
 }
 
@@ -82,7 +91,7 @@ sub beginLexicon {
 
     print << "    return;";
 
-module Elixir.Data.Lexicons.Lexicon$ID where
+module Elixir.Data.$DIR.Lexicon$ID where
 
 import Elixir.Lexicon
 
@@ -109,9 +118,9 @@ sub showNest ($$) {
     my @entries = @{$_[0]};
     my $root = $_[1];
 
-    @entries = grep { exists $lexicon->{$_->{'orig'}} and exists $lexicon->{$_->{'orig'}}{$_->{'index'}} and
-                      exists $lexicon->{$_->{'orig'}}{$_->{'index'}}{'done'} and
-                             $lexicon->{$_->{'orig'}}{$_->{'index'}}{'done'} > 0 } @entries if defined $lexicon;
+    @entries = grep { exists $include->{$_->{'orig'}} and exists $include->{$_->{'orig'}}{$_->{'index'}} and
+                      exists $include->{$_->{'orig'}}{$_->{'index'}}{'done'} and
+                             $include->{$_->{'orig'}}{$_->{'index'}}{'done'} > 0 } @entries if defined $include;
 
     return unless @entries;
 
@@ -148,7 +157,7 @@ sub showEntry ($) {
     }
 
     return sprintf "%s    %-25s %-12s %-20s %s",
-                   (defined $lexicon ? '' :
+                   (defined $include ? '' :
                             (join "\n", map { '    -- ' . escape($_) } @{$entry->{'lines'}}) . "\n\n"),
                    $entry->{'morphs'}, '`' . $entry->{'entity'} . '`',
                    (exists $entry->{'orig'} ? '{- ' . escape($entry->{'orig'}) . ' -}' : ''),

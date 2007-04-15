@@ -35512,23 +35512,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'walm' => {}
-      },
-      'entry' => 'walm',
-      'form' => 'walm',
-      'lines' => [
-        ';; walom_1'
-      ],
-      'patterns' => {},
-      'entity' => 'noun',
-      'index' => '1',
-      'suffix' => '',
-      'morphs' => 'FaCL',
-      'orig' => 'walom',
-      'prefix' => ''
-    },
-    {
-      'types' => {
         'waliymaT' => {
           'Napdu' => 1
         },

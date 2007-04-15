@@ -1,5 +1,5 @@
 
-module Elixir.Data.Lexicons.Lexicon07 where
+module Elixir.Data.Buckwalter.Lexicon07 where
 
 import Elixir.Lexicon
 
@@ -4546,13 +4546,12 @@ lexicon = listing "Lexicon's properties"
     IFtiCAL |< aT             `noun`       {- {ixotilAjap -}    [ "convulsion", "twitch" ],
 
     -- ;; xAlijap_1
-
-    FACiL |< aT               `noun`       {- xAlijap -}        ,
-
-    -- ;; xawAlij_1
+    -- xAlj    xAlij   Nap     emotion;sentiment
     -- xwAlj   xawAlij Ndip    sentiments;scruples
 
-    FawACiL                   `noun`       {- xawAlij -}        [ "sentiments", "scruples" ] ]
+    FACiL |< aT               `noun`       {- xAlijap -}        [ "emotion", "sentiment", "sentiments", "scruples" ]
+                              `plural`     FawACiL
+                              {- `others` [ "_hawAli^g Ndip" ] -} ]
 
  |> "_h l _h l" <| [
 

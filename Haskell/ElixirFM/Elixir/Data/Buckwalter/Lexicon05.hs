@@ -1,5 +1,5 @@
 
-module Elixir.Data.Lexicons.Lexicon05 where
+module Elixir.Data.Buckwalter.Lexicon05 where
 
 import Elixir.Lexicon
 
@@ -4720,12 +4720,6 @@ lexicon = listing "Lexicon's properties"
     -- tjmy$   tajomiy$        NduAt   caressing
 
     TaFCIL                    `noun`       {- tajomiy$ -}       [ "caressing" ] ]
-
- |> "^g m _h" <| [
-
-    -- ;; jamax_1
-
-    FaCaL                     `noun`       {- jamax -}           ]
 
  |> "^g m `" <| [
 

@@ -1,5 +1,5 @@
 
-module Elixir.Data.Lexicons.Lexicon14 where
+module Elixir.Data.Buckwalter.Lexicon14 where
 
 import Elixir.Lexicon
 

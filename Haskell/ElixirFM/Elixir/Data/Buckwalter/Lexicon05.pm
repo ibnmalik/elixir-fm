@@ -31263,25 +31263,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^g m _h' => [
-    {
-      'types' => {
-        '^gama_h' => {}
-      },
-      'entry' => '^gama_h',
-      'form' => '^gama_h',
-      'lines' => [
-        ';; jamax_1'
-      ],
-      'patterns' => {},
-      'entity' => 'noun',
-      'index' => '1',
-      'suffix' => '',
-      'morphs' => 'FaCaL',
-      'orig' => 'jamax',
-      'prefix' => ''
-    }
-  ],
   '^g w b h' => [
     {
       'types' => {

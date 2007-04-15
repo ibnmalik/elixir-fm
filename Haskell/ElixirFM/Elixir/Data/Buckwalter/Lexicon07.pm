@@ -13146,43 +13146,36 @@ $Lexicon = {
     },
     {
       'types' => {
-        '_hAli^gaT' => {}
+        '_hawAli^g' => {
+          'Ndip' => 1
+        },
+        '_hAli^gaT' => {
+          'Nap' => 1
+        }
       },
       'entry' => '_hAli^g',
       'form' => '_hAli^gaT',
       'lines' => [
-        ';; xAlijap_1'
-      ],
-      'patterns' => {},
-      'entity' => 'noun',
-      'index' => '1',
-      'suffix' => ' |< aT',
-      'morphs' => 'FACiL |< aT',
-      'orig' => 'xAlijap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hawAli^g' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hawAli^g',
-      'form' => '_hawAli^g',
-      'lines' => [
-        ';; xawAlij_1',
+        ';; xAlijap_1',
+        'xAlj    xAlij   Nap     emotion;sentiment',
         'xwAlj   xawAlij Ndip    sentiments;scruples'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hawAli^g' => [
+          'FawACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FawACiL',
-      'suffix' => '',
+      'morphs' => 'FACiL |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
+        'emotion',
+        'sentiment',
         'sentiments',
         'scruples'
       ],
-      'orig' => 'xawAlij',
+      'orig' => 'xAlijap',
       'prefix' => ''
     }
   ],

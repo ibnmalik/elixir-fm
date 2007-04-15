@@ -1,5 +1,5 @@
 
-module Elixir.Data.Lexicons.Lexicon27 where
+module Elixir.Data.Buckwalter.Lexicon27 where
 
 import Elixir.Lexicon
 
@@ -7583,10 +7583,6 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`       {- Oawolam -}        [ "give a banquet", "be given a banquet" ]
                               {- `others` [ "wlim IV_yu", "wlam IV_Pass_yu" ] -},
-
-    -- ;; walom_1
-
-    FaCL                      `noun`       {- walom -}          ,
 
     -- ;; waliymap_1
     -- wlym    waliym  Napdu   banquet;reception

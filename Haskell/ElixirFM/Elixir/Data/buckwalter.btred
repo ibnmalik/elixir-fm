@@ -77,7 +77,7 @@ END {
 
     $Data::Dumper::Indent = 1;
 
-    print D Data::Dumper->Dump([$lexicon], ['lexicon']);
+    print D Data::Dumper->Dump([$lexicon], ['include']);
 
     close D;
 }
