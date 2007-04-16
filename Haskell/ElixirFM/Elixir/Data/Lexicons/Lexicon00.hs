@@ -17,6 +17,10 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- Oa -}             [ "A", "1st" ] ]
 
+ |> "'i" <| [
+
+    Identity                  `noun`       {- Ii -}             [ "I" ] ]
+
  |> "'iyh" <| [
 
     Identity                  `noun`       {- Iiyh -}           [ "A." ] ]
@@ -109,6 +113,10 @@ lexicon = listing "Lexicon's properties"
 
     CiL                       `noun`       {- tiy -}            [ "T." ] ]
 
+ |> ".d" <| [
+
+    Identity                  `noun`       {- D -}              [ "D", "26th" ] ]
+
  |> ".g" <| [
 
     Identity                  `noun`       {- g -}              [ "GH", "28th", "(Greenwich)", "(piaster)", "(gram)" ] ]
@@ -116,6 +124,10 @@ lexicon = listing "Lexicon's properties"
  |> ".s" <| [
 
     Identity                  `noun`       {- S -}              [ "S", "18th" ] ]
+
+ |> ".t" <| [
+
+    Identity                  `noun`       {- T -}              [ "T", "9th" ] ]
 
  |> "At^s" <| [
 
@@ -132,6 +144,10 @@ lexicon = listing "Lexicon's properties"
  |> "_t" <| [
 
     Identity                  `noun`       {- v -}              [ "TH", "23rd" ] ]
+
+ |> "`" <| [
+
+    Identity                  `noun`       {- E -}              [ "('ayn)", "16th", "(Arab)" ] ]
 
  |> "bi" <| [
 

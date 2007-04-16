@@ -320,7 +320,7 @@ dbq     diboq   N       birdlime
 dbq     dabiq   Nall    sticky;gluey;limy     <pos>dabiq/ADJ</pos>
 ;
 ;--- dbk
-;; dabak_1
+;; dabak-u_1
 dbk     dabak   PV      stamp the feet;dance the dabka
 dbk     dobuk   IV      stamp the feet;dance the dabka
 ;; dabokap_1
@@ -4034,14 +4034,14 @@ dwlAry  duwlAriy~       Nall    dollar;dollar-based     <pos>duwlAriy~/ADJ</pos>
 dwAlyk  dawAlayoka      FW-Wa   successively;one by one     <pos>dawAlayoka/ADV</pos>
 ;
 ;--- dwm
-;; dAm_1
+;; dAm-u_1
 dAm     dAm     PV_V_intr       last;persevere;continue
 dm      dum     PV_C_intr       last;persevere;continue
 dwm     duwm    IV_V    last;persevere;continue
 dm      dum     IV_C    last;persevere;continue
-;; mAdAm_1
-mAdAm   mAdAm   PV_V_intr       as long as
-mAdm    mAdum   PV_C_intr       as long as
+; ;; mAdAm_1
+; mAdAm   mAdAm   PV_V_intr       as long as
+; mAdm    mAdum   PV_C_intr       as long as
 ;; daw~am_1
 dwm     daw~am  PV      revolve;spin
 dwm     daw~im  IV_yu   revolve;spin

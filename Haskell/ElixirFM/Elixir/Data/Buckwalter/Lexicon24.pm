@@ -667,7 +667,7 @@ $Lexicon = {
         'defy death',
         'make a desperate effort'
       ],
-      'orig' => '{isotamAt',
+      'orig' => 'AisotamAt',
       'prefix' => ''
     },
     {
@@ -1344,7 +1344,7 @@ $Lexicon = {
       'glosses' => [
         'self-impose'
       ],
-      'orig' => '{isotamolaY',
+      'orig' => 'AisotamolaY',
       'prefix' => ''
     },
     {
@@ -2017,7 +2017,7 @@ $Lexicon = {
         'adsorb',
         'accumulate on the surface'
       ],
-      'orig' => '{imotaz~',
+      'orig' => 'Aimotaz~',
       'prefix' => ''
     },
     {
@@ -2065,7 +2065,7 @@ $Lexicon = {
       'glosses' => [
         'adsorption (surface accumulation)'
       ],
-      'orig' => '{imotizAz',
+      'orig' => 'AimotizAz',
       'prefix' => ''
     },
     {
@@ -3601,7 +3601,7 @@ $Lexicon = {
         'reach',
         'spread'
       ],
-      'orig' => '{imotad~',
+      'orig' => 'Aimotad~',
       'prefix' => ''
     },
     {
@@ -3641,7 +3641,7 @@ $Lexicon = {
         'derive from',
         'receive from'
       ],
-      'orig' => '{isotamad~',
+      'orig' => 'Aisotamad~',
       'prefix' => ''
     },
     {
@@ -3942,7 +3942,7 @@ $Lexicon = {
         'extension',
         'expansion'
       ],
-      'orig' => '{imotidAd',
+      'orig' => 'AimotidAd',
       'prefix' => ''
     },
     {
@@ -3967,7 +3967,7 @@ $Lexicon = {
         'extent',
         'scope'
       ],
-      'orig' => '{imotidAd',
+      'orig' => 'AimotidAd',
       'prefix' => ''
     },
     {
@@ -3991,7 +3991,7 @@ $Lexicon = {
       'glosses' => [
         'call for reinforcements'
       ],
-      'orig' => '{isotimodAd',
+      'orig' => 'AisotimodAd',
       'prefix' => ''
     },
     {
@@ -4766,7 +4766,7 @@ $Lexicon = {
         'convert to',
         'embrace a religion'
       ],
-      'orig' => '{imotal~',
+      'orig' => 'Aimotal~',
       'prefix' => ''
     },
     {
@@ -5410,7 +5410,7 @@ $Lexicon = {
         'degrade',
         'despise'
       ],
-      'orig' => '{imotahan',
+      'orig' => 'Aimotahan',
       'prefix' => ''
     },
     {
@@ -5543,7 +5543,7 @@ $Lexicon = {
         'humiliation',
         'contempt'
       ],
-      'orig' => '{imotihAn',
+      'orig' => 'AimotihAn',
       'prefix' => ''
     },
     {
@@ -8092,7 +8092,7 @@ $Lexicon = {
         'defiance of death',
         'desperate effort'
       ],
-      'orig' => '{isotimAtap',
+      'orig' => 'AisotimAtap',
       'prefix' => ''
     }
   ],
@@ -8942,7 +8942,7 @@ $Lexicon = {
         'possess',
         'acquire'
       ],
-      'orig' => '{imotalak',
+      'orig' => 'Aimotalak',
       'prefix' => ''
     },
     {
@@ -8969,7 +8969,7 @@ $Lexicon = {
         'appropriate',
         'control'
       ],
-      'orig' => '{isotamolak',
+      'orig' => 'Aisotamolak',
       'prefix' => ''
     },
     {
@@ -9550,7 +9550,7 @@ $Lexicon = {
         'seizure',
         'control'
       ],
-      'orig' => '{imotilAk',
+      'orig' => 'AimotilAk',
       'prefix' => ''
     },
     {
@@ -9575,7 +9575,7 @@ $Lexicon = {
         'acquisition',
         'appropriation'
       ],
-      'orig' => '{isotimolAk',
+      'orig' => 'AisotimolAk',
       'prefix' => ''
     },
     {
@@ -10274,7 +10274,7 @@ $Lexicon = {
       'glosses' => [
         'comb the hair'
       ],
-      'orig' => '{imota$aT',
+      'orig' => 'Aimota$aT',
       'prefix' => ''
     },
     {
@@ -11203,7 +11203,7 @@ $Lexicon = {
         'be torn out',
         'be dislocated'
       ],
-      'orig' => '{im~alax',
+      'orig' => 'Aim~alax',
       'prefix' => ''
     }
   ],
@@ -11269,7 +11269,7 @@ $Lexicon = {
         'be torn out',
         'be dislocated'
       ],
-      'orig' => '{inomalax',
+      'orig' => 'Ainomalax',
       'prefix' => ''
     },
     {
@@ -11300,7 +11300,7 @@ $Lexicon = {
         'pull out',
         'extract'
       ],
-      'orig' => '{imotalax',
+      'orig' => 'Aimotalax',
       'prefix' => ''
     },
     {
@@ -11768,7 +11768,7 @@ $Lexicon = {
         'be clarified',
         'be purified'
       ],
-      'orig' => '{inomaHaS',
+      'orig' => 'AinomaHaS',
       'prefix' => ''
     },
     {
@@ -12535,7 +12535,7 @@ $Lexicon = {
         'imitate',
         'obey'
       ],
-      'orig' => '{imotaval',
+      'orig' => 'Aimotaval',
       'prefix' => ''
     },
     {
@@ -13082,7 +13082,7 @@ $Lexicon = {
         'obedience',
         'compliance'
       ],
-      'orig' => '{imotivAl',
+      'orig' => 'AimotivAl',
       'prefix' => ''
     },
     {
@@ -14312,7 +14312,7 @@ $Lexicon = {
         'be annihilated',
         'perish'
       ],
-      'orig' => '{inomaHaq',
+      'orig' => 'AinomaHaq',
       'prefix' => ''
     },
     {
@@ -14343,7 +14343,7 @@ $Lexicon = {
         'be annihilated',
         'perish'
       ],
-      'orig' => '{imotaHaq',
+      'orig' => 'AimotaHaq',
       'prefix' => ''
     },
     {
@@ -14761,7 +14761,7 @@ $Lexicon = {
         'put to test',
         'examine'
       ],
-      'orig' => '{imotaHan',
+      'orig' => 'AimotaHan',
       'prefix' => ''
     },
     {
@@ -14823,7 +14823,7 @@ $Lexicon = {
         'trial',
         'examination'
       ],
-      'orig' => '{imotiHAn',
+      'orig' => 'AimotiHAn',
       'prefix' => ''
     },
     {
@@ -14849,7 +14849,7 @@ $Lexicon = {
         'trial',
         'examination'
       ],
-      'orig' => '{imotiHAniy~',
+      'orig' => 'AimotiHAniy~',
       'prefix' => ''
     },
     {
@@ -15014,7 +15014,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{imotaz~',
+      'orig' => 'Aimotaz~',
       'prefix' => ''
     },
     {
@@ -15028,7 +15028,7 @@ $Lexicon = {
       'morphs' => 'IFCiLAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{imotizAz',
+      'orig' => 'AimotizAz',
       'prefix' => ''
     }
   ],
@@ -15852,7 +15852,7 @@ $Lexicon = {
         'be filled',
         'become full'
       ],
-      'orig' => '{imotalaO',
+      'orig' => 'AimotalaO',
       'prefix' => ''
     },
     {
@@ -16135,7 +16135,7 @@ $Lexicon = {
         'repletion',
         'fullness'
       ],
-      'orig' => '{imotilA\'',
+      'orig' => 'AimotilA\'',
       'prefix' => ''
     },
     {
@@ -16412,7 +16412,7 @@ $Lexicon = {
       'glosses' => [
         'turn pale'
       ],
-      'orig' => '{imotaqaE',
+      'orig' => 'AimotaqaE',
       'prefix' => ''
     },
     {
@@ -17348,7 +17348,7 @@ $Lexicon = {
       'glosses' => [
         'request'
       ],
-      'orig' => '{isotamAH',
+      'orig' => 'AisotamAH',
       'prefix' => ''
     },
     {
@@ -17425,7 +17425,7 @@ $Lexicon = {
       'glosses' => [
         'woman'
       ],
-      'orig' => '{imoraOap',
+      'orig' => 'AimoraOap',
       'prefix' => ''
     }
   ],
@@ -18632,7 +18632,7 @@ $Lexicon = {
         'board',
         'ride'
       ],
-      'orig' => '{imotaTaY',
+      'orig' => 'AimotaTaY',
       'prefix' => ''
     },
     {
@@ -19107,7 +19107,7 @@ $Lexicon = {
       'glosses' => [
         'continue'
       ],
-      'orig' => '{isotamar~',
+      'orig' => 'Aisotamar~',
       'prefix' => ''
     },
     {
@@ -19418,7 +19418,7 @@ $Lexicon = {
         'continuation',
         'continuity'
       ],
-      'orig' => '{isotimorAr',
+      'orig' => 'AisotimorAr',
       'prefix' => ''
     },
     {
@@ -19442,7 +19442,7 @@ $Lexicon = {
       'glosses' => [
         'continuity'
       ],
-      'orig' => '{isotimorAriy~ap',
+      'orig' => 'AisotimorAriy~ap',
       'prefix' => ''
     },
     {
@@ -20479,7 +20479,7 @@ $Lexicon = {
         'be annoyed',
         'resent'
       ],
-      'orig' => '{imotaEaD',
+      'orig' => 'AimotaEaD',
       'prefix' => ''
     },
     {
@@ -20505,7 +20505,7 @@ $Lexicon = {
         'agitation',
         'excitement'
       ],
-      'orig' => '{imotiEAD',
+      'orig' => 'AimotiEAD',
       'prefix' => ''
     },
     {
@@ -21160,7 +21160,7 @@ $Lexicon = {
         'laud',
         'commend'
       ],
-      'orig' => '{imotadaH',
+      'orig' => 'AimotadaH',
       'prefix' => ''
     },
     {
@@ -23527,7 +23527,7 @@ $Lexicon = {
         'doubt',
         'be doubted'
       ],
-      'orig' => '{imotaraY',
+      'orig' => 'AimotaraY',
       'prefix' => ''
     },
     {
@@ -23628,7 +23628,7 @@ $Lexicon = {
       'entry' => 'mahak',
       'form' => 'mahak',
       'lines' => [
-        ';; mahak_1',
+        ';; mahak-a_1',
         'mhk     mahak   PV      grind;crush',
         'mhk     mohak   IV      grind;crush'
       ],
@@ -23640,12 +23640,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'grind',
         'crush'
       ],
-      'orig' => 'mahak',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'mahak-a',
       'prefix' => ''
     },
     {
@@ -23758,7 +23761,7 @@ $Lexicon = {
         'be clarified',
         'be purified'
       ],
-      'orig' => '{im~aHaS',
+      'orig' => 'Aim~aHaS',
       'prefix' => ''
     }
   ],
@@ -24698,7 +24701,7 @@ $Lexicon = {
       'entry' => 'mana`',
       'form' => 'mana`',
       'lines' => [
-        ';; manaE_1',
+        ';; manaE-a_1',
         'mnE     manaE   PV      prevent;forbid',
         'mnE     monaE   IV      prevent;forbid'
       ],
@@ -24710,12 +24713,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'prevent',
         'forbid'
       ],
-      'orig' => 'manaE',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'manaE-a',
       'prefix' => ''
     },
     {
@@ -24776,7 +24782,7 @@ $Lexicon = {
         'refrain',
         'refuse'
       ],
-      'orig' => '{imotanaE',
+      'orig' => 'AimotanaE',
       'prefix' => ''
     },
     {
@@ -24983,7 +24989,7 @@ $Lexicon = {
         'refraining',
         'refusal'
       ],
-      'orig' => '{imotinAE',
+      'orig' => 'AimotinAE',
       'prefix' => ''
     },
     {
@@ -25286,7 +25292,7 @@ $Lexicon = {
         'be annihilated',
         'perish'
       ],
-      'orig' => '{im~aHaq',
+      'orig' => 'Aim~aHaq',
       'prefix' => ''
     }
   ],
@@ -25494,7 +25500,7 @@ $Lexicon = {
         'attract',
         'win the affection of'
       ],
-      'orig' => '{isotamAl',
+      'orig' => 'AisotamAl',
       'prefix' => ''
     },
     {
@@ -26132,7 +26138,7 @@ $Lexicon = {
       'glosses' => [
         'masturbation'
       ],
-      'orig' => '{isotimonA\'',
+      'orig' => 'AisotimonA\'',
       'prefix' => ''
     },
     {
@@ -27513,7 +27519,7 @@ $Lexicon = {
         'glide',
         'slip away'
       ],
-      'orig' => '{inomalas',
+      'orig' => 'Ainomalas',
       'prefix' => ''
     },
     {
@@ -27747,7 +27753,7 @@ $Lexicon = {
         'be blended',
         'blend'
       ],
-      'orig' => '{imotazaj',
+      'orig' => 'Aimotazaj',
       'prefix' => ''
     },
     {
@@ -27939,7 +27945,7 @@ $Lexicon = {
         'combination',
         'blend'
       ],
-      'orig' => '{imotizAj',
+      'orig' => 'AimotizAj',
       'prefix' => ''
     }
   ],
@@ -29719,7 +29725,7 @@ $Lexicon = {
       'glosses' => [
         'regard as pretty'
       ],
-      'orig' => '{isotamolaH',
+      'orig' => 'AisotamolaH',
       'prefix' => ''
     },
     {
@@ -32320,7 +32326,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{imotal~',
+      'orig' => 'Aimotal~',
       'prefix' => ''
     }
   ],
@@ -32384,7 +32390,7 @@ $Lexicon = {
       'glosses' => [
         'suck'
       ],
-      'orig' => '{imotalaj',
+      'orig' => 'Aimotalaj',
       'prefix' => ''
     },
     {
@@ -32903,7 +32909,7 @@ $Lexicon = {
         'take possession of',
         'be capable of'
       ],
-      'orig' => '{isotamokan',
+      'orig' => 'Aisotamokan',
       'prefix' => ''
     },
     {
@@ -33323,7 +33329,7 @@ $Lexicon = {
       'entry' => 'masY',
       'form' => 'masY',
       'lines' => [
-        ';; masaY_1',
+        ';; masaY-i_1',
         'msY     masaY   PV_0    make lean;emaciate',
         'msA     masA    PV_h    make lean;emaciate',
         'msy     masay   PV_Atn  make lean;emaciate',
@@ -33350,12 +33356,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCY',
-      'suffix' => '',
       'glosses' => [
         'make lean',
         'emaciate'
       ],
-      'orig' => 'masaY',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'masaY-i',
       'prefix' => ''
     },
     {
@@ -33698,7 +33707,7 @@ $Lexicon = {
         'be eradicated',
         'be exterminated'
       ],
-      'orig' => '{im~aHaY',
+      'orig' => 'Aim~aHaY',
       'prefix' => ''
     }
   ],
@@ -34363,7 +34372,7 @@ $Lexicon = {
         'enjoy',
         'relish'
       ],
-      'orig' => '{isotamotaE',
+      'orig' => 'AisotamotaE',
       'prefix' => ''
     },
     {
@@ -34526,7 +34535,7 @@ $Lexicon = {
       'glosses' => [
         'enjoyment'
       ],
-      'orig' => '{isotimotAE',
+      'orig' => 'AisotimotAE',
       'prefix' => ''
     },
     {
@@ -36311,7 +36320,7 @@ $Lexicon = {
         'be eradicated',
         'be exterminated'
       ],
-      'orig' => '{inomaHaY',
+      'orig' => 'AinomaHaY',
       'prefix' => ''
     },
     {
@@ -36368,7 +36377,7 @@ $Lexicon = {
         'be eradicated',
         'be exterminated'
       ],
-      'orig' => '{imotaHaY',
+      'orig' => 'AimotaHaY',
       'prefix' => ''
     },
     {
@@ -36488,7 +36497,7 @@ $Lexicon = {
         'extinction',
         'eradication'
       ],
-      'orig' => '{inomiHA\'',
+      'orig' => 'AinomiHA\'',
       'prefix' => ''
     },
     {
@@ -37828,7 +37837,7 @@ $Lexicon = {
       'glosses' => [
         'get rich'
       ],
-      'orig' => '{isotamAl',
+      'orig' => 'AisotamAl',
       'prefix' => ''
     },
     {
@@ -38411,7 +38420,7 @@ $Lexicon = {
         'enjoy',
         'savor'
       ],
-      'orig' => '{isotamoraO',
+      'orig' => 'AisotamoraO',
       'prefix' => ''
     },
     {
@@ -40839,15 +40848,18 @@ $Lexicon = {
         'm.su.s' => {
           'IV_C' => 1
         },
-        'ma.sa.s' => {},
+        'ma.s.s' => {},
+        'ma.sa.s' => {
+          'PV_C' => 1
+        },
         'mu.s.s' => {
           'IV_V' => 1
         }
       },
-      'entry' => 'ma.sa.s',
-      'form' => 'ma.sa.s',
+      'entry' => 'ma.s.s',
+      'form' => 'ma.s.s',
       'lines' => [
-        ';; maSaS_1',
+        ';; maS~-u_1',
         'mSS     maSaS   PV_C    suck;absorb;lap up',
         'mS      muS~    IV_V    suck;absorb;lap up',
         'mSS     moSuS   IV_C    suck;absorb;lap up'
@@ -40856,20 +40868,26 @@ $Lexicon = {
         'm.su.s' => [
           'FCuL'
         ],
+        'ma.sa.s' => [
+          'FaCaL'
+        ],
         'mu.s.s' => [
           'FuCL'
         ]
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'suffix' => '',
+      'morphs' => 'FaCL',
       'glosses' => [
         'suck',
         'absorb',
         'lap up'
       ],
-      'orig' => 'maSaS',
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'maS~-u',
       'prefix' => ''
     },
     {
@@ -40938,7 +40956,7 @@ $Lexicon = {
         'sip',
         'lap up'
       ],
-      'orig' => '{imotaS~',
+      'orig' => 'AimotaS~',
       'prefix' => ''
     },
     {
@@ -41158,7 +41176,7 @@ $Lexicon = {
         'absorption',
         'suction'
       ],
-      'orig' => '{imotiSAS',
+      'orig' => 'AimotiSAS',
       'prefix' => ''
     },
     {
@@ -41916,7 +41934,7 @@ $Lexicon = {
       'glosses' => [
         'masturbate'
       ],
-      'orig' => '{isotamonaY',
+      'orig' => 'AisotamonaY',
       'prefix' => ''
     },
     {
@@ -42109,7 +42127,7 @@ $Lexicon = {
       'morphs' => 'IstiFCA\'',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{isotimonA\'',
+      'orig' => 'AisotimonA\'',
       'prefix' => ''
     },
     {
@@ -42451,7 +42469,7 @@ $Lexicon = {
         'form',
         'questionnaire'
       ],
-      'orig' => '{isotimArap',
+      'orig' => 'AisotimArap',
       'prefix' => ''
     },
     {
@@ -43527,7 +43545,7 @@ $Lexicon = {
         'snatch away',
         'unsheathe'
       ],
-      'orig' => '{imota$aq',
+      'orig' => 'Aimota$aq',
       'prefix' => ''
     },
     {
@@ -43694,7 +43712,7 @@ $Lexicon = {
       'glosses' => [
         'slenderness'
       ],
-      'orig' => '{imoti$Aq',
+      'orig' => 'Aimoti$Aq',
       'prefix' => ''
     },
     {
@@ -43980,7 +43998,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{imotaS~',
+      'orig' => 'AimotaS~',
       'prefix' => ''
     },
     {
@@ -43994,7 +44012,7 @@ $Lexicon = {
       'morphs' => 'IFCiLAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{imotiSAS',
+      'orig' => 'AimotiSAS',
       'prefix' => ''
     },
     {
@@ -44392,7 +44410,7 @@ $Lexicon = {
         'wish for',
         'invoke'
       ],
-      'orig' => '{isotamoTar',
+      'orig' => 'AisotamoTar',
       'prefix' => ''
     },
     {
@@ -44770,7 +44788,7 @@ $Lexicon = {
         'glide',
         'slip away'
       ],
-      'orig' => '{im~alas',
+      'orig' => 'Aim~alas',
       'prefix' => ''
     }
   ],
@@ -44988,7 +45006,7 @@ $Lexicon = {
         'adhere to',
         'refrain from'
       ],
-      'orig' => '{isotamosak',
+      'orig' => 'Aisotamosak',
       'prefix' => ''
     },
     {
@@ -45382,7 +45400,7 @@ $Lexicon = {
         'adherence',
         'loyalty'
       ],
-      'orig' => '{isotimosAk',
+      'orig' => 'AisotimosAk',
       'prefix' => ''
     },
     {
@@ -46517,7 +46535,7 @@ $Lexicon = {
         'excel',
         'surpass'
       ],
-      'orig' => '{imotAz',
+      'orig' => 'AimotAz',
       'prefix' => ''
     },
     {
@@ -46664,7 +46682,7 @@ $Lexicon = {
         'distinction',
         'excellence'
       ],
-      'orig' => '{imotiyAz',
+      'orig' => 'AimotiyAz',
       'prefix' => ''
     },
     {
@@ -46688,7 +46706,7 @@ $Lexicon = {
       'glosses' => [
         'privilege'
       ],
-      'orig' => '{imotiyAz',
+      'orig' => 'AimotiyAz',
       'prefix' => ''
     },
     {
@@ -46713,7 +46731,7 @@ $Lexicon = {
         'concession',
         'favor'
       ],
-      'orig' => '{imotiyAz',
+      'orig' => 'AimotiyAz',
       'prefix' => ''
     },
     {
@@ -47603,7 +47621,7 @@ $Lexicon = {
         'be melted',
         'be dissolved'
       ],
-      'orig' => '{inomAE',
+      'orig' => 'AinomAE',
       'prefix' => ''
     },
     {
@@ -48465,7 +48483,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{imotad~',
+      'orig' => 'Aimotad~',
       'prefix' => ''
     },
     {
@@ -48479,7 +48497,7 @@ $Lexicon = {
       'morphs' => 'IFCiLAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{imotidAd',
+      'orig' => 'AimotidAd',
       'prefix' => ''
     },
     {
@@ -48493,7 +48511,7 @@ $Lexicon = {
       'morphs' => 'IFCiLAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{imotidAd',
+      'orig' => 'AimotidAd',
       'prefix' => ''
     },
     {
@@ -48684,7 +48702,7 @@ $Lexicon = {
         'ask for a respite',
         'ask to wait'
       ],
-      'orig' => '{isotamohal',
+      'orig' => 'Aisotamohal',
       'prefix' => ''
     },
     {
@@ -49067,7 +49085,7 @@ $Lexicon = {
       'morphs' => 'InFiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{inomiHA\'',
+      'orig' => 'AinomiHA\'',
       'prefix' => ''
     }
   ],
@@ -49361,7 +49379,7 @@ $Lexicon = {
       'glosses' => [
         'petition for a grant'
       ],
-      'orig' => '{isotamonaH',
+      'orig' => 'AisotamonaH',
       'prefix' => ''
     },
     {

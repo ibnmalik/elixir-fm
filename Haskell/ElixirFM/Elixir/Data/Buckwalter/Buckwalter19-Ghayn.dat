@@ -596,7 +596,7 @@ mg*y    muga*~iy        NAn_Nayn        nutritious;substantial
 mg*y    muga*~iy        Napdu   nutritious;substantial
 ;
 ;--- gr
-;; gar~_1
+;; gar~-u_1
 gr      gar~    PV_V    mislead;delude
 grr     garar   PV_C    mislead;delude
 gr      gur~    IV_V    mislead;delude
@@ -1584,7 +1584,7 @@ mg$y    mago$iy~        N       unconscious;knocked-out
 tg$y    tago$iy Nap     dimming;clouding;dulling
 ;
 ;--- gS
-;; gaS~_1
+;; gaS~-a_1
 gS      gaS~    PV_V_intr       be congested;be crowded
 gSS     gaSiS   PV_C_intr       be congested;be crowded
 gS      gaS~    IV_V_intr       be congested;be crowded
@@ -1989,14 +1989,14 @@ mgTy    mugaT~ay        NAt     covered
 mgTA    mugaT~A Napdu   covered
 ;
 ;--- gf
-;; gaf~_1
+;; gaf~-i_1
 gf      gaf~    PV_V    seize;grasp
 gff     gafaf   PV_C    seize;grasp
 gf      gif~    IV_V    seize;grasp
 gff     gofif   IV_C    seize;grasp
 ;
 ;--- gfr
-;; gafar_1
+;; gafar-i_1
 gfr     gafar   PV      forgive
 gfr     gofir   IV      forgive
 ;; gaf~ar_1

@@ -25,11 +25,37 @@ lexicon = listing "Lexicon's properties"
 
     FaCLY                     `noun`       {- yaHoyaY -}        [ "John" ] ]
 
+ |> "y .s b" <| [
+
+    FaCL                      `noun`       {- yaSob -}          [ "jasper" ] ]
+
+ |> "y .s f" <| [
+
+    FaCL                      `noun`       {- yaSof -}          [ "jasper" ] ]
+
+ |> "y ^s b" <| [
+
+    FaCL                      `noun`       {- ya$ob -}          [ "jasper" ] ]
+
  |> "y _h t" <| [
 
     FaCL                      `noun`       {- yaxot -}          [ "yacht", "yachts" ]
                               `plural`     FuCUL
                               {- `others` [ "yu_huwt N" ] -} ]
+
+ |> "y b s" <| [
+
+    FaCiL                     `verb`       {- yabis-a -}        [ "become dry" ]
+                              `imperf`     FCaL,
+
+    FaCCaL                    `verb`       {- yab~as -}         [ "make dry", "desiccate" ],
+
+    FaCL                      `noun`       {- yabos -}          [ "dryness" ]
+                              `plural`     FaCaL
+                              `plural`     FuCL
+                              {- `others` [ "yabas N", "yubs N" ] -},
+
+    FaCiL                     `adj`        {- yabis -}          [ "dried out", "desiccated" ] ]
 
  |> "y d d" <| [
 
@@ -37,19 +63,44 @@ lexicon = listing "Lexicon's properties"
 
  |> "y f `" <| [
 
+    FACiL                     `noun`       {- yAfiE -}          [ "Yafie" ],
+
     FACiL                     `noun`       {- yAfiE -}          [ "adolescent", "teenager" ] ]
 
  |> "y h d" <| [
 
     FaCUL |< Iy               `adj`        {- yahuwdiy~ -}      [ "Jewish" ],
 
+    FaCUL |< Iy               `adj`        {- yahuwdiy~ -}      [ "Jew", "Jews" ]
+                              `plural`     FaCUL
+                              {- `others` [ "yahuwd N" ] -},
+
     FaCUL |< Iy |< aT         `noun`       {- yahuwdiy~ap -}    [ "Judaism" ] ]
 
  |> "y m n" <| [
 
+    FaCaL                     `verb`       {- yaman-u -}        [ "be lucky", "be fortunate" ]
+                              `imperf`     FCuL,
+
+    FaCiL                     `verb`       {- yamin-a -}        [ "be lucky", "be fortunate" ]
+                              `imperf`     FCaL,
+
+    FaCuL                     `verb`       {- yamun-u -}        [ "be lucky", "be fortunate" ]
+                              `imperf`     FCuL,
+
+    FaCCaL                    `verb`       {- yam~an -}         [ "go to the right" ],
+
+    FuCL                      `noun`       {- yumon -}          [ "good fortune", "success" ],
+
+    FaCaL                     `noun`       {- yaman -}          [ "right side" ]
+                              `plural`     FaCL |< aT
+                              {- `others` [ "yamn Nap" ] -},
+
     FaCaL                     `noun`       {- yaman -}          [ "Yemen" ],
 
     FaCaL |< Iy               `adj`        {- yamaniy~ -}       [ "Yemeni" ],
+
+    FaCAL |< Iy               `adj`        {- yamAniy~ -}       [ "Yemeni" ],
 
     FaCAL |< Iy               `adj`        {- yamAniy~ -}       [ "Yamani" ],
 
@@ -63,7 +114,11 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`       {- Oayoman -}        [ "Ayman", "Aiman" ],
 
+    HaFCaL                    `adj`        {- Oayoman -}        [ "right", "right hand", "lucky" ],
+
     FuCLY                     `adj`        {- yumonaY -}        [ "right hand", "right side", "lucky", "right hands", "right sides" ],
+
+    FuCLY                     `noun`       {- yumonaY -}        [ "Youmna", "Yumna" ],
 
     MaFCUL                    `adj`        {- mayomuwn -}       [ "lucky", "fortunate" ]
                               `plural`     MaFACIL
@@ -79,30 +134,61 @@ lexicon = listing "Lexicon's properties"
 
     FUCAL |< Iy               `adj`        {- yuwnAniy~ -}      [ "Greek" ] ]
 
+ |> "y n s n" <| [
+
+    KaRDUS                    `noun`       {- yanosuwn -}       [ "aniseed", "anise" ] ]
+
  |> "y n y r" <| [
 
     KaRADiS                   `noun`       {- yanAyir -}        [ "January" ] ]
 
  |> "y q .z" <| [
 
+    FaCiL                     `verb`       {- yaqiZ-a -}        [ "be awake", "be alert" ]
+                              `imperf`     FCaL,
+
+    FaCuL                     `verb`       {- yaquZ-u -}        [ "be awake", "be alert" ]
+                              `imperf`     FCuL,
+
+    FaCCaL                    `verb`       {- yaq~aZ -}         [ "awaken", "warn" ],
+
     HaFCaL                    `verb`       {- OayoqaZ -}        [ "awaken", "warn", "be awakened", "be warned" ],
+
+    IstaFCaL                  `verb`       {- AisotayoqaZ -}    [ "wake up", "be roused", "be alert" ],
+
+    FaCiL                     `adj`        {- yaqiZ -}          [ "awake", "alert", "vigilant" ]
+                              `plural`     HaFCAL
+                              `plural`     FaCuL |< aT
+                              {- `others` [ "'ayqA.z N", "yaqu.z N-ap" ] -},
 
     HiFCAL                    `noun`       {- IiyqAZ -}         [ "awakening", "reveille" ] ]
 
  |> "y q n" <| [
 
     FaCiL                     `verb`       {- yaqin-a -}        [ "be sure", "know for certain" ]
-                              `imperf`     FCaL
-                              {- `others` [ "yqan IV-n_intr" ] -},
+                              `imperf`     FCaL,
 
-    HaFCaL                    `verb`       {- Oayoqan -}        [ "ascertain", "be convinced" ]
-                              {- `others` [ "yqin IV-n" ] -},
+    HaFCaL                    `verb`       {- Oayoqan -}        [ "ascertain", "be convinced" ],
+
+    TaFaCCaL                  `verb`       {- tayaq~an -}       [ "ascertain", "be convinced" ],
+
+    FaCiL                     `noun`       {- yaqin -}          [ "credulous", "ingenuous" ]
+                              `plural`     FaCaL |< aT
+                              {- `others` [ "yaqan Nap" ] -},
 
     FaCIL                     `noun`       {- yaqiyn -}         [ "certainty", "certitude", "conviction" ],
 
     FaCIL                     `adj`        {- yaqiyn -}         [ "convinced" ],
 
+    FaCIL |< Iy               `adj`        {- yaqiyniy~ -}      [ "indisputable", "certain", "indisputable facts", "established truths" ],
+
     MutaFaCCiL                `adj`        {- mutayaq~in -}     [ "convinced", "certain" ] ]
+
+ |> "y r `" <| [
+
+    FaCAL                     `noun`       {- yarAE -}          [ "reed pen", "firefly" ],
+
+    FaCAL                     `adj`        {- yarAE -}          [ "cowardly" ] ]
 
  |> "y r y" <| [
 
@@ -116,8 +202,19 @@ lexicon = listing "Lexicon's properties"
 
  |> "y s r" <| [
 
-    FaCCaL                    `verb`       {- yas~ar -}         [ "facilitate", "make easy" ]
-                              {- `others` [ "yassir IV_yu" ] -},
+    FaCiL                     `verb`       {- yasir-a -}        [ "become easy" ]
+                              `imperf`     FCaL,
+
+    FaCuL                     `verb`       {- yasur-u -}        [ "become easy", "be small" ]
+                              `imperf`     FCuL,
+
+    FaCCaL                    `verb`       {- yas~ar -}         [ "facilitate", "make easy" ],
+
+    FACaL                     `verb`       {- yAsar -}          [ "be lenient with", "be obliging with" ],
+
+    HaFCaL                    `verb`       {- Oayosar -}        [ "live in comfort", "be made easy", "be facilitated" ],
+
+    FuCL                      `noun`       {- yusor -}          [ "ease", "facility", "affluence" ],
 
     FaCAL                     `noun`       {- yasAr -}          [ "left", "to the left" ],
 
@@ -127,13 +224,33 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`        {- yasiyr -}         [ "easy", "simple" ],
 
+    FaCIL                     `adj`        {- yasiyr -}         [ "small", "short" ],
+
     HaFCaL                    `noun`       {- Oayosar -}        [ "left", "left hand", "left hands" ]
                               `plural`     FuCLY
                               {- `others` [ "yusrY N0" ] -},
 
+    HaFCaL                    `noun`       {- Oayosar -}        [ "easier/easiest", "smaller/smallest" ],
+
+    MaFCiL                    `noun`       {- mayosir -}        [ "maisir (pre-Islamic gambling)" ],
+
+    MaFCaL |< aT              `noun`       {- mayosarap -}      [ "left wing", "left side", "left wings", "left sides" ]
+                              `plural`     MaFACiL
+                              {- `others` [ "mayAsir Ndip" ] -},
+
+    MaFCaL |< aT              `noun`       {- mayosarap -}      [ "comfort", "affluence" ]
+                              `plural`     MaFCiL |< aT
+                              {- `others` [ "maysir Nap" ] -},
+
     TaFCIL                    `noun`       {- tayosiyr -}       [ "facilitation" ],
 
+    TaFCIL                    `noun`       {- tayosiyr -}       [ "Taiseer" ],
+
     FACiL                     `noun`       {- yAsir -}          [ "Yasser", "Yasir" ],
+
+    MaFCUL                    `noun`       {- mayosuwr -}       [ "easily accomplished", "feasible", "well-to-do" ]
+                              `plural`     MaFACIL
+                              {- `others` [ "mayAsiyr Ndip" ] -},
 
     MuFaCCaL                  `adj`        {- muyas~ar -}       [ "made easy", "facilitated", "well-to-do" ] ]
 
@@ -143,6 +260,17 @@ lexicon = listing "Lexicon's properties"
 
  |> "y t m" <| [
 
+    FaCaL                     `verb`       {- yatam-i -}        [ "be orphaned" ]
+                              `imperf`     FCiL,
+
+    FaCuL                     `verb`       {- yatum-u -}        [ "be orphaned" ]
+                              `imperf`     FCuL,
+
+    FaCiL                     `verb`       {- yatim-a -}        [ "be orphaned" ]
+                              `imperf`     FCaL,
+
+    TaFaCCaL                  `verb`       {- tayat~am -}       [ "be orphaned" ],
+
     FaCIL                     `noun`       {- yatiym -}         [ "orphan", "unique", "orphans" ]
                               `plural`     HaFCAL
                               {- `others` [ "'aytAm N" ] -} ]
@@ -151,11 +279,19 @@ lexicon = listing "Lexicon's properties"
 
     KuRDIS                    `noun`       {- yuwbiyl -}        [ "jubilee" ] ]
 
+ |> "y w d" <| [
+
+    FaCCaL                    `verb`       {- yaw~ad -}         [ "iodize", "iodine" ] ]
+
  |> "y w m" <| [
 
     FaCL                      `noun`       {- yawom -}          [ "day", "days" ],
 
     FaCL                      `noun`       {- yawom -}          [ "some day" ],
+
+    FaCL                      `noun`       {- yawom -}          [ "today" ],
+
+    FaCL                      `noun`       {- yawom -}          [ "Youm" ],
 
     FaCL |< Iy                `adj`        {- yawomiy~ -}       [ "daily", "per diem", "on a daily basis" ] ]
 
@@ -219,7 +355,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "yAsmiyn" <| [
 
-    Identity                  `noun`       {- yAsomiyn -}       [ "Yasmin", "Yasmeen", "Jasmine" ] ]
+    Identity                  `noun`       {- yAsomiyn -}       [ "Yasmin", "Yasmeen", "Jasmine" ],
+
+    Identity                  `noun`       {- yAsomiyn -}       [ "jasmine" ] ]
 
  |> "yad" <| [
 
@@ -263,7 +401,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "yuwn.g" <| [
 
-    Identity                  `noun`       {- yuwnog -}         [ "Jong", "Jung", "Yung" ] ]
+    Identity                  `noun`       {- yuwnog -}         [ "Jong", "Jung", "Yung" ],
+
+    Identity                  `noun`       {- yuwnog -}         [ "Young" ] ]
 
  |> "yuwnAytid" <| [
 

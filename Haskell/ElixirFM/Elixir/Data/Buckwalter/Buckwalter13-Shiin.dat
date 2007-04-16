@@ -284,7 +284,7 @@ $b$b    $ibo$ib N       slippers
 $bA$b   $abA$ib Ndip    slippers
 ;
 ;--- $bT
-;; $abaT_1
+;; $abaT-i_1
 $bT     $abaT   PV      cling;hold on
 $bT     $obiT   IV      cling;hold on
 ;; $ubAT_1
@@ -3093,7 +3093,7 @@ m$Afh   mu$Afah NapAt   verbal;oral;speech
 m$Afhp  mu$AfahapF      FW-Wa   orally;verbally    <pos>mu$AfahapF/ADV</pos>
 ;
 ;--- $fw
-;; $afaY_1
+;; $afaY-i_1
 $fY     $afaY   PV_0    cure;heal
 $fA     $afA    PV_h    cure;heal
 $fy     $afay   PV_Atn  cure;heal
@@ -3381,7 +3381,7 @@ $qw     $oquw   IV_0hAnn        sadden;distress
 $q      $oq     IV_0hwnyn       sadden;distress
 $qY     $oqaY   IV_0_Pass_yu    be saddened;be distressed
 $qy     $oqay   IV_Ann_Pass_yu  be saddened;be distressed
-;; $aqiy_1
+;; $aqiy-a_1
 $qy     $aqiy   PV_no-w_intr    be unhappy;suffer
 $q      $aq     PV_w_intr       be unhappy;suffer
 $qY     $oqaY   IV_0    be unhappy;suffer
@@ -4879,7 +4879,7 @@ $wAZ    $uwAZ   N       passion;fervor
 $A}Z    $A}iZ   N-ap    red hot;ablaze     <pos>$A}iZ/ADJ</pos>
 ;
 ;--- $wf
-;; $Af_1
+;; $Af-u_1
 $Af     $Af     PV_V    look
 $f      $uf     PV_C    look
 $wf     $uwf    IV_V    look

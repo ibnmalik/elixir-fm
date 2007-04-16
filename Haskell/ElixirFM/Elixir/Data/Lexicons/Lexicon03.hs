@@ -37,8 +37,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "t ^g r" <| [
 
-    FACaL                     `verb`       {- tAjar -}          [ "deal with", "do business" ]
-                              {- `others` [ "tA^gir IV_yu" ] -},
+    FaCaL                     `verb`       {- tajar-u -}        [ "trade", "deal" ]
+                              `imperf`     FCuL,
+
+    FaCCaL                    `verb`       {- taj~ar -}         [ "commercialize" ],
+
+    FACaL                     `verb`       {- tAjar -}          [ "deal with", "do business" ],
 
     FiCAL |< aT               `noun`       {- tijArap -}        [ "commerce", "business" ],
 
@@ -47,6 +51,8 @@ lexicon = listing "Lexicon's properties"
     MaFCaL                    `noun`       {- matojar -}        [ "store", "business", "stores", "businesses" ]
                               `plural`     MaFACiL
                               {- `others` [ "matA^gir Ndip" ] -},
+
+    IFtiCAL                   `noun`       {- Ait~ijAr -}       [ "trade", "business" ],
 
     FACiL                     `noun`       {- tAjir -}          [ "merchant", "businessman", "merchants", "businessmen" ]
                               `plural`     FuCCAL
@@ -72,15 +78,19 @@ lexicon = listing "Lexicon's properties"
  |> "t ` b" <| [
 
     FaCiL                     `verb`       {- taEib-a -}        [ "be tired", "work hard" ]
-                              `imperf`     FCaL
-                              {- `others` [ "t`ab IV_intr" ] -},
+                              `imperf`     FCaL,
 
-    HaFCaL                    `verb`       {- OatoEab -}        [ "bother", "make tired", "be bothered", "be tired out" ]
-                              {- `others` [ "t`ab IV_Pass_yu", "t`ib IV_yu" ] -},
+    HaFCaL                    `verb`       {- OatoEab -}        [ "bother", "make tired", "be bothered", "be tired out" ],
+
+    FaCL                      `noun`       {- taEob -}          [ "trouble", "burden" ],
 
     HaFCAL                    `noun`       {- OatoEAb -}        [ "inconveniences", "labor" ],
 
-    MaFACiL                   `noun`       {- matAEib -}        [ "troubles", "complaints" ] ]
+    MaFACiL                   `noun`       {- matAEib -}        [ "troubles", "complaints" ],
+
+    MuFCiL                    `noun`       {- mutoEib -}        [ "troublesome", "tiresome" ],
+
+    MuFCaL                    `noun`       {- mutoEab -}        [ "tired", "weary" ] ]
 
  |> "t b .g" <| [
 
@@ -91,18 +101,27 @@ lexicon = listing "Lexicon's properties"
  |> "t b `" <| [
 
     FaCiL                     `verb`       {- tabiE-a -}        [ "follow", "pursue" ]
-                              `imperf`     FCaL
-                              {- `others` [ "tba` IV" ] -},
+                              `imperf`     FCaL,
 
-    FACaL                     `verb`       {- tAbaE -}          [ "continue", "follow" ]
-                              {- `others` [ "tAbi` IV_yu" ] -},
+    FACaL                     `verb`       {- tAbaE -}          [ "continue", "follow" ],
 
-    HaFCaL                    `verb`       {- OatobaE -}        [ "follow", "be followed" ]
-                              {- `others` [ "tba` IV_Pass_yu", "tbi` IV_yu" ] -},
+    HaFCaL                    `verb`       {- OatobaE -}        [ "follow", "be followed" ],
+
+    TaFaCCaL                  `verb`       {- tatab~aE -}       [ "pursue", "be subordinate" ],
+
+    TaFACaL                   `verb`       {- tatAbaE -}        [ "follow in succession" ],
+
+    IFtaCaL                   `verb`       {- Ait~abaE -}       [ "follow", "observe" ],
+
+    IstaFCaL                  `verb`       {- AisotatobaE -}    [ "result in", "make follow" ],
 
     FaCaL                     `noun`       {- tabaE -}          [ "subordinate", "follower" ],
 
     FaCiL |< aT               `noun`       {- tabiEap -}        [ "consequence", "responsibility" ],
+
+    FaCIL                     `noun`       {- tabiyE -}         [ "adjunct", "partisan" ],
+
+    FiCAL                     `noun`       {- tibAE -}          [ "adjunct" ],
 
     FiCAL |< aN               `noun`       {- tibAEAF -}        [ "in succession", "consecutively" ]
                               `plural`     FiCAL
@@ -111,6 +130,10 @@ lexicon = listing "Lexicon's properties"
     MuFACaL |< aT             `noun`       {- mutAbaEap -}      [ "pursuit", "continuation" ],
 
     TaFaCCuL                  `noun`       {- tatab~uE -}       [ "pursuit", "course" ],
+
+    TaFACuL                   `noun`       {- tatAbuE -}        [ "succession" ],
+
+    IFtiCAL                   `noun`       {- Ait~ibAE -}       [ "pursuit", "compliance" ],
 
     FACiL                     `adj`        {- tAbiE -}          [ "subordinate", "adherent" ],
 
@@ -122,11 +145,49 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCaL                  `noun`       {- mut~abaE -}       [ "followed", "observed", "adhered" ] ]
 
+ |> "t b b" <| [
+
+    FaCL                      `verb`       {- tab~-i -}         [ "perish", "be destroyed" ]
+                              `imperf`     FCiL,
+
+    IstiFCAL                  `noun`       {- AisotitobAb -}    [ "normalcy", "stability" ] ]
+
+ |> "t b n" <| [
+
+    FiCL                      `noun`       {- tibon -}          [ "chaff", "straw" ],
+
+    FiCL |< Iy                `adj`        {- tiboniy~ -}       [ "flaxen" ] ]
+
  |> "t f .h" <| [
 
     FuCCAL                    `noun`       {- tuf~AH -}         [ "apples", "apple" ]
                               `plural`     FaCACIL
                               {- `others` [ "tafAfiy.h Ndip" ] -} ]
+
+ |> "t f f" <| [
+
+    FaCL                      `verb`       {- taf~-i -}         [ "spit" ]
+                              `imperf`     FCiL,
+
+    FuCL                      `noun`       {- tuf~ -}           [ "fingernail dirt" ] ]
+
+ |> "t f h" <| [
+
+    FuCUL                     `noun`       {- tufuwh -}         [ "triviality", "insignificance" ] ]
+
+ |> "t f k" <| [
+
+    FuCL |< aT                `noun`       {- tufokap -}        [ "gun", "rifle", "guns", "rifles" ]
+                              `plural`     FuCaL
+                              {- `others` [ "tufak N" ] -} ]
+
+ |> "t k k" <| [
+
+    FaCL                      `verb`       {- tak~-u -}         [ "trample underfoot", "intoxicate" ]
+                              `imperf`     FCuL,
+
+    FaCL                      `verb`       {- tak~-i -}         [ "tick" ]
+                              `imperf`     FCiL ]
 
  |> "t k s s" <| [
 
@@ -138,6 +199,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "t l f" <| [
 
+    FaCiL                     `verb`       {- talif-a -}        [ "be damaged", "be destroyed" ]
+                              `imperf`     FCaL,
+
+    FaCCaL                    `verb`       {- tal~af -}         [ "ruin", "wear out" ],
+
     FaCaL                     `noun`       {- talaf -}          [ "ruin", "loss" ],
 
     HiFCAL                    `noun`       {- IitolAf -}        [ "destruction", "harm" ],
@@ -146,15 +212,23 @@ lexicon = listing "Lexicon's properties"
 
  |> "t l f z" <| [
 
+    KaRDaS                    `verb`       {- talofaz -}        [ "televise" ],
+
     KaRDaS |< aT              `noun`       {- talofazap -}      [ "telecast", "television" ],
 
     MuKaRDaS                  `adj`        {- mutalofaz -}      [ "televised" ] ]
 
+ |> "t l h" <| [
+
+    FaCiL                     `verb`       {- talih-a -}        [ "be astonished" ]
+                              `imperf`     FCaL ]
+
  |> "t l k" <| [
 
     FaCA                      `verb`       {- talA-u -}         [ "follow", "recite", "be followed", "be recited" ]
-                              `imperf`     FCuL
-                              {- `others` [ "tluw IV_0hAnn", "tlY IV_0_Pass_yu" ] -},
+                              `imperf`     FCuL,
+
+    HaFCY                     `verb`       {- OatolaY -}        [ "make follow", "put next", "be made to follow", "be put next" ],
 
     FACI                      `adj`        {- tAliy -}          [ "following", "subsequent" ],
 
@@ -174,12 +248,20 @@ lexicon = listing "Lexicon's properties"
 
  |> "t l m _d" <| [
 
+    KaRDaS                    `verb`       {- taloma* -}        [ "be pupil", "be apprentice" ],
+
+    KaRDaS                    `verb`       {- taloma* -}        [ "take as pupil", "take as apprentice" ],
+
     TaKaRDaS                  `verb`       {- tataloma* -}      [ "be pupil", "be apprentice" ],
 
     KiRDIS                    `noun`       {- tilomiy* -}       [ "student", "pupil", "students", "pupils" ]
                               `plural`     KaRADIS
                               `plural`     KaRADiS |< aT
                               {- `others` [ "talAmiy_d Ndip", "talAmi_d Nap" ] -} ]
+
+ |> "t l w" <| [
+
+    FuCUL                     `noun`       {- tuluw~ -}         [ "following", "ensuing" ] ]
 
  |> "t l y" <| [
 
@@ -194,15 +276,15 @@ lexicon = listing "Lexicon's properties"
  |> "t m m" <| [
 
     FaCL                      `verb`       {- tam~-i -}         [ "conclude", "take place" ]
-                              `imperf`     FCiL
-                              {- `others` [ "tmim IV_C", "timm IV_V", "tamam PV_C" ] -},
+                              `imperf`     FCiL,
 
-    HaFaCL                    `verb`       {- Oatam~ -}         [ "complete", "conclude", "be completed", "be concluded" ]
-                              {- `others` [ "tamm IV_V_Pass_yu", "'atmam PV_C", "tmim IV_C_yu", "timm IV_V_yu" ] -},
+    HaFaCL                    `verb`       {- Oatam~ -}         [ "complete", "conclude", "be completed", "be concluded" ],
 
     FaCAL                     `noun`       {- tamAm -}          [ "exact", "complete" ],
 
     FaCIL                     `noun`       {- tamiym -}         [ "Tamim" ],
+
+    FaCIL |< Iy               `adj`        {- tamiymiy~ -}      [ "Tamimi" ],
 
     FaCIL |< Iy               `adj`        {- tamiymiy~ -}      [ "Tamimi" ],
 
@@ -212,11 +294,17 @@ lexicon = listing "Lexicon's properties"
 
     FACL                      `noun`       {- tAm~ -}           [ "complete", "concluded" ] ]
 
+ |> "t m n" <| [
+
+    FuCCaL                    `noun`       {- tum~an -}         [ "rice" ] ]
+
  |> "t m q" <| [
 
     FUCiy                     `noun`       {- tuwmiy -}         [ "Tommy" ] ]
 
  |> "t m r" <| [
+
+    FaCL                      `noun`       {- tamor -}          [ "date (fruit)" ],
 
     FACiL                     `noun`       {- tAmir -}          [ "Tamir", "Tamer" ] ]
 
@@ -236,11 +324,17 @@ lexicon = listing "Lexicon's properties"
 
  |> "t n n" <| [
 
+    FuCL                      `noun`       {- tun~ -}           [ "tuna" ],
+
+    FiCCIL                    `noun`       {- tin~iyn -}        [ "Draco" ],
+
     FiCCIL                    `noun`       {- tin~iyn -}        [ "dragon", "dragons" ]
                               `plural`     FaCACIL
                               {- `others` [ "tanAniyn Ndip" ] -} ]
 
  |> "t n q" <| [
+
+    FUCiy                     `noun`       {- tuwniy -}         [ "Toni" ],
 
     FUCiy                     `noun`       {- tuwniy -}         [ "Toni" ] ]
 
@@ -264,18 +358,27 @@ lexicon = listing "Lexicon's properties"
 
  |> "t q w" <| [
 
-    FaCLY                     `noun`       {- taqowaY -}        [ "piety" ] ]
+    FaCLY                     `noun`       {- taqowaY -}        [ "piety" ],
+
+    FuCL                      `noun`       {- tuqow -}          [ "piety" ] ]
 
  |> "t q y" <| [
 
+    FaCY                      `verb`       {- taqaY-i -}        [ "be devout", "be pious" ]
+                              `imperf`     FCiL,
+
     FaCIL                     `adj`        {- taqiy~ -}         [ "pious", "devout" ]
                               `plural`     HaFCiLA'
-                              {- `others` [ "'atqiyA' Nh N0_Nh Nhy" ] -} ]
+                              {- `others` [ "'atqiyA' Nh N0_Nh Nhy" ] -},
+
+    FuCY                      `noun`       {- tuqaY -}          [ "piety" ]
+                              `plural`     FaCY
+                              `plural`     FaCA
+                              {- `others` [ "taqY N0", "taqA Nhy" ] -} ]
 
  |> "t r ^g m" <| [
 
-    KaRDaS                    `verb`       {- tarojam -}        [ "translate", "interpret" ]
-                              {- `others` [ "tar^gim IV_yu" ] -},
+    KaRDaS                    `verb`       {- tarojam -}        [ "translate", "interpret" ],
 
     KaRDaS |< aT              `noun`       {- tarojamap -}      [ "translation", "interpretation" ],
 
@@ -283,21 +386,38 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADiS
                               {- `others` [ "tarA^gim Ndip" ] -},
 
-    MuKaRDiS                  `noun`       {- mutarojim -}      [ "translator", "interpreter" ] ]
+    MuKaRDiS                  `noun`       {- mutarojim -}      [ "translator", "interpreter" ],
+
+    MuKaRDaS                  `noun`       {- mutarojam -}      [ "translated" ] ]
 
  |> "t r _t" <| [
 
     FuCAL                     `noun`       {- turAv -}          [ "heritage", "inheritance" ] ]
 
+ |> "t r `" <| [
+
+    FuCL |< aT                `noun`       {- turoEap -}        [ "canal", "waterway", "canals", "waterways" ]
+                              `plural`     FuCaL
+                              {- `others` [ "tura` N" ] -} ]
+
  |> "t r b" <| [
+
+    FaCiL                     `verb`       {- tarib-a -}        [ "be dusty" ]
+                              `imperf`     FCaL,
+
+    FaCCaL                    `verb`       {- tar~ab -}         [ "make dusty" ],
 
     FiCL                      `noun`       {- tirob -}          [ "companion", "companions" ]
                               `plural`     HaFCAL
                               {- `others` [ "'atrAb N" ] -},
 
+    FaCiL                     `noun`       {- tarib -}          [ "dusty" ],
+
     FuCL |< aT                `noun`       {- turobap -}        [ "dust", "graveyard" ]
                               `plural`     FuCaL
                               {- `others` [ "turab N" ] -},
+
+    FuCaL |< Iy               `adj`        {- turabiy~ -}       [ "gravedigger" ],
 
     FuCAL                     `noun`       {- turAb -}          [ "dirt", "soil" ]
                               `plural`     FiCLAn
@@ -306,27 +426,59 @@ lexicon = listing "Lexicon's properties"
 
     FuCAL |< Iy               `adj`        {- turAbiy~ -}       [ "Turabi" ],
 
-    FuCAL |< Iy               `adj`        {- turAbiy~ -}       [ "dusty", "earthy" ] ]
+    FuCAL |< Iy               `adj`        {- turAbiy~ -}       [ "dusty", "earthy" ],
+
+    FuCAL |< aT               `noun`       {- turAbap -}        [ "dust" ] ]
 
  |> "t r f" <| [
 
-    FaCaL                     `noun`       {- taraf -}          [ "luxury", "affluence" ] ]
+    FaCiL                     `verb`       {- tarif-a -}        [ "live in luxury" ]
+                              `imperf`     FCaL,
+
+    FaCaL                     `noun`       {- taraf -}          [ "luxury", "affluence" ],
+
+    FaCiL                     `noun`       {- tarif -}          [ "opulent", "luxurious" ] ]
 
  |> "t r h" <| [
+
+    FaCiL                     `verb`       {- tarih-a -}        [ "be concerned with trifles" ]
+                              `imperf`     FCaL,
 
     FuCCaL |< aT              `noun`       {- tur~ahap -}       [ "farce", "hoax" ] ]
 
  |> "t r k" <| [
 
     FaCaL                     `verb`       {- tarak-u -}        [ "leave", "quit" ]
-                              `imperf`     FCuL
-                              {- `others` [ "truk IV" ] -},
+                              `imperf`     FCuL,
+
+    FACaL                     `verb`       {- tArak -}          [ "cease" ],
 
     FaCL                      `noun`       {- tarok -}          [ "leaving", "omission" ],
+
+    FaCiL |< aT               `noun`       {- tarikap -}        [ "legacy" ]
+                              `plural`     FiCL |< At
+                              {- `others` [ "tirk NapAt" ] -},
+
+    FaCCaL                    `verb`       {- tar~ak -}         [ "Turkify" ],
+
+    FuCL                      `noun`       {- turok -}          [ "Turks" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'atrAk N" ] -},
 
     FuCL |< Iy                `adj`        {- turokiy~ -}       [ "Turkish" ] ]
 
  |> "t r s" <| [
+
+    FaCCaL                    `verb`       {- tar~as -}         [ "barricade", "armor" ],
+
+    FuCL                      `noun`       {- turos -}          [ "shield", "shields" ]
+                              `plural`     HaFCAL
+                              `plural`     FuCUL
+                              {- `others` [ "'atrAs N", "turuws N" ] -},
+
+    FiCL                      `noun`       {- tiros -}          [ "gear", "gears" ]
+                              `plural`     FuCUL
+                              {- `others` [ "turuws N" ] -},
 
     MaFCaL                    `noun`       {- matoras -}        [ "bolt", "barricade", "bolts", "barricades" ]
                               `plural`     MaFACiL
@@ -337,17 +489,23 @@ lexicon = listing "Lexicon's properties"
 
     FiCLAn |< aT              `noun`       {- tirosAnap -}      [ "arsenal", "shipyard" ]
                               `plural`     FaCLAn |< At
-                              {- `others` [ "tarsAn NduAt" ] -} ]
+                              {- `others` [ "tarsAn NduAt" ] -},
+
+    FiCLAn |< aT              `noun`       {- tirosAnap -}      [ "Tersana", "Tirsana" ] ]
 
  |> "t r s n" <| [
 
     KiRDAS |< aT              `noun`       {- tirosAnap -}      [ "arsenal", "shipyard" ]
                               `plural`     KaRDAS |< At
-                              {- `others` [ "tarsAn NduAt" ] -} ]
+                              {- `others` [ "tarsAn NduAt" ] -},
+
+    KiRDAS |< aT              `noun`       {- tirosAnap -}      [ "Tersana", "Tirsana" ] ]
 
  |> "t s `" <| [
 
     FiCL                      `adj`        {- tisoE -}          [ "nine" ],
+
+    FuCL                      `noun`       {- tusoE -}          [ "one ninth" ],
 
     FACiL                     `adj`        {- tAsiE -}          [ "ninth" ] ]
 
@@ -367,24 +525,29 @@ lexicon = listing "Lexicon's properties"
 
  |> "t w ^g" <| [
 
-    FaCCaL                    `verb`       {- taw~aj -}         [ "crown" ]
-                              {- `others` [ "tawwi^g IV_yu" ] -},
+    FaCCaL                    `verb`       {- taw~aj -}         [ "crown" ],
 
     FAL                       `noun`       {- tAj -}            [ "Taj" ],
 
     FAL                       `noun`       {- tAj -}            [ "crown", "crowns" ],
 
-    TaFCIL                    `noun`       {- tatowiyj -}       [ "coronation", "crowning" ] ]
+    TaFCIL                    `noun`       {- tatowiyj -}       [ "coronation", "crowning" ],
+
+    MuFaCCaL                  `noun`       {- mutaw~aj -}       [ "crowned" ] ]
 
  |> "t w b" <| [
+
+    FAL                       `verb`       {- tAb-u -}          [ "repent" ]
+                              `imperf`     FCuL,
 
     FA'iL                     `noun`       {- tA}ib -}          [ "repentant", "contrite" ] ]
 
  |> "t w h" <| [
 
     FAL                       `verb`       {- tAh-u -}          [ "go astray", "get lost" ]
-                              `imperf`     FCuL
-                              {- `others` [ "tuwh IV_V" ] -} ]
+                              `imperf`     FCuL,
+
+    FaCCaL                    `verb`       {- taw~ah -}         [ "mislead", "confuse" ] ]
 
  |> "t w m" <| [
 
@@ -400,17 +563,30 @@ lexicon = listing "Lexicon's properties"
 
     FACL                      `noun`       {- tAwn -}           [ "Town" ] ]
 
+ |> "t w n s" <| [
+
+    KaRDaS                    `verb`       {- tawonas -}        [ "make Tunisian", "Tunisianize" ] ]
+
  |> "t w q" <| [
 
     FAL                       `verb`       {- tAq-u -}          [ "yearn", "wish", "desire" ]
-                              `imperf`     FCuL
-                              {- `others` [ "tuwq IV_V" ] -},
+                              `imperf`     FCuL,
 
     FaCCAL                    `noun`       {- taw~Aq -}         [ "longing", "yearning" ] ]
 
  |> "t w r" <| [
 
     FAL |< aT |< aN           `noun`       {- tArapF -}         [ "once", "sometimes" ] ]
+
+ |> "t w t" <| [
+
+    FuCL                      `noun`       {- tuwt -}           [ "mulberry" ],
+
+    FUL                       `noun`       {- tuwt -}           [ "mulberry" ],
+
+    FuCL                      `noun`       {- tuwt -}           [ "Tut (1st Coptic month, Sept. 11-Oct. 10)" ],
+
+    FUL                       `noun`       {- tuwt -}           [ "Tut (1st Coptic month, Sept. 11-Oct. 10)" ] ]
 
  |> "t w t l" <| [
 
@@ -422,8 +598,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "t y .h" <| [
 
-    HaFAL                     `verb`       {- OatAH -}          [ "grant", "provide", "be provided", "be granted", "be available" ]
-                              {- `others` [ "tiy.h IV_V_yu", "tA.h IV_V_Pass_yu", "'utiy.h PV_V_Pass" ] -},
+    HaFAL                     `verb`       {- OatAH -}          [ "grant", "provide", "be provided", "be granted", "be available" ],
 
     HiFAL |< aT               `noun`       {- IitAHap -}        [ "granting", "providing" ],
 
@@ -435,13 +610,31 @@ lexicon = listing "Lexicon's properties"
 
  |> "t y h" <| [
 
+    FAL                       `verb`       {- tAh-i -}          [ "get lost", "perish" ]
+                              `imperf`     FCiL,
+
+    FaCCaL                    `verb`       {- tay~ah -}         [ "mislead", "confuse" ],
+
+    HaFAL                     `verb`       {- OatAh -}          [ "mislead", "confuse", "be misled", "be confused" ],
+
     FiCL                      `noun`       {- tiyh -}           [ "desert", "labyrinth" ] ]
+
+ |> "t y l" <| [
+
+    FaCCaL                    `verb`       {- tay~al -}         [ "cable", "wire (telegraph)" ] ]
 
  |> "t y m" <| [
 
     FACL                      `noun`       {- tAyom -}          [ "TIME" ],
 
-    FiCL                      `noun`       {- tiym -}           [ "Tim" ] ]
+    FiCL                      `noun`       {- tiym -}           [ "Team" ],
+
+    FiCL                      `noun`       {- tiym -}           [ "Tim" ],
+
+    FAL                       `verb`       {- tAm-i -}          [ "be infatuated", "be enslaved" ]
+                              `imperf`     FCiL,
+
+    FaCCaL                    `verb`       {- tay~am -}         [ "infatuate", "enslave" ] ]
 
  |> "t y m r" <| [
 
@@ -541,13 +734,29 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- taHota -}         [ "under" ] ]
 
+ |> "ta.htu" <| [
+
+    Identity                  `noun`       {- taHotu -}         [ "underneath" ] ]
+
  |> "tadmur" <| [
 
     Identity                  `noun`       {- tadomur -}        [ "Palmyra" ] ]
 
+ |> "tadru^g" <| [
+
+    Identity                  `noun`       {- tadoruj -}        [ "pheasant" ] ]
+
+ |> "tanniyn" <| [
+
+    Identity                  `noun`       {- tan~iyn -}        [ "tannin" ] ]
+
  |> "tanzAniyA" <| [
 
     Identity                  `noun`       {- tanozAniyA -}     [ "Tanzania" ] ]
+
+ |> "tatar" <| [
+
+    Identity                  `noun`       {- tatar -}          [ "Tartars" ] ]
 
  |> "tatimm" <| [
 
@@ -573,6 +782,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "tili.grAf" <| [
 
+    Identity                  `noun`       {- tiligrAf -}       [ "telegraph", "telegram" ],
+
     Identity                  `noun`       {- tiligrAf -}       [ "Telegraph" ] ]
 
  |> "tilifuwn" <| [
@@ -584,6 +795,14 @@ lexicon = listing "Lexicon's properties"
  |> "tilwa" <| [
 
     Identity                  `noun`       {- tilowa -}         [ "after" ] ]
+
+ |> "tinis" <| [
+
+    Identity                  `noun`       {- tinis -}          [ "tennis" ] ]
+
+ |> "tirsw" <| [
+
+    Identity                  `noun`       {- tirsw -}          [ "third class" ] ]
 
  |> "tiybAzah" <| [
 
@@ -636,6 +855,10 @@ lexicon = listing "Lexicon's properties"
  |> "tuwbA.guw" <| [
 
     Identity                  `noun`       {- tuwbAguw -}       [ "Tobago" ] ]
+
+ |> "tuwn^g" <| [
+
+    Identity                  `noun`       {- tuwnj -}          [ "bronze" ] ]
 
  |> "tuwnis" <| [
 

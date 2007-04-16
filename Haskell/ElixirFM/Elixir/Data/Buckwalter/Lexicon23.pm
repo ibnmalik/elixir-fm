@@ -760,7 +760,7 @@ $Lexicon = {
         'swallow',
         'devour'
       ],
-      'orig' => '{ilotaqam',
+      'orig' => 'Ailotaqam',
       'prefix' => ''
     },
     {
@@ -1898,7 +1898,7 @@ $Lexicon = {
         'be mended',
         'be in harmony with'
       ],
-      'orig' => '{ilotaOam',
+      'orig' => 'AilotaOam',
       'prefix' => ''
     },
     {
@@ -3590,7 +3590,7 @@ $Lexicon = {
       'glosses' => [
         'be crowded'
       ],
-      'orig' => '{ilotak~',
+      'orig' => 'Ailotak~',
       'prefix' => ''
     }
   ],
@@ -3760,7 +3760,7 @@ $Lexicon = {
         'be bridled',
         'be harnessed'
       ],
-      'orig' => '{ilotajam',
+      'orig' => 'Ailotajam',
       'prefix' => ''
     },
     {
@@ -4406,7 +4406,7 @@ $Lexicon = {
         'flare up',
         'be inflamed'
       ],
-      'orig' => '{ilotahab',
+      'orig' => 'Ailotahab',
       'prefix' => ''
     },
     {
@@ -4567,7 +4567,7 @@ $Lexicon = {
       'glosses' => [
         'inflammation'
       ],
-      'orig' => '{ilotihAb',
+      'orig' => 'AilotihAb',
       'prefix' => ''
     },
     {
@@ -4592,7 +4592,7 @@ $Lexicon = {
         'inflammatory',
         'inflammable'
       ],
-      'orig' => '{ilotihAbiy~',
+      'orig' => 'AilotihAbiy~',
       'prefix' => ''
     },
     {
@@ -4960,7 +4960,7 @@ $Lexicon = {
         'turn',
         'be wrapped'
       ],
-      'orig' => '{ilotaf~',
+      'orig' => 'Ailotaf~',
       'prefix' => ''
     },
     {
@@ -4986,7 +4986,7 @@ $Lexicon = {
         'surrounding',
         'turnabout'
       ],
-      'orig' => '{ilotifAf',
+      'orig' => 'AilotifAf',
       'prefix' => ''
     },
     {
@@ -5233,7 +5233,7 @@ $Lexicon = {
         'be pleased',
         'be delighted'
       ],
-      'orig' => '{ilota*~',
+      'orig' => 'Ailota*~',
       'prefix' => ''
     },
     {
@@ -5273,7 +5273,7 @@ $Lexicon = {
         'find delightful',
         'take pleasure in'
       ],
-      'orig' => '{isotala*~',
+      'orig' => 'Aisotala*~',
       'prefix' => ''
     },
     {
@@ -5707,7 +5707,7 @@ $Lexicon = {
         'solicit',
         'search for'
       ],
-      'orig' => '{ilotamas',
+      'orig' => 'Ailotamas',
       'prefix' => ''
     },
     {
@@ -6013,7 +6013,7 @@ $Lexicon = {
         'solicitation',
         'petition'
       ],
-      'orig' => '{ilotimAs',
+      'orig' => 'AilotimAs',
       'prefix' => ''
     },
     {
@@ -6451,7 +6451,7 @@ $Lexicon = {
         'be muddy',
         'be murky'
       ],
-      'orig' => '{ilotAv',
+      'orig' => 'AilotAv',
       'prefix' => ''
     },
     {
@@ -6885,7 +6885,7 @@ $Lexicon = {
         'anxiety',
         'suffering'
       ],
-      'orig' => '{ilotiyAE',
+      'orig' => 'AilotiyAE',
       'prefix' => ''
     }
   ],
@@ -7603,7 +7603,7 @@ $Lexicon = {
         'be ablaze',
         'burn brightly'
       ],
-      'orig' => '{ilotaZaY',
+      'orig' => 'AilotaZaY',
       'prefix' => ''
     },
     {
@@ -8524,7 +8524,7 @@ $Lexicon = {
         'be entertained',
         'play with'
       ],
-      'orig' => '{ilotahaY',
+      'orig' => 'AilotahaY',
       'prefix' => ''
     },
     {
@@ -8860,7 +8860,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ilota*~',
+      'orig' => 'Ailota*~',
       'prefix' => ''
     }
   ],
@@ -9123,7 +9123,7 @@ $Lexicon = {
         'gather',
         'visit'
       ],
-      'orig' => '{ilotam~',
+      'orig' => 'Ailotam~',
       'prefix' => ''
     },
     {
@@ -9606,7 +9606,7 @@ $Lexicon = {
       'glosses' => [
         'find pleasant'
       ],
-      'orig' => '{isotaloTaf',
+      'orig' => 'AisotaloTaf',
       'prefix' => ''
     },
     {
@@ -10102,7 +10102,7 @@ $Lexicon = {
         'maintain',
         'preserve'
       ],
-      'orig' => '{ilotazam',
+      'orig' => 'Ailotazam',
       'prefix' => ''
     },
     {
@@ -10140,7 +10140,7 @@ $Lexicon = {
         'be deemed necessary',
         'be required'
       ],
-      'orig' => '{isotalozam',
+      'orig' => 'Aisotalozam',
       'prefix' => ''
     },
     {
@@ -10458,7 +10458,7 @@ $Lexicon = {
         'commitment',
         'obligation'
       ],
-      'orig' => '{ilotizAm',
+      'orig' => 'AilotizAm',
       'prefix' => ''
     },
     {
@@ -10482,7 +10482,7 @@ $Lexicon = {
       'glosses' => [
         'committed'
       ],
-      'orig' => '{ilotizAmiy~',
+      'orig' => 'AilotizAmiy~',
       'prefix' => ''
     },
     {
@@ -11000,7 +11000,7 @@ $Lexicon = {
         'deviate',
         'apostatize'
       ],
-      'orig' => '{ilotaHad',
+      'orig' => 'AilotaHad',
       'prefix' => ''
     },
     {
@@ -11616,7 +11616,7 @@ $Lexicon = {
         'be twisted',
         'be distorted'
       ],
-      'orig' => '{ilotawaY',
+      'orig' => 'AilotawaY',
       'prefix' => ''
     },
     {
@@ -11916,7 +11916,7 @@ $Lexicon = {
         'bend',
         'unevenness'
       ],
-      'orig' => '{ilotiwA\'',
+      'orig' => 'AilotiwA\'',
       'prefix' => ''
     },
     {
@@ -11942,7 +11942,7 @@ $Lexicon = {
         'flexing',
         'twisting'
       ],
-      'orig' => '{ilotiwA\'ap',
+      'orig' => 'AilotiwA\'ap',
       'prefix' => ''
     },
     {
@@ -13222,7 +13222,7 @@ $Lexicon = {
         'flash',
         'glitter'
       ],
-      'orig' => '{ilotamaE',
+      'orig' => 'AilotamaE',
       'prefix' => ''
     },
     {
@@ -13743,7 +13743,7 @@ $Lexicon = {
         'be noisy',
         'be uproarious'
       ],
-      'orig' => '{ilotaj~',
+      'orig' => 'Ailotaj~',
       'prefix' => ''
     },
     {
@@ -14461,7 +14461,7 @@ $Lexicon = {
         'heed',
         'consider'
       ],
-      'orig' => '{ilotafat',
+      'orig' => 'Ailotafat',
       'prefix' => ''
     },
     {
@@ -14488,7 +14488,7 @@ $Lexicon = {
         'attract',
         'arouse'
       ],
-      'orig' => '{isotalofat',
+      'orig' => 'Aisotalofat',
       'prefix' => ''
     },
     {
@@ -15079,7 +15079,7 @@ $Lexicon = {
         'meet',
         'encounter'
       ],
-      'orig' => '{ilotaqaY',
+      'orig' => 'AilotaqaY',
       'prefix' => ''
     },
     {
@@ -15132,7 +15132,7 @@ $Lexicon = {
       'glosses' => [
         'lie down'
       ],
-      'orig' => '{isotaloqaY',
+      'orig' => 'AisotaloqaY',
       'prefix' => ''
     },
     {
@@ -15586,7 +15586,7 @@ $Lexicon = {
         'meetings',
         'reunions'
       ],
-      'orig' => '{ilotiqA\'',
+      'orig' => 'AilotiqA\'',
       'prefix' => ''
     },
     {
@@ -15821,7 +15821,7 @@ $Lexicon = {
         'seize',
         'catch'
       ],
-      'orig' => '{ilotaqaf',
+      'orig' => 'Ailotaqaf',
       'prefix' => ''
     },
     {
@@ -16255,7 +16255,7 @@ $Lexicon = {
         'cling together',
         'hold firmly together'
       ],
-      'orig' => '{ilotaHam',
+      'orig' => 'AilotaHam',
       'prefix' => ''
     },
     {
@@ -16606,7 +16606,7 @@ $Lexicon = {
         'adhesion',
         'close union'
       ],
-      'orig' => '{ilotiHAm',
+      'orig' => 'AilotiHAm',
       'prefix' => ''
     },
     {
@@ -16631,7 +16631,7 @@ $Lexicon = {
         'engagement',
         'confrontation'
       ],
-      'orig' => '{ilotiHAm',
+      'orig' => 'AilotiHAm',
       'prefix' => ''
     },
     {
@@ -18975,7 +18975,7 @@ $Lexicon = {
       'glosses' => [
         'be ambiguous'
       ],
-      'orig' => '{ilotabas',
+      'orig' => 'Ailotabas',
       'prefix' => ''
     },
     {
@@ -19395,7 +19395,7 @@ $Lexicon = {
         'ambiguity',
         'confusion'
       ],
-      'orig' => '{ilotibAs',
+      'orig' => 'AilotibAs',
       'prefix' => ''
     },
     {
@@ -19569,7 +19569,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ilotaj~',
+      'orig' => 'Ailotaj~',
       'prefix' => ''
     }
   ],
@@ -20229,7 +20229,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ilotam~',
+      'orig' => 'Ailotam~',
       'prefix' => ''
     }
   ],
@@ -20465,7 +20465,7 @@ $Lexicon = {
         'be blamed',
         'be censured'
       ],
-      'orig' => '{ilotAm',
+      'orig' => 'AilotAm',
       'prefix' => ''
     },
     {
@@ -20501,7 +20501,7 @@ $Lexicon = {
         'be blameworthy',
         'be reprehensible'
       ],
-      'orig' => '{isotalAm',
+      'orig' => 'AisotalAm',
       'prefix' => ''
     },
     {
@@ -20976,7 +20976,7 @@ $Lexicon = {
         'enlist',
         'be attached'
       ],
-      'orig' => '{ilotaHaq',
+      'orig' => 'AilotaHaq',
       'prefix' => ''
     },
     {
@@ -21002,7 +21002,7 @@ $Lexicon = {
       'glosses' => [
         'annex'
       ],
-      'orig' => '{isotaloHaq',
+      'orig' => 'AisotaloHaq',
       'prefix' => ''
     },
     {
@@ -21206,7 +21206,7 @@ $Lexicon = {
         'joining',
         'affiliation'
       ],
-      'orig' => '{ilotiHAq',
+      'orig' => 'AilotiHAq',
       'prefix' => ''
     },
     {
@@ -21230,7 +21230,7 @@ $Lexicon = {
       'glosses' => [
         'annexation'
       ],
-      'orig' => '{isotiloHAq',
+      'orig' => 'AisotiloHAq',
       'prefix' => ''
     },
     {
@@ -21943,7 +21943,7 @@ $Lexicon = {
       'glosses' => [
         'be wrapped up'
       ],
-      'orig' => '{ilotafaE',
+      'orig' => 'AilotafaE',
       'prefix' => ''
     },
     {
@@ -22924,7 +22924,7 @@ $Lexicon = {
         'destroy',
         'devour'
       ],
-      'orig' => '{ilotaham',
+      'orig' => 'Ailotaham',
       'prefix' => ''
     },
     {
@@ -22951,7 +22951,7 @@ $Lexicon = {
         'seek inspiration',
         'be inspired'
       ],
-      'orig' => '{isotaloham',
+      'orig' => 'Aisotaloham',
       'prefix' => ''
     },
     {
@@ -23118,7 +23118,7 @@ $Lexicon = {
         'devouring',
         'swallowing up'
       ],
-      'orig' => '{ilotihAm',
+      'orig' => 'AilotihAm',
       'prefix' => ''
     },
     {
@@ -23143,7 +23143,7 @@ $Lexicon = {
         'search for inspiration',
         'inspiration'
       ],
-      'orig' => '{isotilohAm',
+      'orig' => 'AisotilohAm',
       'prefix' => ''
     },
     {
@@ -23256,7 +23256,7 @@ $Lexicon = {
         'turning',
         'attention'
       ],
-      'orig' => '{ilotifAt',
+      'orig' => 'AilotifAt',
       'prefix' => ''
     },
     {
@@ -23281,7 +23281,7 @@ $Lexicon = {
         'turn',
         'glance'
       ],
-      'orig' => '{ilotifAtap',
+      'orig' => 'AilotifAtap',
       'prefix' => ''
     }
   ],
@@ -23381,7 +23381,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ilotiqA\'',
+      'orig' => 'AilotiqA\'',
       'prefix' => ''
     }
   ],
@@ -24001,7 +24001,7 @@ $Lexicon = {
         'affix',
         'adhere'
       ],
-      'orig' => '{ilotaSaq',
+      'orig' => 'AilotaSaq',
       'prefix' => ''
     },
     {
@@ -24223,7 +24223,7 @@ $Lexicon = {
         'adhesion',
         'contact'
       ],
-      'orig' => '{ilotiSAq',
+      'orig' => 'AilotiSAq',
       'prefix' => ''
     },
     {
@@ -24597,7 +24597,7 @@ $Lexicon = {
         'curdle',
         'coagulate'
       ],
-      'orig' => '{ilohAj~',
+      'orig' => 'AilohAj~',
       'prefix' => ''
     },
     {
@@ -25254,7 +25254,7 @@ $Lexicon = {
         'have recourse',
         'take refuge'
       ],
-      'orig' => '{ilotajaO',
+      'orig' => 'AilotajaO',
       'prefix' => ''
     },
     {
@@ -25396,7 +25396,7 @@ $Lexicon = {
         'asylum',
         'asylums'
       ],
-      'orig' => '{ilotijA\'',
+      'orig' => 'AilotijA\'',
       'prefix' => ''
     },
     {
@@ -26918,7 +26918,7 @@ $Lexicon = {
       'glosses' => [
         'feigned attention'
       ],
-      'orig' => '{isotilofAt',
+      'orig' => 'AisotilofAt',
       'prefix' => ''
     }
   ],
@@ -27484,7 +27484,7 @@ $Lexicon = {
       'entry' => 'laki\'',
       'form' => 'laki\'',
       'lines' => [
-        ';; laki}_1',
+        ';; laki}-a_1',
         'lk}     laki}   PV_intr remain',
         'lk>     loka>   IV      remain',
         'lk|     loka|   IV-|    remain',
@@ -27499,11 +27499,14 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCiL',
-      'suffix' => '',
       'glosses' => [
         'remain'
       ],
-      'orig' => 'laki}',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'laki}-a',
       'prefix' => ''
     },
     {
@@ -28006,7 +28009,7 @@ $Lexicon = {
       'glosses' => [
         'be wrapped'
       ],
-      'orig' => '{ilotaHaf',
+      'orig' => 'AilotaHaf',
       'prefix' => ''
     },
     {
@@ -28644,7 +28647,7 @@ $Lexicon = {
         'get confused',
         'become disorganized'
       ],
-      'orig' => '{ilotabak',
+      'orig' => 'Ailotabak',
       'prefix' => ''
     }
   ],
@@ -28797,7 +28800,7 @@ $Lexicon = {
         'be joined',
         'adhere'
       ],
-      'orig' => '{ilotaz~',
+      'orig' => 'Ailotaz~',
       'prefix' => ''
     }
   ],
@@ -29856,7 +29859,7 @@ $Lexicon = {
       'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ilotaz~',
+      'orig' => 'Ailotaz~',
       'prefix' => ''
     },
     {
@@ -30593,7 +30596,7 @@ $Lexicon = {
       'entry' => 'la.hY',
       'form' => 'la.hY',
       'lines' => [
-        ';; laHaY_1',
+        ';; laHaY-a_1',
         'lHY     laHaY   PV_0    insult;abuse',
         'lHA     laHA    PV_h    insult;abuse',
         'lHy     laHay   PV_Atn  insult;abuse',
@@ -30614,12 +30617,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCY',
-      'suffix' => '',
       'glosses' => [
         'insult',
         'abuse'
       ],
-      'orig' => 'laHaY',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'laHaY-a',
       'prefix' => ''
     },
     {
@@ -30715,7 +30721,7 @@ $Lexicon = {
       'glosses' => [
         'grow a beard'
       ],
-      'orig' => '{ilotaHaY',
+      'orig' => 'AilotaHaY',
       'prefix' => ''
     },
     {
@@ -30971,7 +30977,7 @@ $Lexicon = {
         'receive',
         'collect'
       ],
-      'orig' => '{ilotaqaT',
+      'orig' => 'AilotaqaT',
       'prefix' => ''
     },
     {
@@ -31184,7 +31190,7 @@ $Lexicon = {
         'reception',
         'obtaining'
       ],
-      'orig' => '{ilotiqAT',
+      'orig' => 'AilotiqAT',
       'prefix' => ''
     },
     {
@@ -31502,7 +31508,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ilotiwA\'',
+      'orig' => 'AilotiwA\'',
       'prefix' => ''
     },
     {
@@ -31516,7 +31522,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [],
-      'orig' => '{ilotiwA\'ap',
+      'orig' => 'AilotiwA\'ap',
       'prefix' => ''
     }
   ],
@@ -31677,7 +31683,7 @@ $Lexicon = {
         'be covered',
         'be veiled'
       ],
-      'orig' => '{ilotavam',
+      'orig' => 'Ailotavam',
       'prefix' => ''
     },
     {
@@ -32306,7 +32312,7 @@ $Lexicon = {
         'adhere',
         'cling'
       ],
-      'orig' => '{ilotazaq',
+      'orig' => 'Ailotazaq',
       'prefix' => ''
     },
     {
@@ -32858,7 +32864,7 @@ $Lexicon = {
       'glosses' => [
         'suck milk'
       ],
-      'orig' => '{ilotaban',
+      'orig' => 'Ailotaban',
       'prefix' => ''
     },
     {
@@ -33771,7 +33777,7 @@ $Lexicon = {
         'be burning',
         'be languishing'
       ],
-      'orig' => '{ilotAE',
+      'orig' => 'AilotAE',
       'prefix' => ''
     },
     {
@@ -33809,7 +33815,7 @@ $Lexicon = {
       'morphs' => 'IFtiyAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ilotiyAE',
+      'orig' => 'AilotiyAE',
       'prefix' => ''
     },
     {
@@ -34065,7 +34071,7 @@ $Lexicon = {
       'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ilotak~',
+      'orig' => 'Ailotak~',
       'prefix' => ''
     },
     {
@@ -34276,7 +34282,7 @@ $Lexicon = {
       'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ilotaf~',
+      'orig' => 'Ailotaf~',
       'prefix' => ''
     },
     {
@@ -34624,7 +34630,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ilotifAf',
+      'orig' => 'AilotifAf',
       'prefix' => ''
     },
     {
@@ -37144,7 +37150,7 @@ $Lexicon = {
         'collide',
         'clash'
       ],
-      'orig' => '{ilotaTam',
+      'orig' => 'AilotaTam',
       'prefix' => ''
     },
     {

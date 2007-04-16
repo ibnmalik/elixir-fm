@@ -281,7 +281,7 @@ $Lexicon = {
         'improvise',
         'extemporize'
       ],
-      'orig' => '{ibotadah',
+      'orig' => 'Aibotadah',
       'prefix' => ''
     },
     {
@@ -1172,7 +1172,7 @@ $Lexicon = {
         'dawn',
         'shine'
       ],
-      'orig' => '{inobalaj',
+      'orig' => 'Ainobalaj',
       'prefix' => ''
     },
     {
@@ -1204,7 +1204,7 @@ $Lexicon = {
         'dawn',
         'shine'
       ],
-      'orig' => '{ibotalaj',
+      'orig' => 'Aibotalaj',
       'prefix' => ''
     },
     {
@@ -1254,7 +1254,7 @@ $Lexicon = {
         'dawning',
         'daybreak'
       ],
-      'orig' => '{inobilAj',
+      'orig' => 'AinobilAj',
       'prefix' => ''
     }
   ],
@@ -2056,7 +2056,7 @@ $Lexicon = {
       'entry' => 'bada`',
       'form' => 'bada`',
       'lines' => [
-        ';; badaE_1',
+        ';; badaE-a_1',
         'bdE     badaE   PV      innovate;invent',
         'bdE     bodaE   IV      innovate;invent'
       ],
@@ -2068,12 +2068,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'innovate',
         'invent'
       ],
-      'orig' => 'badaE',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'badaE-a',
       'prefix' => ''
     },
     {
@@ -2166,7 +2169,7 @@ $Lexicon = {
         'contrive',
         'invent'
       ],
-      'orig' => '{ibotadaE',
+      'orig' => 'AibotadaE',
       'prefix' => ''
     },
     {
@@ -2193,7 +2196,7 @@ $Lexicon = {
         'find extraordinary',
         'find strange'
       ],
-      'orig' => '{isotabodaE',
+      'orig' => 'AisotabodaE',
       'prefix' => ''
     },
     {
@@ -2498,7 +2501,7 @@ $Lexicon = {
       'glosses' => [
         'innovation'
       ],
-      'orig' => '{ibotidAE',
+      'orig' => 'AibotidAE',
       'prefix' => ''
     },
     {
@@ -2522,7 +2525,7 @@ $Lexicon = {
       'glosses' => [
         'innovative'
       ],
-      'orig' => '{ibotidAEiy~',
+      'orig' => 'AibotidAEiy~',
       'prefix' => ''
     },
     {
@@ -3955,7 +3958,7 @@ $Lexicon = {
         'trade',
         'do business'
       ],
-      'orig' => '{isotaboDaE',
+      'orig' => 'AisotaboDaE',
       'prefix' => ''
     },
     {
@@ -4815,7 +4818,7 @@ $Lexicon = {
       'glosses' => [
         'be astonished'
       ],
-      'orig' => '{inobahat',
+      'orig' => 'Ainobahat',
       'prefix' => ''
     },
     {
@@ -5318,7 +5321,7 @@ $Lexicon = {
       'glosses' => [
         'supplicate'
       ],
-      'orig' => '{ibotahal',
+      'orig' => 'Aibotahal',
       'prefix' => ''
     },
     {
@@ -5391,7 +5394,7 @@ $Lexicon = {
         'supplication',
         'prayer'
       ],
-      'orig' => '{ibotihAl',
+      'orig' => 'AibotihAl',
       'prefix' => ''
     },
     {
@@ -6177,7 +6180,7 @@ $Lexicon = {
         'be wet',
         'be humid'
       ],
-      'orig' => '{ibotal~',
+      'orig' => 'Aibotal~',
       'prefix' => ''
     },
     {
@@ -6948,7 +6951,7 @@ $Lexicon = {
         'delve',
         'penetrate'
       ],
-      'orig' => '{isotaboTan',
+      'orig' => 'AisotaboTan',
       'prefix' => ''
     },
     {
@@ -7333,7 +7336,7 @@ $Lexicon = {
       'glosses' => [
         'introspection'
       ],
-      'orig' => '{isotiboTAn',
+      'orig' => 'AisotiboTAn',
       'prefix' => ''
     },
     {
@@ -7357,7 +7360,7 @@ $Lexicon = {
       'glosses' => [
         'introspective'
       ],
-      'orig' => '{isotiboTAniy~',
+      'orig' => 'AisotiboTAniy~',
       'prefix' => ''
     },
     {
@@ -8071,7 +8074,7 @@ $Lexicon = {
         'be retained',
         'be preserved'
       ],
-      'orig' => '{isotaboqaY',
+      'orig' => 'AisotaboqaY',
       'prefix' => ''
     },
     {
@@ -8214,7 +8217,7 @@ $Lexicon = {
         'maintenance',
         'continuation'
       ],
-      'orig' => '{isotiboqA\'',
+      'orig' => 'AisotiboqA\'',
       'prefix' => ''
     },
     {
@@ -9023,7 +9026,7 @@ $Lexicon = {
         'have fun',
         'be happy'
       ],
-      'orig' => '{inobasaT',
+      'orig' => 'AinobasaT',
       'prefix' => ''
     },
     {
@@ -9054,7 +9057,7 @@ $Lexicon = {
         'stretch',
         'spread out'
       ],
-      'orig' => '{inobasaT',
+      'orig' => 'AinobasaT',
       'prefix' => ''
     },
     {
@@ -9356,7 +9359,7 @@ $Lexicon = {
       'glosses' => [
         'cheerfulness'
       ],
-      'orig' => '{inobisAT',
+      'orig' => 'AinobisAT',
       'prefix' => ''
     },
     {
@@ -9380,7 +9383,7 @@ $Lexicon = {
       'glosses' => [
         'extension'
       ],
-      'orig' => '{inobisAT',
+      'orig' => 'AinobisAT',
       'prefix' => ''
     },
     {
@@ -9404,7 +9407,7 @@ $Lexicon = {
       'glosses' => [
         'extension'
       ],
-      'orig' => '{inobisATap',
+      'orig' => 'AinobisATap',
       'prefix' => ''
     },
     {
@@ -10382,7 +10385,7 @@ $Lexicon = {
         'embezzle',
         'extort'
       ],
-      'orig' => '{ibotaz~',
+      'orig' => 'Aibotaz~',
       'prefix' => ''
     },
     {
@@ -10407,7 +10410,7 @@ $Lexicon = {
         'embezzlement',
         'extortion'
       ],
-      'orig' => '{ibotizAz',
+      'orig' => 'AibotizAz',
       'prefix' => ''
     }
   ],
@@ -12145,7 +12148,7 @@ $Lexicon = {
       'glosses' => [
         'be built'
       ],
-      'orig' => '{inobanaY',
+      'orig' => 'AinobanaY',
       'prefix' => ''
     },
     {
@@ -12203,7 +12206,7 @@ $Lexicon = {
         'construct',
         'be built'
       ],
-      'orig' => '{ibotanaY',
+      'orig' => 'AibotanaY',
       'prefix' => ''
     },
     {
@@ -13437,7 +13440,7 @@ $Lexicon = {
         'be amputated',
         'be mutilated'
       ],
-      'orig' => '{inobatar',
+      'orig' => 'Ainobatar',
       'prefix' => ''
     },
     {
@@ -14310,7 +14313,7 @@ $Lexicon = {
       'glosses' => [
         'consider ugly'
       ],
-      'orig' => '{isotabo$aE',
+      'orig' => 'Aisotabo$aE',
       'prefix' => ''
     },
     {
@@ -16137,7 +16140,7 @@ $Lexicon = {
         'rush at',
         'hurry to'
       ],
-      'orig' => '{ibotadar',
+      'orig' => 'Aibotadar',
       'prefix' => ''
     },
     {
@@ -16521,7 +16524,7 @@ $Lexicon = {
         'lie',
         'deceive'
       ],
-      'orig' => '{ibota$ak',
+      'orig' => 'Aibota$ak',
       'prefix' => ''
     },
     {
@@ -16568,7 +16571,7 @@ $Lexicon = {
       'glosses' => [
         'deceit'
       ],
-      'orig' => '{iboti$Ak',
+      'orig' => 'Aiboti$Ak',
       'prefix' => ''
     },
     {
@@ -17788,7 +17791,7 @@ $Lexicon = {
       'glosses' => [
         'be obscure'
       ],
-      'orig' => '{isotaboham',
+      'orig' => 'Aisotaboham',
       'prefix' => ''
     },
     {
@@ -18520,7 +18523,7 @@ $Lexicon = {
         'be dazzled',
         'be blinded'
       ],
-      'orig' => '{inobahar',
+      'orig' => 'Ainobahar',
       'prefix' => ''
     },
     {
@@ -18550,7 +18553,7 @@ $Lexicon = {
       'glosses' => [
         'flaunt'
       ],
-      'orig' => '{ibotahar',
+      'orig' => 'Aibotahar',
       'prefix' => ''
     },
     {
@@ -18763,7 +18766,7 @@ $Lexicon = {
         'display',
         'show'
       ],
-      'orig' => '{ibotihAr',
+      'orig' => 'AibotihAr',
       'prefix' => ''
     },
     {
@@ -19363,7 +19366,7 @@ $Lexicon = {
         'be rash',
         'be premature'
       ],
-      'orig' => '{ibotasar',
+      'orig' => 'Aibotasar',
       'prefix' => ''
     },
     {
@@ -19742,7 +19745,7 @@ $Lexicon = {
         'desire',
         'wish'
       ],
-      'orig' => '{ibotigA\'',
+      'orig' => 'AibotigA\'',
       'prefix' => ''
     },
     {
@@ -19767,7 +19770,7 @@ $Lexicon = {
         'with the aim of',
         'for the purpose of'
       ],
-      'orig' => '{ibotigA\'F',
+      'orig' => 'AibotigA\'F',
       'prefix' => ''
     }
   ],
@@ -20234,7 +20237,7 @@ $Lexicon = {
         'be rational',
         'reflect'
       ],
-      'orig' => '{isotaboSar',
+      'orig' => 'AisotaboSar',
       'prefix' => ''
     },
     {
@@ -20566,7 +20569,7 @@ $Lexicon = {
         'insight',
         'psychology'
       ],
-      'orig' => '{isotiboSAr',
+      'orig' => 'AisotiboSAr',
       'prefix' => ''
     },
     {
@@ -22224,7 +22227,7 @@ $Lexicon = {
         'be settled',
         'be twisted'
       ],
-      'orig' => '{inobaram',
+      'orig' => 'Ainobaram',
       'prefix' => ''
     },
     {
@@ -23134,7 +23137,7 @@ $Lexicon = {
         'restore to health',
         'be emancipated'
       ],
-      'orig' => '{isotaboraO',
+      'orig' => 'AisotaboraO',
       'prefix' => ''
     },
     {
@@ -23484,7 +23487,7 @@ $Lexicon = {
         'purification',
         'purifications'
       ],
-      'orig' => '{isotiborA\'',
+      'orig' => 'AisotiborA\'',
       'prefix' => ''
     }
   ],
@@ -23676,7 +23679,7 @@ $Lexicon = {
       'glosses' => [
         'be swallowed'
       ],
-      'orig' => '{inobalaE',
+      'orig' => 'AinobalaE',
       'prefix' => ''
     },
     {
@@ -23706,7 +23709,7 @@ $Lexicon = {
       'glosses' => [
         'swallow'
       ],
-      'orig' => '{ibotalaE',
+      'orig' => 'AibotalaE',
       'prefix' => ''
     },
     {
@@ -24311,7 +24314,7 @@ $Lexicon = {
         'crack',
         'burst'
       ],
-      'orig' => '{inobaEaj',
+      'orig' => 'AinobaEaj',
       'prefix' => ''
     },
     {
@@ -25006,7 +25009,7 @@ $Lexicon = {
         'afflictions',
         'tribulations'
       ],
-      'orig' => '{ibotilA\'',
+      'orig' => 'AibotilA\'',
       'prefix' => ''
     }
   ],
@@ -25563,7 +25566,7 @@ $Lexicon = {
         'be decided',
         'be ruled'
       ],
-      'orig' => '{inobat~',
+      'orig' => 'Ainobat~',
       'prefix' => ''
     },
     {
@@ -26594,7 +26597,7 @@ $Lexicon = {
       'glosses' => [
         'rejoice'
       ],
-      'orig' => '{ibotahaj',
+      'orig' => 'Aibotahaj',
       'prefix' => ''
     },
     {
@@ -26723,7 +26726,7 @@ $Lexicon = {
         'rejoicing',
         'delight'
       ],
-      'orig' => '{ibotihAj',
+      'orig' => 'AibotihAj',
       'prefix' => ''
     },
     {
@@ -28355,7 +28358,7 @@ $Lexicon = {
         'be sharpened',
         'be tired'
       ],
-      'orig' => '{inobaraY',
+      'orig' => 'AinobaraY',
       'prefix' => ''
     },
     {
@@ -29936,7 +29939,7 @@ $Lexicon = {
         'lie down',
         'be floored'
       ],
-      'orig' => '{inobaTaH',
+      'orig' => 'AinobaTaH',
       'prefix' => ''
     },
     {
@@ -30104,7 +30107,7 @@ $Lexicon = {
         'prostration',
         'lying down'
       ],
-      'orig' => '{inobiTAH',
+      'orig' => 'AinobiTAH',
       'prefix' => ''
     }
   ],
@@ -30907,7 +30910,7 @@ $Lexicon = {
         'delve into',
         'expand'
       ],
-      'orig' => '{isotaboHar',
+      'orig' => 'AisotaboHar',
       'prefix' => ''
     },
     {
@@ -31643,7 +31646,7 @@ $Lexicon = {
       'glosses' => [
         'make urinate'
       ],
-      'orig' => '{isotabAl',
+      'orig' => 'AisotabAl',
       'prefix' => ''
     },
     {
@@ -32439,7 +32442,7 @@ $Lexicon = {
         'be tested',
         'be afflicted'
       ],
-      'orig' => '{ibotalaY',
+      'orig' => 'AibotalaY',
       'prefix' => ''
     },
     {
@@ -32548,7 +32551,7 @@ $Lexicon = {
       'morphs' => 'IFtiCA\'',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ibotilA\'',
+      'orig' => 'AibotilA\'',
       'prefix' => ''
     },
     {
@@ -32975,7 +32978,7 @@ $Lexicon = {
       'glosses' => [
         'deem stupid'
       ],
-      'orig' => '{isotabolah',
+      'orig' => 'Aisotabolah',
       'prefix' => ''
     },
     {
@@ -33187,7 +33190,7 @@ $Lexicon = {
       'glosses' => [
         'become white'
       ],
-      'orig' => '{iboyaD~',
+      'orig' => 'AiboyaD~',
       'prefix' => ''
     },
     {
@@ -33506,7 +33509,7 @@ $Lexicon = {
       'glosses' => [
         'leukemia'
       ],
-      'orig' => '{iboyiDAD',
+      'orig' => 'AiboyiDAD',
       'prefix' => ''
     },
     {
@@ -34011,7 +34014,7 @@ $Lexicon = {
         'rejoice',
         'welcome'
       ],
-      'orig' => '{isotabo$ar',
+      'orig' => 'Aisotabo$ar',
       'prefix' => ''
     },
     {
@@ -34917,7 +34920,7 @@ $Lexicon = {
       'glosses' => [
         'cool off'
       ],
-      'orig' => '{ibotarad',
+      'orig' => 'Aibotarad',
       'prefix' => ''
     },
     {
@@ -35746,7 +35749,7 @@ $Lexicon = {
         'move away',
         'eschew'
       ],
-      'orig' => '{ibotaEad',
+      'orig' => 'AibotaEad',
       'prefix' => ''
     },
     {
@@ -35773,7 +35776,7 @@ $Lexicon = {
         'rule out',
         'reject'
       ],
-      'orig' => '{isotaboEad',
+      'orig' => 'AisotaboEad',
       'prefix' => ''
     },
     {
@@ -36038,7 +36041,7 @@ $Lexicon = {
         'avoiding',
         'eschewing'
       ],
-      'orig' => '{ibotiEAd',
+      'orig' => 'AibotiEAd',
       'prefix' => ''
     },
     {
@@ -36063,7 +36066,7 @@ $Lexicon = {
         'ruling out',
         'distancing'
       ],
-      'orig' => '{isotiboEAd',
+      'orig' => 'AisotiboEAd',
       'prefix' => ''
     },
     {
@@ -36426,7 +36429,7 @@ $Lexicon = {
       'glosses' => [
         'make cry'
       ],
-      'orig' => '{isotabokaY',
+      'orig' => 'AisotabokaY',
       'prefix' => ''
     },
     {
@@ -36683,7 +36686,7 @@ $Lexicon = {
       'morphs' => 'IstiFCA\'',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{isotiborA\'',
+      'orig' => 'AisotiborA\'',
       'prefix' => ''
     },
     {
@@ -36872,7 +36875,7 @@ $Lexicon = {
       'glosses' => [
         'be courageous'
       ],
-      'orig' => '{isotabosal',
+      'orig' => 'Aisotabosal',
       'prefix' => ''
     },
     {
@@ -37166,7 +37169,7 @@ $Lexicon = {
       'glosses' => [
         'be surprised'
       ],
-      'orig' => '{inobagat',
+      'orig' => 'Ainobagat',
       'prefix' => ''
     },
     {
@@ -37390,7 +37393,7 @@ $Lexicon = {
       'entry' => 'bari.h',
       'form' => 'bari.h',
       'lines' => [
-        ';; bariH_1',
+        ';; bariH-a_1',
         'brH     bariH   PV      quit;leave;finish;end',
         'brH     boraH   IV      quit;leave;finish;end'
       ],
@@ -37402,14 +37405,17 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCiL',
-      'suffix' => '',
       'glosses' => [
         'quit',
         'leave',
         'finish',
         'end'
       ],
-      'orig' => 'bariH',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'bariH-a',
       'prefix' => ''
     },
     {
@@ -37739,7 +37745,7 @@ $Lexicon = {
       'entry' => 'baha.z',
       'form' => 'baha.z',
       'lines' => [
-        ';; bahaZ_1',
+        ';; bahaZ-a_1',
         'bhZ     bahaZ   PV      oppress',
         'bhZ     bohaZ   IV      oppress'
       ],
@@ -37751,11 +37757,14 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'oppress'
       ],
-      'orig' => 'bahaZ',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'bahaZ-a',
       'prefix' => ''
     },
     {
@@ -39196,7 +39205,7 @@ $Lexicon = {
         'be dejected',
         'be worried'
       ],
-      'orig' => '{ibotaOas',
+      'orig' => 'AibotaOas',
       'prefix' => ''
     },
     {
@@ -40647,7 +40656,7 @@ $Lexicon = {
         'clarify',
         'explain'
       ],
-      'orig' => '{isotabAn',
+      'orig' => 'AisotabAn',
       'prefix' => ''
     },
     {
@@ -40674,7 +40683,7 @@ $Lexicon = {
         'poll',
         'canvass'
       ],
-      'orig' => '{isotaboyan',
+      'orig' => 'Aisotaboyan',
       'prefix' => ''
     },
     {
@@ -41069,7 +41078,7 @@ $Lexicon = {
         'clarification',
         'explanation'
       ],
-      'orig' => '{isotibAnap',
+      'orig' => 'AisotibAnap',
       'prefix' => ''
     },
     {
@@ -41094,7 +41103,7 @@ $Lexicon = {
         'poll',
         'questionnaire'
       ],
-      'orig' => '{isotiboyAn',
+      'orig' => 'AisotiboyAn',
       'prefix' => ''
     },
     {
@@ -41906,7 +41915,7 @@ $Lexicon = {
         'emanate',
         'result'
       ],
-      'orig' => '{inobavaq',
+      'orig' => 'Ainobavaq',
       'prefix' => ''
     },
     {
@@ -41931,7 +41940,7 @@ $Lexicon = {
         'effusion',
         'emanation'
       ],
-      'orig' => '{inobivAq',
+      'orig' => 'AinobivAq',
       'prefix' => ''
     },
     {
@@ -42575,7 +42584,7 @@ $Lexicon = {
         'neglect',
         'be debased'
       ],
-      'orig' => '{ibota*al',
+      'orig' => 'Aibota*al',
       'prefix' => ''
     },
     {
@@ -42714,7 +42723,7 @@ $Lexicon = {
         'degradation',
         'vulgarity'
       ],
-      'orig' => '{iboti*Al',
+      'orig' => 'Aiboti*Al',
       'prefix' => ''
     },
     {
@@ -43747,7 +43756,7 @@ $Lexicon = {
         'tyrannize',
         'monopolize'
       ],
-      'orig' => '{isotabad~',
+      'orig' => 'Aisotabad~',
       'prefix' => ''
     },
     {
@@ -43821,7 +43830,7 @@ $Lexicon = {
         'despotism',
         'monopolization'
       ],
-      'orig' => '{isotibodAd',
+      'orig' => 'AisotibodAd',
       'prefix' => ''
     },
     {
@@ -43846,7 +43855,7 @@ $Lexicon = {
         'arbitrary',
         'authoritarian'
       ],
-      'orig' => '{isotibodAdiy~',
+      'orig' => 'AisotibodAdiy~',
       'prefix' => ''
     },
     {
@@ -43871,7 +43880,7 @@ $Lexicon = {
         'authoritarianism',
         'autocracy'
       ],
-      'orig' => '{isotibodAdiy~ap',
+      'orig' => 'AisotibodAdiy~ap',
       'prefix' => ''
     },
     {
@@ -44456,7 +44465,7 @@ $Lexicon = {
         'allow',
         'seize'
       ],
-      'orig' => '{isotabAH',
+      'orig' => 'AisotabAH',
       'prefix' => ''
     },
     {
@@ -44627,7 +44636,7 @@ $Lexicon = {
         'appropriation',
         'seizure'
       ],
-      'orig' => '{isotibAHap',
+      'orig' => 'AisotibAHap',
       'prefix' => ''
     },
     {
@@ -46042,7 +46051,7 @@ $Lexicon = {
         'be sold',
         'be for sale'
       ],
-      'orig' => '{inobAE',
+      'orig' => 'AinobAE',
       'prefix' => ''
     },
     {
@@ -46081,7 +46090,7 @@ $Lexicon = {
       'glosses' => [
         'purchase'
       ],
-      'orig' => '{ibotAE',
+      'orig' => 'AibotAE',
       'prefix' => ''
     },
     {
@@ -46223,7 +46232,7 @@ $Lexicon = {
       'glosses' => [
         'purchase'
       ],
-      'orig' => '{ibotiyAE',
+      'orig' => 'AibotiyAE',
       'prefix' => ''
     },
     {
@@ -46914,7 +46923,7 @@ $Lexicon = {
         'begin',
         'start'
       ],
-      'orig' => '{ibotadaO',
+      'orig' => 'AibotadaO',
       'prefix' => ''
     },
     {
@@ -47225,7 +47234,7 @@ $Lexicon = {
         'start',
         'starts'
       ],
-      'orig' => '{ibotidA\'',
+      'orig' => 'AibotidA\'',
       'prefix' => ''
     },
     {
@@ -47250,7 +47259,7 @@ $Lexicon = {
         'beginning from',
         'as of'
       ],
-      'orig' => '{ibotidA\'F',
+      'orig' => 'AibotidA\'F',
       'prefix' => ''
     },
     {
@@ -47275,7 +47284,7 @@ $Lexicon = {
         'elementary',
         'preparatory'
       ],
-      'orig' => '{ibotidA}iy~',
+      'orig' => 'AibotidA}iy~',
       'prefix' => ''
     },
     {
@@ -47697,7 +47706,7 @@ $Lexicon = {
         'invent',
         'originate'
       ],
-      'orig' => '{ibotakar',
+      'orig' => 'Aibotakar',
       'prefix' => ''
     },
     {
@@ -48140,7 +48149,7 @@ $Lexicon = {
         'invention',
         'inventions'
       ],
-      'orig' => '{ibotikAr',
+      'orig' => 'AibotikAr',
       'prefix' => ''
     },
     {
@@ -48165,7 +48174,7 @@ $Lexicon = {
         'original',
         'inventive'
       ],
-      'orig' => '{ibotikAriy~',
+      'orig' => 'AibotikAriy~',
       'prefix' => ''
     },
     {
@@ -48190,7 +48199,7 @@ $Lexicon = {
         'originality',
         'inventiveness'
       ],
-      'orig' => '{ibotikAriy~ap',
+      'orig' => 'AibotikAriy~ap',
       'prefix' => ''
     },
     {
@@ -50212,7 +50221,7 @@ $Lexicon = {
         'replace',
         'substitute'
       ],
-      'orig' => '{isotabodal',
+      'orig' => 'Aisotabodal',
       'prefix' => ''
     },
     {
@@ -50643,7 +50652,7 @@ $Lexicon = {
         'exchange',
         'replacement'
       ],
-      'orig' => '{isotibodAl',
+      'orig' => 'AisotibodAl',
       'prefix' => ''
     },
     {
@@ -51051,7 +51060,7 @@ $Lexicon = {
       'morphs' => 'IFtiCA\'',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ibotidA\'',
+      'orig' => 'AibotidA\'',
       'prefix' => ''
     },
     {
@@ -51065,7 +51074,7 @@ $Lexicon = {
       'morphs' => 'IFtiCA\' |< aN',
       'suffix' => ' |< aN',
       'glosses' => [],
-      'orig' => '{ibotidA\'F',
+      'orig' => 'AibotidA\'F',
       'prefix' => ''
     },
     {
@@ -51079,7 +51088,7 @@ $Lexicon = {
       'morphs' => 'IFtiCA\' |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [],
-      'orig' => '{ibotidA}iy~',
+      'orig' => 'AibotidA}iy~',
       'prefix' => ''
     },
     {
@@ -52080,7 +52089,7 @@ $Lexicon = {
         'be severed',
         'be finalized'
       ],
-      'orig' => '{inobatal',
+      'orig' => 'Ainobatal',
       'prefix' => ''
     },
     {
@@ -52239,7 +52248,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ibotal~',
+      'orig' => 'Aibotal~',
       'prefix' => ''
     },
     {
@@ -52359,7 +52368,7 @@ $Lexicon = {
         'with the aim of',
         'for the purpose of'
       ],
-      'orig' => '{ibotigA\'a',
+      'orig' => 'AibotigA\'a',
       'prefix' => ''
     }
   ],
@@ -53395,7 +53404,7 @@ $Lexicon = {
       'glosses' => [
         'smile'
       ],
-      'orig' => '{ibotasam',
+      'orig' => 'Aibotasam',
       'prefix' => ''
     },
     {
@@ -53646,7 +53655,7 @@ $Lexicon = {
       'glosses' => [
         'Ibtisam'
       ],
-      'orig' => '{ibotisAm',
+      'orig' => 'AibotisAm',
       'prefix' => ''
     },
     {
@@ -53670,7 +53679,7 @@ $Lexicon = {
       'glosses' => [
         'smiling'
       ],
-      'orig' => '{ibotisAm',
+      'orig' => 'AibotisAm',
       'prefix' => ''
     },
     {
@@ -53694,7 +53703,7 @@ $Lexicon = {
       'glosses' => [
         'smile'
       ],
-      'orig' => '{ibotisAmap',
+      'orig' => 'AibotisAmap',
       'prefix' => ''
     }
   ],
@@ -54139,7 +54148,7 @@ $Lexicon = {
         'revive',
         'resurrect'
       ],
-      'orig' => '{inobaEav',
+      'orig' => 'AinobaEav',
       'prefix' => ''
     },
     {
@@ -54170,7 +54179,7 @@ $Lexicon = {
         'be sent out',
         'be revived'
       ],
-      'orig' => '{inobaEav',
+      'orig' => 'AinobaEav',
       'prefix' => ''
     },
     {
@@ -54201,7 +54210,7 @@ $Lexicon = {
         'send',
         'dispatch'
       ],
-      'orig' => '{ibotaEav',
+      'orig' => 'AibotaEav',
       'prefix' => ''
     },
     {
@@ -54232,7 +54241,7 @@ $Lexicon = {
         'exhume',
         'revive'
       ],
-      'orig' => '{ibotaEav',
+      'orig' => 'AibotaEav',
       'prefix' => ''
     },
     {
@@ -54586,7 +54595,7 @@ $Lexicon = {
         'revival',
         'resurrection'
       ],
-      'orig' => '{inobiEAv',
+      'orig' => 'AinobiEAv',
       'prefix' => ''
     },
     {
@@ -56671,7 +56680,7 @@ $Lexicon = {
         'be incumbent',
         'be necessary'
       ],
-      'orig' => '{inobagaY',
+      'orig' => 'AinobagaY',
       'prefix' => ''
     },
     {
@@ -56728,7 +56737,7 @@ $Lexicon = {
         'desire',
         'want'
       ],
-      'orig' => '{ibotagaY',
+      'orig' => 'AibotagaY',
       'prefix' => ''
     },
     {
@@ -56814,7 +56823,7 @@ $Lexicon = {
       'morphs' => 'IFtiCA\'',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ibotigA\'',
+      'orig' => 'AibotigA\'',
       'prefix' => ''
     },
     {
@@ -56828,7 +56837,7 @@ $Lexicon = {
       'morphs' => 'IFtiCA\' |< aN',
       'suffix' => ' |< aN',
       'glosses' => [],
-      'orig' => '{ibotigA\'F',
+      'orig' => 'AibotigA\'F',
       'prefix' => ''
     },
     {
@@ -57932,7 +57941,7 @@ $Lexicon = {
         'be transmitted',
         'be disseminated'
       ],
-      'orig' => '{inobav~',
+      'orig' => 'Ainobav~',
       'prefix' => ''
     },
     {
@@ -58574,7 +58583,7 @@ $Lexicon = {
         'find slow',
         'keep waiting'
       ],
-      'orig' => '{isotaboTaO',
+      'orig' => 'AisotaboTaO',
       'prefix' => ''
     },
     {
@@ -59010,7 +59019,7 @@ $Lexicon = {
         'flow',
         'pour'
       ],
-      'orig' => '{inobajas',
+      'orig' => 'Ainobajas',
       'prefix' => ''
     },
     {
@@ -59685,7 +59694,7 @@ $Lexicon = {
       'glosses' => [
         'be blessed'
       ],
-      'orig' => '{isotaborak',
+      'orig' => 'Aisotaborak',
       'prefix' => ''
     },
     {
@@ -60250,7 +60259,7 @@ $Lexicon = {
         'excel',
         'surpass'
       ],
-      'orig' => '{ibotaraz',
+      'orig' => 'Aibotaraz',
       'prefix' => ''
     },
     {
@@ -61371,7 +61380,7 @@ $Lexicon = {
       'glosses' => [
         'sprinkle'
       ],
-      'orig' => '{inobaEaq',
+      'orig' => 'AinobaEaq',
       'prefix' => ''
     }
   ],
@@ -61757,7 +61766,7 @@ $Lexicon = {
       'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ibotaz~',
+      'orig' => 'Aibotaz~',
       'prefix' => ''
     },
     {
@@ -61986,7 +61995,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ibotizAz',
+      'orig' => 'AibotizAz',
       'prefix' => ''
     }
   ],
@@ -63103,7 +63112,7 @@ $Lexicon = {
       'morphs' => 'IstiFCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{isotiboqA\'',
+      'orig' => 'AisotiboqA\'',
       'prefix' => ''
     }
   ],

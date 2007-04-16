@@ -1807,7 +1807,7 @@ $Lexicon = {
         'deposit in',
         'entrust to'
       ],
-      'orig' => '{isotawodaE',
+      'orig' => 'AisotawodaE',
       'prefix' => ''
     },
     {
@@ -2087,7 +2087,7 @@ $Lexicon = {
         'consigning',
         'deposition'
       ],
-      'orig' => '{isotiydAE',
+      'orig' => 'AisotiydAE',
       'prefix' => ''
     },
     {
@@ -2342,7 +2342,7 @@ $Lexicon = {
         'caution',
         'precaution'
       ],
-      'orig' => '{it~iqA\'',
+      'orig' => 'Ait~iqA\'',
       'prefix' => ''
     }
   ],
@@ -2363,7 +2363,7 @@ $Lexicon = {
       'entry' => 'wa\'ar',
       'form' => 'wa\'ar',
       'lines' => [
-        ';; wa>ar_1',
+        ';; wa>ar-i_1',
         'w>r     wa>ar   PV      frighten',
         '}r      }ir     IV      frighten',
         'w}r     wu}ir   PV_Pass be frightened',
@@ -2383,12 +2383,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'frighten',
         'be frightened'
       ],
-      'orig' => 'waOar',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'waOar-i',
       'prefix' => ''
     },
     {
@@ -2414,7 +2417,7 @@ $Lexicon = {
       'glosses' => [
         'be frightened'
       ],
-      'orig' => '{isotawoOar',
+      'orig' => 'AisotawoOar',
       'prefix' => ''
     },
     {
@@ -2651,7 +2654,7 @@ $Lexicon = {
         'ask to stop',
         'catch'
       ],
-      'orig' => '{isotawoqaf',
+      'orig' => 'Aisotawoqaf',
       'prefix' => ''
     },
     {
@@ -3638,7 +3641,7 @@ $Lexicon = {
         'humility',
         'lowliness'
       ],
-      'orig' => '{it~iDAE',
+      'orig' => 'Ait~iDAE',
       'prefix' => ''
     }
   ],
@@ -4173,7 +4176,7 @@ $Lexicon = {
         'be recovered',
         'be fulfilled'
       ],
-      'orig' => '{isotawofaY',
+      'orig' => 'AisotawofaY',
       'prefix' => ''
     },
     {
@@ -4856,7 +4859,7 @@ $Lexicon = {
         'be deserted',
         'be desolate'
       ],
-      'orig' => '{isotawoHa$',
+      'orig' => 'AisotawoHa$',
       'prefix' => ''
     },
     {
@@ -5064,7 +5067,7 @@ $Lexicon = {
         'estrangement',
         'melancholy'
       ],
-      'orig' => '{isotiyHA$',
+      'orig' => 'AisotiyHA$',
       'prefix' => ''
     },
     {
@@ -5884,7 +5887,7 @@ $Lexicon = {
       'entry' => 'wa_ti\'',
       'form' => 'wa_ti\'',
       'lines' => [
-        ';; wavi}_1',
+        ';; wavi}-a_1',
         'wv}     wavi}   PV_intr be bruised;be sprained',
         'v>      va>     IV      be bruised;be sprained',
         'v|      va|     IV-|    be bruised;be sprained',
@@ -5899,12 +5902,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCiL',
-      'suffix' => '',
       'glosses' => [
         'be bruised',
         'be sprained'
       ],
-      'orig' => 'wavi}',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'wavi}-a',
       'prefix' => ''
     },
     {
@@ -6143,7 +6149,7 @@ $Lexicon = {
         'burn up',
         'flare'
       ],
-      'orig' => '{it~aqad',
+      'orig' => 'Ait~aqad',
       'prefix' => ''
     }
   ],
@@ -7606,7 +7612,7 @@ $Lexicon = {
         'confidence',
         'reliance'
       ],
-      'orig' => '{it~ikAl',
+      'orig' => 'Ait~ikAl',
       'prefix' => ''
     }
   ],
@@ -7640,7 +7646,7 @@ $Lexicon = {
         'accords',
         'treaties'
       ],
-      'orig' => '{it~ifAq',
+      'orig' => 'Ait~ifAq',
       'prefix' => ''
     },
     {
@@ -7664,7 +7670,7 @@ $Lexicon = {
       'glosses' => [
         'conventional'
       ],
-      'orig' => '{it~ifAqiy~',
+      'orig' => 'Ait~ifAqiy~',
       'prefix' => ''
     },
     {
@@ -7696,7 +7702,7 @@ $Lexicon = {
         'treaties',
         'accords'
       ],
-      'orig' => '{it~ifAqiy~ap',
+      'orig' => 'Ait~ifAqiy~ap',
       'prefix' => ''
     }
   ],
@@ -7794,7 +7800,7 @@ $Lexicon = {
       'entry' => 'wa.sad',
       'form' => 'wa.sad',
       'lines' => [
-        ';; waSad_1',
+        ';; waSad-i_1',
         'wSd     waSad   PV_intr be firm;stand firm',
         'Sd      Sid     IV_intr be firm;stand firm'
       ],
@@ -7806,12 +7812,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'be firm',
         'stand firm'
       ],
-      'orig' => 'waSad',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'waSad-i',
       'prefix' => ''
     },
     {
@@ -7995,7 +8004,7 @@ $Lexicon = {
       'glosses' => [
         'be humble'
       ],
-      'orig' => '{it~aDaE',
+      'orig' => 'Ait~aDaE',
       'prefix' => ''
     }
   ],
@@ -8097,7 +8106,7 @@ $Lexicon = {
       'glosses' => [
         'become possible'
       ],
-      'orig' => '{isotawosaq',
+      'orig' => 'Aisotawosaq',
       'prefix' => ''
     },
     {
@@ -8190,7 +8199,7 @@ $Lexicon = {
       'entry' => 'wafur',
       'form' => 'wafur',
       'lines' => [
-        ';; wafur_1',
+        ';; wafur-u_1',
         'wfr     wafur   PV_intr be plentiful',
         'wfr     wofur   IV_intr be plentiful'
       ],
@@ -8202,11 +8211,14 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCuL',
-      'suffix' => '',
       'glosses' => [
         'be plentiful'
       ],
-      'orig' => 'wafur',
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'wafur-u',
       'prefix' => ''
     },
     {
@@ -8657,7 +8669,7 @@ $Lexicon = {
         'put on',
         'wear'
       ],
-      'orig' => '{it~a$aH',
+      'orig' => 'Ait~a$aH',
       'prefix' => ''
     }
   ],
@@ -8686,7 +8698,7 @@ $Lexicon = {
         'expand',
         'be widened'
       ],
-      'orig' => '{it~asaE',
+      'orig' => 'Ait~asaE',
       'prefix' => ''
     }
   ],
@@ -9228,7 +9240,7 @@ $Lexicon = {
         'be overpowered',
         'be captured'
       ],
-      'orig' => '{isotawolaY',
+      'orig' => 'AisotawolaY',
       'prefix' => ''
     },
     {
@@ -10437,7 +10449,7 @@ $Lexicon = {
       'glosses' => [
         'get muddy'
       ],
-      'orig' => '{isotawoHal',
+      'orig' => 'AisotawoHal',
       'prefix' => ''
     },
     {
@@ -10725,7 +10737,7 @@ $Lexicon = {
         'agree',
         'concur'
       ],
-      'orig' => '{it~aHad',
+      'orig' => 'Ait~aHad',
       'prefix' => ''
     }
   ],
@@ -11309,7 +11321,7 @@ $Lexicon = {
         'agree',
         'be agreed'
       ],
-      'orig' => '{it~afaq',
+      'orig' => 'Ait~afaq',
       'prefix' => ''
     }
   ],
@@ -12124,7 +12136,7 @@ $Lexicon = {
       'glosses' => [
         'request as a gift'
       ],
-      'orig' => '{isotawohab',
+      'orig' => 'Aisotawohab',
       'prefix' => ''
     },
     {
@@ -12754,7 +12766,7 @@ $Lexicon = {
         'direction',
         'course'
       ],
-      'orig' => '{it~ijAh',
+      'orig' => 'Ait~ijAh',
       'prefix' => ''
     },
     {
@@ -12784,7 +12796,7 @@ $Lexicon = {
         'views',
         'opinions'
       ],
-      'orig' => '{it~ijAh',
+      'orig' => 'Ait~ijAh',
       'prefix' => ''
     }
   ],
@@ -13127,7 +13139,7 @@ $Lexicon = {
       'entry' => 'wa`a.z',
       'form' => 'wa`a.z',
       'lines' => [
-        ';; waEaZ_1',
+        ';; waEaZ-i_1',
         'wEZ     waEaZ   PV      preach;admonish;exhort',
         'EZ      EiZ     IV      preach;admonish;exhort'
       ],
@@ -13139,13 +13151,16 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'preach',
         'admonish',
         'exhort'
       ],
-      'orig' => 'waEaZ',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'waEaZ-i',
       'prefix' => ''
     },
     {
@@ -13695,7 +13710,7 @@ $Lexicon = {
         'be adopted',
         'be assumed'
       ],
-      'orig' => '{isotawoSaY',
+      'orig' => 'AisotawoSaY',
       'prefix' => ''
     },
     {
@@ -16562,7 +16577,7 @@ $Lexicon = {
         'be alert',
         'be in suspense'
       ],
-      'orig' => '{isotawofaz',
+      'orig' => 'Aisotawofaz',
       'prefix' => ''
     },
     {
@@ -16862,7 +16877,7 @@ $Lexicon = {
         'be marked',
         'bear the stamp'
       ],
-      'orig' => '{it~asam',
+      'orig' => 'Ait~asam',
       'prefix' => ''
     }
   ],
@@ -16889,7 +16904,7 @@ $Lexicon = {
         'clarity',
         'manifestness'
       ],
-      'orig' => '{it~iDAH',
+      'orig' => 'Ait~iDAH',
       'prefix' => ''
     }
   ],
@@ -16919,7 +16934,7 @@ $Lexicon = {
         'be aimed',
         'be turned'
       ],
-      'orig' => '{it~ajah',
+      'orig' => 'Ait~ajah',
       'prefix' => ''
     }
   ],
@@ -17424,7 +17439,7 @@ $Lexicon = {
         'relation',
         'relationship'
       ],
-      'orig' => '{it~iSAl',
+      'orig' => 'Ait~iSAl',
       'prefix' => ''
     }
   ],
@@ -18093,7 +18108,7 @@ $Lexicon = {
       'entry' => 'wa.da`',
       'form' => 'wa.da`',
       'lines' => [
-        ';; waDaE_1',
+        ';; waDaE-a_1',
         'wDE     waDaE   PV      put;place',
         'DE      DaE     IV      put;place',
         'wDE     wuDiE   PV_intr be put;be placed',
@@ -18113,14 +18128,17 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'put',
         'place',
         'be put',
         'be placed'
       ],
-      'orig' => 'waDaE',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'waDaE-a',
       'prefix' => ''
     },
     {
@@ -18731,7 +18749,7 @@ $Lexicon = {
         'be polluted',
         'be soiled'
       ],
-      'orig' => '{it~asax',
+      'orig' => 'Ait~asax',
       'prefix' => ''
     }
   ],
@@ -20237,7 +20255,7 @@ $Lexicon = {
         'be entangled',
         'be involved'
       ],
-      'orig' => '{isotaworaT',
+      'orig' => 'AisotaworaT',
       'prefix' => ''
     },
     {
@@ -21679,7 +21697,7 @@ $Lexicon = {
       'glosses' => [
         'import'
       ],
-      'orig' => '{isotaworad',
+      'orig' => 'Aisotaworad',
       'prefix' => ''
     },
     {
@@ -21961,7 +21979,7 @@ $Lexicon = {
         'imports',
         'imported goods'
       ],
-      'orig' => '{isotiyrAd',
+      'orig' => 'AisotiyrAd',
       'prefix' => ''
     },
     {
@@ -22589,7 +22607,7 @@ $Lexicon = {
       'entry' => 'wabaq',
       'form' => 'wabaq',
       'lines' => [
-        ';; wabaq_1',
+        ';; wabaq-i_1',
         'wbq     wabaq   PV_intr perish',
         'bq      biq     IV_intr perish'
       ],
@@ -22601,11 +22619,14 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'perish'
       ],
-      'orig' => 'wabaq',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'wabaq-i',
       'prefix' => ''
     },
     {
@@ -22803,7 +22824,7 @@ $Lexicon = {
       'entry' => 'wazab',
       'form' => 'wazab',
       'lines' => [
-        ';; wazab_1',
+        ';; wazab-i_1',
         'wzb     wazab   PV      flow',
         'zb      zib     IV      flow'
       ],
@@ -22815,11 +22836,14 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'flow'
       ],
-      'orig' => 'wazab',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'wazab-i',
       'prefix' => ''
     },
     {
@@ -22902,7 +22926,7 @@ $Lexicon = {
         'rely on',
         'trust'
       ],
-      'orig' => '{it~akal',
+      'orig' => 'Ait~akal',
       'prefix' => ''
     }
   ],
@@ -23781,7 +23805,7 @@ $Lexicon = {
         'be described',
         'be characterized'
       ],
-      'orig' => '{it~aSaf',
+      'orig' => 'Ait~aSaf',
       'prefix' => ''
     }
   ],
@@ -24328,7 +24352,7 @@ $Lexicon = {
         'appropriations',
         'seizures'
       ],
-      'orig' => '{isotiylA\'',
+      'orig' => 'AisotiylA\'',
       'prefix' => ''
     }
   ],
@@ -24441,7 +24465,7 @@ $Lexicon = {
         'settle',
         'colonize'
       ],
-      'orig' => '{isotawoTan',
+      'orig' => 'AisotawoTan',
       'prefix' => ''
     },
     {
@@ -24674,7 +24698,7 @@ $Lexicon = {
         'settlement',
         'colonization'
       ],
-      'orig' => '{isotiyTAn',
+      'orig' => 'AisotiyTAn',
       'prefix' => ''
     },
     {
@@ -24699,7 +24723,7 @@ $Lexicon = {
         'settlement',
         'colonial'
       ],
-      'orig' => '{isotiyTAniy~',
+      'orig' => 'AisotiyTAniy~',
       'prefix' => ''
     },
     {
@@ -24980,7 +25004,7 @@ $Lexicon = {
         'recline',
         'be supported'
       ],
-      'orig' => '{it~akaO',
+      'orig' => 'Ait~akaO',
       'prefix' => ''
     }
   ],
@@ -25009,7 +25033,7 @@ $Lexicon = {
         'slow down',
         'hesitate'
       ],
-      'orig' => '{it~aOad',
+      'orig' => 'Ait~aOad',
       'prefix' => ''
     }
   ],
@@ -25708,7 +25732,7 @@ $Lexicon = {
         'make certain',
         'have confidence in'
       ],
-      'orig' => '{isotawovaq',
+      'orig' => 'Aisotawovaq',
       'prefix' => ''
     },
     {
@@ -26617,7 +26641,7 @@ $Lexicon = {
         'expand',
         'be widened'
       ],
-      'orig' => '{isotawosaE',
+      'orig' => 'AisotawosaE',
       'prefix' => ''
     },
     {
@@ -27561,7 +27585,7 @@ $Lexicon = {
       'entry' => 'wa\'ad',
       'form' => 'wa\'ad',
       'lines' => [
-        ';; wa>ad_1',
+        ';; wa>ad-i_1',
         'w>d     wa>ad   PV      bury alive',
         '}d      }id     IV      bury alive',
         'w}d     wu}id   PV_Pass be buried alive',
@@ -27581,12 +27605,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'bury alive',
         'be buried alive'
       ],
-      'orig' => 'waOad',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'waOad-i',
       'prefix' => ''
     },
     {
@@ -28345,7 +28372,7 @@ $Lexicon = {
         'expansion',
         'extension'
       ],
-      'orig' => '{it~isAE',
+      'orig' => 'Ait~isAE',
       'prefix' => ''
     }
   ],
@@ -28374,7 +28401,7 @@ $Lexicon = {
         'be well-ordered',
         'harmonize'
       ],
-      'orig' => '{it~asaq',
+      'orig' => 'Ait~asaq',
       'prefix' => ''
     }
   ],
@@ -29556,7 +29583,7 @@ $Lexicon = {
         'balance',
         'equilibrium'
       ],
-      'orig' => '{it~izAn',
+      'orig' => 'Ait~izAn',
       'prefix' => ''
     }
   ],
@@ -29763,7 +29790,7 @@ $Lexicon = {
         'ignite',
         'kindle'
       ],
-      'orig' => '{isotawoqad',
+      'orig' => 'Aisotawoqad',
       'prefix' => ''
     },
     {
@@ -31178,7 +31205,7 @@ $Lexicon = {
       'glosses' => [
         'anticipate'
       ],
-      'orig' => '{isotawoqaE',
+      'orig' => 'AisotawoqaE',
       'prefix' => ''
     },
     {
@@ -32193,7 +32220,7 @@ $Lexicon = {
         'burning',
         'combustion'
       ],
-      'orig' => '{it~iqAd',
+      'orig' => 'Ait~iqAd',
       'prefix' => ''
     }
   ],
@@ -33339,7 +33366,7 @@ $Lexicon = {
       'glosses' => [
         'appoint as minister'
       ],
-      'orig' => '{isotawozar',
+      'orig' => 'Aisotawozar',
       'prefix' => ''
     },
     {
@@ -33872,7 +33899,7 @@ $Lexicon = {
       'entry' => 'wa.saf',
       'form' => 'wa.saf',
       'lines' => [
-        ';; waSaf_1',
+        ';; waSaf-i_1',
         'wSf     waSaf   PV      describe;characterize',
         'Sf      Sif     IV      describe;characterize',
         'wSf     wuSif   PV_Pass be described;be characterized',
@@ -33892,14 +33919,17 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'describe',
         'characterize',
         'be described',
         'be characterized'
       ],
-      'orig' => 'waSaf',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'waSaf-i',
       'prefix' => ''
     },
     {
@@ -33947,7 +33977,7 @@ $Lexicon = {
       'glosses' => [
         'consult'
       ],
-      'orig' => '{isotawoSaf',
+      'orig' => 'AisotawoSaf',
       'prefix' => ''
     },
     {
@@ -34866,7 +34896,7 @@ $Lexicon = {
         'require',
         'make necessary'
       ],
-      'orig' => '{isotawojab',
+      'orig' => 'Aisotawojab',
       'prefix' => ''
     },
     {
@@ -35977,7 +36007,7 @@ $Lexicon = {
         'comprehend',
         'assimilate'
       ],
-      'orig' => '{isotawoEab',
+      'orig' => 'AisotawoEab',
       'prefix' => ''
     },
     {
@@ -36003,7 +36033,7 @@ $Lexicon = {
         'assimilation',
         'containing'
       ],
-      'orig' => '{isotiyEAb',
+      'orig' => 'AisotiyEAb',
       'prefix' => ''
     },
     {
@@ -36029,7 +36059,7 @@ $Lexicon = {
         'assimilating',
         'all-encompassing'
       ],
-      'orig' => '{isotiyEAbiy~',
+      'orig' => 'AisotiyEAbiy~',
       'prefix' => ''
     },
     {
@@ -36087,7 +36117,7 @@ $Lexicon = {
         'contact',
         'get in touch (with)'
       ],
-      'orig' => '{it~aSal',
+      'orig' => 'Ait~aSal',
       'prefix' => ''
     },
     {
@@ -36113,7 +36143,7 @@ $Lexicon = {
       'glosses' => [
         'be connected or related (to)'
       ],
-      'orig' => '{it~aSal',
+      'orig' => 'Ait~aSal',
       'prefix' => ''
     }
   ],
@@ -37333,7 +37363,7 @@ $Lexicon = {
         'generation',
         'production'
       ],
-      'orig' => '{isotiylAd',
+      'orig' => 'AisotiylAd',
       'prefix' => ''
     },
     {
@@ -38069,7 +38099,7 @@ $Lexicon = {
         'be consulted',
         'be sought (advice, inspiration)'
       ],
-      'orig' => '{isotawoHaY',
+      'orig' => 'AisotawoHaY',
       'prefix' => ''
     },
     {
@@ -38388,7 +38418,7 @@ $Lexicon = {
         'seek clarification',
         'examine'
       ],
-      'orig' => '{isotawoDaH',
+      'orig' => 'AisotawoDaH',
       'prefix' => ''
     },
     {
@@ -38596,7 +38626,7 @@ $Lexicon = {
         'request for clarification',
         'inquiry'
       ],
-      'orig' => '{isotiyDAH',
+      'orig' => 'AisotiyDAH',
       'prefix' => ''
     },
     {
@@ -38746,7 +38776,7 @@ $Lexicon = {
         'union',
         'unions'
       ],
-      'orig' => '{it~iHAd',
+      'orig' => 'Ait~iHAd',
       'prefix' => ''
     },
     {
@@ -38770,7 +38800,7 @@ $Lexicon = {
       'glosses' => [
         'Union'
       ],
-      'orig' => '{it~iHAd',
+      'orig' => 'Ait~iHAd',
       'prefix' => ''
     },
     {
@@ -38794,7 +38824,7 @@ $Lexicon = {
       'glosses' => [
         'Ittehad'
       ],
-      'orig' => '{it~iHAd',
+      'orig' => 'Ait~iHAd',
       'prefix' => ''
     },
     {
@@ -38819,7 +38849,7 @@ $Lexicon = {
         'unionist',
         'federal'
       ],
-      'orig' => '{it~iHAdiy~',
+      'orig' => 'Ait~iHAdiy~',
       'prefix' => ''
     }
   ],
@@ -38834,7 +38864,7 @@ $Lexicon = {
       'entry' => 'wa^suk',
       'form' => 'wa^suk',
       'lines' => [
-        ';; wa$uk_1',
+        ';; wa$uk-u_1',
         'w$k     wa$uk   PV      hurry;be quick',
         'w$k     wo$uk   IV      hurry;be quick'
       ],
@@ -38846,12 +38876,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCuL',
-      'suffix' => '',
       'glosses' => [
         'hurry',
         'be quick'
       ],
-      'orig' => 'wa$uk',
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'wa$uk-u',
       'prefix' => ''
     },
     {
@@ -40161,7 +40194,7 @@ $Lexicon = {
         'become clear',
         'be clarified'
       ],
-      'orig' => '{it~aDaH',
+      'orig' => 'Ait~aDaH',
       'prefix' => ''
     }
   ],
@@ -40633,7 +40666,7 @@ $Lexicon = {
         'agree',
         'make arrangements'
       ],
-      'orig' => '{it~aEad',
+      'orig' => 'Ait~aEad',
       'prefix' => ''
     }
   ],
@@ -40799,7 +40832,7 @@ $Lexicon = {
         'fulfillment',
         'completion'
       ],
-      'orig' => '{isotiyfA\'',
+      'orig' => 'AisotiyfA\'',
       'prefix' => ''
     }
   ],
@@ -41038,7 +41071,7 @@ $Lexicon = {
         'accuse',
         'be accused'
       ],
-      'orig' => '{it~aham',
+      'orig' => 'Ait~aham',
       'prefix' => ''
     }
   ],
@@ -41293,7 +41326,7 @@ $Lexicon = {
         'accusations',
         'charges'
       ],
-      'orig' => '{it~ihAm',
+      'orig' => 'Ait~ihAm',
       'prefix' => ''
     },
     {
@@ -41318,7 +41351,7 @@ $Lexicon = {
         'accusing',
         'indicting'
       ],
-      'orig' => '{it~ihAmiy~',
+      'orig' => 'Ait~ihAmiy~',
       'prefix' => ''
     }
   ],
@@ -42642,7 +42675,7 @@ $Lexicon = {
         'leaning',
         'reclining'
       ],
-      'orig' => '{it~ikA\'',
+      'orig' => 'Ait~ikA\'',
       'prefix' => ''
     }
   ],
@@ -42671,7 +42704,7 @@ $Lexicon = {
         'be admonished',
         'take advice'
       ],
-      'orig' => '{it~aEaZ',
+      'orig' => 'Ait~aEaZ',
       'prefix' => ''
     }
   ],
@@ -42977,7 +43010,7 @@ $Lexicon = {
       'glosses' => [
         'make flutter'
       ],
-      'orig' => '{isotawojaf',
+      'orig' => 'Aisotawojaf',
       'prefix' => ''
     },
     {
@@ -44953,7 +44986,7 @@ $Lexicon = {
       'glosses' => [
         'harmony'
       ],
-      'orig' => '{it~isAq',
+      'orig' => 'Ait~isAq',
       'prefix' => ''
     }
   ],
@@ -45075,7 +45108,7 @@ $Lexicon = {
         'beware',
         'be on guard'
       ],
-      'orig' => '{it~aqaY',
+      'orig' => 'Ait~aqaY',
       'prefix' => ''
     }
   ],

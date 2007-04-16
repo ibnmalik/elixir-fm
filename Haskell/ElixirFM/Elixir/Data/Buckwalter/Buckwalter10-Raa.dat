@@ -291,7 +291,7 @@ rAnyyry rAnoyiyriy      N0      Ranieri
 rAwnd   rAwanod N       rhubarb
 ;
 ;--- rAy
-;; ra>aY_1
+;; ra>aY-a_1
 r>Y     ra>aY   PV_0    see;think;believe
 ; AFP missing hamza problem
 rAY     ra>aY   PV_0    see;think;believe
@@ -833,7 +833,7 @@ rbyl    rabiyl  Nall    corpulent;fleshy     <pos>rabiyl/ADJ</pos>
 rbAl    rabAl   Nap     corpulence
 ;
 ;--- rbw
-;; rabA_1
+;; rabA-u_1
 rbA     rabA    PV_0h   grow;increase;exceed
 rbw     rabaw   PV_Atn  grow;increase;exceed
 rb      rab     PV_ttAw grow;increase;exceed
@@ -1135,7 +1135,7 @@ rvw     rovuw   IV_0hAnn        lament;mourn
 rv      rov     IV_0hwnyn       lament;mourn
 rvY     rovaY   IV_0_Pass_yu    be lamented;be mourned
 rvy     rovay   IV_Ann_Pass_yu  be lamented;be mourned
-;; ravaY_1
+;; ravaY-i_1
 rvY     ravaY   PV_0    elegize;mourn
 rvA     ravA    PV_h    elegize;mourn
 rvy     ravay   PV_Atn  elegize;mourn
@@ -1848,7 +1848,7 @@ mrxS    murax~aS        Nall    licensed;officially registered     <pos>murax~aS
 mrtxS   murotaxaS       Nall    cheap;low-priced     <pos>murotaxaS/ADJ</pos>
 ;
 ;--- rxm
-;; raxum_1
+;; raxum-u_1
 rxm     raxum   PV_intr be soft;be gentle
 rxm     raxam   PV_intr be soft;be gentle
 rxm     roxum   IV_intr be soft;be gentle
@@ -2756,7 +2756,7 @@ ArsAn   >arosAn N       halters
 Arsn    >arosin Nap     halters
 ;
 ;--- rsw
-;; rasA_1
+;; rasA-u_1
 rsA     rasA    PV_0    set anchor;disembark
 rsw     rasaw   PV_Atn  set anchor;disembark
 rs      ras     PV_ttAw set anchor;disembark
@@ -3180,7 +3180,7 @@ rDAb    ruDAb   N       saliva;spittle
 ;; raDax-a_1
 rDx     raDax   PV      shatter;crack;yield;submit
 rDx     roDax   IV      shatter;crack;yield;submit
-;; raDax_1
+;; raDax-i_1
 rDx     raDax   PV      shatter;crack
 rDx     roDix   IV      shatter;crack
 ;; {irotaDax_1
@@ -6652,7 +6652,7 @@ ryjynA  riyjiynA        Nprop   Regina
 rystw   riysotuw        Nprop   Risto
 ;
 ;--- ry$
-;; rA$_1
+;; rA$-i_1
 rA$     rA$     PV_V    provide with feathers;become wealthy
 r$      ri$     PV_C    provide with feathers;become wealthy
 ry$     riy$    IV_V    provide with feathers;become wealthy
@@ -6751,7 +6751,7 @@ rykr    riykir  Nprop   Rieker
 rykwrdr riykuwrodar     N/At    tape recorder
 ;
 ;--- ryl
-;; rAl_1
+;; rAl-i_1
 rAl     rAl     PV_V    drool;slobber
 rl      ril     PV_C    drool;slobber
 ryl     riyl    IV_V    drool;slobber
@@ -6794,7 +6794,7 @@ rymwndp rayomuwndap     Nprop   Raimonda
 rymwndh rayomuwndap     Nprop   Raimonda
 ;
 ;--- ryn
-;; rAn_1
+;; rAn-i_1
 rAn     rAn     PV_V    seize;overcome;prevail
 rn      rin     PV_Cn   seize;overcome;prevail
 ryn     riyn    IV_V    seize;overcome;prevail

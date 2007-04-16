@@ -278,7 +278,7 @@ mHtbk   muHotabik       Nall    interwoven
 ;; Habal-u_1
 Hbl     Habal   PV      tie;fetter
 Hbl     Hobul   IV      tie;fetter
-;; Habil_1
+;; Habil-a_1
 Hbl     Habil   PV_intr become pregnant;conceive
 Hbl     Hobal   IV_intr become pregnant;conceive
 Hbl     Hubil   PV_Pass be conceived
@@ -442,7 +442,7 @@ Htf     Hatof   N       death
 Htwf    Hutuwf  N       deaths
 ;
 ;--- Htk
-;; Hatak_1
+;; Hatak-i_1
 Htk     Hatak   PV      scratch;scrape
 Htk     Hotik   IV      scratch;scrape
 ;
@@ -1215,7 +1215,7 @@ HAdy    HAdiy   NAn_Nayn        leader;cameleer
 HAd     HAd     Nuwn_Niyn       leader;cameleer
 HAdy    HAdiy   NapAt   leader;cameleer
 HdA     HudA    Nap     leaders;cameleers
-;; Hadiy_1
+;; Hadiy-a_1
 Hdy     Hadiy   PV_no-w remain;not move
 Hd      Had     PV_w    remain;not move
 HdY     HodaY   IV_0    remain;not move
@@ -1627,7 +1627,7 @@ Hrz     Horuz   IV      guard;protect
 ;; Haruz-u_1
 Hrz     Haruz   PV_intr be strong;be fortified
 Hrz     Horuz   IV_intr be strong;be fortified
-;; Hariz_1
+;; Hariz-a_1
 Hrz     Hariz   PV_intr be strong;be fortified
 Hrz     Horaz   IV_intr be strong;be fortified
 ;; Har~az_1
@@ -2036,7 +2036,7 @@ HArwn   HAruwn  N       brazier
 Hrw     Harow   Nap     burning;pungency
 ;
 ;--- Hry
-;; HaraY_1
+;; HaraY-i_1
 HrY     HaraY   PV_0    be able;be possible
 HrA     HarA    PV_h    be able;be possible
 Hry     Haray   PV_Atn  be able;be possible
@@ -2268,7 +2268,7 @@ Hs      Has~    PV_V    feel
 Hss     Hasas   PV_C    feel
 Hs      His~    IV_V    feel
 Hss     Hosis   IV_C    feel
-;; Hasis_1
+;; Has~-a_1
 Hss     Hasis   PV_C    feel
 Hs      Has~    IV_V    feel
 Hss     Hosas   IV_C    feel
@@ -2746,7 +2746,7 @@ mHt$m   muHota$im       N0      Muhtashim
 mHt$my  muHota$imiy~    N0      Muhtashimi
 ;
 ;--- H$w
-;; Ha$A_1
+;; Ha$A-u_1
 H$A     Ha$A    PV_0h   stuff;load;fill
 H$w     Ha$aw   PV_Atn  stuff;load;fill
 H$      Ha$     PV_ttAw stuff;load;fill
@@ -4665,7 +4665,7 @@ Hl      Hal     PV_w_intr       be sweet;be pleasant;be adorned
 HlY     HolaY   IV_0    be sweet;be pleasant;be adorned
 Hly     Holay   IV_Ann  be sweet;be pleasant;be adorned
 Hl      Hola    IV_0hwnyn       be sweet;be pleasant;be adorned
-;; HalaY_1
+;; HalaY-i_1
 HlY     HalaY   PV_0    adorn;embellish;grace
 HlA     HalA    PV_h    adorn;embellish;grace
 Hly     Halay   PV_Atn  adorn;embellish;grace
@@ -5015,7 +5015,7 @@ tHms    taHam~us        NduAt   zeal
 mtHms   mutaHam~is      Nall    zealous;enthusiasts
 ;
 ;--- Hm$
-;; Hama$_1
+;; Hama$-u_1
 Hm$     Hama$   PV      excite;enrage
 Hm$     Homu$   IV      excite;enrage
 ;; Hamo$ap_1

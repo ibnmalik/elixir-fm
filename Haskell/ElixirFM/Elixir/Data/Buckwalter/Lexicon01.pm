@@ -426,7 +426,7 @@ $Lexicon = {
         'be demanded',
         'be claimed'
       ],
-      'orig' => '{isotaOodaY',
+      'orig' => 'AisotaOodaY',
       'prefix' => ''
     },
     {
@@ -7652,7 +7652,7 @@ $Lexicon = {
         'be domesticated',
         'be sociable'
       ],
-      'orig' => '{isotaOonas',
+      'orig' => 'AisotaOonas',
       'prefix' => ''
     },
     {
@@ -10239,7 +10239,7 @@ $Lexicon = {
       'glosses' => [
         'wear a shawl'
       ],
-      'orig' => '{i}otazar',
+      'orig' => 'Ai}otazar',
       'prefix' => ''
     },
     {
@@ -11991,7 +11991,7 @@ $Lexicon = {
         'surrender',
         'be surrendered'
       ],
-      'orig' => '{isotaOosar',
+      'orig' => 'AisotaOosar',
       'prefix' => ''
     },
     {
@@ -16324,7 +16324,7 @@ $Lexicon = {
         'merit',
         'consider worthy'
       ],
-      'orig' => '{isotaOohal',
+      'orig' => 'AisotaOohal',
       'prefix' => ''
     },
     {
@@ -16844,7 +16844,7 @@ $Lexicon = {
         'uproot',
         'extirpate'
       ],
-      'orig' => '{isotaOoSal',
+      'orig' => 'AisotaOoSal',
       'prefix' => ''
     },
     {
@@ -17185,7 +17185,7 @@ $Lexicon = {
         'eradication',
         'extermination'
       ],
-      'orig' => '{isoti}oSAl',
+      'orig' => 'Aisoti}oSAl',
       'prefix' => ''
     },
     {
@@ -18369,7 +18369,7 @@ $Lexicon = {
         'take',
         'adopt'
       ],
-      'orig' => '{it~axa*',
+      'orig' => 'Ait~axa*',
       'prefix' => ''
     }
   ],
@@ -19157,7 +19157,7 @@ $Lexicon = {
       'glosses' => [
         'request authorization'
       ],
-      'orig' => '{isotaOo*an',
+      'orig' => 'AisotaOo*an',
       'prefix' => ''
     },
     {
@@ -19538,7 +19538,7 @@ $Lexicon = {
       'glosses' => [
         'request for authorization'
       ],
-      'orig' => '{isoti}o*An',
+      'orig' => 'Aisoti}o*An',
       'prefix' => ''
     }
   ],
@@ -19816,7 +19816,7 @@ $Lexicon = {
         'erode',
         'corrode'
       ],
-      'orig' => '{i}otakal',
+      'orig' => 'Ai}otakal',
       'prefix' => ''
     },
     {
@@ -20276,7 +20276,7 @@ $Lexicon = {
         'erosion',
         'corrosion'
       ],
-      'orig' => '{i}otikAl',
+      'orig' => 'Ai}otikAl',
       'prefix' => ''
     },
     {
@@ -24873,7 +24873,7 @@ $Lexicon = {
       'glosses' => [
         'seize control'
       ],
-      'orig' => '{isotaOosad',
+      'orig' => 'AisotaOosad',
       'prefix' => ''
     },
     {
@@ -26028,7 +26028,7 @@ $Lexicon = {
         'deliberate',
         'conspire'
       ],
-      'orig' => '{i}otamar',
+      'orig' => 'Ai}otamar',
       'prefix' => ''
     },
     {
@@ -26494,7 +26494,7 @@ $Lexicon = {
         'form',
         'questionnaire'
       ],
-      'orig' => '{isoti}omArap',
+      'orig' => 'Aisoti}omArap',
       'prefix' => ''
     },
     {
@@ -28221,7 +28221,7 @@ $Lexicon = {
         'monopolize',
         'appropriate'
       ],
-      'orig' => '{isotaOovar',
+      'orig' => 'AisotaOovar',
       'prefix' => ''
     },
     {
@@ -28739,7 +28739,7 @@ $Lexicon = {
         'monopolization',
         'appropriation'
       ],
-      'orig' => '{isoti}ovAr',
+      'orig' => 'Aisoti}ovAr',
       'prefix' => ''
     },
     {
@@ -29771,7 +29771,7 @@ $Lexicon = {
         'request postponement',
         'seek a reprieve'
       ],
-      'orig' => '{isotaOojal',
+      'orig' => 'AisotaOojal',
       'prefix' => ''
     },
     {
@@ -30162,7 +30162,7 @@ $Lexicon = {
         'shine',
         'radiate'
       ],
-      'orig' => '{i}otalaq',
+      'orig' => 'Ai}otalaq',
       'prefix' => ''
     },
     {
@@ -32372,7 +32372,7 @@ $Lexicon = {
         'taking',
         'adoption'
       ],
-      'orig' => '{it~ixA*',
+      'orig' => 'Ait~ixA*',
       'prefix' => ''
     }
   ],
@@ -34428,7 +34428,7 @@ $Lexicon = {
         'be taken',
         'be adopted'
       ],
-      'orig' => '{ut~uxi*',
+      'orig' => 'Aut~uxi*',
       'prefix' => ''
     }
   ],
@@ -35151,7 +35151,7 @@ $Lexicon = {
       'glosses' => [
         'anus'
       ],
-      'orig' => '{isot',
+      'orig' => 'Aisot',
       'prefix' => ''
     },
     {
@@ -35175,7 +35175,7 @@ $Lexicon = {
       'glosses' => [
         'anal'
       ],
-      'orig' => '{isotiy~',
+      'orig' => 'Aisotiy~',
       'prefix' => ''
     }
   ],
@@ -37101,7 +37101,7 @@ $Lexicon = {
         'be asked to come',
         'be induced to come'
       ],
-      'orig' => '{isotaOotaY',
+      'orig' => 'AisotaOotaY',
       'prefix' => ''
     },
     {
@@ -41404,7 +41404,7 @@ $Lexicon = {
         'trust',
         'entrust'
       ],
-      'orig' => '{i}otaman',
+      'orig' => 'Ai}otaman',
       'prefix' => ''
     },
     {
@@ -41431,7 +41431,7 @@ $Lexicon = {
         'have confidence',
         'be confident'
       ],
-      'orig' => '{isotaOoman',
+      'orig' => 'AisotaOoman',
       'prefix' => ''
     },
     {
@@ -41863,7 +41863,7 @@ $Lexicon = {
         'trust',
         'credit'
       ],
-      'orig' => '{i}otimAn',
+      'orig' => 'Ai}otimAn',
       'prefix' => ''
     },
     {
@@ -41888,7 +41888,7 @@ $Lexicon = {
         'fiduciary',
         'credit'
       ],
-      'orig' => '{i}otimAniy~',
+      'orig' => 'Ai}otimAniy~',
       'prefix' => ''
     },
     {
@@ -43038,7 +43038,7 @@ $Lexicon = {
       'glosses' => [
         'son'
       ],
-      'orig' => '{ibon',
+      'orig' => 'Aibon',
       'prefix' => ''
     },
     {
@@ -43062,7 +43062,7 @@ $Lexicon = {
       'glosses' => [
         'Ibn'
       ],
-      'orig' => '{ibon',
+      'orig' => 'Aibon',
       'prefix' => ''
     },
     {
@@ -43086,7 +43086,7 @@ $Lexicon = {
       'glosses' => [
         'daughter'
       ],
-      'orig' => '{ibonap',
+      'orig' => 'Aibonap',
       'prefix' => ''
     }
   ],
@@ -45608,7 +45608,7 @@ $Lexicon = {
         'start over',
         'appeal'
       ],
-      'orig' => '{isotaOonaf',
+      'orig' => 'AisotaOonaf',
       'prefix' => ''
     },
     {
@@ -45830,7 +45830,7 @@ $Lexicon = {
         'resumption',
         'appeal'
       ],
-      'orig' => '{isoti}onAf',
+      'orig' => 'Aisoti}onAf',
       'prefix' => ''
     },
     {
@@ -45854,7 +45854,7 @@ $Lexicon = {
       'glosses' => [
         'appellate'
       ],
-      'orig' => '{isoti}onAfiy~',
+      'orig' => 'Aisoti}onAfiy~',
       'prefix' => ''
     }
   ],
@@ -50852,7 +50852,7 @@ $Lexicon = {
         'emulate',
         'follow'
       ],
-      'orig' => '{i}otam~',
+      'orig' => 'Ai}otam~',
       'prefix' => ''
     }
   ],
@@ -52974,7 +52974,7 @@ $Lexicon = {
         'hesitate',
         'wait'
       ],
-      'orig' => '{isotaOonaY',
+      'orig' => 'AisotaOonaY',
       'prefix' => ''
     },
     {
@@ -53332,7 +53332,7 @@ $Lexicon = {
         'hire',
         'rent'
       ],
-      'orig' => '{isotaOojar',
+      'orig' => 'AisotaOojar',
       'prefix' => ''
     },
     {
@@ -53816,7 +53816,7 @@ $Lexicon = {
         'hiring',
         'rental'
       ],
-      'orig' => '{isoti}ojAr',
+      'orig' => 'Aisoti}ojAr',
       'prefix' => ''
     },
     {
@@ -54283,7 +54283,7 @@ $Lexicon = {
         'be accustomed',
         'be harmonious'
       ],
-      'orig' => '{i}otalaf',
+      'orig' => 'Ai}otalaf',
       'prefix' => ''
     },
     {
@@ -54314,7 +54314,7 @@ $Lexicon = {
       'glosses' => [
         'form a coalition'
       ],
-      'orig' => '{i}otalaf',
+      'orig' => 'Ai}otalaf',
       'prefix' => ''
     },
     {
@@ -54340,7 +54340,7 @@ $Lexicon = {
       'glosses' => [
         'attempt to befriend'
       ],
-      'orig' => '{isotaOolaf',
+      'orig' => 'AisotaOolaf',
       'prefix' => ''
     },
     {
@@ -54909,7 +54909,7 @@ $Lexicon = {
         'coalition',
         'entente'
       ],
-      'orig' => '{i}otilAf',
+      'orig' => 'Ai}otilAf',
       'prefix' => ''
     },
     {
@@ -54933,7 +54933,7 @@ $Lexicon = {
       'glosses' => [
         'coalition'
       ],
-      'orig' => '{i}otilAfiy~',
+      'orig' => 'Ai}otilAfiy~',
       'prefix' => ''
     },
     {
@@ -55598,7 +55598,7 @@ $Lexicon = {
       'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{i}otam~',
+      'orig' => 'Ai}otam~',
       'prefix' => ''
     },
     {

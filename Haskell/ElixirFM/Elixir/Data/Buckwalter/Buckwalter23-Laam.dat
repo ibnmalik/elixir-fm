@@ -1118,7 +1118,7 @@ lHw     loHuw   IV_0hAnn        insult;abuse
 lH      loH     IV_0hwnyn       insult;abuse
 lHY     loHaY   IV_0_Pass_yu    be insulted;be abused
 lHy     loHay   IV_Ann_Pass_yu  be insulted;be abused
-;; laHaY_1
+;; laHaY-a_1
 lHY     laHaY   PV_0    insult;abuse
 lHA     laHA    PV_h    insult;abuse
 lHy     laHay   PV_Atn  insult;abuse
@@ -2884,7 +2884,7 @@ lk>     loka>   IV      strike;hit
 lk|     loka|   IV-|    strike;hit
 lk&     loka&   IV_wn   strike;hit
 lk}     loka}   IV_yn   strike;hit
-;; laki}_1
+;; laki}-a_1
 lk}     laki}   PV_intr remain
 lk>     loka>   IV      remain
 lk|     loka|   IV-|    remain

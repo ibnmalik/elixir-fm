@@ -1049,7 +1049,7 @@ $Lexicon = {
         'be misled',
         'be seduced'
       ],
-      'orig' => '{isotagowaY',
+      'orig' => 'AisotagowaY',
       'prefix' => ''
     },
     {
@@ -1406,7 +1406,7 @@ $Lexicon = {
       'glosses' => [
         'close'
       ],
-      'orig' => '{inogamaD',
+      'orig' => 'AinogamaD',
       'prefix' => ''
     },
     {
@@ -1436,7 +1436,7 @@ $Lexicon = {
       'glosses' => [
         'sleep'
       ],
-      'orig' => '{igotamaD',
+      'orig' => 'AigotamaD',
       'prefix' => ''
     },
     {
@@ -1820,7 +1820,7 @@ $Lexicon = {
       'glosses' => [
         'regard as negligent'
       ],
-      'orig' => '{isotagofal',
+      'orig' => 'Aisotagofal',
       'prefix' => ''
     },
     {
@@ -2818,7 +2818,7 @@ $Lexicon = {
       'glosses' => [
         'be covered'
       ],
-      'orig' => '{igotaTaY',
+      'orig' => 'AigotaTaY',
       'prefix' => ''
     },
     {
@@ -3222,7 +3222,7 @@ $Lexicon = {
         'profit from',
         'seize (opportunity)'
       ],
-      'orig' => '{igotanam',
+      'orig' => 'Aigotanam',
       'prefix' => ''
     },
     {
@@ -3249,7 +3249,7 @@ $Lexicon = {
         'seize',
         'profit'
       ],
-      'orig' => '{isotagonam',
+      'orig' => 'Aisotagonam',
       'prefix' => ''
     },
     {
@@ -3530,7 +3530,7 @@ $Lexicon = {
         'profiting from',
         'seizing (opportunity)'
       ],
-      'orig' => '{igotinAm',
+      'orig' => 'AigotinAm',
       'prefix' => ''
     }
   ],
@@ -3960,7 +3960,7 @@ $Lexicon = {
       'glosses' => [
         'be dust-colored'
       ],
-      'orig' => '{igobar~',
+      'orig' => 'Aigobar~',
       'prefix' => ''
     },
     {
@@ -4166,7 +4166,7 @@ $Lexicon = {
         'resentment',
         'grayness'
       ],
-      'orig' => '{igobirAr',
+      'orig' => 'AigobirAr',
       'prefix' => ''
     },
     {
@@ -5267,7 +5267,7 @@ $Lexicon = {
         'be content',
         'be delighted'
       ],
-      'orig' => '{igotabaT',
+      'orig' => 'AigotabaT',
       'prefix' => ''
     },
     {
@@ -5316,7 +5316,7 @@ $Lexicon = {
         'contentment',
         'rejoicing'
       ],
-      'orig' => '{igotibAT',
+      'orig' => 'AigotibAT',
       'prefix' => ''
     },
     {
@@ -6123,7 +6123,7 @@ $Lexicon = {
       'glosses' => [
         'disparage'
       ],
-      'orig' => '{igotamaz',
+      'orig' => 'Aigotamaz',
       'prefix' => ''
     },
     {
@@ -6665,7 +6665,7 @@ $Lexicon = {
         'be deceived',
         'be duped'
       ],
-      'orig' => '{inoga$~',
+      'orig' => 'Ainoga$~',
       'prefix' => ''
     },
     {
@@ -6711,7 +6711,7 @@ $Lexicon = {
         'be deceived',
         'be duped'
       ],
-      'orig' => '{igota$~',
+      'orig' => 'Aigota$~',
       'prefix' => ''
     },
     {
@@ -6750,7 +6750,7 @@ $Lexicon = {
       'glosses' => [
         'suspect of deception'
       ],
-      'orig' => '{isotaga$~',
+      'orig' => 'Aisotaga$~',
       'prefix' => ''
     },
     {
@@ -7410,7 +7410,7 @@ $Lexicon = {
         'assassination',
         'murder'
       ],
-      'orig' => '{igotiyAl',
+      'orig' => 'AigotiyAl',
       'prefix' => ''
     },
     {
@@ -7975,7 +7975,7 @@ $Lexicon = {
         'regard as expensive',
         'be regarded as expensive'
       ],
-      'orig' => '{isotagolaY',
+      'orig' => 'AisotagolaY',
       'prefix' => ''
     },
     {
@@ -8593,7 +8593,7 @@ $Lexicon = {
         'become enraged',
         'be irritated'
       ],
-      'orig' => '{inogAZ',
+      'orig' => 'AinogAZ',
       'prefix' => ''
     },
     {
@@ -8633,7 +8633,7 @@ $Lexicon = {
         'become enraged',
         'be irritated'
       ],
-      'orig' => '{igotAZ',
+      'orig' => 'AigotAZ',
       'prefix' => ''
     },
     {
@@ -8682,7 +8682,7 @@ $Lexicon = {
         'fury',
         'rage'
       ],
-      'orig' => '{igotiyAZ',
+      'orig' => 'AigotiyAZ',
       'prefix' => ''
     },
     {
@@ -9352,7 +9352,7 @@ $Lexicon = {
         'grow luxuriantly',
         'become lush'
       ],
-      'orig' => '{igodawodan',
+      'orig' => 'Aigodawodan',
       'prefix' => ''
     },
     {
@@ -9513,7 +9513,7 @@ $Lexicon = {
         'be assassinated',
         'be murdered'
       ],
-      'orig' => '{igotAl',
+      'orig' => 'AigotAl',
       'prefix' => ''
     },
     {
@@ -9603,7 +9603,7 @@ $Lexicon = {
       'morphs' => 'IFtiyAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{igotiyAl',
+      'orig' => 'AigotiyAl',
       'prefix' => ''
     },
     {
@@ -9772,7 +9772,7 @@ $Lexicon = {
       'glosses' => [
         'be misled'
       ],
-      'orig' => '{igotar~',
+      'orig' => 'Aigotar~',
       'prefix' => ''
     },
     {
@@ -10705,7 +10705,7 @@ $Lexicon = {
         'be implanted',
         'sink in'
       ],
-      'orig' => '{inogaras',
+      'orig' => 'Ainogaras',
       'prefix' => ''
     },
     {
@@ -11714,7 +11714,7 @@ $Lexicon = {
         'rape',
         'usurp'
       ],
-      'orig' => '{igotaSab',
+      'orig' => 'AigotaSab',
       'prefix' => ''
     },
     {
@@ -11768,7 +11768,7 @@ $Lexicon = {
         'rape',
         'usurpation'
       ],
-      'orig' => '{igotiSAb',
+      'orig' => 'AigotiSAb',
       'prefix' => ''
     },
     {
@@ -12464,7 +12464,7 @@ $Lexicon = {
         'be fed',
         'be nourished'
       ],
-      'orig' => '{igota*aY',
+      'orig' => 'Aigota*aY',
       'prefix' => ''
     },
     {
@@ -13081,7 +13081,7 @@ $Lexicon = {
         'hide',
         'be hidden'
       ],
-      'orig' => '{isotago$aY',
+      'orig' => 'Aisotago$aY',
       'prefix' => ''
     },
     {
@@ -13558,7 +13558,7 @@ $Lexicon = {
       'glosses' => [
         'slip into'
       ],
-      'orig' => '{inogal~',
+      'orig' => 'Ainogal~',
       'prefix' => ''
     },
     {
@@ -13598,7 +13598,7 @@ $Lexicon = {
         'exploit',
         'take advantage of'
       ],
-      'orig' => '{isotagal~',
+      'orig' => 'Aisotagal~',
       'prefix' => ''
     },
     {
@@ -13806,7 +13806,7 @@ $Lexicon = {
         'exploitation',
         'utilization'
       ],
-      'orig' => '{isotigolAl',
+      'orig' => 'AisotigolAl',
       'prefix' => ''
     },
     {
@@ -13830,7 +13830,7 @@ $Lexicon = {
       'glosses' => [
         'exploitative'
       ],
-      'orig' => '{isotigolAliy~',
+      'orig' => 'AisotigolAliy~',
       'prefix' => ''
     },
     {
@@ -14183,7 +14183,7 @@ $Lexicon = {
       'glosses' => [
         'do speleology'
       ],
-      'orig' => '{isotagowar',
+      'orig' => 'Aisotagowar',
       'prefix' => ''
     },
     {
@@ -14831,7 +14831,7 @@ $Lexicon = {
         'be immersed',
         'plunge'
       ],
-      'orig' => '{inogamar',
+      'orig' => 'Ainogamar',
       'prefix' => ''
     },
     {
@@ -14861,7 +14861,7 @@ $Lexicon = {
       'glosses' => [
         'engulf'
       ],
-      'orig' => '{igotamar',
+      'orig' => 'Aigotamar',
       'prefix' => ''
     },
     {
@@ -15159,7 +15159,7 @@ $Lexicon = {
         'immersion',
         'submersion'
       ],
-      'orig' => '{inogimAr',
+      'orig' => 'AinogimAr',
       'prefix' => ''
     }
   ],
@@ -15261,7 +15261,7 @@ $Lexicon = {
       'glosses' => [
         'be closed'
       ],
-      'orig' => '{inogalaq',
+      'orig' => 'Ainogalaq',
       'prefix' => ''
     },
     {
@@ -15288,7 +15288,7 @@ $Lexicon = {
         'be impenetrable',
         'be inaccessible'
       ],
-      'orig' => '{isotagolaq',
+      'orig' => 'Aisotagolaq',
       'prefix' => ''
     },
     {
@@ -15504,7 +15504,7 @@ $Lexicon = {
         'impenetrability',
         'closing'
       ],
-      'orig' => '{inogilAq',
+      'orig' => 'AinogilAq',
       'prefix' => ''
     },
     {
@@ -15882,7 +15882,7 @@ $Lexicon = {
       'glosses' => [
         'become rich'
       ],
-      'orig' => '{igotanaY',
+      'orig' => 'AigotanaY',
       'prefix' => ''
     },
     {
@@ -15937,7 +15937,7 @@ $Lexicon = {
         'manage without',
         'be dispensed with'
       ],
-      'orig' => '{isotagonaY',
+      'orig' => 'AisotagonaY',
       'prefix' => ''
     },
     {
@@ -16222,7 +16222,7 @@ $Lexicon = {
       'glosses' => [
         'getting rich'
       ],
-      'orig' => '{igotinA\'',
+      'orig' => 'AigotinA\'',
       'prefix' => ''
     },
     {
@@ -16256,7 +16256,7 @@ $Lexicon = {
         'dispensing with',
         'renunciation'
       ],
-      'orig' => '{isotigonA\'',
+      'orig' => 'AisotigonA\'',
       'prefix' => ''
     },
     {
@@ -18049,7 +18049,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{igota$~',
+      'orig' => 'Aigota$~',
       'prefix' => ''
     }
   ],
@@ -18228,7 +18228,7 @@ $Lexicon = {
       'glosses' => [
         'scoop up'
       ],
-      'orig' => '{igotaraf',
+      'orig' => 'Aigotaraf',
       'prefix' => ''
     },
     {
@@ -18375,7 +18375,7 @@ $Lexicon = {
       'glosses' => [
         'scooping up'
       ],
-      'orig' => '{igotirAf',
+      'orig' => 'AigotirAf',
       'prefix' => ''
     }
   ],
@@ -19418,7 +19418,7 @@ $Lexicon = {
         'be denigrated',
         'be slandered'
       ],
-      'orig' => '{igotAb',
+      'orig' => 'AigotAb',
       'prefix' => ''
     },
     {
@@ -19454,7 +19454,7 @@ $Lexicon = {
         'denigrate',
         'slander'
       ],
-      'orig' => '{isotagAb',
+      'orig' => 'AisotagAb',
       'prefix' => ''
     },
     {
@@ -19830,7 +19830,7 @@ $Lexicon = {
         'denigration',
         'gossip about'
       ],
-      'orig' => '{igotiyAb',
+      'orig' => 'AigotiyAb',
       'prefix' => ''
     },
     {
@@ -20258,7 +20258,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{igotinA\'',
+      'orig' => 'AigotinA\'',
       'prefix' => ''
     },
     {
@@ -20272,7 +20272,7 @@ $Lexicon = {
       'morphs' => 'IstiFCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{isotigonA\'',
+      'orig' => 'AisotigonA\'',
       'prefix' => ''
     }
   ],
@@ -20375,7 +20375,7 @@ $Lexicon = {
         'be in heat',
         'be aroused'
       ],
-      'orig' => '{igotalam',
+      'orig' => 'Aigotalam',
       'prefix' => ''
     },
     {
@@ -20878,7 +20878,7 @@ $Lexicon = {
       'entry' => '.ga.s.s',
       'form' => '.ga.s.s',
       'lines' => [
-        ';; gaS~_1',
+        ';; gaS~-a_1',
         'gS      gaS~    PV_V_intr       be congested;be crowded',
         'gSS     gaSiS   PV_C_intr       be congested;be crowded',
         'gS      gaS~    IV_V_intr       be congested;be crowded',
@@ -20895,12 +20895,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCL',
-      'suffix' => '',
       'glosses' => [
         'be congested',
         'be crowded'
       ],
-      'orig' => 'gaS~',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'gaS~-a',
       'prefix' => ''
     },
     {
@@ -21003,7 +21006,7 @@ $Lexicon = {
         'be congested',
         'hit a snag'
       ],
-      'orig' => '{igotaS~',
+      'orig' => 'AigotaS~',
       'prefix' => ''
     },
     {
@@ -21630,7 +21633,7 @@ $Lexicon = {
         'be worried',
         'grieve'
       ],
-      'orig' => '{inogam~',
+      'orig' => 'Ainogam~',
       'prefix' => ''
     },
     {
@@ -21676,7 +21679,7 @@ $Lexicon = {
         'be worried',
         'grieve'
       ],
-      'orig' => '{igotam~',
+      'orig' => 'Aigotam~',
       'prefix' => ''
     },
     {
@@ -23215,7 +23218,7 @@ $Lexicon = {
         'be dipped',
         'be plunged'
       ],
-      'orig' => '{inogaT~',
+      'orig' => 'AinogaT~',
       'prefix' => ''
     },
     {
@@ -23810,7 +23813,7 @@ $Lexicon = {
         'become thick',
         'become rough'
       ],
-      'orig' => '{isotagolaZ',
+      'orig' => 'AisotagolaZ',
       'prefix' => ''
     },
     {
@@ -24010,7 +24013,7 @@ $Lexicon = {
       'entry' => '.garr',
       'form' => '.garr',
       'lines' => [
-        ';; gar~_1',
+        ';; gar~-u_1',
         'gr      gar~    PV_V    mislead;delude',
         'grr     garar   PV_C    mislead;delude',
         'gr      gur~    IV_V    mislead;delude',
@@ -24030,12 +24033,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCL',
-      'suffix' => '',
       'glosses' => [
         'mislead',
         'delude'
       ],
-      'orig' => 'gar~',
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'gar~-u',
       'prefix' => ''
     },
     {
@@ -24089,7 +24095,7 @@ $Lexicon = {
       'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{igotar~',
+      'orig' => 'Aigotar~',
       'prefix' => ''
     },
     {
@@ -24128,7 +24134,7 @@ $Lexicon = {
       'glosses' => [
         'surprise'
       ],
-      'orig' => '{isotagar~',
+      'orig' => 'Aisotagar~',
       'prefix' => ''
     },
     {
@@ -24699,7 +24705,7 @@ $Lexicon = {
         'wash',
         'bathe'
       ],
-      'orig' => '{igotasal',
+      'orig' => 'Aigotasal',
       'prefix' => ''
     },
     {
@@ -25068,7 +25074,7 @@ $Lexicon = {
         'bath',
         'ablution'
       ],
-      'orig' => '{igotisAl',
+      'orig' => 'AigotisAl',
       'prefix' => ''
     },
     {
@@ -25870,7 +25876,7 @@ $Lexicon = {
       'glosses' => [
         'spin'
       ],
-      'orig' => '{igotazal',
+      'orig' => 'Aigotazal',
       'prefix' => ''
     },
     {
@@ -27827,7 +27833,7 @@ $Lexicon = {
         'be alienated',
         'be an expatriate'
       ],
-      'orig' => '{igotarab',
+      'orig' => 'Aigotarab',
       'prefix' => ''
     },
     {
@@ -27854,7 +27860,7 @@ $Lexicon = {
         'wonder at',
         'find strange'
       ],
-      'orig' => '{isotagorab',
+      'orig' => 'Aisotagorab',
       'prefix' => ''
     },
     {
@@ -28391,7 +28397,7 @@ $Lexicon = {
         'emigration',
         'alienation'
       ],
-      'orig' => '{igotirAb',
+      'orig' => 'AigotirAb',
       'prefix' => ''
     },
     {
@@ -28416,7 +28422,7 @@ $Lexicon = {
         'migratory',
         'emigration'
       ],
-      'orig' => '{igotirAbiy~',
+      'orig' => 'AigotirAbiy~',
       'prefix' => ''
     },
     {
@@ -28441,7 +28447,7 @@ $Lexicon = {
         'astonishment',
         'surprise'
       ],
-      'orig' => '{isotigorAb',
+      'orig' => 'AisotigorAb',
       'prefix' => ''
     },
     {
@@ -29633,7 +29639,7 @@ $Lexicon = {
       'entry' => '.gafar',
       'form' => '.gafar',
       'lines' => [
-        ';; gafar_1',
+        ';; gafar-i_1',
         'gfr     gafar   PV      forgive',
         'gfr     gofir   IV      forgive'
       ],
@@ -29645,11 +29651,14 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'forgive'
       ],
-      'orig' => 'gafar',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'gafar-i',
       'prefix' => ''
     },
     {
@@ -29709,7 +29718,7 @@ $Lexicon = {
       'glosses' => [
         'forgive'
       ],
-      'orig' => '{igotafar',
+      'orig' => 'Aigotafar',
       'prefix' => ''
     },
     {
@@ -29736,7 +29745,7 @@ $Lexicon = {
         'beg forgiveness',
         'apologize'
       ],
-      'orig' => '{isotagofar',
+      'orig' => 'Aisotagofar',
       'prefix' => ''
     },
     {
@@ -30094,7 +30103,7 @@ $Lexicon = {
       'glosses' => [
         'plea for pardon'
       ],
-      'orig' => '{isotigofAr',
+      'orig' => 'AisotigofAr',
       'prefix' => ''
     },
     {
@@ -30118,7 +30127,7 @@ $Lexicon = {
       'glosses' => [
         'propitiatory'
       ],
-      'orig' => '{isotigofAriy~',
+      'orig' => 'AisotigofAriy~',
       'prefix' => ''
     }
   ],
@@ -30854,7 +30863,7 @@ $Lexicon = {
         'seek aid',
         'be asked for help'
       ],
-      'orig' => '{isotagAv',
+      'orig' => 'AisotagAv',
       'prefix' => ''
     },
     {
@@ -30928,7 +30937,7 @@ $Lexicon = {
         'appeal for aid',
         'call for help'
       ],
-      'orig' => '{isotigAvap',
+      'orig' => 'AisotigAvap',
       'prefix' => ''
     },
     {
@@ -31279,7 +31288,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{igotam~',
+      'orig' => 'Aigotam~',
       'prefix' => ''
     },
     {
@@ -31475,7 +31484,7 @@ $Lexicon = {
       'glosses' => [
         'last'
       ],
-      'orig' => '{isotagoraq',
+      'orig' => 'Aisotagoraq',
       'prefix' => ''
     },
     {
@@ -31506,7 +31515,7 @@ $Lexicon = {
         'be immersed',
         'be drowned'
       ],
-      'orig' => '{igoraworaq',
+      'orig' => 'Aigoraworaq',
       'prefix' => ''
     },
     {
@@ -32576,7 +32585,7 @@ $Lexicon = {
         'penetrate',
         'be inserted'
       ],
-      'orig' => '{inogaraz',
+      'orig' => 'Ainogaraz',
       'prefix' => ''
     },
     {
@@ -32607,7 +32616,7 @@ $Lexicon = {
         'penetrate',
         'be inserted'
       ],
-      'orig' => '{igotaraz',
+      'orig' => 'Aigotaraz',
       'prefix' => ''
     },
     {
@@ -32819,7 +32828,7 @@ $Lexicon = {
         'penetration',
         'piercing'
       ],
-      'orig' => '{inogirAz',
+      'orig' => 'AinogirAz',
       'prefix' => ''
     }
   ],
@@ -33113,7 +33122,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{igotaS~',
+      'orig' => 'AigotaS~',
       'prefix' => ''
     }
   ],
@@ -33160,7 +33169,7 @@ $Lexicon = {
       'entry' => '.gaff',
       'form' => '.gaff',
       'lines' => [
-        ';; gaf~_1',
+        ';; gaf~-i_1',
         'gf      gaf~    PV_V    seize;grasp',
         'gff     gafaf   PV_C    seize;grasp',
         'gf      gif~    IV_V    seize;grasp',
@@ -33180,12 +33189,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCL',
-      'suffix' => '',
       'glosses' => [
         'seize',
         'grasp'
       ],
-      'orig' => 'gaf~',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'gaf~-i',
       'prefix' => ''
     }
   ],
@@ -33439,7 +33451,7 @@ $Lexicon = {
         'be immersed',
         'be plunged'
       ],
-      'orig' => '{inogamas',
+      'orig' => 'Ainogamas',
       'prefix' => ''
     },
     {
@@ -33470,7 +33482,7 @@ $Lexicon = {
         'be immersed',
         'be plunged'
       ],
-      'orig' => '{igotamas',
+      'orig' => 'Aigotamas',
       'prefix' => ''
     },
     {
@@ -33743,7 +33755,7 @@ $Lexicon = {
       'glosses' => [
         'regard as ignorant'
       ],
-      'orig' => '{isotago$am',
+      'orig' => 'Aisotago$am',
       'prefix' => ''
     },
     {

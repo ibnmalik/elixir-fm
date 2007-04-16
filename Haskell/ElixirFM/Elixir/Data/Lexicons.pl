@@ -134,7 +134,7 @@ sub includeEntry ($) {
 
     my $orig = $_[0]->{'orig'};
 
-    $orig =~ tr[{][A];
+    $orig =~ s/\-[aiu]+$//;
 
     return exists $include->{$orig} and exists $include->{$orig}{'done'} and $include->{$orig}{'done'} > 0;
 }

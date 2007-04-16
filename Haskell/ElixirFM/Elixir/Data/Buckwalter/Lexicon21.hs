@@ -92,7 +92,7 @@ lexicon = listing "Lexicon's properties"
     -- <q$ErAr {iqo$iEorAr     N/At    trembling;shaking;quivering
     -- Aq$ErAr {iqo$iEorAr     N/At    trembling;shaking;quivering
 
-    Identity                  `noun`       {- {iqo$iEorAr -}    [ "trembling", "shaking", "quivering" ] ]
+    Identity                  `noun`       {- Aiqo$iEorAr -}    [ "trembling", "shaking", "quivering" ] ]
 
  |> "maqbur" <| [
 
@@ -255,7 +255,7 @@ lexicon = listing "Lexicon's properties"
     -- <nqDA'  {inoqiDA'       NAt     termination;expiration
     -- AnqDA'  {inoqiDA'       NAt     termination;expiration
 
-    InFiCAL                   `noun`       {- {inoqiDA' -}      [ "termination", "expiration" ],
+    InFiCAL                   `noun`       {- AinoqiDA' -}      [ "termination", "expiration" ],
 
     -- ;; {iqotiDA'_1
     -- <qtDA'  {iqotiDA'       N0_Nh   requirement;exigency
@@ -271,7 +271,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtDA'  {iqotiDA'       NAt     requirements;exigencies
     -- AqtDA'  {iqotiDA'       NAt     requirements;exigencies
 
-    IFtiCAL                   `noun`       {- {iqotiDA' -}      [ "requirement", "exigency", "requirements", "exigencies" ] ]
+    IFtiCAL                   `noun`       {- AiqotiDA' -}      [ "requirement", "exigency", "requirements", "exigencies" ] ]
 
  |> "q .d .d" <| [
 
@@ -282,8 +282,7 @@ lexicon = listing "Lexicon's properties"
     -- qDD     qoDuD   IV_C    perforate;demolish
 
     FaCL                      `verb`       {- qaD~-u -}         [ "perforate", "demolish" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qu.d.d IV_V", "qa.da.d PV_C", "q.du.d IV_C" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaD~-a_1
     -- qD      qaD~    PV_V_intr       be rough;be crude
@@ -292,8 +291,7 @@ lexicon = listing "Lexicon's properties"
     -- qDD     qoDaD   IV_C_intr       be rough;be crude
 
     FaCL                      `verb`       {- qaD~-a -}         [ "be rough", "be crude" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qa.da.d PV_C_intr", "q.da.d IV_C_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; >aqaD~_1
     -- >qD     >aqaD~  PV_V_intr       be rough;be hard
@@ -303,8 +301,7 @@ lexicon = listing "Lexicon's properties"
     -- qD      qiD~    IV_V_intr_yu    be rough;be hard
     -- qDD     qoDiD   IV_C_intr_yu    be rough;be hard
 
-    HaFaCL                    `verb`       {- OaqaD~ -}         [ "be rough", "be hard" ]
-                              {- `others` [ "'aq.da.d PV_C_intr", "qi.d.d IV_V_intr_yu", "q.di.d IV_C_intr_yu" ] -},
+    HaFaCL                    `verb`       {- OaqaD~ -}         [ "be rough", "be hard" ],
 
     -- ;; {inoqaD~_1
     -- <nqD    {inoqaD~        PV_V    strike;charge;attack
@@ -314,8 +311,7 @@ lexicon = listing "Lexicon's properties"
     -- nqD     noqaD~  IV_V    strike;charge;attack
     -- nqDD    noqaDiD IV_C    strike;charge;attack
 
-    InFaCL                    `verb`       {- {inoqaD~ -}       [ "strike", "charge", "attack" ]
-                              {- `others` [ "nqa.di.d IV_C", "nqa.d.d IV_V", "inqa.da.d PV_C" ] -},
+    InFaCL                    `verb`       {- AinoqaD~ -}       [ "strike", "charge", "attack" ],
 
     -- ;; qaD~_1
     -- qD      qaD~    N       gravel
@@ -334,7 +330,7 @@ lexicon = listing "Lexicon's properties"
     -- <nqDAD  {inoqiDAD       N/At    assault;attack
     -- AnqDAD  {inoqiDAD       N/At    assault;attack
 
-    InFiCAL                   `noun`       {- {inoqiDAD -}      [ "assault", "attack" ],
+    InFiCAL                   `noun`       {- AinoqiDAD -}      [ "assault", "attack" ],
 
     -- ;; munoqaD~_1
     -- mnqD    munoqaD~        N-ap    assault;attack
@@ -351,8 +347,7 @@ lexicon = listing "Lexicon's properties"
     -- qDY     qaD~aY  IV_0_Pass_yu    be carried out;be effectuated;be accomplished
     -- qDy     qaD~ay  IV_Ann_Pass_yu  be carried out;be effectuated;be accomplished
 
-    FaCLY                     `verb`       {- qaD~aY -}         [ "carry out", "effectuate", "accomplish", "be carried out", "be effectuated", "be accomplished" ]
-                              {- `others` [ "qa.d.d IV_0hwnyn_yu PV_ttAw", "qa.d.diy IV_0hAnn_yu" ] -} ]
+    FaCLY                     `verb`       {- qaD~aY -}         [ "carry out", "effectuate", "accomplish", "be carried out", "be effectuated", "be accomplished" ] ]
 
  |> "q .d `" <| [
 
@@ -373,23 +368,20 @@ lexicon = listing "Lexicon's properties"
     -- qDb     qoDib   IV      cut off;trim
 
     FaCaL                     `verb`       {- qaDab-i -}        [ "cut off", "trim" ]
-                              `imperf`     FCiL
-                              {- `others` [ "q.dib IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qaD~ab_1
     -- qDb     qaD~ab  PV      cut off;trim
     -- qDb     qaD~ib  IV_yu   cut off;trim
 
-    FaCCaL                    `verb`       {- qaD~ab -}         [ "cut off", "trim" ]
-                              {- `others` [ "qa.d.dib IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaD~ab -}         [ "cut off", "trim" ],
 
     -- ;; {iqotaDab_1
     -- <qtDb   {iqotaDab       PV      trim;abridge;extemporize
     -- AqtDb   {iqotaDab       PV      trim;abridge;extemporize
     -- qtDb    qotaDib IV      trim;abridge;extemporize
 
-    IFtaCaL                   `verb`       {- {iqotaDab -}      [ "trim", "abridge", "extemporize" ]
-                              {- `others` [ "qta.dib IV" ] -},
+    IFtaCaL                   `verb`       {- AiqotaDab -}      [ "trim", "abridge", "extemporize" ],
 
     -- ;; qaDob_1
     -- qDb     qaDob   N       herbs
@@ -423,7 +415,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtDAb  {iqotiDAb       N/At    summary;abridgment
     -- AqtDAb  {iqotiDAb       N/At    summary;abridgment
 
-    IFtiCAL                   `noun`       {- {iqotiDAb -}      [ "summary", "abridgment" ],
+    IFtiCAL                   `noun`       {- AiqotiDAb -}      [ "summary", "abridgment" ],
 
     -- ;; muqotaDab_1
     -- mqtDb   muqotaDab       N-ap    summarized;concise;shortened     [[muqotaDab/ADJ]]
@@ -443,8 +435,7 @@ lexicon = listing "Lexicon's properties"
     -- qDf     qoDuf   IV_intr become slender;become narrow
 
     FaCuL                     `verb`       {- qaDuf-u -}        [ "become slender", "become narrow" ]
-                              `imperf`     FCuL
-                              {- `others` [ "q.duf IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaDof_1
     -- qDf     qaDof   N       narrowing
@@ -458,16 +449,14 @@ lexicon = listing "Lexicon's properties"
     -- qDm     qoDam   IV      gnaw;nibble
 
     FaCiL                     `verb`       {- qaDim-a -}        [ "gnaw", "nibble" ]
-                              `imperf`     FCaL
-                              {- `others` [ "q.dam IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qaDam-i_1
     -- qDm     qaDam   PV      gnaw;nibble
     -- qDm     qoDim   IV      gnaw;nibble
 
     FaCaL                     `verb`       {- qaDam-i -}        [ "gnaw", "nibble" ]
-                              `imperf`     FCiL
-                              {- `others` [ "q.dim IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qaDom_1
     -- qDm     qaDom   N       gnawing;nibbling
@@ -501,8 +490,7 @@ lexicon = listing "Lexicon's properties"
     -- qDY     qoDaY   IV_0_Pass_yu    be executed;be performed;be decreed
 
     FaCY                      `verb`       {- qaDaY-i -}        [ "execute", "perform", "decree", "be executed", "be performed", "be decreed" ]
-                              `imperf`     FCiL
-                              {- `others` [ "q.dY IV_0_Pass_yu", "q.diy IV_0hAnn", "qa.day PV_Atn", "qa.dA PV_h" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qaD~aY_1
     -- qDY     qaD~aY  PV_0    carry out;effectuate;accomplish
@@ -514,8 +502,7 @@ lexicon = listing "Lexicon's properties"
     -- qDY     qaD~aY  IV_0_Pass_yu    be carried out;be effectuated;be accomplished
     -- qDy     qaD~ay  IV_Ann_Pass_yu  be carried out;be effectuated;be accomplished
 
-    FaCCY                     `verb`       {- qaD~aY -}         [ "carry out", "effectuate", "accomplish", "be carried out", "be effectuated", "be accomplished" ]
-                              {- `others` [ "qa.d.day PV_Atn IV_Ann_Pass_yu", "qa.d.diy IV_0hAnn_yu" ] -},
+    FaCCY                     `verb`       {- qaD~aY -}         [ "carry out", "effectuate", "accomplish", "be carried out", "be effectuated", "be accomplished" ],
 
     -- ;; qADaY_1
     -- qADY    qADaY   PV_0    summon;prosecute
@@ -527,8 +514,7 @@ lexicon = listing "Lexicon's properties"
     -- qADY    qADaY   IV_0_Pass_yu    be summoned;be prosecuted
     -- qADy    qADay   IV_Ann_Pass_yu  be summoned;be prosecuted
 
-    FACY                      `verb`       {- qADaY -}          [ "summon", "prosecute", "be summoned", "be prosecuted" ]
-                              {- `others` [ "qA.day PV_Atn IV_Ann_Pass_yu", "qA.diy IV_0hAnn_yu" ] -},
+    FACY                      `verb`       {- qADaY -}          [ "summon", "prosecute", "be summoned", "be prosecuted" ],
 
     -- ;; taqaD~aY_1
     -- tqDY    taqaD~aY        PV_0    be completed;expire
@@ -538,8 +524,7 @@ lexicon = listing "Lexicon's properties"
     -- tqDy    taqaD~ay        IV_Ann  be completed;expire
     -- tqD     taqaD~  IV_0hwnyn       be completed;expire
 
-    TaFaCCY                   `verb`       {- taqaD~aY -}       [ "be completed", "expire" ]
-                              {- `others` [ "taqa.d.day PV_Atn IV_Ann" ] -},
+    TaFaCCY                   `verb`       {- taqaD~aY -}       [ "be completed", "expire" ],
 
     -- ;; taqADaY_1
     -- tqADY   taqADaY PV_0    litigate;lay claim to
@@ -551,8 +536,7 @@ lexicon = listing "Lexicon's properties"
     -- tqADy   taqADay IV_Ann  litigate;lay claim to
     -- tqAD    taqAD   IV_0hwnyn       litigate;lay claim to
 
-    TaFACY                    `verb`       {- taqADaY -}        [ "litigate", "lay claim to" ]
-                              {- `others` [ "taqA.day PV_Atn IV_Ann" ] -},
+    TaFACY                    `verb`       {- taqADaY -}        [ "litigate", "lay claim to" ],
 
     -- ;; {inoqaDaY_1
     -- <nqDY   {inoqaDaY       PV_0    be completed;expire
@@ -567,8 +551,7 @@ lexicon = listing "Lexicon's properties"
     -- nqD     noqaD   IV_0hwnyn       be completed;expire
     -- nqDY    noqaDaY IV_0_Pass_yu    be completed;expire
 
-    InFaCY                    `verb`       {- {inoqaDaY -}      [ "be completed", "expire" ]
-                              {- `others` [ "nqa.diy IV_0hAnn", "inqa.day PV_Atn", "nqa.dY IV_0_Pass_yu" ] -},
+    InFaCY                    `verb`       {- AinoqaDaY -}      [ "be completed", "expire" ],
 
     -- ;; {iqotaDaY_1
     -- <qtDY   {iqotaDaY       PV_0    demand;require
@@ -583,8 +566,7 @@ lexicon = listing "Lexicon's properties"
     -- qtD     qotaD   IV_0hwnyn       demand;require
     -- qtDY    qotaDaY IV_0    demand;require
 
-    IFtaCY                    `verb`       {- {iqotaDaY -}      [ "demand", "require" ]
-                              {- `others` [ "qta.dY IV_0", "qta.diy IV_0hAnn", "iqta.day PV_Atn" ] -},
+    IFtaCY                    `verb`       {- AiqotaDaY -}      [ "demand", "require" ],
 
     -- ;; {isotaqoDaY_1
     -- <stqDY  {isotaqoDaY     PV_0    demand;claim
@@ -599,8 +581,7 @@ lexicon = listing "Lexicon's properties"
     -- stqD    sotaqoD IV_0hwnyn       demand;claim
     -- stqDY   sotaqoDaY       IV_0_Pass_yu    be demanded;be claimed
 
-    IstaFCY                   `verb`       {- {isotaqoDaY -}    [ "demand", "claim", "be demanded", "be claimed" ]
-                              {- `others` [ "istaq.day PV_Atn" ] -},
+    IstaFCY                   `verb`       {- AisotaqoDaY -}    [ "demand", "claim", "be demanded", "be claimed" ],
 
     -- ;; qaDaY_1
     -- qDY     qaDaY   N0      judgment;sentence
@@ -690,7 +671,7 @@ lexicon = listing "Lexicon's properties"
     -- <nqDA'  {inoqiDA'       NAt     termination;expiration
     -- AnqDA'  {inoqiDA'       NAt     termination;expiration
 
-    InFiCA'                   `noun`       {- {inoqiDA' -}      [ "termination", "expiration" ],
+    InFiCA'                   `noun`       {- AinoqiDA' -}      [ "termination", "expiration" ],
 
     -- ;; {iqotiDA'_1
     -- <qtDA'  {iqotiDA'       N0_Nh   requirement;exigency
@@ -706,7 +687,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtDA'  {iqotiDA'       NAt     requirements;exigencies
     -- AqtDA'  {iqotiDA'       NAt     requirements;exigencies
 
-    IFtiCA'                   `noun`       {- {iqotiDA' -}      [ "requirement", "exigency", "requirements", "exigencies" ],
+    IFtiCA'                   `noun`       {- AiqotiDA' -}      [ "requirement", "exigency", "requirements", "exigencies" ],
 
     -- ;; qADiy_1
     -- qADy    qADiy   NAn_Nayn        executing;performing;decreeing
@@ -776,8 +757,7 @@ lexicon = listing "Lexicon's properties"
     -- qHH     qoHuH   IV_C    cough
 
     FaCL                      `verb`       {- qaH~-u -}         [ "cough" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qa.ha.h PV_C", "q.hu.h IV_C", "qu.h.h IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; quH~_1
     -- qH      quH~    N-ap    pure;genuine
@@ -798,23 +778,20 @@ lexicon = listing "Lexicon's properties"
     -- qHT     qoHaT   IV_intr be withheld;be rainless
 
     FaCaL                     `verb`       {- qaHaT-a -}        [ "be withheld", "be rainless" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qa.hi.t PV_intr", "q.ha.t IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qaH~aT_1
     -- qHT     qaH~aT  PV      pollinate
     -- qHT     qaH~iT  IV_yu   pollinate
 
-    FaCCaL                    `verb`       {- qaH~aT -}         [ "pollinate" ]
-                              {- `others` [ "qa.h.hi.t IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaH~aT -}         [ "pollinate" ],
 
     -- ;; >aqoHaT_1
     -- >qHT    >aqoHaT PV_intr be rainless
     -- AqHT    >aqoHaT PV_intr be rainless
     -- qHT     qoHiT   IV_intr_yu      be rainless
 
-    HaFCaL                    `verb`       {- OaqoHaT -}        [ "be rainless" ]
-                              {- `others` [ "q.hi.t IV_intr_yu" ] -},
+    HaFCaL                    `verb`       {- OaqoHaT -}        [ "be rainless" ],
 
     -- ;; qaHoT_1
     -- qHT     qaHoT   N       drought;famine;dearth
@@ -848,20 +825,19 @@ lexicon = listing "Lexicon's properties"
 
  |> "q .h f" <| [
 
-    -- ;; qaHaf_1
+    -- ;; qaHaf-a_1
     -- qHf     qaHaf   PV      swallow;gulp
     -- qHf     qoHaf   IV      swallow;gulp
 
-    FaCaL                     `verb`       {- qaHaf -}          [ "swallow", "gulp" ]
-                              {- `others` [ "q.haf IV" ] -},
+    FaCaL                     `verb`       {- qaHaf-a -}        [ "swallow", "gulp" ]
+                              `imperf`     FCaL,
 
     -- ;; {iqotaHaf_1
     -- <qtHf   {iqotaHaf       PV      swallow;gulp
     -- AqtHf   {iqotaHaf       PV      swallow;gulp
     -- qtHf    qotaHif IV      swallow;gulp
 
-    IFtaCaL                   `verb`       {- {iqotaHaf -}      [ "swallow", "gulp" ]
-                              {- `others` [ "qta.hif IV" ] -},
+    IFtaCaL                   `verb`       {- AiqotaHaf -}      [ "swallow", "gulp" ],
 
     -- ;; qiHof_1
     -- qHf     qiHof   N       skull;cranium
@@ -893,8 +869,7 @@ lexicon = listing "Lexicon's properties"
     -- qHl     qoHal   IV_intr become dry;wither
 
     FaCiL                     `verb`       {- qaHil-a -}        [ "become dry", "wither" ]
-                              `imperf`     FCaL
-                              {- `others` [ "q.hal IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qaHal_1
     -- qHl     qaHal   N       dryness;aridity
@@ -933,8 +908,7 @@ lexicon = listing "Lexicon's properties"
     -- qHm     qoHum   IV      burst into;take by storm;undertake boldly
 
     FaCaL                     `verb`       {- qaHam-u -}        [ "burst into", "take by storm", "undertake boldly" ]
-                              `imperf`     FCuL
-                              {- `others` [ "q.hum IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; >aqoHam_1
     -- >qHm    >aqoHam PV      squeeze;cram
@@ -942,16 +916,14 @@ lexicon = listing "Lexicon's properties"
     -- qHm     qoHim   IV_yu   squeeze;cram
     -- qHm     qoHam   IV_Pass_yu      be squeezed;be crammed
 
-    HaFCaL                    `verb`       {- OaqoHam -}        [ "squeeze", "cram", "be squeezed", "be crammed" ]
-                              {- `others` [ "q.ham IV_Pass_yu", "q.him IV_yu" ] -},
+    HaFCaL                    `verb`       {- OaqoHam -}        [ "squeeze", "cram", "be squeezed", "be crammed" ],
 
     -- ;; {iqotaHam_1
     -- <qtHm   {iqotaHam       PV      assault;storm;burst into
     -- AqtHm   {iqotaHam       PV      assault;storm;burst into
     -- qtHm    qotaHim IV      assault;storm;burst into
 
-    IFtaCaL                   `verb`       {- {iqotaHam -}      [ "assault", "storm", "burst into" ]
-                              {- `others` [ "qta.him IV" ] -},
+    IFtaCaL                   `verb`       {- AiqotaHam -}      [ "assault", "storm", "burst into" ],
 
     -- ;; quHomap_1
     -- qHm     quHom   Napdu   peril;hazardous enterprise
@@ -979,7 +951,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtHAm  {iqotiHAm       NduAt   assault;storming;breach;incursion
     -- AqtHAm  {iqotiHAm       NduAt   assault;storming;breach;incursion
 
-    IFtiCAL                   `noun`       {- {iqotiHAm -}      [ "assault", "storming", "breach", "incursion" ] ]
+    IFtiCAL                   `noun`       {- AiqotiHAm -}      [ "assault", "storming", "breach", "incursion" ] ]
 
  |> "q .s '" <| [
 
@@ -1004,13 +976,13 @@ lexicon = listing "Lexicon's properties"
     -- <stqSA' {isotiqoSA'     NAt     investigations;examinations
     -- AstqSA' {isotiqoSA'     NAt     investigations;examinations
 
-    IstiFCAL                  `noun`       {- {isotiqoSA' -}    [ "investigation", "examination", "investigations", "examinations" ],
+    IstiFCAL                  `noun`       {- AisotiqoSA' -}    [ "investigation", "examination", "investigations", "examinations" ],
 
     -- ;; {isotiqoSA}iy~_1
     -- <stqSA}y        {isotiqoSA}iy~  N-ap    penetrating;thorough;probing     [[{isotiqoSA}iy~/ADJ]]
     -- AstqSA}y        {isotiqoSA}iy~  N-ap    penetrating;thorough;probing     [[{isotiqoSA}iy~/ADJ]]
 
-    IstiFCAL |< Iy            `adj`        {- {isotiqoSA}iy~ -} [ "penetrating", "thorough", "probing" ] ]
+    IstiFCAL |< Iy            `adj`        {- AisotiqoSA}iy~ -} [ "penetrating", "thorough", "probing" ] ]
 
  |> "q .s .s" <| [
 
@@ -1021,8 +993,7 @@ lexicon = listing "Lexicon's properties"
     -- qSS     qoSuS   IV_C    cut;trim
 
     FaCL                      `verb`       {- qaS~-u -}         [ "cut", "trim" ]
-                              `imperf`     FCuL
-                              {- `others` [ "q.su.s IV_C", "qa.sa.s PV_C", "qu.s.s IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaS~-u_2
     -- qS      qaS~    PV_V    narrate;tell
@@ -1031,15 +1002,13 @@ lexicon = listing "Lexicon's properties"
     -- qSS     qoSuS   IV_C    narrate;tell
 
     FaCL                      `verb`       {- qaS~-u -}         [ "narrate", "tell" ]
-                              `imperf`     FCuL
-                              {- `others` [ "q.su.s IV_C", "qa.sa.s PV_C", "qu.s.s IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaS~aS_1
     -- qSS     qaS~aS  PV      cut off;trim
     -- qSS     qaS~iS  IV_yu   cut off;trim
 
-    FaCCaL                    `verb`       {- qaS~aS -}         [ "cut off", "trim" ]
-                              {- `others` [ "qa.s.si.s IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaS~aS -}         [ "cut off", "trim" ],
 
     -- ;; qAS~_1
     -- qAS     qAS~    PV_V    retaliate against;settle accounts with
@@ -1047,8 +1016,7 @@ lexicon = listing "Lexicon's properties"
     -- qAS     qAS~    IV_V_yu retaliate against;settle accounts with
     -- qASS    qASiS   IV_C_yu retaliate against;settle accounts with
 
-    FACL                      `verb`       {- qAS~ -}           [ "retaliate against", "settle accounts with" ]
-                              {- `others` [ "qA.sa.s PV_C", "qA.si.s IV_C_yu" ] -},
+    FACL                      `verb`       {- qAS~ -}           [ "retaliate against", "settle accounts with" ],
 
     -- ;; taqaS~aS_1
     -- tqSS    taqaS~aS        PV      follow;imitate
@@ -1064,8 +1032,7 @@ lexicon = listing "Lexicon's properties"
     -- qtS     qotaS~  IV_V    take vengeance on;punish
     -- qtSS    qotaSiS IV_C    take vengeance on;punish
 
-    IFtaCL                    `verb`       {- {iqotaS~ -}       [ "take vengeance on", "punish" ]
-                              {- `others` [ "qta.si.s IV_C", "qta.s.s IV_V", "iqta.sa.s PV_C" ] -},
+    IFtaCL                    `verb`       {- AiqotaS~ -}       [ "take vengeance on", "punish" ],
 
     -- ;; qaS~_1
     -- qS      qaS~    N       clipping;cutting
@@ -1170,7 +1137,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtSAS  {iqotiSAS       N/At    punishment;reprisal;vengeance
     -- AqtSAS  {iqotiSAS       N/At    punishment;reprisal;vengeance
 
-    IFtiCAL                   `noun`       {- {iqotiSAS -}      [ "punishment", "reprisal", "vengeance" ] ]
+    IFtiCAL                   `noun`       {- AiqotiSAS -}      [ "punishment", "reprisal", "vengeance" ] ]
 
  |> "q .s ^g" <| [
 
@@ -1186,8 +1153,7 @@ lexicon = listing "Lexicon's properties"
     -- qSE     qoSaE   IV      gulp;quench
 
     FaCaL                     `verb`       {- qaSaE-a -}        [ "gulp", "quench" ]
-                              `imperf`     FCaL
-                              {- `others` [ "q.sa` IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; taqaS~aE_1
     -- tqSE    taqaS~aE        PV      writhe seductively
@@ -1219,15 +1185,13 @@ lexicon = listing "Lexicon's properties"
     -- qSb     qoSib   IV      butcher;carve
 
     FaCaL                     `verb`       {- qaSab-i -}        [ "butcher", "carve" ]
-                              `imperf`     FCiL
-                              {- `others` [ "q.sib IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qaS~ab_1
     -- qSb     qaS~ab  PV      curl;embroider
     -- qSb     qaS~ib  IV_yu   curl;embroider
 
-    FaCCaL                    `verb`       {- qaS~ab -}         [ "curl", "embroider" ]
-                              {- `others` [ "qa.s.sib IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaS~ab -}         [ "curl", "embroider" ],
 
     -- ;; qaSob_1
     -- qSb     qaSob   N       butchering;carving
@@ -1291,8 +1255,7 @@ lexicon = listing "Lexicon's properties"
     -- qSd     qoSad   IV_Pass_yu      be intended;be meant;be pursued
 
     FaCaL                     `verb`       {- qaSad-i -}        [ "intend", "mean", "pursue", "be intended", "be meant", "be pursued" ]
-                              `imperf`     FCiL
-                              {- `others` [ "q.sad IV_Pass_yu", "q.sid IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; >aqoSad_1
     -- >qSd    >aqoSad PV      induce
@@ -1300,8 +1263,7 @@ lexicon = listing "Lexicon's properties"
     -- qSd     qoSid   IV_yu   induce
     -- qSd     qoSad   IV_Pass_yu      be induced
 
-    HaFCaL                    `verb`       {- OaqoSad -}        [ "induce", "be induced" ]
-                              {- `others` [ "q.sad IV_Pass_yu", "q.sid IV_yu" ] -},
+    HaFCaL                    `verb`       {- OaqoSad -}        [ "induce", "be induced" ],
 
     -- ;; taqaS~ad_1
     -- tqSd    taqaS~ad        PV      intend;consider
@@ -1314,16 +1276,14 @@ lexicon = listing "Lexicon's properties"
     -- AnqSd   {inoqaSad       PV_intr be broken
     -- nqSd    noqaSid IV_intr be broken
 
-    InFaCaL                   `verb`       {- {inoqaSad -}      [ "be broken" ]
-                              {- `others` [ "nqa.sid IV_intr" ] -},
+    InFaCaL                   `verb`       {- AinoqaSad -}      [ "be broken" ],
 
     -- ;; {iqotaSad_1
     -- <qtSd   {iqotaSad       PV      economize;save;be frugal
     -- AqtSd   {iqotaSad       PV      economize;save;be frugal
     -- qtSd    qotaSid IV      economize;save;be frugal
 
-    IFtaCaL                   `verb`       {- {iqotaSad -}      [ "economize", "save", "be frugal" ]
-                              {- `others` [ "qta.sid IV" ] -},
+    IFtaCaL                   `verb`       {- AiqotaSad -}      [ "economize", "save", "be frugal" ],
 
     -- ;; qaSod_1
     -- qSd     qaSod   N       intent;purpose;goal
@@ -1393,19 +1353,19 @@ lexicon = listing "Lexicon's properties"
     -- AqtSAd  {iqotiSAd       NAt     economies
     -- <qtSAd  {iqotiSAd       NAt     economies
 
-    IFtiCAL                   `noun`       {- {iqotiSAd -}      [ "economy", "saving", "economies" ],
+    IFtiCAL                   `noun`       {- AiqotiSAd -}      [ "economy", "saving", "economies" ],
 
     -- ;; {iqotiSAdiy~_1
     -- <qtSAdy {iqotiSAdiy~    Nall    economist     [[{iqotiSAdiy~/NOUN]]
     -- AqtSAdy {iqotiSAdiy~    Nall    economist     [[{iqotiSAdiy~/NOUN]]
 
-    IFtiCAL |< Iy             `noun`       {- {iqotiSAdiy~ -}   [ "economist" ],
+    IFtiCAL |< Iy             `noun`       {- AiqotiSAdiy~ -}   [ "economist" ],
 
     -- ;; {iqotiSAdiy~_2
     -- <qtSAdy {iqotiSAdiy~    N-ap    economic;economical     [[{iqotiSAdiy~/ADJ]]
     -- AqtSAdy {iqotiSAdiy~    N-ap    economic;economical     [[{iqotiSAdiy~/ADJ]]
 
-    IFtiCAL |< Iy             `adj`        {- {iqotiSAdiy~ -}   [ "economic", "economical" ],
+    IFtiCAL |< Iy             `adj`        {- AiqotiSAdiy~ -}   [ "economic", "economical" ],
 
     -- ;; qASid_1
     -- qASd    qASid   N-ap    direct;straight     [[qASid/ADJ]]
@@ -1441,8 +1401,7 @@ lexicon = listing "Lexicon's properties"
     -- qSdr    qaSodar PV      plate with tin
     -- qSdr    qaSodir IV_yu   plate with tin
 
-    KaRDaS                    `verb`       {- qaSodar -}        [ "plate with tin" ]
-                              {- `others` [ "qa.sdir IV_yu" ] -},
+    KaRDaS                    `verb`       {- qaSodar -}        [ "plate with tin" ],
 
     -- ;; qaSodiyr_1
     -- qSdyr   qaSodiyr        N       tin plating
@@ -1466,8 +1425,7 @@ lexicon = listing "Lexicon's properties"
     -- qSf     qoSif   IV      bomb;shell
 
     FaCaL                     `verb`       {- qaSaf-i -}        [ "bomb", "shell" ]
-                              `imperf`     FCiL
-                              {- `others` [ "q.sif IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; taqaS~af_1
     -- tqSf    taqaS~af        PV_intr be broken
@@ -1480,8 +1438,7 @@ lexicon = listing "Lexicon's properties"
     -- AnqSf   {inoqaSaf       PV_intr be broken
     -- nqSf    noqaSif IV_intr be broken
 
-    InFaCaL                   `verb`       {- {inoqaSaf -}      [ "be broken" ]
-                              {- `others` [ "nqa.sif IV_intr" ] -},
+    InFaCaL                   `verb`       {- AinoqaSaf -}      [ "be broken" ],
 
     -- ;; qaSof_1
     -- qSf     qaSof   N       bombardment;shelling
@@ -1522,16 +1479,14 @@ lexicon = listing "Lexicon's properties"
     -- qSl     qoSil   IV      cut off
 
     FaCaL                     `verb`       {- qaSal-i -}        [ "cut off" ]
-                              `imperf`     FCiL
-                              {- `others` [ "q.sil IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; {iqotaSal_1
     -- <qtSl   {iqotaSal       PV      cut off
     -- AqtSl   {iqotaSal       PV      cut off
     -- qtSl    qotaSil IV      cut off
 
-    IFtaCaL                   `verb`       {- {iqotaSal -}      [ "cut off" ]
-                              {- `others` [ "qta.sil IV" ] -},
+    IFtaCaL                   `verb`       {- AiqotaSal -}      [ "cut off" ],
 
     -- ;; qaSal_1
     -- qSl     qaSal   N       chaff;stalks
@@ -1574,8 +1529,7 @@ lexicon = listing "Lexicon's properties"
     -- qSm     qoSim   IV      break;shatter
 
     FaCaL                     `verb`       {- qaSam-i -}        [ "break", "shatter" ]
-                              `imperf`     FCiL
-                              {- `others` [ "q.sim IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; taqaS~am_1
     -- tqSm    taqaS~am        PV_intr be broken
@@ -1588,8 +1542,7 @@ lexicon = listing "Lexicon's properties"
     -- AnqSm   {inoqaSam       PV_intr be broken
     -- nqSm    noqaSim IV_intr be broken
 
-    InFaCaL                   `verb`       {- {inoqaSam -}      [ "be broken" ]
-                              {- `others` [ "nqa.sim IV_intr" ] -},
+    InFaCaL                   `verb`       {- AinoqaSam -}      [ "be broken" ],
 
     -- ;; qaSim_1
     -- qSm     qaSim   N-ap    fragile     [[qaSim/ADJ]]
@@ -1615,8 +1568,7 @@ lexicon = listing "Lexicon's properties"
     -- qSqS    qaSoqaS PV      break;shatter;trim
     -- qSqS    qaSoqiS IV_yu   break;shatter;trim
 
-    KaRDaS                    `verb`       {- qaSoqaS -}        [ "break", "shatter", "trim" ]
-                              {- `others` [ "qa.sqi.s IV_yu" ] -},
+    KaRDaS                    `verb`       {- qaSoqaS -}        [ "break", "shatter", "trim" ],
 
     -- ;; qaSoqaSap_1
     -- qSqS    qaSoqaS Nap     breaking;shattering;trimming
@@ -1630,38 +1582,33 @@ lexicon = listing "Lexicon's properties"
     -- qSr     qoSur   IV_intr be insufficient
 
     FaCuL                     `verb`       {- qaSur-u -}        [ "be insufficient" ]
-                              `imperf`     FCuL
-                              {- `others` [ "q.sur IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaSar-u_1
     -- qSr     qaSar   PV_intr fall short
     -- qSr     qoSur   IV_intr fall short
 
     FaCaL                     `verb`       {- qaSar-u -}        [ "fall short" ]
-                              `imperf`     FCuL
-                              {- `others` [ "q.sur IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaSar-i_1
     -- qSr     qaSar   PV      shorten;curtail
     -- qSr     qoSir   IV      shorten;curtail
 
     FaCaL                     `verb`       {- qaSar-i -}        [ "shorten", "curtail" ]
-                              `imperf`     FCiL
-                              {- `others` [ "q.sir IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qaS~ar_1
     -- qSr     qaS~ar  PV      shorten;curtail
     -- qSr     qaS~ir  IV_yu   shorten;curtail
 
-    FaCCaL                    `verb`       {- qaS~ar -}         [ "shorten", "curtail" ]
-                              {- `others` [ "qa.s.sir IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaS~ar -}         [ "shorten", "curtail" ],
 
     -- ;; qaS~ar_2
     -- qSr     qaS~ar  PV      fall short;be inferior
     -- qSr     qaS~ir  IV_yu   fall short;be inferior
 
-    FaCCaL                    `verb`       {- qaS~ar -}         [ "fall short", "be inferior" ]
-                              {- `others` [ "qa.s.sir IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaS~ar -}         [ "fall short", "be inferior" ],
 
     -- ;; >aqoSar_1
     -- >qSr    >aqoSar PV      shorten;curtail
@@ -1669,8 +1616,7 @@ lexicon = listing "Lexicon's properties"
     -- qSr     qoSir   IV_yu   shorten;curtail
     -- qSr     qoSar   IV_Pass_yu      be shortened;be curtailed
 
-    HaFCaL                    `verb`       {- OaqoSar -}        [ "shorten", "curtail", "be shortened", "be curtailed" ]
-                              {- `others` [ "q.sar IV_Pass_yu", "q.sir IV_yu" ] -},
+    HaFCaL                    `verb`       {- OaqoSar -}        [ "shorten", "curtail", "be shortened", "be curtailed" ],
 
     -- ;; taqASar_1
     -- tqASr   taqASar PV_intr become smaller;refrain
@@ -1683,15 +1629,14 @@ lexicon = listing "Lexicon's properties"
     -- AqtSr   {iqotaSar       PV_intr be limited to;abbreviate;shorten
     -- qtSr    qotaSir IV_intr be limited to;abbreviate;shorten
 
-    IFtaCaL                   `verb`       {- {iqotaSar -}      [ "be limited to", "abbreviate", "shorten" ]
-                              {- `others` [ "qta.sir IV_intr" ] -},
+    IFtaCaL                   `verb`       {- AiqotaSar -}      [ "be limited to", "abbreviate", "shorten" ],
 
     -- ;; {isotaqoSar_1
     -- <stqSr  {isotaqoSar     PV      regard as deficient
     -- AstqSr  {isotaqoSar     PV      regard as deficient
     -- stqSr   sotaqoSir       IV      regard as deficient
 
-    IstaFCaL                  `verb`       {- {isotaqoSar -}    [ "regard as deficient" ],
+    IstaFCaL                  `verb`       {- AisotaqoSar -}    [ "regard as deficient" ],
 
     -- ;; qaSor_1
     -- qSr     qaSor   N       shortness;smallness
@@ -1843,8 +1788,7 @@ lexicon = listing "Lexicon's properties"
     -- qS      qoS     IV_0hwnyn       be distant
 
     FaCA                      `verb`       {- qaSA-u -}         [ "be distant" ]
-                              `imperf`     FCuL
-                              {- `others` [ "q.suw IV_0hAnn", "qa.saw PV_Atn" ] -},
+                              `imperf`     FCuL,
 
     -- ;; >aqoSaY_1
     -- >qSY    >aqoSaY PV_0    remove
@@ -1860,8 +1804,7 @@ lexicon = listing "Lexicon's properties"
     -- qSY     qoSaY   IV_0_Pass_yu    be removed
     -- qSy     qoSay   IV_Ann_Pass_yu  be removed
 
-    HaFCY                     `verb`       {- OaqoSaY -}        [ "remove", "be removed" ]
-                              {- `others` [ "q.sY IV_0_Pass_yu", "q.siy IV_0hAnn_yu" ] -},
+    HaFCY                     `verb`       {- OaqoSaY -}        [ "remove", "be removed" ],
 
     -- ;; taqaS~aY_1
     -- tqSY    taqaS~aY        PV_0    examine;study
@@ -1888,7 +1831,7 @@ lexicon = listing "Lexicon's properties"
     -- stqS    sotaqoS IV_0hwnyn       penetrate;examine
     -- stqSY   sotaqoSaY       IV_0_Pass_yu    be penetrated;be examined
 
-    IstaFCY                   `verb`       {- {isotaqoSaY -}    [ "penetrate", "examine", "be penetrated", "be examined" ],
+    IstaFCY                   `verb`       {- AisotaqoSaY -}    [ "penetrate", "examine", "be penetrated", "be examined" ],
 
     -- ;; qaSaY_1
     -- qSY     qaSaY   N0      remoteness;distance
@@ -1962,13 +1905,13 @@ lexicon = listing "Lexicon's properties"
     -- <stqSA' {isotiqoSA'     NAt     investigations;examinations
     -- AstqSA' {isotiqoSA'     NAt     investigations;examinations
 
-    IstiFCA'                  `noun`       {- {isotiqoSA' -}    [ "investigation", "examination", "investigations", "examinations" ],
+    IstiFCA'                  `noun`       {- AisotiqoSA' -}    [ "investigation", "examination", "investigations", "examinations" ],
 
     -- ;; {isotiqoSA}iy~_1
     -- <stqSA}y        {isotiqoSA}iy~  N-ap    penetrating;thorough;probing     [[{isotiqoSA}iy~/ADJ]]
     -- AstqSA}y        {isotiqoSA}iy~  N-ap    penetrating;thorough;probing     [[{isotiqoSA}iy~/ADJ]]
 
-    IstiFCA' |< Iy            `adj`        {- {isotiqoSA}iy~ -} [ "penetrating", "thorough", "probing" ],
+    IstiFCA' |< Iy            `adj`        {- AisotiqoSA}iy~ -} [ "penetrating", "thorough", "probing" ],
 
     -- ;; qASiy_1
     -- qASy    qASiy   N0F     distant;remote     [[qASiy/ADJ]]
@@ -1989,8 +1932,7 @@ lexicon = listing "Lexicon's properties"
     -- qS      qoSa    IV_0hwnyn       be distant
 
     FaCiL                     `verb`       {- qaSiy-a -}        [ "be distant" ]
-                              `imperf`     FCaL
-                              {- `others` [ "q.sY IV_0", "q.say IV_Ann" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qaSiy~_1
     -- qSy     qaSiy~  N/ap    distant;remote     [[qaSiy~/ADJ]]
@@ -2029,15 +1971,13 @@ lexicon = listing "Lexicon's properties"
     -- qTT     qoTuT   IV_C    carve;trim;sharpen
 
     FaCL                      `verb`       {- qaT~-u -}         [ "carve", "trim", "sharpen" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qa.ta.t PV_C", "q.tu.t IV_C", "qu.t.t IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaT~aT_1
     -- qTT     qaT~aT  PV      carve
     -- qTT     qaT~iT  IV_yu   carve
 
-    FaCCaL                    `verb`       {- qaT~aT -}         [ "carve" ]
-                              {- `others` [ "qa.t.ti.t IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaT~aT -}         [ "carve" ],
 
     -- ;; {iqotaT~_1
     -- <qtT    {iqotaT~        PV_V    sharpen
@@ -2047,8 +1987,7 @@ lexicon = listing "Lexicon's properties"
     -- qtT     qotaT~  IV_V    sharpen
     -- qtTT    qotaTiT IV_C    sharpen
 
-    IFtaCL                    `verb`       {- {iqotaT~ -}       [ "sharpen" ]
-                              {- `others` [ "qta.ti.t IV_C", "iqta.ta.t PV_C", "qta.t.t IV_V" ] -},
+    IFtaCL                    `verb`       {- AiqotaT~ -}       [ "sharpen" ],
 
     -- ;; qaT~_1
     -- qT      qaT~    N       carving;trimming;sharpening
@@ -2096,23 +2035,20 @@ lexicon = listing "Lexicon's properties"
     -- qTE     qoTaE   IV      cut off;sever;interrupt;stop
 
     FaCaL                     `verb`       {- qaTaE-a -}        [ "cut off", "sever", "interrupt", "stop" ]
-                              `imperf`     FCaL
-                              {- `others` [ "q.ta` IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qaT~aE_1
     -- qTE     qaT~aE  PV      cut apart
     -- qTE     qaT~iE  IV_yu   cut apart
 
-    FaCCaL                    `verb`       {- qaT~aE -}         [ "cut apart" ]
-                              {- `others` [ "qa.t.ti` IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaT~aE -}         [ "cut apart" ],
 
     -- ;; qATaE_1
     -- qATE    qATaE   PV      boycott
     -- qATE    qATiE   IV_yu   boycott
     -- qATE    qATaE   IV_Pass_yu      be boycotted
 
-    FACaL                     `verb`       {- qATaE -}          [ "boycott", "be boycotted" ]
-                              {- `others` [ "qA.ti` IV_yu" ] -},
+    FACaL                     `verb`       {- qATaE -}          [ "boycott", "be boycotted" ],
 
     -- ;; >aqoTaE_1
     -- >qTE    >aqoTaE PV      sever;interrupt
@@ -2120,8 +2056,7 @@ lexicon = listing "Lexicon's properties"
     -- qTE     qoTiE   IV_yu   sever;interrupt
     -- qTE     qoTaE   IV_Pass_yu      be severed;be interrupted
 
-    HaFCaL                    `verb`       {- OaqoTaE -}        [ "sever", "interrupt", "be severed", "be interrupted" ]
-                              {- `others` [ "q.ta` IV_Pass_yu", "q.ti` IV_yu" ] -},
+    HaFCaL                    `verb`       {- OaqoTaE -}        [ "sever", "interrupt", "be severed", "be interrupted" ],
 
     -- ;; taqaT~aE_1
     -- tqTE    taqaT~aE        PV_intr be severed;be interrupted
@@ -2140,23 +2075,21 @@ lexicon = listing "Lexicon's properties"
     -- AnqTE   {inoqaTaE       PV_intr be severed;be interrupted
     -- nqTE    noqaTiE IV_intr be severed;be interrupted
 
-    InFaCaL                   `verb`       {- {inoqaTaE -}      [ "be severed", "be interrupted" ]
-                              {- `others` [ "nqa.ti` IV_intr" ] -},
+    InFaCaL                   `verb`       {- AinoqaTaE -}      [ "be severed", "be interrupted" ],
 
     -- ;; {iqotaTaE_1
     -- <qtTE   {iqotaTaE       PV      take apart
     -- AqtTE   {iqotaTaE       PV      take apart
     -- qtTE    qotaTiE IV      take apart
 
-    IFtaCaL                   `verb`       {- {iqotaTaE -}      [ "take apart" ]
-                              {- `others` [ "qta.ti` IV" ] -},
+    IFtaCaL                   `verb`       {- AiqotaTaE -}      [ "take apart" ],
 
     -- ;; {isotaqoTaE_1
     -- <stqTE  {isotaqoTaE     PV      deduct
     -- AstqTE  {isotaqoTaE     PV      deduct
     -- stqTE   sotaqoTiE       IV      deduct
 
-    IstaFCaL                  `verb`       {- {isotaqoTaE -}    [ "deduct" ],
+    IstaFCaL                  `verb`       {- AisotaqoTaE -}    [ "deduct" ],
 
     -- ;; qaToE_1
     -- qTE     qaToE   N       breaking off;interruption
@@ -2359,25 +2292,25 @@ lexicon = listing "Lexicon's properties"
     -- <nqTAE  {inoqiTAE       NduAt   breakoff;discontinuation
     -- AnqTAE  {inoqiTAE       NduAt   breakoff;discontinuation
 
-    InFiCAL                   `noun`       {- {inoqiTAE -}      [ "breakoff", "discontinuation" ],
+    InFiCAL                   `noun`       {- AinoqiTAE -}      [ "breakoff", "discontinuation" ],
 
     -- ;; {inoqiTAEiy~ap_1
     -- <nqTAEy {inoqiTAEiy~    Nap     separatism     [[{inoqiTAEiy~/NOUN]]
     -- AnqTAEy {inoqiTAEiy~    Nap     separatism     [[{inoqiTAEiy~/NOUN]]
 
-    InFiCAL |< Iy |< aT       `noun`       {- {inoqiTAEiy~ap -} [ "separatism" ],
+    InFiCAL |< Iy |< aT       `noun`       {- AinoqiTAEiy~ap -} [ "separatism" ],
 
     -- ;; {iqotiTAE_1
     -- <qtTAE  {iqotiTAE       N/At    deduction
     -- AqtTAE  {iqotiTAE       N/At    deduction
 
-    IFtiCAL                   `noun`       {- {iqotiTAE -}      [ "deduction" ],
+    IFtiCAL                   `noun`       {- AiqotiTAE -}      [ "deduction" ],
 
     -- ;; {isotiqoTAE_1
     -- <stqTAE {isotiqoTAE     N/At    deduction;reduction
     -- AstqTAE {isotiqoTAE     N/At    deduction;reduction
 
-    IstiFCAL                  `noun`       {- {isotiqoTAE -}    [ "deduction", "reduction" ],
+    IstiFCAL                  `noun`       {- AisotiqoTAE -}    [ "deduction", "reduction" ],
 
     -- ;; qATiE_1
     -- qATE    qATiE   N-ap    decisive;definitive;convincing;conclusive     [[qATiE/ADJ]]
@@ -2470,15 +2403,13 @@ lexicon = listing "Lexicon's properties"
     -- qTb     qoTib   IV      draw together;concentrate
 
     FaCaL                     `verb`       {- qaTab-i -}        [ "draw together", "concentrate" ]
-                              `imperf`     FCiL
-                              {- `others` [ "q.tib IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qaT~ab_1
     -- qTb     qaT~ab  PV      frown;scowl
     -- qTb     qaT~ib  IV_yu   frown;scowl
 
-    FaCCaL                    `verb`       {- qaT~ab -}         [ "frown", "scowl" ]
-                              {- `others` [ "qa.t.tib IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaT~ab -}         [ "frown", "scowl" ],
 
     -- ;; taqaT~ab_1
     -- tqTb    taqaT~ab        PV_intr become gloomy
@@ -2491,7 +2422,7 @@ lexicon = listing "Lexicon's properties"
     -- AstqTb  {isotaqoTab     PV      unite;polarize
     -- stqTb   sotaqoTib       IV      unite;polarize
 
-    IstaFCaL                  `verb`       {- {isotaqoTab -}    [ "unite", "polarize" ],
+    IstaFCaL                  `verb`       {- AisotaqoTab -}    [ "unite", "polarize" ],
 
     -- ;; quTob_1
     -- qTb     quTob   Ndu     axis;pole
@@ -2536,7 +2467,7 @@ lexicon = listing "Lexicon's properties"
     -- <stqTAb {isotiqoTAb     N/At    polarization;unification
     -- AstqTAb {isotiqoTAb     N/At    polarization;unification
 
-    IstiFCAL                  `noun`       {- {isotiqoTAb -}    [ "polarization", "unification" ],
+    IstiFCAL                  `noun`       {- AisotiqoTAb -}    [ "polarization", "unification" ],
 
     -- ;; qATibap_1
     -- qATb    qATib   Nap     all without exception;one and all
@@ -2550,23 +2481,20 @@ lexicon = listing "Lexicon's properties"
     -- qTf     qoTif   IV      harvest;skim off
 
     FaCaL                     `verb`       {- qaTaf-i -}        [ "harvest", "skim off" ]
-                              `imperf`     FCiL
-                              {- `others` [ "q.tif IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qaT~af_1
     -- qTf     qaT~af  PV      harvest;skim off
     -- qTf     qaT~if  IV_yu   harvest;skim off
 
-    FaCCaL                    `verb`       {- qaT~af -}         [ "harvest", "skim off" ]
-                              {- `others` [ "qa.t.tif IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaT~af -}         [ "harvest", "skim off" ],
 
     -- ;; {iqotaTaf_1
     -- <qtTf   {iqotaTaf       PV      harvest
     -- AqtTf   {iqotaTaf       PV      harvest
     -- qtTf    qotaTif IV      harvest
 
-    IFtaCaL                   `verb`       {- {iqotaTaf -}      [ "harvest" ]
-                              {- `others` [ "qta.tif IV" ] -},
+    IFtaCaL                   `verb`       {- AiqotaTaf -}      [ "harvest" ],
 
     -- ;; qaTof_1
     -- qTf     qaTof   N       production;harvesting
@@ -2634,7 +2562,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtTAf  {iqotiTAf       N/At    gathering;selecting
     -- AqtTAf  {iqotiTAf       N/At    gathering;selecting
 
-    IFtiCAL                   `noun`       {- {iqotiTAf -}      [ "gathering", "selecting" ],
+    IFtiCAL                   `noun`       {- AiqotiTAf -}      [ "gathering", "selecting" ],
 
     -- ;; muqotaTaf_1
     -- mqtTf   muqotaTaf       Ndu     selection;excerpt;snippet
@@ -2651,15 +2579,13 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `verb`       {- qaTal-ui -}       [ "cut off" ]
                               `imperf`     FCuL
-                              `imperf`     FCiL
-                              {- `others` [ "q.tul IV", "q.til IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qaT~al_1
     -- qTl     qaT~al  PV      cut off
     -- qTl     qaT~il  IV_yu   cut off
 
-    FaCCaL                    `verb`       {- qaT~al -}         [ "cut off" ]
-                              {- `others` [ "qa.t.til IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaT~al -}         [ "cut off" ],
 
     -- ;; qaTol_1
     -- qTl     qaTol   N       cutting off
@@ -2678,8 +2604,7 @@ lexicon = listing "Lexicon's properties"
     -- qTm     qoTim   IV      cut off;break off
 
     FaCaL                     `verb`       {- qaTam-i -}        [ "cut off", "break off" ]
-                              `imperf`     FCiL
-                              {- `others` [ "q.tim IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qaTom_1
     -- qTm     qaTom   N       cutting off;breaking off
@@ -2723,15 +2648,13 @@ lexicon = listing "Lexicon's properties"
     -- qTn     qoTun   IV-n    reside;dwell;be settled
 
     FaCaL                     `verb`       {- qaTan-u -}        [ "reside", "dwell", "be settled" ]
-                              `imperf`     FCuL
-                              {- `others` [ "q.tun IV-n" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaT~an_1
     -- qTn     qaT~an  PV-n    make reside;settle
     -- qTn     qaT~in  IV-n_yu make reside;settle
 
-    FaCCaL                    `verb`       {- qaT~an -}         [ "make reside", "settle" ]
-                              {- `others` [ "qa.t.tin IV-n_yu" ] -},
+    FaCCaL                    `verb`       {- qaT~an -}         [ "make reside", "settle" ],
 
     -- ;; quTuwn_1
     -- qTwn    quTuwn  N       residing;dwelling
@@ -2811,15 +2734,13 @@ lexicon = listing "Lexicon's properties"
     -- qTr     qoTur   IV      trickle;drip
 
     FaCaL                     `verb`       {- qaTar-u -}        [ "trickle", "drip" ]
-                              `imperf`     FCuL
-                              {- `others` [ "q.tur IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaT~ar_1
     -- qTr     qaT~ar  PV      make drip;make trickle
     -- qTr     qaT~ir  IV_yu   make drip;make trickle
 
-    FaCCaL                    `verb`       {- qaT~ar -}         [ "make drip", "make trickle" ]
-                              {- `others` [ "qa.t.tir IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaT~ar -}         [ "make drip", "make trickle" ],
 
     -- ;; taqaT~ar_1
     -- tqTr    taqaT~ar        PV      trickle;drip
@@ -2838,7 +2759,7 @@ lexicon = listing "Lexicon's properties"
     -- AstqTr  {isotaqoTar     PV      distill
     -- stqTr   sotaqoTir       IV      distill
 
-    IstaFCaL                  `verb`       {- {isotaqoTar -}    [ "distill" ],
+    IstaFCaL                  `verb`       {- AisotaqoTar -}    [ "distill" ],
 
     -- ;; qaTar_1
     -- qTr     qaTar   Ndip    Qatar
@@ -2930,7 +2851,7 @@ lexicon = listing "Lexicon's properties"
     -- <stqTAr {isotiqoTAr     N/At    distillation
     -- AstqTAr {isotiqoTAr     N/At    distillation
 
-    IstiFCAL                  `noun`       {- {isotiqoTAr -}    [ "distillation" ],
+    IstiFCAL                  `noun`       {- AisotiqoTAr -}    [ "distillation" ],
 
     -- ;; qATirap_1
     -- qATr    qATir   NapAt   locomotive;tractor truck
@@ -2961,8 +2882,7 @@ lexicon = listing "Lexicon's properties"
     -- qTrn    qaToran PV-n    coat with tar
     -- qTrn    qaTorin IV-n_yu coat with tar
 
-    KaRDaS                    `verb`       {- qaToran -}        [ "coat with tar" ]
-                              {- `others` [ "qa.trin IV-n_yu" ] -},
+    KaRDaS                    `verb`       {- qaToran -}        [ "coat with tar" ],
 
     -- ;; qaToranap_1
     -- qTrn    qaToran Nap     coating with tar
@@ -2996,15 +2916,13 @@ lexicon = listing "Lexicon's properties"
     -- q$T     qo$iT   IV      remove;abrade
 
     FaCaL                     `verb`       {- qa$aT-i -}        [ "remove", "abrade" ]
-                              `imperf`     FCiL
-                              {- `others` [ "q^si.t IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qa$~aT_1
     -- q$T     qa$~aT  PV      strip off;plunder
     -- q$T     qa$~iT  IV_yu   strip off;plunder
 
-    FaCCaL                    `verb`       {- qa$~aT -}         [ "strip off", "plunder" ]
-                              {- `others` [ "qa^s^si.t IV_yu" ] -},
+    FaCCaL                    `verb`       {- qa$~aT -}         [ "strip off", "plunder" ],
 
     -- ;; qi$oTap_1
     -- q$T     qi$oT   Nap     cream
@@ -3077,15 +2995,13 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`       {- qa$~-ui -}        [ "collect", "dry up" ]
                               `imperf`     FCuL
-                              `imperf`     FCiL
-                              {- `others` [ "qi^s^s IV_V", "qu^s^s IV_V", "q^si^s IV_C", "q^su^s IV_C", "qa^sa^s PV_C" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qa$~a$_1
     -- q$$     qa$~a$  PV      reupholster;reseat;glean
     -- q$$     qa$~i$  IV_yu   reupholster;reseat;glean
 
-    FaCCaL                    `verb`       {- qa$~a$ -}         [ "reupholster", "reseat", "glean" ]
-                              {- `others` [ "qa^s^si^s IV_yu" ] -},
+    FaCCaL                    `verb`       {- qa$~a$ -}         [ "reupholster", "reseat", "glean" ],
 
     -- ;; qa$~_1
     -- q$      qa$~    N       straw;matches
@@ -3129,15 +3045,13 @@ lexicon = listing "Lexicon's properties"
     -- q$E     qo$aE   IV      disperse;scatter
 
     FaCaL                     `verb`       {- qa$aE-a -}        [ "disperse", "scatter" ]
-                              `imperf`     FCaL
-                              {- `others` [ "q^sa` IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qa$~aE_1
     -- q$E     qa$~aE  PV      spit;expectorate
     -- q$E     qa$~iE  IV_yu   spit;expectorate
 
-    FaCCaL                    `verb`       {- qa$~aE -}         [ "spit", "expectorate" ]
-                              {- `others` [ "qa^s^si` IV_yu" ] -},
+    FaCCaL                    `verb`       {- qa$~aE -}         [ "spit", "expectorate" ],
 
     -- ;; >aqo$aE_1
     -- >q$E    >aqo$aE PV      disperse;scatter
@@ -3145,8 +3059,7 @@ lexicon = listing "Lexicon's properties"
     -- q$E     qo$iE   IV_yu   disperse;scatter
     -- q$E     qo$aE   IV_Pass_yu      be dispersed;be scattered
 
-    HaFCaL                    `verb`       {- Oaqo$aE -}        [ "disperse", "scatter", "be dispersed", "be scattered" ]
-                              {- `others` [ "q^sa` IV_Pass_yu", "q^si` IV_yu" ] -},
+    HaFCaL                    `verb`       {- Oaqo$aE -}        [ "disperse", "scatter", "be dispersed", "be scattered" ],
 
     -- ;; taqa$~aE_1
     -- tq$E    taqa$~aE        PV_intr be dispersed;dissipate
@@ -3159,8 +3072,7 @@ lexicon = listing "Lexicon's properties"
     -- Anq$E   {inoqa$aE       PV_intr be dispersed;dissipate
     -- nq$E    noqa$iE IV_intr be dispersed;dissipate
 
-    InFaCaL                   `verb`       {- {inoqa$aE -}      [ "be dispersed", "dissipate" ]
-                              {- `others` [ "nqa^si` IV_intr" ] -},
+    InFaCaL                   `verb`       {- Ainoqa$aE -}      [ "be dispersed", "dissipate" ],
 
     -- ;; qa$oE_1
     -- q$E     qa$oE   N       scattering;dispersal
@@ -3186,7 +3098,7 @@ lexicon = listing "Lexicon's properties"
     -- <nq$AE  {inoqi$AE       N/At    dissipation;dispersion
     -- Anq$AE  {inoqi$AE       N/At    dissipation;dispersion
 
-    InFiCAL                   `noun`       {- {inoqi$AE -}      [ "dissipation", "dispersion" ] ]
+    InFiCAL                   `noun`       {- Ainoqi$AE -}      [ "dissipation", "dispersion" ] ]
 
  |> "q ^s ` m" <| [
 
@@ -3204,8 +3116,7 @@ lexicon = listing "Lexicon's properties"
     -- q$Er    qa$oEar PV      exasperate;give goose bumps
     -- q$Er    qa$oEir IV_yu   exasperate;give goose bumps
 
-    KaRDaS                    `verb`       {- qa$oEar -}        [ "exasperate", "give goose bumps" ]
-                              {- `others` [ "qa^s`ir IV_yu" ] -},
+    KaRDaS                    `verb`       {- qa$oEar -}        [ "exasperate", "give goose bumps" ],
 
     -- ;; {iqo$aEar~_1
     -- <q$Er   {iqo$aEar~      PV_V    tremble;shudder;get goose bumps
@@ -3215,8 +3126,7 @@ lexicon = listing "Lexicon's properties"
     -- q$Er    qo$aEir~        IV_V    tremble;shudder;get goose bumps
     -- q$Err   qo$aEorir       IV_C    tremble;shudder;get goose bumps
 
-    IKRaDaSS                  `verb`       {- {iqo$aEar~ -}     [ "tremble", "shudder", "get goose bumps" ]
-                              {- `others` [ "q^sa`irr IV_V" ] -} ]
+    IKRaDaSS                  `verb`       {- Aiqo$aEar~ -}     [ "tremble", "shudder", "get goose bumps" ] ]
 
  |> "q ^s b" <| [
 
@@ -3225,8 +3135,7 @@ lexicon = listing "Lexicon's properties"
     -- q$b     qo$ub   IV      poison
 
     FaCaL                     `verb`       {- qa$ab-u -}        [ "poison" ]
-                              `imperf`     FCuL
-                              {- `others` [ "q^sub IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qa$ab_1
     -- q$b     qa$ab   N       poison
@@ -3260,8 +3169,7 @@ lexicon = listing "Lexicon's properties"
     -- q$d     qo$ud   IV      skim off
 
     FaCaL                     `verb`       {- qa$ad-u -}        [ "skim off" ]
-                              `imperf`     FCuL
-                              {- `others` [ "q^sud IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qa$od_1
     -- q$d     qa$od   N       skimming off
@@ -3295,23 +3203,20 @@ lexicon = listing "Lexicon's properties"
     -- q$f     qo$af   IV_intr be filthy
 
     FaCiL                     `verb`       {- qa$if-a -}        [ "be filthy" ]
-                              `imperf`     FCaL
-                              {- `others` [ "q^saf IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qa$uf-u_1
     -- q$f     qa$uf   PV_intr be filthy
     -- q$f     qo$uf   IV_intr be filthy
 
     FaCuL                     `verb`       {- qa$uf-u -}        [ "be filthy" ]
-                              `imperf`     FCuL
-                              {- `others` [ "q^suf IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qa$~af_1
     -- q$f     qa$~af  PV_intr be chapped
     -- q$f     qa$~if  IV_intr_yu      be chapped
 
-    FaCCaL                    `verb`       {- qa$~af -}         [ "be chapped" ]
-                              {- `others` [ "qa^s^sif IV_intr_yu" ] -},
+    FaCCaL                    `verb`       {- qa$~af -}         [ "be chapped" ],
 
     -- ;; taqa$~af_1
     -- tq$f    taqa$~af        PV      be austere
@@ -3354,8 +3259,7 @@ lexicon = listing "Lexicon's properties"
     -- q$l     qo$al   IV_intr be penniless
 
     FaCiL                     `verb`       {- qa$il-a -}        [ "be penniless" ]
-                              `imperf`     FCaL
-                              {- `others` [ "q^sal IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qa$al_1
     -- q$l     qa$al   N       destitution
@@ -3390,8 +3294,7 @@ lexicon = listing "Lexicon's properties"
     -- q$q$    qa$oqa$ PV      cure;sweep away
     -- q$q$    qa$oqi$ IV_yu   cure;sweep away
 
-    KaRDaS                    `verb`       {- qa$oqa$ -}        [ "cure", "sweep away" ]
-                              {- `others` [ "qa^sqi^s IV_yu" ] -},
+    KaRDaS                    `verb`       {- qa$oqa$ -}        [ "cure", "sweep away" ],
 
     -- ;; qa$oqa$ap_1
     -- q$q$    qa$oqa$ Nap     curing;sweeping away
@@ -3407,15 +3310,13 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `verb`       {- qa$ar-ui -}       [ "peel", "strip off" ]
                               `imperf`     FCuL
-                              `imperf`     FCiL
-                              {- `others` [ "q^sir IV", "q^sur IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qa$~ar_1
     -- q$r     qa$~ar  PV      peel;strip off
     -- q$r     qa$~ir  IV_yu   peel;strip off
 
-    FaCCaL                    `verb`       {- qa$~ar -}         [ "peel", "strip off" ]
-                              {- `others` [ "qa^s^sir IV_yu" ] -},
+    FaCCaL                    `verb`       {- qa$~ar -}         [ "peel", "strip off" ],
 
     -- ;; taqa$~ar_1
     -- tq$r    taqa$~ar        PV_intr be peeled off;be shaved off
@@ -3428,8 +3329,7 @@ lexicon = listing "Lexicon's properties"
     -- Anq$r   {inoqa$ar       PV_intr be peeled off;be shaved off
     -- nq$r    noqa$ir IV_intr be peeled off;be shaved off
 
-    InFaCaL                   `verb`       {- {inoqa$ar -}      [ "be peeled off", "be shaved off" ]
-                              {- `others` [ "nqa^sir IV_intr" ] -},
+    InFaCaL                   `verb`       {- Ainoqa$ar -}      [ "be peeled off", "be shaved off" ],
 
     -- ;; qi$or_1
     -- q$r     qi$or   N       skin;peel;shell;scales
@@ -3517,8 +3417,7 @@ lexicon = listing "Lexicon's properties"
     -- q*E     qo*aE   IV      malign;vilify
 
     FaCaL                     `verb`       {- qa*aE-a -}        [ "malign", "vilify" ]
-                              `imperf`     FCaL
-                              {- `others` [ "q_da` IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; >aqo*aE_1
     -- >q*E    >aqo*aE PV      malign;vilify
@@ -3526,8 +3425,7 @@ lexicon = listing "Lexicon's properties"
     -- q*E     qo*iE   IV_yu   malign;vilify
     -- q*E     qo*aE   IV_Pass_yu      be maligned;be vilified
 
-    HaFCaL                    `verb`       {- Oaqo*aE -}        [ "malign", "vilify", "be maligned", "be vilified" ]
-                              {- `others` [ "q_da` IV_Pass_yu", "q_di` IV_yu" ] -},
+    HaFCaL                    `verb`       {- Oaqo*aE -}        [ "malign", "vilify", "be maligned", "be vilified" ],
 
     -- ;; qa*oE_1
     -- q*E     qa*oE   N       maligning;vilifying
@@ -3552,23 +3450,20 @@ lexicon = listing "Lexicon's properties"
     -- q*f     qo*if   IV      strafe;bomb;shell
 
     FaCaL                     `verb`       {- qa*af-i -}        [ "strafe", "bomb", "shell" ]
-                              `imperf`     FCiL
-                              {- `others` [ "q_dif IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qa*af-i_2
     -- q*f     qa*af   PV      throw;pelt;slander
     -- q*f     qo*if   IV      throw;pelt;slander
 
     FaCaL                     `verb`       {- qa*af-i -}        [ "throw", "pelt", "slander" ]
-                              `imperf`     FCiL
-                              {- `others` [ "q_dif IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qa*~af_1
     -- q*f     qa*~af  PV      oar
     -- q*f     qa*~if  IV_yu   oar
 
-    FaCCaL                    `verb`       {- qa*~af -}         [ "oar" ]
-                              {- `others` [ "qa_d_dif IV_yu" ] -},
+    FaCCaL                    `verb`       {- qa*~af -}         [ "oar" ],
 
     -- ;; taqA*af_1
     -- tqA*f   taqA*af PV      pelt each other;toss back and forth
@@ -3581,8 +3476,7 @@ lexicon = listing "Lexicon's properties"
     -- Anq*f   {inoqa*af       PV_intr be thrown;be tossed
     -- nq*f    noqa*if IV_intr be thrown;be tossed
 
-    InFaCaL                   `verb`       {- {inoqa*af -}      [ "be thrown", "be tossed" ]
-                              {- `others` [ "nqa_dif IV_intr" ] -},
+    InFaCaL                   `verb`       {- Ainoqa*af -}      [ "be thrown", "be tossed" ],
 
     -- ;; qa*of_1
     -- q*f     qa*of   N       shelling;bombing
@@ -3696,22 +3590,20 @@ lexicon = listing "Lexicon's properties"
     -- q*r     qo*ar   IV_intr be soiled;be polluted
 
     FaCiL                     `verb`       {- qa*ir-a -}        [ "be soiled", "be polluted" ]
-                              `imperf`     FCaL
-                              {- `others` [ "q_dar IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qa*~ar_1
     -- q*r     qa*~ar  PV      pollute;contaminate
     -- q*r     qa*~ir  IV_yu   pollute;contaminate
 
-    FaCCaL                    `verb`       {- qa*~ar -}         [ "pollute", "contaminate" ]
-                              {- `others` [ "qa_d_dir IV_yu" ] -},
+    FaCCaL                    `verb`       {- qa*~ar -}         [ "pollute", "contaminate" ],
 
     -- ;; {isotaqo*ar_1
     -- <stq*r  {isotaqo*ar     PV      find impure;find filthy
     -- Astq*r  {isotaqo*ar     PV      find impure;find filthy
     -- stq*r   sotaqo*ir       IV      find impure;find filthy
 
-    IstaFCaL                  `verb`       {- {isotaqo*ar -}    [ "find impure", "find filthy" ],
+    IstaFCaL                  `verb`       {- Aisotaqo*ar -}    [ "find impure", "find filthy" ],
 
     -- ;; qa*ar_1
     -- q*r     qa*ar   N       impurity;filth
@@ -3766,8 +3658,7 @@ lexicon = listing "Lexicon's properties"
     -- q*Y     qo*aY   IV_0_Pass_yu    be bothered;be harrassed;be annoyed
     -- q*y     qo*ay   IV_Ann_Pass_yu  be bothered;be harrassed;be annoyed
 
-    HaFCY                     `verb`       {- Oaqo*aY -}        [ "bother", "harrass", "annoy", "be bothered", "be harrassed", "be annoyed" ]
-                              {- `others` [ "q_dY IV_0_Pass_yu", "q_day IV_Ann_Pass_yu", "'aq_day PV_Atn", "q_diy IV_0hAnn_yu" ] -},
+    HaFCY                     `verb`       {- Oaqo*aY -}        [ "bother", "harrass", "annoy", "be bothered", "be harrassed", "be annoyed" ],
 
     -- ;; qa*aY_1
     -- q*Y     qa*aY   N0      speck;mote
@@ -3816,14 +3707,14 @@ lexicon = listing "Lexicon's properties"
 
  |> "q _t _t" <| [
 
-    -- ;; qav~_1
+    -- ;; qav~-u_1
     -- qv      qav~    PV_V    uproot;extirpate
     -- qvv     qavav   PV_C    uproot;extirpate
     -- qv      quv~    IV_V    uproot;extirpate
     -- qvv     qovuv   IV_C    uproot;extirpate
 
-    FaCL                      `verb`       {- qav~ -}           [ "uproot", "extirpate" ]
-                              {- `others` [ "qu_t_t IV_V", "q_tu_t IV_C", "qa_ta_t PV_C" ] -},
+    FaCL                      `verb`       {- qav~-u -}         [ "uproot", "extirpate" ]
+                              `imperf`     FCuL,
 
     -- ;; {iqotav~_1
     -- <qtv    {iqotav~        PV_V    uproot;extirpate
@@ -3833,8 +3724,7 @@ lexicon = listing "Lexicon's properties"
     -- qtv     qotav~  IV_V    uproot;extirpate
     -- qtvv    qotaviv IV_C    uproot;extirpate
 
-    IFtaCL                    `verb`       {- {iqotav~ -}       [ "uproot", "extirpate" ]
-                              {- `others` [ "qta_ti_t IV_C", "iqta_ta_t PV_C", "qta_t_t IV_V" ] -} ]
+    IFtaCL                    `verb`       {- Aiqotav~ -}       [ "uproot", "extirpate" ] ]
 
  |> "q _t r" <| [
 
@@ -3866,15 +3756,13 @@ lexicon = listing "Lexicon's properties"
     -- qEd     qoEud   IV      sit down;be seated;remain
 
     FaCaL                     `verb`       {- qaEad-u -}        [ "sit down", "be seated", "remain" ]
-                              `imperf`     FCuL
-                              {- `others` [ "q`ud IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaE~ad_1
     -- qEd     qaE~ad  PV      serve
     -- qEd     qaE~id  IV_yu   serve
 
-    FaCCaL                    `verb`       {- qaE~ad -}         [ "serve" ]
-                              {- `others` [ "qa``id IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaE~ad -}         [ "serve" ],
 
     -- ;; >aqoEad_1
     -- >qEd    >aqoEad PV      make sit;make stay
@@ -3882,8 +3770,7 @@ lexicon = listing "Lexicon's properties"
     -- qEd     qoEid   IV_yu   make sit;make stay
     -- qEd     qoEad   IV_Pass_yu      be sat down;be made stay
 
-    HaFCaL                    `verb`       {- OaqoEad -}        [ "make sit", "make stay", "be sat down", "be made stay" ]
-                              {- `others` [ "q`id IV_yu", "q`ad IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- OaqoEad -}        [ "make sit", "make stay", "be sat down", "be made stay" ],
 
     -- ;; taqaE~ad_1
     -- tqEd    taqaE~ad        PV      desist;abstain
@@ -3902,8 +3789,7 @@ lexicon = listing "Lexicon's properties"
     -- AqtEd   {iqotaEad       PV      sit down;remain
     -- qtEd    qotaEid IV      sit down;remain
 
-    IFtaCaL                   `verb`       {- {iqotaEad -}      [ "sit down", "remain" ]
-                              {- `others` [ "qta`id IV" ] -},
+    IFtaCaL                   `verb`       {- AiqotaEad -}      [ "sit down", "remain" ],
 
     -- ;; qaEodap_1
     -- qEd     qaEod   Napdu   sitting place;seat
@@ -4046,8 +3932,7 @@ lexicon = listing "Lexicon's properties"
     -- qEqE    qaEoqaE PV      clatter;rattle
     -- qEqE    qaEoqiE IV_yu   clatter;rattle
 
-    KaRDaS                    `verb`       {- qaEoqaE -}        [ "clatter", "rattle" ]
-                              {- `others` [ "qa`qi` IV_yu" ] -},
+    KaRDaS                    `verb`       {- qaEoqaE -}        [ "clatter", "rattle" ],
 
     -- ;; qaEoqaEap_1
     -- qEqE    qaEoqaE Nap     noise;rattle
@@ -4069,15 +3954,13 @@ lexicon = listing "Lexicon's properties"
     -- qEr     qoEur   IV_intr be deep;be hollowed out
 
     FaCuL                     `verb`       {- qaEur-u -}        [ "be deep", "be hollowed out" ]
-                              `imperf`     FCuL
-                              {- `others` [ "q`ur IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaE~ar_1
     -- qEr     qaE~ar  PV      deepen;hollow out;excavate
     -- qEr     qaE~ir  IV_yu   deepen;hollow out;excavate
 
-    FaCCaL                    `verb`       {- qaE~ar -}         [ "deepen", "hollow out", "excavate" ]
-                              {- `others` [ "qa``ir IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaE~ar -}         [ "deepen", "hollow out", "excavate" ],
 
     -- ;; >aqoEar_1
     -- >qEr    >aqoEar PV      make deep;excavate
@@ -4085,8 +3968,7 @@ lexicon = listing "Lexicon's properties"
     -- qEr     qoEir   IV_yu   make deep;excavate
     -- qEr     qoEar   IV_Pass_yu      be excavated
 
-    HaFCaL                    `verb`       {- OaqoEar -}        [ "make deep", "excavate", "be excavated" ]
-                              {- `others` [ "q`ir IV_yu", "q`ar IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- OaqoEar -}        [ "make deep", "excavate", "be excavated" ],
 
     -- ;; taqaE~ar_1
     -- tqEr    taqaE~ar        PV_intr be hollowed out;be deep
@@ -4129,8 +4011,7 @@ lexicon = listing "Lexicon's properties"
     -- qEs     qoEas   IV_intr be pigeon-breasted
 
     FaCiL                     `verb`       {- qaEis-a -}        [ "be pigeon-breasted" ]
-                              `imperf`     FCaL
-                              {- `others` [ "q`as IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; taqAEas_1
     -- tqAEs   taqAEas PV_intr be negligent;refrain;disregard
@@ -4143,8 +4024,7 @@ lexicon = listing "Lexicon's properties"
     -- AqEnss  {iqoEanosas     PV_intr be pigeon-breasted
     -- qEnss   qoEanosis       IV_intr be pigeon-breasted
 
-    IFCanLaL                  `verb`       {- {iqoEanosas -}    [ "be pigeon-breasted" ]
-                              {- `others` [ "q`ansis IV_intr" ] -},
+    IFCanLaL                  `verb`       {- AiqoEanosas -}    [ "be pigeon-breasted" ],
 
     -- ;; >aqoEas_1
     -- >qEs    >aqoEas Nel     pigeon-breasted;firmly established
@@ -4176,8 +4056,7 @@ lexicon = listing "Lexicon's properties"
     -- qEy     qoEiy   IV_0hAnn_yu     crouch;squat
     -- qE      qoE     IV_0hwnyn_yu    crouch;squat
 
-    HaFCY                     `verb`       {- OaqoEaY -}        [ "crouch", "squat" ]
-                              {- `others` [ "q`iy IV_0hAnn_yu", "'aq`ay PV_Atn" ] -} ]
+    HaFCY                     `verb`       {- OaqoEaY -}        [ "crouch", "squat" ] ]
 
  |> "q b '" <| [
 
@@ -4221,15 +4100,13 @@ lexicon = listing "Lexicon's properties"
     -- qbD     qobiD   IV      arrest;apprehend;seize
 
     FaCaL                     `verb`       {- qabaD-i -}        [ "arrest", "apprehend", "seize" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qbi.d IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qab~aD_1
     -- qbD     qab~aD  PV      compress;oppress;constringe
     -- qbD     qab~iD  IV_yu   compress;oppress;constringe
 
-    FaCCaL                    `verb`       {- qab~aD -}         [ "compress", "oppress", "constringe" ]
-                              {- `others` [ "qabbi.d IV_yu" ] -},
+    FaCCaL                    `verb`       {- qab~aD -}         [ "compress", "oppress", "constringe" ],
 
     -- ;; taqab~aD_1
     -- tqbD    taqab~aD        PV      shrink;contract
@@ -4242,8 +4119,7 @@ lexicon = listing "Lexicon's properties"
     -- AnqbD   {inoqabaD       PV      shrink;contract;abstain
     -- nqbD    noqabiD IV      shrink;contract;abstain
 
-    InFaCaL                   `verb`       {- {inoqabaD -}      [ "shrink", "contract", "abstain" ]
-                              {- `others` [ "nqabi.d IV" ] -},
+    InFaCaL                   `verb`       {- AinoqabaD -}      [ "shrink", "contract", "abstain" ],
 
     -- ;; qaboD_1
     -- qbD     qaboD   N       arrest;seizure
@@ -4310,13 +4186,13 @@ lexicon = listing "Lexicon's properties"
     -- <nqbAD  {inoqibAD       N/At    contraction;shrinking
     -- AnqbAD  {inoqibAD       N/At    contraction;shrinking
 
-    InFiCAL                   `noun`       {- {inoqibAD -}      [ "contraction", "shrinking" ],
+    InFiCAL                   `noun`       {- AinoqibAD -}      [ "contraction", "shrinking" ],
 
     -- ;; {inoqibADiy~_1
     -- <nqbADy {inoqibADiy~    N-ap    systolic;contracting     [[{inoqibADiy~/ADJ]]
     -- AnqbADy {inoqibADiy~    N-ap    systolic;contracting     [[{inoqibADiy~/ADJ]]
 
-    InFiCAL |< Iy             `adj`        {- {inoqibADiy~ -}   [ "systolic", "contracting" ],
+    InFiCAL |< Iy             `adj`        {- AinoqibADiy~ -}   [ "systolic", "contracting" ],
 
     -- ;; qAbiD_1
     -- qAbD    qAbiD   N-ap    constricting;oppressive;astringent
@@ -4364,22 +4240,20 @@ lexicon = listing "Lexicon's properties"
     -- qbH     qobuH   IV_intr be repulsive;be disgusting
 
     FaCuL                     `verb`       {- qabuH-u -}        [ "be repulsive", "be disgusting" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qbu.h IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qab~aH_1
     -- qbH     qab~aH  PV      disfigure;make repugnant
     -- qbH     qab~iH  IV_yu   disfigure;make repugnant
 
-    FaCCaL                    `verb`       {- qab~aH -}         [ "disfigure", "make repugnant" ]
-                              {- `others` [ "qabbi.h IV_yu" ] -},
+    FaCCaL                    `verb`       {- qab~aH -}         [ "disfigure", "make repugnant" ],
 
     -- ;; {isotaqobaH_1
     -- <stqbH  {isotaqobaH     PV      find abhorrent
     -- AstqbH  {isotaqobaH     PV      find abhorrent
     -- stqbH   sotaqobiH       IV      find abhorrent
 
-    IstaFCaL                  `verb`       {- {isotaqobaH -}    [ "find abhorrent" ],
+    IstaFCaL                  `verb`       {- AisotaqobaH -}    [ "find abhorrent" ],
 
     -- ;; quboH_1
     -- qbH     quboH   N       shame;infamy
@@ -4441,8 +4315,7 @@ lexicon = listing "Lexicon's properties"
     -- qbS     qobiS   IV      take a pinch (measure)
 
     FaCaL                     `verb`       {- qabaS-i -}        [ "take a pinch (measure)" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qbi.s IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qaboSap_1
     -- qbS     qaboS   Napdu   pinch (measure)
@@ -4460,8 +4333,7 @@ lexicon = listing "Lexicon's properties"
     -- qbT     qab~aT  PV      frown;have furrowed brows
     -- qbT     qab~iT  IV_yu   frown;have furrowed brows
 
-    FaCCaL                    `verb`       {- qab~aT -}         [ "frown", "have furrowed brows" ]
-                              {- `others` [ "qabbi.t IV_yu" ] -},
+    FaCCaL                    `verb`       {- qab~aT -}         [ "frown", "have furrowed brows" ],
 
     -- ;; qiboTiy~_1
     -- qbTy    qiboTiy~        Nall    Coptic     [[qiboTiy~/NOUN]]
@@ -4501,8 +4373,7 @@ lexicon = listing "Lexicon's properties"
     -- qbE     qobaE   IV      retract the head;withdraw;be confined
 
     FaCaL                     `verb`       {- qabaE-a -}        [ "retract the head", "withdraw", "be confined" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qba` IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qubaE_1
     -- qbE     qubaE   N       hedgehog
@@ -4544,15 +4415,13 @@ lexicon = listing "Lexicon's properties"
     -- qbb     qobub   IV_C    bristle;rise;swell
 
     FaCL                      `verb`       {- qab~-u -}         [ "bristle", "rise", "swell" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qubb IV_V", "qabab PV_C", "qbub IV_C" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qab~ab_1
     -- qbb     qab~ab  PV      make bristle;make rise;make swell
     -- qbb     qab~ib  IV_yu   make bristle;make rise;make swell
 
-    FaCCaL                    `verb`       {- qab~ab -}         [ "make bristle", "make rise", "make swell" ]
-                              {- `others` [ "qabbib IV_yu" ] -},
+    FaCCaL                    `verb`       {- qab~ab -}         [ "make bristle", "make rise", "make swell" ],
 
     -- ;; taqab~ab_1
     -- tqbb    taqab~ab        PV      bulge;swell
@@ -4617,8 +4486,7 @@ lexicon = listing "Lexicon's properties"
     -- qbY     qab~aY  IV_0_Pass_yu    be vaulted;be arched
     -- qby     qab~ay  IV_Ann_Pass_yu  be vaulted;be arched
 
-    FaCLY                     `verb`       {- qab~aY -}         [ "vault", "arch", "be vaulted", "be arched" ]
-                              {- `others` [ "qabbiy IV_0hAnn_yu", "qabb IV_0hwnyn_yu PV_ttAw" ] -} ]
+    FaCLY                     `verb`       {- qab~aY -}         [ "vault", "arch", "be vaulted", "be arched" ] ]
 
  |> "q b l" <| [
 
@@ -4632,22 +4500,19 @@ lexicon = listing "Lexicon's properties"
     -- qbl     qobal   IV      accept;receive;approve
 
     FaCiL                     `verb`       {- qabil-a -}        [ "accept", "receive", "approve" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qbal IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qab~al_1
     -- qbl     qab~al  PV      kiss
     -- qbl     qab~il  IV_yu   kiss
 
-    FaCCaL                    `verb`       {- qab~al -}         [ "kiss" ]
-                              {- `others` [ "qabbil IV_yu" ] -},
+    FaCCaL                    `verb`       {- qab~al -}         [ "kiss" ],
 
     -- ;; qAbal_1
     -- qAbl    qAbal   PV      meet;face
     -- qAbl    qAbil   IV_yu   meet;face
 
-    FACaL                     `verb`       {- qAbal -}          [ "meet", "face" ]
-                              {- `others` [ "qAbil IV_yu" ] -},
+    FACaL                     `verb`       {- qAbal -}          [ "meet", "face" ],
 
     -- ;; >aqobal_1
     -- >qbl    >aqobal PV      approach;engage in
@@ -4655,8 +4520,7 @@ lexicon = listing "Lexicon's properties"
     -- qbl     qobil   IV_yu   approach;engage in
     -- qbl     qobal   IV_Pass_yu      be approached;be engaged in
 
-    HaFCaL                    `verb`       {- Oaqobal -}        [ "approach", "engage in", "be approached", "be engaged in" ]
-                              {- `others` [ "qbil IV_yu", "qbal IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- Oaqobal -}        [ "approach", "engage in", "be approached", "be engaged in" ],
 
     -- ;; taqab~al_1
     -- tqbl    taqab~al        PV      receive;accept
@@ -4675,15 +4539,14 @@ lexicon = listing "Lexicon's properties"
     -- Aqtbl   {iqotabal       PV      receive
     -- qtbl    qotabil IV      receive
 
-    IFtaCaL                   `verb`       {- {iqotabal -}      [ "receive" ]
-                              {- `others` [ "qtabil IV" ] -},
+    IFtaCaL                   `verb`       {- Aiqotabal -}      [ "receive" ],
 
     -- ;; {isotaqobal_1
     -- <stqbl  {isotaqobal     PV      receive;greet;meet
     -- Astqbl  {isotaqobal     PV      receive;greet;meet
     -- stqbl   sotaqobil       IV      receive;greet;meet
 
-    IstaFCaL                  `verb`       {- {isotaqobal -}    [ "receive", "greet", "meet" ],
+    IstaFCaL                  `verb`       {- Aisotaqobal -}    [ "receive", "greet", "meet" ],
 
     -- ;; qabolAF_1
     -- qbl     qabol   NF      previously;formerly     [[qabol/ADV]]
@@ -4793,13 +4656,13 @@ lexicon = listing "Lexicon's properties"
     -- <qtbAl  {iqotibAl       N/At    reception
     -- AqtbAl  {iqotibAl       N/At    reception
 
-    IFtiCAL                   `noun`       {- {iqotibAl -}      [ "reception" ],
+    IFtiCAL                   `noun`       {- AiqotibAl -}      [ "reception" ],
 
     -- ;; {isotiqobAl_1
     -- <stqbAl {isotiqobAl     N/At    reception;welcoming
     -- AstqbAl {isotiqobAl     N/At    reception;welcoming
 
-    IstiFCAL                  `noun`       {- {isotiqobAl -}    [ "reception", "welcoming" ],
+    IstiFCAL                  `noun`       {- AisotiqobAl -}    [ "reception", "welcoming" ],
 
     -- ;; qAbil_1
     -- qAbl    qAbil   N-ap    capable;able     [[qAbil/ADJ]]
@@ -4880,8 +4743,7 @@ lexicon = listing "Lexicon's properties"
     -- qbn     qab~an  PV-n    weigh
     -- qbn     qab~in  IV-n_yu weigh
 
-    FaCCaL                    `verb`       {- qab~an -}         [ "weigh" ]
-                              {- `others` [ "qabbin IV-n_yu" ] -},
+    FaCCaL                    `verb`       {- qab~an -}         [ "weigh" ],
 
     -- ;; taqab~an_1
     -- tqbn    taqab~an        PV-n_intr       be weighed
@@ -4900,8 +4762,7 @@ lexicon = listing "Lexicon's properties"
     -- qbqb    qaboqab PV      swell;bulge
     -- qbqb    qaboqib IV_yu   swell;bulge
 
-    KaRDaS                    `verb`       {- qaboqab -}        [ "swell", "bulge" ]
-                              {- `others` [ "qabqib IV_yu" ] -},
+    KaRDaS                    `verb`       {- qaboqab -}        [ "swell", "bulge" ],
 
     -- ;; qaboqAb_1
     -- qbqAb   qaboqAb Ndu     sandals;clogs
@@ -4925,8 +4786,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `verb`       {- qabar-ui -}       [ "bury" ]
                               `imperf`     FCuL
-                              `imperf`     FCiL
-                              {- `others` [ "qbir IV", "qbur IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; >aqobar_1
     -- >qbr    >aqobar PV      bury
@@ -4934,8 +4794,7 @@ lexicon = listing "Lexicon's properties"
     -- qbr     qobir   IV_yu   bury
     -- qbr     qobar   IV_Pass_yu      be buried
 
-    HaFCaL                    `verb`       {- Oaqobar -}        [ "bury", "be buried" ]
-                              {- `others` [ "qbar IV_Pass_yu", "qbir IV_yu" ] -},
+    HaFCaL                    `verb`       {- Oaqobar -}        [ "bury", "be buried" ],
 
     -- ;; qabor_1
     -- qbr     qabor   Ndu     tomb;sepulcher
@@ -5009,16 +4868,14 @@ lexicon = listing "Lexicon's properties"
     -- qbs     qobis   IV      derive;borrow;adopt
 
     FaCaL                     `verb`       {- qabas-i -}        [ "derive", "borrow", "adopt" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qbis IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; {iqotabas_1
     -- <qtbs   {iqotabas       PV      quote;borrow;adopt
     -- Aqtbs   {iqotabas       PV      quote;borrow;adopt
     -- qtbs    qotabis IV      quote;borrow;adopt
 
-    IFtaCaL                   `verb`       {- {iqotabas -}      [ "quote", "borrow", "adopt" ]
-                              {- `others` [ "qtabis IV" ] -},
+    IFtaCaL                   `verb`       {- Aiqotabas -}      [ "quote", "borrow", "adopt" ],
 
     -- ;; qabas_1
     -- qbs     qabas   N0      Qabas
@@ -5052,7 +4909,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtbAs  {iqotibAs       N/At    quotation;acquisition;adaptation
     -- AqtbAs  {iqotibAs       N/At    quotation;acquisition;adaptation
 
-    IFtiCAL                   `noun`       {- {iqotibAs -}      [ "quotation", "acquisition", "adaptation" ],
+    IFtiCAL                   `noun`       {- AiqotibAs -}      [ "quotation", "acquisition", "adaptation" ],
 
     -- ;; qAbis_1
     -- qAbs    qAbis   Ndip    Gabes (Tun.)
@@ -5072,7 +4929,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "q b w" <| [
 
-    -- ;; qabA_1
+    -- ;; qabA-u_1
     -- qbA     qabA    PV_0h   vault;arch
     -- qbw     qabaw   PV_Atn  vault;arch
     -- qb      qab     PV_ttAw vault;arch
@@ -5081,8 +4938,8 @@ lexicon = listing "Lexicon's properties"
     -- qbY     qobaY   IV_0_Pass_yu    vault;arch
     -- qby     qobay   IV_Ann_Pass_yu  vault;arch
 
-    FaCA                      `verb`       {- qabA -}           [ "vault", "arch" ]
-                              {- `others` [ "qbuw IV_0hAnn", "qabaw PV_Atn", "qbY IV_0_Pass_yu" ] -},
+    FaCA                      `verb`       {- qabA-u -}         [ "vault", "arch" ]
+                              `imperf`     FCuL,
 
     -- ;; qab~aY_1
     -- qbY     qab~aY  PV_0    vault;arch
@@ -5094,8 +4951,7 @@ lexicon = listing "Lexicon's properties"
     -- qbY     qab~aY  IV_0_Pass_yu    be vaulted;be arched
     -- qby     qab~ay  IV_Ann_Pass_yu  be vaulted;be arched
 
-    FaCCY                     `verb`       {- qab~aY -}         [ "vault", "arch", "be vaulted", "be arched" ]
-                              {- `others` [ "qabbiy IV_0hAnn_yu" ] -},
+    FaCCY                     `verb`       {- qab~aY -}         [ "vault", "arch", "be vaulted", "be arched" ],
 
     -- ;; taqab~aY_1
     -- tqbY    taqab~aY        PV_0    be arched;be vaulted
@@ -5155,13 +5011,13 @@ lexicon = listing "Lexicon's properties"
     -- <qtdA'  {iqotidA'       NAt     imitations;emulations
     -- AqtdA'  {iqotidA'       NAt     imitations;emulations
 
-    IFtiCAL                   `noun`       {- {iqotidA' -}      [ "imitation", "emulation", "imitations", "emulations" ],
+    IFtiCAL                   `noun`       {- AiqotidA' -}      [ "imitation", "emulation", "imitations", "emulations" ],
 
     -- ;; {iqotidA'F_1
     -- <qtdA'  {iqotidA'F      FW-Wa   following the example of;in imitation of     [[{iqotidA'F/ADV]]
     -- AqtdA'  {iqotidA'F      FW-Wa   following the example of;in imitation of     [[{iqotidA'F/ADV]]
 
-    IFtiCAL |< aN             `noun`       {- {iqotidA'F -}     [ "following the example of", "in imitation of" ] ]
+    IFtiCAL |< aN             `noun`       {- AiqotidA'F -}     [ "following the example of", "in imitation of" ] ]
 
  |> "q d .h" <| [
 
@@ -5170,16 +5026,14 @@ lexicon = listing "Lexicon's properties"
     -- qdH     qodaH   IV      rebuke;censure
 
     FaCaL                     `verb`       {- qadaH-a -}        [ "rebuke", "censure" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qda.h IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; {iqotadaH_1
     -- <qtdH   {iqotadaH       PV      consider;weigh
     -- AqtdH   {iqotadaH       PV      consider;weigh
     -- qtdH    qotadiH IV      consider;weigh
 
-    IFtaCaL                   `verb`       {- {iqotadaH -}      [ "consider", "weigh" ]
-                              {- `others` [ "qtadi.h IV" ] -},
+    IFtaCaL                   `verb`       {- AiqotadaH -}      [ "consider", "weigh" ],
 
     -- ;; qadoH_1
     -- qdH     qadoH   N       slander;rebuke
@@ -5269,15 +5123,13 @@ lexicon = listing "Lexicon's properties"
     -- qdd     qodud   IV_C    cut lengthwise;cut into strips
 
     FaCL                      `verb`       {- qad~-u -}         [ "cut lengthwise", "cut into strips" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qdud IV_C", "qudd IV_V", "qadad PV_C" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qad~ad_1
     -- qdd     qad~ad  PV      cut lengthwise;cut into strips
     -- qdd     qad~id  IV_yu   cut lengthwise;cut into strips
 
-    FaCCaL                    `verb`       {- qad~ad -}         [ "cut lengthwise", "cut into strips" ]
-                              {- `others` [ "qaddid IV_yu" ] -},
+    FaCCaL                    `verb`       {- qad~ad -}         [ "cut lengthwise", "cut into strips" ],
 
     -- ;; {inoqad~_1
     -- <nqd    {inoqad~        PV_V    split;burst
@@ -5287,8 +5139,7 @@ lexicon = listing "Lexicon's properties"
     -- nqd     noqad~  IV_V    split;burst
     -- nqdd    noqadid IV_C    split;burst
 
-    InFaCL                    `verb`       {- {inoqad~ -}       [ "split", "burst" ]
-                              {- `others` [ "nqadid IV_C", "nqadd IV_V", "inqadad PV_C" ] -},
+    InFaCL                    `verb`       {- Ainoqad~ -}       [ "split", "burst" ],
 
     -- ;; {iqotad~_1
     -- <qtd    {iqotad~        PV_V    cut lengthwise;cut into strips
@@ -5298,8 +5149,7 @@ lexicon = listing "Lexicon's properties"
     -- qtd     qotad~  IV_V    cut lengthwise;cut into strips
     -- qtdd    qotadid IV_C    cut lengthwise;cut into strips
 
-    IFtaCL                    `verb`       {- {iqotad~ -}       [ "cut lengthwise", "cut into strips" ]
-                              {- `others` [ "qtadid IV_C", "qtadd IV_V", "iqtadad PV_C" ] -},
+    IFtaCL                    `verb`       {- Aiqotad~ -}       [ "cut lengthwise", "cut into strips" ],
 
     -- ;; qid~_1
     -- qd      qid~    Ndu     strap;thong
@@ -5358,8 +5208,7 @@ lexicon = listing "Lexicon's properties"
     -- qdm     qodam   IV      arrive;come;advance
 
     FaCiL                     `verb`       {- qadim-a -}        [ "arrive", "come", "advance" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qdam IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qad~am_1
     -- qdm     qad~am  PV      offer;present;introduce
@@ -5367,8 +5216,7 @@ lexicon = listing "Lexicon's properties"
     -- qdm     qud~im  PV_Pass be offered;be presented;be introduced
     -- qdm     qad~am  IV_Pass_yu      be offered;be presented;be introduced
 
-    FaCCaL                    `verb`       {- qad~am -}         [ "offer", "present", "introduce", "be offered", "be presented", "be introduced" ]
-                              {- `others` [ "qaddim IV_yu", "quddim PV_Pass" ] -},
+    FaCCaL                    `verb`       {- qad~am -}         [ "offer", "present", "introduce", "be offered", "be presented", "be introduced" ],
 
     -- ;; >aqodam_1
     -- >qdm    >aqodam PV      undertake;tackle;approach
@@ -5376,8 +5224,7 @@ lexicon = listing "Lexicon's properties"
     -- qdm     qodim   IV_yu   undertake;tackle;approach
     -- qdm     qodam   IV_Pass_yu      be undertaken;be tackled;be approached
 
-    HaFCaL                    `verb`       {- Oaqodam -}        [ "undertake", "tackle", "approach", "be undertaken", "be tackled", "be approached" ]
-                              {- `others` [ "qdam IV_Pass_yu", "qdim IV_yu" ] -},
+    HaFCaL                    `verb`       {- Oaqodam -}        [ "undertake", "tackle", "approach", "be undertaken", "be tackled", "be approached" ],
 
     -- ;; taqad~am_1
     -- tqdm    taqad~am        PV      present;advance
@@ -5396,7 +5243,7 @@ lexicon = listing "Lexicon's properties"
     -- Astqdm  {isotaqodam     PV      invite;summon
     -- stqdm   sotaqodim       IV      invite;summon
 
-    IstaFCaL                  `verb`       {- {isotaqodam -}    [ "invite", "summon" ],
+    IstaFCaL                  `verb`       {- Aisotaqodam -}    [ "invite", "summon" ],
 
     -- ;; qadam_1
     -- qdm     qadam   Ndu     foot
@@ -5534,7 +5381,7 @@ lexicon = listing "Lexicon's properties"
     -- AstqdAm {isotiqodAm     NduAt   invitation
     -- <stqdAm {isotiqodAm     NduAt   invitation
 
-    IstiFCAL                  `noun`       {- {isotiqodAm -}    [ "invitation" ],
+    IstiFCAL                  `noun`       {- AisotiqodAm -}    [ "invitation" ],
 
     -- ;; qAdim_1
     -- qAdm    qAdim   Nall    arriving;coming;proceeding
@@ -5628,16 +5475,14 @@ lexicon = listing "Lexicon's properties"
     -- qdr     qodur   IV_intr be able to;be capable of
 
     FaCaL                     `verb`       {- qadar-u -}        [ "be able to", "be capable of" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qdur IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qadir-a_1
     -- qdr     qadir   PV_intr be able to;be capable of
     -- qdr     qodar   IV_intr be able to;be capable of
 
     FaCiL                     `verb`       {- qadir-a -}        [ "be able to", "be capable of" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qdar IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qad~ar_1
     -- qdr     qad~ar  PV      estimate;appreciate;appraise;value
@@ -5645,8 +5490,7 @@ lexicon = listing "Lexicon's properties"
     -- qdr     qud~ir  PV_Pass be estimated;be valued;be appraised
     -- qdr     qad~ar  IV_Pass_yu      be estimated;be valued;be appraised
 
-    FaCCaL                    `verb`       {- qad~ar -}         [ "estimate", "appreciate", "appraise", "value", "be estimated", "be valued", "be appraised" ]
-                              {- `others` [ "qaddir IV_yu", "quddir PV_Pass" ] -},
+    FaCCaL                    `verb`       {- qad~ar -}         [ "estimate", "appreciate", "appraise", "value", "be estimated", "be valued", "be appraised" ],
 
     -- ;; qad~ar_2
     -- qdr     qad~ar  PV      allow (God)
@@ -5658,15 +5502,14 @@ lexicon = listing "Lexicon's properties"
     -- Aqtdr   {iqotadar       PV_intr be able to;be capable of
     -- qtdr    qotadir IV_intr be able to;be capable of
 
-    IFtaCaL                   `verb`       {- {iqotadar -}      [ "be able to", "be capable of" ]
-                              {- `others` [ "qtadir IV_intr" ] -},
+    IFtaCaL                   `verb`       {- Aiqotadar -}      [ "be able to", "be capable of" ],
 
     -- ;; {isotaqodar_1
     -- <stqdr  {isotaqodar     PV      ask for strength
     -- Astqdr  {isotaqodar     PV      ask for strength
     -- stqdr   sotaqodir       IV      ask for strength
 
-    IstaFCaL                  `verb`       {- {isotaqodar -}    [ "ask for strength" ],
+    IstaFCaL                  `verb`       {- Aisotaqodar -}    [ "ask for strength" ],
 
     -- ;; qador_1
     -- qdr     qador   N       extent;degree;amount;value;level
@@ -5788,7 +5631,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtdAr  {iqotidAr       N/At    capability;potential
     -- AqtdAr  {iqotidAr       N/At    capability;potential
 
-    IFtiCAL                   `noun`       {- {iqotidAr -}      [ "capability", "potential" ],
+    IFtiCAL                   `noun`       {- AiqotidAr -}      [ "capability", "potential" ],
 
     -- ;; qAdir_1
     -- qAdr    qAdir   N0      Qadir;Kadir
@@ -5852,15 +5695,13 @@ lexicon = listing "Lexicon's properties"
     -- qds     qodus   IV_intr be pure;be saintly;be hallowed
 
     FaCuL                     `verb`       {- qadus-u -}        [ "be pure", "be saintly", "be hallowed" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qdus IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qad~as_1
     -- qds     qad~as  PV      consecrate;glorify;venerate
     -- qds     qad~is  IV_yu   consecrate;glorify;venerate
 
-    FaCCaL                    `verb`       {- qad~as -}         [ "consecrate", "glorify", "venerate" ]
-                              {- `others` [ "qaddis IV_yu" ] -},
+    FaCCaL                    `verb`       {- qad~as -}         [ "consecrate", "glorify", "venerate" ],
 
     -- ;; taqad~as_1
     -- tqds    taqad~as        PV_intr be sanctified;be sacred
@@ -6012,8 +5853,7 @@ lexicon = listing "Lexicon's properties"
     -- qd      qod     IV_0hwnyn       be tasty
 
     FaCA                      `verb`       {- qadA-u -}         [ "be tasty" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qadaw PV_Atn", "qduw IV_0hAnn" ] -},
+                              `imperf`     FCuL,
 
     -- ;; {iqotadaY_1
     -- <qtdY   {iqotadaY       PV_0    imitate;emulate
@@ -6028,8 +5868,7 @@ lexicon = listing "Lexicon's properties"
     -- qtd     qotad   IV_0hwnyn       imitate;emulate
     -- qtdY    qotadaY IV_0_Pass_yu    be imitated;be emulated
 
-    IFtaCY                    `verb`       {- {iqotadaY -}      [ "imitate", "emulate", "be imitated", "be emulated" ]
-                              {- `others` [ "qtadiy IV_0hAnn", "qtadY IV_0_Pass_yu" ] -},
+    IFtaCY                    `verb`       {- AiqotadaY -}      [ "imitate", "emulate", "be imitated", "be emulated" ],
 
     -- ;; qadaY_1
     -- qdY     qadaY   N0      savoriness
@@ -6053,13 +5892,13 @@ lexicon = listing "Lexicon's properties"
     -- <qtdA'  {iqotidA'       NAt     imitations;emulations
     -- AqtdA'  {iqotidA'       NAt     imitations;emulations
 
-    IFtiCA'                   `noun`       {- {iqotidA' -}      [ "imitation", "emulation", "imitations", "emulations" ],
+    IFtiCA'                   `noun`       {- AiqotidA' -}      [ "imitation", "emulation", "imitations", "emulations" ],
 
     -- ;; {iqotidA'F_1
     -- <qtdA'  {iqotidA'F      FW-Wa   following the example of;in imitation of     [[{iqotidA'F/ADV]]
     -- AqtdA'  {iqotidA'F      FW-Wa   following the example of;in imitation of     [[{iqotidA'F/ADV]]
 
-    IFtiCA' |< aN             `noun`       {- {iqotidA'F -}     [ "following the example of", "in imitation of" ],
+    IFtiCA' |< aN             `noun`       {- AiqotidA'F -}     [ "following the example of", "in imitation of" ],
 
     -- ;; qadow_1
     -- qdw     qadow   N       savoriness
@@ -6089,8 +5928,7 @@ lexicon = listing "Lexicon's properties"
     -- qd      qoda    IV_0hwnyn       be tasty
 
     FaCiL                     `verb`       {- qadiy-a -}        [ "be tasty" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qday IV_Ann", "qdY IV_0" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qadiy~_1
     -- qdy     qadiy~  N-ap    savory;tasty     [[qadiy~/ADJ]]
@@ -6120,7 +5958,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtfA'  {iqotifA'       NAt     following;tracking;imitating
     -- AqtfA'  {iqotifA'       NAt     following;tracking;imitating
 
-    IFtiCAL                   `noun`       {- {iqotifA' -}      [ "following", "tracking", "imitating" ] ]
+    IFtiCAL                   `noun`       {- AiqotifA' -}      [ "following", "tracking", "imitating" ] ]
 
  |> "q f .s" <| [
 
@@ -6158,8 +5996,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `verb`       {- qafa$-ui -}       [ "collect", "catch" ]
                               `imperf`     FCuL
-                              `imperf`     FCiL
-                              {- `others` [ "qfi^s IV", "qfu^s IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qafo$_1
     -- qf$     qafo$   N       collecting;catching
@@ -6186,15 +6023,13 @@ lexicon = listing "Lexicon's properties"
     -- qfE     qofaE   IV      shrink;contract
 
     FaCiL                     `verb`       {- qafiE-a -}        [ "shrink", "contract" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qfa` IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qaf~aE_1
     -- qfE     qaf~aE  PV      shrivel
     -- qfE     qaf~iE  IV_yu   shrivel
 
-    FaCCaL                    `verb`       {- qaf~aE -}         [ "shrivel" ]
-                              {- `others` [ "qaffi` IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaf~aE -}         [ "shrivel" ],
 
     -- ;; taqaf~aE_1
     -- tqfE    taqaf~aE        PV      shrink;contract
@@ -6211,8 +6046,7 @@ lexicon = listing "Lexicon's properties"
     -- qff     qofuf   IV_C_intr       be dry;wither;shrink
 
     FaCL                      `verb`       {- qaf~-u -}         [ "be dry", "wither", "shrink" ]
-                              `imperf`     FCuL
-                              {- `others` [ "quff IV_V_intr", "qfuf IV_C_intr", "qafaf PV_C_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qufuwf_1
     -- qfwf    qufuwf  N       drying up;withering;shrinking
@@ -6250,8 +6084,7 @@ lexicon = listing "Lexicon's properties"
     -- qfY     qaf~aY  IV_0_Pass_yu    be sent;be rhymed
     -- qfy     qaf~ay  IV_Ann_Pass_yu  be sent;be rhymed
 
-    FaCLY                     `verb`       {- qaf~aY -}         [ "send", "rhyme", "be sent", "be rhymed" ]
-                              {- `others` [ "qaffiy IV_0hAnn_yu", "qaff IV_0hwnyn_yu PV_ttAw" ] -} ]
+    FaCLY                     `verb`       {- qaf~aY -}         [ "send", "rhyme", "be sent", "be rhymed" ] ]
 
  |> "q f l" <| [
 
@@ -6260,23 +6093,20 @@ lexicon = listing "Lexicon's properties"
     -- qfl     qoful   IV      return
 
     FaCaL                     `verb`       {- qafal-u -}        [ "return" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qful IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qafal-i_1
     -- qfl     qafal   PV      lock
     -- qfl     qofil   IV      lock
 
     FaCaL                     `verb`       {- qafal-i -}        [ "lock" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qfil IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qaf~al_1
     -- qfl     qaf~al  PV      lock
     -- qfl     qaf~il  IV_yu   lock
 
-    FaCCaL                    `verb`       {- qaf~al -}         [ "lock" ]
-                              {- `others` [ "qaffil IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaf~al -}         [ "lock" ],
 
     -- ;; >aqofal_1
     -- >qfl    >aqofal PV      lock
@@ -6284,8 +6114,7 @@ lexicon = listing "Lexicon's properties"
     -- qfl     qofil   IV_yu   lock
     -- qfl     qofal   IV_Pass_yu      be locked
 
-    HaFCaL                    `verb`       {- Oaqofal -}        [ "lock", "be locked" ]
-                              {- `others` [ "qfil IV_yu", "qfal IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- Oaqofal -}        [ "lock", "be locked" ],
 
     -- ;; qufol_1
     -- qfl     qufol   Ndu     lock;latch;bolt
@@ -6342,8 +6171,7 @@ lexicon = listing "Lexicon's properties"
     -- qfqf    qafoqaf PV      shiver;chatter
     -- qfqf    qafoqif IV_yu   shiver;chatter
 
-    KaRDaS                    `verb`       {- qafoqaf -}        [ "shiver", "chatter" ]
-                              {- `others` [ "qafqif IV_yu" ] -},
+    KaRDaS                    `verb`       {- qafoqaf -}        [ "shiver", "chatter" ],
 
     -- ;; taqafoqaf_1
     -- tqfqf   taqafoqaf       PV      shiver;chatter
@@ -6370,8 +6198,7 @@ lexicon = listing "Lexicon's properties"
     -- qfr     qofur   IV      follow;track
 
     FaCaL                     `verb`       {- qafar-u -}        [ "follow", "track" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qfur IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; >aqofar_1
     -- >qfr    >aqofar PV      abandon;devastate;leave barren
@@ -6379,16 +6206,14 @@ lexicon = listing "Lexicon's properties"
     -- qfr     qofir   IV_yu   abandon;devastate;leave barren
     -- qfr     qofar   IV_Pass_yu      be abandoned;be devastated;be left barren
 
-    HaFCaL                    `verb`       {- Oaqofar -}        [ "abandon", "devastate", "leave barren", "be abandoned", "be devastated", "be left barren" ]
-                              {- `others` [ "qfir IV_yu", "qfar IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- Oaqofar -}        [ "abandon", "devastate", "leave barren", "be abandoned", "be devastated", "be left barren" ],
 
     -- ;; {iqotafar_1
     -- <qtfr   {iqotafar       PV      follow;track
     -- Aqtfr   {iqotafar       PV      follow;track
     -- qtfr    qotafir IV      follow;track
 
-    IFtaCaL                   `verb`       {- {iqotafar -}      [ "follow", "track" ]
-                              {- `others` [ "qtafir IV" ] -},
+    IFtaCaL                   `verb`       {- Aiqotafar -}      [ "follow", "track" ],
 
     -- ;; qafor_1
     -- qfr     qafor   Ndu     desolate;wasteland;depopulated
@@ -6449,8 +6274,7 @@ lexicon = listing "Lexicon's properties"
     -- qfy     qofay   IV_Ann_Pass_yu  be followed;be tracked
 
     FaCA                      `verb`       {- qafA-u -}         [ "follow", "track", "be followed", "be tracked" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qfuw IV_0hAnn", "qfY IV_0_Pass_yu", "qafaw PV_Atn" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaf~aY_1
     -- qfY     qaf~aY  PV_0    send;rhyme
@@ -6462,8 +6286,7 @@ lexicon = listing "Lexicon's properties"
     -- qfY     qaf~aY  IV_0_Pass_yu    be sent;be rhymed
     -- qfy     qaf~ay  IV_Ann_Pass_yu  be sent;be rhymed
 
-    FaCCY                     `verb`       {- qaf~aY -}         [ "send", "rhyme", "be sent", "be rhymed" ]
-                              {- `others` [ "qaffiy IV_0hAnn_yu" ] -},
+    FaCCY                     `verb`       {- qaf~aY -}         [ "send", "rhyme", "be sent", "be rhymed" ],
 
     -- ;; taqaf~aY_1
     -- tqfY    taqaf~aY        PV_0    follow;track
@@ -6490,8 +6313,7 @@ lexicon = listing "Lexicon's properties"
     -- qtf     qotaf   IV_0hwnyn       follow;track;imitate
     -- qtfY    qotafaY IV_0    follow;track;imitate
 
-    IFtaCY                    `verb`       {- {iqotafaY -}      [ "follow", "track", "imitate" ]
-                              {- `others` [ "qtafiy IV_0hAnn", "qtafY IV_0" ] -},
+    IFtaCY                    `verb`       {- AiqotafaY -}      [ "follow", "track", "imitate" ],
 
     -- ;; qafA'_1
     -- qfA'    qafA'   N0_Nh   neck;nape
@@ -6514,7 +6336,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtfA'  {iqotifA'       NAt     following;tracking;imitating
     -- AqtfA'  {iqotifA'       NAt     following;tracking;imitating
 
-    IFtiCA'                   `noun`       {- {iqotifA' -}      [ "following", "tracking", "imitating" ],
+    IFtiCA'                   `noun`       {- AiqotifA' -}      [ "following", "tracking", "imitating" ],
 
     -- ;; qAfiyap_1
     -- qAfy    qAfiy   Nap     rhyme
@@ -6541,8 +6363,7 @@ lexicon = listing "Lexicon's properties"
     -- qfz     qofiz   IV      jump;leap
 
     FaCaL                     `verb`       {- qafaz-i -}        [ "jump", "leap" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qfiz IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; taqaf~az_1
     -- tqfz    taqaf~az        PV      put on gloves
@@ -6600,8 +6421,7 @@ lexicon = listing "Lexicon's properties"
     -- qhqh    qahoqah PV      laugh;guffaw
     -- qhqh    qahoqih IV_yu   laugh;guffaw
 
-    KaRDaS                    `verb`       {- qahoqah -}        [ "laugh", "guffaw" ]
-                              {- `others` [ "qahqih IV_yu" ] -},
+    KaRDaS                    `verb`       {- qahoqah -}        [ "laugh", "guffaw" ],
 
     -- ;; qahoqahap_1
     -- qhqh    qahoqah Nap     laughter
@@ -6624,8 +6444,7 @@ lexicon = listing "Lexicon's properties"
     -- qhqr    qahoqar PV      retreat;withdraw
     -- qhqr    qahoqir IV_yu   retreat;withdraw
 
-    KaRDaS                    `verb`       {- qahoqar -}        [ "retreat", "withdraw" ]
-                              {- `others` [ "qahqir IV_yu" ] -},
+    KaRDaS                    `verb`       {- qahoqar -}        [ "retreat", "withdraw" ],
 
     -- ;; taqahoqar_1
     -- tqhqr   taqahoqar       PV      deteriorate;decline
@@ -6650,8 +6469,7 @@ lexicon = listing "Lexicon's properties"
     -- qhr     qohar   IV      defeat;overpower
 
     FaCaL                     `verb`       {- qahar-a -}        [ "defeat", "overpower" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qhar IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qahor_1
     -- qhr     qahor   N       subjugation;coercion
@@ -6747,8 +6565,7 @@ lexicon = listing "Lexicon's properties"
     -- qh      qoha    IV_0hwnyn       have no appetite
 
     FaCiL                     `verb`       {- qahiy-a -}        [ "have no appetite" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qhay IV_Ann", "qhY IV_0" ] -},
+                              `imperf`     FCaL,
 
     -- ;; >aqohaY_1
     -- >qhY    >aqohaY PV_0    have no appetite
@@ -6762,8 +6579,7 @@ lexicon = listing "Lexicon's properties"
     -- qhy     qohiy   IV_0hAnn_yu     have no appetite
     -- qh      qoh     IV_0hwnyn_yu    have no appetite
 
-    HaFCY                     `verb`       {- OaqohaY -}        [ "have no appetite" ]
-                              {- `others` [ "'aqhay PV_Atn", "qhiy IV_0hAnn_yu" ] -},
+    HaFCY                     `verb`       {- OaqohaY -}        [ "have no appetite" ],
 
     -- ;; qAhiy_1
     -- qAhy    qAhiy   N0F     supplied with provisions
@@ -6791,15 +6607,13 @@ lexicon = listing "Lexicon's properties"
     -- qlS     qoliS   IV      shrink;diminish;decline
 
     FaCaL                     `verb`       {- qalaS-i -}        [ "shrink", "diminish", "decline" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qli.s IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qal~aS_1
     -- qlS     qal~aS  PV      tuck;draw together
     -- qlS     qal~iS  IV_yu   tuck;draw together
 
-    FaCCaL                    `verb`       {- qal~aS -}         [ "tuck", "draw together" ]
-                              {- `others` [ "qalli.s IV_yu" ] -},
+    FaCCaL                    `verb`       {- qal~aS -}         [ "tuck", "draw together" ],
 
     -- ;; taqal~aS_1
     -- tqlS    taqal~aS        PV      shrink;diminish;decline
@@ -6852,8 +6666,7 @@ lexicon = listing "Lexicon's properties"
     -- ql$     qal~a$  PV      molt
     -- ql$     qal~i$  IV_yu   molt
 
-    FaCCaL                    `verb`       {- qal~a$ -}         [ "molt" ]
-                              {- `others` [ "qalli^s IV_yu" ] -},
+    FaCCaL                    `verb`       {- qal~a$ -}         [ "molt" ],
 
     -- ;; taqoliy$_1
     -- tqly$   taqoliy$        N/At    molting
@@ -6882,31 +6695,27 @@ lexicon = listing "Lexicon's properties"
     -- qlE     qolaE   IV      uproot;extirpate
 
     FaCaL                     `verb`       {- qalaE-a -}        [ "uproot", "extirpate" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qla` IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qal~aE_1
     -- qlE     qal~aE  PV      pluck out;tear out
     -- qlE     qal~iE  IV_yu   pluck out;tear out
 
-    FaCCaL                    `verb`       {- qal~aE -}         [ "pluck out", "tear out" ]
-                              {- `others` [ "qalli` IV_yu" ] -},
+    FaCCaL                    `verb`       {- qal~aE -}         [ "pluck out", "tear out" ],
 
     -- ;; >aqolaE_1
     -- >qlE    >aqolaE PV      take off
     -- AqlE    >aqolaE PV      take off
     -- qlE     qoliE   IV_yu   take off
 
-    HaFCaL                    `verb`       {- OaqolaE -}        [ "take off" ]
-                              {- `others` [ "qli` IV_yu" ] -},
+    HaFCaL                    `verb`       {- OaqolaE -}        [ "take off" ],
 
     -- ;; {iqotalaE_1
     -- <qtlE   {iqotalaE       PV      uproot;exterminate
     -- AqtlE   {iqotalaE       PV      uproot;exterminate
     -- qtlE    qotaliE IV      uproot;exterminate
 
-    IFtaCaL                   `verb`       {- {iqotalaE -}      [ "uproot", "exterminate" ]
-                              {- `others` [ "qtali` IV" ] -},
+    IFtaCaL                   `verb`       {- AiqotalaE -}      [ "uproot", "exterminate" ],
 
     -- ;; qiloE_1
     -- qlE     qiloE   Ndu     sail
@@ -6970,7 +6779,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtlAE  {iqotilAE       N/At    uprooting;extermination
     -- AqtlAE  {iqotilAE       N/At    uprooting;extermination
 
-    IFtiCAL                   `noun`       {- {iqotilAE -}      [ "uprooting", "extermination" ] ]
+    IFtiCAL                   `noun`       {- AiqotilAE -}      [ "uprooting", "extermination" ] ]
 
  |> "q l ` .t" <| [
 
@@ -6978,8 +6787,7 @@ lexicon = listing "Lexicon's properties"
     -- qlET    qaloEaT PV      sully;soil
     -- qlET    qaloEiT IV_yu   sully;soil
 
-    KaRDaS                    `verb`       {- qaloEaT -}        [ "sully", "soil" ]
-                              {- `others` [ "qal`i.t IV_yu" ] -},
+    KaRDaS                    `verb`       {- qaloEaT -}        [ "sully", "soil" ],
 
     -- ;; qaloEaTap_1
     -- qlET    qaloEaT Nap     sullying;soiling
@@ -6998,23 +6806,20 @@ lexicon = listing "Lexicon's properties"
     -- qlb     qolib   IV      turn around;reverse
 
     FaCaL                     `verb`       {- qalab-i -}        [ "turn around", "reverse" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qlib IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qalab-i_2
     -- qlb     qalab   PV      overthrow;topple
     -- qlb     qolib   IV      overthrow;topple
 
     FaCaL                     `verb`       {- qalab-i -}        [ "overthrow", "topple" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qlib IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qal~ab_1
     -- qlb     qal~ab  PV      turn upside down
     -- qlb     qal~ib  IV_yu   turn upside down
 
-    FaCCaL                    `verb`       {- qal~ab -}         [ "turn upside down" ]
-                              {- `others` [ "qallib IV_yu" ] -},
+    FaCCaL                    `verb`       {- qal~ab -}         [ "turn upside down" ],
 
     -- ;; taqal~ab_1
     -- tqlb    taqal~ab        PV      turn around;be reversed;be inverted
@@ -7027,8 +6832,7 @@ lexicon = listing "Lexicon's properties"
     -- Anqlb   {inoqalab       PV      turn around;be reversed;be inverted
     -- nqlb    noqalib IV      turn around;be reversed;be inverted
 
-    InFaCaL                   `verb`       {- {inoqalab -}      [ "turn around", "be reversed", "be inverted" ]
-                              {- `others` [ "nqalib IV" ] -},
+    InFaCaL                   `verb`       {- Ainoqalab -}      [ "turn around", "be reversed", "be inverted" ],
 
     -- ;; qalob_1
     -- qlb     qalob   N       overthrowing;toppling
@@ -7121,19 +6925,19 @@ lexicon = listing "Lexicon's properties"
     -- <nqlAb  {inoqilAb       NduAt   coup;overthrow;toppling
     -- AnqlAb  {inoqilAb       NduAt   coup;overthrow;toppling
 
-    InFiCAL                   `noun`       {- {inoqilAb -}      [ "coup", "overthrow", "toppling" ],
+    InFiCAL                   `noun`       {- AinoqilAb -}      [ "coup", "overthrow", "toppling" ],
 
     -- ;; {inoqilAb_2
     -- <nqlAb  {inoqilAb       NduAt   solstice;tropic
     -- AnqlAb  {inoqilAb       NduAt   solstice;tropic
 
-    InFiCAL                   `noun`       {- {inoqilAb -}      [ "solstice", "tropic" ],
+    InFiCAL                   `noun`       {- AinoqilAb -}      [ "solstice", "tropic" ],
 
     -- ;; {inoqilAbiy~_1
     -- <nqlAby {inoqilAbiy~    Nall    revolutionary     [[{inoqilAbiy~/ADJ]]
     -- AnqlAby {inoqilAbiy~    Nall    revolutionary     [[{inoqilAbiy~/ADJ]]
 
-    InFiCAL |< Iy             `adj`        {- {inoqilAbiy~ -}   [ "revolutionary" ],
+    InFiCAL |< Iy             `adj`        {- AinoqilAbiy~ -}   [ "revolutionary" ],
 
     -- ;; maqoluwb_1
     -- mqlwb   maqoluwb        N-ap    turned over;inverted;reversed     [[maqoluwb/ADJ]]
@@ -7156,8 +6960,7 @@ lexicon = listing "Lexicon's properties"
     -- qld     qal~ad  PV      imitate;entrust
     -- qld     qal~id  IV_yu   imitate;entrust
 
-    FaCCaL                    `verb`       {- qal~ad -}         [ "imitate", "entrust" ]
-                              {- `others` [ "qallid IV_yu" ] -},
+    FaCCaL                    `verb`       {- qal~ad -}         [ "imitate", "entrust" ],
 
     -- ;; taqal~ad_1
     -- tqld    taqal~ad        PV      take over;assume
@@ -7234,23 +7037,20 @@ lexicon = listing "Lexicon's properties"
     -- qlf     qolif   IV      strip off the bark
 
     FaCaL                     `verb`       {- qalaf-i -}        [ "strip off the bark" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qlif IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qalaf-u_1
     -- qlf     qalaf   PV      circumcise
     -- qlf     qoluf   IV      circumcise
 
     FaCaL                     `verb`       {- qalaf-u -}        [ "circumcise" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qluf IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qal~af_1
     -- qlf     qal~af  PV      caulk
     -- qlf     qal~if  IV_yu   caulk
 
-    FaCCaL                    `verb`       {- qal~af -}         [ "caulk" ]
-                              {- `others` [ "qallif IV_yu" ] -},
+    FaCCaL                    `verb`       {- qal~af -}         [ "caulk" ],
 
     -- ;; qilof_1
     -- qlf     qilof   N       bark;rind
@@ -7295,8 +7095,7 @@ lexicon = listing "Lexicon's properties"
     -- qlfT    qalofaT PV      caulk;bungle
     -- qlfT    qalofiT IV_yu   caulk;bungle
 
-    KaRDaS                    `verb`       {- qalofaT -}        [ "caulk", "bungle" ]
-                              {- `others` [ "qalfi.t IV_yu" ] -},
+    KaRDaS                    `verb`       {- qalofaT -}        [ "caulk", "bungle" ],
 
     -- ;; qalofaTap_1
     -- qlfT    qalofaT Nap     caulking;bungling
@@ -7312,15 +7111,13 @@ lexicon = listing "Lexicon's properties"
     -- qll     qolil   IV_C_intr       be less;decrease;diminish
 
     FaCL                      `verb`       {- qal~-i -}         [ "be less", "decrease", "diminish" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qill IV_V_intr", "qlil IV_C_intr", "qalal PV_C_intr" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qal~al_1
     -- qll     qal~al  PV      lessen;reduce;diminish
     -- qll     qal~il  IV_yu   lessen;reduce;diminish
 
-    FaCCaL                    `verb`       {- qal~al -}         [ "lessen", "reduce", "diminish" ]
-                              {- `others` [ "qallil IV_yu" ] -},
+    FaCCaL                    `verb`       {- qal~al -}         [ "lessen", "reduce", "diminish" ],
 
     -- ;; >aqal~_1
     -- >ql     >aqal~  PV_V    lessen;reduce;diminish
@@ -7331,8 +7128,7 @@ lexicon = listing "Lexicon's properties"
     -- qll     qolil   IV_C_yu lessen;reduce;diminish
     -- ql      qal~    IV_V_Pass_yu    be lessened;be reduced;be diminished
 
-    HaFaCL                    `verb`       {- Oaqal~ -}         [ "lessen", "reduce", "diminish", "be lessened", "be reduced", "be diminished" ]
-                              {- `others` [ "qill IV_V_yu", "qall IV_V_Pass_yu", "qlil IV_C_yu", "'aqlal PV_C" ] -},
+    HaFaCL                    `verb`       {- Oaqal~ -}         [ "lessen", "reduce", "diminish", "be lessened", "be reduced", "be diminished" ],
 
     -- ;; taqAl~_1
     -- tqAl    taqAl~  PV_V    despise;scorn
@@ -7340,8 +7136,7 @@ lexicon = listing "Lexicon's properties"
     -- tqAl    taqAl~  IV_V    despise;scorn
     -- tqAll   taqAlil IV_C    despise;scorn
 
-    TaFACL                    `verb`       {- taqAl~ -}         [ "despise", "scorn" ]
-                              {- `others` [ "taqAlal PV_C" ] -},
+    TaFACL                    `verb`       {- taqAl~ -}         [ "despise", "scorn" ],
 
     -- ;; {isotaqal~_1
     -- <stql   {isotaqal~      PV_V_intr       be independent;be autonomous
@@ -7351,8 +7146,7 @@ lexicon = listing "Lexicon's properties"
     -- stql    sotaqil~        IV_V_intr       be independent;be autonomous
     -- stqll   sotaqolil       IV_C_intr       be independent;be autonomous
 
-    IstaFaCL                  `verb`       {- {isotaqal~ -}     [ "be independent", "be autonomous" ]
-                              {- `others` [ "istaqlal PV_C_intr" ] -},
+    IstaFaCL                  `verb`       {- Aisotaqal~ -}     [ "be independent", "be autonomous" ],
 
     -- ;; qil~_1
     -- ql      qil~    N       paucity;paltriness
@@ -7439,13 +7233,13 @@ lexicon = listing "Lexicon's properties"
     -- <stqlAl {isotiqolAl     N/At    independence;autonomy
     -- AstqlAl {isotiqolAl     N/At    independence;autonomy
 
-    IstiFCAL                  `noun`       {- {isotiqolAl -}    [ "independence", "autonomy" ],
+    IstiFCAL                  `noun`       {- AisotiqolAl -}    [ "independence", "autonomy" ],
 
     -- ;; {isotiqolAliy~_1
     -- <stqlAly        {isotiqolAliy~  Nall    independent;autonomous     [[{isotiqolAliy~/ADJ]]
     -- AstqlAly        {isotiqolAliy~  Nall    independent;autonomous     [[{isotiqolAliy~/ADJ]]
 
-    IstiFCAL |< Iy            `adj`        {- {isotiqolAliy~ -} [ "independent", "autonomous" ],
+    IstiFCAL |< Iy            `adj`        {- AisotiqolAliy~ -} [ "independent", "autonomous" ],
 
     -- ;; muqil~_1
     -- mql     muqil~  Nall    destitute;poor
@@ -7464,15 +7258,13 @@ lexicon = listing "Lexicon's properties"
     -- qlm     qolim   IV      trim;clip
 
     FaCaL                     `verb`       {- qalam-i -}        [ "trim", "clip" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qlim IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qal~am_1
     -- qlm     qal~am  PV      trim;clip
     -- qlm     qal~im  IV_yu   trim;clip
 
-    FaCCaL                    `verb`       {- qal~am -}         [ "trim", "clip" ]
-                              {- `others` [ "qallim IV_yu" ] -},
+    FaCCaL                    `verb`       {- qal~am -}         [ "trim", "clip" ],
 
     -- ;; qalam_1
     -- qlm     qalam   Ndu     pencil;pen
@@ -7523,8 +7315,7 @@ lexicon = listing "Lexicon's properties"
     -- qlq     qolaq   IV_intr be worried;be agitated
 
     FaCiL                     `verb`       {- qaliq-a -}        [ "be worried", "be agitated" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qlaq IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; >aqolaq_1
     -- >qlq    >aqolaq PV      make restless;agitate
@@ -7532,8 +7323,7 @@ lexicon = listing "Lexicon's properties"
     -- qlq     qoliq   IV_yu   make restless;agitate
     -- qlq     qolaq   IV_Pass_yu      be agitated
 
-    HaFCaL                    `verb`       {- Oaqolaq -}        [ "make restless", "agitate", "be agitated" ]
-                              {- `others` [ "qliq IV_yu", "qlaq IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- Oaqolaq -}        [ "make restless", "agitate", "be agitated" ],
 
     -- ;; qalaq_1
     -- qlq     qalaq   N       unrest;concern;apprehension
@@ -7579,8 +7369,7 @@ lexicon = listing "Lexicon's properties"
     -- qlql    qaloqal PV      agitate;incite
     -- qlql    qaloqil IV_yu   agitate;incite
 
-    KaRDaS                    `verb`       {- qaloqal -}        [ "agitate", "incite" ]
-                              {- `others` [ "qalqil IV_yu" ] -},
+    KaRDaS                    `verb`       {- qaloqal -}        [ "agitate", "incite" ],
 
     -- ;; taqaloqal_1
     -- tqlql   taqaloqal       PV_intr be agitated;be stirred up
@@ -7626,15 +7415,13 @@ lexicon = listing "Lexicon's properties"
     -- qls     qolis   IV      belch;eruct
 
     FaCaL                     `verb`       {- qalas-i -}        [ "belch", "eruct" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qlis IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qal~as_1
     -- qls     qal~as  PV      ridicule
     -- qls     qal~is  IV_yu   ridicule
 
-    FaCCaL                    `verb`       {- qal~as -}         [ "ridicule" ]
-                              {- `others` [ "qallis IV_yu" ] -},
+    FaCCaL                    `verb`       {- qal~as -}         [ "ridicule" ],
 
     -- ;; qalos_1
     -- qls     qalos   N       burping;belching;eructation
@@ -7661,8 +7448,7 @@ lexicon = listing "Lexicon's properties"
     -- qly     qolay   IV_Ann_Pass_yu  be fried;be baked
 
     FaCA                      `verb`       {- qalA-u -}         [ "fry", "bake", "be fried", "be baked" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qluw IV_0hAnn", "qalaw PV_Atn", "qlY IV_0_Pass_yu" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qalaY-i_1
     -- qlY     qalaY   PV_0    fry;bake
@@ -7674,8 +7460,7 @@ lexicon = listing "Lexicon's properties"
     -- qlY     qolaY   IV_0_Pass_yu    be fried;be baked
 
     FaCY                      `verb`       {- qalaY-i -}        [ "fry", "bake", "be fried", "be baked" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qalA PV_h", "qlY IV_0_Pass_yu", "qliy IV_0hAnn" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qilow_1
     -- qlw     qilow   N       alkali
@@ -7709,8 +7494,7 @@ lexicon = listing "Lexicon's properties"
     -- qlwZ    qalowaZ PV      twist;wind;screw on
     -- qlwZ    qalowiZ IV_yu   twist;wind;screw on
 
-    KaRDaS                    `verb`       {- qalowaZ -}        [ "twist", "wind", "screw on" ]
-                              {- `others` [ "qalwi.z IV_yu" ] -},
+    KaRDaS                    `verb`       {- qalowaZ -}        [ "twist", "wind", "screw on" ],
 
     -- ;; muqalowaZ_1
     -- mqlwZ   muqalowaZ       N-ap    spiral;helical     [[muqalowaZ/ADJ]]
@@ -7731,8 +7515,7 @@ lexicon = listing "Lexicon's properties"
     -- qlwz    qalowaz PV      twist;wind;screw on
     -- qlwz    qalowiz IV_yu   twist;wind;screw on
 
-    KaRDaS                    `verb`       {- qalowaz -}        [ "twist", "wind", "screw on" ]
-                              {- `others` [ "qalwiz IV_yu" ] -},
+    KaRDaS                    `verb`       {- qalowaz -}        [ "twist", "wind", "screw on" ],
 
     -- ;; muqalowaz_1
     -- mqlwz   muqalowaz       N-ap    spiral;helical     [[muqalowaz/ADJ]]
@@ -7750,8 +7533,7 @@ lexicon = listing "Lexicon's properties"
     -- ql      qola    IV_0hwnyn       detest
 
     FaCiL                     `verb`       {- qaliy-a -}        [ "detest" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qlay IV_Ann", "qlY IV_0" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qal~Ayap_1
     -- qlAy    qal~Ay  NapAt   frying pan
@@ -7799,8 +7581,7 @@ lexicon = listing "Lexicon's properties"
     -- qm}     qomu}   IV_yn   be humble;be unattractive
 
     FaCuL                     `verb`       {- qamuW-a -}        [ "be humble", "be unattractive" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qmu' IV_intr IV_yn" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qamiy'_1
     -- qmy'    qamiy'  N0      humble;unattractive     [[qamiy'/ADJ]]
@@ -7822,8 +7603,7 @@ lexicon = listing "Lexicon's properties"
     -- qmH     qam~aH  PV      pay in installments;apportion
     -- qmH     qam~iH  IV_yu   pay in installments;apportion
 
-    FaCCaL                    `verb`       {- qam~aH -}         [ "pay in installments", "apportion" ]
-                              {- `others` [ "qammi.h IV_yu" ] -},
+    FaCCaL                    `verb`       {- qam~aH -}         [ "pay in installments", "apportion" ],
 
     -- ;; >aqomaH_1
     -- >qmH    >aqomaH PV      ripen
@@ -7831,8 +7611,7 @@ lexicon = listing "Lexicon's properties"
     -- qmH     qomiH   IV_yu   ripen
     -- qmH     qomaH   IV_Pass_yu      be ripened
 
-    HaFCaL                    `verb`       {- OaqomaH -}        [ "ripen", "be ripened" ]
-                              {- `others` [ "qmi.h IV_yu", "qma.h IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- OaqomaH -}        [ "ripen", "be ripened" ],
 
     -- ;; qamoH_1
     -- qmH     qamoH   N       wheat
@@ -7870,15 +7649,13 @@ lexicon = listing "Lexicon's properties"
     -- qmS     qomuS   IV      gallop
 
     FaCaL                     `verb`       {- qamaS-u -}        [ "gallop" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qmu.s IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qam~aS_1
     -- qmS     qam~aS  PV      clothe
     -- qmS     qam~iS  IV_yu   clothe
 
-    FaCCaL                    `verb`       {- qam~aS -}         [ "clothe" ]
-                              {- `others` [ "qammi.s IV_yu" ] -},
+    FaCCaL                    `verb`       {- qam~aS -}         [ "clothe" ],
 
     -- ;; taqam~aS_1
     -- tqmS    taqam~aS        PV_intr be clothed with;put on
@@ -7918,15 +7695,13 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `verb`       {- qamaT-ui -}       [ "bandage", "swaddle" ]
                               `imperf`     FCuL
-                              `imperf`     FCiL
-                              {- `others` [ "qmi.t IV", "qmu.t IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qam~aT_1
     -- qmT     qam~aT  PV      bandage;swaddle
     -- qmT     qam~iT  IV_yu   bandage;swaddle
 
-    FaCCaL                    `verb`       {- qam~aT -}         [ "bandage", "swaddle" ]
-                              {- `others` [ "qammi.t IV_yu" ] -},
+    FaCCaL                    `verb`       {- qam~aT -}         [ "bandage", "swaddle" ],
 
     -- ;; qimoT_1
     -- qmT     qimoT   Ndu     rope;fetter
@@ -7962,15 +7737,13 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `verb`       {- qama$-ui -}       [ "collect", "pick up" ]
                               `imperf`     FCuL
-                              `imperf`     FCiL
-                              {- `others` [ "qmu^s IV", "qmi^s IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qam~a$_1
     -- qm$     qam~a$  PV      collect;pick up
     -- qm$     qam~i$  IV_yu   collect;pick up
 
-    FaCCaL                    `verb`       {- qam~a$ -}         [ "collect", "pick up" ]
-                              {- `others` [ "qammi^s IV_yu" ] -},
+    FaCCaL                    `verb`       {- qam~a$ -}         [ "collect", "pick up" ],
 
     -- ;; qumA$_1
     -- qmA$    qumA$   N       fabric;cloth
@@ -7998,8 +7771,7 @@ lexicon = listing "Lexicon's properties"
     -- qmE     qomaE   IV      repress
 
     FaCaL                     `verb`       {- qamaE-a -}        [ "repress" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qma` IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; >aqomaE_1
     -- >qmE    >aqomaE PV      repress
@@ -8007,8 +7779,7 @@ lexicon = listing "Lexicon's properties"
     -- qmE     qomiE   IV_yu   repress
     -- qmE     qomaE   IV_Pass_yu      be repressed
 
-    HaFCaL                    `verb`       {- OaqomaE -}        [ "repress", "be repressed" ]
-                              {- `others` [ "qma` IV_Pass_yu", "qmi` IV_yu" ] -},
+    HaFCaL                    `verb`       {- OaqomaE -}        [ "repress", "be repressed" ],
 
     -- ;; qamoE_1
     -- qmE     qamoE   N       repression
@@ -8048,8 +7819,7 @@ lexicon = listing "Lexicon's properties"
     -- qml     qomal   IV_intr be lice-infested
 
     FaCiL                     `verb`       {- qamil-a -}        [ "be lice-infested" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qmal IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; taqam~al_1
     -- tqml    taqam~al        PV_intr be lice-infested
@@ -8087,8 +7857,7 @@ lexicon = listing "Lexicon's properties"
     -- qmm     qomum   IV_C    sweep
 
     FaCL                      `verb`       {- qam~-u -}         [ "sweep" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qumm IV_V", "qmum IV_C", "qamam PV_C" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qam~_1
     -- qm      qam~    N       sweeping
@@ -8151,8 +7920,7 @@ lexicon = listing "Lexicon's properties"
     -- qmqm    qamoqam PV      grumble
     -- qmqm    qamoqim IV_yu   grumble
 
-    KaRDaS                    `verb`       {- qamoqam -}        [ "grumble" ]
-                              {- `others` [ "qamqim IV_yu" ] -},
+    KaRDaS                    `verb`       {- qamoqam -}        [ "grumble" ],
 
     -- ;; taqamoqam_1
     -- tqmqm   taqamoqam       PV      complain;grumble
@@ -8181,30 +7949,26 @@ lexicon = listing "Lexicon's properties"
     -- qmr     qomir   IV      gamble
 
     FaCaL                     `verb`       {- qamar-i -}        [ "gamble" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qmir IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qamir-a_1
     -- qmr     qamir   PV_intr become snow-blind
     -- qmr     qomar   IV_intr become snow-blind
 
     FaCiL                     `verb`       {- qamir-a -}        [ "become snow-blind" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qmar IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qam~ar_1
     -- qmr     qam~ar  PV      toast
     -- qmr     qam~ir  IV_yu   toast
 
-    FaCCaL                    `verb`       {- qam~ar -}         [ "toast" ]
-                              {- `others` [ "qammir IV_yu" ] -},
+    FaCCaL                    `verb`       {- qam~ar -}         [ "toast" ],
 
     -- ;; qAmar_1
     -- qAmr    qAmar   PV      gamble with;speculate
     -- qAmr    qAmir   IV_yu   gamble with;speculate
 
-    FACaL                     `verb`       {- qAmar -}          [ "gamble with", "speculate" ]
-                              {- `others` [ "qAmir IV_yu" ] -},
+    FACaL                     `verb`       {- qAmar -}          [ "gamble with", "speculate" ],
 
     -- ;; >aqomar_1
     -- >qmr    >aqomar PV_intr be moonlit
@@ -8212,8 +7976,7 @@ lexicon = listing "Lexicon's properties"
     -- qmr     qomir   IV_intr_yu      be moonlit
     -- qmr     qomar   IV_Pass_yu      be moonlit
 
-    HaFCaL                    `verb`       {- Oaqomar -}        [ "be moonlit" ]
-                              {- `others` [ "qmir IV_intr_yu", "qmar IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- Oaqomar -}        [ "be moonlit" ],
 
     -- ;; taqAmar_1
     -- tqAmr   taqAmar PV      gamble
@@ -8343,8 +8106,7 @@ lexicon = listing "Lexicon's properties"
     -- qms     qomus   IV      immerse;soak
 
     FaCaL                     `verb`       {- qamas-u -}        [ "immerse", "soak" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qmus IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qAmuws_1
     -- qAmws   qAmuws  Ndu     dictionary;lexicon
@@ -8371,8 +8133,7 @@ lexicon = listing "Lexicon's properties"
     -- qmz     qomuz   IV      take with the fingertips
 
     FaCaL                     `verb`       {- qamaz-u -}        [ "take with the fingertips" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qmuz IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qamoz_1
     -- qmz     qamoz   N       taking with the fingertips
@@ -8404,7 +8165,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtnA'  {iqotinA'       NAt     purchases;acquisitions
     -- AqtnA'  {iqotinA'       NAt     purchases;acquisitions
 
-    IFtiCAL                   `noun`       {- {iqotinA' -}      [ "purchase", "acquisition", "purchases", "acquisitions" ] ]
+    IFtiCAL                   `noun`       {- AiqotinA' -}      [ "purchase", "acquisition", "purchases", "acquisitions" ] ]
 
  |> "q n .s" <| [
 
@@ -8413,16 +8174,14 @@ lexicon = listing "Lexicon's properties"
     -- qnS     qoniS   IV      take advantage of;make use of
 
     FaCaL                     `verb`       {- qanaS-i -}        [ "take advantage of", "make use of" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qni.s IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; {iqotanaS_1
     -- <qtnS   {iqotanaS       PV      take advantage of;make use of
     -- AqtnS   {iqotanaS       PV      take advantage of;make use of
     -- qtnS    qotaniS IV      take advantage of;make use of
 
-    IFtaCaL                   `verb`       {- {iqotanaS -}      [ "take advantage of", "make use of" ]
-                              {- `others` [ "qtani.s IV" ] -},
+    IFtaCaL                   `verb`       {- AiqotanaS -}      [ "take advantage of", "make use of" ],
 
     -- ;; qanoS_1
     -- qnS     qanoS   N       hunting;shooting
@@ -8470,7 +8229,7 @@ lexicon = listing "Lexicon's properties"
     -- AqtnAS  {iqotinAS       N/At    taking advantage of;making use of
     -- <qtnAS  {iqotinAS       N/At    taking advantage of;making use of
 
-    IFtiCAL                   `noun`       {- {iqotinAS -}      [ "taking advantage of", "making use of" ],
+    IFtiCAL                   `noun`       {- AiqotinAS -}      [ "taking advantage of", "making use of" ],
 
     -- ;; maqonuwS_1
     -- mqnwS   maqonuwS        N-ap    quarry;catch
@@ -8504,23 +8263,20 @@ lexicon = listing "Lexicon's properties"
     -- qnT     qonaT   IV      despair;lose courage
 
     FaCiL                     `verb`       {- qaniT-a -}        [ "despair", "lose courage" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qna.t IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qanuT-u_1
     -- qnT     qanuT   PV      despair;lose courage
     -- qnT     qonuT   IV      despair;lose courage
 
     FaCuL                     `verb`       {- qanuT-u -}        [ "despair", "lose courage" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qnu.t IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qan~aT_1
     -- qnT     qan~aT  PV      discourage;drive to despair
     -- qnT     qan~iT  IV_yu   discourage;drive to despair
 
-    FaCCaL                    `verb`       {- qan~aT -}         [ "discourage", "drive to despair" ]
-                              {- `others` [ "qanni.t IV_yu" ] -},
+    FaCCaL                    `verb`       {- qan~aT -}         [ "discourage", "drive to despair" ],
 
     -- ;; >aqonaT_1
     -- >qnT    >aqonaT PV      discourage;drive to despair
@@ -8528,8 +8284,7 @@ lexicon = listing "Lexicon's properties"
     -- qnT     qoniT   IV_yu   discourage;drive to despair
     -- qnT     qonaT   IV_Pass_yu      be discouraged;be driven to despair
 
-    HaFCaL                    `verb`       {- OaqonaT -}        [ "discourage", "drive to despair", "be discouraged", "be driven to despair" ]
-                              {- `others` [ "qni.t IV_yu", "qna.t IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- OaqonaT -}        [ "discourage", "drive to despair", "be discouraged", "be driven to despair" ],
 
     -- ;; qanaT_1
     -- qnT     qanaT   N       despair;hopelessness
@@ -8562,8 +8317,7 @@ lexicon = listing "Lexicon's properties"
     -- qnTr    qanoTar PV      arch;span;vault
     -- qnTr    qanoTir IV_yu   arch;span;vault
 
-    KaRDaS                    `verb`       {- qanoTar -}        [ "arch", "span", "vault" ]
-                              {- `others` [ "qan.tir IV_yu" ] -},
+    KaRDaS                    `verb`       {- qanoTar -}        [ "arch", "span", "vault" ],
 
     -- ;; qanoTarap_1
     -- qnTr    qanoTar Napdu   aqueduct;bridge
@@ -8620,15 +8374,13 @@ lexicon = listing "Lexicon's properties"
     -- qnE     qonaE   IV_intr be convinced;be satisfied
 
     FaCiL                     `verb`       {- qaniE-a -}        [ "be convinced", "be satisfied" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qna` IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qan~aE_1
     -- qnE     qan~aE  PV      convince;persuade
     -- qnE     qan~iE  IV_yu   convince;persuade
 
-    FaCCaL                    `verb`       {- qan~aE -}         [ "convince", "persuade" ]
-                              {- `others` [ "qanni` IV_yu" ] -},
+    FaCCaL                    `verb`       {- qan~aE -}         [ "convince", "persuade" ],
 
     -- ;; >aqonaE_1
     -- >qnE    >aqonaE PV      persuade;convince
@@ -8636,8 +8388,7 @@ lexicon = listing "Lexicon's properties"
     -- qnE     qoniE   IV_yu   persuade;convince
     -- qnE     qonaE   IV_Pass_yu      be persuaded;be convinced
 
-    HaFCaL                    `verb`       {- OaqonaE -}        [ "persuade", "convince", "be persuaded", "be convinced" ]
-                              {- `others` [ "qni` IV_yu", "qna` IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- OaqonaE -}        [ "persuade", "convince", "be persuaded", "be convinced" ],
 
     -- ;; taqan~aE_1
     -- tqnE    taqan~aE        PV_intr be concealed;be veiled
@@ -8650,8 +8401,7 @@ lexicon = listing "Lexicon's properties"
     -- AqtnE   {iqotanaE       PV_intr be convinced;be persuade;be content
     -- qtnE    qotaniE IV_intr be convinced;be persuade;be content
 
-    IFtaCaL                   `verb`       {- {iqotanaE -}      [ "be convinced", "be persuade", "be content" ]
-                              {- `others` [ "qtani` IV_intr" ] -},
+    IFtaCaL                   `verb`       {- AiqotanaE -}      [ "be convinced", "be persuade", "be content" ],
 
     -- ;; qunoEAn_1
     -- qnEAn   qunoEAn N       satisfaction;contentment
@@ -8735,7 +8485,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtnAE  {iqotinAE       N/At    belief;conviction
     -- AqtnAE  {iqotinAE       N/At    belief;conviction
 
-    IFtiCAL                   `noun`       {- {iqotinAE -}      [ "belief", "conviction" ],
+    IFtiCAL                   `noun`       {- AiqotinAE -}      [ "belief", "conviction" ],
 
     -- ;; qAniE_1
     -- qAnE    qAniE   Nall    satisfied;content     [[qAniE/ADJ]]
@@ -8786,8 +8536,7 @@ lexicon = listing "Lexicon's properties"
     -- qnbl    qanobal PV      bombard
     -- qnbl    qanobil IV_yu   bombard
 
-    KaRDaS                    `verb`       {- qanobal -}        [ "bombard" ]
-                              {- `others` [ "qanbil IV_yu" ] -},
+    KaRDaS                    `verb`       {- qanobal -}        [ "bombard" ],
 
     -- ;; qanobal_2
     -- qnbl    qanobal Ndu     troop of horsemen
@@ -8930,8 +8679,7 @@ lexicon = listing "Lexicon's properties"
     -- qnm     qonam   IV_intr become rancid
 
     FaCiL                     `verb`       {- qanim-a -}        [ "become rancid" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qnam IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qanam_1
     -- qnm     qanam   N       rancid
@@ -8949,8 +8697,7 @@ lexicon = listing "Lexicon's properties"
     -- qnn     qan~an  PV-n    legislate
     -- qnn     qan~in  IV-n_yu legislate
 
-    FaCCaL                    `verb`       {- qan~an -}         [ "legislate" ]
-                              {- `others` [ "qannin IV-n_yu" ] -},
+    FaCCaL                    `verb`       {- qan~an -}         [ "legislate" ],
 
     -- ;; qun~_1
     -- qn      qun~    N       chicken coop
@@ -9064,12 +8811,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "q n t" <| [
 
-    -- ;; qanat_1
+    -- ;; qanat-u_1
     -- qnt     qanat   PV-t_intr       be obedient;be submissive
     -- qnt     qonut   IV_intr be obedient;be submissive
 
-    FaCaL                     `verb`       {- qanat -}          [ "be obedient", "be submissive" ]
-                              {- `others` [ "qnut IV_intr" ] -},
+    FaCaL                     `verb`       {- qanat-u -}        [ "be obedient", "be submissive" ]
+                              `imperf`     FCuL,
 
     -- ;; qunuwt_1
     -- qnwt    qunuwt  N       obedience;devoutness
@@ -9088,8 +8835,7 @@ lexicon = listing "Lexicon's properties"
     -- qny     qonay   IV_Ann_Pass_yu  be acquired;be appropriated
 
     FaCA                      `verb`       {- qanA-u -}         [ "acquire", "appropriate", "be acquired", "be appropriated" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qanaw PV_Atn", "qnY IV_0_Pass_yu", "qnuw IV_0hAnn" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qanaY-i_1
     -- qnY     qanaY   PV_0    acquire;gain
@@ -9101,8 +8847,7 @@ lexicon = listing "Lexicon's properties"
     -- qnY     qonaY   IV_0_Pass_yu    be acquired;be gained
 
     FaCY                      `verb`       {- qanaY-i -}        [ "acquire", "gain", "be acquired", "be gained" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qniy IV_0hAnn", "qnY IV_0_Pass_yu", "qanA PV_h" ] -},
+                              `imperf`     FCiL,
 
     -- ;; {iqotanaY_1
     -- <qtnY   {iqotanaY       PV_0    acquire;obtain
@@ -9117,8 +8862,7 @@ lexicon = listing "Lexicon's properties"
     -- qtn     qotan   IV_0hwnyn       acquire;obtain
     -- qtnY    qotanaY IV_0_Pass_yu    be acquired;be obtained
 
-    IFtaCY                    `verb`       {- {iqotanaY -}      [ "acquire", "obtain", "be acquired", "be obtained" ]
-                              {- `others` [ "qtanY IV_0_Pass_yu", "qtaniy IV_0hAnn" ] -},
+    IFtaCY                    `verb`       {- AiqotanaY -}      [ "acquire", "obtain", "be acquired", "be obtained" ],
 
     -- ;; qunow_1
     -- qnw     qunow   N       acquisition;purchase;appropriation
@@ -9188,7 +8932,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtnA'  {iqotinA'       NAt     purchases;acquisitions
     -- AqtnA'  {iqotinA'       NAt     purchases;acquisitions
 
-    IFtiCA'                   `noun`       {- {iqotinA' -}      [ "purchase", "acquisition", "purchases", "acquisitions" ],
+    IFtiCA'                   `noun`       {- AiqotinA' -}      [ "purchase", "acquisition", "purchases", "acquisitions" ],
 
     -- ;; qAniy_1
     -- qAny    qAniy   N0F_Nh  owner;possessor
@@ -9267,8 +9011,7 @@ lexicon = listing "Lexicon's properties"
     -- qr>     qora>   IV_Pass_yu      be read
 
     FaCaL                     `verb`       {- qaraO-a -}        [ "read", "be read" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qra' IV IV_wn IV_Pass_yu IV_yn" ] -},
+                              `imperf`     FCaL,
 
     -- ;; >aqora>_1
     -- >qr>    >aqora> PV->    make read
@@ -9279,8 +9022,7 @@ lexicon = listing "Lexicon's properties"
     -- Aqr&    >aqora& PV_w    make read
     -- qr}     qori}   IV_yu   make read
 
-    HaFCaL                    `verb`       {- OaqoraO -}        [ "make read" ]
-                              {- `others` [ "qri' IV_yu" ] -},
+    HaFCaL                    `verb`       {- OaqoraO -}        [ "make read" ],
 
     -- ;; {isotaqora>_1
     -- <stqr>  {isotaqora>     PV->    study;investigate
@@ -9291,7 +9033,7 @@ lexicon = listing "Lexicon's properties"
     -- Astqr&  {isotaqora&     PV_w    study;investigate
     -- stqr}   sotaqori}       IV      study;investigate
 
-    IstaFCaL                  `verb`       {- {isotaqoraO -}    [ "study", "investigate" ],
+    IstaFCaL                  `verb`       {- AisotaqoraO -}    [ "study", "investigate" ],
 
     -- ;; quro'_1
     -- qr'     quro'   N0F_Nh  menstruation
@@ -9358,7 +9100,7 @@ lexicon = listing "Lexicon's properties"
     -- <stqrA' {isotiqorA'     NAt     investigations;examinations;exploration
     -- AstqrA' {isotiqorA'     NAt     investigations;examinations;exploration
 
-    IstiFCAL                  `noun`       {- {isotiqorA' -}    [ "investigation", "examination", "exploration", "investigations", "examinations" ],
+    IstiFCAL                  `noun`       {- AisotiqorA' -}    [ "investigation", "examination", "exploration", "investigations", "examinations" ],
 
     -- ;; qAri}_1
     -- qAr}    qAri}   Nall    reader
@@ -9401,13 +9143,13 @@ lexicon = listing "Lexicon's properties"
     -- <stqrA' {isotiqorA'     NAt     investigations;induction
     -- AstqrA' {isotiqorA'     NAt     investigations;induction
 
-    IstiFCAL                  `noun`       {- {isotiqorA' -}    [ "investigation", "induction", "investigations" ],
+    IstiFCAL                  `noun`       {- AisotiqorA' -}    [ "investigation", "induction", "investigations" ],
 
     -- ;; {isotiqorA}iy~_1
     -- <stqrA}y        {isotiqorA}iy~  N-ap    inductive;investigative     [[{isotiqorA}iy~/ADJ]]
     -- AstqrA}y        {isotiqorA}iy~  N-ap    inductive;investigative     [[{isotiqorA}iy~/ADJ]]
 
-    IstiFCAL |< Iy            `adj`        {- {isotiqorA}iy~ -} [ "inductive", "investigative" ] ]
+    IstiFCAL |< Iy            `adj`        {- AisotiqorA}iy~ -} [ "inductive", "investigative" ] ]
 
  |> "q r .d" <| [
 
@@ -9416,22 +9158,19 @@ lexicon = listing "Lexicon's properties"
     -- qrD     qoriD   IV      corrode
 
     FaCaL                     `verb`       {- qaraD-i -}        [ "corrode" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qri.d IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qar~aD_1
     -- qrD     qar~aD  PV      corrode
     -- qrD     qar~iD  IV_yu   corrode
 
-    FaCCaL                    `verb`       {- qar~aD -}         [ "corrode" ]
-                              {- `others` [ "qarri.d IV_yu" ] -},
+    FaCCaL                    `verb`       {- qar~aD -}         [ "corrode" ],
 
     -- ;; qAraD_1
     -- qArD    qAraD   PV      lend
     -- qArD    qAriD   IV_yu   lend
 
-    FACaL                     `verb`       {- qAraD -}          [ "lend" ]
-                              {- `others` [ "qAri.d IV_yu" ] -},
+    FACaL                     `verb`       {- qAraD -}          [ "lend" ],
 
     -- ;; >aqoraD_1
     -- >qrD    >aqoraD PV      lend
@@ -9439,8 +9178,7 @@ lexicon = listing "Lexicon's properties"
     -- qrD     qoriD   IV_yu   lend
     -- qrD     qoraD   IV_Pass_yu      be lent
 
-    HaFCaL                    `verb`       {- OaqoraD -}        [ "lend", "be lent" ]
-                              {- `others` [ "qra.d IV_Pass_yu", "qri.d IV_yu" ] -},
+    HaFCaL                    `verb`       {- OaqoraD -}        [ "lend", "be lent" ],
 
     -- ;; <iqorAD_1
     -- <qrAD   <iqorAD NduAt   lending;loan
@@ -9459,23 +9197,21 @@ lexicon = listing "Lexicon's properties"
     -- AnqrD   {inoqaraD       PV_intr become extinct
     -- nqrD    noqariD IV_intr become extinct
 
-    InFaCaL                   `verb`       {- {inoqaraD -}      [ "become extinct" ]
-                              {- `others` [ "nqari.d IV_intr" ] -},
+    InFaCaL                   `verb`       {- AinoqaraD -}      [ "become extinct" ],
 
     -- ;; {iqotaraD_1
     -- <qtrD   {iqotaraD       PV      borrow
     -- AqtrD   {iqotaraD       PV      borrow
     -- qtrD    qotariD IV      borrow
 
-    IFtaCaL                   `verb`       {- {iqotaraD -}      [ "borrow" ]
-                              {- `others` [ "qtari.d IV" ] -},
+    IFtaCaL                   `verb`       {- AiqotaraD -}      [ "borrow" ],
 
     -- ;; {isotaqoraD_1
     -- <stqrD  {isotaqoraD     PV      request a loan
     -- AstqrD  {isotaqoraD     PV      request a loan
     -- stqrD   sotaqoriD       IV      request a loan
 
-    IstaFCaL                  `verb`       {- {isotaqoraD -}    [ "request a loan" ],
+    IstaFCaL                  `verb`       {- AisotaqoraD -}    [ "request a loan" ],
 
     -- ;; qaroD_1
     -- qrD     qaroD   Ndu     loan
@@ -9527,19 +9263,19 @@ lexicon = listing "Lexicon's properties"
     -- <nqrAD  {inoqirAD       N/At    extinction
     -- AnqrAD  {inoqirAD       N/At    extinction
 
-    InFiCAL                   `noun`       {- {inoqirAD -}      [ "extinction" ],
+    InFiCAL                   `noun`       {- AinoqirAD -}      [ "extinction" ],
 
     -- ;; {iqotirAD_1
     -- <qtrAD  {iqotirAD       N/At    loan
     -- AqtrAD  {iqotirAD       N/At    loan
 
-    IFtiCAL                   `noun`       {- {iqotirAD -}      [ "loan" ],
+    IFtiCAL                   `noun`       {- AiqotirAD -}      [ "loan" ],
 
     -- ;; {isotiqorAD_1
     -- <stqrAD {isotiqorAD     N/At    loan request
     -- AstqrAD {isotiqorAD     N/At    loan request
 
-    IstiFCAL                  `noun`       {- {isotiqorAD -}    [ "loan request" ],
+    IstiFCAL                  `noun`       {- AisotiqorAD -}    [ "loan request" ],
 
     -- ;; qAriD_1
     -- qArD    qAriD   N-ap    corrosive     [[qAriD/ADJ]]
@@ -9576,23 +9312,20 @@ lexicon = listing "Lexicon's properties"
     -- qrH     qoraH   IV      wound
 
     FaCaL                     `verb`       {- qaraH-a -}        [ "wound" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qra.h IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qariH-a_1
     -- qrH     qariH   PV      ulcerate
     -- qrH     qoraH   IV      ulcerate
 
     FaCiL                     `verb`       {- qariH-a -}        [ "ulcerate" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qra.h IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qar~aH_1
     -- qrH     qar~aH  PV      wound;ulcerate
     -- qrH     qar~iH  IV_yu   wound;ulcerate
 
-    FaCCaL                    `verb`       {- qar~aH -}         [ "wound", "ulcerate" ]
-                              {- `others` [ "qarri.h IV_yu" ] -},
+    FaCCaL                    `verb`       {- qar~aH -}         [ "wound", "ulcerate" ],
 
     -- ;; taqar~aH_1
     -- tqrH    taqar~aH        PV      have ulcers
@@ -9605,8 +9338,7 @@ lexicon = listing "Lexicon's properties"
     -- AqtrH   {iqotaraH       PV      propose;suggest
     -- qtrH    qotariH IV      propose;suggest
 
-    IFtaCaL                   `verb`       {- {iqotaraH -}      [ "propose", "suggest" ]
-                              {- `others` [ "qtari.h IV" ] -},
+    IFtaCaL                   `verb`       {- AiqotaraH -}      [ "propose", "suggest" ],
 
     -- ;; qaroH_1
     -- qrH     qaroH   N       wound;ulcer
@@ -9654,7 +9386,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtrAH  {iqotirAH       NduAt   proposal;suggestion
     -- AqtrAH  {iqotirAH       NduAt   proposal;suggestion
 
-    IFtiCAL                   `noun`       {- {iqotirAH -}      [ "proposal", "suggestion" ],
+    IFtiCAL                   `noun`       {- AiqotirAH -}      [ "proposal", "suggestion" ],
 
     -- ;; qAriH_1
     -- qArH    qAriH   N0      Qarih
@@ -9694,15 +9426,13 @@ lexicon = listing "Lexicon's properties"
     -- qrS     qoruS   IV      pinch;bite
 
     FaCaL                     `verb`       {- qaraS-u -}        [ "pinch", "bite" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qru.s IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qar~aS_1
     -- qrS     qar~aS  PV      pinch;bite
     -- qrS     qar~iS  IV_yu   pinch;bite
 
-    FaCCaL                    `verb`       {- qar~aS -}         [ "pinch", "bite" ]
-                              {- `others` [ "qarri.s IV_yu" ] -},
+    FaCCaL                    `verb`       {- qar~aS -}         [ "pinch", "bite" ],
 
     -- ;; qaroS_1
     -- qrS     qaroS   N       pinching;biting
@@ -9795,15 +9525,13 @@ lexicon = listing "Lexicon's properties"
     -- qrT     qoruT   IV      mince
 
     FaCaL                     `verb`       {- qaraT-u -}        [ "mince" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qru.t IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qar~aT_1
     -- qrT     qar~aT  PV      mince;snuff out
     -- qrT     qar~iT  IV_yu   mince;snuff out
 
-    FaCCaL                    `verb`       {- qar~aT -}         [ "mince", "snuff out" ]
-                              {- `others` [ "qarri.t IV_yu" ] -},
+    FaCCaL                    `verb`       {- qar~aT -}         [ "mince", "snuff out" ],
 
     -- ;; qaroT_1
     -- qrT     qaroT   N       mincing
@@ -9899,8 +9627,7 @@ lexicon = listing "Lexicon's properties"
     -- qrTm    qaroTam PV      cut off;clip
     -- qrTm    qaroTim IV_yu   cut off;clip
 
-    KaRDaS                    `verb`       {- qaroTam -}        [ "cut off", "clip" ]
-                              {- `others` [ "qar.tim IV_yu" ] -},
+    KaRDaS                    `verb`       {- qaroTam -}        [ "cut off", "clip" ],
 
     -- ;; qiroTim_1
     -- qrTm    qiroTim N       safflower
@@ -9916,8 +9643,7 @@ lexicon = listing "Lexicon's properties"
     -- qrTs    qaroTas PV      wrap;package
     -- qrTs    qaroTis IV_yu   wrap;package
 
-    KaRDaS                    `verb`       {- qaroTas -}        [ "wrap", "package" ]
-                              {- `others` [ "qar.tis IV_yu" ] -},
+    KaRDaS                    `verb`       {- qaroTas -}        [ "wrap", "package" ],
 
     -- ;; qiroTAs_1
     -- qrTAs   qiroTAs Ndu     paper;sheet of paper
@@ -9945,8 +9671,7 @@ lexicon = listing "Lexicon's properties"
     -- qrZ     qar~aZ  PV      praise;extol;eulogize
     -- qrZ     qar~iZ  IV_yu   praise;extol;eulogize
 
-    FaCCaL                    `verb`       {- qar~aZ -}         [ "praise", "extol", "eulogize" ]
-                              {- `others` [ "qarri.z IV_yu" ] -},
+    FaCCaL                    `verb`       {- qar~aZ -}         [ "praise", "extol", "eulogize" ],
 
     -- ;; taqoriyZ_1
     -- tqryZ   taqoriyZ        N/At    praise;eulogy
@@ -9978,31 +9703,27 @@ lexicon = listing "Lexicon's properties"
     -- qr$     qori$   IV      grind;chew
 
     FaCaL                     `verb`       {- qara$-i -}        [ "grind", "chew" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qri^s IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qara$-u_1
     -- qr$     qara$   PV      make a living
     -- qr$     qoru$   IV      make a living
 
     FaCaL                     `verb`       {- qara$-u -}        [ "make a living" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qru^s IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qar~a$_1
     -- qr$     qar~a$  PV      make a living
     -- qr$     qar~i$  IV_yu   make a living
 
-    FaCCaL                    `verb`       {- qar~a$ -}         [ "make a living" ]
-                              {- `others` [ "qarri^s IV_yu" ] -},
+    FaCCaL                    `verb`       {- qar~a$ -}         [ "make a living" ],
 
     -- ;; {iqotara$_1
     -- <qtr$   {iqotara$       PV      make a living
     -- Aqtr$   {iqotara$       PV      make a living
     -- qtr$    qotari$ IV      make a living
 
-    IFtaCaL                   `verb`       {- {iqotara$ -}      [ "make a living" ]
-                              {- `others` [ "qtari^s IV" ] -},
+    IFtaCaL                   `verb`       {- Aiqotara$ -}      [ "make a living" ],
 
     -- ;; qiro$_1
     -- qr$     qiro$   Ndu     piaster
@@ -10056,30 +9777,26 @@ lexicon = listing "Lexicon's properties"
     -- qrE     qoraE   IV      knock;strike;ring
 
     FaCaL                     `verb`       {- qaraE-a -}        [ "knock", "strike", "ring" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qra` IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qariE-a_1
     -- qrE     qariE   PV_intr be bald;be bare
     -- qrE     qoraE   IV_intr be bald;be bare
 
     FaCiL                     `verb`       {- qariE-a -}        [ "be bald", "be bare" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qra` IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qar~aE_1
     -- qrE     qar~aE  PV      reprimand
     -- qrE     qar~iE  IV_yu   reprimand
 
-    FaCCaL                    `verb`       {- qar~aE -}         [ "reprimand" ]
-                              {- `others` [ "qarri` IV_yu" ] -},
+    FaCCaL                    `verb`       {- qar~aE -}         [ "reprimand" ],
 
     -- ;; qAraE_1
     -- qArE    qAraE   PV      fight;struggle against
     -- qArE    qAriE   IV_yu   fight;struggle against
 
-    FACaL                     `verb`       {- qAraE -}          [ "fight", "struggle against" ]
-                              {- `others` [ "qAri` IV_yu" ] -},
+    FACaL                     `verb`       {- qAraE -}          [ "fight", "struggle against" ],
 
     -- ;; taqAraE_1
     -- tqArE   taqAraE PV      clash
@@ -10092,8 +9809,7 @@ lexicon = listing "Lexicon's properties"
     -- AqtrE   {iqotaraE       PV      take a vote;cast lots
     -- qtrE    qotariE IV      take a vote;cast lots
 
-    IFtaCaL                   `verb`       {- {iqotaraE -}      [ "take a vote", "cast lots" ]
-                              {- `others` [ "qtari` IV" ] -},
+    IFtaCaL                   `verb`       {- AiqotaraE -}      [ "take a vote", "cast lots" ],
 
     -- ;; qaroE_1
     -- qrE     qaroE   N       knocking;striking;ringing
@@ -10208,13 +9924,13 @@ lexicon = listing "Lexicon's properties"
     -- <qtrAE  {iqotirAE       N/At    balloting;voting;election
     -- AqtrAE  {iqotirAE       N/At    balloting;voting;election
 
-    IFtiCAL                   `noun`       {- {iqotirAE -}      [ "balloting", "voting", "election" ],
+    IFtiCAL                   `noun`       {- AiqotirAE -}      [ "balloting", "voting", "election" ],
 
     -- ;; {iqotirAEiy~_1
     -- <qtrAEy {iqotirAEiy~    Nall    balloting;voting;election     [[{iqotirAEiy~/ADJ]]
     -- AqtrAEy {iqotirAEiy~    Nall    balloting;voting;election     [[{iqotirAEiy~/ADJ]]
 
-    IFtiCAL |< Iy             `adj`        {- {iqotirAEiy~ -}   [ "balloting", "voting", "election" ],
+    IFtiCAL |< Iy             `adj`        {- AiqotirAEiy~ -}   [ "balloting", "voting", "election" ],
 
     -- ;; qAriE_1
     -- qArE    qAriE   Nall    knocking;striking;ringing
@@ -10241,30 +9957,26 @@ lexicon = listing "Lexicon's properties"
     -- qrb     qorub   IV      approach;draw near
 
     FaCuL                     `verb`       {- qarub-u -}        [ "approach", "draw near" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qrub IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qarib-a_1
     -- qrb     qarib   PV      approach;draw near;approximate
     -- qrb     qorab   IV      approach;draw near;approximate
 
     FaCiL                     `verb`       {- qarib-a -}        [ "approach", "draw near", "approximate" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qrab IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qar~ab_1
     -- qrb     qar~ab  PV      bring close;approximate
     -- qrb     qar~ib  IV_yu   bring close;approximate
 
-    FaCCaL                    `verb`       {- qar~ab -}         [ "bring close", "approximate" ]
-                              {- `others` [ "qarrib IV_yu" ] -},
+    FaCCaL                    `verb`       {- qar~ab -}         [ "bring close", "approximate" ],
 
     -- ;; qArab_1
     -- qArb    qArab   PV      come close to;approximate
     -- qArb    qArib   IV_yu   come close to;approximate
 
-    FACaL                     `verb`       {- qArab -}          [ "come close to", "approximate" ]
-                              {- `others` [ "qArib IV_yu" ] -},
+    FACaL                     `verb`       {- qArab -}          [ "come close to", "approximate" ],
 
     -- ;; taqar~ab_1
     -- tqrb    taqar~ab        PV      approach;approximate
@@ -10283,15 +9995,14 @@ lexicon = listing "Lexicon's properties"
     -- Aqtrb   {iqotarab       PV      get close to;approach
     -- qtrb    qotarib IV      get close to;approach
 
-    IFtaCaL                   `verb`       {- {iqotarab -}      [ "get close to", "approach" ]
-                              {- `others` [ "qtarib IV" ] -},
+    IFtaCaL                   `verb`       {- Aiqotarab -}      [ "get close to", "approach" ],
 
     -- ;; {isotaqorab_1
     -- <stqrb  {isotaqorab     PV      find near
     -- Astqrb  {isotaqorab     PV      find near
     -- stqrb   sotaqorib       IV      find near
 
-    IstaFCaL                  `verb`       {- {isotaqorab -}    [ "find near" ],
+    IstaFCaL                  `verb`       {- Aisotaqorab -}    [ "find near" ],
 
     -- ;; qurob_1
     -- qrb     qurob   N       proximity;nearness
@@ -10454,7 +10165,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtrAb  {iqotirAb       N/At    approach;approximation
     -- AqtrAb  {iqotirAb       N/At    approach;approximation
 
-    IFtiCAL                   `noun`       {- {iqotirAb -}      [ "approach", "approximation" ],
+    IFtiCAL                   `noun`       {- AiqotirAb -}      [ "approach", "approximation" ],
 
     -- ;; muqar~ab_1
     -- mqrb    muqar~ab        Nall    close;near     [[muqar~ab/ADJ]]
@@ -10581,38 +10292,33 @@ lexicon = listing "Lexicon's properties"
     -- qrf     qorif   IV      peel
 
     FaCaL                     `verb`       {- qaraf-i -}        [ "peel" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qrif IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qarif-a_1
     -- qrf     qarif   PV      loathe;detest
     -- qrf     qoraf   IV      loathe;detest
 
     FaCiL                     `verb`       {- qarif-a -}        [ "loathe", "detest" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qraf IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qar~af_1
     -- qrf     qar~af  PV      peel;arouse disgust
     -- qrf     qar~if  IV_yu   peel;arouse disgust
 
-    FaCCaL                    `verb`       {- qar~af -}         [ "peel", "arouse disgust" ]
-                              {- `others` [ "qarrif IV_yu" ] -},
+    FaCCaL                    `verb`       {- qar~af -}         [ "peel", "arouse disgust" ],
 
     -- ;; qAraf_1
     -- qArf    qAraf   PV      yield to
     -- qArf    qArif   IV_yu   yield to
 
-    FACaL                     `verb`       {- qAraf -}          [ "yield to" ]
-                              {- `others` [ "qArif IV_yu" ] -},
+    FACaL                     `verb`       {- qAraf -}          [ "yield to" ],
 
     -- ;; {iqotaraf_1
     -- <qtrf   {iqotaraf       PV      commit;perpetrate
     -- Aqtrf   {iqotaraf       PV      commit;perpetrate
     -- qtrf    qotarif IV      commit;perpetrate
 
-    IFtaCaL                   `verb`       {- {iqotaraf -}      [ "commit", "perpetrate" ]
-                              {- `others` [ "qtarif IV" ] -},
+    IFtaCaL                   `verb`       {- Aiqotaraf -}      [ "commit", "perpetrate" ],
 
     -- ;; qaraf_1
     -- qrf     qaraf   N       loathing
@@ -10675,7 +10381,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtrAf  {iqotirAf       N/At    perpetration
     -- AqtrAf  {iqotirAf       N/At    perpetration
 
-    IFtiCAL                   `noun`       {- {iqotirAf -}      [ "perpetration" ],
+    IFtiCAL                   `noun`       {- AiqotirAf -}      [ "perpetration" ],
 
     -- ;; muqorif_1
     -- mqrf    muqorif Nall    loathsome;disgusting     [[muqorif/ADJ]]
@@ -10693,8 +10399,7 @@ lexicon = listing "Lexicon's properties"
     -- qrfS    qarofaS PV      squat
     -- qrfS    qarofiS IV_yu   squat
 
-    KaRDaS                    `verb`       {- qarofaS -}        [ "squat" ]
-                              {- `others` [ "qarfi.s IV_yu" ] -},
+    KaRDaS                    `verb`       {- qarofaS -}        [ "squat" ],
 
     -- ;; qarofaSap_1
     -- qrfS    qarofaS Nap     squatting
@@ -10720,8 +10425,7 @@ lexicon = listing "Lexicon's properties"
     -- qrm     qorim   IV      gnaw;nibble
 
     FaCaL                     `verb`       {- qaram-i -}        [ "gnaw", "nibble" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qrim IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qarom_1
     -- qrm     qarom   N       gnawing;nibbling
@@ -10786,8 +10490,7 @@ lexicon = listing "Lexicon's properties"
     -- qrm$    qaroma$ PV      nibble;crunch
     -- qrm$    qaromi$ IV_yu   nibble;crunch
 
-    KaRDaS                    `verb`       {- qaroma$ -}        [ "nibble", "crunch" ]
-                              {- `others` [ "qarmi^s IV_yu" ] -},
+    KaRDaS                    `verb`       {- qaroma$ -}        [ "nibble", "crunch" ],
 
     -- ;; qaroma$ap_1
     -- qrm$    qaroma$ Nap     nibbling;crunching
@@ -10805,8 +10508,7 @@ lexicon = listing "Lexicon's properties"
     -- qrmd    qaromad PV      plaster;tile
     -- qrmd    qaromid IV_yu   plaster;tile
 
-    KaRDaS                    `verb`       {- qaromad -}        [ "plaster", "tile" ]
-                              {- `others` [ "qarmid IV_yu" ] -},
+    KaRDaS                    `verb`       {- qaromad -}        [ "plaster", "tile" ],
 
     -- ;; qaromadap_1
     -- qrmd    qaromad Nap     plastering;tiling
@@ -10862,8 +10564,7 @@ lexicon = listing "Lexicon's properties"
     -- qrn     qorin   IV-n    connect;combine
 
     FaCaL                     `verb`       {- qaran-i -}        [ "connect", "combine" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qrin IV-n" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qAran_1
     -- qArn    qAran   PV-n    compare
@@ -10871,8 +10572,7 @@ lexicon = listing "Lexicon's properties"
     -- qwrn    quwrin  PV-n_Pass       be compared
     -- qArn    qAran   IV-n_Pass_yu    be compared
 
-    FACaL                     `verb`       {- qAran -}          [ "compare", "be compared" ]
-                              {- `others` [ "quwrin PV-n_Pass", "qArin IV-n_yu" ] -},
+    FACaL                     `verb`       {- qAran -}          [ "compare", "be compared" ],
 
     -- ;; >aqoran_1
     -- >qrn    >aqoran PV-n    combine
@@ -10880,8 +10580,7 @@ lexicon = listing "Lexicon's properties"
     -- qrn     qorin   IV-n_yu combine
     -- qrn     qoran   IV-n_Pass_yu    be combined
 
-    HaFCaL                    `verb`       {- Oaqoran -}        [ "combine", "be combined" ]
-                              {- `others` [ "qrin IV-n_yu", "qran IV-n_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- Oaqoran -}        [ "combine", "be combined" ],
 
     -- ;; taqAran_1
     -- tqArn   taqAran PV-n_intr       be coupled;be linked
@@ -10894,15 +10593,14 @@ lexicon = listing "Lexicon's properties"
     -- Aqtrn   {iqotaran       PV-n_intr       be married;be interlinked
     -- qtrn    qotarin IV-n_intr       be married;be interlinked
 
-    IFtaCaL                   `verb`       {- {iqotaran -}      [ "be married", "be interlinked" ]
-                              {- `others` [ "qtarin IV-n_intr" ] -},
+    IFtaCaL                   `verb`       {- Aiqotaran -}      [ "be married", "be interlinked" ],
 
     -- ;; {isotaqoran_1
     -- <stqrn  {isotaqoran     PV-n    ripen
     -- Astqrn  {isotaqoran     PV-n    ripen
     -- stqrn   sotaqorin       IV-n    ripen
 
-    IstaFCaL                  `verb`       {- {isotaqoran -}    [ "ripen" ],
+    IstaFCaL                  `verb`       {- Aisotaqoran -}    [ "ripen" ],
 
     -- ;; qaron_1
     -- qrn     qaron   Ndu     century;age
@@ -11024,7 +10722,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtrAn  {iqotirAn       N/At    connection;link;marriage
     -- AqtrAn  {iqotirAn       N/At    connection;link;marriage
 
-    IFtiCAL                   `noun`       {- {iqotirAn -}      [ "connection", "link", "marriage" ],
+    IFtiCAL                   `noun`       {- AiqotirAn -}      [ "connection", "link", "marriage" ],
 
     -- ;; qArinap_1
     -- qArn    qArin   Napdu   couple;link
@@ -11075,8 +10773,7 @@ lexicon = listing "Lexicon's properties"
     -- qrq     qoruq   IV      cluck
 
     FaCaL                     `verb`       {- qaraq-u -}        [ "cluck" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qruq IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaroq_1
     -- qrq     qaroq   N       clucking
@@ -11094,8 +10791,7 @@ lexicon = listing "Lexicon's properties"
     -- qrqD    qaroqaD PV      gnaw;gnash
     -- qrqD    qaroqiD IV_yu   gnaw;gnash
 
-    KaRDaS                    `verb`       {- qaroqaD -}        [ "gnaw", "gnash" ]
-                              {- `others` [ "qarqi.d IV_yu" ] -},
+    KaRDaS                    `verb`       {- qaroqaD -}        [ "gnaw", "gnash" ],
 
     -- ;; qaroqaDap_1
     -- qrqD    qaroqaD NapAt   gnawing;gnashing
@@ -11108,8 +10804,7 @@ lexicon = listing "Lexicon's properties"
     -- qrqE    qaroqaE PV      creak;rumble;crackle
     -- qrqE    qaroqiE IV_yu   creak;rumble;crackle
 
-    KaRDaS                    `verb`       {- qaroqaE -}        [ "creak", "rumble", "crackle" ]
-                              {- `others` [ "qarqi` IV_yu" ] -},
+    KaRDaS                    `verb`       {- qaroqaE -}        [ "creak", "rumble", "crackle" ],
 
     -- ;; qaroqaEap_1
     -- qrqE    qaroqaE Nap     creaking;rumbling;crackling
@@ -11122,8 +10817,7 @@ lexicon = listing "Lexicon's properties"
     -- qrqf    qaroqaf PV      shiver
     -- qrqf    qaroqif IV_yu   shiver
 
-    KaRDaS                    `verb`       {- qaroqaf -}        [ "shiver" ]
-                              {- `others` [ "qarqif IV_yu" ] -},
+    KaRDaS                    `verb`       {- qaroqaf -}        [ "shiver" ],
 
     -- ;; qaroqafap_1
     -- qrqf    qaroqaf Nap     shivering
@@ -11141,8 +10835,7 @@ lexicon = listing "Lexicon's properties"
     -- qrqr    qaroqar PV      growl;grumble;guffaw
     -- qrqr    qaroqir IV_yu   growl;grumble;guffaw
 
-    KaRDaS                    `verb`       {- qaroqar -}        [ "growl", "grumble", "guffaw" ]
-                              {- `others` [ "qarqir IV_yu" ] -},
+    KaRDaS                    `verb`       {- qaroqar -}        [ "growl", "grumble", "guffaw" ],
 
     -- ;; qaroqarap_1
     -- qrqr    qaroqar Nap     growling;grumbling;guffaw
@@ -11185,15 +10878,13 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`       {- qar~-ia -}        [ "settle down", "remain" ]
                               `imperf`     FCiL
-                              `imperf`     FCaL
-                              {- `others` [ "qarar PV_C", "qirr IV_V", "qarir PV_C", "qrir IV_C", "qrar IV_C" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qar~ar_1
     -- qrr     qar~ar  PV      decide;resolve
     -- qrr     qar~ir  IV_yu   decide;resolve
 
-    FaCCaL                    `verb`       {- qar~ar -}         [ "decide", "resolve" ]
-                              {- `others` [ "qarrir IV_yu" ] -},
+    FaCCaL                    `verb`       {- qar~ar -}         [ "decide", "resolve" ],
 
     -- ;; >aqar~_1
     -- >qr     >aqar~  PV_V    ratify;accept
@@ -11204,8 +10895,7 @@ lexicon = listing "Lexicon's properties"
     -- qrr     qorir   IV_C_yu ratify;accept
     -- qr      qar~    IV_V_Pass_yu    be ratified;be accepted
 
-    HaFaCL                    `verb`       {- Oaqar~ -}         [ "ratify", "accept", "be ratified", "be accepted" ]
-                              {- `others` [ "'aqrar PV_C", "qirr IV_V_yu", "qrir IV_C_yu", "qarr IV_V_Pass_yu" ] -},
+    HaFaCL                    `verb`       {- Oaqar~ -}         [ "ratify", "accept", "be ratified", "be accepted" ],
 
     -- ;; taqar~ar_1
     -- tqrr    taqar~ar        PV_intr be decided;be resolved
@@ -11221,8 +10911,7 @@ lexicon = listing "Lexicon's properties"
     -- stqr    sotaqir~        IV_V    settle down;be stabilized
     -- stqrr   sotaqorir       IV_C    settle down;be stabilized
 
-    IstaFaCL                  `verb`       {- {isotaqar~ -}     [ "settle down", "be stabilized" ]
-                              {- `others` [ "istaqrar PV_C" ] -},
+    IstaFaCL                  `verb`       {- Aisotaqar~ -}     [ "settle down", "be stabilized" ],
 
     -- ;; qar~_1
     -- qr      qar~    N       cold
@@ -11297,7 +10986,7 @@ lexicon = listing "Lexicon's properties"
     -- <stqrAr {isotiqorAr     NduAt   stability
     -- AstqrAr {isotiqorAr     NduAt   stability
 
-    IstiFCAL                  `noun`       {- {isotiqorAr -}    [ "stability" ],
+    IstiFCAL                  `noun`       {- AisotiqorAr -}    [ "stability" ],
 
     -- ;; qAr~_1
     -- qAr     qAr~    N-ap    settled;fixed     [[qAr~/ADJ]]
@@ -11361,15 +11050,13 @@ lexicon = listing "Lexicon's properties"
     -- qrs     qoras   IV_intr be severe;freeze
 
     FaCiL                     `verb`       {- qaris-a -}        [ "be severe", "freeze" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qras IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qar~as_1
     -- qrs     qar~as  PV      freeze
     -- qrs     qar~is  IV_yu   freeze
 
-    FaCCaL                    `verb`       {- qar~as -}         [ "freeze" ]
-                              {- `others` [ "qarris IV_yu" ] -},
+    FaCCaL                    `verb`       {- qar~as -}         [ "freeze" ],
 
     -- ;; qaruws_1
     -- qrws    qaruws  N       sea bass
@@ -11403,8 +11090,7 @@ lexicon = listing "Lexicon's properties"
     -- qrt     qorit   IV      turn blue
 
     FaCaL                     `verb`       {- qarat-i -}        [ "turn blue" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qrit IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; quruwt_1
     -- qrwt    quruwt  N       turning blue
@@ -11438,8 +11124,7 @@ lexicon = listing "Lexicon's properties"
     -- qry     qoray   IV_Ann_Pass_yu  be pierced;be examined
 
     FaCA                      `verb`       {- qarA-u -}         [ "pierce", "examine", "be pierced", "be examined" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qrY IV_0_Pass_yu", "qaraw PV_Atn", "qruw IV_0hAnn" ] -},
+                              `imperf`     FCuL,
 
     -- ;; taqar~aY_1
     -- tqrY    taqar~aY        PV_0    investigate
@@ -11466,7 +11151,7 @@ lexicon = listing "Lexicon's properties"
     -- stqr    sotaqor IV_0hwnyn       examine;explore;investigate
     -- stqrY   sotaqoraY       IV_0_Pass_yu    be examined;be explored;be investigated
 
-    IstaFCY                   `verb`       {- {isotaqoraY -}    [ "examine", "explore", "investigate", "be examined", "be explored", "be investigated" ],
+    IstaFCY                   `verb`       {- AisotaqoraY -}    [ "examine", "explore", "investigate", "be examined", "be explored", "be investigated" ],
 
     -- ;; qarow_1
     -- qrw     qarow   Ndu     watering trough
@@ -11490,13 +11175,13 @@ lexicon = listing "Lexicon's properties"
     -- <stqrA' {isotiqorA'     NAt     investigations;induction
     -- AstqrA' {isotiqorA'     NAt     investigations;induction
 
-    IstiFCA'                  `noun`       {- {isotiqorA' -}    [ "investigation", "induction", "investigations" ],
+    IstiFCA'                  `noun`       {- AisotiqorA' -}    [ "investigation", "induction", "investigations" ],
 
     -- ;; {isotiqorA}iy~_1
     -- <stqrA}y        {isotiqorA}iy~  N-ap    inductive;investigative     [[{isotiqorA}iy~/ADJ]]
     -- AstqrA}y        {isotiqorA}iy~  N-ap    inductive;investigative     [[{isotiqorA}iy~/ADJ]]
 
-    IstiFCA' |< Iy            `adj`        {- {isotiqorA}iy~ -} [ "inductive", "investigative" ] ]
+    IstiFCA' |< Iy            `adj`        {- AisotiqorA}iy~ -} [ "inductive", "investigative" ] ]
 
  |> "q r y" <| [
 
@@ -11510,8 +11195,7 @@ lexicon = listing "Lexicon's properties"
     -- qrY     qoraY   IV_0_Pass_yu    be received hospitably;be entertained
 
     FaCY                      `verb`       {- qaraY-i -}        [ "receive hospitably", "entertain", "be received hospitably", "be entertained" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qriy IV_0hAnn", "qarA PV_h", "qrY IV_0_Pass_yu", "qaray PV_Atn" ] -},
+                              `imperf`     FCiL,
 
     -- ;; {iqotaraY_1
     -- <qtrY   {iqotaraY       PV_0    receive hospitably;entertain
@@ -11526,8 +11210,7 @@ lexicon = listing "Lexicon's properties"
     -- qtr     qotar   IV_0hwnyn       receive hospitably;entertain
     -- qtrY    qotaraY IV_0_Pass_yu    be received hospitably;be entertained
 
-    IFtaCY                    `verb`       {- {iqotaraY -}      [ "receive hospitably", "entertain", "be received hospitably", "be entertained" ]
-                              {- `others` [ "qtarY IV_0_Pass_yu", "qtariy IV_0hAnn", "iqtaray PV_Atn" ] -},
+    IFtaCY                    `verb`       {- AiqotaraY -}      [ "receive hospitably", "entertain", "be received hospitably", "be entertained" ],
 
     -- ;; qiraY_1
     -- qrY     qiraY   N0      hospitality
@@ -11596,8 +11279,7 @@ lexicon = listing "Lexicon's properties"
     -- qsH     qosuH   IV_intr be coarse;be hard
 
     FaCuL                     `verb`       {- qasuH-u -}        [ "be coarse", "be hard" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qsu.h IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qasAHap_1
     -- qsAH    qasAH   Nap     coarseness;thickness
@@ -11616,15 +11298,13 @@ lexicon = listing "Lexicon's properties"
     -- qsT     qosaT   IV_intr become stiff
 
     FaCiL                     `verb`       {- qasiT-a -}        [ "become stiff" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qsa.t IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qas~aT_1
     -- qsT     qas~aT  PV      distribute;pay in installments;ration
     -- qsT     qas~iT  IV_yu   distribute;pay in installments;ration
 
-    FaCCaL                    `verb`       {- qas~aT -}         [ "distribute", "pay in installments", "ration" ]
-                              {- `others` [ "qassi.t IV_yu" ] -},
+    FaCCaL                    `verb`       {- qas~aT -}         [ "distribute", "pay in installments", "ration" ],
 
     -- ;; >aqosaT_1
     -- >qsT    >aqosaT PV_intr be equitable;ration equitably
@@ -11632,8 +11312,7 @@ lexicon = listing "Lexicon's properties"
     -- qsT     qosiT   IV_intr_yu      be equitable;ration equitably
     -- qsT     qosaT   IV_Pass_yu      be rationed equitably
 
-    HaFCaL                    `verb`       {- OaqosaT -}        [ "be equitable", "ration equitably", "be rationed equitably" ]
-                              {- `others` [ "qsi.t IV_intr_yu", "qsa.t IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- OaqosaT -}        [ "be equitable", "ration equitably", "be rationed equitably" ],
 
     -- ;; qisoT_1
     -- qsT     qisoT   N       fairness;equity
@@ -11721,8 +11400,7 @@ lexicon = listing "Lexicon's properties"
     -- qsTr    qasoTar PV      test for genuineness
     -- qsTr    qasoTir IV_yu   test for genuineness
 
-    KaRDaS                    `verb`       {- qasoTar -}        [ "test for genuineness" ]
-                              {- `others` [ "qas.tir IV_yu" ] -},
+    KaRDaS                    `verb`       {- qasoTar -}        [ "test for genuineness" ],
 
     -- ;; qasoTarap_1
     -- qsTr    qasoTar Nap     test for genuineness
@@ -11757,22 +11435,19 @@ lexicon = listing "Lexicon's properties"
     -- qsm     qosim   IV      divide;distribute
 
     FaCaL                     `verb`       {- qasam-i -}        [ "divide", "distribute" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qsim IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qas~am_1
     -- qsm     qas~am  PV      divide;partition;distribute
     -- qsm     qas~im  IV_yu   divide;partition;distribute
 
-    FaCCaL                    `verb`       {- qas~am -}         [ "divide", "partition", "distribute" ]
-                              {- `others` [ "qassim IV_yu" ] -},
+    FaCCaL                    `verb`       {- qas~am -}         [ "divide", "partition", "distribute" ],
 
     -- ;; qAsam_1
     -- qAsm    qAsam   PV      share with
     -- qAsm    qAsim   IV_yu   share with
 
-    FACaL                     `verb`       {- qAsam -}          [ "share with" ]
-                              {- `others` [ "qAsim IV_yu" ] -},
+    FACaL                     `verb`       {- qAsam -}          [ "share with" ],
 
     -- ;; >aqosam_1
     -- >qsm    >aqosam PV      take an oath;swear
@@ -11780,8 +11455,7 @@ lexicon = listing "Lexicon's properties"
     -- qsm     qosim   IV_yu   take an oath;swear
     -- qsm     qosam   IV_Pass_yu      be sworn
 
-    HaFCaL                    `verb`       {- Oaqosam -}        [ "take an oath", "swear", "be sworn" ]
-                              {- `others` [ "qsam IV_Pass_yu", "qsim IV_yu" ] -},
+    HaFCaL                    `verb`       {- Oaqosam -}        [ "take an oath", "swear", "be sworn" ],
 
     -- ;; taqas~am_1
     -- tqsm    taqas~am        PV_intr be divided;be partitioned
@@ -11800,23 +11474,21 @@ lexicon = listing "Lexicon's properties"
     -- Anqsm   {inoqasam       PV_intr be fragmented;be divided;be distributed
     -- nqsm    noqasim IV_intr be fragmented;be divided;be distributed
 
-    InFaCaL                   `verb`       {- {inoqasam -}      [ "be fragmented", "be divided", "be distributed" ]
-                              {- `others` [ "nqasim IV_intr" ] -},
+    InFaCaL                   `verb`       {- Ainoqasam -}      [ "be fragmented", "be divided", "be distributed" ],
 
     -- ;; {iqotasam_1
     -- <qtsm   {iqotasam       PV      distribute among themselves
     -- Aqtsm   {iqotasam       PV      distribute among themselves
     -- qtsm    qotasim IV      distribute among themselves
 
-    IFtaCaL                   `verb`       {- {iqotasam -}      [ "distribute among themselves" ]
-                              {- `others` [ "qtasim IV" ] -},
+    IFtaCaL                   `verb`       {- Aiqotasam -}      [ "distribute among themselves" ],
 
     -- ;; {isotaqosam_1
     -- <stqsm  {isotaqosam     PV      conjure
     -- Astqsm  {isotaqosam     PV      conjure
     -- stqsm   sotaqosim       IV      conjure
 
-    IstaFCaL                  `verb`       {- {isotaqosam -}    [ "conjure" ],
+    IstaFCaL                  `verb`       {- Aisotaqosam -}    [ "conjure" ],
 
     -- ;; qisom_1
     -- qsm     qisom   Ndu     portion
@@ -11958,31 +11630,31 @@ lexicon = listing "Lexicon's properties"
     -- <nqsAm  {inoqisAm       N/At    fragmentation;schism;disruption
     -- AnqsAm  {inoqisAm       N/At    fragmentation;schism;disruption
 
-    InFiCAL                   `noun`       {- {inoqisAm -}      [ "fragmentation", "schism", "disruption" ],
+    InFiCAL                   `noun`       {- AinoqisAm -}      [ "fragmentation", "schism", "disruption" ],
 
     -- ;; {inoqisAmiy~_1
     -- <nqsAmy {inoqisAmiy~    Nall    schismatic     [[{inoqisAmiy~/ADJ]]
     -- AnqsAmy {inoqisAmiy~    Nall    schismatic     [[{inoqisAmiy~/ADJ]]
 
-    InFiCAL |< Iy             `adj`        {- {inoqisAmiy~ -}   [ "schismatic" ],
+    InFiCAL |< Iy             `adj`        {- AinoqisAmiy~ -}   [ "schismatic" ],
 
     -- ;; {inoqisAmiy~ap_1
     -- <nqsAmy {inoqisAmiy~    Nap     divisibility     [[{inoqisAmiy~/NOUN]]
     -- AnqsAmy {inoqisAmiy~    Nap     divisibility     [[{inoqisAmiy~/NOUN]]
 
-    InFiCAL |< Iy |< aT       `noun`       {- {inoqisAmiy~ap -} [ "divisibility" ],
+    InFiCAL |< Iy |< aT       `noun`       {- AinoqisAmiy~ap -} [ "divisibility" ],
 
     -- ;; lA{inoqisAmiy~ap_1
     -- lA<nqsAmy       lA<inoqisAmiy~  Nap_L   indivisibility     [[lA<inoqisAmiy~/NOUN]]
     -- lAAnqsAmy       lAAinoqisAmiy~  Nap_L   indivisibility     [[lAAinoqisAmiy~/NOUN]]
 
-    lA >| InFiCAL |< Iy |< aT `noun`       {- lA{inoqisAmiy~ap -} [ "indivisibility" ],
+    lA >| InFiCAL |< Iy |< aT `noun`       {- lAAinoqisAmiy~ap -} [ "indivisibility" ],
 
     -- ;; {iqotisAm_1
     -- <qtsAm  {iqotisAm       N/At    dividing;distribution
     -- AqtsAm  {iqotisAm       N/At    dividing;distribution
 
-    IFtiCAL                   `noun`       {- {iqotisAm -}      [ "dividing", "distribution" ],
+    IFtiCAL                   `noun`       {- AiqotisAm -}      [ "dividing", "distribution" ],
 
     -- ;; qAsim_1
     -- qAsm    qAsim   N0      Qasim;Kassem
@@ -12036,16 +11708,14 @@ lexicon = listing "Lexicon's properties"
     -- qsr     qosir   IV      compel;constrain;subjugate
 
     FaCaL                     `verb`       {- qasar-i -}        [ "compel", "constrain", "subjugate" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qsir IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; {iqotasar_1
     -- <qtsr   {iqotasar       PV      compel;constrain;subjugate
     -- Aqtsr   {iqotasar       PV      compel;constrain;subjugate
     -- qtsr    qotasir IV      compel;constrain;subjugate
 
-    IFtaCaL                   `verb`       {- {iqotasar -}      [ "compel", "constrain", "subjugate" ]
-                              {- `others` [ "qtasir IV" ] -},
+    IFtaCaL                   `verb`       {- Aiqotasar -}      [ "compel", "constrain", "subjugate" ],
 
     -- ;; qasor_1
     -- qsr     qasor   N       force;coercion
@@ -12068,7 +11738,7 @@ lexicon = listing "Lexicon's properties"
     -- <qtsAr  {iqotisAr       N/At    subjugation;conquest
     -- AqtsAr  {iqotisAr       N/At    subjugation;conquest
 
-    IFtiCAL                   `noun`       {- {iqotisAr -}      [ "subjugation", "conquest" ],
+    IFtiCAL                   `noun`       {- AiqotisAr -}      [ "subjugation", "conquest" ],
 
     -- ;; qAsir_1
     -- qAsr    qAsir   Nall    constraining;subjugating
@@ -12084,8 +11754,7 @@ lexicon = listing "Lexicon's properties"
     -- qss     qosus   IV_C    pursue;strive;aspire
 
     FaCL                      `verb`       {- qas~-u -}         [ "pursue", "strive", "aspire" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qsus IV_C", "qasas PV_C", "quss IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; taqas~as_1
     -- tqss    taqas~as        PV      pursue;strive;aspire
@@ -12142,8 +11811,7 @@ lexicon = listing "Lexicon's properties"
     -- qsY     qas~aY  IV_0_Pass_yu    be hardened;be made stubborn;be made hard-hearted
     -- qsy     qas~ay  IV_Ann_Pass_yu  be hardened;be made stubborn;be made hard-hearted
 
-    FaCLY                     `verb`       {- qas~aY -}         [ "harden", "make stubborn", "make hard-hearted", "be hardened", "be made stubborn", "be made hard-hearted" ]
-                              {- `others` [ "qass IV_0hwnyn_yu PV_ttAw", "qassiy IV_0hAnn_yu" ] -} ]
+    FaCLY                     `verb`       {- qas~aY -}         [ "harden", "make stubborn", "make hard-hearted", "be hardened", "be made stubborn", "be made hard-hearted" ] ]
 
  |> "q s w" <| [
 
@@ -12155,8 +11823,7 @@ lexicon = listing "Lexicon's properties"
     -- qs      qos     IV_0hwnyn       be harsh;be severe
 
     FaCA                      `verb`       {- qasA-u -}         [ "be harsh", "be severe" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qasaw PV_Atn", "qsuw IV_0hAnn" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qas~aY_1
     -- qsY     qas~aY  PV_0    harden;make stubborn;make hard-hearted
@@ -12168,8 +11835,7 @@ lexicon = listing "Lexicon's properties"
     -- qsY     qas~aY  IV_0_Pass_yu    be hardened;be made stubborn;be made hard-hearted
     -- qsy     qas~ay  IV_Ann_Pass_yu  be hardened;be made stubborn;be made hard-hearted
 
-    FaCCY                     `verb`       {- qas~aY -}         [ "harden", "make stubborn", "make hard-hearted", "be hardened", "be made stubborn", "be made hard-hearted" ]
-                              {- `others` [ "qassiy IV_0hAnn_yu" ] -},
+    FaCCY                     `verb`       {- qas~aY -}         [ "harden", "make stubborn", "make hard-hearted", "be hardened", "be made stubborn", "be made hard-hearted" ],
 
     -- ;; qAsaY_1
     -- qAsY    qAsaY   PV_0    suffer;endure
@@ -12181,8 +11847,7 @@ lexicon = listing "Lexicon's properties"
     -- qAsY    qAsaY   IV_0_Pass_yu    be suffered;be endured
     -- qAsy    qAsay   IV_Ann_Pass_yu  be suffered;be endured
 
-    FACY                      `verb`       {- qAsaY -}          [ "suffer", "endure", "be suffered", "be endured" ]
-                              {- `others` [ "qAsiy IV_0hAnn_yu" ] -},
+    FACY                      `verb`       {- qAsaY -}          [ "suffer", "endure", "be suffered", "be endured" ],
 
     -- ;; >aqosaY_1
     -- >qsY    >aqosaY PV_0    harden;make stubborn;make hard-hearted
@@ -12198,8 +11863,7 @@ lexicon = listing "Lexicon's properties"
     -- qsY     qosaY   IV_0_Pass_yu    be hardened;be made stubborn;be made hard-hearted
     -- qsy     qosay   IV_Ann_Pass_yu  be hardened;be made stubborn;be made hard-hearted
 
-    HaFCY                     `verb`       {- OaqosaY -}        [ "harden", "make stubborn", "make hard-hearted", "be hardened", "be made stubborn", "be made hard-hearted" ]
-                              {- `others` [ "qsY IV_0_Pass_yu", "qsiy IV_0hAnn_yu" ] -},
+    HaFCY                     `verb`       {- OaqosaY -}        [ "harden", "make stubborn", "make hard-hearted", "be hardened", "be made stubborn", "be made hard-hearted" ],
 
     -- ;; qasow_1
     -- qsw     qasow   N       harshness;severity
@@ -12275,14 +11939,13 @@ lexicon = listing "Lexicon's properties"
     -- qtS     qotaS~  IV_V    take vengeance on;punish
     -- qtSS    qotaSiS IV_C    take vengeance on;punish
 
-    IFCaLL                    `verb`       {- {iqotaS~ -}       [ "take vengeance on", "punish" ]
-                              {- `others` [ "qta.s.s IV_V" ] -},
+    IFCaLL                    `verb`       {- AiqotaS~ -}       [ "take vengeance on", "punish" ],
 
     -- ;; {iqotiSAS_1
     -- <qtSAS  {iqotiSAS       N/At    punishment;reprisal;vengeance
     -- AqtSAS  {iqotiSAS       N/At    punishment;reprisal;vengeance
 
-    IFCiLAL                   `noun`       {- {iqotiSAS -}      [ "punishment", "reprisal", "vengeance" ] ]
+    IFCiLAL                   `noun`       {- AiqotiSAS -}      [ "punishment", "reprisal", "vengeance" ] ]
 
  |> "q t .t" <| [
 
@@ -12294,8 +11957,7 @@ lexicon = listing "Lexicon's properties"
     -- qtT     qotaT~  IV_V    sharpen
     -- qtTT    qotaTiT IV_C    sharpen
 
-    IFCaLL                    `verb`       {- {iqotaT~ -}       [ "sharpen" ]
-                              {- `others` [ "qta.t.t IV_V" ] -} ]
+    IFCaLL                    `verb`       {- AiqotaT~ -}       [ "sharpen" ] ]
 
  |> "q t _t" <| [
 
@@ -12307,8 +11969,7 @@ lexicon = listing "Lexicon's properties"
     -- qtv     qotav~  IV_V    uproot;extirpate
     -- qtvv    qotaviv IV_C    uproot;extirpate
 
-    IFCaLL                    `verb`       {- {iqotav~ -}       [ "uproot", "extirpate" ]
-                              {- `others` [ "qta_t_t IV_V" ] -} ]
+    IFCaLL                    `verb`       {- Aiqotav~ -}       [ "uproot", "extirpate" ] ]
 
  |> "q t b" <| [
 
@@ -12341,8 +12002,7 @@ lexicon = listing "Lexicon's properties"
     -- qtd     qotad~  IV_V    cut lengthwise;cut into strips
     -- qtdd    qotadid IV_C    cut lengthwise;cut into strips
 
-    IFCaLL                    `verb`       {- {iqotad~ -}       [ "cut lengthwise", "cut into strips" ]
-                              {- `others` [ "qtadd IV_V" ] -} ]
+    IFCaLL                    `verb`       {- Aiqotad~ -}       [ "cut lengthwise", "cut into strips" ] ]
 
  |> "q t l" <| [
 
@@ -12353,22 +12013,19 @@ lexicon = listing "Lexicon's properties"
     -- qtl     qotal   IV_Pass_yu      be killed
 
     FaCaL                     `verb`       {- qatal-u -}        [ "kill", "be killed" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qtal IV_Pass_yu", "qutil PV_Pass", "qtul IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qat~al_1
     -- qtl     qat~al  PV      massacre
     -- qtl     qat~il  IV_yu   massacre
 
-    FaCCaL                    `verb`       {- qat~al -}         [ "massacre" ]
-                              {- `others` [ "qattil IV_yu" ] -},
+    FaCCaL                    `verb`       {- qat~al -}         [ "massacre" ],
 
     -- ;; qAtal_1
     -- qAtl    qAtal   PV      fight
     -- qAtl    qAtil   IV_yu   fight
 
-    FACaL                     `verb`       {- qAtal -}          [ "fight" ]
-                              {- `others` [ "qAtil IV_yu" ] -},
+    FACaL                     `verb`       {- qAtal -}          [ "fight" ],
 
     -- ;; taqAtal_1
     -- tqAtl   taqAtal PV      fight one another
@@ -12381,15 +12038,14 @@ lexicon = listing "Lexicon's properties"
     -- Aqttl   {iqotatal       PV      fight one another
     -- qttl    qotatil IV      fight one another
 
-    IFtaCaL                   `verb`       {- {iqotatal -}      [ "fight one another" ]
-                              {- `others` [ "qtatil IV" ] -},
+    IFtaCaL                   `verb`       {- Aiqotatal -}      [ "fight one another" ],
 
     -- ;; {isotaqotal_1
     -- <stqtl  {isotaqotal     PV      risk death
     -- Astqtl  {isotaqotal     PV      risk death
     -- stqtl   sotaqotil       IV      risk death
 
-    IstaFCaL                  `verb`       {- {isotaqotal -}    [ "risk death" ],
+    IstaFCaL                  `verb`       {- Aisotaqotal -}    [ "risk death" ],
 
     -- ;; qatol_1
     -- qtl     qatol   N       murder;killing
@@ -12458,7 +12114,7 @@ lexicon = listing "Lexicon's properties"
     -- AqttAl  {iqotitAl       NduAt   fighting (each other)
     -- <qttAl  {iqotitAl       NduAt   fighting (each other)
 
-    IFtiCAL                   `noun`       {- {iqotitAl -}      [ "fighting (each other)" ],
+    IFtiCAL                   `noun`       {- AiqotitAl -}      [ "fighting (each other)" ],
 
     -- ;; qAtil_1
     -- qAtl    qAtil   N-ap    deadly;fatal     [[qAtil/ADJ]]
@@ -12514,8 +12170,7 @@ lexicon = listing "Lexicon's properties"
     -- qtm     qotum   IV      rise
 
     FaCaL                     `verb`       {- qatam-u -}        [ "rise" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qtum IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; {iqotam~_1
     -- <qtm    {iqotam~        PV_V_intr       be dark-colored;be blackish
@@ -12525,8 +12180,7 @@ lexicon = listing "Lexicon's properties"
     -- qtm     qotam~  IV_V_intr       be dark-colored;be blackish
     -- qtmm    qotamim IV_C_intr       be dark-colored;be blackish
 
-    IFCaLL                    `verb`       {- {iqotam~ -}       [ "be dark-colored", "be blackish" ]
-                              {- `others` [ "qtamm IV_V_intr" ] -},
+    IFCaLL                    `verb`       {- Aiqotam~ -}       [ "be dark-colored", "be blackish" ],
 
     -- ;; qutomap_1
     -- qtm     qutom   Nap     dark;blackish
@@ -12579,23 +12233,20 @@ lexicon = listing "Lexicon's properties"
     -- qtr     qotur   IV_intr be stingy
 
     FaCaL                     `verb`       {- qatar-u -}        [ "be stingy" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qtur IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qat~ar_1
     -- qtr     qat~ar  PV_intr be stingy;be parsimonious;exude aroma
     -- qtr     qat~ir  IV_intr_yu      be stingy;be parsimonious;exude aroma
 
-    FaCCaL                    `verb`       {- qat~ar -}         [ "be stingy", "be parsimonious", "exude aroma" ]
-                              {- `others` [ "qattir IV_intr_yu" ] -},
+    FaCCaL                    `verb`       {- qat~ar -}         [ "be stingy", "be parsimonious", "exude aroma" ],
 
     -- ;; >aqotar_1
     -- >qtr    >aqotar PV      live in poverty
     -- Aqtr    >aqotar PV      live in poverty
     -- qtr     qotir   IV_yu   live in poverty
 
-    HaFCaL                    `verb`       {- Oaqotar -}        [ "live in poverty" ]
-                              {- `others` [ "qtir IV_yu" ] -},
+    HaFCaL                    `verb`       {- Oaqotar -}        [ "live in poverty" ],
 
     -- ;; qator_1
     -- qtr     qator   N       stinginess;parsimony
@@ -12648,8 +12299,7 @@ lexicon = listing "Lexicon's properties"
     -- qtt     qotut   IV_C    lie;minimize
 
     FaCL                      `verb`       {- qat~-u -}         [ "lie", "minimize" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qatat PV_Ct", "qtut IV_C", "qutt IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; {iqotat~_1
     -- <qtt    {iqotat~        PV_V    extirpate;remove;get rid of
@@ -12659,8 +12309,7 @@ lexicon = listing "Lexicon's properties"
     -- qtt     qotat~  IV_V    extirpate;remove;get rid of
     -- qttt    qotatit IV_C    extirpate;remove;get rid of
 
-    IFtaCL                    `verb`       {- {iqotat~ -}       [ "extirpate", "remove", "get rid of" ]
-                              {- `others` [ "iqtatat PV_Ct", "qtatit IV_C", "qtatt IV_V" ] -},
+    IFtaCL                    `verb`       {- Aiqotat~ -}       [ "extirpate", "remove", "get rid of" ],
 
     -- ;; {iqotat~_1
     -- <qtt    {iqotat~        PV_V    extirpate;remove;get rid of
@@ -12670,8 +12319,7 @@ lexicon = listing "Lexicon's properties"
     -- qtt     qotat~  IV_V    extirpate;remove;get rid of
     -- qttt    qotatit IV_C    extirpate;remove;get rid of
 
-    IFCaLL                    `verb`       {- {iqotat~ -}       [ "extirpate", "remove", "get rid of" ]
-                              {- `others` [ "iqtatat PV_Ct", "qtatit IV_C", "qtatt IV_V" ] -},
+    IFCaLL                    `verb`       {- Aiqotat~ -}       [ "extirpate", "remove", "get rid of" ],
 
     -- ;; qat~_1
     -- qt      qat~    N       spying on;following
@@ -12725,15 +12373,13 @@ lexicon = listing "Lexicon's properties"
     -- qD      quD     IV_C    demolish;raze
 
     FAL                       `verb`       {- qAD-u -}          [ "demolish", "raze" ]
-                              `imperf`     FCuL
-                              {- `others` [ "quw.d IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaw~aD_1
     -- qwD     qaw~aD  PV      demolish;raze
     -- qwD     qaw~iD  IV_yu   demolish;raze
 
-    FaCCaL                    `verb`       {- qaw~aD -}         [ "demolish", "raze" ]
-                              {- `others` [ "qawwi.d IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaw~aD -}         [ "demolish", "raze" ],
 
     -- ;; taqaw~aD_1
     -- tqwD    taqaw~aD        PV_intr be demolished;collapse
@@ -12753,28 +12399,26 @@ lexicon = listing "Lexicon's properties"
 
  |> "q w .h" <| [
 
-    -- ;; qAH_1
+    -- ;; qAH-u_1
     -- qAH     qAH     PV_V    fester;swell
     -- qH      quH     PV_C    fester;swell
     -- qwH     quwH    IV_V    fester;swell
     -- qH      quH     IV_C    fester;swell
 
-    FAL                       `verb`       {- qAH -}            [ "fester", "swell" ]
-                              {- `others` [ "quw.h IV_V" ] -},
+    FAL                       `verb`       {- qAH-u -}          [ "fester", "swell" ]
+                              `imperf`     FCuL,
 
     -- ;; qaw~aH_1
     -- qwH     qaw~aH  PV      sweep
     -- qwH     qaw~iH  IV_yu   sweep
 
-    FaCCaL                    `verb`       {- qaw~aH -}         [ "sweep" ]
-                              {- `others` [ "qawwi.h IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaw~aH -}         [ "sweep" ],
 
     -- ;; qAwaH_1
     -- qAwH    qAwaH   PV      quarrel
     -- qAwH    qAwiH   IV_yu   quarrel
 
-    FACaL                     `verb`       {- qAwaH -}          [ "quarrel" ]
-                              {- `others` [ "qAwi.h IV_yu" ] -},
+    FACaL                     `verb`       {- qAwaH -}          [ "quarrel" ],
 
     -- ;; taqaw~aH_1
     -- tqwH    taqaw~aH        PV      fester;swell
@@ -12885,15 +12529,13 @@ lexicon = listing "Lexicon's properties"
     -- qb      qub     IV_C    excavate;hollow out
 
     FAL                       `verb`       {- qAb-u -}          [ "excavate", "hollow out" ]
-                              `imperf`     FCuL
-                              {- `others` [ "quwb IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaw~ab_1
     -- qwb     qaw~ab  PV      excavate;hollow out
     -- qwb     qaw~ib  IV_yu   excavate;hollow out
 
-    FaCCaL                    `verb`       {- qaw~ab -}         [ "excavate", "hollow out" ]
-                              {- `others` [ "qawwib IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaw~ab -}         [ "excavate", "hollow out" ],
 
     -- ;; taqaw~ab_1
     -- tqwb    taqaw~ab        PV      break open;burst open
@@ -12947,8 +12589,7 @@ lexicon = listing "Lexicon's properties"
     -- qd      qud     IV_C    lead;guide
 
     FAL                       `verb`       {- qAd-u -}          [ "lead", "guide" ]
-                              `imperf`     FCuL
-                              {- `others` [ "quwd IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qAd-u_2
     -- qAd     qAd     PV_V    drive;pilot
@@ -12957,8 +12598,7 @@ lexicon = listing "Lexicon's properties"
     -- qd      qud     IV_C    drive;pilot
 
     FAL                       `verb`       {- qAd-u -}          [ "drive", "pilot" ]
-                              `imperf`     FCuL
-                              {- `others` [ "quwd IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; >aqAd_1
     -- >qAd    >aqAd   PV_V    cause to retaliate
@@ -12970,8 +12610,7 @@ lexicon = listing "Lexicon's properties"
     -- qAd     qAd     IV_V_Pass_yu    be made to retaliate
     -- qd      qad     IV_C_Pass_yu    be made to retaliate
 
-    HaFAL                     `verb`       {- OaqAd -}          [ "cause to retaliate", "be made to retaliate" ]
-                              {- `others` [ "qAd IV_V_Pass_yu", "qiyd IV_V_yu" ] -},
+    HaFAL                     `verb`       {- OaqAd -}          [ "cause to retaliate", "be made to retaliate" ],
 
     -- ;; {inoqAd_1
     -- <nqAd   {inoqAd PV_V_intr       yield;submit
@@ -12981,8 +12620,7 @@ lexicon = listing "Lexicon's properties"
     -- nqAd    noqAd   IV_V_intr       yield;submit
     -- nqd     noqad   IV_C_intr       yield;submit
 
-    InFAL                     `verb`       {- {inoqAd -}        [ "yield", "submit" ]
-                              {- `others` [ "nqAd IV_V_intr" ] -},
+    InFAL                     `verb`       {- AinoqAd -}        [ "yield", "submit" ],
 
     -- ;; {iqotAd_1
     -- <qtAd   {iqotAd PV_V    lead;lead away
@@ -12992,8 +12630,7 @@ lexicon = listing "Lexicon's properties"
     -- qtAd    qotAd   IV_V    lead;lead away
     -- qtd     qotad   IV_C    lead;lead away
 
-    IFtAL                     `verb`       {- {iqotAd -}        [ "lead", "lead away" ]
-                              {- `others` [ "qtAd IV_V" ] -},
+    IFtAL                     `verb`       {- AiqotAd -}        [ "lead", "lead away" ],
 
     -- ;; {isotaqAd_1
     -- <stqAd  {isotaqAd       PV_V    retaliate
@@ -13003,7 +12640,7 @@ lexicon = listing "Lexicon's properties"
     -- stqyd   sotaqiyd        IV_V    retaliate
     -- stqd    sotaqid IV_C    retaliate
 
-    IstaFAL                   `verb`       {- {isotaqAd -}      [ "retaliate" ],
+    IstaFAL                   `verb`       {- AisotaqAd -}      [ "retaliate" ],
 
     -- ;; qawod_1
     -- qwd     qawod   N       leadership
@@ -13025,7 +12662,7 @@ lexicon = listing "Lexicon's properties"
     -- <nqyAd  {inoqiyAd       N/At    compliance;submission
     -- AnqyAd  {inoqiyAd       N/At    compliance;submission
 
-    InFiyAL                   `noun`       {- {inoqiyAd -}      [ "compliance", "submission" ],
+    InFiyAL                   `noun`       {- AinoqiyAd -}      [ "compliance", "submission" ],
 
     -- ;; qA}id_1
     -- qA}d    qA}id   Ndu     leader;commander
@@ -13077,8 +12714,7 @@ lexicon = listing "Lexicon's properties"
     -- qwh     qaw~ah  PV      shriek;shout
     -- qwh     qaw~ih  IV_yu   shriek;shout
 
-    FaCCaL                    `verb`       {- qaw~ah -}         [ "shriek", "shout" ]
-                              {- `others` [ "qawwih IV_yu" ] -} ]
+    FaCCaL                    `verb`       {- qaw~ah -}         [ "shriek", "shout" ] ]
 
  |> "q w l" <| [
 
@@ -13094,15 +12730,13 @@ lexicon = listing "Lexicon's properties"
     -- ql      qul     FW-Wa   say (for example)
 
     FAL                       `verb`       {- qAl-u -}          [ "said", "say", "be said", "say (for example)" ]
-                              `imperf`     FCuL
-                              {- `others` [ "quwl IV_V CV_V", "qiyl PV_V_Pass" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qAwal_1
     -- qAwl    qAwal   PV      negotiate with;make a deal with
     -- qAwl    qAwil   IV_yu   negotiate with;make a deal with
 
-    FACaL                     `verb`       {- qAwal -}          [ "negotiate with", "make a deal with" ]
-                              {- `others` [ "qAwil IV_yu" ] -},
+    FACaL                     `verb`       {- qAwal -}          [ "negotiate with", "make a deal with" ],
 
     -- ;; qAlap_1
     -- qAl     qAl     Nap     speech;talk
@@ -13203,8 +12837,7 @@ lexicon = listing "Lexicon's properties"
     -- qwlb    qawolab PV      mold;cast
     -- qwlb    qawolib IV_yu   mold;cast
 
-    KaRDaS                    `verb`       {- qawolab -}        [ "mold", "cast" ]
-                              {- `others` [ "qawlib IV_yu" ] -},
+    KaRDaS                    `verb`       {- qawolab -}        [ "mold", "cast" ],
 
     -- ;; qawolabap_1
     -- qwlb    qawolab Nap     casting;molding
@@ -13227,22 +12860,19 @@ lexicon = listing "Lexicon's properties"
     -- qm      qum     IV_C    undertake;carry out
 
     FAL                       `verb`       {- qAm-u -}          [ "undertake", "carry out" ]
-                              `imperf`     FCuL
-                              {- `others` [ "quwm IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaw~am_1
     -- qwm     qaw~am  PV      straighten
     -- qwm     qaw~im  IV_yu   straighten
 
-    FaCCaL                    `verb`       {- qaw~am -}         [ "straighten" ]
-                              {- `others` [ "qawwim IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaw~am -}         [ "straighten" ],
 
     -- ;; qAwam_1
     -- qAwm    qAwam   PV      resist;oppose
     -- qAwm    qAwim   IV_yu   resist;oppose
 
-    FACaL                     `verb`       {- qAwam -}          [ "resist", "oppose" ]
-                              {- `others` [ "qAwim IV_yu" ] -},
+    FACaL                     `verb`       {- qAwam -}          [ "resist", "oppose" ],
 
     -- ;; >aqAm_1
     -- >qAm    >aqAm   PV_V    install;establish;erect
@@ -13256,8 +12886,7 @@ lexicon = listing "Lexicon's properties"
     -- qAm     qAm     IV_V_Pass_yu    take place;be installed;be established
     -- qm      qam     IV_C_Pass_yu    take place;be installed;be established
 
-    HaFAL                     `verb`       {- OaqAm -}          [ "install", "establish", "erect", "take place", "be installed", "be established" ]
-                              {- `others` [ "qAm IV_V_Pass_yu", "qiym IV_V_yu", "'uqiym PV_Pass-aAat" ] -},
+    HaFAL                     `verb`       {- OaqAm -}          [ "install", "establish", "erect", "take place", "be installed", "be established" ],
 
     -- ;; {isotaqAm_1
     -- <stqAm  {isotaqAm       PV_V_intr       be straight;be right
@@ -13267,7 +12896,7 @@ lexicon = listing "Lexicon's properties"
     -- stqym   sotaqiym        IV_V_intr       be straight;be right
     -- stqm    sotaqim IV_C_intr       be straight;be right
 
-    IstaFAL                   `verb`       {- {isotaqAm -}      [ "be straight", "be right" ],
+    IstaFAL                   `verb`       {- AisotaqAm -}      [ "be straight", "be right" ],
 
     -- ;; qawom_1
     -- qwm     qawom   N       people;nation
@@ -13401,7 +13030,7 @@ lexicon = listing "Lexicon's properties"
     -- <stqAm  {isotiqAm       Nap     correctness;integrity
     -- AstqAm  {isotiqAm       Nap     correctness;integrity
 
-    IstiFAL |< aT             `noun`       {- {isotiqAmap -}    [ "correctness", "integrity" ],
+    IstiFAL |< aT             `noun`       {- AisotiqAmap -}    [ "correctness", "integrity" ],
 
     -- ;; qA}im_1
     -- qA}m    qA}im   Nall    carrying out;executing
@@ -13524,15 +13153,13 @@ lexicon = listing "Lexicon's properties"
     -- qq      quq     IV_C    cackle;cluck
 
     FAL                       `verb`       {- qAq-u -}          [ "cackle", "cluck" ]
-                              `imperf`     FCuL
-                              {- `others` [ "quwq IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaw~aq_1
     -- qwq     qaw~aq  PV      cackle;cluck
     -- qwq     qaw~iq  IV_yu   cackle;cluck
 
-    FaCCaL                    `verb`       {- qaw~aq -}         [ "cackle", "cluck" ]
-                              {- `others` [ "qawwiq IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaw~aq -}         [ "cackle", "cluck" ],
 
     -- ;; qAq_1
     -- qAq     qAq     Ndu     raven;crow
@@ -13612,8 +13239,7 @@ lexicon = listing "Lexicon's properties"
     -- qwr     qaw~ar  PV      gouge;hollow out
     -- qwr     qaw~ir  IV_yu   gouge;hollow out
 
-    FaCCaL                    `verb`       {- qaw~ar -}         [ "gouge", "hollow out" ]
-                              {- `others` [ "qawwir IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaw~ar -}         [ "gouge", "hollow out" ],
 
     -- ;; taqaw~ar_1
     -- tqwr    taqaw~ar        PV_intr be coiled
@@ -13629,16 +13255,14 @@ lexicon = listing "Lexicon's properties"
     -- qtAr    qotAr   IV_V    gouge;hollow out
     -- qtr     qotar   IV_C    gouge;hollow out
 
-    IFtAL                     `verb`       {- {iqotAr -}        [ "gouge", "hollow out" ]
-                              {- `others` [ "qtAr IV_V" ] -},
+    IFtAL                     `verb`       {- AiqotAr -}        [ "gouge", "hollow out" ],
 
     -- ;; {iqotawar_1
     -- <qtwr   {iqotawar       PV      gouge;hollow out
     -- Aqtwr   {iqotawar       PV      gouge;hollow out
     -- qtwr    qotawir IV      gouge;hollow out
 
-    IFtaCaL                   `verb`       {- {iqotawar -}      [ "gouge", "hollow out" ]
-                              {- `others` [ "qtawir IV" ] -},
+    IFtaCaL                   `verb`       {- Aiqotawar -}      [ "gouge", "hollow out" ],
 
     -- ;; qArap_1
     -- qAr     qAr     NapAt   hill
@@ -13677,15 +13301,13 @@ lexicon = listing "Lexicon's properties"
     -- qws     qowas   IV_intr be bent;be curved
 
     FaCiL                     `verb`       {- qawis-a -}        [ "be bent", "be curved" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qwas IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qaw~as_1
     -- qws     qaw~as  PV      bend;curve
     -- qws     qaw~is  IV_yu   bend;curve
 
-    FaCCaL                    `verb`       {- qaw~as -}         [ "bend", "curve" ]
-                              {- `others` [ "qawwis IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaw~as -}         [ "bend", "curve" ],
 
     -- ;; taqaw~as_1
     -- tqws    taqaw~as        PV_intr be bent;be curved
@@ -13741,15 +13363,13 @@ lexicon = listing "Lexicon's properties"
     -- qt      qut     IV_C    support;nourish;sustain
 
     FAL                       `verb`       {- qAt-u -}          [ "support", "nourish", "sustain" ]
-                              `imperf`     FCuL
-                              {- `others` [ "quwt IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaw~at_1
     -- qwt     qaw~at  PV-t    support;nourish;sustain
     -- qwt     qaw~it  IV_yu   support;nourish;sustain
 
-    FaCCaL                    `verb`       {- qaw~at -}         [ "support", "nourish", "sustain" ]
-                              {- `others` [ "qawwit IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaw~at -}         [ "support", "nourish", "sustain" ],
 
     -- ;; >aqAt_1
     -- >qAt    >aqAt   PV_V    support;nourish;sustain
@@ -13761,8 +13381,7 @@ lexicon = listing "Lexicon's properties"
     -- qAt     qAt     IV_V_Pass_yu    be supported;be nourished;be sustained
     -- qt      qat     IV_C_Pass_yu    be supported;be nourished;be sustained
 
-    HaFAL                     `verb`       {- OaqAt -}          [ "support", "nourish", "sustain", "be supported", "be nourished", "be sustained" ]
-                              {- `others` [ "qAt IV_V_Pass_yu", "qiyt IV_V_yu" ] -},
+    HaFAL                     `verb`       {- OaqAt -}          [ "support", "nourish", "sustain", "be supported", "be nourished", "be sustained" ],
 
     -- ;; taqaw~at_1
     -- tqwt    taqaw~at        PV-t_intr       be supported;be fed;eat
@@ -13778,8 +13397,7 @@ lexicon = listing "Lexicon's properties"
     -- qtAt    qotAt   IV_V_intr       be supported with;be fed;be nourished with
     -- qtt     qotat   IV_C_intr       be supported with;be fed;be nourished with
 
-    IFtAL                     `verb`       {- {iqotAt -}        [ "be supported with", "be fed", "be nourished with" ]
-                              {- `others` [ "qtAt IV_V_intr" ] -},
+    IFtAL                     `verb`       {- AiqotAt -}        [ "be supported with", "be fed", "be nourished with" ],
 
     -- ;; qAtiy~_1
     -- qAty    qAtiy~  N-ap    qat (stimulant)     [[qAtiy~/ADJ]]
@@ -13839,8 +13457,7 @@ lexicon = listing "Lexicon's properties"
     -- qwY     qaw~aY  IV_0_Pass_yu    be strengthened
     -- qwy     qaw~ay  IV_Ann_Pass_yu  be strengthened
 
-    FaCLY                     `verb`       {- qaw~aY -}         [ "strengthen", "be strengthened" ]
-                              {- `others` [ "qaww IV_0hwnyn_yu PV_ttAw", "qawwiy IV_0hAnn_yu" ] -},
+    FaCLY                     `verb`       {- qaw~aY -}         [ "strengthen", "be strengthened" ],
 
     -- ;; quw~ap_1
     -- qw      quw~    Napdu   power;strength
@@ -13878,8 +13495,7 @@ lexicon = listing "Lexicon's properties"
     -- qw      qowa    IV_0hwnyn       be strong
 
     FaCiL                     `verb`       {- qawiy-a -}        [ "be strong" ]
-                              `imperf`     FCaL
-                              {- `others` [ "qwY IV_0", "qway IV_Ann" ] -},
+                              `imperf`     FCaL,
 
     -- ;; qaw~aY_1
     -- qwY     qaw~aY  PV_0    strengthen
@@ -13891,8 +13507,7 @@ lexicon = listing "Lexicon's properties"
     -- qwY     qaw~aY  IV_0_Pass_yu    be strengthened
     -- qwy     qaw~ay  IV_Ann_Pass_yu  be strengthened
 
-    FaCCY                     `verb`       {- qaw~aY -}         [ "strengthen", "be strengthened" ]
-                              {- `others` [ "qawway PV_Atn IV_Ann_Pass_yu", "qawwiy IV_0hAnn_yu" ] -},
+    FaCCY                     `verb`       {- qaw~aY -}         [ "strengthen", "be strengthened" ],
 
     -- ;; qAwaY_1
     -- qAwY    qAwaY   PV_0    compete with
@@ -13904,8 +13519,7 @@ lexicon = listing "Lexicon's properties"
     -- qAwY    qAwaY   IV_0_Pass_yu    be competed with
     -- qAwy    qAway   IV_Ann_Pass_yu  be competed with
 
-    FACY                      `verb`       {- qAwaY -}          [ "compete with", "be competed with" ]
-                              {- `others` [ "qAwiy IV_0hAnn_yu", "qAway PV_Atn IV_Ann_Pass_yu" ] -},
+    FACY                      `verb`       {- qAwaY -}          [ "compete with", "be competed with" ],
 
     -- ;; >aqowaY_1
     -- >qwY    >aqowaY PV_0    be desolate
@@ -13919,8 +13533,7 @@ lexicon = listing "Lexicon's properties"
     -- qwy     qowiy   IV_0hAnn_yu     be desolate
     -- qw      qow     IV_0hwnyn_yu    be desolate
 
-    HaFCY                     `verb`       {- OaqowaY -}        [ "be desolate" ]
-                              {- `others` [ "qwiy IV_0hAnn_yu", "'aqway PV_Atn" ] -},
+    HaFCY                     `verb`       {- OaqowaY -}        [ "be desolate" ],
 
     -- ;; taqaw~aY_1
     -- tqwY    taqaw~aY        PV_0    become strong
@@ -13930,8 +13543,7 @@ lexicon = listing "Lexicon's properties"
     -- tqwy    taqaw~ay        IV_Ann  become strong
     -- tqw     taqaw~  IV_0hwnyn       become strong
 
-    TaFaCCY                   `verb`       {- taqaw~aY -}       [ "become strong" ]
-                              {- `others` [ "taqawway PV_Atn IV_Ann" ] -},
+    TaFaCCY                   `verb`       {- taqaw~aY -}       [ "become strong" ],
 
     -- ;; {iqotawaY_1
     -- <qtwY   {iqotawaY       PV_0    claim
@@ -13946,8 +13558,7 @@ lexicon = listing "Lexicon's properties"
     -- qtw     qotaw   IV_0hwnyn       claim
     -- qtwY    qotawaY IV_0    claim
 
-    IFtaCY                    `verb`       {- {iqotawaY -}      [ "claim" ]
-                              {- `others` [ "qtawiy IV_0hAnn", "qtawY IV_0", "iqtaway PV_Atn" ] -},
+    IFtaCY                    `verb`       {- AiqotawaY -}      [ "claim" ],
 
     -- ;; {isotaqowaY_1
     -- <stqwY  {isotaqowaY     PV_0    become strong;be strengthened
@@ -13962,8 +13573,7 @@ lexicon = listing "Lexicon's properties"
     -- stqw    sotaqow IV_0hwnyn       become strong;be strengthened
     -- stqwY   sotaqowaY       IV_0_Pass_yu    become strong;be strengthened
 
-    IstaFCY                   `verb`       {- {isotaqowaY -}    [ "become strong", "be strengthened" ]
-                              {- `others` [ "istaqway PV_Atn" ] -},
+    IstaFCY                   `verb`       {- AisotaqowaY -}    [ "become strong", "be strengthened" ],
 
     -- ;; qawA'_1
     -- qwA'    qawA'   N0_Nh   desert
@@ -14080,8 +13690,7 @@ lexicon = listing "Lexicon's properties"
     -- q}      qi}     IV_C    vomit
 
     FAL                       `verb`       {- qA'-i -}          [ "vomit" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qiy' IV_V IV_wn IV_yn" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qay~a>_1
     -- qy>     qay~a>  PV      make vomit
@@ -14091,8 +13700,7 @@ lexicon = listing "Lexicon's properties"
     -- qy}     qay~i}  IV_yu   make vomit
     -- qy&     qay~i&  IV_wn_yu        make vomit
 
-    FaCCaL                    `verb`       {- qay~aO -}         [ "make vomit" ]
-                              {- `others` [ "qayyi' IV_wn_yu IV_yu" ] -},
+    FaCCaL                    `verb`       {- qay~aO -}         [ "make vomit" ],
 
     -- ;; taqay~a>_1
     -- tqy>    taqay~a>        PV      vomit
@@ -14140,22 +13748,19 @@ lexicon = listing "Lexicon's properties"
     -- qD      qiD     IV_C    break open;crack
 
     FAL                       `verb`       {- qAD-i -}          [ "break open", "crack" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qiy.d IV_V" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qay~aD_1
     -- qyD     qay~aD  PV      lead;send
     -- qyD     qay~iD  IV_yu   lead;send
 
-    FaCCaL                    `verb`       {- qay~aD -}         [ "lead", "send" ]
-                              {- `others` [ "qayyi.d IV_yu" ] -},
+    FaCCaL                    `verb`       {- qay~aD -}         [ "lead", "send" ],
 
     -- ;; qAyaD_1
     -- qAyD    qAyaD   PV      exchange
     -- qAyD    qAyiD   IV_yu   exchange
 
-    FACaL                     `verb`       {- qAyaD -}          [ "exchange" ]
-                              {- `others` [ "qAyi.d IV_yu" ] -},
+    FACaL                     `verb`       {- qAyaD -}          [ "exchange" ],
 
     -- ;; taqay~aD_1
     -- tqyD    taqay~aD        PV_intr be broken;be cracked
@@ -14171,8 +13776,7 @@ lexicon = listing "Lexicon's properties"
     -- nqAD    noqAD   IV_V_intr       be broken;be cracked
     -- nqD     noqaD   IV_C_intr       be broken;be cracked
 
-    InFAL                     `verb`       {- {inoqAD -}        [ "be broken", "be cracked" ]
-                              {- `others` [ "nqA.d IV_V_intr" ] -},
+    InFAL                     `verb`       {- AinoqAD -}        [ "be broken", "be cracked" ],
 
     -- ;; qayoD_1
     -- qyD     qayoD   N       eggshell;barter object
@@ -14198,15 +13802,13 @@ lexicon = listing "Lexicon's properties"
     -- qH      qiH     IV_C    fester;be infected
 
     FAL                       `verb`       {- qAH-i -}          [ "fester", "be infected" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qiy.h IV_V" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qay~aH_1
     -- qyH     qay~aH  PV      fester;be infected
     -- qyH     qay~iH  IV_yu   fester;be infected
 
-    FaCCaL                    `verb`       {- qay~aH -}         [ "fester", "be infected" ]
-                              {- `others` [ "qayyi.h IV_yu" ] -},
+    FaCCaL                    `verb`       {- qay~aH -}         [ "fester", "be infected" ],
 
     -- ;; taqay~aH_1
     -- tqyH    taqay~aH        PV      fester;be infected
@@ -14292,8 +13894,7 @@ lexicon = listing "Lexicon's properties"
     -- qZ      qiZ     IV_C_intr       be blistering hot
 
     FAL                       `verb`       {- qAZ-i -}          [ "be blistering hot" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qiy.z IV_V_intr" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qayoZ_1
     -- qyZ     qayoZ   N       heat
@@ -14362,14 +13963,13 @@ lexicon = listing "Lexicon's properties"
     -- <nqyAd  {inoqiyAd       N/At    compliance;submission
     -- AnqyAd  {inoqiyAd       N/At    compliance;submission
 
-    InFiCAL                   `noun`       {- {inoqiyAd -}      [ "compliance", "submission" ],
+    InFiCAL                   `noun`       {- AinoqiyAd -}      [ "compliance", "submission" ],
 
     -- ;; qay~ad_1
     -- qyd     qay~ad  PV      bind;restrict;stipulate
     -- qyd     qay~id  IV_yu   bind;restrict;stipulate
 
-    FaCCaL                    `verb`       {- qay~ad -}         [ "bind", "restrict", "stipulate" ]
-                              {- `others` [ "qayyid IV_yu" ] -},
+    FaCCaL                    `verb`       {- qay~ad -}         [ "bind", "restrict", "stipulate" ],
 
     -- ;; taqay~ad_1
     -- tqyd    taqay~ad        PV_intr be bound;be restricted;be stipulated
@@ -14423,8 +14023,7 @@ lexicon = listing "Lexicon's properties"
     -- qyf     qay~af  PV      follow;investigate;criticize
     -- qyf     qay~if  IV_yu   follow;investigate;criticize
 
-    FaCCaL                    `verb`       {- qay~af -}         [ "follow", "investigate", "criticize" ]
-                              {- `others` [ "qayyif IV_yu" ] -},
+    FaCCaL                    `verb`       {- qay~af -}         [ "follow", "investigate", "criticize" ],
 
     -- ;; qiyAfap_1
     -- qyAf    qiyAf   Nap     tracking;pursuing
@@ -14447,8 +14046,7 @@ lexicon = listing "Lexicon's properties"
     -- qyl     qay~al  PV      take a nap
     -- qyl     qay~il  IV_yu   take a nap
 
-    FaCCaL                    `verb`       {- qay~al -}         [ "take a nap" ]
-                              {- `others` [ "qayyil IV_yu" ] -},
+    FaCCaL                    `verb`       {- qay~al -}         [ "take a nap" ],
 
     -- ;; >aqAl_1
     -- >qAl    >aqAl   PV_V    dismiss;discharge
@@ -14458,8 +14056,7 @@ lexicon = listing "Lexicon's properties"
     -- qyl     qiyl    IV_V_yu dismiss;discharge
     -- ql      qil     IV_C_yu dismiss;discharge
 
-    HaFAL                     `verb`       {- OaqAl -}          [ "dismiss", "discharge" ]
-                              {- `others` [ "qiyl IV_V_yu" ] -},
+    HaFAL                     `verb`       {- OaqAl -}          [ "dismiss", "discharge" ],
 
     -- ;; {isotaqAl_1
     -- <stqAl  {isotaqAl       PV_V    resign
@@ -14469,7 +14066,7 @@ lexicon = listing "Lexicon's properties"
     -- stqyl   sotaqiyl        IV_V    resign
     -- stql    sotaqil IV_C    resign
 
-    IstaFAL                   `verb`       {- {isotaqAl -}      [ "resign" ],
+    IstaFAL                   `verb`       {- AisotaqAl -}      [ "resign" ],
 
     -- ;; qayol_1
     -- qyl     qayol   N       chief;chieftain
@@ -14495,7 +14092,7 @@ lexicon = listing "Lexicon's properties"
     -- <stqAl  {isotiqAl       NapAt   resignation;retirement
     -- AstqAl  {isotiqAl       NapAt   resignation;retirement
 
-    IstiFAL |< aT             `noun`       {- {isotiqAlap -}    [ "resignation", "retirement" ],
+    IstiFAL |< aT             `noun`       {- AisotiqAlap -}    [ "resignation", "retirement" ],
 
     -- ;; muqAl_1
     -- mqAl    muqAl   Nall    fired;dismissed;discharged     [[muqAl/ADJ]]
@@ -14598,8 +14195,7 @@ lexicon = listing "Lexicon's properties"
     -- qym     qay~am  PV      evaluate;assess;rate
     -- qym     qay~im  IV_yu   evaluate;assess;rate
 
-    FaCCaL                    `verb`       {- qay~am -}         [ "evaluate", "assess", "rate" ]
-                              {- `others` [ "qayyim IV_yu" ] -},
+    FaCCaL                    `verb`       {- qay~am -}         [ "evaluate", "assess", "rate" ],
 
     -- ;; taqoyiym_1
     -- tqyym   taqoyiym        NduAt   evaluation;assessment;rating
@@ -14649,8 +14245,7 @@ lexicon = listing "Lexicon's properties"
     -- qyr     qay~ar  PV      apply tar to;apply pitch to
     -- qyr     qay~ir  IV_yu   apply tar to;apply pitch to
 
-    FaCCaL                    `verb`       {- qay~ar -}         [ "apply tar to", "apply pitch to" ]
-                              {- `others` [ "qayyir IV_yu" ] -},
+    FaCCaL                    `verb`       {- qay~ar -}         [ "apply tar to", "apply pitch to" ],
 
     -- ;; taqoyiyr_1
     -- tqyyr   taqoyiyr        N/At    tarring;applying pitch
@@ -14676,22 +14271,19 @@ lexicon = listing "Lexicon's properties"
     -- qs      qis     IV_C    measure;draw conclusions;compare
 
     FAL                       `verb`       {- qAs-i -}          [ "measure", "draw conclusions", "compare" ]
-                              `imperf`     FCiL
-                              {- `others` [ "qiys IV_V" ] -},
+                              `imperf`     FCiL,
 
     -- ;; qay~as_1
     -- qys     qay~as  PV      measure
     -- qys     qay~is  IV_yu   measure
 
-    FaCCaL                    `verb`       {- qay~as -}         [ "measure" ]
-                              {- `others` [ "qayyis IV_yu" ] -},
+    FaCCaL                    `verb`       {- qay~as -}         [ "measure" ],
 
     -- ;; qAyas_1
     -- qAys    qAyas   PV      compare
     -- qAys    qAyis   IV_yu   compare
 
-    FACaL                     `verb`       {- qAyas -}          [ "compare" ]
-                              {- `others` [ "qAyis IV_yu" ] -},
+    FACaL                     `verb`       {- qAyas -}          [ "compare" ],
 
     -- ;; {iqotAs_1
     -- <qtAs   {iqotAs PV_V    measure;imitate
@@ -14701,8 +14293,7 @@ lexicon = listing "Lexicon's properties"
     -- qtAs    qotAs   IV_V    measure;imitate
     -- qts     qotas   IV_C    measure;imitate
 
-    IFtAL                     `verb`       {- {iqotAs -}        [ "measure", "imitate" ]
-                              {- `others` [ "qtAs IV_V" ] -},
+    IFtAL                     `verb`       {- AiqotAs -}        [ "measure", "imitate" ],
 
     -- ;; qayos_1
     -- qys     qayos   N0      Qais;Qays
@@ -14789,8 +14380,7 @@ lexicon = listing "Lexicon's properties"
     -- qzH     qaz~aH  PV      embellish;spice
     -- qzH     qaz~iH  IV_yu   embellish;spice
 
-    FaCCaL                    `verb`       {- qaz~aH -}         [ "embellish", "spice" ]
-                              {- `others` [ "qazzi.h IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaz~aH -}         [ "embellish", "spice" ],
 
     -- ;; taqaz~aH_1
     -- tqzH    taqaz~aH        PV_intr be iridescent
@@ -14849,8 +14439,7 @@ lexicon = listing "Lexicon's properties"
     -- qzdr    qazodar PV      plate with tin
     -- qzdr    qazodir IV_yu   plate with tin
 
-    KaRDaS                    `verb`       {- qazodar -}        [ "plate with tin" ]
-                              {- `others` [ "qazdir IV_yu" ] -},
+    KaRDaS                    `verb`       {- qazodar -}        [ "plate with tin" ],
 
     -- ;; qazodiyr_1
     -- qzdyr   qazodiyr        N       tin plating
@@ -14914,8 +14503,7 @@ lexicon = listing "Lexicon's properties"
     -- qzqz    qazoqaz PV      crack
     -- qzqz    qazoqiz IV_yu   crack
 
-    KaRDaS                    `verb`       {- qazoqaz -}        [ "crack" ]
-                              {- `others` [ "qazqiz IV_yu" ] -},
+    KaRDaS                    `verb`       {- qazoqaz -}        [ "crack" ],
 
     -- ;; qazoqazap_1
     -- qzqz    qazoqaz Nap     cracking
@@ -14938,22 +14526,19 @@ lexicon = listing "Lexicon's properties"
     -- qzz     qozuz   IV_C    detest
 
     FaCL                      `verb`       {- qaz~-u -}         [ "detest" ]
-                              `imperf`     FCuL
-                              {- `others` [ "qzuz IV_C", "quzz IV_V", "qazaz PV_C" ] -},
+                              `imperf`     FCuL,
 
     -- ;; qaz~az_1
     -- qzz     qaz~az  PV      glaze;vitrify
     -- qzz     qaz~iz  IV_yu   glaze;vitrify
 
-    FaCCaL                    `verb`       {- qaz~az -}         [ "glaze", "vitrify" ]
-                              {- `others` [ "qazziz IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaz~az -}         [ "glaze", "vitrify" ],
 
     -- ;; qaz~az_2
     -- qzz     qaz~az  PV      nauseate;disgust
     -- qzz     qaz~iz  IV_yu   nauseate;disgust
 
-    FaCCaL                    `verb`       {- qaz~az -}         [ "nauseate", "disgust" ]
-                              {- `others` [ "qazziz IV_yu" ] -},
+    FaCCaL                    `verb`       {- qaz~az -}         [ "nauseate", "disgust" ],
 
     -- ;; taqaz~az_1
     -- tqzz    taqaz~az        PV_intr be disgusted

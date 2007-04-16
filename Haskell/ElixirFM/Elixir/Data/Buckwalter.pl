@@ -58,7 +58,7 @@ until (eof()) {
 
             $root = $1;
 
-            $root =~ tr[>&<][OWI];
+            $root =~ tr[>&<{][OWIA];
 
             $root = encode "arabtex", decode "buckwalter", join ' ', split //, $root;
 
@@ -70,7 +70,7 @@ until (eof()) {
 
             my (undef, $orig, $index) = split /[\;\_\s\(]+/, $line;
 
-            $orig =~ tr[>&<][OWI];
+            $orig =~ tr[>&<{][OWIA];
 
             warn "\nIncosistent data \t$orig\t" unless $index;
 
@@ -85,7 +85,7 @@ until (eof()) {
 
             my ($surf, $full, $type, $gloss) = split /\s+/, $line, 4;
 
-            $full =~ tr[>&<][OWI];
+            $full =~ tr[>&<{][OWIA];
 
             $gloss =~ s/(?:\s+\[\[([^\]]+)\]\])?\s*$//;
 

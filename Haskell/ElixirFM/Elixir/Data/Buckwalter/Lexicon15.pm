@@ -17,7 +17,7 @@ $Lexicon = {
       'entry' => '.dara^g',
       'form' => '.dara^g',
       'lines' => [
-        ';; Daraj_1',
+        ';; Daraj-u_1',
         'Drj     Daraj   PV      stain;smear',
         'Drj     Doruj   IV      stain;smear'
       ],
@@ -29,12 +29,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'stain',
         'smear'
       ],
-      'orig' => 'Daraj',
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'Daraj-u',
       'prefix' => ''
     },
     {
@@ -775,7 +778,7 @@ $Lexicon = {
         'wither',
         'shrink'
       ],
-      'orig' => '{inoDamar',
+      'orig' => 'AinoDamar',
       'prefix' => ''
     },
     {
@@ -1093,7 +1096,7 @@ $Lexicon = {
         'disappear',
         'vanish'
       ],
-      'orig' => '{iDomaHal~',
+      'orig' => 'AiDomaHal~',
       'prefix' => ''
     }
   ],
@@ -1147,7 +1150,7 @@ $Lexicon = {
       'entry' => '.da\'ul',
       'form' => '.da\'ul',
       'lines' => [
-        ';; Da&ul_1',
+        ';; Da&ul-u_1',
         'D&l     Da&ul   PV_intr be meager;be sparse;dwindle',
         'D&l     Do&ul   IV_intr be meager;be sparse;dwindle'
       ],
@@ -1159,13 +1162,16 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCuL',
-      'suffix' => '',
       'glosses' => [
         'be meager',
         'be sparse',
         'dwindle'
       ],
-      'orig' => 'DaWul',
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'DaWul-u',
       'prefix' => ''
     },
     {
@@ -1789,7 +1795,7 @@ $Lexicon = {
         'undertake',
         'be familiar with'
       ],
-      'orig' => '{iDoTalaE',
+      'orig' => 'AiDoTalaE',
       'prefix' => ''
     },
     {
@@ -1815,7 +1821,7 @@ $Lexicon = {
       'glosses' => [
         'be proficient'
       ],
-      'orig' => '{isotaDolaE',
+      'orig' => 'AisotaDolaE',
       'prefix' => ''
     },
     {
@@ -1979,7 +1985,7 @@ $Lexicon = {
         'undertaking',
         'being familiar with'
       ],
-      'orig' => '{iDoTilAE',
+      'orig' => 'AiDoTilAE',
       'prefix' => ''
     },
     {
@@ -2445,7 +2451,7 @@ $Lexicon = {
       'entry' => '.dall',
       'form' => '.dall',
       'lines' => [
-        ';; Dal~_1',
+        ';; Dal~-i_1',
         'Dl      Dal~    PV_V    go astray;be in vain',
         'Dll     Dalal   PV_C    go astray;be in vain',
         'Dl      Dil~    IV_V    go astray;be in vain',
@@ -2465,12 +2471,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCL',
-      'suffix' => '',
       'glosses' => [
         'go astray',
         'be in vain'
       ],
-      'orig' => 'Dal~',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'Dal~-i',
       'prefix' => ''
     },
     {
@@ -3059,7 +3068,7 @@ $Lexicon = {
       'glosses' => [
         'carry under arm'
       ],
-      'orig' => '{iDoTaban',
+      'orig' => 'AiDoTaban',
       'prefix' => ''
     },
     {
@@ -3134,7 +3143,7 @@ $Lexicon = {
         'disappearance',
         'fading'
       ],
-      'orig' => '{iDomiHolAl',
+      'orig' => 'AiDomiHolAl',
       'prefix' => ''
     }
   ],
@@ -4250,7 +4259,7 @@ $Lexicon = {
         'lie down',
         'sleep'
       ],
-      'orig' => '{iD~ajaE',
+      'orig' => 'AiD~ajaE',
       'prefix' => ''
     }
   ],
@@ -4438,7 +4447,7 @@ $Lexicon = {
         'force',
         'oblige'
       ],
-      'orig' => '{iDoTar~',
+      'orig' => 'AiDoTar~',
       'prefix' => ''
     },
     {
@@ -4464,7 +4473,7 @@ $Lexicon = {
         'emergency',
         'urgency'
       ],
-      'orig' => '{iDoTirAr',
+      'orig' => 'AiDoTirAr',
       'prefix' => ''
     },
     {
@@ -4490,7 +4499,7 @@ $Lexicon = {
         'forced',
         'emergency'
       ],
-      'orig' => '{iDoTirAriy~',
+      'orig' => 'AiDoTirAriy~',
       'prefix' => ''
     },
     {
@@ -4673,7 +4682,7 @@ $Lexicon = {
         'be affiliated',
         'be added'
       ],
-      'orig' => '{inoDam~',
+      'orig' => 'AinoDam~',
       'prefix' => ''
     },
     {
@@ -4895,7 +4904,7 @@ $Lexicon = {
         'affiliation',
         'annexation'
       ],
-      'orig' => '{inoDimAm',
+      'orig' => 'AinoDimAm',
       'prefix' => ''
     },
     {
@@ -4968,7 +4977,7 @@ $Lexicon = {
       'entry' => '.dafA',
       'form' => '.dafA',
       'lines' => [
-        ';; DafA_1',
+        ';; DafA-u_1',
         'DfA     DafA    PV_0    overflow;be abundant',
         'Dfw     Dafaw   PV_Atn  overflow;be abundant',
         'Df      Daf     PV_ttAw overflow;be abundant',
@@ -4983,12 +4992,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCA',
-      'suffix' => '',
       'glosses' => [
         'overflow',
         'be abundant'
       ],
-      'orig' => 'DafA',
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'DafA-u',
       'prefix' => ''
     },
     {
@@ -5117,7 +5129,7 @@ $Lexicon = {
       'entry' => '.darab',
       'form' => '.darab',
       'lines' => [
-        ';; Darab_1',
+        ';; Darab-i_1',
         'Drb     Darab   PV      strike;hit',
         'Drb     Dorib   IV      strike;hit',
         'Drb     Dorab   IV_Pass_yu      be struck;be hit'
@@ -5133,14 +5145,17 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'strike',
         'hit',
         'be struck',
         'be hit'
       ],
-      'orig' => 'Darab',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'Darab-i',
       'prefix' => ''
     },
     {
@@ -5325,7 +5340,7 @@ $Lexicon = {
         'be agitated',
         'suffer disorder'
       ],
-      'orig' => '{iDoTarab',
+      'orig' => 'AiDoTarab',
       'prefix' => ''
     },
     {
@@ -5971,7 +5986,7 @@ $Lexicon = {
         'agitation',
         'disorder'
       ],
-      'orig' => '{iDoTirAb',
+      'orig' => 'AiDoTirAb',
       'prefix' => ''
     },
     {
@@ -6597,7 +6612,7 @@ $Lexicon = {
       'entry' => '.da.ga_t',
       'form' => '.da.ga_t',
       'lines' => [
-        ';; Dagav_1',
+        ';; Dagav-a_1',
         'Dgv     Dagav   PV      confuse;muddle',
         'Dgv     Dogav   IV      confuse;muddle'
       ],
@@ -6609,12 +6624,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'confuse',
         'muddle'
       ],
-      'orig' => 'Dagav',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'Dagav-a',
       'prefix' => ''
     },
     {
@@ -6803,7 +6821,7 @@ $Lexicon = {
       'glosses' => [
         'be added'
       ],
-      'orig' => '{inoDAf',
+      'orig' => 'AinoDAf',
       'prefix' => ''
     },
     {
@@ -6849,7 +6867,7 @@ $Lexicon = {
         'be hosted',
         'be invited'
       ],
-      'orig' => '{isotaDAf',
+      'orig' => 'AisotaDAf',
       'prefix' => ''
     },
     {
@@ -7171,7 +7189,7 @@ $Lexicon = {
       'glosses' => [
         'hosting'
       ],
-      'orig' => '{isotiDAfap',
+      'orig' => 'AisotiDAfap',
       'prefix' => ''
     }
   ],
@@ -7375,7 +7393,7 @@ $Lexicon = {
       'entry' => '.dara.t',
       'form' => '.dara.t',
       'lines' => [
-        ';; DaraT_1',
+        ';; DaraT-i_1',
         'DrT     DaraT   PV      break wind;fart',
         'DrT     DoriT   IV      break wind;fart'
       ],
@@ -7387,12 +7405,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'break wind',
         'fart'
       ],
-      'orig' => 'DaraT',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'DaraT-i',
       'prefix' => ''
     },
     {
@@ -7556,7 +7577,7 @@ $Lexicon = {
         'be regulated',
         'be adjusted'
       ],
-      'orig' => '{inoDabaT',
+      'orig' => 'AinoDabaT',
       'prefix' => ''
     },
     {
@@ -7851,7 +7872,7 @@ $Lexicon = {
         'disciplinary',
         'disciplined'
       ],
-      'orig' => '{inoDibAT',
+      'orig' => 'AinoDibAT',
       'prefix' => ''
     },
     {
@@ -8486,7 +8507,7 @@ $Lexicon = {
         'lie down',
         'sleep'
       ],
-      'orig' => '{inoDajaE',
+      'orig' => 'AinoDajaE',
       'prefix' => ''
     },
     {
@@ -8517,7 +8538,7 @@ $Lexicon = {
         'lie down',
         'sleep'
       ],
-      'orig' => '{iDoTajaE',
+      'orig' => 'AiDoTajaE',
       'prefix' => ''
     },
     {
@@ -8922,7 +8943,7 @@ $Lexicon = {
         'brutalize',
         'persecute'
       ],
-      'orig' => '{iDoTahad',
+      'orig' => 'AiDoTahad',
       'prefix' => ''
     },
     {
@@ -8947,7 +8968,7 @@ $Lexicon = {
         'persecution',
         'oppression'
       ],
-      'orig' => '{iDoTihAd',
+      'orig' => 'AiDoTihAd',
       'prefix' => ''
     },
     {
@@ -9328,7 +9349,7 @@ $Lexicon = {
       'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{iDoTar~',
+      'orig' => 'AiDoTar~',
       'prefix' => ''
     },
     {
@@ -9649,7 +9670,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{iDoTirAr',
+      'orig' => 'AiDoTirAr',
       'prefix' => ''
     },
     {
@@ -9663,7 +9684,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [],
-      'orig' => '{iDoTirAriy~',
+      'orig' => 'AiDoTirAriy~',
       'prefix' => ''
     },
     {
@@ -9760,7 +9781,7 @@ $Lexicon = {
       'entry' => '.da`uf',
       'form' => '.da`uf',
       'lines' => [
-        ';; DaEuf_1',
+        ';; DaEuf-u_1',
         'DEf     DaEuf   PV_intr become weak;abate;wane',
         'DEf     DoEuf   IV_intr become weak;abate;wane'
       ],
@@ -9772,13 +9793,16 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCuL',
-      'suffix' => '',
       'glosses' => [
         'become weak',
         'abate',
         'wane'
       ],
-      'orig' => 'DaEuf',
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'DaEuf-u',
       'prefix' => ''
     },
     {
@@ -9843,7 +9867,7 @@ $Lexicon = {
         'despise',
         'oppress'
       ],
-      'orig' => '{isotaDoEaf',
+      'orig' => 'AisotaDoEaf',
       'prefix' => ''
     },
     {
@@ -10829,7 +10853,7 @@ $Lexicon = {
       'glosses' => [
         'make laugh'
       ],
-      'orig' => '{isotaDoHak',
+      'orig' => 'AisotaDoHak',
       'prefix' => ''
     },
     {
@@ -11103,7 +11127,7 @@ $Lexicon = {
       'entry' => '.da.ga.t',
       'form' => '.da.ga.t',
       'lines' => [
-        ';; DagaT_1',
+        ';; DagaT-a_1',
         'DgT     DagaT   PV      press;push;pressurize;compress',
         'DgT     DogaT   IV      press;push;pressurize;compress'
       ],
@@ -11115,14 +11139,17 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'press',
         'push',
         'pressurize',
         'compress'
       ],
-      'orig' => 'DagaT',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'DagaT-a',
       'prefix' => ''
     },
     {
@@ -11154,7 +11181,7 @@ $Lexicon = {
         'be pressurized',
         'be compressed'
       ],
-      'orig' => '{inoDagaT',
+      'orig' => 'AinoDagaT',
       'prefix' => ''
     },
     {
@@ -11394,7 +11421,7 @@ $Lexicon = {
       'glosses' => [
         'compressibility'
       ],
-      'orig' => '{inoDigATiy~ap',
+      'orig' => 'AinoDigATiy~ap',
       'prefix' => ''
     }
   ],
@@ -11860,7 +11887,7 @@ $Lexicon = {
         'be followed',
         'be flocked to'
       ],
-      'orig' => '{inoDawaY',
+      'orig' => 'AinoDawaY',
       'prefix' => ''
     },
     {
@@ -11894,7 +11921,7 @@ $Lexicon = {
         'seeking refuge',
         'rallying around'
       ],
-      'orig' => '{inoDiwA\'',
+      'orig' => 'AinoDiwA\'',
       'prefix' => ''
     },
     {
@@ -12039,7 +12066,7 @@ $Lexicon = {
       'entry' => '.dAq',
       'form' => '.dAq',
       'lines' => [
-        ';; DAq_1',
+        ';; DAq-i_1',
         'DAq     DAq     PV_V_intr       be narrow;be confined;be small',
         'Dq      Diq     PV_C_intr       be narrow;be confined;be small',
         'Dyq     Diyq    IV_V_intr       be narrow;be confined;be small',
@@ -12054,13 +12081,16 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
-      'suffix' => '',
       'glosses' => [
         'be narrow',
         'be confined',
         'be small'
       ],
-      'orig' => 'DAq',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'DAq-i',
       'prefix' => ''
     },
     {
@@ -12634,7 +12664,7 @@ $Lexicon = {
       'entry' => '.dara`',
       'form' => '.dara`',
       'lines' => [
-        ';; DaraE_1',
+        ';; DaraE-u_1',
         'DrE     DaraE   PV      suck;suckle',
         'DrE     DoruE   IV      suck;suckle'
       ],
@@ -12646,12 +12676,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'suck',
         'suckle'
       ],
-      'orig' => 'DaraE',
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'DaraE-u',
       'prefix' => ''
     },
     {
@@ -12734,7 +12767,7 @@ $Lexicon = {
         'implore',
         'supplicate'
       ],
-      'orig' => '{iDoTaraE',
+      'orig' => 'AiDoTaraE',
       'prefix' => ''
     },
     {
@@ -13777,7 +13810,7 @@ $Lexicon = {
       'entry' => '.dafar',
       'form' => '.dafar',
       'lines' => [
-        ';; Dafar_1',
+        ';; Dafar-i_1',
         'Dfr     Dafar   PV      interweave',
         'Dfr     Dofir   IV      interweave'
       ],
@@ -13789,11 +13822,14 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'interweave'
       ],
-      'orig' => 'Dafar',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'Dafar-i',
       'prefix' => ''
     },
     {
@@ -14582,7 +14618,7 @@ $Lexicon = {
         'treat unjustly',
         'injure'
       ],
-      'orig' => '{isotaDAm',
+      'orig' => 'AisotaDAm',
       'prefix' => ''
     },
     {
@@ -14645,7 +14681,7 @@ $Lexicon = {
       'entry' => '.darim',
       'form' => '.darim',
       'lines' => [
-        ';; Darim_1',
+        ';; Darim-a_1',
         'Drm     Darim   PV_intr be inflamed;flare up',
         'Drm     Doram   IV_intr be inflamed;flare up'
       ],
@@ -14657,12 +14693,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCiL',
-      'suffix' => '',
       'glosses' => [
         'be inflamed',
         'flare up'
       ],
-      'orig' => 'Darim',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'Darim-a',
       'prefix' => ''
     },
     {
@@ -14756,7 +14795,7 @@ $Lexicon = {
         'be inflamed',
         'flare up'
       ],
-      'orig' => '{iDoTaram',
+      'orig' => 'AiDoTaram',
       'prefix' => ''
     },
     {
@@ -15056,7 +15095,7 @@ $Lexicon = {
         'be lit',
         'become clear'
       ],
-      'orig' => '{isotaDA\'',
+      'orig' => 'AisotaDA\'',
       'prefix' => ''
     },
     {
@@ -15241,7 +15280,7 @@ $Lexicon = {
       'morphs' => 'InFiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{inoDiwA\'',
+      'orig' => 'AinoDiwA\'',
       'prefix' => ''
     }
   ],

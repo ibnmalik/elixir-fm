@@ -187,15 +187,13 @@ lexicon = listing "Lexicon's properties"
     -- gDD     goDuD   IV_C    lower;diminish
 
     FaCL                      `verb`       {- gaD~-u -}         [ "lower", "diminish" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".g.du.d IV_C", ".ga.da.d PV_C", ".gu.d.d IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gaD~aD_1
     -- gDD     gaD~aD  PV      frustrate
     -- gDD     gaD~iD  IV_yu   frustrate
 
-    FaCCaL                    `verb`       {- gaD~aD -}         [ "frustrate" ]
-                              {- `others` [ ".ga.d.di.d IV_yu" ] -},
+    FaCCaL                    `verb`       {- gaD~aD -}         [ "frustrate" ],
 
     -- ;; gaD~_1
     -- gD      gaD~    N       turning aside
@@ -256,8 +254,7 @@ lexicon = listing "Lexicon's properties"
     -- gDb     goDab   IV_intr become angry
 
     FaCiL                     `verb`       {- gaDib-a -}        [ "become angry" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".g.dab IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; >agoDab_1
     -- >gDb    >agoDab PV      make angry;irritate
@@ -265,8 +262,7 @@ lexicon = listing "Lexicon's properties"
     -- gDb     goDib   IV_yu   make angry;irritate
     -- gDb     goDab   IV_Pass_yu      be angered;be irritated
 
-    HaFCaL                    `verb`       {- OagoDab -}        [ "make angry", "irritate", "be angered", "be irritated" ]
-                              {- `others` [ ".g.dib IV_yu", ".g.dab IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- OagoDab -}        [ "make angry", "irritate", "be angered", "be irritated" ],
 
     -- ;; tagaD~ab_1
     -- tgDb    tagaD~ab        PV_intr become angry
@@ -341,15 +337,13 @@ lexicon = listing "Lexicon's properties"
     -- gDn     gaD~an  PV-n    wrinkle;frown
     -- gDn     gaD~in  IV-n_yu wrinkle;frown
 
-    FaCCaL                    `verb`       {- gaD~an -}         [ "wrinkle", "frown" ]
-                              {- `others` [ ".ga.d.din IV-n_yu" ] -},
+    FaCCaL                    `verb`       {- gaD~an -}         [ "wrinkle", "frown" ],
 
     -- ;; gADan_1
     -- gADn    gADan   PV-n    wink
     -- gADn    gADin   IV-n_yu wink
 
-    FACaL                     `verb`       {- gADan -}          [ "wink" ]
-                              {- `others` [ ".gA.din IV-n_yu" ] -},
+    FACaL                     `verb`       {- gADan -}          [ "wink" ],
 
     -- ;; tagaD~an_1
     -- tgDn    tagaD~an        PV-n_intr       be wrinkled;frown
@@ -392,8 +386,7 @@ lexicon = listing "Lexicon's properties"
     -- gDr     goDar   IV_intr become abundant;be lavish
 
     FaCiL                     `verb`       {- gaDir-a -}        [ "become abundant", "be lavish" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".g.dar IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; gaDir_1
     -- gDr     gaDir   N-ap    abundant;lavish;fresh     [[gaDir/ADJ]]
@@ -448,8 +441,7 @@ lexicon = listing "Lexicon's properties"
     -- gDY     goDaY   IV_0_Pass_yu    be disregarded;be ignored;be overlooked
     -- gDy     goDay   IV_Ann_Pass_yu  be disregarded;be ignored;be overlooked
 
-    HaFCY                     `verb`       {- OagoDaY -}        [ "disregard", "ignore", "overlook", "be disregarded", "be ignored", "be overlooked" ]
-                              {- `others` [ ".g.dY IV_0_Pass_yu", ".g.diy IV_0hAnn_yu" ] -},
+    HaFCY                     `verb`       {- OagoDaY -}        [ "disregard", "ignore", "overlook", "be disregarded", "be ignored", "be overlooked" ],
 
     -- ;; tagADaY_1
     -- tgADY   tagADaY PV_0    disregard;be lenient
@@ -490,14 +482,14 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g .s .s" <| [
 
-    -- ;; gaS~_1
+    -- ;; gaS~-a_1
     -- gS      gaS~    PV_V_intr       be congested;be crowded
     -- gSS     gaSiS   PV_C_intr       be congested;be crowded
     -- gS      gaS~    IV_V_intr       be congested;be crowded
     -- gSS     goSaS   IV_C_intr       be congested;be crowded
 
-    FaCL                      `verb`       {- gaS~ -}           [ "be congested", "be crowded" ]
-                              {- `others` [ ".ga.si.s PV_C_intr", ".g.sa.s IV_C_intr" ] -},
+    FaCL                      `verb`       {- gaS~-a -}         [ "be congested", "be crowded" ]
+                              `imperf`     FCaL,
 
     -- ;; >agaS~_1
     -- >gS     >agaS~  PV_V    suffocate;asphyxiate;drown
@@ -508,8 +500,7 @@ lexicon = listing "Lexicon's properties"
     -- gSS     goSiS   IV_C_yu suffocate;asphyxiate;drown
     -- gS      gaS~    IV_V_Pass_yu    be suffocated;be asphyxiated;be drowned
 
-    HaFaCL                    `verb`       {- OagaS~ -}         [ "suffocate", "asphyxiate", "drown", "be suffocated", "be asphyxiated", "be drowned" ]
-                              {- `others` [ ".ga.s.s IV_V_Pass_yu", ".g.si.s IV_C_yu", "'a.g.sa.s PV_C", ".gi.s.s IV_V_yu" ] -},
+    HaFaCL                    `verb`       {- OagaS~ -}         [ "suffocate", "asphyxiate", "drown", "be suffocated", "be asphyxiated", "be drowned" ],
 
     -- ;; {igotaS~_1
     -- <gtS    {igotaS~        PV_V_intr       be congested;hit a snag
@@ -519,8 +510,7 @@ lexicon = listing "Lexicon's properties"
     -- gtS     gotaS~  IV_V_intr       be congested;hit a snag
     -- gtSS    gotaSiS IV_C_intr       be congested;hit a snag
 
-    IFtaCL                    `verb`       {- {igotaS~ -}       [ "be congested", "hit a snag" ]
-                              {- `others` [ "i.gta.sa.s PV_C_intr", ".gta.s.s IV_V_intr", ".gta.si.s IV_C_intr" ] -},
+    IFtaCL                    `verb`       {- AigotaS~ -}       [ "be congested", "hit a snag" ],
 
     -- ;; guS~ap_1
     -- gS      guS~    NapAt   agony;suffocation
@@ -542,16 +532,14 @@ lexicon = listing "Lexicon's properties"
     -- gSb     goSib   IV      force;usurp;rape
 
     FaCaL                     `verb`       {- gaSab-i -}        [ "force", "usurp", "rape" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".g.sib IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; {igotaSab_1
     -- <gtSb   {igotaSab       PV      rape;usurp
     -- AgtSb   {igotaSab       PV      rape;usurp
     -- gtSb    gotaSib IV      rape;usurp
 
-    IFtaCaL                   `verb`       {- {igotaSab -}      [ "rape", "usurp" ]
-                              {- `others` [ ".gta.sib IV" ] -},
+    IFtaCaL                   `verb`       {- AigotaSab -}      [ "rape", "usurp" ],
 
     -- ;; gaSob_1
     -- gSb     gaSob   N       extortion;coercion;usurpation
@@ -563,7 +551,7 @@ lexicon = listing "Lexicon's properties"
     -- <gtSAb  {igotiSAb       N/At    rape;usurpation
     -- AgtSAb  {igotiSAb       N/At    rape;usurpation
 
-    IFtiCAL                   `noun`       {- {igotiSAb -}      [ "rape", "usurpation" ],
+    IFtiCAL                   `noun`       {- AigotiSAb -}      [ "rape", "usurpation" ],
 
     -- ;; gASib_1
     -- gASb    gASib   Nall    usurper;plunderer
@@ -594,8 +582,7 @@ lexicon = listing "Lexicon's properties"
     -- gSn     gaS~an  PV-n    branch out
     -- gSn     gaS~in  IV-n_yu branch out
 
-    FaCCaL                    `verb`       {- gaS~an -}         [ "branch out" ]
-                              {- `others` [ ".ga.s.sin IV-n_yu" ] -},
+    FaCCaL                    `verb`       {- gaS~an -}         [ "branch out" ],
 
     -- ;; >agoSan_1
     -- >gSn    >agoSan PV-n    branch out
@@ -603,8 +590,7 @@ lexicon = listing "Lexicon's properties"
     -- gSn     goSin   IV-n_yu branch out
     -- gSn     goSan   IV-n_Pass_yu    be branched out
 
-    HaFCaL                    `verb`       {- OagoSan -}        [ "branch out", "be branched out" ]
-                              {- `others` [ ".g.san IV-n_Pass_yu", ".g.sin IV-n_yu" ] -},
+    HaFCaL                    `verb`       {- OagoSan -}        [ "branch out", "be branched out" ],
 
     -- ;; guSon_1
     -- gSn     guSon   Ndu     branch;limb
@@ -652,8 +638,7 @@ lexicon = listing "Lexicon's properties"
     -- gTT     goTuT   IV_C    immerse;dip;plunge
 
     FaCL                      `verb`       {- gaT~-u -}         [ "immerse", "dip", "plunge" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".g.tu.t IV_C", ".ga.ta.t PV_C", ".gu.t.t IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; >agaT~_1
     -- >gT     >agaT~  PV_V    immerse;dip;plunge
@@ -664,8 +649,7 @@ lexicon = listing "Lexicon's properties"
     -- gTT     goTiT   IV_C_yu immerse;dip;plunge
     -- gT      gaT~    IV_V_Pass_yu    immerse;dip;plunge
 
-    HaFaCL                    `verb`       {- OagaT~ -}         [ "immerse", "dip", "plunge" ]
-                              {- `others` [ ".g.ti.t IV_C_yu", ".gi.t.t IV_V_yu", "'a.g.ta.t PV_C", ".ga.t.t IV_V_Pass_yu" ] -},
+    HaFaCL                    `verb`       {- OagaT~ -}         [ "immerse", "dip", "plunge" ],
 
     -- ;; {inogaT~_1
     -- <ngT    {inogaT~        PV_V_intr       be immersed;be dipped;be plunged
@@ -675,8 +659,7 @@ lexicon = listing "Lexicon's properties"
     -- ngT     nogaT~  IV_V_intr       be immersed;be dipped;be plunged
     -- ngTT    nogaTiT IV_C_intr       be immersed;be dipped;be plunged
 
-    InFaCL                    `verb`       {- {inogaT~ -}       [ "be immersed", "be dipped", "be plunged" ]
-                              {- `others` [ "n.ga.ti.t IV_C_intr", "n.ga.t.t IV_V_intr", "in.ga.ta.t PV_C_intr" ] -},
+    InFaCL                    `verb`       {- AinogaT~ -}       [ "be immersed", "be dipped", "be plunged" ],
 
     -- ;; gaTiyT_1
     -- gTyT    gaTiyT  N       snoring
@@ -698,8 +681,7 @@ lexicon = listing "Lexicon's properties"
     -- gTY     gaT~aY  IV_0_Pass_yu    be covered;be concealed
     -- gTy     gaT~ay  IV_Ann_Pass_yu  be covered;be concealed
 
-    FaCLY                     `verb`       {- gaT~aY -}         [ "cover", "conceal", "be covered", "be concealed" ]
-                              {- `others` [ ".ga.t.tiy IV_0hAnn_yu", ".ga.t.t IV_0hwnyn_yu PV_ttAw" ] -} ]
+    FaCLY                     `verb`       {- gaT~aY -}         [ "cover", "conceal", "be covered", "be concealed" ] ]
 
  |> ".g .t ^s" <| [
 
@@ -708,16 +690,14 @@ lexicon = listing "Lexicon's properties"
     -- gT$     goTi$   IV_intr become dark
 
     FaCaL                     `verb`       {- gaTa$-i -}        [ "become dark" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".g.ti^s IV_intr" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gaTi$-a_1
     -- gT$     gaTi$   PV_intr become dim
     -- gT$     goTa$   IV_intr become dim
 
     FaCiL                     `verb`       {- gaTi$-a -}        [ "become dim" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".g.ta^s IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; tagaT~a$_1
     -- tgT$    tagaT~a$        PV_intr become dim
@@ -768,8 +748,7 @@ lexicon = listing "Lexicon's properties"
     -- gTrs    gaToras PV_intr be arrogant
     -- gTrs    gaToris IV_intr_yu      be arrogant
 
-    KaRDaS                    `verb`       {- gaToras -}        [ "be arrogant" ]
-                              {- `others` [ ".ga.tris IV_intr_yu" ] -},
+    KaRDaS                    `verb`       {- gaToras -}        [ "be arrogant" ],
 
     -- ;; tagaToras_1
     -- tgTrs   tagaToras       PV_intr be arrogant
@@ -807,15 +786,13 @@ lexicon = listing "Lexicon's properties"
     -- gTs     goTis   IV      immerse;submerse
 
     FaCaL                     `verb`       {- gaTas-i -}        [ "immerse", "submerse" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".g.tis IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gaT~as_1
     -- gTs     gaT~as  PV      immerse;submerse
     -- gTs     gaT~is  IV_yu   immerse;submerse
 
-    FaCCaL                    `verb`       {- gaT~as -}         [ "immerse", "submerse" ]
-                              {- `others` [ ".ga.t.tis IV_yu" ] -},
+    FaCCaL                    `verb`       {- gaT~as -}         [ "immerse", "submerse" ],
 
     -- ;; tagaT~as_1
     -- tgTs    tagaT~as        PV      dive;submerse
@@ -878,8 +855,7 @@ lexicon = listing "Lexicon's properties"
     -- gTy     goTay   IV_Ann_Pass_yu  be covered
 
     FaCA                      `verb`       {- gaTA-u -}         [ "cover", "be covered" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".g.tY IV_0_Pass_yu", ".g.tuw IV_0hAnn", ".ga.taw PV_Atn" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gaT~aY_1
     -- gTY     gaT~aY  PV_0    cover;conceal
@@ -891,8 +867,7 @@ lexicon = listing "Lexicon's properties"
     -- gTY     gaT~aY  IV_0_Pass_yu    be covered;be concealed
     -- gTy     gaT~ay  IV_Ann_Pass_yu  be covered;be concealed
 
-    FaCCY                     `verb`       {- gaT~aY -}         [ "cover", "conceal", "be covered", "be concealed" ]
-                              {- `others` [ ".ga.t.tiy IV_0hAnn_yu" ] -},
+    FaCCY                     `verb`       {- gaT~aY -}         [ "cover", "conceal", "be covered", "be concealed" ],
 
     -- ;; tagaT~aY_1
     -- tgTY    tagaT~aY        PV_0    be covered
@@ -917,8 +892,7 @@ lexicon = listing "Lexicon's properties"
     -- gtT     gotaT   IV_0hwnyn       be covered
     -- gtTY    gotaTaY IV_0_Pass_yu    be covered
 
-    IFtaCY                    `verb`       {- {igotaTaY -}      [ "be covered" ]
-                              {- `others` [ ".gta.tiy IV_0hAnn", ".gta.tY IV_0_Pass_yu" ] -},
+    IFtaCY                    `verb`       {- AigotaTaY -}      [ "be covered" ],
 
     -- ;; giTA'_1
     -- gTA'    giTA'   N0_Nh   cover;blanket
@@ -957,8 +931,7 @@ lexicon = listing "Lexicon's properties"
     -- gjr     gaj~ar  PV      scold;curse
     -- gjr     gaj~ir  IV_yu   scold;curse
 
-    FaCCaL                    `verb`       {- gaj~ar -}         [ "scold", "curse" ]
-                              {- `others` [ ".ga^g^gir IV_yu" ] -},
+    FaCCaL                    `verb`       {- gaj~ar -}         [ "scold", "curse" ],
 
     -- ;; gajariy~_1
     -- gjry    gajariy~        N-ap    gypsy     [[gajariy~/ADJ]]
@@ -998,15 +971,13 @@ lexicon = listing "Lexicon's properties"
     -- g$$     go$u$   IV_C    deceive;adulterate;tamper
 
     FaCL                      `verb`       {- ga$~-u -}         [ "deceive", "adulterate", "tamper" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".ga^sa^s PV_C", ".g^su^s IV_C", ".gu^s^s IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; ga$~a$_1
     -- g$$     ga$~a$  PV      deceive;dupe
     -- g$$     ga$~i$  IV_yu   deceive;dupe
 
-    FaCCaL                    `verb`       {- ga$~a$ -}         [ "deceive", "dupe" ]
-                              {- `others` [ ".ga^s^si^s IV_yu" ] -},
+    FaCCaL                    `verb`       {- ga$~a$ -}         [ "deceive", "dupe" ],
 
     -- ;; {inoga$~_1
     -- <ng$    {inoga$~        PV_V_intr       be deceived;be duped
@@ -1016,8 +987,7 @@ lexicon = listing "Lexicon's properties"
     -- ng$     noga$~  IV_V_intr       be deceived;be duped
     -- ng$$    noga$i$ IV_C_intr       be deceived;be duped
 
-    InFaCL                    `verb`       {- {inoga$~ -}       [ "be deceived", "be duped" ]
-                              {- `others` [ "n.ga^si^s IV_C_intr", "in.ga^sa^s PV_C_intr", "n.ga^s^s IV_V_intr" ] -},
+    InFaCL                    `verb`       {- Ainoga$~ -}       [ "be deceived", "be duped" ],
 
     -- ;; {igota$~_1
     -- <gt$    {igota$~        PV_V_intr       be deceived;be duped
@@ -1027,8 +997,7 @@ lexicon = listing "Lexicon's properties"
     -- gt$     gota$~  IV_V_intr       be deceived;be duped
     -- gt$$    gota$i$ IV_C_intr       be deceived;be duped
 
-    IFtaCL                    `verb`       {- {igota$~ -}       [ "be deceived", "be duped" ]
-                              {- `others` [ "i.gta^sa^s PV_C_intr", ".gta^s^s IV_V_intr", ".gta^si^s IV_C_intr" ] -},
+    IFtaCL                    `verb`       {- Aigota$~ -}       [ "be deceived", "be duped" ],
 
     -- ;; {isotaga$~_1
     -- <stg$   {isotaga$~      PV_V    suspect of deception
@@ -1038,8 +1007,7 @@ lexicon = listing "Lexicon's properties"
     -- stg$    sotagi$~        IV_V    suspect of deception
     -- stg$$   sotago$i$       IV_C    suspect of deception
 
-    IstaFaCL                  `verb`       {- {isotaga$~ -}     [ "suspect of deception" ]
-                              {- `others` [ "ista.g^sa^s PV_C" ] -},
+    IstaFaCL                  `verb`       {- Aisotaga$~ -}     [ "suspect of deception" ],
 
     -- ;; ga$~_1
     -- g$      ga$~    N       cheating;deceit
@@ -1084,8 +1052,7 @@ lexicon = listing "Lexicon's properties"
     -- g$Y     ga$~aY  IV_0_Pass_yu    be covered;be wrapped
     -- g$y     ga$~ay  IV_Ann_Pass_yu  be covered;be wrapped
 
-    FaCLY                     `verb`       {- ga$~aY -}         [ "cover", "wrap", "be covered", "be wrapped" ]
-                              {- `others` [ ".ga^s^s IV_0hwnyn_yu PV_ttAw", ".ga^s^siy IV_0hAnn_yu" ] -} ]
+    FaCLY                     `verb`       {- ga$~aY -}         [ "cover", "wrap", "be covered", "be wrapped" ] ]
 
  |> ".g ^s m" <| [
 
@@ -1094,15 +1061,13 @@ lexicon = listing "Lexicon's properties"
     -- g$m     go$im   IV      oppress;treat unjustly
 
     FaCaL                     `verb`       {- ga$am-i -}        [ "oppress", "treat unjustly" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".g^sim IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; ga$~am_1
     -- g$m     ga$~am  PV      mislead
     -- g$m     ga$~im  IV_yu   mislead
 
-    FaCCaL                    `verb`       {- ga$~am -}         [ "mislead" ]
-                              {- `others` [ ".ga^s^sim IV_yu" ] -},
+    FaCCaL                    `verb`       {- ga$~am -}         [ "mislead" ],
 
     -- ;; tagA$am_1
     -- tgA$m   tagA$am PV      feign ignorance
@@ -1115,7 +1080,7 @@ lexicon = listing "Lexicon's properties"
     -- Astg$m  {isotago$am     PV      regard as ignorant
     -- stg$m   sotago$im       IV      regard as ignorant
 
-    IstaFCaL                  `verb`       {- {isotago$am -}    [ "regard as ignorant" ],
+    IstaFCaL                  `verb`       {- Aisotago$am -}    [ "regard as ignorant" ],
 
     -- ;; ga$om_1
     -- g$m     ga$om   N       oppression;repression
@@ -1166,8 +1131,7 @@ lexicon = listing "Lexicon's properties"
     -- g$y     go$ay   IV_Ann_Pass_yu  come to
 
     FaCA                      `verb`       {- ga$A-u -}         [ "come to" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".g^sY IV_0_Pass_yu", ".ga^saw PV_Atn", ".g^suw IV_0hAnn" ] -},
+                              `imperf`     FCuL,
 
     -- ;; ga$~aY_1
     -- g$Y     ga$~aY  PV_0    cover;wrap
@@ -1179,8 +1143,7 @@ lexicon = listing "Lexicon's properties"
     -- g$Y     ga$~aY  IV_0_Pass_yu    be covered;be wrapped
     -- g$y     ga$~ay  IV_Ann_Pass_yu  be covered;be wrapped
 
-    FaCCY                     `verb`       {- ga$~aY -}         [ "cover", "wrap", "be covered", "be wrapped" ]
-                              {- `others` [ ".ga^s^siy IV_0hAnn_yu" ] -},
+    FaCCY                     `verb`       {- ga$~aY -}         [ "cover", "wrap", "be covered", "be wrapped" ],
 
     -- ;; >ago$aY_1
     -- >g$Y    >ago$aY PV_0    cover;be dark
@@ -1196,8 +1159,7 @@ lexicon = listing "Lexicon's properties"
     -- g$Y     go$aY   IV_0_Pass_yu    be covered
     -- g$y     go$ay   IV_Ann_Pass_yu  be covered
 
-    HaFCY                     `verb`       {- Oago$aY -}        [ "cover", "be dark", "be covered" ]
-                              {- `others` [ ".g^sY IV_0_Pass_yu", ".g^siy IV_0hAnn_yu" ] -},
+    HaFCY                     `verb`       {- Oago$aY -}        [ "cover", "be dark", "be covered" ],
 
     -- ;; taga$~aY_1
     -- tg$Y    taga$~aY        PV_0    be covered;lie down with
@@ -1222,7 +1184,7 @@ lexicon = listing "Lexicon's properties"
     -- stg$    sotago$ IV_0hwnyn       hide
     -- stg$Y   sotago$aY       IV_0_Pass_yu    be hidden
 
-    IstaFCY                   `verb`       {- {isotago$aY -}    [ "hide", "be hidden" ],
+    IstaFCY                   `verb`       {- Aisotago$aY -}    [ "hide", "be hidden" ],
 
     -- ;; ga$owap_1
     -- g$w     ga$ow   Nap     veil;covering
@@ -1285,8 +1247,7 @@ lexicon = listing "Lexicon's properties"
     -- g$Y     go$aY   IV_Pass_yu      faint
 
     FaCiL                     `verb`       {- ga$iy-a -}        [ "cover", "overcome", "faint" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".g^sY IV_0 IV_Pass_yu", ".gu^siy PV_Pass-a", ".g^say IV_Ann" ] -},
+                              `imperf`     FCaL,
 
     -- ;; ga$oy_1
     -- g$y     ga$oy   N       fainting
@@ -1343,8 +1304,7 @@ lexicon = listing "Lexicon's properties"
     -- g**     go*i*   IV_C    fester;suppurate
 
     FaCL                      `verb`       {- ga*~-i -}         [ "fester", "suppurate" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".g_di_d IV_C", ".gi_d_d IV_V", ".ga_da_d PV_C" ] -},
+                              `imperf`     FCiL,
 
     -- ;; >aga*~_1
     -- >g*     >aga*~  PV_V    hurry;suppurate
@@ -1354,8 +1314,7 @@ lexicon = listing "Lexicon's properties"
     -- g*      gi*~    IV_V_yu hurry;suppurate
     -- g**     go*i*   IV_C_yu hurry;suppurate
 
-    HaFaCL                    `verb`       {- Oaga*~ -}         [ "hurry", "suppurate" ]
-                              {- `others` [ ".g_di_d IV_C_yu", ".gi_d_d IV_V_yu", "'a.g_da_d PV_C" ] -},
+    HaFaCL                    `verb`       {- Oaga*~ -}         [ "hurry", "suppurate" ],
 
     -- ;; ga*~_1
     -- g*      ga*~    N       festering;suppurating
@@ -1379,8 +1338,7 @@ lexicon = listing "Lexicon's properties"
     -- g*y     ga*~ay  IV_Ann_Pass_yu  be fed;be nourished
     -- g*      ga*~    IV_0hwnyn_yu    be fed;be nourished
 
-    FaCLY                     `verb`       {- ga*~aY -}         [ "feed", "nourish", "be fed", "be nourished" ]
-                              {- `others` [ ".ga_d_d IV_0hwnyn_yu PV_ttAw", ".ga_d_diy IV_0hAnn_yu" ] -} ]
+    FaCLY                     `verb`       {- ga*~aY -}         [ "feed", "nourish", "be fed", "be nourished" ] ]
 
  |> ".g _d w" <| [
 
@@ -1394,8 +1352,7 @@ lexicon = listing "Lexicon's properties"
     -- g*y     go*ay   IV_Ann_Pass_yu  be fed;be nourished
 
     FaCA                      `verb`       {- ga*A-u -}         [ "feed", "nourish", "be fed", "be nourished" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".g_duw IV_0hAnn", ".ga_daw PV_Atn", ".g_dY IV_0_Pass_yu" ] -},
+                              `imperf`     FCuL,
 
     -- ;; ga*~aY_1
     -- g*Y     ga*~aY  PV_0    feed;nourish
@@ -1408,8 +1365,7 @@ lexicon = listing "Lexicon's properties"
     -- g*y     ga*~ay  IV_Ann_Pass_yu  be fed;be nourished
     -- g*      ga*~    IV_0hwnyn_yu    be fed;be nourished
 
-    FaCCY                     `verb`       {- ga*~aY -}         [ "feed", "nourish", "be fed", "be nourished" ]
-                              {- `others` [ ".ga_d_diy IV_0hAnn_yu" ] -},
+    FaCCY                     `verb`       {- ga*~aY -}         [ "feed", "nourish", "be fed", "be nourished" ],
 
     -- ;; taga*~aY_1
     -- tg*Y    taga*~aY        PV_0    be fed;be nourished
@@ -1436,8 +1392,7 @@ lexicon = listing "Lexicon's properties"
     -- gt*     gota*   IV_0hwnyn       be fed;be nourished
     -- gt*Y    gota*aY IV_0_Pass_yu    be fed;be nourished
 
-    IFtaCY                    `verb`       {- {igota*aY -}      [ "be fed", "be nourished" ]
-                              {- `others` [ ".gta_dY IV_0_Pass_yu", ".gta_diy IV_0hAnn" ] -},
+    IFtaCY                    `verb`       {- Aigota*aY -}      [ "be fed", "be nourished" ],
 
     -- ;; ga*ow_1
     -- g*w     ga*ow   N       feeding;nourishment
@@ -1499,8 +1454,7 @@ lexicon = listing "Lexicon's properties"
     -- gvv     goviv   IV_C_intr       be thin;fester
 
     FaCL                      `verb`       {- gav~-i -}         [ "be thin", "fester" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gi_t_t IV_V_intr", ".ga_ta_t PV_C_intr", ".g_ti_t IV_C_intr" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gav~_1
     -- gv      gav~    N       thin;meager
@@ -1533,8 +1487,7 @@ lexicon = listing "Lexicon's properties"
     -- gv      gov     IV_0hwnyn       be nauseated;be disgusted
 
     FaCY                      `verb`       {- gavaY-i -}        [ "be nauseated", "be disgusted" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".g_tiy IV_0hAnn", ".ga_tA PV_h", ".ga_tay PV_Atn" ] -},
+                              `imperf`     FCiL,
 
     -- ;; >agovaY_1
     -- >gvY    >agovaY PV_0    nauseate;disgust
@@ -1550,8 +1503,7 @@ lexicon = listing "Lexicon's properties"
     -- gvY     govaY   IV_0_Pass_yu    be nauseated;be disgusted
     -- gvy     govay   IV_Ann_Pass_yu  be nauseated;be disgusted
 
-    HaFCY                     `verb`       {- OagovaY -}        [ "nauseate", "disgust", "be nauseated", "be disgusted" ]
-                              {- `others` [ ".g_tiy IV_0hAnn_yu", "'a.g_tay PV_Atn", ".g_tay IV_Ann_Pass_yu", ".g_tY IV_0_Pass_yu" ] -},
+    HaFCY                     `verb`       {- OagovaY -}        [ "nauseate", "disgust", "be nauseated", "be disgusted" ],
 
     -- ;; gavoy_1
     -- gvy     gavoy   N       nausea
@@ -1595,15 +1547,13 @@ lexicon = listing "Lexicon's properties"
     -- gbT     gobiT   IV      envy
 
     FaCaL                     `verb`       {- gabaT-i -}        [ "envy" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gbi.t IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gab~aT_1
     -- gbT     gab~aT  PV      make envious
     -- gbT     gab~iT  IV_yu   make envious
 
-    FaCCaL                    `verb`       {- gab~aT -}         [ "make envious" ]
-                              {- `others` [ ".gabbi.t IV_yu" ] -},
+    FaCCaL                    `verb`       {- gab~aT -}         [ "make envious" ],
 
     -- ;; >agobaT_1
     -- >gbT    >agobaT PV      enchant
@@ -1611,16 +1561,14 @@ lexicon = listing "Lexicon's properties"
     -- gbT     gobiT   IV_yu   enchant
     -- gbT     gobaT   IV_Pass_yu      be enchanted
 
-    HaFCaL                    `verb`       {- OagobaT -}        [ "enchant", "be enchanted" ]
-                              {- `others` [ ".gbi.t IV_yu", ".gba.t IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- OagobaT -}        [ "enchant", "be enchanted" ],
 
     -- ;; {igotabaT_1
     -- <gtbT   {igotabaT       PV_intr be content;be delighted
     -- AgtbT   {igotabaT       PV_intr be content;be delighted
     -- gtbT    gotabiT IV_intr be content;be delighted
 
-    IFtaCaL                   `verb`       {- {igotabaT -}      [ "be content", "be delighted" ]
-                              {- `others` [ ".gtabi.t IV_intr" ] -},
+    IFtaCaL                   `verb`       {- AigotabaT -}      [ "be content", "be delighted" ],
 
     -- ;; giboTap_1
     -- gbT     giboT   Nap     happiness;delight
@@ -1631,7 +1579,7 @@ lexicon = listing "Lexicon's properties"
     -- <gtbAT  {igotibAT       N/At    contentment;rejoicing
     -- AgtbAT  {igotibAT       N/At    contentment;rejoicing
 
-    IFtiCAL                   `noun`       {- {igotibAT -}      [ "contentment", "rejoicing" ],
+    IFtiCAL                   `noun`       {- AigotibAT -}      [ "contentment", "rejoicing" ],
 
     -- ;; magobuwT_1
     -- mgbwT   magobuwT        Nall    fortunate;enviable     [[magobuwT/ADJ]]
@@ -1691,8 +1639,7 @@ lexicon = listing "Lexicon's properties"
     -- gbb     gobab   IV_C    come intermittently
 
     FaCL                      `verb`       {- gab~-a -}         [ "come intermittently" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".gbab IV_C", ".gabab PV_C" ] -},
+                              `imperf`     FCaL,
 
     -- ;; gab~-u_1
     -- gb      gab~    PV_V    quaff
@@ -1701,8 +1648,7 @@ lexicon = listing "Lexicon's properties"
     -- gbb     gobub   IV_C    quaff
 
     FaCL                      `verb`       {- gab~-u -}         [ "quaff" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".gbub IV_C", ".gabab PV_C", ".gubb IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gib~_1
     -- gb      gib~    N       consequence;outcome
@@ -1756,8 +1702,7 @@ lexicon = listing "Lexicon's properties"
     -- gbn     gobin   IV-n    cheat;defraud
 
     FaCaL                     `verb`       {- gaban-i -}        [ "cheat", "defraud" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gbin IV-n" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gabon_1
     -- gbn     gabon   N       fraud;deceit
@@ -1779,15 +1724,13 @@ lexicon = listing "Lexicon's properties"
     -- gbr     gobur   IV      elapse;pass
 
     FaCaL                     `verb`       {- gabar-u -}        [ "elapse", "pass" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".gbur IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gab~ar_1
     -- gbr     gab~ar  PV      raise dust;cover with dust
     -- gbr     gab~ir  IV_yu   raise dust;cover with dust
 
-    FaCCaL                    `verb`       {- gab~ar -}         [ "raise dust", "cover with dust" ]
-                              {- `others` [ ".gabbir IV_yu" ] -},
+    FaCCaL                    `verb`       {- gab~ar -}         [ "raise dust", "cover with dust" ],
 
     -- ;; >agobar_1
     -- >gbr    >agobar PV      raise dust;cover with dust
@@ -1795,8 +1738,7 @@ lexicon = listing "Lexicon's properties"
     -- gbr     gobir   IV_yu   raise dust;cover with dust
     -- gbr     gobar   IV_Pass_yu      be covered with dust
 
-    HaFCaL                    `verb`       {- Oagobar -}        [ "raise dust", "cover with dust", "be covered with dust" ]
-                              {- `others` [ ".gbir IV_yu", ".gbar IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- Oagobar -}        [ "raise dust", "cover with dust", "be covered with dust" ],
 
     -- ;; tagab~ar_1
     -- tgbr    tagab~ar        PV_intr be dusty
@@ -1812,8 +1754,7 @@ lexicon = listing "Lexicon's properties"
     -- gbr     gobar~  IV_V_intr       be dust-colored
     -- gbrr    gobarir IV_C_intr       be dust-colored
 
-    IFCaLL                    `verb`       {- {igobar~ -}       [ "be dust-colored" ]
-                              {- `others` [ ".gbarr IV_V_intr" ] -},
+    IFCaLL                    `verb`       {- Aigobar~ -}       [ "be dust-colored" ],
 
     -- ;; gabir_1
     -- gbr     gabir   N-ap    dusty
@@ -1867,7 +1808,7 @@ lexicon = listing "Lexicon's properties"
     -- <gbrAr  {igobirAr       N/At    resentment;grayness
     -- AgbrAr  {igobirAr       N/At    resentment;grayness
 
-    IFCiLAL                   `noun`       {- {igobirAr -}      [ "resentment", "grayness" ],
+    IFCiLAL                   `noun`       {- AigobirAr -}      [ "resentment", "grayness" ],
 
     -- ;; gAbir_1
     -- gAbr    gAbir   N-ap    bygone;elapsed
@@ -1922,8 +1863,7 @@ lexicon = listing "Lexicon's properties"
     -- gb      goba    IV_0hwnyn       be ignorant
 
     FaCiL                     `verb`       {- gabiy-a -}        [ "be ignorant" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".gbay IV_Ann", ".gbY IV_0" ] -},
+                              `imperf`     FCaL,
 
     -- ;; tagAbaY_1
     -- tgAbY   tagAbaY PV_0    feign ignorance
@@ -1935,8 +1875,7 @@ lexicon = listing "Lexicon's properties"
     -- tgAby   tagAbay IV_Ann  feign ignorance
     -- tgAb    tagAb   IV_0hwnyn       feign ignorance
 
-    TaFACY                    `verb`       {- tagAbaY -}        [ "feign ignorance" ]
-                              {- `others` [ "ta.gAbay PV_Atn IV_Ann" ] -},
+    TaFACY                    `verb`       {- tagAbaY -}        [ "feign ignorance" ],
 
     -- ;; gabiy~_1
     -- gby     gabiy~  N/ap    ignorant;stupid     [[gabiy~/ADJ]]
@@ -2022,8 +1961,7 @@ lexicon = listing "Lexicon's properties"
     -- gdy     gad~ay  IV_Ann_Pass_yu  be fed breakfast
     -- gd      gad~    IV_0hwnyn_yu    be fed breakfast
 
-    FaCLY                     `verb`       {- gad~aY -}         [ "give breakfast", "be fed breakfast" ]
-                              {- `others` [ ".gadd IV_0hwnyn_yu PV_ttAw", ".gaddiy IV_0hAnn_yu" ] -} ]
+    FaCLY                     `verb`       {- gad~aY -}         [ "give breakfast", "be fed breakfast" ] ]
 
  |> ".g d f" <| [
 
@@ -2047,8 +1985,7 @@ lexicon = listing "Lexicon's properties"
     -- Agdwdn  {igodawodan     PV-n    grow luxuriantly;become lush
     -- gdwdn   godawodin       IV-n    grow luxuriantly;become lush
 
-    IFCawCaL                  `verb`       {- {igodawodan -}    [ "grow luxuriantly", "become lush" ]
-                              {- `others` [ ".gdawdin IV-n" ] -},
+    IFCawCaL                  `verb`       {- Aigodawodan -}    [ "grow luxuriantly", "become lush" ],
 
     -- ;; gadan_1
     -- gdn     gadan   N       lassitude
@@ -2072,8 +2009,7 @@ lexicon = listing "Lexicon's properties"
     -- gdq     godaq   IV      pour down
 
     FaCiL                     `verb`       {- gadiq-a -}        [ "pour down" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".gdaq IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; >agodaq_1
     -- >gdq    >agodaq PV      pour down;shower
@@ -2081,8 +2017,7 @@ lexicon = listing "Lexicon's properties"
     -- gdq     godiq   IV_yu   pour down;shower
     -- gdq     godaq   IV_Pass_yu      be poured down;be showered
 
-    HaFCaL                    `verb`       {- Oagodaq -}        [ "pour down", "shower", "be poured down", "be showered" ]
-                              {- `others` [ ".gdaq IV_Pass_yu", ".gdiq IV_yu" ] -},
+    HaFCaL                    `verb`       {- Oagodaq -}        [ "pour down", "shower", "be poured down", "be showered" ],
 
     -- ;; gadiq_1
     -- gdq     gadiq   N-ap    copious;abundant     [[gadiq/ADJ]]
@@ -2101,15 +2036,13 @@ lexicon = listing "Lexicon's properties"
     -- gdr     godir   IV      betray;double cross
 
     FaCaL                     `verb`       {- gadar-i -}        [ "betray", "double cross" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gdir IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gAdar_1
     -- gAdr    gAdar   PV      leave;depart
     -- gAdr    gAdir   IV_yu   leave;depart
 
-    FACaL                     `verb`       {- gAdar -}          [ "leave", "depart" ]
-                              {- `others` [ ".gAdir IV_yu" ] -},
+    FACaL                     `verb`       {- gAdar -}          [ "leave", "depart" ],
 
     -- ;; gador_1
     -- gdr     gador   N       treason;deception
@@ -2183,8 +2116,7 @@ lexicon = listing "Lexicon's properties"
     -- gd      god     IV_0hwnyn       depart;become current
 
     FaCA                      `verb`       {- gadA-u -}         [ "depart", "become current" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".gduw IV_0hAnn", ".gadaw PV_Atn" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gad~aY_1
     -- gdY     gad~aY  PV_0    give breakfast
@@ -2197,8 +2129,7 @@ lexicon = listing "Lexicon's properties"
     -- gdy     gad~ay  IV_Ann_Pass_yu  be fed breakfast
     -- gd      gad~    IV_0hwnyn_yu    be fed breakfast
 
-    FaCCY                     `verb`       {- gad~aY -}         [ "give breakfast", "be fed breakfast" ]
-                              {- `others` [ ".gaddiy IV_0hAnn_yu" ] -},
+    FaCCY                     `verb`       {- gad~aY -}         [ "give breakfast", "be fed breakfast" ],
 
     -- ;; tagad~aY_1
     -- tgdY    tagad~aY        PV_0    have breakfast
@@ -2270,8 +2201,7 @@ lexicon = listing "Lexicon's properties"
     -- gd      goda    IV_0hwnyn       have breakfast
 
     FaCiL                     `verb`       {- gadiy-a -}        [ "have breakfast" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".gday IV_Ann", ".gdY IV_0" ] -},
+                              `imperf`     FCaL,
 
     -- ;; gadiy~ap_1
     -- gdy     gadiy~  Nap     morning     [[gadiy~/NOUN]]
@@ -2298,14 +2228,14 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g f f" <| [
 
-    -- ;; gaf~_1
+    -- ;; gaf~-i_1
     -- gf      gaf~    PV_V    seize;grasp
     -- gff     gafaf   PV_C    seize;grasp
     -- gf      gif~    IV_V    seize;grasp
     -- gff     gofif   IV_C    seize;grasp
 
-    FaCL                      `verb`       {- gaf~ -}           [ "seize", "grasp" ]
-                              {- `others` [ ".gfif IV_C", ".gafaf PV_C", ".giff IV_V" ] -} ]
+    FaCL                      `verb`       {- gaf~-i -}         [ "seize", "grasp" ]
+                              `imperf`     FCiL ]
 
  |> ".g f l" <| [
 
@@ -2314,22 +2244,19 @@ lexicon = listing "Lexicon's properties"
     -- gfl     goful   IV      neglect;be forgetful
 
     FaCaL                     `verb`       {- gafal-u -}        [ "neglect", "be forgetful" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".gful IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gaf~al_1
     -- gfl     gaf~al  PV      stultify;make negligent
     -- gfl     gaf~il  IV_yu   stultify;make negligent
 
-    FaCCaL                    `verb`       {- gaf~al -}         [ "stultify", "make negligent" ]
-                              {- `others` [ ".gaffil IV_yu" ] -},
+    FaCCaL                    `verb`       {- gaf~al -}         [ "stultify", "make negligent" ],
 
     -- ;; gAfal_1
     -- gAfl    gAfal   PV      exploit negligence
     -- gAfl    gAfil   IV_yu   exploit negligence
 
-    FACaL                     `verb`       {- gAfal -}          [ "exploit negligence" ]
-                              {- `others` [ ".gAfil IV_yu" ] -},
+    FACaL                     `verb`       {- gAfal -}          [ "exploit negligence" ],
 
     -- ;; >agofal_1
     -- >gfl    >agofal PV      neglect;overlook;disregard
@@ -2337,8 +2264,7 @@ lexicon = listing "Lexicon's properties"
     -- gfl     gofil   IV_yu   neglect;overlook;disregard
     -- gfl     gofal   IV_Pass_yu      be neglected;be overlooked;be disregarded
 
-    HaFCaL                    `verb`       {- Oagofal -}        [ "neglect", "overlook", "disregard", "be neglected", "be overlooked", "be disregarded" ]
-                              {- `others` [ ".gfal IV_Pass_yu", ".gfil IV_yu" ] -},
+    HaFCaL                    `verb`       {- Oagofal -}        [ "neglect", "overlook", "disregard", "be neglected", "be overlooked", "be disregarded" ],
 
     -- ;; tagAfal_1
     -- tgAfl   tagAfal PV      pretend not to notice;neglect;disregard
@@ -2351,7 +2277,7 @@ lexicon = listing "Lexicon's properties"
     -- Astgfl  {isotagofal     PV      regard as negligent
     -- stgfl   sotagofil       IV      regard as negligent
 
-    IstaFCaL                  `verb`       {- {isotagofal -}    [ "regard as negligent" ],
+    IstaFCaL                  `verb`       {- Aisotagofal -}    [ "regard as negligent" ],
 
     -- ;; gufol_1
     -- gfl     gufol   N       anonymous;unmarked;devoid
@@ -2442,34 +2368,32 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g f r" <| [
 
-    -- ;; gafar_1
+    -- ;; gafar-i_1
     -- gfr     gafar   PV      forgive
     -- gfr     gofir   IV      forgive
 
-    FaCaL                     `verb`       {- gafar -}          [ "forgive" ]
-                              {- `others` [ ".gfir IV" ] -},
+    FaCaL                     `verb`       {- gafar-i -}        [ "forgive" ]
+                              `imperf`     FCiL,
 
     -- ;; gaf~ar_1
     -- gfr     gaf~ar  PV      guard;watch
     -- gfr     gaf~ir  IV_yu   guard;watch
 
-    FaCCaL                    `verb`       {- gaf~ar -}         [ "guard", "watch" ]
-                              {- `others` [ ".gaffir IV_yu" ] -},
+    FaCCaL                    `verb`       {- gaf~ar -}         [ "guard", "watch" ],
 
     -- ;; {igotafar_1
     -- <gtfr   {igotafar       PV      forgive
     -- Agtfr   {igotafar       PV      forgive
     -- gtfr    gotafir IV      forgive
 
-    IFtaCaL                   `verb`       {- {igotafar -}      [ "forgive" ]
-                              {- `others` [ ".gtafir IV" ] -},
+    IFtaCaL                   `verb`       {- Aigotafar -}      [ "forgive" ],
 
     -- ;; {isotagofar_1
     -- <stgfr  {isotagofar     PV      beg forgiveness;apologize
     -- Astgfr  {isotagofar     PV      beg forgiveness;apologize
     -- stgfr   sotagofir       IV      beg forgiveness;apologize
 
-    IstaFCaL                  `verb`       {- {isotagofar -}    [ "beg forgiveness", "apologize" ],
+    IstaFCaL                  `verb`       {- Aisotagofar -}    [ "beg forgiveness", "apologize" ],
 
     -- ;; gafor_1
     -- gfr     gafor   N       forgiveness;pardon
@@ -2549,13 +2473,13 @@ lexicon = listing "Lexicon's properties"
     -- <stgfAr {isotigofAr     N/At    plea for pardon
     -- AstgfAr {isotigofAr     N/At    plea for pardon
 
-    IstiFCAL                  `noun`       {- {isotigofAr -}    [ "plea for pardon" ],
+    IstiFCAL                  `noun`       {- AisotigofAr -}    [ "plea for pardon" ],
 
     -- ;; {isotigofAriy~_1
     -- <stgfAry        {isotigofAriy~  N-ap    propitiatory     [[{isotigofAriy~/ADJ]]
     -- AstgfAry        {isotigofAriy~  N-ap    propitiatory     [[{isotigofAriy~/ADJ]]
 
-    IstiFCAL |< Iy            `adj`        {- {isotigofAriy~ -} [ "propitiatory" ] ]
+    IstiFCAL |< Iy            `adj`        {- AisotigofAriy~ -} [ "propitiatory" ] ]
 
  |> ".g f w" <| [
 
@@ -2567,8 +2491,7 @@ lexicon = listing "Lexicon's properties"
     -- gf      gof     IV_0hwnyn       doze off
 
     FaCA                      `verb`       {- gafA-u -}         [ "doze off" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".gfuw IV_0hAnn", ".gafaw PV_Atn" ] -},
+                              `imperf`     FCuL,
 
     -- ;; >agofaY_1
     -- >gfY    >agofaY PV_0    doze off
@@ -2582,8 +2505,7 @@ lexicon = listing "Lexicon's properties"
     -- gfy     gofiy   IV_0hAnn_yu     doze off
     -- gf      gof     IV_0hwnyn_yu    doze off
 
-    HaFCY                     `verb`       {- OagofaY -}        [ "doze off" ]
-                              {- `others` [ ".gfiy IV_0hAnn_yu" ] -},
+    HaFCY                     `verb`       {- OagofaY -}        [ "doze off" ],
 
     -- ;; gafowap_1
     -- gfw     gafow   Napdu   nap;siesta;sleepiness
@@ -2618,8 +2540,7 @@ lexicon = listing "Lexicon's properties"
     -- gf      gofa    IV_0hwnyn       doze off
 
     FaCiL                     `verb`       {- gafiy-a -}        [ "doze off" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".gfay IV_Ann", ".gfY IV_0" ] -},
+                              `imperf`     FCaL,
 
     -- ;; gAfiy_1
     -- gAfy    gAfiy   N0F     drowsy;sleepy     [[gAfiy/ADJ]]
@@ -2657,8 +2578,7 @@ lexicon = listing "Lexicon's properties"
     -- glgl    galogal PV      penetrate;submerge
     -- glgl    galogil IV_yu   penetrate;submerge
 
-    KaRDaS                    `verb`       {- galogal -}        [ "penetrate", "submerge" ]
-                              {- `others` [ ".gal.gil IV_yu" ] -},
+    KaRDaS                    `verb`       {- galogal -}        [ "penetrate", "submerge" ],
 
     -- ;; tagalogal_1
     -- tglgl   tagalogal       PV_intr penetrate;invade
@@ -2693,15 +2613,13 @@ lexicon = listing "Lexicon's properties"
     -- glT     golaT   IV      err;be mistaken
 
     FaCiL                     `verb`       {- galiT-a -}        [ "err", "be mistaken" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".gla.t IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; gAlaT_1
     -- gAlT    gAlaT   PV      misrepresent;falsify;deceive
     -- gAlT    gAliT   IV_yu   misrepresent;falsify;deceive
 
-    FACaL                     `verb`       {- gAlaT -}          [ "misrepresent", "falsify", "deceive" ]
-                              {- `others` [ ".gAli.t IV_yu" ] -},
+    FACaL                     `verb`       {- gAlaT -}          [ "misrepresent", "falsify", "deceive" ],
 
     -- ;; >agolaT_1
     -- >glT    >agolaT PV      cause to err
@@ -2709,8 +2627,7 @@ lexicon = listing "Lexicon's properties"
     -- glT     goliT   IV_yu   cause to err
     -- glT     golaT   IV_Pass_yu      be forced to err
 
-    HaFCaL                    `verb`       {- OagolaT -}        [ "cause to err", "be forced to err" ]
-                              {- `others` [ ".gla.t IV_Pass_yu", ".gli.t IV_yu" ] -},
+    HaFCaL                    `verb`       {- OagolaT -}        [ "cause to err", "be forced to err" ],
 
     -- ;; tagAlaT_1
     -- tgAlT   tagAlaT PV      mislead each other
@@ -2775,30 +2692,27 @@ lexicon = listing "Lexicon's properties"
     -- glZ     goluZ   IV_intr become thick;become viscous
 
     FaCuL                     `verb`       {- galuZ-u -}        [ "become thick", "become viscous" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".glu.z IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gal~aZ_1
     -- glZ     gal~aZ  PV      make thick;make coarse
     -- glZ     gal~iZ  IV_yu   make thick;make coarse
 
-    FaCCaL                    `verb`       {- gal~aZ -}         [ "make thick", "make coarse" ]
-                              {- `others` [ ".galli.z IV_yu" ] -},
+    FaCCaL                    `verb`       {- gal~aZ -}         [ "make thick", "make coarse" ],
 
     -- ;; >agolaZ_1
     -- >glZ    >agolaZ PV_intr be rough;be rude
     -- AglZ    >agolaZ PV_intr be rough;be rude
     -- glZ     goliZ   IV_intr_yu      be rough;be rude
 
-    HaFCaL                    `verb`       {- OagolaZ -}        [ "be rough", "be rude" ]
-                              {- `others` [ ".gli.z IV_intr_yu" ] -},
+    HaFCaL                    `verb`       {- OagolaZ -}        [ "be rough", "be rude" ],
 
     -- ;; {isotagolaZ_1
     -- <stglZ  {isotagolaZ     PV_intr become thick;become rough
     -- AstglZ  {isotagolaZ     PV_intr become thick;become rough
     -- stglZ   sotagoliZ       IV_intr become thick;become rough
 
-    IstaFCaL                  `verb`       {- {isotagolaZ -}    [ "become thick", "become rough" ],
+    IstaFCaL                  `verb`       {- AisotagolaZ -}    [ "become thick", "become rough" ],
 
     -- ;; gilaZ_1
     -- glZ     gilaZ   N       thickness;coarseness
@@ -2846,15 +2760,13 @@ lexicon = listing "Lexicon's properties"
     -- glb     golib   IV      defeat;overcome
 
     FaCaL                     `verb`       {- galab-i -}        [ "defeat", "overcome" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".glib IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gAlab_1
     -- gAlb    gAlab   PV      overcome;surmount
     -- gAlb    gAlib   IV_yu   overcome;surmount
 
-    FACaL                     `verb`       {- gAlab -}          [ "overcome", "surmount" ]
-                              {- `others` [ ".gAlib IV_yu" ] -},
+    FACaL                     `verb`       {- gAlab -}          [ "overcome", "surmount" ],
 
     -- ;; tagal~ab_1
     -- tglb    tagal~ab        PV      overcome;surmount
@@ -2964,8 +2876,7 @@ lexicon = listing "Lexicon's properties"
     -- glf     gal~af  PV      wrap;envelope;cover
     -- glf     gal~if  IV_yu   wrap;envelope;cover
 
-    FaCCaL                    `verb`       {- gal~af -}         [ "wrap", "envelope", "cover" ]
-                              {- `others` [ ".gallif IV_yu" ] -},
+    FaCCaL                    `verb`       {- gal~af -}         [ "wrap", "envelope", "cover" ],
 
     -- ;; gulofap_1
     -- glf     gulof   Nap     foreskin;prepuce
@@ -3030,8 +2941,7 @@ lexicon = listing "Lexicon's properties"
     -- glfn    galofan PV-n    galvanize
     -- glfn    galofin IV-n_yu galvanize
 
-    KaRDaS                    `verb`       {- galofan -}        [ "galvanize" ]
-                              {- `others` [ ".galfin IV-n_yu" ] -},
+    KaRDaS                    `verb`       {- galofan -}        [ "galvanize" ],
 
     -- ;; tagalofan_1
     -- tglfn   tagalofan       PV-n_intr       be galvanized
@@ -3058,8 +2968,7 @@ lexicon = listing "Lexicon's properties"
     -- gll     golul   IV_C    penetrate;shackle
 
     FaCL                      `verb`       {- gal~-u -}         [ "penetrate", "shackle" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".gull IV_V", ".glul IV_C", ".galal PV_C" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gal~-i_1
     -- gl      gal~    PV_V    yield;produce
@@ -3068,15 +2977,13 @@ lexicon = listing "Lexicon's properties"
     -- gll     golil   IV_C    yield;produce
 
     FaCL                      `verb`       {- gal~-i -}         [ "yield", "produce" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gill IV_V", ".glil IV_C", ".galal PV_C" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gal~al_1
     -- gll     gal~al  PV      handcuff;shackle
     -- gll     gal~il  IV_yu   handcuff;shackle
 
-    FaCCaL                    `verb`       {- gal~al -}         [ "handcuff", "shackle" ]
-                              {- `others` [ ".gallil IV_yu" ] -},
+    FaCCaL                    `verb`       {- gal~al -}         [ "handcuff", "shackle" ],
 
     -- ;; >agal~_1
     -- >gl     >agal~  PV_V    produce;yield
@@ -3087,8 +2994,7 @@ lexicon = listing "Lexicon's properties"
     -- gll     golil   IV_C_yu produce;yield
     -- gl      gal~    IV_V_Pass_yu    be produced;be yielded
 
-    HaFaCL                    `verb`       {- Oagal~ -}         [ "produce", "yield", "be produced", "be yielded" ]
-                              {- `others` [ ".gill IV_V_yu", ".gall IV_V_Pass_yu", ".glil IV_C_yu", "'a.glal PV_C" ] -},
+    HaFaCL                    `verb`       {- Oagal~ -}         [ "produce", "yield", "be produced", "be yielded" ],
 
     -- ;; tagal~al_1
     -- tgll    tagal~al        PV      penetrate
@@ -3104,8 +3010,7 @@ lexicon = listing "Lexicon's properties"
     -- ngl     nogal~  IV_V    slip into
     -- ngll    nogalil IV_C    slip into
 
-    InFaCL                    `verb`       {- {inogal~ -}       [ "slip into" ]
-                              {- `others` [ "n.galil IV_C", "in.galal PV_C", "n.gall IV_V" ] -},
+    InFaCL                    `verb`       {- Ainogal~ -}       [ "slip into" ],
 
     -- ;; {isotagal~_1
     -- <stgl   {isotagal~      PV_V    exploit;take advantage of
@@ -3115,8 +3020,7 @@ lexicon = listing "Lexicon's properties"
     -- stgl    sotagil~        IV_V    exploit;take advantage of
     -- stgll   sotagolil       IV_C    exploit;take advantage of
 
-    IstaFaCL                  `verb`       {- {isotagal~ -}     [ "exploit", "take advantage of" ]
-                              {- `others` [ "ista.glal PV_C" ] -},
+    IstaFaCL                  `verb`       {- Aisotagal~ -}     [ "exploit", "take advantage of" ],
 
     -- ;; gul~_1
     -- gl      gul~    Ndu     handcuff;shackle
@@ -3162,13 +3066,13 @@ lexicon = listing "Lexicon's properties"
     -- <stglAl {isotigolAl     N/At    exploitation;utilization
     -- AstglAl {isotigolAl     N/At    exploitation;utilization
 
-    IstiFCAL                  `noun`       {- {isotigolAl -}    [ "exploitation", "utilization" ],
+    IstiFCAL                  `noun`       {- AisotigolAl -}    [ "exploitation", "utilization" ],
 
     -- ;; {isotigolAliy~_1
     -- <stglAly        {isotigolAliy~  Nall    exploitative     [[{isotigolAliy~/ADJ]]
     -- AstglAly        {isotigolAliy~  Nall    exploitative     [[{isotigolAliy~/ADJ]]
 
-    IstiFCAL |< Iy            `adj`        {- {isotigolAliy~ -} [ "exploitative" ],
+    IstiFCAL |< Iy            `adj`        {- AisotigolAliy~ -} [ "exploitative" ],
 
     -- ;; magoluwl_1
     -- mglwl   magoluwl        Nall    shackled;handcuffed     [[magoluwl/ADJ]]
@@ -3200,8 +3104,7 @@ lexicon = listing "Lexicon's properties"
     -- glY     gal~aY  IV_0_Pass_yu    be boiled
     -- gly     gal~ay  IV_Ann_Pass_yu  be boiled
 
-    FaCLY                     `verb`       {- gal~aY -}         [ "boil", "be boiled" ]
-                              {- `others` [ ".gall IV_0hwnyn_yu PV_ttAw", ".galliy IV_0hAnn_yu" ] -} ]
+    FaCLY                     `verb`       {- gal~aY -}         [ "boil", "be boiled" ] ]
 
  |> ".g l m" <| [
 
@@ -3210,16 +3113,14 @@ lexicon = listing "Lexicon's properties"
     -- glm     golam   IV_intr be in heat;be aroused
 
     FaCiL                     `verb`       {- galim-a -}        [ "be in heat", "be aroused" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".glam IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; {igotalam_1
     -- <gtlm   {igotalam       PV_intr be in heat;be aroused
     -- Agtlm   {igotalam       PV_intr be in heat;be aroused
     -- gtlm    gotalim IV_intr be in heat;be aroused
 
-    IFtaCaL                   `verb`       {- {igotalam -}      [ "be in heat", "be aroused" ]
-                              {- `others` [ ".gtalim IV_intr" ] -},
+    IFtaCaL                   `verb`       {- Aigotalam -}      [ "be in heat", "be aroused" ],
 
     -- ;; galim_1
     -- glm     galim   N-ap    in heat;aroused     [[galim/ADJ]]
@@ -3261,8 +3162,7 @@ lexicon = listing "Lexicon's properties"
     -- glq     goliq   IV      lock or bolt shut
 
     FaCaL                     `verb`       {- galaq-i -}        [ "lock or bolt shut" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gliq IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; >agolaq_1
     -- >glq    >agolaq PV      lock or bolt shut
@@ -3270,23 +3170,21 @@ lexicon = listing "Lexicon's properties"
     -- glq     goliq   IV_yu   lock or bolt shut
     -- glq     golaq   IV_Pass_yu      be locked or bolted shut
 
-    HaFCaL                    `verb`       {- Oagolaq -}        [ "lock or bolt shut", "be locked or bolted shut" ]
-                              {- `others` [ ".glaq IV_Pass_yu", ".gliq IV_yu" ] -},
+    HaFCaL                    `verb`       {- Oagolaq -}        [ "lock or bolt shut", "be locked or bolted shut" ],
 
     -- ;; {inogalaq_1
     -- <nglq   {inogalaq       PV_intr be closed
     -- Anglq   {inogalaq       PV_intr be closed
     -- nglq    nogaliq IV_intr be closed
 
-    InFaCaL                   `verb`       {- {inogalaq -}      [ "be closed" ]
-                              {- `others` [ "n.galiq IV_intr" ] -},
+    InFaCaL                   `verb`       {- Ainogalaq -}      [ "be closed" ],
 
     -- ;; {isotagolaq_1
     -- <stglq  {isotagolaq     PV_intr be impenetrable;be inaccessible
     -- Astglq  {isotagolaq     PV_intr be impenetrable;be inaccessible
     -- stglq   sotagoliq       IV_intr be impenetrable;be inaccessible
 
-    IstaFCaL                  `verb`       {- {isotagolaq -}    [ "be impenetrable", "be inaccessible" ],
+    IstaFCaL                  `verb`       {- Aisotagolaq -}    [ "be impenetrable", "be inaccessible" ],
 
     -- ;; galoq_1
     -- glq     galoq   N       closing;locking
@@ -3335,7 +3233,7 @@ lexicon = listing "Lexicon's properties"
     -- <nglAq  {inogilAq       N/At    impenetrability;closing
     -- AnglAq  {inogilAq       N/At    impenetrability;closing
 
-    InFiCAL                   `noun`       {- {inogilAq -}      [ "impenetrability", "closing" ],
+    InFiCAL                   `noun`       {- AinogilAq -}      [ "impenetrability", "closing" ],
 
     -- ;; mugolaq_1
     -- mglq    mugolaq Nall    closed;locked     [[mugolaq/ADJ]]
@@ -3358,8 +3256,7 @@ lexicon = listing "Lexicon's properties"
     -- gls     gal~as  PV      do late at night
     -- gls     gal~is  IV_yu   do late at night
 
-    FaCCaL                    `verb`       {- gal~as -}         [ "do late at night" ]
-                              {- `others` [ ".gallis IV_yu" ] -},
+    FaCCaL                    `verb`       {- gal~as -}         [ "do late at night" ],
 
     -- ;; galas_1
     -- gls     galas   N       semi-darkness
@@ -3378,8 +3275,7 @@ lexicon = listing "Lexicon's properties"
     -- gly     golay   IV_Ann_Pass_yu  be exceeded;be overdone
 
     FaCA                      `verb`       {- galA-u -}         [ "exceed", "overdo", "rise", "be expensive", "be exceeded", "be overdone" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".glY IV_0_Pass_yu", ".gluw IV_0hAnn", ".galaw PV_Atn" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gAlaY_1
     -- gAlY    gAlaY   PV_0    exceed;overdo
@@ -3391,8 +3287,7 @@ lexicon = listing "Lexicon's properties"
     -- gAlY    gAlaY   IV_0_Pass_yu    be exceeded;be overdone
     -- gAly    gAlay   IV_Ann_Pass_yu  be exceeded;be overdone
 
-    FACY                      `verb`       {- gAlaY -}          [ "exceed", "overdo", "be exceeded", "be overdone" ]
-                              {- `others` [ ".gAliy IV_0hAnn_yu" ] -},
+    FACY                      `verb`       {- gAlaY -}          [ "exceed", "overdo", "be exceeded", "be overdone" ],
 
     -- ;; >agolaY_1
     -- >glY    >agolaY PV_0    raise (price);make expensive
@@ -3408,8 +3303,7 @@ lexicon = listing "Lexicon's properties"
     -- glY     golaY   IV_0_Pass_yu    be raised (price)
     -- gly     golay   IV_Ann_Pass_yu  be raised (price)
 
-    HaFCY                     `verb`       {- OagolaY -}        [ "raise (price)", "make expensive", "be raised (price)" ]
-                              {- `others` [ ".gliy IV_0hAnn_yu", ".glY IV_0_Pass_yu" ] -},
+    HaFCY                     `verb`       {- OagolaY -}        [ "raise (price)", "make expensive", "be raised (price)" ],
 
     -- ;; tagAlaY_1
     -- tgAlY   tagAlaY PV_0    be excessive;overdo
@@ -3436,7 +3330,7 @@ lexicon = listing "Lexicon's properties"
     -- stgl    sotagol IV_0hwnyn       regard as expensive
     -- stglY   sotagolaY       IV_0_Pass_yu    be regarded as expensive
 
-    IstaFCY                   `verb`       {- {isotagolaY -}    [ "regard as expensive", "be regarded as expensive" ],
+    IstaFCY                   `verb`       {- AisotagolaY -}    [ "regard as expensive", "be regarded as expensive" ],
 
     -- ;; guluw~_1
     -- glw     guluw~  N       excess;exaggeration;extremism
@@ -3548,8 +3442,7 @@ lexicon = listing "Lexicon's properties"
     -- glY     golaY   IV_0    boil
 
     FaCY                      `verb`       {- galaY-i -}        [ "boil" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".galay PV_Atn", ".gliy IV_0hAnn", ".galA PV_h", ".glY IV_0" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gal~aY_1
     -- glY     gal~aY  PV_0    boil
@@ -3561,8 +3454,7 @@ lexicon = listing "Lexicon's properties"
     -- glY     gal~aY  IV_0_Pass_yu    be boiled
     -- gly     gal~ay  IV_Ann_Pass_yu  be boiled
 
-    FaCCY                     `verb`       {- gal~aY -}         [ "boil", "be boiled" ]
-                              {- `others` [ ".gallay PV_Atn IV_Ann_Pass_yu", ".galliy IV_0hAnn_yu" ] -},
+    FaCCY                     `verb`       {- gal~aY -}         [ "boil", "be boiled" ],
 
     -- ;; >agolaY_3
     -- >glY    >agolaY PV_0    boil;make boil
@@ -3578,8 +3470,7 @@ lexicon = listing "Lexicon's properties"
     -- glY     golaY   IV_0_Pass_yu    be boiled
     -- gly     golay   IV_Ann_Pass_yu  be boiled
 
-    HaFCY                     `verb`       {- OagolaY -}        [ "boil", "make boil", "be boiled" ]
-                              {- `others` [ ".glay IV_Ann_Pass_yu", ".gliy IV_0hAnn_yu", "'a.glay PV_Atn", ".glY IV_0_Pass_yu" ] -},
+    HaFCY                     `verb`       {- OagolaY -}        [ "boil", "make boil", "be boiled" ],
 
     -- ;; galoy_1
     -- gly     galoy   N       boiling
@@ -3645,15 +3536,13 @@ lexicon = listing "Lexicon's properties"
     -- gmD     gomuD   IV_intr be hidden;be obscure
 
     FaCuL                     `verb`       {- gamuD-u -}        [ "be hidden", "be obscure" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".gmu.d IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gam~aD_1
     -- gmD     gam~aD  PV      make obscure;make abstruse
     -- gmD     gam~iD  IV_yu   make obscure;make abstruse
 
-    FaCCaL                    `verb`       {- gam~aD -}         [ "make obscure", "make abstruse" ]
-                              {- `others` [ ".gammi.d IV_yu" ] -},
+    FaCCaL                    `verb`       {- gam~aD -}         [ "make obscure", "make abstruse" ],
 
     -- ;; >agomaD_1
     -- >gmD    >agomaD PV      blur;blind
@@ -3661,24 +3550,21 @@ lexicon = listing "Lexicon's properties"
     -- gmD     gomiD   IV_yu   blur;blind
     -- gmD     gomaD   IV_Pass_yu      be blurred;be blinded
 
-    HaFCaL                    `verb`       {- OagomaD -}        [ "blur", "blind", "be blurred", "be blinded" ]
-                              {- `others` [ ".gma.d IV_Pass_yu", ".gmi.d IV_yu" ] -},
+    HaFCaL                    `verb`       {- OagomaD -}        [ "blur", "blind", "be blurred", "be blinded" ],
 
     -- ;; {inogamaD_1
     -- <ngmD   {inogamaD       PV      close
     -- AngmD   {inogamaD       PV      close
     -- ngmD    nogamiD IV      close
 
-    InFaCaL                   `verb`       {- {inogamaD -}      [ "close" ]
-                              {- `others` [ "n.gami.d IV" ] -},
+    InFaCaL                   `verb`       {- AinogamaD -}      [ "close" ],
 
     -- ;; {igotamaD_1
     -- <gtmD   {igotamaD       PV      sleep
     -- AgtmD   {igotamaD       PV      sleep
     -- gtmD    gotamiD IV      sleep
 
-    IFtaCaL                   `verb`       {- {igotamaD -}      [ "sleep" ]
-                              {- `others` [ ".gtami.d IV" ] -},
+    IFtaCaL                   `verb`       {- AigotamaD -}      [ "sleep" ],
 
     -- ;; gumoD_1
     -- gmD     gumoD   N       sleep
@@ -3732,8 +3618,7 @@ lexicon = listing "Lexicon's properties"
     -- gmgm    gamogam PV      mumble;mutter
     -- gmgm    gamogim IV_yu   mumble;mutter
 
-    KaRDaS                    `verb`       {- gamogam -}        [ "mumble", "mutter" ]
-                              {- `others` [ ".gam.gim IV_yu" ] -},
+    KaRDaS                    `verb`       {- gamogam -}        [ "mumble", "mutter" ],
 
     -- ;; gamogamap_1
     -- gmgm    gamogam Nap     mumbling;muttering
@@ -3750,8 +3635,7 @@ lexicon = listing "Lexicon's properties"
     -- gmS     gomiS   IV      disdain;despise
 
     FaCaL                     `verb`       {- gamaS-i -}        [ "disdain", "despise" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gmi.s IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gamaS_1
     -- gmS     gamaS   N       eye mucus
@@ -3776,8 +3660,7 @@ lexicon = listing "Lexicon's properties"
     -- gmT     gomiT   IV      despise;disdain
 
     FaCaL                     `verb`       {- gamaT-i -}        [ "despise", "disdain" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gmi.t IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gamoT_1
     -- gmT     gamoT   N       despising;disdaining
@@ -3791,8 +3674,7 @@ lexicon = listing "Lexicon's properties"
     -- gm$     goma$   IV      have weak eyesight
 
     FaCiL                     `verb`       {- gami$-a -}        [ "have weak eyesight" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".gma^s IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; gama$_1
     -- gm$     gama$   N       weak eyesight
@@ -3814,15 +3696,13 @@ lexicon = listing "Lexicon's properties"
     -- gmd     gomid   IV      cover;sheathe
 
     FaCaL                     `verb`       {- gamad-i -}        [ "cover", "sheathe" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gmid IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gam~ad_1
     -- gmd     gam~ad  PV      conceal
     -- gmd     gam~id  IV_yu   conceal
 
-    FaCCaL                    `verb`       {- gam~ad -}         [ "conceal" ]
-                              {- `others` [ ".gammid IV_yu" ] -},
+    FaCCaL                    `verb`       {- gam~ad -}         [ "conceal" ],
 
     -- ;; >agomad_1
     -- >gmd    >agomad PV      sheathe
@@ -3830,8 +3710,7 @@ lexicon = listing "Lexicon's properties"
     -- gmd     gomid   IV_yu   sheathe
     -- gmd     gomad   IV_Pass_yu      be sheathed
 
-    HaFCaL                    `verb`       {- Oagomad -}        [ "sheathe", "be sheathed" ]
-                              {- `others` [ ".gmad IV_Pass_yu", ".gmid IV_yu" ] -},
+    HaFCaL                    `verb`       {- Oagomad -}        [ "sheathe", "be sheathed" ],
 
     -- ;; tagam~ad_1
     -- tgmd    tagam~ad        PV      cover;protect
@@ -3885,15 +3764,13 @@ lexicon = listing "Lexicon's properties"
     -- gmm     gomam   IV_C_Pass_yu    be obscure;be incomprehensible
 
     FaCL                      `verb`       {- gam~-u -}         [ "hide", "cover up", "be obscure", "be incomprehensible" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".gmam IV_C_Pass_yu", ".gumim PV_C_Pass", ".gumm PV_V_Pass IV_V", ".gmum IV_C", ".gamam PV_C" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gam~am_1
     -- gmm     gam~am  PV      conceal;hide
     -- gmm     gam~im  IV_yu   conceal;hide
 
-    FaCCaL                    `verb`       {- gam~am -}         [ "conceal", "hide" ]
-                              {- `others` [ ".gammim IV_yu" ] -},
+    FaCCaL                    `verb`       {- gam~am -}         [ "conceal", "hide" ],
 
     -- ;; >agam~_1
     -- >gm     >agam~  PV_V    afflict;distress;be overcast
@@ -3904,8 +3781,7 @@ lexicon = listing "Lexicon's properties"
     -- gmm     gomim   IV_C_yu afflict;distress;be overcast
     -- gm      gam~    IV_V_Pass_yu    be afflicted
 
-    HaFaCL                    `verb`       {- Oagam~ -}         [ "afflict", "distress", "be overcast", "be afflicted" ]
-                              {- `others` [ ".gamm IV_V_Pass_yu", ".gimm IV_V_yu", "'a.gmam PV_C", ".gmim IV_C_yu" ] -},
+    HaFaCL                    `verb`       {- Oagam~ -}         [ "afflict", "distress", "be overcast", "be afflicted" ],
 
     -- ;; {inogam~_1
     -- <ngm    {inogam~        PV_V_intr       be worried;grieve
@@ -3915,8 +3791,7 @@ lexicon = listing "Lexicon's properties"
     -- ngm     nogam~  IV_V_intr       be worried;grieve
     -- ngmm    nogamim IV_C_intr       be worried;grieve
 
-    InFaCL                    `verb`       {- {inogam~ -}       [ "be worried", "grieve" ]
-                              {- `others` [ "n.gamim IV_C_intr", "in.gamam PV_C_intr", "n.gamm IV_V_intr" ] -},
+    InFaCL                    `verb`       {- Ainogam~ -}       [ "be worried", "grieve" ],
 
     -- ;; {igotam~_1
     -- <gtm    {igotam~        PV_V_intr       be worried;grieve
@@ -3926,8 +3801,7 @@ lexicon = listing "Lexicon's properties"
     -- gtm     gotam~  IV_V_intr       be worried;grieve
     -- gtmm    gotamim IV_C_intr       be worried;grieve
 
-    IFtaCL                    `verb`       {- {igotam~ -}       [ "be worried", "grieve" ]
-                              {- `others` [ ".gtamm IV_V_intr", "i.gtamam PV_C_intr", ".gtamim IV_C_intr" ] -},
+    IFtaCL                    `verb`       {- Aigotam~ -}       [ "be worried", "grieve" ],
 
     -- ;; gam~_1
     -- gm      gam~    N       affliction;distress
@@ -4027,8 +3901,7 @@ lexicon = listing "Lexicon's properties"
     -- gmy     gam~ay  IV_Ann_Pass_yu  be blindfolded
     -- gm      gam~    IV_0hwnyn_yu    be blindfolded
 
-    FaCLY                     `verb`       {- gam~aY -}         [ "blindfold", "be blindfolded" ]
-                              {- `others` [ ".gamm IV_0hwnyn_yu PV_ttAw", ".gammiy IV_0hAnn_yu" ] -} ]
+    FaCLY                     `verb`       {- gam~aY -}         [ "blindfold", "be blindfolded" ] ]
 
  |> ".g m q" <| [
 
@@ -4037,8 +3910,7 @@ lexicon = listing "Lexicon's properties"
     -- gmq     gomaq   IV_intr be damp;be moist
 
     FaCiL                     `verb`       {- gamiq-a -}        [ "be damp", "be moist" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".gmaq IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; gAmiq_1
     -- gAmq    gAmiq   N-ap    dark color;deep color;boldface (font)     [[gAmiq/ADJ]]
@@ -4052,39 +3924,34 @@ lexicon = listing "Lexicon's properties"
     -- gmr     gomur   IV_intr be foolish
 
     FaCuL                     `verb`       {- gamur-u -}        [ "be foolish" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".gmur IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gamar-u_2
     -- gmr     gamar   PV      immerse;flood
     -- gmr     gomur   IV      immerse;flood
 
     FaCaL                     `verb`       {- gamar-u -}        [ "immerse", "flood" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".gmur IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gAmar_1
     -- gAmr    gAmar   PV      venture;risk;gamble
     -- gAmr    gAmir   IV_yu   venture;risk;gamble
 
-    FACaL                     `verb`       {- gAmar -}          [ "venture", "risk", "gamble" ]
-                              {- `others` [ ".gAmir IV_yu" ] -},
+    FACaL                     `verb`       {- gAmar -}          [ "venture", "risk", "gamble" ],
 
     -- ;; {inogamar_1
     -- <ngmr   {inogamar       PV_intr be immersed;plunge
     -- Angmr   {inogamar       PV_intr be immersed;plunge
     -- ngmr    nogamir IV_intr be immersed;plunge
 
-    InFaCaL                   `verb`       {- {inogamar -}      [ "be immersed", "plunge" ]
-                              {- `others` [ "n.gamir IV_intr" ] -},
+    InFaCaL                   `verb`       {- Ainogamar -}      [ "be immersed", "plunge" ],
 
     -- ;; {igotamar_1
     -- <gtmr   {igotamar       PV      engulf
     -- Agtmr   {igotamar       PV      engulf
     -- gtmr    gotamir IV      engulf
 
-    IFtaCaL                   `verb`       {- {igotamar -}      [ "engulf" ]
-                              {- `others` [ ".gtamir IV" ] -},
+    IFtaCaL                   `verb`       {- Aigotamar -}      [ "engulf" ],
 
     -- ;; gamor_1
     -- gmr     gamor   N       flooding
@@ -4149,7 +4016,7 @@ lexicon = listing "Lexicon's properties"
     -- <ngmAr  {inogimAr       N/At    immersion;submersion
     -- AngmAr  {inogimAr       N/At    immersion;submersion
 
-    InFiCAL                   `noun`       {- {inogimAr -}      [ "immersion", "submersion" ] ]
+    InFiCAL                   `noun`       {- AinogimAr -}      [ "immersion", "submersion" ] ]
 
  |> ".g m s" <| [
 
@@ -4158,31 +4025,27 @@ lexicon = listing "Lexicon's properties"
     -- gms     gomis   IV      immerse;plunge
 
     FaCaL                     `verb`       {- gamas-i -}        [ "immerse", "plunge" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gmis IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gam~as_1
     -- gms     gam~as  PV      immerse;plunge
     -- gms     gam~is  IV_yu   immerse;plunge
 
-    FaCCaL                    `verb`       {- gam~as -}         [ "immerse", "plunge" ]
-                              {- `others` [ ".gammis IV_yu" ] -},
+    FaCCaL                    `verb`       {- gam~as -}         [ "immerse", "plunge" ],
 
     -- ;; {inogamas_1
     -- <ngms   {inogamas       PV_intr be immersed;be plunged
     -- Angms   {inogamas       PV_intr be immersed;be plunged
     -- ngms    nogamis IV_intr be immersed;be plunged
 
-    InFaCaL                   `verb`       {- {inogamas -}      [ "be immersed", "be plunged" ]
-                              {- `others` [ "n.gamis IV_intr" ] -},
+    InFaCaL                   `verb`       {- Ainogamas -}      [ "be immersed", "be plunged" ],
 
     -- ;; {igotamas_1
     -- <gtms   {igotamas       PV_intr be immersed;be plunged
     -- Agtms   {igotamas       PV_intr be immersed;be plunged
     -- gtms    gotamis IV_intr be immersed;be plunged
 
-    IFtaCaL                   `verb`       {- {igotamas -}      [ "be immersed", "be plunged" ]
-                              {- `others` [ ".gtamis IV_intr" ] -},
+    IFtaCaL                   `verb`       {- Aigotamas -}      [ "be immersed", "be plunged" ],
 
     -- ;; gamos_1
     -- gms     gamos   N       immersion;plunging
@@ -4218,8 +4081,7 @@ lexicon = listing "Lexicon's properties"
     -- gmY     gomaY   IV_0_Pass_yu    faint;lose consciousness
 
     FaCY                      `verb`       {- gamaY-i -}        [ "cover with a roof", "be covered with a roof", "faint", "lose consciousness" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gmY IV_0_Pass_yu", ".gmiy IV_0hAnn", ".gumiy PV_Pass-a", ".gamay PV_Atn", ".gamA PV_h" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gam~aY_1
     -- gmY     gam~aY  PV_0    blindfold
@@ -4232,8 +4094,7 @@ lexicon = listing "Lexicon's properties"
     -- gmy     gam~ay  IV_Ann_Pass_yu  be blindfolded
     -- gm      gam~    IV_0hwnyn_yu    be blindfolded
 
-    FaCCY                     `verb`       {- gam~aY -}         [ "blindfold", "be blindfolded" ]
-                              {- `others` [ ".gammiy IV_0hAnn_yu", ".gammay PV_Atn IV_Ann_Pass_yu" ] -},
+    FaCCY                     `verb`       {- gam~aY -}         [ "blindfold", "be blindfolded" ],
 
     -- ;; >agomaY_1
     -- >gmY    >agomaY PV_0    faint;lose consciousness
@@ -4248,8 +4109,7 @@ lexicon = listing "Lexicon's properties"
     -- Agmy    >ugomiy PV_Pass-a       faint;lose consciousness
     -- gmY     gomaY   IV_0_Pass_yu    faint;lose consciousness
 
-    HaFCY                     `verb`       {- OagomaY -}        [ "faint", "lose consciousness" ]
-                              {- `others` [ ".gmY IV_0_Pass_yu", "'a.gmay PV_Atn", "'u.gmiy PV_Pass-a" ] -},
+    HaFCY                     `verb`       {- OagomaY -}        [ "faint", "lose consciousness" ],
 
     -- ;; gamoy_1
     -- gmy     gamoy   N       fainting
@@ -4287,8 +4147,7 @@ lexicon = listing "Lexicon's properties"
     -- gmz     gomiz   IV      signal;blink
 
     FaCaL                     `verb`       {- gamaz-i -}        [ "signal", "blink" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gmiz IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; tagAmaz_1
     -- tgAmz   tagAmaz PV      signal to each other;wink to each other
@@ -4301,8 +4160,7 @@ lexicon = listing "Lexicon's properties"
     -- Agtmz   {igotamaz       PV      disparage
     -- gtmz    gotamiz IV      disparage
 
-    IFtaCaL                   `verb`       {- {igotamaz -}      [ "disparage" ]
-                              {- `others` [ ".gtamiz IV" ] -},
+    IFtaCaL                   `verb`       {- Aigotamaz -}      [ "disparage" ],
 
     -- ;; gamoz_1
     -- gmz     gamoz   N       signaling
@@ -4383,7 +4241,7 @@ lexicon = listing "Lexicon's properties"
     -- <gtnA'  {igotinA'       NAt     getting rich
     -- AgtnA'  {igotinA'       NAt     getting rich
 
-    IFtiCAL                   `noun`       {- {igotinA' -}      [ "getting rich" ],
+    IFtiCAL                   `noun`       {- AigotinA' -}      [ "getting rich" ],
 
     -- ;; {isotigonA'_1
     -- <stgnA' {isotigonA'     N0_Nh   dispensing with;renunciation
@@ -4395,7 +4253,7 @@ lexicon = listing "Lexicon's properties"
     -- <stgnA' {isotigonA'     NAt     dispensing with;renunciation
     -- AstgnA' {isotigonA'     NAt     dispensing with;renunciation
 
-    IstiFCAL                  `noun`       {- {isotigonA' -}    [ "dispensing with", "renunciation" ] ]
+    IstiFCAL                  `noun`       {- AisotigonA' -}    [ "dispensing with", "renunciation" ] ]
 
  |> ".g n .g r" <| [
 
@@ -4403,8 +4261,7 @@ lexicon = listing "Lexicon's properties"
     -- gngr    ganogar PV_intr become gangrenous
     -- gngr    ganogir IV_intr_yu      become gangrenous
 
-    KaRDaS                    `verb`       {- ganogar -}        [ "become gangrenous" ]
-                              {- `others` [ ".gan.gir IV_intr_yu" ] -},
+    KaRDaS                    `verb`       {- ganogar -}        [ "become gangrenous" ],
 
     -- ;; taganogar_1
     -- tgngr   taganogar       PV_intr become gangrenous
@@ -4445,15 +4302,13 @@ lexicon = listing "Lexicon's properties"
     -- gnj     gonaj   IV      flirt;be coquettish
 
     FaCiL                     `verb`       {- ganij-a -}        [ "flirt", "be coquettish" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".gna^g IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; gan~aj_1
     -- gnj     gan~aj  PV      pamper;coddle
     -- gnj     gan~ij  IV_yu   pamper;coddle
 
-    FaCCaL                    `verb`       {- gan~aj -}         [ "pamper", "coddle" ]
-                              {- `others` [ ".ganni^g IV_yu" ] -},
+    FaCCaL                    `verb`       {- gan~aj -}         [ "pamper", "coddle" ],
 
     -- ;; tagan~aj_1
     -- tgnj    tagan~aj        PV      flirt;be coquettish
@@ -4534,15 +4389,13 @@ lexicon = listing "Lexicon's properties"
     -- gnm     gonam   IV      capture;plunder
 
     FaCiL                     `verb`       {- ganim-a -}        [ "capture", "plunder" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".gnam IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; gan~am_1
     -- gnm     gan~am  PV      bestow
     -- gnm     gan~im  IV_yu   bestow
 
-    FaCCaL                    `verb`       {- gan~am -}         [ "bestow" ]
-                              {- `others` [ ".gannim IV_yu" ] -},
+    FaCCaL                    `verb`       {- gan~am -}         [ "bestow" ],
 
     -- ;; >agonam_1
     -- >gnm    >agonam PV      bestow
@@ -4550,23 +4403,21 @@ lexicon = listing "Lexicon's properties"
     -- gnm     gonim   IV_yu   bestow
     -- gnm     gonam   IV_Pass_yu      be bestown
 
-    HaFCaL                    `verb`       {- Oagonam -}        [ "bestow", "be bestown" ]
-                              {- `others` [ ".gnam IV_Pass_yu", ".gnim IV_yu" ] -},
+    HaFCaL                    `verb`       {- Oagonam -}        [ "bestow", "be bestown" ],
 
     -- ;; {igotanam_1
     -- <gtnm   {igotanam       PV      profit from;seize (opportunity)
     -- Agtnm   {igotanam       PV      profit from;seize (opportunity)
     -- gtnm    gotanim IV      profit from;seize (opportunity)
 
-    IFtaCaL                   `verb`       {- {igotanam -}      [ "profit from", "seize (opportunity)" ]
-                              {- `others` [ ".gtanim IV" ] -},
+    IFtaCaL                   `verb`       {- Aigotanam -}      [ "profit from", "seize (opportunity)" ],
 
     -- ;; {isotagonam_1
     -- <stgnm  {isotagonam     PV      seize;profit
     -- Astgnm  {isotagonam     PV      seize;profit
     -- stgnm   sotagonim       IV      seize;profit
 
-    IstaFCaL                  `verb`       {- {isotagonam -}    [ "seize", "profit" ],
+    IstaFCaL                  `verb`       {- Aisotagonam -}    [ "seize", "profit" ],
 
     -- ;; gunom_1
     -- gnm     gunom   N       profit;gain
@@ -4630,7 +4481,7 @@ lexicon = listing "Lexicon's properties"
     -- <gtnAm  {igotinAm       NduAt   profiting from;seizing (opportunity)
     -- AgtnAm  {igotinAm       NduAt   profiting from;seizing (opportunity)
 
-    IFtiCAL                   `noun`       {- {igotinAm -}      [ "profiting from", "seizing (opportunity)" ] ]
+    IFtiCAL                   `noun`       {- AigotinAm -}      [ "profiting from", "seizing (opportunity)" ] ]
 
  |> ".g n n" <| [
 
@@ -4641,8 +4492,7 @@ lexicon = listing "Lexicon's properties"
     -- gnn     gonan   IV-n    speak through the nose
 
     FaCL                      `verb`       {- gan~-a -}         [ "speak through the nose" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".ganin PV_Cn", ".gnan IV-n" ] -},
+                              `imperf`     FCaL,
 
     -- ;; >agan~_1
     -- >gn     >agan~  PV_V    buzz;drone
@@ -4652,8 +4502,7 @@ lexicon = listing "Lexicon's properties"
     -- gn      gin~    IV_V_yu buzz;drone
     -- gnn     gonin   IV_C_yu buzz;drone
 
-    HaFaCL                    `verb`       {- Oagan~ -}         [ "buzz", "drone" ]
-                              {- `others` [ "'a.gnan PV_Cn", ".gnin IV_C_yu", ".ginn IV_V_yu" ] -},
+    HaFaCL                    `verb`       {- Oagan~ -}         [ "buzz", "drone" ],
 
     -- ;; gan~_1
     -- gn      gan~    N       nasal twang
@@ -4707,8 +4556,7 @@ lexicon = listing "Lexicon's properties"
     -- gnY     gan~aY  IV_0_Pass_yu    be sung
     -- gny     gan~ay  IV_Ann_Pass_yu  be sung
 
-    FaCLY                     `verb`       {- gan~aY -}         [ "sing", "be sung" ]
-                              {- `others` [ ".gann IV_0hwnyn_yu PV_ttAw", ".ganniy IV_0hAnn_yu" ] -} ]
+    FaCLY                     `verb`       {- gan~aY -}         [ "sing", "be sung" ] ]
 
  |> ".g n r" <| [
 
@@ -4727,8 +4575,7 @@ lexicon = listing "Lexicon's properties"
     -- gn      gona    IV_0hwnyn       become rich
 
     FaCiL                     `verb`       {- ganiy-a -}        [ "become rich" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".gnay IV_Ann", ".gnY IV_0" ] -},
+                              `imperf`     FCaL,
 
     -- ;; gan~aY_1
     -- gnY     gan~aY  PV_0    sing
@@ -4740,8 +4587,7 @@ lexicon = listing "Lexicon's properties"
     -- gnY     gan~aY  IV_0_Pass_yu    be sung
     -- gny     gan~ay  IV_Ann_Pass_yu  be sung
 
-    FaCCY                     `verb`       {- gan~aY -}         [ "sing", "be sung" ]
-                              {- `others` [ ".gannay PV_Atn IV_Ann_Pass_yu", ".ganniy IV_0hAnn_yu" ] -},
+    FaCCY                     `verb`       {- gan~aY -}         [ "sing", "be sung" ],
 
     -- ;; >agonaY_1
     -- >gnY    >agonaY PV_0    enrich;satisfy
@@ -4757,8 +4603,7 @@ lexicon = listing "Lexicon's properties"
     -- gnY     gonaY   IV_0_Pass_yu    be enriched;be satisfied
     -- gny     gonay   IV_Ann_Pass_yu  be enriched;be satisfied
 
-    HaFCY                     `verb`       {- OagonaY -}        [ "enrich", "satisfy", "be enriched", "be satisfied" ]
-                              {- `others` [ ".gniy IV_0hAnn_yu", ".gnay IV_Ann_Pass_yu", ".gnY IV_0_Pass_yu", "'a.gnay PV_Atn" ] -},
+    HaFCY                     `verb`       {- OagonaY -}        [ "enrich", "satisfy", "be enriched", "be satisfied" ],
 
     -- ;; tagan~aY_1
     -- tgnY    tagan~aY        PV_0    extol;praise
@@ -4770,8 +4615,7 @@ lexicon = listing "Lexicon's properties"
     -- tgny    tagan~ay        IV_Ann  extol;praise
     -- tgn     tagan~  IV_0hwnyn       extol;praise
 
-    TaFaCCY                   `verb`       {- tagan~aY -}       [ "extol", "praise" ]
-                              {- `others` [ "ta.gannay PV_Atn IV_Ann" ] -},
+    TaFaCCY                   `verb`       {- tagan~aY -}       [ "extol", "praise" ],
 
     -- ;; {igotanaY_1
     -- <gtnY   {igotanaY       PV_0    become rich
@@ -4786,8 +4630,7 @@ lexicon = listing "Lexicon's properties"
     -- gtn     gotan   IV_0hwnyn       become rich
     -- gtnY    gotanaY IV_0    become rich
 
-    IFtaCY                    `verb`       {- {igotanaY -}      [ "become rich" ]
-                              {- `others` [ ".gtanY IV_0", ".gtaniy IV_0hAnn", "i.gtanay PV_Atn" ] -},
+    IFtaCY                    `verb`       {- AigotanaY -}      [ "become rich" ],
 
     -- ;; {isotagonaY_1
     -- <stgnY  {isotagonaY     PV_0    dispense with;manage without
@@ -4802,8 +4645,7 @@ lexicon = listing "Lexicon's properties"
     -- stgn    sotagon IV_0hwnyn       dispense with;manage without
     -- stgnY   sotagonaY       IV_0_Pass_yu    be dispensed with;manage without
 
-    IstaFCY                   `verb`       {- {isotagonaY -}    [ "dispense with", "manage without", "be dispensed with" ]
-                              {- `others` [ "ista.gnay PV_Atn" ] -},
+    IstaFCY                   `verb`       {- AisotagonaY -}    [ "dispense with", "manage without", "be dispensed with" ],
 
     -- ;; ginaY_1
     -- gnY     ginaY   N0      wealth
@@ -4885,7 +4727,7 @@ lexicon = listing "Lexicon's properties"
     -- <gtnA'  {igotinA'       NAt     getting rich
     -- AgtnA'  {igotinA'       NAt     getting rich
 
-    IFtiCA'                   `noun`       {- {igotinA' -}      [ "getting rich" ],
+    IFtiCA'                   `noun`       {- AigotinA' -}      [ "getting rich" ],
 
     -- ;; {isotigonA'_1
     -- <stgnA' {isotigonA'     N0_Nh   dispensing with;renunciation
@@ -4897,7 +4739,7 @@ lexicon = listing "Lexicon's properties"
     -- <stgnA' {isotigonA'     NAt     dispensing with;renunciation
     -- AstgnA' {isotigonA'     NAt     dispensing with;renunciation
 
-    IstiFCA'                  `noun`       {- {isotigonA' -}    [ "dispensing with", "renunciation" ],
+    IstiFCA'                  `noun`       {- AisotigonA' -}    [ "dispensing with", "renunciation" ],
 
     -- ;; gAniyap_1
     -- gAny    gAniy   NapAt   pretty girl;belle
@@ -4950,8 +4792,7 @@ lexicon = listing "Lexicon's properties"
     -- gqq     goqiq   IV_C    bubble;boil;gurgle
 
     FaCL                      `verb`       {- gaq~-i -}         [ "bubble", "boil", "gurgle" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".giqq IV_V", ".gaqaq PV_C", ".gqiq IV_C" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gaqiyq_1
     -- gqyq    gaqiyq  N       bubbling;boiling;gurgling     [[gaqiyq/ADJ]]
@@ -4997,8 +4838,7 @@ lexicon = listing "Lexicon's properties"
     -- grD     goriD   IV_yu   attain
     -- grD     goraD   IV_Pass_yu      be attaind
 
-    HaFCaL                    `verb`       {- OagoraD -}        [ "attain", "be attaind" ]
-                              {- `others` [ ".gra.d IV_Pass_yu", ".gri.d IV_yu" ] -},
+    HaFCaL                    `verb`       {- OagoraD -}        [ "attain", "be attaind" ],
 
     -- ;; tagar~aD_1
     -- tgrD    tagar~aD        PV_intr be partial;have a bias
@@ -5064,8 +4904,7 @@ lexicon = listing "Lexicon's properties"
     -- grgr    garogar PV      gargle;bubble
     -- grgr    garogir IV_yu   gargle;bubble
 
-    KaRDaS                    `verb`       {- garogar -}        [ "gargle", "bubble" ]
-                              {- `others` [ ".gar.gir IV_yu" ] -},
+    KaRDaS                    `verb`       {- garogar -}        [ "gargle", "bubble" ],
 
     -- ;; tagarogar_1
     -- tgrgr   tagarogar       PV      gargle;bubble
@@ -5103,15 +4942,13 @@ lexicon = listing "Lexicon's properties"
     -- grb     gorub   IV      depart;leave
 
     FaCaL                     `verb`       {- garab-u -}        [ "depart", "leave" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".grub IV" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gar~ab_1
     -- grb     gar~ab  PV      banish
     -- grb     gar~ib  IV_yu   banish
 
-    FaCCaL                    `verb`       {- gar~ab -}         [ "banish" ]
-                              {- `others` [ ".garrib IV_yu" ] -},
+    FaCCaL                    `verb`       {- gar~ab -}         [ "banish" ],
 
     -- ;; >agorab_1
     -- >grb    >agorab PV      exaggerate
@@ -5119,8 +4956,7 @@ lexicon = listing "Lexicon's properties"
     -- grb     gorib   IV_yu   exaggerate
     -- grb     gorab   IV_Pass_yu      be exaggerated
 
-    HaFCaL                    `verb`       {- Oagorab -}        [ "exaggerate", "be exaggerated" ]
-                              {- `others` [ ".grab IV_Pass_yu", ".grib IV_yu" ] -},
+    HaFCaL                    `verb`       {- Oagorab -}        [ "exaggerate", "be exaggerated" ],
 
     -- ;; tagar~ab_1
     -- tgrb    tagar~ab        PV      emigrate;be westernized
@@ -5133,15 +4969,14 @@ lexicon = listing "Lexicon's properties"
     -- Agtrb   {igotarab       PV_intr be estranged;be alienated;be an expatriate
     -- gtrb    gotarib IV_intr be estranged;be alienated;be an expatriate
 
-    IFtaCaL                   `verb`       {- {igotarab -}      [ "be estranged", "be alienated", "be an expatriate" ]
-                              {- `others` [ ".gtarib IV_intr" ] -},
+    IFtaCaL                   `verb`       {- Aigotarab -}      [ "be estranged", "be alienated", "be an expatriate" ],
 
     -- ;; {isotagorab_1
     -- <stgrb  {isotagorab     PV      wonder at;find strange
     -- Astgrb  {isotagorab     PV      wonder at;find strange
     -- stgrb   sotagorib       IV      wonder at;find strange
 
-    IstaFCaL                  `verb`       {- {isotagorab -}    [ "wonder at", "find strange" ],
+    IstaFCaL                  `verb`       {- Aisotagorab -}    [ "wonder at", "find strange" ],
 
     -- ;; garob_1
     -- grb     garob   N       west;West
@@ -5273,19 +5108,19 @@ lexicon = listing "Lexicon's properties"
     -- <gtrAb  {igotirAb       N/At    emigration;alienation
     -- AgtrAb  {igotirAb       N/At    emigration;alienation
 
-    IFtiCAL                   `noun`       {- {igotirAb -}      [ "emigration", "alienation" ],
+    IFtiCAL                   `noun`       {- AigotirAb -}      [ "emigration", "alienation" ],
 
     -- ;; {igotirAbiy~_1
     -- <gtrAby {igotirAbiy~    Nall    migratory;emigration     [[{igotirAbiy~/ADJ]]
     -- AgtrAby {igotirAbiy~    Nall    migratory;emigration     [[{igotirAbiy~/ADJ]]
 
-    IFtiCAL |< Iy             `adj`        {- {igotirAbiy~ -}   [ "migratory", "emigration" ],
+    IFtiCAL |< Iy             `adj`        {- AigotirAbiy~ -}   [ "migratory", "emigration" ],
 
     -- ;; {isotigorAb_1
     -- <stgrAb {isotigorAb     N/At    astonishment;surprise
     -- AstgrAb {isotigorAb     N/At    astonishment;surprise
 
-    IstiFCAL                  `noun`       {- {isotigorAb -}    [ "astonishment", "surprise" ],
+    IstiFCAL                  `noun`       {- AisotigorAb -}    [ "astonishment", "surprise" ],
 
     -- ;; gArib_1
     -- gArb    gArib   Ndu     ridge;crest
@@ -5327,8 +5162,7 @@ lexicon = listing "Lexicon's properties"
     -- grbl    garobal PV      sift;sieve
     -- grbl    garobil IV_yu   sift;sieve
 
-    KaRDaS                    `verb`       {- garobal -}        [ "sift", "sieve" ]
-                              {- `others` [ ".garbil IV_yu" ] -},
+    KaRDaS                    `verb`       {- garobal -}        [ "sift", "sieve" ],
 
     -- ;; garobalap_1
     -- grbl    garobal Nap     sifting;sieving
@@ -5355,15 +5189,13 @@ lexicon = listing "Lexicon's properties"
     -- grd     gorad   IV      twitter;warble
 
     FaCiL                     `verb`       {- garid-a -}        [ "twitter", "warble" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".grad IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; gar~ad_1
     -- grd     gar~ad  PV      twitter;warble
     -- grd     gar~id  IV_yu   twitter;warble
 
-    FaCCaL                    `verb`       {- gar~ad -}         [ "twitter", "warble" ]
-                              {- `others` [ ".garrid IV_yu" ] -},
+    FaCCaL                    `verb`       {- gar~ad -}         [ "twitter", "warble" ],
 
     -- ;; tagar~ad_1
     -- tgrd    tagar~ad        PV      twitter;warble
@@ -5412,16 +5244,14 @@ lexicon = listing "Lexicon's properties"
     -- grf     gorif   IV      scoop up
 
     FaCaL                     `verb`       {- garaf-i -}        [ "scoop up" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".grif IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; {igotaraf_1
     -- <gtrf   {igotaraf       PV      scoop up
     -- Agtrf   {igotaraf       PV      scoop up
     -- gtrf    gotarif IV      scoop up
 
-    IFtaCaL                   `verb`       {- {igotaraf -}      [ "scoop up" ]
-                              {- `others` [ ".gtarif IV" ] -},
+    IFtaCaL                   `verb`       {- Aigotaraf -}      [ "scoop up" ],
 
     -- ;; gurofap_1
     -- grf     gurof   Napdu   room;chamber
@@ -5456,7 +5286,7 @@ lexicon = listing "Lexicon's properties"
     -- <gtrAf  {igotirAf       N/At    scooping up
     -- AgtrAf  {igotirAf       N/At    scooping up
 
-    IFtiCAL                   `noun`       {- {igotirAf -}      [ "scooping up" ] ]
+    IFtiCAL                   `noun`       {- AigotirAf -}      [ "scooping up" ] ]
 
  |> ".g r l" <| [
 
@@ -5475,15 +5305,13 @@ lexicon = listing "Lexicon's properties"
     -- grm     goram   IV_intr be obligated
 
     FaCiL                     `verb`       {- garim-a -}        [ "be obligated" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".gram IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; gar~am_1
     -- grm     gar~am  PV      impose a fine
     -- grm     gar~im  IV_yu   impose a fine
 
-    FaCCaL                    `verb`       {- gar~am -}         [ "impose a fine" ]
-                              {- `others` [ ".garrim IV_yu" ] -},
+    FaCCaL                    `verb`       {- gar~am -}         [ "impose a fine" ],
 
     -- ;; >agoram_1
     -- >grm    >agoram PV      compel;force
@@ -5491,8 +5319,7 @@ lexicon = listing "Lexicon's properties"
     -- grm     gorim   IV_yu   compel;force
     -- grm     goram   IV_Pass_yu      be compelled;be forced
 
-    HaFCaL                    `verb`       {- Oagoram -}        [ "compel", "force", "be compelled", "be forced" ]
-                              {- `others` [ ".grim IV_yu", ".gram IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- Oagoram -}        [ "compel", "force", "be compelled", "be forced" ],
 
     -- ;; >agoram_2
     -- >grm    >ugorim PV_Pass fall in love;be infatuated
@@ -5633,15 +5460,13 @@ lexicon = listing "Lexicon's properties"
     -- grq     goraq   IV      sink;drown;be submerged
 
     FaCiL                     `verb`       {- gariq-a -}        [ "sink", "drown", "be submerged" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".graq IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; gar~aq_1
     -- grq     gar~aq  PV      submerge;drown;inundate
     -- grq     gar~iq  IV_yu   submerge;drown;inundate
 
-    FaCCaL                    `verb`       {- gar~aq -}         [ "submerge", "drown", "inundate" ]
-                              {- `others` [ ".garriq IV_yu" ] -},
+    FaCCaL                    `verb`       {- gar~aq -}         [ "submerge", "drown", "inundate" ],
 
     -- ;; >agoraq_1
     -- >grq    >agoraq PV      submerge;drown;inundate
@@ -5649,8 +5474,7 @@ lexicon = listing "Lexicon's properties"
     -- grq     goriq   IV_yu   submerge;drown;inundate
     -- grq     goraq   IV_Pass_yu      be submerged;be drowned;be inundated
 
-    HaFCaL                    `verb`       {- Oagoraq -}        [ "submerge", "drown", "inundate", "be submerged", "be drowned", "be inundated" ]
-                              {- `others` [ ".griq IV_yu", ".graq IV_Pass_yu" ] -},
+    HaFCaL                    `verb`       {- Oagoraq -}        [ "submerge", "drown", "inundate", "be submerged", "be drowned", "be inundated" ],
 
     -- ;; tagar~aq_1
     -- tgrq    tagar~aq        PV      sink
@@ -5663,15 +5487,14 @@ lexicon = listing "Lexicon's properties"
     -- Astgrq  {isotagoraq     PV      last
     -- stgrq   sotagoriq       IV      last
 
-    IstaFCaL                  `verb`       {- {isotagoraq -}    [ "last" ],
+    IstaFCaL                  `verb`       {- Aisotagoraq -}    [ "last" ],
 
     -- ;; {igoraworaq_1
     -- <grwrq  {igoraworaq     PV_intr be immersed;be drowned
     -- Agrwrq  {igoraworaq     PV_intr be immersed;be drowned
     -- grwrq   goraworiq       IV_intr be immersed;be drowned
 
-    IFCawCaL                  `verb`       {- {igoraworaq -}    [ "be immersed", "be drowned" ]
-                              {- `others` [ ".grawriq IV_intr" ] -},
+    IFCawCaL                  `verb`       {- Aigoraworaq -}    [ "be immersed", "be drowned" ],
 
     -- ;; garaq_1
     -- grq     garaq   N       drowning;sinking;inundation
@@ -5732,21 +5555,20 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g r r" <| [
 
-    -- ;; gar~_1
+    -- ;; gar~-u_1
     -- gr      gar~    PV_V    mislead;delude
     -- grr     garar   PV_C    mislead;delude
     -- gr      gur~    IV_V    mislead;delude
     -- grr     gorur   IV_C    mislead;delude
 
-    FaCL                      `verb`       {- gar~ -}           [ "mislead", "delude" ]
-                              {- `others` [ ".grur IV_C", ".garar PV_C", ".gurr IV_V" ] -},
+    FaCL                      `verb`       {- gar~-u -}         [ "mislead", "delude" ]
+                              `imperf`     FCuL,
 
     -- ;; gar~ar_1
     -- grr     gar~ar  PV      deceive;endanger
     -- grr     gar~ir  IV_yu   deceive;endanger
 
-    FaCCaL                    `verb`       {- gar~ar -}         [ "deceive", "endanger" ]
-                              {- `others` [ ".garrir IV_yu" ] -},
+    FaCCaL                    `verb`       {- gar~ar -}         [ "deceive", "endanger" ],
 
     -- ;; {igotar~_1
     -- <gtr    {igotar~        PV_V_intr       be misled
@@ -5756,8 +5578,7 @@ lexicon = listing "Lexicon's properties"
     -- gtr     gotar~  IV_V_intr       be misled
     -- gtrr    gotarir IV_C_intr       be misled
 
-    IFtaCL                    `verb`       {- {igotar~ -}       [ "be misled" ]
-                              {- `others` [ ".gtarir IV_C_intr", "i.gtarar PV_C_intr", ".gtarr IV_V_intr" ] -},
+    IFtaCL                    `verb`       {- Aigotar~ -}       [ "be misled" ],
 
     -- ;; {isotagar~_1
     -- <stgr   {isotagar~      PV_V    surprise
@@ -5767,8 +5588,7 @@ lexicon = listing "Lexicon's properties"
     -- stgr    sotagir~        IV_V    surprise
     -- stgrr   sotagorir       IV_C    surprise
 
-    IstaFaCL                  `verb`       {- {isotagar~ -}     [ "surprise" ]
-                              {- `others` [ "ista.grar PV_C" ] -},
+    IstaFaCL                  `verb`       {- Aisotagar~ -}     [ "surprise" ],
 
     -- ;; gir~_1
     -- gr      gir~    N       inexperience;greenhorn
@@ -5880,8 +5700,7 @@ lexicon = listing "Lexicon's properties"
     -- grY     gar~aY  IV_0_Pass_yu    be glued
     -- gry     gar~ay  IV_Ann_Pass_yu  be glued
 
-    FaCLY                     `verb`       {- gar~aY -}         [ "glue", "be glued" ]
-                              {- `others` [ ".garr IV_0hwnyn_yu PV_ttAw", ".garriy IV_0hAnn_yu" ] -} ]
+    FaCLY                     `verb`       {- gar~aY -}         [ "glue", "be glued" ] ]
 
  |> ".g r s" <| [
 
@@ -5890,8 +5709,7 @@ lexicon = listing "Lexicon's properties"
     -- grs     goris   IV      implant;plant
 
     FaCaL                     `verb`       {- garas-i -}        [ "implant", "plant" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gris IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; >agoras_1
     -- >grs    >agoras PV      implant;plant
@@ -5899,16 +5717,14 @@ lexicon = listing "Lexicon's properties"
     -- grs     goris   IV_yu   implant;plant
     -- grs     goras   IV_Pass_yu      be implanted;be planted
 
-    HaFCaL                    `verb`       {- Oagoras -}        [ "implant", "plant", "be implanted", "be planted" ]
-                              {- `others` [ ".gras IV_Pass_yu", ".gris IV_yu" ] -},
+    HaFCaL                    `verb`       {- Oagoras -}        [ "implant", "plant", "be implanted", "be planted" ],
 
     -- ;; {inogaras_1
     -- <ngrs   {inogaras       PV_intr be implanted;sink in
     -- Angrs   {inogaras       PV_intr be implanted;sink in
     -- ngrs    nogaris IV_intr be implanted;sink in
 
-    InFaCaL                   `verb`       {- {inogaras -}      [ "be implanted", "sink in" ]
-                              {- `others` [ "n.garis IV_intr" ] -},
+    InFaCaL                   `verb`       {- Ainogaras -}      [ "be implanted", "sink in" ],
 
     -- ;; garos_1
     -- grs     garos   N       implant
@@ -5980,8 +5796,7 @@ lexicon = listing "Lexicon's properties"
     -- gry     goray   IV_Ann_Pass_yu  be glued together
 
     FaCA                      `verb`       {- garA-u -}         [ "glue together", "be glued together" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".garaw PV_Atn", ".grY IV_0_Pass_yu", ".gruw IV_0hAnn" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gar~aY_1
     -- grY     gar~aY  PV_0    glue
@@ -5993,8 +5808,7 @@ lexicon = listing "Lexicon's properties"
     -- grY     gar~aY  IV_0_Pass_yu    be glued
     -- gry     gar~ay  IV_Ann_Pass_yu  be glued
 
-    FaCCY                     `verb`       {- gar~aY -}         [ "glue", "be glued" ]
-                              {- `others` [ ".garriy IV_0hAnn_yu" ] -},
+    FaCCY                     `verb`       {- gar~aY -}         [ "glue", "be glued" ],
 
     -- ;; >agoraY_1
     -- >grY    >agoraY PV_0    incite;induce;provoke
@@ -6010,8 +5824,7 @@ lexicon = listing "Lexicon's properties"
     -- grY     goraY   IV_0_Pass_yu    be incited;be provoked
     -- gry     goray   IV_Ann_Pass_yu  be incited;be provoked
 
-    HaFCY                     `verb`       {- OagoraY -}        [ "incite", "induce", "provoke", "be incited", "be provoked" ]
-                              {- `others` [ ".grY IV_0_Pass_yu", ".griy IV_0hAnn_yu" ] -},
+    HaFCY                     `verb`       {- OagoraY -}        [ "incite", "induce", "provoke", "be incited", "be provoked" ],
 
     -- ;; >agoraY_2
     -- >gry    >ugoriy PV_intr be seduced
@@ -6147,15 +5960,13 @@ lexicon = listing "Lexicon's properties"
     -- grz     goriz   IV      prick;stab
 
     FaCaL                     `verb`       {- garaz-i -}        [ "prick", "stab" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".griz IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gar~az_1
     -- grz     gar~az  PV      thrust;stick
     -- grz     gar~iz  IV_yu   thrust;stick
 
-    FaCCaL                    `verb`       {- gar~az -}         [ "thrust", "stick" ]
-                              {- `others` [ ".garriz IV_yu" ] -},
+    FaCCaL                    `verb`       {- gar~az -}         [ "thrust", "stick" ],
 
     -- ;; >agoraz_1
     -- >grz    >agoraz PV      thrust;stick
@@ -6163,8 +5974,7 @@ lexicon = listing "Lexicon's properties"
     -- grz     goriz   IV_yu   thrust;stick
     -- grz     goraz   IV_Pass_yu      be thrusted;be stuck
 
-    HaFCaL                    `verb`       {- Oagoraz -}        [ "thrust", "stick", "be thrusted", "be stuck" ]
-                              {- `others` [ ".graz IV_Pass_yu", ".griz IV_yu" ] -},
+    HaFCaL                    `verb`       {- Oagoraz -}        [ "thrust", "stick", "be thrusted", "be stuck" ],
 
     -- ;; tagar~az_1
     -- tgrz    tagar~az        PV      penetrate;be inserted
@@ -6177,16 +5987,14 @@ lexicon = listing "Lexicon's properties"
     -- Angrz   {inogaraz       PV      penetrate;be inserted
     -- ngrz    nogariz IV      penetrate;be inserted
 
-    InFaCaL                   `verb`       {- {inogaraz -}      [ "penetrate", "be inserted" ]
-                              {- `others` [ "n.gariz IV" ] -},
+    InFaCaL                   `verb`       {- Ainogaraz -}      [ "penetrate", "be inserted" ],
 
     -- ;; {igotaraz_1
     -- <gtrz   {igotaraz       PV      penetrate;be inserted
     -- Agtrz   {igotaraz       PV      penetrate;be inserted
     -- gtrz    gotariz IV      penetrate;be inserted
 
-    IFtaCaL                   `verb`       {- {igotaraz -}      [ "penetrate", "be inserted" ]
-                              {- `others` [ ".gtariz IV" ] -},
+    IFtaCaL                   `verb`       {- Aigotaraz -}      [ "penetrate", "be inserted" ],
 
     -- ;; garoz_1
     -- grz     garoz   N       insertion;implantation
@@ -6233,7 +6041,7 @@ lexicon = listing "Lexicon's properties"
     -- <ngrAz  {inogirAz       N/At    penetration;piercing
     -- AngrAz  {inogirAz       N/At    penetration;piercing
 
-    InFiCAL                   `noun`       {- {inogirAz -}      [ "penetration", "piercing" ] ]
+    InFiCAL                   `noun`       {- AinogirAz -}      [ "penetration", "piercing" ] ]
 
  |> ".g s l" <| [
 
@@ -6242,23 +6050,20 @@ lexicon = listing "Lexicon's properties"
     -- gsl     gosil   IV      wash;clean
 
     FaCaL                     `verb`       {- gasal-i -}        [ "wash", "clean" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gsil IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gas~al_1
     -- gsl     gas~al  PV      wash;clean
     -- gsl     gas~il  IV_yu   wash;clean
 
-    FaCCaL                    `verb`       {- gas~al -}         [ "wash", "clean" ]
-                              {- `others` [ ".gassil IV_yu" ] -},
+    FaCCaL                    `verb`       {- gas~al -}         [ "wash", "clean" ],
 
     -- ;; {igotasal_1
     -- <gtsl   {igotasal       PV      wash;bathe
     -- Agtsl   {igotasal       PV      wash;bathe
     -- gtsl    gotasil IV      wash;bathe
 
-    IFtaCaL                   `verb`       {- {igotasal -}      [ "wash", "bathe" ]
-                              {- `others` [ ".gtasil IV" ] -},
+    IFtaCaL                   `verb`       {- Aigotasal -}      [ "wash", "bathe" ],
 
     -- ;; gusol_1
     -- gsl     gusol   N       washing;ablution
@@ -6340,7 +6145,7 @@ lexicon = listing "Lexicon's properties"
     -- <gtsAl  {igotisAl       N/At    washing;bath;ablution
     -- AgtsAl  {igotisAl       N/At    washing;bath;ablution
 
-    IFtiCAL                   `noun`       {- {igotisAl -}      [ "washing", "bath", "ablution" ],
+    IFtiCAL                   `noun`       {- AigotisAl -}      [ "washing", "bath", "ablution" ],
 
     -- ;; mugotasil_1
     -- mgtsl   mugotasil       Nall    bather
@@ -6409,8 +6214,7 @@ lexicon = listing "Lexicon's properties"
     -- gtS     gotaS~  IV_V_intr       be congested;hit a snag
     -- gtSS    gotaSiS IV_C_intr       be congested;hit a snag
 
-    IFCaLL                    `verb`       {- {igotaS~ -}       [ "be congested", "hit a snag" ]
-                              {- `others` [ ".gta.s.s IV_V_intr" ] -} ]
+    IFCaLL                    `verb`       {- AigotaS~ -}       [ "be congested", "hit a snag" ] ]
 
  |> ".g t ^s" <| [
 
@@ -6422,8 +6226,7 @@ lexicon = listing "Lexicon's properties"
     -- gt$     gota$~  IV_V_intr       be deceived;be duped
     -- gt$$    gota$i$ IV_C_intr       be deceived;be duped
 
-    IFCaLL                    `verb`       {- {igota$~ -}       [ "be deceived", "be duped" ]
-                              {- `others` [ ".gta^s^s IV_V_intr" ] -} ]
+    IFCaLL                    `verb`       {- Aigota$~ -}       [ "be deceived", "be duped" ] ]
 
  |> ".g t m" <| [
 
@@ -6435,8 +6238,7 @@ lexicon = listing "Lexicon's properties"
     -- gtm     gotam~  IV_V_intr       be worried;grieve
     -- gtmm    gotamim IV_C_intr       be worried;grieve
 
-    IFCaLL                    `verb`       {- {igotam~ -}       [ "be worried", "grieve" ]
-                              {- `others` [ ".gtamm IV_V_intr" ] -},
+    IFCaLL                    `verb`       {- Aigotam~ -}       [ "be worried", "grieve" ],
 
     -- ;; mugotam~_1
     -- mgtm    mugotam~        Nall    distressed;afflicted     [[mugotam~/ADJ]]
@@ -6453,8 +6255,7 @@ lexicon = listing "Lexicon's properties"
     -- gtr     gotar~  IV_V_intr       be misled
     -- gtrr    gotarir IV_C_intr       be misled
 
-    IFCaLL                    `verb`       {- {igotar~ -}       [ "be misled" ]
-                              {- `others` [ ".gtarr IV_V_intr" ] -},
+    IFCaLL                    `verb`       {- Aigotar~ -}       [ "be misled" ],
 
     -- ;; mugotar~_1
     -- mgtr    mugotar~        Nall    conceited;vain     [[mugotar~/ADJ]]
@@ -6470,8 +6271,7 @@ lexicon = listing "Lexicon's properties"
     -- gtt     gotut   IV_C    submerse;immerse
 
     FaCL                      `verb`       {- gat~-u -}         [ "submerse", "immerse" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".gutt IV_V", ".gatat PV_Ct", ".gtut IV_C" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gat~_1
     -- gt      gat~    N       submersion;immersion
@@ -6525,15 +6325,13 @@ lexicon = listing "Lexicon's properties"
     -- gS      guS     IV_C    plunge;immerse;dive
 
     FAL                       `verb`       {- gAS-u -}          [ "plunge", "immerse", "dive" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".guw.s IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gaw~aS_1
     -- gwS     gaw~aS  PV      immerse;plunge
     -- gwS     gaw~iS  IV_yu   immerse;plunge
 
-    FaCCaL                    `verb`       {- gaw~aS -}         [ "immerse", "plunge" ]
-                              {- `others` [ ".gawwi.s IV_yu" ] -},
+    FaCCaL                    `verb`       {- gaw~aS -}         [ "immerse", "plunge" ],
 
     -- ;; gawoS_1
     -- gwS     gawoS   N       diving
@@ -6576,8 +6374,7 @@ lexicon = listing "Lexicon's properties"
     -- gwT     gaw~aT  PV      deepen
     -- gwT     gaw~iT  IV_yu   deepen
 
-    FaCCaL                    `verb`       {- gaw~aT -}         [ "deepen" ]
-                              {- `others` [ ".gawwi.t IV_yu" ] -},
+    FaCCaL                    `verb`       {- gaw~aT -}         [ "deepen" ],
 
     -- ;; tagaw~aT_1
     -- tgwT    tagaw~aT        PV      defecate
@@ -6654,8 +6451,7 @@ lexicon = listing "Lexicon's properties"
     -- gwv     gaw~av  PV      cry for help
     -- gwv     gaw~iv  IV_yu   cry for help
 
-    FaCCaL                    `verb`       {- gaw~av -}         [ "cry for help" ]
-                              {- `others` [ ".gawwi_t IV_yu" ] -},
+    FaCCaL                    `verb`       {- gaw~av -}         [ "cry for help" ],
 
     -- ;; >agAv_1
     -- >gAv    >agAv   PV_V    help;succor
@@ -6667,8 +6463,7 @@ lexicon = listing "Lexicon's properties"
     -- gAv     gAv     IV_V_Pass_yu    be helped;be given help
     -- gv      gav     IV_C_Pass_yu    be helped;be given help
 
-    HaFAL                     `verb`       {- OagAv -}          [ "help", "succor", "be helped", "be given help" ]
-                              {- `others` [ ".gA_t IV_V_Pass_yu", ".giy_t IV_V_yu" ] -},
+    HaFAL                     `verb`       {- OagAv -}          [ "help", "succor", "be helped", "be given help" ],
 
     -- ;; {isotagAv_1
     -- <stgAv  {isotagAv       PV_V    ask for help;seek aid
@@ -6682,7 +6477,7 @@ lexicon = listing "Lexicon's properties"
     -- stgAv   sotagAv IV_V_Pass_yu    be asked for help
     -- stgv    sotagav IV_C_Pass_yu    be asked for help
 
-    IstaFAL                   `verb`       {- {isotagAv -}      [ "ask for help", "seek aid", "be asked for help" ],
+    IstaFAL                   `verb`       {- AisotagAv -}      [ "ask for help", "seek aid", "be asked for help" ],
 
     -- ;; gawov_1
     -- gwv     gawov   N       aid;succor
@@ -6699,7 +6494,7 @@ lexicon = listing "Lexicon's properties"
     -- <stgAv  {isotigAv       NapAt   appeal for aid;call for help
     -- AstgAv  {isotigAv       NapAt   appeal for aid;call for help
 
-    IstiFAL |< aT             `noun`       {- {isotigAvap -}    [ "appeal for aid", "call for help" ],
+    IstiFAL |< aT             `noun`       {- AisotigAvap -}    [ "appeal for aid", "call for help" ],
 
     -- ;; mugiyv_1
     -- mgyv    mugiyv  N       deliverer;succorer
@@ -6733,8 +6528,7 @@ lexicon = listing "Lexicon's properties"
     -- gl      gul     IV_C    seize;snatch;destroy
 
     FAL                       `verb`       {- gAl-u -}          [ "seize", "snatch", "destroy" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".guwl IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; {igotAl_1
     -- <gtAl   {igotAl PV_V    assassinate;murder
@@ -6747,8 +6541,7 @@ lexicon = listing "Lexicon's properties"
     -- gtAl    gotAl   IV_V_Pass_yu    be assassinated;be murdered
     -- gtl     gotal   IV_C    assassinate;murder
 
-    IFtAL                     `verb`       {- {igotAl -}        [ "assassinate", "murder", "be assassinated", "be murdered" ]
-                              {- `others` [ ".gtAl IV_V IV_V_Pass_yu" ] -},
+    IFtAL                     `verb`       {- AigotAl -}        [ "assassinate", "murder", "be assassinated", "be murdered" ],
 
     -- ;; guwl_1
     -- gwl     guwl    N       ghoul;monster
@@ -6774,7 +6567,7 @@ lexicon = listing "Lexicon's properties"
     -- <gtyAl  {igotiyAl       NduAt   assassination;murder
     -- AgtyAl  {igotiyAl       NduAt   assassination;murder
 
-    IFtiyAL                   `noun`       {- {igotiyAl -}      [ "assassination", "murder" ],
+    IFtiyAL                   `noun`       {- AigotiyAl -}      [ "assassination", "murder" ],
 
     -- ;; gA}ilap_1
     -- gA}l    gA}il   Nap     calamity;havoc
@@ -6812,8 +6605,7 @@ lexicon = listing "Lexicon's properties"
     -- gr      gur     IV_C    penetrate
 
     FAL                       `verb`       {- gAr-u -}          [ "penetrate" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".guwr IV_V" ] -},
+                              `imperf`     FCuL,
 
     -- ;; >agAr_1
     -- >gAr    >agAr   PV_V    attack;invade;raid
@@ -6825,8 +6617,7 @@ lexicon = listing "Lexicon's properties"
     -- gAr     gAr     IV_V_Pass_yu    be attacked;be invaded;be raided
     -- gr      gar     IV_C_Pass_yu    be attacked;be invaded;be raided
 
-    HaFAL                     `verb`       {- OagAr -}          [ "attack", "invade", "raid", "be attacked", "be invaded", "be raided" ]
-                              {- `others` [ ".giyr IV_V_yu", ".gAr IV_V_Pass_yu" ] -},
+    HaFAL                     `verb`       {- OagAr -}          [ "attack", "invade", "raid", "be attacked", "be invaded", "be raided" ],
 
     -- ;; tagaw~ar_1
     -- tgwr    tagaw~ar        PV      descend
@@ -6839,7 +6630,7 @@ lexicon = listing "Lexicon's properties"
     -- Astgwr  {isotagowar     PV      do speleology
     -- stgwr   sotagowir       IV      do speleology
 
-    IstaFCaL                  `verb`       {- {isotagowar -}    [ "do speleology" ],
+    IstaFCaL                  `verb`       {- Aisotagowar -}    [ "do speleology" ],
 
     -- ;; gAr_1
     -- gAr     gAr     N       cave
@@ -6931,8 +6722,7 @@ lexicon = listing "Lexicon's properties"
     -- gwY     gaw~aY  IV_0_Pass_yu    be mislead;be seduced
     -- gwy     gaw~ay  IV_Ann_Pass_yu  be mislead;seduced
 
-    FaCLY                     `verb`       {- gaw~aY -}         [ "mislead", "seduce", "be mislead", "be seduced", "seduced" ]
-                              {- `others` [ ".gawwiy IV_0hAnn_yu", ".gaww IV_0hwnyn_yu PV_ttAw" ] -} ]
+    FaCLY                     `verb`       {- gaw~aY -}         [ "mislead", "seduce", "be mislead", "be seduced", "seduced" ] ]
 
  |> ".g w y" <| [
 
@@ -6946,8 +6736,7 @@ lexicon = listing "Lexicon's properties"
     -- gwY     gowaY   IV_0_Pass_yu    be misled
 
     FaCY                      `verb`       {- gawaY-i -}        [ "stray", "mislead", "be misled" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gawA PV_h", ".gwY IV_0_Pass_yu", ".gaway PV_Atn", ".gwiy IV_0hAnn" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gawiy-a_1
     -- gwy     gawiy   PV_no-w covet
@@ -6958,8 +6747,7 @@ lexicon = listing "Lexicon's properties"
     -- gw      gowa    IV_0hwnyn       covet
 
     FaCiL                     `verb`       {- gawiy-a -}        [ "covet" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".gwY IV_0", ".gway IV_Ann" ] -},
+                              `imperf`     FCaL,
 
     -- ;; gaw~aY_1
     -- gwY     gaw~aY  PV_0    mislead;seduce
@@ -6971,8 +6759,7 @@ lexicon = listing "Lexicon's properties"
     -- gwY     gaw~aY  IV_0_Pass_yu    be mislead;be seduced
     -- gwy     gaw~ay  IV_Ann_Pass_yu  be mislead;seduced
 
-    FaCCY                     `verb`       {- gaw~aY -}         [ "mislead", "seduce", "be mislead", "be seduced", "seduced" ]
-                              {- `others` [ ".gawwiy IV_0hAnn_yu", ".gawway PV_Atn IV_Ann_Pass_yu" ] -},
+    FaCCY                     `verb`       {- gaw~aY -}         [ "mislead", "seduce", "be mislead", "be seduced", "seduced" ],
 
     -- ;; >agowaY_1
     -- >gwY    >agowaY PV_0    mislead;seduce
@@ -6988,8 +6775,7 @@ lexicon = listing "Lexicon's properties"
     -- gwY     gowaY   IV_0_Pass_yu    be misled;be seduced
     -- gwy     goway   IV_Ann_Pass_yu  be misled;be seduced
 
-    HaFCY                     `verb`       {- OagowaY -}        [ "mislead", "seduce", "be misled", "be seduced" ]
-                              {- `others` [ ".gwY IV_0_Pass_yu", "'a.gway PV_Atn", ".gway IV_Ann_Pass_yu", ".gwiy IV_0hAnn_yu" ] -},
+    HaFCY                     `verb`       {- OagowaY -}        [ "mislead", "seduce", "be misled", "be seduced" ],
 
     -- ;; {isotagowaY_1
     -- <stgwY  {isotagowaY     PV_0    mislead;seduce
@@ -7004,8 +6790,7 @@ lexicon = listing "Lexicon's properties"
     -- stgw    sotagow IV_0hwnyn       mislead;seduce
     -- stgwY   sotagowaY       IV_0_Pass_yu    be misled;be seduced
 
-    IstaFCY                   `verb`       {- {isotagowaY -}    [ "mislead", "seduce", "be misled", "be seduced" ]
-                              {- `others` [ "ista.gway PV_Atn" ] -},
+    IstaFCY                   `verb`       {- AisotagowaY -}    [ "mislead", "seduce", "be misled", "be seduced" ],
 
     -- ;; gawAyap_1
     -- gwAy    gawAy   Nap     error;sin
@@ -7088,8 +6873,7 @@ lexicon = listing "Lexicon's properties"
     -- gwz     gaw~az  PV      gasify
     -- gwz     gaw~iz  IV_yu   gasify
 
-    FaCCaL                    `verb`       {- gaw~az -}         [ "gasify" ]
-                              {- `others` [ ".gawwiz IV_yu" ] -},
+    FaCCaL                    `verb`       {- gaw~az -}         [ "gasify" ],
 
     -- ;; tagaw~az_1
     -- tgwz    tagaw~az        PV_intr become gaseous
@@ -7131,8 +6915,7 @@ lexicon = listing "Lexicon's properties"
     -- gD      giD     IV_C    diminish;dwindle;pale
 
     FAL                       `verb`       {- gAD-i -}          [ "diminish", "dwindle", "pale" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".giy.d IV_V" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gayoD_1
     -- gyD     gayoD   N       small amount;unborn fetus
@@ -7196,15 +6979,13 @@ lexicon = listing "Lexicon's properties"
     -- gZ      giZ     IV_C    enrage;irritate
 
     FAL                       `verb`       {- gAZ-i -}          [ "enrage", "irritate" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".giy.z IV_V" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gay~aZ_1
     -- gyZ     gay~aZ  PV      enrage;irritate
     -- gyZ     gay~iZ  IV_yu   enrage;irritate
 
-    FaCCaL                    `verb`       {- gay~aZ -}         [ "enrage", "irritate" ]
-                              {- `others` [ ".gayyi.z IV_yu" ] -},
+    FaCCaL                    `verb`       {- gay~aZ -}         [ "enrage", "irritate" ],
 
     -- ;; >agAZ_1
     -- >gAZ    >agAZ   PV_V    enrage;irritate
@@ -7216,8 +6997,7 @@ lexicon = listing "Lexicon's properties"
     -- gAZ     gAZ     IV_V_Pass_yu    be enraged;be irritated
     -- gZ      gaZ     IV_C_Pass_yu    be enraged;be irritated
 
-    HaFAL                     `verb`       {- OagAZ -}          [ "enrage", "irritate", "be enraged", "be irritated" ]
-                              {- `others` [ ".gA.z IV_V_Pass_yu", ".giy.z IV_V_yu" ] -},
+    HaFAL                     `verb`       {- OagAZ -}          [ "enrage", "irritate", "be enraged", "be irritated" ],
 
     -- ;; tagay~aZ_1
     -- tgyZ    tagay~aZ        PV_intr become enraged;be irritated
@@ -7233,8 +7013,7 @@ lexicon = listing "Lexicon's properties"
     -- ngAZ    nogAZ   IV_V_intr       become enraged;be irritated
     -- ngZ     nogaZ   IV_C_intr       become enraged;be irritated
 
-    InFAL                     `verb`       {- {inogAZ -}        [ "become enraged", "be irritated" ]
-                              {- `others` [ "n.gA.z IV_V_intr" ] -},
+    InFAL                     `verb`       {- AinogAZ -}        [ "become enraged", "be irritated" ],
 
     -- ;; {igotAZ_1
     -- <gtAZ   {igotAZ PV_V_intr       become enraged;be irritated
@@ -7244,8 +7023,7 @@ lexicon = listing "Lexicon's properties"
     -- gtAZ    gotAZ   IV_V_intr       become enraged;be irritated
     -- gtZ     gotaZ   IV_C_intr       become enraged;be irritated
 
-    IFtAL                     `verb`       {- {igotAZ -}        [ "become enraged", "be irritated" ]
-                              {- `others` [ ".gtA.z IV_V_intr" ] -},
+    IFtAL                     `verb`       {- AigotAZ -}        [ "become enraged", "be irritated" ],
 
     -- ;; gayoZ_1
     -- gyZ     gayoZ   N       anger;wrath
@@ -7256,7 +7034,7 @@ lexicon = listing "Lexicon's properties"
     -- <gtyAZ  {igotiyAZ       N/At    fury;rage
     -- AgtyAZ  {igotiyAZ       N/At    fury;rage
 
-    IFtiCAL                   `noun`       {- {igotiyAZ -}      [ "fury", "rage" ],
+    IFtiCAL                   `noun`       {- AigotiyAZ -}      [ "fury", "rage" ],
 
     -- ;; mugiyZ_1
     -- mgyZ    mugiyZ  Nall    irate;furious     [[mugiyZ/ADJ]]
@@ -7303,8 +7081,7 @@ lexicon = listing "Lexicon's properties"
     -- gv      giv     IV_C    send rain
 
     FAL                       `verb`       {- gAv-i -}          [ "send rain" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".giy_t IV_V" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gayov_1
     -- gyv     gayov   N0      Ghaith
@@ -7331,15 +7108,13 @@ lexicon = listing "Lexicon's properties"
     -- gb      gib     IV_C_intr       be absent
 
     FAL                       `verb`       {- gAb-i -}          [ "be absent" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".giyb IV_V_intr" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gay~ab_1
     -- gyb     gay~ab  PV      remove
     -- gyb     gay~ib  IV_yu   remove
 
-    FaCCaL                    `verb`       {- gay~ab -}         [ "remove" ]
-                              {- `others` [ ".gayyib IV_yu" ] -},
+    FaCCaL                    `verb`       {- gay~ab -}         [ "remove" ],
 
     -- ;; tagay~ab_1
     -- tgyb    tagay~ab        PV_intr be absent
@@ -7357,8 +7132,7 @@ lexicon = listing "Lexicon's properties"
     -- gtAb    gotAb   IV_V    denigrate;slander
     -- gtb     gotab   IV_C    denigrate;slander
 
-    IFtAL                     `verb`       {- {igotAb -}        [ "denigrate", "slander", "be denigrated", "be slandered" ]
-                              {- `others` [ ".gtAb IV_V" ] -},
+    IFtAL                     `verb`       {- AigotAb -}        [ "denigrate", "slander", "be denigrated", "be slandered" ],
 
     -- ;; {isotagAb_1
     -- <stgAb  {isotagAb       PV_V    denigrate;slander
@@ -7368,7 +7142,7 @@ lexicon = listing "Lexicon's properties"
     -- stgyb   sotagiyb        IV_V    denigrate;slander
     -- stgb    sotagib IV_C    denigrate;slander
 
-    IstaFAL                   `verb`       {- {isotagAb -}      [ "denigrate", "slander" ],
+    IstaFAL                   `verb`       {- AisotagAb -}      [ "denigrate", "slander" ],
 
     -- ;; gayob_1
     -- gyb     gayob   N       invisible;hidden;absent
@@ -7450,7 +7224,7 @@ lexicon = listing "Lexicon's properties"
     -- <gtyAb  {igotiyAb       N/At    slander;denigration;gossip about
     -- AgtyAb  {igotiyAb       N/At    slander;denigration;gossip about
 
-    IFtiCAL                   `noun`       {- {igotiyAb -}      [ "slander", "denigration", "gossip about" ],
+    IFtiCAL                   `noun`       {- AigotiyAb -}      [ "slander", "denigration", "gossip about" ],
 
     -- ;; gA}ib_1
     -- gA}b    gA}ib   Nall    absent     [[gA}ib/ADJ]]
@@ -7577,7 +7351,7 @@ lexicon = listing "Lexicon's properties"
     -- <gtyAl  {igotiyAl       NduAt   assassination;murder
     -- AgtyAl  {igotiyAl       NduAt   assassination;murder
 
-    IFtiCAL                   `noun`       {- {igotiyAl -}      [ "assassination", "murder" ],
+    IFtiCAL                   `noun`       {- AigotiyAl -}      [ "assassination", "murder" ],
 
     -- ;; giyl_1
     -- gyl     giyl    N       thicket
@@ -7612,15 +7386,13 @@ lexicon = listing "Lexicon's properties"
     -- gm      gim     IV_C_intr       become overcast/blurred
 
     FAL                       `verb`       {- gAm-i -}          [ "become overcast/blurred" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".giym IV_V_intr" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gay~am_1
     -- gym     gay~am  PV_intr be overcast/blurred
     -- gym     gay~im  IV_intr_yu      be overcast/blurred
 
-    FaCCaL                    `verb`       {- gay~am -}         [ "be overcast/blurred" ]
-                              {- `others` [ ".gayyim IV_intr_yu" ] -},
+    FaCCaL                    `verb`       {- gay~am -}         [ "be overcast/blurred" ],
 
     -- ;; >agAm_1
     -- >gAm    >agAm   PV_V_intr       become overcast/blurred
@@ -7632,8 +7404,7 @@ lexicon = listing "Lexicon's properties"
     -- gAm     gAm     IV_V_Pass_yu    become overcast/blurred
     -- gm      gam     IV_C_Pass_yu    become overcast/blurred
 
-    HaFAL                     `verb`       {- OagAm -}          [ "become overcast/blurred" ]
-                              {- `others` [ ".gAm IV_V_Pass_yu", ".giym IV_V_intr_yu" ] -},
+    HaFAL                     `verb`       {- OagAm -}          [ "become overcast/blurred" ],
 
     -- ;; tagay~am_1
     -- tgym    tagay~am        PV_intr be overcast/blurred
@@ -7725,15 +7496,13 @@ lexicon = listing "Lexicon's properties"
     -- gyr     gay~ar  PV      change;modify
     -- gyr     gay~ir  IV_yu   change;modify
 
-    FaCCaL                    `verb`       {- gay~ar -}         [ "change", "modify" ]
-                              {- `others` [ ".gayyir IV_yu" ] -},
+    FaCCaL                    `verb`       {- gay~ar -}         [ "change", "modify" ],
 
     -- ;; gAyar_1
     -- gAyr    gAyar   PV_intr be at odds with;be in contrast with
     -- gAyr    gAyir   IV_intr_yu      be at odds with;be in contrast with
 
-    FACaL                     `verb`       {- gAyar -}          [ "be at odds with", "be in contrast with" ]
-                              {- `others` [ ".gAyir IV_intr_yu" ] -},
+    FACaL                     `verb`       {- gAyar -}          [ "be at odds with", "be in contrast with" ],
 
     -- ;; >agAr_2
     -- >gAr    >agAr   PV_V    make jealous
@@ -7745,8 +7514,7 @@ lexicon = listing "Lexicon's properties"
     -- gAr     gAr     IV_V_Pass_yu    be made jealous
     -- gr      gar     IV_C_Pass_yu    be made jealous
 
-    HaFAL                     `verb`       {- OagAr -}          [ "make jealous", "be made jealous" ]
-                              {- `others` [ ".giyr IV_V_yu", ".gAr IV_V_Pass_yu" ] -},
+    HaFAL                     `verb`       {- OagAr -}          [ "make jealous", "be made jealous" ],
 
     -- ;; tagay~ar_1
     -- tgyr    tagay~ar        PV_intr be changed;be modified
@@ -7886,23 +7654,20 @@ lexicon = listing "Lexicon's properties"
     -- gzl     gozil   IV      spin
 
     FaCaL                     `verb`       {- gazal-i -}        [ "spin" ]
-                              `imperf`     FCiL
-                              {- `others` [ ".gzil IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; gazil-a_1
     -- gzl     gazil   PV      woo;flirt with
     -- gzl     gozal   IV      woo;flirt with
 
     FaCiL                     `verb`       {- gazil-a -}        [ "woo", "flirt with" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".gzal IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; gAzal_1
     -- gAzl    gAzal   PV      court;flirt with
     -- gAzl    gAzil   IV_yu   court;flirt with
 
-    FACaL                     `verb`       {- gAzal -}          [ "court", "flirt with" ]
-                              {- `others` [ ".gAzil IV_yu" ] -},
+    FACaL                     `verb`       {- gAzal -}          [ "court", "flirt with" ],
 
     -- ;; tagaz~al_1
     -- tgzl    tagaz~al        PV      flirt with;make eyes at
@@ -7921,8 +7686,7 @@ lexicon = listing "Lexicon's properties"
     -- Agtzl   {igotazal       PV      spin
     -- gtzl    gotazil IV      spin
 
-    IFtaCaL                   `verb`       {- {igotazal -}      [ "spin" ]
-                              {- `others` [ ".gtazil IV" ] -},
+    IFtaCaL                   `verb`       {- Aigotazal -}      [ "spin" ],
 
     -- ;; gazol_1
     -- gzl     gazol   N       spinning;spun thread;yarn
@@ -8020,8 +7784,7 @@ lexicon = listing "Lexicon's properties"
     -- gzr     gozur   IV_intr be abundant
 
     FaCuL                     `verb`       {- gazur-u -}        [ "be abundant" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".gzur IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gazor_1
     -- gzr     gazor   N       abundance;lavish amount
@@ -8064,8 +7827,7 @@ lexicon = listing "Lexicon's properties"
     -- gzy     gozay   IV_Ann_Pass_yu  be invaded;be conquered
 
     FaCA                      `verb`       {- gazA-u -}         [ "invade", "conquer", "be invaded", "be conquered" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".gzY IV_0_Pass_yu", ".gzuw IV_0hAnn", ".gazaw PV_Atn" ] -},
+                              `imperf`     FCuL,
 
     -- ;; gazow_1
     -- gzw     gazow   N       invasion;attack;aggression
@@ -8154,8 +7916,7 @@ lexicon = listing "Lexicon's properties"
     -- gz      giz~    IV_V_intr_yu    be thorny
     -- gzz     goziz   IV_C_intr_yu    be thorny
 
-    HaFaCL                    `verb`       {- Oagaz~ -}         [ "be thorny" ]
-                              {- `others` [ ".gziz IV_C_intr_yu", ".gizz IV_V_intr_yu", "'a.gzaz PV_C_intr" ] -},
+    HaFaCL                    `verb`       {- Oagaz~ -}         [ "be thorny" ],
 
     -- ;; gaz~iy~_1
     -- gzy     gaz~iy~ N-ap    gauze     [[gaz~iy~/ADJ]]

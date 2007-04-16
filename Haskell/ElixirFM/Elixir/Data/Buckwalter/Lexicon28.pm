@@ -923,7 +923,7 @@ $Lexicon = {
         'be easy',
         'be successful'
       ],
-      'orig' => '{isotayosar',
+      'orig' => 'Aisotayosar',
       'prefix' => ''
     },
     {
@@ -1552,7 +1552,7 @@ $Lexicon = {
         'despair',
         'be hopeless'
       ],
-      'orig' => '{isotayoOas',
+      'orig' => 'AisotayoOas',
       'prefix' => ''
     },
     {
@@ -2237,7 +2237,7 @@ $Lexicon = {
         'see a good omen',
         'regard as auspicious'
       ],
-      'orig' => '{isotayoman',
+      'orig' => 'Aisotayoman',
       'prefix' => ''
     },
     {
@@ -3314,7 +3314,7 @@ $Lexicon = {
         'be roused',
         'be alert'
       ],
-      'orig' => '{isotayoqaZ',
+      'orig' => 'AisotayoqaZ',
       'prefix' => ''
     },
     {
@@ -3530,7 +3530,7 @@ $Lexicon = {
         'awakening',
         'arousal'
       ],
-      'orig' => '{isotiyqAZ',
+      'orig' => 'AisotiyqAZ',
       'prefix' => ''
     },
     {
@@ -5811,7 +5811,7 @@ $Lexicon = {
         'ascertain',
         'be convinced'
       ],
-      'orig' => '{isotayoqan',
+      'orig' => 'Aisotayoqan',
       'prefix' => ''
     },
     {

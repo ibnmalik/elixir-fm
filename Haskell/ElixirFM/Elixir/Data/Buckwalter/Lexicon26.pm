@@ -521,7 +521,7 @@ $Lexicon = {
         'activate',
         'stimulate'
       ],
-      'orig' => '{isotahaj~',
+      'orig' => 'Aisotahaj~',
       'prefix' => ''
     },
     {
@@ -1093,7 +1093,7 @@ $Lexicon = {
       'entry' => 'hani\'',
       'form' => 'hani\'',
       'lines' => [
-        ';; hani}_1',
+        ';; hani}-a_1',
         'hn}     hani}   PV_intr be delighted;enjoy',
         'hn>     hona>   IV_intr be delighted;enjoy',
         'hn|     hona|   IV-|    be delighted;enjoy',
@@ -1108,12 +1108,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCiL',
-      'suffix' => '',
       'glosses' => [
         'be delighted',
         'enjoy'
       ],
-      'orig' => 'hani}',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'hani}-a',
       'prefix' => ''
     },
     {
@@ -1790,7 +1793,7 @@ $Lexicon = {
         'fear',
         'respect'
       ],
-      'orig' => '{ihotAb',
+      'orig' => 'AihotAb',
       'prefix' => ''
     },
     {
@@ -2491,7 +2494,7 @@ $Lexicon = {
         'be dazzled',
         'be beguiled'
       ],
-      'orig' => '{inohAs',
+      'orig' => 'AinohAs',
       'prefix' => ''
     },
     {
@@ -2522,7 +2525,7 @@ $Lexicon = {
         'be dazzled',
         'be beguiled'
       ],
-      'orig' => '{inohawas',
+      'orig' => 'Ainohawas',
       'prefix' => ''
     },
     {
@@ -4425,7 +4428,7 @@ $Lexicon = {
       'glosses' => [
         'become lean'
       ],
-      'orig' => '{inohazal',
+      'orig' => 'Ainohazal',
       'prefix' => ''
     },
     {
@@ -5271,7 +5274,7 @@ $Lexicon = {
         'be agitated',
         'be provoked'
       ],
-      'orig' => '{ihotAj',
+      'orig' => 'AihotAj',
       'prefix' => ''
     },
     {
@@ -6367,7 +6370,7 @@ $Lexicon = {
         'be guided',
         'be led'
       ],
-      'orig' => '{ihotadaY',
+      'orig' => 'AihotadaY',
       'prefix' => ''
     },
     {
@@ -6420,7 +6423,7 @@ $Lexicon = {
       'glosses' => [
         'seek the right way'
       ],
-      'orig' => '{isotahodaY',
+      'orig' => 'AisotahodaY',
       'prefix' => ''
     },
     {
@@ -7459,7 +7462,7 @@ $Lexicon = {
         'deem significant',
         'be appalled'
       ],
-      'orig' => '{isotahAl',
+      'orig' => 'AisotahAl',
       'prefix' => ''
     },
     {
@@ -7858,7 +7861,7 @@ $Lexicon = {
         'be frail',
         'flow down'
       ],
-      'orig' => '{inohajam',
+      'orig' => 'Ainohajam',
       'prefix' => ''
     },
     {
@@ -8266,7 +8269,7 @@ $Lexicon = {
       'entry' => 'hayif',
       'form' => 'hayif',
       'lines' => [
-        ';; hayif_1',
+        ';; hayif-a_1',
         'hyf     hayif   PV_intr be slender',
         'hyf     hoyaf   IV_intr be slender'
       ],
@@ -8278,11 +8281,14 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCiL',
-      'suffix' => '',
       'glosses' => [
         'be slender'
       ],
-      'orig' => 'hayif',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'hayif-a',
       'prefix' => ''
     },
     {
@@ -8690,7 +8696,7 @@ $Lexicon = {
         'collapse',
         'be demolished'
       ],
-      'orig' => '{inohad~',
+      'orig' => 'Ainohad~',
       'prefix' => ''
     },
     {
@@ -10308,7 +10314,7 @@ $Lexicon = {
         'be torn down',
         'be demolished'
       ],
-      'orig' => '{inohadam',
+      'orig' => 'Ainohadam',
       'prefix' => ''
     },
     {
@@ -11883,7 +11889,7 @@ $Lexicon = {
       'glosses' => [
         'be defeated'
       ],
-      'orig' => '{inohazam',
+      'orig' => 'Ainohazam',
       'prefix' => ''
     },
     {
@@ -12006,7 +12012,7 @@ $Lexicon = {
       'glosses' => [
         'defeat'
       ],
-      'orig' => '{inohizAm',
+      'orig' => 'AinohizAm',
       'prefix' => ''
     },
     {
@@ -12030,7 +12036,7 @@ $Lexicon = {
       'glosses' => [
         'defeatist'
       ],
-      'orig' => '{inohizAmiy~',
+      'orig' => 'AinohizAmiy~',
       'prefix' => ''
     },
     {
@@ -12054,7 +12060,7 @@ $Lexicon = {
       'glosses' => [
         'defeatism'
       ],
-      'orig' => '{inohizAmiy~ap',
+      'orig' => 'AinohizAmiy~ap',
       'prefix' => ''
     }
   ],
@@ -12201,7 +12207,7 @@ $Lexicon = {
         'hang loosely',
         'dangle'
       ],
-      'orig' => '{inohadal',
+      'orig' => 'Ainohadal',
       'prefix' => ''
     },
     {
@@ -13442,7 +13448,7 @@ $Lexicon = {
       'glosses' => [
         'fall'
       ],
-      'orig' => '{inohawaY',
+      'orig' => 'AinohawaY',
       'prefix' => ''
     },
     {
@@ -13498,7 +13504,7 @@ $Lexicon = {
         'be charmed',
         'be seduced'
       ],
-      'orig' => '{isotahowaY',
+      'orig' => 'AisotahowaY',
       'prefix' => ''
     },
     {
@@ -13869,7 +13875,7 @@ $Lexicon = {
         'seduction',
         'seductions'
       ],
-      'orig' => '{isotihowA\'',
+      'orig' => 'AisotihowA\'',
       'prefix' => ''
     },
     {
@@ -14257,7 +14263,7 @@ $Lexicon = {
         'scheme',
         'intrigue'
       ],
-      'orig' => '{ihotabal',
+      'orig' => 'Aihotabal',
       'prefix' => ''
     },
     {
@@ -14948,7 +14954,7 @@ $Lexicon = {
         'be broken',
         'be cracked'
       ],
-      'orig' => '{inohaSar',
+      'orig' => 'AinohaSar',
       'prefix' => ''
     },
     {
@@ -15588,7 +15594,7 @@ $Lexicon = {
         'deride',
         'mock'
       ],
-      'orig' => '{isotahozaO',
+      'orig' => 'AisotahozaO',
       'prefix' => ''
     },
     {
@@ -15784,7 +15790,7 @@ $Lexicon = {
         'ridicule',
         'scorn'
       ],
-      'orig' => '{isotihozA\'',
+      'orig' => 'AisotihozA\'',
       'prefix' => ''
     },
     {
@@ -15927,7 +15933,7 @@ $Lexicon = {
         'be smashed',
         'be broken'
       ],
-      'orig' => '{inohaD~',
+      'orig' => 'AinohaD~',
       'prefix' => ''
     }
   ],
@@ -16322,7 +16328,7 @@ $Lexicon = {
         'be torn apart',
         'be disgraced'
       ],
-      'orig' => '{ihotatak',
+      'orig' => 'Aihotatak',
       'prefix' => ''
     },
     {
@@ -17769,7 +17775,7 @@ $Lexicon = {
         'pour down',
         'attack'
       ],
-      'orig' => '{inohal~',
+      'orig' => 'Ainohal~',
       'prefix' => ''
     },
     {
@@ -17810,7 +17816,7 @@ $Lexicon = {
         'initiate',
         'introduce'
       ],
-      'orig' => '{isotahal~',
+      'orig' => 'Aisotahal~',
       'prefix' => ''
     },
     {
@@ -18084,7 +18090,7 @@ $Lexicon = {
         'introduction',
         'opening'
       ],
-      'orig' => '{isotiholAl',
+      'orig' => 'AisotiholAl',
       'prefix' => ''
     },
     {
@@ -18110,7 +18116,7 @@ $Lexicon = {
         'opening',
         'initial'
       ],
-      'orig' => '{isotiholAliy~',
+      'orig' => 'AisotiholAliy~',
       'prefix' => ''
     },
     {
@@ -18354,7 +18360,7 @@ $Lexicon = {
         'condemn',
         'disapprove'
       ],
-      'orig' => '{isotahojan',
+      'orig' => 'Aisotahojan',
       'prefix' => ''
     },
     {
@@ -18566,7 +18572,7 @@ $Lexicon = {
         'disapproval',
         'condemnation'
       ],
-      'orig' => '{isotihojAn',
+      'orig' => 'AisotihojAn',
       'prefix' => ''
     }
   ],
@@ -18688,7 +18694,7 @@ $Lexicon = {
       'entry' => 'halak',
       'form' => 'halak',
       'lines' => [
-        ';; halak_1',
+        ';; halak-i_1',
         'hlk     halak   PV      perish;be annihilated',
         'hlk     holik   IV      perish;be annihilated'
       ],
@@ -18700,12 +18706,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'perish',
         'be annihilated'
       ],
-      'orig' => 'halak',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'halak-i',
       'prefix' => ''
     },
     {
@@ -18826,7 +18835,7 @@ $Lexicon = {
         'risk danger',
         'act desperately'
       ],
-      'orig' => '{inohalak',
+      'orig' => 'Ainohalak',
       'prefix' => ''
     },
     {
@@ -18857,7 +18866,7 @@ $Lexicon = {
         'risk danger',
         'act desperately'
       ],
-      'orig' => '{ihotalak',
+      'orig' => 'Aihotalak',
       'prefix' => ''
     },
     {
@@ -18883,7 +18892,7 @@ $Lexicon = {
       'glosses' => [
         'consume'
       ],
-      'orig' => '{isotaholak',
+      'orig' => 'Aisotaholak',
       'prefix' => ''
     },
     {
@@ -19059,7 +19068,7 @@ $Lexicon = {
         'discharge',
         'amortization'
       ],
-      'orig' => '{isotiholAk',
+      'orig' => 'AisotiholAk',
       'prefix' => ''
     },
     {
@@ -19083,7 +19092,7 @@ $Lexicon = {
       'glosses' => [
         'consumer'
       ],
-      'orig' => '{isotiholAkiy~',
+      'orig' => 'AisotiholAkiy~',
       'prefix' => ''
     },
     {
@@ -19561,7 +19570,7 @@ $Lexicon = {
       'morphs' => 'IstiFCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{isotihowA\'',
+      'orig' => 'AisotihowA\'',
       'prefix' => ''
     }
   ],
@@ -20967,7 +20976,7 @@ $Lexicon = {
         'be negligent',
         'disdain'
       ],
-      'orig' => '{isotahotar',
+      'orig' => 'Aisotahotar',
       'prefix' => ''
     },
     {
@@ -21097,7 +21106,7 @@ $Lexicon = {
         'negligence',
         'disdain'
       ],
-      'orig' => '{isotihotAr',
+      'orig' => 'AisotihotAr',
       'prefix' => ''
     },
     {
@@ -21645,7 +21654,7 @@ $Lexicon = {
         'be disdained',
         'be underestimated'
       ],
-      'orig' => '{isotahAn',
+      'orig' => 'AisotahAn',
       'prefix' => ''
     },
     {
@@ -21673,7 +21682,7 @@ $Lexicon = {
         'disdain',
         'scorn'
       ],
-      'orig' => '{isotahowan',
+      'orig' => 'Aisotahowan',
       'prefix' => ''
     },
     {
@@ -21924,7 +21933,7 @@ $Lexicon = {
         'indifference',
         'contempt'
       ],
-      'orig' => '{isotihAnap',
+      'orig' => 'AisotihAnap',
       'prefix' => ''
     },
     {
@@ -22618,7 +22627,7 @@ $Lexicon = {
         'quake',
         'be shaken'
       ],
-      'orig' => '{ihotaz~',
+      'orig' => 'Aihotaz~',
       'prefix' => ''
     },
     {
@@ -22790,7 +22799,7 @@ $Lexicon = {
         'shock',
         'vibration'
       ],
-      'orig' => '{ihotizAz',
+      'orig' => 'AihotizAz',
       'prefix' => ''
     },
     {
@@ -22815,7 +22824,7 @@ $Lexicon = {
         'commotion',
         'agitation'
       ],
-      'orig' => '{ihotizAz',
+      'orig' => 'AihotizAz',
       'prefix' => ''
     },
     {
@@ -22841,7 +22850,7 @@ $Lexicon = {
         'convulsion',
         'vibration'
       ],
-      'orig' => '{ihotizAzap',
+      'orig' => 'AihotizAzap',
       'prefix' => ''
     },
     {
@@ -22866,7 +22875,7 @@ $Lexicon = {
         'shock',
         'tremor'
       ],
-      'orig' => '{ihotizAziy~',
+      'orig' => 'AihotizAziy~',
       'prefix' => ''
     },
     {
@@ -23264,7 +23273,7 @@ $Lexicon = {
         'be concerned',
         'be interested'
       ],
-      'orig' => '{ihotam~',
+      'orig' => 'Aihotam~',
       'prefix' => ''
     },
     {
@@ -23570,7 +23579,7 @@ $Lexicon = {
         'care',
         'attention'
       ],
-      'orig' => '{ihotimAm',
+      'orig' => 'AihotimAm',
       'prefix' => ''
     },
     {
@@ -24930,7 +24939,7 @@ $Lexicon = {
         'be targeted',
         'be aimed at'
       ],
-      'orig' => '{isotahodaf',
+      'orig' => 'Aisotahodaf',
       'prefix' => ''
     },
     {
@@ -25094,7 +25103,7 @@ $Lexicon = {
         'targeting',
         'aiming at'
       ],
-      'orig' => '{isotihodAf',
+      'orig' => 'AisotihodAf',
       'prefix' => ''
     },
     {
@@ -25234,7 +25243,7 @@ $Lexicon = {
         'be crushed',
         'be bruised'
       ],
-      'orig' => '{inoharas',
+      'orig' => 'Ainoharas',
       'prefix' => ''
     },
     {
@@ -25454,7 +25463,7 @@ $Lexicon = {
         'be preoccupied',
         'be dedicated'
       ],
-      'orig' => '{inohamak',
+      'orig' => 'Ainohamak',
       'prefix' => ''
     },
     {
@@ -25480,7 +25489,7 @@ $Lexicon = {
         'absorption',
         'preoccupation'
       ],
-      'orig' => '{inohimAk',
+      'orig' => 'AinohimAk',
       'prefix' => ''
     },
     {
@@ -26148,7 +26157,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ihotam~',
+      'orig' => 'Aihotam~',
       'prefix' => ''
     },
     {
@@ -26162,7 +26171,7 @@ $Lexicon = {
       'morphs' => 'IFCiLAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ihotimAm',
+      'orig' => 'AihotimAm',
       'prefix' => ''
     },
     {
@@ -26251,7 +26260,7 @@ $Lexicon = {
         'shed',
         'rain'
       ],
-      'orig' => '{inohamar',
+      'orig' => 'Ainohamar',
       'prefix' => ''
     },
     {
@@ -27460,7 +27469,7 @@ $Lexicon = {
         'be shattered',
         'be crushed'
       ],
-      'orig' => '{inoha$am',
+      'orig' => 'Ainoha$am',
       'prefix' => ''
     },
     {
@@ -28197,7 +28206,7 @@ $Lexicon = {
         'be demolished',
         'collapse'
       ],
-      'orig' => '{inohAr',
+      'orig' => 'AinohAr',
       'prefix' => ''
     },
     {
@@ -28351,7 +28360,7 @@ $Lexicon = {
         'downfall',
         'breakdown'
       ],
-      'orig' => '{inohiyAr',
+      'orig' => 'AinohiyAr',
       'prefix' => ''
     },
     {
@@ -28654,7 +28663,7 @@ $Lexicon = {
       'glosses' => [
         'be digested'
       ],
-      'orig' => '{inohaDam',
+      'orig' => 'AinohaDam',
       'prefix' => ''
     },
     {
@@ -28685,7 +28694,7 @@ $Lexicon = {
         'oppress',
         'treat unjustly'
       ],
-      'orig' => '{ihotaDam',
+      'orig' => 'AihotaDam',
       'prefix' => ''
     },
     {
@@ -28829,7 +28838,7 @@ $Lexicon = {
       'glosses' => [
         'digestion'
       ],
-      'orig' => '{inohiDAm',
+      'orig' => 'AinohiDAm',
       'prefix' => ''
     },
     {
@@ -29664,7 +29673,7 @@ $Lexicon = {
         'infatuate',
         'captivate'
       ],
-      'orig' => '{isotahAm',
+      'orig' => 'AisotahAm',
       'prefix' => ''
     },
     {
@@ -29691,7 +29700,7 @@ $Lexicon = {
         'infatuate',
         'captivate'
       ],
-      'orig' => '{isotahoyam',
+      'orig' => 'Aisotahoyam',
       'prefix' => ''
     },
     {
@@ -30026,7 +30035,7 @@ $Lexicon = {
         'rain down',
         'precipitate'
       ],
-      'orig' => '{inohAl',
+      'orig' => 'AinohAl',
       'prefix' => ''
     },
     {
@@ -30176,7 +30185,7 @@ $Lexicon = {
         'downpour',
         'showering'
       ],
-      'orig' => '{inohiyAl',
+      'orig' => 'AinohiyAl',
       'prefix' => ''
     },
     {
@@ -31247,7 +31256,7 @@ $Lexicon = {
         'pour down',
         'shed tears'
       ],
-      'orig' => '{inohamal',
+      'orig' => 'Ainohamal',
       'prefix' => ''
     },
     {
@@ -31482,7 +31491,7 @@ $Lexicon = {
       'morphs' => 'InFiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{inohiyAr',
+      'orig' => 'AinohiyAr',
       'prefix' => ''
     },
     {
@@ -32438,7 +32447,7 @@ $Lexicon = {
         'be tattered',
         'be worn out'
       ],
-      'orig' => '{ihotaraO',
+      'orig' => 'AihotaraO',
       'prefix' => ''
     },
     {
@@ -32584,7 +32593,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ihotaz~',
+      'orig' => 'Aihotaz~',
       'prefix' => ''
     },
     {
@@ -32598,7 +32607,7 @@ $Lexicon = {
       'morphs' => 'IFCiLAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ihotizAz',
+      'orig' => 'AihotizAz',
       'prefix' => ''
     },
     {
@@ -32612,7 +32621,7 @@ $Lexicon = {
       'morphs' => 'IFCiLAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ihotizAz',
+      'orig' => 'AihotizAz',
       'prefix' => ''
     },
     {
@@ -32626,7 +32635,7 @@ $Lexicon = {
       'morphs' => 'IFCiLAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [],
-      'orig' => '{ihotizAzap',
+      'orig' => 'AihotizAzap',
       'prefix' => ''
     },
     {
@@ -32640,7 +32649,7 @@ $Lexicon = {
       'morphs' => 'IFCiLAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [],
-      'orig' => '{ihotizAziy~',
+      'orig' => 'AihotizAziy~',
       'prefix' => ''
     },
     {

@@ -27,7 +27,7 @@ zAj     zAj     N       vitriol
 zAjwrA  zAjuwrA N0      Zagora
 ;
 ;--- zAr
-;; za>ar_1
+;; za>ar-ai_1
 z>r     za>ar   PV      roar;bellow
 z>r     zo>ar   IV      roar;bellow
 z}r     zo}ir   IV      roar;bellow
@@ -40,7 +40,7 @@ z}yr    za}iyr  N       roaring;bellowing
 zA}yr   zA}iyr  N       Zaire
 ;
 ;--- zAT
-;; za>aT_1
+;; za>aT-a_1
 z>T     za>aT   PV      clamor;be vociferous
 z>T     zo>aT   IV      clamor;be vociferous
 ;; zi}AT_1
@@ -175,7 +175,7 @@ zwbE    zawobaE Napdu   storm;hurricane
 zwAbE   zawAbiE Ndip    storms;hurricanes
 ;
 ;--- zbq
-;; zabaq_1
+;; zabaq-ui_1
 zbq     zabaq   PV      tear out;pluck out
 zbq     zobuq   IV      tear out;pluck out
 zbq     zobiq   IV      tear out;pluck out
@@ -382,7 +382,7 @@ zHAykp  zaHAyikap       N0      Zahaikeh
 zHAykh  zaHAyikah       N0      Zahaikeh
 ;
 ;--- zHl
-;; zaHal_1
+;; zaHal-a_1
 zHl     zaHal   PV      withdraw;retire
 zHl     zoHal   IV      withdraw;retire
 ;; zaH~al_1
@@ -418,7 +418,7 @@ zHlq    zaHolaq Nap     sliding;skating;skiing
 tzHlq   tazaHoluq       NduAt   skating;skiing;sliding
 ;
 ;--- zHm
-;; zaHam_1
+;; zaHam-a_1
 zHm     zaHam   PV      push;crowd
 zHm     zoHam   IV      push;crowd
 ;; zAHam_1
@@ -1535,7 +1535,7 @@ zlAlym  zalAliym        Ndip    elephant trunks
 zlwm    zuluwm  Nprop   Zuloum
 ;
 ;--- zm
-;; zam~_1
+;; zam~-u_1
 zm      zam~    PV_V    fasten;truss up
 zmm     zamam   PV_C    fasten;truss up
 zm      zum~    IV_V    fasten;truss up
@@ -2860,7 +2860,7 @@ zygAn   zayagAn N       turning aside;deviation
 zA}g    zA}ig   Nall    deviating;distorted;wandering
 ;
 ;--- zyf
-;; zAf_1
+;; zAf-i_1
 zAf     zAf     PV_V_intr       be false
 zf      zif     PV_C_intr       be false
 zyf     ziyf    IV_V_intr       be false

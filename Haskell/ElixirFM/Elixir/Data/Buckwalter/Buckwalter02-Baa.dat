@@ -1281,7 +1281,7 @@ bdrAg   bidrAg  Nprop   Pedrag
 bdrwm   badoruwm        N/At    basement
 bdrwn   badoruwn        N/At    basement
 ;
-;; badaE_1
+;; badaE-a_1
 bdE     badaE   PV      innovate;invent
 bdE     bodaE   IV      innovate;invent
 ;; bad~aE_1
@@ -1971,7 +1971,7 @@ brAjl   barAjil Ndip    compasses;dividers
 brjm    burojum Nap     knuckle
 brAjm   barAjim Ndip    knuckles
 ;
-;; bariH_1
+;; bariH-a_1
 brH     bariH   PV      quit;leave;finish;end
 brH     boraH   IV      quit;leave;finish;end
 ;; bar~aH_1
@@ -6317,7 +6317,7 @@ bhz     bohaz   IV      push;reject
 bhz     bahoz   Napdu   rejection
 bhz     bahaz   NAt     rejections
 ;
-;; bahaZ_1
+;; bahaZ-a_1
 bhZ     bahaZ   PV      oppress
 bhZ     bohaZ   IV      oppress
 ;; >abohaZ_1

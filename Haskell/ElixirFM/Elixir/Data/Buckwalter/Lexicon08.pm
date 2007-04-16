@@ -217,7 +217,7 @@ $Lexicon = {
         'be astonished',
         'be surprised'
       ],
-      'orig' => '{inodaha$',
+      'orig' => 'Ainodaha$',
       'prefix' => ''
     },
     {
@@ -338,7 +338,7 @@ $Lexicon = {
         'surprise',
         'alarm'
       ],
-      'orig' => '{inodihA$',
+      'orig' => 'AinodihA$',
       'prefix' => ''
     },
     {
@@ -697,7 +697,7 @@ $Lexicon = {
       'entry' => 'dAm',
       'form' => 'dAm',
       'lines' => [
-        ';; dAm_1',
+        ';; dAm-u_1',
         'dAm     dAm     PV_V_intr       last;persevere;continue',
         'dm      dum     PV_C_intr       last;persevere;continue',
         'dwm     duwm    IV_V    last;persevere;continue',
@@ -712,13 +712,16 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
-      'suffix' => '',
       'glosses' => [
         'last',
         'persevere',
         'continue'
       ],
-      'orig' => 'dAm',
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'dAm-u',
       'prefix' => ''
     },
     {
@@ -865,7 +868,7 @@ $Lexicon = {
         'make last',
         'continue'
       ],
-      'orig' => '{isotadAm',
+      'orig' => 'AisotadAm',
       'prefix' => ''
     },
     {
@@ -1558,7 +1561,7 @@ $Lexicon = {
         'amend',
         'remedy'
       ],
-      'orig' => '{isotadorak',
+      'orig' => 'Aisotadorak',
       'prefix' => ''
     },
     {
@@ -1801,7 +1804,7 @@ $Lexicon = {
         'correction',
         'setting the record straight'
       ],
-      'orig' => '{isotidorAk',
+      'orig' => 'AisotidorAk',
       'prefix' => ''
     },
     {
@@ -2602,7 +2605,7 @@ $Lexicon = {
         'cicatrize',
         'fester'
       ],
-      'orig' => '{inodamal',
+      'orig' => 'Ainodamal',
       'prefix' => ''
     },
     {
@@ -3267,7 +3270,7 @@ $Lexicon = {
         'claim',
         'prosecution'
       ],
-      'orig' => '{id~iEA\'',
+      'orig' => 'Aid~iEA\'',
       'prefix' => ''
     },
     {
@@ -3308,7 +3311,7 @@ $Lexicon = {
         'petition',
         'petitions'
       ],
-      'orig' => '{isotidoEA\'',
+      'orig' => 'AisotidoEA\'',
       'prefix' => ''
     }
   ],
@@ -3846,7 +3849,7 @@ $Lexicon = {
       'glosses' => [
         'get warm'
       ],
-      'orig' => '{id~afaO',
+      'orig' => 'Aid~afaO',
       'prefix' => ''
     },
     {
@@ -3879,7 +3882,7 @@ $Lexicon = {
       'glosses' => [
         'be warmed'
       ],
-      'orig' => '{isotadofaO',
+      'orig' => 'AisotadofaO',
       'prefix' => ''
     },
     {
@@ -5499,7 +5502,7 @@ $Lexicon = {
         'be trampled',
         'be run over'
       ],
-      'orig' => '{inodaEas',
+      'orig' => 'AinodaEas',
       'prefix' => ''
     },
     {
@@ -9057,7 +9060,7 @@ $Lexicon = {
         'sneak',
         'be hidden'
       ],
-      'orig' => '{inodas~',
+      'orig' => 'Ainodas~',
       'prefix' => ''
     },
     {
@@ -9598,7 +9601,7 @@ $Lexicon = {
         'be poured',
         'rush forward'
       ],
-      'orig' => '{inodalaq',
+      'orig' => 'Ainodalaq',
       'prefix' => ''
     },
     {
@@ -11276,7 +11279,7 @@ $Lexicon = {
         'be buried',
         'be hidden'
       ],
-      'orig' => '{inodafan',
+      'orig' => 'Ainodafan',
       'prefix' => ''
     },
     {
@@ -13670,7 +13673,7 @@ $Lexicon = {
       'glosses' => [
         'turn the back'
       ],
-      'orig' => '{isotadobar',
+      'orig' => 'Aisotadobar',
       'prefix' => ''
     },
     {
@@ -15151,7 +15154,7 @@ $Lexicon = {
         'be wiped out',
         'be effaced'
       ],
-      'orig' => '{inodaras',
+      'orig' => 'Ainodaras',
       'prefix' => ''
     },
     {
@@ -16497,7 +16500,7 @@ $Lexicon = {
         'be tanned',
         'be dyed'
       ],
-      'orig' => '{inodabag',
+      'orig' => 'Ainodabag',
       'prefix' => ''
     },
     {
@@ -17253,7 +17256,7 @@ $Lexicon = {
         'be inserted',
         'be integrated'
       ],
-      'orig' => '{inodamaj',
+      'orig' => 'Ainodamaj',
       'prefix' => ''
     },
     {
@@ -17354,7 +17357,7 @@ $Lexicon = {
         'fusion',
         'assimilation'
       ],
-      'orig' => '{inodimAj',
+      'orig' => 'AinodimAj',
       'prefix' => ''
     },
     {
@@ -17646,7 +17649,7 @@ $Lexicon = {
         'infer',
         'conclude'
       ],
-      'orig' => '{isotadal~',
+      'orig' => 'Aisotadal~',
       'prefix' => ''
     },
     {
@@ -18054,7 +18057,7 @@ $Lexicon = {
         'inference',
         'proof'
       ],
-      'orig' => '{isotidolAl',
+      'orig' => 'AisotidolAl',
       'prefix' => ''
     },
     {
@@ -18280,7 +18283,7 @@ $Lexicon = {
       'entry' => 'dabak',
       'form' => 'dabak',
       'lines' => [
-        ';; dabak_1',
+        ';; dabak-u_1',
         'dbk     dabak   PV      stamp the feet;dance the dabka',
         'dbk     dobuk   IV      stamp the feet;dance the dabka'
       ],
@@ -18292,12 +18295,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'stamp the feet',
         'dance the dabka'
       ],
-      'orig' => 'dabak',
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'dabak-u',
       'prefix' => ''
     },
     {
@@ -19025,7 +19031,7 @@ $Lexicon = {
         'meddle',
         'mix'
       ],
-      'orig' => '{inodaHa$',
+      'orig' => 'AinodaHa$',
       'prefix' => ''
     }
   ],
@@ -19444,7 +19450,7 @@ $Lexicon = {
         'be gloomy',
         'be pitch-black'
       ],
-      'orig' => '{idolaham~',
+      'orig' => 'Aidolaham~',
       'prefix' => ''
     },
     {
@@ -20478,7 +20484,7 @@ $Lexicon = {
       'glosses' => [
         'be broken'
       ],
-      'orig' => '{inodaq~',
+      'orig' => 'Ainodaq~',
       'prefix' => ''
     },
     {
@@ -20518,7 +20524,7 @@ $Lexicon = {
         'be fine',
         'be thin'
       ],
-      'orig' => '{isotadaq~',
+      'orig' => 'Aisotadaq~',
       'prefix' => ''
     },
     {
@@ -21399,7 +21405,7 @@ $Lexicon = {
         'rush out',
         'burst out'
       ],
-      'orig' => '{inodafaq',
+      'orig' => 'Ainodafaq',
       'prefix' => ''
     },
     {
@@ -22097,7 +22103,7 @@ $Lexicon = {
         'be supported',
         'be based on'
       ],
-      'orig' => '{id~aEam',
+      'orig' => 'Aid~aEam',
       'prefix' => ''
     },
     {
@@ -22611,7 +22617,7 @@ $Lexicon = {
         'stream',
         'be abundant'
       ],
-      'orig' => '{isotadar~',
+      'orig' => 'Aisotadar~',
       'prefix' => ''
     },
     {
@@ -22950,7 +22956,7 @@ $Lexicon = {
         'break out',
         'flare up'
       ],
-      'orig' => '{inodalaE',
+      'orig' => 'AinodalaE',
       'prefix' => ''
     },
     {
@@ -23022,7 +23028,7 @@ $Lexicon = {
       'glosses' => [
         'breaking out'
       ],
-      'orig' => '{inodilAE',
+      'orig' => 'AinodilAE',
       'prefix' => ''
     },
     {
@@ -23899,7 +23905,7 @@ $Lexicon = {
         'claim',
         'testify'
       ],
-      'orig' => '{id~aEaY',
+      'orig' => 'Aid~aEaY',
       'prefix' => ''
     },
     {
@@ -23951,7 +23957,7 @@ $Lexicon = {
         'be summoned',
         'be invoked'
       ],
-      'orig' => '{isotadoEaY',
+      'orig' => 'AisotadoEaY',
       'prefix' => ''
     },
     {
@@ -24211,7 +24217,7 @@ $Lexicon = {
       'morphs' => 'IFtiCA\'',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{id~iEA\'',
+      'orig' => 'Aid~iEA\'',
       'prefix' => ''
     },
     {
@@ -24225,7 +24231,7 @@ $Lexicon = {
       'morphs' => 'IstiFCA\'',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{isotidoEA\'',
+      'orig' => 'AisotidoEA\'',
       'prefix' => ''
     },
     {
@@ -24567,7 +24573,7 @@ $Lexicon = {
       'glosses' => [
         'become black'
       ],
-      'orig' => '{idoham~',
+      'orig' => 'Aidoham~',
       'prefix' => ''
     },
     {
@@ -24923,7 +24929,7 @@ $Lexicon = {
         'turn around',
         'encircle'
       ],
-      'orig' => '{isotadAr',
+      'orig' => 'AisotadAr',
       'prefix' => ''
     },
     {
@@ -25698,7 +25704,7 @@ $Lexicon = {
         'circularity',
         'roundness'
       ],
-      'orig' => '{isotidArap',
+      'orig' => 'AisotidArap',
       'prefix' => ''
     },
     {
@@ -26561,7 +26567,7 @@ $Lexicon = {
         'be incorporated',
         'be embodied'
       ],
-      'orig' => '{inodagam',
+      'orig' => 'Ainodagam',
       'prefix' => ''
     },
     {
@@ -26592,7 +26598,7 @@ $Lexicon = {
         'insert',
         'embody'
       ],
-      'orig' => '{id~agam',
+      'orig' => 'Aid~agam',
       'prefix' => ''
     },
     {
@@ -26642,7 +26648,7 @@ $Lexicon = {
         'incorporation',
         'coalescence'
       ],
-      'orig' => '{id~igAm',
+      'orig' => 'Aid~igAm',
       'prefix' => ''
     }
   ],
@@ -26922,7 +26928,7 @@ $Lexicon = {
         'be pushed',
         'be propelled'
       ],
-      'orig' => '{inodafaE',
+      'orig' => 'AinodafaE',
       'prefix' => ''
     },
     {
@@ -26948,7 +26954,7 @@ $Lexicon = {
       'glosses' => [
         'try to ward off'
       ],
-      'orig' => '{isotadofaE',
+      'orig' => 'AisotadofaE',
       'prefix' => ''
     },
     {
@@ -27338,7 +27344,7 @@ $Lexicon = {
         'breaking forth',
         'eruption'
       ],
-      'orig' => '{inodifAE',
+      'orig' => 'AinodifAE',
       'prefix' => ''
     },
     {
@@ -27363,7 +27369,7 @@ $Lexicon = {
         'outbreak',
         'outburst'
       ],
-      'orig' => '{inodifAEap',
+      'orig' => 'AinodifAEap',
       'prefix' => ''
     },
     {
@@ -28098,7 +28104,7 @@ $Lexicon = {
         'be crushed',
         'be run over'
       ],
-      'orig' => '{inodAs',
+      'orig' => 'AinodAs',
       'prefix' => ''
     },
     {
@@ -28573,7 +28579,7 @@ $Lexicon = {
         'be crushed',
         'be leveled'
       ],
-      'orig' => '{inodak~',
+      'orig' => 'Ainodak~',
       'prefix' => ''
     },
     {
@@ -28767,7 +28773,7 @@ $Lexicon = {
         'crushing',
         'leveling'
       ],
-      'orig' => '{inodikAk',
+      'orig' => 'AinodikAk',
       'prefix' => ''
     }
   ],
@@ -29604,7 +29610,7 @@ $Lexicon = {
       'glosses' => [
         'borrow'
       ],
-      'orig' => '{isotadAn',
+      'orig' => 'AisotadAn',
       'prefix' => ''
     },
     {
@@ -29708,7 +29714,7 @@ $Lexicon = {
       'glosses' => [
         'incurrence of debts'
       ],
-      'orig' => '{isotidAnap',
+      'orig' => 'AisotidAnap',
       'prefix' => ''
     },
     {
@@ -30211,7 +30217,7 @@ $Lexicon = {
         'become extinct',
         'be forgotten'
       ],
-      'orig' => '{inodavar',
+      'orig' => 'Ainodavar',
       'prefix' => ''
     },
     {
@@ -30242,7 +30248,7 @@ $Lexicon = {
         'wrap oneself',
         'cover oneself'
       ],
-      'orig' => '{id~avar',
+      'orig' => 'Aid~avar',
       'prefix' => ''
     },
     {
@@ -31022,7 +31028,7 @@ $Lexicon = {
         'be inserted',
         'be classified'
       ],
-      'orig' => '{inodaraj',
+      'orig' => 'Ainodaraj',
       'prefix' => ''
     },
     {
@@ -31049,7 +31055,7 @@ $Lexicon = {
         'promote',
         'advance gradually'
       ],
-      'orig' => '{isotadoraj',
+      'orig' => 'Aisotadoraj',
       'prefix' => ''
     },
     {
@@ -31467,7 +31473,7 @@ $Lexicon = {
         'persuasion',
         'appeal'
       ],
-      'orig' => '{isotidorAj',
+      'orig' => 'AisotidorAj',
       'prefix' => ''
     },
     {
@@ -32589,7 +32595,7 @@ $Lexicon = {
         'be near',
         'approach'
       ],
-      'orig' => '{id~anaY',
+      'orig' => 'Aid~anaY',
       'prefix' => ''
     },
     {
@@ -32634,7 +32640,7 @@ $Lexicon = {
       'glosses' => [
         'reach out'
       ],
-      'orig' => '{isotadonaY',
+      'orig' => 'AisotadonaY',
       'prefix' => ''
     },
     {
@@ -33787,33 +33793,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAdAm' => [
-    {
-      'types' => {
-        'mAdum' => {
-          'PV_C_intr' => 1
-        },
-        'mAdAm' => {}
-      },
-      'entry' => 'mAdAm',
-      'form' => 'mAdAm',
-      'lines' => [
-        ';; mAdAm_1',
-        'mAdAm   mAdAm   PV_V_intr       as long as',
-        'mAdm    mAdum   PV_C_intr       as long as'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'as long as'
-      ],
-      'orig' => 'mAdAm',
-      'prefix' => ''
-    }
-  ],
   'd w .h' => [
     {
       'types' => {
@@ -33852,7 +33831,7 @@ $Lexicon = {
         'extend',
         'spread out'
       ],
-      'orig' => '{id~AH',
+      'orig' => 'Aid~AH',
       'prefix' => ''
     },
     {
@@ -34875,7 +34854,7 @@ $Lexicon = {
       'glosses' => [
         'deep black'
       ],
-      'orig' => '{idolihomAm',
+      'orig' => 'AidolihomAm',
       'prefix' => ''
     }
   ],
@@ -35924,7 +35903,7 @@ $Lexicon = {
         'be defeated',
         'collapse'
       ],
-      'orig' => '{id~aHar',
+      'orig' => 'Aid~aHar',
       'prefix' => ''
     },
     {
@@ -35973,7 +35952,7 @@ $Lexicon = {
         'banishment',
         'rejection'
       ],
-      'orig' => '{inodiHAr',
+      'orig' => 'AinodiHAr',
       'prefix' => ''
     },
     {
@@ -36003,7 +35982,7 @@ $Lexicon = {
         'defeat',
         'collapse'
       ],
-      'orig' => '{inodiHArAt',
+      'orig' => 'AinodiHArAt',
       'prefix' => ''
     },
     {
@@ -37547,7 +37526,7 @@ $Lexicon = {
         'be destroyed',
         'be wrecked'
       ],
-      'orig' => '{inodamar',
+      'orig' => 'Ainodamar',
       'prefix' => ''
     },
     {
@@ -37620,7 +37599,7 @@ $Lexicon = {
         'destruction',
         'annihilation'
       ],
-      'orig' => '{inodimAr',
+      'orig' => 'AinodimAr',
       'prefix' => ''
     },
     {
@@ -38003,7 +37982,7 @@ $Lexicon = {
         'be armed',
         'be equipped'
       ],
-      'orig' => '{id~araE',
+      'orig' => 'Aid~araE',
       'prefix' => ''
     },
     {

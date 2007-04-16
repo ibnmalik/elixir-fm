@@ -544,7 +544,7 @@ $Lexicon = {
         'be disgusted',
         'be nauseated'
       ],
-      'orig' => '{i$omaOaz~',
+      'orig' => 'Ai$omaOaz~',
       'prefix' => ''
     }
   ],
@@ -1018,7 +1018,7 @@ $Lexicon = {
         'be immobilized',
         'be neutralized'
       ],
-      'orig' => '{ino$al~',
+      'orig' => 'Aino$al~',
       'prefix' => ''
     },
     {
@@ -1314,7 +1314,7 @@ $Lexicon = {
         'drink up',
         'consume'
       ],
-      'orig' => '{i$otaf~',
+      'orig' => 'Ai$otaf~',
       'prefix' => ''
     },
     {
@@ -1354,7 +1354,7 @@ $Lexicon = {
         'perceive',
         'see through'
       ],
-      'orig' => '{isota$af~',
+      'orig' => 'Aisota$af~',
       'prefix' => ''
     },
     {
@@ -1530,7 +1530,7 @@ $Lexicon = {
       'glosses' => [
         'tracing'
       ],
-      'orig' => '{isoti$ofAf',
+      'orig' => 'Aisoti$ofAf',
       'prefix' => ''
     }
   ],
@@ -2445,7 +2445,7 @@ $Lexicon = {
         'enact',
         'prescribe'
       ],
-      'orig' => '{i$otaraE',
+      'orig' => 'Ai$otaraE',
       'prefix' => ''
     },
     {
@@ -2826,7 +2826,7 @@ $Lexicon = {
         'legislation',
         'law making'
       ],
-      'orig' => '{i$otirAE',
+      'orig' => 'Ai$otirAE',
       'prefix' => ''
     },
     {
@@ -2850,7 +2850,7 @@ $Lexicon = {
       'glosses' => [
         'legislative'
       ],
-      'orig' => '{i$otirAEiy~',
+      'orig' => 'Ai$otirAEiy~',
       'prefix' => ''
     },
     {
@@ -3320,7 +3320,7 @@ $Lexicon = {
         'smell',
         'sniff'
       ],
-      'orig' => '{i$otam~',
+      'orig' => 'Ai$otam~',
       'prefix' => ''
     }
   ],
@@ -4368,7 +4368,7 @@ $Lexicon = {
         'diverge',
         'branch out'
       ],
-      'orig' => '{ino$aEab',
+      'orig' => 'Aino$aEab',
       'prefix' => ''
     },
     {
@@ -4399,7 +4399,7 @@ $Lexicon = {
         'diverge',
         'branch out'
       ],
-      'orig' => '{i$otaEab',
+      'orig' => 'Ai$otaEab',
       'prefix' => ''
     },
     {
@@ -4863,7 +4863,7 @@ $Lexicon = {
       'glosses' => [
         'ramification'
       ],
-      'orig' => '{ino$iEAb',
+      'orig' => 'Aino$iEAb',
       'prefix' => ''
     },
     {
@@ -5882,7 +5882,7 @@ $Lexicon = {
         'desire',
         'love'
       ],
-      'orig' => '{i$otAq',
+      'orig' => 'Ai$otAq',
       'prefix' => ''
     },
     {
@@ -5990,7 +5990,7 @@ $Lexicon = {
         'desire',
         'craving'
       ],
-      'orig' => '{i$otiyAq',
+      'orig' => 'Ai$otiyAq',
       'prefix' => ''
     },
     {
@@ -6400,7 +6400,7 @@ $Lexicon = {
       'glosses' => [
         'regard as dubious'
       ],
-      'orig' => '{isota$okal',
+      'orig' => 'Aisota$okal',
       'prefix' => ''
     },
     {
@@ -7226,7 +7226,7 @@ $Lexicon = {
       'glosses' => [
         'participate'
       ],
-      'orig' => '{i$otarak',
+      'orig' => 'Ai$otarak',
       'prefix' => ''
     },
     {
@@ -7511,7 +7511,7 @@ $Lexicon = {
         'partnership',
         'participation'
       ],
-      'orig' => '{i$otirAk',
+      'orig' => 'Ai$otirAk',
       'prefix' => ''
     },
     {
@@ -7539,7 +7539,7 @@ $Lexicon = {
         'subscription',
         'subscriptions'
       ],
-      'orig' => '{i$otirAk',
+      'orig' => 'Ai$otirAk',
       'prefix' => ''
     },
     {
@@ -7563,7 +7563,7 @@ $Lexicon = {
       'glosses' => [
         'socialist'
       ],
-      'orig' => '{i$otirAkiy~',
+      'orig' => 'Ai$otirAkiy~',
       'prefix' => ''
     },
     {
@@ -7587,7 +7587,7 @@ $Lexicon = {
       'glosses' => [
         'socialism'
       ],
-      'orig' => '{i$otirAkiy~ap',
+      'orig' => 'Ai$otirAkiy~ap',
       'prefix' => ''
     },
     {
@@ -8524,7 +8524,7 @@ $Lexicon = {
         'be martyred',
         'die in battle'
       ],
-      'orig' => '{isota$ohad',
+      'orig' => 'Aisota$ohad',
       'prefix' => ''
     },
     {
@@ -8942,7 +8942,7 @@ $Lexicon = {
       'glosses' => [
         'martyrdom'
       ],
-      'orig' => '{isoti$ohAd',
+      'orig' => 'Aisoti$ohAd',
       'prefix' => ''
     },
     {
@@ -8966,7 +8966,7 @@ $Lexicon = {
       'glosses' => [
         'quotation'
       ],
-      'orig' => '{isoti$ohAd',
+      'orig' => 'Aisoti$ohAd',
       'prefix' => ''
     },
     {
@@ -8992,7 +8992,7 @@ $Lexicon = {
       'glosses' => [
         'martyr ("suicide" in Western media)'
       ],
-      'orig' => '{isoti$ohAdiy~',
+      'orig' => 'Aisoti$ohAdiy~',
       'prefix' => ''
     }
   ],
@@ -9672,7 +9672,7 @@ $Lexicon = {
       'entry' => '^safY',
       'form' => '^safY',
       'lines' => [
-        ';; $afaY_1',
+        ';; $afaY-i_1',
         '$fY     $afaY   PV_0    cure;heal',
         '$fA     $afA    PV_h    cure;heal',
         '$fy     $afay   PV_Atn  cure;heal',
@@ -9695,12 +9695,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCY',
-      'suffix' => '',
       'glosses' => [
         'cure',
         'heal'
       ],
-      'orig' => '$afaY',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => '$afaY-i',
       'prefix' => ''
     },
     {
@@ -9853,7 +9856,7 @@ $Lexicon = {
         'be cured',
         'be healed'
       ],
-      'orig' => '{i$otafaY',
+      'orig' => 'Ai$otafaY',
       'prefix' => ''
     },
     {
@@ -9904,7 +9907,7 @@ $Lexicon = {
         'hospitalize',
         'be hospitalized'
       ],
-      'orig' => '{isota$ofaY',
+      'orig' => 'Aisota$ofaY',
       'prefix' => ''
     },
     {
@@ -10075,7 +10078,7 @@ $Lexicon = {
       'glosses' => [
         'hospitalization'
       ],
-      'orig' => '{isoti$ofA\'',
+      'orig' => 'Aisoti$ofA\'',
       'prefix' => ''
     },
     {
@@ -10099,7 +10102,7 @@ $Lexicon = {
       'glosses' => [
         'hospitalization'
       ],
-      'orig' => '{isoti$ofA}iy~',
+      'orig' => 'Aisoti$ofA}iy~',
       'prefix' => ''
     },
     {
@@ -10514,7 +10517,7 @@ $Lexicon = {
         'be infatuated',
         'fall in love'
       ],
-      'orig' => '{ino$agaf',
+      'orig' => 'Aino$agaf',
       'prefix' => ''
     },
     {
@@ -11242,7 +11245,7 @@ $Lexicon = {
         'study the East',
         'be an Orientalist'
       ],
-      'orig' => '{isota$oraq',
+      'orig' => 'Aisota$oraq',
       'prefix' => ''
     },
     {
@@ -11649,7 +11652,7 @@ $Lexicon = {
       'glosses' => [
         'Orientalism'
       ],
-      'orig' => '{isoti$orAq',
+      'orig' => 'Aisoti$orAq',
       'prefix' => ''
     },
     {
@@ -11675,7 +11678,7 @@ $Lexicon = {
       'glosses' => [
         'Orientalist'
       ],
-      'orig' => '{isoti$orAqiy~',
+      'orig' => 'Aisoti$orAqiy~',
       'prefix' => ''
     },
     {
@@ -12500,7 +12503,7 @@ $Lexicon = {
       'glosses' => [
         'intensify'
       ],
-      'orig' => '{i$otad~',
+      'orig' => 'Ai$otad~',
       'prefix' => ''
     },
     {
@@ -12525,7 +12528,7 @@ $Lexicon = {
         'intensification',
         'aggravation'
       ],
-      'orig' => '{i$otidAd',
+      'orig' => 'Ai$otidAd',
       'prefix' => ''
     }
   ],
@@ -14237,7 +14240,7 @@ $Lexicon = {
         'be of fair complexion',
         'be blond'
       ],
-      'orig' => '{i$oqar~',
+      'orig' => 'Ai$oqar~',
       'prefix' => ''
     },
     {
@@ -15297,7 +15300,7 @@ $Lexicon = {
         'complaints',
         'recriminations'
       ],
-      'orig' => '{i$otikA\'',
+      'orig' => 'Ai$otikA\'',
       'prefix' => ''
     }
   ],
@@ -15611,7 +15614,7 @@ $Lexicon = {
         'purchase',
         'be purchased'
       ],
-      'orig' => '{i$otaraY',
+      'orig' => 'Ai$otaraY',
       'prefix' => ''
     },
     {
@@ -15660,7 +15663,7 @@ $Lexicon = {
       'glosses' => [
         'deteriorate'
       ],
-      'orig' => '{isota$oraY',
+      'orig' => 'Aisota$oraY',
       'prefix' => ''
     },
     {
@@ -15810,7 +15813,7 @@ $Lexicon = {
         'purchase',
         'purchases'
       ],
-      'orig' => '{i$otirA\'',
+      'orig' => 'Ai$otirA\'',
       'prefix' => ''
     },
     {
@@ -16851,7 +16854,7 @@ $Lexicon = {
       'glosses' => [
         'derive'
       ],
-      'orig' => '{i$otaq~',
+      'orig' => 'Ai$otaq~',
       'prefix' => ''
     },
     {
@@ -16875,7 +16878,7 @@ $Lexicon = {
       'glosses' => [
         'derivation'
       ],
-      'orig' => '{i$otiqAq',
+      'orig' => 'Ai$otiqAq',
       'prefix' => ''
     },
     {
@@ -16899,7 +16902,7 @@ $Lexicon = {
       'glosses' => [
         'derivational'
       ],
-      'orig' => '{i$otiqAqiy~',
+      'orig' => 'Ai$otiqAqiy~',
       'prefix' => ''
     },
     {
@@ -17110,7 +17113,7 @@ $Lexicon = {
       'entry' => '^sAf',
       'form' => '^sAf',
       'lines' => [
-        ';; $Af_1',
+        ';; $Af-u_1',
         '$Af     $Af     PV_V    look',
         '$f      $uf     PV_C    look',
         '$wf     $uwf    IV_V    look',
@@ -17126,11 +17129,14 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
-      'suffix' => '',
       'glosses' => [
         'look'
       ],
-      'orig' => '$Af',
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => '$Af-u',
       'prefix' => ''
     },
     {
@@ -18232,7 +18238,7 @@ $Lexicon = {
       'glosses' => [
         'regard as an evil omen'
       ],
-      'orig' => '{isota$oOam',
+      'orig' => 'Aisota$oOam',
       'prefix' => ''
     },
     {
@@ -18590,7 +18596,7 @@ $Lexicon = {
         'clash',
         'engage'
       ],
-      'orig' => '{i$otabak',
+      'orig' => 'Ai$otabak',
       'prefix' => ''
     },
     {
@@ -18810,7 +18816,7 @@ $Lexicon = {
         'skirmishes',
         'clashes'
       ],
-      'orig' => '{i$otibAk',
+      'orig' => 'Ai$otibAk',
       'prefix' => ''
     },
     {
@@ -20279,7 +20285,7 @@ $Lexicon = {
       'entry' => '^saqiy',
       'form' => '^saqiy',
       'lines' => [
-        ';; $aqiy_1',
+        ';; $aqiy-a_1',
         '$qy     $aqiy   PV_no-w_intr    be unhappy;suffer',
         '$q      $aq     PV_w_intr       be unhappy;suffer',
         '$qY     $oqaY   IV_0    be unhappy;suffer',
@@ -20297,12 +20303,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCiL',
-      'suffix' => '',
       'glosses' => [
         'be unhappy',
         'suffer'
       ],
-      'orig' => '$aqiy',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => '$aqiy-a',
       'prefix' => ''
     },
     {
@@ -21006,7 +21015,7 @@ $Lexicon = {
         'be gigantic',
         'be proud'
       ],
-      'orig' => '{i$omaxar~',
+      'orig' => 'Ai$omaxar~',
       'prefix' => ''
     }
   ],
@@ -21586,7 +21595,7 @@ $Lexicon = {
         'crane the neck',
         'stretch the neck'
       ],
-      'orig' => '{i$oraOab~',
+      'orig' => 'Ai$oraOab~',
       'prefix' => ''
     }
   ],
@@ -22537,7 +22546,7 @@ $Lexicon = {
         'be excessive',
         'go too far'
       ],
-      'orig' => '{i$otaT~',
+      'orig' => 'Ai$otaT~',
       'prefix' => ''
     },
     {
@@ -22870,7 +22879,7 @@ $Lexicon = {
         'flare up',
         'be enraged'
       ],
-      'orig' => '{isota$AT',
+      'orig' => 'Aisota$AT',
       'prefix' => ''
     },
     {
@@ -22941,7 +22950,7 @@ $Lexicon = {
       'glosses' => [
         'burning'
       ],
-      'orig' => '{isoti$ATap',
+      'orig' => 'Aisoti$ATap',
       'prefix' => ''
     },
     {
@@ -23636,7 +23645,7 @@ $Lexicon = {
         'observe',
         'scan'
       ],
-      'orig' => '{isota$oraf',
+      'orig' => 'Aisota$oraf',
       'prefix' => ''
     },
     {
@@ -24215,7 +24224,7 @@ $Lexicon = {
         'observation',
         'supervision'
       ],
-      'orig' => '{isoti$orAf',
+      'orig' => 'Aisoti$orAf',
       'prefix' => ''
     },
     {
@@ -24663,7 +24672,7 @@ $Lexicon = {
         'craning the neck',
         'stretching the neck'
       ],
-      'orig' => '{i$ori}obAb',
+      'orig' => 'Ai$ori}obAb',
       'prefix' => ''
     }
   ],
@@ -25515,7 +25524,7 @@ $Lexicon = {
         'be split',
         'disintegrate'
       ],
-      'orig' => '{ino$aTar',
+      'orig' => 'Aino$aTar',
       'prefix' => ''
     },
     {
@@ -25699,7 +25708,7 @@ $Lexicon = {
         'fission',
         'separation'
       ],
-      'orig' => '{i$otiTAr',
+      'orig' => 'Ai$otiTAr',
       'prefix' => ''
     },
     {
@@ -25969,7 +25978,7 @@ $Lexicon = {
       'glosses' => [
         'turn gray'
       ],
-      'orig' => '{i$omaT~',
+      'orig' => 'Ai$omaT~',
       'prefix' => ''
     },
     {
@@ -26059,7 +26068,7 @@ $Lexicon = {
       'glosses' => [
         'graying'
       ],
-      'orig' => '{i$omiTAT',
+      'orig' => 'Ai$omiTAT',
       'prefix' => ''
     }
   ],
@@ -26915,7 +26924,7 @@ $Lexicon = {
         'repugnance',
         'disgust'
       ],
-      'orig' => '{i$omi}ozAz',
+      'orig' => 'Ai$omi}ozAz',
       'prefix' => ''
     }
   ],
@@ -27382,7 +27391,7 @@ $Lexicon = {
         'keep busy',
         'be occupied'
       ],
-      'orig' => '{ino$agal',
+      'orig' => 'Aino$agal',
       'prefix' => ''
     },
     {
@@ -27413,7 +27422,7 @@ $Lexicon = {
         'work',
         'operate'
       ],
-      'orig' => '{i$otagal',
+      'orig' => 'Ai$otagal',
       'prefix' => ''
     },
     {
@@ -27683,7 +27692,7 @@ $Lexicon = {
         'busy',
         'occupation'
       ],
-      'orig' => '{ino$igAl',
+      'orig' => 'Aino$igAl',
       'prefix' => ''
     },
     {
@@ -27708,7 +27717,7 @@ $Lexicon = {
         'preoccupied',
         'functioning'
       ],
-      'orig' => '{i$otigAl',
+      'orig' => 'Ai$otigAl',
       'prefix' => ''
     },
     {
@@ -28047,7 +28056,7 @@ $Lexicon = {
       'glosses' => [
         'split off'
       ],
-      'orig' => '{ino$aq~',
+      'orig' => 'Aino$aq~',
       'prefix' => ''
     },
     {
@@ -28071,7 +28080,7 @@ $Lexicon = {
       'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{i$otaq~',
+      'orig' => 'Ai$otaq~',
       'prefix' => ''
     },
     {
@@ -28461,7 +28470,7 @@ $Lexicon = {
         'splitting off',
         'dissension'
       ],
-      'orig' => '{ino$iqAq',
+      'orig' => 'Aino$iqAq',
       'prefix' => ''
     },
     {
@@ -28486,7 +28495,7 @@ $Lexicon = {
         'renegade',
         'dissenting'
       ],
-      'orig' => '{ino$iqAqiy~',
+      'orig' => 'Aino$iqAqiy~',
       'prefix' => ''
     },
     {
@@ -28500,7 +28509,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{i$otiqAq',
+      'orig' => 'Ai$otiqAq',
       'prefix' => ''
     },
     {
@@ -28514,7 +28523,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [],
-      'orig' => '{i$otiqAqiy~',
+      'orig' => 'Ai$otiqAqiy~',
       'prefix' => ''
     },
     {
@@ -29201,7 +29210,7 @@ $Lexicon = {
         'complain',
         'be complained'
       ],
-      'orig' => '{i$otakaY',
+      'orig' => 'Ai$otakaY',
       'prefix' => ''
     },
     {
@@ -29422,7 +29431,7 @@ $Lexicon = {
       'morphs' => 'IFtiCA\'',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{i$otikA\'',
+      'orig' => 'Ai$otikA\'',
       'prefix' => ''
     },
     {
@@ -30034,7 +30043,7 @@ $Lexicon = {
       'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{i$otad~',
+      'orig' => 'Ai$otad~',
       'prefix' => ''
     },
     {
@@ -30338,7 +30347,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{i$otidAd',
+      'orig' => 'Ai$otidAd',
       'prefix' => ''
     },
     {
@@ -30758,7 +30767,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{i$otaf~',
+      'orig' => 'Ai$otaf~',
       'prefix' => ''
     }
   ],
@@ -31280,7 +31289,7 @@ $Lexicon = {
       'glosses' => [
         'fluorescence'
       ],
-      'orig' => '{isoti$oEAE',
+      'orig' => 'Aisoti$oEAE',
       'prefix' => ''
     },
     {
@@ -31403,7 +31412,7 @@ $Lexicon = {
       'morphs' => 'IstiFCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{isoti$ofA\'',
+      'orig' => 'Aisoti$ofA\'',
       'prefix' => ''
     },
     {
@@ -31417,7 +31426,7 @@ $Lexicon = {
       'morphs' => 'IstiFCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [],
-      'orig' => '{isoti$ofA}iy~',
+      'orig' => 'Aisoti$ofA}iy~',
       'prefix' => ''
     }
   ],
@@ -32641,7 +32650,7 @@ $Lexicon = {
         'contain',
         'comprise'
       ],
-      'orig' => '{i$otamal',
+      'orig' => 'Ai$otamal',
       'prefix' => ''
     },
     {
@@ -33584,7 +33593,7 @@ $Lexicon = {
         'stipulate',
         'be prerequisite'
       ],
-      'orig' => '{i$otaraT',
+      'orig' => 'Ai$otaraT',
       'prefix' => ''
     },
     {
@@ -33968,7 +33977,7 @@ $Lexicon = {
         'proviso',
         'stipulation'
       ],
-      'orig' => '{i$otirAT',
+      'orig' => 'Ai$otirAT',
       'prefix' => ''
     },
     {
@@ -33993,7 +34002,7 @@ $Lexicon = {
         'clause',
         'condition'
       ],
-      'orig' => '{i$otirATiy~ap',
+      'orig' => 'Ai$otirATiy~ap',
       'prefix' => ''
     },
     {
@@ -34061,7 +34070,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{i$otirA\'',
+      'orig' => 'Ai$otirA\'',
       'prefix' => ''
     }
   ],
@@ -35030,7 +35039,7 @@ $Lexicon = {
         'be desired',
         'be craved'
       ],
-      'orig' => '{i$otahaY',
+      'orig' => 'Ai$otahaY',
       'prefix' => ''
     },
     {
@@ -35122,7 +35131,7 @@ $Lexicon = {
         'greed',
         'appetite'
       ],
-      'orig' => '{i$otihA\'',
+      'orig' => 'Ai$otihA\'',
       'prefix' => ''
     },
     {
@@ -35403,7 +35412,7 @@ $Lexicon = {
       'entry' => '^saba.t',
       'form' => '^saba.t',
       'lines' => [
-        ';; $abaT_1',
+        ';; $abaT-i_1',
         '$bT     $abaT   PV      cling;hold on',
         '$bT     $obiT   IV      cling;hold on'
       ],
@@ -35415,12 +35424,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'cling',
         'hold on'
       ],
-      'orig' => '$abaT',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => '$abaT-i',
       'prefix' => ''
     },
     {
@@ -37647,7 +37659,7 @@ $Lexicon = {
         'consult',
         'seek the advice of'
       ],
-      'orig' => '{isota$Ar',
+      'orig' => 'Aisota$Ar',
       'prefix' => ''
     },
     {
@@ -37938,7 +37950,7 @@ $Lexicon = {
       'glosses' => [
         'consultation'
       ],
-      'orig' => '{isoti$Arap',
+      'orig' => 'Aisoti$Arap',
       'prefix' => ''
     },
     {
@@ -37964,7 +37976,7 @@ $Lexicon = {
         'consultative',
         'consulting'
       ],
-      'orig' => '{isoti$Ariy~',
+      'orig' => 'Aisoti$Ariy~',
       'prefix' => ''
     },
     {
@@ -38425,7 +38437,7 @@ $Lexicon = {
         'realize',
         'have a premonition of'
       ],
-      'orig' => '{isota$oEar',
+      'orig' => 'Aisota$oEar',
       'prefix' => ''
     },
     {
@@ -38827,7 +38839,7 @@ $Lexicon = {
         'premonition',
         'feeling'
       ],
-      'orig' => '{isoti$oEAr',
+      'orig' => 'Aisoti$oEAr',
       'prefix' => ''
     },
     {
@@ -39125,7 +39137,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{i$otiyAq',
+      'orig' => 'Ai$otiyAq',
       'prefix' => ''
     }
   ],
@@ -40978,7 +40990,7 @@ $Lexicon = {
         'be doubtful',
         'be suspected'
       ],
-      'orig' => '{i$otabah',
+      'orig' => 'Ai$otabah',
       'prefix' => ''
     },
     {
@@ -41292,7 +41304,7 @@ $Lexicon = {
         'similarity',
         'dubiousness'
       ],
-      'orig' => '{i$otibAh',
+      'orig' => 'Ai$otibAh',
       'prefix' => ''
     },
     {
@@ -42034,7 +42046,7 @@ $Lexicon = {
       'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{i$otam~',
+      'orig' => 'Ai$otam~',
       'prefix' => ''
     },
     {
@@ -42998,7 +43010,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{i$otaT~',
+      'orig' => 'Ai$otaT~',
       'prefix' => ''
     }
   ],
@@ -45250,7 +45262,7 @@ $Lexicon = {
         'flare up',
         'catch fire'
       ],
-      'orig' => '{i$otaEal',
+      'orig' => 'Ai$otaEal',
       'prefix' => ''
     },
     {
@@ -45488,7 +45500,7 @@ $Lexicon = {
         'burning',
         'ignition'
       ],
-      'orig' => '{i$otiEAl',
+      'orig' => 'Ai$otiEAl',
       'prefix' => ''
     },
     {
@@ -45513,7 +45525,7 @@ $Lexicon = {
         'combustible',
         'flammable'
       ],
-      'orig' => '{i$otiEAliy~',
+      'orig' => 'Ai$otiEAliy~',
       'prefix' => ''
     },
     {
@@ -46187,7 +46199,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{i$otihA\'',
+      'orig' => 'Ai$otihA\'',
       'prefix' => ''
     }
   ],
@@ -46336,7 +46348,7 @@ $Lexicon = {
         'quarrel',
         'dispute'
       ],
-      'orig' => '{i$otajar',
+      'orig' => 'Ai$otajar',
       'prefix' => ''
     },
     {
@@ -47200,7 +47212,7 @@ $Lexicon = {
         'loftiness',
         'pride'
       ],
-      'orig' => '{i$omixorAr',
+      'orig' => 'Ai$omixorAr',
       'prefix' => ''
     }
   ],
@@ -47411,7 +47423,7 @@ $Lexicon = {
       'glosses' => [
         'become famous'
       ],
-      'orig' => '{i$otahar',
+      'orig' => 'Ai$otahar',
       'prefix' => ''
     },
     {
@@ -47729,7 +47741,7 @@ $Lexicon = {
         'fame',
         'renown'
       ],
-      'orig' => '{i$otihAr',
+      'orig' => 'Ai$otihAr',
       'prefix' => ''
     },
     {
@@ -47848,7 +47860,7 @@ $Lexicon = {
       'glosses' => [
         'be delighted'
       ],
-      'orig' => '{ino$araH',
+      'orig' => 'Aino$araH',
       'prefix' => ''
     },
     {
@@ -48033,7 +48045,7 @@ $Lexicon = {
         'relaxation',
         'delight'
       ],
-      'orig' => '{ino$irAH',
+      'orig' => 'Aino$irAH',
       'prefix' => ''
     },
     {

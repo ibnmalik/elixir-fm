@@ -308,7 +308,7 @@ tSbyn   taSobiyn        N/At    soap-making
 tSbn    taSab~un        N/At    soap-making
 ;
 ;--- Sbw
-;; SabA_1
+;; SabA-u_1
 SbA     SabA    PV_0h   strive for;aspire to
 Sbw     Sabaw   PV_Atn  strive for;aspire to
 Sb      Sab     PV_ttAw strive for;aspire to
@@ -316,7 +316,7 @@ Sbw     Sobuw   IV_0hAnn        strive for;aspire to
 Sb      Sob     IV_0hwnyn       strive for;aspire to
 SbY     SobaY   IV_0_Pass_yu    be strived for;be aspired to
 Sby     Sobay   IV_Ann_Pass_yu  be strived for;be aspired to
-;; Sabiy_1
+;; Sabiy-a_1
 Sby     Sabiy   PV_no-w_intr    be childish;be infantile
 Sb      Sab     PV_w_intr       be childish;be infantile
 SbY     SobaY   IV_0    be childish;be infantile
@@ -3657,7 +3657,7 @@ Sydly   Sayodaliy~      NapAt   pharmacy     <pos>Sayodaliy~/NOUN</pos>
 SydlAny SayodalAniy~    Nall    pharmacist
 ;
 ;--- Syr
-;; SAr_1
+;; SAr-i_1
 SAr     SAr     PV_V    become;begin to
 Sr      Sir     PV_C    become;begin to
 Syr     Siyr    IV_V    become;begin to

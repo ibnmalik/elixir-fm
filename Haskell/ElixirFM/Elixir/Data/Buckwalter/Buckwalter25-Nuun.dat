@@ -907,7 +907,7 @@ ntrwjyn nitoruwjiyn     N       nitrogen
 ntsArym nitosAriym      N0      Netzarim
 ;
 ;--- nt$
-;; nata$_1
+;; nata$-i_1
 nt$     nata$   PV      extract;pluck out;strike
 nt$     noti$   IV      extract;pluck out;strike
 ;; nato$_1
@@ -1772,7 +1772,7 @@ nHw     naHaw   PV_Atn  go towards;move towards
 nH      naH     PV_ttAw go towards;move towards
 nHw     noHuw   IV_0hAnn        go towards;move towards
 nH      noH     IV_0hwnyn       go towards;move towards
-;; naHaY_1
+;; naHaY-a_1
 nHY     naHaY   PV_0    go towards;move towards
 nHA     naHA    PV_h    go towards;move towards
 nHy     naHay   PV_Atn  go towards;move towards
@@ -2179,7 +2179,7 @@ mndr    manodar Napdu   reception room
 mnAdr   manAdir Ndip    reception rooms
 ;
 ;--- nds
-;; nadas_1
+;; nadas-u_1
 nds     nadas   PV      throw down;defame
 nds     nodus   IV      throw down;defame
 ;
@@ -5914,7 +5914,7 @@ nfw     nofuw   IV_0hAnn        deny;refute;reject
 nf      nof     IV_0hwnyn       deny;refute;reject
 nfY     nofaY   IV_0_Pass_yu    be denied;be refuted;be rejected
 nfy     nofay   IV_Ann_Pass_yu  be denied;be refuted;be rejected
-;; nafaY_1
+;; nafaY-i_1
 nfY     nafaY   PV_0    deny;disavow;reject
 nfA     nafA    PV_h    deny;disavow;reject
 nfy     nafay   PV_Atn  deny;disavow;reject
@@ -6037,7 +6037,7 @@ nqyq    naqiyq  N       croaking;cackling
 ;; naqab-u_1
 nqb     naqab   PV      perforate;traverse;investigate
 nqb     noqub   IV      perforate;traverse;investigate
-;; naqib_1
+;; naqib-a_1
 nqb     naqib   PV_intr be perforated
 nqb     noqab   IV_intr be perforated
 ;; naq~ab_1

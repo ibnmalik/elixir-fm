@@ -236,7 +236,7 @@ ft>     fota>   IV      cease;desist;stop
 ft|     fota|   IV-|    cease;desist;stop
 ft&     fota&   IV_wn   cease;desist;stop
 ft}     fota}   IV_yn   cease;desist;stop
-;; fati}_1
+;; fati}-a_1
 ft}     fati}   PV      cease;desist;stop
 ;
 ;--- ftH
@@ -1844,7 +1844,7 @@ frSAd   firoSAd N       mulberry tree
 frSAdy  firoSAdiy~      N-ap    mulberry     <pos>firoSAdiy~/ADJ</pos>
 ;
 ;--- frD
-;; faraD_1
+;; faraD-i_1
 frD     faraD   PV      impose
 frD     foriD   IV      impose
 frD     furiD   PV_Pass be imposed
@@ -2247,7 +2247,7 @@ frkl    farokil IV_yu   flail;thrash
 frkl    farokal Nap     flailing;thrashing
 ;
 ;--- frm
-;; faram_1
+;; faram-i_1
 frm     faram   PV      chop up;grind
 frm     forim   IV      chop up;grind
 ;; far~am_1
@@ -3538,7 +3538,7 @@ mtfD    mutafaD~        Nuwn_Niyn       idle;free
 mtfDy   mutafaD~iy      NapAt   idle;free
 ;
 ;--- fTH
-;; faTaH_1
+;; faTaH-a_1
 fTH     faTaH   PV      spread out;flatten
 fTH     foTaH   IV      spread out;flatten
 ;; faT~aH_1

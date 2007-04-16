@@ -2547,7 +2547,7 @@ mErql   muEaroqal       N-ap    obstructed;impeded     <pos>muEaroqal/ADJ</pos>
 tErql   taEaroqul       N/At    obstruction;impediment
 ;
 ;--- Erk
-;; Earak_1
+;; Earak-u_1
 Erk     Earak   PV      rub;adjust;damage
 Erk     Eoruk   IV      rub;adjust;damage
 ;; EArak_1
@@ -5753,7 +5753,7 @@ mElwf   maEoluwf        N-ap    stall-fed;fatted     <pos>maEoluwf/ADJ</pos>
 mElwf   maEoluwf        N0      Malouf
 ;
 ;--- Elq
-;; Ealiq_1
+;; Ealiq-a_1
 Elq     Ealiq   PV_intr be attached
 Elq     Eolaq   IV_intr be attached
 ;; Eal~aq_1
@@ -6729,7 +6729,7 @@ EmA     Eam~A   FW-Wa   about what     <pos>Ean/PREP+mA/REL_PRON</pos>
 Emn     Eam~an  FW-Wa   from/about whom        <pos>Eam~an/FUNC_WORD</pos>
 ;
 ;--- En(2)
-;; Ean~_1
+;; Ean~-iu_1
 En      Ean~    PV_V_intr       come to mind;occur
 Enn     Eanan   PV_Cn_intr      come to mind;occur
 En      Eun~    IV_V_intr       come to mind;occur
@@ -7476,7 +7476,7 @@ mEtAd   muEotAd Nall    habituated;accustomed     <pos>muEotAd/ADJ</pos>
 mEtAd   muEotAd N       usual;customary
 ;
 ;--- Ew*
-;; EA*_1
+;; EA*-u_1
 EA*     EA*     PV_V    take refuge;seek protection
 E*      Eu*     PV_C    take refuge;seek protection
 Ew*     Euw*    IV_V    take refuge;seek protection
@@ -7744,7 +7744,7 @@ mEwD    muEaw~aD        N0      Moawad;Muawwad
 mtEAwD  mutaEAwiD       Nall    interchangeable
 ;
 ;--- Ewf
-;; EAf_1
+;; EAf-u_1
 EAf     EAf     PV_V    hover;glide
 Ef      Euf     PV_C    hover;glide
 Ewf     Euwf    IV_V    hover;glide
@@ -8109,7 +8109,7 @@ mEyb    muEiyb  N-ap    deficient;shameful     <pos>muEiyb/ADJ</pos>
 mEyb    muEay~ib        Nall    critic;censurer
 ;
 ;--- Eyv
-;; EAv_1
+;; EAv-i_1
 EAv     EAv     PV_V    cause havoc;ravage
 Ev      Eiv     PV_C    cause havoc;ravage
 Eyv     Eiyv    IV_V    cause havoc;ravage
@@ -8209,7 +8209,7 @@ Eyswy   Eiysawiy~       Nall    Christian     <pos>Eiysawiy~/NOUN</pos>
 Eyswy   Eiysawiy~       Nall    Christian     <pos>Eiysawiy~/ADJ</pos>
 ;
 ;--- Ey$
-;; EA$_1
+;; EA$-i_1
 EA$     EA$     PV_V    live;exist
 E$      Ei$     PV_C    live;exist
 Ey$     Eiy$    IV_V    live;exist

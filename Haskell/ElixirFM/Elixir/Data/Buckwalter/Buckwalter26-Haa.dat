@@ -2337,7 +2337,7 @@ hlqm    haloqam PV      gulp down;devour
 hlqm    haloqim IV_yu   gulp down;devour
 ;
 ;--- hlk
-;; halak_1
+;; halak-i_1
 hlk     halak   PV      perish;be annihilated
 hlk     holik   IV      perish;be annihilated
 ;; hal~ak_1
@@ -2772,7 +2772,7 @@ hn>     hona>   IV_intr be beneficial;be wholesome
 hn|     hona|   IV-|    be beneficial;be wholesome
 hn&     hona&   IV_wn   be beneficial;be wholesome
 hn}     hona}   IV_yn   be beneficial;be wholesome
-;; hani}_1
+;; hani}-a_1
 hn}     hani}   PV_intr be delighted;enjoy
 hn>     hona>   IV_intr be delighted;enjoy
 hn|     hona|   IV-|    be delighted;enjoy
@@ -3880,7 +3880,7 @@ hAf     hAf     PV_V    be slender
 hf      hif     PV_C    be slender
 hAf     hAf     IV_V    be slender
 hf      haf     IV_C    be slender
-;; hayif_1
+;; hayif-a_1
 hyf     hayif   PV_intr be slender
 hyf     hoyaf   IV_intr be slender
 ;; hayof_1

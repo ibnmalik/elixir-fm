@@ -2692,7 +2692,7 @@ mmsY    mumosaY N0      evening time
 mmsA    mumosA  Nhy     evening time
 ;
 ;--- msy
-;; masaY_1
+;; masaY-i_1
 msY     masaY   PV_0    make lean;emaciate
 msA     masA    PV_h    make lean;emaciate
 msy     masay   PV_Atn  make lean;emaciate
@@ -2928,7 +2928,7 @@ mS      maS~    PV_V    suck;absorb;lap up
 mSS     maSiS   PV_C    suck;absorb;lap up
 mS      maS~    IV_V    suck;absorb;lap up
 mSS     moSaS   IV_C    suck;absorb;lap up
-;; maSaS_1
+;; maS~-u_1
 mSS     maSaS   PV_C    suck;absorb;lap up
 mS      muS~    IV_V    suck;absorb;lap up
 mSS     moSuS   IV_C    suck;absorb;lap up
@@ -4700,7 +4700,7 @@ tmnTq   tamanoTaq       PV_intr be girded;be wrapped
 tmnTq   tamanoTaq       IV_intr be girded;be wrapped
 ;
 ;--- mnE
-;; manaE_1
+;; manaE-a_1
 mnE     manaE   PV      prevent;forbid
 mnE     monaE   IV      prevent;forbid
 ;; mAnaE_1
@@ -4979,7 +4979,7 @@ mhqA&   mahoqA& Nh      albino
 mhqA}   mahoqA} Nhy     albino
 ;
 ;--- mhk
-;; mahak_1
+;; mahak-a_1
 mhk     mahak   PV      grind;crush
 mhk     mohak   IV      grind;crush
 ;; mahokap_1

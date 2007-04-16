@@ -1830,7 +1830,7 @@ tym     tiym    Nprop   Team
 tym     tiym    Nprop   Tim
 ;
 ;--- tym
-;; tAm_1
+;; tAm-i_1
 tAm     tAm     PV_V_intr       be infatuated;be enslaved
 tm      tim     PV_C_intr       be infatuated;be enslaved
 tym     tiym    IV_V_intr       be infatuated;be enslaved
@@ -1862,7 +1862,7 @@ tynynbwm        tiyniynobawom   Nprop   Tannenbaum
 tnynbwm tiniynobawom    Nprop   Tannenbaum
 ;
 ;--- tyh
-;; tAh_1
+;; tAh-i_1
 tAh     tAh     PV_V    get lost;perish
 th      tih     PV_C    get lost;perish
 tyh     tiyh    IV_V    get lost;perish

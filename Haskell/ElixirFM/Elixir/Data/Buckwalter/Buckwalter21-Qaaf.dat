@@ -445,7 +445,7 @@ tqbn    taqab~an        IV-n_intr       be weighed
 qbAn    qab~An  N       steelyard;platform scale
 ;
 ;--- qbw
-;; qabA_1
+;; qabA-u_1
 qbA     qabA    PV_0h   vault;arch
 qbw     qabaw   PV_Atn  vault;arch
 qb      qab     PV_ttAw vault;arch
@@ -645,7 +645,7 @@ qAtm    qAtim   N/ap    black;dark     <pos>qAtim/ADJ</pos>
 qwAtm   qawAtim Ndip    black;dark
 ;
 ;--- qv
-;; qav~_1
+;; qav~-u_1
 qv      qav~    PV_V    uproot;extirpate
 qvv     qavav   PV_C    uproot;extirpate
 qv      quv~    IV_V    uproot;extirpate
@@ -716,7 +716,7 @@ qHTAn   qaHoTAn Ndip    Qahtan
 qHTAny  qaHoTAniy~      N0      Qahtani
 ;
 ;--- qHf
-;; qaHaf_1
+;; qaHaf-a_1
 qHf     qaHaf   PV      swallow;gulp
 qHf     qoHaf   IV      swallow;gulp
 ;; {iqotaHaf_1
@@ -5794,7 +5794,7 @@ qnbl    qunobul Napdu   bomb;shell;grenade
 qnAbl   qanAbil Ndip    bombs;shells;grenades
 ;
 ;--- qnt
-;; qanat_1
+;; qanat-u_1
 qnt     qanat   PV-t_intr       be obedient;be submissive
 qnt     qonut   IV_intr be obedient;be submissive
 ;; qunuwt_1
@@ -6333,7 +6333,7 @@ mqwtb   muqawotab       Nall    hunchbacked     <pos>muqawotab/ADJ</pos>
 qwtly   quwatoliy~      N0      Quwatli
 ;
 ;--- qwH
-;; qAH_1
+;; qAH-u_1
 qAH     qAH     PV_V    fester;swell
 qH      quH     PV_C    fester;swell
 qwH     quwH    IV_V    fester;swell

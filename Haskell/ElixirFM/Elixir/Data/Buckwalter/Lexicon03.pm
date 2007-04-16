@@ -152,7 +152,7 @@ $Lexicon = {
         'trade',
         'do business'
       ],
-      'orig' => '{it~ajar',
+      'orig' => 'Ait~ajar',
       'prefix' => ''
     },
     {
@@ -307,7 +307,7 @@ $Lexicon = {
         'trade',
         'business'
       ],
-      'orig' => '{it~ijAr',
+      'orig' => 'Ait~ijAr',
       'prefix' => ''
     },
     {
@@ -744,7 +744,7 @@ $Lexicon = {
       'glosses' => [
         'become Turkish'
       ],
-      'orig' => '{isotatorak',
+      'orig' => 'Aisotatorak',
       'prefix' => ''
     },
     {
@@ -6869,7 +6869,7 @@ $Lexicon = {
         'convert',
         'call to repent'
       ],
-      'orig' => '{isotatAb',
+      'orig' => 'AisotatAb',
       'prefix' => ''
     },
     {
@@ -7751,7 +7751,7 @@ $Lexicon = {
         'follow',
         'observe'
       ],
-      'orig' => '{it~abaE',
+      'orig' => 'Ait~abaE',
       'prefix' => ''
     },
     {
@@ -7778,7 +7778,7 @@ $Lexicon = {
         'result in',
         'make follow'
       ],
-      'orig' => '{isotatobaE',
+      'orig' => 'AisotatobaE',
       'prefix' => ''
     },
     {
@@ -8099,7 +8099,7 @@ $Lexicon = {
         'pursuit',
         'compliance'
       ],
-      'orig' => '{it~ibAE',
+      'orig' => 'Ait~ibAE',
       'prefix' => ''
     },
     {
@@ -8129,7 +8129,7 @@ $Lexicon = {
         'according to',
         'pursuant to'
       ],
-      'orig' => '{it~ibAEAF',
+      'orig' => 'Ait~ibAEAF',
       'prefix' => ''
     },
     {
@@ -9214,7 +9214,7 @@ $Lexicon = {
       'entry' => 'tAh',
       'form' => 'tAh',
       'lines' => [
-        ';; tAh_1',
+        ';; tAh-i_1',
         'tAh     tAh     PV_V    get lost;perish',
         'th      tih     PV_C    get lost;perish',
         'tyh     tiyh    IV_V    get lost;perish',
@@ -9229,12 +9229,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
-      'suffix' => '',
       'glosses' => [
         'get lost',
         'perish'
       ],
-      'orig' => 'tAh',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'tAh-i',
       'prefix' => ''
     },
     {
@@ -10588,7 +10591,7 @@ $Lexicon = {
       'entry' => 'tAm',
       'form' => 'tAm',
       'lines' => [
-        ';; tAm_1',
+        ';; tAm-i_1',
         'tAm     tAm     PV_V_intr       be infatuated;be enslaved',
         'tm      tim     PV_C_intr       be infatuated;be enslaved',
         'tym     tiym    IV_V_intr       be infatuated;be enslaved',
@@ -10603,12 +10606,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
-      'suffix' => '',
       'glosses' => [
         'be infatuated',
         'be enslaved'
       ],
-      'orig' => 'tAm',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'tAm-i',
       'prefix' => ''
     },
     {
@@ -11537,7 +11543,7 @@ $Lexicon = {
         'continue',
         'be continued'
       ],
-      'orig' => '{isotatolaY',
+      'orig' => 'AisotatolaY',
       'prefix' => ''
     },
     {
@@ -11781,7 +11787,7 @@ $Lexicon = {
       'glosses' => [
         'have indigestion'
       ],
-      'orig' => '{it~axam',
+      'orig' => 'Ait~axam',
       'prefix' => ''
     },
     {
@@ -12776,7 +12782,7 @@ $Lexicon = {
         'stabilize',
         'be established'
       ],
-      'orig' => '{isotatab~',
+      'orig' => 'Aisotatab~',
       'prefix' => ''
     },
     {
@@ -12829,7 +12835,7 @@ $Lexicon = {
         'normalcy',
         'stability'
       ],
-      'orig' => '{isotitobAb',
+      'orig' => 'AisotitobAb',
       'prefix' => ''
     },
     {
@@ -15065,7 +15071,7 @@ $Lexicon = {
         'be completed',
         'be finished'
       ],
-      'orig' => '{isotatam~',
+      'orig' => 'Aisotatam~',
       'prefix' => ''
     },
     {
@@ -15315,7 +15321,7 @@ $Lexicon = {
         'termination',
         'conclusion'
       ],
-      'orig' => '{isotitomAm',
+      'orig' => 'AisotitomAm',
       'prefix' => ''
     },
     {

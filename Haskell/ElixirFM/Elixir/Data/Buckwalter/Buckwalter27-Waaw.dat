@@ -22,7 +22,7 @@ wAH     wAH     Napdu   oasis
 wAH     wAH     NAt     oases
 ;
 ;--- wAd
-;; wa>ad_1
+;; wa>ad-i_1
 w>d     wa>ad   PV      bury alive
 }d      }id     IV      bury alive
 w}d     wu}id   PV_Pass be buried alive
@@ -47,7 +47,7 @@ mt}d    mut~a}id        Nall    slow;unhurried
 wAd     wAd     FW      Wade;Wad     <pos>wAd/NOUN_PROP</pos>
 ;
 ;--- wAr
-;; wa>ar_1
+;; wa>ar-i_1
 w>r     wa>ar   PV      frighten
 }r      }ir     IV      frighten
 w}r     wu}ir   PV_Pass be frightened
@@ -220,7 +220,7 @@ AwbA$   >awobA$ N       riffraf;rabble
 ;; wabiq-a_1
 wbq     wabiq   PV_intr perish
 wbq     wbaq    IV_intr perish
-;; wabaq_1
+;; wabaq-i_1
 wbq     wabaq   PV_intr perish
 bq      biq     IV_intr perish
 ;; >awobaq_1
@@ -345,7 +345,7 @@ v>      va>     IV      bruise;sprain
 v|      va|     IV-|    bruise;sprain
 v&      va&     IV_wn   bruise;sprain
 v}      va}     IV_yn   bruise;sprain
-;; wavi}_1
+;; wavi}-a_1
 wv}     wavi}   PV_intr be bruised;be sprained
 v>      va>     IV      be bruised;be sprained
 v|      va|     IV-|    be bruised;be sprained
@@ -1751,7 +1751,7 @@ wz      waz~    Napdu   goose
 wz      waz~    N       goose
 ;
 ;--- wzb
-;; wazab_1
+;; wazab-i_1
 wzb     wazab   PV      flow
 zb      zib     IV      flow
 ;; wuzuwb_1
@@ -2320,7 +2320,7 @@ w$A}E   wa$A}iE Ndip    reels;spools;bobbins
 w$q     wa$aq   N       lynx
 ;
 ;--- w$k
-;; wa$uk_1
+;; wa$uk-u_1
 w$k     wa$uk   PV      hurry;be quick
 w$k     wo$uk   IV      hurry;be quick
 ;; wa$~ak_1
@@ -2430,7 +2430,7 @@ AwSAb   >awoSAb N       illnesses;hardships
 wASb    wASib   Nall    lasting;permanent     <pos>wASib/ADJ</pos>
 ;
 ;--- wSd
-;; waSad_1
+;; waSad-i_1
 wSd     waSad   PV_intr be firm;stand firm
 Sd      Sid     IV_intr be firm;stand firm
 ;; >awoSad_1
@@ -2443,7 +2443,7 @@ wSyd    waSiyd  N       doorstep;threshold
 wSd     wuSud   N       doorsteps;thresholds
 ;
 ;--- wSf
-;; waSaf_1
+;; waSaf-i_1
 wSf     waSaf   PV      describe;characterize
 Sf      Sif     IV      describe;characterize
 wSf     wuSif   PV_Pass be described;be characterized
@@ -2852,7 +2852,7 @@ wDr     waDar   Ndu     grease spots;dirt
 AwDAr   >awoDAr N       grease spots;dirt
 ;
 ;--- wDE
-;; waDaE_1
+;; waDaE-a_1
 wDE     waDaE   PV      put;place
 DE      DaE     IV      put;place
 wDE     wuDiE   PV_intr be put;be placed
@@ -3321,7 +3321,7 @@ AwEAs   >awoEAs N       quicksand
 myEAs   miyEAs  N       quicksand
 ;
 ;--- wEZ
-;; waEaZ_1
+;; waEaZ-i_1
 wEZ     waEaZ   PV      preach;admonish;exhort
 EZ      EiZ     IV      preach;admonish;exhort
 ;; {it~aEaZ_1
@@ -3536,7 +3536,7 @@ wAfd    wAfid   Nall    envoy;delegate
 mwfd    muwfad  Nall    envoy;delegate;appointee
 ;
 ;--- wfr
-;; wafur_1
+;; wafur-u_1
 wfr     wafur   PV_intr be plentiful
 wfr     wofur   IV_intr be plentiful
 ;; wafar-i_1

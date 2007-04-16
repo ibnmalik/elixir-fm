@@ -20,7 +20,7 @@ $Lexicon = {
       'entry' => 'za\'ar',
       'form' => 'za\'ar',
       'lines' => [
-        ';; za>ar_1',
+        ';; za>ar-ai_1',
         'z>r     za>ar   PV      roar;bellow',
         'z>r     zo>ar   IV      roar;bellow',
         'z}r     zo}ir   IV      roar;bellow'
@@ -36,12 +36,16 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'roar',
         'bellow'
       ],
-      'orig' => 'zaOar',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL',
+        'FCiL'
+      ],
+      'orig' => 'zaOar-ai',
       'prefix' => ''
     },
     {
@@ -889,7 +893,7 @@ $Lexicon = {
         'prosper',
         'flourish'
       ],
-      'orig' => '{izodahar',
+      'orig' => 'Aizodahar',
       'prefix' => ''
     },
     {
@@ -1455,7 +1459,7 @@ $Lexicon = {
         'prosperity',
         'thriving'
       ],
-      'orig' => '{izodihAr',
+      'orig' => 'AizodihAr',
       'prefix' => ''
     },
     {
@@ -1710,7 +1714,7 @@ $Lexicon = {
         'be embellished',
         'be decorated'
       ],
-      'orig' => '{izodAn',
+      'orig' => 'AizodAn',
       'prefix' => ''
     },
     {
@@ -2188,7 +2192,7 @@ $Lexicon = {
       'entry' => 'za.ham',
       'form' => 'za.ham',
       'lines' => [
-        ';; zaHam_1',
+        ';; zaHam-a_1',
         'zHm     zaHam   PV      push;crowd',
         'zHm     zoHam   IV      push;crowd'
       ],
@@ -2200,12 +2204,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'push',
         'crowd'
       ],
-      'orig' => 'zaHam',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'zaHam-a',
       'prefix' => ''
     },
     {
@@ -2288,7 +2295,7 @@ $Lexicon = {
       'glosses' => [
         'be crowded'
       ],
-      'orig' => '{izodaHam',
+      'orig' => 'AizodaHam',
       'prefix' => ''
     },
     {
@@ -2408,7 +2415,7 @@ $Lexicon = {
         'crowd',
         'jam'
       ],
-      'orig' => '{izodiHAm',
+      'orig' => 'AizodiHAm',
       'prefix' => ''
     },
     {
@@ -3291,7 +3298,7 @@ $Lexicon = {
         'be angered',
         'be bothered'
       ],
-      'orig' => '{inozaEaj',
+      'orig' => 'AinozaEaj',
       'prefix' => ''
     },
     {
@@ -3365,7 +3372,7 @@ $Lexicon = {
         'disturbance',
         'trouble'
       ],
-      'orig' => '{inoziEAj',
+      'orig' => 'AinoziEAj',
       'prefix' => ''
     },
     {
@@ -4318,7 +4325,7 @@ $Lexicon = {
       'glosses' => [
         'flatter'
       ],
-      'orig' => '{izodalaf',
+      'orig' => 'Aizodalaf',
       'prefix' => ''
     },
     {
@@ -5141,7 +5148,7 @@ $Lexicon = {
       'glosses' => [
         'deem insignificant'
       ],
-      'orig' => '{isotazohad',
+      'orig' => 'Aisotazohad',
       'prefix' => ''
     },
     {
@@ -6062,7 +6069,7 @@ $Lexicon = {
         'radiance',
         'pride'
       ],
-      'orig' => '{izodihA\'',
+      'orig' => 'AizodihA\'',
       'prefix' => ''
     }
   ],
@@ -6358,7 +6365,7 @@ $Lexicon = {
       'entry' => 'zAf',
       'form' => 'zAf',
       'lines' => [
-        ';; zAf_1',
+        ';; zAf-i_1',
         'zAf     zAf     PV_V_intr       be false',
         'zf      zif     PV_C_intr       be false',
         'zyf     ziyf    IV_V_intr       be false',
@@ -6373,11 +6380,14 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
-      'suffix' => '',
       'glosses' => [
         'be false'
       ],
-      'orig' => 'zAf',
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'zAf-i',
       'prefix' => ''
     },
     {
@@ -6851,7 +6861,7 @@ $Lexicon = {
       'glosses' => [
         'be blue in color'
       ],
-      'orig' => '{izoraq~',
+      'orig' => 'Aizoraq~',
       'prefix' => ''
     },
     {
@@ -7089,7 +7099,7 @@ $Lexicon = {
       'glosses' => [
         'blueness'
       ],
-      'orig' => '{izoriqAq',
+      'orig' => 'AizoriqAq',
       'prefix' => ''
     }
   ],
@@ -7485,7 +7495,7 @@ $Lexicon = {
       'glosses' => [
         'increase'
       ],
-      'orig' => '{izodAd',
+      'orig' => 'AizodAd',
       'prefix' => ''
     },
     {
@@ -7520,7 +7530,7 @@ $Lexicon = {
       'glosses' => [
         'seek an increase'
       ],
-      'orig' => '{isotazAd',
+      'orig' => 'AisotazAd',
       'prefix' => ''
     },
     {
@@ -7830,7 +7840,7 @@ $Lexicon = {
         'increase',
         'intensification'
       ],
-      'orig' => '{izodiyAd',
+      'orig' => 'AizodiyAd',
       'prefix' => ''
     },
     {
@@ -7854,7 +7864,7 @@ $Lexicon = {
       'glosses' => [
         'desire for increase'
       ],
-      'orig' => '{isotizAdap',
+      'orig' => 'AisotizAdap',
       'prefix' => ''
     },
     {
@@ -8183,7 +8193,7 @@ $Lexicon = {
         'skate/ski',
         'drift'
       ],
-      'orig' => '{inozalaq',
+      'orig' => 'Ainozalaq',
       'prefix' => ''
     },
     {
@@ -8429,7 +8439,7 @@ $Lexicon = {
         'skating/skiing',
         'drift'
       ],
-      'orig' => '{inozilAq',
+      'orig' => 'AinozilAq',
       'prefix' => ''
     },
     {
@@ -8555,7 +8565,7 @@ $Lexicon = {
         'be planted',
         'be implanted'
       ],
-      'orig' => '{inozaraE',
+      'orig' => 'AinozaraE',
       'prefix' => ''
     },
     {
@@ -8586,7 +8596,7 @@ $Lexicon = {
         'plant',
         'sow'
       ],
-      'orig' => '{izodaraE',
+      'orig' => 'AizodaraE',
       'prefix' => ''
     },
     {
@@ -8612,7 +8622,7 @@ $Lexicon = {
       'glosses' => [
         'utilize as acreage'
       ],
-      'orig' => '{isotazoraE',
+      'orig' => 'AisotazoraE',
       'prefix' => ''
     },
     {
@@ -9155,7 +9165,7 @@ $Lexicon = {
         'be double',
         'be in pairs'
       ],
-      'orig' => '{izodawaj',
+      'orig' => 'Aizodawaj',
       'prefix' => ''
     },
     {
@@ -9507,7 +9517,7 @@ $Lexicon = {
       'glosses' => [
         'duality'
       ],
-      'orig' => '{izodiwAj',
+      'orig' => 'AizodiwAj',
       'prefix' => ''
     },
     {
@@ -9532,7 +9542,7 @@ $Lexicon = {
         'dual',
         'bi-'
       ],
-      'orig' => '{izodiwAjiy~',
+      'orig' => 'AizodiwAjiy~',
       'prefix' => ''
     },
     {
@@ -9557,7 +9567,7 @@ $Lexicon = {
         'duality',
         'bi-'
       ],
-      'orig' => '{izodiwAjiy~ap',
+      'orig' => 'AizodiwAjiy~ap',
       'prefix' => ''
     },
     {
@@ -10458,7 +10468,7 @@ $Lexicon = {
         'swallow',
         'gulp'
       ],
-      'orig' => '{izodaqam',
+      'orig' => 'Aizodaqam',
       'prefix' => ''
     },
     {
@@ -11591,7 +11601,7 @@ $Lexicon = {
         'become flushed',
         'be bloodshot'
       ],
-      'orig' => '{izomahar~',
+      'orig' => 'Aizomahar~',
       'prefix' => ''
     }
   ],
@@ -11729,7 +11739,7 @@ $Lexicon = {
         'be restrained',
         'be rebuked'
       ],
-      'orig' => '{inozajar',
+      'orig' => 'Ainozajar',
       'prefix' => ''
     },
     {
@@ -11761,7 +11771,7 @@ $Lexicon = {
         'be restrained',
         'be rebuked'
       ],
-      'orig' => '{izodajar',
+      'orig' => 'Aizodajar',
       'prefix' => ''
     },
     {
@@ -11909,7 +11919,7 @@ $Lexicon = {
       'entry' => 'zabaq',
       'form' => 'zabaq',
       'lines' => [
-        ';; zabaq_1',
+        ';; zabaq-ui_1',
         'zbq     zabaq   PV      tear out;pluck out',
         'zbq     zobuq   IV      tear out;pluck out',
         'zbq     zobiq   IV      tear out;pluck out'
@@ -11925,12 +11935,16 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'tear out',
         'pluck out'
       ],
-      'orig' => 'zabaq',
+      'suffix' => '',
+      'imperf' => [
+        'FCuL',
+        'FCiL'
+      ],
+      'orig' => 'zabaq-ui',
       'prefix' => ''
     },
     {
@@ -11960,7 +11974,7 @@ $Lexicon = {
       'glosses' => [
         'slip in'
       ],
-      'orig' => '{inozabaq',
+      'orig' => 'Ainozabaq',
       'prefix' => ''
     }
   ],
@@ -12995,7 +13009,7 @@ $Lexicon = {
         'retire',
         'go into seclusion'
       ],
-      'orig' => '{inozawaY',
+      'orig' => 'AinozawaY',
       'prefix' => ''
     },
     {
@@ -13036,7 +13050,7 @@ $Lexicon = {
         'isolation',
         'retirement'
       ],
-      'orig' => '{inoziwA\'',
+      'orig' => 'AinoziwA\'',
       'prefix' => ''
     },
     {
@@ -13840,7 +13854,7 @@ $Lexicon = {
       'entry' => 'za.hal',
       'form' => 'za.hal',
       'lines' => [
-        ';; zaHal_1',
+        ';; zaHal-a_1',
         'zHl     zaHal   PV      withdraw;retire',
         'zHl     zoHal   IV      withdraw;retire'
       ],
@@ -13852,12 +13866,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'withdraw',
         'retire'
       ],
-      'orig' => 'zaHal',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'zaHal-a',
       'prefix' => ''
     },
     {
@@ -14553,7 +14570,7 @@ $Lexicon = {
       'glosses' => [
         'be on the verge of'
       ],
-      'orig' => '{izodahaf',
+      'orig' => 'Aizodahaf',
       'prefix' => ''
     }
   ],
@@ -15149,7 +15166,7 @@ $Lexicon = {
         'despise',
         'defy'
       ],
-      'orig' => '{izodaraY',
+      'orig' => 'AizodaraY',
       'prefix' => ''
     },
     {
@@ -15205,7 +15222,7 @@ $Lexicon = {
         'be despised',
         'be defied'
       ],
-      'orig' => '{isotazoraY',
+      'orig' => 'AisotazoraY',
       'prefix' => ''
     },
     {
@@ -15333,7 +15350,7 @@ $Lexicon = {
         'contempt',
         'disregard'
       ],
-      'orig' => '{izodirA\'',
+      'orig' => 'AizodirA\'',
       'prefix' => ''
     },
     {
@@ -15572,7 +15589,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{izodirA\'',
+      'orig' => 'AizodirA\'',
       'prefix' => ''
     }
   ],
@@ -19201,7 +19218,7 @@ $Lexicon = {
         'be conceited',
         'be boastful'
       ],
-      'orig' => '{izodahaY',
+      'orig' => 'AizodahaY',
       'prefix' => ''
     },
     {
@@ -19342,7 +19359,7 @@ $Lexicon = {
       'morphs' => 'IFtiCA\'',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{izodihA\'',
+      'orig' => 'AizodihA\'',
       'prefix' => ''
     },
     {
@@ -19717,7 +19734,7 @@ $Lexicon = {
         'depart',
         'be removed'
       ],
-      'orig' => '{inozAH',
+      'orig' => 'AinozAH',
       'prefix' => ''
     },
     {
@@ -19863,7 +19880,7 @@ $Lexicon = {
       'glosses' => [
         'swallow'
       ],
-      'orig' => '{izodarad',
+      'orig' => 'Aizodarad',
       'prefix' => ''
     },
     {
@@ -20143,7 +20160,7 @@ $Lexicon = {
         'glide',
         'ski'
       ],
-      'orig' => '{inozalaj',
+      'orig' => 'Ainozalaj',
       'prefix' => ''
     },
     {
@@ -20656,7 +20673,7 @@ $Lexicon = {
       'entry' => 'zamm',
       'form' => 'zamm',
       'lines' => [
-        ';; zam~_1',
+        ';; zam~-u_1',
         'zm      zam~    PV_V    fasten;truss up',
         'zmm     zamam   PV_C    fasten;truss up',
         'zm      zum~    IV_V    fasten;truss up',
@@ -20676,12 +20693,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCL',
-      'suffix' => '',
       'glosses' => [
         'fasten',
         'truss up'
       ],
-      'orig' => 'zam~',
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'zam~-u',
       'prefix' => ''
     },
     {
@@ -21422,7 +21442,7 @@ $Lexicon = {
       'entry' => 'za\'a.t',
       'form' => 'za\'a.t',
       'lines' => [
-        ';; za>aT_1',
+        ';; za>aT-a_1',
         'z>T     za>aT   PV      clamor;be vociferous',
         'z>T     zo>aT   IV      clamor;be vociferous'
       ],
@@ -21434,12 +21454,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'clamor',
         'be vociferous'
       ],
-      'orig' => 'zaOaT',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'zaOaT-a',
       'prefix' => ''
     },
     {
@@ -23157,7 +23180,7 @@ $Lexicon = {
         'alienate',
         'be dissociated from'
       ],
-      'orig' => '{izowar~',
+      'orig' => 'Aizowar~',
       'prefix' => ''
     },
     {
@@ -23192,7 +23215,7 @@ $Lexicon = {
       'glosses' => [
         'seek a visit'
       ],
-      'orig' => '{isotazAr',
+      'orig' => 'AisotazAr',
       'prefix' => ''
     },
     {
@@ -23444,7 +23467,7 @@ $Lexicon = {
         'aversion',
         'turning away'
       ],
-      'orig' => '{izowirAr',
+      'orig' => 'AizowirAr',
       'prefix' => ''
     },
     {
@@ -23776,7 +23799,7 @@ $Lexicon = {
       'morphs' => 'InFiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{inoziwA\'',
+      'orig' => 'AinoziwA\'',
       'prefix' => ''
     }
   ],

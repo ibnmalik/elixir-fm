@@ -49,23 +49,21 @@ lexicon = listing "Lexicon's properties"
 
     FaCiL                     `verb`       {- ya}is-ai -}       [ "despair", "be hopeless" ]
                               `imperf`     FCaL
-                              `imperf`     FCiL
-                              {- `others` [ "y'as IV", "y'is IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; >ayo>as_1
     -- >y>s    >ayo>as PV      make despair
     -- Ay>s    >ayo>as PV      make despair
     -- y}s     yo}is   IV_yu   make despair
 
-    HaFCaL                    `verb`       {- OayoOas -}        [ "make despair" ]
-                              {- `others` [ "y'is IV_yu" ] -},
+    HaFCaL                    `verb`       {- OayoOas -}        [ "make despair" ],
 
     -- ;; {isotayo>as_1
     -- <sty>s  {isotayo>as     PV      despair;be hopeless
     -- Asty>s  {isotayo>as     PV      despair;be hopeless
     -- sty}s   sotayo}is       IV      despair;be hopeless
 
-    IstaFCaL                  `verb`       {- {isotayoOas -}    [ "despair", "be hopeless" ],
+    IstaFCaL                  `verb`       {- AisotayoOas -}    [ "despair", "be hopeless" ],
 
     -- ;; ya>os_1
     -- y>s     ya>os   N       despair;hopelessness
@@ -218,15 +216,13 @@ lexicon = listing "Lexicon's properties"
     -- ybs     yobas   IV_intr become dry
 
     FaCiL                     `verb`       {- yabis-a -}        [ "become dry" ]
-                              `imperf`     FCaL
-                              {- `others` [ "ybas IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; yab~as_1
     -- ybs     yab~as  PV      make dry;desiccate
     -- ybs     yab~is  IV_yu   make dry;desiccate
 
-    FaCCaL                    `verb`       {- yab~as -}         [ "make dry", "desiccate" ]
-                              {- `others` [ "yabbis IV_yu" ] -},
+    FaCCaL                    `verb`       {- yab~as -}         [ "make dry", "desiccate" ],
 
     -- ;; >ayobas_1
     -- >ybs    >ayobas PV      make dry;desiccate
@@ -302,8 +298,7 @@ lexicon = listing "Lexicon's properties"
     -- yfE     yofaE   IV      reach adolescence
 
     FaCaL                     `verb`       {- yafaE-a -}        [ "reach adolescence" ]
-                              `imperf`     FCaL
-                              {- `others` [ "yfa` IV" ] -},
+                              `imperf`     FCaL,
 
     -- ;; >ayofaE_1
     -- >yfE    >ayofaE PV      reach adolescence
@@ -385,8 +380,7 @@ lexicon = listing "Lexicon's properties"
     -- ymm     yam~am  PV      head for;turn to
     -- ymm     yam~im  IV_yu   head for;turn to
 
-    FaCCaL                    `verb`       {- yam~am -}         [ "head for", "turn to" ]
-                              {- `others` [ "yammim IV_yu" ] -},
+    FaCCaL                    `verb`       {- yam~am -}         [ "head for", "turn to" ],
 
     -- ;; tayam~am_1
     -- tymm    tayam~am        PV      turn to;head for;aim at
@@ -413,31 +407,27 @@ lexicon = listing "Lexicon's properties"
     -- ymn     yomun   IV-n_intr       be lucky;be fortunate
 
     FaCaL                     `verb`       {- yaman-u -}        [ "be lucky", "be fortunate" ]
-                              `imperf`     FCuL
-                              {- `others` [ "ymun IV-n_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; yamin-a_1
     -- ymn     yamin   PV-n_intr       be lucky;be fortunate
     -- ymn     yoman   IV-n_intr       be lucky;be fortunate
 
     FaCiL                     `verb`       {- yamin-a -}        [ "be lucky", "be fortunate" ]
-                              `imperf`     FCaL
-                              {- `others` [ "yman IV-n_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; yamun-u_1
     -- ymn     yamun   PV-n_intr       be lucky;be fortunate
     -- ymn     yomun   IV-n_intr       be lucky;be fortunate
 
     FaCuL                     `verb`       {- yamun-u -}        [ "be lucky", "be fortunate" ]
-                              `imperf`     FCuL
-                              {- `others` [ "ymun IV-n_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; yam~an_1
     -- ymn     yam~an  PV-n    go to the right
     -- ymn     yam~in  IV-n_yu go to the right
 
-    FaCCaL                    `verb`       {- yam~an -}         [ "go to the right" ]
-                              {- `others` [ "yammin IV-n_yu" ] -},
+    FaCCaL                    `verb`       {- yam~an -}         [ "go to the right" ],
 
     -- ;; tayam~an_1
     -- tymn    tayam~an        PV-n    see a good omen;regard as auspicious
@@ -450,7 +440,7 @@ lexicon = listing "Lexicon's properties"
     -- Astymn  {isotayoman     PV-n    see a good omen;regard as auspicious
     -- stymn   sotayomin       IV-n    see a good omen;regard as auspicious
 
-    IstaFCaL                  `verb`       {- {isotayoman -}    [ "see a good omen", "regard as auspicious" ],
+    IstaFCaL                  `verb`       {- Aisotayoman -}    [ "see a good omen", "regard as auspicious" ],
 
     -- ;; yumon_1
     -- ymn     yumon   N       good fortune;success
@@ -616,8 +606,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `verb`       {- yanaE-ai -}       [ "ripen", "mellow" ]
                               `imperf`     FCaL
-                              `imperf`     FCiL
-                              {- `others` [ "yna` IV", "yni` IV" ] -},
+                              `imperf`     FCiL,
 
     -- ;; >ayonaE_1
     -- >ynE    >ayonaE PV      ripen;mellow
@@ -691,23 +680,20 @@ lexicon = listing "Lexicon's properties"
     -- yqZ     yoqaZ   IV_intr be awake;be alert
 
     FaCiL                     `verb`       {- yaqiZ-a -}        [ "be awake", "be alert" ]
-                              `imperf`     FCaL
-                              {- `others` [ "yqa.z IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; yaquZ-u_1
     -- yqZ     yaquZ   PV_intr be awake;be alert
     -- yqZ     yoquZ   IV_intr be awake;be alert
 
     FaCuL                     `verb`       {- yaquZ-u -}        [ "be awake", "be alert" ]
-                              `imperf`     FCuL
-                              {- `others` [ "yqu.z IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; yaq~aZ_1
     -- yqZ     yaq~aZ  PV      awaken;warn
     -- yqZ     yaq~iZ  IV_yu   awaken;warn
 
-    FaCCaL                    `verb`       {- yaq~aZ -}         [ "awaken", "warn" ]
-                              {- `others` [ "yaqqi.z IV_yu" ] -},
+    FaCCaL                    `verb`       {- yaq~aZ -}         [ "awaken", "warn" ],
 
     -- ;; >ayoqaZ_1
     -- >yqZ    >ayoqaZ PV      awaken;warn
@@ -728,7 +714,7 @@ lexicon = listing "Lexicon's properties"
     -- AstyqZ  {isotayoqaZ     PV      wake up;be roused;be alert
     -- styqZ   sotayoqiZ       IV      wake up;be roused;be alert
 
-    IstaFCaL                  `verb`       {- {isotayoqaZ -}    [ "wake up", "be roused", "be alert" ],
+    IstaFCaL                  `verb`       {- AisotayoqaZ -}    [ "wake up", "be roused", "be alert" ],
 
     -- ;; yaqiZ_1
     -- yqZ     yaqiZ   N-ap    awake;alert;vigilant     [[yaqiZ/ADJ]]
@@ -780,7 +766,7 @@ lexicon = listing "Lexicon's properties"
     -- <styqAZ {isotiyqAZ      NduAt   awakening;arousal
     -- AstyqAZ {isotiyqAZ      NduAt   awakening;arousal
 
-    IstiFCAL                  `noun`       {- {isotiyqAZ -}     [ "awakening", "arousal" ],
+    IstiFCAL                  `noun`       {- AisotiyqAZ -}     [ "awakening", "arousal" ],
 
     -- ;; mutayaq~iZ_1
     -- mtyqZ   mutayaq~iZ      Nall    awake;alert     [[mutayaq~iZ/ADJ]]
@@ -799,16 +785,14 @@ lexicon = listing "Lexicon's properties"
     -- yqn     yoqan   IV-n_intr       be sure;know for certain
 
     FaCiL                     `verb`       {- yaqin-a -}        [ "be sure", "know for certain" ]
-                              `imperf`     FCaL
-                              {- `others` [ "yqan IV-n_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; >ayoqan_1
     -- >yqn    >ayoqan PV-n    ascertain;be convinced
     -- Ayqn    >ayoqan PV-n    ascertain;be convinced
     -- yqn     yoqin   IV-n    ascertain;be convinced
 
-    HaFCaL                    `verb`       {- Oayoqan -}        [ "ascertain", "be convinced" ]
-                              {- `others` [ "yqin IV-n" ] -},
+    HaFCaL                    `verb`       {- Oayoqan -}        [ "ascertain", "be convinced" ],
 
     -- ;; tayaq~an_1
     -- tyqn    tayaq~an        PV-n    ascertain;be convinced
@@ -821,7 +805,7 @@ lexicon = listing "Lexicon's properties"
     -- Astyqn  {isotayoqan     PV-n    ascertain;be convinced
     -- styqn   sotayoqin       IV-n    ascertain;be convinced
 
-    IstaFCaL                  `verb`       {- {isotayoqan -}    [ "ascertain", "be convinced" ],
+    IstaFCaL                  `verb`       {- Aisotayoqan -}    [ "ascertain", "be convinced" ],
 
     -- ;; yaqon_1
     -- yqn     yaqon   N       certainty
@@ -890,8 +874,7 @@ lexicon = listing "Lexicon's properties"
     -- yrE     yoraE   IV_intr be cowardly
 
     FaCiL                     `verb`       {- yariE-a -}        [ "be cowardly" ]
-                              `imperf`     FCaL
-                              {- `others` [ "yra` IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; yaraE_1
     -- yrE     yaraE   N       cowardliness
@@ -1012,30 +995,26 @@ lexicon = listing "Lexicon's properties"
     -- ysr     yosar   IV_intr become easy
 
     FaCiL                     `verb`       {- yasir-a -}        [ "become easy" ]
-                              `imperf`     FCaL
-                              {- `others` [ "ysar IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; yasur-u_1
     -- ysr     yasur   PV_intr become easy;be small
     -- ysr     yosur   IV_intr become easy;be small
 
     FaCuL                     `verb`       {- yasur-u -}        [ "become easy", "be small" ]
-                              `imperf`     FCuL
-                              {- `others` [ "ysur IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; yas~ar_1
     -- ysr     yas~ar  PV      facilitate;make easy
     -- ysr     yas~ir  IV_yu   facilitate;make easy
 
-    FaCCaL                    `verb`       {- yas~ar -}         [ "facilitate", "make easy" ]
-                              {- `others` [ "yassir IV_yu" ] -},
+    FaCCaL                    `verb`       {- yas~ar -}         [ "facilitate", "make easy" ],
 
     -- ;; yAsar_1
     -- yAsr    yAsar   PV_intr be lenient with;be obliging with
     -- yAsr    yAsir   IV_intr_yu      be lenient with;be obliging with
 
-    FACaL                     `verb`       {- yAsar -}          [ "be lenient with", "be obliging with" ]
-                              {- `others` [ "yAsir IV_intr_yu" ] -},
+    FACaL                     `verb`       {- yAsar -}          [ "be lenient with", "be obliging with" ],
 
     -- ;; >ayosar_1
     -- >ysr    >ayosar PV      live in comfort
@@ -1056,7 +1035,7 @@ lexicon = listing "Lexicon's properties"
     -- Astysr  {isotayosar     PV_intr be easy;be successful
     -- stysr   sotayosir       IV_intr be easy;be successful
 
-    IstaFCaL                  `verb`       {- {isotayosar -}    [ "be easy", "be successful" ],
+    IstaFCaL                  `verb`       {- Aisotayosar -}    [ "be easy", "be successful" ],
 
     -- ;; yusor_1
     -- ysr     yusor   N       ease;facility;affluence
@@ -1196,24 +1175,21 @@ lexicon = listing "Lexicon's properties"
     -- ytm     yotim   IV_intr be orphaned
 
     FaCaL                     `verb`       {- yatam-i -}        [ "be orphaned" ]
-                              `imperf`     FCiL
-                              {- `others` [ "ytim IV_intr" ] -},
+                              `imperf`     FCiL,
 
     -- ;; yatum-u_1
     -- ytm     yatum   PV_intr be orphaned
     -- ytm     yotum   IV_intr be orphaned
 
     FaCuL                     `verb`       {- yatum-u -}        [ "be orphaned" ]
-                              `imperf`     FCuL
-                              {- `others` [ "ytum IV_intr" ] -},
+                              `imperf`     FCuL,
 
     -- ;; yatim-a_1
     -- ytm     yatim   PV_intr be orphaned
     -- ytm     yotam   IV_intr be orphaned
 
     FaCiL                     `verb`       {- yatim-a -}        [ "be orphaned" ]
-                              `imperf`     FCaL
-                              {- `others` [ "ytam IV_intr" ] -},
+                              `imperf`     FCaL,
 
     -- ;; >ayotam_1
     -- >ytm    >ayotam PV      make orphan
@@ -1274,8 +1250,7 @@ lexicon = listing "Lexicon's properties"
     -- ywd     yaw~id  IV_yu   iodize
     -- ywd     yuwd    N       iodine
 
-    FaCCaL                    `verb`       {- yaw~ad -}         [ "iodize", "iodine" ]
-                              {- `others` [ "yuwd N", "yawwid IV_yu" ] -} ]
+    FaCCaL                    `verb`       {- yaw~ad -}         [ "iodize", "iodine" ] ]
 
  |> "y w m" <| [
 
@@ -1283,8 +1258,7 @@ lexicon = listing "Lexicon's properties"
     -- yAwm    yAwam   PV      hire (as a day laborer)
     -- yAwm    yAwim   IV_yu   hire (as a day laborer)
 
-    FACaL                     `verb`       {- yAwam -}          [ "hire (as a day laborer)" ]
-                              {- `others` [ "yAwim IV_yu" ] -},
+    FACaL                     `verb`       {- yAwam -}          [ "hire (as a day laborer)" ],
 
     -- ;; yawom_1
     -- ywm     yawom   Ndu     day

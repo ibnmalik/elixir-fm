@@ -419,7 +419,7 @@ $Lexicon = {
         'spill',
         'shed'
       ],
-      'orig' => '{inovabaq',
+      'orig' => 'Ainovabaq',
       'prefix' => ''
     }
   ],
@@ -450,7 +450,7 @@ $Lexicon = {
       'glosses' => [
         'the + (1st word in "twelve")'
       ],
-      'orig' => 'Al{ivonA',
+      'orig' => 'AlAivonA',
       'prefix' => 'al >| '
     }
   ],
@@ -1344,7 +1344,7 @@ $Lexicon = {
       'glosses' => [
         'the + two'
       ],
-      'orig' => 'Al{ivonAni',
+      'orig' => 'AlAivonAni',
       'prefix' => 'al >| '
     }
   ],
@@ -2061,7 +2061,7 @@ $Lexicon = {
         'find heavy',
         'find annoying'
       ],
-      'orig' => '{isotavoqal',
+      'orig' => 'Aisotavoqal',
       'prefix' => ''
     },
     {
@@ -2416,7 +2416,7 @@ $Lexicon = {
       'glosses' => [
         'with/by + the + two'
       ],
-      'orig' => 'biAl{ivonayoni',
+      'orig' => 'biAlAivonayoni',
       'prefix' => ''
     }
   ],
@@ -2555,7 +2555,7 @@ $Lexicon = {
       'glosses' => [
         'Monday'
       ],
-      'orig' => '{ivonayoni',
+      'orig' => 'Aivonayoni',
       'prefix' => ''
     }
   ],
@@ -2643,7 +2643,7 @@ $Lexicon = {
       'glosses' => [
         'the + two'
       ],
-      'orig' => 'Al{ivonatAni',
+      'orig' => 'AlAivonatAni',
       'prefix' => 'al >| '
     }
   ],
@@ -3029,7 +3029,7 @@ $Lexicon = {
       'glosses' => [
         'with/by + the + (1st word in "twelve")'
       ],
-      'orig' => 'biAl{ivonatayo',
+      'orig' => 'biAlAivonatayo',
       'prefix' => ''
     }
   ],
@@ -3377,7 +3377,7 @@ $Lexicon = {
         'bend over',
         'fold'
       ],
-      'orig' => '{inovanaY',
+      'orig' => 'AinovanaY',
       'prefix' => ''
     },
     {
@@ -3433,7 +3433,7 @@ $Lexicon = {
         'be excepted',
         'be excluded'
       ],
-      'orig' => '{isotavonaY',
+      'orig' => 'AisotavonaY',
       'prefix' => ''
     },
     {
@@ -3866,7 +3866,7 @@ $Lexicon = {
         'folding',
         'bending'
       ],
-      'orig' => '{inovinA\'',
+      'orig' => 'AinovinA\'',
       'prefix' => ''
     },
     {
@@ -3891,7 +3891,7 @@ $Lexicon = {
         'bend',
         'curve'
       ],
-      'orig' => '{inovinA\'ap',
+      'orig' => 'AinovinA\'ap',
       'prefix' => ''
     },
     {
@@ -3933,7 +3933,7 @@ $Lexicon = {
         'exceptions',
         'exclusions'
       ],
-      'orig' => '{isotivonA\'',
+      'orig' => 'AisotivonA\'',
       'prefix' => ''
     },
     {
@@ -3958,7 +3958,7 @@ $Lexicon = {
         'exceptional',
         'extraordinary'
       ],
-      'orig' => '{isotivonA}iy~',
+      'orig' => 'AisotivonA}iy~',
       'prefix' => ''
     },
     {
@@ -4096,7 +4096,7 @@ $Lexicon = {
       'glosses' => [
         'to/for + the + two'
       ],
-      'orig' => 'lilo{ivonayoni',
+      'orig' => 'liloAivonayoni',
       'prefix' => ''
     }
   ],
@@ -4844,7 +4844,7 @@ $Lexicon = {
       'glosses' => [
         'invest'
       ],
-      'orig' => '{isotavomar',
+      'orig' => 'Aisotavomar',
       'prefix' => ''
     },
     {
@@ -4945,7 +4945,7 @@ $Lexicon = {
         'invest',
         'investing'
       ],
-      'orig' => '{isotivomAr',
+      'orig' => 'AisotivomAr',
       'prefix' => ''
     },
     {
@@ -4969,7 +4969,7 @@ $Lexicon = {
       'glosses' => [
         'investment'
       ],
-      'orig' => '{isotivomAr',
+      'orig' => 'AisotivomAr',
       'prefix' => ''
     },
     {
@@ -4993,7 +4993,7 @@ $Lexicon = {
       'glosses' => [
         'investment'
       ],
-      'orig' => '{isotivomAriy~',
+      'orig' => 'AisotivomAriy~',
       'prefix' => ''
     },
     {
@@ -5117,7 +5117,7 @@ $Lexicon = {
       'glosses' => [
         '(1st word in "twelve")'
       ],
-      'orig' => '{ivonatA',
+      'orig' => 'AivonatA',
       'prefix' => ''
     }
   ],
@@ -5190,7 +5190,7 @@ $Lexicon = {
       'glosses' => [
         'two'
       ],
-      'orig' => '{ivonatAni',
+      'orig' => 'AivonatAni',
       'prefix' => ''
     }
   ],
@@ -5216,7 +5216,7 @@ $Lexicon = {
       'glosses' => [
         'as/like + the + (1st word in "twelve")'
       ],
-      'orig' => 'kaAl{ivonayo',
+      'orig' => 'kaAlAivonayo',
       'prefix' => ''
     }
   ],
@@ -5403,7 +5403,7 @@ $Lexicon = {
         'verify',
         'seek confirmation'
       ],
-      'orig' => '{isotavobat',
+      'orig' => 'Aisotavobat',
       'prefix' => ''
     },
     {
@@ -5820,7 +5820,7 @@ $Lexicon = {
       'glosses' => [
         'lose teeth'
       ],
-      'orig' => '{inovaram',
+      'orig' => 'Ainovaram',
       'prefix' => ''
     }
   ],
@@ -5846,7 +5846,7 @@ $Lexicon = {
       'glosses' => [
         'to/for + the + (1st word in "twelve")'
       ],
-      'orig' => 'lil{ivonatayo',
+      'orig' => 'lilAivonatayo',
       'prefix' => ''
     }
   ],
@@ -5954,7 +5954,7 @@ $Lexicon = {
       'morphs' => 'InFiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{inovinA\'',
+      'orig' => 'AinovinA\'',
       'prefix' => ''
     },
     {
@@ -5968,7 +5968,7 @@ $Lexicon = {
       'morphs' => 'InFiCAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [],
-      'orig' => '{inovinA\'ap',
+      'orig' => 'AinovinA\'ap',
       'prefix' => ''
     },
     {
@@ -5982,7 +5982,7 @@ $Lexicon = {
       'morphs' => 'IstiFCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{isotivonA\'',
+      'orig' => 'AisotivonA\'',
       'prefix' => ''
     },
     {
@@ -5996,7 +5996,7 @@ $Lexicon = {
       'morphs' => 'IstiFCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [],
-      'orig' => '{isotivonA}iy~',
+      'orig' => 'AisotivonA}iy~',
       'prefix' => ''
     }
   ],
@@ -6190,7 +6190,7 @@ $Lexicon = {
         'be pierced',
         'be perforated'
       ],
-      'orig' => '{inovaqab',
+      'orig' => 'Ainovaqab',
       'prefix' => ''
     },
     {
@@ -6511,7 +6511,7 @@ $Lexicon = {
         'be subverted',
         'be overthrown'
       ],
-      'orig' => '{inoval~',
+      'orig' => 'Ainoval~',
       'prefix' => ''
     },
     {
@@ -6597,7 +6597,7 @@ $Lexicon = {
       'glosses' => [
         'to/for + the + (1st word in "twelve")'
       ],
-      'orig' => 'lil{ivonayo',
+      'orig' => 'lilAivonayo',
       'prefix' => ''
     }
   ],
@@ -6731,7 +6731,7 @@ $Lexicon = {
       'glosses' => [
         'with/by + the + two'
       ],
-      'orig' => 'biAl{ivonatayoni',
+      'orig' => 'biAlAivonatayoni',
       'prefix' => ''
     }
   ],
@@ -6926,7 +6926,7 @@ $Lexicon = {
         'incite',
         'elicit'
       ],
-      'orig' => '{isotavAr',
+      'orig' => 'AisotavAr',
       'prefix' => ''
     },
     {
@@ -7715,7 +7715,7 @@ $Lexicon = {
         'be defiled',
         'be discredited'
       ],
-      'orig' => '{inovalam',
+      'orig' => 'Ainovalam',
       'prefix' => ''
     },
     {
@@ -7988,7 +7988,7 @@ $Lexicon = {
       'glosses' => [
         'two'
       ],
-      'orig' => '{ivonAni',
+      'orig' => 'AivonAni',
       'prefix' => ''
     }
   ],
@@ -8729,7 +8729,7 @@ $Lexicon = {
       'glosses' => [
         'the + (1st word in "twelve")'
       ],
-      'orig' => 'Al{ivonatA',
+      'orig' => 'AlAivonatA',
       'prefix' => 'al >| '
     }
   ],
@@ -9255,7 +9255,7 @@ $Lexicon = {
       'glosses' => [
         'with/by + the + (1st word in "twelve")'
       ],
-      'orig' => 'biAl{ivonayo',
+      'orig' => 'biAlAivonayo',
       'prefix' => ''
     }
   ],
@@ -9373,7 +9373,7 @@ $Lexicon = {
       'glosses' => [
         'to/for + the + two'
       ],
-      'orig' => 'lilo{ivonatayoni',
+      'orig' => 'liloAivonatayoni',
       'prefix' => ''
     }
   ],
@@ -9399,7 +9399,7 @@ $Lexicon = {
       'glosses' => [
         'as/like + the + two'
       ],
-      'orig' => 'kaAl{ivonatayoni',
+      'orig' => 'kaAlAivonatayoni',
       'prefix' => ''
     }
   ],
@@ -9566,7 +9566,7 @@ $Lexicon = {
       'glosses' => [
         'as/like + the + (1st word in "twelve")'
       ],
-      'orig' => 'kaAl{ivonatayo',
+      'orig' => 'kaAlAivonatayo',
       'prefix' => ''
     }
   ],
@@ -9597,7 +9597,7 @@ $Lexicon = {
       'glosses' => [
         '(1st word in "twelve")'
       ],
-      'orig' => '{ivonA',
+      'orig' => 'AivonA',
       'prefix' => ''
     }
   ],
@@ -9694,7 +9694,7 @@ $Lexicon = {
         'take revenge',
         'be avenged'
       ],
-      'orig' => '{iv~aOar',
+      'orig' => 'Aiv~aOar',
       'prefix' => ''
     },
     {
@@ -9720,7 +9720,7 @@ $Lexicon = {
       'glosses' => [
         'call for vengeance'
       ],
-      'orig' => '{isotavoOar',
+      'orig' => 'AisotavoOar',
       'prefix' => ''
     },
     {
@@ -9985,7 +9985,7 @@ $Lexicon = {
         'lay claim to',
         'seek reward'
       ],
-      'orig' => '{isotavAb',
+      'orig' => 'AisotavAb',
       'prefix' => ''
     },
     {
@@ -10477,7 +10477,7 @@ $Lexicon = {
         'swarm',
         'throng'
       ],
-      'orig' => '{inovAl',
+      'orig' => 'AinovAl',
       'prefix' => ''
     },
     {
@@ -10560,7 +10560,7 @@ $Lexicon = {
       'glosses' => [
         'as/like + the + two'
       ],
-      'orig' => 'kaAl{ivonayoni',
+      'orig' => 'kaAlAivonayoni',
       'prefix' => ''
     }
   ],

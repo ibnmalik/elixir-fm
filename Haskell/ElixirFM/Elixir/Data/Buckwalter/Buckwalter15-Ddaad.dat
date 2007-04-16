@@ -4,7 +4,7 @@ DAd     DAd     NduAt   Dad (Arabic letter)
 DAd     DAd     N0      Arabic (language of the letter "Dad")
 ;
 ;--- DAl
-;; Da&ul_1
+;; Da&ul-u_1
 D&l     Da&ul   PV_intr be meager;be sparse;dwindle
 D&l     Do&ul   IV_intr be meager;be sparse;dwindle
 ;; taDA'al_1
@@ -522,7 +522,7 @@ mDTr    muDoTar~        Nall    compelled;forced;obligated     <pos>muDoTar~/ADJ
 mtDrr   mutaDar~ir      N-ap    damaged     <pos>mutaDar~ir/ADJ</pos>
 ;
 ;--- Drb
-;; Darab_1
+;; Darab-i_1
 Drb     Darab   PV      strike;hit
 Drb     Dorib   IV      strike;hit
 Drb     Dorab   IV_Pass_yu      be struck;be hit
@@ -611,7 +611,7 @@ ADTrAb  {iDoTirAb       N/At    disturbance;agitation;disorder
 ;; muDoTarib_1
 mDTrb   muDoTarib       Nall    disturbed;agitated;disrupted
 ;
-;; Daraj_1
+;; Daraj-u_1
 Drj     Daraj   PV      stain;smear
 Drj     Doruj   IV      stain;smear
 ;; Dar~aj_1
@@ -656,7 +656,7 @@ Drws    Daruws  N-ap    fierce;bloody
 tDrys   taDoriys        N/At    topography;indentation
 tDArys  taDAriys        Ndip    topography;surface features
 ;
-;; DaraT_1
+;; DaraT-i_1
 DrT     DaraT   PV      break wind;fart
 DrT     DoriT   IV      break wind;fart
 ;; DaroT_1
@@ -668,7 +668,7 @@ DrT     DaraT   NAt     farts
 DrAT    DurAT   N       flatus;farting
 DryT    DariyT  N       flatus;farting
 ;
-;; DaraE_1
+;; DaraE-u_1
 DrE     DaraE   PV      suck;suckle
 DrE     DoruE   IV      suck;suckle
 ;; DAraE_1
@@ -707,7 +707,7 @@ DrAgm   DarAgim Ndip    lions
 DrgAm   DirogAm N       lion
 DrAgm   DarAgim Nap     lions
 ;
-;; Darim_1
+;; Darim-a_1
 Drm     Darim   PV_intr be inflamed;flare up
 Drm     Doram   IV_intr be inflamed;flare up
 ;; >aDoram_1
@@ -775,7 +775,7 @@ mtDEDE  mutaDaEoDiE     Nall    debilitated
 tDEDE   taDaEoDuE       N/At    debacle
 ;
 ; DEf(1) weakness
-;; DaEuf_1
+;; DaEuf-u_1
 DEf     DaEuf   PV_intr become weak;abate;wane
 DEf     DoEuf   IV_intr become weak;abate;wane
 ;; >aDoEaf_1
@@ -836,7 +836,7 @@ tDAEf   taDAEuf N/At    doubling;multiplying
 ;; muDaE~af_1
 mDEf    muDaE~af        N-ap    doubled;compounded
 ;
-;; Dagav_1
+;; Dagav-a_1
 Dgv     Dagav   PV      confuse;muddle
 Dgv     Dogav   IV      confuse;muddle
 ;; Digov_1
@@ -850,7 +850,7 @@ DgDg    DagoDig IV_yu   chew;munch;mumble
 ;; DagoDagap_1
 DgDg    DagoDag Nap     chewing;munching;mumbling
 ;
-;; DagaT_1
+;; DagaT-a_1
 DgT     DagaT   PV      press;push;pressurize;compress
 DgT     DogaT   IV      press;push;pressurize;compress
 ;; >uDoguT_1
@@ -922,7 +922,7 @@ DfdEy   DafodaEiy~      N-ap    frog-like;amphibian;batrachian     <pos>DafodaEi
 ;; DafodaEiy~At_1
 DfdEy   DafodaEiy~      NAt     amphibians;batrachians     <pos>DafodaEiy~/NOUN</pos>
 ;
-;; Dafar_1
+;; Dafar-i_1
 Dfr     Dafar   PV      interweave
 Dfr     Dofir   IV      interweave
 ;; DAfar_1
@@ -944,7 +944,7 @@ tDAfr   taDAfur N/At    coordination;coalition
 ;; mutaDAfir_1
 mtDAfr  mutaDAfir       Nall    convergent;in coalition
 ;
-;; DafA_1
+;; DafA-u_1
 DfA     DafA    PV_0    overflow;be abundant
 Dfw     Dafaw   PV_Atn  overflow;be abundant
 Df      Daf     PV_ttAw overflow;be abundant
@@ -981,7 +981,7 @@ DAfy    DAfiy   NAn_Nayn        ample;elaborate
 DAf     DAf     Nuwn_Niyn       ample;elaborate
 DAfy    DAfiy   NapAt   ample;elaborate
 ;
-;; Dal~_1
+;; Dal~-i_1
 Dl      Dal~    PV_V    go astray;be in vain
 Dll     Dalal   PV_C    go astray;be in vain
 Dl      Dil~    IV_V    go astray;be in vain
@@ -1709,7 +1709,7 @@ tDAyf   taDAyuf N/At    rapport;relation
 AstDAf  {isotiDAf       NapAt   hosting
 ;
 ;--- Dyq
-;; DAq_1
+;; DAq-i_1
 DAq     DAq     PV_V_intr       be narrow;be confined;be small
 Dq      Diq     PV_C_intr       be narrow;be confined;be small
 Dyq     Diyq    IV_V_intr       be narrow;be confined;be small

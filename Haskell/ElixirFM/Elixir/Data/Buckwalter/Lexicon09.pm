@@ -533,7 +533,7 @@ $Lexicon = {
         'storage',
         'hoarding'
       ],
-      'orig' => '{id~ixAr',
+      'orig' => 'Aid~ixAr',
       'prefix' => ''
     },
     {
@@ -558,7 +558,7 @@ $Lexicon = {
         'savings',
         'storage'
       ],
-      'orig' => '{id~ixAriy~',
+      'orig' => 'Aid~ixAriy~',
       'prefix' => ''
     }
   ],
@@ -900,7 +900,7 @@ $Lexicon = {
         'be wolflike',
         'be lupine'
       ],
-      'orig' => '{isota*oOab',
+      'orig' => 'Aisota*oOab',
       'prefix' => ''
     },
     {
@@ -1090,7 +1090,7 @@ $Lexicon = {
       'glosses' => [
         'remember'
       ],
-      'orig' => '{id~akar',
+      'orig' => 'Aid~akar',
       'prefix' => ''
     }
   ],
@@ -1120,7 +1120,7 @@ $Lexicon = {
         'hoard',
         'save'
       ],
-      'orig' => '{id~axar',
+      'orig' => 'Aid~axar',
       'prefix' => ''
     }
   ],
@@ -2251,7 +2251,7 @@ $Lexicon = {
         'memorize',
         'recall'
       ],
-      'orig' => '{isota*okar',
+      'orig' => 'Aisota*okar',
       'prefix' => ''
     },
     {
@@ -2560,7 +2560,7 @@ $Lexicon = {
       'glosses' => [
         'memorization'
       ],
-      'orig' => '{isoti*okAr',
+      'orig' => 'Aisoti*okAr',
       'prefix' => ''
     },
     {
@@ -3502,7 +3502,7 @@ $Lexicon = {
         'find/declare guilty',
         'incriminate'
       ],
-      'orig' => '{isota*onab',
+      'orig' => 'Aisota*onab',
       'prefix' => ''
     },
     {
@@ -4318,7 +4318,7 @@ $Lexicon = {
         'flare up',
         'blaze'
       ],
-      'orig' => '{isota*okaY',
+      'orig' => 'Aisota*okaY',
       'prefix' => ''
     },
     {
@@ -4523,7 +4523,7 @@ $Lexicon = {
         'be dazed',
         'overlook'
       ],
-      'orig' => '{ino*ahal',
+      'orig' => 'Aino*ahal',
       'prefix' => ''
     },
     {
@@ -4942,7 +4942,7 @@ $Lexicon = {
       'glosses' => [
         'take refuge'
       ],
-      'orig' => '{isota*oraY',
+      'orig' => 'Aisota*oraY',
       'prefix' => ''
     },
     {
@@ -5711,7 +5711,7 @@ $Lexicon = {
         'let flow',
         'shed'
       ],
-      'orig' => '{isota*oraf',
+      'orig' => 'Aisota*oraf',
       'prefix' => ''
     },
     {
@@ -5895,7 +5895,7 @@ $Lexicon = {
         'advance',
         'intervene'
       ],
-      'orig' => '{ino*araE',
+      'orig' => 'Aino*araE',
       'prefix' => ''
     },
     {
@@ -6961,7 +6961,7 @@ $Lexicon = {
         'deride',
         'disparage'
       ],
-      'orig' => '{isota*al~',
+      'orig' => 'Aisota*al~',
       'prefix' => ''
     },
     {
@@ -7535,7 +7535,7 @@ $Lexicon = {
       'glosses' => [
         'panic'
       ],
-      'orig' => '{ino*aEar',
+      'orig' => 'Aino*aEar',
       'prefix' => ''
     },
     {

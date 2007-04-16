@@ -481,7 +481,7 @@ $Lexicon = {
         'be abandoned',
         'be defeated'
       ],
-      'orig' => '{inoxa*al',
+      'orig' => 'Ainoxa*al',
       'prefix' => ''
     },
     {
@@ -553,7 +553,7 @@ $Lexicon = {
         'defeat',
         'abandoning'
       ],
-      'orig' => '{inoxi*Al',
+      'orig' => 'Ainoxi*Al',
       'prefix' => ''
     },
     {
@@ -2096,7 +2096,7 @@ $Lexicon = {
         'store',
         'hoard'
       ],
-      'orig' => '{ixotazan',
+      'orig' => 'Aixotazan',
       'prefix' => ''
     },
     {
@@ -2714,7 +2714,7 @@ $Lexicon = {
         'devise',
         'fabricate'
       ],
-      'orig' => '{ixotalaq',
+      'orig' => 'Aixotalaq',
       'prefix' => ''
     },
     {
@@ -3294,7 +3294,7 @@ $Lexicon = {
         'invention',
         'fabrication'
       ],
-      'orig' => '{ixotilAq',
+      'orig' => 'AixotilAq',
       'prefix' => ''
     },
     {
@@ -3561,7 +3561,7 @@ $Lexicon = {
         'resist',
         'wander'
       ],
-      'orig' => '{ixotabaT',
+      'orig' => 'AixotabaT',
       'prefix' => ''
     },
     {
@@ -4050,7 +4050,7 @@ $Lexicon = {
         'woo',
         'court'
       ],
-      'orig' => '{ixotaTab',
+      'orig' => 'AixotaTab',
       'prefix' => ''
     },
     {
@@ -4817,7 +4817,7 @@ $Lexicon = {
         'abbreviate',
         'summarize'
       ],
-      'orig' => '{ixotaSar',
+      'orig' => 'AixotaSar',
       'prefix' => ''
     },
     {
@@ -4908,7 +4908,7 @@ $Lexicon = {
         'abbreviation',
         'shortening'
       ],
-      'orig' => '{ixotiSAr',
+      'orig' => 'AixotiSAr',
       'prefix' => ''
     },
     {
@@ -5949,7 +5949,7 @@ $Lexicon = {
         'be picked',
         'be selected'
       ],
-      'orig' => '{ixotAr',
+      'orig' => 'AixotAr',
       'prefix' => ''
     },
     {
@@ -5984,7 +5984,7 @@ $Lexicon = {
       'glosses' => [
         'seek guidance'
       ],
-      'orig' => '{isotaxAr',
+      'orig' => 'AisotaxAr',
       'prefix' => ''
     },
     {
@@ -6325,7 +6325,7 @@ $Lexicon = {
         'selection',
         'preference'
       ],
-      'orig' => '{ixotiyAr',
+      'orig' => 'AixotiyAr',
       'prefix' => ''
     },
     {
@@ -6350,7 +6350,7 @@ $Lexicon = {
         'elective',
         'voluntary'
       ],
-      'orig' => '{ixotiyAriy~',
+      'orig' => 'AixotiyAriy~',
       'prefix' => ''
     },
     {
@@ -6375,7 +6375,7 @@ $Lexicon = {
         'elder',
         'senior'
       ],
-      'orig' => '{ixotiyAr',
+      'orig' => 'AixotiyAr',
       'prefix' => ''
     },
     {
@@ -6740,7 +6740,7 @@ $Lexicon = {
         'derive',
         'conclude'
       ],
-      'orig' => '{isotaxoraj',
+      'orig' => 'Aisotaxoraj',
       'prefix' => ''
     },
     {
@@ -7070,7 +7070,7 @@ $Lexicon = {
         'removal',
         'deduction'
       ],
-      'orig' => '{isotixorAj',
+      'orig' => 'AisotixorAj',
       'prefix' => ''
     },
     {
@@ -7449,7 +7449,7 @@ $Lexicon = {
         'submit',
         'be subject'
       ],
-      'orig' => '{ixotaDaE',
+      'orig' => 'AixotaDaE',
       'prefix' => ''
     },
     {
@@ -7596,7 +7596,7 @@ $Lexicon = {
         'pierce',
         'stab'
       ],
-      'orig' => '{ixotaz~',
+      'orig' => 'Aixotaz~',
       'prefix' => ''
     }
   ],
@@ -7910,7 +7910,7 @@ $Lexicon = {
         'be torn out',
         'be dislocated'
       ],
-      'orig' => '{inoxalaE',
+      'orig' => 'AinoxalaE',
       'prefix' => ''
     },
     {
@@ -8590,7 +8590,7 @@ $Lexicon = {
         'withdraw',
         'retire'
       ],
-      'orig' => '{ixotalaY',
+      'orig' => 'AixotalaY',
       'prefix' => ''
     },
     {
@@ -8956,7 +8956,7 @@ $Lexicon = {
         'privacy',
         'solitude'
       ],
-      'orig' => '{ixotilA\'',
+      'orig' => 'AixotilA\'',
       'prefix' => ''
     },
     {
@@ -9396,7 +9396,7 @@ $Lexicon = {
         'be rude',
         'be uncivil'
       ],
-      'orig' => '{ixo$awo$an',
+      'orig' => 'Aixo$awo$an',
       'prefix' => ''
     },
     {
@@ -10271,7 +10271,7 @@ $Lexicon = {
         'be lowered',
         'decrease'
       ],
-      'orig' => '{inoxafaD',
+      'orig' => 'AinoxafaD',
       'prefix' => ''
     },
     {
@@ -10370,7 +10370,7 @@ $Lexicon = {
         'decrease',
         'reduction'
       ],
-      'orig' => '{inoxifAD',
+      'orig' => 'AinoxifAD',
       'prefix' => ''
     },
     {
@@ -10668,7 +10668,7 @@ $Lexicon = {
       'glosses' => [
         'be ashamed'
       ],
-      'orig' => '{isotaxozaY',
+      'orig' => 'AisotaxozaY',
       'prefix' => ''
     },
     {
@@ -11232,7 +11232,7 @@ $Lexicon = {
         'dedicate',
         'be distinguished'
       ],
-      'orig' => '{ixotaS~',
+      'orig' => 'AixotaS~',
       'prefix' => ''
     },
     {
@@ -11257,7 +11257,7 @@ $Lexicon = {
         'jurisdiction',
         'bailiwick'
       ],
-      'orig' => '{ixotiSAS',
+      'orig' => 'AixotiSAS',
       'prefix' => ''
     },
     {
@@ -11281,7 +11281,7 @@ $Lexicon = {
       'glosses' => [
         'specialist'
       ],
-      'orig' => '{ixotiSASiy~',
+      'orig' => 'AixotiSASiy~',
       'prefix' => ''
     },
     {
@@ -12269,7 +12269,7 @@ $Lexicon = {
         'be walked',
         'be advanced'
       ],
-      'orig' => '{ixotaTaY',
+      'orig' => 'AixotaTaY',
       'prefix' => ''
     },
     {
@@ -12934,7 +12934,7 @@ $Lexicon = {
         'tremble',
         'move'
       ],
-      'orig' => '{ixotalaj',
+      'orig' => 'Aixotalaj',
       'prefix' => ''
     },
     {
@@ -13116,7 +13116,7 @@ $Lexicon = {
         'convulsions',
         'twitching'
       ],
-      'orig' => '{ixotilAj',
+      'orig' => 'AixotilAj',
       'prefix' => ''
     },
     {
@@ -13141,7 +13141,7 @@ $Lexicon = {
         'convulsion',
         'twitch'
       ],
-      'orig' => '{ixotilAjap',
+      'orig' => 'AixotilAjap',
       'prefix' => ''
     },
     {
@@ -13271,7 +13271,7 @@ $Lexicon = {
         'be pierced',
         'be disturbed'
       ],
-      'orig' => '{inoxaram',
+      'orig' => 'Ainoxaram',
       'prefix' => ''
     },
     {
@@ -13301,7 +13301,7 @@ $Lexicon = {
       'glosses' => [
         'destroy'
       ],
-      'orig' => '{ixotaram',
+      'orig' => 'Aixotaram',
       'prefix' => ''
     },
     {
@@ -13436,7 +13436,7 @@ $Lexicon = {
       'glosses' => [
         'disturbance'
       ],
-      'orig' => '{inoxirAm',
+      'orig' => 'AinoxirAm',
       'prefix' => ''
     },
     {
@@ -14002,7 +14002,7 @@ $Lexicon = {
         'be torn',
         'be broken'
       ],
-      'orig' => '{inoxaraq',
+      'orig' => 'Ainoxaraq',
       'prefix' => ''
     },
     {
@@ -14034,7 +14034,7 @@ $Lexicon = {
         'break',
         'traverse'
       ],
-      'orig' => '{ixotaraq',
+      'orig' => 'Aixotaraq',
       'prefix' => ''
     },
     {
@@ -14244,7 +14244,7 @@ $Lexicon = {
         'penetration',
         'crossing'
       ],
-      'orig' => '{ixotirAq',
+      'orig' => 'AixotirAq',
       'prefix' => ''
     },
     {
@@ -14402,7 +14402,7 @@ $Lexicon = {
       'entry' => '_haba\'',
       'form' => '_haba\'',
       'lines' => [
-        ';; xaba>_1',
+        ';; xaba>-a_1',
         'xb>     xaba>   PV->    hide;conceal',
         'xb|     xaba|   PV-|    hide;conceal',
         'xb&     xaba&   PV_w    hide;conceal',
@@ -14419,12 +14419,15 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCaL',
-      'suffix' => '',
       'glosses' => [
         'hide',
         'conceal'
       ],
-      'orig' => 'xabaO',
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xabaO-a',
       'prefix' => ''
     },
     {
@@ -14530,7 +14533,7 @@ $Lexicon = {
         'disappear',
         'be hidden'
       ],
-      'orig' => '{ixotabaO',
+      'orig' => 'AixotabaO',
       'prefix' => ''
     },
     {
@@ -14570,7 +14573,7 @@ $Lexicon = {
         'disappearance',
         'hiding'
       ],
-      'orig' => '{ixotibA\'',
+      'orig' => 'AixotibA\'',
       'prefix' => ''
     },
     {
@@ -15199,7 +15202,7 @@ $Lexicon = {
         'weaken',
         'malfunction'
       ],
-      'orig' => '{ixotal~',
+      'orig' => 'Aixotal~',
       'prefix' => ''
     },
     {
@@ -15436,7 +15439,7 @@ $Lexicon = {
         'disorder',
         'deterioration'
       ],
-      'orig' => '{ixotilAl',
+      'orig' => 'AixotilAl',
       'prefix' => ''
     },
     {
@@ -16207,7 +16210,7 @@ $Lexicon = {
         'double-cross',
         'deceive'
       ],
-      'orig' => '{ixotatal',
+      'orig' => 'Aixotatal',
       'prefix' => ''
     },
     {
@@ -16294,7 +16297,7 @@ $Lexicon = {
       'morphs' => 'IFCaLL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ixotal~',
+      'orig' => 'Aixotal~',
       'prefix' => ''
     },
     {
@@ -16308,7 +16311,7 @@ $Lexicon = {
       'morphs' => 'IFCiLAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ixotilAl',
+      'orig' => 'AixotilAl',
       'prefix' => ''
     },
     {
@@ -16554,7 +16557,7 @@ $Lexicon = {
         'be conceited',
         'swagger'
       ],
-      'orig' => '{ixotAl',
+      'orig' => 'AixotAl',
       'prefix' => ''
     },
     {
@@ -16844,7 +16847,7 @@ $Lexicon = {
         'pride',
         'arrogance'
       ],
-      'orig' => '{ixotiyAl',
+      'orig' => 'AixotiyAl',
       'prefix' => ''
     },
     {
@@ -17300,7 +17303,7 @@ $Lexicon = {
       'glosses' => [
         'be moist'
       ],
-      'orig' => '{ixoDal~',
+      'orig' => 'AixoDal~',
       'prefix' => ''
     },
     {
@@ -17443,7 +17446,7 @@ $Lexicon = {
         'be deducted',
         'be subtracted'
       ],
-      'orig' => '{inoxaSam',
+      'orig' => 'AinoxaSam',
       'prefix' => ''
     },
     {
@@ -17474,7 +17477,7 @@ $Lexicon = {
         'quarrel',
         'conflict'
       ],
-      'orig' => '{ixotaSam',
+      'orig' => 'AixotaSam',
       'prefix' => ''
     },
     {
@@ -17663,7 +17666,7 @@ $Lexicon = {
         'conflict',
         'contradiction'
       ],
-      'orig' => '{ixotiSAm',
+      'orig' => 'AixotiSAm',
       'prefix' => ''
     },
     {
@@ -17852,7 +17855,7 @@ $Lexicon = {
       'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ixotaS~',
+      'orig' => 'AixotaS~',
       'prefix' => ''
     },
     {
@@ -18248,7 +18251,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ixotiSAS',
+      'orig' => 'AixotiSAS',
       'prefix' => ''
     },
     {
@@ -18262,7 +18265,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [],
-      'orig' => '{ixotiSASiy~',
+      'orig' => 'AixotiSASiy~',
       'prefix' => ''
     },
     {
@@ -18732,7 +18735,7 @@ $Lexicon = {
       'glosses' => [
         'intelligence'
       ],
-      'orig' => '{isotixobArAtiy~',
+      'orig' => 'AisotixobArAtiy~',
       'prefix' => ''
     }
   ],
@@ -18963,7 +18966,7 @@ $Lexicon = {
         'be offended',
         'be ruined'
       ],
-      'orig' => '{inoxada$',
+      'orig' => 'Ainoxada$',
       'prefix' => ''
     },
     {
@@ -19872,7 +19875,7 @@ $Lexicon = {
       'glosses' => [
         'be deceived'
       ],
-      'orig' => '{inoxadaE',
+      'orig' => 'AinoxadaE',
       'prefix' => ''
     },
     {
@@ -20336,7 +20339,7 @@ $Lexicon = {
         'cheat',
         'betray'
       ],
-      'orig' => '{ixotAn',
+      'orig' => 'AixotAn',
       'prefix' => ''
     },
     {
@@ -20362,7 +20365,7 @@ $Lexicon = {
       'glosses' => [
         'distrust'
       ],
-      'orig' => '{isotaxowan',
+      'orig' => 'Aisotaxowan',
       'prefix' => ''
     },
     {
@@ -20848,7 +20851,7 @@ $Lexicon = {
         'ferment',
         'ripen'
       ],
-      'orig' => '{ixotamar',
+      'orig' => 'Aixotamar',
       'prefix' => ''
     },
     {
@@ -21185,7 +21188,7 @@ $Lexicon = {
       'glosses' => [
         'fermentation'
       ],
-      'orig' => '{ixotimAr',
+      'orig' => 'AixotimAr',
       'prefix' => ''
     },
     {
@@ -21359,7 +21362,7 @@ $Lexicon = {
         'be employed',
         'use'
       ],
-      'orig' => '{isotaxodam',
+      'orig' => 'Aisotaxodam',
       'prefix' => ''
     },
     {
@@ -21537,7 +21540,7 @@ $Lexicon = {
         'using',
         'utilization'
       ],
-      'orig' => '{isotixodAm',
+      'orig' => 'AisotixodAm',
       'prefix' => ''
     },
     {
@@ -21743,7 +21746,7 @@ $Lexicon = {
         'cut off',
         'shorten'
       ],
-      'orig' => '{ixotazal',
+      'orig' => 'Aixotazal',
       'prefix' => ''
     },
     {
@@ -21768,7 +21771,7 @@ $Lexicon = {
         'abridgment',
         'abbreviation'
       ],
-      'orig' => '{ixotizAl',
+      'orig' => 'AixotizAl',
       'prefix' => ''
     },
     {
@@ -22337,7 +22340,7 @@ $Lexicon = {
         'be silent',
         'become dim'
       ],
-      'orig' => '{ixotafat',
+      'orig' => 'Aixotafat',
       'prefix' => ''
     },
     {
@@ -22645,7 +22648,7 @@ $Lexicon = {
         'amble',
         'trot'
       ],
-      'orig' => '{ixotab~',
+      'orig' => 'Aixotab~',
       'prefix' => ''
     }
   ],
@@ -23001,7 +23004,7 @@ $Lexicon = {
         'be embarrassed',
         'be ashamed'
       ],
-      'orig' => '{ixota$aY',
+      'orig' => 'Aixota$aY',
       'prefix' => ''
     },
     {
@@ -23312,7 +23315,7 @@ $Lexicon = {
         'be choked',
         'be throttled'
       ],
-      'orig' => '{inoxanaq',
+      'orig' => 'Ainoxanaq',
       'prefix' => ''
     },
     {
@@ -23344,7 +23347,7 @@ $Lexicon = {
         'be constricted',
         'be choked'
       ],
-      'orig' => '{ixotanaq',
+      'orig' => 'Aixotanaq',
       'prefix' => ''
     },
     {
@@ -23603,7 +23606,7 @@ $Lexicon = {
         'bottleneck',
         'asphyxia'
       ],
-      'orig' => '{ixotinAq',
+      'orig' => 'AixotinAq',
       'prefix' => ''
     },
     {
@@ -23973,7 +23976,7 @@ $Lexicon = {
       'glosses' => [
         'become green'
       ],
-      'orig' => '{ixoDar~',
+      'orig' => 'AixoDar~',
       'prefix' => ''
     },
     {
@@ -24003,7 +24006,7 @@ $Lexicon = {
       'glosses' => [
         'become green'
       ],
-      'orig' => '{ixoDawoDar',
+      'orig' => 'AixoDawoDar',
       'prefix' => ''
     },
     {
@@ -24802,7 +24805,7 @@ $Lexicon = {
         'join',
         'penetrate'
       ],
-      'orig' => '{inoxaraT',
+      'orig' => 'AinoxaraT',
       'prefix' => ''
     },
     {
@@ -25006,7 +25009,7 @@ $Lexicon = {
         'joining',
         'entry'
       ],
-      'orig' => '{inoxirAT',
+      'orig' => 'AinoxirAT',
       'prefix' => ''
     },
     {
@@ -25980,7 +25983,7 @@ $Lexicon = {
         'extract',
         'derive'
       ],
-      'orig' => '{isotaxolaS',
+      'orig' => 'AisotaxolaS',
       'prefix' => ''
     },
     {
@@ -26249,7 +26252,7 @@ $Lexicon = {
         'summing-up',
         'derivation'
       ],
-      'orig' => '{isotixolAS',
+      'orig' => 'AisotixolAS',
       'prefix' => ''
     },
     {
@@ -26714,7 +26717,7 @@ $Lexicon = {
         'submit',
         'be servile'
       ],
-      'orig' => '{isotaxo*aY',
+      'orig' => 'Aisotaxo*aY',
       'prefix' => ''
     },
     {
@@ -26748,7 +26751,7 @@ $Lexicon = {
         'subservience',
         'servility'
       ],
-      'orig' => '{isotixo*A\'',
+      'orig' => 'Aisotixo*A\'',
       'prefix' => ''
     },
     {
@@ -27077,7 +27080,7 @@ $Lexicon = {
       'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ixotab~',
+      'orig' => 'Aixotab~',
       'prefix' => ''
     },
     {
@@ -27430,7 +27433,7 @@ $Lexicon = {
       'glosses' => [
         'become green'
       ],
-      'orig' => '{ixoDawoDab',
+      'orig' => 'AixoDawoDab',
       'prefix' => ''
     },
     {
@@ -27590,7 +27593,7 @@ $Lexicon = {
         'trace',
         'mark'
       ],
-      'orig' => '{ixotaT~',
+      'orig' => 'AixotaT~',
       'prefix' => ''
     },
     {
@@ -27630,7 +27633,7 @@ $Lexicon = {
         'plan',
         'devise'
       ],
-      'orig' => '{ixotaT~',
+      'orig' => 'AixotaT~',
       'prefix' => ''
     }
   ],
@@ -28232,7 +28235,7 @@ $Lexicon = {
       'glosses' => [
         'be muddled'
       ],
-      'orig' => '{ixotabal',
+      'orig' => 'Aixotabal',
       'prefix' => ''
     },
     {
@@ -28304,7 +28307,7 @@ $Lexicon = {
       'glosses' => [
         'insanity'
       ],
-      'orig' => '{ixotibAl',
+      'orig' => 'AixotibAl',
       'prefix' => ''
     },
     {
@@ -28669,7 +28672,7 @@ $Lexicon = {
         'be pierced',
         'be torn'
       ],
-      'orig' => '{inoxazaq',
+      'orig' => 'Ainoxazaq',
       'prefix' => ''
     },
     {
@@ -28952,7 +28955,7 @@ $Lexicon = {
         'submit',
         'be servile'
       ],
-      'orig' => '{isotaxo*aO',
+      'orig' => 'Aisotaxo*aO',
       'prefix' => ''
     },
     {
@@ -28991,7 +28994,7 @@ $Lexicon = {
       'morphs' => 'IstiFCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{isotixo*A\'',
+      'orig' => 'Aisotixo*A\'',
       'prefix' => ''
     }
   ],
@@ -29095,7 +29098,7 @@ $Lexicon = {
       'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ixotaT~',
+      'orig' => 'AixotaT~',
       'prefix' => ''
     },
     {
@@ -29119,7 +29122,7 @@ $Lexicon = {
       'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ixotaT~',
+      'orig' => 'AixotaT~',
       'prefix' => ''
     },
     {
@@ -29541,7 +29544,7 @@ $Lexicon = {
         'disappearance',
         'disappearances'
       ],
-      'orig' => '{ixotifA\'',
+      'orig' => 'AixotifA\'',
       'prefix' => ''
     }
   ],
@@ -29890,7 +29893,7 @@ $Lexicon = {
         'be concluded',
         'be terminated'
       ],
-      'orig' => '{ixotatam',
+      'orig' => 'Aixotatam',
       'prefix' => ''
     },
     {
@@ -30069,7 +30072,7 @@ $Lexicon = {
         'conclusion',
         'end'
       ],
-      'orig' => '{ixotitAm',
+      'orig' => 'AixotitAm',
       'prefix' => ''
     },
     {
@@ -31702,7 +31705,7 @@ $Lexicon = {
         'lighten',
         'disdain'
       ],
-      'orig' => '{isotaxaf~',
+      'orig' => 'Aisotaxaf~',
       'prefix' => ''
     },
     {
@@ -31942,7 +31945,7 @@ $Lexicon = {
         'facilitation',
         'disdain'
       ],
-      'orig' => '{isotixofAf',
+      'orig' => 'AisotixofAf',
       'prefix' => ''
     },
     {
@@ -32237,7 +32240,7 @@ $Lexicon = {
         'mix',
         'associate'
       ],
-      'orig' => '{ixotalaT',
+      'orig' => 'AixotalaT',
       'prefix' => ''
     },
     {
@@ -32534,7 +32537,7 @@ $Lexicon = {
         'mixing',
         'association'
       ],
-      'orig' => '{ixotilAT',
+      'orig' => 'AixotilAT',
       'prefix' => ''
     },
     {
@@ -32742,7 +32745,7 @@ $Lexicon = {
         'be hidden',
         'disappear'
       ],
-      'orig' => '{isotaxofA',
+      'orig' => 'AisotaxofA',
       'prefix' => ''
     }
   ],
@@ -32807,7 +32810,7 @@ $Lexicon = {
         'bake',
         'be baked'
       ],
-      'orig' => '{ixotabaz',
+      'orig' => 'Aixotabaz',
       'prefix' => ''
     },
     {
@@ -33818,7 +33821,7 @@ $Lexicon = {
         'be snatched away',
         'be carried away'
       ],
-      'orig' => '{inoxaTaf',
+      'orig' => 'AinoxaTaf',
       'prefix' => ''
     },
     {
@@ -33848,7 +33851,7 @@ $Lexicon = {
       'glosses' => [
         'hijack'
       ],
-      'orig' => '{ixotaTaf',
+      'orig' => 'AixotaTaf',
       'prefix' => ''
     },
     {
@@ -33879,7 +33882,7 @@ $Lexicon = {
         'abduct',
         'kidnap'
       ],
-      'orig' => '{ixotaTaf',
+      'orig' => 'AixotaTaf',
       'prefix' => ''
     },
     {
@@ -34060,7 +34063,7 @@ $Lexicon = {
       'glosses' => [
         'hijacking'
       ],
-      'orig' => '{ixotiTAf',
+      'orig' => 'AixotiTAf',
       'prefix' => ''
     },
     {
@@ -34085,7 +34088,7 @@ $Lexicon = {
         'abduction',
         'kidnapping'
       ],
-      'orig' => '{ixotiTAf',
+      'orig' => 'AixotiTAf',
       'prefix' => ''
     },
     {
@@ -34418,7 +34421,7 @@ $Lexicon = {
         'be different',
         'disagree'
       ],
-      'orig' => '{ixotalaf',
+      'orig' => 'Aixotalaf',
       'prefix' => ''
     },
     {
@@ -34444,7 +34447,7 @@ $Lexicon = {
       'glosses' => [
         'appoint as successor'
       ],
-      'orig' => '{isotaxolaf',
+      'orig' => 'Aisotaxolaf',
       'prefix' => ''
     },
     {
@@ -34953,7 +34956,7 @@ $Lexicon = {
         'disagreement',
         'variance'
       ],
-      'orig' => '{ixotilAf',
+      'orig' => 'AixotilAf',
       'prefix' => ''
     },
     {
@@ -35560,7 +35563,7 @@ $Lexicon = {
         'be hidden',
         'be missing'
       ],
-      'orig' => '{ixotafaY',
+      'orig' => 'AixotafaY',
       'prefix' => ''
     },
     {
@@ -35584,7 +35587,7 @@ $Lexicon = {
         'be hidden',
         'disappear'
       ],
-      'orig' => '{isotaxofaY',
+      'orig' => 'AisotaxofaY',
       'prefix' => ''
     },
     {
@@ -35740,7 +35743,7 @@ $Lexicon = {
       'morphs' => 'IFtiCA\'',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ixotifA\'',
+      'orig' => 'AixotifA\'',
       'prefix' => ''
     },
     {
@@ -36040,7 +36043,7 @@ $Lexicon = {
         'steal',
         'misappropriate'
       ],
-      'orig' => '{ixotalas',
+      'orig' => 'Aixotalas',
       'prefix' => ''
     },
     {
@@ -36118,7 +36121,7 @@ $Lexicon = {
         'embezzlement',
         'misappropriation'
       ],
-      'orig' => '{ixotilAs',
+      'orig' => 'AixotilAs',
       'prefix' => ''
     },
     {
@@ -36267,7 +36270,7 @@ $Lexicon = {
         'be slack',
         'be yielding'
       ],
-      'orig' => '{inoxaraE',
+      'orig' => 'AinoxaraE',
       'prefix' => ''
     },
     {
@@ -36299,7 +36302,7 @@ $Lexicon = {
         'devise',
         'originate'
       ],
-      'orig' => '{ixotaraE',
+      'orig' => 'AixotaraE',
       'prefix' => ''
     },
     {
@@ -36371,7 +36374,7 @@ $Lexicon = {
       'glosses' => [
         'invention'
       ],
-      'orig' => '{ixotirAE',
+      'orig' => 'AixotirAE',
       'prefix' => ''
     },
     {
@@ -37406,7 +37409,7 @@ $Lexicon = {
       'morphs' => 'IFtaCL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ixotaz~',
+      'orig' => 'Aixotaz~',
       'prefix' => ''
     },
     {
@@ -38588,7 +38591,7 @@ $Lexicon = {
       'morphs' => 'IFtiCAL',
       'suffix' => '',
       'glosses' => [],
-      'orig' => '{ixotilA\'',
+      'orig' => 'AixotilA\'',
       'prefix' => ''
     }
   ],
@@ -39176,7 +39179,7 @@ $Lexicon = {
         'test',
         'explore'
       ],
-      'orig' => '{ixotabar',
+      'orig' => 'Aixotabar',
       'prefix' => ''
     },
     {
@@ -39202,7 +39205,7 @@ $Lexicon = {
       'glosses' => [
         'inquire'
       ],
-      'orig' => '{isotaxobar',
+      'orig' => 'Aisotaxobar',
       'prefix' => ''
     },
     {
@@ -39598,7 +39601,7 @@ $Lexicon = {
         'experimenting',
         'probing'
       ],
-      'orig' => '{ixotibAr',
+      'orig' => 'AixotibAr',
       'prefix' => ''
     },
     {
@@ -39622,7 +39625,7 @@ $Lexicon = {
       'glosses' => [
         'experimental'
       ],
-      'orig' => '{ixotibAriy~',
+      'orig' => 'AixotibAriy~',
       'prefix' => ''
     },
     {
@@ -39648,7 +39651,7 @@ $Lexicon = {
         'secret service',
         'inquiry'
       ],
-      'orig' => '{isotixobAr',
+      'orig' => 'AisotixobAr',
       'prefix' => ''
     },
     {
@@ -39673,7 +39676,7 @@ $Lexicon = {
         'undercover',
         'intelligence'
       ],
-      'orig' => '{isotixobAriy~',
+      'orig' => 'AisotixobAriy~',
       'prefix' => ''
     },
     {
@@ -39869,7 +39872,7 @@ $Lexicon = {
       'glosses' => [
         'sink'
       ],
-      'orig' => '{inoxasaf',
+      'orig' => 'Ainoxasaf',
       'prefix' => ''
     },
     {
@@ -39981,7 +39984,7 @@ $Lexicon = {
       'glosses' => [
         'be circumcised'
       ],
-      'orig' => '{ixotatan',
+      'orig' => 'Aixotatan',
       'prefix' => ''
     },
     {
@@ -40496,7 +40499,7 @@ $Lexicon = {
         'grudge',
         'envy'
       ],
-      'orig' => '{isotaxosar',
+      'orig' => 'Aisotaxosar',
       'prefix' => ''
     },
     {
@@ -41151,7 +41154,7 @@ $Lexicon = {
         'cajole',
         'bewitch'
       ],
-      'orig' => '{ixotalab',
+      'orig' => 'Aixotalab',
       'prefix' => ''
     },
     {

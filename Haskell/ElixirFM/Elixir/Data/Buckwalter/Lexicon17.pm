@@ -148,7 +148,7 @@ $Lexicon = {
         'seek refuge',
         'seek shade'
       ],
-      'orig' => '{isotaZal~',
+      'orig' => 'AisotaZal~',
       'prefix' => ''
     },
     {
@@ -720,7 +720,7 @@ $Lexicon = {
         'memorize',
         'demonstrate'
       ],
-      'orig' => '{isotaZohar',
+      'orig' => 'AisotaZohar',
       'prefix' => ''
     },
     {
@@ -2228,7 +2228,7 @@ $Lexicon = {
       'glosses' => [
         'deem charming'
       ],
-      'orig' => '{isotaZoraf',
+      'orig' => 'AisotaZoraf',
       'prefix' => ''
     },
     {
@@ -3199,7 +3199,7 @@ $Lexicon = {
       'glosses' => [
         'be wronged'
       ],
-      'orig' => '{iZ~alam',
+      'orig' => 'AiZ~alam',
       'prefix' => ''
     }
   ],
@@ -3333,7 +3333,7 @@ $Lexicon = {
       'glosses' => [
         'be wronged'
       ],
-      'orig' => '{inoZalam',
+      'orig' => 'AinoZalam',
       'prefix' => ''
     },
     {

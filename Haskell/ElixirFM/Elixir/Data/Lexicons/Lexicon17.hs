@@ -9,28 +9,53 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
+ |> "'a.zhur" <| [
+
+    Identity                  `noun`       {- OaZohur -}        [ "rear part" ] ]
+
  |> ".z b y" <| [
+
+    FaCL                      `noun`       {- Zaboy -}          [ "gazelle", "gazelles" ]
+                              `plural`     FiCA'
+                              {- `others` [ ".zibA' Nh N0_Nh Nhy" ] -},
 
     FaCiL                     `noun`       {- Zabiy -}          [ "Dhabi" ] ]
 
  |> ".z f r" <| [
 
+    FaCiL                     `verb`       {- Zafir-a -}        [ "succeed" ]
+                              `imperf`     FCaL,
+
+    FaCCaL                    `verb`       {- Zaf~ar -}         [ "grant victory" ],
+
+    FuCuL                     `noun`       {- Zufur -}          [ "nail", "claw", "talon", "nails", "claws", "talons" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'a.zfAr N" ] -},
+
     FaCaL                     `noun`       {- Zafar -}          [ "victory" ],
+
+    FaCiL                     `adj`        {- Zafir -}          [ "victorious" ],
 
     FACiL                     `noun`       {- ZAfir -}          [ "victorious" ],
 
     FACiL                     `noun`       {- ZAfir -}          [ "Zafir" ],
+
+    MuFaCCaL                  `noun`       {- muZaf~ar -}       [ "victorious" ],
 
     MuFaCCaL                  `noun`       {- muZaf~ar -}       [ "Muzaffar" ] ]
 
  |> ".z h r" <| [
 
     FaCaL                     `verb`       {- Zahar-a -}        [ "appear", "emerge" ]
-                              `imperf`     FCaL
-                              {- `others` [ ".zhar IV" ] -},
+                              `imperf`     FCaL,
 
-    HaFCaL                    `verb`       {- OaZohar -}        [ "show", "manifest", "demonstrate", "be shown", "be manifest", "be demonstrated" ]
-                              {- `others` [ ".zhar IV_Pass_yu", ".zhir IV_yu" ] -},
+    FaCCaL                    `verb`       {- Zah~ar -}         [ "endorse" ],
+
+    FaCCaL                    `verb`       {- Zah~ar -}         [ "develop" ],
+
+    FACaL                     `verb`       {- ZAhar -}          [ "assist", "support" ],
+
+    HaFCaL                    `verb`       {- OaZohar -}        [ "show", "manifest", "demonstrate", "be shown", "be manifest", "be demonstrated" ],
 
     TaFACaL                   `verb`       {- taZAhar -}        [ "manifest", "demonstrate" ],
 
@@ -43,6 +68,8 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `noun`       {- Zahiyr -}         [ "assistant", "partisan" ],
 
     FuCUL                     `noun`       {- Zuhuwr -}         [ "appearance", "emergence" ],
+
+    HaFCaL                    `noun`       {- OaZohar -}        [ "clearer/clearest", "more/most apparent" ],
 
     MaFCaL                    `noun`       {- maZohar -}        [ "appearance", "facade", "features", "manifestations" ]
                               `plural`     MaFACiL
@@ -64,9 +91,13 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACiL
                               {- `others` [ ".zawAhir Ndip" ] -},
 
+    MuFaCCiL                  `noun`       {- muZah~ir -}       [ "endorser" ],
+
     MutaFACiL                 `noun`       {- mutaZAhir -}      [ "demonstrator" ] ]
 
  |> ".z l l" <| [
+
+    HaFaCL                    `verb`       {- OaZal~ -}         [ "shade", "be shaded" ],
 
     FiCL                      `noun`       {- Zil~ -}           [ "patronage", "shelter", "auspices" ]
                               `plural`     FuCUL
@@ -76,15 +107,33 @@ lexicon = listing "Lexicon's properties"
 
     MiFaCL |< aT              `noun`       {- miZal~ap -}       [ "umbrella", "umbrellas" ]
                               `plural`     MaFACL
-                              {- `others` [ "ma.zAll Ndip" ] -} ]
+                              {- `others` [ "ma.zAll Ndip" ] -},
+
+    MiFaCL |< aT              `noun`       {- miZal~ap -}       [ "parachute", "parachutes" ]
+                              `plural`     MaFACL
+                              {- `others` [ "ma.zAll Ndip" ] -},
+
+    MuFiCL                    `adj`        {- muZil~ -}         [ "shady", "shadowy" ] ]
 
  |> ".z l m" <| [
+
+    FaCaL                     `verb`       {- Zalam-ia -}       [ "be unjust", "oppress", "be oppressed" ]
+                              `imperf`     FCiL
+                              `imperf`     FCaL,
+
+    HaFCaL                    `verb`       {- OaZolam -}        [ "become dark", "be darkened" ],
+
+    TaFaCCaL                  `verb`       {- taZal~am -}       [ "complain" ],
 
     FuCL                      `noun`       {- Zulom -}          [ "injustice" ],
 
     FaCAL                     `noun`       {- ZalAm -}          [ "darkness", "injustice" ],
 
     FaCAL |< Iy               `adj`        {- ZalAmiy~ -}       [ "obscurantist" ],
+
+    FaCCAL                    `noun`       {- Zal~Am -}         [ "tyrant" ],
+
+    HaFCaL                    `noun`       {- OaZolam -}        [ "darker/darkest", "viler/vilest" ],
 
     TaFaCCuL                  `noun`       {- taZal~um -}       [ "complaint" ],
 
@@ -100,14 +149,18 @@ lexicon = listing "Lexicon's properties"
  |> ".z n n" <| [
 
     FaCL                      `verb`       {- Zan~-u -}         [ "think", "believe", "presume" ]
-                              `imperf`     FCuL
-                              {- `others` [ ".znun IV-n", ".zanan PV_Cn", ".zunn IV_V" ] -},
+                              `imperf`     FCuL,
 
     FaCL                      `noun`       {- Zan~ -}           [ "opinion", "assumption" ],
 
     MaFCUL                    `adj`        {- maZonuwn -}       [ "presumed", "suspected", "suspicious" ] ]
 
  |> ".z r f" <| [
+
+    FaCuL                     `verb`       {- Zaruf-u -}        [ "be charming", "be witty" ]
+                              `imperf`     FCuL,
+
+    FaCCaL                    `verb`       {- Zar~af -}         [ "adorn" ],
 
     FaCL                      `noun`       {- Zarof -}          [ "charm" ],
 
@@ -123,6 +176,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                               {- `others` [ ".zurafA' Nh N0_Nh Nhy" ] -},
 
+    FaCIL                     `noun`       {- Zariyf -}         [ "Zarif" ],
+
     MaFCUL                    `noun`       {- maZoruwf -}       [ "envelope", "envelopes" ]
                               `plural`     MaFACIL
                               {- `others` [ "ma.zAriyf Ndip" ] -} ]
@@ -130,4 +185,8 @@ lexicon = listing "Lexicon's properties"
  |> ".zalla" <| [
 
     Identity                  `noun`       {- Zal~a -}          [ "remain", "continue" ] ]
+
+ |> "i.z.zalam" <| [
+
+    Identity                  `verb`       {- AiZ~alam -}       [ "be wronged" ] ]
 
