@@ -118,9 +118,7 @@ sub showNest ($$) {
     my @entries = @{$_[0]};
     my $root = $_[1];
 
-    @entries = grep { exists $include->{$_->{'orig'}} and exists $include->{$_->{'orig'}}{$_->{'index'}} and
-                      exists $include->{$_->{'orig'}}{$_->{'index'}}{'done'} and
-                             $include->{$_->{'orig'}}{$_->{'index'}}{'done'} > 0 } @entries if defined $include;
+    @entries = grep { includeEntry($_) } @entries if defined $include;
 
     return unless @entries;
 
@@ -132,28 +130,43 @@ sub showNest ($$) {
 }
 
 
+sub includeEntry ($) {
+
+    my $orig = $_[0]->{'orig'};
+
+    $orig =~ tr[{][A];
+
+    return exists $include->{$orig} and exists $include->{$orig}{'done'} and $include->{$orig}{'done'} > 0;
+}
+
+
 sub showEntry ($) {
 
     my $entry = $_[0];
 
-    my $others = [];
+    my ($others, $plural, $imperf) = ([], [], []);
 
-    my $plural = [];
+    if ($entry->{'entity'} eq 'verb') {
 
-    foreach my $form (keys %{$entry->{'patterns'}}) {
+        warn $entry->{'orig'} . "\n" if $entry->{'morphs'} =~ /^(?:FaC[aiu]L|FAL|FaCY|FaCA|FaCL)$/
+                                        and not (exists $entry->{'imperf'} and @{$entry->{'imperf'}});
+    }
+    else {
 
-        my @types = keys %{$entry->{'types'}->{$form}};
+        foreach my $form (keys %{$entry->{'patterns'}}) {
 
-        my $suffix = '';
+            my @types = keys %{$entry->{'types'}->{$form}};
 
-        $suffix .= ' |< At' if grep { /At(?:_|$)/ } @types;
-        $suffix .= ' |< aT' if grep { /ap(?:_|$)/ } @types;
-        $suffix .= ' |< Un' if grep { /iyn(?:_|$)/ } @types;
+            my $suffix = '';
 
-        push @{$plural}, map { $_ . $suffix } @{$entry->{'patterns'}->{$form}}
-                                if exists $entry->{'patterns'}->{$form} and $entry->{'entity'} ne 'verb';
+            $suffix .= ' |< At' if grep { /At(?:_|$)/ } @types;
+            $suffix .= ' |< aT' if grep { /ap(?:_|$)/ } @types;
+            $suffix .= ' |< Un' if grep { /iyn(?:_|$)/ } @types;
 
-        push @{$others}, (join ' ', $form, @types);
+            push @{$plural}, map { $_ . $suffix } @{$entry->{'patterns'}->{$form}};
+
+            push @{$others}, (join ' ', $form, @types);
+        }
     }
 
     return sprintf "%s    %-25s %-12s %-20s %s",

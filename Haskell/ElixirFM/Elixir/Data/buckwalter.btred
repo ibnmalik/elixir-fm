@@ -20,7 +20,7 @@ use Data::Dumper;
 
 our ($this, $FileChanged);
 
-our ($lexicon, $form, $id);
+our ($include, $form);
 
 
 sub autostart {
@@ -35,15 +35,15 @@ sub autostart {
 
                 $form = encode "buckwalter", $this->{'form'};
 
-                $id = $this->{'id'};
+                $form =~ s/\-[aiu]+$//;
 
                 if ($this->{'apply_m'} > 0) {
 
-                    $lexicon->{$form}{$id}{'done'}++;
+                    $include->{$form}{'done'}++;
                 }
                 else {
 
-                    $lexicon->{$form}{$id}{'none'}++;
+                    $include->{$form}{'none'}++;
                 }
             }
         }
@@ -56,28 +56,24 @@ sub autostart {
 
 BEGIN {
 
-    die "Existing file 'buckwalter.dat' is in the way, quitting" if -f 'buckwalter.dat';
+    die "Existing file 'include.dat' is in the way, quitting" if -f 'include.dat';
 }
 
 
 END {
 
-    foreach $form (sort keys %{$lexicon}) {
+    foreach $form (sort keys %{$include}) {
 
-        foreach $id (sort keys %{$lexicon->{$form}}) {
-
-            printf "%6d\t%6d\t%6d\t%s\t%s\n", $lexicon->{$form}{$id}{'done'},
-                                              $lexicon->{$form}{$id}{'none'},
-                                              $lexicon->{$form}{$id}{'done'} +
-                                              $lexicon->{$form}{$id}{'none'}, $form, $id;
+        printf "%6d\t%6d\t%6d\t%s\t%s\n",  $include->{$form}{'done'},  $include->{$form}{'none'},
+                                           $include->{$form}{'done'} + $include->{$form}{'none'},  $form;
         }
     }
 
-    open D, '>', 'buckwalter.dat';
+    open D, '>', 'include.dat';
 
     $Data::Dumper::Indent = 1;
 
-    print D Data::Dumper->Dump([$lexicon], ['include']);
+    print D Data::Dumper->Dump([$include], ['include']);
 
     close D;
 }
