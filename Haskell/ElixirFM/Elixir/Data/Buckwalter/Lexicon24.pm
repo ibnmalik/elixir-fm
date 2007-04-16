@@ -28321,43 +28321,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mAh-w' => [
-    {
-      'types' => {
-        'mAh' => {
-          'PV_V' => 1
-        },
-        'mAh-w' => {},
-        'muwh' => {
-          'IV_V' => 1
-        },
-        'muh' => {
-          'PV_C' => 1,
-          'IV_C' => 1
-        }
-      },
-      'entry' => 'mAh-w',
-      'form' => 'mAh-w',
-      'lines' => [
-        ';; mAh-w_1',
-        'mAh     mAh     PV_V    mix;have abundant water',
-        'mh      muh     PV_C    mix;have abundant water',
-        'mwh     muwh    IV_V    mix;have abundant water',
-        'mh      muh     IV_C    mix;have abundant water'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'mix',
-        'have abundant water'
-      ],
-      'orig' => 'mAh-w',
-      'prefix' => ''
-    }
-  ],
   'm \' z' => [
     {
       'types' => {
@@ -43224,6 +43187,46 @@ $Lexicon = {
     }
   ],
   'm w h' => [
+    {
+      'types' => {
+        'mAh' => {},
+        'muwh' => {
+          'IV_V' => 1
+        },
+        'muh' => {
+          'PV_C' => 1,
+          'IV_C' => 1
+        }
+      },
+      'entry' => 'mAh',
+      'form' => 'mAh',
+      'lines' => [
+        ';; mAh-u_1',
+        'mAh     mAh     PV_V    mix;have abundant water',
+        'mh      muh     PV_C    mix;have abundant water',
+        'mwh     muwh    IV_V    mix;have abundant water',
+        'mh      muh     IV_C    mix;have abundant water'
+      ],
+      'patterns' => {
+        'muwh' => [
+          'FUL',
+          'FuCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FAL',
+      'glosses' => [
+        'mix',
+        'have abundant water'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'mAh-u',
+      'prefix' => ''
+    },
     {
       'types' => {
         'mawwih' => {

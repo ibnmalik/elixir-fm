@@ -20968,59 +20968,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^sadA-w' => [
-    {
-      'types' => {
-        '^sdY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        '^sd' => {
-          'IV_0hwnyn' => 1
-        },
-        '^sduw' => {
-          'IV_0hAnn' => 1
-        },
-        '^sadA' => {
-          'PV_0h' => 1
-        },
-        '^sadA-w' => {},
-        '^sad' => {
-          'PV_ttAw' => 1
-        },
-        '^sday' => {
-          'IV_Ann_Pass_yu' => 1
-        },
-        '^sadaw' => {
-          'PV_Atn' => 1
-        }
-      },
-      'entry' => '^sadA-w',
-      'form' => '^sadA-w',
-      'lines' => [
-        ';; $adA-w_1',
-        '$dA     $adA    PV_0h   chant;know',
-        '$dw     $adaw   PV_Atn  chant;know',
-        '$d      $ad     PV_ttAw chant;know',
-        '$dw     $oduw   IV_0hAnn        chant;know',
-        '$d      $od     IV_0hwnyn       chant;know',
-        '$dY     $odaY   IV_0_Pass_yu    be chanted;be known',
-        '$dy     $oday   IV_Ann_Pass_yu  be chanted;be known'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'chant',
-        'know',
-        'be chanted',
-        'be known'
-      ],
-      'orig' => '$adA-w',
-      'prefix' => ''
-    }
-  ],
   '^s m _h r' => [
     {
       'types' => {
@@ -41623,6 +41570,68 @@ $Lexicon = {
   '^s d w' => [
     {
       'types' => {
+        '^sdY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '^sd' => {
+          'IV_0hwnyn' => 1
+        },
+        '^sday' => {
+          'IV_Ann_Pass_yu' => 1
+        },
+        '^sad' => {
+          'PV_ttAw' => 1
+        },
+        '^sduw' => {
+          'IV_0hAnn' => 1
+        },
+        '^sadaw' => {
+          'PV_Atn' => 1
+        },
+        '^sadA' => {}
+      },
+      'entry' => '^sadA',
+      'form' => '^sadA',
+      'lines' => [
+        ';; $adA-u_1',
+        '$dA     $adA    PV_0h   chant;know',
+        '$dw     $adaw   PV_Atn  chant;know',
+        '$d      $ad     PV_ttAw chant;know',
+        '$dw     $oduw   IV_0hAnn        chant;know',
+        '$d      $od     IV_0hwnyn       chant;know',
+        '$dY     $odaY   IV_0_Pass_yu    be chanted;be known',
+        '$dy     $oday   IV_Ann_Pass_yu  be chanted;be known'
+      ],
+      'patterns' => {
+        '^sdY' => [
+          'FCY'
+        ],
+        '^sduw' => [
+          'FCuL',
+          'FCU'
+        ],
+        '^sadaw' => [
+          'FaCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCA',
+      'glosses' => [
+        'chant',
+        'know',
+        'be chanted',
+        'be known'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => '$adA-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '^sadw' => {
           'N' => 1
         }
@@ -48268,21 +48277,21 @@ $Lexicon->{'^s w h'}[9]{'glosses'} = $Lexicon->{'^s \' h'}[1]{'glosses'};
 $Lexicon->{'^s s y'}[0]{'types'} = $Lexicon->{'^s s s'}[0]{'types'};
 $Lexicon->{'^s s y'}[0]{'lines'} = $Lexicon->{'^s s s'}[0]{'lines'};
 $Lexicon->{'^s s y'}[0]{'glosses'} = $Lexicon->{'^s s s'}[0]{'glosses'};
-$Lexicon->{'^s d w'}[1]{'types'} = $Lexicon->{'^s d y'}[0]{'types'};
-$Lexicon->{'^s d w'}[1]{'lines'} = $Lexicon->{'^s d y'}[0]{'lines'};
-$Lexicon->{'^s d w'}[1]{'glosses'} = $Lexicon->{'^s d y'}[0]{'glosses'};
-$Lexicon->{'^s d w'}[2]{'types'} = $Lexicon->{'^s d y'}[1]{'types'};
-$Lexicon->{'^s d w'}[2]{'lines'} = $Lexicon->{'^s d y'}[1]{'lines'};
-$Lexicon->{'^s d w'}[2]{'glosses'} = $Lexicon->{'^s d y'}[1]{'glosses'};
-$Lexicon->{'^s d w'}[3]{'types'} = $Lexicon->{'^s d y'}[2]{'types'};
-$Lexicon->{'^s d w'}[3]{'lines'} = $Lexicon->{'^s d y'}[2]{'lines'};
-$Lexicon->{'^s d w'}[3]{'glosses'} = $Lexicon->{'^s d y'}[2]{'glosses'};
-$Lexicon->{'^s d w'}[4]{'types'} = $Lexicon->{'^s d y'}[3]{'types'};
-$Lexicon->{'^s d w'}[4]{'lines'} = $Lexicon->{'^s d y'}[3]{'lines'};
-$Lexicon->{'^s d w'}[4]{'glosses'} = $Lexicon->{'^s d y'}[3]{'glosses'};
-$Lexicon->{'^s d w'}[5]{'types'} = $Lexicon->{'^s d y'}[4]{'types'};
-$Lexicon->{'^s d w'}[5]{'lines'} = $Lexicon->{'^s d y'}[4]{'lines'};
-$Lexicon->{'^s d w'}[5]{'glosses'} = $Lexicon->{'^s d y'}[4]{'glosses'};
+$Lexicon->{'^s d w'}[2]{'types'} = $Lexicon->{'^s d y'}[0]{'types'};
+$Lexicon->{'^s d w'}[2]{'lines'} = $Lexicon->{'^s d y'}[0]{'lines'};
+$Lexicon->{'^s d w'}[2]{'glosses'} = $Lexicon->{'^s d y'}[0]{'glosses'};
+$Lexicon->{'^s d w'}[3]{'types'} = $Lexicon->{'^s d y'}[1]{'types'};
+$Lexicon->{'^s d w'}[3]{'lines'} = $Lexicon->{'^s d y'}[1]{'lines'};
+$Lexicon->{'^s d w'}[3]{'glosses'} = $Lexicon->{'^s d y'}[1]{'glosses'};
+$Lexicon->{'^s d w'}[4]{'types'} = $Lexicon->{'^s d y'}[2]{'types'};
+$Lexicon->{'^s d w'}[4]{'lines'} = $Lexicon->{'^s d y'}[2]{'lines'};
+$Lexicon->{'^s d w'}[4]{'glosses'} = $Lexicon->{'^s d y'}[2]{'glosses'};
+$Lexicon->{'^s d w'}[5]{'types'} = $Lexicon->{'^s d y'}[3]{'types'};
+$Lexicon->{'^s d w'}[5]{'lines'} = $Lexicon->{'^s d y'}[3]{'lines'};
+$Lexicon->{'^s d w'}[5]{'glosses'} = $Lexicon->{'^s d y'}[3]{'glosses'};
+$Lexicon->{'^s d w'}[6]{'types'} = $Lexicon->{'^s d y'}[4]{'types'};
+$Lexicon->{'^s d w'}[6]{'lines'} = $Lexicon->{'^s d y'}[4]{'lines'};
+$Lexicon->{'^s d w'}[6]{'glosses'} = $Lexicon->{'^s d y'}[4]{'glosses'};
 $Lexicon->{'^s m m'}[2]{'types'} = $Lexicon->{'^s t m'}[8]{'types'};
 $Lexicon->{'^s m m'}[2]{'lines'} = $Lexicon->{'^s t m'}[8]{'lines'};
 $Lexicon->{'^s m m'}[2]{'glosses'} = $Lexicon->{'^s t m'}[8]{'glosses'};
