@@ -13,7 +13,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`       {- jA}iy -}          [ "coming", "arriving" ]
                               `plural`     FAL |< Un
-                              {- `others` [ "^gA' Nuwn_Niyn NK" ] -} ]
+                              {- `others` [ "^gA' NK" ] -} ]
 
  |> "^g ' `" <| [
 
@@ -101,8 +101,7 @@ lexicon = listing "Lexicon's properties"
     FaCCAL                    `noun`       {- ja*~Ab -}         [ "attractive", "alluring" ],
 
     InFiCAL                   `noun`       {- Ainoji*Ab -}      [ "attraction", "tendency", "enticement" ]
-                              `plural`     IFtiCAL |< At
-                              {- `others` [ "i^gti_dAb NduAt" ] -},
+                              `plural`     IFtiCAL |< At,
 
     FACiL                     `noun`       {- jA*ib -}          [ "attractive", "alluring" ],
 
@@ -201,7 +200,7 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`       {- jabohap -}        [ "front", "front line", "fronts", "front lines" ]
                               `plural`     FaCaL |< At
                               `plural`     FiCAL
-                              {- `others` [ "^gabah NAt", "^gibAh N" ] -},
+                              {- `others` [ "^gibAh N" ] -},
 
     MuFACaL |< aT             `noun`       {- mujAbahap -}      [ "confrontation", "opposition" ] ]
 
@@ -235,8 +234,7 @@ lexicon = listing "Lexicon's properties"
     FaCCAL                    `noun`       {- jab~An -}         [ "cheese merchant" ],
 
     FuCuL                     `noun`       {- jubun -}          [ "fronts" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'a^gbin Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     HaFCaL                    `noun`       {- Oajoban -}        [ "more/most cowardly" ],
 
@@ -267,7 +265,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCCAL                    `noun`       {- jab~Ar -}         [ "gigantic", "almighty", "tyrants" ]
                               `plural`     FaCACiL |< aT
-                              {- `others` [ "^gabAbir Nap Ndip" ] -},
+                              {- `others` [ "^gabAbir Ndip" ] -},
 
     FiCAL |< aT               `noun`       {- jibArap -}        [ "bone setting" ],
 
@@ -562,7 +560,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                               `plural`     FuCCaL
                               `plural`     FaCaL |< aT
-                              {- `others` [ "^guhhAl N", "^guhalA' Nh N0_Nh Nhy", "^guhhal N", "^gahal Nap" ] -},
+                              {- `others` [ "^guhhAl N", "^guhalA' Nh N0_Nh Nhy", "^guhhal N" ] -},
 
     FACiL |< Iy               `adj`        {- jAhiliy~ -}       [ "pagan", "Jahili (pre-Islamic)" ],
 
@@ -589,8 +587,7 @@ lexicon = listing "Lexicon's properties"
     HaFCaL                    `verb`       {- Oajohaz -}        [ "finish off", "give a coup de grace" ],
 
     FiCAL                     `noun`       {- jihAz -}          [ "apparatus", "equipment", "appliance", "system", "appliances" ]
-                              `plural`     HaFCiL |< At |< aT
-                              {- `others` [ "'a^ghiz Nap NAt" ] -},
+                              `plural`     HaFCiL |< At |< aT,
 
     FuCUL |< Iy |< aT         `noun`       {- juhuwziy~ap -}    [ "preparedness", "fitness" ],
 
@@ -668,8 +665,7 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `noun`       {- jalad -}          [ "endurance", "patience" ],
 
     FaCL |< aT                `noun`       {- jalodap -}        [ "lash", "lashes" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "^galad NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     FaCIL                     `noun`       {- jaliyd -}         [ "steadfast" ]
                               `plural`     FuCaLA'
@@ -749,8 +745,7 @@ lexicon = listing "Lexicon's properties"
     FACaL                     `verb`       {- jAlas -}          [ "sit with" ],
 
     FaCL |< aT                `noun`       {- jalosap -}        [ "session", "meeting", "sessions", "meetings" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "^galas NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     FuCUL                     `noun`       {- juluws -}         [ "sitting" ],
 
@@ -1009,8 +1004,7 @@ lexicon = listing "Lexicon's properties"
     FaCCaL                    `verb`       {- jam~ar -}         [ "roast" ],
 
     FaCL                      `noun`       {- jamor -}          [ "embers", "ember", "pebble", "pebbles" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "^gamar NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     FuCCAL                    `noun`       {- jum~Ar -}         [ "palm core" ] ]
 
@@ -1048,8 +1042,7 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ "^guna.h N" ] -},
 
     FaCAL                     `noun`       {- janAH -}          [ "wing", "flank", "wings", "flanks" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'a^gni.h Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     FuCAL                     `noun`       {- junAH -}          [ "misdemeanor" ],
 
@@ -1182,20 +1175,17 @@ lexicon = listing "Lexicon's properties"
  |> "^g n y" <| [
 
     FaCL                      `noun`       {- janoy -}          [ "harvest", "harvests" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "^ganay NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     FiCAL |< aT               `noun`       {- jinAyap -}        [ "crime", "felony", "crimes", "felonies", "penal code" ]
-                              `plural`     FiCAL |< At
-                              {- `others` [ "^ginAy NAt" ] -},
+                              `plural`     FiCAL |< At,
 
     FACiL                     `noun`       {- jAniy -}          [ "delinquent", "criminal", "delinquents", "criminals" ] ]
 
  |> "^g n z" <| [
 
     FiCAL |< aT               `noun`       {- jinAzap -}        [ "funeral", "funerals" ]
-                              `plural`     FiCAL |< At
-                              {- `others` [ "^ginAz NAt" ] -},
+                              `plural`     FiCAL |< At,
 
     FuCCAL                    `noun`       {- jun~Az -}         [ "funeral", "funerals" ]
                               `plural`     FaCACIL
@@ -1237,7 +1227,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL |< At
                               `plural`     FiCAL
                               `plural`     HaFCAL
-                              {- `others` [ "^guruw.h N/At", "^girA.h N", "'a^grA.h N" ] -},
+                              {- `others` [ "^girA.h N", "'a^grA.h N" ] -},
 
     FaCCAL                    `noun`       {- jar~AH -}         [ "surgeon" ],
 
@@ -1292,12 +1282,12 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCLAn |< aT
                               `plural`     FuCL
                               `plural`     FaCLA'
-                              {- `others` [ "^garbAn N/ap", "^gurb N", "^garbA' Nh N0_Nh Nhy" ] -},
+                              {- `others` [ "^gurb N", "^garbA' Nh N0_Nh Nhy" ] -},
 
     FiCAL                     `noun`       {- jirAb -}          [ "sack", "case", "sacks", "cases" ]
                               `plural`     HaFCiL |< aT
                               `plural`     FuCuL
-                              {- `others` [ "'a^grib Nap", "^gurub N" ] -},
+                              {- `others` [ "^gurub N" ] -},
 
     TaFCiL |< aT              `noun`       {- tajoribap -}      [ "experience", "experiment", "experiences", "experiments" ],
 
@@ -1598,8 +1588,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`       {- jawob -}          [ "touring", "penetration" ],
 
     FaCAL                     `noun`       {- jawAb -}          [ "answer", "answers" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'a^gwib Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     FaCAL                     `noun`       {- jawAb -}          [ "letter", "letters" ],
 
@@ -1958,7 +1947,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`       {- jazol -}          [ "abundant" ]
                               `plural`     FaCIL |< aT
                               `plural`     FiCAL
-                              {- `others` [ "^gaziyl N/ap", "^gizAl N" ] -} ]
+                              {- `others` [ "^gizAl N" ] -} ]
 
  |> "^g z m" <| [
 

@@ -64,8 +64,7 @@ lexicon = listing "Lexicon's properties"
  |> "k .z .z" <| [
 
     IFtiCAL                   `adj`        {- AikotiZAZ -}      [ "overcrowding", "overfilling", "overcrowded", "jam-packed" ]
-                              `plural`     MuFtaCL |< aT
-                              {- `others` [ "mukta.z.z N-ap" ] -} ]
+                              `plural`     MuFtaCL |< aT ]
 
  |> "k .z m" <| [
 
@@ -98,8 +97,7 @@ lexicon = listing "Lexicon's properties"
     IFtaCaL                   `verb`       {- Aikota$af -}      [ "discover", "detect", "be discovered", "be detected" ],
 
     FaCL                      `noun`       {- ka$of -}          [ "report", "revelation", "disclosure", "examination", "reports", "disclosures" ]
-                              `plural`     FuCUL |< At
-                              {- `others` [ "ku^suwf N/At" ] -},
+                              `plural`     FuCUL |< At,
 
     FaCL                      `noun`       {- ka$of -}          [ "registry", "roster" ],
 
@@ -108,8 +106,7 @@ lexicon = listing "Lexicon's properties"
     IstiFCAL                  `noun`       {- Aisotiko$Af -}    [ "reconnaissance", "scouting" ],
 
     FACiL                     `noun`       {- kA$if -}          [ "examiner", "inspector", "examiners", "inspectors" ]
-                              `plural`     FaCaL |< aT
-                              {- `others` [ "ka^saf Nap" ] -},
+                              `plural`     FaCaL |< aT,
 
     FACiL                     `noun`       {- kA$if -}          [ "detector" ],
 
@@ -170,7 +167,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCLAn
                               `plural`     HaFCiL |< aT
                               `plural`     FuCuL
-                              {- `others` [ "ku_tbAn N", "'ak_tib Nap", "ku_tub N" ] -} ]
+                              {- `others` [ "ku_tbAn N", "ku_tub N" ] -} ]
 
  |> "k _t f" <| [
 
@@ -317,8 +314,7 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ "kubarA' Nh N0_Nh Nhy", "kibAr N" ] -},
 
     FaCIL |< aT               `noun`       {- kabiyrap -}       [ "grave offense", "grave offenses", "capital crimes" ]
-                              `plural`     FaCIL |< At
-                              {- `others` [ "kabiyr NAt" ] -},
+                              `plural`     FaCIL |< At,
 
     HaFCaL                    `adj`        {- Oakobar -}        [ "larger/largest", "greater/greatest" ],
 
@@ -397,8 +393,7 @@ lexicon = listing "Lexicon's properties"
  |> "k d m" <| [
 
     FaCL |< aT                `noun`       {- kadomap -}        [ "bite", "wound", "bruise", "bites", "wounds", "bruises" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "kadam NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "k d r" <| [
 
@@ -547,7 +542,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCAL
                               `plural`     FaCaL |< aT
                               `plural`     FuCCAL
-                              {- `others` [ "kifAr N", "kafar Nap", "kuffAr N" ] -} ]
+                              {- `others` [ "kifAr N", "kuffAr N" ] -} ]
 
  |> "k f t" <| [
 
@@ -603,12 +598,12 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`       {- kAhin -}          [ "prognosticator", "fortuneteller", "prognosticators", "fortunetellers" ]
                               `plural`     FaCaL |< aT
                               `plural`     FuCCAL
-                              {- `others` [ "kahan Nap", "kuhhAn N" ] -},
+                              {- `others` [ "kuhhAn N" ] -},
 
     FACiL                     `noun`       {- kAhin -}          [ "priest", "priests" ]
                               `plural`     FaCaL |< aT
                               `plural`     FuCCAL
-                              {- `others` [ "kahan Nap", "kuhhAn N" ] -} ]
+                              {- `others` [ "kuhhAn N" ] -} ]
 
  |> "k l _t m" <| [
 
@@ -649,8 +644,7 @@ lexicon = listing "Lexicon's properties"
     TaFCIL                    `noun`       {- takoliyf -}       [ "charging", "commissioning" ],
 
     TaFCIL                    `noun`       {- takoliyf -}       [ "cost", "expense", "charge", "costs", "expenses", "charges" ]
-                              `plural`     TaFCiL |< aT
-                              {- `others` [ "taklif Nap" ] -},
+                              `plural`     TaFCiL |< aT,
 
     TaFCiL |< aT              `noun`       {- takolifap -}      [ "cost computation" ],
 
@@ -695,16 +689,14 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ "kuluwm N" ] -},
 
     FaCiL |< aT               `noun`       {- kalimap -}        [ "word", "remark", "speech", "words", "remarks" ]
-                              `plural`     FaCiL |< At
-                              {- `others` [ "kalim NAt" ] -},
+                              `plural`     FaCiL |< At,
 
     FaCAL                     `noun`       {- kalAm -}          [ "speech", "statement", "remark", "talk", "saying" ],
 
     FaCAL |< Iy               `adj`        {- kalAmiy~ -}       [ "verbal", "spoken", "oral" ],
 
     MuFACaL |< aT             `noun`       {- mukAlamap -}      [ "conversation", "discussion", "conversations", "discussions" ]
-                              `plural`     MuFACaL |< At
-                              {- `others` [ "mukAlam NAt" ] -},
+                              `plural`     MuFACaL |< At,
 
     TaFaCCuL                  `noun`       {- takal~um -}       [ "conversation", "discussion" ] ]
 
@@ -782,8 +774,7 @@ lexicon = listing "Lexicon's properties"
     IstiFCAL                  `noun`       {- AisotikomAl -}    [ "conclusion", "termination" ],
 
     FACiL                     `adj`        {- kAmil -}          [ "complete", "full", "integral" ]
-                              `plural`     FaCaL |< aT
-                              {- `others` [ "kamal Nap" ] -},
+                              `plural`     FaCaL |< aT,
 
     FACiL                     `noun`       {- kAmil -}          [ "Kamil" ],
 
@@ -1162,8 +1153,7 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ "karA Nhy" ] -},
 
     FiCA'                     `noun`       {- kirA' -}          [ "rent", "renting", "rent money" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'akriy Nap" ] -} ]
+                              `plural`     HaFCiL |< aT ]
 
  |> "k r z" <| [
 
@@ -1193,7 +1183,7 @@ lexicon = listing "Lexicon's properties"
     MaFCaL                    `noun`       {- makosab -}        [ "gain", "profit", "earnings" ]
                               `plural`     MaFCiL |< aT
                               `plural`     MaFACiL
-                              {- `others` [ "maksib Nap N", "makAsib Ndip" ] -},
+                              {- `others` [ "maksib N", "makAsib Ndip" ] -},
 
     HiFCAL                    `noun`       {- IikosAb -}        [ "imparting to", "allowing to gain" ],
 
@@ -1261,8 +1251,7 @@ lexicon = listing "Lexicon's properties"
  |> "k t .z" <| [
 
     IFCiLAL                   `adj`        {- AikotiZAZ -}      [ "overcrowding", "overfilling", "overcrowded", "jam-packed" ]
-                              `plural`     MuFCaLL |< aT
-                              {- `others` [ "mukta.z.z N-ap" ] -} ]
+                              `plural`     MuFCaLL |< aT ]
 
  |> "k t b" <| [
 
@@ -1284,8 +1273,7 @@ lexicon = listing "Lexicon's properties"
     FiCAL |< aT               `noun`       {- kitAbap -}        [ "writing" ],
 
     FiCAL |< aT               `noun`       {- kitAbap -}        [ "essay", "piece of writing", "writings", "essays" ]
-                              `plural`     FiCAL |< At
-                              {- `others` [ "kitAb NAt" ] -},
+                              `plural`     FiCAL |< At,
 
     FiCAL |< Iy               `adj`        {- kitAbiy~ -}       [ "writing", "written" ],
 
@@ -1306,7 +1294,7 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`       {- kAtib -}          [ "writer", "author", "clerk", "authors", "writers" ]
                               `plural`     FaCaL |< aT
                               `plural`     FuCCAL
-                              {- `others` [ "katab Nap", "kuttAb N" ] -},
+                              {- `others` [ "kuttAb N" ] -},
 
     FACiL                     `adj`        {- kAtib -}          [ "writing" ],
 
@@ -1335,7 +1323,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCL
                               `plural`     FiCaL |< aT
                               `plural`     HaFCAL
-                              {- `others` [ "kitf Ndu", "kitaf Nap", "'aktAf N" ] -},
+                              {- `others` [ "kitf Ndu", "'aktAf N" ] -},
 
     FiCL                      `noun`       {- kitof -}          [ "buttress", "buttresses" ]
                               `plural`     HaFCAL
@@ -1471,7 +1459,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaL
                               `plural`     FUL |< At
                               `plural`     FuCL |< At
-                              {- `others` [ "kuwam N", "kuwm NapAt" ] -} ]
+                              {- `others` [ "kuwam N" ] -} ]
 
  |> "k w n" <| [
 
@@ -1694,7 +1682,7 @@ lexicon = listing "Lexicon's properties"
     FiCL                      `noun`       {- kiys -}           [ "sack", "sacks" ]
                               `plural`     HaFCiL |< aT
                               `plural`     HaFCAL
-                              {- `others` [ "'akyis Nap", "'akyAs N" ] -},
+                              {- `others` [ "'akyAs N" ] -},
 
     FaCCiL                    `adj`        {- kay~is -}         [ "astute", "elegant" ]
                               `plural`     FiCAL

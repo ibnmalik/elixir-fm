@@ -103,7 +103,7 @@ lexicon = listing "Lexicon's properties"
     FuCL                      `noun`       {- bugoD -}          [ "hatred" ]
                               `plural`     FaCLA'
                               `plural`     FiCL |< aT
-                              {- `others` [ "ba.g.dA' Nh N0_Nh Nhy", "bi.g.d Nap" ] -},
+                              {- `others` [ "ba.g.dA' Nh N0_Nh Nhy" ] -},
 
     FaCIL                     `noun`       {- bagiyD -}         [ "odious", "loathsome" ] ]
 
@@ -121,8 +121,7 @@ lexicon = listing "Lexicon's properties"
     KaRDAS                    `noun`       {- bagodAd -}        [ "Baghdad" ],
 
     KaRDAS |< Iy              `adj`        {- bagodAdiy~ -}     [ "from/of Baghdad", "Baghdadi", "Baghdadis" ]
-                              `plural`     KaRADiS |< aT
-                              {- `others` [ "ba.gAdid Nap" ] -},
+                              `plural`     KaRADiS |< aT,
 
     KaRDAS |< Iy              `adj`        {- bagodAdiy~ -}     [ "Baghdadi" ] ]
 
@@ -161,7 +160,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`       {- baHov -}          [ "search", "examination", "research" ]
                               `plural`     HaFCAL
                               `plural`     FuCUL |< At
-                              {- `others` [ "'ab.hA_t N", "bu.huw_t N/At" ] -},
+                              {- `others` [ "'ab.hA_t N" ] -},
 
     FaCL |< Iy                `adj`        {- baHoviy~ -}       [ "research" ],
 
@@ -170,8 +169,7 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ "mabA.hi_t Ndip" ] -},
 
     MuFACaL |< aT             `noun`       {- mubAHavap -}      [ "discussion", "talk", "negotiation", "discussions", "talks", "negotiations" ]
-                              `plural`     MuFACaL |< At
-                              {- `others` [ "mubA.ha_t NAt" ] -},
+                              `plural`     MuFACaL |< At,
 
     TaFACuL                   `noun`       {- tabAHuv -}        [ "conferring", "discussing" ],
 
@@ -232,8 +230,7 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCuL,
 
     FaCL |< aT                `noun`       {- baSomap -}        [ "fingerprint", "imprint", "fingerprints", "imprints" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "ba.sam NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "b .s r" <| [
 
@@ -262,8 +259,7 @@ lexicon = listing "Lexicon's properties"
  |> "b .s w" <| [
 
     FaCL |< aT                `noun`       {- baSowap -}        [ "ember", "embers" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "ba.saw NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "b .t '" <| [
 
@@ -314,8 +310,7 @@ lexicon = listing "Lexicon's properties"
     FuCL                      `noun`       {- buTol -}          [ "nullity" ],
 
     FiCAL |< aT               `noun`       {- biTAlap -}        [ "idleness", "joblessness" ]
-                              `plural`     FaCAL |< aT
-                              {- `others` [ "ba.tAl Nap" ] -},
+                              `plural`     FaCAL |< aT,
 
     FaCCAL                    `noun`       {- baT~Al -}         [ "inactive", "jobless" ],
 
@@ -378,8 +373,7 @@ lexicon = listing "Lexicon's properties"
  |> "b .t q" <| [
 
     FiCAL |< aT               `noun`       {- biTAqap -}        [ "card", "tag", "ballot", "cards", "tags", "ballots" ]
-                              `plural`     FiCAL |< At
-                              {- `others` [ "bi.tAq NAt" ] -} ]
+                              `plural`     FiCAL |< At ]
 
  |> "b .t r" <| [
 
@@ -390,14 +384,14 @@ lexicon = listing "Lexicon's properties"
     KaRDaS                    `noun`       {- baTorak -}        [ "Patriarch", "Patriarchs" ]
                               `plural`     KaRADiS |< aT
                               `plural`     KaRDIS
-                              {- `others` [ "ba.tArik Nap", "ba.triyk Ndu" ] -} ]
+                              {- `others` [ "ba.triyk Ndu" ] -} ]
 
  |> "b .t r q" <| [
 
     KiRDIS                    `noun`       {- biToriyq -}       [ "patrician", "penguin", "patricians", "penguins" ]
                               `plural`     KaRADiS |< aT
                               `plural`     KaRADIS
-                              {- `others` [ "ba.tAriq Nap", "ba.tAriyq Ndip" ] -} ]
+                              {- `others` [ "ba.tAriyq Ndip" ] -} ]
 
  |> "b .t r s" <| [
 
@@ -536,8 +530,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`       {- ba*ol -}          [ "spending", "donating" ],
 
     FaCL |< aT                `noun`       {- ba*olap -}        [ "suit", "costume", "suits", "costumes" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "ba_dal NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     TaFaCCuL                  `noun`       {- taba*~ul -}       [ "banality" ],
 
@@ -571,8 +564,7 @@ lexicon = listing "Lexicon's properties"
     TaFaCCaL                  `verb`       {- tabax~ar -}       [ "evaporate", "vaporize" ],
 
     FuCAL                     `noun`       {- buxAr -}          [ "vapor", "steam" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'ab_hir Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     FuCAL |< Iy               `adj`        {- buxAriy~ -}       [ "Bukhari" ],
 
@@ -608,7 +600,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`       {- bavor -}          [ "pustules", "pustule" ]
                               `plural`     FaCaL |< At
                               `plural`     FuCUL
-                              {- `others` [ "ba_tar NAt", "bu_tuwr N" ] -} ]
+                              {- `others` [ "bu_tuwr N" ] -} ]
 
  |> "b ` .d" <| [
 
@@ -640,7 +632,7 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`       {- baEovap -}        [ "delegation", "mission", "delegations", "missions" ]
                               `plural`     FaCaL |< At
                               `plural`     FiCL
-                              {- `others` [ "ba`a_t NAt", "bi`_t Napdu" ] -},
+                              {- `others` [ "bi`_t Napdu" ] -},
 
     FACiL                     `noun`       {- bAEiv -}          [ "sending", "sender" ],
 
@@ -839,7 +831,7 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`       {- badolap -}        [ "suit", "costume", "suits", "costumes" ]
                               `plural`     FiCaL
                               `plural`     FaCaL |< At
-                              {- `others` [ "bidal N", "badal NAt" ] -},
+                              {- `others` [ "bidal N" ] -},
 
     FaCIL                     `noun`       {- badiyl -}         [ "substitute", "alternate", "substitutes", "alternates" ]
                               `plural`     FuCaLA'
@@ -898,7 +890,7 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`       {- badorap -}        [ "large sum", "large sums" ]
                               `plural`     FiCAL
                               `plural`     FaCaL |< At
-                              {- `others` [ "bidAr N", "badar NAt" ] -},
+                              {- `others` [ "bidAr N" ] -},
 
     FaCLAn                    `noun`       {- badorAn -}        [ "Badran" ],
 
@@ -1072,7 +1064,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCI                   `noun`       {- mubak~iy -}       [ "tearful", "lamentable" ]
                               `plural`     MuFCI |< At
-                              {- `others` [ "mubkiy N0F_Nh NapAt NAn_Nayn" ] -} ]
+                              {- `others` [ "mubkiy N0F_Nh NAn_Nayn" ] -} ]
 
  |> "b k k" <| [
 
@@ -1117,7 +1109,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`       {- bakorap -}        [ "reel", "pulley", "winch", "reels", "pulleys", "winches" ]
                               `plural`     FaCaL |< At
-                              {- `others` [ "bakar NAt N" ] -},
+                              {- `others` [ "bakar N" ] -},
 
     FuCL |< aT                `noun`       {- bukorap -}        [ "tomorrow" ],
 
@@ -1149,7 +1141,7 @@ lexicon = listing "Lexicon's properties"
     MuFaCCiL                  `noun`       {- mubak~iy -}       [ "tearful", "lamentable" ]
                               `plural`     MuFCiL |< At
                               `plural`     MuFCI |< At
-                              {- `others` [ "mubkiy N0F_Nh NapAt NAn_Nayn" ] -} ]
+                              {- `others` [ "mubkiy N0F_Nh NAn_Nayn" ] -} ]
 
  |> "b l .g" <| [
 
@@ -1239,7 +1231,7 @@ lexicon = listing "Lexicon's properties"
     FaCAL |< aT               `noun`       {- balATap -}        [ "floor tile", "floor tiles" ]
                               `plural`     HaFCiL |< aT
                               `plural`     FaCAL
-                              {- `others` [ "'abli.t Nap", "balA.t N" ] -} ]
+                              {- `others` [ "balA.t N" ] -} ]
 
  |> "b l ^g" <| [
 
@@ -1261,8 +1253,7 @@ lexicon = listing "Lexicon's properties"
  |> "b l ^s f" <| [
 
     KaRDaS |< Iy              `adj`        {- balo$afiy~ -}     [ "Bolshevist", "Bolshevists" ]
-                              `plural`     KaRADiS |< aT
-                              {- `others` [ "balA^sif Nap" ] -},
+                              `plural`     KaRADiS |< aT,
 
     KaRDaS |< Iy |< aT        `noun`       {- balo$afiy~ap -}   [ "Bolshevism" ] ]
 
@@ -1300,8 +1291,7 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCaL,
 
     FaCaL                     `noun`       {- balah -}          [ "stupidity" ]
-                              `plural`     FaCAL |< aT
-                              {- `others` [ "balAh Nap" ] -},
+                              `plural`     FaCAL |< aT,
 
     HaFCaL                    `noun`       {- Oabolah -}        [ "doltish", "dumb" ]
                               `plural`     FaCLA'
@@ -1391,8 +1381,7 @@ lexicon = listing "Lexicon's properties"
     TaKaRDaS                  `verb`       {- tabalowar -}      [ "be crystallized", "be clarified" ],
 
     KaRDaS |< aT              `noun`       {- balowarap -}      [ "crystallization" ]
-                              `plural`     TaKaRDuS |< At
-                              {- `others` [ "tabalwur NduAt" ] -} ]
+                              `plural`     TaKaRDuS |< At ]
 
  |> "b l y" <| [
 
@@ -1516,7 +1505,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`       {- bAniy -}          [ "building", "builder", "builders" ]
                               `plural`     FAL |< Un
-                              {- `others` [ "bAn Nuwn_Niyn NK" ] -} ]
+                              {- `others` [ "bAn NK" ] -} ]
 
  |> "b n s" <| [
 
@@ -1542,7 +1531,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCL |< aT
                               `plural`     FuCY
                               `plural`     FiCY
-                              {- `others` [ "buny Nap", "bunY N0", "binY N0" ] -},
+                              {- `others` [ "bunY N0", "binY N0" ] -},
 
     FuCLY |< Iy               `adj`        {- bunoyawiy~ -}     [ "structural" ],
 
@@ -1603,7 +1592,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`       {- baqol -}          [ "herb", "legume", "herbs", "legumes" ]
                               `plural`     FaCaL |< At
                               `plural`     FuCUL
-                              {- `others` [ "baqal NAt", "buquwl N" ] -},
+                              {- `others` [ "buquwl N" ] -},
 
     FaCL |< Iy                `adj`        {- baqoliy~ -}       [ "leguminous" ],
 
@@ -1726,7 +1715,7 @@ lexicon = listing "Lexicon's properties"
     KaRDaS |< Iy              `adj`        {- barobariy~ -}     [ "Berber", "Berbers" ]
                               `plural`     KaRADiS |< aT
                               `plural`     KaRDaS
-                              {- `others` [ "barAbir Nap", "barbar N" ] -},
+                              {- `others` [ "barbar N" ] -},
 
     KaRDaS |< Iy              `adj`        {- barobariy~ -}     [ "barbaric" ],
 
@@ -1804,8 +1793,7 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ "birak N" ] -},
 
     FaCaL |< aT               `noun`       {- barakap -}        [ "blessing", "blessings" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "barak NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     FaCaL |< At               `noun`       {- barakAt -}        [ "Barakaat", "Barakat" ],
 
@@ -1926,7 +1914,7 @@ lexicon = listing "Lexicon's properties"
     FACL                      `noun`       {- bAr~ -}           [ "pious", "charitable" ]
                               `plural`     FaCaL |< aT
                               `plural`     HaFCAL
-                              {- `others` [ "barar Nap", "'abrAr N" ] -},
+                              {- `others` [ "'abrAr N" ] -},
 
     MaFaCL |< aT              `noun`       {- mabar~ap -}       [ "charity", "benefaction", "charities", "benefactions" ]
                               `plural`     MaFACL
@@ -1961,8 +1949,7 @@ lexicon = listing "Lexicon's properties"
  |> "b r w" <| [
 
     FaCL |< aT                `noun`       {- barowap -}        [ "waste", "scrap" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "baraw NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "b r w z" <| [
 
@@ -1987,8 +1974,7 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ "barA Nhy" ] -},
 
     MuFACY |< aT              `noun`       {- mubArAp -}        [ "match", "game", "competition", "matches", "games", "competitions" ]
-                              `plural`     MuFACaL |< At
-                              {- `others` [ "mubAray NAt" ] -},
+                              `plural`     MuFACaL |< At,
 
     FACiL                     `noun`       {- bAriy -}          [ "Bari", "Bary" ],
 
@@ -2047,7 +2033,7 @@ lexicon = listing "Lexicon's properties"
     FiCAL                     `noun`       {- bisAT -}          [ "carpet", "carpets" ]
                               `plural`     HaFCiL |< aT
                               `plural`     FuCuL
-                              {- `others` [ "'absi.t Nap", "busu.t N" ] -},
+                              {- `others` [ "busu.t N" ] -},
 
     FaCIL                     `noun`       {- basiyT -}         [ "simple", "plain" ]
                               `plural`     FuCaLA'
@@ -2075,8 +2061,7 @@ lexicon = listing "Lexicon's properties"
  |> "b s m" <| [
 
     FaCL |< aT                `noun`       {- basomap -}        [ "smile", "smiles", "smiling" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "basam NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     FACiL                     `noun`       {- bAsim -}          [ "Basem", "Basim" ],
 
@@ -2212,8 +2197,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`       {- buwSap -}         [ "inch", "inches" ]
                               `plural`     FUL |< At
-                              `plural`     FuCL |< At
-                              {- `others` [ "buw.s NAt" ] -} ]
+                              `plural`     FuCL |< At ]
 
  |> "b w .s l" <| [
 
@@ -2577,8 +2561,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`       {- bayot -}          [ "Bet" ],
 
     FaCL                      `noun`       {- bayot -}          [ "house", "houses" ]
-                              `plural`     FuCUL |< At
-                              {- `others` [ "buyuwt N/At" ] -},
+                              `plural`     FuCUL |< At,
 
     FaCL                      `noun`       {- bayot -}          [ "house", "verse", "verses" ]
                               `plural`     HaFCAL

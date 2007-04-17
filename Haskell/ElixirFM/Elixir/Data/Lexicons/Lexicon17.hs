@@ -139,7 +139,7 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`       {- ZAlim -}          [ "oppressor", "tyrant", "oppressors", "tyrants" ]
                               `plural`     FuCCAL
                               `plural`     FaCaL |< aT
-                              {- `others` [ ".zullAm N", ".zalam Nap" ] -},
+                              {- `others` [ ".zullAm N" ] -},
 
     MaFCUL                    `adj`        {- maZoluwm -}       [ "oppressed", "treated unjustly" ],
 

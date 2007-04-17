@@ -234,8 +234,7 @@ lexicon = listing "Lexicon's properties"
     -- vgr     vagar   NAt     gaps;breaches
 
     FuCL |< aT                `noun`       {- vugorap -}        [ "gap", "breach", "gaps", "breaches" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "_ta.gar NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "_t .g w" <| [
 
@@ -792,7 +791,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCaL |< At
                               `plural`     FaCL
                               `plural`     FuCaL
-                              {- `others` [ "_takan NAt", "_takn Napdu", "_tukan N" ] -} ]
+                              {- `others` [ "_takn Napdu", "_tukan N" ] -} ]
 
  |> "_t l ^g" <| [
 
@@ -928,8 +927,7 @@ lexicon = listing "Lexicon's properties"
     -- mvlv    muval~av        NAt     trigonometry
 
     MuFaCCaL |< At            `noun`       {- muval~avAt -}     [ "trigonometry" ]
-                              `plural`     MuFaCCaL |< At
-                              {- `others` [ "mu_talla_t NAt" ] -} ]
+                              `plural`     MuFaCCaL |< At ]
 
  |> "_t l _t n" <| [
 
@@ -937,8 +935,7 @@ lexicon = listing "Lexicon's properties"
     -- vlAvyn  valAviyn        NAt     thirties
 
     KaRADIS |< At             `noun`       {- valAviynAt -}     [ "thirties" ]
-                              `plural`     KaRADIS |< At
-                              {- `others` [ "_talA_tiyn NAt" ] -},
+                              `plural`     KaRADIS |< At,
 
     -- ;; valAviyniy~_1
     -- vlAvyny valAviyniy~     Nall    thirties     [[valAviyniy~/NOUN]]
@@ -1134,7 +1131,7 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `noun`       {- vaman -}          [ "value", "price", "values", "prices" ]
                               `plural`     HaFCiL |< aT
                               `plural`     HaFCAL
-                              {- `others` [ "'a_tmin Nap", "'a_tmAn N" ] -},
+                              {- `others` [ "'a_tmAn N" ] -},
 
     -- ;; vamiyn_1
     -- vmyn    vamiyn  Nall    costly;precious
@@ -1190,8 +1187,7 @@ lexicon = listing "Lexicon's properties"
     -- vmn     vuman   NAt     thumnas (Egy. = 0.285 l.; Pal. = 2.25 l.)
 
     FuCL |< aT                `noun`       {- vumonap -}        [ "thumna (Egy. = 0.285 l.", "Pal. = 2.25 l.)", "thumnas (Egy. = 0.285 l." ]
-                              `plural`     FuCaL |< At
-                              {- `others` [ "_tuman NAt" ] -},
+                              `plural`     FuCaL |< At,
 
     -- ;; vAmin_1
     -- vAmn    vAmin   Nall    eighth     [[vAmin/ADJ]]
@@ -1260,8 +1256,7 @@ lexicon = listing "Lexicon's properties"
     -- vmr     vamar   NAt     fruits;results
 
     FaCL                      `noun`       {- vamor -}          [ "fruit", "result", "fruits", "results" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "_tamar NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; {isotivomAr_1
     -- <stvmAr {isotivomAr     N       invest;investing
@@ -1523,16 +1518,14 @@ lexicon = listing "Lexicon's properties"
     -- vny     vanay   NAt     folds;creases
 
     FaCL |< aT                `noun`       {- vanoyap -}        [ "fold", "crease", "folds", "creases" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "_tanay NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; vanoyap_2
     -- vny     vanoy   Napdu   cuff
     -- vny     vanay   NAt     cuffs
 
     FaCL |< aT                `noun`       {- vanoyap -}        [ "cuff", "cuffs" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "_tanay NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; vaniy~ap_1
     -- vny     vaniy~  Napdu   incisor;path     [[vaniy~/NOUN]]
@@ -1654,7 +1647,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCY                   `noun`       {- muvan~aY -}       [ "doubled", "twofold" ]
                               `plural`     MuFaCCaL |< At
-                              {- `others` [ "mu_tannay NAt NAn_Nayn" ] -},
+                              {- `others` [ "mu_tannay NAn_Nayn" ] -},
 
     -- ;; musotavonaY_1
     -- mstvnY  musotavonaY     N0      excepted;excluded
@@ -1666,7 +1659,7 @@ lexicon = listing "Lexicon's properties"
 
     MustaFCY                  `noun`       {- musotavonaY -}    [ "excepted", "excluded" ]
                               `plural`     MustaFCaL |< At
-                              {- `others` [ "musta_tnay NAt NAn_Nayn" ] -} ]
+                              {- `others` [ "musta_tnay NAn_Nayn" ] -} ]
 
  |> "_t q b" <| [
 
@@ -1754,8 +1747,7 @@ lexicon = listing "Lexicon's properties"
     -- vqAb    viqAb   NAt     drills;borers
 
     FiCAL |< At               `noun`       {- viqAbAt -}        [ "drills", "borers" ]
-                              `plural`     FiCAL |< At
-                              {- `others` [ "_tiqAb NAt" ] -} ]
+                              `plural`     FiCAL |< At ]
 
  |> "_t q f" <| [
 
@@ -1876,8 +1868,7 @@ lexicon = listing "Lexicon's properties"
     -- vql     vaqal   NAt     troubles;burdens
 
     FaCL |< aT                `noun`       {- vaqolap -}        [ "trouble", "burden", "troubles", "burdens" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "_taqal NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; vaqAlap_1
     -- vqAl    vaqAl   Nap     heaviness;dullness
@@ -2118,8 +2109,7 @@ lexicon = listing "Lexicon's properties"
     -- vrw     varaw   NAt     wealth;abundance;riches
 
     FaCL |< aT                `noun`       {- varowap -}        [ "wealth", "abundance", "riches" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "_taraw NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "_t r w t" <| [
 
@@ -2463,8 +2453,7 @@ lexicon = listing "Lexicon's properties"
     -- mvyr    muviyr  NAt     stimulants
 
     MuFIL |< At               `noun`       {- muviyrAt -}       [ "stimulants" ]
-                              `plural`     MuFIL |< At
-                              {- `others` [ "mu_tiyr NAt" ] -} ]
+                              `plural`     MuFIL |< At ]
 
  |> "_t w w" <| [
 
@@ -2522,8 +2511,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFiCL |< At              `noun`       {- muviyrAt -}       [ "stimulants" ]
                               `plural`     MuFIL |< At
-                              `plural`     MuFiCL |< At
-                              {- `others` [ "mu_tiyr NAt" ] -} ]
+                              `plural`     MuFiCL |< At ]
 
  |> "_t y t l" <| [
 

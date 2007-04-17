@@ -97,8 +97,7 @@ lexicon = listing "Lexicon's properties"
     FuCL                      `noun`       {- yumon -}          [ "good fortune", "success" ],
 
     FaCaL                     `noun`       {- yaman -}          [ "right side" ]
-                              `plural`     FaCL |< aT
-                              {- `others` [ "yamn Nap" ] -},
+                              `plural`     FaCL |< aT,
 
     FaCaL                     `noun`       {- yaman -}          [ "Yemen" ],
 
@@ -165,7 +164,7 @@ lexicon = listing "Lexicon's properties"
     FaCiL                     `adj`        {- yaqiZ -}          [ "awake", "alert", "vigilant" ]
                               `plural`     HaFCAL
                               `plural`     FaCuL |< aT
-                              {- `others` [ "'ayqA.z N", "yaqu.z N-ap" ] -},
+                              {- `others` [ "'ayqA.z N" ] -},
 
     HiFCAL                    `noun`       {- IiyqAZ -}         [ "awakening", "reveille" ] ]
 
@@ -179,8 +178,7 @@ lexicon = listing "Lexicon's properties"
     TaFaCCaL                  `verb`       {- tayaq~an -}       [ "ascertain", "be convinced" ],
 
     FaCiL                     `noun`       {- yaqin -}          [ "credulous", "ingenuous" ]
-                              `plural`     FaCaL |< aT
-                              {- `others` [ "yaqan Nap" ] -},
+                              `plural`     FaCaL |< aT,
 
     FaCIL                     `noun`       {- yaqiyn -}         [ "certainty", "certitude", "conviction" ],
 
@@ -245,8 +243,7 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ "mayAsir Ndip" ] -},
 
     MaFCaL |< aT              `noun`       {- mayosarap -}      [ "comfort", "affluence" ]
-                              `plural`     MaFCiL |< aT
-                              {- `others` [ "maysir Nap" ] -},
+                              `plural`     MaFCiL |< aT,
 
     TaFCIL                    `noun`       {- tayosiyr -}       [ "facilitation" ],
 

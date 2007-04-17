@@ -100,8 +100,7 @@ lexicon = listing "Lexicon's properties"
     -- Zby     Zabay   NAt     gazelles
 
     FaCL |< aT                `noun`       {- Zaboyap -}        [ "gazelle", "gazelles" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ ".zabay NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> ".z f r" <| [
 
@@ -638,7 +637,7 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`       {- ZAlim -}          [ "oppressor", "tyrant", "oppressors", "tyrants" ]
                               `plural`     FuCCAL
                               `plural`     FaCaL |< aT
-                              {- `others` [ ".zullAm N", ".zalam Nap" ] -},
+                              {- `others` [ ".zullAm N" ] -},
 
     -- ;; maZoluwm_1
     -- mZlwm   maZoluwm        Nall    oppressed;treated unjustly     [[maZoluwm/ADJ]]

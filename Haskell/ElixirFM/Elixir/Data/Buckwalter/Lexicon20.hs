@@ -128,8 +128,7 @@ lexicon = listing "Lexicon's properties"
     -- Af}d    >afo}id Nap     hearts;minds
 
     FuCAL                     `noun`       {- fuWAd -}          [ "heart", "mind", "hearts", "minds" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'af'id Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     -- ;; fu&Ad_2
     -- f&Ad    fu&Ad   N0      Fuad;Fouad
@@ -606,8 +605,7 @@ lexicon = listing "Lexicon's properties"
     -- fDl     faDal   NAt     residues;waste
 
     FaCL |< aT                `noun`       {- faDolap -}        [ "residue", "waste", "residues" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "fa.dal NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; fuDuwl_1
     -- fDwl    fuDuwl  N       curiosity;indiscretion
@@ -1020,8 +1018,7 @@ lexicon = listing "Lexicon's properties"
     -- fHwS    fuHuwS  N/At    examinations;checkups;scrutiny
 
     FaCL                      `noun`       {- faHoS -}          [ "examination", "checkup", "scrutiny", "examinations", "checkups" ]
-                              `plural`     FuCUL |< At
-                              {- `others` [ "fu.huw.s N/At" ] -},
+                              `plural`     FuCUL |< At,
 
     -- ;; faHoS_2
     -- fHS     faHoS   Nprop   Fahs
@@ -1138,7 +1135,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`       {- faHol -}          [ "stallion", "luminary", "stallions", "luminaries" ]
                               `plural`     FuCUL |< aT
-                              {- `others` [ "fu.huwl Nap N" ] -},
+                              {- `others` [ "fu.huwl N" ] -},
 
     -- ;; fuHuwlap_1
     -- fHwl    fuHuwl  Nap     virility;perfection
@@ -1201,8 +1198,7 @@ lexicon = listing "Lexicon's properties"
     -- fHm     faHam   NAt     lumps of coal
 
     FaCL |< aT                `noun`       {- faHomap -}        [ "lump of coal", "lumps of coal" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "fa.ham NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; fiHAm_1
     -- fHAm    fiHAm   N       blackness
@@ -1693,8 +1689,7 @@ lexicon = listing "Lexicon's properties"
     -- fSwm    fuSuwm  N/At    niches
 
     FaCL                      `noun`       {- faSom -}          [ "niche", "niches" ]
-                              `plural`     FuCUL |< At
-                              {- `others` [ "fu.suwm N/At" ] -},
+                              `plural`     FuCUL |< At,
 
     -- ;; fuSAm_1
     -- fSAm    fuSAm   N       schizophrenia
@@ -2284,8 +2279,7 @@ lexicon = listing "Lexicon's properties"
     -- mfAj}   mufAji} NAt     surprises
 
     MuFACiL |< aT             `noun`       {- mufAji}ap -}      [ "surprise", "surprises" ]
-                              `plural`     MuFACiL |< At
-                              {- `others` [ "mufA^gi' NAt" ] -},
+                              `plural`     MuFACiL |< At,
 
     -- ;; fijA'_1
     -- fjA'    fijA'   N0_Nh   openings;breaches;gaps
@@ -2562,7 +2556,7 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`       {- fAjir -}          [ "immoral", "libertine" ]
                               `plural`     FaCaL |< aT
                               `plural`     FuCCAL
-                              {- `others` [ "fa^gar Nap", "fu^g^gAr N" ] -},
+                              {- `others` [ "fu^g^gAr N" ] -},
 
     -- ;; fAjirap_1
     -- fAjr    fAjir   Nap     harlot
@@ -2603,8 +2597,7 @@ lexicon = listing "Lexicon's properties"
     -- fjw     fajaw   NAt     gaps;breaches
 
     FaCL |< aT                `noun`       {- fajowap -}        [ "gap", "breach", "gaps", "breaches" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "fa^gaw NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; fijA'_1
     -- fjA'    fijA'   N0_Nh   openings;breaches;gaps
@@ -2690,8 +2683,7 @@ lexicon = listing "Lexicon's properties"
     -- f$x     fa$ax   NAt     large steps;strides
 
     FaCL |< aT                `noun`       {- fa$oxap -}        [ "large step", "stride", "large steps", "strides" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "fa^sa_h NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "f ^s f ^s" <| [
 
@@ -2865,8 +2857,7 @@ lexicon = listing "Lexicon's properties"
     -- mf$y    mufo$ay NAt     leaks
 
     MuFCaL |< At              `noun`       {- mufo$ayAt -}      [ "leaks" ]
-                              `plural`     MuFCaL |< At
-                              {- `others` [ "muf^say NAt" ] -},
+                              `plural`     MuFCaL |< At,
 
     -- ;; mutafa$~iy_1
     -- mtf$y   mutafa$~iy      N0F_Nh  spread;endemic     [[mutafa$~iy/ADJ]]
@@ -3293,8 +3284,7 @@ lexicon = listing "Lexicon's properties"
     -- fEl     faEal   NAt     deeds;actions
 
     FaCL |< aT                `noun`       {- faEolap -}        [ "deed", "action", "deeds", "actions" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "fa`al NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; faE~Al_1
     -- fEAl    faE~Al  N-ap    effective;efficient     [[faE~Al/ADJ]]
@@ -3469,8 +3459,7 @@ lexicon = listing "Lexicon's properties"
     -- mfEy    mafoEay NAt     viper dens
 
     MaFCY |< aT               `noun`       {- mafoEAp -}        [ "den of vipers", "viper dens" ]
-                              `plural`     MaFCaL |< At
-                              {- `others` [ "maf`aw NAt" ] -} ]
+                              `plural`     MaFCaL |< At ]
 
  |> "f d '" <| [
 
@@ -3620,8 +3609,7 @@ lexicon = listing "Lexicon's properties"
     -- Afdn    >afodin Nap     feddans (1 feddan = 4.2 sq.m., Ar.Eg.Sud.; 5.7 sq.m Lev.)
 
     FaCCAL                    `noun`       {- fad~An -}         [ "feddan (4.2 sq.m., Ar.Eg.Sud.", "5.7 sq.m Lev.)", "feddans (1 feddan = 4.2 sq.m., Ar.Eg.Sud." ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'afdin Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     -- ;; fad~An_2
     -- fdAn    fad~An  Ndu     yoke of oxen
@@ -3720,8 +3708,7 @@ lexicon = listing "Lexicon's properties"
     -- fdy     fiday   NAt     ransoms
 
     FiCL |< aT                `noun`       {- fidoyap -}        [ "ransom", "ransoms" ]
-                              `plural`     FiCaL |< At
-                              {- `others` [ "fiday NAt" ] -},
+                              `plural`     FiCaL |< At,
 
     -- ;; fidA'_1
     -- fdA'    fidA'   N0_Nh   self-sacrifice
@@ -3746,8 +3733,7 @@ lexicon = listing "Lexicon's properties"
     -- mfAdy   mufAday NAt     sacrifices
 
     MuFACY |< aT              `noun`       {- mufAdAp -}        [ "sacrifice", "sacrifices" ]
-                              `plural`     MuFACaL |< At
-                              {- `others` [ "mufAday NAt" ] -},
+                              `plural`     MuFACaL |< At,
 
     -- ;; tafAdiy_1
     -- tfAdy   tafAdiy N0_Nh   avoidance
@@ -4082,8 +4068,7 @@ lexicon = listing "Lexicon's properties"
     -- fkAh    fukAh   NAt     jokes
 
     FuCAL |< aT               `noun`       {- fukAhap -}        [ "joke", "jokes" ]
-                              `plural`     FuCAL |< At
-                              {- `others` [ "fukAh NAt" ] -},
+                              `plural`     FuCAL |< At,
 
     -- ;; fukAhiy~_1
     -- fkAhy   fukAhiy~        Nall    humorous;facetious     [[fukAhiy~/ADJ]]
@@ -4322,8 +4307,7 @@ lexicon = listing "Lexicon's properties"
     -- mfkr    mufak~ar        NAt     thoughts;considerations
 
     MuFaCCaL |< At            `noun`       {- mufak~arAt -}     [ "thoughts", "considerations" ]
-                              `plural`     MuFaCCaL |< At
-                              {- `others` [ "mufakkar NAt" ] -} ]
+                              `plural`     MuFaCCaL |< At ]
 
  |> "f k s" <| [
 
@@ -4986,8 +4970,7 @@ lexicon = listing "Lexicon's properties"
     -- flsf    falosaf NAt     philosophies
 
     KaRDaS |< aT              `noun`       {- falosafap -}      [ "philosophy", "philosophies" ]
-                              `plural`     KaRDaS |< At
-                              {- `others` [ "falsaf NAt" ] -},
+                              `plural`     KaRDaS |< At,
 
     -- ;; falosafiy~_1
     -- flsfy   falosafiy~      Nall    philosophical     [[falosafiy~/ADJ]]
@@ -5044,8 +5027,7 @@ lexicon = listing "Lexicon's properties"
     -- flt     falat   NAt     oversight;unexpected event
 
     FaCL |< aT                `noun`       {- falotap -}        [ "oversight", "unexpected event" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "falat NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; falotapF_1
     -- fltp    falotapF        FW-Wa   suddenly;unexpectedly    [[falotapF/ADV]]
@@ -5115,8 +5097,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCA |< aT                `noun`       {- falAap -}         [ "open country" ]
                               `plural`     FaCaL |< At
-                              `plural`     FaCA |< aT
-                              {- `others` [ "falaw NAt", "falA Nap" ] -},
+                              `plural`     FaCA |< aT,
 
     -- ;; mafAliy_1
     -- mfAly   mafAliy N0_Nh   pastures
@@ -5567,8 +5548,7 @@ lexicon = listing "Lexicon's properties"
     -- Afny    >afoniy Nap     courtyards
 
     FiCA'                     `noun`       {- finA' -}          [ "courtyard", "courtyards" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'afniy Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     -- ;; <ifonA'_1
     -- <fnA'   <ifonA' N0_Nh   annihilation;destruction
@@ -6093,8 +6073,7 @@ lexicon = listing "Lexicon's properties"
     -- fqr     faqar   NAt     paragraphs;clauses
 
     FaCL |< aT                `noun`       {- faqorap -}        [ "paragraph", "clause", "paragraphs", "clauses" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "faqar NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; faqoriy~_1
     -- fqry    faqoriy~        N-ap    spinal;vertebral     [[faqoriy~/ADJ]]
@@ -6163,8 +6142,7 @@ lexicon = listing "Lexicon's properties"
     -- AftqAr  {ifotiqAr       NAt     needs;requirements
 
     IFtiCAL |< At             `noun`       {- AifotiqArAt -}    [ "needs", "requirements" ]
-                              `plural`     IFtiCAL |< At
-                              {- `others` [ "iftiqAr NAt" ] -},
+                              `plural`     IFtiCAL |< At,
 
     -- ;; mufotaqir_1
     -- mftqr   mufotaqir       Nall    in need of;in short supply of     [[mufotaqir/ADJ]]
@@ -6381,8 +6359,7 @@ lexicon = listing "Lexicon's properties"
     -- mftrD   mufotaraD       NAt     implication;exigencies
 
     MuFtaCaL |< At            `noun`       {- mufotaraDAt -}    [ "implication", "exigencies" ]
-                              `plural`     MuFtaCaL |< At
-                              {- `others` [ "muftara.d NAt" ] -} ]
+                              `plural`     MuFtaCaL |< At ]
 
  |> "f r .g" <| [
 
@@ -6560,8 +6537,7 @@ lexicon = listing "Lexicon's properties"
     -- frH     faraH   NAt     joys
 
     FaCL |< aT                `noun`       {- faroHap -}        [ "joy", "joys" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "fara.h NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; faraHAt_1
     -- frH     faroHAt N0      Farhat
@@ -6930,8 +6906,7 @@ lexicon = listing "Lexicon's properties"
     -- fr$     fara$   NAt     bedding
 
     FaCL |< aT                `noun`       {- faro$ap -}        [ "bedding" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "fara^s NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; farA$ap_1
     -- frA$    farA$   NapAt   butterfly
@@ -6944,8 +6919,7 @@ lexicon = listing "Lexicon's properties"
     -- Afr$    >afori$ Nap     bedding
 
     FiCAL                     `noun`       {- firA$ -}          [ "bed", "bedding" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'afri^s Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     -- ;; far~A$_1
     -- frA$    far~A$  N       valet de chambre;servant
@@ -6979,8 +6953,7 @@ lexicon = listing "Lexicon's properties"
     -- mfrw$   maforuw$        NAt     furnishings;household effects
 
     MaFCUL |< At              `noun`       {- maforuw$At -}     [ "furnishings", "household effects" ]
-                              `plural`     MaFCUL |< At
-                              {- `others` [ "mafruw^s NAt" ] -},
+                              `plural`     MaFCUL |< At,
 
     -- ;; furo$ap_1
     -- fr$     furo$   Napdu   brush
@@ -7083,7 +7056,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCaL |< At
                               `plural`     FuCUL
                               `plural`     HaFCAL
-                              {- `others` [ "fara_h NAt", "furuw_h N", "'afrA_h N" ] -},
+                              {- `others` [ "furuw_h N", "'afrA_h N" ] -},
 
     -- ;; firAx_1
     -- frAx    firAx   N       poultry
@@ -7154,7 +7127,7 @@ lexicon = listing "Lexicon's properties"
     HaFCaL                    `adj`        {- OaforaE -}        [ "tall", "slender" ]
                               `plural`     FaCLA'
                               `plural`     FACiL |< aT
-                              {- `others` [ "far`A' Nh N0_Nh Nhy", "fAri` N-ap" ] -},
+                              {- `others` [ "far`A' Nh N0_Nh Nhy" ] -},
 
     -- ;; taforiyE_1
     -- tfryE   taforiyE        N/At    derivation;ramification;shunting
@@ -7257,7 +7230,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`       {- farod -}          [ "pistol", "pistols" ]
                               `plural`     FuCUL |< aT
-                              {- `others` [ "furuwd Nap N" ] -},
+                              {- `others` [ "furuwd N" ] -},
 
     -- ;; farodiy~_1
     -- frdy    farodiy~        N-ap    individual;single     [[farodiy~/ADJ]]
@@ -7362,8 +7335,7 @@ lexicon = listing "Lexicon's properties"
     -- mfrd    muforad NAt     vocabulary;terminology
 
     MuFCaL |< At              `noun`       {- muforadAt -}      [ "vocabulary", "terminology" ]
-                              `plural`     MuFCaL |< At
-                              {- `others` [ "mufrad NAt" ] -},
+                              `plural`     MuFCaL |< At,
 
     -- ;; munofarid_1
     -- mnfrd   munofarid       Nall    detached;isolated;alone     [[munofarid/ADJ]]
@@ -7743,7 +7715,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`       {- faroq -}          [ "difference", "discrepancy", "differences", "discrepancies" ]
                               `plural`     FuCUL |< At
-                              {- `others` [ "furuwq NAt N" ] -},
+                              {- `others` [ "furuwq N" ] -},
 
     -- ;; firoqap_1
     -- frq     firoq   Napdu   group;team
@@ -7929,8 +7901,7 @@ lexicon = listing "Lexicon's properties"
     -- mtfrq   mutafar~iq      NAt     miscellany
 
     MutaFaCCiL |< At          `noun`       {- mutafar~iqAt -}   [ "miscellany" ]
-                              `plural`     MutaFaCCiL |< At
-                              {- `others` [ "mutafarriq NAt" ] -},
+                              `plural`     MutaFaCCiL |< At,
 
     -- ;; mufotaraq_1
     -- mftrq   mufotaraq       NduAt   intersection;crossroads;junction
@@ -8232,15 +8203,14 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`       {- farowap -}        [ "fur", "pelts", "furs" ]
                               `plural`     FaCaL |< At
                               `plural`     FiCA'
-                              {- `others` [ "faraw NAt", "firA' Nh N0_Nh Nhy" ] -},
+                              {- `others` [ "firA' Nh N0_Nh Nhy" ] -},
 
     -- ;; farowap_2
     -- frw     farow   NapAt   scalp
     -- frw     faraw   NAt     scalps
 
     FaCL |< aT                `noun`       {- farowap -}        [ "scalp", "scalps" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "faraw NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "f r w l" <| [
 
@@ -8371,8 +8341,7 @@ lexicon = listing "Lexicon's properties"
     -- mftry   mufotaray       NAt     lies;fabrications;calumnies
 
     MuFtaCaL |< At            `noun`       {- mufotarayAt -}    [ "lies", "fabrications", "calumnies" ]
-                              `plural`     MuFtaCaL |< At
-                              {- `others` [ "muftaray NAt" ] -} ]
+                              `plural`     MuFtaCaL |< At ]
 
  |> "f r y l" <| [
 
@@ -8431,8 +8400,7 @@ lexicon = listing "Lexicon's properties"
     -- mfrz    muforaz NAt     secretions;exudations
 
     MuFCaL |< At              `noun`       {- muforazAt -}      [ "secretions", "exudations" ]
-                              `plural`     MuFCaL |< At
-                              {- `others` [ "mufraz NAt" ] -},
+                              `plural`     MuFCaL |< At,
 
     -- ;; muforaz_1
     -- mfrz    muforaz N-ap    partitioned;in lots
@@ -8869,7 +8837,7 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`       {- fAsiq -}          [ "adulterer", "adulterers" ]
                               `plural`     FuCCAL
                               `plural`     FaCaL |< aT
-                              {- `others` [ "fussAq N", "fasaq Nap" ] -},
+                              {- `others` [ "fussAq N" ] -},
 
     -- ;; fAsiq_2
     -- fAsq    fAsiq   Nall    immoral     [[fAsiq/ADJ]]
@@ -8879,7 +8847,7 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `adj`        {- fAsiq -}          [ "immoral" ]
                               `plural`     FuCCAL
                               `plural`     FaCaL |< aT
-                              {- `others` [ "fussAq N", "fasaq Nap" ] -} ]
+                              {- `others` [ "fussAq N" ] -} ]
 
  |> "f s q y" <| [
 
@@ -9110,8 +9078,7 @@ lexicon = listing "Lexicon's properties"
     -- ftwH    futuwH  N/At    conquests;achievements
 
     FaCL                      `noun`       {- fatoH -}          [ "opening", "beginning", "conquests", "achievements" ]
-                              `plural`     FuCUL |< At
-                              {- `others` [ "futuw.h N/At" ] -},
+                              `plural`     FuCUL |< At,
 
     -- ;; fatoH_2
     -- ftH     fatoH   N0      Fatah (PLO branch)
@@ -9123,8 +9090,7 @@ lexicon = listing "Lexicon's properties"
     -- ftH     fataH   NAt     opening;portholes
 
     FaCL |< aT                `noun`       {- fatoHap -}        [ "opening", "porthole", "portholes" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "fata.h NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; fatoHap_2
     -- ftH     fatoH   Napdu   fatha (Arabic short vowel "a")
@@ -9327,8 +9293,7 @@ lexicon = listing "Lexicon's properties"
     -- ftk     fatak   NAt     devastation;havoc
 
     FaCL |< aT                `noun`       {- fatokap -}        [ "devastation", "havoc" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "fatak NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; fat~Ak_1
     -- ftAk    fat~Ak  Nall    deadly;destructive;lethal
@@ -9662,8 +9627,7 @@ lexicon = listing "Lexicon's properties"
     -- ftr     fatar   NAt     phases;time periods;intervals
 
     FaCL |< aT                `noun`       {- fatorap -}        [ "phase", "time period", "interval", "phases", "time periods", "intervals" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "fatar NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; futuwr_1
     -- ftwr    futuwr  N       lack of interest;lethargy
@@ -9995,8 +9959,7 @@ lexicon = listing "Lexicon's properties"
     -- mfAwD   mufAwaD NAt     negotiations;discussions;talks
 
     MuFACaL |< aT             `noun`       {- mufAwaDap -}      [ "negotiation", "discussion", "negotiations", "discussions", "talks" ]
-                              `plural`     MuFACaL |< At
-                              {- `others` [ "mufAwa.d NAt" ] -},
+                              `plural`     MuFACaL |< At,
 
     -- ;; tafAwuD_1
     -- tfAwD   tafAwuD NduAt   negotiation;consultation
@@ -10727,8 +10690,7 @@ lexicon = listing "Lexicon's properties"
     -- fA}D    fA}iD   N-ap    abundant;copious;surplus;overflow
 
     IstiFAL |< aT             `noun`       {- AisotifADap -}    [ "abundance", "profusion", "abundant", "copious", "surplus", "overflow" ]
-                              `plural`     FA'iL |< aT
-                              {- `others` [ "fA'i.d N-ap" ] -},
+                              `plural`     FA'iL |< aT,
 
     -- ;; fA}iD_1
     -- fA}D    fA}iD   N       interest
@@ -10897,8 +10859,7 @@ lexicon = listing "Lexicon's properties"
     -- AfAd    <ifAd   NAt     notification;communication
 
     HiFAL |< aT               `noun`       {- IifAdap -}        [ "notification", "communication" ]
-                              `plural`     HiFAL |< At
-                              {- `others` [ "'ifAd NAt" ] -},
+                              `plural`     HiFAL |< At,
 
     -- ;; {isotifAdap_1
     -- <stfAd  {isotifAd       NapAt   profit;gain

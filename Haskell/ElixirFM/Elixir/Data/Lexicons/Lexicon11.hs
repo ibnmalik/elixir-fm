@@ -163,8 +163,7 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ "zu`amA' Nh N0_Nh Nhy" ] -},
 
     FaCAL |< aT               `noun`       {- zaEAmap -}        [ "leadership", "leaders" ]
-                              `plural`     FaCAL |< At
-                              {- `others` [ "za`Am NAt" ] -},
+                              `plural`     FaCAL |< At,
 
     MaFCaL |< aT              `noun`       {- mazoEamap -}      [ "allegation", "claim", "allegations", "claims" ]
                               `plural`     MaFACiL
@@ -240,8 +239,7 @@ lexicon = listing "Lexicon's properties"
     HaFCaL                    `verb`       {- Oazohar -}        [ "glow", "blossom" ],
 
     FaCL                      `noun`       {- zahor -}          [ "flower", "splendor", "flowers" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "zahar NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     FuCUL                     `noun`       {- zuhuwr -}         [ "flowers" ]
                               `plural`     HaFCAL
@@ -296,8 +294,7 @@ lexicon = listing "Lexicon's properties"
     FaCCY                     `verb`       {- zak~aY -}         [ "augment", "nominate", "recommend", "be augmented", "be nominated", "be recommended" ],
 
     FaCY |< aT                `noun`       {- zakAp -}          [ "alms", "charity" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "zakaw NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "z k y" <| [
 
@@ -461,8 +458,7 @@ lexicon = listing "Lexicon's properties"
  |> "z n z n" <| [
 
     KiRDAS |< aT              `noun`       {- zinozAnap -}      [ "prison cell", "prison cells" ]
-                              `plural`     KiRDAS |< At
-                              {- `others` [ "zinzAn NAt" ] -} ]
+                              `plural`     KiRDAS |< At ]
 
  |> "z q q" <| [
 
@@ -586,8 +582,7 @@ lexicon = listing "Lexicon's properties"
     FaCAL                     `noun`       {- zawAj -}          [ "marriage", "wedding" ],
 
     FIL |< aT                 `noun`       {- ziyjap -}         [ "marriage", "marriages" ]
-                              `plural`     FIL |< At
-                              {- `others` [ "ziy^g NAt" ] -},
+                              `plural`     FIL |< At,
 
     FIL |< Iy                 `adj`        {- ziyjiy~ -}        [ "marital" ],
 
@@ -768,8 +763,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCL |< aT                `noun`       {- ziyjap -}         [ "marriage", "marriages" ]
                               `plural`     FIL |< At
-                              `plural`     FiCL |< At
-                              {- `others` [ "ziy^g NAt" ] -},
+                              `plural`     FiCL |< At,
 
     FiCL |< Iy                `adj`        {- ziyjiy~ -}        [ "marital" ] ]
 

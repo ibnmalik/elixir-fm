@@ -286,8 +286,7 @@ lexicon = listing "Lexicon's properties"
     -- yAfT    yAfoT   NapAt   placard;sign
 
     FaCL |< aT                `noun`       {- yafoTap -}        [ "placard", "sign" ]
-                              `plural`     FACL |< At
-                              {- `others` [ "yAf.t NapAt" ] -} ]
+                              `plural`     FACL |< At ]
 
  |> "y f _h" <| [
 
@@ -467,8 +466,7 @@ lexicon = listing "Lexicon's properties"
     -- ymn     yamon   Nap     right side
 
     FaCaL                     `noun`       {- yaman -}          [ "right side" ]
-                              `plural`     FaCL |< aT
-                              {- `others` [ "yamn Nap" ] -},
+                              `plural`     FaCL |< aT,
 
     -- ;; yamanAF_1
     -- ymn     yaman   NF      to the right     [[yaman/ADV]]
@@ -657,8 +655,7 @@ lexicon = listing "Lexicon's properties"
     -- ynE     yanoE   N-ap    ripe;mellow
 
     FACiL                     `adj`        {- yAniE -}          [ "ripe", "mellow" ]
-                              `plural`     FaCL |< aT
-                              {- `others` [ "yan` N-ap" ] -} ]
+                              `plural`     FaCL |< aT ]
 
  |> "y n n" <| [
 
@@ -745,15 +742,14 @@ lexicon = listing "Lexicon's properties"
     FaCiL                     `adj`        {- yaqiZ -}          [ "awake", "alert", "vigilant" ]
                               `plural`     HaFCAL
                               `plural`     FaCuL |< aT
-                              {- `others` [ "'ayqA.z N", "yaqu.z N-ap" ] -},
+                              {- `others` [ "'ayqA.z N" ] -},
 
     -- ;; yaqoZap_1
     -- yqZ     yaqoZ   Nap     alertness;wakefulness
     -- yqZ     yaqaZ   Nap     alertness;wakefulness
 
     FaCL |< aT                `noun`       {- yaqoZap -}        [ "alertness", "wakefulness" ]
-                              `plural`     FaCaL |< aT
-                              {- `others` [ "yaqa.z Nap" ] -},
+                              `plural`     FaCaL |< aT,
 
     -- ;; yaqoZap_2
     -- yqZp    yaqoZap N0      Yaqza
@@ -837,8 +833,7 @@ lexicon = listing "Lexicon's properties"
     -- yqn     yaqan   Nap     credulous;ingenuous
 
     FaCiL                     `noun`       {- yaqin -}          [ "credulous", "ingenuous" ]
-                              `plural`     FaCaL |< aT
-                              {- `others` [ "yaqan Nap" ] -},
+                              `plural`     FaCaL |< aT,
 
     -- ;; yaqiyn_1
     -- yqyn    yaqiyn  N       certainty;certitude;conviction
@@ -1130,8 +1125,7 @@ lexicon = listing "Lexicon's properties"
     -- mysr    mayosir Nap     comfort;affluence
 
     MaFCaL |< aT              `noun`       {- mayosarap -}      [ "comfort", "affluence" ]
-                              `plural`     MaFCiL |< aT
-                              {- `others` [ "maysir Nap" ] -},
+                              `plural`     MaFCiL |< aT,
 
     -- ;; tayosiyr_1
     -- tysyr   tayosiyr        N/At    facilitation

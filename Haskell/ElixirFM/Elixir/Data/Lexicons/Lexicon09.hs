@@ -74,8 +74,7 @@ lexicon = listing "Lexicon's properties"
     TaKaRDaS                  `verb`       {- ta*abo*ab -}      [ "oscillate", "fluctuate", "waver" ],
 
     KaRDaS |< aT              `noun`       {- \*abo*abap -}     [ "oscillation", "frequency", "vibration", "oscillations", "frequencies", "vibrations" ]
-                              `plural`     KaRDaS |< At
-                              {- `others` [ "_dab_dab NAt" ] -},
+                              `plural`     KaRDaS |< At,
 
     TaKaRDuS                  `noun`       {- ta*abo*ub -}      [ "oscillation", "fluctuation" ],
 
@@ -170,7 +169,7 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `noun`       {- \*akar -}         [ "male", "males" ]
                               `plural`     FuCLAn
                               `plural`     FuCUL |< aT
-                              {- `others` [ "_dukrAn N", "_dukuwr Nap N" ] -},
+                              {- `others` [ "_dukrAn N", "_dukuwr N" ] -},
 
     FaCaL |< Iy               `adj`        {- \*akariy~ -}      [ "male", "masculine" ],
 
@@ -337,8 +336,7 @@ lexicon = listing "Lexicon's properties"
     HaFAL                     `verb`       {- Oa*AE -}          [ "broadcast", "propagate", "be broadcast", "be propagated" ],
 
     HiFAL |< aT               `noun`       {- Ii*AEap -}        [ "broadcast", "transmission", "broadcasts", "transmissions" ]
-                              `plural`     HiFAL |< At
-                              {- `others` [ "'i_dA` NAt" ] -},
+                              `plural`     HiFAL |< At,
 
     HiFAL |< Iy               `adj`        {- Ii*AEiy~ -}       [ "radio", "broadcast", "transmission" ],
 

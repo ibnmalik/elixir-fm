@@ -265,7 +265,7 @@ lexicon = listing "Lexicon's properties"
     KiRDIS                    `noun`       {- tilomiy* -}       [ "student", "pupil", "students", "pupils" ]
                               `plural`     KaRADIS
                               `plural`     KaRADiS |< aT
-                              {- `others` [ "talAmiy_d Ndip", "talAmi_d Nap" ] -} ]
+                              {- `others` [ "talAmiy_d Ndip" ] -} ]
 
  |> "t l w" <| [
 
@@ -433,7 +433,7 @@ lexicon = listing "Lexicon's properties"
     FuCAL                     `noun`       {- turAb -}          [ "dirt", "soil" ]
                               `plural`     FiCLAn
                               `plural`     HaFCiL |< aT
-                              {- `others` [ "tirbAn N", "'atrib Nap" ] -},
+                              {- `others` [ "tirbAn N" ] -},
 
     FuCAL |< Iy               `adj`        {- turAbiy~ -}       [ "Turabi" ],
 
@@ -467,8 +467,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`       {- tarok -}          [ "leaving", "omission" ],
 
     FaCiL |< aT               `noun`       {- tarikap -}        [ "legacy" ]
-                              `plural`     FiCL |< At
-                              {- `others` [ "tirk NapAt" ] -},
+                              `plural`     FiCL |< At,
 
     FaCCaL                    `verb`       {- tar~ak -}         [ "Turkify" ],
 
@@ -499,16 +498,14 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ "matAris Ndip", "matAriys Ndip", "mitrAs Ndu", "mitras Ndu" ] -},
 
     FiCLAn |< aT              `noun`       {- tirosAnap -}      [ "arsenal", "shipyard" ]
-                              `plural`     FaCLAn |< At
-                              {- `others` [ "tarsAn NduAt" ] -},
+                              `plural`     FaCLAn |< At,
 
     FiCLAn |< aT              `noun`       {- tirosAnap -}      [ "Tersana", "Tirsana" ] ]
 
  |> "t r s n" <| [
 
     KiRDAS |< aT              `noun`       {- tirosAnap -}      [ "arsenal", "shipyard" ]
-                              `plural`     KaRDAS |< At
-                              {- `others` [ "tarsAn NduAt" ] -},
+                              `plural`     KaRDAS |< At,
 
     KiRDAS |< aT              `noun`       {- tirosAnap -}      [ "Tersana", "Tirsana" ] ]
 

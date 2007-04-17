@@ -632,8 +632,7 @@ lexicon = listing "Lexicon's properties"
     -- ATEm    >aToEim Nap     food
 
     FaCAL                     `noun`       {- TaEAm -}          [ "food" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'a.t`im Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     -- ;; maToEam_1
     -- mTEm    maToEam Ndu     restaurant
@@ -694,8 +693,7 @@ lexicon = listing "Lexicon's properties"
     -- TEn     TaEan   NAt     stabs;insults
 
     FaCL |< aT                `noun`       {- TaEonap -}        [ "stab", "insult", "stabs", "insults" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ ".ta`an NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; TAEuwn_1
     -- TAEwn   TAEuwn  Ndu     plague;epidemic
@@ -808,8 +806,7 @@ lexicon = listing "Lexicon's properties"
     -- Tbx     Tabax   NAt     meals;dishes
 
     FaCL |< aT                `noun`       {- Taboxap -}        [ "meal", "dish", "meals", "dishes" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ ".taba_h NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; Tab~Ax_1
     -- TbAx    Tab~Ax  Nall    cook;chef
@@ -859,8 +856,7 @@ lexicon = listing "Lexicon's properties"
     -- mTbwx   maTobuwx        NAt     cooked food
 
     MaFCUL |< At              `noun`       {- maTobuwxAt -}     [ "cooked food" ]
-                              `plural`     MaFCUL |< At
-                              {- `others` [ "ma.tbuw_h NAt" ] -} ]
+                              `plural`     MaFCUL |< At ]
 
  |> ".t b `" <| [
 
@@ -908,8 +904,7 @@ lexicon = listing "Lexicon's properties"
     -- TbE     TabaE   NAt     printings;editions
 
     FaCL |< aT                `noun`       {- TaboEap -}        [ "printing", "edition", "printings", "editions" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ ".taba` NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; TaboEiy~_1
     -- TbEy    TaboEiy~        N-ap    natural;typical     [[TaboEiy~/ADJ]]
@@ -1013,8 +1008,7 @@ lexicon = listing "Lexicon's properties"
     -- mTbwE   maTobuwE        NAt     printed material;publications
 
     MaFCUL |< At              `noun`       {- maTobuwEAt -}     [ "printed material", "publications" ]
-                              `plural`     MaFCUL |< At
-                              {- `others` [ "ma.tbuw` NAt" ] -} ]
+                              `plural`     MaFCUL |< At ]
 
  |> ".t b b" <| [
 
@@ -1521,8 +1515,7 @@ lexicon = listing "Lexicon's properties"
     -- TfH     TafaH   NAt     skin eruptions
 
     FaCL |< aT                `noun`       {- TafoHap -}        [ "skin eruption", "skin eruptions" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ ".tafa.h NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; TafoHiy~_1
     -- TfHy    TafoHiy~        N-ap    eruptive;exanthematic     [[TafoHiy~/ADJ]]
@@ -1728,8 +1721,7 @@ lexicon = listing "Lexicon's properties"
     -- Tfr     Tafar   NAt     leaps;jumps
 
     FaCL |< aT                `noun`       {- Taforap -}        [ "leap", "jump", "leaps", "jumps" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ ".tafar NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; TaforAn_1
     -- TfrAn   TaforAn N-ap    pauper
@@ -2189,8 +2181,7 @@ lexicon = listing "Lexicon's properties"
     -- tTlE    taTal~uE        NAt     aspirations;hopes
 
     TaFaCCuL |< At            `noun`       {- taTal~uEAt -}     [ "aspirations", "hopes" ]
-                              `plural`     TaFaCCuL |< At
-                              {- `others` [ "ta.tallu` NAt" ] -},
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; {iT~ilAE_1
     -- <TlAE   {iT~ilAE        N/At    examination;inspection;knowledge
@@ -2309,7 +2300,7 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`       {- TAlib -}          [ "student", "students" ]
                               `plural`     FuCCAL
                               `plural`     FaCaL |< aT
-                              {- `others` [ ".tullAb N", ".talab Nap" ] -},
+                              {- `others` [ ".tullAb N" ] -},
 
     -- ;; TAlibiy~_1
     -- TAlby   TAlibiy~        N-ap    student     [[TAlibiy~/ADJ]]
@@ -2340,8 +2331,7 @@ lexicon = listing "Lexicon's properties"
     -- mTlwb   maToluwb        NAt     liabilities;debts
 
     MaFCUL |< At              `noun`       {- maToluwbAt -}     [ "liabilities", "debts" ]
-                              `plural`     MaFCUL |< At
-                              {- `others` [ "ma.tluwb NAt" ] -},
+                              `plural`     MaFCUL |< At,
 
     -- ;; muTAlib_1
     -- mTAlb   muTAlib Nall    claimant
@@ -2367,8 +2357,7 @@ lexicon = listing "Lexicon's properties"
     -- mtTlb   mutaTal~ab      NAt     requirements
 
     MutaFaCCaL |< At          `noun`       {- mutaTal~abAt -}   [ "requirements" ]
-                              `plural`     MutaFaCCaL |< At
-                              {- `others` [ "muta.tallab NAt" ] -} ]
+                              `plural`     MutaFaCCaL |< At ]
 
  |> ".t l l" <| [
 
@@ -2747,7 +2736,7 @@ lexicon = listing "Lexicon's properties"
     KaRDAS |< Iy              `adj`        {- TaloyAniy~ -}     [ "Italian", "Italians" ]
                               `plural`     KaRDAS
                               `plural`     KaRADiS |< aT
-                              {- `others` [ ".talyAn N", ".talAyin Nap" ] -} ]
+                              {- `others` [ ".talyAn N" ] -} ]
 
  |> ".t m ' n" <| [
 
@@ -3373,8 +3362,7 @@ lexicon = listing "Lexicon's properties"
     -- ATnAn   <iTonAn N/At    resounding;ringing
 
     FaCCAL                    `noun`       {- Tan~An -}         [ "resounding", "ringing" ]
-                              `plural`     HiFCAL |< At
-                              {- `others` [ "'i.tnAn N/At" ] -},
+                              `plural`     HiFCAL |< At,
 
     -- ;; Tan~An_1
     -- TnAn    Tan~An  Nall    resounding;ringing
@@ -3382,8 +3370,7 @@ lexicon = listing "Lexicon's properties"
     -- ATnAn   <iTonAn N/At    resounding;ringing
 
     FaCLAn                    `noun`       {- Tan~An -}         [ "resounding", "ringing" ]
-                              `plural`     HiFCAL |< At
-                              {- `others` [ "'i.tnAn N/At" ] -},
+                              `plural`     HiFCAL |< At,
 
     -- ;; Tuwniy_1
     -- Twny    Tuwniy  Nprop   Tony
@@ -3428,7 +3415,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`       {- Taqom -}          [ "collection", "series", "set", "sets" ]
                               `plural`     FuCUL |< aT
-                              {- `others` [ ".tuquwm Nap N" ] -},
+                              {- `others` [ ".tuquwm N" ] -},
 
     -- ;; TAqim_1
     -- TAqm    TAqim   Ndu     crew
@@ -3852,8 +3839,7 @@ lexicon = listing "Lexicon's properties"
     -- Tr$     Tara$   NAt     slaps;slapping
 
     FaCL |< aT                `noun`       {- Taro$ap -}        [ "slap", "slaps", "slapping" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ ".tara^s NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; Tara$_1
     -- Tr$     Tara$   N       deafness
@@ -4342,8 +4328,7 @@ lexicon = listing "Lexicon's properties"
     -- Trq     Taraq   NAt     knocks
 
     FaCL |< aT                `noun`       {- Taroqap -}        [ "knock", "knocks" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ ".taraq NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; Tariyq_1
     -- Tryq    Tariyq  Ndu     road;way
@@ -4352,7 +4337,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`       {- Tariyq -}         [ "road", "way", "roads", "ways" ]
                               `plural`     FuCuL |< At
-                              {- `others` [ ".turuq NAt N" ] -},
+                              {- `others` [ ".turuq N" ] -},
 
     -- ;; Turoqap_1
     -- Trq     Turoq   NapAt   road
@@ -4684,7 +4669,7 @@ lexicon = listing "Lexicon's properties"
     FiCAL                     `noun`       {- TirAz -}          [ "model", "type", "calibre", "models", "types" ]
                               `plural`     FuCuL
                               `plural`     HaFCiL |< aT
-                              {- `others` [ ".turuz N", "'a.triz Nap" ] -},
+                              {- `others` [ ".turuz N" ] -},
 
     -- ;; taToriyz_1
     -- tTryz   taToriyz        N/At    embroidery
@@ -5195,8 +5180,7 @@ lexicon = listing "Lexicon's properties"
     -- TAwl    TAwil   NAt     tables
 
     FACiL |< aT               `noun`       {- TAwilap -}        [ "table", "tables" ]
-                              `plural`     FACiL |< At
-                              {- `others` [ ".tAwil NAt" ] -},
+                              `plural`     FACiL |< At,
 
     -- ;; TAl-u_1
     -- TAl     TAl     PV_V_intr       be long
@@ -5517,8 +5501,7 @@ lexicon = listing "Lexicon's properties"
     -- tTwr    taTaw~ur        NAt     events;developments
 
     TaFaCCuL |< At            `noun`       {- taTaw~urAt -}     [ "events", "developments" ]
-                              `plural`     TaFaCCuL |< At
-                              {- `others` [ "ta.tawwur NAt" ] -},
+                              `plural`     TaFaCCuL |< At,
 
     -- ;; taTaw~uriy~_1
     -- tTwry   taTaw~uriy~     N-ap    evolutionary;developmental     [[taTaw~uriy~/ADJ]]
@@ -5691,8 +5674,7 @@ lexicon = listing "Lexicon's properties"
     -- mnTwy   munoTaway       NAt     contents
 
     MunFaCY                   `noun`       {- munoTawaY -}      [ "content", "contents" ]
-                              `plural`     MunFaCaL |< At
-                              {- `others` [ "mun.taway NAt" ] -} ]
+                              `plural`     MunFaCaL |< At ]
 
  |> ".t y .h" <| [
 
@@ -5867,8 +5849,7 @@ lexicon = listing "Lexicon's properties"
     -- Tyb     Tay~ib  NAt     pleasant;good things
 
     FaCCiL |< At              `noun`       {- Tay~ibAt -}       [ "pleasant", "good things" ]
-                              `plural`     FaCCiL |< At
-                              {- `others` [ ".tayyib NAt" ] -},
+                              `plural`     FaCCiL |< At,
 
     -- ;; Tay~ib_2
     -- Tyb     Tay~ib  N0      Tayyib
@@ -6177,8 +6158,7 @@ lexicon = listing "Lexicon's properties"
     -- Ty      Tay~    NAt     interior;insides (of)
 
     FaCL |< aT                `noun`       {- Tay~ap -}         [ "fold", "interior", "insides (of)" ]
-                              `plural`     FaCL |< At
-                              {- `others` [ ".tayy NAt" ] -},
+                              `plural`     FaCL |< At,
 
     -- ;; Tiy~ap_1
     -- Ty      Tiy~    Nap     intention;design
@@ -6192,8 +6172,7 @@ lexicon = listing "Lexicon's properties"
     -- Tzj     Tazij   N-ap    fresh
 
     FACiL                     `noun`       {- TAzij -}          [ "fresh" ]
-                              `plural`     FaCiL |< aT
-                              {- `others` [ ".tazi^g N-ap" ] -} ]
+                              `plural`     FaCiL |< aT ]
 
  |> ".t z h" <| [
 

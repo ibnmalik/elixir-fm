@@ -70,8 +70,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCA                      `noun`       {- OagA -}           [ "Agha", "Aghas" ]
                               `plural`     HACAL |< At
-                              `plural`     FaCaL |< At
-                              {- `others` [ "'A.gAw NAt", "'a.gaw NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "' .h .h" <| [
 
@@ -1249,8 +1248,7 @@ lexicon = listing "Lexicon's properties"
     -- A*wn    >u*uwn  NAt     bond
 
     FuCUL |< At               `noun`       {- Ou*uwnAt -}       [ "bond" ]
-                              `plural`     FuCUL |< At
-                              {- `others` [ "'u_duwn NAt" ] -},
+                              `plural`     FuCUL |< At,
 
     -- ;; |*in_1
     -- \|*n     |*in    Nall    door-keeper;porter
@@ -1435,8 +1433,7 @@ lexicon = listing "Lexicon's properties"
     -- m>xw*   ma>oxuw*        NAt     receipts;returns
 
     MaFCUL |< At              `noun`       {- maOoxuw*At -}     [ "receipts", "returns" ]
-                              `plural`     MaFCUL |< At
-                              {- `others` [ "ma'_huw_d NAt" ] -},
+                              `plural`     MaFCUL |< At,
 
     -- ;; ma>oxa*_1
     -- m>x*    ma>oxa* Ndu     source;method;procedure
@@ -1605,8 +1602,7 @@ lexicon = listing "Lexicon's properties"
     -- mt>xr   muta>ax~ir      NAt     arrears
 
     MutaFaCCiL |< At          `noun`       {- mutaOax~irAt -}   [ "arrears" ]
-                              `plural`     MutaFaCCiL |< At
-                              {- `others` [ "muta'a_h_hir NAt" ] -},
+                              `plural`     MutaFaCCiL |< At,
 
     -- ;; >axuwr_1
     -- >xwr    >axuwr  N       barn;stable
@@ -1738,8 +1734,7 @@ lexicon = listing "Lexicon's properties"
     -- mwAxw   muwAxaw NAt     fraternization
 
     MuFACY |< aT              `noun`       {- muWAxAp -}        [ "fraternization" ]
-                              `plural`     MuFACaL |< At
-                              {- `others` [ "mu'A_haw NAt" ] -} ]
+                              `plural`     MuFACaL |< At ]
 
  |> "' _h w y" <| [
 
@@ -1895,8 +1890,7 @@ lexicon = listing "Lexicon's properties"
     -- Avl     >aval   NAt     tamarisks
 
     FaCL |< aT                `noun`       {- Oavolap -}        [ "tamarisk", "tamarisks" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "'a_tal NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; >aviyl_1
     -- >vyl    >aviyl  Nall    deep-rooted;highborn
@@ -2624,8 +2618,7 @@ lexicon = listing "Lexicon's properties"
     -- AbAls   >abAlis Nap     devils;demons
 
     KaRADIS                   `noun`       {- OabAliys -}       [ "devils", "demons" ]
-                              `plural`     KaRADiS |< aT
-                              {- `others` [ "'abAlis Nap" ] -} ]
+                              `plural`     KaRADiS |< aT ]
 
  |> "' b l z" <| [
 
@@ -2821,7 +2814,7 @@ lexicon = listing "Lexicon's properties"
     KiRDIS                    `noun`       {- Iiboriyq -}       [ "pitcher", "jug", "pitchers", "jugs" ]
                               `plural`     KaRADIS
                               `plural`     KaRADiS |< aT
-                              {- `others` [ "'abAriyq Ndip", "'abAriq Nap" ] -} ]
+                              {- `others` [ "'abAriyq Ndip" ] -} ]
 
  |> "' b r z" <| [
 
@@ -3246,8 +3239,7 @@ lexicon = listing "Lexicon's properties"
     -- AdArs   >adAris Nap     Idrisids
 
     KiRDIS |< Iy              `adj`        {- Iidoriysiy~ -}    [ "Idrisid", "Idrisids" ]
-                              `plural`     KaRADiS |< aT
-                              {- `others` [ "'adAris Nap" ] -} ]
+                              `plural`     KaRADiS |< aT ]
 
  |> "' d s" <| [
 
@@ -3266,8 +3258,7 @@ lexicon = listing "Lexicon's properties"
     -- Adw     >adaw   NAt     tools;instruments
 
     FaCY |< aT                `noun`       {- OadAp -}          [ "tool", "instrument", "apparatus", "tools", "instruments" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "'adaw NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "' d y" <| [
 
@@ -3354,7 +3345,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCY                   `noun`       {- muWad~aY -}       [ "task", "content", "significance", "tasks", "contents", "significances" ]
                               `plural`     MuFaCCaL |< At
-                              {- `others` [ "mu'adday NAt NAn_Nayn" ] -} ]
+                              {- `others` [ "mu'adday NAn_Nayn" ] -} ]
 
  |> "' f .g" <| [
 
@@ -4000,8 +3991,7 @@ lexicon = listing "Lexicon's properties"
     -- Akl     >akal   NAt     meals;foods;dishes
 
     FaCL |< aT                `noun`       {- Oakolap -}        [ "meal", "food", "dish", "meals", "foods", "dishes" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "'akal NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; >ukul_1
     -- >kl     >ukul   N       fruit
@@ -4994,8 +4984,7 @@ lexicon = listing "Lexicon's properties"
     -- Alw     >alaw   NAt     aloes
 
     FaCL |< aT                `noun`       {- Oalowap -}        [ "aloe", "aloes" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "'alaw NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; >uluw_1
     -- >lw     >uluw   FW-WaBi those     [[>uluw/DEM_PRON_MP]]
@@ -5012,8 +5001,7 @@ lexicon = listing "Lexicon's properties"
     -- AlAy    |lAy    N/At    regiment
 
     FaCAL                     `noun`       {- OalAy -}          [ "regiment" ]
-                              `plural`     HACAL |< At
-                              {- `others` [ "'AlAy N/At" ] -},
+                              `plural`     HACAL |< At,
 
     -- ;; <ilaY_1
     -- <lY     <ilaY   FW-Wa   to;towards     [[<ilaY/PREP]]
@@ -5063,8 +5051,7 @@ lexicon = listing "Lexicon's properties"
     -- AlAyA   >alAyA  Nhy     buttocks;backsides
 
     FaCL |< aT                `noun`       {- Oaloyap -}        [ "buttock", "backside", "buttocks", "backsides" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "'alay NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "' l y s" <| [
 
@@ -5710,8 +5697,7 @@ lexicon = listing "Lexicon's properties"
     -- AmAr    <imAr   NAt     Emirates
 
     FiCAL |< aT               `noun`       {- IimArap -}        [ "Emirate", "Emirates" ]
-                              `plural`     FiCAL |< At
-                              {- `others` [ "'imAr NAt" ] -},
+                              `plural`     FiCAL |< At,
 
     -- ;; >amArap_1
     -- >mAr    >amAr   NapAt   sign;indication
@@ -5998,8 +5984,7 @@ lexicon = listing "Lexicon's properties"
     -- AwAn    >awAn   NK      vessels;containers;receptacles
 
     FiCAL                     `noun`       {- IinA' -}          [ "vessel", "container", "receptacle", "vessels", "containers", "receptacles" ]
-                              `plural`     FACI |< aT
-                              {- `others` [ "'Aniy Nap" ] -},
+                              `plural`     FACI |< aT,
 
     -- ;; ta>an~iy_1
     -- t>ny    ta>an~iy        N0_Nh   circumspection;prudence
@@ -7514,8 +7499,7 @@ lexicon = listing "Lexicon's properties"
     -- Arwm    >uruwm  NapAt   root;stump;stub
 
     FaCUL |< aT               `noun`       {- Oaruwmap -}       [ "root", "stump", "stub" ]
-                              `plural`     FuCUL |< At
-                              {- `others` [ "'uruwm NapAt" ] -},
+                              `plural`     FuCUL |< At,
 
     -- ;; mi}oram_1
     -- m}rm    mi}oram Ndu     root (tooth)
@@ -7615,8 +7599,7 @@ lexicon = listing "Lexicon's properties"
     -- Arq     >araq   NAt     aphids;greenflies
 
     FaCL |< aT                `noun`       {- Oaroqap -}        [ "aphid", "greenfly", "aphids", "greenflies" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "'araq NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "' r r" <| [
 
@@ -8139,7 +8122,7 @@ lexicon = listing "Lexicon's properties"
 
     KuRDuS                    `noun`       {- Ousoquf -}        [ "bishop", "bishops" ]
                               `plural`     KaRADiS |< aT
-                              {- `others` [ "'asAqif Nap Ndip" ] -},
+                              {- `others` [ "'asAqif Ndip" ] -},
 
     -- ;; >usoqufiy~_1
     -- >sqfy   >usoqufiy~      Nall    episcopal     [[>usoqufiy~/ADJ]]
@@ -8343,8 +8326,7 @@ lexicon = listing "Lexicon's properties"
     -- tAsys   ta>osiys        NAt     facilities;institutions
 
     TaFCIL |< At              `noun`       {- taOosiysAt -}     [ "facilities", "institutions" ]
-                              `plural`     TaFCIL |< At
-                              {- `others` [ "ta'siys NAt" ] -},
+                              `plural`     TaFCIL |< At,
 
     -- ;; ta>osiysiy~_1
     -- t>sysy  ta>osiysiy~     Nall    fundamental;founding;constituent     [[ta>osiysiy~/ADJ]]
@@ -8362,8 +8344,7 @@ lexicon = listing "Lexicon's properties"
     -- m&ss    mu&as~as        NAt     institutions;organizations
 
     MuFaCCaL |< aT            `noun`       {- muWas~asap -}     [ "institution", "organization", "institutions", "organizations" ]
-                              `plural`     MuFaCCaL |< At
-                              {- `others` [ "mu'assas NAt" ] -},
+                              `plural`     MuFaCCaL |< At,
 
     -- ;; mu&as~asiy~_1
     -- m&ssy   mu&as~asiy~     Nall    institutional;organizational     [[mu&as~asiy~/ADJ]]
@@ -8413,7 +8394,7 @@ lexicon = listing "Lexicon's properties"
     KuRDAS                    `noun`       {- OusotA* -}        [ "professor", "professors" ]
                               `plural`     KaRADiS |< aT
                               `plural`     KaRADIS
-                              {- `others` [ "'asAti_d Nap", "'asAtiy_d Ndip" ] -},
+                              {- `others` [ "'asAtiy_d Ndip" ] -},
 
     -- ;; >usotA*iy~_1
     -- >stA*y  >usotA*iy~      Nall    professorial     [[>usotA*iy~/ADJ]]
@@ -8599,8 +8580,7 @@ lexicon = listing "Lexicon's properties"
     -- Asw     <isow   Nap     model;example;pattern
 
     FuCL |< aT                `noun`       {- Ousowap -}        [ "model", "example", "pattern" ]
-                              `plural`     FiCL |< aT
-                              {- `others` [ "'isw Nap" ] -},
+                              `plural`     FiCL |< aT,
 
     -- ;; >usowapF_1
     -- >swp    >usowapF        FW-Wa   just like     [[>usowapF/ADV]]
@@ -8629,8 +8609,7 @@ lexicon = listing "Lexicon's properties"
     -- m&Asw   mu&Asaw NAt     consolation;charity
 
     MuFACY |< aT              `noun`       {- muWAsAp -}        [ "consolation", "charity" ]
-                              `plural`     MuFACaL |< At
-                              {- `others` [ "mu'Asaw NAt" ] -},
+                              `plural`     MuFACaL |< At,
 
     -- ;; mu&Asiy_1
     -- m&Asy   mu&Asiy N0F_Nh  comforting;consoling
@@ -8671,7 +8650,7 @@ lexicon = listing "Lexicon's properties"
     KiRDAS                    `noun`       {- IisowAr -}        [ "bracelet", "bracelets" ]
                               `plural`     KuRDAS
                               `plural`     KaRADiS |< aT
-                              {- `others` [ "'uswAr Ndu", "'asAwir Nap Ndip" ] -} ]
+                              {- `others` [ "'uswAr Ndu", "'asAwir Ndip" ] -} ]
 
  |> "' s y" <| [
 
@@ -9328,8 +9307,7 @@ lexicon = listing "Lexicon's properties"
     -- Ah      |h      NAt     acclaim;exclamation
 
     FAL |< At                 `noun`       {- \|hAt -}          [ "acclaim", "exclamation" ]
-                              `plural`     FAL |< At
-                              {- `others` [ "'Ah NAt" ] -},
+                              `plural`     FAL |< At,
 
     -- ;; >aw~ah_2
     -- >wh     >aw~ah  FW-Wa   oh!     [[>aw~ah/INTERJ]]
@@ -9589,8 +9567,7 @@ lexicon = listing "Lexicon's properties"
     -- >wn     |win    Nap     times;moments
 
     FaCAL                     `noun`       {- OawAn -}          [ "time", "moment", "times", "moments" ]
-                              `plural`     FACiL |< aT
-                              {- `others` [ "'Awin Nap" ] -},
+                              `plural`     FACiL |< aT,
 
     -- ;; <iywAn_1
     -- <ywAn   <iywAn  N       palace;hall
@@ -10755,7 +10732,7 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`       {- Oazomap -}        [ "crisis", "crises" ]
                               `plural`     FaCaL |< At
                               `plural`     FiCaL
-                              {- `others` [ "'azam NAt", "'izam N" ] -},
+                              {- `others` [ "'izam N" ] -},
 
     -- ;; |zim_1
     -- \|zm     |zim    Nall    critical;decisive

@@ -173,14 +173,11 @@ sub showEntry ($) {
                                      $x =~ /Pass/ ? () : $x } keys %{$entry->{'types'}->{$form}};
 
                 push @{$imperf}, @{$entry->{'patterns'}->{$form}} if grep { /^IV(?:_V)?$/ } @types;
-
-                push @{$pfirst}, @{$entry->{'patterns'}->{$form}} if grep { /^PV_C/ } @types;
-
-                push @{$ithird}, @{$entry->{'patterns'}->{$form}} if grep { /^IV_C/ } @types;
-
+                push @{$pfirst}, @{$entry->{'patterns'}->{$form}} if grep { /^PV_C/       } @types;
+                push @{$ithird}, @{$entry->{'patterns'}->{$form}} if grep { /^IV_C/       } @types;
                 push @{$second}, @{$entry->{'patterns'}->{$form}} if grep { /^CV(?:_C)?$/ } @types;
 
-                @types = grep { not /^IV(?:_V)?$/ || /^PV_C/ || /^IV_C/ || /^CV(?:_C)?/ } @types;
+                @types = grep { not  /^IV(?:_V)?$/ || /^PV_C/ || /^IV_C/ || /^CV(?:_C)?/  } @types;
 
                 push @{$others}, join ' ', $form, @types if @types;
             }
@@ -194,13 +191,15 @@ sub showEntry ($) {
 
             my $suffix = '';
 
-            $suffix .= ' |< At' if grep { /At(?:_|$)/ } @types;
-            $suffix .= ' |< aT' if grep { /ap(?:_|$)/ } @types;
+            $suffix .= ' |< At' if grep { /At(?:_|$)/  } @types;
+            $suffix .= ' |< aT' if grep { /ap(?:_|$)/  } @types;
             $suffix .= ' |< Un' if grep { /iyn(?:_|$)/ } @types;
 
             push @{$plural}, map { $_ . $suffix } @{$entry->{'patterns'}->{$form}};
 
-            push @{$others}, join ' ', $form, @types;
+            @types = grep { not  /At(?:_|$)/ || /ap(?:_|$)/ || /iyn(?:_|$)/  } @types;
+
+            push @{$others}, join ' ', $form, @types if @types;
         }
     }
 

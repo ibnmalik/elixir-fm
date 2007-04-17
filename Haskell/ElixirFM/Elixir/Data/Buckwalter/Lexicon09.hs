@@ -64,8 +64,7 @@ lexicon = listing "Lexicon's properties"
     -- \*Ad     *Ad     Nap     protector;defender
 
     FACiL                     `noun`       {- \*A}id -}         [ "protector", "defender" ]
-                              `plural`     FAL |< aT
-                              {- `others` [ "_dAd Nap" ] -} ]
+                              `plural`     FAL |< aT ]
 
  |> "_d ' l" <| [
 
@@ -311,8 +310,7 @@ lexicon = listing "Lexicon's properties"
     -- \*b*b    *abo*ab NAt     oscillations;frequencies;vibrations
 
     KaRDaS |< aT              `noun`       {- \*abo*abap -}     [ "oscillation", "frequency", "vibration", "oscillations", "frequencies", "vibrations" ]
-                              `plural`     KaRDaS |< At
-                              {- `others` [ "_dab_dab NAt" ] -},
+                              `plural`     KaRDaS |< At,
 
     -- ;; ta*abo*ub_1
     -- t*b*b   ta*abo*ub       NduAt   oscillation;fluctuation
@@ -699,7 +697,7 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `noun`       {- \*akar -}         [ "male", "males" ]
                               `plural`     FuCLAn
                               `plural`     FuCUL |< aT
-                              {- `others` [ "_dukrAn N", "_dukuwr Nap N" ] -},
+                              {- `others` [ "_dukrAn N", "_dukuwr N" ] -},
 
     -- ;; *akariy~_1
     -- \*kry    *akariy~        Nall    male;masculine     [[*akariy~/ADJ]]
@@ -772,8 +770,7 @@ lexicon = listing "Lexicon's properties"
     -- m*kr    mu*ak~ir        NAt     memoirs;diary
 
     MuFaCCiL |< At            `noun`       {- mu*ak~irAt -}     [ "memoirs", "diary" ]
-                              `plural`     MuFaCCiL |< At
-                              {- `others` [ "mu_dakkir NAt" ] -} ]
+                              `plural`     MuFaCCiL |< At ]
 
  |> "_d k w" <| [
 
@@ -1443,8 +1440,7 @@ lexicon = listing "Lexicon's properties"
     -- \*ryr    *urayor NAt     subatomic particles
 
     FuCayL |< aT              `noun`       {- \*urayorap -}     [ "subatomic particle", "subatomic particles" ]
-                              `plural`     FuCayL |< At
-                              {- `others` [ "_durayr NAt" ] -},
+                              `plural`     FuCayL |< At,
 
     -- ;; *ur~iy~_1
     -- \*ry     *ur~iy~ N-ap    offspring;progeny     [[*ur~iy~/ADJ]]
@@ -1636,8 +1632,7 @@ lexicon = listing "Lexicon's properties"
     -- A*AE    <i*AE   NAt     broadcasts;transmissions
 
     HiFAL |< aT               `noun`       {- Ii*AEap -}        [ "broadcast", "transmission", "broadcasts", "transmissions" ]
-                              `plural`     HiFAL |< At
-                              {- `others` [ "'i_dA` NAt" ] -},
+                              `plural`     HiFAL |< At,
 
     -- ;; <i*AEiy~_1
     -- <*AEy   <i*AEiy~        Nall    radio;broadcast;transmission     [[<i*AEiy~/ADJ]]
@@ -1747,8 +1742,7 @@ lexicon = listing "Lexicon's properties"
     -- \*Ad     *Ad     Nap     protector;defender
 
     FA'iL                     `noun`       {- \*A}id -}         [ "protector", "defender" ]
-                              `plural`     FAL |< aT
-                              {- `others` [ "_dAd Nap" ] -},
+                              `plural`     FAL |< aT,
 
     -- ;; mi*owad_1
     -- m*wd    mi*owad Ndu     manger;crib

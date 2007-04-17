@@ -93,8 +93,7 @@ lexicon = listing "Lexicon's properties"
     -- xAm     xAm     NAt     raw materials
 
     FAL |< At                 `noun`       {- xAmAt -}          [ "raw materials" ]
-                              `plural`     FAL |< At
-                              {- `others` [ "_hAm NAt" ] -} ]
+                              `plural`     FAL |< At ]
 
  |> "_h ' n" <| [
 
@@ -444,8 +443,7 @@ lexicon = listing "Lexicon's properties"
     -- mxDr    muxaD~ar        NAt     vegetables
 
     MuFaCCaL |< At            `noun`       {- muxaD~arAt -}     [ "vegetables" ]
-                              `plural`     MuFaCCaL |< At
-                              {- `others` [ "mu_ha.d.dar NAt" ] -} ]
+                              `plural`     MuFaCCaL |< At ]
 
  |> "_h .d r m" <| [
 
@@ -708,8 +706,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`       {- xiSob -}          [ "fertility", "profusion", "fertile", "productive" ]
                               `plural`     FaCiL |< aT
-                              `plural`     FaCIL |< aT
-                              {- `others` [ "_ha.sib N/ap", "_ha.siyb N/ap" ] -},
+                              `plural`     FaCIL |< aT,
 
     -- ;; >axoSab_2
     -- >xSb    >axoSab Nel     more/most fertile;more/most productive
@@ -953,7 +950,7 @@ lexicon = listing "Lexicon's properties"
     FaCIL                     `noun`       {- xaSiy~ -}         [ "eunuch", "eunuchs" ]
                               `plural`     FiCL |< aT
                               `plural`     FiCLAn
-                              {- `others` [ "_hi.sy Nap", "_hi.syAn N" ] -},
+                              {- `others` [ "_hi.syAn N" ] -},
 
     -- ;; xuSoyap_1
     -- xSy     xuSoy   Napdu   testicle
@@ -1214,8 +1211,7 @@ lexicon = listing "Lexicon's properties"
     -- AxTb    >axoTib Nap     speeches
 
     FiCAL                     `noun`       {- xiTAb -}          [ "speech", "speeches" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'a_h.tib Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     -- ;; xiTAb_2
     -- xTAb    xiTAb   N/At    letter
@@ -1370,8 +1366,7 @@ lexicon = listing "Lexicon's properties"
     -- xTf     xaTaf   NAt     instants;impulses
 
     FaCL |< aT                `noun`       {- xaTofap -}        [ "instant", "impulse", "instants", "impulses" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "_ha.taf NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; xaT~Af_1
     -- xTAf    xaT~Af  Nall    rapacious;robber
@@ -1535,8 +1530,7 @@ lexicon = listing "Lexicon's properties"
     -- xTr     xaTar   NAt     thoughts;whims;ideas
 
     FaCL |< aT                `noun`       {- xaTorap -}        [ "thought", "whim", "idea", "thoughts", "whims", "ideas" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "_ha.tar NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; xaT~Ar_1
     -- xTAr    xaT~Ar  N       pendulum
@@ -1684,7 +1678,7 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`       {- xaTowap -}        [ "step", "stride", "steps", "strides" ]
                               `plural`     FuCY
                               `plural`     FaCaL |< At
-                              {- `others` [ "_hu.tY N0", "_ha.taw NAt" ] -},
+                              {- `others` [ "_hu.tY N0" ] -},
 
     -- ;; taxaT~iy_1
     -- txTy    taxaT~iy        N0_Nh   crossing;exceeding;getting past;going beyond
@@ -1832,8 +1826,7 @@ lexicon = listing "Lexicon's properties"
     -- x$E     xa$aE   Nap     submissive;humble
 
     FACiL                     `adj`        {- xA$iE -}          [ "submissive", "humble" ]
-                              `plural`     FaCaL |< aT
-                              {- `others` [ "_ha^sa` Nap" ] -} ]
+                              `plural`     FaCaL |< aT ]
 
  |> "_h ^s b" <| [
 
@@ -2403,8 +2396,7 @@ lexicon = listing "Lexicon's properties"
     -- Axby    >axobiy Nap     tents;husks;hulls
 
     FiCAL                     `noun`       {- xibA' -}          [ "tent", "husk", "hull", "tents", "husks", "hulls" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'a_hbi' Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     -- ;; xAbi}ap_1
     -- xAb}    xAbi}   Napdu   cask;jar
@@ -2821,8 +2813,7 @@ lexicon = listing "Lexicon's properties"
     -- mxAbr   muxAbar NAt     intelligence service;secret service
 
     MuFACaL |< At             `noun`       {- muxAbarAt -}      [ "intelligence service", "secret service" ]
-                              `plural`     MuFACaL |< At
-                              {- `others` [ "mu_hAbar NAt" ] -},
+                              `plural`     MuFACaL |< At,
 
     -- ;; <ixobAr_1
     -- <xbAr   <ixobAr NduAt   notification;communication
@@ -2943,8 +2934,7 @@ lexicon = listing "Lexicon's properties"
     -- mxbwz   maxobuwz        NAt     bakery goods
 
     MaFCUL |< At              `noun`       {- maxobuwzAt -}     [ "bakery goods" ]
-                              `plural`     MaFCUL |< At
-                              {- `others` [ "ma_hbuwz NAt" ] -} ]
+                              `plural`     MaFCUL |< At ]
 
  |> "_h d ^g" <| [
 
@@ -3176,8 +3166,7 @@ lexicon = listing "Lexicon's properties"
     -- xdm     xadam   NAt     services;assistance
 
     FiCL |< aT                `noun`       {- xidomap -}        [ "service", "assistance", "services" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "_hadam NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; xad~Am_1
     -- xdAm    xad~Am  N/ap    servant;attendant
@@ -3632,8 +3621,7 @@ lexicon = listing "Lexicon's properties"
     -- xfq     xafaq   NAt     beats;ticks;beating;ticking
 
     FaCL |< aT                `noun`       {- xafoqap -}        [ "beat", "tick", "beats", "ticks", "beating", "ticking" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "_hafaq NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; xafaqAn_1
     -- xfqAn   xafaqAn N       palpitation;flutter
@@ -3670,8 +3658,7 @@ lexicon = listing "Lexicon's properties"
     -- xAfq    xAfiq   NAt     banners;flags
 
     FACiL |< At               `noun`       {- xAfiqAt -}        [ "banners", "flags" ]
-                              `plural`     FACiL |< At
-                              {- `others` [ "_hAfiq NAt" ] -},
+                              `plural`     FACiL |< At,
 
     -- ;; xAfiqiy~_1
     -- xAfqy   xAfiqiy~        N-ap    stucco;roughcast     [[xAfiqiy~/ADJ]]
@@ -3965,7 +3952,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FACiL |< At
                               `plural`     FACI |< At
                               `plural`     FawACiL
-                              {- `others` [ "_hAfiy NAt", "_hawAfiy N0_Nh" ] -},
+                              {- `others` [ "_hawAfiy N0_Nh" ] -},
 
     -- ;; maxofiy~_1
     -- mxfy    maxofiy~        Nall    hidden     [[maxofiy~/ADJ]]
@@ -4244,8 +4231,7 @@ lexicon = listing "Lexicon's properties"
     -- xlT     xalaT   NAt     mixtures;blends
 
     FaCL |< aT                `noun`       {- xaloTap -}        [ "mixture", "blend", "mixtures", "blends" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "_hala.t NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; xiloT_1
     -- xlT     xiloT   N       ingredient
@@ -4628,7 +4614,7 @@ lexicon = listing "Lexicon's properties"
     KaRDUS                    `noun`       {- xalobuwS -}       [ "buffoon", "buffoons" ]
                               `plural`     KaRADiS |< aT
                               `plural`     KaRADIS
-                              {- `others` [ "_halAbi.s Nap", "_halAbiy.s Ndip" ] -} ]
+                              {- `others` [ "_halAbiy.s Ndip" ] -} ]
 
  |> "_h l d" <| [
 
@@ -5265,8 +5251,7 @@ lexicon = listing "Lexicon's properties"
     -- mxtlq   muxotalaq       NAt     falsehoods;fabrications
 
     MuFtaCaL |< At            `noun`       {- muxotalaqAt -}    [ "falsehoods", "fabrications" ]
-                              `plural`     MuFtaCaL |< At
-                              {- `others` [ "mu_htalaq NAt" ] -} ]
+                              `plural`     MuFtaCaL |< At ]
 
  |> "_h l q n" <| [
 
@@ -5423,8 +5408,7 @@ lexicon = listing "Lexicon's properties"
     -- xlw     xalaw   NAt     privacy;seclusion;booths
 
     FaCL |< aT                `noun`       {- xalowap -}        [ "privacy", "seclusion", "booth", "booths" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "_halaw NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; xalawiy~_1
     -- xlwy    xalawiy~        Nall    solitary;rustic;in the open country     [[xalawiy~/ADJ]]
@@ -5886,7 +5870,7 @@ lexicon = listing "Lexicon's properties"
     FiCAL                     `noun`       {- ximAr -}          [ "veil", "veils" ]
                               `plural`     FuCuL
                               `plural`     HaFCiL |< aT
-                              {- `others` [ "_humur N", "'a_hmir Nap" ] -},
+                              {- `others` [ "_humur N" ] -},
 
     -- ;; xumAr_1
     -- xmAr    xumAr   N       hangover
@@ -5990,8 +5974,7 @@ lexicon = listing "Lexicon's properties"
     -- xmAms   xamAmis Nap     sharecroppers
 
     FaCCAL                    `noun`       {- xam~As -}         [ "sharecropper", "sharecroppers" ]
-                              `plural`     FaCACiL |< aT
-                              {- `others` [ "_hamAmis Nap" ] -},
+                              `plural`     FaCACiL |< aT,
 
     -- ;; xumAsiy~_1
     -- xmAsy   xumAsiy~        Nall    fivefold;five-part;five-year     [[xumAsiy~/ADJ]]
@@ -6718,8 +6701,7 @@ lexicon = listing "Lexicon's properties"
     -- xrwj    xuruwj  NAt     trimming;piping
 
     FuCUL |< At               `noun`       {- xuruwjAt -}       [ "trimming", "piping" ]
-                              `plural`     FuCUL |< At
-                              {- `others` [ "_huruw^g NAt" ] -},
+                              `plural`     FuCUL |< At,
 
     -- ;; xir~iyj_1
     -- xryj    xir~iyj Nall    graduate
@@ -7142,7 +7124,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCiL |< aT
                               `plural`     FiCAL
                               `plural`     FiCLAn
-                              {- `others` [ "'a_hrif Nap", "_hirAf N", "_hirfAn N" ] -},
+                              {- `others` [ "_hirAf N", "_hirfAn N" ] -},
 
     -- ;; xurAfap_1
     -- xrAf    xurAf   NapAt   superstition;fairy tale
@@ -7328,7 +7310,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`       {- xaroq -}          [ "violation", "contravention", "violations", "contraventions" ]
                               `plural`     FuCUL |< At
-                              {- `others` [ "_huruwq NAt N" ] -},
+                              {- `others` [ "_huruwq N" ] -},
 
     -- ;; xaroq_2
     -- xrq     xaroq   N       tearing
@@ -8100,7 +8082,7 @@ lexicon = listing "Lexicon's properties"
     MaFAL |< aT               `noun`       {- maxADap -}        [ "ford", "fords" ]
                               `plural`     MaFAL |< At
                               `plural`     MaFACiL
-                              {- `others` [ "ma_hA.d NAt", "ma_hAwi.d Ndip" ] -} ]
+                              {- `others` [ "ma_hAwi.d Ndip" ] -} ]
 
  |> "_h w .s" <| [
 
@@ -8143,8 +8125,7 @@ lexicon = listing "Lexicon's properties"
     -- xwAj    xawAj   NAt     westerners;foreigners
 
     FaCAL |< aT               `noun`       {- xawAjap -}        [ "westerner", "foreigner", "westerners", "foreigners" ]
-                              `plural`     FaCAL |< At
-                              {- `others` [ "_hawA^g NAt" ] -},
+                              `plural`     FaCAL |< At,
 
     -- ;; xawojap_1
     -- xwj     xawoj   Nap     schoolmaster;teacher
@@ -8318,7 +8299,7 @@ lexicon = listing "Lexicon's properties"
     FAL                       `noun`       {- xAl -}            [ "maternal uncle", "maternal uncles" ]
                               `plural`     FuCUL |< aT
                               `plural`     HaFCAL
-                              {- `others` [ "_huwuwl Nap N", "'a_hwAl N" ] -},
+                              {- `others` [ "_huwuwl N", "'a_hwAl N" ] -},
 
     -- ;; xAl_2
     -- xAl     xAl     Ndu     mole
@@ -8331,8 +8312,7 @@ lexicon = listing "Lexicon's properties"
     -- xAl     xAl     NAt     maternal aunts
 
     FAL |< aT                 `noun`       {- xAlap -}          [ "maternal aunt", "maternal aunts" ]
-                              `plural`     FAL |< At
-                              {- `others` [ "_hAl NAt" ] -},
+                              `plural`     FAL |< At,
 
     -- ;; xawolap_1
     -- xwlp    xawolap Nprop   Khawla
@@ -8460,7 +8440,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCL |< aT
                               `plural`     FuCCAL
                               `plural`     FUCAL
-                              {- `others` [ "_hawn Nap", "_huwwAn N" ] -},
+                              {- `others` [ "_huwwAn N" ] -},
 
     -- ;; xuwAn_1
     -- xwAn    xuwAn   Ndu     table
@@ -8473,7 +8453,7 @@ lexicon = listing "Lexicon's properties"
     FuCAL                     `noun`       {- xuwAn -}          [ "table", "tables" ]
                               `plural`     HaFCiL |< aT
                               `plural`     FiCAL
-                              {- `others` [ "'a_hwin Nap", "_hiwAn Ndu" ] -} ]
+                              {- `others` [ "_hiwAn Ndu" ] -} ]
 
  |> "_h w r" <| [
 
@@ -8849,8 +8829,7 @@ lexicon = listing "Lexicon's properties"
     -- Axyl    >axoyil Nap     imagination;fantasies
 
     FaCAL                     `noun`       {- xayAl -}          [ "imagination", "fantasy", "fantasies" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'a_hyil Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     -- ;; xayAlap_1
     -- xyAl    xayAl   NapAt   spirit;phantom
@@ -9089,8 +9068,7 @@ lexicon = listing "Lexicon's properties"
     -- xyr     xayor   NAt     resources;treasures
 
     FaCL |< aT                `noun`       {- xayorap -}        [ "good deed", "resources", "treasures" ]
-                              `plural`     FaCL |< At
-                              {- `others` [ "_hayr NAt" ] -},
+                              `plural`     FaCL |< At,
 
     -- ;; xiyrap_1
     -- xyr     xiyr    Nap     choice;pick;elite

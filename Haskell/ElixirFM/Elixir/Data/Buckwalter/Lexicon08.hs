@@ -159,8 +159,7 @@ lexicon = listing "Lexicon's properties"
 
     FACiL |< aT               `noun`       {- dA}irap -}        [ "circle", "ring", "scope", "circuit", "circles", "rings", "scopes", "circuits" ]
                               `plural`     FA'iL |< At
-                              `plural`     FACiL |< At
-                              {- `others` [ "dA'ir NAt" ] -},
+                              `plural`     FACiL |< At,
 
     -- ;; dA}iriy~_1
     -- dA}ry   dA}iriy~        Nall    circular;ring-shaped     [[dA}iriy~/ADJ]]
@@ -461,8 +460,7 @@ lexicon = listing "Lexicon's properties"
     -- AndHAr  {inodiHAr       NAt     defeat;collapse
 
     InFiCAL |< At             `noun`       {- AinodiHArAt -}    [ "defeat", "collapse" ]
-                              `plural`     InFiCAL |< At
-                              {- `others` [ "indi.hAr NAt" ] -},
+                              `plural`     InFiCAL |< At,
 
     -- ;; madoHuwr_1
     -- mdHwr   madoHuwr        Nall    expelled;banished     [[madoHuwr/ADJ]]
@@ -732,8 +730,7 @@ lexicon = listing "Lexicon's properties"
     -- mdAjw   mudAjaw NAt     hypocrisy;flattery
 
     MuFACY |< aT              `noun`       {- mudAjAp -}        [ "hypocrisy", "flattery" ]
-                              `plural`     MuFACaL |< At
-                              {- `others` [ "mudA^gaw NAt" ] -},
+                              `plural`     MuFACaL |< At,
 
     -- ;; dAjiy_1
     -- dAjy    dAjiy   N0F     gloomy;dark     [[dAjiy/ADJ]]
@@ -1037,7 +1034,7 @@ lexicon = listing "Lexicon's properties"
     FuCAL                     `noun`       {- duxAn -}          [ "smoke", "smoking" ]
                               `plural`     HaFCiL |< aT
                               `plural`     FuCCAL
-                              {- `others` [ "'ad_hin Nap", "du_h_hAn N" ] -},
+                              {- `others` [ "du_h_hAn N" ] -},
 
     -- ;; duxonap_1
     -- dxn     duxon   Nap     smoke;incense
@@ -1412,8 +1409,7 @@ lexicon = listing "Lexicon's properties"
     -- dEAr    diEAr   Nap     indecency;immorality
 
     FaCAL |< aT               `noun`       {- daEArap -}        [ "indecency", "immorality" ]
-                              `plural`     FiCAL |< aT
-                              {- `others` [ "di`Ar Nap" ] -},
+                              `plural`     FiCAL |< aT,
 
     -- ;; dAEir_1
     -- dAEr    dAEir   N/ap    lewd;immoral     [[dAEir/ADJ]]
@@ -1444,8 +1440,7 @@ lexicon = listing "Lexicon's properties"
     -- dEs     daEas   NAt     footprints
 
     FaCL |< aT                `noun`       {- daEosap -}        [ "footprint", "footprints" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "da`as NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "d ` w" <| [
 
@@ -1521,8 +1516,7 @@ lexicon = listing "Lexicon's properties"
     -- dEw     daEaw   NAt     calls;invitations;supplications
 
     FaCL |< aT                `noun`       {- daEowap -}        [ "call", "invitation", "supplication", "calls", "invitations", "supplications" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "da`aw NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; daEowap_2
     -- dEw     daEow   Nap     (Islamic) missionary work;Da'wah;propaganda
@@ -1765,8 +1759,7 @@ lexicon = listing "Lexicon's properties"
     -- mdEy    mud~aEay        NAt     claims;pretensions
 
     MuFtaCaL |< At            `noun`       {- mud~aEayAt -}     [ "claims", "pretensions" ]
-                              `plural`     MuFtaCaL |< At
-                              {- `others` [ "mudda`ay NAt" ] -} ]
+                              `plural`     MuFtaCaL |< At ]
 
  |> "d b .g" <| [
 
@@ -1897,7 +1890,7 @@ lexicon = listing "Lexicon's properties"
     FuCL                      `noun`       {- dub~ -}           [ "bear", "she-bear", "bears" ]
                               `plural`     HaFCAL
                               `plural`     FiCaL |< aT
-                              {- `others` [ "'adbAb N", "dibab Nap" ] -},
+                              {- `others` [ "'adbAb N" ] -},
 
     -- ;; dub~_2
     -- db      dub~    N0      Ursa
@@ -1929,8 +1922,7 @@ lexicon = listing "Lexicon's properties"
     -- dbAb    dab~Ab  NAt     tanks
 
     FaCCAL |< aT              `noun`       {- dab~Abap -}       [ "tank", "tanks" ]
-                              `plural`     FaCCAL |< At
-                              {- `others` [ "dabbAb NAt" ] -},
+                              `plural`     FaCCAL |< At,
 
     -- ;; madab~_1
     -- mdb     madab~  Ndu     source
@@ -2386,16 +2378,14 @@ lexicon = listing "Lexicon's properties"
     -- dfE     dafaE   NAt     pushes;impulses
 
     FaCL |< aT                `noun`       {- dafoEap -}        [ "push", "impulse", "pushes", "impulses" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "dafa` NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; dafoEap_2
     -- dfE     dafoE   Napdu   payment
     -- dfE     dafaE   NAt     payments
 
     FaCL |< aT                `noun`       {- dafoEap -}        [ "payment", "payments" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "dafa` NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; dufoEap_1
     -- dfE     dufoE   NapAt   time;instance
@@ -2738,8 +2728,7 @@ lexicon = listing "Lexicon's properties"
     -- dfAy    daf~Ay  NAt     stoves;heaters
 
     FaCCAL |< aT              `noun`       {- daf~Ayap -}       [ "stove", "heater", "stoves", "heaters" ]
-                              `plural`     FaCCAL |< At
-                              {- `others` [ "daffAy NAt" ] -} ]
+                              `plural`     FaCCAL |< At ]
 
  |> "d h '" <| [
 
@@ -3002,7 +2991,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCUL |< At
                               `plural`     HaFCAL
                               `plural`     FiCAL
-                              {- `others` [ "duhuwn N/At", "'adhAn N", "dihAn N" ] -},
+                              {- `others` [ "'adhAn N", "dihAn N" ] -},
 
     -- ;; duhoniy~_1
     -- dhny    duhoniy~        N-ap    oily;greasy;fatty     [[duhoniy~/ADJ]]
@@ -3037,8 +3026,7 @@ lexicon = listing "Lexicon's properties"
     -- Adhn    >adohin Nap     cosmetic cream;varnish
 
     FiCAL                     `noun`       {- dihAn -}          [ "cosmetic cream", "varnish" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'adhin Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     -- ;; dihAn_2
     -- dhAn    dihAn   N       hypocrisy;whitewashing
@@ -3355,8 +3343,7 @@ lexicon = listing "Lexicon's properties"
     -- dkAtr   dakAtir Nap     doctors
 
     KuRDUS                    `noun`       {- dukotuwr -}       [ "doctor", "doctors" ]
-                              `plural`     KaRADiS |< aT
-                              {- `others` [ "dakAtir Nap" ] -} ]
+                              `plural`     KaRADiS |< aT ]
 
  |> "d l '" <| [
 
@@ -3976,8 +3963,7 @@ lexicon = listing "Lexicon's properties"
     -- Admg    >adomig Nap     brains
 
     FiCAL                     `noun`       {- dimAg -}          [ "brain", "brains" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'admi.g Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     -- ;; dAmig_1
     -- dAmg    dAmig   N-ap    irrefutable;cogent     [[dAmig/ADJ]]
@@ -3994,8 +3980,7 @@ lexicon = listing "Lexicon's properties"
     -- dmg     damag   NAt     stamps;impressions;labels
 
     FaCL |< aT                `noun`       {- damogap -}        [ "stamp", "impression", "label", "stamps", "impressions", "labels" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "dama.g NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; madomuwg_1
     -- mdmwg   madomuwg        N-ap    stamped;labeled     [[madomuwg/ADJ]]
@@ -4147,8 +4132,7 @@ lexicon = listing "Lexicon's properties"
     -- dmE     damoE   NAt     teardrops
 
     FaCL |< aT                `noun`       {- damoEap -}        [ "teardrop", "teardrops" ]
-                              `plural`     FaCL |< At
-                              {- `others` [ "dam` NAt" ] -},
+                              `plural`     FaCL |< At,
 
     -- ;; damoEiy~_1
     -- dmEy    damoEiy~        N-ap    lacrimal;tear     [[damoEiy~/ADJ]]
@@ -4600,7 +4584,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCY                   `noun`       {- mudam~aY -}       [ "bloody" ]
                               `plural`     MuFaCCaL |< At
-                              {- `others` [ "mudammay NAt NAn_Nayn" ] -},
+                              {- `others` [ "mudammay NAn_Nayn" ] -},
 
     -- ;; dumoyap_1
     -- dmy     dumoy   Nap     statuette;effigy;puppet
@@ -5044,7 +5028,7 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCI                   `noun`       {- tadan~iy -}       [ "decline", "sinking", "low", "near", "close" ]
                               `plural`     FACI |< At
-                              {- `others` [ "dAniy NapAt NAn_Nayn N0F" ] -},
+                              {- `others` [ "dAniy NAn_Nayn N0F" ] -},
 
     -- ;; mutadan~iy_1
     -- mtdny   mutadan~iy      N0F_Nh  approaching;debased ??
@@ -5437,8 +5421,7 @@ lexicon = listing "Lexicon's properties"
     -- dry}    dariy}  NAt     targets
 
     FaCIL |< aT               `noun`       {- dariy}ap -}       [ "target", "targets" ]
-                              `plural`     FaCIL |< At
-                              {- `others` [ "dariy' NAt" ] -},
+                              `plural`     FaCIL |< At,
 
     -- ;; dur~A'_1
     -- drA'    dur~A'  N0_Nh   peaches
@@ -5544,8 +5527,7 @@ lexicon = listing "Lexicon's properties"
     -- drj     daraj   NAt     degrees;classes;ranks;grades;levels
 
     FaCaL |< aT               `noun`       {- darajap -}        [ "degree", "class", "rank", "grade", "level", "degrees", "classes", "ranks", "grades", "levels" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "dara^g NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; dur~Aj_1
     -- drAj    dur~Aj  N       francolin (bird)
@@ -6016,8 +5998,7 @@ lexicon = listing "Lexicon's properties"
     -- mdrk    mudorak NAt     realizations;established concepts
 
     MuFCaL |< At              `noun`       {- mudorakAt -}      [ "realizations", "established concepts" ]
-                              `plural`     MuFCaL |< At
-                              {- `others` [ "mudrak NAt" ] -},
+                              `plural`     MuFCaL |< At,
 
     -- ;; mutadArik_1
     -- mtdArk  mutadArik       N       mutadarik (poetic meter)
@@ -6264,8 +6245,7 @@ lexicon = listing "Lexicon's properties"
     -- drAs    dirAs   NAt     studies;research
 
     FiCAL |< aT               `noun`       {- dirAsap -}        [ "study", "studies", "research" ]
-                              `plural`     FiCAL |< At
-                              {- `others` [ "dirAs NAt" ] -},
+                              `plural`     FiCAL |< At,
 
     -- ;; dirAsiy~_1
     -- drAsy   dirAsiy~        Nall    educational;scholastic;instructional     [[dirAsiy~/ADJ]]
@@ -6436,8 +6416,7 @@ lexicon = listing "Lexicon's properties"
     -- mdAry   mudAray NAt     flattery;affability
 
     MuFACY |< aT              `noun`       {- mudArAp -}        [ "flattery", "affability" ]
-                              `plural`     MuFACaL |< At
-                              {- `others` [ "mudAray NAt" ] -},
+                              `plural`     MuFACaL |< At,
 
     -- ;; dAriy_1
     -- dAry    dAriy   N0F     aware;knowing;cognizant     [[dAriy/ADJ]]
@@ -7025,8 +7004,7 @@ lexicon = listing "Lexicon's properties"
     -- dwyl    duwayol NAt     petty states
 
     FuCayL |< aT              `noun`       {- duwayolap -}      [ "petty state", "petty states" ]
-                              `plural`     FuCayL |< At
-                              {- `others` [ "duwayl NAt" ] -},
+                              `plural`     FuCayL |< At,
 
     -- ;; tadowiyl_1
     -- tdwyl   tadowiyl        NduAt   internationalization
@@ -7378,15 +7356,14 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FUL
                               `plural`     FuCL
                               `plural`     FIL |< aT
-                              {- `others` [ "duwr N", "diyr Nap" ] -},
+                              {- `others` [ "duwr N" ] -},
 
     -- ;; dArap_1
     -- dAr     dAr     Napdu   aureola
     -- dAr     dAr     NAt     aureolas
 
     FAL |< aT                 `noun`       {- dArap -}          [ "aureola", "aureolas" ]
-                              `plural`     FAL |< At
-                              {- `others` [ "dAr NAt" ] -},
+                              `plural`     FAL |< At,
 
     -- ;; dAriy~_1
     -- dAry    dAriy~  Nall    domestic;native     [[dAriy~/ADJ]]
@@ -7422,8 +7399,7 @@ lexicon = listing "Lexicon's properties"
     -- dwr     dawor   NAt     patrols;sessions;tours
 
     FaCL |< aT                `noun`       {- daworap -}        [ "patrol", "session", "tour", "patrols", "sessions", "tours" ]
-                              `plural`     FaCL |< At
-                              {- `others` [ "dawr NAt" ] -},
+                              `plural`     FaCL |< At,
 
     -- ;; daworiy~_1
     -- dwry    daworiy~        Nall    periodic;intermittent;circulatory     [[daworiy~/ADJ]]
@@ -7564,8 +7540,7 @@ lexicon = listing "Lexicon's properties"
     -- dA}r    dA}ir   NAt     circles;rings;scopes;circuits
 
     FA'iL |< aT               `noun`       {- dA}irap -}        [ "circle", "ring", "scope", "circuit", "circles", "rings", "scopes", "circuits" ]
-                              `plural`     FA'iL |< At
-                              {- `others` [ "dA'ir NAt" ] -},
+                              `plural`     FA'iL |< At,
 
     -- ;; dA}iriy~_1
     -- dA}ry   dA}iriy~        Nall    circular;ring-shaped     [[dA}iriy~/ADJ]]
@@ -7795,8 +7770,7 @@ lexicon = listing "Lexicon's properties"
     -- dwy     daway   NAt     sockets
 
     FaCY |< aT                `noun`       {- dawAp -}          [ "socket", "sockets" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "daway NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; dawAyap_1
     -- dwAy    dawAy   Napdu   socket;well
@@ -7812,8 +7786,7 @@ lexicon = listing "Lexicon's properties"
     -- Adwy    >adowiy Nap     remedies;medications
 
     FaCA'                     `noun`       {- dawA' -}          [ "remedy", "medication", "remedies", "medications" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'adwiy Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     -- ;; dawA}iy~_1
     -- dwA}y   dawA}iy~        N-ap    medicinal;curative     [[dawA}iy~/ADJ]]
@@ -7832,8 +7805,7 @@ lexicon = listing "Lexicon's properties"
     -- mdAwy   mudAway NAt     therapy;treatment
 
     MuFACY |< aT              `noun`       {- mudAwAp -}        [ "therapy", "treatment" ]
-                              `plural`     MuFACaL |< At
-                              {- `others` [ "mudAway NAt" ] -},
+                              `plural`     MuFACaL |< At,
 
     -- ;; tadAwiy_1
     -- tdAwy   tadAwiy N0_Nh   cure
@@ -8011,7 +7983,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                               `plural`     FiCaL |< aT
                               `plural`     FuCUL
-                              {- `others` [ "'adyAk N", "diyak Nap", "duyuwk N" ] -} ]
+                              {- `others` [ "'adyAk N", "duyuwk N" ] -} ]
 
  |> "d y k r" <| [
 
@@ -8294,7 +8266,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`       {- dayor -}          [ "monastery", "convent", "monasteries", "convents" ]
                               `plural`     HaFCiL |< aT
                               `plural`     HaFCAL
-                              {- `others` [ "'adyir Nap", "'adyAr N" ] -},
+                              {- `others` [ "'adyAr N" ] -},
 
     -- ;; dayoriy~_1
     -- dyry    dayoriy~        Nall    monastic     [[dayoriy~/ADJ]]

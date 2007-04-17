@@ -563,8 +563,7 @@ lexicon = listing "Lexicon's properties"
     -- hjm     hajam   NAt     attacks;assaults;strikes
 
     FaCL |< aT                `noun`       {- hajomap -}        [ "attack", "assault", "strike", "attacks", "assaults", "strikes" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "ha^gam NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; hajomiy~_1
     -- hjmy    hajomiy~        Nall    aggressive;brutal;attacking     [[hajomiy~/ADJ]]
@@ -817,16 +816,14 @@ lexicon = listing "Lexicon's properties"
     -- hjs     hajas   NAt     thoughts;notions
 
     FaCL |< aT                `noun`       {- hajosap -}        [ "thought", "notion", "thoughts", "notions" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "ha^gas NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; hajosap_2
     -- hjs     hajos   Napdu   apprehension;misgivings
     -- hjs     hajas   NAt     apprehensions;misgivings
 
     FaCL |< aT                `noun`       {- hajosap -}        [ "apprehension", "misgivings", "apprehensions" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "ha^gas NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; haj~As_1
     -- hjAs    haj~As  Nall    braggart;showoff
@@ -1590,8 +1587,7 @@ lexicon = listing "Lexicon's properties"
     -- hbw     habaw   NAt     swirls of dust
 
     FaCL |< aT                `noun`       {- habowap -}        [ "swirl of dust", "swirls of dust" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "habaw NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; habA'_1
     -- hbA'    habA'   N0_Nh   dust particles
@@ -2406,8 +2402,7 @@ lexicon = listing "Lexicon's properties"
     -- hdy     hidoy   Nap     line of conduct;policy
 
     FaCL |< aT                `noun`       {- hadoyap -}        [ "line of conduct", "policy" ]
-                              `plural`     FiCL |< aT
-                              {- `others` [ "hidy Nap" ] -},
+                              `plural`     FiCL |< aT,
 
     -- ;; hadiy~ap_1
     -- hdy     hadiy~  Napdu   gift;present     [[hadiy~/NOUN]]
@@ -2505,7 +2500,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFCY                     `noun`       {- muhodaY -}        [ "donated", "given as a gift" ]
                               `plural`     MuFCaL |< At
-                              {- `others` [ "muhday NAt NAn_Nayn" ] -},
+                              {- `others` [ "muhday NAn_Nayn" ] -},
 
     -- ;; muhotadiy_1
     -- mhtdy   muhotadiy       N0_Nh   guided;led
@@ -2648,8 +2643,7 @@ lexicon = listing "Lexicon's properties"
     -- hfw     hafaw   NAt     lapses;errors;offenses
 
     FaCL |< aT                `noun`       {- hafowap -}        [ "lapse", "error", "offense", "lapses", "errors", "offenses" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "hafaw NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; hAfiy_1
     -- hAfy    hAfiy   N0F     famished;starved     [[hAfiy/ADJ]]
@@ -2906,8 +2900,7 @@ lexicon = listing "Lexicon's properties"
     -- hlk     halak   Nap     disaster;total loss
 
     FaCL |< aT                `noun`       {- halokap -}        [ "disaster", "total loss" ]
-                              `plural`     FaCaL |< aT
-                              {- `others` [ "halak Nap" ] -},
+                              `plural`     FaCaL |< aT,
 
     -- ;; halAk_1
     -- hlAk    halAk   N       disaster;total loss
@@ -2923,7 +2916,7 @@ lexicon = listing "Lexicon's properties"
     MaFCaL |< aT              `noun`       {- maholakap -}      [ "dangerous situation", "peril", "dangers", "perils" ]
                               `plural`     MaFACiL
                               `plural`     MaFCiL |< aT
-                              {- `others` [ "mahAlik Ndip", "mahlik Nap" ] -},
+                              {- `others` [ "mahAlik Ndip" ] -},
 
     -- ;; tahAluk_1
     -- thAlk   tahAluk N/At    enthusiasm;zeal
@@ -3616,8 +3609,7 @@ lexicon = listing "Lexicon's properties"
     -- mhm     muhim~  NAt     equipment;material;supplies
 
     MuFiCL |< aT              `noun`       {- muhim~ap -}       [ "important matter", "equipment", "material", "supplies" ]
-                              `plural`     MuFiCL |< At
-                              {- `others` [ "muhimm NAt" ] -},
+                              `plural`     MuFiCL |< At,
 
     -- ;; muhotam~_1
     -- mhtm    muhotam~        Nall    interested;concerned     [[muhotam~/ADJ]]
@@ -3684,8 +3676,7 @@ lexicon = listing "Lexicon's properties"
     -- hms     hamas   NAt     whispers;whispering
 
     FaCL |< aT                `noun`       {- hamosap -}        [ "whisper", "whispers", "whispering" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "hamas NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; hawAmis_1
     -- hwAms   hawAmis Ndip    whispered words
@@ -3741,15 +3732,13 @@ lexicon = listing "Lexicon's properties"
     -- hmz     hamaz   NAt     hamza (Arabic letter)
 
     FaCL |< aT                `noun`       {- hamozap -}        [ "hamza (Arabic letter)" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "hamaz NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; hamazAt_1
     -- hmz     hamaz   NAt     temptations
 
     FaCaL |< At               `noun`       {- hamazAt -}        [ "temptations" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "hamaz NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; ham~Az_1
     -- hmAz    ham~Az  Nall    slandered;backbiter
@@ -4072,8 +4061,7 @@ lexicon = listing "Lexicon's properties"
     -- hnhwn   hanohuwn        NAt     lullabies
 
     KaRDUS |< aT              `noun`       {- hanohuwnap -}     [ "lullaby", "lullabies" ]
-                              `plural`     KaRDUS |< At
-                              {- `others` [ "hanhuwn NAt" ] -} ]
+                              `plural`     KaRDUS |< At ]
 
  |> "h n m" <| [
 
@@ -4238,8 +4226,7 @@ lexicon = listing "Lexicon's properties"
     -- hrATq   harATiq Nap     heretics
 
     KaRDUS |< Iy              `noun`       {- haroTuwqiy~ -}    [ "heretic", "heretics" ]
-                              `plural`     KaRADiS |< aT
-                              {- `others` [ "harA.tiq Nap" ] -},
+                              `plural`     KaRADiS |< aT,
 
     -- ;; harATiqiy~_1
     -- hrATqy  harATiqiy~      Nall    heretic     [[harATiqiy~/ADJ]]
@@ -4510,8 +4497,7 @@ lexicon = listing "Lexicon's properties"
     -- AhrAm   >ahorAm N/At    pyramids
 
     FaCaL                     `noun`       {- haram -}          [ "pyramid", "pyramids" ]
-                              `plural`     HaFCAL |< At
-                              {- `others` [ "'ahrAm N/At" ] -},
+                              `plural`     HaFCAL |< At,
 
     -- ;; >ahorAm_1
     -- >hrAm   >ahorAm N0      Ahram
@@ -4599,8 +4585,7 @@ lexicon = listing "Lexicon's properties"
     -- hrr     hirar   Nap     cats;tomcats
 
     FiCL                      `noun`       {- hir~ -}           [ "cat", "tomcat", "cats", "tomcats" ]
-                              `plural`     FiCaL |< aT
-                              {- `others` [ "hirar Nap" ] -},
+                              `plural`     FiCaL |< aT,
 
     -- ;; hir~ap_1
     -- hr      hir~    Napdu   cat;she-cat
@@ -4687,8 +4672,7 @@ lexicon = listing "Lexicon's properties"
     -- hrAw    hirAw   NAt     sticks;batons;truncheons
 
     FiCAL |< aT               `noun`       {- hirAwap -}        [ "stick", "baton", "truncheon", "sticks", "batons", "truncheons" ]
-                              `plural`     FiCAL |< At
-                              {- `others` [ "hirAw NAt" ] -},
+                              `plural`     FiCAL |< At,
 
     -- ;; harAp_1
     -- hrA     harA    Nap     Herat (Afgh.)
@@ -5472,8 +5456,7 @@ lexicon = listing "Lexicon's properties"
     -- thwym   tahowiym        NAt     tall tales
 
     TaFCIL |< At              `noun`       {- tahowiymAt -}     [ "tall tales" ]
-                              `plural`     TaFCIL |< At
-                              {- `others` [ "tahwiym NAt" ] -} ]
+                              `plural`     TaFCIL |< At ]
 
  |> "h w n" <| [
 
@@ -5756,8 +5739,7 @@ lexicon = listing "Lexicon's properties"
     -- Ahws    >ahowis Nap     canal locks
 
     FaCIL                     `noun`       {- hawiys -}         [ "canal lock", "canal locks" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'ahwis Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     -- ;; >ahowas_1
     -- >hws    >ahowas Nel     foolish;crazy;dazzled
@@ -5991,8 +5973,7 @@ lexicon = listing "Lexicon's properties"
     -- AhwA}   >ahowA} Nhy     air;atmosphere;climate
 
     FaCA'                     `noun`       {- hawA' -}          [ "air", "atmosphere", "climate" ]
-                              `plural`     HaFCiL |< aT
-                              {- `others` [ "'ahwiy Nap" ] -},
+                              `plural`     HaFCiL |< aT,
 
     -- ;; hawA}iy~_1
     -- hwA}y   hawA}iy~        NduAt   antenna     [[hawA}iy~/NOUN]]
@@ -6134,8 +6115,7 @@ lexicon = listing "Lexicon's properties"
     -- hy      hayo    N-|t    organizations;agencies
 
     FaCL |< aT                `noun`       {- hayo}ap -}        [ "organization", "agency", "organizations", "agencies" ]
-                              `plural`     FaCL |< At
-                              {- `others` [ "hay' NAt" ] -},
+                              `plural`     FaCL |< At,
 
     -- ;; tahoyi}ap_1
     -- thy}    tahoyi} Nap     preparation;mobilization
@@ -6234,7 +6214,7 @@ lexicon = listing "Lexicon's properties"
 
     KaRDaS                    `noun`       {- hayoTal -}        [ "fox", "foxes" ]
                               `plural`     KaRADiS |< aT
-                              {- `others` [ "hayA.til Nap Ndip" ] -} ]
+                              {- `others` [ "hayA.til Ndip" ] -} ]
 
  |> "h y ^g" <| [
 
@@ -6796,8 +6776,7 @@ lexicon = listing "Lexicon's properties"
     -- AhwnA}  >ahowinA}       Nhy     light;easy;insignificant
 
     FaCCiL                    `noun`       {- hay~in -}         [ "light", "easy", "insignificant" ]
-                              `plural`     FaCL |< aT
-                              {- `others` [ "hayn N-ap" ] -},
+                              `plural`     FaCL |< aT,
 
     -- ;; >ahoyan_1
     -- >hyn    >ahoyan Nel     smaller/smallest;lesser/least;contemptible

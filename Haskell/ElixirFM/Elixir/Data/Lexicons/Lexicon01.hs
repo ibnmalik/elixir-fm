@@ -27,8 +27,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCA                      `noun`       {- OagA -}           [ "Agha", "Aghas" ]
                               `plural`     HACAL |< At
-                              `plural`     FaCaL |< At
-                              {- `others` [ "'A.gAw NAt", "'a.gaw NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "' .h .h" <| [
 
@@ -572,7 +571,7 @@ lexicon = listing "Lexicon's properties"
     KiRDIS                    `noun`       {- Iiboriyq -}       [ "pitcher", "jug", "pitchers", "jugs" ]
                               `plural`     KaRADIS
                               `plural`     KaRADiS |< aT
-                              {- `others` [ "'abAriyq Ndip", "'abAriq Nap" ] -} ]
+                              {- `others` [ "'abAriyq Ndip" ] -} ]
 
  |> "' b w" <| [
 
@@ -672,8 +671,7 @@ lexicon = listing "Lexicon's properties"
  |> "' d w" <| [
 
     FaCY |< aT                `noun`       {- OadAp -}          [ "tool", "instrument", "apparatus", "tools", "instruments" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "'adaw NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "' d y" <| [
 
@@ -1020,8 +1018,7 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ "'ilay FW-Wa-y" ] -},
 
     FaCL |< aT                `noun`       {- Oaloyap -}        [ "buttock", "backside", "buttocks", "backsides" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "'alay NAt" ] -} ]
+                              `plural`     FaCaL |< At ]
 
  |> "' l y s" <| [
 
@@ -1196,8 +1193,7 @@ lexicon = listing "Lexicon's properties"
     FiCL |< aT                `noun`       {- Iimorap -}        [ "authority", "command" ],
 
     FiCAL |< aT               `noun`       {- IimArap -}        [ "Emirate", "Emirates" ]
-                              `plural`     FiCAL |< At
-                              {- `others` [ "'imAr NAt" ] -},
+                              `plural`     FiCAL |< At,
 
     FaCAL |< aT               `noun`       {- OamArap -}        [ "sign", "indication" ],
 
@@ -1250,8 +1246,7 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ "'AnA' Nh N0_Nh Nhy", "'anA Nhy" ] -},
 
     FiCAL                     `noun`       {- IinA' -}          [ "vessel", "container", "receptacle", "vessels", "containers", "receptacles" ]
-                              `plural`     FACI |< aT
-                              {- `others` [ "'Aniy Nap" ] -},
+                              `plural`     FACI |< aT,
 
     MutaFaCCI                 `noun`       {- mutaOan~iy -}     [ "circumspect", "prudent" ],
 
@@ -1663,7 +1658,7 @@ lexicon = listing "Lexicon's properties"
 
     KuRDuS                    `noun`       {- Ousoquf -}        [ "bishop", "bishops" ]
                               `plural`     KaRADiS |< aT
-                              {- `others` [ "'asAqif Nap Ndip" ] -},
+                              {- `others` [ "'asAqif Ndip" ] -},
 
     KuRDuS |< Iy              `adj`        {- Ousoqufiy~ -}     [ "episcopal" ],
 
@@ -1718,8 +1713,7 @@ lexicon = listing "Lexicon's properties"
     MuFaCCiL                  `adj`        {- muWas~is -}       [ "founding", "constituent" ],
 
     MuFaCCaL |< aT            `noun`       {- muWas~asap -}     [ "institution", "organization", "institutions", "organizations" ]
-                              `plural`     MuFaCCaL |< At
-                              {- `others` [ "mu'assas NAt" ] -},
+                              `plural`     MuFaCCaL |< At,
 
     MuFaCCaL |< Iy            `adj`        {- muWas~asiy~ -}    [ "institutional", "organizational" ],
 
@@ -1734,7 +1728,7 @@ lexicon = listing "Lexicon's properties"
     KuRDAS                    `noun`       {- OusotA* -}        [ "professor", "professors" ]
                               `plural`     KaRADiS |< aT
                               `plural`     KaRADIS
-                              {- `others` [ "'asAti_d Nap", "'asAtiy_d Ndip" ] -} ]
+                              {- `others` [ "'asAtiy_d Ndip" ] -} ]
 
  |> "' s t d" <| [
 
@@ -1765,8 +1759,7 @@ lexicon = listing "Lexicon's properties"
     FACI                      `noun`       {- \|siy -}          [ "afflicted", "desolate" ],
 
     FuCL |< aT                `noun`       {- Ousowap -}        [ "model", "example", "pattern" ]
-                              `plural`     FiCL |< aT
-                              {- `others` [ "'isw Nap" ] -},
+                              `plural`     FiCL |< aT,
 
     FuCL |< aT |< aN          `noun`       {- OusowapF -}       [ "just like" ],
 
@@ -1783,7 +1776,7 @@ lexicon = listing "Lexicon's properties"
     KiRDAS                    `noun`       {- IisowAr -}        [ "bracelet", "bracelets" ]
                               `plural`     KuRDAS
                               `plural`     KaRADiS |< aT
-                              {- `others` [ "'uswAr Ndu", "'asAwir Nap Ndip" ] -} ]
+                              {- `others` [ "'uswAr Ndu", "'asAwir Ndip" ] -} ]
 
  |> "' s y" <| [
 
@@ -1965,8 +1958,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`       {- Oawon -}          [ "calm", "serenity" ],
 
     FaCAL                     `noun`       {- OawAn -}          [ "time", "moment", "times", "moments" ]
-                              `plural`     FACiL |< aT
-                              {- `others` [ "'Awin Nap" ] -} ]
+                              `plural`     FACiL |< aT ]
 
  |> "' w q" <| [
 
@@ -2221,7 +2213,7 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`       {- Oazomap -}        [ "crisis", "crises" ]
                               `plural`     FaCaL |< At
                               `plural`     FiCaL
-                              {- `others` [ "'azam NAt", "'izam N" ] -},
+                              {- `others` [ "'izam N" ] -},
 
     FACiL                     `noun`       {- \|zim -}          [ "critical", "decisive" ],
 

@@ -323,7 +323,7 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`       {- taxomap -}        [ "indigestion" ]
                               `plural`     FuCL |< aT
                               `plural`     FuCaL |< aT
-                              {- `others` [ "tu_hm Nap", "tu_ham Nap N" ] -},
+                              {- `others` [ "tu_ham N" ] -},
 
     -- ;; matoxuwm_1
     -- mtxwm   matoxuwm        Nall    dyspeptic;having indigestion
@@ -1435,7 +1435,7 @@ lexicon = listing "Lexicon's properties"
     KiRDIS                    `noun`       {- tilomiy* -}       [ "student", "pupil", "students", "pupils" ]
                               `plural`     KaRADIS
                               `plural`     KaRADiS |< aT
-                              {- `others` [ "talAmiy_d Ndip", "talAmi_d Nap" ] -} ]
+                              {- `others` [ "talAmiy_d Ndip" ] -} ]
 
  |> "t l m d" <| [
 
@@ -1718,8 +1718,7 @@ lexicon = listing "Lexicon's properties"
     -- tnAbl   tanAbil Nap     lazy;idlers
 
     KaRDaS                    `noun`       {- tanobal -}        [ "lazy", "idler", "idlers" ]
-                              `plural`     KaRADiS |< aT
-                              {- `others` [ "tanAbil Nap" ] -} ]
+                              `plural`     KaRADiS |< aT ]
 
  |> "t n b r" <| [
 
@@ -2133,7 +2132,7 @@ lexicon = listing "Lexicon's properties"
     FuCAL                     `noun`       {- turAb -}          [ "dirt", "soil" ]
                               `plural`     FiCLAn
                               `plural`     HaFCiL |< aT
-                              {- `others` [ "tirbAn N", "'atrib Nap" ] -},
+                              {- `others` [ "tirbAn N" ] -},
 
     -- ;; turAbiy~_1
     -- trAby   turAbiy~        N0      Turabi
@@ -2301,8 +2300,7 @@ lexicon = listing "Lexicon's properties"
     -- trk     tirok   NapAt   legacy
 
     FaCiL |< aT               `noun`       {- tarikap -}        [ "legacy" ]
-                              `plural`     FiCL |< At
-                              {- `others` [ "tirk NapAt" ] -},
+                              `plural`     FiCL |< At,
 
     -- ;; tariykap_1
     -- tryk    tariyk  NapAt   spinster
@@ -2426,8 +2424,7 @@ lexicon = listing "Lexicon's properties"
     -- trsAn   tarosAn NduAt   arsenal;shipyard
 
     FiCLAn |< aT              `noun`       {- tirosAnap -}      [ "arsenal", "shipyard" ]
-                              `plural`     FaCLAn |< At
-                              {- `others` [ "tarsAn NduAt" ] -},
+                              `plural`     FaCLAn |< At,
 
     -- ;; tirosAnap_2
     -- trsAn   tirosAn Nap     Tersana;Tirsana
@@ -2441,8 +2438,7 @@ lexicon = listing "Lexicon's properties"
     -- trsAn   tarosAn NduAt   arsenal;shipyard
 
     KiRDAS |< aT              `noun`       {- tirosAnap -}      [ "arsenal", "shipyard" ]
-                              `plural`     KaRDAS |< At
-                              {- `others` [ "tarsAn NduAt" ] -},
+                              `plural`     KaRDAS |< At,
 
     -- ;; tirosAnap_2
     -- trsAn   tirosAn Nap     Tersana;Tirsana
@@ -2953,16 +2949,14 @@ lexicon = listing "Lexicon's properties"
     -- tyh     tayah   NAt     mazes;labyrinths
 
     FaCL |< aT                `noun`       {- tayohap -}        [ "maze", "labyrinth", "mazes", "labyrinths" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "tayah NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; tayohap_2
     -- tyh     tayoh   Napdu   desolate
     -- tyh     tayah   NAt     desolate
 
     FaCL |< aT                `noun`       {- tayohap -}        [ "desolate" ]
-                              `plural`     FaCaL |< At
-                              {- `others` [ "tayah NAt" ] -},
+                              `plural`     FaCaL |< At,
 
     -- ;; tA}ih_1
     -- tA}h    tA}ih   Nall    straying;lost
