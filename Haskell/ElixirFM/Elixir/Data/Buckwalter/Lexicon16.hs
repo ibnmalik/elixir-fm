@@ -258,7 +258,8 @@ lexicon = listing "Lexicon's properties"
     -- TgY     TogaY   IV_0_Pass_yu    be overstepped
 
     FaCA                      `verb`       {- TagA-u -}         [ "overstep", "be excessive", "be overstepped" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; TagaY-a_1
     -- TgY     TagaY   PV_0    dominate;control;be tyrannical
@@ -269,8 +270,7 @@ lexicon = listing "Lexicon's properties"
     -- Tgy     Togay   IV_Ann  dominate;control;be tyrannical
     -- Tg      Toga    IV_0hwnyn       dominate;control;be tyrannical
 
-    FaCY                      `verb`       {- TagaY-a -}        [ "dominate", "control", "be tyrannical" ]
-                              `imperf`     FCaL,
+    FaCY                      `verb`       {- TagaY-a -}        [ "dominate", "control", "be tyrannical" ],
 
     -- ;; TagaY_2
     -- TgY     TagaY   N0      excess;tyranny
@@ -376,7 +376,7 @@ lexicon = listing "Lexicon's properties"
     -- THn     ToHan   IV-n    grind;pulverize
 
     FaCaL                     `verb`       {- TaHan-a -}        [ "grind", "pulverize" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; taTAHan_1
     -- tTAHn   taTAHan PV-n    quarrel;be in conflict
@@ -672,7 +672,7 @@ lexicon = listing "Lexicon's properties"
     -- TEn     ToEan   IV-n    stab;challenge
 
     FaCaL                     `verb`       {- TaEan-a -}        [ "stab", "challenge" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; taTAEan_1
     -- tTAEn   taTAEan PV-n    attack each other
@@ -787,8 +787,8 @@ lexicon = listing "Lexicon's properties"
     -- Tbx     Tobax   IV      cook
 
     FaCaL                     `verb`       {- Tabax-ua -}       [ "cook" ]
-                              `imperf`     FCuL
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `imperf`     FCuL,
 
     -- ;; {inoTabax_1
     -- <nTbx   {inoTabax       PV      get cooked
@@ -1026,7 +1026,11 @@ lexicon = listing "Lexicon's properties"
     -- Tbb     Tobib   IV_C    treat medically
 
     FaCL                      `verb`       {- Tab~-u -}         [ "treat medically" ]
-                              `imperf`     FCuL,
+                              `imperf`     FiCL
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL
+                              `ithird`     FCuL,
 
     -- ;; Tab~ab_1
     -- Tbb     Tab~ab  PV      treat medically
@@ -1162,7 +1166,7 @@ lexicon = listing "Lexicon's properties"
     -- Tbn     Toban   IV-n_intr       be bright;be intelligent
 
     FaCiL                     `verb`       {- Tabin-a -}        [ "be bright", "be intelligent" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; Tab~An_1
     -- TbAn    Tab~An  N/At    wheel tire
@@ -1741,7 +1745,8 @@ lexicon = listing "Lexicon's properties"
     -- Tf      Tof     IV_0hwnyn       float;emerge
 
     FaCA                      `verb`       {- TafA-u -}         [ "float", "emerge" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; Tufuw~_1
     -- Tfw     Tufuw~  N       floating;emerging
@@ -1817,8 +1822,7 @@ lexicon = listing "Lexicon's properties"
     -- Thq     Tahaq   PV      despise
     -- Thq     Tohaq   PV      despise
 
-    FaCaL                     `verb`       {- Tahaq-a -}        [ "despise" ]
-                              `imperf`     FCaL,
+    FaCaL                     `verb`       {- Tahaq-a -}        [ "despise" ],
 
     -- ;; taTah~aq_1
     -- tThq    taTah~aq        PV      despise
@@ -1954,7 +1958,8 @@ lexicon = listing "Lexicon's properties"
     -- Thy     Tohay   IV_Ann_Pass_yu  be cooked;be stewed
 
     FaCA                      `verb`       {- TahA-u -}         [ "cook", "stew", "be cooked", "be stewed" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; TahaY-a_1
     -- ThY     TahaY   PV_0    cook;stew
@@ -1966,8 +1971,7 @@ lexicon = listing "Lexicon's properties"
     -- Thy     Tohay   IV_Ann  cook;stew
     -- Th      Toha    IV_0hwnyn       cook;stew
 
-    FaCY                      `verb`       {- TahaY-a -}        [ "cook", "stew" ]
-                              `imperf`     FCaL,
+    FaCY                      `verb`       {- TahaY-a -}        [ "cook", "stew" ],
 
     -- ;; TuhaY_1
     -- ThY     TuhaY   N0      cooked
@@ -2371,7 +2375,9 @@ lexicon = listing "Lexicon's properties"
     -- Tll     Tolul   IV_C    sprinkle
 
     FaCL                      `verb`       {- Tal~-u -}         [ "sprinkle" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; >aTal~_1
     -- >Tl     >aTal~  PV_V    overlook;face;look out
@@ -2682,7 +2688,8 @@ lexicon = listing "Lexicon's properties"
     -- TlY     TolaY   IV_0    paint
 
     FaCY                      `verb`       {- TalaY-i -}        [ "paint" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; {inoTalaY_1
     -- <nTlY   {inoTalaY       PV_0    be deceived
@@ -2917,7 +2924,9 @@ lexicon = listing "Lexicon's properties"
     -- Tmm     Tomum   IV_C    inundate;engulf
 
     FaCL                      `verb`       {- Tam~-u -}         [ "inundate", "engulf" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; {inoTam~_1
     -- <nTm    {inoTam~        PV_V_intr       be inundated;be engulfed
@@ -3100,7 +3109,8 @@ lexicon = listing "Lexicon's properties"
     -- Tmy     Tomay   IV_Ann_Pass_yu  be flown over
 
     FaCA                      `verb`       {- TamA-u -}         [ "flow over", "be flown over" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; TamaY-i_1
     -- TmY     TamaY   PV_0    flow over
@@ -3111,7 +3121,7 @@ lexicon = listing "Lexicon's properties"
     -- TmY     TomaY   IV_0_Pass_yu    be flown over
 
     FaCY                      `verb`       {- TamaY-i -}        [ "flow over", "be flown over" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCI,
 
     -- ;; Tumuw~_1
     -- Tmw     Tumuw~  N       flowing over
@@ -3318,7 +3328,9 @@ lexicon = listing "Lexicon's properties"
     -- Tnn     Tonin   IV-n    sound;ring out
 
     FaCL                      `verb`       {- Tan~-i -}         [ "sound", "ring out" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; Tan~an_1
     -- Tnn     Tan~an  PV-n    resound
@@ -3437,7 +3449,9 @@ lexicon = listing "Lexicon's properties"
     -- Tqq     Toquq   IV_C    crack;burst
 
     FaCL                      `verb`       {- Taq~-u -}         [ "crack", "burst" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; Taq~_1
     -- Tq      Taq~    N       cracking;bursting
@@ -4440,7 +4454,9 @@ lexicon = listing "Lexicon's properties"
     -- Trr     Torur   IV_C    trim;sharpen
 
     FaCL                      `verb`       {- Tar~-u -}         [ "trim", "sharpen" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; Tar~-i_1
     -- Tr      Tar~    PV_V    grow
@@ -4449,7 +4465,9 @@ lexicon = listing "Lexicon's properties"
     -- Trr     Torir   IV_C    grow
 
     FaCL                      `verb`       {- Tar~-i -}         [ "grow" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; Tar~_1
     -- Tr      Tar~    N       trimming;sharpening
@@ -4527,7 +4545,8 @@ lexicon = listing "Lexicon's properties"
     -- Tr      Tor     IV_0hwnyn       be fresh;be tender
 
     FaCuL                     `verb`       {- Taruw-u -}        [ "be fresh", "be tender" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; Tar~aY_1
     -- TrY     Tar~aY  PV_0    tenderize;freshen
@@ -4607,8 +4626,7 @@ lexicon = listing "Lexicon's properties"
     -- Try     Toray   IV_Ann  be fresh;be tender
     -- Tr      Tora    IV_0hwnyn       be fresh;be tender
 
-    FaCiL                     `verb`       {- Tariy-a -}        [ "be fresh", "be tender" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- Tariy-a -}        [ "be fresh", "be tender" ],
 
     -- ;; Tariy~_1
     -- Try     Tariy~  N-ap    fresh;tender     [[Tariy~/ADJ]]
@@ -4714,7 +4732,10 @@ lexicon = listing "Lexicon's properties"
     -- TH      TuH     IV_C    go astray
 
     FAL                       `verb`       {- TAH-u -}          [ "go astray" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Taw~aH_1
     -- TwH     Taw~aH  PV      mislead
@@ -4792,7 +4813,10 @@ lexicon = listing "Lexicon's properties"
     -- TE      TuE     IV_C    obey
 
     FAL                       `verb`       {- TAE-u -}          [ "obey" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Taw~aE_1
     -- TwE     Taw~aE  PV      enlist;recruit
@@ -5052,7 +5076,10 @@ lexicon = listing "Lexicon's properties"
     -- Tf      Tuf     IV_C    circulate;wander about
 
     FAL                       `verb`       {- TAf-u -}          [ "circulate", "wander about" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Taw~af_1
     -- Twf     Taw~af  PV      circulate;wander about
@@ -5171,7 +5198,10 @@ lexicon = listing "Lexicon's properties"
     -- Tl      Tul     IV_C_intr       be long
 
     FAL                       `verb`       {- TAl-u -}          [ "be long" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Taw~al_1
     -- Twl     Taw~al  PV      lengthen
@@ -5347,7 +5377,10 @@ lexicon = listing "Lexicon's properties"
     -- Tq      Tuq     IV_C_intr       be able;be capable
 
     FAL                       `verb`       {- TAq-u -}          [ "be able", "be capable" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Taw~aq_1
     -- Twq     Taw~aq  PV      encircle;surround
@@ -5532,7 +5565,8 @@ lexicon = listing "Lexicon's properties"
     -- TwY     TowaY   IV_0_Pass_yu    be folded;be wrapped
 
     FaCY                      `verb`       {- TawaY-i -}        [ "fold", "wrap", "be folded", "be wrapped" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; taTaw~aY_1
     -- tTwY    taTaw~aY        PV_0    coil
@@ -5662,7 +5696,10 @@ lexicon = listing "Lexicon's properties"
     -- TH      TiH     IV_C_intr       be lost
 
     FAL                       `verb`       {- TAH-i -}          [ "be lost" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; Tay~aH_1
     -- TyH     Tay~aH  PV      cause to be lost
@@ -5689,7 +5726,10 @@ lexicon = listing "Lexicon's properties"
     -- T$      Ti$     IV_C_intr       be frivolous;miss the mark
 
     FAL                       `verb`       {- TA$-i -}          [ "be frivolous", "miss the mark" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; TA}i$_1
     -- TA}$    TA}i$   Nall    reckless;out of control
@@ -5738,7 +5778,10 @@ lexicon = listing "Lexicon's properties"
     -- Tb      Tib     IV_C_intr       be good;be pleasant
 
     FAL                       `verb`       {- TAb-i -}          [ "be good", "be pleasant" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; Tay~ab_1
     -- Tyb     Tay~ab  PV      make pleasant
@@ -5894,7 +5937,10 @@ lexicon = listing "Lexicon's properties"
     -- Tf      Tif     IV_C    appear
 
     FAL                       `verb`       {- TAf-i -}          [ "appear" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; Tayof_1
     -- Tyf     Tayof   N       spectrum (light)
@@ -5975,7 +6021,10 @@ lexicon = listing "Lexicon's properties"
     -- Tr      Tir     IV_C    fly
 
     FAL                       `verb`       {- TAr-i -}          [ "fly" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; Tay~ar_1
     -- Tyr     Tay~ar  PV      make fly

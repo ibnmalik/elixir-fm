@@ -4318,43 +4318,43 @@ lstn    lasotun~a       FW-Wa   not + you [fem.pl.] (you are not)    <pos>laso/N
 lst     lasotu  FW-Wa   not + I (I am not)                   <pos>laso/NEG_PART+tu/PVSUFF_SUBJ:1S</pos>
 lsnA    lasonA  FW-Wa   not + we (we are not)                <pos>laso/NEG_PART+nA/PVSUFF_SUBJ:1P</pos>
 ;
->lys    >alayosa        FW-Wa   is + not + he/it             <pos>>a/INTERROG_PART+layos/NEG_PART+a/PVSUFF_SUBJ:3MS</pos>
->lysA   >alayosA        FW-Wa   are + not + they [masc.du.]   <pos>>a/INTERROG_PART+layos/NEG_PART+A/PVSUFF_SUBJ:3MD</pos>
->lyswA  >alayosuwA      FW-Wa   are + not + they              <pos>>a/INTERROG_PART+layos/NEG_PART+uwA/PVSUFF_SUBJ:3MP</pos>
+; >lys    >alayosa        FW-Wa   is + not + he/it              <pos>>a/INTERROG_PART+layos/NEG_PART+a/PVSUFF_SUBJ:3MS</pos>
+; >lysA   >alayosA        FW-Wa   are + not + they [masc.du.]   <pos>>a/INTERROG_PART+layos/NEG_PART+A/PVSUFF_SUBJ:3MD</pos>
+; >lyswA  >alayosuwA      FW-Wa   are + not + they              <pos>>a/INTERROG_PART+layos/NEG_PART+uwA/PVSUFF_SUBJ:3MP</pos>
+; ;
+; >lyst   >alayosat       FW-Wa   is/are + not + it/she/they    <pos>>a/INTERROG_PART+layos/NEG_PART+at/PVSUFF_SUBJ:3FS</pos>
+; >lystA  >alayosatA      FW-Wa   are + not + they [fem.du.]    <pos>>a/INTERROG_PART+layos/NEG_PART+atA/PVSUFF_SUBJ:3FD</pos>
+; >lsn    >alasona        FW-Wa   are + not + they [fem.]       <pos>>a/INTERROG_PART+laso/NEG_PART+na/PVSUFF_SUBJ:3FP</pos>
+; ;
+; >lst    >alasota        FW-Wa   are + not + you [masc.sg.]    <pos>>a/INTERROG_PART+laso/NEG_PART+ta/PVSUFF_SUBJ:2MS</pos>
+; >lstmA  >alasotumA      FW-Wa   are + not + you [masc.du.]    <pos>>a/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2MD</pos>
+; >lstm   >alasotum       FW-Wa   are + not + you [masc.pl.]    <pos>>a/INTERROG_PART+laso/NEG_PART+tum/PVSUFF_SUBJ:2MP</pos>
+; ;
+; >lst    >alasoti        FW-Wa   are + not + you [fem.sg.]     <pos>>a/INTERROG_PART+laso/NEG_PART+ti/PVSUFF_SUBJ:2FS</pos>
+; >lstmA  >alasotumA      FW-Wa   are + not + you [fem.du.]     <pos>>a/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2FD</pos>
+; >lstn   >alasotun~a     FW-Wa   are + not + you [fem.pl.]     <pos>>a/INTERROG_PART+laso/NEG_PART+tun~a/PVSUFF_SUBJ:2FP</pos>
+; ;
+; >lst    >alasotu        FW-Wa   am + not + I                  <pos>>a/INTERROG_PART+laso/NEG_PART+tu/PVSUFF_SUBJ:1S</pos>
+; >lsnA   >alasonA        FW-Wa   are + not + we                <pos>>a/INTERROG_PART+laso/NEG_PART+nA/PVSUFF_SUBJ:1P</pos>
+; ;
+; Alys    >alayosa        FW-Wa   is + not + he/it              <pos>>a/INTERROG_PART+layos/NEG_PART+a/PVSUFF_SUBJ:3MS</pos>
+; AlysA   >alayosA        FW-Wa   are + not + they [masc.du.]   <pos>>a/INTERROG_PART+layos/NEG_PART+A/PVSUFF_SUBJ:3MD</pos>
+; AlyswA  >alayosuwA      FW-Wa   are + not + they              <pos>>a/INTERROG_PART+layos/NEG_PART+uwA/PVSUFF_SUBJ:3MP</pos>
+; ;
+; Alyst   >alayosat       FW-Wa   is/are + not + it/she/they  	<pos>>a/INTERROG_PART+layos/NEG_PART+at/PVSUFF_SUBJ:3FS</pos>
+; AlystA  >alayosatA      FW-Wa   are + not + they [fem.du.]    <pos>>a/INTERROG_PART+layos/NEG_PART+atA/PVSUFF_SUBJ:3FD</pos>
+; Alsn    >alasona        FW-Wa   are + not + they [fem.]       <pos>>a/INTERROG_PART+laso/NEG_PART+na/PVSUFF_SUBJ:3FP</pos>
+; ;
+; Alst    >alasota        FW-Wa   are + not + you [masc.sg.]    <pos>>a/INTERROG_PART+laso/NEG_PART+ta/PVSUFF_SUBJ:2MS</pos>
+; AlstmA  >alasotumA      FW-Wa   are + not + you [masc.du.]    <pos>>a/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2MD</pos>
+; Alstm   >alasotum       FW-Wa   are + not + you [masc.pl.]    <pos>>a/INTERROG_PART+laso/NEG_PART+tum/PVSUFF_SUBJ:2MP</pos>
+; ;
+; Alst    >alasoti        FW-Wa   are + not + you [fem.sg.]     <pos>>a/INTERROG_PART+laso/NEG_PART+ti/PVSUFF_SUBJ:2FS</pos>
+; AlstmA  >alasotumA      FW-Wa   are + not + you [fem.du.]     <pos>>a/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2FD</pos>
+; Alstn   >alasotun~a     FW-Wa   are + not + you [fem.pl.]     <pos>>a/INTERROG_PART+laso/NEG_PART+tun~a/PVSUFF_SUBJ:2FP</pos>
 ;
->lyst   >alayosat       FW-Wa   is/are + not + it/she/they       <pos>>a/INTERROG_PART+layos/NEG_PART+at/PVSUFF_SUBJ:3FS</pos>
->lystA  >alayosatA      FW-Wa   are + not + they [fem.du.]    <pos>>a/INTERROG_PART+layos/NEG_PART+atA/PVSUFF_SUBJ:3FD</pos>
->lsn    >alasona        FW-Wa   are + not + they [fem.]       <pos>>a/INTERROG_PART+laso/NEG_PART+na/PVSUFF_SUBJ:3FP</pos>
-;
->lst    >alasota        FW-Wa   are + not + you [masc.sg.]    <pos>>a/INTERROG_PART+laso/NEG_PART+ta/PVSUFF_SUBJ:2MS</pos>
->lstmA  >alasotumA      FW-Wa   are + not + you [masc.du.]    <pos>>a/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2MD</pos>
->lstm   >alasotum       FW-Wa   are + not + you [masc.pl.]    <pos>>a/INTERROG_PART+laso/NEG_PART+tum/PVSUFF_SUBJ:2MP</pos>
-;
->lst    >alasoti        FW-Wa   are + not + you [fem.sg.]     <pos>>a/INTERROG_PART+laso/NEG_PART+ti/PVSUFF_SUBJ:2FS</pos>
->lstmA  >alasotumA      FW-Wa   are + not + you [fem.du.]     <pos>>a/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2FD</pos>
->lstn   >alasotun~a     FW-Wa   are + not + you [fem.pl.]     <pos>>a/INTERROG_PART+laso/NEG_PART+tun~a/PVSUFF_SUBJ:2FP</pos>
-;
->lst    >alasotu        FW-Wa   am + not + I                 <pos>>a/INTERROG_PART+laso/NEG_PART+tu/PVSUFF_SUBJ:1S</pos>
->lsnA   >alasonA        FW-Wa   are + not + we                <pos>>a/INTERROG_PART+laso/NEG_PART+nA/PVSUFF_SUBJ:1P</pos>
-;
-Alys    >alayosa        FW-Wa   is + not + he/it             <pos>>a/INTERROG_PART+layos/NEG_PART+a/PVSUFF_SUBJ:3MS</pos>
-AlysA   >alayosA        FW-Wa   are + not + they [masc.du.]   <pos>>a/INTERROG_PART+layos/NEG_PART+A/PVSUFF_SUBJ:3MD</pos>
-AlyswA  >alayosuwA      FW-Wa   are + not + they              <pos>>a/INTERROG_PART+layos/NEG_PART+uwA/PVSUFF_SUBJ:3MP</pos>
-;
-Alyst   >alayosat       FW-Wa   is/are + not + it/she/they       <pos>>a/INTERROG_PART+layos/NEG_PART+at/PVSUFF_SUBJ:3FS</pos>
-AlystA  >alayosatA      FW-Wa   are + not + they [fem.du.]    <pos>>a/INTERROG_PART+layos/NEG_PART+atA/PVSUFF_SUBJ:3FD</pos>
-Alsn    >alasona        FW-Wa   are + not + they [fem.]       <pos>>a/INTERROG_PART+laso/NEG_PART+na/PVSUFF_SUBJ:3FP</pos>
-;
-Alst    >alasota        FW-Wa   are + not + you [masc.sg.]    <pos>>a/INTERROG_PART+laso/NEG_PART+ta/PVSUFF_SUBJ:2MS</pos>
-AlstmA  >alasotumA      FW-Wa   are + not + you [masc.du.]    <pos>>a/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2MD</pos>
-Alstm   >alasotum       FW-Wa   are + not + you [masc.pl.]    <pos>>a/INTERROG_PART+laso/NEG_PART+tum/PVSUFF_SUBJ:2MP</pos>
-;
-Alst    >alasoti        FW-Wa   are + not + you [fem.sg.]     <pos>>a/INTERROG_PART+laso/NEG_PART+ti/PVSUFF_SUBJ:2FS</pos>
-AlstmA  >alasotumA      FW-Wa   are + not + you [fem.du.]     <pos>>a/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2FD</pos>
-Alstn   >alasotun~a     FW-Wa   are + not + you [fem.pl.]     <pos>>a/INTERROG_PART+laso/NEG_PART+tun~a/PVSUFF_SUBJ:2FP</pos>
-;
-Alst    >alasotu        FW-Wa   am + not + I                 <pos>>a/INTERROG_PART+laso/NEG_PART+tu/PVSUFF_SUBJ:1S</pos>
-AlsnA   >alasonA        FW-Wa   are + not + we                <pos>>a/INTERROG_PART+laso/NEG_PART+nA/PVSUFF_SUBJ:1P</pos>
+; Alst    >alasotu        FW-Wa   am + not + I                  <pos>>a/INTERROG_PART+laso/NEG_PART+tu/PVSUFF_SUBJ:1S</pos>
+; AlsnA   >alasonA        FW-Wa   are + not + we                <pos>>a/INTERROG_PART+laso/NEG_PART+nA/PVSUFF_SUBJ:1P</pos>
 ;
 ;--- lys(2)
 ;; layis-a_1

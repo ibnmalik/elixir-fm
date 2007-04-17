@@ -2243,6 +2243,9 @@ $Lexicon = {
         '.duwr' => [
           'FUL',
           'FuCL'
+        ],
+        '.dur' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -2283,6 +2286,9 @@ $Lexicon = {
         '.duwr' => [
           'FUL',
           'FuCL'
+        ],
+        '.dur' => [
+          'FuL'
         ]
       },
       'index' => '2',
@@ -2321,6 +2327,9 @@ $Lexicon = {
       'patterns' => {
         '.diyr' => [
           'FIL'
+        ],
+        '.dir' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -4171,6 +4180,9 @@ $Lexicon = {
         '.duw`' => [
           'FUL',
           'FuCL'
+        ],
+        '.du`' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -6748,8 +6760,14 @@ $Lexicon = {
           'HuFIL',
           'HuFiCL'
         ],
+        '.daf' => [
+          'FaL'
+        ],
         '.dAf' => [
           'FAL'
+        ],
+        '.dif' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -12076,6 +12094,9 @@ $Lexicon = {
         '.diyq' => [
           'FIL',
           'FiCL'
+        ],
+        '.diq' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -13370,6 +13391,9 @@ $Lexicon = {
         'DE      DiE     IV_C    disappear;vanish'
       ],
       'patterns' => {
+        '.di`' => [
+          'FiL'
+        ],
         '.diy`' => [
           'FIL',
           'FiCL'
@@ -13453,6 +13477,12 @@ $Lexicon = {
         'DE      DaE     IV_C_Pass_yu    be lost;be missed'
       ],
       'patterns' => {
+        '.da`' => [
+          'FaL'
+        ],
+        '.di`' => [
+          'FiL'
+        ],
         '.diy`' => [
           'FIL',
           'FiCL'
@@ -14566,6 +14596,9 @@ $Lexicon = {
         'Dm      Dim     IV_C    treat unjustly;injure'
       ],
       'patterns' => {
+        '.dim' => [
+          'FiL'
+        ],
         '.diym' => [
           'FIL',
           'FiCL'
@@ -14931,6 +14964,9 @@ $Lexicon = {
         'D&      Du&     IV_C    shine;illuminate'
       ],
       'patterns' => {
+        '.du\'' => [
+          'FuL'
+        ],
         '.duw\'' => [
           'FUL',
           'FuCL'
@@ -15016,6 +15052,9 @@ $Lexicon = {
       'patterns' => {
         '.diy\'' => [
           'FIL'
+        ],
+        '.di\'' => [
+          'FiL'
         ]
       },
       'index' => '1',

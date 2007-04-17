@@ -6517,33 +6517,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '`an' => [
-    {
-      'types' => {
-        '`an' => {
-          'FW-Wa' => 1,
-          'FW-Wa-n' => 1
-        }
-      },
-      'entry' => '`an',
-      'form' => '`an',
-      'lines' => [
-        ';; Ean_1',
-        'En      Ean     FW-Wa   from/about     [[Ean/PREP]]',
-        'En      Ean     FW-Wa-n from/about     [[Ean/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'from/about'
-      ],
-      'orig' => 'Ean',
-      'prefix' => ''
-    }
-  ],
   '` .d d' => [
     {
       'types' => {
@@ -7703,6 +7676,9 @@ $Lexicon = {
         'ED      EuD     IV_C    compensate;replace'
       ],
       'patterns' => {
+        '`u.d' => [
+          'FuL'
+        ],
         '`uw.d' => [
           'FUL',
           'FuCL'
@@ -7815,8 +7791,14 @@ $Lexicon = {
         'ED      EaD     IV_C_Pass_yu    be replaced;be compensated'
       ],
       'patterns' => {
+        '`i.d' => [
+          'FiL'
+        ],
         '`A.d' => [
           'FAL'
+        ],
+        '`a.d' => [
+          'FaL'
         ],
         '`iy.d' => [
           'FIL'
@@ -8614,44 +8596,6 @@ $Lexicon = {
         'chewing'
       ],
       'orig' => 'EAlik',
-      'prefix' => ''
-    }
-  ],
-  '`a.t' => [
-    {
-      'types' => {
-        '`a.taw' => {
-          'NAt' => 1,
-          'NAn_Nayn' => 1
-        },
-        '`a.tA' => {
-          'N0_Nhy' => 1
-        },
-        '`a.taN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => '`a.t',
-      'form' => '`a.taN',
-      'lines' => [
-        ';; EaTAF_1',
-        'ETA     EaTAF   FW-WaBi present;gift     [[EaTAF/NOUN]]',
-        'ETA     EaTA    N0_Nhy  present;gift',
-        'ETw     EaTaw   NAn_Nayn        presents;gifts',
-        'ETw     EaTaw   NAt     presents;gifts'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'present',
-        'gift',
-        'presents',
-        'gifts'
-      ],
-      'orig' => 'EaTAF',
       'prefix' => ''
     }
   ],
@@ -14706,6 +14650,50 @@ $Lexicon = {
       ],
       'orig' => 'EuSaS',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '`a.sA' => {
+          'N0_Nhy' => 1
+        },
+        '`a.saN' => {
+          'FW-WaBi' => 1
+        },
+        '`a.saw' => {
+          'NAt' => 1,
+          'NAn_Nayn' => 1
+        }
+      },
+      'entry' => '`a.s',
+      'form' => '`a.saN',
+      'lines' => [
+        ';; EaSAF_1',
+        'ESA     EaSAF   FW-WaBi stick;baton;rod;staff     [[EaSAF/NOUN]]',
+        'ESA     EaSA    N0_Nhy  stick;baton;rod;staff',
+        'ESw     EaSaw   NAn_Nayn        sticks;batons;rods;staffs',
+        'ESw     EaSaw   NAt     sticks;batons;rods;staffs'
+      ],
+      'patterns' => {
+        '`a.sA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'stick',
+        'baton',
+        'rod',
+        'staff',
+        'sticks',
+        'batons',
+        'rods',
+        'staffs'
+      ],
+      'orig' => 'EaSAF',
+      'prefix' => ''
     }
   ],
   '` r s' => [
@@ -15911,6 +15899,9 @@ $Lexicon = {
         'Ez      Euz     IV_C    want;need'
       ],
       'patterns' => {
+        '`uz' => [
+          'FuL'
+        ],
         '`uwz' => [
           'FUL',
           'FuCL'
@@ -18846,6 +18837,9 @@ $Lexicon = {
         'El      Eil     IV_C_intr       be impoverished'
       ],
       'patterns' => {
+        '`il' => [
+          'FiL'
+        ],
         '`iyl' => [
           'FIL',
           'FiCL'
@@ -21302,6 +21296,9 @@ $Lexicon = {
         'Ef      Euf     IV_C    hover;glide'
       ],
       'patterns' => {
+        '`uf' => [
+          'FuL'
+        ],
         '`uwf' => [
           'FUL',
           'FuCL'
@@ -21845,6 +21842,12 @@ $Lexicon = {
       'patterns' => {
         '`An' => [
           'FAL'
+        ],
+        '`an' => [
+          'FaL'
+        ],
+        '`in' => [
+          'FiL'
         ],
         '`iyn' => [
           'FIL'
@@ -25031,6 +25034,9 @@ $Lexicon = {
         'Eq      Euq     IV_C    hinder;impede'
       ],
       'patterns' => {
+        '`uq' => [
+          'FuL'
+        ],
         '`uwq' => [
           'FUL',
           'FuCL'
@@ -25119,6 +25125,12 @@ $Lexicon = {
         ],
         '`Aq' => [
           'FAL'
+        ],
+        '`aq' => [
+          'FaL'
+        ],
+        '`iq' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -28790,6 +28802,9 @@ $Lexicon = {
         'Ev      Eiv     IV_C    cause havoc;ravage'
       ],
       'patterns' => {
+        '`i_t' => [
+          'FiL'
+        ],
         '`iy_t' => [
           'FIL',
           'FiCL'
@@ -29476,6 +29491,9 @@ $Lexicon = {
         'E*      Eu*     IV_C    take refuge;seek protection'
       ],
       'patterns' => {
+        '`u_d' => [
+          'FuL'
+        ],
         '`uw_d' => [
           'FUL',
           'FuCL'
@@ -29557,8 +29575,14 @@ $Lexicon = {
         'E*      Ea*     IV_C_Pass_yu    be protected'
       ],
       'patterns' => {
+        '`i_d' => [
+          'FiL'
+        ],
         '`A_d' => [
           'FAL'
+        ],
+        '`a_d' => [
+          'FaL'
         ],
         '`iy_d' => [
           'FIL'
@@ -32624,6 +32648,9 @@ $Lexicon = {
         '`iyf' => [
           'FIL',
           'FiCL'
+        ],
+        '`if' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -33359,6 +33386,31 @@ $Lexicon = {
     }
   ],
   '` n n' => [
+    {
+      'types' => {
+        '`an' => {
+          'FW-Wa' => 1,
+          'FW-Wa-n' => 1
+        }
+      },
+      'entry' => '`an',
+      'form' => '`an',
+      'lines' => [
+        ';; Ean_1',
+        'En      Ean     FW-Wa   from/about     [[Ean/PREP]]',
+        'En      Ean     FW-Wa-n from/about     [[Ean/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        'from/about'
+      ],
+      'orig' => 'Ean',
+      'prefix' => ''
+    },
     {
       'types' => {
         '`anan' => {
@@ -39776,6 +39828,9 @@ $Lexicon = {
         'Ey      Eoya    IV_0hwnyn       be incapable'
       ],
       'patterns' => {
+        '`ay' => [
+          'FaL'
+        ],
         '`yay' => [
           'FCaL'
         ],
@@ -44806,6 +44861,9 @@ $Lexicon = {
         'Em      Eum     IV_C    float;swim'
       ],
       'patterns' => {
+        '`um' => [
+          'FuL'
+        ],
         '`uwm' => [
           'FUL',
           'FuCL'
@@ -45748,6 +45806,9 @@ $Lexicon = {
         'Eb      Eib     IV_C_intr       be a disgrace;be defective'
       ],
       'patterns' => {
+        '`ib' => [
+          'FiL'
+        ],
         '`iyb' => [
           'FIL',
           'FiCL'
@@ -45788,6 +45849,9 @@ $Lexicon = {
         'Eb      Eib     IV_C    denounce;reproach'
       ],
       'patterns' => {
+        '`ib' => [
+          'FiL'
+        ],
         '`iyb' => [
           'FIL',
           'FiCL'
@@ -48246,7 +48310,14 @@ $Lexicon = {
         'EAr     EAr     IV_V    lose an eye;become one-eyed',
         'Er      Ear     IV_C    lose an eye;become one-eyed'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '`ir' => [
+          'FiL'
+        ],
+        '`ar' => [
+          'FaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
@@ -48333,6 +48404,12 @@ $Lexicon = {
         ],
         '`iyr' => [
           'FIL'
+        ],
+        '`ir' => [
+          'FiL'
+        ],
+        '`ar' => [
+          'FaL'
         ],
         '`Ar' => [
           'FAL'
@@ -51805,6 +51882,9 @@ $Lexicon = {
         'Ej      Euj     IV_C    make a stop'
       ],
       'patterns' => {
+        '`u^g' => [
+          'FuL'
+        ],
         '`uw^g' => [
           'FUL',
           'FuCL'
@@ -54318,6 +54398,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '` .t .t' => [
+    {
+      'types' => {
+        '`a.taw' => {
+          'NAt' => 1,
+          'NAn_Nayn' => 1
+        },
+        '`a.tA' => {
+          'N0_Nhy' => 1
+        },
+        '`a.taN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => '`a.t',
+      'form' => '`a.taN',
+      'lines' => [
+        ';; EaTAF_1',
+        'ETA     EaTAF   FW-WaBi present;gift     [[EaTAF/NOUN]]',
+        'ETA     EaTA    N0_Nhy  present;gift',
+        'ETw     EaTaw   NAn_Nayn        presents;gifts',
+        'ETw     EaTaw   NAt     presents;gifts'
+      ],
+      'patterns' => {
+        '`a.tA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'present',
+        'gift',
+        'presents',
+        'gifts'
+      ],
+      'orig' => 'EaTAF',
+      'prefix' => ''
+    }
+  ],
   '` .t y' => [
     {
       'types' => {
@@ -56822,6 +56944,9 @@ $Lexicon = {
         '`uwl' => [
           'FUL',
           'FuCL'
+        ],
+        '`ul' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -56900,8 +57025,14 @@ $Lexicon = {
         'El      Eal     IV_C_Pass_yu    be supported;be provide for;be sustained'
       ],
       'patterns' => {
+        '`il' => [
+          'FiL'
+        ],
         '`iyl' => [
           'FIL'
+        ],
+        '`al' => [
+          'FaL'
         ],
         '`Al' => [
           'FAL'
@@ -61181,6 +61312,9 @@ $Lexicon = {
         '`uwd' => [
           'FUL',
           'FuCL'
+        ],
+        '`ud' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -61299,6 +61433,12 @@ $Lexicon = {
       'patterns' => {
         '`Ad' => [
           'FAL'
+        ],
+        '`ad' => [
+          'FaL'
+        ],
+        '`id' => [
+          'FiL'
         ],
         '\'u`iyd' => [
           'HuFIL'
@@ -62805,9 +62945,15 @@ $Lexicon = {
         'E$      Ea$     IV_C_Pass_yu    be lived'
       ],
       'patterns' => {
+        '`a^s' => [
+          'FaL'
+        ],
         '`iy^s' => [
           'FIL',
           'FiCL'
+        ],
+        '`i^s' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -62916,12 +63062,18 @@ $Lexicon = {
         'E$      Ea$     IV_C_Pass_yu    be sustained'
       ],
       'patterns' => {
+        '`a^s' => [
+          'FaL'
+        ],
         '`iy^s' => [
           'FIL',
           'FiCL'
         ],
         '`A^s' => [
           'FAL'
+        ],
+        '`i^s' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -63408,48 +63560,6 @@ $Lexicon = {
         'Abdel Sayyid'
       ],
       'orig' => 'EabodAlsay~id',
-      'prefix' => ''
-    }
-  ],
-  '`a.s' => [
-    {
-      'types' => {
-        '`a.sA' => {
-          'N0_Nhy' => 1
-        },
-        '`a.saN' => {
-          'FW-WaBi' => 1
-        },
-        '`a.saw' => {
-          'NAt' => 1,
-          'NAn_Nayn' => 1
-        }
-      },
-      'entry' => '`a.s',
-      'form' => '`a.saN',
-      'lines' => [
-        ';; EaSAF_1',
-        'ESA     EaSAF   FW-WaBi stick;baton;rod;staff     [[EaSAF/NOUN]]',
-        'ESA     EaSA    N0_Nhy  stick;baton;rod;staff',
-        'ESw     EaSaw   NAn_Nayn        sticks;batons;rods;staffs',
-        'ESw     EaSaw   NAt     sticks;batons;rods;staffs'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'stick',
-        'baton',
-        'rod',
-        'staff',
-        'sticks',
-        'batons',
-        'rods',
-        'staffs'
-      ],
-      'orig' => 'EaSAF',
       'prefix' => ''
     }
   ],
@@ -72990,6 +73100,9 @@ $Lexicon = {
         '`iyr' => [
           'FIL',
           'FiCL'
+        ],
+        '`ir' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -75222,9 +75335,9 @@ $Lexicon->{'` .t y'}[12]{'glosses'} = $Lexicon->{'` .t \''}[4]{'glosses'};
 $Lexicon->{'` .t y'}[14]{'types'} = $Lexicon->{'` .t \''}[5]{'types'};
 $Lexicon->{'` .t y'}[14]{'lines'} = $Lexicon->{'` .t \''}[5]{'lines'};
 $Lexicon->{'` .t y'}[14]{'glosses'} = $Lexicon->{'` .t \''}[5]{'glosses'};
-$Lexicon->{'` n y'}[2]{'types'} = $Lexicon->{'` n n'}[7]{'types'};
-$Lexicon->{'` n y'}[2]{'lines'} = $Lexicon->{'` n n'}[7]{'lines'};
-$Lexicon->{'` n y'}[2]{'glosses'} = $Lexicon->{'` n n'}[7]{'glosses'};
+$Lexicon->{'` n y'}[2]{'types'} = $Lexicon->{'` n n'}[8]{'types'};
+$Lexicon->{'` n y'}[2]{'lines'} = $Lexicon->{'` n n'}[8]{'lines'};
+$Lexicon->{'` n y'}[2]{'glosses'} = $Lexicon->{'` n n'}[8]{'glosses'};
 $Lexicon->{'` n y'}[6]{'types'} = $Lexicon->{'` n \''}[0]{'types'};
 $Lexicon->{'` n y'}[6]{'lines'} = $Lexicon->{'` n \''}[0]{'lines'};
 $Lexicon->{'` n y'}[6]{'glosses'} = $Lexicon->{'` n \''}[0]{'glosses'};

@@ -11866,32 +11866,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'nab' => [
-    {
-      'types' => {
-        'nabAt' => {
-          'N/At' => 1
-        }
-      },
-      'entry' => 'nab',
-      'form' => 'nabAt',
-      'lines' => [
-        ';; nabAt_1',
-        'nbAt    nabAt   N/At    plants;vegetation'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'plants',
-        'vegetation'
-      ],
-      'orig' => 'nabAt',
-      'prefix' => ''
-    }
-  ],
   'n _h _h' => [
     {
       'types' => {
@@ -13581,6 +13555,12 @@ $Lexicon = {
         'nx      nax     IV_C_Pass_yu    stay;remain;weigh heavily'
       ],
       'patterns' => {
+        'ni_h' => [
+          'FiL'
+        ],
+        'na_h' => [
+          'FaL'
+        ],
         'niy_h' => [
           'FIL'
         ],
@@ -14042,7 +14022,14 @@ $Lexicon = {
         'nAl     nAl     IV_V_Pass_yu    be attained;be achieved;be acquired',
         'nl      nal     IV_C_Pass_yu    be attained;be achieved;be acquired'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'nil' => [
+          'FiL'
+        ],
+        'nal' => [
+          'FaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
@@ -14115,6 +14102,9 @@ $Lexicon = {
         'nl      nil     IV_C_yu let/make obtain'
       ],
       'patterns' => {
+        'nil' => [
+          'FiL'
+        ],
         'niyl' => [
           'FIL',
           'FiCL'
@@ -14588,6 +14578,9 @@ $Lexicon = {
         'nuw.s' => [
           'FUL',
           'FuCL'
+        ],
+        'nu.s' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -16171,6 +16164,40 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'na$~aY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'na^sA' => {
+          'N0_Nhy' => 1
+        },
+        'na^saN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => 'na^s',
+      'form' => 'na^saN',
+      'lines' => [
+        ';; na$AF_1',
+        'n$A     na$AF   FW-WaBi aroma;scent;perfume;starch     [[na$AF/NOUN]]',
+        'n$A     na$A    N0_Nhy  aroma;scent;perfume;starch'
+      ],
+      'patterns' => {
+        'na^sA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'aroma',
+        'scent',
+        'perfume',
+        'starch'
+      ],
+      'orig' => 'na$AF',
       'prefix' => ''
     }
   ],
@@ -19147,6 +19174,9 @@ $Lexicon = {
         'nuwt' => [
           'FUL',
           'FuCL'
+        ],
+        'nut' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -22401,6 +22431,9 @@ $Lexicon = {
         'ns      nus     IV_C    dangle'
       ],
       'patterns' => {
+        'nus' => [
+          'FuL'
+        ],
         'nuws' => [
           'FUL',
           'FuCL'
@@ -26409,6 +26442,9 @@ $Lexicon = {
         'nAH     nAH     IV_V_Pass_yu    be lamented;be mourned'
       ],
       'patterns' => {
+        'nu.h' => [
+          'FuL'
+        ],
         'nuw.h' => [
           'FUL',
           'FuCL'
@@ -29964,6 +30000,31 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        'nu.hAtaT' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'nu.h',
+      'form' => 'nu.hAtaT',
+      'lines' => [
+        ';; nuHAtap_1',
+        'nHAt    nuHAt   Nap     chips;shavings;slivers'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL |< At |< aT',
+      'suffix' => ' |< At |< aT',
+      'glosses' => [
+        'chips',
+        'shavings',
+        'slivers'
+      ],
+      'orig' => 'nuHAtap',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'na.h.hY',
       'form' => 'na.h.hY',
@@ -30800,6 +30861,9 @@ $Lexicon = {
         'niyk' => [
           'FIL',
           'FiCL'
+        ],
+        'nik' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -33126,6 +33190,9 @@ $Lexicon = {
         'nuwb' => [
           'FUL',
           'FuCL'
+        ],
+        'nub' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -33235,8 +33302,14 @@ $Lexicon = {
         'nb      nab     IV_C_Pass_yu    be deputized;be replaced'
       ],
       'patterns' => {
+        'nib' => [
+          'FiL'
+        ],
         'nAb' => [
           'FAL'
+        ],
+        'nab' => [
+          'FaL'
         ],
         'niyb' => [
           'FIL'
@@ -34018,6 +34091,40 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'naj~aY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'na^gaN' => {
+          'FW-WaBi' => 1
+        },
+        'na^gA' => {
+          'N0_Nhy' => 1
+        }
+      },
+      'entry' => 'na^g',
+      'form' => 'na^gaN',
+      'lines' => [
+        ';; najAF_1',
+        'njA     najAF   FW-WaBi rescue;survival;escape;salvation     [[najAF/NOUN]]',
+        'njA     najA    N0_Nhy  rescue;survival;escape;salvation'
+      ],
+      'patterns' => {
+        'na^gA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'rescue',
+        'survival',
+        'escape',
+        'salvation'
+      ],
+      'orig' => 'najAF',
       'prefix' => ''
     }
   ],
@@ -38301,8 +38408,14 @@ $Lexicon = {
         'nr      nar     IV_C_Pass_yu    be lit;be made bright;be illuminated'
       ],
       'patterns' => {
+        'nir' => [
+          'FiL'
+        ],
         'niyr' => [
           'FIL'
+        ],
+        'nar' => [
+          'FaL'
         ],
         'nAr' => [
           'FAL'
@@ -43889,38 +44002,6 @@ $Lexicon = {
         'luster'
       ],
       'orig' => 'najafap',
-      'prefix' => ''
-    }
-  ],
-  'na^s' => [
-    {
-      'types' => {
-        'na^sA' => {
-          'N0_Nhy' => 1
-        },
-        'na^saN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => 'na^s',
-      'form' => 'na^saN',
-      'lines' => [
-        ';; na$AF_1',
-        'n$A     na$AF   FW-WaBi aroma;scent;perfume;starch     [[na$AF/NOUN]]',
-        'n$A     na$A    N0_Nhy  aroma;scent;perfume;starch'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'aroma',
-        'scent',
-        'perfume',
-        'starch'
-      ],
-      'orig' => 'na$AF',
       'prefix' => ''
     }
   ],
@@ -50350,6 +50431,9 @@ $Lexicon = {
         'nuwd' => [
           'FUL',
           'FuCL'
+        ],
+        'nud' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -51081,6 +51165,9 @@ $Lexicon = {
         'nT      nuT     IV_C    entrust;make dependent;make conditional'
       ],
       'patterns' => {
+        'nu.t' => [
+          'FuL'
+        ],
         'nuw.t' => [
           'FUL',
           'FuCL'
@@ -51168,8 +51255,14 @@ $Lexicon = {
         'niy.t' => [
           'FIL'
         ],
+        'ni.t' => [
+          'FiL'
+        ],
         'nA.t' => [
           'FAL'
+        ],
+        'na.t' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -53269,6 +53362,9 @@ $Lexicon = {
         'nf      nuf     IV_C    exceed'
       ],
       'patterns' => {
+        'nuf' => [
+          'FuL'
+        ],
         'nuwf' => [
           'FUL',
           'FuCL'
@@ -53323,8 +53419,14 @@ $Lexicon = {
         'niyf' => [
           'FIL'
         ],
+        'nif' => [
+          'FiL'
+        ],
         'nAf' => [
           'FAL'
+        ],
+        'naf' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -60985,6 +61087,9 @@ $Lexicon = {
         'n\'      ni\'     IV_C_intr       be raw;be uncooked'
       ],
       'patterns' => {
+        'ni\'' => [
+          'FiL'
+        ],
         'niy\'' => [
           'FIL',
           'FiCL'
@@ -64982,7 +65087,14 @@ $Lexicon = {
         'nAm     nAm     IV_V    sleep;lie down',
         'nm      nam     IV_C    sleep;lie down'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'nim' => [
+          'FiL'
+        ],
+        'nam' => [
+          'FaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
@@ -65064,8 +65176,14 @@ $Lexicon = {
         'niym' => [
           'FIL'
         ],
+        'nim' => [
+          'FiL'
+        ],
         'nAm' => [
           'FAL'
+        ],
+        'nam' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -65817,6 +65935,9 @@ $Lexicon = {
         'n&      nu&     IV_C    weigh heavily;bear with difficulty;be oppressed'
       ],
       'patterns' => {
+        'nu\'' => [
+          'FuL'
+        ],
         'nuw\'' => [
           'FUL',
           'FuCL'
@@ -65903,6 +66024,9 @@ $Lexicon = {
         'n}      ni}     IV_C_yu weigh down;crush'
       ],
       'patterns' => {
+        'ni\'' => [
+          'FiL'
+        ],
         'niy\'' => [
           'FIL'
         ]
@@ -72919,33 +73043,6 @@ $Lexicon = {
       'prefix' => 'lA >| '
     }
   ],
-  'nu.h' => [
-    {
-      'types' => {
-        'nu.hAtaT' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'nu.h',
-      'form' => 'nu.hAtaT',
-      'lines' => [
-        ';; nuHAtap_1',
-        'nHAt    nuHAt   Nap     chips;shavings;slivers'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At |< aT',
-      'suffix' => ' |< At |< aT',
-      'glosses' => [
-        'chips',
-        'shavings',
-        'slivers'
-      ],
-      'orig' => 'nuHAtap',
-      'prefix' => ''
-    }
-  ],
   'n _h m' => [
     {
       'types' => {
@@ -73076,6 +73173,9 @@ $Lexicon = {
         'nuwl' => [
           'FUL',
           'FuCL'
+        ],
+        'nul' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -73920,6 +74020,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'n b b' => [
+    {
+      'types' => {
+        'nabAt' => {
+          'N/At' => 1
+        }
+      },
+      'entry' => 'nab',
+      'form' => 'nabAt',
+      'lines' => [
+        ';; nabAt_1',
+        'nbAt    nabAt   N/At    plants;vegetation'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'plants',
+        'vegetation'
+      ],
+      'orig' => 'nabAt',
+      'prefix' => ''
+    }
+  ],
   'n f n f' => [
     {
       'types' => {
@@ -74429,38 +74555,6 @@ $Lexicon = {
         'fountain'
       ],
       'orig' => 'nAfuwrap',
-      'prefix' => ''
-    }
-  ],
-  'na^g' => [
-    {
-      'types' => {
-        'na^gaN' => {
-          'FW-WaBi' => 1
-        },
-        'na^gA' => {
-          'N0_Nhy' => 1
-        }
-      },
-      'entry' => 'na^g',
-      'form' => 'na^gaN',
-      'lines' => [
-        ';; najAF_1',
-        'njA     najAF   FW-WaBi rescue;survival;escape;salvation     [[najAF/NOUN]]',
-        'njA     najA    N0_Nhy  rescue;survival;escape;salvation'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'rescue',
-        'survival',
-        'escape',
-        'salvation'
-      ],
-      'orig' => 'najAF',
       'prefix' => ''
     }
   ],
@@ -78288,9 +78382,9 @@ $Lexicon->{'n ^s \''}[21]{'glosses'} = $Lexicon->{'n ^s y'}[5]{'glosses'};
 $Lexicon->{'n ^s \''}[22]{'types'} = $Lexicon->{'n ^s y'}[8]{'types'};
 $Lexicon->{'n ^s \''}[22]{'lines'} = $Lexicon->{'n ^s y'}[8]{'lines'};
 $Lexicon->{'n ^s \''}[22]{'glosses'} = $Lexicon->{'n ^s y'}[8]{'glosses'};
-$Lexicon->{'n .h .h'}[2]{'types'} = $Lexicon->{'n .h w'}[2]{'types'};
-$Lexicon->{'n .h .h'}[2]{'lines'} = $Lexicon->{'n .h w'}[2]{'lines'};
-$Lexicon->{'n .h .h'}[2]{'glosses'} = $Lexicon->{'n .h w'}[2]{'glosses'};
+$Lexicon->{'n .h .h'}[3]{'types'} = $Lexicon->{'n .h w'}[2]{'types'};
+$Lexicon->{'n .h .h'}[3]{'lines'} = $Lexicon->{'n .h w'}[2]{'lines'};
+$Lexicon->{'n .h .h'}[3]{'glosses'} = $Lexicon->{'n .h w'}[2]{'glosses'};
 $Lexicon->{'n .d .d'}[3]{'types'} = $Lexicon->{'n .d w'}[1]{'types'};
 $Lexicon->{'n .d .d'}[3]{'lines'} = $Lexicon->{'n .d w'}[1]{'lines'};
 $Lexicon->{'n .d .d'}[3]{'glosses'} = $Lexicon->{'n .d w'}[1]{'glosses'};

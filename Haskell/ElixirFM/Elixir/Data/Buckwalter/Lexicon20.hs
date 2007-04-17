@@ -377,7 +377,9 @@ lexicon = listing "Lexicon's properties"
     -- fDD     foDuD   IV_C    break up;disperse;dissolve
 
     FaCL                      `verb`       {- faD~-u -}         [ "break up", "disperse", "dissolve" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; {inofaD~_1
     -- <nfD    {inofaD~        PV_V_intr       be dispersed;be dissolved;be concluded
@@ -761,7 +763,8 @@ lexicon = listing "Lexicon's properties"
     -- fD      foD     IV_0hwnyn       become spacious
 
     FaCA                      `verb`       {- faDA-u -}         [ "become spacious" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; faD~aY_1
     -- fDY     faD~aY  PV_0    vacate;empty
@@ -919,8 +922,8 @@ lexicon = listing "Lexicon's properties"
     -- fgr     fogar   IV      open
 
     FaCaL                     `verb`       {- fagar-ua -}       [ "open" ]
-                              `imperf`     FCuL
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `imperf`     FCuL,
 
     -- ;; {inofagar_1
     -- <nfgr   {inofagar       PV_intr be open;be agape
@@ -980,7 +983,9 @@ lexicon = listing "Lexicon's properties"
     -- fHH     foHuH   IV_C    hiss;whistle
 
     FaCL                      `verb`       {- faH~-u -}         [ "hiss", "whistle" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; faH~_1
     -- fH      faH~    N       hissing;whistling
@@ -1361,7 +1366,9 @@ lexicon = listing "Lexicon's properties"
     -- fSS     foSuS   IV_C    peel;shell
 
     FaCL                      `verb`       {- faS~-u -}         [ "peel", "shell" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; faS~aS_1
     -- fSS     faS~aS  PV      peel;shell
@@ -1732,7 +1739,8 @@ lexicon = listing "Lexicon's properties"
     -- fSY     foSaY   IV_0_Pass_yu    be detached;be separate
 
     FaCY                      `verb`       {- faSaY-i -}        [ "detach", "separate", "be detached", "be separate" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; tafaS~aY_1
     -- tfSY    tafaS~aY        PV_0    be free from;shake off;get rid of
@@ -1871,21 +1879,21 @@ lexicon = listing "Lexicon's properties"
     -- fTn     foTun   IV-n    perceive;be aware
 
     FaCaL                     `verb`       {- faTan-u -}        [ "perceive", "be aware" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; faTun-u_1
     -- fTn     faTun   PV-n_intr       be astute
     -- fTn     foTun   IV-n_intr       be astute
 
     FaCuL                     `verb`       {- faTun-u -}        [ "be astute" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; faTin-a_1
     -- fTn     faTin   PV-n_intr       be astute
     -- fTn     foTan   IV-n_intr       be astute
 
     FaCiL                     `verb`       {- faTin-a -}        [ "be astute" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; tafaT~an_1
     -- tfTn    tafaT~an        PV-n    perceive;be aware
@@ -2222,8 +2230,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; faji}-a_1
     -- fj}     faji}   PV      surprise
 
-    FaCiL                     `verb`       {- faji}-a -}        [ "surprise" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- faji}-a -}        [ "surprise" ],
 
     -- ;; fAja>_1
     -- fAj>    fAja>   PV->    surprise
@@ -2295,7 +2302,9 @@ lexicon = listing "Lexicon's properties"
     -- fjj     fojuj   IV_C    straddle
 
     FaCL                      `verb`       {- faj~-u -}         [ "straddle" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; >afaj~_1
     -- >fj     >afaj~  PV_V    hurry;hasten
@@ -2585,7 +2594,8 @@ lexicon = listing "Lexicon's properties"
     -- fjy     fojay   IV_Ann_Pass_yu  be opened
 
     FaCA                      `verb`       {- fajA-u -}         [ "open", "be opened" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; fajowap_1
     -- fjw     fajow   Napdu   gap;breach
@@ -2632,7 +2642,9 @@ lexicon = listing "Lexicon's properties"
     -- f$$     fo$u$   IV_C    cause to subside
 
     FaCL                      `verb`       {- fa$~-u -}         [ "cause to subside" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; {inofa$~_1
     -- <nf$    {inofa$~        PV_V    subside
@@ -2779,7 +2791,8 @@ lexicon = listing "Lexicon's properties"
     -- f$      fo$     IV_0hwnyn       be spread;circulate;be disclosed
 
     FaCA                      `verb`       {- fa$A-u -}         [ "be spread", "circulate", "be disclosed" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; >afo$aY_1
     -- >f$Y    >afo$aY PV_0    divulge;disclose;disseminate
@@ -3652,7 +3665,8 @@ lexicon = listing "Lexicon's properties"
     -- fdY     fodaY   IV_0    redeem;ransom
 
     FaCY                      `verb`       {- fadaY-i -}        [ "redeem", "ransom" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; fAdaY_1
     -- fAdY    fAdaY   PV_0    sacrifice
@@ -4121,7 +4135,9 @@ lexicon = listing "Lexicon's properties"
     -- fkk     fokuk   IV_C    separate;dismantle;detach;disengage
 
     FaCL                      `verb`       {- fak~-u -}         [ "separate", "dismantle", "detach", "disengage" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; fak~ak_1
     -- fkk     fak~ak  PV      dismantle;take apart;loosen;dismount
@@ -4716,7 +4732,9 @@ lexicon = listing "Lexicon's properties"
     -- fll     folul   IV_C    dent;notch;break;route
 
     FaCL                      `verb`       {- fal~-u -}         [ "dent", "notch", "break", "route" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; fal~_2
     -- fl      fal~    N       cork
@@ -4765,6 +4783,14 @@ lexicon = listing "Lexicon's properties"
     -- fl      fil~    NapAt   villa;country house
 
     FiCL |< aT                `noun`       {- fil~ap -}         [ "villa", "country house" ],
+
+    -- ;; fal_1
+    -- fl      fal     NF      open country     [[fal/NOUN]]
+    -- flA     falA    N0_Nhy  open country
+
+    FaL                       `noun`       {- fal -}            [ "open country" ]
+                              `plural`     FaCA
+                              {- `others` [ "falA N0_Nhy" ] -},
 
     -- ;; fal~aY_1
     -- flY     fal~aY  PV_0    scrutinize;peruse;delouse
@@ -5142,7 +5168,8 @@ lexicon = listing "Lexicon's properties"
     -- flY     folaY   IV_0_Pass_yu    be perused;be examined;be deloused
 
     FaCY                      `verb`       {- falaY-i -}        [ "peruse", "examine", "delouse", "be perused", "be examined", "be deloused" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; fal~aY_1
     -- flY     fal~aY  PV_0    scrutinize;peruse;delouse
@@ -5177,6 +5204,20 @@ lexicon = listing "Lexicon's properties"
     FACiL |< aT               `noun`       {- fAliyap -}        [ "dung-beetle" ] ]
 
  |> "f m m" <| [
+
+    -- ;; fam_1
+    -- fm      fam     N       mouth
+    -- >fmAm   >afomAm N       mouths
+    -- AfmAm   >afomAm N       mouths
+
+    FaL                       `noun`       {- fam -}            [ "mouth", "mouths" ]
+                              `plural`     HaFCAL
+                              {- `others` [ "'afmAm N" ] -},
+
+    -- ;; famiy~_1
+    -- fmy     famiy~  N-ap    oral;buccal     [[famiy~/ADJ]]
+
+    FaL |< Iy                 `adj`        {- famiy~ -}         [ "oral", "buccal" ],
 
     -- ;; famawiy~_1
     -- fmwy    famawiy~        Nall    oral;buccal     [[famawiy~/ADJ]]
@@ -5478,8 +5519,7 @@ lexicon = listing "Lexicon's properties"
     -- fny     fonay   IV_Ann  perish;disappear
     -- fn      fona    IV_0hwnyn       perish;disappear
 
-    FaCiL                     `verb`       {- faniy-a -}        [ "perish", "disappear" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- faniy-a -}        [ "perish", "disappear" ],
 
     -- ;; >afonaY_1
     -- >fnY    >afonaY PV_0    annihilate;destroy;exterminate
@@ -7946,7 +7986,9 @@ lexicon = listing "Lexicon's properties"
     -- frr     forir   IV_C    escape;flee;defect;desert
 
     FaCL                      `verb`       {- far~-i -}         [ "escape", "flee", "defect", "desert" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; >afar~_1
     -- >fr     >afar~  PV_V    scare off
@@ -8004,6 +8046,17 @@ lexicon = listing "Lexicon's properties"
     -- mftr    mufotar~        Nall    radiant;gleaming;smiling     [[mufotar~/ADJ]]
 
     MuFtaCL                   `adj`        {- mufotar~ -}       [ "radiant", "gleaming", "smiling" ],
+
+    -- ;; furAt_1
+    -- frAt    furAt   N       Euphrates
+    -- frAt    furAt   NAn_Nayn        Tigris and Euphrates
+
+    FuL |< At                 `noun`       {- furAt -}          [ "Euphrates", "Tigris and Euphrates" ],
+
+    -- ;; furAt_2
+    -- frAt    furAt   N       sweet water
+
+    FuL |< At                 `noun`       {- furAt -}          [ "sweet water" ],
 
     -- ;; far~A'_1
     -- frA'    far~A'  N0_Nh   furrier
@@ -8205,7 +8258,8 @@ lexicon = listing "Lexicon's properties"
     -- frY     foraY   IV_0_Pass_yu    be cut or split lengthwise
 
     FaCY                      `verb`       {- faraY-i -}        [ "cut or split lengthwise", "be cut or split lengthwise" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; far~aY_1
     -- frY     far~aY  PV_0    cut or split lengthwise
@@ -8913,7 +8967,8 @@ lexicon = listing "Lexicon's properties"
     -- fsw     fosuw   IV_0hAnn        fart silently
 
     FaCA                      `verb`       {- fasA-u -}         [ "fart silently" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; fasow_1
     -- fsw     fasow   N       silent farting
@@ -8944,8 +8999,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; fati}-a_1
     -- ft}     fati}   PV      cease;desist;stop
 
-    FaCiL                     `verb`       {- fati}-a -}        [ "cease", "desist", "stop" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- fati}-a -}        [ "cease", "desist", "stop" ],
 
     -- ;; fatA'_1
     -- ftA'    fatA'   N0_Nh   adolescence;youth
@@ -9396,7 +9450,8 @@ lexicon = listing "Lexicon's properties"
     -- ftn     fotan   IV-n_intr       be infatuated
 
     FaCaL                     `verb`       {- fatan-i -}        [ "entice", "torment", "be infatuated" ]
-                              `imperf`     FCiL,
+                              `ithird`     FCaL
+                              `ithird`     FCiL,
 
     -- ;; >afotan_1
     -- >ftn    >afotan PV-n    start a riot;incite to riot
@@ -9660,7 +9715,9 @@ lexicon = listing "Lexicon's properties"
     -- ftt     fotut   IV_C    weaken;enervate
 
     FaCL                      `verb`       {- fat~-u -}         [ "weaken", "enervate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; fat~at_1
     -- ftt     fat~at  PV-t    tear apart;dismember
@@ -9683,6 +9740,12 @@ lexicon = listing "Lexicon's properties"
     -- nftt    nofatit IV_C    disintegrate;be fragmented;be torn apart
 
     InFaCL                    `verb`       {- Ainofat~ -}       [ "disintegrate", "be fragmented", "be torn apart" ],
+
+    -- ;; futAt_1
+    -- ftAt    futAt   N       crumbs;debris
+    -- ftA}t   fatA}it Ndip    crumbs;debris
+
+    FuL |< At                 `noun`       {- futAt -}          [ "crumbs", "debris" ],
 
     -- ;; fatiyt_1
     -- ftyt    fatiyt  N       crumbs;debris
@@ -9839,8 +9902,7 @@ lexicon = listing "Lexicon's properties"
     -- fty     fotay   IV_Ann  be youthful
     -- ft      fota    IV_0hwnyn       be youthful
 
-    FaCiL                     `verb`       {- fatiy-a -}        [ "be youthful" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- fatiy-a -}        [ "be youthful" ],
 
     -- ;; fatiy~_1
     -- fty     fatiy~  N-ap    youthful     [[fatiy~/ADJ]]
@@ -9970,7 +10032,10 @@ lexicon = listing "Lexicon's properties"
     -- fH      fuH     IV_C_intr       be fragrant;emanate
 
     FAL                       `verb`       {- fAH-u -}          [ "be fragrant", "emanate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; fawoHap_1
     -- fwH     fawoH   Nap     whiff;fragrance
@@ -10064,7 +10129,10 @@ lexicon = listing "Lexicon's properties"
     -- fh      fuh     IV_C    pronounce;utter;voice
 
     FAL                       `verb`       {- fAh-u -}          [ "pronounce", "utter", "voice" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; tafaw~ah_1
     -- tfwh    tafaw~ah        PV      pronounce;utter;voice
@@ -10174,7 +10242,10 @@ lexicon = listing "Lexicon's properties"
     -- fq      fuq     IV_C    surpass;excel
 
     FAL                       `verb`       {- fAq-u -}          [ "surpass", "excel" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; >afAq_1
     -- >fAq    >afAq   PV_V    wake up;recover;recuperate
@@ -10281,7 +10352,10 @@ lexicon = listing "Lexicon's properties"
     -- fr      fur     IV_C    boil;gush out
 
     FAL                       `verb`       {- fAr-u -}          [ "boil", "gush out" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; faw~ar_1
     -- fwr     faw~ar  PV      boil
@@ -10371,7 +10445,10 @@ lexicon = listing "Lexicon's properties"
     -- ft      fut     IV_C    expire;go by
 
     FAL                       `verb`       {- fAt-u -}          [ "expire", "go by" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; faw~at_1
     -- fwt     faw~at  PV-t    miss;skip
@@ -10429,6 +10506,13 @@ lexicon = listing "Lexicon's properties"
 
     MutaFACiL                 `adj`        {- mutafAwit -}      [ "different", "contradictory" ] ]
 
+ |> "f w w" <| [
+
+    -- ;; fawAt_1
+    -- fwAt    fawAt   N       expiration;passing
+
+    FaL |< At                 `noun`       {- fawAt -}          [ "expiration", "passing" ] ]
+
  |> "f w z" <| [
 
     -- ;; fAz-u_1
@@ -10438,7 +10522,10 @@ lexicon = listing "Lexicon's properties"
     -- fz      fuz     IV_C    win;be victorious
 
     FAL                       `verb`       {- fAz-u -}          [ "win", "be victorious" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; fawoz_1
     -- fwz     fawoz   Ndu     victory
@@ -10495,7 +10582,10 @@ lexicon = listing "Lexicon's properties"
     -- f}      fi}     IV_C_intr_yu    be displaced;shift
 
     FAL                       `verb`       {- fA'-i -}          [ "be displaced", "shift" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; fay~a>_1
     -- fy>     fay~a>  PV      give shade
@@ -10549,7 +10639,12 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`       {- fayo' -}          [ "shadow", "shadows" ]
                               `plural`     FuCUL
                               `plural`     HaFCAL
-                              {- `others` [ "fuyuw' N0_Nh Nhy", "'afyA' Nh N0_Nh Nhy" ] -} ]
+                              {- `others` [ "fuyuw' N0_Nh Nhy", "'afyA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; fi}ap_1
+    -- f}      fi}     NapAt   faction;party
+
+    FiL |< aT                 `noun`       {- fi}ap -}          [ "faction", "party" ] ]
 
  |> "f y .d" <| [
 
@@ -10560,7 +10655,10 @@ lexicon = listing "Lexicon's properties"
     -- fD      fiD     IV_C    exceed;overflow
 
     FAL                       `verb`       {- fAD-i -}          [ "exceed", "overflow" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; >afAD_1
     -- >fAD    >afAD   PV_V    spill;overfill
@@ -10706,7 +10804,10 @@ lexicon = listing "Lexicon's properties"
     -- f$      fi$     IV_C    boast
 
     FAL                       `verb`       {- fA$-i -}          [ "boast" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; fayo$_1
     -- fy$     fayo$   N       boasting
@@ -10873,7 +10974,10 @@ lexicon = listing "Lexicon's properties"
     -- fl      fil     IV_C_intr       be erroneous
 
     FAL                       `verb`       {- fAl-i -}          [ "be erroneous" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; fuyuwlap_1
     -- fywl    fuyuwl  Nap     erring
@@ -11057,6 +11161,15 @@ lexicon = listing "Lexicon's properties"
 
     KiRDIS                    `noun`       {- fiytiys -}        [ "Vitesse" ] ]
 
+ |> "f y y" <| [
+
+    -- ;; fiy_1
+    -- fy      fiy     FW-Wa   in       [[fiy/PREP]]
+    -- fy      fiy     FW-Wa-y in       [[fiy/PREP]]
+    -- fY      fiy     FW-Wa   in       [[fiy/PREP]]
+
+    FiL                       `noun`       {- fiy -}            [ "in" ] ]
+
  |> "f y z" <| [
 
     -- ;; fAyiz_1
@@ -11203,7 +11316,9 @@ lexicon = listing "Lexicon's properties"
     -- fzz     foziz   IV_C_intr       be startled
 
     FaCL                      `verb`       {- faz~-i -}         [ "be startled" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; faz~-i_2
     -- fz      faz~    PV_V    frighten;startle
@@ -11212,7 +11327,9 @@ lexicon = listing "Lexicon's properties"
     -- fzz     foziz   IV_C    frighten;startle
 
     FaCL                      `verb`       {- faz~-i -}         [ "frighten", "startle" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; >afaz~_1
     -- >fz     >afaz~  PV_V    frighten;startle
@@ -11508,14 +11625,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- fadobAtAk -}      [ "Vedpathak" ] ]
 
- |> "fal" <| [
-
-    -- ;; fal_1
-    -- fl      fal     NF      open country     [[fal/NOUN]]
-    -- flA     falA    N0_Nhy  open country
-
-    Identity                  `noun`       {- fal -}            [ "open country" ] ]
-
  |> "falamand" <| [
 
     -- ;; falamanodiy~_1
@@ -11538,20 +11647,6 @@ lexicon = listing "Lexicon's properties"
     -- flnk    falanok NapAt   railroad tie
 
     Identity |< aT            `noun`       {- falanokap -}      [ "railroad tie" ] ]
-
- |> "fam" <| [
-
-    -- ;; fam_1
-    -- fm      fam     N       mouth
-    -- >fmAm   >afomAm N       mouths
-    -- AfmAm   >afomAm N       mouths
-
-    Identity                  `noun`       {- fam -}            [ "mouth", "mouths" ],
-
-    -- ;; famiy~_1
-    -- fmy     famiy~  N-ap    oral;buccal     [[famiy~/ADJ]]
-
-    Identity |< Iy            `adj`        {- famiy~ -}         [ "oral", "buccal" ] ]
 
  |> "fantAziyA" <| [
 
@@ -11664,13 +11759,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- fasuwliyA -}      [ "beans" ] ]
 
- |> "faw" <| [
-
-    -- ;; fawAt_1
-    -- fwAt    fawAt   N       expiration;passing
-
-    Identity |< At            `noun`       {- fawAt -}          [ "expiration", "passing" ] ]
-
  |> "fawqa" <| [
 
     -- ;; fawoqa_1
@@ -11727,13 +11815,6 @@ lexicon = listing "Lexicon's properties"
     -- fhyd    fuhayod N0      Fuhaid;Fuheid
 
     Identity                  `noun`       {- fhyd -}           [ "Fuhaid", "Fuheid" ] ]
-
- |> "fi'" <| [
-
-    -- ;; fi}ap_1
-    -- f}      fi}     NapAt   faction;party
-
-    Identity |< aT            `noun`       {- fi}ap -}          [ "faction", "party" ] ]
 
  |> "fi.ta.hl" <| [
 
@@ -12004,15 +12085,6 @@ lexicon = listing "Lexicon's properties"
     -- fysywlwjy       fiysoyuwluwjiy~ Nap     physiology     [[fiysoyuwluwjiy~/NOUN]]
 
     Identity |< aT            `noun`       {- fisoyuwluwjiy~ap -} [ "physiology" ] ]
-
- |> "fiy" <| [
-
-    -- ;; fiy_1
-    -- fy      fiy     FW-Wa   in       [[fiy/PREP]]
-    -- fy      fiy     FW-Wa-y in       [[fiy/PREP]]
-    -- fY      fiy     FW-Wa   in       [[fiy/PREP]]
-
-    Identity                  `noun`       {- fiy -}            [ "in" ] ]
 
  |> "fiy.guw" <| [
 
@@ -12702,19 +12774,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- fuqohA -}         [ "Fuqha" ] ]
 
- |> "fur" <| [
-
-    -- ;; furAt_1
-    -- frAt    furAt   N       Euphrates
-    -- frAt    furAt   NAn_Nayn        Tigris and Euphrates
-
-    Identity |< At            `noun`       {- furAt -}          [ "Euphrates", "Tigris and Euphrates" ],
-
-    -- ;; furAt_2
-    -- frAt    furAt   N       sweet water
-
-    Identity |< At            `noun`       {- furAt -}          [ "sweet water" ] ]
-
  |> "furAdY" <| [
 
     -- ;; furAdaY_1
@@ -12736,14 +12795,6 @@ lexicon = listing "Lexicon's properties"
     -- fsyfsA}y        fusayofisA}iy~  Nall    mosaicist     [[fusayofisA}iy~/ADJ]]
 
     Identity |< Iy            `adj`        {- fusayofisA}iy~ -} [ "mosaicist" ] ]
-
- |> "fut" <| [
-
-    -- ;; futAt_1
-    -- ftAt    futAt   N       crumbs;debris
-    -- ftA}t   fatA}it Ndip    crumbs;debris
-
-    Identity |< At            `noun`       {- futAt -}          [ "crumbs", "debris" ] ]
 
  |> "fuw.gts" <| [
 

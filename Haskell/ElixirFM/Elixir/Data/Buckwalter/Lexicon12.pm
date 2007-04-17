@@ -612,6 +612,42 @@ $Lexicon = {
       ],
       'orig' => 'san~aY',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'sin' => {
+          'Nuwn_Niyn' => 1
+        },
+        'sanaT' => {
+          'Napdu' => 1
+        },
+        'sanaw' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'san',
+      'form' => 'sanaT',
+      'lines' => [
+        ';; sanap_1',
+        'sn      san     Napdu   year',
+        'snw     sanaw   NAt     years',
+        'sn      sin     Nuwn_Niyn       years'
+      ],
+      'patterns' => {
+        'sin' => [
+          'FiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'year',
+        'years'
+      ],
+      'orig' => 'sanap',
+      'prefix' => ''
     }
   ],
   '\'uskuff' => [
@@ -1028,6 +1064,9 @@ $Lexicon = {
         'suwd' => [
           'FUL',
           'FuCL'
+        ],
+        'sud' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -6134,40 +6173,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'san' => [
-    {
-      'types' => {
-        'sin' => {
-          'Nuwn_Niyn' => 1
-        },
-        'sanaT' => {
-          'Napdu' => 1
-        },
-        'sanaw' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'san',
-      'form' => 'sanaT',
-      'lines' => [
-        ';; sanap_1',
-        'sn      san     Napdu   year',
-        'snw     sanaw   NAt     years',
-        'sn      sin     Nuwn_Niyn       years'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'year',
-        'years'
-      ],
-      'orig' => 'sanap',
-      'prefix' => ''
-    }
-  ],
   's ^g l' => [
     {
       'types' => {
@@ -7972,6 +7977,9 @@ $Lexicon = {
         'siyb' => [
           'FIL',
           'FiCL'
+        ],
+        'sib' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -8765,6 +8773,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  's .t .t' => [
+    {
+      'types' => {
+        'si.tAt' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'si.t',
+      'form' => 'si.tAt',
+      'lines' => [
+        ';; siTAt_1',
+        'sTAt    siTAt   Nprop   Settat'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'Settat'
+      ],
+      'orig' => 'siTAt',
+      'prefix' => ''
+    }
+  ],
   's q s q' => [
     {
       'types' => {
@@ -8787,31 +8820,6 @@ $Lexicon = {
         'chirping'
       ],
       'orig' => 'saqosaqap',
-      'prefix' => ''
-    }
-  ],
-  'si.t' => [
-    {
-      'types' => {
-        'si.tAt' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'si.t',
-      'form' => 'si.tAt',
-      'lines' => [
-        ';; siTAt_1',
-        'sTAt    siTAt   Nprop   Settat'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'Settat'
-      ],
-      'orig' => 'siTAt',
       'prefix' => ''
     }
   ],
@@ -9631,7 +9639,55 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  's l r' => [
+    {
+      'types' => {
+        'suwlAr' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'suwlAr',
+      'form' => 'suwlAr',
+      'lines' => [
+        ';; suwlAr_1',
+        'swlAr   suwlAr  N0      diesel (oil/fuel)'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCAL',
+      'suffix' => '',
+      'glosses' => [
+        'diesel (oil/fuel)'
+      ],
+      'orig' => 'suwlAr',
+      'prefix' => ''
+    }
+  ],
   's w w' => [
+    {
+      'types' => {
+        'suw' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'suw',
+      'form' => 'suw',
+      'lines' => [
+        ';; suw_1',
+        'sw      suw     Nprop   Sue'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL',
+      'suffix' => '',
+      'glosses' => [
+        'Sue'
+      ],
+      'orig' => 'suw',
+      'prefix' => ''
+    },
     {
       'types' => {
         'saww' => {
@@ -9682,31 +9738,6 @@ $Lexicon = {
         'be settled'
       ],
       'orig' => 'saw~aY',
-      'prefix' => ''
-    }
-  ],
-  's l r' => [
-    {
-      'types' => {
-        'suwlAr' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'suwlAr',
-      'form' => 'suwlAr',
-      'lines' => [
-        ';; suwlAr_1',
-        'swlAr   suwlAr  N0      diesel (oil/fuel)'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCAL',
-      'suffix' => '',
-      'glosses' => [
-        'diesel (oil/fuel)'
-      ],
-      'orig' => 'suwlAr',
       'prefix' => ''
     }
   ],
@@ -9998,31 +10029,6 @@ $Lexicon = {
         'Suhaili'
       ],
       'orig' => 'suHayoliy~',
-      'prefix' => ''
-    }
-  ],
-  'suk' => [
-    {
-      'types' => {
-        'sukAt' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'suk',
-      'form' => 'sukAt',
-      'lines' => [
-        ';; sukAt_1',
-        'skAt    sukAt   N       silence'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'silence'
-      ],
-      'orig' => 'sukAt',
       'prefix' => ''
     }
   ],
@@ -17017,6 +17023,9 @@ $Lexicon = {
         'sx      sux     IV_C_intr       be slippery;sink;swoon'
       ],
       'patterns' => {
+        'su_h' => [
+          'FuL'
+        ],
         'suw_h' => [
           'FUL',
           'FuCL'
@@ -17982,6 +17991,9 @@ $Lexicon = {
         'siy_h' => [
           'FIL',
           'FiCL'
+        ],
+        'si_h' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -18427,6 +18439,9 @@ $Lexicon = {
         'suwm' => [
           'FUL',
           'FuCL'
+        ],
+        'sum' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -18536,8 +18551,14 @@ $Lexicon = {
         'sm      sam     IV_C_Pass_yu    be allowed to wander'
       ],
       'patterns' => {
+        'sim' => [
+          'FiL'
+        ],
         'siym' => [
           'FIL'
+        ],
+        'sam' => [
+          'FaL'
         ],
         'sAm' => [
           'FAL'
@@ -18722,6 +18743,9 @@ $Lexicon = {
         'sT      suT     IV_C    whip;flog'
       ],
       'patterns' => {
+        'su.t' => [
+          'FuL'
+        ],
         'suw.t' => [
           'FUL',
           'FuCL'
@@ -20715,6 +20739,9 @@ $Lexicon = {
         'suw.g' => [
           'FUL',
           'FuCL'
+        ],
+        'su.g' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -20796,6 +20823,12 @@ $Lexicon = {
       'patterns' => {
         'sA.g' => [
           'FAL'
+        ],
+        'si.g' => [
+          'FiL'
+        ],
+        'sa.g' => [
+          'FaL'
         ],
         'siy.g' => [
           'FIL'
@@ -25820,31 +25853,6 @@ $Lexicon = {
         'Sringhar'
       ],
       'orig' => 'sriynogAr',
-      'prefix' => ''
-    }
-  ],
-  'suw' => [
-    {
-      'types' => {
-        'suw' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'suw',
-      'form' => 'suw',
-      'lines' => [
-        ';; suw_1',
-        'sw      suw     Nprop   Sue'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Sue'
-      ],
-      'orig' => 'suw',
       'prefix' => ''
     }
   ],
@@ -31258,6 +31266,9 @@ $Lexicon = {
         'suwk' => [
           'FUL',
           'FuCL'
+        ],
+        'suk' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -31684,6 +31695,29 @@ $Lexicon = {
         'drain hole'
       ],
       'orig' => 'masokuwkap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'sukAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'suk',
+      'form' => 'sukAt',
+      'lines' => [
+        ';; sukAt_1',
+        'skAt    sukAt   N       silence'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'silence'
+      ],
+      'orig' => 'sukAt',
       'prefix' => ''
     }
   ],
@@ -33248,6 +33282,9 @@ $Lexicon = {
         'siyl' => [
           'FIL',
           'FiCL'
+        ],
+        'sil' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -33331,9 +33368,15 @@ $Lexicon = {
         'sAl' => [
           'FAL'
         ],
+        'sal' => [
+          'FaL'
+        ],
         'siyl' => [
           'FIL',
           'FiCL'
+        ],
+        'sil' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -34565,36 +34608,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  's w h ^g' => [
-    {
-      'types' => {},
-      'entry' => 'suwhA^g',
-      'form' => 'suwhA^g',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDAS',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'suwhAj',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'suwhA^g',
-      'form' => 'suwhA^giyy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KuRDAS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [],
-      'orig' => 'suwhAjiy~',
-      'prefix' => ''
-    }
-  ],
   'strAws' => [
     {
       'types' => {
@@ -34649,6 +34662,36 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  's w h ^g' => [
+    {
+      'types' => {},
+      'entry' => 'suwhA^g',
+      'form' => 'suwhA^g',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDAS',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'suwhAj',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'suwhA^g',
+      'form' => 'suwhA^giyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KuRDAS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'suwhAjiy~',
+      'prefix' => ''
+    }
+  ],
   's w .h' => [
     {
       'types' => {
@@ -34671,6 +34714,9 @@ $Lexicon = {
         'sH      suH     IV_C    travel'
       ],
       'patterns' => {
+        'su.h' => [
+          'FuL'
+        ],
         'suw.h' => [
           'FUL',
           'FuCL'
@@ -36140,6 +36186,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  's .h \'' => [
+    {
+      'types' => {},
+      'entry' => 'si.hA\'',
+      'form' => 'si.hA\'iyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FiCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'siHA}iy~',
+      'prefix' => ''
+    }
+  ],
   '\'usbuw`' => [
     {
       'types' => {
@@ -36193,22 +36255,6 @@ $Lexicon = {
         'weekly'
       ],
       'orig' => 'OusobuwEiy~',
-      'prefix' => ''
-    }
-  ],
-  's .h \'' => [
-    {
-      'types' => {},
-      'entry' => 'si.hA\'',
-      'form' => 'si.hA\'iyy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FiCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [],
-      'orig' => 'siHA}iy~',
       'prefix' => ''
     }
   ],
@@ -36312,6 +36358,9 @@ $Lexicon = {
         'suwq' => [
           'FUL',
           'FuCL'
+        ],
+        'suq' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -46240,6 +46289,9 @@ $Lexicon = {
         'siy.h' => [
           'FIL',
           'FiCL'
+        ],
+        'si.h' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -46322,6 +46374,12 @@ $Lexicon = {
         'siy.h' => [
           'FIL',
           'FiCL'
+        ],
+        'sa.h' => [
+          'FaL'
+        ],
+        'si.h' => [
+          'FiL'
         ],
         'sA.h' => [
           'FAL'
@@ -47897,6 +47955,9 @@ $Lexicon = {
         's&      su&     IV_C_intr       become bad;become evil'
       ],
       'patterns' => {
+        'su\'' => [
+          'FuL'
+        ],
         'suw\'' => [
           'FUL',
           'FuCL'
@@ -47989,6 +48050,9 @@ $Lexicon = {
         ],
         'sA\'' => [
           'FAL'
+        ],
+        'si\'' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -48044,6 +48108,9 @@ $Lexicon = {
         ],
         'sA\'' => [
           'FAL'
+        ],
+        'si\'' => [
+          'FiL'
         ]
       },
       'index' => '2',
@@ -49486,6 +49553,9 @@ $Lexicon = {
         'siyr' => [
           'FIL',
           'FiCL'
+        ],
+        'sir' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -49600,6 +49670,12 @@ $Lexicon = {
         ],
         'sAr' => [
           'FAL'
+        ],
+        'sar' => [
+          'FaL'
+        ],
+        'sir' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -51037,6 +51113,30 @@ $Lexicon = {
         'cause'
       ],
       'orig' => 'mutasab~ib',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'subAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'sub',
+      'form' => 'subAt',
+      'lines' => [
+        ';; subAt_1',
+        'sbAt    subAt   N       lethargy;slumber'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'lethargy',
+        'slumber'
+      ],
+      'orig' => 'subAt',
       'prefix' => ''
     }
   ],
@@ -52875,6 +52975,9 @@ $Lexicon = {
         'ss      sus     IV_C    govern;administrate;direct'
       ],
       'patterns' => {
+        'sus' => [
+          'FuL'
+        ],
         'suws' => [
           'FUL',
           'FuCL'
@@ -60911,32 +61014,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'sub' => [
-    {
-      'types' => {
-        'subAt' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'sub',
-      'form' => 'subAt',
-      'lines' => [
-        ';; subAt_1',
-        'sbAt    subAt   N       lethargy;slumber'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'lethargy',
-        'slumber'
-      ],
-      'orig' => 'subAt',
-      'prefix' => ''
-    }
-  ],
   's .h t t' => [
     {
       'types' => {
@@ -61163,9 +61240,9 @@ $Lexicon->{'s \' l'}[18]{'glosses'} = $Lexicon->{'s y l'}[10]{'glosses'};
 $Lexicon->{'s \' l'}[19]{'types'} = $Lexicon->{'s y l'}[11]{'types'};
 $Lexicon->{'s \' l'}[19]{'lines'} = $Lexicon->{'s y l'}[11]{'lines'};
 $Lexicon->{'s \' l'}[19]{'glosses'} = $Lexicon->{'s y l'}[11]{'glosses'};
-$Lexicon->{'s w y'}[1]{'types'} = $Lexicon->{'s w w'}[0]{'types'};
-$Lexicon->{'s w y'}[1]{'lines'} = $Lexicon->{'s w w'}[0]{'lines'};
-$Lexicon->{'s w y'}[1]{'glosses'} = $Lexicon->{'s w w'}[0]{'glosses'};
+$Lexicon->{'s w y'}[1]{'types'} = $Lexicon->{'s w w'}[1]{'types'};
+$Lexicon->{'s w y'}[1]{'lines'} = $Lexicon->{'s w w'}[1]{'lines'};
+$Lexicon->{'s w y'}[1]{'glosses'} = $Lexicon->{'s w w'}[1]{'glosses'};
 $Lexicon->{'s w y'}[7]{'types'} = $Lexicon->{'s w \''}[15]{'types'};
 $Lexicon->{'s w y'}[7]{'lines'} = $Lexicon->{'s w \''}[15]{'lines'};
 $Lexicon->{'s w y'}[7]{'glosses'} = $Lexicon->{'s w \''}[15]{'glosses'};

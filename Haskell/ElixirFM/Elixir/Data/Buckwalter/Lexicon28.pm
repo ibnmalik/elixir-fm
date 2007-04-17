@@ -2015,6 +2015,29 @@ $Lexicon = {
   'y n n' => [
     {
       'types' => {
+        'yin' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'yin',
+      'form' => 'yin',
+      'lines' => [
+        ';; yin_1',
+        'yn      yin     N       Yen'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiL',
+      'suffix' => '',
+      'glosses' => [
+        'Yen'
+      ],
+      'orig' => 'yin',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'yuwnAn' => {
           'N' => 1
         }
@@ -3608,31 +3631,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yin' => [
-    {
-      'types' => {
-        'yin' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'yin',
-      'form' => 'yin',
-      'lines' => [
-        ';; yin_1',
-        'yn      yin     N       Yen'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Yen'
-      ],
-      'orig' => 'yin',
-      'prefix' => ''
-    }
-  ],
   'y f _h' => [
     {
       'types' => {
@@ -3922,32 +3920,6 @@ $Lexicon = {
         'jubilee'
       ],
       'orig' => 'yuwbiyl',
-      'prefix' => ''
-    }
-  ],
-  'yuw' => [
-    {
-      'types' => {
-        'yuw' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'yuw',
-      'form' => 'yuw',
-      'lines' => [
-        ';; yuw_1',
-        'yw      yuw     Nprop   Yo;Yu'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Yo',
-        'Yu'
-      ],
-      'orig' => 'yuw',
       'prefix' => ''
     }
   ],
@@ -5031,6 +5003,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'y y y' => [
+    {
+      'types' => {
+        'yiy' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'yiy',
+      'form' => 'yiy',
+      'lines' => [
+        ';; yiy_1',
+        'yy      yiy     Nprop   Yi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiL',
+      'suffix' => '',
+      'glosses' => [
+        'Yi'
+      ],
+      'orig' => 'yiy',
+      'prefix' => ''
+    }
+  ],
   'yuw.tn' => [
     {
       'types' => {
@@ -5416,52 +5413,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'yad' => [
-    {
-      'types' => {
-        '\'ayd' => {
-          'NK' => 2
-        },
-        '\'aydiy' => {
-          'N0_Nh' => 2
-        },
-        '\'ayAd' => {
-          'NK' => 2
-        },
-        'yad' => {
-          'Ndu' => 1
-        },
-        '\'ayAdiy' => {
-          'N0_Nh' => 2
-        }
-      },
-      'entry' => 'yad',
-      'form' => 'yad',
-      'lines' => [
-        ';; yad_1',
-        'yd      yad     Ndu     hand',
-        '>ydy    >ayodiy N0_Nh   hands',
-        'Aydy    >ayodiy N0_Nh   hands',
-        '>yd     >ayod   NK      hands',
-        'Ayd     >ayod   NK      hands',
-        '>yAdy   >ayAdiy N0_Nh   hands',
-        'AyAdy   >ayAdiy N0_Nh   hands',
-        '>yAd    >ayAd   NK      hands',
-        'AyAd    >ayAd   NK      hands'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hand',
-        'hands'
-      ],
-      'orig' => 'yad',
-      'prefix' => ''
-    }
-  ],
   'yA.tA^s' => [
     {
       'types' => {
@@ -5649,6 +5600,54 @@ $Lexicon = {
     }
   ],
   'y d d' => [
+    {
+      'types' => {
+        '\'ayd' => {
+          'NK' => 2
+        },
+        '\'aydiy' => {
+          'N0_Nh' => 2
+        },
+        '\'ayAd' => {
+          'NK' => 2
+        },
+        'yad' => {
+          'Ndu' => 1
+        },
+        '\'ayAdiy' => {
+          'N0_Nh' => 2
+        }
+      },
+      'entry' => 'yad',
+      'form' => 'yad',
+      'lines' => [
+        ';; yad_1',
+        'yd      yad     Ndu     hand',
+        '>ydy    >ayodiy N0_Nh   hands',
+        'Aydy    >ayodiy N0_Nh   hands',
+        '>yd     >ayod   NK      hands',
+        'Ayd     >ayod   NK      hands',
+        '>yAdy   >ayAdiy N0_Nh   hands',
+        'AyAdy   >ayAdiy N0_Nh   hands',
+        '>yAd    >ayAd   NK      hands',
+        'AyAd    >ayAd   NK      hands'
+      ],
+      'patterns' => {
+        '\'ayAd' => [
+          'HaFAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        'hand',
+        'hands'
+      ],
+      'orig' => 'yad',
+      'prefix' => ''
+    },
     {
       'types' => {
         'yadawiyy' => {
@@ -6072,31 +6071,6 @@ $Lexicon = {
         'ya\'s (Arabic letter)'
       ],
       'orig' => 'yA\'',
-      'prefix' => ''
-    }
-  ],
-  'yiy' => [
-    {
-      'types' => {
-        'yiy' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'yiy',
-      'form' => 'yiy',
-      'lines' => [
-        ';; yiy_1',
-        'yy      yiy     Nprop   Yi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Yi'
-      ],
-      'orig' => 'yiy',
       'prefix' => ''
     }
   ],
@@ -6678,6 +6652,32 @@ $Lexicon = {
         'July'
       ],
       'orig' => 'yuwliyuw',
+      'prefix' => ''
+    }
+  ],
+  'y w w' => [
+    {
+      'types' => {
+        'yuw' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'yuw',
+      'form' => 'yuw',
+      'lines' => [
+        ';; yuw_1',
+        'yw      yuw     Nprop   Yo;Yu'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL',
+      'suffix' => '',
+      'glosses' => [
+        'Yo',
+        'Yu'
+      ],
+      'orig' => 'yuw',
       'prefix' => ''
     }
   ],
@@ -7342,18 +7342,18 @@ $Lexicon = {
     }
   ]
 };
-$Lexicon->{'y w n n'}[0]{'types'} = $Lexicon->{'y n n'}[0]{'types'};
-$Lexicon->{'y w n n'}[0]{'lines'} = $Lexicon->{'y n n'}[0]{'lines'};
-$Lexicon->{'y w n n'}[0]{'glosses'} = $Lexicon->{'y n n'}[0]{'glosses'};
-$Lexicon->{'y w n n'}[1]{'types'} = $Lexicon->{'y n n'}[1]{'types'};
-$Lexicon->{'y w n n'}[1]{'lines'} = $Lexicon->{'y n n'}[1]{'lines'};
-$Lexicon->{'y w n n'}[1]{'glosses'} = $Lexicon->{'y n n'}[1]{'glosses'};
+$Lexicon->{'y w n n'}[0]{'types'} = $Lexicon->{'y n n'}[1]{'types'};
+$Lexicon->{'y w n n'}[0]{'lines'} = $Lexicon->{'y n n'}[1]{'lines'};
+$Lexicon->{'y w n n'}[0]{'glosses'} = $Lexicon->{'y n n'}[1]{'glosses'};
+$Lexicon->{'y w n n'}[1]{'types'} = $Lexicon->{'y n n'}[2]{'types'};
+$Lexicon->{'y w n n'}[1]{'lines'} = $Lexicon->{'y n n'}[2]{'lines'};
+$Lexicon->{'y w n n'}[1]{'glosses'} = $Lexicon->{'y n n'}[2]{'glosses'};
 $Lexicon->{'y w n ^s'}[0]{'types'} = $Lexicon->{'y n ^s'}[0]{'types'};
 $Lexicon->{'y w n ^s'}[0]{'lines'} = $Lexicon->{'y n ^s'}[0]{'lines'};
 $Lexicon->{'y w n ^s'}[0]{'glosses'} = $Lexicon->{'y n ^s'}[0]{'glosses'};
-$Lexicon->{'y w n'}[0]{'types'} = $Lexicon->{'y n n'}[0]{'types'};
-$Lexicon->{'y w n'}[0]{'lines'} = $Lexicon->{'y n n'}[0]{'lines'};
-$Lexicon->{'y w n'}[0]{'glosses'} = $Lexicon->{'y n n'}[0]{'glosses'};
-$Lexicon->{'y w n'}[1]{'types'} = $Lexicon->{'y n n'}[1]{'types'};
-$Lexicon->{'y w n'}[1]{'lines'} = $Lexicon->{'y n n'}[1]{'lines'};
-$Lexicon->{'y w n'}[1]{'glosses'} = $Lexicon->{'y n n'}[1]{'glosses'};
+$Lexicon->{'y w n'}[0]{'types'} = $Lexicon->{'y n n'}[1]{'types'};
+$Lexicon->{'y w n'}[0]{'lines'} = $Lexicon->{'y n n'}[1]{'lines'};
+$Lexicon->{'y w n'}[0]{'glosses'} = $Lexicon->{'y n n'}[1]{'glosses'};
+$Lexicon->{'y w n'}[1]{'types'} = $Lexicon->{'y n n'}[2]{'types'};
+$Lexicon->{'y w n'}[1]{'lines'} = $Lexicon->{'y n n'}[2]{'lines'};
+$Lexicon->{'y w n'}[1]{'glosses'} = $Lexicon->{'y n n'}[2]{'glosses'};

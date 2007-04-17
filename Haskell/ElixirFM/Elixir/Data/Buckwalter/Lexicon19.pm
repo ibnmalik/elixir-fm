@@ -171,6 +171,9 @@ $Lexicon = {
         'gS      guS     IV_C    plunge;immerse;dive'
       ],
       'patterns' => {
+        '.gu.s' => [
+          'FuL'
+        ],
         '.guw.s' => [
           'FUL',
           'FuCL'
@@ -4739,6 +4742,9 @@ $Lexicon = {
         'gD      giD     IV_C    diminish;dwindle;pale'
       ],
       'patterns' => {
+        '.gi.d' => [
+          'FiL'
+        ],
         '.giy.d' => [
           'FIL',
           'FiCL'
@@ -5510,9 +5516,15 @@ $Lexicon = {
         'gr      gar     IV_C_Pass_yu    be made jealous'
       ],
       'patterns' => {
+        '.gir' => [
+          'FiL'
+        ],
         '.giyr' => [
           'FIL',
           'FiCL'
+        ],
+        '.gar' => [
+          'FaL'
         ],
         '.gAr' => [
           'FAL'
@@ -8433,6 +8445,9 @@ $Lexicon = {
         '.giy.z' => [
           'FIL',
           'FiCL'
+        ],
+        '.gi.z' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -8512,12 +8527,18 @@ $Lexicon = {
         'gZ      gaZ     IV_C_Pass_yu    be enraged;be irritated'
       ],
       'patterns' => {
+        '.ga.z' => [
+          'FaL'
+        ],
         '.giy.z' => [
           'FIL',
           'FiCL'
         ],
         '.gA.z' => [
           'FAL'
+        ],
+        '.gi.z' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -9447,6 +9468,9 @@ $Lexicon = {
         'gl      gul     IV_C    seize;snatch;destroy'
       ],
       'patterns' => {
+        '.gul' => [
+          'FuL'
+        ],
         '.guwl' => [
           'FUL',
           'FuCL'
@@ -10127,6 +10151,52 @@ $Lexicon = {
         'be fed breakfast'
       ],
       'orig' => 'gad~aY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.gadaN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => '.gad',
+      'form' => '.gadaN',
+      'lines' => [
+        ';; gadAF_1',
+        'gdA     gadAF   FW-WaBi tomorrow     [[gadAF/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'tomorrow'
+      ],
+      'orig' => 'gadAF',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.gad' => {
+          'N' => 1
+        }
+      },
+      'entry' => '.gad',
+      'form' => '.gad',
+      'lines' => [
+        ';; gad_1',
+        'gd      gad     N       tomorrow'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        'tomorrow'
+      ],
+      'orig' => 'gad',
       'prefix' => ''
     }
   ],
@@ -14065,6 +14135,9 @@ $Lexicon = {
         'gr      gur     IV_C    penetrate'
       ],
       'patterns' => {
+        '.gur' => [
+          'FuL'
+        ],
         '.guwr' => [
           'FUL',
           'FuCL'
@@ -14116,8 +14189,14 @@ $Lexicon = {
         'gr      gar     IV_C_Pass_yu    be attacked;be invaded;be raided'
       ],
       'patterns' => {
+        '.gir' => [
+          'FiL'
+        ],
         '.giyr' => [
           'FIL'
+        ],
+        '.gar' => [
+          'FaL'
         ],
         '.gAr' => [
           'FAL'
@@ -16543,6 +16622,9 @@ $Lexicon = {
         'gv      giv     IV_C    send rain'
       ],
       'patterns' => {
+        '.gi_t' => [
+          'FiL'
+        ],
         '.giy_t' => [
           'FIL',
           'FiCL'
@@ -18909,6 +18991,39 @@ $Lexicon = {
       ],
       'orig' => 'gAD~',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '.ga.dA' => {
+          'Nhy' => 1
+        },
+        '.ga.daN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => '.ga.d',
+      'form' => '.ga.daN',
+      'lines' => [
+        ';; gaDAF_1',
+        'gDA     gaDAF   FW-WaBi hot spot;predicament;unbearable situation     [[gaDAF/NOUN]]',
+        'gDA     gaDA    Nhy     hot spot;predicament;unbearable situation'
+      ],
+      'patterns' => {
+        '.ga.dA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'hot spot',
+        'predicament',
+        'unbearable situation'
+      ],
+      'orig' => 'gaDAF',
+      'prefix' => ''
     }
   ],
   '.gAndiy' => [
@@ -19305,6 +19420,9 @@ $Lexicon = {
         'gb      gib     IV_C_intr       be absent'
       ],
       'patterns' => {
+        '.gib' => [
+          'FiL'
+        ],
         '.giyb' => [
           'FIL',
           'FiCL'
@@ -22130,6 +22248,30 @@ $Lexicon = {
   ],
   '.g w w' => [
     {
+      'types' => {
+        '.guw' => {
+          'FW' => 1
+        }
+      },
+      'entry' => '.guw',
+      'form' => '.guw',
+      'lines' => [
+        ';; guw_1',
+        'gw      guw     FW      Gou;Gu     [[guw/NOUN_PROP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL',
+      'suffix' => '',
+      'glosses' => [
+        'Gou',
+        'Gu'
+      ],
+      'orig' => 'guw',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => '.gawwY',
       'form' => '.gawwY',
@@ -22280,6 +22422,9 @@ $Lexicon = {
         'gm      gim     IV_C_intr       become overcast/blurred'
       ],
       'patterns' => {
+        '.gim' => [
+          'FiL'
+        ],
         '.giym' => [
           'FIL',
           'FiCL'
@@ -22360,12 +22505,18 @@ $Lexicon = {
         'gm      gam     IV_C_Pass_yu    become overcast/blurred'
       ],
       'patterns' => {
+        '.gim' => [
+          'FiL'
+        ],
         '.gAm' => [
           'FAL'
         ],
         '.giym' => [
           'FIL',
           'FiCL'
+        ],
+        '.gam' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -22603,37 +22754,6 @@ $Lexicon = {
         'Glasgow'
       ],
       'orig' => 'glAsokuw',
-      'prefix' => ''
-    }
-  ],
-  '.ga.d' => [
-    {
-      'types' => {
-        '.ga.dA' => {
-          'Nhy' => 1
-        },
-        '.ga.daN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => '.ga.d',
-      'form' => '.ga.daN',
-      'lines' => [
-        ';; gaDAF_1',
-        'gDA     gaDAF   FW-WaBi hot spot;predicament;unbearable situation     [[gaDAF/NOUN]]',
-        'gDA     gaDA    Nhy     hot spot;predicament;unbearable situation'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'hot spot',
-        'predicament',
-        'unbearable situation'
-      ],
-      'orig' => 'gaDAF',
       'prefix' => ''
     }
   ],
@@ -30796,11 +30916,17 @@ $Lexicon = {
         'gv      gav     IV_C_Pass_yu    be helped;be given help'
       ],
       'patterns' => {
+        '.gi_t' => [
+          'FiL'
+        ],
         '.gA_t' => [
           'FAL'
         ],
         '.giy_t' => [
           'FIL'
+        ],
+        '.ga_t' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -31221,54 +31347,6 @@ $Lexicon = {
         'gulp'
       ],
       'orig' => 'gub~ap',
-      'prefix' => ''
-    }
-  ],
-  '.gad' => [
-    {
-      'types' => {
-        '.gadaN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => '.gad',
-      'form' => '.gadaN',
-      'lines' => [
-        ';; gadAF_1',
-        'gdA     gadAF   FW-WaBi tomorrow     [[gadAF/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'tomorrow'
-      ],
-      'orig' => 'gadAF',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.gad' => {
-          'N' => 1
-        }
-      },
-      'entry' => '.gad',
-      'form' => '.gad',
-      'lines' => [
-        ';; gad_1',
-        'gd      gad     N       tomorrow'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'tomorrow'
-      ],
-      'orig' => 'gad',
       'prefix' => ''
     }
   ],
@@ -33126,32 +33204,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.guw' => [
-    {
-      'types' => {
-        '.guw' => {
-          'FW' => 1
-        }
-      },
-      'entry' => '.guw',
-      'form' => '.guw',
-      'lines' => [
-        ';; guw_1',
-        'gw      guw     FW      Gou;Gu     [[guw/NOUN_PROP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Gou',
-        'Gu'
-      ],
-      'orig' => 'guw',
-      'prefix' => ''
-    }
-  ],
   '.g f f' => [
     {
       'types' => {
@@ -33998,9 +34050,9 @@ $Lexicon->{'.g n \''}[4]{'glosses'} = $Lexicon->{'.g n y'}[14]{'glosses'};
 $Lexicon->{'.g b y'}[3]{'types'} = $Lexicon->{'.g b \''}[0]{'types'};
 $Lexicon->{'.g b y'}[3]{'lines'} = $Lexicon->{'.g b \''}[0]{'lines'};
 $Lexicon->{'.g b y'}[3]{'glosses'} = $Lexicon->{'.g b \''}[0]{'glosses'};
-$Lexicon->{'.g w w'}[0]{'types'} = $Lexicon->{'.g w y'}[2]{'types'};
-$Lexicon->{'.g w w'}[0]{'lines'} = $Lexicon->{'.g w y'}[2]{'lines'};
-$Lexicon->{'.g w w'}[0]{'glosses'} = $Lexicon->{'.g w y'}[2]{'glosses'};
+$Lexicon->{'.g w w'}[1]{'types'} = $Lexicon->{'.g w y'}[2]{'types'};
+$Lexicon->{'.g w w'}[1]{'lines'} = $Lexicon->{'.g w y'}[2]{'lines'};
+$Lexicon->{'.g w w'}[1]{'glosses'} = $Lexicon->{'.g w y'}[2]{'glosses'};
 $Lexicon->{'.g y m'}[6]{'types'} = $Lexicon->{'.g \' m'}[0]{'types'};
 $Lexicon->{'.g y m'}[6]{'lines'} = $Lexicon->{'.g \' m'}[0]{'lines'};
 $Lexicon->{'.g y m'}[6]{'glosses'} = $Lexicon->{'.g \' m'}[0]{'glosses'};

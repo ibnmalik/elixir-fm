@@ -34,7 +34,7 @@ lexicon = listing "Lexicon's properties"
  |> "_d ` n" <| [
 
     FaCiL                     `verb`       {- \*aEin-a -}       [ "submit", "yield", "obey" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     HaFCaL                    `verb`       {- Oa*oEan -}        [ "submit", "yield", "obey", "be submitted to", "be yielded to", "be obeyed" ],
 
@@ -198,8 +198,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d k y" <| [
 
-    FaCiL                     `verb`       {- \*akiy-a -}       [ "be sharp-witted" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- \*akiy-a -}       [ "be sharp-witted" ],
 
     FaCIL                     `adj`        {- \*akiy~ -}        [ "clever" ]
                               `plural`     HaFCiLA'
@@ -222,7 +221,9 @@ lexicon = listing "Lexicon's properties"
  |> "_d m m" <| [
 
     FaCL                      `verb`       {- \*am~-u -}        [ "blame", "criticize" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- \*am~ -}          [ "censure", "criticism" ],
 
@@ -275,10 +276,14 @@ lexicon = listing "Lexicon's properties"
  |> "_d r r" <| [
 
     FaCL                      `verb`       {- \*ar~-u -}        [ "scatter", "spread", "sprinkle" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `verb`       {- \*ar~-u -}        [ "rise", "emerge" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- \*ar~ -}          [ "strewing", "sprinkling" ],
 
@@ -290,12 +295,15 @@ lexicon = listing "Lexicon's properties"
 
     FuCL |< Iy |< aT          `noun`       {- \*ur~iy~ap -}     [ "descendants", "offspring" ],
 
-    FaCLY                     `verb`       {- \*ar~aY -}        [ "disperse", "scatter", "atomize", "be dispersed", "be scattered", "be atomized" ] ]
+    FaCLY                     `verb`       {- \*ar~aY -}        [ "disperse", "scatter", "atomize", "be dispersed", "be scattered", "be atomized" ],
+
+    FuL |< aT                 `noun`       {- \*urap -}         [ "sorghum", "maize" ] ]
 
  |> "_d r w" <| [
 
     FaCA                      `verb`       {- \*arA-u -}        [ "disperse", "scatter", "be dispersed", "be scattered" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FaCL                      `noun`       {- \*arow -}         [ "dispersing", "scattering" ],
 
@@ -311,7 +319,8 @@ lexicon = listing "Lexicon's properties"
  |> "_d r y" <| [
 
     FaCY                      `verb`       {- \*araY-i -}       [ "disperse", "scatter" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     FaCCY                     `verb`       {- \*ar~aY -}        [ "disperse", "scatter", "atomize", "be dispersed", "be scattered", "be atomized" ],
 
@@ -320,7 +329,9 @@ lexicon = listing "Lexicon's properties"
  |> "_d w `" <| [
 
     FAL                       `verb`       {- \*AE-i -}         [ "spread", "circulate", "become public" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     HaFAL                     `verb`       {- Oa*AE -}          [ "broadcast", "propagate", "be broadcast", "be propagated" ],
 
@@ -341,7 +352,10 @@ lexicon = listing "Lexicon's properties"
  |> "_d w q" <| [
 
     FAL                       `verb`       {- \*Aq-u -}         [ "taste", "sample", "experience", "be tasted", "be experienced" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     HaFAL                     `verb`       {- Oa*Aq -}          [ "make taste", "make sample", "make experience", "be made to taste/sample", "be made to make experience" ],
 
@@ -355,13 +369,20 @@ lexicon = listing "Lexicon's properties"
 
     FAL |< Iy                 `adj`        {- \*Atiy~ -}        [ "autonomous", "self" ] ]
 
+ |> "_d w w" <| [
+
+    FuL                       `noun`       {- \*uw -}           [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
+                              `plural`     FaCuL
+                              `plural`     FaCA
+                              {- `others` [ "_dawuw FW-Wa FW-Wa-a", "_dawA FW-Wa FW-Wa-A" ] -} ]
+
  |> "_d w y" <| [
 
     FaCY                      `verb`       {- \*awaY-i -}       [ "wither", "fade" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
-    FaCiL                     `verb`       {- \*awiy-a -}       [ "wither", "fade" ]
-                              `imperf`     FCaL ]
+    FaCiL                     `verb`       {- \*awiy-a -}       [ "wither", "fade" ] ]
 
  |> "_d y `" <| [
 
@@ -389,14 +410,6 @@ lexicon = listing "Lexicon's properties"
  |> "_dikray" <| [
 
     Identity |< At            `noun`       {- \*ikorayAt -}     [ "memoirs", "diary" ] ]
-
- |> "_dur" <| [
-
-    Identity |< aT            `noun`       {- \*urap -}         [ "sorghum", "maize" ] ]
-
- |> "_duw" <| [
-
-    Identity                  `noun`       {- \*uw -}           [ "of", "with", "(two relatives) of", "(relatives) of", "family" ] ]
 
  |> "bi_dA" <| [
 

@@ -259,6 +259,21 @@ lexicon = listing "Lexicon's properties"
 
  |> "y d d" <| [
 
+    -- ;; yad_1
+    -- yd      yad     Ndu     hand
+    -- >ydy    >ayodiy N0_Nh   hands
+    -- Aydy    >ayodiy N0_Nh   hands
+    -- >yd     >ayod   NK      hands
+    -- Ayd     >ayod   NK      hands
+    -- >yAdy   >ayAdiy N0_Nh   hands
+    -- AyAdy   >ayAdiy N0_Nh   hands
+    -- >yAd    >ayAd   NK      hands
+    -- AyAd    >ayAd   NK      hands
+
+    FaL                       `noun`       {- yad -}            [ "hand", "hands" ]
+                              `plural`     HaFAL
+                              {- `others` [ "'ayAd NK" ] -},
+
     -- ;; yadawiy~_1
     -- ydwy    yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]
 
@@ -407,21 +422,21 @@ lexicon = listing "Lexicon's properties"
     -- ymn     yomun   IV-n_intr       be lucky;be fortunate
 
     FaCaL                     `verb`       {- yaman-u -}        [ "be lucky", "be fortunate" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; yamin-a_1
     -- ymn     yamin   PV-n_intr       be lucky;be fortunate
     -- ymn     yoman   IV-n_intr       be lucky;be fortunate
 
     FaCiL                     `verb`       {- yamin-a -}        [ "be lucky", "be fortunate" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; yamun-u_1
     -- ymn     yamun   PV-n_intr       be lucky;be fortunate
     -- ymn     yomun   IV-n_intr       be lucky;be fortunate
 
     FaCuL                     `verb`       {- yamun-u -}        [ "be lucky", "be fortunate" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; yam~an_1
     -- ymn     yam~an  PV-n    go to the right
@@ -647,6 +662,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "y n n" <| [
 
+    -- ;; yin_1
+    -- yn      yin     N       Yen
+
+    FiL                       `noun`       {- yin -}            [ "Yen" ],
+
     -- ;; yuwnAn_1
     -- ywnAn   yuwnAn  N       Greece
 
@@ -785,7 +805,7 @@ lexicon = listing "Lexicon's properties"
     -- yqn     yoqan   IV-n_intr       be sure;know for certain
 
     FaCiL                     `verb`       {- yaqin-a -}        [ "be sure", "know for certain" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; >ayoqan_1
     -- >yqn    >ayoqan PV-n    ascertain;be convinced
@@ -1376,6 +1396,20 @@ lexicon = listing "Lexicon's properties"
 
     KuRDuS                    `noun`       {- yuwsuw -}         [ "Jusso", "Yusso" ] ]
 
+ |> "y w w" <| [
+
+    -- ;; yuw_1
+    -- yw      yuw     Nprop   Yo;Yu
+
+    FuL                       `noun`       {- yuw -}            [ "Yo", "Yu" ] ]
+
+ |> "y y y" <| [
+
+    -- ;; yiy_1
+    -- yy      yiy     Nprop   Yi
+
+    FiL                       `noun`       {- yiy -}            [ "Yi" ] ]
+
  |> "y z ^g" <| [
 
     -- ;; yAzijiy~_1
@@ -1531,21 +1565,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`        {- yAzirojiy~ -}     [ "Yazirji" ] ]
 
- |> "yad" <| [
-
-    -- ;; yad_1
-    -- yd      yad     Ndu     hand
-    -- >ydy    >ayodiy N0_Nh   hands
-    -- Aydy    >ayodiy N0_Nh   hands
-    -- >yd     >ayod   NK      hands
-    -- Ayd     >ayod   NK      hands
-    -- >yAdy   >ayAdiy N0_Nh   hands
-    -- AyAdy   >ayAdiy N0_Nh   hands
-    -- >yAd    >ayAd   NK      hands
-    -- AyAd    >ayAd   NK      hands
-
-    Identity                  `noun`       {- yad -}            [ "hand", "hands" ] ]
-
  |> "yadiy`uwt" <| [
 
     -- ;; yadiyEuwt_1
@@ -1605,26 +1624,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- yilotsin -}       [ "Yeltsin" ] ]
 
- |> "yin" <| [
-
-    -- ;; yin_1
-    -- yn      yin     N       Yen
-
-    Identity                  `noun`       {- yin -}            [ "Yen" ] ]
-
  |> "yits.hAk" <| [
 
     -- ;; yitsoHAk_1
     -- ytsHAk  yitsoHAk        Nprop   Yitzhak
 
     Identity                  `noun`       {- yitsoHAk -}       [ "Yitzhak" ] ]
-
- |> "yiy" <| [
-
-    -- ;; yiy_1
-    -- yy      yiy     Nprop   Yi
-
-    Identity                  `noun`       {- yiy -}            [ "Yi" ] ]
 
  |> "yu.hannA" <| [
 
@@ -1639,13 +1644,6 @@ lexicon = listing "Lexicon's properties"
     -- ysry    yusoriy Nprop   Yusri;Yosri
 
     Identity                  `noun`       {- yusoriy -}        [ "Yusri", "Yosri" ] ]
-
- |> "yuw" <| [
-
-    -- ;; yuw_1
-    -- yw      yuw     Nprop   Yo;Yu
-
-    Identity                  `noun`       {- yuw -}            [ "Yo", "Yu" ] ]
 
  |> "yuw.guwrt" <| [
 

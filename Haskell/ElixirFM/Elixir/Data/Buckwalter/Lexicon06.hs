@@ -170,7 +170,9 @@ lexicon = listing "Lexicon's properties"
     -- HDD     HoDuD   IV_C    incite;prod
 
     FaCL                      `verb`       {- HaD~-u -}         [ "incite", "prod" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; HaD~aD_1
     -- HDD     HaD~aD  PV      incite;prod
@@ -198,7 +200,7 @@ lexicon = listing "Lexicon's properties"
     -- HDn     HoDun   IV-n    embrace;nurture;raise
 
     FaCaL                     `verb`       {- HaDan-u -}        [ "embrace", "nurture", "raise" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; taHADan_1
     -- tHADn   taHADan PV-n    embrace
@@ -508,7 +510,9 @@ lexicon = listing "Lexicon's properties"
     -- HSS     HoSuS   IV_C_intr       be a quota to;be a share to
 
     FaCL                      `verb`       {- HaS~-u -}         [ "be a quota to", "be a share to" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; HAS~-i_1
     -- HAS     HAS~    PV_V    share
@@ -516,8 +520,7 @@ lexicon = listing "Lexicon's properties"
     -- HAS     HAS~    IV_V_yu share
     -- HASS    HASiS   IV_C_yu share
 
-    FACL                      `verb`       {- HAS~-i -}         [ "share" ]
-                              `imperf`     FCiL,
+    FACL                      `verb`       {- HAS~-i -}         [ "share" ],
 
     -- ;; >aHaS~_1
     -- >HS     >aHaS~  PV_V    allot a share;allot a quota
@@ -566,8 +569,8 @@ lexicon = listing "Lexicon's properties"
     -- HSb     HoSub   IV      pave;macadamize
 
     FaCaL                     `verb`       {- HaSab-iu -}       [ "pave", "macadamize" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; HaSib-a_1
     -- HSb     HaSib   PV      have measles
@@ -610,8 +613,8 @@ lexicon = listing "Lexicon's properties"
     -- HSd     HoSud   IV      harvest;mow
 
     FaCaL                     `verb`       {- HaSad-iu -}       [ "harvest", "mow" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; >aHoSad_1
     -- >HSd    >aHoSad PV_intr be ripe
@@ -827,7 +830,7 @@ lexicon = listing "Lexicon's properties"
     -- HSn     HoSun   IV-n_intr       be inaccessible;be fortified
 
     FaCuL                     `verb`       {- HaSun-u -}        [ "be inaccessible", "be fortified" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; HaS~an_1
     -- HSn     HaS~an  PV-n    make inaccessible;fortify;immunize
@@ -1110,7 +1113,9 @@ lexicon = listing "Lexicon's properties"
     -- HTT     HoTuT   IV_C_intr       descend;land
 
     FaCL                      `verb`       {- HaT~-u -}         [ "descend", "land" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; HaT~-u_2
     -- HT      HaT~    PV_V    set down;lower
@@ -1119,7 +1124,9 @@ lexicon = listing "Lexicon's properties"
     -- HTT     HoTuT   IV_C    set down;lower
 
     FaCL                      `verb`       {- HaT~-u -}         [ "set down", "lower" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; HaT~aT_1
     -- HTT     HaT~aT  PV      set down;unload
@@ -1321,7 +1328,8 @@ lexicon = listing "Lexicon's properties"
     -- HZZ     HoZaZ   IV_C_intr       be fortunate
 
     FaCL                      `verb`       {- HaZ~-a -}         [ "be fortunate" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FaCaL
+                              `ithird`     FCaL,
 
     -- ;; >aHaZ~_1
     -- >HZ     >aHaZ~  PV_V_intr       be fortunate
@@ -1406,8 +1414,7 @@ lexicon = listing "Lexicon's properties"
     -- HZy     HoZay   IV_Ann  enjoy;gain
     -- HZ      HoZa    IV_0hwnyn       enjoy;gain
 
-    FaCiL                     `verb`       {- HaZiy-a -}        [ "enjoy", "gain" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- HaZiy-a -}        [ "enjoy", "gain" ],
 
     -- ;; HaZiy~_1
     -- HZy     HaZiy~  Nall    enjoying;favored     [[HaZiy~/ADJ]]
@@ -1439,7 +1446,9 @@ lexicon = listing "Lexicon's properties"
     -- Hjj     Hojuj   IV_C    make a pilgrimage;confute
 
     FaCL                      `verb`       {- Haj~-u -}         [ "make a pilgrimage", "confute" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; HAj~_1
     -- HAj     HAj~    PV_V    argue;dispute
@@ -1668,8 +1677,8 @@ lexicon = listing "Lexicon's properties"
     -- Hjl     Hojil   IV      leap;skip
 
     FaCaL                     `verb`       {- Hajal-ui -}       [ "leap", "skip" ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     -- ;; Hajol_1
     -- Hjl     Hajol   N       leaping;skipping
@@ -1778,7 +1787,7 @@ lexicon = listing "Lexicon's properties"
     -- Hjn     Hojin   IV-n    bend;curve
 
     FaCaL                     `verb`       {- Hajan-i -}        [ "bend", "curve" ]
-                              `imperf`     FCiL,
+                              `ithird`     FCiL,
 
     -- ;; {iHotajan_1
     -- <Htjn   {iHotajan       PV-n    grab;seize
@@ -1928,7 +1937,8 @@ lexicon = listing "Lexicon's properties"
     -- Hjy     Hojay   IV_Ann  deem
 
     FaCA                      `verb`       {- HajA-u -}         [ "deem" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; HAjaY_1
     -- HAjY    HAjaY   PV_0    speak in riddles;be enigmatic
@@ -1991,8 +2001,8 @@ lexicon = listing "Lexicon's properties"
     -- Hjz     Hojiz   IV      retain;reserve
 
     FaCaL                     `verb`       {- Hajaz-ui -}       [ "retain", "reserve" ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     -- ;; Hajaz-ui_2
     -- Hjz     Hajaz   PV      restrain;block
@@ -2000,8 +2010,8 @@ lexicon = listing "Lexicon's properties"
     -- Hjz     Hojiz   IV      restrain;block
 
     FaCaL                     `verb`       {- Hajaz-ui -}       [ "restrain", "block" ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     -- ;; {iHotajaz_1
     -- <Htjz   {iHotajaz       PV      confiscate;hold captive;reserve
@@ -2059,7 +2069,9 @@ lexicon = listing "Lexicon's properties"
     -- H$$     Ho$u$   IV_C    mow;cut
 
     FaCL                      `verb`       {- Ha$~-u -}         [ "mow", "cut" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; Ha$~a$_1
     -- H$$     Ha$~a$  PV      smoke hashish
@@ -2132,8 +2144,8 @@ lexicon = listing "Lexicon's properties"
     -- H$d     Ho$ud   IV      gather;mobilize
 
     FaCaL                     `verb`       {- Ha$ad-iu -}       [ "gather", "mobilize" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; Ha$~ad_1
     -- H$d     Ha$~ad  PV      amass;accumulate
@@ -2363,7 +2375,8 @@ lexicon = listing "Lexicon's properties"
     -- H$y     Ho$ay   IV_Ann_Pass_yu  be stuffed;be loaded;be filled
 
     FaCA                      `verb`       {- Ha$A-u -}         [ "stuff", "load", "fill", "be stuffed", "be loaded", "be filled" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; Ha$~aY_1
     -- H$Y     Ha$~aY  PV_0    insert;interpolate
@@ -2736,7 +2749,8 @@ lexicon = listing "Lexicon's properties"
     -- H*y     Ho*ay   IV_Ann_Pass_yu  be imitated
 
     FaCA                      `verb`       {- Ha*A-u -}         [ "imitate", "be imitated" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; HA*aY_1
     -- HA*Y    HA*aY   PV_0    be opposite;be parallel
@@ -2849,7 +2863,8 @@ lexicon = listing "Lexicon's properties"
     -- H*Y     Ho*aY   IV_0    cut;hew
 
     FaCY                      `verb`       {- Ha*aY-i -}        [ "cut", "hew" ]
-                              `imperf`     FCiL ]
+                              `imperf`     FCiL
+                              `imperf`     FCI ]
 
  |> ".h _t _t" <| [
 
@@ -2860,7 +2875,9 @@ lexicon = listing "Lexicon's properties"
     -- Hvv     Hovuv   IV_C    urge;incite
 
     FaCL                      `verb`       {- Hav~-u -}         [ "urge", "incite" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; {iHotav~_1
     -- <Htv    {iHotav~        PV_V    urge;incite
@@ -2916,7 +2933,8 @@ lexicon = listing "Lexicon's properties"
     -- Hvy     Hovay   IV_Ann_Pass_yu  be spread;be dispersed
 
     FaCA                      `verb`       {- HavA-u -}         [ "spread", "disperse", "be spread", "be dispersed" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FCuL
+                              `imperf`     FCU ]
 
  |> ".h b '" <| [
 
@@ -3538,7 +3556,8 @@ lexicon = listing "Lexicon's properties"
     -- Hby     Hobay   IV_Ann  be given
 
     FaCA                      `verb`       {- HabA-u -}         [ "crawl", "give", "be given" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; HAbaY_1
     -- HAbY    HAbaY   PV_0    favor;be partial
@@ -3912,7 +3931,9 @@ lexicon = listing "Lexicon's properties"
     -- Hdd     Hodud   IV_C    delimit;halt
 
     FaCL                      `verb`       {- Had~-u -}         [ "delimit", "halt" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; Had~-i_1
     -- Hd      Had~    PV_V_intr       be furious
@@ -3921,7 +3942,9 @@ lexicon = listing "Lexicon's properties"
     -- Hdd     Hodid   IV_C_intr       be furious
 
     FaCL                      `verb`       {- Had~-i -}         [ "be furious" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; Had~ad_1
     -- Hdd     Had~ad  PV      determine;define;specify
@@ -4271,8 +4294,8 @@ lexicon = listing "Lexicon's properties"
     -- Hds     Hodus   IV      conjecture;surmise
 
     FaCaL                     `verb`       {- Hadas-iu -}       [ "conjecture", "surmise" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; Hados_1
     -- Hds     Hados   N       guess;hunch
@@ -4291,7 +4314,8 @@ lexicon = listing "Lexicon's properties"
     -- Hdy     Hoday   IV_Ann_Pass_yu  be spurred on;be instigated
 
     FaCA                      `verb`       {- HadA-u -}         [ "spur on", "instigate", "be spurred on", "be instigated" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; taHad~aY_1
     -- tHdY    taHad~aY        PV_0    provoke;challenge;incite
@@ -4371,8 +4395,7 @@ lexicon = listing "Lexicon's properties"
     -- Hdy     Hoday   IV_Ann  remain;not move
     -- Hd      Hoda    IV_0hwnyn       remain;not move
 
-    FaCiL                     `verb`       {- Hadiy-a -}        [ "remain", "not move" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- Hadiy-a -}        [ "remain", "not move" ],
 
     -- ;; HAdiy_3
     -- HAdy    HAdiy   N0      one
@@ -4585,7 +4608,9 @@ lexicon = listing "Lexicon's properties"
     -- Hff     Hofuf   IV_C    surround;line
 
     FaCL                      `verb`       {- Haf~-u -}         [ "surround", "line" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; Haf~-i_1
     -- Hf      Haf~    PV_V_intr       rustle;murmur
@@ -4594,7 +4619,9 @@ lexicon = listing "Lexicon's properties"
     -- Hff     Hofif   IV_C_intr       rustle;murmur
 
     FaCL                      `verb`       {- Haf~-i -}         [ "rustle", "murmur" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; Haf~af_1
     -- Hff     Haf~af  PV      surround
@@ -4743,7 +4770,7 @@ lexicon = listing "Lexicon's properties"
     -- Hfn     Hofun   IV-n    scoop up
 
     FaCaL                     `verb`       {- Hafan-u -}        [ "scoop up" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; Hafonap_1
     -- Hfn     Hafon   Napdu   handful
@@ -4860,8 +4887,7 @@ lexicon = listing "Lexicon's properties"
     -- Hfy     Hofay   IV_Ann  receive kindly;welcome
     -- Hf      Hofa    IV_0hwnyn       receive kindly;welcome
 
-    FaCiL                     `verb`       {- Hafiy-a -}        [ "receive kindly", "welcome" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- Hafiy-a -}        [ "receive kindly", "welcome" ],
 
     -- ;; Hafiy-a_2
     -- Hfy     Hafiy   PV_no-w go barefoot
@@ -4870,8 +4896,7 @@ lexicon = listing "Lexicon's properties"
     -- Hfy     Hofay   IV_Ann  go barefoot
     -- Hf      Hofa    IV_0hwnyn       go barefoot
 
-    FaCiL                     `verb`       {- Hafiy-a -}        [ "go barefoot" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- Hafiy-a -}        [ "go barefoot" ],
 
     -- ;; taHaf~aY_1
     -- tHfY    taHaf~aY        PV_0    be affectionate
@@ -4992,7 +5017,9 @@ lexicon = listing "Lexicon's properties"
     -- Hkk     Hokuk   IV_C    scrape;chafe
 
     FaCL                      `verb`       {- Hak~-u -}         [ "scrape", "chafe" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; >aHak~_1
     -- >Hk     >aHak~  PV_V    itch
@@ -5394,7 +5421,8 @@ lexicon = listing "Lexicon's properties"
     -- HkY     HokaY   IV_0    relate;report
 
     FaCY                      `verb`       {- HakaY-i -}        [ "relate", "report" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; HAkaY_1
     -- HAkY    HAkaY   PV_0    imitate;resemble
@@ -5462,8 +5490,8 @@ lexicon = listing "Lexicon's properties"
     -- Hlj     Holuj   IV      gin
 
     FaCaL                     `verb`       {- Halaj-iu -}       [ "gin" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; Haloj_1
     -- Hlj     Haloj   N       ginning
@@ -5527,8 +5555,8 @@ lexicon = listing "Lexicon's properties"
     -- Hlb     Holub   IV      milk
 
     FaCaL                     `verb`       {- Halab-iu -}       [ "milk" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; taHal~ab_1
     -- tHlb    taHal~ab        PV      drip;leak
@@ -5755,7 +5783,9 @@ lexicon = listing "Lexicon's properties"
     -- Hll     Holul   IV_C    dissolve;untie
 
     FaCL                      `verb`       {- Hal~-u -}         [ "dissolve", "untie" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; Hal~-i_1
     -- Hl      Hal~    PV_V_intr       begin;arrive
@@ -5764,7 +5794,9 @@ lexicon = listing "Lexicon's properties"
     -- Hll     Holil   IV_C_intr       begin;arrive
 
     FaCL                      `verb`       {- Hal~-i -}         [ "begin", "arrive" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; Hal~al_1
     -- Hll     Hal~al  PV      analyze;dissolve;legalize
@@ -5968,6 +6000,14 @@ lexicon = listing "Lexicon's properties"
     -- mHtl    muHotal~        N-ap    occupied     [[muHotal~/ADJ]]
 
     MuFtaCL                   `adj`        {- muHotal~ -}       [ "occupying", "occupied" ],
+
+    -- ;; HalAF_1
+    -- HlA     HalAF   FW-WaBi sweetness;pleasantness     [[HalAF/NOUN]]
+    -- HlA     HalA    N0_Nhy  sweetness;pleasantness     [[HalAF/NOUN]]
+
+    FaL |< aN                 `noun`       {- HalAF -}          [ "sweetness", "pleasantness" ]
+                              `plural`     FaCA
+                              {- `others` [ ".halA N0_Nhy" ] -},
 
     -- ;; Hal~aY_1
     -- HlY     Hal~aY  PV_0    sweeten;adorn;furnish
@@ -6239,7 +6279,8 @@ lexicon = listing "Lexicon's properties"
     -- HlY     HolaY   IV_0    be sweet;be pleasant
 
     FaCuL                     `verb`       {- Haluw-u -}        [ "be sweet", "be pleasant" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; Hulow_1
     -- Hlw     Hulow   N/ap    sweet;pleasant
@@ -6316,8 +6357,7 @@ lexicon = listing "Lexicon's properties"
     -- Hly     Holay   IV_Ann  be sweet;be pleasant;be adorned
     -- Hl      Hola    IV_0hwnyn       be sweet;be pleasant;be adorned
 
-    FaCiL                     `verb`       {- Haliy-a -}        [ "be sweet", "be pleasant", "be adorned" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- Haliy-a -}        [ "be sweet", "be pleasant", "be adorned" ],
 
     -- ;; HalaY-i_1
     -- HlY     HalaY   PV_0    adorn;embellish;grace
@@ -6329,7 +6369,8 @@ lexicon = listing "Lexicon's properties"
     -- HlY     HolaY   IV_0    adorn;embellish;grace
 
     FaCY                      `verb`       {- HalaY-i -}        [ "adorn", "embellish", "grace" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; Hal~aY_1
     -- HlY     Hal~aY  PV_0    sweeten;adorn;furnish
@@ -6988,7 +7029,9 @@ lexicon = listing "Lexicon's properties"
     -- Hmm     Homum   IV_C    make hot;be fated
 
     FaCL                      `verb`       {- Ham~-u -}         [ "make hot", "be fated" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; Ham~-u_2
     -- Hm      Ham~    PV_V_intr       be feverish;have a fever
@@ -6997,7 +7040,9 @@ lexicon = listing "Lexicon's properties"
     -- Hmm     Homum   IV_C_intr       be feverish;have a fever
 
     FaCL                      `verb`       {- Ham~-u -}         [ "be feverish", "have a fever" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; Ham~am_1
     -- Hmm     Ham~am  PV      make hot;wash
@@ -7112,6 +7157,32 @@ lexicon = listing "Lexicon's properties"
     -- mHmwm   maHomuwm        Nall    feverish;frantic
 
     MaFCUL                    `noun`       {- maHomuwm -}       [ "feverish", "frantic" ],
+
+    -- ;; Ham_1
+    -- Hm      Ham     N       father-in-law
+    -- Hmy     Hamiy   FW-WaBi father-in-law + my      [[Ham/NOUN+iy/POSS_PRON_1S]]
+    -- Hmw     Hamuw   N0_Nh   father-in-law of
+    -- HmA     HamA    N0_Nh   father-in-law of
+    -- Hmy     Hamiy   N0_Nh   father-in-law of
+    -- >HmA'   >aHomA' N0_Nh   fathers-in-law
+    -- AHmA'   >aHomA' N0_Nh   fathers-in-law
+    -- >HmA&   >aHomA& Nh      fathers-in-law
+    -- AHmA&   >aHomA& Nh      fathers-in-law
+    -- >HmA}   >aHomA} Nhy     fathers-in-law
+    -- AHmA}   >aHomA} Nhy     fathers-in-law
+
+    FaL                       `noun`       {- Ham -}            [ "father-in-law", "father-in-law + my", "father-in-law of", "fathers-in-law" ]
+                              `plural`     FaCA
+                              {- `others` [ ".hamA N0_Nh" ] -},
+
+    -- ;; Humap_1
+    -- Hm      Hum     NapAt   sting;prick
+    -- HmY     HumaY   N0      stings;pricks
+    -- HmA     HumA    Nhy     stings;pricks
+
+    FuL |< aT                 `noun`       {- Humap -}          [ "sting", "prick", "stings", "pricks" ]
+                              `plural`     FuCY
+                              {- `others` [ ".humY N0" ] -},
 
     -- ;; Ham~aY_1
     -- HmY     Ham~aY  PV_0    make hot;kindle
@@ -7426,8 +7497,7 @@ lexicon = listing "Lexicon's properties"
     -- Hmy     Homay   IV_Ann  glow;flare up
     -- Hm      Homa    IV_0hwnyn       glow;flare up
 
-    FaCiL                     `verb`       {- Hamiy-a -}        [ "glow", "flare up" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- Hamiy-a -}        [ "glow", "flare up" ],
 
     -- ;; HamaY-i_1
     -- HmY     HamaY   PV_0    defend;protect;forbid
@@ -7439,7 +7509,8 @@ lexicon = listing "Lexicon's properties"
     -- HmY     HomaY   IV_0    defend;protect;forbid
 
     FaCY                      `verb`       {- HamaY-i -}        [ "defend", "protect", "forbid" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; Ham~aY_1
     -- HmY     Ham~aY  PV_0    make hot;kindle
@@ -8309,8 +8380,8 @@ lexicon = listing "Lexicon's properties"
     -- Hqn     Hoqun   IV-n    inject;retain
 
     FaCaL                     `verb`       {- Haqan-iu -}       [ "inject", "retain" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `ithird`     FCuL
+                              `ithird`     FCiL,
 
     -- ;; {iHotaqan_1
     -- <Htqn   {iHotaqan       PV-n_intr       be congested;be flushed
@@ -8362,8 +8433,11 @@ lexicon = listing "Lexicon's properties"
     -- Hqq     Hoquq   IV_C_intr       be correct;be right
 
     FaCL                      `verb`       {- Haq~-iu -}        [ "be correct", "be right" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL
+                              `ithird`     FCuL,
 
     -- ;; Haq~aq_1
     -- Hqq     Haq~aq  PV      achieve;realize;reach
@@ -8897,8 +8971,8 @@ lexicon = listing "Lexicon's properties"
     -- Hrv     Horuv   IV      till;cultivate;plow
 
     FaCaL                     `verb`       {- Harav-iu -}       [ "till", "cultivate", "plow" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; Harov_1
     -- Hrv     Harov   N       plowing;cultivation
@@ -9496,14 +9570,14 @@ lexicon = listing "Lexicon's properties"
     -- Hrn     Horun   IV-n_intr       be obstinate;be headstrong;be stubborn
 
     FaCaL                     `verb`       {- Haran-u -}        [ "be obstinate", "be headstrong", "be stubborn" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; Harun-u_1
     -- Hrn     Harun   PV-n_intr       be obstinate;be headstrong;be stubborn
     -- Hrn     Horun   IV-n_intr       be obstinate;be headstrong;be stubborn
 
     FaCuL                     `verb`       {- Harun-u -}        [ "be obstinate", "be headstrong", "be stubborn" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; Haruwn_1
     -- Hrwn    Haruwn  N/ap    obstinate;stubborn
@@ -9673,8 +9747,11 @@ lexicon = listing "Lexicon's properties"
     -- Hrr     Horir   IV_C_intr       be hot
 
     FaCL                      `verb`       {- Har~-ui -}        [ "be hot" ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL,
+                              `imperf`     FuCL
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL
+                              `ithird`     FCiL,
 
     -- ;; Har~ar_1
     -- Hrr     Har~ar  PV      liberate;free
@@ -9924,7 +10001,8 @@ lexicon = listing "Lexicon's properties"
     -- HrY     HoraY   IV_0    be able;be possible
 
     FaCY                      `verb`       {- HaraY-i -}        [ "be able", "be possible" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; >aHoraY_1
     -- >HrY    >aHoraY PV_0    make worthy
@@ -10374,7 +10452,7 @@ lexicon = listing "Lexicon's properties"
     -- Hsn     Hosun   IV-n_intr       be beautiful;be good
 
     FaCuL                     `verb`       {- Hasun-u -}        [ "be beautiful", "be good" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; Has~an_1
     -- Hsn     Has~an  PV-n    improve;decorate
@@ -10545,8 +10623,8 @@ lexicon = listing "Lexicon's properties"
     -- Hsr     Hosir   IV      uncover;unveil
 
     FaCaL                     `verb`       {- Hasar-ui -}       [ "uncover", "unveil" ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     -- ;; Hasir-a_1
     -- Hsr     Hasir   PV_intr be aggrieved;be tired
@@ -10639,7 +10717,9 @@ lexicon = listing "Lexicon's properties"
     -- Hss     Hosis   IV_C    feel
 
     FaCL                      `verb`       {- Has~-i -}         [ "feel" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; Has~-a_1
     -- Hss     Hasis   PV_C    feel
@@ -10647,7 +10727,8 @@ lexicon = listing "Lexicon's properties"
     -- Hss     Hosas   IV_C    feel
 
     FaCL                      `verb`       {- Has~-a -}         [ "feel" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FaCiL
+                              `ithird`     FCaL,
 
     -- ;; >aHas~_1
     -- >Hs     >aHas~  PV_V    feel;perceive
@@ -10736,7 +10817,8 @@ lexicon = listing "Lexicon's properties"
     -- Hsy     Hosay   IV_Ann_Pass_yu  be sipped
 
     FaCA                      `verb`       {- HasA-u -}         [ "drink", "sip", "be sipped" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; taHas~aY_1
     -- tHsY    taHas~aY        PV_0    drink;sip
@@ -11047,7 +11129,9 @@ lexicon = listing "Lexicon's properties"
     -- Htt     Hotut   IV_C    rub off;scrape off;corrode
 
     FaCL                      `verb`       {- Hat~-u -}         [ "rub off", "scrape off", "corrode" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; taHAt~_1
     -- tHAt    taHAt~  PV_V    grind;corrode
@@ -11074,6 +11158,11 @@ lexicon = listing "Lexicon's properties"
     FiCL |< aT                `noun`       {- Hit~ap -}         [ "morsel", "piece", "morsels", "pieces" ]
                               `plural`     FiCaL
                               {- `others` [ ".hitat N" ] -},
+
+    -- ;; HutAt_1
+    -- HtAt    HutAt   N       scraps
+
+    FuL |< At                 `noun`       {- HutAt -}          [ "scraps" ],
 
     -- ;; taHAt~_2
     -- tHAt    taHAt~  N/At    erosion;corrosion
@@ -11218,7 +11307,10 @@ lexicon = listing "Lexicon's properties"
     -- HT      HuT     IV_C    guard;protect;encircle
 
     FAL                       `verb`       {- HAT-u -}          [ "guard", "protect", "encircle" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Haw~aT_1
     -- HwT     Haw~aT  PV      encircle;surround
@@ -11425,7 +11517,10 @@ lexicon = listing "Lexicon's properties"
     -- H$      Hu$     IV_C    round up;stop;hinder
 
     FAL                       `verb`       {- HA$-u -}          [ "round up", "stop", "hinder" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Haw~a$_1
     -- Hw$     Haw~a$  PV      amass;save;hoard
@@ -11462,7 +11557,10 @@ lexicon = listing "Lexicon's properties"
     -- H*      Hu*     IV_C    urge on;spur on
 
     FAL                       `verb`       {- HA*-u -}          [ "urge on", "spur on" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; >aHowa*_1
     -- >Hw*    >aHowa* PV      urge on;spur on
@@ -11545,7 +11643,10 @@ lexicon = listing "Lexicon's properties"
     -- Hd      Hud     IV_C    turn aside;turn away
 
     FAL                       `verb`       {- HAd-u -}          [ "turn aside", "turn away" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Haw~ad_1
     -- Hwd     Haw~ad  PV      turn off;turn
@@ -11579,7 +11680,10 @@ lexicon = listing "Lexicon's properties"
     -- Hk      Huk     IV_C    weave;knit
 
     FAL                       `verb`       {- HAk-u -}          [ "weave", "knit" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; HAk-u_2
     -- HAk     HAk     PV_V    contrive;fabricate
@@ -11588,7 +11692,10 @@ lexicon = listing "Lexicon's properties"
     -- Hk      Huk     IV_C    contrive;fabricate
 
     FAL                       `verb`       {- HAk-u -}          [ "contrive", "fabricate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; HA}ik_1
     -- HA}k    HA}ik   N/ap    weaver
@@ -11607,7 +11714,10 @@ lexicon = listing "Lexicon's properties"
     -- Hl      Hul     IV_C    prevent
 
     FAL                       `verb`       {- HAl-u -}          [ "prevent" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Haw~al_1
     -- Hwl     Haw~al  PV      change;convert;switch
@@ -11850,7 +11960,10 @@ lexicon = listing "Lexicon's properties"
     -- Hm      Hum     IV_C    hover;circle;glide
 
     FAL                       `verb`       {- HAm-u -}          [ "hover", "circle", "glide" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Haw~am_1
     -- Hwm     Haw~am  PV      circle;hover;revolve
@@ -11882,7 +11995,10 @@ lexicon = listing "Lexicon's properties"
     -- Hq      Huq     IV_C    surround;enclose;embrace
 
     FAL                       `verb`       {- HAq-u -}          [ "surround", "enclose", "embrace" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Haw~aq_1
     -- Hwq     Haw~aq  PV      surround;enclose;embrace
@@ -11927,7 +12043,10 @@ lexicon = listing "Lexicon's properties"
     -- Hr      Hur     IV_C    return;recede
 
     FAL                       `verb`       {- HAr-u -}          [ "return", "recede" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Haw~ar_1
     -- Hwr     Haw~ar  PV      modify;transform;whiten
@@ -12137,7 +12256,8 @@ lexicon = listing "Lexicon's properties"
     -- HwY     HowaY   IV_0    gather;encompass;clasp
 
     FaCY                      `verb`       {- HawaY-i -}        [ "gather", "encompass", "clasp" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; taHaw~aY_1
     -- tHwY    taHaw~aY        PV_0    curl up;coil up
@@ -12231,7 +12351,10 @@ lexicon = listing "Lexicon's properties"
     -- Hz      Huz     IV_C    possess;attain
 
     FAL                       `verb`       {- HAz-u -}          [ "possess", "attain" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; HAz-i_1
     -- HAz     HAz     PV_V    drive on;urge on (camels)
@@ -12240,7 +12363,9 @@ lexicon = listing "Lexicon's properties"
     -- Hz      Hiz     IV_C    drive on;urge on (camels)
 
     FAL                       `verb`       {- HAz-i -}          [ "drive on", "urge on (camels)" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `pfirst`     FaL
+                              `ithird`     FiL,
 
     -- ;; taHaw~az_1
     -- tHwz    taHaw~az        PV_intr twist;coil
@@ -12357,7 +12482,10 @@ lexicon = listing "Lexicon's properties"
     -- HD      HiD     IV_C    menstruate
 
     FAL                       `verb`       {- HAD-i -}          [ "menstruate" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; taHay~aD_1
     -- tHyD    taHay~aD        PV      menstruate
@@ -12399,7 +12527,10 @@ lexicon = listing "Lexicon's properties"
     -- HS      HiS     IV_C    escape;turn away
 
     FAL                       `verb`       {- HAS-i -}          [ "escape", "turn away" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; {inoHAS_1
     -- <nHAS   {inoHAS PV_V    escape;turn away
@@ -12502,7 +12633,10 @@ lexicon = listing "Lexicon's properties"
     -- Hd      Hid     IV_C    leave;deviate;desist
 
     FAL                       `verb`       {- HAd-i -}          [ "leave", "deviate", "desist" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; Hay~ad_1
     -- Hyd     Hay~ad  PV      keep aside;put aside
@@ -12603,7 +12737,10 @@ lexicon = listing "Lexicon's properties"
     -- Hf      Hif     IV_C_intr       be unjust;restrict;encroach
 
     FAL                       `verb`       {- HAf-i -}          [ "be unjust", "restrict", "encroach" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; taHay~af_1
     -- tHyf    taHay~af        PV      injure;prejudice;encroach
@@ -12720,7 +12857,10 @@ lexicon = listing "Lexicon's properties"
     -- Hn      Hin     IV_C    arrive;approach
 
     FAL                       `verb`       {- HAn-i -}          [ "arrive", "approach" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; taHay~an_1
     -- tHyn    taHay~an        PV-n    watch;wait
@@ -12760,7 +12900,10 @@ lexicon = listing "Lexicon's properties"
     -- Hq      Hiq     IV_C    overtake;pierce;surround
 
     FAL                       `verb`       {- HAq-i -}          [ "overtake", "pierce", "surround" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; >aHAq_1
     -- >HAq    >aHAq   PV_V    surround;bring down
@@ -12788,7 +12931,8 @@ lexicon = listing "Lexicon's properties"
     -- Hr      Har     IV_C_intr       be confused;be helpless;hesitate
 
     FAL                       `verb`       {- HAr-a -}          [ "be confused", "be helpless", "hesitate" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FiL
+                              `ithird`     FaL,
 
     -- ;; Hay~ar_1
     -- Hyr     Hay~ar  PV      confuse;bewilder
@@ -12888,8 +13032,7 @@ lexicon = listing "Lexicon's properties"
     -- Hyy     Hoyay   IV_Ann  live;experience;witness
     -- Hy      Hoya    IV_0hwnyn       live;experience;witness
 
-    FaCL                      `verb`       {- Hay~-a -}         [ "live", "experience", "witness" ]
-                              `imperf`     FCaL,
+    FaCL                      `verb`       {- Hay~-a -}         [ "live", "experience", "witness" ],
 
     -- ;; Hay~aY_1
     -- HyY     Hay~aY  PV_0    grant a long life
@@ -13274,14 +13417,14 @@ lexicon = listing "Lexicon's properties"
     -- Hzn     Hozun   IV-n    sadden;grieve
 
     FaCaL                     `verb`       {- Hazan-u -}        [ "sadden", "grieve" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; Hazin-a_1
     -- Hzn     Hazin   PV-n_intr       be sad;grieve
     -- Hzn     Hozan   IV-n_intr       be sad;grieve
 
     FaCiL                     `verb`       {- Hazin-a -}        [ "be sad", "grieve" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; Haz~an_1
     -- Hzn     Haz~an  PV-n    sadden;grieve
@@ -13412,7 +13555,9 @@ lexicon = listing "Lexicon's properties"
     -- Hzz     Hozuz   IV_C    notch;indent;cut
 
     FaCL                      `verb`       {- Haz~-u -}         [ "notch", "indent", "cut" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; Haz~az_1
     -- Hzz     Haz~az  PV      notch;indent;cut
@@ -13564,14 +13709,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- HakiymobA$iy -}   [ "senior physician", "chief surgeon" ] ]
 
- |> ".hal" <| [
-
-    -- ;; HalAF_1
-    -- HlA     HalAF   FW-WaBi sweetness;pleasantness     [[HalAF/NOUN]]
-    -- HlA     HalA    N0_Nhy  sweetness;pleasantness     [[HalAF/NOUN]]
-
-    Identity |< aN            `noun`       {- HalAF -}          [ "sweetness", "pleasantness" ] ]
-
  |> ".halAwY" <| [
 
     -- ;; HalAwaY_1
@@ -13605,23 +13742,6 @@ lexicon = listing "Lexicon's properties"
     -- Hlzwny  Halazuwniy~     Nall    spiral;winding     [[Halazuwniy~/ADJ]]
 
     Identity |< Iy            `adj`        {- Halazuwniy~ -}    [ "spiral", "winding" ] ]
-
- |> ".ham" <| [
-
-    -- ;; Ham_1
-    -- Hm      Ham     N       father-in-law
-    -- Hmy     Hamiy   FW-WaBi father-in-law + my      [[Ham/NOUN+iy/POSS_PRON_1S]]
-    -- Hmw     Hamuw   N0_Nh   father-in-law of
-    -- HmA     HamA    N0_Nh   father-in-law of
-    -- Hmy     Hamiy   N0_Nh   father-in-law of
-    -- >HmA'   >aHomA' N0_Nh   fathers-in-law
-    -- AHmA'   >aHomA' N0_Nh   fathers-in-law
-    -- >HmA&   >aHomA& Nh      fathers-in-law
-    -- AHmA&   >aHomA& Nh      fathers-in-law
-    -- >HmA}   >aHomA} Nhy     fathers-in-law
-    -- AHmA}   >aHomA} Nhy     fathers-in-law
-
-    Identity                  `noun`       {- Ham -}            [ "father-in-law", "father-in-law + my", "father-in-law of", "fathers-in-law" ] ]
 
  |> ".hamAdy" <| [
 
@@ -13909,15 +14029,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `adj`        {- HulowAniy~ -}     [ "confectioner", "pastry cook" ] ]
 
- |> ".hum" <| [
-
-    -- ;; Humap_1
-    -- Hm      Hum     NapAt   sting;prick
-    -- HmY     HumaY   N0      stings;pricks
-    -- HmA     HumA    Nhy     stings;pricks
-
-    Identity |< aT            `noun`       {- Humap -}          [ "sting", "prick", "stings", "pricks" ] ]
-
  |> ".humaydiy" <| [
 
     -- ;; Humayodiy_1
@@ -13943,13 +14054,6 @@ lexicon = listing "Lexicon's properties"
     -- Hsny    Husoniy Nprop   Hosny;Hosni
 
     Identity                  `noun`       {- Husoniy -}        [ "Hosny", "Hosni" ] ]
-
- |> ".hut" <| [
-
-    -- ;; HutAt_1
-    -- HtAt    HutAt   N       scraps
-
-    Identity |< At            `noun`       {- HutAt -}          [ "scraps" ] ]
 
  |> ".huway.sil" <| [
 

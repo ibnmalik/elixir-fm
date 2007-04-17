@@ -144,8 +144,7 @@ lexicon = listing "Lexicon's properties"
     -- S>y     So>ay   IV_Ann  twitter;chirp
     -- S}y     So}ay   IV_Ann  twitter;chirp
 
-    FaCY                      `verb`       {- SaOaY-a -}        [ "twitter", "chirp" ]
-                              `imperf`     FCaL,
+    FaCY                      `verb`       {- SaOaY-a -}        [ "twitter", "chirp" ],
 
     -- ;; Sa>aY-i_1
     -- S>Y     Sa>aY   PV_0    twitter;chirp
@@ -158,7 +157,8 @@ lexicon = listing "Lexicon's properties"
     -- S&      So&     IV_wn   twitter;chirp
 
     FaCY                      `verb`       {- SaOaY-i -}        [ "twitter", "chirp" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; Sa}iy~_1
     -- S}y     Sa}iy~  N       twittering;chirping
@@ -178,6 +178,13 @@ lexicon = listing "Lexicon's properties"
     -- ASgA'   <iSogA' NAt     attentiveness;listening
 
     HiFCAL                    `noun`       {- IiSogA' -}        [ "attentiveness", "listening" ] ]
+
+ |> ".s .g .g" <| [
+
+    -- ;; SagAF_1
+    -- SgA     SagAF   FW-WaBi inclination;disposition;benevolence     [[SagAF/NOUN]]
+
+    FaL |< aN                 `noun`       {- SagAF -}          [ "inclination", "disposition", "benevolence" ] ]
 
  |> ".s .g r" <| [
 
@@ -286,7 +293,8 @@ lexicon = listing "Lexicon's properties"
     -- Sgy     Sogay   IV_Ann_Pass_yu  be leaned over;be inclined
 
     FaCA                      `verb`       {- SagA-u -}         [ "lean over", "incline", "be leaned over", "be inclined" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; >aSogaY_1
     -- >SgY    >aSogaY PV_0    pay attention;heed
@@ -355,8 +363,7 @@ lexicon = listing "Lexicon's properties"
     -- Sgy     Sogay   IV_Ann  lean over;incline
     -- Sg      Soga    IV_0hwnyn       lean over;incline
 
-    FaCiL                     `verb`       {- Sagiy-a -}        [ "lean over", "incline" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- Sagiy-a -}        [ "lean over", "incline" ],
 
     -- ;; SAgiy_1
     -- SAgy    SAgiy   N0F     attentive;listening     [[SAgiy/ADJ]]
@@ -391,7 +398,9 @@ lexicon = listing "Lexicon's properties"
     -- SHH     SoHiH   IV_C_intr       be correct;be true
 
     FaCL                      `verb`       {- SaH~-i -}         [ "be correct", "be true" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; SaH~aH_1
     -- SHH     SaH~aH  PV      correct;confirm
@@ -749,7 +758,8 @@ lexicon = listing "Lexicon's properties"
     -- SHy     SoHay   IV_Ann_Pass_yu  wake up;regain consciousness
 
     FaCA                      `verb`       {- SaHA-u -}         [ "wake up", "regain consciousness" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; SaHow_1
     -- SHw     SaHow   N       serenity;clarity
@@ -815,8 +825,7 @@ lexicon = listing "Lexicon's properties"
     -- SHy     SoHay   IV_Ann  wake up;regain consciousness
     -- SH      SoHa    IV_0hwnyn       wake up;regain consciousness
 
-    FaCiL                     `verb`       {- SaHiy-a -}        [ "wake up", "regain consciousness" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- SaHiy-a -}        [ "wake up", "regain consciousness" ],
 
     -- ;; SAHiy_1
     -- SAHy    SAHiy   N0F     bright;serene     [[SAHiy/ADJ]]
@@ -1608,7 +1617,9 @@ lexicon = listing "Lexicon's properties"
     -- Sbb     Sobub   IV_C    pour;flow
 
     FaCL                      `verb`       {- Sab~-u -}         [ "pour", "flow" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; Sab~-a_1
     -- Sb      Sab~    PV_V    love passionately
@@ -1617,7 +1628,8 @@ lexicon = listing "Lexicon's properties"
     -- Sbb     Sobab   IV_C    love passionately
 
     FaCL                      `verb`       {- Sab~-a -}         [ "love passionately" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FaCiL
+                              `ithird`     FCaL,
 
     -- ;; taSab~ab_1
     -- tSbb    taSab~ab        PV      flow;perspire;drip
@@ -1699,7 +1711,28 @@ lexicon = listing "Lexicon's properties"
     -- SbY     Sab~aY  IV_0_Pass_yu    be rejuvenated
     -- Sby     Sab~ay  IV_Ann_Pass_yu  be rejuvenated
 
-    FaCLY                     `verb`       {- Sab~aY -}         [ "rejuvenate", "be rejuvenated" ] ]
+    FaCLY                     `verb`       {- Sab~aY -}         [ "rejuvenate", "be rejuvenated" ],
+
+    -- ;; Sab_1
+    -- Sb      Sab     NF      east wind     [[Sab/NOUN]]
+    -- SbA     SabA    N0      east wind
+    -- Sbw     Sabaw   NAt     east winds
+    -- >SbA'   >aSobA' N0_Nh   east winds
+    -- ASbA'   >aSobA' N0_Nh   east winds
+    -- >SbA&   >aSobA& Nh      east winds
+    -- ASbA&   >aSobA& Nh      east winds
+    -- >SbA}   >aSobA} Nhy     east winds
+    -- ASbA}   >aSobA} Nhy     east winds
+
+    FaL                       `noun`       {- Sab -}            [ "east wind", "east winds" ]
+                              `plural`     FaCA
+                              {- `others` [ ".sabA N0" ] -},
+
+    -- ;; SibAF_1
+    -- SbA     SibAF   FW-WaBi youth;childhood     [[SibAF/NOUN]]
+    -- SbA     SibA    N0_Nhy  youth;childhood
+
+    FiL |< aN                 `noun`       {- SibAF -}          [ "youth", "childhood" ] ]
 
  |> ".s b n" <| [
 
@@ -1879,7 +1912,8 @@ lexicon = listing "Lexicon's properties"
     -- Sby     Sobay   IV_Ann_Pass_yu  be strived for;be aspired to
 
     FaCA                      `verb`       {- SabA-u -}         [ "strive for", "aspire to", "be strived for", "be aspired to" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; Sab~aY_1
     -- SbY     Sab~aY  PV_0    rejuvenate
@@ -1976,8 +2010,7 @@ lexicon = listing "Lexicon's properties"
     -- Sby     Sobay   IV_Ann  be childish;be infantile
     -- Sb      Soba    IV_0hwnyn       be childish;be infantile
 
-    FaCiL                     `verb`       {- Sabiy-a -}        [ "be childish", "be infantile" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- Sabiy-a -}        [ "be childish", "be infantile" ],
 
     -- ;; Sabiy~_1
     -- Sby     Sabiy~  Ndu     young boy;youth
@@ -2225,7 +2258,9 @@ lexicon = listing "Lexicon's properties"
     -- Sdd     Sodud   IV_C    repel;deter;resist
 
     FaCL                      `verb`       {- Sad~-u -}         [ "repel", "deter", "resist" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; >aSad~_1
     -- >Sd     >aSad~  PV_V    suppurate;fester
@@ -2797,8 +2832,7 @@ lexicon = listing "Lexicon's properties"
     -- Sdy     Soday   IV_Ann  be thirsty
     -- Sd      Soda    IV_0hwnyn       be thirsty
 
-    FaCiL                     `verb`       {- Sadiy-a -}        [ "be thirsty" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- Sadiy-a -}        [ "be thirsty" ],
 
     -- ;; Sad~aY_1
     -- SdY     Sad~aY  PV_0    echo
@@ -3134,7 +3168,9 @@ lexicon = listing "Lexicon's properties"
     -- Sff     Sofuf   IV_C    arrange;classify
 
     FaCL                      `verb`       {- Saf~-u -}         [ "arrange", "classify" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; Saf~af_1
     -- Sff     Saf~af  PV      arrange
@@ -3221,7 +3257,15 @@ lexicon = listing "Lexicon's properties"
     -- SfY     Saf~aY  IV_0_Pass_yu    be purified;be liquidated
     -- Sfy     Saf~ay  IV_Ann_Pass_yu  be purified;be liquidated
 
-    FaCLY                     `verb`       {- Saf~aY -}         [ "clarify", "purify", "liquidate", "be purified", "be liquidated" ] ]
+    FaCLY                     `verb`       {- Saf~aY -}         [ "clarify", "purify", "liquidate", "be purified", "be liquidated" ],
+
+    -- ;; SafAF_1
+    -- SfA     SafAF   FW-WaBi stones;rocks     [[SafAF/NOUN]]
+    -- SfA     SafA    N0_Nhy  stones;rocks
+
+    FaL |< aN                 `noun`       {- SafAF -}          [ "stones", "rocks" ]
+                              `plural`     FaCA
+                              {- `others` [ ".safA N0_Nhy" ] -} ]
 
  |> ".s f n" <| [
 
@@ -3230,7 +3274,7 @@ lexicon = listing "Lexicon's properties"
     -- Sfn     Sofin   IV-n    ponder
 
     FaCaL                     `verb`       {- Safan-i -}        [ "ponder" ]
-                              `imperf`     FCiL,
+                              `ithird`     FCiL,
 
     -- ;; Safan_1
     -- Sfn     Safan   N       scrotum
@@ -3499,7 +3543,8 @@ lexicon = listing "Lexicon's properties"
     -- Sf      Sof     IV_0hwnyn       be pure
 
     FaCA                      `verb`       {- SafA-u -}         [ "be pure" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; Saf~aY_1
     -- SfY     Saf~aY  PV_0    clarify;purify;liquidate
@@ -4070,7 +4115,9 @@ lexicon = listing "Lexicon's properties"
     -- Skk     Sokuk   IV_C    strike;ring
 
     FaCL                      `verb`       {- Sak~-u -}         [ "strike", "ring" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; {iSoTak~_1
     -- <STk    {iSoTak~        PV_V    tremble;shake
@@ -4712,7 +4759,12 @@ lexicon = listing "Lexicon's properties"
     -- SlY     Sal~aY  IV_0_Pass_yu    be worshiped;be prayed
     -- Sly     Sal~ay  IV_Ann_Pass_yu  be worshiped;be prayed
 
-    FaCLY                     `verb`       {- Sal~aY -}         [ "pray", "worship", "be worshiped", "be prayed" ] ]
+    FaCLY                     `verb`       {- Sal~aY -}         [ "pray", "worship", "be worshiped", "be prayed" ],
+
+    -- ;; SalAt_1
+    -- SlAt    SalAt   Nprop   Salat
+
+    FaL |< At                 `noun`       {- SalAt -}          [ "Salat" ] ]
 
  |> ".s l n" <| [
 
@@ -4808,7 +4860,8 @@ lexicon = listing "Lexicon's properties"
     -- SlY     SolaY   IV_0_Pass_yu    be roasted
 
     FaCY                      `verb`       {- SalaY-i -}        [ "roast", "be roasted" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; Saliy-a_1
     -- Sly     Saliy   PV_no-w get burned
@@ -4817,8 +4870,7 @@ lexicon = listing "Lexicon's properties"
     -- Sly     Solay   IV_Ann  get burned
     -- Sl      Sola    IV_0hwnyn       get burned
 
-    FaCiL                     `verb`       {- Saliy-a -}        [ "get burned" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- Saliy-a -}        [ "get burned" ],
 
     -- ;; >aSolaY_1
     -- >SlY    >aSolaY PV_0    burn
@@ -5056,7 +5108,9 @@ lexicon = listing "Lexicon's properties"
     -- Smm     Somum   IV_C    plug;stop up
 
     FaCL                      `verb`       {- Sam~-u -}         [ "plug", "stop up" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; Sam~am_1
     -- Smm     Sam~am  PV_intr be determined;be persistent
@@ -5244,7 +5298,8 @@ lexicon = listing "Lexicon's properties"
     -- SmY     SomaY   IV_0    be fatally wounded
 
     FaCY                      `verb`       {- SamaY-i -}        [ "be fatally wounded" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; >aSomaY_1
     -- >SmY    >aSomaY PV_0    deal a fatal blow
@@ -6476,7 +6531,9 @@ lexicon = listing "Lexicon's properties"
     -- Srr     Sorir   IV_C    screech;chirp
 
     FaCL                      `verb`       {- Sar~-i -}         [ "screech", "chirp" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; >aSar~_1
     -- >Sr     >aSar~  PV_V    insist;assert
@@ -6571,7 +6628,10 @@ lexicon = listing "Lexicon's properties"
     -- Sg      Sug     IV_C    forge;create;formulate
 
     FAL                       `verb`       {- SAg-u -}          [ "forge", "create", "formulate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Sawog_1
     -- Swg     Sawog   N       molding;shaping
@@ -6672,7 +6732,10 @@ lexicon = listing "Lexicon's properties"
     -- Sx      Sux     IV_C_intr       be slippery;sink;swoon
 
     FAL                       `verb`       {- SAx-u -}          [ "be slippery", "sink", "swoon" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Sawox_1
     -- Swx     Sawox   N       sinking;swooning
@@ -6949,7 +7012,10 @@ lexicon = listing "Lexicon's properties"
     -- Sl      Sul     IV_C    attack;jump on
 
     FAL                       `verb`       {- SAl-u -}          [ "attack", "jump on" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; SAwal_1
     -- SAwl    SAwal   PV      attack;jump on
@@ -7002,7 +7068,10 @@ lexicon = listing "Lexicon's properties"
     -- Sm      Sum     IV_C    abstain;fast
 
     FAL                       `verb`       {- SAm-u -}          [ "abstain", "fast" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Sawom_1
     -- Swm     Sawom   N       fasting;abstinence
@@ -7059,7 +7128,10 @@ lexicon = listing "Lexicon's properties"
     -- Sn      Sun     IV_C    maintain;preserve;protect
 
     FAL                       `verb`       {- SAn-u -}          [ "maintain", "preserve", "protect" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Sawon_1
     -- Swn     Sawon   N       maintenance;preservation;protection
@@ -7212,7 +7284,10 @@ lexicon = listing "Lexicon's properties"
     -- St      Sut     IV_C    shout;sound out
 
     FAL                       `verb`       {- SAt-u -}          [ "shout", "sound out" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Saw~at_1
     -- Swt     Saw~at  PV-t    vote
@@ -7348,7 +7423,10 @@ lexicon = listing "Lexicon's properties"
     -- SH      SiH     IV_C    scream;call out
 
     FAL                       `verb`       {- SAH-i -}          [ "scream", "call out" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; Say~aH_1
     -- SyH     Say~aH  PV      scream;call out
@@ -7438,7 +7516,10 @@ lexicon = listing "Lexicon's properties"
     -- Sd      Sid     IV_C    hunt;fish;trap
 
     FAL                       `verb`       {- SAd-i -}          [ "hunt", "fish", "trap" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; taSay~ad_1
     -- tSyd    taSay~ad        PV      hunt;fish;trap
@@ -7668,7 +7749,10 @@ lexicon = listing "Lexicon's properties"
     -- Sr      Sir     IV_C    become;begin to
 
     FAL                       `verb`       {- SAr-i -}          [ "become", "begin to" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; Say~ar_1
     -- Syr     Say~ar  PV      induce;cause to do
@@ -7738,49 +7822,12 @@ lexicon = listing "Lexicon's properties"
 
     FaCCiL                    `noun`       {- Say~it -}         [ "megaphone" ] ]
 
- |> ".sa.g" <| [
-
-    -- ;; SagAF_1
-    -- SgA     SagAF   FW-WaBi inclination;disposition;benevolence     [[SagAF/NOUN]]
-
-    Identity |< aN            `noun`       {- SagAF -}          [ "inclination", "disposition", "benevolence" ] ]
-
- |> ".sab" <| [
-
-    -- ;; Sab_1
-    -- Sb      Sab     NF      east wind     [[Sab/NOUN]]
-    -- SbA     SabA    N0      east wind
-    -- Sbw     Sabaw   NAt     east winds
-    -- >SbA'   >aSobA' N0_Nh   east winds
-    -- ASbA'   >aSobA' N0_Nh   east winds
-    -- >SbA&   >aSobA& Nh      east winds
-    -- ASbA&   >aSobA& Nh      east winds
-    -- >SbA}   >aSobA} Nhy     east winds
-    -- ASbA}   >aSobA} Nhy     east winds
-
-    Identity                  `noun`       {- Sab -}            [ "east wind", "east winds" ] ]
-
  |> ".sabrA" <| [
 
     -- ;; SaborA_1
     -- SbrA    SaborA  Nprop   Sabra
 
     Identity                  `noun`       {- SaborA -}         [ "Sabra" ] ]
-
- |> ".saf" <| [
-
-    -- ;; SafAF_1
-    -- SfA     SafAF   FW-WaBi stones;rocks     [[SafAF/NOUN]]
-    -- SfA     SafA    N0_Nhy  stones;rocks
-
-    Identity |< aN            `noun`       {- SafAF -}          [ "stones", "rocks" ] ]
-
- |> ".sal" <| [
-
-    -- ;; SalAt_1
-    -- SlAt    SalAt   Nprop   Salat
-
-    Identity |< At            `noun`       {- SalAt -}          [ "Salat" ] ]
 
  |> ".samuw'iyl" <| [
 
@@ -7837,14 +7884,6 @@ lexicon = listing "Lexicon's properties"
     -- SydlAny SayodalAniy~    Nall    pharmacist
 
     Identity |< Iy            `adj`        {- SayodalAniy~ -}   [ "pharmacist" ] ]
-
- |> ".sib" <| [
-
-    -- ;; SibAF_1
-    -- SbA     SibAF   FW-WaBi youth;childhood     [[SibAF/NOUN]]
-    -- SbA     SibA    N0_Nhy  youth;childhood
-
-    Identity |< aN            `noun`       {- SibAF -}          [ "youth", "childhood" ] ]
 
  |> ".sibyAniyy" <| [
 

@@ -59,6 +59,10 @@ lexicon = listing "Lexicon's properties"
 
  |> "y d d" <| [
 
+    FaL                       `noun`       {- yad -}            [ "hand", "hands" ]
+                              `plural`     HaFAL
+                              {- `others` [ "'ayAd NK" ] -},
+
     FaCY |< Iy                `adj`        {- yadawiy~ -}       [ "manual", "hand" ] ]
 
  |> "y f `" <| [
@@ -80,13 +84,13 @@ lexicon = listing "Lexicon's properties"
  |> "y m n" <| [
 
     FaCaL                     `verb`       {- yaman-u -}        [ "be lucky", "be fortunate" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     FaCiL                     `verb`       {- yamin-a -}        [ "be lucky", "be fortunate" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     FaCuL                     `verb`       {- yamun-u -}        [ "be lucky", "be fortunate" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     FaCCaL                    `verb`       {- yam~an -}         [ "go to the right" ],
 
@@ -130,6 +134,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "y n n" <| [
 
+    FiL                       `noun`       {- yin -}            [ "Yen" ],
+
     FUCAL                     `noun`       {- yuwnAn -}         [ "Greece" ],
 
     FUCAL |< Iy               `adj`        {- yuwnAniy~ -}      [ "Greek" ] ]
@@ -166,7 +172,7 @@ lexicon = listing "Lexicon's properties"
  |> "y q n" <| [
 
     FaCiL                     `verb`       {- yaqin-a -}        [ "be sure", "know for certain" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     HaFCaL                    `verb`       {- Oayoqan -}        [ "ascertain", "be convinced" ],
 
@@ -323,6 +329,14 @@ lexicon = listing "Lexicon's properties"
 
     KuRDuS |< Iy              `adj`        {- yuwsufiy~ -}      [ "tangerines" ] ]
 
+ |> "y w w" <| [
+
+    FuL                       `noun`       {- yuw -}            [ "Yo", "Yu" ] ]
+
+ |> "y y y" <| [
+
+    FiL                       `noun`       {- yiy -}            [ "Yi" ] ]
+
  |> "yA" <| [
 
     Identity                  `noun`       {- yA -}             [ "oh", "you" ] ]
@@ -359,29 +373,13 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- yAsomiyn -}       [ "jasmine" ] ]
 
- |> "yad" <| [
-
-    Identity                  `noun`       {- yad -}            [ "hand", "hands" ] ]
-
  |> "yadiy`uwt" <| [
 
     Identity                  `noun`       {- yadiyEuwt -}      [ "Yediot" ] ]
 
- |> "yin" <| [
-
-    Identity                  `noun`       {- yin -}            [ "Yen" ] ]
-
- |> "yiy" <| [
-
-    Identity                  `noun`       {- yiy -}            [ "Yi" ] ]
-
  |> "yusriy" <| [
 
     Identity                  `noun`       {- yusoriy -}        [ "Yusri", "Yosri" ] ]
-
- |> "yuw" <| [
-
-    Identity                  `noun`       {- yuw -}            [ "Yo", "Yu" ] ]
 
  |> "yuw.guwslAf" <| [
 

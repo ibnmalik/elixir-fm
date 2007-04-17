@@ -4822,12 +4822,18 @@ $Lexicon = {
           'FIL',
           'FiCL'
         ],
+        'ta.h' => [
+          'FaL'
+        ],
         'tA.h' => [
           'FAL'
         ],
         '\'utiy.h' => [
           'HuFIL',
           'HuFiCL'
+        ],
+        'ti.h' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -5757,6 +5763,9 @@ $Lexicon = {
         'tq      tuq     IV_C    yearn;wish;desire'
       ],
       'patterns' => {
+        'tuq' => [
+          'FuL'
+        ],
         'tuwq' => [
           'FUL',
           'FuCL'
@@ -6789,6 +6798,9 @@ $Lexicon = {
         'tb      tub     IV_C    repent'
       ],
       'patterns' => {
+        'tub' => [
+          'FuL'
+        ],
         'tuwb' => [
           'FUL',
           'FuCL'
@@ -9001,66 +9013,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tak' => [
-    {
-      'types' => {
-        'takAyA' => {
-          'N0_Nhy' => 1
-        },
-        'takiyyaT' => {
-          'Napdu' => 1
-        }
-      },
-      'entry' => 'tak',
-      'form' => 'takiyyaT',
-      'lines' => [
-        ';; takiy~ap_1',
-        'tky     takiy~  Napdu   monastery;hospice     [[takiy~/NOUN]]',
-        'tkAyA   takAyA  N0_Nhy  monasteries;hospices'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'monastery',
-        'hospice',
-        'monasteries',
-        'hospices'
-      ],
-      'orig' => 'takiy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'takAyA' => {
-          'N0_Nhy' => 1
-        },
-        'takiyyaT' => {
-          'Napdu' => 1
-        }
-      },
-      'entry' => 'tak',
-      'form' => 'takiyyaT',
-      'lines' => [
-        ';; takiy~ap_2',
-        'tky     takiy~  Napdu   asylum     [[takiy~/NOUN]]',
-        'tkAyA   takAyA  N0_Nhy  asylums'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'asylum',
-        'asylums'
-      ],
-      'orig' => 'takiy~ap',
-      'prefix' => ''
-    }
-  ],
   't^sAynA' => [
     {
       'types' => {
@@ -9221,6 +9173,9 @@ $Lexicon = {
         'th      tih     IV_C    get lost;perish'
       ],
       'patterns' => {
+        'tih' => [
+          'FiL'
+        ],
         'tiyh' => [
           'FIL',
           'FiCL'
@@ -9303,8 +9258,14 @@ $Lexicon = {
         'th      tah     IV_C_Pass_yu    be misled;be confused'
       ],
       'patterns' => {
+        'tih' => [
+          'FiL'
+        ],
         'tAh' => [
           'FAL'
+        ],
+        'tah' => [
+          'FaL'
         ],
         'tiyh' => [
           'FIL',
@@ -9948,6 +9909,64 @@ $Lexicon = {
         'ticking'
       ],
       'orig' => 'tik~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'takAyA' => {
+          'N0_Nhy' => 1
+        },
+        'takiyyaT' => {
+          'Napdu' => 1
+        }
+      },
+      'entry' => 'tak',
+      'form' => 'takiyyaT',
+      'lines' => [
+        ';; takiy~ap_1',
+        'tky     takiy~  Napdu   monastery;hospice     [[takiy~/NOUN]]',
+        'tkAyA   takAyA  N0_Nhy  monasteries;hospices'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'monastery',
+        'hospice',
+        'monasteries',
+        'hospices'
+      ],
+      'orig' => 'takiy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'takAyA' => {
+          'N0_Nhy' => 1
+        },
+        'takiyyaT' => {
+          'Napdu' => 1
+        }
+      },
+      'entry' => 'tak',
+      'form' => 'takiyyaT',
+      'lines' => [
+        ';; takiy~ap_2',
+        'tky     takiy~  Napdu   asylum     [[takiy~/NOUN]]',
+        'tkAyA   takAyA  N0_Nhy  asylums'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'asylum',
+        'asylums'
+      ],
+      'orig' => 'takiy~ap',
       'prefix' => ''
     }
   ],
@@ -10598,6 +10617,9 @@ $Lexicon = {
         'tm      tim     IV_C_intr       be infatuated;be enslaved'
       ],
       'patterns' => {
+        'tim' => [
+          'FiL'
+        ],
         'tiym' => [
           'FIL',
           'FiCL'
@@ -14648,6 +14670,9 @@ $Lexicon = {
         'th      tuh     IV_C    go astray;get lost'
       ],
       'patterns' => {
+        'tuh' => [
+          'FuL'
+        ],
         'tuwh' => [
           'FUL',
           'FuCL'

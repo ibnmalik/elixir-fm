@@ -157,6 +157,23 @@ lexicon = listing "Lexicon's properties"
 
  |> "m ' '" <| [
 
+    -- ;; mi}ap_1
+    -- m}      mi}     Napdu   hundred
+    -- mA}     miA}    Napdu   hundred
+    -- m}      mi}     NAt     hundreds
+    -- mA}     miA}    NAt     hundreds
+    -- m}wn    mi}uwn  N0      hundreds
+
+    FiL |< aT                 `noun`       {- mi}ap -}          [ "hundred", "hundreds" ]
+                              `plural`     FiL |< At
+                              {- `others` [ "mi' NAt" ] -},
+
+    -- ;; mi}ap_2
+    -- m}      mi}     Nap     (per) cent
+    -- mA}     miA}    Nap     (per) cent
+
+    FiL |< aT                 `noun`       {- mi}ap -}          [ "(per) cent" ],
+
     -- ;; mi}awiy~_1
     -- m}wy    mi}awiy~        Nall    one-hundred;hundreth;percentage     [[mi}awiy~/ADJ]]
     -- mA}wy   miA}awiy~       Nall    one-hundred;hundreth;percentage     [[mi}awiy~/ADJ]]
@@ -254,7 +271,7 @@ lexicon = listing "Lexicon's properties"
     -- m>n     mo>an   IV-n    sustain;provide
 
     FaCaL                     `verb`       {- maOan-a -}        [ "sustain", "provide" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; ma>on_1
     -- m>n     ma>on   N       sustaining;providing
@@ -431,7 +448,9 @@ lexicon = listing "Lexicon's properties"
     -- mDD     moDuD   IV_C    hurt;sting;harass
 
     FaCL                      `verb`       {- maD~-u -}         [ "hurt", "sting", "harass" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; maD~-a_1
     -- mD      maD~    PV_V_intr       suffer;be worried
@@ -440,7 +459,8 @@ lexicon = listing "Lexicon's properties"
     -- mDD     moDaD   IV_C_intr       suffer;be worried
 
     FaCL                      `verb`       {- maD~-a -}         [ "suffer", "be worried" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FaCiL
+                              `ithird`     FCaL,
 
     -- ;; >amaD~_1
     -- >mD     >amaD~  PV_V    hurt;torment
@@ -586,7 +606,8 @@ lexicon = listing "Lexicon's properties"
     -- mD      moD     IV_0hwnyn       continue;proceed
 
     FaCY                      `verb`       {- maDaY-i -}        [ "continue", "proceed" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; maDaY-i_2
     -- mDY     maDaY   PV_0    elapse;expire
@@ -597,7 +618,8 @@ lexicon = listing "Lexicon's properties"
     -- mD      moD     IV_0hwnyn       elapse;expire
 
     FaCY                      `verb`       {- maDaY-i -}        [ "elapse", "expire" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; maD~aY_1
     -- mDY     maD~aY  PV_0    spend
@@ -1154,7 +1176,7 @@ lexicon = listing "Lexicon's properties"
     -- mHn     moHan   IV-n    put to test;examine
 
     FaCaL                     `verb`       {- maHan-a -}        [ "put to test", "examine" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; {imotaHan_1
     -- <mtHn   {imotaHan       PV-n    put to test;examine
@@ -1261,7 +1283,8 @@ lexicon = listing "Lexicon's properties"
     -- mHy     moHay   IV_Ann_Pass_yu  be wiped out;be eradicated;be exterminated
 
     FaCA                      `verb`       {- maHA-u -}         [ "wipe out", "eradicate", "exterminate", "be wiped out", "be eradicated", "be exterminated" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; maH~aY_1
     -- mHY     maH~aY  PV_0    wipe out;eradicate;exterminate
@@ -1412,7 +1435,8 @@ lexicon = listing "Lexicon's properties"
     -- mSS     moSaS   IV_C    suck;absorb;lap up
 
     FaCL                      `verb`       {- maS~-a -}         [ "suck", "absorb", "lap up" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FaCiL
+                              `ithird`     FCaL,
 
     -- ;; maS~-u_1
     -- mSS     maSaS   PV_C    suck;absorb;lap up
@@ -1420,7 +1444,9 @@ lexicon = listing "Lexicon's properties"
     -- mSS     moSuS   IV_C    suck;absorb;lap up
 
     FaCL                      `verb`       {- maS~-u -}         [ "suck", "absorb", "lap up" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; tamaS~aS_1
     -- tmSS    tamaS~aS        PV      sip
@@ -1619,7 +1645,9 @@ lexicon = listing "Lexicon's properties"
     -- mTT     moTuT   IV_C    stretch;draw tight;make taut
 
     FaCL                      `verb`       {- maT~-u -}         [ "stretch", "draw tight", "make taut" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; maT~aT_1
     -- mTT     maT~aT  PV      expand;stretch
@@ -1820,7 +1848,8 @@ lexicon = listing "Lexicon's properties"
     -- mT      moT     IV_0hwnyn       hurry
 
     FaCA                      `verb`       {- maTA-u -}         [ "hurry" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; >amoTaY_1
     -- >mTY    >amoTaY PV_0    ride;mount
@@ -1885,7 +1914,9 @@ lexicon = listing "Lexicon's properties"
     -- mjj     mojuj   IV_C    emit;discharge;reject
 
     FaCL                      `verb`       {- maj~-u -}         [ "emit", "discharge", "reject" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; maj~aj_1
     -- mjj     maj~aj  PV      ripen;mellow
@@ -2057,7 +2088,7 @@ lexicon = listing "Lexicon's properties"
     -- mjn     mojun   IV-n    joke;scoff
 
     FaCaL                     `verb`       {- majan-u -}        [ "joke", "scoff" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; mAjan_1
     -- mAjn    mAjan   PV-n    jeer;scoff;joke
@@ -2221,8 +2252,8 @@ lexicon = listing "Lexicon's properties"
     -- m$T     mo$uT   IV      comb
 
     FaCaL                     `verb`       {- ma$aT-iu -}       [ "comb" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; ma$~aT_1
     -- m$T     ma$~aT  PV      comb
@@ -2301,7 +2332,9 @@ lexicon = listing "Lexicon's properties"
     -- m$$     mo$u$   IV_C    macerate;soak
 
     FaCL                      `verb`       {- ma$~-u -}         [ "macerate", "soak" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; ma$~_1
     -- m$      ma$~    N       maceration;soaking
@@ -2467,7 +2500,8 @@ lexicon = listing "Lexicon's properties"
     -- m$Y     mo$aY   IV_0    walk;proceed
 
     FaCY                      `verb`       {- ma$aY-i -}        [ "walk", "proceed" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; ma$~aY_1
     -- m$Y     ma$~aY  PV_0    make walk;adjust
@@ -2602,6 +2636,15 @@ lexicon = listing "Lexicon's properties"
 
     FUCiy                     `noun`       {- muw$iy -}         [ "Moshe" ] ]
 
+ |> "m _d _d" <| [
+
+    -- ;; mu*_1
+    -- m*      mu*     FW-Wa   since     [[mu*/PREP]]
+    -- m*Ak    mu*~Ak  FW-Wa   since then    [[mu*~Ak/PREP]]
+    -- m**Ak   mu*o*Ak FW-Wa   since then    [[mu*o*Ak/PREP]]
+
+    FuL                       `noun`       {- mu* -}            [ "since", "since then" ] ]
+
  |> "m _d h b" <| [
 
     -- ;; tama*ohab_1
@@ -2706,9 +2749,9 @@ lexicon = listing "Lexicon's properties"
     -- mxD     moxaD   IV      churn;shake;mull over
 
     FaCaL                     `verb`       {- maxaD-uia -}      [ "churn", "shake", "mull over" ]
+                              `imperf`     FCaL
                               `imperf`     FCuL
-                              `imperf`     FCiL
-                              `imperf`     FCaL,
+                              `imperf`     FCiL,
 
     -- ;; maxiD-a_1
     -- mxD     maxiD   PV_intr be parturient;be in labor
@@ -2754,8 +2797,8 @@ lexicon = listing "Lexicon's properties"
     -- mxT     moxuT   IV      blow the nose
 
     FaCaL                     `verb`       {- maxaT-au -}       [ "blow the nose" ]
-                              `imperf`     FCaL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCaL,
 
     -- ;; tamax~aT_1
     -- tmxT    tamax~aT        PV      blow the nose
@@ -3205,6 +3248,18 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`       {- tamaE~aj -}       [ "meander" ] ]
 
+ |> "m ` `" <| [
+
+    -- ;; maEAF_1
+    -- mEA     maEAF   FW-Wa   together        [[maEAF/ADV]]
+
+    FaL |< aN                 `noun`       {- maEAF -}          [ "together" ],
+
+    -- ;; maEiy~ap_1
+    -- mEy     maEiy~  Nap     company;escort     [[maEiy~/NOUN]]
+
+    FaL |< Iy |< aT           `noun`       {- maEiy~ap -}       [ "company", "escort" ] ]
+
  |> "m ` d" <| [
 
     -- ;; maEad-a_1
@@ -3376,7 +3431,8 @@ lexicon = listing "Lexicon's properties"
     -- mEw     moEuw   IV_0hAnn        mew;meow
 
     FaCA                      `verb`       {- maEA-u -}         [ "mew", "meow" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; muEA'_1
     -- mEA'    muEA'   N0_Nh   mewing;meow
@@ -3551,7 +3607,9 @@ lexicon = listing "Lexicon's properties"
     -- mdd     modud   IV_C    extend;stretch;spread out
 
     FaCL                      `verb`       {- mad~-u -}         [ "extend", "stretch", "spread out" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; mad~ad_1
     -- mdd     mad~ad  PV      extend;stretch out;spread out
@@ -4147,15 +4205,15 @@ lexicon = listing "Lexicon's properties"
     -- mhn     mohan   IV-n    degrade
 
     FaCaL                     `verb`       {- mahan-ua -}       [ "degrade" ]
-                              `imperf`     FCuL
-                              `imperf`     FCaL,
+                              `ithird`     FCaL
+                              `ithird`     FCuL,
 
     -- ;; mahun-u_1
     -- mhn     mahun   PV-n_intr       be despicable
     -- mhn     mohun   IV-n_intr       be despicable
 
     FaCuL                     `verb`       {- mahun-u -}        [ "be despicable" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; mAhan_1
     -- mAhn    mAhan   PV-n    practice
@@ -4837,8 +4895,8 @@ lexicon = listing "Lexicon's properties"
     -- mlH     molaH   IV_intr become salty
 
     FaCaL                     `verb`       {- malaH-ua -}       [ "become salty" ]
-                              `imperf`     FCuL
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `imperf`     FCuL,
 
     -- ;; maluH-u_1
     -- mlH     maluH   PV_intr become salty;be pretty
@@ -5194,8 +5252,7 @@ lexicon = listing "Lexicon's properties"
     -- mlk     molak   IV_Pass_yu      be held;be controlled;be possessed
 
     FaCaL                     `verb`       {- malak-ia -}       [ "have", "hold", "control", "be held", "be controlled", "be possessed" ]
-                              `imperf`     FCiL
-                              `imperf`     FCaL,
+                              `imperf`     FCiL,
 
     -- ;; mal~ak_1
     -- mlk     mal~ak  PV      make owner
@@ -5447,7 +5504,8 @@ lexicon = listing "Lexicon's properties"
     -- mll     molal   IV_C_intr       become bored with;become impatient with
 
     FaCL                      `verb`       {- mal~-a -}         [ "become bored with", "become impatient with" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FaCiL
+                              `ithird`     FCaL,
 
     -- ;; >amal~_1
     -- >ml     >amal~  PV_V    annoy;irritate;bother
@@ -5732,7 +5790,8 @@ lexicon = listing "Lexicon's properties"
     -- mlw     moluw   IV_0hAnn        walk briskly
 
     FaCA                      `verb`       {- malA-u -}         [ "walk briskly" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; mal~aY_1
     -- mlY     mal~aY  PV_0    entertain;make enjoy
@@ -6219,6 +6278,23 @@ lexicon = listing "Lexicon's properties"
 
  |> "m n n" <| [
 
+    -- ;; min_1
+    -- mn      min     FW-Wa   from     [[min/PREP]]
+    -- mn      min     FW-Wa-n from     [[min/PREP]]
+    -- lmn     lamin   FW      indeed    [[la/EMPHATIC_PARTICLE+min/PREP]]
+
+    FiL                       `noun`       {- min -}            [ "from", "indeed" ],
+
+    -- ;; man_1
+    -- mn      man     FW-WaBi who/whom   [[man/REL_PRON]]
+
+    FaL                       `noun`       {- man -}            [ "who/whom" ],
+
+    -- ;; man_2
+    -- mn      man     FW-WaBi who/whom   [[man/INTERROG_PART]]
+
+    FaL                       `noun`       {- man -}            [ "who/whom" ],
+
     -- ;; man~aY_1
     -- mnY     man~aY  PV_0    arouse;raise hopes
     -- mnA     man~A   PV_h    arouse;raise hopes
@@ -6252,7 +6328,8 @@ lexicon = listing "Lexicon's properties"
     -- mnw     monuw   IV_0hAnn        afflict;put to the test
 
     FaCA                      `verb`       {- manA-u -}         [ "afflict", "put to the test" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; manaY-i_1
     -- mnY     manaY   PV_0    afflict;put to the test
@@ -6265,7 +6342,7 @@ lexicon = listing "Lexicon's properties"
     -- mnY     monaY   IV_0_Pass_yu    be afflicted;be put to the test
 
     FaCY                      `verb`       {- manaY-i -}        [ "afflict", "put to the test", "be afflicted", "be put to the test" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCI,
 
     -- ;; man~aY_1
     -- mnY     man~aY  PV_0    arouse;raise hopes
@@ -6523,7 +6600,7 @@ lexicon = listing "Lexicon's properties"
     -- mr}     moru}   IV_yn   be wholesome
 
     FaCiL                     `verb`       {- mari}-a -}        [ "be wholesome" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCuL,
 
     -- ;; maru&-a_1
     -- mr&     maru&   PV_intr be manly;be healthy
@@ -6531,7 +6608,7 @@ lexicon = listing "Lexicon's properties"
     -- mr}     moru}   IV_yn   be manly;be healthy
 
     FaCuL                     `verb`       {- maruW-a -}        [ "be manly", "be healthy" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCuL,
 
     -- ;; {isotamora>_1
     -- <stmr>  {isotamora>     PV->    enjoy;savor
@@ -7148,7 +7225,7 @@ lexicon = listing "Lexicon's properties"
     -- mrn     morun   IV-n_intr       be flexible;become accustomed
 
     FaCaL                     `verb`       {- maran-u -}        [ "be flexible", "become accustomed" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; mar~an_1
     -- mrn     mar~an  PV-n    train;drill;condition
@@ -7324,7 +7401,9 @@ lexicon = listing "Lexicon's properties"
     -- mrr     morur   IV_C    pass;go through
 
     FaCL                      `verb`       {- mar~-u -}         [ "pass", "go through" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; mar~ar_1
     -- mrr     mar~ar  PV      let pass through;make bitter
@@ -7986,6 +8065,7 @@ lexicon = listing "Lexicon's properties"
     -- Amsk    <imosik CV      hold;seize;catch;grab
 
     FaCaL                     `verb`       {- masak-u -}        [ "seize", "hold", "be seized", "be held", "catch", "grab" ]
+                              `imperf`     FCiL
                               `imperf`     FCuL,
 
     -- ;; mas~ak_1
@@ -8212,7 +8292,8 @@ lexicon = listing "Lexicon's properties"
     -- mss     mosas   IV_C    touch;violate;infringe
 
     FaCL                      `verb`       {- mas~-a -}         [ "touch", "violate", "infringe" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FaCaL
+                              `ithird`     FCaL,
 
     -- ;; mAs~_1
     -- mAs     mAs~    PV_V_intr       be in touch with;be in contact with
@@ -8400,7 +8481,8 @@ lexicon = listing "Lexicon's properties"
     -- msY     mosaY   IV_0    make lean;emaciate
 
     FaCY                      `verb`       {- masaY-i -}        [ "make lean", "emaciate" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; muwsaY_1
     -- mwsY    muwsaY  Nprop   Mousa;Moussa
@@ -8615,7 +8697,7 @@ lexicon = listing "Lexicon's properties"
     -- mtn     motun   IV-n_intr       be firm;be strong;be robust
 
     FaCaL                     `verb`       {- matan-u -}        [ "be firm", "be strong", "be robust" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; mat~an_1
     -- mtn     mat~an  PV-n    strengthen;consolidate
@@ -8679,7 +8761,9 @@ lexicon = listing "Lexicon's properties"
     -- mtt     motut   IV_C_intr       be related by marriage;be associated
 
     FaCL                      `verb`       {- mat~-u -}         [ "be related by marriage", "be associated" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; mAt~ap_1
     -- mAt     mAt~    Nap     family ties;kinship
@@ -8789,7 +8873,10 @@ lexicon = listing "Lexicon's properties"
     -- mj      muj     IV_C    surge;swell;be agitated
 
     FAL                       `verb`       {- mAj-u -}          [ "surge", "swell", "be agitated" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; maw~aj_1
     -- mwj     maw~aj  PV      ripple
@@ -8897,7 +8984,10 @@ lexicon = listing "Lexicon's properties"
     -- mh      muh     IV_C    mix;have abundant water
 
     FAL                       `verb`       {- mAh-u -}          [ "mix", "have abundant water" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; maw~ah_1
     -- mwh     maw~ah  PV      have abundant water;add water;dilute
@@ -9021,6 +9111,16 @@ lexicon = listing "Lexicon's properties"
 
  |> "m w m" <| [
 
+    -- ;; mamAt_1
+    -- mmAt    mamAt   N       death;place of death
+
+    FaL |< At                 `noun`       {- mamAt -}          [ "death", "place of death" ],
+
+    -- ;; mumAt_1
+    -- mmAt    mumAt   N-ap    obsolete;antiquated     [[mumAt/ADJ]]
+
+    FuL |< At                 `adj`        {- mumAt -}          [ "obsolete", "antiquated" ],
+
     -- ;; muwm_1
     -- mwm     muwm    N       wax
 
@@ -9078,7 +9178,10 @@ lexicon = listing "Lexicon's properties"
     -- mr      mur     IV_C    move from side to side
 
     FAL                       `verb`       {- mAr-u -}          [ "move from side to side" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; tamaw~ar_1
     -- tmwr    tamaw~ar        PV      move from side to side
@@ -9190,7 +9293,10 @@ lexicon = listing "Lexicon's properties"
     -- mt      mut     IV_C    die;pass away
 
     FAL                       `verb`       {- mAt-u -}          [ "die", "pass away" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; maw~at_1
     -- mwt     maw~at  PV-t    kill
@@ -9267,6 +9373,13 @@ lexicon = listing "Lexicon's properties"
 
     KuRDUS                    `noun`       {- muwtuwr -}        [ "motor" ] ]
 
+ |> "m w w" <| [
+
+    -- ;; mawAt_1
+    -- mwAt    mawAt   N       inanimate;uncultivated
+
+    FaL |< At                 `noun`       {- mawAt -}          [ "inanimate", "uncultivated" ] ]
+
  |> "m w z" <| [
 
     -- ;; mawoz_1
@@ -9305,7 +9418,10 @@ lexicon = listing "Lexicon's properties"
     -- mH      miH     IV_C    strut;waddle
 
     FAL                       `verb`       {- mAH-i -}          [ "strut", "waddle" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; tamay~aH_1
     -- tmyH    tamay~aH        PV      stagger;swing
@@ -9350,7 +9466,10 @@ lexicon = listing "Lexicon's properties"
     -- mT      miT     IV_C    remove;pull away;draw back
 
     FAL                       `verb`       {- mAT-i -}          [ "remove", "pull away", "draw back" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; >amAT_1
     -- >mAT    >amAT   PV_V    remove;pull away;draw back
@@ -9414,7 +9533,10 @@ lexicon = listing "Lexicon's properties"
     -- mE      miE     IV_C    dissolve;melt;be indulgent
 
     FAL                       `verb`       {- mAE-i -}          [ "dissolve", "melt", "be indulgent" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; may~aE_1
     -- myE     may~aE  PV      soften;attenuate;liquify
@@ -9505,7 +9627,10 @@ lexicon = listing "Lexicon's properties"
     -- md      mid     IV_C    shake;totter;sway
 
     FAL                       `verb`       {- mAd-i -}          [ "shake", "totter", "sway" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; tamAyad_1
     -- tmAyd   tamAyad PV      sway back and forth
@@ -9609,7 +9734,10 @@ lexicon = listing "Lexicon's properties"
     -- ml      mil     IV_C_intr       lean;bend;incline;be partial;sympathize
 
     FAL                       `verb`       {- mAl-i -}          [ "lean", "bend", "incline", "be partial", "sympathize" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; may~al_1
     -- myl     may~al  PV      incline;tilt
@@ -9777,7 +9905,10 @@ lexicon = listing "Lexicon's properties"
     -- mr      mir     IV_C    provide for;support
 
     FAL                       `verb`       {- mAr-i -}          [ "provide for", "support" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; >amAr_1
     -- >mAr    >amAr   PV_V    provide for;support
@@ -9841,7 +9972,10 @@ lexicon = listing "Lexicon's properties"
     -- ms      mis     IV_C    swagger
 
     FAL                       `verb`       {- mAs-i -}          [ "swagger" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; mayos_1
     -- mys     mayos   N       swagger
@@ -9924,7 +10058,10 @@ lexicon = listing "Lexicon's properties"
     -- mz      miz     IV_C    separate;distinguish
 
     FAL                       `verb`       {- mAz-i -}          [ "separate", "distinguish" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; may~az_1
     -- myz     may~az  PV      distinguish;differentiate;discriminate
@@ -10307,7 +10444,9 @@ lexicon = listing "Lexicon's properties"
     -- mzz     mozuz   IV_C    sip;suck
 
     FaCL                      `verb`       {- maz~-u -}         [ "sip", "suck" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; {imotaz~_1
     -- <mtz    {imotaz~        PV_V    adsorb;accumulate on the surface
@@ -10333,7 +10472,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; maz~ap_1
     -- mz      maz~    NapAt   appetizers;entrees
 
-    FaCL |< aT                `noun`       {- maz~ap -}         [ "appetizers", "entrees" ] ]
+    FaCL |< aT                `noun`       {- maz~ap -}         [ "appetizers", "entrees" ],
+
+    -- ;; maziy~ap_1
+    -- mzy     maziy~  Napdu   feature;advantage     [[maziy~/NOUN]]
+    -- mzAyA   mazAyA  N0_Nhy  features;advantages
+
+    FaL |< Iy |< aT           `noun`       {- maziy~ap -}       [ "feature", "advantage", "features", "advantages" ] ]
 
  |> "mA" <| [
 
@@ -11032,18 +11177,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- majoniyziywm -}   [ "magnesium" ] ]
 
- |> "ma`" <| [
-
-    -- ;; maEAF_1
-    -- mEA     maEAF   FW-Wa   together        [[maEAF/ADV]]
-
-    Identity |< aN            `noun`       {- maEAF -}          [ "together" ],
-
-    -- ;; maEiy~ap_1
-    -- mEy     maEiy~  Nap     company;escort     [[maEiy~/NOUN]]
-
-    Identity |< Iy |< aT      `noun`       {- maEiy~ap -}       [ "company", "escort" ] ]
-
  |> "ma`a" <| [
 
     -- ;; maEa_1
@@ -11239,31 +11372,12 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- mal~iym -}        [ "millieme", "milliemes" ] ]
 
- |> "mam" <| [
-
-    -- ;; mamAt_1
-    -- mmAt    mamAt   N       death;place of death
-
-    Identity |< At            `noun`       {- mamAt -}          [ "death", "place of death" ] ]
-
  |> "mamAduw" <| [
 
     -- ;; mamAduw_1
     -- mmAdw   mamAduw Nprop   Mamadou
 
     Identity                  `noun`       {- mamAduw -}        [ "Mamadou" ] ]
-
- |> "man" <| [
-
-    -- ;; man_1
-    -- mn      man     FW-WaBi who/whom   [[man/REL_PRON]]
-
-    Identity                  `noun`       {- man -}            [ "who/whom" ],
-
-    -- ;; man_2
-    -- mn      man     FW-WaBi who/whom   [[man/INTERROG_PART]]
-
-    Identity                  `noun`       {- man -}            [ "who/whom" ] ]
 
  |> "man.ganiys" <| [
 
@@ -11441,38 +11555,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`       {- masotil~ap -}     [ "tub" ] ]
 
- |> "maw" <| [
-
-    -- ;; mawAt_1
-    -- mwAt    mawAt   N       inanimate;uncultivated
-
-    Identity |< At            `noun`       {- mawAt -}          [ "inanimate", "uncultivated" ] ]
-
- |> "maz" <| [
-
-    -- ;; maziy~ap_1
-    -- mzy     maziy~  Napdu   feature;advantage     [[maziy~/NOUN]]
-    -- mzAyA   mazAyA  N0_Nhy  features;advantages
-
-    Identity |< Iy |< aT      `noun`       {- maziy~ap -}       [ "feature", "advantage", "features", "advantages" ] ]
-
- |> "mi'" <| [
-
-    -- ;; mi}ap_1
-    -- m}      mi}     Napdu   hundred
-    -- mA}     miA}    Napdu   hundred
-    -- m}      mi}     NAt     hundreds
-    -- mA}     miA}    NAt     hundreds
-    -- m}wn    mi}uwn  N0      hundreds
-
-    Identity |< aT            `noun`       {- mi}ap -}          [ "hundred", "hundreds" ],
-
-    -- ;; mi}ap_2
-    -- m}      mi}     Nap     (per) cent
-    -- mA}     miA}    Nap     (per) cent
-
-    Identity |< aT            `noun`       {- mi}ap -}          [ "(per) cent" ] ]
-
  |> "mi^slawz" <| [
 
     -- ;; mi$olawoz_1
@@ -11577,15 +11659,6 @@ lexicon = listing "Lexicon's properties"
     -- mmn     mim~an  FW-Wa   from + whom   [[min/PREP+man/INTERROG_PART]]
 
     Identity                  `noun`       {- mim~an -}         [ "from + whom" ] ]
-
- |> "min" <| [
-
-    -- ;; min_1
-    -- mn      min     FW-Wa   from     [[min/PREP]]
-    -- mn      min     FW-Wa-n from     [[min/PREP]]
-    -- lmn     lamin   FW      indeed    [[la/EMPHATIC_PARTICLE+min/PREP]]
-
-    Identity                  `noun`       {- min -}            [ "from", "indeed" ] ]
 
  |> "minA.hiym" <| [
 
@@ -12098,15 +12171,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- mu$omul~A -}      [ "medlar" ] ]
 
- |> "mu_d" <| [
-
-    -- ;; mu*_1
-    -- m*      mu*     FW-Wa   since     [[mu*/PREP]]
-    -- m*Ak    mu*~Ak  FW-Wa   since then    [[mu*~Ak/PREP]]
-    -- m**Ak   mu*o*Ak FW-Wa   since then    [[mu*o*Ak/PREP]]
-
-    Identity                  `noun`       {- mu* -}            [ "since", "since then" ] ]
-
  |> "mu_hA" <| [
 
     -- ;; muxA_1
@@ -12149,13 +12213,6 @@ lexicon = listing "Lexicon's properties"
     -- mlA     mul~A   N0      Mulla
 
     Identity                  `noun`       {- mul~A -}          [ "Mulla" ] ]
-
- |> "mum" <| [
-
-    -- ;; mumAt_1
-    -- mmAt    mumAt   N-ap    obsolete;antiquated     [[mumAt/ADJ]]
-
-    Identity |< At            `adj`        {- mumAt -}          [ "obsolete", "antiquated" ] ]
 
  |> "mun.guwliyA" <| [
 

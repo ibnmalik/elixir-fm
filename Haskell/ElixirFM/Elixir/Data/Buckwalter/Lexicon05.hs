@@ -149,6 +149,13 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`       {- jA}ir -}          [ "unjust", "despot" ] ]
 
+ |> "^g ' t" <| [
+
+    -- ;; jit_1
+    -- jt      jit     Nprop   Jet
+
+    FiL                       `noun`       {- jit -}            [ "Jet" ] ]
+
  |> "^g ' y" <| [
 
     -- ;; jA}iy_1
@@ -389,6 +396,13 @@ lexicon = listing "Lexicon's properties"
 
     TaKaRDaS                  `verb`       {- tajaSoTan -}      [ "relax", "lounge", "loll back" ] ]
 
+ |> "^g .s `" <| [
+
+    -- ;; jiEap_1
+    -- jE      jiE     Napdu   beer
+
+    FiL |< aT                 `noun`       {- jiEap -}          [ "beer" ] ]
+
  |> "^g ^s '" <| [
 
     -- ;; ja$~a>_1
@@ -431,7 +445,9 @@ lexicon = listing "Lexicon's properties"
     -- j$$     jo$u$   IV_C    grind;crush;grate
 
     FaCL                      `verb`       {- ja$~-u -}         [ "grind", "crush", "grate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; ju$~ap_1
     -- j$      ju$~    Nap     hoarseness
@@ -527,7 +543,9 @@ lexicon = listing "Lexicon's properties"
     -- j**     jo*u*   IV_C    excise;cut off
 
     FaCL                      `verb`       {- ja*~-u -}         [ "excise", "cut off" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; ja*~a*_1
     -- j**     ja*~a*  PV_intr be isolated
@@ -747,8 +765,8 @@ lexicon = listing "Lexicon's properties"
     -- j*m     jo*um   IV      cut off;excise
 
     FaCaL                     `verb`       {- ja*am-iu -}       [ "cut off", "excise" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; ja*im-a_1
     -- j*m     ja*im   PV      have leprosy
@@ -869,7 +887,9 @@ lexicon = listing "Lexicon's properties"
     -- jxx     joxux   IV_C    boast;dress up
 
     FaCL                      `verb`       {- jax~-u -}         [ "boast", "dress up" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; jax~Ax_1
     -- jxAx    jax~Ax  Nall    braggart
@@ -884,8 +904,8 @@ lexicon = listing "Lexicon's properties"
     -- jxf     joxif   IV      boast
 
     FaCaL                     `verb`       {- jaxaf-ui -}       [ "boast" ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL ]
 
  |> "^g _t _t" <| [
 
@@ -896,7 +916,9 @@ lexicon = listing "Lexicon's properties"
     -- jvv     jovuv   IV_C    tear out;uproot
 
     FaCL                      `verb`       {- jav~-u -}         [ "tear out", "uproot" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; {ijotav~_1
     -- <jtv    {ijotav~        PV_V    tear out;uproot
@@ -956,8 +978,8 @@ lexicon = listing "Lexicon's properties"
     -- jvm     jovim   IV      beset;squat
 
     FaCaL                     `verb`       {- javam-ui -}       [ "beset", "squat" ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     -- ;; javomap_1
     -- jvm     javom   Nap     motionless
@@ -1017,7 +1039,7 @@ lexicon = listing "Lexicon's properties"
     -- jvY     jovaY   IV_0_Pass_yu    be knelt;be genuflected
 
     FaCA                      `verb`       {- javA-u -}         [ "kneel", "genuflect", "be knelt", "be genuflected" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCU,
 
     -- ;; majovaY_1
     -- mjvY    majovaY N0      hassock
@@ -1314,7 +1336,9 @@ lexicon = listing "Lexicon's properties"
     -- jbb     jobub   IV_C    pollinate
 
     FaCL                      `verb`       {- jab~-u -}         [ "pollinate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; jub~_1
     -- jb      jub~    Ndu     cistern;pit
@@ -1468,7 +1492,7 @@ lexicon = listing "Lexicon's properties"
     -- jbn     jobun   IV-n_intr       be a coward;be fearful
 
     FaCuL                     `verb`       {- jabun-u -}        [ "be a coward", "be fearful" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; jab~an_1
     -- jbn     jab~an  PV-n    make curdle;call a coward
@@ -1729,7 +1753,7 @@ lexicon = listing "Lexicon's properties"
     -- jbY     jobaY   IV_0_Pass_yu    be collected;be levied
 
     FaCY                      `verb`       {- jabaY-i -}        [ "collect", "levy", "be collected", "be levied" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCI,
 
     -- ;; jab~aY_1
     -- jbY     jab~aY  PV_0    kneel;prostrate
@@ -1997,7 +2021,9 @@ lexicon = listing "Lexicon's properties"
     -- jdd     jodid   IV_C_intr       be new;be serious
 
     FaCL                      `verb`       {- jad~-i -}         [ "be new", "be serious" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; jad~ad_1
     -- jdd     jad~ad  PV      renew;repeat
@@ -2291,7 +2317,7 @@ lexicon = listing "Lexicon's properties"
     -- jdy     joday   IV_Ann_Pass_yu  be bestown
 
     FaCA                      `verb`       {- jadA-u -}         [ "bestow", "be bestown" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCU,
 
     -- ;; >ajodaY_1
     -- >jdY    >ajodaY PV_0    be useful
@@ -2543,7 +2569,9 @@ lexicon = listing "Lexicon's properties"
     -- jff     jofif   IV_C    dry;become dry;dehydrate
 
     FaCL                      `verb`       {- jaf~-i -}         [ "dry", "become dry", "dehydrate" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; jaf~af_1
     -- jff     jaf~af  PV_intr be dry;make dry;dehydrate
@@ -2606,8 +2634,8 @@ lexicon = listing "Lexicon's properties"
     -- jfl     joful   IV_intr be startled;jump with fright;be shy
 
     FaCaL                     `verb`       {- jafal-iu -}       [ "be startled", "jump with fright", "be shy" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; jaf~al_1
     -- jfl     jaf~al  PV      scare;startle
@@ -2672,7 +2700,7 @@ lexicon = listing "Lexicon's properties"
     -- jfy     jofay   IV_Ann  be rough;shun
 
     FaCA                      `verb`       {- jafA-u -}         [ "be rough", "shun" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCU,
 
     -- ;; jAfaY_1
     -- jAfY    jAfaY   PV_0    avoid;offend
@@ -3217,8 +3245,7 @@ lexicon = listing "Lexicon's properties"
     -- jhy     johay   IV_Ann  collapse;fall
     -- jh      joha    IV_0hwnyn       collapse;fall
 
-    FaCiL                     `verb`       {- jahiy-a -}        [ "collapse", "fall" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- jahiy-a -}        [ "collapse", "fall" ],
 
     -- ;; >ajohaY_1
     -- >jhY    >ajohaY N0      roofless;bald
@@ -3898,7 +3925,9 @@ lexicon = listing "Lexicon's properties"
     -- jll     jolil   IV_C_intr       be majestic
 
     FaCL                      `verb`       {- jal~-i -}         [ "be majestic" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; jal~al_1
     -- jll     jal~al  PV      cover;venerate
@@ -4205,7 +4234,8 @@ lexicon = listing "Lexicon's properties"
     -- jly     jolay   IV_Ann_Pass_yu  be made clear
 
     FaCA                      `verb`       {- jalA-u -}         [ "make clear", "shine", "depart", "be made clear" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; jilowap_1
     -- jlw     jilow   Nap     unveiling
@@ -4222,7 +4252,7 @@ lexicon = listing "Lexicon's properties"
     -- jlY     jolaY   IV_0_Pass_yu    be polished;be burnished
 
     FaCY                      `verb`       {- jalaY-i -}        [ "polish", "burnish", "be polished", "be burnished" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCI,
 
     -- ;; jal~aY_1
     -- jlY     jal~aY  PV_0    make clear;reveal;represent
@@ -4552,8 +4582,8 @@ lexicon = listing "Lexicon's properties"
     -- jm$     jomu$   IV      shave;caress
 
     FaCaL                     `verb`       {- jama$-iu -}       [ "shave", "caress" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; jamo$_1
     -- jm$     jamo$   N       shaving;caressing
@@ -5140,8 +5170,11 @@ lexicon = listing "Lexicon's properties"
     -- jmm     jomum   IV_C    concentrate;rest
 
     FaCL                      `verb`       {- jam~-iu -}        [ "concentrate", "rest" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL
+                              `ithird`     FCiL,
 
     -- ;; jam~am_1
     -- jmm     jam~am  PV      grow;fill up
@@ -5716,7 +5749,9 @@ lexicon = listing "Lexicon's properties"
     -- jnn     jonun   IV-n    conceal;become dark
 
     FaCL                      `verb`       {- jan~-u -}         [ "conceal", "become dark" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; jan~-u_2
     -- jn      jan~    PV_V    go crazy;become insane
@@ -5725,7 +5760,9 @@ lexicon = listing "Lexicon's properties"
     -- jnn     jonun   IV-n    go crazy;become insane
 
     FaCL                      `verb`       {- jan~-u -}         [ "go crazy", "become insane" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; jan~an_1
     -- jnn     jan~an  PV-n    drive insane;make crazy;infuriate
@@ -5963,7 +6000,7 @@ lexicon = listing "Lexicon's properties"
     -- jnY     jonaY   IV_0_Pass_yu    be committed (crime)
 
     FaCY                      `verb`       {- janaY-i -}        [ "commit a crime", "be committed (crime)" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCI,
 
     -- ;; janaY-i_2
     -- jnY     janaY   PV_0    harvest;collect
@@ -5975,7 +6012,7 @@ lexicon = listing "Lexicon's properties"
     -- jnY     jonaY   IV_0_Pass_yu    be harvested;be collected
 
     FaCY                      `verb`       {- janaY-i -}        [ "harvest", "collect", "be harvested", "be collected" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCI,
 
     -- ;; jAnaY_1
     -- jAnY    jAnaY   PV_0    accuse;incriminate
@@ -6536,7 +6573,6 @@ lexicon = listing "Lexicon's properties"
     -- jrE     joraE   IV      absorb;swallow;devour
 
     FaCaL                     `verb`       {- jaraE-ia -}       [ "absorb", "swallow", "devour" ]
-                              `imperf`     FCiL
                               `imperf`     FCaL,
 
     -- ;; jar~aE_1
@@ -7016,7 +7052,7 @@ lexicon = listing "Lexicon's properties"
     -- jrY     joraY   IV_0_Pass_yu    occur;happen;take place;flow
 
     FaCY                      `verb`       {- jaraY-i -}        [ "occur", "happen", "take place", "flow" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCI,
 
     -- ;; jAraY_1
     -- jArY    jAraY   PV_0    keep up with
@@ -7147,7 +7183,9 @@ lexicon = listing "Lexicon's properties"
     -- jrr     jorur   IV_C    pull;drag
 
     FaCL                      `verb`       {- jar~-u -}         [ "pull", "drag" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; >ajar~_1
     -- >jr     >ajar~  PV_V    ruminate
@@ -7645,7 +7683,9 @@ lexicon = listing "Lexicon's properties"
     -- jss     josus   IV_C    touch;probe
 
     FaCL                      `verb`       {- jas~-u -}         [ "touch", "probe" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; tajas~as_1
     -- tjss    tajas~as        PV      reconnoiter;spy
@@ -7713,7 +7753,8 @@ lexicon = listing "Lexicon's properties"
     -- jsY     josaY   IV_0    become hard;become solid
 
     FaCA                      `verb`       {- jasA-u -}         [ "become hard", "become solid" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FCuL
+                              `imperf`     FCU ]
 
  |> "^g t _t" <| [
 
@@ -7815,7 +7856,10 @@ lexicon = listing "Lexicon's properties"
     -- jH      juH     IV_C    annihilate;ruin;flood
 
     FAL                       `verb`       {- jAH-u -}          [ "annihilate", "ruin", "flood" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; >ajAH_1
     -- >jAH    >ajAH   PV_V    annihilate;ruin;flood
@@ -7897,7 +7941,10 @@ lexicon = listing "Lexicon's properties"
     -- jE      juE     IV_C_intr       be hungry;starve
 
     FAL                       `verb`       {- jAE-u -}          [ "be hungry", "starve" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; jaw~aE_1
     -- jwE     jaw~aE  PV      make starve;famish
@@ -7968,7 +8015,10 @@ lexicon = listing "Lexicon's properties"
     -- jb      jub     IV_C    explore;traverse
 
     FAL                       `verb`       {- jAb-u -}          [ "explore", "traverse" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; jAwab_1
     -- jAwb    jAwab   PV      comply;reply
@@ -8107,7 +8157,10 @@ lexicon = listing "Lexicon's properties"
     -- jd      jud     IV_C    improve;do well
 
     FAL                       `verb`       {- jAd-u -}          [ "improve", "do well" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; >ajAd_1
     -- >jAd    >ajAd   PV_V    be proficient at;do well
@@ -8312,7 +8365,10 @@ lexicon = listing "Lexicon's properties"
     -- jl      jul     IV_C    wander;be engrossed
 
     FAL                       `verb`       {- jAl-u -}          [ "wander", "be engrossed" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; jaw~al_1
     -- jwl     jaw~al  PV      travel;cruise
@@ -8454,7 +8510,10 @@ lexicon = listing "Lexicon's properties"
     -- jr      jur     IV_C    tyrannize
 
     FAL                       `verb`       {- jAr-u -}          [ "tyrannize" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; jAwar_1
     -- jAwr    jAwar   PV_intr be adjacent to;be close to
@@ -8574,7 +8633,10 @@ lexicon = listing "Lexicon's properties"
     -- js      jus     IV_C    peer around;pry around
 
     FAL                       `verb`       {- jAs-u -}          [ "peer around", "pry around" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; {ijotAs_1
     -- <jtAs   {ijotAs PV_V    search;investigate
@@ -8636,6 +8698,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`        {- jaw~iy~ -}        [ "air", "aerial", "atmospheric" ],
 
+    -- ;; juw_1
+    -- jw      juw     Nprop   Joe
+
+    FuL                       `noun`       {- juw -}            [ "Joe" ],
+
     -- ;; juw~Aniy~_1
     -- jwAny   juw~Aniy~       Nall    inner;interior;intimate     [[juw~Aniy~/ADJ]]
 
@@ -8655,8 +8722,7 @@ lexicon = listing "Lexicon's properties"
     -- jwy     joway   IV_Ann  be stricken;be overcome
     -- jw      jowa    IV_0hwnyn       be stricken;be overcome
 
-    FaCiL                     `verb`       {- jawiy-a -}        [ "be stricken", "be overcome" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- jawiy-a -}        [ "be stricken", "be overcome" ],
 
     -- ;; tajaw~aY_1
     -- tjwY    tajaw~aY        PV_0    crumble
@@ -8701,7 +8767,9 @@ lexicon = listing "Lexicon's properties"
     -- jz      juz     IV_C_intr       be allowed;be possible
 
     FAL                       `verb`       {- jAz-u -}          [ "be allowed", "be possible" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `ithird`     FuL,
 
     -- ;; jaw~az_1
     -- jwz     jaw~az  PV      marry off
@@ -8903,7 +8971,10 @@ lexicon = listing "Lexicon's properties"
     -- j}      ji}     IV_C    arrive;come;occur
 
     FAL                       `verb`       {- jA'-a -}          [ "arrive", "come", "occur" ]
-                              `imperf`     FCaL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; jiy}ap_1
     -- jy}     jiy}    Nap     coming;arrival
@@ -8933,7 +9004,10 @@ lexicon = listing "Lexicon's properties"
     -- j$      ji$     IV_C_intr       be agitated;rage;simmer
 
     FAL                       `verb`       {- jA$-i -}          [ "be agitated", "rage", "simmer" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; jay~a$_1
     -- jy$     jay~a$  PV      levy troops;mobilize
@@ -9633,7 +9707,7 @@ lexicon = listing "Lexicon's properties"
     -- jzY     jozaY   IV_0_Pass_yu    be rewarded;be repaid;be requited
 
     FaCY                      `verb`       {- jazaY-i -}        [ "reward", "repay", "requite", "be rewarded", "be repaid", "be requited" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCI,
 
     -- ;; jAzaY_1
     -- jAzY    jAzaY   PV_0    sanction;reward;punish
@@ -9816,7 +9890,9 @@ lexicon = listing "Lexicon's properties"
     -- jzz     jozuz   IV_C    shear;clip
 
     FaCL                      `verb`       {- jaz~-u -}         [ "shear", "clip" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; {ijotaz~_1
     -- <jtz    {ijotaz~        PV_V    shear;clip
@@ -10162,13 +10238,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- jhAroqanod -}     [ "Jharkhand" ] ]
 
- |> "^gi`" <| [
-
-    -- ;; jiEap_1
-    -- jE      jiE     Napdu   beer
-
-    Identity |< aT            `noun`       {- jiEap -}          [ "beer" ] ]
-
  |> "^gibill" <| [
 
     -- ;; jibil~ap_1
@@ -10270,13 +10339,6 @@ lexicon = listing "Lexicon's properties"
     -- jrys    jiroyas Nprop   Jirias;Gerias
 
     Identity                  `noun`       {- jiroyas -}        [ "Jirias", "Gerias" ] ]
-
- |> "^git" <| [
-
-    -- ;; jit_1
-    -- jt      jit     Nprop   Jet
-
-    Identity                  `noun`       {- jit -}            [ "Jet" ] ]
 
  |> "^giyAn.g" <| [
 
@@ -10583,13 +10645,6 @@ lexicon = listing "Lexicon's properties"
     -- jnblATy junoblATiy~     Nall    Jumblattist     [[junoblATiy~/ADJ]]
 
     Identity |< Iy            `adj`        {- junoblATiy~ -}    [ "Jumblattist" ] ]
-
- |> "^guw" <| [
-
-    -- ;; juw_1
-    -- jw      juw     Nprop   Joe
-
-    Identity                  `noun`       {- juw -}            [ "Joe" ] ]
 
  |> "^guwAntiy" <| [
 

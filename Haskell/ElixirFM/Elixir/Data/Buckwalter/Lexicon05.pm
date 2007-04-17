@@ -1820,6 +1820,9 @@ $Lexicon = {
         '^giy\'' => [
           'FIL',
           'FiCL'
+        ],
+        '^gi\'' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -2477,6 +2480,9 @@ $Lexicon = {
         '^guwz' => [
           'FUL',
           'FuCL'
+        ],
+        '^guz' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -2590,6 +2596,12 @@ $Lexicon = {
         ],
         '^giyz' => [
           'FIL'
+        ],
+        '^giz' => [
+          'FiL'
+        ],
+        '^gaz' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -4806,6 +4818,9 @@ $Lexicon = {
         '^guw.h' => [
           'FUL',
           'FuCL'
+        ],
+        '^gu.h' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -4856,11 +4871,17 @@ $Lexicon = {
         'jH      jaH     IV_C_Pass_yu    be annihilated;be ruined;be flooded'
       ],
       'patterns' => {
+        '^gi.h' => [
+          'FiL'
+        ],
         '^giy.h' => [
           'FIL'
         ],
         '^gA.h' => [
           'FAL'
+        ],
+        '^ga.h' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -6481,6 +6502,9 @@ $Lexicon = {
         '^guwb' => [
           'FUL',
           'FuCL'
+        ],
+        '^gub' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -6562,6 +6586,12 @@ $Lexicon = {
       'patterns' => {
         '^gAb' => [
           'FAL'
+        ],
+        '^gab' => [
+          'FaL'
+        ],
+        '^gib' => [
+          'FiL'
         ],
         '^giyb' => [
           'FIL'
@@ -11979,6 +12009,9 @@ $Lexicon = {
         'j$      ji$     IV_C_intr       be agitated;rage;simmer'
       ],
       'patterns' => {
+        '^gi^s' => [
+          'FiL'
+        ],
         '^giy^s' => [
           'FIL',
           'FiCL'
@@ -15513,6 +15546,9 @@ $Lexicon = {
         '^guwd' => [
           'FUL',
           'FuCL'
+        ],
+        '^gud' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -15562,8 +15598,14 @@ $Lexicon = {
         'jd      jad     IV_C_Pass_yu    be proficient at;do well'
       ],
       'patterns' => {
+        '^gid' => [
+          'FiL'
+        ],
         '^giyd' => [
           'FIL'
+        ],
+        '^gad' => [
+          'FaL'
         ],
         '^gAd' => [
           'FAL'
@@ -15913,6 +15955,31 @@ $Lexicon = {
         'Gitex'
       ],
       'orig' => 'jiytikos',
+      'prefix' => ''
+    }
+  ],
+  '^g .s `' => [
+    {
+      'types' => {
+        '^gi`aT' => {
+          'Napdu' => 1
+        }
+      },
+      'entry' => '^gi`',
+      'form' => '^gi`aT',
+      'lines' => [
+        ';; jiEap_1',
+        'jE      jiE     Napdu   beer'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'beer'
+      ],
+      'orig' => 'jiEap',
       'prefix' => ''
     }
   ],
@@ -18609,6 +18676,9 @@ $Lexicon = {
         'jl      jul     IV_C    wander;be engrossed'
       ],
       'patterns' => {
+        '^gul' => [
+          'FuL'
+        ],
         '^guwl' => [
           'FUL',
           'FuCL'
@@ -18696,6 +18766,12 @@ $Lexicon = {
         ],
         '^giyl' => [
           'FIL'
+        ],
+        '^gil' => [
+          'FiL'
+        ],
+        '^gal' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -19007,6 +19083,9 @@ $Lexicon = {
         'jr      jur     IV_C    tyrannize'
       ],
       'patterns' => {
+        '^gur' => [
+          'FuL'
+        ],
         '^guwr' => [
           'FUL',
           'FuCL'
@@ -19090,6 +19169,12 @@ $Lexicon = {
       'patterns' => {
         '^gAr' => [
           'FAL'
+        ],
+        '^gar' => [
+          'FaL'
+        ],
+        '^gir' => [
+          'FiL'
         ],
         '^giyr' => [
           'FIL'
@@ -20590,6 +20675,9 @@ $Lexicon = {
         '^guws' => [
           'FUL',
           'FuCL'
+        ],
+        '^gus' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -25910,6 +25998,9 @@ $Lexicon = {
         '^guw`' => [
           'FUL',
           'FuCL'
+        ],
+        '^gu`' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -25994,6 +26085,12 @@ $Lexicon = {
         ],
         '^giy`' => [
           'FIL'
+        ],
+        '^ga`' => [
+          'FaL'
+        ],
+        '^gi`' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -30564,31 +30661,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^git' => [
-    {
-      'types' => {
-        '^git' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => '^git',
-      'form' => '^git',
-      'lines' => [
-        ';; jit_1',
-        'jt      jit     Nprop   Jet'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Jet'
-      ],
-      'orig' => 'jit',
-      'prefix' => ''
-    }
-  ],
   '^guwr^g' => [
     {
       'types' => {
@@ -33320,6 +33392,29 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {
+        '^guw' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => '^guw',
+      'form' => '^guw',
+      'lines' => [
+        ';; juw_1',
+        'jw      juw     Nprop   Joe'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL',
+      'suffix' => '',
+      'glosses' => [
+        'Joe'
+      ],
+      'orig' => 'juw',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => '^guwwAn',
       'form' => '^guwwAniyy',
@@ -34366,31 +34461,6 @@ $Lexicon = {
         'bumpkin'
       ],
       'orig' => 'julAqap',
-      'prefix' => ''
-    }
-  ],
-  '^guw' => [
-    {
-      'types' => {
-        '^guw' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => '^guw',
-      'form' => '^guw',
-      'lines' => [
-        ';; juw_1',
-        'jw      juw     Nprop   Joe'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Joe'
-      ],
-      'orig' => 'juw',
       'prefix' => ''
     }
   ],
@@ -38523,31 +38593,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^gi`' => [
-    {
-      'types' => {
-        '^gi`aT' => {
-          'Napdu' => 1
-        }
-      },
-      'entry' => '^gi`',
-      'form' => '^gi`aT',
-      'lines' => [
-        ';; jiEap_1',
-        'jE      jiE     Napdu   beer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'beer'
-      ],
-      'orig' => 'jiEap',
-      'prefix' => ''
-    }
-  ],
   '^g r m' => [
     {
       'types' => {
@@ -38975,6 +39020,31 @@ $Lexicon = {
         'events'
       ],
       'orig' => 'mAjarayAt',
+      'prefix' => ''
+    }
+  ],
+  '^g \' t' => [
+    {
+      'types' => {
+        '^git' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => '^git',
+      'form' => '^git',
+      'lines' => [
+        ';; jit_1',
+        'jt      jit     Nprop   Jet'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiL',
+      'suffix' => '',
+      'glosses' => [
+        'Jet'
+      ],
+      'orig' => 'jit',
       'prefix' => ''
     }
   ],
@@ -43882,12 +43952,12 @@ $Lexicon->{'^g l w'}[18]{'glosses'} = $Lexicon->{'^g l y'}[8]{'glosses'};
 $Lexicon->{'^g d y'}[0]{'types'} = $Lexicon->{'^g d m'}[6]{'types'};
 $Lexicon->{'^g d y'}[0]{'lines'} = $Lexicon->{'^g d m'}[6]{'lines'};
 $Lexicon->{'^g d y'}[0]{'glosses'} = $Lexicon->{'^g d m'}[6]{'glosses'};
-$Lexicon->{'^g w w'}[2]{'types'} = $Lexicon->{'^g w n'}[0]{'types'};
-$Lexicon->{'^g w w'}[2]{'lines'} = $Lexicon->{'^g w n'}[0]{'lines'};
-$Lexicon->{'^g w w'}[2]{'glosses'} = $Lexicon->{'^g w n'}[0]{'glosses'};
-$Lexicon->{'^g w w'}[3]{'types'} = $Lexicon->{'^g w n'}[2]{'types'};
-$Lexicon->{'^g w w'}[3]{'lines'} = $Lexicon->{'^g w n'}[2]{'lines'};
-$Lexicon->{'^g w w'}[3]{'glosses'} = $Lexicon->{'^g w n'}[2]{'glosses'};
+$Lexicon->{'^g w w'}[3]{'types'} = $Lexicon->{'^g w n'}[0]{'types'};
+$Lexicon->{'^g w w'}[3]{'lines'} = $Lexicon->{'^g w n'}[0]{'lines'};
+$Lexicon->{'^g w w'}[3]{'glosses'} = $Lexicon->{'^g w n'}[0]{'glosses'};
+$Lexicon->{'^g w w'}[4]{'types'} = $Lexicon->{'^g w n'}[2]{'types'};
+$Lexicon->{'^g w w'}[4]{'lines'} = $Lexicon->{'^g w n'}[2]{'lines'};
+$Lexicon->{'^g w w'}[4]{'glosses'} = $Lexicon->{'^g w n'}[2]{'glosses'};
 $Lexicon->{'^g \' \''}[1]{'types'} = $Lexicon->{'^g y y'}[0]{'types'};
 $Lexicon->{'^g \' \''}[1]{'lines'} = $Lexicon->{'^g y y'}[0]{'lines'};
 $Lexicon->{'^g \' \''}[1]{'glosses'} = $Lexicon->{'^g y y'}[0]{'glosses'};

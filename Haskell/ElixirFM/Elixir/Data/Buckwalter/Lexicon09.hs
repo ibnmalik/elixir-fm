@@ -148,7 +148,7 @@ lexicon = listing "Lexicon's properties"
     -- \*En     *oEan   IV-n    submit;yield;obey
 
     FaCiL                     `verb`       {- \*aEin-a -}       [ "submit", "yield", "obey" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; >a*oEan_1
     -- >*En    >a*oEan PV-n    submit;yield;obey
@@ -343,7 +343,9 @@ lexicon = listing "Lexicon's properties"
     -- \*bb     *obub   IV_C    drive away;defend
 
     FaCL                      `verb`       {- \*ab~-u -}        [ "drive away", "defend" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; *ubAb_1
     -- \*bAb    *ubAb   N       flies
@@ -782,7 +784,8 @@ lexicon = listing "Lexicon's properties"
     -- \*k      *ok     IV_0hwnyn       flare up;blaze
 
     FaCA                      `verb`       {- \*akA-u -}        [ "flare up", "blaze" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; *ukuw~_1
     -- \*kw     *ukuw~  N       flaring up;blazing
@@ -863,8 +866,7 @@ lexicon = listing "Lexicon's properties"
     -- \*ky     *okay   IV_Ann  be sharp-witted
     -- \*k      *oka    IV_0hwnyn       be sharp-witted
 
-    FaCiL                     `verb`       {- \*akiy-a -}       [ "be sharp-witted" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- \*akiy-a -}       [ "be sharp-witted" ],
 
     -- ;; *akiy~_1
     -- \*ky     *akiy~  N/ap    clever     [[*akiy~/ADJ]]
@@ -1044,7 +1046,9 @@ lexicon = listing "Lexicon's properties"
     -- \*mm     *omum   IV_C    blame;criticize
 
     FaCL                      `verb`       {- \*am~-u -}        [ "blame", "criticize" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; *am~am_1
     -- \*mm     *am~am  PV      rebuke;censure
@@ -1130,8 +1134,7 @@ lexicon = listing "Lexicon's properties"
     -- \*my     *omay   IV_Ann  be near death
     -- \*m      *oma    IV_0hwnyn       be near death
 
-    FaCiL                     `verb`       {- \*amiy-a -}       [ "be near death" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- \*amiy-a -}       [ "be near death" ],
 
     -- ;; *amA'_1
     -- \*mA'    *amA'   N0_Nh   last remnant;last breath
@@ -1362,8 +1365,8 @@ lexicon = listing "Lexicon's properties"
     -- \*rq     *oruq   IV      drop excrement (bird)
 
     FaCaL                     `verb`       {- \*araq-iu -}      [ "drop excrement (bird)" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; >a*oraq_1
     -- >*rq    >a*oraq PV      drop excrement (bird)
@@ -1386,7 +1389,9 @@ lexicon = listing "Lexicon's properties"
     -- \*rr     *orur   IV_C    scatter;spread;sprinkle
 
     FaCL                      `verb`       {- \*ar~-u -}        [ "scatter", "spread", "sprinkle" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; *ar~-u_2
     -- \*r      *ar~    PV_V    rise;emerge
@@ -1395,7 +1400,9 @@ lexicon = listing "Lexicon's properties"
     -- \*rr     *orur   IV_C    rise;emerge
 
     FaCL                      `verb`       {- \*ar~-u -}        [ "rise", "emerge" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; *ar~_1
     -- \*r      *ar~    N       strewing;sprinkling
@@ -1457,7 +1464,12 @@ lexicon = listing "Lexicon's properties"
     -- \*rY     *ar~aY  IV_0_Pass_yu    be dispersed;be scattered;be atomized
     -- \*ry     *ar~ay  IV_Ann_Pass_yu  be dispersed;be scattered;be atomized
 
-    FaCLY                     `verb`       {- \*ar~aY -}        [ "disperse", "scatter", "atomize", "be dispersed", "be scattered", "be atomized" ] ]
+    FaCLY                     `verb`       {- \*ar~aY -}        [ "disperse", "scatter", "atomize", "be dispersed", "be scattered", "be atomized" ],
+
+    -- ;; *urap_1
+    -- \*r      *ur     Nap     sorghum;maize
+
+    FuL |< aT                 `noun`       {- \*urap -}         [ "sorghum", "maize" ] ]
 
  |> "_d r w" <| [
 
@@ -1471,7 +1483,8 @@ lexicon = listing "Lexicon's properties"
     -- \*ry     *oray   IV_Ann_Pass_yu  be dispersed;be scattered
 
     FaCA                      `verb`       {- \*arA-u -}        [ "disperse", "scatter", "be dispersed", "be scattered" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; *arow_1
     -- \*rw     *arow   N       dispersing;scattering
@@ -1518,7 +1531,8 @@ lexicon = listing "Lexicon's properties"
     -- \*ry     *oriy   IV_0hAnn        disperse;scatter
 
     FaCY                      `verb`       {- \*araY-i -}       [ "disperse", "scatter" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; *ar~aY_1
     -- \*rY     *ar~aY  PV_0    disperse;scatter;atomize
@@ -1594,7 +1608,9 @@ lexicon = listing "Lexicon's properties"
     -- \*E      *iE     IV_C_intr       spread;circulate;become public
 
     FAL                       `verb`       {- \*AE-i -}         [ "spread", "circulate", "become public" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; >a*AE_1
     -- >*AE    >a*AE   PV_V    broadcast;propagate
@@ -1645,7 +1661,10 @@ lexicon = listing "Lexicon's properties"
     -- \*b      *ub     IV_C_intr       be dissolved;be melted;dwindle
 
     FAL                       `verb`       {- \*Ab-u -}         [ "be dissolved", "be melted", "dwindle" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; *aw~ab_1
     -- \*wb     *aw~ab  PV      dissolve;liquify;melt
@@ -1710,7 +1729,10 @@ lexicon = listing "Lexicon's properties"
     -- \*d      *ud     IV_C    scatter;remove;defend
 
     FAL                       `verb`       {- \*Ad-u -}         [ "scatter", "remove", "defend" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; *awod_1
     -- \*wd     *awod   N       defense;protection
@@ -1756,7 +1778,10 @@ lexicon = listing "Lexicon's properties"
     -- \*q      *aq     IV_V_Pass_yu    be tasted;be experienced
 
     FAL                       `verb`       {- \*Aq-u -}         [ "taste", "sample", "experience", "be tasted", "be experienced" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; >a*Aq_1
     -- >*Aq    >a*Aq   PV_V    make taste;make sample;make experience
@@ -1837,6 +1862,36 @@ lexicon = listing "Lexicon's properties"
 
     lA >| FAL |< Iy |< aT     `noun`       {- lA*Atiy~ap -}     [ "impersonality" ] ]
 
+ |> "_d w w" <| [
+
+    -- ;; *uw_1
+    -- \*w      *uw     FW-Wa   of;with     [[*uw/DEM_PRON_MS]]
+    -- \*y      *iy     FW-Wa   of;with     [[*iy/DEM_PRON_MS]]
+    -- \*A      *A      FW-Wa   of;with     [[*A/DEM_PRON_MS]]
+    -- \*wA     *awA    FW-Wa   (two relatives) of     [[*awA/DEM_PRON_MD]]
+    -- \*wA     *awA    FW-Wa-A (two relatives) of     [[*awA/DEM_PRON_MD]]
+    -- \*wy     *away   FW-WaBi (two relatives) of     [[*away/DEM_PRON_MD]]
+    -- \*wy     *away   FW-Wa-y (two relatives) of     [[*away/DEM_PRON_MD]]
+    -- \*ww     *awuw   FW-Wa   (relatives) of;family     [[*awuw/DEM_PRON_MP]]
+    -- \*ww     *awuw   FW-Wa-a (relatives) of;family     [[*awuw/DEM_PRON_MP]]
+    -- \*wy     *awiy   FW-WaBi (relatives) of;family     [[*awiy/DEM_PRON_MD]]
+    -- \*wy     *awiy   FW-Wa-y (relatives) of;family     [[*awiy/DEM_PRON_MD]]
+
+    FuL                       `noun`       {- \*uw -}           [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
+                              `plural`     FaCuL
+                              `plural`     FaCA
+                              {- `others` [ "_dawuw FW-Wa FW-Wa-a", "_dawA FW-Wa FW-Wa-A" ] -},
+
+    -- ;; *awAt_1
+    -- \*wAt    *awAt   N       selves;beings
+
+    FaL |< At                 `noun`       {- \*awAt -}         [ "selves", "beings" ],
+
+    -- ;; *awAt_2
+    -- \*wAt    *awAt   FW-WaBi those     [[*awAt/DEM_PRON_FP]]
+
+    FaL |< At                 `noun`       {- \*awAt -}         [ "those" ] ]
+
  |> "_d w y" <| [
 
     -- ;; *awaY-i_1
@@ -1847,7 +1902,8 @@ lexicon = listing "Lexicon's properties"
     -- \*w      *ow     IV_0hwnyn       wither;fade
 
     FaCY                      `verb`       {- \*awaY-i -}       [ "wither", "fade" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; *awiy-a_1
     -- \*wy     *awiy   PV_no-w_intr    wither;fade
@@ -1855,8 +1911,7 @@ lexicon = listing "Lexicon's properties"
     -- \*wy     *oway   IV_Ann  wither;fade
     -- \*w      *owa    IV_0hwnyn       wither;fade
 
-    FaCiL                     `verb`       {- \*awiy-a -}       [ "wither", "fade" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- \*awiy-a -}       [ "wither", "fade" ],
 
     -- ;; >a*owaY_1
     -- >*wY    >a*owaY PV_0    make wilt;make dry
@@ -1982,18 +2037,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- \*`lika -}        [ "that", "that one", "those" ] ]
 
- |> "_daw" <| [
-
-    -- ;; *awAt_1
-    -- \*wAt    *awAt   N       selves;beings
-
-    Identity |< At            `noun`       {- \*awAt -}         [ "selves", "beings" ],
-
-    -- ;; *awAt_2
-    -- \*wAt    *awAt   FW-WaBi those     [[*awAt/DEM_PRON_FP]]
-
-    Identity |< At            `noun`       {- \*awAt -}         [ "those" ] ]
-
  |> "_dikray" <| [
 
     -- ;; *ikorayAt_1
@@ -2007,30 +2050,6 @@ lexicon = listing "Lexicon's properties"
     -- \*byAny  *uboyAniy~      N0      Dhubyani;Dhubiani
 
     Identity                  `noun`       {- \*uboyAniy~ -}    [ "Dhubyani", "Dhubiani" ] ]
-
- |> "_dur" <| [
-
-    -- ;; *urap_1
-    -- \*r      *ur     Nap     sorghum;maize
-
-    Identity |< aT            `noun`       {- \*urap -}         [ "sorghum", "maize" ] ]
-
- |> "_duw" <| [
-
-    -- ;; *uw_1
-    -- \*w      *uw     FW-Wa   of;with     [[*uw/DEM_PRON_MS]]
-    -- \*y      *iy     FW-Wa   of;with     [[*iy/DEM_PRON_MS]]
-    -- \*A      *A      FW-Wa   of;with     [[*A/DEM_PRON_MS]]
-    -- \*wA     *awA    FW-Wa   (two relatives) of     [[*awA/DEM_PRON_MD]]
-    -- \*wA     *awA    FW-Wa-A (two relatives) of     [[*awA/DEM_PRON_MD]]
-    -- \*wy     *away   FW-WaBi (two relatives) of     [[*away/DEM_PRON_MD]]
-    -- \*wy     *away   FW-Wa-y (two relatives) of     [[*away/DEM_PRON_MD]]
-    -- \*ww     *awuw   FW-Wa   (relatives) of;family     [[*awuw/DEM_PRON_MP]]
-    -- \*ww     *awuw   FW-Wa-a (relatives) of;family     [[*awuw/DEM_PRON_MP]]
-    -- \*wy     *awiy   FW-WaBi (relatives) of;family     [[*awiy/DEM_PRON_MD]]
-    -- \*wy     *awiy   FW-Wa-y (relatives) of;family     [[*awiy/DEM_PRON_MD]]
-
-    Identity                  `noun`       {- \*uw -}           [ "of", "with", "(two relatives) of", "(relatives) of", "family" ] ]
 
  |> "bi_dA" <| [
 

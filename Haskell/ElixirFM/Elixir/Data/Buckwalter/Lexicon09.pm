@@ -6,6 +6,121 @@ package Elixir::Data::Buckwalter::Lexicon09;
 
 
 $Lexicon = {
+  '_d w w' => [
+    {
+      'types' => {
+        '_dawuw' => {
+          'FW-Wa' => 1,
+          'FW-Wa-a' => 1
+        },
+        '_dawiy' => {
+          'FW-Wa-y' => 1,
+          'FW-WaBi' => 1
+        },
+        '_duw' => {
+          'FW-Wa' => 1
+        },
+        '_dawA' => {
+          'FW-Wa' => 1,
+          'FW-Wa-A' => 1
+        },
+        '_diy' => {
+          'FW-Wa' => 1
+        },
+        '_daway' => {
+          'FW-Wa-y' => 1,
+          'FW-WaBi' => 1
+        },
+        '_dA' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => '_duw',
+      'form' => '_duw',
+      'lines' => [
+        ';; *uw_1',
+        '*w      *uw     FW-Wa   of;with     [[*uw/DEM_PRON_MS]]',
+        '*y      *iy     FW-Wa   of;with     [[*iy/DEM_PRON_MS]]',
+        '*A      *A      FW-Wa   of;with     [[*A/DEM_PRON_MS]]',
+        '*wA     *awA    FW-Wa   (two relatives) of     [[*awA/DEM_PRON_MD]]',
+        '*wA     *awA    FW-Wa-A (two relatives) of     [[*awA/DEM_PRON_MD]]',
+        '*wy     *away   FW-WaBi (two relatives) of     [[*away/DEM_PRON_MD]]',
+        '*wy     *away   FW-Wa-y (two relatives) of     [[*away/DEM_PRON_MD]]',
+        '*ww     *awuw   FW-Wa   (relatives) of;family     [[*awuw/DEM_PRON_MP]]',
+        '*ww     *awuw   FW-Wa-a (relatives) of;family     [[*awuw/DEM_PRON_MP]]',
+        '*wy     *awiy   FW-WaBi (relatives) of;family     [[*awiy/DEM_PRON_MD]]',
+        '*wy     *awiy   FW-Wa-y (relatives) of;family     [[*awiy/DEM_PRON_MD]]'
+      ],
+      'patterns' => {
+        '_dawuw' => [
+          'FaCuL'
+        ],
+        '_dawA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL',
+      'suffix' => '',
+      'glosses' => [
+        'of',
+        'with',
+        '(two relatives) of',
+        '(relatives) of',
+        'family'
+      ],
+      'orig' => '*uw',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_dawAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_daw',
+      'form' => '_dawAt',
+      'lines' => [
+        ';; *awAt_1',
+        '*wAt    *awAt   N       selves;beings'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'selves',
+        'beings'
+      ],
+      'orig' => '*awAt',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_dawAt' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => '_daw',
+      'form' => '_dawAt',
+      'lines' => [
+        ';; *awAt_2',
+        '*wAt    *awAt   FW-WaBi those     [[*awAt/DEM_PRON_FP]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'those'
+      ],
+      'orig' => '*awAt',
+      'prefix' => ''
+    }
+  ],
   'ta_dkAr' => [
     {
       'types' => {
@@ -1017,55 +1132,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_daw' => [
-    {
-      'types' => {
-        '_dawAt' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_daw',
-      'form' => '_dawAt',
-      'lines' => [
-        ';; *awAt_1',
-        '*wAt    *awAt   N       selves;beings'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'selves',
-        'beings'
-      ],
-      'orig' => '*awAt',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_dawAt' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => '_daw',
-      'form' => '_dawAt',
-      'lines' => [
-        ';; *awAt_2',
-        '*wAt    *awAt   FW-WaBi those     [[*awAt/DEM_PRON_FP]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'those'
-      ],
-      'orig' => '*awAt',
-      'prefix' => ''
-    }
-  ],
   'iddakar' => [
     {
       'types' => {
@@ -1228,6 +1294,9 @@ $Lexicon = {
         '_duwd' => [
           'FUL',
           'FuCL'
+        ],
+        '_dud' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -2986,246 +3055,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_duw' => [
-    {
-      'types' => {
-        '_dawuw' => {
-          'FW-Wa' => 1,
-          'FW-Wa-a' => 1
-        },
-        '_dawiy' => {
-          'FW-Wa-y' => 1,
-          'FW-WaBi' => 1
-        },
-        '_duw' => {
-          'FW-Wa' => 1
-        },
-        '_dawA' => {
-          'FW-Wa' => 1,
-          'FW-Wa-A' => 1
-        },
-        '_diy' => {
-          'FW-Wa' => 1
-        },
-        '_daway' => {
-          'FW-Wa-y' => 1,
-          'FW-WaBi' => 1
-        },
-        '_dA' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => '_duw',
-      'form' => '_duw',
-      'lines' => [
-        ';; *uw_1',
-        '*w      *uw     FW-Wa   of;with     [[*uw/DEM_PRON_MS]]',
-        '*y      *iy     FW-Wa   of;with     [[*iy/DEM_PRON_MS]]',
-        '*A      *A      FW-Wa   of;with     [[*A/DEM_PRON_MS]]',
-        '*wA     *awA    FW-Wa   (two relatives) of     [[*awA/DEM_PRON_MD]]',
-        '*wA     *awA    FW-Wa-A (two relatives) of     [[*awA/DEM_PRON_MD]]',
-        '*wy     *away   FW-WaBi (two relatives) of     [[*away/DEM_PRON_MD]]',
-        '*wy     *away   FW-Wa-y (two relatives) of     [[*away/DEM_PRON_MD]]',
-        '*ww     *awuw   FW-Wa   (relatives) of;family     [[*awuw/DEM_PRON_MP]]',
-        '*ww     *awuw   FW-Wa-a (relatives) of;family     [[*awuw/DEM_PRON_MP]]',
-        '*wy     *awiy   FW-WaBi (relatives) of;family     [[*awiy/DEM_PRON_MD]]',
-        '*wy     *awiy   FW-Wa-y (relatives) of;family     [[*awiy/DEM_PRON_MD]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'of',
-        'with',
-        '(two relatives) of',
-        '(relatives) of',
-        'family'
-      ],
-      'orig' => '*uw',
-      'prefix' => ''
-    }
-  ],
-  '_d ` n' => [
-    {
-      'types' => {
-        '_d`an' => {
-          'IV-n' => 1
-        },
-        '_da`in' => {}
-      },
-      'entry' => '_da`in',
-      'form' => '_da`in',
-      'lines' => [
-        ';; *aEin-a_1',
-        '*En     *aEin   PV-n    submit;yield;obey',
-        '*En     *oEan   IV-n    submit;yield;obey'
-      ],
-      'patterns' => {
-        '_d`an' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCiL',
-      'glosses' => [
-        'submit',
-        'yield',
-        'obey'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => '*aEin-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_d`an' => {
-          'IV-n_Pass_yu' => 1
-        },
-        '\'a_d`an' => {},
-        '_d`in' => {
-          'IV-n_yu' => 1
-        }
-      },
-      'entry' => '\'a_d`an',
-      'form' => '\'a_d`an',
-      'lines' => [
-        ';; >a*oEan_1',
-        '>*En    >a*oEan PV-n    submit;yield;obey',
-        'A*En    >a*oEan PV-n    submit;yield;obey',
-        '*En     *oEin   IV-n_yu submit;yield;obey',
-        '*En     *oEan   IV-n_Pass_yu    be submitted to;be yielded to;be obeyed'
-      ],
-      'patterns' => {
-        '_d`an' => [
-          'FCaL'
-        ],
-        '_d`in' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'submit',
-        'yield',
-        'obey',
-        'be submitted to',
-        'be yielded to',
-        'be obeyed'
-      ],
-      'orig' => 'Oa*oEan',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'mu_dA`anaT' => {
-          'NapAt' => 1
-        }
-      },
-      'entry' => 'mu_dA`an',
-      'form' => 'mu_dA`anaT',
-      'lines' => [
-        ';; mu*AEanap_1',
-        'm*AEn   mu*AEan NapAt   submissiveness;compliance;obedience'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFACaL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'submissiveness',
-        'compliance',
-        'obedience'
-      ],
-      'orig' => 'mu*AEanap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'i_d`An' => {
-          'NduAt' => 2
-        }
-      },
-      'entry' => '\'i_d`An',
-      'form' => '\'i_d`An',
-      'lines' => [
-        ';; <i*oEAn_1',
-        '<*EAn   <i*oEAn NduAt   submissiveness;compliance;obedience',
-        'A*EAn   <i*oEAn NduAt   submissiveness;compliance;obedience'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HiFCAL',
-      'suffix' => '',
-      'glosses' => [
-        'submissiveness',
-        'compliance',
-        'obedience'
-      ],
-      'orig' => 'Ii*oEAn',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'mu_d`in' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'mu_d`in',
-      'form' => 'mu_d`in',
-      'lines' => [
-        ';; mu*oEin_1',
-        'm*En    mu*oEin Nall    submissive;compliant;obedient     [[mu*oEin/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFCiL',
-      'suffix' => '',
-      'glosses' => [
-        'submissive',
-        'compliant',
-        'obedient'
-      ],
-      'orig' => 'mu*oEin',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'mi_d`An' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'mi_d`An',
-      'form' => 'mi_d`An',
-      'lines' => [
-        ';; mi*oEAn_1',
-        'm*EAn   mi*oEAn N       tractable;compliant;obedient     [[mi*oEAn/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MiFCAL',
-      'suffix' => '',
-      'glosses' => [
-        'tractable',
-        'compliant',
-        'obedient'
-      ],
-      'orig' => 'mi*oEAn',
-      'prefix' => ''
-    }
-  ],
   '_d r w' => [
     {
       'types' => {
@@ -3434,6 +3263,185 @@ $Lexicon = {
         'winnows'
       ],
       'orig' => 'mi*oraY',
+      'prefix' => ''
+    }
+  ],
+  '_d ` n' => [
+    {
+      'types' => {
+        '_d`an' => {
+          'IV-n' => 1
+        },
+        '_da`in' => {}
+      },
+      'entry' => '_da`in',
+      'form' => '_da`in',
+      'lines' => [
+        ';; *aEin-a_1',
+        '*En     *aEin   PV-n    submit;yield;obey',
+        '*En     *oEan   IV-n    submit;yield;obey'
+      ],
+      'patterns' => {
+        '_d`an' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        'submit',
+        'yield',
+        'obey'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => '*aEin-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_d`an' => {
+          'IV-n_Pass_yu' => 1
+        },
+        '\'a_d`an' => {},
+        '_d`in' => {
+          'IV-n_yu' => 1
+        }
+      },
+      'entry' => '\'a_d`an',
+      'form' => '\'a_d`an',
+      'lines' => [
+        ';; >a*oEan_1',
+        '>*En    >a*oEan PV-n    submit;yield;obey',
+        'A*En    >a*oEan PV-n    submit;yield;obey',
+        '*En     *oEin   IV-n_yu submit;yield;obey',
+        '*En     *oEan   IV-n_Pass_yu    be submitted to;be yielded to;be obeyed'
+      ],
+      'patterns' => {
+        '_d`an' => [
+          'FCaL'
+        ],
+        '_d`in' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'submit',
+        'yield',
+        'obey',
+        'be submitted to',
+        'be yielded to',
+        'be obeyed'
+      ],
+      'orig' => 'Oa*oEan',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mu_dA`anaT' => {
+          'NapAt' => 1
+        }
+      },
+      'entry' => 'mu_dA`an',
+      'form' => 'mu_dA`anaT',
+      'lines' => [
+        ';; mu*AEanap_1',
+        'm*AEn   mu*AEan NapAt   submissiveness;compliance;obedience'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFACaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'submissiveness',
+        'compliance',
+        'obedience'
+      ],
+      'orig' => 'mu*AEanap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'i_d`An' => {
+          'NduAt' => 2
+        }
+      },
+      'entry' => '\'i_d`An',
+      'form' => '\'i_d`An',
+      'lines' => [
+        ';; <i*oEAn_1',
+        '<*EAn   <i*oEAn NduAt   submissiveness;compliance;obedience',
+        'A*EAn   <i*oEAn NduAt   submissiveness;compliance;obedience'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        'submissiveness',
+        'compliance',
+        'obedience'
+      ],
+      'orig' => 'Ii*oEAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mu_d`in' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'mu_d`in',
+      'form' => 'mu_d`in',
+      'lines' => [
+        ';; mu*oEin_1',
+        'm*En    mu*oEin Nall    submissive;compliant;obedient     [[mu*oEin/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFCiL',
+      'suffix' => '',
+      'glosses' => [
+        'submissive',
+        'compliant',
+        'obedient'
+      ],
+      'orig' => 'mu*oEin',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mi_d`An' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'mi_d`An',
+      'form' => 'mi_d`An',
+      'lines' => [
+        ';; mi*oEAn_1',
+        'm*EAn   mi*oEAn N       tractable;compliant;obedient     [[mi*oEAn/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        'tractable',
+        'compliant',
+        'obedient'
+      ],
+      'orig' => 'mi*oEAn',
       'prefix' => ''
     }
   ],
@@ -3757,6 +3765,9 @@ $Lexicon = {
         '_duwb' => [
           'FUL',
           'FuCL'
+        ],
+        '_dub' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -3838,11 +3849,17 @@ $Lexicon = {
         '*b      *ab     IV_C_Pass_yu    be dissolved;be melted;be exhausted;be consumed'
       ],
       'patterns' => {
+        '_dab' => [
+          'FaL'
+        ],
         '_diyb' => [
           'FIL'
         ],
         '_dAb' => [
           'FAL'
+        ],
+        '_dib' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -5339,6 +5356,30 @@ $Lexicon = {
       'glosses' => [],
       'orig' => '*ar~aY',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '_duraT' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => '_dur',
+      'form' => '_duraT',
+      'lines' => [
+        ';; *urap_1',
+        '*r      *ur     Nap     sorghum;maize'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'sorghum',
+        'maize'
+      ],
+      'orig' => '*urap',
+      'prefix' => ''
     }
   ],
   '_d b n' => [
@@ -6479,6 +6520,9 @@ $Lexicon = {
         '*E      *iE     IV_C_intr       spread;circulate;become public'
       ],
       'patterns' => {
+        '_di`' => [
+          'FiL'
+        ],
         '_diy`' => [
           'FIL'
         ]
@@ -6536,6 +6580,9 @@ $Lexicon = {
         '*E      *aE     IV_C_Pass_yu    be broadcast;be propagated'
       ],
       'patterns' => {
+        '_di`' => [
+          'FiL'
+        ],
         '\'u_diy`' => [
           'HuFIL'
         ],
@@ -6544,6 +6591,9 @@ $Lexicon = {
         ],
         '_dA`' => [
           'FAL'
+        ],
+        '_da`' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -8287,32 +8337,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_dur' => [
-    {
-      'types' => {
-        '_duraT' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => '_dur',
-      'form' => '_duraT',
-      'lines' => [
-        ';; *urap_1',
-        '*r      *ur     Nap     sorghum;maize'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'sorghum',
-        'maize'
-      ],
-      'orig' => '*urap',
-      'prefix' => ''
-    }
-  ],
   '_d w q' => [
     {
       'types' => {
@@ -8340,9 +8364,15 @@ $Lexicon = {
         '*q      *aq     IV_V_Pass_yu    be tasted;be experienced'
       ],
       'patterns' => {
+        '_duq' => [
+          'FuL'
+        ],
         '_duwq' => [
           'FUL',
           'FuCL'
+        ],
+        '_daq' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -8395,11 +8425,17 @@ $Lexicon = {
         '*q      *aq     IV_C_Pass_yu    be made to taste/sample;be made to make experience'
       ],
       'patterns' => {
+        '_diq' => [
+          'FiL'
+        ],
         '_dAq' => [
           'FAL'
         ],
         '_diyq' => [
           'FIL'
+        ],
+        '_daq' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -8696,8 +8732,14 @@ $Lexicon = {
         '*l      *al     IV_C_Pass_yu    be trampled;be degraded'
       ],
       'patterns' => {
+        '_dil' => [
+          'FiL'
+        ],
         '_dAl' => [
           'FAL'
+        ],
+        '_dal' => [
+          'FaL'
         ],
         '_diyl' => [
           'FIL',

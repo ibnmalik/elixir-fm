@@ -49,7 +49,9 @@ lexicon = listing "Lexicon's properties"
  |> "k .h .h" <| [
 
     FaCL                      `verb`       {- kaH~-u -}         [ "cough" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL ]
 
  |> "k .h l" <| [
 
@@ -78,7 +80,9 @@ lexicon = listing "Lexicon's properties"
  |> "k ^s ^s" <| [
 
     FaCL                      `verb`       {- ka$~-i -}         [ "recoil" ]
-                              `imperf`     FCiL ]
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL ]
 
  |> "k ^s f" <| [
 
@@ -259,7 +263,9 @@ lexicon = listing "Lexicon's properties"
  |> "k b b" <| [
 
     FaCL                      `verb`       {- kab~-u -}         [ "pour out", "topple" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     HaFaCL                    `verb`       {- Oakab~ -}         [ "knock down", "be devoted", "be knocked down" ],
 
@@ -360,10 +366,12 @@ lexicon = listing "Lexicon's properties"
  |> "k b w" <| [
 
     FaCA                      `verb`       {- kabA-u -}         [ "stumble" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FaCA                      `verb`       {- kabA-u -}         [ "pour out", "empty", "be poured out", "be emptied" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     HaFCY                     `verb`       {- OakobaY -}        [ "misfire", "fail to light", "be misfired" ],
 
@@ -378,7 +386,9 @@ lexicon = listing "Lexicon's properties"
  |> "k d d" <| [
 
     FaCL                      `verb`       {- kad~-u -}         [ "work hard", "exhaust" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- kad~ -}           [ "toil", "labor" ],
 
@@ -399,7 +409,8 @@ lexicon = listing "Lexicon's properties"
  |> "k d y" <| [
 
     FaCY                      `verb`       {- kadaY-i -}        [ "be stingy", "skimp" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     FaCCY                     `verb`       {- kad~aY -}         [ "beg", "be begged" ],
 
@@ -451,7 +462,9 @@ lexicon = listing "Lexicon's properties"
  |> "k f f" <| [
 
     FaCL                      `verb`       {- kaf~-u -}         [ "refrain", "abstain" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- kaf~ -}           [ "refraining", "discontinuation", "stoppage" ],
 
@@ -550,7 +563,8 @@ lexicon = listing "Lexicon's properties"
  |> "k f y" <| [
 
     FaCY                      `verb`       {- kafaY-i -}        [ "be enough", "suffice" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     FACY                      `verb`       {- kAfaY -}          [ "be enough", "suffice", "reward", "be rewarded" ],
 
@@ -579,8 +593,8 @@ lexicon = listing "Lexicon's properties"
  |> "k h n" <| [
 
     FaCaL                     `verb`       {- kahan-ua -}       [ "foresee", "predict", "prophesy" ]
-                              `imperf`     FCuL
-                              `imperf`     FCaL,
+                              `ithird`     FCuL
+                              `ithird`     FCaL,
 
     TaFaCCaL                  `verb`       {- takah~an -}       [ "predict", "prophesy" ],
 
@@ -778,8 +792,14 @@ lexicon = listing "Lexicon's properties"
 
  |> "k m m" <| [
 
+    FaL                       `noun`       {- kam -}            [ "how many/much" ],
+
+    FaL                       `noun`       {- kam -}            [ "how many/much" ],
+
     FaCL                      `verb`       {- kam~-u -}         [ "cover", "hide" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- kam~ -}           [ "amount", "quantity" ],
 
@@ -790,10 +810,10 @@ lexicon = listing "Lexicon's properties"
  |> "k m n" <| [
 
     FaCaL                     `verb`       {- kaman-u -}        [ "be latent", "be concealed" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     FaCiL                     `verb`       {- kamin-a -}        [ "be latent", "be concealed" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     TaFaCCaL                  `verb`       {- takam~an -}       [ "be latent", "be concealed" ],
 
@@ -855,7 +875,9 @@ lexicon = listing "Lexicon's properties"
  |> "k n n" <| [
 
     FaCL                      `verb`       {- kan~-i -}         [ "conceal", "hide" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     HaFaCL                    `verb`       {- Oakan~ -}         [ "conceal", "hide", "be concealed", "be hidden" ],
 
@@ -898,10 +920,11 @@ lexicon = listing "Lexicon's properties"
  |> "k n w" <| [
 
     FaCA                      `verb`       {- kanA-u -}         [ "allude to", "express indirectly", "nickname" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FaCY                      `verb`       {- kanaY-i -}        [ "allude to", "express indirectly", "nickname", "be nicknamed" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCI,
 
     FaCCY                     `verb`       {- kan~aY -}         [ "nickname", "be nicknamed" ] ]
 
@@ -1047,7 +1070,9 @@ lexicon = listing "Lexicon's properties"
  |> "k r r" <| [
 
     FaCL                      `verb`       {- kar~-u -}         [ "recur" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCCaL                    `verb`       {- kar~ar -}         [ "repeat", "reiterate" ],
 
@@ -1071,7 +1096,11 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`        {- mukar~ar -}       [ "refined", "distilled" ],
 
-    MutaFaCCiL                `adj`        {- mutakar~ir -}     [ "repeated", "frequent", "recurring" ] ]
+    MutaFaCCiL                `adj`        {- mutakar~ir -}     [ "repeated", "frequent", "recurring" ],
+
+    FuL |< aT                 `noun`       {- kurap -}          [ "globe", "sphere", "ball", "globes", "spheres", "balls" ]
+                              `plural`     FuCY
+                              {- `others` [ "kurY N0" ] -} ]
 
  |> "k r s" <| [
 
@@ -1101,7 +1130,8 @@ lexicon = listing "Lexicon's properties"
  |> "k r w" <| [
 
     FaCA                      `verb`       {- karA-u -}         [ "excavate", "be excavated" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FuCY |< Iy                `adj`        {- kurawiy~ -}       [ "soccer-related", "(sports) ball-related" ],
 
@@ -1118,10 +1148,10 @@ lexicon = listing "Lexicon's properties"
     FuCayL |< aT              `noun`       {- kuray~ap -}       [ "globule", "pellet", "corpuscle" ],
 
     FaCY                      `verb`       {- karaY-i -}        [ "excavate", "be excavated" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
-    FaCiL                     `verb`       {- kariy-a -}        [ "sleep" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- kariy-a -}        [ "sleep" ],
 
     FACY                      `verb`       {- kAraY -}          [ "rent", "lease", "be rented", "be leased" ],
 
@@ -1208,7 +1238,8 @@ lexicon = listing "Lexicon's properties"
  |> "k s w" <| [
 
     FaCA                      `verb`       {- kasA-u -}         [ "clothe", "attire", "be clothed", "be attired" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     HaFCY                     `verb`       {- OakosaY -}        [ "clothe", "attire", "be clothed", "be attired" ],
 
@@ -1216,8 +1247,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "k s y" <| [
 
-    FaCiL                     `verb`       {- kasiy-a -}        [ "get dressed" ]
-                              `imperf`     FCaL ]
+    FaCiL                     `verb`       {- kasiy-a -}        [ "get dressed" ] ]
 
  |> "k t ' b" <| [
 
@@ -1360,7 +1390,9 @@ lexicon = listing "Lexicon's properties"
  |> "k t t" <| [
 
     FaCL                      `verb`       {- kat~-i -}         [ "hum softly" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     FaCL                      `noun`       {- kat~ -}           [ "soft humming" ] ]
 
@@ -1379,7 +1411,8 @@ lexicon = listing "Lexicon's properties"
  |> "k w d" <| [
 
     FAL                       `verb`       {- kAd-a -}          [ "almost", "hardly", "no sooner" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FiL
+                              `ithird`     FaL,
 
     FaCCaL                    `verb`       {- kaw~ad -}         [ "pile up" ],
 
@@ -1439,8 +1472,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "k w n" <| [
 
-    FAL                       `verb`       {- kAn-u -}          [ "was", "were", "whether...was/were", "is", "are", "be" ]
-                              `imperf`     FCuL,
+    FAL                       `verb`       {- kAn-u -}          [ "was", "were", "is", "are", "be" ]
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL
+                              `second`     FuL,
 
     FaCCaL                    `verb`       {- kaw~an -}         [ "create" ],
 
@@ -1529,7 +1566,8 @@ lexicon = listing "Lexicon's properties"
  |> "k w y" <| [
 
     FaCY                      `verb`       {- kawaY-i -}        [ "press", "iron", "cauterize", "sear", "be pressed", "be ironed", "be cauterized", "be seared" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     FY |< Iy |< aT            `noun`       {- kawiy~ap -}       [ "crease" ],
 
@@ -1551,7 +1589,10 @@ lexicon = listing "Lexicon's properties"
  |> "k y d" <| [
 
     FAL                       `verb`       {- kAd-i -}          [ "deceive", "harm" ]
-                              `imperf`     FCiL ]
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL ]
 
  |> "k y f" <| [
 
@@ -1578,7 +1619,10 @@ lexicon = listing "Lexicon's properties"
  |> "k y l" <| [
 
     FAL                       `verb`       {- kAl-i -}          [ "measure" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- kay~al -}         [ "measure" ],
 
@@ -1611,7 +1655,9 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`       {- kiyAn -}          [ "Qian" ],
 
-    FiCL                      `noun`       {- kiyn -}           [ "Ken" ] ]
+    FiCL                      `noun`       {- kiyn -}           [ "Ken" ]
+                              `plural`     FiL
+                              {- `others` [ "kin Nprop" ] -} ]
 
  |> "k y n t" <| [
 
@@ -1631,7 +1677,10 @@ lexicon = listing "Lexicon's properties"
  |> "k y s" <| [
 
     FAL                       `verb`       {- kAs-i -}          [ "be clever" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- kay~as -}         [ "make elegant" ],
 
@@ -1668,7 +1717,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`       {- kay~ -}           [ "burning", "cauterization" ],
 
-    FaCL |< aT                `noun`       {- kay~ap -}         [ "burn", "brand" ] ]
+    FaCL |< aT                `noun`       {- kay~ap -}         [ "burn", "brand" ],
+
+    FaL                       `noun`       {- kay -}            [ "in order to" ] ]
 
  |> "kA_tuwliyk" <| [
 
@@ -1782,12 +1833,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- kal~A -}          [ "not at all", "definitely not" ] ]
 
- |> "kam" <| [
-
-    Identity                  `noun`       {- kam -}            [ "how many/much" ],
-
-    Identity                  `noun`       {- kam -}            [ "how many/much" ] ]
-
  |> "kaman^gA" <| [
 
     Identity                  `noun`       {- kamanojA -}       [ "kamanja (three stringed fiddle)" ] ]
@@ -1821,10 +1866,6 @@ lexicon = listing "Lexicon's properties"
  |> "karbalA'" <| [
 
     Identity                  `noun`       {- karobalA' -}      [ "Karbala" ] ]
-
- |> "kay" <| [
-
-    Identity                  `noun`       {- kay -}            [ "in order to" ] ]
 
  |> "kayfa" <| [
 
@@ -1979,10 +2020,6 @@ lexicon = listing "Lexicon's properties"
     Identity |< Iy            `adj`        {- kunofidrAliy~ -}  [ "confederate" ],
 
     Identity |< Iy |< aT      `noun`       {- kunofidrAliy~ap -} [ "confederation" ] ]
-
- |> "kur" <| [
-
-    Identity |< aT            `noun`       {- kurap -}          [ "globe", "sphere", "ball", "globes", "spheres", "balls" ] ]
 
  |> "kurdistAn" <| [
 

@@ -1605,6 +1605,9 @@ $Lexicon = {
         'zn      zin     IV-n    decorate;adorn'
       ],
       'patterns' => {
+        'zin' => [
+          'FiL'
+        ],
         'ziyn' => [
           'FIL',
           'FiCL'
@@ -2813,6 +2816,40 @@ $Lexicon = {
         'be recommended'
       ],
       'orig' => 'zak~aY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'zakA' => {
+          'N0_Nhy' => 1
+        },
+        'zakaN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => 'zak',
+      'form' => 'zakaN',
+      'lines' => [
+        ';; zakAF_1',
+        'zkA     zakAF   FW-WaBi alms;purity;honesty;integrity     [[zakAF/NOUN]]',
+        'zkA     zakA    N0_Nhy  alms;purity;honesty;integrity'
+      ],
+      'patterns' => {
+        'zakA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'alms',
+        'purity',
+        'honesty',
+        'integrity'
+      ],
+      'orig' => 'zakAF',
       'prefix' => ''
     }
   ],
@@ -5403,6 +5440,9 @@ $Lexicon = {
         'zuw.h' => [
           'FUL',
           'FuCL'
+        ],
+        'zu.h' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -5765,6 +5805,9 @@ $Lexicon = {
         'ziy.g' => [
           'FIL',
           'FiCL'
+        ],
+        'zi.g' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -5819,8 +5862,14 @@ $Lexicon = {
           'FIL',
           'FiCL'
         ],
+        'za.g' => [
+          'FaL'
+        ],
         'zA.g' => [
           'FAL'
+        ],
+        'zi.g' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -6372,6 +6421,9 @@ $Lexicon = {
         'zf      zif     IV_C_intr       be false'
       ],
       'patterns' => {
+        'zif' => [
+          'FiL'
+        ],
         'ziyf' => [
           'FIL',
           'FiCL'
@@ -7335,6 +7387,12 @@ $Lexicon = {
         'zd      zad     IV_C_Pass_yu    be increased;be added'
       ],
       'patterns' => {
+        'zid' => [
+          'FiL'
+        ],
+        'zad' => [
+          'FaL'
+        ],
         'ziyd' => [
           'FIL',
           'FiCL'
@@ -11189,6 +11247,9 @@ $Lexicon = {
         'zuwm' => [
           'FUL',
           'FuCL'
+        ],
+        'zum' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -12042,6 +12103,12 @@ $Lexicon = {
         'zd      zad     IV_C_Pass_yu    be supplied;be provided'
       ],
       'patterns' => {
+        'zid' => [
+          'FiL'
+        ],
+        'zad' => [
+          'FaL'
+        ],
         'ziyd' => [
           'FIL'
         ],
@@ -14053,6 +14120,9 @@ $Lexicon = {
         'zg      zug     IV_C    turn aside;deviate;swindle'
       ],
       'patterns' => {
+        'zu.g' => [
+          'FuL'
+        ],
         'zuw.g' => [
           'FUL',
           'FuCL'
@@ -19625,6 +19695,9 @@ $Lexicon = {
         'zH      ziH     IV_C    depart'
       ],
       'patterns' => {
+        'zi.h' => [
+          'FiL'
+        ],
         'ziy.h' => [
           'FIL',
           'FiCL'
@@ -19676,8 +19749,14 @@ $Lexicon = {
         'zH      zaH     IV_C_Pass_yu    be removed;be abolished'
       ],
       'patterns' => {
+        'zi.h' => [
+          'FiL'
+        ],
         'zA.h' => [
           'FAL'
+        ],
+        'za.h' => [
+          'FaL'
         ],
         'ziy.h' => [
           'FIL',
@@ -21013,6 +21092,9 @@ $Lexicon = {
         'zl      zul     IV_C    disappear'
       ],
       'patterns' => {
+        'zul' => [
+          'FuL'
+        ],
         'zuwl' => [
           'FUL',
           'FuCL'
@@ -21050,7 +21132,14 @@ $Lexicon = {
         'zAl     zAl     IV_V    cease;stop being;stop doing',
         'zl      zal     IV_C    cease;stop being;stop doing'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'zil' => [
+          'FiL'
+        ],
+        'zal' => [
+          'FaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
@@ -21157,6 +21246,12 @@ $Lexicon = {
         'zl      zal     IV_C_Pass_yu    be removed;be eliminated'
       ],
       'patterns' => {
+        'zil' => [
+          'FiL'
+        ],
+        'zal' => [
+          'FaL'
+        ],
         'ziyl' => [
           'FIL'
         ],
@@ -23025,6 +23120,9 @@ $Lexicon = {
         'zuwr' => [
           'FUL',
           'FuCL'
+        ],
+        'zur' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -23103,6 +23201,12 @@ $Lexicon = {
         'zr      zar     IV_C_Pass_yu    be shown (as visitor)'
       ],
       'patterns' => {
+        'zir' => [
+          'FiL'
+        ],
+        'zar' => [
+          'FaL'
+        ],
         'ziyr' => [
           'FIL'
         ],
@@ -23724,38 +23828,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'zuwfA\'',
-      'prefix' => ''
-    }
-  ],
-  'zak' => [
-    {
-      'types' => {
-        'zakA' => {
-          'N0_Nhy' => 1
-        },
-        'zakaN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => 'zak',
-      'form' => 'zakaN',
-      'lines' => [
-        ';; zakAF_1',
-        'zkA     zakAF   FW-WaBi alms;purity;honesty;integrity     [[zakAF/NOUN]]',
-        'zkA     zakA    N0_Nhy  alms;purity;honesty;integrity'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'alms',
-        'purity',
-        'honesty',
-        'integrity'
-      ],
-      'orig' => 'zakAF',
       'prefix' => ''
     }
   ],

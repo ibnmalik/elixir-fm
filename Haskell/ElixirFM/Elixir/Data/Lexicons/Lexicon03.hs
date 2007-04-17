@@ -148,7 +148,9 @@ lexicon = listing "Lexicon's properties"
  |> "t b b" <| [
 
     FaCL                      `verb`       {- tab~-i -}         [ "perish", "be destroyed" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     IstiFCAL                  `noun`       {- AisotitobAb -}    [ "normalcy", "stability" ] ]
 
@@ -167,7 +169,9 @@ lexicon = listing "Lexicon's properties"
  |> "t f f" <| [
 
     FaCL                      `verb`       {- taf~-i -}         [ "spit" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     FuCL                      `noun`       {- tuf~ -}           [ "fingernail dirt" ] ]
 
@@ -184,10 +188,14 @@ lexicon = listing "Lexicon's properties"
  |> "t k k" <| [
 
     FaCL                      `verb`       {- tak~-u -}         [ "trample underfoot", "intoxicate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `verb`       {- tak~-i -}         [ "tick" ]
-                              `imperf`     FCiL ]
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL ]
 
  |> "t k s s" <| [
 
@@ -226,7 +234,7 @@ lexicon = listing "Lexicon's properties"
  |> "t l k" <| [
 
     FaCA                      `verb`       {- talA-u -}         [ "follow", "recite", "be followed", "be recited" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCU,
 
     HaFCY                     `verb`       {- OatolaY -}        [ "make follow", "put next", "be made to follow", "be put next" ],
 
@@ -276,7 +284,9 @@ lexicon = listing "Lexicon's properties"
  |> "t m m" <| [
 
     FaCL                      `verb`       {- tam~-i -}         [ "conclude", "take place" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     HaFaCL                    `verb`       {- Oatam~ -}         [ "complete", "conclude", "be completed", "be concluded" ],
 
@@ -365,7 +375,8 @@ lexicon = listing "Lexicon's properties"
  |> "t q y" <| [
 
     FaCY                      `verb`       {- taqaY-i -}        [ "be devout", "be pious" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     FaCIL                     `adj`        {- taqiy~ -}         [ "pious", "devout" ]
                               `plural`     HaFCiLA'
@@ -538,14 +549,20 @@ lexicon = listing "Lexicon's properties"
  |> "t w b" <| [
 
     FAL                       `verb`       {- tAb-u -}          [ "repent" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FA'iL                     `noun`       {- tA}ib -}          [ "repentant", "contrite" ] ]
 
  |> "t w h" <| [
 
     FAL                       `verb`       {- tAh-u -}          [ "go astray", "get lost" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FaCCaL                    `verb`       {- taw~ah -}         [ "mislead", "confuse" ] ]
 
@@ -570,7 +587,10 @@ lexicon = listing "Lexicon's properties"
  |> "t w q" <| [
 
     FAL                       `verb`       {- tAq-u -}          [ "yearn", "wish", "desire" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FaCCAL                    `noun`       {- taw~Aq -}         [ "longing", "yearning" ] ]
 
@@ -611,7 +631,10 @@ lexicon = listing "Lexicon's properties"
  |> "t y h" <| [
 
     FAL                       `verb`       {- tAh-i -}          [ "get lost", "perish" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- tay~ah -}         [ "mislead", "confuse" ],
 
@@ -632,7 +655,10 @@ lexicon = listing "Lexicon's properties"
     FiCL                      `noun`       {- tiym -}           [ "Tim" ],
 
     FAL                       `verb`       {- tAm-i -}          [ "be infatuated", "be enslaved" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- tay~am -}         [ "infatuate", "enslave" ] ]
 

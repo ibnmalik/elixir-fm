@@ -78,7 +78,8 @@ lexicon = listing "Lexicon's properties"
  |> ".d .h w" <| [
 
     FaCA                      `verb`       {- DaHA-u -}         [ "appear", "become visible" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FaCCY                     `verb`       {- DaH~aY -}         [ "sacrifice", "immolate", "be sacrificed", "be immolated" ],
 
@@ -90,8 +91,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".d .h y" <| [
 
-    FaCiL                     `verb`       {- DaHiy-a -}        [ "be visible", "be in the sun" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- DaHiy-a -}        [ "be visible", "be in the sun" ],
 
     FaCIL |< aT               `noun`       {- DaHiy~ap -}       [ "victim", "victims" ],
 
@@ -127,7 +127,9 @@ lexicon = listing "Lexicon's properties"
  |> ".d _h _h" <| [
 
     FaCL                      `verb`       {- Dax~-u -}         [ "inject", "pump", "spurt" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- Dax~ -}           [ "pumping", "injecting" ],
 
@@ -194,8 +196,8 @@ lexicon = listing "Lexicon's properties"
  |> ".d b .t" <| [
 
     FaCaL                     `verb`       {- DabaT-ui -}       [ "regulate", "adjust", "fix" ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     FaCL                      `noun`       {- DaboT -}          [ "adjusting", "regulating", "precision" ],
 
@@ -239,7 +241,7 @@ lexicon = listing "Lexicon's properties"
  |> ".d f b" <| [
 
     FaCA                      `verb`       {- DafA-u -}         [ "overflow", "be abundant" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCU,
 
     HaFCY                     `verb`       {- OaDofaY -}        [ "grant", "confer", "be granted", "be conferred" ],
 
@@ -308,7 +310,9 @@ lexicon = listing "Lexicon's properties"
  |> ".d l l" <| [
 
     FaCL                      `verb`       {- Dal~-i -}         [ "go astray", "be in vain" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     FaCCaL                    `verb`       {- Dal~al -}         [ "mislead", "deceive" ],
 
@@ -327,7 +331,9 @@ lexicon = listing "Lexicon's properties"
  |> ".d m m" <| [
 
     FaCL                      `verb`       {- Dam~-u -}         [ "include", "comprise", "incorporate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     TaFACL                    `verb`       {- taDAm~ -}         [ "unite", "join forces" ],
 
@@ -348,7 +354,7 @@ lexicon = listing "Lexicon's properties"
  |> ".d m n" <| [
 
     FaCiL                     `verb`       {- Damin-a -}        [ "guarantee", "insure" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     FaCCaL                    `verb`       {- Dam~an -}         [ "guarantee", "insure" ],
 
@@ -407,7 +413,8 @@ lexicon = listing "Lexicon's properties"
  |> ".d n n" <| [
 
     FaCL                      `verb`       {- Dan~-a -}         [ "hold back", "economize" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FaCiL
+                              `ithird`     FCaL,
 
     FaCL                      `noun`       {- Dan~ -}           [ "holding back", "economizing" ],
 
@@ -415,8 +422,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".d n y" <| [
 
-    FaCiL                     `verb`       {- Daniy-a -}        [ "become emaciated", "languish" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- Daniy-a -}        [ "become emaciated", "languish" ],
 
     HaFCY                     `verb`       {- OaDonaY -}        [ "become emaciated", "languish" ],
 
@@ -511,7 +517,9 @@ lexicon = listing "Lexicon's properties"
  |> ".d r r" <| [
 
     FaCL                      `verb`       {- Dar~-u -}         [ "harm", "injure" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCCaL                    `verb`       {- Dar~ar -}         [ "damage", "injure" ],
 
@@ -560,7 +568,10 @@ lexicon = listing "Lexicon's properties"
  |> ".d w '" <| [
 
     FAL                       `verb`       {- DA'-u -}          [ "shine", "illuminate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     HaFAL                     `verb`       {- OaDA' -}          [ "shine", "illuminate" ],
 
@@ -579,18 +590,29 @@ lexicon = listing "Lexicon's properties"
  |> ".d w `" <| [
 
     FAL                       `verb`       {- DAE-u -}          [ "emanate", "be fragrant" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL ]
 
  |> ".d w r" <| [
 
     FAL                       `verb`       {- DAr-u -}          [ "harm", "injure" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FAL                       `verb`       {- DAr-u -}          [ "starve" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FAL                       `verb`       {- DAr-i -}          [ "harm", "injure" ]
-                              `imperf`     FCiL ]
+                              `imperf`     FIL
+                              `pfirst`     FiL
+                              `ithird`     FiL ]
 
  |> ".d w y" <| [
 
@@ -611,7 +633,10 @@ lexicon = listing "Lexicon's properties"
  |> ".d y `" <| [
 
     FAL                       `verb`       {- DAE-i -}          [ "disappear", "vanish" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- Day~aE -}         [ "lose", "miss", "let go by" ],
 
@@ -664,12 +689,18 @@ lexicon = listing "Lexicon's properties"
  |> ".d y m" <| [
 
     FAL                       `verb`       {- DAm-i -}          [ "treat unjustly", "injure" ]
-                              `imperf`     FCiL ]
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL ]
 
  |> ".d y q" <| [
 
     FAL                       `verb`       {- DAq-i -}          [ "be narrow", "be confined", "be small" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- Day~aq -}         [ "make narrow", "tighten" ],
 

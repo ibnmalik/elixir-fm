@@ -2796,6 +2796,9 @@ $Lexicon = {
         'rq      riq     IV_C    shine;glisten'
       ],
       'patterns' => {
+        'riq' => [
+          'FiL'
+        ],
         'riyq' => [
           'FIL',
           'FiCL'
@@ -3535,6 +3538,9 @@ $Lexicon = {
         'rd      rud     IV_C    tour;explore'
       ],
       'patterns' => {
+        'rud' => [
+          'FuL'
+        ],
         'ruwd' => [
           'FUL',
           'FuCL'
@@ -3622,6 +3628,12 @@ $Lexicon = {
         ],
         'riyd' => [
           'FIL'
+        ],
+        'rid' => [
+          'FiL'
+        ],
+        'rad' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -9336,6 +9348,9 @@ $Lexicon = {
         ],
         'rY' => [
           'FY'
+        ],
+        'ray' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -10138,6 +10153,9 @@ $Lexicon = {
         'ruwm' => [
           'FUL',
           'FuCL'
+        ],
+        'rum' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -14033,6 +14051,30 @@ $Lexicon = {
         'glistening'
       ],
       'orig' => 'raf~Af',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'rufAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'ruf',
+      'form' => 'rufAt',
+      'lines' => [
+        ';; rufAt_1',
+        'rfAt    rufAt   N       remains;body'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'remains',
+        'body'
+      ],
+      'orig' => 'rufAt',
       'prefix' => ''
     }
   ],
@@ -18648,32 +18690,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ruf' => [
-    {
-      'types' => {
-        'rufAt' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'ruf',
-      'form' => 'rufAt',
-      'lines' => [
-        ';; rufAt_1',
-        'rfAt    rufAt   N       remains;body'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'remains',
-        'body'
-      ],
-      'orig' => 'rufAt',
-      'prefix' => ''
-    }
-  ],
   'r t w' => [
     {
       'types' => {
@@ -22517,6 +22533,9 @@ $Lexicon = {
         'riy`' => [
           'FIL',
           'FiCL'
+        ],
+        'ri`' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -23504,6 +23523,9 @@ $Lexicon = {
         'rg      rug     IV_C    evade;dodge;swerve'
       ],
       'patterns' => {
+        'ru.g' => [
+          'FuL'
+        ],
         'ruw.g' => [
           'FUL',
           'FuCL'
@@ -25120,6 +25142,9 @@ $Lexicon = {
         'riyn' => [
           'FIL',
           'FiCL'
+        ],
+        'rin' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -26770,6 +26795,9 @@ $Lexicon = {
         'riy^s' => [
           'FIL',
           'FiCL'
+        ],
+        'ri^s' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -27674,6 +27702,9 @@ $Lexicon = {
         'rb      rub     IV_C    curdle'
       ],
       'patterns' => {
+        'rub' => [
+          'FuL'
+        ],
         'ruwb' => [
           'FUL',
           'FuCL'
@@ -27757,8 +27788,14 @@ $Lexicon = {
         'riyb' => [
           'FIL'
         ],
+        'rib' => [
+          'FiL'
+        ],
         'rAb' => [
           'FAL'
+        ],
+        'rab' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -31350,6 +31387,9 @@ $Lexicon = {
         'rj      ruj     IV_C    circulate;spread;be available'
       ],
       'patterns' => {
+        'ru^g' => [
+          'FuL'
+        ],
         'ruw^g' => [
           'FUL',
           'FuCL'
@@ -32333,6 +32373,9 @@ $Lexicon = {
         'riym' => [
           'FIL',
           'FiCL'
+        ],
+        'rim' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -34257,6 +34300,9 @@ $Lexicon = {
         'riyb' => [
           'FIL',
           'FiCL'
+        ],
+        'rib' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -34311,8 +34357,14 @@ $Lexicon = {
           'FIL',
           'FiCL'
         ],
+        'rib' => [
+          'FiL'
+        ],
         'rAb' => [
           'FAL'
+        ],
+        'rab' => [
+          'FaL'
         ]
       },
       'index' => '2',
@@ -36750,6 +36802,9 @@ $Lexicon = {
         'rE      ruE     IV_C    surprise;startle;thrill'
       ],
       'patterns' => {
+        'ru`' => [
+          'FuL'
+        ],
         'ruw`' => [
           'FUL',
           'FuCL'
@@ -36834,6 +36889,12 @@ $Lexicon = {
       'patterns' => {
         'riy`' => [
           'FIL'
+        ],
+        'ra`' => [
+          'FaL'
+        ],
+        'ri`' => [
+          'FiL'
         ],
         'rA`' => [
           'FAL'
@@ -37187,6 +37248,9 @@ $Lexicon = {
         'rD      ruD     IV_C    domesticate;pacify'
       ],
       'patterns' => {
+        'ru.d' => [
+          'FuL'
+        ],
         'ruw.d' => [
           'FUL',
           'FuCL'
@@ -37728,6 +37792,9 @@ $Lexicon = {
         'rv      ruv     IV_C    drop dung'
       ],
       'patterns' => {
+        'ru_t' => [
+          'FuL'
+        ],
         'ruw_t' => [
           'FUL',
           'FuCL'
@@ -38351,40 +38418,6 @@ $Lexicon = {
         'work songs'
       ],
       'orig' => 'Ourojuwzap',
-      'prefix' => ''
-    }
-  ],
-  'ri\'' => [
-    {
-      'types' => {
-        'ri\'aT' => {
-          'Napdu' => 1
-        },
-        'ri\'uwn' => {
-          'N' => 1
-        },
-        'riyy' => {
-          'Napdu' => 1
-        }
-      },
-      'entry' => 'ri\'',
-      'form' => 'ri\'aT',
-      'lines' => [
-        ';; ri}ap_1',
-        'r}      ri}     Napdu   lung',
-        'ry      riy~    Napdu   lung     [[riy~/NOUN]]',
-        'r}wn    ri}uwn  N       lungs'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'lung',
-        'lungs'
-      ],
-      'orig' => 'ri}ap',
       'prefix' => ''
     }
   ],
@@ -41084,6 +41117,9 @@ $Lexicon = {
         'rH      ruH     IV_C    begin;go'
       ],
       'patterns' => {
+        'ru.h' => [
+          'FuL'
+        ],
         'ruw.h' => [
           'FUL',
           'FuCL'
@@ -41197,6 +41233,12 @@ $Lexicon = {
         'rH      raH     IV_C_Pass_yu    be made to rest;be put at ease'
       ],
       'patterns' => {
+        'ra.h' => [
+          'FaL'
+        ],
+        'ri.h' => [
+          'FiL'
+        ],
         'rA.h' => [
           'FAL'
         ],
@@ -47057,6 +47099,9 @@ $Lexicon = {
         'riy_t' => [
           'FIL',
           'FiCL'
+        ],
+        'ri_t' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -50768,6 +50813,9 @@ $Lexicon = {
         'rz      ruz     IV_C    weigh;examine;consider'
       ],
       'patterns' => {
+        'ruz' => [
+          'FuL'
+        ],
         'ruwz' => [
           'FUL',
           'FuCL'
@@ -51281,6 +51329,38 @@ $Lexicon = {
     }
   ],
   'r \' \'' => [
+    {
+      'types' => {
+        'ri\'aT' => {
+          'Napdu' => 1
+        },
+        'ri\'uwn' => {
+          'N' => 1
+        },
+        'riyy' => {
+          'Napdu' => 1
+        }
+      },
+      'entry' => 'ri\'',
+      'form' => 'ri\'aT',
+      'lines' => [
+        ';; ri}ap_1',
+        'r}      ri}     Napdu   lung',
+        'ry      riy~    Napdu   lung     [[riy~/NOUN]]',
+        'r}wn    ri}uwn  N       lungs'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'lung',
+        'lungs'
+      ],
+      'orig' => 'ri}ap',
+      'prefix' => ''
+    },
     {
       'types' => {
         'ri\'awiyy' => {
@@ -52687,31 +52767,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'rAtuw' => [
-    {
-      'types' => {
-        'rAtuw' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'rAtuw',
-      'form' => 'rAtuw',
-      'lines' => [
-        ';; rAtuw_1',
-        'rAtw    rAtuw   Nprop   Ratu'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Ratu'
-      ],
-      'orig' => 'rAtuw',
-      'prefix' => ''
-    }
-  ],
   'rAdAr' => [
     {
       'types' => {
@@ -52770,6 +52825,31 @@ $Lexicon = {
         'radar'
       ],
       'orig' => 'rAdAriy~',
+      'prefix' => ''
+    }
+  ],
+  'rAtuw' => [
+    {
+      'types' => {
+        'rAtuw' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'rAtuw',
+      'form' => 'rAtuw',
+      'lines' => [
+        ';; rAtuw_1',
+        'rAtw    rAtuw   Nprop   Ratu'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Ratu'
+      ],
+      'orig' => 'rAtuw',
       'prefix' => ''
     }
   ],
@@ -56302,6 +56382,9 @@ $Lexicon = {
         'ruwq' => [
           'FUL',
           'FuCL'
+        ],
+        'ruq' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -56383,6 +56466,12 @@ $Lexicon = {
         'rq      raq     IV_C_Pass_yu    be poured;be spilled'
       ],
       'patterns' => {
+        'raq' => [
+          'FaL'
+        ],
+        'riq' => [
+          'FiL'
+        ],
         'riyq' => [
           'FIL'
         ],
@@ -57193,6 +57282,9 @@ $Lexicon = {
         'rl      ril     IV_C    drool;slobber'
       ],
       'patterns' => {
+        'ril' => [
+          'FiL'
+        ],
         'riyl' => [
           'FIL',
           'FiCL'
@@ -58135,9 +58227,9 @@ $Lexicon->{'r \' b'}[4]{'glosses'} = $Lexicon->{'r w b'}[5]{'glosses'};
 $Lexicon->{'r h \''}[0]{'types'} = $Lexicon->{'r h w'}[4]{'types'};
 $Lexicon->{'r h \''}[0]{'lines'} = $Lexicon->{'r h w'}[4]{'lines'};
 $Lexicon->{'r h \''}[0]{'glosses'} = $Lexicon->{'r h w'}[4]{'glosses'};
-$Lexicon->{'r \' \''}[1]{'types'} = $Lexicon->{'r \' y'}[13]{'types'};
-$Lexicon->{'r \' \''}[1]{'lines'} = $Lexicon->{'r \' y'}[13]{'lines'};
-$Lexicon->{'r \' \''}[1]{'glosses'} = $Lexicon->{'r \' y'}[13]{'glosses'};
+$Lexicon->{'r \' \''}[2]{'types'} = $Lexicon->{'r \' y'}[13]{'types'};
+$Lexicon->{'r \' \''}[2]{'lines'} = $Lexicon->{'r \' y'}[13]{'lines'};
+$Lexicon->{'r \' \''}[2]{'glosses'} = $Lexicon->{'r \' y'}[13]{'glosses'};
 $Lexicon->{'r b b'}[14]{'types'} = $Lexicon->{'r b n'}[0]{'types'};
 $Lexicon->{'r b b'}[14]{'lines'} = $Lexicon->{'r b n'}[0]{'lines'};
 $Lexicon->{'r b b'}[14]{'glosses'} = $Lexicon->{'r b n'}[0]{'glosses'};

@@ -60,7 +60,9 @@ module Elixir.Lexicon (
 
         verb, noun, adj, num, prep, conj, part,
 
-        imperf, gerund, plural, others,
+        imperf, pfirst, ithird, second,
+
+        gerund, plural, others,
 
         countNest, countEntry, countEach
 
@@ -207,6 +209,12 @@ imperf x y = x { entity = Verb (y : z) v }
 
     where Verb z v = entity x
 
+
+pfirst = const
+
+ithird = const
+
+second = const
 
 gerund = const
 

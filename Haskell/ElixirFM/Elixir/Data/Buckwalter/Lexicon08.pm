@@ -704,6 +704,9 @@ $Lexicon = {
         'dm      dum     IV_C    last;persevere;continue'
       ],
       'patterns' => {
+        'dum' => [
+          'FuL'
+        ],
         'duwm' => [
           'FUL',
           'FuCL'
@@ -820,8 +823,14 @@ $Lexicon = {
         'dAm' => [
           'FAL'
         ],
+        'dam' => [
+          'FaL'
+        ],
         'diym' => [
           'FIL'
+        ],
+        'dim' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -1932,32 +1941,6 @@ $Lexicon = {
         'pitch-black'
       ],
       'orig' => 'mudolahim~',
-      'prefix' => ''
-    }
-  ],
-  'duw' => [
-    {
-      'types' => {
-        'duw' => {
-          'FW' => 1
-        }
-      },
-      'entry' => 'duw',
-      'form' => 'duw',
-      'lines' => [
-        ';; duw_1',
-        'dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Du',
-        'Do'
-      ],
-      'orig' => 'duw',
       'prefix' => ''
     }
   ],
@@ -5032,6 +5015,9 @@ $Lexicon = {
         'dl      dul     IV_C    rotate;change'
       ],
       'patterns' => {
+        'dul' => [
+          'FuL'
+        ],
         'duwl' => [
           'FUL',
           'FuCL'
@@ -5114,6 +5100,12 @@ $Lexicon = {
         'dl      dal     IV_C_Pass_yu    be transferred (power);be substituted'
       ],
       'patterns' => {
+        'dil' => [
+          'FiL'
+        ],
+        'dal' => [
+          'FaL'
+        ],
         'diyl' => [
           'FIL'
         ],
@@ -16213,6 +16205,9 @@ $Lexicon = {
         'df      duf     IV_C    mix;mingle'
       ],
       'patterns' => {
+        'duf' => [
+          'FuL'
+        ],
         'duwf' => [
           'FUL',
           'FuCL'
@@ -16832,6 +16827,41 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'dam~aY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'dam' => {
+          'N' => 1
+        },
+        'dimA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'dam',
+      'form' => 'dam',
+      'lines' => [
+        ';; dam_1',
+        'dm      dam     N       blood',
+        'dmA\'    dimA\'   N0_Nh   blood',
+        'dmA&    dimA&   Nh      blood',
+        'dmA}    dimA}   Nhy     blood'
+      ],
+      'patterns' => {
+        'dimA\'' => [
+          'FiCA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        'blood'
+      ],
+      'orig' => 'dam',
       'prefix' => ''
     }
   ],
@@ -23661,7 +23691,11 @@ $Lexicon = {
         'dw$     duw$    N/At    shower;douche',
         'd$      du$     N       shower;douche'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'du^s' => [
+          'FuL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCL',
@@ -24744,6 +24778,9 @@ $Lexicon = {
         'duwr' => [
           'FUL',
           'FuCL'
+        ],
+        'dur' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -24857,6 +24894,12 @@ $Lexicon = {
         ],
         'diyr' => [
           'FIL'
+        ],
+        'dar' => [
+          'FaL'
+        ],
+        'dir' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -28050,6 +28093,9 @@ $Lexicon = {
         'duws' => [
           'FUL',
           'FuCL'
+        ],
+        'dus' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -29434,6 +29480,9 @@ $Lexicon = {
         'diyn' => [
           'FIL',
           'FiCL'
+        ],
+        'din' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -29519,6 +29568,12 @@ $Lexicon = {
         ],
         'dAn' => [
           'FAL'
+        ],
+        'dan' => [
+          'FaL'
+        ],
+        'din' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -30556,39 +30611,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'dam' => [
-    {
-      'types' => {
-        'dam' => {
-          'N' => 1
-        },
-        'dimA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'dam',
-      'form' => 'dam',
-      'lines' => [
-        ';; dam_1',
-        'dm      dam     N       blood',
-        'dmA\'    dimA\'   N0_Nh   blood',
-        'dmA&    dimA&   Nh      blood',
-        'dmA}    dimA}   Nhy     blood'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'blood'
-      ],
-      'orig' => 'dam',
-      'prefix' => ''
-    }
-  ],
   'd w b' => [
     {
       'types' => {
@@ -30611,6 +30633,9 @@ $Lexicon = {
         'db      dub     IV_C_intr       be worn out'
       ],
       'patterns' => {
+        'dub' => [
+          'FuL'
+        ],
         'duwb' => [
           'FUL',
           'FuCL'
@@ -32007,6 +32032,9 @@ $Lexicon = {
         'dx      dux     IV_C    conquer'
       ],
       'patterns' => {
+        'du_h' => [
+          'FuL'
+        ],
         'duw_h' => [
           'FUL',
           'FuCL'
@@ -32046,6 +32074,9 @@ $Lexicon = {
         'dx      dux     IV_C_intr       be humble;be nauseated'
       ],
       'patterns' => {
+        'du_h' => [
+          'FuL'
+        ],
         'duw_h' => [
           'FUL',
           'FuCL'
@@ -37364,6 +37395,30 @@ $Lexicon = {
   ],
   'd w w' => [
     {
+      'types' => {
+        'duw' => {
+          'FW' => 1
+        }
+      },
+      'entry' => 'duw',
+      'form' => 'duw',
+      'lines' => [
+        ';; duw_1',
+        'dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL',
+      'suffix' => '',
+      'glosses' => [
+        'Du',
+        'Do'
+      ],
+      'orig' => 'duw',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'dawwY',
       'form' => 'dawwY',
@@ -38440,6 +38495,6 @@ $Lexicon->{'d h h'}[0]{'glosses'} = $Lexicon->{'d h y'}[2]{'glosses'};
 $Lexicon->{'d m n'}[8]{'types'} = $Lexicon->{'d w m'}[21]{'types'};
 $Lexicon->{'d m n'}[8]{'lines'} = $Lexicon->{'d w m'}[21]{'lines'};
 $Lexicon->{'d m n'}[8]{'glosses'} = $Lexicon->{'d w m'}[21]{'glosses'};
-$Lexicon->{'d w w'}[0]{'types'} = $Lexicon->{'d w y'}[2]{'types'};
-$Lexicon->{'d w w'}[0]{'lines'} = $Lexicon->{'d w y'}[2]{'lines'};
-$Lexicon->{'d w w'}[0]{'glosses'} = $Lexicon->{'d w y'}[2]{'glosses'};
+$Lexicon->{'d w w'}[1]{'types'} = $Lexicon->{'d w y'}[2]{'types'};
+$Lexicon->{'d w w'}[1]{'lines'} = $Lexicon->{'d w y'}[2]{'lines'};
+$Lexicon->{'d w w'}[1]{'glosses'} = $Lexicon->{'d w y'}[2]{'glosses'};

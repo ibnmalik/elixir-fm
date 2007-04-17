@@ -2374,6 +2374,9 @@ $Lexicon = {
         'Tq      Tuq     IV_C_intr       be able;be capable'
       ],
       'patterns' => {
+        '.tuq' => [
+          'FuL'
+        ],
         '.tuwq' => [
           'FUL',
           'FuCL'
@@ -2459,8 +2462,14 @@ $Lexicon = {
         '.tiyq' => [
           'FIL'
         ],
+        '.tiq' => [
+          'FiL'
+        ],
         '.tAq' => [
           'FAL'
+        ],
+        '.taq' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -3201,6 +3210,9 @@ $Lexicon = {
         '.tuw.h' => [
           'FUL',
           'FuCL'
+        ],
+        '.tu.h' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -3278,6 +3290,12 @@ $Lexicon = {
         'TH      TaH     IV_C_Pass_yu    be overthrown;be toppled'
       ],
       'patterns' => {
+        '.ti.h' => [
+          'FiL'
+        ],
+        '.ta.h' => [
+          'FaL'
+        ],
         '.tA.h' => [
           'FAL'
         ],
@@ -4106,6 +4124,9 @@ $Lexicon = {
         'Tf      Tuf     IV_C    circulate;wander about'
       ],
       'patterns' => {
+        '.tuf' => [
+          'FuL'
+        ],
         '.tuwf' => [
           'FUL',
           'FuCL'
@@ -4191,8 +4212,14 @@ $Lexicon = {
         '.tAf' => [
           'FAL'
         ],
+        '.tif' => [
+          'FiL'
+        ],
         '.tiyf' => [
           'FIL'
+        ],
+        '.taf' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -12884,6 +12911,9 @@ $Lexicon = {
         '.tiy^s' => [
           'FIL',
           'FiCL'
+        ],
+        '.ti^s' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -13618,6 +13648,9 @@ $Lexicon = {
         'TE      TuE     IV_C    obey'
       ],
       'patterns' => {
+        '.tu`' => [
+          'FuL'
+        ],
         '.tuw`' => [
           'FUL',
           'FuCL'
@@ -13729,6 +13762,12 @@ $Lexicon = {
         'TE      TaE     IV_C_Pass_yu    be obeyed'
       ],
       'patterns' => {
+        '.ti`' => [
+          'FiL'
+        ],
+        '.ta`' => [
+          'FaL'
+        ],
         '.tiy`' => [
           'FIL'
         ],
@@ -15392,6 +15431,9 @@ $Lexicon = {
         '.tuwl' => [
           'FUL',
           'FuCL'
+        ],
+        '.tul' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -15501,8 +15543,14 @@ $Lexicon = {
         '.tAl' => [
           'FAL'
         ],
+        '.til' => [
+          'FiL'
+        ],
         '.tiyl' => [
           'FIL'
+        ],
+        '.tal' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -16268,6 +16316,9 @@ $Lexicon = {
         'Tb      Tib     IV_C_intr       be good;be pleasant'
       ],
       'patterns' => {
+        '.tib' => [
+          'FiL'
+        ],
         '.tiyb' => [
           'FIL',
           'FiCL'
@@ -16378,6 +16429,12 @@ $Lexicon = {
         'Tb      Tab     IV_C_Pass_yu    be made pleasant'
       ],
       'patterns' => {
+        '.tab' => [
+          'FaL'
+        ],
+        '.tib' => [
+          'FiL'
+        ],
         '.tiyb' => [
           'FIL',
           'FiCL'
@@ -17635,6 +17692,9 @@ $Lexicon = {
         'Tf      Tif     IV_C    appear'
       ],
       'patterns' => {
+        '.tif' => [
+          'FiL'
+        ],
         '.tiyf' => [
           'FIL',
           'FiCL'
@@ -19783,6 +19843,9 @@ $Lexicon = {
         'TH      TiH     IV_C_intr       be lost'
       ],
       'patterns' => {
+        '.ti.h' => [
+          'FiL'
+        ],
         '.tiy.h' => [
           'FIL',
           'FiCL'
@@ -25608,6 +25671,9 @@ $Lexicon = {
         'Tr      Tir     IV_C    fly'
       ],
       'patterns' => {
+        '.tir' => [
+          'FiL'
+        ],
         '.tiyr' => [
           'FIL',
           'FiCL'

@@ -69,7 +69,9 @@ lexicon = listing "Lexicon's properties"
  |> "b .d .d" <| [
 
     FaCL                      `verb`       {- baD~-i -}         [ "tune (instrument)" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     FaCL                      `noun`       {- baD~ -}           [ "tuning (instrument)" ],
 
@@ -108,7 +110,7 @@ lexicon = listing "Lexicon's properties"
  |> "b .g d" <| [
 
     FaCY                      `verb`       {- bagaY-i -}        [ "want", "desire", "be wanted", "be desired" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCI,
 
     InFaCY                    `verb`       {- AinobagaY -}      [ "be incumbent", "be necessary" ],
 
@@ -141,7 +143,9 @@ lexicon = listing "Lexicon's properties"
  |> "b .h .h" <| [
 
     FaCL                      `verb`       {- baH~-u -}         [ "be hoarse", "be harsh" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL ]
 
  |> "b .h _t" <| [
 
@@ -283,7 +287,9 @@ lexicon = listing "Lexicon's properties"
  |> "b .t .t" <| [
 
     FaCL                      `verb`       {- baT~-u -}         [ "flush", "pierce" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- baT~ -}           [ "duck", "ducks" ]
                               `plural`     FuCUL
@@ -340,10 +346,10 @@ lexicon = listing "Lexicon's properties"
  |> "b .t n" <| [
 
     FaCaL                     `verb`       {- baTan-u -}        [ "hide", "conceal" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     FaCuL                     `verb`       {- baTun-u -}        [ "be paunchy" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     FaCCaL                    `verb`       {- baT~an -}         [ "cover", "resurface" ],
 
@@ -514,7 +520,9 @@ lexicon = listing "Lexicon's properties"
  |> "b _d _d" <| [
 
     FaCL                      `verb`       {- ba*~-u -}         [ "surpass", "beat" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- ba*~ -}           [ "slovenly", "squalid" ] ]
 
@@ -579,7 +587,9 @@ lexicon = listing "Lexicon's properties"
  |> "b _t _t" <| [
 
     FaCL                      `verb`       {- bav~-u -}         [ "transmit", "disseminate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- bav~ -}           [ "broadcast", "transmission", "dissemination" ] ]
 
@@ -607,6 +617,10 @@ lexicon = listing "Lexicon's properties"
     FaCCaL                    `verb`       {- baE~aD -}         [ "divide", "portion", "be divided", "be apportioned" ],
 
     FaCUL                     `noun`       {- baEuwD -}         [ "gnat", "mosquito" ] ]
+
+ |> "b ` .g" <| [
+
+    FaL |< Iy                 `adj`        {- bagiy~ -}         [ "whore", "whores" ] ]
 
  |> "b ` _t" <| [
 
@@ -687,6 +701,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`        {- baEoliy~ -}       [ "unirrigated" ] ]
 
+ |> "b ` q" <| [
+
+    FaL |< Iy |< aT           `noun`       {- baqiy~ap -}       [ "remainder", "remnant", "remainders", "remnants" ] ]
+
  |> "b d '" <| [
 
     FaCaL                     `verb`       {- badaO-a -}        [ "start", "begin" ]
@@ -760,7 +778,9 @@ lexicon = listing "Lexicon's properties"
  |> "b d d" <| [
 
     FaCL                      `verb`       {- bad~-u -}         [ "disperse", "distribute" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCCaL                    `verb`       {- bad~ad -}         [ "squander", "disperse", "be squandered", "be dispersed" ],
 
@@ -848,7 +868,7 @@ lexicon = listing "Lexicon's properties"
  |> "b d n" <| [
 
     FaCaL                     `verb`       {- badan-u -}        [ "be corpulent" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     FaCaL                     `noun`       {- badan -}          [ "body", "bodies" ]
                               `plural`     HaFCAL
@@ -909,7 +929,7 @@ lexicon = listing "Lexicon's properties"
     IFtiCA' |< Iy             `adj`        {- AibotidA}iy~ -}   [ "elementary", "preparatory" ],
 
     FaCA                      `verb`       {- badA-u -}         [ "appear", "seem" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCU,
 
     FACY                      `verb`       {- bAdaY -}          [ "reveal", "show", "be revealed", "be shown" ],
 
@@ -1024,8 +1044,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "b h y" <| [
 
-    FaCiL                     `verb`       {- bahiy-a -}        [ "be beautiful" ]
-                              `imperf`     FCaL ]
+    FaCiL                     `verb`       {- bahiy-a -}        [ "be beautiful" ] ]
 
  |> "b k '" <| [
 
@@ -1035,7 +1054,7 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ "bikA' N0" ] -},
 
     FaCY                      `verb`       {- bakaY-i -}        [ "cry", "weep" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCI,
 
     FaCCY                     `verb`       {- bak~aY -}         [ "make cry", "be made to cry" ],
 
@@ -1055,6 +1074,10 @@ lexicon = listing "Lexicon's properties"
 
  |> "b k k" <| [
 
+    FaL                       `noun`       {- bak -}            [ "Bey", "beys" ]
+                              `plural`     FIL
+                              {- `others` [ "biyk N" ] -},
+
     FaCLY                     `verb`       {- bak~aY -}         [ "make cry", "be made to cry" ] ]
 
  |> "b k l" <| [
@@ -1063,7 +1086,9 @@ lexicon = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`       {- bukolap -}        [ "clasp", "clasps" ]
                               `plural`     FuCaL
-                              {- `others` [ "bukal N" ] -} ]
+                              {- `others` [ "bukal N" ] -},
+
+    FaL                       `noun`       {- bal -}            [ "but rather", "in fact" ] ]
 
  |> "b k r" <| [
 
@@ -1112,8 +1137,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "b k y" <| [
 
-    FaCiL                     `verb`       {- bakiy-a -}        [ "mourn" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- bakiy-a -}        [ "mourn" ],
 
     FACiL                     `noun`       {- bAkiy -}          [ "mourner", "weeping", "mourners", "weepers" ]
                               `plural`     FawACiL
@@ -1284,10 +1308,14 @@ lexicon = listing "Lexicon's properties"
  |> "b l l" <| [
 
     FaCL                      `verb`       {- bal~-u -}         [ "soak", "wet" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `verb`       {- bal~-i -}         [ "recover" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     HaFaCL                    `verb`       {- Oabal~ -}         [ "convalesce", "recover" ],
 
@@ -1340,7 +1368,8 @@ lexicon = listing "Lexicon's properties"
  |> "b l w" <| [
 
     FaCA                      `verb`       {- balA-u -}         [ "afflict", "test", "be afflicted", "be tested" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FACY                      `verb`       {- bAlaY -}          [ "care", "concern", "worry", "be cared for", "be a matter of concern" ],
 
@@ -1364,8 +1393,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "b l y" <| [
 
-    FaCiL                     `verb`       {- baliy-a -}        [ "deteriorate" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- baliy-a -}        [ "deteriorate" ],
 
     FACiL                     `noun`       {- bAliy -}          [ "dilapidated", "worn" ] ]
 
@@ -1388,7 +1416,9 @@ lexicon = listing "Lexicon's properties"
     FaCCAL                    `noun`       {- ban~A' -}         [ "Banna" ],
 
     FAL                       `verb`       {- bA'-u -}          [ "return", "incur" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FIL |< aT                 `noun`       {- biy}ap -}         [ "environment", "milieu" ],
 
@@ -1442,6 +1472,10 @@ lexicon = listing "Lexicon's properties"
 
  |> "b n n" <| [
 
+    FiL                       `noun`       {- bin -}            [ "son" ],
+
+    FiL                       `noun`       {- bin -}            [ "Bin", "Ben" ],
+
     FaCUL                     `noun`       {- banuwn -}         [ "sons", "children" ]
                               `plural`     FaCIL
                               {- `others` [ "baniyn N" ] -},
@@ -1453,7 +1487,7 @@ lexicon = listing "Lexicon's properties"
     FaCAL                     `noun`       {- banAn -}          [ "finger tips" ],
 
     FaCY                      `verb`       {- banaY-i -}        [ "build", "erect", "be built", "be erected" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCI,
 
     TaFaCCY                   `verb`       {- taban~aY -}       [ "adopt" ],
 
@@ -1487,6 +1521,10 @@ lexicon = listing "Lexicon's properties"
  |> "b n t" <| [
 
     FiCL                      `noun`       {- binot -}          [ "daughter", "girl", "daughters", "girls" ] ]
+
+ |> "b n w" <| [
+
+    FuL                       `noun`       {- buw -}            [ "Bou" ] ]
 
  |> "b n y" <| [
 
@@ -1572,7 +1610,9 @@ lexicon = listing "Lexicon's properties"
  |> "b q q" <| [
 
     FaCL                      `verb`       {- baq~-u -}         [ "be bounteous" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- baq~ -}           [ "bedbug" ],
 
@@ -1588,8 +1628,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "b q y" <| [
 
-    FaCiL                     `verb`       {- baqiy-a -}        [ "remain", "last" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- baqiy-a -}        [ "remain", "last" ],
 
     FACiL                     `noun`       {- bAqiy -}          [ "Baqi" ],
 
@@ -1860,7 +1899,10 @@ lexicon = listing "Lexicon's properties"
     FACI                      `noun`       {- bAriy -}          [ "Paris" ],
 
     FaCL                      `verb`       {- bar~-i -}         [ "be charitable", "be devoted" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCaL
+                              `ithird`     FCiL,
 
     FaCCaL                    `verb`       {- bar~ar -}         [ "justify", "warrant", "vindicate", "acquit", "be justified", "be warranted" ],
 
@@ -1926,7 +1968,8 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`       {- bAriy -}          [ "Paris" ],
 
     FaCY                      `verb`       {- baraY-i -}        [ "sharpen", "trim", "wear out", "be sharpened", "be trimmed", "be worn out" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     FACY                      `verb`       {- bAraY -}          [ "challenge", "confront", "be challenged", "be confronted" ],
 
@@ -2047,7 +2090,9 @@ lexicon = listing "Lexicon's properties"
  |> "b s s" <| [
 
     FaCL                      `verb`       {- bas~-u -}         [ "crush", "pulverize" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL |< aT                `noun`       {- bas~ap -}         [ "cat", "cats" ]
                               `plural`     FiCAL
@@ -2110,8 +2155,11 @@ lexicon = listing "Lexicon's properties"
  |> "b t t" <| [
 
     FaCL                      `verb`       {- bat~-ui -}        [ "determine", "complete" ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL
+                              `ithird`     FCiL,
 
     InFaCL                    `verb`       {- Ainobat~ -}       [ "be decided", "be ruled" ],
 
@@ -2132,7 +2180,10 @@ lexicon = listing "Lexicon's properties"
  |> "b w .h" <| [
 
     FAL                       `verb`       {- bAH-u -}          [ "disclose", "divulge" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     HaFAL                     `verb`       {- OabAH -}          [ "reveal", "allow", "be revealed", "be allowed" ],
 
@@ -2168,7 +2219,10 @@ lexicon = listing "Lexicon's properties"
     FuCL                      `noun`       {- buw$ -}           [ "Bush" ],
 
     FAL                       `verb`       {- bA$-u -}          [ "be boisterous" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FaCCaL                    `verb`       {- baw~a$ -}         [ "be boisterous" ],
 
@@ -2179,7 +2233,10 @@ lexicon = listing "Lexicon's properties"
  |> "b w _h" <| [
 
     FAL                       `verb`       {- bAx-u -}          [ "subside", "spoil" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL ]
 
  |> "b w `" <| [
 
@@ -2222,7 +2279,10 @@ lexicon = listing "Lexicon's properties"
     FuCL                      `noun`       {- buwl -}           [ "postage stamp" ],
 
     FAL                       `verb`       {- bAl-u -}          [ "urinate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FaCCaL                    `verb`       {- baw~al -}         [ "urinate" ],
 
@@ -2294,7 +2354,10 @@ lexicon = listing "Lexicon's properties"
  |> "b w s" <| [
 
     FAL                       `verb`       {- bAs-u -}          [ "kiss" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL ]
 
  |> "b w t n" <| [
 
@@ -2325,7 +2388,10 @@ lexicon = listing "Lexicon's properties"
  |> "b y .d" <| [
 
     FAL                       `verb`       {- bAD-i -}          [ "lay an egg", "settle down" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- bay~aD -}         [ "bleach", "blanch", "be bleached", "be blanched" ],
 
@@ -2362,7 +2428,10 @@ lexicon = listing "Lexicon's properties"
  |> "b y `" <| [
 
     FAL                       `verb`       {- bAE-i -}          [ "sell" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     HaFAL                     `verb`       {- OabAE -}          [ "offer for sale", "tender", "be offered for sale", "tendered" ],
 
@@ -2385,7 +2454,10 @@ lexicon = listing "Lexicon's properties"
  |> "b y d" <| [
 
     FAL                       `verb`       {- bAd-i -}          [ "perish", "disappear" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     HaFAL                     `verb`       {- OabAd -}          [ "exterminate", "be exterminated" ],
 
@@ -2422,7 +2494,10 @@ lexicon = listing "Lexicon's properties"
     FaCL |< Iy                `adj`        {- bayoniy~ -}       [ "in-between", "interface ??" ],
 
     FAL                       `verb`       {- bAn-i -}          [ "appear", "be evident" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- bay~an -}         [ "declare", "demonstrate" ],
 
@@ -2483,7 +2558,10 @@ lexicon = listing "Lexicon's properties"
  |> "b y t" <| [
 
     FAL                       `verb`       {- bAt-i -}          [ "become", "remain" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- bay~at -}         [ "plot", "scheme" ],
 
@@ -2522,10 +2600,14 @@ lexicon = listing "Lexicon's properties"
  |> "b z z" <| [
 
     FaCL                      `verb`       {- baz~-u -}         [ "steal", "defeat" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `verb`       {- baz~-a -}         [ "bud", "burgeon" ]
-                              `imperf`     FCaL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- baz~ -}           [ "linen", "cloth" ],
 
@@ -2689,10 +2771,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- bAytos -}         [ "Bates" ] ]
 
- |> "ba.g" <| [
-
-    Identity |< Iy            `adj`        {- bagiy~ -}         [ "whore", "whores" ] ]
-
  |> "ba.hrayn" <| [
 
     Identity |< Iy            `adj`        {- baHorayoniy~ -}   [ "Bahraini" ] ]
@@ -2735,10 +2813,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- badAri -}         [ "hurry!" ] ]
 
- |> "bak" <| [
-
-    Identity                  `noun`       {- bak -}            [ "Bey", "beys" ] ]
-
  |> "bakAluwriyA" <| [
 
     Identity                  `noun`       {- bakAluwriyA -}    [ "baccalaureate", "B.A." ] ]
@@ -2746,10 +2820,6 @@ lexicon = listing "Lexicon's properties"
  |> "baktiyriyA" <| [
 
     Identity                  `noun`       {- bakotiyriyA -}    [ "bacteria" ] ]
-
- |> "bal" <| [
-
-    Identity                  `noun`       {- bal -}            [ "but rather", "in fact" ] ]
 
  |> "bal.grAd" <| [
 
@@ -2780,10 +2850,6 @@ lexicon = listing "Lexicon's properties"
  |> "banknuwt" <| [
 
     Identity                  `noun`       {- bankonuwt -}      [ "bank note" ] ]
-
- |> "baq" <| [
-
-    Identity |< Iy |< aT      `noun`       {- baqiy~ap -}       [ "remainder", "remnant", "remainders", "remnants" ] ]
 
  |> "baradY" <| [
 
@@ -2836,12 +2902,6 @@ lexicon = listing "Lexicon's properties"
  |> "bima" <| [
 
     Identity                  `noun`       {- bima -}           [ "with what" ] ]
-
- |> "bin" <| [
-
-    Identity                  `noun`       {- bin -}            [ "son" ],
-
-    Identity                  `noun`       {- bin -}            [ "Bin", "Ben" ] ]
 
  |> "binfiykA" <| [
 
@@ -3120,10 +3180,6 @@ lexicon = listing "Lexicon's properties"
     Identity                  `noun`       {- busotAniy~ -}     [ "Boustani" ],
 
     Identity                  `adj`        {- busotAniy~ -}     [ "gardener" ] ]
-
- |> "buw" <| [
-
-    Identity                  `noun`       {- buw -}            [ "Bou" ] ]
 
  |> "buw^sir" <| [
 

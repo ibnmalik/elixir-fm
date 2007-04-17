@@ -5341,8 +5341,8 @@ kwmydyyn        kuwmiydoyiyn    N0      comedian
 ;; kAn-u_1
 kAn     kAn     PV_V    was;were
 kn      kun     PV_Cn   was;were
-; interrogative + 3rd person
->kAn    >akAn   PV_V    whether...was/were     <pos>>a/INTERROG_PART+kAn/VERB_PERFECT+a/PVSUFF_SUBJ:3MS</pos>
+; ; interrogative + 3rd person
+; >kAn    >akAn   PV_V    whether...was/were     <pos>>a/INTERROG_PART+kAn/VERB_PERFECT+a/PVSUFF_SUBJ:3MS</pos>
 kwn     kuwn    IV_V    is;are
 kn      kun     IV-n    is;are
 kn      kun     CV_C    be

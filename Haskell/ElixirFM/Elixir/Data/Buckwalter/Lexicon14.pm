@@ -410,6 +410,9 @@ $Lexicon = {
         '.siyd' => [
           'FIL',
           'FiCL'
+        ],
+        '.sid' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -1981,6 +1984,9 @@ $Lexicon = {
         'St      Sut     IV_C    shout;sound out'
       ],
       'patterns' => {
+        '.sut' => [
+          'FuL'
+        ],
         '.suwt' => [
           'FUL',
           'FuCL'
@@ -2873,51 +2879,6 @@ $Lexicon = {
         'wrestler'
       ],
       'orig' => 'muSAriE',
-      'prefix' => ''
-    }
-  ],
-  '.sab' => [
-    {
-      'types' => {
-        '.sab' => {
-          'NF' => 1
-        },
-        '\'a.sbA\'' => {
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
-        },
-        '.sabaw' => {
-          'NAt' => 1
-        },
-        '.sabA' => {
-          'N0' => 1
-        }
-      },
-      'entry' => '.sab',
-      'form' => '.sab',
-      'lines' => [
-        ';; Sab_1',
-        'Sb      Sab     NF      east wind     [[Sab/NOUN]]',
-        'SbA     SabA    N0      east wind',
-        'Sbw     Sabaw   NAt     east winds',
-        '>SbA\'   >aSobA\' N0_Nh   east winds',
-        'ASbA\'   >aSobA\' N0_Nh   east winds',
-        '>SbA&   >aSobA& Nh      east winds',
-        'ASbA&   >aSobA& Nh      east winds',
-        '>SbA}   >aSobA} Nhy     east winds',
-        'ASbA}   >aSobA} Nhy     east winds'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'east wind',
-        'east winds'
-      ],
-      'orig' => 'Sab',
       'prefix' => ''
     }
   ],
@@ -4675,6 +4636,9 @@ $Lexicon = {
         '.suwm' => [
           'FUL',
           'FuCL'
+        ],
+        '.sum' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -7752,6 +7716,9 @@ $Lexicon = {
         '.suw_h' => [
           'FUL',
           'FuCL'
+        ],
+        '.su_h' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -7826,8 +7793,14 @@ $Lexicon = {
         'Sx      Sax     IV_C_Pass_yu    be listened to;be lent an ear'
       ],
       'patterns' => {
+        '.sa_h' => [
+          'FaL'
+        ],
         '.siy_h' => [
           'FIL'
+        ],
+        '.si_h' => [
+          'FiL'
         ],
         '.sA_h' => [
           'FAL'
@@ -10273,33 +10246,6 @@ $Lexicon = {
         'chirping'
       ],
       'orig' => 'Sa}iy~',
-      'prefix' => ''
-    }
-  ],
-  '.sa.g' => [
-    {
-      'types' => {
-        '.sa.gaN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => '.sa.g',
-      'form' => '.sa.gaN',
-      'lines' => [
-        ';; SagAF_1',
-        'SgA     SagAF   FW-WaBi inclination;disposition;benevolence     [[SagAF/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'inclination',
-        'disposition',
-        'benevolence'
-      ],
-      'orig' => 'SagAF',
       'prefix' => ''
     }
   ],
@@ -13368,6 +13314,12 @@ $Lexicon = {
         'Sb      Sab     IV_C_Pass_yu    be hit;be struck;be afflicted'
       ],
       'patterns' => {
+        '.sib' => [
+          'FiL'
+        ],
+        '.sab' => [
+          'FaL'
+        ],
         '.siyb' => [
           'FIL'
         ],
@@ -17194,6 +17146,29 @@ $Lexicon = {
       'glosses' => [],
       'orig' => 'Sal~aY',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '.salAt' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => '.sal',
+      'form' => '.salAt',
+      'lines' => [
+        ';; SalAt_1',
+        'SlAt    SalAt   Nprop   Salat'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'Salat'
+      ],
+      'orig' => 'SalAt',
+      'prefix' => ''
     }
   ],
   '.s y l' => [
@@ -19498,6 +19473,9 @@ $Lexicon = {
         'Sg      Sug     IV_C    forge;create;formulate'
       ],
       'patterns' => {
+        '.su.g' => [
+          'FuL'
+        ],
         '.suw.g' => [
           'FUL',
           'FuCL'
@@ -20820,6 +20798,9 @@ $Lexicon = {
         'Sn      Sun     IV_C    maintain;preserve;protect'
       ],
       'patterns' => {
+        '.sun' => [
+          'FuL'
+        ],
         '.suwn' => [
           'FUL',
           'FuCL'
@@ -22238,6 +22219,9 @@ $Lexicon = {
         '.suwl' => [
           'FUL',
           'FuCL'
+        ],
+        '.sul' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -25146,6 +25130,9 @@ $Lexicon = {
         'SH      SiH     IV_C    scream;call out'
       ],
       'patterns' => {
+        '.si.h' => [
+          'FiL'
+        ],
         '.siy.h' => [
           'FIL',
           'FiCL'
@@ -25955,36 +25942,6 @@ $Lexicon = {
         'sheet metal'
       ],
       'orig' => 'SAj',
-      'prefix' => ''
-    }
-  ],
-  '.saf' => [
-    {
-      'types' => {
-        '.safaN' => {
-          'FW-WaBi' => 1
-        },
-        '.safA' => {
-          'N0_Nhy' => 1
-        }
-      },
-      'entry' => '.saf',
-      'form' => '.safaN',
-      'lines' => [
-        ';; SafAF_1',
-        'SfA     SafAF   FW-WaBi stones;rocks     [[SafAF/NOUN]]',
-        'SfA     SafA    N0_Nhy  stones;rocks'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'stones',
-        'rocks'
-      ],
-      'orig' => 'SafAF',
       'prefix' => ''
     }
   ],
@@ -27534,6 +27491,81 @@ $Lexicon = {
       ],
       'orig' => 'Sab~aY',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '.sab' => {
+          'NF' => 1
+        },
+        '\'a.sbA\'' => {
+          'Nh' => 2,
+          'Nhy' => 2,
+          'N0_Nh' => 2
+        },
+        '.sabaw' => {
+          'NAt' => 1
+        },
+        '.sabA' => {
+          'N0' => 1
+        }
+      },
+      'entry' => '.sab',
+      'form' => '.sab',
+      'lines' => [
+        ';; Sab_1',
+        'Sb      Sab     NF      east wind     [[Sab/NOUN]]',
+        'SbA     SabA    N0      east wind',
+        'Sbw     Sabaw   NAt     east winds',
+        '>SbA\'   >aSobA\' N0_Nh   east winds',
+        'ASbA\'   >aSobA\' N0_Nh   east winds',
+        '>SbA&   >aSobA& Nh      east winds',
+        'ASbA&   >aSobA& Nh      east winds',
+        '>SbA}   >aSobA} Nhy     east winds',
+        'ASbA}   >aSobA} Nhy     east winds'
+      ],
+      'patterns' => {
+        '.sabA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        'east wind',
+        'east winds'
+      ],
+      'orig' => 'Sab',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.sibA' => {
+          'N0_Nhy' => 1
+        },
+        '.sibaN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => '.sib',
+      'form' => '.sibaN',
+      'lines' => [
+        ';; SibAF_1',
+        'SbA     SibAF   FW-WaBi youth;childhood     [[SibAF/NOUN]]',
+        'SbA     SibA    N0_Nhy  youth;childhood'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'youth',
+        'childhood'
+      ],
+      'orig' => 'SibAF',
+      'prefix' => ''
     }
   ],
   '.sanawbar' => [
@@ -28707,31 +28739,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.sal' => [
-    {
-      'types' => {
-        '.salAt' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => '.sal',
-      'form' => '.salAt',
-      'lines' => [
-        ';; SalAt_1',
-        'SlAt    SalAt   Nprop   Salat'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'Salat'
-      ],
-      'orig' => 'SalAt',
-      'prefix' => ''
-    }
-  ],
   '.santimitr' => [
     {
       'types' => {
@@ -29593,6 +29600,33 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.s .g .g' => [
+    {
+      'types' => {
+        '.sa.gaN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => '.sa.g',
+      'form' => '.sa.gaN',
+      'lines' => [
+        ';; SagAF_1',
+        'SgA     SagAF   FW-WaBi inclination;disposition;benevolence     [[SagAF/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'inclination',
+        'disposition',
+        'benevolence'
+      ],
+      'orig' => 'SagAF',
+      'prefix' => ''
+    }
+  ],
   '.s l n' => [
     {
       'types' => {
@@ -29999,36 +30033,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'SAHiy',
-      'prefix' => ''
-    }
-  ],
-  '.sib' => [
-    {
-      'types' => {
-        '.sibA' => {
-          'N0_Nhy' => 1
-        },
-        '.sibaN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => '.sib',
-      'form' => '.sibaN',
-      'lines' => [
-        ';; SibAF_1',
-        'SbA     SibAF   FW-WaBi youth;childhood     [[SibAF/NOUN]]',
-        'SbA     SibA    N0_Nhy  youth;childhood'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'youth',
-        'childhood'
-      ],
-      'orig' => 'SibAF',
       'prefix' => ''
     }
   ],
@@ -30825,6 +30829,38 @@ $Lexicon = {
       'glosses' => [],
       'orig' => 'Saf~aY',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '.safaN' => {
+          'FW-WaBi' => 1
+        },
+        '.safA' => {
+          'N0_Nhy' => 1
+        }
+      },
+      'entry' => '.saf',
+      'form' => '.safaN',
+      'lines' => [
+        ';; SafAF_1',
+        'SfA     SafAF   FW-WaBi stones;rocks     [[SafAF/NOUN]]',
+        'SfA     SafA    N0_Nhy  stones;rocks'
+      ],
+      'patterns' => {
+        '.safA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'stones',
+        'rocks'
+      ],
+      'orig' => 'SafAF',
+      'prefix' => ''
     }
   ],
   '.s l .t .h' => [
@@ -31156,6 +31192,9 @@ $Lexicon = {
         'Sr      Sir     IV_C    become;begin to'
       ],
       'patterns' => {
+        '.sir' => [
+          'FiL'
+        ],
         '.siyr' => [
           'FIL',
           'FiCL'

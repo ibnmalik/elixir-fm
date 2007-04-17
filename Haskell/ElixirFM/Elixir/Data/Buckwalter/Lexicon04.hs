@@ -247,7 +247,8 @@ lexicon = listing "Lexicon's properties"
     -- vg      vog     IV_0hwnyn       bleat
 
     FaCA                      `verb`       {- vagA-u -}         [ "bleat" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; vugA'_1
     -- vgA'    vugA'   N0_Nh   bleating
@@ -285,7 +286,9 @@ lexicon = listing "Lexicon's properties"
     -- vjj     vojuj   IV_C_intr       flow;stream
 
     FaCL                      `verb`       {- vaj~-u -}         [ "flow", "stream" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; vajAj_1
     -- vjAj    vajAj   N       flowing;streaming
@@ -299,7 +302,7 @@ lexicon = listing "Lexicon's properties"
     -- vxn     voxun   IV-n_intr       be solid;be thick
 
     FaCuL                     `verb`       {- vaxun-u -}        [ "be solid", "be thick" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; vax~an_1
     -- vxn     vax~an  PV-n    solidify;thicken
@@ -434,6 +437,13 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`       {- vabaj-u -}        [ "scribble", "doodle" ]
                               `imperf`     FCuL ]
 
+ |> "_t b b" <| [
+
+    -- ;; vabAt_1
+    -- vbAt    vabAt   N       reliability;constancy
+
+    FaL |< At                 `noun`       {- vabAt -}          [ "reliability", "constancy" ] ]
+
  |> "_t b n" <| [
 
     -- ;; vaban-i_1
@@ -441,7 +451,7 @@ lexicon = listing "Lexicon's properties"
     -- vbn     vobin   IV-n    fold
 
     FaCaL                     `verb`       {- vaban-i -}        [ "fold" ]
-                              `imperf`     FCiL,
+                              `ithird`     FCiL,
 
     -- ;; vubonap_1
     -- vbn     vubon   Napdu   lap;fold
@@ -500,7 +510,18 @@ lexicon = listing "Lexicon's properties"
     -- ;; muvAbarap_1
     -- mvAbr   muvAbar NapAt   persistence;perseverance
 
-    MuFACaL |< aT             `noun`       {- muvAbarap -}      [ "persistence", "perseverance" ] ]
+    MuFACaL |< aT             `noun`       {- muvAbarap -}      [ "persistence", "perseverance" ],
+
+    -- ;; variy~_1
+    -- vry     variy~  N/ap    wealthy     [[variy~/ADJ]]
+    -- >vryA'  >avoriyA'       N0_Nh   wealthy
+    -- AvryA'  >avoriyA'       N0_Nh   wealthy
+    -- >vryA&  >avoriyA&       Nh      wealthy
+    -- AvryA&  >avoriyA&       Nh      wealthy
+    -- >vryA}  >avoriyA}       Nhy     wealthy
+    -- AvryA}  >avoriyA}       Nhy     wealthy
+
+    FaL |< Iy                 `adj`        {- variy~ -}         [ "wealthy" ] ]
 
  |> "_t b t" <| [
 
@@ -678,7 +699,7 @@ lexicon = listing "Lexicon's properties"
     -- vfn     vofan   IV-n_intr       be callous;have calluses
 
     FaCiL                     `verb`       {- vafin-a -}        [ "be callous", "have calluses" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; vAfan_1
     -- vAfn    vAfan   PV-n    associate;pursue
@@ -960,7 +981,9 @@ lexicon = listing "Lexicon's properties"
     -- vll     volul   IV_C    overthrow;destroy
 
     FaCL                      `verb`       {- val~-u -}         [ "overthrow", "destroy" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; {inoval~_1
     -- <nvl    {inoval~        PV_V_intr       be subverted;be overthrown
@@ -1405,7 +1428,8 @@ lexicon = listing "Lexicon's properties"
     -- vnY     vonaY   IV_0    fold;double
 
     FaCY                      `verb`       {- vanaY-i -}        [ "fold", "double" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; van~aY_1
     -- vnY     van~aY  PV_0    fold;double
@@ -2026,8 +2050,11 @@ lexicon = listing "Lexicon's properties"
     -- vrr     vorir   IV_C    rain hard;talk a lot
 
     FaCL                      `verb`       {- var~-ui -}        [ "rain hard", "talk a lot" ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL,
+                              `imperf`     FuCL
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL
+                              `ithird`     FCuL,
 
     -- ;; var~_1
     -- vr      var~    N/ap    wet;soaked
@@ -2109,8 +2136,7 @@ lexicon = listing "Lexicon's properties"
     -- vry     voray   IV_Ann  become wealthy
     -- vr      vora    IV_0hwnyn       become wealthy
 
-    FaCiL                     `verb`       {- variy-a -}        [ "become wealthy" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- variy-a -}        [ "become wealthy" ],
 
     -- ;; vuray~ap_1
     -- vry     vuray~  NapAt   chandelier
@@ -2126,7 +2152,10 @@ lexicon = listing "Lexicon's properties"
     -- vb      vub     IV_C    return;come back
 
     FAL                       `verb`       {- vAb-u -}          [ "return", "come back" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; vaw~ab_1
     -- vwb     vaw~ab  PV      reward
@@ -2215,7 +2244,7 @@ lexicon = listing "Lexicon's properties"
     -- vwY     vowaY   IV_0    settle down;remain
 
     FaCY                      `verb`       {- vawaY-i -}        [ "settle down", "remain" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCI,
 
     -- ;; vaw~aY_1
     -- vwY     vaw~aY  PV_0    give lodging;provide housing
@@ -2313,7 +2342,10 @@ lexicon = listing "Lexicon's properties"
     -- vr      vur     IV_C    revolt;arise
 
     FAL                       `verb`       {- vAr-u -}          [ "revolt", "arise" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; vaw~ar_1
     -- vwr     vaw~ar  PV      stir up;revolutionize
@@ -2461,8 +2493,7 @@ lexicon = listing "Lexicon's properties"
     -- vwy     vuwiy   PV_no-w_Pass    be buried
     -- vwY     vowaY   IV_0_Pass_yu    be buried
 
-    FuCiL                     `verb`       {- vuwiy-a -}        [ "be buried" ]
-                              `imperf`     FCaL ]
+    FuCiL                     `verb`       {- vuwiy-a -}        [ "be buried" ] ]
 
  |> "_t y b" <| [
 
@@ -2508,13 +2539,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`        {- vaEAlabiy~ -}     [ "Tha'alabi" ] ]
 
- |> "_tab" <| [
-
-    -- ;; vabAt_1
-    -- vbAt    vabAt   N       reliability;constancy
-
-    Identity |< At            `noun`       {- vabAt -}          [ "reliability", "constancy" ] ]
-
  |> "_talA_tmA'" <| [
 
     -- ;; valAvmA}ap_1
@@ -2550,19 +2574,6 @@ lexicon = listing "Lexicon's properties"
     -- vnAyA   vanAyA  N0_Nhy  inside;among
 
     Identity                  `noun`       {- vanAyA -}         [ "inside", "among" ] ]
-
- |> "_tar" <| [
-
-    -- ;; variy~_1
-    -- vry     variy~  N/ap    wealthy     [[variy~/ADJ]]
-    -- >vryA'  >avoriyA'       N0_Nh   wealthy
-    -- AvryA'  >avoriyA'       N0_Nh   wealthy
-    -- >vryA&  >avoriyA&       Nh      wealthy
-    -- AvryA&  >avoriyA&       Nh      wealthy
-    -- >vryA}  >avoriyA}       Nhy     wealthy
-    -- AvryA}  >avoriyA}       Nhy     wealthy
-
-    Identity |< Iy            `adj`        {- variy~ -}         [ "wealthy" ] ]
 
  |> "_tiyuw" <| [
 

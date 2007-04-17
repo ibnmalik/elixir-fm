@@ -51,7 +51,7 @@ lexicon = listing "Lexicon's properties"
     -- ZEn     ZoEan   IV-n    depart;move away
 
     FaCaL                     `verb`       {- ZaEan-a -}        [ "depart", "move away" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; ZaEon_1
     -- ZEn     ZaEon   N       departure;journey
@@ -538,8 +538,7 @@ lexicon = listing "Lexicon's properties"
     -- Zlm     Zolam   IV_Pass_yu      be oppressed
 
     FaCaL                     `verb`       {- Zalam-ia -}       [ "be unjust", "oppress", "be oppressed" ]
-                              `imperf`     FCiL
-                              `imperf`     FCaL,
+                              `imperf`     FCiL,
 
     -- ;; >aZolam_1
     -- >Zlm    >aZolam PV_intr become dark
@@ -743,7 +742,9 @@ lexicon = listing "Lexicon's properties"
     -- Znn     Zonun   IV-n    think;believe;presume
 
     FaCL                      `verb`       {- Zan~-u -}         [ "think", "believe", "presume" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; Zan~_1
     -- Zn      Zan~    N       opinion;assumption

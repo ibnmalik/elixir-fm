@@ -7465,56 +7465,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'way' => [
-    {
-      'types' => {
-        'waykunna' => {
-          'FW-Wa' => 1
-        },
-        'waykum' => {
-          'FW-Wa' => 1
-        },
-        'wayka' => {
-          'FW-Wa' => 1
-        },
-        'way' => {
-          'FW-Wa' => 1
-        },
-        'waykumA' => {
-          'FW-Wa' => 1
-        },
-        'wayki' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => 'way',
-      'form' => 'way',
-      'lines' => [
-        ';; way_1',
-        'wy      wayo    FW-Wa   shame on                     [[wayo/INTERJ]]',
-        'wyk     wayoka  FW-Wa   shame on + you [masc.sg.]    [[wayo/INTERJ+ka/PRON_2MS]]',
-        'wyk     wayoki  FW-Wa   shame on + you [fem.sg.]     [[wayo/INTERJ+ki/PRON_2FS]]',
-        'wykmA   wayokumA        FW-Wa   shame on + you both          [[wayo/INTERJ+kumA/PRON_2D]]',
-        'wykm    wayokum FW-Wa   shame on + you [masc.pl.]    [[wayo/INTERJ+kum/PRON_2MP]]',
-        'wykn    wayokun~a       FW-Wa   shame on + you [fem.pl.]     [[wayo/INTERJ+kun~a/PRON_2FP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'shame on',
-        'shame on + you [masc.sg.]',
-        'shame on + you [fem.sg.]',
-        'shame on + you both',
-        'shame on + you [masc.pl.]',
-        'shame on + you [fem.pl.]'
-      ],
-      'orig' => 'way',
-      'prefix' => ''
-    }
-  ],
   'w y l' => [
     {
       'types' => {
@@ -30324,6 +30274,56 @@ $Lexicon = {
         'graying'
       ],
       'orig' => 'waxoT',
+      'prefix' => ''
+    }
+  ],
+  'w y y' => [
+    {
+      'types' => {
+        'waykunna' => {
+          'FW-Wa' => 1
+        },
+        'waykum' => {
+          'FW-Wa' => 1
+        },
+        'wayka' => {
+          'FW-Wa' => 1
+        },
+        'way' => {
+          'FW-Wa' => 1
+        },
+        'waykumA' => {
+          'FW-Wa' => 1
+        },
+        'wayki' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'way',
+      'form' => 'way',
+      'lines' => [
+        ';; way_1',
+        'wy      wayo    FW-Wa   shame on                     [[wayo/INTERJ]]',
+        'wyk     wayoka  FW-Wa   shame on + you [masc.sg.]    [[wayo/INTERJ+ka/PRON_2MS]]',
+        'wyk     wayoki  FW-Wa   shame on + you [fem.sg.]     [[wayo/INTERJ+ki/PRON_2FS]]',
+        'wykmA   wayokumA        FW-Wa   shame on + you both          [[wayo/INTERJ+kumA/PRON_2D]]',
+        'wykm    wayokum FW-Wa   shame on + you [masc.pl.]    [[wayo/INTERJ+kum/PRON_2MP]]',
+        'wykn    wayokun~a       FW-Wa   shame on + you [fem.pl.]     [[wayo/INTERJ+kun~a/PRON_2FP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        'shame on',
+        'shame on + you [masc.sg.]',
+        'shame on + you [fem.sg.]',
+        'shame on + you both',
+        'shame on + you [masc.pl.]',
+        'shame on + you [fem.pl.]'
+      ],
+      'orig' => 'way',
       'prefix' => ''
     }
   ],

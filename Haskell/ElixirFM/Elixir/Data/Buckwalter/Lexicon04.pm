@@ -2531,6 +2531,40 @@ $Lexicon = {
       ],
       'orig' => 'muvAbarap',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a_triyA\'' => {
+          'Nh' => 2,
+          'Nhy' => 2,
+          'N0_Nh' => 2
+        },
+        '_tariyy' => {
+          'N/ap' => 1
+        }
+      },
+      'entry' => '_tar',
+      'form' => '_tariyy',
+      'lines' => [
+        ';; variy~_1',
+        'vry     variy~  N/ap    wealthy     [[variy~/ADJ]]',
+        '>vryA\'  >avoriyA\'       N0_Nh   wealthy',
+        'AvryA\'  >avoriyA\'       N0_Nh   wealthy',
+        '>vryA&  >avoriyA&       Nh      wealthy',
+        'AvryA&  >avoriyA&       Nh      wealthy',
+        '>vryA}  >avoriyA}       Nhy     wealthy',
+        'AvryA}  >avoriyA}       Nhy     wealthy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'wealthy'
+      ],
+      'orig' => 'variy~',
+      'prefix' => ''
     }
   ],
   'i_tnayni' => [
@@ -4128,7 +4162,7 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_tab' => [
+  '_t b b' => [
     {
       'types' => {
         '_tabAt' => {
@@ -4144,7 +4178,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity |< At',
+      'morphs' => 'FaL |< At',
       'suffix' => ' |< At',
       'glosses' => [
         'reliability',
@@ -6601,42 +6635,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_tar' => [
-    {
-      'types' => {
-        '\'a_triyA\'' => {
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
-        },
-        '_tariyy' => {
-          'N/ap' => 1
-        }
-      },
-      'entry' => '_tar',
-      'form' => '_tariyy',
-      'lines' => [
-        ';; variy~_1',
-        'vry     variy~  N/ap    wealthy     [[variy~/ADJ]]',
-        '>vryA\'  >avoriyA\'       N0_Nh   wealthy',
-        'AvryA\'  >avoriyA\'       N0_Nh   wealthy',
-        '>vryA&  >avoriyA&       Nh      wealthy',
-        'AvryA&  >avoriyA&       Nh      wealthy',
-        '>vryA}  >avoriyA}       Nhy     wealthy',
-        'AvryA}  >avoriyA}       Nhy     wealthy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'wealthy'
-      ],
-      'orig' => 'variy~',
-      'prefix' => ''
-    }
-  ],
   '_t r w' => [
     {
       'types' => {
@@ -6786,6 +6784,9 @@ $Lexicon = {
         '_tuwr' => [
           'FUL',
           'FuCL'
+        ],
+        '_tur' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -6876,8 +6877,14 @@ $Lexicon = {
         '_tiyr' => [
           'FIL'
         ],
+        '_tir' => [
+          'FiL'
+        ],
         '_tAr' => [
           'FAL'
+        ],
+        '_tar' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -9830,6 +9837,9 @@ $Lexicon = {
         '_tuwb' => [
           'FUL',
           'FuCL'
+        ],
+        '_tub' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -9911,8 +9921,14 @@ $Lexicon = {
         '_tiyb' => [
           'FIL'
         ],
+        '_tib' => [
+          'FiL'
+        ],
         '_tAb' => [
           'FAL'
+        ],
+        '_tab' => [
+          'FaL'
         ]
       },
       'index' => '1',

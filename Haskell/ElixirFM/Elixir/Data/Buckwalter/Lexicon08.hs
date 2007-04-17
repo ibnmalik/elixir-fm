@@ -515,7 +515,8 @@ lexicon = listing "Lexicon's properties"
     -- dHy     doHay   IV_Ann_Pass_yu  be spread out;be leveled;be flattened
 
     FaCA                      `verb`       {- daHA-u -}         [ "spread out", "level", "flatten", "be spread out", "be leveled", "be flattened" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; midoHaY_1
     -- mdHY    midoHaY N0      steamroller;roller
@@ -537,7 +538,9 @@ lexicon = listing "Lexicon's properties"
     -- djj     dojij   IV_C    walk slowly
 
     FaCL                      `verb`       {- daj~-i -}         [ "walk slowly" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; daj~aj_1
     -- djj     daj~aj  PV      arm
@@ -614,7 +617,7 @@ lexicon = listing "Lexicon's properties"
     -- djn     dojun   IV-n_intr       be murky;stay;be domesticated
 
     FaCaL                     `verb`       {- dajan-u -}        [ "be murky", "stay", "be domesticated" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; daj~an_1
     -- djn     daj~an  PV-n    tame;domesticate
@@ -690,7 +693,8 @@ lexicon = listing "Lexicon's properties"
     -- dj      doj     IV_0hwnyn       be gloomy
 
     FaCA                      `verb`       {- dajA-u -}         [ "be gloomy" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; dajA-u_2
     -- djA     dajA    PV_0h   overshadow;cover
@@ -702,7 +706,8 @@ lexicon = listing "Lexicon's properties"
     -- djy     dojay   IV_Ann_Pass_yu  be overshadowed;be covered
 
     FaCA                      `verb`       {- dajA-u -}         [ "overshadow", "cover", "be overshadowed", "be covered" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; dAjaY_1
     -- dAjY    dAjaY   PV_0    play the hypocrite with;pose as a friend of;flatter
@@ -759,7 +764,9 @@ lexicon = listing "Lexicon's properties"
     -- d$$     do$u$   IV_C    crush;grind
 
     FaCL                      `verb`       {- da$~-u -}         [ "crush", "grind" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; da$iy$_1
     -- d$y$    da$iy$  N       porridge
@@ -988,7 +995,7 @@ lexicon = listing "Lexicon's properties"
     -- dxn     doxun   IV-n_intr       smolder;smoke
 
     FaCaL                     `verb`       {- daxan-u -}        [ "smolder", "smoke" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; dax~an_1
     -- dxn     dax~an  PV-n    smoke;fumigate
@@ -1220,7 +1227,8 @@ lexicon = listing "Lexicon's properties"
     -- dEE     doEaE   IV_C    rebuff;turn down
 
     FaCL                      `verb`       {- daE~-a -}         [ "rebuff", "turn down" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FaCaL
+                              `ithird`     FCaL,
 
     -- ;; daEiyE_1
     -- dEyE    daEiyE  N0      Da'ii
@@ -1451,7 +1459,8 @@ lexicon = listing "Lexicon's properties"
     -- dEy     doEay   IV_Ann_Pass_yu  be called;be invited
 
     FaCA                      `verb`       {- daEA-u -}         [ "call", "invite", "be called", "be invited" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; dAEaY_1
     -- dAEY    dAEaY   PV_0    challenge;prosecute
@@ -1768,8 +1777,8 @@ lexicon = listing "Lexicon's properties"
     -- dbg     dobag   IV      tan;dye
 
     FaCaL                     `verb`       {- dabag-uia -}      [ "tan", "dye" ]
-                              `imperf`     FCuL
                               `imperf`     FCiL
+                              `imperf`     FCuL
                               `imperf`     FCaL,
 
     -- ;; {inodabag_1
@@ -1868,7 +1877,9 @@ lexicon = listing "Lexicon's properties"
     -- dbb     dobib   IV_C    crawl;advance;spread
 
     FaCL                      `verb`       {- dab~-i -}         [ "crawl", "advance", "spread" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; dab~ab_1
     -- dbb     dab~ab  PV      sharpen;taper
@@ -2506,7 +2517,9 @@ lexicon = listing "Lexicon's properties"
     -- dff     dofif   IV_C    flap;hurry
 
     FaCL                      `verb`       {- daf~-i -}         [ "flap", "hurry" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; daf~af_1
     -- dff     daf~af  PV      hurry;rush
@@ -2570,7 +2583,7 @@ lexicon = listing "Lexicon's properties"
     -- dfn     dofin   IV-n    bury;hide
 
     FaCaL                     `verb`       {- dafan-i -}        [ "bury", "hide" ]
-                              `imperf`     FCiL,
+                              `ithird`     FCiL,
 
     -- ;; {inodafan_1
     -- <ndfn   {inodafan       PV-n_intr       be buried;be hidden
@@ -2622,8 +2635,8 @@ lexicon = listing "Lexicon's properties"
     -- dfq     dofiq   IV      pour out;rush out
 
     FaCaL                     `verb`       {- dafaq-ui -}       [ "pour out", "rush out" ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     -- ;; tadaf~aq_1
     -- tdfq    tadaf~aq        PV      pour out;rush out;burst out
@@ -2952,7 +2965,7 @@ lexicon = listing "Lexicon's properties"
     -- dhn     dohun   IV-n    paint;varnish
 
     FaCaL                     `verb`       {- dahan-u -}        [ "paint", "varnish" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; dah~an_1
     -- dhn     dah~an  PV-n    paint;varnish
@@ -3139,8 +3152,7 @@ lexicon = listing "Lexicon's properties"
     -- dhy     dohay   IV_Ann  be clever;be wily
     -- dh      doha    IV_0hwnyn       be clever;be wily
 
-    FaCiL                     `verb`       {- dahiy-a -}        [ "be clever", "be wily" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- dahiy-a -}        [ "be clever", "be wily" ],
 
     -- ;; dahaY-a_1
     -- dhY     dahaY   PV_0    befall;strike
@@ -3152,8 +3164,7 @@ lexicon = listing "Lexicon's properties"
     -- dhy     dohay   IV_Ann  befall;strike
     -- dh      doha    IV_0hwnyn       befall;strike
 
-    FaCY                      `verb`       {- dahaY-a -}        [ "befall", "strike" ]
-                              `imperf`     FCaL,
+    FaCY                      `verb`       {- dahaY-a -}        [ "befall", "strike" ],
 
     -- ;; dah~aY_1
     -- dhY     dah~aY  PV_0    befall;strike
@@ -3231,7 +3242,9 @@ lexicon = listing "Lexicon's properties"
     -- dkk     dokuk   IV_C    level;demolish
 
     FaCL                      `verb`       {- dak~-u -}         [ "level", "demolish" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; dak~ak_1
     -- dkk     dak~ak  PV      mix;mingle
@@ -3607,7 +3620,9 @@ lexicon = listing "Lexicon's properties"
     -- dll     dolul   IV_C    point;indicate
 
     FaCL                      `verb`       {- dal~-u -}         [ "point", "indicate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; dal~al_1
     -- dll     dal~al  PV      prove;confirm
@@ -4265,7 +4280,9 @@ lexicon = listing "Lexicon's properties"
     -- dmm     domum   IV_C    paint;smear
 
     FaCL                      `verb`       {- dam~-u -}         [ "paint", "smear" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; dam~am_1
     -- dmm     dam~am  PV      anoint;embrocate
@@ -4311,7 +4328,17 @@ lexicon = listing "Lexicon's properties"
     -- dmY     dam~aY  IV_0_Pass_yu    be bled
     -- dmy     dam~ay  IV_Ann_Pass_yu  be bled
 
-    FaCLY                     `verb`       {- dam~aY -}         [ "make bleed", "be bled" ] ]
+    FaCLY                     `verb`       {- dam~aY -}         [ "make bleed", "be bled" ],
+
+    -- ;; dam_1
+    -- dm      dam     N       blood
+    -- dmA'    dimA'   N0_Nh   blood
+    -- dmA&    dimA&   Nh      blood
+    -- dmA}    dimA}   Nhy     blood
+
+    FaL                       `noun`       {- dam -}            [ "blood" ]
+                              `plural`     FiCA'
+                              {- `others` [ "dimA' Nh N0_Nh Nhy" ] -} ]
 
  |> "d m n" <| [
 
@@ -4320,7 +4347,7 @@ lexicon = listing "Lexicon's properties"
     -- dmn     domun   IV-n    fertilize
 
     FaCaL                     `verb`       {- daman-u -}        [ "fertilize" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; >adoman_1
     -- >dmn    >adoman PV-n_intr       be addicted or devoted to
@@ -4515,8 +4542,7 @@ lexicon = listing "Lexicon's properties"
     -- dmy     domay   IV_Ann  bleed
     -- dm      doma    IV_0hwnyn       bleed
 
-    FaCiL                     `verb`       {- damiy-a -}        [ "bleed" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- damiy-a -}        [ "bleed" ],
 
     -- ;; dam~aY_1
     -- dmY     dam~aY  PV_0    make bleed
@@ -4852,7 +4878,8 @@ lexicon = listing "Lexicon's properties"
     -- dny     donay   IV_Ann_Pass_yu  be approached
 
     FaCA                      `verb`       {- danA-u -}         [ "approach", "draw near", "be approached" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; dan~aY_1
     -- dnY     dan~aY  PV_0    move near;be base
@@ -5042,8 +5069,7 @@ lexicon = listing "Lexicon's properties"
     -- dny     donay   IV_Ann  be mean;be despicable
     -- dn      dona    IV_0hwnyn       be mean;be despicable
 
-    FaCiL                     `verb`       {- daniy-a -}        [ "be mean", "be despicable" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- daniy-a -}        [ "be mean", "be despicable" ],
 
     -- ;; daniy~_1
     -- dny     daniy~  N/ap    mean;contemptible;inferior     [[daniy~/ADJ]]
@@ -5175,7 +5201,9 @@ lexicon = listing "Lexicon's properties"
     -- dqq     doqiq   IV_C_intr       be minute;be fragile
 
     FaCL                      `verb`       {- daq~-i -}         [ "be minute", "be fragile" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; daq~-u_1
     -- dq      daq~    PV_V    knock;strike;throb
@@ -5184,7 +5212,9 @@ lexicon = listing "Lexicon's properties"
     -- dqq     doquq   IV_C    knock;strike;throb
 
     FaCL                      `verb`       {- daq~-u -}         [ "knock", "strike", "throb" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; daq~aq_1
     -- dqq     daq~aq  PV_intr be precise;be exact
@@ -6021,7 +6051,7 @@ lexicon = listing "Lexicon's properties"
     -- drn     doran   IV-n_intr       be filthy;be dirty
 
     FaCiL                     `verb`       {- darin-a -}        [ "be filthy", "be dirty" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; >adoran_1
     -- >drn    >adoran PV-n_intr       be filthy;be dirty
@@ -6105,8 +6135,11 @@ lexicon = listing "Lexicon's properties"
     -- drr     dorur   IV_C    stream;accrue;be abundant
 
     FaCL                      `verb`       {- dar~-iu -}        [ "stream", "accrue", "be abundant" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL
+                              `ithird`     FCiL,
 
     -- ;; >adar~_1
     -- >dr     >adar~  PV_V    make flow;bestow lavishly;yield
@@ -6333,7 +6366,8 @@ lexicon = listing "Lexicon's properties"
     -- drY     doraY   IV_0_Pass_yu    be known;be noticed
 
     FaCY                      `verb`       {- daraY-i -}        [ "know", "be aware of", "notice", "be known", "be noticed" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; dAraY_1
     -- dArY    dAraY   PV_0    flatter;deceive;shelter
@@ -6544,7 +6578,9 @@ lexicon = listing "Lexicon's properties"
     -- dss     dosus   IV_C    insert;stick
 
     FaCL                      `verb`       {- das~-u -}         [ "insert", "stick" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; das~as_1
     -- dss     das~as  PV      shove;insert
@@ -6755,7 +6791,9 @@ lexicon = listing "Lexicon's properties"
     -- dw$     duw$    N/At    shower;douche
     -- d$      du$     N       shower;douche
 
-    FuCL                      `noun`       {- duw$ -}           [ "shower", "douche" ],
+    FuCL                      `noun`       {- duw$ -}           [ "shower", "douche" ]
+                              `plural`     FuL
+                              {- `others` [ "du^s N" ] -},
 
     -- ;; duw$An_1
     -- dw$An   duw$An  Nprop   Dushan
@@ -6771,7 +6809,10 @@ lexicon = listing "Lexicon's properties"
     -- dx      dux     IV_C    conquer
 
     FAL                       `verb`       {- dAx-u -}          [ "conquer" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; dAx-u_2
     -- dAx     dAx     PV_V_intr       be humble;be nauseated
@@ -6780,7 +6821,10 @@ lexicon = listing "Lexicon's properties"
     -- dx      dux     IV_C_intr       be humble;be nauseated
 
     FAL                       `verb`       {- dAx-u -}          [ "be humble", "be nauseated" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; daw~ax_1
     -- dwx     daw~ax  PV      conquer;molest
@@ -6812,7 +6856,10 @@ lexicon = listing "Lexicon's properties"
     -- db      dub     IV_C_intr       be worn out
 
     FAL                       `verb`       {- dAb-u -}          [ "be worn out" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; daw~ab_1
     -- dwb     daw~ab  PV      wear out;ruin
@@ -6883,7 +6930,10 @@ lexicon = listing "Lexicon's properties"
     -- df      duf     IV_C    mix;mingle
 
     FAL                       `verb`       {- dAf-u -}          [ "mix", "mingle" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; duwf_1
     -- dwf     duwf    Nprop   Dov
@@ -6922,7 +6972,10 @@ lexicon = listing "Lexicon's properties"
     -- dl      dul     IV_C    rotate;change
 
     FAL                       `verb`       {- dAl-u -}          [ "rotate", "change" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; dAwal_1
     -- dAwl    dAwal   PV      alternate;rotate
@@ -7049,7 +7102,10 @@ lexicon = listing "Lexicon's properties"
     -- dm      dum     IV_C    last;persevere;continue
 
     FAL                       `verb`       {- dAm-u -}          [ "last", "persevere", "continue" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; daw~am_1
     -- dwm     daw~am  PV      revolve;spin
@@ -7261,7 +7317,10 @@ lexicon = listing "Lexicon's properties"
     -- dr      dur     IV_C    go around;turn
 
     FAL                       `verb`       {- dAr-u -}          [ "go around", "turn" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; daw~ar_1
     -- dwr     daw~ar  PV      rotate;wind
@@ -7567,7 +7626,10 @@ lexicon = listing "Lexicon's properties"
     -- ds      dus     IV_C    step on;run over
 
     FAL                       `verb`       {- dAs-u -}          [ "step on", "run over" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; {inodAs_1
     -- <ndAs   {inodAs PV_V_intr       be stepped on;be crushed;be run over
@@ -7628,6 +7690,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "d w w" <| [
 
+    -- ;; duw_1
+    -- dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]
+
+    FuL                       `noun`       {- duw -}            [ "Du", "Do" ],
+
     -- ;; daw~aY_1
     -- dwY     daw~aY  PV_0    buzz;hum;drone
     -- dwA     daw~A   PV_h    buzz;hum;drone
@@ -7649,7 +7716,8 @@ lexicon = listing "Lexicon's properties"
     -- dwY     dowaY   IV_0_Pass_yu    be buzzed;be hummed
 
     FaCY                      `verb`       {- dawaY-i -}        [ "buzz", "hum", "be buzzed", "be hummed" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; dawiy-a_1
     -- dwy     dawiy   PV_no-w buzz;hum
@@ -7657,8 +7725,7 @@ lexicon = listing "Lexicon's properties"
     -- dwy     doway   IV_Ann  buzz;hum
     -- dw      dowa    IV_0hwnyn       buzz;hum
 
-    FaCiL                     `verb`       {- dawiy-a -}        [ "buzz", "hum" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- dawiy-a -}        [ "buzz", "hum" ],
 
     -- ;; daw~aY_1
     -- dwY     daw~aY  PV_0    buzz;hum;drone
@@ -8013,7 +8080,10 @@ lexicon = listing "Lexicon's properties"
     -- dn      din     IV_C    condemn;borrow;profess
 
     FAL                       `verb`       {- dAn-i -}          [ "condemn", "borrow", "profess" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; dAyan_1
     -- dAyn    dAyan   PV-n_intr       be indebted to
@@ -8496,16 +8566,6 @@ lexicon = listing "Lexicon's properties"
     -- dftrxAn dafotaroxAn     Nap     archives;public records
 
     Identity |< aT            `noun`       {- dafotaroxAnap -}  [ "archives", "public records" ] ]
-
- |> "dam" <| [
-
-    -- ;; dam_1
-    -- dm      dam     N       blood
-    -- dmA'    dimA'   N0_Nh   blood
-    -- dmA&    dimA&   Nh      blood
-    -- dmA}    dimA}   Nhy     blood
-
-    Identity                  `noun`       {- dam -}            [ "blood" ] ]
 
  |> "damanhuwr" <| [
 
@@ -9195,13 +9255,6 @@ lexicon = listing "Lexicon's properties"
     -- dwsldwrf        duwsiloduwrf    N0      Dusseldorf
 
     Identity                  `noun`       {- dusiloduwrf -}    [ "Dusseldorf" ] ]
-
- |> "duw" <| [
-
-    -- ;; duw_1
-    -- dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]
-
-    Identity                  `noun`       {- duw -}            [ "Du", "Do" ] ]
 
  |> "duw.glAs" <| [
 

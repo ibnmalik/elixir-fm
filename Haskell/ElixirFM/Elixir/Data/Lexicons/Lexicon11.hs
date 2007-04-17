@@ -74,7 +74,9 @@ lexicon = listing "Lexicon's properties"
  |> "z ^g ^g" <| [
 
     FaCL                      `verb`       {- zaj~-u -}         [ "throw", "push", "press" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FuCL                      `noun`       {- zuj~ -}           [ "ferrule", "arrowhead", "ferrules", "arrowheads" ]
                               `plural`     FiCAL
@@ -100,7 +102,8 @@ lexicon = listing "Lexicon's properties"
  |> "z ^g w" <| [
 
     FaCA                      `verb`       {- zajA-u -}         [ "urge on", "press", "be urged on" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FaCCY                     `verb`       {- zaj~aY -}         [ "shove", "jostle", "be shoved", "be jostled" ],
 
@@ -257,7 +260,8 @@ lexicon = listing "Lexicon's properties"
  |> "z h w" <| [
 
     FaCA                      `verb`       {- zahA-u -}         [ "flourish", "be radiant" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     HaFCY                     `verb`       {- OazohaY -}        [ "flourish", "prosper" ],
 
@@ -271,14 +275,17 @@ lexicon = listing "Lexicon's properties"
 
  |> "z h y" <| [
 
-    FuCiL                     `verb`       {- zuhiy-a -}        [ "be conceited", "be boastful" ]
-                              `imperf`     FCaL,
+    FuCiL                     `verb`       {- zuhiy-a -}        [ "be conceited", "be boastful" ],
 
     FACiL                     `adj`        {- zAhiy -}          [ "resplendent", "magnificent" ] ]
 
  |> "z k k" <| [
 
-    FaCLY                     `verb`       {- zak~aY -}         [ "augment", "nominate", "recommend", "be augmented", "be nominated", "be recommended" ] ]
+    FaCLY                     `verb`       {- zak~aY -}         [ "augment", "nominate", "recommend", "be augmented", "be nominated", "be recommended" ],
+
+    FaL |< aN                 `noun`       {- zakAF -}          [ "alms", "purity", "honesty", "integrity" ]
+                              `plural`     FaCA
+                              {- `others` [ "zakA N0_Nhy" ] -} ]
 
  |> "z k m" <| [
 
@@ -294,8 +301,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "z k y" <| [
 
-    FaCiL                     `verb`       {- zakiy-a -}        [ "grow", "increase" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- zakiy-a -}        [ "grow", "increase" ],
 
     FaCIL                     `adj`        {- zakiy~ -}         [ "pure", "blameless" ]
                               `plural`     HaFCiLA'
@@ -306,8 +312,11 @@ lexicon = listing "Lexicon's properties"
  |> "z l l" <| [
 
     FaCL                      `verb`       {- zal~-ia -}        [ "err", "slip" ]
-                              `imperf`     FCiL
-                              `imperf`     FCaL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCiL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL
+                              `ithird`     FCaL,
 
     HaFaCL                    `verb`       {- Oazal~ -}         [ "make slip", "make stumble" ],
 
@@ -372,14 +381,16 @@ lexicon = listing "Lexicon's properties"
  |> "z m m" <| [
 
     FaCL                      `verb`       {- zam~-u -}         [ "fasten", "truss up" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FiCAL                     `noun`       {- zimAm -}          [ "reins" ] ]
 
  |> "z m n" <| [
 
     FaCiL                     `verb`       {- zamin-a -}        [ "be chronically ill" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     HaFCaL                    `verb`       {- Oazoman -}        [ "remain", "become chronic" ],
 
@@ -432,14 +443,17 @@ lexicon = listing "Lexicon's properties"
  |> "z n n" <| [
 
     FaCL                      `verb`       {- zan~-u -}         [ "drone", "buzz" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- zan~ -}           [ "droning", "buzzing" ] ]
 
  |> "z n y" <| [
 
     FaCY                      `verb`       {- zanaY-i -}        [ "fornicate" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     FiCY                      `noun`       {- zinaY -}          [ "fornication" ] ]
 
@@ -452,7 +466,9 @@ lexicon = listing "Lexicon's properties"
  |> "z q q" <| [
 
     FaCL                      `verb`       {- zaq~-u -}         [ "feed (mouth-to-mouth)" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- zaq~ -}           [ "wineskin", "wineskins" ]
                               `plural`     HaFCAL
@@ -526,7 +542,9 @@ lexicon = listing "Lexicon's properties"
  |> "z r r" <| [
 
     FaCL                      `verb`       {- zar~-u -}         [ "button up", "contort" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FiCL                      `noun`       {- zir~ -}           [ "button", "switch button", "buttons", "switch buttons" ]
                               `plural`     HaFCAL
@@ -535,7 +553,8 @@ lexicon = listing "Lexicon's properties"
  |> "z r y" <| [
 
     FaCY                      `verb`       {- zaraY-i -}        [ "rebuke", "revile", "be rebuked", "be reviled" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     HaFCY                     `verb`       {- OazoraY -}        [ "ridicule", "disgrace", "be ridiculed", "be disgraced" ],
 
@@ -544,7 +563,10 @@ lexicon = listing "Lexicon's properties"
  |> "z w .h" <| [
 
     FAL                       `verb`       {- zAH-u -}          [ "depart" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL ]
 
  |> "z w ^g" <| [
 
@@ -615,10 +637,14 @@ lexicon = listing "Lexicon's properties"
  |> "z w l" <| [
 
     FAL                       `verb`       {- zAl-u -}          [ "disappear" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FAL                       `verb`       {- zAl-a -}          [ "cease", "stop being", "stop doing" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FiL
+                              `ithird`     FaL,
 
     FaCCaL                    `verb`       {- zaw~al -}         [ "remove" ],
 
@@ -643,7 +669,10 @@ lexicon = listing "Lexicon's properties"
  |> "z w m" <| [
 
     FAL                       `verb`       {- zAm-u -}          [ "growl", "snarl" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FaCCaL                    `verb`       {- zaw~am -}         [ "mutter", "mumble" ],
 
@@ -654,7 +683,10 @@ lexicon = listing "Lexicon's properties"
  |> "z w r" <| [
 
     FAL                       `verb`       {- zAr-u -}          [ "visit" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FaCCaL                    `verb`       {- zaw~ar -}         [ "forge", "falsify" ],
 
@@ -708,7 +740,8 @@ lexicon = listing "Lexicon's properties"
  |> "z w y" <| [
 
     FaCY                      `verb`       {- zawaY-i -}        [ "wrinkle", "conceal", "be wrinkled", "be concealed" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     FaCCY                     `verb`       {- zaw~aY -}         [ "retire", "go into seclusion", "be retired", "be secluded" ],
 
@@ -721,7 +754,10 @@ lexicon = listing "Lexicon's properties"
  |> "z y .h" <| [
 
     FAL                       `verb`       {- zAH-i -}          [ "depart" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     HaFAL                     `verb`       {- OazAH -}          [ "remove", "abolish", "be removed", "be abolished" ],
 
@@ -739,7 +775,10 @@ lexicon = listing "Lexicon's properties"
  |> "z y d" <| [
 
     FAL                       `verb`       {- zAd-i -}          [ "increase", "exceed", "add", "be increased", "be added" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- zay~ad -}         [ "augment" ],
 
@@ -786,7 +825,10 @@ lexicon = listing "Lexicon's properties"
  |> "z y f" <| [
 
     FAL                       `verb`       {- zAf-i -}          [ "be false" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- zay~af -}         [ "counterfeit", "consider spurious" ],
 
@@ -807,7 +849,10 @@ lexicon = listing "Lexicon's properties"
  |> "z y n" <| [
 
     FAL                       `verb`       {- zAn-i -}          [ "decorate", "adorn" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- zay~an -}         [ "embellish", "decorate" ],
 
@@ -872,10 +917,6 @@ lexicon = listing "Lexicon's properties"
  |> "zAyst" <| [
 
     Identity                  `noun`       {- zAyst -}          [ "Zeist" ] ]
-
- |> "zak" <| [
-
-    Identity |< aN            `noun`       {- zakAF -}          [ "alms", "purity", "honesty", "integrity" ] ]
 
  |> "zakariyyA" <| [
 

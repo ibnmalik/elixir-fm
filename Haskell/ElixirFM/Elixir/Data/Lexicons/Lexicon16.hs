@@ -57,10 +57,10 @@ lexicon = listing "Lexicon's properties"
  |> ".t .g w" <| [
 
     FaCA                      `verb`       {- TagA-u -}         [ "overstep", "be excessive", "be overstepped" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
-    FaCY                      `verb`       {- TagaY-a -}        [ "dominate", "control", "be tyrannical" ]
-                              `imperf`     FCaL,
+    FaCY                      `verb`       {- TagaY-a -}        [ "dominate", "control", "be tyrannical" ],
 
     FaCY                      `noun`       {- TagaY -}          [ "excess", "tyranny" ]
                               `plural`     FaCA
@@ -105,7 +105,7 @@ lexicon = listing "Lexicon's properties"
  |> ".t ` n" <| [
 
     FaCaL                     `verb`       {- TaEan-a -}        [ "stab", "challenge" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     FaCL                      `noun`       {- TaEon -}          [ "stabbing", "challenging" ]
                               `plural`     FuCUL
@@ -175,7 +175,11 @@ lexicon = listing "Lexicon's properties"
  |> ".t b b" <| [
 
     FaCL                      `verb`       {- Tab~-u -}         [ "treat medically" ]
-                              `imperf`     FCuL,
+                              `imperf`     FiCL
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL
+                              `ithird`     FCuL,
 
     FiCL                      `noun`       {- Tib~ -}           [ "medicine", "medical treatment" ],
 
@@ -298,7 +302,8 @@ lexicon = listing "Lexicon's properties"
  |> ".t f w" <| [
 
     FaCA                      `verb`       {- TafA-u -}         [ "float", "emerge" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FCuL
+                              `imperf`     FCU ]
 
  |> ".t f y" <| [
 
@@ -327,10 +332,10 @@ lexicon = listing "Lexicon's properties"
  |> ".t h w" <| [
 
     FaCA                      `verb`       {- TahA-u -}         [ "cook", "stew", "be cooked", "be stewed" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
-    FaCY                      `verb`       {- TahaY-a -}        [ "cook", "stew" ]
-                              `imperf`     FCaL,
+    FaCY                      `verb`       {- TahaY-a -}        [ "cook", "stew" ],
 
     FACI                      `noun`       {- TAhiy -}          [ "cook", "cooks" ] ]
 
@@ -431,7 +436,9 @@ lexicon = listing "Lexicon's properties"
  |> ".t l l" <| [
 
     FaCL                      `verb`       {- Tal~-u -}         [ "sprinkle" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     HaFaCL                    `verb`       {- OaTal~ -}         [ "overlook", "face", "look out", "be viewed", "be looked over" ],
 
@@ -499,7 +506,8 @@ lexicon = listing "Lexicon's properties"
  |> ".t l y" <| [
 
     FaCY                      `verb`       {- TalaY-i -}        [ "paint" ]
-                              `imperf`     FCiL ]
+                              `imperf`     FCiL
+                              `imperf`     FCI ]
 
  |> ".t m ' n" <| [
 
@@ -539,7 +547,9 @@ lexicon = listing "Lexicon's properties"
  |> ".t m m" <| [
 
     FaCL                      `verb`       {- Tam~-u -}         [ "inundate", "engulf" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- Tam~ -}           [ "inundation", "engulfing" ],
 
@@ -559,10 +569,11 @@ lexicon = listing "Lexicon's properties"
  |> ".t m w" <| [
 
     FaCA                      `verb`       {- TamA-u -}         [ "flow over", "be flown over" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FaCY                      `verb`       {- TamaY-i -}        [ "flow over", "be flown over" ]
-                              `imperf`     FCiL ]
+                              `imperf`     FCI ]
 
  |> ".t m y" <| [
 
@@ -587,7 +598,9 @@ lexicon = listing "Lexicon's properties"
  |> ".t n n" <| [
 
     FaCL                      `verb`       {- Tan~-i -}         [ "sound", "ring out" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     FaCCaL                    `verb`       {- Tan~an -}         [ "resound" ],
 
@@ -620,7 +633,9 @@ lexicon = listing "Lexicon's properties"
  |> ".t q q" <| [
 
     FaCL                      `verb`       {- Taq~-u -}         [ "crack", "burst" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- Taq~ -}           [ "cracking", "bursting" ] ]
 
@@ -809,10 +824,14 @@ lexicon = listing "Lexicon's properties"
  |> ".t r r" <| [
 
     FaCL                      `verb`       {- Tar~-u -}         [ "trim", "sharpen" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `verb`       {- Tar~-i -}         [ "grow" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     FaCL                      `noun`       {- Tar~ -}           [ "trimming", "sharpening" ],
 
@@ -832,7 +851,8 @@ lexicon = listing "Lexicon's properties"
  |> ".t r w" <| [
 
     FaCuL                     `verb`       {- Taruw-u -}        [ "be fresh", "be tender" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FaCCY                     `verb`       {- Tar~aY -}         [ "tenderize", "freshen", "be tenderized", "be freshened" ],
 
@@ -842,8 +862,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t r y" <| [
 
-    FaCiL                     `verb`       {- Tariy-a -}        [ "be fresh", "be tender" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- Tariy-a -}        [ "be fresh", "be tender" ],
 
     FaCIL                     `adj`        {- Tariy~ -}         [ "fresh", "tender" ],
 
@@ -865,7 +884,10 @@ lexicon = listing "Lexicon's properties"
  |> ".t w .h" <| [
 
     FAL                       `verb`       {- TAH-u -}          [ "go astray" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     HaFAL                     `verb`       {- OaTAH -}          [ "overthrow", "topple", "be overthrown", "be toppled" ],
 
@@ -874,7 +896,10 @@ lexicon = listing "Lexicon's properties"
  |> ".t w `" <| [
 
     FAL                       `verb`       {- TAE-u -}          [ "obey" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FaCCaL                    `verb`       {- Taw~aE -}         [ "enlist", "recruit" ],
 
@@ -911,7 +936,10 @@ lexicon = listing "Lexicon's properties"
  |> ".t w f" <| [
 
     FAL                       `verb`       {- TAf-u -}          [ "circulate", "wander about" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FaCCaL                    `verb`       {- Taw~af -}         [ "circulate", "wander about" ],
 
@@ -942,7 +970,10 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ ".tAwil NAt" ] -},
 
     FAL                       `verb`       {- TAl-u -}          [ "be long" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FaCCaL                    `verb`       {- Taw~al -}         [ "lengthen" ],
 
@@ -991,7 +1022,10 @@ lexicon = listing "Lexicon's properties"
  |> ".t w q" <| [
 
     FAL                       `verb`       {- TAq-u -}          [ "be able", "be capable" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FaCCaL                    `verb`       {- Taw~aq -}         [ "encircle", "surround" ],
 
@@ -1038,7 +1072,8 @@ lexicon = listing "Lexicon's properties"
  |> ".t w y" <| [
 
     FaCY                      `verb`       {- TawaY-i -}        [ "fold", "wrap", "be folded", "be wrapped" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     InFaCY                    `verb`       {- AinoTawaY -}      [ "contain", "include", "harbor" ],
 
@@ -1055,7 +1090,10 @@ lexicon = listing "Lexicon's properties"
  |> ".t y .h" <| [
 
     FAL                       `verb`       {- TAH-i -}          [ "be lost" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- Tay~aH -}         [ "cause to be lost" ] ]
 
@@ -1066,7 +1104,10 @@ lexicon = listing "Lexicon's properties"
  |> ".t y b" <| [
 
     FAL                       `verb`       {- TAb-i -}          [ "be good", "be pleasant" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- Tay~ab -}         [ "make pleasant" ],
 
@@ -1088,7 +1129,10 @@ lexicon = listing "Lexicon's properties"
  |> ".t y f" <| [
 
     FAL                       `verb`       {- TAf-i -}          [ "appear" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCL                      `noun`       {- Tayof -}          [ "spectrum (light)" ],
 
@@ -1116,7 +1160,10 @@ lexicon = listing "Lexicon's properties"
  |> ".t y r" <| [
 
     FAL                       `verb`       {- TAr-i -}          [ "fly" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- Tay~ar -}         [ "make fly" ],
 

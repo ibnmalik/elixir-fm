@@ -50,11 +50,17 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADIS
                               {- `others` [ "_ta`Abiyn Ndip" ] -} ]
 
+ |> "_t b b" <| [
+
+    FaL |< At                 `noun`       {- vabAt -}          [ "reliability", "constancy" ] ]
+
  |> "_t b r" <| [
 
     FACaL                     `verb`       {- vAbar -}          [ "persist", "persevere" ],
 
-    MuFACaL |< aT             `noun`       {- muvAbarap -}      [ "persistence", "perseverance" ] ]
+    MuFACaL |< aT             `noun`       {- muvAbarap -}      [ "persistence", "perseverance" ],
+
+    FaL |< Iy                 `adj`        {- variy~ -}         [ "wealthy" ] ]
 
  |> "_t b t" <| [
 
@@ -143,7 +149,9 @@ lexicon = listing "Lexicon's properties"
  |> "_t l l" <| [
 
     FaCL                      `verb`       {- val~-u -}         [ "overthrow", "destroy" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FuCL |< aT                `noun`       {- vul~ap -}         [ "troop", "detachment", "troops", "detachments" ]
                               `plural`     FuCaL
@@ -243,7 +251,8 @@ lexicon = listing "Lexicon's properties"
     FACY |< Iy                `adj`        {- vAnawiy~ -}       [ "secondary" ],
 
     FaCY                      `verb`       {- vanaY-i -}        [ "fold", "double" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     FaCCY                     `verb`       {- van~aY -}         [ "fold", "double", "be folded", "be doubled" ],
 
@@ -344,8 +353,11 @@ lexicon = listing "Lexicon's properties"
  |> "_t r r" <| [
 
     FaCL                      `verb`       {- var~-ui -}        [ "rain hard", "talk a lot" ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL,
+                              `imperf`     FuCL
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- var~ -}           [ "wet", "soaked" ] ]
 
@@ -373,13 +385,15 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t r y" <| [
 
-    FaCiL                     `verb`       {- variy-a -}        [ "become wealthy" ]
-                              `imperf`     FCaL ]
+    FaCiL                     `verb`       {- variy-a -}        [ "become wealthy" ] ]
 
  |> "_t w b" <| [
 
     FAL                       `verb`       {- vAb-u -}          [ "return", "come back" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     HaFAL                     `verb`       {- OavAb -}          [ "return", "compensate", "reward", "be returned", "be compensated", "be rewarded" ],
 
@@ -404,7 +418,10 @@ lexicon = listing "Lexicon's properties"
  |> "_t w r" <| [
 
     FAL                       `verb`       {- vAr-u -}          [ "revolt", "arise" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FaCCaL                    `verb`       {- vaw~ar -}         [ "stir up", "revolutionize" ],
 
@@ -443,10 +460,6 @@ lexicon = listing "Lexicon's properties"
 
     MuFiCL                    `noun`       {- muviyr -}         [ "provoking", "agitating", "stirring up" ] ]
 
- |> "_tab" <| [
-
-    Identity |< At            `noun`       {- vabAt -}          [ "reliability", "constancy" ] ]
-
  |> "_talA_tmA'" <| [
 
     Identity |< aT            `noun`       {- valAvmA}ap -}     [ "three-hundred" ] ]
@@ -458,10 +471,6 @@ lexicon = listing "Lexicon's properties"
  |> "_tammaTa" <| [
 
     Identity                  `noun`       {- vam~apa -}        [ "there (is/are)" ] ]
-
- |> "_tar" <| [
-
-    Identity |< Iy            `adj`        {- variy~ -}         [ "wealthy" ] ]
 
  |> "_tulA_tA'" <| [
 

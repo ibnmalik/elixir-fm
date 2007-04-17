@@ -878,6 +878,37 @@ $Lexicon = {
     },
     {
       'types' => {
+        'fal' => {
+          'NF' => 1
+        },
+        'falA' => {
+          'N0_Nhy' => 1
+        }
+      },
+      'entry' => 'fal',
+      'form' => 'fal',
+      'lines' => [
+        ';; fal_1',
+        'fl      fal     NF      open country     [[fal/NOUN]]',
+        'flA     falA    N0_Nhy  open country'
+      ],
+      'patterns' => {
+        'falA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        'open country'
+      ],
+      'orig' => 'fal',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'fall' => {
           'IV_0hwnyn_yu' => 1,
           'PV_ttAw' => 1
@@ -1162,6 +1193,32 @@ $Lexicon = {
         'piercings'
       ],
       'orig' => 'AinofiqA\'',
+      'prefix' => ''
+    }
+  ],
+  'f w w' => [
+    {
+      'types' => {
+        'fawAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'faw',
+      'form' => 'fawAt',
+      'lines' => [
+        ';; fawAt_1',
+        'fwAt    fawAt   N       expiration;passing'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'expiration',
+        'passing'
+      ],
+      'orig' => 'fawAt',
       'prefix' => ''
     }
   ],
@@ -3056,6 +3113,55 @@ $Lexicon = {
     },
     {
       'types' => {
+        'furAt' => {
+          'N' => 1,
+          'NAn_Nayn' => 1
+        }
+      },
+      'entry' => 'fur',
+      'form' => 'furAt',
+      'lines' => [
+        ';; furAt_1',
+        'frAt    furAt   N       Euphrates',
+        'frAt    furAt   NAn_Nayn        Tigris and Euphrates'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'Euphrates',
+        'Tigris and Euphrates'
+      ],
+      'orig' => 'furAt',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'furAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'fur',
+      'form' => 'furAt',
+      'lines' => [
+        ';; furAt_2',
+        'frAt    furAt   N       sweet water'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FuL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'sweet water'
+      ],
+      'orig' => 'furAt',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'farrA\'' => {
           'Nh_Niyn' => 1,
           'Nh_Nuwn' => 1,
@@ -3232,6 +3338,9 @@ $Lexicon = {
         'fh      fuh     IV_C    pronounce;utter;voice'
       ],
       'patterns' => {
+        'fuh' => [
+          'FuL'
+        ],
         'fuwh' => [
           'FUL',
           'FuCL'
@@ -11974,6 +12083,34 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'f y y' => [
+    {
+      'types' => {
+        'fiy' => {
+          'FW-Wa' => 2,
+          'FW-Wa-y' => 1
+        }
+      },
+      'entry' => 'fiy',
+      'form' => 'fiy',
+      'lines' => [
+        ';; fiy_1',
+        'fy      fiy     FW-Wa   in       [[fiy/PREP]]',
+        'fy      fiy     FW-Wa-y in       [[fiy/PREP]]',
+        'fY      fiy     FW-Wa   in       [[fiy/PREP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiL',
+      'suffix' => '',
+      'glosses' => [
+        'in'
+      ],
+      'orig' => 'fiy',
+      'prefix' => ''
+    }
+  ],
   'fiyliybuw' => [
     {
       'types' => {
@@ -15202,6 +15339,9 @@ $Lexicon = {
         'fuwq' => [
           'FUL',
           'FuCL'
+        ],
+        'fuq' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -15253,6 +15393,12 @@ $Lexicon = {
       'patterns' => {
         'fiyq' => [
           'FIL'
+        ],
+        'faq' => [
+          'FaL'
+        ],
+        'fiq' => [
+          'FiL'
         ],
         'fAq' => [
           'FAL'
@@ -17894,35 +18040,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fal' => [
-    {
-      'types' => {
-        'fal' => {
-          'NF' => 1
-        },
-        'falA' => {
-          'N0_Nhy' => 1
-        }
-      },
-      'entry' => 'fal',
-      'form' => 'fal',
-      'lines' => [
-        ';; fal_1',
-        'fl      fal     NF      open country     [[fal/NOUN]]',
-        'flA     falA    N0_Nhy  open country'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'open country'
-      ],
-      'orig' => 'fal',
-      'prefix' => ''
-    }
-  ],
   'f d \'' => [
     {
       'types' => {
@@ -19579,6 +19696,9 @@ $Lexicon = {
         'fiyl' => [
           'FIL',
           'FiCL'
+        ],
+        'fil' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -21562,6 +21682,9 @@ $Lexicon = {
         'fiy.d' => [
           'FIL',
           'FiCL'
+        ],
+        'fi.d' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -21617,6 +21740,12 @@ $Lexicon = {
         ],
         'fA.d' => [
           'FAL'
+        ],
+        'fa.d' => [
+          'FaL'
+        ],
+        'fi.d' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -26215,6 +26344,12 @@ $Lexicon = {
         'fd      fad     IV_C_Pass_yu    be reported;be provided'
       ],
       'patterns' => {
+        'fad' => [
+          'FaL'
+        ],
+        'fid' => [
+          'FiL'
+        ],
         'fiyd' => [
           'FIL',
           'FiCL'
@@ -26558,6 +26693,9 @@ $Lexicon = {
         'ft      fut     IV_C    expire;go by'
       ],
       'patterns' => {
+        'fut' => [
+          'FuL'
+        ],
         'fuwt' => [
           'FUL',
           'FuCL'
@@ -31483,36 +31621,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fut' => [
-    {
-      'types' => {
-        'fatA\'it' => {
-          'Ndip' => 1
-        },
-        'futAt' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'fut',
-      'form' => 'futAt',
-      'lines' => [
-        ';; futAt_1',
-        'ftAt    futAt   N       crumbs;debris',
-        'ftA}t   fatA}it Ndip    crumbs;debris'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'crumbs',
-        'debris'
-      ],
-      'orig' => 'futAt',
-      'prefix' => ''
-    }
-  ],
   'f _h m' => [
     {
       'types' => {
@@ -36100,6 +36208,9 @@ $Lexicon = {
         'fuwz' => [
           'FUL',
           'FuCL'
+        ],
+        'fuz' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -38546,6 +38657,34 @@ $Lexicon = {
         'be torn apart'
       ],
       'orig' => 'Ainofat~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'fatA\'it' => {
+          'Ndip' => 1
+        },
+        'futAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'fut',
+      'form' => 'futAt',
+      'lines' => [
+        ';; futAt_1',
+        'ftAt    futAt   N       crumbs;debris',
+        'ftA}t   fatA}it Ndip    crumbs;debris'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'crumbs',
+        'debris'
+      ],
+      'orig' => 'futAt',
       'prefix' => ''
     },
     {
@@ -42265,6 +42404,9 @@ $Lexicon = {
         'f$      fi$     IV_C    boast'
       ],
       'patterns' => {
+        'fi^s' => [
+          'FiL'
+        ],
         'fiy^s' => [
           'FIL',
           'FiCL'
@@ -43364,83 +43506,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fur' => [
-    {
-      'types' => {
-        'furAt' => {
-          'N' => 1,
-          'NAn_Nayn' => 1
-        }
-      },
-      'entry' => 'fur',
-      'form' => 'furAt',
-      'lines' => [
-        ';; furAt_1',
-        'frAt    furAt   N       Euphrates',
-        'frAt    furAt   NAn_Nayn        Tigris and Euphrates'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'Euphrates',
-        'Tigris and Euphrates'
-      ],
-      'orig' => 'furAt',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'furAt' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'fur',
-      'form' => 'furAt',
-      'lines' => [
-        ';; furAt_2',
-        'frAt    furAt   N       sweet water'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'sweet water'
-      ],
-      'orig' => 'furAt',
-      'prefix' => ''
-    }
-  ],
-  'fi\'' => [
-    {
-      'types' => {
-        'fi\'aT' => {
-          'NapAt' => 1
-        }
-      },
-      'entry' => 'fi\'',
-      'form' => 'fi\'aT',
-      'lines' => [
-        ';; fi}ap_1',
-        'f}      fi}     NapAt   faction;party'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'faction',
-        'party'
-      ],
-      'orig' => 'fi}ap',
-      'prefix' => ''
-    }
-  ],
   'fuw.gts' => [
     {
       'types' => {
@@ -43908,6 +43973,9 @@ $Lexicon = {
         'fiy\'' => [
           'FIL',
           'FiCL'
+        ],
+        'fi\'' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -44002,6 +44070,12 @@ $Lexicon = {
         'fiy\'' => [
           'FIL',
           'FiCL'
+        ],
+        'fi\'' => [
+          'FiL'
+        ],
+        'fa\'' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -44094,9 +44168,90 @@ $Lexicon = {
       ],
       'orig' => 'fayo\'',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'fi\'aT' => {
+          'NapAt' => 1
+        }
+      },
+      'entry' => 'fi\'',
+      'form' => 'fi\'aT',
+      'lines' => [
+        ';; fi}ap_1',
+        'f}      fi}     NapAt   faction;party'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'faction',
+        'party'
+      ],
+      'orig' => 'fi}ap',
+      'prefix' => ''
     }
   ],
   'f m m' => [
+    {
+      'types' => {
+        'fam' => {
+          'N' => 1
+        },
+        '\'afmAm' => {
+          'N' => 2
+        }
+      },
+      'entry' => 'fam',
+      'form' => 'fam',
+      'lines' => [
+        ';; fam_1',
+        'fm      fam     N       mouth',
+        '>fmAm   >afomAm N       mouths',
+        'AfmAm   >afomAm N       mouths'
+      ],
+      'patterns' => {
+        '\'afmAm' => [
+          'HaFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        'mouth',
+        'mouths'
+      ],
+      'orig' => 'fam',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'famiyy' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'fam',
+      'form' => 'famiyy',
+      'lines' => [
+        ';; famiy~_1',
+        'fmy     famiy~  N-ap    oral;buccal     [[famiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'oral',
+        'buccal'
+      ],
+      'orig' => 'famiy~',
+      'prefix' => ''
+    },
     {
       'types' => {
         'famawiyy' => {
@@ -47371,32 +47526,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'faw' => [
-    {
-      'types' => {
-        'fawAt' => {
-          'N' => 1
-        }
-      },
-      'entry' => 'faw',
-      'form' => 'fawAt',
-      'lines' => [
-        ';; fawAt_1',
-        'fwAt    fawAt   N       expiration;passing'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'expiration',
-        'passing'
-      ],
-      'orig' => 'fawAt',
-      'prefix' => ''
-    }
-  ],
   'f w n' => [
     {
       'types' => {
@@ -48197,34 +48326,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'IifonA\'',
-      'prefix' => ''
-    }
-  ],
-  'fiy' => [
-    {
-      'types' => {
-        'fiy' => {
-          'FW-Wa' => 2,
-          'FW-Wa-y' => 1
-        }
-      },
-      'entry' => 'fiy',
-      'form' => 'fiy',
-      'lines' => [
-        ';; fiy_1',
-        'fy      fiy     FW-Wa   in       [[fiy/PREP]]',
-        'fy      fiy     FW-Wa-y in       [[fiy/PREP]]',
-        'fY      fiy     FW-Wa   in       [[fiy/PREP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'in'
-      ],
-      'orig' => 'fiy',
       'prefix' => ''
     }
   ],
@@ -49265,6 +49366,9 @@ $Lexicon = {
         'fuw.h' => [
           'FUL',
           'FuCL'
+        ],
+        'fu.h' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -51589,6 +51693,9 @@ $Lexicon = {
         'fr      fur     IV_C    boil;gush out'
       ],
       'patterns' => {
+        'fur' => [
+          'FuL'
+        ],
         'fuwr' => [
           'FUL',
           'FuCL'
@@ -51675,6 +51782,12 @@ $Lexicon = {
         ],
         'fAr' => [
           'FAL'
+        ],
+        'fir' => [
+          'FiL'
+        ],
+        'far' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -52413,61 +52526,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'fam' => [
-    {
-      'types' => {
-        'fam' => {
-          'N' => 1
-        },
-        '\'afmAm' => {
-          'N' => 2
-        }
-      },
-      'entry' => 'fam',
-      'form' => 'fam',
-      'lines' => [
-        ';; fam_1',
-        'fm      fam     N       mouth',
-        '>fmAm   >afomAm N       mouths',
-        'AfmAm   >afomAm N       mouths'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'mouth',
-        'mouths'
-      ],
-      'orig' => 'fam',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'famiyy' => {
-          'N-ap' => 1
-        }
-      },
-      'entry' => 'fam',
-      'form' => 'famiyy',
-      'lines' => [
-        ';; famiy~_1',
-        'fmy     famiy~  N-ap    oral;buccal     [[famiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'oral',
-        'buccal'
-      ],
-      'orig' => 'famiy~',
-      'prefix' => ''
-    }
-  ],
   'furAdY' => [
     {
       'types' => {
@@ -52614,9 +52672,9 @@ $Lexicon = {
     }
   ]
 };
-$Lexicon->{'f y l l'}[1]{'types'} = $Lexicon->{'f l l'}[10]{'types'};
-$Lexicon->{'f y l l'}[1]{'lines'} = $Lexicon->{'f l l'}[10]{'lines'};
-$Lexicon->{'f y l l'}[1]{'glosses'} = $Lexicon->{'f l l'}[10]{'glosses'};
+$Lexicon->{'f y l l'}[1]{'types'} = $Lexicon->{'f l l'}[11]{'types'};
+$Lexicon->{'f y l l'}[1]{'lines'} = $Lexicon->{'f l l'}[11]{'lines'};
+$Lexicon->{'f y l l'}[1]{'glosses'} = $Lexicon->{'f l l'}[11]{'glosses'};
 $Lexicon->{'f t r'}[10]{'types'} = $Lexicon->{'f r r'}[2]{'types'};
 $Lexicon->{'f t r'}[10]{'lines'} = $Lexicon->{'f r r'}[2]{'lines'};
 $Lexicon->{'f t r'}[10]{'glosses'} = $Lexicon->{'f r r'}[2]{'glosses'};
@@ -52698,9 +52756,9 @@ $Lexicon->{'f w z'}[8]{'glosses'} = $Lexicon->{'f \' z'}[2]{'glosses'};
 $Lexicon->{'f l y'}[0]{'types'} = $Lexicon->{'f l w'}[3]{'types'};
 $Lexicon->{'f l y'}[0]{'lines'} = $Lexicon->{'f l w'}[3]{'lines'};
 $Lexicon->{'f l y'}[0]{'glosses'} = $Lexicon->{'f l w'}[3]{'glosses'};
-$Lexicon->{'f l y'}[2]{'types'} = $Lexicon->{'f l l'}[9]{'types'};
-$Lexicon->{'f l y'}[2]{'lines'} = $Lexicon->{'f l l'}[9]{'lines'};
-$Lexicon->{'f l y'}[2]{'glosses'} = $Lexicon->{'f l l'}[9]{'glosses'};
+$Lexicon->{'f l y'}[2]{'types'} = $Lexicon->{'f l l'}[10]{'types'};
+$Lexicon->{'f l y'}[2]{'lines'} = $Lexicon->{'f l l'}[10]{'lines'};
+$Lexicon->{'f l y'}[2]{'glosses'} = $Lexicon->{'f l l'}[10]{'glosses'};
 $Lexicon->{'f \' t'}[1]{'types'} = $Lexicon->{'f w t'}[8]{'types'};
 $Lexicon->{'f \' t'}[1]{'lines'} = $Lexicon->{'f w t'}[8]{'lines'};
 $Lexicon->{'f \' t'}[1]{'glosses'} = $Lexicon->{'f w t'}[8]{'glosses'};
@@ -52710,12 +52768,12 @@ $Lexicon->{'f s w'}[2]{'glosses'} = $Lexicon->{'f s \''}[0]{'glosses'};
 $Lexicon->{'f t .s'}[0]{'types'} = $Lexicon->{'f .s .s'}[3]{'types'};
 $Lexicon->{'f t .s'}[0]{'lines'} = $Lexicon->{'f .s .s'}[3]{'lines'};
 $Lexicon->{'f t .s'}[0]{'glosses'} = $Lexicon->{'f .s .s'}[3]{'glosses'};
-$Lexicon->{'f r \''}[2]{'types'} = $Lexicon->{'f r r'}[10]{'types'};
-$Lexicon->{'f r \''}[2]{'lines'} = $Lexicon->{'f r r'}[10]{'lines'};
-$Lexicon->{'f r \''}[2]{'glosses'} = $Lexicon->{'f r r'}[10]{'glosses'};
-$Lexicon->{'f r \''}[3]{'types'} = $Lexicon->{'f r r'}[11]{'types'};
-$Lexicon->{'f r \''}[3]{'lines'} = $Lexicon->{'f r r'}[11]{'lines'};
-$Lexicon->{'f r \''}[3]{'glosses'} = $Lexicon->{'f r r'}[11]{'glosses'};
+$Lexicon->{'f r \''}[2]{'types'} = $Lexicon->{'f r r'}[12]{'types'};
+$Lexicon->{'f r \''}[2]{'lines'} = $Lexicon->{'f r r'}[12]{'lines'};
+$Lexicon->{'f r \''}[2]{'glosses'} = $Lexicon->{'f r r'}[12]{'glosses'};
+$Lexicon->{'f r \''}[3]{'types'} = $Lexicon->{'f r r'}[13]{'types'};
+$Lexicon->{'f r \''}[3]{'lines'} = $Lexicon->{'f r r'}[13]{'lines'};
+$Lexicon->{'f r \''}[3]{'glosses'} = $Lexicon->{'f r r'}[13]{'glosses'};
 $Lexicon->{'f z z'}[8]{'types'} = $Lexicon->{'f t z'}[0]{'types'};
 $Lexicon->{'f z z'}[8]{'lines'} = $Lexicon->{'f t z'}[0]{'lines'};
 $Lexicon->{'f z z'}[8]{'glosses'} = $Lexicon->{'f t z'}[0]{'glosses'};
@@ -52731,9 +52789,9 @@ $Lexicon->{'f n n'}[11]{'glosses'} = $Lexicon->{'f t n'}[16]{'glosses'};
 $Lexicon->{'f n n'}[13]{'types'} = $Lexicon->{'f t n'}[17]{'types'};
 $Lexicon->{'f n n'}[13]{'lines'} = $Lexicon->{'f t n'}[17]{'lines'};
 $Lexicon->{'f n n'}[13]{'glosses'} = $Lexicon->{'f t n'}[17]{'glosses'};
-$Lexicon->{'f r y'}[1]{'types'} = $Lexicon->{'f r r'}[12]{'types'};
-$Lexicon->{'f r y'}[1]{'lines'} = $Lexicon->{'f r r'}[12]{'lines'};
-$Lexicon->{'f r y'}[1]{'glosses'} = $Lexicon->{'f r r'}[12]{'glosses'};
+$Lexicon->{'f r y'}[1]{'types'} = $Lexicon->{'f r r'}[14]{'types'};
+$Lexicon->{'f r y'}[1]{'lines'} = $Lexicon->{'f r r'}[14]{'lines'};
+$Lexicon->{'f r y'}[1]{'glosses'} = $Lexicon->{'f r r'}[14]{'glosses'};
 $Lexicon->{'f r y'}[8]{'types'} = $Lexicon->{'f r \''}[4]{'types'};
 $Lexicon->{'f r y'}[8]{'lines'} = $Lexicon->{'f r \''}[4]{'lines'};
 $Lexicon->{'f r y'}[8]{'glosses'} = $Lexicon->{'f r \''}[4]{'glosses'};

@@ -725,7 +725,7 @@ lexicon = listing "Lexicon's properties"
     -- w&d     w&ad    IV_Pass_yu      be buried alive
 
     FaCaL                     `verb`       {- waOad-i -}        [ "bury alive", "be buried alive" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; tawa>~ad_1
     -- tw>d    tawa>~ad        PV      slow down;hesitate
@@ -803,7 +803,7 @@ lexicon = listing "Lexicon's properties"
     -- w&r     w&ar    IV_Pass_yu      be frightened
 
     FaCaL                     `verb`       {- waOar-i -}        [ "frighten", "be frightened" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; {isotawo>ar_1
     -- <stw>r  {isotawo>ar     PV_intr be frightened
@@ -910,7 +910,7 @@ lexicon = listing "Lexicon's properties"
     -- DH      DiH     IV_intr become clear;become evident;appear
 
     FaCaL                     `verb`       {- waDaH-i -}        [ "become clear", "become evident", "appear" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waD~aH_1
     -- wDH     waD~aH  PV      clarify;explain;indicate
@@ -1008,7 +1008,7 @@ lexicon = listing "Lexicon's properties"
     -- wDE     wDaE    IV_Pass_yu      be put;be placed
 
     FaCaL                     `verb`       {- waDaE-a -}        [ "put", "place", "be put", "be placed" ]
-                              `imperf`     FCaL,
+                              `imperf`     CaL,
 
     -- ;; >awoDaE_1
     -- >wDE    >awoDaE PV      suffer losses
@@ -1198,7 +1198,7 @@ lexicon = listing "Lexicon's properties"
     -- wgl     wgal    IV_Pass_yu      be penetrated;be intruded on
 
     FaCaL                     `verb`       {- wagal-i -}        [ "penetrate", "intrude", "be penetrated", "be intruded on" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; >awogal_1
     -- >wgl    >awogal PV      penetrate;do intensively
@@ -1242,6 +1242,7 @@ lexicon = listing "Lexicon's properties"
     -- gr      gir     IV_intr be hot;be angry
 
     FaCaL                     `verb`       {- wagar-i -}        [ "be hot", "be angry" ]
+                              `imperf`     CiL
                               `imperf`     FCiL,
 
     -- ;; >awogar_1
@@ -1587,8 +1588,8 @@ lexicon = listing "Lexicon's properties"
     -- Hm      Him     IV      crave;desire
 
     FaCiL                     `verb`       {- waHim-ai -}       [ "crave", "desire" ]
-                              `imperf`     FCaL
-                              `imperf`     FCiL,
+                              `imperf`     CiL
+                              `imperf`     FCaL,
 
     -- ;; waHam_1
     -- wHm     waHam   N       craving;longing
@@ -1642,7 +1643,8 @@ lexicon = listing "Lexicon's properties"
     -- wHY     wHaY    IV_0_Pass_yu    be inspired
 
     FaCY                      `verb`       {- waHaY-i -}        [ "inspire", "be inspired" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL
+                              `imperf`     CI,
 
     -- ;; >awoHaY_1
     -- >wHY    >awoHaY PV_0    inspire;suggest
@@ -1781,7 +1783,7 @@ lexicon = listing "Lexicon's properties"
     -- Sb      Sib     IV      last
 
     FaCaL                     `verb`       {- waSab-i -}        [ "last" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; tawaS~ab_1
     -- twSb    tawaS~ab        PV_intr be chronically ill
@@ -1810,7 +1812,7 @@ lexicon = listing "Lexicon's properties"
     -- Sd      Sid     IV_intr be firm;stand firm
 
     FaCaL                     `verb`       {- waSad-i -}        [ "be firm", "stand firm" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; >awoSad_1
     -- >wSd    >awoSad PV      shut;close
@@ -1837,7 +1839,7 @@ lexicon = listing "Lexicon's properties"
     -- wSf     wSaf    IV_Pass_yu      be described;be characterized
 
     FaCaL                     `verb`       {- waSaf-i -}        [ "describe", "characterize", "be described", "be characterized" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; tawASaf_1
     -- twASf   tawASaf PV      describe to each other
@@ -1981,7 +1983,7 @@ lexicon = listing "Lexicon's properties"
     -- wSl     wSal    IV_Pass_yu      be arrived at;be reached;be connected
 
     FaCaL                     `verb`       {- waSal-i -}        [ "arrive at", "reach", "connect", "be arrived at", "be reached", "be connected" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waS~al_1
     -- wSl     waS~al  PV      connect
@@ -2170,7 +2172,7 @@ lexicon = listing "Lexicon's properties"
     -- Sm      Sim     IV      stigmatize;tarnish
 
     FaCaL                     `verb`       {- waSam-i -}        [ "stigmatize", "tarnish" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; tawaS~am_1
     -- twSm    tawaS~am        PV_intr be tarnished
@@ -2370,7 +2372,7 @@ lexicon = listing "Lexicon's properties"
     -- T}      Ta}     IV_yn   tread on;step on;trample underfoot
 
     FaCiL                     `verb`       {- waTi}-a -}        [ "tread on", "step on", "trample underfoot" ]
-                              `imperf`     FCaL,
+                              `imperf`     CaL,
 
     -- ;; waT~a>_1
     -- wT>     waT~a>  PV->    lower;pave the way;prepare
@@ -2511,7 +2513,7 @@ lexicon = listing "Lexicon's properties"
     -- T$      Ti$     IV      strike;slap
 
     FaCaL                     `verb`       {- waTa$-i -}        [ "strike", "slap" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waTo$_1
     -- wT$     waTo$   N       striking;slapping
@@ -2540,7 +2542,7 @@ lexicon = listing "Lexicon's properties"
     -- Td      Tid     IV      reinforce;consolidate
 
     FaCaL                     `verb`       {- waTad-i -}        [ "reinforce", "consolidate" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waT~ad_1
     -- wTd     waT~ad  PV      reinforce;consolidate
@@ -2608,7 +2610,7 @@ lexicon = listing "Lexicon's properties"
     -- Tn      Tin     IV-n    reside
 
     FaCaL                     `verb`       {- waTan-i -}        [ "reside" ]
-                              `imperf`     FCiL,
+                              `ithird`     CiL,
 
     -- ;; waT~an_1
     -- wTn     waT~an  PV-n    settle down;patriate
@@ -2776,7 +2778,7 @@ lexicon = listing "Lexicon's properties"
     -- Zb      Zib     IV      persist;persevere
 
     FaCaL                     `verb`       {- waZab-i -}        [ "persist", "persevere" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wAZab_1
     -- wAZb    wAZab   PV      persist;persevere
@@ -2900,7 +2902,7 @@ lexicon = listing "Lexicon's properties"
     -- jb      jib     IV_intr be necessary;be incumbent
 
     FaCaL                     `verb`       {- wajab-i -}        [ "be necessary", "be incumbent" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waj~ab_1
     -- wjb     waj~ab  PV      make necessary;obligate
@@ -3024,7 +3026,7 @@ lexicon = listing "Lexicon's properties"
     -- wjd     wjad    IV_Pass_yu      be found;exist
 
     FaCaL                     `verb`       {- wajad-i -}        [ "find", "be found", "exist" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; >awojad_1
     -- >wjd    >awojad PV      find;obtain
@@ -3112,7 +3114,7 @@ lexicon = listing "Lexicon's properties"
     -- jf      jif     IV_intr be agitated;be troubled;palpitate
 
     FaCaL                     `verb`       {- wajaf-i -}        [ "be agitated", "be troubled", "palpitate" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; >awojaf_1
     -- >wjf    >awojaf PV      agitate;disturb
@@ -3331,7 +3333,7 @@ lexicon = listing "Lexicon's properties"
     -- jm      jim     IV_intr be silent;be despondent
 
     FaCaL                     `verb`       {- wajam-i -}        [ "be silent", "be despondent" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wajim_1
     -- wjm     wajim   Nall    silent;despondent
@@ -3415,7 +3417,7 @@ lexicon = listing "Lexicon's properties"
     -- js      jis     IV_intr be afraid;be worried
 
     FaCaL                     `verb`       {- wajas-i -}        [ "be afraid", "be worried" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; >awojas_1
     -- >wjs    >awojas PV_intr worry;sense;feel
@@ -3458,7 +3460,7 @@ lexicon = listing "Lexicon's properties"
     -- jz      jiz     IV_intr be brief;be concise
 
     FaCaL                     `verb`       {- wajaz-i -}        [ "be brief", "be concise" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; >awojaz_1
     -- >wjz    >awojaz PV_intr be concise;be brief;summarize
@@ -3668,7 +3670,7 @@ lexicon = listing "Lexicon's properties"
     -- \$m      $im     IV      tattoo
 
     FaCaL                     `verb`       {- wa$am-i -}        [ "tattoo" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wa$~am_1
     -- w$m     wa$~am  PV      tattoo
@@ -3715,7 +3717,7 @@ lexicon = listing "Lexicon's properties"
     -- \$r      $ir     IV      saw apart
 
     FaCaL                     `verb`       {- wa$ar-i -}        [ "saw apart" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wa$or_1
     -- w$r     wa$or   N       sawing
@@ -3765,7 +3767,8 @@ lexicon = listing "Lexicon's properties"
     -- w$Y     w$aY    IV_0_Pass_yu    be embellished;be denounced
 
     FaCY                      `verb`       {- wa$aY-i -}        [ "embellish", "denounce", "be embellished", "be denounced" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL
+                              `imperf`     CI,
 
     -- ;; wa$~aY_1
     -- w$Y     wa$~aY  PV_0    embellish;embroider
@@ -3825,7 +3828,7 @@ lexicon = listing "Lexicon's properties"
     -- \*r      *ar     IV      leave behind
 
     FaCiL                     `verb`       {- wa*ir-a -}        [ "leave behind" ]
-                              `imperf`     FCaL ]
+                              `imperf`     CaL ]
 
  |> "w _h .t" <| [
 
@@ -3834,7 +3837,7 @@ lexicon = listing "Lexicon's properties"
     -- xT      xiT     IV_intr become gray;make gray-haired
 
     FaCaL                     `verb`       {- waxaT-i -}        [ "become gray", "make gray-haired" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waxoT_1
     -- wxT     waxoT   N       graying
@@ -3919,7 +3922,8 @@ lexicon = listing "Lexicon's properties"
     -- wxY     wxaY    IV_0_Pass_yu    be intended;be considered
 
     FaCY                      `verb`       {- waxaY-i -}        [ "intend", "consider", "be intended", "be considered" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL
+                              `imperf`     CI,
 
     -- ;; wax~aY_1
     -- wxY     wax~aY  PV_0    intend;consider;guide;lead
@@ -3967,7 +3971,7 @@ lexicon = listing "Lexicon's properties"
     -- xz      xiz     IV      sting;prick;twinge
 
     FaCaL                     `verb`       {- waxaz-i -}        [ "sting", "prick", "twinge" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waxoz_1
     -- wxz     waxoz   N       stinging;pricking;twinging
@@ -4006,7 +4010,7 @@ lexicon = listing "Lexicon's properties"
     -- v}      va}     IV_yn   bruise;sprain
 
     FaCaL                     `verb`       {- wavaO-a -}        [ "bruise", "sprain" ]
-                              `imperf`     FCaL,
+                              `imperf`     CaL,
 
     -- ;; wavi}-a_1
     -- wv}     wavi}   PV_intr be bruised;be sprained
@@ -4016,7 +4020,7 @@ lexicon = listing "Lexicon's properties"
     -- v}      va}     IV_yn   be bruised;be sprained
 
     FaCiL                     `verb`       {- wavi}-a -}        [ "be bruised", "be sprained" ]
-                              `imperf`     FCaL,
+                              `imperf`     CaL,
 
     -- ;; >awova>_1
     -- >wv>    >awova> PV->    bruise;sprain
@@ -4055,7 +4059,7 @@ lexicon = listing "Lexicon's properties"
     -- vb      vib     IV      jump;leap
 
     FaCaL                     `verb`       {- wavab-i -}        [ "jump", "leap" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wAvab_1
     -- wAvb    wAvab   PV      fall upon
@@ -4154,8 +4158,7 @@ lexicon = listing "Lexicon's properties"
     -- wvq     wvaq    IV_Pass_yu      be trusted;be relied on;be depended on
 
     FaCiL                     `verb`       {- waviq-ia -}       [ "trust", "rely", "depend", "be trusted", "be relied on", "be depended on" ]
-                              `imperf`     FCiL
-                              `imperf`     FCaL,
+                              `imperf`     CiL,
 
     -- ;; wav~aq_1
     -- wvq     wav~aq  PV      attest;certify;authenticate
@@ -4292,7 +4295,7 @@ lexicon = listing "Lexicon's properties"
     -- vr      vir     IV      make soft;make smooth
 
     FaCaL                     `verb`       {- wavar-i -}        [ "make soft", "make smooth" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wavir_1
     -- wvr     wavir   N-ap    soft;cozy;smooth     [[wavir/ADJ]]
@@ -4332,7 +4335,7 @@ lexicon = listing "Lexicon's properties"
     -- EZ      EiZ     IV      preach;admonish;exhort
 
     FaCaL                     `verb`       {- waEaZ-i -}        [ "preach", "admonish", "exhort" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; EiZap_1
     -- EZ      EiZ     NapAt   sermon;admonition
@@ -4403,7 +4406,7 @@ lexicon = listing "Lexicon's properties"
     -- Eb      Eib     IV      take entirely
 
     FaCaL                     `verb`       {- waEab-i -}        [ "take entirely" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; >awoEab_1
     -- >wEb    >awoEab PV      take entirely;insert
@@ -4445,7 +4448,7 @@ lexicon = listing "Lexicon's properties"
     -- wEd     wEad    IV_Pass_yu      be promised
 
     FaCaL                     `verb`       {- waEad-i -}        [ "promise", "be promised" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wAEad_1
     -- wAEd    wAEad   PV      arrange a meeting with;make an appointment with
@@ -4634,6 +4637,7 @@ lexicon = listing "Lexicon's properties"
     -- Er      Eir     IV_intr be rough;be rugged
 
     FaCaL                     `verb`       {- waEar-i -}        [ "be rough", "be rugged" ]
+                              `imperf`     CiL
                               `imperf`     FCiL,
 
     -- ;; tawaE~ar_1
@@ -4681,7 +4685,7 @@ lexicon = listing "Lexicon's properties"
     -- Es      Eis     IV      make experienced;make wise
 
     FaCaL                     `verb`       {- waEas-i -}        [ "make experienced", "make wise" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waEos_1
     -- wEs     waEos   N       quicksand
@@ -4721,7 +4725,8 @@ lexicon = listing "Lexicon's properties"
     -- wEY     wEaY    IV_0    be aware of;pay attention to
 
     FaCY                      `verb`       {- waEaY-i -}        [ "be aware of", "pay attention to" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL
+                              `imperf`     CI,
 
     -- ;; waE~aY_1
     -- wEY     waE~aY  PV_0    make conscious;raise the consciousness
@@ -4978,7 +4983,7 @@ lexicon = listing "Lexicon's properties"
     -- bl      bil     IV      rain
 
     FaCaL                     `verb`       {- wabal-i -}        [ "rain" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wabul-u_1
     -- wbl     wabul   PV_intr be unhealthy;be noxious
@@ -5021,7 +5026,7 @@ lexicon = listing "Lexicon's properties"
     -- bq      biq     IV_intr perish
 
     FaCaL                     `verb`       {- wabaq-i -}        [ "perish" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; >awobaq_1
     -- >wbq    >awobaq PV      ruin;debase
@@ -5118,7 +5123,7 @@ lexicon = listing "Lexicon's properties"
     -- dE      daE     CV      let;allow
 
     FaCaL                     `verb`       {- wadaE-a -}        [ "let", "allow" ]
-                              `imperf`     FCaL,
+                              `imperf`     CaL,
 
     -- ;; wad~aE_1
     -- wdE     wad~aE  PV      bid farewell
@@ -5255,7 +5260,8 @@ lexicon = listing "Lexicon's properties"
     -- wdd     wodad   IV_C    want;would like
 
     FaCL                      `verb`       {- wad~-a -}         [ "want", "would like" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FaCiL
+                              `ithird`     FCaL,
 
     -- ;; wAd~_1
     -- wAd     wAd~    PV_V    befriend
@@ -5411,7 +5417,8 @@ lexicon = listing "Lexicon's properties"
     -- wdY     wdaY    IV_0_Pass_yu    be paid blood money
 
     FaCY                      `verb`       {- wadaY-i -}        [ "pay blood money", "be paid blood money" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL
+                              `imperf`     CI,
 
     -- ;; >awodaY_1
     -- >wdY    >awodaY PV_0    put and end to;destroy
@@ -5513,7 +5520,7 @@ lexicon = listing "Lexicon's properties"
     -- fD      fiD     IV      hurry;rush
 
     FaCaL                     `verb`       {- wafaD-i -}        [ "hurry", "rush" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wafoDap_1
     -- wfD     wafoD   Napdu   traveling bag
@@ -5537,7 +5544,7 @@ lexicon = listing "Lexicon's properties"
     -- fd      fid     IV      arrive;come into
 
     FaCaL                     `verb`       {- wafad-i -}        [ "arrive", "come into" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waf~ad_1
     -- wfd     waf~ad  PV      dispatch;send
@@ -5631,7 +5638,7 @@ lexicon = listing "Lexicon's properties"
     -- fq      fiq     IV_intr be right;be suitable
 
     FaCaL                     `verb`       {- wafaq-i -}        [ "be right", "be suitable" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waf~aq_1
     -- wfq     waf~aq  PV      grant success
@@ -5724,7 +5731,7 @@ lexicon = listing "Lexicon's properties"
     -- fr      fir     IV_intr be plentiful
 
     FaCaL                     `verb`       {- wafar-i -}        [ "be plentiful" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waf~ar_1
     -- wfr     waf~ar  PV      provide;fulfill
@@ -5822,7 +5829,8 @@ lexicon = listing "Lexicon's properties"
     -- wfY     wfaY    IV_0_Pass_yu    fulfill;carry out
 
     FaCY                      `verb`       {- wafaY-i -}        [ "fulfill", "carry out" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL
+                              `imperf`     CI,
 
     -- ;; waf~aY_1
     -- wfY     waf~aY  PV_0    satisfy;fulfill
@@ -6051,7 +6059,7 @@ lexicon = listing "Lexicon's properties"
     -- hj      hij     IV      glow;burn
 
     FaCaL                     `verb`       {- wahaj-i -}        [ "glow", "burn" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; >awohaj_1
     -- >whj    >awohaj PV      kindle;light
@@ -6095,7 +6103,7 @@ lexicon = listing "Lexicon's properties"
     -- whb     whab    IV_Pass_yu      be donated;be granted
 
     FaCaL                     `verb`       {- wahab-a -}        [ "donate", "grant", "be donated", "be granted" ]
-                              `imperf`     FCaL,
+                              `imperf`     CaL,
 
     -- ;; >awohab_1
     -- >whb    >awohab PV      present;give as a gift
@@ -6258,7 +6266,7 @@ lexicon = listing "Lexicon's properties"
     -- hm      him     IV      imagine;suppose
 
     FaCaL                     `verb`       {- waham-i -}        [ "imagine", "suppose" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; tawah~am_1
     -- twhm    tawah~am        PV_intr be under delusion;be persuaded
@@ -6314,14 +6322,14 @@ lexicon = listing "Lexicon's properties"
     -- hn      hin     IV-n_intr       be weak;lack the strength for
 
     FaCaL                     `verb`       {- wahan-i -}        [ "be weak", "lack the strength for" ]
-                              `imperf`     FCiL,
+                              `ithird`     CiL,
 
     -- ;; wahun-u_1
     -- whn     wahun   PV-n_intr       be weak;lack the strength for
     -- whn     wohun   IV-n_intr       be weak;lack the strength for
 
     FaCuL                     `verb`       {- wahun-u -}        [ "be weak", "lack the strength for" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; wah~an_1
     -- whn     wah~in  IV-n_yu weaken;discourage
@@ -6386,7 +6394,7 @@ lexicon = listing "Lexicon's properties"
     -- hr      hir     IV      disconcert;frighten
 
     FaCaL                     `verb`       {- wahar-i -}        [ "disconcert", "frighten" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wah~ar_1
     -- whr     wah~ar  PV      disconcert;frighten
@@ -6418,8 +6426,7 @@ lexicon = listing "Lexicon's properties"
     -- why     wohay   IV_Ann  be frail;be fragile
     -- wh      woha    IV_0hwnyn       be frail;be fragile
 
-    FaCiL                     `verb`       {- wahiy-a -}        [ "be frail", "be fragile" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- wahiy-a -}        [ "be frail", "be fragile" ],
 
     -- ;; wahaY-i_1
     -- whY     wahaY   PV_0    be frail;be fragile
@@ -6429,7 +6436,8 @@ lexicon = listing "Lexicon's properties"
     -- hy      hiy     IV_0hAnn        be frail;be fragile
 
     FaCY                      `verb`       {- wahaY-i -}        [ "be frail", "be fragile" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL
+                              `imperf`     CI,
 
     -- ;; >awohaY_1
     -- >whY    >awohaY PV_0    weaken;debilitate
@@ -6492,7 +6500,7 @@ lexicon = listing "Lexicon's properties"
     -- wkE     wokuE   IV_intr be sturdy;be strong
 
     FaCuL                     `verb`       {- wakuE-a -}        [ "be sturdy", "be strong" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCuL,
 
     -- ;; wakAEap_1
     -- wkAE    wakAE   Nap     being strong;strength
@@ -6506,7 +6514,7 @@ lexicon = listing "Lexicon's properties"
     -- kb      kib     IV      walk slowly;proceed slowly
 
     FaCaL                     `verb`       {- wakab-i -}        [ "walk slowly", "proceed slowly" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wAkab_1
     -- wAkb    wAkab   PV      accompany;escort
@@ -6617,7 +6625,7 @@ lexicon = listing "Lexicon's properties"
     -- kf      kif     IV      leak;trickle
 
     FaCaL                     `verb`       {- wakaf-i -}        [ "leak", "trickle" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wakof_1
     -- wkf     wakof   N       leaking;trickling
@@ -6636,7 +6644,7 @@ lexicon = listing "Lexicon's properties"
     -- kl      kil     IV      trust;put in charge
 
     FaCaL                     `verb`       {- wakal-i -}        [ "trust", "put in charge" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wak~al_1
     -- wkl     wak~al  PV      authorize;empower;entrust
@@ -6801,7 +6809,7 @@ lexicon = listing "Lexicon's properties"
     -- ks      kis     IV      depreciate;suffer losses
 
     FaCaL                     `verb`       {- wakas-i -}        [ "depreciate", "suffer losses" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wak~as_1
     -- wks     wak~as  PV      depreciate
@@ -6830,7 +6838,8 @@ lexicon = listing "Lexicon's properties"
     -- wkY     wkaY    IV_0_Pass_yu    be tied up
 
     FaCY                      `verb`       {- wakaY-i -}        [ "tie up", "be tied up" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL
+                              `imperf`     CI,
 
     -- ;; wikA'_1
     -- wkA'    wikA'   N0_Nh   string;thong
@@ -6850,7 +6859,7 @@ lexicon = listing "Lexicon's properties"
     -- kz      kiz     IV      punch;push;pierce
 
     FaCaL                     `verb`       {- wakaz-i -}        [ "punch", "push", "pierce" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wakoz_1
     -- wkz     wakoz   N       punching;pushing;piercing
@@ -6923,7 +6932,7 @@ lexicon = listing "Lexicon's properties"
     -- lg      lag     IV      lick;lap;defile
 
     FaCaL                     `verb`       {- walag-a -}        [ "lick", "lap", "defile" ]
-                              `imperf`     FCaL,
+                              `imperf`     CaL,
 
     -- ;; walog_1
     -- wlg     walog   N       licking;lapping;defiling
@@ -6949,7 +6958,7 @@ lexicon = listing "Lexicon's properties"
     -- lj      lij     IV      enter;penetrate
 
     FaCaL                     `verb`       {- walaj-i -}        [ "enter", "penetrate" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; >awolaj_1
     -- >wlj    >awolaj PV      insert;introduce;thrust
@@ -7073,7 +7082,7 @@ lexicon = listing "Lexicon's properties"
     -- wld     wlad    IV_Pass_yu      be born
 
     FaCaL                     `verb`       {- walad-i -}        [ "give birth to", "be born" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wal~ad_1
     -- wld     wal~ad  PV      generate;produce
@@ -7316,7 +7325,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCiL                     `verb`       {- walih-ai -}       [ "become insane" ]
                               `imperf`     FCaL
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wal~ah_1
     -- wlh     wal~ah  PV      make insane;confuse utterly
@@ -7402,7 +7411,7 @@ lexicon = listing "Lexicon's properties"
     -- wls     wlas    IV_Pass_yu      be deceived;be cheated
 
     FaCaL                     `verb`       {- walas-i -}        [ "deceive", "cheat", "be deceived", "be cheated" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wAlas_1
     -- wAls    wAlas   PV      double-cross;misrepresent;distort
@@ -7452,7 +7461,8 @@ lexicon = listing "Lexicon's properties"
     -- l       l       IV_0hwnyn       follow;come after
 
     FaCiL                     `verb`       {- waliy-i -}        [ "follow", "come after" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL
+                              `imperf`     CI,
 
     -- ;; wal~aY_1
     -- wlY     wal~aY  PV_0    put in charge;entrust;commission
@@ -7766,7 +7776,7 @@ lexicon = listing "Lexicon's properties"
     -- mD      miD     IV      flash;gleam
 
     FaCaL                     `verb`       {- wamaD-i -}        [ "flash", "gleam" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; >awomaD_1
     -- >wmD    >awomaD PV      glow;light up;wink
@@ -7808,7 +7818,7 @@ lexicon = listing "Lexicon's properties"
     -- mq      miq     IV      love tenderly
 
     FaCaL                     `verb`       {- wamaq-i -}        [ "love tenderly" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wamoq_1
     -- wmq     wamoq   N       tender love
@@ -7822,7 +7832,7 @@ lexicon = listing "Lexicon's properties"
     -- ms      mis     IV      polish;rub off
 
     FaCaL                     `verb`       {- wamas-i -}        [ "polish", "rub off" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wamos_1
     -- wms     wamos   N       polishing;rubbing off
@@ -7886,7 +7896,9 @@ lexicon = listing "Lexicon's properties"
     -- wnn     wonin   IV-n    buzz;drone
 
     FaCL                      `verb`       {- wan~-i -}         [ "buzz", "drone" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; wan~_1
     -- wn      wan~    N       buzzing;droning
@@ -7912,8 +7924,7 @@ lexicon = listing "Lexicon's properties"
     -- wny     wonay   IV_Ann  become weak;be despondent
     -- wn      wona    IV_0hwnyn       become weak;be despondent
 
-    FaCiL                     `verb`       {- waniy-a -}        [ "become weak", "be despondent" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- waniy-a -}        [ "become weak", "be despondent" ],
 
     -- ;; wanaY-i_1
     -- wnY     wanaY   PV_0    become weak;be despondent
@@ -7923,7 +7934,8 @@ lexicon = listing "Lexicon's properties"
     -- ny      niy     IV_0hAnn        become weak;be despondent
 
     FaCY                      `verb`       {- wanaY-i -}        [ "become weak", "be despondent" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL
+                              `imperf`     CI,
 
     -- ;; wan~aY_1
     -- wnY     wan~aY  PV_0    be slow;be negligent
@@ -8034,7 +8046,7 @@ lexicon = listing "Lexicon's properties"
     -- qH      qiH     IV_intr be shameless
 
     FaCaL                     `verb`       {- waqaH-i -}        [ "be shameless" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; tawaq~aH_1
     -- twqH    tawaq~aH        PV_intr be shameless;be impudent
@@ -8088,7 +8100,7 @@ lexicon = listing "Lexicon's properties"
     -- qS      qiS     IV      break the neck
 
     FaCaL                     `verb`       {- waqaS-i -}        [ "break the neck" ]
-                              `imperf`     FCiL ]
+                              `imperf`     CiL ]
 
  |> "w q .z" <| [
 
@@ -8097,7 +8109,7 @@ lexicon = listing "Lexicon's properties"
     -- qZ      qiZ     IV      beat brutally
 
     FaCaL                     `verb`       {- waqaZ-i -}        [ "beat brutally" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waq~aZ_1
     -- wqZ     waq~aZ  PV      incite;inflame
@@ -8112,7 +8124,7 @@ lexicon = listing "Lexicon's properties"
     -- q*      qi*     IV      hit fatally;throw down
 
     FaCaL                     `verb`       {- waqa*-i -}        [ "hit fatally", "throw down" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waqo*_1
     -- wq*     waqo*   N       fatal hit
@@ -8136,7 +8148,7 @@ lexicon = listing "Lexicon's properties"
     -- qE      qaE     IV      fall down;take place;be located
 
     FaCaL                     `verb`       {- waqaE-a -}        [ "fall down", "take place", "be located" ]
-                              `imperf`     FCaL,
+                              `imperf`     CaL,
 
     -- ;; waq~aE_1
     -- wqE     waq~aE  PV      sign
@@ -8325,7 +8337,7 @@ lexicon = listing "Lexicon's properties"
     -- qb      qib     IV_intr be sunken;be gloomy
 
     FaCaL                     `verb`       {- waqab-i -}        [ "be sunken", "be gloomy" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waqob_1
     -- wqb     waqob   Ndu     cavity
@@ -8360,7 +8372,7 @@ lexicon = listing "Lexicon's properties"
     -- qd      qid     IV      ignite;burn
 
     FaCaL                     `verb`       {- waqad-i -}        [ "ignite", "burn" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waq~ad_1
     -- wqd     waq~ad  PV      kindle;ignite
@@ -8473,7 +8485,7 @@ lexicon = listing "Lexicon's properties"
     -- qf      qif     IV      stop;cease;stand
 
     FaCaL                     `verb`       {- waqaf-i -}        [ "stop", "cease", "stand" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waq~af_1
     -- wqf     waq~af  PV      stop;detain
@@ -8635,7 +8647,7 @@ lexicon = listing "Lexicon's properties"
     -- qr      qir     IV      fracture;become certain;become an established fact
 
     FaCaL                     `verb`       {- waqar-i -}        [ "fracture", "become certain", "become an established fact" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; waq~ar_1
     -- wqr     waq~ar  PV      revere
@@ -8793,7 +8805,8 @@ lexicon = listing "Lexicon's properties"
     -- wqY     woqaY   IV_0_Pass_yu    be preserved;be safeguarded
 
     FaCY                      `verb`       {- waqaY-i -}        [ "preserve", "safeguard", "be preserved", "be safeguarded" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL
+                              `imperf`     CI,
 
     -- ;; tawaq~aY_1
     -- twqY    tawaq~aY        PV_0    beware;be on guard
@@ -8944,7 +8957,7 @@ lexicon = listing "Lexicon's properties"
     -- r$      ri$     IV      interfere
 
     FaCaL                     `verb`       {- wara$-i -}        [ "interfere" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; war~a$_1
     -- wr$     war~a$  PV      disturb the peace
@@ -8979,7 +8992,7 @@ lexicon = listing "Lexicon's properties"
     -- wrv     wrav    IV_Pass_yu      be inherited
 
     FaCiL                     `verb`       {- wariv-i -}        [ "inherit", "be inherited" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; war~av_1
     -- wrv     war~av  PV      transmit;bequeath
@@ -9098,7 +9111,7 @@ lexicon = listing "Lexicon's properties"
     -- rE      riE     IV_intr be pious
 
     FaCiL                     `verb`       {- wariE-i -}        [ "be pious" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; tawar~aE_1
     -- twrE    tawar~aE        PV      pause;hesitate
@@ -9166,7 +9179,7 @@ lexicon = listing "Lexicon's properties"
     -- rd      rid     IV_intr be mentioned;appear;arrive
 
     FaCaL                     `verb`       {- warad-i -}        [ "be mentioned", "appear", "arrive" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; war~ad_1
     -- wrd     war~ad  PV      supply;furnish;be in bloom
@@ -9336,7 +9349,7 @@ lexicon = listing "Lexicon's properties"
     -- rf      rif     IV      stretch;extend;sprout
 
     FaCaL                     `verb`       {- waraf-i -}        [ "stretch", "extend", "sprout" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; war~af_1
     -- wrf     war~af  PV      stretch;extend
@@ -9390,7 +9403,7 @@ lexicon = listing "Lexicon's properties"
     -- rm      rim     IV_intr become swollen;swell
 
     FaCiL                     `verb`       {- warim-i -}        [ "become swollen", "swell" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; war~am_1
     -- wrm     war~am  PV      cause to swell;annoy
@@ -9575,7 +9588,8 @@ lexicon = listing "Lexicon's properties"
     -- wrY     wraY    IV_0_Pass_yu    be kindled;be lit
 
     FaCY                      `verb`       {- waraY-i -}        [ "kindle", "light", "be kindled", "be lit" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL
+                              `imperf`     CI,
 
     -- ;; war~aY_1
     -- wrY     war~aY  PV_0    stoke;kindle;conceal;feign
@@ -9857,7 +9871,7 @@ lexicon = listing "Lexicon's properties"
     -- sE      saE     IV_intr be spacious;be wide;be able;be possible
 
     FaCiL                     `verb`       {- wasiE-a -}        [ "be spacious", "be wide", "be able", "be possible" ]
-                              `imperf`     FCaL,
+                              `imperf`     CaL,
 
     -- ;; was~aE_1
     -- wsE     was~aE  PV      expand;widen;enable
@@ -10035,7 +10049,7 @@ lexicon = listing "Lexicon's properties"
     -- sm      sim     IV      stamp;brand
 
     FaCaL                     `verb`       {- wasam-i -}        [ "stamp", "brand" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; was~am_1
     -- wsm     was~am  PV      confer a distinction
@@ -10124,7 +10138,7 @@ lexicon = listing "Lexicon's properties"
     -- wsn     wosan   IV-n    sleep
 
     FaCiL                     `verb`       {- wasin-a -}        [ "sleep" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; wasan_1
     -- wsn     wasan   N       sleep
@@ -10152,7 +10166,7 @@ lexicon = listing "Lexicon's properties"
     -- sq      siq     IV      load;freight
 
     FaCaL                     `verb`       {- wasaq-i -}        [ "load", "freight" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; >awosaq_1
     -- >wsq    >awosaq PV      load;freight;levy
@@ -10329,7 +10343,7 @@ lexicon = listing "Lexicon's properties"
     -- tr      tir     IV      wrong;harm
 
     FaCaL                     `verb`       {- watar-i -}        [ "wrong", "harm" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wat~ar_1
     -- wtr     wat~ar  PV      strain;stretch;tighten
@@ -10484,6 +10498,18 @@ lexicon = listing "Lexicon's properties"
 
     KiRDUS                    `noun`       {- wiytuwn -}        [ "Wheaton" ] ]
 
+ |> "w y y" <| [
+
+    -- ;; way_1
+    -- wy      wayo    FW-Wa   shame on                     [[wayo/INTERJ]]
+    -- wyk     wayoka  FW-Wa   shame on + you [masc.sg.]    [[wayo/INTERJ+ka/PRON_2MS]]
+    -- wyk     wayoki  FW-Wa   shame on + you [fem.sg.]     [[wayo/INTERJ+ki/PRON_2FS]]
+    -- wykmA   wayokumA        FW-Wa   shame on + you both          [[wayo/INTERJ+kumA/PRON_2D]]
+    -- wykm    wayokum FW-Wa   shame on + you [masc.pl.]    [[wayo/INTERJ+kum/PRON_2MP]]
+    -- wykn    wayokun~a       FW-Wa   shame on + you [fem.pl.]     [[wayo/INTERJ+kun~a/PRON_2FP]]
+
+    FaL                       `noun`       {- way -}            [ "shame on", "shame on + you [masc.sg.]", "shame on + you [fem.sg.]", "shame on + you both", "shame on + you [masc.pl.]", "shame on + you [fem.pl.]" ] ]
+
  |> "w z `" <| [
 
     -- ;; waz~aE_1
@@ -10542,7 +10568,7 @@ lexicon = listing "Lexicon's properties"
     -- zb      zib     IV      flow
 
     FaCaL                     `verb`       {- wazab-i -}        [ "flow" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wuzuwb_1
     -- wzwb    wuzuwb  N       flowing;flow
@@ -10569,7 +10595,7 @@ lexicon = listing "Lexicon's properties"
     -- zn      zin     IV-n    weight;equilibrate
 
     FaCaL                     `verb`       {- wazan-i -}        [ "weight", "equilibrate" ]
-                              `imperf`     FCiL,
+                              `ithird`     CiL,
 
     -- ;; wAzan_1
     -- wAzn    wAzan   PV-n    weigh;compare;balance
@@ -10691,7 +10717,7 @@ lexicon = listing "Lexicon's properties"
     -- zr      zir     IV      assume
 
     FaCaL                     `verb`       {- wazar-i -}        [ "assume" ]
-                              `imperf`     FCiL,
+                              `imperf`     CiL,
 
     -- ;; wAzar_1
     -- wAzr    wAzar   PV      assist;support
@@ -10775,8 +10801,7 @@ lexicon = listing "Lexicon's properties"
     -- wAzY    wAzaY   IV_0_Pass_yu    be parallel;be equivalent
     -- wAzy    wAzay   IV_Ann_Pass_yu  be parallel;be equivalent
 
-    FACY                      `verb`       {- wAzaY-i -}        [ "be parallel", "be equivalent" ]
-                              `imperf`     FCiL,
+    FACY                      `verb`       {- wAzaY-i -}        [ "be parallel", "be equivalent" ],
 
     -- ;; tawAzaY_1
     -- twAzY   tawAzaY PV_0    be parallel;be equivalent
@@ -10833,7 +10858,9 @@ lexicon = listing "Lexicon's properties"
     -- wzz     wozuz   IV_C    incite
 
     FaCL                      `verb`       {- waz~-u -}         [ "incite" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; waz~_1
     -- wz      waz~    N       inciting
@@ -10955,18 +10982,6 @@ lexicon = listing "Lexicon's properties"
     -- wsT     wasoT   FW-Wa-o middle;midst;among     [[wasoT/PREP]]
 
     Identity                  `noun`       {- wasoTa -}         [ "middle", "midst", "among" ] ]
-
- |> "way" <| [
-
-    -- ;; way_1
-    -- wy      wayo    FW-Wa   shame on                     [[wayo/INTERJ]]
-    -- wyk     wayoka  FW-Wa   shame on + you [masc.sg.]    [[wayo/INTERJ+ka/PRON_2MS]]
-    -- wyk     wayoki  FW-Wa   shame on + you [fem.sg.]     [[wayo/INTERJ+ki/PRON_2FS]]
-    -- wykmA   wayokumA        FW-Wa   shame on + you both          [[wayo/INTERJ+kumA/PRON_2D]]
-    -- wykm    wayokum FW-Wa   shame on + you [masc.pl.]    [[wayo/INTERJ+kum/PRON_2MP]]
-    -- wykn    wayokun~a       FW-Wa   shame on + you [fem.pl.]     [[wayo/INTERJ+kun~a/PRON_2FP]]
-
-    Identity                  `noun`       {- way -}            [ "shame on", "shame on + you [masc.sg.]", "shame on + you [fem.sg.]", "shame on + you both", "shame on + you [masc.pl.]", "shame on + you [fem.pl.]" ] ]
 
  |> "way.ha" <| [
 

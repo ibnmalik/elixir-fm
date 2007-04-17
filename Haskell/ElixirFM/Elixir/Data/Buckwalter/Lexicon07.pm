@@ -624,7 +624,14 @@ $Lexicon = {
         'xAf     xAf     IV_V_intr       be scared;be afraid;be frightened',
         'xf      xaf     IV_C_intr       be scared;be afraid;be frightened'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hif' => [
+          'FiL'
+        ],
+        '_haf' => [
+          'FaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
@@ -708,6 +715,12 @@ $Lexicon = {
         ],
         '_hiyf' => [
           'FIL'
+        ],
+        '_hif' => [
+          'FiL'
+        ],
+        '_haf' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -5195,6 +5208,9 @@ $Lexicon = {
         'xr      xur     IV_C    moo;grow weak;dwindle'
       ],
       'patterns' => {
+        '_hur' => [
+          'FuL'
+        ],
         '_huwr' => [
           'FUL',
           'FuCL'
@@ -5830,6 +5846,9 @@ $Lexicon = {
         '_hiyr' => [
           'FIL',
           'FiCL'
+        ],
+        '_hir' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -11787,6 +11806,9 @@ $Lexicon = {
         'xT      xiT     IV_C    sew;stitch'
       ],
       'patterns' => {
+        '_hi.t' => [
+          'FiL'
+        ],
         '_hiy.t' => [
           'FIL',
           'FiCL'
@@ -16374,7 +16396,14 @@ $Lexicon = {
         'xAl     xAl     IV_V    imagine;suppose;regard',
         'xl      xal     IV_C    imagine;suppose;regard'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_hal' => [
+          'FaL'
+        ],
+        '_hil' => [
+          'FiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
@@ -16456,6 +16485,9 @@ $Lexicon = {
         'xl      xil     IV_C_intr_yu    be vague;be doubtful;be intricate'
       ],
       'patterns' => {
+        '_hil' => [
+          'FiL'
+        ],
         '_hiyl' => [
           'FIL',
           'FiCL'
@@ -20230,6 +20262,9 @@ $Lexicon = {
         '_huwn' => [
           'FUL',
           'FuCL'
+        ],
+        '_hun' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -23740,6 +23775,9 @@ $Lexicon = {
         'xD      xuD     IV_C    wage;embark;carry out'
       ],
       'patterns' => {
+        '_hu.d' => [
+          'FuL'
+        ],
         '_huw.d' => [
           'FUL',
           'FuCL'
@@ -29598,6 +29636,9 @@ $Lexicon = {
         '_hiyb' => [
           'FIL',
           'FiCL'
+        ],
+        '_hib' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -29678,9 +29719,15 @@ $Lexicon = {
         'xb      xab     IV_C_Pass_yu    be thwarted;be disappointed'
       ],
       'patterns' => {
+        '_hab' => [
+          'FaL'
+        ],
         '_hiyb' => [
           'FIL',
           'FiCL'
+        ],
+        '_hib' => [
+          'FiL'
         ],
         '_hAb' => [
           'FAL'
@@ -38647,6 +38694,9 @@ $Lexicon = {
         'xs      xis     IV_C    break'
       ],
       'patterns' => {
+        '_his' => [
+          'FiL'
+        ],
         '_hiys' => [
           'FIL',
           'FiCL'

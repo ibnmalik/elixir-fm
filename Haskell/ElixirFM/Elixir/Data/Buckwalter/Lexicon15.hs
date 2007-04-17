@@ -284,7 +284,7 @@ lexicon = listing "Lexicon's properties"
     -- Dgn     Dogan   IV-n    bear a grudge;harbor hatred
 
     FaCiL                     `verb`       {- Dagin-a -}        [ "bear a grudge", "harbor hatred" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; taDAgan_1
     -- tDAgn   taDAgan PV-n    hate each other
@@ -470,7 +470,8 @@ lexicon = listing "Lexicon's properties"
     -- DH      DoH     IV_0hwnyn       appear;become visible
 
     FaCA                      `verb`       {- DaHA-u -}         [ "appear", "become visible" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; DaH~aY_1
     -- DHY     DaH~aY  PV_0    sacrifice;immolate
@@ -554,8 +555,7 @@ lexicon = listing "Lexicon's properties"
     -- DHy     DoHay   IV_Ann  be visible;be in the sun
     -- DH      DoHa    IV_0hwnyn       be visible;be in the sun
 
-    FaCiL                     `verb`       {- DaHiy-a -}        [ "be visible", "be in the sun" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- DaHiy-a -}        [ "be visible", "be in the sun" ],
 
     -- ;; DaHiy~ap_1
     -- DHy     DaHiy~  Napdu   victim     [[DaHiy~/NOUN]]
@@ -622,7 +622,9 @@ lexicon = listing "Lexicon's properties"
     -- Djj     Dojij   IV_C_intr       be noisy;clamor
 
     FaCL                      `verb`       {- Daj~-i -}         [ "be noisy", "clamor" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; >aDaj~_1
     -- >Dj     >aDaj~  PV_V_intr       be noisy;clamor
@@ -791,7 +793,9 @@ lexicon = listing "Lexicon's properties"
     -- Dxx     Doxux   IV_C    inject;pump;spurt
 
     FaCL                      `verb`       {- Dax~-u -}         [ "inject", "pump", "spurt" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; Dax~_1
     -- Dx      Dax~    N       pumping;injecting
@@ -1036,8 +1040,8 @@ lexicon = listing "Lexicon's properties"
     -- DbT     DobiT   IV      regulate;adjust;fix
 
     FaCaL                     `verb`       {- DabaT-ui -}       [ "regulate", "adjust", "fix" ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     -- ;; {inoDabaT_1
     -- <nDbT   {inoDabaT       PV_intr be disciplined;be regulated;be adjusted
@@ -1143,7 +1147,9 @@ lexicon = listing "Lexicon's properties"
     -- Dbb     Dobib   IV_C    hold firm;guard
 
     FaCL                      `verb`       {- Dab~-i -}         [ "hold firm", "guard" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; Dab~ab_1
     -- Dbb     Dab~ab  PV      close;bolt shut
@@ -1314,7 +1320,7 @@ lexicon = listing "Lexicon's properties"
     -- Df      Dof     IV_0hwnyn       overflow;be abundant
 
     FaCA                      `verb`       {- DafA-u -}         [ "overflow", "be abundant" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCU,
 
     -- ;; >aDofaY_1
     -- >DfY    >aDofaY PV_0    grant;confer
@@ -1664,7 +1670,9 @@ lexicon = listing "Lexicon's properties"
     -- Dll     Dolil   IV_C    go astray;be in vain
 
     FaCL                      `verb`       {- Dal~-i -}         [ "go astray", "be in vain" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; Dal~al_1
     -- Dll     Dal~al  PV      mislead;deceive
@@ -1832,7 +1840,9 @@ lexicon = listing "Lexicon's properties"
     -- Dmm     Domum   IV_C    include;comprise;incorporate
 
     FaCL                      `verb`       {- Dam~-u -}         [ "include", "comprise", "incorporate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; taDAm~_1
     -- tDAm    taDAm~  PV_V    unite;join forces
@@ -1916,7 +1926,7 @@ lexicon = listing "Lexicon's properties"
     -- Dmn     Doman   IV-n    guarantee;insure
 
     FaCiL                     `verb`       {- Damin-a -}        [ "guarantee", "insure" ]
-                              `imperf`     FCaL,
+                              `ithird`     FCaL,
 
     -- ;; Dam~an_1
     -- Dmn     Dam~an  PV-n    guarantee;insure
@@ -2176,7 +2186,8 @@ lexicon = listing "Lexicon's properties"
     -- Dnn     Donan   IV-n    hold back;economize
 
     FaCL                      `verb`       {- Dan~-a -}         [ "hold back", "economize" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FaCiL
+                              `ithird`     FCaL,
 
     -- ;; Dan~_1
     -- Dn      Dan~    N       holding back;economizing
@@ -2199,8 +2210,7 @@ lexicon = listing "Lexicon's properties"
     -- Dny     Donay   IV_Ann  become emaciated;languish
     -- Dn      Dona    IV_0hwnyn       become emaciated;languish
 
-    FaCiL                     `verb`       {- Daniy-a -}        [ "become emaciated", "languish" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- Daniy-a -}        [ "become emaciated", "languish" ],
 
     -- ;; >aDonaY_1
     -- >DnY    >aDonaY PV_0    become emaciated;languish
@@ -2720,7 +2730,9 @@ lexicon = listing "Lexicon's properties"
     -- Drr     Dorur   IV_C    harm;injure
 
     FaCL                      `verb`       {- Dar~-u -}         [ "harm", "injure" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; Dar~ar_1
     -- Drr     Dar~ar  PV      damage;injure
@@ -2963,7 +2975,10 @@ lexicon = listing "Lexicon's properties"
     -- D&      Du&     IV_C    shine;illuminate
 
     FAL                       `verb`       {- DA'-u -}          [ "shine", "illuminate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; Daw~a>_1
     -- Dw>     Daw~a>  PV      shine;illuminate
@@ -3117,7 +3132,10 @@ lexicon = listing "Lexicon's properties"
     -- DE      DuE     IV_C_intr       emanate;be fragrant
 
     FAL                       `verb`       {- DAE-u -}          [ "emanate", "be fragrant" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; taDaw~aE_1
     -- tDwE    taDaw~aE        PV_intr emanate;be fragrant
@@ -3139,7 +3157,10 @@ lexicon = listing "Lexicon's properties"
     -- Dr      Dur     IV_C    harm;injure
 
     FAL                       `verb`       {- DAr-u -}          [ "harm", "injure" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; DAr-u_2
     -- DAr     DAr     PV_V    starve
@@ -3148,7 +3169,10 @@ lexicon = listing "Lexicon's properties"
     -- Dr      Dur     IV_C    starve
 
     FAL                       `verb`       {- DAr-u -}          [ "starve" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; DAr-i_1
     -- DAr     DAr     PV_V    harm;injure
@@ -3157,7 +3181,9 @@ lexicon = listing "Lexicon's properties"
     -- Dr      Dir     IV_C    harm;injure
 
     FAL                       `verb`       {- DAr-i -}          [ "harm", "injure" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; taDaw~ar_1
     -- tDwr    taDaw~ar        PV      writhe;wince;starve
@@ -3201,7 +3227,8 @@ lexicon = listing "Lexicon's properties"
     -- DwY     DowaY   IV_0_Pass_yu    be resorted to;be sought (as refuge)
 
     FaCY                      `verb`       {- DawaY-i -}        [ "resort to", "seek refuge in", "be resorted to", "be sought (as refuge)" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; >aDowaY_1
     -- >DwY    >aDowaY PV_0    weaken;injure
@@ -3327,7 +3354,10 @@ lexicon = listing "Lexicon's properties"
     -- DE      DiE     IV_C    disappear;vanish
 
     FAL                       `verb`       {- DAE-i -}          [ "disappear", "vanish" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; Day~aE_1
     -- DyE     Day~aE  PV      lose;miss;let go by
@@ -3541,7 +3571,10 @@ lexicon = listing "Lexicon's properties"
     -- Dm      Dim     IV_C    treat unjustly;injure
 
     FAL                       `verb`       {- DAm-i -}          [ "treat unjustly", "injure" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; {isotaDAm_1
     -- <stDAm  {isotaDAm       PV_V    treat unjustly;injure
@@ -3572,7 +3605,10 @@ lexicon = listing "Lexicon's properties"
     -- Dq      Diq     IV_C_intr       be narrow;be confined;be small
 
     FAL                       `verb`       {- DAq-i -}          [ "be narrow", "be confined", "be small" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; Day~aq_1
     -- Dyq     Day~aq  PV      make narrow;tighten

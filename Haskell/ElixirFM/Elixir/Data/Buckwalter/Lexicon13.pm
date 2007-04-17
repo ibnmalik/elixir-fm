@@ -1532,6 +1532,91 @@ $Lexicon = {
       ],
       'orig' => 'Aisoti$ofAf',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '^safAyif' => {
+          'Ndip' => 1
+        },
+        '^safaw' => {
+          'NAt' => 1
+        },
+        '^safaT' => {
+          'Napdu' => 1
+        },
+        '^safA\'if' => {
+          'Ndip' => 1
+        },
+        '^sifAh' => {
+          'N' => 1
+        }
+      },
+      'entry' => '^saf',
+      'form' => '^safaT',
+      'lines' => [
+        ';; $afap_1',
+        '$f      $af     Napdu   lip',
+        '$fAh    $ifAh   N       lips',
+        '$fw     $afaw   NAt     lips',
+        '$fA}f   $afA}if Ndip    lips',
+        '$fAyf   $afAyif Ndip    lips'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'lip',
+        'lips'
+      ],
+      'orig' => '$afap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '^safaN' => {
+          'FW-WaBi' => 1
+        },
+        '^safA' => {
+          'N0_Nhy' => 1
+        },
+        '\'a^sfA\'' => {
+          'Nh' => 2,
+          'Nhy' => 2,
+          'N0_Nh' => 2
+        }
+      },
+      'entry' => '^saf',
+      'form' => '^safaN',
+      'lines' => [
+        ';; $afAF_1',
+        '$fA     $afAF   FW-WaBi brink;verge;edge     [[$afAF/NOUN]]',
+        '$fA     $afA    N0_Nhy  brink;verge;edge',
+        '>$fA\'   >a$ofA\' N0_Nh   brink;verge;edges',
+        'A$fA\'   >a$ofA\' N0_Nh   brink;verge;edges',
+        '>$fA&   >a$ofA& Nh      brink;verge;edges',
+        'A$fA&   >a$ofA& Nh      brink;verge;edges',
+        '>$fA}   >a$ofA} Nhy     brink;verge;edges',
+        'A$fA}   >a$ofA} Nhy     brink;verge;edges'
+      ],
+      'patterns' => {
+        '^safA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'brink',
+        'verge',
+        'edge',
+        'edges'
+      ],
+      'orig' => '$afAF',
+      'prefix' => ''
     }
   ],
   '^s r m' => [
@@ -4159,6 +4244,9 @@ $Lexicon = {
         '^siyl' => [
           'FIL',
           'FiCL'
+        ],
+        '^sil' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -5013,8 +5101,14 @@ $Lexicon = {
         '$H      $aH     IV_C_Pass_yu    be averted (eyes);be turned away'
       ],
       'patterns' => {
+        '^si.h' => [
+          'FiL'
+        ],
         '^sA.h' => [
           'FAL'
+        ],
+        '^sa.h' => [
+          'FaL'
         ],
         '^siy.h' => [
           'FIL',
@@ -5644,36 +5738,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^sat' => [
-    {
-      'types' => {
-        '^satiyt' => {
-          'N/ap' => 1
-        },
-        '^satAt' => {
-          'N' => 1
-        }
-      },
-      'entry' => '^sat',
-      'form' => '^satAt',
-      'lines' => [
-        ';; $atAt_1',
-        '$tAt    $atAt   N       dispersed;scattered',
-        '$tyt    $atiyt  N/ap    dispersed;scattered'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'dispersed',
-        'scattered'
-      ],
-      'orig' => '$atAt',
-      'prefix' => ''
-    }
-  ],
   '^s h h' => [
     {
       'types' => {
@@ -5776,6 +5840,9 @@ $Lexicon = {
         '^suwq' => [
           'FUL',
           'FuCL'
+        ],
+        '^suq' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -13810,6 +13877,38 @@ $Lexicon = {
     },
     {
       'types' => {
+        '^satiyt' => {
+          'N/ap' => 1
+        },
+        '^satAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => '^sat',
+      'form' => '^satAt',
+      'lines' => [
+        ';; $atAt_1',
+        '$tAt    $atAt   N       dispersed;scattered',
+        '$tyt    $atiyt  N/ap    dispersed;scattered'
+      ],
+      'patterns' => {
+        '^satiyt' => [
+          'FaCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'dispersed',
+        'scattered'
+      ],
+      'orig' => '$atAt',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '^sattAn' => {
           'N' => 1
         }
@@ -16659,6 +16758,9 @@ $Lexicon = {
         '^siym' => [
           'FIL',
           'FiCL'
+        ],
+        '^sim' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -17005,31 +17107,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^suw' => [
-    {
-      'types' => {
-        '^suw' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => '^suw',
-      'form' => '^suw',
-      'lines' => [
-        ';; $uw_1',
-        '$w      $uw     Nprop   Shaw'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Shaw'
-      ],
-      'orig' => '$uw',
-      'prefix' => ''
-    }
-  ],
   '^s .h t' => [
     {
       'types' => {
@@ -17124,6 +17201,9 @@ $Lexicon = {
         '^suwf' => [
           'FUL',
           'FuCL'
+        ],
+        '^suf' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -18038,42 +18118,6 @@ $Lexicon = {
         'emaciated'
       ],
       'orig' => '$AHib',
-      'prefix' => ''
-    }
-  ],
-  '^sa_d' => [
-    {
-      'types' => {
-        '^sa_dY' => {
-          'N0' => 1
-        },
-        '^sa_dA' => {
-          'N0_Nhy' => 1
-        },
-        '^sa_daN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => '^sa_d',
-      'form' => '^sa_daN',
-      'lines' => [
-        ';; $a*AF_1',
-        '$*A     $a*AF   FW-WaBi perfume;aroma;fragrance;bouquet     [[$a*AF/NOUN]]',
-        '$*Y     $a*aY   N0      perfume;aroma;fragrance;bouquet',
-        '$*A     $a*A    N0_Nhy  perfume;aroma;fragrance;bouquet'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'perfume',
-        'aroma',
-        'fragrance',
-        'bouquet'
-      ],
-      'orig' => '$a*AF',
       'prefix' => ''
     }
   ],
@@ -19481,6 +19525,9 @@ $Lexicon = {
         '$b      $ib     IV_C_intr       become gray-haired;turn gray'
       ],
       'patterns' => {
+        '^sib' => [
+          'FiL'
+        ],
         '^siyb' => [
           'FIL',
           'FiCL'
@@ -19565,6 +19612,12 @@ $Lexicon = {
       'patterns' => {
         '^sAb' => [
           'FAL'
+        ],
+        '^sab' => [
+          'FaL'
+        ],
+        '^sib' => [
+          'FiL'
         ],
         '^siyb' => [
           'FIL',
@@ -20762,6 +20815,38 @@ $Lexicon = {
       ],
       'orig' => 'ma$obuwb',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '^sabA' => {
+          'N0_Nhy' => 1
+        },
+        '^sabaN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => '^sab',
+      'form' => '^sabaN',
+      'lines' => [
+        ';; $abAF_1',
+        '$bA     $abAF   FW-WaBi point;tip     [[$abAF/NOUN]]',
+        '$bA     $abA    N0_Nhy  point;tip'
+      ],
+      'patterns' => {
+        '^sabA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'point',
+        'tip'
+      ],
+      'orig' => '$abAF',
+      'prefix' => ''
     }
   ],
   '^s d y q' => [
@@ -20818,36 +20903,6 @@ $Lexicon = {
         'subdeacons'
       ],
       'orig' => '$idoyAq',
-      'prefix' => ''
-    }
-  ],
-  '^sab' => [
-    {
-      'types' => {
-        '^sabA' => {
-          'N0_Nhy' => 1
-        },
-        '^sabaN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => '^sab',
-      'form' => '^sabaN',
-      'lines' => [
-        ';; $abAF_1',
-        '$bA     $abAF   FW-WaBi point;tip     [[$abAF/NOUN]]',
-        '$bA     $abA    N0_Nhy  point;tip'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'point',
-        'tip'
-      ],
-      'orig' => '$abAF',
       'prefix' => ''
     }
   ],
@@ -21121,6 +21176,9 @@ $Lexicon = {
         '$l      $ul     IV_C    carry;lift'
       ],
       'patterns' => {
+        '^sul' => [
+          'FuL'
+        ],
         '^suwl' => [
           'FUL',
           'FuCL'
@@ -21231,11 +21289,17 @@ $Lexicon = {
         '$l      $al     IV_C_Pass_yu    be carried;be lifted'
       ],
       'patterns' => {
+        '^sal' => [
+          'FaL'
+        ],
         '^siyl' => [
           'FIL'
         ],
         '^sAl' => [
           'FAL'
+        ],
+        '^sil' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -22298,6 +22362,31 @@ $Lexicon = {
       'glosses' => [],
       'orig' => '$aj~aY',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '^sa^gaN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => '^sa^g',
+      'form' => '^sa^gaN',
+      'lines' => [
+        ';; $ajAF_1',
+        '$jA     $ajAF   FW-WaBi sadness;distress;anxiety     [[$ajAF/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'sadness',
+        'distress',
+        'anxiety'
+      ],
+      'orig' => '$ajAF',
+      'prefix' => ''
     }
   ],
   '^sambuwAn' => [
@@ -22722,6 +22811,9 @@ $Lexicon = {
         '$T      $iT     IV_C_intr       be burned'
       ],
       'patterns' => {
+        '^si.t' => [
+          'FiL'
+        ],
         '^siy.t' => [
           'FIL',
           'FiCL'
@@ -22803,6 +22895,12 @@ $Lexicon = {
         '$T      $aT     IV_C_Pass_yu    be scorched;be seared'
       ],
       'patterns' => {
+        '^si.t' => [
+          'FiL'
+        ],
+        '^sa.t' => [
+          'FaL'
+        ],
         '^siy.t' => [
           'FIL',
           'FiCL'
@@ -24572,33 +24670,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^sa^g' => [
-    {
-      'types' => {
-        '^sa^gaN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => '^sa^g',
-      'form' => '^sa^gaN',
-      'lines' => [
-        ';; $ajAF_1',
-        '$jA     $ajAF   FW-WaBi sadness;distress;anxiety     [[$ajAF/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'sadness',
-        'distress',
-        'anxiety'
-      ],
-      'orig' => '$ajAF',
-      'prefix' => ''
-    }
-  ],
   '^sluwmuw' => [
     {
       'types' => {
@@ -24998,56 +25069,6 @@ $Lexicon = {
         'chibouk (Turkish tobacco pipe)'
       ],
       'orig' => '$ubuq',
-      'prefix' => ''
-    }
-  ],
-  '^sam' => [
-    {
-      'types' => {
-        '^samAt' => {
-          'N' => 1
-        }
-      },
-      'entry' => '^sam',
-      'form' => '^samAt',
-      'lines' => [
-        ';; $amAt_1',
-        '$mAt    $amAt   N       gloating;malicious joy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'gloating',
-        'malicious joy'
-      ],
-      'orig' => '$amAt',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '^samAtaT' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => '^sam',
-      'form' => '^samAtaT',
-      'lines' => [
-        ';; $amAtap_1',
-        '$mAt    $amAt   Nap     gloating;malicious joy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At |< aT',
-      'suffix' => ' |< At |< aT',
-      'glosses' => [
-        'gloating',
-        'malicious joy'
-      ],
-      'orig' => '$amAtap',
       'prefix' => ''
     }
   ],
@@ -28634,6 +28655,40 @@ $Lexicon = {
       'glosses' => [],
       'orig' => 'mu$otaq~',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '^saqA' => {
+          'N0_Nhy' => 1
+        },
+        '^saqaN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => '^saq',
+      'form' => '^saqaN',
+      'lines' => [
+        ';; $aqAF_1',
+        '$qA     $aqAF   FW-WaBi hardship;distress;suffering;misery     [[$aqAF/NOUN]]',
+        '$qA     $aqA    N0_Nhy  hardship;distress;suffering;misery'
+      ],
+      'patterns' => {
+        '^saqA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'hardship',
+        'distress',
+        'suffering',
+        'misery'
+      ],
+      'orig' => '$aqAF',
+      'prefix' => ''
     }
   ],
   '^si^sn' => [
@@ -28719,38 +28774,6 @@ $Lexicon = {
         'stretching the neck'
       ],
       'orig' => 'mu$ora}ib~',
-      'prefix' => ''
-    }
-  ],
-  '^saq' => [
-    {
-      'types' => {
-        '^saqA' => {
-          'N0_Nhy' => 1
-        },
-        '^saqaN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => '^saq',
-      'form' => '^saqaN',
-      'lines' => [
-        ';; $aqAF_1',
-        '$qA     $aqAF   FW-WaBi hardship;distress;suffering;misery     [[$aqAF/NOUN]]',
-        '$qA     $aqA    N0_Nhy  hardship;distress;suffering;misery'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'hardship',
-        'distress',
-        'suffering',
-        'misery'
-      ],
-      'orig' => '$aqAF',
       'prefix' => ''
     }
   ],
@@ -29563,7 +29586,14 @@ $Lexicon = {
         '$A}     $A}     IV_yn   want;desire;wish',
         '$>      $a>     IV_C    want;desire;wish'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '^si\'' => [
+          'FiL'
+        ],
+        '^sa\'' => [
+          'FaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
@@ -29645,6 +29675,9 @@ $Lexicon = {
       'patterns' => {
         '\'a^syA\'' => [
           'HaFCAL'
+        ],
+        '^sa\'' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -31840,6 +31873,9 @@ $Lexicon = {
         '^suwk' => [
           'FUL',
           'FuCL'
+        ],
+        '^suk' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -31922,8 +31958,14 @@ $Lexicon = {
         '^siyk' => [
           'FIL'
         ],
+        '^sik' => [
+          'FiL'
+        ],
         '^sAk' => [
           'FAL'
+        ],
+        '^sak' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -35605,6 +35647,9 @@ $Lexicon = {
         '$b      $ub     IV_C    corrupt;adulterate'
       ],
       'patterns' => {
+        '^sub' => [
+          'FuL'
+        ],
         '^suwb' => [
           'FUL',
           'FuCL'
@@ -35857,6 +35902,9 @@ $Lexicon = {
         '$E      $iE     IV_C    circulate;be propagated'
       ],
       'patterns' => {
+        '^si`' => [
+          'FiL'
+        ],
         '^siy`' => [
           'FIL',
           'FiCL'
@@ -35968,9 +36016,15 @@ $Lexicon = {
         '$E      $aE     IV_C_Pass_yu    be divulged;be publicized'
       ],
       'patterns' => {
+        '^sa`' => [
+          'FaL'
+        ],
         '^siy`' => [
           'FIL',
           'FiCL'
+        ],
+        '^si`' => [
+          'FiL'
         ],
         '^sA`' => [
           'FAL'
@@ -37034,6 +37088,29 @@ $Lexicon = {
   '^s w w' => [
     {
       'types' => {
+        '^suw' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => '^suw',
+      'form' => '^suw',
+      'lines' => [
+        ';; $uw_1',
+        '$w      $uw     Nprop   Shaw'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL',
+      'suffix' => '',
+      'glosses' => [
+        'Shaw'
+      ],
+      'orig' => '$uw',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '^sawwA\'' => {
           'Nh_Niyn' => 1,
           'Nh_Nuwn' => 1,
@@ -37581,8 +37658,14 @@ $Lexicon = {
         '$r      $ar     IV_C_Pass_yu    be indicated;be mentioned;be cited'
       ],
       'patterns' => {
+        '^sir' => [
+          'FiL'
+        ],
         '^sAr' => [
           'FAL'
+        ],
+        '^sar' => [
+          'FaL'
         ],
         '^siyr' => [
           'FIL'
@@ -39925,6 +40008,82 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '^s \' w' => [
+    {
+      'types' => {
+        '^s\'uw' => {
+          'IV_0hAnn' => 1
+        },
+        '^sa\'aw' => {},
+        '^s\'Y' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '^s\'' => {
+          'IV_0hwnyn' => 1,
+          'IV_wn' => 2
+        }
+      },
+      'entry' => '^sa\'aw',
+      'form' => '^sa\'aw',
+      'lines' => [
+        ';; $a>aw-u_1',
+        '$>w     $a>aw   PV_Atn  outrace;overtake',
+        '$&w     $o&uw   IV_0hAnn        outrace;overtake',
+        '$>      $o>     IV_0hwnyn       outrace;overtake',
+        '$&      $o&     IV_wn   outrace;overtake',
+        '$}      $o}     IV_wn   outrace;overtake',
+        '$>Y     $o>aY   IV_0_Pass_yu    be outraced;be overtaken'
+      ],
+      'patterns' => {
+        '^s\'uw' => [
+          'FCuL',
+          'FCU'
+        ],
+        '^s\'Y' => [
+          'FCY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'outrace',
+        'overtake',
+        'be outraced',
+        'be overtaken'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => '$aOaw-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '^sa\'w' => {
+          'N' => 1
+        }
+      },
+      'entry' => '^sa\'w',
+      'form' => '^sa\'w',
+      'lines' => [
+        ';; $a>ow_1',
+        '$>w     $a>ow   N       summit;goal'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'summit',
+        'goal'
+      ],
+      'orig' => '$aOow',
+      'prefix' => ''
+    }
+  ],
   '^s l .h' => [
     {
       'types' => {
@@ -40112,82 +40271,6 @@ $Lexicon = {
         'brigand'
       ],
       'orig' => 'mu$al~iH',
-      'prefix' => ''
-    }
-  ],
-  '^s \' w' => [
-    {
-      'types' => {
-        '^s\'uw' => {
-          'IV_0hAnn' => 1
-        },
-        '^sa\'aw' => {},
-        '^s\'Y' => {
-          'IV_0_Pass_yu' => 1
-        },
-        '^s\'' => {
-          'IV_0hwnyn' => 1,
-          'IV_wn' => 2
-        }
-      },
-      'entry' => '^sa\'aw',
-      'form' => '^sa\'aw',
-      'lines' => [
-        ';; $a>aw-u_1',
-        '$>w     $a>aw   PV_Atn  outrace;overtake',
-        '$&w     $o&uw   IV_0hAnn        outrace;overtake',
-        '$>      $o>     IV_0hwnyn       outrace;overtake',
-        '$&      $o&     IV_wn   outrace;overtake',
-        '$}      $o}     IV_wn   outrace;overtake',
-        '$>Y     $o>aY   IV_0_Pass_yu    be outraced;be overtaken'
-      ],
-      'patterns' => {
-        '^s\'uw' => [
-          'FCuL',
-          'FCU'
-        ],
-        '^s\'Y' => [
-          'FCY'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'outrace',
-        'overtake',
-        'be outraced',
-        'be overtaken'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => '$aOaw-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '^sa\'w' => {
-          'N' => 1
-        }
-      },
-      'entry' => '^sa\'w',
-      'form' => '^sa\'w',
-      'lines' => [
-        ';; $a>ow_1',
-        '$>w     $a>ow   N       summit;goal'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'summit',
-        'goal'
-      ],
-      'orig' => '$aOow',
       'prefix' => ''
     }
   ],
@@ -40452,6 +40535,9 @@ $Lexicon = {
         '$h      $uh     IV_C_intr       be deformed;be distorted;become ugly'
       ],
       'patterns' => {
+        '^suh' => [
+          'FuL'
+        ],
         '^suwh' => [
           'FUL',
           'FuCL'
@@ -40486,7 +40572,11 @@ $Lexicon = {
         '$wh     $awih   PV_intr be deformed;be distorted;become ugly',
         '$h      $ah     IV_intr be deformed;be distorted;become ugly'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '^sah' => [
+          'FaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCiL',
@@ -42226,6 +42316,54 @@ $Lexicon = {
       ],
       'orig' => '$amiym',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '^samAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => '^sam',
+      'form' => '^samAt',
+      'lines' => [
+        ';; $amAt_1',
+        '$mAt    $amAt   N       gloating;malicious joy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'gloating',
+        'malicious joy'
+      ],
+      'orig' => '$amAt',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '^samAtaT' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => '^sam',
+      'form' => '^samAtaT',
+      'lines' => [
+        ';; $amAtap_1',
+        '$mAt    $amAt   Nap     gloating;malicious joy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< At |< aT',
+      'suffix' => ' |< At |< aT',
+      'glosses' => [
+        'gloating',
+        'malicious joy'
+      ],
+      'orig' => '$amAtap',
+      'prefix' => ''
     }
   ],
   '^sukuwlAt' => [
@@ -43036,6 +43174,9 @@ $Lexicon = {
         '$d      $id     IV_C    build'
       ],
       'patterns' => {
+        '^sid' => [
+          'FiL'
+        ],
         '^siyd' => [
           'FIL',
           'FiCL'
@@ -43119,9 +43260,15 @@ $Lexicon = {
         '^sAd' => [
           'FAL'
         ],
+        '^sid' => [
+          'FiL'
+        ],
         '^siyd' => [
           'FIL',
           'FiCL'
+        ],
+        '^sad' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -44685,6 +44832,9 @@ $Lexicon = {
         '$n      $in     IV-n    disfigure;disgrace'
       ],
       'patterns' => {
+        '^sin' => [
+          'FiL'
+        ],
         '^siyn' => [
           'FIL',
           'FiCL'
@@ -45139,6 +45289,47 @@ $Lexicon = {
       ],
       'orig' => '$A*~',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '^sa_dY' => {
+          'N0' => 1
+        },
+        '^sa_dA' => {
+          'N0_Nhy' => 1
+        },
+        '^sa_daN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => '^sa_d',
+      'form' => '^sa_daN',
+      'lines' => [
+        ';; $a*AF_1',
+        '$*A     $a*AF   FW-WaBi perfume;aroma;fragrance;bouquet     [[$a*AF/NOUN]]',
+        '$*Y     $a*aY   N0      perfume;aroma;fragrance;bouquet',
+        '$*A     $a*A    N0_Nhy  perfume;aroma;fragrance;bouquet'
+      ],
+      'patterns' => {
+        '^sa_dY' => [
+          'FaCY'
+        ],
+        '^sa_dA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'perfume',
+        'aroma',
+        'fragrance',
+        'bouquet'
+      ],
+      'orig' => '$a*AF',
+      'prefix' => ''
     }
   ],
   '^s ` l' => [
@@ -45553,89 +45744,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^saf' => [
-    {
-      'types' => {
-        '^safAyif' => {
-          'Ndip' => 1
-        },
-        '^safaw' => {
-          'NAt' => 1
-        },
-        '^safaT' => {
-          'Napdu' => 1
-        },
-        '^safA\'if' => {
-          'Ndip' => 1
-        },
-        '^sifAh' => {
-          'N' => 1
-        }
-      },
-      'entry' => '^saf',
-      'form' => '^safaT',
-      'lines' => [
-        ';; $afap_1',
-        '$f      $af     Napdu   lip',
-        '$fAh    $ifAh   N       lips',
-        '$fw     $afaw   NAt     lips',
-        '$fA}f   $afA}if Ndip    lips',
-        '$fAyf   $afAyif Ndip    lips'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'lip',
-        'lips'
-      ],
-      'orig' => '$afap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '^safaN' => {
-          'FW-WaBi' => 1
-        },
-        '^safA' => {
-          'N0_Nhy' => 1
-        },
-        '\'a^sfA\'' => {
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
-        }
-      },
-      'entry' => '^saf',
-      'form' => '^safaN',
-      'lines' => [
-        ';; $afAF_1',
-        '$fA     $afAF   FW-WaBi brink;verge;edge     [[$afAF/NOUN]]',
-        '$fA     $afA    N0_Nhy  brink;verge;edge',
-        '>$fA\'   >a$ofA\' N0_Nh   brink;verge;edges',
-        'A$fA\'   >a$ofA\' N0_Nh   brink;verge;edges',
-        '>$fA&   >a$ofA& Nh      brink;verge;edges',
-        'A$fA&   >a$ofA& Nh      brink;verge;edges',
-        '>$fA}   >a$ofA} Nhy     brink;verge;edges',
-        'A$fA}   >a$ofA} Nhy     brink;verge;edges'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'brink',
-        'verge',
-        'edge',
-        'edges'
-      ],
-      'orig' => '$afAF',
-      'prefix' => ''
-    }
-  ],
   '^si^sm' => [
     {
       'types' => {
@@ -45918,6 +46026,9 @@ $Lexicon = {
         '^siy_h' => [
           'FIL',
           'FiCL'
+        ],
+        '^si_h' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -48172,9 +48283,9 @@ $Lexicon->{'^s \' q'}[0]{'glosses'} = $Lexicon->{'^s w q'}[8]{'glosses'};
 $Lexicon->{'^s t t'}[6]{'types'} = $Lexicon->{'^s t t'}[5]{'types'};
 $Lexicon->{'^s t t'}[6]{'lines'} = $Lexicon->{'^s t t'}[5]{'lines'};
 $Lexicon->{'^s t t'}[6]{'glosses'} = $Lexicon->{'^s t t'}[5]{'glosses'};
-$Lexicon->{'^s t t'}[9]{'types'} = $Lexicon->{'^s t w'}[1]{'types'};
-$Lexicon->{'^s t t'}[9]{'lines'} = $Lexicon->{'^s t w'}[1]{'lines'};
-$Lexicon->{'^s t t'}[9]{'glosses'} = $Lexicon->{'^s t w'}[1]{'glosses'};
+$Lexicon->{'^s t t'}[10]{'types'} = $Lexicon->{'^s t w'}[1]{'types'};
+$Lexicon->{'^s t t'}[10]{'lines'} = $Lexicon->{'^s t w'}[1]{'lines'};
+$Lexicon->{'^s t t'}[10]{'glosses'} = $Lexicon->{'^s t w'}[1]{'glosses'};
 $Lexicon->{'^s ^g w'}[6]{'types'} = $Lexicon->{'^s ^g y'}[3]{'types'};
 $Lexicon->{'^s ^g w'}[6]{'lines'} = $Lexicon->{'^s ^g y'}[3]{'lines'};
 $Lexicon->{'^s ^g w'}[6]{'glosses'} = $Lexicon->{'^s ^g y'}[3]{'glosses'};
@@ -48280,9 +48391,9 @@ $Lexicon->{'^s w r'}[20]{'glosses'} = $Lexicon->{'^s y r'}[1]{'glosses'};
 $Lexicon->{'^s y q'}[1]{'types'} = $Lexicon->{'^s w q'}[7]{'types'};
 $Lexicon->{'^s y q'}[1]{'lines'} = $Lexicon->{'^s w q'}[7]{'lines'};
 $Lexicon->{'^s y q'}[1]{'glosses'} = $Lexicon->{'^s w q'}[7]{'glosses'};
-$Lexicon->{'^s t n'}[0]{'types'} = $Lexicon->{'^s t t'}[7]{'types'};
-$Lexicon->{'^s t n'}[0]{'lines'} = $Lexicon->{'^s t t'}[7]{'lines'};
-$Lexicon->{'^s t n'}[0]{'glosses'} = $Lexicon->{'^s t t'}[7]{'glosses'};
+$Lexicon->{'^s t n'}[0]{'types'} = $Lexicon->{'^s t t'}[8]{'types'};
+$Lexicon->{'^s t n'}[0]{'lines'} = $Lexicon->{'^s t t'}[8]{'lines'};
+$Lexicon->{'^s t n'}[0]{'glosses'} = $Lexicon->{'^s t t'}[8]{'glosses'};
 $Lexicon->{'^s w h'}[9]{'types'} = $Lexicon->{'^s \' h'}[1]{'types'};
 $Lexicon->{'^s w h'}[9]{'lines'} = $Lexicon->{'^s \' h'}[1]{'lines'};
 $Lexicon->{'^s w h'}[9]{'glosses'} = $Lexicon->{'^s \' h'}[1]{'glosses'};
@@ -48334,9 +48445,9 @@ $Lexicon->{'^s h \''}[0]{'glosses'} = $Lexicon->{'^s h y'}[5]{'glosses'};
 $Lexicon->{'^s w \''}[0]{'types'} = $Lexicon->{'^s w y'}[1]{'types'};
 $Lexicon->{'^s w \''}[0]{'lines'} = $Lexicon->{'^s w y'}[1]{'lines'};
 $Lexicon->{'^s w \''}[0]{'glosses'} = $Lexicon->{'^s w y'}[1]{'glosses'};
-$Lexicon->{'^s w \''}[1]{'types'} = $Lexicon->{'^s w w'}[0]{'types'};
-$Lexicon->{'^s w \''}[1]{'lines'} = $Lexicon->{'^s w w'}[0]{'lines'};
-$Lexicon->{'^s w \''}[1]{'glosses'} = $Lexicon->{'^s w w'}[0]{'glosses'};
+$Lexicon->{'^s w \''}[1]{'types'} = $Lexicon->{'^s w w'}[1]{'types'};
+$Lexicon->{'^s w \''}[1]{'lines'} = $Lexicon->{'^s w w'}[1]{'lines'};
+$Lexicon->{'^s w \''}[1]{'glosses'} = $Lexicon->{'^s w w'}[1]{'glosses'};
 $Lexicon->{'^s y r z'}[0]{'types'} = $Lexicon->{'^s r z'}[0]{'types'};
 $Lexicon->{'^s y r z'}[0]{'lines'} = $Lexicon->{'^s r z'}[0]{'lines'};
 $Lexicon->{'^s y r z'}[0]{'glosses'} = $Lexicon->{'^s r z'}[0]{'glosses'};

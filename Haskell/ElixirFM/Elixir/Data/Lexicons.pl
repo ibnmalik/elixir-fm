@@ -144,12 +144,34 @@ sub showEntry ($) {
 
     my $entry = $_[0];
 
-    my ($others, $plural, $imperf) = ([], [], []);
+    my ($others, $plural, $imperf, $pfirst, $ithird, $second) = ([], [], [], [], [], []);
 
     if ($entry->{'entity'} eq 'verb') {
 
-        warn $entry->{'orig'} . "\n" if $entry->{'morphs'} =~ /^(?:FaC[aiu]L|FAL|FaCY|FaCA|FaCL)$/
-                                        and not (exists $entry->{'imperf'} and @{$entry->{'imperf'}});
+        if ($entry->{'morphs'} =~ /^(?:FaC[aiu]L|FAL|FaC[AY]|FaCL)$/) {
+
+            warn $entry->{'orig'} . "\n" unless exists $entry->{'imperf'} and @{$entry->{'imperf'}} > 0;
+
+            foreach my $form (keys %{$entry->{'patterns'}}) {
+
+                my @types = map { my $x = $_;
+
+                                     $x =~ s/_intr//;
+                                     $x =~ s/_yu//;
+
+                                     $x =~ s/_(?:0hAnn|Atn)//;
+
+                                     ($x =~ /Pass/) ? () : $x } keys %{$entry->{'types'}->{$form}};
+
+                push @{$imperf}, @{$entry->{'patterns'}->{$form}} if grep { /^IV(?:_V)?$/ } @types;
+
+                push @{$pfirst}, @{$entry->{'patterns'}->{$form}} if grep { /^PV_C/ } @types;
+
+                push @{$ithird}, @{$entry->{'patterns'}->{$form}} if grep { /^IV(?:_C|-n)/ } @types;
+
+                push @{$second}, @{$entry->{'patterns'}->{$form}} if grep { /^CV_C/ } @types;
+            }
+        }
     }
     else {
 
@@ -165,7 +187,7 @@ sub showEntry ($) {
 
             push @{$plural}, map { $_ . $suffix } @{$entry->{'patterns'}->{$form}};
 
-            push @{$others}, (join ' ', $form, @types);
+            push @{$others}, join ' ', $form, @types;
         }
     }
 
@@ -178,8 +200,12 @@ sub showEntry ($) {
                    (join "\n" . ' ' x 30,
                    (exists $entry->{'glosses'} ? '[ ' .
                             (join ", ", map { showGloss($_) } @{$entry->{'glosses'}}) . ' ]' : ()),
-                   (exists $entry->{'imperf'} ?
-                                     map { '`imperf`     ' . $_ } @{$entry->{'imperf'}} : ()),
+                   #(exists $entry->{'imperf'} ?
+                   #                  map { '`imperf`     ' . $_ } @{$entry->{'imperf'}} : ()),
+                   (@{$imperf} > 0 ? map { '`imperf`     ' . $_ } @{$imperf} : ()),
+                   (@{$pfirst} > 0 ? map { '`pfirst`     ' . $_ } @{$pfirst} : ()),
+                   (@{$ithird} > 0 ? map { '`ithird`     ' . $_ } @{$ithird} : ()),
+                   (@{$second} > 0 ? map { '`second`     ' . $_ } @{$second} : ()),
                    (@{$plural} > 0 ? map { '`plural`     ' . $_ } @{$plural} : ()),
                    (@{$others} > 0 ? '{- `others` [ ' .
                             (join ", ", map { '"' . $_ . '"' } @{$others}) . ' ] -}' : ()));

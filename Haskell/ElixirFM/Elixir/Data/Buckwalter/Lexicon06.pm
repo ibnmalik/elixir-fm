@@ -6279,7 +6279,14 @@ $Lexicon = {
         'HAr     HAr     IV_V_intr_yu    be confused;be helpless;hesitate',
         'Hr      Har     IV_C_intr       be confused;be helpless;hesitate'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.har' => [
+          'FaL'
+        ],
+        '.hir' => [
+          'FiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
@@ -7330,6 +7337,9 @@ $Lexicon = {
         '.huwd' => [
           'FUL',
           'FuCL'
+        ],
+        '.hud' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -8368,6 +8378,29 @@ $Lexicon = {
     },
     {
       'types' => {
+        '.hutAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => '.hut',
+      'form' => '.hutAt',
+      'lines' => [
+        ';; HutAt_1',
+        'HtAt    HutAt   N       scraps'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'scraps'
+      ],
+      'orig' => 'HutAt',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'ta.hAtt' => {
           'N/At' => 1
         }
@@ -8955,6 +8988,9 @@ $Lexicon = {
         '.huwm' => [
           'FUL',
           'FuCL'
+        ],
+        '.hum' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -9326,6 +9362,9 @@ $Lexicon = {
         '.huw_d' => [
           'FUL',
           'FuCL'
+        ],
+        '.hu_d' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -10764,6 +10803,9 @@ $Lexicon = {
         'Hq      Huq     IV_C    surround;enclose;embrace'
       ],
       'patterns' => {
+        '.huq' => [
+          'FuL'
+        ],
         '.huwq' => [
           'FUL',
           'FuCL'
@@ -11126,6 +11168,9 @@ $Lexicon = {
         '.hiy.s' => [
           'FIL',
           'FiCL'
+        ],
+        '.hi.s' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -11773,6 +11818,9 @@ $Lexicon = {
         'Hk      Huk     IV_C    weave;knit'
       ],
       'patterns' => {
+        '.huk' => [
+          'FuL'
+        ],
         '.huwk' => [
           'FUL',
           'FuCL'
@@ -11813,6 +11861,9 @@ $Lexicon = {
         'Hk      Huk     IV_C    contrive;fabricate'
       ],
       'patterns' => {
+        '.huk' => [
+          'FuL'
+        ],
         '.huwk' => [
           'FUL',
           'FuCL'
@@ -14279,6 +14330,38 @@ $Lexicon = {
     },
     {
       'types' => {
+        '.halaN' => {
+          'FW-WaBi' => 1
+        },
+        '.halA' => {
+          'N0_Nhy' => 1
+        }
+      },
+      'entry' => '.hal',
+      'form' => '.halaN',
+      'lines' => [
+        ';; HalAF_1',
+        'HlA     HalAF   FW-WaBi sweetness;pleasantness     [[HalAF/NOUN]]',
+        'HlA     HalA    N0_Nhy  sweetness;pleasantness     [[HalAF/NOUN]]'
+      ],
+      'patterns' => {
+        '.halA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'sweetness',
+        'pleasantness'
+      ],
+      'orig' => 'HalAF',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '.halliy' => {
           'IV_0hAnn_yu' => 1
         },
@@ -14996,6 +15079,9 @@ $Lexicon = {
         'Hn      Hin     IV_C    arrive;approach'
       ],
       'patterns' => {
+        '.hin' => [
+          'FiL'
+        ],
         '.hiyn' => [
           'FIL',
           'FiCL'
@@ -16817,6 +16903,99 @@ $Lexicon = {
         'frantic'
       ],
       'orig' => 'maHomuwm',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.hamA' => {
+          'N0_Nh' => 1
+        },
+        '.ham' => {
+          'N' => 1
+        },
+        '.hamuw' => {
+          'N0_Nh' => 1
+        },
+        '.hamiy' => {
+          'N0_Nh' => 1,
+          'FW-WaBi' => 1
+        },
+        '\'a.hmA\'' => {
+          'Nh' => 2,
+          'Nhy' => 2,
+          'N0_Nh' => 2
+        }
+      },
+      'entry' => '.ham',
+      'form' => '.ham',
+      'lines' => [
+        ';; Ham_1',
+        'Hm      Ham     N       father-in-law',
+        'Hmy     Hamiy   FW-WaBi father-in-law + my      [[Ham/NOUN+iy/POSS_PRON_1S]]',
+        'Hmw     Hamuw   N0_Nh   father-in-law of',
+        'HmA     HamA    N0_Nh   father-in-law of',
+        'Hmy     Hamiy   N0_Nh   father-in-law of',
+        '>HmA\'   >aHomA\' N0_Nh   fathers-in-law',
+        'AHmA\'   >aHomA\' N0_Nh   fathers-in-law',
+        '>HmA&   >aHomA& Nh      fathers-in-law',
+        'AHmA&   >aHomA& Nh      fathers-in-law',
+        '>HmA}   >aHomA} Nhy     fathers-in-law',
+        'AHmA}   >aHomA} Nhy     fathers-in-law'
+      ],
+      'patterns' => {
+        '.hamA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        'father-in-law',
+        'father-in-law + my',
+        'father-in-law of',
+        'fathers-in-law'
+      ],
+      'orig' => 'Ham',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.humA' => {
+          'Nhy' => 1
+        },
+        '.humY' => {
+          'N0' => 1
+        },
+        '.humaT' => {
+          'NapAt' => 1
+        }
+      },
+      'entry' => '.hum',
+      'form' => '.humaT',
+      'lines' => [
+        ';; Humap_1',
+        'Hm      Hum     NapAt   sting;prick',
+        'HmY     HumaY   N0      stings;pricks',
+        'HmA     HumA    Nhy     stings;pricks'
+      ],
+      'patterns' => {
+        '.humY' => [
+          'FuCY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'sting',
+        'prick',
+        'stings',
+        'pricks'
+      ],
+      'orig' => 'Humap',
       'prefix' => ''
     },
     {
@@ -19097,6 +19276,9 @@ $Lexicon = {
         'Hr      Hur     IV_C    return;recede'
       ],
       'patterns' => {
+        '.hur' => [
+          'FuL'
+        ],
         '.huwr' => [
           'FUL',
           'FuCL'
@@ -19210,8 +19392,14 @@ $Lexicon = {
         'Hr      Har     IV_C_Pass_yu    be answered;be replied'
       ],
       'patterns' => {
+        '.har' => [
+          'FaL'
+        ],
         '.hiyr' => [
           'FIL'
+        ],
+        '.hir' => [
+          'FiL'
         ],
         '.hAr' => [
           'FAL'
@@ -21713,6 +21901,9 @@ $Lexicon = {
         'H$      Hu$     IV_C    round up;stop;hinder'
       ],
       'patterns' => {
+        '.hu^s' => [
+          'FuL'
+        ],
         '.huw^s' => [
           'FUL',
           'FuCL'
@@ -22519,6 +22710,9 @@ $Lexicon = {
         '.hiyd' => [
           'FIL',
           'FiCL'
+        ],
+        '.hid' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -27102,6 +27296,9 @@ $Lexicon = {
         '.huwl' => [
           'FUL',
           'FuCL'
+        ],
+        '.hul' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -27212,6 +27409,12 @@ $Lexicon = {
       'patterns' => {
         '.hiyl' => [
           'FIL'
+        ],
+        '.hil' => [
+          'FiL'
+        ],
+        '.hal' => [
+          'FaL'
         ],
         '.hAl' => [
           'FAL'
@@ -30303,36 +30506,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.hal' => [
-    {
-      'types' => {
-        '.halaN' => {
-          'FW-WaBi' => 1
-        },
-        '.halA' => {
-          'N0_Nhy' => 1
-        }
-      },
-      'entry' => '.hal',
-      'form' => '.halaN',
-      'lines' => [
-        ';; HalAF_1',
-        'HlA     HalAF   FW-WaBi sweetness;pleasantness     [[HalAF/NOUN]]',
-        'HlA     HalA    N0_Nhy  sweetness;pleasantness     [[HalAF/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'sweetness',
-        'pleasantness'
-      ],
-      'orig' => 'HalAF',
-      'prefix' => ''
-    }
-  ],
   '.h r k _t' => [
     {
       'types' => {
@@ -31677,31 +31850,6 @@ $Lexicon = {
         'decorated'
       ],
       'orig' => 'muHal~aY',
-      'prefix' => ''
-    }
-  ],
-  '.hut' => [
-    {
-      'types' => {
-        '.hutAt' => {
-          'N' => 1
-        }
-      },
-      'entry' => '.hut',
-      'form' => '.hutAt',
-      'lines' => [
-        ';; HutAt_1',
-        'HtAt    HutAt   N       scraps'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'scraps'
-      ],
-      'orig' => 'HutAt',
       'prefix' => ''
     }
   ],
@@ -36150,6 +36298,12 @@ $Lexicon = {
       'patterns' => {
         '.hiy_t' => [
           'FIL'
+        ],
+        '.hi_t' => [
+          'FiL'
+        ],
+        '.ha_t' => [
+          'FaL'
         ],
         '.hA_t' => [
           'FAL'
@@ -40654,6 +40808,9 @@ $Lexicon = {
         '.huwz' => [
           'FUL',
           'FuCL'
+        ],
+        '.huz' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -40695,6 +40852,12 @@ $Lexicon = {
       'patterns' => {
         '.hiyz' => [
           'FIL'
+        ],
+        '.haz' => [
+          'FaL'
+        ],
+        '.hiz' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -42656,6 +42819,9 @@ $Lexicon = {
         'HD      HiD     IV_C    menstruate'
       ],
       'patterns' => {
+        '.hi.d' => [
+          'FiL'
+        ],
         '.hiy.d' => [
           'FIL',
           'FiCL'
@@ -43209,6 +43375,9 @@ $Lexicon = {
         'Hf      Hif     IV_C_intr       be unjust;restrict;encroach'
       ],
       'patterns' => {
+        '.hif' => [
+          'FiL'
+        ],
         '.hiyf' => [
           'FIL',
           'FiCL'
@@ -43344,32 +43513,6 @@ $Lexicon = {
         'scales'
       ],
       'orig' => 'Haro$af',
-      'prefix' => ''
-    }
-  ],
-  '.handaquwq' => [
-    {
-      'types' => {
-        '.handaquwq' => {
-          'N' => 1
-        }
-      },
-      'entry' => '.handaquwq',
-      'form' => '.handaquwq',
-      'lines' => [
-        ';; Hanodaquwq_1',
-        'Hndqwq  Hanodaquwq      N       melilot;sweet clover'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'melilot',
-        'sweet clover'
-      ],
-      'orig' => 'Hanodaquwq',
       'prefix' => ''
     }
   ],
@@ -44211,6 +44354,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.handaquwq' => [
+    {
+      'types' => {
+        '.handaquwq' => {
+          'N' => 1
+        }
+      },
+      'entry' => '.handaquwq',
+      'form' => '.handaquwq',
+      'lines' => [
+        ';; Hanodaquwq_1',
+        'Hndqwq  Hanodaquwq      N       melilot;sweet clover'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'melilot',
+        'sweet clover'
+      ],
+      'orig' => 'Hanodaquwq',
+      'prefix' => ''
+    }
+  ],
   '.h n _t' => [
     {
       'types' => {
@@ -44550,6 +44719,9 @@ $Lexicon = {
         'Hy      Hoya    IV_0hwnyn       live;experience;witness'
       ],
       'patterns' => {
+        '.hay' => [
+          'FaL'
+        ],
         '.hyY' => [
           'FCY'
         ],
@@ -49984,59 +50156,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.ham' => [
-    {
-      'types' => {
-        '.hamA' => {
-          'N0_Nh' => 1
-        },
-        '.ham' => {
-          'N' => 1
-        },
-        '.hamuw' => {
-          'N0_Nh' => 1
-        },
-        '.hamiy' => {
-          'N0_Nh' => 1,
-          'FW-WaBi' => 1
-        },
-        '\'a.hmA\'' => {
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
-        }
-      },
-      'entry' => '.ham',
-      'form' => '.ham',
-      'lines' => [
-        ';; Ham_1',
-        'Hm      Ham     N       father-in-law',
-        'Hmy     Hamiy   FW-WaBi father-in-law + my      [[Ham/NOUN+iy/POSS_PRON_1S]]',
-        'Hmw     Hamuw   N0_Nh   father-in-law of',
-        'HmA     HamA    N0_Nh   father-in-law of',
-        'Hmy     Hamiy   N0_Nh   father-in-law of',
-        '>HmA\'   >aHomA\' N0_Nh   fathers-in-law',
-        'AHmA\'   >aHomA\' N0_Nh   fathers-in-law',
-        '>HmA&   >aHomA& Nh      fathers-in-law',
-        'AHmA&   >aHomA& Nh      fathers-in-law',
-        '>HmA}   >aHomA} Nhy     fathers-in-law',
-        'AHmA}   >aHomA} Nhy     fathers-in-law'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'father-in-law',
-        'father-in-law + my',
-        'father-in-law of',
-        'fathers-in-law'
-      ],
-      'orig' => 'Ham',
-      'prefix' => ''
-    }
-  ],
   '.hulwAniyy' => [
     {
       'types' => {
@@ -53575,42 +53694,6 @@ $Lexicon = {
         'cardamom'
       ],
       'orig' => 'Hab~ahAn',
-      'prefix' => ''
-    }
-  ],
-  '.hum' => [
-    {
-      'types' => {
-        '.humA' => {
-          'Nhy' => 1
-        },
-        '.humY' => {
-          'N0' => 1
-        },
-        '.humaT' => {
-          'NapAt' => 1
-        }
-      },
-      'entry' => '.hum',
-      'form' => '.humaT',
-      'lines' => [
-        ';; Humap_1',
-        'Hm      Hum     NapAt   sting;prick',
-        'HmY     HumaY   N0      stings;pricks',
-        'HmA     HumA    Nhy     stings;pricks'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'sting',
-        'prick',
-        'stings',
-        'pricks'
-      ],
-      'orig' => 'Humap',
       'prefix' => ''
     }
   ],
@@ -57527,6 +57610,9 @@ $Lexicon = {
         'Hq      Hiq     IV_C    overtake;pierce;surround'
       ],
       'patterns' => {
+        '.hiq' => [
+          'FiL'
+        ],
         '.hiyq' => [
           'FIL',
           'FiCL'
@@ -57580,12 +57666,18 @@ $Lexicon = {
         'Hq      Haq     IV_C_Pass_yu    be surrounded;be brought down'
       ],
       'patterns' => {
+        '.hiq' => [
+          'FiL'
+        ],
         '.hAq' => [
           'FAL'
         ],
         '.hiyq' => [
           'FIL',
           'FiCL'
+        ],
+        '.haq' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -57649,6 +57741,9 @@ $Lexicon = {
         'HT      HuT     IV_C    guard;protect;encircle'
       ],
       'patterns' => {
+        '.hu.t' => [
+          'FuL'
+        ],
         '.huw.t' => [
           'FUL',
           'FuCL'
@@ -57762,6 +57857,12 @@ $Lexicon = {
         'HT      HaT     IV_C_Pass_yu    be surrounded;be encircled'
       ],
       'patterns' => {
+        '.hi.t' => [
+          'FiL'
+        ],
+        '.ha.t' => [
+          'FaL'
+        ],
         '.hA.t' => [
           'FAL'
         ],
@@ -58197,15 +58298,15 @@ $Lexicon->{'.h w l'}[21]{'glosses'} = $Lexicon->{'.h \' l'}[1]{'glosses'};
 $Lexicon->{'.h w l'}[22]{'types'} = $Lexicon->{'.h \' l'}[2]{'types'};
 $Lexicon->{'.h w l'}[22]{'lines'} = $Lexicon->{'.h \' l'}[2]{'lines'};
 $Lexicon->{'.h w l'}[22]{'glosses'} = $Lexicon->{'.h \' l'}[2]{'glosses'};
-$Lexicon->{'.h t y'}[0]{'types'} = $Lexicon->{'.h t t'}[6]{'types'};
-$Lexicon->{'.h t y'}[0]{'lines'} = $Lexicon->{'.h t t'}[6]{'lines'};
-$Lexicon->{'.h t y'}[0]{'glosses'} = $Lexicon->{'.h t t'}[6]{'glosses'};
-$Lexicon->{'.h t y'}[1]{'types'} = $Lexicon->{'.h t t'}[7]{'types'};
-$Lexicon->{'.h t y'}[1]{'lines'} = $Lexicon->{'.h t t'}[7]{'lines'};
-$Lexicon->{'.h t y'}[1]{'glosses'} = $Lexicon->{'.h t t'}[7]{'glosses'};
-$Lexicon->{'.h t y'}[2]{'types'} = $Lexicon->{'.h t t'}[8]{'types'};
-$Lexicon->{'.h t y'}[2]{'lines'} = $Lexicon->{'.h t t'}[8]{'lines'};
-$Lexicon->{'.h t y'}[2]{'glosses'} = $Lexicon->{'.h t t'}[8]{'glosses'};
+$Lexicon->{'.h t y'}[0]{'types'} = $Lexicon->{'.h t t'}[7]{'types'};
+$Lexicon->{'.h t y'}[0]{'lines'} = $Lexicon->{'.h t t'}[7]{'lines'};
+$Lexicon->{'.h t y'}[0]{'glosses'} = $Lexicon->{'.h t t'}[7]{'glosses'};
+$Lexicon->{'.h t y'}[1]{'types'} = $Lexicon->{'.h t t'}[8]{'types'};
+$Lexicon->{'.h t y'}[1]{'lines'} = $Lexicon->{'.h t t'}[8]{'lines'};
+$Lexicon->{'.h t y'}[1]{'glosses'} = $Lexicon->{'.h t t'}[8]{'glosses'};
+$Lexicon->{'.h t y'}[2]{'types'} = $Lexicon->{'.h t t'}[9]{'types'};
+$Lexicon->{'.h t y'}[2]{'lines'} = $Lexicon->{'.h t t'}[9]{'lines'};
+$Lexicon->{'.h t y'}[2]{'glosses'} = $Lexicon->{'.h t t'}[9]{'glosses'};
 $Lexicon->{'.h t k'}[1]{'types'} = $Lexicon->{'.h k k'}[4]{'types'};
 $Lexicon->{'.h t k'}[1]{'lines'} = $Lexicon->{'.h k k'}[4]{'lines'};
 $Lexicon->{'.h t k'}[1]{'glosses'} = $Lexicon->{'.h k k'}[4]{'glosses'};
@@ -58215,12 +58316,12 @@ $Lexicon->{'.h t k'}[2]{'glosses'} = $Lexicon->{'.h k k'}[11]{'glosses'};
 $Lexicon->{'.h t k'}[3]{'types'} = $Lexicon->{'.h k k'}[12]{'types'};
 $Lexicon->{'.h t k'}[3]{'lines'} = $Lexicon->{'.h k k'}[12]{'lines'};
 $Lexicon->{'.h t k'}[3]{'glosses'} = $Lexicon->{'.h k k'}[12]{'glosses'};
-$Lexicon->{'.h l y'}[2]{'types'} = $Lexicon->{'.h l l'}[32]{'types'};
-$Lexicon->{'.h l y'}[2]{'lines'} = $Lexicon->{'.h l l'}[32]{'lines'};
-$Lexicon->{'.h l y'}[2]{'glosses'} = $Lexicon->{'.h l l'}[32]{'glosses'};
-$Lexicon->{'.h m y'}[2]{'types'} = $Lexicon->{'.h m m'}[19]{'types'};
-$Lexicon->{'.h m y'}[2]{'lines'} = $Lexicon->{'.h m m'}[19]{'lines'};
-$Lexicon->{'.h m y'}[2]{'glosses'} = $Lexicon->{'.h m m'}[19]{'glosses'};
+$Lexicon->{'.h l y'}[2]{'types'} = $Lexicon->{'.h l l'}[33]{'types'};
+$Lexicon->{'.h l y'}[2]{'lines'} = $Lexicon->{'.h l l'}[33]{'lines'};
+$Lexicon->{'.h l y'}[2]{'glosses'} = $Lexicon->{'.h l l'}[33]{'glosses'};
+$Lexicon->{'.h m y'}[2]{'types'} = $Lexicon->{'.h m m'}[21]{'types'};
+$Lexicon->{'.h m y'}[2]{'lines'} = $Lexicon->{'.h m m'}[21]{'lines'};
+$Lexicon->{'.h m y'}[2]{'glosses'} = $Lexicon->{'.h m m'}[21]{'glosses'};
 $Lexicon->{'.h m y'}[14]{'types'} = $Lexicon->{'.h m \''}[3]{'types'};
 $Lexicon->{'.h m y'}[14]{'lines'} = $Lexicon->{'.h m \''}[3]{'lines'};
 $Lexicon->{'.h m y'}[14]{'glosses'} = $Lexicon->{'.h m \''}[3]{'glosses'};

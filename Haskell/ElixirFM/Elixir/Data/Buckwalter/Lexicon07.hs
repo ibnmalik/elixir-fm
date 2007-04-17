@@ -134,7 +134,8 @@ lexicon = listing "Lexicon's properties"
     -- xDD     xoDaD   IV_C    shock;frighten
 
     FaCL                      `verb`       {- xaD~-a -}         [ "shock", "frighten" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FaCaL
+                              `ithird`     FCaL,
 
     -- ;; xaD~_1
     -- xD      xaD~    N       jolt;scare
@@ -485,7 +486,9 @@ lexicon = listing "Lexicon's properties"
     -- xSS     xoSuS   IV_C    concern;stipulate;confer
 
     FaCL                      `verb`       {- xaS~-u -}         [ "concern", "stipulate", "confer" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; xaS~aS_1
     -- xSS     xaS~aS  PV      specify;designate;allocate
@@ -939,7 +942,8 @@ lexicon = listing "Lexicon's properties"
     -- xSY     xoSaY   IV_0_Pass_yu    be castrated;be emasculated
 
     FaCY                      `verb`       {- xaSaY-i -}        [ "castrate", "emasculate", "be castrated", "be emasculated" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; xaSiy~_1
     -- xSy     xaSiy~  N       eunuch
@@ -1056,7 +1060,9 @@ lexicon = listing "Lexicon's properties"
     -- xTT     xoTuT   IV_C    draw;inscribe;outline
 
     FaCL                      `verb`       {- xaT~-u -}         [ "draw", "inscribe", "outline" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; xaT~aT_1
     -- xTT     xaT~aT  PV      draw lines;demarcate
@@ -1622,7 +1628,8 @@ lexicon = listing "Lexicon's properties"
     -- xTy     xoTay   IV_Ann_Pass_yu  be walked;be advanced
 
     FaCA                      `verb`       {- xaTA-u -}         [ "step", "walk", "advance", "be walked", "be advanced" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; xaT~aY_1
     -- xTY     xaT~aY  PV_0    cross;exceed
@@ -1744,7 +1751,9 @@ lexicon = listing "Lexicon's properties"
     -- x$$     xo$u$   IV_C    enter
 
     FaCL                      `verb`       {- xa$~-u -}         [ "enter" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; xi$A$_1
     -- x$A$    xi$A$   N       vermin;insects
@@ -1916,7 +1925,7 @@ lexicon = listing "Lexicon's properties"
     -- x$n     xo$un   IV-n_intr       be rough;be raw;be unpolished
 
     FaCuL                     `verb`       {- xa$un-u -}        [ "be rough", "be raw", "be unpolished" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; xa$~an_1
     -- x$n     xa$~an  PV-n    roughen;make crude
@@ -2001,8 +2010,7 @@ lexicon = listing "Lexicon's properties"
     -- x$y     xo$ay   IV_Ann  fear;be afraid
     -- x$      xo$a    IV_0hwnyn       fear;be afraid
 
-    FaCiL                     `verb`       {- xa$iy-a -}        [ "fear", "be afraid" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- xa$iy-a -}        [ "fear", "be afraid" ],
 
     -- ;; xa$~aY_1
     -- x$Y     xa$~aY  PV_0    frighten;alarm
@@ -2560,7 +2568,9 @@ lexicon = listing "Lexicon's properties"
     -- xbb     xobub   IV_C    trot;jog;surge
 
     FaCL                      `verb`       {- xab~-u -}         [ "trot", "jog", "surge" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; xab~-a_1
     -- xb      xab~    PV_V    circumvent;trick
@@ -2569,7 +2579,8 @@ lexicon = listing "Lexicon's properties"
     -- xbb     xobab   IV_C    circumvent;trick
 
     FaCL                      `verb`       {- xab~-a -}         [ "circumvent", "trick" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FaCaL
+                              `ithird`     FCaL,
 
     -- ;; taxab~ab_1
     -- txbb    taxab~ab        PV      amble;trot
@@ -2678,7 +2689,7 @@ lexicon = listing "Lexicon's properties"
     -- xbY     xobaY   IV_0_Pass_yu    die out
 
     FaCA                      `verb`       {- xabA-u -}         [ "die out" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FCU ]
 
  |> "_h b r" <| [
 
@@ -3081,7 +3092,9 @@ lexicon = listing "Lexicon's properties"
     -- xdd     xodud   IV_C    furrow;plow
 
     FaCL                      `verb`       {- xad~-u -}         [ "furrow", "plow" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; taxad~ad_1
     -- txdd    taxad~ad        PV_intr be furrowed;become wrinkled
@@ -3126,8 +3139,8 @@ lexicon = listing "Lexicon's properties"
     -- Axdm    {uxodum CV      serve;assist
 
     FaCaL                     `verb`       {- xadam-iu -}       [ "serve", "assist" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; xad~am_1
     -- xdm     xad~am  PV      employ;hire
@@ -3479,7 +3492,9 @@ lexicon = listing "Lexicon's properties"
     -- xff     xofif   IV_C_intr       be light;decrease;reduce
 
     FaCL                      `verb`       {- xaf~-i -}         [ "be light", "decrease", "reduce" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; xaf~af_1
     -- xff     xaf~af  PV      decrease;mitigate
@@ -3590,8 +3605,8 @@ lexicon = listing "Lexicon's properties"
     -- xfq     xofuq   IV      tremble;beat
 
     FaCaL                     `verb`       {- xafaq-iu -}       [ "tremble", "beat" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; xaf~aq_1
     -- xfq     xaf~aq  PV      plaster;roughcast
@@ -3802,8 +3817,7 @@ lexicon = listing "Lexicon's properties"
     -- xfy     xofay   IV_Ann  be hidden
     -- xf      xofa    IV_0hwnyn       be hidden
 
-    FaCiL                     `verb`       {- xafiy-a -}        [ "be hidden" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- xafiy-a -}        [ "be hidden" ],
 
     -- ;; xafaY-i_1
     -- xfY     xafaY   PV_0    hide;conceal
@@ -3814,7 +3828,8 @@ lexicon = listing "Lexicon's properties"
     -- xf      xof     IV_0hwnyn       hide;conceal
 
     FaCY                      `verb`       {- xafaY-i -}        [ "hide", "conceal" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; >axofaY_1
     -- >xfY    >axofaY PV_0    hide;conceal
@@ -4920,7 +4935,9 @@ lexicon = listing "Lexicon's properties"
     -- xll     xolul   IV_C    pick
 
     FaCL                      `verb`       {- xal~-u -}         [ "pick" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; xal~al_1
     -- xll     xal~al  PV      make sour;pickle;pick
@@ -5318,7 +5335,8 @@ lexicon = listing "Lexicon's properties"
     -- xl      xol     IV_0hwnyn       be empty;be vacant;withdraw
 
     FaCA                      `verb`       {- xalA-u -}         [ "be empty", "be vacant", "withdraw" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; xal~aY_1
     -- xlY     xal~aY  PV_0    release;evacuate;allow
@@ -5580,8 +5598,8 @@ lexicon = listing "Lexicon's properties"
     -- xm$     xomu$   IV      scratch
 
     FaCaL                     `verb`       {- xama$-iu -}       [ "scratch" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; xam~a$_1
     -- xm$     xam~a$  PV      scratch
@@ -5711,7 +5729,9 @@ lexicon = listing "Lexicon's properties"
     -- xmm     xomum   IV_C    sweep
 
     FaCL                      `verb`       {- xam~-u -}         [ "sweep" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; xam~-ui_1
     -- xm      xam~    PV_V    stink;rot;decay
@@ -5722,8 +5742,11 @@ lexicon = listing "Lexicon's properties"
     -- xmm     xomim   IV_C    stink;rot;decay
 
     FaCL                      `verb`       {- xam~-ui -}        [ "stink", "rot", "decay" ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL,
+                              `imperf`     FuCL
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL
+                              `ithird`     FCiL,
 
     -- ;; xum~_1
     -- xm      xum~    N       chicken coop;brooder
@@ -6174,7 +6197,9 @@ lexicon = listing "Lexicon's properties"
     -- xnn     xonin   IV-n    nasalize;twang
 
     FaCL                      `verb`       {- xan~-i -}         [ "nasalize", "twang" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; xun~ap_1
     -- xn      xun~    Nap     nasal twang
@@ -6357,7 +6382,8 @@ lexicon = listing "Lexicon's properties"
     -- xnY     xonaY   IV_0    be obscene
 
     FaCA                      `verb`       {- xanA-u -}         [ "be obscene" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; >axonaY_1
     -- >xnY    >axonaY PV_0    afflict;wear down;ruin
@@ -6391,8 +6417,7 @@ lexicon = listing "Lexicon's properties"
     -- xny     xonay   IV_Ann  be obscene
     -- xn      xona    IV_0hwnyn       be obscene
 
-    FaCiL                     `verb`       {- xaniy-a -}        [ "be obscene" ]
-                              `imperf`     FCaL ]
+    FaCiL                     `verb`       {- xaniy-a -}        [ "be obscene" ] ]
 
  |> "_h n z b" <| [
 
@@ -6821,7 +6846,7 @@ lexicon = listing "Lexicon's properties"
     -- xrE     xoruE   IV_intr be limp;be slack;be yielding
 
     FaCuL                     `verb`       {- xaruE-a -}        [ "be limp", "be slack", "be yielding" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCuL,
 
     -- ;; xariE-a_1
     -- xrE     xariE   PV_intr be limp;be slack;be yielding
@@ -7375,8 +7400,11 @@ lexicon = listing "Lexicon's properties"
     -- xrr     xorur   IV_C_intr       murmur;snore;fall down
 
     FaCL                      `verb`       {- xar~-iu -}        [ "murmur", "snore", "fall down" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FiCL
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL
+                              `ithird`     FCiL,
 
     -- ;; xariyr_1
     -- xryr    xariyr  N       murmur
@@ -7491,8 +7519,8 @@ lexicon = listing "Lexicon's properties"
     -- xrz     xoruz   IV      pierce;bore
 
     FaCaL                     `verb`       {- xaraz-iu -}       [ "pierce", "bore" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; xaraz_1
     -- xrz     xaraz   N       beads
@@ -7673,7 +7701,8 @@ lexicon = listing "Lexicon's properties"
     -- xss     xosas   IV_C_intr       be mean;diminish
 
     FaCL                      `verb`       {- xas~-a -}         [ "be mean", "diminish" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FaCiL
+                              `ithird`     FCaL,
 
     -- ;; xas~-u_1
     -- xs      xas~    PV_V    lessen;reduce;diminish
@@ -7682,7 +7711,9 @@ lexicon = listing "Lexicon's properties"
     -- xss     xosus   IV_C    lessen;reduce;diminish
 
     FaCL                      `verb`       {- xas~-u -}         [ "lessen", "reduce", "diminish" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; xas~as_1
     -- xss     xas~as  PV      lessen;reduce;diminish
@@ -7807,8 +7838,8 @@ lexicon = listing "Lexicon's properties"
     -- xtl     xotul   IV      double-cross;deceive
 
     FaCaL                     `verb`       {- xatal-iu -}       [ "double-cross", "deceive" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; xAtal_1
     -- xAtl    xAtal   PV      deceive
@@ -7942,7 +7973,7 @@ lexicon = listing "Lexicon's properties"
     -- xtn     xotin   IV-n    circumcise
 
     FaCaL                     `verb`       {- xatan-i -}        [ "circumcise" ]
-                              `imperf`     FCiL,
+                              `ithird`     FCiL,
 
     -- ;; {ixotatan_1
     -- <xttn   {ixotatan       PV-n_intr       be circumcised
@@ -8038,7 +8069,10 @@ lexicon = listing "Lexicon's properties"
     -- xD      xuD     IV_C    wage;embark;carry out
 
     FAL                       `verb`       {- xAD-u -}          [ "wage", "embark", "carry out" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; xaw~aD_1
     -- xwD     xaw~aD  PV      wade into
@@ -8170,7 +8204,8 @@ lexicon = listing "Lexicon's properties"
     -- xf      xaf     IV_C_intr       be scared;be afraid;be frightened
 
     FAL                       `verb`       {- xAf-a -}          [ "be scared", "be afraid", "be frightened" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FiL
+                              `ithird`     FaL,
 
     -- ;; xaw~af_1
     -- xwf     xaw~af  PV      frighten;alarm
@@ -8370,7 +8405,10 @@ lexicon = listing "Lexicon's properties"
     -- xn      xun     IV-n    betray;deceive;fail
 
     FAL                       `verb`       {- xAn-u -}          [ "betray", "deceive", "fail" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; xaw~an_1
     -- xwn     xaw~an  PV-n    consider faithless;distrust;regard as unreliable
@@ -8444,7 +8482,10 @@ lexicon = listing "Lexicon's properties"
     -- xr      xur     IV_C    moo;grow weak;dwindle
 
     FAL                       `verb`       {- xAr-u -}          [ "moo", "grow weak", "dwindle" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; xawir-a_1
     -- xwr     xawir   PV      grow weak;dwindle;languish
@@ -8521,7 +8562,8 @@ lexicon = listing "Lexicon's properties"
     -- xwY     xowaY   IV_0    be empty;be hungry
 
     FaCY                      `verb`       {- xawaY-i -}        [ "be empty", "be hungry" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; xawiy-a_1
     -- xwy     xawiy   PV_no-w_intr    be empty;be desolate
@@ -8530,8 +8572,7 @@ lexicon = listing "Lexicon's properties"
     -- xwy     xoway   IV_Ann  be empty;be desolate
     -- xw      xowa    IV_0hwnyn       be empty;be desolate
 
-    FaCiL                     `verb`       {- xawiy-a -}        [ "be empty", "be desolate" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- xawiy-a -}        [ "be empty", "be desolate" ],
 
     -- ;; xAwaY_1
     -- xAwY    xAwaY   PV_0    join the company of;accompany
@@ -8597,7 +8638,10 @@ lexicon = listing "Lexicon's properties"
     -- xT      xiT     IV_C    sew;stitch
 
     FAL                       `verb`       {- xAT-i -}          [ "sew", "stitch" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; xay~aT_1
     -- xyT     xay~aT  PV      sew;stitch
@@ -8686,7 +8730,10 @@ lexicon = listing "Lexicon's properties"
     -- xb      xib     IV_C    fail;be frustrated;go wrong
 
     FAL                       `verb`       {- xAb-i -}          [ "fail", "be frustrated", "go wrong" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; xay~ab_1
     -- xyb     xay~ab  PV      thwart;disappoint
@@ -8750,7 +8797,8 @@ lexicon = listing "Lexicon's properties"
     -- xl      xal     IV_C    imagine;suppose;regard
 
     FAL                       `verb`       {- xAl-a -}          [ "imagine", "suppose", "regard" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FiL
+                              `ithird`     FaL,
 
     -- ;; xay~al_1
     -- xyl     xay~al  PV      make believe;give the impression;suggest
@@ -8959,7 +9007,10 @@ lexicon = listing "Lexicon's properties"
     -- xr      xir     IV_C    choose;prefer
 
     FAL                       `verb`       {- xAr-i -}          [ "choose", "prefer" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; xAyar_1
     -- xAyr    xAyar   PV      compete;make/let choose
@@ -9138,7 +9189,10 @@ lexicon = listing "Lexicon's properties"
     -- xs      xis     IV_C    break
 
     FAL                       `verb`       {- xAs-i -}          [ "break" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; xayos_1
     -- xys     xayos   N       break
@@ -9250,7 +9304,7 @@ lexicon = listing "Lexicon's properties"
     -- xzn     xozun   IV-n    store;amass
 
     FaCaL                     `verb`       {- xazan-u -}        [ "store", "amass" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     -- ;; xaz~an_1
     -- xzn     xaz~an  PV-n    store;hoard
@@ -9421,8 +9475,7 @@ lexicon = listing "Lexicon's properties"
     -- xzy     xozay   IV_Ann  be despicable
     -- xz      xoza    IV_0hwnyn       be despicable
 
-    FaCiL                     `verb`       {- xaziy-a -}        [ "be despicable" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- xaziy-a -}        [ "be despicable" ],
 
     -- ;; xazaY-i_1
     -- xzY     xazaY   PV_0    disgrace;humiliate
@@ -9434,7 +9487,8 @@ lexicon = listing "Lexicon's properties"
     -- xzY     xozaY   IV_0    disgrace;humiliate
 
     FaCY                      `verb`       {- xazaY-i -}        [ "disgrace", "humiliate" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; >axozaY_1
     -- >xzY    >axozaY PV_0    humiliate;degrade
@@ -9518,7 +9572,9 @@ lexicon = listing "Lexicon's properties"
     -- xzz     xozuz   IV_C    pierce;stab
 
     FaCL                      `verb`       {- xaz~-u -}         [ "pierce", "stab" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; {ixotaz~_1
     -- <xtz    {ixotaz~        PV_V    pierce;stab

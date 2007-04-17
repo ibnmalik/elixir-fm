@@ -2643,6 +2643,9 @@ $Lexicon = {
         'qH      quH     IV_C    fester;swell'
       ],
       'patterns' => {
+        'qu.h' => [
+          'FuL'
+        ],
         'quw.h' => [
           'FUL',
           'FuCL'
@@ -3176,73 +3179,6 @@ $Lexicon = {
         'extirpate'
       ],
       'orig' => 'Aiqotav~',
-      'prefix' => ''
-    }
-  ],
-  'qaf' => [
-    {
-      'types' => {
-        'qifiyy' => {
-          'N' => 1
-        },
-        '\'aqf' => {
-          'NK' => 2
-        },
-        'qafaN' => {
-          'FW-WaBi' => 1
-        },
-        'qufiyy' => {
-          'N' => 1
-        },
-        '\'aqfiy' => {
-          'Nap' => 2,
-          'N0_Nh' => 2
-        },
-        'qafA' => {
-          'N0_Nhy' => 1
-        },
-        '\'aqfA\'' => {
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
-        }
-      },
-      'entry' => 'qaf',
-      'form' => 'qafaN',
-      'lines' => [
-        ';; qafAF_1',
-        'qfA     qafAF   FW-WaBi neck;nape;back;reverse     [[qafAF/NOUN]]',
-        'qfA     qafA    N0_Nhy  neck;nape;back;reverse',
-        '>qfy    >aqofiy Nap     necks;napes;backs',
-        'Aqfy    >aqofiy Nap     necks;napes;backs',
-        '>qfy    >aqofiy N0_Nh   necks;napes;backs',
-        'Aqfy    >aqofiy N0_Nh   necks;napes;backs',
-        '>qf     >aqof   NK      necks;napes;backs',
-        'Aqf     >aqof   NK      necks;napes;backs',
-        '>qfA\'   >aqofA\' N0_Nh   necks;napes;backs',
-        'AqfA\'   >aqofA\' N0_Nh   necks;napes;backs',
-        '>qfA&   >aqofA& Nh      necks;napes;backs',
-        'AqfA&   >aqofA& Nh      necks;napes;backs',
-        '>qfA}   >aqofA} Nhy     necks;napes;backs',
-        'AqfA}   >aqofA} Nhy     necks;napes;backs',
-        'qfy     qufiy~  N       necks;napes;backs',
-        'qfy     qifiy~  N       necks;napes;backs'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'neck',
-        'nape',
-        'back',
-        'reverse',
-        'necks',
-        'napes',
-        'backs'
-      ],
-      'orig' => 'qafAF',
       'prefix' => ''
     }
   ],
@@ -5483,6 +5419,38 @@ $Lexicon = {
         'kittens'
       ],
       'orig' => 'quTayoTap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'qa.t' => {},
+        'qa.tA' => {
+          'N0_Nhy' => 1
+        },
+        'qa.taN' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => 'qa.t',
+      'form' => 'qa.t',
+      'lines' => [
+        ';; qaT_1',
+        'qTA     qaTAF   FW-WaBi sand grouse     [[qaTAF/NOUN]]',
+        'qTA     qaTA    N0_Nhy  sand grouse'
+      ],
+      'patterns' => {
+        'qa.tA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        'sand grouse'
+      ],
+      'orig' => 'qaT',
       'prefix' => ''
     }
   ],
@@ -10484,6 +10452,9 @@ $Lexicon = {
         'quwt' => [
           'FUL',
           'FuCL'
+        ],
+        'qut' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -10570,6 +10541,12 @@ $Lexicon = {
         ],
         'qiyt' => [
           'FIL'
+        ],
+        'qit' => [
+          'FiL'
+        ],
+        'qat' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -12547,6 +12524,9 @@ $Lexicon = {
         'qq      quq     IV_C    cackle;cluck'
       ],
       'patterns' => {
+        'quq' => [
+          'FuL'
+        ],
         'quwq' => [
           'FUL',
           'FuCL'
@@ -13564,59 +13544,6 @@ $Lexicon = {
         'adversities'
       ],
       'orig' => 'qawomas',
-      'prefix' => ''
-    }
-  ],
-  'qad' => [
-    {
-      'types' => {
-        'qad' => {
-          'FW-Wa' => 1
-        },
-        'laqad' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => 'qad',
-      'form' => 'qad',
-      'lines' => [
-        ';; qad_1',
-        'qd      qad     FW-Wa   (has/have)           [[qad/FUNC_WORD]]',
-        'lqd     laqad   FW-Wa   indeed (has/have)  [[laqad/FUNC_WORD]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        '(has/have)',
-        'indeed (has/have)'
-      ],
-      'orig' => 'qad',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'qad' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => 'qad',
-      'form' => 'qad',
-      'lines' => [
-        ';; qad_2',
-        'qd      qad     FW-Wa   may/might     [[qad/FUNC_WORD]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'may/might'
-      ],
-      'orig' => 'qad',
       'prefix' => ''
     }
   ],
@@ -19012,36 +18939,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'qa.t' => [
-    {
-      'types' => {
-        'qa.t' => {},
-        'qa.tA' => {
-          'N0_Nhy' => 1
-        },
-        'qa.taN' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => 'qa.t',
-      'form' => 'qa.t',
-      'lines' => [
-        ';; qaT_1',
-        'qTA     qaTAF   FW-WaBi sand grouse     [[qaTAF/NOUN]]',
-        'qTA     qaTA    N0_Nhy  sand grouse'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'sand grouse'
-      ],
-      'orig' => 'qaT',
-      'prefix' => ''
-    }
-  ],
   'qus.tan.tiyn' => [
     {
       'types' => {
@@ -20525,6 +20422,9 @@ $Lexicon = {
         'qiyl' => [
           'FIL',
           'FiCL'
+        ],
+        'qil' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -26320,6 +26220,9 @@ $Lexicon = {
         'quwm' => [
           'FUL',
           'FuCL'
+        ],
+        'qum' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -26436,11 +26339,17 @@ $Lexicon = {
         'qAm' => [
           'FAL'
         ],
+        'qam' => [
+          'FaL'
+        ],
         'qiym' => [
           'FIL'
         ],
         '\'uqiym' => [
           'HuFIL'
+        ],
+        'qim' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -27628,6 +27537,9 @@ $Lexicon = {
         'qD      quD     IV_C    demolish;raze'
       ],
       'patterns' => {
+        'qu.d' => [
+          'FuL'
+        ],
         'quw.d' => [
           'FUL',
           'FuCL'
@@ -29036,6 +28948,9 @@ $Lexicon = {
         'qiy.h' => [
           'FIL',
           'FiCL'
+        ],
+        'qi.h' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -31176,6 +31091,9 @@ $Lexicon = {
         'qD      qiD     IV_C    break open;crack'
       ],
       'patterns' => {
+        'qi.d' => [
+          'FiL'
+        ],
         'qiy.d' => [
           'FIL',
           'FiCL'
@@ -34772,6 +34690,9 @@ $Lexicon = {
         'qiys' => [
           'FIL',
           'FiCL'
+        ],
+        'qis' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -36679,6 +36600,9 @@ $Lexicon = {
         'quwd' => [
           'FUL',
           'FuCL'
+        ],
+        'qud' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -36719,6 +36643,9 @@ $Lexicon = {
         'quwd' => [
           'FUL',
           'FuCL'
+        ],
+        'qud' => [
+          'FuL'
         ]
       },
       'index' => '2',
@@ -36771,8 +36698,14 @@ $Lexicon = {
         'qiyd' => [
           'FIL'
         ],
+        'qid' => [
+          'FiL'
+        ],
         'qAd' => [
           'FAL'
+        ],
+        'qad' => [
+          'FaL'
         ]
       },
       'index' => '1',
@@ -39461,6 +39394,9 @@ $Lexicon = {
         'q}      qi}     IV_C    vomit'
       ],
       'patterns' => {
+        'qi\'' => [
+          'FiL'
+        ],
         'qiy\'' => [
           'FIL',
           'FiCL'
@@ -41712,6 +41648,57 @@ $Lexicon = {
     }
   ],
   'q d d' => [
+    {
+      'types' => {
+        'qad' => {
+          'FW-Wa' => 1
+        },
+        'laqad' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'qad',
+      'form' => 'qad',
+      'lines' => [
+        ';; qad_1',
+        'qd      qad     FW-Wa   (has/have)           [[qad/FUNC_WORD]]',
+        'lqd     laqad   FW-Wa   indeed (has/have)  [[laqad/FUNC_WORD]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        '(has/have)',
+        'indeed (has/have)'
+      ],
+      'orig' => 'qad',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'qad' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'qad',
+      'form' => 'qad',
+      'lines' => [
+        ';; qad_2',
+        'qd      qad     FW-Wa   may/might     [[qad/FUNC_WORD]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        'may/might'
+      ],
+      'orig' => 'qad',
+      'prefix' => ''
+    },
     {
       'types' => {
         'qdud' => {
@@ -47270,6 +47257,9 @@ $Lexicon = {
         'ql      qul     FW-Wa   say (for example)'
       ],
       'patterns' => {
+        'qul' => [
+          'FuL'
+        ],
         'quwl' => [
           'FUL',
           'FuCL'
@@ -49931,6 +49921,75 @@ $Lexicon = {
       'glosses' => [],
       'orig' => 'qaf~aY',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'qifiyy' => {
+          'N' => 1
+        },
+        '\'aqf' => {
+          'NK' => 2
+        },
+        'qafaN' => {
+          'FW-WaBi' => 1
+        },
+        'qufiyy' => {
+          'N' => 1
+        },
+        '\'aqfiy' => {
+          'Nap' => 2,
+          'N0_Nh' => 2
+        },
+        'qafA' => {
+          'N0_Nhy' => 1
+        },
+        '\'aqfA\'' => {
+          'Nh' => 2,
+          'Nhy' => 2,
+          'N0_Nh' => 2
+        }
+      },
+      'entry' => 'qaf',
+      'form' => 'qafaN',
+      'lines' => [
+        ';; qafAF_1',
+        'qfA     qafAF   FW-WaBi neck;nape;back;reverse     [[qafAF/NOUN]]',
+        'qfA     qafA    N0_Nhy  neck;nape;back;reverse',
+        '>qfy    >aqofiy Nap     necks;napes;backs',
+        'Aqfy    >aqofiy Nap     necks;napes;backs',
+        '>qfy    >aqofiy N0_Nh   necks;napes;backs',
+        'Aqfy    >aqofiy N0_Nh   necks;napes;backs',
+        '>qf     >aqof   NK      necks;napes;backs',
+        'Aqf     >aqof   NK      necks;napes;backs',
+        '>qfA\'   >aqofA\' N0_Nh   necks;napes;backs',
+        'AqfA\'   >aqofA\' N0_Nh   necks;napes;backs',
+        '>qfA&   >aqofA& Nh      necks;napes;backs',
+        'AqfA&   >aqofA& Nh      necks;napes;backs',
+        '>qfA}   >aqofA} Nhy     necks;napes;backs',
+        'AqfA}   >aqofA} Nhy     necks;napes;backs',
+        'qfy     qufiy~  N       necks;napes;backs',
+        'qfy     qifiy~  N       necks;napes;backs'
+      ],
+      'patterns' => {
+        'qafA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'neck',
+        'nape',
+        'back',
+        'reverse',
+        'necks',
+        'napes',
+        'backs'
+      ],
+      'orig' => 'qafAF',
+      'prefix' => ''
     }
   ],
   'quwaysim' => [
@@ -50443,6 +50502,9 @@ $Lexicon = {
         'qiy.z' => [
           'FIL',
           'FiCL'
+        ],
+        'qi.z' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -59931,6 +59993,9 @@ $Lexicon = {
         'qb      qub     IV_C    excavate;hollow out'
       ],
       'patterns' => {
+        'qub' => [
+          'FuL'
+        ],
         'quwb' => [
           'FUL',
           'FuCL'
@@ -63755,9 +63820,9 @@ $Lexicon->{'q y t'}[1]{'glosses'} = $Lexicon->{'q w t'}[11]{'glosses'};
 $Lexicon->{'q y .z'}[3]{'types'} = $Lexicon->{'q \' .z'}[0]{'types'};
 $Lexicon->{'q y .z'}[3]{'lines'} = $Lexicon->{'q \' .z'}[0]{'lines'};
 $Lexicon->{'q y .z'}[3]{'glosses'} = $Lexicon->{'q \' .z'}[0]{'glosses'};
-$Lexicon->{'q t d'}[1]{'types'} = $Lexicon->{'q d d'}[3]{'types'};
-$Lexicon->{'q t d'}[1]{'lines'} = $Lexicon->{'q d d'}[3]{'lines'};
-$Lexicon->{'q t d'}[1]{'glosses'} = $Lexicon->{'q d d'}[3]{'glosses'};
+$Lexicon->{'q t d'}[1]{'types'} = $Lexicon->{'q d d'}[5]{'types'};
+$Lexicon->{'q t d'}[1]{'lines'} = $Lexicon->{'q d d'}[5]{'lines'};
+$Lexicon->{'q t d'}[1]{'glosses'} = $Lexicon->{'q d d'}[5]{'glosses'};
 $Lexicon->{'q d \''}[0]{'types'} = $Lexicon->{'q d w'}[3]{'types'};
 $Lexicon->{'q d \''}[0]{'lines'} = $Lexicon->{'q d w'}[3]{'lines'};
 $Lexicon->{'q d \''}[0]{'glosses'} = $Lexicon->{'q d w'}[3]{'glosses'};

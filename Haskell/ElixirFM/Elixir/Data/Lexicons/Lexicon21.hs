@@ -65,10 +65,13 @@ lexicon = listing "Lexicon's properties"
  |> "q .d .d" <| [
 
     FaCL                      `verb`       {- qaD~-u -}         [ "perforate", "demolish" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `verb`       {- qaD~-a -}         [ "be rough", "be crude" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FaCaL
+                              `ithird`     FCaL,
 
     HaFaCL                    `verb`       {- OaqaD~ -}         [ "be rough", "be hard" ],
 
@@ -97,7 +100,8 @@ lexicon = listing "Lexicon's properties"
  |> "q .d y" <| [
 
     FaCY                      `verb`       {- qaDaY-i -}        [ "execute", "perform", "decree", "be executed", "be performed", "be decreed" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     FaCCY                     `verb`       {- qaD~aY -}         [ "carry out", "effectuate", "accomplish", "be carried out", "be effectuated", "be accomplished" ],
 
@@ -171,10 +175,14 @@ lexicon = listing "Lexicon's properties"
  |> "q .s .s" <| [
 
     FaCL                      `verb`       {- qaS~-u -}         [ "cut", "trim" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `verb`       {- qaS~-u -}         [ "narrate", "tell" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCCaL                    `verb`       {- qaS~aS -}         [ "cut off", "trim" ],
 
@@ -349,7 +357,8 @@ lexicon = listing "Lexicon's properties"
  |> "q .s w" <| [
 
     FaCA                      `verb`       {- qaSA-u -}         [ "be distant" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     HaFCY                     `verb`       {- OaqoSaY -}        [ "remove", "be removed" ],
 
@@ -375,8 +384,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "q .s y" <| [
 
-    FaCiL                     `verb`       {- qaSiy-a -}        [ "be distant" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- qaSiy-a -}        [ "be distant" ],
 
     FaCIL                     `adj`        {- qaSiy~ -}         [ "distant", "remote" ],
 
@@ -385,7 +393,9 @@ lexicon = listing "Lexicon's properties"
  |> "q .t .t" <| [
 
     FaCL                      `verb`       {- qaT~-u -}         [ "carve", "trim", "sharpen" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCCaL                    `verb`       {- qaT~aT -}         [ "carve" ],
 
@@ -572,7 +582,7 @@ lexicon = listing "Lexicon's properties"
  |> "q .t n" <| [
 
     FaCaL                     `verb`       {- qaTan-u -}        [ "reside", "dwell", "be settled" ]
-                              `imperf`     FCuL,
+                              `ithird`     FCuL,
 
     FaCCaL                    `verb`       {- qaT~an -}         [ "make reside", "settle" ],
 
@@ -766,7 +776,9 @@ lexicon = listing "Lexicon's properties"
  |> "q b b" <| [
 
     FaCL                      `verb`       {- qab~-u -}         [ "bristle", "rise", "swell" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- qab~ -}           [ "hub", "lever", "beam", "hubs", "levers", "beams" ],
 
@@ -855,8 +867,8 @@ lexicon = listing "Lexicon's properties"
  |> "q b r" <| [
 
     FaCaL                     `verb`       {- qabar-ui -}       [ "bury" ]
-                              `imperf`     FCuL
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     FaCL                      `noun`       {- qabor -}          [ "tomb", "sepulcher", "tombs", "sepulchers" ]
                               `plural`     FuCUL
@@ -887,12 +899,19 @@ lexicon = listing "Lexicon's properties"
  |> "q b w" <| [
 
     FaCA                      `verb`       {- qabA-u -}         [ "vault", "arch" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FCuL
+                              `imperf`     FCU ]
 
  |> "q d d" <| [
 
+    FaL                       `noun`       {- qad -}            [ "(has/have)", "indeed (has/have)" ],
+
+    FaL                       `noun`       {- qad -}            [ "may/might" ],
+
     FaCL                      `verb`       {- qad~-u -}         [ "cut lengthwise", "cut into strips" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     IFtaCL                    `verb`       {- Aiqotad~ -}       [ "cut lengthwise", "cut into strips" ],
 
@@ -1122,7 +1141,8 @@ lexicon = listing "Lexicon's properties"
  |> "q d w" <| [
 
     FaCA                      `verb`       {- qadA-u -}         [ "be tasty" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     IFtaCY                    `verb`       {- AiqotadaY -}      [ "imitate", "emulate", "be imitated", "be emulated" ],
 
@@ -1134,8 +1154,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "q d y" <| [
 
-    FaCiL                     `verb`       {- qadiy-a -}        [ "be tasty" ]
-                              `imperf`     FCaL ]
+    FaCiL                     `verb`       {- qadiy-a -}        [ "be tasty" ] ]
 
  |> "q f .s" <| [
 
@@ -1147,7 +1166,9 @@ lexicon = listing "Lexicon's properties"
  |> "q f f" <| [
 
     FaCL                      `verb`       {- qaf~-u -}         [ "be dry", "wither", "shrink" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FuCL |< aT                `noun`       {- quf~ap -}         [ "basket", "baskets" ]
                               `plural`     FuCaL
@@ -1159,7 +1180,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`       {- qaf~ap -}         [ "feverish shiver" ],
 
-    FaCLY                     `verb`       {- qaf~aY -}         [ "send", "rhyme", "be sent", "be rhymed" ] ]
+    FaCLY                     `verb`       {- qaf~aY -}         [ "send", "rhyme", "be sent", "be rhymed" ],
+
+    FaL |< aN                 `noun`       {- qafAF -}          [ "neck", "nape", "back", "reverse", "necks", "napes", "backs" ]
+                              `plural`     FaCA
+                              {- `others` [ "qafA N0_Nhy" ] -} ]
 
  |> "q f l" <| [
 
@@ -1193,7 +1218,8 @@ lexicon = listing "Lexicon's properties"
  |> "q f w" <| [
 
     FaCA                      `verb`       {- qafA-u -}         [ "follow", "track", "be followed", "be tracked" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FaCCY                     `verb`       {- qaf~aY -}         [ "send", "rhyme", "be sent", "be rhymed" ],
 
@@ -1239,8 +1265,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "q h y" <| [
 
-    FaCiL                     `verb`       {- qahiy-a -}        [ "have no appetite" ]
-                              `imperf`     FCaL ]
+    FaCiL                     `verb`       {- qahiy-a -}        [ "have no appetite" ] ]
 
  |> "q l .s" <| [
 
@@ -1359,7 +1384,9 @@ lexicon = listing "Lexicon's properties"
  |> "q l l" <| [
 
     FaCL                      `verb`       {- qal~-i -}         [ "be less", "decrease", "diminish" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     FaCCaL                    `verb`       {- qal~al -}         [ "lessen", "reduce", "diminish" ],
 
@@ -1430,10 +1457,11 @@ lexicon = listing "Lexicon's properties"
  |> "q l w" <| [
 
     FaCA                      `verb`       {- qalA-u -}         [ "fry", "bake", "be fried", "be baked" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FaCY                      `verb`       {- qalaY-i -}        [ "fry", "bake", "be fried", "be baked" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCI,
 
     MiFCY                     `noun`       {- miqolaY -}        [ "frying pan", "frying pans" ]
                               `plural`     MaFACI
@@ -1441,8 +1469,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "q l y" <| [
 
-    FaCiL                     `verb`       {- qaliy-a -}        [ "detest" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- qaliy-a -}        [ "detest" ],
 
     FiCCIL |< aT              `noun`       {- qil~iy~ap -}      [ "monk's cell", "bishop's residence", "monks' cells" ]
                               `plural`     FaCACiL
@@ -1502,7 +1529,9 @@ lexicon = listing "Lexicon's properties"
  |> "q m m" <| [
 
     FaCL                      `verb`       {- qam~-u -}         [ "sweep" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- qam~ -}           [ "sweeping" ],
 
@@ -1693,10 +1722,11 @@ lexicon = listing "Lexicon's properties"
  |> "q n w" <| [
 
     FaCA                      `verb`       {- qanA-u -}         [ "acquire", "appropriate", "be acquired", "be appropriated" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FaCY                      `verb`       {- qanaY-i -}        [ "acquire", "gain", "be acquired", "be gained" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCI,
 
     FaCY |< aT                `noun`       {- qanAp -}          [ "canal", "channel", "canals", "channels" ]
                               `plural`     FaCaL |< At
@@ -1956,7 +1986,7 @@ lexicon = listing "Lexicon's properties"
  |> "q r n" <| [
 
     FaCaL                     `verb`       {- qaran-i -}        [ "connect", "combine" ]
-                              `imperf`     FCiL,
+                              `ithird`     FCiL,
 
     FACaL                     `verb`       {- qAran -}          [ "compare", "be compared" ],
 
@@ -2003,8 +2033,11 @@ lexicon = listing "Lexicon's properties"
  |> "q r r" <| [
 
     FaCL                      `verb`       {- qar~-ia -}        [ "settle down", "remain" ]
-                              `imperf`     FCiL
-                              `imperf`     FCaL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `pfirst`     FaCiL
+                              `ithird`     FCiL
+                              `ithird`     FCaL,
 
     FaCCaL                    `verb`       {- qar~ar -}         [ "decide", "resolve" ],
 
@@ -2066,7 +2099,8 @@ lexicon = listing "Lexicon's properties"
  |> "q r w" <| [
 
     FaCA                      `verb`       {- qarA-u -}         [ "pierce", "examine", "be pierced", "be examined" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     IstaFCY                   `verb`       {- AisotaqoraY -}    [ "examine", "explore", "investigate", "be examined", "be explored", "be investigated" ],
 
@@ -2077,7 +2111,8 @@ lexicon = listing "Lexicon's properties"
  |> "q r y" <| [
 
     FaCY                      `verb`       {- qaraY-i -}        [ "receive hospitably", "entertain", "be received hospitably", "be entertained" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     FiCY                      `noun`       {- qiraY -}          [ "hospitality" ],
 
@@ -2210,7 +2245,9 @@ lexicon = listing "Lexicon's properties"
  |> "q s s" <| [
 
     FaCL                      `verb`       {- qas~-u -}         [ "pursue", "strive", "aspire" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- qas~ -}           [ "clergyman", "reverend", "clergymen" ]
                               `plural`     FuCUL
@@ -2306,19 +2343,27 @@ lexicon = listing "Lexicon's properties"
  |> "q t t" <| [
 
     FaCL                      `verb`       {- qat~-u -}         [ "lie", "minimize" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCL                      `noun`       {- qat~ -}           [ "spying on", "following" ] ]
 
  |> "q w .d" <| [
 
     FAL                       `verb`       {- qAD-u -}          [ "demolish", "raze" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL ]
 
  |> "q w .h" <| [
 
     FAL                       `verb`       {- qAH-u -}          [ "fester", "swell" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL ]
 
  |> "q w .t" <| [
 
@@ -2345,10 +2390,16 @@ lexicon = listing "Lexicon's properties"
  |> "q w d" <| [
 
     FAL                       `verb`       {- qAd-u -}          [ "lead", "guide" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FAL                       `verb`       {- qAd-u -}          [ "drive", "pilot" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     HaFAL                     `verb`       {- OaqAd -}          [ "cause to retaliate", "be made to retaliate" ],
 
@@ -2375,7 +2426,11 @@ lexicon = listing "Lexicon's properties"
  |> "q w l" <| [
 
     FAL                       `verb`       {- qAl-u -}          [ "said", "say", "be said", "say (for example)" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL
+                              `second`     FuL,
 
     FAL |< aT                 `noun`       {- qAlap -}          [ "speech", "talk" ],
 
@@ -2408,7 +2463,10 @@ lexicon = listing "Lexicon's properties"
  |> "q w m" <| [
 
     FAL                       `verb`       {- qAm-u -}          [ "undertake", "carry out" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FaCCaL                    `verb`       {- qaw~am -}         [ "straighten" ],
 
@@ -2528,7 +2586,10 @@ lexicon = listing "Lexicon's properties"
  |> "q w t" <| [
 
     FAL                       `verb`       {- qAt-u -}          [ "support", "nourish", "sustain" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FaCCaL                    `verb`       {- qaw~at -}         [ "support", "nourish", "sustain" ],
 
@@ -2556,8 +2617,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "q w y" <| [
 
-    FaCiL                     `verb`       {- qawiy-a -}        [ "be strong" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- qawiy-a -}        [ "be strong" ],
 
     FaCCY                     `verb`       {- qaw~aY -}         [ "strengthen", "be strengthened" ],
 
@@ -2596,12 +2656,18 @@ lexicon = listing "Lexicon's properties"
     FiCAL                     `noun`       {- qiyA' -}          [ "desert", "deserts" ],
 
     FAL                       `verb`       {- qA'-i -}          [ "vomit" ]
-                              `imperf`     FCiL ]
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL ]
 
  |> "q y .d" <| [
 
     FAL                       `verb`       {- qAD-i -}          [ "break open", "crack" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- qay~aD -}         [ "lead", "send" ],
 
@@ -2612,7 +2678,10 @@ lexicon = listing "Lexicon's properties"
  |> "q y .h" <| [
 
     FAL                       `verb`       {- qAH-i -}          [ "fester", "be infected" ]
-                              `imperf`     FCiL ]
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL ]
 
  |> "q y .s r" <| [
 
@@ -2709,7 +2778,10 @@ lexicon = listing "Lexicon's properties"
  |> "q y s" <| [
 
     FAL                       `verb`       {- qAs-i -}          [ "measure", "draw conclusions", "compare" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- qay~as -}         [ "measure" ],
 
@@ -2767,16 +2839,6 @@ lexicon = listing "Lexicon's properties"
  |> "qablu" <| [
 
     Identity                  `noun`       {- qabolu -}         [ "before", "prior" ] ]
-
- |> "qad" <| [
-
-    Identity                  `noun`       {- qad -}            [ "(has/have)", "indeed (has/have)" ],
-
-    Identity                  `noun`       {- qad -}            [ "may/might" ] ]
-
- |> "qaf" <| [
-
-    Identity |< aN            `noun`       {- qafAF -}          [ "neck", "nape", "back", "reverse", "necks", "napes", "backs" ] ]
 
  |> "qalansuw" <| [
 

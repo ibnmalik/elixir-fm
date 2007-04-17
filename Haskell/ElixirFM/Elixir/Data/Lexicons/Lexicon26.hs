@@ -44,7 +44,9 @@ lexicon = listing "Lexicon's properties"
  |> "h ^g ^g" <| [
 
     FaCL                      `verb`       {- haj~-u -}         [ "burn", "be aflame" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCLY                     `verb`       {- haj~aY -}         [ "spell", "be spelled" ] ]
 
@@ -121,15 +123,19 @@ lexicon = listing "Lexicon's properties"
  |> "h ^g w" <| [
 
     FaCA                      `verb`       {- hajA-u -}         [ "ridicule", "satirize", "be ridiculed", "be satirized" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FaCCY                     `verb`       {- haj~aY -}         [ "spell", "be spelled" ] ]
 
  |> "h ^s ^s" <| [
 
     FaCL                      `verb`       {- ha$~-iu -}        [ "be cheerful", "be delighted" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL
+                              `ithird`     FCiL,
 
     FaCL                      `noun`       {- ha$~ -}           [ "cheerful" ],
 
@@ -148,7 +154,8 @@ lexicon = listing "Lexicon's properties"
  |> "h _d y" <| [
 
     FaCY                      `verb`       {- ha*aY-i -}        [ "be delirious" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     FACiL                     `adj`        {- hA*iy -}          [ "delirious" ] ]
 
@@ -177,7 +184,9 @@ lexicon = listing "Lexicon's properties"
  |> "h b b" <| [
 
     FaCL                      `verb`       {- hab~-u -}         [ "get up", "set out", "blow" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     HaFaCL                    `verb`       {- Oahab~ -}         [ "awaken", "rouse", "be awakened", "be roused" ],
 
@@ -197,7 +206,8 @@ lexicon = listing "Lexicon's properties"
  |> "h b w" <| [
 
     FaCA                      `verb`       {- habA-u -}         [ "rise in the air", "take to flight" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FCuL
+                              `imperf`     FCU ]
 
  |> "h b y" <| [
 
@@ -239,10 +249,14 @@ lexicon = listing "Lexicon's properties"
  |> "h d d" <| [
 
     FaCL                      `verb`       {- had~-i -}         [ "be weak", "be decrepit" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     FaCL                      `verb`       {- had~-u -}         [ "demolish", "destroy" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     FaCCaL                    `verb`       {- had~ad -}         [ "threaten", "intimidate", "menace" ],
 
@@ -313,7 +327,7 @@ lexicon = listing "Lexicon's properties"
  |> "h d n" <| [
 
     FaCaL                     `verb`       {- hadan-i -}        [ "quiet down", "calm down" ]
-                              `imperf`     FCiL,
+                              `ithird`     FCiL,
 
     FaCCaL                    `verb`       {- had~an -}         [ "calm", "appease" ],
 
@@ -338,7 +352,8 @@ lexicon = listing "Lexicon's properties"
  |> "h d y" <| [
 
     FaCY                      `verb`       {- hadaY-i -}        [ "guide", "direct", "lead", "be guided", "be directed", "be led" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     FACY                      `verb`       {- hAdaY -}          [ "exchange presents with", "be exchanged (as presents)" ],
 
@@ -438,8 +453,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "h l l" <| [
 
+    FaL                       `noun`       {- hal -}            [ "does/do?", "did?", "is/are?" ],
+
     FaCL                      `verb`       {- hal~-i -}         [ "begin", "appear" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     HaFaCL                    `verb`       {- Oahal~ -}         [ "begin", "appear", "offer", "sacrifice", "be offered", "be sacrificed" ],
 
@@ -507,8 +526,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "h m m" <| [
 
+    FuL                       `noun`       {- hum -}            [ "they [masc.pl]" ],
+
     FaCL                      `verb`       {- ham~-u -}         [ "be ready", "intend" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     HaFaCL                    `verb`       {- Oaham~ -}         [ "concern", "be important", "be of concern" ],
 
@@ -553,13 +576,14 @@ lexicon = listing "Lexicon's properties"
  |> "h m w" <| [
 
     FaCA                      `verb`       {- hamA-u -}         [ "flow", "pour" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FCuL
+                              `imperf`     FCU ]
 
  |> "h n '" <| [
 
     FaCaL                     `verb`       {- hanaO-uia -}      [ "be beneficial", "be wholesome" ]
-                              `imperf`     FCuL
                               `imperf`     FCiL
+                              `imperf`     FCuL
                               `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- han~aO -}         [ "congratulate" ],
@@ -621,7 +645,13 @@ lexicon = listing "Lexicon's properties"
  |> "h n n" <| [
 
     FaCL                      `verb`       {- han~-i -}         [ "weep", "sigh", "yearn" ]
-                              `imperf`     FCiL ]
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
+
+    FaL |< Iy                 `adj`        {- haniy~ -}         [ "pleasant", "delicious" ],
+
+    FaL |< aT                 `noun`       {- hanap -}          [ "trifle", "trifles", "defects" ] ]
 
  |> "h n r y" <| [
 
@@ -709,7 +739,9 @@ lexicon = listing "Lexicon's properties"
  |> "h r r" <| [
 
     FaCL                      `verb`       {- har~-i -}         [ "howl", "whine", "purr" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     FiCL |< aT                `noun`       {- hir~ap -}         [ "cat", "she-cat", "cats", "she-cats" ]
                               `plural`     FiCaL
@@ -729,7 +761,8 @@ lexicon = listing "Lexicon's properties"
  |> "h r w" <| [
 
     FaCA                      `verb`       {- harA-u -}         [ "whip", "thrash", "be whipped", "be thrashed" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FiCAL |< aT               `noun`       {- hirAwap -}        [ "stick", "baton", "truncheon", "sticks", "batons", "truncheons" ]
                               `plural`     FiCAL |< At
@@ -748,7 +781,9 @@ lexicon = listing "Lexicon's properties"
  |> "h s s" <| [
 
     FaCL                      `verb`       {- has~-i -}         [ "whisper" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     FaCL                      `noun`       {- has~ -}           [ "whispering", "whisper", "soliloquy" ] ]
 
@@ -823,7 +858,10 @@ lexicon = listing "Lexicon's properties"
  |> "h w d" <| [
 
     FAL                       `verb`       {- hAd-u -}          [ "be a Jew" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FaCCaL                    `verb`       {- haw~ad -}         [ "make Jewish" ],
 
@@ -842,7 +880,10 @@ lexicon = listing "Lexicon's properties"
  |> "h w l" <| [
 
     FAL                       `verb`       {- hAl-u -}          [ "frighten", "intimidate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FaCCaL                    `verb`       {- haw~al -}         [ "frighten", "intimidate" ],
 
@@ -873,7 +914,9 @@ lexicon = listing "Lexicon's properties"
  |> "h w n" <| [
 
     FAL                       `verb`       {- hAn-u -}          [ "be insignificant", "be contemptible" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `ithird`     FuL,
 
     FaCCaL                    `verb`       {- haw~an -}         [ "facilitate", "disparage" ],
 
@@ -896,10 +939,16 @@ lexicon = listing "Lexicon's properties"
  |> "h w r" <| [
 
     FAL                       `verb`       {- hAr-u -}          [ "collapse" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     FAL                       `verb`       {- hAr-u -}          [ "topple" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     InFAL                     `verb`       {- AinohAr -}        [ "be demolished", "collapse" ],
 
@@ -928,6 +977,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "h w w" <| [
 
+    FuL                       `noun`       {- huw -}            [ "Ho (in \"Ho Chi Minh\")" ],
+
     FaCLY                     `verb`       {- haw~aY -}         [ "ventilate", "be ventilated" ],
 
     FuCL |< aT                `noun`       {- huw~ap -}         [ "abyss", "chasm", "abysses", "chasms" ]
@@ -943,10 +994,10 @@ lexicon = listing "Lexicon's properties"
  |> "h w y" <| [
 
     FaCY                      `verb`       {- hawaY-i -}        [ "fall", "collapse", "topple", "be toppled" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
-    FaCiL                     `verb`       {- hawiy-a -}        [ "love", "like" ]
-                              `imperf`     FCaL,
+    FaCiL                     `verb`       {- hawiy-a -}        [ "love", "like" ],
 
     FaCCY                     `verb`       {- haw~aY -}         [ "ventilate", "be ventilated" ],
 
@@ -1001,7 +1052,10 @@ lexicon = listing "Lexicon's properties"
  |> "h y ^g" <| [
 
     FAL                       `verb`       {- hAj-i -}          [ "be stirred up", "be agitated" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     HaFAL                     `verb`       {- OahAj -}          [ "agitate", "stir up", "provoke", "be agitated", "be stirred up", "be provoked" ],
 
@@ -1020,7 +1074,8 @@ lexicon = listing "Lexicon's properties"
  |> "h y b" <| [
 
     FAL                       `verb`       {- hAb-a -}          [ "fear", "respect" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FiL
+                              `ithird`     FaL,
 
     FaCCaL                    `verb`       {- hay~ab -}         [ "intimidate" ],
 
@@ -1037,13 +1092,18 @@ lexicon = listing "Lexicon's properties"
  |> "h y f" <| [
 
     FAL                       `verb`       {- hAf-i -}          [ "be parched", "be thirsty" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FAL                       `verb`       {- hAf-a -}          [ "run away" ]
-                              `imperf`     FCaL,
+                              `pfirst`     FiL
+                              `ithird`     FaL,
 
     FAL                       `verb`       {- hAf-a -}          [ "be slender" ]
-                              `imperf`     FCaL ]
+                              `pfirst`     FiL
+                              `ithird`     FaL ]
 
  |> "h y k l" <| [
 
@@ -1058,7 +1118,10 @@ lexicon = listing "Lexicon's properties"
  |> "h y l" <| [
 
     FAL                       `verb`       {- hAl-i -}          [ "pour", "strew" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- hay~al -}         [ "pour", "pile up", "strew" ],
 
@@ -1077,7 +1140,10 @@ lexicon = listing "Lexicon's properties"
  |> "h y m" <| [
 
     FAL                       `verb`       {- hAm-i -}          [ "be in love", "wander" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     FaCCaL                    `verb`       {- hay~am -}         [ "confuse", "enchant" ],
 
@@ -1143,7 +1209,9 @@ lexicon = listing "Lexicon's properties"
  |> "h z z" <| [
 
     FaCL                      `verb`       {- haz~-u -}         [ "shake", "jolt", "rock" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     IFtaCL                    `verb`       {- Aihotaz~ -}       [ "tremble", "quake", "be shaken" ],
 
@@ -1203,19 +1271,9 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- ha|rits -}        [ "Haaretz" ] ]
 
- |> "hal" <| [
-
-    Identity                  `noun`       {- hal -}            [ "does/do?", "did?", "is/are?" ] ]
-
  |> "hallA" <| [
 
     Identity                  `noun`       {- hal~A -}          [ "doesn't/don't?", "didn't?", "isn't/aren't?" ] ]
-
- |> "han" <| [
-
-    Identity |< Iy            `adj`        {- haniy~ -}         [ "pleasant", "delicious" ],
-
-    Identity |< aT            `noun`       {- hanap -}          [ "trifle", "trifles", "defects" ] ]
 
  |> "hilikuwbtar" <| [
 
@@ -1289,10 +1347,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`       {- hiyuwsotun -}     [ "Houston" ] ]
 
- |> "hum" <| [
-
-    Identity                  `noun`       {- hum -}            [ "they [masc.pl]" ] ]
-
  |> "humA" <| [
 
     Identity                  `noun`       {- humA -}           [ "they (both)" ] ]
@@ -1308,10 +1362,6 @@ lexicon = listing "Lexicon's properties"
  |> "hunna" <| [
 
     Identity                  `noun`       {- hun~a -}          [ "they [fem.pl.]" ] ]
-
- |> "huw" <| [
-
-    Identity                  `noun`       {- huw -}            [ "Ho (in \"Ho Chi Minh\")" ] ]
 
  |> "huwa" <| [
 

@@ -402,6 +402,10 @@ data PatternT =
         |   FCuL                |   CuL                 |   FUL                 |   FCU                 |   FuCL
                                 |   CI                  |   FY
 
+                                                        |   FaL
+                                                        |   FiL
+                                                        |   FuL
+
     {-- |   FaCL    --}
     {-- |   FiCL    --}
     {-- |   FuCL    --}

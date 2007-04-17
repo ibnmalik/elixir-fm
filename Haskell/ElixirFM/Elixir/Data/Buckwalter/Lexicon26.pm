@@ -1636,7 +1636,14 @@ $Lexicon = {
         'hAb     hAb     IV_V    fear;respect',
         'hb      hab     IV_C    fear;respect'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'hib' => [
+          'FiL'
+        ],
+        'hab' => [
+          'FaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
@@ -1713,8 +1720,14 @@ $Lexicon = {
         'hb      hab     IV_C_Pass_yu    be called on'
       ],
       'patterns' => {
+        'hib' => [
+          'FiL'
+        ],
         'hAb' => [
           'FAL'
+        ],
+        'hab' => [
+          'FaL'
         ],
         'hiyb' => [
           'FIL',
@@ -2033,33 +2046,6 @@ $Lexicon = {
         'timorous'
       ],
       'orig' => 'mutahay~ib',
-      'prefix' => ''
-    }
-  ],
-  'hal' => [
-    {
-      'types' => {
-        'hal' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => 'hal',
-      'form' => 'hal',
-      'lines' => [
-        ';; hal_1',
-        'hl      hal     FW-Wa   does/do?;did?;is/are?     [[hal/INTERROG_PART]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'does/do?',
-        'did?',
-        'is/are?'
-      ],
-      'orig' => 'hal',
       'prefix' => ''
     }
   ],
@@ -5107,6 +5093,9 @@ $Lexicon = {
         'hj      hij     IV_C_intr       be stirred up;be agitated'
       ],
       'patterns' => {
+        'hi^g' => [
+          'FiL'
+        ],
         'hiy^g' => [
           'FIL',
           'FiCL'
@@ -5190,6 +5179,12 @@ $Lexicon = {
         'hj      haj     IV_C_Pass_yu    be agitated;be stirred up;be provoked'
       ],
       'patterns' => {
+        'ha^g' => [
+          'FaL'
+        ],
+        'hi^g' => [
+          'FiL'
+        ],
         'hA^g' => [
           'FAL'
         ],
@@ -5539,31 +5534,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'hum' => [
-    {
-      'types' => {
-        'hum' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => 'hum',
-      'form' => 'hum',
-      'lines' => [
-        ';; hum_1',
-        'hm      hum     FW-Wa   they [masc.pl]       [[hum/PRON_3MP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'they [masc.pl]'
-      ],
-      'orig' => 'hum',
-      'prefix' => ''
-    }
-  ],
   'h ^g l' => [
     {
       'types' => {
@@ -5818,9 +5788,18 @@ $Lexicon = {
         'hE      haE     IV_C    vomit'
       ],
       'patterns' => {
+        'ha`' => [
+          'FaL'
+        ],
+        'hu`' => [
+          'FuL'
+        ],
         'huw`' => [
           'FUL',
           'FuCL'
+        ],
+        'hi`' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -7380,6 +7359,9 @@ $Lexicon = {
         'hl      hul     IV_C    frighten;intimidate'
       ],
       'patterns' => {
+        'hul' => [
+          'FuL'
+        ],
         'huwl' => [
           'FUL',
           'FuCL'
@@ -8174,6 +8156,9 @@ $Lexicon = {
         'hf      hif     IV_C_intr       be parched;be thirsty'
       ],
       'patterns' => {
+        'hif' => [
+          'FiL'
+        ],
         'hiyf' => [
           'FIL',
           'FiCL'
@@ -8212,7 +8197,14 @@ $Lexicon = {
         'hAf     hAf     IV_V    run away',
         'hf      haf     IV_C    run away'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'hif' => [
+          'FiL'
+        ],
+        'haf' => [
+          'FaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
@@ -8245,7 +8237,14 @@ $Lexicon = {
         'hAf     hAf     IV_V    be slender',
         'hf      haf     IV_C    be slender'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'hif' => [
+          'FiL'
+        ],
+        'haf' => [
+          'FaL'
+        ]
+      },
       'index' => '2',
       'entity' => 'verb',
       'morphs' => 'FAL',
@@ -11565,6 +11564,9 @@ $Lexicon = {
         'h$      hi$     IV_C_intr       be agitated;be excited'
       ],
       'patterns' => {
+        'hi^s' => [
+          'FiL'
+        ],
         'hiy^s' => [
           'FIL',
           'FiCL'
@@ -12712,6 +12714,9 @@ $Lexicon = {
         'hT      hiT     IV_C    shout;raise a din'
       ],
       'patterns' => {
+        'hi.t' => [
+          'FiL'
+        ],
         'hiy.t' => [
           'FIL',
           'FiCL'
@@ -17577,6 +17582,31 @@ $Lexicon = {
   'h l l' => [
     {
       'types' => {
+        'hal' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'hal',
+      'form' => 'hal',
+      'lines' => [
+        ';; hal_1',
+        'hl      hal     FW-Wa   does/do?;did?;is/are?     [[hal/INTERROG_PART]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        'does/do?',
+        'did?',
+        'is/are?'
+      ],
+      'orig' => 'hal',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'hlil' => {
           'IV_C' => 1
         },
@@ -21416,61 +21446,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'han' => [
-    {
-      'types' => {
-        'haniyy' => {
-          'N-ap' => 1
-        }
-      },
-      'entry' => 'han',
-      'form' => 'haniyy',
-      'lines' => [
-        ';; haniy~_1',
-        'hny     haniy~  N-ap    pleasant;delicious     [[haniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'pleasant',
-        'delicious'
-      ],
-      'orig' => 'haniy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'hanaT' => {
-          'NapAt' => 1
-        },
-        'hanaw' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'han',
-      'form' => 'hanaT',
-      'lines' => [
-        ';; hanap_1',
-        'hn      han     NapAt   trifle',
-        'hnw     hanaw   NAt     trifles;defects'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'trifle',
-        'trifles',
-        'defects'
-      ],
-      'orig' => 'hanap',
-      'prefix' => ''
-    }
-  ],
   'h w n' => [
     {
       'types' => {
@@ -21491,6 +21466,9 @@ $Lexicon = {
         'hn      hun     IV_C_intr       be insignificant;be contemptible'
       ],
       'patterns' => {
+        'hun' => [
+          'FuL'
+        ],
         'huwn' => [
           'FUL',
           'FuCL'
@@ -21576,6 +21554,9 @@ $Lexicon = {
         ],
         'hAn' => [
           'FAL'
+        ],
+        'hin' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -23131,6 +23112,29 @@ $Lexicon = {
   'h m m' => [
     {
       'types' => {
+        'hum' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'hum',
+      'form' => 'hum',
+      'lines' => [
+        ';; hum_1',
+        'hm      hum     FW-Wa   they [masc.pl]       [[hum/PRON_3MP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL',
+      'suffix' => '',
+      'glosses' => [
+        'they [masc.pl]'
+      ],
+      'orig' => 'hum',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'hmum' => {
           'IV_C' => 1
         },
@@ -24461,6 +24465,59 @@ $Lexicon = {
         'FCiL'
       ],
       'orig' => 'han~-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'haniyy' => {
+          'N-ap' => 1
+        }
+      },
+      'entry' => 'han',
+      'form' => 'haniyy',
+      'lines' => [
+        ';; haniy~_1',
+        'hny     haniy~  N-ap    pleasant;delicious     [[haniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'pleasant',
+        'delicious'
+      ],
+      'orig' => 'haniy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'hanaT' => {
+          'NapAt' => 1
+        },
+        'hanaw' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'han',
+      'form' => 'hanaT',
+      'lines' => [
+        ';; hanap_1',
+        'hn      han     NapAt   trifle',
+        'hnw     hanaw   NAt     trifles;defects'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'trifle',
+        'trifles',
+        'defects'
+      ],
+      'orig' => 'hanap',
       'prefix' => ''
     }
   ],
@@ -26538,6 +26595,9 @@ $Lexicon = {
         'hd      hud     IV_C_intr       be a Jew'
       ],
       'patterns' => {
+        'hud' => [
+          'FuL'
+        ],
         'huwd' => [
           'FUL',
           'FuCL'
@@ -27089,6 +27149,9 @@ $Lexicon = {
         'hiy.d' => [
           'FIL',
           'FiCL'
+        ],
+        'hi.d' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -27154,6 +27217,29 @@ $Lexicon = {
     }
   ],
   'h w w' => [
+    {
+      'types' => {
+        'huw' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => 'huw',
+      'form' => 'huw',
+      'lines' => [
+        ';; huw_1',
+        'hw      huw     FW-WaBi Ho (in "Ho Chi Minh")    [[huw/NOUN_PROP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL',
+      'suffix' => '',
+      'glosses' => [
+        'Ho (in "Ho Chi Minh")'
+      ],
+      'orig' => 'huw',
+      'prefix' => ''
+    },
     {
       'types' => {},
       'entry' => 'hawwY',
@@ -27687,6 +27773,9 @@ $Lexicon = {
         'h$      hu$     IV_C_intr       be excited;be agitated'
       ],
       'patterns' => {
+        'hu^s' => [
+          'FuL'
+        ],
         'huw^s' => [
           'FUL',
           'FuCL'
@@ -28013,31 +28102,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'huw' => [
-    {
-      'types' => {
-        'huw' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => 'huw',
-      'form' => 'huw',
-      'lines' => [
-        ';; huw_1',
-        'hw      huw     FW-WaBi Ho (in "Ho Chi Minh")    [[huw/NOUN_PROP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Ho (in "Ho Chi Minh")'
-      ],
-      'orig' => 'huw',
-      'prefix' => ''
-    }
-  ],
   'h w r' => [
     {
       'types' => {
@@ -28060,6 +28124,9 @@ $Lexicon = {
         'hr      hur     IV_C_intr       collapse'
       ],
       'patterns' => {
+        'hur' => [
+          'FuL'
+        ],
         'huwr' => [
           'FUL',
           'FuCL'
@@ -28099,6 +28166,9 @@ $Lexicon = {
         'hr      hur     IV_C    topple'
       ],
       'patterns' => {
+        'hur' => [
+          'FuL'
+        ],
         'huwr' => [
           'FUL',
           'FuCL'
@@ -29591,6 +29661,9 @@ $Lexicon = {
         'hm      him     IV_C_intr       be in love;wander'
       ],
       'patterns' => {
+        'him' => [
+          'FiL'
+        ],
         'hiym' => [
           'FIL',
           'FiCL'
@@ -29891,6 +29964,9 @@ $Lexicon = {
         'hl      hil     IV_C    pour;strew'
       ],
       'patterns' => {
+        'hil' => [
+          'FiL'
+        ],
         'hiyl' => [
           'FIL',
           'FiCL'
@@ -29974,9 +30050,15 @@ $Lexicon = {
         'hl      hal     IV_C_Pass_yu    be poured;be piled up;be strewn'
       ],
       'patterns' => {
+        'hil' => [
+          'FiL'
+        ],
         'hiyl' => [
           'FIL',
           'FiCL'
+        ],
+        'hal' => [
+          'FaL'
         ],
         'hAl' => [
           'FAL'
@@ -33504,24 +33586,24 @@ $Lexicon->{'h ^g \''}[4]{'glosses'} = $Lexicon->{'h ^g w'}[8]{'glosses'};
 $Lexicon->{'h ^g \''}[5]{'types'} = $Lexicon->{'h ^g w'}[9]{'types'};
 $Lexicon->{'h ^g \''}[5]{'lines'} = $Lexicon->{'h ^g w'}[9]{'lines'};
 $Lexicon->{'h ^g \''}[5]{'glosses'} = $Lexicon->{'h ^g w'}[9]{'glosses'};
-$Lexicon->{'h t m'}[3]{'types'} = $Lexicon->{'h m m'}[2]{'types'};
-$Lexicon->{'h t m'}[3]{'lines'} = $Lexicon->{'h m m'}[2]{'lines'};
-$Lexicon->{'h t m'}[3]{'glosses'} = $Lexicon->{'h m m'}[2]{'glosses'};
-$Lexicon->{'h t m'}[4]{'types'} = $Lexicon->{'h m m'}[13]{'types'};
-$Lexicon->{'h t m'}[4]{'lines'} = $Lexicon->{'h m m'}[13]{'lines'};
-$Lexicon->{'h t m'}[4]{'glosses'} = $Lexicon->{'h m m'}[13]{'glosses'};
-$Lexicon->{'h t m'}[5]{'types'} = $Lexicon->{'h m m'}[18]{'types'};
-$Lexicon->{'h t m'}[5]{'lines'} = $Lexicon->{'h m m'}[18]{'lines'};
-$Lexicon->{'h t m'}[5]{'glosses'} = $Lexicon->{'h m m'}[18]{'glosses'};
-$Lexicon->{'h w w'}[0]{'types'} = $Lexicon->{'h w y'}[2]{'types'};
-$Lexicon->{'h w w'}[0]{'lines'} = $Lexicon->{'h w y'}[2]{'lines'};
-$Lexicon->{'h w w'}[0]{'glosses'} = $Lexicon->{'h w y'}[2]{'glosses'};
-$Lexicon->{'h w w'}[2]{'types'} = $Lexicon->{'h w w'}[1]{'types'};
-$Lexicon->{'h w w'}[2]{'lines'} = $Lexicon->{'h w w'}[1]{'lines'};
-$Lexicon->{'h w w'}[2]{'glosses'} = $Lexicon->{'h w w'}[1]{'glosses'};
-$Lexicon->{'h w w'}[3]{'types'} = $Lexicon->{'h w \''}[3]{'types'};
-$Lexicon->{'h w w'}[3]{'lines'} = $Lexicon->{'h w \''}[3]{'lines'};
-$Lexicon->{'h w w'}[3]{'glosses'} = $Lexicon->{'h w \''}[3]{'glosses'};
+$Lexicon->{'h t m'}[3]{'types'} = $Lexicon->{'h m m'}[3]{'types'};
+$Lexicon->{'h t m'}[3]{'lines'} = $Lexicon->{'h m m'}[3]{'lines'};
+$Lexicon->{'h t m'}[3]{'glosses'} = $Lexicon->{'h m m'}[3]{'glosses'};
+$Lexicon->{'h t m'}[4]{'types'} = $Lexicon->{'h m m'}[14]{'types'};
+$Lexicon->{'h t m'}[4]{'lines'} = $Lexicon->{'h m m'}[14]{'lines'};
+$Lexicon->{'h t m'}[4]{'glosses'} = $Lexicon->{'h m m'}[14]{'glosses'};
+$Lexicon->{'h t m'}[5]{'types'} = $Lexicon->{'h m m'}[19]{'types'};
+$Lexicon->{'h t m'}[5]{'lines'} = $Lexicon->{'h m m'}[19]{'lines'};
+$Lexicon->{'h t m'}[5]{'glosses'} = $Lexicon->{'h m m'}[19]{'glosses'};
+$Lexicon->{'h w w'}[1]{'types'} = $Lexicon->{'h w y'}[2]{'types'};
+$Lexicon->{'h w w'}[1]{'lines'} = $Lexicon->{'h w y'}[2]{'lines'};
+$Lexicon->{'h w w'}[1]{'glosses'} = $Lexicon->{'h w y'}[2]{'glosses'};
+$Lexicon->{'h w w'}[3]{'types'} = $Lexicon->{'h w w'}[2]{'types'};
+$Lexicon->{'h w w'}[3]{'lines'} = $Lexicon->{'h w w'}[2]{'lines'};
+$Lexicon->{'h w w'}[3]{'glosses'} = $Lexicon->{'h w w'}[2]{'glosses'};
+$Lexicon->{'h w w'}[4]{'types'} = $Lexicon->{'h w \''}[3]{'types'};
+$Lexicon->{'h w w'}[4]{'lines'} = $Lexicon->{'h w \''}[3]{'lines'};
+$Lexicon->{'h w w'}[4]{'glosses'} = $Lexicon->{'h w \''}[3]{'glosses'};
 $Lexicon->{'h y m'}[8]{'types'} = $Lexicon->{'h \' m'}[0]{'types'};
 $Lexicon->{'h y m'}[8]{'lines'} = $Lexicon->{'h \' m'}[0]{'lines'};
 $Lexicon->{'h y m'}[8]{'glosses'} = $Lexicon->{'h \' m'}[0]{'glosses'};

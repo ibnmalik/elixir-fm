@@ -263,7 +263,9 @@ lexicon = listing "Lexicon's properties"
     -- txx     toxux   IV_C_intr       become sour;ferment
 
     FaCL                      `verb`       {- tax~-u -}         [ "become sour", "ferment" ]
-                              `imperf`     FCuL ]
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL ]
 
  |> "t _h m" <| [
 
@@ -427,7 +429,6 @@ lexicon = listing "Lexicon's properties"
     -- tEs     toEas   IV      perish;be miserable
 
     FaCaL                     `verb`       {- taEas-ia -}       [ "perish", "be miserable" ]
-                              `imperf`     FCiL
                               `imperf`     FCaL,
 
     -- ;; >atoEas_1
@@ -678,7 +679,9 @@ lexicon = listing "Lexicon's properties"
     -- tbb     tobib   IV_C    perish;be destroyed
 
     FaCL                      `verb`       {- tab~-i -}         [ "perish", "be destroyed" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; {isotatab~_1
     -- <sttb   {isotatab~      PV_V    stabilize;be established
@@ -869,7 +872,9 @@ lexicon = listing "Lexicon's properties"
     -- tff     tofif   IV_C    spit
 
     FaCL                      `verb`       {- taf~-i -}         [ "spit" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; taf~af_1
     -- tff     taf~af  PV      reject with disgust;say "phew"
@@ -1002,7 +1007,9 @@ lexicon = listing "Lexicon's properties"
     -- tkk     tokuk   IV_C    trample underfoot;intoxicate
 
     FaCL                      `verb`       {- tak~-u -}         [ "trample underfoot", "intoxicate" ]
-                              `imperf`     FCuL,
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCuL,
 
     -- ;; tak~-i_1
     -- tk      tak~    PV_V    tick
@@ -1011,7 +1018,9 @@ lexicon = listing "Lexicon's properties"
     -- tkk     tokik   IV_C    tick
 
     FaCL                      `verb`       {- tak~-i -}         [ "tick" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; tik~ap_1
     -- tk      tik~    Nap     waistband
@@ -1024,7 +1033,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; tik~ap_2
     -- tk      tik~    NapAt   ticking
 
-    FiCL |< aT                `noun`       {- tik~ap -}         [ "ticking" ] ]
+    FiCL |< aT                `noun`       {- tik~ap -}         [ "ticking" ],
+
+    -- ;; takiy~ap_1
+    -- tky     takiy~  Napdu   monastery;hospice     [[takiy~/NOUN]]
+    -- tkAyA   takAyA  N0_Nhy  monasteries;hospices
+
+    FaL |< Iy |< aT           `noun`       {- takiy~ap -}       [ "monastery", "hospice", "monasteries", "hospices" ],
+
+    -- ;; takiy~ap_2
+    -- tky     takiy~  Napdu   asylum     [[takiy~/NOUN]]
+    -- tkAyA   takAyA  N0_Nhy  asylums
+
+    FaL |< Iy |< aT           `noun`       {- takiy~ap -}       [ "asylum", "asylums" ] ]
 
  |> "t k n k" <| [
 
@@ -1270,7 +1291,7 @@ lexicon = listing "Lexicon's properties"
     -- tly     tolay   IV_Ann_Pass_yu  be followed;be recited
 
     FaCA                      `verb`       {- talA-u -}         [ "follow", "recite", "be followed", "be recited" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCU,
 
     -- ;; >atolaY_1
     -- >tlY    >atolaY PV_0    make follow;put next
@@ -1499,7 +1520,9 @@ lexicon = listing "Lexicon's properties"
     -- tmm     tomim   IV_C    conclude;take place
 
     FaCL                      `verb`       {- tam~-i -}         [ "conclude", "take place" ]
-                              `imperf`     FCiL,
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `ithird`     FCiL,
 
     -- ;; tam~am_1
     -- tmm     tam~am  PV      complete;conclude
@@ -1860,7 +1883,8 @@ lexicon = listing "Lexicon's properties"
     -- tqY     toqaY   IV_0    be devout;be pious
 
     FaCY                      `verb`       {- taqaY-i -}        [ "be devout", "be pious" ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; taqiy~_1
     -- tqy     taqiy~  N/ap    pious;devout     [[taqiy~/ADJ]]
@@ -2558,7 +2582,10 @@ lexicon = listing "Lexicon's properties"
     -- tb      tub     IV_C    repent
 
     FAL                       `verb`       {- tAb-u -}          [ "repent" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; taw~ab_1
     -- twb     taw~ab  PV      make repent
@@ -2613,7 +2640,10 @@ lexicon = listing "Lexicon's properties"
     -- th      tuh     IV_C    go astray;get lost
 
     FAL                       `verb`       {- tAh-u -}          [ "go astray", "get lost" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; taw~ah_1
     -- twh     taw~ah  PV      mislead;confuse
@@ -2703,7 +2733,10 @@ lexicon = listing "Lexicon's properties"
     -- tq      tuq     IV_C    yearn;wish;desire
 
     FAL                       `verb`       {- tAq-u -}          [ "yearn", "wish", "desire" ]
-                              `imperf`     FCuL,
+                              `imperf`     FUL
+                              `imperf`     FuCL
+                              `pfirst`     FuL
+                              `ithird`     FuL,
 
     -- ;; tawoq_1
     -- twq     tawoq   N       desire;longing;yearning
@@ -2859,7 +2892,10 @@ lexicon = listing "Lexicon's properties"
     -- th      tih     IV_C    get lost;perish
 
     FAL                       `verb`       {- tAh-i -}          [ "get lost", "perish" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; tay~ah_1
     -- tyh     tay~ah  PV      mislead;confuse
@@ -2969,7 +3005,10 @@ lexicon = listing "Lexicon's properties"
     -- tm      tim     IV_C_intr       be infatuated;be enslaved
 
     FAL                       `verb`       {- tAm-i -}          [ "be infatuated", "be enslaved" ]
-                              `imperf`     FCiL,
+                              `imperf`     FIL
+                              `imperf`     FiCL
+                              `pfirst`     FiL
+                              `ithird`     FiL,
 
     -- ;; tay~am_1
     -- tym     tay~am  PV      infatuate;enslave
@@ -3438,20 +3477,6 @@ lexicon = listing "Lexicon's properties"
     -- tdrj    tadoruj Napdu   pheasant
 
     Identity                  `noun`       {- tadoruj -}        [ "pheasant" ] ]
-
- |> "tak" <| [
-
-    -- ;; takiy~ap_1
-    -- tky     takiy~  Napdu   monastery;hospice     [[takiy~/NOUN]]
-    -- tkAyA   takAyA  N0_Nhy  monasteries;hospices
-
-    Identity |< Iy |< aT      `noun`       {- takiy~ap -}       [ "monastery", "hospice", "monasteries", "hospices" ],
-
-    -- ;; takiy~ap_2
-    -- tky     takiy~  Napdu   asylum     [[takiy~/NOUN]]
-    -- tkAyA   takAyA  N0_Nhy  asylums
-
-    Identity |< Iy |< aT      `noun`       {- takiy~ap -}       [ "asylum", "asylums" ] ]
 
  |> "talliys" <| [
 

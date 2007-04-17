@@ -5335,54 +5335,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kam' => [
-    {
-      'types' => {
-        'kam' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => 'kam',
-      'form' => 'kam',
-      'lines' => [
-        ';; kam_1',
-        'km      kam     FW-WaBi how many/much   [[kam/REL_PRON]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'how many/much'
-      ],
-      'orig' => 'kam',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'kam' => {
-          'FW-WaBi' => 1
-        }
-      },
-      'entry' => 'kam',
-      'form' => 'kam',
-      'lines' => [
-        ';; kam_2',
-        'km      kam     FW-WaBi how many/much   [[kam/INTERROG_PART]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'how many/much'
-      ],
-      'orig' => 'kam',
-      'prefix' => ''
-    }
-  ],
   'kuwbinhA.g' => [
     {
       'types' => {
@@ -9867,7 +9819,14 @@ $Lexicon = {
         'kAd     kAd     IV_V_intr       almost;hardly;no sooner',
         'kd      kad     IV_C_intr       almost;hardly;no sooner'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kid' => [
+          'FiL'
+        ],
+        'kad' => [
+          'FaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FAL',
@@ -13439,7 +13398,11 @@ $Lexicon = {
         'kyn     kiyn    Nprop   Ken',
         'kn      kin     Nprop   Ken'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kin' => [
+          'FiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCL',
@@ -14599,6 +14562,9 @@ $Lexicon = {
         'kd      kid     IV_C    deceive;harm'
       ],
       'patterns' => {
+        'kid' => [
+          'FiL'
+        ],
         'kiyd' => [
           'FIL',
           'FiCL'
@@ -15550,6 +15516,33 @@ $Lexicon = {
         'brand'
       ],
       'orig' => 'kay~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'likay' => {
+          'FW-Wa' => 1
+        },
+        'kay' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'kay',
+      'form' => 'kay',
+      'lines' => [
+        ';; kay_1',
+        'ky      kay     FW-Wa   in order to  [[kay/CONJ]]',
+        'lky     likay   FW-Wa   in order to  [[likay/CONJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        'in order to'
+      ],
+      'orig' => 'kay',
       'prefix' => ''
     }
   ],
@@ -22012,9 +22005,6 @@ $Lexicon = {
           'IV_V' => 1,
           'CV_V' => 1
         },
-        '\'akAn' => {
-          'PV_V' => 1
-        },
         'kun' => {
           'CV_C' => 1,
           'PV_Cn' => 1,
@@ -22028,22 +22018,18 @@ $Lexicon = {
         ';; kAn-u_1',
         'kAn     kAn     PV_V    was;were',
         'kn      kun     PV_Cn   was;were',
-        '>kAn    >akAn   PV_V    whether...was/were     [[>a/INTERROG_PART+kAn/VERB_PERFECT+a/PVSUFF_SUBJ:3MS]]',
         'kwn     kuwn    IV_V    is;are',
         'kn      kun     IV-n    is;are',
         'kn      kun     CV_C    be',
         'kwn     kuwn    CV_V    be'
       ],
-      'tags' => {
-        '>a/INTERROG_PART+kAn/VERB_PERFECT+a/PVSUFF_SUBJ:3MS' => 1
-      },
       'patterns' => {
         'kuwn' => [
           'FUL',
           'FuCL'
         ],
-        '\'akAn' => [
-          'HaFAL'
+        'kun' => [
+          'FuL'
         ]
       },
       'index' => '1',
@@ -22052,7 +22038,6 @@ $Lexicon = {
       'glosses' => [
         'was',
         'were',
-        'whether...was/were',
         'is',
         'are',
         'be'
@@ -22660,6 +22645,9 @@ $Lexicon = {
         'kiyl' => [
           'FIL',
           'FiCL'
+        ],
+        'kil' => [
+          'FiL'
         ]
       },
       'index' => '1',
@@ -24049,6 +24037,52 @@ $Lexicon = {
     }
   ],
   'k m m' => [
+    {
+      'types' => {
+        'kam' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => 'kam',
+      'form' => 'kam',
+      'lines' => [
+        ';; kam_1',
+        'km      kam     FW-WaBi how many/much   [[kam/REL_PRON]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        'how many/much'
+      ],
+      'orig' => 'kam',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'kam' => {
+          'FW-WaBi' => 1
+        }
+      },
+      'entry' => 'kam',
+      'form' => 'kam',
+      'lines' => [
+        ';; kam_2',
+        'km      kam     FW-WaBi how many/much   [[kam/INTERROG_PART]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaL',
+      'suffix' => '',
+      'glosses' => [
+        'how many/much'
+      ],
+      'orig' => 'kam',
+      'prefix' => ''
+    },
     {
       'types' => {
         'kmum' => {
@@ -32370,6 +32404,46 @@ $Lexicon = {
       ],
       'orig' => 'karAr',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'kuraT' => {
+          'NapAt' => 1
+        },
+        'kurY' => {
+          'N0' => 1
+        },
+        'kurA' => {
+          'Nhy' => 1
+        }
+      },
+      'entry' => 'kur',
+      'form' => 'kuraT',
+      'lines' => [
+        ';; kurap_1',
+        'kr      kur     NapAt   globe;sphere;ball',
+        'krY     kuraY   N0      globes;spheres;balls',
+        'krA     kurA    Nhy     globes;spheres;balls'
+      ],
+      'patterns' => {
+        'kurY' => [
+          'FuCY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'globe',
+        'sphere',
+        'ball',
+        'globes',
+        'spheres',
+        'balls'
+      ],
+      'orig' => 'kurap',
+      'prefix' => ''
     }
   ],
   'kruwk' => [
@@ -36343,35 +36417,6 @@ $Lexicon = {
         'shoulders'
       ],
       'orig' => 'kAhil',
-      'prefix' => ''
-    }
-  ],
-  'kay' => [
-    {
-      'types' => {
-        'likay' => {
-          'FW-Wa' => 1
-        },
-        'kay' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => 'kay',
-      'form' => 'kay',
-      'lines' => [
-        ';; kay_1',
-        'ky      kay     FW-Wa   in order to  [[kay/CONJ]]',
-        'lky     likay   FW-Wa   in order to  [[likay/CONJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'in order to'
-      ],
-      'orig' => 'kay',
       'prefix' => ''
     }
   ],
@@ -42914,44 +42959,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'kur' => [
-    {
-      'types' => {
-        'kuraT' => {
-          'NapAt' => 1
-        },
-        'kurY' => {
-          'N0' => 1
-        },
-        'kurA' => {
-          'Nhy' => 1
-        }
-      },
-      'entry' => 'kur',
-      'form' => 'kuraT',
-      'lines' => [
-        ';; kurap_1',
-        'kr      kur     NapAt   globe;sphere;ball',
-        'krY     kuraY   N0      globes;spheres;balls',
-        'krA     kurA    Nhy     globes;spheres;balls'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'globe',
-        'sphere',
-        'ball',
-        'globes',
-        'spheres',
-        'balls'
-      ],
-      'orig' => 'kurap',
-      'prefix' => ''
-    }
-  ],
   'klAytuwn' => [
     {
       'types' => {
@@ -46698,6 +46705,9 @@ $Lexicon = {
         'kiys' => [
           'FIL',
           'FiCL'
+        ],
+        'kis' => [
+          'FiL'
         ]
       },
       'index' => '1',
