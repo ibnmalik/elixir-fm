@@ -2728,7 +2728,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'surriy' => [
-          'FuCCiy'
+          'FuCCI'
         ],
         'sarriy' => [
           'FaCCI'
@@ -21752,7 +21752,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'Sutee'
@@ -26804,7 +26804,7 @@ $Lexicon = {
         },
         'saqY' => {},
         'sqY' => {
-          'IV_0' => 1
+          'IV_0_Pass_yu' => 1
         },
         'sqiy' => {
           'IV_0hAnn' => 1
@@ -26826,7 +26826,7 @@ $Lexicon = {
         'sq      saq     PV_ttAw give to drink;irrigate',
         'sqy     soqiy   IV_0hAnn        give to drink;irrigate',
         'sq      soq     IV_0hwnyn       give to drink;irrigate',
-        'sqY     soqaY   IV_0    be given to drink;be irrigated'
+        'sqY     soqaY   IV_0_Pass_yu    be given to drink;be irrigated'
       ],
       'patterns' => {
         'saqay' => [
@@ -43511,7 +43511,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'surriy' => [
-          'FuCCiy'
+          'FuCCI'
         ],
         'sarriy' => [
           'FaCCI'
@@ -60243,7 +60243,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'Sony'

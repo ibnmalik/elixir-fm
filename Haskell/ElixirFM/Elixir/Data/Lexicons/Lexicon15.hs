@@ -91,7 +91,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".d .h y" <| [
 
-    FaCiL                     `verb`       {- DaHiy-a -}        [ "be visible", "be in the sun" ],
+    FaCiL                     `verb`       {- DaHiy-a -}        [ "be visible", "be in the sun" ]
+                              `imperf`     FCY,
 
     FaCIL |< aT               `noun`       {- DaHiy~ap -}       [ "victim", "victims" ],
 
@@ -354,7 +355,7 @@ lexicon = listing "Lexicon's properties"
  |> ".d m n" <| [
 
     FaCiL                     `verb`       {- Damin-a -}        [ "guarantee", "insure" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- Dam~an -}         [ "guarantee", "insure" ],
 
@@ -398,7 +399,8 @@ lexicon = listing "Lexicon's properties"
  |> ".d m r" <| [
 
     FaCaL                     `verb`       {- Damar-u -}        [ "become thin", "shrink", "atrophy" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ ".damur PV" ] -},
 
     HaFCaL                    `verb`       {- OaDomar -}        [ "make thin", "make weak", "be thinned", "be weakened" ],
 
@@ -413,8 +415,8 @@ lexicon = listing "Lexicon's properties"
  |> ".d n n" <| [
 
     FaCL                      `verb`       {- Dan~-a -}         [ "hold back", "economize" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `imperf`     FCaL
+                              `pfirst`     FaCiL,
 
     FaCL                      `noun`       {- Dan~ -}           [ "holding back", "economizing" ],
 
@@ -422,7 +424,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".d n y" <| [
 
-    FaCiL                     `verb`       {- Daniy-a -}        [ "become emaciated", "languish" ],
+    FaCiL                     `verb`       {- Daniy-a -}        [ "become emaciated", "languish" ]
+                              `imperf`     FCY,
 
     HaFCY                     `verb`       {- OaDonaY -}        [ "become emaciated", "languish" ],
 

@@ -257,7 +257,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g b y" <| [
 
-    FaCiL                     `verb`       {- gabiy-a -}        [ "be ignorant" ],
+    FaCiL                     `verb`       {- gabiy-a -}        [ "be ignorant" ]
+                              `imperf`     FCY,
 
     FaCIL                     `adj`        {- gabiy~ -}         [ "ignorant", "stupid" ]
                               `plural`     HaFCiLA'
@@ -358,7 +359,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g f y" <| [
 
-    FaCiL                     `verb`       {- gafiy-a -}        [ "doze off" ] ]
+    FaCiL                     `verb`       {- gafiy-a -}        [ "doze off" ]
+                              `imperf`     FCY ]
 
  |> ".g l '" <| [
 
@@ -498,7 +500,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `verb`       {- galaY-i -}        [ "boil" ]
                               `imperf`     FCiL
-                              `imperf`     FCI,
+                              `imperf`     FCI
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- gal~aY -}         [ "boil", "be boiled" ],
 
@@ -631,8 +634,8 @@ lexicon = listing "Lexicon's properties"
  |> ".g n n" <| [
 
     FaCL                      `verb`       {- gan~-a -}         [ "speak through the nose" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `imperf`     FCaL
+                              `pfirst`     FaCiL,
 
     HaFaCL                    `verb`       {- Oagan~ -}         [ "buzz", "drone" ],
 
@@ -650,7 +653,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g n y" <| [
 
-    FaCiL                     `verb`       {- ganiy-a -}        [ "become rich" ],
+    FaCiL                     `verb`       {- ganiy-a -}        [ "become rich" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- gan~aY -}         [ "sing", "be sung" ],
 
@@ -851,11 +855,6 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `verb`       {- OagoraY -}        [ "incite", "induce", "provoke", "be incited", "be provoked" ],
 
-    HaFCY                     `noun`       {- OagoraY -}        [ "be seduced" ]
-                              `plural`     HuFCiy
-                              `plural`     FCY
-                              {- `others` [ "'u.griy PV_intr", ".grY IV_0_Pass_yu" ] -},
-
     HiFCA'                    `noun`       {- IigorA' -}        [ "incitement", "instigation" ],
 
     MuFCI                     `adj`        {- mugoriy -}        [ "inciting", "instigating", "alluring" ],
@@ -992,7 +991,8 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCiL
                               `imperf`     FCI,
 
-    FaCiL                     `verb`       {- gawiy-a -}        [ "covet" ],
+    FaCiL                     `verb`       {- gawiy-a -}        [ "covet" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- gaw~aY -}         [ "mislead", "seduce", "be mislead", "be seduced", "seduced" ],
 

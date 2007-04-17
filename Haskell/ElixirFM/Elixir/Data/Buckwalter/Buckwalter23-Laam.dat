@@ -4476,10 +4476,10 @@ lymwnAd liymuwnAd       Nap_L   lemonade
 ;
 ;--- lyn
 ;; lAn-i_1
-; lAn   lAn     PV_V_intr       be flexible;be delicate
-; ln    lin     PV_Cn_intr      be flexible;be delicate
-lyn     liyn    IV_V_intr_yu    be flexible;be delicate
-ln      lin     IV_C_intr_yu    be flexible;be delicate
+lAn     lAn     PV_V_intr       be flexible;be delicate
+ln      lin     PV_Cn_intr      be flexible;be delicate
+lyn     liyn    IV_V_intr       be flexible;be delicate
+ln      lin     IV_C_intr       be flexible;be delicate
 ;; lay~an_1
 lyn     lay~an  PV-n    soften;placate;moderate
 lyn     lay~in  IV-n_yu soften;placate;moderate

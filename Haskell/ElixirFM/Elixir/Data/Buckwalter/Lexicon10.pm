@@ -8443,7 +8443,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'Ronny',
@@ -18681,7 +18681,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'Rudi'
@@ -35136,7 +35136,7 @@ $Lexicon = {
           'IV_0hwnyn' => 1
         },
         'r^say' => {
-          'IV_Ann' => 1
+          'IV_Ann_Pass_yu' => 1
         },
         'r^suw' => {
           'IV_0hAnn' => 1
@@ -35145,7 +35145,7 @@ $Lexicon = {
           'PV_ttAw' => 1
         },
         'r^sY' => {
-          'IV_0' => 1
+          'IV_0_Pass_yu' => 1
         },
         'ra^sA' => {}
       },
@@ -35158,8 +35158,8 @@ $Lexicon = {
         'r$      ra$     PV_ttAw bribe',
         'r$w     ro$uw   IV_0hAnn        bribe',
         'r$      ro$     IV_0hwnyn       bribe',
-        'r$Y     ro$aY   IV_0    be bribed',
-        'r$y     ro$ay   IV_Ann  be bribed'
+        'r$Y     ro$aY   IV_0_Pass_yu    be bribed',
+        'r$y     ro$ay   IV_Ann_Pass_yu  be bribed'
       ],
       'patterns' => {
         'ra^saw' => [
@@ -40713,7 +40713,7 @@ $Lexicon = {
           'IV_0hAnn' => 1
         },
         'rsY' => {
-          'IV_0' => 1
+          'IV_0_Pass_yu' => 1
         },
         'ras' => {
           'PV_ttAw' => 1
@@ -40732,7 +40732,7 @@ $Lexicon = {
         'rs      ras     PV_ttAw set anchor;disembark',
         'rsw     rosuw   IV_0hAnn        set anchor;disembark',
         'rs      ros     IV_0hwnyn       set anchor;disembark',
-        'rsY     rosaY   IV_0    be anchored;be moored'
+        'rsY     rosaY   IV_0_Pass_yu    be anchored;be moored'
       ],
       'patterns' => {
         'rsuw' => [
@@ -43533,14 +43533,14 @@ $Lexicon = {
           'PV_Atn' => 1
         },
         'rfY' => {
-          'IV_0' => 1
+          'IV_0_Pass_yu' => 1
         },
         'rfuw' => {
           'IV_0hAnn' => 1
         },
         'rafA' => {},
         'rfay' => {
-          'IV_Ann' => 1
+          'IV_Ann_Pass_yu' => 1
         }
       },
       'entry' => 'rafA',
@@ -43552,8 +43552,8 @@ $Lexicon = {
         'rf      raf     PV_ttAw mend;darn',
         'rfw     rofuw   IV_0hAnn        mend;darn',
         'rf      rof     IV_0hwnyn       mend;darn',
-        'rfY     rofaY   IV_0    be mended;be darned',
-        'rfy     rofay   IV_Ann  be mended;be darned'
+        'rfY     rofaY   IV_0_Pass_yu    be mended;be darned',
+        'rfy     rofay   IV_Ann_Pass_yu  be mended;be darned'
       ],
       'patterns' => {
         'rafaw' => [

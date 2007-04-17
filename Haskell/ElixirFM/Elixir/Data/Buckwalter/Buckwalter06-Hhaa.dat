@@ -350,8 +350,8 @@ Hbw     Habaw   PV_Atn  crawl;give
 Hb      Hab     PV_ttAw crawl;give
 Hbw     Hobuw   IV_0hAnn        crawl;give
 Hb      Hob     IV_0hwnyn       crawl;give
-HbY     HobaY   IV_0    be given
-Hby     Hobay   IV_Ann  be given
+HbY     HobaY   IV_0_Pass_yu    be given
+Hby     Hobay   IV_Ann_Pass_yu  be given
 ;; HAbaY_1
 HAbY    HAbaY   PV_0    favor;be partial
 HAbA    HAbA    PV_h    favor;be partial
@@ -2043,7 +2043,7 @@ Hry     Haray   PV_Atn  be able;be possible
 Hr      Har     PV_ttAw_intr    be able;be possible
 Hry     Horiy   IV_0hAnn        be able;be possible
 Hr      Hor     IV_0hwnyn       be able;be possible
-HrY     HoraY   IV_0    be able;be possible
+HrY     HoraY   IV_0_Pass_yu    be able;be possible
 ;; >aHoraY_1
 >HrY    >aHoraY PV_0    make worthy
 AHrY    >aHoraY PV_0    make worthy
@@ -4612,7 +4612,7 @@ Hlw     Halaw   PV_Atn  be sweet;be pleasant
 Hl      Hal     PV_ttAw_intr    be sweet;be pleasant
 Hlw     Holuw   IV_0hAnn        be sweet;be pleasant
 Hl      Hol     IV_0hwnyn       be sweet;be pleasant
-HlY     HolaY   IV_0    be sweet;be pleasant
+HlY     HolaY   IV_0_Pass_yu    be sweet;be pleasant
 ;; HalAF_1
 HlA     HalAF   FW-WaBi sweetness;pleasantness     <pos>HalAF/NOUN</pos>
 HlA     HalA    N0_Nhy  sweetness;pleasantness     <pos>HalAF/NOUN</pos>
@@ -6336,9 +6336,14 @@ mHtwy   muHotawiy       Napdu   containing
 ;--- Hyy(1)
 ;; Hay~-a_1
 Hy      Hay~    PV_V    live;experience;witness
+HyY     HoyaY   IV_0    live;experience;witness
+HyA     HoyA    IV_0    live;experience;witness
+Hyy     Hoyay   IV_Ann  live;experience;witness
+Hy      Hoya    IV_0hwnyn       live;experience;witness
+;; Hayiy-a_1
 Hyy     Hayiy   PV_no-w live;experience;witness
 Hy      Hay     PV_w    live;experience;witness
-HyY     HoyaY   IV_0    live;experience;witness
+HyY     HoyaY   IV_0_Pass_yu    live;experience;witness
 HyA     HoyA    IV_0    live;experience;witness
 Hyy     Hoyay   IV_Ann  live;experience;witness
 Hy      Hoya    IV_0hwnyn       live;experience;witness

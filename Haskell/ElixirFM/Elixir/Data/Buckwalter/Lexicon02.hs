@@ -2073,14 +2073,14 @@ lexicon = listing "Lexicon's properties"
     -- bTn     boTun   IV-n    hide;conceal
 
     FaCaL                     `verb`       {- baTan-u -}        [ "hide", "conceal" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; baTun-u_1
     -- bTn     baTun   PV-n_intr       be paunchy
     -- bTn     boTun   IV-n_intr       be paunchy
 
     FaCuL                     `verb`       {- baTun-u -}        [ "be paunchy" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; baT~an_1
     -- bTn     baT~an  PV-n    cover;resurface
@@ -2990,7 +2990,8 @@ lexicon = listing "Lexicon's properties"
     -- b*}     bo*u}   IV_yn   be shameless;be obscene
 
     FaCiL                     `verb`       {- ba*i}-u -}        [ "be shameless", "be obscene" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "ba_du' PV" ] -},
 
     -- ;; ba*iy'_1
     -- b*y'    ba*iy'  N0      disgusting;obscene     [[ba*iy'/ADJ]]
@@ -4647,14 +4648,14 @@ lexicon = listing "Lexicon's properties"
     -- bdn     bodun   IV-n_intr       be corpulent
 
     FaCuL                     `verb`       {- badun-u -}        [ "be corpulent" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; badan-u_1
     -- bdn     badan   PV-n_intr       be corpulent
     -- bdn     bodun   IV-n_intr       be corpulent
 
     FaCaL                     `verb`       {- badan-u -}        [ "be corpulent" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; badan_1
     -- bdn     badan   N       body
@@ -5678,7 +5679,8 @@ lexicon = listing "Lexicon's properties"
     -- bhy     bohay   IV_Ann  be beautiful
     -- bh      boha    IV_0hwnyn       be beautiful
 
-    FaCiL                     `verb`       {- bahiy-a -}        [ "be beautiful" ],
+    FaCiL                     `verb`       {- bahiy-a -}        [ "be beautiful" ]
+                              `imperf`     FCY,
 
     -- ;; mutabAhiy_1
     -- mtbAhy  mutabAhiy       N0F_Nh  proud;boastful
@@ -5731,6 +5733,7 @@ lexicon = listing "Lexicon's properties"
     -- bkY     bokaY   IV_0    cry;weep
 
     FaCY                      `verb`       {- bakaY-i -}        [ "cry", "weep" ]
+                              `imperf`     FCY
                               `imperf`     FCI,
 
     -- ;; bak~aY_1
@@ -6174,7 +6177,8 @@ lexicon = listing "Lexicon's properties"
     -- bky     bokay   IV_Ann  mourn
     -- bk      boka    IV_0hwnyn       mourn
 
-    FaCiL                     `verb`       {- bakiy-a -}        [ "mourn" ],
+    FaCiL                     `verb`       {- bakiy-a -}        [ "mourn" ]
+                              `imperf`     FCY,
 
     -- ;; bAkiy_1
     -- bAky    bAkiy   N0F     mourner;weeping
@@ -7446,7 +7450,8 @@ lexicon = listing "Lexicon's properties"
     -- bly     bolay   IV_Ann  deteriorate
     -- bl      bola    IV_0hwnyn       deteriorate
 
-    FaCiL                     `verb`       {- baliy-a -}        [ "deteriorate" ],
+    FaCiL                     `verb`       {- baliy-a -}        [ "deteriorate" ]
+                              `imperf`     FCY,
 
     -- ;; baliy~_1
     -- bly     baliy~  N       dilapidated;worn
@@ -8038,7 +8043,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwniy_1
     -- bwny    buwniy  Nprop   Boni
 
-    FUCiy                     `noun`       {- buwniy -}         [ "Boni" ] ]
+    FUCI                      `noun`       {- buwniy -}         [ "Boni" ] ]
 
  |> "b n q" <| [
 
@@ -8631,7 +8636,8 @@ lexicon = listing "Lexicon's properties"
     -- bqy     boqay   IV_Ann  remain;last
     -- bq      boqa    IV_0hwnyn       remain;last
 
-    FaCiL                     `verb`       {- baqiy-a -}        [ "remain", "last" ],
+    FaCiL                     `verb`       {- baqiy-a -}        [ "remain", "last" ]
+                              `imperf`     FCY,
 
     -- ;; bAqiy_1
     -- bAqy    bAqiy   N0      Baqi
@@ -10404,7 +10410,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwriy_1
     -- bwry    buwriy  N/At    bugle;signal horn
 
-    FUCiy                     `noun`       {- buwriy -}         [ "bugle", "signal horn" ] ]
+    FUCI                      `noun`       {- buwriy -}         [ "bugle", "signal horn" ] ]
 
  |> "b r s" <| [
 
@@ -11314,7 +11320,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwtiy_1
     -- bwty    buwtiy  Nprop   Petit
 
-    FUCiy                     `noun`       {- buwtiy -}         [ "Petit" ] ]
+    FUCI                      `noun`       {- buwtiy -}         [ "Petit" ] ]
 
  |> "b t k" <| [
 

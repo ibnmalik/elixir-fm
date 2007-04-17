@@ -20517,7 +20517,7 @@ $Lexicon = {
     {
       'types' => {
         '.smY' => {
-          'IV_0' => 1
+          'IV_0_Pass_yu' => 1
         },
         '.sam' => {
           'PV_ttAw_intr' => 1
@@ -20542,7 +20542,7 @@ $Lexicon = {
         'Sm      Sam     PV_ttAw_intr    be fatally wounded',
         'Smy     Somiy   IV_0hAnn        be fatally wounded',
         'Sm      Som     IV_0hwnyn       be fatally wounded',
-        'SmY     SomaY   IV_0    be fatally wounded'
+        'SmY     SomaY   IV_0_Pass_yu    be fatally wounded'
       ],
       'patterns' => {
         '.smY' => [

@@ -1659,7 +1659,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'lobby'
@@ -12661,7 +12661,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'lorry',
@@ -14850,7 +14850,7 @@ $Lexicon = {
         ],
         '\'ulqiy' => [
           'HuFCiL',
-          'HuFCiy'
+          'HuFCI'
         ]
       },
       'index' => '1',
@@ -17695,19 +17695,22 @@ $Lexicon = {
     {
       'types' => {
         'liyn' => {
-          'IV_V_intr_yu' => 1
+          'IV_V_intr' => 1
         },
-        'lAn' => {},
         'lin' => {
-          'IV_C_intr_yu' => 1
-        }
+          'IV_C_intr' => 1,
+          'PV_Cn_intr' => 1
+        },
+        'lAn' => {}
       },
       'entry' => 'lAn',
       'form' => 'lAn',
       'lines' => [
         ';; lAn-i_1',
-        'lyn     liyn    IV_V_intr_yu    be flexible;be delicate',
-        'ln      lin     IV_C_intr_yu    be flexible;be delicate'
+        'lAn     lAn     PV_V_intr       be flexible;be delicate',
+        'ln      lin     PV_Cn_intr      be flexible;be delicate',
+        'lyn     liyn    IV_V_intr       be flexible;be delicate',
+        'ln      lin     IV_C_intr       be flexible;be delicate'
       ],
       'patterns' => {
         'liyn' => [

@@ -60,7 +60,8 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCuL
                               `imperf`     FCU,
 
-    FaCY                      `verb`       {- TagaY-a -}        [ "dominate", "control", "be tyrannical" ],
+    FaCY                      `verb`       {- TagaY-a -}        [ "dominate", "control", "be tyrannical" ]
+                              `imperf`     FCY,
 
     FaCY                      `noun`       {- TagaY -}          [ "excess", "tyranny" ]
                               `plural`     FaCA
@@ -105,7 +106,7 @@ lexicon = listing "Lexicon's properties"
  |> ".t ` n" <| [
 
     FaCaL                     `verb`       {- TaEan-a -}        [ "stab", "challenge" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     FaCL                      `noun`       {- TaEon -}          [ "stabbing", "challenging" ]
                               `plural`     FuCUL
@@ -335,7 +336,8 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCuL
                               `imperf`     FCU,
 
-    FaCY                      `verb`       {- TahaY-a -}        [ "cook", "stew" ],
+    FaCY                      `verb`       {- TahaY-a -}        [ "cook", "stew" ]
+                              `imperf`     FCY,
 
     FACI                      `noun`       {- TAhiy -}          [ "cook", "cooks" ] ]
 
@@ -507,7 +509,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `verb`       {- TalaY-i -}        [ "paint" ]
                               `imperf`     FCiL
-                              `imperf`     FCI ]
+                              `imperf`     FCI
+                              `imperf`     FCY ]
 
  |> ".t m ' n" <| [
 
@@ -599,8 +602,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`       {- Tan~-i -}         [ "sound", "ring out" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `imperf`     FCiL
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`       {- Tan~an -}         [ "resound" ],
 
@@ -618,7 +621,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HiFCAL |< At
                               {- `others` [ "'i.tnAn N/At" ] -},
 
-    FUCiy                     `noun`       {- Tuwniy -}         [ "Tony" ] ]
+    FUCI                      `noun`       {- Tuwniy -}         [ "Tony" ] ]
 
  |> ".t q m" <| [
 
@@ -852,7 +855,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCuL                     `verb`       {- Taruw-u -}        [ "be fresh", "be tender" ]
                               `imperf`     FCuL
-                              `imperf`     FCU,
+                              `imperf`     FCU
+                              {- `others` [ ".tarA PV" ] -},
 
     FaCCY                     `verb`       {- Tar~aY -}         [ "tenderize", "freshen", "be tenderized", "be freshened" ],
 
@@ -862,7 +866,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t r y" <| [
 
-    FaCiL                     `verb`       {- Tariy-a -}        [ "be fresh", "be tender" ],
+    FaCiL                     `verb`       {- Tariy-a -}        [ "be fresh", "be tender" ]
+                              `imperf`     FCY,
 
     FaCIL                     `adj`        {- Tariy~ -}         [ "fresh", "tender" ],
 

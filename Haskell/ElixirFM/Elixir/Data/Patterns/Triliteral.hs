@@ -189,7 +189,7 @@ instance Forming PatternT where
         (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
         (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
         (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      ),
-        (   FaCCY,      FuCCiy,     FaCCI,      FaCCY       ),
+        (   FaCCY,      FuCCI,      FaCCI,      FaCCY       ),
         (   FaCCaL,     FuCCiL,     FaCCiL,     FaCCaL      )
 
         ]
@@ -200,7 +200,7 @@ instance Forming PatternT where
         (   FACaL,      FUCiL,      FACiL,      FACaL       ),
         (   FACaL,      FUCiL,      FACiL,      FACaL       ),
         (   FACaL,      FUCiL,      FACiL,      FACaL       ),
-        (   FACY,       FUCiy,      FACI,       FACY        ),
+        (   FACY,       FUCI,       FACI,       FACY        ),
         (   FACL,       FUCL,       FACL,       FACL        )
 
         ]
@@ -211,7 +211,7 @@ instance Forming PatternT where
         (   HaFCaL,     HuFCiL,     FCiL,       FCaL        ),
         (   HaFCaL,     HUCiL,      UCiL,       UCaL        ),
         (   HaFAL,      HuFIL,      FIL,        FAL         ),
-        (   HaFCY,      HuFCiy,     FCI,        FCY         ),
+        (   HaFCY,      HuFCI,      FCI,        FCY         ),
         (   HaFaCL,     HuFiCL,     FiCL,       FaCL        )
 
         ]
@@ -222,7 +222,7 @@ instance Forming PatternT where
         (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
         (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
         (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    ),
-        (   TaFaCCY,    TuFuCCiy,   TaFaCCY,    TaFaCCY     ),
+        (   TaFaCCY,    TuFuCCI,    TaFaCCY,    TaFaCCY     ),
         (   TaFaCCaL,   TuFuCCiL,   TaFaCCaL,   TaFaCCaL    )
 
         ]
@@ -233,7 +233,7 @@ instance Forming PatternT where
         (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
         (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
         (   TaFACaL,    TuFUCiL,    TaFACaL,    TaFACaL     ),
-        (   TaFACY,     TuFUCiy,    TaFACY,     TaFACY      ),
+        (   TaFACY,     TuFUCI,     TaFACY,     TaFACY      ),
         (   TaFACL,     TuFUCL,     TaFACL,     TaFACL      )
 
         ]
@@ -244,7 +244,7 @@ instance Forming PatternT where
         (   InFaCaL,    UnFuCiL,    NFaCiL,     NFaCaL      ),
         (   InFaCaL,    UnFuCiL,    NFaCiL,     NFaCaL      ),
         (   InFAL,      UnFIL,      NFAL,       NFAL        ),
-        (   InFaCY,     UnFuCiy,    NFaCI,      NFaCY       ),
+        (   InFaCY,     UnFuCI,     NFaCI,      NFaCY       ),
         (   InFaCL,     UnFuCL,     NFaCL,      NFaCL       )
 
         ]
@@ -255,7 +255,7 @@ instance Forming PatternT where
         (   IFtaCaL,    UFtuCiL,    FtaCiL,     FtaCaL      ),
         (   IFtaCaL,    UFtuCiL,    FtaCiL,     FtaCaL      ),
         (   IFtAL,      UFtIL,      FtAL,       FtAL        ),
-        (   IFtaCY,     UFtuCiy,    FtaCI,      FtaCY       ),
+        (   IFtaCY,     UFtuCI,     FtaCI,      FtaCY       ),
         (   IFtaCL,     UFtuCL,     FtaCL,      FtaCL       )
 
         ]
@@ -273,7 +273,7 @@ instance Forming PatternT where
         (   IstaFCaL,   UstuFCiL,   StaFCiL,    StaFCaL     ),
         (   IstaFCaL,   UstuFCiL,   StaFCiL,    StaFCaL     ),
         (   IstaFAL,    UstuFIL,    StaFIL,     StaFAL      ),
-        (   IstaFCY,    UstuFCiy,   StaFCI,     StaFCY      ),
+        (   IstaFCY,    UstuFCI,    StaFCI,     StaFCY      ),
         (   IstaFaCL,   UstuFiCL,   StaFiCL,    StaFaCL     )
 
         ]
@@ -476,7 +476,7 @@ data PatternT =
 --  Form II
 
         |   FaCCaL                                                              |   FaCCY
-        |   FuCCiL                                                              |   FuCCiy
+        |   FuCCiL                                                              |   FuCCI
 
         |   FaCCiL                                                              |   FaCCI
 
@@ -491,7 +491,7 @@ data PatternT =
 --  Form III
 
         |   FACaL                                                               |   FACY                |   FACL
-        |   FUCiL                                                               |   FUCiy               |   FUCL
+        |   FUCiL                                                               |   FUCI                |   FUCL
 
         |   FACiL                                                               |   FACI
 
@@ -501,7 +501,7 @@ data PatternT =
 --  Form IV
 
         |   HaFCaL                                      |   HaFAL               |   HaFCY               |   HaFaCL
-        |   HuFCiL              |   HUCiL               |   HuFIL               |   HuFCiy              |   HuFiCL
+        |   HuFCiL              |   HUCiL               |   HuFIL               |   HuFCI               |   HuFiCL
 
                                 |   UCiL
                                 |   UCaL
@@ -517,7 +517,7 @@ data PatternT =
 --  Form V
 
         |   TaFaCCaL                                                            |   TaFaCCY
-        |   TuFuCCiL                                                            |   TuFuCCiy
+        |   TuFuCCiL                                                            |   TuFuCCI
 
         |   TaFaCCuL                                                            |   TaFaCCI
 
@@ -527,7 +527,7 @@ data PatternT =
 --  Form VI
 
         |   TaFACaL                                                             |   TaFACY              |   TaFACL
-        |   TuFUCiL                                                             |   TuFUCiy             |   TuFUCL
+        |   TuFUCiL                                                             |   TuFUCI              |   TuFUCL
 
         |   TaFACuL                                                             |   TaFACI
 
@@ -537,7 +537,7 @@ data PatternT =
 --  Form VII
 
         |   InFaCaL                                     |   InFAL               |   InFaCY              |   InFaCL
-        |   UnFuCiL                                     |   UnFIL               |   UnFuCiy             |   UnFuCL
+        |   UnFuCiL                                     |   UnFIL               |   UnFuCI              |   UnFuCL
 
         |   NFaCiL                                      |   NFAL                |   NFaCI               |   NFaCL
         |   NFaCaL                                                              |   NFaCY
@@ -550,7 +550,7 @@ data PatternT =
 --  Form VIII
 
         |   IFtaCaL                                     |   IFtAL               |   IFtaCY              |   IFtaCL
-        |   UFtuCiL                                     |   UFtIL               |   UFtuCiy             |   UFtuCL
+        |   UFtuCiL                                     |   UFtIL               |   UFtuCI              |   UFtuCL
 
         |   FtaCiL                                      |   FtAL                |   FtaCI               |   FtaCL
         |   FtaCaL                                                              |   FtaCY
@@ -574,7 +574,7 @@ data PatternT =
 --  Form X
 
         |   IstaFCaL                                    |   IstaFAL             |   IstaFCY             |   IstaFaCL
-        |   UstuFCiL                                    |   UstuFIL             |   UstuFCiy            |   UstuFiCL
+        |   UstuFCiL                                    |   UstuFIL             |   UstuFCI             |   UstuFiCL
 
         |   StaFCiL                                     |   StaFIL              |   StaFCI              |   StaFiCL
         |   StaFCaL                                     |   StaFAL              |   StaFCY              |   StaFaCL

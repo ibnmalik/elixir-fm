@@ -301,7 +301,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "z k y" <| [
 
-    FaCiL                     `verb`       {- zakiy-a -}        [ "grow", "increase" ],
+    FaCiL                     `verb`       {- zakiy-a -}        [ "grow", "increase" ]
+                              `imperf`     FCY,
 
     FaCIL                     `adj`        {- zakiy~ -}         [ "pure", "blameless" ]
                               `plural`     HaFCiLA'
@@ -390,7 +391,7 @@ lexicon = listing "Lexicon's properties"
  |> "z m n" <| [
 
     FaCiL                     `verb`       {- zamin-a -}        [ "be chronically ill" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     HaFCaL                    `verb`       {- Oazoman -}        [ "remain", "become chronic" ],
 
@@ -443,9 +444,9 @@ lexicon = listing "Lexicon's properties"
  |> "z n n" <| [
 
     FaCL                      `verb`       {- zan~-u -}         [ "drone", "buzz" ]
+                              `imperf`     FCuL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`       {- zan~ -}           [ "droning", "buzzing" ] ]
 
@@ -849,10 +850,10 @@ lexicon = listing "Lexicon's properties"
  |> "z y n" <| [
 
     FAL                       `verb`       {- zAn-i -}          [ "decorate", "adorn" ]
+                              `imperf`     FiL
                               `imperf`     FIL
                               `imperf`     FiCL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCCaL                    `verb`       {- zay~an -}         [ "embellish", "decorate" ],
 

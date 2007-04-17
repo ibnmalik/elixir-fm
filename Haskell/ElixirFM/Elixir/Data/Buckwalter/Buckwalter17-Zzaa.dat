@@ -216,9 +216,9 @@ Zlwf    Zuluwf  N       cloven hoof
 AZlAf   >aZolAf N       cloven hoof
 ;
 ;--- Zlm
-;; Zalam-ia_1
+;; Zalam-i_1
 Zlm     Zalam   PV_intr be unjust;oppress
-Zlm     Zolim   IV_intr_yu      be unjust;oppress
+Zlm     Zolim   IV_intr be unjust;oppress
 Zlm     Zolam   IV_Pass_yu      be oppressed
 ;; >aZolam_1
 >Zlm    >aZolam PV_intr become dark

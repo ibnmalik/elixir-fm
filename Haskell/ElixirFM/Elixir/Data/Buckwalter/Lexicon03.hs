@@ -429,7 +429,8 @@ lexicon = listing "Lexicon's properties"
     -- tEs     toEas   IV      perish;be miserable
 
     FaCaL                     `verb`       {- taEas-ia -}       [ "perish", "be miserable" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "ta`is PV" ] -},
 
     -- ;; >atoEas_1
     -- >tEs    >atoEas PV      make unhappy;make miserable
@@ -1625,7 +1626,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuwmiy_1
     -- twmy    tuwmiy  Nprop   Tommy
 
-    FUCiy                     `noun`       {- tuwmiy -}         [ "Tommy" ] ]
+    FUCI                      `noun`       {- tuwmiy -}         [ "Tommy" ] ]
 
  |> "t m r" <| [
 
@@ -1767,12 +1768,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuwniy_1
     -- twny    tuwniy  Nprop   Toni
 
-    FUCiy                     `noun`       {- tuwniy -}         [ "Toni" ],
+    FUCI                      `noun`       {- tuwniy -}         [ "Toni" ],
 
     -- ;; tuwniy_2
     -- twny    tuwniy  N0      Toni
 
-    FUCiy                     `noun`       {- tuwniy -}         [ "Toni" ] ]
+    FUCI                      `noun`       {- tuwniy -}         [ "Toni" ] ]
 
  |> "t n r" <| [
 
@@ -1880,7 +1881,7 @@ lexicon = listing "Lexicon's properties"
     -- tq      taq     PV_ttAw_intr    be devout;be pious
     -- tqy     toqiy   IV_0hAnn        be devout;be pious
     -- tq      toq     IV_0hwnyn       be devout;be pious
-    -- tqY     toqaY   IV_0    be devout;be pious
+    -- tqY     toqaY   IV_0_Pass_yu    be devout;be pious
 
     FaCY                      `verb`       {- taqaY-i -}        [ "be devout", "be pious" ]
                               `imperf`     FCiL

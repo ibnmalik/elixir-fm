@@ -593,8 +593,8 @@ lexicon = listing "Lexicon's properties"
  |> "k h n" <| [
 
     FaCaL                     `verb`       {- kahan-ua -}       [ "foresee", "predict", "prophesy" ]
-                              `ithird`     FCuL
-                              `ithird`     FCaL,
+                              `imperf`     FCuL
+                              `imperf`     FCaL,
 
     TaFaCCaL                  `verb`       {- takah~an -}       [ "predict", "prophesy" ],
 
@@ -745,7 +745,8 @@ lexicon = listing "Lexicon's properties"
  |> "k m l" <| [
 
     FaCaL                     `verb`       {- kamal-u -}        [ "become complete", "become perfect", "be concluded" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "kamul PV" ] -},
 
     FaCiL                     `verb`       {- kamil-a -}        [ "become complete", "become perfect", "be concluded" ]
                               `imperf`     FCaL,
@@ -810,10 +811,10 @@ lexicon = listing "Lexicon's properties"
  |> "k m n" <| [
 
     FaCaL                     `verb`       {- kaman-u -}        [ "be latent", "be concealed" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCiL                     `verb`       {- kamin-a -}        [ "be latent", "be concealed" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     TaFaCCaL                  `verb`       {- takam~an -}       [ "be latent", "be concealed" ],
 
@@ -875,9 +876,9 @@ lexicon = listing "Lexicon's properties"
  |> "k n n" <| [
 
     FaCL                      `verb`       {- kan~-i -}         [ "conceal", "hide" ]
+                              `imperf`     FCiL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     HaFaCL                    `verb`       {- Oakan~ -}         [ "conceal", "hide", "be concealed", "be hidden" ],
 
@@ -1151,7 +1152,8 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCiL
                               `imperf`     FCI,
 
-    FaCiL                     `verb`       {- kariy-a -}        [ "sleep" ],
+    FaCiL                     `verb`       {- kariy-a -}        [ "sleep" ]
+                              `imperf`     FCY,
 
     FACY                      `verb`       {- kAraY -}          [ "rent", "lease", "be rented", "be leased" ],
 
@@ -1247,7 +1249,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "k s y" <| [
 
-    FaCiL                     `verb`       {- kasiy-a -}        [ "get dressed" ] ]
+    FaCiL                     `verb`       {- kasiy-a -}        [ "get dressed" ]
+                              `imperf`     FCY ]
 
  |> "k t ' b" <| [
 
@@ -1475,8 +1478,8 @@ lexicon = listing "Lexicon's properties"
     FAL                       `verb`       {- kAn-u -}          [ "was", "were", "is", "are", "be" ]
                               `imperf`     FUL
                               `imperf`     FuCL
+                              `imperf`     FuL
                               `pfirst`     FuL
-                              `ithird`     FuL
                               `second`     FuL,
 
     FaCCaL                    `verb`       {- kaw~an -}         [ "create" ],

@@ -439,7 +439,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "_h ^s y" <| [
 
-    FaCiL                     `verb`       {- xa$iy-a -}        [ "fear", "be afraid" ],
+    FaCiL                     `verb`       {- xa$iy-a -}        [ "fear", "be afraid" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- xa$~aY -}         [ "frighten", "alarm", "be frighten", "be alarmed" ],
 
@@ -740,7 +741,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "_h f y" <| [
 
-    FaCiL                     `verb`       {- xafiy-a -}        [ "be hidden" ],
+    FaCiL                     `verb`       {- xafiy-a -}        [ "be hidden" ]
+                              `imperf`     FCY,
 
     FaCY                      `verb`       {- xafaY-i -}        [ "hide", "conceal" ]
                               `imperf`     FCiL
@@ -1190,8 +1192,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`       {- xan~-i -}         [ "nasalize", "twang" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL ]
+                              `imperf`     FCiL
+                              `pfirst`     FaCaL ]
 
  |> "_h n q" <| [
 
@@ -1410,9 +1412,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`       {- xar~ -}           [ "falling down", "collapse" ],
 
-    FUCiy                     `noun`       {- xuwriy -}         [ "priest", "priests" ],
+    FUCI                      `noun`       {- xuwriy -}         [ "priest", "priests" ],
 
-    FUCiy                     `noun`       {- xuwriy -}         [ "Khouri" ] ]
+    FUCI                      `noun`       {- xuwriy -}         [ "Khouri" ] ]
 
  |> "_h r s" <| [
 
@@ -1571,8 +1573,8 @@ lexicon = listing "Lexicon's properties"
     FAL                       `verb`       {- xAn-u -}          [ "betray", "deceive", "fail" ]
                               `imperf`     FUL
                               `imperf`     FuCL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `imperf`     FuL
+                              `pfirst`     FuL,
 
     FaCCAL                    `noun`       {- xaw~An -}         [ "traitor", "treacherous" ],
 
@@ -1777,7 +1779,7 @@ lexicon = listing "Lexicon's properties"
  |> "_h z n" <| [
 
     FaCaL                     `verb`       {- xazan-u -}        [ "store", "amass" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCCaL                    `verb`       {- xaz~an -}         [ "store", "hoard" ],
 
@@ -1809,9 +1811,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "_h z y" <| [
 
-    FaCiL                     `verb`       {- xaziy-a -}        [ "be despicable" ],
+    FaCiL                     `verb`       {- xaziy-a -}        [ "be despicable" ]
+                              `imperf`     FCY,
 
     FaCY                      `verb`       {- xazaY-i -}        [ "disgrace", "humiliate" ]
+                              `imperf`     FCY
                               `imperf`     FCiL
                               `imperf`     FCI,
 

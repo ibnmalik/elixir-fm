@@ -1492,7 +1492,7 @@ lexicon = listing "Lexicon's properties"
     -- jbn     jobun   IV-n_intr       be a coward;be fearful
 
     FaCuL                     `verb`       {- jabun-u -}        [ "be a coward", "be fearful" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; jab~an_1
     -- jbn     jab~an  PV-n    make curdle;call a coward
@@ -1972,7 +1972,8 @@ lexicon = listing "Lexicon's properties"
     -- jdb     jodub   IV_intr be barren;be arid
 
     FaCuL                     `verb`       {- jadub-u -}        [ "be barren", "be arid" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "^gadab PV" ] -},
 
     -- ;; >ajodab_1
     -- >jdb    >ajodab PV_intr be barren;explode in the barrel
@@ -2696,8 +2697,8 @@ lexicon = listing "Lexicon's properties"
     -- jf      jaf     PV_ttAw_intr    be rough;shun
     -- jfw     jofuw   IV_0hAnn        be rough;shun
     -- jf      jof     IV_0hwnyn       be rough;shun
-    -- jfY     jofaY   IV_0    be rough;shun
-    -- jfy     jofay   IV_Ann  be rough;shun
+    -- jfY     jofaY   IV_0_Pass_yu    be rough;shun
+    -- jfy     jofay   IV_Ann_Pass_yu  be rough;shun
 
     FaCA                      `verb`       {- jafA-u -}         [ "be rough", "shun" ]
                               `imperf`     FCU,
@@ -3245,7 +3246,8 @@ lexicon = listing "Lexicon's properties"
     -- jhy     johay   IV_Ann  collapse;fall
     -- jh      joha    IV_0hwnyn       collapse;fall
 
-    FaCiL                     `verb`       {- jahiy-a -}        [ "collapse", "fall" ],
+    FaCiL                     `verb`       {- jahiy-a -}        [ "collapse", "fall" ]
+                              `imperf`     FCY,
 
     -- ;; >ajohaY_1
     -- >jhY    >ajohaY N0      roofless;bald
@@ -3332,7 +3334,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; juwkiy_1
     -- jwky    juwkiy  N0      jockey
 
-    FUCiy                     `noun`       {- juwkiy -}         [ "jockey" ] ]
+    FUCI                      `noun`       {- juwkiy -}         [ "jockey" ] ]
 
  |> "^g k r" <| [
 
@@ -4075,7 +4077,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; juwliy_1
     -- jwly    juwliy  Nprop   Julie
 
-    FUCiy                     `noun`       {- juwliy -}         [ "Julie" ] ]
+    FUCI                      `noun`       {- juwliy -}         [ "Julie" ] ]
 
  |> "^g l m" <| [
 
@@ -4850,7 +4852,8 @@ lexicon = listing "Lexicon's properties"
     -- jmd     jomud   IV_intr freeze;become hard
 
     FaCaL                     `verb`       {- jamad-u -}        [ "freeze", "become hard" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "^gamud PV" ] -},
 
     -- ;; jam~ad_1
     -- jmd     jam~ad  PV      freeze;harden
@@ -5749,9 +5752,9 @@ lexicon = listing "Lexicon's properties"
     -- jnn     jonun   IV-n    conceal;become dark
 
     FaCL                      `verb`       {- jan~-u -}         [ "conceal", "become dark" ]
+                              `imperf`     FCuL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; jan~-u_2
     -- jn      jan~    PV_V    go crazy;become insane
@@ -5760,9 +5763,9 @@ lexicon = listing "Lexicon's properties"
     -- jnn     jonun   IV-n    go crazy;become insane
 
     FaCL                      `verb`       {- jan~-u -}         [ "go crazy", "become insane" ]
+                              `imperf`     FCuL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; jan~an_1
     -- jnn     jan~an  PV-n    drive insane;make crazy;infuriate
@@ -6573,7 +6576,8 @@ lexicon = listing "Lexicon's properties"
     -- jrE     joraE   IV      absorb;swallow;devour
 
     FaCaL                     `verb`       {- jaraE-ia -}       [ "absorb", "swallow", "devour" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "^gari` PV" ] -},
 
     -- ;; jar~aE_1
     -- jrE     jar~aE  PV      make swallow;gulp down
@@ -7750,7 +7754,7 @@ lexicon = listing "Lexicon's properties"
     -- js      jas     PV_ttAw_intr    become hard;become solid
     -- jsw     josuw   IV_0hAnn        become hard;become solid
     -- js      jos     IV_0hwnyn       become hard;become solid
-    -- jsY     josaY   IV_0    become hard;become solid
+    -- jsY     josaY   IV_0_Pass_yu    become hard;become solid
 
     FaCA                      `verb`       {- jasA-u -}         [ "become hard", "become solid" ]
                               `imperf`     FCuL
@@ -8722,7 +8726,8 @@ lexicon = listing "Lexicon's properties"
     -- jwy     joway   IV_Ann  be stricken;be overcome
     -- jw      jowa    IV_0hwnyn       be stricken;be overcome
 
-    FaCiL                     `verb`       {- jawiy-a -}        [ "be stricken", "be overcome" ],
+    FaCiL                     `verb`       {- jawiy-a -}        [ "be stricken", "be overcome" ]
+                              `imperf`     FCY,
 
     -- ;; tajaw~aY_1
     -- tjwY    tajaw~aY        PV_0    crumble

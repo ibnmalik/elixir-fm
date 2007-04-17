@@ -346,10 +346,10 @@ lexicon = listing "Lexicon's properties"
  |> "b .t n" <| [
 
     FaCaL                     `verb`       {- baTan-u -}        [ "hide", "conceal" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCuL                     `verb`       {- baTun-u -}        [ "be paunchy" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCCaL                    `verb`       {- baT~an -}         [ "cover", "resurface" ],
 
@@ -868,7 +868,7 @@ lexicon = listing "Lexicon's properties"
  |> "b d n" <| [
 
     FaCaL                     `verb`       {- badan-u -}        [ "be corpulent" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCaL                     `noun`       {- badan -}          [ "body", "bodies" ]
                               `plural`     HaFCAL
@@ -1044,7 +1044,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "b h y" <| [
 
-    FaCiL                     `verb`       {- bahiy-a -}        [ "be beautiful" ] ]
+    FaCiL                     `verb`       {- bahiy-a -}        [ "be beautiful" ]
+                              `imperf`     FCY ]
 
  |> "b k '" <| [
 
@@ -1054,6 +1055,7 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ "bikA' N0" ] -},
 
     FaCY                      `verb`       {- bakaY-i -}        [ "cry", "weep" ]
+                              `imperf`     FCY
                               `imperf`     FCI,
 
     FaCCY                     `verb`       {- bak~aY -}         [ "make cry", "be made to cry" ],
@@ -1137,7 +1139,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "b k y" <| [
 
-    FaCiL                     `verb`       {- bakiy-a -}        [ "mourn" ],
+    FaCiL                     `verb`       {- bakiy-a -}        [ "mourn" ]
+                              `imperf`     FCY,
 
     FACiL                     `noun`       {- bAkiy -}          [ "mourner", "weeping", "mourners", "weepers" ]
                               `plural`     FawACiL
@@ -1393,7 +1396,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "b l y" <| [
 
-    FaCiL                     `verb`       {- baliy-a -}        [ "deteriorate" ],
+    FaCiL                     `verb`       {- baliy-a -}        [ "deteriorate" ]
+                              `imperf`     FCY,
 
     FACiL                     `noun`       {- bAliy -}          [ "dilapidated", "worn" ] ]
 
@@ -1628,7 +1632,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "b q y" <| [
 
-    FaCiL                     `verb`       {- baqiy-a -}        [ "remain", "last" ],
+    FaCiL                     `verb`       {- baqiy-a -}        [ "remain", "last" ]
+                              `imperf`     FCY,
 
     FACiL                     `noun`       {- bAqiy -}          [ "Baqi" ],
 

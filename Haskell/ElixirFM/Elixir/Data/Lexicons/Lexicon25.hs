@@ -231,7 +231,8 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCuL
                               `imperf`     FCU,
 
-    FaCY                      `verb`       {- naHaY-a -}        [ "go towards", "move towards" ],
+    FaCY                      `verb`       {- naHaY-a -}        [ "go towards", "move towards" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- naH~aY -}         [ "put aside", "eliminate", "be put aside", "be eliminated" ],
 
@@ -1170,7 +1171,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "n ` y" <| [
 
-    FaCY                      `verb`       {- naEaY-a -}        [ "announce the death of" ],
+    FaCY                      `verb`       {- naEaY-a -}        [ "announce the death of" ]
+                              `imperf`     FCY,
 
     FaCY                      `verb`       {- naEaY-i -}        [ "mourn", "lament", "be mourned", "be lamented" ]
                               `imperf`     FCiL
@@ -1531,7 +1533,8 @@ lexicon = listing "Lexicon's properties"
 
     FACiL |< aT               `noun`       {- nAdiyap -}        [ "Nadia" ],
 
-    FaCiL                     `verb`       {- nadiy-a -}        [ "be moist", "be damp" ],
+    FaCiL                     `verb`       {- nadiy-a -}        [ "be moist", "be damp" ]
+                              `imperf`     FCY,
 
     FaCIL                     `adj`        {- nadiy~ -}         [ "moist", "damp", "generous" ],
 
@@ -1958,7 +1961,8 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCuL
                               `imperf`     FCU,
 
-    FaCY                      `verb`       {- nahaY-i -}        [ "forbid", "restrain" ],
+    FaCY                      `verb`       {- nahaY-i -}        [ "forbid", "restrain" ]
+                              `imperf`     FCY,
 
     FaCY                      `verb`       {- nahaY-i -}        [ "reach", "be informed" ],
 
@@ -2100,7 +2104,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `verb`       {- nakaY-i -}        [ "harm", "injure", "offend" ]
                               `imperf`     FCiL
-                              `imperf`     FCI ]
+                              `imperf`     FCI
+                              `imperf`     FCY ]
 
  |> "n m '" <| [
 
@@ -2571,7 +2576,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "n r r" <| [
 
-    FUCiy                     `noun`       {- nuwriy -}         [ "Nouri", "Nuri" ] ]
+    FUCI                      `noun`       {- nuwriy -}         [ "Nouri", "Nuri" ] ]
 
  |> "n r w ^g" <| [
 
@@ -2762,7 +2767,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "n s y" <| [
 
-    FaCiL                     `verb`       {- nasiy-a -}        [ "forget", "be forgotten" ],
+    FaCiL                     `verb`       {- nasiy-a -}        [ "forget", "be forgotten" ]
+                              `imperf`     FCY,
 
     HaFCY                     `verb`       {- OanosaY -}        [ "make forget", "be made to forget" ],
 
@@ -2819,13 +2825,13 @@ lexicon = listing "Lexicon's properties"
  |> "n t n" <| [
 
     FaCaL                     `verb`       {- natan-i -}        [ "stink", "decompose" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     FaCiL                     `verb`       {- natin-a -}        [ "stink", "decompose" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     FaCuL                     `verb`       {- natun-u -}        [ "stink", "decompose" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCCaL                    `verb`       {- nat~an -}         [ "render putrid", "cause to decay" ],
 

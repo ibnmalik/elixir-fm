@@ -737,7 +737,7 @@ lexicon = listing "Lexicon's properties"
     -- sHn     soHan   IV-n    crush;grind
 
     FaCaL                     `verb`       {- saHan-a -}        [ "crush", "grind" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; saHonap_1
     -- sHn     saHon   Napdu   appearance;mien
@@ -1570,7 +1570,7 @@ lexicon = listing "Lexicon's properties"
     -- sjn     sojun   IV-n    imprison
 
     FaCaL                     `verb`       {- sajan-u -}        [ "imprison" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; sajon_1
     -- sjn     sajon   N       detention;imprisonment
@@ -1931,14 +1931,14 @@ lexicon = listing "Lexicon's properties"
     -- sxn     soxun   IV-n    warm up;become hot
 
     FaCaL                     `verb`       {- saxan-u -}        [ "warm up", "become hot" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; saxin-a_1
     -- sxn     saxin   PV-n    warm up;become hot
     -- sxn     soxan   IV-n    warm up;become hot
 
     FaCiL                     `verb`       {- saxin-a -}        [ "warm up", "become hot" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; sax~an_1
     -- sxn     sax~an  PV-n    heat;warm
@@ -2104,7 +2104,8 @@ lexicon = listing "Lexicon's properties"
     -- sxy     soxay   IV_Ann  be generous;bestow
     -- sx      soxa    IV_0hwnyn       be generous;bestow
 
-    FaCiL                     `verb`       {- saxiy-a -}        [ "be generous", "bestow" ],
+    FaCiL                     `verb`       {- saxiy-a -}        [ "be generous", "bestow" ]
+                              `imperf`     FCY,
 
     -- ;; saxiy~_1
     -- sxy     saxiy~  N/ap    generous;openhanded     [[saxiy~/ADJ]]
@@ -2563,7 +2564,8 @@ lexicon = listing "Lexicon's properties"
     -- sEy     soEay   IV_Ann  strive;pursue
     -- sE      soEa    IV_0hwnyn       strive;pursue
 
-    FaCY                      `verb`       {- saEaY-a -}        [ "strive", "pursue" ],
+    FaCY                      `verb`       {- saEaY-a -}        [ "strive", "pursue" ]
+                              `imperf`     FCY,
 
     -- ;; tasAEaY_1
     -- tsAEY   tasAEaY PV_0    run about
@@ -5309,7 +5311,7 @@ lexicon = listing "Lexicon's properties"
     -- skn     sokun   IV-n_intr       be calm
 
     FaCaL                     `verb`       {- sakan-u -}        [ "be calm" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; sak~an_1
     -- skn     sak~an  PV-n    calm;placate
@@ -7797,7 +7799,7 @@ lexicon = listing "Lexicon's properties"
     -- smn     soman   IV-n    become fat
 
     FaCiL                     `verb`       {- samin-a -}        [ "become fat" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; sam~an_1
     -- smn     sam~an  PV-n    make fat
@@ -8780,9 +8782,9 @@ lexicon = listing "Lexicon's properties"
     -- sn      san~    IV_V_Pass_yu    be prescribed;be enacted
 
     FaCL                      `verb`       {- san~-u -}         [ "prescribe", "enact", "be prescribed", "be enacted" ]
+                              `imperf`     FCuL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; san~an_1
     -- snn     san~an  PV-n    sharpen;indent
@@ -9078,7 +9080,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; suwniy_1
     -- swny    suwniy  Nprop   Sony
 
-    FUCiy                     `noun`       {- suwniy -}         [ "Sony" ] ]
+    FUCI                      `noun`       {- suwniy -}         [ "Sony" ] ]
 
  |> "s n y r" <| [
 
@@ -9487,7 +9489,7 @@ lexicon = listing "Lexicon's properties"
     -- sq      saq     PV_ttAw give to drink;irrigate
     -- sqy     soqiy   IV_0hAnn        give to drink;irrigate
     -- sq      soq     IV_0hwnyn       give to drink;irrigate
-    -- sqY     soqaY   IV_0    be given to drink;be irrigated
+    -- sqY     soqaY   IV_0_Pass_yu    be given to drink;be irrigated
 
     FaCY                      `verb`       {- saqaY-i -}        [ "give to drink", "irrigate", "be given to drink", "be irrigated" ]
                               `imperf`     FCiL
@@ -10780,6 +10782,7 @@ lexicon = listing "Lexicon's properties"
     -- srY     soraY   IV_0    flow;circulate;spread
 
     FaCY                      `verb`       {- saraY-i -}        [ "flow", "circulate", "spread" ]
+                              `imperf`     FCY
                               `imperf`     FCiL
                               `imperf`     FCI,
 
@@ -11204,7 +11207,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; suwtiy_1
     -- swty    suwtiy  Nprop   Sutee
 
-    FUCiy                     `noun`       {- suwtiy -}         [ "Sutee" ] ]
+    FUCI                      `noun`       {- suwtiy -}         [ "Sutee" ] ]
 
  |> "s w '" <| [
 
@@ -12314,7 +12317,8 @@ lexicon = listing "Lexicon's properties"
     -- swy     soway   IV_Ann  equal;be equivalent to
     -- sw      sowa    IV_0hwnyn       equal;be equivalent to
 
-    FaCiL                     `verb`       {- sawiy-a -}        [ "equal", "be equivalent to" ],
+    FaCiL                     `verb`       {- sawiy-a -}        [ "equal", "be equivalent to" ]
+                              `imperf`     FCY,
 
     -- ;; saw~aY_1
     -- swY     saw~aY  PV_0    equalize;settle

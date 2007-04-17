@@ -271,7 +271,7 @@ lexicon = listing "Lexicon's properties"
     -- m>n     mo>an   IV-n    sustain;provide
 
     FaCaL                     `verb`       {- maOan-a -}        [ "sustain", "provide" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; ma>on_1
     -- m>n     ma>on   N       sustaining;providing
@@ -566,7 +566,8 @@ lexicon = listing "Lexicon's properties"
     -- mDr     moDur   IV      turn sour
 
     FaCaL                     `verb`       {- maDar-u -}        [ "turn sour" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "ma.dur PV" ] -},
 
     -- ;; maDir-a_1
     -- mDr     maDir   PV      turn sour
@@ -1078,7 +1079,8 @@ lexicon = listing "Lexicon's properties"
     -- mHk     moHak   IV_intr be contentious;be quarrelsome
 
     FaCaL                     `verb`       {- maHak-a -}        [ "be contentious", "be quarrelsome" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "ma.hik PV" ] -},
 
     -- ;; mAHak_1
     -- mAHk    mAHak   PV      quarrel with;wrangle with
@@ -1127,7 +1129,8 @@ lexicon = listing "Lexicon's properties"
     -- mHl     moHal   IV_intr be barren;plot against;intrigue against
 
     FaCaL                     `verb`       {- maHal-a -}        [ "be barren", "plot against", "intrigue against" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "ma.hil PV" ] -},
 
     -- ;; maHul-u_1
     -- mHl     maHul   PV_intr be barren;plot against;intrigue against
@@ -1176,7 +1179,7 @@ lexicon = listing "Lexicon's properties"
     -- mHn     moHan   IV-n    put to test;examine
 
     FaCaL                     `verb`       {- maHan-a -}        [ "put to test", "examine" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; {imotaHan_1
     -- <mtHn   {imotaHan       PV-n    put to test;examine
@@ -1943,7 +1946,8 @@ lexicon = listing "Lexicon's properties"
     -- mjd     mojud   IV_intr be glorious
 
     FaCaL                     `verb`       {- majad-u -}        [ "be glorious" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "ma^gud PV" ] -},
 
     -- ;; maj~ad_1
     -- mjd     maj~ad  PV      praise;extol
@@ -2088,7 +2092,7 @@ lexicon = listing "Lexicon's properties"
     -- mjn     mojun   IV-n    joke;scoff
 
     FaCaL                     `verb`       {- majan-u -}        [ "joke", "scoff" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; mAjan_1
     -- mAjn    mAjan   PV-n    jeer;scoff;joke
@@ -2501,7 +2505,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `verb`       {- ma$aY-i -}        [ "walk", "proceed" ]
                               `imperf`     FCiL
-                              `imperf`     FCI,
+                              `imperf`     FCI
+                              `imperf`     FCY,
 
     -- ;; ma$~aY_1
     -- m$Y     ma$~aY  PV_0    make walk;adjust
@@ -2634,7 +2639,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muw$iy_1
     -- mw$y    muw$iy  Nprop   Moshe
 
-    FUCiy                     `noun`       {- muw$iy -}         [ "Moshe" ] ]
+    FUCI                      `noun`       {- muw$iy -}         [ "Moshe" ] ]
 
  |> "m _d _d" <| [
 
@@ -4205,15 +4210,15 @@ lexicon = listing "Lexicon's properties"
     -- mhn     mohan   IV-n    degrade
 
     FaCaL                     `verb`       {- mahan-ua -}       [ "degrade" ]
-                              `ithird`     FCaL
-                              `ithird`     FCuL,
+                              `imperf`     FCaL
+                              `imperf`     FCuL,
 
     -- ;; mahun-u_1
     -- mhn     mahun   PV-n_intr       be despicable
     -- mhn     mohun   IV-n_intr       be despicable
 
     FaCuL                     `verb`       {- mahun-u -}        [ "be despicable" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; mAhan_1
     -- mAhn    mAhan   PV-n    practice
@@ -6600,7 +6605,8 @@ lexicon = listing "Lexicon's properties"
     -- mr}     moru}   IV_yn   be wholesome
 
     FaCiL                     `verb`       {- mari}-a -}        [ "be wholesome" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "maru' PV" ] -},
 
     -- ;; maru&-a_1
     -- mr&     maru&   PV_intr be manly;be healthy
@@ -7024,7 +7030,8 @@ lexicon = listing "Lexicon's properties"
     -- mrd     morud   IV_intr be rebellious;revolt
 
     FaCaL                     `verb`       {- marad-u -}        [ "be rebellious", "revolt" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "marud PV" ] -},
 
     -- ;; mar~ad_1
     -- mrd     mar~ad  PV      coat with plaster
@@ -7225,7 +7232,7 @@ lexicon = listing "Lexicon's properties"
     -- mrn     morun   IV-n_intr       be flexible;become accustomed
 
     FaCaL                     `verb`       {- maran-u -}        [ "be flexible", "become accustomed" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; mar~an_1
     -- mrn     mar~an  PV-n    train;drill;condition
@@ -8482,7 +8489,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `verb`       {- masaY-i -}        [ "make lean", "emaciate" ]
                               `imperf`     FCiL
-                              `imperf`     FCI,
+                              `imperf`     FCI
+                              `imperf`     FCY,
 
     -- ;; muwsaY_1
     -- mwsY    muwsaY  Nprop   Mousa;Moussa
@@ -8697,7 +8705,7 @@ lexicon = listing "Lexicon's properties"
     -- mtn     motun   IV-n_intr       be firm;be strong;be robust
 
     FaCaL                     `verb`       {- matan-u -}        [ "be firm", "be strong", "be robust" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; mat~an_1
     -- mtn     mat~an  PV-n    strengthen;consolidate

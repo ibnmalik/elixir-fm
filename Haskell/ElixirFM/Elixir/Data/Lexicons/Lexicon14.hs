@@ -196,7 +196,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".s .h y" <| [
 
-    FaCiL                     `verb`       {- SaHiy-a -}        [ "wake up", "regain consciousness" ] ]
+    FaCiL                     `verb`       {- SaHiy-a -}        [ "wake up", "regain consciousness" ]
+                              `imperf`     FCY ]
 
  |> ".s .t f" <| [
 
@@ -418,7 +419,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".s b y" <| [
 
-    FaCiL                     `verb`       {- Sabiy-a -}        [ "be childish", "be infantile" ],
+    FaCiL                     `verb`       {- Sabiy-a -}        [ "be childish", "be infantile" ]
+                              `imperf`     FCY,
 
     FaCIL                     `noun`       {- Sabiy~ -}         [ "young boy", "youth", "young boys", "youths" ]
                               `plural`     HaFCiL |< aT
@@ -603,7 +605,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".s d y" <| [
 
-    FaCiL                     `verb`       {- Sadiy-a -}        [ "be thirsty" ],
+    FaCiL                     `verb`       {- Sadiy-a -}        [ "be thirsty" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- Sad~aY -}         [ "echo", "be echoed" ],
 
@@ -989,7 +992,8 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCiL
                               `imperf`     FCI,
 
-    FaCiL                     `verb`       {- Saliy-a -}        [ "get burned" ],
+    FaCiL                     `verb`       {- Saliy-a -}        [ "get burned" ]
+                              `imperf`     FCY,
 
     HaFCY                     `verb`       {- OaSolaY -}        [ "burn", "be burned" ],
 

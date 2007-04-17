@@ -22470,7 +22470,7 @@ $Lexicon = {
     {
       'types' => {
         '^stir' => {
-          'IV_yu' => 1
+          'IV' => 1
         },
         '^satar' => {}
       },
@@ -22479,7 +22479,7 @@ $Lexicon = {
       'lines' => [
         ';; $atar-i_1',
         '$tr     $atar   PV      cut off;tear up',
-        '$tr     $otir   IV_yu   cut off;tear up'
+        '$tr     $otir   IV      cut off;tear up'
       ],
       'patterns' => {
         '^stir' => [

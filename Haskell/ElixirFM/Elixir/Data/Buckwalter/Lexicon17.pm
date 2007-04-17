@@ -3207,7 +3207,7 @@ $Lexicon = {
     {
       'types' => {
         '.zlim' => {
-          'IV_intr_yu' => 1
+          'IV_intr' => 1
         },
         '.zalam' => {},
         '.zlam' => {
@@ -3217,9 +3217,9 @@ $Lexicon = {
       'entry' => '.zalam',
       'form' => '.zalam',
       'lines' => [
-        ';; Zalam-ia_1',
+        ';; Zalam-i_1',
         'Zlm     Zalam   PV_intr be unjust;oppress',
-        'Zlm     Zolim   IV_intr_yu      be unjust;oppress',
+        'Zlm     Zolim   IV_intr be unjust;oppress',
         'Zlm     Zolam   IV_Pass_yu      be oppressed'
       ],
       'patterns' => {
@@ -3240,10 +3240,9 @@ $Lexicon = {
       ],
       'suffix' => '',
       'imperf' => [
-        'FCiL',
-        'FCaL'
+        'FCiL'
       ],
-      'orig' => 'Zalam-ia',
+      'orig' => 'Zalam-i',
       'prefix' => ''
     },
     {

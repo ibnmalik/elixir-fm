@@ -604,7 +604,7 @@ lexicon = listing "Lexicon's properties"
     -- hjn     hojun   IV-n_intr       be incorrect
 
     FaCuL                     `verb`       {- hajun-u -}        [ "be incorrect" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; haj~an_1
     -- hjn     haj~an  PV-n    disparage;excoriate
@@ -1042,7 +1042,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; huw$iy_1
     -- hw$y    huw$iy  Nprop   Ho Chi
 
-    FUCiy                     `noun`       {- huw$iy -}         [ "Ho Chi" ] ]
+    FUCI                      `noun`       {- huw$iy -}         [ "Ho Chi" ] ]
 
  |> "h ^s m" <| [
 
@@ -1612,7 +1612,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; huwbiy_1
     -- hwby    huwbiy  Nprop   Hobby
 
-    FUCiy                     `noun`       {- huwbiy -}         [ "Hobby" ] ]
+    FUCI                      `noun`       {- huwbiy -}         [ "Hobby" ] ]
 
  |> "h d '" <| [
 
@@ -2166,7 +2166,7 @@ lexicon = listing "Lexicon's properties"
     -- hdn     hodin   IV-n    quiet down;calm down
 
     FaCaL                     `verb`       {- hadan-i -}        [ "quiet down", "calm down" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     -- ;; had~an_1
     -- hdn     had~an  PV-n    calm;appease
@@ -2685,7 +2685,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; huwkiy_1
     -- hwky    huwkiy  N0      hockey
 
-    FUCiy                     `noun`       {- huwkiy -}         [ "hockey" ] ]
+    FUCI                      `noun`       {- huwkiy -}         [ "hockey" ] ]
 
  |> "h k m" <| [
 
@@ -4105,8 +4105,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`       {- han~-i -}         [ "weep", "sigh", "yearn" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `imperf`     FCiL
+                              `pfirst`     FaCaL,
 
     -- ;; haniy~_1
     -- hny     haniy~  N-ap    pleasant;delicious     [[haniy~/ADJ]]
@@ -4937,7 +4937,7 @@ lexicon = listing "Lexicon's properties"
     -- htn     hotin   IV-n    rain torrentially
 
     FaCaL                     `verb`       {- hatan-i -}        [ "rain torrentially" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     -- ;; haton_1
     -- htn     haton   N       torrential rain;deluge;downpour
@@ -5867,7 +5867,8 @@ lexicon = listing "Lexicon's properties"
     -- hwy     howay   IV_Ann  love;like
     -- hw      howa    IV_0hwnyn       love;like
 
-    FaCiL                     `verb`       {- hawiy-a -}        [ "love", "like" ],
+    FaCiL                     `verb`       {- hawiy-a -}        [ "love", "like" ]
+                              `imperf`     FCY,
 
     -- ;; haw~aY_1
     -- hwY     haw~aY  PV_0    ventilate

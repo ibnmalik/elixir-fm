@@ -22165,7 +22165,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'Fuji'
@@ -43948,12 +43948,12 @@ $Lexicon = {
       'types' => {
         'fA\'' => {},
         'fiy\'' => {
-          'IV_wn_intr_yu' => 1,
-          'IV_yn_intr_yu' => 1,
-          'IV_V_intr_yu' => 1
+          'IV_yn_intr' => 1,
+          'IV_V_intr' => 1,
+          'IV_wn_intr' => 1
         },
         'fi\'' => {
-          'IV_C_intr_yu' => 1,
+          'IV_C_intr' => 1,
           'PV_C_intr' => 1
         }
       },
@@ -43964,10 +43964,10 @@ $Lexicon = {
         'fA\'     fA\'     PV_V_intr       be displaced;shift',
         'fA&     fA&     PV_w_intr       be displaced;shift',
         'f}      fi}     PV_C_intr       be displaced;shift',
-        'fy\'     fiy\'    IV_V_intr_yu    be displaced;shift',
-        'fy&     fiy&    IV_wn_intr_yu   be displaced;shift',
-        'fy}     fiy}    IV_yn_intr_yu   be displaced;shift',
-        'f}      fi}     IV_C_intr_yu    be displaced;shift'
+        'fy\'     fiy\'    IV_V_intr       be displaced;shift',
+        'fy&     fiy&    IV_wn_intr      be displaced;shift',
+        'fy}     fiy}    IV_yn_intr      be displaced;shift',
+        'f}      fi}     IV_C_intr       be displaced;shift'
       ],
       'patterns' => {
         'fiy\'' => [
@@ -49497,7 +49497,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'Fuki'

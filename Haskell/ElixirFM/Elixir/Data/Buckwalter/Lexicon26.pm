@@ -1006,7 +1006,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'hockey'
@@ -14811,7 +14811,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'Hobby'
@@ -29287,7 +29287,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'Ho Chi'

@@ -2816,7 +2816,7 @@ Smy     Samay   PV_Atn  be fatally wounded
 Sm      Sam     PV_ttAw_intr    be fatally wounded
 Smy     Somiy   IV_0hAnn        be fatally wounded
 Sm      Som     IV_0hwnyn       be fatally wounded
-SmY     SomaY   IV_0    be fatally wounded
+SmY     SomaY   IV_0_Pass_yu    be fatally wounded
 ;; >aSomaY_1
 >SmY    >aSomaY PV_0    deal a fatal blow
 ASmY    >aSomaY PV_0    deal a fatal blow

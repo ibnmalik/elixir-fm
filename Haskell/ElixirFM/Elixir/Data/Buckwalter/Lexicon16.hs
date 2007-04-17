@@ -270,7 +270,8 @@ lexicon = listing "Lexicon's properties"
     -- Tgy     Togay   IV_Ann  dominate;control;be tyrannical
     -- Tg      Toga    IV_0hwnyn       dominate;control;be tyrannical
 
-    FaCY                      `verb`       {- TagaY-a -}        [ "dominate", "control", "be tyrannical" ],
+    FaCY                      `verb`       {- TagaY-a -}        [ "dominate", "control", "be tyrannical" ]
+                              `imperf`     FCY,
 
     -- ;; TagaY_2
     -- TgY     TagaY   N0      excess;tyranny
@@ -376,7 +377,7 @@ lexicon = listing "Lexicon's properties"
     -- THn     ToHan   IV-n    grind;pulverize
 
     FaCaL                     `verb`       {- TaHan-a -}        [ "grind", "pulverize" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; taTAHan_1
     -- tTAHn   taTAHan PV-n    quarrel;be in conflict
@@ -672,7 +673,7 @@ lexicon = listing "Lexicon's properties"
     -- TEn     ToEan   IV-n    stab;challenge
 
     FaCaL                     `verb`       {- TaEan-a -}        [ "stab", "challenge" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; taTAEan_1
     -- tTAEn   taTAEan PV-n    attack each other
@@ -1166,7 +1167,7 @@ lexicon = listing "Lexicon's properties"
     -- Tbn     Toban   IV-n_intr       be bright;be intelligent
 
     FaCiL                     `verb`       {- Tabin-a -}        [ "be bright", "be intelligent" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; Tab~An_1
     -- TbAn    Tab~An  N/At    wheel tire
@@ -1822,7 +1823,8 @@ lexicon = listing "Lexicon's properties"
     -- Thq     Tahaq   PV      despise
     -- Thq     Tohaq   PV      despise
 
-    FaCaL                     `verb`       {- Tahaq-a -}        [ "despise" ],
+    FaCaL                     `verb`       {- Tahaq-a -}        [ "despise" ]
+                              {- `others` [ ".thaq PV" ] -},
 
     -- ;; taTah~aq_1
     -- tThq    taTah~aq        PV      despise
@@ -1843,7 +1845,8 @@ lexicon = listing "Lexicon's properties"
     -- Thr     Tohur   IV_intr be pure
 
     FaCaL                     `verb`       {- Tahar-u -}        [ "be pure" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ ".tahur PV" ] -},
 
     -- ;; Tah~ar_1
     -- Thr     Tah~ar  PV      purify;disinfect
@@ -1971,7 +1974,8 @@ lexicon = listing "Lexicon's properties"
     -- Thy     Tohay   IV_Ann  cook;stew
     -- Th      Toha    IV_0hwnyn       cook;stew
 
-    FaCY                      `verb`       {- TahaY-a -}        [ "cook", "stew" ],
+    FaCY                      `verb`       {- TahaY-a -}        [ "cook", "stew" ]
+                              `imperf`     FCY,
 
     -- ;; TuhaY_1
     -- ThY     TuhaY   N0      cooked
@@ -2689,7 +2693,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `verb`       {- TalaY-i -}        [ "paint" ]
                               `imperf`     FCiL
-                              `imperf`     FCI,
+                              `imperf`     FCI
+                              `imperf`     FCY,
 
     -- ;; {inoTalaY_1
     -- <nTlY   {inoTalaY       PV_0    be deceived
@@ -2961,7 +2966,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Tuwmiy_1
     -- Twmy    Tuwmiy  Nprop   Tommy
 
-    FUCiy                     `noun`       {- Tuwmiy -}         [ "Tommy" ] ]
+    FUCI                      `noun`       {- Tuwmiy -}         [ "Tommy" ] ]
 
  |> ".t m n" <| [
 
@@ -3329,8 +3334,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`       {- Tan~-i -}         [ "sound", "ring out" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `imperf`     FCiL
+                              `pfirst`     FaCaL,
 
     -- ;; Tan~an_1
     -- Tnn     Tan~an  PV-n    resound
@@ -3383,7 +3388,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Tuwniy_1
     -- Twny    Tuwniy  Nprop   Tony
 
-    FUCiy                     `noun`       {- Tuwniy -}         [ "Tony" ] ]
+    FUCI                      `noun`       {- Tuwniy -}         [ "Tony" ] ]
 
  |> ".t q .t q" <| [
 
@@ -4546,7 +4551,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCuL                     `verb`       {- Taruw-u -}        [ "be fresh", "be tender" ]
                               `imperf`     FCuL
-                              `imperf`     FCU,
+                              `imperf`     FCU
+                              {- `others` [ ".tarA PV" ] -},
 
     -- ;; Tar~aY_1
     -- TrY     Tar~aY  PV_0    tenderize;freshen
@@ -4626,7 +4632,8 @@ lexicon = listing "Lexicon's properties"
     -- Try     Toray   IV_Ann  be fresh;be tender
     -- Tr      Tora    IV_0hwnyn       be fresh;be tender
 
-    FaCiL                     `verb`       {- Tariy-a -}        [ "be fresh", "be tender" ],
+    FaCiL                     `verb`       {- Tariy-a -}        [ "be fresh", "be tender" ]
+                              `imperf`     FCY,
 
     -- ;; Tariy~_1
     -- Try     Tariy~  N-ap    fresh;tender     [[Tariy~/ADJ]]

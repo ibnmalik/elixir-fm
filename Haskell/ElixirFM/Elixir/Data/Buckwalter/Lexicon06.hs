@@ -200,7 +200,7 @@ lexicon = listing "Lexicon's properties"
     -- HDn     HoDun   IV-n    embrace;nurture;raise
 
     FaCaL                     `verb`       {- HaDan-u -}        [ "embrace", "nurture", "raise" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; taHADan_1
     -- tHADn   taHADan PV-n    embrace
@@ -830,7 +830,7 @@ lexicon = listing "Lexicon's properties"
     -- HSn     HoSun   IV-n_intr       be inaccessible;be fortified
 
     FaCuL                     `verb`       {- HaSun-u -}        [ "be inaccessible", "be fortified" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; HaS~an_1
     -- HSn     HaS~an  PV-n    make inaccessible;fortify;immunize
@@ -1414,7 +1414,8 @@ lexicon = listing "Lexicon's properties"
     -- HZy     HoZay   IV_Ann  enjoy;gain
     -- HZ      HoZa    IV_0hwnyn       enjoy;gain
 
-    FaCiL                     `verb`       {- HaZiy-a -}        [ "enjoy", "gain" ],
+    FaCiL                     `verb`       {- HaZiy-a -}        [ "enjoy", "gain" ]
+                              `imperf`     FCY,
 
     -- ;; HaZiy~_1
     -- HZy     HaZiy~  Nall    enjoying;favored     [[HaZiy~/ADJ]]
@@ -1787,7 +1788,7 @@ lexicon = listing "Lexicon's properties"
     -- Hjn     Hojin   IV-n    bend;curve
 
     FaCaL                     `verb`       {- Hajan-i -}        [ "bend", "curve" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     -- ;; {iHotajan_1
     -- <Htjn   {iHotajan       PV-n    grab;seize
@@ -1938,7 +1939,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCA                      `verb`       {- HajA-u -}         [ "deem" ]
                               `imperf`     FCuL
-                              `imperf`     FCU,
+                              `imperf`     FCU
+                              `imperf`     FCY,
 
     -- ;; HAjaY_1
     -- HAjY    HAjaY   PV_0    speak in riddles;be enigmatic
@@ -2864,7 +2866,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `verb`       {- Ha*aY-i -}        [ "cut", "hew" ]
                               `imperf`     FCiL
-                              `imperf`     FCI ]
+                              `imperf`     FCI
+                              `imperf`     FCY ]
 
  |> ".h _t _t" <| [
 
@@ -3552,8 +3555,8 @@ lexicon = listing "Lexicon's properties"
     -- Hb      Hab     PV_ttAw crawl;give
     -- Hbw     Hobuw   IV_0hAnn        crawl;give
     -- Hb      Hob     IV_0hwnyn       crawl;give
-    -- HbY     HobaY   IV_0    be given
-    -- Hby     Hobay   IV_Ann  be given
+    -- HbY     HobaY   IV_0_Pass_yu    be given
+    -- Hby     Hobay   IV_Ann_Pass_yu  be given
 
     FaCA                      `verb`       {- HabA-u -}         [ "crawl", "give", "be given" ]
                               `imperf`     FCuL
@@ -4395,7 +4398,8 @@ lexicon = listing "Lexicon's properties"
     -- Hdy     Hoday   IV_Ann  remain;not move
     -- Hd      Hoda    IV_0hwnyn       remain;not move
 
-    FaCiL                     `verb`       {- Hadiy-a -}        [ "remain", "not move" ],
+    FaCiL                     `verb`       {- Hadiy-a -}        [ "remain", "not move" ]
+                              `imperf`     FCY,
 
     -- ;; HAdiy_3
     -- HAdy    HAdiy   N0      one
@@ -4770,7 +4774,7 @@ lexicon = listing "Lexicon's properties"
     -- Hfn     Hofun   IV-n    scoop up
 
     FaCaL                     `verb`       {- Hafan-u -}        [ "scoop up" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; Hafonap_1
     -- Hfn     Hafon   Napdu   handful
@@ -4887,7 +4891,8 @@ lexicon = listing "Lexicon's properties"
     -- Hfy     Hofay   IV_Ann  receive kindly;welcome
     -- Hf      Hofa    IV_0hwnyn       receive kindly;welcome
 
-    FaCiL                     `verb`       {- Hafiy-a -}        [ "receive kindly", "welcome" ],
+    FaCiL                     `verb`       {- Hafiy-a -}        [ "receive kindly", "welcome" ]
+                              `imperf`     FCY,
 
     -- ;; Hafiy-a_2
     -- Hfy     Hafiy   PV_no-w go barefoot
@@ -4896,7 +4901,8 @@ lexicon = listing "Lexicon's properties"
     -- Hfy     Hofay   IV_Ann  go barefoot
     -- Hf      Hofa    IV_0hwnyn       go barefoot
 
-    FaCiL                     `verb`       {- Hafiy-a -}        [ "go barefoot" ],
+    FaCiL                     `verb`       {- Hafiy-a -}        [ "go barefoot" ]
+                              `imperf`     FCY,
 
     -- ;; taHaf~aY_1
     -- tHfY    taHaf~aY        PV_0    be affectionate
@@ -5421,6 +5427,7 @@ lexicon = listing "Lexicon's properties"
     -- HkY     HokaY   IV_0    relate;report
 
     FaCY                      `verb`       {- HakaY-i -}        [ "relate", "report" ]
+                              `imperf`     FCY
                               `imperf`     FCiL
                               `imperf`     FCI,
 
@@ -6276,11 +6283,12 @@ lexicon = listing "Lexicon's properties"
     -- Hl      Hal     PV_ttAw_intr    be sweet;be pleasant
     -- Hlw     Holuw   IV_0hAnn        be sweet;be pleasant
     -- Hl      Hol     IV_0hwnyn       be sweet;be pleasant
-    -- HlY     HolaY   IV_0    be sweet;be pleasant
+    -- HlY     HolaY   IV_0_Pass_yu    be sweet;be pleasant
 
     FaCuL                     `verb`       {- Haluw-u -}        [ "be sweet", "be pleasant" ]
                               `imperf`     FCuL
-                              `imperf`     FCU,
+                              `imperf`     FCU
+                              {- `others` [ ".halA PV" ] -},
 
     -- ;; Hulow_1
     -- Hlw     Hulow   N/ap    sweet;pleasant
@@ -6357,7 +6365,8 @@ lexicon = listing "Lexicon's properties"
     -- Hly     Holay   IV_Ann  be sweet;be pleasant;be adorned
     -- Hl      Hola    IV_0hwnyn       be sweet;be pleasant;be adorned
 
-    FaCiL                     `verb`       {- Haliy-a -}        [ "be sweet", "be pleasant", "be adorned" ],
+    FaCiL                     `verb`       {- Haliy-a -}        [ "be sweet", "be pleasant", "be adorned" ]
+                              `imperf`     FCY,
 
     -- ;; HalaY-i_1
     -- HlY     HalaY   PV_0    adorn;embellish;grace
@@ -6369,6 +6378,7 @@ lexicon = listing "Lexicon's properties"
     -- HlY     HolaY   IV_0    adorn;embellish;grace
 
     FaCY                      `verb`       {- HalaY-i -}        [ "adorn", "embellish", "grace" ]
+                              `imperf`     FCY
                               `imperf`     FCiL
                               `imperf`     FCI,
 
@@ -7497,7 +7507,8 @@ lexicon = listing "Lexicon's properties"
     -- Hmy     Homay   IV_Ann  glow;flare up
     -- Hm      Homa    IV_0hwnyn       glow;flare up
 
-    FaCiL                     `verb`       {- Hamiy-a -}        [ "glow", "flare up" ],
+    FaCiL                     `verb`       {- Hamiy-a -}        [ "glow", "flare up" ]
+                              `imperf`     FCY,
 
     -- ;; HamaY-i_1
     -- HmY     HamaY   PV_0    defend;protect;forbid
@@ -7509,6 +7520,7 @@ lexicon = listing "Lexicon's properties"
     -- HmY     HomaY   IV_0    defend;protect;forbid
 
     FaCY                      `verb`       {- HamaY-i -}        [ "defend", "protect", "forbid" ]
+                              `imperf`     FCY
                               `imperf`     FCiL
                               `imperf`     FCI,
 
@@ -8380,8 +8392,8 @@ lexicon = listing "Lexicon's properties"
     -- Hqn     Hoqun   IV-n    inject;retain
 
     FaCaL                     `verb`       {- Haqan-iu -}       [ "inject", "retain" ]
-                              `ithird`     FCuL
-                              `ithird`     FCiL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; {iHotaqan_1
     -- <Htqn   {iHotaqan       PV-n_intr       be congested;be flushed
@@ -9570,14 +9582,14 @@ lexicon = listing "Lexicon's properties"
     -- Hrn     Horun   IV-n_intr       be obstinate;be headstrong;be stubborn
 
     FaCaL                     `verb`       {- Haran-u -}        [ "be obstinate", "be headstrong", "be stubborn" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; Harun-u_1
     -- Hrn     Harun   PV-n_intr       be obstinate;be headstrong;be stubborn
     -- Hrn     Horun   IV-n_intr       be obstinate;be headstrong;be stubborn
 
     FaCuL                     `verb`       {- Harun-u -}        [ "be obstinate", "be headstrong", "be stubborn" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; Haruwn_1
     -- Hrwn    Haruwn  N/ap    obstinate;stubborn
@@ -9998,7 +10010,7 @@ lexicon = listing "Lexicon's properties"
     -- Hr      Har     PV_ttAw_intr    be able;be possible
     -- Hry     Horiy   IV_0hAnn        be able;be possible
     -- Hr      Hor     IV_0hwnyn       be able;be possible
-    -- HrY     HoraY   IV_0    be able;be possible
+    -- HrY     HoraY   IV_0_Pass_yu    be able;be possible
 
     FaCY                      `verb`       {- HaraY-i -}        [ "be able", "be possible" ]
                               `imperf`     FCiL
@@ -10452,7 +10464,7 @@ lexicon = listing "Lexicon's properties"
     -- Hsn     Hosun   IV-n_intr       be beautiful;be good
 
     FaCuL                     `verb`       {- Hasun-u -}        [ "be beautiful", "be good" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; Has~an_1
     -- Hsn     Has~an  PV-n    improve;decorate
@@ -12256,6 +12268,7 @@ lexicon = listing "Lexicon's properties"
     -- HwY     HowaY   IV_0    gather;encompass;clasp
 
     FaCY                      `verb`       {- HawaY-i -}        [ "gather", "encompass", "clasp" ]
+                              `imperf`     FCY
                               `imperf`     FCiL
                               `imperf`     FCI,
 
@@ -13025,14 +13038,23 @@ lexicon = listing "Lexicon's properties"
 
     -- ;; Hay~-a_1
     -- Hy      Hay~    PV_V    live;experience;witness
-    -- Hyy     Hayiy   PV_no-w live;experience;witness
-    -- Hy      Hay     PV_w    live;experience;witness
     -- HyY     HoyaY   IV_0    live;experience;witness
     -- HyA     HoyA    IV_0    live;experience;witness
     -- Hyy     Hoyay   IV_Ann  live;experience;witness
     -- Hy      Hoya    IV_0hwnyn       live;experience;witness
 
-    FaCL                      `verb`       {- Hay~-a -}         [ "live", "experience", "witness" ],
+    FaCL                      `verb`       {- Hay~-a -}         [ "live", "experience", "witness" ]
+                              `imperf`     FCY,
+
+    -- ;; Hayiy-a_1
+    -- Hyy     Hayiy   PV_no-w live;experience;witness
+    -- Hy      Hay     PV_w    live;experience;witness
+    -- HyY     HoyaY   IV_0_Pass_yu    live;experience;witness
+    -- HyA     HoyA    IV_0    live;experience;witness
+    -- Hyy     Hoyay   IV_Ann  live;experience;witness
+    -- Hy      Hoya    IV_0hwnyn       live;experience;witness
+
+    FaCiL                     `verb`       {- Hayiy-a -}        [ "live", "experience", "witness" ],
 
     -- ;; Hay~aY_1
     -- HyY     Hay~aY  PV_0    grant a long life
@@ -13417,14 +13439,14 @@ lexicon = listing "Lexicon's properties"
     -- Hzn     Hozun   IV-n    sadden;grieve
 
     FaCaL                     `verb`       {- Hazan-u -}        [ "sadden", "grieve" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; Hazin-a_1
     -- Hzn     Hazin   PV-n_intr       be sad;grieve
     -- Hzn     Hozan   IV-n_intr       be sad;grieve
 
     FaCiL                     `verb`       {- Hazin-a -}        [ "be sad", "grieve" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; Haz~an_1
     -- Hzn     Haz~an  PV-n    sadden;grieve

@@ -110,7 +110,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' .t r" <| [
 
-    FaCaL                     `verb`       {- OaTar-iu -}       [ "bend", "curve" ],
+    FaCaL                     `verb`       {- OaTar-iu -}       [ "bend", "curve" ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     FaCCaL                    `verb`       {- OaT~ar -}         [ "frame", "contextualize", "be framed", "be contextualized" ],
 
@@ -131,7 +133,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' ^g l" <| [
 
-    FaCaL                     `verb`       {- Oajal-a -}        [ "hesitate", "linger" ],
+    FaCaL                     `verb`       {- Oajal-a -}        [ "hesitate", "linger" ]
+                              `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- Oaj~al -}         [ "postpone", "delay", "be postponed", "be delayed" ],
 
@@ -155,7 +158,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' ^g r" <| [
 
-    FaCaL                     `verb`       {- Oajar-ui -}       [ "remunerate", "reward" ],
+    FaCaL                     `verb`       {- Oajar-ui -}       [ "remunerate", "reward" ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     FaCCaL                    `verb`       {- Oaj~ar -}         [ "lease", "lend", "be leased", "be lent" ],
 
@@ -195,7 +200,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' ^s b" <| [
 
-    FaCiL                     `verb`       {- Oa$ib-a -}        [ "make an alloy" ],
+    FaCiL                     `verb`       {- Oa$ib-a -}        [ "make an alloy" ]
+                              `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- Oa$~ab -}         [ "alloy", "be alloyed" ],
 
@@ -203,9 +209,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "' ^s r" <| [
 
-    FaCaL                     `verb`       {- Oa$ar-u -}        [ "cut with a saw" ],
+    FaCaL                     `verb`       {- Oa$ar-u -}        [ "cut with a saw" ]
+                              `imperf`     FCuL,
 
-    FaCaL                     `verb`       {- Oa$ar-i -}        [ "sharpen", "file" ],
+    FaCaL                     `verb`       {- Oa$ar-i -}        [ "sharpen", "file" ]
+                              `imperf`     FCiL,
 
     FaCCaL                    `verb`       {- Oa$~ar -}         [ "indicate", "register", "be indicated", "be registered" ],
 
@@ -240,7 +248,7 @@ lexicon = listing "Lexicon's properties"
     FiCaL                     `noun`       {- Ii*an -}          [ "therefore", "so", "then" ],
 
     FaCiL                     `verb`       {- Oa*in-a -}        [ "authorize", "listen" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- Oa*~an -}         [ "announce", "foresee" ],
 
@@ -275,7 +283,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' _d y" <| [
 
-    FaCiL                     `verb`       {- Oa*iy-a -}        [ "suffer damage" ] ]
+    FaCiL                     `verb`       {- Oa*iy-a -}        [ "suffer damage" ]
+                              `imperf`     FCY ]
 
  |> "' _h '" <| [
 
@@ -285,7 +294,10 @@ lexicon = listing "Lexicon's properties"
 
  |> "' _h _d" <| [
 
-    FaCaL                     `verb`       {- Oaxa*-u -}        [ "take", "begin" ],
+    FaCaL                     `verb`       {- Oaxa*-u -}        [ "take", "begin" ]
+                              `imperf`     CuL
+                              `imperf`     FCuL
+                              `second`     CuL,
 
     FACaL                     `verb`       {- \|xa* -}          [ "blame", "reproach" ],
 
@@ -381,7 +393,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' _t m" <| [
 
-    FaCiL                     `verb`       {- Oavim-a -}        [ "do wrong", "commit a sin" ],
+    FaCiL                     `verb`       {- Oavim-a -}        [ "do wrong", "commit a sin" ]
+                              `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- Oav~am -}         [ "transgress", "accuse of sin", "be transgressed", "be accused of sin" ],
 
@@ -393,7 +406,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' _t r" <| [
 
-    FaCaL                     `verb`       {- Oavar-iu -}       [ "report", "transmit" ],
+    FaCaL                     `verb`       {- Oavar-iu -}       [ "report", "transmit" ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     FaCCaL                    `verb`       {- Oav~ar -}         [ "affect", "influence", "be affected", "be influenced" ],
 
@@ -470,9 +485,12 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCAL
                               {- `others` [ "'abAd N0" ] -},
 
-    FaCaL                     `verb`       {- Oabad-i -}        [ "persist", "remain", "stay" ],
+    FaCaL                     `verb`       {- Oabad-i -}        [ "persist", "remain", "stay" ]
+                              `imperf`     FCiL,
 
-    FaCaL                     `verb`       {- Oabad-ui -}       [ "be untamed", "escape" ],
+    FaCaL                     `verb`       {- Oabad-ui -}       [ "be untamed", "escape" ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     FaCCaL                    `verb`       {- Oab~ad -}         [ "perpetuate", "immortalize", "be perpetuated", "be immortalized" ],
 
@@ -494,7 +512,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' b h" <| [
 
-    FaCaL                     `verb`       {- Oabah-ia -}       [ "be interested", "be sensitive" ],
+    FaCaL                     `verb`       {- Oabah-a -}        [ "be interested", "be sensitive" ]
+                              `imperf`     FCaL,
 
     FaCaL                     `noun`       {- Oabah -}          [ "interest", "sensitivity" ],
 
@@ -516,7 +535,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' b q" <| [
 
-    FaCaL                     `verb`       {- Oabaq-iu -}       [ "escape", "flee" ],
+    FaCaL                     `verb`       {- Oabaq-iu -}       [ "escape", "flee" ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     FaCaL                     `noun`       {- Oabaq -}          [ "escape", "fleeing", "flight" ],
 
@@ -567,7 +588,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCiL                     `noun`       {- Oabiy -}          [ "Abi" ],
 
-    FaCY                      `verb`       {- OabaY-a -}        [ "deny", "refuse" ],
+    FaCY                      `verb`       {- OabaY-a -}        [ "deny", "refuse" ]
+                              `imperf`     FCY,
 
     TaFaCCY                   `verb`       {- taOab~aY -}       [ "decline" ],
 
@@ -585,7 +607,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' d b" <| [
 
-    FaCaL                     `verb`       {- Oadab-i -}        [ "invite", "entertain" ],
+    FaCaL                     `verb`       {- Oadab-i -}        [ "invite", "entertain" ]
+                              `imperf`     FCiL,
 
     FaCCaL                    `verb`       {- Oad~ab -}         [ "discipline", "educate", "be disciplined", "be educated" ],
 
@@ -680,7 +703,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' f l" <| [
 
-    FaCaL                     `verb`       {- Oafal-ui -}       [ "disappear", "fade away" ],
+    FaCaL                     `verb`       {- Oafal-ui -}       [ "disappear", "fade away" ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     FACiL                     `noun`       {- \|fil -}          [ "passing", "fading", "transitory" ] ]
 
@@ -728,9 +753,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "' h l" <| [
 
-    FaCaL                     `verb`       {- Oahal-ui -}       [ "get married" ],
+    FaCaL                     `verb`       {- Oahal-ui -}       [ "get married" ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
-    FaCiL                     `verb`       {- Oahil-a -}        [ "be familiar" ],
+    FaCiL                     `verb`       {- Oahil-a -}        [ "be familiar" ]
+                              `imperf`     FCaL,
 
     FuCiL                     `verb`       {- Ouhil-a -}        [ "be populated" ],
 
@@ -784,7 +812,10 @@ lexicon = listing "Lexicon's properties"
 
  |> "' k l" <| [
 
-    FaCaL                     `verb`       {- Oakal-u -}        [ "eat", "consume" ],
+    FaCaL                     `verb`       {- Oakal-u -}        [ "eat", "consume" ]
+                              `imperf`     FCuL
+                              `imperf`     CuL
+                              `second`     CuL,
 
     FaCCaL                    `verb`       {- Oak~al -}         [ "feed", "be fed" ],
 
@@ -824,7 +855,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' l b" <| [
 
-    FaCaL                     `verb`       {- Oalab-ui -}       [ "rally", "assemble", "gather" ],
+    FaCaL                     `verb`       {- Oalab-ui -}       [ "rally", "assemble", "gather" ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     FaCCaL                    `verb`       {- Oal~ab -}         [ "rally", "assemble", "gather", "be rallied", "be assembled" ],
 
@@ -838,7 +871,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' l f" <| [
 
-    FaCiL                     `verb`       {- Oalif-a -}        [ "be familiar with", "be/become tame" ],
+    FaCiL                     `verb`       {- Oalif-a -}        [ "be familiar with", "be/become tame" ]
+                              `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- Oal~af -}         [ "compose", "constitute", "be composed", "be constituted" ],
 
@@ -903,7 +937,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' l m" <| [
 
-    FaCiL                     `verb`       {- Oalim-a -}        [ "feel pain", "suffer" ],
+    FaCiL                     `verb`       {- Oalim-a -}        [ "feel pain", "suffer" ]
+                              `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- Oal~am -}         [ "afflict", "distress", "be afflicted", "be distressed" ],
 
@@ -951,7 +986,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' l q" <| [
 
-    FaCaL                     `verb`       {- Oalaq-i -}        [ "shine", "radiate" ],
+    FaCaL                     `verb`       {- Oalaq-i -}        [ "shine", "radiate" ]
+                              `imperf`     FCiL,
 
     TaFaCCaL                  `verb`       {- taOal~aq -}       [ "shine", "glisten", "sparkle" ],
 
@@ -969,7 +1005,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' l w" <| [
 
-    FaCA                      `verb`       {- OalA-u -}         [ "neglect", "desist from", "be neglected", "be desisted from" ],
+    FaCA                      `verb`       {- OalA-u -}         [ "neglect", "desist from", "be neglected", "be desisted from" ]
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FACY                      `verb`       {- \|laY -}          [ "promise", "take an oath", "be taken (oath)" ],
 
@@ -997,7 +1035,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' m l" <| [
 
-    FaCaL                     `verb`       {- Oamal-a -}        [ "hope for", "wish for" ],
+    FaCaL                     `verb`       {- Oamal-a -}        [ "hope for", "wish for" ]
+                              `imperf`     FCaL
+                              `imperf`     CaL,
 
     FaCCaL                    `verb`       {- Oam~al -}         [ "hope for", "expect", "be hoped for", "be expectd" ],
 
@@ -1062,10 +1102,10 @@ lexicon = listing "Lexicon's properties"
  |> "' m n" <| [
 
     FaCuL                     `verb`       {- Oamun-u -}        [ "be loyal", "be reliable" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCiL                     `verb`       {- Oamin-a -}        [ "be safe", "be secure" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- Oam~an -}         [ "insure", "guarantee", "secure" ],
 
@@ -1135,7 +1175,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' m r" <| [
 
-    FaCaL                     `verb`       {- Oamar-u -}        [ "command", "order", "prescribe" ],
+    FaCaL                     `verb`       {- Oamar-u -}        [ "command", "order", "prescribe" ]
+                              `imperf`     CuL
+                              `imperf`     FCuL,
 
     FaCCaL                    `verb`       {- Oam~ar -}         [ "empower", "authorize", "be empowered", "be authorized" ],
 
@@ -1199,7 +1241,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCA                      `noun`       {- OanA -}           [ "ego" ],
 
-    FaCY                      `verb`       {- OanaY-i -}        [ "mature", "approach" ],
+    FaCY                      `verb`       {- OanaY-i -}        [ "mature", "approach" ]
+                              `imperf`     FCI,
 
     FaCY                      `noun`       {- OanaY -}          [ "time", "period" ]
                               `plural`     HACAL
@@ -1253,7 +1296,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' n f" <| [
 
-    FaCiL                     `verb`       {- Oanif-a -}        [ "disdain", "reject" ],
+    FaCiL                     `verb`       {- Oanif-a -}        [ "disdain", "reject" ]
+                              `imperf`     FCaL,
 
     IstaFCaL                  `verb`       {- AisotaOonaf -}    [ "resume", "start over", "appeal" ],
 
@@ -1315,7 +1359,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' n s" <| [
 
-    FaCiL                     `verb`       {- Oanis-a -}        [ "be companionable", "be sociable" ],
+    FaCiL                     `verb`       {- Oanis-a -}        [ "be companionable", "be sociable" ]
+                              `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- Oan~as -}         [ "domesticate", "put at ease", "be domesticated", "be put at ease" ],
 
@@ -1403,7 +1448,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' r ^g" <| [
 
-    FaCiL                     `verb`       {- Oarij-a -}        [ "be aromatic" ],
+    FaCiL                     `verb`       {- Oarij-a -}        [ "be aromatic" ]
+                              `imperf`     FCaL,
 
     FaCaL                     `noun`       {- Oaraj -}          [ "fragrance" ],
 
@@ -1445,7 +1491,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' r b" <| [
 
-    FaCiL                     `verb`       {- Oarib-a -}        [ "be proficient", "be skillful" ],
+    FaCiL                     `verb`       {- Oarib-a -}        [ "be proficient", "be skillful" ]
+                              `imperf`     FCaL,
 
     FaCiL                     `noun`       {- Oarib -}          [ "astute", "industrious" ],
 
@@ -1469,7 +1516,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' r m" <| [
 
-    FaCaL                     `verb`       {- Oaram-i -}        [ "bite" ],
+    FaCaL                     `verb`       {- Oaram-i -}        [ "bite" ]
+                              `imperf`     FCiL,
 
     FaCCaL                    `verb`       {- Oar~am -}         [ "mark out", "be marked out" ],
 
@@ -1487,7 +1535,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' r q" <| [
 
-    FaCiL                     `verb`       {- Oariq-a -}        [ "be sleepless" ],
+    FaCiL                     `verb`       {- Oariq-a -}        [ "be sleepless" ]
+                              `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- Oar~aq -}         [ "keep awake", "make sleepless", "be kept awake", "be made sleepless" ],
 
@@ -1507,7 +1556,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' r s" <| [
 
-    FaCaL                     `verb`       {- Oaras-i -}        [ "till the land" ],
+    FaCaL                     `verb`       {- Oaras-i -}        [ "till the land" ]
+                              `imperf`     FCiL,
 
     FiCCIL                    `noun`       {- Iir~iys -}        [ "peasant", "farmer" ],
 
@@ -1576,7 +1626,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' s f" <| [
 
-    FaCiL                     `verb`       {- Oasif-a -}        [ "be sorry", "regret" ],
+    FaCiL                     `verb`       {- Oasif-a -}        [ "be sorry", "regret" ]
+                              `imperf`     FCaL,
 
     FACaL                     `verb`       {- \|saf -}          [ "sadden", "distress" ],
 
@@ -1620,7 +1671,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' s r" <| [
 
-    FaCaL                     `verb`       {- Oasar-i -}        [ "capture", "take prisoner" ],
+    FaCaL                     `verb`       {- Oasar-i -}        [ "capture", "take prisoner" ]
+                              `imperf`     FCiL,
 
     FaCL                      `noun`       {- Oasor -}          [ "capture", "captivity" ],
 
@@ -1696,7 +1748,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' s w" <| [
 
-    FaCA                      `verb`       {- OasA-u -}         [ "nurse", "pacify" ],
+    FaCA                      `verb`       {- OasA-u -}         [ "nurse", "pacify" ]
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     FaCCY                     `verb`       {- Oas~aY -}         [ "console", "comfort", "be consoled", "be comforted" ],
 
@@ -1733,7 +1787,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' s y" <| [
 
-    FaCiL                     `verb`       {- Oasiy-a -}        [ "be sad", "grieve" ],
+    FaCiL                     `verb`       {- Oasiy-a -}        [ "be sad", "grieve" ]
+                              `imperf`     FCY,
 
     FACiL                     `noun`       {- \|siy -}          [ "afflicted", "desolate" ],
 
@@ -1753,7 +1808,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' t b" <| [
 
-    FUCiy                     `noun`       {- Ouwtiy -}         [ "Ottey" ] ]
+    FUCI                      `noun`       {- Ouwtiy -}         [ "Ottey" ] ]
 
  |> "' t n" <| [
 
@@ -1777,7 +1832,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' t y" <| [
 
-    FaCY                      `verb`       {- OataY-i -}        [ "arrive", "come", "reach" ],
+    FaCY                      `verb`       {- OataY-i -}        [ "arrive", "come", "reach" ]
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     FACY                      `verb`       {- \|taY -}          [ "give", "offer", "be given", "be offered" ],
 
@@ -1833,7 +1890,8 @@ lexicon = listing "Lexicon's properties"
                               `pfirst`     FuL
                               `ithird`     FuL,
 
-    FaCiL                     `verb`       {- Oawid-a -}        [ "bend", "be bent" ],
+    FaCiL                     `verb`       {- Oawid-a -}        [ "bend", "be bent" ]
+                              `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- Oaw~ad -}         [ "bend", "fold", "be bent", "be folded" ],
 
@@ -1938,7 +1996,10 @@ lexicon = listing "Lexicon's properties"
 
  |> "' w y" <| [
 
-    FaCY                      `verb`       {- OawaY-i -}        [ "retire", "seek shelter" ],
+    FaCY                      `verb`       {- OawaY-i -}        [ "retire", "seek shelter" ]
+                              `imperf`     FCiL
+                              `imperf`     FCI
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- Oaw~aY -}         [ "shelter", "lodge", "be sheltered", "be lodged" ],
 
@@ -2174,7 +2235,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "' z r" <| [
 
-    FaCaL                     `verb`       {- Oazar-i -}        [ "surround" ],
+    FaCaL                     `verb`       {- Oazar-i -}        [ "surround" ]
+                              `imperf`     FCiL,
 
     FaCCaL                    `verb`       {- Oaz~ar -}         [ "fortify", "strengthen", "be fortified", "be strengthened" ],
 

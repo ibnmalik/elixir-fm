@@ -154,22 +154,35 @@ sub showEntry ($) {
 
             foreach my $form (keys %{$entry->{'patterns'}}) {
 
-                my @types = map { my $x = $_;
+                my @types = grep { $_ ne '' } map { my $x = $_;
 
                                      $x =~ s/_intr//;
-                                     $x =~ s/_yu//;
 
-                                     $x =~ s/_(?:0hAnn|Atn)//;
+                                     $x =~ s/_(no-Pref-A|need-Pref-\||no-w)//;
 
-                                     ($x =~ /Pass/) ? () : $x } keys %{$entry->{'types'}->{$form}};
+                                     $x =~ s/^PV_0h?$/PV/;
+                                     $x =~ s/^PV-n$/PV/;
+
+                                     $x =~ s/^PV_(?:Atn|h|ttAw|w)$//;
+
+                                     $x =~ s/^IV_0(?:hAnn)?$/IV/;
+                                     $x =~ s/^IV-n$/IV/;
+
+                                     $x =~ s/^IV_(?:[wy]n|0hwnyn|Ann)$//;
+
+                                     $x =~ /Pass/ ? () : $x } keys %{$entry->{'types'}->{$form}};
 
                 push @{$imperf}, @{$entry->{'patterns'}->{$form}} if grep { /^IV(?:_V)?$/ } @types;
 
                 push @{$pfirst}, @{$entry->{'patterns'}->{$form}} if grep { /^PV_C/ } @types;
 
-                push @{$ithird}, @{$entry->{'patterns'}->{$form}} if grep { /^IV(?:_C|-n)/ } @types;
+                push @{$ithird}, @{$entry->{'patterns'}->{$form}} if grep { /^IV_C/ } @types;
 
-                push @{$second}, @{$entry->{'patterns'}->{$form}} if grep { /^CV_C/ } @types;
+                push @{$second}, @{$entry->{'patterns'}->{$form}} if grep { /^CV(?:_C)?$/ } @types;
+
+                @types = grep { not /^IV(?:_V)?$/ || /^PV_C/ || /^IV_C/ || /^CV(?:_C)?/ } @types;
+
+                push @{$others}, join ' ', $form, @types if @types;
             }
         }
     }

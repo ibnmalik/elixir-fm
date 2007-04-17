@@ -160,7 +160,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'priest',
@@ -184,7 +184,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'Khouri'
@@ -1047,7 +1047,7 @@ $Lexicon = {
     {
       'types' => {
         '_hwY' => {
-          'IV_0' => 1
+          'IV_0_Pass_yu' => 1
         },
         '_hw' => {
           'IV_0hwnyn' => 1
@@ -1076,7 +1076,7 @@ $Lexicon = {
         'xw      xaw     PV_ttAw_intr    be empty;be hungry',
         'xwy     xowiy   IV_0hAnn        be empty;be hungry',
         'xw      xow     IV_0hwnyn       be empty;be hungry',
-        'xwY     xowaY   IV_0    be empty;be hungry'
+        'xwY     xowaY   IV_0_Pass_yu    be empty;be hungry'
       ],
       'patterns' => {
         '_hwY' => [
@@ -17055,7 +17055,7 @@ $Lexicon = {
           'PV_ttAw_intr' => 1
         },
         '_hnY' => {
-          'IV_0' => 1
+          'IV_0_Pass_yu' => 1
         },
         '_hanA' => {},
         '_hnuw' => {
@@ -17071,7 +17071,7 @@ $Lexicon = {
         'xn      xan     PV_ttAw_intr    be obscene',
         'xnw     xonuw   IV_0hAnn        be obscene',
         'xn      xon     IV_0hwnyn       be obscene',
-        'xnY     xonaY   IV_0    be obscene'
+        'xnY     xonaY   IV_0_Pass_yu    be obscene'
       ],
       'patterns' => {
         '_hanaw' => [

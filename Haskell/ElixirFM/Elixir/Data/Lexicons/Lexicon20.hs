@@ -218,7 +218,8 @@ lexicon = listing "Lexicon's properties"
  |> "f .h .s" <| [
 
     FaCaL                     `verb`       {- faHaS-a -}        [ "examine", "scrutinize", "investigate", "search" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `second`     HiFCaL,
 
     TaFaCCaL                  `verb`       {- tafaH~aS -}       [ "examine", "scrutinize", "inspect" ],
 
@@ -351,13 +352,13 @@ lexicon = listing "Lexicon's properties"
  |> "f .t n" <| [
 
     FaCaL                     `verb`       {- faTan-u -}        [ "perceive", "be aware" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCuL                     `verb`       {- faTun-u -}        [ "be astute" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCiL                     `verb`       {- faTin-a -}        [ "be astute" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     TaFaCCaL                  `verb`       {- tafaT~an -}       [ "perceive", "be aware" ],
 
@@ -697,6 +698,7 @@ lexicon = listing "Lexicon's properties"
  |> "f d y" <| [
 
     FaCY                      `verb`       {- fadaY-i -}        [ "redeem", "ransom" ]
+                              `imperf`     FCY
                               `imperf`     FCiL
                               `imperf`     FCI,
 
@@ -981,7 +983,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "f n y" <| [
 
-    FaCiL                     `verb`       {- faniy-a -}        [ "perish", "disappear" ],
+    FaCiL                     `verb`       {- faniy-a -}        [ "perish", "disappear" ]
+                              `imperf`     FCY,
 
     HaFCY                     `verb`       {- OafonaY -}        [ "annihilate", "destroy", "exterminate", "be annihilated", "be destroyed", "be exterminated" ],
 
@@ -1700,8 +1703,9 @@ lexicon = listing "Lexicon's properties"
  |> "f t n" <| [
 
     FaCaL                     `verb`       {- fatan-i -}        [ "entice", "torment", "be infatuated" ]
-                              `ithird`     FCaL
-                              `ithird`     FCiL,
+                              `imperf`     FCaL
+                              `imperf`     FCiL
+                              {- `others` [ "futin PV" ] -},
 
     FiCL |< aT                `noun`       {- fitonap -}        [ "sedition", "dissension", "discord" ]
                               `plural`     FiCaL
@@ -1769,7 +1773,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "f t y" <| [
 
-    FaCiL                     `verb`       {- fatiy-a -}        [ "be youthful" ],
+    FaCiL                     `verb`       {- fatiy-a -}        [ "be youthful" ]
+                              `imperf`     FCY,
 
     FaCIL                     `adj`        {- fatiy~ -}         [ "youthful" ],
 

@@ -312,7 +312,7 @@ lexicon = listing "Lexicon's properties"
  |> "s ^g n" <| [
 
     FaCaL                     `verb`       {- sajan-u -}        [ "imprison" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCL                      `noun`       {- sajon -}          [ "detention", "imprisonment" ],
 
@@ -403,7 +403,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "s _h y" <| [
 
-    FaCiL                     `verb`       {- saxiy-a -}        [ "be generous", "bestow" ],
+    FaCiL                     `verb`       {- saxiy-a -}        [ "be generous", "bestow" ]
+                              `imperf`     FCY,
 
     FaCIL                     `adj`        {- saxiy~ -}         [ "generous", "openhanded" ]
                               `plural`     HaFCiLA'
@@ -513,7 +514,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "s ` y" <| [
 
-    FaCY                      `verb`       {- saEaY-a -}        [ "strive", "pursue" ],
+    FaCY                      `verb`       {- saEaY-a -}        [ "strive", "pursue" ]
+                              `imperf`     FCY,
 
     TaFACY                    `verb`       {- tasAEaY -}        [ "run about" ],
 
@@ -1022,7 +1024,7 @@ lexicon = listing "Lexicon's properties"
     FuCCAL                    `noun`       {- suk~An -}         [ "rudder" ],
 
     FaCaL                     `verb`       {- sakan-u -}        [ "be calm" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCCaL                    `verb`       {- sak~an -}         [ "calm", "placate" ],
 
@@ -1780,9 +1782,9 @@ lexicon = listing "Lexicon's properties"
  |> "s n n" <| [
 
     FaCL                      `verb`       {- san~-u -}         [ "prescribe", "enact", "be prescribed", "be enacted" ]
+                              `imperf`     FCuL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     HaFaCL                    `verb`       {- Oasan~ -}         [ "grow teeth", "teethe" ],
 
@@ -1850,7 +1852,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`        {- saniy~ -}         [ "splendid", "sublime" ],
 
-    FUCiy                     `noun`       {- suwniy -}         [ "Sony" ] ]
+    FUCI                      `noun`       {- suwniy -}         [ "Sony" ] ]
 
  |> "s n y r" <| [
 
@@ -2148,6 +2150,7 @@ lexicon = listing "Lexicon's properties"
                               {- `others` [ "'asriyA' Nh N0_Nh Nhy" ] -},
 
     FaCY                      `verb`       {- saraY-i -}        [ "flow", "circulate", "spread" ]
+                              `imperf`     FCY
                               `imperf`     FCiL
                               `imperf`     FCI,
 
@@ -2535,7 +2538,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "s w y" <| [
 
-    FaCiL                     `verb`       {- sawiy-a -}        [ "equal", "be equivalent to" ],
+    FaCiL                     `verb`       {- sawiy-a -}        [ "equal", "be equivalent to" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- saw~aY -}         [ "equalize", "settle", "be equalized", "be settled" ],
 

@@ -4182,7 +4182,7 @@ xnw     xanaw   PV_Atn  be obscene
 xn      xan     PV_ttAw_intr    be obscene
 xnw     xonuw   IV_0hAnn        be obscene
 xn      xon     IV_0hwnyn       be obscene
-xnY     xonaY   IV_0    be obscene
+xnY     xonaY   IV_0_Pass_yu    be obscene
 ;; xaniy-a_1
 xny     xaniy   PV_no-w_intr    be obscene
 xn      xan     PV_w_intr       be obscene
@@ -4490,7 +4490,7 @@ xwy     xaway   PV_Atn  be empty;be hungry
 xw      xaw     PV_ttAw_intr    be empty;be hungry
 xwy     xowiy   IV_0hAnn        be empty;be hungry
 xw      xow     IV_0hwnyn       be empty;be hungry
-xwY     xowaY   IV_0    be empty;be hungry
+xwY     xowaY   IV_0_Pass_yu    be empty;be hungry
 ;; xawiy-a_1
 xwy     xawiy   PV_no-w_intr    be empty;be desolate
 xw      xaw     PV_w_intr       be empty;be desolate

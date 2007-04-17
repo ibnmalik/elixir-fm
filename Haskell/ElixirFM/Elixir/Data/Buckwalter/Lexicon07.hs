@@ -1925,7 +1925,7 @@ lexicon = listing "Lexicon's properties"
     -- x$n     xo$un   IV-n_intr       be rough;be raw;be unpolished
 
     FaCuL                     `verb`       {- xa$un-u -}        [ "be rough", "be raw", "be unpolished" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; xa$~an_1
     -- x$n     xa$~an  PV-n    roughen;make crude
@@ -2010,7 +2010,8 @@ lexicon = listing "Lexicon's properties"
     -- x$y     xo$ay   IV_Ann  fear;be afraid
     -- x$      xo$a    IV_0hwnyn       fear;be afraid
 
-    FaCiL                     `verb`       {- xa$iy-a -}        [ "fear", "be afraid" ],
+    FaCiL                     `verb`       {- xa$iy-a -}        [ "fear", "be afraid" ]
+                              `imperf`     FCY,
 
     -- ;; xa$~aY_1
     -- x$Y     xa$~aY  PV_0    frighten;alarm
@@ -3817,7 +3818,8 @@ lexicon = listing "Lexicon's properties"
     -- xfy     xofay   IV_Ann  be hidden
     -- xf      xofa    IV_0hwnyn       be hidden
 
-    FaCiL                     `verb`       {- xafiy-a -}        [ "be hidden" ],
+    FaCiL                     `verb`       {- xafiy-a -}        [ "be hidden" ]
+                              `imperf`     FCY,
 
     -- ;; xafaY-i_1
     -- xfY     xafaY   PV_0    hide;conceal
@@ -6198,8 +6200,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`       {- xan~-i -}         [ "nasalize", "twang" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `imperf`     FCiL
+                              `pfirst`     FaCaL,
 
     -- ;; xun~ap_1
     -- xn      xun~    Nap     nasal twang
@@ -6379,7 +6381,7 @@ lexicon = listing "Lexicon's properties"
     -- xn      xan     PV_ttAw_intr    be obscene
     -- xnw     xonuw   IV_0hAnn        be obscene
     -- xn      xon     IV_0hwnyn       be obscene
-    -- xnY     xonaY   IV_0    be obscene
+    -- xnY     xonaY   IV_0_Pass_yu    be obscene
 
     FaCA                      `verb`       {- xanA-u -}         [ "be obscene" ]
                               `imperf`     FCuL
@@ -7425,12 +7427,12 @@ lexicon = listing "Lexicon's properties"
     -- xwry    xuwriy  N0      priest
     -- xwArn   xawArin Nap     priests
 
-    FUCiy                     `noun`       {- xuwriy -}         [ "priest", "priests" ],
+    FUCI                      `noun`       {- xuwriy -}         [ "priest", "priests" ],
 
     -- ;; xuwriy_2
     -- xwry    xuwriy  N0      Khouri
 
-    FUCiy                     `noun`       {- xuwriy -}         [ "Khouri" ] ]
+    FUCI                      `noun`       {- xuwriy -}         [ "Khouri" ] ]
 
  |> "_h r s" <| [
 
@@ -7973,7 +7975,7 @@ lexicon = listing "Lexicon's properties"
     -- xtn     xotin   IV-n    circumcise
 
     FaCaL                     `verb`       {- xatan-i -}        [ "circumcise" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     -- ;; {ixotatan_1
     -- <xttn   {ixotatan       PV-n_intr       be circumcised
@@ -8407,8 +8409,8 @@ lexicon = listing "Lexicon's properties"
     FAL                       `verb`       {- xAn-u -}          [ "betray", "deceive", "fail" ]
                               `imperf`     FUL
                               `imperf`     FuCL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `imperf`     FuL
+                              `pfirst`     FuL,
 
     -- ;; xaw~an_1
     -- xwn     xaw~an  PV-n    consider faithless;distrust;regard as unreliable
@@ -8559,7 +8561,7 @@ lexicon = listing "Lexicon's properties"
     -- xw      xaw     PV_ttAw_intr    be empty;be hungry
     -- xwy     xowiy   IV_0hAnn        be empty;be hungry
     -- xw      xow     IV_0hwnyn       be empty;be hungry
-    -- xwY     xowaY   IV_0    be empty;be hungry
+    -- xwY     xowaY   IV_0_Pass_yu    be empty;be hungry
 
     FaCY                      `verb`       {- xawaY-i -}        [ "be empty", "be hungry" ]
                               `imperf`     FCiL
@@ -8572,7 +8574,8 @@ lexicon = listing "Lexicon's properties"
     -- xwy     xoway   IV_Ann  be empty;be desolate
     -- xw      xowa    IV_0hwnyn       be empty;be desolate
 
-    FaCiL                     `verb`       {- xawiy-a -}        [ "be empty", "be desolate" ],
+    FaCiL                     `verb`       {- xawiy-a -}        [ "be empty", "be desolate" ]
+                              `imperf`     FCY,
 
     -- ;; xAwaY_1
     -- xAwY    xAwaY   PV_0    join the company of;accompany
@@ -9304,7 +9307,7 @@ lexicon = listing "Lexicon's properties"
     -- xzn     xozun   IV-n    store;amass
 
     FaCaL                     `verb`       {- xazan-u -}        [ "store", "amass" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; xaz~an_1
     -- xzn     xaz~an  PV-n    store;hoard
@@ -9475,7 +9478,8 @@ lexicon = listing "Lexicon's properties"
     -- xzy     xozay   IV_Ann  be despicable
     -- xz      xoza    IV_0hwnyn       be despicable
 
-    FaCiL                     `verb`       {- xaziy-a -}        [ "be despicable" ],
+    FaCiL                     `verb`       {- xaziy-a -}        [ "be despicable" ]
+                              `imperf`     FCY,
 
     -- ;; xazaY-i_1
     -- xzY     xazaY   PV_0    disgrace;humiliate
@@ -9487,6 +9491,7 @@ lexicon = listing "Lexicon's properties"
     -- xzY     xozaY   IV_0    disgrace;humiliate
 
     FaCY                      `verb`       {- xazaY-i -}        [ "disgrace", "humiliate" ]
+                              `imperf`     FCY
                               `imperf`     FCiL
                               `imperf`     FCI,
 

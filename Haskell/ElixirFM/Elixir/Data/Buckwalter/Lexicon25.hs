@@ -227,7 +227,8 @@ lexicon = listing "Lexicon's properties"
     -- n>y     no>ay   IV_Ann  be distant;go away
     -- n>      no>a    IV_0hwnyn       be distant;go away
 
-    FaCY                      `verb`       {- naOaY-a -}        [ "be distant", "go away" ],
+    FaCY                      `verb`       {- naOaY-a -}        [ "be distant", "go away" ]
+                              `imperf`     FCY,
 
     -- ;; nA'aY_1
     -- nA'Y    nA'aY   PV_0    keep far away
@@ -1587,7 +1588,8 @@ lexicon = listing "Lexicon's properties"
     -- nHy     noHay   IV_Ann  go towards;move towards
     -- nH      noHa    IV_0hwnyn       go towards;move towards
 
-    FaCY                      `verb`       {- naHaY-a -}        [ "go towards", "move towards" ],
+    FaCY                      `verb`       {- naHaY-a -}        [ "go towards", "move towards" ]
+                              `imperf`     FCY,
 
     -- ;; naH~aY_1
     -- nHY     naH~aY  PV_0    put aside;eliminate
@@ -5354,7 +5356,8 @@ lexicon = listing "Lexicon's properties"
     -- n$y     no$ay   IV_Ann  become intoxicated
     -- n$      no$a    IV_0hwnyn       become intoxicated
 
-    FaCiL                     `verb`       {- na$iy-a -}        [ "become intoxicated" ],
+    FaCiL                     `verb`       {- na$iy-a -}        [ "become intoxicated" ]
+                              `imperf`     FCY,
 
     -- ;; na$~aY_1
     -- n$Y     na$~aY  PV_0    starch
@@ -6696,7 +6699,8 @@ lexicon = listing "Lexicon's properties"
     -- nEy     noEay   IV_Ann  announce the death of
     -- nE      noEa    IV_0hwnyn       announce the death of
 
-    FaCY                      `verb`       {- naEaY-a -}        [ "announce the death of" ],
+    FaCY                      `verb`       {- naEaY-a -}        [ "announce the death of" ]
+                              `imperf`     FCY,
 
     -- ;; naEaY-i_1
     -- nEY     naEaY   PV_0    mourn;lament
@@ -8574,7 +8578,8 @@ lexicon = listing "Lexicon's properties"
     -- ndy     noday   IV_Ann  be moist;be damp
     -- nd      noda    IV_0hwnyn       be moist;be damp
 
-    FaCiL                     `verb`       {- nadiy-a -}        [ "be moist", "be damp" ],
+    FaCiL                     `verb`       {- nadiy-a -}        [ "be moist", "be damp" ]
+                              `imperf`     FCY,
 
     -- ;; nadiy~_1
     -- ndy     nadiy~  N/ap    moist;damp;generous     [[nadiy~/ADJ]]
@@ -10560,7 +10565,8 @@ lexicon = listing "Lexicon's properties"
     -- nhq     nohaq   IV      bray
 
     FaCaL                     `verb`       {- nahaq-ia -}       [ "bray" ]
-                              `imperf`     FCaL ]
+                              `imperf`     FCaL
+                              {- `others` [ "nahiq PV" ] -} ]
 
  |> "n h r" <| [
 
@@ -10659,7 +10665,8 @@ lexicon = listing "Lexicon's properties"
     -- nhy     nohay   IV_Ann  forbid;restrain
     -- nh      noha    IV_0hwnyn       forbid;restrain
 
-    FaCY                      `verb`       {- nahaY-i -}        [ "forbid", "restrain" ],
+    FaCY                      `verb`       {- nahaY-i -}        [ "forbid", "restrain" ]
+                              `imperf`     FCY,
 
     -- ;; nahaY-i_2
     -- nhy     nuhiy   PV_Pass-aAat    reach;be informed
@@ -11656,7 +11663,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `verb`       {- nakaY-i -}        [ "harm", "injure", "offend" ]
                               `imperf`     FCiL
-                              `imperf`     FCI,
+                              `imperf`     FCI
+                              `imperf`     FCY,
 
     -- ;; nikAyap_1
     -- nkAy    nikAy   Nap     damage;prejudice;offense
@@ -13229,7 +13237,8 @@ lexicon = listing "Lexicon's properties"
     -- nqh     naqih   PV      recover;convalesce
 
     FaCaL                     `verb`       {- naqah-ai -}       [ "recover", "convalesce" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "naqih PV" ] -},
 
     -- ;; {inotaqah_1
     -- <ntqh   {inotaqah       PV      recover;convalesce
@@ -13813,7 +13822,8 @@ lexicon = listing "Lexicon's properties"
     -- nqy     noqay   IV_Ann  be pure
     -- nq      noqa    IV_0hwnyn       be pure
 
-    FaCiL                     `verb`       {- naqiy-a -}        [ "be pure" ],
+    FaCiL                     `verb`       {- naqiy-a -}        [ "be pure" ]
+                              `imperf`     FCY,
 
     -- ;; nuqAyap_1
     -- nqAy    nuqAy   Nap     selection;choice;select
@@ -13994,7 +14004,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; nuwriy_1
     -- nwry    nuwriy  Nprop   Nouri;Nuri
 
-    FUCiy                     `noun`       {- nuwriy -}         [ "Nouri", "Nuri" ] ]
+    FUCI                      `noun`       {- nuwriy -}         [ "Nouri", "Nuri" ] ]
 
  |> "n r w ^g" <| [
 
@@ -14552,7 +14562,8 @@ lexicon = listing "Lexicon's properties"
     -- nsk     nosuk   IV_intr be devout;be ascetic
 
     FaCaL                     `verb`       {- nasak-u -}        [ "be devout", "be ascetic" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "nasuk PV" ] -},
 
     -- ;; tanas~ak_1
     -- tnsk    tanas~ak        PV_intr be pious;be devout
@@ -15010,7 +15021,8 @@ lexicon = listing "Lexicon's properties"
     -- nsY     nosaY   IV_0_Pass_yu    be forgotten
     -- nsy     nosay   IV_Ann_Pass_yu  be forgotten
 
-    FaCiL                     `verb`       {- nasiy-a -}        [ "forget", "be forgotten" ],
+    FaCiL                     `verb`       {- nasiy-a -}        [ "forget", "be forgotten" ]
+                              `imperf`     FCY,
 
     -- ;; >anosaY_1
     -- >nsY    >anosaY PV_0    make forget
@@ -15322,21 +15334,21 @@ lexicon = listing "Lexicon's properties"
     -- ntn     notin   IV-n    stink;decompose
 
     FaCaL                     `verb`       {- natan-i -}        [ "stink", "decompose" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     -- ;; natin-a_1
     -- ntn     natin   PV-n    stink;decompose
     -- ntn     notan   IV-n    stink;decompose
 
     FaCiL                     `verb`       {- natin-a -}        [ "stink", "decompose" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; natun-u_1
     -- ntn     natun   PV-n    stink;decompose
     -- ntn     notun   IV-n    stink;decompose
 
     FaCuL                     `verb`       {- natun-u -}        [ "stink", "decompose" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; nat~an_1
     -- ntn     nat~an  PV-n    render putrid;cause to decay

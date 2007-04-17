@@ -144,7 +144,8 @@ lexicon = listing "Lexicon's properties"
     -- S>y     So>ay   IV_Ann  twitter;chirp
     -- S}y     So}ay   IV_Ann  twitter;chirp
 
-    FaCY                      `verb`       {- SaOaY-a -}        [ "twitter", "chirp" ],
+    FaCY                      `verb`       {- SaOaY-a -}        [ "twitter", "chirp" ]
+                              `imperf`     FCY,
 
     -- ;; Sa>aY-i_1
     -- S>Y     Sa>aY   PV_0    twitter;chirp
@@ -363,7 +364,8 @@ lexicon = listing "Lexicon's properties"
     -- Sgy     Sogay   IV_Ann  lean over;incline
     -- Sg      Soga    IV_0hwnyn       lean over;incline
 
-    FaCiL                     `verb`       {- Sagiy-a -}        [ "lean over", "incline" ],
+    FaCiL                     `verb`       {- Sagiy-a -}        [ "lean over", "incline" ]
+                              `imperf`     FCY,
 
     -- ;; SAgiy_1
     -- SAgy    SAgiy   N0F     attentive;listening     [[SAgiy/ADJ]]
@@ -825,7 +827,8 @@ lexicon = listing "Lexicon's properties"
     -- SHy     SoHay   IV_Ann  wake up;regain consciousness
     -- SH      SoHa    IV_0hwnyn       wake up;regain consciousness
 
-    FaCiL                     `verb`       {- SaHiy-a -}        [ "wake up", "regain consciousness" ],
+    FaCiL                     `verb`       {- SaHiy-a -}        [ "wake up", "regain consciousness" ]
+                              `imperf`     FCY,
 
     -- ;; SAHiy_1
     -- SAHy    SAHiy   N0F     bright;serene     [[SAHiy/ADJ]]
@@ -2010,7 +2013,8 @@ lexicon = listing "Lexicon's properties"
     -- Sby     Sobay   IV_Ann  be childish;be infantile
     -- Sb      Soba    IV_0hwnyn       be childish;be infantile
 
-    FaCiL                     `verb`       {- Sabiy-a -}        [ "be childish", "be infantile" ],
+    FaCiL                     `verb`       {- Sabiy-a -}        [ "be childish", "be infantile" ]
+                              `imperf`     FCY,
 
     -- ;; Sabiy~_1
     -- Sby     Sabiy~  Ndu     young boy;youth
@@ -2832,7 +2836,8 @@ lexicon = listing "Lexicon's properties"
     -- Sdy     Soday   IV_Ann  be thirsty
     -- Sd      Soda    IV_0hwnyn       be thirsty
 
-    FaCiL                     `verb`       {- Sadiy-a -}        [ "be thirsty" ],
+    FaCiL                     `verb`       {- Sadiy-a -}        [ "be thirsty" ]
+                              `imperf`     FCY,
 
     -- ;; Sad~aY_1
     -- SdY     Sad~aY  PV_0    echo
@@ -3274,7 +3279,7 @@ lexicon = listing "Lexicon's properties"
     -- Sfn     Sofin   IV-n    ponder
 
     FaCaL                     `verb`       {- Safan-i -}        [ "ponder" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     -- ;; Safan_1
     -- Sfn     Safan   N       scrotum
@@ -4870,7 +4875,8 @@ lexicon = listing "Lexicon's properties"
     -- Sly     Solay   IV_Ann  get burned
     -- Sl      Sola    IV_0hwnyn       get burned
 
-    FaCiL                     `verb`       {- Saliy-a -}        [ "get burned" ],
+    FaCiL                     `verb`       {- Saliy-a -}        [ "get burned" ]
+                              `imperf`     FCY,
 
     -- ;; >aSolaY_1
     -- >SlY    >aSolaY PV_0    burn
@@ -5295,7 +5301,7 @@ lexicon = listing "Lexicon's properties"
     -- Sm      Sam     PV_ttAw_intr    be fatally wounded
     -- Smy     Somiy   IV_0hAnn        be fatally wounded
     -- Sm      Som     IV_0hwnyn       be fatally wounded
-    -- SmY     SomaY   IV_0    be fatally wounded
+    -- SmY     SomaY   IV_0_Pass_yu    be fatally wounded
 
     FaCY                      `verb`       {- SamaY-i -}        [ "be fatally wounded" ]
                               `imperf`     FCiL

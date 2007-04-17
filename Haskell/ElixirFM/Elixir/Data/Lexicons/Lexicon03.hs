@@ -310,7 +310,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "t m q" <| [
 
-    FUCiy                     `noun`       {- tuwmiy -}         [ "Tommy" ] ]
+    FUCI                      `noun`       {- tuwmiy -}         [ "Tommy" ] ]
 
  |> "t m r" <| [
 
@@ -344,9 +344,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "t n q" <| [
 
-    FUCiy                     `noun`       {- tuwniy -}         [ "Toni" ],
+    FUCI                      `noun`       {- tuwniy -}         [ "Toni" ],
 
-    FUCiy                     `noun`       {- tuwniy -}         [ "Toni" ] ]
+    FUCI                      `noun`       {- tuwniy -}         [ "Toni" ] ]
 
  |> "t n z" <| [
 

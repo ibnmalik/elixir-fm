@@ -2534,7 +2534,7 @@ $Lexicon = {
           'IV_0hAnn' => 1
         },
         '.hlY' => {
-          'IV_0' => 1
+          'IV_0_Pass_yu' => 1
         },
         '.hal' => {
           'PV_ttAw_intr' => 1
@@ -2560,7 +2560,7 @@ $Lexicon = {
         'Hl      Hal     PV_ttAw_intr    be sweet;be pleasant',
         'Hlw     Holuw   IV_0hAnn        be sweet;be pleasant',
         'Hl      Hol     IV_0hwnyn       be sweet;be pleasant',
-        'HlY     HolaY   IV_0    be sweet;be pleasant'
+        'HlY     HolaY   IV_0_Pass_yu    be sweet;be pleasant'
       ],
       'patterns' => {
         '.hluw' => [
@@ -18281,7 +18281,7 @@ $Lexicon = {
         },
         '.harY' => {},
         '.hrY' => {
-          'IV_0' => 1
+          'IV_0_Pass_yu' => 1
         },
         '.haray' => {
           'PV_Atn' => 1
@@ -18303,7 +18303,7 @@ $Lexicon = {
         'Hr      Har     PV_ttAw_intr    be able;be possible',
         'Hry     Horiy   IV_0hAnn        be able;be possible',
         'Hr      Hor     IV_0hwnyn       be able;be possible',
-        'HrY     HoraY   IV_0    be able;be possible'
+        'HrY     HoraY   IV_0_Pass_yu    be able;be possible'
       ],
       'patterns' => {
         '.hriy' => [
@@ -44695,14 +44695,8 @@ $Lexicon = {
         '.hyY' => {
           'IV_0' => 1
         },
-        '.hay' => {
-          'PV_w' => 1
-        },
         '.hya' => {
           'IV_0hwnyn' => 1
-        },
-        '.hayiy' => {
-          'PV_no-w' => 1
         },
         '.hayy' => {}
       },
@@ -44711,25 +44705,17 @@ $Lexicon = {
       'lines' => [
         ';; Hay~-a_1',
         'Hy      Hay~    PV_V    live;experience;witness',
-        'Hyy     Hayiy   PV_no-w live;experience;witness',
-        'Hy      Hay     PV_w    live;experience;witness',
         'HyY     HoyaY   IV_0    live;experience;witness',
         'HyA     HoyA    IV_0    live;experience;witness',
         'Hyy     Hoyay   IV_Ann  live;experience;witness',
         'Hy      Hoya    IV_0hwnyn       live;experience;witness'
       ],
       'patterns' => {
-        '.hay' => [
-          'FaL'
-        ],
         '.hyY' => [
           'FCY'
         ],
         '.hyay' => [
           'FCaL'
-        ],
-        '.hayiy' => [
-          'FaCiL'
         ]
       },
       'index' => '1',
@@ -44745,6 +44731,62 @@ $Lexicon = {
         'FCaL'
       ],
       'orig' => 'Hay~-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.hyA' => {
+          'IV_0' => 1
+        },
+        '.hyay' => {
+          'IV_Ann' => 1
+        },
+        '.hyY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '.hay' => {
+          'PV_w' => 1
+        },
+        '.hya' => {
+          'IV_0hwnyn' => 1
+        },
+        '.hayiy' => {}
+      },
+      'entry' => '.hayiy',
+      'form' => '.hayiy',
+      'lines' => [
+        ';; Hayiy-a_1',
+        'Hyy     Hayiy   PV_no-w live;experience;witness',
+        'Hy      Hay     PV_w    live;experience;witness',
+        'HyY     HoyaY   IV_0_Pass_yu    live;experience;witness',
+        'HyA     HoyA    IV_0    live;experience;witness',
+        'Hyy     Hoyay   IV_Ann  live;experience;witness',
+        'Hy      Hoya    IV_0hwnyn       live;experience;witness'
+      ],
+      'patterns' => {
+        '.hay' => [
+          'FaL'
+        ],
+        '.hyY' => [
+          'FCY'
+        ],
+        '.hyay' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        'live',
+        'experience',
+        'witness'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'Hayiy-a',
       'prefix' => ''
     },
     {
@@ -55106,7 +55148,7 @@ $Lexicon = {
           'IV_0hAnn' => 1
         },
         '.hbay' => {
-          'IV_Ann' => 1
+          'IV_Ann_Pass_yu' => 1
         },
         '.hab' => {
           'PV_ttAw' => 1
@@ -55118,7 +55160,7 @@ $Lexicon = {
           'IV_0hwnyn' => 1
         },
         '.hbY' => {
-          'IV_0' => 1
+          'IV_0_Pass_yu' => 1
         },
         '.habA' => {}
       },
@@ -55131,8 +55173,8 @@ $Lexicon = {
         'Hb      Hab     PV_ttAw crawl;give',
         'Hbw     Hobuw   IV_0hAnn        crawl;give',
         'Hb      Hob     IV_0hwnyn       crawl;give',
-        'HbY     HobaY   IV_0    be given',
-        'Hby     Hobay   IV_Ann  be given'
+        'HbY     HobaY   IV_0_Pass_yu    be given',
+        'Hby     Hobay   IV_Ann_Pass_yu  be given'
       ],
       'patterns' => {
         '.hbuw' => [
@@ -58349,15 +58391,15 @@ $Lexicon->{'.h d y'}[1]{'glosses'} = $Lexicon->{'.h d w'}[6]{'glosses'};
 $Lexicon->{'.h d y'}[3]{'types'} = $Lexicon->{'.h d w'}[7]{'types'};
 $Lexicon->{'.h d y'}[3]{'lines'} = $Lexicon->{'.h d w'}[7]{'lines'};
 $Lexicon->{'.h d y'}[3]{'glosses'} = $Lexicon->{'.h d w'}[7]{'glosses'};
-$Lexicon->{'.h y y'}[11]{'types'} = $Lexicon->{'.h y \''}[1]{'types'};
-$Lexicon->{'.h y y'}[11]{'lines'} = $Lexicon->{'.h y \''}[1]{'lines'};
-$Lexicon->{'.h y y'}[11]{'glosses'} = $Lexicon->{'.h y \''}[1]{'glosses'};
-$Lexicon->{'.h y y'}[12]{'types'} = $Lexicon->{'.h y \''}[2]{'types'};
-$Lexicon->{'.h y y'}[12]{'lines'} = $Lexicon->{'.h y \''}[2]{'lines'};
-$Lexicon->{'.h y y'}[12]{'glosses'} = $Lexicon->{'.h y \''}[2]{'glosses'};
-$Lexicon->{'.h y y'}[18]{'types'} = $Lexicon->{'.h y \''}[3]{'types'};
-$Lexicon->{'.h y y'}[18]{'lines'} = $Lexicon->{'.h y \''}[3]{'lines'};
-$Lexicon->{'.h y y'}[18]{'glosses'} = $Lexicon->{'.h y \''}[3]{'glosses'};
+$Lexicon->{'.h y y'}[12]{'types'} = $Lexicon->{'.h y \''}[1]{'types'};
+$Lexicon->{'.h y y'}[12]{'lines'} = $Lexicon->{'.h y \''}[1]{'lines'};
+$Lexicon->{'.h y y'}[12]{'glosses'} = $Lexicon->{'.h y \''}[1]{'glosses'};
+$Lexicon->{'.h y y'}[13]{'types'} = $Lexicon->{'.h y \''}[2]{'types'};
+$Lexicon->{'.h y y'}[13]{'lines'} = $Lexicon->{'.h y \''}[2]{'lines'};
+$Lexicon->{'.h y y'}[13]{'glosses'} = $Lexicon->{'.h y \''}[2]{'glosses'};
+$Lexicon->{'.h y y'}[19]{'types'} = $Lexicon->{'.h y \''}[3]{'types'};
+$Lexicon->{'.h y y'}[19]{'lines'} = $Lexicon->{'.h y \''}[3]{'lines'};
+$Lexicon->{'.h y y'}[19]{'glosses'} = $Lexicon->{'.h y \''}[3]{'glosses'};
 $Lexicon->{'.h .s \''}[0]{'types'} = $Lexicon->{'.h .s w'}[6]{'types'};
 $Lexicon->{'.h .s \''}[0]{'lines'} = $Lexicon->{'.h .s w'}[6]{'lines'};
 $Lexicon->{'.h .s \''}[0]{'glosses'} = $Lexicon->{'.h .s w'}[6]{'glosses'};

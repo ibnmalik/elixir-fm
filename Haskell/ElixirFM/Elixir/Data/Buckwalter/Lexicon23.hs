@@ -604,7 +604,8 @@ lexicon = listing "Lexicon's properties"
     -- lgy     logay   IV_Ann  speak nonsense
     -- lg      loga    IV_0hwnyn       speak nonsense
 
-    FaCiL                     `verb`       {- lagiy-a -}        [ "speak nonsense" ],
+    FaCiL                     `verb`       {- lagiy-a -}        [ "speak nonsense" ]
+                              `imperf`     FCY,
 
     -- ;; lAgiy_1
     -- lAgy    lAgiy   N0F     abrogated;null;void     [[lAgiy/ADJ]]
@@ -1099,7 +1100,7 @@ lexicon = listing "Lexicon's properties"
     -- lHn     loHan   IV-n    speak ungrammatically
 
     FaCaL                     `verb`       {- laHan-a -}        [ "speak ungrammatically" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; laH~an_1
     -- lHn     laH~an  PV-n    make music;compose music
@@ -1358,7 +1359,8 @@ lexicon = listing "Lexicon's properties"
     -- lHy     loHay   IV_Ann  insult;abuse
     -- lH      loHa    IV_0hwnyn       insult;abuse
 
-    FaCY                      `verb`       {- laHaY-a -}        [ "insult", "abuse" ],
+    FaCY                      `verb`       {- laHaY-a -}        [ "insult", "abuse" ]
+                              `imperf`     FCY,
 
     -- ;; talAHaY_1
     -- tlAHY   talAHaY PV_0    exchange insults
@@ -1914,7 +1916,8 @@ lexicon = listing "Lexicon's properties"
     -- lZy     loZay   IV_Ann  be ablaze;burn brightly
     -- lZ      loZa    IV_0hwnyn       be ablaze;burn brightly
 
-    FaCiL                     `verb`       {- laZiy-a -}        [ "be ablaze", "burn brightly" ],
+    FaCiL                     `verb`       {- laZiy-a -}        [ "be ablaze", "burn brightly" ]
+                              `imperf`     FCY,
 
     -- ;; talaZ~aY_1
     -- tlZY    talaZ~aY        PV_0    be ablaze;burn brightly
@@ -2222,7 +2225,7 @@ lexicon = listing "Lexicon's properties"
     -- ljn     lojan   IV-n    adhere;cling;stick
 
     FaCiL                     `verb`       {- lajin-a -}        [ "adhere", "cling", "stick" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; lajonap_1
     -- ljn     lajon   Napdu_L council;committee;commission
@@ -2448,7 +2451,8 @@ lexicon = listing "Lexicon's properties"
     -- l*y     lo*ay   IV_Ann  adhere;cleave
     -- l*      lo*a    IV_0hwnyn       adhere;cleave
 
-    FaCiL                     `verb`       {- la*iy-a -}        [ "adhere", "cleave" ],
+    FaCiL                     `verb`       {- la*iy-a -}        [ "adhere", "cleave" ]
+                              `imperf`     FCY,
 
     -- ;; la*aY_1
     -- l*Y     la*aY   N0_L    adhering;cleaving
@@ -2876,7 +2880,7 @@ lexicon = listing "Lexicon's properties"
     -- lEn     loEan   IV-n    curse;damn
 
     FaCaL                     `verb`       {- laEan-a -}        [ "curse", "damn" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; lAEan_1
     -- lAEn    lAEan   PV-n    imprecate;curse;damn
@@ -3155,7 +3159,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; luwbiy_1
     -- lwby    luwbiy  N0_L    lobby
 
-    FUCiy                     `noun`       {- luwbiy -}         [ "lobby" ] ]
+    FUCI                      `noun`       {- luwbiy -}         [ "lobby" ] ]
 
  |> "l b d" <| [
 
@@ -3862,7 +3866,7 @@ lexicon = listing "Lexicon's properties"
     -- ldn     lodun   IV-n_intr       be soft;be flexible
 
     FaCuL                     `verb`       {- ladun-u -}        [ "be soft", "be flexible" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; lad~an_1
     -- ldn     lad~an  PV-n    mollify;mitigate
@@ -4986,7 +4990,8 @@ lexicon = listing "Lexicon's properties"
     -- lhy     lohay   IV_Ann  like;renounce
     -- lh      loha    IV_0hwnyn       like;renounce
 
-    FaCiL                     `verb`       {- lahiy-a -}        [ "like", "renounce" ],
+    FaCiL                     `verb`       {- lahiy-a -}        [ "like", "renounce" ]
+                              `imperf`     FCY,
 
     -- ;; talohiyap_1
     -- tlhy    talohiy Nap     distraction;amusement
@@ -5185,7 +5190,7 @@ lexicon = listing "Lexicon's properties"
     -- lkn     lokan   IV-n    stammer
 
     FaCiL                     `verb`       {- lakin-a -}        [ "stammer" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; lakonap_1
     -- lkn     lakon   Nap_L   accent
@@ -6190,7 +6195,7 @@ lexicon = listing "Lexicon's properties"
     -- lqn     loqan   IV-n    understand;infer
 
     FaCiL                     `verb`       {- laqin-a -}        [ "understand", "infer" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; laq~an_1
     -- lqn     laq~an  PV-n    teach;instruct;suggest
@@ -6253,7 +6258,8 @@ lexicon = listing "Lexicon's properties"
     -- lqy     loqay   IV_Ann  meet;encounter;find
     -- lq      loqa    IV_0hwnyn       meet;encounter;find
 
-    FaCiL                     `verb`       {- laqiy-a -}        [ "meet", "encounter", "find" ],
+    FaCiL                     `verb`       {- laqiy-a -}        [ "meet", "encounter", "find" ]
+                              `imperf`     FCY,
 
     -- ;; lAqaY_1
     -- lAqY    lAqaY   PV_0    meet;encounter
@@ -6514,7 +6520,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; luwriy_1
     -- lwry    luwriy  N0_L    lorry;truck
 
-    FUCiy                     `noun`       {- luwriy -}         [ "lorry", "truck" ] ]
+    FUCI                      `noun`       {- luwriy -}         [ "lorry", "truck" ] ]
 
  |> "l s `" <| [
 
@@ -6565,7 +6571,7 @@ lexicon = listing "Lexicon's properties"
     -- lsn     losan   IV-n_intr       be eloquent
 
     FaCiL                     `verb`       {- lasin-a -}        [ "be eloquent" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; las~an_1
     -- lsn     las~an  PV-n    sharpen;taper
@@ -7572,7 +7578,8 @@ lexicon = listing "Lexicon's properties"
     -- lwy     loway   IV_Ann  be crooked;be bent
     -- lw      lowa    IV_0hwnyn       be crooked;be bent
 
-    FaCiL                     `verb`       {- lawiy-a -}        [ "be crooked", "be bent" ],
+    FaCiL                     `verb`       {- lawiy-a -}        [ "be crooked", "be bent" ]
+                              `imperf`     FCY,
 
     -- ;; law~aY_1
     -- lwY     law~aY  PV_0    bend;contort;distort
@@ -7997,12 +8004,15 @@ lexicon = listing "Lexicon's properties"
  |> "l y n" <| [
 
     -- ;; lAn-i_1
-    -- lyn     liyn    IV_V_intr_yu    be flexible;be delicate
-    -- ln      lin     IV_C_intr_yu    be flexible;be delicate
+    -- lAn     lAn     PV_V_intr       be flexible;be delicate
+    -- ln      lin     PV_Cn_intr      be flexible;be delicate
+    -- lyn     liyn    IV_V_intr       be flexible;be delicate
+    -- ln      lin     IV_C_intr       be flexible;be delicate
 
     FAL                       `verb`       {- lAn-i -}          [ "be flexible", "be delicate" ]
                               `imperf`     FIL
                               `imperf`     FiCL
+                              `pfirst`     FiL
                               `ithird`     FiL,
 
     -- ;; lay~an_1

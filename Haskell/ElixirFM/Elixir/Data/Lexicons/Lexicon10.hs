@@ -136,7 +136,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "r ' y" <| [
 
-    FaCY                      `verb`       {- raOaY-a -}        [ "see", "think", "believe" ],
+    FaCY                      `verb`       {- raOaY-a -}        [ "see", "think", "believe" ]
+                              `imperf`     FY,
 
     FACY                      `verb`       {- rA'aY -}          [ "be hypocritical", "be ostentatious" ],
 
@@ -214,7 +215,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "r .d y" <| [
 
-    FaCiL                     `verb`       {- raDiy-a -}        [ "be pleased", "agree", "approve" ],
+    FaCiL                     `verb`       {- raDiy-a -}        [ "be pleased", "agree", "approve" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- raD~aY -}         [ "satisfy", "compensate", "be satisfied", "be compensated" ],
 
@@ -682,7 +684,8 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `adj`        {- rAjiy -}          [ "hoping", "full of hope" ],
 
-    FaCiL                     `verb`       {- rajiy-a -}        [ "remain silent" ] ]
+    FaCiL                     `verb`       {- rajiy-a -}        [ "remain silent" ]
+                              `imperf`     FCY ]
 
  |> "r ^s .h" <| [
 
@@ -866,7 +869,8 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCU,
 
     FaCY                      `verb`       {- ravaY-i -}        [ "elegize", "mourn" ]
-                              `imperf`     FCI ]
+                              `imperf`     FCI
+                              `imperf`     FCY ]
 
  |> "r ` b" <| [
 
@@ -900,7 +904,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "r ` y" <| [
 
-    FaCY                      `verb`       {- raEaY-a -}        [ "protect", "care for", "sponsor", "promote" ],
+    FaCY                      `verb`       {- raEaY-a -}        [ "protect", "care for", "sponsor", "promote" ]
+                              `imperf`     FCY,
 
     FACY                      `verb`       {- rAEaY -}          [ "observe", "heed", "show deference", "be observed", "be heeded", "be shown deference" ],
 
@@ -1201,7 +1206,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCLY                     `verb`       {- rad~aY -}         [ "make fall", "annihilate", "be struck down", "be annihilated" ],
 
-    FUCiy                     `noun`       {- ruwdiy -}         [ "Rudi" ] ]
+    FUCI                      `noun`       {- ruwdiy -}         [ "Rudi" ] ]
 
  |> "r d f" <| [
 
@@ -1228,7 +1233,7 @@ lexicon = listing "Lexicon's properties"
  |> "r d n" <| [
 
     FaCaL                     `verb`       {- radan-i -}        [ "spin", "purr", "grumble" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     FaCL                      `noun`       {- radon -}          [ "spinning", "purring", "grumbling" ],
 
@@ -1240,7 +1245,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "r d y" <| [
 
-    FaCiL                     `verb`       {- radiy-a -}        [ "perish" ],
+    FaCiL                     `verb`       {- radiy-a -}        [ "perish" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- rad~aY -}         [ "make fall", "annihilate", "be struck down", "be annihilated" ],
 
@@ -1473,7 +1479,7 @@ lexicon = listing "Lexicon's properties"
  |> "r h n" <| [
 
     FaCaL                     `verb`       {- rahan-a -}        [ "mortgage", "pawn" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     FACaL                     `verb`       {- rAhan -}          [ "wager", "bet" ],
 
@@ -1626,10 +1632,10 @@ lexicon = listing "Lexicon's properties"
  |> "r k n" <| [
 
     FaCaL                     `verb`       {- rakan-u -}        [ "be dependent", "be supported" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCiL                     `verb`       {- rakin-a -}        [ "be dependent", "be supported" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     HaFCaL                    `verb`       {- Oarokan -}        [ "trust", "rely", "resort", "be trusted", "be relied on", "be resorted to" ],
 
@@ -1836,15 +1842,15 @@ lexicon = listing "Lexicon's properties"
  |> "r n n" <| [
 
     FaCL                      `verb`       {- ran~-i -}         [ "ring", "resound" ]
+                              `imperf`     FCiL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCCAL                    `adj`        {- ran~An -}         [ "resounding", "resonating", "ringing", "reverberating" ],
 
     FaCLAn                    `adj`        {- ran~An -}         [ "resounding", "resonating", "ringing", "reverberating" ],
 
-    FUCiy                     `noun`       {- ruwniy -}         [ "Ronny", "Ronnie" ] ]
+    FUCI                      `noun`       {- ruwniy -}         [ "Ronny", "Ronnie" ] ]
 
  |> "r q '" <| [
 
@@ -2002,7 +2008,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "r q y" <| [
 
-    FaCiL                     `verb`       {- raqiy-a -}        [ "ascend", "rise", "promote" ],
+    FaCiL                     `verb`       {- raqiy-a -}        [ "ascend", "rise", "promote" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- raq~aY -}         [ "promote", "advance", "be promoted", "be advanced" ],
 
@@ -2721,8 +2728,8 @@ lexicon = listing "Lexicon's properties"
     FAL                       `verb`       {- rAn-i -}          [ "seize", "overcome", "prevail" ]
                               `imperf`     FIL
                               `imperf`     FiCL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `imperf`     FiL
+                              `pfirst`     FiL,
 
     FiCAL                     `noun`       {- riyAn -}          [ "Riyan" ] ]
 

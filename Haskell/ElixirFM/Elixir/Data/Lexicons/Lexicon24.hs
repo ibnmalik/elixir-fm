@@ -161,14 +161,16 @@ lexicon = listing "Lexicon's properties"
  |> "m .h k" <| [
 
     FaCaL                     `verb`       {- maHak-a -}        [ "be contentious", "be quarrelsome" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "ma.hik PV" ] -},
 
     FaCiL                     `noun`       {- maHik -}          [ "quarrelsome", "bickering" ] ]
 
  |> "m .h l" <| [
 
     FaCaL                     `verb`       {- maHal-a -}        [ "be barren", "plot against", "intrigue against" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "ma.hil PV" ] -},
 
     FaCuL                     `verb`       {- maHul-u -}        [ "be barren", "plot against", "intrigue against" ]
                               `imperf`     FCuL,
@@ -180,7 +182,7 @@ lexicon = listing "Lexicon's properties"
  |> "m .h n" <| [
 
     FaCaL                     `verb`       {- maHan-a -}        [ "put to test", "examine" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     FiCL |< aT                `noun`       {- miHonap -}        [ "ordeal", "test", "trial", "ordeals", "tests", "trials" ]
                               `plural`     FiCaL
@@ -319,7 +321,8 @@ lexicon = listing "Lexicon's properties"
  |> "m ^g d" <| [
 
     FaCaL                     `verb`       {- majad-u -}        [ "be glorious" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "ma^gud PV" ] -},
 
     FaCCaL                    `verb`       {- maj~ad -}         [ "praise", "extol" ],
 
@@ -416,7 +419,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `verb`       {- ma$aY-i -}        [ "walk", "proceed" ]
                               `imperf`     FCiL
-                              `imperf`     FCI,
+                              `imperf`     FCI
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- ma$~aY -}         [ "make walk", "adjust", "be made to walk", "be adjusted" ],
 
@@ -797,8 +801,8 @@ lexicon = listing "Lexicon's properties"
  |> "m h n" <| [
 
     FaCaL                     `verb`       {- mahan-ua -}       [ "degrade" ]
-                              `ithird`     FCaL
-                              `ithird`     FCuL,
+                              `imperf`     FCaL
+                              `imperf`     FCuL,
 
     FiCL |< aT                `noun`       {- mihonap -}        [ "vocation", "profession", "occupation", "vocations", "professions", "occupations" ]
                               `plural`     FiCaL
@@ -1388,7 +1392,8 @@ lexicon = listing "Lexicon's properties"
  |> "m r d" <| [
 
     FaCaL                     `verb`       {- marad-u -}        [ "be rebellious", "revolt" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "marud PV" ] -},
 
     FaCCaL                    `verb`       {- mar~ad -}         [ "coat with plaster" ],
 
@@ -1730,7 +1735,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `verb`       {- masaY-i -}        [ "make lean", "emaciate" ]
                               `imperf`     FCiL
-                              `imperf`     FCI,
+                              `imperf`     FCI
+                              `imperf`     FCY,
 
     MUCY                      `noun`       {- muwsaY -}         [ "Mousa", "Moussa" ],
 
@@ -1798,7 +1804,7 @@ lexicon = listing "Lexicon's properties"
  |> "m t n" <| [
 
     FaCaL                     `verb`       {- matan-u -}        [ "be firm", "be strong", "be robust" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCCaL                    `verb`       {- mat~an -}         [ "strengthen", "consolidate" ],
 

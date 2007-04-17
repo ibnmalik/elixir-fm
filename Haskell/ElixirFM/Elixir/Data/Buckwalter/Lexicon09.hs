@@ -148,7 +148,7 @@ lexicon = listing "Lexicon's properties"
     -- \*En     *oEan   IV-n    submit;yield;obey
 
     FaCiL                     `verb`       {- \*aEin-a -}       [ "submit", "yield", "obey" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; >a*oEan_1
     -- >*En    >a*oEan PV-n    submit;yield;obey
@@ -381,7 +381,8 @@ lexicon = listing "Lexicon's properties"
     -- \*bl     *obul   IV      wilt;fade;waste away
 
     FaCaL                     `verb`       {- \*abal-u -}       [ "wilt", "fade", "waste away" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "_dabul PV" ] -},
 
     -- ;; *abol_1
     -- \*bl     *abol   N       mother-of-pearl
@@ -866,7 +867,8 @@ lexicon = listing "Lexicon's properties"
     -- \*ky     *okay   IV_Ann  be sharp-witted
     -- \*k      *oka    IV_0hwnyn       be sharp-witted
 
-    FaCiL                     `verb`       {- \*akiy-a -}       [ "be sharp-witted" ],
+    FaCiL                     `verb`       {- \*akiy-a -}       [ "be sharp-witted" ]
+                              `imperf`     FCY,
 
     -- ;; *akiy~_1
     -- \*ky     *akiy~  N/ap    clever     [[*akiy~/ADJ]]
@@ -1134,7 +1136,8 @@ lexicon = listing "Lexicon's properties"
     -- \*my     *omay   IV_Ann  be near death
     -- \*m      *oma    IV_0hwnyn       be near death
 
-    FaCiL                     `verb`       {- \*amiy-a -}       [ "be near death" ],
+    FaCiL                     `verb`       {- \*amiy-a -}       [ "be near death" ]
+                              `imperf`     FCY,
 
     -- ;; *amA'_1
     -- \*mA'    *amA'   N0_Nh   last remnant;last breath

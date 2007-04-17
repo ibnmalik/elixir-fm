@@ -980,9 +980,9 @@ Ejb     Eaj~ib  IV_yu   arouse admiration
 AEjb    >aEojab PV      delight;please
 Ejb     Eojib   IV_yu   delight;please
 Ejb     Eojab   IV_Pass_yu      be delighted;be pleased
-;; >aEojab_2
->Ejb    >uEojib PV      admire
-AEjb    >uEojib PV      admire
+;; >uEojib_2
+>Ejb    >uEojib PV_Pass_yu      admire
+AEjb    >uEojib PV_Pass_yu      admire
 Ejb     Eojab   IV_Pass_yu      admire
 ;; taEaj~ab_1
 tEjb    taEaj~ab        PV_intr be amazed;be astonished
@@ -8016,14 +8016,14 @@ mEAwyp  muEAwiyap       N0      Mu'awiya
 mEAwy   muEAwiy NapAt   dog (bitch)
 ;
 ;--- Ey
-;; Eay~a_1
+;; Eay~-a_1
 Ey      Eay~    PV_V_intr       be incapable
-Eyy     Eayiy   PV_intr be incapable
-EyA     EoyA    IV_0    be incapable
+Eyy     Eayiy   PV_C_intr       be incapable
+EyA     EoyA    IV_0_intr       be incapable
 ;; Eayiy-a_1
 Eyy     Eayiy   PV_no-w_intr    be incapable
 Ey      Eay     PV_w_intr       be incapable
-EyY     EoyaY   IV_0    be incapable
+EyY     EoyaY   IV_0_Pass_yu    be incapable
 EyA     EoyA    IV_0    be incapable
 Eyy     Eoyay   IV_Ann  be incapable
 Ey      Eoya    IV_0hwnyn       be incapable

@@ -34,7 +34,7 @@ lexicon = listing "Lexicon's properties"
  |> "_d ` n" <| [
 
     FaCiL                     `verb`       {- \*aEin-a -}       [ "submit", "yield", "obey" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     HaFCaL                    `verb`       {- Oa*oEan -}        [ "submit", "yield", "obey", "be submitted to", "be yielded to", "be obeyed" ],
 
@@ -198,7 +198,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d k y" <| [
 
-    FaCiL                     `verb`       {- \*akiy-a -}       [ "be sharp-witted" ],
+    FaCiL                     `verb`       {- \*akiy-a -}       [ "be sharp-witted" ]
+                              `imperf`     FCY,
 
     FaCIL                     `adj`        {- \*akiy~ -}        [ "clever" ]
                               `plural`     HaFCiLA'

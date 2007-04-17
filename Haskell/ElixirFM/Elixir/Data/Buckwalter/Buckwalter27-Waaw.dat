@@ -1018,7 +1018,7 @@ wHy     wHiy    IV_0hAnn_yu     inspire;suggest
 wH      wH      IV_0hwnyn_yu    inspire;suggest
 wHY     wHaY    IV_0_Pass_yu    be inspired;be suggested
 wHy     wHay    IV_Ann_Pass_yu  be inspired;be suggested
-;; >awoHaY_2
+;; >uwoHiy_2
 >wHy    >uwHiy  PV_Pass-aAat    occur
 AwHy    >uwHiy  PV_Pass-aAat    occur
 wHY     wHaY    IV_0_Pass_yu    occur
@@ -2929,9 +2929,9 @@ AwDAm   >awoDAm N       butchers' blocks;meat counters
 ;--- wTA
 ;; waTi}-a_1
 wT}     waTi}   PV      tread on;step on;trample underfoot
-wT>     waTa>   PV->    tread on;step on;trample underfoot
-wT|     waTa|   PV-|    tread on;step on;trample underfoot
-wT&     waTa&   PV_w    tread on;step on;trample underfoot
+; wT>     waTa>   PV->    tread on;step on;trample underfoot
+; wT|     waTa|   PV-|    tread on;step on;trample underfoot
+; wT&     waTa&   PV_w    tread on;step on;trample underfoot
 T>      Ta>     IV      tread on;step on;trample underfoot
 T|      Ta|     IV-|    tread on;step on;trample underfoot
 T&      Ta&     IV_wn   tread on;step on;trample underfoot
@@ -3384,7 +3384,7 @@ wEA     waEA    PV_h    be aware of;pay attention to
 wEy     waEay   PV_Atn  be aware of;pay attention to
 wE      waE     PV_ttAw_intr    be aware of;pay attention to
 Ey      Eiy     IV_0hAnn        be aware of;pay attention to
-wEY     wEaY    IV_0    be aware of;pay attention to
+wEY     wEaY    IV_0_Pass_yu    be aware of;pay attention to
 ;; waE~aY_1
 wEY     waE~aY  PV_0    make conscious;raise the consciousness
 wEA     waE~A   PV_h    make conscious;raise the consciousness
@@ -4677,7 +4677,7 @@ wlE     wal~iE  IV_yu   kindle;light;set fire to
 AwlE    >awolaE PV      kindle;light;set fire to
 wlE     wliE    IV_yu   kindle;light;set fire to
 wlE     wlaE    IV_Pass_yu      be kindled;be lit;be set afire
-;; >awolaE_2
+;; >uwoliE_2
 >wlE    >uwliE  PV_Pass be enamored;fall in love
 AwlE    >uwliE  PV_Pass be enamored;fall in love
 wlE     wlaE    IV_Pass_yu      be enamored;fall in love
@@ -5285,7 +5285,7 @@ hn      hin     IV-n_intr       be weak;lack the strength for
 whn     wahun   PV-n_intr       be weak;lack the strength for
 whn     wohun   IV-n_intr       be weak;lack the strength for
 ;; wah~an_1
-; whn   wah~an  PV-n    weaken;discourage
+whn     wah~an  PV-n    weaken;discourage
 whn     wah~in  IV-n_yu weaken;discourage
 ;; >awohan_1
 >whn    >awohan PV-n    weaken;discourage

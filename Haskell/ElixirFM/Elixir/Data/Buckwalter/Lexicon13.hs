@@ -768,7 +768,7 @@ lexicon = listing "Lexicon's properties"
     -- \$Hn     $oHan   IV-n    ship;freight;load
 
     FaCaL                     `verb`       {- \$aHan-a -}       [ "ship", "freight", "load" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; $AHan_1
     -- \$AHn    $AHan   PV-n    quarrel with
@@ -1090,7 +1090,7 @@ lexicon = listing "Lexicon's properties"
     -- \$Tn     $oTun   IV-n    fasten;attach
 
     FaCaL                     `verb`       {- \$aTan-u -}       [ "fasten", "attach" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; $aTon_1
     -- \$Tn     $aTon   N       fastening;attaching
@@ -1216,7 +1216,8 @@ lexicon = listing "Lexicon's properties"
     -- \$Zy     $oZay   IV_Ann  be splintered;be shattered
     -- \$Z      $oZa    IV_0hwnyn       be splintered;be shattered
 
-    FaCiL                     `verb`       {- \$aZiy-a -}       [ "be splintered", "be shattered" ],
+    FaCiL                     `verb`       {- \$aZiy-a -}       [ "be splintered", "be shattered" ]
+                              `imperf`     FCY,
 
     -- ;; ta$aZ~aY_1
     -- t$ZY    ta$aZ~aY        PV_0    be splintered;be shattered
@@ -1408,14 +1409,14 @@ lexicon = listing "Lexicon's properties"
     -- \$jn     $ojan   IV-n_intr       be worried
 
     FaCiL                     `verb`       {- \$ajin-a -}       [ "be worried" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; $ajan-u_1
     -- \$jn     $ajan   PV-n    sadden;distress
     -- \$jn     $ojun   IV-n    sadden;distress
 
     FaCaL                     `verb`       {- \$ajan-u -}       [ "sadden", "distress" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; $aj~an_1
     -- \$jn     $aj~an  PV-n    sadden;distress
@@ -1639,7 +1640,8 @@ lexicon = listing "Lexicon's properties"
     -- \$jy     $ojay   IV_Ann  be saddened;be distressed
     -- \$j      $oja    IV_0hwnyn       be saddened;be distressed
 
-    FaCiL                     `verb`       {- \$ajiy-a -}       [ "be saddened", "be distressed" ],
+    FaCiL                     `verb`       {- \$ajiy-a -}       [ "be saddened", "be distressed" ]
+                              `imperf`     FCY,
 
     -- ;; $ajiy_1
     -- \$jy     $ajiy   N/ap    worried;grieved     [[$ajiy/ADJ]]
@@ -2428,7 +2430,7 @@ lexicon = listing "Lexicon's properties"
     -- \$En     $oEan   IV-n    scatter;tousle
 
     FaCaL                     `verb`       {- \$aEan-a -}       [ "scatter", "tousle" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; >a$oEan_1
     -- >$En    >a$oEan PV-n    grasp by the hair
@@ -3511,7 +3513,7 @@ lexicon = listing "Lexicon's properties"
     -- \$dn     $odun   IV-n_intr       be weaned
 
     FaCaL                     `verb`       {- \$adan-u -}       [ "be weaned" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; $Adin_1
     -- \$Adn    $Adin   N       gazelle fawn
@@ -4156,7 +4158,8 @@ lexicon = listing "Lexicon's properties"
     -- \$fY     $ofaY   IV_0    cure;heal
 
     FaCY                      `verb`       {- \$afaY-i -}       [ "cure", "heal" ]
-                              `imperf`     FCI,
+                              `imperf`     FCI
+                              `imperf`     FCY,
 
     -- ;; >a$ofaY_1
     -- >$fY    >a$ofaY PV_0    be very close;be on the verge
@@ -6654,8 +6657,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`       {- \$an~-u -}        [ "wage", "launch" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `imperf`     FCuL
+                              `pfirst`     FaCaL,
 
     -- ;; >a$an~_1
     -- >$n     >a$an~  PV_V    wage;launch
@@ -7167,7 +7170,8 @@ lexicon = listing "Lexicon's properties"
     -- \$qy     $oqay   IV_Ann  be unhappy;suffer
     -- \$q      $oqa    IV_0hwnyn       be unhappy;suffer
 
-    FaCiL                     `verb`       {- \$aqiy-a -}       [ "be unhappy", "suffer" ],
+    FaCiL                     `verb`       {- \$aqiy-a -}       [ "be unhappy", "suffer" ]
+                              `imperf`     FCY,
 
     -- ;; $aqiy~_1
     -- \$qy     $aqiy~  N-ap    miserable;wretch     [[$aqiy~/ADJ]]
@@ -9205,7 +9209,7 @@ lexicon = listing "Lexicon's properties"
 
     -- ;; $atar-i_1
     -- \$tr     $atar   PV      cut off;tear up
-    -- \$tr     $otir   IV_yu   cut off;tear up
+    -- \$tr     $otir   IV      cut off;tear up
 
     FaCaL                     `verb`       {- \$atar-i -}       [ "cut off", "tear up" ]
                               `imperf`     FCiL,
@@ -9628,7 +9632,9 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FUL
                               `imperf`     FuCL
                               `pfirst`     FuL
-                              `ithird`     FuL,
+                              `ithird`     FuL
+                              `second`     FUL
+                              `second`     FuCL,
 
     -- ;; $aw~af_1
     -- \$wf     $aw~af  PV      adorn
@@ -11049,10 +11055,10 @@ lexicon = listing "Lexicon's properties"
     -- \$n      $in     IV-n    disfigure;disgrace
 
     FAL                       `verb`       {- \$An-i -}         [ "disfigure", "disgrace" ]
+                              `imperf`     FiL
                               `imperf`     FIL
                               `imperf`     FiCL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; $ay~an_1
     -- \$yn     $ay~an  PV-n    disfigure;disgrace

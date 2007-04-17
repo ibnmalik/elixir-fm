@@ -576,7 +576,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "^g h y" <| [
 
-    FaCiL                     `verb`       {- jahiy-a -}        [ "collapse", "fall" ] ]
+    FaCiL                     `verb`       {- jahiy-a -}        [ "collapse", "fall" ]
+                              `imperf`     FCY ]
 
  |> "^g h z" <| [
 
@@ -904,7 +905,8 @@ lexicon = listing "Lexicon's properties"
  |> "^g m d" <| [
 
     FaCaL                     `verb`       {- jamad-u -}        [ "freeze", "become hard" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "^gamud PV" ] -},
 
     FaCCaL                    `verb`       {- jam~ad -}         [ "freeze", "harden" ],
 
@@ -1106,14 +1108,14 @@ lexicon = listing "Lexicon's properties"
  |> "^g n n" <| [
 
     FaCL                      `verb`       {- jan~-u -}         [ "conceal", "become dark" ]
+                              `imperf`     FCuL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`       {- jan~-u -}         [ "go crazy", "become insane" ]
+                              `imperf`     FCuL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FiCL                      `noun`       {- jin~ -}           [ "demon", "jinn" ],
 
@@ -1268,7 +1270,8 @@ lexicon = listing "Lexicon's properties"
  |> "^g r `" <| [
 
     FaCaL                     `verb`       {- jaraE-ia -}       [ "absorb", "swallow", "devour" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "^gari` PV" ] -},
 
     FaCCaL                    `verb`       {- jar~aE -}         [ "make swallow", "gulp down" ],
 
@@ -1760,7 +1763,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "^g w y" <| [
 
-    FaCiL                     `verb`       {- jawiy-a -}        [ "be stricken", "be overcome" ],
+    FaCiL                     `verb`       {- jawiy-a -}        [ "be stricken", "be overcome" ]
+                              `imperf`     FCY,
 
     FaCY                      `noun`       {- jawaY -}          [ "passion" ]
                               `plural`     FaCA

@@ -455,11 +455,6 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`       {- OaEojab -}        [ "delight", "please", "be delighted", "be pleased" ],
 
-    HaFCaL                    `noun`       {- OaEojab -}        [ "admire" ]
-                              `plural`     FCaL
-                              `plural`     HuFCiL
-                              {- `others` [ "`^gab IV_Pass_yu", "'u`^gib PV" ] -},
-
     TaFaCCaL                  `verb`       {- taEaj~ab -}       [ "be amazed", "be astonished" ],
 
     FaCaL                     `noun`       {- Eajab -}          [ "admiration", "amazement" ]
@@ -1223,7 +1218,7 @@ lexicon = listing "Lexicon's properties"
  |> "` f n" <| [
 
     FaCiL                     `verb`       {- Eafin-a -}        [ "decay", "putrefy", "be infected" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- Eaf~an -}         [ "infect", "decay" ],
 
@@ -1966,7 +1961,8 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`       {- EAmiy -}          [ "Ami" ],
 
-    FaCiL                     `verb`       {- Eamiy-a -}        [ "be blind", "be obscure" ],
+    FaCiL                     `verb`       {- Eamiy-a -}        [ "be blind", "be obscure" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- Eam~aY -}         [ "make blind", "camouflage", "be blinded", "be camouflaged" ],
 
@@ -2040,9 +2036,9 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`       {- Ean~-iu -}        [ "come to mind", "occur" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL
-                              `ithird`     FCiL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL
+                              `pfirst`     FaCaL,
 
     FuCL |< aT                `noun`       {- Eun~ap -}         [ "impotence" ],
 
@@ -2714,7 +2710,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "` r y" <| [
 
-    FaCiL                     `verb`       {- Eariy-a -}        [ "be nude", "be bare" ],
+    FaCiL                     `verb`       {- Eariy-a -}        [ "be nude", "be bare" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- Ear~aY -}         [ "uncover", "unclothe", "be uncovered", "be laid bare" ],
 
@@ -3350,6 +3347,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "` y y" <| [
 
+    FaCL                      `verb`       {- Eay~-a -}         [ "be incapable" ]
+                              `pfirst`     FaCiL,
+
     FaCiL                     `verb`       {- Eayiy-a -}        [ "be incapable" ],
 
     HaFCY                     `verb`       {- OaEoyaY -}        [ "thwart", "be thwarted" ],
@@ -3499,7 +3499,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "` z y" <| [
 
-    FaCiL                     `verb`       {- Eaziy-a -}        [ "be patiently" ],
+    FaCiL                     `verb`       {- Eaziy-a -}        [ "be patiently" ]
+                              `imperf`     FCY,
 
     TaFCiL |< aT              `noun`       {- taEoziyap -}      [ "condolence", "mourning", "condolences" ]
                               `plural`     TaFACI
@@ -3687,10 +3688,6 @@ lexicon = listing "Lexicon's properties"
  |> "`artA" <| [
 
     Identity                  `noun`       {- EarotA -}         [ "Arta" ] ]
-
- |> "`ayya" <| [
-
-    Identity                  `noun`       {- Eay~a -}          [ "be incapable" ] ]
 
  |> "`inda" <| [
 

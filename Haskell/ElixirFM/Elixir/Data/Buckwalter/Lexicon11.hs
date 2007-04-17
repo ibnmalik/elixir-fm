@@ -1707,7 +1707,7 @@ lexicon = listing "Lexicon's properties"
     -- zfn     zofin   IV-n    dance
 
     FaCaL                     `verb`       {- zafan-i -}        [ "dance" ]
-                              `ithird`     FCiL ]
+                              `imperf`     FCiL ]
 
  |> "z f r" <| [
 
@@ -2467,7 +2467,8 @@ lexicon = listing "Lexicon's properties"
     -- zky     zokay   IV_Ann  grow;increase
     -- zk      zoka    IV_0hwnyn       grow;increase
 
-    FaCiL                     `verb`       {- zakiy-a -}        [ "grow", "increase" ],
+    FaCiL                     `verb`       {- zakiy-a -}        [ "grow", "increase" ]
+                              `imperf`     FCY,
 
     -- ;; zakiy~_1
     -- zky     zakiy~  N/ap    pure;blameless     [[zakiy~/ADJ]]
@@ -2531,7 +2532,8 @@ lexicon = listing "Lexicon's properties"
     -- zlj     zolaj   IV      slide;glide
 
     FaCaL                     `verb`       {- zalaj-a -}        [ "slide", "glide" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "zali^g PV" ] -},
 
     -- ;; tazal~aj_1
     -- tzlj    tazal~aj        PV      slide;glide;ski
@@ -3045,7 +3047,7 @@ lexicon = listing "Lexicon's properties"
     -- zmn     zoman   IV-n_intr       be chronically ill
 
     FaCiL                     `verb`       {- zamin-a -}        [ "be chronically ill" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; >azoman_1
     -- >zmn    >azoman PV-n    remain;become chronic
@@ -3469,9 +3471,9 @@ lexicon = listing "Lexicon's properties"
     -- znn     zonun   IV-n    drone;buzz
 
     FaCL                      `verb`       {- zan~-u -}         [ "drone", "buzz" ]
+                              `imperf`     FCuL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; zan~_1
     -- zn      zan~    N       droning;buzzing
@@ -5451,10 +5453,10 @@ lexicon = listing "Lexicon's properties"
     -- zn      zin     IV-n    decorate;adorn
 
     FAL                       `verb`       {- zAn-i -}          [ "decorate", "adorn" ]
+                              `imperf`     FiL
                               `imperf`     FIL
                               `imperf`     FiCL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; zay~an_1
     -- zyn     zay~an  PV-n    embellish;decorate

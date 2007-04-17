@@ -422,21 +422,21 @@ lexicon = listing "Lexicon's properties"
     -- ymn     yomun   IV-n_intr       be lucky;be fortunate
 
     FaCaL                     `verb`       {- yaman-u -}        [ "be lucky", "be fortunate" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; yamin-a_1
     -- ymn     yamin   PV-n_intr       be lucky;be fortunate
     -- ymn     yoman   IV-n_intr       be lucky;be fortunate
 
     FaCiL                     `verb`       {- yamin-a -}        [ "be lucky", "be fortunate" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; yamun-u_1
     -- ymn     yamun   PV-n_intr       be lucky;be fortunate
     -- ymn     yomun   IV-n_intr       be lucky;be fortunate
 
     FaCuL                     `verb`       {- yamun-u -}        [ "be lucky", "be fortunate" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; yam~an_1
     -- ymn     yam~an  PV-n    go to the right
@@ -805,7 +805,7 @@ lexicon = listing "Lexicon's properties"
     -- yqn     yoqan   IV-n_intr       be sure;know for certain
 
     FaCiL                     `verb`       {- yaqin-a -}        [ "be sure", "know for certain" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; >ayoqan_1
     -- >yqn    >ayoqan PV-n    ascertain;be convinced
@@ -974,7 +974,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yuwriy_1
     -- ywry    yuwriy  Nprop   Youri;Yuri
 
-    FUCiy                     `noun`       {- yuwriy -}         [ "Youri", "Yuri" ] ]
+    FUCI                      `noun`       {- yuwriy -}         [ "Youri", "Yuri" ] ]
 
  |> "y s `" <| [
 
@@ -1181,7 +1181,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yuwsiy_1
     -- ywsy    yuwsiy  Nprop   Yosi;Yossi
 
-    FUCiy                     `noun`       {- yuwsiy -}         [ "Yosi", "Yossi" ] ]
+    FUCI                      `noun`       {- yuwsiy -}         [ "Yosi", "Yossi" ] ]
 
  |> "y t m" <| [
 

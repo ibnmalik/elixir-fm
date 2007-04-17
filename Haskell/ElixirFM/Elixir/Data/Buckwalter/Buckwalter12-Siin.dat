@@ -3392,7 +3392,7 @@ sqy     saqay   PV_Atn  give to drink;irrigate
 sq      saq     PV_ttAw give to drink;irrigate
 sqy     soqiy   IV_0hAnn        give to drink;irrigate
 sq      soq     IV_0hwnyn       give to drink;irrigate
-sqY     soqaY   IV_0    be given to drink;be irrigated
+sqY     soqaY   IV_0_Pass_yu    be given to drink;be irrigated
 ;; sAqaY_1
 sAqY    sAqaY   PV_0    give to drink
 sAqA    sAqA    PV_h    give to drink

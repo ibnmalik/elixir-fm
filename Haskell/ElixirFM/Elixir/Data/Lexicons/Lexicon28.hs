@@ -84,13 +84,13 @@ lexicon = listing "Lexicon's properties"
  |> "y m n" <| [
 
     FaCaL                     `verb`       {- yaman-u -}        [ "be lucky", "be fortunate" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCiL                     `verb`       {- yamin-a -}        [ "be lucky", "be fortunate" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     FaCuL                     `verb`       {- yamun-u -}        [ "be lucky", "be fortunate" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCCaL                    `verb`       {- yam~an -}         [ "go to the right" ],
 
@@ -172,7 +172,7 @@ lexicon = listing "Lexicon's properties"
  |> "y q n" <| [
 
     FaCiL                     `verb`       {- yaqin-a -}        [ "be sure", "know for certain" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     HaFCaL                    `verb`       {- Oayoqan -}        [ "ascertain", "be convinced" ],
 
@@ -198,7 +198,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "y r y" <| [
 
-    FUCiy                     `noun`       {- yuwriy -}         [ "Youri", "Yuri" ] ]
+    FUCI                      `noun`       {- yuwriy -}         [ "Youri", "Yuri" ] ]
 
  |> "y s `" <| [
 
@@ -262,7 +262,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "y s s" <| [
 
-    FUCiy                     `noun`       {- yuwsiy -}         [ "Yosi", "Yossi" ] ]
+    FUCI                      `noun`       {- yuwsiy -}         [ "Yosi", "Yossi" ] ]
 
  |> "y t m" <| [
 

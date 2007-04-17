@@ -5229,7 +5229,7 @@ $Lexicon = {
           'FCY'
         ],
         '\'u^griy' => [
-          'HuFCiy'
+          'HuFCI'
         ],
         '^griy' => [
           'FCI'
@@ -9235,7 +9235,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'Julie'
@@ -24383,7 +24383,7 @@ $Lexicon = {
     {
       'types' => {
         '^gfY' => {
-          'IV_0' => 1
+          'IV_0_Pass_yu' => 1
         },
         '^gafaw' => {
           'PV_Atn' => 1
@@ -24395,7 +24395,7 @@ $Lexicon = {
           'PV_ttAw_intr' => 1
         },
         '^gfay' => {
-          'IV_Ann' => 1
+          'IV_Ann_Pass_yu' => 1
         },
         '^gfuw' => {
           'IV_0hAnn' => 1
@@ -24411,8 +24411,8 @@ $Lexicon = {
         'jf      jaf     PV_ttAw_intr    be rough;shun',
         'jfw     jofuw   IV_0hAnn        be rough;shun',
         'jf      jof     IV_0hwnyn       be rough;shun',
-        'jfY     jofaY   IV_0    be rough;shun',
-        'jfy     jofay   IV_Ann  be rough;shun'
+        'jfY     jofaY   IV_0_Pass_yu    be rough;shun',
+        'jfy     jofay   IV_Ann_Pass_yu  be rough;shun'
       ],
       'patterns' => {
         '^gfY' => [
@@ -35138,7 +35138,7 @@ $Lexicon = {
     {
       'types' => {
         '^gsY' => {
-          'IV_0' => 1
+          'IV_0_Pass_yu' => 1
         },
         '^gs' => {
           'IV_0hwnyn' => 1
@@ -35163,7 +35163,7 @@ $Lexicon = {
         'js      jas     PV_ttAw_intr    become hard;become solid',
         'jsw     josuw   IV_0hAnn        become hard;become solid',
         'js      jos     IV_0hwnyn       become hard;become solid',
-        'jsY     josaY   IV_0    become hard;become solid'
+        'jsY     josaY   IV_0_Pass_yu    become hard;become solid'
       ],
       'patterns' => {
         '^gsY' => [
@@ -37794,7 +37794,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'jockey'

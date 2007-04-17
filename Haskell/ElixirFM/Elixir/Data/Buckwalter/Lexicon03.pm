@@ -1077,7 +1077,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'Toni'
@@ -1100,7 +1100,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'Toni'
@@ -3148,7 +3148,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [
         'Tommy'
@@ -13518,7 +13518,7 @@ $Lexicon = {
         },
         'taqY' => {},
         'tqY' => {
-          'IV_0' => 1
+          'IV_0_Pass_yu' => 1
         },
         'tq' => {
           'IV_0hwnyn' => 1
@@ -13539,7 +13539,7 @@ $Lexicon = {
         'tq      taq     PV_ttAw_intr    be devout;be pious',
         'tqy     toqiy   IV_0hAnn        be devout;be pious',
         'tq      toq     IV_0hwnyn       be devout;be pious',
-        'tqY     toqaY   IV_0    be devout;be pious'
+        'tqY     toqaY   IV_0_Pass_yu    be devout;be pious'
       ],
       'patterns' => {
         'tqiy' => [

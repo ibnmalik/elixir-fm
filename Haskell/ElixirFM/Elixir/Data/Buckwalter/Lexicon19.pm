@@ -2926,6 +2926,47 @@ $Lexicon = {
   '.g r y' => [
     {
       'types' => {
+        '.gray' => {
+          'IV_Ann' => 1
+        },
+        '\'u.griy' => {},
+        '.grY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '.gr' => {
+          'IV_0hwnyn' => 1
+        }
+      },
+      'entry' => '\'u.griy',
+      'form' => '\'u.griy',
+      'lines' => [
+        ';; >ugoriy_2',
+        '>gry    >ugoriy PV_intr be seduced',
+        'Agry    >ugoriy PV_intr be seduced',
+        'gry     goray   IV_Ann  be seduced',
+        'gr      gor     IV_0hwnyn       be seduced',
+        'grY     goraY   IV_0_Pass_yu    be seduced'
+      ],
+      'patterns' => {
+        '.gray' => [
+          'FCaL'
+        ],
+        '.grY' => [
+          'FCY'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'verb',
+      'morphs' => 'HuFCiL',
+      'suffix' => '',
+      'glosses' => [
+        'be seduced'
+      ],
+      'orig' => 'Ougoriy',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '.garrAyaT' => {
           'NapAt' => 1
         }
@@ -11398,47 +11439,21 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '.gray' => {
-          'IV_Ann' => 1
-        },
-        '\'u.griy' => {
-          'PV_intr' => 2
-        },
-        '.grY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        '.gr' => {
-          'IV_0hwnyn' => 1
-        },
-        '\'a.grY' => {}
-      },
-      'entry' => '\'a.grY',
-      'form' => '\'a.grY',
-      'lines' => [
-        ';; >agoraY_2',
-        '>gry    >ugoriy PV_intr be seduced',
-        'Agry    >ugoriy PV_intr be seduced',
-        'gry     goray   IV_Ann  be seduced',
-        'gr      gor     IV_0hwnyn       be seduced',
-        'grY     goraY   IV_0_Pass_yu    be seduced'
-      ],
+      'types' => {},
+      'entry' => '\'u.griy',
+      'form' => '\'u.griy',
+      'lines' => [],
       'patterns' => {
-        '\'u.griy' => [
-          'HuFCiy'
-        ],
         '.grY' => [
           'FCY'
         ]
       },
       'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'HaFCY',
+      'entity' => 'verb',
+      'morphs' => 'HuFCI',
       'suffix' => '',
-      'glosses' => [
-        'be seduced'
-      ],
-      'orig' => 'OagoraY',
+      'glosses' => [],
+      'orig' => 'Ougoriy',
       'prefix' => ''
     },
     {
@@ -27309,7 +27324,7 @@ $Lexicon = {
         ],
         '\'u.gmiy' => [
           'HuFCiL',
-          'HuFCiy'
+          'HuFCI'
         ]
       },
       'index' => '1',
@@ -30502,32 +30517,25 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a.gram' => {},
-        '\'u.grim' => {
-          'PV_Pass' => 2
-        }
+        '\'u.grim' => {}
       },
-      'entry' => '\'a.gram',
-      'form' => '\'a.gram',
+      'entry' => '\'u.grim',
+      'form' => '\'u.grim',
       'lines' => [
-        ';; >agoram_2',
+        ';; >ugorim_2',
         '>grm    >ugorim PV_Pass fall in love;be infatuated',
         'Agrm    >ugorim PV_Pass fall in love;be infatuated'
       ],
-      'patterns' => {
-        '\'u.grim' => [
-          'HuFCiL'
-        ]
-      },
+      'patterns' => {},
       'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'HaFCaL',
+      'entity' => 'verb',
+      'morphs' => 'HuFCiL',
       'suffix' => '',
       'glosses' => [
         'fall in love',
         'be infatuated'
       ],
-      'orig' => 'Oagoram',
+      'orig' => 'Ougorim',
       'prefix' => ''
     },
     {
@@ -33966,6 +33974,9 @@ $Lexicon->{'.g d w'}[1]{'glosses'} = $Lexicon->{'.g d d'}[4]{'glosses'};
 $Lexicon->{'.g w y n'}[0]{'types'} = $Lexicon->{'.g w y'}[10]{'types'};
 $Lexicon->{'.g w y n'}[0]{'lines'} = $Lexicon->{'.g w y'}[10]{'lines'};
 $Lexicon->{'.g w y n'}[0]{'glosses'} = $Lexicon->{'.g w y'}[10]{'glosses'};
+$Lexicon->{'.g r w'}[3]{'types'} = $Lexicon->{'.g r y'}[0]{'types'};
+$Lexicon->{'.g r w'}[3]{'lines'} = $Lexicon->{'.g r y'}[0]{'lines'};
+$Lexicon->{'.g r w'}[3]{'glosses'} = $Lexicon->{'.g r y'}[0]{'glosses'};
 $Lexicon->{'.g r w'}[6]{'types'} = $Lexicon->{'.g r \''}[0]{'types'};
 $Lexicon->{'.g r w'}[6]{'lines'} = $Lexicon->{'.g r \''}[0]{'lines'};
 $Lexicon->{'.g r w'}[6]{'glosses'} = $Lexicon->{'.g r \''}[0]{'glosses'};
@@ -33978,12 +33989,12 @@ $Lexicon->{'.g r w'}[8]{'glosses'} = $Lexicon->{'.g r \''}[2]{'glosses'};
 $Lexicon->{'.g r w'}[13]{'types'} = $Lexicon->{'.g r \''}[3]{'types'};
 $Lexicon->{'.g r w'}[13]{'lines'} = $Lexicon->{'.g r \''}[3]{'lines'};
 $Lexicon->{'.g r w'}[13]{'glosses'} = $Lexicon->{'.g r \''}[3]{'glosses'};
-$Lexicon->{'.g r w'}[14]{'types'} = $Lexicon->{'.g r y'}[2]{'types'};
-$Lexicon->{'.g r w'}[14]{'lines'} = $Lexicon->{'.g r y'}[2]{'lines'};
-$Lexicon->{'.g r w'}[14]{'glosses'} = $Lexicon->{'.g r y'}[2]{'glosses'};
-$Lexicon->{'.g r w'}[15]{'types'} = $Lexicon->{'.g r y'}[3]{'types'};
-$Lexicon->{'.g r w'}[15]{'lines'} = $Lexicon->{'.g r y'}[3]{'lines'};
-$Lexicon->{'.g r w'}[15]{'glosses'} = $Lexicon->{'.g r y'}[3]{'glosses'};
+$Lexicon->{'.g r w'}[14]{'types'} = $Lexicon->{'.g r y'}[3]{'types'};
+$Lexicon->{'.g r w'}[14]{'lines'} = $Lexicon->{'.g r y'}[3]{'lines'};
+$Lexicon->{'.g r w'}[14]{'glosses'} = $Lexicon->{'.g r y'}[3]{'glosses'};
+$Lexicon->{'.g r w'}[15]{'types'} = $Lexicon->{'.g r y'}[4]{'types'};
+$Lexicon->{'.g r w'}[15]{'lines'} = $Lexicon->{'.g r y'}[4]{'lines'};
+$Lexicon->{'.g r w'}[15]{'glosses'} = $Lexicon->{'.g r y'}[4]{'glosses'};
 $Lexicon->{'.g f w'}[4]{'types'} = $Lexicon->{'.g f y'}[1]{'types'};
 $Lexicon->{'.g f w'}[4]{'lines'} = $Lexicon->{'.g f y'}[1]{'lines'};
 $Lexicon->{'.g f w'}[4]{'glosses'} = $Lexicon->{'.g f y'}[1]{'glosses'};

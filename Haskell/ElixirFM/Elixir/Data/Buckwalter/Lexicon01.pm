@@ -16732,7 +16732,8 @@ $Lexicon = {
       'entry' => '\'a.sul',
       'form' => '\'a.sul',
       'lines' => [
-        ';; >aSul_1',
+        ';; >aSul-u_1',
+        '>Sl     >aSul   PV      be rooted;be established',
         '>Sl     >oSul   IV_no-Pref-A    be rooted;be established',
         'ASl     >oSul   IV_no-Pref-A    be rooted;be established'
       ],
@@ -16742,14 +16743,17 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'verb',
       'morphs' => 'FaCuL',
-      'suffix' => '',
       'glosses' => [
         'be rooted',
         'be established'
       ],
-      'orig' => 'OaSul',
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'OaSul-u',
       'prefix' => ''
     },
     {
@@ -44521,28 +44525,20 @@ $Lexicon = {
         '\'bah' => {
           'IV_no-Pref-A' => 2
         },
-        '\'abah' => {},
-        '\'abih' => {
-          'PV' => 2
-        }
+        '\'abah' => {}
       },
       'entry' => '\'abah',
       'form' => '\'abah',
       'lines' => [
-        ';; >abah-ia_1',
+        ';; >abah-a_1',
         '>bh     >abah   PV      be interested;be sensitive',
         'Abh     >abah   PV      be interested;be sensitive',
-        '>bh     >abih   PV      be interested;be sensitive',
-        'Abh     >abih   PV      be interested;be sensitive',
         '>bh     >obah   IV_no-Pref-A    be interested;be sensitive',
         'Abh     >obah   IV_no-Pref-A    be interested;be sensitive'
       ],
       'patterns' => {
         '\'bah' => [
           'FCaL'
-        ],
-        '\'abih' => [
-          'FaCiL'
         ]
       },
       'index' => '1',
@@ -44554,10 +44550,44 @@ $Lexicon = {
       ],
       'suffix' => '',
       'imperf' => [
-        'FCiL',
         'FCaL'
       ],
-      'orig' => 'Oabah-ia',
+      'orig' => 'Oabah-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'bah' => {
+          'IV_no-Pref-A' => 2
+        },
+        '\'abih' => {}
+      },
+      'entry' => '\'abih',
+      'form' => '\'abih',
+      'lines' => [
+        ';; >abih-a_1',
+        '>bh     >abih   PV      be interested;be sensitive',
+        'Abh     >abih   PV      be interested;be sensitive',
+        '>bh     >obah   IV_no-Pref-A    be interested;be sensitive',
+        'Abh     >obah   IV_no-Pref-A    be interested;be sensitive'
+      ],
+      'patterns' => {
+        '\'bah' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        'be interested',
+        'be sensitive'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'Oabih-a',
       'prefix' => ''
     },
     {
@@ -55473,7 +55503,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy',
+      'morphs' => 'FUCI',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'Ouwtiy',

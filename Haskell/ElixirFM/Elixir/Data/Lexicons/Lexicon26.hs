@@ -211,7 +211,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "h b y" <| [
 
-    FUCiy                     `noun`       {- huwbiy -}         [ "Hobby" ] ]
+    FUCI                      `noun`       {- huwbiy -}         [ "Hobby" ] ]
 
  |> "h d '" <| [
 
@@ -327,7 +327,7 @@ lexicon = listing "Lexicon's properties"
  |> "h d n" <| [
 
     FaCaL                     `verb`       {- hadan-i -}        [ "quiet down", "calm down" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     FaCCaL                    `verb`       {- had~an -}         [ "calm", "appease" ],
 
@@ -405,7 +405,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "h k k" <| [
 
-    FUCiy                     `noun`       {- huwkiy -}         [ "hockey" ] ]
+    FUCI                      `noun`       {- huwkiy -}         [ "hockey" ] ]
 
  |> "h k t r" <| [
 
@@ -646,8 +646,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`       {- han~-i -}         [ "weep", "sigh", "yearn" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `imperf`     FCiL
+                              `pfirst`     FaCaL,
 
     FaL |< Iy                 `adj`        {- haniy~ -}         [ "pleasant", "delicious" ],
 
@@ -997,7 +997,8 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCiL
                               `imperf`     FCI,
 
-    FaCiL                     `verb`       {- hawiy-a -}        [ "love", "like" ],
+    FaCiL                     `verb`       {- hawiy-a -}        [ "love", "like" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- haw~aY -}         [ "ventilate", "be ventilated" ],
 

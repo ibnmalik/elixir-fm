@@ -617,7 +617,7 @@ lexicon = listing "Lexicon's properties"
     -- djn     dojun   IV-n_intr       be murky;stay;be domesticated
 
     FaCaL                     `verb`       {- dajan-u -}        [ "be murky", "stay", "be domesticated" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; daj~an_1
     -- djn     daj~an  PV-n    tame;domesticate
@@ -995,7 +995,7 @@ lexicon = listing "Lexicon's properties"
     -- dxn     doxun   IV-n_intr       smolder;smoke
 
     FaCaL                     `verb`       {- daxan-u -}        [ "smolder", "smoke" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; dax~an_1
     -- dxn     dax~an  PV-n    smoke;fumigate
@@ -2583,7 +2583,7 @@ lexicon = listing "Lexicon's properties"
     -- dfn     dofin   IV-n    bury;hide
 
     FaCaL                     `verb`       {- dafan-i -}        [ "bury", "hide" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     -- ;; {inodafan_1
     -- <ndfn   {inodafan       PV-n_intr       be buried;be hidden
@@ -2899,7 +2899,8 @@ lexicon = listing "Lexicon's properties"
     -- dhm     doham   IV      surprise;raid
 
     FaCaL                     `verb`       {- daham-a -}        [ "surprise", "raid" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "dahim PV" ] -},
 
     -- ;; dah~am_1
     -- dhm     dah~am  PV      blacken
@@ -2965,7 +2966,7 @@ lexicon = listing "Lexicon's properties"
     -- dhn     dohun   IV-n    paint;varnish
 
     FaCaL                     `verb`       {- dahan-u -}        [ "paint", "varnish" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; dah~an_1
     -- dhn     dah~an  PV-n    paint;varnish
@@ -3152,7 +3153,8 @@ lexicon = listing "Lexicon's properties"
     -- dhy     dohay   IV_Ann  be clever;be wily
     -- dh      doha    IV_0hwnyn       be clever;be wily
 
-    FaCiL                     `verb`       {- dahiy-a -}        [ "be clever", "be wily" ],
+    FaCiL                     `verb`       {- dahiy-a -}        [ "be clever", "be wily" ]
+                              `imperf`     FCY,
 
     -- ;; dahaY-a_1
     -- dhY     dahaY   PV_0    befall;strike
@@ -3164,7 +3166,8 @@ lexicon = listing "Lexicon's properties"
     -- dhy     dohay   IV_Ann  befall;strike
     -- dh      doha    IV_0hwnyn       befall;strike
 
-    FaCY                      `verb`       {- dahaY-a -}        [ "befall", "strike" ],
+    FaCY                      `verb`       {- dahaY-a -}        [ "befall", "strike" ]
+                              `imperf`     FCY,
 
     -- ;; dah~aY_1
     -- dhY     dah~aY  PV_0    befall;strike
@@ -4347,7 +4350,7 @@ lexicon = listing "Lexicon's properties"
     -- dmn     domun   IV-n    fertilize
 
     FaCaL                     `verb`       {- daman-u -}        [ "fertilize" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; >adoman_1
     -- >dmn    >adoman PV-n_intr       be addicted or devoted to
@@ -4542,7 +4545,8 @@ lexicon = listing "Lexicon's properties"
     -- dmy     domay   IV_Ann  bleed
     -- dm      doma    IV_0hwnyn       bleed
 
-    FaCiL                     `verb`       {- damiy-a -}        [ "bleed" ],
+    FaCiL                     `verb`       {- damiy-a -}        [ "bleed" ]
+                              `imperf`     FCY,
 
     -- ;; dam~aY_1
     -- dmY     dam~aY  PV_0    make bleed
@@ -5069,7 +5073,8 @@ lexicon = listing "Lexicon's properties"
     -- dny     donay   IV_Ann  be mean;be despicable
     -- dn      dona    IV_0hwnyn       be mean;be despicable
 
-    FaCiL                     `verb`       {- daniy-a -}        [ "be mean", "be despicable" ],
+    FaCiL                     `verb`       {- daniy-a -}        [ "be mean", "be despicable" ]
+                              `imperf`     FCY,
 
     -- ;; daniy~_1
     -- dny     daniy~  N/ap    mean;contemptible;inferior     [[daniy~/ADJ]]
@@ -6051,7 +6056,7 @@ lexicon = listing "Lexicon's properties"
     -- drn     doran   IV-n_intr       be filthy;be dirty
 
     FaCiL                     `verb`       {- darin-a -}        [ "be filthy", "be dirty" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; >adoran_1
     -- >drn    >adoran PV-n_intr       be filthy;be dirty

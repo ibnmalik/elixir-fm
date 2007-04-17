@@ -1006,7 +1006,8 @@ lexicon = listing "Lexicon's properties"
     -- AfHS    <ifoHaS CV      search
 
     FaCaL                     `verb`       {- faHaS-a -}        [ "examine", "scrutinize", "investigate", "search" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `second`     HiFCaL,
 
     -- ;; tafaH~aS_1
     -- tfHS    tafaH~aS        PV      examine;scrutinize;inspect
@@ -1879,21 +1880,21 @@ lexicon = listing "Lexicon's properties"
     -- fTn     foTun   IV-n    perceive;be aware
 
     FaCaL                     `verb`       {- faTan-u -}        [ "perceive", "be aware" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; faTun-u_1
     -- fTn     faTun   PV-n_intr       be astute
     -- fTn     foTun   IV-n_intr       be astute
 
     FaCuL                     `verb`       {- faTun-u -}        [ "be astute" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; faTin-a_1
     -- fTn     faTin   PV-n_intr       be astute
     -- fTn     foTan   IV-n_intr       be astute
 
     FaCiL                     `verb`       {- faTin-a -}        [ "be astute" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; tafaT~an_1
     -- tfTn    tafaT~an        PV-n    perceive;be aware
@@ -2617,7 +2618,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; fuwjiy_1
     -- fwjy    fuwjiy  Nprop   Fuji
 
-    FUCiy                     `noun`       {- fuwjiy -}         [ "Fuji" ] ]
+    FUCI                      `noun`       {- fuwjiy -}         [ "Fuji" ] ]
 
  |> "f ^s '" <| [
 
@@ -3665,6 +3666,7 @@ lexicon = listing "Lexicon's properties"
     -- fdY     fodaY   IV_0    redeem;ransom
 
     FaCY                      `verb`       {- fadaY-i -}        [ "redeem", "ransom" ]
+                              `imperf`     FCY
                               `imperf`     FCiL
                               `imperf`     FCI,
 
@@ -4335,7 +4337,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; fuwkiy_1
     -- fwky    fuwkiy  Nprop   Fuki
 
-    FUCiy                     `noun`       {- fuwkiy -}         [ "Fuki" ] ]
+    FUCI                      `noun`       {- fuwkiy -}         [ "Fuki" ] ]
 
  |> "f l ' k" <| [
 
@@ -5519,7 +5521,8 @@ lexicon = listing "Lexicon's properties"
     -- fny     fonay   IV_Ann  perish;disappear
     -- fn      fona    IV_0hwnyn       perish;disappear
 
-    FaCiL                     `verb`       {- faniy-a -}        [ "perish", "disappear" ],
+    FaCiL                     `verb`       {- faniy-a -}        [ "perish", "disappear" ]
+                              `imperf`     FCY,
 
     -- ;; >afonaY_1
     -- >fnY    >afonaY PV_0    annihilate;destroy;exterminate
@@ -9450,8 +9453,9 @@ lexicon = listing "Lexicon's properties"
     -- ftn     fotan   IV-n_intr       be infatuated
 
     FaCaL                     `verb`       {- fatan-i -}        [ "entice", "torment", "be infatuated" ]
-                              `ithird`     FCaL
-                              `ithird`     FCiL,
+                              `imperf`     FCaL
+                              `imperf`     FCiL
+                              {- `others` [ "futin PV" ] -},
 
     -- ;; >afotan_1
     -- >ftn    >afotan PV-n    start a riot;incite to riot
@@ -9902,7 +9906,8 @@ lexicon = listing "Lexicon's properties"
     -- fty     fotay   IV_Ann  be youthful
     -- ft      fota    IV_0hwnyn       be youthful
 
-    FaCiL                     `verb`       {- fatiy-a -}        [ "be youthful" ],
+    FaCiL                     `verb`       {- fatiy-a -}        [ "be youthful" ]
+                              `imperf`     FCY,
 
     -- ;; fatiy~_1
     -- fty     fatiy~  N-ap    youthful     [[fatiy~/ADJ]]
@@ -10576,10 +10581,10 @@ lexicon = listing "Lexicon's properties"
     -- fA'     fA'     PV_V_intr       be displaced;shift
     -- fA&     fA&     PV_w_intr       be displaced;shift
     -- f}      fi}     PV_C_intr       be displaced;shift
-    -- fy'     fiy'    IV_V_intr_yu    be displaced;shift
-    -- fy&     fiy&    IV_wn_intr_yu   be displaced;shift
-    -- fy}     fiy}    IV_yn_intr_yu   be displaced;shift
-    -- f}      fi}     IV_C_intr_yu    be displaced;shift
+    -- fy'     fiy'    IV_V_intr       be displaced;shift
+    -- fy&     fiy&    IV_wn_intr      be displaced;shift
+    -- fy}     fiy}    IV_yn_intr      be displaced;shift
+    -- f}      fi}     IV_C_intr       be displaced;shift
 
     FAL                       `verb`       {- fA'-i -}          [ "be displaced", "shift" ]
                               `imperf`     FIL

@@ -4058,7 +4058,7 @@ $Lexicon = {
       'patterns' => {
         'tuwuffiy' => [
           'TuFuCCiL',
-          'TuFuCCiy'
+          'TuFuCCI'
         ],
         'tawaffay' => [
           'TaFaCCaL'
@@ -6767,7 +6767,7 @@ $Lexicon = {
     {
       'types' => {
         'w`Y' => {
-          'IV_0' => 1
+          'IV_0_Pass_yu' => 1
         },
         'wa`Y' => {},
         '`iy' => {
@@ -6792,7 +6792,7 @@ $Lexicon = {
         'wEy     waEay   PV_Atn  be aware of;pay attention to',
         'wE      waE     PV_ttAw_intr    be aware of;pay attention to',
         'Ey      Eiy     IV_0hAnn        be aware of;pay attention to',
-        'wEY     wEaY    IV_0    be aware of;pay attention to'
+        'wEY     wEaY    IV_0_Pass_yu    be aware of;pay attention to'
       ],
       'patterns' => {
         'w`Y' => [
@@ -26971,23 +26971,13 @@ $Lexicon = {
         '.ta\'A' => {
           'IV-|' => 1
         },
-        'wa.ta\'A' => {
-          'PV-|' => 1
-        },
-        'wa.ti\'' => {},
-        'wa.ta\'' => {
-          'PV->' => 1,
-          'PV_w' => 1
-        }
+        'wa.ti\'' => {}
       },
       'entry' => 'wa.ti\'',
       'form' => 'wa.ti\'',
       'lines' => [
         ';; waTi}-a_1',
         'wT}     waTi}   PV      tread on;step on;trample underfoot',
-        'wT>     waTa>   PV->    tread on;step on;trample underfoot',
-        'wT|     waTa|   PV-|    tread on;step on;trample underfoot',
-        'wT&     waTa&   PV_w    tread on;step on;trample underfoot',
         'T>      Ta>     IV      tread on;step on;trample underfoot',
         'T|      Ta|     IV-|    tread on;step on;trample underfoot',
         'T&      Ta&     IV_wn   tread on;step on;trample underfoot',
@@ -26996,9 +26986,6 @@ $Lexicon = {
       'patterns' => {
         '.ta\'' => [
           'CaL'
-        ],
-        'wa.ta\'' => [
-          'FaCaL'
         ]
       },
       'index' => '1',
@@ -27775,6 +27762,7 @@ $Lexicon = {
       'form' => 'wahhan',
       'lines' => [
         ';; wah~an_1',
+        'whn     wah~an  PV-n    weaken;discourage',
         'whn     wah~in  IV-n_yu weaken;discourage'
       ],
       'patterns' => {
@@ -27783,7 +27771,7 @@ $Lexicon = {
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
+      'entity' => 'verb',
       'morphs' => 'FaCCaL',
       'suffix' => '',
       'glosses' => [
@@ -32889,40 +32877,33 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'uwli`' => {
-          'PV_Pass' => 2
-        },
+        '\'uwli`' => {},
         'wla`' => {
           'IV_Pass_yu' => 1
-        },
-        '\'awla`' => {}
+        }
       },
-      'entry' => '\'awla`',
-      'form' => '\'awla`',
+      'entry' => '\'uwli`',
+      'form' => '\'uwli`',
       'lines' => [
-        ';; >awolaE_2',
+        ';; >uwoliE_2',
         '>wlE    >uwliE  PV_Pass be enamored;fall in love',
         'AwlE    >uwliE  PV_Pass be enamored;fall in love',
         'wlE     wlaE    IV_Pass_yu      be enamored;fall in love'
       ],
       'patterns' => {
-        '\'uwli`' => [
-          'HuFCiL',
-          'HUCiL'
-        ],
         'wla`' => [
           'FCaL'
         ]
       },
       'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'HaFCaL',
+      'entity' => 'verb',
+      'morphs' => 'HuFCiL',
       'suffix' => '',
       'glosses' => [
         'be enamored',
         'fall in love'
       ],
-      'orig' => 'OawolaE',
+      'orig' => 'OuwoliE',
       'prefix' => ''
     },
     {
@@ -38009,40 +37990,32 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'aw.hY' => {},
-        '\'uw.hiy' => {
-          'PV_Pass-aAat' => 2
-        },
+        '\'uw.hiy' => {},
         'w.hY' => {
           'IV_0_Pass_yu' => 1
         }
       },
-      'entry' => '\'aw.hY',
-      'form' => '\'aw.hY',
+      'entry' => '\'uw.hiy',
+      'form' => '\'uw.hiy',
       'lines' => [
-        ';; >awoHaY_2',
+        ';; >uwoHiy_2',
         '>wHy    >uwHiy  PV_Pass-aAat    occur',
         'AwHy    >uwHiy  PV_Pass-aAat    occur',
         'wHY     wHaY    IV_0_Pass_yu    occur'
       ],
       'patterns' => {
-        '\'uw.hiy' => [
-          'HuFCiL',
-          'HUCiL',
-          'HuFCiy'
-        ],
         'w.hY' => [
           'FCY'
         ]
       },
       'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'HaFCY',
+      'entity' => 'verb',
+      'morphs' => 'HuFCiL',
       'suffix' => '',
       'glosses' => [
         'occur'
       ],
-      'orig' => 'OawoHaY',
+      'orig' => 'OuwoHiy',
       'prefix' => ''
     },
     {

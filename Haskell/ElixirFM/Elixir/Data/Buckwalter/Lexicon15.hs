@@ -284,7 +284,7 @@ lexicon = listing "Lexicon's properties"
     -- Dgn     Dogan   IV-n    bear a grudge;harbor hatred
 
     FaCiL                     `verb`       {- Dagin-a -}        [ "bear a grudge", "harbor hatred" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; taDAgan_1
     -- tDAgn   taDAgan PV-n    hate each other
@@ -555,7 +555,8 @@ lexicon = listing "Lexicon's properties"
     -- DHy     DoHay   IV_Ann  be visible;be in the sun
     -- DH      DoHa    IV_0hwnyn       be visible;be in the sun
 
-    FaCiL                     `verb`       {- DaHiy-a -}        [ "be visible", "be in the sun" ],
+    FaCiL                     `verb`       {- DaHiy-a -}        [ "be visible", "be in the sun" ]
+                              `imperf`     FCY,
 
     -- ;; DaHiy~ap_1
     -- DHy     DaHiy~  Napdu   victim     [[DaHiy~/NOUN]]
@@ -1926,7 +1927,7 @@ lexicon = listing "Lexicon's properties"
     -- Dmn     Doman   IV-n    guarantee;insure
 
     FaCiL                     `verb`       {- Damin-a -}        [ "guarantee", "insure" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; Dam~an_1
     -- Dmn     Dam~an  PV-n    guarantee;insure
@@ -2045,7 +2046,8 @@ lexicon = listing "Lexicon's properties"
     -- Dmr     Domur   IV_intr become thin;shrink;atrophy
 
     FaCaL                     `verb`       {- Damar-u -}        [ "become thin", "shrink", "atrophy" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ ".damur PV" ] -},
 
     -- ;; >aDomar_1
     -- >Dmr    >aDomar PV      make thin;make weak
@@ -2186,8 +2188,8 @@ lexicon = listing "Lexicon's properties"
     -- Dnn     Donan   IV-n    hold back;economize
 
     FaCL                      `verb`       {- Dan~-a -}         [ "hold back", "economize" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `imperf`     FCaL
+                              `pfirst`     FaCiL,
 
     -- ;; Dan~_1
     -- Dn      Dan~    N       holding back;economizing
@@ -2210,7 +2212,8 @@ lexicon = listing "Lexicon's properties"
     -- Dny     Donay   IV_Ann  become emaciated;languish
     -- Dn      Dona    IV_0hwnyn       become emaciated;languish
 
-    FaCiL                     `verb`       {- Daniy-a -}        [ "become emaciated", "languish" ],
+    FaCiL                     `verb`       {- Daniy-a -}        [ "become emaciated", "languish" ]
+                              `imperf`     FCY,
 
     -- ;; >aDonaY_1
     -- >DnY    >aDonaY PV_0    become emaciated;languish

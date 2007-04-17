@@ -328,9 +328,12 @@ Abstymwlwjy     <ibisotiymuwluwjiy~     Nall    epistemological     <pos><ibisot
 ;
 ;--- Abh
 ;
-;; >abah-ia_1
+;; >abah-a_1
 >bh     >abah   PV      be interested;be sensitive
 Abh     >abah   PV      be interested;be sensitive
+>bh     >obah   IV_no-Pref-A    be interested;be sensitive
+Abh     >obah   IV_no-Pref-A    be interested;be sensitive
+;; >abih-a_1
 >bh     >abih   PV      be interested;be sensitive
 Abh     >abih   PV      be interested;be sensitive
 >bh     >obah   IV_no-Pref-A    be interested;be sensitive
@@ -4056,8 +4059,8 @@ ASAqyl  >aSAqiyl        Ndip    scaffolds;ladders
 |Sfy    |Sifiy  Nprop   Asefi
 ASfy    |Sifiy  Nprop   Asefi
 ;
-;; >aSul_1
-; >Sl   >aSul   PV      be rooted;be established
+;; >aSul-u_1
+>Sl     >aSul   PV      be rooted;be established
 >Sl     >oSul   IV_no-Pref-A    be rooted;be established
 ASl     >oSul   IV_no-Pref-A    be rooted;be established
 ;; >aS~al_1

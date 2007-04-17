@@ -127,7 +127,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "l .g y" <| [
 
-    FaCiL                     `verb`       {- lagiy-a -}        [ "speak nonsense" ],
+    FaCiL                     `verb`       {- lagiy-a -}        [ "speak nonsense" ]
+                              `imperf`     FCY,
 
     FACiL                     `adj`        {- lAgiy -}          [ "abrogated", "null", "void" ] ]
 
@@ -245,7 +246,7 @@ lexicon = listing "Lexicon's properties"
  |> "l .h n" <| [
 
     FaCaL                     `verb`       {- laHan-a -}        [ "speak ungrammatically" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- laH~an -}         [ "make music", "compose music" ],
 
@@ -319,7 +320,8 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCuL
                               `imperf`     FCU,
 
-    FaCY                      `verb`       {- laHaY-a -}        [ "insult", "abuse" ],
+    FaCY                      `verb`       {- laHaY-a -}        [ "insult", "abuse" ]
+                              `imperf`     FCY,
 
     IFtaCY                    `verb`       {- AilotaHaY -}      [ "grow a beard" ],
 
@@ -442,7 +444,7 @@ lexicon = listing "Lexicon's properties"
  |> "l ^g n" <| [
 
     FaCiL                     `verb`       {- lajin-a -}        [ "adhere", "cling", "stick" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     FaCL |< aT                `noun`       {- lajonap -}        [ "council", "committee", "commission", "councils", "committees", "commissions" ]
                               `plural`     FaCaL |< At
@@ -491,7 +493,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "l _d y" <| [
 
-    FaCiL                     `verb`       {- la*iy-a -}        [ "adhere", "cleave" ] ]
+    FaCiL                     `verb`       {- la*iy-a -}        [ "adhere", "cleave" ]
+                              `imperf`     FCY ]
 
  |> "l _h .s" <| [
 
@@ -590,7 +593,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCLY                     `verb`       {- lab~aY -}         [ "comply with", "carry out", "respond to", "be complied with", "be carried out", "be responded to" ],
 
-    FUCiy                     `noun`       {- luwbiy -}         [ "lobby" ] ]
+    FUCI                      `noun`       {- luwbiy -}         [ "lobby" ] ]
 
  |> "l b d" <| [
 
@@ -921,7 +924,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "l h y" <| [
 
-    FaCiL                     `verb`       {- lahiy-a -}        [ "like", "renounce" ] ]
+    FaCiL                     `verb`       {- lahiy-a -}        [ "like", "renounce" ]
+                              `imperf`     FCY ]
 
  |> "l k k" <| [
 
@@ -1169,7 +1173,7 @@ lexicon = listing "Lexicon's properties"
  |> "l q n" <| [
 
     FaCiL                     `verb`       {- laqin-a -}        [ "understand", "infer" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- laq~an -}         [ "teach", "instruct", "suggest" ],
 
@@ -1181,7 +1185,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "l q y" <| [
 
-    FaCiL                     `verb`       {- laqiy-a -}        [ "meet", "encounter", "find" ],
+    FaCiL                     `verb`       {- laqiy-a -}        [ "meet", "encounter", "find" ]
+                              `imperf`     FCY,
 
     FACY                      `verb`       {- lAqaY -}          [ "meet", "encounter", "be met", "be encountered" ],
 
@@ -1252,7 +1257,7 @@ lexicon = listing "Lexicon's properties"
  |> "l s n" <| [
 
     FaCiL                     `verb`       {- lasin-a -}        [ "be eloquent" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     FaCCaL                    `verb`       {- las~an -}         [ "sharpen", "taper" ],
 
@@ -1483,7 +1488,8 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCiL
                               `imperf`     FCI,
 
-    FaCiL                     `verb`       {- lawiy-a -}        [ "be crooked", "be bent" ],
+    FaCiL                     `verb`       {- lawiy-a -}        [ "be crooked", "be bent" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- law~aY -}         [ "bend", "contort", "distort", "be bent", "be contorted", "be distorted" ],
 
@@ -1570,6 +1576,7 @@ lexicon = listing "Lexicon's properties"
     FAL                       `verb`       {- lAn-i -}          [ "be flexible", "be delicate" ]
                               `imperf`     FIL
                               `imperf`     FiCL
+                              `pfirst`     FiL
                               `ithird`     FiL,
 
     FaCCaL                    `verb`       {- lay~an -}         [ "soften", "placate", "moderate" ],

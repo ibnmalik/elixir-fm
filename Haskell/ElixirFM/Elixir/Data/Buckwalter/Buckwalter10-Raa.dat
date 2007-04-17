@@ -2762,7 +2762,7 @@ rsw     rasaw   PV_Atn  set anchor;disembark
 rs      ras     PV_ttAw set anchor;disembark
 rsw     rosuw   IV_0hAnn        set anchor;disembark
 rs      ros     IV_0hwnyn       set anchor;disembark
-rsY     rosaY   IV_0    be anchored;be moored
+rsY     rosaY   IV_0_Pass_yu    be anchored;be moored
 ;; ras~aY_1
 rsY     ras~aY  PV_0    grant;award
 rsA     ras~A   PV_h    grant;award
@@ -2992,8 +2992,8 @@ r$w     ra$aw   PV_Atn  bribe
 r$      ra$     PV_ttAw bribe
 r$w     ro$uw   IV_0hAnn        bribe
 r$      ro$     IV_0hwnyn       bribe
-r$Y     ro$aY   IV_0    be bribed
-r$y     ro$ay   IV_Ann  be bribed
+r$Y     ro$aY   IV_0_Pass_yu    be bribed
+r$y     ro$ay   IV_Ann_Pass_yu  be bribed
 ;; {irota$aY_1
 <rt$Y   {irota$aY       PV_0    take bribes;be corrupt
 Art$Y   {irota$aY       PV_0    take bribes;be corrupt
@@ -4247,8 +4247,8 @@ rfw     rafaw   PV_Atn  mend;darn
 rf      raf     PV_ttAw mend;darn
 rfw     rofuw   IV_0hAnn        mend;darn
 rf      rof     IV_0hwnyn       mend;darn
-rfY     rofaY   IV_0    be mended;be darned
-rfy     rofay   IV_Ann  be mended;be darned
+rfY     rofaY   IV_0_Pass_yu    be mended;be darned
+rfy     rofay   IV_Ann_Pass_yu  be mended;be darned
 ;; rafow_1
 rfw     rafow   N       mending;darning
 ;

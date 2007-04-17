@@ -1049,7 +1049,7 @@ grm     gar~im  IV_yu   impose a fine
 Agrm    >agoram PV      compel;force
 grm     gorim   IV_yu   compel;force
 grm     goram   IV_Pass_yu      be compelled;be forced
-;; >agoram_2
+;; >ugorim_2
 >grm    >ugorim PV_Pass fall in love;be infatuated
 Agrm    >ugorim PV_Pass fall in love;be infatuated
 ;; tagar~am_1
@@ -1140,7 +1140,7 @@ gry     goriy   IV_0hAnn_yu     incite;induce;provoke
 gr      gor     IV_0hwnyn_yu    incite;induce;provoke
 grY     goraY   IV_0_Pass_yu    be incited;be provoked
 gry     goray   IV_Ann_Pass_yu  be incited;be provoked
-;; >agoraY_2
+;; >ugoriy_2
 >gry    >ugoriy PV_intr be seduced
 Agry    >ugoriy PV_intr be seduced
 gry     goray   IV_Ann  be seduced

@@ -1263,7 +1263,8 @@ lexicon = listing "Lexicon's properties"
     -- g$y     gu$iy   PV_Pass-a       faint
     -- g$Y     go$aY   IV_Pass_yu      faint
 
-    FaCiL                     `verb`       {- ga$iy-a -}        [ "cover", "overcome", "faint" ],
+    FaCiL                     `verb`       {- ga$iy-a -}        [ "cover", "overcome", "faint" ]
+                              `imperf`     FCY,
 
     -- ;; ga$oy_1
     -- g$y     ga$oy   N       fainting
@@ -1727,7 +1728,7 @@ lexicon = listing "Lexicon's properties"
     -- gbn     gobin   IV-n    cheat;defraud
 
     FaCaL                     `verb`       {- gaban-i -}        [ "cheat", "defraud" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     -- ;; gabon_1
     -- gbn     gabon   N       fraud;deceit
@@ -1887,7 +1888,8 @@ lexicon = listing "Lexicon's properties"
     -- gby     gobay   IV_Ann  be ignorant
     -- gb      goba    IV_0hwnyn       be ignorant
 
-    FaCiL                     `verb`       {- gabiy-a -}        [ "be ignorant" ],
+    FaCiL                     `verb`       {- gabiy-a -}        [ "be ignorant" ]
+                              `imperf`     FCY,
 
     -- ;; tagAbaY_1
     -- tgAbY   tagAbaY PV_0    feign ignorance
@@ -2235,7 +2237,8 @@ lexicon = listing "Lexicon's properties"
     -- gdy     goday   IV_Ann  have breakfast
     -- gd      goda    IV_0hwnyn       have breakfast
 
-    FaCiL                     `verb`       {- gadiy-a -}        [ "have breakfast" ],
+    FaCiL                     `verb`       {- gadiy-a -}        [ "have breakfast" ]
+                              `imperf`     FCY,
 
     -- ;; gadiy~ap_1
     -- gdy     gadiy~  Nap     morning     [[gadiy~/NOUN]]
@@ -2576,7 +2579,8 @@ lexicon = listing "Lexicon's properties"
     -- gfy     gofay   IV_Ann  doze off
     -- gf      gofa    IV_0hwnyn       doze off
 
-    FaCiL                     `verb`       {- gafiy-a -}        [ "doze off" ],
+    FaCiL                     `verb`       {- gafiy-a -}        [ "doze off" ]
+                              `imperf`     FCY,
 
     -- ;; gAfiy_1
     -- gAfy    gAfiy   N0F     drowsy;sleepy     [[gAfiy/ADJ]]
@@ -3484,7 +3488,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `verb`       {- galaY-i -}        [ "boil" ]
                               `imperf`     FCiL
-                              `imperf`     FCI,
+                              `imperf`     FCI
+                              `imperf`     FCY,
 
     -- ;; gal~aY_1
     -- glY     gal~aY  PV_0    boil
@@ -4537,8 +4542,8 @@ lexicon = listing "Lexicon's properties"
     -- gnn     gonan   IV-n    speak through the nose
 
     FaCL                      `verb`       {- gan~-a -}         [ "speak through the nose" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `imperf`     FCaL
+                              `pfirst`     FaCiL,
 
     -- ;; >agan~_1
     -- >gn     >agan~  PV_V    buzz;drone
@@ -4620,7 +4625,8 @@ lexicon = listing "Lexicon's properties"
     -- gny     gonay   IV_Ann  become rich
     -- gn      gona    IV_0hwnyn       become rich
 
-    FaCiL                     `verb`       {- ganiy-a -}        [ "become rich" ],
+    FaCiL                     `verb`       {- ganiy-a -}        [ "become rich" ]
+                              `imperf`     FCY,
 
     -- ;; gan~aY_1
     -- gnY     gan~aY  PV_0    sing
@@ -5368,13 +5374,11 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`       {- Oagoram -}        [ "compel", "force", "be compelled", "be forced" ],
 
-    -- ;; >agoram_2
+    -- ;; >ugorim_2
     -- >grm    >ugorim PV_Pass fall in love;be infatuated
     -- Agrm    >ugorim PV_Pass fall in love;be infatuated
 
-    HaFCaL                    `noun`       {- Oagoram -}        [ "fall in love", "be infatuated" ]
-                              `plural`     HuFCiL
-                              {- `others` [ "'u.grim PV_Pass" ] -},
+    HuFCiL                    `verb`       {- Ougorim -}        [ "fall in love", "be infatuated" ],
 
     -- ;; tagar~am_1
     -- tgrm    tagar~am        PV_intr be fined
@@ -5876,17 +5880,14 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `verb`       {- OagoraY -}        [ "incite", "induce", "provoke", "be incited", "be provoked" ],
 
-    -- ;; >agoraY_2
+    -- ;; >ugoriy_2
     -- >gry    >ugoriy PV_intr be seduced
     -- Agry    >ugoriy PV_intr be seduced
     -- gry     goray   IV_Ann  be seduced
     -- gr      gor     IV_0hwnyn       be seduced
     -- grY     goraY   IV_0_Pass_yu    be seduced
 
-    HaFCY                     `noun`       {- OagoraY -}        [ "be seduced" ]
-                              `plural`     HuFCiy
-                              `plural`     FCY
-                              {- `others` [ "'u.griy PV_intr", ".grY IV_0_Pass_yu" ] -},
+    HuFCI                     `verb`       {- Ougoriy -}        [ "be seduced" ],
 
     -- ;; garow_1
     -- grw     garow   N       wonder
@@ -5975,6 +5976,15 @@ lexicon = listing "Lexicon's properties"
     MaFCIy                    `adj`        {- magoriy~ -}       [ "glued" ] ]
 
  |> ".g r y" <| [
+
+    -- ;; >ugoriy_2
+    -- >gry    >ugoriy PV_intr be seduced
+    -- Agry    >ugoriy PV_intr be seduced
+    -- gry     goray   IV_Ann  be seduced
+    -- gr      gor     IV_0hwnyn       be seduced
+    -- grY     goraY   IV_0_Pass_yu    be seduced
+
+    HuFCiL                    `verb`       {- Ougoriy -}        [ "be seduced" ],
 
     -- ;; gar~Ayap_1
     -- grAy    gar~Ay  NapAt   glue pot
@@ -6813,7 +6823,8 @@ lexicon = listing "Lexicon's properties"
     -- gwy     goway   IV_Ann  covet
     -- gw      gowa    IV_0hwnyn       covet
 
-    FaCiL                     `verb`       {- gawiy-a -}        [ "covet" ],
+    FaCiL                     `verb`       {- gawiy-a -}        [ "covet" ]
+                              `imperf`     FCY,
 
     -- ;; gaw~aY_1
     -- gwY     gaw~aY  PV_0    mislead;seduce

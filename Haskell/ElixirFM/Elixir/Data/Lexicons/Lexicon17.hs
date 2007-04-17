@@ -117,7 +117,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".z l m" <| [
 
-    FaCaL                     `verb`       {- Zalam-ia -}       [ "be unjust", "oppress", "be oppressed" ]
+    FaCaL                     `verb`       {- Zalam-i -}        [ "be unjust", "oppress", "be oppressed" ]
                               `imperf`     FCiL,
 
     HaFCaL                    `verb`       {- OaZolam -}        [ "become dark", "be darkened" ],
@@ -148,9 +148,9 @@ lexicon = listing "Lexicon's properties"
  |> ".z n n" <| [
 
     FaCL                      `verb`       {- Zan~-u -}         [ "think", "believe", "presume" ]
+                              `imperf`     FCuL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`       {- Zan~ -}           [ "opinion", "assumption" ],
 

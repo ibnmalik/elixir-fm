@@ -302,7 +302,7 @@ lexicon = listing "Lexicon's properties"
     -- vxn     voxun   IV-n_intr       be solid;be thick
 
     FaCuL                     `verb`       {- vaxun-u -}        [ "be solid", "be thick" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; vax~an_1
     -- vxn     vax~an  PV-n    solidify;thicken
@@ -451,7 +451,7 @@ lexicon = listing "Lexicon's properties"
     -- vbn     vobin   IV-n    fold
 
     FaCaL                     `verb`       {- vaban-i -}        [ "fold" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     -- ;; vubonap_1
     -- vbn     vubon   Napdu   lap;fold
@@ -699,7 +699,7 @@ lexicon = listing "Lexicon's properties"
     -- vfn     vofan   IV-n_intr       be callous;have calluses
 
     FaCiL                     `verb`       {- vafin-a -}        [ "be callous", "have calluses" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; vAfan_1
     -- vAfn    vAfan   PV-n    associate;pursue
@@ -1428,6 +1428,7 @@ lexicon = listing "Lexicon's properties"
     -- vnY     vonaY   IV_0    fold;double
 
     FaCY                      `verb`       {- vanaY-i -}        [ "fold", "double" ]
+                              `imperf`     FCY
                               `imperf`     FCiL
                               `imperf`     FCI,
 
@@ -2136,7 +2137,8 @@ lexicon = listing "Lexicon's properties"
     -- vry     voray   IV_Ann  become wealthy
     -- vr      vora    IV_0hwnyn       become wealthy
 
-    FaCiL                     `verb`       {- variy-a -}        [ "become wealthy" ],
+    FaCiL                     `verb`       {- variy-a -}        [ "become wealthy" ]
+                              `imperf`     FCY,
 
     -- ;; vuray~ap_1
     -- vry     vuray~  NapAt   chandelier
@@ -2244,6 +2246,7 @@ lexicon = listing "Lexicon's properties"
     -- vwY     vowaY   IV_0    settle down;remain
 
     FaCY                      `verb`       {- vawaY-i -}        [ "settle down", "remain" ]
+                              `imperf`     FCY
                               `imperf`     FCI,
 
     -- ;; vaw~aY_1

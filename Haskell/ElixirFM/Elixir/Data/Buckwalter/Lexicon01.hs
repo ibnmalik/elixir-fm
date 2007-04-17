@@ -186,13 +186,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "' .s l" <| [
 
-    -- ;; >aSul_1
+    -- ;; >aSul-u_1
+    -- >Sl     >aSul   PV      be rooted;be established
     -- >Sl     >oSul   IV_no-Pref-A    be rooted;be established
     -- ASl     >oSul   IV_no-Pref-A    be rooted;be established
 
-    FaCuL                     `noun`       {- OaSul -}          [ "be rooted", "be established" ]
-                              `plural`     FCuL
-                              {- `others` [ "'.sul IV_no-Pref-A" ] -},
+    FaCuL                     `verb`       {- OaSul-u -}        [ "be rooted", "be established" ]
+                              `imperf`     FCuL,
 
     -- ;; >aS~al_1
     -- >Sl     >aS~al  PV      root;anchor
@@ -477,7 +477,9 @@ lexicon = listing "Lexicon's properties"
     -- >Tr     >oTur   IV_no-Pref-A    bend;curve
     -- ATr     >oTur   IV_no-Pref-A    bend;curve
 
-    FaCaL                     `verb`       {- OaTar-iu -}       [ "bend", "curve" ],
+    FaCaL                     `verb`       {- OaTar-iu -}       [ "bend", "curve" ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     -- ;; >aT~ar_1
     -- >Tr     >aT~ar  PV      frame;contextualize
@@ -602,7 +604,8 @@ lexicon = listing "Lexicon's properties"
     -- >jl     >ojal   IV_no-Pref-A    hesitate;linger
     -- Ajl     >ojal   IV_no-Pref-A    hesitate;linger
 
-    FaCaL                     `verb`       {- Oajal-a -}        [ "hesitate", "linger" ],
+    FaCaL                     `verb`       {- Oajal-a -}        [ "hesitate", "linger" ]
+                              `imperf`     FCaL,
 
     -- ;; >aj~al_1
     -- >jl     >aj~al  PV      postpone;delay
@@ -717,7 +720,9 @@ lexicon = listing "Lexicon's properties"
     -- >jr     >ojir   IV_no-Pref-A    remunerate;reward
     -- Ajr     >ojir   IV_no-Pref-A    remunerate;reward
 
-    FaCaL                     `verb`       {- Oajar-ui -}       [ "remunerate", "reward" ],
+    FaCaL                     `verb`       {- Oajar-ui -}       [ "remunerate", "reward" ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; >aj~ar_1
     -- >jr     >aj~ar  PV      lease;lend
@@ -910,7 +915,8 @@ lexicon = listing "Lexicon's properties"
     -- >$b     >o$ab   IV_no-Pref-A    make an alloy
     -- A$b     >o$ab   IV_no-Pref-A    make an alloy
 
-    FaCiL                     `verb`       {- Oa$ib-a -}        [ "make an alloy" ],
+    FaCiL                     `verb`       {- Oa$ib-a -}        [ "make an alloy" ]
+                              `imperf`     FCaL,
 
     -- ;; >a$~ab_1
     -- >$b     >a$~ab  PV      alloy
@@ -990,7 +996,8 @@ lexicon = listing "Lexicon's properties"
     -- >$r     >o$ur   IV_no-Pref-A    cut with a saw
     -- A$r     >o$ur   IV_no-Pref-A    cut with a saw
 
-    FaCaL                     `verb`       {- Oa$ar-u -}        [ "cut with a saw" ],
+    FaCaL                     `verb`       {- Oa$ar-u -}        [ "cut with a saw" ]
+                              `imperf`     FCuL,
 
     -- ;; >a$ar-i_1
     -- >$r     >a$ar   PV      sharpen;file
@@ -998,7 +1005,8 @@ lexicon = listing "Lexicon's properties"
     -- >$r     >o$ir   IV_no-Pref-A    sharpen;file
     -- A$r     >o$ir   IV_no-Pref-A    sharpen;file
 
-    FaCaL                     `verb`       {- Oa$ar-i -}        [ "sharpen", "file" ],
+    FaCaL                     `verb`       {- Oa$ar-i -}        [ "sharpen", "file" ]
+                              `imperf`     FCiL,
 
     -- ;; >a$~ar_1
     -- >$r     >a$~ar  PV      indicate;register
@@ -1162,7 +1170,7 @@ lexicon = listing "Lexicon's properties"
     -- A*n     >o*an   IV-n_no-Pref-A  authorize;listen
 
     FaCiL                     `verb`       {- Oa*in-a -}        [ "authorize", "listen" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; >a*~an_1
     -- >*n     >a*~an  PV-n    announce;foresee
@@ -1316,7 +1324,8 @@ lexicon = listing "Lexicon's properties"
     -- >*      >o*a    IV_0hwnyn_no-Pref-A     suffer damage
     -- A*      >o*a    IV_0hwnyn_no-Pref-A     suffer damage
 
-    FaCiL                     `verb`       {- Oa*iy-a -}        [ "suffer damage" ],
+    FaCiL                     `verb`       {- Oa*iy-a -}        [ "suffer damage" ]
+                              `imperf`     FCY,
 
     -- ;; <i*Ayap_1
     -- <*Ay    <i*Ay   Nap     injury;offense
@@ -1361,7 +1370,10 @@ lexicon = listing "Lexicon's properties"
     -- x*      xu*     IV_need-Pref-|  take;begin
     -- x*      xu*     CV      take
 
-    FaCaL                     `verb`       {- Oaxa*-u -}        [ "take", "begin" ],
+    FaCaL                     `verb`       {- Oaxa*-u -}        [ "take", "begin" ]
+                              `imperf`     CuL
+                              `imperf`     FCuL
+                              `second`     CuL,
 
     -- ;; &ax~i*_1
     -- >x*     >ax~a*  PV      enchant;bewitch
@@ -1843,7 +1855,8 @@ lexicon = listing "Lexicon's properties"
     -- >vl     >ovil   IV_no-Pref-A    consolidate;reinforce
     -- Avl     >ovil   IV_no-Pref-A    consolidate;reinforce
 
-    FaCaL                     `verb`       {- Oaval-i -}        [ "consolidate", "reinforce" ],
+    FaCaL                     `verb`       {- Oaval-i -}        [ "consolidate", "reinforce" ]
+                              `imperf`     FCiL,
 
     -- ;; >uvuwl_1
     -- >vwl    >uvuwl  N       consolidation;reinforcement
@@ -1916,7 +1929,8 @@ lexicon = listing "Lexicon's properties"
     -- >vm     >ovam   IV_no-Pref-A    do wrong;commit a sin
     -- Avm     >ovam   IV_no-Pref-A    do wrong;commit a sin
 
-    FaCiL                     `verb`       {- Oavim-a -}        [ "do wrong", "commit a sin" ],
+    FaCiL                     `verb`       {- Oavim-a -}        [ "do wrong", "commit a sin" ]
+                              `imperf`     FCaL,
 
     -- ;; >av~am_1
     -- >vm     >av~am  PV      transgress;accuse of sin
@@ -2005,7 +2019,9 @@ lexicon = listing "Lexicon's properties"
     -- >vr     >ovur   IV_no-Pref-A    report;transmit
     -- Avr     >ovur   IV_no-Pref-A    report;transmit
 
-    FaCaL                     `verb`       {- Oavar-iu -}       [ "report", "transmit" ],
+    FaCaL                     `verb`       {- Oavar-iu -}       [ "report", "transmit" ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     -- ;; >av~ar_1
     -- >vr     >av~ar  PV      affect;influence
@@ -2409,7 +2425,8 @@ lexicon = listing "Lexicon's properties"
     -- >bd     >obid   IV_no-Pref-A    persist;remain;stay
     -- Abd     >obid   IV_no-Pref-A    persist;remain;stay
 
-    FaCaL                     `verb`       {- Oabad-i -}        [ "persist", "remain", "stay" ],
+    FaCaL                     `verb`       {- Oabad-i -}        [ "persist", "remain", "stay" ]
+                              `imperf`     FCiL,
 
     -- ;; >abad-ui_1
     -- >bd     >abad   PV      be untamed;escape
@@ -2419,7 +2436,9 @@ lexicon = listing "Lexicon's properties"
     -- >bd     >obid   IV_no-Pref-A    be untamed;escape
     -- Abd     >obid   IV_no-Pref-A    be untamed;escape
 
-    FaCaL                     `verb`       {- Oabad-ui -}       [ "be untamed", "escape" ],
+    FaCaL                     `verb`       {- Oabad-ui -}       [ "be untamed", "escape" ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; >ubuwd_1
     -- >bwd    >ubuwd  N       persisting;remaining;staying
@@ -2506,15 +2525,23 @@ lexicon = listing "Lexicon's properties"
 
  |> "' b h" <| [
 
-    -- ;; >abah-ia_1
+    -- ;; >abah-a_1
     -- >bh     >abah   PV      be interested;be sensitive
     -- Abh     >abah   PV      be interested;be sensitive
+    -- >bh     >obah   IV_no-Pref-A    be interested;be sensitive
+    -- Abh     >obah   IV_no-Pref-A    be interested;be sensitive
+
+    FaCaL                     `verb`       {- Oabah-a -}        [ "be interested", "be sensitive" ]
+                              `imperf`     FCaL,
+
+    -- ;; >abih-a_1
     -- >bh     >abih   PV      be interested;be sensitive
     -- Abh     >abih   PV      be interested;be sensitive
     -- >bh     >obah   IV_no-Pref-A    be interested;be sensitive
     -- Abh     >obah   IV_no-Pref-A    be interested;be sensitive
 
-    FaCaL                     `verb`       {- Oabah-ia -}       [ "be interested", "be sensitive" ],
+    FaCiL                     `verb`       {- Oabih-a -}        [ "be interested", "be sensitive" ]
+                              `imperf`     FCaL,
 
     -- ;; ta>ab~ah_1
     -- t>bh    ta>ab~ah        PV_intr be haughty;be aloof
@@ -2662,7 +2689,9 @@ lexicon = listing "Lexicon's properties"
     -- >bq     >obuq   IV_no-Pref-A    escape;flee
     -- Abq     >obuq   IV_no-Pref-A    escape;flee
 
-    FaCaL                     `verb`       {- Oabaq-iu -}       [ "escape", "flee" ],
+    FaCaL                     `verb`       {- Oabaq-iu -}       [ "escape", "flee" ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     -- ;; >abaq_1
     -- >bq     >abaq   NduAt   escape;fleeing;flight
@@ -2690,7 +2719,9 @@ lexicon = listing "Lexicon's properties"
     -- >br     >obur   IV_no-Pref-A    sting;pollinate
     -- Abr     >obur   IV_no-Pref-A    sting;pollinate
 
-    FaCaL                     `verb`       {- Oabar-iu -}       [ "sting", "pollinate" ],
+    FaCaL                     `verb`       {- Oabar-iu -}       [ "sting", "pollinate" ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     -- ;; >ab~ar_1
     -- >br     >ab~ar  PV      practice acupuncture;pollinate
@@ -2878,7 +2909,8 @@ lexicon = listing "Lexicon's properties"
     -- >b      >oba    IV_0hwnyn_no-Pref-A     deny;refuse
     -- Ab      >oba    IV_0hwnyn_no-Pref-A     deny;refuse
 
-    FaCY                      `verb`       {- OabaY-a -}        [ "deny", "refuse" ],
+    FaCY                      `verb`       {- OabaY-a -}        [ "deny", "refuse" ]
+                              `imperf`     FCY,
 
     -- ;; ta>ab~aY_1
     -- t>bY    ta>ab~aY        PV_0    decline
@@ -2978,13 +3010,15 @@ lexicon = listing "Lexicon's properties"
     -- >db     >odub   IV_no-Pref-A    be urbane;be courteous
     -- Adb     >odub   IV_no-Pref-A    be urbane;be courteous
 
-    FaCuL                     `verb`       {- Oadub-u -}        [ "be urbane", "be courteous" ],
+    FaCuL                     `verb`       {- Oadub-u -}        [ "be urbane", "be courteous" ]
+                              `imperf`     FCuL,
 
     -- ;; >adab-i_1
     -- >db     >odib   IV_no-Pref-A    invite;entertain
     -- Adb     >odib   IV_no-Pref-A    invite;entertain
 
-    FaCaL                     `verb`       {- Oadab-i -}        [ "invite", "entertain" ],
+    FaCaL                     `verb`       {- Oadab-i -}        [ "invite", "entertain" ]
+                              `imperf`     FCiL,
 
     -- ;; >ad~ab_1
     -- >db     >ad~ab  PV      discipline;educate
@@ -3396,7 +3430,8 @@ lexicon = listing "Lexicon's properties"
     -- >fk     >ofik   IV_no-Pref-A    lie
     -- Afk     >ofik   IV_no-Pref-A    lie
 
-    FaCaL                     `verb`       {- Oafak-i -}        [ "lie" ],
+    FaCaL                     `verb`       {- Oafak-i -}        [ "lie" ]
+                              `imperf`     FCiL,
 
     -- ;; >afok_1
     -- >fk     >afok   N       lying;falsehood
@@ -3444,7 +3479,9 @@ lexicon = listing "Lexicon's properties"
     -- >fl     >ofil   IV_no-Pref-A    disappear;fade away
     -- Afl     >ofil   IV_no-Pref-A    disappear;fade away
 
-    FaCaL                     `verb`       {- Oafal-ui -}       [ "disappear", "fade away" ],
+    FaCaL                     `verb`       {- Oafal-ui -}       [ "disappear", "fade away" ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     -- ;; >ufuwl_1
     -- >fwl    >ufuwl  N       disappearance;decline;fading away
@@ -3466,7 +3503,8 @@ lexicon = listing "Lexicon's properties"
     -- >fn     >ofan   IV_no-Pref-A    be foolish
     -- Afn     >ofan   IV_no-Pref-A    be foolish
 
-    FaCiL                     `verb`       {- Oafin-a -}        [ "be foolish" ],
+    FaCiL                     `verb`       {- Oafin-a -}        [ "be foolish" ]
+                              `imperf`     FCaL,
 
     -- ;; >afan_1
     -- >fn     >afan   N       foolishness
@@ -3668,13 +3706,16 @@ lexicon = listing "Lexicon's properties"
     -- >hl     >ohil   IV_no-Pref-A    get married
     -- Ahl     >ohil   IV_no-Pref-A    get married
 
-    FaCaL                     `verb`       {- Oahal-ui -}       [ "get married" ],
+    FaCaL                     `verb`       {- Oahal-ui -}       [ "get married" ]
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     -- ;; >ahil-a_1
     -- >hl     >ohal   IV_no-Pref-A    be familiar
     -- Ahl     >ohal   IV_no-Pref-A    be familiar
 
-    FaCiL                     `verb`       {- Oahil-a -}        [ "be familiar" ],
+    FaCiL                     `verb`       {- Oahil-a -}        [ "be familiar" ]
+                              `imperf`     FCaL,
 
     -- ;; >uhil-a_1
     -- >hl     >ohal   IV_no-Pref-A    be populated
@@ -3893,7 +3934,10 @@ lexicon = listing "Lexicon's properties"
     -- kl      kul     IV_need-Pref-|  eat;consume
     -- kl      kul     CV      eat
 
-    FaCaL                     `verb`       {- Oakal-u -}        [ "eat", "consume" ],
+    FaCaL                     `verb`       {- Oakal-u -}        [ "eat", "consume" ]
+                              `imperf`     FCuL
+                              `imperf`     CuL
+                              `second`     CuL,
 
     -- ;; >ak~al_1
     -- >kl     >ak~al  PV      feed
@@ -4086,7 +4130,8 @@ lexicon = listing "Lexicon's properties"
     -- >kr     >okir   IV_no-Pref-A    cultivate
     -- Akr     >okir   IV_no-Pref-A    cultivate
 
-    FaCaL                     `verb`       {- Oakar-i -}        [ "cultivate" ],
+    FaCaL                     `verb`       {- Oakar-i -}        [ "cultivate" ]
+                              `imperf`     FCiL,
 
     -- ;; |kar_1
     -- \|kr     |kar    PV      farm;sharecrop
@@ -4276,7 +4321,9 @@ lexicon = listing "Lexicon's properties"
     -- >lb     >olib   IV_no-Pref-A    rally;assemble;gather
     -- Alb     >olib   IV_no-Pref-A    rally;assemble;gather
 
-    FaCaL                     `verb`       {- Oalab-ui -}       [ "rally", "assemble", "gather" ],
+    FaCaL                     `verb`       {- Oalab-ui -}       [ "rally", "assemble", "gather" ]
+                              `imperf`     FCuL
+                              `imperf`     FCiL,
 
     -- ;; >al~ab_1
     -- >lb     >al~ab  PV      rally;assemble;gather
@@ -4356,7 +4403,8 @@ lexicon = listing "Lexicon's properties"
     -- >lf     >olaf   IV_no-Pref-A    be familiar with;be/become tame
     -- Alf     >olaf   IV_no-Pref-A    be familiar with;be/become tame
 
-    FaCiL                     `verb`       {- Oalif-a -}        [ "be familiar with", "be/become tame" ],
+    FaCiL                     `verb`       {- Oalif-a -}        [ "be familiar with", "be/become tame" ]
+                              `imperf`     FCaL,
 
     -- ;; >al~af_1
     -- >lf     >al~af  PV      compose;constitute
@@ -4664,7 +4712,8 @@ lexicon = listing "Lexicon's properties"
     -- >lm     >olam   IV_no-Pref-A    feel pain;suffer
     -- Alm     >olam   IV_no-Pref-A    feel pain;suffer
 
-    FaCiL                     `verb`       {- Oalim-a -}        [ "feel pain", "suffer" ],
+    FaCiL                     `verb`       {- Oalim-a -}        [ "feel pain", "suffer" ]
+                              `imperf`     FCaL,
 
     -- ;; >al~am_1
     -- >lm     >al~am  PV      afflict;distress
@@ -4838,7 +4887,8 @@ lexicon = listing "Lexicon's properties"
     -- >lq     >oliq   IV_no-Pref-A    shine;radiate
     -- Alq     >oliq   IV_no-Pref-A    shine;radiate
 
-    FaCaL                     `verb`       {- Oalaq-i -}        [ "shine", "radiate" ],
+    FaCaL                     `verb`       {- Oalaq-i -}        [ "shine", "radiate" ]
+                              `imperf`     FCiL,
 
     -- ;; ta>al~aq_1
     -- t>lq    ta>al~aq        PV      shine;glisten;sparkle
@@ -4917,7 +4967,9 @@ lexicon = listing "Lexicon's properties"
     -- &lY     &olaY   IV_0_Pass_yu    be neglected;be desisted from
     -- &ly     &olay   IV_Ann_Pass_yu  be neglected;be desisted from
 
-    FaCA                      `verb`       {- OalA-u -}         [ "neglect", "desist from", "be neglected", "be desisted from" ],
+    FaCA                      `verb`       {- OalA-u -}         [ "neglect", "desist from", "be neglected", "be desisted from" ]
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; |laY_1
     -- \|lY     |laY    PV_0    promise;take an oath
@@ -5091,7 +5143,9 @@ lexicon = listing "Lexicon's properties"
     -- Aml     >omal   IV_no-Pref-A    hope for;wish for
     -- ml      mal     IV_need-Pref-|  hope for;wish for
 
-    FaCaL                     `verb`       {- Oamal-a -}        [ "hope for", "wish for" ],
+    FaCaL                     `verb`       {- Oamal-a -}        [ "hope for", "wish for" ]
+                              `imperf`     FCaL
+                              `imperf`     CaL,
 
     -- ;; >am~al_1
     -- >ml     >am~al  PV      hope for;expect
@@ -5352,7 +5406,7 @@ lexicon = listing "Lexicon's properties"
     -- Amn     >omun   IV-n_no-Pref-A  be loyal;be reliable
 
     FaCuL                     `verb`       {- Oamun-u -}        [ "be loyal", "be reliable" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; >amin-a_1
     -- >mn     >amin   PV-n_intr       be safe;be secure
@@ -5361,7 +5415,7 @@ lexicon = listing "Lexicon's properties"
     -- Amn     >oman   IV-n_no-Pref-A  be safe;be secure
 
     FaCiL                     `verb`       {- Oamin-a -}        [ "be safe", "be secure" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; >am~an_1
     -- >mn     >am~an  PV-n    insure;guarantee;secure
@@ -5583,7 +5637,9 @@ lexicon = listing "Lexicon's properties"
     -- Amr     >omur   IV_no-Pref-A    command;order;prescribe
     -- mr      mur     IV_need-Pref-|  command;order;prescribe
 
-    FaCaL                     `verb`       {- Oamar-u -}        [ "command", "order", "prescribe" ],
+    FaCaL                     `verb`       {- Oamar-u -}        [ "command", "order", "prescribe" ]
+                              `imperf`     CuL
+                              `imperf`     FCuL,
 
     -- ;; >am~ar_1
     -- >mr     >am~ar  PV      empower;authorize
@@ -5871,7 +5927,8 @@ lexicon = listing "Lexicon's properties"
     -- >n      >on     IV_0hwnyn_no-Pref-A     mature;approach
     -- An      >on     IV_0hwnyn_no-Pref-A     mature;approach
 
-    FaCY                      `verb`       {- OanaY-i -}        [ "mature", "approach" ],
+    FaCY                      `verb`       {- OanaY-i -}        [ "mature", "approach" ]
+                              `imperf`     FCI,
 
     -- ;; ta>an~aY_1
     -- t>nY    ta>an~aY        PV_0    act slowly;be cautious
@@ -6249,7 +6306,8 @@ lexicon = listing "Lexicon's properties"
     -- >nf     >onaf   IV_no-Pref-A    disdain;reject
     -- Anf     >onaf   IV_no-Pref-A    disdain;reject
 
-    FaCiL                     `verb`       {- Oanif-a -}        [ "disdain", "reject" ],
+    FaCiL                     `verb`       {- Oanif-a -}        [ "disdain", "reject" ]
+                              `imperf`     FCaL,
 
     -- ;; {isota>onaf_1
     -- <st>nf  {isota>onaf     PV      resume;start over;appeal
@@ -6448,7 +6506,8 @@ lexicon = listing "Lexicon's properties"
     -- >nq     >onaq   IV_no-Pref-A    be elegant;be delighted
     -- Anq     >onaq   IV_no-Pref-A    be elegant;be delighted
 
-    FaCiL                     `verb`       {- Oaniq-a -}        [ "be elegant", "be delighted" ],
+    FaCiL                     `verb`       {- Oaniq-a -}        [ "be elegant", "be delighted" ]
+                              `imperf`     FCaL,
 
     -- ;; |naq_1
     -- \|nq     |naq    PV      please
@@ -6540,7 +6599,8 @@ lexicon = listing "Lexicon's properties"
     -- >ns     >onas   IV_no-Pref-A    be companionable;be sociable
     -- Ans     >onas   IV_no-Pref-A    be companionable;be sociable
 
-    FaCiL                     `verb`       {- Oanis-a -}        [ "be companionable", "be sociable" ],
+    FaCiL                     `verb`       {- Oanis-a -}        [ "be companionable", "be sociable" ]
+                              `imperf`     FCaL,
 
     -- ;; >an~as_1
     -- >ns     >an~as  PV      domesticate;put at ease
@@ -7004,7 +7064,8 @@ lexicon = listing "Lexicon's properties"
     -- >rj     >oraj   IV_no-Pref-A    be aromatic
     -- Arj     >oraj   IV_no-Pref-A    be aromatic
 
-    FaCiL                     `verb`       {- Oarij-a -}        [ "be aromatic" ],
+    FaCiL                     `verb`       {- Oarij-a -}        [ "be aromatic" ]
+                              `imperf`     FCaL,
 
     -- ;; ta>ar~aj_1
     -- t>rj    ta>ar~aj        PV_intr be aromatic
@@ -7196,7 +7257,8 @@ lexicon = listing "Lexicon's properties"
     -- >rb     >orab   IV_no-Pref-A    be proficient;be skillful
     -- Arb     >orab   IV_no-Pref-A    be proficient;be skillful
 
-    FaCiL                     `verb`       {- Oarib-a -}        [ "be proficient", "be skillful" ],
+    FaCiL                     `verb`       {- Oarib-a -}        [ "be proficient", "be skillful" ]
+                              `imperf`     FCaL,
 
     -- ;; >arab-i_1
     -- >rb     >arab   PV      tighten
@@ -7204,7 +7266,8 @@ lexicon = listing "Lexicon's properties"
     -- >rb     >orib   IV_no-Pref-A    tighten
     -- Arb     >orib   IV_no-Pref-A    tighten
 
-    FaCaL                     `verb`       {- Oarab-i -}        [ "tighten" ],
+    FaCaL                     `verb`       {- Oarab-i -}        [ "tighten" ]
+                              `imperf`     FCiL,
 
     -- ;; |rab_1
     -- \|rb     |rab    PV      try to outwit
@@ -7417,7 +7480,8 @@ lexicon = listing "Lexicon's properties"
     -- >rm     >orim   IV_no-Pref-A    bite
     -- Arm     >orim   IV_no-Pref-A    bite
 
-    FaCaL                     `verb`       {- Oaram-i -}        [ "bite" ],
+    FaCaL                     `verb`       {- Oaram-i -}        [ "bite" ]
+                              `imperf`     FCiL,
 
     -- ;; >ar~am_1
     -- >rm     >ar~am  PV      mark out
@@ -7509,7 +7573,8 @@ lexicon = listing "Lexicon's properties"
     -- >rq     >oraq   IV_no-Pref-A    be sleepless
     -- Arq     >oraq   IV_no-Pref-A    be sleepless
 
-    FaCiL                     `verb`       {- Oariq-a -}        [ "be sleepless" ],
+    FaCiL                     `verb`       {- Oariq-a -}        [ "be sleepless" ]
+                              `imperf`     FCaL,
 
     -- ;; >ar~aq_1
     -- >rq     >ar~aq  PV      keep awake;make sleepless
@@ -7577,7 +7642,8 @@ lexicon = listing "Lexicon's properties"
     -- >rs     >oris   IV_no-Pref-A    till the land
     -- Ars     >oris   IV_no-Pref-A    till the land
 
-    FaCaL                     `verb`       {- Oaras-i -}        [ "till the land" ],
+    FaCaL                     `verb`       {- Oaras-i -}        [ "till the land" ]
+                              `imperf`     FCiL,
 
     -- ;; <ir~iys_1
     -- <rys    <ir~iys Ndu     peasant;farmer
@@ -7849,7 +7915,8 @@ lexicon = listing "Lexicon's properties"
     -- >sf     >osaf   IV_no-Pref-A    be sorry;regret
     -- Asf     >osaf   IV_no-Pref-A    be sorry;regret
 
-    FaCiL                     `verb`       {- Oasif-a -}        [ "be sorry", "regret" ],
+    FaCiL                     `verb`       {- Oasif-a -}        [ "be sorry", "regret" ]
+                              `imperf`     FCaL,
 
     -- ;; |saf_1
     -- \|sf     |saf    PV      sadden;distress
@@ -8035,7 +8102,7 @@ lexicon = listing "Lexicon's properties"
     -- Asn     >osan   IV-n_no-Pref-A  stagnate;decay
 
     FaCiL                     `verb`       {- Oasin-a -}        [ "stagnate", "decay" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; ta>as~an_1
     -- t>sn    ta>as~an        PV-n    stagnate;decay
@@ -8106,7 +8173,8 @@ lexicon = listing "Lexicon's properties"
     -- >sr     >osir   IV_no-Pref-A    capture;take prisoner
     -- Asr     >osir   IV_no-Pref-A    capture;take prisoner
 
-    FaCaL                     `verb`       {- Oasar-i -}        [ "capture", "take prisoner" ],
+    FaCaL                     `verb`       {- Oasar-i -}        [ "capture", "take prisoner" ]
+                              `imperf`     FCiL,
 
     -- ;; {isota>osar_1
     -- <st>sr  {isota>osar     PV      surrender
@@ -8424,7 +8492,9 @@ lexicon = listing "Lexicon's properties"
     -- >s      >os     IV_0hwnyn_no-Pref-A     nurse;pacify
     -- As      >os     IV_0hwnyn_no-Pref-A     nurse;pacify
 
-    FaCA                      `verb`       {- OasA-u -}         [ "nurse", "pacify" ],
+    FaCA                      `verb`       {- OasA-u -}         [ "nurse", "pacify" ]
+                              `imperf`     FCuL
+                              `imperf`     FCU,
 
     -- ;; >as~aY_1
     -- >sY     >as~aY  PV_0    console;comfort
@@ -8617,7 +8687,8 @@ lexicon = listing "Lexicon's properties"
     -- >s      >osa    IV_0hwnyn_no-Pref-A     be sad;grieve
     -- As      >osa    IV_0hwnyn_no-Pref-A     be sad;grieve
 
-    FaCiL                     `verb`       {- Oasiy-a -}        [ "be sad", "grieve" ],
+    FaCiL                     `verb`       {- Oasiy-a -}        [ "be sad", "grieve" ]
+                              `imperf`     FCY,
 
     -- ;; |siy_1
     -- \|sy     |siy    N0F     afflicted;desolate
@@ -8693,7 +8764,7 @@ lexicon = listing "Lexicon's properties"
     -- >wty    >uwtiy  Nprop   Ottey
     -- Awty    >uwtiy  Nprop   Ottey
 
-    FUCiy                     `noun`       {- Ouwtiy -}         [ "Ottey" ] ]
+    FUCI                      `noun`       {- Ouwtiy -}         [ "Ottey" ] ]
 
  |> "' t m" <| [
 
@@ -8809,7 +8880,9 @@ lexicon = listing "Lexicon's properties"
     -- >t      >ot     IV_0hwnyn_no-Pref-A     arrive;come;reach
     -- At      >ot     IV_0hwnyn_no-Pref-A     arrive;come;reach
 
-    FaCY                      `verb`       {- OataY-i -}        [ "arrive", "come", "reach" ],
+    FaCY                      `verb`       {- OataY-i -}        [ "arrive", "come", "reach" ]
+                              `imperf`     FCiL
+                              `imperf`     FCI,
 
     -- ;; |taY_1
     -- \|tY     |taY    PV_0    give;offer
@@ -9133,7 +9206,8 @@ lexicon = listing "Lexicon's properties"
     -- >wd     >owad   IV_no-Pref-A    bend;be bent
     -- Awd     >owad   IV_no-Pref-A    bend;be bent
 
-    FaCiL                     `verb`       {- Oawid-a -}        [ "bend", "be bent" ],
+    FaCiL                     `verb`       {- Oawid-a -}        [ "bend", "be bent" ]
+                              `imperf`     FCaL,
 
     -- ;; >aw~ad_1
     -- >wd     >aw~ad  PV      bend;fold
@@ -9725,7 +9799,10 @@ lexicon = listing "Lexicon's properties"
     -- >wY     >owaY   IV_0_no-Pref-A  retire;seek shelter
     -- AwY     >owaY   IV_0_no-Pref-A  retire;seek shelter
 
-    FaCY                      `verb`       {- OawaY-i -}        [ "retire", "seek shelter" ],
+    FaCY                      `verb`       {- OawaY-i -}        [ "retire", "seek shelter" ]
+                              `imperf`     FCiL
+                              `imperf`     FCI
+                              `imperf`     FCY,
 
     -- ;; >aw~aY_1
     -- >wY     >aw~aY  PV_0    shelter;lodge
@@ -10532,7 +10609,8 @@ lexicon = listing "Lexicon's properties"
     -- >zH     >oziH   IV_no-Pref-A    contract;retract
     -- AzH     >oziH   IV_no-Pref-A    contract;retract
 
-    FaCaL                     `verb`       {- OazaH-i -}        [ "contract", "retract" ],
+    FaCaL                     `verb`       {- OazaH-i -}        [ "contract", "retract" ]
+                              `imperf`     FCiL,
 
     -- ;; >uzuwH_1
     -- >zwH    >uzuwH  N       contraction;retraction
@@ -10566,7 +10644,8 @@ lexicon = listing "Lexicon's properties"
     -- >zb     >ozib   IV_no-Pref-A    flow;run
     -- Azb     >ozib   IV_no-Pref-A    flow;run
 
-    FaCaL                     `verb`       {- Oazab-i -}        [ "flow", "run" ],
+    FaCaL                     `verb`       {- Oazab-i -}        [ "flow", "run" ]
+                              `imperf`     FCiL,
 
     -- ;; >azob_1
     -- >zb     >azob   N       flow;running
@@ -10610,7 +10689,8 @@ lexicon = listing "Lexicon's properties"
     -- >zf     >ozaf   IV_no-Pref-A    approach;arrive
     -- Azf     >ozaf   IV_no-Pref-A    approach;arrive
 
-    FaCiL                     `verb`       {- Oazif-a -}        [ "approach", "arrive" ],
+    FaCiL                     `verb`       {- Oazif-a -}        [ "approach", "arrive" ]
+                              `imperf`     FCaL,
 
     -- ;; >azaf_1
     -- >zf     >azaf   N       approach;arrival
@@ -10731,7 +10811,8 @@ lexicon = listing "Lexicon's properties"
     -- >zq     >oziq   IV_no-Pref-A    be narrow
     -- Azq     >oziq   IV_no-Pref-A    be narrow
 
-    FaCaL                     `verb`       {- Oazaq-i -}        [ "be narrow" ],
+    FaCaL                     `verb`       {- Oazaq-i -}        [ "be narrow" ]
+                              `imperf`     FCiL,
 
     -- ;; ta>az~aq_1
     -- t>zq    ta>az~aq        PV_intr be narrow
@@ -10755,7 +10836,8 @@ lexicon = listing "Lexicon's properties"
     -- >zr     >ozir   IV_no-Pref-A    surround
     -- Azr     >ozir   IV_no-Pref-A    surround
 
-    FaCaL                     `verb`       {- Oazar-i -}        [ "surround" ],
+    FaCaL                     `verb`       {- Oazar-i -}        [ "surround" ]
+                              `imperf`     FCiL,
 
     -- ;; >az~ar_1
     -- >zr     >az~ar  PV      fortify;strengthen

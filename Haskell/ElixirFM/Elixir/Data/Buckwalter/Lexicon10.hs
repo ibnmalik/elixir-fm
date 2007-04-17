@@ -505,7 +505,8 @@ lexicon = listing "Lexicon's properties"
     -- ry      ray     IV_Ann  see;think;believe
     -- r       ra      IV_0hwnyn       see;think;believe
 
-    FaCY                      `verb`       {- raOaY-a -}        [ "see", "think", "believe" ],
+    FaCY                      `verb`       {- raOaY-a -}        [ "see", "think", "believe" ]
+                              `imperf`     FY,
 
     -- ;; rA'aY_1
     -- rA'Y    rA'aY   PV_0    be hypocritical;be ostentatious
@@ -960,7 +961,8 @@ lexicon = listing "Lexicon's properties"
     -- rDy     roDay   IV_Ann  be pleased;agree;approve
     -- rD      roDa    IV_0hwnyn       be pleased;agree;approve
 
-    FaCiL                     `verb`       {- raDiy-a -}        [ "be pleased", "agree", "approve" ],
+    FaCiL                     `verb`       {- raDiy-a -}        [ "be pleased", "agree", "approve" ]
+                              `imperf`     FCY,
 
     -- ;; raD~aY_1
     -- rDY     raD~aY  PV_0    satisfy;compensate
@@ -2098,7 +2100,7 @@ lexicon = listing "Lexicon's properties"
     -- rSn     roSun   IV-n_intr       be firm;be composed
 
     FaCuL                     `verb`       {- raSun-u -}        [ "be firm", "be composed" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; raSiyn_1
     -- rSyn    raSiyn  N/ap    firm;composed;serious     [[raSiyn/ADJ]]
@@ -2241,7 +2243,7 @@ lexicon = listing "Lexicon's properties"
     -- rTn     roTun   IV-n    talk gibberish;speak unintelligibly
 
     FaCaL                     `verb`       {- raTan-u -}        [ "talk gibberish", "speak unintelligibly" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; raTAnap_1
     -- rTAn    raTAn   Nap     gibberish;jabber
@@ -3088,7 +3090,8 @@ lexicon = listing "Lexicon's properties"
     -- rj      roja    IV_0hwnyn       remain silent
     -- rjy     rujiy   PV_Pass-a       remain silent
 
-    FaCiL                     `verb`       {- rajiy-a -}        [ "remain silent" ] ]
+    FaCiL                     `verb`       {- rajiy-a -}        [ "remain silent" ]
+                              `imperf`     FCY ]
 
  |> "r ^g z" <| [
 
@@ -3492,8 +3495,8 @@ lexicon = listing "Lexicon's properties"
     -- r$      ra$     PV_ttAw bribe
     -- r$w     ro$uw   IV_0hAnn        bribe
     -- r$      ro$     IV_0hwnyn       bribe
-    -- r$Y     ro$aY   IV_0    be bribed
-    -- r$y     ro$ay   IV_Ann  be bribed
+    -- r$Y     ro$aY   IV_0_Pass_yu    be bribed
+    -- r$y     ro$ay   IV_Ann_Pass_yu  be bribed
 
     FaCA                      `verb`       {- ra$A-u -}         [ "bribe", "be bribed" ]
                               `imperf`     FCuL
@@ -3833,7 +3836,8 @@ lexicon = listing "Lexicon's properties"
     -- rxm     roxum   IV_intr be soft;be gentle
 
     FaCuL                     `verb`       {- raxum-u -}        [ "be soft", "be gentle" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "ra_ham PV" ] -},
 
     -- ;; rax~am_1
     -- rxm     rax~am  PV      soften;make mellow
@@ -4048,7 +4052,8 @@ lexicon = listing "Lexicon's properties"
     -- rxy     roxay   IV_Ann  be loose;slacken
     -- rx      roxa    IV_0hwnyn       be loose;slacken
 
-    FaCiL                     `verb`       {- raxiy-a -}        [ "be loose", "slacken" ],
+    FaCiL                     `verb`       {- raxiy-a -}        [ "be loose", "slacken" ]
+                              `imperf`     FCY,
 
     -- ;; raxiy~_1
     -- rxy     raxiy~  N/ap    feeble;cozy     [[raxiy~/ADJ]]
@@ -4148,7 +4153,8 @@ lexicon = listing "Lexicon's properties"
     -- rvY     rovaY   IV_0    elegize;mourn
 
     FaCY                      `verb`       {- ravaY-i -}        [ "elegize", "mourn" ]
-                              `imperf`     FCI,
+                              `imperf`     FCI
+                              `imperf`     FCY,
 
     -- ;; rivA'_1
     -- rvA'    rivA'   N0_Nh   mourning;lamentation;elegiac poetry
@@ -4231,7 +4237,8 @@ lexicon = listing "Lexicon's properties"
     -- rE$     roEa$   IV      tremble;shake
 
     FaCaL                     `verb`       {- raEa$-a -}        [ "tremble", "shake" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "ra`i^s PV" ] -},
 
     -- ;; >aroEa$_1
     -- >rE$    >aroEa$ PV      make tremble;make shake
@@ -4467,14 +4474,14 @@ lexicon = listing "Lexicon's properties"
     -- rEn     roEun   IV-n_intr       be frivolous;be lightheaded
 
     FaCuL                     `verb`       {- raEun-u -}        [ "be frivolous", "be lightheaded" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; raEan-u_1
     -- rEn     raEan   PV-n    give sunstroke
     -- rEn     roEun   IV-n    give sunstroke
 
     FaCaL                     `verb`       {- raEan-u -}        [ "give sunstroke" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; raEon_1
     -- rEn     raEon   N       sunstroke
@@ -4573,7 +4580,8 @@ lexicon = listing "Lexicon's properties"
     -- rEy     roEay   IV_Ann  protect;care for;sponsor;promote
     -- rE      roEa    IV_0hwnyn       protect;care for;sponsor;promote
 
-    FaCY                      `verb`       {- raEaY-a -}        [ "protect", "care for", "sponsor", "promote" ],
+    FaCY                      `verb`       {- raEaY-a -}        [ "protect", "care for", "sponsor", "promote" ]
+                              `imperf`     FCY,
 
     -- ;; rAEaY_1
     -- rAEY    rAEaY   PV_0    observe;heed;show deference
@@ -5999,7 +6007,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; ruwdiy_1
     -- rwdy    ruwdiy  Nprop   Rudi
 
-    FUCiy                     `noun`       {- ruwdiy -}         [ "Rudi" ] ]
+    FUCI                      `noun`       {- ruwdiy -}         [ "Rudi" ] ]
 
  |> "r d f" <| [
 
@@ -6124,7 +6132,7 @@ lexicon = listing "Lexicon's properties"
     -- rdn     rodin   IV-n    spin;purr;grumble
 
     FaCaL                     `verb`       {- radan-i -}        [ "spin", "purr", "grumble" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     -- ;; radon_1
     -- rdn     radon   N       spinning;purring;grumbling
@@ -6184,7 +6192,8 @@ lexicon = listing "Lexicon's properties"
     -- rdy     roday   IV_Ann  perish
     -- rd      roda    IV_0hwnyn       perish
 
-    FaCiL                     `verb`       {- radiy-a -}        [ "perish" ],
+    FaCiL                     `verb`       {- radiy-a -}        [ "perish" ]
+                              `imperf`     FCY,
 
     -- ;; rad~aY_1
     -- rdY     rad~aY  PV_0    make fall;annihilate
@@ -7022,8 +7031,8 @@ lexicon = listing "Lexicon's properties"
     -- rf      raf     PV_ttAw mend;darn
     -- rfw     rofuw   IV_0hAnn        mend;darn
     -- rf      rof     IV_0hwnyn       mend;darn
-    -- rfY     rofaY   IV_0    be mended;be darned
-    -- rfy     rofay   IV_Ann  be mended;be darned
+    -- rfY     rofaY   IV_0_Pass_yu    be mended;be darned
+    -- rfy     rofay   IV_Ann_Pass_yu  be mended;be darned
 
     FaCA                      `verb`       {- rafA-u -}         [ "mend", "darn", "be mended", "be darned" ]
                               `imperf`     FCuL
@@ -7328,7 +7337,7 @@ lexicon = listing "Lexicon's properties"
     -- rhn     rohan   IV-n    mortgage;pawn
 
     FaCaL                     `verb`       {- rahan-a -}        [ "mortgage", "pawn" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; rAhan_1
     -- rAhn    rAhan   PV-n    wager;bet
@@ -7950,14 +7959,14 @@ lexicon = listing "Lexicon's properties"
     -- rkn     rokun   IV-n_intr       be dependent;be supported
 
     FaCaL                     `verb`       {- rakan-u -}        [ "be dependent", "be supported" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; rakin-a_1
     -- rkn     rakin   PV-n_intr       be dependent;be supported
     -- rkn     rokan   IV-n_intr       be dependent;be supported
 
     FaCiL                     `verb`       {- rakin-a -}        [ "be dependent", "be supported" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; >arokan_1
     -- >rkn    >arokan PV-n    trust;rely;resort
@@ -8940,9 +8949,9 @@ lexicon = listing "Lexicon's properties"
     -- rnn     ronin   IV-n    ring;resound
 
     FaCL                      `verb`       {- ran~-i -}         [ "ring", "resound" ]
+                              `imperf`     FCiL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; ran~ap_1
     -- rn      ran~    NapAt   ringing;reverberation;shout
@@ -8985,7 +8994,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; ruwniy_1
     -- rwny    ruwniy  Nprop   Ronny;Ronnie
 
-    FUCiy                     `noun`       {- ruwniy -}         [ "Ronny", "Ronnie" ] ]
+    FUCI                      `noun`       {- ruwniy -}         [ "Ronny", "Ronnie" ] ]
 
  |> "r n q" <| [
 
@@ -9798,7 +9807,8 @@ lexicon = listing "Lexicon's properties"
     -- rqy     roqay   IV_Ann  ascend;rise;promote
     -- rq      roqa    IV_0hwnyn       ascend;rise;promote
 
-    FaCiL                     `verb`       {- raqiy-a -}        [ "ascend", "rise", "promote" ],
+    FaCiL                     `verb`       {- raqiy-a -}        [ "ascend", "rise", "promote" ]
+                              `imperf`     FCY,
 
     -- ;; raq~aY_1
     -- rqY     raq~aY  PV_0    promote;advance
@@ -10473,7 +10483,7 @@ lexicon = listing "Lexicon's properties"
     -- rs      ras     PV_ttAw set anchor;disembark
     -- rsw     rosuw   IV_0hAnn        set anchor;disembark
     -- rs      ros     IV_0hwnyn       set anchor;disembark
-    -- rsY     rosaY   IV_0    be anchored;be moored
+    -- rsY     rosaY   IV_0_Pass_yu    be anchored;be moored
 
     FaCA                      `verb`       {- rasA-u -}         [ "set anchor", "disembark", "be anchored", "be moored" ]
                               `imperf`     FCuL
@@ -12913,8 +12923,8 @@ lexicon = listing "Lexicon's properties"
     FAL                       `verb`       {- rAn-i -}          [ "seize", "overcome", "prevail" ]
                               `imperf`     FIL
                               `imperf`     FiCL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `imperf`     FiL
+                              `pfirst`     FiL,
 
     -- ;; riyAn_1
     -- ryAn    riyAn   N       Riyan
@@ -13124,7 +13134,7 @@ lexicon = listing "Lexicon's properties"
     -- rzn     rozun   IV-n_intr       be serious;be sedate
 
     FaCuL                     `verb`       {- razun-u -}        [ "be serious", "be sedate" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; taraz~an_1
     -- trzn    taraz~an        PV-n_intr       be serious;be sedate

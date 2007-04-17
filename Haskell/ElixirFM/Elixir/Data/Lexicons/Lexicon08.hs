@@ -481,7 +481,7 @@ lexicon = listing "Lexicon's properties"
  |> "d f n" <| [
 
     FaCaL                     `verb`       {- dafan-i -}        [ "bury", "hide" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     FaCL                      `noun`       {- dafon -}          [ "burial" ],
 
@@ -533,7 +533,8 @@ lexicon = listing "Lexicon's properties"
  |> "d h m" <| [
 
     FaCaL                     `verb`       {- daham-a -}        [ "surprise", "raid" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "dahim PV" ] -},
 
     FaCCaL                    `verb`       {- dah~am -}         [ "blacken" ],
 
@@ -544,7 +545,7 @@ lexicon = listing "Lexicon's properties"
  |> "d h n" <| [
 
     FaCaL                     `verb`       {- dahan-u -}        [ "paint", "varnish" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCCaL                    `verb`       {- dah~an -}         [ "paint", "varnish" ],
 
@@ -585,9 +586,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "d h y" <| [
 
-    FaCiL                     `verb`       {- dahiy-a -}        [ "be clever", "be wily" ],
+    FaCiL                     `verb`       {- dahiy-a -}        [ "be clever", "be wily" ]
+                              `imperf`     FCY,
 
-    FaCY                      `verb`       {- dahaY-a -}        [ "befall", "strike" ],
+    FaCY                      `verb`       {- dahaY-a -}        [ "befall", "strike" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- dah~aY -}         [ "befall", "strike", "be struck" ] ]
 
@@ -805,7 +808,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "d m y" <| [
 
-    FaCiL                     `verb`       {- damiy-a -}        [ "bleed" ],
+    FaCiL                     `verb`       {- damiy-a -}        [ "bleed" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- dam~aY -}         [ "make bleed", "be bled" ],
 
@@ -882,7 +886,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "d n y" <| [
 
-    FaCiL                     `verb`       {- daniy-a -}        [ "be mean", "be despicable" ],
+    FaCiL                     `verb`       {- daniy-a -}        [ "be mean", "be despicable" ]
+                              `imperf`     FCY,
 
     MutaFaCCiL                `noun`       {- mutadan~iy -}     [ "approaching", "debased ??" ] ]
 

@@ -1008,7 +1008,8 @@ lexicon = listing "Lexicon's properties"
     -- wDE     wDaE    IV_Pass_yu      be put;be placed
 
     FaCaL                     `verb`       {- waDaE-a -}        [ "put", "place", "be put", "be placed" ]
-                              `imperf`     CaL,
+                              `imperf`     CaL
+                              {- `others` [ "wu.di` PV" ] -},
 
     -- ;; >awoDaE_1
     -- >wDE    >awoDaE PV      suffer losses
@@ -1662,17 +1663,12 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `verb`       {- OawoHaY -}        [ "inspire", "suggest", "be inspired", "be suggested" ],
 
-    -- ;; >awoHaY_2
+    -- ;; >uwoHiy_2
     -- >wHy    >uwHiy  PV_Pass-aAat    occur
     -- AwHy    >uwHiy  PV_Pass-aAat    occur
     -- wHY     wHaY    IV_0_Pass_yu    occur
 
-    HaFCY                     `noun`       {- OawoHaY -}        [ "occur" ]
-                              `plural`     HuFCiL
-                              `plural`     HUCiL
-                              `plural`     HuFCiy
-                              `plural`     FCY
-                              {- `others` [ "'uw.hiy PV_Pass-aAat", "w.hY IV_0_Pass_yu" ] -},
+    HuFCiL                    `verb`       {- OuwoHiy -}        [ "occur" ],
 
     -- ;; {isotawoHaY_1
     -- <stwHY  {isotawoHaY     PV_0    consult;seek advice from;be inspired by
@@ -2363,9 +2359,6 @@ lexicon = listing "Lexicon's properties"
 
     -- ;; waTi}-a_1
     -- wT}     waTi}   PV      tread on;step on;trample underfoot
-    -- wT>     waTa>   PV->    tread on;step on;trample underfoot
-    -- wT|     waTa|   PV-|    tread on;step on;trample underfoot
-    -- wT&     waTa&   PV_w    tread on;step on;trample underfoot
     -- T>      Ta>     IV      tread on;step on;trample underfoot
     -- T|      Ta|     IV-|    tread on;step on;trample underfoot
     -- T&      Ta&     IV_wn   tread on;step on;trample underfoot
@@ -2610,7 +2603,7 @@ lexicon = listing "Lexicon's properties"
     -- Tn      Tin     IV-n    reside
 
     FaCaL                     `verb`       {- waTan-i -}        [ "reside" ]
-                              `ithird`     CiL,
+                              `imperf`     CiL,
 
     -- ;; waT~an_1
     -- wTn     waT~an  PV-n    settle down;patriate
@@ -4722,7 +4715,7 @@ lexicon = listing "Lexicon's properties"
     -- wEy     waEay   PV_Atn  be aware of;pay attention to
     -- wE      waE     PV_ttAw_intr    be aware of;pay attention to
     -- Ey      Eiy     IV_0hAnn        be aware of;pay attention to
-    -- wEY     wEaY    IV_0    be aware of;pay attention to
+    -- wEY     wEaY    IV_0_Pass_yu    be aware of;pay attention to
 
     FaCY                      `verb`       {- waEaY-i -}        [ "be aware of", "pay attention to" ]
                               `imperf`     CiL
@@ -4961,7 +4954,8 @@ lexicon = listing "Lexicon's properties"
     -- wbh     wbah    IV      heed;mind;pay attention
 
     FaCaL                     `verb`       {- wabah-a -}        [ "heed", "mind", "pay attention" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "wabih PV" ] -},
 
     -- ;; >awobah_1
     -- >wbh    >awobah PV      heed;mind;pay attention
@@ -5123,7 +5117,8 @@ lexicon = listing "Lexicon's properties"
     -- dE      daE     CV      let;allow
 
     FaCaL                     `verb`       {- wadaE-a -}        [ "let", "allow" ]
-                              `imperf`     CaL,
+                              `imperf`     CaL
+                              `second`     CaL,
 
     -- ;; wad~aE_1
     -- wdE     wad~aE  PV      bid farewell
@@ -6322,21 +6317,21 @@ lexicon = listing "Lexicon's properties"
     -- hn      hin     IV-n_intr       be weak;lack the strength for
 
     FaCaL                     `verb`       {- wahan-i -}        [ "be weak", "lack the strength for" ]
-                              `ithird`     CiL,
+                              `imperf`     CiL
+                              {- `others` [ "wahin PV" ] -},
 
     -- ;; wahun-u_1
     -- whn     wahun   PV-n_intr       be weak;lack the strength for
     -- whn     wohun   IV-n_intr       be weak;lack the strength for
 
     FaCuL                     `verb`       {- wahun-u -}        [ "be weak", "lack the strength for" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; wah~an_1
+    -- whn     wah~an  PV-n    weaken;discourage
     -- whn     wah~in  IV-n_yu weaken;discourage
 
-    FaCCaL                    `noun`       {- wah~an -}         [ "weaken", "discourage" ]
-                              `plural`     FaCCiL
-                              {- `others` [ "wahhin IV-n_yu" ] -},
+    FaCCaL                    `verb`       {- wah~an -}         [ "weaken", "discourage" ],
 
     -- ;; >awohan_1
     -- >whn    >awohan PV-n    weaken;discourage
@@ -6426,7 +6421,8 @@ lexicon = listing "Lexicon's properties"
     -- why     wohay   IV_Ann  be frail;be fragile
     -- wh      woha    IV_0hwnyn       be frail;be fragile
 
-    FaCiL                     `verb`       {- wahiy-a -}        [ "be frail", "be fragile" ],
+    FaCiL                     `verb`       {- wahiy-a -}        [ "be frail", "be fragile" ]
+                              `imperf`     FCY,
 
     -- ;; wahaY-i_1
     -- whY     wahaY   PV_0    be frail;be fragile
@@ -7026,16 +7022,12 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`       {- OawolaE -}        [ "kindle", "light", "set fire to", "be kindled", "be lit", "be set afire" ],
 
-    -- ;; >awolaE_2
+    -- ;; >uwoliE_2
     -- >wlE    >uwliE  PV_Pass be enamored;fall in love
     -- AwlE    >uwliE  PV_Pass be enamored;fall in love
     -- wlE     wlaE    IV_Pass_yu      be enamored;fall in love
 
-    HaFCaL                    `noun`       {- OawolaE -}        [ "be enamored", "fall in love" ]
-                              `plural`     HuFCiL
-                              `plural`     HUCiL
-                              `plural`     FCaL
-                              {- `others` [ "'uwli` PV_Pass", "wla` IV_Pass_yu" ] -},
+    HuFCiL                    `verb`       {- OuwoliE -}        [ "be enamored", "fall in love" ],
 
     -- ;; tawal~aE_1
     -- twlE    tawal~aE        PV      catch fire;burn;be enthusiastic
@@ -7896,9 +7888,9 @@ lexicon = listing "Lexicon's properties"
     -- wnn     wonin   IV-n    buzz;drone
 
     FaCL                      `verb`       {- wan~-i -}         [ "buzz", "drone" ]
+                              `imperf`     FCiL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; wan~_1
     -- wn      wan~    N       buzzing;droning
@@ -7924,7 +7916,8 @@ lexicon = listing "Lexicon's properties"
     -- wny     wonay   IV_Ann  become weak;be despondent
     -- wn      wona    IV_0hwnyn       become weak;be despondent
 
-    FaCiL                     `verb`       {- waniy-a -}        [ "become weak", "be despondent" ],
+    FaCiL                     `verb`       {- waniy-a -}        [ "become weak", "be despondent" ]
+                              `imperf`     FCY,
 
     -- ;; wanaY-i_1
     -- wnY     wanaY   PV_0    become weak;be despondent
@@ -10138,7 +10131,7 @@ lexicon = listing "Lexicon's properties"
     -- wsn     wosan   IV-n    sleep
 
     FaCiL                     `verb`       {- wasin-a -}        [ "sleep" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; wasan_1
     -- wsn     wasan   N       sleep
@@ -10595,7 +10588,7 @@ lexicon = listing "Lexicon's properties"
     -- zn      zin     IV-n    weight;equilibrate
 
     FaCaL                     `verb`       {- wazan-i -}        [ "weight", "equilibrate" ]
-                              `ithird`     CiL,
+                              `imperf`     CiL,
 
     -- ;; wAzan_1
     -- wAzn    wAzan   PV-n    weigh;compare;balance

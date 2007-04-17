@@ -384,7 +384,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "q .s y" <| [
 
-    FaCiL                     `verb`       {- qaSiy-a -}        [ "be distant" ],
+    FaCiL                     `verb`       {- qaSiy-a -}        [ "be distant" ]
+                              `imperf`     FCY,
 
     FaCIL                     `adj`        {- qaSiy~ -}         [ "distant", "remote" ],
 
@@ -582,7 +583,7 @@ lexicon = listing "Lexicon's properties"
  |> "q .t n" <| [
 
     FaCaL                     `verb`       {- qaTan-u -}        [ "reside", "dwell", "be settled" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     FaCCaL                    `verb`       {- qaT~an -}         [ "make reside", "settle" ],
 
@@ -1154,7 +1155,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "q d y" <| [
 
-    FaCiL                     `verb`       {- qadiy-a -}        [ "be tasty" ] ]
+    FaCiL                     `verb`       {- qadiy-a -}        [ "be tasty" ]
+                              `imperf`     FCY ]
 
  |> "q f .s" <| [
 
@@ -1265,7 +1267,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "q h y" <| [
 
-    FaCiL                     `verb`       {- qahiy-a -}        [ "have no appetite" ] ]
+    FaCiL                     `verb`       {- qahiy-a -}        [ "have no appetite" ]
+                              `imperf`     FCY ]
 
  |> "q l .s" <| [
 
@@ -1469,7 +1472,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "q l y" <| [
 
-    FaCiL                     `verb`       {- qaliy-a -}        [ "detest" ],
+    FaCiL                     `verb`       {- qaliy-a -}        [ "detest" ]
+                              `imperf`     FCY,
 
     FiCCIL |< aT              `noun`       {- qil~iy~ap -}      [ "monk's cell", "bishop's residence", "monks' cells" ]
                               `plural`     FaCACiL
@@ -1717,7 +1721,7 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`       {- taqoniyn -}       [ "legislation", "lawmaking" ],
 
-    FUCiy |< aT               `noun`       {- quwniyap -}       [ "Konya" ] ]
+    FUCI |< aT                `noun`       {- quwniyap -}       [ "Konya" ] ]
 
  |> "q n w" <| [
 
@@ -1986,7 +1990,7 @@ lexicon = listing "Lexicon's properties"
  |> "q r n" <| [
 
     FaCaL                     `verb`       {- qaran-i -}        [ "connect", "combine" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     FACaL                     `verb`       {- qAran -}          [ "compare", "be compared" ],
 
@@ -2430,7 +2434,8 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FuCL
                               `pfirst`     FuL
                               `ithird`     FuL
-                              `second`     FuL,
+                              `second`     FuL
+                              {- `others` [ "qul FW-Wa" ] -},
 
     FAL |< aT                 `noun`       {- qAlap -}          [ "speech", "talk" ],
 
@@ -2617,7 +2622,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "q w y" <| [
 
-    FaCiL                     `verb`       {- qawiy-a -}        [ "be strong" ],
+    FaCiL                     `verb`       {- qawiy-a -}        [ "be strong" ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`       {- qaw~aY -}         [ "strengthen", "be strengthened" ],
 

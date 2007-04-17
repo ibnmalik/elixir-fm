@@ -2106,7 +2106,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; kuwbiy_1
     -- kwby    kuwbiy  Nprop   Kobe
 
-    FUCiy                     `noun`       {- kuwbiy -}         [ "Kobe" ] ]
+    FUCI                      `noun`       {- kuwbiy -}         [ "Kobe" ] ]
 
  |> "k d .h" <| [
 
@@ -2927,7 +2927,7 @@ lexicon = listing "Lexicon's properties"
     -- kfn     kofin   IV-n    wrap;shroud
 
     FaCaL                     `verb`       {- kafan-i -}        [ "wrap", "shroud" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     -- ;; kaf~an_1
     -- kfn     kaf~an  PV-n    wrap;cover
@@ -3281,8 +3281,8 @@ lexicon = listing "Lexicon's properties"
     -- khn     kohan   IV-n    foresee;predict;prophesy
 
     FaCaL                     `verb`       {- kahan-ua -}       [ "foresee", "predict", "prophesy" ]
-                              `ithird`     FCuL
-                              `ithird`     FCaL,
+                              `imperf`     FCuL
+                              `imperf`     FCaL,
 
     -- ;; takah~an_1
     -- tkhn    takah~an        PV-n    predict;prophesy
@@ -4404,7 +4404,8 @@ lexicon = listing "Lexicon's properties"
     -- kml     komul   IV_intr become complete;become perfect;be concluded
 
     FaCaL                     `verb`       {- kamal-u -}        [ "become complete", "become perfect", "be concluded" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "kamul PV" ] -},
 
     -- ;; kamil-a_1
     -- kml     kamil   PV_intr become complete;become perfect;be concluded
@@ -4621,14 +4622,14 @@ lexicon = listing "Lexicon's properties"
     -- kmn     komun   IV-n_intr       be latent;be concealed
 
     FaCaL                     `verb`       {- kaman-u -}        [ "be latent", "be concealed" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; kamin-a_1
     -- kmn     kamin   PV-n_intr       be latent;be concealed
     -- kmn     koman   IV-n_intr       be latent;be concealed
 
     FaCiL                     `verb`       {- kamin-a -}        [ "be latent", "be concealed" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; takam~an_1
     -- tkmn    takam~an        PV-n_intr       be latent;be concealed
@@ -5036,9 +5037,9 @@ lexicon = listing "Lexicon's properties"
     -- knn     konin   IV-n    conceal;hide
 
     FaCL                      `verb`       {- kan~-i -}         [ "conceal", "hide" ]
+                              `imperf`     FCiL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; >akan~_1
     -- >kn     >akan~  PV_V    conceal;hide
@@ -5612,7 +5613,8 @@ lexicon = listing "Lexicon's properties"
     -- krE     koraE   IV      sip
 
     FaCaL                     `verb`       {- karaE-a -}        [ "sip" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "kari` PV" ] -},
 
     -- ;; takar~aE_1
     -- tkrE    takar~aE        PV      perform ablutions;eruct;belch
@@ -6657,7 +6659,8 @@ lexicon = listing "Lexicon's properties"
     -- kry     koray   IV_Ann  sleep
     -- kr      kora    IV_0hwnyn       sleep
 
-    FaCiL                     `verb`       {- kariy-a -}        [ "sleep" ],
+    FaCiL                     `verb`       {- kariy-a -}        [ "sleep" ]
+                              `imperf`     FCY,
 
     -- ;; kAraY_1
     -- kArY    kAraY   PV_0    rent;lease
@@ -7122,7 +7125,8 @@ lexicon = listing "Lexicon's properties"
     -- ksd     kosud   IV_intr be stagnant;sell poorly;have no market
 
     FaCaL                     `verb`       {- kasad-u -}        [ "be stagnant", "sell poorly", "have no market" ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              {- `others` [ "kasud PV" ] -},
 
     -- ;; >akosad_2
     -- >ksd    >akosad PV_intr be stagnant;be paralyzed
@@ -7592,7 +7596,8 @@ lexicon = listing "Lexicon's properties"
     -- ksy     kosay   IV_Ann  get dressed
     -- ks      kosa    IV_0hwnyn       get dressed
 
-    FaCiL                     `verb`       {- kasiy-a -}        [ "get dressed" ],
+    FaCiL                     `verb`       {- kasiy-a -}        [ "get dressed" ]
+                              `imperf`     FCY,
 
     -- ;; takosiy_1
     -- tksy    takosiy Nap     dressing;clothing
@@ -8138,7 +8143,7 @@ lexicon = listing "Lexicon's properties"
     -- ktn     kotan   IV-n_intr       be soiled
 
     FaCiL                     `verb`       {- katin-a -}        [ "be soiled" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; kat~an_1
     -- ktn     kat~an  PV-n    soil
@@ -8527,8 +8532,8 @@ lexicon = listing "Lexicon's properties"
     FAL                       `verb`       {- kAn-u -}          [ "was", "were", "is", "are", "be" ]
                               `imperf`     FUL
                               `imperf`     FuCL
+                              `imperf`     FuL
                               `pfirst`     FuL
-                              `ithird`     FuL
                               `second`     FuL,
 
     -- ;; kaw~an_1

@@ -251,6 +251,7 @@ lexicon = listing "Lexicon's properties"
     FACY |< Iy                `adj`        {- vAnawiy~ -}       [ "secondary" ],
 
     FaCY                      `verb`       {- vanaY-i -}        [ "fold", "double" ]
+                              `imperf`     FCY
                               `imperf`     FCiL
                               `imperf`     FCI,
 
@@ -385,7 +386,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t r y" <| [
 
-    FaCiL                     `verb`       {- variy-a -}        [ "become wealthy" ] ]
+    FaCiL                     `verb`       {- variy-a -}        [ "become wealthy" ]
+                              `imperf`     FCY ]
 
  |> "_t w b" <| [
 

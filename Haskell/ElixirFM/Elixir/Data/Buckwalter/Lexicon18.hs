@@ -2386,15 +2386,12 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `verb`       {- OaEojab -}        [ "delight", "please", "be delighted", "be pleased" ],
 
-    -- ;; >aEojab_2
-    -- >Ejb    >uEojib PV      admire
-    -- AEjb    >uEojib PV      admire
+    -- ;; >uEojib_2
+    -- >Ejb    >uEojib PV_Pass_yu      admire
+    -- AEjb    >uEojib PV_Pass_yu      admire
     -- Ejb     Eojab   IV_Pass_yu      admire
 
-    HaFCaL                    `noun`       {- OaEojab -}        [ "admire" ]
-                              `plural`     FCaL
-                              `plural`     HuFCiL
-                              {- `others` [ "`^gab IV_Pass_yu", "'u`^gib PV" ] -},
+    HuFCiL                    `verb`       {- OuEojib -}        [ "admire" ],
 
     -- ;; taEaj~ab_1
     -- tEjb    taEaj~ab        PV_intr be amazed;be astonished
@@ -2827,8 +2824,8 @@ lexicon = listing "Lexicon's properties"
     -- Ejn     Eojin   IV-n    knead;discuss
 
     FaCaL                     `verb`       {- Eajan-ui -}       [ "knead", "discuss" ]
-                              `ithird`     FCiL
-                              `ithird`     FCuL,
+                              `imperf`     FCiL
+                              `imperf`     FCuL,
 
     -- ;; Eajon_1
     -- Ejn     Eajon   N       kneading;discussing
@@ -3624,7 +3621,8 @@ lexicon = listing "Lexicon's properties"
     -- E$y     Eo$ay   IV_Ann  be night-blind
     -- E$      Eo$a    IV_0hwnyn       be night-blind
 
-    FaCiL                     `verb`       {- Ea$iy-a -}        [ "be night-blind" ],
+    FaCiL                     `verb`       {- Ea$iy-a -}        [ "be night-blind" ]
+                              `imperf`     FCY,
 
     -- ;; Ea$iy~ap_1
     -- E$y     Ea$iy~  NapAt   eve of;night before     [[Ea$iy~/NOUN]]
@@ -3911,7 +3909,8 @@ lexicon = listing "Lexicon's properties"
     -- E*y     Eo*ay   IV_Ann  be healthy
     -- E*      Eo*a    IV_0hwnyn       be healthy
 
-    FaCiL                     `verb`       {- Ea*iy-a -}        [ "be healthy" ],
+    FaCiL                     `verb`       {- Ea*iy-a -}        [ "be healthy" ]
+                              `imperf`     FCY,
 
     -- ;; Ea*iy~_1
     -- E*y     Ea*iy~  N-ap    healthful;salubrious     [[Ea*iy~/ADJ]]
@@ -4048,6 +4047,7 @@ lexicon = listing "Lexicon's properties"
     -- Ev      Eov     IV_0hwnyn       behave wickedly
 
     FaCY                      `verb`       {- EavaY-ai -}       [ "behave wickedly" ]
+                              `imperf`     FCY
                               `imperf`     FCI ]
 
  |> "` b '" <| [
@@ -6034,7 +6034,7 @@ lexicon = listing "Lexicon's properties"
     -- Efn     Eofan   IV-n    decay;putrefy;be infected
 
     FaCiL                     `verb`       {- Eafin-a -}        [ "decay", "putrefy", "be infected" ]
-                              `ithird`     FCaL,
+                              `imperf`     FCaL,
 
     -- ;; Eaf~an_1
     -- Efn     Eaf~an  PV-n    infect;decay
@@ -6603,7 +6603,8 @@ lexicon = listing "Lexicon's properties"
     -- Ehr     Eohar   IV      commit adultery;fornicate
 
     FaCaL                     `verb`       {- Eahar-a -}        [ "commit adultery", "fornicate" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "`ahir PV" ] -},
 
     -- ;; EAhar_1
     -- EAhr    EAhar   PV      commit adultery;fornicate
@@ -9133,7 +9134,8 @@ lexicon = listing "Lexicon's properties"
     -- Emy     Eomay   IV_Ann  be blind;be obscure
     -- Em      Eoma    IV_0hwnyn       be blind;be obscure
 
-    FaCiL                     `verb`       {- Eamiy-a -}        [ "be blind", "be obscure" ],
+    FaCiL                     `verb`       {- Eamiy-a -}        [ "be blind", "be obscure" ]
+                              `imperf`     FCY,
 
     -- ;; Eam~aY_1
     -- EmY     Eam~aY  PV_0    make blind;camouflage
@@ -9633,9 +9635,9 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`       {- Ean~-iu -}        [ "come to mind", "occur" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL
-                              `ithird`     FCiL,
+                              `imperf`     FCuL
+                              `imperf`     FCiL
+                              `pfirst`     FaCaL,
 
     -- ;; Eanan_1
     -- Enn     Eanan   N       appearance;interposition
@@ -12745,7 +12747,8 @@ lexicon = listing "Lexicon's properties"
     -- Ery     Eoray   IV_Ann  be nude;be bare
     -- Er      Eora    IV_0hwnyn       be nude;be bare
 
-    FaCiL                     `verb`       {- Eariy-a -}        [ "be nude", "be bare" ],
+    FaCiL                     `verb`       {- Eariy-a -}        [ "be nude", "be bare" ]
+                              `imperf`     FCY,
 
     -- ;; Ear~aY_1
     -- ErY     Ear~aY  PV_0    uncover;unclothe
@@ -16052,10 +16055,18 @@ lexicon = listing "Lexicon's properties"
 
  |> "` y y" <| [
 
+    -- ;; Eay~-a_1
+    -- Ey      Eay~    PV_V_intr       be incapable
+    -- Eyy     Eayiy   PV_C_intr       be incapable
+    -- EyA     EoyA    IV_0_intr       be incapable
+
+    FaCL                      `verb`       {- Eay~-a -}         [ "be incapable" ]
+                              `pfirst`     FaCiL,
+
     -- ;; Eayiy-a_1
     -- Eyy     Eayiy   PV_no-w_intr    be incapable
     -- Ey      Eay     PV_w_intr       be incapable
-    -- EyY     EoyaY   IV_0    be incapable
+    -- EyY     EoyaY   IV_0_Pass_yu    be incapable
     -- EyA     EoyA    IV_0    be incapable
     -- Eyy     Eoyay   IV_Ann  be incapable
     -- Ey      Eoya    IV_0hwnyn       be incapable
@@ -16689,7 +16700,8 @@ lexicon = listing "Lexicon's properties"
     -- Ezy     Eozay   IV_Ann  be patiently
     -- Ez      Eoza    IV_0hwnyn       be patiently
 
-    FaCiL                     `verb`       {- Eaziy-a -}        [ "be patiently" ],
+    FaCiL                     `verb`       {- Eaziy-a -}        [ "be patiently" ]
+                              `imperf`     FCY,
 
     -- ;; taEoziyap_1
     -- tEzy    taEoziy NapAt   condolence;mourning
@@ -18055,15 +18067,6 @@ lexicon = listing "Lexicon's properties"
     -- EyslAn  EayosalAn       N       hyacinth
 
     Identity                  `noun`       {- EayosalAn -}      [ "hyacinth" ] ]
-
- |> "`ayya" <| [
-
-    -- ;; Eay~a_1
-    -- Ey      Eay~    PV_V_intr       be incapable
-    -- Eyy     Eayiy   PV_intr be incapable
-    -- EyA     EoyA    IV_0    be incapable
-
-    Identity                  `noun`       {- Eay~a -}          [ "be incapable" ] ]
 
  |> "`i.syAniyy" <| [
 

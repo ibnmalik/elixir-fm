@@ -784,7 +784,8 @@ lexicon = listing "Lexicon's properties"
     -- qHT     qoHaT   IV_intr be withheld;be rainless
 
     FaCaL                     `verb`       {- qaHaT-a -}        [ "be withheld", "be rainless" ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              {- `others` [ "qa.hi.t PV" ] -},
 
     -- ;; qaH~aT_1
     -- qHT     qaH~aT  PV      pollinate
@@ -1942,7 +1943,8 @@ lexicon = listing "Lexicon's properties"
     -- qSy     qoSay   IV_Ann  be distant
     -- qS      qoSa    IV_0hwnyn       be distant
 
-    FaCiL                     `verb`       {- qaSiy-a -}        [ "be distant" ],
+    FaCiL                     `verb`       {- qaSiy-a -}        [ "be distant" ]
+                              `imperf`     FCY,
 
     -- ;; qaSiy~_1
     -- qSy     qaSiy~  N/ap    distant;remote     [[qaSiy~/ADJ]]
@@ -2668,7 +2670,7 @@ lexicon = listing "Lexicon's properties"
     -- qTn     qoTun   IV-n    reside;dwell;be settled
 
     FaCaL                     `verb`       {- qaTan-u -}        [ "reside", "dwell", "be settled" ]
-                              `ithird`     FCuL,
+                              `imperf`     FCuL,
 
     -- ;; qaT~an_1
     -- qTn     qaT~an  PV-n    make reside;settle
@@ -5969,7 +5971,8 @@ lexicon = listing "Lexicon's properties"
     -- qdy     qoday   IV_Ann  be tasty
     -- qd      qoda    IV_0hwnyn       be tasty
 
-    FaCiL                     `verb`       {- qadiy-a -}        [ "be tasty" ],
+    FaCiL                     `verb`       {- qadiy-a -}        [ "be tasty" ]
+                              `imperf`     FCY,
 
     -- ;; qadiy~_1
     -- qdy     qadiy~  N-ap    savory;tasty     [[qadiy~/ADJ]]
@@ -6630,7 +6633,8 @@ lexicon = listing "Lexicon's properties"
     -- qhy     qohay   IV_Ann  have no appetite
     -- qh      qoha    IV_0hwnyn       have no appetite
 
-    FaCiL                     `verb`       {- qahiy-a -}        [ "have no appetite" ],
+    FaCiL                     `verb`       {- qahiy-a -}        [ "have no appetite" ]
+                              `imperf`     FCY,
 
     -- ;; >aqohaY_1
     -- >qhY    >aqohaY PV_0    have no appetite
@@ -7600,7 +7604,8 @@ lexicon = listing "Lexicon's properties"
     -- qly     qolay   IV_Ann  detest
     -- ql      qola    IV_0hwnyn       detest
 
-    FaCiL                     `verb`       {- qaliy-a -}        [ "detest" ],
+    FaCiL                     `verb`       {- qaliy-a -}        [ "detest" ]
+                              `imperf`     FCY,
 
     -- ;; qal~Ayap_1
     -- qlAy    qal~Ay  NapAt   frying pan
@@ -8869,7 +8874,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; quwniyap_1
     -- qwny    quwniy  Nap     Konya
 
-    FUCiy |< aT               `noun`       {- quwniyap -}       [ "Konya" ] ]
+    FUCI |< aT                `noun`       {- quwniyap -}       [ "Konya" ] ]
 
  |> "q n q r" <| [
 
@@ -10634,7 +10639,7 @@ lexicon = listing "Lexicon's properties"
     -- qrn     qorin   IV-n    connect;combine
 
     FaCaL                     `verb`       {- qaran-i -}        [ "connect", "combine" ]
-                              `ithird`     FCiL,
+                              `imperf`     FCiL,
 
     -- ;; qAran_1
     -- qArn    qAran   PV-n    compare
@@ -12829,7 +12834,8 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FuCL
                               `pfirst`     FuL
                               `ithird`     FuL
-                              `second`     FuL,
+                              `second`     FuL
+                              {- `others` [ "qul FW-Wa" ] -},
 
     -- ;; qAwal_1
     -- qAwl    qAwal   PV      negotiate with;make a deal with
@@ -13602,7 +13608,8 @@ lexicon = listing "Lexicon's properties"
     -- qwy     qoway   IV_Ann  be strong
     -- qw      qowa    IV_0hwnyn       be strong
 
-    FaCiL                     `verb`       {- qawiy-a -}        [ "be strong" ],
+    FaCiL                     `verb`       {- qawiy-a -}        [ "be strong" ]
+                              `imperf`     FCY,
 
     -- ;; qaw~aY_1
     -- qwY     qaw~aY  PV_0    strengthen

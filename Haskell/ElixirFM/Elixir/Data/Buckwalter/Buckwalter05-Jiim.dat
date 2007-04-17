@@ -2042,7 +2042,7 @@ jsw     jasaw   PV_Atn  become hard;become solid
 js      jas     PV_ttAw_intr    become hard;become solid
 jsw     josuw   IV_0hAnn        become hard;become solid
 js      jos     IV_0hwnyn       become hard;become solid
-jsY     josaY   IV_0    become hard;become solid
+jsY     josaY   IV_0_Pass_yu    become hard;become solid
 ;
 ;; ja$~-u_1
 j$      ja$~    PV_V    grind;crush;grate
@@ -2306,8 +2306,8 @@ jfw     jafaw   PV_Atn  be rough;shun
 jf      jaf     PV_ttAw_intr    be rough;shun
 jfw     jofuw   IV_0hAnn        be rough;shun
 jf      jof     IV_0hwnyn       be rough;shun
-jfY     jofaY   IV_0    be rough;shun
-jfy     jofay   IV_Ann  be rough;shun
+jfY     jofaY   IV_0_Pass_yu    be rough;shun
+jfy     jofay   IV_Ann_Pass_yu  be rough;shun
 ;; jAfaY_1
 jAfY    jAfaY   PV_0    avoid;offend
 jAfA    jAfA    PV_h    avoid;offend

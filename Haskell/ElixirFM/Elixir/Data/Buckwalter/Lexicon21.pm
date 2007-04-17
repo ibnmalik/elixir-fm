@@ -33915,7 +33915,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FUCiy |< aT',
+      'morphs' => 'FUCI |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'Konya'
