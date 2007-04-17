@@ -862,8 +862,8 @@ bHtry   buHoturiy~      Nall    stocky;pudgy     <pos>buHoturiy~/ADJ</pos>
 ;; baHav-a_1
 bHv     baHav   PV      discuss;search
 bHv     boHav   IV      discuss;search
-<bHv    {iboHav CV      search;discuss
-AbHv    {iboHav CV      search;discuss
+; <bHv    {iboHav CV      search;discuss
+; AbHv    {iboHav CV      search;discuss
 ;; bAHav_1
 bAHv    bAHav   PV      discuss;deliberate
 bAHv    bAHiv   IV_yu   discuss;deliberate

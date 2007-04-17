@@ -47228,14 +47228,11 @@ $Lexicon = {
     {
       'types' => {
         'qul' => {
-          'FW-Wa' => 1,
           'PV_C' => 1,
-          'CV_C' => 1,
           'IV_C' => 1
         },
         'quwl' => {
-          'IV_V' => 1,
-          'CV_V' => 1
+          'IV_V' => 1
         },
         'qAl' => {},
         'qiyl' => {
@@ -47246,15 +47243,12 @@ $Lexicon = {
       'form' => 'qAl',
       'lines' => [
         ';; qAl-u_1',
-        'qAl     qAl     PV_V    said',
-        'ql      qul     PV_C    said',
+        'qAl     qAl     PV_V    say',
+        'ql      qul     PV_C    say',
         'qwl     quwl    IV_V    say',
         'ql      qul     IV_C    say',
         'qAl     qAl     IV_V_Pass_yu    be said',
-        'qyl     qiyl    PV_V_Pass       be said',
-        'ql      qul     CV_C    say',
-        'qwl     quwl    CV_V    say',
-        'ql      qul     FW-Wa   say (for example)'
+        'qyl     qiyl    PV_V_Pass       be said'
       ],
       'patterns' => {
         'qul' => [
@@ -47272,10 +47266,8 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FAL',
       'glosses' => [
-        'said',
         'say',
-        'be said',
-        'say (for example)'
+        'be said'
       ],
       'suffix' => '',
       'imperf' => [

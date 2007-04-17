@@ -660,8 +660,8 @@ trfAs   tirfAs  N       truffle
 ;; tarak-u_1
 trk     tarak   PV      leave;quit
 trk     toruk   IV      leave;quit
->trk    {utoruk CV      leave;quit
-Atrk    {utoruk CV      leave;quit
+; >trk    {utoruk CV      leave;quit
+; Atrk    {utoruk CV      leave;quit
 ;; tArak_1
 tArk    tArak   PV      cease
 tArk    tArik   IV_yu   cease

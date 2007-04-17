@@ -2612,8 +2612,8 @@ rAsl    rAsil   IV_yu   correspond
 Arsl    >arosal PV      send;transmit
 rsl     rosil   IV_yu   send;transmit
 rsl     rosal   IV_Pass_yu      be sent;be transmitted
->rsl    >arosil CV      send;transmit
-Arsl    >arosil CV      send;transmit
+; >rsl    >arosil CV      send;transmit
+; Arsl    >arosil CV      send;transmit
 ;; taras~al_1
 trsl    taras~al        PV_intr be slow
 trsl    taras~al        IV_intr be slow

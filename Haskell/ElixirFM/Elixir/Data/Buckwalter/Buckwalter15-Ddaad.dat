@@ -853,17 +853,16 @@ DgDg    DagoDag Nap     chewing;munching;mumbling
 ;; DagaT-a_1
 DgT     DagaT   PV      press;push;pressurize;compress
 DgT     DogaT   IV      press;push;pressurize;compress
-;; >uDoguT_1
->DgT    >uDoguT CV      press;push
-ADgT    >uDoguT CV      press;push
-DgT     DagoT   N       pressing;pushing;pressurizing;compressing
+; >DgT    >uDoguT CV      press;push
+; ADgT    >uDoguT CV      press;push
 ;; {inoDagaT_1
 <nDgT   {inoDagaT       PV_intr be pressed;be pressurized;be compressed
 AnDgT   {inoDagaT       PV_intr be pressed;be pressurized;be compressed
 nDgT    noDagiT IV_intr be pressed;be pressurized;be compressed
 ;; DagoT_1
+DgT     DagoT   N       pressing;pushing;pressurizing;compressing
+;; DagoT_2
 DgT     DagoT   N       pressure;stress;voltage
-;; DuguwT_1
 DgwT    DuguwT  N       pressures;stresses
 ;; DAgiT_1
 DAgT    DAgiT   N-ap    compressor;pressuring

@@ -12941,9 +12941,8 @@ $Lexicon = {
       'form' => 'tafa.d.dal',
       'lines' => [
         ';; tafaD~al_1',
-        'tfDl    tafaD~al        PV      be kind enough to',
-        'tfDl    tafaD~al        IV      be kind enough to',
-        'tfDl    tafaD~al        CV      please;help yourself'
+        'tfDl    tafaD~al        PV      be kind enough to;help oneself',
+        'tfDl    tafaD~al        IV      be kind enough to;help oneself'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12952,8 +12951,7 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [
         'be kind enough to',
-        'please',
-        'help yourself'
+        'help oneself'
       ],
       'orig' => 'tafaD~al',
       'prefix' => ''
@@ -32566,26 +32564,18 @@ $Lexicon = {
         'f.ha.s' => {
           'IV' => 1
         },
-        '\'if.ha.s' => {
-          'CV' => 2
-        },
         'fa.ha.s' => {}
       },
       'entry' => 'fa.ha.s',
       'form' => 'fa.ha.s',
       'lines' => [
         ';; faHaS-a_1',
-        'fHS     faHaS   PV      examine;scrutinize;investigate',
-        'fHS     foHaS   IV      examine;scrutinize;investigate',
-        '<fHS    <ifoHaS CV      search',
-        'AfHS    <ifoHaS CV      search'
+        'fHS     faHaS   PV      examine;scrutinize;investigate;search',
+        'fHS     foHaS   IV      examine;scrutinize;investigate;search'
       ],
       'patterns' => {
         'f.ha.s' => [
           'FCaL'
-        ],
-        '\'if.ha.s' => [
-          'HiFCaL'
         ]
       },
       'index' => '1',
@@ -35229,9 +35219,6 @@ $Lexicon = {
           'IV_Pass_yu' => 1
         },
         'fata.h' => {},
-        'ifta.h' => {
-          'CV' => 2
-        },
         'futi.h' => {
           'PV_Pass' => 1
         }
@@ -35243,9 +35230,7 @@ $Lexicon = {
         'ftH     fataH   PV      open;conquer',
         'ftH     fotaH   IV      open;conquer',
         'ftH     futiH   PV_Pass be opened;be conquered',
-        'ftH     fotaH   IV_Pass_yu      be opened;be conquered',
-        'AftH    {ifotaH CV      open',
-        '<ftH    {ifotaH CV      open'
+        'ftH     fotaH   IV_Pass_yu      be opened;be conquered'
       ],
       'patterns' => {
         'fta.h' => [

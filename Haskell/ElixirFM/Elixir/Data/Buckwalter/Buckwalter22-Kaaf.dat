@@ -5345,8 +5345,8 @@ kn      kun     PV_Cn   was;were
 ; >kAn    >akAn   PV_V    whether...was/were     <pos>>a/INTERROG_PART+kAn/VERB_PERFECT+a/PVSUFF_SUBJ:3MS</pos>
 kwn     kuwn    IV_V    is;are
 kn      kun     IV-n    is;are
-kn      kun     CV_C    be
-kwn     kuwn    CV_V    be
+; kn      kun     CV_C    be
+; kwn     kuwn    CV_V    be
 ;; kaw~an_1
 kwn     kaw~an  PV-n    create
 kwn     kaw~in  IV-n_yu create

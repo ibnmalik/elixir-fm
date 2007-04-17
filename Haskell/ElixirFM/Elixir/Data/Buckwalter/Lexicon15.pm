@@ -7917,39 +7917,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '\'u.d.gu.t' => [
-    {
-      'types' => {
-        '\'u.d.gu.t' => {},
-        '.da.g.t' => {
-          'N' => 1
-        }
-      },
-      'entry' => '\'u.d.gu.t',
-      'form' => '\'u.d.gu.t',
-      'lines' => [
-        ';; >uDoguT_1',
-        '>DgT    >uDoguT CV      press;push',
-        'ADgT    >uDoguT CV      press;push',
-        'DgT     DagoT   N       pressing;pushing;pressurizing;compressing'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'press',
-        'push',
-        'pressing',
-        'pushing',
-        'pressurizing',
-        'compressing'
-      ],
-      'orig' => 'OuDoguT',
-      'prefix' => ''
-    }
-  ],
   '.d r \'' => [
     {
       'types' => {
@@ -11212,7 +11179,7 @@ $Lexicon = {
       'form' => '.da.g.t',
       'lines' => [
         ';; DagoT_1',
-        'DgT     DagoT   N       pressure;stress;voltage'
+        'DgT     DagoT   N       pressing;pushing;pressurizing;compressing'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11220,9 +11187,10 @@ $Lexicon = {
       'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
-        'pressure',
-        'stress',
-        'voltage'
+        'pressing',
+        'pushing',
+        'pressurizing',
+        'compressing'
       ],
       'orig' => 'DagoT',
       'prefix' => ''
@@ -11231,24 +11199,35 @@ $Lexicon = {
       'types' => {
         '.du.guw.t' => {
           'N' => 1
+        },
+        '.da.g.t' => {
+          'N' => 1
         }
       },
-      'entry' => '.du.guw.t',
-      'form' => '.du.guw.t',
+      'entry' => '.da.g.t',
+      'form' => '.da.g.t',
       'lines' => [
-        ';; DuguwT_1',
+        ';; DagoT_2',
+        'DgT     DagoT   N       pressure;stress;voltage',
         'DgwT    DuguwT  N       pressures;stresses'
       ],
-      'patterns' => {},
-      'index' => '1',
+      'patterns' => {
+        '.du.guw.t' => [
+          'FuCUL'
+        ]
+      },
+      'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FuCUL',
+      'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
+        'pressure',
+        'stress',
+        'voltage',
         'pressures',
         'stresses'
       ],
-      'orig' => 'DuguwT',
+      'orig' => 'DagoT',
       'prefix' => ''
     },
     {

@@ -15769,7 +15769,6 @@ $Lexicon = {
     {
       'types' => {
         'sA`id' => {
-          'CV' => 1,
           'IV_yu' => 1
         },
         'sA`ad' => {}
@@ -15779,8 +15778,7 @@ $Lexicon = {
       'lines' => [
         ';; sAEad_1',
         'sAEd    sAEad   PV      help;assist;support;contribute',
-        'sAEd    sAEid   IV_yu   help;assist;support;contribute',
-        'sAEd    sAEid   CV      help;assist'
+        'sAEd    sAEid   IV_yu   help;assist;support;contribute'
       ],
       'patterns' => {
         'sA`id' => [

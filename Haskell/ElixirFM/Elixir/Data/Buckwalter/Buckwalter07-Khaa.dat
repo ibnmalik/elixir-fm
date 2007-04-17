@@ -681,8 +681,8 @@ xdl     xodal   IV      stiffen;be numb
 xdm     xadam   PV      serve;assist
 xdm     xodim   IV      serve;assist
 xdm     xodum   IV      serve;assist
->xdm    {uxodum CV      serve;assist
-Axdm    {uxodum CV      serve;assist
+; >xdm    {uxodum CV      serve;assist
+; Axdm    {uxodum CV      serve;assist
 ;; xad~am_1
 xdm     xad~am  PV      employ;hire
 xdm     xad~im  IV_yu   employ;hire
@@ -693,8 +693,8 @@ Astxdm  {isotaxodam     PV      utilize;employ;operate
 Astxdm  {usotuxodim     PV_Pass be used;be utilized;be employed
 stxdm   sotaxodim       IV      utilize;employ;operate
 stxdm   sotaxodam       IV_Pass_yu      be used;be utilized;be employed
-<stxdm  {isotaxodim     CV      use
-Astxdm  {isotaxodim     CV      use
+; <stxdm  {isotaxodim     CV      use
+; Astxdm  {isotaxodim     CV      use
 ;; xadam_1
 xdm     xadam   N       servants;attendants
 ;; xadamiy~_1

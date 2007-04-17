@@ -136,7 +136,7 @@ sub includeEntry ($) {
 
     $orig =~ s/\-[aiu]+$//;
 
-    return exists $include->{$orig} and exists $include->{$orig}{'done'} and $include->{$orig}{'done'} > 0;
+    return (exists $include->{$orig} and exists $include->{$orig}{'done'} and $include->{$orig}{'done'} > 0);
 }
 
 
@@ -154,6 +154,8 @@ sub showEntry ($) {
 
             foreach my $form (keys %{$entry->{'patterns'}}) {
 
+                my $short = grep { /^F[aiu]L$/ } @{$entry->{'patterns'}->{$form}};
+
                 my @types = grep { $_ ne '' } map { my $x = $_;
 
                                      $x =~ s/_intr//;
@@ -166,18 +168,32 @@ sub showEntry ($) {
                                      $x =~ s/^PV_(?:Atn|h|ttAw|w)$//;
 
                                      $x =~ s/^IV_0(?:hAnn)?$/IV/;
-                                     $x =~ s/^IV-n$/IV/;
+
+                                     if ($short) {
+
+                                         $x =~ s/^IV-n$/IV_C/;
+                                     }
+                                     else {
+
+                                         $x =~ s/^IV-n$/IV/;
+                                     }
 
                                      $x =~ s/^IV_(?:[wy]n|0hwnyn|Ann)$//;
 
                                      $x =~ /Pass/ ? () : $x } keys %{$entry->{'types'}->{$form}};
 
-                push @{$imperf}, @{$entry->{'patterns'}->{$form}} if grep { /^IV(?:_V)?$/ } @types;
-                push @{$pfirst}, @{$entry->{'patterns'}->{$form}} if grep { /^PV_C/       } @types;
-                push @{$ithird}, @{$entry->{'patterns'}->{$form}} if grep { /^IV_C/       } @types;
-                push @{$second}, @{$entry->{'patterns'}->{$form}} if grep { /^CV(?:_C)?$/ } @types;
+                my @ptrns = @{$entry->{'patterns'}->{$form}};
 
-                @types = grep { not  /^IV(?:_V)?$/ || /^PV_C/ || /^IV_C/ || /^CV(?:_C)?/  } @types;
+                @ptrns = grep { not /^F[iu]CL$/ } @ptrns if $entry->{'morphs'} eq 'FAL';
+                @ptrns = grep { not /^FCuL$/    } @ptrns if $entry->{'morphs'} eq 'FaCA';
+                @ptrns = grep { not /^FCiL$/    } @ptrns if $entry->{'morphs'} eq 'FaCY';
+
+                push @{$imperf}, @ptrns if grep { /^IV(?:_V)?$/ } @types;
+                push @{$pfirst}, @ptrns if grep { /^PV_C/       } @types;
+                push @{$ithird}, @ptrns if grep { /^IV_C/       } @types;
+                push @{$second}, @ptrns if grep { /^CV$/        } @types;
+
+                @types = grep { not /^IV(?:_V)?$/ || /^PV_C/ || /^IV_C/ || /^CV$/ } @types;
 
                 push @{$others}, join ' ', $form, @types if @types;
             }
@@ -197,29 +213,31 @@ sub showEntry ($) {
 
             push @{$plural}, map { $_ . $suffix } @{$entry->{'patterns'}->{$form}};
 
-            @types = grep { not  /At(?:_|$)/ || /ap(?:_|$)/ || /iyn(?:_|$)/  } @types;
+            @types = grep { not /At(?:_|$)/ || /ap(?:_|$)/ || /iyn(?:_|$)/ } @types;
 
             push @{$others}, join ' ', $form, @types if @types;
         }
     }
 
-    return sprintf "%s    %-25s %-12s %-20s %s",
+    return sprintf "%s    %-25s %-9s %-22s %s",
                    (defined $include ? '' :
                             (join "\n", map { '    -- ' . escape($_) } @{$entry->{'lines'}}) . "\n\n"),
+
                    $entry->{'morphs'}, '`' . $entry->{'entity'} . '`',
+
                    (exists $entry->{'orig'} ? '{- ' . escape($entry->{'orig'}) . ' -}' : ''),
 
-                   (join "\n" . ' ' x 30,
+                   (join "\n" . ' ' x 27,
                    (exists $entry->{'glosses'} ? '[ ' .
                             (join ", ", map { showGloss($_) } @{$entry->{'glosses'}}) . ' ]' : ()),
-                   #(exists $entry->{'imperf'} ?
-                   #                  map { '`imperf`     ' . $_ } @{$entry->{'imperf'}} : ()),
-                   (@{$imperf} > 0 ? map { '`imperf`     ' . $_ } @{$imperf} : ()),
-                   (@{$pfirst} > 0 ? map { '`pfirst`     ' . $_ } @{$pfirst} : ()),
-                   (@{$ithird} > 0 ? map { '`ithird`     ' . $_ } @{$ithird} : ()),
-                   (@{$second} > 0 ? map { '`second`     ' . $_ } @{$second} : ()),
-                   (@{$plural} > 0 ? map { '`plural`     ' . $_ } @{$plural} : ()),
-                   (@{$others} > 0 ? '{- `others` [ ' .
+
+                   (@{$imperf} > 0 ? map { '   `imperf`     ' . $_ } @{$imperf} : ()),
+                   (@{$pfirst} > 0 ? map { '   `pfirst`     ' . $_ } @{$pfirst} : ()),
+                   (@{$ithird} > 0 ? map { '   `ithird`     ' . $_ } @{$ithird} : ()),
+                   (@{$second} > 0 ? map { '   `second`     ' . $_ } @{$second} : ()),
+                   (@{$plural} > 0 ? map { '   `plural`     ' . $_ } @{$plural} : ()),
+
+                   (@{$others} > 0 ? '{- `others`  [ ' .
                             (join ", ", map { '"' . $_ . '"' } @{$others}) . ' ] -}' : ()));
 }
 

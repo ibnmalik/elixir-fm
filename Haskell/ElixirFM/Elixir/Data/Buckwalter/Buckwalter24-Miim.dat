@@ -2534,12 +2534,12 @@ msATr   masATir Ndip    samples;specimens
 ;
 ;--- msk
 ;; masak-u_1
-msk     masak   PV      seize;hold
-msk     mosuk   IV      seize;hold
-msk     mosik   IV      seize;hold
+msk     masak   PV      seize;hold;catch;grab
+msk     mosuk   IV      seize;hold;catch;grab
+msk     mosik   IV      seize;hold;catch;grab
 msk     mosak   IV_Pass_yu      be seized;be held
-<msk    <imosik CV      hold;seize;catch;grab
-Amsk    <imosik CV      hold;seize;catch;grab
+; <msk    <imosik CV      hold;seize;catch;grab
+; Amsk    <imosik CV      hold;seize;catch;grab
 ;; mas~ak_1
 msk     mas~ak  PV      make hold
 msk     mas~ik  IV_yu   make hold

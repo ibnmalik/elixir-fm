@@ -1682,8 +1682,7 @@ $Lexicon = {
     {
       'types' => {
         'da`' => {
-          'IV' => 1,
-          'CV' => 1
+          'IV' => 1
         },
         'wada`' => {}
       },
@@ -1692,8 +1691,7 @@ $Lexicon = {
       'lines' => [
         ';; wadaE-a_1',
         'wdE     wadaE   PV      let;allow',
-        'dE      daE     IV      let;allow',
-        'dE      daE     CV      let;allow'
+        'dE      daE     IV      let;allow'
       ],
       'patterns' => {
         'da`' => [
@@ -36072,9 +36070,6 @@ $Lexicon = {
     {
       'types' => {
         'itta.sal' => {},
-        'itta.sil' => {
-          'CV_intr' => 2
-        },
         'tta.sil' => {
           'IV_intr' => 1
         }
@@ -36085,9 +36080,7 @@ $Lexicon = {
         ';; {it~aSal_1',
         '<tSl    {it~aSal        PV_intr contact;get in touch (with)',
         'AtSl    {it~aSal        PV_intr contact;get in touch (with)',
-        'tSl     t~aSil  IV_intr contact;get in touch (with)',
-        '<tSl    {it~aSil        CV_intr contact;get in touch (with)',
-        'AtSl    {it~aSil        CV_intr contact;get in touch (with)'
+        'tSl     t~aSil  IV_intr contact;get in touch (with)'
       ],
       'patterns' => {},
       'index' => '1',

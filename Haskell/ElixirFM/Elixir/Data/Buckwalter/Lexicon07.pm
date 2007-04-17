@@ -21286,9 +21286,6 @@ $Lexicon = {
         '_hdim' => {
           'IV' => 1
         },
-        'u_hdum' => {
-          'CV' => 2
-        },
         '_hadam' => {}
       },
       'entry' => '_hadam',
@@ -21297,9 +21294,7 @@ $Lexicon = {
         ';; xadam-iu_1',
         'xdm     xadam   PV      serve;assist',
         'xdm     xodim   IV      serve;assist',
-        'xdm     xodum   IV      serve;assist',
-        '>xdm    {uxodum CV      serve;assist',
-        'Axdm    {uxodum CV      serve;assist'
+        'xdm     xodum   IV      serve;assist'
       ],
       'patterns' => {
         '_hdum' => [
@@ -21356,9 +21351,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'ista_hdim' => {
-          'CV' => 2
-        },
         'sta_hdam' => {
           'IV_Pass_yu' => 1
         },
@@ -21379,9 +21371,7 @@ $Lexicon = {
         '<stxdm  {usotuxodim     PV_Pass be used;be utilized;be employed',
         'Astxdm  {usotuxodim     PV_Pass be used;be utilized;be employed',
         'stxdm   sotaxodim       IV      utilize;employ;operate',
-        'stxdm   sotaxodam       IV_Pass_yu      be used;be utilized;be employed',
-        '<stxdm  {isotaxodim     CV      use',
-        'Astxdm  {isotaxodim     CV      use'
+        'stxdm   sotaxodam       IV_Pass_yu      be used;be utilized;be employed'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21394,8 +21384,7 @@ $Lexicon = {
         'operate',
         'be used',
         'be utilized',
-        'be employed',
-        'use'
+        'be employed'
       ],
       'orig' => 'Aisotaxodam',
       'prefix' => ''

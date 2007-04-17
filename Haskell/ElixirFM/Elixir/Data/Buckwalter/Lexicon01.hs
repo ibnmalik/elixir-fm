@@ -14,7 +14,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Al_1
     -- Al      Al      FW-WaBi the                    [[Al/DET]]
 
-    al >| Identity            `noun`       {- Al -}             [ "the" ] ]
+    al >| Identity            `noun`    {- Al -}               [ "the" ] ]
 
  |> "' .g d" <| [
 
@@ -22,13 +22,13 @@ lexicon = listing "Lexicon's properties"
     -- <ygAd   <iygAd  Nprop   EGAD (Economic Growth and Agricultural Development)
     -- AygAd   <iygAd  Nprop   EGAD (Economic Growth and Agricultural Development)
 
-    HICAL                     `noun`       {- IiygAd -}         [ "EGAD (Economic Growth and Agricultural Development)" ],
+    HICAL                     `noun`    {- IiygAd -}           [ "EGAD (Economic Growth and Agricultural Development)" ],
 
     -- ;; <iygAd_1
     -- <ygAd   <iygAd  Nprop   EGAD (Economic Growth and Agricultural Development)
     -- AygAd   <iygAd  Nprop   EGAD (Economic Growth and Agricultural Development)
 
-    FICAL                     `noun`       {- IiygAd -}         [ "EGAD (Economic Growth and Agricultural Development)" ] ]
+    FICAL                     `noun`    {- IiygAd -}           [ "EGAD (Economic Growth and Agricultural Development)" ] ]
 
  |> "' .g d r" <| [
 
@@ -36,7 +36,7 @@ lexicon = listing "Lexicon's properties"
     -- >gAdyr  >agAdiyr        Nprop   Agadir
     -- AgAdyr  >agAdiyr        Nprop   Agadir
 
-    KaRADIS                   `noun`       {- OagAdiyr -}       [ "Agadir" ] ]
+    KaRADIS                   `noun`    {- OagAdiyr -}         [ "Agadir" ] ]
 
  |> "' .g r" <| [
 
@@ -46,7 +46,7 @@ lexicon = listing "Lexicon's properties"
     -- >gwrwt  >aguwruwt       N0      agurot (approx.: Israeli cents)
     -- Agwrwt  >aguwruwt       N0      agurot (approx.: Israeli cents)
 
-    FaCUL |< aT               `noun`       {- Oaguwrap -}       [ "agura (approx.: Israeli cent)", "agurot (approx.: Israeli cents)" ] ]
+    FaCUL |< aT               `noun`    {- Oaguwrap -}         [ "agura (approx.: Israeli cent)", "agurot (approx.: Israeli cents)" ] ]
 
  |> "' .g s y" <| [
 
@@ -54,7 +54,7 @@ lexicon = listing "Lexicon's properties"
     -- >gAsy   >agAsiy Nprop   Agasi
     -- AgAsy   >agAsiy Nprop   Agasi
 
-    KaRADiS                   `noun`       {- OagAsiy -}        [ "Agasi" ] ]
+    KaRADiS                   `noun`    {- OagAsiy -}          [ "Agasi" ] ]
 
  |> "' .g w" <| [
 
@@ -68,7 +68,7 @@ lexicon = listing "Lexicon's properties"
     -- \|gAw    |gAw    NAt     Aghas
     -- AgAw    |gAw    NAt     Aghas
 
-    FaCA                      `noun`       {- OagA -}           [ "Agha", "Aghas" ]
+    FaCA                      `noun`    {- OagA -}             [ "Agha", "Aghas" ]
                               `plural`     HACAL |< At
                               `plural`     FaCaL |< At ]
 
@@ -83,7 +83,7 @@ lexicon = listing "Lexicon's properties"
     -- >HH     >oHuH   IV_C    cough
     -- AHH     >oHuH   IV_C    cough
 
-    FaCL                      `verb`       {- OaH~-u -}         [ "cough" ]
+    FaCL                      `verb`    {- OaH~-u -}           [ "cough" ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL
                               `ithird`     FCuL,
@@ -92,7 +92,7 @@ lexicon = listing "Lexicon's properties"
     -- >H      >aH~    N       cough
     -- AH      >aH~    N       cough
 
-    FaCL                      `noun`       {- OaH~ -}           [ "cough" ] ]
+    FaCL                      `noun`    {- OaH~ -}             [ "cough" ] ]
 
  |> "' .h d" <| [
 
@@ -102,7 +102,7 @@ lexicon = listing "Lexicon's properties"
     -- &Hd     &aH~id  IV_yu   unite;unify
     -- &Hd     &aH~ad  IV_Pass_yu      be united;be unified
 
-    FaCCaL                    `verb`       {- OaH~ad -}         [ "unite", "unify", "be united", "be unified" ],
+    FaCCaL                    `verb`    {- OaH~ad -}           [ "unite", "unify", "be united", "be unified" ],
 
     -- ;; >aHad_1
     -- >Hd     >aHad   N       one;someone
@@ -114,10 +114,10 @@ lexicon = listing "Lexicon's properties"
     -- \|HAd    |HAd    N       ones
     -- AHAd    |HAd    N       ones
 
-    FaCaL                     `noun`       {- OaHad -}          [ "one", "someone", "ones" ]
+    FaCaL                     `noun`    {- OaHad -}            [ "one", "someone", "ones" ]
                               `plural`     FiCLY
                               `plural`     HACAL
-                              {- `others` [ "'i.hdY N0", "'A.hAd N" ] -},
+                           {- `others`  [ "'i.hdY N0", "'A.hAd N" ] -},
 
     -- ;; >aHad_2
     -- >Hd     >aHad   N       Sunday
@@ -125,21 +125,21 @@ lexicon = listing "Lexicon's properties"
     -- \|HAd    |HAd    N       Sundays
     -- AHAd    |HAd    N       Sundays
 
-    FaCaL                     `noun`       {- OaHad -}          [ "Sunday", "Sundays" ]
+    FaCaL                     `noun`    {- OaHad -}            [ "Sunday", "Sundays" ]
                               `plural`     HACAL
-                              {- `others` [ "'A.hAd N" ] -},
+                           {- `others`  [ "'A.hAd N" ] -},
 
     -- ;; >uHAdiy~_1
     -- >HAdy   >uHAdiy~        Nall    single     [[>uHAdiy~/ADJ]]
     -- AHAdy   >uHAdiy~        Nall    single     [[>uHAdiy~/ADJ]]
 
-    FuCAL |< Iy               `adj`        {- OuHAdiy~ -}       [ "single" ],
+    FuCAL |< Iy               `adj`     {- OuHAdiy~ -}         [ "single" ],
 
     -- ;; >uHAdiy~ap_1
     -- >HAdy   >uHAdiy~        Nap     singleness     [[>uHAdiy~/NOUN]]
     -- AHAdy   >uHAdiy~        Nap     singleness     [[>uHAdiy~/NOUN]]
 
-    FuCAL |< Iy |< aT         `noun`       {- OuHAdiy~ap -}     [ "singleness" ] ]
+    FuCAL |< Iy |< aT         `noun`    {- OuHAdiy~ap -}       [ "singleness" ] ]
 
  |> "' .s .s" <| [
 
@@ -151,9 +151,9 @@ lexicon = listing "Lexicon's properties"
     -- >SA}S   >aSA}iS Ndip    flowerpots
     -- ASA}S   >aSA}iS Ndip    flowerpots
 
-    FaCIL                     `noun`       {- OaSiyS -}         [ "flowerpot", "flowerpots" ]
+    FaCIL                     `noun`    {- OaSiyS -}           [ "flowerpot", "flowerpots" ]
                               `plural`     FuCuL
-                              {- `others` [ "'u.su.s N" ] -} ]
+                           {- `others`  [ "'u.su.s N" ] -} ]
 
  |> "' .s d" <| [
 
@@ -163,13 +163,13 @@ lexicon = listing "Lexicon's properties"
     -- &Sd     &aS~id  IV_yu   close;shut (door)
     -- &Sd     &aS~ad  IV_Pass_yu      be closed;be shut (door)
 
-    FaCCaL                    `verb`       {- OaS~ad -}         [ "close", "shut (door)", "be closed", "be shut (door)" ],
+    FaCCaL                    `verb`    {- OaS~ad -}           [ "close", "shut (door)", "be closed", "be shut (door)" ],
 
     -- ;; ta>oSiyd_1
     -- t>Syd   ta>oSiyd        NduAt   closing;shutting (door)
     -- tASyd   ta>oSiyd        NduAt   closing;shutting (door)
 
-    TaFCIL                    `noun`       {- taOoSiyd -}       [ "closing", "shutting (door)" ] ]
+    TaFCIL                    `noun`    {- taOoSiyd -}         [ "closing", "shutting (door)" ] ]
 
  |> "' .s d '" <| [
 
@@ -181,7 +181,7 @@ lexicon = listing "Lexicon's properties"
     -- <SdA}   <iSodA} Nhy     closing;shutting (door)
     -- ASdA}   <iSodA} Nhy     closing;shutting (door)
 
-    KiRDAS                    `noun`       {- IiSodA' -}        [ "closing", "shutting (door)" ] ]
+    KiRDAS                    `noun`    {- IiSodA' -}          [ "closing", "shutting (door)" ] ]
 
  |> "' .s l" <| [
 
@@ -190,7 +190,7 @@ lexicon = listing "Lexicon's properties"
     -- >Sl     >oSul   IV_no-Pref-A    be rooted;be established
     -- ASl     >oSul   IV_no-Pref-A    be rooted;be established
 
-    FaCuL                     `verb`       {- OaSul-u -}        [ "be rooted", "be established" ]
+    FaCuL                     `verb`    {- OaSul-u -}          [ "be rooted", "be established" ]
                               `imperf`     FCuL,
 
     -- ;; >aS~al_1
@@ -198,20 +198,20 @@ lexicon = listing "Lexicon's properties"
     -- &Sl     &aS~il  IV_yu   root;anchor
     -- &Sl     &aS~al  IV_Pass_yu      be rooted;be anchored
 
-    FaCCaL                    `verb`       {- OaS~al -}         [ "root", "anchor", "be rooted", "be anchored" ],
+    FaCCaL                    `verb`    {- OaS~al -}           [ "root", "anchor", "be rooted", "be anchored" ],
 
     -- ;; ta>aS~al_1
     -- t>Sl    ta>aS~al        PV      take root;be indigenized
     -- t>Sl    ta>aS~al        IV      take root;be indigenized
 
-    TaFaCCaL                  `verb`       {- taOaS~al -}       [ "take root", "be indigenized" ],
+    TaFaCCaL                  `verb`    {- taOaS~al -}         [ "take root", "be indigenized" ],
 
     -- ;; {isota>oSal_1
     -- <st>Sl  {isota>oSal     PV      uproot;extirpate
     -- Ast>Sl  {isota>oSal     PV      uproot;extirpate
     -- st>Sl   sota>oSil       IV      uproot;extirpate
 
-    IstaFCaL                  `verb`       {- AisotaOoSal -}    [ "uproot", "extirpate" ],
+    IstaFCaL                  `verb`    {- AisotaOoSal -}      [ "uproot", "extirpate" ],
 
     -- ;; >aSol_1
     -- >Sl     >aSol   Ndu     origin;root
@@ -219,17 +219,17 @@ lexicon = listing "Lexicon's properties"
     -- >Swl    >uSuwl  N       origins;principles
     -- ASwl    >uSuwl  N       origins;principles
 
-    FaCL                      `noun`       {- OaSol -}          [ "origin", "root", "origins", "principles" ]
+    FaCL                      `noun`    {- OaSol -}            [ "origin", "root", "origins", "principles" ]
                               `plural`     FuCUL
-                              {- `others` [ "'u.suwl N" ] -},
+                           {- `others`  [ "'u.suwl N" ] -},
 
     -- ;; >aSolAF_1
     -- >Sl     >aSol   NF      originally;primarily     [[>aSol/ADV]]
     -- ASl     >aSol   NF      originally;primarily     [[>aSol/ADV]]
 
-    FaCL |< aN                `noun`       {- OaSolAF -}        [ "originally", "primarily" ]
+    FaCL |< aN                `noun`    {- OaSolAF -}          [ "originally", "primarily" ]
                               `plural`     FaCL
-                              {- `others` [ "'a.sl NF" ] -},
+                           {- `others`  [ "'a.sl NF" ] -},
 
     -- ;; >aSalap_1
     -- >Sl     >aSal   Nap     boa;python
@@ -237,9 +237,9 @@ lexicon = listing "Lexicon's properties"
     -- >Sl     >aSal   N       boas;pythons
     -- ASl     >aSal   N       boas;pythons
 
-    FaCaL |< aT               `noun`       {- OaSalap -}        [ "boa", "python", "boas", "pythons" ]
+    FaCaL |< aT               `noun`    {- OaSalap -}          [ "boa", "python", "boas", "pythons" ]
                               `plural`     FaCaL
-                              {- `others` [ "'a.sal N" ] -},
+                           {- `others`  [ "'a.sal N" ] -},
 
     -- ;; >aSiyl_1
     -- >Syl    >aSiyl  N/ap    authentic;indigenous;permanent
@@ -253,63 +253,63 @@ lexicon = listing "Lexicon's properties"
     -- >SA}l   >aSA}il Ndip    authentic;indigenous;permanent
     -- ASA}l   >aSA}il Ndip    authentic;indigenous;permanent
 
-    FaCIL                     `noun`       {- OaSiyl -}         [ "authentic", "indigenous", "permanent" ]
+    FaCIL                     `noun`    {- OaSiyl -}           [ "authentic", "indigenous", "permanent" ]
                               `plural`     FuCaLA'
-                              {- `others` [ "'u.salA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "'u.salA' Nh N0_Nh Nhy" ] -},
 
     -- ;; |SAl_1
     -- \|SAl    |SAl    N       late afternoons
     -- ASAl    |SAl    N       late afternoons
 
-    HACAL                     `noun`       {- \|SAl -}          [ "late afternoons" ],
+    HACAL                     `noun`    {- \|SAl -}            [ "late afternoons" ],
 
     -- ;; >aSAlap_1
     -- >SAl    >aSAl   Nap     authenticity;originality
     -- ASAl    >aSAl   Nap     authenticity;originality
 
-    FaCAL |< aT               `noun`       {- OaSAlap -}        [ "authenticity", "originality" ],
+    FaCAL |< aT               `noun`    {- OaSAlap -}          [ "authenticity", "originality" ],
 
     -- ;; >aSAlapF_1
     -- >SAlp   >aSAlapF        FW-Wa   directly;personally    [[>aSAlapF/ADV]]
     -- ASAlp   >aSAlapF        FW-Wa   directly;personally    [[>aSAlapF/ADV]]
 
-    FaCAL |< aT |< aN         `noun`       {- OaSAlapF -}       [ "directly", "personally" ],
+    FaCAL |< aT |< aN         `noun`    {- OaSAlapF -}         [ "directly", "personally" ],
 
     -- ;; ta>oSiyl_1
     -- t>Syl   ta>oSiyl        N/At    indigenization;rooting
 
-    TaFCIL                    `noun`       {- taOoSiyl -}       [ "indigenization", "rooting" ],
+    TaFCIL                    `noun`    {- taOoSiyl -}         [ "indigenization", "rooting" ],
 
     -- ;; ta>oSiylap_1
     -- t>Syl   ta>oSiyl        Nap     pedigree;genealogy
 
-    TaFCIL |< aT              `noun`       {- taOoSiylap -}     [ "pedigree", "genealogy" ],
+    TaFCIL |< aT              `noun`    {- taOoSiylap -}       [ "pedigree", "genealogy" ],
 
     -- ;; ta>aS~ul_1
     -- t>Sl    ta>aS~ul        NduAt   deep-rootedness
 
-    TaFaCCuL                  `noun`       {- taOaS~ul -}       [ "deep-rootedness" ],
+    TaFaCCuL                  `noun`    {- taOaS~ul -}         [ "deep-rootedness" ],
 
     -- ;; ta|Sul_1
     -- t|Sl    ta|Sul  NduAt   allotropy
 
-    TaFACuL                   `noun`       {- ta|Sul -}         [ "allotropy" ],
+    TaFACuL                   `noun`    {- ta|Sul -}           [ "allotropy" ],
 
     -- ;; {isoti}oSAl_1
     -- <st}SAl {isoti}oSAl     N/At    eradication;extermination
     -- Ast}SAl {isoti}oSAl     N/At    eradication;extermination
 
-    IstiFCAL                  `noun`       {- Aisoti}oSAl -}    [ "eradication", "extermination" ],
+    IstiFCAL                  `noun`    {- Aisoti}oSAl -}      [ "eradication", "extermination" ],
 
     -- ;; muta>aS~il_1
     -- mt>Sl   muta>aS~il      Nall    deep-rooted
 
-    MutaFaCCiL                `noun`       {- mutaOaS~il -}     [ "deep-rooted" ],
+    MutaFaCCiL                `noun`    {- mutaOaS~il -}       [ "deep-rooted" ],
 
     -- ;; muta|Sil_1
     -- mt|Sl   muta|Sil        Nall    of common origin
 
-    MutaFACiL                 `noun`       {- muta|Sil -}       [ "of common origin" ] ]
+    MutaFACiL                 `noun`    {- muta|Sil -}         [ "of common origin" ] ]
 
  |> "' .s l y" <| [
 
@@ -317,7 +317,7 @@ lexicon = listing "Lexicon's properties"
     -- >Sly    >aSoliy~        Nall    original;authentic     [[>aSoliy~/ADJ]]
     -- ASly    >aSoliy~        Nall    original;authentic     [[>aSoliy~/ADJ]]
 
-    KaRDIS                    `adj`        {- OaSoliy~ -}       [ "original", "authentic" ] ]
+    KaRDIS                    `adj`     {- OaSoliy~ -}         [ "original", "authentic" ] ]
 
  |> "' .s q l" <| [
 
@@ -327,9 +327,9 @@ lexicon = listing "Lexicon's properties"
     -- >SAqyl  >aSAqiyl        Ndip    scaffolds;ladders
     -- ASAqyl  >aSAqiyl        Ndip    scaffolds;ladders
 
-    KiRDAS |< aT              `noun`       {- IiSoqAlap -}      [ "scaffold", "ladder", "scaffolds", "ladders" ]
+    KiRDAS |< aT              `noun`    {- IiSoqAlap -}        [ "scaffold", "ladder", "scaffolds", "ladders" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'a.sAqiyl Ndip" ] -} ]
+                           {- `others`  [ "'a.sAqiyl Ndip" ] -} ]
 
  |> "' .s r" <| [
 
@@ -339,9 +339,9 @@ lexicon = listing "Lexicon's properties"
     -- \|SAr    |SAr    N       covenants;pacts
     -- ASAr    |SAr    N       covenants;pacts
 
-    FiCL                      `noun`       {- IiSor -}          [ "covenant", "pact", "covenants", "pacts" ]
+    FiCL                      `noun`    {- IiSor -}            [ "covenant", "pact", "covenants", "pacts" ]
                               `plural`     HACAL
-                              {- `others` [ "'A.sAr N" ] -},
+                           {- `others`  [ "'A.sAr N" ] -},
 
     -- ;; <iSor_2
     -- <Sr     <iSor   Ndu     burden
@@ -349,9 +349,9 @@ lexicon = listing "Lexicon's properties"
     -- \|SAr    |SAr    N       burdens
     -- ASAr    |SAr    N       burdens
 
-    FiCL                      `noun`       {- IiSor -}          [ "burden", "burdens" ]
+    FiCL                      `noun`    {- IiSor -}            [ "burden", "burdens" ]
                               `plural`     HACAL
-                              {- `others` [ "'A.sAr N" ] -},
+                           {- `others`  [ "'A.sAr N" ] -},
 
     -- ;; |Sirap_1
     -- \|Sr     |Sir    Nap     attachment;bond
@@ -359,14 +359,14 @@ lexicon = listing "Lexicon's properties"
     -- >wASr   >awASir Ndip    attachment;bonds
     -- AwASr   >awASir Ndip    attachment;bonds
 
-    FACiL |< aT               `noun`       {- \|Sirap -}        [ "attachment", "bond", "bonds" ]
+    FACiL |< aT               `noun`    {- \|Sirap -}          [ "attachment", "bond", "bonds" ]
                               `plural`     FawACiL
-                              {- `others` [ "'awA.sir Ndip" ] -},
+                           {- `others`  [ "'awA.sir Ndip" ] -},
 
     -- ;; ma>oSir_1
     -- m>Sr    ma>oSir Ndu     barrier
 
-    MaFCiL                    `noun`       {- maOoSir -}        [ "barrier" ] ]
+    MaFCiL                    `noun`    {- maOoSir -}          [ "barrier" ] ]
 
  |> "' .t .t" <| [
 
@@ -379,7 +379,7 @@ lexicon = listing "Lexicon's properties"
     -- >TT     >oTiT   IV_C    bray
     -- ATT     >oTiT   IV_C    bray
 
-    FaCL                      `verb`       {- OaT~-i -}         [ "bray" ]
+    FaCL                      `verb`    {- OaT~-i -}           [ "bray" ]
                               `imperf`     FiCL
                               `pfirst`     FaCaL
                               `ithird`     FCiL,
@@ -388,13 +388,13 @@ lexicon = listing "Lexicon's properties"
     -- >T      >aT~    N       braying
     -- AT      >aT~    N       braying
 
-    FaCL                      `noun`       {- OaT~ -}           [ "braying" ],
+    FaCL                      `noun`    {- OaT~ -}             [ "braying" ],
 
     -- ;; >aTiyT_1
     -- >TyT    >aTiyT  N       braying
     -- ATyT    >aTiyT  N       braying
 
-    FaCIL                     `noun`       {- OaTiyT -}         [ "braying" ] ]
+    FaCIL                     `noun`    {- OaTiyT -}           [ "braying" ] ]
 
  |> "' .t l" <| [
 
@@ -404,7 +404,7 @@ lexicon = listing "Lexicon's properties"
     -- AyTAly  <iyTAliy~       Nall    Italian     [[<iyTAliy~/NOUN]]
     -- AyTAly  <iyTAliy~       Nall    Italian     [[<iyTAliy~/ADJ]]
 
-    FICAL |< Iy               `adj`        {- IiyTAliy~ -}      [ "Italian" ],
+    FICAL |< Iy               `adj`     {- IiyTAliy~ -}        [ "Italian" ],
 
     -- ;; <iyTAliy~_1
     -- <yTAly  <iyTAliy~       Nall    Italian     [[<iyTAliy~/NOUN]]
@@ -412,7 +412,7 @@ lexicon = listing "Lexicon's properties"
     -- AyTAly  <iyTAliy~       Nall    Italian     [[<iyTAliy~/NOUN]]
     -- AyTAly  <iyTAliy~       Nall    Italian     [[<iyTAliy~/ADJ]]
 
-    HICAL |< Iy               `adj`        {- IiyTAliy~ -}      [ "Italian" ] ]
+    HICAL |< Iy               `adj`     {- IiyTAliy~ -}        [ "Italian" ] ]
 
  |> "' .t l s" <| [
 
@@ -422,9 +422,9 @@ lexicon = listing "Lexicon's properties"
     -- >TAls   >aTAlis Ndip    Atlas
     -- ATAls   >aTAlis Ndip    Atlas
 
-    KaRDaS                    `noun`       {- OaTolas -}        [ "Atlas" ]
+    KaRDaS                    `noun`    {- OaTolas -}          [ "Atlas" ]
                               `plural`     KaRADiS
-                              {- `others` [ "'a.tAlis Ndip" ] -},
+                           {- `others`  [ "'a.tAlis Ndip" ] -},
 
     -- ;; >aTolas_2
     -- >Tls    >aTolas Ndu     atlas;map
@@ -432,15 +432,15 @@ lexicon = listing "Lexicon's properties"
     -- >TAls   >aTAlis Ndip    atlases;maps
     -- ATAls   >aTAlis Ndip    atlases;maps
 
-    KaRDaS                    `noun`       {- OaTolas -}        [ "atlas", "map", "atlases", "maps" ]
+    KaRDaS                    `noun`    {- OaTolas -}          [ "atlas", "map", "atlases", "maps" ]
                               `plural`     KaRADiS
-                              {- `others` [ "'a.tAlis Ndip" ] -},
+                           {- `others`  [ "'a.tAlis Ndip" ] -},
 
     -- ;; >aTolas_3
     -- >Tls    >aTolas Nel     satin
     -- ATls    >aTolas Nel     satin
 
-    KaRDaS                    `noun`       {- OaTolas -}        [ "satin" ] ]
+    KaRDaS                    `noun`    {- OaTolas -}          [ "satin" ] ]
 
  |> "' .t m" <| [
 
@@ -448,7 +448,7 @@ lexicon = listing "Lexicon's properties"
     -- >TAm    >uTAm   N       dysuria
     -- ATAm    >uTAm   N       dysuria
 
-    FuCAL                     `noun`       {- OuTAm -}          [ "dysuria" ],
+    FuCAL                     `noun`    {- OuTAm -}            [ "dysuria" ],
 
     -- ;; >uTum_1
     -- >Tm     >uTum   Ndu     blockhouse;pillbox
@@ -456,15 +456,15 @@ lexicon = listing "Lexicon's properties"
     -- \|TAm    |TAm    N       blockhouses;pillboxes
     -- ATAm    |TAm    N       blockhouses;pillboxes
 
-    FuCuL                     `noun`       {- OuTum -}          [ "blockhouse", "pillbox", "blockhouses", "pillboxes" ]
+    FuCuL                     `noun`    {- OuTum -}            [ "blockhouse", "pillbox", "blockhouses", "pillboxes" ]
                               `plural`     HACAL
-                              {- `others` [ "'A.tAm N" ] -},
+                           {- `others`  [ "'A.tAm N" ] -},
 
     -- ;; >aTuwm_1
     -- >Twm    >aTuwm  N       dugong;sea-cow;sea turtle
     -- ATwm    >aTuwm  N       dugong;sea-cow;sea turtle
 
-    FaCUL                     `noun`       {- OaTuwm -}         [ "dugong", "sea-cow", "sea turtle" ] ]
+    FaCUL                     `noun`    {- OaTuwm -}           [ "dugong", "sea-cow", "sea turtle" ] ]
 
  |> "' .t r" <| [
 
@@ -476,7 +476,7 @@ lexicon = listing "Lexicon's properties"
     -- >Tr     >oTur   IV_no-Pref-A    bend;curve
     -- ATr     >oTur   IV_no-Pref-A    bend;curve
 
-    FaCaL                     `verb`       {- OaTar-iu -}       [ "bend", "curve" ]
+    FaCaL                     `verb`    {- OaTar-iu -}         [ "bend", "curve" ]
                               `imperf`     FCiL
                               `imperf`     FCuL,
 
@@ -486,7 +486,7 @@ lexicon = listing "Lexicon's properties"
     -- &Tr     &aT~ir  IV_yu   frame;contextualize
     -- &Tr     &aT~ar  IV_Pass_yu      be framed;be contextualized
 
-    FaCCaL                    `verb`       {- OaT~ar -}         [ "frame", "contextualize", "be framed", "be contextualized" ],
+    FaCCaL                    `verb`    {- OaT~ar -}           [ "frame", "contextualize", "be framed", "be contextualized" ],
 
     -- ;; <iTAr_1
     -- <TAr    <iTAr   NduAt   framework;context
@@ -494,14 +494,14 @@ lexicon = listing "Lexicon's properties"
     -- >Tr     >uTur   N       frameworks;contexts
     -- ATr     >uTur   N       frameworks;contexts
 
-    FiCAL                     `noun`       {- IiTAr -}          [ "framework", "context", "frameworks", "contexts" ]
+    FiCAL                     `noun`    {- IiTAr -}            [ "framework", "context", "frameworks", "contexts" ]
                               `plural`     FuCuL
-                              {- `others` [ "'u.tur N" ] -},
+                           {- `others`  [ "'u.tur N" ] -},
 
     -- ;; mu&aT~ar_1
     -- m&Tr    mu&aT~ar        Nall    framed;in context
 
-    MuFaCCaL                  `noun`       {- muWaT~ar -}       [ "framed", "in context" ] ]
+    MuFaCCaL                  `noun`    {- muWaT~ar -}         [ "framed", "in context" ] ]
 
  |> "' ^g .s" <| [
 
@@ -511,9 +511,9 @@ lexicon = listing "Lexicon's properties"
     -- <jAS    <ij~AS  N       pears
     -- AjAS    <ij~AS  N       pears
 
-    FiCCAL |< aT              `noun`       {- Iij~ASap -}       [ "pear", "pears" ]
+    FiCCAL |< aT              `noun`    {- Iij~ASap -}         [ "pear", "pears" ]
                               `plural`     FiCCAL
-                              {- `others` [ "'i^g^gA.s N" ] -} ]
+                           {- `others`  [ "'i^g^gA.s N" ] -} ]
 
  |> "' ^g ^g" <| [
 
@@ -529,7 +529,7 @@ lexicon = listing "Lexicon's properties"
     -- >jj     >ojij   IV_C    burn;blaze
     -- Ajj     >ojij   IV_C    burn;blaze
 
-    FaCL                      `verb`       {- Oaj~-ui -}        [ "burn", "blaze" ]
+    FaCL                      `verb`    {- Oaj~-ui -}          [ "burn", "blaze" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
                               `pfirst`     FaCaL
@@ -542,52 +542,52 @@ lexicon = listing "Lexicon's properties"
     -- &jj     &aj~ij  IV_yu   kindle;light
     -- &jj     &aj~aj  IV_Pass_yu      be kindled;be lit
 
-    FaCCaL                    `verb`       {- Oaj~aj -}         [ "kindle", "light", "be kindled", "be lit" ],
+    FaCCaL                    `verb`    {- Oaj~aj -}           [ "kindle", "light", "be kindled", "be lit" ],
 
     -- ;; ta>aj~aj_1
     -- t>jj    ta>aj~aj        PV      blaze up;be kindled
     -- t>jj    ta>aj~aj        IV      blaze up;be kindled
 
-    TaFaCCaL                  `verb`       {- taOaj~aj -}       [ "blaze up", "be kindled" ],
+    TaFaCCaL                  `verb`    {- taOaj~aj -}         [ "blaze up", "be kindled" ],
 
     -- ;; >ajiyj_1
     -- >jyj    >ajiyj  N       burning;blazing
     -- Ajyj    >ajiyj  N       burning;blazing
 
-    FaCIL                     `noun`       {- Oajiyj -}         [ "burning", "blazing" ],
+    FaCIL                     `noun`    {- Oajiyj -}           [ "burning", "blazing" ],
 
     -- ;; >ajAj_1
     -- >jAj    >ajAj   N       salted fish
     -- AjAj    >ajAj   N       salted fish
 
-    FaCAL                     `noun`       {- OajAj -}          [ "salted fish" ],
+    FaCAL                     `noun`    {- OajAj -}            [ "salted fish" ],
 
     -- ;; >ujAj_1
     -- >jAj    >ujAj   N-ap    bitter;salty
     -- AjAj    >ujAj   N-ap    bitter;salty
 
-    FuCAL                     `noun`       {- OujAj -}          [ "bitter", "salty" ],
+    FuCAL                     `noun`    {- OujAj -}            [ "bitter", "salty" ],
 
     -- ;; >aj~Aj_1
     -- >jAj    >aj~Aj  N-ap    burning;blazing
     -- AjAj    >aj~Aj  N-ap    burning;blazing
 
-    FaCCAL                    `noun`       {- Oaj~Aj -}         [ "burning", "blazing" ],
+    FaCCAL                    `noun`    {- Oaj~Aj -}           [ "burning", "blazing" ],
 
     -- ;; ta>ojiyj_1
     -- t>jyj   ta>ojiyj        NduAt   lighting;kindling
 
-    TaFCIL                    `noun`       {- taOojiyj -}       [ "lighting", "kindling" ],
+    TaFCIL                    `noun`    {- taOojiyj -}         [ "lighting", "kindling" ],
 
     -- ;; ta>aj~uj_1
     -- t>jj    ta>aj~uj        NduAt   blazing;burning
 
-    TaFaCCuL                  `noun`       {- taOaj~uj -}       [ "blazing", "burning" ],
+    TaFaCCuL                  `noun`    {- taOaj~uj -}         [ "blazing", "burning" ],
 
     -- ;; muta>aj~ij_1
     -- mt>jj   muta>aj~ij      Nall    burning;blazing
 
-    MutaFaCCiL                `noun`       {- mutaOaj~ij -}     [ "burning", "blazing" ] ]
+    MutaFaCCiL                `noun`    {- mutaOaj~ij -}       [ "burning", "blazing" ] ]
 
  |> "' ^g b" <| [
 
@@ -595,7 +595,7 @@ lexicon = listing "Lexicon's properties"
     -- >jby    >ajabiy~        Nap     horologium     [[>ajabiy~/NOUN]]
     -- Ajby    >ajabiy~        Nap     horologium     [[>ajabiy~/NOUN]]
 
-    FaCaL |< Iy |< aT         `noun`       {- Oajabiy~ap -}     [ "horologium" ] ]
+    FaCaL |< Iy |< aT         `noun`    {- Oajabiy~ap -}       [ "horologium" ] ]
 
  |> "' ^g l" <| [
 
@@ -603,7 +603,7 @@ lexicon = listing "Lexicon's properties"
     -- >jl     >ojal   IV_no-Pref-A    hesitate;linger
     -- Ajl     >ojal   IV_no-Pref-A    hesitate;linger
 
-    FaCaL                     `verb`       {- Oajal-a -}        [ "hesitate", "linger" ]
+    FaCaL                     `verb`    {- Oajal-a -}          [ "hesitate", "linger" ]
                               `imperf`     FCaL,
 
     -- ;; >aj~al_1
@@ -612,26 +612,26 @@ lexicon = listing "Lexicon's properties"
     -- &jl     &aj~il  IV_yu   postpone;delay
     -- &jl     &aj~al  IV_Pass_yu      be postponed;be delayed
 
-    FaCCaL                    `verb`       {- Oaj~al -}         [ "postpone", "delay", "be postponed", "be delayed" ],
+    FaCCaL                    `verb`    {- Oaj~al -}           [ "postpone", "delay", "be postponed", "be delayed" ],
 
     -- ;; ta>aj~al_1
     -- t>jl    ta>aj~al        PV_intr be postponed;be adjourned
     -- t>jl    ta>aj~al        IV_intr be postponed;be adjourned
 
-    TaFaCCaL                  `verb`       {- taOaj~al -}       [ "be postponed", "be adjourned" ],
+    TaFaCCaL                  `verb`    {- taOaj~al -}         [ "be postponed", "be adjourned" ],
 
     -- ;; {isota>ojal_1
     -- <st>jl  {isota>ojal     PV      request postponement;seek a reprieve
     -- Ast>jl  {isota>ojal     PV      request postponement;seek a reprieve
     -- st>jl   sota>ojil       IV      request postponement;seek a reprieve
 
-    IstaFCaL                  `verb`       {- AisotaOojal -}    [ "request postponement", "seek a reprieve" ],
+    IstaFCaL                  `verb`    {- AisotaOojal -}      [ "request postponement", "seek a reprieve" ],
 
     -- ;; >ajol_1
     -- >jl     >ajol   N       for sake of;because of
     -- Ajl     >ajol   N       for sake of;because of
 
-    FaCL                      `noun`       {- Oajol -}          [ "for sake of", "because of" ],
+    FaCL                      `noun`    {- Oajol -}            [ "for sake of", "because of" ],
 
     -- ;; >ajal_1
     -- >jl     >ajal   Ndu     period;term
@@ -639,37 +639,37 @@ lexicon = listing "Lexicon's properties"
     -- \|jAl    |jAl    N       periods;terms
     -- AjAl    |jAl    N       periods;terms
 
-    FaCaL                     `noun`       {- Oajal -}          [ "period", "term", "periods", "terms" ]
+    FaCaL                     `noun`    {- Oajal -}            [ "period", "term", "periods", "terms" ]
                               `plural`     HACAL
-                              {- `others` [ "'A^gAl N" ] -},
+                           {- `others`  [ "'A^gAl N" ] -},
 
     -- ;; |jil_1
     -- \|jl     |jil    Nall    future;deferred
     -- Ajl     |jil    Nall    future;deferred
 
-    FACiL                     `noun`       {- \|jil -}          [ "future", "deferred" ],
+    FACiL                     `noun`    {- \|jil -}            [ "future", "deferred" ],
 
     -- ;; |jilap_1
     -- \|jl     |jil    Nap     hereafter
     -- Ajl     |jil    Nap     hereafter
 
-    FACiL |< aT               `noun`       {- \|jilap -}        [ "hereafter" ],
+    FACiL |< aT               `noun`    {- \|jilap -}          [ "hereafter" ],
 
     -- ;; ta>ojiyl_1
     -- t>jyl   ta>ojiyl        NduAt   postponement;delay
     -- tAjyl   ta>ojiyl        NduAt   postponement;delay
 
-    TaFCIL                    `noun`       {- taOojiyl -}       [ "postponement", "delay" ],
+    TaFCIL                    `noun`    {- taOojiyl -}         [ "postponement", "delay" ],
 
     -- ;; ta>ojiyliy~_1
     -- t>jyly  ta>ojiyliy~     Nall    delaying;dilatory     [[ta>ojiyliy~/ADJ]]
 
-    TaFCIL |< Iy              `adj`        {- taOojiyliy~ -}    [ "delaying", "dilatory" ],
+    TaFCIL |< Iy              `adj`     {- taOojiyliy~ -}      [ "delaying", "dilatory" ],
 
     -- ;; mu&aj~al_1
     -- m&jl    mu&aj~al        Nall    postponed;delayed
 
-    MuFaCCaL                  `noun`       {- muWaj~al -}       [ "postponed", "delayed" ] ]
+    MuFaCCaL                  `noun`    {- muWaj~al -}         [ "postponed", "delayed" ] ]
 
  |> "' ^g m" <| [
 
@@ -683,17 +683,17 @@ lexicon = listing "Lexicon's properties"
     -- \|jAm    |jAm    N       thickets;bushes
     -- AjAm    |jAm    N       thickets;bushes
 
-    FaCaL |< aT               `noun`       {- Oajamap -}        [ "thicket", "bush", "thickets", "bushes" ]
+    FaCaL |< aT               `noun`    {- Oajamap -}          [ "thicket", "bush", "thickets", "bushes" ]
                               `plural`     HACAL
                               `plural`     FuCuL
                               `plural`     FaCaL
-                              {- `others` [ "'A^gAm N", "'u^gum N", "'a^gam N" ] -},
+                           {- `others`  [ "'A^gAm N", "'u^gum N", "'a^gam N" ] -},
 
     -- ;; >ajamiy~ap_1
     -- >jmy    >ajamiy~        Nap     malaria     [[>ajamiy~/NOUN]]
     -- Ajmy    >ajamiy~        Nap     malaria     [[>ajamiy~/NOUN]]
 
-    FaCaL |< Iy |< aT         `noun`       {- Oajamiy~ap -}     [ "malaria" ] ]
+    FaCaL |< Iy |< aT         `noun`    {- Oajamiy~ap -}       [ "malaria" ] ]
 
  |> "' ^g n" <| [
 
@@ -701,13 +701,13 @@ lexicon = listing "Lexicon's properties"
     -- >jwn    >ujuwn  N       stench
     -- Ajwn    >ujuwn  N       stench
 
-    FuCUL                     `noun`       {- Oujuwn -}         [ "stench" ],
+    FuCUL                     `noun`    {- Oujuwn -}           [ "stench" ],
 
     -- ;; |jin_1
     -- \|jn     |jin    Nall    putrid;brackish
     -- Ajn     |jin    Nall    putrid;brackish
 
-    FACiL                     `noun`       {- \|jin -}          [ "putrid", "brackish" ] ]
+    FACiL                     `noun`    {- \|jin -}            [ "putrid", "brackish" ] ]
 
  |> "' ^g r" <| [
 
@@ -719,7 +719,7 @@ lexicon = listing "Lexicon's properties"
     -- >jr     >ojir   IV_no-Pref-A    remunerate;reward
     -- Ajr     >ojir   IV_no-Pref-A    remunerate;reward
 
-    FaCaL                     `verb`       {- Oajar-ui -}       [ "remunerate", "reward" ]
+    FaCaL                     `verb`    {- Oajar-ui -}         [ "remunerate", "reward" ]
                               `imperf`     FCuL
                               `imperf`     FCiL,
 
@@ -729,7 +729,7 @@ lexicon = listing "Lexicon's properties"
     -- &jr     &aj~ir  IV_yu   lease;lend
     -- &jr     &aj~ar  IV_Pass_yu      be leased;be lent
 
-    FaCCaL                    `verb`       {- Oaj~ar -}         [ "lease", "lend", "be leased", "be lent" ],
+    FaCCaL                    `verb`    {- Oaj~ar -}           [ "lease", "lend", "be leased", "be lent" ],
 
     -- ;; |jar_1
     -- \|jr     |jar    PV      lend;hire out
@@ -737,13 +737,13 @@ lexicon = listing "Lexicon's properties"
     -- &jr     &ojir   IV_no-Pref-A_yu lend;hire out
     -- wjr     wjir    IV_need-Pref-A_yu       lend;hire out
 
-    FACaL                     `verb`       {- \|jar -}          [ "lend", "hire out" ],
+    FACaL                     `verb`    {- \|jar -}            [ "lend", "hire out" ],
 
     -- ;; ta>aj~ar_1
     -- t>jr    ta>aj~ar        PV      hire out
     -- t>jr    ta>aj~ar        IV      hire out
 
-    TaFaCCaL                  `verb`       {- taOaj~ar -}       [ "hire out" ],
+    TaFaCCaL                  `verb`    {- taOaj~ar -}         [ "hire out" ],
 
     -- ;; {isota>ojar_1
     -- <st>jr  {isota>ojar     PV      hire;rent
@@ -751,13 +751,13 @@ lexicon = listing "Lexicon's properties"
     -- AstAjr  {isota>ojar     PV      hire;rent
     -- st>jr   sota>ojir       IV      hire;rent
 
-    IstaFCaL                  `verb`       {- AisotaOojar -}    [ "hire", "rent" ],
+    IstaFCaL                  `verb`    {- AisotaOojar -}      [ "hire", "rent" ],
 
     -- ;; >ajor_1
     -- >jr     >ajor   N       remuneration;recompense
     -- Ajr     >ajor   N       remuneration;recompense
 
-    FaCL                      `noun`       {- Oajor -}          [ "remuneration", "recompense" ],
+    FaCL                      `noun`    {- Oajor -}            [ "remuneration", "recompense" ],
 
     -- ;; >ajor_2
     -- >jr     >ajor   Ndu     wage;fee
@@ -765,15 +765,15 @@ lexicon = listing "Lexicon's properties"
     -- >jwr    >ujuwr  N       wages;fees
     -- Ajwr    >ujuwr  N       wages;fees
 
-    FaCL                      `noun`       {- Oajor -}          [ "wage", "fee", "wages", "fees" ]
+    FaCL                      `noun`    {- Oajor -}            [ "wage", "fee", "wages", "fees" ]
                               `plural`     FuCUL
-                              {- `others` [ "'u^guwr N" ] -},
+                           {- `others`  [ "'u^guwr N" ] -},
 
     -- ;; >ajoriy~_1
     -- >jry    >ajoriy~        Nall    salaried;remunerated     [[>ajoriy~/ADJ]]
     -- Ajry    >ajoriy~        Nall    salaried;remunerated     [[>ajoriy~/ADJ]]
 
-    FaCL |< Iy                `adj`        {- Oajoriy~ -}       [ "salaried", "remunerated" ],
+    FaCL |< Iy                `adj`     {- Oajoriy~ -}         [ "salaried", "remunerated" ],
 
     -- ;; >ujorap_1
     -- >jr     >ujor   Napdu   fee;charge
@@ -781,9 +781,9 @@ lexicon = listing "Lexicon's properties"
     -- >jr     >ujar   N       fees;charges
     -- Ajr     >ujar   N       fees;charges
 
-    FuCL |< aT                `noun`       {- Oujorap -}        [ "fee", "charge", "fees", "charges" ]
+    FuCL |< aT                `noun`    {- Oujorap -}          [ "fee", "charge", "fees", "charges" ]
                               `plural`     FuCaL
-                              {- `others` [ "'u^gar N" ] -},
+                           {- `others`  [ "'u^gar N" ] -},
 
     -- ;; >ajiyr_1
     -- >jyr    >ajiyr  Nall    laborer;employee
@@ -795,108 +795,108 @@ lexicon = listing "Lexicon's properties"
     -- AjrA&   >ujarA& Nh      laborers;employees
     -- AjrA}   >ujarA} Nhy     laborers;employees
 
-    FaCIL                     `noun`       {- Oajiyr -}         [ "laborer", "employee", "laborers", "employees" ]
+    FaCIL                     `noun`    {- Oajiyr -}           [ "laborer", "employee", "laborers", "employees" ]
                               `plural`     FuCaLA'
-                              {- `others` [ "'u^garA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "'u^garA' Nh N0_Nh Nhy" ] -},
 
     -- ;; >ajiyrap_1
     -- >jyr    >ajiyr  Napdu   maid;servant
     -- Ajyr    >ajiyr  Napdu   maid;servant
 
-    FaCIL |< aT               `noun`       {- Oajiyrap -}       [ "maid", "servant" ],
+    FaCIL |< aT               `noun`    {- Oajiyrap -}         [ "maid", "servant" ],
 
     -- ;; ma>ojuwr_1
     -- m>jwr   ma>ojuwr        Nall    salaried
 
-    MaFCUL                    `noun`       {- maOojuwr -}       [ "salaried" ],
+    MaFCUL                    `noun`    {- maOojuwr -}         [ "salaried" ],
 
     -- ;; ma>ojuwr_2
     -- m>jwr   ma>ojuwr        Nall    bribed;mercenary
 
-    MaFCUL                    `noun`       {- maOojuwr -}       [ "bribed", "mercenary" ],
+    MaFCUL                    `noun`    {- maOojuwr -}         [ "bribed", "mercenary" ],
 
     -- ;; ma>ojuwriy~_1
     -- m>jwry  ma>ojuwriy~     Nall    salaried     [[ma>ojuwriy~/ADJ]]
 
-    MaFCUL |< Iy              `adj`        {- maOojuwriy~ -}    [ "salaried" ],
+    MaFCUL |< Iy              `adj`     {- maOojuwriy~ -}      [ "salaried" ],
 
     -- ;; ma>ojuwriy~_2
     -- m>jwry  ma>ojuwriy~     Nall    bribed;mercenary     [[ma>ojuwriy~/ADJ]]
 
-    MaFCUL |< Iy              `adj`        {- maOojuwriy~ -}    [ "bribed", "mercenary" ],
+    MaFCUL |< Iy              `adj`     {- maOojuwriy~ -}      [ "bribed", "mercenary" ],
 
     -- ;; >ajArap_1
     -- >jAr    >ajAr   Nap     salaried
     -- AjAr    >ajAr   Nap     salaried
 
-    FaCAL |< aT               `noun`       {- OajArap -}        [ "salaried" ],
+    FaCAL |< aT               `noun`    {- OajArap -}          [ "salaried" ],
 
     -- ;; <ijArap_1
     -- <jAr    <ijAr   NapAt   rent;leasing
     -- AjAr    <ijAr   NapAt   rent;leasing
 
-    FiCAL |< aT               `noun`       {- IijArap -}        [ "rent", "leasing" ],
+    FiCAL |< aT               `noun`    {- IijArap -}          [ "rent", "leasing" ],
 
     -- ;; ta>ojiyr_1
     -- t>jyr   ta>ojiyr        NduAt   leasing;lease
     -- tAjyr   ta>ojiyr        NduAt   leasing;lease
 
-    TaFCIL                    `noun`       {- taOojiyr -}       [ "leasing", "lease" ],
+    TaFCIL                    `noun`    {- taOojiyr -}         [ "leasing", "lease" ],
 
     -- ;; <iyjAr_1
     -- <yjAr   <iyjAr  NduAt   rent;leasing
     -- AyjAr   <iyjAr  NduAt   rent;leasing
 
-    HICAL                     `noun`       {- IiyjAr -}         [ "rent", "leasing" ],
+    HICAL                     `noun`    {- IiyjAr -}           [ "rent", "leasing" ],
 
     -- ;; <iyjAr_1
     -- <yjAr   <iyjAr  NduAt   rent;leasing
     -- AyjAr   <iyjAr  NduAt   rent;leasing
 
-    FICAL                     `noun`       {- IiyjAr -}         [ "rent", "leasing" ],
+    FICAL                     `noun`    {- IiyjAr -}           [ "rent", "leasing" ],
 
     -- ;; <iyjAriy~_1
     -- <yjAry  <iyjAriy~       Nall    rental     [[<iyjAriy~/ADJ]]
     -- AyjAry  <iyjAriy~       Nall    rental     [[<iyjAriy~/ADJ]]
 
-    HICAL |< Iy               `adj`        {- IiyjAriy~ -}      [ "rental" ],
+    HICAL |< Iy               `adj`     {- IiyjAriy~ -}        [ "rental" ],
 
     -- ;; <iyjAriy~_1
     -- <yjAry  <iyjAriy~       Nall    rental     [[<iyjAriy~/ADJ]]
     -- AyjAry  <iyjAriy~       Nall    rental     [[<iyjAriy~/ADJ]]
 
-    FICAL |< Iy               `adj`        {- IiyjAriy~ -}      [ "rental" ],
+    FICAL |< Iy               `adj`     {- IiyjAriy~ -}        [ "rental" ],
 
     -- ;; ta>aj~ur_1
     -- t>jr    ta>aj~ur        NduAt   lease
 
-    TaFaCCuL                  `noun`       {- taOaj~ur -}       [ "lease" ],
+    TaFaCCuL                  `noun`    {- taOaj~ur -}         [ "lease" ],
 
     -- ;; ta>aj~uriy~_1
     -- t>jry   ta>aj~uriy~     Nall    rental     [[ta>aj~uriy~/ADJ]]
 
-    TaFaCCuL |< Iy            `adj`        {- taOaj~uriy~ -}    [ "rental" ],
+    TaFaCCuL |< Iy            `adj`     {- taOaj~uriy~ -}      [ "rental" ],
 
     -- ;; {isoti}ojAr_1
     -- <st}jAr {isoti}ojAr     N/At    hiring;rental
     -- Ast}jAr {isoti}ojAr     N/At    hiring;rental
 
-    IstiFCAL                  `noun`       {- Aisoti}ojAr -}    [ "hiring", "rental" ],
+    IstiFCAL                  `noun`    {- Aisoti}ojAr -}      [ "hiring", "rental" ],
 
     -- ;; mu&aj~ir_1
     -- m&jr    mu&aj~ir        Nall    lessor;landlord
 
-    MuFaCCiL                  `noun`       {- muWaj~ir -}       [ "lessor", "landlord" ],
+    MuFaCCiL                  `noun`    {- muWaj~ir -}         [ "lessor", "landlord" ],
 
     -- ;; musota>ojir_1
     -- mst>jr  musota>ojir     Nall    leaseholder;lessee
 
-    MustaFCiL                 `noun`       {- musotaOojir -}    [ "leaseholder", "lessee" ],
+    MustaFCiL                 `noun`    {- musotaOojir -}      [ "leaseholder", "lessee" ],
 
     -- ;; musota>ojar_1
     -- mst>jr  musota>ojar     Nall    rented;salaried
 
-    MustaFCaL                 `noun`       {- musotaOojar -}    [ "rented", "salaried" ] ]
+    MustaFCaL                 `noun`    {- musotaOojar -}      [ "rented", "salaried" ] ]
 
  |> "' ^g w d" <| [
 
@@ -904,7 +904,7 @@ lexicon = listing "Lexicon's properties"
     -- >jAwyd  >ajAwiyd        N0      Ecevit
     -- AjAwyd  >ajAwiyd        N0      Ecevit
 
-    KaRADIS                   `noun`       {- OajAwiyd -}       [ "Ecevit" ] ]
+    KaRADIS                   `noun`    {- OajAwiyd -}         [ "Ecevit" ] ]
 
  |> "' ^s b" <| [
 
@@ -914,7 +914,7 @@ lexicon = listing "Lexicon's properties"
     -- >$b     >o$ab   IV_no-Pref-A    make an alloy
     -- A$b     >o$ab   IV_no-Pref-A    make an alloy
 
-    FaCiL                     `verb`       {- Oa$ib-a -}        [ "make an alloy" ]
+    FaCiL                     `verb`    {- Oa$ib-a -}          [ "make an alloy" ]
                               `imperf`     FCaL,
 
     -- ;; >a$~ab_1
@@ -923,19 +923,19 @@ lexicon = listing "Lexicon's properties"
     -- &$b     &a$~ib  IV_yu   alloy
     -- &$b     &a$~ab  IV_Pass_yu      be alloyed
 
-    FaCCaL                    `verb`       {- Oa$~ab -}         [ "alloy", "be alloyed" ],
+    FaCCaL                    `verb`    {- Oa$~ab -}           [ "alloy", "be alloyed" ],
 
     -- ;; ta>a$~ab_1
     -- t>$b    ta>a$~ab        PV_intr be mixed;be heterogeneous
     -- t>$b    ta>a$~ab        IV_intr be mixed;be heterogeneous
 
-    TaFaCCaL                  `verb`       {- taOa$~ab -}       [ "be mixed", "be heterogeneous" ],
+    TaFaCCaL                  `verb`    {- taOa$~ab -}         [ "be mixed", "be heterogeneous" ],
 
     -- ;; >a$ab_1
     -- >$b     >a$ab   N       alloy
     -- A$b     >a$ab   N       alloy
 
-    FaCaL                     `noun`       {- Oa$ab -}          [ "alloy" ],
+    FaCaL                     `noun`    {- Oa$ab -}            [ "alloy" ],
 
     -- ;; >u$Abap_1
     -- >$Ab    >u$Ab   NapAt   alloy;mixture
@@ -943,7 +943,7 @@ lexicon = listing "Lexicon's properties"
     -- >$A}b   >a$A}ib Ndip    alloys;mixtures
     -- A$A}b   >a$A}ib Ndip    alloys;mixtures
 
-    FuCAL |< aT               `noun`       {- Ou$Abap -}        [ "alloy", "mixture", "alloys", "mixtures" ] ]
+    FuCAL |< aT               `noun`    {- Ou$Abap -}          [ "alloy", "mixture", "alloys", "mixtures" ] ]
 
  |> "' ^s f" <| [
 
@@ -957,9 +957,9 @@ lexicon = listing "Lexicon's properties"
     -- >$Af    >a$Af   NK      awls;punches
     -- A$Af    >a$Af   NK      awls;punches
 
-    FiCLY                     `noun`       {- Ii$ofaY -}        [ "awl", "punch", "awls", "punches" ]
+    FiCLY                     `noun`    {- Ii$ofaY -}          [ "awl", "punch", "awls", "punches" ]
                               `plural`     FaCAL
-                              {- `others` [ "'a^sAf NK" ] -} ]
+                           {- `others`  [ "'a^sAf NK" ] -} ]
 
  |> "' ^s n" <| [
 
@@ -967,7 +967,7 @@ lexicon = listing "Lexicon's properties"
     -- >$nAn   >u$onAn N       potash;saltwort
     -- A$nAn   >u$onAn N       potash;saltwort
 
-    FuCLAn                    `noun`       {- Ou$onAn -}        [ "potash", "saltwort" ],
+    FuCLAn                    `noun`    {- Ou$onAn -}          [ "potash", "saltwort" ],
 
     -- ;; >u$onap_1
     -- >$n     >u$on   Nap     moss
@@ -975,9 +975,9 @@ lexicon = listing "Lexicon's properties"
     -- >$n     >u$un   N       moss
     -- A$n     >u$un   N       moss
 
-    FuCL |< aT                `noun`       {- Ou$onap -}        [ "moss" ]
+    FuCL |< aT                `noun`    {- Ou$onap -}          [ "moss" ]
                               `plural`     FuCuL
-                              {- `others` [ "'u^sun N" ] -} ]
+                           {- `others`  [ "'u^sun N" ] -} ]
 
  |> "' ^s n n" <| [
 
@@ -985,7 +985,7 @@ lexicon = listing "Lexicon's properties"
     -- >$nAn   >u$onAn N       potash;saltwort
     -- A$nAn   >u$onAn N       potash;saltwort
 
-    KuRDAS                    `noun`       {- Ou$onAn -}        [ "potash", "saltwort" ] ]
+    KuRDAS                    `noun`    {- Ou$onAn -}          [ "potash", "saltwort" ] ]
 
  |> "' ^s r" <| [
 
@@ -995,7 +995,7 @@ lexicon = listing "Lexicon's properties"
     -- >$r     >o$ur   IV_no-Pref-A    cut with a saw
     -- A$r     >o$ur   IV_no-Pref-A    cut with a saw
 
-    FaCaL                     `verb`       {- Oa$ar-u -}        [ "cut with a saw" ]
+    FaCaL                     `verb`    {- Oa$ar-u -}          [ "cut with a saw" ]
                               `imperf`     FCuL,
 
     -- ;; >a$ar-i_1
@@ -1004,7 +1004,7 @@ lexicon = listing "Lexicon's properties"
     -- >$r     >o$ir   IV_no-Pref-A    sharpen;file
     -- A$r     >o$ir   IV_no-Pref-A    sharpen;file
 
-    FaCaL                     `verb`       {- Oa$ar-i -}        [ "sharpen", "file" ]
+    FaCaL                     `verb`    {- Oa$ar-i -}          [ "sharpen", "file" ]
                               `imperf`     FCiL,
 
     -- ;; >a$~ar_1
@@ -1013,45 +1013,45 @@ lexicon = listing "Lexicon's properties"
     -- &$r     &a$~ir  IV_yu   indicate;register
     -- &$r     &a$~ar  IV_Pass_yu      be indicated;be registered
 
-    FaCCaL                    `verb`       {- Oa$~ar -}         [ "indicate", "register", "be indicated", "be registered" ],
+    FaCCaL                    `verb`    {- Oa$~ar -}           [ "indicate", "register", "be indicated", "be registered" ],
 
     -- ;; >a$ar_1
     -- >$r     >a$ar   N       liveliness
     -- A$r     >a$ar   N       liveliness
 
-    FaCaL                     `noun`       {- Oa$ar -}          [ "liveliness" ],
+    FaCaL                     `noun`    {- Oa$ar -}            [ "liveliness" ],
 
     -- ;; >a$ir_1
     -- >$r     >a$ir   Nall    lively
     -- A$r     >a$ir   Nall    lively
 
-    FaCiL                     `noun`       {- Oa$ir -}          [ "lively" ],
+    FaCiL                     `noun`    {- Oa$ir -}            [ "lively" ],
 
     -- ;; ta>o$iyr_1
     -- t>$yr   ta>o$iyr        Ndu     visa;mark
     -- t>$yr   ta>o$iyr        NapAt   visa;mark
     -- tA$yr   ta>o$iyr        NapAt   visa;mark
 
-    TaFCIL                    `noun`       {- taOo$iyr -}       [ "visa", "mark" ],
+    TaFCIL                    `noun`    {- taOo$iyr -}         [ "visa", "mark" ],
 
     -- ;; mu&a$~ir_1
     -- m&$r    mu&a$~ir        NduAt   indicator;index;gage
 
-    MuFaCCiL                  `noun`       {- muWa$~ir -}       [ "indicator", "index", "gage" ],
+    MuFaCCiL                  `noun`    {- muWa$~ir -}         [ "indicator", "index", "gage" ],
 
     -- ;; mu&a$~ar_1
     -- m&$r    mu&a$~ar        N-ap    pointed out;mentioned
 
-    MuFaCCaL                  `noun`       {- muWa$~ar -}       [ "pointed out", "mentioned" ],
+    MuFaCCaL                  `noun`    {- muWa$~ar -}         [ "pointed out", "mentioned" ],
 
     -- ;; mi}o$Ar_1
     -- m}$Ar   mi}o$Ar Ndu     saw
     -- mwA$yr  mawA$iyr        Ndip    saws
     -- m|$yr   ma|$iyr Ndip    saws
 
-    MiFCAL                    `noun`       {- mi}o$Ar -}        [ "saw", "saws" ]
+    MiFCAL                    `noun`    {- mi}o$Ar -}          [ "saw", "saws" ]
                               `plural`     MaFACIL
-                              {- `others` [ "ma'A^siyr Ndip" ] -},
+                           {- `others`  [ "ma'A^siyr Ndip" ] -},
 
     -- ;; >a$uwr_1
     -- >$wr    >a$uwr  N       Assyria
@@ -1059,9 +1059,9 @@ lexicon = listing "Lexicon's properties"
     -- \|$wr    |$uwr   N       Assyria
     -- A$wr    |$uwr   N       Assyria
 
-    FaCUL                     `noun`       {- Oa$uwr -}         [ "Assyria" ]
+    FaCUL                     `noun`    {- Oa$uwr -}           [ "Assyria" ]
                               `plural`     FACUL
-                              {- `others` [ "'A^suwr N" ] -} ]
+                           {- `others`  [ "'A^suwr N" ] -} ]
 
  |> "' _d '" <| [
 
@@ -1079,7 +1079,7 @@ lexicon = listing "Lexicon's properties"
     -- &*Y     &o*aY   IV_0_Pass_yu    be injured;be prejudiced
     -- &*y     &o*ay   IV_Ann_Pass_yu  be injured;be prejudiced
 
-    FACY                      `verb`       {- \|*aY -}          [ "injure", "prejudice", "be injured", "be prejudiced" ],
+    FACY                      `verb`    {- \|*aY -}            [ "injure", "prejudice", "be injured", "be prejudiced" ],
 
     -- ;; ta>a*~aY_1
     -- t>*Y    ta>a*~aY        PV_0    be injured;be offended
@@ -1091,7 +1091,7 @@ lexicon = listing "Lexicon's properties"
     -- t>*y    ta>a*~ay        IV_Ann  be injured;be offended
     -- t>*     ta>a*~  IV_0hwnyn       be injured;be offended
 
-    TaFaCCY                   `verb`       {- taOa*~aY -}       [ "be injured", "be offended" ],
+    TaFaCCY                   `verb`    {- taOa*~aY -}         [ "be injured", "be offended" ],
 
     -- ;; >a*aY_1
     -- >*Y     >a*aY   N0      injury;damage;offense
@@ -1099,15 +1099,15 @@ lexicon = listing "Lexicon's properties"
     -- >*A     >a*A    Nhy     injury;damage;offense
     -- A*A     >a*A    Nhy     injury;damage;offense
 
-    FaCY                      `noun`       {- Oa*aY -}          [ "injury", "damage", "offense" ]
+    FaCY                      `noun`    {- Oa*aY -}            [ "injury", "damage", "offense" ]
                               `plural`     FaCA
-                              {- `others` [ "'a_dA Nhy" ] -},
+                           {- `others`  [ "'a_dA Nhy" ] -},
 
     -- ;; >a*Ap_1
     -- >*A     >a*A    Nap     injury;offense
     -- A*A     >a*A    Nap     injury;offense
 
-    FaCY |< aT                `noun`       {- Oa*Ap -}          [ "injury", "offense" ],
+    FaCY |< aT                `noun`    {- Oa*Ap -}            [ "injury", "offense" ],
 
     -- ;; <iy*A'_1
     -- <y*A'   <iy*A'  N0_Nh   damage;injury
@@ -1123,7 +1123,7 @@ lexicon = listing "Lexicon's properties"
     -- <y*A'   <iy*A'  NAt     damages;injury
     -- Ay*A'   <iy*A'  NAt     damages;injury
 
-    FICAL                     `noun`       {- Iiy*A' -}         [ "damage", "injury", "damages" ],
+    FICAL                     `noun`    {- Iiy*A' -}           [ "damage", "injury", "damages" ],
 
     -- ;; mu&o*iy_1
     -- m&*y    mu&o*iy N0F_Nh  harmful;offensive
@@ -1132,7 +1132,7 @@ lexicon = listing "Lexicon's properties"
     -- m&*     mu&o*   Nuwn_Niyn       harmful;offensive
     -- m&*y    mu&o*iy NapAt   harmful;offensive
 
-    MuFCI                     `noun`       {- muWo*iy -}        [ "harmful", "offensive" ] ]
+    MuFCI                     `noun`    {- muWo*iy -}          [ "harmful", "offensive" ] ]
 
  |> "' _d _d" <| [
 
@@ -1140,19 +1140,19 @@ lexicon = listing "Lexicon's properties"
     -- <*      <i*     FW-Wa   because                [[<i*/CONJ]]
     -- A*      <i*     FW-Wa   because                [[<i*/CONJ]]
 
-    FiL                       `noun`       {- Ii* -}            [ "because" ],
+    FiL                       `noun`    {- Ii* -}              [ "because" ],
 
     -- ;; <i*AF_1
     -- <*A     <i*AF   FW-Wa   therefore;so;then      [[<i*AF/ADV]]
     -- A*A     <i*AF   FW-Wa   therefore;so;then      [[<i*AF/ADV]]
 
-    FiL |< aN                 `noun`       {- Ii*AF -}          [ "therefore", "so", "then" ],
+    FiL |< aN                 `noun`    {- Ii*AF -}            [ "therefore", "so", "then" ],
 
     -- ;; >a*iy~ap_1
     -- >*y     >a*iy~  Nap     malice;prejudice     [[>a*iy~/NOUN]]
     -- A*y     >a*iy~  Nap     malice;prejudice     [[>a*iy~/NOUN]]
 
-    FaL |< Iy |< aT           `noun`       {- Oa*iy~ap -}       [ "malice", "prejudice" ] ]
+    FaL |< Iy |< aT           `noun`    {- Oa*iy~ap -}         [ "malice", "prejudice" ] ]
 
  |> "' _d n" <| [
 
@@ -1160,7 +1160,7 @@ lexicon = listing "Lexicon's properties"
     -- <*n     <i*an   FW-Wa   therefore;so;then      [[<i*an/ADV]]
     -- A*n     <i*an   FW-Wa   therefore;so;then      [[<i*an/ADV]]
 
-    FiCaL                     `noun`       {- Ii*an -}          [ "therefore", "so", "then" ],
+    FiCaL                     `noun`    {- Ii*an -}            [ "therefore", "so", "then" ],
 
     -- ;; >a*in-a_1
     -- >*n     >a*in   PV-n    authorize;listen
@@ -1168,7 +1168,7 @@ lexicon = listing "Lexicon's properties"
     -- >*n     >o*an   IV-n_no-Pref-A  authorize;listen
     -- A*n     >o*an   IV-n_no-Pref-A  authorize;listen
 
-    FaCiL                     `verb`       {- Oa*in-a -}        [ "authorize", "listen" ]
+    FaCiL                     `verb`    {- Oa*in-a -}          [ "authorize", "listen" ]
                               `imperf`     FCaL,
 
     -- ;; >a*~an_1
@@ -1176,7 +1176,7 @@ lexicon = listing "Lexicon's properties"
     -- A*n     >a*~an  PV-n    announce;foresee
     -- &*n     &a*~in  IV-n_yu announce;foresee
 
-    FaCCaL                    `verb`       {- Oa*~an -}         [ "announce", "foresee" ],
+    FaCCaL                    `verb`    {- Oa*~an -}           [ "announce", "foresee" ],
 
     -- ;; |*an_1
     -- \|*n     |*an    PV-n    announce;warn
@@ -1184,26 +1184,26 @@ lexicon = listing "Lexicon's properties"
     -- &*n     &o*in   IV-n_no-Pref-A_yu       announce;warn
     -- w*n     w*in    IV_need-Pref-A_yu       announce;warn
 
-    FACaL                     `verb`       {- \|*an -}          [ "announce", "warn" ],
+    FACaL                     `verb`    {- \|*an -}            [ "announce", "warn" ],
 
     -- ;; ta>a*~an_1
     -- t>*n    ta>a*~an        PV-n_intr       be informed;learn
     -- t>*n    ta>a*~an        IV-n_intr       be informed;learn
 
-    TaFaCCaL                  `verb`       {- taOa*~an -}       [ "be informed", "learn" ],
+    TaFaCCaL                  `verb`    {- taOa*~an -}         [ "be informed", "learn" ],
 
     -- ;; {isota>o*an_1
     -- <st>*n  {isota>o*an     PV-n    request authorization
     -- Ast>*n  {isota>o*an     PV-n    request authorization
     -- st>*n   sota>o*in       IV-n    request authorization
 
-    IstaFCaL                  `verb`       {- AisotaOo*an -}    [ "request authorization" ],
+    IstaFCaL                  `verb`    {- AisotaOo*an -}      [ "request authorization" ],
 
     -- ;; >a*An_1
     -- >*An    >a*An   N       call to prayer
     -- A*An    >a*An   N       call to prayer
 
-    FaCAL                     `noun`       {- Oa*An -}          [ "call to prayer" ],
+    FaCAL                     `noun`    {- Oa*An -}            [ "call to prayer" ],
 
     -- ;; >u*un_1
     -- >*n     >u*un   Ndu     ear
@@ -1211,27 +1211,27 @@ lexicon = listing "Lexicon's properties"
     -- \|*An    |*An    N       ears
     -- A*An    |*An    N       ears
 
-    FuCuL                     `noun`       {- Ou*un -}          [ "ear", "ears" ]
+    FuCuL                     `noun`    {- Ou*un -}            [ "ear", "ears" ]
                               `plural`     HACAL
-                              {- `others` [ "'A_dAn N" ] -},
+                           {- `others`  [ "'A_dAn N" ] -},
 
     -- ;; >u*uniy~_1
     -- >*ny    >u*uniy~        Nall    auricular     [[>u*uniy~/ADJ]]
     -- A*ny    >u*uniy~        Nall    auricular     [[>u*uniy~/ADJ]]
 
-    FuCuL |< Iy               `adj`        {- Ou*uniy~ -}       [ "auricular" ],
+    FuCuL |< Iy               `adj`     {- Ou*uniy~ -}         [ "auricular" ],
 
     -- ;; >u*ayon_1
     -- >*yn    >u*ayon Ndu     auricle
     -- A*yn    >u*ayon Ndu     auricle
 
-    FuCayL                    `noun`       {- Ou*ayon -}        [ "auricle" ],
+    FuCayL                    `noun`    {- Ou*ayon -}          [ "auricle" ],
 
     -- ;; >u*ayonap_1
     -- >*yn    >u*ayon Napdu   ear lobe
     -- A*yn    >u*ayon Napdu   ear lobe
 
-    FuCayL |< aT              `noun`       {- Ou*ayonap -}      [ "ear lobe" ],
+    FuCayL |< aT              `noun`    {- Ou*ayonap -}        [ "ear lobe" ],
 
     -- ;; <i*on_1
     -- <*n     <i*on   Ndu     permission;authorization
@@ -1239,65 +1239,65 @@ lexicon = listing "Lexicon's properties"
     -- >*wn    >u*uwn  N       permission;authorization
     -- A*wn    >u*uwn  N       permission;authorization
 
-    FiCL                      `noun`       {- Ii*on -}          [ "permission", "authorization" ]
+    FiCL                      `noun`    {- Ii*on -}            [ "permission", "authorization" ]
                               `plural`     FuCUL
-                              {- `others` [ "'u_duwn N" ] -},
+                           {- `others`  [ "'u_duwn N" ] -},
 
     -- ;; >u*uwnAt_1
     -- >*wn    >u*uwn  NAt     bond
     -- A*wn    >u*uwn  NAt     bond
 
-    FuCUL |< At               `noun`       {- Ou*uwnAt -}       [ "bond" ]
+    FuCUL |< At               `noun`    {- Ou*uwnAt -}         [ "bond" ]
                               `plural`     FuCUL |< At,
 
     -- ;; |*in_1
     -- \|*n     |*in    Nall    door-keeper;porter
     -- A*n     |*in    Nall    door-keeper;porter
 
-    FACiL                     `noun`       {- \|*in -}          [ "door-keeper", "porter" ],
+    FACiL                     `noun`    {- \|*in -}            [ "door-keeper", "porter" ],
 
     -- ;; ma>o*uwn_1
     -- m>*wn   ma>o*uwn        Nall    authorized;licensed
 
-    MaFCUL                    `noun`       {- maOo*uwn -}       [ "authorized", "licensed" ],
+    MaFCUL                    `noun`    {- maOo*uwn -}         [ "authorized", "licensed" ],
 
     -- ;; ma>o*uwniy~ap_1
     -- m>*wny  ma>o*uwniy~     NapAt   leave;furlough     [[ma>o*uwniy~/NOUN]]
 
-    MaFCUL |< Iy |< aT        `noun`       {- maOo*uwniy~ap -}  [ "leave", "furlough" ],
+    MaFCUL |< Iy |< aT        `noun`    {- maOo*uwniy~ap -}    [ "leave", "furlough" ],
 
     -- ;; mi}o*anap_1
     -- m}*n    mi}o*an Napdu   minaret
     -- m>*n    ma>o*an Napdu   minaret
     -- m|*n    ma|*in  Ndip    minarets
 
-    MiFCaL |< aT              `noun`       {- mi}o*anap -}      [ "minaret", "minarets" ]
+    MiFCaL |< aT              `noun`    {- mi}o*anap -}        [ "minaret", "minarets" ]
                               `plural`     MaFACiL
                               `plural`     MaFCaL
-                              {- `others` [ "ma'A_din Ndip", "ma'_dan Napdu" ] -},
+                           {- `others`  [ "ma'A_din Ndip", "ma'_dan Napdu" ] -},
 
     -- ;; mu&a*~in_1
     -- m&*n    mu&a*~in        Nall    muezzin;caller to prayer
 
-    MuFaCCiL                  `noun`       {- muWa*~in -}       [ "muezzin", "caller to prayer" ],
+    MuFaCCiL                  `noun`    {- muWa*~in -}         [ "muezzin", "caller to prayer" ],
 
     -- ;; <iy*An_1
     -- <y*An   <iy*An  NduAt   declaration;proclamation
     -- Ay*An   <iy*An  NduAt   declaration;proclamation
 
-    HICAL                     `noun`       {- Iiy*An -}         [ "declaration", "proclamation" ],
+    HICAL                     `noun`    {- Iiy*An -}           [ "declaration", "proclamation" ],
 
     -- ;; <iy*An_1
     -- <y*An   <iy*An  NduAt   declaration;proclamation
     -- Ay*An   <iy*An  NduAt   declaration;proclamation
 
-    FICAL                     `noun`       {- Iiy*An -}         [ "declaration", "proclamation" ],
+    FICAL                     `noun`    {- Iiy*An -}           [ "declaration", "proclamation" ],
 
     -- ;; {isoti}o*An_1
     -- <st}*An {isoti}o*An     NduAt   request for authorization
     -- Ast}*An {isoti}o*An     NduAt   request for authorization
 
-    IstiFCAL                  `noun`       {- Aisoti}o*An -}    [ "request for authorization" ] ]
+    IstiFCAL                  `noun`    {- Aisoti}o*An -}      [ "request for authorization" ] ]
 
  |> "' _d r" <| [
 
@@ -1306,7 +1306,7 @@ lexicon = listing "Lexicon's properties"
     -- A*Ar    |*Ar    Ndip    March
     -- >*Ar    |*Ar    Ndip    March
 
-    HACAL                     `noun`       {- \|*Ar -}          [ "March" ] ]
+    HACAL                     `noun`    {- \|*Ar -}            [ "March" ] ]
 
  |> "' _d y" <| [
 
@@ -1322,14 +1322,14 @@ lexicon = listing "Lexicon's properties"
     -- >*      >o*a    IV_0hwnyn_no-Pref-A     suffer damage
     -- A*      >o*a    IV_0hwnyn_no-Pref-A     suffer damage
 
-    FaCiL                     `verb`       {- Oa*iy-a -}        [ "suffer damage" ]
+    FaCiL                     `verb`    {- Oa*iy-a -}          [ "suffer damage" ]
                               `imperf`     FCY,
 
     -- ;; <i*Ayap_1
     -- <*Ay    <i*Ay   Nap     injury;offense
     -- A*Ay    <i*Ay   Nap     injury;offense
 
-    FiCAL |< aT               `noun`       {- Ii*Ayap -}        [ "injury", "offense" ],
+    FiCAL |< aT               `noun`    {- Ii*Ayap -}          [ "injury", "offense" ],
 
     -- ;; mu&o*iy_1
     -- m&*y    mu&o*iy N0F_Nh  harmful;offensive
@@ -1338,7 +1338,7 @@ lexicon = listing "Lexicon's properties"
     -- m&*     mu&o*   Nuwn_Niyn       harmful;offensive
     -- m&*y    mu&o*iy NapAt   harmful;offensive
 
-    MuFCiL                    `noun`       {- muWo*iy -}        [ "harmful", "offensive" ] ]
+    MuFCiL                    `noun`    {- muWo*iy -}          [ "harmful", "offensive" ] ]
 
  |> "' _h '" <| [
 
@@ -1350,13 +1350,13 @@ lexicon = listing "Lexicon's properties"
     -- <xA}    <ixA}   Nhy     fraternity
     -- AxA}    <ixA}   Nhy     fraternity
 
-    FiCAL                     `noun`       {- IixA' -}          [ "fraternity" ],
+    FiCAL                     `noun`    {- IixA' -}            [ "fraternity" ],
 
     -- ;; <ixA'_2
     -- <xA'    <ixA'   N0      Akha
     -- AxA'    <ixA'   N0      Akha
 
-    FiCAL                     `noun`       {- IixA' -}          [ "Akha" ] ]
+    FiCAL                     `noun`    {- IixA' -}            [ "Akha" ] ]
 
  |> "' _h _d" <| [
 
@@ -1368,7 +1368,7 @@ lexicon = listing "Lexicon's properties"
     -- x*      xu*     IV_need-Pref-|  take;begin
     -- x*      xu*     CV      take
 
-    FaCaL                     `verb`       {- Oaxa*-u -}        [ "take", "begin" ]
+    FaCaL                     `verb`    {- Oaxa*-u -}          [ "take", "begin" ]
                               `imperf`     CuL
                               `imperf`     FCuL
                               `second`     CuL,
@@ -1379,32 +1379,32 @@ lexicon = listing "Lexicon's properties"
     -- &x*     &ax~i*  IV_yu   enchant;bewitch
     -- &x*     &ax~a*  IV_Pass_yu      be enchanted;be bewitched
 
-    FaCCiL                    `verb`       {- Wax~i* -}         [ "enchant", "bewitch", "be enchanted", "be bewitched" ],
+    FaCCiL                    `verb`    {- Wax~i* -}           [ "enchant", "bewitch", "be enchanted", "be bewitched" ],
 
     -- ;; |xa*_1
     -- \|x*     |xa*    PV      blame;reproach
     -- Ax*     |xa*    PV      blame;reproach
     -- &Ax*    &Axi*   IV_yu   blame;reproach
 
-    FACaL                     `verb`       {- \|xa* -}          [ "blame", "reproach" ],
+    FACaL                     `verb`    {- \|xa* -}            [ "blame", "reproach" ],
 
     -- ;; >axo*_1
     -- >x*     >axo*   N       seizure;taking
     -- Ax*     >axo*   N       seizure;taking
 
-    FaCL                      `noun`       {- Oaxo* -}          [ "seizure", "taking" ],
+    FaCL                      `noun`    {- Oaxo* -}            [ "seizure", "taking" ],
 
     -- ;; |xi*_1
     -- \|x*     |xi*    Nall    taking;captivating;engrossing
     -- Ax*     |xi*    Nall    taking;captivating;engrossing
 
-    FACiL                     `noun`       {- \|xi* -}          [ "taking", "captivating", "engrossing" ],
+    FACiL                     `noun`    {- \|xi* -}            [ "taking", "captivating", "engrossing" ],
 
     -- ;; >ax~A*_1
     -- >xA*    >ax~A*  Nall    fascinating;captivating
     -- AxA*    >ax~A*  Nall    fascinating;captivating
 
-    FaCCAL                    `noun`       {- Oax~A* -}         [ "fascinating", "captivating" ],
+    FaCCAL                    `noun`    {- Oax~A* -}           [ "fascinating", "captivating" ],
 
     -- ;; >axiy*_1
     -- >xy*    >axiy*  Nall    prisoner;captive
@@ -1414,44 +1414,44 @@ lexicon = listing "Lexicon's properties"
     -- >x*A    >axo*A  Nhy     prisoners;captives
     -- Ax*A    >axo*A  Nhy     prisoners;captives
 
-    FaCIL                     `noun`       {- Oaxiy* -}         [ "prisoner", "captive", "prisoners", "captives" ]
+    FaCIL                     `noun`    {- Oaxiy* -}           [ "prisoner", "captive", "prisoners", "captives" ]
                               `plural`     FaCLY
-                              {- `others` [ "'a_h_dY N0" ] -},
+                           {- `others`  [ "'a_h_dY N0" ] -},
 
     -- ;; >axiy*ap_1
     -- >xy*    >axiy*  Napdu   booty;spoils
     -- Axy*    >axiy*  Napdu   booty;spoils
 
-    FaCIL |< aT               `noun`       {- Oaxiy*ap -}       [ "booty", "spoils" ],
+    FaCIL |< aT               `noun`    {- Oaxiy*ap -}         [ "booty", "spoils" ],
 
     -- ;; ma>oxuw*_1
     -- m>xw*   ma>oxuw*        Nall    taken;seized
 
-    MaFCUL                    `noun`       {- maOoxuw* -}       [ "taken", "seized" ],
+    MaFCUL                    `noun`    {- maOoxuw* -}         [ "taken", "seized" ],
 
     -- ;; ma>oxuw*At_1
     -- m>xw*   ma>oxuw*        NAt     receipts;returns
 
-    MaFCUL |< At              `noun`       {- maOoxuw*At -}     [ "receipts", "returns" ]
+    MaFCUL |< At              `noun`    {- maOoxuw*At -}       [ "receipts", "returns" ]
                               `plural`     MaFCUL |< At,
 
     -- ;; ma>oxa*_1
     -- m>x*    ma>oxa* Ndu     source;method;procedure
     -- m|x*    ma|xi*  Ndip    sources;references
 
-    MaFCaL                    `noun`       {- maOoxa* -}        [ "source", "method", "procedure", "sources", "references" ]
+    MaFCaL                    `noun`    {- maOoxa* -}          [ "source", "method", "procedure", "sources", "references" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma'A_hi_d Ndip" ] -},
+                           {- `others`  [ "ma'A_hi_d Ndip" ] -},
 
     -- ;; mu&Axa*ap_1
     -- m&Ax*   mu&Axa* NapAt   offense
 
-    MuFACaL |< aT             `noun`       {- muWAxa*ap -}      [ "offense" ],
+    MuFACaL |< aT             `noun`    {- muWAxa*ap -}        [ "offense" ],
 
     -- ;; mu&Axa*_1
     -- m&Ax*   mu&Axa* Nall    responsible;accountable
 
-    MuFACaL                   `noun`       {- muWAxa* -}        [ "responsible", "accountable" ] ]
+    MuFACaL                   `noun`    {- muWAxa* -}          [ "responsible", "accountable" ] ]
 
  |> "' _h _h" <| [
 
@@ -1469,9 +1469,9 @@ lexicon = listing "Lexicon's properties"
     -- >xw     >axaw   NAn_Nayn        brothers
     -- Axw     >axaw   NAn_Nayn        brothers
 
-    FaL                       `noun`       {- Oax -}            [ "brother", "brother + my", "brothers" ]
+    FaL                       `noun`    {- Oax -}              [ "brother", "brother + my", "brothers" ]
                               `plural`     FaCA
-                              {- `others` [ "'a_hA N0_Nh" ] -} ]
+                           {- `others`  [ "'a_hA N0_Nh" ] -} ]
 
  |> "' _h r" <| [
 
@@ -1479,13 +1479,13 @@ lexicon = listing "Lexicon's properties"
     -- &xr     &ax~ir  IV_yu   delay;postpone
     -- &xr     &ax~ar  IV_Pass_yu      be delayed;be postponed
 
-    FaCCiL                    `verb`       {- Wax~ir -}         [ "delay", "postpone", "be delayed", "be postponed" ],
+    FaCCiL                    `verb`    {- Wax~ir -}           [ "delay", "postpone", "be delayed", "be postponed" ],
 
     -- ;; ta>ax~ar_1
     -- t>xr    ta>ax~ar        PV_intr be delayed;be postponed
     -- t>xr    ta>ax~ar        IV_intr be delayed;be postponed
 
-    TaFaCCaL                  `verb`       {- taOax~ar -}       [ "be delayed", "be postponed" ],
+    TaFaCCaL                  `verb`    {- taOax~ar -}         [ "be delayed", "be postponed" ],
 
     -- ;; |xar_1
     -- \|xr     |xar    Nel     other;another;latest     [[|xar/NOUN]]
@@ -1498,7 +1498,7 @@ lexicon = listing "Lexicon's properties"
     -- \|xr     |xar    Nuwn_Niyn       other;another;latest     [[|xar/ADJ]]
     -- Axr     |xar    Nuwn_Niyn       other;another;latest     [[|xar/ADJ]]
 
-    FACaL                     `adj`        {- \|xar -}          [ "other", "another", "latest" ],
+    FACaL                     `adj`     {- \|xar -}            [ "other", "another", "latest" ],
 
     -- ;; >uxoraY_1
     -- >xrY    >uxoraY N0      other;another     [[>uxorY/ADJ]]
@@ -1510,19 +1510,19 @@ lexicon = listing "Lexicon's properties"
     -- >xry    >uxoray NAt     others;another     [[>uxoray/ADJ]]
     -- Axry    >uxoray NAt     others;another     [[>uxoray/ADJ]]
 
-    FuCLY                     `adj`        {- OuxoraY -}        [ "other", "another", "others" ],
+    FuCLY                     `adj`     {- OuxoraY -}          [ "other", "another", "others" ],
 
     -- ;; >uxorawiy~_1
     -- >xrwy   >uxorawiy~      Nall    eschatological     [[>uxorawiy~/ADJ]]
     -- Axrwy   >uxorawiy~      Nall    eschatological     [[>uxorawiy~/ADJ]]
 
-    FuCLY |< Iy               `adj`        {- Ouxorawiy~ -}     [ "eschatological" ],
+    FuCLY |< Iy               `adj`     {- Ouxorawiy~ -}       [ "eschatological" ],
 
     -- ;; >uxorawiy~ap_1
     -- >xrwy   >uxorawiy~      Nap     eschatology     [[>uxorawiy~/NOUN]]
     -- Axrwy   >uxorawiy~      Nap     eschatology     [[>uxorawiy~/NOUN]]
 
-    FuCLY |< Iy |< aT         `noun`       {- Ouxorawiy~ap -}   [ "eschatology" ],
+    FuCLY |< Iy |< aT         `noun`    {- Ouxorawiy~ap -}     [ "eschatology" ],
 
     -- ;; |xir_1
     -- \|xr     |xir    Nall    last;end
@@ -1530,85 +1530,85 @@ lexicon = listing "Lexicon's properties"
     -- >wAxr   >awAxir Ndip    end;last
     -- AwAxr   >awAxir Ndip    end;last
 
-    FACiL                     `noun`       {- \|xir -}          [ "last", "end" ]
+    FACiL                     `noun`    {- \|xir -}            [ "last", "end" ]
                               `plural`     FawACiL
-                              {- `others` [ "'awA_hir Ndip" ] -},
+                           {- `others`  [ "'awA_hir Ndip" ] -},
 
     -- ;; |xirap_1
     -- \|xr     |xir    Nap     hereafter
     -- Axr     |xir    Nap     hereafter
 
-    FACiL |< aT               `noun`       {- \|xirap -}        [ "hereafter" ],
+    FACiL |< aT               `noun`    {- \|xirap -}          [ "hereafter" ],
 
     -- ;; >axiyr_1
     -- >xyr    >axiyr  Nall    last;latest;recent;latter     [[>axiyr/ADJ]]
     -- Axyr    >axiyr  Nall    last;latest;recent;latter     [[>axiyr/ADJ]]
 
-    FaCIL                     `adj`        {- Oaxiyr -}         [ "last", "latest", "recent", "latter" ],
+    FaCIL                     `adj`     {- Oaxiyr -}           [ "last", "latest", "recent", "latter" ],
 
     -- ;; >axiyrAF_1
     -- >xyr    >axiyr  NF      finally;recently     [[>axiyr/ADV]]
     -- Axyr    >axiyr  NF      finally;recently     [[>axiyr/ADV]]
 
-    FaCIL |< aN               `noun`       {- OaxiyrAF -}       [ "finally", "recently" ]
+    FaCIL |< aN               `noun`    {- OaxiyrAF -}         [ "finally", "recently" ]
                               `plural`     FaCIL
-                              {- `others` [ "'a_hiyr NF" ] -},
+                           {- `others`  [ "'a_hiyr NF" ] -},
 
     -- ;; ta>oxiyr_1
     -- t>xyr   ta>oxiyr        NduAt   delay
 
-    TaFCIL                    `noun`       {- taOoxiyr -}       [ "delay" ],
+    TaFCIL                    `noun`    {- taOoxiyr -}         [ "delay" ],
 
     -- ;; mu&ax~ar_1
     -- m&xr    mu&ax~ar        Nall    delayed;deferred
 
-    MuFaCCaL                  `noun`       {- muWax~ar -}       [ "delayed", "deferred" ],
+    MuFaCCaL                  `noun`    {- muWax~ar -}         [ "delayed", "deferred" ],
 
     -- ;; mu&ax~ar_2
     -- m&xr    mu&ax~ar        Nall    rear;back
 
-    MuFaCCaL                  `noun`       {- muWax~ar -}       [ "rear", "back" ],
+    MuFaCCaL                  `noun`    {- muWax~ar -}         [ "rear", "back" ],
 
     -- ;; mu&ax~arAF_1
     -- m&xr    mu&ax~ar        NF      recently;finally     [[mu&ax~ar/ADV]]
 
-    MuFaCCaL |< aN            `noun`       {- muWax~arAF -}     [ "recently", "finally" ]
+    MuFaCCaL |< aN            `noun`    {- muWax~arAF -}       [ "recently", "finally" ]
                               `plural`     MuFaCCaL
-                              {- `others` [ "mu'a_h_har NF" ] -},
+                           {- `others`  [ "mu'a_h_har NF" ] -},
 
     -- ;; mu&ax~arap_1
     -- m&xr    mu&ax~ar        NapAt   rear;rear positions
 
-    MuFaCCaL |< aT            `noun`       {- muWax~arap -}     [ "rear", "rear positions" ],
+    MuFaCCaL |< aT            `noun`    {- muWax~arap -}       [ "rear", "rear positions" ],
 
     -- ;; mu&oxir_1
     -- m&xr    mu&oxir NduAt   corner
 
-    MuFCiL                    `noun`       {- muWoxir -}        [ "corner" ],
+    MuFCiL                    `noun`    {- muWoxir -}          [ "corner" ],
 
     -- ;; ta>ax~ur_1
     -- t>xr    ta>ax~ur        NduAt   delay;underdevelopment
     -- tAxr    ta>ax~ur        NduAt   delay;underdevelopment
 
-    TaFaCCuL                  `noun`       {- taOax~ur -}       [ "delay", "underdevelopment" ],
+    TaFaCCuL                  `noun`    {- taOax~ur -}         [ "delay", "underdevelopment" ],
 
     -- ;; muta>ax~ir_1
     -- mt>xr   muta>ax~ir      Nall    late;delayed
     -- mtAxr   muta>ax~ir      Nall    late;delayed
 
-    MutaFaCCiL                `noun`       {- mutaOax~ir -}     [ "late", "delayed" ],
+    MutaFaCCiL                `noun`    {- mutaOax~ir -}       [ "late", "delayed" ],
 
     -- ;; muta>ax~irAt_1
     -- mt>xr   muta>ax~ir      NAt     arrears
 
-    MutaFaCCiL |< At          `noun`       {- mutaOax~irAt -}   [ "arrears" ]
+    MutaFaCCiL |< At          `noun`    {- mutaOax~irAt -}     [ "arrears" ]
                               `plural`     MutaFaCCiL |< At,
 
     -- ;; >axuwr_1
     -- >xwr    >axuwr  N       barn;stable
     -- Axwr    >axuwr  N       barn;stable
 
-    FaCUL                     `noun`       {- Oaxuwr -}         [ "barn", "stable" ] ]
+    FaCUL                     `noun`    {- Oaxuwr -}           [ "barn", "stable" ] ]
 
  |> "' _h t" <| [
 
@@ -1618,7 +1618,7 @@ lexicon = listing "Lexicon's properties"
     -- >xw     >axaw   NAt     sisters
     -- Axw     >axaw   NAt     sisters
 
-    FuCL                      `noun`       {- Ouxot -}          [ "sister", "counterpart", "sisters" ] ]
+    FuCL                      `noun`    {- Ouxot -}            [ "sister", "counterpart", "sisters" ] ]
 
  |> "' _h w" <| [
 
@@ -1636,7 +1636,7 @@ lexicon = listing "Lexicon's properties"
     -- &AxY    &AxaY   IV_0_Pass_yu    be fraternized with
     -- &Axy    &Axay   IV_Ann_Pass_yu  be fraternized with
 
-    FACY                      `verb`       {- \|xaY -}          [ "fraternize", "be fraternized with" ],
+    FACY                      `verb`    {- \|xaY -}            [ "fraternize", "be fraternized with" ],
 
     -- ;; ta>ax~aY_1
     -- t>xY    ta>ax~aY        PV_0    be fraternal
@@ -1648,7 +1648,7 @@ lexicon = listing "Lexicon's properties"
     -- t>xy    ta>ax~ay        IV_Ann  be fraternal
     -- t>x     ta>ax~  IV_0hwnyn       be fraternal
 
-    TaFaCCY                   `verb`       {- taOax~aY -}       [ "be fraternal" ],
+    TaFaCCY                   `verb`    {- taOax~aY -}         [ "be fraternal" ],
 
     -- ;; ta|xaY_1
     -- t|xY    ta|xaY  PV_0    fraternize
@@ -1660,7 +1660,7 @@ lexicon = listing "Lexicon's properties"
     -- t|xy    ta|xay  IV_Ann  fraternize
     -- t|x     ta|x    IV_0hwnyn       fraternize
 
-    TaFACY                    `verb`       {- ta|xaY -}         [ "fraternize" ],
+    TaFACY                    `verb`    {- ta|xaY -}           [ "fraternize" ],
 
     -- ;; <ixowap_1
     -- <xw     <ixow   Nap     brothers
@@ -1669,33 +1669,33 @@ lexicon = listing "Lexicon's properties"
     -- <xwAn   <ixowAn N       brothers
     -- AxwAn   <ixowAn N       brothers
 
-    FiCL |< aT                `noun`       {- Iixowap -}        [ "brothers" ]
+    FiCL |< aT                `noun`    {- Iixowap -}          [ "brothers" ]
                               `plural`     FiCLAn
-                              {- `others` [ "'i_hwAn N" ] -},
+                           {- `others`  [ "'i_hwAn N" ] -},
 
     -- ;; >axawiy~_1
     -- >xwy    >axawiy~        Nall    fraternal;brotherly     [[>axawiy~/ADJ]]
     -- Axwy    >axawiy~        Nall    fraternal;brotherly     [[>axawiy~/ADJ]]
 
-    FaCY |< Iy                `adj`        {- Oaxawiy~ -}       [ "fraternal", "brotherly" ],
+    FaCY |< Iy                `adj`     {- Oaxawiy~ -}         [ "fraternal", "brotherly" ],
 
     -- ;; >axawiy~ap_1
     -- >xwy    >axawiy~        NapAt   fraternity;brotherhood     [[>axawiy~/NOUN]]
     -- Axwy    >axawiy~        NapAt   fraternity;brotherhood     [[>axawiy~/NOUN]]
 
-    FaCY |< Iy |< aT          `noun`       {- Oaxawiy~ap -}     [ "fraternity", "brotherhood" ],
+    FaCY |< Iy |< aT          `noun`    {- Oaxawiy~ap -}       [ "fraternity", "brotherhood" ],
 
     -- ;; >uxuw~ap_1
     -- >xw     >uxuw~  Nap     fraternity;brotherhood
     -- Axw     >uxuw~  Nap     fraternity;brotherhood
 
-    FuCUL |< aT               `noun`       {- Ouxuw~ap -}       [ "fraternity", "brotherhood" ],
+    FuCUL |< aT               `noun`    {- Ouxuw~ap -}         [ "fraternity", "brotherhood" ],
 
     -- ;; |xiyap_1
     -- \|xy     |xiy    Nap     attachment;bond
     -- Axy     |xiy    Nap     attachment;bond
 
-    FACI |< aT                `noun`       {- \|xiyap -}        [ "attachment", "bond" ],
+    FACI |< aT                `noun`    {- \|xiyap -}          [ "attachment", "bond" ],
 
     -- ;; <ixA'_1
     -- <xA'    <ixA'   N0_Nh   fraternity
@@ -1705,19 +1705,19 @@ lexicon = listing "Lexicon's properties"
     -- <xA}    <ixA}   Nhy     fraternity
     -- AxA}    <ixA}   Nhy     fraternity
 
-    FiCA'                     `noun`       {- IixA' -}          [ "fraternity" ],
+    FiCA'                     `noun`    {- IixA' -}            [ "fraternity" ],
 
     -- ;; <ixA'_2
     -- <xA'    <ixA'   N0      Akha
     -- AxA'    <ixA'   N0      Akha
 
-    FiCA'                     `noun`       {- IixA' -}          [ "Akha" ],
+    FiCA'                     `noun`    {- IixA' -}            [ "Akha" ],
 
     -- ;; <ixAwap_1
     -- <xAw    <ixAw   Nap     fraternization;brotherliness
     -- AxAw    <ixAw   Nap     fraternization;brotherliness
 
-    FiCAL |< aT               `noun`       {- IixAwap -}        [ "fraternization", "brotherliness" ],
+    FiCAL |< aT               `noun`    {- IixAwap -}          [ "fraternization", "brotherliness" ],
 
     -- ;; ta|xiy_1
     -- t|xy    ta|xiy  N0_Nh   fraternity
@@ -1725,7 +1725,7 @@ lexicon = listing "Lexicon's properties"
     -- t|xy    ta|xiy  NAn_Nayn        fraternity
     -- t|xy    ta|xiy  NAt     fraternity
 
-    TaFACI                    `noun`       {- ta|xiy -}         [ "fraternity" ],
+    TaFACI                    `noun`    {- ta|xiy -}           [ "fraternity" ],
 
     -- ;; mu&AxAp_1
     -- m&AxA   mu&AxA  Nap     fraternization
@@ -1733,7 +1733,7 @@ lexicon = listing "Lexicon's properties"
     -- mwAxA   muwAxA  Nap     fraternization
     -- mwAxw   muwAxaw NAt     fraternization
 
-    MuFACY |< aT              `noun`       {- muWAxAp -}        [ "fraternization" ]
+    MuFACY |< aT              `noun`    {- muWAxAp -}          [ "fraternization" ]
                               `plural`     MuFACaL |< At ]
 
  |> "' _h w y" <| [
@@ -1742,7 +1742,7 @@ lexicon = listing "Lexicon's properties"
     -- <xAwy   <axAwiy~        Nall    fraternal     [[<axAwiy~/ADJ]]
     -- AxAwy   <axAwiy~        Nall    fraternal     [[<axAwiy~/ADJ]]
 
-    KaRADIS                   `adj`        {- IaxAwiy~ -}       [ "fraternal" ] ]
+    KaRADIS                   `adj`     {- IaxAwiy~ -}         [ "fraternal" ] ]
 
  |> "' _h y" <| [
 
@@ -1750,7 +1750,7 @@ lexicon = listing "Lexicon's properties"
     -- \|xy     |xiy    Nap     attachment;bond
     -- Axy     |xiy    Nap     attachment;bond
 
-    FACiL |< aT               `noun`       {- \|xiyap -}        [ "attachment", "bond" ],
+    FACiL |< aT               `noun`    {- \|xiyap -}          [ "attachment", "bond" ],
 
     -- ;; >awAxiy_1
     -- >wAxy   >awAxiy N0_Nh   ties;bonds
@@ -1758,7 +1758,7 @@ lexicon = listing "Lexicon's properties"
     -- >wAx    >awAx   NK      ties;bonds
     -- AwAx    >awAx   NK      ties;bonds
 
-    FawACiL                   `noun`       {- OawAxiy -}        [ "ties", "bonds" ] ]
+    FawACiL                   `noun`    {- OawAxiy -}          [ "ties", "bonds" ] ]
 
  |> "' _t _t" <| [
 
@@ -1778,7 +1778,7 @@ lexicon = listing "Lexicon's properties"
     -- >vv     >ovav   IV_C_intr       be luxuriant;grow profusely
     -- Avv     >ovav   IV_C_intr       be luxuriant;grow profusely
 
-    FaCL                      `verb`       {- Oav~-uia -}       [ "be luxuriant", "grow profusely" ]
+    FaCL                      `verb`    {- Oav~-uia -}         [ "be luxuriant", "grow profusely" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
                               `pfirst`     FaCaL
@@ -1790,7 +1790,7 @@ lexicon = listing "Lexicon's properties"
     -- >vAv    >avAv   Nap     profusion
     -- AvAv    >avAv   Nap     profusion
 
-    FaCAL |< aT               `noun`       {- OavAvap -}        [ "profusion" ],
+    FaCAL |< aT               `noun`    {- OavAvap -}          [ "profusion" ],
 
     -- ;; >av~av_1
     -- >vv     >av~av  PV      furnish
@@ -1798,35 +1798,35 @@ lexicon = listing "Lexicon's properties"
     -- &vv     &av~iv  IV_yu   furnish
     -- &vv     &av~av  IV_Pass_yu      be furnished
 
-    FaCCaL                    `verb`       {- Oav~av -}         [ "furnish", "be furnished" ],
+    FaCCaL                    `verb`    {- Oav~av -}           [ "furnish", "be furnished" ],
 
     -- ;; ta>av~av_1
     -- t>vv    ta>av~av        PV_intr be furnished;be wealthy
     -- t>vv    ta>av~av        IV_intr be furnished;be wealthy
 
-    TaFaCCaL                  `verb`       {- taOav~av -}       [ "be furnished", "be wealthy" ],
+    TaFaCCaL                  `verb`    {- taOav~av -}         [ "be furnished", "be wealthy" ],
 
     -- ;; >aviyv_1
     -- >vyv    >aviyv  Nall    abundant
     -- Avyv    >aviyv  Nall    abundant
 
-    FaCIL                     `noun`       {- Oaviyv -}         [ "abundant" ],
+    FaCIL                     `noun`    {- Oaviyv -}           [ "abundant" ],
 
     -- ;; >avAv_1
     -- >vAv    >avAv   N/At    furniture;equipment
     -- AvAv    >avAv   N/At    furniture;equipment
 
-    FaCAL                     `noun`       {- OavAv -}          [ "furniture", "equipment" ],
+    FaCAL                     `noun`    {- OavAv -}            [ "furniture", "equipment" ],
 
     -- ;; mu&av~av_1
     -- m&vv    mu&av~av        Nall    furnished
 
-    MuFaCCaL                  `noun`       {- muWav~av -}       [ "furnished" ],
+    MuFaCCaL                  `noun`    {- muWav~av -}         [ "furnished" ],
 
     -- ;; ta>oviyv_1
     -- t>vyv   ta>oviyv        NduAt   furnishing
 
-    TaFCIL                    `noun`       {- taOoviyv -}       [ "furnishing" ] ]
+    TaFCIL                    `noun`    {- taOoviyv -}         [ "furnishing" ] ]
 
  |> "' _t f" <| [
 
@@ -1838,9 +1838,9 @@ lexicon = listing "Lexicon's properties"
     -- >vAf    >avAf   NK      trivets;tripods
     -- AvAf    >avAf   NK      trivets;tripods
 
-    FuCL |< Iy |< aT          `noun`       {- Ouvofiy~ap -}     [ "trivet", "tripod", "trivets", "tripods" ]
+    FuCL |< Iy |< aT          `noun`    {- Ouvofiy~ap -}       [ "trivet", "tripod", "trivets", "tripods" ]
                               `plural`     FaCAL
-                              {- `others` [ "'a_tAf NK" ] -} ]
+                           {- `others`  [ "'a_tAf NK" ] -} ]
 
  |> "' _t l" <| [
 
@@ -1850,14 +1850,14 @@ lexicon = listing "Lexicon's properties"
     -- >vl     >ovil   IV_no-Pref-A    consolidate;reinforce
     -- Avl     >ovil   IV_no-Pref-A    consolidate;reinforce
 
-    FaCaL                     `verb`       {- Oaval-i -}        [ "consolidate", "reinforce" ]
+    FaCaL                     `verb`    {- Oaval-i -}          [ "consolidate", "reinforce" ]
                               `imperf`     FCiL,
 
     -- ;; >uvuwl_1
     -- >vwl    >uvuwl  N       consolidation;reinforcement
     -- Avwl    >uvuwl  N       consolidation;reinforcement
 
-    FuCUL                     `noun`       {- Ouvuwl -}         [ "consolidation", "reinforcement" ],
+    FuCUL                     `noun`    {- Ouvuwl -}           [ "consolidation", "reinforcement" ],
 
     -- ;; >av~al_1
     -- >vl     >av~al  PV      consolidate;become rich
@@ -1865,13 +1865,13 @@ lexicon = listing "Lexicon's properties"
     -- &vl     &av~il  IV_yu   consolidate;become rich
     -- &vl     &av~al  IV_Pass_yu      be consolidated
 
-    FaCCaL                    `verb`       {- Oav~al -}         [ "consolidate", "become rich", "be consolidated" ],
+    FaCCaL                    `verb`    {- Oav~al -}           [ "consolidate", "become rich", "be consolidated" ],
 
     -- ;; ta>av~al_1
     -- t>vl    ta>av~al        PV_intr be consolidated;become rich
     -- t>vl    ta>av~al        IV_intr be consolidated;become rich
 
-    TaFaCCaL                  `verb`       {- taOav~al -}       [ "be consolidated", "become rich" ],
+    TaFaCCaL                  `verb`    {- taOav~al -}         [ "be consolidated", "become rich" ],
 
     -- ;; >avol_1
     -- >vl     >avol   N       tamarisk
@@ -1879,9 +1879,9 @@ lexicon = listing "Lexicon's properties"
     -- >vwl    >uvuwl  N       tamarisk
     -- Avwl    >uvuwl  N       tamarisk
 
-    FaCL                      `noun`       {- Oavol -}          [ "tamarisk" ]
+    FaCL                      `noun`    {- Oavol -}            [ "tamarisk" ]
                               `plural`     FuCUL
-                              {- `others` [ "'u_tuwl N" ] -},
+                           {- `others`  [ "'u_tuwl N" ] -},
 
     -- ;; >avolap_1
     -- >vl     >avol   Napdu   tamarisk
@@ -1889,31 +1889,31 @@ lexicon = listing "Lexicon's properties"
     -- >vl     >aval   NAt     tamarisks
     -- Avl     >aval   NAt     tamarisks
 
-    FaCL |< aT                `noun`       {- Oavolap -}        [ "tamarisk", "tamarisks" ]
+    FaCL |< aT                `noun`    {- Oavolap -}          [ "tamarisk", "tamarisks" ]
                               `plural`     FaCaL |< At,
 
     -- ;; >aviyl_1
     -- >vyl    >aviyl  Nall    deep-rooted;highborn
     -- Avyl    >aviyl  Nall    deep-rooted;highborn
 
-    FaCIL                     `noun`       {- Oaviyl -}         [ "deep-rooted", "highborn" ],
+    FaCIL                     `noun`    {- Oaviyl -}           [ "deep-rooted", "highborn" ],
 
     -- ;; >aviyl_2
     -- >vyl    >aviyl  N       ethyl
     -- Avyl    >aviyl  N       ethyl
 
-    FaCIL                     `noun`       {- Oaviyl -}         [ "ethyl" ],
+    FaCIL                     `noun`    {- Oaviyl -}           [ "ethyl" ],
 
     -- ;; >aviyliy~_1
     -- >vyly   >aviyliy~       N-ap    ethyl     [[>aviyliy~/ADJ]]
     -- Avyly   >aviyliy~       N-ap    ethyl     [[>aviyliy~/ADJ]]
 
-    FaCIL |< Iy               `adj`        {- Oaviyliy~ -}      [ "ethyl" ],
+    FaCIL |< Iy               `adj`     {- Oaviyliy~ -}        [ "ethyl" ],
 
     -- ;; mu&av~al_1
     -- m&vl    mu&av~al        Nall    deep-rooted;highborn
 
-    MuFaCCaL                  `noun`       {- muWav~al -}       [ "deep-rooted", "highborn" ] ]
+    MuFaCCaL                  `noun`    {- muWav~al -}         [ "deep-rooted", "highborn" ] ]
 
  |> "' _t m" <| [
 
@@ -1923,7 +1923,7 @@ lexicon = listing "Lexicon's properties"
     -- >vm     >ovam   IV_no-Pref-A    do wrong;commit a sin
     -- Avm     >ovam   IV_no-Pref-A    do wrong;commit a sin
 
-    FaCiL                     `verb`       {- Oavim-a -}        [ "do wrong", "commit a sin" ]
+    FaCiL                     `verb`    {- Oavim-a -}          [ "do wrong", "commit a sin" ]
                               `imperf`     FCaL,
 
     -- ;; >av~am_1
@@ -1932,13 +1932,13 @@ lexicon = listing "Lexicon's properties"
     -- &vm     &av~im  IV_yu   transgress;accuse of sin
     -- &vm     &av~am  IV_Pass_yu      be transgressed;be accused of sin
 
-    FaCCaL                    `verb`       {- Oav~am -}         [ "transgress", "accuse of sin", "be transgressed", "be accused of sin" ],
+    FaCCaL                    `verb`    {- Oav~am -}           [ "transgress", "accuse of sin", "be transgressed", "be accused of sin" ],
 
     -- ;; ta>av~am_1
     -- t>vm    ta>av~am        PV      restrain;shun evil
     -- t>vm    ta>av~am        IV      restrain;shun evil
 
-    TaFaCCaL                  `verb`       {- taOav~am -}       [ "restrain", "shun evil" ],
+    TaFaCCaL                  `verb`    {- taOav~am -}         [ "restrain", "shun evil" ],
 
     -- ;; <ivom_1
     -- <vm     <ivom   Ndu     offense;misdeed
@@ -1946,40 +1946,40 @@ lexicon = listing "Lexicon's properties"
     -- \|vAm    |vAm    N       offenses;sins
     -- AvAm    |vAm    N       offenses;sins
 
-    FiCL                      `noun`       {- Iivom -}          [ "offense", "misdeed", "offenses", "sins" ]
+    FiCL                      `noun`    {- Iivom -}            [ "offense", "misdeed", "offenses", "sins" ]
                               `plural`     HACAL
-                              {- `others` [ "'A_tAm N" ] -},
+                           {- `others`  [ "'A_tAm N" ] -},
 
     -- ;; >avam_1
     -- >vm     >avam   N       sin;error
     -- Avm     >avam   N       sin;error
 
-    FaCaL                     `noun`       {- Oavam -}          [ "sin", "error" ],
+    FaCaL                     `noun`    {- Oavam -}            [ "sin", "error" ],
 
     -- ;; ma>ovam_1
     -- m>vm    ma>ovam Ndu     offense;sin
     -- m|vm    ma|vim  Ndip    offenses;sins
 
-    MaFCaL                    `noun`       {- maOovam -}        [ "offense", "sin", "offenses", "sins" ]
+    MaFCaL                    `noun`    {- maOovam -}          [ "offense", "sin", "offenses", "sins" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma'A_tim Ndip" ] -},
+                           {- `others`  [ "ma'A_tim Ndip" ] -},
 
     -- ;; ta>oviym_1
     -- t>vym   ta>oviym        NduAt   sin;offense
 
-    TaFCIL                    `noun`       {- taOoviym -}       [ "sin", "offense" ],
+    TaFCIL                    `noun`    {- taOoviym -}         [ "sin", "offense" ],
 
     -- ;; |vim_1
     -- \|vm     |vim    Nall    sinful;evil
     -- Avm     |vim    Nall    sinful;evil
 
-    FACiL                     `noun`       {- \|vim -}          [ "sinful", "evil" ],
+    FACiL                     `noun`    {- \|vim -}            [ "sinful", "evil" ],
 
     -- ;; >avamap_1
     -- >vm     >avam   Nap     sinful;evil
     -- Avm     >avam   Nap     sinful;evil
 
-    FaCaL |< aT               `noun`       {- Oavamap -}        [ "sinful", "evil" ],
+    FaCaL |< aT               `noun`    {- Oavamap -}          [ "sinful", "evil" ],
 
     -- ;; >aviym_1
     -- >vym    >aviym  Nall    sinful;evil
@@ -1991,9 +1991,9 @@ lexicon = listing "Lexicon's properties"
     -- >vmA}   >uvamA} Nhy     sinful;evil
     -- AvmA}   >uvamA} Nhy     sinful;evil
 
-    FaCIL                     `noun`       {- Oaviym -}         [ "sinful", "evil" ]
+    FaCIL                     `noun`    {- Oaviym -}           [ "sinful", "evil" ]
                               `plural`     FuCaLA'
-                              {- `others` [ "'u_tamA' Nh N0_Nh Nhy" ] -} ]
+                           {- `others`  [ "'u_tamA' Nh N0_Nh Nhy" ] -} ]
 
  |> "' _t m d" <| [
 
@@ -2001,7 +2001,7 @@ lexicon = listing "Lexicon's properties"
     -- <vmd    <ivomid N       antimony
     -- Avmd    <ivomid N       antimony
 
-    KiRDiS                    `noun`       {- Iivomid -}        [ "antimony" ] ]
+    KiRDiS                    `noun`    {- Iivomid -}          [ "antimony" ] ]
 
  |> "' _t r" <| [
 
@@ -2013,7 +2013,7 @@ lexicon = listing "Lexicon's properties"
     -- >vr     >ovur   IV_no-Pref-A    report;transmit
     -- Avr     >ovur   IV_no-Pref-A    report;transmit
 
-    FaCaL                     `verb`       {- Oavar-iu -}       [ "report", "transmit" ]
+    FaCaL                     `verb`    {- Oavar-iu -}         [ "report", "transmit" ]
                               `imperf`     FCiL
                               `imperf`     FCuL,
 
@@ -2023,7 +2023,7 @@ lexicon = listing "Lexicon's properties"
     -- &vr     &av~ir  IV_yu   affect;influence
     -- &vr     &av~ar  IV_Pass_yu      be affected;be influenced
 
-    FaCCaL                    `verb`       {- Oav~ar -}         [ "affect", "influence", "be affected", "be influenced" ],
+    FaCCaL                    `verb`    {- Oav~ar -}           [ "affect", "influence", "be affected", "be influenced" ],
 
     -- ;; |var_1
     -- \|vr     |var    PV      prefer
@@ -2031,32 +2031,32 @@ lexicon = listing "Lexicon's properties"
     -- &vr     &ovir   IV_no-Pref-A_yu prefer
     -- wvr     wvir    IV_need-Pref-A_yu       prefer
 
-    FACaL                     `verb`       {- \|var -}          [ "prefer" ],
+    FACaL                     `verb`    {- \|var -}            [ "prefer" ],
 
     -- ;; ta>av~ar_1
     -- t>vr    ta>av~ar        PV_intr be influenced;be affected
     -- t>vr    ta>av~ar        IV_intr be influenced;be affected
 
-    TaFaCCaL                  `verb`       {- taOav~ar -}       [ "be influenced", "be affected" ],
+    TaFaCCaL                  `verb`    {- taOav~ar -}         [ "be influenced", "be affected" ],
 
     -- ;; {isota>ovar_1
     -- <st>vr  {isota>ovar     PV      monopolize;appropriate
     -- Ast>vr  {isota>ovar     PV      monopolize;appropriate
     -- st>vr   sota>ovir       IV      monopolize;appropriate
 
-    IstaFCaL                  `verb`       {- AisotaOovar -}    [ "monopolize", "appropriate" ],
+    IstaFCaL                  `verb`    {- AisotaOovar -}      [ "monopolize", "appropriate" ],
 
     -- ;; >avor_1
     -- >vr     >avor   N       reporting;transmitting
     -- Avr     >avor   N       reporting;transmitting
 
-    FaCL                      `noun`       {- Oavor -}          [ "reporting", "transmitting" ],
+    FaCL                      `noun`    {- Oavor -}            [ "reporting", "transmitting" ],
 
     -- ;; >avArap_1
     -- >vAr    >avAr   Nap     reporting;transmitting
     -- AvAr    >avAr   Nap     reporting;transmitting
 
-    FaCAL |< aT               `noun`       {- OavArap -}        [ "reporting", "transmitting" ],
+    FaCAL |< aT               `noun`    {- OavArap -}          [ "reporting", "transmitting" ],
 
     -- ;; >avar_1
     -- >vr     >avar   Ndu     effect;trace
@@ -2064,129 +2064,129 @@ lexicon = listing "Lexicon's properties"
     -- \|vAr    |vAr    N       effects;traces
     -- AvAr    |vAr    N       effects;traces
 
-    FaCaL                     `noun`       {- Oavar -}          [ "effect", "trace", "effects", "traces" ]
+    FaCaL                     `noun`    {- Oavar -}            [ "effect", "trace", "effects", "traces" ]
                               `plural`     HACAL
-                              {- `others` [ "'A_tAr N" ] -},
+                           {- `others`  [ "'A_tAr N" ] -},
 
     -- ;; |vAr_1
     -- \|vAr    |vAr    N       antiquities
     -- AvAr    |vAr    N       antiquities
 
-    HACAL                     `noun`       {- \|vAr -}          [ "antiquities" ],
+    HACAL                     `noun`    {- \|vAr -}            [ "antiquities" ],
 
     -- ;; >avariy~_1
     -- >vry    >avariy~        Nall    archeological;historical     [[>avariy~/ADJ]]
     -- Avry    >avariy~        Nall    archeological;historical     [[>avariy~/ADJ]]
 
-    FaCaL |< Iy               `adj`        {- Oavariy~ -}       [ "archeological", "historical" ],
+    FaCaL |< Iy               `adj`     {- Oavariy~ -}         [ "archeological", "historical" ],
 
     -- ;; |vAriy~_1
     -- \|vAry   |vAriy~ Nall    archeological;historical     [[|vAriy~/ADJ]]
     -- AvAry   |vAriy~ Nall    archeological;historical     [[|vAriy~/ADJ]]
 
-    HACAL |< Iy               `adj`        {- \|vAriy~ -}       [ "archeological", "historical" ],
+    HACAL |< Iy               `adj`     {- \|vAriy~ -}         [ "archeological", "historical" ],
 
     -- ;; >avariy~At_1
     -- >vry    >avariy~        NAt     antiquities;relics     [[>avariy~/NOUN]]
     -- Avry    >avariy~        NAt     antiquities;relics     [[>avariy~/NOUN]]
 
-    FaCaL |< Iy |< At         `noun`       {- Oavariy~At -}     [ "antiquities", "relics" ],
+    FaCaL |< Iy |< At         `noun`    {- Oavariy~At -}       [ "antiquities", "relics" ],
 
     -- ;; >avir_1
     -- >vr     >avir   Nall    egoistic
     -- Avr     >avir   Nall    egoistic
 
-    FaCiL                     `noun`       {- Oavir -}          [ "egoistic" ],
+    FaCiL                     `noun`    {- Oavir -}            [ "egoistic" ],
 
     -- ;; >aviyr_1
     -- >vyr    >aviyr  Nall    favored;favorite
     -- Avyr    >aviyr  Nall    favored;favorite
 
-    FaCIL                     `noun`       {- Oaviyr -}         [ "favored", "favorite" ],
+    FaCIL                     `noun`    {- Oaviyr -}           [ "favored", "favorite" ],
 
     -- ;; >aviyr_2
     -- >vyr    >aviyr  N       ether
     -- Avyr    >aviyr  N       ether
 
-    FaCIL                     `noun`       {- Oaviyr -}         [ "ether" ],
+    FaCIL                     `noun`    {- Oaviyr -}           [ "ether" ],
 
     -- ;; >aviyriy~_1
     -- >vyry   >aviyriy~       Nall    ethereal     [[>aviyriy~/ADJ]]
     -- Avyry   >aviyriy~       Nall    ethereal     [[>aviyriy~/ADJ]]
 
-    FaCIL |< Iy               `adj`        {- Oaviyriy~ -}      [ "ethereal" ],
+    FaCIL |< Iy               `adj`     {- Oaviyriy~ -}        [ "ethereal" ],
 
     -- ;; ma>ovarap_1
     -- m>vr    ma>ovar Napdu   feat;exploit
     -- m>vr    ma>ovur Napdu   feat;exploit
     -- m|vr    ma|vir  Ndip    feats;exploits
 
-    MaFCaL |< aT              `noun`       {- maOovarap -}      [ "feat", "exploit", "feats", "exploits" ]
+    MaFCaL |< aT              `noun`    {- maOovarap -}        [ "feat", "exploit", "feats", "exploits" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma'A_tir Ndip" ] -},
+                           {- `others`  [ "ma'A_tir Ndip" ] -},
 
     -- ;; ma>ovuwr_1
     -- m>vwr   ma>ovuwr        Nall    transmitted;memorable
 
-    MaFCUL                    `noun`       {- maOovuwr -}       [ "transmitted", "memorable" ],
+    MaFCUL                    `noun`    {- maOovuwr -}         [ "transmitted", "memorable" ],
 
     -- ;; ta>oviyr_1
     -- t>vyr   ta>oviyr        NduAt   effect;influence;impact
     -- tAvyr   ta>oviyr        NduAt   effect;influence;impact
 
-    TaFCIL                    `noun`       {- taOoviyr -}       [ "effect", "influence", "impact" ],
+    TaFCIL                    `noun`    {- taOoviyr -}         [ "effect", "influence", "impact" ],
 
     -- ;; ta>oviyriy~_1
     -- t>vyry  ta>oviyriy~     Nall    efficacious;inductive     [[ta>oviyriy~/ADJ]]
     -- tAvyry  ta>oviyriy~     Nall    efficacious;inductive     [[ta>oviyriy~/ADJ]]
 
-    TaFCIL |< Iy              `adj`        {- taOoviyriy~ -}    [ "efficacious", "inductive" ],
+    TaFCIL |< Iy              `adj`     {- taOoviyriy~ -}      [ "efficacious", "inductive" ],
 
     -- ;; <iyvAr_1
     -- <yvAr   <iyvAr  NduAt   preference;affection
     -- AyvAr   <iyvAr  NduAt   preference;affection
 
-    FICAL                     `noun`       {- IiyvAr -}         [ "preference", "affection" ],
+    FICAL                     `noun`    {- IiyvAr -}           [ "preference", "affection" ],
 
     -- ;; <iyvAriy~ap_1
     -- <yvAry  <iyvAriy~       Nap     altruism     [[<iyvAriy~/NOUN]]
     -- AyvAry  <iyvAriy~       Nap     altruism     [[<iyvAriy~/NOUN]]
 
-    FICAL |< Iy |< aT         `noun`       {- IiyvAriy~ap -}    [ "altruism" ],
+    FICAL |< Iy |< aT         `noun`    {- IiyvAriy~ap -}      [ "altruism" ],
 
     -- ;; ta>av~ur_1
     -- t>vr    ta>av~ur        NduAt   impression;sensitivity
     -- tAvr    ta>av~ur        NduAt   impression;sensitivity
 
-    TaFaCCuL                  `noun`       {- taOav~ur -}       [ "impression", "sensitivity" ],
+    TaFaCCuL                  `noun`    {- taOav~ur -}         [ "impression", "sensitivity" ],
 
     -- ;; ta>av~uriy~_1
     -- t>vry   ta>av~uriy~     Nall    impressionistic     [[ta>av~uriy~/ADJ]]
 
-    TaFaCCuL |< Iy            `adj`        {- taOav~uriy~ -}    [ "impressionistic" ],
+    TaFaCCuL |< Iy            `adj`     {- taOav~uriy~ -}      [ "impressionistic" ],
 
     -- ;; {isoti}ovAr_1
     -- <st}vAr {isoti}ovAr     NduAt   monopolization;appropriation
     -- Ast}vAr {isoti}ovAr     NduAt   monopolization;appropriation
 
-    IstiFCAL                  `noun`       {- Aisoti}ovAr -}    [ "monopolization", "appropriation" ],
+    IstiFCAL                  `noun`    {- Aisoti}ovAr -}      [ "monopolization", "appropriation" ],
 
     -- ;; mu&av~ir_1
     -- m&vr    mu&av~ir        Nall    influential;impressive     [[mu&av~ir/ADJ]]
 
-    MuFaCCiL                  `adj`        {- muWav~ir -}       [ "influential", "impressive" ],
+    MuFaCCiL                  `adj`     {- muWav~ir -}         [ "influential", "impressive" ],
 
     -- ;; muta>av~ir_1
     -- mt>vr   muta>av~ir      Nall    because of;due to;as a result of     [[muta>av~ir/ADV]]
     -- mtAvr   muta>av~ir      Nall    because of;due to;as a result of     [[muta>av~ir/ADV]]
 
-    MutaFaCCiL                `noun`       {- mutaOav~ir -}     [ "because of", "due to", "as a result of" ],
+    MutaFaCCiL                `noun`    {- mutaOav~ir -}       [ "because of", "due to", "as a result of" ],
 
     -- ;; muta>av~ir_2
     -- mt>vr   muta>av~ir      Nall    influenced;affected     [[muta>av~ir/ADJ]]
     -- mtAvr   muta>av~ir      Nall    influenced;affected     [[muta>av~ir/ADJ]]
 
-    MutaFaCCiL                `adj`        {- mutaOav~ir -}     [ "influenced", "affected" ] ]
+    MutaFaCCiL                `adj`     {- mutaOav~ir -}       [ "influenced", "affected" ] ]
 
  |> "' _t y b" <| [
 
@@ -2198,7 +2198,7 @@ lexicon = listing "Lexicon's properties"
     -- Avywby  >avoyuwbiy~     Nall    Ethiopian     [[>avoyuwbiy~/ADJ]]
     -- <vywby  <ivoyuwbiy~     Nall    Ethiopian     [[<ivoyuwbiy~/ADJ]]
 
-    KaRDUS |< Iy              `adj`        {- Oavoyuwbiy~ -}    [ "Ethiopian" ] ]
+    KaRDUS |< Iy              `adj`     {- Oavoyuwbiy~ -}      [ "Ethiopian" ] ]
 
  |> "' b '" <| [
 
@@ -2210,7 +2210,7 @@ lexicon = listing "Lexicon's properties"
     -- \|bA}    |bA}    Nhy     fathers;ancestors
     -- AbA}    |bA}    Nhy     fathers;ancestors
 
-    HACAL                     `noun`       {- \|bA' -}          [ "fathers", "ancestors" ],
+    HACAL                     `noun`    {- \|bA' -}            [ "fathers", "ancestors" ],
 
     -- ;; <ibA'_1
     -- <bA'    <ibA'   N0_Nh   refusal;denial
@@ -2222,13 +2222,13 @@ lexicon = listing "Lexicon's properties"
     -- <bA'    <ibA'   NAt     refusals;denials
     -- AbA'    <ibA'   NAt     refusals;denials
 
-    FiCAL                     `noun`       {- IibA' -}          [ "refusal", "denial", "refusals", "denials" ],
+    FiCAL                     `noun`    {- IibA' -}            [ "refusal", "denial", "refusals", "denials" ],
 
     -- ;; <ibA'ap_1
     -- <bA'    <ibA'   Napdu   refusal;denial
     -- AbA'    <ibA'   Napdu   refusal;denial
 
-    FiCAL |< aT               `noun`       {- IibA'ap -}        [ "refusal", "denial" ] ]
+    FiCAL |< aT               `noun`    {- IibA'ap -}          [ "refusal", "denial" ] ]
 
  |> "' b .d" <| [
 
@@ -2238,28 +2238,28 @@ lexicon = listing "Lexicon's properties"
     -- \|bAD    |bAD    N       knee pits
     -- AbAD    |bAD    N       knee pits
 
-    FuCL                      `noun`       {- OuboD -}          [ "knee pit", "knee pits" ]
+    FuCL                      `noun`    {- OuboD -}            [ "knee pit", "knee pits" ]
                               `plural`     HACAL
-                              {- `others` [ "'AbA.d N" ] -},
+                           {- `others`  [ "'AbA.d N" ] -},
 
     -- ;; ma>obiD_1
     -- m>bD    ma>obiD Ndu     knee pit
     -- m|bD    ma|biD  Ndip    knee pits
 
-    MaFCiL                    `noun`       {- maOobiD -}        [ "knee pit", "knee pits" ]
+    MaFCiL                    `noun`    {- maOobiD -}          [ "knee pit", "knee pits" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma'Abi.d Ndip" ] -},
+                           {- `others`  [ "ma'Abi.d Ndip" ] -},
 
     -- ;; >uboDiy~_1
     -- >bDy    >uboDiy~        Nall    popliteal (armpit)     [[>uboDiy~/ADJ]]
     -- AbDy    >uboDiy~        Nall    popliteal (armpit)     [[>uboDiy~/ADJ]]
 
-    FuCL |< Iy                `adj`        {- OuboDiy~ -}       [ "popliteal (armpit)" ],
+    FuCL |< Iy                `adj`     {- OuboDiy~ -}         [ "popliteal (armpit)" ],
 
     -- ;; ma>obiDiy~_1
     -- m>bDy   ma>obiDiy~      Nall    popliteal (armpit)     [[ma>obiDiy~/ADJ]]
 
-    MaFCiL |< Iy              `adj`        {- maOobiDiy~ -}     [ "popliteal (armpit)" ],
+    MaFCiL |< Iy              `adj`     {- maOobiDiy~ -}       [ "popliteal (armpit)" ],
 
     -- ;; <ibADiy~_1
     -- <bADy   <ibADiy~        Nall    Ibadi     [[<ibADiy~/NOUN]]
@@ -2267,13 +2267,13 @@ lexicon = listing "Lexicon's properties"
     -- AbADy   <ibADiy~        Nall    Ibadi     [[<ibADiy~/NOUN]]
     -- AbADy   <ibADiy~        Nall    Ibadi     [[<ibADiy~/ADJ]]
 
-    FiCAL |< Iy               `adj`        {- IibADiy~ -}       [ "Ibadi" ],
+    FiCAL |< Iy               `adj`     {- IibADiy~ -}         [ "Ibadi" ],
 
     -- ;; <ibADiy~ap_1
     -- <bADy   <ibADiy~        Nap     Ibadites     [[<ibADiy~/NOUN]]
     -- AbADy   <ibADiy~        Nap     Ibadites     [[<ibADiy~/NOUN]]
 
-    FiCAL |< Iy |< aT         `noun`       {- IibADiy~ap -}     [ "Ibadites" ],
+    FiCAL |< Iy |< aT         `noun`    {- IibADiy~ap -}       [ "Ibadites" ],
 
     -- ;; >abADiy~_1
     -- >bADy   >abADiy~        Nall    Ibadi     [[>abADiy~/NOUN]]
@@ -2281,13 +2281,13 @@ lexicon = listing "Lexicon's properties"
     -- AbADy   >abADiy~        Nall    Ibadi     [[>abADiy~/NOUN]]
     -- AbADy   >abADiy~        Nall    Ibadi     [[>abADiy~/ADJ]]
 
-    FaCAL |< Iy               `adj`        {- OabADiy~ -}       [ "Ibadi" ],
+    FaCAL |< Iy               `adj`     {- OabADiy~ -}         [ "Ibadi" ],
 
     -- ;; >abADiy~ap_1
     -- >bADy   >abADiy~        Nap     Ibadites     [[>abADiy~/NOUN]]
     -- AbADy   >abADiy~        Nap     Ibadites     [[>abADiy~/NOUN]]
 
-    FaCAL |< Iy |< aT         `noun`       {- OabADiy~ap -}     [ "Ibadites" ] ]
+    FaCAL |< Iy |< aT         `noun`    {- OabADiy~ap -}       [ "Ibadites" ] ]
 
  |> "' b .t" <| [
 
@@ -2295,7 +2295,7 @@ lexicon = listing "Lexicon's properties"
     -- t>bT    ta>ab~aT        PV      put/carry under the arm
     -- t>bT    ta>ab~aT        IV      put/carry under the arm
 
-    TaFaCCaL                  `verb`       {- taOab~aT -}       [ "put/carry under the arm" ],
+    TaFaCCaL                  `verb`    {- taOab~aT -}         [ "put/carry under the arm" ],
 
     -- ;; <iboT_1
     -- <bT     <iboT   Ndu     armpit
@@ -2303,15 +2303,15 @@ lexicon = listing "Lexicon's properties"
     -- \|bAT    |bAT    N       armpits
     -- AbAT    |bAT    N       armpits
 
-    FiCL                      `noun`       {- IiboT -}          [ "armpit", "armpits" ]
+    FiCL                      `noun`    {- IiboT -}            [ "armpit", "armpits" ]
                               `plural`     HACAL
-                              {- `others` [ "'AbA.t N" ] -},
+                           {- `others`  [ "'AbA.t N" ] -},
 
     -- ;; <iboTiy~_1
     -- <bTy    <iboTiy~        Nall    axillary;armpit     [[<iboTiy~/ADJ]]
     -- AbTy    <iboTiy~        Nall    axillary;armpit     [[<iboTiy~/ADJ]]
 
-    FiCL |< Iy                `adj`        {- IiboTiy~ -}       [ "axillary", "armpit" ] ]
+    FiCL |< Iy                `adj`     {- IiboTiy~ -}         [ "axillary", "armpit" ] ]
 
  |> "' b ^g d" <| [
 
@@ -2319,19 +2319,19 @@ lexicon = listing "Lexicon's properties"
     -- >bjd    >abojad Ndu     alphabet
     -- Abjd    >abojad Ndu     alphabet
 
-    KaRDaS                    `noun`       {- Oabojad -}        [ "alphabet" ],
+    KaRDaS                    `noun`    {- Oabojad -}          [ "alphabet" ],
 
     -- ;; >abojadiy~_1
     -- >bjdy   >abojadiy~      Nall    alphabetical;elementary     [[>abojadiy~/ADJ]]
     -- Abjdy   >abojadiy~      Nall    alphabetical;elementary     [[>abojadiy~/ADJ]]
 
-    KaRDaS |< Iy              `adj`        {- Oabojadiy~ -}     [ "alphabetical", "elementary" ],
+    KaRDaS |< Iy              `adj`     {- Oabojadiy~ -}       [ "alphabetical", "elementary" ],
 
     -- ;; >abojadiy~ap_1
     -- >bjdy   >abojadiy~      NapAt   alphabet     [[>abojadiy~/NOUN]]
     -- Abjdy   >abojadiy~      NapAt   alphabet     [[>abojadiy~/NOUN]]
 
-    KaRDaS |< Iy |< aT        `noun`       {- Oabojadiy~ap -}   [ "alphabet" ] ]
+    KaRDaS |< Iy |< aT        `noun`    {- Oabojadiy~ap -}     [ "alphabet" ] ]
 
  |> "' b ^s r" <| [
 
@@ -2339,7 +2339,7 @@ lexicon = listing "Lexicon's properties"
     -- >b$yr   >abo$iyr        Nprop   Abshir
     -- Ab$yr   >abo$iyr        Nprop   Abshir
 
-    KaRDIS                    `noun`       {- Oabo$iyr -}       [ "Abshir" ] ]
+    KaRDIS                    `noun`    {- Oabo$iyr -}         [ "Abshir" ] ]
 
  |> "' b b" <| [
 
@@ -2347,7 +2347,7 @@ lexicon = listing "Lexicon's properties"
     -- \|b      |b      Nprop   August
     -- Ab      |b      Nprop   August
 
-    FAL                       `noun`       {- \|b -}            [ "August" ],
+    FAL                       `noun`    {- \|b -}              [ "August" ],
 
     -- ;; >ab~-ui_1
     -- >b      >ab~    PV_V    desire;aspire
@@ -2361,7 +2361,7 @@ lexicon = listing "Lexicon's properties"
     -- >bb     >obib   IV_C    desire;aspire
     -- Abb     >obib   IV_C    desire;aspire
 
-    FaCL                      `verb`       {- Oab~-ui -}        [ "desire", "aspire" ]
+    FaCL                      `verb`    {- Oab~-ui -}          [ "desire", "aspire" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
                               `pfirst`     FaCaL
@@ -2372,7 +2372,7 @@ lexicon = listing "Lexicon's properties"
     -- >bAb    >abAb   Nap     nostalgia;homesickness
     -- AbAb    >abAb   Nap     nostalgia;homesickness
 
-    FaCAL |< aT               `noun`       {- OabAbap -}        [ "nostalgia", "homesickness" ],
+    FaCAL |< aT               `noun`    {- OabAbap -}          [ "nostalgia", "homesickness" ],
 
     -- ;; >ab_1
     -- >b      >ab     N0F     father
@@ -2386,21 +2386,21 @@ lexicon = listing "Lexicon's properties"
     -- >by     >abiy   FW-WaBi father + my      [[>ab/NOUN+iy/POSS_PRON_1S]]
     -- Aby     >abiy   FW-WaBi father + my      [[>ab/NOUN+iy/POSS_PRON_1S]]
 
-    FaL                       `noun`       {- Oab -}            [ "father", "father + my" ]
+    FaL                       `noun`    {- Oab -}              [ "father", "father + my" ]
                               `plural`     FaCA
-                              {- `others` [ "'abA N0_Nh" ] -},
+                           {- `others`  [ "'abA N0_Nh" ] -},
 
     -- ;; >abiyb_1
     -- >byb    >abiyb  Nprop   Aviv
     -- Abyb    >abiyb  Nprop   Aviv
 
-    FaCIL                     `noun`       {- Oabiyb -}         [ "Aviv" ],
+    FaCIL                     `noun`    {- Oabiyb -}           [ "Aviv" ],
 
     -- ;; >uwbib_1
     -- >wbb    >uwbib  N       OPEP (French for OPEC)
     -- Awbb    >uwbib  N       OPEP (French for OPEC)
 
-    HUCiL                     `noun`       {- Ouwbib -}         [ "OPEP (French for OPEC)" ] ]
+    HUCiL                     `noun`    {- Ouwbib -}           [ "OPEP (French for OPEC)" ] ]
 
  |> "' b d" <| [
 
@@ -2409,9 +2409,9 @@ lexicon = listing "Lexicon's properties"
     -- >bAd    >abAd   N0      Abad
     -- AbAd    >abAd   N0      Abad
 
-    HACAL                     `noun`       {- \|bAd -}          [ "Abad" ]
+    HACAL                     `noun`    {- \|bAd -}            [ "Abad" ]
                               `plural`     FaCAL
-                              {- `others` [ "'abAd N0" ] -},
+                           {- `others`  [ "'abAd N0" ] -},
 
     -- ;; >abad-i_1
     -- >bd     >abad   PV      persist;remain;stay
@@ -2419,7 +2419,7 @@ lexicon = listing "Lexicon's properties"
     -- >bd     >obid   IV_no-Pref-A    persist;remain;stay
     -- Abd     >obid   IV_no-Pref-A    persist;remain;stay
 
-    FaCaL                     `verb`       {- Oabad-i -}        [ "persist", "remain", "stay" ]
+    FaCaL                     `verb`    {- Oabad-i -}          [ "persist", "remain", "stay" ]
                               `imperf`     FCiL,
 
     -- ;; >abad-ui_1
@@ -2430,7 +2430,7 @@ lexicon = listing "Lexicon's properties"
     -- >bd     >obid   IV_no-Pref-A    be untamed;escape
     -- Abd     >obid   IV_no-Pref-A    be untamed;escape
 
-    FaCaL                     `verb`       {- Oabad-ui -}       [ "be untamed", "escape" ]
+    FaCaL                     `verb`    {- Oabad-ui -}         [ "be untamed", "escape" ]
                               `imperf`     FCuL
                               `imperf`     FCiL,
 
@@ -2438,7 +2438,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwd    >ubuwd  N       persisting;remaining;staying
     -- Abwd    >ubuwd  N       persisting;remaining;staying
 
-    FuCUL                     `noun`       {- Oubuwd -}         [ "persisting", "remaining", "staying" ],
+    FuCUL                     `noun`    {- Oubuwd -}           [ "persisting", "remaining", "staying" ],
 
     -- ;; >ab~ad_1
     -- >bd     >ab~ad  PV      perpetuate;immortalize
@@ -2446,51 +2446,51 @@ lexicon = listing "Lexicon's properties"
     -- &bd     &ab~id  IV_yu   perpetuate;immortalize
     -- &bd     &ab~ad  IV_Pass_yu      be perpetuated;be immortalized
 
-    FaCCaL                    `verb`       {- Oab~ad -}         [ "perpetuate", "immortalize", "be perpetuated", "be immortalized" ],
+    FaCCaL                    `verb`    {- Oab~ad -}           [ "perpetuate", "immortalize", "be perpetuated", "be immortalized" ],
 
     -- ;; ta>ab~ad_1
     -- t>bd    ta>ab~ad        PV      self-perpetuate;self-immortalize
     -- t>bd    ta>ab~ad        IV      self-perpetuate;self-immortalize
 
-    TaFaCCaL                  `verb`       {- taOab~ad -}       [ "self-perpetuate", "self-immortalize" ],
+    TaFaCCaL                  `verb`    {- taOab~ad -}         [ "self-perpetuate", "self-immortalize" ],
 
     -- ;; >abad_1
     -- >bd     >abad   Ndu     eternity;all time;forever
     -- Abd     >abad   Ndu     eternity;all time;forever
 
-    FaCaL                     `noun`       {- Oabad -}          [ "eternity", "all time", "forever" ],
+    FaCaL                     `noun`    {- Oabad -}            [ "eternity", "all time", "forever" ],
 
     -- ;; |bAd_2
     -- \|bAd    |bAd    N       eternity;forever
     -- AbAd    |bAd    N       eternity;forever
 
-    HACAL                     `noun`       {- \|bAd -}          [ "eternity", "forever" ],
+    HACAL                     `noun`    {- \|bAd -}            [ "eternity", "forever" ],
 
     -- ;; >abadAF_1
     -- >bd     >abad   NF      never;not at all     [[>abad/ADV]]
     -- Abd     >abad   NF      never;not at all     [[>abad/ADV]]
 
-    FaCaL |< aN               `noun`       {- OabadAF -}        [ "never", "not at all" ]
+    FaCaL |< aN               `noun`    {- OabadAF -}          [ "never", "not at all" ]
                               `plural`     FaCaL
-                              {- `others` [ "'abad NF" ] -},
+                           {- `others`  [ "'abad NF" ] -},
 
     -- ;; >abadiy~_1
     -- >bdy    >abadiy~        Nall    eternal;infinite     [[>abadiy~/ADJ]]
     -- Abdy    >abadiy~        Nall    eternal;infinite     [[>abadiy~/ADJ]]
 
-    FaCaL |< Iy               `adj`        {- Oabadiy~ -}       [ "eternal", "infinite" ],
+    FaCaL |< Iy               `adj`     {- Oabadiy~ -}         [ "eternal", "infinite" ],
 
     -- ;; >abadiy~ap_1
     -- >bdy    >abadiy~        Nap     eternity;forever     [[>abadiy~/NOUN]]
     -- Abdy    >abadiy~        Nap     eternity;forever     [[>abadiy~/NOUN]]
 
-    FaCaL |< Iy |< aT         `noun`       {- Oabadiy~ap -}     [ "eternity", "forever" ],
+    FaCaL |< Iy |< aT         `noun`    {- Oabadiy~ap -}       [ "eternity", "forever" ],
 
     -- ;; |bid_1
     -- \|bd     |bid    N       non-migratory;sedentary
     -- Abd     |bid    N       non-migratory;sedentary
 
-    FACiL                     `noun`       {- \|bid -}          [ "non-migratory", "sedentary" ],
+    FACiL                     `noun`    {- \|bid -}            [ "non-migratory", "sedentary" ],
 
     -- ;; |bidap_1
     -- \|bd     |bid    NapAt   archaism;sedentary
@@ -2498,24 +2498,24 @@ lexicon = listing "Lexicon's properties"
     -- >wAbd   >awAbid Ndip    archaisms;sedentary
     -- AwAbd   >awAbid Ndip    archaisms;sedentary
 
-    FACiL |< aT               `noun`       {- \|bidap -}        [ "archaism", "sedentary", "archaisms" ]
+    FACiL |< aT               `noun`    {- \|bidap -}          [ "archaism", "sedentary", "archaisms" ]
                               `plural`     FawACiL
-                              {- `others` [ "'awAbid Ndip" ] -},
+                           {- `others`  [ "'awAbid Ndip" ] -},
 
     -- ;; ta>obiyd_1
     -- t>byd   ta>obiyd        NduAt   perpetuation;immortalization
 
-    TaFCIL                    `noun`       {- taOobiyd -}       [ "perpetuation", "immortalization" ],
+    TaFCIL                    `noun`    {- taOobiyd -}         [ "perpetuation", "immortalization" ],
 
     -- ;; mu&ab~ad_1
     -- m&bd    mu&ab~ad        N-ap    life-long;perpetual
 
-    MuFaCCaL                  `noun`       {- muWab~ad -}       [ "life-long", "perpetual" ],
+    MuFaCCaL                  `noun`    {- muWab~ad -}         [ "life-long", "perpetual" ],
 
     -- ;; ta>ab~ud_1
     -- t>bd    ta>ab~ud        NduAt   perpetuation
 
-    TaFaCCuL                  `noun`       {- taOab~ud -}       [ "perpetuation" ] ]
+    TaFaCCuL                  `noun`    {- taOab~ud -}         [ "perpetuation" ] ]
 
  |> "' b h" <| [
 
@@ -2525,7 +2525,7 @@ lexicon = listing "Lexicon's properties"
     -- >bh     >obah   IV_no-Pref-A    be interested;be sensitive
     -- Abh     >obah   IV_no-Pref-A    be interested;be sensitive
 
-    FaCaL                     `verb`       {- Oabah-a -}        [ "be interested", "be sensitive" ]
+    FaCaL                     `verb`    {- Oabah-a -}          [ "be interested", "be sensitive" ]
                               `imperf`     FCaL,
 
     -- ;; >abih-a_1
@@ -2534,38 +2534,38 @@ lexicon = listing "Lexicon's properties"
     -- >bh     >obah   IV_no-Pref-A    be interested;be sensitive
     -- Abh     >obah   IV_no-Pref-A    be interested;be sensitive
 
-    FaCiL                     `verb`       {- Oabih-a -}        [ "be interested", "be sensitive" ]
+    FaCiL                     `verb`    {- Oabih-a -}          [ "be interested", "be sensitive" ]
                               `imperf`     FCaL,
 
     -- ;; ta>ab~ah_1
     -- t>bh    ta>ab~ah        PV_intr be haughty;be aloof
     -- t>bh    ta>ab~ah        IV_intr be haughty;be aloof
 
-    TaFaCCaL                  `verb`       {- taOab~ah -}       [ "be haughty", "be aloof" ],
+    TaFaCCaL                  `verb`    {- taOab~ah -}         [ "be haughty", "be aloof" ],
 
     -- ;; >abah_1
     -- >bh     >abah   NduAt   interest;sensitivity
     -- Abh     >abah   NduAt   interest;sensitivity
 
-    FaCaL                     `noun`       {- Oabah -}          [ "interest", "sensitivity" ],
+    FaCaL                     `noun`    {- Oabah -}            [ "interest", "sensitivity" ],
 
     -- ;; |bih_1
     -- \|bh     |bih    Nall    concerned
     -- Abh     |bih    Nall    concerned
 
-    FACiL                     `noun`       {- \|bih -}          [ "concerned" ],
+    FACiL                     `noun`    {- \|bih -}            [ "concerned" ],
 
     -- ;; >ub~ahap_1
     -- >bh     >ub~ah  Nap     pomp;splendor
     -- Abh     >ub~ah  Nap     pomp;splendor
 
-    FuCCaL |< aT              `noun`       {- Oub~ahap -}       [ "pomp", "splendor" ],
+    FuCCaL |< aT              `noun`    {- Oub~ahap -}         [ "pomp", "splendor" ],
 
     -- ;; >abiyh_1
     -- >byh    >abiyh  Nprop   Abbe (in "Abbe-Deschamps")
     -- Abyh    >abiyh  Nprop   Abbe (in "Abbe-Deschamps")
 
-    FaCIL                     `noun`       {- Oabiyh -}         [ "Abbe (in \"Abbe-Deschamps\")" ] ]
+    FaCIL                     `noun`    {- Oabiyh -}           [ "Abbe (in \"Abbe-Deschamps\")" ] ]
 
  |> "' b k" <| [
 
@@ -2573,7 +2573,7 @@ lexicon = listing "Lexicon's properties"
     -- >byk    >abiyk  N0      APEC (Asia-Pacific Economic Cooperation)
     -- Abyk    >abiyk  N0      APEC (Asia-Pacific Economic Cooperation)
 
-    FaCIL                     `noun`       {- Oabiyk -}         [ "APEC (Asia-Pacific Economic Cooperation)" ],
+    FaCIL                     `noun`    {- Oabiyk -}           [ "APEC (Asia-Pacific Economic Cooperation)" ],
 
     -- ;; >uwbik_1
     -- >wbk    >uwbik  N       OPEC
@@ -2581,7 +2581,7 @@ lexicon = listing "Lexicon's properties"
     -- >wbyk   >uwbiyk N       OPEC
     -- Awbyk   >uwbiyk N       OPEC
 
-    HUCiL                     `noun`       {- Ouwbik -}         [ "OPEC" ] ]
+    HUCiL                     `noun`    {- Ouwbik -}           [ "OPEC" ] ]
 
  |> "' b l" <| [
 
@@ -2589,19 +2589,19 @@ lexicon = listing "Lexicon's properties"
     -- <bl     <ibol   N       camels
     -- Abl     <ibol   N       camels
 
-    FiCL                      `noun`       {- Iibol -}          [ "camels" ],
+    FiCL                      `noun`    {- Iibol -}            [ "camels" ],
 
     -- ;; <iboliy~_1
     -- <bly    <iboliy~        Nall    dromedary     [[<iboliy~/ADJ]]
     -- Ably    <iboliy~        Nall    dromedary     [[<iboliy~/ADJ]]
 
-    FiCL |< Iy                `adj`        {- Iiboliy~ -}       [ "dromedary" ],
+    FiCL |< Iy                `adj`     {- Iiboliy~ -}         [ "dromedary" ],
 
     -- ;; <ibAlap_1
     -- <bAl    <ibAl   NapAt   bundle;administration
     -- AbAl    <ibAl   NapAt   bundle;administration
 
-    FiCAL |< aT               `noun`       {- IibAlap -}        [ "bundle", "administration" ] ]
+    FiCAL |< aT               `noun`    {- IibAlap -}          [ "bundle", "administration" ] ]
 
  |> "' b l s" <| [
 
@@ -2609,7 +2609,7 @@ lexicon = listing "Lexicon's properties"
     -- <blys   <iboliys        Ndip    Devil;demon
     -- Ablys   <iboliys        Ndip    Devil;demon
 
-    KiRDIS                    `noun`       {- Iiboliys -}       [ "Devil", "demon" ],
+    KiRDIS                    `noun`    {- Iiboliys -}         [ "Devil", "demon" ],
 
     -- ;; >abAliys_1
     -- >bAlys  >abAliys        Ndip    devils;demons
@@ -2617,7 +2617,7 @@ lexicon = listing "Lexicon's properties"
     -- >bAls   >abAlis Nap     devils;demons
     -- AbAls   >abAlis Nap     devils;demons
 
-    KaRADIS                   `noun`       {- OabAliys -}       [ "devils", "demons" ]
+    KaRADIS                   `noun`    {- OabAliys -}         [ "devils", "demons" ]
                               `plural`     KaRADiS |< aT ]
 
  |> "' b l z" <| [
@@ -2626,7 +2626,7 @@ lexicon = listing "Lexicon's properties"
     -- <blyz   <iboliyz        N       alluvial deposits
     -- Ablyz   <iboliyz        N       alluvial deposits
 
-    KiRDIS                    `noun`       {- Iiboliyz -}       [ "alluvial deposits" ] ]
+    KiRDIS                    `noun`    {- Iiboliyz -}         [ "alluvial deposits" ] ]
 
  |> "' b n" <| [
 
@@ -2635,23 +2635,23 @@ lexicon = listing "Lexicon's properties"
     -- Abn     >ab~an  PV-n    eulogize
     -- &bn     &ab~in  IV-n_yu eulogize
 
-    FaCCiL                    `verb`       {- Wab~in -}         [ "eulogize" ],
+    FaCCiL                    `verb`    {- Wab~in -}           [ "eulogize" ],
 
     -- ;; <ib~An_1
     -- <bAn    <ib~An  N       during;time
     -- AbAn    <ib~An  N       during;time
 
-    FiCCAL                    `noun`       {- Iib~An -}         [ "during", "time" ],
+    FiCCAL                    `noun`    {- Iib~An -}           [ "during", "time" ],
 
     -- ;; ta>obiyn_1
     -- t>byn   ta>obiyn        NduAt   funeral;obituary
 
-    TaFCIL                    `noun`       {- taOobiyn -}       [ "funeral", "obituary" ],
+    TaFCIL                    `noun`    {- taOobiyn -}         [ "funeral", "obituary" ],
 
     -- ;; ta>obiyniy~_1
     -- t>byny  ta>obiyniy~     Nall    funerary;commemorative     [[ta>obiyniy~/ADJ]]
 
-    TaFCIL |< Iy              `adj`        {- taOobiyniy~ -}    [ "funerary", "commemorative" ],
+    TaFCIL |< Iy              `adj`     {- taOobiyniy~ -}      [ "funerary", "commemorative" ],
 
     -- ;; >abonA'_1
     -- >bnA'   >abonA' N0_Nh   sons;children
@@ -2661,7 +2661,7 @@ lexicon = listing "Lexicon's properties"
     -- >bnA}   >abonA} Nhy     sons;children
     -- AbnA}   >abonA} Nhy     sons;children
 
-    FaCLA'                    `noun`       {- OabonA' -}        [ "sons", "children" ] ]
+    FaCLA'                    `noun`    {- OabonA' -}          [ "sons", "children" ] ]
 
  |> "' b n s" <| [
 
@@ -2670,7 +2670,7 @@ lexicon = listing "Lexicon's properties"
     -- Abnws   >abonuws        N       ebony
     -- \|bnws   |bonuws N       ebony
 
-    KaRDUS                    `noun`       {- Oabonuws -}       [ "ebony" ] ]
+    KaRDUS                    `noun`    {- Oabonuws -}         [ "ebony" ] ]
 
  |> "' b q" <| [
 
@@ -2682,7 +2682,7 @@ lexicon = listing "Lexicon's properties"
     -- >bq     >obuq   IV_no-Pref-A    escape;flee
     -- Abq     >obuq   IV_no-Pref-A    escape;flee
 
-    FaCaL                     `verb`       {- Oabaq-iu -}       [ "escape", "flee" ]
+    FaCaL                     `verb`    {- Oabaq-iu -}         [ "escape", "flee" ]
                               `imperf`     FCiL
                               `imperf`     FCuL,
 
@@ -2690,7 +2690,7 @@ lexicon = listing "Lexicon's properties"
     -- >bq     >abaq   NduAt   escape;fleeing;flight
     -- Abq     >abaq   NduAt   escape;fleeing;flight
 
-    FaCaL                     `noun`       {- Oabaq -}          [ "escape", "fleeing", "flight" ],
+    FaCaL                     `noun`    {- Oabaq -}            [ "escape", "fleeing", "flight" ],
 
     -- ;; |biq_1
     -- \|bq     |biq    Nall    fugitive
@@ -2698,9 +2698,9 @@ lexicon = listing "Lexicon's properties"
     -- >bAq    >ub~Aq  N       fugitives
     -- AbAq    >ub~Aq  N       fugitives
 
-    FACiL                     `noun`       {- \|biq -}          [ "fugitive", "fugitives" ]
+    FACiL                     `noun`    {- \|biq -}            [ "fugitive", "fugitives" ]
                               `plural`     FuCCAL
-                              {- `others` [ "'ubbAq N" ] -} ]
+                           {- `others`  [ "'ubbAq N" ] -} ]
 
  |> "' b r" <| [
 
@@ -2712,7 +2712,7 @@ lexicon = listing "Lexicon's properties"
     -- >br     >obur   IV_no-Pref-A    sting;pollinate
     -- Abr     >obur   IV_no-Pref-A    sting;pollinate
 
-    FaCaL                     `verb`       {- Oabar-iu -}       [ "sting", "pollinate" ]
+    FaCaL                     `verb`    {- Oabar-iu -}         [ "sting", "pollinate" ]
                               `imperf`     FCiL
                               `imperf`     FCuL,
 
@@ -2722,7 +2722,7 @@ lexicon = listing "Lexicon's properties"
     -- &br     &ab~ir  IV_yu   practice acupuncture;pollinate
     -- &br     &ab~ar  IV_Pass_yu      be acupunctured;be pollinated
 
-    FaCCaL                    `verb`       {- Oab~ar -}         [ "practice acupuncture", "pollinate", "be acupunctured", "be pollinated" ],
+    FaCCaL                    `verb`    {- Oab~ar -}           [ "practice acupuncture", "pollinate", "be acupunctured", "be pollinated" ],
 
     -- ;; <iborap_1
     -- <br     <ibor   Nap     indicator;needle
@@ -2730,9 +2730,9 @@ lexicon = listing "Lexicon's properties"
     -- <br     <ibar   N       indicators;needles
     -- Abr     <ibar   N       indicators;needles
 
-    FiCL |< aT                `noun`       {- Iiborap -}        [ "indicator", "needle", "indicators", "needles" ]
+    FiCL |< aT                `noun`    {- Iiborap -}          [ "indicator", "needle", "indicators", "needles" ]
                               `plural`     FiCaL
-                              {- `others` [ "'ibar N" ] -},
+                           {- `others`  [ "'ibar N" ] -},
 
     -- ;; <iborap_2
     -- <br     <ibor   Nap     needle;injection
@@ -2740,33 +2740,33 @@ lexicon = listing "Lexicon's properties"
     -- <br     <ibar   N       needles;injections
     -- Abr     <ibar   N       needles;injections
 
-    FiCL |< aT                `noun`       {- Iiborap -}        [ "needle", "injection", "needles", "injections" ]
+    FiCL |< aT                `noun`    {- Iiborap -}          [ "needle", "injection", "needles", "injections" ]
                               `plural`     FiCaL
-                              {- `others` [ "'ibar N" ] -},
+                           {- `others`  [ "'ibar N" ] -},
 
     -- ;; <ibariy~_1
     -- <bry    <ibariy~        Nall    needle-like     [[<ibariy~/ADJ]]
     -- Abry    <ibariy~        Nall    needle-like     [[<ibariy~/ADJ]]
 
-    FiCaL |< Iy               `adj`        {- Iibariy~ -}       [ "needle-like" ],
+    FiCaL |< Iy               `adj`     {- Iibariy~ -}         [ "needle-like" ],
 
     -- ;; mi}obar_1
     -- m}br    mi}obar Ndu     needlecase;anther
     -- m|br    ma|bir  Ndip    needlecases
 
-    MiFCaL                    `noun`       {- mi}obar -}        [ "needlecase", "anther", "needlecases" ]
+    MiFCaL                    `noun`    {- mi}obar -}          [ "needlecase", "anther", "needlecases" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma'Abir Ndip" ] -},
+                           {- `others`  [ "ma'Abir Ndip" ] -},
 
     -- ;; ta>obiyr_1
     -- t>byr   ta>obiyr        NduAt   acupuncture
 
-    TaFCIL                    `noun`       {- taOobiyr -}       [ "acupuncture" ],
+    TaFCIL                    `noun`    {- taOobiyr -}         [ "acupuncture" ],
 
     -- ;; mu&ab~ir_1
     -- m&br    mu&ab~ir        Nall    acupuncturist
 
-    MuFaCCiL                  `noun`       {- muWab~ir -}       [ "acupuncturist" ] ]
+    MuFaCCiL                  `noun`    {- muWab~ir -}         [ "acupuncturist" ] ]
 
  |> "' b r ^s" <| [
 
@@ -2776,7 +2776,7 @@ lexicon = listing "Lexicon's properties"
     -- >br$y   >abaro$iy~      N/ap    diocese;bishopric     [[>abaro$iy~/NOUN]]
     -- Abr$y   >abaro$iy~      N/ap    diocese;bishopric     [[>abaro$iy~/NOUN]]
 
-    KaRDaS |< Iy              `noun`       {- Oabora$iy~ -}     [ "diocese", "bishopric" ] ]
+    KaRDaS |< Iy              `noun`    {- Oabora$iy~ -}       [ "diocese", "bishopric" ] ]
 
  |> "' b r l" <| [
 
@@ -2788,9 +2788,9 @@ lexicon = listing "Lexicon's properties"
     -- >brylyA >aboriyloyA     Nprop   Aprilia
     -- AbrylyA >aboriyloyA     Nprop   Aprilia
 
-    KaRDIS                    `noun`       {- Oaboriyl -}       [ "April", "Aprilia" ]
+    KaRDIS                    `noun`    {- Oaboriyl -}         [ "April", "Aprilia" ]
                               `plural`     KiRDIS
-                              {- `others` [ "'ibriyl Nprop" ] -} ]
+                           {- `others`  [ "'ibriyl Nprop" ] -} ]
 
  |> "' b r m" <| [
 
@@ -2798,7 +2798,7 @@ lexicon = listing "Lexicon's properties"
     -- >brAm   >aborAm Nprop   Abram;Abraham
     -- AbrAm   >aborAm Nprop   Abram;Abraham
 
-    KaRDAS                    `noun`       {- OaborAm -}        [ "Abram", "Abraham" ] ]
+    KaRDAS                    `noun`    {- OaborAm -}          [ "Abram", "Abraham" ] ]
 
  |> "' b r q" <| [
 
@@ -2811,10 +2811,10 @@ lexicon = listing "Lexicon's properties"
     -- >bArq   >abAriq Nap     pitchers;jugs
     -- AbArq   >abAriq Nap     pitchers;jugs
 
-    KiRDIS                    `noun`       {- Iiboriyq -}       [ "pitcher", "jug", "pitchers", "jugs" ]
+    KiRDIS                    `noun`    {- Iiboriyq -}         [ "pitcher", "jug", "pitchers", "jugs" ]
                               `plural`     KaRADIS
                               `plural`     KaRADiS |< aT
-                              {- `others` [ "'abAriyq Ndip" ] -} ]
+                           {- `others`  [ "'abAriyq Ndip" ] -} ]
 
  |> "' b r z" <| [
 
@@ -2822,13 +2822,13 @@ lexicon = listing "Lexicon's properties"
     -- <bryz   <iboriyz        N       pure gold
     -- Abryz   <iboriyz        N       pure gold
 
-    KiRDIS                    `noun`       {- Iiboriyz -}       [ "pure gold" ],
+    KiRDIS                    `noun`    {- Iiboriyz -}         [ "pure gold" ],
 
     -- ;; <iboriyziy~_1
     -- <bryzy  <iboriyziy~     Nall    golden     [[<iboriyziy~/ADJ]]
     -- Abryzy  <iboriyziy~     Nall    golden     [[<iboriyziy~/ADJ]]
 
-    KiRDIS |< Iy              `adj`        {- Iiboriyziy~ -}    [ "golden" ] ]
+    KiRDIS |< Iy              `adj`     {- Iiboriyziy~ -}      [ "golden" ] ]
 
  |> "' b w" <| [
 
@@ -2836,45 +2836,45 @@ lexicon = listing "Lexicon's properties"
     -- >bw     >abuw   Nprop   Abu
     -- Abw     >abuw   Nprop   Abu
 
-    FaCuL                     `noun`       {- Oabuw -}          [ "Abu" ],
+    FaCuL                     `noun`    {- Oabuw -}            [ "Abu" ],
 
     -- ;; >abA_1
     -- >bA     >abA    Nprop   Aba
     -- AbA     >abA    Nprop   Aba
 
-    FaCA                      `noun`       {- OabA -}           [ "Aba" ],
+    FaCA                      `noun`    {- OabA -}             [ "Aba" ],
 
     -- ;; <ibAwap_1
     -- <bAw    <ibAw   Nap     fatherhood
     -- AbAw    <ibAw   Nap     fatherhood
 
-    FiCAL |< aT               `noun`       {- IibAwap -}        [ "fatherhood" ],
+    FiCAL |< aT               `noun`    {- IibAwap -}          [ "fatherhood" ],
 
     -- ;; >ubuw~ap_1
     -- >bw     >ubuw~  NapAt   paternity
     -- Abw     >ubuw~  NapAt   paternity
 
-    FuCUL |< aT               `noun`       {- Oubuw~ap -}       [ "paternity" ],
+    FuCUL |< aT               `noun`    {- Oubuw~ap -}         [ "paternity" ],
 
     -- ;; >abawiy~_1
     -- >bwy    >abawiy~        Nall    paternal;fatherly     [[>abawiy~/ADJ]]
     -- Abwy    >abawiy~        Nall    paternal;fatherly     [[>abawiy~/ADJ]]
 
-    FaCY |< Iy                `adj`        {- Oabawiy~ -}       [ "paternal", "fatherly" ],
+    FaCY |< Iy                `adj`     {- Oabawiy~ -}         [ "paternal", "fatherly" ],
 
     -- ;; >abawiy~ap_1
     -- >bwy    >abawiy~        Nap     patriarchy     [[>abawiy~/NOUN]]
     -- Abwy    >abawiy~        Nap     patriarchy     [[>abawiy~/NOUN]]
 
-    FaCY |< Iy |< aT          `noun`       {- Oabawiy~ap -}     [ "patriarchy" ],
+    FaCY |< Iy |< aT          `noun`    {- Oabawiy~ap -}       [ "patriarchy" ],
 
     -- ;; >abawAn_1
     -- >bw     >abaw   NAn_Nayn        parents
     -- Abw     >abaw   NAn_Nayn        parents
 
-    FaCaLAn                   `noun`       {- OabawAn -}        [ "parents" ]
+    FaCaLAn                   `noun`    {- OabawAn -}          [ "parents" ]
                               `plural`     FaCaL
-                              {- `others` [ "'abaw NAn_Nayn" ] -} ]
+                           {- `others`  [ "'abaw NAn_Nayn" ] -} ]
 
  |> "' b y" <| [
 
@@ -2882,7 +2882,7 @@ lexicon = listing "Lexicon's properties"
     -- >by     >abiy   Nprop   Abi
     -- Aby     >abiy   Nprop   Abi
 
-    FaCiL                     `noun`       {- Oabiy -}          [ "Abi" ],
+    FaCiL                     `noun`    {- Oabiy -}            [ "Abi" ],
 
     -- ;; >abaY-a_1
     -- >bY     >abaY   PV_0    deny;refuse
@@ -2902,7 +2902,7 @@ lexicon = listing "Lexicon's properties"
     -- >b      >oba    IV_0hwnyn_no-Pref-A     deny;refuse
     -- Ab      >oba    IV_0hwnyn_no-Pref-A     deny;refuse
 
-    FaCY                      `verb`       {- OabaY-a -}        [ "deny", "refuse" ]
+    FaCY                      `verb`    {- OabaY-a -}          [ "deny", "refuse" ]
                               `imperf`     FCY,
 
     -- ;; ta>ab~aY_1
@@ -2915,7 +2915,7 @@ lexicon = listing "Lexicon's properties"
     -- t>by    ta>ab~ay        IV_Ann  decline
     -- t>b     ta>ab~  IV_0hwnyn       decline
 
-    TaFaCCY                   `verb`       {- taOab~aY -}       [ "decline" ],
+    TaFaCCY                   `verb`    {- taOab~aY -}         [ "decline" ],
 
     -- ;; <ibA'_1
     -- <bA'    <ibA'   N0_Nh   refusal;denial
@@ -2927,19 +2927,19 @@ lexicon = listing "Lexicon's properties"
     -- <bA'    <ibA'   NAt     refusals;denials
     -- AbA'    <ibA'   NAt     refusals;denials
 
-    FiCA'                     `noun`       {- IibA' -}          [ "refusal", "denial", "refusals", "denials" ],
+    FiCA'                     `noun`    {- IibA' -}            [ "refusal", "denial", "refusals", "denials" ],
 
     -- ;; <ibA'ap_1
     -- <bA'    <ibA'   Napdu   refusal;denial
     -- AbA'    <ibA'   Napdu   refusal;denial
 
-    FiCA' |< aT               `noun`       {- IibA'ap -}        [ "refusal", "denial" ],
+    FiCA' |< aT               `noun`    {- IibA'ap -}          [ "refusal", "denial" ],
 
     -- ;; >abiy~_1
     -- >by     >abiy~  Nall    proud;dignified     [[>abiy~/ADJ]]
     -- Aby     >abiy~  Nall    proud;dignified     [[>abiy~/ADJ]]
 
-    FaCIL                     `adj`        {- Oabiy~ -}         [ "proud", "dignified" ],
+    FaCIL                     `adj`     {- Oabiy~ -}           [ "proud", "dignified" ],
 
     -- ;; |biy_1
     -- \|by     |biy    N0F     reluctant;unwilling
@@ -2953,7 +2953,7 @@ lexicon = listing "Lexicon's properties"
     -- >bA     >ubA    Nap     reluctant;unwilling
     -- AbA     >ubA    Nap     reluctant;unwilling
 
-    FACiL                     `noun`       {- \|biy -}          [ "reluctant", "unwilling" ] ]
+    FACiL                     `noun`    {- \|biy -}            [ "reluctant", "unwilling" ] ]
 
  |> "' b z m" <| [
 
@@ -2963,9 +2963,9 @@ lexicon = listing "Lexicon's properties"
     -- >bAzym  >abAziym        Ndip    buckles;clasps
     -- AbAzym  >abAziym        Ndip    buckles;clasps
 
-    KiRDIS                    `noun`       {- Iiboziym -}       [ "buckle", "clasp", "buckles", "clasps" ]
+    KiRDIS                    `noun`    {- Iiboziym -}         [ "buckle", "clasp", "buckles", "clasps" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'abAziym Ndip" ] -} ]
+                           {- `others`  [ "'abAziym Ndip" ] -} ]
 
  |> "' b z n" <| [
 
@@ -2975,9 +2975,9 @@ lexicon = listing "Lexicon's properties"
     -- >bAzn   >abAzin Ndip    washbowls
     -- AbAzn   >abAzin Ndip    washbowls
 
-    KaRDaS                    `noun`       {- Oabozan -}        [ "washbowl", "washbowls" ]
+    KaRDaS                    `noun`    {- Oabozan -}          [ "washbowl", "washbowls" ]
                               `plural`     KaRADiS
-                              {- `others` [ "'abAzin Ndip" ] -} ]
+                           {- `others`  [ "'abAzin Ndip" ] -} ]
 
  |> "' d '" <| [
 
@@ -2989,13 +2989,13 @@ lexicon = listing "Lexicon's properties"
     -- >dA}    >adA}   Nhy     performance;fulfillment
     -- AdA}    >adA}   Nhy     performance;fulfillment
 
-    FaCAL                     `noun`       {- OadA' -}          [ "performance", "fulfillment" ],
+    FaCAL                     `noun`    {- OadA' -}            [ "performance", "fulfillment" ],
 
     -- ;; >adA}iy~_1
     -- >dA}y   >adA}iy~        N       functional;performance-related     [[>adA}iy~/ADJ]]
     -- AdA}y   >adA}iy~        N       functional;performance-related     [[>adA}iy~/ADJ]]
 
-    FaCAL |< Iy               `adj`        {- OadA}iy~ -}       [ "functional", "performance-related" ] ]
+    FaCAL |< Iy               `adj`     {- OadA}iy~ -}         [ "functional", "performance-related" ] ]
 
  |> "' d b" <| [
 
@@ -3003,14 +3003,14 @@ lexicon = listing "Lexicon's properties"
     -- >db     >odub   IV_no-Pref-A    be urbane;be courteous
     -- Adb     >odub   IV_no-Pref-A    be urbane;be courteous
 
-    FaCuL                     `verb`       {- Oadub-u -}        [ "be urbane", "be courteous" ]
+    FaCuL                     `verb`    {- Oadub-u -}          [ "be urbane", "be courteous" ]
                               `imperf`     FCuL,
 
     -- ;; >adab-i_1
     -- >db     >odib   IV_no-Pref-A    invite;entertain
     -- Adb     >odib   IV_no-Pref-A    invite;entertain
 
-    FaCaL                     `verb`       {- Oadab-i -}        [ "invite", "entertain" ]
+    FaCaL                     `verb`    {- Oadab-i -}          [ "invite", "entertain" ]
                               `imperf`     FCiL,
 
     -- ;; >ad~ab_1
@@ -3019,7 +3019,7 @@ lexicon = listing "Lexicon's properties"
     -- &db     &ad~ib  IV_yu   discipline;educate
     -- &db     &ad~ab  IV_Pass_yu      be disciplined;be educated
 
-    FaCCaL                    `verb`       {- Oad~ab -}         [ "discipline", "educate", "be disciplined", "be educated" ],
+    FaCCaL                    `verb`    {- Oad~ab -}           [ "discipline", "educate", "be disciplined", "be educated" ],
 
     -- ;; |dab_1
     -- \|db     |dab    PV      invite
@@ -3027,19 +3027,19 @@ lexicon = listing "Lexicon's properties"
     -- &db     &odib   IV_no-Pref-A_yu invite
     -- wdb     wdib    IV_need-Pref-A_yu       invite
 
-    FACaL                     `verb`       {- \|dab -}          [ "invite" ],
+    FACaL                     `verb`    {- \|dab -}            [ "invite" ],
 
     -- ;; ta>ad~ab_1
     -- t>db    ta>ad~ab        PV_intr be disciplined;be educated
     -- t>db    ta>ad~ab        IV_intr be disciplined;be educated
 
-    TaFaCCaL                  `verb`       {- taOad~ab -}       [ "be disciplined", "be educated" ],
+    TaFaCCaL                  `verb`    {- taOad~ab -}         [ "be disciplined", "be educated" ],
 
     -- ;; >adob_1
     -- >db     >adob   N       invitation;entertainment
     -- Adb     >adob   N       invitation;entertainment
 
-    FaCL                      `noun`       {- Oadob -}          [ "invitation", "entertainment" ],
+    FaCL                      `noun`    {- Oadob -}            [ "invitation", "entertainment" ],
 
     -- ;; >adab_1
     -- >db     >adab   Ndu     literature;good manners;etiquette
@@ -3047,21 +3047,21 @@ lexicon = listing "Lexicon's properties"
     -- \|dAb    |dAb    N       literature;etiquette
     -- AdAb    |dAb    N       literature;etiquette
 
-    FaCaL                     `noun`       {- Oadab -}          [ "literature", "good manners", "etiquette" ]
+    FaCaL                     `noun`    {- Oadab -}            [ "literature", "good manners", "etiquette" ]
                               `plural`     HACAL
-                              {- `others` [ "'AdAb N" ] -},
+                           {- `others`  [ "'AdAb N" ] -},
 
     -- ;; >adabiy~_1
     -- >dby    >adabiy~        Nall    literary     [[>adabiy~/ADJ]]
     -- Adby    >adabiy~        Nall    literary     [[>adabiy~/ADJ]]
 
-    FaCaL |< Iy               `adj`        {- Oadabiy~ -}       [ "literary" ],
+    FaCaL |< Iy               `adj`     {- Oadabiy~ -}         [ "literary" ],
 
     -- ;; >adabiy~_2
     -- >dby    >adabiy~        N-ap    ethical;moral     [[>adabiy~/ADJ]]
     -- Adby    >adabiy~        N-ap    ethical;moral     [[>adabiy~/ADJ]]
 
-    FaCaL |< Iy               `adj`        {- Oadabiy~ -}       [ "ethical", "moral" ],
+    FaCaL |< Iy               `adj`     {- Oadabiy~ -}         [ "ethical", "moral" ],
 
     -- ;; >adiyb_1
     -- >dyb    >adiyb  Nall    writer;author
@@ -3073,53 +3073,53 @@ lexicon = listing "Lexicon's properties"
     -- >dbA}   >udabA} Nhy     writers;authors
     -- AdbA}   >udabA} Nhy     writers;authors
 
-    FaCIL                     `noun`       {- Oadiyb -}         [ "writer", "author", "writers", "authors" ]
+    FaCIL                     `noun`    {- Oadiyb -}           [ "writer", "author", "writers", "authors" ]
                               `plural`     FuCaLA'
-                              {- `others` [ "'udabA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "'udabA' Nh N0_Nh Nhy" ] -},
 
     -- ;; >adiyb_2
     -- >dyb    >adiyb  Nprop   Adeeb;Adib
     -- Adyb    >adiyb  Nprop   Adeeb;Adib
 
-    FaCIL                     `noun`       {- Oadiyb -}         [ "Adeeb", "Adib" ],
+    FaCIL                     `noun`    {- Oadiyb -}           [ "Adeeb", "Adib" ],
 
     -- ;; |dib_1
     -- \|db     |dib    Nall    host
     -- Adb     |dib    Nall    host
 
-    FACiL                     `noun`       {- \|dib -}          [ "host" ],
+    FACiL                     `noun`    {- \|dib -}            [ "host" ],
 
     -- ;; ta>odiyb_1
     -- t>dyb   ta>odiyb        NduAt   chastisement;education
     -- tAdyb   ta>odiyb        NduAt   chastisement;education
 
-    TaFCIL                    `noun`       {- taOodiyb -}       [ "chastisement", "education" ],
+    TaFCIL                    `noun`    {- taOodiyb -}         [ "chastisement", "education" ],
 
     -- ;; ta>odiybiy~_1
     -- t>dyby  ta>odiybiy~     Nall    punitive;disciplinary     [[ta>odiybiy~/ADJ]]
     -- tAdyby  ta>odiybiy~     Nall    punitive;disciplinary     [[ta>odiybiy~/ADJ]]
 
-    TaFCIL |< Iy              `adj`        {- taOodiybiy~ -}    [ "punitive", "disciplinary" ],
+    TaFCIL |< Iy              `adj`     {- taOodiybiy~ -}      [ "punitive", "disciplinary" ],
 
     -- ;; mu&ad~ib_1
     -- m&db    mu&ad~ib        Nall    educator
 
-    MuFaCCiL                  `noun`       {- muWad~ib -}       [ "educator" ],
+    MuFaCCiL                  `noun`    {- muWad~ib -}         [ "educator" ],
 
     -- ;; mu&ad~ab_1
     -- m&db    mu&ad~ab        Nall    well-bred;urbane
 
-    MuFaCCaL                  `noun`       {- muWad~ab -}       [ "well-bred", "urbane" ],
+    MuFaCCaL                  `noun`    {- muWad~ab -}         [ "well-bred", "urbane" ],
 
     -- ;; ta>ad~ub_1
     -- t>db    ta>ad~ub        NduAt   civility;courtesy
 
-    TaFaCCuL                  `noun`       {- taOad~ub -}       [ "civility", "courtesy" ],
+    TaFaCCuL                  `noun`    {- taOad~ub -}         [ "civility", "courtesy" ],
 
     -- ;; muta>ad~ib_1
     -- mt>db   muta>ad~ib      Nall    courteous
 
-    MutaFaCCiL                `noun`       {- mutaOad~ib -}     [ "courteous" ] ]
+    MutaFaCCiL                `noun`    {- mutaOad~ib -}       [ "courteous" ] ]
 
  |> "' d d" <| [
 
@@ -3135,7 +3135,7 @@ lexicon = listing "Lexicon's properties"
     -- >dd     >odid   IV_C    befall;afflict
     -- Add     >odid   IV_C    befall;afflict
 
-    FaCL                      `verb`       {- Oad~-ui -}        [ "befall", "afflict" ]
+    FaCL                      `verb`    {- Oad~-ui -}          [ "befall", "afflict" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
                               `pfirst`     FaCaL
@@ -3146,7 +3146,7 @@ lexicon = listing "Lexicon's properties"
     -- <d      <id~    N       horrible;evil
     -- Ad      <id~    N       horrible;evil
 
-    FiCL                      `noun`       {- Iid~ -}           [ "horrible", "evil" ],
+    FiCL                      `noun`    {- Iid~ -}             [ "horrible", "evil" ],
 
     -- ;; >ad~aY_1
     -- >dY     >ad~aY  PV_0    direct;guide;lead
@@ -3162,7 +3162,7 @@ lexicon = listing "Lexicon's properties"
     -- &dY     &ad~aY  IV_0_Pass_yu    be directed;be guided;be lead
     -- &dy     &ad~ay  IV_Ann_Pass_yu  be directed;be guided;be lead
 
-    FaCLY                     `verb`       {- Oad~aY -}         [ "direct", "guide", "lead", "be directed", "be guided", "be lead" ] ]
+    FaCLY                     `verb`    {- Oad~aY -}           [ "direct", "guide", "lead", "be directed", "be guided", "be lead" ] ]
 
  |> "' d m" <| [
 
@@ -3170,49 +3170,49 @@ lexicon = listing "Lexicon's properties"
     -- \|dm     |dam    Nprop   Adam
     -- Adm     |dam    Nprop   Adam
 
-    FACaL                     `noun`       {- \|dam -}          [ "Adam" ],
+    FACaL                     `noun`    {- \|dam -}            [ "Adam" ],
 
     -- ;; >awAdim_1
     -- >wAdm   >awAdim Ndip    humans
     -- AwAdm   >awAdim Ndip    humans
 
-    FawACiL                   `noun`       {- OawAdim -}        [ "humans" ],
+    FawACiL                   `noun`    {- OawAdim -}          [ "humans" ],
 
     -- ;; |damiy~_1
     -- \|dmy    |damiy~ Nall    human;humane     [[|damiy~/ADJ]]
     -- Admy    |damiy~ Nall    human;humane     [[|damiy~/ADJ]]
 
-    FACaL |< Iy               `adj`        {- \|damiy~ -}       [ "human", "humane" ],
+    FACaL |< Iy               `adj`     {- \|damiy~ -}         [ "human", "humane" ],
 
     -- ;; >adamap_1
     -- >dm     >adam   Nap     skin
     -- Adm     >adam   Nap     skin
 
-    FaCaL |< aT               `noun`       {- Oadamap -}        [ "skin" ],
+    FaCaL |< aT               `noun`    {- Oadamap -}          [ "skin" ],
 
     -- ;; >adiym_1
     -- >dym    >adiym  Ndu     skin;leather
     -- Adym    >adiym  Ndu     skin;leather
 
-    FaCIL                     `noun`       {- Oadiym -}         [ "skin", "leather" ],
+    FaCIL                     `noun`    {- Oadiym -}           [ "skin", "leather" ],
 
     -- ;; >adiym_2
     -- >dym    >adiym  Ndu     surface
     -- Adym    >adiym  Ndu     surface
 
-    FaCIL                     `noun`       {- Oadiym -}         [ "surface" ],
+    FaCIL                     `noun`    {- Oadiym -}           [ "surface" ],
 
     -- ;; <idAm_1
     -- <dAm    <idAm   N       fat;sauce
     -- AdAm    <idAm   N       fat;sauce
 
-    FiCAL                     `noun`       {- IidAm -}          [ "fat", "sauce" ],
+    FiCAL                     `noun`    {- IidAm -}            [ "fat", "sauce" ],
 
     -- ;; >ad~Am_1
     -- >dAm    >ad~Am  Nall    tanner
     -- AdAm    >ad~Am  Nall    tanner
 
-    FaCCAL                    `noun`       {- Oad~Am -}         [ "tanner" ] ]
+    FaCCAL                    `noun`    {- Oad~Am -}           [ "tanner" ] ]
 
  |> "' d m n" <| [
 
@@ -3220,7 +3220,7 @@ lexicon = listing "Lexicon's properties"
     -- <dmwn   <idomuwn        Nprop   Edmond
     -- Admwn   <idomuwn        Nprop   Edmond
 
-    KiRDUS                    `noun`       {- Iidomuwn -}       [ "Edmond" ] ]
+    KiRDUS                    `noun`    {- Iidomuwn -}         [ "Edmond" ] ]
 
  |> "' d r s" <| [
 
@@ -3228,7 +3228,7 @@ lexicon = listing "Lexicon's properties"
     -- <drys   <idoriys        Nprop   Idris;Edris
     -- Adrys   <idoriys        Nprop   Idris;Edris
 
-    KiRDIS                    `noun`       {- Iidoriys -}       [ "Idris", "Edris" ],
+    KiRDIS                    `noun`    {- Iidoriys -}         [ "Idris", "Edris" ],
 
     -- ;; <idoriysiy~_1
     -- <drysy  <idoriysiy~     Nall    Idrisid     [[<idoriysiy~/NOUN]]
@@ -3238,7 +3238,7 @@ lexicon = listing "Lexicon's properties"
     -- >dArs   >adAris Nap     Idrisids
     -- AdArs   >adAris Nap     Idrisids
 
-    KiRDIS |< Iy              `adj`        {- Iidoriysiy~ -}    [ "Idrisid", "Idrisids" ]
+    KiRDIS |< Iy              `adj`     {- Iidoriysiy~ -}      [ "Idrisid", "Idrisids" ]
                               `plural`     KaRADiS |< aT ]
 
  |> "' d s" <| [
@@ -3247,7 +3247,7 @@ lexicon = listing "Lexicon's properties"
     -- >dys    >adiys  Nprop   Addis
     -- Adys    >adiys  Nprop   Addis
 
-    FaCIL                     `noun`       {- Oadiys -}         [ "Addis" ] ]
+    FaCIL                     `noun`    {- Oadiys -}           [ "Addis" ] ]
 
  |> "' d w" <| [
 
@@ -3257,7 +3257,7 @@ lexicon = listing "Lexicon's properties"
     -- >dw     >adaw   NAt     tools;instruments
     -- Adw     >adaw   NAt     tools;instruments
 
-    FaCY |< aT                `noun`       {- OadAp -}          [ "tool", "instrument", "apparatus", "tools", "instruments" ]
+    FaCY |< aT                `noun`    {- OadAp -}            [ "tool", "instrument", "apparatus", "tools", "instruments" ]
                               `plural`     FaCaL |< At ]
 
  |> "' d y" <| [
@@ -3276,7 +3276,7 @@ lexicon = listing "Lexicon's properties"
     -- &dY     &ad~aY  IV_0_Pass_yu    be directed;be guided;be lead
     -- &dy     &ad~ay  IV_Ann_Pass_yu  be directed;be guided;be lead
 
-    FaCCY                     `verb`       {- Oad~aY -}         [ "direct", "guide", "lead", "be directed", "be guided", "be lead" ],
+    FaCCY                     `verb`    {- Oad~aY -}           [ "direct", "guide", "lead", "be directed", "be guided", "be lead" ],
 
     -- ;; ta>ad~aY_1
     -- t>dY    ta>ad~aY        PV_0    contribute;arrive
@@ -3288,7 +3288,7 @@ lexicon = listing "Lexicon's properties"
     -- t>dy    ta>ad~ay        IV_Ann  contribute;arrive
     -- t>d     ta>ad~  IV_0hwnyn       contribute;arrive
 
-    TaFaCCY                   `verb`       {- taOad~aY -}       [ "contribute", "arrive" ],
+    TaFaCCY                   `verb`    {- taOad~aY -}         [ "contribute", "arrive" ],
 
     -- ;; {isota>odaY_1
     -- <st>dY  {isota>odaY     PV_0    demand;claim
@@ -3303,7 +3303,7 @@ lexicon = listing "Lexicon's properties"
     -- st>d    sota>od IV_0hwnyn       demand;claim
     -- st>dY   sota>odaY       IV_0_Pass_yu    be demanded;be claimed
 
-    IstaFCY                   `verb`       {- AisotaOodaY -}    [ "demand", "claim", "be demanded", "be claimed" ],
+    IstaFCY                   `verb`    {- AisotaOodaY -}      [ "demand", "claim", "be demanded", "be claimed" ],
 
     -- ;; >adA'_1
     -- >dA'    >adA'   N0_Nh   performance;fulfillment
@@ -3313,19 +3313,19 @@ lexicon = listing "Lexicon's properties"
     -- >dA}    >adA}   Nhy     performance;fulfillment
     -- AdA}    >adA}   Nhy     performance;fulfillment
 
-    FaCA'                     `noun`       {- OadA' -}          [ "performance", "fulfillment" ],
+    FaCA'                     `noun`    {- OadA' -}            [ "performance", "fulfillment" ],
 
     -- ;; >adA}iy~_1
     -- >dA}y   >adA}iy~        N       functional;performance-related     [[>adA}iy~/ADJ]]
     -- AdA}y   >adA}iy~        N       functional;performance-related     [[>adA}iy~/ADJ]]
 
-    FaCA' |< Iy               `adj`        {- OadA}iy~ -}       [ "functional", "performance-related" ],
+    FaCA' |< Iy               `adj`     {- OadA}iy~ -}         [ "functional", "performance-related" ],
 
     -- ;; ta>odiyap_1
     -- t>dy    ta>odiy NapAt   accomplishment;performance
     -- tAdy    ta>odiy NapAt   accomplishment;performance
 
-    TaFCiL |< aT              `noun`       {- taOodiyap -}      [ "accomplishment", "performance" ],
+    TaFCiL |< aT              `noun`    {- taOodiyap -}        [ "accomplishment", "performance" ],
 
     -- ;; mu&ad~iy_1
     -- m&dy    mu&ad~iy        N0_Nh   leading;causing
@@ -3334,7 +3334,7 @@ lexicon = listing "Lexicon's properties"
     -- m&d     mu&ad~  Nuwn_Niyn       leading;causing
     -- m&dy    mu&ad~iy        NapAt   leading;causing
 
-    MuFaCCiL                  `noun`       {- muWad~iy -}       [ "leading", "causing" ],
+    MuFaCCiL                  `noun`    {- muWad~iy -}         [ "leading", "causing" ],
 
     -- ;; mu&ad~aY_1
     -- m&dY    mu&ad~aY        N0      task;content;significance
@@ -3343,9 +3343,9 @@ lexicon = listing "Lexicon's properties"
     -- m&dy    mu&ad~ay        NAt     tasks;contents;significances
     -- m&dA    mu&ad~A Napdu   task;content;significance
 
-    MuFaCCY                   `noun`       {- muWad~aY -}       [ "task", "content", "significance", "tasks", "contents", "significances" ]
+    MuFaCCY                   `noun`    {- muWad~aY -}         [ "task", "content", "significance", "tasks", "contents", "significances" ]
                               `plural`     MuFaCCaL |< At
-                              {- `others` [ "mu'adday NAn_Nayn" ] -} ]
+                           {- `others`  [ "mu'adday NAn_Nayn" ] -} ]
 
  |> "' f .g" <| [
 
@@ -3353,7 +3353,7 @@ lexicon = listing "Lexicon's properties"
     -- >fgAn   >afogAn N       Afghans
     -- AfgAn   >afogAn N       Afghans
 
-    FaCLAn                    `noun`       {- OafogAn -}        [ "Afghans" ] ]
+    FaCLAn                    `noun`    {- OafogAn -}          [ "Afghans" ] ]
 
  |> "' f .g n" <| [
 
@@ -3361,7 +3361,7 @@ lexicon = listing "Lexicon's properties"
     -- >fgAn   >afogAn N       Afghans
     -- AfgAn   >afogAn N       Afghans
 
-    KaRDAS                    `noun`       {- OafogAn -}        [ "Afghans" ] ]
+    KaRDAS                    `noun`    {- OafogAn -}          [ "Afghans" ] ]
 
  |> "' f ^s" <| [
 
@@ -3369,7 +3369,7 @@ lexicon = listing "Lexicon's properties"
     -- >fy$    >afiy$  N/At    placard;poster
     -- Afy$    >afiy$  N/At    placard;poster
 
-    FaCIL                     `noun`       {- Oafiy$ -}         [ "placard", "poster" ] ]
+    FaCIL                     `noun`    {- Oafiy$ -}           [ "placard", "poster" ] ]
 
  |> "' f ^s n" <| [
 
@@ -3379,9 +3379,9 @@ lexicon = listing "Lexicon's properties"
     -- >fA$yn  >afA$iyn        Ndip    litanies
     -- AfA$yn  >afA$iyn        Ndip    litanies
 
-    KiRDIS                    `noun`       {- Iifo$iyn -}       [ "litany", "litanies" ]
+    KiRDIS                    `noun`    {- Iifo$iyn -}         [ "litany", "litanies" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'afA^siyn Ndip" ] -} ]
+                           {- `others`  [ "'afA^siyn Ndip" ] -} ]
 
  |> "' f f" <| [
 
@@ -3389,29 +3389,29 @@ lexicon = listing "Lexicon's properties"
     -- t>ff    ta>af~af        PV      complain;grumble
     -- t>ff    ta>af~af        IV      complain;grumble
 
-    TaFaCCaL                  `verb`       {- taOaf~af -}       [ "complain", "grumble" ],
+    TaFaCCaL                  `verb`    {- taOaf~af -}         [ "complain", "grumble" ],
 
     -- ;; >uf~_1
     -- >f      >uf~    FW      ugh!     [[>uf~/INTERJ]]
     -- Af      >uf~    FW      ugh!     [[>uf~/INTERJ]]
 
-    FuCL                      `noun`       {- Ouf~ -}           [ "ugh!" ],
+    FuCL                      `noun`    {- Ouf~ -}             [ "ugh!" ],
 
     -- ;; >afaf_1
     -- >ff     >afaf   N       displeasure;grumbling
     -- Aff     >afaf   N       displeasure;grumbling
 
-    FaCaL                     `noun`       {- Oafaf -}          [ "displeasure", "grumbling" ],
+    FaCaL                     `noun`    {- Oafaf -}            [ "displeasure", "grumbling" ],
 
     -- ;; ta>af~uf_1
     -- t>ff    ta>af~uf        NduAt   groaning;complaining
 
-    TaFaCCuL                  `noun`       {- taOaf~uf -}       [ "groaning", "complaining" ],
+    TaFaCCuL                  `noun`    {- taOaf~uf -}         [ "groaning", "complaining" ],
 
     -- ;; muta>af~if_1
     -- mt>ff   muta>af~if      Nall    grumpy;grouch;complaining;grumbling
 
-    MutaFaCCiL                `noun`       {- mutaOaf~if -}     [ "grumpy", "grouch", "complaining", "grumbling" ] ]
+    MutaFaCCiL                `noun`    {- mutaOaf~if -}       [ "grumpy", "grouch", "complaining", "grumbling" ] ]
 
  |> "' f k" <| [
 
@@ -3421,7 +3421,7 @@ lexicon = listing "Lexicon's properties"
     -- >fk     >ofik   IV_no-Pref-A    lie
     -- Afk     >ofik   IV_no-Pref-A    lie
 
-    FaCaL                     `verb`       {- Oafak-i -}        [ "lie" ]
+    FaCaL                     `verb`    {- Oafak-i -}          [ "lie" ]
                               `imperf`     FCiL,
 
     -- ;; >afok_1
@@ -3430,21 +3430,21 @@ lexicon = listing "Lexicon's properties"
     -- >fk     >afak   N       lying;falsehood
     -- Afk     >afak   N       lying;falsehood
 
-    FaCL                      `noun`       {- Oafok -}          [ "lying", "falsehood" ]
+    FaCL                      `noun`    {- Oafok -}            [ "lying", "falsehood" ]
                               `plural`     FaCaL
-                              {- `others` [ "'afak N" ] -},
+                           {- `others`  [ "'afak N" ] -},
 
     -- ;; >ufuwk_1
     -- >fwk    >ufuwk  N       lying;falsehood
     -- Afwk    >ufuwk  N       lying;falsehood
 
-    FuCUL                     `noun`       {- Oufuwk -}         [ "lying", "falsehood" ],
+    FuCUL                     `noun`    {- Oufuwk -}           [ "lying", "falsehood" ],
 
     -- ;; <ifok_1
     -- <fk     <ifok   Ndu     lie;untruth
     -- Afk     <ifok   Ndu     lie;untruth
 
-    FiCL                      `noun`       {- Iifok -}          [ "lie", "untruth" ],
+    FiCL                      `noun`    {- Iifok -}            [ "lie", "untruth" ],
 
     -- ;; >afiykap_1
     -- >fyk    >afiyk  Napdu   lie;untruth
@@ -3452,13 +3452,13 @@ lexicon = listing "Lexicon's properties"
     -- >fA}k   >afA}ik Ndip    lies;untruths
     -- AfA}k   >afA}ik Ndip    lies;untruths
 
-    FaCIL |< aT               `noun`       {- Oafiykap -}       [ "lie", "untruth", "lies", "untruths" ],
+    FaCIL |< aT               `noun`    {- Oafiykap -}         [ "lie", "untruth", "lies", "untruths" ],
 
     -- ;; >af~Ak_1
     -- >fAk    >af~Ak  Nall    liar
     -- AfAk    >af~Ak  Nall    liar
 
-    FaCCAL                    `noun`       {- Oaf~Ak -}         [ "liar" ] ]
+    FaCCAL                    `noun`    {- Oaf~Ak -}           [ "liar" ] ]
 
  |> "' f l" <| [
 
@@ -3470,7 +3470,7 @@ lexicon = listing "Lexicon's properties"
     -- >fl     >ofil   IV_no-Pref-A    disappear;fade away
     -- Afl     >ofil   IV_no-Pref-A    disappear;fade away
 
-    FaCaL                     `verb`       {- Oafal-ui -}       [ "disappear", "fade away" ]
+    FaCaL                     `verb`    {- Oafal-ui -}         [ "disappear", "fade away" ]
                               `imperf`     FCiL
                               `imperf`     FCuL,
 
@@ -3478,13 +3478,13 @@ lexicon = listing "Lexicon's properties"
     -- >fwl    >ufuwl  N       disappearance;decline;fading away
     -- Afwl    >ufuwl  N       disappearance;decline;fading away
 
-    FuCUL                     `noun`       {- Oufuwl -}         [ "disappearance", "decline", "fading away" ],
+    FuCUL                     `noun`    {- Oufuwl -}           [ "disappearance", "decline", "fading away" ],
 
     -- ;; |fil_1
     -- \|fl     |fil    Nall    passing;fading;transitory
     -- Afl     |fil    Nall    passing;fading;transitory
 
-    FACiL                     `noun`       {- \|fil -}          [ "passing", "fading", "transitory" ] ]
+    FACiL                     `noun`    {- \|fil -}            [ "passing", "fading", "transitory" ] ]
 
  |> "' f n" <| [
 
@@ -3494,14 +3494,14 @@ lexicon = listing "Lexicon's properties"
     -- >fn     >ofan   IV_no-Pref-A    be foolish
     -- Afn     >ofan   IV_no-Pref-A    be foolish
 
-    FaCiL                     `verb`       {- Oafin-a -}        [ "be foolish" ]
+    FaCiL                     `verb`    {- Oafin-a -}          [ "be foolish" ]
                               `imperf`     FCaL,
 
     -- ;; >afan_1
     -- >fn     >afan   N       foolishness
     -- Afn     >afan   N       foolishness
 
-    FaCaL                     `noun`       {- Oafan -}          [ "foolishness" ],
+    FaCaL                     `noun`    {- Oafan -}            [ "foolishness" ],
 
     -- ;; >afiyn_1
     -- >fyn    >afiyn  Nall    stupid;dull
@@ -3509,14 +3509,14 @@ lexicon = listing "Lexicon's properties"
     -- <fAn    <ifAn   Nall    stupid;dull
     -- AfAn    <ifAn   Nall    stupid;dull
 
-    FaCIL                     `noun`       {- Oafiyn -}         [ "stupid", "dull" ]
+    FaCIL                     `noun`    {- Oafiyn -}           [ "stupid", "dull" ]
                               `plural`     FiCAL
-                              {- `others` [ "'ifAn Nall" ] -},
+                           {- `others`  [ "'ifAn Nall" ] -},
 
     -- ;; ma>ofuwn_1
     -- m>fwn   ma>ofuwn        Nall    stupid;dull
 
-    MaFCUL                    `noun`       {- maOofuwn -}       [ "stupid", "dull" ],
+    MaFCUL                    `noun`    {- maOofuwn -}         [ "stupid", "dull" ],
 
     -- ;; <iyfAn_1
     -- <yfAn   <iyfAn  Nprop   Ivan
@@ -3524,9 +3524,9 @@ lexicon = listing "Lexicon's properties"
     -- <fAn    <ifAn   Nprop   Ivan
     -- AfAn    <ifAn   Nprop   Ivan
 
-    HICAL                     `noun`       {- IiyfAn -}         [ "Ivan" ]
+    HICAL                     `noun`    {- IiyfAn -}           [ "Ivan" ]
                               `plural`     FiCAL
-                              {- `others` [ "'ifAn Nprop" ] -},
+                           {- `others`  [ "'ifAn Nprop" ] -},
 
     -- ;; <iyfAn_1
     -- <yfAn   <iyfAn  Nprop   Ivan
@@ -3534,9 +3534,9 @@ lexicon = listing "Lexicon's properties"
     -- <fAn    <ifAn   Nprop   Ivan
     -- AfAn    <ifAn   Nprop   Ivan
 
-    FICAL                     `noun`       {- IiyfAn -}         [ "Ivan" ]
+    FICAL                     `noun`    {- IiyfAn -}           [ "Ivan" ]
                               `plural`     FiCAL
-                              {- `others` [ "'ifAn Nprop" ] -} ]
+                           {- `others`  [ "'ifAn Nprop" ] -} ]
 
  |> "' f q" <| [
 
@@ -3546,23 +3546,23 @@ lexicon = listing "Lexicon's properties"
     -- \|fAq    |fAq    N       horizons;provinces
     -- AfAq    |fAq    N       horizons;provinces
 
-    FuCuL                     `noun`       {- Oufuq -}          [ "horizon", "horizons", "provinces" ]
+    FuCuL                     `noun`    {- Oufuq -}            [ "horizon", "horizons", "provinces" ]
                               `plural`     HACAL
-                              {- `others` [ "'AfAq N" ] -},
+                           {- `others`  [ "'AfAq N" ] -},
 
     -- ;; >af~Aq_1
     -- >fAq    >af~Aq  Nall    vagabond;globe-trotter
     -- AfAq    >af~Aq  Nall    vagabond;globe-trotter
 
-    FaCCAL                    `noun`       {- Oaf~Aq -}         [ "vagabond", "globe-trotter" ],
+    FaCCAL                    `noun`    {- Oaf~Aq -}           [ "vagabond", "globe-trotter" ],
 
     -- ;; mi}ofAq_1
     -- m}fAq   mi}ofAq Ndu     periscope
     -- m|fq    ma|fiq  Ndip    periscopes
 
-    MiFCAL                    `noun`       {- mi}ofAq -}        [ "periscope", "periscopes" ]
+    MiFCAL                    `noun`    {- mi}ofAq -}          [ "periscope", "periscopes" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma'Afiq Ndip" ] -} ]
+                           {- `others`  [ "ma'Afiq Ndip" ] -} ]
 
  |> "' f r l" <| [
 
@@ -3570,7 +3570,7 @@ lexicon = listing "Lexicon's properties"
     -- >fryl   >aforiyl        Nprop   April
     -- Afryl   >aforiyl        Nprop   April
 
-    KaRDIS                    `noun`       {- Oaforiyl -}       [ "April" ] ]
+    KaRDIS                    `noun`    {- Oaforiyl -}         [ "April" ] ]
 
  |> "' f r q" <| [
 
@@ -3579,24 +3579,24 @@ lexicon = listing "Lexicon's properties"
     -- Afrq    >aforaq PV      Africanize
     -- &frq    &aforiq IV_yu   Africanize
 
-    KaRDaS                    `verb`       {- Oaforaq -}        [ "Africanize" ],
+    KaRDaS                    `verb`    {- Oaforaq -}          [ "Africanize" ],
 
     -- ;; ta>aforaq_1
     -- t>frq   ta>aforaq       PV_intr become Africanized
     -- t>frq   ta>aforaq       IV_intr become Africanized
 
-    TaKaRDaS                  `verb`       {- taOaforaq -}      [ "become Africanized" ],
+    TaKaRDaS                  `verb`    {- taOaforaq -}        [ "become Africanized" ],
 
     -- ;; >aforaqap_1
     -- >frq    >aforaq Nap     Africanization
     -- Afrq    >aforaq Nap     Africanization
 
-    KaRDaS |< aT              `noun`       {- Oaforaqap -}      [ "Africanization" ],
+    KaRDaS |< aT              `noun`    {- Oaforaqap -}        [ "Africanization" ],
 
     -- ;; muta>aforiq_1
     -- mt>frq  muta>aforiq     Nall    Africanized
 
-    MutaKaRDiS                `noun`       {- mutaOaforiq -}    [ "Africanized" ] ]
+    MutaKaRDiS                `noun`    {- mutaOaforiq -}      [ "Africanized" ] ]
 
  |> "' f r z" <| [
 
@@ -3606,9 +3606,9 @@ lexicon = listing "Lexicon's properties"
     -- >fAryz  >afAriyz        Ndip    curbs;sidewalks;edges
     -- AfAryz  >afAriyz        Ndip    curbs;sidewalks;edges
 
-    KiRDIS                    `noun`       {- Iiforiyz -}       [ "curb", "sidewalk", "edge", "curbs", "sidewalks", "edges" ]
+    KiRDIS                    `noun`    {- Iiforiyz -}         [ "curb", "sidewalk", "edge", "curbs", "sidewalks", "edges" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'afAriyz Ndip" ] -} ]
+                           {- `others`  [ "'afAriyz Ndip" ] -} ]
 
  |> "' f s t" <| [
 
@@ -3616,7 +3616,7 @@ lexicon = listing "Lexicon's properties"
     -- >fsyt   >ufosiyt        N0      offset
     -- Afsyt   >ufosiyt        N0      offset
 
-    KuRDIS                    `noun`       {- Oufosiyt -}       [ "offset" ] ]
+    KuRDIS                    `noun`    {- Oufosiyt -}         [ "offset" ] ]
 
  |> "' f y" <| [
 
@@ -3624,7 +3624,7 @@ lexicon = listing "Lexicon's properties"
     -- >fy     >afiy   Nprop   Avi
     -- Afy     >afiy   Nprop   Avi
 
-    FaCiL                     `noun`       {- Oafiy -}          [ "Avi" ] ]
+    FaCiL                     `noun`    {- Oafiy -}            [ "Avi" ] ]
 
  |> "' f y m" <| [
 
@@ -3634,7 +3634,7 @@ lexicon = listing "Lexicon's properties"
     -- >fywn   >afoyuwn        N       opium
     -- Afywn   >afoyuwn        N       opium
 
-    KaRDUS                    `noun`       {- Oafoyuwm -}       [ "opium" ] ]
+    KaRDUS                    `noun`    {- Oafoyuwm -}         [ "opium" ] ]
 
  |> "' h b" <| [
 
@@ -3644,19 +3644,19 @@ lexicon = listing "Lexicon's properties"
     -- &hb     &ah~ib  IV_yu   equip;put on alert
     -- &hb     &ah~ab  IV_Pass_yu      be equiped;be put on alert
 
-    FaCCaL                    `verb`       {- Oah~ab -}         [ "equip", "put on alert", "be equiped", "be put on alert" ],
+    FaCCaL                    `verb`    {- Oah~ab -}           [ "equip", "put on alert", "be equiped", "be put on alert" ],
 
     -- ;; ta>ah~ab_1
     -- t>hb    ta>ah~ab        PV_intr be ready;be on alert
     -- t>hb    ta>ah~ab        IV_intr be ready;be on alert
 
-    TaFaCCaL                  `verb`       {- taOah~ab -}       [ "be ready", "be on alert" ],
+    TaFaCCaL                  `verb`    {- taOah~ab -}         [ "be ready", "be on alert" ],
 
     -- ;; ta>ah~ab_2
     -- t>hb    ta>ah~ab        PV_intr be equipped
     -- t>hb    ta>ah~ab        IV_intr be equipped
 
-    TaFaCCaL                  `verb`       {- taOah~ab -}       [ "be equipped" ],
+    TaFaCCaL                  `verb`    {- taOah~ab -}         [ "be equipped" ],
 
     -- ;; >uhobap_1
     -- >hb     >uhob   Nap     preparation;alert
@@ -3664,20 +3664,20 @@ lexicon = listing "Lexicon's properties"
     -- >hb     >uhab   N       preparation;alert
     -- Ahb     >uhab   N       preparation;alert
 
-    FuCL |< aT                `noun`       {- Ouhobap -}        [ "preparation", "alert" ]
+    FuCL |< aT                `noun`    {- Ouhobap -}          [ "preparation", "alert" ]
                               `plural`     FuCaL
-                              {- `others` [ "'uhab N" ] -},
+                           {- `others`  [ "'uhab N" ] -},
 
     -- ;; ta>ah~ub_1
     -- t>hb    ta>ah~ub        Ndu     alert;preparedness
     -- t>hb    ta>ah~ub        NAt     preparations
 
-    TaFaCCuL                  `noun`       {- taOah~ub -}       [ "alert", "preparedness", "preparations" ],
+    TaFaCCuL                  `noun`    {- taOah~ub -}         [ "alert", "preparedness", "preparations" ],
 
     -- ;; muta>ah~ib_1
     -- mt>hb   muta>ah~ib      Nall    prepared;on alert
 
-    MutaFaCCiL                `noun`       {- mutaOah~ib -}     [ "prepared", "on alert" ],
+    MutaFaCCiL                `noun`    {- mutaOah~ib -}       [ "prepared", "on alert" ],
 
     -- ;; <ihAb_1
     -- <hAb    <ihAb   N       skin;hide
@@ -3685,9 +3685,9 @@ lexicon = listing "Lexicon's properties"
     -- >hb     >uhub   N       skins;hides
     -- Ahb     >uhub   N       skins;hides
 
-    FiCAL                     `noun`       {- IihAb -}          [ "skin", "hide", "skins", "hides" ]
+    FiCAL                     `noun`    {- IihAb -}            [ "skin", "hide", "skins", "hides" ]
                               `plural`     FuCuL
-                              {- `others` [ "'uhub N" ] -} ]
+                           {- `others`  [ "'uhub N" ] -} ]
 
  |> "' h l" <| [
 
@@ -3697,7 +3697,7 @@ lexicon = listing "Lexicon's properties"
     -- >hl     >ohil   IV_no-Pref-A    get married
     -- Ahl     >ohil   IV_no-Pref-A    get married
 
-    FaCaL                     `verb`       {- Oahal-ui -}       [ "get married" ]
+    FaCaL                     `verb`    {- Oahal-ui -}         [ "get married" ]
                               `imperf`     FCiL
                               `imperf`     FCuL,
 
@@ -3705,33 +3705,33 @@ lexicon = listing "Lexicon's properties"
     -- >hl     >ohal   IV_no-Pref-A    be familiar
     -- Ahl     >ohal   IV_no-Pref-A    be familiar
 
-    FaCiL                     `verb`       {- Oahil-a -}        [ "be familiar" ]
+    FaCiL                     `verb`    {- Oahil-a -}          [ "be familiar" ]
                               `imperf`     FCaL,
 
     -- ;; >uhil-a_1
     -- >hl     >ohal   IV_no-Pref-A    be populated
     -- Ahl     >ohal   IV_no-Pref-A    be populated
 
-    FuCiL                     `verb`       {- Ouhil-a -}        [ "be populated" ],
+    FuCiL                     `verb`    {- Ouhil-a -}          [ "be populated" ],
 
     -- ;; >ah~al_1
     -- &hl     &ah~il  IV_yu   train;certify;qualify;capacitate
     -- &hl     &ah~al  IV_Pass_yu      be trained;be certified;be qualified;be capacitated
 
-    FaCCaL                    `verb`       {- Oah~al -}         [ "train", "certify", "qualify", "capacitate", "be trained", "be certified", "be qualified", "be capacitated" ],
+    FaCCaL                    `verb`    {- Oah~al -}           [ "train", "certify", "qualify", "capacitate", "be trained", "be certified", "be qualified", "be capacitated" ],
 
     -- ;; ta>ah~al_1
     -- t>hl    ta>ah~al        PV_intr be qualified;merit
     -- t>hl    ta>ah~al        IV_intr be qualified;merit
 
-    TaFaCCaL                  `verb`       {- taOah~al -}       [ "be qualified", "merit" ],
+    TaFaCCaL                  `verb`    {- taOah~al -}         [ "be qualified", "merit" ],
 
     -- ;; {isota>ohal_1
     -- <st>hl  {isota>ohal     PV      merit;consider worthy
     -- Ast>hl  {isota>ohal     PV      merit;consider worthy
     -- st>hl   sota>ohil       IV      merit;consider worthy
 
-    IstaFCaL                  `verb`       {- AisotaOohal -}    [ "merit", "consider worthy" ],
+    IstaFCaL                  `verb`    {- AisotaOohal -}      [ "merit", "consider worthy" ],
 
     -- ;; >ahol_1
     -- >hl     >ahol   N       family;people
@@ -3743,85 +3743,85 @@ lexicon = listing "Lexicon's properties"
     -- >hAl    >ahAl   NK      families;indigenous people
     -- AhAl    >ahAl   NK      families;indigenous people
 
-    FaCL                      `noun`       {- Oahol -}          [ "family", "people", "families", "folk", "indigenous people" ]
+    FaCL                      `noun`    {- Oahol -}            [ "family", "people", "families", "folk", "indigenous people" ]
                               `plural`     FaCAL
-                              {- `others` [ "'ahAl NK" ] -},
+                           {- `others`  [ "'ahAl NK" ] -},
 
     -- ;; >ahol_2
     -- >hl     >ahol   Nall    qualified
     -- Ahl     >ahol   Nall    qualified
 
-    FaCL                      `noun`       {- Oahol -}          [ "qualified" ],
+    FaCL                      `noun`    {- Oahol -}            [ "qualified" ],
 
     -- ;; >aholAF_1
     -- >hl     >ahol   NF      welcome!     [[>ahol/ADV]]
     -- Ahl     >ahol   NF      welcome!     [[>ahol/ADV]]
 
-    FaCL |< aN                `noun`       {- OaholAF -}        [ "welcome!" ]
+    FaCL |< aN                `noun`    {- OaholAF -}          [ "welcome!" ]
                               `plural`     FaCL
-                              {- `others` [ "'ahl NF" ] -},
+                           {- `others`  [ "'ahl NF" ] -},
 
     -- ;; >aholiy~_1
     -- >hly    >aholiy~        N0      Ahly;Ahli
     -- Ahly    >aholiy~        N0      Ahly;Ahli
 
-    FaCL |< Iy                `adj`        {- Oaholiy~ -}       [ "Ahly", "Ahli" ],
+    FaCL |< Iy                `adj`     {- Oaholiy~ -}         [ "Ahly", "Ahli" ],
 
     -- ;; >aholiy~_2
     -- >hly    >aholiy~        Nall    civil;domestic;family     [[>aholiy~/ADJ]]
     -- Ahly    >aholiy~        Nall    civil;domestic;family     [[>aholiy~/ADJ]]
 
-    FaCL |< Iy                `adj`        {- Oaholiy~ -}       [ "civil", "domestic", "family" ],
+    FaCL |< Iy                `adj`     {- Oaholiy~ -}         [ "civil", "domestic", "family" ],
 
     -- ;; >aholiy~ap_1
     -- >hly    >aholiy~        Nap     aptitude;competence;qualification     [[>aholiy~/NOUN]]
     -- Ahly    >aholiy~        Nap     aptitude;competence;qualification     [[>aholiy~/NOUN]]
 
-    FaCL |< Iy |< aT          `noun`       {- Oaholiy~ap -}     [ "aptitude", "competence", "qualification" ],
+    FaCL |< Iy |< aT          `noun`    {- Oaholiy~ap -}       [ "aptitude", "competence", "qualification" ],
 
     -- ;; |hil_1
     -- \|hl     |hil    Nall    populated
     -- Ahl     |hil    Nall    populated
 
-    FACiL                     `noun`       {- \|hil -}          [ "populated" ],
+    FACiL                     `noun`    {- \|hil -}            [ "populated" ],
 
     -- ;; ma>ohuwl_1
     -- m>hwl   ma>ohuwl        Nall    populated;manned
     -- mAhwl   ma>ohuwl        Nall    populated;manned
 
-    MaFCUL                    `noun`       {- maOohuwl -}       [ "populated", "manned" ],
+    MaFCUL                    `noun`    {- maOohuwl -}         [ "populated", "manned" ],
 
     -- ;; ta>ohiyl_1
     -- t>hyl   ta>ohiyl        NduAt   certifying;qualifying;training;habilitating
     -- tAhyl   ta>ohiyl        NduAt   certifying;qualifying;training;habilitating
 
-    TaFCIL                    `noun`       {- taOohiyl -}       [ "certifying", "qualifying", "training", "habilitating" ],
+    TaFCIL                    `noun`    {- taOohiyl -}         [ "certifying", "qualifying", "training", "habilitating" ],
 
     -- ;; mu&ah~il_1
     -- m&hl    mu&ah~il        N-ap    qualifying     [[mu&ah~il/ADJ]]
     -- m&hl    mu&ah~il        NAt     qualifications;certifications
 
-    MuFaCCiL                  `adj`        {- muWah~il -}       [ "qualifying", "qualifications", "certifications" ],
+    MuFaCCiL                  `adj`     {- muWah~il -}         [ "qualifying", "qualifications", "certifications" ],
 
     -- ;; mu&ah~al_1
     -- m&hl    mu&ah~al        Nall    qualified;competent;certified     [[mu&ah~al/ADJ]]
 
-    MuFaCCaL                  `adj`        {- muWah~al -}       [ "qualified", "competent", "certified" ],
+    MuFaCCaL                  `adj`     {- muWah~al -}         [ "qualified", "competent", "certified" ],
 
     -- ;; ta>ah~ul_1
     -- t>hl    ta>ah~ul        NduAt   qualification;suitability;competency
 
-    TaFaCCuL                  `noun`       {- taOah~ul -}       [ "qualification", "suitability", "competency" ],
+    TaFaCCuL                  `noun`    {- taOah~ul -}         [ "qualification", "suitability", "competency" ],
 
     -- ;; muta>ah~il_1
     -- mt>hl   muta>ah~il      Nall    qualified;married
 
-    MutaFaCCiL                `noun`       {- mutaOah~il -}     [ "qualified", "married" ],
+    MutaFaCCiL                `noun`    {- mutaOah~il -}       [ "qualified", "married" ],
 
     -- ;; musota>ohil_1
     -- mst>hl  musota>ohil     Nall    worthy;entitled;qualified
 
-    MustaFCiL                 `noun`       {- musotaOohil -}    [ "worthy", "entitled", "qualified" ] ]
+    MustaFCiL                 `noun`    {- musotaOohil -}      [ "worthy", "entitled", "qualified" ] ]
 
  |> "' k ^s y" <| [
 
@@ -3829,7 +3829,7 @@ lexicon = listing "Lexicon's properties"
     -- >k$Ay   >ako$Ay Nprop   Akshay;Akshai
     -- Ak$Ay   >ako$Ay Nprop   Akshay;Akshai
 
-    KaRDAS                    `noun`       {- Oako$Ay -}        [ "Akshay", "Akshai" ] ]
+    KaRDAS                    `noun`    {- Oako$Ay -}          [ "Akshay", "Akshai" ] ]
 
  |> "' k d" <| [
 
@@ -3839,55 +3839,55 @@ lexicon = listing "Lexicon's properties"
     -- &kd     &ak~id  IV_yu   affirm;assure;confirm;guarantee
     -- &kd     &ak~ad  IV_Pass_yu      be affirmed;be assured;be confirmed;be guaranteed
 
-    FaCCaL                    `verb`       {- Oak~ad -}         [ "affirm", "assure", "confirm", "guarantee", "be affirmed", "be assured", "be confirmed", "be guaranteed" ],
+    FaCCaL                    `verb`    {- Oak~ad -}           [ "affirm", "assure", "confirm", "guarantee", "be affirmed", "be assured", "be confirmed", "be guaranteed" ],
 
     -- ;; ta>ak~ad_1
     -- t>kd    ta>ak~ad        PV      ascertain
     -- t>kd    ta>ak~ad        IV      ascertain
 
-    TaFaCCaL                  `verb`       {- taOak~ad -}       [ "ascertain" ],
+    TaFaCCaL                  `verb`    {- taOak~ad -}         [ "ascertain" ],
 
     -- ;; >akiyd_1
     -- >kyd    >akiyd  N/ap    certain;definite
     -- Akyd    >akiyd  N/ap    certain;definite
 
-    FaCIL                     `noun`       {- Oakiyd -}         [ "certain", "definite" ],
+    FaCIL                     `noun`    {- Oakiyd -}           [ "certain", "definite" ],
 
     -- ;; >akiydAF_1
     -- >kyd    >akiyd  NF      certainly;surely     [[>akiyd/ADV]]
     -- Akyd    >akiyd  NF      certainly;surely     [[>akiyd/ADV]]
 
-    FaCIL |< aN               `noun`       {- OakiydAF -}       [ "certainly", "surely" ]
+    FaCIL |< aN               `noun`    {- OakiydAF -}         [ "certainly", "surely" ]
                               `plural`     FaCIL
-                              {- `others` [ "'akiyd NF" ] -},
+                           {- `others`  [ "'akiyd NF" ] -},
 
     -- ;; ta>okiyd_1
     -- t>kyd   ta>okiyd        NduAt   confirmation;affirmation;guarantee
     -- tAkyd   ta>okiyd        NduAt   confirmation;affirmation;guarantee
 
-    TaFCIL                    `noun`       {- taOokiyd -}       [ "confirmation", "affirmation", "guarantee" ],
+    TaFCIL                    `noun`    {- taOokiyd -}         [ "confirmation", "affirmation", "guarantee" ],
 
     -- ;; mu&ak~id_1
     -- m&kd    mu&ak~id        Nall    assuring;confirming;affirming;guaranteeing
 
-    MuFaCCiL                  `noun`       {- muWak~id -}       [ "assuring", "confirming", "affirming", "guaranteeing" ],
+    MuFaCCiL                  `noun`    {- muWak~id -}         [ "assuring", "confirming", "affirming", "guaranteeing" ],
 
     -- ;; mu&ak~ad_1
     -- m&kd    mu&ak~ad        Nall    certain;guaranteed     [[mu&ak~ad/ADJ]]
 
-    MuFaCCaL                  `adj`        {- muWak~ad -}       [ "certain", "guaranteed" ],
+    MuFaCCaL                  `adj`     {- muWak~ad -}         [ "certain", "guaranteed" ],
 
     -- ;; ta>ak~ud_1
     -- t>kd    ta>ak~ud        NduAt   assurance;conviction
     -- tAkd    ta>ak~ud        NduAt   assurance;conviction
 
-    TaFaCCuL                  `noun`       {- taOak~ud -}       [ "assurance", "conviction" ],
+    TaFaCCuL                  `noun`    {- taOak~ud -}         [ "assurance", "conviction" ],
 
     -- ;; muta>ak~id_1
     -- mt>kd   muta>ak~id      Nall    certain;sure
     -- mtAkd   muta>ak~id      Nall    certain;sure
 
-    MutaFaCCiL                `noun`       {- mutaOak~id -}     [ "certain", "sure" ] ]
+    MutaFaCCiL                `noun`    {- mutaOak~id -}       [ "certain", "sure" ] ]
 
  |> "' k d r" <| [
 
@@ -3895,7 +3895,7 @@ lexicon = listing "Lexicon's properties"
     -- >kAdyr  >akAdiyr        N       Agadir
     -- AkAdyr  >akAdiyr        N       Agadir
 
-    KaRADIS                   `noun`       {- OakAdiyr -}       [ "Agadir" ] ]
+    KaRADIS                   `noun`    {- OakAdiyr -}         [ "Agadir" ] ]
 
  |> "' k d y" <| [
 
@@ -3905,7 +3905,7 @@ lexicon = listing "Lexicon's properties"
     -- AkAdy   >akAdiy~        Nall    Akkadian     [[>akAdiy~/NOUN]]
     -- AkAdy   >akAdiy~        Nall    Akkadian     [[>akAdiy~/ADJ]]
 
-    KaRADIS                   `adj`        {- OakAdiy~ -}       [ "Akkadian" ] ]
+    KaRADIS                   `adj`     {- OakAdiy~ -}         [ "Akkadian" ] ]
 
  |> "' k f" <| [
 
@@ -3913,7 +3913,7 @@ lexicon = listing "Lexicon's properties"
     -- >kAf    >ukAf   N       packsaddle
     -- AkAf    >ukAf   N       packsaddle
 
-    FuCAL                     `noun`       {- OukAf -}          [ "packsaddle" ] ]
+    FuCAL                     `noun`    {- OukAf -}            [ "packsaddle" ] ]
 
  |> "' k l" <| [
 
@@ -3925,7 +3925,7 @@ lexicon = listing "Lexicon's properties"
     -- kl      kul     IV_need-Pref-|  eat;consume
     -- kl      kul     CV      eat
 
-    FaCaL                     `verb`       {- Oakal-u -}        [ "eat", "consume" ]
+    FaCaL                     `verb`    {- Oakal-u -}          [ "eat", "consume" ]
                               `imperf`     FCuL
                               `imperf`     CuL
                               `second`     CuL,
@@ -3936,7 +3936,7 @@ lexicon = listing "Lexicon's properties"
     -- &kl     &ak~il  IV_yu   feed
     -- &kl     &ak~al  IV_Pass_yu      be fed
 
-    FaCCaL                    `verb`       {- Oak~al -}         [ "feed", "be fed" ],
+    FaCCaL                    `verb`    {- Oak~al -}           [ "feed", "be fed" ],
 
     -- ;; |kal_1
     -- \|kl     |kal    PV      feed
@@ -3944,19 +3944,19 @@ lexicon = listing "Lexicon's properties"
     -- &kl     &okil   IV_no-Pref-A_yu feed
     -- wkl     wkil    IV_need-Pref-A_yu       feed
 
-    FACaL                     `verb`       {- \|kal -}          [ "feed" ],
+    FACaL                     `verb`    {- \|kal -}            [ "feed" ],
 
     -- ;; ta>ak~al_1
     -- t>kl    ta>ak~al        PV_intr be corroded;be eaten
     -- t>kl    ta>ak~al        IV_intr be corroded;be eaten
 
-    TaFaCCaL                  `verb`       {- taOak~al -}       [ "be corroded", "be eaten" ],
+    TaFaCCaL                  `verb`    {- taOak~al -}         [ "be corroded", "be eaten" ],
 
     -- ;; ta|kal_1
     -- t|kl    ta|kal  PV_intr be corroded;be eaten
     -- t|kl    ta|kal  IV_intr be corroded;be eaten
 
-    TaFACaL                   `verb`       {- ta|kal -}         [ "be corroded", "be eaten" ],
+    TaFACaL                   `verb`    {- ta|kal -}           [ "be corroded", "be eaten" ],
 
     -- ;; {i}otakal_1
     -- <}tkl   {i}otakal       PV      erode;corrode
@@ -3965,24 +3965,24 @@ lexicon = listing "Lexicon's properties"
     -- Atkl    >otakil IV_no-Pref-A    erode;corrode
     -- tkl     takil   IV_need-Pref-|  erode;corrode
 
-    IFtaCaL                   `verb`       {- Ai}otakal -}      [ "erode", "corrode" ],
+    IFtaCaL                   `verb`    {- Ai}otakal -}        [ "erode", "corrode" ],
 
     -- ;; >akol_1
     -- >kl     >akol   N       eating;consumption
     -- Akl     >akol   N       eating;consumption
 
-    FaCL                      `noun`       {- Oakol -}          [ "eating", "consumption" ],
+    FaCL                      `noun`    {- Oakol -}            [ "eating", "consumption" ],
 
     -- ;; ma>okal_1
     -- m>kl    ma>okal N       eating;consumption
 
-    MaFCaL                    `noun`       {- maOokal -}        [ "eating", "consumption" ],
+    MaFCaL                    `noun`    {- maOokal -}          [ "eating", "consumption" ],
 
     -- ;; >akol_2
     -- >kl     >akol   Ndu     food;meal
     -- Akl     >akol   Ndu     food;meal
 
-    FaCL                      `noun`       {- Oakol -}          [ "food", "meal" ],
+    FaCL                      `noun`    {- Oakol -}            [ "food", "meal" ],
 
     -- ;; >akolap_1
     -- >kl     >akol   Napdu   meal;food;dish
@@ -3990,100 +3990,100 @@ lexicon = listing "Lexicon's properties"
     -- >kl     >akal   NAt     meals;foods;dishes
     -- Akl     >akal   NAt     meals;foods;dishes
 
-    FaCL |< aT                `noun`       {- Oakolap -}        [ "meal", "food", "dish", "meals", "foods", "dishes" ]
+    FaCL |< aT                `noun`    {- Oakolap -}          [ "meal", "food", "dish", "meals", "foods", "dishes" ]
                               `plural`     FaCaL |< At,
 
     -- ;; >ukul_1
     -- >kl     >ukul   N       fruit
     -- Akl     >ukul   N       fruit
 
-    FuCuL                     `noun`       {- Oukul -}          [ "fruit" ],
+    FuCuL                     `noun`    {- Oukul -}            [ "fruit" ],
 
     -- ;; |kil_1
     -- \|kl     |kil    Nall    eater;eating
     -- Akl     |kil    Nall    eater;eating
 
-    FACiL                     `noun`       {- \|kil -}          [ "eater", "eating" ],
+    FACiL                     `noun`    {- \|kil -}            [ "eater", "eating" ],
 
     -- ;; |kilap_1
     -- \|kl     |kil    Nap     gangrenous
     -- Akl     |kil    Nap     gangrenous
 
-    FACiL |< aT               `noun`       {- \|kilap -}        [ "gangrenous" ],
+    FACiL |< aT               `noun`    {- \|kilap -}          [ "gangrenous" ],
 
     -- ;; mu&Akil_1
     -- m&Akl   mu&Akil Nall    dinning companion
 
-    MuFACiL                   `noun`       {- muWAkil -}        [ "dinning companion" ],
+    MuFACiL                   `noun`    {- muWAkil -}          [ "dinning companion" ],
 
     -- ;; >ukAl_1
     -- >kAl    >ukAl   N       gangrene
     -- AkAl    >ukAl   N       gangrene
 
-    FuCAL                     `noun`       {- OukAl -}          [ "gangrene" ],
+    FuCAL                     `noun`    {- OukAl -}            [ "gangrene" ],
 
     -- ;; >ukAliy~_1
     -- >kAly   >ukAliy~        Nall    gangrenous     [[>ukAliy~/ADJ]]
     -- AkAly   >ukAliy~        Nall    gangrenous     [[>ukAliy~/ADJ]]
 
-    FuCAL |< Iy               `adj`        {- OukAliy~ -}       [ "gangrenous" ],
+    FuCAL |< Iy               `adj`     {- OukAliy~ -}         [ "gangrenous" ],
 
     -- ;; >ak~Al_1
     -- >kAl    >ak~Al  N       voracious;glutton
     -- AkAl    >ak~Al  N       voracious;glutton
 
-    FaCCAL                    `noun`       {- Oak~Al -}         [ "voracious", "glutton" ],
+    FaCCAL                    `noun`    {- Oak~Al -}           [ "voracious", "glutton" ],
 
     -- ;; >akiyl_1
     -- >kyl    >akiyl  Nall    voracious;glutton
     -- Akyl    >akiyl  Nall    voracious;glutton
 
-    FaCIL                     `noun`       {- Oakiyl -}         [ "voracious", "glutton" ],
+    FaCIL                     `noun`    {- Oakiyl -}           [ "voracious", "glutton" ],
 
     -- ;; >akuwl_1
     -- >kwl    >akuwl  N       voracious;glutton
     -- Akwl    >akuwl  N       voracious;glutton
 
-    FaCUL                     `noun`       {- Oakuwl -}         [ "voracious", "glutton" ],
+    FaCUL                     `noun`    {- Oakuwl -}           [ "voracious", "glutton" ],
 
     -- ;; ma>okal_2
     -- m>kl    ma>okal Ndu     food;nourishment
     -- m|kl    ma|kil  Ndip    food;nourishment
 
-    MaFCaL                    `noun`       {- maOokal -}        [ "food", "nourishment" ]
+    MaFCaL                    `noun`    {- maOokal -}          [ "food", "nourishment" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma'Akil Ndip" ] -},
+                           {- `others`  [ "ma'Akil Ndip" ] -},
 
     -- ;; ma>okuwl_1
     -- m>kwl   ma>okuwl        N/ap    edible;foodstuff
 
-    MaFCUL                    `noun`       {- maOokuwl -}       [ "edible", "foodstuff" ],
+    MaFCUL                    `noun`    {- maOokuwl -}         [ "edible", "foodstuff" ],
 
     -- ;; ta>ak~ul_1
     -- t>kl    ta>ak~ul        NduAt   erosion;corrosion
 
-    TaFaCCuL                  `noun`       {- taOak~ul -}       [ "erosion", "corrosion" ],
+    TaFaCCuL                  `noun`    {- taOak~ul -}         [ "erosion", "corrosion" ],
 
     -- ;; ta|kul_1
     -- t|kl    ta|kul  NduAt   corrosion;erosion
 
-    TaFACuL                   `noun`       {- ta|kul -}         [ "corrosion", "erosion" ],
+    TaFACuL                   `noun`    {- ta|kul -}           [ "corrosion", "erosion" ],
 
     -- ;; {i}otikAl_1
     -- <}tkAl  {i}otikAl       NduAt   erosion;corrosion
     -- A}tkAl  {i}otikAl       NduAt   erosion;corrosion
 
-    IFtiCAL                   `noun`       {- Ai}otikAl -}      [ "erosion", "corrosion" ],
+    IFtiCAL                   `noun`    {- Ai}otikAl -}        [ "erosion", "corrosion" ],
 
     -- ;; muta>ak~il_1
     -- mt>kl   muta>ak~il      N-ap    corroded;eroded
 
-    MutaFaCCiL                `noun`       {- mutaOak~il -}     [ "corroded", "eroded" ],
+    MutaFaCCiL                `noun`    {- mutaOak~il -}       [ "corroded", "eroded" ],
 
     -- ;; muta|kil_1
     -- mt|kl   muta|kil        N-ap    eroded;corroded
 
-    MutaFACiL                 `noun`       {- muta|kil -}       [ "eroded", "corroded" ] ]
+    MutaFACiL                 `noun`    {- muta|kil -}         [ "eroded", "corroded" ] ]
 
  |> "' k m" <| [
 
@@ -4099,18 +4099,18 @@ lexicon = listing "Lexicon's properties"
     -- <kAm    <ikAm   N       hills;reefs;heaps
     -- AkAm    <ikAm   N       hills;reefs;heaps
 
-    FaCaL |< aT               `noun`       {- Oakamap -}        [ "hill", "reef", "heap", "hills", "reefs", "heaps" ]
+    FaCaL |< aT               `noun`    {- Oakamap -}          [ "hill", "reef", "heap", "hills", "reefs", "heaps" ]
                               `plural`     FuCuL
                               `plural`     FaCaL
                               `plural`     HACAL
                               `plural`     FiCAL
-                              {- `others` [ "'ukum N", "'akam N", "'AkAm N", "'ikAm N" ] -},
+                           {- `others`  [ "'ukum N", "'akam N", "'AkAm N", "'ikAm N" ] -},
 
     -- ;; >akamiy~_1
     -- >kmy    >akamiy~        N-ap    hilly
     -- Akmy    >akamiy~        N-ap    hilly
 
-    FaCaL |< Iy               `adj`        {- Oakamiy~ -}       [ "hilly" ] ]
+    FaCaL |< Iy               `adj`     {- Oakamiy~ -}         [ "hilly" ] ]
 
  |> "' k r" <| [
 
@@ -4120,7 +4120,7 @@ lexicon = listing "Lexicon's properties"
     -- >kr     >okir   IV_no-Pref-A    cultivate
     -- Akr     >okir   IV_no-Pref-A    cultivate
 
-    FaCaL                     `verb`       {- Oakar-i -}        [ "cultivate" ]
+    FaCaL                     `verb`    {- Oakar-i -}          [ "cultivate" ]
                               `imperf`     FCiL,
 
     -- ;; |kar_1
@@ -4128,35 +4128,35 @@ lexicon = listing "Lexicon's properties"
     -- Akr     |kar    PV      farm;sharecrop
     -- &Akr    &Akir   IV_yu   farm;sharecrop
 
-    FACaL                     `verb`       {- \|kar -}          [ "farm", "sharecrop" ],
+    FACaL                     `verb`    {- \|kar -}            [ "farm", "sharecrop" ],
 
     -- ;; >akor_1
     -- >kr     >akor   N       cultivation
     -- Akr     >akor   N       cultivation
 
-    FaCL                      `noun`       {- Oakor -}          [ "cultivation" ],
+    FaCL                      `noun`    {- Oakor -}            [ "cultivation" ],
 
     -- ;; >ak~Ar_1
     -- >kAr    >ak~Ar  Nall    farmer;plowman
     -- AkAr    >ak~Ar  Nall    farmer;plowman
 
-    FaCCAL                    `noun`       {- Oak~Ar -}         [ "farmer", "plowman" ],
+    FaCCAL                    `noun`    {- Oak~Ar -}           [ "farmer", "plowman" ],
 
     -- ;; <ikArap_1
     -- <kAr    <ikAr   Nap     farming;sharecropping
     -- AkAr    <ikAr   Nap     farming;sharecropping
 
-    FiCAL |< aT               `noun`       {- IikArap -}        [ "farming", "sharecropping" ],
+    FiCAL |< aT               `noun`    {- IikArap -}          [ "farming", "sharecropping" ],
 
     -- ;; mu&Akarap_1
     -- m&Akr   mu&Akar NapAt   farming;sharecropping
 
-    MuFACaL |< aT             `noun`       {- muWAkarap -}      [ "farming", "sharecropping" ],
+    MuFACaL |< aT             `noun`    {- muWAkarap -}        [ "farming", "sharecropping" ],
 
     -- ;; mu&Akir_1
     -- m&Akr   mu&Akir Nall    farmer;sharecropper
 
-    MuFACiL                   `noun`       {- muWAkir -}        [ "farmer", "sharecropper" ],
+    MuFACiL                   `noun`    {- muWAkir -}          [ "farmer", "sharecropper" ],
 
     -- ;; >ukorap_1
     -- >kr     >ukor   Napdu   ball bearing
@@ -4164,9 +4164,9 @@ lexicon = listing "Lexicon's properties"
     -- >kr     >ukar   N       ball bearings
     -- Akr     >ukar   N       ball bearings
 
-    FuCL |< aT                `noun`       {- Oukorap -}        [ "ball bearing", "ball bearings" ]
+    FuCL |< aT                `noun`    {- Oukorap -}          [ "ball bearing", "ball bearings" ]
                               `plural`     FuCaL
-                              {- `others` [ "'ukar N" ] -} ]
+                           {- `others`  [ "'ukar N" ] -} ]
 
  |> "' k s" <| [
 
@@ -4174,13 +4174,13 @@ lexicon = listing "Lexicon's properties"
     -- <ks     <ikos   N0      X
     -- Aks     <ikos   N0      X
 
-    FiCL                      `noun`       {- Iikos -}          [ "X" ],
+    FiCL                      `noun`    {- Iikos -}            [ "X" ],
 
     -- ;; >akiys_1
     -- >kys    >akiys  Nprop   Akis
     -- Akys    >akiys  Nprop   Akis
 
-    FaCIL                     `noun`       {- Oakiys -}         [ "Akis" ] ]
+    FaCIL                     `noun`    {- Oakiys -}           [ "Akis" ] ]
 
  |> "' k s ^g" <| [
 
@@ -4189,19 +4189,19 @@ lexicon = listing "Lexicon's properties"
     -- Aksj    >akosaj PV      oxygenate
     -- &ksj    &akosij IV_yu   oxygenate
 
-    KaRDaS                    `verb`       {- Oakosaj -}        [ "oxygenate" ],
+    KaRDaS                    `verb`    {- Oakosaj -}          [ "oxygenate" ],
 
     -- ;; ta>akosaj_1
     -- t>ksj   ta>akosaj       PV_intr be oxygenated
     -- t>ksj   ta>akosaj       IV_intr be oxygenated
 
-    TaKaRDaS                  `verb`       {- taOakosaj -}      [ "be oxygenated" ],
+    TaKaRDaS                  `verb`    {- taOakosaj -}        [ "be oxygenated" ],
 
     -- ;; >akosajap_1
     -- >ksj    >akosaj Nap     oxygenation
     -- Aksj    >akosaj Nap     oxygenation
 
-    KaRDaS |< aT              `noun`       {- Oakosajap -}      [ "oxygenation" ] ]
+    KaRDaS |< aT              `noun`    {- Oakosajap -}        [ "oxygenation" ] ]
 
  |> "' k s d" <| [
 
@@ -4210,19 +4210,19 @@ lexicon = listing "Lexicon's properties"
     -- Aksd    >akosad PV      oxidize;rust
     -- &ksd    &akosid IV_yu   oxidize;rust
 
-    KaRDaS                    `verb`       {- Oakosad -}        [ "oxidize", "rust" ],
+    KaRDaS                    `verb`    {- Oakosad -}          [ "oxidize", "rust" ],
 
     -- ;; ta>akosad_1
     -- t>ksd   ta>akosad       PV_intr be oxidized;be rusty
     -- t>ksd   ta>akosad       IV_intr be oxidized;be rusty
 
-    TaKaRDaS                  `verb`       {- taOakosad -}      [ "be oxidized", "be rusty" ],
+    TaKaRDaS                  `verb`    {- taOakosad -}        [ "be oxidized", "be rusty" ],
 
     -- ;; >akosadap_1
     -- >ksd    >akosad Nap     oxidation
     -- Aksd    >akosad Nap     oxidation
 
-    KaRDaS |< aT              `noun`       {- Oakosadap -}      [ "oxidation" ],
+    KaRDaS |< aT              `noun`    {- Oakosadap -}        [ "oxidation" ],
 
     -- ;; >ukosiyd_1
     -- >ksyd   >ukosiyd        N       oxide
@@ -4230,24 +4230,24 @@ lexicon = listing "Lexicon's properties"
     -- >kAsyd  >akAsiyd        Ndip    oxides
     -- AkAsyd  >akAsiyd        Ndip    oxides
 
-    KuRDIS                    `noun`       {- Oukosiyd -}       [ "oxide", "oxides" ]
+    KuRDIS                    `noun`    {- Oukosiyd -}         [ "oxide", "oxides" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'akAsiyd Ndip" ] -},
+                           {- `others`  [ "'akAsiyd Ndip" ] -},
 
     -- ;; mu&akosid_1
     -- m&ksd   mu&akosid       Nall    oxidant;oxidizing agent
 
-    MuKaRDiS                  `noun`       {- muWakosid -}      [ "oxidant", "oxidizing agent" ],
+    MuKaRDiS                  `noun`    {- muWakosid -}        [ "oxidant", "oxidizing agent" ],
 
     -- ;; mu&akosad_1
     -- m&ksd   mu&akosad       Nall    oxidized
 
-    MuKaRDaS                  `noun`       {- muWakosad -}      [ "oxidized" ],
+    MuKaRDaS                  `noun`    {- muWakosad -}        [ "oxidized" ],
 
     -- ;; ta>akosud_1
     -- t>ksd   ta>akosud       NduAt   oxidation
 
-    TaKaRDuS                  `noun`       {- taOakosud -}      [ "oxidation" ] ]
+    TaKaRDuS                  `noun`    {- taOakosud -}        [ "oxidation" ] ]
 
  |> "' k s r" <| [
 
@@ -4255,7 +4255,7 @@ lexicon = listing "Lexicon's properties"
     -- <ksyr   <ikosiyr        N       elixir
     -- Aksyr   <ikosiyr        N       elixir
 
-    KiRDIS                    `noun`       {- Iikosiyr -}       [ "elixir" ] ]
+    KiRDIS                    `noun`    {- Iikosiyr -}         [ "elixir" ] ]
 
  |> "' l '" <| [
 
@@ -4273,7 +4273,7 @@ lexicon = listing "Lexicon's properties"
     -- <ylA'   <iylA'  NAt     oaths
     -- AylA'   <iylA'  NAt     oaths
 
-    FICAL                     `noun`       {- IiylA' -}         [ "oath", "oaths" ],
+    FICAL                     `noun`    {- IiylA' -}           [ "oath", "oaths" ],
 
     -- ;; <iylA'_1
     -- <ylA'   <iylA'  N0_Nh   oath
@@ -4289,7 +4289,7 @@ lexicon = listing "Lexicon's properties"
     -- <ylA'   <iylA'  NAt     oaths
     -- AylA'   <iylA'  NAt     oaths
 
-    HICAL                     `noun`       {- IiylA' -}         [ "oath", "oaths" ],
+    HICAL                     `noun`    {- IiylA' -}           [ "oath", "oaths" ],
 
     -- ;; |lA'_1
     -- \|lA'    |lA'    N0_Nh   benefits;blessings
@@ -4299,7 +4299,7 @@ lexicon = listing "Lexicon's properties"
     -- \|lA}    |lA}    Nhy     benefits;blessings
     -- AlA}    |lA}    Nhy     benefits;blessings
 
-    HACAL                     `noun`       {- \|lA' -}          [ "benefits", "blessings" ] ]
+    HACAL                     `noun`    {- \|lA' -}            [ "benefits", "blessings" ] ]
 
  |> "' l b" <| [
 
@@ -4311,7 +4311,7 @@ lexicon = listing "Lexicon's properties"
     -- >lb     >olib   IV_no-Pref-A    rally;assemble;gather
     -- Alb     >olib   IV_no-Pref-A    rally;assemble;gather
 
-    FaCaL                     `verb`       {- Oalab-ui -}       [ "rally", "assemble", "gather" ]
+    FaCaL                     `verb`    {- Oalab-ui -}         [ "rally", "assemble", "gather" ]
                               `imperf`     FCuL
                               `imperf`     FCiL,
 
@@ -4321,47 +4321,47 @@ lexicon = listing "Lexicon's properties"
     -- &lb     &al~ib  IV_yu   rally;assemble;gather
     -- &lb     &al~ab  IV_Pass_yu      be rallied;be assembled
 
-    FaCCaL                    `verb`       {- Oal~ab -}         [ "rally", "assemble", "gather", "be rallied", "be assembled" ],
+    FaCCaL                    `verb`    {- Oal~ab -}           [ "rally", "assemble", "gather", "be rallied", "be assembled" ],
 
     -- ;; ta>al~ab_1
     -- t>lb    ta>al~ab        PV      rally;assemble;gather
     -- t>lb    ta>al~ab        IV      rally;assemble;gather
 
-    TaFaCCaL                  `verb`       {- taOal~ab -}       [ "rally", "assemble", "gather" ],
+    TaFaCCaL                  `verb`    {- taOal~ab -}         [ "rally", "assemble", "gather" ],
 
     -- ;; ta>oliyb_1
     -- t>lyb   ta>oliyb        NduAt   rallying;assembling
 
-    TaFCIL                    `noun`       {- taOoliyb -}       [ "rallying", "assembling" ],
+    TaFCIL                    `noun`    {- taOoliyb -}         [ "rallying", "assembling" ],
 
     -- ;; ta>al~ub_1
     -- t>lb    ta>al~ub        Ndu     gathering;rally;assembly
     -- t>lb    ta>al~ub        NAt     gatherings;rallies;assemblies
 
-    TaFaCCuL                  `noun`       {- taOal~ub -}       [ "gathering", "rally", "assembly", "gatherings", "rallies", "assemblies" ],
+    TaFaCCuL                  `noun`    {- taOal~ub -}         [ "gathering", "rally", "assembly", "gatherings", "rallies", "assemblies" ],
 
     -- ;; mu&al~ib_1
     -- m&lb    mu&al~ib        Nall    rally leader
 
-    MuFaCCiL                  `noun`       {- muWal~ib -}       [ "rally leader" ],
+    MuFaCCiL                  `noun`    {- muWal~ib -}         [ "rally leader" ],
 
     -- ;; >alob_1
     -- >lb     >alob   N0      Alps
     -- Alb     >alob   N0      Alps
 
-    FaCL                      `noun`       {- Oalob -}          [ "Alps" ],
+    FaCL                      `noun`    {- Oalob -}            [ "Alps" ],
 
     -- ;; >alobiy~_1
     -- >lby    >alobiy~        N       Alpine
     -- Alby    >alobiy~        N       Alpine
 
-    FaCL |< Iy                `adj`        {- Oalobiy~ -}       [ "Alpine" ],
+    FaCL |< Iy                `adj`     {- Oalobiy~ -}         [ "Alpine" ],
 
     -- ;; >alobAn_1
     -- >lbAn   >alobAn N       Albanians
     -- AlbAn   >alobAn N       Albanians
 
-    FaCLAn                    `noun`       {- OalobAn -}        [ "Albanians" ],
+    FaCLAn                    `noun`    {- OalobAn -}          [ "Albanians" ],
 
     -- ;; >alobAniy~_1
     -- >lbAny  >alobAniy~      Nall    Albanian     [[>alobAniy~/NOUN]]
@@ -4369,7 +4369,7 @@ lexicon = listing "Lexicon's properties"
     -- AlbAny  >alobAniy~      Nall    Albanian     [[>alobAniy~/NOUN]]
     -- AlbAny  >alobAniy~      Nall    Albanian     [[>alobAniy~/ADJ]]
 
-    FaCLAn |< Iy              `adj`        {- OalobAniy~ -}     [ "Albanian" ] ]
+    FaCLAn |< Iy              `adj`     {- OalobAniy~ -}       [ "Albanian" ] ]
 
  |> "' l b m" <| [
 
@@ -4377,7 +4377,7 @@ lexicon = listing "Lexicon's properties"
     -- >lbwm   >alobuwm        N       album
     -- Albwm   >alobuwm        N       album
 
-    KaRDUS                    `noun`       {- Oalobuwm -}       [ "album" ] ]
+    KaRDUS                    `noun`    {- Oalobuwm -}         [ "album" ] ]
 
  |> "' l b r" <| [
 
@@ -4385,7 +4385,7 @@ lexicon = listing "Lexicon's properties"
     -- >lbyr   >alobiyr        Nprop   Albert
     -- Albyr   >alobiyr        Nprop   Albert
 
-    KaRDIS                    `noun`       {- Oalobiyr -}       [ "Albert" ] ]
+    KaRDIS                    `noun`    {- Oalobiyr -}         [ "Albert" ] ]
 
  |> "' l f" <| [
 
@@ -4393,7 +4393,7 @@ lexicon = listing "Lexicon's properties"
     -- >lf     >olaf   IV_no-Pref-A    be familiar with;be/become tame
     -- Alf     >olaf   IV_no-Pref-A    be familiar with;be/become tame
 
-    FaCiL                     `verb`       {- Oalif-a -}        [ "be familiar with", "be/become tame" ]
+    FaCiL                     `verb`    {- Oalif-a -}          [ "be familiar with", "be/become tame" ]
                               `imperf`     FCaL,
 
     -- ;; >al~af_1
@@ -4402,14 +4402,14 @@ lexicon = listing "Lexicon's properties"
     -- &lf     &al~if  IV_yu   compose;constitute
     -- &lf     &al~af  IV_Pass_yu      be composed;be constituted
 
-    FaCCaL                    `verb`       {- Oal~af -}         [ "compose", "constitute", "be composed", "be constituted" ],
+    FaCCaL                    `verb`    {- Oal~af -}           [ "compose", "constitute", "be composed", "be constituted" ],
 
     -- ;; |laf_1
     -- \|lf     |laf    PV      befriend;adapt to
     -- Alf     |laf    PV      befriend;adapt to
     -- &Alf    &Alif   IV_yu   befriend;adapt to
 
-    FACaL                     `verb`       {- \|laf -}          [ "befriend", "adapt to" ],
+    FACaL                     `verb`    {- \|laf -}            [ "befriend", "adapt to" ],
 
     -- ;; |laf_2
     -- \|lf     |laf    PV      adapt;familiarize
@@ -4417,19 +4417,19 @@ lexicon = listing "Lexicon's properties"
     -- &lf     &olif   IV_no-Pref-A_yu adapt;familiarize
     -- wlf     wlif    IV_need-Pref-A_yu       adapt;familiarize
 
-    FACaL                     `verb`       {- \|laf -}          [ "adapt", "familiarize" ],
+    FACaL                     `verb`    {- \|laf -}            [ "adapt", "familiarize" ],
 
     -- ;; ta>al~af_1
     -- t>lf    ta>al~af        PV      consist of
     -- t>lf    ta>al~af        IV      consist of
 
-    TaFaCCaL                  `verb`       {- taOal~af -}       [ "consist of" ],
+    TaFaCCaL                  `verb`    {- taOal~af -}         [ "consist of" ],
 
     -- ;; ta|laf_1
     -- t|lf    ta|laf  PV      live in harmony;have mutual contact
     -- t|lf    ta|laf  IV      live in harmony;have mutual contact
 
-    TaFACaL                   `verb`       {- ta|laf -}         [ "live in harmony", "have mutual contact" ],
+    TaFACaL                   `verb`    {- ta|laf -}           [ "live in harmony", "have mutual contact" ],
 
     -- ;; {i}otalaf_1
     -- <}tlf   {i}otalaf       PV_intr be accustomed;be harmonious
@@ -4437,7 +4437,7 @@ lexicon = listing "Lexicon's properties"
     -- >tlf    >otalif IV_no-Pref-A    be accustomed;be harmonious
     -- Atlf    >otalif IV_no-Pref-A    be accustomed;be harmonious
 
-    IFtaCaL                   `verb`       {- Ai}otalaf -}      [ "be accustomed", "be harmonious" ],
+    IFtaCaL                   `verb`    {- Ai}otalaf -}        [ "be accustomed", "be harmonious" ],
 
     -- ;; {i}otalaf_2
     -- <}tlf   {i}otalaf       PV_intr form a coalition
@@ -4445,26 +4445,26 @@ lexicon = listing "Lexicon's properties"
     -- >tlf    >otalif IV_no-Pref-A    form a coalition
     -- Atlf    >otalif IV_no-Pref-A    form a coalition
 
-    IFtaCaL                   `verb`       {- Ai}otalaf -}      [ "form a coalition" ],
+    IFtaCaL                   `verb`    {- Ai}otalaf -}        [ "form a coalition" ],
 
     -- ;; {isota>olaf_1
     -- <st>lf  {isota>olaf     PV      attempt to befriend
     -- Ast>lf  {isota>olaf     PV      attempt to befriend
     -- st>lf   sota>olif       IV      attempt to befriend
 
-    IstaFCaL                  `verb`       {- AisotaOolaf -}    [ "attempt to befriend" ],
+    IstaFCaL                  `verb`    {- AisotaOolaf -}      [ "attempt to befriend" ],
 
     -- ;; >alif_1
     -- >lf     >alif   N       beginning
     -- Alf     >alif   N       beginning
 
-    FaCiL                     `noun`       {- Oalif -}          [ "beginning" ],
+    FaCiL                     `noun`    {- Oalif -}            [ "beginning" ],
 
     -- ;; >alif_2
     -- >lf     >alif   NduAt   alif (Arabic letter)
     -- Alf     >alif   NduAt   alif (Arabic letter)
 
-    FaCiL                     `noun`       {- Oalif -}          [ "alif (Arabic letter)" ],
+    FaCiL                     `noun`    {- Oalif -}            [ "alif (Arabic letter)" ],
 
     -- ;; >alof_1
     -- >lf     >alof   Ndu     thousand
@@ -4474,22 +4474,22 @@ lexicon = listing "Lexicon's properties"
     -- >lwf    >uluwf  N       thousands
     -- Alwf    >uluwf  N       thousands
 
-    FaCL                      `noun`       {- Oalof -}          [ "thousand", "thousands" ]
+    FaCL                      `noun`    {- Oalof -}            [ "thousand", "thousands" ]
                               `plural`     FuCUL
                               `plural`     HACAL
-                              {- `others` [ "'uluwf N", "'AlAf N" ] -},
+                           {- `others`  [ "'uluwf N", "'AlAf N" ] -},
 
     -- ;; >alofiy~_1
     -- >lfy    >alofiy~        Nall    millenary;one thousandth     [[>alofiy~/ADJ]]
     -- Alfy    >alofiy~        Nall    millenary;one thousandth     [[>alofiy~/ADJ]]
 
-    FaCL |< Iy                `adj`        {- Oalofiy~ -}       [ "millenary", "one thousandth" ],
+    FaCL |< Iy                `adj`     {- Oalofiy~ -}         [ "millenary", "one thousandth" ],
 
     -- ;; >ulofap_1
     -- >lf     >ulof   Nap     familiarity;friendship;harmony
     -- Alf     >ulof   Nap     familiarity;friendship;harmony
 
-    FuCL |< aT                `noun`       {- Oulofap -}        [ "familiarity", "friendship", "harmony" ],
+    FuCL |< aT                `noun`    {- Oulofap -}          [ "familiarity", "friendship", "harmony" ],
 
     -- ;; >aliyf_1
     -- >lyf    >aliyf  N/ap    companion;familiar;domesticated
@@ -4497,7 +4497,7 @@ lexicon = listing "Lexicon's properties"
     -- >lA}f   >alA}if Ndip    companions;familiar;domesticated
     -- AlA}f   >alA}if Ndip    companions;familiar;domesticated
 
-    FaCIL                     `noun`       {- Oaliyf -}         [ "companion", "familiar", "domesticated", "companions" ],
+    FaCIL                     `noun`    {- Oaliyf -}           [ "companion", "familiar", "domesticated", "companions" ],
 
     -- ;; <ilof_1
     -- <lf     <ilof   Ndu     companion;confidant
@@ -4505,9 +4505,9 @@ lexicon = listing "Lexicon's properties"
     -- >lAf    >ul~Af  N       companions;confidants
     -- AlAf    >ul~Af  N       companions;confidants
 
-    FiCL                      `noun`       {- Iilof -}          [ "companion", "confidant", "companions", "confidants" ]
+    FiCL                      `noun`    {- Iilof -}            [ "companion", "confidant", "companions", "confidants" ]
                               `plural`     FuCCAL
-                              {- `others` [ "'ullAf N" ] -},
+                           {- `others`  [ "'ullAf N" ] -},
 
     -- ;; |lif_1
     -- \|lf     |lif    Nall    companion;confidant
@@ -4515,96 +4515,96 @@ lexicon = listing "Lexicon's properties"
     -- >wAlf   >awAlif Ndip    companions;confidants
     -- AwAlf   >awAlif Ndip    companions;confidants
 
-    FACiL                     `noun`       {- \|lif -}          [ "companion", "confidant", "companions", "confidants" ]
+    FACiL                     `noun`    {- \|lif -}            [ "companion", "confidant", "companions", "confidants" ]
                               `plural`     FawACiL
-                              {- `others` [ "'awAlif Ndip" ] -},
+                           {- `others`  [ "'awAlif Ndip" ] -},
 
     -- ;; |laf_3
     -- \|lf     |laf    Nel     friendlier;friendliest;more/most accustomed
     -- Alf     |laf    Nel     friendlier;friendliest;more/most accustomed
 
-    FACaL                     `noun`       {- \|laf -}          [ "friendlier", "friendliest", "more/most accustomed" ],
+    FACaL                     `noun`    {- \|laf -}            [ "friendlier", "friendliest", "more/most accustomed" ],
 
     -- ;; ma>oluwf_1
     -- m>lwf   ma>oluwf        Nall    familiar;usual;customary
 
-    MaFCUL                    `noun`       {- maOoluwf -}       [ "familiar", "usual", "customary" ],
+    MaFCUL                    `noun`    {- maOoluwf -}         [ "familiar", "usual", "customary" ],
 
     -- ;; ta>oliyf_1
     -- t>lyf   ta>oliyf        NduAt   authoring;composing;constituting
 
-    TaFCIL                    `noun`       {- taOoliyf -}       [ "authoring", "composing", "constituting" ],
+    TaFCIL                    `noun`    {- taOoliyf -}         [ "authoring", "composing", "constituting" ],
 
     -- ;; ta>al~uf_1
     -- t>lf    ta>al~uf        NduAt   formation;composition
 
-    TaFaCCuL                  `noun`       {- taOal~uf -}       [ "formation", "composition" ],
+    TaFaCCuL                  `noun`    {- taOal~uf -}         [ "formation", "composition" ],
 
     -- ;; ta>al~ufiy~_1
     -- t>lfy   ta>al~ufiy~     Nall    synthetic;syncretic     [[ta>al~ufiy~/ADJ]]
 
-    TaFaCCuL |< Iy            `adj`        {- taOal~ufiy~ -}    [ "synthetic", "syncretic" ],
+    TaFaCCuL |< Iy            `adj`     {- taOal~ufiy~ -}      [ "synthetic", "syncretic" ],
 
     -- ;; ta>al~ufiy~ap_1
     -- t>lfy   ta>al~ufiy~     Nap     syncretism     [[ta>al~ufiy~/NOUN]]
 
-    TaFaCCuL |< Iy |< aT      `noun`       {- taOal~ufiy~ap -}  [ "syncretism" ],
+    TaFaCCuL |< Iy |< aT      `noun`    {- taOal~ufiy~ap -}    [ "syncretism" ],
 
     -- ;; mu&al~if_1
     -- m&lf    mu&al~if        Nall    author;composer
 
-    MuFaCCiL                  `noun`       {- muWal~if -}       [ "author", "composer" ],
+    MuFaCCiL                  `noun`    {- muWal~if -}         [ "author", "composer" ],
 
     -- ;; mu&al~af_1
     -- m&lf    mu&al~af        NduAt   composition;publication
     -- m&lf    mu&al~af        N/ap    composed;synthesized
 
-    MuFaCCaL                  `noun`       {- muWal~af -}       [ "composition", "publication", "composed", "synthesized" ],
+    MuFaCCaL                  `noun`    {- muWal~af -}         [ "composition", "publication", "composed", "synthesized" ],
 
     -- ;; mu&Alafap_1
     -- m&Alf   mu&Alaf NapAt   adaptation;association with
 
-    MuFACaL |< aT             `noun`       {- muWAlafap -}      [ "adaptation", "association with" ],
+    MuFACaL |< aT             `noun`    {- muWAlafap -}        [ "adaptation", "association with" ],
 
     -- ;; <iylAf_1
     -- <ylAf   <iylAf  NduAt   solidarity;pact
     -- AylAf   <iylAf  NduAt   solidarity;pact
 
-    FICAL                     `noun`       {- IiylAf -}         [ "solidarity", "pact" ],
+    FICAL                     `noun`    {- IiylAf -}           [ "solidarity", "pact" ],
 
     -- ;; <iylAf_1
     -- <ylAf   <iylAf  NduAt   solidarity;pact
     -- AylAf   <iylAf  NduAt   solidarity;pact
 
-    HICAL                     `noun`       {- IiylAf -}         [ "solidarity", "pact" ],
+    HICAL                     `noun`    {- IiylAf -}           [ "solidarity", "pact" ],
 
     -- ;; ta|luf_1
     -- t|lf    ta|luf  N/At    harmony;solidarity
 
-    TaFACuL                   `noun`       {- ta|luf -}         [ "harmony", "solidarity" ],
+    TaFACuL                   `noun`    {- ta|luf -}           [ "harmony", "solidarity" ],
 
     -- ;; muta|lif_1
     -- mt|lf   muta|lif        Nall    harmonious;in accord with
 
-    MutaFACiL                 `noun`       {- muta|lif -}       [ "harmonious", "in accord with" ],
+    MutaFACiL                 `noun`    {- muta|lif -}         [ "harmonious", "in accord with" ],
 
     -- ;; {i}otilAf_1
     -- <}tlAf  {i}otilAf       NduAt   coalition;entente
     -- A}tlAf  {i}otilAf       NduAt   coalition;entente
 
-    IFtiCAL                   `noun`       {- Ai}otilAf -}      [ "coalition", "entente" ],
+    IFtiCAL                   `noun`    {- Ai}otilAf -}        [ "coalition", "entente" ],
 
     -- ;; {i}otilAfiy~_1
     -- <}tlAfy {i}otilAfiy~    Nall    coalition     [[{i}otilAfiy~/ADJ]]
     -- A}tlAfy {i}otilAfiy~    Nall    coalition     [[{i}otilAfiy~/ADJ]]
 
-    IFtiCAL |< Iy             `adj`        {- Ai}otilAfiy~ -}   [ "coalition" ],
+    IFtiCAL |< Iy             `adj`     {- Ai}otilAfiy~ -}     [ "coalition" ],
 
     -- ;; >uwlAf_1
     -- >wlAf   >uwlAf  Nprop   Olaf
     -- AwlAf   >uwlAf  Nprop   Olaf
 
-    FUCAL                     `noun`       {- OuwlAf -}         [ "Olaf" ] ]
+    FUCAL                     `noun`    {- OuwlAf -}           [ "Olaf" ] ]
 
  |> "' l f n" <| [
 
@@ -4612,7 +4612,7 @@ lexicon = listing "Lexicon's properties"
     -- >lfyn   >alofiyn        Nprop   Alvin
     -- Alfyn   >alofiyn        Nprop   Alvin
 
-    KaRDIS                    `noun`       {- Oalofiyn -}       [ "Alvin" ] ]
+    KaRDIS                    `noun`    {- Oalofiyn -}         [ "Alvin" ] ]
 
  |> "' l f s" <| [
 
@@ -4620,13 +4620,13 @@ lexicon = listing "Lexicon's properties"
     -- >lAfys  >alAfiys        Nprop   Alaves
     -- AlAfys  >alAfiys        Nprop   Alaves
 
-    KaRADIS                   `noun`       {- OalAfiys -}       [ "Alaves" ],
+    KaRADIS                   `noun`    {- OalAfiys -}         [ "Alaves" ],
 
     -- ;; <ilofiys_1
     -- <lfys   <ilofiys        Nprop   Elvis
     -- Alfys   <ilofiys        Nprop   Elvis
 
-    KiRDIS                    `noun`       {- Iilofiys -}       [ "Elvis" ] ]
+    KiRDIS                    `noun`    {- Iilofiys -}         [ "Elvis" ] ]
 
  |> "' l h" <| [
 
@@ -4636,42 +4636,42 @@ lexicon = listing "Lexicon's properties"
     -- &lh     &al~ih  IV_yu   deify
     -- &lh     &al~ah  IV_Pass_yu      be deified
 
-    FaCCaL                    `verb`       {- Oal~ah -}         [ "deify", "be deified" ],
+    FaCCaL                    `verb`    {- Oal~ah -}           [ "deify", "be deified" ],
 
     -- ;; ta>al~ah_1
     -- t>lh    ta>al~ah        PV_intr be deified;become a deity
     -- t>lh    ta>al~ah        IV_intr be deified;become a deity
 
-    TaFaCCaL                  `verb`       {- taOal~ah -}       [ "be deified", "become a deity" ],
+    TaFaCCaL                  `verb`    {- taOal~ah -}         [ "be deified", "become a deity" ],
 
     -- ;; <ilAhiy~At_1
     -- <lAhy   <ilAhiy~        NAt     theology     [[<ilAhiy~/NOUN]]
     -- AlAhy   <ilAhiy~        NAt     theology     [[<ilAhiy~/NOUN]]
 
-    FiCAL |< Iy |< At         `noun`       {- IilAhiy~At -}     [ "theology" ],
+    FiCAL |< Iy |< At         `noun`    {- IilAhiy~At -}       [ "theology" ],
 
     -- ;; >uluwhap_1
     -- >lwh    >uluwh  Nap     divinity
     -- Alwh    >uluwh  Nap     divinity
 
-    FuCUL |< aT               `noun`       {- Ouluwhap -}       [ "divinity" ],
+    FuCUL |< aT               `noun`    {- Ouluwhap -}         [ "divinity" ],
 
     -- ;; >uluwhiy~_1
     -- >lwhy   >uluwhiy~       Nap     divinity     [[>uluwhiy~/NOUN]]
     -- Alwhy   >uluwhiy~       Nap     divinity     [[>uluwhiy~/NOUN]]
 
-    FuCUL |< Iy               `noun`       {- Ouluwhiy~ -}      [ "divinity" ],
+    FuCUL |< Iy               `noun`    {- Ouluwhiy~ -}        [ "divinity" ],
 
     -- ;; <ilAh_1
     -- <lAh    <ilAh   Nap     divinity
     -- AlAh    <ilAh   Nap     divinity
 
-    FiCAL                     `noun`       {- IilAh -}          [ "divinity" ],
+    FiCAL                     `noun`    {- IilAh -}            [ "divinity" ],
 
     -- ;; ta>oliyh_1
     -- t>lyh   ta>oliyh        N/At    deification;making god-like
 
-    TaFCIL                    `noun`       {- taOoliyh -}       [ "deification", "making god-like" ] ]
+    TaFCIL                    `noun`    {- taOoliyh -}         [ "deification", "making god-like" ] ]
 
  |> "' l k l" <| [
 
@@ -4679,7 +4679,7 @@ lexicon = listing "Lexicon's properties"
     -- >lkl    >alokal Nap     alkylation
     -- Alkl    >alokal Nap     alkylation
 
-    KaRDaS |< aT              `noun`       {- Oalokalap -}      [ "alkylation" ] ]
+    KaRDaS |< aT              `noun`    {- Oalokalap -}        [ "alkylation" ] ]
 
  |> "' l l" <| [
 
@@ -4687,12 +4687,12 @@ lexicon = listing "Lexicon's properties"
     -- \|l      |l      Nprop   Al
     -- Al      |l      Nprop   Al
 
-    FAL                       `noun`       {- \|l -}            [ "Al" ],
+    FAL                       `noun`    {- \|l -}              [ "Al" ],
 
     -- ;; <il_1
     -- Al      <il     Nprop   El
 
-    FiL                       `noun`       {- Iil -}            [ "El" ] ]
+    FiL                       `noun`    {- Iil -}              [ "El" ] ]
 
  |> "' l m" <| [
 
@@ -4702,7 +4702,7 @@ lexicon = listing "Lexicon's properties"
     -- >lm     >olam   IV_no-Pref-A    feel pain;suffer
     -- Alm     >olam   IV_no-Pref-A    feel pain;suffer
 
-    FaCiL                     `verb`       {- Oalim-a -}        [ "feel pain", "suffer" ]
+    FaCiL                     `verb`    {- Oalim-a -}          [ "feel pain", "suffer" ]
                               `imperf`     FCaL,
 
     -- ;; >al~am_1
@@ -4711,7 +4711,7 @@ lexicon = listing "Lexicon's properties"
     -- &lm     &al~im  IV_yu   afflict;distress
     -- &lm     &al~am  IV_Pass_yu      be afflicted;be distressed
 
-    FaCCaL                    `verb`       {- Oal~am -}         [ "afflict", "distress", "be afflicted", "be distressed" ],
+    FaCCaL                    `verb`    {- Oal~am -}           [ "afflict", "distress", "be afflicted", "be distressed" ],
 
     -- ;; |lam_1
     -- \|lm     |lam    PV      afflict;distress
@@ -4719,13 +4719,13 @@ lexicon = listing "Lexicon's properties"
     -- &lm     &olim   IV_no-Pref-A_yu afflict;distress
     -- wlm     wlim    IV_need-Pref-A_yu       afflict;distress
 
-    FACaL                     `verb`       {- \|lam -}          [ "afflict", "distress" ],
+    FACaL                     `verb`    {- \|lam -}            [ "afflict", "distress" ],
 
     -- ;; ta>al~am_1
     -- t>lm    ta>al~am        PV_intr be distressed;suffer
     -- t>lm    ta>al~am        IV_intr be distressed;suffer
 
-    TaFaCCaL                  `verb`       {- taOal~am -}       [ "be distressed", "suffer" ],
+    TaFaCCaL                  `verb`    {- taOal~am -}         [ "be distressed", "suffer" ],
 
     -- ;; >alam_1
     -- >lm     >alam   Ndu     pain;suffering
@@ -4733,55 +4733,55 @@ lexicon = listing "Lexicon's properties"
     -- \|lAm    |lAm    N       pain;suffering
     -- AlAm    |lAm    N       pain;suffering
 
-    FaCaL                     `noun`       {- Oalam -}          [ "pain", "suffering" ]
+    FaCaL                     `noun`    {- Oalam -}            [ "pain", "suffering" ]
                               `plural`     HACAL
-                              {- `others` [ "'AlAm N" ] -},
+                           {- `others`  [ "'AlAm N" ] -},
 
     -- ;; >aliym_1
     -- >lym    >aliym  Nall    painful;cruel
     -- Alym    >aliym  Nall    painful;cruel
 
-    FaCIL                     `noun`       {- Oaliym -}         [ "painful", "cruel" ],
+    FaCIL                     `noun`    {- Oaliym -}           [ "painful", "cruel" ],
 
     -- ;; |lam_2
     -- \|lm     |lam    Nel     more/most painful
     -- Alm     |lam    Nel     more/most painful
 
-    FACaL                     `noun`       {- \|lam -}          [ "more/most painful" ],
+    FACaL                     `noun`    {- \|lam -}            [ "more/most painful" ],
 
     -- ;; <iylAm_1
     -- <ylAm   <iylAm  NduAt   wound;pain
     -- AylAm   <iylAm  NduAt   wound;pain
 
-    HICAL                     `noun`       {- IiylAm -}         [ "wound", "pain" ],
+    HICAL                     `noun`    {- IiylAm -}           [ "wound", "pain" ],
 
     -- ;; <iylAm_1
     -- <ylAm   <iylAm  NduAt   wound;pain
     -- AylAm   <iylAm  NduAt   wound;pain
 
-    FICAL                     `noun`       {- IiylAm -}         [ "wound", "pain" ],
+    FICAL                     `noun`    {- IiylAm -}           [ "wound", "pain" ],
 
     -- ;; mu&olim_1
     -- m&lm    mu&olim Nall    painful;distressing
 
-    MuFCiL                    `noun`       {- muWolim -}        [ "painful", "distressing" ],
+    MuFCiL                    `noun`    {- muWolim -}          [ "painful", "distressing" ],
 
     -- ;; muta>al~im_1
     -- mt>lm   muta>al~im      Nall    afflicted;suffering
 
-    MutaFaCCiL                `noun`       {- mutaOal~im -}     [ "afflicted", "suffering" ],
+    MutaFaCCiL                `noun`    {- mutaOal~im -}       [ "afflicted", "suffering" ],
 
     -- ;; >alomAn_1
     -- >lmAn   >alomAn N       Germans
     -- AlmAn   >alomAn N       Germans
 
-    FaCLAn                    `noun`       {- OalomAn -}        [ "Germans" ],
+    FaCLAn                    `noun`    {- OalomAn -}          [ "Germans" ],
 
     -- ;; >alomAniy~_1
     -- >lmAny  >alomAniy~      Napdu   Germany
     -- AlmAny  >alomAniy~      Napdu   Germany
 
-    FaCLAn |< Iy              `adj`        {- OalomAniy~ -}     [ "Germany" ],
+    FaCLAn |< Iy              `adj`     {- OalomAniy~ -}       [ "Germany" ],
 
     -- ;; >alomAniy~_2
     -- >lmAny  >alomAniy~      Nall    German     [[>alomAniy~/NOUN]]
@@ -4789,13 +4789,13 @@ lexicon = listing "Lexicon's properties"
     -- AlmAny  >alomAniy~      Nall    German     [[>alomAniy~/NOUN]]
     -- AlmAny  >alomAniy~      Nall    German     [[>alomAniy~/ADJ]]
 
-    FaCLAn |< Iy              `adj`        {- OalomAniy~ -}     [ "German" ],
+    FaCLAn |< Iy              `adj`     {- OalomAniy~ -}       [ "German" ],
 
     -- ;; >uwlAmiy~_1
     -- >wlAmy  >uwlAmiy~       N0      Ulami
     -- AwlAmy  >uwlAmiy~       N0      Ulami
 
-    FUCAL |< Iy               `adj`        {- OuwlAmiy~ -}      [ "Ulami" ] ]
+    FUCAL |< Iy               `adj`     {- OuwlAmiy~ -}        [ "Ulami" ] ]
 
  |> "' l m n" <| [
 
@@ -4804,31 +4804,31 @@ lexicon = listing "Lexicon's properties"
     -- Almn    >aloman PV-n    Germanize;make German
     -- &lmn    &alomin IV-n_yu Germanize;make German
 
-    KaRDaS                    `verb`       {- Oaloman -}        [ "Germanize", "make German" ],
+    KaRDaS                    `verb`    {- Oaloman -}          [ "Germanize", "make German" ],
 
     -- ;; ta>aloman_1
     -- t>lmn   ta>aloman       PV-n_intr       become German;be Germanized
     -- t>lmn   ta>aloman       IV-n    become German;be Germanized
 
-    TaKaRDaS                  `verb`       {- taOaloman -}      [ "become German", "be Germanized" ],
+    TaKaRDaS                  `verb`    {- taOaloman -}        [ "become German", "be Germanized" ],
 
     -- ;; >alomanap_1
     -- >lmn    >aloman Nap     Germanization;Germanification
     -- Almn    >aloman Nap     Germanization;Germanification
 
-    KaRDaS |< aT              `noun`       {- Oalomanap -}      [ "Germanization", "Germanification" ],
+    KaRDaS |< aT              `noun`    {- Oalomanap -}        [ "Germanization", "Germanification" ],
 
     -- ;; >alomAn_1
     -- >lmAn   >alomAn N       Germans
     -- AlmAn   >alomAn N       Germans
 
-    KaRDAS                    `noun`       {- OalomAn -}        [ "Germans" ],
+    KaRDAS                    `noun`    {- OalomAn -}          [ "Germans" ],
 
     -- ;; >alomAniy~_1
     -- >lmAny  >alomAniy~      Napdu   Germany
     -- AlmAny  >alomAniy~      Napdu   Germany
 
-    KaRDAS |< Iy              `adj`        {- OalomAniy~ -}     [ "Germany" ],
+    KaRDAS |< Iy              `adj`     {- OalomAniy~ -}       [ "Germany" ],
 
     -- ;; >alomAniy~_2
     -- >lmAny  >alomAniy~      Nall    German     [[>alomAniy~/NOUN]]
@@ -4836,7 +4836,7 @@ lexicon = listing "Lexicon's properties"
     -- AlmAny  >alomAniy~      Nall    German     [[>alomAniy~/NOUN]]
     -- AlmAny  >alomAniy~      Nall    German     [[>alomAniy~/ADJ]]
 
-    KaRDAS |< Iy              `adj`        {- OalomAniy~ -}     [ "German" ] ]
+    KaRDAS |< Iy              `adj`     {- OalomAniy~ -}       [ "German" ] ]
 
  |> "' l m s" <| [
 
@@ -4846,18 +4846,18 @@ lexicon = listing "Lexicon's properties"
     -- >lmAs   >alomAs NAt     diamonds
     -- AlmAs   >alomAs NAt     diamonds
 
-    KaRDAS                    `noun`       {- OalomAs -}        [ "diamond", "diamonds" ],
+    KaRDAS                    `noun`    {- OalomAs -}          [ "diamond", "diamonds" ],
 
     -- ;; >alomAsiy~_1
     -- >lmAsy  >alomAsiy~      Nall    diamond     [[>alomAsiy~/ADJ]]
     -- AlmAsy  >alomAsiy~      Nall    diamond     [[>alomAsiy~/ADJ]]
 
-    KaRDAS |< Iy              `adj`        {- OalomAsiy~ -}     [ "diamond" ],
+    KaRDAS |< Iy              `adj`     {- OalomAsiy~ -}       [ "diamond" ],
 
     -- ;; mu&alomis_1
     -- m&lms   mu&alomis       Nall    diamond
 
-    MuKaRDiS                  `noun`       {- muWalomis -}      [ "diamond" ] ]
+    MuKaRDiS                  `noun`    {- muWalomis -}        [ "diamond" ] ]
 
  |> "' l n" <| [
 
@@ -4865,9 +4865,9 @@ lexicon = listing "Lexicon's properties"
     -- \|lAn    |lAn    Nprop   Allan;Allen;Alain
     -- \|ln     |lan    Nprop   Allan;Allen;Alain
 
-    HACAL                     `noun`       {- \|lAn -}          [ "Allan", "Allen", "Alain" ]
+    HACAL                     `noun`    {- \|lAn -}            [ "Allan", "Allen", "Alain" ]
                               `plural`     FACaL
-                              {- `others` [ "'Alan Nprop" ] -} ]
+                           {- `others`  [ "'Alan Nprop" ] -} ]
 
  |> "' l q" <| [
 
@@ -4877,14 +4877,14 @@ lexicon = listing "Lexicon's properties"
     -- >lq     >oliq   IV_no-Pref-A    shine;radiate
     -- Alq     >oliq   IV_no-Pref-A    shine;radiate
 
-    FaCaL                     `verb`       {- Oalaq-i -}        [ "shine", "radiate" ]
+    FaCaL                     `verb`    {- Oalaq-i -}          [ "shine", "radiate" ]
                               `imperf`     FCiL,
 
     -- ;; ta>al~aq_1
     -- t>lq    ta>al~aq        PV      shine;glisten;sparkle
     -- t>lq    ta>al~aq        IV      shine;glisten;sparkle
 
-    TaFaCCaL                  `verb`       {- taOal~aq -}       [ "shine", "glisten", "sparkle" ],
+    TaFaCCaL                  `verb`    {- taOal~aq -}         [ "shine", "glisten", "sparkle" ],
 
     -- ;; {i}otalaq_1
     -- <}tlq   {i}otalaq       PV      shine;radiate
@@ -4893,23 +4893,23 @@ lexicon = listing "Lexicon's properties"
     -- Atlq    >otaliq IV_no-Pref-A    shine;radiate
     -- tlq     taliq   IV_need-Pref-|  shine;radiate
 
-    IFtaCaL                   `verb`       {- Ai}otalaq -}      [ "shine", "radiate" ],
+    IFtaCaL                   `verb`    {- Ai}otalaq -}        [ "shine", "radiate" ],
 
     -- ;; >alaq_1
     -- >lq     >alaq   N       brightness;brilliance
     -- Alq     >alaq   N       brightness;brilliance
 
-    FaCaL                     `noun`       {- Oalaq -}          [ "brightness", "brilliance" ],
+    FaCaL                     `noun`    {- Oalaq -}            [ "brightness", "brilliance" ],
 
     -- ;; ta>al~uq_1
     -- t>lq    ta>al~uq        N/At    glitter;radiance
 
-    TaFaCCuL                  `noun`       {- taOal~uq -}       [ "glitter", "radiance" ],
+    TaFaCCuL                  `noun`    {- taOal~uq -}         [ "glitter", "radiance" ],
 
     -- ;; muta>al~iq_1
     -- mt>lq   muta>al~iq      Nall    brilliant;resplendent
 
-    MutaFaCCiL                `noun`       {- mutaOal~iq -}     [ "brilliant", "resplendent" ] ]
+    MutaFaCCiL                `noun`    {- mutaOal~iq -}       [ "brilliant", "resplendent" ] ]
 
  |> "' l s" <| [
 
@@ -4919,17 +4919,17 @@ lexicon = listing "Lexicon's properties"
     -- &ls     &al~is  IV_yu   belittle;disparage
     -- &ls     &al~as  IV_Pass_yu      be belittled;be disparaged
 
-    FaCCaL                    `verb`       {- Oal~as -}         [ "belittle", "disparage", "be belittled", "be disparaged" ],
+    FaCCaL                    `verb`    {- Oal~as -}           [ "belittle", "disparage", "be belittled", "be disparaged" ],
 
     -- ;; ta>oliys_1
     -- t>lys   ta>oliys        NduAt   belittling;disparaging
 
-    TaFCIL                    `noun`       {- taOoliys -}       [ "belittling", "disparaging" ],
+    TaFCIL                    `noun`    {- taOoliys -}         [ "belittling", "disparaging" ],
 
     -- ;; mu&al~is_1
     -- m&ls    mu&al~is        Nall    belittling;disparaging
 
-    MuFaCCiL                  `noun`       {- muWal~is -}       [ "belittling", "disparaging" ] ]
+    MuFaCCiL                  `noun`    {- muWal~is -}         [ "belittling", "disparaging" ] ]
 
  |> "' l t y" <| [
 
@@ -4939,7 +4939,7 @@ lexicon = listing "Lexicon's properties"
     -- >ltAysk >alotAyosk      Nprop   Altaisk
     -- AltAysk >alotAyosk      Nprop   Altaisk
 
-    KaRDAS                    `noun`       {- OalotAy -}        [ "Altai", "Altaisk" ] ]
+    KaRDAS                    `noun`    {- OalotAy -}          [ "Altai", "Altaisk" ] ]
 
  |> "' l w" <| [
 
@@ -4957,8 +4957,7 @@ lexicon = listing "Lexicon's properties"
     -- &lY     &olaY   IV_0_Pass_yu    be neglected;be desisted from
     -- &ly     &olay   IV_Ann_Pass_yu  be neglected;be desisted from
 
-    FaCA                      `verb`       {- OalA-u -}         [ "neglect", "desist from", "be neglected", "be desisted from" ]
-                              `imperf`     FCuL
+    FaCA                      `verb`    {- OalA-u -}           [ "neglect", "desist from", "be neglected", "be desisted from" ]
                               `imperf`     FCU,
 
     -- ;; |laY_1
@@ -4975,7 +4974,7 @@ lexicon = listing "Lexicon's properties"
     -- &lY     &olaY   IV_0_Pass_yu    be taken (oath)
     -- &ly     &olay   IV_Ann_Pass_yu  be taken (oath)
 
-    FACY                      `verb`       {- \|laY -}          [ "promise", "take an oath", "be taken (oath)" ],
+    FACY                      `verb`    {- \|laY -}            [ "promise", "take an oath", "be taken (oath)" ],
 
     -- ;; >alowap_1
     -- >lw     >alow   Napdu   aloe
@@ -4983,14 +4982,14 @@ lexicon = listing "Lexicon's properties"
     -- >lw     >alaw   NAt     aloes
     -- Alw     >alaw   NAt     aloes
 
-    FaCL |< aT                `noun`       {- Oalowap -}        [ "aloe", "aloes" ]
+    FaCL |< aT                `noun`    {- Oalowap -}          [ "aloe", "aloes" ]
                               `plural`     FaCaL |< At,
 
     -- ;; >uluw_1
     -- >lw     >uluw   FW-WaBi those     [[>uluw/DEM_PRON_MP]]
     -- Alw     >uluw   FW-WaBi those     [[>uluw/DEM_PRON_MP]]
 
-    FuCuL                     `noun`       {- Ouluw -}          [ "those" ] ]
+    FuCuL                     `noun`    {- Ouluw -}            [ "those" ] ]
 
  |> "' l y" <| [
 
@@ -5000,7 +4999,7 @@ lexicon = listing "Lexicon's properties"
     -- \|lAy    |lAy    N/At    regiment
     -- AlAy    |lAy    N/At    regiment
 
-    FaCAL                     `noun`       {- OalAy -}          [ "regiment" ]
+    FaCAL                     `noun`    {- OalAy -}            [ "regiment" ]
                               `plural`     HACAL |< At,
 
     -- ;; <ilaY_1
@@ -5011,14 +5010,14 @@ lexicon = listing "Lexicon's properties"
     -- <ly     <ilaY   FW-Wa   to;towards     [[<ilaY/PREP]]
     -- Aly     <ilaY   FW-Wa   to;towards     [[<ilaY/PREP]]
 
-    FiCY                      `noun`       {- IilaY -}          [ "to", "towards" ]
+    FiCY                      `noun`    {- IilaY -}            [ "to", "towards" ]
                               `plural`     FiCaL
-                              {- `others` [ "'ilay FW-Wa-y" ] -},
+                           {- `others`  [ "'ilay FW-Wa-y" ] -},
 
     -- ;; ta>oliyap_1
     -- t>ly    ta>oliy NapAt   automation;mechanization
 
-    TaFCiL |< aT              `noun`       {- taOoliyap -}      [ "automation", "mechanization" ],
+    TaFCiL |< aT              `noun`    {- taOoliyap -}        [ "automation", "mechanization" ],
 
     -- ;; ta>al~aY_1
     -- t>lY    ta>al~aY        PV_0    be automated;be mechanized
@@ -5030,7 +5029,7 @@ lexicon = listing "Lexicon's properties"
     -- t>ly    ta>al~ay        IV_Ann  be automated;be mechanized
     -- t>l     ta>al~  IV_0hwnyn       be automated;be mechanized
 
-    TaFaCCY                   `verb`       {- taOal~aY -}       [ "be automated", "be mechanized" ],
+    TaFaCCY                   `verb`    {- taOal~aY -}         [ "be automated", "be mechanized" ],
 
     -- ;; ta>al~iy_1
     -- t>ly    ta>al~iy        N0_Nh   automation;mechanization
@@ -5038,7 +5037,7 @@ lexicon = listing "Lexicon's properties"
     -- t>ly    ta>al~iy        NAn_Nayn        automation;mechanization
     -- t>ly    ta>al~iy        NAt     automation;mechanization
 
-    TaFaCCI                   `noun`       {- taOal~iy -}       [ "automation", "mechanization" ],
+    TaFaCCI                   `noun`    {- taOal~iy -}         [ "automation", "mechanization" ],
 
     -- ;; >aloyap_1
     -- >ly     >aloy   Napdu   buttock;backside
@@ -5050,7 +5049,7 @@ lexicon = listing "Lexicon's properties"
     -- >lAyA   >alAyA  Nhy     buttocks;backsides
     -- AlAyA   >alAyA  Nhy     buttocks;backsides
 
-    FaCL |< aT                `noun`       {- Oaloyap -}        [ "buttock", "backside", "buttocks", "backsides" ]
+    FaCL |< aT                `noun`    {- Oaloyap -}          [ "buttock", "backside", "buttocks", "backsides" ]
                               `plural`     FaCaL |< At ]
 
  |> "' l y s" <| [
@@ -5059,7 +5058,7 @@ lexicon = listing "Lexicon's properties"
     -- <lyAs   <iloyAs Nprop   Elias
     -- AlyAs   <iloyAs Nprop   Elias
 
-    KiRDAS                    `noun`       {- IiloyAs -}        [ "Elias" ] ]
+    KiRDAS                    `noun`    {- IiloyAs -}          [ "Elias" ] ]
 
  |> "' l z s" <| [
 
@@ -5067,7 +5066,7 @@ lexicon = listing "Lexicon's properties"
     -- >lzAs   >alozAs N0      Alsace
     -- AlzAs   >alozAs N0      Alsace
 
-    KaRDAS                    `noun`       {- OalozAs -}        [ "Alsace" ] ]
+    KaRDAS                    `noun`    {- OalozAs -}          [ "Alsace" ] ]
 
  |> "' m ^s r" <| [
 
@@ -5075,7 +5074,7 @@ lexicon = listing "Lexicon's properties"
     -- >m$yr   >amo$iyr        N       Amshir (6th Coptic month, Feb. 8-Mar. 9)
     -- Am$yr   >amo$iyr        N       Amshir (6th Coptic month, Feb. 8-Mar. 9)
 
-    KaRDIS                    `noun`       {- Oamo$iyr -}       [ "Amshir (6th Coptic month, Feb. 8-Mar. 9)" ] ]
+    KaRDIS                    `noun`    {- Oamo$iyr -}         [ "Amshir (6th Coptic month, Feb. 8-Mar. 9)" ] ]
 
  |> "' m b" <| [
 
@@ -5085,7 +5084,7 @@ lexicon = listing "Lexicon's properties"
     -- >mybA   >amiybA N0      amoeba
     -- AmybA   >amiybA N0      amoeba
 
-    FaCIL |< aT               `noun`       {- Oamiybap -}       [ "amoeba" ] ]
+    FaCIL |< aT               `noun`    {- Oamiybap -}         [ "amoeba" ] ]
 
  |> "' m b r" <| [
 
@@ -5095,9 +5094,9 @@ lexicon = listing "Lexicon's properties"
     -- >mAbyr  >amAbiyr        Ndip    amperes
     -- AmAbyr  >amAbiyr        Ndip    amperes
 
-    KaRDIS                    `noun`       {- Oamobiyr -}       [ "ampere", "amperes" ]
+    KaRDIS                    `noun`    {- Oamobiyr -}         [ "ampere", "amperes" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'amAbiyr Ndip" ] -} ]
+                           {- `others`  [ "'amAbiyr Ndip" ] -} ]
 
  |> "' m d" <| [
 
@@ -5107,9 +5106,9 @@ lexicon = listing "Lexicon's properties"
     -- \|mAd    |mAd    N       terms;periods
     -- AmAd    |mAd    N       terms;periods
 
-    FaCaL                     `noun`       {- Oamad -}          [ "term", "period", "extent", "range", "duration", "terms", "periods" ]
+    FaCaL                     `noun`    {- Oamad -}            [ "term", "period", "extent", "range", "duration", "terms", "periods" ]
                               `plural`     HACAL
-                              {- `others` [ "'AmAd N" ] -} ]
+                           {- `others`  [ "'AmAd N" ] -} ]
 
  |> "' m h r" <| [
 
@@ -5119,7 +5118,7 @@ lexicon = listing "Lexicon's properties"
     -- Amhry   >amohariy~      Nall    Amharic     [[>amohariy~/NOUN]]
     -- Amhry   >amohariy~      Nall    Amharic     [[>amohariy~/ADJ]]
 
-    KaRDaS |< Iy              `adj`        {- Oamohariy~ -}     [ "Amharic" ] ]
+    KaRDaS |< Iy              `adj`     {- Oamohariy~ -}       [ "Amharic" ] ]
 
  |> "' m l" <| [
 
@@ -5130,7 +5129,7 @@ lexicon = listing "Lexicon's properties"
     -- Aml     >omal   IV_no-Pref-A    hope for;wish for
     -- ml      mal     IV_need-Pref-|  hope for;wish for
 
-    FaCaL                     `verb`       {- Oamal-a -}        [ "hope for", "wish for" ]
+    FaCaL                     `verb`    {- Oamal-a -}          [ "hope for", "wish for" ]
                               `imperf`     FCaL
                               `imperf`     CaL,
 
@@ -5140,13 +5139,13 @@ lexicon = listing "Lexicon's properties"
     -- &ml     &am~il  IV_yu   hope for;expect
     -- &ml     &am~al  IV_Pass_yu      be hoped for;be expectd
 
-    FaCCaL                    `verb`       {- Oam~al -}         [ "hope for", "expect", "be hoped for", "be expectd" ],
+    FaCCaL                    `verb`    {- Oam~al -}           [ "hope for", "expect", "be hoped for", "be expectd" ],
 
     -- ;; ta>am~al_1
     -- t>ml    ta>am~al        PV      consider;ponder;contemplate
     -- t>ml    ta>am~al        IV      consider;ponder;contemplate
 
-    TaFaCCaL                  `verb`       {- taOam~al -}       [ "consider", "ponder", "contemplate" ],
+    TaFaCCaL                  `verb`    {- taOam~al -}         [ "consider", "ponder", "contemplate" ],
 
     -- ;; >amal_1
     -- >ml     >amal   Ndu     hope;wish
@@ -5154,57 +5153,57 @@ lexicon = listing "Lexicon's properties"
     -- \|mAl    |mAl    N       hopes;wishes
     -- AmAl    |mAl    N       hopes;wishes
 
-    FaCaL                     `noun`       {- Oamal -}          [ "hope", "wish", "hopes", "wishes" ]
+    FaCaL                     `noun`    {- Oamal -}            [ "hope", "wish", "hopes", "wishes" ]
                               `plural`     HACAL
-                              {- `others` [ "'AmAl N" ] -},
+                           {- `others`  [ "'AmAl N" ] -},
 
     -- ;; >amal_2
     -- >ml     >amal   N0      Amal
     -- Aml     >amal   N0      Amal
 
-    FaCaL                     `noun`       {- Oamal -}          [ "Amal" ],
+    FaCaL                     `noun`    {- Oamal -}            [ "Amal" ],
 
     -- ;; |mAl_1
     -- \|mAl    |mAl    Nprop   Amal
     -- AmAl    |mAl    Nprop   Amal
 
-    HACAL                     `noun`       {- \|mAl -}          [ "Amal" ],
+    HACAL                     `noun`    {- \|mAl -}            [ "Amal" ],
 
     -- ;; >amAl_1
     -- >mAl    >amAl   Nprop   Amal
     -- AmAl    >amAl   Nprop   Amal
 
-    FaCAL                     `noun`       {- OamAl -}          [ "Amal" ],
+    FaCAL                     `noun`    {- OamAl -}            [ "Amal" ],
 
     -- ;; ma>omuwl_1
     -- m>mwl   ma>omuwl        Nall    expected;hoped for
 
-    MaFCUL                    `noun`       {- maOomuwl -}       [ "expected", "hoped for" ],
+    MaFCUL                    `noun`    {- maOomuwl -}         [ "expected", "hoped for" ],
 
     -- ;; mu&am~il_1
     -- m&ml    mu&am~il        Nall    hopeful
 
-    MuFaCCiL                  `noun`       {- muWam~il -}       [ "hopeful" ],
+    MuFaCCiL                  `noun`    {- muWam~il -}         [ "hopeful" ],
 
     -- ;; mu&am~al_1
     -- m&ml    mu&am~al        Nall    expected;hoped for
 
-    MuFaCCaL                  `noun`       {- muWam~al -}       [ "expected", "hoped for" ],
+    MuFaCCaL                  `noun`    {- muWam~al -}         [ "expected", "hoped for" ],
 
     -- ;; ta>am~ul_1
     -- t>ml    ta>am~ul        NduAt   consideration;contemplation;speculation
 
-    TaFaCCuL                  `noun`       {- taOam~ul -}       [ "consideration", "contemplation", "speculation" ],
+    TaFaCCuL                  `noun`    {- taOam~ul -}         [ "consideration", "contemplation", "speculation" ],
 
     -- ;; ta>am~uliy~_1
     -- t>mly   ta>am~uliy~     Nall    contemplative;speculative     [[ta>am~uliy~/ADJ]]
 
-    TaFaCCuL |< Iy            `adj`        {- taOam~uliy~ -}    [ "contemplative", "speculative" ],
+    TaFaCCuL |< Iy            `adj`     {- taOam~uliy~ -}      [ "contemplative", "speculative" ],
 
     -- ;; muta>am~il_1
     -- mt>ml   muta>am~il      Nall    contemplative;speculative
 
-    MutaFaCCiL                `noun`       {- mutaOam~il -}     [ "contemplative", "speculative" ] ]
+    MutaFaCCiL                `noun`    {- mutaOam~il -}       [ "contemplative", "speculative" ] ]
 
  |> "' m m" <| [
 
@@ -5212,7 +5211,7 @@ lexicon = listing "Lexicon's properties"
     -- >m      >am     FW-Wa   or     [[>am/CONJ]]
     -- Am      >am     FW-Wa   or     [[>am/CONJ]]
 
-    FaL                       `noun`       {- Oam -}            [ "or" ],
+    FaL                       `noun`    {- Oam -}              [ "or" ],
 
     -- ;; >am~am_1
     -- >mm     >am~am  PV      nationalize
@@ -5220,13 +5219,13 @@ lexicon = listing "Lexicon's properties"
     -- &mm     &am~im  IV_yu   nationalize
     -- &mm     &am~am  IV_Pass_yu      be nationalized
 
-    FaCCaL                    `verb`       {- Oam~am -}         [ "nationalize", "be nationalized" ],
+    FaCCaL                    `verb`    {- Oam~am -}           [ "nationalize", "be nationalized" ],
 
     -- ;; ta>am~am_1
     -- t>mm    ta>am~am        PV      go to see
     -- t>mm    ta>am~am        IV      go to see
 
-    TaFaCCaL                  `verb`       {- taOam~am -}       [ "go to see" ],
+    TaFaCCaL                  `verb`    {- taOam~am -}         [ "go to see" ],
 
     -- ;; {i}otam~_1
     -- <}tm    {i}otam~        PV_V    emulate;follow
@@ -5238,7 +5237,7 @@ lexicon = listing "Lexicon's properties"
     -- >tmm    >otamim IV_C    emulate;follow
     -- Atmm    >otamim IV_C    emulate;follow
 
-    IFtaCL                    `verb`       {- Ai}otam~ -}       [ "emulate", "follow" ],
+    IFtaCL                    `verb`    {- Ai}otam~ -}         [ "emulate", "follow" ],
 
     -- ;; >um~_1
     -- >m      >um~    N       mother;maternal
@@ -5246,55 +5245,55 @@ lexicon = listing "Lexicon's properties"
     -- >mh     >um~ah  NAt     mothers
     -- Amh     >um~ah  NAt     mothers
 
-    FuCL                      `noun`       {- Oum~ -}           [ "mother", "maternal", "mothers" ],
+    FuCL                      `noun`    {- Oum~ -}             [ "mother", "maternal", "mothers" ],
 
     -- ;; >um~_2
     -- >m      >um~    Nprop   Umm
     -- Am      >um~    Nprop   Umm
 
-    FuCL                      `noun`       {- Oum~ -}           [ "Umm" ],
+    FuCL                      `noun`    {- Oum~ -}             [ "Umm" ],
 
     -- ;; >um~iy~_1
     -- >my     >um~iy~ Nall    maternal;illiterate     [[>um~iy~/ADJ]]
     -- Amy     >um~iy~ Nall    maternal;illiterate     [[>um~iy~/ADJ]]
 
-    FuCL |< Iy                `adj`        {- Oum~iy~ -}        [ "maternal", "illiterate" ],
+    FuCL |< Iy                `adj`     {- Oum~iy~ -}          [ "maternal", "illiterate" ],
 
     -- ;; >um~iy~ap_1
     -- >my     >um~iy~ Nap     illiteracy     [[>um~iy~/NOUN]]
     -- Amy     >um~iy~ Nap     illiteracy     [[>um~iy~/NOUN]]
 
-    FuCL |< Iy |< aT          `noun`       {- Oum~iy~ap -}      [ "illiteracy" ],
+    FuCL |< Iy |< aT          `noun`    {- Oum~iy~ap -}        [ "illiteracy" ],
 
     -- ;; >umuwmap_1
     -- >mwm    >umuwm  Nap     maternity
     -- Amwm    >umuwm  Nap     maternity
 
-    FuCUL |< aT               `noun`       {- Oumuwmap -}       [ "maternity" ],
+    FuCUL |< aT               `noun`    {- Oumuwmap -}         [ "maternity" ],
 
     -- ;; >umuwmiy~_1
     -- >mwmy   >umuwmiy~       Nall    maternal     [[>umuwmiy~/ADJ]]
     -- Amwmy   >umuwmiy~       Nall    maternal     [[>umuwmiy~/ADJ]]
 
-    FuCUL |< Iy               `adj`        {- Oumuwmiy~ -}      [ "maternal" ],
+    FuCUL |< Iy               `adj`     {- Oumuwmiy~ -}        [ "maternal" ],
 
     -- ;; >umuwmiy~ap_1
     -- >mwmy   >umuwmiy~       Nap     matriarchy     [[>umuwmiy~/NOUN]]
     -- Amwmy   >umuwmiy~       Nap     matriarchy     [[>umuwmiy~/NOUN]]
 
-    FuCUL |< Iy |< aT         `noun`       {- Oumuwmiy~ap -}    [ "matriarchy" ],
+    FuCUL |< Iy |< aT         `noun`    {- Oumuwmiy~ap -}      [ "matriarchy" ],
 
     -- ;; >amAm_1
     -- >mAm    >amAm   N       front;forward
     -- AmAm    >amAm   N       front;forward
 
-    FaCAL                     `noun`       {- OamAm -}          [ "front", "forward" ],
+    FaCAL                     `noun`    {- OamAm -}            [ "front", "forward" ],
 
     -- ;; >amAmiy~_1
     -- >mAmy   >amAmiy~        Nall    front;forward     [[>amAmiy~/ADJ]]
     -- AmAmy   >amAmiy~        Nall    front;forward     [[>amAmiy~/ADJ]]
 
-    FaCAL |< Iy               `adj`        {- OamAmiy~ -}       [ "front", "forward" ],
+    FaCAL |< Iy               `adj`     {- OamAmiy~ -}         [ "front", "forward" ],
 
     -- ;; <imAm_1
     -- <mAm    <imAm   Ndu     Imam
@@ -5304,7 +5303,7 @@ lexicon = listing "Lexicon's properties"
     -- >ym     >ayim~  Nap     Imams
     -- Aym     >ayim~  Nap     Imams
 
-    FiCAL                     `noun`       {- IimAm -}          [ "Imam", "Imams" ],
+    FiCAL                     `noun`    {- IimAm -}            [ "Imam", "Imams" ],
 
     -- ;; <imAm_2
     -- <mAm    <imAm   Ndu     leader;imam
@@ -5314,25 +5313,25 @@ lexicon = listing "Lexicon's properties"
     -- >ym     >ayim~  Nap     leaders;imams
     -- Aym     >ayim~  Nap     leaders;imams
 
-    FiCAL                     `noun`       {- IimAm -}          [ "leader", "imam", "leaders", "imams" ],
+    FiCAL                     `noun`    {- IimAm -}            [ "leader", "imam", "leaders", "imams" ],
 
     -- ;; <imAmap_1
     -- <mAm    <imAm   Nap     imamate;leadership
     -- AmAm    <imAm   Nap     imamate;leadership
 
-    FiCAL |< aT               `noun`       {- IimAmap -}        [ "imamate", "leadership" ],
+    FiCAL |< aT               `noun`    {- IimAmap -}          [ "imamate", "leadership" ],
 
     -- ;; <imAmiy~_1
     -- <mAmy   <imAmiy~        Nall    leadership     [[<imAmiy~/ADJ]]
     -- AmAmy   <imAmiy~        Nall    leadership     [[<imAmiy~/ADJ]]
 
-    FiCAL |< Iy               `adj`        {- IimAmiy~ -}       [ "leadership" ],
+    FiCAL |< Iy               `adj`     {- IimAmiy~ -}         [ "leadership" ],
 
     -- ;; <imAmiy~At_1
     -- <mAmy   <imAmiy~        NAt     standards     [[<imAmiy~/NOUN]]
     -- AmAmy   <imAmiy~        NAt     standards     [[<imAmiy~/NOUN]]
 
-    FiCAL |< Iy |< At         `noun`       {- IimAmiy~At -}     [ "standards" ],
+    FiCAL |< Iy |< At         `noun`    {- IimAmiy~At -}       [ "standards" ],
 
     -- ;; >um~ap_1
     -- >m      >um~    Napdu   nation;people
@@ -5340,15 +5339,15 @@ lexicon = listing "Lexicon's properties"
     -- >mm     >umam   N       nations;peoples
     -- Amm     >umam   N       nations;peoples
 
-    FuCL |< aT                `noun`       {- Oum~ap -}         [ "nation", "people", "nations", "peoples" ]
+    FuCL |< aT                `noun`    {- Oum~ap -}           [ "nation", "people", "nations", "peoples" ]
                               `plural`     FuCaL
-                              {- `others` [ "'umam N" ] -},
+                           {- `others`  [ "'umam N" ] -},
 
     -- ;; >umam_1
     -- >mm     >umam   N0      Nations
     -- Amm     >umam   N0      Nations
 
-    FuCaL                     `noun`       {- Oumam -}          [ "Nations" ],
+    FuCaL                     `noun`    {- Oumam -}            [ "Nations" ],
 
     -- ;; >umamiy~_1
     -- >mmy    >umamiy~        Nall    international;internationalist     [[>umamiy~/ADJ]]
@@ -5356,19 +5355,19 @@ lexicon = listing "Lexicon's properties"
     -- >mmy    >umamiy~        Nap     internationalism;international     [[>umamiy~/NOUN]]
     -- Ammy    >umamiy~        Nap     internationalism;international     [[>umamiy~/NOUN]]
 
-    FuCaL |< Iy               `adj`        {- Oumamiy~ -}       [ "international", "internationalist", "internationalism" ],
+    FuCaL |< Iy               `adj`     {- Oumamiy~ -}         [ "international", "internationalist", "internationalism" ],
 
     -- ;; ta>omiym_1
     -- t>mym   ta>omiym        NduAt   nationalization
     -- tAmym   ta>omiym        NduAt   nationalization
 
-    TaFCIL                    `noun`       {- taOomiym -}       [ "nationalization" ],
+    TaFCIL                    `noun`    {- taOomiym -}         [ "nationalization" ],
 
     -- ;; >umayomap_1
     -- >mymp   >umayomap       Nprop   Umaima
     -- Amymp   >umayomap       Nprop   Umaima
 
-    FuCayL |< aT              `noun`       {- Oumayomap -}      [ "Umaima" ],
+    FuCayL |< aT              `noun`    {- Oumayomap -}        [ "Umaima" ],
 
     -- ;; >amap_1
     -- >m      >am     Nap     bondmaid;slave girl
@@ -5382,9 +5381,9 @@ lexicon = listing "Lexicon's properties"
     -- >mw     >amaw   NAt     bondmaids;slave girls
     -- Amw     >amaw   NAt     bondmaids;slave girls
 
-    FaL |< aT                 `noun`       {- Oamap -}          [ "bondmaid", "slave girl", "bondmaids", "slave girls" ]
+    FaL |< aT                 `noun`    {- Oamap -}            [ "bondmaid", "slave girl", "bondmaids", "slave girls" ]
                               `plural`     FiCA'
-                              {- `others` [ "'imA' Nh N0_Nh Nhy" ] -} ]
+                           {- `others`  [ "'imA' Nh N0_Nh Nhy" ] -} ]
 
  |> "' m n" <| [
 
@@ -5392,7 +5391,7 @@ lexicon = listing "Lexicon's properties"
     -- >mn     >omun   IV-n_no-Pref-A  be loyal;be reliable
     -- Amn     >omun   IV-n_no-Pref-A  be loyal;be reliable
 
-    FaCuL                     `verb`       {- Oamun-u -}        [ "be loyal", "be reliable" ]
+    FaCuL                     `verb`    {- Oamun-u -}          [ "be loyal", "be reliable" ]
                               `imperf`     FCuL,
 
     -- ;; >amin-a_1
@@ -5401,7 +5400,7 @@ lexicon = listing "Lexicon's properties"
     -- >mn     >oman   IV-n_no-Pref-A  be safe;be secure
     -- Amn     >oman   IV-n_no-Pref-A  be safe;be secure
 
-    FaCiL                     `verb`       {- Oamin-a -}        [ "be safe", "be secure" ]
+    FaCiL                     `verb`    {- Oamin-a -}          [ "be safe", "be secure" ]
                               `imperf`     FCaL,
 
     -- ;; >am~an_1
@@ -5409,7 +5408,7 @@ lexicon = listing "Lexicon's properties"
     -- Amn     >am~an  PV-n    insure;guarantee;secure
     -- &mn     &am~in  IV-n_yu insure;guarantee;secure
 
-    FaCCaL                    `verb`       {- Oam~an -}         [ "insure", "guarantee", "secure" ],
+    FaCCaL                    `verb`    {- Oam~an -}           [ "insure", "guarantee", "secure" ],
 
     -- ;; |man_1
     -- \|mn     |man    PV-n    believe
@@ -5417,7 +5416,7 @@ lexicon = listing "Lexicon's properties"
     -- &mn     &omin   IV-n_no-Pref-A_yu       believe
     -- wmn     wmin    IV_need-Pref-A_yu       believe
 
-    FACaL                     `verb`       {- \|man -}          [ "believe" ],
+    FACaL                     `verb`    {- \|man -}            [ "believe" ],
 
     -- ;; {i}otaman_1
     -- <}tmn   {i}otaman       PV-n    trust;entrust
@@ -5426,62 +5425,62 @@ lexicon = listing "Lexicon's properties"
     -- Atmn    >otamin IV_no-Pref-A    trust;entrust
     -- tmn     tamin   IV_need-Pref-|  trust;entrust
 
-    IFtaCaL                   `verb`       {- Ai}otaman -}      [ "trust", "entrust" ],
+    IFtaCaL                   `verb`    {- Ai}otaman -}        [ "trust", "entrust" ],
 
     -- ;; {isota>oman_1
     -- <st>mn  {isota>oman     PV-n    have confidence;be confident
     -- Ast>mn  {isota>oman     PV-n    have confidence;be confident
     -- st>mn   sota>omin       IV-n    have confidence;be confident
 
-    IstaFCaL                  `verb`       {- AisotaOoman -}    [ "have confidence", "be confident" ],
+    IstaFCaL                  `verb`    {- AisotaOoman -}      [ "have confidence", "be confident" ],
 
     -- ;; >amon_1
     -- >mn     >amon   N       security;safety
     -- Amn     >amon   N       security;safety
 
-    FaCL                      `noun`       {- Oamon -}          [ "security", "safety" ],
+    FaCL                      `noun`    {- Oamon -}            [ "security", "safety" ],
 
     -- ;; >amoniy~_1
     -- >mny    >amoniy~        Nall    security;safety     [[>amoniy~/ADJ]]
     -- Amny    >amoniy~        Nall    security;safety     [[>amoniy~/ADJ]]
 
-    FaCL |< Iy                `adj`        {- Oamoniy~ -}       [ "security", "safety" ],
+    FaCL |< Iy                `adj`     {- Oamoniy~ -}         [ "security", "safety" ],
 
     -- ;; >amAn_1
     -- >mAn    >amAn   N       safety;protection
     -- AmAn    >amAn   N       safety;protection
 
-    FaCAL                     `noun`       {- OamAn -}          [ "safety", "protection" ],
+    FaCAL                     `noun`    {- OamAn -}            [ "safety", "protection" ],
 
     -- ;; >amAnap_1
     -- >mAn    >amAn   Nap     faithfulness;loyalty
     -- AmAn    >amAn   Nap     faithfulness;loyalty
 
-    FaCAL |< aT               `noun`       {- OamAnap -}        [ "faithfulness", "loyalty" ],
+    FaCAL |< aT               `noun`    {- OamAnap -}          [ "faithfulness", "loyalty" ],
 
     -- ;; >amAnap_2
     -- >mAn    >amAn   NapAt   secretariat
     -- AmAn    >amAn   NapAt   secretariat
 
-    FaCAL |< aT               `noun`       {- OamAnap -}        [ "secretariat" ],
+    FaCAL |< aT               `noun`    {- OamAnap -}          [ "secretariat" ],
 
     -- ;; >amAnap_3
     -- >mAn    >amAn   NapAt   deposit
     -- AmAn    >amAn   NapAt   deposit
 
-    FaCAL |< aT               `noun`       {- OamAnap -}        [ "deposit" ],
+    FaCAL |< aT               `noun`    {- OamAnap -}          [ "deposit" ],
 
     -- ;; >amiyn_1
     -- >myn    >amiyn  N0      Amin
     -- Amyn    >amiyn  N0      Amin
 
-    FaCIL                     `noun`       {- Oamiyn -}         [ "Amin" ],
+    FaCIL                     `noun`    {- Oamiyn -}           [ "Amin" ],
 
     -- ;; >amiynap_1
     -- >mynp   >amiynap        Nprop   Amina
     -- Amynp   >amiynap        Nprop   Amina
 
-    FaCIL |< aT               `noun`       {- Oamiynap -}       [ "Amina" ],
+    FaCIL |< aT               `noun`    {- Oamiynap -}         [ "Amina" ],
 
     -- ;; >amiyn_2
     -- >myn    >amiyn  N/ap    faithful;loyal
@@ -5493,9 +5492,9 @@ lexicon = listing "Lexicon's properties"
     -- >mnA}   >umanA} Nhy     faithful;loyal
     -- AmnA}   >umanA} Nhy     faithful;loyal
 
-    FaCIL                     `noun`       {- Oamiyn -}         [ "faithful", "loyal" ]
+    FaCIL                     `noun`    {- Oamiyn -}           [ "faithful", "loyal" ]
                               `plural`     FuCaLA'
-                              {- `others` [ "'umanA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "'umanA' Nh N0_Nh Nhy" ] -},
 
     -- ;; >amiyn_3
     -- >myn    >amiyn  N/ap    secretary
@@ -5507,105 +5506,105 @@ lexicon = listing "Lexicon's properties"
     -- >mnA}   >umanA} Nhy     trustees;secretaries
     -- AmnA}   >umanA} Nhy     trustees;secretaries
 
-    FaCIL                     `noun`       {- Oamiyn -}         [ "secretary", "trustees", "secretaries" ]
+    FaCIL                     `noun`    {- Oamiyn -}           [ "secretary", "trustees", "secretaries" ]
                               `plural`     FuCaLA'
-                              {- `others` [ "'umanA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "'umanA' Nh N0_Nh Nhy" ] -},
 
     -- ;; |min_1
     -- \|mn     |min    Nall    secure;safe
     -- Amn     |min    Nall    secure;safe
 
-    FACiL                     `noun`       {- \|min -}          [ "secure", "safe" ],
+    FACiL                     `noun`    {- \|min -}            [ "secure", "safe" ],
 
     -- ;; ma>omuwn_1
     -- m>mwn   ma>omuwn        N0      Mamoun
 
-    MaFCUL                    `noun`       {- maOomuwn -}       [ "Mamoun" ],
+    MaFCUL                    `noun`    {- maOomuwn -}         [ "Mamoun" ],
 
     -- ;; ma>omuwn_2
     -- m>mwn   ma>omuwn        Nall    trustworthy;loyal
 
-    MaFCUL                    `noun`       {- maOomuwn -}       [ "trustworthy", "loyal" ],
+    MaFCUL                    `noun`    {- maOomuwn -}         [ "trustworthy", "loyal" ],
 
     -- ;; ma>oman_1
     -- m>mn    ma>oman Ndu     shelter;refuge
     -- m|mn    ma|min  Ndip    shelters;refuge
 
-    MaFCaL                    `noun`       {- maOoman -}        [ "shelter", "refuge", "shelters" ]
+    MaFCaL                    `noun`    {- maOoman -}          [ "shelter", "refuge", "shelters" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma'Amin Ndip" ] -},
+                           {- `others`  [ "ma'Amin Ndip" ] -},
 
     -- ;; ta>omiyn_1
     -- t>myn   ta>omiyn        NduAt   insurance;guarantee
     -- tAmyn   ta>omiyn        NduAt   insurance;guarantee
 
-    TaFCIL                    `noun`       {- taOomiyn -}       [ "insurance", "guarantee" ],
+    TaFCIL                    `noun`    {- taOomiyn -}         [ "insurance", "guarantee" ],
 
     -- ;; {i}otimAn_1
     -- <}tmAn  {i}otimAn       NduAt   trust;credit
     -- A}tmAn  {i}otimAn       NduAt   trust;credit
 
-    IFtiCAL                   `noun`       {- Ai}otimAn -}      [ "trust", "credit" ],
+    IFtiCAL                   `noun`    {- Ai}otimAn -}        [ "trust", "credit" ],
 
     -- ;; {i}otimAniy~_1
     -- <}tmAny {i}otimAniy~    Nall    fiduciary;credit     [[{i}otimAniy~/ADJ]]
     -- A}tmAny {i}otimAniy~    Nall    fiduciary;credit     [[{i}otimAniy~/ADJ]]
 
-    IFtiCAL |< Iy             `adj`        {- Ai}otimAniy~ -}   [ "fiduciary", "credit" ],
+    IFtiCAL |< Iy             `adj`     {- Ai}otimAniy~ -}     [ "fiduciary", "credit" ],
 
     -- ;; mu&am~in_1
     -- m&mn    mu&am~in        Nall    guarantor;insurer
 
-    MuFaCCiL                  `noun`       {- muWam~in -}       [ "guarantor", "insurer" ],
+    MuFaCCiL                  `noun`    {- muWam~in -}         [ "guarantor", "insurer" ],
 
     -- ;; mu&am~an_1
     -- m&mn    mu&am~an        Nall    guaranteed;insured
 
-    MuFaCCaL                  `noun`       {- muWam~an -}       [ "guaranteed", "insured" ],
+    MuFaCCaL                  `noun`    {- muWam~an -}         [ "guaranteed", "insured" ],
 
     -- ;; <iymAn_1
     -- <ymAn   <iymAn  NduAt   belief;faith
     -- AymAn   <iymAn  NduAt   belief;faith
 
-    FICAL                     `noun`       {- IiymAn -}         [ "belief", "faith" ],
+    FICAL                     `noun`    {- IiymAn -}           [ "belief", "faith" ],
 
     -- ;; <iymAn_1
     -- <ymAn   <iymAn  NduAt   belief;faith
     -- AymAn   <iymAn  NduAt   belief;faith
 
-    HICAL                     `noun`       {- IiymAn -}         [ "belief", "faith" ],
+    HICAL                     `noun`    {- IiymAn -}           [ "belief", "faith" ],
 
     -- ;; <iymAn_2
     -- <ymAn   <iymAn  Nprop   Iman
     -- AymAn   <iymAn  Nprop   Iman
 
-    FICAL                     `noun`       {- IiymAn -}         [ "Iman" ],
+    FICAL                     `noun`    {- IiymAn -}           [ "Iman" ],
 
     -- ;; <iymAn_2
     -- <ymAn   <iymAn  Nprop   Iman
     -- AymAn   <iymAn  Nprop   Iman
 
-    HICAL                     `noun`       {- IiymAn -}         [ "Iman" ],
+    HICAL                     `noun`    {- IiymAn -}           [ "Iman" ],
 
     -- ;; mu&omin_1
     -- m&mn    mu&omin Nall    believer
 
-    MuFCiL                    `noun`       {- muWomin -}        [ "believer" ],
+    MuFCiL                    `noun`    {- muWomin -}          [ "believer" ],
 
     -- ;; mu&omin_2
     -- m&mn    mu&omin Nall    believer (Muslim)
 
-    MuFCiL                    `noun`       {- muWomin -}        [ "believer (Muslim)" ],
+    MuFCiL                    `noun`    {- muWomin -}          [ "believer (Muslim)" ],
 
     -- ;; musota>omin_1
     -- mst>mn  musota>omin     Nall    protege
 
-    MustaFCiL                 `noun`       {- musotaOomin -}    [ "protege" ],
+    MustaFCiL                 `noun`    {- musotaOomin -}      [ "protege" ],
 
     -- ;; mu&otaman_1
     -- m&tmn   mu&otaman       Nall    trustworthy;entrusted
 
-    MuFtaCaL                  `noun`       {- muWotaman -}      [ "trustworthy", "entrusted" ] ]
+    MuFtaCaL                  `noun`    {- muWotaman -}        [ "trustworthy", "entrusted" ] ]
 
  |> "' m n y" <| [
 
@@ -5613,7 +5612,7 @@ lexicon = listing "Lexicon's properties"
     -- >mAny   >amAniy Nprop   Amani
     -- AmAny   >amAniy Nprop   Amani
 
-    KaRADiS                   `noun`       {- OamAniy -}        [ "Amani" ] ]
+    KaRADiS                   `noun`    {- OamAniy -}          [ "Amani" ] ]
 
  |> "' m r" <| [
 
@@ -5624,7 +5623,7 @@ lexicon = listing "Lexicon's properties"
     -- Amr     >omur   IV_no-Pref-A    command;order;prescribe
     -- mr      mur     IV_need-Pref-|  command;order;prescribe
 
-    FaCaL                     `verb`       {- Oamar-u -}        [ "command", "order", "prescribe" ]
+    FaCaL                     `verb`    {- Oamar-u -}          [ "command", "order", "prescribe" ]
                               `imperf`     CuL
                               `imperf`     FCuL,
 
@@ -5634,26 +5633,26 @@ lexicon = listing "Lexicon's properties"
     -- &mr     &am~ir  IV_yu   empower;authorize
     -- &mr     &am~ar  IV_Pass_yu      be empowered;be authorized
 
-    FaCCaL                    `verb`       {- Oam~ar -}         [ "empower", "authorize", "be empowered", "be authorized" ],
+    FaCCaL                    `verb`    {- Oam~ar -}           [ "empower", "authorize", "be empowered", "be authorized" ],
 
     -- ;; |mar_1
     -- \|mr     |mar    PV      consult
     -- Amr     |mar    PV      consult
     -- &Amr    &Amir   IV_yu   consult
 
-    FACaL                     `verb`       {- \|mar -}          [ "consult" ],
+    FACaL                     `verb`    {- \|mar -}            [ "consult" ],
 
     -- ;; ta>am~ar_1
     -- t>mr    ta>am~ar        PV      come to power
     -- t>mr    ta>am~ar        IV      come to power
 
-    TaFaCCaL                  `verb`       {- taOam~ar -}       [ "come to power" ],
+    TaFaCCaL                  `verb`    {- taOam~ar -}         [ "come to power" ],
 
     -- ;; ta|mar_1
     -- t|mr    ta|mar  PV      co-conspire;deliberate together
     -- t|mr    ta|mar  IV      co-conspire;deliberate together
 
-    TaFACaL                   `verb`       {- ta|mar -}         [ "co-conspire", "deliberate together" ],
+    TaFACaL                   `verb`    {- ta|mar -}           [ "co-conspire", "deliberate together" ],
 
     -- ;; {i}otamar_1
     -- <}tmr   {i}otamar       PV      deliberate;conspire
@@ -5662,7 +5661,7 @@ lexicon = listing "Lexicon's properties"
     -- Atmr    >otamir IV_no-Pref-A    deliberate;conspire
     -- tmr     tamir   IV_need-Pref-|  deliberate;conspire
 
-    IFtaCaL                   `verb`       {- Ai}otamar -}      [ "deliberate", "conspire" ],
+    IFtaCaL                   `verb`    {- Ai}otamar -}        [ "deliberate", "conspire" ],
 
     -- ;; >amor_1
     -- >mr     >amor   Ndu     matter;issue
@@ -5670,9 +5669,9 @@ lexicon = listing "Lexicon's properties"
     -- >mwr    >umuwr  N       matters;issues
     -- Amwr    >umuwr  N       matters;issues
 
-    FaCL                      `noun`       {- Oamor -}          [ "matter", "issue", "matters", "issues" ]
+    FaCL                      `noun`    {- Oamor -}            [ "matter", "issue", "matters", "issues" ]
                               `plural`     FuCUL
-                              {- `others` [ "'umuwr N" ] -},
+                           {- `others`  [ "'umuwr N" ] -},
 
     -- ;; >amor_2
     -- >mr     >amor   Ndu     order;command
@@ -5680,15 +5679,15 @@ lexicon = listing "Lexicon's properties"
     -- >wAmr   >awAmir Ndip    orders;commands
     -- AwAmr   >awAmir Ndip    orders;commands
 
-    FaCL                      `noun`       {- Oamor -}          [ "order", "command", "orders", "commands" ]
+    FaCL                      `noun`    {- Oamor -}            [ "order", "command", "orders", "commands" ]
                               `plural`     FawACiL
-                              {- `others` [ "'awAmir Ndip" ] -},
+                           {- `others`  [ "'awAmir Ndip" ] -},
 
     -- ;; <imorap_1
     -- <mr     <imor   Nap     authority;command
     -- Amr     <imor   Nap     authority;command
 
-    FiCL |< aT                `noun`       {- Iimorap -}        [ "authority", "command" ],
+    FiCL |< aT                `noun`    {- Iimorap -}          [ "authority", "command" ],
 
     -- ;; <imArap_1
     -- <mAr    <imAr   Napdu   Emirate
@@ -5696,14 +5695,14 @@ lexicon = listing "Lexicon's properties"
     -- <mAr    <imAr   NAt     Emirates
     -- AmAr    <imAr   NAt     Emirates
 
-    FiCAL |< aT               `noun`       {- IimArap -}        [ "Emirate", "Emirates" ]
+    FiCAL |< aT               `noun`    {- IimArap -}          [ "Emirate", "Emirates" ]
                               `plural`     FiCAL |< At,
 
     -- ;; >amArap_1
     -- >mAr    >amAr   NapAt   sign;indication
     -- AmAr    >amAr   NapAt   sign;indication
 
-    FaCAL |< aT               `noun`       {- OamArap -}        [ "sign", "indication" ],
+    FaCAL |< aT               `noun`    {- OamArap -}          [ "sign", "indication" ],
 
     -- ;; >amiyr_1
     -- >myr    >amiyr  N/ap    Emir
@@ -5715,9 +5714,9 @@ lexicon = listing "Lexicon's properties"
     -- >mrA}   >umarA} Nhy     Emirs
     -- AmrA}   >umarA} Nhy     Emirs
 
-    FaCIL                     `noun`       {- Oamiyr -}         [ "Emir", "Emirs" ]
+    FaCIL                     `noun`    {- Oamiyr -}           [ "Emir", "Emirs" ]
                               `plural`     FuCaLA'
-                              {- `others` [ "'umarA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "'umarA' Nh N0_Nh Nhy" ] -},
 
     -- ;; >amiyr_2
     -- >myr    >amiyr  N/ap    prince
@@ -5729,9 +5728,9 @@ lexicon = listing "Lexicon's properties"
     -- >mrA}   >umarA} Nhy     princes
     -- AmrA}   >umarA} Nhy     princes
 
-    FaCIL                     `noun`       {- Oamiyr -}         [ "prince", "princes" ]
+    FaCIL                     `noun`    {- Oamiyr -}           [ "prince", "princes" ]
                               `plural`     FuCaLA'
-                              {- `others` [ "'umarA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "'umarA' Nh N0_Nh Nhy" ] -},
 
     -- ;; >amiyriy~_1
     -- >myry   >amiyriy~       Nall    Emirate;governmental     [[>amiyriy~/NOUN]]
@@ -5739,63 +5738,63 @@ lexicon = listing "Lexicon's properties"
     -- Amyry   >amiyriy~       Nall    Emirate;governmental     [[>amiyriy~/NOUN]]
     -- Amyry   >amiyriy~       Nall    Emirate;governmental     [[>amiyriy~/ADJ]]
 
-    FaCIL |< Iy               `adj`        {- Oamiyriy~ -}      [ "Emirate", "governmental" ],
+    FaCIL |< Iy               `adj`     {- Oamiyriy~ -}        [ "Emirate", "governmental" ],
 
     -- ;; |mir_1
     -- \|mr     |mir    Nall    commander;commandant
     -- Amr     |mir    Nall    commander;commandant
 
-    FACiL                     `noun`       {- \|mir -}          [ "commander", "commandant" ],
+    FACiL                     `noun`    {- \|mir -}            [ "commander", "commandant" ],
 
     -- ;; >am~Ar_1
     -- >mAr    >am~Ar  Nall    instigator;inciting
     -- AmAr    >am~Ar  Nall    instigator;inciting
 
-    FaCCAL                    `noun`       {- Oam~Ar -}         [ "instigator", "inciting" ],
+    FaCCAL                    `noun`    {- Oam~Ar -}           [ "instigator", "inciting" ],
 
     -- ;; ma>omuwr_1
     -- m>mwr   ma>omuwr        Nall    officer;subordinate
     -- m|myr   ma|miyr Ndip    officers;subordinates
 
-    MaFCUL                    `noun`       {- maOomuwr -}       [ "officer", "subordinate", "officers", "subordinates" ]
+    MaFCUL                    `noun`    {- maOomuwr -}         [ "officer", "subordinate", "officers", "subordinates" ]
                               `plural`     MaFACIL
-                              {- `others` [ "ma'Amiyr Ndip" ] -},
+                           {- `others`  [ "ma'Amiyr Ndip" ] -},
 
     -- ;; mu&am~ar_1
     -- m&mr    mu&am~ar        Nall    empowered
 
-    MuFaCCaL                  `noun`       {- muWam~ar -}       [ "empowered" ],
+    MuFaCCaL                  `noun`    {- muWam~ar -}         [ "empowered" ],
 
     -- ;; mu&Amarap_1
     -- m&Amr   mu&Amar NapAt   plot;conspiracy
 
-    MuFACaL |< aT             `noun`       {- muWAmarap -}      [ "plot", "conspiracy" ],
+    MuFACaL |< aT             `noun`    {- muWAmarap -}        [ "plot", "conspiracy" ],
 
     -- ;; ta|mur_1
     -- t|mr    ta|mur  NduAt   conspiracy
 
-    TaFACuL                   `noun`       {- ta|mur -}         [ "conspiracy" ],
+    TaFACuL                   `noun`    {- ta|mur -}           [ "conspiracy" ],
 
     -- ;; muta|mir_1
     -- mt|mr   muta|mir        Nall    conspirator;co-conspirator
 
-    MutaFACiL                 `noun`       {- muta|mir -}       [ "conspirator", "co-conspirator" ],
+    MutaFACiL                 `noun`    {- muta|mir -}         [ "conspirator", "co-conspirator" ],
 
     -- ;; {isoti}omArap_1
     -- <st}mAr {isoti}omAr     NapAt   form;questionnaire
     -- Ast}mAr {isoti}omAr     NapAt   form;questionnaire
 
-    IstiFCAL |< aT            `noun`       {- Aisoti}omArap -}  [ "form", "questionnaire" ],
+    IstiFCAL |< aT            `noun`    {- Aisoti}omArap -}    [ "form", "questionnaire" ],
 
     -- ;; mu&otamar_1
     -- m&tmr   mu&otamar       NduAt   conference;convention
 
-    MuFtaCaL                  `noun`       {- muWotamar -}      [ "conference", "convention" ],
+    MuFtaCaL                  `noun`    {- muWotamar -}        [ "conference", "convention" ],
 
     -- ;; mu&otamir_1
     -- m&tmr   mu&otamir       Nuwn_Niyn       conference participants;conferees
 
-    MuFtaCiL                  `noun`       {- muWotamir -}      [ "conference participants", "conferees" ] ]
+    MuFtaCiL                  `noun`    {- muWotamir -}        [ "conference participants", "conferees" ] ]
 
  |> "' m r k" <| [
 
@@ -5804,24 +5803,24 @@ lexicon = listing "Lexicon's properties"
     -- Amrk    >amorak PV      Americanize
     -- &mrk    &amorik IV_yu   Americanize
 
-    KaRDaS                    `verb`       {- Oamorak -}        [ "Americanize" ],
+    KaRDaS                    `verb`    {- Oamorak -}          [ "Americanize" ],
 
     -- ;; ta>amorak_1
     -- t>mrk   ta>amorak       PV_intr become Americanized
     -- t>mrk   ta>amorak       IV_intr become Americanized
 
-    TaKaRDaS                  `verb`       {- taOamorak -}      [ "become Americanized" ],
+    TaKaRDaS                  `verb`    {- taOamorak -}        [ "become Americanized" ],
 
     -- ;; >amorakap_1
     -- >mrk    >amorak Nap     Americanization
     -- Amrk    >amorak Nap     Americanization
 
-    KaRDaS |< aT              `noun`       {- Oamorakap -}      [ "Americanization" ],
+    KaRDaS |< aT              `noun`    {- Oamorakap -}        [ "Americanization" ],
 
     -- ;; ta>amoruk_1
     -- t>mrk   ta>amoruk       NduAt   Americanization
 
-    TaKaRDuS                  `noun`       {- taOamoruk -}      [ "Americanization" ],
+    TaKaRDuS                  `noun`    {- taOamoruk -}        [ "Americanization" ],
 
     -- ;; >amoriykiy~_1
     -- >mryky  >amoriykiy~     Nall    American     [[>amoriykiy~/NOUN]]
@@ -5849,7 +5848,7 @@ lexicon = listing "Lexicon's properties"
     -- >mrykAn >amoriykAn      N       Americans     [[>amoriykAn/ADJ]]
     -- AmrykAn >amoriykAn      N       Americans     [[>amoriykAn/ADJ]]
 
-    KaRDIS |< Iy              `adj`        {- Oamoriykiy~ -}    [ "American", "Americans" ] ]
+    KaRDIS |< Iy              `adj`     {- Oamoriykiy~ -}      [ "American", "Americans" ] ]
 
  |> "' m r z" <| [
 
@@ -5857,7 +5856,7 @@ lexicon = listing "Lexicon's properties"
     -- <mrwz   <imoruwz        Nprop   Emrouz
     -- Amrwz   <imoruwz        Nprop   Emrouz
 
-    KiRDUS                    `noun`       {- Iimoruwz -}       [ "Emrouz" ] ]
+    KiRDUS                    `noun`    {- Iimoruwz -}         [ "Emrouz" ] ]
 
  |> "' m s" <| [
 
@@ -5867,7 +5866,7 @@ lexicon = listing "Lexicon's properties"
     -- >ms     >amos   N       yesterday
     -- Ams     >amos   N       yesterday
 
-    FaCL                      `noun`       {- Oamos -}          [ "yesterday" ] ]
+    FaCL                      `noun`    {- Oamos -}            [ "yesterday" ] ]
 
  |> "' m w" <| [
 
@@ -5877,7 +5876,7 @@ lexicon = listing "Lexicon's properties"
     -- Amwy    >umawiy~        Nall    Umayyad     [[>umawiy~/NOUN]]
     -- Amwy    >umawiy~        Nall    Umayyad     [[>umawiy~/ADJ]]
 
-    FuCY |< Iy                `adj`        {- Oumawiy~ -}       [ "Umayyad" ] ]
+    FuCY |< Iy                `adj`     {- Oumawiy~ -}         [ "Umayyad" ] ]
 
  |> "' n '" <| [
 
@@ -5885,19 +5884,19 @@ lexicon = listing "Lexicon's properties"
     -- >nA     >anA    FW-Wa   I     [[>anA/PRON_1S]]
     -- AnA     >anA    FW-Wa   I     [[>anA/PRON_1S]]
 
-    FaCA                      `noun`       {- OanA -}           [ "I" ],
+    FaCA                      `noun`    {- OanA -}             [ "I" ],
 
     -- ;; >anA_2
     -- >nA     >anA    N0      ego
     -- AnA     >anA    N0      ego
 
-    FaCA                      `noun`       {- OanA -}           [ "ego" ],
+    FaCA                      `noun`    {- OanA -}             [ "ego" ],
 
     -- ;; lA>anA_1
     -- lA>nA   lA>anA  N0_L    non-ego
     -- lAAnA   lA>anA  N0_L    non-ego
 
-    lA >| FaCA                `noun`       {- lAOanA -}         [ "non-ego" ],
+    lA >| FaCA                `noun`    {- lAOanA -}           [ "non-ego" ],
 
     -- ;; >anaY-i_1
     -- >nY     >anaY   PV_0    mature;approach
@@ -5913,7 +5912,7 @@ lexicon = listing "Lexicon's properties"
     -- >n      >on     IV_0hwnyn_no-Pref-A     mature;approach
     -- An      >on     IV_0hwnyn_no-Pref-A     mature;approach
 
-    FaCY                      `verb`       {- OanaY-i -}        [ "mature", "approach" ]
+    FaCY                      `verb`    {- OanaY-i -}          [ "mature", "approach" ]
                               `imperf`     FCI,
 
     -- ;; ta>an~aY_1
@@ -5926,7 +5925,7 @@ lexicon = listing "Lexicon's properties"
     -- t>ny    ta>an~ay        IV_Ann  act slowly;be cautious
     -- t>n     ta>an~  IV_0hwnyn       act slowly;be cautious
 
-    TaFaCCY                   `verb`       {- taOan~aY -}       [ "act slowly", "be cautious" ],
+    TaFaCCY                   `verb`    {- taOan~aY -}         [ "act slowly", "be cautious" ],
 
     -- ;; {isota>onaY_1
     -- <st>nY  {isota>onaY     PV_0    hesitate;wait
@@ -5940,7 +5939,7 @@ lexicon = listing "Lexicon's properties"
     -- st>ny   sota>oniy       IV_0hAnn        hesitate;wait
     -- st>n    sota>on IV_0hwnyn       hesitate;wait
 
-    IstaFCY                   `verb`       {- AisotaOonaY -}    [ "hesitate", "wait" ],
+    IstaFCY                   `verb`    {- AisotaOonaY -}      [ "hesitate", "wait" ],
 
     -- ;; >anaY_1
     -- >nY     >anaY   N0      time;period
@@ -5954,16 +5953,16 @@ lexicon = listing "Lexicon's properties"
     -- \|nA}    |nA}    Nhy     time;period
     -- AnA}    |nA}    Nhy     time;period
 
-    FaCY                      `noun`       {- OanaY -}          [ "time", "period" ]
+    FaCY                      `noun`    {- OanaY -}            [ "time", "period" ]
                               `plural`     HACAL
                               `plural`     FaCA
-                              {- `others` [ "'AnA' Nh N0_Nh Nhy", "'anA Nhy" ] -},
+                           {- `others`  [ "'AnA' Nh N0_Nh Nhy", "'anA Nhy" ] -},
 
     -- ;; >anAp_1
     -- >nA     >anA    Nap     patience;equanimity
     -- AnA     >anA    Nap     patience;equanimity
 
-    FaCY |< aT                `noun`       {- OanAp -}          [ "patience", "equanimity" ],
+    FaCY |< aT                `noun`    {- OanAp -}            [ "patience", "equanimity" ],
 
     -- ;; <inA'_1
     -- <nA'    <inA'   N0_Nh   vessel;container;receptacle
@@ -5983,7 +5982,7 @@ lexicon = listing "Lexicon's properties"
     -- >wAn    >awAn   NK      vessels;containers;receptacles
     -- AwAn    >awAn   NK      vessels;containers;receptacles
 
-    FiCAL                     `noun`       {- IinA' -}          [ "vessel", "container", "receptacle", "vessels", "containers", "receptacles" ]
+    FiCAL                     `noun`    {- IinA' -}            [ "vessel", "container", "receptacle", "vessels", "containers", "receptacles" ]
                               `plural`     FACI |< aT,
 
     -- ;; ta>an~iy_1
@@ -5992,7 +5991,7 @@ lexicon = listing "Lexicon's properties"
     -- t>ny    ta>an~iy        NAn_Nayn        circumspection;prudence
     -- t>ny    ta>an~iy        NAt     circumspection;prudence
 
-    TaFaCCI                   `noun`       {- taOan~iy -}       [ "circumspection", "prudence" ],
+    TaFaCCI                   `noun`    {- taOan~iy -}         [ "circumspection", "prudence" ],
 
     -- ;; muta>an~iy_1
     -- mt>ny   muta>an~iy      N0F_Nh  circumspect;prudent
@@ -6001,13 +6000,13 @@ lexicon = listing "Lexicon's properties"
     -- mt>n    muta>an~        Nuwn_Niyn       circumspect;prudent
     -- mt>ny   muta>an~iy      NapAt   circumspect;prudent
 
-    MutaFaCCI                 `noun`       {- mutaOan~iy -}     [ "circumspect", "prudent" ],
+    MutaFaCCI                 `noun`    {- mutaOan~iy -}       [ "circumspect", "prudent" ],
 
     -- ;; >an~aY_1
     -- >nY     >an~aY  FW-Wa   where?;how?;however     [[>an~aY/CONJ]]
     -- AnY     >an~aY  FW-Wa   where?;how?;however     [[>an~aY/CONJ]]
 
-    FaCCY                     `noun`       {- Oan~aY -}         [ "where?", "how?", "however" ] ]
+    FaCCY                     `noun`    {- Oan~aY -}           [ "where?", "how?", "however" ] ]
 
  |> "' n .g l" <| [
 
@@ -6018,7 +6017,7 @@ lexicon = listing "Lexicon's properties"
     -- Angwly  >anoguwliy~     Nall    Angolan     [[>anoguwliy~/ADJ]]
     -- Angwlym Angwlym Nall    Angolim;Engoulime;Ingoulimes ??
 
-    KaRDUS |< Iy              `adj`        {- Oanoguwliy~ -}    [ "Angolan", "Angolim", "Engoulime", "Ingoulimes ??" ] ]
+    KaRDUS |< Iy              `adj`     {- Oanoguwliy~ -}      [ "Angolan", "Angolim", "Engoulime", "Ingoulimes ??" ] ]
 
  |> "' n .t k" <| [
 
@@ -6026,7 +6025,7 @@ lexicon = listing "Lexicon's properties"
     -- >nTAky  >anoTAkiy~      Nap     Antakya;Antioch     [[>anoTAkiy~/NOUN]]
     -- AnTAky  >anoTAkiy~      Nap     Antakya;Antioch     [[>anoTAkiy~/NOUN]]
 
-    KaRDAS |< Iy |< aT        `noun`       {- OanoTAkiy~ap -}   [ "Antakya", "Antioch" ] ]
+    KaRDAS |< Iy |< aT        `noun`    {- OanoTAkiy~ap -}     [ "Antakya", "Antioch" ] ]
 
  |> "' n .t n" <| [
 
@@ -6034,7 +6033,7 @@ lexicon = listing "Lexicon's properties"
     -- >nTwn   >anoTuwn        Nprop   Antoun;Anton
     -- AnTwn   >anoTuwn        Nprop   Antoun;Anton
 
-    KaRDUS                    `noun`       {- OanoTuwn -}       [ "Antoun", "Anton" ] ]
+    KaRDUS                    `noun`    {- OanoTuwn -}         [ "Antoun", "Anton" ] ]
 
  |> "' n ^g .s" <| [
 
@@ -6042,7 +6041,7 @@ lexicon = listing "Lexicon's properties"
     -- <njAS   <inojAS N/ap    pear
     -- AnjAS   <inojAS N/ap    pear
 
-    KiRDAS                    `noun`       {- IinojAS -}        [ "pear" ] ]
+    KiRDAS                    `noun`    {- IinojAS -}          [ "pear" ] ]
 
  |> "' n ^g l" <| [
 
@@ -6050,13 +6049,13 @@ lexicon = listing "Lexicon's properties"
     -- t>njl   ta>anojal       PV_intr be Anglicized
     -- t>njl   ta>anojal       IV_intr be Anglicized
 
-    TaKaRDaS                  `verb`       {- taOanojal -}      [ "be Anglicized" ],
+    TaKaRDaS                  `verb`    {- taOanojal -}        [ "be Anglicized" ],
 
     -- ;; >anojalap_1
     -- >njl    >anojal Nap     Anglicization
     -- Anjl    >anojal Nap     Anglicization
 
-    KaRDaS |< aT              `noun`       {- Oanojalap -}      [ "Anglicization" ],
+    KaRDaS |< aT              `noun`    {- Oanojalap -}        [ "Anglicization" ],
 
     -- ;; <inojiyl_1
     -- <njyl   <inojiyl        Ndu     gospel
@@ -6064,15 +6063,15 @@ lexicon = listing "Lexicon's properties"
     -- >nAjyl  >anAjiyl        Ndip    gospels
     -- AnAjyl  >anAjiyl        Ndip    gospels
 
-    KiRDIS                    `noun`       {- Iinojiyl -}       [ "gospel", "gospels" ]
+    KiRDIS                    `noun`    {- Iinojiyl -}         [ "gospel", "gospels" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'anA^giyl Ndip" ] -},
+                           {- `others`  [ "'anA^giyl Ndip" ] -},
 
     -- ;; <inojiyliy~_1
     -- <njyly  <inojiyliy~     Nall    evangelical     [[<inojiyliy~/ADJ]]
     -- Anjyly  <inojiyliy~     Nall    evangelical     [[<inojiyliy~/ADJ]]
 
-    KiRDIS |< Iy              `adj`        {- Iinojiyliy~ -}    [ "evangelical" ],
+    KiRDIS |< Iy              `adj`     {- Iinojiyliy~ -}      [ "evangelical" ],
 
     -- ;; >anojuwliy~_1
     -- >njwly  >anojuwliy~     Nall    Angolan     [[>anojuwliy~/NOUN]]
@@ -6080,7 +6079,7 @@ lexicon = listing "Lexicon's properties"
     -- Anjwly  >anojuwliy~     Nall    Angolan     [[>anojuwliy~/NOUN]]
     -- Anjwly  >anojuwliy~     Nall    Angolan     [[>anojuwliy~/ADJ]]
 
-    KaRDUS |< Iy              `adj`        {- Oanojuwliy~ -}    [ "Angolan" ] ]
+    KaRDUS |< Iy              `adj`     {- Oanojuwliy~ -}      [ "Angolan" ] ]
 
  |> "' n ^s" <| [
 
@@ -6088,7 +6087,7 @@ lexicon = listing "Lexicon's properties"
     -- <n$     <ino$   NduAt   inch
     -- An$     <ino$   NduAt   inch
 
-    FiCL                      `noun`       {- Iino$ -}          [ "inch" ] ]
+    FiCL                      `noun`    {- Iino$ -}            [ "inch" ] ]
 
  |> "' n ^s ^g" <| [
 
@@ -6096,7 +6095,7 @@ lexicon = listing "Lexicon's properties"
     -- >n$wj   >ano$uwj        NapAt   anchovy
     -- An$wj   >ano$uwj        NapAt   anchovy
 
-    KaRDUS |< aT              `noun`       {- Oano$uwjap -}     [ "anchovy" ] ]
+    KaRDUS |< aT              `noun`    {- Oano$uwjap -}       [ "anchovy" ] ]
 
  |> "' n _h l" <| [
 
@@ -6104,7 +6103,7 @@ lexicon = listing "Lexicon's properties"
     -- >nxl    >anoxil Nprop   Angel
     -- Anxl    >anoxil Nprop   Angel
 
-    KaRDiS                    `noun`       {- Oanoxil -}        [ "Angel" ] ]
+    KaRDiS                    `noun`    {- Oanoxil -}          [ "Angel" ] ]
 
  |> "' n _t" <| [
 
@@ -6114,7 +6113,7 @@ lexicon = listing "Lexicon's properties"
     -- >nv     >onuv   IV_intr be feminine;be effeminate
     -- Anv     >onuv   IV_intr be feminine;be effeminate
 
-    FaCuL                     `verb`       {- Oanuv-u -}        [ "be feminine", "be effeminate" ]
+    FaCuL                     `verb`    {- Oanuv-u -}          [ "be feminine", "be effeminate" ]
                               `imperf`     FCuL,
 
     -- ;; >an~av_1
@@ -6123,13 +6122,13 @@ lexicon = listing "Lexicon's properties"
     -- &nv     &an~iv  IV_yu   feminize;make feminine
     -- &nv     &an~av  IV_Pass_yu      be feminized;be made feminine
 
-    FaCCaL                    `verb`       {- Oan~av -}         [ "feminize", "make feminine", "be feminized", "be made feminine" ],
+    FaCCaL                    `verb`    {- Oan~av -}           [ "feminize", "make feminine", "be feminized", "be made feminine" ],
 
     -- ;; ta>an~av_1
     -- t>nv    ta>an~av        PV_intr be feminine;be effeminate
     -- t>nv    ta>an~av        IV_intr be feminine;be effeminate
 
-    TaFaCCaL                  `verb`       {- taOan~av -}       [ "be feminine", "be effeminate" ],
+    TaFaCCaL                  `verb`    {- taOan~av -}         [ "be feminine", "be effeminate" ],
 
     -- ;; >unovaY_1
     -- >nvY    >unovaY N0      female;feminine
@@ -6141,7 +6140,7 @@ lexicon = listing "Lexicon's properties"
     -- >nvy    >unovay NAt     females;feminine
     -- Anvy    >unovay NAt     females;feminine
 
-    FuCLY                     `noun`       {- OunovaY -}        [ "female", "feminine", "females" ],
+    FuCLY                     `noun`    {- OunovaY -}          [ "female", "feminine", "females" ],
 
     -- ;; <inAv_1
     -- <nAv    <inAv   N       females
@@ -6151,29 +6150,29 @@ lexicon = listing "Lexicon's properties"
     -- >nAvA   >anAvA  Nhy     females
     -- AnAvA   >anAvA  Nhy     females
 
-    FiCAL                     `noun`       {- IinAv -}          [ "females" ],
+    FiCAL                     `noun`    {- IinAv -}            [ "females" ],
 
     -- ;; >unovawiy~_1
     -- >nvwy   >unovawiy~      Nall    feminine     [[>unovawiy~/ADJ]]
     -- Anvwy   >unovawiy~      Nall    feminine     [[>unovawiy~/ADJ]]
 
-    FuCLY |< Iy               `adj`        {- Ounovawiy~ -}     [ "feminine" ],
+    FuCLY |< Iy               `adj`     {- Ounovawiy~ -}       [ "feminine" ],
 
     -- ;; >unuwvap_1
     -- >nwv    >unuwv  Nap     femininity
     -- Anwv    >unuwv  Nap     femininity
 
-    FuCUL |< aT               `noun`       {- Ounuwvap -}       [ "femininity" ],
+    FuCUL |< aT               `noun`    {- Ounuwvap -}         [ "femininity" ],
 
     -- ;; ta>oniyv_1
     -- t>nyv   ta>oniyv        NduAt   feminization
 
-    TaFCIL                    `noun`       {- taOoniyv -}       [ "feminization" ],
+    TaFCIL                    `noun`    {- taOoniyv -}         [ "feminization" ],
 
     -- ;; mu&an~av_1
     -- m&nv    mu&an~av        Nall    feminine;effeminate
 
-    MuFaCCaL                  `noun`       {- muWan~av -}       [ "feminine", "effeminate" ] ]
+    MuFaCCaL                  `noun`    {- muWan~av -}         [ "feminine", "effeminate" ] ]
 
  |> "' n b" <| [
 
@@ -6183,12 +6182,12 @@ lexicon = listing "Lexicon's properties"
     -- &nb     &an~ib  IV_yu   censure;reprimand
     -- &nb     &an~ab  IV_Pass_yu      be censured;be reprimanded
 
-    FaCCaL                    `verb`       {- Oan~ab -}         [ "censure", "reprimand", "be censured", "be reprimanded" ],
+    FaCCaL                    `verb`    {- Oan~ab -}           [ "censure", "reprimand", "be censured", "be reprimanded" ],
 
     -- ;; ta>oniyb_1
     -- t>nyb   ta>oniyb        NduAt   censure;reprimand
 
-    TaFCIL                    `noun`       {- taOoniyb -}       [ "censure", "reprimand" ],
+    TaFCIL                    `noun`    {- taOoniyb -}         [ "censure", "reprimand" ],
 
     -- ;; >anabap_1
     -- >nb     >anab   Napdu   eggplant
@@ -6196,9 +6195,9 @@ lexicon = listing "Lexicon's properties"
     -- >nb     >anab   N       eggplant
     -- Anb     >anab   N       eggplant
 
-    FaCaL |< aT               `noun`       {- Oanabap -}        [ "eggplant" ]
+    FaCaL |< aT               `noun`    {- Oanabap -}          [ "eggplant" ]
                               `plural`     FaCaL
-                              {- `others` [ "'anab N" ] -} ]
+                           {- `others`  [ "'anab N" ] -} ]
 
  |> "' n b ^g" <| [
 
@@ -6208,7 +6207,7 @@ lexicon = listing "Lexicon's properties"
     -- >nbj    >anobaj NapAt   mango
     -- Anbj    >anobaj NapAt   mango
 
-    KaRDaS                    `noun`       {- Oanobaj -}        [ "mango" ] ]
+    KaRDaS                    `noun`    {- Oanobaj -}          [ "mango" ] ]
 
  |> "' n b ^s" <| [
 
@@ -6218,7 +6217,7 @@ lexicon = listing "Lexicon's properties"
     -- >wnbA$y >uwnbA$iy~      Nall    corporal     [[>uwnbA$iy~/NOUN]]
     -- AwnbA$y >uwnbA$iy~      Nall    corporal     [[>uwnbA$iy~/NOUN]]
 
-    KuRDAS |< Iy              `noun`       {- OunobA$iy~ -}     [ "corporal" ] ]
+    KuRDAS |< Iy              `noun`    {- OunobA$iy~ -}       [ "corporal" ] ]
 
  |> "' n b q" <| [
 
@@ -6228,9 +6227,9 @@ lexicon = listing "Lexicon's properties"
     -- >nAbyq  >anAbiyq        Ndip    alembic;retorts
     -- AnAbyq  >anAbiyq        Ndip    alembic;retorts
 
-    KiRDIS                    `noun`       {- Iinobiyq -}       [ "alembic", "retort", "retorts" ]
+    KiRDIS                    `noun`    {- Iinobiyq -}         [ "alembic", "retort", "retorts" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'anAbiyq Ndip" ] -} ]
+                           {- `others`  [ "'anAbiyq Ndip" ] -} ]
 
  |> "' n b r" <| [
 
@@ -6242,10 +6241,10 @@ lexicon = listing "Lexicon's properties"
     -- >nAbyr  >anAbiyr        Ndip    warehouses;storerooms
     -- AnAbyr  >anAbiyr        Ndip    warehouses;storerooms
 
-    KaRDAS                    `noun`       {- OanobAr -}        [ "warehouse", "storeroom", "warehouses", "storerooms" ]
+    KaRDAS                    `noun`    {- OanobAr -}          [ "warehouse", "storeroom", "warehouses", "storerooms" ]
                               `plural`     KaRADIS
                               `plural`     KaRADiS
-                              {- `others` [ "'anAbiyr Ndip", "'anAbir Ndip" ] -} ]
+                           {- `others`  [ "'anAbiyr Ndip", "'anAbir Ndip" ] -} ]
 
  |> "' n d" <| [
 
@@ -6256,15 +6255,15 @@ lexicon = listing "Lexicon's properties"
     -- >ndAng  >anodAng        Nprop   Andang
     -- AndAng  >anodAng        Nprop   Andang
 
-    FaCL                      `noun`       {- Oanod -}          [ "And", "Andang" ]
+    FaCL                      `noun`    {- Oanod -}            [ "And", "Andang" ]
                               `plural`     FACL
-                              {- `others` [ "'And FW" ] -},
+                           {- `others`  [ "'And FW" ] -},
 
     -- ;; >anuwd_1
     -- >nwd    >anuwd  N/At    anode
     -- Anwd    >anuwd  N/At    anode
 
-    FaCUL                     `noun`       {- Oanuwd -}         [ "anode" ] ]
+    FaCUL                     `noun`    {- Oanuwd -}           [ "anode" ] ]
 
  |> "' n d k" <| [
 
@@ -6273,7 +6272,7 @@ lexicon = listing "Lexicon's properties"
     -- Andyk   <inodiyk        Nprop   Indyk
     -- >ndyk   <inodiyk        Nprop   Indyk
 
-    KiRDIS                    `noun`       {- Iinodiyk -}       [ "Indyk" ] ]
+    KiRDIS                    `noun`    {- Iinodiyk -}         [ "Indyk" ] ]
 
  |> "' n d z" <| [
 
@@ -6281,7 +6280,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndyz   >anodiyz        N0      Andes
     -- Andyz   >anodiyz        N0      Andes
 
-    KaRDIS                    `noun`       {- Oanodiyz -}       [ "Andes" ] ]
+    KaRDIS                    `noun`    {- Oanodiyz -}         [ "Andes" ] ]
 
  |> "' n f" <| [
 
@@ -6291,7 +6290,7 @@ lexicon = listing "Lexicon's properties"
     -- >nf     >onaf   IV_no-Pref-A    disdain;reject
     -- Anf     >onaf   IV_no-Pref-A    disdain;reject
 
-    FaCiL                     `verb`       {- Oanif-a -}        [ "disdain", "reject" ]
+    FaCiL                     `verb`    {- Oanif-a -}          [ "disdain", "reject" ]
                               `imperf`     FCaL,
 
     -- ;; {isota>onaf_1
@@ -6301,7 +6300,7 @@ lexicon = listing "Lexicon's properties"
     -- st>nf   sota>onif       IV      resume;start over;appeal
     -- stAnf   sota>onif       IV      resume;start over;appeal
 
-    IstaFCaL                  `verb`       {- AisotaOonaf -}    [ "resume", "start over", "appeal" ],
+    IstaFCaL                  `verb`    {- AisotaOonaf -}      [ "resume", "start over", "appeal" ],
 
     -- ;; >anof_1
     -- >nf     >anof   Ndu     nose;pride
@@ -6309,35 +6308,35 @@ lexicon = listing "Lexicon's properties"
     -- >nwf    >unuwf  N       noses;pride
     -- Anwf    >unuwf  N       noses;pride
 
-    FaCL                      `noun`       {- Oanof -}          [ "nose", "pride", "noses" ]
+    FaCL                      `noun`    {- Oanof -}            [ "nose", "pride", "noses" ]
                               `plural`     FuCUL
-                              {- `others` [ "'unuwf N" ] -},
+                           {- `others`  [ "'unuwf N" ] -},
 
     -- ;; >anofiy~_1
     -- >nfy    >anofiy~        Nall    nasal     [[>anofiy~/ADJ]]
     -- Anfy    >anofiy~        Nall    nasal     [[>anofiy~/ADJ]]
 
-    FaCL |< Iy                `adj`        {- Oanofiy~ -}       [ "nasal" ],
+    FaCL |< Iy                `adj`     {- Oanofiy~ -}         [ "nasal" ],
 
     -- ;; >anafap_1
     -- >nf     >anaf   Nap     pride;disdain
     -- Anf     >anaf   Nap     pride;disdain
 
-    FaCaL |< aT               `noun`       {- Oanafap -}        [ "pride", "disdain" ],
+    FaCaL |< aT               `noun`    {- Oanafap -}          [ "pride", "disdain" ],
 
     -- ;; |nif_1
     -- \|nf     |nif    N/ap    previous;beforehand
     -- Anf     |nif    N/ap    previous;beforehand
 
-    FACiL                     `noun`       {- \|nif -}          [ "previous", "beforehand" ],
+    FACiL                     `noun`    {- \|nif -}            [ "previous", "beforehand" ],
 
     -- ;; |nifAF_1
     -- \|nf     |nif    NF      previously;foregoing     [[|nif/ADV]]
     -- Anf     |nif    NF      previously;foregoing     [[|nif/ADV]]
 
-    FACiL |< aN               `noun`       {- \|nifAF -}        [ "previously", "foregoing" ]
+    FACiL |< aN               `noun`    {- \|nifAF -}          [ "previously", "foregoing" ]
                               `plural`     FACiL
-                              {- `others` [ "'Anif NF" ] -},
+                           {- `others`  [ "'Anif NF" ] -},
 
     -- ;; >anuwf_1
     -- >nwf    >anuwf  Nall    proud;haughty
@@ -6345,26 +6344,26 @@ lexicon = listing "Lexicon's properties"
     -- >nf     >unuf   N       proud;haughty
     -- Anf     >unuf   N       proud;haughty
 
-    FaCUL                     `noun`       {- Oanuwf -}         [ "proud", "haughty" ]
+    FaCUL                     `noun`    {- Oanuwf -}           [ "proud", "haughty" ]
                               `plural`     FuCuL
-                              {- `others` [ "'unuf N" ] -},
+                           {- `others`  [ "'unuf N" ] -},
 
     -- ;; mu&otanaf_1
     -- m&tnf   mu&otanaf       Nall    primordial;beginning
 
-    MuFtaCaL                  `noun`       {- muWotanaf -}      [ "primordial", "beginning" ],
+    MuFtaCaL                  `noun`    {- muWotanaf -}        [ "primordial", "beginning" ],
 
     -- ;; {isoti}onAf_1
     -- <st}nAf {isoti}onAf     NduAt   resumption;appeal
     -- Ast}nAf {isoti}onAf     NduAt   resumption;appeal
 
-    IstiFCAL                  `noun`       {- Aisoti}onAf -}    [ "resumption", "appeal" ],
+    IstiFCAL                  `noun`    {- Aisoti}onAf -}      [ "resumption", "appeal" ],
 
     -- ;; {isoti}onAfiy~_1
     -- <st}nAfy        {isoti}onAfiy~  Nall    appellate     [[{isoti}onAfiy~/ADJ]]
     -- Ast}nAfy        {isoti}onAfiy~  Nall    appellate     [[{isoti}onAfiy~/ADJ]]
 
-    IstiFCAL |< Iy            `adj`        {- Aisoti}onAfiy~ -} [ "appellate" ] ]
+    IstiFCAL |< Iy            `adj`     {- Aisoti}onAfiy~ -}   [ "appellate" ] ]
 
  |> "' n h" <| [
 
@@ -6374,17 +6373,17 @@ lexicon = listing "Lexicon's properties"
     -- >h      >ah     FW      ah!;ouch!     [[>h/INTERJ]]
     -- Ah      >ah     FW      ah!;ouch!     [[>h/INTERJ]]
 
-    FAL                       `noun`       {- \|h -}            [ "ah!", "ouch!" ]
+    FAL                       `noun`    {- \|h -}              [ "ah!", "ouch!" ]
                               `plural`     FaL
-                              {- `others` [ "'ah FW" ] -},
+                           {- `others`  [ "'ah FW" ] -},
 
     -- ;; |hAF_1
     -- \|h      |h      NF      ah!;ouch!     [[|h/INTERJ]]
     -- Ah      |h      NF      ah!;ouch!     [[|h/INTERJ]]
 
-    FAL |< aN                 `noun`       {- \|hAF -}          [ "ah!", "ouch!" ]
+    FAL |< aN                 `noun`    {- \|hAF -}            [ "ah!", "ouch!" ]
                               `plural`     FAL
-                              {- `others` [ "'Ah NF" ] -} ]
+                           {- `others`  [ "'Ah NF" ] -} ]
 
  |> "' n k l" <| [
 
@@ -6394,7 +6393,7 @@ lexicon = listing "Lexicon's properties"
     -- Ankwly  >anokuwliy~     Nall    Angolan     [[>anokuwliy~/NOUN]]
     -- Ankwly  >anokuwliy~     Nall    Angolan     [[>anokuwliy~/ADJ]]
 
-    KaRDUS |< Iy              `adj`        {- Oanokuwliy~ -}    [ "Angolan" ] ]
+    KaRDUS |< Iy              `adj`     {- Oanokuwliy~ -}      [ "Angolan" ] ]
 
  |> "' n m" <| [
 
@@ -6404,15 +6403,15 @@ lexicon = listing "Lexicon's properties"
     -- >nAm    >anAm   N       humankind;mankind
     -- AnAm    >anAm   N       humankind;mankind
 
-    HACAL                     `noun`       {- \|nAm -}          [ "humankind", "mankind" ]
+    HACAL                     `noun`    {- \|nAm -}            [ "humankind", "mankind" ]
                               `plural`     FaCAL
-                              {- `others` [ "'anAm N" ] -},
+                           {- `others`  [ "'anAm N" ] -},
 
     -- ;; >aniymiy~_1
     -- >nymy   >aniymiy~       Nall    anemic     [[>aniymiy~/ADJ]]
     -- Anymy   >aniymiy~       Nall    anemic     [[>aniymiy~/ADJ]]
 
-    FaCIL |< Iy               `adj`        {- Oaniymiy~ -}      [ "anemic" ] ]
+    FaCIL |< Iy               `adj`     {- Oaniymiy~ -}        [ "anemic" ] ]
 
  |> "' n n" <| [
 
@@ -6420,68 +6419,68 @@ lexicon = listing "Lexicon's properties"
     -- >n      >an     FW-Wa   to          [[>an/FUNC_WORD]]
     -- An      >an     FW-Wa   to          [[>an/FUNC_WORD]]
 
-    FaL                       `noun`       {- Oan -}            [ "to" ],
+    FaL                       `noun`    {- Oan -}              [ "to" ],
 
     -- ;; <in_1
     -- <n      <in     FW-Wa   if/whether       [[<in/FUNC_WORD]]
     -- An      <in     FW-Wa   if/whether       [[<in/FUNC_WORD]]
     -- >n      <in     FW-Wa   if/whether       [[<in/FUNC_WORD]]
 
-    FiL                       `noun`       {- Iin -}            [ "if/whether" ],
+    FiL                       `noun`    {- Iin -}              [ "if/whether" ],
 
     -- ;; >aniyn_1
     -- >nyn    >aniyn  N       moaning;sighing
     -- Anyn    >aniyn  N       moaning;sighing
 
-    FaCIL                     `noun`       {- Oaniyn -}         [ "moaning", "sighing" ],
+    FaCIL                     `noun`    {- Oaniyn -}           [ "moaning", "sighing" ],
 
     -- ;; >an~ap_1
     -- >n      >an~    NapAt   moan;complaint
     -- An      >an~    NapAt   moan;complaint
 
-    FaCL |< aT                `noun`       {- Oan~ap -}         [ "moan", "complaint" ],
+    FaCL |< aT                `noun`    {- Oan~ap -}           [ "moan", "complaint" ],
 
     -- ;; >an~An_1
     -- >nAn    >an~An  Nall    lamenting;moaning
     -- AnAn    >an~An  Nall    lamenting;moaning
 
-    FaCCAL                    `noun`       {- Oan~An -}         [ "lamenting", "moaning" ],
+    FaCCAL                    `noun`    {- Oan~An -}           [ "lamenting", "moaning" ],
 
     -- ;; >an~An_1
     -- >nAn    >an~An  Nall    lamenting;moaning
     -- AnAn    >an~An  Nall    lamenting;moaning
 
-    FaCLAn                    `noun`       {- Oan~An -}         [ "lamenting", "moaning" ],
+    FaCLAn                    `noun`    {- Oan~An -}           [ "lamenting", "moaning" ],
 
     -- ;; >anAniy~_1
     -- >nAny   >anAniy~        Nall    egoistic;selfish     [[>anAniy~/ADJ]]
     -- AnAny   >anAniy~        Nall    egoistic;selfish     [[>anAniy~/ADJ]]
 
-    FaCAL |< Iy               `adj`        {- OanAniy~ -}       [ "egoistic", "selfish" ],
+    FaCAL |< Iy               `adj`     {- OanAniy~ -}         [ "egoistic", "selfish" ],
 
     -- ;; >anAniy~ap_1
     -- >nAny   >anAniy~        Nap     egoism;selfishness     [[>anAniy~/NOUN]]
     -- AnAny   >anAniy~        Nap     egoism;selfishness     [[>anAniy~/NOUN]]
 
-    FaCAL |< Iy |< aT         `noun`       {- OanAniy~ap -}     [ "egoism", "selfishness" ],
+    FaCAL |< Iy |< aT         `noun`    {- OanAniy~ap -}       [ "egoism", "selfishness" ],
 
     -- ;; lA>anAniy~ap_1
     -- lA>nAny lA>anAniy~      Nap_L   unselfish;selflessness     [[lA>anAniy~/NOUN]]
     -- lAAnAny lA>anAniy~      Nap_L   unselfish;selflessness     [[lAAanAniy~/NOUN]]
 
-    lA >| FaCAL |< Iy |< aT   `noun`       {- lAOanAniy~ap -}   [ "unselfish", "selflessness" ],
+    lA >| FaCAL |< Iy |< aT   `noun`    {- lAOanAniy~ap -}     [ "unselfish", "selflessness" ],
 
     -- ;; >anAn_1
     -- >nAn    >anAn   Nprop   Annan
     -- AnAn    >anAn   Nprop   Annan
 
-    FaCAL                     `noun`       {- OanAn -}          [ "Annan" ],
+    FaCAL                     `noun`    {- OanAn -}            [ "Annan" ],
 
     -- ;; >an~aY_1
     -- >nY     >an~aY  FW-Wa   where?;how?;however     [[>an~aY/CONJ]]
     -- AnY     >an~aY  FW-Wa   where?;how?;however     [[>an~aY/CONJ]]
 
-    FaCLY                     `noun`       {- Oan~aY -}         [ "where?", "how?", "however" ] ]
+    FaCLY                     `noun`    {- Oan~aY -}           [ "where?", "how?", "however" ] ]
 
  |> "' n q" <| [
 
@@ -6491,7 +6490,7 @@ lexicon = listing "Lexicon's properties"
     -- >nq     >onaq   IV_no-Pref-A    be elegant;be delighted
     -- Anq     >onaq   IV_no-Pref-A    be elegant;be delighted
 
-    FaCiL                     `verb`       {- Oaniq-a -}        [ "be elegant", "be delighted" ]
+    FaCiL                     `verb`    {- Oaniq-a -}          [ "be elegant", "be delighted" ]
                               `imperf`     FCaL,
 
     -- ;; |naq_1
@@ -6500,46 +6499,46 @@ lexicon = listing "Lexicon's properties"
     -- &nq     &oniq   IV_no-Pref-A_yu please
     -- wnq     wniq    IV_need-Pref-A_yu       please
 
-    FACaL                     `verb`       {- \|naq -}          [ "please" ],
+    FACaL                     `verb`    {- \|naq -}            [ "please" ],
 
     -- ;; ta>an~aq_1
     -- t>nq    ta>an~aq        PV_intr be elegant
     -- t>nq    ta>an~aq        IV_intr be elegant
 
-    TaFaCCaL                  `verb`       {- taOan~aq -}       [ "be elegant" ],
+    TaFaCCaL                  `verb`    {- taOan~aq -}         [ "be elegant" ],
 
     -- ;; >anuwq_1
     -- >nwq    >anuwq  N       Egyptian vulture
     -- Anwq    >anuwq  N       Egyptian vulture
 
-    FaCUL                     `noun`       {- Oanuwq -}         [ "Egyptian vulture" ],
+    FaCUL                     `noun`    {- Oanuwq -}           [ "Egyptian vulture" ],
 
     -- ;; >anAqap_1
     -- >nAq    >anAq   Nap     elegance;grace
     -- AnAq    >anAq   Nap     elegance;grace
 
-    FaCAL |< aT               `noun`       {- OanAqap -}        [ "elegance", "grace" ],
+    FaCAL |< aT               `noun`    {- OanAqap -}          [ "elegance", "grace" ],
 
     -- ;; >aniyq_1
     -- >nyq    >aniyq  Nall    elegant;graceful
     -- Anyq    >aniyq  Nall    elegant;graceful
 
-    FaCIL                     `noun`       {- Oaniyq -}         [ "elegant", "graceful" ],
+    FaCIL                     `noun`    {- Oaniyq -}           [ "elegant", "graceful" ],
 
     -- ;; mu&oniq_1
     -- m&nq    mu&oniq Nall    pleasing;attractive
 
-    MuFCiL                    `noun`       {- muWoniq -}        [ "pleasing", "attractive" ],
+    MuFCiL                    `noun`    {- muWoniq -}          [ "pleasing", "attractive" ],
 
     -- ;; ta>an~uq_1
     -- t>nq    ta>an~uq        NduAt   elegance
 
-    TaFaCCuL                  `noun`       {- taOan~uq -}       [ "elegance" ],
+    TaFaCCuL                  `noun`    {- taOan~uq -}         [ "elegance" ],
 
     -- ;; muta>an~iq_1
     -- mt>nq   muta>an~iq      Nall    elegant
 
-    MutaFaCCiL                `noun`       {- mutaOan~iq -}     [ "elegant" ] ]
+    MutaFaCCiL                `noun`    {- mutaOan~iq -}       [ "elegant" ] ]
 
  |> "' n q r" <| [
 
@@ -6553,13 +6552,13 @@ lexicon = listing "Lexicon's properties"
     -- >nkrh   >anokarah       N0      Ankara
     -- Ankrh   >anokarah       N0      Ankara
 
-    KaRDaS |< aT              `noun`       {- Oanoqarap -}      [ "Ankara" ],
+    KaRDaS |< aT              `noun`    {- Oanoqarap -}        [ "Ankara" ],
 
     -- ;; >anoqariy~_1
     -- >nqry   >anoqariy~      N       angora
     -- Anqry   >anoqariy~      N       angora
 
-    KaRDaS |< Iy              `adj`        {- Oanoqariy~ -}     [ "angora" ] ]
+    KaRDaS |< Iy              `adj`     {- Oanoqariy~ -}       [ "angora" ] ]
 
  |> "' n r n" <| [
 
@@ -6568,7 +6567,7 @@ lexicon = listing "Lexicon's properties"
     -- Anrwn   <inoruwn        N0      Enron
     -- >nrwn   <inoruwn        N0      Enron
 
-    KiRDUS                    `noun`       {- Iinoruwn -}       [ "Enron" ] ]
+    KiRDUS                    `noun`    {- Iinoruwn -}         [ "Enron" ] ]
 
  |> "' n s" <| [
 
@@ -6576,7 +6575,7 @@ lexicon = listing "Lexicon's properties"
     -- >ns     >anas   Nprop   Anas
     -- Ans     >anas   Nprop   Anas
 
-    FaCaL                     `noun`       {- Oanas -}          [ "Anas" ],
+    FaCaL                     `noun`    {- Oanas -}            [ "Anas" ],
 
     -- ;; >anis-a_1
     -- >ns     >anis   PV_intr be companionable;be sociable
@@ -6584,7 +6583,7 @@ lexicon = listing "Lexicon's properties"
     -- >ns     >onas   IV_no-Pref-A    be companionable;be sociable
     -- Ans     >onas   IV_no-Pref-A    be companionable;be sociable
 
-    FaCiL                     `verb`       {- Oanis-a -}        [ "be companionable", "be sociable" ]
+    FaCiL                     `verb`    {- Oanis-a -}          [ "be companionable", "be sociable" ]
                               `imperf`     FCaL,
 
     -- ;; >an~as_1
@@ -6593,14 +6592,14 @@ lexicon = listing "Lexicon's properties"
     -- &ns     &an~is  IV_yu   domesticate;put at ease
     -- &ns     &an~as  IV_Pass_yu      be domesticated;be put at ease
 
-    FaCCaL                    `verb`       {- Oan~as -}         [ "domesticate", "put at ease", "be domesticated", "be put at ease" ],
+    FaCCaL                    `verb`    {- Oan~as -}           [ "domesticate", "put at ease", "be domesticated", "be put at ease" ],
 
     -- ;; |nas_1
     -- \|ns     |nas    PV_intr be friendly;entertain
     -- Ans     |nas    PV_intr be friendly;entertain
     -- &Ans    &Anis   IV_intr_yu      be friendly;entertain
 
-    FACaL                     `verb`       {- \|nas -}          [ "be friendly", "entertain" ],
+    FACaL                     `verb`    {- \|nas -}            [ "be friendly", "entertain" ],
 
     -- ;; |nas_2
     -- \|ns     |nas    PV      entertain;perceive
@@ -6608,26 +6607,26 @@ lexicon = listing "Lexicon's properties"
     -- &ns     &onis   IV_no-Pref-A_yu entertain;perceive
     -- wns     wnis    IV_need-Pref-A_yu       entertain;perceive
 
-    FACaL                     `verb`       {- \|nas -}          [ "entertain", "perceive" ],
+    FACaL                     `verb`    {- \|nas -}            [ "entertain", "perceive" ],
 
     -- ;; ta>an~as_1
     -- t>ns    ta>an~as        PV_intr be accustomed;be familiar
     -- t>ns    ta>an~as        IV_intr be accustomed;be familiar
 
-    TaFaCCaL                  `verb`       {- taOan~as -}       [ "be accustomed", "be familiar" ],
+    TaFaCCaL                  `verb`    {- taOan~as -}         [ "be accustomed", "be familiar" ],
 
     -- ;; {isota>onas_1
     -- <st>ns  {isota>onas     PV_intr be domesticated;be sociable
     -- Ast>ns  {isota>onas     PV_intr be domesticated;be sociable
     -- st>ns   sota>onis       IV_intr be domesticated;be sociable
 
-    IstaFCaL                  `verb`       {- AisotaOonas -}    [ "be domesticated", "be sociable" ],
+    IstaFCaL                  `verb`    {- AisotaOonas -}      [ "be domesticated", "be sociable" ],
 
     -- ;; >unos_1
     -- >ns     >unos   N       sociability;friendliness
     -- Ans     >unos   N       sociability;friendliness
 
-    FuCL                      `noun`       {- Ounos -}          [ "sociability", "friendliness" ],
+    FuCL                      `noun`    {- Ounos -}            [ "sociability", "friendliness" ],
 
     -- ;; <inos_1
     -- <ns     <inos   N       humans;people
@@ -6639,41 +6638,41 @@ lexicon = listing "Lexicon's properties"
     -- \|nAs    |nAs    N       humans;people
     -- AnAs    |nAs    N       humans;people
 
-    FiCL                      `noun`       {- Iinos -}          [ "humans", "people" ]
+    FiCL                      `noun`    {- Iinos -}            [ "humans", "people" ]
                               `plural`     HACAL
                               `plural`     FuCAL
                               `plural`     FaCaL
-                              {- `others` [ "'AnAs N", "'unAs N", "'anas N" ] -},
+                           {- `others`  [ "'AnAs N", "'unAs N", "'anas N" ] -},
 
     -- ;; <inosiy~_1
     -- <nsy    <inosiy~        Nall    human     [[<inosiy~/ADJ]]
     -- Ansy    <inosiy~        Nall    human     [[<inosiy~/ADJ]]
 
-    FiCL |< Iy                `adj`        {- Iinosiy~ -}       [ "human" ],
+    FiCL |< Iy                `adj`     {- Iinosiy~ -}         [ "human" ],
 
     -- ;; >anasiy~_1
     -- >nsy    >anasiy~        Nall    humanist;humanitarian     [[>anasiy~/ADJ]]
     -- Ansy    >anasiy~        Nall    humanist;humanitarian     [[>anasiy~/ADJ]]
 
-    FaCaL |< Iy               `adj`        {- Oanasiy~ -}       [ "humanist", "humanitarian" ],
+    FaCaL |< Iy               `adj`     {- Oanasiy~ -}         [ "humanist", "humanitarian" ],
 
     -- ;; <inosiy~ap_1
     -- <nsy    <inosiy~        Nap     humanism     [[<inosiy~/NOUN]]
     -- Ansy    <inosiy~        Nap     humanism     [[<inosiy~/NOUN]]
 
-    FiCL |< Iy |< aT          `noun`       {- Iinosiy~ap -}     [ "humanism" ],
+    FiCL |< Iy |< aT          `noun`    {- Iinosiy~ap -}       [ "humanism" ],
 
     -- ;; >anasiy~ap_1
     -- >nsy    >anasiy~        Nap     humanism;humanitarian     [[>anasiy~/NOUN]]
     -- Ansy    >anasiy~        Nap     humanism;humanitarian     [[>anasiy~/NOUN]]
 
-    FaCaL |< Iy |< aT         `noun`       {- Oanasiy~ap -}     [ "humanism", "humanitarian" ],
+    FaCaL |< Iy |< aT         `noun`    {- Oanasiy~ap -}       [ "humanism", "humanitarian" ],
 
     -- ;; >aniys_1
     -- >nys    >aniys  Nall    affable;sociable
     -- Anys    >aniys  Nall    affable;sociable
 
-    FaCIL                     `noun`       {- Oaniys -}         [ "affable", "sociable" ],
+    FaCIL                     `noun`    {- Oaniys -}           [ "affable", "sociable" ],
 
     -- ;; <inosAn_1
     -- <nsAn   <inosAn N/ap    human being
@@ -6681,98 +6680,98 @@ lexicon = listing "Lexicon's properties"
     -- >nAs    >unAs   N       human beings
     -- AnAs    >unAs   N       human beings
 
-    FiCLAn                    `noun`       {- IinosAn -}        [ "human being", "human beings" ]
+    FiCLAn                    `noun`    {- IinosAn -}          [ "human being", "human beings" ]
                               `plural`     FuCAL
-                              {- `others` [ "'unAs N" ] -},
+                           {- `others`  [ "'unAs N" ] -},
 
     -- ;; <inosAniy~_1
     -- <nsAny  <inosAniy~      Nall    human;humane     [[<inosAniy~/ADJ]]
     -- AnsAny  <inosAniy~      Nall    human;humane     [[<inosAniy~/ADJ]]
 
-    FiCLAn |< Iy              `adj`        {- IinosAniy~ -}     [ "human", "humane" ],
+    FiCLAn |< Iy              `adj`     {- IinosAniy~ -}       [ "human", "humane" ],
 
     -- ;; lA<inosAniy~_1
     -- lA<nsAny        lA<inosAniy~    Nall_L  inhuman     [[lA<inosAniy~/ADJ]]
     -- lAAnsAny        lA<inosAniy~    Nall_L  inhuman     [[lAAinosAniy~/ADJ]]
 
-    lA >| FiCLAn |< Iy        `adj`        {- lAIinosAniy~ -}   [ "inhuman" ],
+    lA >| FiCLAn |< Iy        `adj`     {- lAIinosAniy~ -}     [ "inhuman" ],
 
     -- ;; <inosAniy~ap_1
     -- <nsAny  <inosAniy~      Nap     humanity     [[<inosAniy~/NOUN]]
     -- AnsAny  <inosAniy~      Nap     humanity     [[<inosAniy~/NOUN]]
 
-    FiCLAn |< Iy |< aT        `noun`       {- IinosAniy~ap -}   [ "humanity" ],
+    FiCLAn |< Iy |< aT        `noun`    {- IinosAniy~ap -}     [ "humanity" ],
 
     -- ;; lA<inosAniy~ap_1
     -- lA<nsAny        lA<inosAniy~    Nap_L   inhumanity     [[lA<inosAniy~/NOUN]]
     -- lAAnsAny        lA<inosAniy~    Nap_L   inhumanity     [[lAAinosAniy~/NOUN]]
 
-    lA >| FiCLAn |< Iy |< aT  `noun`       {- lAIinosAniy~ap -} [ "inhumanity" ],
+    lA >| FiCLAn |< Iy |< aT  `noun`    {- lAIinosAniy~ap -}   [ "inhumanity" ],
 
     -- ;; <inosAniy~At_1
     -- <nsAny  <inosAniy~      NAt     Humanities     [[<inosAniy~/NOUN]]
     -- AnsAny  <inosAniy~      NAt     Humanities     [[<inosAniy~/NOUN]]
 
-    FiCLAn |< Iy |< At        `noun`       {- IinosAniy~At -}   [ "Humanities" ],
+    FiCLAn |< Iy |< At        `noun`    {- IinosAniy~At -}     [ "Humanities" ],
 
     -- ;; |nisap_1
     -- \|ns     |nis    NapAt   lady;Miss
     -- Ans     |nis    NapAt   lady;Miss
 
-    FACiL |< aT               `noun`       {- \|nisap -}        [ "lady", "Miss" ],
+    FACiL |< aT               `noun`    {- \|nisap -}          [ "lady", "Miss" ],
 
     -- ;; >awAnis_1
     -- >wAns   >awAnis Ndip    ladies
     -- AwAns   >awAnis Ndip    ladies
 
-    FawACiL                   `noun`       {- OawAnis -}        [ "ladies" ],
+    FawACiL                   `noun`    {- OawAnis -}          [ "ladies" ],
 
     -- ;; ma>onuws_1
     -- m>nws   ma>onuws        Nall    familiar;accustomed
 
-    MaFCUL                    `noun`       {- maOonuws -}       [ "familiar", "accustomed" ],
+    MaFCUL                    `noun`    {- maOonuws -}         [ "familiar", "accustomed" ],
 
     -- ;; ta>oniys_1
     -- t>nys   ta>oniys        NduAt   humanization;domestication
 
-    TaFCIL                    `noun`       {- taOoniys -}       [ "humanization", "domestication" ],
+    TaFCIL                    `noun`    {- taOoniys -}         [ "humanization", "domestication" ],
 
     -- ;; mu&Anasap_1
     -- m&Ans   mu&Anas NapAt   conviviality;cordiality
 
-    MuFACaL |< aT             `noun`       {- muWAnasap -}      [ "conviviality", "cordiality" ],
+    MuFACaL |< aT             `noun`    {- muWAnasap -}        [ "conviviality", "cordiality" ],
 
     -- ;; <iynAs_1
     -- <ynAs   <iynAs  NduAt   courtesy;friendliness
     -- AynAs   <iynAs  NduAt   courtesy;friendliness
 
-    HICAL                     `noun`       {- IiynAs -}         [ "courtesy", "friendliness" ],
+    HICAL                     `noun`    {- IiynAs -}           [ "courtesy", "friendliness" ],
 
     -- ;; <iynAs_1
     -- <ynAs   <iynAs  NduAt   courtesy;friendliness
     -- AynAs   <iynAs  NduAt   courtesy;friendliness
 
-    FICAL                     `noun`       {- IiynAs -}         [ "courtesy", "friendliness" ],
+    FICAL                     `noun`    {- IiynAs -}           [ "courtesy", "friendliness" ],
 
     -- ;; mu&onis_1
     -- m&ns    mu&onis Nall    courteous;friendly
 
-    MuFCiL                    `noun`       {- muWonis -}        [ "courteous", "friendly" ],
+    MuFCiL                    `noun`    {- muWonis -}          [ "courteous", "friendly" ],
 
     -- ;; mu&onis_2
     -- m&ns    mu&onis N0      Mu'nis
 
-    MuFCiL                    `noun`       {- muWonis -}        [ "Mu'nis" ],
+    MuFCiL                    `noun`    {- muWonis -}          [ "Mu'nis" ],
 
     -- ;; ta>an~us_1
     -- t>ns    ta>an~us        NduAt   incarnation
 
-    TaFaCCuL                  `noun`       {- taOan~us -}       [ "incarnation" ],
+    TaFaCCuL                  `noun`    {- taOan~us -}         [ "incarnation" ],
 
     -- ;; musota>onas_1
     -- mst>ns  musota>onas     Nall    domesticated;sociable
 
-    MustaFCaL                 `noun`       {- musotaOonas -}    [ "domesticated", "sociable" ] ]
+    MustaFCaL                 `noun`    {- musotaOonas -}      [ "domesticated", "sociable" ] ]
 
  |> "' n s n" <| [
 
@@ -6782,37 +6781,37 @@ lexicon = listing "Lexicon's properties"
     -- >nAs    >unAs   N       human beings
     -- AnAs    >unAs   N       human beings
 
-    KiRDAS                    `noun`       {- IinosAn -}        [ "human being", "human beings" ],
+    KiRDAS                    `noun`    {- IinosAn -}          [ "human being", "human beings" ],
 
     -- ;; <inosAniy~_1
     -- <nsAny  <inosAniy~      Nall    human;humane     [[<inosAniy~/ADJ]]
     -- AnsAny  <inosAniy~      Nall    human;humane     [[<inosAniy~/ADJ]]
 
-    KiRDAS |< Iy              `adj`        {- IinosAniy~ -}     [ "human", "humane" ],
+    KiRDAS |< Iy              `adj`     {- IinosAniy~ -}       [ "human", "humane" ],
 
     -- ;; lA<inosAniy~_1
     -- lA<nsAny        lA<inosAniy~    Nall_L  inhuman     [[lA<inosAniy~/ADJ]]
     -- lAAnsAny        lA<inosAniy~    Nall_L  inhuman     [[lAAinosAniy~/ADJ]]
 
-    lA >| KiRDAS |< Iy        `adj`        {- lAIinosAniy~ -}   [ "inhuman" ],
+    lA >| KiRDAS |< Iy        `adj`     {- lAIinosAniy~ -}     [ "inhuman" ],
 
     -- ;; <inosAniy~ap_1
     -- <nsAny  <inosAniy~      Nap     humanity     [[<inosAniy~/NOUN]]
     -- AnsAny  <inosAniy~      Nap     humanity     [[<inosAniy~/NOUN]]
 
-    KiRDAS |< Iy |< aT        `noun`       {- IinosAniy~ap -}   [ "humanity" ],
+    KiRDAS |< Iy |< aT        `noun`    {- IinosAniy~ap -}     [ "humanity" ],
 
     -- ;; lA<inosAniy~ap_1
     -- lA<nsAny        lA<inosAniy~    Nap_L   inhumanity     [[lA<inosAniy~/NOUN]]
     -- lAAnsAny        lA<inosAniy~    Nap_L   inhumanity     [[lAAinosAniy~/NOUN]]
 
-    lA >| KiRDAS |< Iy |< aT  `noun`       {- lAIinosAniy~ap -} [ "inhumanity" ],
+    lA >| KiRDAS |< Iy |< aT  `noun`    {- lAIinosAniy~ap -}   [ "inhumanity" ],
 
     -- ;; <inosAniy~At_1
     -- <nsAny  <inosAniy~      NAt     Humanities     [[<inosAniy~/NOUN]]
     -- AnsAny  <inosAniy~      NAt     Humanities     [[<inosAniy~/NOUN]]
 
-    KiRDAS |< Iy |< At        `noun`       {- IinosAniy~At -}   [ "Humanities" ] ]
+    KiRDAS |< Iy |< At        `noun`    {- IinosAniy~At -}     [ "Humanities" ] ]
 
  |> "' n t k" <| [
 
@@ -6820,7 +6819,7 @@ lexicon = listing "Lexicon's properties"
     -- >ntyk   >anotiyk        NapAt   antique
     -- Antyk   >anotiyk        NapAt   antique
 
-    KaRDIS |< aT              `noun`       {- Oanotiykap -}     [ "antique" ] ]
+    KaRDIS |< aT              `noun`    {- Oanotiykap -}       [ "antique" ] ]
 
  |> "' n w" <| [
 
@@ -6828,7 +6827,7 @@ lexicon = listing "Lexicon's properties"
     -- >w      >aw     FW-Wa   or     [[>aw/CONJ]]
     -- Aw      >aw     FW-Wa   or     [[>aw/CONJ]]
 
-    FaL                       `noun`       {- Oaw -}            [ "or" ] ]
+    FaL                       `noun`    {- Oaw -}              [ "or" ] ]
 
  |> "' n y" <| [
 
@@ -6839,7 +6838,7 @@ lexicon = listing "Lexicon's properties"
     -- mt>n    muta>an~        Nuwn_Niyn       circumspect;prudent
     -- mt>ny   muta>an~iy      NapAt   circumspect;prudent
 
-    MutaFaCCiL                `noun`       {- mutaOan~iy -}     [ "circumspect", "prudent" ] ]
+    MutaFaCCiL                `noun`    {- mutaOan~iy -}       [ "circumspect", "prudent" ] ]
 
  |> "' n y s" <| [
 
@@ -6847,7 +6846,7 @@ lexicon = listing "Lexicon's properties"
     -- >nAyys  >anAyiys        Nprop   Anais
     -- AnAyys  >anAyiys        Nprop   Anais
 
-    KaRADIS                   `noun`       {- OanAyiys -}       [ "Anais" ] ]
+    KaRADIS                   `noun`    {- OanAyiys -}         [ "Anais" ] ]
 
  |> "' n z m" <| [
 
@@ -6855,7 +6854,7 @@ lexicon = listing "Lexicon's properties"
     -- >nzym   >anoziym        N/At    enzyme
     -- Anzym   >anoziym        N/At    enzyme
 
-    KaRDIS                    `noun`       {- Oanoziym -}       [ "enzyme" ] ]
+    KaRDIS                    `noun`    {- Oanoziym -}         [ "enzyme" ] ]
 
  |> "' q .t" <| [
 
@@ -6863,7 +6862,7 @@ lexicon = listing "Lexicon's properties"
     -- >qT     >aqiT   N       cottage cheese
     -- AqT     >aqiT   N       cottage cheese
 
-    FaCiL                     `noun`       {- OaqiT -}          [ "cottage cheese" ] ]
+    FaCiL                     `noun`    {- OaqiT -}            [ "cottage cheese" ] ]
 
  |> "' q l m" <| [
 
@@ -6872,22 +6871,22 @@ lexicon = listing "Lexicon's properties"
     -- Aqlm    >aqolam PV      acclimatize
     -- &qlm    &aqolim IV_yu   acclimatize
 
-    KaRDaS                    `verb`       {- Oaqolam -}        [ "acclimatize" ],
+    KaRDaS                    `verb`    {- Oaqolam -}          [ "acclimatize" ],
 
     -- ;; ta>aqolam_1
     -- t>qlm   ta>aqolam       PV_intr be acclimatized;adjust
     -- t>qlm   ta>aqolam       IV_intr be acclimatized;adjust
 
-    TaKaRDaS                  `verb`       {- taOaqolam -}      [ "be acclimatized", "adjust" ],
+    TaKaRDaS                  `verb`    {- taOaqolam -}        [ "be acclimatized", "adjust" ],
 
     -- ;; >aqolamap_1
     -- >qlm    >aqolam Nap     acclimatization;adjustment
     -- Aqlm    >aqolam Nap     acclimatization;adjustment
     -- t>qlm   ta>aqolum       N       acclimatization;adjustment
 
-    KaRDaS |< aT              `noun`       {- Oaqolamap -}      [ "acclimatization", "adjustment" ]
+    KaRDaS |< aT              `noun`    {- Oaqolamap -}        [ "acclimatization", "adjustment" ]
                               `plural`     TaKaRDuS
-                              {- `others` [ "ta'aqlum N" ] -},
+                           {- `others`  [ "ta'aqlum N" ] -},
 
     -- ;; <iqoliym_1
     -- <qlym   <iqoliym        Ndu     region;district
@@ -6895,14 +6894,14 @@ lexicon = listing "Lexicon's properties"
     -- >qAlym  >aqAliym        Ndip    regions;districts
     -- AqAlym  >aqAliym        Ndip    regions;districts
 
-    KiRDIS                    `noun`       {- Iiqoliym -}       [ "region", "district", "regions", "districts" ]
+    KiRDIS                    `noun`    {- Iiqoliym -}         [ "region", "district", "regions", "districts" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'aqAliym Ndip" ] -},
+                           {- `others`  [ "'aqAliym Ndip" ] -},
 
     -- ;; mu&aqolam_1
     -- m&qlm   mu&aqolam       Nall    acclimated;adjusted
 
-    MuKaRDaS                  `noun`       {- muWaqolam -}      [ "acclimated", "adjusted" ] ]
+    MuKaRDaS                  `noun`    {- muWaqolam -}        [ "acclimated", "adjusted" ] ]
 
  |> "' q q" <| [
 
@@ -6910,7 +6909,7 @@ lexicon = listing "Lexicon's properties"
     -- >q      >uq~    NapAt   okka (weight measure)
     -- Aq      >uq~    NapAt   okka (weight measure)
 
-    FuCL |< aT                `noun`       {- Ouq~ap -}         [ "okka (weight measure)" ] ]
+    FuCL |< aT                `noun`    {- Ouq~ap -}           [ "okka (weight measure)" ] ]
 
  |> "' q t" <| [
 
@@ -6920,19 +6919,19 @@ lexicon = listing "Lexicon's properties"
     -- &qt     &aq~it  IV_yu   stamp the time/date
     -- &qt     &aq~at  IV_Pass_yu      be stamped with a time/date
 
-    FaCCaL                    `verb`       {- Oaq~at -}         [ "stamp the time/date", "be stamped with a time/date" ],
+    FaCCaL                    `verb`    {- Oaq~at -}           [ "stamp the time/date", "be stamped with a time/date" ],
 
     -- ;; mu&aq~at_1
     -- m&qt    mu&aq~at        Nall    temporary;provisional
 
-    MuFaCCaL                  `noun`       {- muWaq~at -}       [ "temporary", "provisional" ],
+    MuFaCCaL                  `noun`    {- muWaq~at -}         [ "temporary", "provisional" ],
 
     -- ;; mu&aq~atAF_1
     -- m&qt    mu&aq~at        NF      temporarily;provisionally     [[mu&aq~at/ADV]]
 
-    MuFaCCaL |< aN            `noun`       {- muWaq~atAF -}     [ "temporarily", "provisionally" ]
+    MuFaCCaL |< aN            `noun`    {- muWaq~atAF -}       [ "temporarily", "provisionally" ]
                               `plural`     MuFaCCaL
-                              {- `others` [ "mu'aqqat NF" ] -} ]
+                           {- `others`  [ "mu'aqqat NF" ] -} ]
 
  |> "' r .d" <| [
 
@@ -6942,7 +6941,7 @@ lexicon = listing "Lexicon's properties"
     -- &rD     &ar~iD  IV_yu   ground (antenna, airplane);earth
     -- &rD     &ar~aD  IV_Pass_yu      be grounded (antenna, airplane);be earthed
 
-    FaCCaL                    `verb`       {- Oar~aD -}         [ "ground (antenna, airplane)", "earth", "be grounded (antenna, airplane)", "be earthed" ],
+    FaCCaL                    `verb`    {- Oar~aD -}           [ "ground (antenna, airplane)", "earth", "be grounded (antenna, airplane)", "be earthed" ],
 
     -- ;; >aroD_1
     -- >rD     >aroD   Ndu     earth;territory
@@ -6954,37 +6953,37 @@ lexicon = listing "Lexicon's properties"
     -- >rAD    >arAD   NK      territories;land
     -- ArAD    >arAD   NK      territories;land
 
-    FaCL                      `noun`       {- OaroD -}          [ "earth", "territory", "territories", "land" ]
+    FaCL                      `noun`    {- OaroD -}            [ "earth", "territory", "territories", "land" ]
                               `plural`     FaCAL
-                              {- `others` [ "'arA.d NK" ] -},
+                           {- `others`  [ "'arA.d NK" ] -},
 
     -- ;; >araDap_1
     -- >rD     >araD   Napdu   termite
     -- ArD     >araD   Napdu   termite
 
-    FaCaL |< aT               `noun`       {- OaraDap -}        [ "termite" ],
+    FaCaL |< aT               `noun`    {- OaraDap -}          [ "termite" ],
 
     -- ;; ma>oraDap_1
     -- m>rD    ma>oraD Napdu   ant-hill;termitary
 
-    MaFCaL |< aT              `noun`       {- maOoraDap -}      [ "ant-hill", "termitary" ],
+    MaFCaL |< aT              `noun`    {- maOoraDap -}        [ "ant-hill", "termitary" ],
 
     -- ;; >ariyD_1
     -- >ryD    >ariyD  N-ap    wide;extensive
     -- AryD    >ariyD  N-ap    wide;extensive
 
-    FaCIL                     `noun`       {- OariyD -}         [ "wide", "extensive" ],
+    FaCIL                     `noun`    {- OariyD -}           [ "wide", "extensive" ],
 
     -- ;; ta>oriyD_1
     -- t>ryD   ta>oriyD        NduAt   grounding (antenna, airplane)
     -- tAryD   ta>oriyD        NduAt   grounding (antenna, airplane)
 
-    TaFCIL                    `noun`       {- taOoriyD -}       [ "grounding (antenna, airplane)" ],
+    TaFCIL                    `noun`    {- taOoriyD -}         [ "grounding (antenna, airplane)" ],
 
     -- ;; mu&ar~aD_1
     -- m&rD    mu&ar~aD        Nall    grounded (antenna, airplane)
 
-    MuFaCCaL                  `noun`       {- muWar~aD -}       [ "grounded (antenna, airplane)" ] ]
+    MuFaCCaL                  `noun`    {- muWar~aD -}         [ "grounded (antenna, airplane)" ] ]
 
  |> "' r .d y" <| [
 
@@ -6992,13 +6991,13 @@ lexicon = listing "Lexicon's properties"
     -- >rDy    >aroDiy~        Nall    land;ground     [[>aroDiy~/ADJ]]
     -- ArDy    >aroDiy~        Nall    land;ground     [[>aroDiy~/ADJ]]
 
-    KaRDIS                    `adj`        {- OaroDiy~ -}       [ "land", "ground" ],
+    KaRDIS                    `adj`     {- OaroDiy~ -}         [ "land", "ground" ],
 
     -- ;; >aroDiy~ap_1
     -- >rDy    >aroDiy~        NapAt   background;groundwork     [[>aroDiy~/NOUN]]
     -- ArDy    >aroDiy~        NapAt   background;groundwork     [[>aroDiy~/NOUN]]
 
-    KaRDIS |< aT              `noun`       {- OaroDiy~ap -}     [ "background", "groundwork" ] ]
+    KaRDIS |< aT              `noun`    {- OaroDiy~ap -}       [ "background", "groundwork" ] ]
 
  |> "' r .g n" <| [
 
@@ -7008,9 +7007,9 @@ lexicon = listing "Lexicon's properties"
     -- >rAgn   >arAgin Ndip    organs (music)
     -- ArAgn   >arAgin Ndip    organs (music)
 
-    KuRDuS                    `noun`       {- Ourogun -}        [ "organ (music)", "organs (music)" ]
+    KuRDuS                    `noun`    {- Ourogun -}          [ "organ (music)", "organs (music)" ]
                               `plural`     KaRADiS
-                              {- `others` [ "'arA.gin Ndip" ] -} ]
+                           {- `others`  [ "'arA.gin Ndip" ] -} ]
 
  |> "' r .t" <| [
 
@@ -7022,10 +7021,10 @@ lexicon = listing "Lexicon's properties"
     -- >rT     >uraT   N       battalions
     -- ArT     >uraT   N       battalions
 
-    FuCL |< aT                `noun`       {- OuroTap -}        [ "battalion", "battalions" ]
+    FuCL |< aT                `noun`    {- OuroTap -}          [ "battalion", "battalions" ]
                               `plural`     FuCaL
                               `plural`     FUCL
-                              {- `others` [ "'ura.t N", "'uwr.t Napdu" ] -} ]
+                           {- `others`  [ "'ura.t N", "'uwr.t Napdu" ] -} ]
 
  |> "' r .t q" <| [
 
@@ -7033,7 +7032,7 @@ lexicon = listing "Lexicon's properties"
     -- >rTq    >aroTaq NapAt   heresy
     -- ArTq    >aroTaq NapAt   heresy
 
-    KaRDaS |< aT              `noun`       {- OaroTaqap -}      [ "heresy" ] ]
+    KaRDaS |< aT              `noun`    {- OaroTaqap -}        [ "heresy" ] ]
 
  |> "' r ^g" <| [
 
@@ -7041,7 +7040,7 @@ lexicon = listing "Lexicon's properties"
     -- >rAj    >arAj   Nprop   Araj
     -- ArAj    >arAj   Nprop   Araj
 
-    FaCAL                     `noun`       {- OarAj -}          [ "Araj" ],
+    FaCAL                     `noun`    {- OarAj -}            [ "Araj" ],
 
     -- ;; >arij-a_1
     -- >rj     >arij   PV_intr be aromatic
@@ -7049,26 +7048,26 @@ lexicon = listing "Lexicon's properties"
     -- >rj     >oraj   IV_no-Pref-A    be aromatic
     -- Arj     >oraj   IV_no-Pref-A    be aromatic
 
-    FaCiL                     `verb`       {- Oarij-a -}        [ "be aromatic" ]
+    FaCiL                     `verb`    {- Oarij-a -}          [ "be aromatic" ]
                               `imperf`     FCaL,
 
     -- ;; ta>ar~aj_1
     -- t>rj    ta>ar~aj        PV_intr be aromatic
     -- t>rj    ta>ar~aj        IV_intr be aromatic
 
-    TaFaCCaL                  `verb`       {- taOar~aj -}       [ "be aromatic" ],
+    TaFaCCaL                  `verb`    {- taOar~aj -}         [ "be aromatic" ],
 
     -- ;; >araj_1
     -- >rj     >araj   N       fragrance
     -- Arj     >araj   N       fragrance
 
-    FaCaL                     `noun`       {- Oaraj -}          [ "fragrance" ],
+    FaCaL                     `noun`    {- Oaraj -}            [ "fragrance" ],
 
     -- ;; >arij_1
     -- >rj     >arij   N-ap    fragrant
     -- Arj     >arij   N-ap    fragrant
 
-    FaCiL                     `noun`       {- Oarij -}          [ "fragrant" ],
+    FaCiL                     `noun`    {- Oarij -}            [ "fragrant" ],
 
     -- ;; >ariyj_1
     -- >ryj    >ariyj  Ndu     fragrance
@@ -7076,13 +7075,13 @@ lexicon = listing "Lexicon's properties"
     -- >rA}j   >arA}ij Ndip    fragrances
     -- ArA}j   >arA}ij Ndip    fragrances
 
-    FaCIL                     `noun`       {- Oariyj -}         [ "fragrance", "fragrances" ],
+    FaCIL                     `noun`    {- Oariyj -}           [ "fragrance", "fragrances" ],
 
     -- ;; >aroj_1
     -- >rj     >aroj   N/At    erg
     -- Arj     >aroj   N/At    erg
 
-    FaCL                      `noun`       {- Oaroj -}          [ "erg" ] ]
+    FaCL                      `noun`    {- Oaroj -}            [ "erg" ] ]
 
  |> "' r ^g .h" <| [
 
@@ -7090,17 +7089,17 @@ lexicon = listing "Lexicon's properties"
     -- t>rjH   ta>arojaH       PV      swing;oscillate
     -- t>rjH   ta>arojaH       IV      swing;oscillate
 
-    TaKaRDaS                  `verb`       {- taOarojaH -}      [ "swing", "oscillate" ],
+    TaKaRDaS                  `verb`    {- taOarojaH -}        [ "swing", "oscillate" ],
 
     -- ;; ta>arojuH_1
     -- t>rjH   ta>arojuH       NduAt   oscillation;fluctuation
 
-    TaKaRDuS                  `noun`       {- taOarojuH -}      [ "oscillation", "fluctuation" ],
+    TaKaRDuS                  `noun`    {- taOarojuH -}        [ "oscillation", "fluctuation" ],
 
     -- ;; muta>arojiH_1
     -- mt>rjH  muta>arojiH     Nall    fluctuating;oscillating
 
-    MutaKaRDiS                `noun`       {- mutaOarojiH -}    [ "fluctuating", "oscillating" ],
+    MutaKaRDiS                `noun`    {- mutaOarojiH -}      [ "fluctuating", "oscillating" ],
 
     -- ;; >arojuwHap_1
     -- >rjwH   >arojuwH        Napdu   swing;seesaw
@@ -7108,9 +7107,9 @@ lexicon = listing "Lexicon's properties"
     -- >rAjyH  >arAjiyH        Ndip    swings;seesaws
     -- ArAjyH  >arAjiyH        Ndip    swings;seesaws
 
-    KaRDUS |< aT              `noun`       {- OarojuwHap -}     [ "swing", "seesaw", "swings", "seesaws" ]
+    KaRDUS |< aT              `noun`    {- OarojuwHap -}       [ "swing", "seesaw", "swings", "seesaws" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'arA^giy.h Ndip" ] -} ]
+                           {- `others`  [ "'arA^giy.h Ndip" ] -} ]
 
  |> "' r ^g l" <| [
 
@@ -7120,9 +7119,9 @@ lexicon = listing "Lexicon's properties"
     -- >rAjyl  >arAjiyl        Ndip    narghiles;hookahs
     -- ArAjyl  >arAjiyl        Ndip    narghiles;hookahs
 
-    KaRDIS |< aT              `noun`       {- Oarojiylap -}     [ "narghile", "hookah", "narghiles", "hookahs" ]
+    KaRDIS |< aT              `noun`    {- Oarojiylap -}       [ "narghile", "hookah", "narghiles", "hookahs" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'arA^giyl Ndip" ] -} ]
+                           {- `others`  [ "'arA^giyl Ndip" ] -} ]
 
  |> "' r ^g n" <| [
 
@@ -7132,7 +7131,7 @@ lexicon = listing "Lexicon's properties"
     -- >rgwn   >aroguwn        N       argon
     -- Argwn   >aroguwn        N       argon
 
-    KaRDUS                    `noun`       {- Oarojuwn -}       [ "argon" ] ]
+    KaRDUS                    `noun`    {- Oarojuwn -}         [ "argon" ] ]
 
  |> "' r ^s" <| [
 
@@ -7142,9 +7141,9 @@ lexicon = listing "Lexicon's properties"
     -- >rw$    >uruw$  N       indemnities;blood money
     -- Arw$    >uruw$  N       indemnities;blood money
 
-    FaCL                      `noun`       {- Oaro$ -}          [ "indemnity", "blood money", "indemnities" ]
+    FaCL                      `noun`    {- Oaro$ -}            [ "indemnity", "blood money", "indemnities" ]
                               `plural`     FuCUL
-                              {- `others` [ "'uruw^s N" ] -} ]
+                           {- `others`  [ "'uruw^s N" ] -} ]
 
  |> "' r ^s f" <| [
 
@@ -7154,9 +7153,9 @@ lexicon = listing "Lexicon's properties"
     -- >rA$yf  >arA$iyf        Ndip    archives
     -- ArA$yf  >arA$iyf        Ndip    archives
 
-    KaRDIS                    `noun`       {- Oaro$iyf -}       [ "archive", "archives" ]
+    KaRDIS                    `noun`    {- Oaro$iyf -}         [ "archive", "archives" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'arA^siyf Ndip" ] -} ]
+                           {- `others`  [ "'arA^siyf Ndip" ] -} ]
 
  |> "' r ^s y" <| [
 
@@ -7164,7 +7163,7 @@ lexicon = listing "Lexicon's properties"
     -- >r$y    >aro$iy N0      arch-
     -- Ar$y    >aro$iy N0      arch-
 
-    KaRDiS                    `noun`       {- Oaro$iy -}        [ "arch-" ] ]
+    KaRDiS                    `noun`    {- Oaro$iy -}          [ "arch-" ] ]
 
  |> "' r _h" <| [
 
@@ -7174,7 +7173,7 @@ lexicon = listing "Lexicon's properties"
     -- &rx     &ar~ix  IV_yu   report;chronicle
     -- &rx     &ar~ax  IV_Pass_yu      be reported;be chronicled
 
-    FaCCaL                    `verb`       {- Oar~ax -}         [ "report", "chronicle", "be reported", "be chronicled" ],
+    FaCCaL                    `verb`    {- Oar~ax -}           [ "report", "chronicle", "be reported", "be chronicled" ],
 
     -- ;; >ar~ax_2
     -- >rx     >ar~ax  PV      date
@@ -7182,27 +7181,27 @@ lexicon = listing "Lexicon's properties"
     -- &rx     &ar~ix  IV_yu   date
     -- &rx     &ar~ax  IV_Pass_yu      be dated
 
-    FaCCaL                    `verb`       {- Oar~ax -}         [ "date", "be dated" ],
+    FaCCaL                    `verb`    {- Oar~ax -}           [ "date", "be dated" ],
 
     -- ;; ta>oriyx_1
     -- t>ryx   ta>oriyx        N       historiography;dating
 
-    TaFCIL                    `noun`       {- taOoriyx -}       [ "historiography", "dating" ],
+    TaFCIL                    `noun`    {- taOoriyx -}         [ "historiography", "dating" ],
 
     -- ;; ta>oriyxiy~_1
     -- t>ryxy  ta>oriyxiy~     Nall    historical     [[ta>oriyxiy~/ADJ]]
 
-    TaFCIL |< Iy              `adj`        {- taOoriyxiy~ -}    [ "historical" ],
+    TaFCIL |< Iy              `adj`     {- taOoriyxiy~ -}      [ "historical" ],
 
     -- ;; mu&ar~ix_1
     -- m&rx    mu&ar~ix        Nall    historian;chronicler
 
-    MuFaCCiL                  `noun`       {- muWar~ix -}       [ "historian", "chronicler" ],
+    MuFaCCiL                  `noun`    {- muWar~ix -}         [ "historian", "chronicler" ],
 
     -- ;; mu&ar~ax_1
     -- m&rx    mu&ar~ax        N-ap    dated;reported
 
-    MuFaCCaL                  `noun`       {- muWar~ax -}       [ "dated", "reported" ] ]
+    MuFaCCaL                  `noun`    {- muWar~ax -}         [ "dated", "reported" ] ]
 
  |> "' r _h n" <| [
 
@@ -7210,7 +7209,7 @@ lexicon = listing "Lexicon's properties"
     -- >rAxn   >arAxin Nap     notables
     -- ArAxn   >arAxin Nap     notables
 
-    KaRADiS |< aT             `noun`       {- OarAxinap -}      [ "notables" ] ]
+    KaRADiS |< aT             `noun`    {- OarAxinap -}        [ "notables" ] ]
 
  |> "' r _t" <| [
 
@@ -7220,19 +7219,19 @@ lexicon = listing "Lexicon's properties"
     -- &rv     &ar~iv  IV_yu   ignite;sow (discord)
     -- &rv     &ar~av  IV_Pass_yu      be ignited;be sown (discord)
 
-    FaCCaL                    `verb`       {- Oar~av -}         [ "ignite", "sow (discord)", "be ignited", "be sown (discord)" ],
+    FaCCaL                    `verb`    {- Oar~av -}           [ "ignite", "sow (discord)", "be ignited", "be sown (discord)" ],
 
     -- ;; <irov_1
     -- <rv     <irov   Ndu     inheritance
     -- Arv     <irov   Ndu     inheritance
 
-    FiCL                      `noun`       {- Iirov -}          [ "inheritance" ],
+    FiCL                      `noun`    {- Iirov -}            [ "inheritance" ],
 
     -- ;; <iroviy~_1
     -- <rvy    <iroviy~        Nall    hereditary     [[<iroviy~/ADJ]]
     -- Arvy    <iroviy~        Nall    hereditary     [[<iroviy~/ADJ]]
 
-    FiCL |< Iy                `adj`        {- Iiroviy~ -}       [ "hereditary" ] ]
+    FiCL |< Iy                `adj`     {- Iiroviy~ -}         [ "hereditary" ] ]
 
  |> "' r b" <| [
 
@@ -7242,7 +7241,7 @@ lexicon = listing "Lexicon's properties"
     -- >rb     >orab   IV_no-Pref-A    be proficient;be skillful
     -- Arb     >orab   IV_no-Pref-A    be proficient;be skillful
 
-    FaCiL                     `verb`       {- Oarib-a -}        [ "be proficient", "be skillful" ]
+    FaCiL                     `verb`    {- Oarib-a -}          [ "be proficient", "be skillful" ]
                               `imperf`     FCaL,
 
     -- ;; >arab-i_1
@@ -7251,7 +7250,7 @@ lexicon = listing "Lexicon's properties"
     -- >rb     >orib   IV_no-Pref-A    tighten
     -- Arb     >orib   IV_no-Pref-A    tighten
 
-    FaCaL                     `verb`       {- Oarab-i -}        [ "tighten" ]
+    FaCaL                     `verb`    {- Oarab-i -}          [ "tighten" ]
                               `imperf`     FCiL,
 
     -- ;; |rab_1
@@ -7259,13 +7258,13 @@ lexicon = listing "Lexicon's properties"
     -- Arb     |rab    PV      try to outwit
     -- &Arb    &Arib   IV_yu   try to outwit
 
-    FACaL                     `verb`       {- \|rab -}          [ "try to outwit" ],
+    FACaL                     `verb`    {- \|rab -}            [ "try to outwit" ],
 
     -- ;; >arab_1
     -- >rb     >arab   Ndu     desire;goal
     -- Arb     >arab   Ndu     desire;goal
 
-    FaCaL                     `noun`       {- Oarab -}          [ "desire", "goal" ],
+    FaCaL                     `noun`    {- Oarab -}            [ "desire", "goal" ],
 
     -- ;; <irob_1
     -- <rb     <irob   Ndu     limb
@@ -7273,15 +7272,15 @@ lexicon = listing "Lexicon's properties"
     -- \|rAb    |rAb    N       limbs
     -- ArAb    |rAb    N       limbs
 
-    FiCL                      `noun`       {- Iirob -}          [ "limb", "limbs" ]
+    FiCL                      `noun`    {- Iirob -}            [ "limb", "limbs" ]
                               `plural`     HACAL
-                              {- `others` [ "'ArAb N" ] -},
+                           {- `others`  [ "'ArAb N" ] -},
 
     -- ;; |rAb_1
     -- \|rAb    |rAb    N       desires;goals
     -- ArAb    |rAb    N       desires;goals
 
-    HACAL                     `noun`       {- \|rAb -}          [ "desires", "goals" ],
+    HACAL                     `noun`    {- \|rAb -}            [ "desires", "goals" ],
 
     -- ;; >urob_1
     -- >rb     >urob   Ndu     knot;adversity
@@ -7291,49 +7290,49 @@ lexicon = listing "Lexicon's properties"
     -- >rb     >urab   N       knots;adversities
     -- Arb     >urab   N       knots;adversities
 
-    FuCL                      `noun`       {- Ourob -}          [ "knot", "adversity", "knots", "adversities" ]
+    FuCL                      `noun`    {- Ourob -}            [ "knot", "adversity", "knots", "adversities" ]
                               `plural`     FuCaL
-                              {- `others` [ "'urab N" ] -},
+                           {- `others`  [ "'urab N" ] -},
 
     -- ;; <irobAF_1
     -- <rb     <irob   NF      piece by piece;to shreds     [[<irob/ADV]]
     -- Arb     <irob   NF      piece by piece;to shreds     [[<irob/ADV]]
 
-    FiCL |< aN                `noun`       {- IirobAF -}        [ "piece by piece", "to shreds" ]
+    FiCL |< aN                `noun`    {- IirobAF -}          [ "piece by piece", "to shreds" ]
                               `plural`     FiCL
-                              {- `others` [ "'irb NF" ] -},
+                           {- `others`  [ "'irb NF" ] -},
 
     -- ;; >ariyb_1
     -- >ryb    >ariyb  Nall    astute;industrious
     -- Aryb    >ariyb  Nall    astute;industrious
 
-    FaCIL                     `noun`       {- Oariyb -}         [ "astute", "industrious" ],
+    FaCIL                     `noun`    {- Oariyb -}           [ "astute", "industrious" ],
 
     -- ;; >arib_1
     -- >rb     >arib   Nall    astute;industrious
     -- Arb     >arib   Nall    astute;industrious
 
-    FaCiL                     `noun`       {- Oarib -}          [ "astute", "industrious" ],
+    FaCiL                     `noun`    {- Oarib -}            [ "astute", "industrious" ],
 
     -- ;; ma>orab_1
     -- m>rb    ma>orab Ndu     desire;intent
     -- m|rb    ma|rib  Ndip    desires;intents
 
-    MaFCaL                    `noun`       {- maOorab -}        [ "desire", "intent", "desires", "intents" ]
+    MaFCaL                    `noun`    {- maOorab -}          [ "desire", "intent", "desires", "intents" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma'Arib Ndip" ] -},
+                           {- `others`  [ "ma'Arib Ndip" ] -},
 
     -- ;; >urobiy~ap_1
     -- >rby    >urobiy~        Nap     groin     [[>urobiy~/NOUN]]
     -- Arby    >urobiy~        Nap     groin     [[>urobiy~/NOUN]]
 
-    FuCL |< Iy |< aT          `noun`       {- Ourobiy~ap -}     [ "groin" ],
+    FuCL |< Iy |< aT          `noun`    {- Ourobiy~ap -}       [ "groin" ],
 
     -- ;; >urobiy~_1
     -- >rby    >urobiy~        Nall    inguinal     [[>urobiy~/ADJ]]
     -- Arby    >urobiy~        Nall    inguinal     [[>urobiy~/ADJ]]
 
-    FuCL |< Iy                `adj`        {- Ourobiy~ -}       [ "inguinal" ] ]
+    FuCL |< Iy                `adj`     {- Ourobiy~ -}         [ "inguinal" ] ]
 
  |> "' r b d" <| [
 
@@ -7341,19 +7340,19 @@ lexicon = listing "Lexicon's properties"
     -- <rbd    <irobid N0      Irbid
     -- Arbd    <irobid N0      Irbid
 
-    KiRDiS                    `noun`       {- Iirobid -}        [ "Irbid" ],
+    KiRDiS                    `noun`    {- Iirobid -}          [ "Irbid" ],
 
     -- ;; <irobidiy~_1
     -- <rbdy   <irobidiy~      Nall    of/from Irbid
     -- Arbdy   <irobidiy~      Nall    of/from Irbid
 
-    KiRDiS |< Iy              `adj`        {- Iirobidiy~ -}     [ "of/from Irbid" ],
+    KiRDiS |< Iy              `adj`     {- Iirobidiy~ -}       [ "of/from Irbid" ],
 
     -- ;; <irobidiy~_2
     -- <rbdy   <irobidiy~      N0      Irbidi
     -- Arbdy   <irobidiy~      N0      Irbidi
 
-    KiRDiS |< Iy              `adj`        {- Iirobidiy~ -}     [ "Irbidi" ] ]
+    KiRDiS |< Iy              `adj`     {- Iirobidiy~ -}       [ "Irbidi" ] ]
 
  |> "' r b l" <| [
 
@@ -7361,7 +7360,7 @@ lexicon = listing "Lexicon's properties"
     -- >rbyl   >arobiyl        Nprop   Erbil;Irbil
     -- Arbyl   >arobiyl        Nprop   Erbil;Irbil
 
-    KaRDIS                    `noun`       {- Oarobiyl -}       [ "Erbil", "Irbil" ] ]
+    KaRDIS                    `noun`    {- Oarobiyl -}         [ "Erbil", "Irbil" ] ]
 
  |> "' r d w" <| [
 
@@ -7369,7 +7368,7 @@ lexicon = listing "Lexicon's properties"
     -- >rdw    >uroduw N0      Urdu
     -- Ardw    >uroduw N0      Urdu
 
-    KuRDuS                    `noun`       {- Ouroduw -}        [ "Urdu" ] ]
+    KuRDuS                    `noun`    {- Ouroduw -}          [ "Urdu" ] ]
 
  |> "' r d y" <| [
 
@@ -7379,7 +7378,7 @@ lexicon = listing "Lexicon's properties"
     -- Ardy    >urodiy~        Nall    Urdu     [[>urodiy~/NOUN]]
     -- Ardy    >urodiy~        Nall    Urdu     [[>urodiy~/ADJ]]
 
-    KuRDIS                    `adj`        {- Ourodiy~ -}       [ "Urdu" ] ]
+    KuRDIS                    `adj`     {- Ourodiy~ -}         [ "Urdu" ] ]
 
  |> "' r f" <| [
 
@@ -7389,7 +7388,7 @@ lexicon = listing "Lexicon's properties"
     -- &rf     &ar~if  IV_yu   survey;mark;delimit
     -- &rf     &ar~af  IV_Pass_yu      be surveyed;be marked;be delimited
 
-    FaCCaL                    `verb`       {- Oar~af -}         [ "survey", "mark", "delimit", "be surveyed", "be marked", "be delimited" ],
+    FaCCaL                    `verb`    {- Oar~af -}           [ "survey", "mark", "delimit", "be surveyed", "be marked", "be delimited" ],
 
     -- ;; >urofap_1
     -- >rf     >urof   Napdu   marker;limit
@@ -7397,15 +7396,15 @@ lexicon = listing "Lexicon's properties"
     -- >rf     >uraf   N       markers;limits
     -- Arf     >uraf   N       markers;limits
 
-    FuCL |< aT                `noun`       {- Ourofap -}        [ "marker", "limit", "markers", "limits" ]
+    FuCL |< aT                `noun`    {- Ourofap -}          [ "marker", "limit", "markers", "limits" ]
                               `plural`     FuCaL
-                              {- `others` [ "'uraf N" ] -},
+                           {- `others`  [ "'uraf N" ] -},
 
     -- ;; >urayofap_1
     -- >ryf    >urayof Napdu   columella (middle ear bone)
     -- Aryf    >urayof Napdu   columella (middle ear bone)
 
-    FuCayL |< aT              `noun`       {- Ourayofap -}      [ "columella (middle ear bone)" ] ]
+    FuCayL |< aT              `noun`    {- Ourayofap -}        [ "columella (middle ear bone)" ] ]
 
  |> "' r f y" <| [
 
@@ -7413,13 +7412,13 @@ lexicon = listing "Lexicon's properties"
     -- >rfy    >urofiy~        Nall    surveyor;geometer     [[>urofiy~/ADJ]]
     -- Arfy    >urofiy~        Nall    surveyor;geometer     [[>urofiy~/ADJ]]
 
-    KuRDIS                    `adj`        {- Ourofiy~ -}       [ "surveyor", "geometer" ],
+    KuRDIS                    `adj`     {- Ourofiy~ -}         [ "surveyor", "geometer" ],
 
     -- ;; >urofiy~ap_1
     -- >rfy    >urofiy~        Napdu   emerald;geometrid     [[>urofiy~/NOUN]]
     -- Arfy    >urofiy~        Napdu   emerald;geometrid     [[>urofiy~/NOUN]]
 
-    KuRDIS |< aT              `noun`       {- Ourofiy~ap -}     [ "emerald", "geometrid" ] ]
+    KuRDIS |< aT              `noun`    {- Ourofiy~ap -}       [ "emerald", "geometrid" ] ]
 
  |> "' r k" <| [
 
@@ -7431,15 +7430,15 @@ lexicon = listing "Lexicon's properties"
     -- >rA}k   >arA}ik Ndip    sofas;beds
     -- ArA}k   >arA}ik Ndip    sofas;beds
 
-    FaCIL |< aT               `noun`       {- Oariykap -}       [ "sofa", "bed", "sofas", "beds" ]
+    FaCIL |< aT               `noun`    {- Oariykap -}         [ "sofa", "bed", "sofas", "beds" ]
                               `plural`     FaCIL
-                              {- `others` [ "'ariyk N" ] -},
+                           {- `others`  [ "'ariyk N" ] -},
 
     -- ;; >urokap_1
     -- >rk     >urok   NapAt   grampus;orca
     -- Ark     >urok   NapAt   grampus;orca
 
-    FuCL |< aT                `noun`       {- Ourokap -}        [ "grampus", "orca" ] ]
+    FuCL |< aT                `noun`    {- Ourokap -}          [ "grampus", "orca" ] ]
 
  |> "' r k y" <| [
 
@@ -7447,7 +7446,7 @@ lexicon = listing "Lexicon's properties"
     -- <rky    <irokiy Nprop   Erki
     -- Arky    <irokiy Nprop   Erki
 
-    KiRDiS                    `noun`       {- Iirokiy -}        [ "Erki" ] ]
+    KiRDiS                    `noun`    {- Iirokiy -}          [ "Erki" ] ]
 
  |> "' r m" <| [
 
@@ -7457,7 +7456,7 @@ lexicon = listing "Lexicon's properties"
     -- \|rAmy   |rAmiy~ Nall    Aramaic;Aramean     [[|rAmiy~/ADJ]]
     -- ArAmy   |rAmiy~ Nall    Aramaic;Aramean     [[|rAmiy~/ADJ]]
 
-    HACAL |< Iy               `adj`        {- \|rAmiy~ -}       [ "Aramaic", "Aramean" ],
+    HACAL |< Iy               `adj`     {- \|rAmiy~ -}         [ "Aramaic", "Aramean" ],
 
     -- ;; >aram-i_1
     -- >rm     >aram   PV      bite
@@ -7465,7 +7464,7 @@ lexicon = listing "Lexicon's properties"
     -- >rm     >orim   IV_no-Pref-A    bite
     -- Arm     >orim   IV_no-Pref-A    bite
 
-    FaCaL                     `verb`       {- Oaram-i -}        [ "bite" ]
+    FaCaL                     `verb`    {- Oaram-i -}          [ "bite" ]
                               `imperf`     FCiL,
 
     -- ;; >ar~am_1
@@ -7474,7 +7473,7 @@ lexicon = listing "Lexicon's properties"
     -- &rm     &ar~im  IV_yu   mark out
     -- &rm     &ar~am  IV_Pass_yu      be marked out
 
-    FaCCaL                    `verb`       {- Oar~am -}         [ "mark out", "be marked out" ],
+    FaCCaL                    `verb`    {- Oar~am -}           [ "mark out", "be marked out" ],
 
     -- ;; <iram_1
     -- <rm     <iram   Ndu     boulder;milestone
@@ -7482,15 +7481,15 @@ lexicon = listing "Lexicon's properties"
     -- \|rAm    |rAm    N       boulders;milestones
     -- ArAm    |rAm    N       boulders;milestones
 
-    FiCaL                     `noun`       {- Iiram -}          [ "boulder", "milestone", "boulders", "milestones" ]
+    FiCaL                     `noun`    {- Iiram -}            [ "boulder", "milestone", "boulders", "milestones" ]
                               `plural`     HACAL
-                              {- `others` [ "'ArAm N" ] -},
+                           {- `others`  [ "'ArAm N" ] -},
 
     -- ;; >ur~am_1
     -- >rm     >ur~am  N       molars
     -- Arm     >ur~am  N       molars
 
-    FuCCaL                    `noun`       {- Our~am -}         [ "molars" ],
+    FuCCaL                    `noun`    {- Our~am -}           [ "molars" ],
 
     -- ;; >aruwmap_1
     -- >rwm    >aruwm  NapAt   root;stump;stub
@@ -7498,13 +7497,13 @@ lexicon = listing "Lexicon's properties"
     -- >rwm    >uruwm  NapAt   root;stump;stub
     -- Arwm    >uruwm  NapAt   root;stump;stub
 
-    FaCUL |< aT               `noun`       {- Oaruwmap -}       [ "root", "stump", "stub" ]
+    FaCUL |< aT               `noun`    {- Oaruwmap -}         [ "root", "stump", "stub" ]
                               `plural`     FuCUL |< At,
 
     -- ;; mi}oram_1
     -- m}rm    mi}oram Ndu     root (tooth)
 
-    MiFCaL                    `noun`       {- mi}oram -}        [ "root (tooth)" ] ]
+    MiFCaL                    `noun`    {- mi}oram -}          [ "root (tooth)" ] ]
 
  |> "' r n" <| [
 
@@ -7513,9 +7512,9 @@ lexicon = listing "Lexicon's properties"
     -- Arwn    >aruwn  Nprop   Aaron
     -- \|rwn    |ruwn   Nprop   Aaron
 
-    FaCUL                     `noun`       {- Oaruwn -}         [ "Aaron" ]
+    FaCUL                     `noun`    {- Oaruwn -}           [ "Aaron" ]
                               `plural`     FACUL
-                              {- `others` [ "'Aruwn Nprop" ] -} ]
+                           {- `others`  [ "'Aruwn Nprop" ] -} ]
 
  |> "' r n b" <| [
 
@@ -7527,15 +7526,15 @@ lexicon = listing "Lexicon's properties"
     -- >rnb    >aronab Napdu   rabbit
     -- Arnb    >aronab Napdu   rabbit
 
-    KaRDaS                    `noun`       {- Oaronab -}        [ "rabbit", "rabbits" ]
+    KaRDaS                    `noun`    {- Oaronab -}          [ "rabbit", "rabbits" ]
                               `plural`     KaRADiS
-                              {- `others` [ "'arAnib Ndip" ] -},
+                           {- `others`  [ "'arAnib Ndip" ] -},
 
     -- ;; >aronabap_1
     -- >rnb    >aronab NapAt   tip;muzzle
     -- Arnb    >aronab NapAt   tip;muzzle
 
-    KaRDaS |< aT              `noun`       {- Oaronabap -}      [ "tip", "muzzle" ] ]
+    KaRDaS |< aT              `noun`    {- Oaronabap -}        [ "tip", "muzzle" ] ]
 
  |> "' r n k" <| [
 
@@ -7545,9 +7544,9 @@ lexicon = listing "Lexicon's properties"
     -- >rAnyk  >arAniyk        Ndip    patterns;forms
     -- ArAnyk  >arAniyk        Ndip    patterns;forms
 
-    KuRDIS                    `noun`       {- Ouroniyk -}       [ "pattern", "form", "patterns", "forms" ]
+    KuRDIS                    `noun`    {- Ouroniyk -}         [ "pattern", "form", "patterns", "forms" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'arAniyk Ndip" ] -} ]
+                           {- `others`  [ "'arAniyk Ndip" ] -} ]
 
  |> "' r q" <| [
 
@@ -7557,7 +7556,7 @@ lexicon = listing "Lexicon's properties"
     -- >rq     >oraq   IV_no-Pref-A    be sleepless
     -- Arq     >oraq   IV_no-Pref-A    be sleepless
 
-    FaCiL                     `verb`       {- Oariq-a -}        [ "be sleepless" ]
+    FaCiL                     `verb`    {- Oariq-a -}          [ "be sleepless" ]
                               `imperf`     FCaL,
 
     -- ;; >ar~aq_1
@@ -7566,31 +7565,31 @@ lexicon = listing "Lexicon's properties"
     -- &rq     &ar~iq  IV_yu   keep awake;make sleepless
     -- &rq     &ar~aq  IV_Pass_yu      be kept awake;be made sleepless
 
-    FaCCaL                    `verb`       {- Oar~aq -}         [ "keep awake", "make sleepless", "be kept awake", "be made sleepless" ],
+    FaCCaL                    `verb`    {- Oar~aq -}           [ "keep awake", "make sleepless", "be kept awake", "be made sleepless" ],
 
     -- ;; >araq_1
     -- >rq     >araq   N       insomnia
     -- Arq     >araq   N       insomnia
 
-    FaCaL                     `noun`       {- Oaraq -}          [ "insomnia" ],
+    FaCaL                     `noun`    {- Oaraq -}            [ "insomnia" ],
 
     -- ;; |riq_1
     -- \|rq     |riq    Nall    insomniac
     -- Arq     |riq    Nall    insomniac
 
-    FACiL                     `noun`       {- \|riq -}          [ "insomniac" ],
+    FACiL                     `noun`    {- \|riq -}            [ "insomniac" ],
 
     -- ;; >ariq_1
     -- >rq     >ariq   Nall    insomniac
     -- Arq     >ariq   Nall    insomniac
 
-    FaCiL                     `noun`       {- Oariq -}          [ "insomniac" ],
+    FaCiL                     `noun`    {- Oariq -}            [ "insomniac" ],
 
     -- ;; >urAq_1
     -- >rAq    >urAq   N       jaundice
     -- ArAq    >urAq   N       jaundice
 
-    FuCAL                     `noun`       {- OurAq -}          [ "jaundice" ],
+    FuCAL                     `noun`    {- OurAq -}            [ "jaundice" ],
 
     -- ;; >aroqap_1
     -- >rq     >aroq   Napdu   aphid;greenfly
@@ -7598,7 +7597,7 @@ lexicon = listing "Lexicon's properties"
     -- >rq     >araq   NAt     aphids;greenflies
     -- Arq     >araq   NAt     aphids;greenflies
 
-    FaCL |< aT                `noun`       {- Oaroqap -}        [ "aphid", "greenfly", "aphids", "greenflies" ]
+    FaCL |< aT                `noun`    {- Oaroqap -}          [ "aphid", "greenfly", "aphids", "greenflies" ]
                               `plural`     FaCaL |< At ]
 
  |> "' r r" <| [
@@ -7607,7 +7606,7 @@ lexicon = listing "Lexicon's properties"
     -- \|r      |r      N/At    area (surface measure)
     -- Ar      |r      N/At    area (surface measure)
 
-    FAL                       `noun`       {- \|r -}            [ "area (surface measure)" ],
+    FAL                       `noun`    {- \|r -}              [ "area (surface measure)" ],
 
     -- ;; |riy~_1
     -- \|ry     |riy~   Nall    Aryan     [[|riy~/NOUN]]
@@ -7615,7 +7614,7 @@ lexicon = listing "Lexicon's properties"
     -- Ary     |riy~   Nall    Aryan     [[|riy~/NOUN]]
     -- Ary     |riy~   Nall    Aryan     [[|riy~/ADJ]]
 
-    FAL |< Iy                 `adj`        {- \|riy~ -}         [ "Aryan" ] ]
+    FAL |< Iy                 `adj`     {- \|riy~ -}           [ "Aryan" ] ]
 
  |> "' r s" <| [
 
@@ -7625,26 +7624,26 @@ lexicon = listing "Lexicon's properties"
     -- >rs     >oris   IV_no-Pref-A    till the land
     -- Ars     >oris   IV_no-Pref-A    till the land
 
-    FaCaL                     `verb`       {- Oaras-i -}        [ "till the land" ]
+    FaCaL                     `verb`    {- Oaras-i -}          [ "till the land" ]
                               `imperf`     FCiL,
 
     -- ;; <ir~iys_1
     -- <rys    <ir~iys Ndu     peasant;farmer
     -- Arys    <ir~iys Ndu     peasant;farmer
 
-    FiCCIL                    `noun`       {- Iir~iys -}        [ "peasant", "farmer" ],
+    FiCCIL                    `noun`    {- Iir~iys -}          [ "peasant", "farmer" ],
 
     -- ;; >ariys_1
     -- >rys    >ariys  Ndu     peasant;farmer
     -- Arys    >ariys  Ndu     peasant;farmer
 
-    FaCIL                     `noun`       {- Oariys -}         [ "peasant", "farmer" ],
+    FaCIL                     `noun`    {- Oariys -}           [ "peasant", "farmer" ],
 
     -- ;; |s_1
     -- \|s      |s      N       myrtle
     -- As      |s      N       myrtle
 
-    FAL                       `noun`       {- \|s -}            [ "myrtle" ],
+    FAL                       `noun`    {- \|s -}              [ "myrtle" ],
 
     -- ;; |s_2
     -- \|s      |s      Ndu     ace
@@ -7652,7 +7651,7 @@ lexicon = listing "Lexicon's properties"
     -- \|sAt    |sAt    N       aces
     -- AsAt    |sAt    N       aces
 
-    FAL                       `noun`       {- \|s -}            [ "ace", "aces" ] ]
+    FAL                       `noun`    {- \|s -}              [ "ace", "aces" ] ]
 
  |> "' r t q" <| [
 
@@ -7660,13 +7659,13 @@ lexicon = listing "Lexicon's properties"
     -- >rtq    >arotaq NapAt   heresy
     -- Artq    >arotaq NapAt   heresy
 
-    KaRDaS |< aT              `noun`       {- Oarotaqap -}      [ "heresy" ],
+    KaRDaS |< aT              `noun`    {- Oarotaqap -}        [ "heresy" ],
 
     -- ;; >arAtiyqiy~_1
     -- >rAtyqy >arAtiyqiy~     Nall    heretic
     -- ArAtyqy >arAtiyqiy~     Nall    heretic
 
-    KaRADIS |< Iy             `adj`        {- OarAtiyqiy~ -}    [ "heretic" ] ]
+    KaRADIS |< Iy             `adj`     {- OarAtiyqiy~ -}      [ "heretic" ] ]
 
  |> "' r t r" <| [
 
@@ -7674,7 +7673,7 @@ lexicon = listing "Lexicon's properties"
     -- >rtwr   >arotuwr        Nprop   Arture
     -- Artwr   >arotuwr        Nprop   Arture
 
-    KaRDUS                    `noun`       {- Oarotuwr -}       [ "Arture" ] ]
+    KaRDUS                    `noun`    {- Oarotuwr -}         [ "Arture" ] ]
 
  |> "' r w" <| [
 
@@ -7682,7 +7681,7 @@ lexicon = listing "Lexicon's properties"
     -- >rAw    >arAw   Nprop   Aarau
     -- ArAw    >arAw   Nprop   Aarau
 
-    FaCAL                     `noun`       {- OarAw -}          [ "Aarau" ] ]
+    FaCAL                     `noun`    {- OarAw -}            [ "Aarau" ] ]
 
  |> "' r w y" <| [
 
@@ -7690,7 +7689,7 @@ lexicon = listing "Lexicon's properties"
     -- >rwy    >urowiy~        NapAt   mouflon (wild sheep)     [[>urowiy~/NOUN]]
     -- Arwy    >urowiy~        NapAt   mouflon (wild sheep)     [[>urowiy~/NOUN]]
 
-    KuRDIS |< aT              `noun`       {- Ourowiy~ap -}     [ "mouflon (wild sheep)" ] ]
+    KuRDIS |< aT              `noun`    {- Ourowiy~ap -}       [ "mouflon (wild sheep)" ] ]
 
  |> "' r y" <| [
 
@@ -7698,13 +7697,13 @@ lexicon = listing "Lexicon's properties"
     -- >rAy    >arAy   Nprop   Array
     -- ArAy    >arAy   Nprop   Array
 
-    FaCAL                     `noun`       {- OarAy -}          [ "Array" ],
+    FaCAL                     `noun`    {- OarAy -}            [ "Array" ],
 
     -- ;; >ary_1
     -- >ry     >ary    N       honey
     -- Ary     >ary    N       honey
 
-    FaCL                      `noun`       {- Oary -}           [ "honey" ] ]
+    FaCL                      `noun`    {- Oary -}             [ "honey" ] ]
 
  |> "' r y l" <| [
 
@@ -7712,7 +7711,7 @@ lexicon = listing "Lexicon's properties"
     -- <ryAl   <iroyAl NduAt   antenna
     -- AryAl   <iroyAl NduAt   antenna
 
-    KiRDAS                    `noun`       {- IiroyAl -}        [ "antenna" ] ]
+    KiRDAS                    `noun`    {- IiroyAl -}          [ "antenna" ] ]
 
  |> "' r z" <| [
 
@@ -7722,7 +7721,7 @@ lexicon = listing "Lexicon's properties"
     -- >rz     >aroz   Napdu   cedar
     -- Arz     >aroz   Napdu   cedar
 
-    FaCL                      `noun`       {- Oaroz -}          [ "cedars", "cedar" ] ]
+    FaCL                      `noun`    {- Oaroz -}            [ "cedars", "cedar" ] ]
 
  |> "' s .h q" <| [
 
@@ -7732,7 +7731,7 @@ lexicon = listing "Lexicon's properties"
     -- <sHq    <isoH`q Ndip    Isaac;Yizhak
     -- AsHq    <isoH`q Ndip    Isaac;Yizhak
 
-    KiRDAS                    `noun`       {- IisoHAq -}        [ "Isaac", "Yizhak" ] ]
+    KiRDAS                    `noun`    {- IisoHAq -}          [ "Isaac", "Yizhak" ] ]
 
  |> "' s .t" <| [
 
@@ -7744,7 +7743,7 @@ lexicon = listing "Lexicon's properties"
     -- >sTw    >usoTaw NAt     bosses;chiefs
     -- AsTw    >usoTaw NAt     bosses;chiefs
 
-    FuCLY                     `noun`       {- OusoTaY -}        [ "boss", "chief", "bosses", "chiefs" ] ]
+    FuCLY                     `noun`    {- OusoTaY -}          [ "boss", "chief", "bosses", "chiefs" ] ]
 
  |> "' s .t l" <| [
 
@@ -7754,9 +7753,9 @@ lexicon = listing "Lexicon's properties"
     -- >sATyl  >asATiyl        Ndip    fleets;squadrons
     -- AsATyl  >asATiyl        Ndip    fleets;squadrons
 
-    KuRDUS                    `noun`       {- OusoTuwl -}       [ "fleet", "squadron", "fleets", "squadrons" ]
+    KuRDUS                    `noun`    {- OusoTuwl -}         [ "fleet", "squadron", "fleets", "squadrons" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'asA.tiyl Ndip" ] -} ]
+                           {- `others`  [ "'asA.tiyl Ndip" ] -} ]
 
  |> "' s .t n" <| [
 
@@ -7764,7 +7763,7 @@ lexicon = listing "Lexicon's properties"
     -- >sATyn  >asATiyn        Ndip    celebrities
     -- AsATyn  >asATiyn        Ndip    celebrities
 
-    KaRADIS                   `noun`       {- OasATiyn -}       [ "celebrities" ] ]
+    KaRADIS                   `noun`    {- OasATiyn -}         [ "celebrities" ] ]
 
  |> "' s .t r" <| [
 
@@ -7774,15 +7773,15 @@ lexicon = listing "Lexicon's properties"
     -- >sATyr  >asATiyr        Ndip    myths;legends;tales
     -- AsATyr  >asATiyr        Ndip    myths;legends;tales
 
-    KuRDUS |< aT              `noun`       {- OusoTuwrap -}     [ "myth", "legend", "tale", "myths", "legends", "tales" ]
+    KuRDUS |< aT              `noun`    {- OusoTuwrap -}       [ "myth", "legend", "tale", "myths", "legends", "tales" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'asA.tiyr Ndip" ] -},
+                           {- `others`  [ "'asA.tiyr Ndip" ] -},
 
     -- ;; >usoTuwriy~_1
     -- >sTwry  >usoTuwriy~     Nall    mythological;legendary;mythical     [[>usoTuwriy~/ADJ]]
     -- AsTwry  >usoTuwriy~     Nall    mythological;legendary;mythical     [[>usoTuwriy~/ADJ]]
 
-    KuRDUS |< Iy              `adj`        {- OusoTuwriy~ -}    [ "mythological", "legendary", "mythical" ] ]
+    KuRDUS |< Iy              `adj`     {- OusoTuwriy~ -}      [ "mythological", "legendary", "mythical" ] ]
 
  |> "' s ^g" <| [
 
@@ -7790,7 +7789,7 @@ lexicon = listing "Lexicon's properties"
     -- >swj    >asuwj  N       Sweden
     -- Aswj    >asuwj  N       Sweden
 
-    FaCUL                     `noun`       {- Oasuwj -}         [ "Sweden" ] ]
+    FaCUL                     `noun`    {- Oasuwj -}           [ "Sweden" ] ]
 
  |> "' s b" <| [
 
@@ -7805,9 +7804,9 @@ lexicon = listing "Lexicon's properties"
     -- AsbAn   <isobAn N       Spaniards
     -- >sbAn   <isobAn N       Spaniards
 
-    FiCLAn |< Iy              `adj`        {- IisobAniy~ -}     [ "Spanish", "Spaniard", "Spaniards" ]
+    FiCLAn |< Iy              `adj`     {- IisobAniy~ -}       [ "Spanish", "Spaniard", "Spaniards" ]
                               `plural`     FiCLAn
-                              {- `others` [ "'isbAn N" ] -} ]
+                           {- `others`  [ "'isbAn N" ] -} ]
 
  |> "' s b n" <| [
 
@@ -7822,9 +7821,9 @@ lexicon = listing "Lexicon's properties"
     -- AsbAn   <isobAn N       Spaniards
     -- >sbAn   <isobAn N       Spaniards
 
-    KiRDAS |< Iy              `adj`        {- IisobAniy~ -}     [ "Spanish", "Spaniard", "Spaniards" ]
+    KiRDAS |< Iy              `adj`     {- IisobAniy~ -}       [ "Spanish", "Spaniard", "Spaniards" ]
                               `plural`     KiRDAS
-                              {- `others` [ "'isbAn N" ] -} ]
+                           {- `others`  [ "'isbAn N" ] -} ]
 
  |> "' s b r" <| [
 
@@ -7832,7 +7831,7 @@ lexicon = listing "Lexicon's properties"
     -- <sbwr   <isobuwr        N       sport
     -- Asbwr   <isobuwr        N       sport
 
-    KiRDUS                    `noun`       {- Iisobuwr -}       [ "sport" ] ]
+    KiRDUS                    `noun`    {- Iisobuwr -}         [ "sport" ] ]
 
  |> "' s d" <| [
 
@@ -7841,13 +7840,13 @@ lexicon = listing "Lexicon's properties"
     -- Ast>sd  {isota>osad     PV      seize control
     -- st>sd   sota>osid       IV      seize control
 
-    IstaFCaL                  `verb`       {- AisotaOosad -}    [ "seize control" ],
+    IstaFCaL                  `verb`    {- AisotaOosad -}      [ "seize control" ],
 
     -- ;; >asad_1
     -- >sd     >asad   N0      Asad
     -- Asd     >asad   N0      Asad
 
-    FaCaL                     `noun`       {- Oasad -}          [ "Asad" ],
+    FaCaL                     `noun`    {- Oasad -}            [ "Asad" ],
 
     -- ;; >asad_2
     -- >sd     >asad   Ndu     lion
@@ -7863,32 +7862,32 @@ lexicon = listing "Lexicon's properties"
     -- >sd     >asad   Napdu   lioness
     -- Asd     >asad   Napdu   lioness
 
-    FaCaL                     `noun`       {- Oasad -}          [ "lion", "lions", "lioness" ]
+    FaCaL                     `noun`    {- Oasad -}            [ "lion", "lions", "lioness" ]
                               `plural`     FuCuL
                               `plural`     HACAL
                               `plural`     FuCUL
                               `plural`     FuCL
-                              {- `others` [ "'usud N", "'AsAd N", "'usuwd N", "'usd N" ] -},
+                           {- `others`  [ "'usud N", "'AsAd N", "'usuwd N", "'usd N" ] -},
 
     -- ;; >asadiy~_1
     -- >sdy    >asadiy~        N0      Asadi
     -- Asdy    >asadiy~        N0      Asadi
 
-    FaCaL |< Iy               `adj`        {- Oasadiy~ -}       [ "Asadi" ],
+    FaCaL |< Iy               `adj`     {- Oasadiy~ -}         [ "Asadi" ],
 
     -- ;; >asadiy~_2
     -- >sdy    >asadiy~        Nall    lion-related;lion-like;leonine
     -- Asdy    >asadiy~        Nall    lion-related;lion-like;leonine
 
-    FaCaL |< Iy               `adj`        {- Oasadiy~ -}       [ "lion-related", "lion-like", "leonine" ],
+    FaCaL |< Iy               `adj`     {- Oasadiy~ -}         [ "lion-related", "lion-like", "leonine" ],
 
     -- ;; ma>osad_1
     -- m>sd    ma>osad Ndu     lion's den;lair
     -- m|sd    ma|sid  Ndip    lion's dens;lairs
 
-    MaFCaL                    `noun`       {- maOosad -}        [ "lion's den", "lair", "lion's dens", "lairs" ]
+    MaFCaL                    `noun`    {- maOosad -}          [ "lion's den", "lair", "lion's dens", "lairs" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma'Asid Ndip" ] -} ]
+                           {- `others`  [ "ma'Asid Ndip" ] -} ]
 
  |> "' s f" <| [
 
@@ -7898,7 +7897,7 @@ lexicon = listing "Lexicon's properties"
     -- >sf     >osaf   IV_no-Pref-A    be sorry;regret
     -- Asf     >osaf   IV_no-Pref-A    be sorry;regret
 
-    FaCiL                     `verb`       {- Oasif-a -}        [ "be sorry", "regret" ]
+    FaCiL                     `verb`    {- Oasif-a -}          [ "be sorry", "regret" ]
                               `imperf`     FCaL,
 
     -- ;; |saf_1
@@ -7907,30 +7906,30 @@ lexicon = listing "Lexicon's properties"
     -- &sf     &osif   IV_no-Pref-A_yu sadden;distress
     -- wsf     wsif    IV_need-Pref-A_yu       sadden;distress
 
-    FACaL                     `verb`       {- \|saf -}          [ "sadden", "distress" ],
+    FACaL                     `verb`    {- \|saf -}            [ "sadden", "distress" ],
 
     -- ;; ta>as~af_1
     -- t>sf    ta>as~af        PV_intr be sorry;regret
     -- t>sf    ta>as~af        IV_intr be sorry;regret
 
-    TaFaCCaL                  `verb`       {- taOas~af -}       [ "be sorry", "regret" ],
+    TaFaCCaL                  `verb`    {- taOas~af -}         [ "be sorry", "regret" ],
 
     -- ;; >asaf_1
     -- >sf     >asaf   N       regret;sorry
     -- Asf     >asaf   N       regret;sorry
 
-    FaCaL                     `noun`       {- Oasaf -}          [ "regret", "sorry" ],
+    FaCaL                     `noun`    {- Oasaf -}            [ "regret", "sorry" ],
 
     -- ;; ta>as~uf_1
     -- t>sf    ta>as~uf        NduAt   sorry;regret
 
-    TaFaCCuL                  `noun`       {- taOas~uf -}       [ "sorry", "regret" ],
+    TaFaCCuL                  `noun`    {- taOas~uf -}         [ "sorry", "regret" ],
 
     -- ;; |sif_1
     -- \|sf     |sif    Nall    sorry;regretful
     -- Asf     |sif    Nall    sorry;regretful
 
-    FACiL                     `noun`       {- \|sif -}          [ "sorry", "regretful" ],
+    FACiL                     `noun`    {- \|sif -}            [ "sorry", "regretful" ],
 
     -- ;; >asiyf_1
     -- >syf    >asiyf  N/ap    sorry;regretful
@@ -7942,29 +7941,29 @@ lexicon = listing "Lexicon's properties"
     -- >sfA}   >usafA} Nhy     sorry;regretful
     -- AsfA}   >usafA} Nhy     sorry;regretful
 
-    FaCIL                     `noun`       {- Oasiyf -}         [ "sorry", "regretful" ]
+    FaCIL                     `noun`    {- Oasiyf -}           [ "sorry", "regretful" ]
                               `plural`     FuCaLA'
-                              {- `others` [ "'usafA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "'usafA' Nh N0_Nh Nhy" ] -},
 
     -- ;; ma>osuwf_1
     -- m>swf   ma>osuwf        Nall    regrettable;mourned
 
-    MaFCUL                    `noun`       {- maOosuwf -}       [ "regrettable", "mourned" ],
+    MaFCUL                    `noun`    {- maOosuwf -}         [ "regrettable", "mourned" ],
 
     -- ;; mu&osif_1
     -- m&sf    mu&osif Nall    regrettable;unfortunate
 
-    MuFCiL                    `noun`       {- muWosif -}        [ "regrettable", "unfortunate" ],
+    MuFCiL                    `noun`    {- muWosif -}          [ "regrettable", "unfortunate" ],
 
     -- ;; muta>as~if_1
     -- mt>sf   muta>as~if      FW-Wa   sorry!     [[muta>as~if/INTERJ]]
 
-    MutaFaCCiL                `noun`       {- mutaOas~if -}     [ "sorry!" ],
+    MutaFaCCiL                `noun`    {- mutaOas~if -}       [ "sorry!" ],
 
     -- ;; muta>as~if_2
     -- mt>sf   muta>as~if      Nall    sorry;regretful
 
-    MutaFaCCiL                `noun`       {- mutaOas~if -}     [ "sorry", "regretful" ] ]
+    MutaFaCCiL                `noun`    {- mutaOas~if -}       [ "sorry", "regretful" ] ]
 
  |> "' s f n" <| [
 
@@ -7974,15 +7973,15 @@ lexicon = listing "Lexicon's properties"
     -- >sAfyn  >asAfiyn        Ndip    wedges
     -- AsAfyn  >asAfiyn        Ndip    wedges
 
-    KiRDIS                    `noun`       {- Iisofiyn -}       [ "wedge", "wedges" ]
+    KiRDIS                    `noun`    {- Iisofiyn -}         [ "wedge", "wedges" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'asAfiyn Ndip" ] -},
+                           {- `others`  [ "'asAfiyn Ndip" ] -},
 
     -- ;; <isofiyniy~_1
     -- <sfyny  <isofiyniy~     N-ap    wedge-like;cuneiform     [[<isofiyniy~/ADJ]]
     -- Asfyny  <isofiyniy~     N-ap    wedge-like;cuneiform     [[<isofiyniy~/ADJ]]
 
-    KiRDIS |< Iy              `adj`        {- Iisofiyniy~ -}    [ "wedge-like", "cuneiform" ] ]
+    KiRDIS |< Iy              `adj`     {- Iisofiyniy~ -}      [ "wedge-like", "cuneiform" ] ]
 
  |> "' s k l" <| [
 
@@ -7992,9 +7991,9 @@ lexicon = listing "Lexicon's properties"
     -- >sAkl   >asAkil Ndip    seaports;commercial hubs/centers
     -- AsAkl   >asAkil Ndip    seaports;commercial hubs/centers
 
-    KiRDiS |< aT              `noun`       {- Iisokilap -}      [ "seaport", "commercial hub/center", "seaports", "commercial hubs/centers" ]
+    KiRDiS |< aT              `noun`    {- Iisokilap -}        [ "seaport", "commercial hub/center", "seaports", "commercial hubs/centers" ]
                               `plural`     KaRADiS
-                              {- `others` [ "'asAkil Ndip" ] -} ]
+                           {- `others`  [ "'asAkil Ndip" ] -} ]
 
  |> "' s l" <| [
 
@@ -8004,48 +8003,48 @@ lexicon = listing "Lexicon's properties"
     -- &sl     &as~il  IV_yu   sharpen;taper
     -- &sl     &as~al  IV_Pass_yu      be sharpened;be tapered
 
-    FaCCaL                    `verb`       {- Oas~al -}         [ "sharpen", "taper", "be sharpened", "be tapered" ],
+    FaCCaL                    `verb`    {- Oas~al -}           [ "sharpen", "taper", "be sharpened", "be tapered" ],
 
     -- ;; >asal_1
     -- >sl     >asal   N       rush
     -- Asl     >asal   N       rush
 
-    FaCaL                     `noun`       {- Oasal -}          [ "rush" ],
+    FaCaL                     `noun`    {- Oasal -}            [ "rush" ],
 
     -- ;; >asalap_1
     -- >sl     >asal   NapAt   point;edge
     -- Asl     >asal   NapAt   point;edge
 
-    FaCaL |< aT               `noun`       {- Oasalap -}        [ "point", "edge" ],
+    FaCaL |< aT               `noun`    {- Oasalap -}          [ "point", "edge" ],
 
     -- ;; >asaliy~_1
     -- >sly    >asaliy~        Nall    pointed     [[>asaliy~/ADJ]]
     -- Asly    >asaliy~        Nall    pointed     [[>asaliy~/ADJ]]
 
-    FaCaL |< Iy               `adj`        {- Oasaliy~ -}       [ "pointed" ],
+    FaCaL |< Iy               `adj`     {- Oasaliy~ -}         [ "pointed" ],
 
     -- ;; >asiyl_1
     -- >syl    >asiyl  Nall    smooth
     -- Asyl    >asiyl  Nall    smooth
 
-    FaCIL                     `noun`       {- Oasiyl -}         [ "smooth" ],
+    FaCIL                     `noun`    {- Oasiyl -}           [ "smooth" ],
 
     -- ;; >asAlap_1
     -- >sAl    >asAl   Nap     elliptic;oval
     -- AsAl    >asAl   Nap     elliptic;oval
 
-    FaCAL |< aT               `noun`       {- OasAlap -}        [ "elliptic", "oval" ],
+    FaCAL |< aT               `noun`    {- OasAlap -}          [ "elliptic", "oval" ],
 
     -- ;; ta>osiyl_1
     -- t>syl   ta>osiyl        NduAt   sharpening;tapering
     -- tAsyl   ta>osiyl        NduAt   sharpening;tapering
 
-    TaFCIL                    `noun`       {- taOosiyl -}       [ "sharpening", "tapering" ],
+    TaFCIL                    `noun`    {- taOosiyl -}         [ "sharpening", "tapering" ],
 
     -- ;; mu&as~al_1
     -- m&sl    mu&as~al        Nall    pointed;tapered
 
-    MuFaCCaL                  `noun`       {- muWas~al -}       [ "pointed", "tapered" ] ]
+    MuFaCCaL                  `noun`    {- muWas~al -}         [ "pointed", "tapered" ] ]
 
  |> "' s l m" <| [
 
@@ -8053,12 +8052,12 @@ lexicon = listing "Lexicon's properties"
     -- >slm    >asolam Napdu   Islamicization;Islamification
     -- Aslm    >asolam Napdu   Islamicization;Islamification
 
-    KaRDaS |< aT              `noun`       {- Oasolamap -}      [ "Islamicization", "Islamification" ],
+    KaRDaS |< aT              `noun`    {- Oasolamap -}        [ "Islamicization", "Islamification" ],
 
     -- ;; mu&asolam_1
     -- m&slm   mu&asolam       Nall    Islamicized;Islamified
 
-    MuKaRDaS                  `noun`       {- muWasolam -}      [ "Islamicized", "Islamified" ] ]
+    MuKaRDaS                  `noun`    {- muWasolam -}        [ "Islamicized", "Islamified" ] ]
 
  |> "' s m" <| [
 
@@ -8066,7 +8065,7 @@ lexicon = listing "Lexicon's properties"
     -- >sAmp   >usAmap Nprop   Usama;Osama
     -- AsAmp   >usAmap Nprop   Usama;Osama
 
-    FuCAL |< aT               `noun`       {- OusAmap -}        [ "Usama", "Osama" ] ]
+    FuCAL |< aT               `noun`    {- OusAmap -}          [ "Usama", "Osama" ] ]
 
  |> "' s m r" <| [
 
@@ -8074,7 +8073,7 @@ lexicon = listing "Lexicon's properties"
     -- >smrp   >asomarap       N0      Asmara
     -- Asmrp   >asomarap       N0      Asmara
 
-    KaRDaS |< aT              `noun`       {- Oasomarap -}      [ "Asmara" ] ]
+    KaRDaS |< aT              `noun`    {- Oasomarap -}        [ "Asmara" ] ]
 
  |> "' s n" <| [
 
@@ -8084,31 +8083,31 @@ lexicon = listing "Lexicon's properties"
     -- >sn     >osan   IV-n_no-Pref-A  stagnate;decay
     -- Asn     >osan   IV-n_no-Pref-A  stagnate;decay
 
-    FaCiL                     `verb`       {- Oasin-a -}        [ "stagnate", "decay" ]
+    FaCiL                     `verb`    {- Oasin-a -}          [ "stagnate", "decay" ]
                               `imperf`     FCaL,
 
     -- ;; ta>as~an_1
     -- t>sn    ta>as~an        PV-n    stagnate;decay
     -- t>sn    ta>as~an        IV-n    stagnate;decay
 
-    TaFaCCaL                  `verb`       {- taOas~an -}       [ "stagnate", "decay" ],
+    TaFaCCaL                  `verb`    {- taOas~an -}         [ "stagnate", "decay" ],
 
     -- ;; >usuwn_1
     -- >swn    >usuwn  N       stagnation;contamination;decay
     -- Aswn    >usuwn  N       stagnation;contamination;decay
 
-    FuCUL                     `noun`       {- Ousuwn -}         [ "stagnation", "contamination", "decay" ],
+    FuCUL                     `noun`    {- Ousuwn -}           [ "stagnation", "contamination", "decay" ],
 
     -- ;; |sin_1
     -- \|sn     |sin    Nall    contaminated;brackish
     -- Asn     |sin    Nall    contaminated;brackish
 
-    FACiL                     `noun`       {- \|sin -}          [ "contaminated", "brackish" ],
+    FACiL                     `noun`    {- \|sin -}            [ "contaminated", "brackish" ],
 
     -- ;; muta>as~in_1
     -- mt>sn   muta>as~in      Nall    putrid;brackish
 
-    MutaFaCCiL                `noun`       {- mutaOas~in -}     [ "putrid", "brackish" ] ]
+    MutaFaCCiL                `noun`    {- mutaOas~in -}       [ "putrid", "brackish" ] ]
 
  |> "' s q f" <| [
 
@@ -8120,21 +8119,21 @@ lexicon = listing "Lexicon's properties"
     -- >sAqf   >asAqif Ndip    bishops
     -- AsAqf   >asAqif Ndip    bishops
 
-    KuRDuS                    `noun`       {- Ousoquf -}        [ "bishop", "bishops" ]
+    KuRDuS                    `noun`    {- Ousoquf -}          [ "bishop", "bishops" ]
                               `plural`     KaRADiS |< aT
-                              {- `others` [ "'asAqif Ndip" ] -},
+                           {- `others`  [ "'asAqif Ndip" ] -},
 
     -- ;; >usoqufiy~_1
     -- >sqfy   >usoqufiy~      Nall    episcopal     [[>usoqufiy~/ADJ]]
     -- Asqfy   >usoqufiy~      Nall    episcopal     [[>usoqufiy~/ADJ]]
 
-    KuRDuS |< Iy              `adj`        {- Ousoqufiy~ -}     [ "episcopal" ],
+    KuRDuS |< Iy              `adj`     {- Ousoqufiy~ -}       [ "episcopal" ],
 
     -- ;; >usoqufiy~ap_1
     -- >sqfy   >usoqufiy~      NapAt   bishopric;episcopate     [[>usoqufiy~/NOUN]]
     -- Asqfy   >usoqufiy~      NapAt   bishopric;episcopate     [[>usoqufiy~/NOUN]]
 
-    KuRDuS |< Iy |< aT        `noun`       {- Ousoqufiy~ap -}   [ "bishopric", "episcopate" ] ]
+    KuRDuS |< Iy |< aT        `noun`    {- Ousoqufiy~ap -}     [ "bishopric", "episcopate" ] ]
 
  |> "' s q l" <| [
 
@@ -8144,9 +8143,9 @@ lexicon = listing "Lexicon's properties"
     -- >sAqyl  >asAqiyl        Ndip    scaffolds;ladders
     -- AsAqyl  >asAqiyl        Ndip    scaffolds;ladders
 
-    KiRDAS |< aT              `noun`       {- IisoqAlap -}      [ "scaffold", "ladder", "scaffolds", "ladders" ]
+    KiRDAS |< aT              `noun`    {- IisoqAlap -}        [ "scaffold", "ladder", "scaffolds", "ladders" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'asAqiyl Ndip" ] -} ]
+                           {- `others`  [ "'asAqiyl Ndip" ] -} ]
 
  |> "' s r" <| [
 
@@ -8156,7 +8155,7 @@ lexicon = listing "Lexicon's properties"
     -- >sr     >osir   IV_no-Pref-A    capture;take prisoner
     -- Asr     >osir   IV_no-Pref-A    capture;take prisoner
 
-    FaCaL                     `verb`       {- Oasar-i -}        [ "capture", "take prisoner" ]
+    FaCaL                     `verb`    {- Oasar-i -}          [ "capture", "take prisoner" ]
                               `imperf`     FCiL,
 
     -- ;; {isota>osar_1
@@ -8165,19 +8164,19 @@ lexicon = listing "Lexicon's properties"
     -- st>sr   sota>osir       IV      surrender
     -- st>sr   sota>osar       IV_Pass_yu      be surrendered
 
-    IstaFCaL                  `verb`       {- AisotaOosar -}    [ "surrender", "be surrendered" ],
+    IstaFCaL                  `verb`    {- AisotaOosar -}      [ "surrender", "be surrendered" ],
 
     -- ;; >asor_1
     -- >sr     >asor   N       capture;captivity
     -- Asr     >asor   N       capture;captivity
 
-    FaCL                      `noun`       {- Oasor -}          [ "capture", "captivity" ],
+    FaCL                      `noun`    {- Oasor -}            [ "capture", "captivity" ],
 
     -- ;; >usor_1
     -- >sr     >usor   N       urine retention
     -- Asr     >usor   N       urine retention
 
-    FuCL                      `noun`       {- Ousor -}          [ "urine retention" ],
+    FuCL                      `noun`    {- Ousor -}            [ "urine retention" ],
 
     -- ;; >usorap_1
     -- >sr     >usor   NapAt   family;community
@@ -8185,9 +8184,9 @@ lexicon = listing "Lexicon's properties"
     -- >sr     >usar   N       families;communities
     -- Asr     >usar   N       families;communities
 
-    FuCL |< aT                `noun`       {- Ousorap -}        [ "family", "community", "families", "communities" ]
+    FuCL |< aT                `noun`    {- Ousorap -}          [ "family", "community", "families", "communities" ]
                               `plural`     FuCaL
-                              {- `others` [ "'usar N" ] -},
+                           {- `others`  [ "'usar N" ] -},
 
     -- ;; >usoriy~_1
     -- >sry    >usoriy~        Nall    domestic;family     [[>usoriy~/ADJ]]
@@ -8195,7 +8194,7 @@ lexicon = listing "Lexicon's properties"
     -- >srwy   >usorawiy~      Nall    domestic;family     [[>usorawiy~/ADJ]]
     -- Asrwy   >usorawiy~      Nall    domestic;family     [[>usorawiy~/ADJ]]
 
-    FuCL |< Iy                `adj`        {- Ousoriy~ -}       [ "domestic", "family" ],
+    FuCL |< Iy                `adj`     {- Ousoriy~ -}         [ "domestic", "family" ],
 
     -- ;; >asiyr_1
     -- >syr    >asiyr  N/ap    prisoner;captive
@@ -8215,21 +8214,21 @@ lexicon = listing "Lexicon's properties"
     -- >sArA   >asArA  Nhy     prisoners;captives
     -- AsArA   >asArA  Nhy     prisoners;captives
 
-    FaCIL                     `noun`       {- Oasiyr -}         [ "prisoner", "captive", "prisoners", "captives" ]
+    FaCIL                     `noun`    {- Oasiyr -}           [ "prisoner", "captive", "prisoners", "captives" ]
                               `plural`     FuCaLA'
                               `plural`     FaCLY
-                              {- `others` [ "'usarA' Nh N0_Nh Nhy", "'asrY N0" ] -},
+                           {- `others`  [ "'usarA' Nh N0_Nh Nhy", "'asrY N0" ] -},
 
     -- ;; ta>osiyr_1
     -- t>syr   ta>osiyr        NduAt   webbing (chair)
     -- tAsyr   ta>osiyr        NduAt   webbing (chair)
 
-    TaFCIL                    `noun`       {- taOosiyr -}       [ "webbing (chair)" ],
+    TaFCIL                    `noun`    {- taOosiyr -}         [ "webbing (chair)" ],
 
     -- ;; ma>osuwr_1
     -- m>swr   ma>osuwr        Nall    held prisoner;held captive
 
-    MaFCUL                    `noun`       {- maOosuwr -}       [ "held prisoner", "held captive" ] ]
+    MaFCUL                    `noun`    {- maOosuwr -}         [ "held prisoner", "held captive" ] ]
 
  |> "' s r b" <| [
 
@@ -8241,9 +8240,9 @@ lexicon = listing "Lexicon's properties"
     -- >sArb   >asArib Ndip    lead
     -- AsArb   >asArib Ndip    lead
 
-    KuRDuS                    `noun`       {- Ousorub -}        [ "lead" ]
+    KuRDuS                    `noun`    {- Ousorub -}          [ "lead" ]
                               `plural`     KaRADiS
-                              {- `others` [ "'asArib Ndip" ] -} ]
+                           {- `others`  [ "'asArib Ndip" ] -} ]
 
  |> "' s s" <| [
 
@@ -8253,13 +8252,13 @@ lexicon = listing "Lexicon's properties"
     -- &ss     &as~is  IV_yu   establish;found
     -- &ss     &as~as  IV_Pass_yu      be established;be founded
 
-    FaCCaL                    `verb`       {- Oas~as -}         [ "establish", "found", "be established", "be founded" ],
+    FaCCaL                    `verb`    {- Oas~as -}           [ "establish", "found", "be established", "be founded" ],
 
     -- ;; ta>as~as_1
     -- t>ss    ta>as~as        PV_intr be established;be founded
     -- t>ss    ta>as~as        IV_intr be established;be founded
 
-    TaFaCCaL                  `verb`       {- taOas~as -}       [ "be established", "be founded" ],
+    TaFaCCaL                  `verb`    {- taOas~as -}         [ "be established", "be founded" ],
 
     -- ;; >us~_1
     -- >s      >us~    Ndu     exponent;basis
@@ -8267,21 +8266,21 @@ lexicon = listing "Lexicon's properties"
     -- <sAs    <isAs   N       exponents
     -- AsAs    <isAs   N       exponents
 
-    FuCL                      `noun`       {- Ous~ -}           [ "exponent", "basis", "exponents" ]
+    FuCL                      `noun`    {- Ous~ -}             [ "exponent", "basis", "exponents" ]
                               `plural`     FiCAL
-                              {- `others` [ "'isAs N" ] -},
+                           {- `others`  [ "'isAs N" ] -},
 
     -- ;; >us~iy~_1
     -- >sy     >us~iy~ Ndu     exponential
     -- Asy     >us~iy~ Ndu     exponential
 
-    FuCL |< Iy                `adj`        {- Ous~iy~ -}        [ "exponential" ],
+    FuCL |< Iy                `adj`     {- Ous~iy~ -}          [ "exponential" ],
 
     -- ;; >us~iy~ap_1
     -- >sy     >us~iy~ Napdu   exponential     [[>us~iy~/NOUN]]
     -- Asy     >us~iy~ Napdu   exponential     [[>us~iy~/NOUN]]
 
-    FuCL |< Iy |< aT          `noun`       {- Ous~iy~ap -}      [ "exponential" ],
+    FuCL |< Iy |< aT          `noun`    {- Ous~iy~ap -}        [ "exponential" ],
 
     -- ;; >asAs_1
     -- >sAs    >asAs   NduAt   foundation;basis
@@ -8289,23 +8288,23 @@ lexicon = listing "Lexicon's properties"
     -- >ss     >usus   N       foundations;bases
     -- Ass     >usus   N       foundations;bases
 
-    FaCAL                     `noun`       {- OasAs -}          [ "foundation", "basis", "foundations", "bases" ]
+    FaCAL                     `noun`    {- OasAs -}            [ "foundation", "basis", "foundations", "bases" ]
                               `plural`     FuCuL
-                              {- `others` [ "'usus N" ] -},
+                           {- `others`  [ "'usus N" ] -},
 
     -- ;; >asAsAF_1
     -- >sAs    >asAs   NF      primarily;basically     [[>asAs/ADV]]
     -- AsAs    >asAs   NF      primarily;basically     [[>asAs/ADV]]
 
-    FaCAL |< aN               `noun`       {- OasAsAF -}        [ "primarily", "basically" ]
+    FaCAL |< aN               `noun`    {- OasAsAF -}          [ "primarily", "basically" ]
                               `plural`     FaCAL
-                              {- `others` [ "'asAs NF" ] -},
+                           {- `others`  [ "'asAs NF" ] -},
 
     -- ;; >asAsiy~_1
     -- >sAsy   >asAsiy~        Nall    basic;fundamental     [[>asAsiy~/ADJ]]
     -- AsAsy   >asAsiy~        Nall    basic;fundamental     [[>asAsiy~/ADJ]]
 
-    FaCAL |< Iy               `adj`        {- OasAsiy~ -}       [ "basic", "fundamental" ],
+    FaCAL |< Iy               `adj`     {- OasAsiy~ -}         [ "basic", "fundamental" ],
 
     -- ;; >asiysap_1
     -- >sys    >asiys  Napdu   infrastructure
@@ -8313,43 +8312,43 @@ lexicon = listing "Lexicon's properties"
     -- >sA}s   >asA}is Ndip    infrastructures
     -- AsA}s   >asA}is Ndip    infrastructures
 
-    FaCIL |< aT               `noun`       {- Oasiysap -}       [ "infrastructure", "infrastructures" ],
+    FaCIL |< aT               `noun`    {- Oasiysap -}         [ "infrastructure", "infrastructures" ],
 
     -- ;; ta>osiys_1
     -- t>sys   ta>osiys        NduAt   establishment;creation;installation
     -- tAsys   ta>osiys        NduAt   establishment;creation;installation
 
-    TaFCIL                    `noun`       {- taOosiys -}       [ "establishment", "creation", "installation" ],
+    TaFCIL                    `noun`    {- taOosiys -}         [ "establishment", "creation", "installation" ],
 
     -- ;; ta>osiysAt_1
     -- t>sys   ta>osiys        NAt     facilities;institutions
     -- tAsys   ta>osiys        NAt     facilities;institutions
 
-    TaFCIL |< At              `noun`       {- taOosiysAt -}     [ "facilities", "institutions" ]
+    TaFCIL |< At              `noun`    {- taOosiysAt -}       [ "facilities", "institutions" ]
                               `plural`     TaFCIL |< At,
 
     -- ;; ta>osiysiy~_1
     -- t>sysy  ta>osiysiy~     Nall    fundamental;founding;constituent     [[ta>osiysiy~/ADJ]]
     -- tAsysy  ta>osiysiy~     Nall    fundamental;founding;constituent     [[ta>osiysiy~/ADJ]]
 
-    TaFCIL |< Iy              `adj`        {- taOosiysiy~ -}    [ "fundamental", "founding", "constituent" ],
+    TaFCIL |< Iy              `adj`     {- taOosiysiy~ -}      [ "fundamental", "founding", "constituent" ],
 
     -- ;; mu&as~is_1
     -- m&ss    mu&as~is        Nall    founding;constituent     [[mu&as~is/ADJ]]
 
-    MuFaCCiL                  `adj`        {- muWas~is -}       [ "founding", "constituent" ],
+    MuFaCCiL                  `adj`     {- muWas~is -}         [ "founding", "constituent" ],
 
     -- ;; mu&as~asap_1
     -- m&ss    mu&as~as        Napdu   institution;organization
     -- m&ss    mu&as~as        NAt     institutions;organizations
 
-    MuFaCCaL |< aT            `noun`       {- muWas~asap -}     [ "institution", "organization", "institutions", "organizations" ]
+    MuFaCCaL |< aT            `noun`    {- muWas~asap -}       [ "institution", "organization", "institutions", "organizations" ]
                               `plural`     MuFaCCaL |< At,
 
     -- ;; mu&as~asiy~_1
     -- m&ssy   mu&as~asiy~     Nall    institutional;organizational     [[mu&as~asiy~/ADJ]]
 
-    MuFaCCaL |< Iy            `adj`        {- muWas~asiy~ -}    [ "institutional", "organizational" ],
+    MuFaCCaL |< Iy            `adj`     {- muWas~asiy~ -}      [ "institutional", "organizational" ],
 
     -- ;; >as~aY_1
     -- >sY     >as~aY  PV_0    console;comfort
@@ -8365,7 +8364,7 @@ lexicon = listing "Lexicon's properties"
     -- &sY     &as~aY  IV_0_Pass_yu    be consoled;be comforted
     -- &sy     &as~ay  IV_Ann_Pass_yu  be consoled;be comforted
 
-    FaCLY                     `verb`       {- Oas~aY -}         [ "console", "comfort", "be consoled", "be comforted" ] ]
+    FaCLY                     `verb`    {- Oas~aY -}           [ "console", "comfort", "be consoled", "be comforted" ] ]
 
  |> "' s t" <| [
 
@@ -8373,13 +8372,13 @@ lexicon = listing "Lexicon's properties"
     -- <stAnp  <isotAnap       N0      Istana
     -- AstAnp  <isotAnap       N0      Istana
 
-    FiCLAn |< aT              `noun`       {- IisotAnap -}      [ "Istana" ],
+    FiCLAn |< aT              `noun`    {- IisotAnap -}        [ "Istana" ],
 
     -- ;; >asiytAt_1
     -- >sytAt  >asiytAt        N       acetate
     -- AsytAt  >asiytAt        N       acetate
 
-    FaCIL |< At               `noun`       {- OasiytAt -}       [ "acetate" ] ]
+    FaCIL |< At               `noun`    {- OasiytAt -}         [ "acetate" ] ]
 
  |> "' s t _d" <| [
 
@@ -8391,22 +8390,22 @@ lexicon = listing "Lexicon's properties"
     -- >sAty*  >asAtiy*        Ndip    professors
     -- AsAty*  >asAtiy*        Ndip    professors
 
-    KuRDAS                    `noun`       {- OusotA* -}        [ "professor", "professors" ]
+    KuRDAS                    `noun`    {- OusotA* -}          [ "professor", "professors" ]
                               `plural`     KaRADiS |< aT
                               `plural`     KaRADIS
-                              {- `others` [ "'asAtiy_d Ndip" ] -},
+                           {- `others`  [ "'asAtiy_d Ndip" ] -},
 
     -- ;; >usotA*iy~_1
     -- >stA*y  >usotA*iy~      Nall    professorial     [[>usotA*iy~/ADJ]]
     -- AstA*y  >usotA*iy~      Nall    professorial     [[>usotA*iy~/ADJ]]
 
-    KuRDAS |< Iy              `adj`        {- OusotA*iy~ -}     [ "professorial" ],
+    KuRDAS |< Iy              `adj`     {- OusotA*iy~ -}       [ "professorial" ],
 
     -- ;; >usotA*iy~ap_1
     -- >stA*y  >usotA*iy~      Nap     professorship     [[>usotA*iy~/NOUN]]
     -- AstA*y  >usotA*iy~      Nap     professorship     [[>usotA*iy~/NOUN]]
 
-    KuRDAS |< Iy |< aT        `noun`       {- OusotA*iy~ap -}   [ "professorship" ] ]
+    KuRDAS |< Iy |< aT        `noun`    {- OusotA*iy~ap -}     [ "professorship" ] ]
 
  |> "' s t d" <| [
 
@@ -8415,7 +8414,7 @@ lexicon = listing "Lexicon's properties"
     -- AstAd   <isotAd N       stadium
     -- stAd    stAd    N       stadium
 
-    KiRDAS                    `noun`       {- IisotAd -}        [ "stadium" ] ]
+    KiRDAS                    `noun`    {- IisotAd -}          [ "stadium" ] ]
 
  |> "' s t k" <| [
 
@@ -8425,9 +8424,9 @@ lexicon = listing "Lexicon's properties"
     -- >sAtk   >asAtik Ndip    elastics;rubber bands
     -- AsAtk   >asAtik Ndip    elastics;rubber bands
 
-    KaRDiS                    `noun`       {- Oasotik -}        [ "elastic", "rubber band", "elastics", "rubber bands" ]
+    KaRDiS                    `noun`    {- Oasotik -}          [ "elastic", "rubber band", "elastics", "rubber bands" ]
                               `plural`     KaRADiS
-                              {- `others` [ "'asAtik Ndip" ] -},
+                           {- `others`  [ "'asAtik Ndip" ] -},
 
     -- ;; >usotiyk_1
     -- >styk   >usotiyk        N       watch band
@@ -8435,15 +8434,15 @@ lexicon = listing "Lexicon's properties"
     -- >sAtyk  >asAtiyk        Ndip    watch bands
     -- AsAtyk  >asAtiyk        Ndip    watch bands
 
-    KuRDIS                    `noun`       {- Ousotiyk -}       [ "watch band", "watch bands" ]
+    KuRDIS                    `noun`    {- Ousotiyk -}         [ "watch band", "watch bands" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'asAtiyk Ndip" ] -},
+                           {- `others`  [ "'asAtiyk Ndip" ] -},
 
     -- ;; >asotiykap_1
     -- >styk   >asotiyk        NapAt   rubber eraser
     -- Astyk   >asotiyk        NapAt   rubber eraser
 
-    KaRDIS |< aT              `noun`       {- Oasotiykap -}     [ "rubber eraser" ] ]
+    KaRDIS |< aT              `noun`    {- Oasotiykap -}       [ "rubber eraser" ] ]
 
  |> "' s t n" <| [
 
@@ -8451,13 +8450,13 @@ lexicon = listing "Lexicon's properties"
     -- <stAnp  <isotAnap       N0      Istana
     -- AstAnp  <isotAnap       N0      Istana
 
-    KiRDAS |< aT              `noun`       {- IisotAnap -}      [ "Istana" ],
+    KiRDAS |< aT              `noun`    {- IisotAnap -}        [ "Istana" ],
 
     -- ;; <isotuwniy~_1
     -- <stwny  <isotuwniy~     Nall    Estonian
     -- Astwny  <isotuwniy~     Nall    Estonian
 
-    KiRDUS |< Iy              `adj`        {- Iisotuwniy~ -}    [ "Estonian" ] ]
+    KiRDUS |< Iy              `adj`     {- Iisotuwniy~ -}      [ "Estonian" ] ]
 
  |> "' s w" <| [
 
@@ -8473,8 +8472,7 @@ lexicon = listing "Lexicon's properties"
     -- >s      >os     IV_0hwnyn_no-Pref-A     nurse;pacify
     -- As      >os     IV_0hwnyn_no-Pref-A     nurse;pacify
 
-    FaCA                      `verb`       {- OasA-u -}         [ "nurse", "pacify" ]
-                              `imperf`     FCuL
+    FaCA                      `verb`    {- OasA-u -}           [ "nurse", "pacify" ]
                               `imperf`     FCU,
 
     -- ;; >as~aY_1
@@ -8491,7 +8489,7 @@ lexicon = listing "Lexicon's properties"
     -- &sY     &as~aY  IV_0_Pass_yu    be consoled;be comforted
     -- &sy     &as~ay  IV_Ann_Pass_yu  be consoled;be comforted
 
-    FaCCY                     `verb`       {- Oas~aY -}         [ "console", "comfort", "be consoled", "be comforted" ],
+    FaCCY                     `verb`    {- Oas~aY -}           [ "console", "comfort", "be consoled", "be comforted" ],
 
     -- ;; |saY_1
     -- \|sY     |saY    PV_0    console;comfort
@@ -8507,7 +8505,7 @@ lexicon = listing "Lexicon's properties"
     -- &AsY    &AsaY   IV_0_Pass_yu    be consoled;be comforted
     -- &Asy    &Asay   IV_Ann_Pass_yu  be consoled;be comforted
 
-    FACY                      `verb`       {- \|saY -}          [ "console", "comfort", "be consoled", "be comforted" ],
+    FACY                      `verb`    {- \|saY -}            [ "console", "comfort", "be consoled", "be comforted" ],
 
     -- ;; |saY_2
     -- \|sY     |saY    PV_0    grieve;afflict
@@ -8523,7 +8521,7 @@ lexicon = listing "Lexicon's properties"
     -- &sY     &osaY   IV_0_Pass_yu    be aggrieved;be afflicted
     -- &sy     &osay   IV_Ann_Pass_yu  be aggrieved;be afflicted
 
-    FACY                      `verb`       {- \|saY -}          [ "grieve", "afflict", "be aggrieved", "be afflicted" ],
+    FACY                      `verb`    {- \|saY -}            [ "grieve", "afflict", "be aggrieved", "be afflicted" ],
 
     -- ;; ta>as~aY_1
     -- t>sY    ta>as~aY        PV_0    be consoled
@@ -8535,7 +8533,7 @@ lexicon = listing "Lexicon's properties"
     -- t>sy    ta>as~ay        IV_Ann  be consoled
     -- t>s     ta>as~  IV_0hwnyn       be consoled
 
-    TaFaCCY                   `verb`       {- taOas~aY -}       [ "be consoled" ],
+    TaFaCCY                   `verb`    {- taOas~aY -}         [ "be consoled" ],
 
     -- ;; ta|saY_1
     -- t|sY    ta|saY  PV_0    console mutually
@@ -8547,7 +8545,7 @@ lexicon = listing "Lexicon's properties"
     -- t|sy    ta|say  IV_Ann  console mutually
     -- t|s     ta|s    IV_0hwnyn       console mutually
 
-    TaFACY                    `verb`       {- ta|saY -}         [ "console mutually" ],
+    TaFACY                    `verb`    {- ta|saY -}           [ "console mutually" ],
 
     -- ;; >asaY_1
     -- >sY     >asaY   N0      affliction;sorrow
@@ -8555,9 +8553,9 @@ lexicon = listing "Lexicon's properties"
     -- >sA     >asA    Nhy     affliction;sorrow
     -- AsA     >asA    Nhy     affliction;sorrow
 
-    FaCY                      `noun`       {- OasaY -}          [ "affliction", "sorrow" ]
+    FaCY                      `noun`    {- OasaY -}            [ "affliction", "sorrow" ]
                               `plural`     FaCA
-                              {- `others` [ "'asA Nhy" ] -},
+                           {- `others`  [ "'asA Nhy" ] -},
 
     -- ;; |siy_1
     -- \|sy     |siy    N0F     afflicted;desolate
@@ -8571,7 +8569,7 @@ lexicon = listing "Lexicon's properties"
     -- \|sy     |siy    NapAt   afflicted;desolate
     -- Asy     |siy    NapAt   afflicted;desolate
 
-    FACI                      `noun`       {- \|siy -}          [ "afflicted", "desolate" ],
+    FACI                      `noun`    {- \|siy -}            [ "afflicted", "desolate" ],
 
     -- ;; >usowap_1
     -- >sw     >usow   Nap     model;example;pattern
@@ -8579,14 +8577,14 @@ lexicon = listing "Lexicon's properties"
     -- <sw     <isow   Nap     model;example;pattern
     -- Asw     <isow   Nap     model;example;pattern
 
-    FuCL |< aT                `noun`       {- Ousowap -}        [ "model", "example", "pattern" ]
+    FuCL |< aT                `noun`    {- Ousowap -}          [ "model", "example", "pattern" ]
                               `plural`     FiCL |< aT,
 
     -- ;; >usowapF_1
     -- >swp    >usowapF        FW-Wa   just like     [[>usowapF/ADV]]
     -- Aswp    >usowapF        FW-Wa   just like     [[>usowapF/ADV]]
 
-    FuCL |< aT |< aN          `noun`       {- OusowapF -}       [ "just like" ],
+    FuCL |< aT |< aN          `noun`    {- OusowapF -}         [ "just like" ],
 
     -- ;; ma>osAp_1
     -- m>sA    ma>osA  Napdu   tragedy
@@ -8594,21 +8592,21 @@ lexicon = listing "Lexicon's properties"
     -- m|sy    ma|siy  N0_Nh   tragedies
     -- m|s     ma|s    NK      tragedies
 
-    MaFCY |< aT               `noun`       {- maOosAp -}        [ "tragedy", "tragedies" ]
+    MaFCY |< aT               `noun`    {- maOosAp -}          [ "tragedy", "tragedies" ]
                               `plural`     MaFACI
-                              {- `others` [ "ma'Asiy N0_Nh" ] -},
+                           {- `others`  [ "ma'Asiy N0_Nh" ] -},
 
     -- ;; ma>osawiy~_1
     -- m>swy   ma>osawiy~      Nall    tragic     [[ma>osawiy~/ADJ]]
     -- m>sAwy  ma>osAwiy~      Nall    tragic     [[ma>osAwiy~/ADJ]]
 
-    MaFCY |< Iy               `adj`        {- maOosawiy~ -}     [ "tragic" ],
+    MaFCY |< Iy               `adj`     {- maOosawiy~ -}       [ "tragic" ],
 
     -- ;; mu&AsAp_1
     -- m&AsA   mu&AsA  Napdu   consolation;charity
     -- m&Asw   mu&Asaw NAt     consolation;charity
 
-    MuFACY |< aT              `noun`       {- muWAsAp -}        [ "consolation", "charity" ]
+    MuFACY |< aT              `noun`    {- muWAsAp -}          [ "consolation", "charity" ]
                               `plural`     MuFACaL |< At,
 
     -- ;; mu&Asiy_1
@@ -8618,7 +8616,7 @@ lexicon = listing "Lexicon's properties"
     -- m&As    mu&As   Nuwn_Niyn       comforting;consoling
     -- m&Asy   mu&Asiy NapAt   comforting;consoling
 
-    MuFACI                    `noun`       {- muWAsiy -}        [ "comforting", "consoling" ],
+    MuFACI                    `noun`    {- muWAsiy -}          [ "comforting", "consoling" ],
 
     -- ;; mu&osiy_1
     -- m&sy    mu&osiy N0F_Nh  saddening;discomforting
@@ -8627,13 +8625,13 @@ lexicon = listing "Lexicon's properties"
     -- m&s     mu&os   Nuwn_Niyn       saddening;discomforting
     -- m&sy    mu&osiy NapAt   saddening;discomforting
 
-    MuFCI                     `noun`       {- muWosiy -}        [ "saddening", "discomforting" ],
+    MuFCI                     `noun`    {- muWosiy -}          [ "saddening", "discomforting" ],
 
     -- ;; >asowAn_1
     -- >swAn   >asowAn Nprop   Aswan
     -- AswAn   >asowAn Nprop   Aswan
 
-    FaCLAn                    `noun`       {- OasowAn -}        [ "Aswan" ] ]
+    FaCLAn                    `noun`    {- OasowAn -}          [ "Aswan" ] ]
 
  |> "' s w r" <| [
 
@@ -8647,10 +8645,10 @@ lexicon = listing "Lexicon's properties"
     -- >sAwr   >asAwir Nap     bracelets
     -- AsAwr   >asAwir Nap     bracelets
 
-    KiRDAS                    `noun`       {- IisowAr -}        [ "bracelet", "bracelets" ]
+    KiRDAS                    `noun`    {- IisowAr -}          [ "bracelet", "bracelets" ]
                               `plural`     KuRDAS
                               `plural`     KaRADiS |< aT
-                              {- `others` [ "'uswAr Ndu", "'asAwir Ndip" ] -} ]
+                           {- `others`  [ "'uswAr Ndu", "'asAwir Ndip" ] -} ]
 
  |> "' s y" <| [
 
@@ -8666,7 +8664,7 @@ lexicon = listing "Lexicon's properties"
     -- >s      >osa    IV_0hwnyn_no-Pref-A     be sad;grieve
     -- As      >osa    IV_0hwnyn_no-Pref-A     be sad;grieve
 
-    FaCiL                     `verb`       {- Oasiy-a -}        [ "be sad", "grieve" ]
+    FaCiL                     `verb`    {- Oasiy-a -}          [ "be sad", "grieve" ]
                               `imperf`     FCY,
 
     -- ;; |siy_1
@@ -8681,19 +8679,19 @@ lexicon = listing "Lexicon's properties"
     -- \|sy     |siy    NapAt   afflicted;desolate
     -- Asy     |siy    NapAt   afflicted;desolate
 
-    FACiL                     `noun`       {- \|siy -}          [ "afflicted", "desolate" ],
+    FACiL                     `noun`    {- \|siy -}            [ "afflicted", "desolate" ],
 
     -- ;; >asoyAn_1
     -- >syAn   >asoyAn N/ap    afflicted;desolate;sad
     -- AsyAn   >asoyAn N/ap    afflicted;desolate;sad
 
-    FaCLAn                    `noun`       {- OasoyAn -}        [ "afflicted", "desolate", "sad" ],
+    FaCLAn                    `noun`    {- OasoyAn -}          [ "afflicted", "desolate", "sad" ],
 
     -- ;; ta>osiyap_1
     -- t>sy    ta>osiy NapAt   consolation;comfort
     -- tAsy    ta>osiy NapAt   consolation;comfort
 
-    TaFCiL |< aT              `noun`       {- taOosiyap -}      [ "consolation", "comfort" ],
+    TaFCiL |< aT              `noun`    {- taOosiyap -}        [ "consolation", "comfort" ],
 
     -- ;; mu&Asiy_1
     -- m&Asy   mu&Asiy N0F_Nh  comforting;consoling
@@ -8702,7 +8700,7 @@ lexicon = listing "Lexicon's properties"
     -- m&As    mu&As   Nuwn_Niyn       comforting;consoling
     -- m&Asy   mu&Asiy NapAt   comforting;consoling
 
-    MuFACiL                   `noun`       {- muWAsiy -}        [ "comforting", "consoling" ],
+    MuFACiL                   `noun`    {- muWAsiy -}          [ "comforting", "consoling" ],
 
     -- ;; mu&osiy_1
     -- m&sy    mu&osiy N0F_Nh  saddening;discomforting
@@ -8711,7 +8709,7 @@ lexicon = listing "Lexicon's properties"
     -- m&s     mu&os   Nuwn_Niyn       saddening;discomforting
     -- m&sy    mu&osiy NapAt   saddening;discomforting
 
-    MuFCiL                    `noun`       {- muWosiy -}        [ "saddening", "discomforting" ] ]
+    MuFCiL                    `noun`    {- muWosiy -}          [ "saddening", "discomforting" ] ]
 
  |> "' s y .t" <| [
 
@@ -8719,7 +8717,7 @@ lexicon = listing "Lexicon's properties"
     -- >sywT   >asoyuwT        Nprop   Asyut
     -- AsywT   >asoyuwT        Nprop   Asyut
 
-    KaRDUS                    `noun`       {- OasoyuwT -}       [ "Asyut" ] ]
+    KaRDUS                    `noun`    {- OasoyuwT -}         [ "Asyut" ] ]
 
  |> "' s y n" <| [
 
@@ -8727,7 +8725,7 @@ lexicon = listing "Lexicon's properties"
     -- >syAn   >asoyAn N/ap    afflicted;desolate;sad
     -- AsyAn   >asoyAn N/ap    afflicted;desolate;sad
 
-    KaRDAS                    `noun`       {- OasoyAn -}        [ "afflicted", "desolate", "sad" ] ]
+    KaRDAS                    `noun`    {- OasoyAn -}          [ "afflicted", "desolate", "sad" ] ]
 
  |> "' t .g y" <| [
 
@@ -8735,7 +8733,7 @@ lexicon = listing "Lexicon's properties"
     -- >tAgy   >atAgiy Nprop   Atagi
     -- AtAgy   >atAgiy Nprop   Atagi
 
-    KaRADiS                   `noun`       {- OatAgiy -}        [ "Atagi" ] ]
+    KaRADiS                   `noun`    {- OatAgiy -}          [ "Atagi" ] ]
 
  |> "' t b" <| [
 
@@ -8743,7 +8741,7 @@ lexicon = listing "Lexicon's properties"
     -- >wty    >uwtiy  Nprop   Ottey
     -- Awty    >uwtiy  Nprop   Ottey
 
-    FUCI                      `noun`       {- Ouwtiy -}         [ "Ottey" ] ]
+    FUCI                      `noun`    {- Ouwtiy -}           [ "Ottey" ] ]
 
  |> "' t m" <| [
 
@@ -8751,19 +8749,19 @@ lexicon = listing "Lexicon's properties"
     -- m>tm    ma>otam Ndu     funeral
     -- m|tm    ma|tim  Ndip    funerals
 
-    MaFCaL                    `noun`       {- maOotam -}        [ "funeral", "funerals" ]
+    MaFCaL                    `noun`    {- maOotam -}          [ "funeral", "funerals" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma'Atim Ndip" ] -},
+                           {- `others`  [ "ma'Atim Ndip" ] -},
 
     -- ;; ma>otamiy~_1
     -- m>tmy   ma>otamiy~      Nall    funerary     [[ma>otamiy~/ADJ]]
 
-    MaFCaL |< Iy              `adj`        {- maOotamiy~ -}     [ "funerary" ],
+    MaFCaL |< Iy              `adj`     {- maOotamiy~ -}       [ "funerary" ],
 
     -- ;; ma>otamap_1
     -- m>tm    ma>otam NapAt   mourners
 
-    MaFCaL |< aT              `noun`       {- maOotamap -}      [ "mourners" ],
+    MaFCaL |< aT              `noun`    {- maOotamap -}        [ "mourners" ],
 
     -- ;; {i}otam~_1
     -- <}tm    {i}otam~        PV_V    emulate;follow
@@ -8775,7 +8773,7 @@ lexicon = listing "Lexicon's properties"
     -- >tmm    >otamim IV_C    emulate;follow
     -- Atmm    >otamim IV_C    emulate;follow
 
-    IFCaLL                    `verb`       {- Ai}otam~ -}       [ "emulate", "follow" ] ]
+    IFCaLL                    `verb`    {- Ai}otam~ -}         [ "emulate", "follow" ] ]
 
  |> "' t n" <| [
 
@@ -8785,21 +8783,21 @@ lexicon = listing "Lexicon's properties"
     -- >tn     >utun   N       she-asses
     -- Atn     >utun   N       she-asses
 
-    FaCAL                     `noun`       {- OatAn -}          [ "she-ass", "she-asses" ]
+    FaCAL                     `noun`    {- OatAn -}            [ "she-ass", "she-asses" ]
                               `plural`     FuCuL
-                              {- `others` [ "'utun N" ] -},
+                           {- `others`  [ "'utun N" ] -},
 
     -- ;; <itoniy~_1
     -- <tny    <itoniy~        N-ap    ethnic     [[<itoniy~/ADJ]]
     -- Atny    <itoniy~        N-ap    ethnic     [[<itoniy~/ADJ]]
 
-    FiCL |< Iy                `adj`        {- Iitoniy~ -}       [ "ethnic" ],
+    FiCL |< Iy                `adj`     {- Iitoniy~ -}         [ "ethnic" ],
 
     -- ;; <itoniy~ap_1
     -- <tny    <itoniy~        NapAt   ethnicity;ethnic background
     -- Atny    <itoniy~        NapAt   ethnicity;ethnic background
 
-    FiCL |< Iy |< aT          `noun`       {- Iitoniy~ap -}     [ "ethnicity", "ethnic background" ],
+    FiCL |< Iy |< aT          `noun`    {- Iitoniy~ap -}       [ "ethnicity", "ethnic background" ],
 
     -- ;; >at~uwn_1
     -- >twn    >at~uwn Ndu     furnace;oven
@@ -8807,9 +8805,9 @@ lexicon = listing "Lexicon's properties"
     -- >tAtyn  >atAtiyn        Ndip    furnaces;ovens
     -- AtAtyn  >atAtiyn        Ndip    furnaces;ovens
 
-    FaCCUL                    `noun`       {- Oat~uwn -}        [ "furnace", "oven", "furnaces", "ovens" ]
+    FaCCUL                    `noun`    {- Oat~uwn -}          [ "furnace", "oven", "furnaces", "ovens" ]
                               `plural`     FaCACIL
-                              {- `others` [ "'atAtiyn Ndip" ] -} ]
+                           {- `others`  [ "'atAtiyn Ndip" ] -} ]
 
  |> "' t r" <| [
 
@@ -8817,19 +8815,19 @@ lexicon = listing "Lexicon's properties"
     -- >wtAr   >uwtAr  Nprop   Uttar
     -- AwtAr   >uwtAr  Nprop   Uttar
 
-    FUCAL                     `noun`       {- OuwtAr -}         [ "Uttar" ],
+    FUCAL                     `noun`    {- OuwtAr -}           [ "Uttar" ],
 
     -- ;; <iytAr_1
     -- AytAr   <iytAr  Nprop   ITAR
     -- <ytAr   <iytAr  Nprop   ITAR
 
-    FICAL                     `noun`       {- IiytAr -}         [ "ITAR" ],
+    FICAL                     `noun`    {- IiytAr -}           [ "ITAR" ],
 
     -- ;; <iytAr_1
     -- AytAr   <iytAr  Nprop   ITAR
     -- <ytAr   <iytAr  Nprop   ITAR
 
-    HICAL                     `noun`       {- IiytAr -}         [ "ITAR" ] ]
+    HICAL                     `noun`    {- IiytAr -}           [ "ITAR" ] ]
 
  |> "' t w" <| [
 
@@ -8841,7 +8839,7 @@ lexicon = listing "Lexicon's properties"
     -- >tAwA   >atAwA  Nhy     taxes;payments
     -- AtAwA   >atAwA  Nhy     taxes;payments
 
-    FiCAL |< aT               `noun`       {- IitAwap -}        [ "tax", "tribute", "taxes", "payments" ] ]
+    FiCAL |< aT               `noun`    {- IitAwap -}          [ "tax", "tribute", "taxes", "payments" ] ]
 
  |> "' t y" <| [
 
@@ -8859,8 +8857,7 @@ lexicon = listing "Lexicon's properties"
     -- >t      >ot     IV_0hwnyn_no-Pref-A     arrive;come;reach
     -- At      >ot     IV_0hwnyn_no-Pref-A     arrive;come;reach
 
-    FaCY                      `verb`       {- OataY-i -}        [ "arrive", "come", "reach" ]
-                              `imperf`     FCiL
+    FaCY                      `verb`    {- OataY-i -}          [ "arrive", "come", "reach" ]
                               `imperf`     FCI,
 
     -- ;; |taY_1
@@ -8877,7 +8874,7 @@ lexicon = listing "Lexicon's properties"
     -- &AtY    &AtaY   IV_0_Pass_yu    be given;be offered
     -- &Aty    &Atay   IV_Ann_Pass_yu  be given;be offered
 
-    FACY                      `verb`       {- \|taY -}          [ "give", "offer", "be given", "be offered" ],
+    FACY                      `verb`    {- \|taY -}            [ "give", "offer", "be given", "be offered" ],
 
     -- ;; |taY_2
     -- \|tY     |taY    PV_0    give;offer
@@ -8893,7 +8890,7 @@ lexicon = listing "Lexicon's properties"
     -- &tY     &otaY   IV_0_Pass_yu    be given;be offered
     -- &ty     &otay   IV_Ann_Pass_yu  be given;be offered
 
-    FACY                      `verb`       {- \|taY -}          [ "give", "offer", "be given", "be offered" ],
+    FACY                      `verb`    {- \|taY -}            [ "give", "offer", "be given", "be offered" ],
 
     -- ;; ta>at~aY_1
     -- t>tY    ta>at~aY        PV_0    happen;result
@@ -8905,7 +8902,7 @@ lexicon = listing "Lexicon's properties"
     -- t>ty    ta>at~ay        IV_Ann  happen;result
     -- t>t     ta>at~  IV_0hwnyn       happen;result
 
-    TaFaCCY                   `verb`       {- taOat~aY -}       [ "happen", "result" ],
+    TaFaCCY                   `verb`    {- taOat~aY -}         [ "happen", "result" ],
 
     -- ;; {isota>otaY_1
     -- <st>tY  {isota>otaY     PV_0    ask to come;induce to come
@@ -8920,13 +8917,13 @@ lexicon = listing "Lexicon's properties"
     -- st>t    sota>ot IV_0hwnyn       ask to come;induce to come
     -- st>tY   sota>otaY       IV_0_Pass_yu    be asked to come;be induced to come
 
-    IstaFCY                   `verb`       {- AisotaOotaY -}    [ "ask to come", "induce to come", "be asked to come", "be induced to come" ],
+    IstaFCY                   `verb`    {- AisotaOotaY -}      [ "ask to come", "induce to come", "be asked to come", "be induced to come" ],
 
     -- ;; <itoyAn_1
     -- <tyAn   <itoyAn N       arrival;performance
     -- AtyAn   <itoyAn N       arrival;performance
 
-    FiCLAn                    `noun`       {- IitoyAn -}        [ "arrival", "performance" ],
+    FiCLAn                    `noun`    {- IitoyAn -}          [ "arrival", "performance" ],
 
     -- ;; |tiy_1
     -- \|ty     |tiy    N0F     coming;following
@@ -8940,7 +8937,7 @@ lexicon = listing "Lexicon's properties"
     -- \|ty     |tiy    NapAt   coming;following
     -- Aty     |tiy    NapAt   coming;following
 
-    FACiL                     `noun`       {- \|tiy -}          [ "coming", "following" ],
+    FACiL                     `noun`    {- \|tiy -}            [ "coming", "following" ],
 
     -- ;; ma>otaY_1
     -- m>tY    ma>otaY N0      place of origin;source
@@ -8949,11 +8946,11 @@ lexicon = listing "Lexicon's properties"
     -- m|ty    ma|tiy  N0_Nh   places of origin;sources
     -- m|t     ma|t    NK      places of origin;sources
 
-    MaFCY                     `noun`       {- maOotaY -}        [ "place of origin", "source", "places of origin", "sources" ]
+    MaFCY                     `noun`    {- maOotaY -}          [ "place of origin", "source", "places of origin", "sources" ]
                               `plural`     MaFACiL
                               `plural`     MaFACI
                               `plural`     MaFCaL
-                              {- `others` [ "ma'Atiy N0_Nh", "ma'tay NAn_Nayn" ] -},
+                           {- `others`  [ "ma'Atiy N0_Nh", "ma'tay NAn_Nayn" ] -},
 
     -- ;; mu&Atiy_1
     -- m&Aty   mu&Atiy N0F_Nh  favorable;suitable
@@ -8962,7 +8959,7 @@ lexicon = listing "Lexicon's properties"
     -- m&At    mu&At   Nuwn_Niyn       favorable;suitable
     -- m&Aty   mu&Atiy NapAt   favorable;suitable
 
-    MuFACiL                   `noun`       {- muWAtiy -}        [ "favorable", "suitable" ],
+    MuFACiL                   `noun`    {- muWAtiy -}          [ "favorable", "suitable" ],
 
     -- ;; muta>at~iy_1
     -- mt>ty   muta>at~iy      N0F_Nh  derived;proceeding
@@ -8971,13 +8968,13 @@ lexicon = listing "Lexicon's properties"
     -- mt>t    muta>at~        Nuwn_Niyn       derived;proceeding
     -- mt>ty   muta>at~iy      NapAt   derived;proceeding
 
-    MutaFaCCiL                `noun`       {- mutaOat~iy -}     [ "derived", "proceeding" ],
+    MutaFaCCiL                `noun`    {- mutaOat~iy -}       [ "derived", "proceeding" ],
 
     -- ;; >uwtiy_1
     -- >wty    >uwtiy  Nprop   Ottey
     -- Awty    >uwtiy  Nprop   Ottey
 
-    HUCiL                     `noun`       {- Ouwtiy -}         [ "Ottey" ] ]
+    HUCiL                     `noun`    {- Ouwtiy -}           [ "Ottey" ] ]
 
  |> "' w '" <| [
 
@@ -8991,7 +8988,7 @@ lexicon = listing "Lexicon's properties"
     -- <wA'    <iwA'   NAt     sheltering;harboring;lodging
     -- AwA'    <iwA'   NAt     sheltering;harboring;lodging
 
-    FiCAL                     `noun`       {- IiwA' -}          [ "sheltering", "harboring", "lodging" ],
+    FiCAL                     `noun`    {- IiwA' -}            [ "sheltering", "harboring", "lodging" ],
 
     -- ;; <iywA'_2
     -- <ywA'   <iywA'  N0_Nh   accommodation;housing
@@ -9003,7 +9000,7 @@ lexicon = listing "Lexicon's properties"
     -- <ywA'   <iywA'  NAt     accommodations;housing
     -- AywA'   <iywA'  NAt     accommodations;housing
 
-    FICAL                     `noun`       {- IiywA' -}         [ "accommodation", "housing", "accommodations" ],
+    FICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing", "accommodations" ],
 
     -- ;; <iywA'_2
     -- <ywA'   <iywA'  N0_Nh   accommodation;housing
@@ -9015,7 +9012,7 @@ lexicon = listing "Lexicon's properties"
     -- <ywA'   <iywA'  NAt     accommodations;housing
     -- AywA'   <iywA'  NAt     accommodations;housing
 
-    HICAL                     `noun`       {- IiywA' -}         [ "accommodation", "housing", "accommodations" ] ]
+    HICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing", "accommodations" ] ]
 
  |> "' w ' l" <| [
 
@@ -9023,13 +9020,13 @@ lexicon = listing "Lexicon's properties"
     -- >wA}l   >awA}il Ndip    early;beginning
     -- AwA}l   >awA}il Ndip    early;beginning
 
-    KaRADiS                   `noun`       {- OawA}il -}        [ "early", "beginning" ],
+    KaRADiS                   `noun`    {- OawA}il -}          [ "early", "beginning" ],
 
     -- ;; >awA}il_2
     -- >wA}l   >awA}il Ndip    ancients
     -- AwA}l   >awA}il Ndip    ancients
 
-    KaRADiS                   `noun`       {- OawA}il -}        [ "ancients" ] ]
+    KaRADiS                   `noun`    {- OawA}il -}          [ "ancients" ] ]
 
  |> "' w .d" <| [
 
@@ -9039,9 +9036,9 @@ lexicon = listing "Lexicon's properties"
     -- >wD     >uwaD   N       rooms
     -- AwD     >uwaD   N       rooms
 
-    FUL |< aT                 `noun`       {- OuwDap -}         [ "room", "rooms" ]
+    FUL |< aT                 `noun`    {- OuwDap -}           [ "room", "rooms" ]
                               `plural`     FuCaL
-                              {- `others` [ "'uwa.d N" ] -},
+                           {- `others`  [ "'uwa.d N" ] -},
 
     -- ;; >uwDap_1
     -- >wD     >uwD    Napdu   room
@@ -9049,9 +9046,9 @@ lexicon = listing "Lexicon's properties"
     -- >wD     >uwaD   N       rooms
     -- AwD     >uwaD   N       rooms
 
-    FuCL |< aT                `noun`       {- OuwDap -}         [ "room", "rooms" ]
+    FuCL |< aT                `noun`    {- OuwDap -}           [ "room", "rooms" ]
                               `plural`     FuCaL
-                              {- `others` [ "'uwa.d N" ] -} ]
+                           {- `others`  [ "'uwa.d N" ] -} ]
 
  |> "' w .g r" <| [
 
@@ -9059,7 +9056,7 @@ lexicon = listing "Lexicon's properties"
     -- >wgwr   >uwguwr Nprop   Ugur
     -- Awgwr   >uwguwr Nprop   Ugur
 
-    KuRDUS                    `noun`       {- Ouwguwr -}        [ "Ugur" ] ]
+    KuRDUS                    `noun`    {- Ouwguwr -}          [ "Ugur" ] ]
 
  |> "' w ^g" <| [
 
@@ -9067,7 +9064,7 @@ lexicon = listing "Lexicon's properties"
     -- >wj     >awoj   N       climax;maximum;height;summit
     -- Awj     >awoj   N       climax;maximum;height;summit
 
-    FaCL                      `noun`       {- Oawoj -}          [ "climax", "maximum", "height", "summit" ] ]
+    FaCL                      `noun`    {- Oawoj -}            [ "climax", "maximum", "height", "summit" ] ]
 
  |> "' w ^g n" <| [
 
@@ -9075,7 +9072,7 @@ lexicon = listing "Lexicon's properties"
     -- >wjyn   >uwjiyn Nprop   Eugene
     -- Awjyn   >uwjiyn Nprop   Eugene
 
-    KuRDIS                    `noun`       {- Ouwjiyn -}        [ "Eugene" ] ]
+    KuRDIS                    `noun`    {- Ouwjiyn -}          [ "Eugene" ] ]
 
  |> "' w ^s" <| [
 
@@ -9087,9 +9084,9 @@ lexicon = listing "Lexicon's properties"
     -- >wA$    >awA$   NK      prayers;orations
     -- AwA$    >awA$   NK      prayers;orations
 
-    FuCL |< Iy |< aT          `noun`       {- Ouw$iy~ap -}      [ "prayer", "oration", "prayers", "orations" ]
+    FuCL |< Iy |< aT          `noun`    {- Ouw$iy~ap -}        [ "prayer", "oration", "prayers", "orations" ]
                               `plural`     FaCAL
-                              {- `others` [ "'awA^s NK" ] -},
+                           {- `others`  [ "'awA^s NK" ] -},
 
     -- ;; >uw$iy~ap_1
     -- >w$y    >uw$iy~ Napdu   prayer;oration     [[>uw$iy~/NOUN]]
@@ -9099,9 +9096,9 @@ lexicon = listing "Lexicon's properties"
     -- >wA$    >awA$   NK      prayers;orations
     -- AwA$    >awA$   NK      prayers;orations
 
-    FUL |< Iy |< aT           `noun`       {- Ouw$iy~ap -}      [ "prayer", "oration", "prayers", "orations" ]
+    FUL |< Iy |< aT           `noun`    {- Ouw$iy~ap -}        [ "prayer", "oration", "prayers", "orations" ]
                               `plural`     FaCAL
-                              {- `others` [ "'awA^s NK" ] -} ]
+                           {- `others`  [ "'awA^s NK" ] -} ]
 
  |> "' w _h y" <| [
 
@@ -9111,7 +9108,7 @@ lexicon = listing "Lexicon's properties"
     -- >wAx    >awAx   NK      ties;bonds
     -- AwAx    >awAx   NK      ties;bonds
 
-    KaRADiS                   `noun`       {- OawAxiy -}        [ "ties", "bonds" ] ]
+    KaRADiS                   `noun`    {- OawAxiy -}          [ "ties", "bonds" ] ]
 
  |> "' w b" <| [
 
@@ -9123,9 +9120,8 @@ lexicon = listing "Lexicon's properties"
     -- &wb     &uwb    IV_V    return
     -- &b      &ub     IV_C    return
 
-    FAL                       `verb`       {- \|b-u -}          [ "return" ]
+    FAL                       `verb`    {- \|b-u -}            [ "return" ]
                               `imperf`     FUL
-                              `imperf`     FuCL
                               `pfirst`     FuL
                               `ithird`     FuL,
 
@@ -9135,33 +9131,33 @@ lexicon = listing "Lexicon's properties"
     -- &wb     &aw~ib  IV_yu   repeat
     -- &wb     &aw~ab  IV_Pass_yu      be repeatd
 
-    FaCCaL                    `verb`       {- Oaw~ab -}         [ "repeat", "be repeatd" ],
+    FaCCaL                    `verb`    {- Oaw~ab -}           [ "repeat", "be repeatd" ],
 
     -- ;; >awob_1
     -- >wb     >awob   N       return;aspect
     -- Awb     >awob   N       return;aspect
 
-    FaCL                      `noun`       {- Oawob -}          [ "return", "aspect" ],
+    FaCL                      `noun`    {- Oawob -}            [ "return", "aspect" ],
 
     -- ;; >awobap_1
     -- >wb     >awob   Nap     return
     -- Awb     >awob   Nap     return
 
-    FaCL |< aT                `noun`       {- Oawobap -}        [ "return" ],
+    FaCL |< aT                `noun`    {- Oawobap -}          [ "return" ],
 
     -- ;; >aw~Ab_1
     -- >wAb    >aw~Ab  Nall    penitent
     -- AwAb    >aw~Ab  Nall    penitent
 
-    FaCCAL                    `noun`       {- Oaw~Ab -}         [ "penitent" ],
+    FaCCAL                    `noun`    {- Oaw~Ab -}           [ "penitent" ],
 
     -- ;; ma|b_1
     -- m|b     ma|b    N       resort;resting place
     -- m|wb    ma|wib  Ndip    resorts;resting places
 
-    MaFAL                     `noun`       {- ma|b -}           [ "resort", "resting place", "resorts", "resting places" ]
+    MaFAL                     `noun`    {- ma|b -}             [ "resort", "resting place", "resorts", "resting places" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma'Awib Ndip" ] -} ]
+                           {- `others`  [ "ma'Awib Ndip" ] -} ]
 
  |> "' w d" <| [
 
@@ -9173,9 +9169,8 @@ lexicon = listing "Lexicon's properties"
     -- &wd     &uwd    IV_V    burden;make difficult
     -- &d      &ud     IV_C    burden;make difficult
 
-    FAL                       `verb`       {- \|d-u -}          [ "burden", "make difficult" ]
+    FAL                       `verb`    {- \|d-u -}            [ "burden", "make difficult" ]
                               `imperf`     FUL
-                              `imperf`     FuCL
                               `pfirst`     FuL
                               `ithird`     FuL,
 
@@ -9185,7 +9180,7 @@ lexicon = listing "Lexicon's properties"
     -- >wd     >owad   IV_no-Pref-A    bend;be bent
     -- Awd     >owad   IV_no-Pref-A    bend;be bent
 
-    FaCiL                     `verb`       {- Oawid-a -}        [ "bend", "be bent" ]
+    FaCiL                     `verb`    {- Oawid-a -}          [ "bend", "be bent" ]
                               `imperf`     FCaL,
 
     -- ;; >aw~ad_1
@@ -9194,13 +9189,13 @@ lexicon = listing "Lexicon's properties"
     -- &wd     &aw~id  IV_yu   bend;fold
     -- &wd     &aw~ad  IV_Pass_yu      be bent;be folded
 
-    FaCCaL                    `verb`       {- Oaw~ad -}         [ "bend", "fold", "be bent", "be folded" ],
+    FaCCaL                    `verb`    {- Oaw~ad -}           [ "bend", "fold", "be bent", "be folded" ],
 
     -- ;; ta>aw~ad_1
     -- t>wd    ta>aw~ad        PV_intr be bent;be folded
     -- t>wd    ta>aw~ad        IV_intr be bent;be folded
 
-    TaFaCCaL                  `verb`       {- taOaw~ad -}       [ "be bent", "be folded" ],
+    TaFaCCaL                  `verb`    {- taOaw~ad -}         [ "be bent", "be folded" ],
 
     -- ;; >awodap_1
     -- >wd     >awod   Nap     burden;load
@@ -9208,15 +9203,15 @@ lexicon = listing "Lexicon's properties"
     -- <wAd    <iwAd   N       burdens;loads
     -- AwAd    <iwAd   N       burdens;loads
 
-    FaCL |< aT                `noun`       {- Oawodap -}        [ "burden", "load", "burdens", "loads" ]
+    FaCL |< aT                `noun`    {- Oawodap -}          [ "burden", "load", "burdens", "loads" ]
                               `plural`     FiCAL
-                              {- `others` [ "'iwAd N" ] -},
+                           {- `others`  [ "'iwAd N" ] -},
 
     -- ;; >awad_1
     -- >wd     >awad   N       subsistence
     -- Awd     >awad   N       subsistence
 
-    FaCaL                     `noun`       {- Oawad -}          [ "subsistence" ] ]
+    FaCaL                     `noun`    {- Oawad -}            [ "subsistence" ] ]
 
  |> "' w d b" <| [
 
@@ -9224,7 +9219,7 @@ lexicon = listing "Lexicon's properties"
     -- >wdyb   >uwdiyb Nprop   Oedipus
     -- Awdyb   >uwdiyb Nprop   Oedipus
 
-    KuRDIS                    `noun`       {- Ouwdiyb -}        [ "Oedipus" ] ]
+    KuRDIS                    `noun`    {- Ouwdiyb -}          [ "Oedipus" ] ]
 
  |> "' w d m" <| [
 
@@ -9232,7 +9227,7 @@ lexicon = listing "Lexicon's properties"
     -- >wAdm   >awAdim Ndip    humans
     -- AwAdm   >awAdim Ndip    humans
 
-    KaRADiS                   `noun`       {- OawAdim -}        [ "humans" ] ]
+    KaRADiS                   `noun`    {- OawAdim -}          [ "humans" ] ]
 
  |> "' w d s" <| [
 
@@ -9240,7 +9235,7 @@ lexicon = listing "Lexicon's properties"
     -- >wdys   >uwdiys Nap     Odyssey
     -- Awdys   >uwdiys Nap     Odyssey
 
-    KuRDIS |< aT              `noun`       {- Ouwdiysap -}      [ "Odyssey" ] ]
+    KuRDIS |< aT              `noun`    {- Ouwdiysap -}        [ "Odyssey" ] ]
 
  |> "' w f" <| [
 
@@ -9248,23 +9243,23 @@ lexicon = listing "Lexicon's properties"
     -- \|f      |f      NapAt   vice;plague
     -- Af      |f      NapAt   vice;plague
 
-    FAL |< aT                 `noun`       {- \|fap -}          [ "vice", "plague" ],
+    FAL |< aT                 `noun`    {- \|fap -}            [ "vice", "plague" ],
 
     -- ;; ma&uwf_1
     -- m&wf    ma&uwf  Nall    damaged;epidemical
 
-    MaFUL                     `noun`       {- maWuwf -}         [ "damaged", "epidemical" ],
+    MaFUL                     `noun`    {- maWuwf -}           [ "damaged", "epidemical" ],
 
     -- ;; ma>uwf_1
     -- m>wf    ma>uwf  Nall    damaged;epidemical
 
-    MaFUL                     `noun`       {- maOuwf -}         [ "damaged", "epidemical" ],
+    MaFUL                     `noun`    {- maOuwf -}           [ "damaged", "epidemical" ],
 
     -- ;; >uwf_1
     -- >wf     >uwf    FW      Of     [[>uwf/NOUN_PROP]]
     -- Awf     >uwf    FW      Of     [[>uwf/NOUN_PROP]]
 
-    FuCL                      `noun`       {- Ouwf -}           [ "Of" ] ]
+    FuCL                      `noun`    {- Ouwf -}             [ "Of" ] ]
 
  |> "' w h" <| [
 
@@ -9276,9 +9271,8 @@ lexicon = listing "Lexicon's properties"
     -- &wh     &uwh    IV_V    moan;sigh
     -- &h      &uh     IV_C    moan;sigh
 
-    FAL                       `verb`       {- \|h-u -}          [ "moan", "sigh" ]
+    FAL                       `verb`    {- \|h-u -}            [ "moan", "sigh" ]
                               `imperf`     FUL
-                              `imperf`     FuCL
                               `pfirst`     FuL
                               `ithird`     FuL,
 
@@ -9288,25 +9282,25 @@ lexicon = listing "Lexicon's properties"
     -- &wh     &aw~ih  IV_yu   moan;sigh
     -- &wh     &aw~ah  IV_Pass_yu      be moaned;be sighed
 
-    FaCCaL                    `verb`       {- Oaw~ah -}         [ "moan", "sigh", "be moaned", "be sighed" ],
+    FaCCaL                    `verb`    {- Oaw~ah -}           [ "moan", "sigh", "be moaned", "be sighed" ],
 
     -- ;; ta>aw~ah_1
     -- t>wh    ta>aw~ah        PV      exclaim;sigh
     -- t>wh    ta>aw~ah        IV      exclaim;sigh
 
-    TaFaCCaL                  `verb`       {- taOaw~ah -}       [ "exclaim", "sigh" ],
+    TaFaCCaL                  `verb`    {- taOaw~ah -}         [ "exclaim", "sigh" ],
 
     -- ;; |hap_1
     -- \|h      |h      NapAt   exclamation;sigh
     -- Ah      |h      NapAt   exclamation;sigh
 
-    FAL |< aT                 `noun`       {- \|hap -}          [ "exclamation", "sigh" ],
+    FAL |< aT                 `noun`    {- \|hap -}            [ "exclamation", "sigh" ],
 
     -- ;; |hAt_1
     -- \|h      |h      NAt     acclaim;exclamation
     -- Ah      |h      NAt     acclaim;exclamation
 
-    FAL |< At                 `noun`       {- \|hAt -}          [ "acclaim", "exclamation" ]
+    FAL |< At                 `noun`    {- \|hAt -}            [ "acclaim", "exclamation" ]
                               `plural`     FAL |< At,
 
     -- ;; >aw~ah_2
@@ -9315,20 +9309,20 @@ lexicon = listing "Lexicon's properties"
     -- >wAh    >uw~Ah  FW-Wa   oh!     [[>uw~Ah/INTERJ]]
     -- AwAh    >uw~Ah  FW-Wa   oh!     [[>uw~Ah/INTERJ]]
 
-    FaCCaL                    `noun`       {- Oaw~ah -}         [ "oh!" ]
+    FaCCaL                    `noun`    {- Oaw~ah -}           [ "oh!" ]
                               `plural`     FuCCAL
                               `plural`     FUCAL
-                              {- `others` [ "'uwwAh FW-Wa" ] -},
+                           {- `others`  [ "'uwwAh FW-Wa" ] -},
 
     -- ;; ta>aw~uh_1
     -- t>wh    ta>aw~uh        NduAt   sighs;exclamations
 
-    TaFaCCuL                  `noun`       {- taOaw~uh -}       [ "sighs", "exclamations" ],
+    TaFaCCuL                  `noun`    {- taOaw~uh -}         [ "sighs", "exclamations" ],
 
     -- ;; muta>aw~ih_1
     -- mt>wh   muta>aw~ih      Nall    sighing;exclaiming
 
-    MutaFaCCiL                `noun`       {- mutaOaw~ih -}     [ "sighing", "exclaiming" ] ]
+    MutaFaCCiL                `noun`    {- mutaOaw~ih -}       [ "sighing", "exclaiming" ] ]
 
  |> "' w k" <| [
 
@@ -9336,13 +9330,13 @@ lexicon = listing "Lexicon's properties"
     -- >wk     >uwk    FW      Oak     [[>uwk/NOUN_PROP]]
     -- Awk     >uwk    FW      Oak     [[>uwk/NOUN_PROP]]
 
-    FuCL                      `noun`       {- Ouwk -}           [ "Oak" ],
+    FuCL                      `noun`    {- Ouwk -}             [ "Oak" ],
 
     -- ;; >uwk_1
     -- >wk     >uwk    FW      Oak     [[>uwk/NOUN_PROP]]
     -- Awk     >uwk    FW      Oak     [[>uwk/NOUN_PROP]]
 
-    FUL                       `noun`       {- Ouwk -}           [ "Oak" ] ]
+    FUL                       `noun`    {- Ouwk -}             [ "Oak" ] ]
 
  |> "' w l" <| [
 
@@ -9354,9 +9348,8 @@ lexicon = listing "Lexicon's properties"
     -- &wl     &uwl    IV_V    arrive;lead;return
     -- &l      &ul     IV_C    arrive;lead;return
 
-    FAL                       `verb`       {- \|l-u -}          [ "arrive", "lead", "return" ]
+    FAL                       `verb`    {- \|l-u -}            [ "arrive", "lead", "return" ]
                               `imperf`     FUL
-                              `imperf`     FuCL
                               `pfirst`     FuL
                               `ithird`     FuL,
 
@@ -9366,29 +9359,29 @@ lexicon = listing "Lexicon's properties"
     -- &wl     &aw~il  IV_yu   explain;interpret
     -- &wl     &aw~al  IV_Pass_yu      be explained;be interpreted
 
-    FaCCaL                    `verb`       {- Oaw~al -}         [ "explain", "interpret", "be explained", "be interpreted" ],
+    FaCCaL                    `verb`    {- Oaw~al -}           [ "explain", "interpret", "be explained", "be interpreted" ],
 
     -- ;; ta>owiyl_1
     -- t>wyl   ta>owiyl        NduAt   explanation;interpretation
 
-    TaFCIL                    `noun`       {- taOowiyl -}       [ "explanation", "interpretation" ],
+    TaFCIL                    `noun`    {- taOowiyl -}         [ "explanation", "interpretation" ],
 
     -- ;; ma|l_1
     -- m|l     ma|l    NduAt   outcome;result
 
-    MaFAL                     `noun`       {- ma|l -}           [ "outcome", "result" ],
+    MaFAL                     `noun`    {- ma|l -}             [ "outcome", "result" ],
 
     -- ;; >awA}il_1
     -- >wA}l   >awA}il Ndip    early;beginning
     -- AwA}l   >awA}il Ndip    early;beginning
 
-    FawA'iL                   `noun`       {- OawA}il -}        [ "early", "beginning" ],
+    FawA'iL                   `noun`    {- OawA}il -}          [ "early", "beginning" ],
 
     -- ;; >awA}il_2
     -- >wA}l   >awA}il Ndip    ancients
     -- AwA}l   >awA}il Ndip    ancients
 
-    FawA'iL                   `noun`       {- OawA}il -}        [ "ancients" ],
+    FawA'iL                   `noun`    {- OawA}il -}          [ "ancients" ],
 
     -- ;; >aw~al_2
     -- >wl     >aw~al  Nall    first     [[>aw~al/ADJ]]
@@ -9396,13 +9389,13 @@ lexicon = listing "Lexicon's properties"
     -- >wly    >aw~aliy~       N-ap    first;foremost     [[>aw~aliy~/ADJ]]
     -- Awly    >aw~aliy~       N-ap    first;foremost     [[>aw~aliy~/ADJ]]
 
-    FaCCaL                    `adj`        {- Oaw~al -}         [ "first", "foremost" ],
+    FaCCaL                    `adj`     {- Oaw~al -}           [ "first", "foremost" ],
 
     -- ;; >aw~aliy~ap_1
     -- >wly    >aw~aliy~       Nap     priority;precedence;primacy     [[>aw~aliy~/NOUN]]
     -- Awly    >aw~aliy~       Nap     priority;precedence;primacy     [[>aw~aliy~/NOUN]]
 
-    FaCCaL |< Iy |< aT        `noun`       {- Oaw~aliy~ap -}    [ "priority", "precedence", "primacy" ],
+    FaCCaL |< Iy |< aT        `noun`    {- Oaw~aliy~ap -}      [ "priority", "precedence", "primacy" ],
 
     -- ;; >uwlaY_1
     -- >wlY    >uwlaY  N0      first     [[>uwlY/ADJ]]
@@ -9416,69 +9409,69 @@ lexicon = listing "Lexicon's properties"
     -- >wl     >uwal   N       first     [[>uwal/ADJ]]
     -- Awl     >uwal   N       first     [[>uwal/ADJ]]
 
-    FuCLY                     `adj`        {- OuwlaY -}         [ "first" ]
+    FuCLY                     `adj`     {- OuwlaY -}           [ "first" ]
                               `plural`     FuCaL
-                              {- `others` [ "'uwal N" ] -},
+                           {- `others`  [ "'uwal N" ] -},
 
     -- ;; |l_2
     -- \|l      |l      N       family;clan
     -- Al      |l      N       family;clan
 
-    FAL                       `noun`       {- \|l -}            [ "family", "clan" ],
+    FAL                       `noun`    {- \|l -}              [ "family", "clan" ],
 
     -- ;; |lap_1
     -- \|l      |l      NapAt   instrument;apparatus;appliance;machine
     -- Al      |l      NapAt   instrument;apparatus;appliance;machine
 
-    FAL |< aT                 `noun`       {- \|lap -}          [ "instrument", "apparatus", "appliance", "machine" ],
+    FAL |< aT                 `noun`    {- \|lap -}            [ "instrument", "apparatus", "appliance", "machine" ],
 
     -- ;; |liy~_1
     -- \|ly     |liy~   Nall    mechanical;automatic     [[|liy~/ADJ]]
     -- Aly     |liy~   Nall    mechanical;automatic     [[|liy~/ADJ]]
 
-    FAL |< Iy                 `adj`        {- \|liy~ -}         [ "mechanical", "automatic" ],
+    FAL |< Iy                 `adj`     {- \|liy~ -}           [ "mechanical", "automatic" ],
 
     -- ;; |liy~AF_1
     -- \|ly     |liy~   NF      mechanically;automatically     [[|liy~/ADV]]
     -- Aly     |liy~   NF      mechanically;automatically     [[|liy~/ADV]]
 
-    FAL |< Iy |< aN           `adj`        {- \|liy~AF -}       [ "mechanically", "automatically" ],
+    FAL |< Iy |< aN           `adj`     {- \|liy~AF -}         [ "mechanically", "automatically" ],
 
     -- ;; |liy~ap_1
     -- \|ly     |liy~   Nap     automation;mechanism     [[|liy~/NOUN]]
     -- Aly     |liy~   Nap     automation;mechanism     [[|liy~/NOUN]]
 
-    FAL |< Iy |< aT           `noun`       {- \|liy~ap -}       [ "automation", "mechanism" ],
+    FAL |< Iy |< aT           `noun`    {- \|liy~ap -}         [ "automation", "mechanism" ],
 
     -- ;; <iwAlap_1
     -- <wAl    <iwAl   Nap     mechanism
     -- AwAl    <iwAl   Nap     mechanism
 
-    FiCAL |< aT               `noun`       {- IiwAlap -}        [ "mechanism" ],
+    FiCAL |< aT               `noun`    {- IiwAlap -}          [ "mechanism" ],
 
     -- ;; <iwAliy~_1
     -- <wAly   <iwAliy~        Nall    mechanical     [[<iwAliy~/ADJ]]
     -- AwAly   <iwAliy~        Nall    mechanical     [[<iwAliy~/ADJ]]
 
-    FiCAL |< Iy               `adj`        {- IiwAliy~ -}       [ "mechanical" ],
+    FiCAL |< Iy               `adj`     {- IiwAliy~ -}         [ "mechanical" ],
 
     -- ;; <iwAliy~ap_1
     -- <wAly   <iwAliy~        Nap     mechanism     [[<iwAliy~/NOUN]]
     -- AwAly   <iwAliy~        Nap     mechanism     [[<iwAliy~/NOUN]]
 
-    FiCAL |< Iy |< aT         `noun`       {- IiwAliy~ap -}     [ "mechanism" ],
+    FiCAL |< Iy |< aT         `noun`    {- IiwAliy~ap -}       [ "mechanism" ],
 
     -- ;; >awolawiy~ap_1
     -- >wlwy   >awolawiy~      Napdu   priority;precedence     [[>awolawiy~/NOUN]]
     -- Awlwy   >awolawiy~      Napdu   priority;precedence     [[>awolawiy~/NOUN]]
 
-    FaCLY |< Iy |< aT         `noun`       {- Oawolawiy~ap -}   [ "priority", "precedence" ],
+    FaCLY |< Iy |< aT         `noun`    {- Oawolawiy~ap -}     [ "priority", "precedence" ],
 
     -- ;; >awolawiy~At_1
     -- >wlwy   >awolawiy~      NAt     priorities     [[>awolawiy~/NOUN]]
     -- Awlwy   >awolawiy~      NAt     priorities     [[>awolawiy~/NOUN]]
 
-    FaCLY |< Iy |< At         `noun`       {- Oawolawiy~At -}   [ "priorities" ] ]
+    FaCLY |< Iy |< At         `noun`    {- Oawolawiy~At -}     [ "priorities" ] ]
 
  |> "' w l f" <| [
 
@@ -9486,7 +9479,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlAf   >uwlAf  Nprop   Olaf
     -- AwlAf   >uwlAf  Nprop   Olaf
 
-    KuRDAS                    `noun`       {- OuwlAf -}         [ "Olaf" ] ]
+    KuRDAS                    `noun`    {- OuwlAf -}           [ "Olaf" ] ]
 
  |> "' w l m" <| [
 
@@ -9494,7 +9487,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlAmy  >uwlAmiy~       N0      Ulami
     -- AwlAmy  >uwlAmiy~       N0      Ulami
 
-    KuRDAS |< Iy              `adj`        {- OuwlAmiy~ -}      [ "Ulami" ] ]
+    KuRDAS |< Iy              `adj`     {- OuwlAmiy~ -}        [ "Ulami" ] ]
 
  |> "' w l w" <| [
 
@@ -9502,7 +9495,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlw    >uwluw  FW-WaBi they/those     [[>uwluw/DEM_PRON_MP]]
     -- Awlw    >uwluw  FW-WaBi they/those     [[>uwluw/DEM_PRON_MP]]
 
-    KuRDuS                    `noun`       {- Ouwluw -}         [ "they/those" ] ]
+    KuRDuS                    `noun`    {- Ouwluw -}           [ "they/those" ] ]
 
  |> "' w m" <| [
 
@@ -9510,13 +9503,13 @@ lexicon = listing "Lexicon's properties"
     -- >wAm    >uwAm   N       thirst
     -- AwAm    >uwAm   N       thirst
 
-    FuCAL                     `noun`       {- OuwAm -}          [ "thirst" ],
+    FuCAL                     `noun`    {- OuwAm -}            [ "thirst" ],
 
     -- ;; >uwm_1
     -- >wm     >uwm    N       ohm
     -- Awm     >uwm    N       ohm
 
-    FuCL                      `noun`       {- Ouwm -}           [ "ohm" ] ]
+    FuCL                      `noun`    {- Ouwm -}             [ "ohm" ] ]
 
  |> "' w n" <| [
 
@@ -9528,10 +9521,9 @@ lexicon = listing "Lexicon's properties"
     -- }yn     }iyn    IV_V    arrive;approach
     -- }n      }in     IV_C    arrive;approach
 
-    FAL                       `verb`       {- \|n-ui -}         [ "arrive", "approach" ]
+    FAL                       `verb`    {- \|n-ui -}           [ "arrive", "approach" ]
                               `imperf`     FIL
                               `imperf`     FUL
-                              `imperf`     FuCL
                               `ithird`     FiL
                               `ithird`     FuL,
 
@@ -9539,25 +9531,25 @@ lexicon = listing "Lexicon's properties"
     -- \|n      |n      N       time;moment
     -- An      |n      N       time;moment
 
-    FAL                       `noun`       {- \|n -}            [ "time", "moment" ],
+    FAL                       `noun`    {- \|n -}              [ "time", "moment" ],
 
     -- ;; |niy~_1
     -- \|ny     |niy~   Nall    actual;present;simultaneous     [[|niy~/ADJ]]
     -- Any     |niy~   Nall    actual;present;simultaneous     [[|niy~/ADJ]]
 
-    FAL |< Iy                 `adj`        {- \|niy~ -}         [ "actual", "present", "simultaneous" ],
+    FAL |< Iy                 `adj`     {- \|niy~ -}           [ "actual", "present", "simultaneous" ],
 
     -- ;; >awon_1
     -- >wn     >awon   N       arrival;approach
     -- Awn     >awon   N       arrival;approach
 
-    FaCL                      `noun`       {- Oawon -}          [ "arrival", "approach" ],
+    FaCL                      `noun`    {- Oawon -}            [ "arrival", "approach" ],
 
     -- ;; >awon_2
     -- >wn     >awon   N       calm;serenity
     -- Awn     >awon   N       calm;serenity
 
-    FaCL                      `noun`       {- Oawon -}          [ "calm", "serenity" ],
+    FaCL                      `noun`    {- Oawon -}            [ "calm", "serenity" ],
 
     -- ;; >awAn_1
     -- >wAn    >awAn   N       time;moment
@@ -9566,20 +9558,20 @@ lexicon = listing "Lexicon's properties"
     -- Awn     |win    Nap     times;moments
     -- >wn     |win    Nap     times;moments
 
-    FaCAL                     `noun`       {- OawAn -}          [ "time", "moment", "times", "moments" ]
+    FaCAL                     `noun`    {- OawAn -}            [ "time", "moment", "times", "moments" ]
                               `plural`     FACiL |< aT,
 
     -- ;; <iywAn_1
     -- <ywAn   <iywAn  N       palace;hall
     -- AywAn   <iywAn  N       palace;hall
 
-    HICAL                     `noun`       {- IiywAn -}         [ "palace", "hall" ],
+    HICAL                     `noun`    {- IiywAn -}           [ "palace", "hall" ],
 
     -- ;; <iywAn_1
     -- <ywAn   <iywAn  N       palace;hall
     -- AywAn   <iywAn  N       palace;hall
 
-    FICAL                     `noun`       {- IiywAn -}         [ "palace", "hall" ] ]
+    FICAL                     `noun`    {- IiywAn -}           [ "palace", "hall" ] ]
 
  |> "' w n l" <| [
 
@@ -9587,7 +9579,7 @@ lexicon = listing "Lexicon's properties"
     -- >wnyl   >uwniyl Nprop   O'Neal
     -- Awnyl   >uwniyl Nprop   O'Neal
 
-    KuRDIS                    `noun`       {- Ouwniyl -}        [ "O'Neal" ] ]
+    KuRDIS                    `noun`    {- Ouwniyl -}          [ "O'Neal" ] ]
 
  |> "' w n s" <| [
 
@@ -9595,7 +9587,7 @@ lexicon = listing "Lexicon's properties"
     -- >wAns   >awAnis Ndip    ladies
     -- AwAns   >awAnis Ndip    ladies
 
-    KaRADiS                   `noun`       {- OawAnis -}        [ "ladies" ] ]
+    KaRADiS                   `noun`    {- OawAnis -}          [ "ladies" ] ]
 
  |> "' w n w" <| [
 
@@ -9603,7 +9595,7 @@ lexicon = listing "Lexicon's properties"
     -- >wnw    >uwnuw  Nprop   Ono;Ohno
     -- Awnw    >uwnuw  Nprop   Ono;Ohno
 
-    KuRDuS                    `noun`       {- Ouwnuw -}         [ "Ono", "Ohno" ] ]
+    KuRDuS                    `noun`    {- Ouwnuw -}           [ "Ono", "Ohno" ] ]
 
  |> "' w q" <| [
 
@@ -9615,9 +9607,8 @@ lexicon = listing "Lexicon's properties"
     -- &wq     &uwq    IV_V    bring bad luck;cause hardship
     -- &q      &uq     IV_C    bring bad luck;cause hardship
 
-    FAL                       `verb`       {- \|q-u -}          [ "bring bad luck", "cause hardship" ]
+    FAL                       `verb`    {- \|q-u -}            [ "bring bad luck", "cause hardship" ]
                               `imperf`     FUL
-                              `imperf`     FuCL
                               `pfirst`     FuL
                               `ithird`     FuL,
 
@@ -9627,7 +9618,7 @@ lexicon = listing "Lexicon's properties"
     -- &wq     &aw~iq  IV_yu   burden;impose
     -- &wq     &aw~aq  IV_Pass_yu      be burdened;be imposed
 
-    FaCCaL                    `verb`       {- Oaw~aq -}         [ "burden", "impose", "be burdened", "be imposed" ],
+    FaCCaL                    `verb`    {- Oaw~aq -}           [ "burden", "impose", "be burdened", "be imposed" ],
 
     -- ;; >uwqiy~ap_1
     -- >wqy    >uwqiy~ NapAt   ounce     [[>uwqiy~/NOUN]]
@@ -9637,9 +9628,9 @@ lexicon = listing "Lexicon's properties"
     -- >wAq    >awAq   NK      ounces
     -- AwAq    >awAq   NK      ounces
 
-    FuCL |< Iy |< aT          `noun`       {- Ouwqiy~ap -}      [ "ounce", "ounces" ]
+    FuCL |< Iy |< aT          `noun`    {- Ouwqiy~ap -}        [ "ounce", "ounces" ]
                               `plural`     FaCAL
-                              {- `others` [ "'awAq NK" ] -} ]
+                           {- `others`  [ "'awAq NK" ] -} ]
 
  |> "' w r" <| [
 
@@ -9647,13 +9638,13 @@ lexicon = listing "Lexicon's properties"
     -- >wAr    >uwAr   N       blaze;thirst
     -- AwAr    >uwAr   N       blaze;thirst
 
-    FuCAL                     `noun`       {- OuwAr -}          [ "blaze", "thirst" ],
+    FuCAL                     `noun`    {- OuwAr -}            [ "blaze", "thirst" ],
 
     -- ;; >uwAriy~_1
     -- >wAry   >uwAriy~        N-ap    blazing thirst     [[>uwAriy~/ADJ]]
     -- AwAry   >uwAriy~        N-ap    blazing thirst     [[>uwAriy~/ADJ]]
 
-    FuCAL |< Iy               `adj`        {- OuwAriy~ -}       [ "blazing thirst" ] ]
+    FuCAL |< Iy               `adj`     {- OuwAriy~ -}         [ "blazing thirst" ] ]
 
  |> "' w r b" <| [
 
@@ -9662,23 +9653,23 @@ lexicon = listing "Lexicon's properties"
     -- Awrb    >aworab PV      Europeanize
     -- &wrb    &aworib IV_yu   Europeanize
 
-    KaRDaS                    `verb`       {- Oaworab -}        [ "Europeanize" ],
+    KaRDaS                    `verb`    {- Oaworab -}          [ "Europeanize" ],
 
     -- ;; ta>aworab_1
     -- t>wrb   ta>aworab       PV_intr be Europeanized
     -- t>wrb   ta>aworab       IV_intr be Europeanized
 
-    TaKaRDaS                  `verb`       {- taOaworab -}      [ "be Europeanized" ],
+    TaKaRDaS                  `verb`    {- taOaworab -}        [ "be Europeanized" ],
 
     -- ;; mu&aworab_1
     -- m&wrb   mu&aworab       Nall    Europeanized
 
-    MuKaRDaS                  `noun`       {- muWaworab -}      [ "Europeanized" ],
+    MuKaRDaS                  `noun`    {- muWaworab -}        [ "Europeanized" ],
 
     -- ;; muta>aworib_1
     -- mt>wrb  muta>aworib     Nall    Europeanized
 
-    MutaKaRDiS                `noun`       {- mutaOaworib -}    [ "Europeanized" ] ]
+    MutaKaRDiS                `noun`    {- mutaOaworib -}      [ "Europeanized" ] ]
 
  |> "' w r w" <| [
 
@@ -9686,7 +9677,7 @@ lexicon = listing "Lexicon's properties"
     -- >wrwy   >uwruwiy~       Nall    Euro     [[>uwruwiy~/ADJ]]
     -- Awrwy   >uwruwiy~       Nall    Euro     [[>uwruwiy~/ADJ]]
 
-    KuRDuS |< Iy              `adj`        {- Ouwruwiy~ -}      [ "Euro" ] ]
+    KuRDuS |< Iy              `adj`     {- Ouwruwiy~ -}        [ "Euro" ] ]
 
  |> "' w s" <| [
 
@@ -9694,13 +9685,13 @@ lexicon = listing "Lexicon's properties"
     -- >ws     >awos   N       lynx
     -- Aws     >awos   N       lynx
 
-    FaCL                      `noun`       {- Oawos -}          [ "lynx" ],
+    FaCL                      `noun`    {- Oawos -}            [ "lynx" ],
 
     -- ;; >awos_2
     -- >ws     >awos   N0      Aws
     -- Aws     >awos   N0      Aws
 
-    FaCL                      `noun`       {- Oawos -}          [ "Aws" ] ]
+    FaCL                      `noun`    {- Oawos -}            [ "Aws" ] ]
 
  |> "' w t" <| [
 
@@ -9708,13 +9699,13 @@ lexicon = listing "Lexicon's properties"
     -- >wt     >uwt    Nprop   August
     -- Awt     >uwt    Nprop   August
 
-    FuCL                      `noun`       {- Ouwt -}           [ "August" ],
+    FuCL                      `noun`    {- Ouwt -}             [ "August" ],
 
     -- ;; >uwt_1
     -- >wt     >uwt    Nprop   August
     -- Awt     >uwt    Nprop   August
 
-    FUL                       `noun`       {- Ouwt -}           [ "August" ] ]
+    FUL                       `noun`    {- Ouwt -}             [ "August" ] ]
 
  |> "' w t l" <| [
 
@@ -9722,7 +9713,7 @@ lexicon = listing "Lexicon's properties"
     -- >wtyl   >uwtiyl N/At    hotel
     -- Awtyl   >uwtiyl N/At    hotel
 
-    KuRDIS                    `noun`       {- Ouwtiyl -}        [ "hotel" ] ]
+    KuRDIS                    `noun`    {- Ouwtiyl -}          [ "hotel" ] ]
 
  |> "' w t r" <| [
 
@@ -9730,7 +9721,7 @@ lexicon = listing "Lexicon's properties"
     -- >wtAr   >uwtAr  Nprop   Uttar
     -- AwtAr   >uwtAr  Nprop   Uttar
 
-    KuRDAS                    `noun`       {- OuwtAr -}         [ "Uttar" ] ]
+    KuRDAS                    `noun`    {- OuwtAr -}           [ "Uttar" ] ]
 
  |> "' w t w" <| [
 
@@ -9738,7 +9729,7 @@ lexicon = listing "Lexicon's properties"
     -- >wtw    >uwtuw  Nprop   Otto
     -- Awtw    >uwtuw  Nprop   Otto
 
-    KuRDuS                    `noun`       {- Ouwtuw -}         [ "Otto" ] ]
+    KuRDuS                    `noun`    {- Ouwtuw -}           [ "Otto" ] ]
 
  |> "' w w" <| [
 
@@ -9756,7 +9747,7 @@ lexicon = listing "Lexicon's properties"
     -- &wY     &aw~aY  IV_0_Pass_yu    be sheltered;be lodged
     -- &wy     &aw~ay  IV_Ann_Pass_yu  be sheltered;be lodged
 
-    FaCLY                     `verb`       {- Oaw~aY -}         [ "shelter", "lodge", "be sheltered", "be lodged" ] ]
+    FaCLY                     `verb`    {- Oaw~aY -}           [ "shelter", "lodge", "be sheltered", "be lodged" ] ]
 
  |> "' w y" <| [
 
@@ -9776,8 +9767,7 @@ lexicon = listing "Lexicon's properties"
     -- >wY     >owaY   IV_0_no-Pref-A  retire;seek shelter
     -- AwY     >owaY   IV_0_no-Pref-A  retire;seek shelter
 
-    FaCY                      `verb`       {- OawaY-i -}        [ "retire", "seek shelter" ]
-                              `imperf`     FCiL
+    FaCY                      `verb`    {- OawaY-i -}          [ "retire", "seek shelter" ]
                               `imperf`     FCI
                               `imperf`     FCY,
 
@@ -9795,7 +9785,7 @@ lexicon = listing "Lexicon's properties"
     -- &wY     &aw~aY  IV_0_Pass_yu    be sheltered;be lodged
     -- &wy     &aw~ay  IV_Ann_Pass_yu  be sheltered;be lodged
 
-    FaCCY                     `verb`       {- Oaw~aY -}         [ "shelter", "lodge", "be sheltered", "be lodged" ],
+    FaCCY                     `verb`    {- Oaw~aY -}           [ "shelter", "lodge", "be sheltered", "be lodged" ],
 
     -- ;; |waY_1
     -- \|wY     |waY    PV_0    seek shelter;provide asylum
@@ -9811,7 +9801,7 @@ lexicon = listing "Lexicon's properties"
     -- &wY     &owaY   IV_0_Pass_yu    be sought as shelter;be provided as asylum
     -- &wy     &oway   IV_Ann_Pass_yu  be sought as shelter;be provided as asylum
 
-    FACY                      `verb`       {- \|waY -}          [ "seek shelter", "provide asylum", "be sought as shelter", "be provided as asylum" ],
+    FACY                      `verb`    {- \|waY -}            [ "seek shelter", "provide asylum", "be sought as shelter", "be provided as asylum" ],
 
     -- ;; <iwA'_1
     -- <wA'    <iwA'   N0_Nh   sheltering;harboring;lodging
@@ -9823,7 +9813,7 @@ lexicon = listing "Lexicon's properties"
     -- <wA'    <iwA'   NAt     sheltering;harboring;lodging
     -- AwA'    <iwA'   NAt     sheltering;harboring;lodging
 
-    FiCA'                     `noun`       {- IiwA' -}          [ "sheltering", "harboring", "lodging" ],
+    FiCA'                     `noun`    {- IiwA' -}            [ "sheltering", "harboring", "lodging" ],
 
     -- ;; ma>owaY_1
     -- m>wY    ma>owaY N0      refuge;shelter
@@ -9832,11 +9822,11 @@ lexicon = listing "Lexicon's properties"
     -- m|wy    ma|wiy  N0_Nh   shelters
     -- m|w     ma|w    NK      shelters
 
-    MaFCY                     `noun`       {- maOowaY -}        [ "refuge", "shelter", "shelters" ]
+    MaFCY                     `noun`    {- maOowaY -}          [ "refuge", "shelter", "shelters" ]
                               `plural`     MaFACiL
                               `plural`     MaFACI
                               `plural`     MaFCaL
-                              {- `others` [ "ma'Awiy N0_Nh", "ma'way NAn_Nayn" ] -} ]
+                           {- `others`  [ "ma'Awiy N0_Nh", "ma'way NAn_Nayn" ] -} ]
 
  |> "' w z" <| [
 
@@ -9846,7 +9836,7 @@ lexicon = listing "Lexicon's properties"
     -- &wz     &aw~iz  IV_yu   ridicule
     -- &wz     &aw~az  IV_Pass_yu      be ridiculed
 
-    FaCCaL                    `verb`       {- Oaw~az -}         [ "ridicule", "be ridiculed" ] ]
+    FaCCaL                    `verb`    {- Oaw~az -}           [ "ridicule", "be ridiculed" ] ]
 
  |> "' w z n" <| [
 
@@ -9854,7 +9844,7 @@ lexicon = listing "Lexicon's properties"
     -- >wzwn   >uwzuwn N       ozone
     -- Awzwn   >uwzuwn N       ozone
 
-    KuRDUS                    `noun`       {- Ouwzuwn -}        [ "ozone" ] ]
+    KuRDUS                    `noun`    {- Ouwzuwn -}          [ "ozone" ] ]
 
  |> "' y ' m" <| [
 
@@ -9866,7 +9856,7 @@ lexicon = listing "Lexicon's properties"
     -- >yAmA   >ayAmA  Nhy     widows
     -- AyAmA   >ayAmA  Nhy     widows
 
-    KaRADiS                   `noun`       {- OayA}im -}        [ "widows" ] ]
+    KaRADiS                   `noun`    {- OayA}im -}          [ "widows" ] ]
 
  |> "' y .d" <| [
 
@@ -9874,9 +9864,9 @@ lexicon = listing "Lexicon's properties"
     -- >yD     >ayoD   NF      also     [[>ayoD/ADV]]
     -- AyD     >ayoD   NF      also     [[>ayoD/ADV]]
 
-    FaCL |< aN                `noun`       {- OayoDAF -}        [ "also" ]
+    FaCL |< aN                `noun`    {- OayoDAF -}          [ "also" ]
                               `plural`     FaCL
-                              {- `others` [ "'ay.d NF" ] -},
+                           {- `others`  [ "'ay.d NF" ] -},
 
     -- ;; |D-i_1
     -- \|D      |D      PV_V    return;revert
@@ -9886,9 +9876,8 @@ lexicon = listing "Lexicon's properties"
     -- }yD     }iyD    IV_V    return;revert
     -- }D      }iD     IV_C    return;revert
 
-    FAL                       `verb`       {- \|D-i -}          [ "return", "revert" ]
+    FAL                       `verb`    {- \|D-i -}            [ "return", "revert" ]
                               `imperf`     FIL
-                              `imperf`     FiCL
                               `pfirst`     FaL
                               `ithird`     FiL,
 
@@ -9898,19 +9887,19 @@ lexicon = listing "Lexicon's properties"
     -- &yD     &ay~iD  IV_yu   metabolize
     -- &yD     &ay~aD  IV_Pass_yu      be metabolized
 
-    FaCCaL                    `verb`       {- Oay~aD -}         [ "metabolize", "be metabolized" ],
+    FaCCaL                    `verb`    {- Oay~aD -}           [ "metabolize", "be metabolized" ],
 
     -- ;; >ayoD_1
     -- >yD     >ayoD   N       metabolism
     -- AyD     >ayoD   N       metabolism
 
-    FaCL                      `noun`       {- OayoD -}          [ "metabolism" ],
+    FaCL                      `noun`    {- OayoD -}            [ "metabolism" ],
 
     -- ;; >ayoDiy~_1
     -- >yDy    >ayoDiy~        N-ap    metabolic     [[>ayoDiy~/ADJ]]
     -- AyDy    >ayoDiy~        N-ap    metabolic     [[>ayoDiy~/ADJ]]
 
-    FaCL |< Iy                `adj`        {- OayoDiy~ -}       [ "metabolic" ] ]
+    FaCL |< Iy                `adj`     {- OayoDiy~ -}         [ "metabolic" ] ]
 
  |> "' y .g d" <| [
 
@@ -9918,7 +9907,7 @@ lexicon = listing "Lexicon's properties"
     -- <ygAd   <iygAd  Nprop   EGAD (Economic Growth and Agricultural Development)
     -- AygAd   <iygAd  Nprop   EGAD (Economic Growth and Agricultural Development)
 
-    KiRDAS                    `noun`       {- IiygAd -}         [ "EGAD (Economic Growth and Agricultural Development)" ] ]
+    KiRDAS                    `noun`    {- IiygAd -}           [ "EGAD (Economic Growth and Agricultural Development)" ] ]
 
  |> "' y .g r" <| [
 
@@ -9926,7 +9915,7 @@ lexicon = listing "Lexicon's properties"
     -- <ygwr   <iyguwr Nprop   Igor
     -- Aygwr   <iyguwr Nprop   Igor
 
-    KiRDUS                    `noun`       {- Iiyguwr -}        [ "Igor" ] ]
+    KiRDUS                    `noun`    {- Iiyguwr -}          [ "Igor" ] ]
 
  |> "' y .t l" <| [
 
@@ -9936,7 +9925,7 @@ lexicon = listing "Lexicon's properties"
     -- AyTAly  <iyTAliy~       Nall    Italian     [[<iyTAliy~/NOUN]]
     -- AyTAly  <iyTAliy~       Nall    Italian     [[<iyTAliy~/ADJ]]
 
-    KiRDAS |< Iy              `adj`        {- IiyTAliy~ -}      [ "Italian" ] ]
+    KiRDAS |< Iy              `adj`     {- IiyTAliy~ -}        [ "Italian" ] ]
 
  |> "' y ^g h" <| [
 
@@ -9944,7 +9933,7 @@ lexicon = listing "Lexicon's properties"
     -- <yjh    <iyjih  N0      Aegean
     -- Ayjh    <iyjih  N0      Aegean
 
-    KiRDiS                    `noun`       {- Iiyjih -}         [ "Aegean" ] ]
+    KiRDiS                    `noun`    {- Iiyjih -}           [ "Aegean" ] ]
 
  |> "' y ^g r" <| [
 
@@ -9952,19 +9941,19 @@ lexicon = listing "Lexicon's properties"
     -- <yjAr   <iyjAr  NduAt   rent;leasing
     -- AyjAr   <iyjAr  NduAt   rent;leasing
 
-    KiRDAS                    `noun`       {- IiyjAr -}         [ "rent", "leasing" ],
+    KiRDAS                    `noun`    {- IiyjAr -}           [ "rent", "leasing" ],
 
     -- ;; <iyjAriy~_1
     -- <yjAry  <iyjAriy~       Nall    rental     [[<iyjAriy~/ADJ]]
     -- AyjAry  <iyjAriy~       Nall    rental     [[<iyjAriy~/ADJ]]
 
-    KiRDAS |< Iy              `adj`        {- IiyjAriy~ -}      [ "rental" ],
+    KiRDAS |< Iy              `adj`     {- IiyjAriy~ -}        [ "rental" ],
 
     -- ;; <iyjuwr_1
     -- <yjwr   <iyjuwr Nprop   Igor
     -- Ayjwr   <iyjuwr Nprop   Igor
 
-    KiRDUS                    `noun`       {- Iiyjuwr -}        [ "Igor" ] ]
+    KiRDUS                    `noun`    {- Iiyjuwr -}          [ "Igor" ] ]
 
  |> "' y _d" <| [
 
@@ -9972,7 +9961,7 @@ lexicon = listing "Lexicon's properties"
     -- <y*An   <iy*An  NduAt   declaration;proclamation
     -- Ay*An   <iy*An  NduAt   declaration;proclamation
 
-    FiCLAn                    `noun`       {- Iiy*An -}         [ "declaration", "proclamation" ] ]
+    FiCLAn                    `noun`    {- Iiy*An -}           [ "declaration", "proclamation" ] ]
 
  |> "' y _d n" <| [
 
@@ -9980,7 +9969,7 @@ lexicon = listing "Lexicon's properties"
     -- <y*An   <iy*An  NduAt   declaration;proclamation
     -- Ay*An   <iy*An  NduAt   declaration;proclamation
 
-    KiRDAS                    `noun`       {- Iiy*An -}         [ "declaration", "proclamation" ] ]
+    KiRDAS                    `noun`    {- Iiy*An -}           [ "declaration", "proclamation" ] ]
 
  |> "' y b" <| [
 
@@ -9988,19 +9977,19 @@ lexicon = listing "Lexicon's properties"
     -- <yAb    <iyAb   N       return
     -- AyAb    <iyAb   N       return
 
-    FiCAL                     `noun`       {- IiyAb -}          [ "return" ],
+    FiCAL                     `noun`    {- IiyAb -}            [ "return" ],
 
     -- ;; |yib_1
     -- \|yb     |yib    Nall    coming;returning
     -- Ayb     |yib    Nall    coming;returning
 
-    FACiL                     `noun`       {- \|yib -}          [ "coming", "returning" ],
+    FACiL                     `noun`    {- \|yib -}            [ "coming", "returning" ],
 
     -- ;; >ay~uwb_1
     -- >ywb    >ay~uwb Nprop   Ayub;Ayyoub;Job
     -- Aywb    >ay~uwb Nprop   Ayub;Ayyoub;Job
 
-    FaCCUL                    `noun`       {- Oay~uwb -}        [ "Ayub", "Ayyoub", "Job" ],
+    FaCCUL                    `noun`    {- Oay~uwb -}          [ "Ayub", "Ayyoub", "Job" ],
 
     -- ;; >ay~uwbiy~_1
     -- >ywby   >ay~uwbiy~      Nall    Ayubi;Ayubite     [[>ay~uwbiy~/NOUN]]
@@ -10008,7 +9997,7 @@ lexicon = listing "Lexicon's properties"
     -- Aywby   >ay~uwbiy~      Nall    Ayubi;Ayubite     [[>ay~uwbiy~/NOUN]]
     -- Aywby   >ay~uwbiy~      Nall    Ayubi;Ayubite     [[>ay~uwbiy~/ADJ]]
 
-    FaCCUL |< Iy              `adj`        {- Oay~uwbiy~ -}     [ "Ayubi", "Ayubite" ] ]
+    FaCCUL |< Iy              `adj`     {- Oay~uwbiy~ -}       [ "Ayubi", "Ayubite" ] ]
 
  |> "' y d" <| [
 
@@ -10018,35 +10007,35 @@ lexicon = listing "Lexicon's properties"
     -- &yd     &ay~id  IV_yu   support;assist
     -- &yd     &ay~ad  IV_Pass_yu      be supported;be assisted
 
-    FaCCaL                    `verb`       {- Oay~ad -}         [ "support", "assist", "be supported", "be assisted" ],
+    FaCCaL                    `verb`    {- Oay~ad -}           [ "support", "assist", "be supported", "be assisted" ],
 
     -- ;; ta>ay~ad_1
     -- t>yd    ta>ay~ad        PV_intr be confirmed
     -- t>yd    ta>ay~ad        IV_intr be confirmed
 
-    TaFaCCaL                  `verb`       {- taOay~ad -}       [ "be confirmed" ],
+    TaFaCCaL                  `verb`    {- taOay~ad -}         [ "be confirmed" ],
 
     -- ;; ta>oyiyd_1
     -- t>yyd   ta>oyiyd        NduAt   support;approval;assistance
     -- tAyyd   ta>oyiyd        NduAt   support;approval;assistance
 
-    TaFCIL                    `noun`       {- taOoyiyd -}       [ "support", "approval", "assistance" ],
+    TaFCIL                    `noun`    {- taOoyiyd -}         [ "support", "approval", "assistance" ],
 
     -- ;; ta>oyiydiy~_1
     -- t>yydy  ta>oyiydiy~     Nall    confirmatory;approving     [[ta>oyiydiy~/ADJ]]
 
-    TaFCIL |< Iy              `adj`        {- taOoyiydiy~ -}    [ "confirmatory", "approving" ],
+    TaFCIL |< Iy              `adj`     {- taOoyiydiy~ -}      [ "confirmatory", "approving" ],
 
     -- ;; mu&ay~id_1
     -- m&yd    mu&ay~id        Nall    supporter;partisan;supporting
 
-    MuFaCCiL                  `noun`       {- muWay~id -}       [ "supporter", "partisan", "supporting" ],
+    MuFaCCiL                  `noun`    {- muWay~id -}         [ "supporter", "partisan", "supporting" ],
 
     -- ;; <iyAd_1
     -- <yAd    <iyAd   Nprop   Iyad;Eyad
     -- AyAd    <iyAd   Nprop   Iyad;Eyad
 
-    FiCAL                     `noun`       {- IiyAd -}          [ "Iyad", "Eyad" ] ]
+    FiCAL                     `noun`    {- IiyAd -}            [ "Iyad", "Eyad" ] ]
 
  |> "' y d y" <| [
 
@@ -10054,7 +10043,7 @@ lexicon = listing "Lexicon's properties"
     -- <ydy    <iydiy  Nprop   Eddie
     -- Aydy    <iydiy  Nprop   Eddie
 
-    KiRDiS                    `noun`       {- Iiydiy -}         [ "Eddie" ] ]
+    KiRDiS                    `noun`    {- Iiydiy -}           [ "Eddie" ] ]
 
  |> "' y f" <| [
 
@@ -10062,13 +10051,13 @@ lexicon = listing "Lexicon's properties"
     -- <yf     <iyf    Nprop   Ives
     -- Ayf     <iyf    Nprop   Ives
 
-    FiCL                      `noun`       {- Iiyf -}           [ "Ives" ],
+    FiCL                      `noun`    {- Iiyf -}             [ "Ives" ],
 
     -- ;; <iyf_1
     -- <yf     <iyf    Nprop   Ives
     -- Ayf     <iyf    Nprop   Ives
 
-    FIL                       `noun`       {- Iiyf -}           [ "Ives" ],
+    FIL                       `noun`    {- Iiyf -}             [ "Ives" ],
 
     -- ;; <iyfAn_1
     -- <yfAn   <iyfAn  Nprop   Ivan
@@ -10076,7 +10065,7 @@ lexicon = listing "Lexicon's properties"
     -- <fAn    <ifAn   Nprop   Ivan
     -- AfAn    <ifAn   Nprop   Ivan
 
-    FiCLAn                    `noun`       {- IiyfAn -}         [ "Ivan" ] ]
+    FiCLAn                    `noun`    {- IiyfAn -}           [ "Ivan" ] ]
 
  |> "' y f n" <| [
 
@@ -10086,13 +10075,13 @@ lexicon = listing "Lexicon's properties"
     -- <fAn    <ifAn   Nprop   Ivan
     -- AfAn    <ifAn   Nprop   Ivan
 
-    KiRDAS                    `noun`       {- IiyfAn -}         [ "Ivan" ],
+    KiRDAS                    `noun`    {- IiyfAn -}           [ "Ivan" ],
 
     -- ;; <iyfuwn_1
     -- <yfwn   <iyfuwn Nprop   Ivonne
     -- Ayfwn   <iyfuwn Nprop   Ivonne
 
-    KiRDUS                    `noun`       {- Iiyfuwn -}        [ "Ivonne" ] ]
+    KiRDUS                    `noun`    {- Iiyfuwn -}          [ "Ivonne" ] ]
 
  |> "' y f t" <| [
 
@@ -10100,7 +10089,7 @@ lexicon = listing "Lexicon's properties"
     -- <yfyt   <iyfiyt Nprop   Ivette
     -- Ayfyt   <iyfiyt Nprop   Ivette
 
-    KiRDIS                    `noun`       {- Iiyfiyt -}        [ "Ivette" ] ]
+    KiRDIS                    `noun`    {- Iiyfiyt -}          [ "Ivette" ] ]
 
  |> "' y h d" <| [
 
@@ -10109,7 +10098,7 @@ lexicon = listing "Lexicon's properties"
     -- <yhwd   <iyhuwd Nprop   Ehud
     -- >yhwd   <iyhuwd Nprop   Ehud
 
-    KiRDUS                    `noun`       {- Iiyhuwd -}        [ "Ehud" ] ]
+    KiRDUS                    `noun`    {- Iiyhuwd -}          [ "Ehud" ] ]
 
  |> "' y k" <| [
 
@@ -10119,9 +10108,9 @@ lexicon = listing "Lexicon's properties"
     -- >yk     >ayok   N       jungles;thickets
     -- Ayk     >ayok   N       jungles;thickets
 
-    FaCL |< aT                `noun`       {- Oayokap -}        [ "jungle", "thicket", "jungles", "thickets" ]
+    FaCL |< aT                `noun`    {- Oayokap -}          [ "jungle", "thicket", "jungles", "thickets" ]
                               `plural`     FaCL
-                              {- `others` [ "'ayk N" ] -} ]
+                           {- `others`  [ "'ayk N" ] -} ]
 
  |> "' y l" <| [
 
@@ -10129,19 +10118,19 @@ lexicon = listing "Lexicon's properties"
     -- <yAl    <iyAl   Nap     administration;management
     -- AyAl    <iyAl   Nap     administration;management
 
-    FiCAL |< aT               `noun`       {- IiyAlap -}        [ "administration", "management" ],
+    FiCAL |< aT               `noun`    {- IiyAlap -}          [ "administration", "management" ],
 
     -- ;; <iyAlap_2
     -- <yAl    <iyAl   NapAt   district
     -- AyAl    <iyAl   NapAt   district
 
-    FiCAL |< aT               `noun`       {- IiyAlap -}        [ "district" ],
+    FiCAL |< aT               `noun`    {- IiyAlap -}          [ "district" ],
 
     -- ;; |}il_1
     -- \|}l     |}il    Nall    reversible;ready
     -- A}l     |}il    Nall    reversible;ready
 
-    FA'iL                     `noun`       {- \|}il -}          [ "reversible", "ready" ],
+    FA'iL                     `noun`    {- \|}il -}            [ "reversible", "ready" ],
 
     -- ;; >ay~il_1
     -- >yl     >ay~il  Ndu     stag;buck
@@ -10151,25 +10140,25 @@ lexicon = listing "Lexicon's properties"
     -- >yl     >ay~il  NapAt   doe;deer
     -- Ayl     >ay~il  NapAt   doe;deer
 
-    FaCCiL                    `noun`       {- Oay~il -}         [ "stag", "buck", "stags", "bucks", "doe", "deer" ],
+    FaCCiL                    `noun`    {- Oay~il -}           [ "stag", "buck", "stags", "bucks", "doe", "deer" ],
 
     -- ;; >ay~iliy~_1
     -- >yly    >ay~iliy~       Nall    cervidae;cervid;deer-related     [[>ay~iliy~/ADJ]]
     -- Ayly    >ay~iliy~       Nall    cervidae;cervid;deer-related     [[>ay~iliy~/ADJ]]
 
-    FaCCiL |< Iy              `adj`        {- Oay~iliy~ -}      [ "cervidae", "cervid", "deer-related" ],
+    FaCCiL |< Iy              `adj`     {- Oay~iliy~ -}        [ "cervidae", "cervid", "deer-related" ],
 
     -- ;; <iyl_1
     -- <yl     <iyl    FW      El (in "Beit El")    [[<iyl/NOUN_PROP]]
     -- Ayl     <iyl    FW      El (in "Beit El")    [[<iyl/NOUN_PROP]]
 
-    FiCL                      `noun`       {- Iiyl -}           [ "El (in \"Beit El\")" ],
+    FiCL                      `noun`    {- Iiyl -}             [ "El (in \"Beit El\")" ],
 
     -- ;; <iyl_2
     -- <yl     <iyl    FW      Il (in "Kim Jong-il" and "Kim Il-sung")    [[<iyl/NOUN_PROP]]
     -- Ayl     <iyl    FW      Il (in "Kim Jong-il" and "Kim Il-sung")    [[<iyl/NOUN_PROP]]
 
-    FiCL                      `noun`       {- Iiyl -}           [ "Il (in \"Kim Jong-il\" and \"Kim Il-sung\")" ] ]
+    FiCL                      `noun`    {- Iiyl -}             [ "Il (in \"Kim Jong-il\" and \"Kim Il-sung\")" ] ]
 
  |> "' y l '" <| [
 
@@ -10187,7 +10176,7 @@ lexicon = listing "Lexicon's properties"
     -- <ylA'   <iylA'  NAt     oaths
     -- AylA'   <iylA'  NAt     oaths
 
-    KiRDAS                    `noun`       {- IiylA' -}         [ "oath", "oaths" ] ]
+    KiRDAS                    `noun`    {- IiylA' -}           [ "oath", "oaths" ] ]
 
  |> "' y l f" <| [
 
@@ -10195,7 +10184,7 @@ lexicon = listing "Lexicon's properties"
     -- <ylAf   <iylAf  NduAt   solidarity;pact
     -- AylAf   <iylAf  NduAt   solidarity;pact
 
-    KiRDAS                    `noun`       {- IiylAf -}         [ "solidarity", "pact" ] ]
+    KiRDAS                    `noun`    {- IiylAf -}           [ "solidarity", "pact" ] ]
 
  |> "' y l l" <| [
 
@@ -10203,13 +10192,13 @@ lexicon = listing "Lexicon's properties"
     -- >ylwl   >ayoluwl        Nprop   September
     -- Aylwl   >ayoluwl        Nprop   September
 
-    KaRDUS                    `noun`       {- Oayoluwl -}       [ "September" ],
+    KaRDUS                    `noun`    {- Oayoluwl -}         [ "September" ],
 
     -- ;; >ayoluwlap_1
     -- >ylwl   >ayoluwl        Nap     reversal;devolution
     -- Aylwl   >ayoluwl        Nap     reversal;devolution
 
-    KaRDUS |< aT              `noun`       {- Oayoluwlap -}     [ "reversal", "devolution" ] ]
+    KaRDUS |< aT              `noun`    {- Oayoluwlap -}       [ "reversal", "devolution" ] ]
 
  |> "' y l m" <| [
 
@@ -10217,7 +10206,7 @@ lexicon = listing "Lexicon's properties"
     -- <ylAm   <iylAm  NduAt   wound;pain
     -- AylAm   <iylAm  NduAt   wound;pain
 
-    KiRDAS                    `noun`       {- IiylAm -}         [ "wound", "pain" ] ]
+    KiRDAS                    `noun`    {- IiylAm -}           [ "wound", "pain" ] ]
 
  |> "' y l t" <| [
 
@@ -10225,7 +10214,7 @@ lexicon = listing "Lexicon's properties"
     -- <ylyt   <iyliyt Nprop   Elit
     -- Aylyt   <iyliyt Nprop   Elit
 
-    KiRDIS                    `noun`       {- Iiyliyt -}        [ "Elit" ] ]
+    KiRDIS                    `noun`    {- Iiyliyt -}          [ "Elit" ] ]
 
  |> "' y l y" <| [
 
@@ -10233,7 +10222,7 @@ lexicon = listing "Lexicon's properties"
     -- <yly    <iyliy  Nprop   Eli;Ilie
     -- Ayly    <iyliy  Nprop   Eli;Ilie
 
-    KiRDiS                    `noun`       {- Iiyliy -}         [ "Eli", "Ilie" ] ]
+    KiRDiS                    `noun`    {- Iiyliy -}           [ "Eli", "Ilie" ] ]
 
  |> "' y m" <| [
 
@@ -10241,13 +10230,13 @@ lexicon = listing "Lexicon's properties"
     -- <ymAn   <iymAn  NduAt   belief;faith
     -- AymAn   <iymAn  NduAt   belief;faith
 
-    FiCLAn                    `noun`       {- IiymAn -}         [ "belief", "faith" ],
+    FiCLAn                    `noun`    {- IiymAn -}           [ "belief", "faith" ],
 
     -- ;; <iymAn_2
     -- <ymAn   <iymAn  Nprop   Iman
     -- AymAn   <iymAn  Nprop   Iman
 
-    FiCLAn                    `noun`       {- IiymAn -}         [ "Iman" ],
+    FiCLAn                    `noun`    {- IiymAn -}           [ "Iman" ],
 
     -- ;; |m-i_1
     -- \|m      |m      PV_V_intr       be widowed
@@ -10255,39 +10244,38 @@ lexicon = listing "Lexicon's properties"
     -- }ym     }iym    IV_V_intr       be widowed
     -- }m      }im     IV_C_intr       be widowed
 
-    FAL                       `verb`       {- \|m-i -}          [ "be widowed" ]
+    FAL                       `verb`    {- \|m-i -}            [ "be widowed" ]
                               `imperf`     FIL
-                              `imperf`     FiCL
                               `ithird`     FiL,
 
     -- ;; ta>ay~am_1
     -- t>ym    ta>ay~am        PV_intr be widowed
     -- t>ym    ta>ay~am        IV_intr be widowed
 
-    TaFaCCaL                  `verb`       {- taOay~am -}       [ "be widowed" ],
+    TaFaCCaL                  `verb`    {- taOay~am -}         [ "be widowed" ],
 
     -- ;; >ay~im_1
     -- >ym     >ay~im  Ndu     widowed
     -- Aym     >ay~im  Ndu     widowed
 
-    FaCCiL                    `noun`       {- Oay~im -}         [ "widowed" ],
+    FaCCiL                    `noun`    {- Oay~im -}           [ "widowed" ],
 
     -- ;; >ayomap_1
     -- >ym     >ayom   Nap     widowhood
     -- Aym     >ayom   Nap     widowhood
 
-    FaCL |< aT                `noun`       {- Oayomap -}        [ "widowhood" ],
+    FaCL |< aT                `noun`    {- Oayomap -}          [ "widowhood" ],
 
     -- ;; >uyuwm_1
     -- >ywm    >uyuwm  N       widowhood
     -- Aywm    >uyuwm  N       widowhood
 
-    FuCUL                     `noun`       {- Ouyuwm -}         [ "widowhood" ],
+    FuCUL                     `noun`    {- Ouyuwm -}           [ "widowhood" ],
 
     -- ;; ta>ay~um_1
     -- t>ym    ta>ay~um        NduAt   widowhood
 
-    TaFaCCuL                  `noun`       {- taOay~um -}       [ "widowhood" ] ]
+    TaFaCCuL                  `noun`    {- taOay~um -}         [ "widowhood" ] ]
 
  |> "' y m n" <| [
 
@@ -10295,13 +10283,13 @@ lexicon = listing "Lexicon's properties"
     -- <ymAn   <iymAn  NduAt   belief;faith
     -- AymAn   <iymAn  NduAt   belief;faith
 
-    KiRDAS                    `noun`       {- IiymAn -}         [ "belief", "faith" ],
+    KiRDAS                    `noun`    {- IiymAn -}           [ "belief", "faith" ],
 
     -- ;; <iymAn_2
     -- <ymAn   <iymAn  Nprop   Iman
     -- AymAn   <iymAn  Nprop   Iman
 
-    KiRDAS                    `noun`       {- IiymAn -}         [ "Iman" ] ]
+    KiRDAS                    `noun`    {- IiymAn -}           [ "Iman" ] ]
 
  |> "' y m y" <| [
 
@@ -10309,7 +10297,7 @@ lexicon = listing "Lexicon's properties"
     -- >ymy    >ayomiy Nprop   Amy
     -- Aymy    >ayomiy Nprop   Amy
 
-    KaRDiS                    `noun`       {- Oayomiy -}        [ "Amy" ] ]
+    KaRDiS                    `noun`    {- Oayomiy -}          [ "Amy" ] ]
 
  |> "' y n" <| [
 
@@ -10317,47 +10305,47 @@ lexicon = listing "Lexicon's properties"
     -- <yAn    <iyAn   Nprop   Ian
     -- AyAn    <iyAn   Nprop   Ian
 
-    FiCAL                     `noun`       {- IiyAn -}          [ "Ian" ],
+    FiCAL                     `noun`    {- IiyAn -}            [ "Ian" ],
 
     -- ;; >ayAn_1
     -- >yAn    >ayAn   Nprop   Ayan
     -- AyAn    >ayAn   Nprop   Ayan
 
-    FaCAL                     `noun`       {- OayAn -}          [ "Ayan" ],
+    FaCAL                     `noun`    {- OayAn -}            [ "Ayan" ],
 
     -- ;; >ay~an_1
     -- >yn     >ay~an  PV-n    ionize
     -- Ayn     >ay~an  PV-n    ionize
     -- &yn     &ay~in  IV-n_yu ionize
 
-    FaCCaL                    `verb`       {- Oay~an -}         [ "ionize" ],
+    FaCCaL                    `verb`    {- Oay~an -}           [ "ionize" ],
 
     -- ;; ta>ay~an_1
     -- t>yn    ta>ay~an        PV-n_intr       be ionized
     -- t>yn    ta>ay~an        IV_intr be ionized
 
-    TaFaCCaL                  `verb`       {- taOay~an -}       [ "be ionized" ],
+    TaFaCCaL                  `verb`    {- taOay~an -}         [ "be ionized" ],
 
     -- ;; >uyuwn_1
     -- >ywn    >uyuwn  N/At    ion
     -- Aywn    >uyuwn  N/At    ion
 
-    FuCUL                     `noun`       {- Ouyuwn -}         [ "ion" ],
+    FuCUL                     `noun`    {- Ouyuwn -}           [ "ion" ],
 
     -- ;; ta>oyiyn_1
     -- t>yyn   ta>oyiyn        NduAt   ionization
 
-    TaFCIL                    `noun`       {- taOoyiyn -}       [ "ionization" ],
+    TaFCIL                    `noun`    {- taOoyiyn -}         [ "ionization" ],
 
     -- ;; mu&ay~in_1
     -- m&yn    mu&ay~in        N-ap    ionized
 
-    MuFaCCiL                  `noun`       {- muWay~in -}       [ "ionized" ],
+    MuFaCCiL                  `noun`    {- muWay~in -}         [ "ionized" ],
 
     -- ;; muta>ay~in_1
     -- mt>yn   muta>ay~in      N-ap    ionized
 
-    MutaFaCCiL                `noun`       {- mutaOay~in -}     [ "ionized" ] ]
+    MutaFaCCiL                `noun`    {- mutaOay~in -}       [ "ionized" ] ]
 
  |> "' y n s" <| [
 
@@ -10365,7 +10353,7 @@ lexicon = listing "Lexicon's properties"
     -- <ynAs   <iynAs  NduAt   courtesy;friendliness
     -- AynAs   <iynAs  NduAt   courtesy;friendliness
 
-    KiRDAS                    `noun`       {- IiynAs -}         [ "courtesy", "friendliness" ] ]
+    KiRDAS                    `noun`    {- IiynAs -}           [ "courtesy", "friendliness" ] ]
 
  |> "' y q n" <| [
 
@@ -10373,13 +10361,13 @@ lexicon = listing "Lexicon's properties"
     -- <yqwn   <iyquwn NapAt   icon
     -- Ayqwn   <iyquwn NapAt   icon
 
-    KiRDUS |< aT              `noun`       {- Iiyquwnap -}      [ "icon" ],
+    KiRDUS |< aT              `noun`    {- Iiyquwnap -}        [ "icon" ],
 
     -- ;; <iyquwniy~_1
     -- <yqwny  <iyquwniy~      Nall    icon     [[<iyquwniy~/ADJ]]
     -- Ayqwny  <iyquwniy~      Nall    icon     [[<iyquwniy~/ADJ]]
 
-    KiRDUS |< Iy              `adj`        {- Iiyquwniy~ -}     [ "icon" ] ]
+    KiRDUS |< Iy              `adj`     {- Iiyquwniy~ -}       [ "icon" ] ]
 
  |> "' y r" <| [
 
@@ -10387,19 +10375,19 @@ lexicon = listing "Lexicon's properties"
     -- >yAr    >ay~Ar  Nprop   May
     -- AyAr    >ay~Ar  Nprop   May
 
-    FaCCAL                    `noun`       {- Oay~Ar -}         [ "May" ],
+    FaCCAL                    `noun`    {- Oay~Ar -}           [ "May" ],
 
     -- ;; <iyr_1
     -- <yr     <iyr    Nprop   Air
     -- Ayr     <iyr    Nprop   Air
 
-    FiCL                      `noun`       {- Iiyr -}           [ "Air" ],
+    FiCL                      `noun`    {- Iiyr -}             [ "Air" ],
 
     -- ;; <iyrAn_1
     -- <yrAn   <iyrAn  N       Iran
     -- AyrAn   <iyrAn  N       Iran
 
-    FiCLAn                    `noun`       {- IiyrAn -}         [ "Iran" ],
+    FiCLAn                    `noun`    {- IiyrAn -}           [ "Iran" ],
 
     -- ;; <iyrAniy~_1
     -- <yrAny  <iyrAniy~       Nall    Iranian     [[<iyrAniy~/NOUN]]
@@ -10407,7 +10395,7 @@ lexicon = listing "Lexicon's properties"
     -- AyrAny  <iyrAniy~       Nall    Iranian     [[<iyrAniy~/NOUN]]
     -- AyrAny  <iyrAniy~       Nall    Iranian     [[<iyrAniy~/ADJ]]
 
-    FiCLAn |< Iy              `adj`        {- IiyrAniy~ -}      [ "Iranian" ] ]
+    FiCLAn |< Iy              `adj`     {- IiyrAniy~ -}        [ "Iranian" ] ]
 
  |> "' y r s" <| [
 
@@ -10415,7 +10403,7 @@ lexicon = listing "Lexicon's properties"
     -- >yrs    >ayoris N0      Aires
     -- Ayrs    >ayoris N0      Aires
 
-    KaRDiS                    `noun`       {- Oayoris -}        [ "Aires" ] ]
+    KaRDiS                    `noun`    {- Oayoris -}          [ "Aires" ] ]
 
  |> "' y s" <| [
 
@@ -10425,20 +10413,20 @@ lexicon = listing "Lexicon's properties"
     -- >ys     >oyas   IV      lose hope;despair
     -- Ays     >oyas   IV      lose hope;despair
 
-    FaCiL                     `verb`       {- Oayis-a -}        [ "lose hope", "despair" ]
+    FaCiL                     `verb`    {- Oayis-a -}          [ "lose hope", "despair" ]
                               `imperf`     FCaL,
 
     -- ;; >ayas_1
     -- >ys     >ayas   N       despair
     -- Ays     >ayas   N       despair
 
-    FaCaL                     `noun`       {- Oayas -}          [ "despair" ],
+    FaCaL                     `noun`    {- Oayas -}            [ "despair" ],
 
     -- ;; <iyAs_1
     -- <yAs    <iyAs   N       despair
     -- AyAs    <iyAs   N       despair
 
-    FiCAL                     `noun`       {- IiyAs -}          [ "despair" ] ]
+    FiCAL                     `noun`    {- IiyAs -}            [ "despair" ] ]
 
  |> "' y t r" <| [
 
@@ -10446,7 +10434,7 @@ lexicon = listing "Lexicon's properties"
     -- AytAr   <iytAr  Nprop   ITAR
     -- <ytAr   <iytAr  Nprop   ITAR
 
-    KiRDAS                    `noun`       {- IiytAr -}         [ "ITAR" ] ]
+    KiRDAS                    `noun`    {- IiytAr -}           [ "ITAR" ] ]
 
  |> "' y w" <| [
 
@@ -10454,7 +10442,7 @@ lexicon = listing "Lexicon's properties"
     -- <ywAn   <iywAn  N       palace;hall
     -- AywAn   <iywAn  N       palace;hall
 
-    FiCLAn                    `noun`       {- IiywAn -}         [ "palace", "hall" ] ]
+    FiCLAn                    `noun`    {- IiywAn -}           [ "palace", "hall" ] ]
 
  |> "' y w '" <| [
 
@@ -10468,7 +10456,7 @@ lexicon = listing "Lexicon's properties"
     -- <ywA'   <iywA'  NAt     accommodations;housing
     -- AywA'   <iywA'  NAt     accommodations;housing
 
-    KiRDAS                    `noun`       {- IiywA' -}         [ "accommodation", "housing", "accommodations" ] ]
+    KiRDAS                    `noun`    {- IiywA' -}           [ "accommodation", "housing", "accommodations" ] ]
 
  |> "' y w n" <| [
 
@@ -10476,7 +10464,7 @@ lexicon = listing "Lexicon's properties"
     -- <ywAn   <iywAn  N       palace;hall
     -- AywAn   <iywAn  N       palace;hall
 
-    KiRDAS                    `noun`       {- IiywAn -}         [ "palace", "hall" ] ]
+    KiRDAS                    `noun`    {- IiywAn -}           [ "palace", "hall" ] ]
 
  |> "' y y" <| [
 
@@ -10484,7 +10472,7 @@ lexicon = listing "Lexicon's properties"
     -- >y      >ayo    FW      i.e.;in other words     [[>ayo/CONJ]]
     -- Ay      >ayo    FW      i.e.;in other words     [[>ayo/CONJ]]
 
-    FaL                       `noun`       {- Oayo -}           [ "i.e.", "in other words" ],
+    FaL                       `noun`    {- Oayo -}             [ "i.e.", "in other words" ],
 
     -- ;; >ay~_1
     -- >y      >ay~    FW-WaBi any     [[>ay~/REL_PRON]]
@@ -10494,13 +10482,13 @@ lexicon = listing "Lexicon's properties"
     -- >yp     >ay~ap  FW-WaBi any     [[>ay~ap/REL_PRON]]
     -- Ayp     >ay~ap  FW-WaBi any     [[>ay~ap/REL_PRON]]
 
-    FaCL                      `noun`       {- Oay~ -}           [ "any", "what", "which" ],
+    FaCL                      `noun`    {- Oay~ -}             [ "any", "what", "which" ],
 
     -- ;; >ay~AF_1
     -- >yA     >ay~AF  FW-Wa   whatever;whichever     [[>ay~AF/FUNC_WORD]]
     -- AyA     >ay~AF  FW-Wa   whatever;whichever     [[>ay~AF/FUNC_WORD]]
 
-    FaCL |< aN                `noun`       {- Oay~AF -}         [ "whatever", "whichever" ],
+    FaCL |< aN                `noun`    {- Oay~AF -}           [ "whatever", "whichever" ],
 
     -- ;; >ay~_2
     -- >y      >ay~    FW-WaBi which                              [[>ay~/INTERROG_PART]]
@@ -10536,13 +10524,13 @@ lexicon = listing "Lexicon's properties"
     -- Aytkn   >ay~tkn~a       FW-WaBi which one of you [fem.pl.]         [[>ay~ap/INTERROG_PART+kun~a/PRON_2FP]]
     -- AytnA   >ay~tnA FW-WaBi which one of us                    [[>ay~ap/INTERROG_PART+nA/PRON_1P]]
 
-    FaCL                      `noun`       {- Oay~ -}           [ "which", "which one of the two", "which one of them [masc.pl.]", "which one of them", "which one of them [fem.pl.]", "which one of you two", "which one of you [masc.pl.]", "which one of you [fem.pl.]", "which one of us", "which one of you two [fem.du.]" ],
+    FaCL                      `noun`    {- Oay~ -}             [ "which", "which one of the two", "which one of them [masc.pl.]", "which one of them", "which one of them [fem.pl.]", "which one of you two", "which one of you [masc.pl.]", "which one of you [fem.pl.]", "which one of us", "which one of you two [fem.du.]" ],
 
     -- ;; |yap_1
     -- \|y      |y      NapAt   Quranic verse;miracle;sign;wonder
     -- Ay      |y      NapAt   Quranic verse;miracle;sign;wonder
 
-    FAL |< aT                 `noun`       {- \|yap -}          [ "Quranic verse", "miracle", "sign", "wonder" ] ]
+    FAL |< aT                 `noun`    {- \|yap -}            [ "Quranic verse", "miracle", "sign", "wonder" ] ]
 
  |> "' y z s" <| [
 
@@ -10550,7 +10538,7 @@ lexicon = listing "Lexicon's properties"
     -- <yzys   <iyziys N       Isis
     -- Ayzys   <iyziys N       Isis
 
-    KiRDIS                    `noun`       {- Iiyziys -}        [ "Isis" ] ]
+    KiRDIS                    `noun`    {- Iiyziys -}          [ "Isis" ] ]
 
  |> "' y z y" <| [
 
@@ -10558,7 +10546,7 @@ lexicon = listing "Lexicon's properties"
     -- <yzy    <iyziy  N0      Easy
     -- Ayzy    <iyziy  N0      Easy
 
-    KiRDiS                    `noun`       {- Iiyziy -}         [ "Easy" ] ]
+    KiRDiS                    `noun`    {- Iiyziy -}           [ "Easy" ] ]
 
  |> "' z '" <| [
 
@@ -10576,7 +10564,7 @@ lexicon = listing "Lexicon's properties"
     -- b<zA}   bi<izA} FW-Wa-o towards;facing;regarding;vis-a-vis     [[bi<izA}i/PREP]]
     -- bAzA}   bi<izA} FW-Wa-o towards;facing;regarding;vis-a-vis     [[bi<izA}i/PREP]]
 
-    FiCAL                     `noun`       {- IizA' -}          [ "towards", "facing", "regarding", "vis-a-vis" ] ]
+    FiCAL                     `noun`    {- IizA' -}            [ "towards", "facing", "regarding", "vis-a-vis" ] ]
 
  |> "' z .h" <| [
 
@@ -10586,20 +10574,20 @@ lexicon = listing "Lexicon's properties"
     -- >zH     >oziH   IV_no-Pref-A    contract;retract
     -- AzH     >oziH   IV_no-Pref-A    contract;retract
 
-    FaCaL                     `verb`       {- OazaH-i -}        [ "contract", "retract" ]
+    FaCaL                     `verb`    {- OazaH-i -}          [ "contract", "retract" ]
                               `imperf`     FCiL,
 
     -- ;; >uzuwH_1
     -- >zwH    >uzuwH  N       contraction;retraction
     -- AzwH    >uzuwH  N       contraction;retraction
 
-    FuCUL                     `noun`       {- OuzuwH -}         [ "contraction", "retraction" ],
+    FuCUL                     `noun`    {- OuzuwH -}           [ "contraction", "retraction" ],
 
     -- ;; >azuwH_1
     -- >zwH    >azuwH  Nall    lethargic;indolent
     -- AzwH    >azuwH  Nall    lethargic;indolent
 
-    FaCUL                     `noun`       {- OazuwH -}         [ "lethargic", "indolent" ] ]
+    FaCUL                     `noun`    {- OazuwH -}           [ "lethargic", "indolent" ] ]
 
  |> "' z ^g" <| [
 
@@ -10609,9 +10597,9 @@ lexicon = listing "Lexicon's properties"
     -- \|zAj    |zAj    N       ant-hills;termitaries
     -- AzAj    |zAj    N       ant-hills;termitaries
 
-    FaCaL                     `noun`       {- Oazaj -}          [ "ant-hill", "termitary", "ant-hills", "termitaries" ]
+    FaCaL                     `noun`    {- Oazaj -}            [ "ant-hill", "termitary", "ant-hills", "termitaries" ]
                               `plural`     HACAL
-                              {- `others` [ "'AzA^g N" ] -} ]
+                           {- `others`  [ "'AzA^g N" ] -} ]
 
  |> "' z b" <| [
 
@@ -10621,14 +10609,14 @@ lexicon = listing "Lexicon's properties"
     -- >zb     >ozib   IV_no-Pref-A    flow;run
     -- Azb     >ozib   IV_no-Pref-A    flow;run
 
-    FaCaL                     `verb`       {- Oazab-i -}        [ "flow", "run" ]
+    FaCaL                     `verb`    {- Oazab-i -}          [ "flow", "run" ]
                               `imperf`     FCiL,
 
     -- ;; >azob_1
     -- >zb     >azob   N       flow;running
     -- Azb     >azob   N       flow;running
 
-    FaCL                      `noun`       {- Oazob -}          [ "flow", "running" ],
+    FaCL                      `noun`    {- Oazob -}            [ "flow", "running" ],
 
     -- ;; mi}ozAb_1
     -- m}zAb   mi}ozAb Ndu     drain;gutter
@@ -10636,17 +10624,17 @@ lexicon = listing "Lexicon's properties"
     -- m|zb    ma|zib  Ndip    drains;gutters
     -- m|zyb   ma|ziyb Ndip    drains;gutters
 
-    MiFCAL                    `noun`       {- mi}ozAb -}        [ "drain", "gutter", "drains", "gutters" ]
+    MiFCAL                    `noun`    {- mi}ozAb -}          [ "drain", "gutter", "drains", "gutters" ]
                               `plural`     MaFACiL
                               `plural`     MaFACIL
                               `plural`     MICAL
-                              {- `others` [ "ma'Azib Ndip", "ma'Aziyb Ndip", "miyzAb Ndu" ] -},
+                           {- `others`  [ "ma'Azib Ndip", "ma'Aziyb Ndip", "miyzAb Ndu" ] -},
 
     -- ;; <izob_1
     -- <zb     <izob   Ndu     pudgy;stocky
     -- Azb     <izob   Ndu     pudgy;stocky
 
-    FiCL                      `noun`       {- Iizob -}          [ "pudgy", "stocky" ] ]
+    FiCL                      `noun`    {- Iizob -}            [ "pudgy", "stocky" ] ]
 
  |> "' z b k" <| [
 
@@ -10656,7 +10644,7 @@ lexicon = listing "Lexicon's properties"
     -- >wzbk   >uwzobak        N       Uzbeks
     -- Awzbk   >uwzobak        N       Uzbeks
 
-    KuRDaS                    `noun`       {- Ouzobak -}        [ "Uzbeks" ] ]
+    KuRDaS                    `noun`    {- Ouzobak -}          [ "Uzbeks" ] ]
 
  |> "' z f" <| [
 
@@ -10666,32 +10654,32 @@ lexicon = listing "Lexicon's properties"
     -- >zf     >ozaf   IV_no-Pref-A    approach;arrive
     -- Azf     >ozaf   IV_no-Pref-A    approach;arrive
 
-    FaCiL                     `verb`       {- Oazif-a -}        [ "approach", "arrive" ]
+    FaCiL                     `verb`    {- Oazif-a -}          [ "approach", "arrive" ]
                               `imperf`     FCaL,
 
     -- ;; >azaf_1
     -- >zf     >azaf   N       approach;arrival
     -- Azf     >azaf   N       approach;arrival
 
-    FaCaL                     `noun`       {- Oazaf -}          [ "approach", "arrival" ],
+    FaCaL                     `noun`    {- Oazaf -}            [ "approach", "arrival" ],
 
     -- ;; >uzuwf_1
     -- >zwf    >uzuwf  N       approach;arrival
     -- Azwf    >uzuwf  N       approach;arrival
 
-    FuCUL                     `noun`       {- Ouzuwf -}         [ "approach", "arrival" ],
+    FuCUL                     `noun`    {- Ouzuwf -}           [ "approach", "arrival" ],
 
     -- ;; >uzofap_1
     -- >zf     >uzof   Napdu   time limit;end
     -- Azf     >uzof   Napdu   time limit;end
 
-    FuCL |< aT                `noun`       {- Ouzofap -}        [ "time limit", "end" ],
+    FuCL |< aT                `noun`    {- Ouzofap -}          [ "time limit", "end" ],
 
     -- ;; |zifap_1
     -- \|zf     |zif    Nap     end
     -- Azf     |zif    Nap     end
 
-    FACiL |< aT               `noun`       {- \|zifap -}        [ "end" ] ]
+    FACiL |< aT               `noun`    {- \|zifap -}          [ "end" ] ]
 
  |> "' z l" <| [
 
@@ -10701,9 +10689,9 @@ lexicon = listing "Lexicon's properties"
     -- \|zAl    |zAl    N       eternity
     -- AzAl    |zAl    N       eternity
 
-    FaCaL                     `noun`       {- Oazal -}          [ "eternity" ]
+    FaCaL                     `noun`    {- Oazal -}            [ "eternity" ]
                               `plural`     HACAL
-                              {- `others` [ "'AzAl N" ] -} ]
+                           {- `others`  [ "'AzAl N" ] -} ]
 
  |> "' z m" <| [
 
@@ -10713,13 +10701,13 @@ lexicon = listing "Lexicon's properties"
     -- &zm     &az~im  IV_yu   aggravate;make critical
     -- &zm     &az~am  IV_Pass_yu      be aggravated;be made critical
 
-    FaCCaL                    `verb`       {- Oaz~am -}         [ "aggravate", "make critical", "be aggravated", "be made critical" ],
+    FaCCaL                    `verb`    {- Oaz~am -}           [ "aggravate", "make critical", "be aggravated", "be made critical" ],
 
     -- ;; ta>az~am_1
     -- t>zm    ta>az~am        PV      get worse;become critical
     -- t>zm    ta>az~am        IV      get worse;become critical
 
-    TaFaCCaL                  `verb`       {- taOaz~am -}       [ "get worse", "become critical" ],
+    TaFaCCaL                  `verb`    {- taOaz~am -}         [ "get worse", "become critical" ],
 
     -- ;; >azomap_1
     -- >zm     >azom   Napdu   crisis
@@ -10729,36 +10717,36 @@ lexicon = listing "Lexicon's properties"
     -- <zm     <izam   N       crises
     -- Azm     <izam   N       crises
 
-    FaCL |< aT                `noun`       {- Oazomap -}        [ "crisis", "crises" ]
+    FaCL |< aT                `noun`    {- Oazomap -}          [ "crisis", "crises" ]
                               `plural`     FaCaL |< At
                               `plural`     FiCaL
-                              {- `others` [ "'izam N" ] -},
+                           {- `others`  [ "'izam N" ] -},
 
     -- ;; |zim_1
     -- \|zm     |zim    Nall    critical;decisive
     -- Azm     |zim    Nall    critical;decisive
 
-    FACiL                     `noun`       {- \|zim -}          [ "critical", "decisive" ],
+    FACiL                     `noun`    {- \|zim -}            [ "critical", "decisive" ],
 
     -- ;; ma>ozuwm_1
     -- m>zwm   ma>ozuwm        Nall    crisis victim;chagrined
 
-    MaFCUL                    `noun`       {- maOozuwm -}       [ "crisis victim", "chagrined" ],
+    MaFCUL                    `noun`    {- maOozuwm -}         [ "crisis victim", "chagrined" ],
 
     -- ;; ta>oziym_1
     -- t>zym   ta>oziym        NduAt   aggravation;making critical
 
-    TaFCIL                    `noun`       {- taOoziym -}       [ "aggravation", "making critical" ],
+    TaFCIL                    `noun`    {- taOoziym -}         [ "aggravation", "making critical" ],
 
     -- ;; ta>az~um_1
     -- t>zm    ta>az~um        NduAt   aggravation;raising of tension
 
-    TaFaCCuL                  `noun`       {- taOaz~um -}       [ "aggravation", "raising of tension" ],
+    TaFaCCuL                  `noun`    {- taOaz~um -}         [ "aggravation", "raising of tension" ],
 
     -- ;; muta>az~im_1
     -- mt>zm   muta>az~im      Nall    tense;critical
 
-    MutaFaCCiL                `noun`       {- mutaOaz~im -}     [ "tense", "critical" ] ]
+    MutaFaCCiL                `noun`    {- mutaOaz~im -}       [ "tense", "critical" ] ]
 
  |> "' z m l" <| [
 
@@ -10768,9 +10756,9 @@ lexicon = listing "Lexicon's properties"
     -- >zAmyl  >azAmiyl        Ndip    chisels
     -- AzAmyl  >azAmiyl        Ndip    chisels
 
-    KiRDIS                    `noun`       {- Iizomiyl -}       [ "chisel", "chisels" ]
+    KiRDIS                    `noun`    {- Iizomiyl -}         [ "chisel", "chisels" ]
                               `plural`     KaRADIS
-                              {- `others` [ "'azAmiyl Ndip" ] -} ]
+                           {- `others`  [ "'azAmiyl Ndip" ] -} ]
 
  |> "' z m r" <| [
 
@@ -10778,7 +10766,7 @@ lexicon = listing "Lexicon's properties"
     -- <zmyr   <izomiyr        Ndip    Izmir;Smyrna
     -- Azmyr   <izomiyr        Ndip    Izmir;Smyrna
 
-    KiRDIS                    `noun`       {- Iizomiyr -}       [ "Izmir", "Smyrna" ] ]
+    KiRDIS                    `noun`    {- Iizomiyr -}         [ "Izmir", "Smyrna" ] ]
 
  |> "' z q" <| [
 
@@ -10788,22 +10776,22 @@ lexicon = listing "Lexicon's properties"
     -- >zq     >oziq   IV_no-Pref-A    be narrow
     -- Azq     >oziq   IV_no-Pref-A    be narrow
 
-    FaCaL                     `verb`       {- Oazaq-i -}        [ "be narrow" ]
+    FaCaL                     `verb`    {- Oazaq-i -}          [ "be narrow" ]
                               `imperf`     FCiL,
 
     -- ;; ta>az~aq_1
     -- t>zq    ta>az~aq        PV_intr be narrow
     -- t>zq    ta>az~aq        IV_intr be narrow
 
-    TaFaCCaL                  `verb`       {- taOaz~aq -}       [ "be narrow" ],
+    TaFaCCaL                  `verb`    {- taOaz~aq -}         [ "be narrow" ],
 
     -- ;; ma>oziq_1
     -- m>zq    ma>oziq Ndu     impasse;dilemma;predicament
     -- m|zq    ma|ziq  Ndip    impasses;dilemmas;predicaments
 
-    MaFCiL                    `noun`       {- maOoziq -}        [ "impasse", "dilemma", "predicament", "impasses", "dilemmas", "predicaments" ]
+    MaFCiL                    `noun`    {- maOoziq -}          [ "impasse", "dilemma", "predicament", "impasses", "dilemmas", "predicaments" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma'Aziq Ndip" ] -} ]
+                           {- `others`  [ "ma'Aziq Ndip" ] -} ]
 
  |> "' z r" <| [
 
@@ -10813,7 +10801,7 @@ lexicon = listing "Lexicon's properties"
     -- >zr     >ozir   IV_no-Pref-A    surround
     -- Azr     >ozir   IV_no-Pref-A    surround
 
-    FaCaL                     `verb`       {- Oazar-i -}        [ "surround" ]
+    FaCaL                     `verb`    {- Oazar-i -}          [ "surround" ]
                               `imperf`     FCiL,
 
     -- ;; >az~ar_1
@@ -10822,26 +10810,26 @@ lexicon = listing "Lexicon's properties"
     -- &zr     &az~ir  IV_yu   fortify;strengthen
     -- &zr     &az~ar  IV_Pass_yu      be fortified;be strengthened
 
-    FaCCaL                    `verb`       {- Oaz~ar -}         [ "fortify", "strengthen", "be fortified", "be strengthened" ],
+    FaCCaL                    `verb`    {- Oaz~ar -}           [ "fortify", "strengthen", "be fortified", "be strengthened" ],
 
     -- ;; |zar_1
     -- \|zr     |zar    PV      help;support
     -- Azr     |zar    PV      help;support
     -- &Azr    &Azir   IV_yu   help;support
 
-    FACaL                     `verb`       {- \|zar -}          [ "help", "support" ],
+    FACaL                     `verb`    {- \|zar -}            [ "help", "support" ],
 
     -- ;; ta>az~ar_1
     -- t>zr    ta>az~ar        PV_intr be wrapped in a shawl
     -- t>zr    ta>az~ar        IV_intr be wrapped in a shawl
 
-    TaFaCCaL                  `verb`       {- taOaz~ar -}       [ "be wrapped in a shawl" ],
+    TaFaCCaL                  `verb`    {- taOaz~ar -}         [ "be wrapped in a shawl" ],
 
     -- ;; ta|zar_1
     -- t|zr    ta|zar  PV      collaborate;cooperate
     -- t|zr    ta|zar  IV      collaborate;cooperate
 
-    TaFACaL                   `verb`       {- ta|zar -}         [ "collaborate", "cooperate" ],
+    TaFACaL                   `verb`    {- ta|zar -}           [ "collaborate", "cooperate" ],
 
     -- ;; {i}otazar_1
     -- <}tzr   {i}otazar       PV      wear a shawl
@@ -10850,13 +10838,13 @@ lexicon = listing "Lexicon's properties"
     -- Atzr    >otazir IV_no-Pref-A    wear a shawl
     -- tzr     tazir   IV_need-Pref-|  wear a shawl
 
-    IFtaCaL                   `verb`       {- Ai}otazar -}      [ "wear a shawl" ],
+    IFtaCaL                   `verb`    {- Ai}otazar -}        [ "wear a shawl" ],
 
     -- ;; >azor_1
     -- >zr     >azor   N       strength
     -- Azr     >azor   N       strength
 
-    FaCL                      `noun`       {- Oazor -}          [ "strength" ],
+    FaCL                      `noun`    {- Oazor -}            [ "strength" ],
 
     -- ;; <izAr_1
     -- <zAr    <izAr   Ndu     shawl
@@ -10864,37 +10852,37 @@ lexicon = listing "Lexicon's properties"
     -- >zr     >uzur   N       shawls
     -- Azr     >uzur   N       shawls
 
-    FiCAL                     `noun`       {- IizAr -}          [ "shawl", "shawls" ]
+    FiCAL                     `noun`    {- IizAr -}            [ "shawl", "shawls" ]
                               `plural`     FuCuL
-                              {- `others` [ "'uzur N" ] -},
+                           {- `others`  [ "'uzur N" ] -},
 
     -- ;; mi}ozar_1
     -- m}zr    mi}ozar Ndu     apron;covering;veil
     -- m|zr    ma|zir  Ndip    aprons;coverings;veils
 
-    MiFCaL                    `noun`       {- mi}ozar -}        [ "apron", "covering", "veil", "aprons", "coverings", "veils" ]
+    MiFCaL                    `noun`    {- mi}ozar -}          [ "apron", "covering", "veil", "aprons", "coverings", "veils" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma'Azir Ndip" ] -},
+                           {- `others`  [ "ma'Azir Ndip" ] -},
 
     -- ;; mu&Azarap_1
     -- m&Azr   mu&Azar NapAt   assistance;cooperation
 
-    MuFACaL |< aT             `noun`       {- muWAzarap -}      [ "assistance", "cooperation" ],
+    MuFACaL |< aT             `noun`    {- muWAzarap -}        [ "assistance", "cooperation" ],
 
     -- ;; ta|zur_1
     -- t|zr    ta|zur  NduAt   collaboration;coordination
 
-    TaFACuL                   `noun`       {- ta|zur -}         [ "collaboration", "coordination" ],
+    TaFACuL                   `noun`    {- ta|zur -}           [ "collaboration", "coordination" ],
 
     -- ;; muta|zir_1
     -- mt|zr   muta|zir        Nall    cooperating;coordinating
 
-    MutaFACiL                 `noun`       {- muta|zir -}       [ "cooperating", "coordinating" ],
+    MutaFACiL                 `noun`    {- muta|zir -}         [ "cooperating", "coordinating" ],
 
     -- ;; mu&otazir_1
     -- m&tzr   mu&otazir       Nall    supporter
 
-    MuFtaCiL                  `noun`       {- muWotazir -}      [ "supporter" ] ]
+    MuFtaCiL                  `noun`    {- muWotazir -}        [ "supporter" ] ]
 
  |> "' z t" <| [
 
@@ -10904,9 +10892,9 @@ lexicon = listing "Lexicon's properties"
     -- >zwt    >azuwt  N       nitrogen;azote
     -- Azwt    >azuwt  N       nitrogen;azote
 
-    FACUL                     `noun`       {- \|zuwt -}         [ "nitrogen", "azote" ]
+    FACUL                     `noun`    {- \|zuwt -}           [ "nitrogen", "azote" ]
                               `plural`     FaCUL
-                              {- `others` [ "'azuwt N" ] -} ]
+                           {- `others`  [ "'azuwt N" ] -} ]
 
  |> "' z t k" <| [
 
@@ -10914,7 +10902,7 @@ lexicon = listing "Lexicon's properties"
     -- >ztyk   >azotiyk        N       Aztecs
     -- Aztyk   >azotiyk        N       Aztecs
 
-    KaRDIS                    `noun`       {- Oazotiyk -}       [ "Aztecs" ] ]
+    KaRDIS                    `noun`    {- Oazotiyk -}         [ "Aztecs" ] ]
 
  |> "' z w" <| [
 
@@ -10932,7 +10920,7 @@ lexicon = listing "Lexicon's properties"
     -- &AzY    &AzaY   IV_0_Pass_yu    be opposite;be faced
     -- &Azy    &Azay   IV_Ann_Pass_yu  be opposite;be faced
 
-    FACY                      `verb`       {- \|zaY -}          [ "be opposite", "face", "be faced" ],
+    FACY                      `verb`    {- \|zaY -}            [ "be opposite", "face", "be faced" ],
 
     -- ;; <izA'_1
     -- <zA'    <izA'a  FW-Wa   towards;facing;regarding;vis-a-vis     [[<izA'a/PREP]]
@@ -10948,7 +10936,7 @@ lexicon = listing "Lexicon's properties"
     -- b<zA}   bi<izA} FW-Wa-o towards;facing;regarding;vis-a-vis     [[bi<izA}i/PREP]]
     -- bAzA}   bi<izA} FW-Wa-o towards;facing;regarding;vis-a-vis     [[bi<izA}i/PREP]]
 
-    FiCA'                     `noun`       {- IizA' -}          [ "towards", "facing", "regarding", "vis-a-vis" ] ]
+    FiCA'                     `noun`    {- IizA' -}            [ "towards", "facing", "regarding", "vis-a-vis" ] ]
 
  |> "' z z" <| [
 
@@ -10964,7 +10952,7 @@ lexicon = listing "Lexicon's properties"
     -- >zz     >oziz   IV_C    hum;buzz
     -- Azz     >oziz   IV_C    hum;buzz
 
-    FaCL                      `verb`       {- Oaz~-ui -}        [ "hum", "buzz" ]
+    FaCL                      `verb`    {- Oaz~-ui -}          [ "hum", "buzz" ]
                               `imperf`     FuCL
                               `imperf`     FiCL
                               `pfirst`     FaCaL
@@ -10975,19 +10963,19 @@ lexicon = listing "Lexicon's properties"
     -- t>zz    ta>az~az        PV      bubble;boil
     -- t>zz    ta>az~az        IV      bubble;boil
 
-    TaFaCCaL                  `verb`       {- taOaz~az -}       [ "bubble", "boil" ],
+    TaFaCCaL                  `verb`    {- taOaz~az -}         [ "bubble", "boil" ],
 
     -- ;; >az~_1
     -- >z      >az~    N       humming;buzzing
     -- Az      >az~    N       humming;buzzing
 
-    FaCL                      `noun`       {- Oaz~ -}           [ "humming", "buzzing" ],
+    FaCL                      `noun`    {- Oaz~ -}             [ "humming", "buzzing" ],
 
     -- ;; >aziyz_1
     -- >zyz    >aziyz  N       humming;buzzing
     -- Azyz    >aziyz  N       humming;buzzing
 
-    FaCIL                     `noun`       {- Oaziyz -}         [ "humming", "buzzing" ] ]
+    FaCIL                     `noun`    {- Oaziyz -}           [ "humming", "buzzing" ] ]
 
  |> "'A.hiyn" <| [
 
@@ -10995,13 +10983,13 @@ lexicon = listing "Lexicon's properties"
     -- \|Hyn    |Hiyn   N       albumen;albumin
     -- AHyn    |Hiyn   N       albumen;albumin
 
-    Identity                  `noun`       {- \|Hiyn -}         [ "albumen", "albumin" ],
+    Identity                  `noun`    {- \|Hiyn -}           [ "albumen", "albumin" ],
 
     -- ;; |Hiyniy~_1
     -- \|Hyny   |Hiyniy~        Nall    albuminous     [[|Hiyniy~/ADJ]]
     -- AHyny   |Hiyniy~        Nall    albuminous     [[|Hiyniy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- \|Hiyniy~ -}      [ "albuminous" ] ]
+    Identity |< Iy            `adj`     {- \|Hiyniy~ -}        [ "albuminous" ] ]
 
  |> "'A.sifiy" <| [
 
@@ -11009,7 +10997,7 @@ lexicon = listing "Lexicon's properties"
     -- \|Sfy    |Sifiy  Nprop   Asefi
     -- ASfy    |Sifiy  Nprop   Asefi
 
-    Identity                  `noun`       {- \|Sifiy -}        [ "Asefi" ] ]
+    Identity                  `noun`    {- \|Sifiy -}          [ "Asefi" ] ]
 
  |> "'AfAqiyy" <| [
 
@@ -11017,7 +11005,7 @@ lexicon = listing "Lexicon's properties"
     -- \|fAqy   |fAqiy~ Nall    provincial     [[|fAqiy~/ADJ]]
     -- AfAqy   |fAqiy~ Nall    provincial     [[|fAqiy~/ADJ]]
 
-    Identity                  `adj`        {- \|fAqiy~ -}       [ "provincial" ] ]
+    Identity                  `adj`     {- \|fAqiy~ -}         [ "provincial" ] ]
 
  |> "'Afiriyn" <| [
 
@@ -11025,7 +11013,7 @@ lexicon = listing "Lexicon's properties"
     -- \|fryn   |firiyn FW-Wa   bravo!;well done!     [[|firiyn/INTERJ]]
     -- Afryn   |firiyn FW-Wa   bravo!;well done!     [[|firiyn/INTERJ]]
 
-    Identity                  `noun`       {- \|firiyn -}       [ "bravo!", "well done!" ] ]
+    Identity                  `noun`    {- \|firiyn -}         [ "bravo!", "well done!" ] ]
 
  |> "'Amiyn" <| [
 
@@ -11033,7 +11021,7 @@ lexicon = listing "Lexicon's properties"
     -- \|myn    |miyn   FW-Wa   amen!     [[|miyn/INTERJ]]
     -- Amyn    |miyn   FW-Wa   amen!     [[|miyn/INTERJ]]
 
-    Identity                  `noun`       {- \|miyn -}         [ "amen!" ] ]
+    Identity                  `noun`    {- \|miyn -}           [ "amen!" ] ]
 
  |> "'Amuwriyy" <| [
 
@@ -11043,14 +11031,14 @@ lexicon = listing "Lexicon's properties"
     -- Amwry   |muwriy~        Nall    Amorite     [[|muwriy~/NOUN]]
     -- Amwry   |muwriy~        Nall    Amorite     [[|muwriy~/ADJ]]
 
-    Identity                  `adj`        {- \|muwriy~ -}      [ "Amorite" ] ]
+    Identity                  `adj`     {- \|muwriy~ -}        [ "Amorite" ] ]
 
  |> "'AnA" <| [
 
     -- ;; |nA_1
     -- \|nA     |nA     Nprop   Anna
 
-    Identity                  `noun`       {- \|nA -}           [ "Anna" ] ]
+    Identity                  `noun`    {- \|nA -}             [ "Anna" ] ]
 
  |> "'AnA'a" <| [
 
@@ -11064,7 +11052,7 @@ lexicon = listing "Lexicon's properties"
     -- \|nA}    |nA'}   FW-Wa-i during     [[|nA}i/PREP]]
     -- AnA}    |nA'}   FW-Wa-i during     [[|nA}i/PREP]]
 
-    Identity                  `noun`       {- \|nA'a -}         [ "during" ] ]
+    Identity                  `noun`    {- \|nA'a -}           [ "during" ] ]
 
  |> "'Ana" <| [
 
@@ -11072,7 +11060,7 @@ lexicon = listing "Lexicon's properties"
     -- Al|n    Al|na   FW-Wa   now     [[Al|na/ADV]]
     -- AlAn    Al|na   FW-Wa   now     [[Al|na/ADV]]
 
-    al >| Identity            `noun`       {- Al|na -}          [ "now" ] ]
+    al >| Identity            `noun`    {- Al|na -}            [ "now" ] ]
 
  |> "'Ana'i_diN" <| [
 
@@ -11080,7 +11068,7 @@ lexicon = listing "Lexicon's properties"
     -- \|n}*    |na}i*K FW-Wa   then;at that time      [[|na}i*K/ADV]]
     -- An}*    |na}i*K FW-Wa   then;at that time      [[|na}i*K/ADV]]
 
-    Identity                  `noun`       {- \|na}i*K -}       [ "then", "at that time" ] ]
+    Identity                  `noun`    {- \|na}i*K -}         [ "then", "at that time" ] ]
 
  |> "'Ana_dAk" <| [
 
@@ -11088,21 +11076,21 @@ lexicon = listing "Lexicon's properties"
     -- \|n*Ak   |na*Ak  FW-Wa   then;at that time      [[|na*Ak/ADV]]
     -- An*Ak   |na*Ak  FW-Wa   then;at that time      [[|na*Ak/ADV]]
 
-    Identity                  `noun`       {- \|na*Ak -}        [ "then", "at that time" ] ]
+    Identity                  `noun`    {- \|na*Ak -}          [ "then", "at that time" ] ]
 
  |> "'Anuk" <| [
 
     -- ;; |nuk_1
     -- \|nk     |nuk    N       lead
 
-    Identity                  `noun`       {- \|nuk -}          [ "lead" ] ]
+    Identity                  `noun`    {- \|nuk -}            [ "lead" ] ]
 
  |> "'AyA" <| [
 
     -- ;; |yA_1
     -- \|yA     |yA     Nprop   Aya
 
-    Identity                  `noun`       {- \|yA -}           [ "Aya" ] ]
+    Identity                  `noun`    {- \|yA -}             [ "Aya" ] ]
 
  |> "'Azuwtiyy" <| [
 
@@ -11112,7 +11100,7 @@ lexicon = listing "Lexicon's properties"
     -- >zwty   >azuwtiy~       Nall    nitrogenous     [[>azuwtiy~/ADJ]]
     -- Azwty   >azuwtiy~       Nall    nitrogenous     [[>azuwtiy~/ADJ]]
 
-    Identity                  `adj`        {- \|zuwtiy~ -}      [ "nitrogenous" ] ]
+    Identity                  `adj`     {- \|zuwtiy~ -}        [ "nitrogenous" ] ]
 
  |> "'a.gus.tus" <| [
 
@@ -11120,7 +11108,7 @@ lexicon = listing "Lexicon's properties"
     -- >gsTs   >agusoTus       N0      August
     -- AgsTs   >agusoTus       N0      August
 
-    Identity                  `noun`       {- OagusoTus -}      [ "August" ] ]
+    Identity                  `noun`    {- OagusoTus -}        [ "August" ] ]
 
  |> "'a.haruwnuwt" <| [
 
@@ -11128,7 +11116,7 @@ lexicon = listing "Lexicon's properties"
     -- >Hrwnwt >aHaruwnuwt     Nprop   Aharonot;Ahronot
     -- AHrwnwt >aHaruwnuwt     Nprop   Aharonot;Ahronot
 
-    Identity                  `noun`       {- OaHaruwnuwt -}    [ "Aharonot", "Ahronot" ] ]
+    Identity                  `noun`    {- OaHaruwnuwt -}      [ "Aharonot", "Ahronot" ] ]
 
  |> "'a.hmadAbAd" <| [
 
@@ -11136,7 +11124,7 @@ lexicon = listing "Lexicon's properties"
     -- >HmdAbAd        >aHomadAbAd     N0      Ahmadabad
     -- AHmdAbAd        >aHomadAbAd     N0      Ahmadabad
 
-    Identity                  `noun`       {- OaHomadAbAd -}    [ "Ahmadabad" ] ]
+    Identity                  `noun`    {- OaHomadAbAd -}      [ "Ahmadabad" ] ]
 
  |> "'a.s.turlAb" <| [
 
@@ -11144,7 +11132,7 @@ lexicon = listing "Lexicon's properties"
     -- >STrlAb >aSoTurolAb     NduAt   astrolabe
     -- ASTrlAb >aSoTurolAb     NduAt   astrolabe
 
-    Identity                  `noun`       {- OaSoTurolAb -}    [ "astrolabe" ] ]
+    Identity                  `noun`    {- OaSoTurolAb -}      [ "astrolabe" ] ]
 
  |> "'a.tlAn.tiqiyy" <| [
 
@@ -11154,7 +11142,7 @@ lexicon = listing "Lexicon's properties"
     -- ATlAnTqy        >aTolAnoTiqiy~  Nall    Atlantic     [[>aTolAnoTiqiy~/NOUN]]
     -- ATlAnTqy        >aTolAnoTiqiy~  Nall    Atlantic     [[>aTolAnoTiqiy~/ADJ]]
 
-    Identity                  `adj`        {- OaTolAnoTiqiy~ -} [ "Atlantic" ] ]
+    Identity                  `adj`     {- OaTolAnoTiqiy~ -}   [ "Atlantic" ] ]
 
  |> "'a.tlAn.tiyy" <| [
 
@@ -11168,7 +11156,7 @@ lexicon = listing "Lexicon's properties"
     -- ATlnTy  >aTolanoTiy~    Nall    Atlantic     [[>aTolanoTiy~/NOUN]]
     -- ATlnTy  >aTolanoTiy~    Nall    Atlantic     [[>aTolanoTiy~/ADJ]]
 
-    Identity                  `adj`        {- OaTolAnoTiy~ -}   [ "Atlantic" ] ]
+    Identity                  `adj`     {- OaTolAnoTiy~ -}     [ "Atlantic" ] ]
 
  |> "'a.tlAntiyk" <| [
 
@@ -11178,7 +11166,7 @@ lexicon = listing "Lexicon's properties"
     -- >TlnTyq >aTolanoTiyq    N0      Atlantic
     -- ATlnTyq >aTolanoTiyq    N0      Atlantic
 
-    Identity                  `noun`       {- OaTolAnotiyk -}   [ "Atlantic" ] ]
+    Identity                  `noun`    {- OaTolAnotiyk -}     [ "Atlantic" ] ]
 
  |> "'a.tlasiyy" <| [
 
@@ -11188,7 +11176,7 @@ lexicon = listing "Lexicon's properties"
     -- >Tlsy   >aTolasiy~      Nall    Atlantic;NATO     [[>aTolasiy~/ADJ]]
     -- ATlsy   >aTolasiy~      Nall    Atlantic;NATO     [[>aTolasiy~/ADJ]]
 
-    Identity                  `adj`        {- OaTolasiy~ -}     [ "Atlantic", "NATO" ] ]
+    Identity                  `adj`     {- OaTolasiy~ -}       [ "Atlantic", "NATO" ] ]
 
  |> "'a^gand" <| [
 
@@ -11198,7 +11186,7 @@ lexicon = listing "Lexicon's properties"
     -- >jnd    >ajanod NAt     agendas;schedules
     -- Ajnd    >ajanod NAt     agendas;schedules
 
-    Identity |< aT            `noun`       {- Oajanodap -}      [ "agenda", "schedule", "agendas", "schedules" ] ]
+    Identity |< aT            `noun`    {- Oajanodap -}        [ "agenda", "schedule", "agendas", "schedules" ] ]
 
  |> "'a^skiynAziy" <| [
 
@@ -11206,7 +11194,7 @@ lexicon = listing "Lexicon's properties"
     -- >$kynAzy        >a$okiynAziy    Nprop   Ashkenazi
     -- A$kynAzy        >a$okiynAziy    Nprop   Ashkenazi
 
-    Identity                  `noun`       {- Oa$okiynAziy -}   [ "Ashkenazi" ] ]
+    Identity                  `noun`    {- Oa$okiynAziy -}     [ "Ashkenazi" ] ]
 
  |> "'a^skruwft" <| [
 
@@ -11215,7 +11203,7 @@ lexicon = listing "Lexicon's properties"
     -- A$krwft >a$okruwft      N0      Ashcroft
     -- \|$krwft |$okruwft       N0      Ashcroft
 
-    Identity                  `noun`       {- Oa$okruwft -}     [ "Ashcroft" ] ]
+    Identity                  `noun`    {- Oa$okruwft -}       [ "Ashcroft" ] ]
 
  |> "'a^suwriyy" <| [
 
@@ -11229,7 +11217,7 @@ lexicon = listing "Lexicon's properties"
     -- A$wry   |$uwriy~        Nall    Assyrian     [[|$uwriy~/NOUN]]
     -- A$wry   |$uwriy~        Nall    Assyrian     [[|$uwriy~/ADJ]]
 
-    Identity                  `adj`        {- Oa$uwriy~ -}      [ "Assyrian" ],
+    Identity                  `adj`     {- Oa$uwriy~ -}        [ "Assyrian" ],
 
     -- ;; >a$uwriy~At_1
     -- >$wry   >a$uwriy~       NAt     Assyriology     [[>a$uwriy~/NOUN]]
@@ -11237,7 +11225,7 @@ lexicon = listing "Lexicon's properties"
     -- >$wry   |$uwriy~        NAt     Assyriology     [[|$uwriy~/NOUN]]
     -- A$wry   |$uwriy~        NAt     Assyriology     [[|$uwriy~/NOUN]]
 
-    Identity |< At            `noun`       {- Oa$uwriy~At -}    [ "Assyriology" ] ]
+    Identity |< At            `noun`    {- Oa$uwriy~At -}      [ "Assyriology" ] ]
 
  |> "'a_darbay^gAn" <| [
 
@@ -11245,7 +11233,7 @@ lexicon = listing "Lexicon's properties"
     -- >*rbyjAn        >a*arobayojAn   N0      Azerbeijan
     -- A*rbyjAn        >a*arobayojAn   N0      Azerbeijan
 
-    Identity                  `noun`       {- Oa*arobayojAn -}  [ "Azerbeijan" ],
+    Identity                  `noun`    {- Oa*arobayojAn -}    [ "Azerbeijan" ],
 
     -- ;; >a*arobayojAniy~_1
     -- >*rbyjAny       >a*arobayojAniy~        Nall    Azerbeijani     [[>*arobayojAniy~/NOUN]]
@@ -11253,7 +11241,7 @@ lexicon = listing "Lexicon's properties"
     -- >*rbyjAny       >a*arobayojAniy~        Nall    Azerbeijani     [[>*arobayojAniy~/ADJ]]
     -- A*rbyjAny       >a*arobayojAniy~        Nall    Azerbeijani     [[>*arobayojAniy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Oa*arobayojAniy~ -} [ "Azerbeijani" ] ]
+    Identity |< Iy            `adj`     {- Oa*arobayojAniy~ -} [ "Azerbeijani" ] ]
 
  |> "'a_hiynuws" <| [
 
@@ -11261,7 +11249,7 @@ lexicon = listing "Lexicon's properties"
     -- >xynws  >axiynuws       N       sea urchin
     -- Axynws  >axiynuws       N       sea urchin
 
-    Identity                  `noun`       {- Oaxiynuws -}      [ "sea urchin" ] ]
+    Identity                  `noun`    {- Oaxiynuws -}        [ "sea urchin" ] ]
 
  |> "'a_tiynA" <| [
 
@@ -11269,7 +11257,7 @@ lexicon = listing "Lexicon's properties"
     -- >vynA   >aviynA N0      Athens
     -- AvynA   >aviynA N0      Athens
 
-    Identity                  `noun`       {- OaviynA -}        [ "Athens" ] ]
+    Identity                  `noun`    {- OaviynA -}          [ "Athens" ] ]
 
  |> "'a_tylyn" <| [
 
@@ -11277,7 +11265,7 @@ lexicon = listing "Lexicon's properties"
     -- >vylyn  >avylyn N       ethylene
     -- Avylyn  >avylyn N       ethylene
 
-    Identity                  `noun`       {- Oavylyn -}        [ "ethylene" ] ]
+    Identity                  `noun`    {- Oavylyn -}          [ "ethylene" ] ]
 
  |> "'a_tyuwbiyA" <| [
 
@@ -11286,7 +11274,7 @@ lexicon = listing "Lexicon's properties"
     -- AvywbyA >avoyuwbiyA     N0      Ethiopia
     -- <vywbyA <ivoyuwbiyA     N0      Ethiopia
 
-    Identity                  `noun`       {- OavoyuwbiyA -}    [ "Ethiopia" ] ]
+    Identity                  `noun`    {- OavoyuwbiyA -}      [ "Ethiopia" ] ]
 
  |> "'abA^guwr" <| [
 
@@ -11294,7 +11282,7 @@ lexicon = listing "Lexicon's properties"
     -- >bAjwr  >abAjuwr        N/ap    lampshade
     -- AbAjwr  >abAjuwr        N/ap    lampshade
 
-    Identity                  `noun`       {- OabAjuwr -}       [ "lampshade" ] ]
+    Identity                  `noun`    {- OabAjuwr -}         [ "lampshade" ] ]
 
  |> "'abAbA" <| [
 
@@ -11302,7 +11290,7 @@ lexicon = listing "Lexicon's properties"
     -- >bAbA   >abAbA  Nprop   Ababa
     -- AbAbA   >abAbA  Nprop   Ababa
 
-    Identity                  `noun`       {- OabAbA -}         [ "Ababa" ] ]
+    Identity                  `noun`    {- OabAbA -}           [ "Ababa" ] ]
 
  |> "'abilmAns" <| [
 
@@ -11310,7 +11298,7 @@ lexicon = listing "Lexicon's properties"
     -- >blmAns >abilomAns      Nprop   Appelmans
     -- AblmAns >abilomAns      Nprop   Appelmans
 
-    Identity                  `noun`       {- OabilomAns -}     [ "Appelmans" ] ]
+    Identity                  `noun`    {- OabilomAns -}       [ "Appelmans" ] ]
 
  |> "'abiyd^gAn" <| [
 
@@ -11318,7 +11306,7 @@ lexicon = listing "Lexicon's properties"
     -- >bydjAn >abiydojAn      N0      Abidjan
     -- AbydjAn >abiydojAn      N0      Abidjan
 
-    Identity                  `noun`       {- OabiydojAn -}     [ "Abidjan" ] ]
+    Identity                  `noun`    {- OabiydojAn -}       [ "Abidjan" ] ]
 
  |> "'abrAhAm" <| [
 
@@ -11326,7 +11314,7 @@ lexicon = listing "Lexicon's properties"
     -- >brAhAm >aborAhAm       Nprop   Abraham
     -- AbrAhAm >aborAhAm       Nprop   Abraham
 
-    Identity                  `noun`       {- OaborAhAm -}      [ "Abraham" ] ]
+    Identity                  `noun`    {- OaborAhAm -}        [ "Abraham" ] ]
 
  |> "'abrAmiys" <| [
 
@@ -11336,7 +11324,7 @@ lexicon = listing "Lexicon's properties"
     -- >brmys  >aboramiys      N       bream
     -- Abrmys  >aboramiys      N       bream
 
-    Identity                  `noun`       {- OaborAmiys -}     [ "bream" ] ]
+    Identity                  `noun`    {- OaborAmiys -}       [ "bream" ] ]
 
  |> "'abrAmz" <| [
 
@@ -11344,7 +11332,7 @@ lexicon = listing "Lexicon's properties"
     -- >brAmz  >aborAmz        N0      Abrams
     -- AbrAmz  >aborAmz        N0      Abrams
 
-    Identity                  `noun`       {- OaborAmz -}       [ "Abrams" ] ]
+    Identity                  `noun`    {- OaborAmz -}         [ "Abrams" ] ]
 
  |> "'abuw.gunaym" <| [
 
@@ -11352,7 +11340,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwgnym >abuwgunayom    N0      Abu Ghunaim
     -- Abwgnym >abuwgunayom    N0      Abu Ghunaim
 
-    Identity                  `noun`       {- Oabuwgunayom -}   [ "Abu Ghunaim" ] ]
+    Identity                  `noun`    {- Oabuwgunayom -}     [ "Abu Ghunaim" ] ]
 
  |> "'abuw.zabiy" <| [
 
@@ -11360,7 +11348,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwZby  >abuwZabiy      N0      Abu Dhabi
     -- AbwZby  >abuwZabiy      N0      Abu Dhabi
 
-    Identity                  `noun`       {- OabuwZabiy -}     [ "Abu Dhabi" ] ]
+    Identity                  `noun`    {- OabuwZabiy -}       [ "Abu Dhabi" ] ]
 
  |> "'abuwAi_tnayn" <| [
 
@@ -11368,7 +11356,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwAvnyn        >abuwAivonayon  N0      Abu Thnain;Abuthain
     -- AbwAvnyn        >abuwAivonayon  N0      Abu Thnain;Abuthain
 
-    Identity                  `noun`       {- OabuwAivonayon -} [ "Abu Thnain", "Abuthain" ] ]
+    Identity                  `noun`    {- OabuwAivonayon -}   [ "Abu Thnain", "Abuthain" ] ]
 
  |> "'abuwAllrA.gib" <| [
 
@@ -11376,7 +11364,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwAlrAgb       >abuwAl~rAgib   N0      Abu Al-Raghib
     -- AbwAlrAgb       >abuwAl~rAgib   N0      Abu Al-Raghib
 
-    Identity                  `noun`       {- OabuwAl~rAgib -}  [ "Abu Al-Raghib" ] ]
+    Identity                  `noun`    {- OabuwAl~rAgib -}    [ "Abu Al-Raghib" ] ]
 
  |> "'abuw^gA" <| [
 
@@ -11384,7 +11372,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwjA   >abuwjA Nprop   Abuja;Abouja
     -- AbwjA   >abuwjA Nprop   Abuja;Abouja
 
-    Identity                  `noun`       {- OabuwjA -}        [ "Abuja", "Abouja" ] ]
+    Identity                  `noun`    {- OabuwjA -}          [ "Abuja", "Abouja" ] ]
 
  |> "'abuw^sanab" <| [
 
@@ -11392,7 +11380,7 @@ lexicon = listing "Lexicon's properties"
     -- >bw$nb  >abuw$anab      Nprop   Abu Shanab;Abushanab
     -- Abw$nb  >abuw$anab      Nprop   Abu Shanab;Abushanab
 
-    Identity                  `noun`       {- Oabuw$anab -}     [ "Abu Shanab", "Abushanab" ] ]
+    Identity                  `noun`    {- Oabuw$anab -}       [ "Abu Shanab", "Abushanab" ] ]
 
  |> "'abuw_tnayn" <| [
 
@@ -11400,7 +11388,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwvnyn >abuwvonayon    N0      Abu Thnain;Abuthain
     -- Abwvnyn >abuwvonayon    N0      Abu Thnain;Abuthain
 
-    Identity                  `noun`       {- Oabuwvonayon -}   [ "Abu Thnain", "Abuthain" ] ]
+    Identity                  `noun`    {- Oabuwvonayon -}     [ "Abu Thnain", "Abuthain" ] ]
 
  |> "'abuwbakr" <| [
 
@@ -11408,7 +11396,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwbkr  >abuwbakor      N0      Abu Bakr
     -- Abwbkr  >abuwbakor      N0      Abu Bakr
 
-    Identity                  `noun`       {- Oabuwbakor -}     [ "Abu Bakr" ] ]
+    Identity                  `noun`    {- Oabuwbakor -}       [ "Abu Bakr" ] ]
 
  |> "'abuwdiys" <| [
 
@@ -11416,7 +11404,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwdys  >abuwdiys       N0      Abu Dis
     -- Abwdys  >abuwdiys       N0      Abu Dis
 
-    Identity                  `noun`       {- Oabuwdiys -}      [ "Abu Dis" ] ]
+    Identity                  `noun`    {- Oabuwdiys -}        [ "Abu Dis" ] ]
 
  |> "'abuwmAzin" <| [
 
@@ -11424,7 +11412,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwmAzn >abuwmAzin      N0      Abu Mazen;Abu Mazin
     -- AbwmAzn >abuwmAzin      N0      Abu Mazen;Abu Mazin
 
-    Identity                  `noun`       {- OabuwmAzin -}     [ "Abu Mazen", "Abu Mazin" ] ]
+    Identity                  `noun`    {- OabuwmAzin -}       [ "Abu Mazen", "Abu Mazin" ] ]
 
  |> "'abuwrudayn" <| [
 
@@ -11432,7 +11420,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwrdynp        >abuwrudayonap  N0      Abu Rudaina
     -- Abwrdynp        >abuwrudayonap  N0      Abu Rudaina
 
-    Identity |< aT            `noun`       {- Oabuwrudayonap -} [ "Abu Rudaina" ] ]
+    Identity |< aT            `noun`    {- Oabuwrudayonap -}   [ "Abu Rudaina" ] ]
 
  |> "'abuwzayd" <| [
 
@@ -11440,7 +11428,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwzyd  >abuwzayod      N0      Abu Zeid
     -- Abwzyd  >abuwzayod      N0      Abu Zeid
 
-    Identity                  `noun`       {- Oabuwzayod -}     [ "Abu Zeid" ] ]
+    Identity                  `noun`    {- Oabuwzayod -}       [ "Abu Zeid" ] ]
 
  |> "'abwA" <| [
 
@@ -11448,7 +11436,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwA    >abowA  N0      oboe
     -- AbwA    >abowA  N0      oboe
 
-    Identity                  `noun`       {- OabowA -}         [ "oboe" ] ]
+    Identity                  `noun`    {- OabowA -}           [ "oboe" ] ]
 
  |> "'adirn" <| [
 
@@ -11456,7 +11444,7 @@ lexicon = listing "Lexicon's properties"
     -- >drnp   >adironap       Nprop   Edirne;Adrianople
     -- Adrnp   >adironap       Nprop   Edirne;Adrianople
 
-    Identity |< aT            `noun`       {- Oadironap -}      [ "Edirne", "Adrianople" ] ]
+    Identity |< aT            `noun`    {- Oadironap -}        [ "Edirne", "Adrianople" ] ]
 
  |> "'adiyltuwn" <| [
 
@@ -11464,7 +11452,7 @@ lexicon = listing "Lexicon's properties"
     -- >dyltwn >adiylotuwn     Nprop   Addleton
     -- Adyltwn >adiylotuwn     Nprop   Addleton
 
-    Identity                  `noun`       {- Oadiylotuwn -}    [ "Addleton" ] ]
+    Identity                  `noun`    {- Oadiylotuwn -}      [ "Addleton" ] ]
 
  |> "'admiyrA" <| [
 
@@ -11472,7 +11460,7 @@ lexicon = listing "Lexicon's properties"
     -- >dmyrA  >adomiyrA       Nprop   Admira
     -- AdmyrA  >adomiyrA       Nprop   Admira
 
-    Identity                  `noun`       {- OadomiyrA -}      [ "Admira" ] ]
+    Identity                  `noun`    {- OadomiyrA -}        [ "Admira" ] ]
 
  |> "'admiyrAl" <| [
 
@@ -11480,7 +11468,7 @@ lexicon = listing "Lexicon's properties"
     -- >dmyrAl >adomiyrAl      NduAt   Admiral     [[>adomiyrAl/NOUN]]
     -- AdmyrAl >adomiyrAl      NduAt   Admiral     [[>adomiyrAl/NOUN]]
 
-    Identity                  `noun`       {- OadomiyrAl -}     [ "Admiral" ] ]
+    Identity                  `noun`    {- OadomiyrAl -}       [ "Admiral" ] ]
 
  |> "'adriyAn" <| [
 
@@ -11488,7 +11476,7 @@ lexicon = listing "Lexicon's properties"
     -- >dryAn  >adoriyAn       Nprop   Adrian
     -- AdryAn  >adoriyAn       Nprop   Adrian
 
-    Identity                  `noun`       {- OadoriyAn -}      [ "Adrian" ] ]
+    Identity                  `noun`    {- OadoriyAn -}        [ "Adrian" ] ]
 
  |> "'adriyAnuw" <| [
 
@@ -11496,7 +11484,7 @@ lexicon = listing "Lexicon's properties"
     -- >dryAnw >adoriyAnuw     Nprop   Adriano
     -- AdryAnw >adoriyAnuw     Nprop   Adriano
 
-    Identity                  `noun`       {- OadoriyAnuw -}    [ "Adriano" ] ]
+    Identity                  `noun`    {- OadoriyAnuw -}      [ "Adriano" ] ]
 
  |> "'adriyAtiyk" <| [
 
@@ -11504,7 +11492,7 @@ lexicon = listing "Lexicon's properties"
     -- >dryAtyk        >adoriyAtiyk    N0      Adriatic
     -- AdryAtyk        >adoriyAtiyk    N0      Adriatic
 
-    Identity                  `noun`       {- OadoriyAtiyk -}   [ "Adriatic" ] ]
+    Identity                  `noun`    {- OadoriyAtiyk -}     [ "Adriatic" ] ]
 
  |> "'aduwlf" <| [
 
@@ -11512,7 +11500,7 @@ lexicon = listing "Lexicon's properties"
     -- >dwlf   >aduwlf Nprop   Adolf
     -- Adwlf   >aduwlf Nprop   Adolf
 
-    Identity                  `noun`       {- Oaduwlf -}        [ "Adolf" ] ]
+    Identity                  `noun`    {- Oaduwlf -}          [ "Adolf" ] ]
 
  |> "'aduwlfuw" <| [
 
@@ -11520,7 +11508,7 @@ lexicon = listing "Lexicon's properties"
     -- >dwlfw  >aduwlofuw      Nprop   Adolfo
     -- Adwlfw  >aduwlofuw      Nprop   Adolfo
 
-    Identity                  `noun`       {- Oaduwlofuw -}     [ "Adolfo" ] ]
+    Identity                  `noun`    {- Oaduwlofuw -}       [ "Adolfo" ] ]
 
  |> "'aduwmiym" <| [
 
@@ -11528,7 +11516,7 @@ lexicon = listing "Lexicon's properties"
     -- >dwmym  >aduwmiym       Nprop   Adumim
     -- Adwmym  >aduwmiym       Nprop   Adumim
 
-    Identity                  `noun`       {- Oaduwmiym -}      [ "Adumim" ] ]
+    Identity                  `noun`    {- Oaduwmiym -}        [ "Adumim" ] ]
 
  |> "'aduwniys" <| [
 
@@ -11536,7 +11524,7 @@ lexicon = listing "Lexicon's properties"
     -- >dwnys  >aduwniys       Nprop   Adonis
     -- Adwnys  >aduwniys       Nprop   Adonis
 
-    Identity                  `noun`       {- Oaduwniys -}      [ "Adonis" ] ]
+    Identity                  `noun`    {- Oaduwniys -}        [ "Adonis" ] ]
 
  |> "'adwArd" <| [
 
@@ -11545,7 +11533,7 @@ lexicon = listing "Lexicon's properties"
     -- <dwArd  <idowArod       Nprop   Edward;Edouard
     -- AdwArd  <idowArod       Nprop   Edward;Edouard
 
-    Identity                  `noun`       {- OadowArod -}      [ "Edward", "Edouard" ] ]
+    Identity                  `noun`    {- OadowArod -}        [ "Edward", "Edouard" ] ]
 
  |> "'af.gAnistAn" <| [
 
@@ -11553,7 +11541,7 @@ lexicon = listing "Lexicon's properties"
     -- >fgAnstAn       >afogAnisotAn   N       Afghanistan
     -- AfgAnstAn       >afogAnisotAn   N       Afghanistan
 
-    Identity                  `noun`       {- OafogAnisotAn -}  [ "Afghanistan" ] ]
+    Identity                  `noun`    {- OafogAnisotAn -}    [ "Afghanistan" ] ]
 
  |> "'af.gAniyy" <| [
 
@@ -11563,13 +11551,13 @@ lexicon = listing "Lexicon's properties"
     -- >fgAny  >afogAniy~      Nall    Afghani;Afghan     [[>afogAniy~/ADJ]]
     -- AfgAny  >afogAniy~      Nall    Afghani;Afghan     [[>afogAniy~/ADJ]]
 
-    Identity                  `adj`        {- OafogAniy~ -}     [ "Afghani", "Afghan" ],
+    Identity                  `adj`     {- OafogAniy~ -}       [ "Afghani", "Afghan" ],
 
     -- ;; >afogAniy~_2
     -- >fgAny  >afogAniy~      N0      Afghani
     -- AfgAny  >afogAniy~      N0      Afghani
 
-    Identity                  `noun`       {- OafogAniy~ -}     [ "Afghani" ] ]
+    Identity                  `noun`    {- OafogAniy~ -}       [ "Afghani" ] ]
 
  |> "'afandim" <| [
 
@@ -11577,7 +11565,7 @@ lexicon = listing "Lexicon's properties"
     -- >fndm   >afanodim       N       Sir;Madam
     -- Afndm   >afanodim       N       Sir;Madam
 
-    Identity                  `noun`       {- Oafanodim -}      [ "Sir", "Madam" ] ]
+    Identity                  `noun`    {- Oafanodim -}        [ "Sir", "Madam" ] ]
 
  |> "'afandiyy" <| [
 
@@ -11587,7 +11575,7 @@ lexicon = listing "Lexicon's properties"
     -- >fndy   >afanodiy~      Nap     Effendis;gentlemen     [[>afanodiy~/NOUN]]
     -- Afndy   >afanodiy~      Nap     Effendis;gentlemen     [[>afanodiy~/NOUN]]
 
-    Identity                  `noun`       {- Oafanodiy~ -}     [ "Effendi", "gentleman", "Effendis", "gentlemen" ] ]
+    Identity                  `noun`    {- Oafanodiy~ -}       [ "Effendi", "gentleman", "Effendis", "gentlemen" ] ]
 
  |> "'afiy.gduwr" <| [
 
@@ -11595,7 +11583,7 @@ lexicon = listing "Lexicon's properties"
     -- >fygdwr >afiygoduwr     Nprop   Avigdor
     -- Afygdwr >afiygoduwr     Nprop   Avigdor
 
-    Identity                  `noun`       {- Oafiygoduwr -}    [ "Avigdor" ] ]
+    Identity                  `noun`    {- Oafiygoduwr -}      [ "Avigdor" ] ]
 
  |> "'afiyntA_hAduw" <| [
 
@@ -11605,7 +11593,7 @@ lexicon = listing "Lexicon's properties"
     -- >fntAxAdw       >afinotAxAduw   N0      Aventajado
     -- AfntAxAdw       >afinotAxAduw   N0      Aventajado
 
-    Identity                  `noun`       {- OafiynotAxAduw -} [ "Aventajado" ] ]
+    Identity                  `noun`    {- OafiynotAxAduw -}   [ "Aventajado" ] ]
 
  |> "'aflA.tuwn" <| [
 
@@ -11613,7 +11601,7 @@ lexicon = listing "Lexicon's properties"
     -- >flATwn >afolATuwn      N0      Plato
     -- AflATwn >afolATuwn      N0      Plato
 
-    Identity                  `noun`       {- OafolATuwn -}     [ "Plato" ] ]
+    Identity                  `noun`    {- OafolATuwn -}       [ "Plato" ] ]
 
  |> "'aflA.tuwniyy" <| [
 
@@ -11623,13 +11611,13 @@ lexicon = listing "Lexicon's properties"
     -- AflATwny        >afolATuwniy~   Nall    Platonic;Platonist     [[>afolATuwniy~/NOUN]]
     -- AflATwny        >afolATuwniy~   Nall    Platonic;Platonist     [[>afolATuwniy~/ADJ]]
 
-    Identity                  `adj`        {- OafolATuwniy~ -}  [ "Platonic", "Platonist" ],
+    Identity                  `adj`     {- OafolATuwniy~ -}    [ "Platonic", "Platonist" ],
 
     -- ;; >afolATuwniy~ap_1
     -- >flATwny        >afolATuwniy~   Nap     Platonism     [[>afolATuwniy~/NOUN]]
     -- AflATwny        >afolATuwniy~   Nap     Platonism     [[>afolATuwniy~/NOUN]]
 
-    Identity |< aT            `noun`       {- OafolATuwniy~ap -} [ "Platonism" ] ]
+    Identity |< aT            `noun`    {- OafolATuwniy~ap -}  [ "Platonism" ] ]
 
  |> "'afluw.tiyn" <| [
 
@@ -11637,7 +11625,7 @@ lexicon = listing "Lexicon's properties"
     -- >flwTyn >afoluwTiyn     N       Plotinus
     -- AflwTyn >afoluwTiyn     N       Plotinus
 
-    Identity                  `noun`       {- OafoluwTiyn -}    [ "Plotinus" ] ]
+    Identity                  `noun`    {- OafoluwTiyn -}      [ "Plotinus" ] ]
 
  |> "'afrAhAm" <| [
 
@@ -11645,7 +11633,7 @@ lexicon = listing "Lexicon's properties"
     -- >frAhAm >aforAhAm       Nprop   Avraham
     -- AfrAhAm >aforAhAm       Nprop   Avraham
 
-    Identity                  `noun`       {- OaforAhAm -}      [ "Avraham" ] ]
+    Identity                  `noun`    {- OaforAhAm -}        [ "Avraham" ] ]
 
  |> "'afriykAnir" <| [
 
@@ -11653,7 +11641,7 @@ lexicon = listing "Lexicon's properties"
     -- >frykAnr        >aforiykAnir    N0      Afrikaaner
     -- AfrykAnr        >aforiykAnir    N0      Afrikaaner
 
-    Identity                  `noun`       {- OaforiykAnir -}   [ "Afrikaaner" ] ]
+    Identity                  `noun`    {- OaforiykAnir -}     [ "Afrikaaner" ] ]
 
  |> "'afriyqiyA" <| [
 
@@ -11671,7 +11659,7 @@ lexicon = listing "Lexicon's properties"
     -- >frykA  >aforiykA       Nprop   Africa
     -- AfrykA  >aforiykA       Nprop   Africa
 
-    Identity                  `noun`       {- OaforiyqiyA -}    [ "Africa", "African" ] ]
+    Identity                  `noun`    {- OaforiyqiyA -}      [ "Africa", "African" ] ]
 
  |> "'afriyqiyy" <| [
 
@@ -11687,7 +11675,7 @@ lexicon = listing "Lexicon's properties"
     -- >fArq   >afAriq Nap     Africans
     -- AfArq   >afAriq Nap     Africans
 
-    Identity                  `adj`        {- Oaforiyqiy~ -}    [ "African", "Africans" ] ]
+    Identity                  `adj`     {- Oaforiyqiy~ -}      [ "African", "Africans" ] ]
 
  |> "'afruw" <| [
 
@@ -11695,7 +11683,7 @@ lexicon = listing "Lexicon's properties"
     -- >frw    >aforuw N0      Afro
     -- Afrw    >aforuw N0      Afro
 
-    Identity                  `noun`       {- Oaforuw -}        [ "Afro" ] ]
+    Identity                  `noun`    {- Oaforuw -}          [ "Afro" ] ]
 
  |> "'afruw'asyY" <| [
 
@@ -11705,7 +11693,7 @@ lexicon = listing "Lexicon's properties"
     -- >frwAsywy       >aforuw>asoyawiy~       Nall    Afro-Asiatic;African-Asian
     -- AfrwAsywy       >aforuw>asoyawiy~       Nall    Afro-Asiatic;African-Asian
 
-    Identity |< Iy            `adj`        {- OaforuwOasoyawiy~ -} [ "Afro-Asiatic", "African-Asian" ] ]
+    Identity |< Iy            `adj`     {- OaforuwOasoyawiy~ -} [ "Afro-Asiatic", "African-Asian" ] ]
 
  |> "'afsintiyn" <| [
 
@@ -11715,7 +11703,7 @@ lexicon = listing "Lexicon's properties"
     -- <fsntyn <ifosinotiyn    N       wormwood;absinthe
     -- Afsntyn <ifosinotiyn    N       wormwood;absinthe
 
-    Identity                  `noun`       {- Oafosinotiyn -}   [ "wormwood", "absinthe" ] ]
+    Identity                  `noun`    {- Oafosinotiyn -}     [ "wormwood", "absinthe" ] ]
 
  |> "'afuwkAtuw" <| [
 
@@ -11723,7 +11711,7 @@ lexicon = listing "Lexicon's properties"
     -- >fwkAtw >afuwkAtuw      N       advocate;lawyer
     -- AfwkAtw >afuwkAtuw      N       advocate;lawyer
 
-    Identity                  `noun`       {- OafuwkAtuw -}     [ "advocate", "lawyer" ] ]
+    Identity                  `noun`    {- OafuwkAtuw -}       [ "advocate", "lawyer" ] ]
 
  |> "'akAdiymiyy" <| [
 
@@ -11731,13 +11719,13 @@ lexicon = listing "Lexicon's properties"
     -- >kAdymy >akAdiymiy~     Nall    academic;scholarly     [[>akAdiymiy~/ADJ]]
     -- AkAdymy >akAdiymiy~     Nall    academic;scholarly     [[>akAdiymiy~/ADJ]]
 
-    Identity                  `adj`        {- OakAdiymiy~ -}    [ "academic", "scholarly" ],
+    Identity                  `adj`     {- OakAdiymiy~ -}      [ "academic", "scholarly" ],
 
     -- ;; >akAdiymiy~ap_1
     -- >kAdymy >akAdiymiy~     NapAt   academy     [[>akAdiymiy~/NOUN]]
     -- AkAdymy >akAdiymiy~     NapAt   academy     [[>akAdiymiy~/NOUN]]
 
-    Identity |< aT            `noun`       {- OakAdiymiy~ap -}  [ "academy" ] ]
+    Identity |< aT            `noun`    {- OakAdiymiy~ap -}    [ "academy" ] ]
 
  |> "'akbuwbuwriy" <| [
 
@@ -11745,7 +11733,7 @@ lexicon = listing "Lexicon's properties"
     -- >kbwbwry        >akobuwbuwriy   Nprop   Akpoborie
     -- Akbwbwry        >akobuwbuwriy   Nprop   Akpoborie
 
-    Identity                  `noun`       {- Oakobuwbuwriy -}  [ "Akpoborie" ] ]
+    Identity                  `noun`    {- Oakobuwbuwriy -}    [ "Akpoborie" ] ]
 
  |> "'akriyliyk" <| [
 
@@ -11753,7 +11741,7 @@ lexicon = listing "Lexicon's properties"
     -- >krylyk >akoriyliyk     N       acrylic
     -- Akrylyk >akoriyliyk     N       acrylic
 
-    Identity                  `noun`       {- Oakoriyliyk -}    [ "acrylic" ] ]
+    Identity                  `noun`    {- Oakoriyliyk -}      [ "acrylic" ] ]
 
  |> "'aksiswAr" <| [
 
@@ -11761,7 +11749,7 @@ lexicon = listing "Lexicon's properties"
     -- >ksswAr >akosiswAr      NduAt   accessory
     -- AksswAr >akosiswAr      NduAt   accessory
 
-    Identity                  `noun`       {- OakosiswAr -}     [ "accessory" ] ]
+    Identity                  `noun`    {- OakosiswAr -}       [ "accessory" ] ]
 
  |> "'alAbAmA" <| [
 
@@ -11769,7 +11757,7 @@ lexicon = listing "Lexicon's properties"
     -- >lAbAmA >alAbAmA        Nprop   Alabama
     -- AlAbAmA >alAbAmA        Nprop   Alabama
 
-    Identity                  `noun`       {- OalAbAmA -}       [ "Alabama" ] ]
+    Identity                  `noun`    {- OalAbAmA -}         [ "Alabama" ] ]
 
  |> "'alAskA" <| [
 
@@ -11777,7 +11765,7 @@ lexicon = listing "Lexicon's properties"
     -- >lAskA  >alAsokA        N0      Alaska
     -- AlAskA  >alAsokA        N0      Alaska
 
-    Identity                  `noun`       {- OalAsokA -}       [ "Alaska" ] ]
+    Identity                  `noun`    {- OalAsokA -}         [ "Alaska" ] ]
 
  |> "'alamunyuwm" <| [
 
@@ -11789,7 +11777,7 @@ lexicon = listing "Lexicon's properties"
     -- >lwmnywm        >aluwminoyuwm   N0      aluminum
     -- Alwmnywm        >aluwminoyuwm   N0      aluminum
 
-    Identity                  `noun`       {- Oalamunoyuwm -}   [ "aluminum" ] ]
+    Identity                  `noun`    {- Oalamunoyuwm -}     [ "aluminum" ] ]
 
  |> "'albAniyA" <| [
 
@@ -11797,7 +11785,7 @@ lexicon = listing "Lexicon's properties"
     -- >lbAnyA >alobAniyA      N0      Albania
     -- AlbAnyA >alobAniyA      N0      Albania
 
-    Identity                  `noun`       {- OalobAniyA -}     [ "Albania" ] ]
+    Identity                  `noun`    {- OalobAniyA -}       [ "Albania" ] ]
 
  |> "'albirt" <| [
 
@@ -11807,7 +11795,7 @@ lexicon = listing "Lexicon's properties"
     -- >lbyrt  >alobiyrt       Nprop   Albert
     -- Albyrt  >alobiyrt       Nprop   Albert
 
-    Identity                  `noun`       {- Oalobirot -}      [ "Albert" ] ]
+    Identity                  `noun`    {- Oalobirot -}        [ "Albert" ] ]
 
  |> "'albirtA" <| [
 
@@ -11815,7 +11803,7 @@ lexicon = listing "Lexicon's properties"
     -- >lbrtA  >alobirotA      Nprop   Alberta
     -- AlbrtA  >alobirotA      Nprop   Alberta
 
-    Identity                  `noun`       {- OalobirotA -}     [ "Alberta" ] ]
+    Identity                  `noun`    {- OalobirotA -}       [ "Alberta" ] ]
 
  |> "'albirtiyniy" <| [
 
@@ -11825,7 +11813,7 @@ lexicon = listing "Lexicon's properties"
     -- >lbyrtyny       >alobiyrotiyniy Nprop   Albertini
     -- Albyrtyny       >alobiyrotiyniy Nprop   Albertini
 
-    Identity                  `noun`       {- Oalobirotiyniy -} [ "Albertini" ] ]
+    Identity                  `noun`    {- Oalobirotiyniy -}   [ "Albertini" ] ]
 
  |> "'albirtuw" <| [
 
@@ -11835,7 +11823,7 @@ lexicon = listing "Lexicon's properties"
     -- >lbyrtw >alobiyrotuw    Nprop   Alberto
     -- Albyrtw >alobiyrotuw    Nprop   Alberto
 
-    Identity                  `noun`       {- Oalobirotuw -}    [ "Alberto" ] ]
+    Identity                  `noun`    {- Oalobirotuw -}      [ "Alberto" ] ]
 
  |> "'alfA" <| [
 
@@ -11843,7 +11831,7 @@ lexicon = listing "Lexicon's properties"
     -- >lfA    >alofA  N0      alpha
     -- AlfA    >alofA  N0      alpha
 
-    Identity                  `noun`       {- OalofA -}         [ "alpha" ] ]
+    Identity                  `noun`    {- OalofA -}           [ "alpha" ] ]
 
  |> "'alfAruw" <| [
 
@@ -11851,7 +11839,7 @@ lexicon = listing "Lexicon's properties"
     -- >lfArw  >alofAruw       Nprop   Alvaro
     -- AlfArw  >alofAruw       Nprop   Alvaro
 
-    Identity                  `noun`       {- OalofAruw -}      [ "Alvaro" ] ]
+    Identity                  `noun`    {- OalofAruw -}        [ "Alvaro" ] ]
 
  |> "'alfiyrkA" <| [
 
@@ -11859,7 +11847,7 @@ lexicon = listing "Lexicon's properties"
     -- >lfyrkA >alofiyrokA     N0      Alverca
     -- AlfyrkA >alofiyrokA     N0      Alverca
 
-    Identity                  `noun`       {- OalofiyrokA -}    [ "Alverca" ] ]
+    Identity                  `noun`    {- OalofiyrokA -}      [ "Alverca" ] ]
 
  |> "'alifbA'" <| [
 
@@ -11871,7 +11859,7 @@ lexicon = listing "Lexicon's properties"
     -- AlfbA&  >alifobA&       Nh      ABC's
     -- AlfbA}  >alifobA}       Nhy     ABC's
 
-    Identity                  `noun`       {- OalifobA' -}      [ "ABC's" ],
+    Identity                  `noun`    {- OalifobA' -}        [ "ABC's" ],
 
     -- ;; >alifobA}iy~_1
     -- >lfbA}y >alifobA}iy~    Nall    alphabetic     [[>alifobA}iy~/ADJ]]
@@ -11879,7 +11867,7 @@ lexicon = listing "Lexicon's properties"
     -- >lfbA}y >alofabA}iy~    Nall    alphabetic     [[>alofabA}iy~/ADJ]]
     -- AlfbA}y >alofabA}iy~    Nall    alphabetic     [[>alofabA}iy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- OalifobA}iy~ -}   [ "alphabetic" ] ]
+    Identity |< Iy            `adj`     {- OalifobA}iy~ -}     [ "alphabetic" ] ]
 
  |> "'aliksAndrA" <| [
 
@@ -11887,7 +11875,7 @@ lexicon = listing "Lexicon's properties"
     -- >lksAndrA       >alikosAnodrA   N0      Aleksandra
     -- AlksAndrA       >alikosAnodrA   N0      Aleksandra
 
-    Identity                  `noun`       {- OalikosAnodrA -}  [ "Aleksandra" ] ]
+    Identity                  `noun`    {- OalikosAnodrA -}    [ "Aleksandra" ] ]
 
  |> "'aliksandr" <| [
 
@@ -11895,7 +11883,7 @@ lexicon = listing "Lexicon's properties"
     -- >lksndr >alikosanodr    N0      Alexander
     -- Alksndr >alikosanodr    N0      Alexander
 
-    Identity                  `noun`       {- Oalikosanodr -}   [ "Alexander" ] ]
+    Identity                  `noun`    {- Oalikosanodr -}     [ "Alexander" ] ]
 
  |> "'aliskandar" <| [
 
@@ -11903,7 +11891,7 @@ lexicon = listing "Lexicon's properties"
     -- >lskndr >alisokanodar   N0      Alexander
     -- Alskndr >alisokanodar   N0      Alexander
 
-    Identity                  `noun`       {- Oalisokanodar -}  [ "Alexander" ] ]
+    Identity                  `noun`    {- Oalisokanodar -}    [ "Alexander" ] ]
 
  |> "'aliy_hAndruw" <| [
 
@@ -11911,7 +11899,7 @@ lexicon = listing "Lexicon's properties"
     -- >lyxAndrw       >aliyxAnodruw   Nprop   Alejandro
     -- AlyxAndrw       >aliyxAnodruw   Nprop   Alejandro
 
-    Identity                  `noun`       {- OaliyxAnodruw -}  [ "Alejandro" ] ]
+    Identity                  `noun`    {- OaliyxAnodruw -}    [ "Alejandro" ] ]
 
  |> "'aliyks" <| [
 
@@ -11919,7 +11907,7 @@ lexicon = listing "Lexicon's properties"
     -- >lyks   >aliyks Nprop   Alex
     -- Alyks   >aliyks Nprop   Alex
 
-    Identity                  `noun`       {- Oaliyks -}        [ "Alex" ] ]
+    Identity                  `noun`    {- Oaliyks -}          [ "Alex" ] ]
 
  |> "'aliyksiys" <| [
 
@@ -11927,7 +11915,7 @@ lexicon = listing "Lexicon's properties"
     -- >lyksys >aliykosiys     Nprop   Alex
     -- Alyksys >aliykosiys     Nprop   Alex
 
-    Identity                  `noun`       {- Oaliykosiys -}    [ "Alex" ] ]
+    Identity                  `noun`    {- Oaliykosiys -}      [ "Alex" ] ]
 
  |> "'aliysAndruw" <| [
 
@@ -11935,7 +11923,7 @@ lexicon = listing "Lexicon's properties"
     -- >lysAndrw       >aliysAnodruw   Nprop   Alessandro
     -- AlysAndrw       >aliysAnodruw   Nprop   Alessandro
 
-    Identity                  `noun`       {- OaliysAnodruw -}  [ "Alessandro" ] ]
+    Identity                  `noun`    {- OaliysAnodruw -}    [ "Alessandro" ] ]
 
  |> "'aliysiyuw" <| [
 
@@ -11943,7 +11931,7 @@ lexicon = listing "Lexicon's properties"
     -- >lysyw  >aliysiyuw      Nprop   Alessio
     -- Alysyw  >aliysiyuw      Nprop   Alessio
 
-    Identity                  `noun`       {- Oaliysiyuw -}     [ "Alessio" ] ]
+    Identity                  `noun`    {- Oaliysiyuw -}       [ "Alessio" ] ]
 
  |> "'aliyzAbiy_t" <| [
 
@@ -11952,7 +11940,7 @@ lexicon = listing "Lexicon's properties"
     -- <lyzAbyv        <iliyzAbiyv     Nprop   Elizabeth
     -- AlyzAbyv        <iliyzAbiyv     Nprop   Elizabeth
 
-    Identity                  `noun`       {- OaliyzAbiyv -}    [ "Elizabeth" ] ]
+    Identity                  `noun`    {- OaliyzAbiyv -}      [ "Elizabeth" ] ]
 
  |> "'alkAtuw" <| [
 
@@ -11960,7 +11948,7 @@ lexicon = listing "Lexicon's properties"
     -- >lkAtw  >alokAtuw       Nprop   Alkato
     -- AlkAtw  >alokAtuw       Nprop   Alkato
 
-    Identity                  `noun`       {- OalokAtuw -}      [ "Alkato" ] ]
+    Identity                  `noun`    {- OalokAtuw -}        [ "Alkato" ] ]
 
  |> "'allA" <| [
 
@@ -11968,7 +11956,7 @@ lexicon = listing "Lexicon's properties"
     -- >lA     >al~A   FW-WaBi (in order) not to     [[>an/CONJ+lA/NEG_PART]]
     -- AlA     >al~A   FW-WaBi (in order) not to     [[>an/CONJ+lA/NEG_PART]]
 
-    Identity                  `noun`       {- Oal~A -}          [ "(in order) not to" ] ]
+    Identity                  `noun`    {- Oal~A -}            [ "(in order) not to" ] ]
 
  |> "'almAniyA" <| [
 
@@ -11976,7 +11964,7 @@ lexicon = listing "Lexicon's properties"
     -- >lmAnyA >alomAniyA      N0      Germany
     -- AlmAnyA >alomAniyA      N0      Germany
 
-    Identity                  `noun`       {- OalomAniyA -}     [ "Germany" ] ]
+    Identity                  `noun`    {- OalomAniyA -}       [ "Germany" ] ]
 
  |> "'almiydA" <| [
 
@@ -11984,7 +11972,7 @@ lexicon = listing "Lexicon's properties"
     -- >lmydA  >alomiydA       N0      Almeda
     -- AlmydA  >alomiydA       N0      Almeda
 
-    Identity                  `noun`       {- OalomiydA -}      [ "Almeda" ] ]
+    Identity                  `noun`    {- OalomiydA -}        [ "Almeda" ] ]
 
  |> "'aluwnzuw" <| [
 
@@ -11992,7 +11980,7 @@ lexicon = listing "Lexicon's properties"
     -- >lwnzw  >aluwnozuw      Nprop   Alonso;Alonzo
     -- Alwnzw  >aluwnozuw      Nprop   Alonso;Alonzo
 
-    Identity                  `noun`       {- Oaluwnozuw -}     [ "Alonso", "Alonzo" ] ]
+    Identity                  `noun`    {- Oaluwnozuw -}       [ "Alonso", "Alonzo" ] ]
 
  |> "'alzAmuwrA" <| [
 
@@ -12000,7 +11988,7 @@ lexicon = listing "Lexicon's properties"
     -- >lzAmwrA        >alozAmuwrA     Nprop   Alzamora
     -- AlzAmwrA        >alozAmuwrA     Nprop   Alzamora
 
-    Identity                  `noun`       {- OalozAmuwrA -}    [ "Alzamora" ] ]
+    Identity                  `noun`    {- OalozAmuwrA -}      [ "Alzamora" ] ]
 
  |> "'alzhAymir" <| [
 
@@ -12008,7 +11996,7 @@ lexicon = listing "Lexicon's properties"
     -- >lzhAymr        >alozohAyomir   N0      Alzheimer;Alzheimer's
     -- AlzhAymr        >alozohAyomir   N0      Alzheimer;Alzheimer's
 
-    Identity                  `noun`       {- OalozohAyomir -}  [ "Alzheimer", "Alzheimer's" ] ]
+    Identity                  `noun`    {- OalozohAyomir -}    [ "Alzheimer", "Alzheimer's" ] ]
 
  |> "'amAduwrA" <| [
 
@@ -12016,7 +12004,7 @@ lexicon = listing "Lexicon's properties"
     -- >mAdwrA >amAduwrA       Nprop   Amadora
     -- AmAdwrA >amAduwrA       Nprop   Amadora
 
-    Identity                  `noun`       {- OamAduwrA -}      [ "Amadora" ] ]
+    Identity                  `noun`    {- OamAduwrA -}        [ "Amadora" ] ]
 
  |> "'amAma" <| [
 
@@ -12032,7 +12020,7 @@ lexicon = listing "Lexicon's properties"
     -- >mAm    >amAm   FW-Wa-o in front of;facing     [[>amAm/PREP]]
     -- AmAm    >amAm   FW-Wa-o in front of;facing     [[>amAm/PREP]]
 
-    Identity                  `noun`       {- OamAma -}         [ "in front of", "facing" ] ]
+    Identity                  `noun`    {- OamAma -}           [ "in front of", "facing" ] ]
 
  |> "'amAndA" <| [
 
@@ -12040,7 +12028,7 @@ lexicon = listing "Lexicon's properties"
     -- >mAndA  >amAnodA        Nprop   Amanda
     -- AmAndA  >amAnodA        Nprop   Amanda
 
-    Identity                  `noun`       {- OamAnodA -}       [ "Amanda" ] ]
+    Identity                  `noun`    {- OamAnodA -}         [ "Amanda" ] ]
 
  |> "'amAzuwn" <| [
 
@@ -12050,7 +12038,7 @@ lexicon = listing "Lexicon's properties"
     -- \|mAzwn  |mAzuwn N0      Amazon
     -- AmAzwn  |mAzuwn N0      Amazon
 
-    Identity                  `noun`       {- OamAzuwn -}       [ "Amazon" ] ]
+    Identity                  `noun`    {- OamAzuwn -}         [ "Amazon" ] ]
 
  |> "'ambAsAd" <| [
 
@@ -12060,7 +12048,7 @@ lexicon = listing "Lexicon's properties"
     -- <mbAsAd <imobAsAd       N0      embassy
     -- AmbAsAd <imobAsAd       N0      embassy
 
-    Identity                  `noun`       {- OamobAsAd -}      [ "embassy" ] ]
+    Identity                  `noun`    {- OamobAsAd -}        [ "embassy" ] ]
 
  |> "'amiylkAr" <| [
 
@@ -12068,7 +12056,7 @@ lexicon = listing "Lexicon's properties"
     -- AmylkAr >amiylokAr      Nprop   Amilcar
     -- >mylkAr >amiylokAr      Nprop   Amilcar
 
-    Identity                  `noun`       {- OamiylokAr -}     [ "Amilcar" ] ]
+    Identity                  `noun`    {- OamiylokAr -}       [ "Amilcar" ] ]
 
  |> "'amiyniyy" <| [
 
@@ -12076,7 +12064,7 @@ lexicon = listing "Lexicon's properties"
     -- >myny   >amiyniy~       N/ap    amino     [[>amiyniy~/ADJ]]
     -- Amyny   >amiyniy~       N/ap    amino     [[>amiyniy~/ADJ]]
 
-    Identity                  `adj`        {- Oamiyniy~ -}      [ "amino" ] ]
+    Identity                  `adj`     {- Oamiyniy~ -}        [ "amino" ] ]
 
  |> "'amiyrAl" <| [
 
@@ -12084,7 +12072,7 @@ lexicon = listing "Lexicon's properties"
     -- >myrAl  >amiyrAl        N       admiral
     -- AmyrAl  >amiyrAl        N       admiral
 
-    Identity                  `noun`       {- OamiyrAl -}       [ "admiral" ] ]
+    Identity                  `noun`    {- OamiyrAl -}         [ "admiral" ] ]
 
  |> "'amiyrAliyy" <| [
 
@@ -12092,13 +12080,13 @@ lexicon = listing "Lexicon's properties"
     -- >myrAly >amiyrAliy~     Nall    admiral
     -- AmyrAly >amiyrAliy~     Nall    admiral
 
-    Identity                  `noun`       {- OamiyrAliy~ -}    [ "admiral" ],
+    Identity                  `noun`    {- OamiyrAliy~ -}      [ "admiral" ],
 
     -- ;; >amiyrAliy~_2
     -- >myrAly >amiyrAliy~     Nap     admiralty     [[>amiyrAliy~/NOUN]]
     -- AmyrAly >amiyrAliy~     Nap     admiralty     [[>amiyrAliy~/NOUN]]
 
-    Identity                  `noun`       {- OamiyrAliy~ -}    [ "admiralty" ] ]
+    Identity                  `noun`    {- OamiyrAliy~ -}      [ "admiralty" ] ]
 
  |> "'ammA" <| [
 
@@ -12107,7 +12095,7 @@ lexicon = listing "Lexicon's properties"
     -- AmA     >am~A   FW-Wa   as for;concerning      [[>am~A/PREP]]
     -- <mA     >am~A   FW-Wa   as for;concerning      [[>am~A/PREP]]
 
-    Identity                  `noun`       {- Oam~A -}          [ "as for", "concerning" ] ]
+    Identity                  `noun`    {- Oam~A -}            [ "as for", "concerning" ] ]
 
  |> "'amnistiy" <| [
 
@@ -12117,7 +12105,7 @@ lexicon = listing "Lexicon's properties"
     -- >mnysty >amoniysotiy    N0      Amnesty
     -- Amnysty >amoniysotiy    N0      Amnesty
 
-    Identity                  `noun`       {- Oamonisotiy -}    [ "Amnesty" ] ]
+    Identity                  `noun`    {- Oamonisotiy -}      [ "Amnesty" ] ]
 
  |> "'amriykA" <| [
 
@@ -12127,7 +12115,7 @@ lexicon = listing "Lexicon's properties"
     -- >myrkA  >amiyrokA       N0      America
     -- AmyrkA  >amiyrokA       N0      America
 
-    Identity                  `noun`       {- OamoriykA -}      [ "America" ] ]
+    Identity                  `noun`    {- OamoriykA -}        [ "America" ] ]
 
  |> "'amstirdAm" <| [
 
@@ -12135,7 +12123,7 @@ lexicon = listing "Lexicon's properties"
     -- >mstrdAm        >amostirodAm    N0      Amsterdam
     -- AmstrdAm        >amostirodAm    N0      Amsterdam
 
-    Identity                  `noun`       {- OamostirodAm -}   [ "Amsterdam" ] ]
+    Identity                  `noun`    {- OamostirodAm -}     [ "Amsterdam" ] ]
 
  |> "'an.guwlA" <| [
 
@@ -12143,7 +12131,7 @@ lexicon = listing "Lexicon's properties"
     -- >ngwlA  >anoguwlA       N0      Angola
     -- AngwlA  >anoguwlA       N0      Angola
 
-    Identity                  `noun`       {- OanoguwlA -}      [ "Angola" ] ]
+    Identity                  `noun`    {- OanoguwlA -}        [ "Angola" ] ]
 
  |> "'an.talyAs" <| [
 
@@ -12151,7 +12139,7 @@ lexicon = listing "Lexicon's properties"
     -- >nTlyAs >anoTaloyAs     Nprop   Antalyas
     -- AnTlyAs >anoTaloyAs     Nprop   Antalyas
 
-    Identity                  `noun`       {- OanoTaloyAs -}    [ "Antalyas" ] ]
+    Identity                  `noun`    {- OanoTaloyAs -}      [ "Antalyas" ] ]
 
  |> "'an.tuwAn" <| [
 
@@ -12159,7 +12147,7 @@ lexicon = listing "Lexicon's properties"
     -- >nTwAn  >anoTuwAn       Nprop   Antoine;Antoin
     -- AnTwAn  >anoTuwAn       Nprop   Antoine;Antoin
 
-    Identity                  `noun`       {- OanoTuwAn -}      [ "Antoine", "Antoin" ] ]
+    Identity                  `noun`    {- OanoTuwAn -}        [ "Antoine", "Antoin" ] ]
 
  |> "'an.tuwniyuw" <| [
 
@@ -12167,7 +12155,7 @@ lexicon = listing "Lexicon's properties"
     -- >nTwnyw >anoTuwniyuw    Nprop   Antonio
     -- AnTwnyw >anoTuwniyuw    Nprop   Antonio
 
-    Identity                  `noun`       {- OanoTuwniyuw -}   [ "Antonio" ] ]
+    Identity                  `noun`    {- OanoTuwniyuw -}     [ "Antonio" ] ]
 
  |> "'an.tuwnuwf" <| [
 
@@ -12175,7 +12163,7 @@ lexicon = listing "Lexicon's properties"
     -- >nTwnwf >anoTuwnuwf     N0      Antonov
     -- AnTwnwf >anoTuwnuwf     N0      Antonov
 
-    Identity                  `noun`       {- OanoTuwnuwf -}    [ "Antonov" ] ]
+    Identity                  `noun`    {- OanoTuwnuwf -}      [ "Antonov" ] ]
 
  |> "'anA.duwl" <| [
 
@@ -12183,7 +12171,7 @@ lexicon = listing "Lexicon's properties"
     -- >nADwl  >anADuwl        N0      Anatolia
     -- AnADwl  >anADuwl        N0      Anatolia
 
-    Identity                  `noun`       {- OanADuwl -}       [ "Anatolia" ],
+    Identity                  `noun`    {- OanADuwl -}         [ "Anatolia" ],
 
     -- ;; >anADuwliy~_1
     -- >nADwly >anADuwliy~     Nall    Anatolian     [[>anADuwliy~/NOUN]]
@@ -12191,7 +12179,7 @@ lexicon = listing "Lexicon's properties"
     -- >nADwly >anADuwliy~     Nall    Anatolian     [[>anADuwliy~/ADJ]]
     -- AnADwly >anADuwliy~     Nall    Anatolian     [[>anADuwliy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- OanADuwliy~ -}    [ "Anatolian" ] ]
+    Identity |< Iy            `adj`     {- OanADuwliy~ -}      [ "Anatolian" ] ]
 
  |> "'anAnAs" <| [
 
@@ -12199,7 +12187,7 @@ lexicon = listing "Lexicon's properties"
     -- >nAnAs  >anAnAs N       pineapple
     -- AnAnAs  >anAnAs N       pineapple
 
-    Identity                  `noun`       {- OanAnAs -}        [ "pineapple" ] ]
+    Identity                  `noun`    {- OanAnAs -}          [ "pineapple" ] ]
 
  |> "'anAstAziyA" <| [
 
@@ -12207,7 +12195,7 @@ lexicon = listing "Lexicon's properties"
     -- >nAstAzyA       >anAsotAziyA    Nprop   Anastasia
     -- AnAstAzyA       >anAsotAziyA    Nprop   Anastasia
 
-    Identity                  `noun`       {- OanAsotAziyA -}   [ "Anastasia" ] ]
+    Identity                  `noun`    {- OanAsotAziyA -}     [ "Anastasia" ] ]
 
  |> "'anAtuwliy" <| [
 
@@ -12215,7 +12203,7 @@ lexicon = listing "Lexicon's properties"
     -- >nAtwly >anAtuwliy      Nprop   Anatoly
     -- AnAtwly >anAtuwliy      Nprop   Anatoly
 
-    Identity                  `noun`       {- OanAtuwliy -}     [ "Anatoly" ] ]
+    Identity                  `noun`    {- OanAtuwliy -}       [ "Anatoly" ] ]
 
  |> "'an^gAliy" <| [
 
@@ -12223,7 +12211,7 @@ lexicon = listing "Lexicon's properties"
     -- >njAly  >anojAliy       Nprop   Anjali
     -- AnjAly  >anojAliy       Nprop   Anjali
 
-    Identity                  `noun`       {- OanojAliy -}      [ "Anjali" ] ]
+    Identity                  `noun`    {- OanojAliy -}        [ "Anjali" ] ]
 
  |> "'an^gilis" <| [
 
@@ -12237,7 +12225,7 @@ lexicon = listing "Lexicon's properties"
     -- >njylys >anojiyliys     Nprop   Angeles
     -- Anjylys >anojiyliys     Nprop   Angeles
 
-    Identity                  `noun`       {- Oanojilis -}      [ "Angeles" ] ]
+    Identity                  `noun`    {- Oanojilis -}        [ "Angeles" ] ]
 
  |> "'an^giluwsaksuwn" <| [
 
@@ -12245,7 +12233,7 @@ lexicon = listing "Lexicon's properties"
     -- >njlwskswn      >anojluwsakosuwn        N0      Anglo-Saxons
     -- Anjlwskswn      >anojluwsakosuwn        N0      Anglo-Saxons
 
-    Identity                  `noun`       {- Oanojiluwsakosuwn -} [ "Anglo-Saxons" ],
+    Identity                  `noun`    {- Oanojiluwsakosuwn -} [ "Anglo-Saxons" ],
 
     -- ;; >anojiluwsakosuwniy~_1
     -- >njlwskswny     >anojluwsakosuwniy~     Nall    Anglo-Saxon     [[>anojiluwsakosuwniy~/NOUN]]
@@ -12253,7 +12241,7 @@ lexicon = listing "Lexicon's properties"
     -- Anjlwskswny     >anojluwsakosuwniy~     Nall    Anglo-Saxon     [[>anojiluwsakosuwniy~/NOUN]]
     -- Anjlwskswny     >anojluwsakosuwniy~     Nall    Anglo-Saxon     [[>anojiluwsakosuwniy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Oanojiluwsakosuwniy~ -} [ "Anglo-Saxon" ] ]
+    Identity |< Iy            `adj`     {- Oanojiluwsakosuwniy~ -} [ "Anglo-Saxon" ] ]
 
  |> "'an^glaz" <| [
 
@@ -12262,13 +12250,13 @@ lexicon = listing "Lexicon's properties"
     -- Anjlz   >anojlaz        PV      Anglicize
     -- &njlz   &anojliz        IV      Anglicize
 
-    Identity                  `verb`       {- Oanojlaz -}       [ "Anglicize" ],
+    Identity                  `verb`    {- Oanojlaz -}         [ "Anglicize" ],
 
     -- ;; >anojlazap_1
     -- >njlz   >anojlaz        Nap     Anglicization
     -- Anjlz   >anojlaz        Nap     Anglicization
 
-    Identity |< aT            `noun`       {- Oanojlazap -}     [ "Anglicization" ] ]
+    Identity |< aT            `noun`    {- Oanojlazap -}       [ "Anglicization" ] ]
 
  |> "'an^gliykAn" <| [
 
@@ -12282,7 +12270,7 @@ lexicon = listing "Lexicon's properties"
     -- >nglykAny       >anogliykAniy~  Nall    Anglican     [[>anojliykAniy~/ADJ]]
     -- AnglykAny       >anogliykAniy~  Nall    Anglican     [[>anojliykAniy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- OanojliykAniy~ -} [ "Anglican" ] ]
+    Identity |< Iy            `adj`     {- OanojliykAniy~ -}   [ "Anglican" ] ]
 
  |> "'an^gluw" <| [
 
@@ -12290,7 +12278,7 @@ lexicon = listing "Lexicon's properties"
     -- >njlw   >anojluw        N0      Anglo
     -- Anjlw   >anojluw        N0      Anglo
 
-    Identity                  `noun`       {- Oanojluw -}       [ "Anglo" ] ]
+    Identity                  `noun`    {- Oanojluw -}         [ "Anglo" ] ]
 
  |> "'an^guwlA" <| [
 
@@ -12298,7 +12286,7 @@ lexicon = listing "Lexicon's properties"
     -- >njwlA  >anojuwlA       N0      Angola
     -- AnjwlA  >anojuwlA       N0      Angola
 
-    Identity                  `noun`       {- OanojuwlA -}      [ "Angola" ] ]
+    Identity                  `noun`    {- OanojuwlA -}        [ "Angola" ] ]
 
  |> "'an^siyluwtiy" <| [
 
@@ -12306,7 +12294,7 @@ lexicon = listing "Lexicon's properties"
     -- >n$ylwty        >ano$iyluwtiy   Nprop   Ancelotti
     -- An$ylwty        >ano$iyluwtiy   Nprop   Ancelotti
 
-    Identity                  `noun`       {- Oano$iyluwtiy -}  [ "Ancelotti" ] ]
+    Identity                  `noun`    {- Oano$iyluwtiy -}    [ "Ancelotti" ] ]
 
  |> "'an^siyniyh" <| [
 
@@ -12314,7 +12302,7 @@ lexicon = listing "Lexicon's properties"
     -- >n$ynyh >ano$iyniyh     Nprop   Enchaine
     -- An$ynyh >ano$iyniyh     Nprop   Enchaine
 
-    Identity                  `noun`       {- Oano$iyniyh -}    [ "Enchaine" ] ]
+    Identity                  `noun`    {- Oano$iyniyh -}      [ "Enchaine" ] ]
 
  |> "'an_truwbuwluw^g" <| [
 
@@ -12322,7 +12310,7 @@ lexicon = listing "Lexicon's properties"
     -- >nvrwbwlwjy     >anovruwbuwluwjiy~      Nall    anthropological     [[>anovruwbuwluwjiy~/ADJ]]
     -- Anvrwbwlwjy     >anovruwbuwluwjiy~      Nall    anthropological     [[>anovruwbuwluwjiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Oanovruwbuwluwjiy~ -} [ "anthropological" ] ]
+    Identity |< Iy            `adj`     {- Oanovruwbuwluwjiy~ -} [ "anthropological" ] ]
 
  |> "'an_truwbuwluw^giyA" <| [
 
@@ -12332,7 +12320,7 @@ lexicon = listing "Lexicon's properties"
     -- >nvrwbwlwjy     >anovruwbuwluwjiy~      Nap     anthropology     [[>anovruwbuwluwjiy~/NOUN]]
     -- Anvrwbwlwjy     >anovruwbuwluwjiy~      Nap     anthropology     [[>anovruwbuwluwjiy~/NOUN]]
 
-    Identity                  `noun`       {- OanovruwbuwluwjiyA -} [ "anthropology" ] ]
+    Identity                  `noun`    {- OanovruwbuwluwjiyA -} [ "anthropology" ] ]
 
  |> "'anamuwn" <| [
 
@@ -12340,7 +12328,7 @@ lexicon = listing "Lexicon's properties"
     -- >nmwn   >anamuwn        N       anemone
     -- Anmwn   >anamuwn        N       anemone
 
-    Identity                  `noun`       {- Oanamuwn -}       [ "anemone" ] ]
+    Identity                  `noun`    {- Oanamuwn -}         [ "anemone" ] ]
 
  |> "'anastAy" <| [
 
@@ -12348,7 +12336,7 @@ lexicon = listing "Lexicon's properties"
     -- >nstAy  >anasotAy       Nprop   Anastai
     -- AnstAy  >anasotAy       Nprop   Anastai
 
-    Identity                  `noun`       {- OanasotAy -}      [ "Anastai" ] ]
+    Identity                  `noun`    {- OanasotAy -}        [ "Anastai" ] ]
 
  |> "'anbA" <| [
 
@@ -12356,7 +12344,7 @@ lexicon = listing "Lexicon's properties"
     -- >nbA    >anobA  N0      Abba;Bishop
     -- AnbA    >anobA  N0      Abba;Bishop
 
-    Identity                  `noun`       {- OanobA -}         [ "Abba", "Bishop" ] ]
+    Identity                  `noun`    {- OanobA -}           [ "Abba", "Bishop" ] ]
 
  |> "'andalus" <| [
 
@@ -12364,7 +12352,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndls   >anodalus       N       Andalusia
     -- Andls   >anodalus       N       Andalusia
 
-    Identity                  `noun`       {- Oanodalus -}      [ "Andalusia" ],
+    Identity                  `noun`    {- Oanodalus -}        [ "Andalusia" ],
 
     -- ;; >anodalusiy~_1
     -- >ndlsy  >anodalusiy~    Nall    Andalusian     [[>anodalusiy~/NOUN]]
@@ -12372,7 +12360,7 @@ lexicon = listing "Lexicon's properties"
     -- Andlsy  >anodalusiy~    Nall    Andalusian     [[>anodalusiy~/NOUN]]
     -- Andlsy  >anodalusiy~    Nall    Andalusian     [[>anodalusiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Oanodalusiy~ -}   [ "Andalusian" ] ]
+    Identity |< Iy            `adj`     {- Oanodalusiy~ -}     [ "Andalusian" ] ]
 
  |> "'andirli_ht" <| [
 
@@ -12380,7 +12368,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndrlxt >anodirolixot   Nprop   Anderlecht
     -- Andrlxt >anodirolixot   Nprop   Anderlecht
 
-    Identity                  `noun`       {- Oanodirolixot -}  [ "Anderlecht" ] ]
+    Identity                  `noun`    {- Oanodirolixot -}    [ "Anderlecht" ] ]
 
  |> "'andirsuwn" <| [
 
@@ -12388,7 +12376,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndrswn >anodirosuwn    Nprop   Anderson
     -- Andrswn >anodirosuwn    Nprop   Anderson
 
-    Identity                  `noun`       {- Oanodirosuwn -}   [ "Anderson" ] ]
+    Identity                  `noun`    {- Oanodirosuwn -}     [ "Anderson" ] ]
 
  |> "'andirtuwn" <| [
 
@@ -12396,7 +12384,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndrtwn >anodirotuwn    Nprop   Anderton
     -- Andrtwn >anodirotuwn    Nprop   Anderton
 
-    Identity                  `noun`       {- Oanodirotuwn -}   [ "Anderton" ] ]
+    Identity                  `noun`    {- Oanodirotuwn -}     [ "Anderton" ] ]
 
  |> "'andriy" <| [
 
@@ -12404,13 +12392,13 @@ lexicon = listing "Lexicon's properties"
     -- >ndry   >anodriy        Nprop   Andre;Andrei
     -- Andry   >anodriy        Nprop   Andre;Andrei
 
-    Identity                  `noun`       {- Oanodriy -}       [ "Andre", "Andrei" ],
+    Identity                  `noun`    {- Oanodriy -}         [ "Andre", "Andrei" ],
 
     -- ;; >anodriyap_1
     -- >ndryp  >anodriyap      Nprop   Andrea
     -- Andryp  >anodriyap      Nprop   Andrea
 
-    Identity |< aT            `noun`       {- Oanodriyap -}     [ "Andrea" ] ]
+    Identity |< aT            `noun`    {- Oanodriyap -}       [ "Andrea" ] ]
 
  |> "'andriyA" <| [
 
@@ -12418,7 +12406,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndryA  >anodriyA       Nprop   Andrea
     -- AndryA  >anodriyA       Nprop   Andrea
 
-    Identity                  `noun`       {- OanodriyA -}      [ "Andrea" ] ]
+    Identity                  `noun`    {- OanodriyA -}        [ "Andrea" ] ]
 
  |> "'andriyAs" <| [
 
@@ -12426,7 +12414,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndryAs >anodriyAs      Nprop   Andreas
     -- AndryAs >anodriyAs      Nprop   Andreas
 
-    Identity                  `noun`       {- OanodriyAs -}     [ "Andreas" ] ]
+    Identity                  `noun`    {- OanodriyAs -}       [ "Andreas" ] ]
 
  |> "'andriyh" <| [
 
@@ -12434,7 +12422,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndryh  >anodriyh       Nprop   Andre;Andrea
     -- Andryh  >anodriyh       Nprop   Andre;Andrea
 
-    Identity                  `noun`       {- Oanodriyh -}      [ "Andre", "Andrea" ] ]
+    Identity                  `noun`    {- Oanodriyh -}        [ "Andre", "Andrea" ] ]
 
  |> "'andriyif" <| [
 
@@ -12444,7 +12432,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndryyf >anodriyyif     Nprop   Andreyev
     -- Andryyf >anodriyyif     Nprop   Andreyev
 
-    Identity                  `noun`       {- Oanodriyif -}     [ "Andreyev" ] ]
+    Identity                  `noun`    {- Oanodriyif -}       [ "Andreyev" ] ]
 
  |> "'andriys" <| [
 
@@ -12452,7 +12440,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndrys  >anodriys       Nprop   Andres
     -- Andrys  >anodriys       Nprop   Andres
 
-    Identity                  `noun`       {- Oanodriys -}      [ "Andres" ] ]
+    Identity                  `noun`    {- Oanodriys -}        [ "Andres" ] ]
 
  |> "'andriyuw" <| [
 
@@ -12460,7 +12448,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndryw  >anodriyuw      Nprop   Andreo
     -- Andryw  >anodriyuw      Nprop   Andreo
 
-    Identity                  `noun`       {- Oanodriyuw -}     [ "Andreo" ] ]
+    Identity                  `noun`    {- Oanodriyuw -}       [ "Andreo" ] ]
 
  |> "'andriyuwtiy" <| [
 
@@ -12468,7 +12456,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndrywty        >anodriyuwtiy   N0      Andreotti
     -- Andrywty        >anodriyuwtiy   N0      Andreotti
 
-    Identity                  `noun`       {- Oanodriyuwtiy -}  [ "Andreotti" ] ]
+    Identity                  `noun`    {- Oanodriyuwtiy -}    [ "Andreotti" ] ]
 
  |> "'andriyyifuw" <| [
 
@@ -12476,7 +12464,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndryyfw        >anodriyyifuw   Nprop   Andreevo
     -- Andryyfw        >anodriyyifuw   Nprop   Andreevo
 
-    Identity                  `noun`       {- Oanodriyyifuw -}  [ "Andreevo" ] ]
+    Identity                  `noun`    {- Oanodriyyifuw -}    [ "Andreevo" ] ]
 
  |> "'andruw" <| [
 
@@ -12484,7 +12472,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndrw   >anodruw        Nprop   Andrew
     -- Andrw   >anodruw        Nprop   Andrew
 
-    Identity                  `noun`       {- Oanodruw -}       [ "Andrew" ] ]
+    Identity                  `noun`    {- Oanodruw -}         [ "Andrew" ] ]
 
  |> "'andruwbuwf" <| [
 
@@ -12492,7 +12480,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndrwbwf        >anodruwbuwf    Nprop   Andropov
     -- Andrwbwf        >anodruwbuwf    Nprop   Andropov
 
-    Identity                  `noun`       {- Oanodruwbuwf -}   [ "Andropov" ] ]
+    Identity                  `noun`    {- Oanodruwbuwf -}     [ "Andropov" ] ]
 
  |> "'andruwz" <| [
 
@@ -12502,7 +12490,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndrws  >anodruws       Nprop   Andrews
     -- Andrws  >anodruws       Nprop   Andrews
 
-    Identity                  `noun`       {- Oanodruwz -}      [ "Andrews" ] ]
+    Identity                  `noun`    {- Oanodruwz -}        [ "Andrews" ] ]
 
  |> "'anduwrr" <| [
 
@@ -12510,7 +12498,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndwry  >anoduwr~iy~    Nall    Andorran
     -- Andwry  >anoduwr~iy~    Nall    Andorran
 
-    Identity |< Iy            `adj`        {- Oanoduwr~iy~ -}   [ "Andorran" ] ]
+    Identity |< Iy            `adj`     {- Oanoduwr~iy~ -}     [ "Andorran" ] ]
 
  |> "'anduwrrA" <| [
 
@@ -12518,7 +12506,7 @@ lexicon = listing "Lexicon's properties"
     -- >ndwrA  >anoduwr~A      Nprop   Andorra
     -- AndwrA  >anoduwr~A      Nprop   Andorra
 
-    Identity                  `noun`       {- Oanoduwr~A -}     [ "Andorra" ] ]
+    Identity                  `noun`    {- Oanoduwr~A -}       [ "Andorra" ] ]
 
  |> "'anfirs" <| [
 
@@ -12526,7 +12514,7 @@ lexicon = listing "Lexicon's properties"
     -- >nfrs   >anofirs        Nprop   Antwerp
     -- Anfrs   >anofirs        Nprop   Antwerp
 
-    Identity                  `noun`       {- Oanofirs -}       [ "Antwerp" ] ]
+    Identity                  `noun`    {- Oanofirs -}         [ "Antwerp" ] ]
 
  |> "'aniymiyA" <| [
 
@@ -12534,7 +12522,7 @@ lexicon = listing "Lexicon's properties"
     -- >nymyA  >aniymiyA       N0      anemia
     -- AnymyA  >aniymiyA       N0      anemia
 
-    Identity                  `noun`       {- OaniymiyA -}      [ "anemia" ] ]
+    Identity                  `noun`    {- OaniymiyA -}        [ "anemia" ] ]
 
  |> "'aniymuwmitr" <| [
 
@@ -12542,7 +12530,7 @@ lexicon = listing "Lexicon's properties"
     -- >nymwmtr        >aniymuwmitr    N0      anemometer
     -- Anymwmtr        >aniymuwmitr    N0      anemometer
 
-    Identity                  `noun`       {- Oaniymuwmitr -}   [ "anemometer" ] ]
+    Identity                  `noun`    {- Oaniymuwmitr -}     [ "anemometer" ] ]
 
  |> "'aniysuwn" <| [
 
@@ -12552,7 +12540,7 @@ lexicon = listing "Lexicon's properties"
     -- \|nyswn  |niysuwn        N       aniseed
     -- Anyswn  |niysuwn        N       aniseed
 
-    Identity                  `noun`       {- Oaniysuwn -}      [ "aniseed" ] ]
+    Identity                  `noun`    {- Oaniysuwn -}        [ "aniseed" ] ]
 
  |> "'ankiluwsaksuwn" <| [
 
@@ -12560,7 +12548,7 @@ lexicon = listing "Lexicon's properties"
     -- >nklwskswn      >anokluwsakosuwn        N0      Anglo-Saxons
     -- Anklwskswn      >anokluwsakosuwn        N0      Anglo-Saxons
 
-    Identity                  `noun`       {- Oanokiluwsakosuwn -} [ "Anglo-Saxons" ],
+    Identity                  `noun`    {- Oanokiluwsakosuwn -} [ "Anglo-Saxons" ],
 
     -- ;; >anokiluwsakosuwniy~_1
     -- >nklwskswny     >anokluwsakosuwniy~     Nall    Anglo-Saxon     [[>anokiluwsakosuwniy~/NOUN]]
@@ -12568,7 +12556,7 @@ lexicon = listing "Lexicon's properties"
     -- Anklwskswny     >anokluwsakosuwniy~     Nall    Anglo-Saxon     [[>anokiluwsakosuwniy~/NOUN]]
     -- Anklwskswny     >anokluwsakosuwniy~     Nall    Anglo-Saxon     [[>anokiluwsakosuwniy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Oanokiluwsakosuwniy~ -} [ "Anglo-Saxon" ] ]
+    Identity |< Iy            `adj`     {- Oanokiluwsakosuwniy~ -} [ "Anglo-Saxon" ] ]
 
  |> "'anklaz" <| [
 
@@ -12577,13 +12565,13 @@ lexicon = listing "Lexicon's properties"
     -- Anklz   >anoklaz        PV      Anglicize
     -- &nklz   &anokliz        IV      Anglicize
 
-    Identity                  `verb`       {- Oanoklaz -}       [ "Anglicize" ],
+    Identity                  `verb`    {- Oanoklaz -}         [ "Anglicize" ],
 
     -- ;; >anoklazap_1
     -- >nklz   >anoklaz        Nap     Anglicization
     -- Anklz   >anoklaz        Nap     Anglicization
 
-    Identity |< aT            `noun`       {- Oanoklazap -}     [ "Anglicization" ] ]
+    Identity |< aT            `noun`    {- Oanoklazap -}       [ "Anglicization" ] ]
 
  |> "'ankuwlA" <| [
 
@@ -12591,7 +12579,7 @@ lexicon = listing "Lexicon's properties"
     -- >nkwlA  >anokuwlA       N0      Angola
     -- AnkwlA  >anokuwlA       N0      Angola
 
-    Identity                  `noun`       {- OanokuwlA -}      [ "Angola" ] ]
+    Identity                  `noun`    {- OanokuwlA -}        [ "Angola" ] ]
 
  |> "'anna" <| [
 
@@ -12603,7 +12591,7 @@ lexicon = listing "Lexicon's properties"
     -- >n      >an~    FW-Wa-n~        that     [[>an~/FUNC_WORD]]
     -- An      >an~    FW-Wa-n~        that     [[>an~/FUNC_WORD]]
 
-    Identity                  `noun`       {- Oan~a -}          [ "that" ] ]
+    Identity                  `noun`    {- Oan~a -}            [ "that" ] ]
 
  |> "'anqaliys" <| [
 
@@ -12613,7 +12601,7 @@ lexicon = listing "Lexicon's properties"
     -- >nklys  >anokaliys      N       eel
     -- Anklys  >anokaliys      N       eel
 
-    Identity                  `noun`       {- Oanoqaliys -}     [ "eel" ] ]
+    Identity                  `noun`    {- Oanoqaliys -}       [ "eel" ] ]
 
  |> "'anqlaz" <| [
 
@@ -12622,13 +12610,13 @@ lexicon = listing "Lexicon's properties"
     -- Anqlz   >anoqlaz        PV      Anglicize
     -- &nqlz   &anoqliz        IV      Anglicize
 
-    Identity                  `verb`       {- Oanoqlaz -}       [ "Anglicize" ],
+    Identity                  `verb`    {- Oanoqlaz -}         [ "Anglicize" ],
 
     -- ;; >anoqlazap_1
     -- >nqlz   >anoqlaz        Nap     Anglicization
     -- Anqlz   >anoqlaz        Nap     Anglicization
 
-    Identity |< aT            `noun`       {- Oanoqlazap -}     [ "Anglicization" ] ]
+    Identity |< aT            `noun`    {- Oanoqlazap -}       [ "Anglicization" ] ]
 
  |> "'anta" <| [
 
@@ -12636,7 +12624,7 @@ lexicon = listing "Lexicon's properties"
     -- >nt     >anota  FW-Wa   you [masc.sg.]     [[>anota/PRON_2MS]]
     -- Ant     >anota  FW-Wa   you [masc.sg.]     [[>anota/PRON_2MS]]
 
-    Identity                  `noun`       {- Oanota -}         [ "you [masc.sg.]" ] ]
+    Identity                  `noun`    {- Oanota -}           [ "you [masc.sg.]" ] ]
 
  |> "'anti" <| [
 
@@ -12644,7 +12632,7 @@ lexicon = listing "Lexicon's properties"
     -- >nt     >anoti  FW-Wa   you [fem.sg.]      [[>anoti/PRON_2FS]]
     -- Ant     >anoti  FW-Wa   you [fem.sg.]      [[>anoti/PRON_2FS]]
 
-    Identity                  `noun`       {- Oanoti -}         [ "you [fem.sg.]" ] ]
+    Identity                  `noun`    {- Oanoti -}           [ "you [fem.sg.]" ] ]
 
  |> "'antiyk_hAn" <| [
 
@@ -12652,7 +12640,7 @@ lexicon = listing "Lexicon's properties"
     -- >ntykxAn        >anotiykoxAn    NapAt   museum
     -- AntykxAn        >anotiykoxAn    NapAt   museum
 
-    Identity |< aT            `noun`       {- OanotiykoxAnap -} [ "museum" ] ]
+    Identity |< aT            `noun`    {- OanotiykoxAnap -}   [ "museum" ] ]
 
  |> "'antiymuwn" <| [
 
@@ -12660,7 +12648,7 @@ lexicon = listing "Lexicon's properties"
     -- >ntymwn >anotiymuwn     N       antimony
     -- Antymwn >anotiymuwn     N       antimony
 
-    Identity                  `noun`       {- Oanotiymuwn -}    [ "antimony" ] ]
+    Identity                  `noun`    {- Oanotiymuwn -}      [ "antimony" ] ]
 
  |> "'antum" <| [
 
@@ -12668,7 +12656,7 @@ lexicon = listing "Lexicon's properties"
     -- >ntm    >anotum FW-Wa   you [masc.pl.]     [[>anotum/PRON_2MP]]
     -- Antm    >anotum FW-Wa   you [masc.pl.]     [[>anotum/PRON_2MP]]
 
-    Identity                  `noun`       {- Oanotum -}        [ "you [masc.pl.]" ] ]
+    Identity                  `noun`    {- Oanotum -}          [ "you [masc.pl.]" ] ]
 
  |> "'antumA" <| [
 
@@ -12676,7 +12664,7 @@ lexicon = listing "Lexicon's properties"
     -- >ntmA   >anotumA        FW-Wa   you both           [[>anotumA/PRON_2D]]
     -- AntmA   >anotumA        FW-Wa   you both           [[>anotumA/PRON_2D]]
 
-    Identity                  `noun`       {- OanotumA -}       [ "you both" ] ]
+    Identity                  `noun`    {- OanotumA -}         [ "you both" ] ]
 
  |> "'antunna" <| [
 
@@ -12684,7 +12672,7 @@ lexicon = listing "Lexicon's properties"
     -- >ntn    >anotun~a       FW-Wa   you [fem.pl.]      [[>anotun~a/PRON_2FP]]
     -- Antn    >anotun~a       FW-Wa   you [fem.pl.]      [[>anotun~a/PRON_2FP]]
 
-    Identity                  `noun`       {- Oanotun~a -}      [ "you [fem.pl.]" ] ]
+    Identity                  `noun`    {- Oanotun~a -}        [ "you [fem.pl.]" ] ]
 
  |> "'antuwniy" <| [
 
@@ -12692,7 +12680,7 @@ lexicon = listing "Lexicon's properties"
     -- >ntwny  >anotuwniy      Nprop   Anthony
     -- Antwny  >anotuwniy      Nprop   Anthony
 
-    Identity                  `noun`       {- Oanotuwniy -}     [ "Anthony" ] ]
+    Identity                  `noun`    {- Oanotuwniy -}       [ "Anthony" ] ]
 
  |> "'anyiyliy" <| [
 
@@ -12700,7 +12688,7 @@ lexicon = listing "Lexicon's properties"
     -- >nyyly  >anoyiyliy      Nprop   Agnelli
     -- Anyyly  >anoyiyliy      Nprop   Agnelli
 
-    Identity                  `noun`       {- Oanoyiyliy -}     [ "Agnelli" ] ]
+    Identity                  `noun`    {- Oanoyiyliy -}       [ "Agnelli" ] ]
 
  |> "'aqAqiyA" <| [
 
@@ -12708,7 +12696,7 @@ lexicon = listing "Lexicon's properties"
     -- >qAqyA  >aqAqiyA        N0      acacia
     -- AqAqyA  >aqAqiyA        N0      acacia
 
-    Identity                  `noun`       {- OaqAqiyA -}       [ "acacia" ] ]
+    Identity                  `noun`    {- OaqAqiyA -}         [ "acacia" ] ]
 
  |> "'aqrabA_diyn" <| [
 
@@ -12716,7 +12704,7 @@ lexicon = listing "Lexicon's properties"
     -- >qrbA*yn        >aqorabA*iyn    N       medicament;pharmaceutical
     -- AqrbA*yn        >aqorabA*iyn    N       medicament;pharmaceutical
 
-    Identity                  `noun`       {- OaqorabA*iyn -}   [ "medicament", "pharmaceutical" ] ]
+    Identity                  `noun`    {- OaqorabA*iyn -}     [ "medicament", "pharmaceutical" ] ]
 
  |> "'aqrabA_diyniyy" <| [
 
@@ -12724,7 +12712,7 @@ lexicon = listing "Lexicon's properties"
     -- >qrbA*yny       >aqorabA*iyniy~ Nall    pharmaceutical     [[>aqorabA*iyniy~/ADJ]]
     -- AqrbA*yny       >aqorabA*iyniy~ Nall    pharmaceutical     [[>aqorabA*iyniy~/ADJ]]
 
-    Identity                  `adj`        {- OaqorabA*iyniy~ -} [ "pharmaceutical" ] ]
+    Identity                  `adj`     {- OaqorabA*iyniy~ -}  [ "pharmaceutical" ] ]
 
  |> "'ar.duruwm" <| [
 
@@ -12732,7 +12720,7 @@ lexicon = listing "Lexicon's properties"
     -- >rDrwm  >aroDuruwm      N       Erzurum
     -- ArDrwm  >aroDuruwm      N       Erzurum
 
-    Identity                  `noun`       {- OaroDuruwm -}     [ "Erzurum" ] ]
+    Identity                  `noun`    {- OaroDuruwm -}       [ "Erzurum" ] ]
 
  |> "'arA.tiyqiyy" <| [
 
@@ -12740,7 +12728,7 @@ lexicon = listing "Lexicon's properties"
     -- >rATyqy >arATiyqiy~     Nall    heretic
     -- ArATyqy >arATiyqiy~     Nall    heretic
 
-    Identity                  `noun`       {- OarATiyqiy~ -}    [ "heretic" ] ]
+    Identity                  `noun`    {- OarATiyqiy~ -}      [ "heretic" ] ]
 
  |> "'arA^guwz" <| [
 
@@ -12750,7 +12738,7 @@ lexicon = listing "Lexicon's properties"
     -- >rAzy   >arAziy Nprop   Arazi
     -- ArAzy   >arAziy Nprop   Arazi
 
-    Identity                  `noun`       {- OarAjuwz -}       [ "puppeteer", "Arazi" ] ]
+    Identity                  `noun`    {- OarAjuwz -}         [ "puppeteer", "Arazi" ] ]
 
  |> "'arAmkuw" <| [
 
@@ -12758,7 +12746,7 @@ lexicon = listing "Lexicon's properties"
     -- >rAmkw  >arAmokuw       Nprop   ARAMCO
     -- ArAmkw  >arAmokuw       Nprop   ARAMCO
 
-    Identity                  `noun`       {- OarAmokuw -}      [ "ARAMCO" ] ]
+    Identity                  `noun`    {- OarAmokuw -}        [ "ARAMCO" ] ]
 
  |> "'arAnt^sA" <| [
 
@@ -12766,7 +12754,7 @@ lexicon = listing "Lexicon's properties"
     -- >rAnt$A >arAnot$A       Nprop   Arancha
     -- ArAnt$A >arAnot$A       Nprop   Arancha
 
-    Identity                  `noun`       {- OarAnot$A -}      [ "Arancha" ] ]
+    Identity                  `noun`    {- OarAnot$A -}        [ "Arancha" ] ]
 
  |> "'ar^gantiyn" <| [
 
@@ -12774,7 +12762,7 @@ lexicon = listing "Lexicon's properties"
     -- >rjntyn >arojanotiyn    N       Argentina
     -- Arjntyn >arojanotiyn    N       Argentina
 
-    Identity                  `noun`       {- Oarojanotiyn -}   [ "Argentina" ],
+    Identity                  `noun`    {- Oarojanotiyn -}     [ "Argentina" ],
 
     -- ;; >arojanotiyniy~_1
     -- >rjntyny        >arojanotiyniy~ Nall    Argentine     [[>arojanotiyniy~/NOUN]]
@@ -12782,7 +12770,7 @@ lexicon = listing "Lexicon's properties"
     -- Arjntyny        >arojanotiyniy~ Nall    Argentine     [[>arojanotiyniy~/NOUN]]
     -- Arjntyny        >arojanotiyniy~ Nall    Argentine     [[>arojanotiyniy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Oarojanotiyniy~ -} [ "Argentine" ] ]
+    Identity |< Iy            `adj`     {- Oarojanotiyniy~ -}  [ "Argentine" ] ]
 
  |> "'ar^siyduwq" <| [
 
@@ -12792,7 +12780,7 @@ lexicon = listing "Lexicon's properties"
     -- >r$ydwq >aro$iyduwq     NapAt   archduchess
     -- Ar$ydwq >aro$iyduwq     NapAt   archduchess
 
-    Identity                  `noun`       {- Oaro$iyduwq -}    [ "archduke", "archduchess" ] ]
+    Identity                  `noun`    {- Oaro$iyduwq -}      [ "archduke", "archduchess" ] ]
 
  |> "'ar_habiyl" <| [
 
@@ -12800,7 +12788,7 @@ lexicon = listing "Lexicon's properties"
     -- >rxbyl  >aroxabiyl      NduAt   archipelago
     -- Arxbyl  >aroxabiyl      NduAt   archipelago
 
-    Identity                  `noun`       {- Oaroxabiyl -}     [ "archipelago" ] ]
+    Identity                  `noun`    {- Oaroxabiyl -}       [ "archipelago" ] ]
 
  |> "'ar_hamiyd" <| [
 
@@ -12808,7 +12796,7 @@ lexicon = listing "Lexicon's properties"
     -- >rxmyd  >aroxamiyd      N       Archimedes
     -- Arxmyd  >aroxamiyd      N       Archimedes
 
-    Identity                  `noun`       {- Oaroxamiyd -}     [ "Archimedes" ],
+    Identity                  `noun`    {- Oaroxamiyd -}       [ "Archimedes" ],
 
     -- ;; >aroxamiydiy~_1
     -- >rxmydy >aroxamiydiy~   Nall    Archimedean     [[>aroxamiydiy~/NOUN]]
@@ -12816,7 +12804,7 @@ lexicon = listing "Lexicon's properties"
     -- Arxmydy >aroxamiydiy~   Nall    Archimedean     [[>aroxamiydiy~/NOUN]]
     -- Arxmydy >aroxamiydiy~   Nall    Archimedean     [[>aroxamiydiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Oaroxamiydiy~ -}  [ "Archimedean" ] ]
+    Identity |< Iy            `adj`     {- Oaroxamiydiy~ -}    [ "Archimedean" ] ]
 
  |> "'ar_hiybuwf" <| [
 
@@ -12824,7 +12812,7 @@ lexicon = listing "Lexicon's properties"
     -- >rxybwf >aroxiybuwf     N0      Arkhipov;Archipov     [[>aroxamiydiy~/ADJ]]
     -- Arxybwf >aroxiybuwf     N0      Arkhipov;Archipov     [[>aroxamiydiy~/ADJ]]
 
-    Identity                  `adj`        {- Oaroxiybuwf -}    [ "Arkhipov", "Archipov" ] ]
+    Identity                  `adj`     {- Oaroxiybuwf -}      [ "Arkhipov", "Archipov" ] ]
 
  |> "'ar_hun" <| [
 
@@ -12832,7 +12820,7 @@ lexicon = listing "Lexicon's properties"
     -- >rxn    >aroxun N       archon
     -- Arxn    >aroxun N       archon
 
-    Identity                  `noun`       {- Oaroxun -}        [ "archon" ] ]
+    Identity                  `noun`    {- Oaroxun -}          [ "archon" ] ]
 
  |> "'ar_turz" <| [
 
@@ -12840,7 +12828,7 @@ lexicon = listing "Lexicon's properties"
     -- >rvrz   >arovurz        Nprop   Arthurs
     -- Arvrz   >arovurz        Nprop   Arthurs
 
-    Identity                  `noun`       {- Oarovurz -}       [ "Arthurs" ] ]
+    Identity                  `noun`    {- Oarovurz -}         [ "Arthurs" ] ]
 
  |> "'arbakAn" <| [
 
@@ -12848,7 +12836,7 @@ lexicon = listing "Lexicon's properties"
     -- >rbkAn  >arobakAn       Nprop   Arbakan
     -- ArbkAn  >arobakAn       Nprop   Arbakan
 
-    Identity                  `noun`       {- OarobakAn -}      [ "Arbakan" ] ]
+    Identity                  `noun`    {- OarobakAn -}        [ "Arbakan" ] ]
 
  |> "'ardabb" <| [
 
@@ -12859,7 +12847,7 @@ lexicon = listing "Lexicon's properties"
     -- >rAdb   >arAdib Ndip    ardebs (capacity/weight measure)
     -- ArAdb   >arAdib Ndip    ardebs (capacity/weight measure)
 
-    Identity                  `noun`       {- Oarodab~ -}       [ "ardeb (capacity/weight measure)", "ardebs (capacity/weight measure)" ] ]
+    Identity                  `noun`    {- Oarodab~ -}         [ "ardeb (capacity/weight measure)", "ardebs (capacity/weight measure)" ] ]
 
  |> "'ardabiyl" <| [
 
@@ -12867,7 +12855,7 @@ lexicon = listing "Lexicon's properties"
     -- >rdbyl  >arodabiyl      Nprop   Ardabil
     -- Ardbyl  >arodabiyl      Nprop   Ardabil
 
-    Identity                  `noun`       {- Oarodabiyl -}     [ "Ardabil" ] ]
+    Identity                  `noun`    {- Oarodabiyl -}       [ "Ardabil" ] ]
 
  |> "'ardabiyliy" <| [
 
@@ -12875,7 +12863,7 @@ lexicon = listing "Lexicon's properties"
     -- >rdbyly >arodabiyliy    Nprop   Ardebili
     -- Ardbyly >arodabiyliy    Nprop   Ardebili
 
-    Identity                  `noun`       {- Oarodabiyliy -}   [ "Ardebili" ] ]
+    Identity                  `noun`    {- Oarodabiyliy -}     [ "Ardebili" ] ]
 
  |> "'arduwAz" <| [
 
@@ -12883,7 +12871,7 @@ lexicon = listing "Lexicon's properties"
     -- >rdwAz  >aroduwAz       N       slate;board
     -- ArdwAz  >aroduwAz       N       slate;board
 
-    Identity                  `noun`       {- OaroduwAz -}      [ "slate", "board" ] ]
+    Identity                  `noun`    {- OaroduwAz -}        [ "slate", "board" ] ]
 
  |> "'arfinbir.g" <| [
 
@@ -12891,7 +12879,7 @@ lexicon = listing "Lexicon's properties"
     -- >rfnbrg >arofinbirg     Nprop   Arvenberg
     -- Arfnbrg >arofinbirg     Nprop   Arvenberg
 
-    Identity                  `noun`       {- Oarofinbirg -}    [ "Arvenberg" ] ]
+    Identity                  `noun`    {- Oarofinbirg -}      [ "Arvenberg" ] ]
 
  |> "'arfiydAs" <| [
 
@@ -12899,7 +12887,7 @@ lexicon = listing "Lexicon's properties"
     -- >rfydAs >arofiydAs      Nprop   Arvydas
     -- ArfydAs >arofiydAs      Nprop   Arvydas
 
-    Identity                  `noun`       {- OarofiydAs -}     [ "Arvydas" ] ]
+    Identity                  `noun`    {- OarofiydAs -}       [ "Arvydas" ] ]
 
  |> "'aris.tA.taliys" <| [
 
@@ -12907,7 +12895,7 @@ lexicon = listing "Lexicon's properties"
     -- >rsTATlys       >arisoTATaliys  N       Aristotle
     -- ArsTATlys       >arisoTATaliys  N       Aristotle
 
-    Identity                  `noun`       {- OarisoTATaliys -} [ "Aristotle" ] ]
+    Identity                  `noun`    {- OarisoTATaliys -}   [ "Aristotle" ] ]
 
  |> "'aris.tuw" <| [
 
@@ -12915,7 +12903,7 @@ lexicon = listing "Lexicon's properties"
     -- >rsTw   >arisoTuw       N0      Aristotle
     -- ArsTw   >arisoTuw       N0      Aristotle
 
-    Identity                  `noun`       {- OarisoTuw -}      [ "Aristotle" ] ]
+    Identity                  `noun`    {- OarisoTuw -}        [ "Aristotle" ] ]
 
  |> "'aristuqrA.tiyy" <| [
 
@@ -12925,7 +12913,7 @@ lexicon = listing "Lexicon's properties"
     -- >rstwqrATy      >arisotuwqrATiy~        Nall    aristocratic     [[>arisotuwqrATiy~/ADJ]]
     -- ArstwqrATy      >arisotuwqrATiy~        Nall    aristocratic     [[>arisotuwqrATiy~/ADJ]]
 
-    Identity                  `adj`        {- OarisotuqrATiy~ -} [ "aristocratic" ],
+    Identity                  `adj`     {- OarisotuqrATiy~ -}  [ "aristocratic" ],
 
     -- ;; >arisotuqrATiy~ap_1
     -- >rstqrATy       >arisotuqrATiy~ NapAt   aristocracy     [[>arisotuqrATiy~/NOUN]]
@@ -12933,7 +12921,7 @@ lexicon = listing "Lexicon's properties"
     -- >rstwqrATy      >arisotuwqrATiy~        NapAt   aristocracy     [[>arisotuwqrATiy~/NOUN]]
     -- ArstwqrATy      >arisotuwqrATiy~        NapAt   aristocracy     [[>arisotuwqrATiy~/NOUN]]
 
-    Identity |< aT            `noun`       {- OarisotuqrATiy~ap -} [ "aristocracy" ] ]
+    Identity |< aT            `noun`    {- OarisotuqrATiy~ap -} [ "aristocracy" ] ]
 
  |> "'ariy.gwiy" <| [
 
@@ -12941,7 +12929,7 @@ lexicon = listing "Lexicon's properties"
     -- >rygwy  >ariygowiy      Nprop   Arregui
     -- Arygwy  >ariygowiy      Nprop   Arregui
 
-    Identity                  `noun`       {- Oariygowiy -}     [ "Arregui" ] ]
+    Identity                  `noun`    {- Oariygowiy -}       [ "Arregui" ] ]
 
  |> "'ariy.hA" <| [
 
@@ -12949,7 +12937,7 @@ lexicon = listing "Lexicon's properties"
     -- >ryHA   >ariyHA N0      Jericho
     -- AryHA   >ariyHA N0      Jericho
 
-    Identity                  `noun`       {- OariyHA -}        [ "Jericho" ] ]
+    Identity                  `noun`    {- OariyHA -}          [ "Jericho" ] ]
 
  |> "'ariyiyl" <| [
 
@@ -12957,7 +12945,7 @@ lexicon = listing "Lexicon's properties"
     -- >ryyl   >ariyiyl        Nprop   Ariel
     -- Aryyl   >ariyiyl        Nprop   Ariel
 
-    Identity                  `noun`       {- Oariyiyl -}       [ "Ariel" ] ]
+    Identity                  `noun`    {- Oariyiyl -}         [ "Ariel" ] ]
 
  |> "'ariyksuwn" <| [
 
@@ -12966,7 +12954,7 @@ lexicon = listing "Lexicon's properties"
     -- Arykswn >ariykosuwn     N0      Erikson;Ericsson
     -- <rykswn <iriykosuwn     N0      Erikson;Ericsson
 
-    Identity                  `noun`       {- Oariykosuwn -}    [ "Erikson", "Ericsson" ] ]
+    Identity                  `noun`    {- Oariykosuwn -}      [ "Erikson", "Ericsson" ] ]
 
  |> "'ariynA" <| [
 
@@ -12974,7 +12962,7 @@ lexicon = listing "Lexicon's properties"
     -- >rynA   >ariynA Nprop   Arena
     -- ArynA   >ariynA Nprop   Arena
 
-    Identity                  `noun`       {- OariynA -}        [ "Arena" ] ]
+    Identity                  `noun`    {- OariynA -}          [ "Arena" ] ]
 
  |> "'ariytriyA" <| [
 
@@ -12983,7 +12971,7 @@ lexicon = listing "Lexicon's properties"
     -- ArytryA <iriytriyA      Nprop   Eritrea
     -- >rytryA <iriytriyA      Nprop   Eritrea
 
-    Identity                  `noun`       {- OariytriyA -}     [ "Eritrea" ] ]
+    Identity                  `noun`    {- OariytriyA -}       [ "Eritrea" ] ]
 
  |> "'armaniyy" <| [
 
@@ -12995,7 +12983,7 @@ lexicon = listing "Lexicon's properties"
     -- >rmn    >aroman N       Armenians
     -- Armn    >aroman N       Armenians
 
-    Identity                  `adj`        {- Oaromaniy~ -}     [ "Armenian", "Armenians" ] ]
+    Identity                  `adj`     {- Oaromaniy~ -}       [ "Armenian", "Armenians" ] ]
 
  |> "'armiyniyA" <| [
 
@@ -13003,7 +12991,7 @@ lexicon = listing "Lexicon's properties"
     -- >rmynyA >aromiyniyA     N0      Armenia
     -- ArmynyA >aromiyniyA     N0      Armenia
 
-    Identity                  `noun`       {- OaromiyniyA -}    [ "Armenia" ] ]
+    Identity                  `noun`    {- OaromiyniyA -}      [ "Armenia" ] ]
 
  |> "'armiytA^g" <| [
 
@@ -13011,7 +12999,7 @@ lexicon = listing "Lexicon's properties"
     -- >rmytAj >aromiytAj      N0      Armitage
     -- ArmytAj >aromiytAj      N0      Armitage
 
-    Identity                  `noun`       {- OaromiytAj -}     [ "Armitage" ] ]
+    Identity                  `noun`    {- OaromiytAj -}       [ "Armitage" ] ]
 
  |> "'arnAwu.t" <| [
 
@@ -13019,7 +13007,7 @@ lexicon = listing "Lexicon's properties"
     -- >rnAwT  >aronAwuT       N       Albanians
     -- ArnAwT  >aronAwuT       N       Albanians
 
-    Identity                  `noun`       {- OaronAwuT -}      [ "Albanians" ] ]
+    Identity                  `noun`    {- OaronAwuT -}        [ "Albanians" ] ]
 
  |> "'arnAwu.tiyy" <| [
 
@@ -13029,7 +13017,7 @@ lexicon = listing "Lexicon's properties"
     -- ArnAwTy >aronAwuTiy~    Nall    Albanian     [[>aronAwuTiy~/NOUN]]
     -- ArnAwTy >aronAwuTiy~    Nall    Albanian     [[>aronAwuTiy~/ADJ]]
 
-    Identity                  `adj`        {- OaronAwuTiy~ -}   [ "Albanian" ] ]
+    Identity                  `adj`     {- OaronAwuTiy~ -}     [ "Albanian" ] ]
 
  |> "'arnabiyy" <| [
 
@@ -13037,7 +13025,7 @@ lexicon = listing "Lexicon's properties"
     -- >rnby   >aronabiy~      Nall    rabbit-related;rabbit-like
     -- Arnby   >aronabiy~      Nall    rabbit-related;rabbit-like
 
-    Identity                  `noun`       {- Oaronabiy~ -}     [ "rabbit-related", "rabbit-like" ] ]
+    Identity                  `noun`    {- Oaronabiy~ -}       [ "rabbit-related", "rabbit-like" ] ]
 
  |> "'arnham" <| [
 
@@ -13045,7 +13033,7 @@ lexicon = listing "Lexicon's properties"
     -- >rnhm   >arnoham        Nprop   Arnhem
     -- Arnhm   >arnoham        Nprop   Arnhem
 
-    Identity                  `noun`       {- Oarnoham -}       [ "Arnhem" ] ]
+    Identity                  `noun`    {- Oarnoham -}         [ "Arnhem" ] ]
 
  |> "'arsA_hAnuwf" <| [
 
@@ -13053,7 +13041,7 @@ lexicon = listing "Lexicon's properties"
     -- >rsAxAnwf       >arosAxAnuwf    Nprop   Arsakhanov
     -- ArsAxAnwf       >arosAxAnuwf    Nprop   Arsakhanov
 
-    Identity                  `noun`       {- OarosAxAnuwf -}   [ "Arsakhanov" ] ]
+    Identity                  `noun`    {- OarosAxAnuwf -}     [ "Arsakhanov" ] ]
 
  |> "'arsinAl" <| [
 
@@ -13061,7 +13049,7 @@ lexicon = listing "Lexicon's properties"
     -- >rsnAl  >arosinAl       N0      Arsenal
     -- ArsnAl  >arosinAl       N0      Arsenal
 
-    Identity                  `noun`       {- OarosinAl -}      [ "Arsenal" ] ]
+    Identity                  `noun`    {- OarosinAl -}        [ "Arsenal" ] ]
 
  |> "'arslAn" <| [
 
@@ -13069,7 +13057,7 @@ lexicon = listing "Lexicon's properties"
     -- >rslAn  >arslAn Nprop   Arslan
     -- ArslAn  >arslAn Nprop   Arslan
 
-    Identity                  `noun`       {- OarslAn -}        [ "Arslan" ] ]
+    Identity                  `noun`    {- OarslAn -}          [ "Arslan" ] ]
 
  |> "'artimuwf" <| [
 
@@ -13077,7 +13065,7 @@ lexicon = listing "Lexicon's properties"
     -- >rtmwf  >arotimuwf      Nprop   Artimov
     -- Artmwf  >arotimuwf      Nprop   Artimov
 
-    Identity                  `noun`       {- Oarotimuwf -}     [ "Artimov" ] ]
+    Identity                  `noun`    {- Oarotimuwf -}       [ "Artimov" ] ]
 
  |> "'artuwAz" <| [
 
@@ -13085,7 +13073,7 @@ lexicon = listing "Lexicon's properties"
     -- >rtwAzy >arotuwAziy~    N-ap    artesian     [[>arotuwAziy~/ADJ]]
     -- ArtwAzy >arotuwAziy~    N-ap    artesian     [[>arotuwAziy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- OarotuwAziy~ -}   [ "artesian" ] ]
+    Identity |< Iy            `adj`     {- OarotuwAziy~ -}     [ "artesian" ] ]
 
  |> "'artuwrAs" <| [
 
@@ -13093,7 +13081,7 @@ lexicon = listing "Lexicon's properties"
     -- >rtwrAs >arotuwrAs      Nprop   Arturas
     -- ArtwrAs >arotuwrAs      Nprop   Arturas
 
-    Identity                  `noun`       {- OarotuwrAs -}     [ "Arturas" ] ]
+    Identity                  `noun`    {- OarotuwrAs -}       [ "Arturas" ] ]
 
  |> "'artuwruw" <| [
 
@@ -13101,7 +13089,7 @@ lexicon = listing "Lexicon's properties"
     -- >rtwrw  >arotuwruw      Nprop   Arturo
     -- Artwrw  >arotuwruw      Nprop   Arturo
 
-    Identity                  `noun`       {- Oarotuwruw -}     [ "Arturo" ] ]
+    Identity                  `noun`    {- Oarotuwruw -}       [ "Arturo" ] ]
 
  |> "'aryAniyy" <| [
 
@@ -13109,7 +13097,7 @@ lexicon = listing "Lexicon's properties"
     -- >ryAny  >aroyAniy~      N0      Ariani
     -- AryAny  >aroyAniy~      N0      Ariani
 
-    Identity                  `noun`       {- OaroyAniy~ -}     [ "Ariani" ] ]
+    Identity                  `noun`    {- OaroyAniy~ -}       [ "Ariani" ] ]
 
  |> "'arzdara_ht" <| [
 
@@ -13117,7 +13105,7 @@ lexicon = listing "Lexicon's properties"
     -- >rzdrxt >arozodaraxt    N       China tree;paradise tree
     -- Arzdrxt >arozodaraxt    N       China tree;paradise tree
 
-    Identity                  `noun`       {- Oarozodaraxt -}   [ "China tree", "paradise tree" ] ]
+    Identity                  `noun`    {- Oarozodaraxt -}     [ "China tree", "paradise tree" ] ]
 
  |> "'as.turlAb" <| [
 
@@ -13125,7 +13113,7 @@ lexicon = listing "Lexicon's properties"
     -- >sTrlAb >asoTurolAb     NduAt   astrolabe
     -- AsTrlAb >asoTurolAb     NduAt   astrolabe
 
-    Identity                  `noun`       {- OasoTurolAb -}    [ "astrolabe" ] ]
+    Identity                  `noun`    {- OasoTurolAb -}      [ "astrolabe" ] ]
 
  |> "'asafAh" <| [
 
@@ -13135,7 +13123,7 @@ lexicon = listing "Lexicon's properties"
     -- wA>sfAh wA>asafAh       FW-Wa   too bad!;how unfortunate!     [[>asafAh/INTERJ]]
     -- wAAsfAh wA>asafAh       FW-Wa   too bad!;how unfortunate!     [[>asafAh/INTERJ]]
 
-    Identity                  `noun`       {- OasafAh -}        [ "too bad!", "how unfortunate!" ] ]
+    Identity                  `noun`    {- OasafAh -}          [ "too bad!", "how unfortunate!" ] ]
 
  |> "'asbiriyn" <| [
 
@@ -13145,7 +13133,7 @@ lexicon = listing "Lexicon's properties"
     -- >sbyryn >asobiyriyn     N       aspirin
     -- Asbyryn >asobiyriyn     N       aspirin
 
-    Identity                  `noun`       {- Oasobiriyn -}     [ "aspirin" ] ]
+    Identity                  `noun`    {- Oasobiriyn -}       [ "aspirin" ] ]
 
  |> "'asbist" <| [
 
@@ -13153,7 +13141,7 @@ lexicon = listing "Lexicon's properties"
     -- >sbst   >asobisot       N       asbestos
     -- Asbst   >asobisot       N       asbestos
 
-    Identity                  `noun`       {- Oasobisot -}      [ "asbestos" ] ]
+    Identity                  `noun`    {- Oasobisot -}        [ "asbestos" ] ]
 
  |> "'asfalt" <| [
 
@@ -13161,13 +13149,13 @@ lexicon = listing "Lexicon's properties"
     -- >sflt   >asofalot       N       asphalt
     -- Asflt   >asofalot       N       asphalt
 
-    Identity                  `noun`       {- Oasofalot -}      [ "asphalt" ],
+    Identity                  `noun`    {- Oasofalot -}        [ "asphalt" ],
 
     -- ;; >asofalotiy~_1
     -- >sflty  >asofalotiy~    Nall    asphalt     [[>asofalotiy~/ADJ]]
     -- Asflty  >asofalotiy~    Nall    asphalt     [[>asofalotiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Oasofalotiy~ -}   [ "asphalt" ] ]
+    Identity |< Iy            `adj`     {- Oasofalotiy~ -}     [ "asphalt" ] ]
 
  |> "'asiyY" <| [
 
@@ -13181,7 +13169,7 @@ lexicon = listing "Lexicon's properties"
     -- Asywy   |siyawiy~       Nall    Asian;Asiatic     [[|siyawiy~/NOUN]]
     -- Asywy   |siyawiy~       Nall    Asian;Asiatic     [[|siyawiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Oasiyawiy~ -}     [ "Asian", "Asiatic" ] ]
+    Identity |< Iy            `adj`     {- Oasiyawiy~ -}       [ "Asian", "Asiatic" ] ]
 
  |> "'asiytiyliyn" <| [
 
@@ -13189,7 +13177,7 @@ lexicon = listing "Lexicon's properties"
     -- >sytylyn        >asiytiyliyn    N       acetylene
     -- Asytylyn        >asiytiyliyn    N       acetylene
 
-    Identity                  `noun`       {- Oasiytiyliyn -}   [ "acetylene" ] ]
+    Identity                  `noun`    {- Oasiytiyliyn -}     [ "acetylene" ] ]
 
  |> "'asiytuwn" <| [
 
@@ -13197,7 +13185,7 @@ lexicon = listing "Lexicon's properties"
     -- >sytwn  >asiytuwn       N       acetone
     -- Asytwn  >asiytuwn       N       acetone
 
-    Identity                  `noun`       {- Oasiytuwn -}      [ "acetone" ] ]
+    Identity                  `noun`    {- Oasiytuwn -}        [ "acetone" ] ]
 
  |> "'asmAn^guwn" <| [
 
@@ -13205,7 +13193,7 @@ lexicon = listing "Lexicon's properties"
     -- >smAnjwny       >asomAnojuwniy~ Nall    azure;sky-blue     [[>asomAnojuwniy~/ADJ]]
     -- AsmAnjwny       >asomAnojuwniy~ Nall    azure;sky-blue     [[>asomAnojuwniy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- OasomAnojuwniy~ -} [ "azure", "sky-blue" ] ]
+    Identity |< Iy            `adj`     {- OasomAnojuwniy~ -}  [ "azure", "sky-blue" ] ]
 
  |> "'asmant" <| [
 
@@ -13215,7 +13203,7 @@ lexicon = listing "Lexicon's properties"
     -- <smnt   <isomanot       N       cement
     -- Asmnt   <isomanot       N       cement
 
-    Identity                  `noun`       {- Oasomanot -}      [ "cement" ],
+    Identity                  `noun`    {- Oasomanot -}        [ "cement" ],
 
     -- ;; >asomanotiy~_1
     -- >smnty  >asomanotiy~    N       cement     [[>asomanotiy~/ADJ]]
@@ -13223,7 +13211,7 @@ lexicon = listing "Lexicon's properties"
     -- <smnty  <isomanotiy~    N       cement     [[<isomanotiy~/ADJ]]
     -- Asmnty  <isomanotiy~    N       cement     [[<isomanotiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Oasomanotiy~ -}   [ "cement" ] ]
+    Identity |< Iy            `adj`     {- Oasomanotiy~ -}     [ "cement" ] ]
 
  |> "'asuw^giyy" <| [
 
@@ -13233,7 +13221,7 @@ lexicon = listing "Lexicon's properties"
     -- Aswjy   >asuwjiy~       Nall    Swedish     [[>asuwjiy~/NOUN]]
     -- Aswjy   >asuwjiy~       Nall    Swedish     [[>asuwjiy~/ADJ]]
 
-    Identity                  `adj`        {- Oasuwjiy~ -}      [ "Swedish" ] ]
+    Identity                  `adj`     {- Oasuwjiy~ -}        [ "Swedish" ] ]
 
  |> "'asyA" <| [
 
@@ -13243,7 +13231,7 @@ lexicon = listing "Lexicon's properties"
     -- \|syA    |siyA   N0      Asia
     -- AsyA    |siyA   N0      Asia
 
-    Identity                  `noun`       {- OasoyA -}         [ "Asia" ] ]
+    Identity                  `noun`    {- OasoyA -}           [ "Asia" ] ]
 
  |> "'asyuw.tiyy" <| [
 
@@ -13251,13 +13239,13 @@ lexicon = listing "Lexicon's properties"
     -- >sywTy  >asoyuwTiy~     Nall    from/of Asyut     [[>asoyuwTiy~/ADJ]]
     -- AsywTy  >asoyuwTiy~     Nall    from/of Asyut     [[>asoyuwTiy~/ADJ]]
 
-    Identity                  `adj`        {- OasoyuwTiy~ -}    [ "from/of Asyut" ],
+    Identity                  `adj`     {- OasoyuwTiy~ -}      [ "from/of Asyut" ],
 
     -- ;; >asoyuwTiy~_2
     -- >sywTy  >asoyuwTiy~     N0      Assiouti
     -- AsywTy  >asoyuwTiy~     N0      Assiouti
 
-    Identity                  `noun`       {- OasoyuwTiy~ -}    [ "Assiouti" ] ]
+    Identity                  `noun`    {- OasoyuwTiy~ -}      [ "Assiouti" ] ]
 
  |> "'atAlAntA" <| [
 
@@ -13265,7 +13253,7 @@ lexicon = listing "Lexicon's properties"
     -- >tAlAntA        >atAlAnotA      Nprop   Atalanta
     -- AtAlAntA        >atAlAnotA      Nprop   Atalanta
 
-    Identity                  `noun`       {- OatAlAnotA -}     [ "Atalanta" ] ]
+    Identity                  `noun`    {- OatAlAnotA -}       [ "Atalanta" ] ]
 
  |> "'atAnAs" <| [
 
@@ -13273,7 +13261,7 @@ lexicon = listing "Lexicon's properties"
     -- >tAnAs  >atAnAs Nprop   Atanas
     -- AtAnAs  >atAnAs Nprop   Atanas
 
-    Identity                  `noun`       {- OatAnAs -}        [ "Atanas" ] ]
+    Identity                  `noun`    {- OatAnAs -}          [ "Atanas" ] ]
 
  |> "'atiylA" <| [
 
@@ -13281,7 +13269,7 @@ lexicon = listing "Lexicon's properties"
     -- >tylA   >atiylA Nprop   Attila
     -- AtylA   >atiylA Nprop   Attila
 
-    Identity                  `noun`       {- OatiylA -}        [ "Attila" ] ]
+    Identity                  `noun`    {- OatiylA -}          [ "Attila" ] ]
 
  |> "'atlAntA" <| [
 
@@ -13289,7 +13277,7 @@ lexicon = listing "Lexicon's properties"
     -- >tlAntA >atolAnotA      Nprop   Atlanta
     -- AtlAntA >atolAnotA      Nprop   Atlanta
 
-    Identity                  `noun`       {- OatolAnotA -}     [ "Atlanta" ] ]
+    Identity                  `noun`    {- OatolAnotA -}       [ "Atlanta" ] ]
 
  |> "'atlAntiyk" <| [
 
@@ -13297,7 +13285,7 @@ lexicon = listing "Lexicon's properties"
     -- >tlAntyk        >atolAnotiyk    N0      Atlantic
     -- AtlAntyk        >atolAnotiyk    N0      Atlantic
 
-    Identity                  `noun`       {- OatolAnotiyk -}   [ "Atlantic" ] ]
+    Identity                  `noun`    {- OatolAnotiyk -}     [ "Atlantic" ] ]
 
  |> "'atlitiykuw" <| [
 
@@ -13305,7 +13293,7 @@ lexicon = listing "Lexicon's properties"
     -- >tltykw >atolitiykuw    N0      Atletico
     -- Atltykw >atolitiykuw    N0      Atletico
 
-    Identity                  `noun`       {- Oatolitiykuw -}   [ "Atletico" ] ]
+    Identity                  `noun`    {- Oatolitiykuw -}     [ "Atletico" ] ]
 
  |> "'awAks" <| [
 
@@ -13315,7 +13303,7 @@ lexicon = listing "Lexicon's properties"
     -- >ywAks  >ayowAks        N0      AWACS (Airborne Warning and Control System)
     -- AywAks  >ayowAks        N0      AWACS (Airborne Warning and Control System)
 
-    Identity                  `noun`       {- OawAks -}         [ "AWACS (Airborne Warning and Control System)" ] ]
+    Identity                  `noun`    {- OawAks -}           [ "AWACS (Airborne Warning and Control System)" ] ]
 
  |> "'awan.t" <| [
 
@@ -13323,7 +13311,7 @@ lexicon = listing "Lexicon's properties"
     -- >wnT    >awanoT Nap     swindle;deceit
     -- AwnT    >awanoT Nap     swindle;deceit
 
-    Identity |< aT            `noun`       {- OawanoTap -}      [ "swindle", "deceit" ] ]
+    Identity |< aT            `noun`    {- OawanoTap -}        [ "swindle", "deceit" ] ]
 
  |> "'awan.ta^g" <| [
 
@@ -13331,7 +13319,7 @@ lexicon = listing "Lexicon's properties"
     -- >wnTjy  >awanoTajiy~    Nall    swindler;impostor     [[>awanoTajiy~/ADJ]]
     -- AwnTjy  >awanoTajiy~    Nall    swindler;impostor     [[>awanoTajiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- OawanoTajiy~ -}   [ "swindler", "impostor" ] ]
+    Identity |< Iy            `adj`     {- OawanoTajiy~ -}     [ "swindler", "impostor" ] ]
 
  |> "'awdiyuw" <| [
 
@@ -13339,7 +13327,7 @@ lexicon = listing "Lexicon's properties"
     -- >wdyw   >awodiyuw       N0      audio
     -- Awdyw   >awodiyuw       N0      audio
 
-    Identity                  `noun`       {- Oawodiyuw -}      [ "audio" ] ]
+    Identity                  `noun`    {- Oawodiyuw -}        [ "audio" ] ]
 
  |> "'ayAks" <| [
 
@@ -13347,7 +13335,7 @@ lexicon = listing "Lexicon's properties"
     -- >yAks   >ayAks  Nprop   Ajax
     -- AyAks   >ayAks  Nprop   Ajax
 
-    Identity                  `noun`       {- OayAks -}         [ "Ajax" ] ]
+    Identity                  `noun`    {- OayAks -}           [ "Ajax" ] ]
 
  |> "'aydz" <| [
 
@@ -13356,7 +13344,7 @@ lexicon = listing "Lexicon's properties"
     -- Aydz    >ayodz  N0      AIDS
     -- <ydz    >ayodz  N0      AIDS
 
-    Identity                  `noun`       {- Oayodz -}         [ "AIDS" ] ]
+    Identity                  `noun`    {- Oayodz -}           [ "AIDS" ] ]
 
  |> "'aylAnd" <| [
 
@@ -13364,7 +13352,7 @@ lexicon = listing "Lexicon's properties"
     -- >ylAnd  >ayolAnod       Nprop   Island
     -- AylAnd  >ayolAnod       Nprop   Island
 
-    Identity                  `noun`       {- OayolAnod -}      [ "Island" ] ]
+    Identity                  `noun`    {- OayolAnod -}        [ "Island" ] ]
 
  |> "'ayn^stAyn" <| [
 
@@ -13372,7 +13360,7 @@ lexicon = listing "Lexicon's properties"
     -- >yn$tAyn        >ayon$tAyn      N0      Einstein
     -- Ayn$tAyn        >ayon$tAyn      N0      Einstein
 
-    Identity                  `noun`       {- Oayon$tAyn -}     [ "Einstein" ] ]
+    Identity                  `noun`    {- Oayon$tAyn -}       [ "Einstein" ] ]
 
  |> "'ayna" <| [
 
@@ -13380,13 +13368,13 @@ lexicon = listing "Lexicon's properties"
     -- >yn     >ayona  FW-Wa   where         [[>ayona/REL_PRON]]
     -- Ayn     >ayona  FW-Wa   where         [[>ayona/REL_PRON]]
 
-    Identity                  `noun`       {- Oayona -}         [ "where" ],
+    Identity                  `noun`    {- Oayona -}           [ "where" ],
 
     -- ;; >ayona_2
     -- >yn     >ayona  FW-Wa   where         [[>ayona/INTERROG_PART]]
     -- Ayn     >ayona  FW-Wa   where         [[>ayona/INTERROG_PART]]
 
-    Identity                  `noun`       {- Oayona -}         [ "where" ] ]
+    Identity                  `noun`    {- Oayona -}           [ "where" ] ]
 
  |> "'aynamA" <| [
 
@@ -13394,7 +13382,7 @@ lexicon = listing "Lexicon's properties"
     -- >ynmA   >ayonamA        FW-Wa   wherever      [[>ayonamA/CONJ]]
     -- AynmA   >ayonamA        FW-Wa   wherever      [[>ayonamA/CONJ]]
 
-    Identity                  `noun`       {- OayonamA -}       [ "wherever" ] ]
+    Identity                  `noun`    {- OayonamA -}         [ "wherever" ] ]
 
  |> "'ayndhuwfin" <| [
 
@@ -13402,7 +13390,7 @@ lexicon = listing "Lexicon's properties"
     -- >yndhwfn        >ayondhuwfin    Nprop   Eindhoven
     -- Ayndhwfn        >ayondhuwfin    Nprop   Eindhoven
 
-    Identity                  `noun`       {- Oayondhuwfin -}   [ "Eindhoven" ] ]
+    Identity                  `noun`    {- Oayondhuwfin -}     [ "Eindhoven" ] ]
 
  |> "'ayntrA_ht" <| [
 
@@ -13410,7 +13398,7 @@ lexicon = listing "Lexicon's properties"
     -- >yntrAxt        >ayontrAxt      Nprop   Eintracht
     -- AyntrAxt        >ayontrAxt      Nprop   Eintracht
 
-    Identity                  `noun`       {- OayontrAxt -}     [ "Eintracht" ] ]
+    Identity                  `noun`    {- OayontrAxt -}       [ "Eintracht" ] ]
 
  |> "'ayrlAynz" <| [
 
@@ -13419,7 +13407,7 @@ lexicon = listing "Lexicon's properties"
     -- AyrlAynz        >ayrolAynoz     Nprop   Airlines
     -- <yrlAynz        <iyrolAynoz     Nprop   Airlines
 
-    Identity                  `noun`       {- OayrolAynoz -}    [ "Airlines" ] ]
+    Identity                  `noun`    {- OayrolAynoz -}      [ "Airlines" ] ]
 
  |> "'ayrwAyz" <| [
 
@@ -13431,7 +13419,7 @@ lexicon = listing "Lexicon's properties"
     -- Ayrwyz  >ayrowiyz       Nprop   Airways
     -- <yrwyz  >ayrowiyz       Nprop   Airways
 
-    Identity                  `noun`       {- OayrowAyz -}      [ "Airways" ] ]
+    Identity                  `noun`    {- OayrowAyz -}        [ "Airways" ] ]
 
  |> "'ayyuhA" <| [
 
@@ -13441,7 +13429,7 @@ lexicon = listing "Lexicon's properties"
     -- >ythA   >ay~atuhA       FW-Wa   O! [voc.fem.]      [[>ay~atuhA/FUNC_WORD]]
     -- AythA   >ay~atuhA       FW-Wa   O! [voc.fem.]      [[>ay~atuhA/FUNC_WORD]]
 
-    Identity                  `noun`       {- Oay~uhA -}        [ "O! [voc.masc.]", "O! [voc.fem.]" ] ]
+    Identity                  `noun`    {- Oay~uhA -}          [ "O! [voc.masc.]", "O! [voc.fem.]" ] ]
 
  |> "'ayyumA" <| [
 
@@ -13449,7 +13437,7 @@ lexicon = listing "Lexicon's properties"
     -- >ymA    >ay~umA FW-Wa   much;greatly     [[>ay~umA/ADV]]
     -- AymA    >ay~umA FW-Wa   much;greatly     [[>ay~umA/ADV]]
 
-    Identity                  `noun`       {- Oay~umA -}        [ "much", "greatly" ] ]
+    Identity                  `noun`    {- Oay~umA -}          [ "much", "greatly" ] ]
 
  |> "'azaliyy" <| [
 
@@ -13457,19 +13445,19 @@ lexicon = listing "Lexicon's properties"
     -- >zly    >azaliy~        NapAt   eternity     [[>azaliy~/NOUN]]
     -- Azly    >azaliy~        NapAt   eternity     [[>azaliy~/NOUN]]
 
-    Identity |< aT            `noun`       {- Oazaliy~ap -}     [ "eternity" ],
+    Identity |< aT            `noun`    {- Oazaliy~ap -}       [ "eternity" ],
 
     -- ;; >azaliy~_1
     -- >zly    >azaliy~        Nall    eternal     [[>azaliy~/ADJ]]
     -- Azly    >azaliy~        Nall    eternal     [[>azaliy~/ADJ]]
 
-    Identity                  `adj`        {- Oazaliy~ -}       [ "eternal" ],
+    Identity                  `adj`     {- Oazaliy~ -}         [ "eternal" ],
 
     -- ;; >azaliy~AF_1
     -- >zly    >azaliy~        NF      eternally     [[>azaliy~/ADV]]
     -- Azly    >azaliy~        NF      eternally     [[>azaliy~/ADV]]
 
-    Identity |< aN            `noun`       {- Oazaliy~AF -}     [ "eternally" ] ]
+    Identity |< aN            `noun`    {- Oazaliy~AF -}       [ "eternally" ] ]
 
  |> "'azdara_ht" <| [
 
@@ -13480,7 +13468,7 @@ lexicon = listing "Lexicon's properties"
     -- >zAdrxt >azAdaraxt      N       China tree;paradise tree
     -- AzAdrxt >azAdaraxt      N       China tree;paradise tree
 
-    Identity                  `noun`       {- Oazodaraxt -}     [ "China tree", "paradise tree" ] ]
+    Identity                  `noun`    {- Oazodaraxt -}       [ "China tree", "paradise tree" ] ]
 
  |> "'aztiykiyy" <| [
 
@@ -13490,7 +13478,7 @@ lexicon = listing "Lexicon's properties"
     -- >ztyky  >azotiykiy~     Nall    Aztec     [[>azotiykiy~/ADJ]]
     -- Aztyky  >azotiykiy~     Nall    Aztec     [[>azotiykiy~/ADJ]]
 
-    Identity                  `adj`        {- Oazotiykiy~ -}    [ "Aztec" ] ]
+    Identity                  `adj`     {- Oazotiykiy~ -}      [ "Aztec" ] ]
 
  |> "'brAms" <| [
 
@@ -13498,7 +13486,7 @@ lexicon = listing "Lexicon's properties"
     -- >brAms  >aborAms        N0      Abrams
     -- AbrAms  >aborAms        N0      Abrams
 
-    Identity                  `noun`       {- ObrAms -}         [ "Abrams" ] ]
+    Identity                  `noun`    {- ObrAms -}           [ "Abrams" ] ]
 
  |> "'i.gnAsiyuw" <| [
 
@@ -13506,7 +13494,7 @@ lexicon = listing "Lexicon's properties"
     -- <gnAsyw <igonAsiyuw     N0      Ignacio
     -- AgnAsyw <igonAsiyuw     N0      Ignacio
 
-    Identity                  `noun`       {- IigonAsiyuw -}    [ "Ignacio" ] ]
+    Identity                  `noun`    {- IigonAsiyuw -}      [ "Ignacio" ] ]
 
  |> "'i.griyqiyy" <| [
 
@@ -13520,7 +13508,7 @@ lexicon = listing "Lexicon's properties"
     -- >gArq   >agAriq Nap     Greeks
     -- AgArq   >agAriq Nap     Greeks
 
-    Identity                  `adj`        {- Iigoriyqiy~ -}    [ "Greek", "Greeks" ] ]
+    Identity                  `adj`     {- Iigoriyqiy~ -}      [ "Greek", "Greeks" ] ]
 
  |> "'i.s.tabl" <| [
 
@@ -13528,7 +13516,7 @@ lexicon = listing "Lexicon's properties"
     -- <STbl   <iSoTabol       NduAt   stable;barn
     -- ASTbl   <iSoTabol       NduAt   stable;barn
 
-    Identity                  `noun`       {- IiSoTabol -}      [ "stable", "barn" ] ]
+    Identity                  `noun`    {- IiSoTabol -}        [ "stable", "barn" ] ]
 
  |> "'i.sfahAn" <| [
 
@@ -13536,7 +13524,7 @@ lexicon = listing "Lexicon's properties"
     -- <SfhAn  <iSofahAn       Ndip    Isfahan
     -- ASfhAn  <iSofahAn       Ndip    Isfahan
 
-    Identity                  `noun`       {- IiSofahAn -}      [ "Isfahan" ] ]
+    Identity                  `noun`    {- IiSofahAn -}        [ "Isfahan" ] ]
 
  |> "'i.sfahAniyy" <| [
 
@@ -13544,13 +13532,13 @@ lexicon = listing "Lexicon's properties"
     -- <SfhAny <iSofahAniy~    Nall    from/of Isfahan     [[<iSofahAniy~/ADJ]]
     -- ASfhAny <iSofahAniy~    Nall    from/of Isfahan     [[<iSofahAniy~/ADJ]]
 
-    Identity                  `adj`        {- IiSofahAniy~ -}   [ "from/of Isfahan" ],
+    Identity                  `adj`     {- IiSofahAniy~ -}     [ "from/of Isfahan" ],
 
     -- ;; <iSofahAniy~_2
     -- <SfhAny <iSofahAniy~    N0      Isfahani
     -- ASfhAny <iSofahAniy~    N0      Isfahani
 
-    Identity                  `noun`       {- IiSofahAniy~ -}   [ "Isfahani" ] ]
+    Identity                  `noun`    {- IiSofahAniy~ -}     [ "Isfahani" ] ]
 
  |> "'i.tAriyy" <| [
 
@@ -13558,7 +13546,7 @@ lexicon = listing "Lexicon's properties"
     -- <TAry   <iTAriy~        Nall    contextual;frame-like     [[<iTAriy~/ADJ]]
     -- ATAry   <iTAriy~        Nall    contextual;frame-like     [[<iTAriy~/ADJ]]
 
-    Identity                  `adj`        {- IiTAriy~ -}       [ "contextual", "frame-like" ] ]
+    Identity                  `adj`     {- IiTAriy~ -}         [ "contextual", "frame-like" ] ]
 
  |> "'i^sa`yA'" <| [
 
@@ -13568,7 +13556,7 @@ lexicon = listing "Lexicon's properties"
     -- <$EyA   <i$aEoyA        N0      Isaiah
     -- A$EyA   <i$aEoyA        N0      Isaiah
 
-    Identity                  `noun`       {- Ii$aEoyA' -}      [ "Isaiah" ] ]
+    Identity                  `noun`    {- Ii$aEoyA' -}        [ "Isaiah" ] ]
 
  |> "'i^sbiyliyy" <| [
 
@@ -13576,19 +13564,19 @@ lexicon = listing "Lexicon's properties"
     -- <$byly  <i$obiyliy~     Nall    from/of Seville     [[<i$obiyliy~/ADJ]]
     -- A$byly  <i$obiyliy~     Nall    from/of Seville     [[<i$obiyliy~/ADJ]]
 
-    Identity                  `adj`        {- Ii$obiyliy~ -}    [ "from/of Seville" ],
+    Identity                  `adj`     {- Ii$obiyliy~ -}      [ "from/of Seville" ],
 
     -- ;; <i$obiyliy~_2
     -- <$byly  <i$obiyliy~     N0      Ishbili
     -- A$byly  <i$obiyliy~     N0      Ishbili
 
-    Identity                  `noun`       {- Ii$obiyliy~ -}    [ "Ishbili" ],
+    Identity                  `noun`    {- Ii$obiyliy~ -}      [ "Ishbili" ],
 
     -- ;; <i$obiyliy~ap_1
     -- <$byly  <i$obiyliy      Nap     Seville
     -- A$byly  <i$obiyliy      Nap     Seville
 
-    Identity |< aT            `noun`       {- Ii$obiyliy~ap -}  [ "Seville" ] ]
+    Identity |< aT            `noun`    {- Ii$obiyliy~ap -}    [ "Seville" ] ]
 
  |> "'i_dA" <| [
 
@@ -13596,7 +13584,7 @@ lexicon = listing "Lexicon's properties"
     -- <*A     <i*A    FW-Wa   if/whether             [[<i*A/CONJ]]
     -- A*A     <i*A    FW-Wa   if/whether             [[<i*A/CONJ]]
 
-    Identity                  `noun`       {- Ii*A -}           [ "if/whether" ] ]
+    Identity                  `noun`    {- Ii*A -}             [ "if/whether" ] ]
 
  |> "'i_hwAniyy" <| [
 
@@ -13604,7 +13592,7 @@ lexicon = listing "Lexicon's properties"
     -- <xwAny  <ixowAniy~      NapAt   fraternity;brotherhood     [[<ixowAniy~/NOUN]]
     -- AxwAny  <ixowAniy~      NapAt   fraternity;brotherhood     [[<ixowAniy~/NOUN]]
 
-    Identity |< aT            `noun`       {- IixowAniy~ap -}   [ "fraternity", "brotherhood" ] ]
+    Identity |< aT            `noun`    {- IixowAniy~ap -}     [ "fraternity", "brotherhood" ] ]
 
  |> "'i_tnuw^grAfiyA" <| [
 
@@ -13614,7 +13602,7 @@ lexicon = listing "Lexicon's properties"
     -- <vnwgrAfyA      <ivonuwgrAfiyA  N0      ethnography
     -- AvnwgrAfyA      <ivonuwgrAfiyA  N0      ethnography
 
-    Identity                  `noun`       {- IivonuwjrAfiyA -} [ "ethnography" ] ]
+    Identity                  `noun`    {- IivonuwjrAfiyA -}   [ "ethnography" ] ]
 
  |> "'i_tnuwluw^g" <| [
 
@@ -13622,7 +13610,7 @@ lexicon = listing "Lexicon's properties"
     -- <vnwlwjy        <ivonuwluwjiy~  Nall    ethnological     [[<ivonuwluwjiy~/ADJ]]
     -- Avnwlwjy        <ivonuwluwjiy~  Nall    ethnological     [[<ivonuwluwjiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iivonuwluwjiy~ -} [ "ethnological" ] ]
+    Identity |< Iy            `adj`     {- Iivonuwluwjiy~ -}   [ "ethnological" ] ]
 
  |> "'i_tnuwluw^giyA" <| [
 
@@ -13630,7 +13618,7 @@ lexicon = listing "Lexicon's properties"
     -- <vnwlwjyA       <ivonuwluwjiyA  N0      ethnology
     -- AvnwlwjyA       <ivonuwluwjiyA  N0      ethnology
 
-    Identity                  `noun`       {- IivonuwluwjiyA -} [ "ethnology" ] ]
+    Identity                  `noun`    {- IivonuwluwjiyA -}   [ "ethnology" ] ]
 
  |> "'i_tra" <| [
 
@@ -13640,7 +13628,7 @@ lexicon = listing "Lexicon's properties"
     -- <vr     <ivora  FW-Wa-a right after     [[<ivora/PREP]]
     -- Avr     <ivora  FW-Wa-a right after     [[<ivora/PREP]]
 
-    Identity                  `noun`       {- Iivora -}         [ "right after" ] ]
+    Identity                  `noun`    {- Iivora -}           [ "right after" ] ]
 
  |> "'ibistiymuwluw^g" <| [
 
@@ -13648,7 +13636,7 @@ lexicon = listing "Lexicon's properties"
     -- <bstymwlwjy     <ibisotiymuwluwjiy~     Nall    epistemological     [[<ibisotiymuwluwjiy~/ADJ]]
     -- Abstymwlwjy     <ibisotiymuwluwjiy~     Nall    epistemological     [[<ibisotiymuwluwjiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iibisotiymuwluwjiy~ -} [ "epistemological" ] ]
+    Identity |< Iy            `adj`     {- Iibisotiymuwluwjiy~ -} [ "epistemological" ] ]
 
  |> "'ibistiymuwluw^giyA" <| [
 
@@ -13656,7 +13644,7 @@ lexicon = listing "Lexicon's properties"
     -- <bstymwlwjyA    <ibisotiymuwluwjiyA     N0      epistemology
     -- AbstymwlwjyA    <ibisotiymuwluwjiyA     N0      epistemology
 
-    Identity                  `noun`       {- IibisotiymuwluwjiyA -} [ "epistemology" ] ]
+    Identity                  `noun`    {- IibisotiymuwluwjiyA -} [ "epistemology" ] ]
 
  |> "'ibrAhiym" <| [
 
@@ -13666,13 +13654,13 @@ lexicon = listing "Lexicon's properties"
     -- <brhym  <iborahiym      N0      Ibrahim
     -- Abrhym  <iborahiym      N0      Ibrahim
 
-    Identity                  `noun`       {- IiborAhiym -}     [ "Ibrahim" ],
+    Identity                  `noun`    {- IiborAhiym -}       [ "Ibrahim" ],
 
     -- ;; <iborAhiymiy~_1
     -- <brAhymy        <iborAhiymiy~   N0      Ibrahimi
     -- AbrAhymy        <iborAhiymiy~   N0      Ibrahimi
 
-    Identity |< Iy            `adj`        {- IiborAhiymiy~ -}  [ "Ibrahimi" ] ]
+    Identity |< Iy            `adj`     {- IiborAhiymiy~ -}    [ "Ibrahimi" ] ]
 
  |> "'ibriysam" <| [
 
@@ -13680,7 +13668,7 @@ lexicon = listing "Lexicon's properties"
     -- <brysm  <iboriysam      N       silk
     -- Abrysm  <iboriysam      N       silk
 
-    Identity                  `noun`       {- Iiboriysam -}     [ "silk" ] ]
+    Identity                  `noun`    {- Iiboriysam -}       [ "silk" ] ]
 
  |> "'idmuwnd" <| [
 
@@ -13688,7 +13676,7 @@ lexicon = listing "Lexicon's properties"
     -- <dmwnd  <idomuwnod      Nprop   Edmund;Edmond
     -- Admwnd  <idomuwnod      Nprop   Edmund;Edmond
 
-    Identity                  `noun`       {- Iidomuwnod -}     [ "Edmund", "Edmond" ] ]
+    Identity                  `noun`    {- Iidomuwnod -}       [ "Edmund", "Edmond" ] ]
 
  |> "'idmuwnduw" <| [
 
@@ -13696,7 +13684,7 @@ lexicon = listing "Lexicon's properties"
     -- <dmwndw <idomuwnoduw    Nprop   Edmundo
     -- Admwndw <idomuwnoduw    Nprop   Edmundo
 
-    Identity                  `noun`       {- Iidomuwnoduw -}   [ "Edmundo" ] ]
+    Identity                  `noun`    {- Iidomuwnoduw -}     [ "Edmundo" ] ]
 
  |> "'idrimiyd" <| [
 
@@ -13705,7 +13693,7 @@ lexicon = listing "Lexicon's properties"
     -- Adrmyd  <idorimiyd      Nprop   Edremit
     -- >drmyd  <idorimiyd      Nprop   Edremit
 
-    Identity                  `noun`       {- Iidorimiyd -}     [ "Edremit" ] ]
+    Identity                  `noun`    {- Iidorimiyd -}       [ "Edremit" ] ]
 
  |> "'idwArduw" <| [
 
@@ -13713,7 +13701,7 @@ lexicon = listing "Lexicon's properties"
     -- <dwArdw <idowAroduw     Nprop   Eduardo
     -- AdwArdw <idowAroduw     Nprop   Eduardo
 
-    Identity                  `noun`       {- IidowAroduw -}    [ "Eduardo" ] ]
+    Identity                  `noun`    {- IidowAroduw -}      [ "Eduardo" ] ]
 
  |> "'idwArdz" <| [
 
@@ -13721,7 +13709,7 @@ lexicon = listing "Lexicon's properties"
     -- <dwArdz <idowArodz      Nprop   Edwards
     -- AdwArdz <idowArodz      Nprop   Edwards
 
-    Identity                  `noun`       {- IidowArodz -}     [ "Edwards" ] ]
+    Identity                  `noun`    {- IidowArodz -}       [ "Edwards" ] ]
 
  |> "'idyuwluw^giyA" <| [
 
@@ -13729,7 +13717,7 @@ lexicon = listing "Lexicon's properties"
     -- <dywlwjyA       <idoyuwluwjiyA  N0      ideology
     -- AdywlwjyA       <idoyuwluwjiyA  N0      ideology
 
-    Identity                  `noun`       {- IidoyuwluwjiyA -} [ "ideology" ] ]
+    Identity                  `noun`    {- IidoyuwluwjiyA -}   [ "ideology" ] ]
 
  |> "'idyuwluw^giyy" <| [
 
@@ -13737,7 +13725,7 @@ lexicon = listing "Lexicon's properties"
     -- <dywlwjy        <idoyuwluwjiy~  Nall    ideological;ideologist     [[<idoyuwluwjiy~/ADJ]]
     -- Adywlwjy        <idoyuwluwjiy~  Nall    ideological;ideologist     [[<idoyuwluwjiy~/ADJ]]
 
-    Identity                  `adj`        {- Iidoyuwluwjiy~ -} [ "ideological", "ideologist" ] ]
+    Identity                  `adj`     {- Iidoyuwluwjiy~ -}   [ "ideological", "ideologist" ] ]
 
  |> "'ifariyst" <| [
 
@@ -13745,7 +13733,7 @@ lexicon = listing "Lexicon's properties"
     -- <fryst  <ifariyst       N0      Everest
     -- Afryst  <ifariyst       N0      Everest
 
-    Identity                  `noun`       {- Iifariyst -}      [ "Everest" ] ]
+    Identity                  `noun`    {- Iifariyst -}        [ "Everest" ] ]
 
  |> "'ifrAyiym" <| [
 
@@ -13753,7 +13741,7 @@ lexicon = listing "Lexicon's properties"
     -- <frAyym <iforAyiym      N0      Efraim
     -- AfrAyym <iforAyiym      N0      Efraim
 
-    Identity                  `noun`       {- IiforAyiym -}     [ "Efraim" ] ]
+    Identity                  `noun`    {- IiforAyiym -}       [ "Efraim" ] ]
 
  |> "'ikistrA" <| [
 
@@ -13761,13 +13749,13 @@ lexicon = listing "Lexicon's properties"
     -- <kstrA  <ikisotrA       N       extra
     -- AkstrA  <ikisotrA       N       extra
 
-    Identity                  `noun`       {- IikisotrA -}      [ "extra" ],
+    Identity                  `noun`    {- IikisotrA -}        [ "extra" ],
 
     -- ;; <ikisotrA_2
     -- <kstrA  <ikisotrA       Nprop   Extra
     -- AkstrA  <ikisotrA       Nprop   Extra
 
-    Identity                  `noun`       {- IikisotrA -}      [ "Extra" ] ]
+    Identity                  `noun`    {- IikisotrA -}        [ "Extra" ] ]
 
  |> "'ikiyuws" <| [
 
@@ -13775,7 +13763,7 @@ lexicon = listing "Lexicon's properties"
     -- <kyws   <ikiyuws        Nprop   Ekeus
     -- Akyws   <ikiyuws        Nprop   Ekeus
 
-    Identity                  `noun`       {- Iikiyuws -}       [ "Ekeus" ] ]
+    Identity                  `noun`    {- Iikiyuws -}         [ "Ekeus" ] ]
 
  |> "'ikliyniyk" <| [
 
@@ -13783,7 +13771,7 @@ lexicon = listing "Lexicon's properties"
     -- <klynyky        <ikoliyniykiy~  Nall    clinical     [[<ikoliyniykiy~/ADJ]]
     -- Aklynyky        <ikoliyniykiy~  Nall    clinical     [[<ikoliyniykiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iikoliyniykiy~ -} [ "clinical" ] ]
+    Identity |< Iy            `adj`     {- Iikoliyniykiy~ -}   [ "clinical" ] ]
 
  |> "'ikliyrik" <| [
 
@@ -13793,7 +13781,7 @@ lexicon = listing "Lexicon's properties"
     -- <klyryky        <ikoliyriykiy~  Nall    clerical     [[<ikoliyriykiy~/ADJ]]
     -- Aklyryky        <ikoliyriykiy~  Nall    clerical     [[<ikoliyriykiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iikoliyrikiy~ -}  [ "clerical" ] ]
+    Identity |< Iy            `adj`     {- Iikoliyrikiy~ -}    [ "clerical" ] ]
 
  |> "'iksbuw" <| [
 
@@ -13802,7 +13790,7 @@ lexicon = listing "Lexicon's properties"
     -- >ksbw   <iksobuw        Nprop   Expo
     -- Aksbw   <iksobuw        Nprop   Expo
 
-    Identity                  `noun`       {- Iiksobuw -}       [ "Expo" ] ]
+    Identity                  `noun`    {- Iiksobuw -}         [ "Expo" ] ]
 
  |> "'iksibriys" <| [
 
@@ -13810,13 +13798,13 @@ lexicon = listing "Lexicon's properties"
     -- <ksbrys <ikosibriys     N       express
     -- Aksbrys <ikosibriys     N       express
 
-    Identity                  `noun`       {- Iikosibriys -}    [ "express" ],
+    Identity                  `noun`    {- Iikosibriys -}      [ "express" ],
 
     -- ;; <ikosibriys_2
     -- <ksbrys <ikosibriys     N0      Express
     -- Aksbrys <ikosibriys     N0      Express
 
-    Identity                  `noun`       {- Iikosibriys -}    [ "Express" ] ]
+    Identity                  `noun`    {- Iikosibriys -}      [ "Express" ] ]
 
  |> "'ikwAduwr" <| [
 
@@ -13824,13 +13812,13 @@ lexicon = listing "Lexicon's properties"
     -- <kwAdwr <ikowAduwr      N0      Ecuador
     -- AkwAdwr <ikowAduwr      N0      Ecuador
 
-    Identity                  `noun`       {- IikowAduwr -}     [ "Ecuador" ],
+    Identity                  `noun`    {- IikowAduwr -}       [ "Ecuador" ],
 
     -- ;; <ikowAduwriy~_1
     -- <kwAdwry        <ikowAduwriy~   Nall    Ecuadorian
     -- AkwAdwry        <ikowAduwriy~   Nall    Ecuadorian
 
-    Identity |< Iy            `adj`        {- IikowAduwriy~ -}  [ "Ecuadorian" ] ]
+    Identity |< Iy            `adj`     {- IikowAduwriy~ -}    [ "Ecuadorian" ] ]
 
  |> "'ikziymA" <| [
 
@@ -13838,7 +13826,7 @@ lexicon = listing "Lexicon's properties"
     -- <kzymA  <ikoziymA       N0      eczema
     -- AkzymA  <ikoziymA       N0      eczema
 
-    Identity                  `noun`       {- IikoziymA -}      [ "eczema" ] ]
+    Identity                  `noun`    {- IikoziymA -}        [ "eczema" ] ]
 
  |> "'il_ah" <| [
 
@@ -13852,7 +13840,7 @@ lexicon = listing "Lexicon's properties"
     -- \|lh     |lih    Nap     gods;deities
     -- Alh     |lih    Nap     gods;deities
 
-    Identity                  `noun`       {- Iil`h -}          [ "god", "deity", "goddess", "female deity", "gods", "deities" ],
+    Identity                  `noun`    {- Iil`h -}            [ "god", "deity", "goddess", "female deity", "gods", "deities" ],
 
     -- ;; <il`hiy~_1
     -- <lhy    <il`hiy~        Nall    divine;godly;theological     [[<il`hiy~/ADJ]]
@@ -13860,7 +13848,7 @@ lexicon = listing "Lexicon's properties"
     -- <lAhy   <ilAhiy~        Nall    divine;godly;theological     [[<ilAhiy~/ADJ]]
     -- AlAhy   <ilAhiy~        Nall    divine;godly;theological     [[<ilAhiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iil`hiy~ -}       [ "divine", "godly", "theological" ] ]
+    Identity |< Iy            `adj`     {- Iil`hiy~ -}         [ "divine", "godly", "theological" ] ]
 
  |> "'ilhAnAn" <| [
 
@@ -13868,7 +13856,7 @@ lexicon = listing "Lexicon's properties"
     -- <lhAnAn <ilohAnAn       Nprop   Elhanan
     -- AlhAnAn <ilohAnAn       Nprop   Elhanan
 
-    Identity                  `noun`       {- IilohAnAn -}      [ "Elhanan" ] ]
+    Identity                  `noun`    {- IilohAnAn -}        [ "Elhanan" ] ]
 
  |> "'iliktriyk" <| [
 
@@ -13878,7 +13866,7 @@ lexicon = listing "Lexicon's properties"
     -- <lyktryk        <iliykotriyk    Nprop   Electric
     -- Alyktryk        <iliykotriyk    Nprop   Electric
 
-    Identity                  `noun`       {- Iilikotriyk -}    [ "Electric" ] ]
+    Identity                  `noun`    {- Iilikotriyk -}      [ "Electric" ] ]
 
  |> "'iliktruwd" <| [
 
@@ -13886,7 +13874,7 @@ lexicon = listing "Lexicon's properties"
     -- <lktrwd <ilikotruwd     N/At    electrode
     -- Alktrwd <ilikotruwd     N/At    electrode
 
-    Identity                  `noun`       {- Iilikotruwd -}    [ "electrode" ] ]
+    Identity                  `noun`    {- Iilikotruwd -}      [ "electrode" ] ]
 
  |> "'iliktruwn" <| [
 
@@ -13894,13 +13882,13 @@ lexicon = listing "Lexicon's properties"
     -- <lktrwn <ilikotruwn     N/At    electron
     -- Alktrwn <ilikotruwn     N/At    electron
 
-    Identity                  `noun`       {- Iilikotruwn -}    [ "electron" ],
+    Identity                  `noun`    {- Iilikotruwn -}      [ "electron" ],
 
     -- ;; <ilikotruwniy~_1
     -- <lktrwny        <ilikotruwniy~  Nall    electronic     [[<ilikotruwniy~/ADJ]]
     -- Alktrwny        <ilikotruwniy~  Nall    electronic     [[<ilikotruwniy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iilikotruwniy~ -} [ "electronic" ] ]
+    Identity |< Iy            `adj`     {- Iilikotruwniy~ -}   [ "electronic" ] ]
 
  |> "'iliyA_d" <| [
 
@@ -13908,7 +13896,7 @@ lexicon = listing "Lexicon's properties"
     -- <lyA*   <iliyA* Nap     Iliad
     -- AlyA*   <iliyA* Nap     Iliad
 
-    Identity |< aT            `noun`       {- IiliyA*ap -}      [ "Iliad" ] ]
+    Identity |< aT            `noun`    {- IiliyA*ap -}        [ "Iliad" ] ]
 
  |> "'iliyAn" <| [
 
@@ -13916,7 +13904,7 @@ lexicon = listing "Lexicon's properties"
     -- <lyAn   <iliyAn Nprop   Elian
     -- AlyAn   <iliyAn Nprop   Elian
 
-    Identity                  `noun`       {- IiliyAn -}        [ "Elian" ] ]
+    Identity                  `noun`    {- IiliyAn -}          [ "Elian" ] ]
 
  |> "'iliy^sA" <| [
 
@@ -13924,7 +13912,7 @@ lexicon = listing "Lexicon's properties"
     -- <ly$A   <iliy$A Nprop   Elisha
     -- Aly$A   <iliy$A Nprop   Elisha
 
-    Identity                  `noun`       {- Iiliy$A -}        [ "Elisha" ] ]
+    Identity                  `noun`    {- Iiliy$A -}          [ "Elisha" ] ]
 
  |> "'iliy`Azar" <| [
 
@@ -13936,7 +13924,7 @@ lexicon = listing "Lexicon's properties"
     -- AlyEyzr <iliyEiyzar     Nprop   Eliezer
     -- >lyEyzr <iliyEiyzar     Nprop   Eliezer
 
-    Identity                  `noun`       {- IiliyEAzar -}     [ "Eliezer" ] ]
+    Identity                  `noun`    {- IiliyEAzar -}       [ "Eliezer" ] ]
 
  |> "'iliyktrA" <| [
 
@@ -13946,7 +13934,7 @@ lexicon = listing "Lexicon's properties"
     -- <ylyktrA        <iyliykotrA     N0      Elektra
     -- AylyktrA        <iyliykotrA     N0      Elektra
 
-    Identity                  `noun`       {- IiliykotrA -}     [ "Elektra" ] ]
+    Identity                  `noun`    {- IiliykotrA -}       [ "Elektra" ] ]
 
  |> "'iliysiyuw" <| [
 
@@ -13954,7 +13942,7 @@ lexicon = listing "Lexicon's properties"
     -- <lysyw  <iliysiyuw      Nprop   Eliseo
     -- Alysyw  <iliysiyuw      Nprop   Eliseo
 
-    Identity                  `noun`       {- Iiliysiyuw -}     [ "Eliseo" ] ]
+    Identity                  `noun`    {- Iiliysiyuw -}       [ "Eliseo" ] ]
 
  |> "'illA" <| [
 
@@ -13962,7 +13950,7 @@ lexicon = listing "Lexicon's properties"
     -- <lA     <il~A   FW-Wa   however;except      [[<il~A/PART]]
     -- AlA     <il~A   FW-Wa   however;except      [[<il~A/PART]]
 
-    Identity                  `noun`       {- Iil~A -}          [ "however", "except" ] ]
+    Identity                  `noun`    {- Iil~A -}            [ "however", "except" ] ]
 
  |> "'ilyuw^sin" <| [
 
@@ -13970,7 +13958,7 @@ lexicon = listing "Lexicon's properties"
     -- <lyw$n  <iloyuw$in      N0      Ilyushin
     -- Alyw$n  <iloyuw$in      N0      Ilyushin
 
-    Identity                  `noun`       {- Iiloyuw$in -}     [ "Ilyushin" ] ]
+    Identity                  `noun`    {- Iiloyuw$in -}       [ "Ilyushin" ] ]
 
  |> "'imArAt" <| [
 
@@ -13978,7 +13966,7 @@ lexicon = listing "Lexicon's properties"
     -- <mArAty <imArAtiy~      Nall    Emirati (of/from the UAE)     [[<imArAtiy~/ADJ]]
     -- AmArAty <imArAtiy~      Nall    Emirati (of/from the UAE)     [[<imArAtiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IimArAtiy~ -}     [ "Emirati (of/from the UAE)" ] ]
+    Identity |< Iy            `adj`     {- IimArAtiy~ -}       [ "Emirati (of/from the UAE)" ] ]
 
  |> "'imbirA.tuwr" <| [
 
@@ -13987,21 +13975,21 @@ lexicon = listing "Lexicon's properties"
     -- >mbrATwr        >amobirATuwr    NduAt   emperor
     -- AmbrATwr        <imobirATuwr    NduAt   emperor
 
-    Identity                  `noun`       {- IimobirATuwr -}   [ "emperor" ],
+    Identity                  `noun`    {- IimobirATuwr -}     [ "emperor" ],
 
     -- ;; <imobirATuwriy~_1
     -- <mbrATwry       <imobirATuwriy~ Nall    imperial     [[<imobirATuwriy~/ADJ]]
     -- >mbrATwry       >amobirATuwriy~ Nall    imperial     [[>amobirATuwriy~/ADJ]]
     -- AmbrATwry       <imobirATuwriy~ Nall    imperial     [[<imobirATuwriy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IimobirATuwriy~ -} [ "imperial" ],
+    Identity |< Iy            `adj`     {- IimobirATuwriy~ -}  [ "imperial" ],
 
     -- ;; <imobirATuwriy~ap_1
     -- <mbrATwry       <imobirATuwriy~ Nap     empire     [[<imobirATuwriy~/NOUN]]
     -- >mbrATwry       >amobirATuwriy~ Nap     empire     [[>amobirATuwriy~/NOUN]]
     -- AmbrATwry       <imobirATuwriy~ Nap     empire     [[<imobirATuwriy~/NOUN]]
 
-    Identity |< Iy |< aT      `noun`       {- IimobirATuwriy~ap -} [ "empire" ] ]
+    Identity |< Iy |< aT      `noun`    {- IimobirATuwriy~ap -} [ "empire" ] ]
 
  |> "'imbiriyAl" <| [
 
@@ -14009,13 +13997,13 @@ lexicon = listing "Lexicon's properties"
     -- <mbryAly        <imobiriyAliy~  Nall    imperialist;imperial     [[<imobiriyAliy~/ADJ]]
     -- AmbryAly        <imobiriyAliy~  Nall    imperialist;imperial     [[<imobiriyAliy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IimobiriyAliy~ -} [ "imperialist", "imperial" ],
+    Identity |< Iy            `adj`     {- IimobiriyAliy~ -}   [ "imperialist", "imperial" ],
 
     -- ;; <imobiriyAliy~ap_1
     -- <mbryAly        <imobiriyAliy~  Nap     imperialism     [[<imobiriyAliy~/NOUN]]
     -- AmbryAly        <imobiriyAliy~  Nap     imperialism     [[<imobiriyAliy~/NOUN]]
 
-    Identity |< Iy |< aT      `noun`       {- IimobiriyAliy~ap -} [ "imperialism" ] ]
+    Identity |< Iy |< aT      `noun`    {- IimobiriyAliy~ap -} [ "imperialism" ] ]
 
  |> "'imbiyriyAl" <| [
 
@@ -14023,13 +14011,13 @@ lexicon = listing "Lexicon's properties"
     -- <mbyryAly       <imobiyriyAliy~ Nall    imperialist;imperial     [[<imobiyriyAliy~/ADJ]]
     -- AmbyryAly       <imobiyriyAliy~ Nall    imperialist;imperial     [[<imobiyriyAliy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IimobiyriyAliy~ -} [ "imperialist", "imperial" ],
+    Identity |< Iy            `adj`     {- IimobiyriyAliy~ -}  [ "imperialist", "imperial" ],
 
     -- ;; <imobiyriyAliy~ap_1
     -- <mbyryAly       <imobiyriyAliy~ Nap     imperialism     [[<imobiyriyAliy~/NOUN]]
     -- AmbyryAly       <imobiyriyAliy~ Nap     imperialism     [[<imobiyriyAliy~/NOUN]]
 
-    Identity |< Iy |< aT      `noun`       {- IimobiyriyAliy~ap -} [ "imperialism" ] ]
+    Identity |< Iy |< aT      `noun`    {- IimobiyriyAliy~ap -} [ "imperialism" ] ]
 
  |> "'imiyl" <| [
 
@@ -14037,7 +14025,7 @@ lexicon = listing "Lexicon's properties"
     -- <myl    <imiyl  Nprop   Emile;Emil
     -- Amyl    <imiyl  Nprop   Emile;Emil
 
-    Identity                  `noun`       {- Iimiyl -}         [ "Emile", "Emil" ] ]
+    Identity                  `noun`    {- Iimiyl -}           [ "Emile", "Emil" ] ]
 
  |> "'immA" <| [
 
@@ -14046,7 +14034,7 @@ lexicon = listing "Lexicon's properties"
     -- AmA     <im~A   FW-Wa   either     [[<im~A/CONJ]]
     -- >mA     <im~A   FW-Wa   either     [[<im~A/CONJ]]
 
-    Identity                  `noun`       {- Iim~A -}          [ "either" ] ]
+    Identity                  `noun`    {- Iim~A -}            [ "either" ] ]
 
  |> "'imma`" <| [
 
@@ -14054,13 +14042,13 @@ lexicon = listing "Lexicon's properties"
     -- <mE     <im~aE  N       yes-man;opportunist
     -- AmE     <im~aE  N       yes-man;opportunist
 
-    Identity                  `noun`       {- Iim~aE -}         [ "yes-man", "opportunist" ],
+    Identity                  `noun`    {- Iim~aE -}           [ "yes-man", "opportunist" ],
 
     -- ;; <im~aEiy~_1
     -- <mEy    <im~aEiy~       N-ap    opportunism     [[<im~aEiy~/ADJ]]
     -- AmEy    <im~aEiy~       N-ap    opportunism     [[<im~aEiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iim~aEiy~ -}      [ "opportunism" ] ]
+    Identity |< Iy            `adj`     {- Iim~aEiy~ -}        [ "opportunism" ] ]
 
  |> "'in^giltirA" <| [
 
@@ -14070,7 +14058,7 @@ lexicon = listing "Lexicon's properties"
     -- >njltrA >anojilotirA    N0      England
     -- AnjltrA >anojilotirA    N0      England
 
-    Identity                  `noun`       {- IinojilotirA -}   [ "England" ] ]
+    Identity                  `noun`    {- IinojilotirA -}     [ "England" ] ]
 
  |> "'in^gliyz" <| [
 
@@ -14078,7 +14066,7 @@ lexicon = listing "Lexicon's properties"
     -- <njlyz  <inojliyz       N       English
     -- Anjlyz  <inojliyz       N       English
 
-    Identity                  `noun`       {- Iinojliyz -}      [ "English" ],
+    Identity                  `noun`    {- Iinojliyz -}        [ "English" ],
 
     -- ;; <inojliyziy~_1
     -- <njlyzy <inojliyziy~    Nall    English     [[<inojliyziy~/NOUN]]
@@ -14086,13 +14074,13 @@ lexicon = listing "Lexicon's properties"
     -- Anjlyzy <inojliyziy~    Nall    English     [[<inojliyziy~/NOUN]]
     -- Anjlyzy <inojliyziy~    Nall    English     [[<inojliyziy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iinojliyziy~ -}   [ "English" ],
+    Identity |< Iy            `adj`     {- Iinojliyziy~ -}     [ "English" ],
 
     -- ;; <inojliyziy~ap_1
     -- <njlyzy <inojliyziy~    Nap     English (language)    [[<inojliyziy~/NOUN]]
     -- Anjlyzy <inojliyziy~    Nap     English (language)    [[<inojliyziy~/NOUN]]
 
-    Identity |< Iy |< aT      `noun`       {- Iinojliyziy~ap -} [ "English (language)" ] ]
+    Identity |< Iy |< aT      `noun`    {- Iinojliyziy~ap -}   [ "English (language)" ] ]
 
  |> "'indastriyz" <| [
 
@@ -14102,7 +14090,7 @@ lexicon = listing "Lexicon's properties"
     -- <ndwstryz       <inoduwstriyz   Nprop   Industries
     -- Andwstryz       <inoduwstriyz   Nprop   Industries
 
-    Identity                  `noun`       {- Iinodasotriyz -}  [ "Industries" ] ]
+    Identity                  `noun`    {- Iinodasotriyz -}    [ "Industries" ] ]
 
  |> "'indibandant" <| [
 
@@ -14114,7 +14102,7 @@ lexicon = listing "Lexicon's properties"
     -- Andybndnt       <inodiybanodant N0      Independent
     -- >ndybndnt       <inodiybanodant N0      Independent
 
-    Identity                  `noun`       {- Iinodibanodant -} [ "Independent" ] ]
+    Identity                  `noun`    {- Iinodibanodant -}   [ "Independent" ] ]
 
  |> "'indiyAnA" <| [
 
@@ -14122,7 +14110,7 @@ lexicon = listing "Lexicon's properties"
     -- <ndyAnA <inodiyAnA      Nprop   Indiana
     -- AndyAnA <inodiyAnA      Nprop   Indiana
 
-    Identity                  `noun`       {- IinodiyAnA -}     [ "Indiana" ] ]
+    Identity                  `noun`    {- IinodiyAnA -}       [ "Indiana" ] ]
 
  |> "'indiyAnAbuwliys" <| [
 
@@ -14130,7 +14118,7 @@ lexicon = listing "Lexicon's properties"
     -- <ndyAnAbwlys    <inodiyAnAbuwliys       Nprop   Indianapolis
     -- AndyAnAbwlys    <inodiyAnAbuwliys       Nprop   Indianapolis
 
-    Identity                  `noun`       {- IinodiyAnAbuwliys -} [ "Indianapolis" ] ]
+    Identity                  `noun`    {- IinodiyAnAbuwliys -} [ "Indianapolis" ] ]
 
  |> "'induwniys" <| [
 
@@ -14140,7 +14128,7 @@ lexicon = listing "Lexicon's properties"
     -- Andwnysy        <inoduwniysiy~  Nall    Indonesian     [[<inoduwniysiy~/NOUN]]
     -- Andwnysy        <inoduwniysiy~  Nall    Indonesian     [[<inoduwniysiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iinoduwniysiy~ -} [ "Indonesian" ] ]
+    Identity |< Iy            `adj`     {- Iinoduwniysiy~ -}   [ "Indonesian" ] ]
 
  |> "'induwniysiyA" <| [
 
@@ -14148,7 +14136,7 @@ lexicon = listing "Lexicon's properties"
     -- <ndwnysyA       <inoduwniysiyA  N0      Indonesia
     -- AndwnysyA       <inoduwniysiyA  N0      Indonesia
 
-    Identity                  `noun`       {- IinoduwniysiyA -} [ "Indonesia" ] ]
+    Identity                  `noun`    {- IinoduwniysiyA -}   [ "Indonesia" ] ]
 
  |> "'influwanzA" <| [
 
@@ -14158,7 +14146,7 @@ lexicon = listing "Lexicon's properties"
     -- <nflwAnzA       <inofluwAnozA   N0      influenza
     -- AnflwAnzA       <inofluwAnozA   N0      influenza
 
-    Identity                  `noun`       {- IinofluwanozA -}  [ "influenza" ] ]
+    Identity                  `noun`    {- IinofluwanozA -}    [ "influenza" ] ]
 
  |> "'iniyAkiy" <| [
 
@@ -14166,7 +14154,7 @@ lexicon = listing "Lexicon's properties"
     -- <nyAky  <iniyAkiy       Nprop   Inaki
     -- AnyAky  <iniyAkiy       Nprop   Inaki
 
-    Identity                  `noun`       {- IiniyAkiy -}      [ "Inaki" ] ]
+    Identity                  `noun`    {- IiniyAkiy -}        [ "Inaki" ] ]
 
  |> "'iniyr^giy" <| [
 
@@ -14174,7 +14162,7 @@ lexicon = listing "Lexicon's properties"
     -- <nyrjy  <iniyrojiy      Nprop   Energy
     -- Anyrjy  <iniyrojiy      Nprop   Energy
 
-    Identity                  `noun`       {- Iiniyrojiy -}     [ "Energy" ] ]
+    Identity                  `noun`    {- Iiniyrojiy -}       [ "Energy" ] ]
 
  |> "'inkA" <| [
 
@@ -14182,7 +14170,7 @@ lexicon = listing "Lexicon's properties"
     -- <nkA    <inokA  N0      Inca
     -- AnkA    <inokA  N0      Inca
 
-    Identity                  `noun`       {- IinokA -}         [ "Inca" ] ]
+    Identity                  `noun`    {- IinokA -}           [ "Inca" ] ]
 
  |> "'inki^sAr" <| [
 
@@ -14192,7 +14180,7 @@ lexicon = listing "Lexicon's properties"
     -- Ank$Ary <inoki$Ariy~    Nall    Janissary     [[<inoki$Ariy~/NOUN]]
     -- Ank$Ary <inoki$Ariy~    Nall    Janissary     [[<inoki$Ariy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iinoki$Ariy~ -}   [ "Janissary" ] ]
+    Identity |< Iy            `adj`     {- Iinoki$Ariy~ -}     [ "Janissary" ] ]
 
  |> "'inkiltirA" <| [
 
@@ -14202,7 +14190,7 @@ lexicon = listing "Lexicon's properties"
     -- >nkltrA >anokilotirA    N0      England
     -- AnkltrA >anokilotirA    N0      England
 
-    Identity                  `noun`       {- IinokilotirA -}   [ "England" ] ]
+    Identity                  `noun`    {- IinokilotirA -}     [ "England" ] ]
 
  |> "'inkliyz" <| [
 
@@ -14214,13 +14202,13 @@ lexicon = listing "Lexicon's properties"
     -- <nklyz  <inokliyz       N       English
     -- Anklyz  <inokliyz       N       English
 
-    Identity |< Iy            `adj`        {- Iinokliyziy~ -}   [ "English" ],
+    Identity |< Iy            `adj`     {- Iinokliyziy~ -}     [ "English" ],
 
     -- ;; <inokliyziy~ap_1
     -- <nklyzy <inokliyziy~    Nap     English (language)    [[<inokliyziy~/NOUN]]
     -- Anklyzy <inokliyziy~    Nap     English (language)    [[<inokliyziy~/NOUN]]
 
-    Identity |< Iy |< aT      `noun`       {- Iinokliyziy~ap -} [ "English (language)" ] ]
+    Identity |< Iy |< aT      `noun`    {- Iinokliyziy~ap -}   [ "English (language)" ] ]
 
  |> "'inna" <| [
 
@@ -14235,7 +14223,7 @@ lexicon = listing "Lexicon's properties"
     -- >n      <in~a   FW-Wa-n~a       that/indeed      [[<in~a/FUNC_WORD]]
     -- >n      <in~    FW-Wa-n~        that/indeed      [[<in~/FUNC_WORD]]
 
-    Identity                  `noun`       {- Iin~a -}          [ "that/indeed" ] ]
+    Identity                  `noun`    {- Iin~a -}            [ "that/indeed" ] ]
 
  |> "'innamA" <| [
 
@@ -14243,7 +14231,7 @@ lexicon = listing "Lexicon's properties"
     -- <nmA    <in~amA FW-Wa   but rather;on the contrary      [[<in~amA/CONJ]]
     -- AnmA    <in~amA FW-Wa   but rather;on the contrary      [[<in~amA/CONJ]]
 
-    Identity                  `noun`       {- Iin~amA -}        [ "but rather", "on the contrary" ] ]
+    Identity                  `noun`    {- Iin~amA -}          [ "but rather", "on the contrary" ] ]
 
  |> "'inqliyz" <| [
 
@@ -14255,13 +14243,13 @@ lexicon = listing "Lexicon's properties"
     -- <nqlyz  <inoqliyz       N       English
     -- Anqlyz  <inoqliyz       N       English
 
-    Identity |< Iy            `adj`        {- Iinoqliyziy~ -}   [ "English" ],
+    Identity |< Iy            `adj`     {- Iinoqliyziy~ -}     [ "English" ],
 
     -- ;; <inoqliyziy~ap_1
     -- <nqlyzy <inoqliyziy~    Nap     English (language)     [[<inoqliyziy~/NOUN]]
     -- Anqlyzy <inoqliyziy~    Nap     English (language)     [[<inoqliyziy~/NOUN]]
 
-    Identity |< Iy |< aT      `noun`       {- Iinoqliyziy~ap -} [ "English (language)" ] ]
+    Identity |< Iy |< aT      `noun`    {- Iinoqliyziy~ap -}   [ "English (language)" ] ]
 
  |> "'intarfAks" <| [
 
@@ -14270,7 +14258,7 @@ lexicon = listing "Lexicon's properties"
     -- AntrfAks        <inotarofAks    Nprop   Interfax
     -- >ntrfAks        <inotarofAks    Nprop   Interfax
 
-    Identity                  `noun`       {- IinotarofAks -}   [ "Interfax" ] ]
+    Identity                  `noun`    {- IinotarofAks -}     [ "Interfax" ] ]
 
  |> "'intarnA^syuwnAl" <| [
 
@@ -14282,7 +14270,7 @@ lexicon = listing "Lexicon's properties"
     -- AntrnA$wnAl     <inotaronA$uwnAl        Nprop   International
     -- >ntrnA$wnAl     <inotaronA$uwnAl        Nprop   International
 
-    Identity                  `noun`       {- IinotarnA$oyuwnAl -} [ "International" ] ]
+    Identity                  `noun`    {- IinotarnA$oyuwnAl -} [ "International" ] ]
 
  |> "'intiliy^gins" <| [
 
@@ -14291,7 +14279,7 @@ lexicon = listing "Lexicon's properties"
     -- Antlyjns        <inotiliyjinos  Nprop   Intelligence
     -- >ntlyjns        <inotiliyjinos  Nprop   Intelligence
 
-    Identity                  `noun`       {- Iinotiliyjinos -} [ "Intelligence" ] ]
+    Identity                  `noun`    {- Iinotiliyjinos -}   [ "Intelligence" ] ]
 
  |> "'intirbuwl" <| [
 
@@ -14299,7 +14287,7 @@ lexicon = listing "Lexicon's properties"
     -- <ntrbwl <inotirobuwl    N0      Interpol
     -- Antrbwl <inotirobuwl    N0      Interpol
 
-    Identity                  `noun`       {- Iinotirobuwl -}   [ "Interpol" ] ]
+    Identity                  `noun`    {- Iinotirobuwl -}     [ "Interpol" ] ]
 
  |> "'intirnit" <| [
 
@@ -14311,7 +14299,7 @@ lexicon = listing "Lexicon's properties"
     -- Antrnyt <inotironiyt    NduAt   Internet
     -- >ntrnyt <inotironiyt    NduAt   Internet
 
-    Identity                  `noun`       {- Iinotironit -}    [ "Internet" ],
+    Identity                  `noun`    {- Iinotironit -}      [ "Internet" ],
 
     -- ;; <inotironitiy~_1
     -- <ntrnty <inotironitiy~  Nall    Internet     [[<inotironitiy~/ADJ]]
@@ -14321,7 +14309,7 @@ lexicon = listing "Lexicon's properties"
     -- Antrnyty        <inotironiytiy~ Nall    Internet     [[<inotironitiy~/ADJ]]
     -- >ntrnyty        <inotironiytiy~ Nall    Internet     [[<inotironitiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iinotironitiy~ -} [ "Internet" ] ]
+    Identity |< Iy            `adj`     {- Iinotironitiy~ -}   [ "Internet" ] ]
 
  |> "'iqliydis" <| [
 
@@ -14329,7 +14317,7 @@ lexicon = listing "Lexicon's properties"
     -- <qlyds  <iqoliydis      N       Euclid
     -- Aqlyds  <iqoliydis      N       Euclid
 
-    Identity                  `noun`       {- Iiqoliydis -}     [ "Euclid" ] ]
+    Identity                  `noun`    {- Iiqoliydis -}       [ "Euclid" ] ]
 
  |> "'iqliydiyy" <| [
 
@@ -14343,7 +14331,7 @@ lexicon = listing "Lexicon's properties"
     -- Aqlydy  >uqoliydiy~     Nall    Euclidean     [[>uqoliydiy~/NOUN]]
     -- Aqlydy  >uqoliydiy~     Nall    Euclidean     [[>uqoliydiy~/ADJ]]
 
-    Identity                  `adj`        {- Iiqoliydiy~ -}    [ "Euclidean" ] ]
+    Identity                  `adj`     {- Iiqoliydiy~ -}      [ "Euclidean" ] ]
 
  |> "'iqliymiyy" <| [
 
@@ -14351,13 +14339,13 @@ lexicon = listing "Lexicon's properties"
     -- <qlymy  <iqoliymiy~     Nall    regional;territorial     [[<iqoliymiy~/ADJ]]
     -- Aqlymy  <iqoliymiy~     Nall    regional;territorial     [[<iqoliymiy~/ADJ]]
 
-    Identity                  `adj`        {- Iiqoliymiy~ -}    [ "regional", "territorial" ],
+    Identity                  `adj`     {- Iiqoliymiy~ -}      [ "regional", "territorial" ],
 
     -- ;; <iqoliymiy~ap_1
     -- <qlymy  <iqoliymiy~     Nap     regionalism     [[<iqoliymiy~/NOUN]]
     -- Aqlymy  <iqoliymiy~     Nap     regionalism     [[<iqoliymiy~/NOUN]]
 
-    Identity |< aT            `noun`       {- Iiqoliymiy~ap -}  [ "regionalism" ] ]
+    Identity |< aT            `noun`    {- Iiqoliymiy~ap -}    [ "regionalism" ] ]
 
  |> "'iquwn" <| [
 
@@ -14365,7 +14353,7 @@ lexicon = listing "Lexicon's properties"
     -- <qwn    <iquwn  NapAt   icon
     -- Aqwn    <iquwn  NapAt   icon
 
-    Identity |< aT            `noun`       {- Iiquwnap -}       [ "icon" ] ]
+    Identity |< aT            `noun`    {- Iiquwnap -}         [ "icon" ] ]
 
  |> "'irbiyAn" <| [
 
@@ -14373,7 +14361,7 @@ lexicon = listing "Lexicon's properties"
     -- <rbyAn  <irobiyAn       N       crawfish;lobster
     -- ArbyAn  <irobiyAn       N       crawfish;lobster
 
-    Identity                  `noun`       {- IirobiyAn -}      [ "crawfish", "lobster" ] ]
+    Identity                  `noun`    {- IirobiyAn -}        [ "crawfish", "lobster" ] ]
 
  |> "'irdabb" <| [
 
@@ -14381,7 +14369,7 @@ lexicon = listing "Lexicon's properties"
     -- <rdb    <irodab~        NapAt   cesspool
     -- Ardb    <irodab~        NapAt   cesspool
 
-    Identity |< aT            `noun`       {- Iirodab~ap -}     [ "cesspool" ] ]
+    Identity |< aT            `noun`    {- Iirodab~ap -}       [ "cesspool" ] ]
 
  |> "'iriytriyy" <| [
 
@@ -14393,7 +14381,7 @@ lexicon = listing "Lexicon's properties"
     -- Arytry  <iriytriy~      Nall    Eritrean     [[>iriytriy~/ADJ]]
     -- >rytry  <iriytriy~      Nall    Eritrean     [[>iriytriy~/ADJ]]
 
-    Identity                  `adj`        {- Iiriytriy~ -}     [ "Eritrean" ] ]
+    Identity                  `adj`     {- Iiriytriy~ -}       [ "Eritrean" ] ]
 
  |> "'irlandA" <| [
 
@@ -14401,7 +14389,7 @@ lexicon = listing "Lexicon's properties"
     -- <rlndA  <irolanodA      N0      Ireland
     -- ArlndA  <irolanodA      N0      Ireland
 
-    Identity                  `noun`       {- IirolanodA -}     [ "Ireland" ] ]
+    Identity                  `noun`    {- IirolanodA -}       [ "Ireland" ] ]
 
  |> "'irlandiyy" <| [
 
@@ -14411,7 +14399,7 @@ lexicon = listing "Lexicon's properties"
     -- Arlndy  <irolanodiy~    Nall    Irish     [[<irolanodiy~/NOUN]]
     -- Arlndy  <irolanodiy~    Nall    Irish     [[<irolanodiy~/ADJ]]
 
-    Identity                  `adj`        {- Iirolanodiy~ -}   [ "Irish" ] ]
+    Identity                  `adj`     {- Iirolanodiy~ -}     [ "Irish" ] ]
 
  |> "'irmiyA" <| [
 
@@ -14419,7 +14407,7 @@ lexicon = listing "Lexicon's properties"
     -- <rmyA   <iromiyA        N0      Jeremiah
     -- ArmyA   <iromiyA        N0      Jeremiah
 
-    Identity                  `noun`       {- IiromiyA -}       [ "Jeremiah" ] ]
+    Identity                  `noun`    {- IiromiyA -}         [ "Jeremiah" ] ]
 
  |> "'irniystA" <| [
 
@@ -14427,7 +14415,7 @@ lexicon = listing "Lexicon's properties"
     -- <rnystA <ironiysotA     Nprop   Ernesta
     -- ArnystA <ironiysotA     Nprop   Ernesta
 
-    Identity                  `noun`       {- IironiysotA -}    [ "Ernesta" ] ]
+    Identity                  `noun`    {- IironiysotA -}      [ "Ernesta" ] ]
 
  |> "'is.tAnbuwl" <| [
 
@@ -14437,7 +14425,7 @@ lexicon = listing "Lexicon's properties"
     -- <sTnbwl <isoTanobuwl    Ndip    Istanbul
     -- AsTnbwl <isoTanobuwl    Ndip    Istanbul
 
-    Identity                  `noun`       {- IisoTAnobuwl -}   [ "Istanbul" ],
+    Identity                  `noun`    {- IisoTAnobuwl -}     [ "Istanbul" ],
 
     -- ;; <isoTAnobuwliy~_1
     -- <sTAnbwly       <isoTAnobuwliy~ Nall    of/from Istanbul     [[<isoTAnobuwliy~/NOUN]]
@@ -14449,7 +14437,7 @@ lexicon = listing "Lexicon's properties"
     -- <sTnbwly        <isoTanobuwliy~ Nall    of/from Istanbul     [[<isoTanobuwliy~/ADJ]]
     -- AsTnbwly        <isoTanobuwliy~ Nall    of/from Istanbul     [[<isoTanobuwliy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IisoTAnobuwliy~ -} [ "of/from Istanbul" ] ]
+    Identity |< Iy            `adj`     {- IisoTAnobuwliy~ -}  [ "of/from Istanbul" ] ]
 
  |> "'is.tabl" <| [
 
@@ -14457,7 +14445,7 @@ lexicon = listing "Lexicon's properties"
     -- <sTbl   <isoTabol       NduAt   stable;barn
     -- AsTbl   <isoTabol       NduAt   stable;barn
 
-    Identity                  `noun`       {- IisoTabol -}      [ "stable", "barn" ] ]
+    Identity                  `noun`    {- IisoTabol -}        [ "stable", "barn" ] ]
 
  |> "'is.taqis" <| [
 
@@ -14465,7 +14453,7 @@ lexicon = listing "Lexicon's properties"
     -- <sTqs   <isoTaqis       NduAt   element
     -- AsTqs   <isoTaqis       NduAt   element
 
-    Identity                  `noun`       {- IisoTaqis -}      [ "element" ] ]
+    Identity                  `noun`    {- IisoTaqis -}        [ "element" ] ]
 
  |> "'isbA^giytiy" <| [
 
@@ -14477,7 +14465,7 @@ lexicon = listing "Lexicon's properties"
     -- AsbAgyty        <isobAgiytiy    N0      spaghetti
     -- >sbAgyty        <isobAgiytiy    N0      spaghetti
 
-    Identity                  `noun`       {- IisobAjiytiy -}   [ "spaghetti" ] ]
+    Identity                  `noun`    {- IisobAjiytiy -}     [ "spaghetti" ] ]
 
  |> "'isbAna_h" <| [
 
@@ -14485,7 +14473,7 @@ lexicon = listing "Lexicon's properties"
     -- <sbAnx  <isobAnax       N0      spinach
     -- AsbAnx  <isobAnax       N0      spinach
 
-    Identity                  `noun`       {- IisobAnax -}      [ "spinach" ] ]
+    Identity                  `noun`    {- IisobAnax -}        [ "spinach" ] ]
 
  |> "'isbAniyA" <| [
 
@@ -14495,7 +14483,7 @@ lexicon = listing "Lexicon's properties"
     -- >sbAnyA >asobAniyA      N0      Spain
     -- AsbAnyA >asobAniyA      N0      Spain
 
-    Identity                  `noun`       {- IisobAniyA -}     [ "Spain" ] ]
+    Identity                  `noun`    {- IisobAniyA -}       [ "Spain" ] ]
 
  |> "'isbAnyuwl" <| [
 
@@ -14503,7 +14491,7 @@ lexicon = listing "Lexicon's properties"
     -- <sbAnywl        <isobAnoyuwl    Nprop   Espanol
     -- AsbAnywl        <isobAnoyuwl    Nprop   Espanol
 
-    Identity                  `noun`       {- IisobAnoyuwl -}   [ "Espanol" ] ]
+    Identity                  `noun`    {- IisobAnoyuwl -}     [ "Espanol" ] ]
 
  |> "'isbAr.t" <| [
 
@@ -14511,7 +14499,7 @@ lexicon = listing "Lexicon's properties"
     -- <sbArT  <isobArT        Nap     Sparta
     -- AsbArT  <isobArT        Nap     Sparta
 
-    Identity |< aT            `noun`       {- IisobArTap -}     [ "Sparta" ] ]
+    Identity |< aT            `noun`    {- IisobArTap -}       [ "Sparta" ] ]
 
  |> "'isbidA^g" <| [
 
@@ -14521,7 +14509,7 @@ lexicon = listing "Lexicon's properties"
     -- <sbydAj <isobiydAj      N       white lead;ceruse
     -- AsbydAj <isobiydAj      N       white lead;ceruse
 
-    Identity                  `noun`       {- IisobidAj -}      [ "white lead", "ceruse" ] ]
+    Identity                  `noun`    {- IisobidAj -}        [ "white lead", "ceruse" ] ]
 
  |> "'isbirAntuw" <| [
 
@@ -14533,7 +14521,7 @@ lexicon = listing "Lexicon's properties"
     -- AsbyrAntw       <isobiyrAnotuw  N0      Esperanto
     -- >sbyrAntw       <isobiyrAnotuw  N0      Esperanto
 
-    Identity                  `noun`       {- IisobirAnotuw -}  [ "Esperanto" ] ]
+    Identity                  `noun`    {- IisobirAnotuw -}    [ "Esperanto" ] ]
 
  |> "'isbirtuw" <| [
 
@@ -14541,7 +14529,7 @@ lexicon = listing "Lexicon's properties"
     -- <sbrtw  <isobirotuw     N0      alcohol
     -- Asbrtw  <isobirotuw     N0      alcohol
 
-    Identity                  `noun`       {- Iisobirotuw -}    [ "alcohol" ] ]
+    Identity                  `noun`    {- Iisobirotuw -}      [ "alcohol" ] ]
 
  |> "'isfAna_h" <| [
 
@@ -14551,7 +14539,7 @@ lexicon = listing "Lexicon's properties"
     -- <sfAnAx <isofAnAx       N0      spinach
     -- AsfAnAx <isofAnAx       N0      spinach
 
-    Identity                  `noun`       {- IisofAnax -}      [ "spinach" ] ]
+    Identity                  `noun`    {- IisofAnax -}        [ "spinach" ] ]
 
  |> "'isfan^g" <| [
 
@@ -14559,13 +14547,13 @@ lexicon = listing "Lexicon's properties"
     -- <sfnj   <isofanoj       N       sponge
     -- Asfnj   <isofanoj       N       sponge
 
-    Identity                  `noun`       {- Iisofanoj -}      [ "sponge" ],
+    Identity                  `noun`    {- Iisofanoj -}        [ "sponge" ],
 
     -- ;; <isofanojiy~_1
     -- <sfnjy  <isofanojiy~    Nall    porous;spongy     [[<isofanojiy~/ADJ]]
     -- Asfnjy  <isofanojiy~    Nall    porous;spongy     [[<isofanojiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iisofanojiy~ -}   [ "porous", "spongy" ] ]
+    Identity |< Iy            `adj`     {- Iisofanojiy~ -}     [ "porous", "spongy" ] ]
 
  |> "'iskAluwb" <| [
 
@@ -14573,7 +14561,7 @@ lexicon = listing "Lexicon's properties"
     -- <skAlwb <isokAluwb      NduAt   escalope;cutlet
     -- AskAlwb <isokAluwb      NduAt   escalope;cutlet
 
-    Identity                  `noun`       {- IisokAluwb -}     [ "escalope", "cutlet" ] ]
+    Identity                  `noun`    {- IisokAluwb -}       [ "escalope", "cutlet" ] ]
 
  |> "'iskaml" <| [
 
@@ -14581,7 +14569,7 @@ lexicon = listing "Lexicon's properties"
     -- <skml   <isokamol       Nap     stool
     -- Askml   <isokamol       Nap     stool
 
-    Identity |< aT            `noun`       {- Iisokamolap -}    [ "stool" ] ]
+    Identity |< aT            `noun`    {- Iisokamolap -}      [ "stool" ] ]
 
  |> "'iskandar" <| [
 
@@ -14590,13 +14578,13 @@ lexicon = listing "Lexicon's properties"
     -- >skndr  <isokanodar     Nprop   Iskandar;Eskandar
     -- Askndr  <isokanodar     Nprop   Iskandar;Eskandar
 
-    Identity                  `noun`       {- Iisokanodar -}    [ "Iskandar", "Eskandar" ],
+    Identity                  `noun`    {- Iisokanodar -}      [ "Iskandar", "Eskandar" ],
 
     -- ;; <isokanodariy~ap_1
     -- <skndry <isokanodariy~  Nap     Alexandria     [[<isokanodariy~/NOUN]]
     -- Askndry <isokanodariy~  Nap     Alexandria     [[<isokanodariy~/NOUN]]
 
-    Identity |< Iy |< aT      `noun`       {- Iisokanodariy~ap -} [ "Alexandria" ],
+    Identity |< Iy |< aT      `noun`    {- Iisokanodariy~ap -} [ "Alexandria" ],
 
     -- ;; <isokanodariy~_1
     -- <skndry <isokanodariy~  Nall    Alexandrian     [[<isokanodariy~/NOUN]]
@@ -14604,7 +14592,7 @@ lexicon = listing "Lexicon's properties"
     -- Askndry <isokanodariy~  Nall    Alexandrian     [[<isokanodariy~/NOUN]]
     -- Askndry <isokanodariy~  Nall    Alexandrian     [[<isokanodariy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iisokanodariy~ -} [ "Alexandrian" ] ]
+    Identity |< Iy            `adj`     {- Iisokanodariy~ -}   [ "Alexandrian" ] ]
 
  |> "'iskandaruwn" <| [
 
@@ -14612,7 +14600,7 @@ lexicon = listing "Lexicon's properties"
     -- <skndrwn        <isokanodaruwn  Nap     Iskenderun
     -- Askndrwn        <isokanodaruwn  Nap     Iskenderun
 
-    Identity |< aT            `noun`       {- Iisokanodaruwnap -} [ "Iskenderun" ] ]
+    Identity |< aT            `noun`    {- Iisokanodaruwnap -} [ "Iskenderun" ] ]
 
  |> "'iskandiynAf" <| [
 
@@ -14626,7 +14614,7 @@ lexicon = listing "Lexicon's properties"
     -- AskndnAfy       <isokanodinAfiy~        Nall    Scandinavian     [[<isokanodinAfiy~/NOUN]]
     -- AskndnAfy       <isokanodinAfiy~        Nall    Scandinavian     [[<isokanodinAfiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IisokanodiynAfiy~ -} [ "Scandinavian" ] ]
+    Identity |< Iy            `adj`     {- IisokanodiynAfiy~ -} [ "Scandinavian" ] ]
 
  |> "'iskandiynAfiyA" <| [
 
@@ -14636,7 +14624,7 @@ lexicon = listing "Lexicon's properties"
     -- <skndnAfyA      <isokanodinAfiyA        N0      Scandinavia
     -- AskndnAfyA      <isokanodinAfiyA        N0      Scandinavia
 
-    Identity                  `noun`       {- IisokanodiynAfiyA -} [ "Scandinavia" ] ]
+    Identity                  `noun`    {- IisokanodiynAfiyA -} [ "Scandinavia" ] ]
 
  |> "'iskarbuw.t" <| [
 
@@ -14644,13 +14632,13 @@ lexicon = listing "Lexicon's properties"
     -- <skrbwT <isokarobuwT    N       scurvy
     -- AskrbwT <isokarobuwT    N       scurvy
 
-    Identity                  `noun`       {- IisokarobuwT -}   [ "scurvy" ],
+    Identity                  `noun`    {- IisokarobuwT -}     [ "scurvy" ],
 
     -- ;; <isokarobuwTiy~_1
     -- <skrbwTy        <isokarobuwTiy~ Nall    scurvy     [[<isokarobuwTiy~/ADJ]]
     -- AskrbwTy        <isokarobuwTiy~ Nall    scurvy     [[<isokarobuwTiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IisokarobuwTiy~ -} [ "scurvy" ] ]
+    Identity |< Iy            `adj`     {- IisokarobuwTiy~ -}  [ "scurvy" ] ]
 
  |> "'iskit^s" <| [
 
@@ -14658,7 +14646,7 @@ lexicon = listing "Lexicon's properties"
     -- <skt$   <isokit$        NduAt   sketch
     -- Askt$   <isokit$        NduAt   sketch
 
-    Identity                  `noun`       {- Iisokit$ -}       [ "sketch" ] ]
+    Identity                  `noun`    {- Iisokit$ -}         [ "sketch" ] ]
 
  |> "'iskiymA'" <| [
 
@@ -14666,7 +14654,7 @@ lexicon = listing "Lexicon's properties"
     -- <skymAwy        <isokiymAwiy~   Nall    Eskimo     [[<isokiymAwiy~/ADJ]]
     -- AskymAwy        <isokiymAwiy~   Nall    Eskimo     [[<isokiymAwiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IisokiymAwiy~ -}  [ "Eskimo" ] ]
+    Identity |< Iy            `adj`     {- IisokiymAwiy~ -}    [ "Eskimo" ] ]
 
  |> "'iskiymuw" <| [
 
@@ -14674,7 +14662,7 @@ lexicon = listing "Lexicon's properties"
     -- <skymw  <isokiymuw      N0      Eskimo;Eskimos
     -- Askymw  <isokiymuw      N0      Eskimo;Eskimos
 
-    Identity                  `noun`       {- Iisokiymuw -}     [ "Eskimo", "Eskimos" ] ]
+    Identity                  `noun`    {- Iisokiymuw -}       [ "Eskimo", "Eskimos" ] ]
 
  |> "'iskutland" <| [
 
@@ -14684,7 +14672,7 @@ lexicon = listing "Lexicon's properties"
     -- Asktlndy        <isokutolanodiy~        Nall    Scottish     [[<isokutolanodiy~/NOUN]]
     -- Asktlndy        <isokutolanodiy~        Nall    Scottish     [[<isokutolanodiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iisokutolanodiy~ -} [ "Scottish" ] ]
+    Identity |< Iy            `adj`     {- Iisokutolanodiy~ -} [ "Scottish" ] ]
 
  |> "'iskutlandA" <| [
 
@@ -14692,7 +14680,7 @@ lexicon = listing "Lexicon's properties"
     -- <sktlndA        <isokutolanodA  N0      Scotland
     -- AsktlndA        <isokutolanodA  N0      Scotland
 
-    Identity                  `noun`       {- IisokutolanodA -} [ "Scotland" ] ]
+    Identity                  `noun`    {- IisokutolanodA -}   [ "Scotland" ] ]
 
  |> "'iskutlandyArd" <| [
 
@@ -14700,7 +14688,7 @@ lexicon = listing "Lexicon's properties"
     -- <sktlndyArd     <isokutolanodoyArd      N0      Scotland Yard
     -- AsktlndyArd     <isokutolanodoyArd      N0      Scotland Yard
 
-    Identity                  `noun`       {- IisokutolanodoyArd -} [ "Scotland Yard" ] ]
+    Identity                  `noun`    {- IisokutolanodoyArd -} [ "Scotland Yard" ] ]
 
  |> "'iskuwduw" <| [
 
@@ -14708,7 +14696,7 @@ lexicon = listing "Lexicon's properties"
     -- <skwdw  <isokuwduw      N0      escudo (monetary unit)
     -- Askwdw  <isokuwduw      N0      escudo (monetary unit)
 
-    Identity                  `noun`       {- Iisokuwduw -}     [ "escudo (monetary unit)" ] ]
+    Identity                  `noun`    {- Iisokuwduw -}       [ "escudo (monetary unit)" ] ]
 
  |> "'iskwA^s" <| [
 
@@ -14716,7 +14704,7 @@ lexicon = listing "Lexicon's properties"
     -- <skwA$  <isokwA$        N0      squash (sport)
     -- AskwA$  <isokwA$        N0      squash (sport)
 
-    Identity                  `noun`       {- IisokwA$ -}       [ "squash (sport)" ] ]
+    Identity                  `noun`    {- IisokwA$ -}         [ "squash (sport)" ] ]
 
  |> "'islAmbuwl" <| [
 
@@ -14724,13 +14712,13 @@ lexicon = listing "Lexicon's properties"
     -- <slAmbwly       <isolAmobuwliy~ N0      Islambuli
     -- AslAmbwly       <isolAmobuwliy~ N0      Islambuli
 
-    Identity |< Iy            `adj`        {- IisolAmobuwliy~ -} [ "Islambuli" ],
+    Identity |< Iy            `adj`     {- IisolAmobuwliy~ -}  [ "Islambuli" ],
 
     -- ;; <isolAmobuwliy~_2
     -- <slAmbwly       <isolAmobuwliy~ Nall    from/of Istanbul     [[<isolAmobuwliy~/ADJ]]
     -- AslAmbwly       <isolAmobuwliy~ Nall    from/of Istanbul     [[<isolAmobuwliy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IisolAmobuwliy~ -} [ "from/of Istanbul" ] ]
+    Identity |< Iy            `adj`     {- IisolAmobuwliy~ -}  [ "from/of Istanbul" ] ]
 
  |> "'islAnd" <| [
 
@@ -14740,7 +14728,7 @@ lexicon = listing "Lexicon's properties"
     -- AslAndy <isolAnodiy~    Nall    Icelandic     [[<isolAnodiy~/NOUN]]
     -- AslAndy <isolAnodiy~    Nall    Icelandic     [[<isolAnodiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IisolAnodiy~ -}   [ "Icelandic" ] ]
+    Identity |< Iy            `adj`     {- IisolAnodiy~ -}     [ "Icelandic" ] ]
 
  |> "'islAndA" <| [
 
@@ -14750,7 +14738,7 @@ lexicon = listing "Lexicon's properties"
     -- <slAndp <isolAnodap     N0      Iceland
     -- AslAndp <isolAnodap     N0      Iceland
 
-    Identity                  `noun`       {- IisolAnodA -}     [ "Iceland" ] ]
+    Identity                  `noun`    {- IisolAnodA -}       [ "Iceland" ] ]
 
  |> "'ismA`iyl" <| [
 
@@ -14758,25 +14746,25 @@ lexicon = listing "Lexicon's properties"
     -- <smAEyl <isomAEiyl      Ndip    Ishmael;Ismail
     -- AsmAEyl <isomAEiyl      Ndip    Ishmael;Ismail
 
-    Identity                  `noun`       {- IisomAEiyl -}     [ "Ishmael", "Ismail" ],
+    Identity                  `noun`    {- IisomAEiyl -}       [ "Ishmael", "Ismail" ],
 
     -- ;; <isomAEiyliy~_1
     -- <smAEyly        <isomAEiyliy~   Nall    from/of Ismailia     [[<isomAEiyliy~/ADJ]]
     -- AsmAEyly        <isomAEiyliy~   Nall    from/of Ismailia     [[<isomAEiyliy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IisomAEiyliy~ -}  [ "from/of Ismailia" ],
+    Identity |< Iy            `adj`     {- IisomAEiyliy~ -}    [ "from/of Ismailia" ],
 
     -- ;; <isomAEiyliy~_2
     -- <smAEyly        <isomAEiyliy~   N0      Ismaili
     -- AsmAEyly        <isomAEiyliy~   N0      Ismaili
 
-    Identity |< Iy            `adj`        {- IisomAEiyliy~ -}  [ "Ismaili" ],
+    Identity |< Iy            `adj`     {- IisomAEiyliy~ -}    [ "Ismaili" ],
 
     -- ;; <isomAEiyliy~ap_1
     -- <smAEyly        <isomAEiyliy~   Nap     Ismailia     [[<isomAEiyliy~/NOUN]]
     -- AsmAEyly        <isomAEiyliy~   Nap     Ismailia     [[<isomAEiyliy~/NOUN]]
 
-    Identity |< Iy |< aT      `noun`       {- IisomAEiyliy~ap -} [ "Ismailia" ] ]
+    Identity |< Iy |< aT      `noun`    {- IisomAEiyliy~ap -}  [ "Ismailia" ] ]
 
  |> "'isqarbuw.t" <| [
 
@@ -14784,13 +14772,13 @@ lexicon = listing "Lexicon's properties"
     -- <sqrbwT <isoqarobuwT    N       scurvy
     -- AsqrbwT <isoqarobuwT    N       scurvy
 
-    Identity                  `noun`       {- IisoqarobuwT -}   [ "scurvy" ],
+    Identity                  `noun`    {- IisoqarobuwT -}     [ "scurvy" ],
 
     -- ;; <isoqarobuwTiy~_1
     -- <sqrbwTy        <isoqarobuwTiy~ Nall    scurvy     [[<isoqarobuwTiy~/ADJ]]
     -- AsqrbwTy        <isoqarobuwTiy~ Nall    scurvy     [[<isoqarobuwTiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IisoqarobuwTiy~ -} [ "scurvy" ] ]
+    Identity |< Iy            `adj`     {- IisoqarobuwTiy~ -}  [ "scurvy" ] ]
 
  |> "'isrA'iyl" <| [
 
@@ -14798,7 +14786,7 @@ lexicon = listing "Lexicon's properties"
     -- <srA}yl <isorA}iyl      Ndip    Israel
     -- AsrA}yl <isorA}iyl      Ndip    Israel
 
-    Identity                  `noun`       {- IisorA}iyl -}     [ "Israel" ],
+    Identity                  `noun`    {- IisorA}iyl -}       [ "Israel" ],
 
     -- ;; <isorA}iyliy~_1
     -- <srA}yly        <isorA}iyliy~   Nall    Israeli     [[<isorA}iyliy~/NOUN]]
@@ -14806,7 +14794,7 @@ lexicon = listing "Lexicon's properties"
     -- AsrA}yly        <isorA}iyliy~   Nall    Israeli     [[<isorA}iyliy~/NOUN]]
     -- AsrA}yly        <isorA}iyliy~   Nall    Israeli     [[<isorA}iyliy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IisorA}iyliy~ -}  [ "Israeli" ] ]
+    Identity |< Iy            `adj`     {- IisorA}iyliy~ -}    [ "Israeli" ] ]
 
  |> "'isrAfiyl" <| [
 
@@ -14814,7 +14802,7 @@ lexicon = listing "Lexicon's properties"
     -- <srAfyl <isorAfiyl      Ndip    Israfil
     -- AsrAfyl <isorAfiyl      Ndip    Israfil
 
-    Identity                  `noun`       {- IisorAfiyl -}     [ "Israfil" ] ]
+    Identity                  `noun`    {- IisorAfiyl -}       [ "Israfil" ] ]
 
  |> "'istAtiyk" <| [
 
@@ -14822,7 +14810,7 @@ lexicon = listing "Lexicon's properties"
     -- <stAtyky        <isotAtiykiy~   Nall    static     [[<isotAtiykiy~/ADJ]]
     -- AstAtyky        <isotAtiykiy~   Nall    static     [[<isotAtiykiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IisotAtiykiy~ -}  [ "static" ] ]
+    Identity |< Iy            `adj`     {- IisotAtiykiy~ -}    [ "static" ] ]
 
  |> "'istAtiykA" <| [
 
@@ -14830,7 +14818,7 @@ lexicon = listing "Lexicon's properties"
     -- <stAtykA        <isotAtiykA     N0      statics
     -- AstAtykA        <isotAtiykA     N0      statics
 
-    Identity                  `noun`       {- IisotAtiykA -}    [ "statics" ] ]
+    Identity                  `noun`    {- IisotAtiykA -}      [ "statics" ] ]
 
  |> "'istabraq" <| [
 
@@ -14838,7 +14826,7 @@ lexicon = listing "Lexicon's properties"
     -- <stbrq  <isotaboraq     N       brocade
     -- Astbrq  <isotaboraq     N       brocade
 
-    Identity                  `noun`       {- Iisotaboraq -}    [ "brocade" ] ]
+    Identity                  `noun`    {- Iisotaboraq -}      [ "brocade" ] ]
 
  |> "'istanbuwl" <| [
 
@@ -14848,7 +14836,7 @@ lexicon = listing "Lexicon's properties"
     -- <stAnbwl        <isotAnobuwl    Ndip    Istanbul
     -- AstAnbwl        <isotAnobuwl    Ndip    Istanbul
 
-    Identity                  `noun`       {- Iisotanobuwl -}   [ "Istanbul" ],
+    Identity                  `noun`    {- Iisotanobuwl -}     [ "Istanbul" ],
 
     -- ;; <isotanobuwliy~_1
     -- <stnbwly        <isotanobuwliy~ Nall    from/of Istanbul     [[<isotanobuwliy~/ADJ]]
@@ -14856,7 +14844,7 @@ lexicon = listing "Lexicon's properties"
     -- <stAnbwly       <isotAnobuwliy~ Nall    from/of Istanbul     [[<isotAnobuwliy~/ADJ]]
     -- AstAnbwly       <isotAnobuwliy~ Nall    from/of Istanbul     [[<isotAnobuwliy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iisotanobuwliy~ -} [ "from/of Istanbul" ] ]
+    Identity |< Iy            `adj`     {- Iisotanobuwliy~ -}  [ "from/of Istanbul" ] ]
 
  |> "'istarliyn" <| [
 
@@ -14864,7 +14852,7 @@ lexicon = listing "Lexicon's properties"
     -- <strlyny        <isotaroliyniy~ Nall    sterling     [[<isotaroliyniy~/ADJ]]
     -- Astrlyny        <isotaroliyniy~ Nall    sterling     [[<isotaroliyniy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iisotaroliyniy~ -} [ "sterling" ] ]
+    Identity |< Iy            `adj`     {- Iisotaroliyniy~ -}  [ "sterling" ] ]
 
  |> "'istiyliy" <| [
 
@@ -14872,7 +14860,7 @@ lexicon = listing "Lexicon's properties"
     -- <styly  <istiyliy       Nprop   Estili;Esteeli
     -- Astyly  <istiyliy       Nprop   Estili;Esteeli
 
-    Identity                  `noun`       {- Iistiyliy -}      [ "Estili", "Esteeli" ] ]
+    Identity                  `noun`    {- Iistiyliy -}        [ "Estili", "Esteeli" ] ]
 
  |> "'istrAdA" <| [
 
@@ -14880,7 +14868,7 @@ lexicon = listing "Lexicon's properties"
     -- <strAdA <isotrAdA       Nprop   Estrada
     -- AstrAdA <isotrAdA       Nprop   Estrada
 
-    Identity                  `noun`       {- IisotrAdA -}      [ "Estrada" ] ]
+    Identity                  `noun`    {- IisotrAdA -}        [ "Estrada" ] ]
 
  |> "'istrAtiy^g" <| [
 
@@ -14888,13 +14876,13 @@ lexicon = listing "Lexicon's properties"
     -- <strAtyjy       <isotrAtiyjiy~  Nall    strategic     [[<isotrAtiyjiy~/ADJ]]
     -- AstrAtyjy       <isotrAtiyjiy~  Nall    strategic     [[<isotrAtiyjiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IisotrAtiyjiy~ -} [ "strategic" ],
+    Identity |< Iy            `adj`     {- IisotrAtiyjiy~ -}   [ "strategic" ],
 
     -- ;; <isotrAtiyjiy~ap_1
     -- <strAtyjy       <isotrAtiyjiy~  NapAt   strategy     [[<isotrAtiyjiy~/NOUN]]
     -- AstrAtyjy       <isotrAtiyjiy~  NapAt   strategy     [[<isotrAtiyjiy~/NOUN]]
 
-    Identity |< Iy |< aT      `noun`       {- IisotrAtiyjiy~ap -} [ "strategy" ] ]
+    Identity |< Iy |< aT      `noun`    {- IisotrAtiyjiy~ap -} [ "strategy" ] ]
 
  |> "'istriylA" <| [
 
@@ -14902,7 +14890,7 @@ lexicon = listing "Lexicon's properties"
     -- <strylA <isotriylA      N0      Estrela
     -- AstrylA <isotriylA      N0      Estrela
 
-    Identity                  `noun`       {- IisotriylA -}     [ "Estrela" ] ]
+    Identity                  `noun`    {- IisotriylA -}       [ "Estrela" ] ]
 
  |> "'istruw^giyn" <| [
 
@@ -14910,13 +14898,13 @@ lexicon = listing "Lexicon's properties"
     -- <strwjyn        <isotruwjiyn    N0      estrogen
     -- Astrwjyn        <isotruwjiyn    N0      estrogen
 
-    Identity                  `noun`       {- Iisotruwjiyn -}   [ "estrogen" ],
+    Identity                  `noun`    {- Iisotruwjiyn -}     [ "estrogen" ],
 
     -- ;; <isotruwjiyniy~_1
     -- <strwjyny       <isotruwjiyniy~ Nall    estrogen     [[<isotruwjiyniy~/ADJ]]
     -- Astrwjyny       <isotruwjiyniy~ Nall    estrogen     [[<isotruwjiyniy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iisotruwjiyniy~ -} [ "estrogen" ] ]
+    Identity |< Iy            `adj`     {- Iisotruwjiyniy~ -}  [ "estrogen" ] ]
 
  |> "'istu.gmAy" <| [
 
@@ -14924,7 +14912,7 @@ lexicon = listing "Lexicon's properties"
     -- <stgmAy <isotugomAy     Nap     blind-mans' buff
     -- AstgmAy <isotugomAy     Nap     blind-mans' buff
 
-    Identity |< aT            `noun`       {- IisotugomAyap -}  [ "blind-mans' buff" ] ]
+    Identity |< aT            `noun`    {- IisotugomAyap -}    [ "blind-mans' buff" ] ]
 
  |> "'istuwdiyuw" <| [
 
@@ -14932,7 +14920,7 @@ lexicon = listing "Lexicon's properties"
     -- <stwdyw <isotuwdiyuw    N0      studio
     -- <stwdywh        <isotuwdiyuwh   NAt     studios
 
-    Identity                  `noun`       {- Iisotuwdiyuw -}   [ "studio", "studios" ] ]
+    Identity                  `noun`    {- Iisotuwdiyuw -}     [ "studio", "studios" ] ]
 
  |> "'istuwkhuwlm" <| [
 
@@ -14940,7 +14928,7 @@ lexicon = listing "Lexicon's properties"
     -- <stwkhwlm       <isotuwkohuwlm  N0      Stockholm
     -- Astwkhwlm       <isotuwkohuwlm  N0      Stockholm
 
-    Identity                  `noun`       {- Iisotuwkohuwlm -} [ "Stockholm" ] ]
+    Identity                  `noun`    {- Iisotuwkohuwlm -}   [ "Stockholm" ] ]
 
  |> "'istuwniyA" <| [
 
@@ -14948,7 +14936,7 @@ lexicon = listing "Lexicon's properties"
     -- <stwnyA <isotuwniyA     Nprop   Estonia
     -- AstwnyA <isotuwniyA     Nprop   Estonia
 
-    Identity                  `noun`       {- IisotuwniyA -}    [ "Estonia" ] ]
+    Identity                  `noun`    {- IisotuwniyA -}      [ "Estonia" ] ]
 
  |> "'itziyuwn" <| [
 
@@ -14956,7 +14944,7 @@ lexicon = listing "Lexicon's properties"
     -- <tzywn  <itoziyuwn      Nprop   Etzion
     -- Atzywn  <itoziyuwn      Nprop   Etzion
 
-    Identity                  `noun`       {- Iitoziyuwn -}     [ "Etzion" ] ]
+    Identity                  `noun`    {- Iitoziyuwn -}       [ "Etzion" ] ]
 
  |> "'iwazz" <| [
 
@@ -14966,7 +14954,7 @@ lexicon = listing "Lexicon's properties"
     -- <wz     <iwaz~  N       geese
     -- Awz     <iwaz~  N       geese
 
-    Identity |< aT            `noun`       {- Iiwaz~ap -}       [ "goose", "geese" ] ]
+    Identity |< aT            `noun`    {- Iiwaz~ap -}         [ "goose", "geese" ] ]
 
  |> "'iy.glz" <| [
 
@@ -14974,7 +14962,7 @@ lexicon = listing "Lexicon's properties"
     -- <yglz   <iyglz  Nprop   Eagles
     -- Ayglz   <iyglz  Nprop   Eagles
 
-    Identity                  `noun`       {- Iiyglz -}         [ "Eagles" ] ]
+    Identity                  `noun`    {- Iiyglz -}           [ "Eagles" ] ]
 
  |> "'iy.tAliyA" <| [
 
@@ -14982,7 +14970,7 @@ lexicon = listing "Lexicon's properties"
     -- <yTAlyA <iyTAliyA       N0      Italy
     -- AyTAlyA <iyTAliyA       N0      Italy
 
-    Identity                  `noun`       {- IiyTAliyA -}      [ "Italy" ] ]
+    Identity                  `noun`    {- IiyTAliyA -}        [ "Italy" ] ]
 
  |> "'iyA^guw" <| [
 
@@ -14992,7 +14980,7 @@ lexicon = listing "Lexicon's properties"
     -- <yAgw   <iyAguw Nprop   Iago
     -- AyAgw   <iyAguw Nprop   Iago
 
-    Identity                  `noun`       {- IiyAjuw -}        [ "Iago" ] ]
+    Identity                  `noun`    {- IiyAjuw -}          [ "Iago" ] ]
 
  |> "'iybar^s" <| [
 
@@ -15000,7 +14988,7 @@ lexicon = listing "Lexicon's properties"
     -- <ybr$y  <iybaro$iy~     N/ap    diocese;bishopric     [[<iybaro$iy~/NOUN]]
     -- Aybr$y  <iybaro$iy~     N/ap    diocese;bishopric     [[<iybaro$iy~/NOUN]]
 
-    Identity |< Iy            `noun`       {- Iiybaro$iy~ -}    [ "diocese", "bishopric" ] ]
+    Identity |< Iy            `noun`    {- Iiybaro$iy~ -}      [ "diocese", "bishopric" ] ]
 
  |> "'iybirliy" <| [
 
@@ -15008,7 +14996,7 @@ lexicon = listing "Lexicon's properties"
     -- <ybrly  <iybiroliy      N0      Eberly
     -- Aybrly  <iybiroliy      N0      Eberly
 
-    Identity                  `noun`       {- Iiybiroliy -}     [ "Eberly" ] ]
+    Identity                  `noun`    {- Iiybiroliy -}       [ "Eberly" ] ]
 
  |> "'iybuwlA" <| [
 
@@ -15017,7 +15005,7 @@ lexicon = listing "Lexicon's properties"
     -- AybwlA  <iybuwlA        N0      Ebola
     -- >ybwlA  <iybuwlA        N0      Ebola
 
-    Identity                  `noun`       {- IiybuwlA -}       [ "Ebola" ] ]
+    Identity                  `noun`    {- IiybuwlA -}         [ "Ebola" ] ]
 
  |> "'iydiyn.gtuwn" <| [
 
@@ -15025,7 +15013,7 @@ lexicon = listing "Lexicon's properties"
     -- <ydyngtwn       <iydiynogtuwn   Nprop   Eddington;Edington
     -- Aydyngtwn       <iydiynogtuwn   Nprop   Eddington;Edington
 
-    Identity                  `noun`       {- Iiydiynogtuwn -}  [ "Eddington", "Edington" ] ]
+    Identity                  `noun`    {- Iiydiynogtuwn -}    [ "Eddington", "Edington" ] ]
 
  |> "'iydruw^giyn" <| [
 
@@ -15033,13 +15021,13 @@ lexicon = listing "Lexicon's properties"
     -- <ydrwjyn        <iydruwjiyn     N       hydrogen
     -- Aydrwjyn        <iydruwjiyn     N       hydrogen
 
-    Identity                  `noun`       {- Iiydruwjiyn -}    [ "hydrogen" ],
+    Identity                  `noun`    {- Iiydruwjiyn -}      [ "hydrogen" ],
 
     -- ;; <iydruwjiyniy~_1
     -- <ydrwjyny       <iydruwjiyniy~  Nall    hydrogen     [[<iydruwjiyniy~/ADJ]]
     -- Aydrwjyny       <iydruwjiyniy~  Nall    hydrogen     [[<iydruwjiyniy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iiydruwjiyniy~ -} [ "hydrogen" ] ]
+    Identity |< Iy            `adj`     {- Iiydruwjiyniy~ -}   [ "hydrogen" ] ]
 
  |> "'iydyuwluw^g" <| [
 
@@ -15049,7 +15037,7 @@ lexicon = listing "Lexicon's properties"
     -- >ydywlwjy       >aydyuwluwjiy~  Nall    ideological     [[>aydyuwluwjiy~/ADJ]]
     -- Aydywlwjy       >aydyuwluwjiy~  Nall    ideological     [[>aydyuwluwjiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iiydyuwluwjiy~ -} [ "ideological" ] ]
+    Identity |< Iy            `adj`     {- Iiydyuwluwjiy~ -}   [ "ideological" ] ]
 
  |> "'iydyuwluw^giyA" <| [
 
@@ -15063,7 +15051,7 @@ lexicon = listing "Lexicon's properties"
     -- >ydywlwjy       >aydyuwluwjiy~  NapAt   ideology     [[>aydyuwluwjiy~/NOUN]]
     -- Aydywlwjy       >aydyuwluwjiy~  NapAt   ideology     [[>aydyuwluwjiy~/NOUN]]
 
-    Identity                  `noun`       {- IiydyuwluwjiyA -} [ "ideology" ] ]
+    Identity                  `noun`    {- IiydyuwluwjiyA -}   [ "ideology" ] ]
 
  |> "'iyfA" <| [
 
@@ -15071,7 +15059,7 @@ lexicon = listing "Lexicon's properties"
     -- <yfA    <iyfA   Nprop   Eva
     -- AyfA    <iyfA   Nprop   Eva
 
-    Identity                  `noun`       {- IiyfA -}          [ "Eva" ] ]
+    Identity                  `noun`    {- IiyfA -}            [ "Eva" ] ]
 
  |> "'iyfAnduw" <| [
 
@@ -15079,7 +15067,7 @@ lexicon = listing "Lexicon's properties"
     -- <yfAndw <iyfAnoduw      Nprop   Ivando
     -- AyfAndw <iyfAnoduw      Nprop   Ivando
 
-    Identity                  `noun`       {- IiyfAnoduw -}     [ "Ivando" ] ]
+    Identity                  `noun`    {- IiyfAnoduw -}       [ "Ivando" ] ]
 
  |> "'iyfAniysiyfiyt^s" <| [
 
@@ -15087,7 +15075,7 @@ lexicon = listing "Lexicon's properties"
     -- <yfAnysyfyt$    <iyfAniysiyfiyt$        Nprop   Ivanisevic
     -- AyfAnysyfyt$    <iyfAniysiyfiyt$        Nprop   Ivanisevic
 
-    Identity                  `noun`       {- IiyfAniysiyfiyt$ -} [ "Ivanisevic" ] ]
+    Identity                  `noun`    {- IiyfAniysiyfiyt$ -} [ "Ivanisevic" ] ]
 
  |> "'iyfAniyt^s" <| [
 
@@ -15095,7 +15083,7 @@ lexicon = listing "Lexicon's properties"
     -- <yfAnyt$        <iyfAniyt$      Nprop   Ivanic;Ivanitch
     -- AyfAnyt$        <iyfAniyt$      Nprop   Ivanic;Ivanitch
 
-    Identity                  `noun`       {- IiyfAniyt$ -}     [ "Ivanic", "Ivanitch" ] ]
+    Identity                  `noun`    {- IiyfAniyt$ -}       [ "Ivanic", "Ivanitch" ] ]
 
  |> "'iyfAnuwf" <| [
 
@@ -15103,7 +15091,7 @@ lexicon = listing "Lexicon's properties"
     -- <yfAnwf <iyfAnuwf       Nprop   Ivanoff;Ivanov
     -- AyfAnwf <iyfAnuwf       Nprop   Ivanoff;Ivanov
 
-    Identity                  `noun`       {- IiyfAnuwf -}      [ "Ivanoff", "Ivanov" ] ]
+    Identity                  `noun`    {- IiyfAnuwf -}        [ "Ivanoff", "Ivanov" ] ]
 
  |> "'iyfiykA" <| [
 
@@ -15111,7 +15099,7 @@ lexicon = listing "Lexicon's properties"
     -- <yfykA  <iyfiykA        Nprop   Ivica
     -- AyfykA  <iyfiykA        Nprop   Ivica
 
-    Identity                  `noun`       {- IiyfiykA -}       [ "Ivica" ] ]
+    Identity                  `noun`    {- IiyfiykA -}         [ "Ivica" ] ]
 
  |> "'iyfiyrt" <| [
 
@@ -15119,7 +15107,7 @@ lexicon = listing "Lexicon's properties"
     -- <yfyrt  <iyfiyrt        Nprop   Evert
     -- Ayfyrt  <iyfiyrt        Nprop   Evert
 
-    Identity                  `noun`       {- Iiyfiyrt -}       [ "Evert" ] ]
+    Identity                  `noun`    {- Iiyfiyrt -}         [ "Evert" ] ]
 
  |> "'iyhuwdA" <| [
 
@@ -15127,7 +15115,7 @@ lexicon = listing "Lexicon's properties"
     -- <yhwdA  <iyhuwdA        Nprop   Ehuda
     -- AyhwdA  <iyhuwdA        Nprop   Ehuda
 
-    Identity                  `noun`       {- IiyhuwdA -}       [ "Ehuda" ] ]
+    Identity                  `noun`    {- IiyhuwdA -}         [ "Ehuda" ] ]
 
  |> "'iykhArd" <| [
 
@@ -15135,7 +15123,7 @@ lexicon = listing "Lexicon's properties"
     -- <ykhArd <iykohArod      Nprop   Eckhard
     -- AykhArd <iykohArod      Nprop   Eckhard
 
-    Identity                  `noun`       {- IiykohArod -}     [ "Eckhard" ] ]
+    Identity                  `noun`    {- IiykohArod -}       [ "Eckhard" ] ]
 
  |> "'iykuwnuwmiyk" <| [
 
@@ -15143,7 +15131,7 @@ lexicon = listing "Lexicon's properties"
     -- <ykwnwmyk       <iykuwnuwmiyk   Nprop   Economic
     -- Aykwnwmyk       <iykuwnuwmiyk   Nprop   Economic
 
-    Identity                  `noun`       {- Iiykuwnuwmiyk -}  [ "Economic" ] ]
+    Identity                  `noun`    {- Iiykuwnuwmiyk -}    [ "Economic" ] ]
 
  |> "'iykuwnuwmiyst" <| [
 
@@ -15151,7 +15139,7 @@ lexicon = listing "Lexicon's properties"
     -- <ykwnwmyst      <iykuwnuwmiyst  Nprop   Economist
     -- Aykwnwmyst      <iykuwnuwmiyst  Nprop   Economist
 
-    Identity                  `noun`       {- Iiykuwnuwmiyst -} [ "Economist" ] ]
+    Identity                  `noun`    {- Iiykuwnuwmiyst -}   [ "Economist" ] ]
 
  |> "'iykuwriyniym" <| [
 
@@ -15159,7 +15147,7 @@ lexicon = listing "Lexicon's properties"
     -- <ykwrynym       <iykuwriyniym   Nprop   Ekorinim
     -- Aykwrynym       <iykuwriyniym   Nprop   Ekorinim
 
-    Identity                  `noun`       {- Iiykuwriyniym -}  [ "Ekorinim" ] ]
+    Identity                  `noun`    {- Iiykuwriyniym -}    [ "Ekorinim" ] ]
 
  |> "'iylAhiy" <| [
 
@@ -15167,7 +15155,7 @@ lexicon = listing "Lexicon's properties"
     -- <ylAhy  <iylAhiy        Nprop   Elahe
     -- AylAhy  <iylAhiy        Nprop   Elahe
 
-    Identity                  `noun`       {- IiylAhiy -}       [ "Elahe" ] ]
+    Identity                  `noun`    {- IiylAhiy -}         [ "Elahe" ] ]
 
  |> "'iyliyA" <| [
 
@@ -15175,7 +15163,7 @@ lexicon = listing "Lexicon's properties"
     -- <ylyA   <iyliyA Nprop   Ilya
     -- AylyA   <iyliyA Nprop   Ilya
 
-    Identity                  `noun`       {- IiyliyA -}        [ "Ilya" ] ]
+    Identity                  `noun`    {- IiyliyA -}          [ "Ilya" ] ]
 
  |> "'iyliyuwt" <| [
 
@@ -15183,7 +15171,7 @@ lexicon = listing "Lexicon's properties"
     -- <ylywt  <iyliyuwt       Nprop   Eliot;Elliott
     -- Aylywt  <iyliyuwt       Nprop   Eliot;Elliott
 
-    Identity                  `noun`       {- Iiyliyuwt -}      [ "Eliot", "Elliott" ] ]
+    Identity                  `noun`    {- Iiyliyuwt -}        [ "Eliot", "Elliott" ] ]
 
  |> "'iyluwiyluw" <| [
 
@@ -15191,7 +15179,7 @@ lexicon = listing "Lexicon's properties"
     -- <ylwylw <iyluwiyluw     Nprop   Iloilo
     -- Aylwylw <iyluwiyluw     Nprop   Iloilo
 
-    Identity                  `noun`       {- Iiyluwiyluw -}    [ "Iloilo" ] ]
+    Identity                  `noun`    {- Iiyluwiyluw -}      [ "Iloilo" ] ]
 
  |> "'iylwAr" <| [
 
@@ -15199,7 +15187,7 @@ lexicon = listing "Lexicon's properties"
     -- <ylwAr  <iylowAr        Nprop   Eluard
     -- AylwAr  <iylowAr        Nprop   Eluard
 
-    Identity                  `noun`       {- IiylowAr -}       [ "Eluard" ] ]
+    Identity                  `noun`    {- IiylowAr -}         [ "Eluard" ] ]
 
  |> "'iymAnuwiyl" <| [
 
@@ -15207,7 +15195,7 @@ lexicon = listing "Lexicon's properties"
     -- <ymAnwyl        <iymAnuwiyl     Nprop   Emanuel;Emmanuel
     -- AymAnwyl        <iymAnuwiyl     Nprop   Emanuel;Emmanuel
 
-    Identity                  `noun`       {- IiymAnuwiyl -}    [ "Emanuel", "Emmanuel" ] ]
+    Identity                  `noun`    {- IiymAnuwiyl -}      [ "Emanuel", "Emmanuel" ] ]
 
  |> "'iymirsuwn" <| [
 
@@ -15215,7 +15203,7 @@ lexicon = listing "Lexicon's properties"
     -- <ymrswn <iymirosuwn     Nprop   Emerson
     -- Aymrswn <iymirosuwn     Nprop   Emerson
 
-    Identity                  `noun`       {- Iiymirosuwn -}    [ "Emerson" ] ]
+    Identity                  `noun`    {- Iiymirosuwn -}      [ "Emerson" ] ]
 
  |> "'iymirtuwn" <| [
 
@@ -15223,7 +15211,7 @@ lexicon = listing "Lexicon's properties"
     -- <ymrtwn <iymirotuwn     Nprop   Emerton
     -- Aymrtwn <iymirotuwn     Nprop   Emerton
 
-    Identity                  `noun`       {- Iiymirotuwn -}    [ "Emerton" ] ]
+    Identity                  `noun`    {- Iiymirotuwn -}      [ "Emerton" ] ]
 
  |> "'iymiyliyuw" <| [
 
@@ -15231,7 +15219,7 @@ lexicon = listing "Lexicon's properties"
     -- <ymylyw <iymiyliyuw     Nprop   Emilio
     -- Aymylyw <iymiyliyuw     Nprop   Emilio
 
-    Identity                  `noun`       {- Iiymiyliyuw -}    [ "Emilio" ] ]
+    Identity                  `noun`    {- Iiymiyliyuw -}      [ "Emilio" ] ]
 
  |> "'iyn.giy" <| [
 
@@ -15239,7 +15227,7 @@ lexicon = listing "Lexicon's properties"
     -- <yngy   <iynogiy        Nprop   Inge
     -- Ayngy   <iynogiy        Nprop   Inge
 
-    Identity                  `noun`       {- Iiynogiy -}       [ "Inge" ] ]
+    Identity                  `noun`    {- Iiynogiy -}         [ "Inge" ] ]
 
  |> "'iynfAntiy" <| [
 
@@ -15247,7 +15235,7 @@ lexicon = listing "Lexicon's properties"
     -- <ynfAnty        <iynofAnotiy    N0      Infante
     -- AynfAnty        <iynofAnotiy    N0      Infante
 
-    Identity                  `noun`       {- IiynofAnotiy -}   [ "Infante" ] ]
+    Identity                  `noun`    {- IiynofAnotiy -}     [ "Infante" ] ]
 
  |> "'iynir^giy" <| [
 
@@ -15255,7 +15243,7 @@ lexicon = listing "Lexicon's properties"
     -- <ynrjy  <iynirojiy      Nprop   Energy
     -- Aynrjy  <iynirojiy      Nprop   Energy
 
-    Identity                  `noun`       {- Iiynirojiy -}     [ "Energy" ] ]
+    Identity                  `noun`    {- Iiynirojiy -}       [ "Energy" ] ]
 
  |> "'iyniyr^giy" <| [
 
@@ -15263,7 +15251,7 @@ lexicon = listing "Lexicon's properties"
     -- <ynyrjy <iyniyrojiy     Nprop   Energie
     -- Aynyrjy <iyniyrojiy     Nprop   Energie
 
-    Identity                  `noun`       {- Iiyniyrojiy -}    [ "Energie" ] ]
+    Identity                  `noun`    {- Iiyniyrojiy -}      [ "Energie" ] ]
 
  |> "'iynkfiyst" <| [
 
@@ -15271,7 +15259,7 @@ lexicon = listing "Lexicon's properties"
     -- <ynkfyst        <iynkfiyst      Nprop   Enqvist
     -- Aynkfyst        <iynkfiyst      Nprop   Enqvist
 
-    Identity                  `noun`       {- Iiynkfiyst -}     [ "Enqvist" ] ]
+    Identity                  `noun`    {- Iiynkfiyst -}       [ "Enqvist" ] ]
 
  |> "'iynzA.giy" <| [
 
@@ -15279,7 +15267,7 @@ lexicon = listing "Lexicon's properties"
     -- <ynzAgy <iynozAgiy      N0      Inzaghi
     -- AynzAgy <iynozAgiy      N0      Inzaghi
 
-    Identity                  `noun`       {- IiynozAgiy -}     [ "Inzaghi" ] ]
+    Identity                  `noun`    {- IiynozAgiy -}       [ "Inzaghi" ] ]
 
  |> "'iyrbA.s" <| [
 
@@ -15289,7 +15277,7 @@ lexicon = listing "Lexicon's properties"
     -- \|yrbAS  <iyrobAS        Nprop   Airbus
     -- >yrbAS  >ayrobAS        Nprop   Airbus
 
-    Identity                  `noun`       {- IiyrobAS -}       [ "Airbus" ] ]
+    Identity                  `noun`    {- IiyrobAS -}         [ "Airbus" ] ]
 
  |> "'iyrfAyn" <| [
 
@@ -15297,7 +15285,7 @@ lexicon = listing "Lexicon's properties"
     -- <yrfAyn <iyrfAyn        Nprop   Irvine
     -- AyrfAyn <iyrfAyn        Nprop   Irvine
 
-    Identity                  `noun`       {- IiyrfAyn -}       [ "Irvine" ] ]
+    Identity                  `noun`    {- IiyrfAyn -}         [ "Irvine" ] ]
 
  |> "'iyriyAl" <| [
 
@@ -15305,7 +15293,7 @@ lexicon = listing "Lexicon's properties"
     -- <yryAl  <iyriyAl        N       antenna;aerial
     -- AyryAl  <iyriyAl        N       antenna;aerial
 
-    Identity                  `noun`       {- IiyriyAl -}       [ "antenna", "aerial" ] ]
+    Identity                  `noun`    {- IiyriyAl -}         [ "antenna", "aerial" ] ]
 
  |> "'iyrkuwtsk" <| [
 
@@ -15313,7 +15301,7 @@ lexicon = listing "Lexicon's properties"
     -- <yrkwtsk        <iyrokuwtsk     Nprop   Irkutsk
     -- Ayrkwtsk        <iyrokuwtsk     Nprop   Irkutsk
 
-    Identity                  `noun`       {- Iiyrokuwtsk -}    [ "Irkutsk" ] ]
+    Identity                  `noun`    {- Iiyrokuwtsk -}      [ "Irkutsk" ] ]
 
  |> "'iyrl" <| [
 
@@ -15322,7 +15310,7 @@ lexicon = listing "Lexicon's properties"
     -- Ayrl    <iyrol  N0      Earle
     -- >yrl    <iyrol  N0      Earle
 
-    Identity                  `noun`       {- Iiyrol -}         [ "Earle" ] ]
+    Identity                  `noun`    {- Iiyrol -}           [ "Earle" ] ]
 
  |> "'iyrland" <| [
 
@@ -15332,7 +15320,7 @@ lexicon = listing "Lexicon's properties"
     -- Ayrlndy <iyrolanodiy~   Nall    Irish     [[<iyrolanodiy~/NOUN]]
     -- Ayrlndy <iyrolanodiy~   Nall    Irish     [[<iyrolanodiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Iiyrolanodiy~ -}  [ "Irish" ] ]
+    Identity |< Iy            `adj`     {- Iiyrolanodiy~ -}    [ "Irish" ] ]
 
  |> "'iyrlandA" <| [
 
@@ -15340,7 +15328,7 @@ lexicon = listing "Lexicon's properties"
     -- <yrlndA <iyrolanodA     N0      Ireland
     -- AyrlndA <iyrolanodA     N0      Ireland
 
-    Identity                  `noun`       {- IiyrolanodA -}    [ "Ireland" ] ]
+    Identity                  `noun`    {- IiyrolanodA -}      [ "Ireland" ] ]
 
  |> "'iyslAnd" <| [
 
@@ -15354,7 +15342,7 @@ lexicon = listing "Lexicon's properties"
     -- <yslndy <iyslanodiy~    Nall    Icelandic     [[<iyslAnodiy~/ADJ]]
     -- Ayslndy <iyslanodiy~    Nall    Icelandic     [[<iyslAnodiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- IiyslAnodiy~ -}   [ "Icelander", "Icelandic" ] ]
+    Identity |< Iy            `adj`     {- IiyslAnodiy~ -}     [ "Icelander", "Icelandic" ] ]
 
  |> "'iyslAndA" <| [
 
@@ -15364,7 +15352,7 @@ lexicon = listing "Lexicon's properties"
     -- <yslndA <iyslanodA      N0      Iceland
     -- AyslndA <iyslanodA      N0      Iceland
 
-    Identity                  `noun`       {- IiyslAnodA -}     [ "Iceland" ] ]
+    Identity                  `noun`    {- IiyslAnodA -}       [ "Iceland" ] ]
 
  |> "'iyst" <| [
 
@@ -15372,7 +15360,7 @@ lexicon = listing "Lexicon's properties"
     -- <yst    <iyst   Nprop   East
     -- Ayst    <iyst   Nprop   East
 
-    Identity                  `noun`       {- Iiyst -}          [ "East" ] ]
+    Identity                  `noun`    {- Iiyst -}            [ "East" ] ]
 
  |> "'iystiybAn" <| [
 
@@ -15380,7 +15368,7 @@ lexicon = listing "Lexicon's properties"
     -- <ystybAn        <iysotiybAn     Nprop   Esteban
     -- AystybAn        <iysotiybAn     Nprop   Esteban
 
-    Identity                  `noun`       {- IiysotiybAn -}    [ "Esteban" ] ]
+    Identity                  `noun`    {- IiysotiybAn -}      [ "Esteban" ] ]
 
  |> "'iytA" <| [
 
@@ -15388,7 +15376,7 @@ lexicon = listing "Lexicon's properties"
     -- <ytA    <iytA   N0      ETA
     -- AytA    <iytA   N0      ETA
 
-    Identity                  `noun`       {- IiytA -}          [ "ETA" ] ]
+    Identity                  `noun`    {- IiytA -}            [ "ETA" ] ]
 
  |> "'iyyA-" <| [
 
@@ -15396,7 +15384,7 @@ lexicon = listing "Lexicon's properties"
     -- <yA     <iy~A   FW-Wa-A to;for;(accus.)     [[<iy~A/FUNC_WORD]]
     -- AyA     <iy~A   FW-Wa-A to;for;(accus.)     [[<iy~A/FUNC_WORD]]
 
-    Identity                  `noun`       {- Iiy~A- -}         [ "to", "for", "(accus.)" ] ]
+    Identity                  `noun`    {- Iiy~A- -}           [ "to", "for", "(accus.)" ] ]
 
  |> "'iyyAka" <| [
 
@@ -15407,7 +15395,7 @@ lexicon = listing "Lexicon's properties"
     -- <yAkm   <iy~Akum        FW-Wa   be careful! + you [masc.pl.]   [[<iy~A/PREP+kum/PRON_2MP]]
     -- <yAkn   <iy~Akun~a      FW-Wa   be careful! + you [fem.pl.]    [[<iy~A/PREP+kun~a/PRON_2FP]]
 
-    Identity                  `noun`       {- Iiy~Aka -}        [ "be careful! + you [masc.sg.]", "be careful! + you [fem.sg.]", "be careful! + you (both)", "be careful! + you [masc.pl.]", "be careful! + you [fem.pl.]" ] ]
+    Identity                  `noun`    {- Iiy~Aka -}          [ "be careful! + you [masc.sg.]", "be careful! + you [fem.sg.]", "be careful! + you (both)", "be careful! + you [masc.pl.]", "be careful! + you [fem.pl.]" ] ]
 
  |> "'l_h" <| [
 
@@ -15418,7 +15406,7 @@ lexicon = listing "Lexicon's properties"
     -- Alx     |lx     FW-Wa   etc.     [[|lx/ABBREV]]
     -- <lx     <lx     FW-Wa   etc.     [[<lx/ABBREV]]
 
-    Identity                  `noun`       {- Olx -}            [ "etc." ] ]
+    Identity                  `noun`    {- Olx -}              [ "etc." ] ]
 
  |> "'u.hAda" <| [
 
@@ -15426,7 +15414,7 @@ lexicon = listing "Lexicon's properties"
     -- >HAd    >uHAda  FW-WaBi one-by-one     [[>uHAda/ADV]]
     -- AHAd    >uHAda  FW-WaBi one-by-one     [[>uHAda/ADV]]
 
-    Identity                  `noun`       {- OuHAda -}         [ "one-by-one" ] ]
+    Identity                  `noun`    {- OuHAda -}           [ "one-by-one" ] ]
 
  |> "'u.suwliyy" <| [
 
@@ -15434,13 +15422,13 @@ lexicon = listing "Lexicon's properties"
     -- >Swly   >uSuwliy~       Nall    fundamentalist     [[>uSuwliy~/ADJ]]
     -- ASwly   >uSuwliy~       Nall    fundamentalist     [[>uSuwliy~/ADJ]]
 
-    Identity                  `adj`        {- OuSuwliy~ -}      [ "fundamentalist" ],
+    Identity                  `adj`     {- OuSuwliy~ -}        [ "fundamentalist" ],
 
     -- ;; >uSuwliy~_2
     -- >Swly   >uSuwliy~       Nall    jurisconsult;legislator     [[>uSuwliy~/ADJ]]
     -- ASwly   >uSuwliy~       Nall    jurisconsult;legislator     [[>uSuwliy~/ADJ]]
 
-    Identity                  `adj`        {- OuSuwliy~ -}      [ "jurisconsult", "legislator" ] ]
+    Identity                  `adj`     {- OuSuwliy~ -}        [ "jurisconsult", "legislator" ] ]
 
  |> "'u.tAmiyy" <| [
 
@@ -15448,7 +15436,7 @@ lexicon = listing "Lexicon's properties"
     -- >TAmy   >uTAmiy~        Nall    dysuric     [[>uTAmiy~/ADJ]]
     -- ATAmy   >uTAmiy~        Nall    dysuric     [[>uTAmiy~/ADJ]]
 
-    Identity                  `adj`        {- OuTAmiy~ -}       [ "dysuric" ] ]
+    Identity                  `adj`     {- OuTAmiy~ -}         [ "dysuric" ] ]
 
  |> "'u.tru.gull" <| [
 
@@ -15456,7 +15444,7 @@ lexicon = listing "Lexicon's properties"
     -- >Trgl   >uTorugul~      Napdu   turtledove
     -- ATrgl   >uTorugul~      Napdu   turtledove
 
-    Identity |< aT            `noun`       {- OuTorugul~ap -}   [ "turtledove" ] ]
+    Identity |< aT            `noun`    {- OuTorugul~ap -}     [ "turtledove" ] ]
 
  |> "'u^snAniyy" <| [
 
@@ -15464,7 +15452,7 @@ lexicon = listing "Lexicon's properties"
     -- >$nAny  >u$onAniy~      Nall    potash;saltwort     [[>u$onAniy~/ADJ]]
     -- A$nAny  >u$onAniy~      Nall    potash;saltwort     [[>u$onAniy~/ADJ]]
 
-    Identity                  `adj`        {- Ou$onAniy~ -}     [ "potash", "saltwort" ] ]
+    Identity                  `adj`     {- Ou$onAniy~ -}       [ "potash", "saltwort" ] ]
 
  |> "'u_h.tubuw.t" <| [
 
@@ -15474,7 +15462,7 @@ lexicon = listing "Lexicon's properties"
     -- >xTbwT  >axoTabuwT      N       octopus
     -- AxTbwT  >axoTabuwT      N       octopus
 
-    Identity                  `noun`       {- OuxoTubuwT -}     [ "octopus" ] ]
+    Identity                  `noun`    {- OuxoTubuwT -}       [ "octopus" ] ]
 
  |> "'ubull" <| [
 
@@ -15482,7 +15470,7 @@ lexicon = listing "Lexicon's properties"
     -- >bl     >ubul~  Nap     tribe;companions
     -- Abl     >ubul~  Nap     tribe;companions
 
-    Identity |< aT            `noun`       {- Oubul~ap -}       [ "tribe", "companions" ] ]
+    Identity |< aT            `noun`    {- Oubul~ap -}         [ "tribe", "companions" ] ]
 
  |> "'ufuqiyy" <| [
 
@@ -15490,7 +15478,7 @@ lexicon = listing "Lexicon's properties"
     -- >fqy    >ufuqiy~        Nall    horizontal;across     [[>ufuqiy~/ADJ]]
     -- Afqy    >ufuqiy~        Nall    horizontal;across     [[>ufuqiy~/ADJ]]
 
-    Identity                  `adj`        {- Oufuqiy~ -}       [ "horizontal", "across" ] ]
+    Identity                  `adj`     {- Oufuqiy~ -}         [ "horizontal", "across" ] ]
 
  |> "'ukAziyuwn" <| [
 
@@ -15498,7 +15486,7 @@ lexicon = listing "Lexicon's properties"
     -- >kAzywn >ukAziyuwn      N       clearing sale
     -- AkAzywn >ukAziyuwn      N       clearing sale
 
-    Identity                  `noun`       {- OukAziyuwn -}     [ "clearing sale" ] ]
+    Identity                  `noun`    {- OukAziyuwn -}       [ "clearing sale" ] ]
 
  |> "'uksfuwrd" <| [
 
@@ -15506,7 +15494,7 @@ lexicon = listing "Lexicon's properties"
     -- >ksfwrd >ukosfuwrod     N0      Oxford
     -- Aksfwrd >ukosfuwrod     N0      Oxford
 
-    Identity                  `noun`       {- Oukosfuwrod -}    [ "Oxford" ] ]
+    Identity                  `noun`    {- Oukosfuwrod -}      [ "Oxford" ] ]
 
  |> "'uksi^giyn" <| [
 
@@ -15516,7 +15504,7 @@ lexicon = listing "Lexicon's properties"
     -- >ksyjyn >ukosiyjiyn     N       oxygen
     -- Aksyjyn >ukosiyjiyn     N       oxygen
 
-    Identity                  `noun`       {- Oukosijiyn -}     [ "oxygen" ] ]
+    Identity                  `noun`    {- Oukosijiyn -}       [ "oxygen" ] ]
 
  |> "'uksi^giyniyy" <| [
 
@@ -15526,7 +15514,7 @@ lexicon = listing "Lexicon's properties"
     -- >ksyjyny        >ukosiyjiyniy~  Nall    oxygenated     [[>ukosiyjiyniy~/ADJ]]
     -- Aksyjyny        >ukosiyjiyniy~  Nall    oxygenated     [[>ukosiyjiyniy~/ADJ]]
 
-    Identity                  `adj`        {- Oukosijiyniy~ -}  [ "oxygenated" ] ]
+    Identity                  `adj`     {- Oukosijiyniy~ -}    [ "oxygenated" ] ]
 
  |> "'uktuwbir" <| [
 
@@ -15534,7 +15522,7 @@ lexicon = listing "Lexicon's properties"
     -- >ktwbr  >ukotuwbir      Ndip    October
     -- Aktwbr  >ukotuwbir      Ndip    October
 
-    Identity                  `noun`       {- Oukotuwbir -}     [ "October" ] ]
+    Identity                  `noun`    {- Oukotuwbir -}       [ "October" ] ]
 
  |> "'umniybuws" <| [
 
@@ -15542,7 +15530,7 @@ lexicon = listing "Lexicon's properties"
     -- >mnybws >umoniybuws     N/At    omnibus
     -- Amnybws >umoniybuws     N/At    omnibus
 
-    Identity                  `noun`       {- Oumoniybuws -}    [ "omnibus" ] ]
+    Identity                  `noun`    {- Oumoniybuws -}      [ "omnibus" ] ]
 
  |> "'un.tuwluw^g" <| [
 
@@ -15550,7 +15538,7 @@ lexicon = listing "Lexicon's properties"
     -- >nTwlwjy        >unoTuwluwjiy~  Nall    ontological     [[>unoTuwluwjiy~/ADJ]]
     -- AnTwlwjy        >unoTuwluwjiy~  Nall    ontological     [[>unoTuwluwjiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- OunoTuwluwjiy~ -} [ "ontological" ] ]
+    Identity |< Iy            `adj`     {- OunoTuwluwjiy~ -}   [ "ontological" ] ]
 
  |> "'un.tuwluw^giyA" <| [
 
@@ -15558,7 +15546,7 @@ lexicon = listing "Lexicon's properties"
     -- >nTwlwjyA       >unoTuwluwjiyA  N0      ontology
     -- AnTwlwjyA       >unoTuwluwjiyA  N0      ontology
 
-    Identity                  `noun`       {- OunoTuwluwjiyA -} [ "ontology" ] ]
+    Identity                  `noun`    {- OunoTuwluwjiyA -}   [ "ontology" ] ]
 
  |> "'un_tayAn" <| [
 
@@ -15566,7 +15554,7 @@ lexicon = listing "Lexicon's properties"
     -- >nvy    >unovay NAn_Nayn        testicles
     -- Anvy    >unovay NAn_Nayn        testicles
 
-    Identity                  `noun`       {- OunovayAn -}      [ "testicles" ] ]
+    Identity                  `noun`    {- OunovayAn -}        [ "testicles" ] ]
 
  |> "'unmuwfiyk" <| [
 
@@ -15574,7 +15562,7 @@ lexicon = listing "Lexicon's properties"
     -- Anmwfyk >unomuwfiyk     N0      UNMOVIC (UN Monitoring, Verification and Inspection Commission)
     -- >nmwfyk >unomuwfiyk     N0      UNMOVIC (UN Monitoring, Verification and Inspection Commission)
 
-    Identity                  `noun`       {- Ounomuwfiyk -}    [ "UNMOVIC (UN Monitoring, Verification and Inspection Commission)" ] ]
+    Identity                  `noun`    {- Ounomuwfiyk -}      [ "UNMOVIC (UN Monitoring, Verification and Inspection Commission)" ] ]
 
  |> "'uqiyAnuwsiyy" <| [
 
@@ -15586,7 +15574,7 @@ lexicon = listing "Lexicon's properties"
     -- >qyAnwsy        >uqiyAnuwsiy~   Nap     Oceania     [[>uqiyAnuwsiy~/NOUN]]
     -- AqyAnwsy        >uqiyAnuwsiy~   Nap     Oceania     [[>uqiyAnuwsiy~/NOUN]]
 
-    Identity                  `adj`        {- OuqiyAnuwsiy~ -}  [ "Oceanian", "Oceania" ] ]
+    Identity                  `adj`     {- OuqiyAnuwsiy~ -}    [ "Oceanian", "Oceania" ] ]
 
  |> "'ur^guwAn" <| [
 
@@ -15594,13 +15582,13 @@ lexicon = listing "Lexicon's properties"
     -- >rjwAn  >urojuwAn       N       purple
     -- ArjwAn  >urojuwAn       N       purple
 
-    Identity                  `noun`       {- OurojuwAn -}      [ "purple" ],
+    Identity                  `noun`    {- OurojuwAn -}        [ "purple" ],
 
     -- ;; >urojuwAniy~_1
     -- >rjwAny >urojuwAniy~    Nall    purple
     -- ArjwAny >urojuwAniy~    Nall    purple
 
-    Identity |< Iy            `adj`        {- OurojuwAniy~ -}   [ "purple" ] ]
+    Identity |< Iy            `adj`     {- OurojuwAniy~ -}     [ "purple" ] ]
 
  |> "'ur_tuwduks" <| [
 
@@ -15610,7 +15598,7 @@ lexicon = listing "Lexicon's properties"
     -- >rvw*ks >urovuw*ukos    N       Orthodox
     -- Arvw*ks >urovuw*ukos    N       Orthodox
 
-    Identity                  `noun`       {- Ourovuwduks -}    [ "Orthodox" ],
+    Identity                  `noun`    {- Ourovuwduks -}      [ "Orthodox" ],
 
     -- ;; >urovuwduksiy~_1
     -- >rvwdksy        >urovuwduksiy~  Nall    Orthodox     [[>urovuwduksiy~/NOUN]]
@@ -15622,7 +15610,7 @@ lexicon = listing "Lexicon's properties"
     -- Arvw*ksy        >urovuw*ukosiy~ Nall    Orthodox     [[>urovuw*ukosiy~/NOUN]]
     -- Arvw*ksy        >urovuw*ukosiy~ Nall    Orthodox     [[>urovuw*ukosiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Ourovuwduksiy~ -} [ "Orthodox" ] ]
+    Identity |< Iy            `adj`     {- Ourovuwduksiy~ -}   [ "Orthodox" ] ]
 
  |> "'urdunn" <| [
 
@@ -15630,7 +15618,7 @@ lexicon = listing "Lexicon's properties"
     -- >rdn    >urodun~        N       Jordan
     -- Ardn    >urodun~        N       Jordan
 
-    Identity                  `noun`       {- Ourodun~ -}       [ "Jordan" ],
+    Identity                  `noun`    {- Ourodun~ -}         [ "Jordan" ],
 
     -- ;; >urodun~iy~_1
     -- >rdny   >urodun~iy~     Nall    Jordanian     [[>urodun~iy~/NOUN]]
@@ -15638,7 +15626,7 @@ lexicon = listing "Lexicon's properties"
     -- Ardny   >urodun~iy~     Nall    Jordanian     [[>urodun~iy~/NOUN]]
     -- Ardny   >urodun~iy~     Nall    Jordanian     [[>urodun~iy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Ourodun~iy~ -}    [ "Jordanian" ] ]
+    Identity |< Iy            `adj`     {- Ourodun~iy~ -}      [ "Jordanian" ] ]
 
  |> "'uruwbbA" <| [
 
@@ -15646,7 +15634,7 @@ lexicon = listing "Lexicon's properties"
     -- >rwbA   >uruwb~A        N0      Europe
     -- ArwbA   >uruwb~A        N0      Europe
 
-    Identity                  `noun`       {- Ouruwb~A -}       [ "Europe" ] ]
+    Identity                  `noun`    {- Ouruwb~A -}         [ "Europe" ] ]
 
  |> "'uruwbbiyy" <| [
 
@@ -15656,7 +15644,7 @@ lexicon = listing "Lexicon's properties"
     -- Arwby   >uruwb~iy~      Nall    European     [[>uruwb~iy~/NOUN]]
     -- Arwby   >uruwb~iy~      Nall    European     [[>uruwb~iy~/ADJ]]
 
-    Identity                  `adj`        {- Ouruwb~iy~ -}     [ "European" ] ]
+    Identity                  `adj`     {- Ouruwb~iy~ -}       [ "European" ] ]
 
  |> "'us.tuwAn" <| [
 
@@ -15666,13 +15654,13 @@ lexicon = listing "Lexicon's properties"
     -- >sATyn  >asATiyn        Ndip    cylinders;columns
     -- AsATyn  >asATiyn        Ndip    cylinders;columns
 
-    Identity |< aT            `noun`       {- OusoTuwAnap -}    [ "cylinder", "disk", "cylinders", "columns" ],
+    Identity |< aT            `noun`    {- OusoTuwAnap -}      [ "cylinder", "disk", "cylinders", "columns" ],
 
     -- ;; >usoTuwAniy~_1
     -- >sTwAny >usoTuwAniy~    N-ap    cylindrical;disk-like     [[>usoTuwAniy~/ADJ]]
     -- AsTwAny >usoTuwAniy~    N-ap    cylindrical;disk-like     [[>usoTuwAniy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- OusoTuwAniy~ -}   [ "cylindrical", "disk-like" ] ]
+    Identity |< Iy            `adj`     {- OusoTuwAniy~ -}     [ "cylindrical", "disk-like" ] ]
 
  |> "'ustriyA" <| [
 
@@ -15682,7 +15670,7 @@ lexicon = listing "Lexicon's properties"
     -- >wstryA >uwsotriyA      N0      Austria
     -- AwstryA >uwsotriyA      N0      Austria
 
-    Identity                  `noun`       {- OusotriyA -}      [ "Austria" ] ]
+    Identity                  `noun`    {- OusotriyA -}        [ "Austria" ] ]
 
  |> "'usturAl" <| [
 
@@ -15696,7 +15684,7 @@ lexicon = listing "Lexicon's properties"
     -- AwstrAly        >uwsoturAliy~   Nall    Australian     [[>uwsoturAliy~/NOUN]]
     -- AwstrAly        >uwsoturAliy~   Nall    Australian     [[>uwsoturAliy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- OusoturAliy~ -}   [ "Australian" ] ]
+    Identity |< Iy            `adj`     {- OusoturAliy~ -}     [ "Australian" ] ]
 
  |> "'usturAliyA" <| [
 
@@ -15706,7 +15694,7 @@ lexicon = listing "Lexicon's properties"
     -- >wstrAlyA       >uwsoturAliyA   N0      Australia
     -- AwstrAlyA       >uwsoturAliyA   N0      Australia
 
-    Identity                  `noun`       {- OusoturAliyA -}   [ "Australia" ] ]
+    Identity                  `noun`    {- OusoturAliyA -}     [ "Australia" ] ]
 
  |> "'uw.gand" <| [
 
@@ -15716,7 +15704,7 @@ lexicon = listing "Lexicon's properties"
     -- Awgndy  >uwganodiy~     Nall    Ugandan     [[>uwganodiy~/NOUN]]
     -- Awgndy  >uwganodiy~     Nall    Ugandan     [[>uwganodiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Ouwganodiy~ -}    [ "Ugandan" ] ]
+    Identity |< Iy            `adj`     {- Ouwganodiy~ -}      [ "Ugandan" ] ]
 
  |> "'uw.gandA" <| [
 
@@ -15726,7 +15714,7 @@ lexicon = listing "Lexicon's properties"
     -- >wgnd   >uwganod        Nap     Uganda
     -- Awgnd   >uwganod        Nap     Uganda
 
-    Identity                  `noun`       {- OuwganodA -}      [ "Uganda" ] ]
+    Identity                  `noun`    {- OuwganodA -}        [ "Uganda" ] ]
 
  |> "'uw.gust" <| [
 
@@ -15734,7 +15722,7 @@ lexicon = listing "Lexicon's properties"
     -- >wgst   >uwgust Nprop   Auguste
     -- Awgst   >uwgust Nprop   Auguste
 
-    Identity                  `noun`       {- Ouwgust -}        [ "Auguste" ] ]
+    Identity                  `noun`    {- Ouwgust -}          [ "Auguste" ] ]
 
  |> "'uwAbik" <| [
 
@@ -15744,7 +15732,7 @@ lexicon = listing "Lexicon's properties"
     -- >wAbk   >awAbik N       OAPEC
     -- AwAbk   >awAbik N       OAPEC
 
-    Identity                  `noun`       {- OuwAbik -}        [ "OAPEC" ] ]
+    Identity                  `noun`    {- OuwAbik -}          [ "OAPEC" ] ]
 
  |> "'uw^gAriyt" <| [
 
@@ -15752,20 +15740,20 @@ lexicon = listing "Lexicon's properties"
     -- >wjAryt >uwjAriyt       Nprop   Ugarit
     -- AwjAryt >uwjAriyt       Nprop   Ugarit
 
-    Identity                  `noun`       {- OuwjAriyt -}      [ "Ugarit" ],
+    Identity                  `noun`    {- OuwjAriyt -}        [ "Ugarit" ],
 
     -- ;; >uwjAriytiy~_1
     -- >wjAryty        >uwjAriytiy~    Nall    Ugaritic     [[>uwjAriytiy~/ADJ]]
     -- AwjAryty        >uwjAriytiy~    Nall    Ugaritic     [[>uwjAriytiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- OuwjAriytiy~ -}   [ "Ugaritic" ] ]
+    Identity |< Iy            `adj`     {- OuwjAriytiy~ -}     [ "Ugaritic" ] ]
 
  |> "'uw^galAn" <| [
 
     -- ;; >uwjalAn_1
     -- >wjlAn  >uwjalAn        Nprop   Ocalan;Oujalan
 
-    Identity                  `noun`       {- OuwjalAn -}       [ "Ocalan", "Oujalan" ] ]
+    Identity                  `noun`    {- OuwjalAn -}         [ "Ocalan", "Oujalan" ] ]
 
  |> "'uw^sa`yAhuw" <| [
 
@@ -15773,7 +15761,7 @@ lexicon = listing "Lexicon's properties"
     -- >w$EyAhw        >uw$aEoyAhuw    Nprop   Oshayahu
     -- Aw$EyAhw        >uw$aEoyAhuw    Nprop   Oshayahu
 
-    Identity                  `noun`       {- Ouw$aEoyAhuw -}   [ "Oshayahu" ] ]
+    Identity                  `noun`    {- Ouw$aEoyAhuw -}     [ "Oshayahu" ] ]
 
  |> "'uwbAsAn^guw" <| [
 
@@ -15781,7 +15769,7 @@ lexicon = listing "Lexicon's properties"
     -- >wbAsAnjw       >uwbAsAnojuw    Nprop   Obasanjo
     -- AwbAsAnjw       >uwbAsAnojuw    Nprop   Obasanjo
 
-    Identity                  `noun`       {- OuwbAsAnojuw -}   [ "Obasanjo" ] ]
+    Identity                  `noun`    {- OuwbAsAnojuw -}     [ "Obasanjo" ] ]
 
  |> "'uwbirA" <| [
 
@@ -15791,7 +15779,7 @@ lexicon = listing "Lexicon's properties"
     -- >wbyrA  >uwbiyrA        N0      opera
     -- AwbyrA  >uwbiyrA        N0      opera
 
-    Identity                  `noun`       {- OuwbirA -}        [ "opera" ] ]
+    Identity                  `noun`    {- OuwbirA -}          [ "opera" ] ]
 
  |> "'uwbir^g" <| [
 
@@ -15801,7 +15789,7 @@ lexicon = listing "Lexicon's properties"
     -- >wbyrj  >uwbiyrj        N0      auberge;inn
     -- Awbyrj  >uwbiyrj        N0      auberge;inn
 
-    Identity                  `noun`       {- Ouwbirj -}        [ "auberge", "inn" ] ]
+    Identity                  `noun`    {- Ouwbirj -}          [ "auberge", "inn" ] ]
 
  |> "'uwbrAduwfiyt^s" <| [
 
@@ -15809,7 +15797,7 @@ lexicon = listing "Lexicon's properties"
     -- >wbrAdwfyt$     >uwbrAduwfiyt$  Nprop   Obradovic
     -- AwbrAdwfyt$     >uwbrAduwfiyt$  Nprop   Obradovic
 
-    Identity                  `noun`       {- OuwbrAduwfiyt$ -} [ "Obradovic" ] ]
+    Identity                  `noun`    {- OuwbrAduwfiyt$ -}   [ "Obradovic" ] ]
 
  |> "'uwbziyrfir" <| [
 
@@ -15819,7 +15807,7 @@ lexicon = listing "Lexicon's properties"
     -- >wbzrfr >uwbozirofir    N0      Observer
     -- Awbzrfr >uwbozirofir    N0      Observer
 
-    Identity                  `noun`       {- Ouwboziyrofir -}  [ "Observer" ] ]
+    Identity                  `noun`    {- Ouwboziyrofir -}    [ "Observer" ] ]
 
  |> "'uwdiyniyziy" <| [
 
@@ -15827,7 +15815,7 @@ lexicon = listing "Lexicon's properties"
     -- >wdynyzy        >uwdiyniyziy    N0      Udinese
     -- Awdynyzy        >uwdiyniyziy    N0      Udinese
 
-    Identity                  `noun`       {- Ouwdiyniyziy -}   [ "Udinese" ] ]
+    Identity                  `noun`    {- Ouwdiyniyziy -}     [ "Udinese" ] ]
 
  |> "'uwfiruwl" <| [
 
@@ -15835,7 +15823,7 @@ lexicon = listing "Lexicon's properties"
     -- >wfrwl  >uwfiruwl       N       overalls
     -- Awfrwl  >uwfiruwl       N       overalls
 
-    Identity                  `noun`       {- Ouwfiruwl -}      [ "overalls" ] ]
+    Identity                  `noun`    {- Ouwfiruwl -}        [ "overalls" ] ]
 
  |> "'uwfiyiyduw" <| [
 
@@ -15843,7 +15831,7 @@ lexicon = listing "Lexicon's properties"
     -- >wfyydw >uwfiyiyduw     Nprop   Oviedo
     -- Awfyydw >uwfiyiyduw     Nprop   Oviedo
 
-    Identity                  `noun`       {- Ouwfiyiyduw -}    [ "Oviedo" ] ]
+    Identity                  `noun`    {- Ouwfiyiyduw -}      [ "Oviedo" ] ]
 
  |> "'uwfiytz" <| [
 
@@ -15851,7 +15839,7 @@ lexicon = listing "Lexicon's properties"
     -- >wfytz  >uwfiytz        Nprop   Owitz;Ovitz
     -- Awfytz  >uwfiytz        Nprop   Owitz;Ovitz
 
-    Identity                  `noun`       {- Ouwfiytz -}       [ "Owitz", "Ovitz" ] ]
+    Identity                  `noun`    {- Ouwfiytz -}         [ "Owitz", "Ovitz" ] ]
 
  |> "'uwfqiyr" <| [
 
@@ -15859,7 +15847,7 @@ lexicon = listing "Lexicon's properties"
     -- >wfqyr  >uwfoqiyr       Nprop   Oufkir
     -- Awfqyr  >uwfoqiyr       Nprop   Oufkir
 
-    Identity                  `noun`       {- Ouwfoqiyr -}      [ "Oufkir" ] ]
+    Identity                  `noun`    {- Ouwfoqiyr -}        [ "Oufkir" ] ]
 
  |> "'uwfsit" <| [
 
@@ -15869,7 +15857,7 @@ lexicon = listing "Lexicon's properties"
     -- >wfsyt  >uwfosiyt       N       offset
     -- Awfsyt  >uwfosiyt       N       offset
 
-    Identity                  `noun`       {- Ouwfosit -}       [ "offset" ] ]
+    Identity                  `noun`    {- Ouwfosit -}         [ "offset" ] ]
 
  |> "'uwhAyuw" <| [
 
@@ -15877,7 +15865,7 @@ lexicon = listing "Lexicon's properties"
     -- >whAyw  >uwhAyuw        N0      Ohio
     -- AwhAyw  >uwhAyuw        N0      Ohio
 
-    Identity                  `noun`       {- OuwhAyuw -}       [ "Ohio" ] ]
+    Identity                  `noun`    {- OuwhAyuw -}         [ "Ohio" ] ]
 
  |> "'uwkAlibtuws" <| [
 
@@ -15885,7 +15873,7 @@ lexicon = listing "Lexicon's properties"
     -- >wkAlbtws       >uwkAlibotuws   N       eucalyptus
     -- AwkAlbtws       >uwkAlibotuws   N       eucalyptus
 
-    Identity                  `noun`       {- OuwkAlibotuws -}  [ "eucalyptus" ] ]
+    Identity                  `noun`    {- OuwkAlibotuws -}    [ "eucalyptus" ] ]
 
  |> "'uwkAziyuwn" <| [
 
@@ -15893,7 +15881,7 @@ lexicon = listing "Lexicon's properties"
     -- >wkAzywn        >uwkAziyuwn     N       clearing sale
     -- AwkAzywn        >uwkAziyuwn     N       clearing sale
 
-    Identity                  `noun`       {- OuwkAziyuwn -}    [ "clearing sale" ] ]
+    Identity                  `noun`    {- OuwkAziyuwn -}      [ "clearing sale" ] ]
 
  |> "'uwkiynAwA" <| [
 
@@ -15901,7 +15889,7 @@ lexicon = listing "Lexicon's properties"
     -- >wkynAwA        >uwkiynAwA      N0      Okinawa
     -- AwkynAwA        >uwkiynAwA      N0      Okinawa
 
-    Identity                  `noun`       {- OuwkiynAwA -}     [ "Okinawa" ] ]
+    Identity                  `noun`    {- OuwkiynAwA -}       [ "Okinawa" ] ]
 
  |> "'uwklAhuwmA" <| [
 
@@ -15909,7 +15897,7 @@ lexicon = listing "Lexicon's properties"
     -- >wklAhwmA       >uwkolAhuwmA    N0      Oklahoma
     -- AwklAhwmA       >uwkolAhuwmA    N0      Oklahoma
 
-    Identity                  `noun`       {- OuwkolAhuwmA -}   [ "Oklahoma" ] ]
+    Identity                  `noun`    {- OuwkolAhuwmA -}     [ "Oklahoma" ] ]
 
  |> "'uwkrAn" <| [
 
@@ -15917,7 +15905,7 @@ lexicon = listing "Lexicon's properties"
     -- >wkrAny >uwkrAniy~      Nall    Ukrainian
     -- AwkrAny >uwkrAniy~      Nall    Ukrainian
 
-    Identity |< Iy            `adj`        {- OuwkrAniy~ -}     [ "Ukrainian" ] ]
+    Identity |< Iy            `adj`     {- OuwkrAniy~ -}       [ "Ukrainian" ] ]
 
  |> "'uwkrAniyA" <| [
 
@@ -15925,7 +15913,7 @@ lexicon = listing "Lexicon's properties"
     -- >wkrAnyA        >uwkrAniyA      N0      Ukraine
     -- AwkrAnyA        >uwkrAniyA      N0      Ukraine
 
-    Identity                  `noun`       {- OuwkrAniyA -}     [ "Ukraine" ] ]
+    Identity                  `noun`    {- OuwkrAniyA -}       [ "Ukraine" ] ]
 
  |> "'uwksi^giyn" <| [
 
@@ -15935,7 +15923,7 @@ lexicon = listing "Lexicon's properties"
     -- >wksyjyn        >uwkosiyjiyn    N       oxygen
     -- Awksyjyn        >uwkosiyjiyn    N       oxygen
 
-    Identity                  `noun`       {- Ouwkosijiyn -}    [ "oxygen" ] ]
+    Identity                  `noun`    {- Ouwkosijiyn -}      [ "oxygen" ] ]
 
  |> "'uwksiyr" <| [
 
@@ -15943,7 +15931,7 @@ lexicon = listing "Lexicon's properties"
     -- >wksyr  >uwkosiyr       Nprop   Auxerre
     -- Awksyr  >uwkosiyr       Nprop   Auxerre
 
-    Identity                  `noun`       {- Ouwkosiyr -}      [ "Auxerre" ] ]
+    Identity                  `noun`    {- Ouwkosiyr -}        [ "Auxerre" ] ]
 
  |> "'uwl.gA" <| [
 
@@ -15951,7 +15939,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlgA   >uwlogA Nprop   Olga
     -- AwlgA   >uwlogA Nprop   Olga
 
-    Identity                  `noun`       {- OuwlogA -}        [ "Olga" ] ]
+    Identity                  `noun`    {- OuwlogA -}          [ "Olga" ] ]
 
  |> "'uwlA'i" <| [
 
@@ -15959,7 +15947,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlA'   >uwlA'i FW-WaBi they/those     [[>uwlA'i/DEM_PRON_MP]]
     -- AwlA'   >uwlA'i FW-WaBi they/those     [[>uwlA'i/DEM_PRON_MP]]
 
-    Identity                  `noun`       {- OuwlA'i -}        [ "they/those" ] ]
+    Identity                  `noun`    {- OuwlA'i -}          [ "they/those" ] ]
 
  |> "'uwlA'ika" <| [
 
@@ -15969,7 +15957,7 @@ lexicon = listing "Lexicon's properties"
     -- >wl}k   >uwla}ika       FW-WaBi they/those     [[>uwla}ika/DEM_PRON_MP]]
     -- Awl}k   >uwla}ika       FW-WaBi they/those     [[>uwla}ika/DEM_PRON_MP]]
 
-    Identity                  `noun`       {- OuwlA}ika -}      [ "they/those" ] ]
+    Identity                  `noun`    {- OuwlA}ika -}        [ "they/those" ] ]
 
  |> "'uwlbrAyt" <| [
 
@@ -15977,7 +15965,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlbrAyt        >uwlobrAyot     Nprop   Albright
     -- AwlbrAyt        >uwlobrAyot     Nprop   Albright
 
-    Identity                  `noun`       {- OuwlobrAyot -}    [ "Albright" ] ]
+    Identity                  `noun`    {- OuwlobrAyot -}      [ "Albright" ] ]
 
  |> "'uwlimb" <| [
 
@@ -15987,7 +15975,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlymby >uwliymobiy~    Nall    Olympic     [[>uwliymobiy~/ADJ]]
     -- Awlymby >uwliymobiy~    Nall    Olympic     [[>uwliymobiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Ouwlimobiy~ -}    [ "Olympic" ] ]
+    Identity |< Iy            `adj`     {- Ouwlimobiy~ -}      [ "Olympic" ] ]
 
  |> "'uwlimbiyAd" <| [
 
@@ -15997,7 +15985,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlymbyAd       >uwliymobiyAd   N       Olympiad;Olympics
     -- AwlymbyAd       >uwliymobiyAd   N       Olympiad;Olympics
 
-    Identity                  `noun`       {- OuwlimobiyAd -}   [ "Olympiad", "Olympics" ] ]
+    Identity                  `noun`    {- OuwlimobiyAd -}     [ "Olympiad", "Olympics" ] ]
 
  |> "'uwliy^gAriyuw" <| [
 
@@ -16005,7 +15993,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlyjAryw       >uwliyjAriyuw   Nprop   Oligario
     -- AwlyjAryw       >uwliyjAriyuw   Nprop   Oligario
 
-    Identity                  `noun`       {- OuwliyjAriyuw -}  [ "Oligario" ] ]
+    Identity                  `noun`    {- OuwliyjAriyuw -}    [ "Oligario" ] ]
 
  |> "'uwliyfA" <| [
 
@@ -16013,7 +16001,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlyfA  >uwliyfA        Nprop   Oliva
     -- AwlyfA  >uwliyfA        Nprop   Oliva
 
-    Identity                  `noun`       {- OuwliyfA -}       [ "Oliva" ] ]
+    Identity                  `noun`    {- OuwliyfA -}         [ "Oliva" ] ]
 
  |> "'uwliyfir" <| [
 
@@ -16021,7 +16009,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlyfr  >uwliyfir       Nprop   Oliver
     -- Awlyfr  >uwliyfir       Nprop   Oliver
 
-    Identity                  `noun`       {- Ouwliyfir -}      [ "Oliver" ] ]
+    Identity                  `noun`    {- Ouwliyfir -}        [ "Oliver" ] ]
 
  |> "'uwliyfiyrA" <| [
 
@@ -16029,7 +16017,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlyfyrA        >uwliyfiyrA     Nprop   Oliveira
     -- AwlyfyrA        >uwliyfiyrA     Nprop   Oliveira
 
-    Identity                  `noun`       {- OuwliyfiyrA -}    [ "Oliveira" ] ]
+    Identity                  `noun`    {- OuwliyfiyrA -}      [ "Oliveira" ] ]
 
  |> "'uwliyfyiyrA" <| [
 
@@ -16037,7 +16025,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlyfyyrA       >uwliyfoyiyrA   N0      Oliviera
     -- AwlyfyyrA       >uwliyfoyiyrA   N0      Oliviera
 
-    Identity                  `noun`       {- OuwliyfoyiyrA -}  [ "Oliviera" ] ]
+    Identity                  `noun`    {- OuwliyfoyiyrA -}    [ "Oliviera" ] ]
 
  |> "'uwlriyk" <| [
 
@@ -16045,7 +16033,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlryk  >uwloriyk       Nprop   Ulrik
     -- Awlryk  >uwloriyk       Nprop   Ulrik
 
-    Identity                  `noun`       {- Ouwloriyk -}      [ "Ulrik" ] ]
+    Identity                  `noun`    {- Ouwloriyk -}        [ "Ulrik" ] ]
 
  |> "'uwlsuwn" <| [
 
@@ -16053,7 +16041,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlswn  >uwlosuwn       Nprop   Olson
     -- Awlswn  >uwlosuwn       Nprop   Olson
 
-    Identity                  `noun`       {- Ouwlosuwn -}      [ "Olson" ] ]
+    Identity                  `noun`    {- Ouwlosuwn -}        [ "Olson" ] ]
 
  |> "'uwluwmuwk" <| [
 
@@ -16061,7 +16049,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlwmwk >uwluwmuwk      Nprop   Olomouc
     -- Awlwmwk >uwluwmuwk      Nprop   Olomouc
 
-    Identity                  `noun`       {- Ouwluwmuwk -}     [ "Olomouc" ] ]
+    Identity                  `noun`    {- Ouwluwmuwk -}       [ "Olomouc" ] ]
 
  |> "'uwluwsiy.guwn" <| [
 
@@ -16069,7 +16057,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlwsygwn       >uwluwsiyguwn   Nprop   Olusegun
     -- Awlwsygwn       >uwluwsiyguwn   Nprop   Olusegun
 
-    Identity                  `noun`       {- Ouwluwsiyguwn -}  [ "Olusegun" ] ]
+    Identity                  `noun`    {- Ouwluwsiyguwn -}    [ "Olusegun" ] ]
 
  |> "'uwlyiyt" <| [
 
@@ -16077,7 +16065,7 @@ lexicon = listing "Lexicon's properties"
     -- >wlyyt  >uwloyiyt       Nprop   Ullyett
     -- Awlyyt  >uwloyiyt       Nprop   Ullyett
 
-    Identity                  `noun`       {- Ouwloyiyt -}      [ "Ullyett" ] ]
+    Identity                  `noun`    {- Ouwloyiyt -}        [ "Ullyett" ] ]
 
  |> "'uwndiykAniy" <| [
 
@@ -16085,7 +16073,7 @@ lexicon = listing "Lexicon's properties"
     -- >wndykAny       >uwnodiykAniy   Nprop   Ondekane
     -- AwndykAny       >uwnodiykAniy   Nprop   Ondekane
 
-    Identity                  `noun`       {- OuwnodiykAniy -}  [ "Ondekane" ] ]
+    Identity                  `noun`    {- OuwnodiykAniy -}    [ "Ondekane" ] ]
 
  |> "'uwniskuw" <| [
 
@@ -16095,7 +16083,7 @@ lexicon = listing "Lexicon's properties"
     -- >wnyskw >uwniysokuw     N0      UNESCO
     -- Awnyskw >uwniysokuw     N0      UNESCO
 
-    Identity                  `noun`       {- Ouwnisokuw -}     [ "UNESCO" ] ]
+    Identity                  `noun`    {- Ouwnisokuw -}       [ "UNESCO" ] ]
 
  |> "'uwnlAyn" <| [
 
@@ -16103,7 +16091,7 @@ lexicon = listing "Lexicon's properties"
     -- >wnlAyn >uwnolAyon      N0      Online
     -- AwnlAyn >uwnolAyon      N0      Online
 
-    Identity                  `noun`       {- OuwnolAyon -}     [ "Online" ] ]
+    Identity                  `noun`    {- OuwnolAyon -}       [ "Online" ] ]
 
  |> "'uwns" <| [
 
@@ -16113,7 +16101,7 @@ lexicon = listing "Lexicon's properties"
     -- >wnS    >uwnS   NapAt   ounce
     -- AwnS    >uwnS   NapAt   ounce
 
-    Identity |< aT            `noun`       {- Ouwnsap -}        [ "ounce" ] ]
+    Identity |< aT            `noun`    {- Ouwnsap -}          [ "ounce" ] ]
 
  |> "'uwnsAl" <| [
 
@@ -16121,7 +16109,7 @@ lexicon = listing "Lexicon's properties"
     -- >wnsAl  >uwnosAl        Nprop   Unsal
     -- AwnsAl  >uwnosAl        Nprop   Unsal
 
-    Identity                  `noun`       {- OuwnosAl -}       [ "Unsal" ] ]
+    Identity                  `noun`    {- OuwnosAl -}         [ "Unsal" ] ]
 
  |> "'uwnsiyns" <| [
 
@@ -16129,7 +16117,7 @@ lexicon = listing "Lexicon's properties"
     -- >wnsyns >uwnosiyns      Nprop   Oncins
     -- Awnsyns >uwnosiyns      Nprop   Oncins
 
-    Identity                  `noun`       {- Ouwnosiyns -}     [ "Oncins" ] ]
+    Identity                  `noun`    {- Ouwnosiyns -}       [ "Oncins" ] ]
 
  |> "'uwntirhA_hiyn.g" <| [
 
@@ -16137,7 +16125,7 @@ lexicon = listing "Lexicon's properties"
     -- >wntrhAxyng     >uwnotirohAxiyng        Nprop   Unterhaching
     -- AwntrhAxyng     >uwnotirohAxiyng        Nprop   Unterhaching
 
-    Identity                  `noun`       {- OuwnotirohAxiyng -} [ "Unterhaching" ] ]
+    Identity                  `noun`    {- OuwnotirohAxiyng -} [ "Unterhaching" ] ]
 
  |> "'uwnurwA" <| [
 
@@ -16145,7 +16133,7 @@ lexicon = listing "Lexicon's properties"
     -- >wnrwA  >uwnurowA       N0      UNRWA (UN Relief and Works Agency)
     -- AwnrwA  >uwnurowA       N0      UNRWA (UN Relief and Works Agency)
 
-    Identity                  `noun`       {- OuwnurowA -}      [ "UNRWA (UN Relief and Works Agency)" ] ]
+    Identity                  `noun`    {- OuwnurowA -}        [ "UNRWA (UN Relief and Works Agency)" ] ]
 
  |> "'uwqq" <| [
 
@@ -16153,7 +16141,7 @@ lexicon = listing "Lexicon's properties"
     -- >wq     >uwq~   Nap     oka
     -- Awq     >uwq~   Nap     oka
 
-    Identity |< aT            `noun`       {- Ouwq~ap -}        [ "oka" ] ]
+    Identity |< aT            `noun`    {- Ouwq~ap -}          [ "oka" ] ]
 
  |> "'uwrAnuws" <| [
 
@@ -16162,7 +16150,7 @@ lexicon = listing "Lexicon's properties"
     -- AwrAnws >uwrAnuws       N0      Uranus
     -- ywrAnws yuwrAnuws       N0      Uranus
 
-    Identity                  `noun`       {- OuwrAnuws -}      [ "Uranus" ] ]
+    Identity                  `noun`    {- OuwrAnuws -}        [ "Uranus" ] ]
 
  |> "'uwrAsiyA" <| [
 
@@ -16170,7 +16158,7 @@ lexicon = listing "Lexicon's properties"
     -- >wrAsyA >uwrAsiyA       N0      Eurasia
     -- AwrAsyA >uwrAsiyA       N0      Eurasia
 
-    Identity                  `noun`       {- OuwrAsiyA -}      [ "Eurasia" ] ]
+    Identity                  `noun`    {- OuwrAsiyA -}        [ "Eurasia" ] ]
 
  |> "'uwr^saliym" <| [
 
@@ -16178,7 +16166,7 @@ lexicon = listing "Lexicon's properties"
     -- >wr$lym >uwro$aliym     Ndip    Jerusalem
     -- Awr$lym >uwro$aliym     Ndip    Jerusalem
 
-    Identity                  `noun`       {- Ouwro$aliym -}    [ "Jerusalem" ] ]
+    Identity                  `noun`    {- Ouwro$aliym -}      [ "Jerusalem" ] ]
 
  |> "'uwr_tuw_duks" <| [
 
@@ -16186,7 +16174,7 @@ lexicon = listing "Lexicon's properties"
     -- >wrvw*ks        >uwrovuw*ukos   N       Orthodox
     -- Awrvw*ks        >uwrovuw*ukos   N       Orthodox
 
-    Identity                  `noun`       {- Ouwrovuw*ukos -}  [ "Orthodox" ],
+    Identity                  `noun`    {- Ouwrovuw*ukos -}    [ "Orthodox" ],
 
     -- ;; >uwrovuw*ukosiy~_1
     -- >wrvw*ksy       >uwrovuw*ukosiy~        Nall    Orthodox     [[>uwrovuw*ukosiy~/NOUN]]
@@ -16194,7 +16182,7 @@ lexicon = listing "Lexicon's properties"
     -- Awrvw*ksy       >uwrovuw*ukosiy~        Nall    Orthodox     [[>uwrovuw*ukosiy~/NOUN]]
     -- Awrvw*ksy       >uwrovuw*ukosiy~        Nall    Orthodox     [[>uwrovuw*ukosiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Ouwrovuw*ukosiy~ -} [ "Orthodox" ] ]
+    Identity |< Iy            `adj`     {- Ouwrovuw*ukosiy~ -} [ "Orthodox" ] ]
 
  |> "'uwrbAn" <| [
 
@@ -16202,7 +16190,7 @@ lexicon = listing "Lexicon's properties"
     -- >wrbAn  >uwrobAn        Nprop   Orban;Urban
     -- AwrbAn  >uwrobAn        Nprop   Orban;Urban
 
-    Identity                  `noun`       {- OuwrobAn -}       [ "Orban", "Urban" ] ]
+    Identity                  `noun`    {- OuwrobAn -}         [ "Orban", "Urban" ] ]
 
  |> "'uwrd" <| [
 
@@ -16212,7 +16200,7 @@ lexicon = listing "Lexicon's properties"
     -- Awrdy   >uwrdiy~        Nall    Urdu     [[>uwrdiy~/NOUN]]
     -- Awrdy   >uwrdiy~        Nall    Urdu     [[>uwrdiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Ouwrdiy~ -}       [ "Urdu" ] ]
+    Identity |< Iy            `adj`     {- Ouwrdiy~ -}         [ "Urdu" ] ]
 
  |> "'uwrduw" <| [
 
@@ -16220,7 +16208,7 @@ lexicon = listing "Lexicon's properties"
     -- >wrdw   >uwrduw N       Urdu
     -- Awrdw   >uwrduw N       Urdu
 
-    Identity                  `noun`       {- Ouwrduw -}        [ "Urdu" ] ]
+    Identity                  `noun`    {- Ouwrduw -}          [ "Urdu" ] ]
 
  |> "'uwriy.guwn" <| [
 
@@ -16230,7 +16218,7 @@ lexicon = listing "Lexicon's properties"
     -- >wryjwn >uwriyjuwn      N0      Oregon
     -- Awryjwn >uwriyjuwn      N0      Oregon
 
-    Identity                  `noun`       {- Ouwriyguwn -}     [ "Oregon" ] ]
+    Identity                  `noun`    {- Ouwriyguwn -}       [ "Oregon" ] ]
 
  |> "'uwriy_hA" <| [
 
@@ -16238,7 +16226,7 @@ lexicon = listing "Lexicon's properties"
     -- >wryxA  >uwriyxA        N0      Oreja
     -- AwryxA  >uwriyxA        N0      Oreja
 
-    Identity                  `noun`       {- OuwriyxA -}       [ "Oreja" ] ]
+    Identity                  `noun`    {- OuwriyxA -}         [ "Oreja" ] ]
 
  |> "'uwriysuwfiyt^s" <| [
 
@@ -16246,7 +16234,7 @@ lexicon = listing "Lexicon's properties"
     -- >wryswfyt$      >uwriysuwfiyt$  Nprop   Oresovic
     -- Awryswfyt$      >uwriysuwfiyt$  Nprop   Oresovic
 
-    Identity                  `noun`       {- Ouwriysuwfiyt$ -} [ "Oresovic" ] ]
+    Identity                  `noun`    {- Ouwriysuwfiyt$ -}   [ "Oresovic" ] ]
 
  |> "'uwrkistrA" <| [
 
@@ -16254,7 +16242,7 @@ lexicon = listing "Lexicon's properties"
     -- >wrkstrA        >uwrokisotrA    N0      orchestra
     -- AwrkstrA        >uwrokisotrA    N0      orchestra
 
-    Identity                  `noun`       {- OuwrokisotrA -}   [ "orchestra" ] ]
+    Identity                  `noun`    {- OuwrokisotrA -}     [ "orchestra" ] ]
 
  |> "'uwrlAnduw" <| [
 
@@ -16262,7 +16250,7 @@ lexicon = listing "Lexicon's properties"
     -- >wrlAndw        >uwrolAnoduw    N0      Orlando
     -- AwrlAndw        >uwrolAnoduw    N0      Orlando
 
-    Identity                  `noun`       {- OuwrolAnoduw -}   [ "Orlando" ] ]
+    Identity                  `noun`    {- OuwrolAnoduw -}     [ "Orlando" ] ]
 
  |> "'uwrniyk" <| [
 
@@ -16270,7 +16258,7 @@ lexicon = listing "Lexicon's properties"
     -- >wrnyk  >uwroniyk       N       pattern;form
     -- Awrnyk  >uwroniyk       N       pattern;form
 
-    Identity                  `noun`       {- Ouwroniyk -}      [ "pattern", "form" ] ]
+    Identity                  `noun`    {- Ouwroniyk -}        [ "pattern", "form" ] ]
 
  |> "'uwru^gwA'" <| [
 
@@ -16284,7 +16272,7 @@ lexicon = listing "Lexicon's properties"
     -- >wrwgwA}y       >uwruwgwA}iy~   Nall    Uruguayan
     -- AwrwgwA}y       >uwruwgwA}iy~   Nall    Uruguayan
 
-    Identity |< Iy            `adj`        {- OuwrujwA}iy~ -}   [ "Uruguayan" ] ]
+    Identity |< Iy            `adj`     {- OuwrujwA}iy~ -}     [ "Uruguayan" ] ]
 
  |> "'uwru^gwAy" <| [
 
@@ -16298,7 +16286,7 @@ lexicon = listing "Lexicon's properties"
     -- >wrwgwAy        >uwruwgwAy      N       Uruguay
     -- AwrwgwAy        >uwruwgwAy      N       Uruguay
 
-    Identity                  `noun`       {- OuwrujwAy -}      [ "Uruguay" ] ]
+    Identity                  `noun`    {- OuwrujwAy -}        [ "Uruguay" ] ]
 
  |> "'uwrubb" <| [
 
@@ -16312,7 +16300,7 @@ lexicon = listing "Lexicon's properties"
     -- Awrwby  >uwruwb~iy~     Nall    European     [[>uwruwb~iy~/NOUN]]
     -- Awrwby  >uwruwb~iy~     Nall    European     [[>uwruwb~iy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Ouwrub~iy~ -}     [ "European" ] ]
+    Identity |< Iy            `adj`     {- Ouwrub~iy~ -}       [ "European" ] ]
 
  |> "'uwrubbA" <| [
 
@@ -16322,7 +16310,7 @@ lexicon = listing "Lexicon's properties"
     -- >wrwbA  >uwruwb~A       N0      Europe
     -- AwrwbA  >uwruwb~A       N0      Europe
 
-    Identity                  `noun`       {- Ouwrub~A -}       [ "Europe" ] ]
+    Identity                  `noun`    {- Ouwrub~A -}         [ "Europe" ] ]
 
  |> "'uwruw.guwyAn" <| [
 
@@ -16330,7 +16318,7 @@ lexicon = listing "Lexicon's properties"
     -- >wrwgwyAny      >uwruwguwyAniy~ Nall    Uruguayan
     -- AwrwgwyAny      >uwruwguwyAniy~ Nall    Uruguayan
 
-    Identity |< Iy            `adj`        {- OuwruwguwyAniy~ -} [ "Uruguayan" ] ]
+    Identity |< Iy            `adj`     {- OuwruwguwyAniy~ -}  [ "Uruguayan" ] ]
 
  |> "'uwsAkA" <| [
 
@@ -16338,7 +16326,7 @@ lexicon = listing "Lexicon's properties"
     -- >wsAkA  >uwsAkA N0      Osaka
     -- AwsAkA  >uwsAkA N0      Osaka
 
-    Identity                  `noun`       {- OuwsAkA -}        [ "Osaka" ] ]
+    Identity                  `noun`    {- OuwsAkA -}          [ "Osaka" ] ]
 
  |> "'uwsAsuwnA" <| [
 
@@ -16346,7 +16334,7 @@ lexicon = listing "Lexicon's properties"
     -- >wsAswnA        >uwsAsuwnA      N0      Osasuna
     -- AwsAswnA        >uwsAsuwnA      N0      Osasuna
 
-    Identity                  `noun`       {- OuwsAsuwnA -}     [ "Osasuna" ] ]
+    Identity                  `noun`    {- OuwsAsuwnA -}       [ "Osasuna" ] ]
 
  |> "'uwsiytiyA" <| [
 
@@ -16354,7 +16342,7 @@ lexicon = listing "Lexicon's properties"
     -- >wsytyA >uwsiytiyA      Nprop   Ossetia
     -- AwsytyA >uwsiytiyA      Nprop   Ossetia
 
-    Identity                  `noun`       {- OuwsiytiyA -}     [ "Ossetia" ] ]
+    Identity                  `noun`    {- OuwsiytiyA -}       [ "Ossetia" ] ]
 
  |> "'uwskAr" <| [
 
@@ -16362,7 +16350,7 @@ lexicon = listing "Lexicon's properties"
     -- >wskAr  >uwsokAr        N0      Oscar
     -- AwskAr  >uwsokAr        N0      Oscar
 
-    Identity                  `noun`       {- OuwsokAr -}       [ "Oscar" ] ]
+    Identity                  `noun`    {- OuwsokAr -}         [ "Oscar" ] ]
 
  |> "'uwsluw" <| [
 
@@ -16370,7 +16358,7 @@ lexicon = listing "Lexicon's properties"
     -- >wslw   >uwsoluw        Nprop   Oslo
     -- Awslw   >uwsoluw        Nprop   Oslo
 
-    Identity                  `noun`       {- Ouwsoluw -}       [ "Oslo" ] ]
+    Identity                  `noun`    {- Ouwsoluw -}         [ "Oslo" ] ]
 
  |> "'uwstin" <| [
 
@@ -16378,7 +16366,7 @@ lexicon = listing "Lexicon's properties"
     -- >wstn   >uwsotin        Nprop   Austin
     -- Awstn   >uwsotin        Nprop   Austin
 
-    Identity                  `noun`       {- Ouwsotin -}       [ "Austin" ] ]
+    Identity                  `noun`    {- Ouwsotin -}         [ "Austin" ] ]
 
  |> "'uwstrAfA" <| [
 
@@ -16386,7 +16374,7 @@ lexicon = listing "Lexicon's properties"
     -- >wstrAfA        >uwsotrAfA      N0      Ostrava
     -- AwstrAfA        >uwsotrAfA      N0      Ostrava
 
-    Identity                  `noun`       {- OuwsotrAfA -}     [ "Ostrava" ] ]
+    Identity                  `noun`    {- OuwsotrAfA -}       [ "Ostrava" ] ]
 
  |> "'uwtArAn^sAl" <| [
 
@@ -16394,7 +16382,7 @@ lexicon = listing "Lexicon's properties"
     -- >wtArAn$Al      >uwtArAno$Al    Nprop   Uttaranchal
     -- AwtArAn$Al      >uwtArAno$Al    Nprop   Uttaranchal
 
-    Identity                  `noun`       {- OuwtArAno$Al -}   [ "Uttaranchal" ] ]
+    Identity                  `noun`    {- OuwtArAno$Al -}     [ "Uttaranchal" ] ]
 
  |> "'uwtAwA" <| [
 
@@ -16402,7 +16390,7 @@ lexicon = listing "Lexicon's properties"
     -- >wtAwA  >uwtAwA Nprop   Ottawa
     -- AwtAwA  >uwtAwA Nprop   Ottawa
 
-    Identity                  `noun`       {- OuwtAwA -}        [ "Ottawa" ] ]
+    Identity                  `noun`    {- OuwtAwA -}          [ "Ottawa" ] ]
 
  |> "'uwtri_ht" <| [
 
@@ -16412,7 +16400,7 @@ lexicon = listing "Lexicon's properties"
     -- >wtry$t >uwtriy$t       Nprop   Utrecht
     -- Awtry$t >uwtriy$t       Nprop   Utrecht
 
-    Identity                  `noun`       {- Ouwtrixot -}      [ "Utrecht" ] ]
+    Identity                  `noun`    {- Ouwtrixot -}        [ "Utrecht" ] ]
 
  |> "'uwtuw^grAf" <| [
 
@@ -16422,7 +16410,7 @@ lexicon = listing "Lexicon's properties"
     -- >wtwgrAf        >uwtuwgrAf      NduAt   autograph
     -- AwtwgrAf        >uwtuwgrAf      NduAt   autograph
 
-    Identity                  `noun`       {- OuwtuwjrAf -}     [ "autograph" ] ]
+    Identity                  `noun`    {- OuwtuwjrAf -}       [ "autograph" ] ]
 
  |> "'uwtuwbiys" <| [
 
@@ -16430,7 +16418,7 @@ lexicon = listing "Lexicon's properties"
     -- >wtwbys >uwtuwbiys      NduAt   bus
     -- Awtwbys >uwtuwbiys      NduAt   bus
 
-    Identity                  `noun`       {- Ouwtuwbiys -}     [ "bus" ] ]
+    Identity                  `noun`    {- Ouwtuwbiys -}       [ "bus" ] ]
 
  |> "'uwtuwmAt" <| [
 
@@ -16438,7 +16426,7 @@ lexicon = listing "Lexicon's properties"
     -- >wtwmAty        >uwtuwmAtiy~    Nall    automatic;automated     [[>uwtuwmAtiy~/ADJ]]
     -- AwtwmAty        >uwtuwmAtiy~    Nall    automatic;automated     [[>uwtuwmAtiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- OuwtuwmAtiy~ -}   [ "automatic", "automated" ] ]
+    Identity |< Iy            `adj`     {- OuwtuwmAtiy~ -}     [ "automatic", "automated" ] ]
 
  |> "'uwtuwmAtiyk" <| [
 
@@ -16446,7 +16434,7 @@ lexicon = listing "Lexicon's properties"
     -- >wtwmAtyky      >uwtuwmAtiykiy~ Nall    automatic     [[>uwtuwmAtiykiy~/ADJ]]
     -- AwtwmAtyky      >uwtuwmAtiykiy~ Nall    automatic     [[>uwtuwmAtiykiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- OuwtuwmAtiykiy~ -} [ "automatic" ] ]
+    Identity |< Iy            `adj`     {- OuwtuwmAtiykiy~ -}  [ "automatic" ] ]
 
  |> "'uwtuwqrA.t" <| [
 
@@ -16454,7 +16442,7 @@ lexicon = listing "Lexicon's properties"
     -- >wtwqrATy       >uwtuwqrATiy~   Nall    autocratic     [[>uwtuwqrATiy~/ADJ]]
     -- AwtwqrATy       >uwtuwqrATiy~   Nall    autocratic     [[>uwtuwqrATiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- OuwtuwqrATiy~ -}  [ "autocratic" ] ]
+    Identity |< Iy            `adj`     {- OuwtuwqrATiy~ -}    [ "autocratic" ] ]
 
  |> "'uwwayl" <| [
 
@@ -16464,7 +16452,7 @@ lexicon = listing "Lexicon's properties"
     -- >wyl    >uway~il        N/ap    proton
     -- Awyl    >uway~il        N/ap    proton
 
-    Identity                  `noun`       {- Ouw~ayol -}       [ "proton" ] ]
+    Identity                  `noun`    {- Ouw~ayol -}         [ "proton" ] ]
 
  |> "'uwzayr" <| [
 
@@ -16472,7 +16460,7 @@ lexicon = listing "Lexicon's properties"
     -- >wzyrp  >uwzayorap      N0      Ouzera
     -- Awzyrp  >uwzayorap      N0      Ouzera
 
-    Identity |< aT            `noun`       {- Ouwzayorap -}     [ "Ouzera" ] ]
+    Identity |< aT            `noun`    {- Ouwzayorap -}       [ "Ouzera" ] ]
 
  |> "'uwzbakistAn" <| [
 
@@ -16480,7 +16468,7 @@ lexicon = listing "Lexicon's properties"
     -- >wzbkstAn       >uwzbakisotAn   Nprop   Uzbekistan
     -- AwzbkstAn       >uwzbakisotAn   Nprop   Uzbekistan
 
-    Identity                  `noun`       {- OuwzbakisotAn -}  [ "Uzbekistan" ] ]
+    Identity                  `noun`    {- OuwzbakisotAn -}    [ "Uzbekistan" ] ]
 
  |> "'uwzbakistAniyy" <| [
 
@@ -16490,7 +16478,7 @@ lexicon = listing "Lexicon's properties"
     -- AwzbkstAny      >uwzbakisotAniy~        Nall    Uzbekistani     [[>uwzbakisotAniy~/NOUN]]
     -- AwzbkstAny      >uwzbakisotAniy~        Nall    Uzbekistani     [[>uwzbakisotAniy~/ADJ]]
 
-    Identity                  `adj`        {- OuwzbakisotAniy~ -} [ "Uzbekistani" ] ]
+    Identity                  `adj`     {- OuwzbakisotAniy~ -} [ "Uzbekistani" ] ]
 
  |> "'uwziyriys" <| [
 
@@ -16498,7 +16486,7 @@ lexicon = listing "Lexicon's properties"
     -- >wzyrys >uwziyriys      N0      Osiris
     -- Awzyrys >uwziyriys      N0      Osiris
 
-    Identity                  `noun`       {- Ouwziyriys -}     [ "Osiris" ] ]
+    Identity                  `noun`    {- Ouwziyriys -}       [ "Osiris" ] ]
 
  |> "'uzbakiyy" <| [
 
@@ -16512,7 +16500,7 @@ lexicon = listing "Lexicon's properties"
     -- Awzbky  >uwzobakiy~     Nall    Uzbek     [[>uwzobakiy~/NOUN]]
     -- Awzbky  >uwzobakiy~     Nall    Uzbek     [[>uwzobakiy~/ADJ]]
 
-    Identity                  `adj`        {- Ouzobakiy~ -}     [ "Uzbek" ] ]
+    Identity                  `adj`     {- Ouzobakiy~ -}       [ "Uzbek" ] ]
 
  |> "'wyyn" <| [
 
@@ -16520,70 +16508,70 @@ lexicon = listing "Lexicon's properties"
     -- >wyyn   >uwyiyn N0      Oiyn
     -- Awyyn   >uwyiyn N0      Oiyn
 
-    Identity                  `noun`       {- Owyyn -}          [ "Oiyn" ] ]
+    Identity                  `noun`    {- Owyyn -}            [ "Oiyn" ] ]
 
  |> "A.gbwh" <| [
 
     -- ;; Agbwh_1
     -- Agbwh   Agbwh   Nprop   Aghbou
 
-    Identity                  `noun`       {- Agbwh -}          [ "Aghbou" ] ]
+    Identity                  `noun`    {- Agbwh -}            [ "Aghbou" ] ]
 
  |> "AhwrA" <| [
 
     -- ;; AhwrA_1
     -- AhwrA   AhwrA   Nprop   Ahora
 
-    Identity                  `noun`       {- AhwrA -}          [ "Ahora" ] ]
+    Identity                  `noun`    {- AhwrA -}            [ "Ahora" ] ]
 
  |> "AswmA" <| [
 
     -- ;; AswmA_1
     -- AswmA   AswmA   Nprop   Asuma
 
-    Identity                  `noun`       {- AswmA -}          [ "Asuma" ] ]
+    Identity                  `noun`    {- AswmA -}            [ "Asuma" ] ]
 
  |> "AtAl" <| [
 
     -- ;; AtAl_1
     -- AtAl    AtAl    Nprop   Atal
 
-    Identity                  `noun`       {- AtAl -}           [ "Atal" ] ]
+    Identity                  `noun`    {- AtAl -}             [ "Atal" ] ]
 
  |> "AwkAs" <| [
 
     -- ;; AwkAs_1
     -- AwkAs   AwkAs   Nprop   Oukas;Aukas ??
 
-    Identity                  `noun`       {- AwkAs -}          [ "Oukas", "Aukas ??" ] ]
+    Identity                  `noun`    {- AwkAs -}            [ "Oukas", "Aukas ??" ] ]
 
  |> "AwmAzA" <| [
 
     -- ;; AwmAzA_1
     -- AwmAzA  AwmAzA  Nprop   Omaza;Oumasa ??
 
-    Identity                  `noun`       {- AwmAzA -}         [ "Omaza", "Oumasa ??" ] ]
+    Identity                  `noun`    {- AwmAzA -}           [ "Omaza", "Oumasa ??" ] ]
 
  |> "Awn.gtrAkwl" <| [
 
     -- ;; AwngtrAkwl_1
     -- AwngtrAkwl      AwngtrAkwl      Nprop   Ongtrakul
 
-    Identity                  `noun`       {- AwngtrAkwl -}     [ "Ongtrakul" ] ]
+    Identity                  `noun`    {- AwngtrAkwl -}       [ "Ongtrakul" ] ]
 
  |> "Aysyfw" <| [
 
     -- ;; Aysyfw_1
     -- Aysyfw  Aysyfw  Nprop   Isifu ??
 
-    Identity                  `noun`       {- Aysyfw -}         [ "Isifu ??" ] ]
+    Identity                  `noun`    {- Aysyfw -}           [ "Isifu ??" ] ]
 
  |> "Ayt^sybyryA" <| [
 
     -- ;; Ayt$ybyryA_1
     -- Ayt$ybyryA      Ayt$ybyryA      N0      Echeverria
 
-    Identity                  `noun`       {- Ayt$ybyryA -}     [ "Echeverria" ] ]
+    Identity                  `noun`    {- Ayt$ybyryA -}       [ "Echeverria" ] ]
 
  |> "_huway" <| [
 
@@ -16591,7 +16579,7 @@ lexicon = listing "Lexicon's properties"
     -- xwy     xuway   N0_Nh   little brother
     -- xwy     xuway~a FW-WaBi little brother + my      [[xuway~/NOUN+iy/POSS_PRON_1S]]
 
-    Identity                  `noun`       {- xuway -}          [ "little brother", "little brother + my" ] ]
+    Identity                  `noun`    {- xuway -}            [ "little brother", "little brother + my" ] ]
 
  |> "bi'an" <| [
 
@@ -16599,7 +16587,7 @@ lexicon = listing "Lexicon's properties"
     -- b>n     bi>an   FW-Wa   with + that          [[bi/PREP+>an/FUNC_WORD]]
     -- bAn     bi>an   FW-Wa   with + that          [[bi/PREP+>an/FUNC_WORD]]
 
-    Identity                  `noun`       {- biOan -}          [ "with + that" ] ]
+    Identity                  `noun`    {- biOan -}            [ "with + that" ] ]
 
  |> "bi'anna" <| [
 
@@ -16611,7 +16599,7 @@ lexicon = listing "Lexicon's properties"
     -- b>n     bi>an~  FW-Wa-n~        with + that     [[bi/PREP+>an~/FUNC_WORD]]
     -- bAn     bi>an~  FW-Wa-n~        with + that     [[bi/PREP+>an~/FUNC_WORD]]
 
-    Identity                  `noun`       {- biOan~a -}        [ "with + that" ] ]
+    Identity                  `noun`    {- biOan~a -}          [ "with + that" ] ]
 
  |> "bi'asri" <| [
 
@@ -16619,7 +16607,7 @@ lexicon = listing "Lexicon's properties"
     -- b>sr    bi>asori        FW-Wa-i completely;all of     [[bi>asori/ADV]]
     -- bAsr    bi>asori        FW-Wa-i completely;all of     [[bi>asori/ADV]]
 
-    Identity                  `noun`       {- biOasori -}       [ "completely", "all of" ] ]
+    Identity                  `noun`    {- biOasori -}         [ "completely", "all of" ] ]
 
  |> "biAlta'kiyd" <| [
 
@@ -16627,7 +16615,7 @@ lexicon = listing "Lexicon's properties"
     -- bAlt>kyd        biAlta>okiyd    FW-Wa   certainly;undoubtedly  [[biAlta>okiyd/ADV]]
     -- bAltAkyd        biAlta>okiyd    FW-Wa   certainly;undoubtedly  [[biAlta>okiyd/ADV]]
 
-    Identity                  `noun`       {- biAltaOokiyd -}   [ "certainly", "undoubtedly" ] ]
+    Identity                  `noun`    {- biAltaOokiyd -}     [ "certainly", "undoubtedly" ] ]
 
  |> "ibn" <| [
 
@@ -16635,19 +16623,19 @@ lexicon = listing "Lexicon's properties"
     -- <bn     {ibon   Ndu     son
     -- Abn     {ibon   Ndu     son
 
-    Identity                  `noun`       {- Aibon -}          [ "son" ],
+    Identity                  `noun`    {- Aibon -}            [ "son" ],
 
     -- ;; {ibon_2
     -- <bn     {ibon   Nprop   Ibn
     -- Abn     {ibon   Nprop   Ibn
 
-    Identity                  `noun`       {- Aibon -}          [ "Ibn" ],
+    Identity                  `noun`    {- Aibon -}            [ "Ibn" ],
 
     -- ;; {ibonap_1
     -- <bn     {ibon   Napdu   daughter
     -- Abn     {ibon   Napdu   daughter
 
-    Identity |< aT            `noun`       {- Aibonap -}        [ "daughter" ] ]
+    Identity |< aT            `noun`    {- Aibonap -}          [ "daughter" ] ]
 
  |> "ist" <| [
 
@@ -16655,13 +16643,13 @@ lexicon = listing "Lexicon's properties"
     -- <st     {isot   Ndu     anus
     -- Ast     {isot   Ndu     anus
 
-    Identity                  `noun`       {- Aisot -}          [ "anus" ],
+    Identity                  `noun`    {- Aisot -}            [ "anus" ],
 
     -- ;; {isotiy~_1
     -- <sty    {isotiy~        Nall    anal     [[{isotiy~/ADJ]]
     -- Asty    {isotiy~        Nall    anal     [[{isotiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- Aisotiy~ -}       [ "anal" ] ]
+    Identity |< Iy            `adj`     {- Aisotiy~ -}         [ "anal" ] ]
 
  |> "itta_ha_d" <| [
 
@@ -16670,7 +16658,7 @@ lexicon = listing "Lexicon's properties"
     -- Atx*    {it~axa*        PV      take;adopt
     -- tx*     t~axi*  IV      take;adopt
 
-    Identity                  `verb`       {- Ait~axa* -}       [ "take", "adopt" ] ]
+    Identity                  `verb`    {- Ait~axa* -}         [ "take", "adopt" ] ]
 
  |> "itti_hA_d" <| [
 
@@ -16678,7 +16666,7 @@ lexicon = listing "Lexicon's properties"
     -- <txA*   {it~ixA*        NduAt   taking;adoption
     -- AtxA*   {it~ixA*        NduAt   taking;adoption
 
-    Identity                  `noun`       {- Ait~ixA* -}       [ "taking", "adoption" ] ]
+    Identity                  `noun`    {- Ait~ixA* -}         [ "taking", "adoption" ] ]
 
  |> "ka'anna" <| [
 
@@ -16687,7 +16675,7 @@ lexicon = listing "Lexicon's properties"
     -- k>n     ka>an~a FW-Wa-n~a       as if     [[ka>an~a/CONJ]]
     -- k>n     ka>an~  FW-Wa-n~        as if     [[ka>an~/CONJ]]
 
-    Identity                  `noun`       {- kaOan~a -}        [ "as if" ] ]
+    Identity                  `noun`    {- kaOan~a -}          [ "as if" ] ]
 
  |> "ka'annamA" <| [
 
@@ -16695,14 +16683,14 @@ lexicon = listing "Lexicon's properties"
     -- k>nmA   ka>an~amA       FW-Wa   as if     [[ka>an~amA/CONJ]]
     -- kAnmA   ka>an~amA       FW-Wa   as if     [[ka>an~amA/CONJ]]
 
-    Identity                  `noun`       {- kaOan~amA -}      [ "as if" ] ]
+    Identity                  `noun`    {- kaOan~amA -}        [ "as if" ] ]
 
  |> "la'inna" <| [
 
     -- ;; la}in~a_1
     -- l}n     la}in~a FW-Wa   truly;indeed     [[la}in~a/FUNC_WORD]]
 
-    Identity                  `noun`       {- la}in~a -}        [ "truly", "indeed" ] ]
+    Identity                  `noun`    {- la}in~a -}          [ "truly", "indeed" ] ]
 
  |> "la_diy" <| [
 
@@ -16720,14 +16708,14 @@ lexicon = listing "Lexicon's properties"
     -- AllwAty All~awAtiy      FW-Wa   who;whom                    [[All~awAtiy/REL_PRON]]
     -- AlltyA  All~utay~A      FW-Wa   who's and whom's            [[All~utay~A/REL_PRON]]
 
-    al >| Identity            `noun`       {- Al~a*iy -}        [ "which", "who", "whom", "which/who/whom [fem.sg.]", "which/who/whom [du.]", "which/who/whom [fem.du.]", "who/whom [pl.]", "with/by + those (people) who/whom [pl.]", "to/for + those (people) who/whom [pl.]", "who/whom [fem.pl.]", "who's and whom's" ] ]
+    al >| Identity            `noun`    {- Al~a*iy -}          [ "which", "who", "whom", "which/who/whom [fem.sg.]", "which/who/whom [du.]", "which/who/whom [fem.du.]", "who/whom [pl.]", "with/by + those (people) who/whom [pl.]", "to/for + those (people) who/whom [pl.]", "who/whom [fem.pl.]", "who's and whom's" ] ]
 
  |> "li'allA" <| [
 
     -- ;; li}al~A_1
     -- l}lA    li}al~A FW-Wa   in order not to     [[li}al~A/CONJ]]
 
-    Identity                  `noun`       {- li}al~A -}        [ "in order not to" ] ]
+    Identity                  `noun`    {- li}al~A -}          [ "in order not to" ] ]
 
  |> "li'an" <| [
 
@@ -16735,7 +16723,7 @@ lexicon = listing "Lexicon's properties"
     -- l>n     li>an   FW-Wa   in order to    [[li>an/CONJ]]
     -- lAn     li>an   FW-Wa   in order to    [[li>an/CONJ]]
 
-    Identity                  `noun`       {- liOan -}          [ "in order to" ] ]
+    Identity                  `noun`    {- liOan -}            [ "in order to" ] ]
 
  |> "li'anna" <| [
 
@@ -16747,14 +16735,14 @@ lexicon = listing "Lexicon's properties"
     -- l>n     li>an~  FW-Wa-n~        because     [[li>an~/CONJ]]
     -- lAn     li>an~  FW-Wa-n~        because     [[li>an~/CONJ]]
 
-    Identity                  `noun`       {- liOan~a -}        [ "because" ] ]
+    Identity                  `noun`    {- liOan~a -}          [ "because" ] ]
 
  |> "ll_ahumma" <| [
 
     -- ;; All~`hum~a_1
     -- Allhm   All~`hum~a      FW-Wa   truly;certainly;oh God!;dear God
 
-    al >| Identity            `noun`       {- All~`hum~a -}     [ "truly", "certainly", "oh God!", "dear God" ] ]
+    al >| Identity            `noun`    {- All~`hum~a -}       [ "truly", "certainly", "oh God!", "dear God" ] ]
 
  |> "llah" <| [
 
@@ -16763,7 +16751,7 @@ lexicon = listing "Lexicon's properties"
     -- llh     lil~`hi FW-Wa   to/for God/Allah    [[li/PREP+All~`h/NOUN_PROP]]
     -- bAllh   biAll~`hi       FW-Wa   by God/Allah        [[bi/PREP+All~`h/NOUN_PROP]]
 
-    al >| Identity            `noun`       {- All~ah -}         [ "Allah", "God", "to/for God/Allah", "by God/Allah" ] ]
+    al >| Identity            `noun`    {- All~ah -}           [ "Allah", "God", "to/for God/Allah", "by God/Allah" ] ]
 
  |> "ma'dub" <| [
 
@@ -16772,21 +16760,21 @@ lexicon = listing "Lexicon's properties"
     -- mAdb    ma>odub Napdu   banquet;reception
     -- m|db    ma|dib  Ndip    banquets;receptions
 
-    Identity |< aT            `noun`       {- maOodubap -}      [ "banquet", "reception", "banquets", "receptions" ] ]
+    Identity |< aT            `noun`    {- maOodubap -}        [ "banquet", "reception", "banquets", "receptions" ] ]
 
  |> "mi'fAqiyy" <| [
 
     -- ;; mi}ofAqiy~_1
     -- m}fAqy  mi}ofAqiy~      N-ap    periscopic     [[mi}ofAqiy~/ADJ]]
 
-    Identity                  `adj`        {- mi}ofAqiy~ -}     [ "periscopic" ] ]
+    Identity                  `adj`     {- mi}ofAqiy~ -}       [ "periscopic" ] ]
 
  |> "mutta_ha_d" <| [
 
     -- ;; mut~axa*_1
     -- mtx*    mut~axa*        N-ap    taken;adopted
 
-    Identity                  `noun`       {- mut~axa* -}       [ "taken", "adopted" ] ]
+    Identity                  `noun`    {- mut~axa* -}         [ "taken", "adopted" ] ]
 
  |> "muwAtiy" <| [
 
@@ -16797,19 +16785,19 @@ lexicon = listing "Lexicon's properties"
     -- mwAt    muwAt   Nuwn_Niyn       pleasing;suitable
     -- mwAty   muwAtiy NapAt   pleasing;suitable
 
-    Identity                  `noun`       {- muwAtiy -}        [ "pleasing", "suitable" ] ]
+    Identity                  `noun`    {- muwAtiy -}          [ "pleasing", "suitable" ] ]
 
  |> "riy.hAwiyy" <| [
 
     -- ;; riyHAwiy~_1
     -- ryHAwy  riyHAwiy~       Nall    from/of Jericho     [[riyHAwiy~/ADJ]]
 
-    Identity                  `adj`        {- riyHAwiy~ -}      [ "from/of Jericho" ],
+    Identity                  `adj`     {- riyHAwiy~ -}        [ "from/of Jericho" ],
 
     -- ;; riyHAwiy~_2
     -- ryHAwy  riyHAwiy~       N0      Rihawi
 
-    Identity                  `noun`       {- riyHAwiy~ -}      [ "Rihawi" ] ]
+    Identity                  `noun`    {- riyHAwiy~ -}        [ "Rihawi" ] ]
 
  |> "tAriy_h" <| [
 
@@ -16817,33 +16805,33 @@ lexicon = listing "Lexicon's properties"
     -- tAryx   tAriyx  Ndu     date;history
     -- twAryx  tawAriyx        Ndip    dates;histories
 
-    Identity                  `noun`       {- tAriyx -}         [ "date", "history", "dates", "histories" ],
+    Identity                  `noun`    {- tAriyx -}           [ "date", "history", "dates", "histories" ],
 
     -- ;; tAriyxiy~_1
     -- tAryxy  tAriyxiy~       Nall    historical     [[tAriyxiy~/ADJ]]
 
-    Identity |< Iy            `adj`        {- tAriyxiy~ -}      [ "historical" ] ]
+    Identity |< Iy            `adj`     {- tAriyxiy~ -}        [ "historical" ] ]
 
  |> "ta'A.suliyy" <| [
 
     -- ;; ta|Suliy~_1
     -- t|Sly   ta|Suliy~       Nall    allotropic     [[ta|Suliy~/ADJ]]
 
-    Identity                  `adj`        {- ta|Suliy~ -}      [ "allotropic" ] ]
+    Identity                  `adj`     {- ta|Suliy~ -}        [ "allotropic" ] ]
 
  |> "ta'Aliyf" <| [
 
     -- ;; ta|liyf_1
     -- t|lyf   ta|liyf Ndip    publications
 
-    Identity                  `noun`       {- ta|liyf -}        [ "publications" ] ]
+    Identity                  `noun`    {- ta|liyf -}          [ "publications" ] ]
 
  |> "ta'^siyriyy" <| [
 
     -- ;; ta>o$iyriy~_1
     -- t>$yry  ta>o$iyriy~     N-ap    visa     [[ta>o$iyriy~/ADJ]]
 
-    Identity                  `adj`        {- taOo$iyriy~ -}    [ "visa" ] ]
+    Identity                  `adj`     {- taOo$iyriy~ -}      [ "visa" ] ]
 
  |> "ta'an^glaz" <| [
 
@@ -16851,7 +16839,7 @@ lexicon = listing "Lexicon's properties"
     -- t>njlz  ta>anojlaz      PV_intr be Anglicized
     -- t>njlz  ta>anojlaz      IV_intr be Anglicized
 
-    Identity                  `verb`       {- taOanojlaz -}     [ "be Anglicized" ] ]
+    Identity                  `verb`    {- taOanojlaz -}       [ "be Anglicized" ] ]
 
  |> "ta'anklaz" <| [
 
@@ -16859,7 +16847,7 @@ lexicon = listing "Lexicon's properties"
     -- t>nklz  ta>anoklaz      PV_intr be Anglicized
     -- t>nklz  ta>anoklaz      IV_intr be Anglicized
 
-    Identity                  `verb`       {- taOanoklaz -}     [ "be Anglicized" ] ]
+    Identity                  `verb`    {- taOanoklaz -}       [ "be Anglicized" ] ]
 
  |> "ta'anqlaz" <| [
 
@@ -16867,21 +16855,21 @@ lexicon = listing "Lexicon's properties"
     -- t>nqlz  ta>anoqlaz      PV_intr be Anglicized
     -- t>nqlz  ta>anoqlaz      IV_intr be Anglicized
 
-    Identity                  `verb`       {- taOanoqlaz -}     [ "be Anglicized" ] ]
+    Identity                  `verb`    {- taOanoqlaz -}       [ "be Anglicized" ] ]
 
  |> "ta'kiydiyy" <| [
 
     -- ;; ta>okiydiy~_1
     -- t>kydy  ta>okiydiy~     Nall    affirmative;confirmatory     [[ta>okiydiy~/ADJ]]
 
-    Identity                  `adj`        {- taOokiydiy~ -}    [ "affirmative", "confirmatory" ] ]
+    Identity                  `adj`     {- taOokiydiy~ -}      [ "affirmative", "confirmatory" ] ]
 
  |> "ta'nAn" <| [
 
     -- ;; ta>onAn_1
     -- t>nAn   ta>onAn N       moaning;sighing
 
-    Identity                  `noun`       {- taOonAn -}        [ "moaning", "sighing" ] ]
+    Identity                  `noun`    {- taOonAn -}          [ "moaning", "sighing" ] ]
 
  |> "uttu_hi_d" <| [
 
@@ -16891,14 +16879,14 @@ lexicon = listing "Lexicon's properties"
     -- <tx*    {ut~uxi*        PV_Pass be taken;be adopted
     -- tx*     t~axa*  IV_Pass_yu      be taken;be adopted
 
-    Identity                  `verb`       {- Aut~uxi* -}       [ "be taken", "be adopted" ] ]
+    Identity                  `verb`    {- Aut~uxi* -}         [ "be taken", "be adopted" ] ]
 
  |> "uwnduw" <| [
 
     -- ;; Auwnoduw_1
     -- Awndw   Auwnoduw        Nprop   Ondo
 
-    Identity                  `noun`       {- Auwnoduw -}       [ "Ondo" ] ]
+    Identity                  `noun`    {- Auwnoduw -}         [ "Ondo" ] ]
 
  |> "wAtY" <| [
 
@@ -16912,7 +16900,7 @@ lexicon = listing "Lexicon's properties"
     -- wAtY    wAtaY   IV_0_Pass_yu    be favorable;be satisfying
     -- wAty    wAtay   IV_Ann_Pass_yu  be favorable;be satisfying
 
-    Identity                  `verb`       {- wAtaY -}          [ "be favorable", "be satisfying" ] ]
+    Identity                  `verb`    {- wAtaY -}            [ "be favorable", "be satisfying" ] ]
 
  |> "wa'in" <| [
 
@@ -16921,14 +16909,14 @@ lexicon = listing "Lexicon's properties"
     -- wAn     wa<in   FW      even if          [[wa<in/CONJ]]
     -- w>n     wa<in   FW      even if          [[wa<in/CONJ]]
 
-    Identity                  `noun`       {- waIin -}          [ "even if" ] ]
+    Identity                  `noun`    {- waIin -}            [ "even if" ] ]
 
  |> "wst" <| [
 
     -- ;; Alwst_1
     -- Alwst   Alwst   Nprop   Aalst
 
-    al >| Identity            `noun`       {- Alwst -}          [ "Aalst" ] ]
+    al >| Identity            `noun`    {- Alwst -}            [ "Aalst" ] ]
 
  |> "yA'ayyuhA" <| [
 
@@ -16938,7 +16926,7 @@ lexicon = listing "Lexicon's properties"
     -- yA>ythA yA>ay~atuhA     FW-Wa   O! [voc.fem.]      [[yA/INTERJ+>ay~atuhA/FUNC_WORD]]
     -- yAAythA yA>ay~atuhA     FW-Wa   O! [voc.fem.]      [[yA/INTERJ+>ay~atuhA/FUNC_WORD]]
 
-    Identity                  `noun`       {- yAOay~uhA -}      [ "O! [voc.masc.]", "O! [voc.fem.]" ] ]
+    Identity                  `noun`    {- yAOay~uhA -}        [ "O! [voc.masc.]", "O! [voc.fem.]" ] ]
 
  |> "yAlll_ah" <| [
 
@@ -16946,5 +16934,5 @@ lexicon = listing "Lexicon's properties"
     -- yAllh   yAll~`h FW-Wa   let's go!     [[yAll~`h/INTERJ]]
     -- yAllh   yAll~`h FW-Wa   oh God!       [[yAll~`h/INTERJ]]
 
-    Identity                  `noun`       {- yAll~`h -}        [ "let's go!", "oh God!" ] ]
+    Identity                  `noun`    {- yAll~`h -}          [ "let's go!", "oh God!" ] ]
 

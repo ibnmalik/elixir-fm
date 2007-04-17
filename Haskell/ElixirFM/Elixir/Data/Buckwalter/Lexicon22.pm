@@ -22002,11 +22002,9 @@ $Lexicon = {
     {
       'types' => {
         'kuwn' => {
-          'IV_V' => 1,
-          'CV_V' => 1
+          'IV_V' => 1
         },
         'kun' => {
-          'CV_C' => 1,
           'PV_Cn' => 1,
           'IV-n' => 1
         },
@@ -22019,9 +22017,7 @@ $Lexicon = {
         'kAn     kAn     PV_V    was;were',
         'kn      kun     PV_Cn   was;were',
         'kwn     kuwn    IV_V    is;are',
-        'kn      kun     IV-n    is;are',
-        'kn      kun     CV_C    be',
-        'kwn     kuwn    CV_V    be'
+        'kn      kun     IV-n    is;are'
       ],
       'patterns' => {
         'kuwn' => [
@@ -22039,8 +22035,7 @@ $Lexicon = {
         'was',
         'were',
         'is',
-        'are',
-        'be'
+        'are'
       ],
       'suffix' => '',
       'imperf' => [

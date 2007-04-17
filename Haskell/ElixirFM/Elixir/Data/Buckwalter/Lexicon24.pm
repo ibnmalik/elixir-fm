@@ -44807,9 +44807,6 @@ $Lexicon = {
         'msuk' => {
           'IV' => 1
         },
-        '\'imsik' => {
-          'CV' => 2
-        },
         'msak' => {
           'IV_Pass_yu' => 1
         }
@@ -44818,12 +44815,10 @@ $Lexicon = {
       'form' => 'masak',
       'lines' => [
         ';; masak-u_1',
-        'msk     masak   PV      seize;hold',
-        'msk     mosuk   IV      seize;hold',
-        'msk     mosik   IV      seize;hold',
-        'msk     mosak   IV_Pass_yu      be seized;be held',
-        '<msk    <imosik CV      hold;seize;catch;grab',
-        'Amsk    <imosik CV      hold;seize;catch;grab'
+        'msk     masak   PV      seize;hold;catch;grab',
+        'msk     mosuk   IV      seize;hold;catch;grab',
+        'msk     mosik   IV      seize;hold;catch;grab',
+        'msk     mosak   IV_Pass_yu      be seized;be held'
       ],
       'patterns' => {
         'msuk' => [
@@ -44842,10 +44837,10 @@ $Lexicon = {
       'glosses' => [
         'seize',
         'hold',
-        'be seized',
-        'be held',
         'catch',
-        'grab'
+        'grab',
+        'be seized',
+        'be held'
       ],
       'suffix' => '',
       'imperf' => [

@@ -498,9 +498,6 @@ $Lexicon = {
   't r k' => [
     {
       'types' => {
-        'utruk' => {
-          'CV' => 2
-        },
         'tarak' => {},
         'truk' => {
           'IV' => 1
@@ -511,9 +508,7 @@ $Lexicon = {
       'lines' => [
         ';; tarak-u_1',
         'trk     tarak   PV      leave;quit',
-        'trk     toruk   IV      leave;quit',
-        '>trk    {utoruk CV      leave;quit',
-        'Atrk    {utoruk CV      leave;quit'
+        'trk     toruk   IV      leave;quit'
       ],
       'patterns' => {
         'truk' => [

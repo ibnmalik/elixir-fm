@@ -4762,8 +4762,8 @@ nTnT    naToniT IV_yu   hop up and down;skip
 ;; naZar-u_1
 nZr     naZar   PV      look;observe;see
 nZr     noZur   IV      look;observe;see
->nZr    >unoZur CV      look!;see!
-AnZr    >unoZur CV      look!;see!
+; >nZr    >unoZur CV      look!;see!
+; AnZr    >unoZur CV      look!;see!
 ;; nAZar_1
 nAZr    nAZar   PV      equalize
 nAZr    nAZir   IV_yu   equalize

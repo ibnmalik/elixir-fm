@@ -6017,7 +6017,7 @@ El      Eol     IV_0hwnyn_yu    raise
 ElY     EolaY   IV_0_Pass_yu    be raised
 Ely     Eolay   IV_Ann_Pass_yu  be raised
 ;; taEAlaY_1
-tEAlY   taEAlaY PV_0    be raised;be exalted
+tEAlY   taEAlaY PV_0    be raised;be exalted;come!
 tEAlA   taEAlA  PV_h    be raised;be exalted
 tEAly   taEAlay PV_Atn  be raised;be exalted
 tEAl    taEAl   PV_ttAw_intr    be raised;be exalted
@@ -6025,9 +6025,9 @@ tEAlY   taEAlaY IV_0    be raised;be exalted
 tEAlA   taEAlA  IV_h    be raised;be exalted
 tEAly   taEAlay IV_Ann  be raised;be exalted
 tEAl    taEAl   IV_0hwnyn       be raised;be exalted
-;; taEAlaY_2
-tEAlY   taEAlaY CV_C    come!;let's
-tEAl    taEAl   CV_V_intr       come!
+; ;; taEAlaY_2
+; tEAlY   taEAlaY CV_C    come!;let's
+; tEAl    taEAl   CV_V_intr       come!
 ;; {iEotalaY_1
 <EtlY   {iEotalaY       PV_0    rise;mount
 AEtlY   {iEotalaY       PV_0    rise;mount

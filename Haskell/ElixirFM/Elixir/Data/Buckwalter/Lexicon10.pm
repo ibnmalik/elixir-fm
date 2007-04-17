@@ -29398,10 +29398,7 @@ $Lexicon = {
         'rsil' => {
           'IV_yu' => 1
         },
-        '\'arsal' => {},
-        '\'arsil' => {
-          'CV' => 2
-        }
+        '\'arsal' => {}
       },
       'entry' => '\'arsal',
       'form' => '\'arsal',
@@ -29410,9 +29407,7 @@ $Lexicon = {
         '>rsl    >arosal PV      send;transmit',
         'Arsl    >arosal PV      send;transmit',
         'rsl     rosil   IV_yu   send;transmit',
-        'rsl     rosal   IV_Pass_yu      be sent;be transmitted',
-        '>rsl    >arosil CV      send;transmit',
-        'Arsl    >arosil CV      send;transmit'
+        'rsl     rosal   IV_Pass_yu      be sent;be transmitted'
       ],
       'patterns' => {
         'rsil' => [
@@ -29420,9 +29415,6 @@ $Lexicon = {
         ],
         'rsal' => [
           'FCaL'
-        ],
-        '\'arsil' => [
-          'HaFCiL'
         ]
       },
       'index' => '1',

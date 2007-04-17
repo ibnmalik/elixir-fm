@@ -17179,8 +17179,7 @@ $Lexicon = {
       'types' => {
         '^sAf' => {},
         '^suwf' => {
-          'IV_V' => 1,
-          'CV' => 1
+          'IV_V' => 1
         },
         '^suf' => {
           'PV_C' => 1,
@@ -17194,8 +17193,7 @@ $Lexicon = {
         '$Af     $Af     PV_V    look',
         '$f      $uf     PV_C    look',
         '$wf     $uwf    IV_V    look',
-        '$f      $uf     IV_C    look',
-        '$wf     $uwf    CV      look'
+        '$f      $uf     IV_C    look'
       ],
       'patterns' => {
         '^suwf' => [
@@ -46997,9 +46995,6 @@ $Lexicon = {
         '^sa.tab' => {},
         '^s.tub' => {
           'IV' => 1
-        },
-        '\'u^s.tub' => {
-          'CV' => 2
         }
       },
       'entry' => '^sa.tab',
@@ -47007,9 +47002,7 @@ $Lexicon = {
       'lines' => [
         ';; $aTab-u_1',
         '$Tb     $aTab   PV      cross out;efface',
-        '$Tb     $oTub   IV      cross out;efface',
-        '>$Tb    >u$oTub CV      cross out',
-        'A$Tb    >u$oTub CV      cross out'
+        '$Tb     $oTub   IV      cross out;efface'
       ],
       'patterns' => {
         '^s.tub' => [

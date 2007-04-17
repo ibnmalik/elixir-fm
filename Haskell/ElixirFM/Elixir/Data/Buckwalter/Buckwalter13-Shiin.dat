@@ -2312,8 +2312,8 @@ $T|n    $uTo|n  N       shores;coast;beach
 ;; $aTab-u_1
 $Tb     $aTab   PV      cross out;efface
 $Tb     $oTub   IV      cross out;efface
->$Tb    >u$oTub CV      cross out
-A$Tb    >u$oTub CV      cross out
+; >$Tb    >u$oTub CV      cross out
+; A$Tb    >u$oTub CV      cross out
 ;; $aT~ab_1
 $Tb     $aT~ab  PV      cross out;efface
 $Tb     $aT~ib  IV_yu   cross out;efface
@@ -4884,7 +4884,7 @@ $Af     $Af     PV_V    look
 $f      $uf     PV_C    look
 $wf     $uwf    IV_V    look
 $f      $uf     IV_C    look
-$wf     $uwf    CV      look
+; $wf     $uwf    CV      look
 ;; $aw~af_1
 $wf     $aw~af  PV      adorn
 $wf     $aw~if  IV_yu   adorn

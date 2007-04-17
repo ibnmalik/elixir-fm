@@ -65893,9 +65893,6 @@ $Lexicon = {
     {
       'types' => {
         'ba.ha_t' => {},
-        'ib.ha_t' => {
-          'CV' => 2
-        },
         'b.ha_t' => {
           'IV' => 1
         }
@@ -65905,9 +65902,7 @@ $Lexicon = {
       'lines' => [
         ';; baHav-a_1',
         'bHv     baHav   PV      discuss;search',
-        'bHv     boHav   IV      discuss;search',
-        '<bHv    {iboHav CV      search;discuss',
-        'AbHv    {iboHav CV      search;discuss'
+        'bHv     boHav   IV      discuss;search'
       ],
       'patterns' => {
         'b.ha_t' => [

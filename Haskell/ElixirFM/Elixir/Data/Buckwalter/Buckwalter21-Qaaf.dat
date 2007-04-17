@@ -6609,15 +6609,15 @@ qwqryAl quwquroyAl      Nprop   Gogorial (Gorgorial??)
 ;
 ;--- qwl
 ;; qAl-u_1
-qAl     qAl     PV_V    said
-ql      qul     PV_C    said
+qAl     qAl     PV_V    say
+ql      qul     PV_C    say
 qwl     quwl    IV_V    say
 ql      qul     IV_C    say
 qAl     qAl     IV_V_Pass_yu    be said
 qyl     qiyl    PV_V_Pass       be said
-ql      qul     CV_C    say
-qwl     quwl    CV_V    say
-ql      qul     FW-Wa   say (for example)
+; ql      qul     CV_C    say
+; qwl     quwl    CV_V    say
+; ql      qul     FW-Wa   say (for example)
 ;; qAwal_1
 qAwl    qAwal   PV      negotiate with;make a deal with
 qAwl    qAwil   IV_yu   negotiate with;make a deal with

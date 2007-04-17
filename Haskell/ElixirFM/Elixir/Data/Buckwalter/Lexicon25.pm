@@ -66321,9 +66321,6 @@ $Lexicon = {
   'n .z r' => [
     {
       'types' => {
-        '\'un.zur' => {
-          'CV' => 2
-        },
         'n.zur' => {
           'IV' => 1
         },
@@ -66334,9 +66331,7 @@ $Lexicon = {
       'lines' => [
         ';; naZar-u_1',
         'nZr     naZar   PV      look;observe;see',
-        'nZr     noZur   IV      look;observe;see',
-        '>nZr    >unoZur CV      look!;see!',
-        'AnZr    >unoZur CV      look!;see!'
+        'nZr     noZur   IV      look;observe;see'
       ],
       'patterns' => {
         'n.zur' => [
@@ -66349,9 +66344,7 @@ $Lexicon = {
       'glosses' => [
         'look',
         'observe',
-        'see',
-        'look!',
-        'see!'
+        'see'
       ],
       'suffix' => '',
       'imperf' => [

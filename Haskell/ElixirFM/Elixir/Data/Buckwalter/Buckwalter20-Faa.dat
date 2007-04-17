@@ -245,8 +245,8 @@ ftH     fataH   PV      open;conquer
 ftH     fotaH   IV      open;conquer
 ftH     futiH   PV_Pass be opened;be conquered
 ftH     fotaH   IV_Pass_yu      be opened;be conquered
-AftH    {ifotaH CV      open
-<ftH    {ifotaH CV      open
+; AftH    {ifotaH CV      open
+; <ftH    {ifotaH CV      open
 ;; fAtaH_1
 fAtH    fAtaH   PV      disclose;be informed about
 fAtH    fAtiH   IV_yu   disclose;be informed about
@@ -860,10 +860,10 @@ mfH$    mufoHi$ NapAt   whore;harlot
 ;
 ;--- fHS
 ;; faHaS-a_1
-fHS     faHaS   PV      examine;scrutinize;investigate
-fHS     foHaS   IV      examine;scrutinize;investigate
-<fHS    <ifoHaS CV      search
-AfHS    <ifoHaS CV      search
+fHS     faHaS   PV      examine;scrutinize;investigate;search
+fHS     foHaS   IV      examine;scrutinize;investigate;search
+; <fHS    <ifoHaS CV      search
+; AfHS    <ifoHaS CV      search
 ;; tafaH~aS_1
 tfHS    tafaH~aS        PV      examine;scrutinize;inspect
 tfHS    tafaH~aS        IV      examine;scrutinize;inspect
@@ -3380,9 +3380,9 @@ AfDl    >afoDal PV      bestow
 fDl     foDil   IV_yu   bestow
 fDl     foDal   IV_Pass_yu      be bestown
 ;; tafaD~al_1
-tfDl    tafaD~al        PV      be kind enough to
-tfDl    tafaD~al        IV      be kind enough to
-tfDl    tafaD~al        CV      please;help yourself
+tfDl    tafaD~al        PV      be kind enough to;help oneself
+tfDl    tafaD~al        IV      be kind enough to;help oneself
+; tfDl    tafaD~al        CV      please;help yourself
 ;; faDolAF_1
 fDl     faDol   NF      in addition     <pos>faDol/ADV</pos>
 ;; faDol_1

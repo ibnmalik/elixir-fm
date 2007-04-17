@@ -1216,7 +1216,7 @@ twdyr   tawodiyr        NduAt   endangering;imperiling
 ;; wadaE-a_1
 wdE     wadaE   PV      let;allow
 dE      daE     IV      let;allow
-dE      daE     CV      let;allow
+; dE      daE     CV      let;allow
 ;; wad~aE_1
 wdE     wad~aE  PV      bid farewell
 wdE     wad~iE  IV_yu   bid farewell
@@ -2538,8 +2538,8 @@ twASl   tawASal IV_intr be interconnected
 <tSl    {it~aSal        PV_intr contact;get in touch (with)
 AtSl    {it~aSal        PV_intr contact;get in touch (with)
 tSl     t~aSil  IV_intr contact;get in touch (with)
-<tSl    {it~aSil        CV_intr contact;get in touch (with)
-AtSl    {it~aSil        CV_intr contact;get in touch (with)
+; <tSl    {it~aSil        CV_intr contact;get in touch (with)
+; AtSl    {it~aSil        CV_intr contact;get in touch (with)
 ;; {it~aSal_2
 <tSl    {it~aSal        PV_intr be connected or related (to)
 AtSl    {it~aSal        PV_intr be connected or related (to)

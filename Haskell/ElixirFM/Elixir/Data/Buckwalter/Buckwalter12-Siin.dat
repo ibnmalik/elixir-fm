@@ -2669,7 +2669,7 @@ sEd     soEad   IV_intr be happy;have the good fortune to
 ;; sAEad_1
 sAEd    sAEad   PV      help;assist;support;contribute
 sAEd    sAEid   IV_yu   help;assist;support;contribute
-sAEd    sAEid   CV      help;assist
+; sAEd    sAEid   CV      help;assist
 ;; >asoEad_1
 >sEd    >asoEad PV      make happy
 AsEd    >asoEad PV      make happy

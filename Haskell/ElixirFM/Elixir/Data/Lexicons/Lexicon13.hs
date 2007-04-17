@@ -11,2407 +11,1802 @@ lexicon = listing "Lexicon's properties"
 
  |> "'a^sudd" <| [
 
-    Identity                  `noun`       {- Oa$ud~ -}         [ "maturity", "climax" ] ]
+    Identity                  `noun`    {- Oa$ud~ -}           [ "maturity", "climax" ] ]
 
  |> "^s ' `" <| [
 
-    FACiL                     `adj`        {- \$A}iE -}         [ "widespread", "well-known" ] ]
+    FACiL                     `adj`     {- \$A}iE -}           [ "widespread", "well-known" ] ]
 
  |> "^s ' b" <| [
 
-    FACiL |< aT               `noun`       {- \$A}ibap -}       [ "defect", "impurity", "defects", "impurities" ]
+    FACiL |< aT               `noun`    {- \$A}ibap -}         [ "defect", "impurity", "defects", "impurities" ]
                               `plural`     FawACiL
                               `plural`     FawA'iL
-                              {- `others` [ "^sawA'ib Ndip" ] -},
-
-    FACiL                     `adj`        {- \$A}ib -}         [ "gray-haired", "old" ] ]
+                           {- `others`  [ "^sawA'ib Ndip" ] -} ]
 
  |> "^s ' f" <| [
 
-    FaCL |< aT                `noun`       {- \$aOofap -}       [ "root" ] ]
+    FaCL |< aT                `noun`    {- \$aOofap -}         [ "root" ] ]
 
  |> "^s ' h" <| [
 
-    FAL                       `noun`       {- \$Ah -}           [ "Shah" ] ]
+    FAL                       `noun`    {- \$Ah -}             [ "Shah" ] ]
 
  |> "^s ' k" <| [
 
-    FACiL                     `adj`        {- \$A}ik -}         [ "barbed", "thorny", "prickly" ] ]
-
- |> "^s ' l" <| [
-
-    FAL                       `noun`       {- \$Al -}           [ "shawl", "shawls" ] ]
+    FACiL                     `adj`     {- \$A}ik -}           [ "barbed", "thorny", "prickly" ] ]
 
  |> "^s ' m" <| [
 
-    TaFACuL                   `noun`       {- ta$AWum -}        [ "pessimism" ],
+    TaFACuL                   `noun`    {- ta$AWum -}          [ "pessimism" ],
 
-    MutaFACiL                 `adj`        {- muta$A}im -}      [ "pessimistic" ],
+    MutaFACiL                 `adj`     {- muta$A}im -}        [ "pessimistic" ],
 
-    FAL                       `noun`       {- \$Am -}           [ "Syria" ]
+    FAL                       `noun`    {- \$Am -}             [ "Syria" ]
                               `plural`     FaCL
-                              {- `others` [ "^sa'm N0" ] -},
+                           {- `others`  [ "^sa'm N0" ] -},
 
-    FAL |< Iy                 `adj`        {- \$Amiy~ -}        [ "Syrian", "Syrians" ] ]
+    FAL |< Iy                 `adj`     {- \$Amiy~ -}          [ "Syrian", "Syrians" ] ]
 
  |> "^s ' n" <| [
 
-    FaCL                      `noun`       {- \$aOon -}         [ "matter", "affair", "affairs", "matters", "concerning", "regarding" ]
+    FaCL                      `noun`    {- \$aOon -}           [ "matter", "affair", "affairs", "matters", "concerning", "regarding" ]
                               `plural`     FuCUL
-                              {- `others` [ "^su'uwn N" ] -},
+                           {- `others`  [ "^su'uwn N" ] -},
 
-    FACiL                     `adj`        {- \$A}in -}         [ "disgraceful" ] ]
+    FACiL                     `adj`     {- \$A}in -}           [ "disgraceful" ] ]
 
  |> "^s ' s" <| [
 
-    FAL                       `noun`       {- \$As -}           [ "Shas" ] ]
-
- |> "^s ' w" <| [
-
-    FaCaL                     `verb`       {- \$aOaw-u -}       [ "outrace", "overtake", "be outraced", "be overtaken" ]
-                              `imperf`     FCuL
-                              `imperf`     FCU ]
+    FAL                       `noun`    {- \$As -}             [ "Shas" ] ]
 
  |> "^s ' y" <| [
 
-    FAL                       `noun`       {- \$Ay -}           [ "tea" ] ]
+    FAL                       `noun`    {- \$Ay -}             [ "tea" ] ]
 
  |> "^s .g b" <| [
 
-    FaCaL                     `verb`       {- \$agab-a -}       [ "provoke dissent", "stir up trouble" ]
+    FaCaL                     `verb`    {- \$agab-a -}         [ "provoke dissent", "stir up trouble" ]
                               `imperf`     FCaL,
 
-    FaCaL                     `noun`       {- \$agab -}         [ "unrest", "disturbance" ],
+    FaCaL                     `noun`    {- \$agab -}           [ "unrest", "disturbance" ],
 
-    FaCiL                     `noun`       {- \$agib -}         [ "troublemaker", "agitator" ] ]
+    FaCiL                     `noun`    {- \$agib -}           [ "troublemaker", "agitator" ] ]
 
  |> "^s .g f" <| [
 
-    FaCaL                     `verb`       {- \$agaf-a -}       [ "infatuate", "be infatuated", "fall in love" ]
+    FaCaL                     `verb`    {- \$agaf-a -}         [ "infatuate", "be infatuated", "fall in love" ]
                               `imperf`     FCaL,
 
-    FaCaL                     `noun`       {- \$agaf -}         [ "passion", "zeal", "infatuation" ],
-
-    FaCiL                     `adj`        {- \$agif -}         [ "passionate", "zealous", "infatuated" ] ]
+    FaCaL                     `noun`    {- \$agaf -}           [ "passion", "zeal", "infatuation" ] ]
 
  |> "^s .g l" <| [
 
-    FaCaL                     `verb`       {- \$agal-a -}       [ "occupy", "preoccupy", "employ" ]
+    FaCaL                     `verb`    {- \$agal-a -}         [ "occupy", "preoccupy", "employ" ]
                               `imperf`     FCaL,
 
-    FaCCaL                    `verb`       {- \$ag~al -}        [ "employ", "operate" ],
+    FaCCaL                    `verb`    {- \$ag~al -}          [ "employ", "operate" ],
 
-    HaFCaL                    `verb`       {- Oa$ogal -}        [ "occupy", "distract", "be occupied", "be distracted" ],
+    HaFCaL                    `verb`    {- Oa$ogal -}          [ "occupy", "distract", "be occupied", "be distracted" ],
 
-    InFaCaL                   `verb`       {- Aino$agal -}      [ "keep busy", "be occupied" ],
+    InFaCaL                   `verb`    {- Aino$agal -}        [ "keep busy", "be occupied" ],
 
-    IFtaCaL                   `verb`       {- Ai$otagal -}      [ "work", "operate" ],
+    IFtaCaL                   `verb`    {- Ai$otagal -}        [ "work", "operate" ],
 
-    FuCL                      `noun`       {- \$ugol -}         [ "work", "activity", "occupation", "labor", "business" ]
+    FuCL                      `noun`    {- \$ugol -}           [ "work", "activity", "occupation", "labor", "business" ]
                               `plural`     HaFCAL
-                              {- `others` [ "'a^s.gAl N" ] -},
+                           {- `others`  [ "'a^s.gAl N" ] -},
 
-    MaFCaL                    `noun`       {- ma$ogal -}        [ "workshop", "workhouse", "workshops", "workhouses" ]
+    MaFCaL                    `noun`    {- ma$ogal -}          [ "workshop", "workhouse", "workshops", "workhouses" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma^sA.gil Ndip" ] -},
+                           {- `others`  [ "ma^sA.gil Ndip" ] -},
 
-    TaFCIL                    `noun`       {- ta$ogiyl -}       [ "operation", "activation", "employment", "hiring" ],
+    TaFCIL                    `noun`    {- ta$ogiyl -}         [ "operation", "activation", "employment", "hiring" ],
 
-    InFiCAL                   `noun`       {- Aino$igAl -}      [ "preoccupied", "busy", "occupation" ],
+    InFiCAL                   `noun`    {- Aino$igAl -}        [ "preoccupied", "busy", "occupation" ],
 
-    MaFCUL                    `adj`        {- ma$oguwl -}       [ "busy", "occupied" ],
+    MaFCUL                    `adj`     {- ma$oguwl -}         [ "busy", "occupied" ],
 
-    MuFaCCaL                  `noun`       {- mu$ag~al -}       [ "employee" ],
+    MuFaCCaL                  `noun`    {- mu$ag~al -}         [ "employee" ],
 
-    MuFaCCiL                  `noun`       {- mu$ag~il -}       [ "starter" ],
+    MuFaCCiL                  `noun`    {- mu$ag~il -}         [ "starter" ],
 
-    MunFaCiL                  `adj`        {- muno$agil -}      [ "busy", "occupied" ] ]
+    MunFaCiL                  `adj`     {- muno$agil -}        [ "busy", "occupied" ] ]
 
  |> "^s .g r" <| [
 
-    FACiL                     `adj`        {- \$Agir -}         [ "vacant", "unprotected", "vacancies" ]
+    FACiL                     `adj`     {- \$Agir -}           [ "vacant", "unprotected", "vacancies" ]
                               `plural`     FawACiL
-                              {- `others` [ "^sawA.gir Ndip" ] -} ]
+                           {- `others`  [ "^sawA.gir Ndip" ] -} ]
 
  |> "^s .h .h" <| [
 
-    FuCL                      `noun`       {- \$uH~ -}          [ "avarice", "greed", "paucity" ],
-
-    FaCIL                     `adj`        {- \$aHiyH -}        [ "meager", "sparse", "stingy" ]
+    FaCIL                     `adj`     {- \$aHiyH -}          [ "meager", "sparse", "stingy" ]
                               `plural`     FiCAL
-                              {- `others` [ "^si.hA.h N" ] -},
+                           {- `others`  [ "^si.hA.h N" ] -},
 
-    FaCL |< At                `noun`       {- \$aH~At -}        [ "beggar" ],
+    FaCL |< At                `noun`    {- \$aH~At -}          [ "beggar" ],
 
-    FaCL |< At |< aT          `noun`       {- \$aH~Atap -}      [ "Shahhata" ] ]
+    FaCL |< At |< aT          `noun`    {- \$aH~Atap -}        [ "Shahhata" ] ]
 
  |> "^s .h _d" <| [
 
-    FaCaL                     `verb`       {- \$aHa*-a -}       [ "beg" ]
+    FaCaL                     `verb`    {- \$aHa*-a -}         [ "beg" ]
                               `imperf`     FCaL ]
 
  |> "^s .h b" <| [
 
-    FACiL                     `adj`        {- \$AHib -}         [ "pale", "emaciated" ]
+    FACiL                     `adj`     {- \$AHib -}           [ "pale", "emaciated" ]
                               `plural`     FawACiL
-                              {- `others` [ "^sawA.hib Ndip" ] -} ]
+                           {- `others`  [ "^sawA.hib Ndip" ] -} ]
 
  |> "^s .h d" <| [
 
-    FaCAL |< aT               `noun`       {- \$aHAdap -}       [ "Shehadeh" ] ]
+    FaCAL |< aT               `noun`    {- \$aHAdap -}         [ "Shehadeh" ] ]
 
  |> "^s .h n" <| [
 
-    FaCaL                     `verb`       {- \$aHan-a -}       [ "ship", "freight", "load" ]
-                              `imperf`     FCaL,
+    FaCL                      `noun`    {- \$aHon -}           [ "transportation", "shipment", "freighting" ],
 
-    FACaL                     `verb`       {- \$AHan -}         [ "quarrel with" ],
-
-    FaCL                      `noun`       {- \$aHon -}         [ "transportation", "shipment", "freighting" ],
-
-    FaCL |< aT                `noun`       {- \$aHonap -}       [ "freight", "cargo", "charge", "cargos", "charges" ]
+    FaCL |< aT                `noun`    {- \$aHonap -}         [ "freight", "cargo", "charge", "cargos", "charges" ]
                               `plural`     FaCaL |< At,
 
-    MuFACaL |< aT             `noun`       {- mu$AHanap -}      [ "quarrel", "feud" ],
+    MuFACaL |< aT             `noun`    {- mu$AHanap -}        [ "quarrel", "feud" ],
 
-    FACiL                     `adj`        {- \$AHin -}         [ "loaded", "freighted" ],
-
-    FACiL |< aT               `noun`       {- \$AHinap -}       [ "truck", "lorry", "freight car", "trucks", "lorries", "freight cars" ]
+    FACiL |< aT               `noun`    {- \$AHinap -}         [ "truck", "lorry", "freight car", "trucks", "lorries", "freight cars" ]
                               `plural`     FACiL |< At ]
 
  |> "^s .t '" <| [
 
-    FACiL                     `noun`       {- \$ATi} -}         [ "shore", "coast", "beach", "shores" ]
+    FACiL                     `noun`    {- \$ATi} -}           [ "shore", "coast", "beach", "shores" ]
                               `plural`     FuCLAn
                               `plural`     FawACiL
-                              {- `others` [ "^su.t'An N", "^sawA.ti' Ndip" ] -} ]
+                           {- `others`  [ "^su.t'An N", "^sawA.ti' Ndip" ] -} ]
 
  |> "^s .t .h" <| [
 
-    FaCaL                     `verb`       {- \$aTaH-a -}       [ "roam", "rove" ]
+    FaCaL                     `verb`    {- \$aTaH-a -}         [ "roam", "rove" ]
                               `imperf`     FCaL ]
 
  |> "^s .t .t" <| [
 
-    FaCL                      `verb`       {- \$aT~-iu -}       [ "be excessive", "go too far" ]
-                              `imperf`     FuCL
-                              `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL
-                              `ithird`     FCuL,
+    FaCaL                     `noun`    {- \$aTaT -}           [ "excess", "deviation" ],
 
-    FaCL                      `noun`       {- \$aT~ -}          [ "shore", "bank", "shores", "banks" ]
-                              `plural`     FuCUL
-                              {- `others` [ "^su.tuw.t N" ] -},
-
-    FaCaL                     `noun`       {- \$aTaT -}         [ "excess", "deviation" ],
-
-    MuFiCL                    `adj`        {- mu$iT~ -}         [ "excessive" ] ]
+    MuFiCL                    `adj`     {- mu$iT~ -}           [ "excessive" ] ]
 
  |> "^s .t b" <| [
 
-    FaCaL                     `verb`       {- \$aTab-u -}       [ "cross out", "efface" ]
+    FaCaL                     `verb`    {- \$aTab-u -}         [ "cross out", "efface" ]
                               `imperf`     FCuL,
 
-    FaCCaL                    `verb`       {- \$aT~ab -}        [ "cross out", "efface" ],
+    FaCL                      `noun`    {- \$aTob -}           [ "crossing out", "effacement", "cancellation" ],
 
-    FaCL                      `noun`       {- \$aTob -}         [ "crossing out", "effacement", "cancellation" ],
-
-    FaCL                      `noun`       {- \$aTob -}         [ "robust", "tall" ]
+    FaCL                      `noun`    {- \$aTob -}           [ "robust", "tall" ]
                               `plural`     FuCUL
-                              {- `others` [ "^su.tuwb N" ] -} ]
-
- |> "^s .t n" <| [
-
-    FaCaL                     `verb`       {- \$aTan-u -}       [ "fasten", "attach" ]
-                              `imperf`     FCuL ]
+                           {- `others`  [ "^su.tuwb N" ] -} ]
 
  |> "^s .t r" <| [
 
-    FACaL                     `verb`       {- \$ATar -}         [ "participate", "share" ],
+    FaCL                      `noun`    {- \$aTor -}           [ "bisecting" ],
 
-    FaCL                      `noun`       {- \$aTor -}         [ "bisecting" ],
-
-    FaCL                      `noun`       {- \$aTor -}         [ "portion", "portions" ]
+    FaCL                      `noun`    {- \$aTor -}           [ "portion", "portions" ]
                               `plural`     FuCUL
-                              {- `others` [ "^su.tuwr N" ] -},
+                           {- `others`  [ "^su.tuwr N" ] -},
 
-    FiCL |< aT                `noun`       {- \$iTorap -}       [ "side", "half" ],
-
-    FACiL                     `adj`        {- \$ATir -}         [ "clever", "smart", "cute" ]
+    FACiL                     `adj`     {- \$ATir -}           [ "clever", "smart", "cute" ]
                               `plural`     FuCCAL
-                              {- `others` [ "^su.t.tAr N" ] -} ]
+                           {- `others`  [ "^su.t.tAr N" ] -} ]
 
  |> "^s .z y" <| [
 
-    TaFaCCY                   `verb`       {- ta$aZ~aY -}       [ "be splintered", "be shattered" ],
+    TaFaCCY                   `verb`    {- ta$aZ~aY -}         [ "be splintered", "be shattered" ],
 
-    FaCIL |< aT               `noun`       {- \$aZiy~ap -}      [ "splinter", "sliver", "splinters", "slivers", "smithereens" ] ]
+    FaCIL |< aT               `noun`    {- \$aZiy~ap -}        [ "splinter", "sliver", "splinters", "slivers", "smithereens" ] ]
 
  |> "^s ^g `" <| [
 
-    FaCuL                     `verb`       {- \$ajuE-u -}       [ "be brave" ]
-                              `imperf`     FCuL,
+    FaCCaL                    `verb`    {- \$aj~aE -}          [ "encourage", "promote", "support" ],
 
-    FaCCaL                    `verb`       {- \$aj~aE -}        [ "encourage", "promote", "support" ],
+    TaFaCCaL                  `verb`    {- ta$aj~aE -}         [ "be encouraged" ],
 
-    TaFaCCaL                  `verb`       {- ta$aj~aE -}       [ "be encouraged" ],
-
-    FuCAL                     `adj`        {- \$ujAE -}         [ "brave" ]
+    FuCAL                     `adj`     {- \$ujAE -}           [ "brave" ]
                               `plural`     FuCLAn
                               `plural`     FaCaL |< aT
-                              {- `others` [ "^su^g`An N" ] -},
+                           {- `others`  [ "^su^g`An N" ] -},
 
-    FuCAL                     `noun`       {- \$ujAE -}         [ "Hydra" ],
+    FuCAL                     `noun`    {- \$ujAE -}           [ "Hydra" ],
 
-    FaCAL |< aT               `noun`       {- \$ajAEap -}       [ "courage" ],
+    FaCAL |< aT               `noun`    {- \$ajAEap -}         [ "courage" ],
 
-    TaFCIL                    `noun`       {- ta$ojiyE -}       [ "encouragement", "promotion", "support" ],
+    TaFCIL                    `noun`    {- ta$ojiyE -}         [ "encouragement", "promotion", "support" ],
 
-    MuFaCCiL                  `adj`        {- mu$aj~iE -}       [ "supporter", "proponent", "encouraging" ] ]
+    MuFaCCiL                  `adj`     {- mu$aj~iE -}         [ "supporter", "proponent", "encouraging" ] ]
 
  |> "^s ^g b" <| [
 
-    FaCaL                     `verb`       {- \$ajab-u -}       [ "afflict", "condemn", "censure" ]
+    FaCaL                     `verb`    {- \$ajab-u -}         [ "afflict", "condemn", "censure" ]
                               `imperf`     FCuL,
 
-    FaCCaL                    `verb`       {- \$aj~ab -}        [ "condemn", "censure" ],
+    FaCCaL                    `verb`    {- \$aj~ab -}          [ "condemn", "censure" ],
 
-    FaCL                      `noun`       {- \$ajob -}         [ "destruction" ],
-
-    FaCaL                     `noun`       {- \$ajab -}         [ "condemnation", "denunciation", "censure" ] ]
+    FaCaL                     `noun`    {- \$ajab -}           [ "condemnation", "denunciation", "censure" ] ]
 
  |> "^s ^g n" <| [
 
-    FaCaL                     `verb`       {- \$ajan-u -}       [ "sadden", "distress" ]
+    FaCaL                     `verb`    {- \$ajan-u -}         [ "sadden", "distress" ]
                               `imperf`     FCuL,
 
-    FaCaL                     `noun`       {- \$ajan -}         [ "anxiety", "anxieties" ]
+    FaCaL                     `noun`    {- \$ajan -}           [ "anxiety", "anxieties" ]
                               `plural`     FuCUL
                               `plural`     HaFCAL
-                              {- `others` [ "^su^guwn N", "'a^s^gAn N" ] -},
+                           {- `others`  [ "^su^guwn N", "'a^s^gAn N" ] -},
 
-    FaCaL                     `noun`       {- \$ajan -}         [ "intersection", "ramification", "miscellaneous topics" ]
+    FaCaL                     `noun`    {- \$ajan -}           [ "intersection", "ramification", "miscellaneous topics" ]
                               `plural`     FuCUL
-                              {- `others` [ "^su^guwn N" ] -} ]
+                           {- `others`  [ "^su^guwn N" ] -} ]
 
  |> "^s ^g r" <| [
 
-    FaCaL                     `verb`       {- \$ajar-u -}       [ "happen", "occur" ]
-                              `imperf`     FCuL,
-
-    FaCCaL                    `verb`       {- \$aj~ar -}        [ "plant trees", "afforest" ],
-
-    FaCaL |< aT               `noun`       {- \$ajarap -}       [ "tree", "trees" ]
+    FaCaL |< aT               `noun`    {- \$ajarap -}         [ "tree", "trees" ]
                               `plural`     HaFCAL
                               `plural`     FaCaL |< At
-                              {- `others` [ "'a^s^gAr N", "^sa^gar N" ] -},
+                           {- `others`  [ "'a^s^gAr N", "^sa^gar N" ] -},
 
-    FaCiL                     `adj`        {- \$ajir -}         [ "wooded" ],
-
-    TaFCIL                    `noun`       {- ta$ojiyr -}       [ "afforestation" ] ]
+    TaFCIL                    `noun`    {- ta$ojiyr -}         [ "afforestation" ] ]
 
  |> "^s _d _d" <| [
 
-    FaCL                      `verb`       {- \$a*~-iu -}       [ "deviate", "be separate" ]
+    FaCL                      `verb`    {- \$a*~-iu -}         [ "deviate", "be separate" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
                               `pfirst`     FaCaL
                               `ithird`     FCuL
                               `ithird`     FCiL,
 
-    FaCL                      `noun`       {- \$a*~ -}          [ "deviation", "exception", "abnormality" ]
+    FaCL                      `noun`    {- \$a*~ -}            [ "deviation", "exception", "abnormality" ]
                               `plural`     FuCUL
-                              {- `others` [ "^su_duw_d N" ] -},
+                           {- `others`  [ "^su_duw_d N" ] -},
 
-    FACL                      `noun`       {- \$A*~ -}          [ "deviant" ]
+    FACL                      `noun`    {- \$A*~ -}            [ "deviant" ]
                               `plural`     FuCCAL
-                              {- `others` [ "^su_d_dA_d N" ] -} ]
+                           {- `others`  [ "^su_d_dA_d N" ] -} ]
 
  |> "^s _d l" <| [
 
-    FACiL |< Iy               `adj`        {- \$A*iliy~ -}      [ "Shadhili", "Shazly", "Shazli" ] ]
+    FACiL |< Iy               `adj`     {- \$A*iliy~ -}        [ "Shadhili", "Shazly", "Shazli" ] ]
 
  |> "^s _h .s" <| [
 
-    FaCCaL                    `verb`       {- \$ax~aS -}        [ "personify", "diagnose" ],
+    FaCCaL                    `verb`    {- \$ax~aS -}          [ "personify", "diagnose" ],
 
-    FaCL                      `noun`       {- \$axoS -}         [ "individual", "person", "individuals", "persons" ]
+    FaCL                      `noun`    {- \$axoS -}           [ "individual", "person", "individuals", "persons" ]
                               `plural`     FuCUL
                               `plural`     HaFCAL
-                              {- `others` [ "^su_huw.s N", "'a^s_hA.s N" ] -},
+                           {- `others`  [ "^su_huw.s N", "'a^s_hA.s N" ] -},
 
-    FaCL |< Iy                `adj`        {- \$axoSiy~ -}      [ "private", "personal" ],
+    FaCL |< Iy                `adj`     {- \$axoSiy~ -}        [ "private", "personal" ],
 
-    FaCL |< Iy |< aN          `adj`        {- \$axoSiy~AF -}    [ "in person", "personally" ],
+    FaCL |< Iy |< aN          `adj`     {- \$axoSiy~AF -}      [ "in person", "personally" ],
 
-    FaCL |< Iy |< aT          `noun`       {- \$axoSiy~ap -}    [ "identity", "person", "personality" ],
+    FaCL |< Iy |< aT          `noun`    {- \$axoSiy~ap -}      [ "identity", "person", "personality" ],
 
-    TaFCIL                    `noun`       {- ta$oxiyS -}       [ "diagnosis", "personification" ] ]
+    TaFCIL                    `noun`    {- ta$oxiyS -}         [ "diagnosis", "personification" ] ]
 
  |> "^s _h ^s _h" <| [
 
-    KuRDIS |< aT              `noun`       {- \$uxo$iyxap -}    [ "rattle", "rattles" ]
+    KuRDIS |< aT              `noun`    {- \$uxo$iyxap -}      [ "rattle", "rattles" ]
                               `plural`     KaRADIS
-                              {- `others` [ "^sa_hA^siy_h Ndip" ] -} ]
+                           {- `others`  [ "^sa_hA^siy_h Ndip" ] -} ]
 
  |> "^s ` _t" <| [
 
-    FaCiL                     `verb`       {- \$aEiv-a -}       [ "be unkempt" ]
-                              `imperf`     FCaL,
+    FaCL                      `noun`    {- \$aEov -}           [ "Shaath" ],
 
-    FaCCaL                    `verb`       {- \$aE~av -}        [ "ruffle" ],
-
-    FaCL                      `noun`       {- \$aEov -}         [ "Shaath" ],
-
-    FaCL                      `noun`       {- \$aEov -}         [ "disorder" ],
-
-    FaCiL                     `adj`        {- \$aEiv -}         [ "unkempt" ] ]
+    FaCL                      `noun`    {- \$aEov -}           [ "disorder" ] ]
 
  |> "^s ` `" <| [
 
-    FaCL                      `verb`       {- \$aE~-i -}        [ "radiate", "disperse" ]
+    FaCL                      `verb`    {- \$aE~-i -}          [ "radiate", "disperse" ]
                               `imperf`     FiCL
                               `pfirst`     FaCaL
                               `ithird`     FCiL,
 
-    HaFaCL                    `verb`       {- Oa$aE~ -}         [ "radiate", "emit rays", "be radiated", "be emitted" ],
+    FuCAL                     `noun`    {- \$uEAE -}           [ "rays" ],
 
-    FuCAL                     `noun`       {- \$uEAE -}         [ "rays" ],
+    FuCAL |< Iy               `adj`     {- \$uEAEiy~ -}        [ "radiation" ],
 
-    FuCAL |< Iy               `adj`        {- \$uEAEiy~ -}      [ "radiation" ],
+    HiFCAL |< Iy              `adj`     {- Ii$oEAEiy~ -}       [ "radiative", "radiation" ],
 
-    FaCAL                     `adj`        {- \$aEAE -}         [ "confused" ],
-
-    HiFCAL |< Iy              `adj`        {- Ii$oEAEiy~ -}     [ "radiative", "radiation" ],
-
-    MuFiCL                    `adj`        {- mu$iE~ -}         [ "radiating", "radioactive" ] ]
+    MuFiCL                    `adj`     {- mu$iE~ -}           [ "radiating", "radioactive" ] ]
 
  |> "^s ` b" <| [
 
-    FaCCaL                    `verb`       {- \$aE~ab -}        [ "subdivide", "ramify" ],
-
-    TaFaCCaL                  `verb`       {- ta$aE~ab -}       [ "diverge", "branch out" ],
-
-    FaCL                      `noun`       {- \$aEob -}         [ "people", "nation", "peoples", "nations" ]
+    FaCL                      `noun`    {- \$aEob -}           [ "people", "nation", "peoples", "nations" ]
                               `plural`     FuCUL
-                              {- `others` [ "^su`uwb N" ] -},
+                           {- `others`  [ "^su`uwb N" ] -},
 
-    FaCL |< Iy                `adj`        {- \$aEobiy~ -}      [ "popular", "national", "people's" ],
+    FaCL |< Iy                `adj`     {- \$aEobiy~ -}        [ "popular", "national", "people's" ],
 
-    FaCL |< Iy |< aT          `noun`       {- \$aEobiy~ap -}    [ "popularity" ],
+    FaCL |< Iy |< aT          `noun`    {- \$aEobiy~ap -}      [ "popularity" ],
 
-    FiCL                      `noun`       {- \$iEob -}         [ "mountain path", "mountain paths" ]
+    FiCL                      `noun`    {- \$iEob -}           [ "mountain path", "mountain paths" ]
                               `plural`     FiCAL
-                              {- `others` [ "^si`Ab N" ] -},
+                           {- `others`  [ "^si`Ab N" ] -},
 
-    FiCL |< aT                `noun`       {- \$iEobap -}       [ "reef" ],
-
-    FuCL |< aT                `noun`       {- \$uEobap -}       [ "branch", "subdivision", "branches", "subdivisions" ]
+    FuCL |< aT                `noun`    {- \$uEobap -}         [ "branch", "subdivision", "branches", "subdivisions" ]
                               `plural`     FiCAL
                               `plural`     FuCaL
-                              {- `others` [ "^si`Ab N", "^su`ab N" ] -},
+                           {- `others`  [ "^si`Ab N", "^su`ab N" ] -},
 
-    FuCaL |< Iy               `adj`        {- \$uEabiy~ -}      [ "bronchial" ],
+    FuCaL |< Iy               `adj`     {- \$uEabiy~ -}        [ "bronchial" ],
 
-    FuCayL                    `noun`       {- \$uEayob -}       [ "Shuaib" ],
+    FuCayL                    `noun`    {- \$uEayob -}         [ "Shuaib" ],
 
-    FaCIL                     `noun`       {- \$aEiyb -}        [ "disorganized", "dispersed" ],
+    FaCLAn                    `noun`    {- \$aEobAn -}         [ "Sha'ban (month)" ],
 
-    FaCLAn                    `noun`       {- \$aEobAn -}       [ "Sha'ban (month)" ],
-
-    TaFaCCuL                  `noun`       {- ta$aE~ub -}       [ "ramification" ] ]
+    TaFaCCuL                  `noun`    {- ta$aE~ub -}         [ "ramification" ] ]
 
  |> "^s ` l" <| [
 
-    FaCCaL                    `verb`       {- \$aE~al -}        [ "ignite", "inflame" ],
+    FaCCaL                    `verb`    {- \$aE~al -}          [ "ignite", "inflame" ],
 
-    HaFCaL                    `verb`       {- Oa$oEal -}        [ "ignite", "inflame" ],
+    HaFCaL                    `verb`    {- Oa$oEal -}          [ "ignite", "inflame" ],
 
-    HuFCiL                    `verb`       {- Ou$oEil -}        [ "be ignited", "be set afire" ],
+    HuFCiL                    `verb`    {- Ou$oEil -}          [ "be ignited", "be set afire" ],
 
-    IFtaCaL                   `verb`       {- Ai$otaEal -}      [ "flare up", "catch fire" ],
+    IFtaCaL                   `verb`    {- Ai$otaEal -}        [ "flare up", "catch fire" ],
 
-    FuCL |< aT                `noun`       {- \$uEolap -}       [ "fire", "flame", "torches", "flames" ]
-                              `plural`     FuCaL
-                              {- `others` [ "^su`al N" ] -},
+    MaFCaL                    `noun`    {- ma$oEal -}          [ "Mash'al" ],
 
-    MaFCaL                    `noun`       {- ma$oEal -}        [ "Mash'al" ],
-
-    MaFCaL                    `noun`       {- ma$oEal -}        [ "torch", "torches" ]
+    MaFCaL                    `noun`    {- ma$oEal -}          [ "torch", "torches" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma^sA`il Ndip" ] -},
+                           {- `others`  [ "ma^sA`il Ndip" ] -},
 
-    MiFCaL                    `noun`       {- mi$oEal -}        [ "Mish'al" ],
+    MiFCaL                    `noun`    {- mi$oEal -}          [ "Mish'al" ],
 
-    HiFCAL                    `noun`       {- Ii$oEAl -}        [ "igniting", "lighting" ],
+    HiFCAL                    `noun`    {- Ii$oEAl -}          [ "igniting", "lighting" ],
 
-    IFtiCAL                   `noun`       {- Ai$otiEAl -}      [ "burning", "ignition" ],
+    IFtiCAL                   `noun`    {- Ai$otiEAl -}        [ "burning", "ignition" ],
 
-    MuFtaCiL                  `adj`        {- mu$otaEil -}      [ "burning", "ablaze" ] ]
+    MuFtaCiL                  `adj`     {- mu$otaEil -}        [ "burning", "ablaze" ] ]
 
  |> "^s ` r" <| [
 
-    FaCaL                     `verb`       {- \$aEar-u -}       [ "feel", "be aware" ]
+    FaCaL                     `verb`    {- \$aEar-u -}         [ "feel", "be aware" ]
                               `imperf`     FCuL,
 
-    HaFCaL                    `verb`       {- Oa$oEar -}        [ "notify", "advert", "be notified", "be adverted" ],
+    HaFCaL                    `verb`    {- Oa$oEar -}          [ "notify", "advert", "be notified", "be adverted" ],
 
-    FuCUL                     `noun`       {- \$uEuwr -}        [ "feeling", "sentiment", "awareness" ],
+    FuCUL                     `noun`    {- \$uEuwr -}          [ "feeling", "sentiment", "awareness" ],
 
-    FiCL                      `noun`       {- \$iEor -}         [ "poetry", "poems" ]
+    FiCL                      `noun`    {- \$iEor -}           [ "poetry", "poems" ]
                               `plural`     HaFCAL
-                              {- `others` [ "'a^s`Ar N" ] -},
+                           {- `others`  [ "'a^s`Ar N" ] -},
 
-    FiCL |< Iy                `adj`        {- \$iEoriy~ -}      [ "poetic" ],
+    FiCL |< Iy                `adj`     {- \$iEoriy~ -}        [ "poetic" ],
 
-    FiCAL                     `noun`       {- \$iEAr -}         [ "slogan", "motto", "slogans", "mottos" ],
+    FiCAL                     `noun`    {- \$iEAr -}           [ "slogan", "motto", "slogans", "mottos" ],
 
-    FiCAL                     `noun`       {- \$iEAr -}         [ "emblem", "symbol" ],
+    FiCAL                     `noun`    {- \$iEAr -}           [ "emblem", "symbol" ],
 
-    FACiL                     `noun`       {- \$AEir -}         [ "poet", "poets" ]
+    FACiL                     `noun`    {- \$AEir -}           [ "poet", "poets" ]
                               `plural`     FuCaLA'
-                              {- `others` [ "^su`arA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "^su`arA' Nh N0_Nh Nhy" ] -},
 
-    MaFCaL                    `noun`       {- ma$oEar -}        [ "feeling", "sense", "feelings", "emotions", "senses" ]
+    MaFCaL                    `noun`    {- ma$oEar -}          [ "feeling", "sense", "feelings", "emotions", "senses" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma^sA`ir Ndip" ] -},
+                           {- `others`  [ "ma^sA`ir Ndip" ] -},
 
-    MaFACiL                   `noun`       {- ma$AEir -}        [ "customs", "rites" ],
+    HiFCAL                    `noun`    {- Ii$oEAr -}          [ "notice", "notification" ],
 
-    HiFCAL                    `noun`       {- Ii$oEAr -}        [ "notice", "notification" ],
-
-    FaCL                      `noun`       {- \$aEor -}         [ "hair", "hairs" ]
+    FaCL                      `noun`    {- \$aEor -}           [ "hair", "hairs" ]
                               `plural`     FaCaL |< At,
 
-    FaCL |< Iy                `adj`        {- \$aEoriy~ -}      [ "hair", "capillary" ],
+    FaCLA' |< Iy              `adj`     {- \$aEorAwiy~ -}      [ "Sha'rawi" ],
 
-    FaCLA' |< Iy              `adj`        {- \$aEorAwiy~ -}    [ "Sha'rawi" ],
-
-    HaFCaL                    `adj`        {- Oa$oEar -}        [ "hirsute" ]
+    HaFCaL                    `adj`     {- Oa$oEar -}          [ "hirsute" ]
                               `plural`     FaCLA'
-                              {- `others` [ "^sa`rA' Nh N0_Nh Nhy" ] -} ]
+                           {- `others`  [ "^sa`rA' Nh N0_Nh Nhy" ] -} ]
 
  |> "^s ` w" <| [
 
-    FaCLA'                    `adj`        {- \$aEowA' -}       [ "ruthless", "devastating" ] ]
+    FaCLA'                    `adj`     {- \$aEowA' -}         [ "ruthless", "devastating" ] ]
 
  |> "^s ` w '" <| [
 
-    KaRDAS                    `adj`        {- \$aEowA' -}       [ "ruthless", "devastating" ] ]
+    KaRDAS                    `adj`     {- \$aEowA' -}         [ "ruthless", "devastating" ] ]
 
  |> "^s b .h" <| [
 
-    FaCaL                     `noun`       {- \$abaH -}         [ "specter", "shape", "specters", "shapes" ]
+    FaCaL                     `noun`    {- \$abaH -}           [ "specter", "shape", "specters", "shapes" ]
                               `plural`     FuCUL
                               `plural`     HaFCAL
-                              {- `others` [ "^subuw.h N", "'a^sbA.h N" ] -} ]
+                           {- `others`  [ "^subuw.h N", "'a^sbA.h N" ] -} ]
 
  |> "^s b .t" <| [
 
-    FuCAL                     `noun`       {- \$ubAT -}         [ "February" ] ]
+    FuCAL                     `noun`    {- \$ubAT -}           [ "February" ] ]
 
  |> "^s b _t" <| [
 
-    FaCiL                     `verb`       {- \$abiv-a -}       [ "cling", "cleave" ]
-                              `imperf`     FCaL,
+    TaFaCCaL                  `verb`    {- ta$ab~av -}         [ "cling", "cleave" ],
 
-    TaFaCCaL                  `verb`       {- ta$ab~av -}       [ "cling", "cleave" ],
-
-    TaFaCCuL                  `noun`       {- ta$ab~uv -}       [ "tenacity", "adherence" ] ]
+    TaFaCCuL                  `noun`    {- ta$ab~uv -}         [ "tenacity", "adherence" ] ]
 
  |> "^s b `" <| [
 
-    FaCiL                     `verb`       {- \$abiE-a -}       [ "have enough", "eat one's fill" ]
+    FaCiL                     `verb`    {- \$abiE-a -}         [ "have enough", "eat one's fill" ]
                               `imperf`     FCaL,
 
-    FaCCaL                    `verb`       {- \$ab~aE -}        [ "satiate", "gratify" ],
+    MuFaCCaL                  `adj`     {- mu$ab~aE -}         [ "satiated", "saturated", "charged" ],
 
-    FaCL                      `noun`       {- \$aboE -}         [ "sufficiency", "saturation" ],
-
-    MuFaCCaL                  `adj`        {- mu$ab~aE -}       [ "satiated", "saturated", "charged" ],
-
-    MuFCaL                    `adj`        {- mu$obaE -}        [ "satiated", "saturated", "charged" ] ]
+    MuFCaL                    `adj`     {- mu$obaE -}          [ "satiated", "saturated", "charged" ] ]
 
  |> "^s b b" <| [
 
-    FaCL                      `verb`       {- \$ab~-i -}        [ "grow up", "burn" ]
+    FaCL                      `verb`    {- \$ab~-i -}          [ "grow up", "burn" ]
                               `imperf`     FiCL
                               `pfirst`     FaCaL
                               `ithird`     FCiL,
 
-    FaCL                      `verb`       {- \$ab~-u -}        [ "kindle" ]
+    FaCL                      `verb`    {- \$ab~-u -}          [ "kindle" ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL
                               `ithird`     FCuL,
 
-    FaCL                      `noun`       {- \$ab~ -}          [ "youth", "young woman", "youths" ]
+    FaCL                      `noun`    {- \$ab~ -}            [ "youth", "young woman", "youths" ]
                               `plural`     FaCAL
-                              {- `others` [ "^sabAb N" ] -},
+                           {- `others`  [ "^sabAb N" ] -},
 
-    FaCL                      `noun`       {- \$ab~ -}          [ "alum", "styptic pencil" ],
+    FaCL                      `noun`    {- \$ab~ -}            [ "alum", "styptic pencil" ],
 
-    FaCAL                     `noun`       {- \$abAb -}         [ "Jeunesse (in \"Jeunesse de la Massira\")" ],
+    FaCAL                     `noun`    {- \$abAb -}           [ "Jeunesse (in \"Jeunesse de la Massira\")" ],
 
-    FaCAL |< Iy               `adj`        {- \$abAbiy~ -}      [ "youthful", "juvenile" ],
+    FaCAL |< Iy               `adj`     {- \$abAbiy~ -}        [ "youthful", "juvenile" ],
 
-    FaCIL |< aT               `noun`       {- \$abiybap -}      [ "youth", "youthfulness" ],
+    FaCIL |< aT               `noun`    {- \$abiybap -}        [ "youth", "youthfulness" ],
 
-    FACL                      `noun`       {- \$Ab~ -}          [ "young man", "young men" ]
+    FACL                      `noun`    {- \$Ab~ -}            [ "young man", "young men" ]
                               `plural`     FuCLAn
-                              {- `others` [ "^subbAn N" ] -},
+                           {- `others`  [ "^subbAn N" ] -},
 
-    FACL |< aT                `noun`       {- \$Ab~ap -}        [ "young woman", "young women" ] ]
+    FACL |< aT                `noun`    {- \$Ab~ap -}          [ "young woman", "young women" ] ]
 
  |> "^s b h" <| [
 
-    FaCCaL                    `verb`       {- \$ab~ah -}        [ "compare", "liken" ],
+    FaCCaL                    `verb`    {- \$ab~ah -}          [ "compare", "liken" ],
 
-    FACaL                     `verb`       {- \$Abah -}         [ "resemble", "be similar" ],
+    FACaL                     `verb`    {- \$Abah -}           [ "resemble", "be similar" ],
 
-    HaFCaL                    `verb`       {- Oa$obah -}        [ "resemble", "be similar", "be resembled" ],
+    HaFCaL                    `verb`    {- Oa$obah -}          [ "resemble", "be similar", "be resembled" ],
 
-    TaFaCCaL                  `verb`       {- ta$ab~ah -}       [ "imitate" ],
+    IFtaCaL                   `verb`    {- Ai$otabah -}        [ "suspect", "be doubtful", "be suspected" ],
 
-    TaFACaL                   `verb`       {- ta$Abah -}        [ "resemble", "be similar" ],
-
-    IFtaCaL                   `verb`       {- Ai$otabah -}      [ "suspect", "be doubtful", "be suspected" ],
-
-    FiCL                      `noun`       {- \$iboh -}         [ "like", "quasi", "semi" ]
+    FiCL                      `noun`    {- \$iboh -}           [ "like", "quasi", "semi" ]
                               `plural`     HaFCAL
-                              {- `others` [ "'a^sbAh N" ] -},
+                           {- `others`  [ "'a^sbAh N" ] -},
 
-    FaCaL                     `noun`       {- \$abah -}         [ "resemblance", "resemblances" ]
-                              `plural`     HaFCAL
-                              {- `others` [ "'a^sbAh N" ] -},
+    FuCL |< aT                `noun`    {- \$ubohap -}         [ "obscurity", "suspicion", "dubious" ],
 
-    FuCL |< aT                `noun`       {- \$ubohap -}       [ "obscurity", "suspicion", "dubious" ],
+    FaCIL                     `adj`     {- \$abiyh -}          [ "resembling", "similar", "semi" ],
 
-    FaCIL                     `adj`        {- \$abiyh -}        [ "resembling", "similar", "semi" ],
+    HaFCaL                    `noun`    {- Oa$obah -}          [ "more/most similar" ],
 
-    HaFCaL                    `noun`       {- Oa$obah -}        [ "more/most similar" ],
+    MuFACaL |< aT             `noun`    {- mu$Abahap -}        [ "resemblance", "similarity" ],
 
-    MaFACiL                   `noun`       {- ma$Abih -}        [ "similarities" ],
+    TaFACuL                   `noun`    {- ta$Abuh -}          [ "resemblance", "similarity" ],
 
-    MuFACaL |< aT             `noun`       {- mu$Abahap -}      [ "resemblance", "similarity" ],
+    IFtiCAL                   `noun`    {- Ai$otibAh -}        [ "resemblance", "similarity", "dubiousness" ],
 
-    TaFaCCuL                  `noun`       {- ta$ab~uh -}       [ "imitation" ],
+    MaFCUL                    `adj`     {- ma$obuwh -}         [ "suspicious person", "suspected", "suspicious" ],
 
-    TaFACuL                   `noun`       {- ta$Abuh -}        [ "resemblance", "similarity" ],
+    MuFACiL                   `adj`     {- mu$Abih -}          [ "similar" ],
 
-    IFtiCAL                   `noun`       {- Ai$otibAh -}      [ "resemblance", "similarity", "dubiousness" ],
+    MutaFACiL                 `adj`     {- muta$Abih -}        [ "resembling", "identical" ],
 
-    MaFCUL                    `adj`        {- ma$obuwh -}       [ "suspicious person", "suspected", "suspicious" ],
-
-    MuFACiL                   `adj`        {- mu$Abih -}        [ "similar" ],
-
-    MutaFACiL                 `adj`        {- muta$Abih -}      [ "resembling", "identical" ],
-
-    MuFtaCaL                  `adj`        {- mu$otabah -}      [ "suspicious", "suspected" ] ]
+    MuFtaCaL                  `adj`     {- mu$otabah -}        [ "suspicious", "suspected" ] ]
 
  |> "^s b k" <| [
 
-    FaCaL                     `verb`       {- \$abak-i -}       [ "link", "entwine" ]
-                              `imperf`     FCiL,
+    IFtaCaL                   `verb`    {- Ai$otabak -}        [ "skirmish", "clash", "engage" ],
 
-    FaCCaL                    `verb`       {- \$ab~ak -}        [ "weave", "interweave" ],
-
-    TaFACaL                   `verb`       {- ta$Abak -}        [ "be intertwined", "be interwoven" ],
-
-    IFtaCaL                   `verb`       {- Ai$otabak -}      [ "skirmish", "clash", "engage" ],
-
-    FaCaL |< aT               `noun`       {- \$abakap -}       [ "network", "system", "networks", "systems", "nets" ]
+    FaCaL |< aT               `noun`    {- \$abakap -}         [ "network", "system", "networks", "systems", "nets" ]
                               `plural`     FaCaL |< At
                               `plural`     FiCAL
-                              {- `others` [ "^sibAk N" ] -},
+                           {- `others`  [ "^sibAk N" ] -},
 
-    FuCCAL                    `noun`       {- \$ub~Ak -}        [ "window", "windows" ]
+    FuCCAL                    `noun`    {- \$ub~Ak -}          [ "window", "windows" ]
                               `plural`     FaCACIL
-                              {- `others` [ "^sabAbiyk Ndip" ] -},
+                           {- `others`  [ "^sabAbiyk Ndip" ] -},
 
-    TaFACuL                   `noun`       {- ta$Abuk -}        [ "interweaving", "networking" ],
+    TaFACuL                   `noun`    {- ta$Abuk -}          [ "interweaving", "networking" ],
 
-    IFtiCAL                   `noun`       {- Ai$otibAk -}      [ "skirmish", "clash", "skirmishes", "clashes" ] ]
+    IFtiCAL                   `noun`    {- Ai$otibAk -}        [ "skirmish", "clash", "skirmishes", "clashes" ] ]
 
  |> "^s b l" <| [
 
-    FiCL                      `noun`       {- \$ibol -}         [ "lion cub", "lion cubs" ]
+    FiCL                      `noun`    {- \$ibol -}           [ "lion cub", "lion cubs" ]
                               `plural`     HaFCAL
-                              {- `others` [ "'a^sbAl N" ] -},
+                           {- `others`  [ "'a^sbAl N" ] -},
 
-    FiCL                      `noun`       {- \$ibol -}         [ "cadet", "scout", "cadets", "scouts" ]
+    FiCL                      `noun`    {- \$ibol -}           [ "cadet", "scout", "cadets", "scouts" ]
                               `plural`     HaFCAL
-                              {- `others` [ "'a^sbAl N" ] -} ]
-
- |> "^s b q" <| [
-
-    FuCuL                     `noun`       {- \$ubuq -}         [ "chibouk (Turkish tobacco pipe)" ] ]
+                           {- `others`  [ "'a^sbAl N" ] -} ]
 
  |> "^s b r" <| [
 
-    FaCaL                     `verb`       {- \$abar-ui -}      [ "measure with the hand" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
-
-    FaCCaL                    `verb`       {- \$ab~ar -}        [ "measure with the hand", "gesticulate" ],
-
-    FiCL                      `noun`       {- \$ibor -}         [ "span of the hand", "foot", "measurements", "feet" ]
+    FiCL                      `noun`    {- \$ibor -}           [ "span of the hand", "foot", "measurements", "feet" ]
                               `plural`     HaFCAL
-                              {- `others` [ "'a^sbAr N" ] -},
+                           {- `others`  [ "'a^sbAr N" ] -},
 
-    FACUL |< aT               `noun`       {- \$Abuwrap -}      [ "fog", "mist" ] ]
+    FACUL |< aT               `noun`    {- \$Abuwrap -}        [ "fog", "mist" ] ]
 
  |> "^s d ' d" <| [
 
-    KaRADiS                   `noun`       {- \$adA}id -}       [ "hardship", "adversity" ] ]
+    KaRADiS                   `noun`    {- \$adA}id -}         [ "hardship", "adversity" ] ]
 
  |> "^s d d" <| [
 
-    FaCL                      `verb`       {- \$ad~-iu -}       [ "make tight", "make strong" ]
+    FaCL                      `verb`    {- \$ad~-iu -}         [ "make tight", "make strong" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
                               `pfirst`     FaCaL
                               `ithird`     FCiL
                               `ithird`     FCuL,
 
-    FaCCaL                    `verb`       {- \$ad~ad -}        [ "strengthen", "intensify", "emphasize", "be strengthened", "be intensified", "be emphasized" ],
+    FaCCaL                    `verb`    {- \$ad~ad -}          [ "strengthen", "intensify", "emphasize", "be strengthened", "be intensified", "be emphasized" ],
 
-    FACL                      `verb`       {- \$Ad~ -}          [ "argue" ],
+    IFtaCL                    `verb`    {- Ai$otad~ -}         [ "intensify" ],
 
-    TaFaCCaL                  `verb`       {- ta$ad~ad -}       [ "become intense" ],
+    FaCL                      `noun`    {- \$ad~ -}            [ "intensification", "strengthening" ],
 
-    TaFACL                    `verb`       {- ta$Ad~ -}         [ "argue" ],
+    FiCL |< aT                `noun`    {- \$id~ap -}          [ "intensity", "forcefulness" ],
 
-    IFtaCL                    `verb`       {- Ai$otad~ -}       [ "intensify" ],
-
-    FaCL                      `noun`       {- \$ad~ -}          [ "intensification", "strengthening" ],
-
-    FiCL |< aT                `noun`       {- \$id~ap -}        [ "intensity", "forcefulness" ],
-
-    FaCIL                     `adj`        {- \$adiyd -}        [ "intense", "strong", "severe" ]
+    FaCIL                     `adj`     {- \$adiyd -}          [ "intense", "strong", "severe" ]
                               `plural`     FiCAL
-                              {- `others` [ "^sidAd N" ] -},
+                           {- `others`  [ "^sidAd N" ] -},
 
-    FaCIL                     `noun`       {- \$adiyd -}        [ "Shadeed" ],
+    FaCIL                     `noun`    {- \$adiyd -}          [ "Shadeed" ],
 
-    HaFaCL                    `noun`       {- Oa$ad~ -}         [ "stronger/strongest", "more/most intense" ],
+    HaFaCL                    `noun`    {- Oa$ad~ -}           [ "stronger/strongest", "more/most intense" ],
 
-    MiFaCL                    `noun`       {- mi$ad~ -}         [ "corset", "stays" ],
+    MiFaCL                    `noun`    {- mi$ad~ -}           [ "corset", "stays" ],
 
-    TaFCIL                    `noun`       {- ta$odiyd -}       [ "strengthening", "intensification" ],
+    TaFCIL                    `noun`    {- ta$odiyd -}         [ "strengthening", "intensification" ],
 
-    MuFACL |< aT              `noun`       {- mu$Ad~ap -}       [ "quarrel" ],
+    MuFACL |< aT              `noun`    {- mu$Ad~ap -}         [ "quarrel" ],
 
-    TaFaCCuL                  `noun`       {- ta$ad~ud -}       [ "extremism", "fanaticism", "intensification", "hardening" ],
+    TaFaCCuL                  `noun`    {- ta$ad~ud -}         [ "extremism", "fanaticism", "intensification", "hardening" ],
 
-    MuFaCCiL                  `adj`        {- mu$ad~id -}       [ "strengthening", "intensifying" ],
+    MuFaCCiL                  `adj`     {- mu$ad~id -}         [ "strengthening", "intensifying" ],
 
-    MuFaCCiL                  `adj`        {- mu$ad~id -}       [ "aggravating" ],
+    MuFaCCiL                  `adj`     {- mu$ad~id -}         [ "aggravating" ],
 
-    MuFaCCaL                  `adj`        {- mu$ad~ad -}       [ "intense" ],
+    MuFaCCaL                  `adj`     {- mu$ad~ad -}         [ "intense" ],
 
-    MutaFaCCiL                `noun`       {- muta$ad~id -}     [ "extremist", "fanatic", "strict", "zealot" ] ]
-
- |> "^s d h" <| [
-
-    FaCaL                     `verb`       {- \$adah-a -}       [ "confuse", "baffle" ]
-                              `imperf`     FCaL ]
+    MutaFaCCiL                `noun`    {- muta$ad~id -}       [ "extremist", "fanatic", "strict", "zealot" ] ]
 
  |> "^s d w" <| [
 
-    FaCA                      `verb`       {- \$adA-u -}        [ "chant", "know", "be chanted", "be known" ]
-                              `imperf`     FCuL
-                              `imperf`     FCU,
+    FACI                      `noun`    {- \$Adiy -}           [ "Shadi" ],
 
-    FACI                      `noun`       {- \$Adiy -}         [ "Shadi" ],
+    FACI                      `adj`     {- \$Adiy -}           [ "educated", "trained" ],
 
-    FACI                      `adj`        {- \$Adiy -}         [ "educated", "trained" ],
+    FACI                      `adj`     {- \$Adiy -}           [ "singing", "chanting" ],
 
-    FACI                      `adj`        {- \$Adiy -}         [ "singing", "chanting" ],
+    FACI |< aT                `noun`    {- \$Adiyap -}         [ "Shadia" ],
 
-    FACI |< aT                `noun`       {- \$Adiyap -}       [ "Shadia" ],
-
-    FACI |< aT                `noun`       {- \$Adiyap -}       [ "songstress", "singer" ] ]
+    FACI |< aT                `noun`    {- \$Adiyap -}         [ "songstress", "singer" ] ]
 
  |> "^s d y" <| [
 
-    FACiL                     `noun`       {- \$Adiy -}         [ "Shadi" ],
+    FACiL                     `noun`    {- \$Adiy -}           [ "Shadi" ],
 
-    FACiL                     `adj`        {- \$Adiy -}         [ "educated", "trained" ],
+    FACiL                     `adj`     {- \$Adiy -}           [ "educated", "trained" ],
 
-    FACiL                     `adj`        {- \$Adiy -}         [ "singing", "chanting" ],
+    FACiL                     `adj`     {- \$Adiy -}           [ "singing", "chanting" ],
 
-    FACiL |< aT               `noun`       {- \$Adiyap -}       [ "Shadia" ],
+    FACiL |< aT               `noun`    {- \$Adiyap -}         [ "Shadia" ],
 
-    FACiL |< aT               `noun`       {- \$Adiyap -}       [ "songstress", "singer" ] ]
+    FACiL |< aT               `noun`    {- \$Adiyap -}         [ "songstress", "singer" ] ]
 
  |> "^s d y q" <| [
 
-    KiRDAS                    `noun`       {- \$idoyAq -}       [ "Shidyaq" ],
+    KiRDAS                    `noun`    {- \$idoyAq -}         [ "Shidyaq" ],
 
-    KiRDAS                    `noun`       {- \$idoyAq -}       [ "subdeacon", "subdeacons" ]
+    KiRDAS                    `noun`    {- \$idoyAq -}         [ "subdeacon", "subdeacons" ]
                               `plural`     KaRADiS |< aT ]
 
  |> "^s f '" <| [
 
-    FiCAL                     `noun`       {- \$ifA' -}         [ "cure", "remedy", "medication", "remedies" ],
+    FiCAL                     `noun`    {- \$ifA' -}           [ "cure", "remedy", "medication", "remedies" ],
 
-    FiCAL |< Iy               `adj`        {- \$ifA}iy~ -}      [ "healing", "curative", "medicinal" ],
-
-    IstiFCAL                  `noun`       {- Aisoti$ofA' -}    [ "hospitalization" ] ]
+    IstiFCAL                  `noun`    {- Aisoti$ofA' -}      [ "hospitalization" ] ]
 
  |> "^s f .t" <| [
 
-    FaCaL                     `verb`       {- \$afaT-u -}       [ "sip", "siphon out", "vacuum" ]
+    FaCaL                     `verb`    {- \$afaT-u -}         [ "sip", "siphon out", "vacuum" ]
                               `imperf`     FCuL,
 
-    FaCL                      `noun`       {- \$afoT -}         [ "siphoning out", "vacuuming" ],
-
-    FaCL |< aT                `noun`       {- \$afoTap -}       [ "sip", "sips" ]
-                              `plural`     FaCaL |< At ]
+    FaCL                      `noun`    {- \$afoT -}           [ "siphoning out", "vacuuming" ] ]
 
  |> "^s f `" <| [
 
-    FaCIL                     `noun`       {- \$afiyE -}        [ "mediator", "intercessor", "mediators", "intercessors" ]
+    FaCIL                     `noun`    {- \$afiyE -}          [ "mediator", "intercessor", "mediators", "intercessors" ]
                               `plural`     FuCaLA'
-                              {- `others` [ "^sufa`A' Nh N0_Nh Nhy" ] -} ]
+                           {- `others`  [ "^sufa`A' Nh N0_Nh Nhy" ] -} ]
 
  |> "^s f f" <| [
 
-    FaCL                      `verb`       {- \$af~-i -}        [ "be thin", "be transparent" ]
-                              `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+    FaCCAL                    `adj`     {- \$af~Af -}          [ "translucent", "transparent" ],
 
-    FiCL                      `noun`       {- \$if~ -}          [ "gauze", "veil", "veils" ]
-                              `plural`     FuCUL
-                              {- `others` [ "^sufuwf N" ] -},
+    FaCCAL |< Iy |< aT        `noun`    {- \$af~Afiy~ap -}     [ "translucence", "transparency" ],
 
-    FaCCAL                    `adj`        {- \$af~Af -}        [ "translucent", "transparent" ],
+    FaL |< aT                 `noun`    {- \$afap -}           [ "lip", "lips" ],
 
-    FaCCAL |< Iy |< aT        `noun`       {- \$af~Afiy~ap -}   [ "translucence", "transparency" ],
-
-    FaL |< aT                 `noun`       {- \$afap -}         [ "lip", "lips" ],
-
-    FaL |< aN                 `noun`       {- \$afAF -}         [ "brink", "verge", "edge", "edges" ]
+    FaL |< aN                 `noun`    {- \$afAF -}           [ "brink", "verge", "edge", "edges" ]
                               `plural`     FaCA
-                              {- `others` [ "^safA N0_Nhy" ] -} ]
+                           {- `others`  [ "^safA N0_Nhy" ] -} ]
 
  |> "^s f h" <| [
 
-    FaCY |< Iy                `adj`        {- \$afawiy~ -}      [ "oral", "verbal", "orally", "verbally" ],
+    FaCY |< Iy                `adj`     {- \$afawiy~ -}        [ "oral", "verbal", "orally", "verbally" ],
 
-    FaCaL |< Iy               `adj`        {- \$afahiy~ -}      [ "oral", "verbal", "orally", "verbally" ] ]
+    FaCaL |< Iy               `adj`     {- \$afahiy~ -}        [ "oral", "verbal", "orally", "verbally" ] ]
 
  |> "^s f q" <| [
 
-    FaCaL |< aT               `noun`       {- \$afaqap -}       [ "pity", "sympathy" ],
+    FaCaL |< aT               `noun`    {- \$afaqap -}         [ "pity", "sympathy" ],
 
-    FaCIL                     `noun`       {- \$afiyq -}        [ "Shafiq" ],
+    FaCIL                     `noun`    {- \$afiyq -}          [ "Shafiq" ],
 
-    FaCIL                     `adj`        {- \$afiyq -}        [ "compassionate", "sympathetic" ] ]
-
- |> "^s f r" <| [
-
-    FiCL |< Iy                `adj`        {- \$iforiy~ -}      [ "ciphered", "in code" ] ]
-
- |> "^s f t" <| [
-
-    FiCL                      `noun`       {- \$ifot -}         [ "clamps", "tweezers" ]
-                              `plural`     FuCUL
-                              {- `others` [ "^sufuwt N" ] -} ]
+    FaCIL                     `adj`     {- \$afiyq -}          [ "compassionate", "sympathetic" ] ]
 
  |> "^s f w" <| [
 
-    FaCY                      `verb`       {- \$afaY-i -}       [ "cure", "heal" ]
+    FaCY                      `verb`    {- \$afaY-i -}         [ "cure", "heal" ]
                               `imperf`     FCI
                               `imperf`     FCY,
 
-    HaFCY                     `verb`       {- Oa$ofaY -}        [ "be very close", "be on the verge" ],
+    HaFCY                     `verb`    {- Oa$ofaY -}          [ "be very close", "be on the verge" ],
 
-    TaFaCCY                   `verb`       {- ta$af~aY -}       [ "be cured", "be healed" ],
+    FiCA'                     `noun`    {- \$ifA' -}           [ "cure", "remedy", "medication", "remedies" ],
 
-    FiCA'                     `noun`       {- \$ifA' -}         [ "cure", "remedy", "medication", "remedies" ],
+    IstiFCA'                  `noun`    {- Aisoti$ofA' -}      [ "hospitalization" ],
 
-    FiCA' |< Iy               `adj`        {- \$ifA}iy~ -}      [ "healing", "curative", "medicinal" ],
+    FACI                      `adj`     {- \$Afiy -}           [ "healing", "curative" ],
 
-    TaFaCCI                   `noun`       {- ta$af~iy -}       [ "gratification", "satisfaction" ],
-
-    IstiFCA'                  `noun`       {- Aisoti$ofA' -}    [ "hospitalization" ],
-
-    FACI                      `adj`        {- \$Afiy -}         [ "healing", "curative" ],
-
-    MustaFCY                  `noun`       {- musota$ofaY -}    [ "hospital", "hospitals" ] ]
+    MustaFCY                  `noun`    {- musota$ofaY -}      [ "hospital", "hospitals" ] ]
 
  |> "^s f y" <| [
 
-    FACiL                     `adj`        {- \$Afiy -}         [ "healing", "curative" ] ]
+    FACiL                     `adj`     {- \$Afiy -}           [ "healing", "curative" ] ]
 
  |> "^s h b" <| [
 
-    FiCAL                     `noun`       {- \$ihAb -}         [ "Shihab", "Chihab" ],
+    FiCAL                     `noun`    {- \$ihAb -}           [ "Shihab", "Chihab" ],
 
-    FiCAL                     `noun`       {- \$ihAb -}         [ "shooting star", "meteorite", "shooting stars", "meteorites" ]
+    FiCAL                     `noun`    {- \$ihAb -}           [ "shooting star", "meteorite", "shooting stars", "meteorites" ]
                               `plural`     FuCLAn
                               `plural`     FuCuL
-                              {- `others` [ "^suhbAn N", "^suhub N" ] -},
+                           {- `others`  [ "^suhbAn N", "^suhub N" ] -},
 
-    HaFCaL                    `adj`        {- Oa$ohab -}        [ "gray" ]
+    HaFCaL                    `adj`     {- Oa$ohab -}          [ "gray" ]
                               `plural`     FuCL
                               `plural`     FaCLA'
-                              {- `others` [ "^suhb N", "^sahbA' Nh N0_Nh Nhy" ] -} ]
+                           {- `others`  [ "^suhb N", "^sahbA' Nh N0_Nh Nhy" ] -} ]
 
  |> "^s h d" <| [
 
-    FaCiL                     `verb`       {- \$ahid-a -}       [ "witness", "observe" ]
+    FaCiL                     `verb`    {- \$ahid-a -}         [ "witness", "observe" ]
                               `imperf`     FCaL,
 
-    FuCUL                     `noun`       {- \$uhuwd -}        [ "witnessing" ],
+    FuCUL                     `noun`    {- \$uhuwd -}          [ "witnessing" ],
 
-    FACaL                     `verb`       {- \$Ahad -}         [ "watch", "observe", "witness", "be observed", "be seen" ],
+    FACaL                     `verb`    {- \$Ahad -}           [ "watch", "observe", "witness", "be observed", "be seen" ],
 
-    HaFCaL                    `verb`       {- Oa$ohad -}        [ "quote", "be quoted" ],
+    HaFCaL                    `verb`    {- Oa$ohad -}          [ "quote", "be quoted" ],
 
-    IstaFCaL                  `verb`       {- Aisota$ohad -}    [ "quote", "be martyred", "die in battle" ],
+    IstaFCaL                  `verb`    {- Aisota$ohad -}      [ "quote", "be martyred", "die in battle" ],
 
-    FaCAL |< aT               `noun`       {- \$ahAdap -}       [ "certificate", "witness", "testimony" ],
+    FaCAL |< aT               `noun`    {- \$ahAdap -}         [ "certificate", "witness", "testimony" ],
 
-    FaCAL |< aT               `noun`       {- \$ahAdap -}       [ "martyrdom" ],
+    FaCAL |< aT               `noun`    {- \$ahAdap -}         [ "martyrdom" ],
 
-    FaCIL                     `noun`       {- \$ahiyd -}        [ "martyr", "martyrs" ]
+    FaCIL                     `noun`    {- \$ahiyd -}          [ "martyr", "martyrs" ]
                               `plural`     FuCaLA'
-                              {- `others` [ "^suhadA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "^suhadA' Nh N0_Nh Nhy" ] -},
 
-    FACiL                     `noun`       {- \$Ahid -}         [ "witness", "spectator", "witnesses", "spectators" ]
+    FACiL                     `noun`    {- \$Ahid -}           [ "witness", "spectator", "witnesses", "spectators" ]
                               `plural`     FuCUL
                               `plural`     HaFCAL
-                              {- `others` [ "^suhuwd N", "'a^shAd N" ] -},
+                           {- `others`  [ "^suhuwd N", "'a^shAd N" ] -},
 
-    FACiL |< aT               `noun`       {- \$Ahidap -}       [ "proof", "example", "examples", "citations" ]
+    FACiL |< aT               `noun`    {- \$Ahidap -}         [ "proof", "example", "examples", "citations" ]
                               `plural`     FawACiL
-                              {- `others` [ "^sawAhid Ndip" ] -},
+                           {- `others`  [ "^sawAhid Ndip" ] -},
 
-    FACiL |< aT               `noun`       {- \$Ahidap -}       [ "index finger" ],
+    FACiL |< aT               `noun`    {- \$Ahidap -}         [ "index finger" ],
 
-    MaFCaL                    `noun`       {- ma$ohad -}        [ "view", "panorama", "spectacle", "views", "panoramas", "spectacles" ]
+    MaFCaL                    `noun`    {- ma$ohad -}          [ "view", "panorama", "spectacle", "views", "panoramas", "spectacles" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma^sAhid Ndip" ] -},
+                           {- `others`  [ "ma^sAhid Ndip" ] -},
 
-    MaFCaL                    `noun`       {- ma$ohad -}        [ "Meshed" ],
+    MaFCaL                    `noun`    {- ma$ohad -}          [ "Meshed" ],
 
-    MuFACaL |< aT             `noun`       {- mu$Ahadap -}      [ "observation", "viewing", "inspection" ],
+    MuFACaL |< aT             `noun`    {- mu$Ahadap -}        [ "observation", "viewing", "inspection" ],
 
-    MuFACiL                   `noun`       {- mu$Ahid -}        [ "viewer", "spectator", "witness" ],
+    MuFACiL                   `noun`    {- mu$Ahid -}          [ "viewer", "spectator", "witness" ],
 
-    MuFACaL                   `adj`        {- mu$Ahad -}        [ "visible", "perceptible" ],
+    IstiFCAL                  `noun`    {- Aisoti$ohAd -}      [ "martyrdom" ],
 
-    MuFACaL |< At             `noun`       {- mu$AhadAt -}      [ "sights", "visible things" ]
-                              `plural`     MuFACaL |< At,
+    IstiFCAL                  `noun`    {- Aisoti$ohAd -}      [ "quotation" ],
 
-    IstiFCAL                  `noun`       {- Aisoti$ohAd -}    [ "martyrdom" ],
-
-    IstiFCAL                  `noun`       {- Aisoti$ohAd -}    [ "quotation" ],
-
-    IstiFCAL |< Iy            `adj`        {- Aisoti$ohAdiy~ -} [ "martyr (\"suicide\" in Western media)" ] ]
+    IstiFCAL |< Iy            `adj`     {- Aisoti$ohAdiy~ -}   [ "martyr (\"suicide\" in Western media)" ] ]
 
  |> "^s h q" <| [
 
-    FACiL                     `adj`        {- \$Ahiq -}         [ "lofty", "towering", "heights" ]
+    FACiL                     `adj`     {- \$Ahiq -}           [ "lofty", "towering", "heights" ]
                               `plural`     FawACiL
-                              {- `others` [ "^sawAhiq Ndip" ] -} ]
+                           {- `others`  [ "^sawAhiq Ndip" ] -} ]
 
  |> "^s h r" <| [
 
-    FaCaL                     `verb`       {- \$ahar-a -}       [ "declare", "make public" ]
-                              `imperf`     FCaL,
+    FaCCaL                    `verb`    {- \$ah~ar -}          [ "make public" ],
 
-    FaCCaL                    `verb`       {- \$ah~ar -}        [ "make public" ],
+    HaFCaL                    `verb`    {- Oa$ohar -}          [ "make public", "declare", "be made public", "be declared" ],
 
-    HaFCaL                    `verb`       {- Oa$ohar -}        [ "make public", "declare", "be made public", "be declared" ],
+    IFtaCaL                   `verb`    {- Ai$otahar -}        [ "become famous" ],
 
-    IFtaCaL                   `verb`       {- Ai$otahar -}      [ "become famous" ],
-
-    FaCL                      `noun`       {- \$ahor -}         [ "month", "months" ]
+    FaCL                      `noun`    {- \$ahor -}           [ "month", "months" ]
                               `plural`     FuCUL
-                              {- `others` [ "^suhuwr N" ] -},
+                           {- `others`  [ "^suhuwr N" ] -},
 
-    FaCL |< Iy                `adj`        {- \$ahoriy~ -}      [ "monthly" ],
+    FaCL |< Iy                `adj`     {- \$ahoriy~ -}        [ "monthly" ],
 
-    FuCL |< aT                `noun`       {- \$uhorap -}       [ "reputation", "fame" ],
+    FuCL |< aT                `noun`    {- \$uhorap -}         [ "reputation", "fame" ],
 
-    FaCIL                     `adj`        {- \$ahiyr -}        [ "famous", "well-known" ],
+    FaCIL                     `adj`     {- \$ahiyr -}          [ "famous", "well-known" ],
 
-    FaCIL                     `noun`       {- \$ahiyr -}        [ "Shaheer" ],
+    FaCIL                     `noun`    {- \$ahiyr -}          [ "Shaheer" ],
 
-    HaFCaL                    `adj`        {- Oa$ohar -}        [ "more/most famous", "more/most well-known" ],
+    HaFCaL                    `adj`     {- Oa$ohar -}          [ "more/most famous", "more/most well-known" ],
 
-    MaFCUL                    `adj`        {- ma$ohuwr -}       [ "famous", "well-known", "celebrities", "luminaries" ]
+    MaFCUL                    `adj`     {- ma$ohuwr -}         [ "famous", "well-known", "celebrities", "luminaries" ]
                               `plural`     MaFACIL
-                              {- `others` [ "ma^sAhiyr Ndip" ] -},
+                           {- `others`  [ "ma^sAhiyr Ndip" ] -},
 
-    HiFCAL                    `noun`       {- Ii$ohAr -}        [ "declaration", "proclamation" ] ]
+    HiFCAL                    `noun`    {- Ii$ohAr -}          [ "declaration", "proclamation" ] ]
 
  |> "^s h w" <| [
 
-    FaCL |< aT                `noun`       {- \$ahowap -}       [ "desire", "craving", "desires", "cravings" ]
+    FaCL |< aT                `noun`    {- \$ahowap -}         [ "desire", "craving", "desires", "cravings" ]
                               `plural`     FaCaL |< At,
 
-    FaCLAn                    `adj`        {- \$ahowAn -}       [ "covetous", "debauched" ]
+    FaCLAn                    `adj`     {- \$ahowAn -}         [ "covetous", "debauched" ]
                               `plural`     FaCLY
-                              {- `others` [ "^sahwY N0" ] -},
+                           {- `others`  [ "^sahwY N0" ] -},
 
-    FaCLAn                    `noun`       {- \$ahowAn -}       [ "Shehwan", "Shahwan" ] ]
+    FaCLAn                    `noun`    {- \$ahowAn -}         [ "Shehwan", "Shahwan" ] ]
 
  |> "^s h y" <| [
 
-    IFtaCY                    `verb`       {- Ai$otahaY -}      [ "desire", "crave", "be desired", "be craved" ],
+    IFtaCY                    `verb`    {- Ai$otahaY -}        [ "desire", "crave", "be desired", "be craved" ],
 
-    FaCIL |< aT               `noun`       {- \$ahiy~ap -}      [ "appetite" ] ]
+    FaCIL |< aT               `noun`    {- \$ahiy~ap -}        [ "appetite" ] ]
 
  |> "^s k b" <| [
 
-    FaCIL                     `noun`       {- \$akiyb -}        [ "Shakib", "Chakib" ] ]
+    FaCIL                     `noun`    {- \$akiyb -}          [ "Shakib", "Chakib" ] ]
 
  |> "^s k k" <| [
 
-    FaCL                      `verb`       {- \$ak~-u -}        [ "doubt", "distrust", "impale" ]
+    FaCL                      `verb`    {- \$ak~-u -}          [ "doubt", "distrust", "impale" ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL
                               `ithird`     FCuL,
 
-    FaCCaL                    `verb`       {- \$ak~ak -}        [ "make doubt", "give suspicions" ],
+    FaCCaL                    `verb`    {- \$ak~ak -}          [ "make doubt", "give suspicions" ],
 
-    TaFaCCaL                  `verb`       {- ta$ak~ak -}       [ "be skeptical", "have misgivings" ],
+    TaFaCCaL                  `verb`    {- ta$ak~ak -}         [ "be skeptical", "have misgivings" ],
 
-    FaCL                      `noun`       {- \$ak~ -}          [ "doubt", "doubts" ]
+    FaCL                      `noun`    {- \$ak~ -}            [ "doubt", "doubts" ]
                               `plural`     FuCUL
-                              {- `others` [ "^sukuwk N" ] -},
+                           {- `others`  [ "^sukuwk N" ] -},
 
-    TaFCIL                    `noun`       {- ta$okiyk -}       [ "doubt", "skepticism" ],
+    TaFCIL                    `noun`    {- ta$okiyk -}         [ "doubt", "skepticism" ],
 
-    TaFaCCuL                  `noun`       {- ta$ak~uk -}       [ "doubt", "uncertainty" ],
+    MaFCUL                    `noun`    {- ma$okuwk -}         [ "suspected", "dubious", "uncertain" ],
 
-    MaFCUL                    `noun`       {- ma$okuwk -}       [ "suspected", "dubious", "uncertain" ],
-
-    MuFaCCiL                  `adj`        {- mu$ak~ik -}       [ "doubter", "skeptic", "doubting" ] ]
+    MuFaCCiL                  `adj`     {- mu$ak~ik -}         [ "doubter", "skeptic", "doubting" ] ]
 
  |> "^s k l" <| [
 
-    FaCaL                     `verb`       {- \$akal-u -}       [ "hobble" ]
-                              `imperf`     FCuL,
+    FaCCaL                    `verb`    {- \$ak~al -}          [ "constitute", "form", "compose" ],
 
-    FaCiL                     `verb`       {- \$akil-a -}       [ "be ambiguous" ]
-                              `imperf`     FCaL,
+    TaFaCCaL                  `verb`    {- ta$ak~al -}         [ "be formed", "be composed" ],
 
-    FaCCaL                    `verb`       {- \$ak~al -}        [ "constitute", "form", "compose" ],
-
-    HaFCaL                    `verb`       {- Oa$okal -}        [ "be ambiguous", "be complicated" ],
-
-    TaFaCCaL                  `verb`       {- ta$ak~al -}       [ "be formed", "be composed" ],
-
-    FaCL                      `noun`       {- \$akol -}         [ "manner", "form", "configuration", "manners/types", "forms", "configurations" ]
+    FaCL                      `noun`    {- \$akol -}           [ "manner", "form", "configuration", "manners/types", "forms", "configurations" ]
                               `plural`     HaFCAL
-                              {- `others` [ "'a^skAl N" ] -},
+                           {- `others`  [ "'a^skAl N" ] -},
 
-    FaCL |< aT                `noun`       {- \$akolap -}       [ "diacritic", "diacritical mark", "diacritics", "diacritical marks" ]
-                              `plural`     FaCaL |< At,
+    TaFCIL                    `noun`    {- ta$okiyl -}         [ "formation", "composition", "constitution" ],
 
-    FaCL |< Iy                `adj`        {- \$akoliy~ -}      [ "formal", "figurative" ],
+    TaFCIL |< aT              `noun`    {- ta$okiylap -}       [ "assortment", "group" ],
 
-    TaFCIL                    `noun`       {- ta$okiyl -}       [ "formation", "composition", "constitution" ],
+    TaFCIL |< aT              `noun`    {- ta$okiylap -}       [ "vocalization (short vowels and diacritics)" ],
 
-    TaFCIL |< aT              `noun`       {- ta$okiylap -}     [ "assortment", "group" ],
+    TaFCIL |< Iy              `adj`     {- ta$okiyliy~ -}      [ "visual" ],
 
-    TaFCIL |< aT              `noun`       {- ta$okiylap -}     [ "vocalization (short vowels and diacritics)" ],
+    HiFCAL                    `noun`    {- Ii$okAl -}          [ "ambiguity", "problem" ],
 
-    TaFCIL |< Iy              `adj`        {- ta$okiyliy~ -}    [ "visual" ],
+    TaFaCCuL                  `noun`    {- ta$ak~ul -}         [ "differentiation" ],
 
-    MuFACaL |< aT             `noun`       {- mu$Akalap -}      [ "resemblance", "similarity" ],
+    MuFaCCaL                  `adj`     {- mu$ak~al -}         [ "composed", "formed" ],
 
-    HiFCAL                    `noun`       {- Ii$okAl -}        [ "ambiguity", "problem" ],
+    MuFaCCaL                  `adj`     {- mu$ak~al -}         [ "variegated" ],
 
-    TaFaCCuL                  `noun`       {- ta$ak~ul -}       [ "differentiation" ],
+    MuFaCCaL                  `adj`     {- mu$ak~al -}         [ "diacriticized (with short vowels and diacritics)" ],
 
-    MuFaCCaL                  `adj`        {- mu$ak~al -}       [ "composed", "formed" ],
+    HiFCAL |< Iy              `adj`     {- Ii$okAliy~ -}       [ "problematic" ],
 
-    MuFaCCaL                  `adj`        {- mu$ak~al -}       [ "variegated" ],
+    MuFCiL                    `noun`    {- mu$okil -}          [ "problem", "difficulty" ],
 
-    MuFaCCaL                  `adj`        {- mu$ak~al -}       [ "diacriticized (with short vowels and diacritics)" ],
-
-    HiFCAL |< Iy              `adj`        {- Ii$okAliy~ -}     [ "problematic" ],
-
-    MuFCiL                    `noun`       {- mu$okil -}        [ "problem", "difficulty" ],
-
-    MuFCiL |< aT              `noun`       {- mu$okilap -}      [ "problem", "issue", "problems", "inconveniences", "issues" ]
+    MuFCiL |< aT              `noun`    {- mu$okilap -}        [ "problem", "issue", "problems", "inconveniences", "issues" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma^sAkil Ndip" ] -} ]
+                           {- `others`  [ "ma^sAkil Ndip" ] -} ]
 
  |> "^s k m" <| [
 
-    FaCIL                     `noun`       {- \$akiym -}        [ "bridle", "brake", "bridles", "brakes" ]
-                              `plural`     FuCuL
-                              {- `others` [ "^sukum N" ] -},
-
-    FaCIL |< aT               `noun`       {- \$akiymap -}      [ "obstinacy" ] ]
+    FaCIL |< aT               `noun`    {- \$akiymap -}        [ "obstinacy" ] ]
 
  |> "^s k r" <| [
 
-    FaCaL                     `verb`       {- \$akar-u -}       [ "thank", "give thanks" ]
+    FaCaL                     `verb`    {- \$akar-u -}         [ "thank", "give thanks" ]
                               `imperf`     FCuL,
 
-    FACaL                     `verb`       {- \$Akar -}         [ "exchange thanks", "congratulate mutually" ],
-
-    FuCL                      `noun`       {- \$ukor -}         [ "thankfulness", "thanks" ]
+    FuCL                      `noun`    {- \$ukor -}           [ "thankfulness", "thanks" ]
                               `plural`     FuCUL
-                              {- `others` [ "^sukuwr N" ] -},
+                           {- `others`  [ "^sukuwr N" ] -},
 
-    FuCL |< Iy                `adj`        {- \$ukoriy~ -}      [ "of thanks" ],
+    FACiL                     `adj`     {- \$Akir -}           [ "thankful", "grateful" ],
 
-    FuCL |< Iy                `adj`        {- \$ukoriy~ -}      [ "Shoukri" ],
-
-    FACiL                     `adj`        {- \$Akir -}         [ "thankful", "grateful" ],
-
-    FACiL                     `noun`       {- \$Akir -}         [ "Shakir" ] ]
+    FACiL                     `noun`    {- \$Akir -}           [ "Shakir" ] ]
 
  |> "^s k w" <| [
 
-    FaCA                      `verb`       {- \$akA-u -}        [ "complain", "suffer", "be complained", "be suffered" ]
-                              `imperf`     FCuL
+    FaCA                      `verb`    {- \$akA-u -}          [ "complain", "suffer", "be complained", "be suffered" ]
                               `imperf`     FCU,
 
-    TaFaCCY                   `verb`       {- ta$ak~aY -}       [ "complain", "suffer" ],
+    IFtaCY                    `verb`    {- Ai$otakaY -}        [ "complain", "be complained" ],
 
-    IFtaCY                    `verb`       {- Ai$otakaY -}      [ "complain", "be complained" ],
-
-    FaCL                      `noun`       {- \$akow -}         [ "complaining" ],
-
-    FaCLY                     `noun`       {- \$akowaY -}       [ "complaint", "grievance", "complaints", "grievances" ],
-
-    FACI                      `adj`        {- \$Akiy -}         [ "complaining" ],
-
-    FACI                      `noun`       {- \$Akiy -}         [ "plaintiff" ],
-
-    MaFCUL                    `adj`        {- ma$okuw~ -}       [ "complained of" ],
-
-    MaFCUL                    `noun`       {- ma$okuw~ -}       [ "defendant" ] ]
+    FaCLY                     `noun`    {- \$akowaY -}         [ "complaint", "grievance", "complaints", "grievances" ] ]
 
  |> "^s k y" <| [
 
-    FiCAL |< aT               `noun`       {- \$ikAyap -}       [ "complaint", "grievance" ],
-
-    FACiL                     `adj`        {- \$Akiy -}         [ "complaining" ],
-
-    FACiL                     `noun`       {- \$Akiy -}         [ "plaintiff" ] ]
+    FiCAL |< aT               `noun`    {- \$ikAyap -}         [ "complaint", "grievance" ] ]
 
  |> "^s l .h" <| [
 
-    FaCaL                     `verb`       {- \$alaH-a -}       [ "disrobe", "shed" ]
+    FaCaL                     `verb`    {- \$alaH-a -}         [ "disrobe", "shed" ]
                               `imperf`     FCaL,
 
-    FaCCaL                    `verb`       {- \$al~aH -}        [ "divest", "disrobe" ],
-
-    FaCaL                     `noun`       {- \$alaH -}         [ "Shalah" ] ]
+    FaCaL                     `noun`    {- \$alaH -}           [ "Shalah" ] ]
 
  |> "^s l b" <| [
 
-    FaCaL |< Iy               `adj`        {- \$alabiy~ -}      [ "Shalabi", "Chalabi" ],
+    FaCaL |< Iy               `adj`     {- \$alabiy~ -}        [ "Shalabi", "Chalabi" ],
 
-    FaCaL |< Iy               `adj`        {- \$alabiy~ -}      [ "handsome", "dandy" ] ]
+    FaCaL |< Iy               `adj`     {- \$alabiy~ -}        [ "handsome", "dandy" ] ]
 
  |> "^s l f" <| [
 
-    FaCaL                     `noun`       {- \$alaf -}         [ "Shalaf" ] ]
+    FaCaL                     `noun`    {- \$alaf -}           [ "Shalaf" ] ]
 
  |> "^s l l" <| [
 
-    FaCL                      `verb`       {- \$al~-u -}        [ "paralyze", "immobilize", "neutralize" ]
+    FaCL                      `verb`    {- \$al~-u -}          [ "paralyze", "immobilize", "neutralize" ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL
                               `ithird`     FCuL,
 
-    FaCL                      `verb`       {- \$al~-a -}        [ "be paralyzed", "be immobile" ]
+    FaCL                      `verb`    {- \$al~-a -}          [ "be paralyzed", "be immobile" ]
                               `pfirst`     FaCaL
                               `ithird`     FCaL,
 
-    HaFaCL                    `verb`       {- Oa$al~ -}         [ "paralyze", "immobilize", "neutralize", "be paralyzed", "be immobilized", "be neutralized" ],
+    HaFaCL                    `verb`    {- Oa$al~ -}           [ "paralyze", "immobilize", "neutralize", "be paralyzed", "be immobilized", "be neutralized" ],
 
-    FaCaL                     `noun`       {- \$alal -}         [ "paralysis", "impotence", "inertia" ],
+    FaCaL                     `noun`    {- \$alal -}           [ "paralysis", "impotence", "inertia" ],
 
-    HaFaCL                    `noun`       {- Oa$al~ -}         [ "paralyzed", "impotent", "inert" ]
+    HaFaCL                    `noun`    {- Oa$al~ -}           [ "paralyzed", "impotent", "inert" ]
                               `plural`     FaCLA'
                               `plural`     FuCL
-                              {- `others` [ "^sallA' Nh N0_Nh Nhy", "^sull N" ] -},
+                           {- `others`  [ "^sallA' Nh N0_Nh Nhy", "^sull N" ] -},
 
-    FiCL |< aT                `noun`       {- \$il~ap -}        [ "group", "clique", "groups", "cliques" ]
-                              `plural`     FiCaL
-                              {- `others` [ "^silal N" ] -},
-
-    FaCCAL                    `noun`       {- \$al~Al -}        [ "cataract", "cascade" ] ]
-
- |> "^s l t" <| [
-
-    FaCCaL                    `verb`       {- \$al~at -}        [ "kick" ],
-
-    FaCL |< aT                `noun`       {- \$alotap -}       [ "mattress", "mattresses" ]
-                              `plural`     FiCaL
-                              `plural`     FaCaL |< At
-                              {- `others` [ "^silat N" ] -} ]
+    FaCCAL                    `noun`    {- \$al~Al -}          [ "cataract", "cascade" ] ]
 
  |> "^s l w" <| [
 
-    FiCL                      `noun`       {- \$ilow -}         [ "limb", "corpse", "limbs", "corpses" ] ]
+    FiCL                      `noun`    {- \$ilow -}           [ "limb", "corpse", "limbs", "corpses" ] ]
 
  |> "^s m _h" <| [
 
-    FACiL                     `adj`        {- \$Amix -}         [ "lofty", "superior", "haughty" ] ]
+    FACiL                     `adj`     {- \$Amix -}           [ "lofty", "superior", "haughty" ] ]
 
  |> "^s m `" <| [
 
-    FaCL |< aT                `noun`       {- \$amoEap -}       [ "candle", "candles" ]
-                              `plural`     FaCaL |< At,
-
-    FaCCAL                    `noun`       {- \$am~AE -}        [ "chandler (candle maker/seller)" ],
-
-    FaCCAL                    `noun`       {- \$am~AE -}        [ "Shamma" ],
-
-    FaCCAL |< aT              `noun`       {- \$am~AEap -}      [ "clothes rack" ] ]
+    FaCCAL |< aT              `noun`    {- \$am~AEap -}        [ "clothes rack" ] ]
 
  |> "^s m ` n" <| [
 
-    KiRDUS                    `noun`       {- \$imoEuwn -}      [ "Shimon" ],
+    KiRDUS                    `noun`    {- \$imoEuwn -}        [ "Shimon" ],
 
-    KaRDUS                    `noun`       {- \$amoEuwn -}      [ "Shamoun" ] ]
+    KaRDUS                    `noun`    {- \$amoEuwn -}        [ "Shamoun" ] ]
 
  |> "^s m l" <| [
 
-    FaCiL                     `verb`       {- \$amil-a -}       [ "comprise", "include", "contain" ]
+    FaCiL                     `verb`    {- \$amil-a -}         [ "comprise", "include", "contain" ]
                               `imperf`     FCaL,
 
-    FaCaL                     `verb`       {- \$amal-u -}       [ "comprise", "include", "contain" ]
+    FaCaL                     `verb`    {- \$amal-u -}         [ "comprise", "include", "contain" ]
                               `imperf`     FCuL,
 
-    IFtaCaL                   `verb`       {- Ai$otamal -}      [ "include", "contain", "comprise" ],
+    IFtaCaL                   `verb`    {- Ai$otamal -}        [ "include", "contain", "comprise" ],
 
-    FaCL                      `noun`       {- \$amol -}         [ "members", "union", "inclusion" ],
+    FaCL                      `noun`    {- \$amol -}           [ "members", "union", "inclusion" ],
 
-    FaCL |< aT                `noun`       {- \$amolap -}       [ "cloak", "cloaks" ]
-                              `plural`     FaCaL |< At,
+    FaCAL                     `noun`    {- \$amAl -}           [ "north", "northern" ],
 
-    FaCAL                     `noun`       {- \$amAl -}         [ "north", "northern" ],
+    FaCAL |< Iy               `adj`     {- \$amAliy~ -}        [ "north", "northern" ],
 
-    FaCAL |< Iy               `adj`        {- \$amAliy~ -}      [ "north", "northern" ],
+    FiCAL |< Iy               `adj`     {- \$imAliy~ -}        [ "leftist" ],
 
-    FiCAL                     `noun`       {- \$imAl -}         [ "left" ],
+    FuCUL                     `noun`    {- \$umuwl -}          [ "comprising", "inclusion", "containing" ],
 
-    FiCAL |< Iy               `adj`        {- \$imAliy~ -}      [ "leftist" ],
+    FuCUL |< Iy               `adj`     {- \$umuwliy~ -}       [ "universal", "total", "comprehensive" ],
 
-    FuCUL                     `noun`       {- \$umuwl -}        [ "comprising", "inclusion", "containing" ],
+    FuCUL |< Iy |< aT         `noun`    {- \$umuwliy~ap -}     [ "universality", "totality" ],
 
-    FuCUL |< Iy               `adj`        {- \$umuwliy~ -}     [ "universal", "total", "comprehensive" ],
+    FACiL                     `adj`     {- \$Amil -}           [ "comprehensive", "general", "complete", "mass" ],
 
-    FuCUL |< Iy |< aT         `noun`       {- \$umuwliy~ap -}   [ "universality", "totality" ],
-
-    FACiL                     `adj`        {- \$Amil -}         [ "comprehensive", "general", "complete", "mass" ],
-
-    MaFCUL                    `adj`        {- ma$omuwl -}       [ "included", "contained", "implied", "inherent functions" ] ]
-
- |> "^s m m" <| [
-
-    FaCL                      `verb`       {- \$am~-u -}        [ "smell", "sniff" ]
-                              `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
-
-    FaCL                      `noun`       {- \$am~ -}          [ "smelling", "sniffing", "sense of smell" ] ]
+    MaFCUL                    `adj`     {- ma$omuwl -}         [ "included", "contained", "implied", "inherent functions" ] ]
 
  |> "^s m n" <| [
 
-    FaCAL |< Iy |< aT         `noun`       {- \$amAniy~ap -}    [ "shamanism" ] ]
-
- |> "^s m r" <| [
-
-    FaCAL                     `noun`       {- \$amAr -}         [ "fennel" ] ]
+    FaCAL |< Iy |< aT         `noun`    {- \$amAniy~ap -}      [ "shamanism" ] ]
 
  |> "^s m s" <| [
 
-    FaCaL                     `verb`       {- \$amas-u -}       [ "be headstrong" ]
-                              `imperf`     FCuL,
-
-    FaCiL                     `verb`       {- \$amis-a -}       [ "be sunny" ]
-                              `imperf`     FCaL,
-
-    FaCCaL                    `verb`       {- \$am~as -}        [ "expose to the sun" ],
-
-    FaCL                      `noun`       {- \$amos -}         [ "sun", "suns" ]
+    FaCL                      `noun`    {- \$amos -}           [ "sun", "suns" ]
                               `plural`     FuCUL
-                              {- `others` [ "^sumuws N" ] -},
+                           {- `others`  [ "^sumuws N" ] -},
 
-    FaCL                      `noun`       {- \$amos -}         [ "Shams" ],
+    FaCL                      `noun`    {- \$amos -}           [ "Shams" ],
 
-    FaCL |< Iy                `adj`        {- \$amosiy~ -}      [ "solar" ] ]
+    FaCL |< Iy                `adj`     {- \$amosiy~ -}        [ "solar" ] ]
 
  |> "^s m t" <| [
 
-    FaCiL                     `verb`       {- \$amit-a -}       [ "gloat", "rejoice maliciously" ]
-                              `imperf`     FCaL,
-
-    FaCCaL                    `verb`       {- \$am~at -}        [ "disappoint" ],
-
-    HaFCaL                    `verb`       {- Oa$omat -}        [ "gloat", "rejoice maliciously", "be gloated over", "be rejoiced maliciously" ] ]
+    FaCiL                     `verb`    {- \$amit-a -}         [ "gloat", "rejoice maliciously" ]
+                              `imperf`     FCaL ]
 
  |> "^s n .t" <| [
 
-    FaCL |< aT                `noun`       {- \$anoTap -}       [ "suitcase", "suitcases" ]
+    FaCL |< aT                `noun`    {- \$anoTap -}         [ "suitcase", "suitcases" ]
                               `plural`     FuCaL
-                              {- `others` [ "^suna.t N" ] -} ]
+                           {- `others`  [ "^suna.t N" ] -} ]
 
  |> "^s n ^g" <| [
 
-    FaCiL                     `verb`       {- \$anij-a -}       [ "convulse", "have spasms" ]
-                              `imperf`     FCaL,
+    TaFaCCaL                  `verb`    {- ta$an~aj -}         [ "convulse", "have spasms" ],
 
-    FaCCaL                    `verb`       {- \$an~aj -}        [ "shrink", "contract" ],
+    TaFaCCuL                  `noun`    {- ta$an~uj -}         [ "turmoil", "upheaval" ],
 
-    TaFaCCaL                  `verb`       {- ta$an~aj -}       [ "convulse", "have spasms" ],
-
-    TaFaCCuL                  `noun`       {- ta$an~uj -}       [ "turmoil", "upheaval" ],
-
-    TaFaCCuL                  `noun`       {- ta$an~uj -}       [ "convulsion", "spasm", "convulsions", "spasms" ] ]
+    TaFaCCuL                  `noun`    {- ta$an~uj -}         [ "convulsion", "spasm", "convulsions", "spasms" ] ]
 
  |> "^s n `" <| [
 
-    FaCIL                     `adj`        {- \$aniyE -}        [ "hideous", "repulsive" ],
+    FaCIL                     `adj`     {- \$aniyE -}          [ "hideous", "repulsive" ],
 
-    HaFCaL                    `adj`        {- Oa$onaE -}        [ "hideous", "repulsive" ]
+    HaFCaL                    `adj`     {- Oa$onaE -}          [ "hideous", "repulsive" ]
                               `plural`     FaCLA'
-                              {- `others` [ "^san`A' Nh N0_Nh Nhy" ] -} ]
+                           {- `others`  [ "^san`A' Nh N0_Nh Nhy" ] -} ]
 
  |> "^s n n" <| [
 
-    FaCL                      `verb`       {- \$an~-u -}        [ "wage", "launch" ]
+    FaCL                      `verb`    {- \$an~-u -}          [ "wage", "launch" ]
                               `imperf`     FuCL
                               `imperf`     FCuL
                               `pfirst`     FaCaL,
 
-    HaFaCL                    `verb`       {- Oa$an~ -}         [ "wage", "launch", "be waged", "be launched" ],
+    HaFaCL                    `verb`    {- Oa$an~ -}           [ "wage", "launch", "be waged", "be launched" ],
 
-    FaCL                      `noun`       {- \$an~ -}          [ "waging", "launching" ] ]
+    FaCL                      `noun`    {- \$an~ -}            [ "waging", "launching" ] ]
 
  |> "^s n q" <| [
 
-    FaCaL                     `verb`       {- \$anaq-u -}       [ "hang (execute)" ]
-                              `imperf`     FCuL,
-
-    FaCL                      `noun`       {- \$anoq -}         [ "hanging (execution)" ],
-
-    FaCaL                     `noun`       {- \$anaq -}         [ "rope", "noose" ] ]
+    FaCL                      `noun`    {- \$anoq -}           [ "hanging (execution)" ] ]
 
  |> "^s q q" <| [
 
-    FaCL                      `verb`       {- \$aq~-u -}        [ "split", "cut through" ]
+    FaCL                      `verb`    {- \$aq~-u -}          [ "split", "cut through" ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL
                               `ithird`     FCuL,
 
-    InFaCL                    `verb`       {- Aino$aq~ -}       [ "split off" ],
+    InFaCL                    `verb`    {- Aino$aq~ -}         [ "split off" ],
 
-    FaCL                      `noun`       {- \$aq~ -}          [ "splitting" ],
+    FaCL                      `noun`    {- \$aq~ -}            [ "splitting" ],
 
-    FaCL                      `noun`       {- \$aq~ -}          [ "crack", "gap", "cracks", "gaps" ]
+    FaCL                      `noun`    {- \$aq~ -}            [ "crack", "gap", "cracks", "gaps" ]
                               `plural`     FuCUL
-                              {- `others` [ "^suquwq N" ] -},
+                           {- `others`  [ "^suquwq N" ] -},
 
-    FiCL                      `noun`       {- \$iq~ -}          [ "half", "double" ],
+    FiCL                      `noun`    {- \$iq~ -}            [ "half", "double" ],
 
-    FaCL |< aT                `noun`       {- \$aq~ap -}        [ "apartment", "apartments" ]
+    FaCL |< aT                `noun`    {- \$aq~ap -}          [ "apartment", "apartments" ]
                               `plural`     FuCaL
-                              {- `others` [ "^suqaq N" ] -},
+                           {- `others`  [ "^suqaq N" ] -},
 
-    FuCL |< aT                `noun`       {- \$uq~ap -}        [ "distance", "distances" ]
+    FuCL |< aT                `noun`    {- \$uq~ap -}          [ "distance", "distances" ]
                               `plural`     FuCaL
-                              {- `others` [ "^suqaq N" ] -},
+                           {- `others`  [ "^suqaq N" ] -},
 
-    FaCIL                     `noun`       {- \$aqiyq -}        [ "brother", "brothers" ],
+    FaCIL                     `noun`    {- \$aqiyq -}          [ "brother", "brothers" ],
 
-    FaCIL                     `adj`        {- \$aqiyq -}        [ "fraternal", "brotherly" ],
+    FaCIL                     `adj`     {- \$aqiyq -}          [ "fraternal", "brotherly" ],
 
-    FaCIL |< aT               `noun`       {- \$aqiyqap -}      [ "sister", "sisters" ],
+    FaCIL |< aT               `noun`    {- \$aqiyqap -}        [ "sister", "sisters" ],
 
-    FaCIL |< aT               `adj`        {- \$aqiyqap -}      [ "fraternal", "sisterly" ],
+    FaCIL |< aT               `adj`     {- \$aqiyqap -}        [ "fraternal", "sisterly" ],
 
-    InFiCAL                   `noun`       {- Aino$iqAq -}      [ "secession", "splitting off", "dissension" ],
+    InFiCAL                   `noun`    {- Aino$iqAq -}        [ "secession", "splitting off", "dissension" ],
 
-    FACL                      `noun`       {- \$Aq~ -}          [ "hard", "toilsome" ],
+    FACL                      `noun`    {- \$Aq~ -}            [ "hard", "toilsome" ],
 
-    MunFaCL                   `noun`       {- muno$aq~ -}       [ "dissident", "renegade" ],
+    MunFaCL                   `noun`    {- muno$aq~ -}         [ "dissident", "renegade" ],
 
-    MuFtaCL                   `noun`       {- mu$otaq~ -}       [ "derivative" ] ]
+    MuFtaCL                   `noun`    {- mu$otaq~ -}         [ "derivative" ] ]
 
  |> "^s q r" <| [
 
-    FaCaL                     `noun`       {- \$aqar -}         [ "blond", "fair-skinned" ],
-
-    HaFCaL                    `noun`       {- Oa$oqar -}        [ "blond", "fair-skinned" ]
+    HaFCaL                    `noun`    {- Oa$oqar -}          [ "blond", "fair-skinned" ]
                               `plural`     FaCLA'
                               `plural`     FuCuL
-                              {- `others` [ "^saqrA' Nh N0_Nh Nhy", "^suqur N" ] -},
+                           {- `others`  [ "^saqrA' Nh N0_Nh Nhy", "^suqur N" ] -},
 
-    FuCayL                    `noun`       {- \$uqayor -}       [ "Shuqair" ] ]
-
- |> "^s q w" <| [
-
-    FaCA                      `verb`       {- \$aqA-u -}        [ "sadden", "distress", "be saddened", "be distressed" ]
-                              `imperf`     FCuL
-                              `imperf`     FCU,
-
-    HaFCY                     `verb`       {- Oa$oqaY -}        [ "sadden", "distress", "be saddened", "be distressed" ],
-
-    FaCL                      `noun`       {- \$aqow -}         [ "misfortune", "distress" ],
-
-    HaFCY                     `adj`        {- Oa$oqaY -}        [ "more/most wretched", "most wretched" ] ]
+    FuCayL                    `noun`    {- \$uqayor -}         [ "Shuqair" ] ]
 
  |> "^s q y" <| [
 
-    FaCiL                     `verb`       {- \$aqiy-a -}       [ "be unhappy", "suffer" ]
-                              `imperf`     FCY,
-
-    FaCIL                     `adj`        {- \$aqiy~ -}        [ "miserable", "wretch", "wretches", "damned" ]
+    FaCIL                     `adj`     {- \$aqiy~ -}          [ "miserable", "wretch", "wretches", "damned" ]
                               `plural`     HaFCiLA'
-                              {- `others` [ "'a^sqiyA' Nh N0_Nh Nhy" ] -} ]
+                           {- `others`  [ "'a^sqiyA' Nh N0_Nh Nhy" ] -} ]
 
  |> "^s r '" <| [
 
-    FiCAL                     `noun`       {- \$irA' -}         [ "purchase", "purchasing" ],
+    FiCAL                     `noun`    {- \$irA' -}           [ "purchase", "purchasing" ],
 
-    FiCAL |< Iy               `adj`        {- \$irA}iy~ -}      [ "purchasing" ],
+    FiCAL |< Iy               `adj`     {- \$irA}iy~ -}        [ "purchasing" ],
 
-    IFtiCAL                   `noun`       {- Ai$otirA' -}      [ "purchase", "purchases" ] ]
+    IFtiCAL                   `noun`    {- Ai$otirA' -}        [ "purchase", "purchases" ] ]
 
  |> "^s r .h" <| [
 
-    FaCaL                     `verb`       {- \$araH-a -}       [ "explain", "expose", "slice" ]
+    FaCaL                     `verb`    {- \$araH-a -}         [ "explain", "expose", "slice" ]
                               `imperf`     FCaL,
 
-    FaCCaL                    `verb`       {- \$ar~aH -}        [ "dissect" ],
-
-    FaCL                      `noun`       {- \$aroH -}         [ "explanation", "commentary", "explanations", "commentaries" ]
+    FaCL                      `noun`    {- \$aroH -}           [ "explanation", "commentary", "explanations", "commentaries" ]
                               `plural`     FuCUL
-                              {- `others` [ "^suruw.h N" ] -},
+                           {- `others`  [ "^suruw.h N" ] -},
 
-    FaCIL |< aT               `noun`       {- \$ariyHap -}      [ "slice", "slide", "slices", "slides" ] ]
+    FaCIL |< aT               `noun`    {- \$ariyHap -}        [ "slice", "slide", "slices", "slides" ] ]
 
  |> "^s r .t" <| [
 
-    FaCaL                     `verb`       {- \$araT-ui -}      [ "stipulate", "make conditional" ]
-                              `imperf`     FCiL
-                              `imperf`     FCuL,
+    IFtaCaL                   `verb`    {- Ai$otaraT -}        [ "make conditional", "stipulate", "be prerequisite" ],
 
-    FaCCaL                    `verb`       {- \$ar~aT -}        [ "tear to shreds" ],
-
-    IFtaCaL                   `verb`       {- Ai$otaraT -}      [ "make conditional", "stipulate", "be prerequisite" ],
-
-    FaCL                      `noun`       {- \$aroT -}         [ "precondition", "stipulation", "preconditions", "stipulations" ]
+    FaCL                      `noun`    {- \$aroT -}           [ "precondition", "stipulation", "preconditions", "stipulations" ]
                               `plural`     FuCUL
-                              {- `others` [ "^suruw.t N" ] -},
+                           {- `others`  [ "^suruw.t N" ] -},
 
-    FaCaL                     `noun`       {- \$araT -}         [ "portent", "portents" ]
-                              `plural`     HaFCAL
-                              {- `others` [ "'a^srA.t N" ] -},
+    FuCL |< aT                `noun`    {- \$uroTap -}         [ "police" ],
 
-    FaCL |< Iy                `adj`        {- \$aroTiy~ -}      [ "conditional" ],
+    FuCL |< Iy                `adj`     {- \$uroTiy~ -}        [ "police officer" ],
 
-    FaCL |< aT                `noun`       {- \$aroTap -}       [ "line", "dash" ],
-
-    FuCL |< aT                `noun`       {- \$uroTap -}       [ "police" ],
-
-    FuCL |< Iy                `adj`        {- \$uroTiy~ -}      [ "police officer" ],
-
-    FaCIL                     `noun`       {- \$ariyT -}        [ "tape", "strip", "ribbon", "tapes", "strips", "ribbons" ]
+    FaCIL                     `noun`    {- \$ariyT -}          [ "tape", "strip", "ribbon", "tapes", "strips", "ribbons" ]
                               `plural`     HaFCiL |< aT,
 
-    FaCIL |< aT               `noun`       {- \$ariyTap -}      [ "condition" ],
+    FaCIL |< aT               `noun`    {- \$ariyTap -}        [ "condition" ],
 
-    IFtiCAL                   `noun`       {- Ai$otirAT -}      [ "condition", "proviso", "stipulation" ],
+    IFtiCAL                   `noun`    {- Ai$otirAT -}        [ "condition", "proviso", "stipulation" ],
 
-    MaFCUL                    `adj`        {- ma$oruwT -}       [ "conditional", "contingent" ] ]
-
- |> "^s r .t n" <| [
-
-    KaRDaS                    `verb`       {- \$aroTan -}       [ "consecrate", "ordain" ] ]
+    MaFCUL                    `adj`     {- ma$oruwT -}         [ "conditional", "contingent" ] ]
 
  |> "^s r _d m" <| [
 
-    TaKaRDaS                  `verb`       {- ta$aro*am -}      [ "be jagged/indented" ],
+    TaKaRDaS                  `verb`    {- ta$aro*am -}        [ "be jagged/indented" ],
 
-    TaKaRDaS                  `verb`       {- ta$aro*am -}      [ "divide into groups or factions" ],
+    TaKaRDaS                  `verb`    {- ta$aro*am -}        [ "divide into groups or factions" ],
 
-    TaKaRDuS                  `noun`       {- ta$aro*um -}      [ "dividing into groups or factions" ] ]
+    TaKaRDuS                  `noun`    {- ta$aro*um -}        [ "dividing into groups or factions" ] ]
 
  |> "^s r _h" <| [
 
-    FaCaL                     `verb`       {- \$arax-u -}       [ "mature", "become a youth" ]
-                              `imperf`     FCuL,
+    FaCL                      `noun`    {- \$arox -}           [ "prime of youth" ],
 
-    FaCaL                     `verb`       {- \$arax-a -}       [ "crack", "splinter" ]
-                              `imperf`     FCaL,
-
-    FaCL                      `noun`       {- \$arox -}         [ "prime of youth" ],
-
-    FaCL                      `noun`       {- \$arox -}         [ "fracture", "fissure", "fractures", "fissures" ]
+    FaCL                      `noun`    {- \$arox -}           [ "fracture", "fissure", "fractures", "fissures" ]
                               `plural`     FuCUL
-                              {- `others` [ "^suruw_h N" ] -} ]
+                           {- `others`  [ "^suruw_h N" ] -} ]
 
  |> "^s r `" <| [
 
-    FaCaL                     `verb`       {- \$araE-a -}       [ "start", "undertake" ]
+    FaCaL                     `verb`    {- \$araE-a -}         [ "start", "undertake" ]
                               `imperf`     FCaL,
 
-    FaCaL                     `verb`       {- \$araE-a -}       [ "enact", "prescribe" ]
+    FaCaL                     `verb`    {- \$araE-a -}         [ "enact", "prescribe" ]
                               `imperf`     FCaL,
 
-    FaCCaL                    `verb`       {- \$ar~aE -}        [ "legislate" ],
+    FaCaL                     `noun`    {- \$araE -}           [ "Sharaa" ],
 
-    HaFCaL                    `verb`       {- Oa$oraE -}        [ "unsheathe", "be unsheathed" ],
+    FaCL                      `noun`    {- \$aroE -}           [ "law" ],
 
-    FaCaL                     `noun`       {- \$araE -}         [ "Sharaa" ],
+    FaCL |< Iy                `adj`     {- \$aroEiy~ -}        [ "legitimate", "lawful" ],
 
-    FaCL                      `noun`       {- \$aroE -}         [ "law" ],
+    FaCL |< Iy |< aT          `noun`    {- \$aroEiy~ap -}      [ "legitimacy", "legality" ],
 
-    FaCL |< Iy                `adj`        {- \$aroEiy~ -}      [ "legitimate", "lawful" ],
+    FuCUL                     `noun`    {- \$uruwE -}          [ "attempt", "embarking on", "engaging in" ],
 
-    FaCL |< Iy |< aN          `adj`        {- \$aroEiy~AF -}    [ "legally", "legitimately" ],
+    FaCIL |< aT               `noun`    {- \$ariyEap -}        [ "Sharia", "Islamic law", "prescriptions of religious law" ],
 
-    FaCL |< Iy |< aT          `noun`       {- \$aroEiy~ap -}    [ "legitimacy", "legality" ],
+    TaFCIL                    `noun`    {- ta$oriyE -}         [ "legislation", "legislature" ],
 
-    FiCL |< aT                `noun`       {- \$iroEap -}       [ "law" ],
+    TaFCIL |< Iy              `adj`     {- ta$oriyEiy~ -}      [ "legislative" ],
 
-    FuCUL                     `noun`       {- \$uruwE -}        [ "attempt", "embarking on", "engaging in" ],
+    IFtiCAL |< Iy             `adj`     {- Ai$otirAEiy~ -}     [ "legislative" ],
 
-    FaCIL |< aT               `noun`       {- \$ariyEap -}      [ "Sharia", "Islamic law", "prescriptions of religious law" ],
-
-    TaFCIL                    `noun`       {- ta$oriyE -}       [ "legislation", "legislature" ],
-
-    TaFCIL |< Iy              `adj`        {- ta$oriyEiy~ -}    [ "legislative" ],
-
-    IFtiCAL |< Iy             `adj`        {- Ai$otirAEiy~ -}   [ "legislative" ],
-
-    FACiL                     `noun`       {- \$AriE -}         [ "street", "streets" ]
+    FACiL                     `noun`    {- \$AriE -}           [ "street", "streets" ]
                               `plural`     FawACiL
-                              {- `others` [ "^sawAri` Ndip" ] -},
+                           {- `others`  [ "^sawAri` Ndip" ] -},
 
-    FACiL                     `noun`       {- \$AriE -}         [ "legislator" ],
+    FACiL                     `noun`    {- \$AriE -}           [ "legislator" ],
 
-    MaFCUL                    `noun`       {- ma$oruwE -}       [ "project", "enterprise", "projects", "enterprises" ]
+    MaFCUL                    `noun`    {- ma$oruwE -}         [ "project", "enterprise", "projects", "enterprises" ]
                               `plural`     MaFACIL
-                              {- `others` [ "ma^sAriy` Ndip" ] -},
+                           {- `others`  [ "ma^sAriy` Ndip" ] -},
 
-    MaFCUL                    `adj`        {- ma$oruwE -}       [ "lawful", "legal" ],
+    MaFCUL                    `adj`     {- ma$oruwE -}         [ "lawful", "legal" ],
 
-    MuFaCCiL                  `noun`       {- mu$ar~iE -}       [ "legislator", "law-maker" ] ]
+    MuFaCCiL                  `noun`    {- mu$ar~iE -}         [ "legislator", "law-maker" ] ]
 
  |> "^s r b" <| [
 
-    FaCiL                     `verb`       {- \$arib-a -}       [ "drink" ]
-                              `imperf`     FCaL,
+    FuCL                      `noun`    {- \$urob -}           [ "drinking" ],
 
-    FaCCaL                    `verb`       {- \$ar~ab -}        [ "make drink" ],
+    FaCAL                     `noun`    {- \$arAb -}           [ "beverage", "drink" ],
 
-    FuCCAL                    `noun`       {- \$ur~Ab -}        [ "stocking", "sock" ],
-
-    FuCL                      `noun`       {- \$urob -}         [ "drinking" ],
-
-    FaCAL                     `noun`       {- \$arAb -}         [ "beverage", "drink" ],
-
-    FaCCAL                    `adj`        {- \$ar~Ab -}        [ "imbiber" ],
-
-    MaFCaL                    `noun`       {- ma$orab -}        [ "drink", "drinks", "drinking places" ]
+    MaFCaL                    `noun`    {- ma$orab -}          [ "drink", "drinks", "drinking places" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma^sArib Ndip" ] -},
+                           {- `others`  [ "ma^sArib Ndip" ] -},
 
-    MaFCaL                    `noun`       {- ma$orab -}        [ "drinking place" ],
+    MaFCaL                    `noun`    {- ma$orab -}          [ "drinking place" ],
 
-    MaFCUL                    `noun`       {- ma$oruwb -}       [ "beverage", "drink", "beverages" ] ]
+    MaFCUL                    `noun`    {- ma$oruwb -}         [ "beverage", "drink", "beverages" ] ]
 
  |> "^s r d" <| [
 
-    FaCaL                     `verb`       {- \$arad-u -}       [ "wander", "be distracted" ]
-                              `imperf`     FCuL,
+    FaCCaL                    `verb`    {- \$ar~ad -}          [ "dispossess", "make homeless" ],
 
-    FaCCaL                    `verb`       {- \$ar~ad -}        [ "dispossess", "make homeless" ],
+    FuCUL                     `noun`    {- \$uruwd -}          [ "wandering", "distraction" ],
 
-    FaCUL                     `noun`       {- \$aruwd -}        [ "straying", "aberrant" ]
-                              `plural`     FuCuL
-                              {- `others` [ "^surud N" ] -},
+    TaFCIL                    `noun`    {- ta$oriyd -}         [ "eviction", "homelessness" ],
 
-    FuCUL                     `noun`       {- \$uruwd -}        [ "wandering", "distraction" ],
+    TaFaCCuL                  `noun`    {- ta$ar~ud -}         [ "homelessness" ],
 
-    TaFCIL                    `noun`       {- ta$oriyd -}       [ "eviction", "homelessness" ],
-
-    TaFaCCuL                  `noun`       {- ta$ar~ud -}       [ "homelessness" ],
-
-    FACiL                     `noun`       {- \$Arid -}         [ "fugitive", "wandering", "fugitives" ]
+    FACiL                     `noun`    {- \$Arid -}           [ "fugitive", "wandering", "fugitives" ]
                               `plural`     FuCuL
                               `plural`     FawACiL
-                              {- `others` [ "^surud N", "^sawArid Ndip" ] -},
+                           {- `others`  [ "^surud N", "^sawArid Ndip" ] -},
 
-    FACiL |< aT               `noun`       {- \$Aridap -}       [ "exception", "anomaly", "exceptions", "anomalies" ]
+    FACiL |< aT               `noun`    {- \$Aridap -}         [ "exception", "anomaly", "exceptions", "anomalies" ]
                               `plural`     FawACiL
-                              {- `others` [ "^sawArid Ndip" ] -},
+                           {- `others`  [ "^sawArid Ndip" ] -},
 
-    MuFaCCaL                  `adj`        {- mu$ar~ad -}       [ "homeless", "displaced" ],
+    MuFaCCaL                  `adj`     {- mu$ar~ad -}         [ "homeless", "displaced" ],
 
-    MutaFaCCiL                `adj`        {- muta$ar~id -}     [ "homeless", "displaced" ] ]
+    MutaFaCCiL                `adj`     {- muta$ar~id -}       [ "homeless", "displaced" ] ]
 
  |> "^s r f" <| [
 
-    FaCuL                     `verb`       {- \$aruf-u -}       [ "be noble", "be distinguished" ]
-                              `imperf`     FCuL,
+    FACaL                     `verb`    {- \$Araf -}           [ "overlook", "supervise" ],
 
-    FaCCaL                    `verb`       {- \$ar~af -}        [ "honor" ],
+    HaFCaL                    `verb`    {- Oa$oraf -}          [ "oversee", "supervise", "manage", "be overseen", "be supervised", "be managed" ],
 
-    FACaL                     `verb`       {- \$Araf -}         [ "overlook", "supervise" ],
+    FaCaL                     `noun`    {- \$araf -}           [ "honor", "distinction" ],
 
-    HaFCaL                    `verb`       {- Oa$oraf -}        [ "oversee", "supervise", "manage", "be overseen", "be supervised", "be managed" ],
+    FaCaL                     `noun`    {- \$araf -}           [ "Sharaf" ],
 
-    TaFaCCaL                  `verb`       {- ta$ar~af -}       [ "be honored" ],
-
-    FaCaL                     `noun`       {- \$araf -}         [ "honor", "distinction" ],
-
-    FaCaL                     `noun`       {- \$araf -}         [ "Sharaf" ],
-
-    FuCL |< aT                `noun`       {- \$urofap -}       [ "balcony", "balconies" ]
+    FuCL |< aT                `noun`    {- \$urofap -}         [ "balcony", "balconies" ]
                               `plural`     FuCaL |< At,
 
-    FaCIL                     `noun`       {- \$ariyf -}        [ "Sharif" ],
+    FaCIL                     `noun`    {- \$ariyf -}          [ "Sharif" ],
 
-    FaCIL                     `adj`        {- \$ariyf -}        [ "noble", "honorable", "respectable" ]
+    FaCIL                     `adj`     {- \$ariyf -}          [ "noble", "honorable", "respectable" ]
                               `plural`     HaFCAL
                               `plural`     FuCaLA'
-                              {- `others` [ "'a^srAf N", "^surafA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "'a^srAf N", "^surafA' Nh N0_Nh Nhy" ] -},
 
-    HaFCaL                    `noun`       {- Oa$oraf -}        [ "Ashraf" ],
+    HaFCaL                    `noun`    {- Oa$oraf -}          [ "Ashraf" ],
 
-    HaFCaL                    `adj`        {- Oa$oraf -}        [ "more/most noble/honorable" ],
+    HaFCaL                    `adj`     {- Oa$oraf -}          [ "more/most noble/honorable" ],
 
-    MaFCaL                    `noun`       {- ma$oraf -}        [ "height", "elevation", "heights", "elevations", "view" ]
+    MaFCaL                    `noun`    {- ma$oraf -}          [ "height", "elevation", "heights", "elevations", "view" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma^sArif Ndip" ] -},
+                           {- `others`  [ "ma^sArif Ndip" ] -},
 
-    TaFCIL                    `noun`       {- ta$oriyf -}       [ "honoring" ],
-
-    TaFCIL |< aT              `noun`       {- ta$oriyfap -}     [ "bestowal of honors", "honoring" ],
-
-    TaFCIL |< At              `noun`       {- ta$oriyfAt -}     [ "honors", "ceremonies", "protocol" ]
+    TaFCIL |< At              `noun`    {- ta$oriyfAt -}       [ "honors", "ceremonies", "protocol" ]
                               `plural`     TaFCIL |< At,
 
-    HiFCAL                    `noun`       {- Ii$orAf -}        [ "supervision", "direction", "patronage" ],
+    HiFCAL                    `noun`    {- Ii$orAf -}          [ "supervision", "direction", "patronage" ],
 
-    HiFCAL |< Iy              `adj`        {- Ii$orAfiy~ -}     [ "supervisory", "directing" ],
+    IstiFCAL                  `noun`    {- Aisoti$orAf -}      [ "observation", "supervision" ],
 
-    IstiFCAL                  `noun`       {- Aisoti$orAf -}    [ "observation", "supervision" ],
+    MuFaCCiL                  `adj`     {- mu$ar~if -}         [ "honorable", "honorary" ],
 
-    FACiL                     `noun`       {- \$Arif -}         [ "old camel mare", "old camel mares" ]
-                              `plural`     FawACiL
-                              {- `others` [ "^sawArif Ndip" ] -},
+    MuFaCCaL                  `noun`    {- mu$ar~af -}         [ "Musharraf" ],
 
-    MuFaCCiL                  `adj`        {- mu$ar~if -}       [ "honorable", "honorary" ],
-
-    MuFaCCaL                  `noun`       {- mu$ar~af -}       [ "Musharraf" ],
-
-    MuFCiL                    `noun`       {- mu$orif -}        [ "supervisor", "director" ] ]
-
- |> "^s r h" <| [
-
-    FaCiL                     `verb`       {- \$arih-a -}       [ "be greedy", "be gluttonous" ]
-                              `imperf`     FCaL,
-
-    FaCiL                     `adj`        {- \$arih -}         [ "greedy", "gluttonous" ] ]
+    MuFCiL                    `noun`    {- mu$orif -}          [ "supervisor", "director" ] ]
 
  |> "^s r k" <| [
 
-    FaCiL                     `verb`       {- \$arik-a -}       [ "associate", "participate" ]
-                              `imperf`     FCaL,
+    FACaL                     `verb`    {- \$Arak -}           [ "participate", "share" ],
 
-    FACaL                     `verb`       {- \$Arak -}         [ "participate", "share" ],
+    IFtaCaL                   `verb`    {- Ai$otarak -}        [ "participate" ],
 
-    TaFACaL                   `verb`       {- ta$Arak -}        [ "be partners" ],
-
-    IFtaCaL                   `verb`       {- Ai$otarak -}      [ "participate" ],
-
-    FiCL                      `noun`       {- \$irok -}         [ "idolatry" ],
-
-    FaCaL                     `noun`       {- \$arak -}         [ "trap", "net", "traps", "nets" ]
-                              `plural`     HaFCAL
-                              `plural`     FuCuL
-                              {- `others` [ "'a^srAk N", "^suruk N" ] -},
-
-    FaCiL |< aT               `noun`       {- \$arikap -}       [ "company", "corporation", "companies", "corporations" ]
+    FaCiL |< aT               `noun`    {- \$arikap -}         [ "company", "corporation", "companies", "corporations" ]
                               `plural`     FaCiL |< At,
 
-    FiCAL |< aT               `noun`       {- \$irAkap -}       [ "partnership" ],
+    FiCAL |< aT               `noun`    {- \$irAkap -}         [ "partnership" ],
 
-    FaCIL                     `noun`       {- \$ariyk -}        [ "partner", "associate", "partners", "associates", "associates (female)" ]
+    FaCIL                     `noun`    {- \$ariyk -}          [ "partner", "associate", "partners", "associates", "associates (female)" ]
                               `plural`     FuCaLA'
-                              {- `others` [ "^surakA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "^surakA' Nh N0_Nh Nhy" ] -},
 
-    MuFACaL |< aT             `noun`       {- mu$Arakap -}      [ "participation", "association" ],
+    MuFACaL |< aT             `noun`    {- mu$Arakap -}        [ "participation", "association" ],
 
-    HiFCAL                    `noun`       {- Ii$orAk -}        [ "participation", "implication" ],
+    HiFCAL                    `noun`    {- Ii$orAk -}          [ "participation", "implication" ],
 
-    TaFACuL                   `noun`       {- ta$Aruk -}        [ "joint participation" ],
+    IFtiCAL                   `noun`    {- Ai$otirAk -}        [ "partnership", "participation" ],
 
-    IFtiCAL                   `noun`       {- Ai$otirAk -}      [ "partnership", "participation" ],
+    IFtiCAL                   `noun`    {- Ai$otirAk -}        [ "subscription", "subscriptions" ],
 
-    IFtiCAL                   `noun`       {- Ai$otirAk -}      [ "subscription", "subscriptions" ],
+    IFtiCAL |< Iy             `adj`     {- Ai$otirAkiy~ -}     [ "socialist" ],
 
-    IFtiCAL |< Iy             `adj`        {- Ai$otirAkiy~ -}   [ "socialist" ],
+    IFtiCAL |< Iy |< aT       `noun`    {- Ai$otirAkiy~ap -}   [ "socialism" ],
 
-    IFtiCAL |< Iy |< aT       `noun`       {- Ai$otirAkiy~ap -} [ "socialism" ],
+    MuFACiL                   `noun`    {- mu$Arik -}          [ "participant", "associate" ],
 
-    MuFACiL                   `noun`       {- mu$Arik -}        [ "participant", "associate" ],
+    MuFtaCiL                  `noun`    {- mu$otarik -}        [ "participant", "subscriber" ],
 
-    MuFtaCiL                  `noun`       {- mu$otarik -}      [ "participant", "subscriber" ],
+    MuFtaCaL                  `adj`     {- mu$otarak -}        [ "common", "joint", "collective" ],
 
-    MuFtaCaL                  `adj`        {- mu$otarak -}      [ "common", "joint", "collective" ],
-
-    FICAL                     `noun`       {- \$iyrAk -}        [ "Chirac" ] ]
+    FICAL                     `noun`    {- \$iyrAk -}          [ "Chirac" ] ]
 
  |> "^s r l" <| [
 
-    FACL                      `noun`       {- \$Arl -}          [ "Charles" ] ]
+    FACL                      `noun`    {- \$Arl -}            [ "Charles" ] ]
 
  |> "^s r m" <| [
 
-    FaCL                      `noun`       {- \$arom -}         [ "Sharm" ],
+    FaCL                      `noun`    {- \$arom -}           [ "Sharm" ],
 
-    FaCaL                     `verb`       {- \$aram-i -}       [ "split", "slash" ]
-                              `imperf`     FCiL,
-
-    FaCL                      `noun`       {- \$arom -}         [ "crack", "bay", "cracks", "bays" ]
+    FaCL                      `noun`    {- \$arom -}           [ "crack", "bay", "cracks", "bays" ]
                               `plural`     FuCUL
-                              {- `others` [ "^suruwm N" ] -} ]
+                           {- `others`  [ "^suruwm N" ] -} ]
 
  |> "^s r n" <| [
 
-    FACUL                     `noun`       {- \$Aruwn -}        [ "Sharon" ] ]
+    FACUL                     `noun`    {- \$Aruwn -}          [ "Sharon" ] ]
 
  |> "^s r q" <| [
 
-    FaCaL                     `verb`       {- \$araq-u -}       [ "rise", "shine" ]
-                              `imperf`     FCuL,
+    HaFCaL                    `verb`    {- Oa$oraq -}          [ "rise", "shine", "be risen", "be shone" ],
 
-    FaCiL                     `verb`       {- \$ariq-a -}       [ "choke" ]
-                              `imperf`     FCaL,
+    FaCL                      `noun`    {- \$aroq -}           [ "east (of)" ],
 
-    HaFCaL                    `verb`       {- Oa$oraq -}        [ "rise", "shine", "be risen", "be shone" ],
+    FaCL                      `noun`    {- \$aroq -}           [ "East" ],
 
-    TaFaCCaL                  `verb`       {- ta$ar~aq -}       [ "become Oriental" ],
+    FaCL |< Iy                `adj`     {- \$aroqiy~ -}        [ "Eastern", "Oriental", "east (of)" ],
 
-    FaCL                      `noun`       {- \$aroq -}         [ "east (of)" ],
+    FaCLA' |< Iy              `adj`     {- \$aroqAwiy~ -}      [ "Sharqawi" ],
 
-    FaCL                      `noun`       {- \$aroq -}         [ "East" ],
+    FuCUL                     `noun`    {- \$uruwq -}          [ "sunrise" ],
 
-    FaCL |< Iy                `adj`        {- \$aroqiy~ -}      [ "Eastern", "Oriental", "east (of)" ],
-
-    FaCLA' |< Iy              `adj`        {- \$aroqAwiy~ -}    [ "Sharqawi" ],
-
-    FuCUL                     `noun`       {- \$uruwq -}        [ "sunrise" ],
-
-    MaFCiL                    `noun`       {- ma$oriq -}        [ "East", "Levant" ]
+    MaFCiL                    `noun`    {- ma$oriq -}          [ "East", "Levant" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma^sAriq Ndip" ] -},
+                           {- `others`  [ "ma^sAriq Ndip" ] -},
 
-    MaFCiL |< Iy              `adj`        {- ma$oriqiy~ -}     [ "Eastern", "Levantine" ]
+    MaFCiL |< Iy              `adj`     {- ma$oriqiy~ -}       [ "Eastern", "Levantine" ]
                               `plural`     MaFACiL |< aT,
 
-    HiFCAL                    `noun`       {- Ii$orAq -}        [ "sunrise", "splendor" ],
+    HiFCAL                    `noun`    {- Ii$orAq -}          [ "sunrise", "splendor" ],
 
-    FACiL |< aT               `noun`       {- \$Ariqap -}       [ "Sharjah" ],
+    FACiL |< aT               `noun`    {- \$Ariqap -}         [ "Sharjah" ],
 
-    MuFCiL                    `adj`        {- mu$oriq -}        [ "splendid", "shining", "bright", "auspicious (future)" ],
+    MuFCiL                    `adj`     {- mu$oriq -}          [ "splendid", "shining", "bright", "auspicious (future)" ],
 
-    MustaFCiL                 `noun`       {- musota$oriq -}    [ "Orientalist" ] ]
+    MustaFCiL                 `noun`    {- musota$oriq -}      [ "Orientalist" ] ]
 
  |> "^s r r" <| [
 
-    FaCL                      `verb`       {- \$ar~-a -}        [ "be evil", "be malicious" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
-
-    FaCL                      `noun`       {- \$ar~ -}          [ "evil", "malice" ]
-                              `plural`     FuCUL
-                              {- `others` [ "^suruwr N" ] -},
-
-    FiCL |< aT                `noun`       {- \$ir~ap -}        [ "evil", "malice" ],
-
-    FaCIL                     `noun`       {- \$ariyr -}        [ "bad", "wicked", "evil" ]
+    FaCIL                     `noun`    {- \$ariyr -}          [ "bad", "wicked", "evil" ]
                               `plural`     HaFCAL
-                              {- `others` [ "'a^srAr N" ] -},
+                           {- `others`  [ "'a^srAr N" ] -},
 
-    FiCCIL                    `noun`       {- \$ir~iyr -}       [ "wicked", "evil", "bad", "Satan" ],
-
-    FaCAL |< aT               `noun`       {- \$arArap -}       [ "spark", "sparks" ]
+    FaCAL |< aT               `noun`    {- \$arArap -}         [ "spark", "sparks" ]
                               `plural`     FaCAL
-                              {- `others` [ "^sarAr N" ] -},
-
-    FaCCAL                    `adj`        {- \$ar~Ar -}        [ "sparkling", "emitting sparks" ] ]
+                           {- `others`  [ "^sarAr N" ] -} ]
 
  |> "^s r s" <| [
 
-    FaCiL                     `verb`       {- \$aris-a -}       [ "be vicious" ]
+    FaCiL                     `verb`    {- \$aris-a -}         [ "be vicious" ]
                               `imperf`     FCaL,
 
-    FiCAL                     `noun`       {- \$irAs -}         [ "glue", "paste" ],
+    FaCiL                     `adj`     {- \$aris -}           [ "vicious" ],
 
-    FaCaL                     `noun`       {- \$aras -}         [ "viciousness", "malice" ],
-
-    FaCiL                     `adj`        {- \$aris -}         [ "vicious" ],
-
-    FaCAL |< aT               `noun`       {- \$arAsap -}       [ "viciousness", "malice" ] ]
+    FaCAL |< aT               `noun`    {- \$arAsap -}         [ "viciousness", "malice" ] ]
 
  |> "^s r y" <| [
 
-    FaCY                      `verb`       {- \$araY-i -}       [ "buy", "purchase", "be bought", "be purchased" ]
-                              `imperf`     FCiL
-                              `imperf`     FCI,
+    IFtaCY                    `verb`    {- Ai$otaraY -}        [ "purchase", "be purchased" ],
 
-    IFtaCY                    `verb`       {- Ai$otaraY -}      [ "purchase", "be purchased" ],
+    FiCA'                     `noun`    {- \$irA' -}           [ "purchase", "purchasing" ],
 
-    FaCL                      `noun`       {- \$aroy -}         [ "colocynth" ],
+    FiCA' |< Iy               `adj`     {- \$irA}iy~ -}        [ "purchasing" ],
 
-    FiCY                      `noun`       {- \$iraY -}         [ "purchase" ]
-                              `plural`     HaFCiL |< aT,
+    IFtiCA'                   `noun`    {- Ai$otirA' -}        [ "purchase", "purchases" ],
 
-    FiCA'                     `noun`       {- \$irA' -}         [ "purchase", "purchasing" ],
+    FACiL                     `noun`    {- \$Ariy -}           [ "buyer", "client", "buyers", "clients" ],
 
-    FiCA' |< Iy               `adj`        {- \$irA}iy~ -}      [ "purchasing" ],
+    FACiL                     `noun`    {- \$Ariy -}           [ "lightning rod" ],
 
-    IFtiCA'                   `noun`       {- Ai$otirA' -}      [ "purchase", "purchases" ],
+    MuFtaCiL                  `noun`    {- mu$otariy -}        [ "buyer" ],
 
-    FACiL                     `noun`       {- \$Ariy -}         [ "buyer", "client", "buyers", "clients" ],
+    MuFtaCiL                  `noun`    {- mu$otariy -}        [ "Jupiter" ],
 
-    FACiL                     `noun`       {- \$Ariy -}         [ "lightning rod" ],
-
-    MuFtaCiL                  `noun`       {- mu$otariy -}      [ "buyer" ],
-
-    MuFtaCiL                  `noun`       {- mu$otariy -}      [ "Jupiter" ],
-
-    MuFtaCY                   `noun`       {- mu$otaraY -}      [ "purchased goods" ]
+    MuFtaCY                   `noun`    {- mu$otaraY -}        [ "purchased goods" ]
                               `plural`     MuFtaCaL |< At,
 
-    FiCLAn                    `noun`       {- \$iroyAn -}       [ "artery", "arteries" ] ]
+    FiCLAn                    `noun`    {- \$iroyAn -}         [ "artery", "arteries" ] ]
 
  |> "^s r z" <| [
 
-    FICAL                     `noun`       {- \$iyrAz -}        [ "Shiraz" ] ]
+    FICAL                     `noun`    {- \$iyrAz -}          [ "Shiraz" ] ]
 
  |> "^s s `" <| [
 
-    FACiL                     `adj`        {- \$AsiE -}         [ "wide", "vast", "extensive", "huge" ] ]
+    FACiL                     `adj`     {- \$AsiE -}           [ "wide", "vast", "extensive", "huge" ] ]
 
  |> "^s t '" <| [
 
-    FiCAL                     `noun`       {- \$itA' -}         [ "winter", "winters" ],
+    FiCAL                     `noun`    {- \$itA' -}           [ "winter", "winters" ],
 
-    FiCAL                     `noun`       {- \$itA' -}         [ "rain", "rains" ] ]
+    FiCAL                     `noun`    {- \$itA' -}           [ "rain", "rains" ] ]
 
  |> "^s t d" <| [
 
-    IFCaLL                    `verb`       {- Ai$otad~ -}       [ "intensify" ] ]
+    IFCaLL                    `verb`    {- Ai$otad~ -}         [ "intensify" ] ]
 
  |> "^s t l" <| [
 
-    MaFCaL                    `noun`       {- ma$otal -}        [ "arboretum", "plant nursery", "arboreta", "plant nurseries" ]
+    MaFCaL                    `noun`    {- ma$otal -}          [ "arboretum", "plant nursery", "arboreta", "plant nurseries" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma^sAtil Ndip" ] -} ]
+                           {- `others`  [ "ma^sAtil Ndip" ] -} ]
 
  |> "^s t m" <| [
 
-    FaCIL |< aT               `noun`       {- \$atiymap -}      [ "insult", "invective", "insults", "invectives" ] ]
+    FaCIL |< aT               `noun`    {- \$atiymap -}        [ "insult", "invective", "insults", "invectives" ] ]
 
  |> "^s t q" <| [
 
-    MuFCaLL                   `noun`       {- mu$otaq~ -}       [ "derivative" ] ]
-
- |> "^s t r" <| [
-
-    FaCaL                     `verb`       {- \$atar-i -}       [ "cut off", "tear up" ]
-                              `imperf`     FCiL ]
+    MuFCaLL                   `noun`    {- mu$otaq~ -}         [ "derivative" ] ]
 
  |> "^s t t" <| [
 
-    FaCL                      `verb`       {- \$at~-i -}        [ "disperse", "scatter" ]
-                              `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+    FaCLY                     `noun`    {- \$at~aY -}          [ "all", "diverse", "miscellaneous" ],
 
-    HaFaCL                    `verb`       {- Oa$at~ -}         [ "disperse", "scatter", "be dispersed", "be scattered" ],
+    FaCCY                     `noun`    {- \$at~aY -}          [ "all", "diverse", "miscellaneous" ],
 
-    FaCL                      `noun`       {- \$at~ -}          [ "dispersed", "scattered" ],
-
-    FaCLY                     `noun`       {- \$at~aY -}        [ "all", "diverse", "miscellaneous" ],
-
-    FaCCY                     `noun`       {- \$at~aY -}        [ "all", "diverse", "miscellaneous" ],
-
-    FaL |< At                 `noun`       {- \$atAt -}         [ "dispersed", "scattered" ]
+    FaL |< At                 `noun`    {- \$atAt -}           [ "dispersed", "scattered" ]
                               `plural`     FaCIL |< aT,
 
-    TaFCIL                    `noun`       {- ta$otiyt -}       [ "dispersion", "scattering", "disruption" ],
+    TaFCIL                    `noun`    {- ta$otiyt -}         [ "dispersion", "scattering", "disruption" ],
 
-    FaCLY                     `verb`       {- \$at~aY -}        [ "hibernate", "spend the winter", "rain" ] ]
+    FaCLY                     `verb`    {- \$at~aY -}          [ "hibernate", "spend the winter", "rain" ] ]
 
  |> "^s t w" <| [
 
-    FaCA                      `verb`       {- \$atA-u -}        [ "hibernate", "spend the winter" ]
-                              `imperf`     FCuL
-                              `imperf`     FCU,
+    FaCCY                     `verb`    {- \$at~aY -}          [ "hibernate", "spend the winter", "rain" ],
 
-    FaCCY                     `verb`       {- \$at~aY -}        [ "hibernate", "spend the winter", "rain" ],
+    FiCA'                     `noun`    {- \$itA' -}           [ "winter", "winters" ],
 
-    TaFaCCY                   `verb`       {- ta$at~aY -}       [ "hibernate", "spend the winter" ],
+    FiCA'                     `noun`    {- \$itA' -}           [ "rain", "rains" ],
 
-    FiCA'                     `noun`       {- \$itA' -}         [ "winter", "winters" ],
-
-    FiCA'                     `noun`       {- \$itA' -}         [ "rain", "rains" ],
-
-    FaCY |< Iy                `adj`        {- \$atawiy~ -}      [ "winter", "wintery" ] ]
+    FaCY |< Iy                `adj`     {- \$atawiy~ -}        [ "winter", "wintery" ] ]
 
  |> "^s w .t" <| [
 
-    FaCL                      `noun`       {- \$awoT -}         [ "progress", "headway" ],
+    FaCL                      `noun`    {- \$awoT -}           [ "progress", "headway" ],
 
-    FaCL                      `noun`       {- \$awoT -}         [ "round", "phase", "game", "half period", "rounds", "phases", "games" ]
+    FaCL                      `noun`    {- \$awoT -}           [ "round", "phase", "game", "half period", "rounds", "phases", "games" ]
                               `plural`     HaFCAL
-                              {- `others` [ "'a^swA.t N" ] -} ]
+                           {- `others`  [ "'a^swA.t N" ] -} ]
 
  |> "^s w ^s" <| [
 
-    FaCCaL                    `verb`       {- \$aw~a$ -}        [ "confuse", "disturb" ],
-
-    TaFaCCaL                  `verb`       {- ta$aw~a$ -}       [ "be confused", "be disturbed" ],
-
-    FAL                       `noun`       {- \$A$ -}           [ "muslin", "white cloth" ],
-
-    FAL |< aT                 `noun`       {- \$A$ap -}         [ "screen", "screens" ]
+    FAL |< aT                 `noun`    {- \$A$ap -}           [ "screen", "screens" ]
                               `plural`     FAL |< At,
 
-    TaFaCCuL                  `noun`       {- ta$aw~u$ -}       [ "confusion", "imbroglio" ] ]
+    TaFaCCuL                  `noun`    {- ta$aw~u$ -}         [ "confusion", "imbroglio" ] ]
 
  |> "^s w b" <| [
 
-    FAL                       `verb`       {- \$Ab-u -}         [ "corrupt", "adulterate" ]
+    FAL                       `verb`    {- \$Ab-u -}           [ "corrupt", "adulterate" ]
                               `imperf`     FUL
-                              `imperf`     FuCL
                               `pfirst`     FuL
                               `ithird`     FuL,
 
-    FA'iL |< aT               `noun`       {- \$A}ibap -}       [ "defect", "impurity", "defects", "impurities" ]
+    FA'iL |< aT               `noun`    {- \$A}ibap -}         [ "defect", "impurity", "defects", "impurities" ]
                               `plural`     FawA'iL
-                              {- `others` [ "^sawA'ib Ndip" ] -} ]
+                           {- `others`  [ "^sawA'ib Ndip" ] -} ]
 
  |> "^s w f" <| [
 
-    FAL                       `verb`       {- \$Af-u -}         [ "look" ]
-                              `imperf`     FUL
-                              `imperf`     FuCL
-                              `pfirst`     FuL
-                              `ithird`     FuL
-                              `second`     FUL
-                              `second`     FuCL,
-
-    FuCL                      `noun`       {- \$uwf -}          [ "Shouf", "Chouf" ] ]
+    FuCL                      `noun`    {- \$uwf -}            [ "Shouf", "Chouf" ] ]
 
  |> "^s w h" <| [
 
-    FAL                       `verb`       {- \$Ah-u -}         [ "be deformed", "be distorted", "become ugly" ]
+    FAL                       `verb`    {- \$Ah-u -}           [ "be deformed", "be distorted", "become ugly" ]
                               `imperf`     FUL
-                              `imperf`     FuCL
                               `pfirst`     FuL
                               `ithird`     FuL,
 
-    FaCiL                     `verb`       {- \$awih-a -}       [ "be deformed", "be distorted", "become ugly" ]
+    FaCiL                     `verb`    {- \$awih-a -}         [ "be deformed", "be distorted", "become ugly" ]
                               `imperf`     FaL,
 
-    FaCCaL                    `verb`       {- \$aw~ah -}        [ "distort", "tarnish" ],
+    FaCCaL                    `verb`    {- \$aw~ah -}          [ "distort", "tarnish" ],
 
-    TaFCIL                    `noun`       {- ta$owiyh -}       [ "distortion" ],
+    TaFCIL                    `noun`    {- ta$owiyh -}         [ "distortion" ],
 
-    TaFaCCuL                  `noun`       {- ta$aw~uh -}       [ "distortion" ],
+    TaFaCCuL                  `noun`    {- ta$aw~uh -}         [ "distortion" ],
 
-    MuFaCCaL                  `adj`        {- mu$aw~ah -}       [ "distorted", "disabled" ],
-
-    FY |< aT                  `noun`       {- \$Ap -}           [ "sheep" ]
-                              `plural`     FiCAL
-                              {- `others` [ "^siwAh N" ] -} ]
+    MuFaCCaL                  `adj`     {- mu$aw~ah -}         [ "distorted", "disabled" ] ]
 
  |> "^s w k" <| [
 
-    FAL                       `verb`       {- \$Ak-u -}         [ "sting", "prick" ]
+    FAL                       `verb`    {- \$Ak-u -}           [ "sting", "prick" ]
                               `imperf`     FUL
-                              `imperf`     FuCL
                               `pfirst`     FuL
                               `ithird`     FuL,
 
-    FaCCaL                    `verb`       {- \$aw~ak -}        [ "sting", "prick" ],
-
-    HaFAL                     `verb`       {- Oa$Ak -}          [ "sting", "prick", "be stung", "be pricked" ],
-
-    FaCL                      `noun`       {- \$awok -}         [ "thorns", "pricks", "forks" ]
+    FaCL                      `noun`    {- \$awok -}           [ "thorns", "pricks", "forks" ]
                               `plural`     HaFCAL
-                              {- `others` [ "'a^swAk N" ] -},
+                           {- `others`  [ "'a^swAk N" ] -},
 
-    FA'iL                     `adj`        {- \$A}ik -}         [ "barbed", "thorny", "prickly" ],
-
-    FaCiL                     `adj`        {- \$awik -}         [ "thorny", "prickly" ] ]
-
- |> "^s w l" <| [
-
-    FAL                       `verb`       {- \$Al-u -}         [ "carry", "lift" ]
-                              `imperf`     FUL
-                              `imperf`     FuCL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
-
-    FaCCaL                    `verb`       {- \$aw~al -}        [ "be sparse" ],
-
-    HaFAL                     `verb`       {- Oa$Al -}          [ "carry", "lift", "be carried", "be lifted" ] ]
+    FA'iL                     `adj`     {- \$A}ik -}           [ "barbed", "thorny", "prickly" ] ]
 
  |> "^s w n" <| [
 
-    FuCL |< aT                `noun`       {- \$uwnap -}        [ "granary", "barn", "granaries", "barns" ]
+    FuCL |< aT                `noun`    {- \$uwnap -}          [ "granary", "barn", "granaries", "barns" ]
                               `plural`     FuCaL
-                              {- `others` [ "^suwan N" ] -} ]
+                           {- `others`  [ "^suwan N" ] -} ]
 
  |> "^s w q" <| [
 
-    FAL                       `verb`       {- \$Aq-u -}         [ "please", "delight" ]
-                              `imperf`     FUL
-                              `imperf`     FuCL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
-
-    FaCL                      `noun`       {- \$awoq -}         [ "desire", "wish", "desires", "wishes" ]
+    FaCL                      `noun`    {- \$awoq -}           [ "desire", "wish", "desires", "wishes" ]
                               `plural`     HaFCAL
-                              {- `others` [ "'a^swAq N" ] -},
-
-    MuFtAL                    `adj`        {- mu$otAq -}        [ "yearning", "desirous" ] ]
+                           {- `others`  [ "'a^swAq N" ] -} ]
 
  |> "^s w q y" <| [
 
-    KaRDiS                    `noun`       {- \$awoqiy -}       [ "Shawqi" ] ]
+    KaRDiS                    `noun`    {- \$awoqiy -}         [ "Shawqi" ] ]
 
  |> "^s w r" <| [
 
-    FACaL                     `verb`       {- \$Awar -}         [ "take counsel with", "consult with" ],
+    HaFAL                     `verb`    {- Oa$Ar -}            [ "indicate", "mention", "cite", "be indicated", "be mentioned", "be cited" ],
 
-    HaFAL                     `verb`       {- Oa$Ar -}          [ "indicate", "mention", "cite", "be indicated", "be mentioned", "be cited" ],
+    TaFACaL                   `verb`    {- ta$Awar -}          [ "deliberate", "consult" ],
 
-    TaFACaL                   `verb`       {- ta$Awar -}        [ "deliberate", "consult" ],
+    FAL |< aT                 `noun`    {- \$Arap -}           [ "badge", "insignia", "emblem" ],
 
-    IstaFAL                   `verb`       {- Aisota$Ar -}      [ "consult", "seek the advice of" ],
+    FuCLY                     `noun`    {- \$uwraY -}          [ "consultation", "deliberation", "Shoura", "Shura" ],
 
-    FAL |< aT                 `noun`       {- \$Arap -}         [ "badge", "insignia", "emblem" ],
+    FuCL |< Iy                `adj`     {- \$uwriy~ -}         [ "advisory", "consultative" ],
 
-    FuCLY                     `noun`       {- \$uwraY -}        [ "consultation", "deliberation", "Shoura", "Shura" ],
+    MiFCAL                    `noun`    {- mi$owAr -}          [ "cycle", "stroke" ],
 
-    FuCL |< Iy                `adj`        {- \$uwriy~ -}       [ "advisory", "consultative" ],
+    MiFCAL                    `noun`    {- mi$owAr -}          [ "course", "trajectory" ],
 
-    MiFCAL                    `noun`       {- mi$owAr -}        [ "cycle", "stroke" ],
+    MuFACaL |< aT             `noun`    {- mu$Awarap -}        [ "consultation", "deliberation", "discussion" ],
 
-    MiFCAL                    `noun`       {- mi$owAr -}        [ "course", "trajectory" ],
-
-    MuFACaL |< aT             `noun`       {- mu$Awarap -}      [ "consultation", "deliberation", "discussion" ],
-
-    HiFAL |< aT               `noun`       {- Ii$Arap -}        [ "indication", "mention", "sign", "indications", "mentions", "signs" ]
+    HiFAL |< aT               `noun`    {- Ii$Arap -}          [ "indication", "mention", "sign", "indications", "mentions", "signs" ]
                               `plural`     HiFAL |< At,
 
-    TaFACuL                   `noun`       {- ta$Awur -}        [ "deliberation", "joint consultation" ],
+    TaFACuL                   `noun`    {- ta$Awur -}          [ "deliberation", "joint consultation" ],
 
-    TaFACuL |< Iy             `adj`        {- ta$Awuriy~ -}     [ "advisory", "consultative" ],
+    TaFACuL |< Iy             `adj`     {- ta$Awuriy~ -}       [ "advisory", "consultative" ],
 
-    IstiFAL |< aT             `noun`       {- Aisoti$Arap -}    [ "consultation" ],
+    IstiFAL |< aT             `noun`    {- Aisoti$Arap -}      [ "consultation" ],
 
-    IstiFAL |< Iy             `adj`        {- Aisoti$Ariy~ -}   [ "advisory", "consultative", "consulting" ],
+    IstiFAL |< Iy             `adj`     {- Aisoti$Ariy~ -}     [ "advisory", "consultative", "consulting" ],
 
-    MaFUL |< aT               `noun`       {- ma$uwrap -}       [ "consultation", "deliberation", "advice" ],
+    MaFUL |< aT               `noun`    {- ma$uwrap -}         [ "consultation", "deliberation", "advice" ],
 
-    MuFACaL                   `noun`       {- mu$Awar -}        [ "adviser", "consultant" ],
+    MuFACaL                   `noun`    {- mu$Awar -}          [ "adviser", "consultant" ],
 
-    MuFIL                     `adj`        {- mu$iyr -}         [ "indicative", "indicating" ],
+    MuFIL                     `adj`     {- mu$iyr -}           [ "indicative", "indicating" ],
 
-    MuFIL                     `noun`       {- mu$iyr -}         [ "field marshal", "general" ],
+    MuFIL                     `noun`    {- mu$iyr -}           [ "field marshal", "general" ],
 
-    MuFAL                     `adj`        {- mu$Ar -}          [ "aforementioned" ],
+    MuFAL                     `adj`     {- mu$Ar -}            [ "aforementioned" ],
 
-    MustaFAL                  `noun`       {- musota$Ar -}      [ "counselor", "adviser" ],
+    MustaFAL                  `noun`    {- musota$Ar -}        [ "counselor", "adviser" ],
 
-    MustaFAL |< Iy |< aT      `noun`       {- musota$Ariy~ap -} [ "chancellery" ],
-
-    MaFCaL |< aT              `noun`       {- ma$owarap -}      [ "consultation", "deliberation", "advice" ] ]
+    MaFCaL |< aT              `noun`    {- ma$owarap -}        [ "consultation", "deliberation", "advice" ] ]
 
  |> "^s w w" <| [
 
-    FuL                       `noun`       {- \$uw -}           [ "Shaw" ] ]
-
- |> "^s w y" <| [
-
-    FaCY                      `verb`       {- \$awaY-i -}       [ "roast", "grill", "be roasted", "be grilled" ]
-                              `imperf`     FCiL
-                              `imperf`     FCI,
-
-    FY |< Iy                  `adj`        {- \$awiy~ -}        [ "roasted", "broiled" ],
-
-    FaCY |< aT                `noun`       {- \$awAp -}         [ "scalp", "scalps" ]
-                              `plural`     FaCY
-                              `plural`     FaCA
-                              {- `others` [ "^sawY N0", "^sawA Nhy" ] -} ]
+    FuL                       `noun`    {- \$uw -}             [ "Shaw" ] ]
 
  |> "^s y '" <| [
 
-    FAL                       `verb`       {- \$A'-a -}         [ "want", "desire", "wish" ]
+    FAL                       `verb`    {- \$A'-a -}           [ "want", "desire", "wish" ]
                               `pfirst`     FiL
                               `ithird`     FaL,
 
-    FaCL                      `noun`       {- \$ayo' -}         [ "something", "things" ]
+    FaCL                      `noun`    {- \$ayo' -}           [ "something", "things" ]
                               `plural`     HaFCAL
                               `plural`     FaL
-                              {- `others` [ "'a^syA' Nh N0_Nh Nhy", "^sa' N0" ] -} ]
+                           {- `others`  [ "'a^syA' Nh N0_Nh Nhy", "^sa' N0" ] -} ]
 
  |> "^s y .h" <| [
 
-    FiCLAn                    `noun`       {- \$iyHAn -}        [ "Sheehan" ] ]
-
- |> "^s y .t" <| [
-
-    FAL                       `verb`       {- \$AT-i -}         [ "be burned" ]
-                              `imperf`     FIL
-                              `imperf`     FiCL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
-
-    FaCCaL                    `verb`       {- \$ay~aT -}        [ "scorch", "sear" ],
-
-    HaFAL                     `verb`       {- Oa$AT -}          [ "scorch", "sear", "be scorched", "be seared" ] ]
+    FiCLAn                    `noun`    {- \$iyHAn -}          [ "Sheehan" ] ]
 
  |> "^s y .t n" <| [
 
-    KaRDAS                    `noun`       {- \$ayoTAn -}       [ "Satan", "devil", "she-devil", "shrew", "devils" ]
-                              `plural`     KaRADIS
-                              {- `others` [ "^sayA.tiyn Ndip" ] -},
-
-    KaRDAS |< Iy              `adj`        {- \$ayoTAniy~ -}    [ "satanic", "devilish", "evil" ] ]
+    KaRDAS |< Iy              `adj`     {- \$ayoTAniy~ -}      [ "satanic", "devilish", "evil" ] ]
 
  |> "^s y ^s" <| [
 
-    FiCL |< aT                `noun`       {- \$iy$ap -}        [ "hookah", "sheesha" ],
+    FiCL |< aT                `noun`    {- \$iy$ap -}          [ "hookah", "sheesha" ],
 
-    FiCLAn                    `noun`       {- \$iy$An -}        [ "Chechenya", "Chechen" ],
+    FiCLAn                    `noun`    {- \$iy$An -}          [ "Chechenya", "Chechen" ],
 
-    FiCLAn |< Iy              `adj`        {- \$iy$Aniy~ -}     [ "Chechen" ] ]
+    FiCLAn |< Iy              `adj`     {- \$iy$Aniy~ -}       [ "Chechen" ] ]
 
  |> "^s y _h" <| [
 
-    FaCL                      `noun`       {- \$ayox -}         [ "Sheikh" ],
+    FaCL                      `noun`    {- \$ayox -}           [ "Sheikh" ],
 
-    FaCL                      `noun`       {- \$ayox -}         [ "sheikh", "chieftain", "sheikhs", "chieftains", "senators" ]
+    FaCL                      `noun`    {- \$ayox -}           [ "sheikh", "chieftain", "sheikhs", "chieftains", "senators" ]
                               `plural`     MaFACiL
                               `plural`     FuCUL
                               `plural`     HaFCAL
                               `plural`     MaFA'iL
-                              {- `others` [ "ma^sAyi_h Ndip", "^suyuw_h N", "'a^syA_h N", "ma^sA'i_h Ndip" ] -},
+                           {- `others`  [ "ma^sAyi_h Ndip", "^suyuw_h N", "'a^syA_h N", "ma^sA'i_h Ndip" ] -},
 
-    MaFCaL |< aT              `noun`       {- ma$oyaxap -}      [ "sheikhdom", "sheikhdoms" ]
+    MaFCaL |< aT              `noun`    {- ma$oyaxap -}        [ "sheikhdom", "sheikhdoms" ]
                               `plural`     MaFACiL
-                              {- `others` [ "ma^sAyi_h Ndip" ] -} ]
+                           {- `others`  [ "ma^sAyi_h Ndip" ] -} ]
 
  |> "^s y _h _h" <| [
 
-    KaRDUS |< aT              `noun`       {- \$ayoxuwxap -}    [ "old age", "seniority" ] ]
+    KaRDUS |< aT              `noun`    {- \$ayoxuwxap -}      [ "old age", "seniority" ] ]
 
  |> "^s y `" <| [
 
-    FAL                       `verb`       {- \$AE-i -}         [ "circulate", "be propagated" ]
+    FAL                       `verb`    {- \$AE-i -}           [ "circulate", "be propagated" ]
                               `imperf`     FIL
-                              `imperf`     FiCL
                               `pfirst`     FiL
                               `ithird`     FiL,
 
-    FaCCaL                    `verb`       {- \$ay~aE -}        [ "escort" ],
+    FaCCaL                    `verb`    {- \$ay~aE -}          [ "escort" ],
 
-    HaFAL                     `verb`       {- Oa$AE -}          [ "divulge", "publicize", "be divulged", "be publicized" ],
+    HaFAL                     `verb`    {- Oa$AE -}            [ "divulge", "publicize", "be divulged", "be publicized" ],
 
-    TaFaCCaL                  `verb`       {- ta$ay~aE -}       [ "take sides with", "be affiliated with" ],
-
-    FiCL |< aT                `noun`       {- \$iyEap -}        [ "Shiites", "partisans", "followers", "community" ]
+    FiCL |< aT                `noun`    {- \$iyEap -}          [ "Shiites", "partisans", "followers", "community" ]
                               `plural`     HaFCAL
                               `plural`     FiCaL
-                              {- `others` [ "'a^syA` N", "^siya` N" ] -},
+                           {- `others`  [ "'a^syA` N", "^siya` N" ] -},
 
-    FiCL |< Iy                `adj`        {- \$iyEiy~ -}       [ "Shiite" ],
+    FiCL |< Iy                `adj`     {- \$iyEiy~ -}         [ "Shiite" ],
 
-    FuCUL                     `noun`       {- \$uyuwE -}        [ "spreading", "circulation" ],
+    FuCUL                     `noun`    {- \$uyuwE -}          [ "spreading", "circulation" ],
 
-    FuCUL |< Iy               `adj`        {- \$uyuwEiy~ -}     [ "Communist" ],
+    FuCUL |< Iy               `adj`     {- \$uyuwEiy~ -}       [ "Communist" ],
 
-    FuCUL |< Iy |< aT         `noun`       {- \$uyuwEiy~ap -}   [ "Communism" ],
+    FuCUL |< Iy |< aT         `noun`    {- \$uyuwEiy~ap -}     [ "Communism" ],
 
-    TaFCIL                    `noun`       {- ta$oyiyE -}       [ "escorting", "burial" ],
+    TaFCIL                    `noun`    {- ta$oyiyE -}         [ "escorting", "burial" ],
 
-    HiFAL |< aT               `noun`       {- Ii$AEap -}        [ "spreading", "circulation" ],
+    HiFAL |< aT               `noun`    {- Ii$AEap -}          [ "spreading", "circulation" ],
 
-    HiFAL |< aT               `noun`       {- Ii$AEap -}        [ "rumor", "rumors" ]
+    HiFAL |< aT               `noun`    {- Ii$AEap -}          [ "rumor", "rumors" ]
                               `plural`     HiFAL |< At,
 
-    TaFaCCuL                  `noun`       {- ta$ay~uE -}       [ "partisanship", "bias" ],
-
-    FA'iL                     `adj`        {- \$A}iE -}         [ "widespread", "well-known" ]
+    FA'iL                     `adj`     {- \$A}iE -}           [ "widespread", "well-known" ]
                               `plural`     FACiL
-                              {- `others` [ "^sAyi` Nall" ] -} ]
+                           {- `others`  [ "^sAyi` Nall" ] -} ]
 
  |> "^s y b" <| [
 
-    FAL                       `verb`       {- \$Ab-i -}         [ "become gray-haired", "turn gray" ]
+    FAL                       `verb`    {- \$Ab-i -}           [ "become gray-haired", "turn gray" ]
                               `imperf`     FIL
-                              `imperf`     FiCL
                               `pfirst`     FiL
-                              `ithird`     FiL,
-
-    FaCCaL                    `verb`       {- \$ay~ab -}        [ "make old", "make the hair turn gray" ],
-
-    HaFAL                     `verb`       {- Oa$Ab -}          [ "make old", "make the hair turn gray", "be made old", "be turned gray (hair)" ],
-
-    FaCL                      `noun`       {- \$ayob -}         [ "gray hair", "old age" ],
-
-    FA'iL                     `adj`        {- \$A}ib -}         [ "gray-haired", "old" ],
-
-    HaFCaL                    `adj`        {- Oa$oyab -}        [ "gray-haired", "old" ]
-                              `plural`     FaCLA'
-                              `plural`     FIL
-                              `plural`     FiCL
-                              {- `others` [ "^saybA' Nh N0_Nh Nhy", "^siyb N" ] -},
-
-    FaCLAn                    `noun`       {- \$ayobAn -}       [ "old" ],
-
-    FaCLAn |< Iy              `adj`        {- \$ayobAniy~ -}    [ "old" ] ]
+                              `ithird`     FiL ]
 
  |> "^s y d" <| [
 
-    FAL                       `verb`       {- \$Ad-i -}         [ "build" ]
+    FAL                       `verb`    {- \$Ad-i -}           [ "build" ]
                               `imperf`     FIL
-                              `imperf`     FiCL
                               `pfirst`     FiL
                               `ithird`     FiL,
 
-    FaCCaL                    `verb`       {- \$ay~ad -}        [ "build" ],
+    FaCCaL                    `verb`    {- \$ay~ad -}          [ "build" ],
 
-    HaFAL                     `verb`       {- Oa$Ad -}          [ "praise", "commend", "build", "be praised", "be commended", "be built" ],
+    HaFAL                     `verb`    {- Oa$Ad -}            [ "praise", "commend", "build", "be praised", "be commended", "be built" ],
 
-    FiCL                      `noun`       {- \$iyd -}          [ "plaster", "mortar" ],
+    TaFCIL                    `noun`    {- ta$oyiyd -}         [ "construction", "erection" ],
 
-    TaFCIL                    `noun`       {- ta$oyiyd -}       [ "construction", "erection" ],
-
-    HiFAL |< aT               `noun`       {- Ii$Adap -}        [ "praise", "commendation" ],
-
-    MuFaCCaL                  `adj`        {- mu$ay~ad -}       [ "lofty" ],
-
-    MuFaCCiL                  `noun`       {- mu$ay~id -}       [ "builder", "constructor" ] ]
-
- |> "^s y k" <| [
-
-    FiCL                      `noun`       {- \$iyk -}          [ "check", "cheque" ],
-
-    FiCL                      `noun`       {- \$iyk -}          [ "chic" ] ]
-
- |> "^s y l" <| [
-
-    FAL                       `verb`       {- \$Al-i -}         [ "carry", "lift" ]
-                              `imperf`     FIL
-                              `imperf`     FiCL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
-
-    FIL |< Iy                 `adj`        {- \$iyliy~ -}       [ "Chilean" ],
-
-    FiCL |< Iy                `adj`        {- \$iyliy~ -}       [ "Chilean" ] ]
+    HiFAL |< aT               `noun`    {- Ii$Adap -}          [ "praise", "commendation" ] ]
 
  |> "^s y m" <| [
 
-    FAL                       `verb`       {- \$Am-i -}         [ "be on the lookout for", "expect" ]
+    FAL                       `verb`    {- \$Am-i -}           [ "be on the lookout for", "expect" ]
                               `imperf`     FIL
-                              `imperf`     FiCL
                               `pfirst`     FiL
                               `ithird`     FiL ]
 
  |> "^s y m n" <| [
 
-    KiRDUS                    `noun`       {- \$iymuwn -}       [ "Shimon" ] ]
+    KiRDUS                    `noun`    {- \$iymuwn -}         [ "Shimon" ] ]
 
  |> "^s y n" <| [
 
-    FAL                       `verb`       {- \$An-i -}         [ "disfigure", "disgrace" ]
-                              `imperf`     FiL
-                              `imperf`     FIL
-                              `imperf`     FiCL
-                              `pfirst`     FiL,
-
-    FaCCaL                    `verb`       {- \$ay~an -}        [ "disfigure", "disgrace" ],
-
-    FaCL                      `noun`       {- \$ayon -}         [ "disfigurement", "disgracing" ],
-
-    FA'iL                     `adj`        {- \$A}in -}         [ "disgraceful" ],
-
-    FaCCiL                    `adj`        {- \$ay~in -}        [ "disgraceful" ],
-
-    FiCL                      `noun`       {- \$iyn -}          [ "shin (Arabic letter)" ],
-
-    FiCL                      `noun`       {- \$iyn -}          [ "Shin (1st word in \"Shin Bet\")" ] ]
+    FA'iL                     `adj`     {- \$A}in -}           [ "disgraceful" ] ]
 
  |> "^s y q l" <| [
 
-    KiRDiS                    `noun`       {- \$iyqil -}        [ "shekel" ] ]
+    KiRDiS                    `noun`    {- \$iyqil -}          [ "shekel" ] ]
 
  |> "^s y r" <| [
 
-    MuFiCL                    `adj`        {- mu$iyr -}         [ "indicative", "indicating" ],
+    MuFiCL                    `adj`     {- mu$iyr -}           [ "indicative", "indicating" ],
 
-    MuFiCL                    `noun`       {- mu$iyr -}         [ "field marshal", "general" ],
-
-    FiCL                      `noun`       {- \$iyr -}          [ "Sher" ] ]
+    MuFiCL                    `noun`    {- mu$iyr -}           [ "field marshal", "general" ] ]
 
  |> "^s y r k" <| [
 
-    KiRDAS                    `noun`       {- \$iyrAk -}        [ "Chirac" ] ]
+    KiRDAS                    `noun`    {- \$iyrAk -}          [ "Chirac" ] ]
 
  |> "^s y r z" <| [
 
-    KiRDAS                    `noun`       {- \$iyrAz -}        [ "Shiraz" ] ]
-
- |> "^s y t" <| [
-
-    FiCL                      `noun`       {- \$iyt -}          [ "printed calico", "chintz" ]
-                              `plural`     FuCUL |< At ]
-
- |> "^s y y" <| [
-
-    FaCL                      `noun`       {- \$ay~ -}          [ "roasting", "grilling" ] ]
+    KiRDAS                    `noun`    {- \$iyrAz -}          [ "Shiraz" ] ]
 
  |> "^sAfiyz" <| [
 
-    Identity                  `noun`       {- \$Afiyz -}        [ "Chavez" ] ]
+    Identity                  `noun`    {- \$Afiyz -}          [ "Chavez" ] ]
 
  |> "^sAhiyn" <| [
 
-    Identity                  `noun`       {- \$Ahiyn -}        [ "Shaheen", "Chahine" ],
+    Identity                  `noun`    {- \$Ahiyn -}          [ "Shaheen", "Chahine" ],
 
-    Identity                  `noun`       {- \$Ahiyn -}        [ "shahin (Indian falcon)", "shahins (Indian falcons)" ] ]
+    Identity                  `noun`    {- \$Ahiyn -}          [ "shahin (Indian falcon)", "shahins (Indian falcons)" ] ]
 
  |> "^sAliyh" <| [
 
-    Identity                  `noun`       {- \$Aliyh -}        [ "chalet", "lodge" ] ]
+    Identity                  `noun`    {- \$Aliyh -}          [ "chalet", "lodge" ] ]
 
  |> "^sAm_hAniy" <| [
 
-    Identity                  `noun`       {- \$AmoxAniy -}     [ "Shamkhani" ] ]
+    Identity                  `noun`    {- \$AmoxAniy -}       [ "Shamkhani" ] ]
 
  |> "^sAn.ghAy" <| [
 
-    Identity                  `noun`       {- \$AngohAy -}      [ "Shanghai" ] ]
+    Identity                  `noun`    {- \$AngohAy -}        [ "Shanghai" ] ]
 
  |> "^sArbiyn.g" <| [
 
-    Identity                  `noun`       {- \$Arobiynog -}    [ "Scharping" ] ]
+    Identity                  `noun`    {- \$Arobiynog -}      [ "Scharping" ] ]
 
  |> "^sAtiylA" <| [
 
-    Identity                  `noun`       {- \$AtiylA -}       [ "Shatila", "Shatilla" ] ]
+    Identity                  `noun`    {- \$AtiylA -}         [ "Shatila", "Shatilla" ] ]
 
  |> "^sAwu^s" <| [
 
-    Identity                  `noun`       {- \$Awu$ -}         [ "sergeant", "sergeants" ],
+    Identity                  `noun`    {- \$Awu$ -}           [ "sergeant", "sergeants" ],
 
-    Identity                  `noun`       {- \$Awu$ -}         [ "Shawsh", "Chaouch" ] ]
+    Identity                  `noun`    {- \$Awu$ -}           [ "Shawsh", "Chaouch" ] ]
 
  |> "^sa.tran^g" <| [
 
-    Identity                  `noun`       {- \$aToranoj -}     [ "chess" ] ]
+    Identity                  `noun`    {- \$aToranoj -}       [ "chess" ] ]
 
  |> "^saba`A" <| [
 
-    Identity                  `noun`       {- \$abaEA -}        [ "Shabaa" ] ]
+    Identity                  `noun`    {- \$abaEA -}          [ "Shabaa" ] ]
 
  |> "^samandar" <| [
 
-    Identity                  `noun`       {- \$amanodar -}     [ "beet", "chard" ] ]
+    Identity                  `noun`    {- \$amanodar -}       [ "beet", "chard" ] ]
 
  |> "^samanduwr" <| [
 
-    Identity |< aT            `noun`       {- \$amanoduwrap -}  [ "buoy" ] ]
+    Identity |< aT            `noun`    {- \$amanoduwrap -}    [ "buoy" ] ]
 
  |> "^sariy`Atiy" <| [
 
-    Identity                  `noun`       {- \$ariyEAtiy -}    [ "Shariati" ] ]
+    Identity                  `noun`    {- \$ariyEAtiy -}      [ "Shariati" ] ]
 
  |> "^sbiy.gil" <| [
 
-    Identity                  `noun`       {- \$biygil -}       [ "Spiegel" ] ]
-
- |> "^silin" <| [
-
-    Identity                  `noun`       {- \$ilin -}         [ "shilling" ] ]
+    Identity                  `noun`    {- \$biygil -}         [ "Spiegel" ] ]
 
  |> "^sinuwd" <| [
 
-    Identity |< aT            `noun`       {- \$inuwdap -}      [ "Shenouda" ] ]
+    Identity |< aT            `noun`    {- \$inuwdap -}        [ "Shenouda" ] ]
 
  |> "^siykA.guw" <| [
 
-    Identity                  `noun`       {- \$iykAguw -}      [ "Chicago" ] ]
+    Identity                  `noun`    {- \$iykAguw -}        [ "Chicago" ] ]
 
  |> "^siylA" <| [
 
-    Identity                  `noun`       {- \$iylA -}         [ "Chela", "Sheila", "Chile" ] ]
+    Identity                  `noun`    {- \$iylA -}           [ "Chela", "Sheila", "Chile" ] ]
 
  |> "^siynAmAsA" <| [
 
-    Identity                  `noun`       {- \$iynAmAsA -}     [ "Chinamasa" ] ]
+    Identity                  `noun`    {- \$iynAmAsA -}       [ "Chinamasa" ] ]
 
  |> "^slAdkuwfA" <| [
 
-    Identity                  `noun`       {- \$lAdokuwfA -}    [ "Chladkova" ] ]
+    Identity                  `noun`    {- \$lAdokuwfA -}      [ "Chladkova" ] ]
 
  |> "^sluwmuw" <| [
 
-    Identity                  `noun`       {- \$luwmuw -}       [ "Shlomo" ] ]
+    Identity                  `noun`    {- \$luwmuw -}         [ "Shlomo" ] ]
 
  |> "^snAydar" <| [
 
-    Identity                  `noun`       {- \$nAyodar -}      [ "Schneider" ] ]
+    Identity                  `noun`    {- \$nAyodar -}        [ "Schneider" ] ]
 
  |> "^sruwdir" <| [
 
-    Identity                  `noun`       {- \$ruwdir -}       [ "Schroder" ] ]
+    Identity                  `noun`    {- \$ruwdir -}         [ "Schroder" ] ]
 
  |> "^suwdriy" <| [
 
-    Identity                  `noun`       {- \$uwdoriy -}      [ "Chaudhry" ] ]
+    Identity                  `noun`    {- \$uwdoriy -}        [ "Chaudhry" ] ]
 
  |> "^suwitlar" <| [
 
-    Identity                  `noun`       {- \$uwitolar -}     [ "Schuettler" ] ]
+    Identity                  `noun`    {- \$uwitolar -}       [ "Schuettler" ] ]
 
  |> "^suwstir" <| [
 
-    Identity                  `noun`       {- \$uwsotir -}      [ "Schuster" ] ]
+    Identity                  `noun`    {- \$uwsotir -}        [ "Schuster" ] ]
 
  |> "^swArtz" <| [
 
-    Identity                  `noun`       {- \$wArtz -}        [ "Schwartz", "Schwarz" ] ]
+    Identity                  `noun`    {- \$wArtz -}          [ "Schwartz", "Schwarz" ] ]
 
  |> "^swbyr" <| [
 
-    Identity                  `noun`       {- \$wbyr -}         [ "Shubair" ] ]
+    Identity                  `noun`    {- \$wbyr -}           [ "Shubair" ] ]
 
  |> "i^smi'zAz" <| [
 
-    Identity                  `noun`       {- Ai$omi}ozAz -}    [ "repugnance", "disgust" ] ]
+    Identity                  `noun`    {- Ai$omi}ozAz -}      [ "repugnance", "disgust" ] ]
 

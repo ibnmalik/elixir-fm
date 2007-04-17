@@ -11,432 +11,331 @@ lexicon = listing "Lexicon's properties"
 
  |> "y ' q" <| [
 
-    FAL |< aT                 `noun`       {- yAqap -}          [ "collar" ] ]
+    FAL |< aT                 `noun`    {- yAqap -}            [ "collar" ] ]
 
  |> "y ' s" <| [
 
-    FaCL                      `noun`       {- yaOos -}          [ "despair", "hopelessness" ],
+    FaCL                      `noun`    {- yaOos -}            [ "despair", "hopelessness" ],
 
-    MaFCUL                    `adj`        {- mayoWuws -}       [ "hopeless", "desperate" ] ]
+    MaFCUL                    `adj`     {- mayoWuws -}         [ "hopeless", "desperate" ] ]
 
  |> "y .h y" <| [
 
-    FaCLY                     `noun`       {- yaHoyaY -}        [ "Yahya", "Yehiyeh" ],
+    FaCLY                     `noun`    {- yaHoyaY -}          [ "Yahya", "Yehiyeh" ],
 
-    FaCLY                     `noun`       {- yaHoyaY -}        [ "John" ] ]
-
- |> "y .s b" <| [
-
-    FaCL                      `noun`       {- yaSob -}          [ "jasper" ] ]
-
- |> "y .s f" <| [
-
-    FaCL                      `noun`       {- yaSof -}          [ "jasper" ] ]
-
- |> "y ^s b" <| [
-
-    FaCL                      `noun`       {- ya$ob -}          [ "jasper" ] ]
+    FaCLY                     `noun`    {- yaHoyaY -}          [ "John" ] ]
 
  |> "y _h t" <| [
 
-    FaCL                      `noun`       {- yaxot -}          [ "yacht", "yachts" ]
+    FaCL                      `noun`    {- yaxot -}            [ "yacht", "yachts" ]
                               `plural`     FuCUL
-                              {- `others` [ "yu_huwt N" ] -} ]
-
- |> "y b s" <| [
-
-    FaCiL                     `verb`       {- yabis-a -}        [ "become dry" ]
-                              `imperf`     FCaL,
-
-    FaCCaL                    `verb`       {- yab~as -}         [ "make dry", "desiccate" ],
-
-    FaCL                      `noun`       {- yabos -}          [ "dryness" ]
-                              `plural`     FaCaL
-                              `plural`     FuCL
-                              {- `others` [ "yabas N", "yubs N" ] -},
-
-    FaCiL                     `adj`        {- yabis -}          [ "dried out", "desiccated" ] ]
+                           {- `others`  [ "yu_huwt N" ] -} ]
 
  |> "y d d" <| [
 
-    FaL                       `noun`       {- yad -}            [ "hand", "hands" ]
+    FaL                       `noun`    {- yad -}              [ "hand", "hands" ]
                               `plural`     HaFAL
-                              {- `others` [ "'ayAd NK" ] -},
+                           {- `others`  [ "'ayAd NK" ] -},
 
-    FaCY |< Iy                `adj`        {- yadawiy~ -}       [ "manual", "hand" ] ]
+    FaCY |< Iy                `adj`     {- yadawiy~ -}         [ "manual", "hand" ] ]
 
  |> "y f `" <| [
 
-    FACiL                     `noun`       {- yAfiE -}          [ "Yafie" ],
+    FACiL                     `noun`    {- yAfiE -}            [ "Yafie" ],
 
-    FACiL                     `noun`       {- yAfiE -}          [ "adolescent", "teenager" ] ]
+    FACiL                     `noun`    {- yAfiE -}            [ "adolescent", "teenager" ] ]
 
  |> "y h d" <| [
 
-    FaCUL |< Iy               `adj`        {- yahuwdiy~ -}      [ "Jewish" ],
+    FaCUL |< Iy               `adj`     {- yahuwdiy~ -}        [ "Jewish" ],
 
-    FaCUL |< Iy               `adj`        {- yahuwdiy~ -}      [ "Jew", "Jews" ]
+    FaCUL |< Iy               `adj`     {- yahuwdiy~ -}        [ "Jew", "Jews" ]
                               `plural`     FaCUL
-                              {- `others` [ "yahuwd N" ] -},
+                           {- `others`  [ "yahuwd N" ] -},
 
-    FaCUL |< Iy |< aT         `noun`       {- yahuwdiy~ap -}    [ "Judaism" ] ]
+    FaCUL |< Iy |< aT         `noun`    {- yahuwdiy~ap -}      [ "Judaism" ] ]
 
  |> "y m n" <| [
 
-    FaCaL                     `verb`       {- yaman-u -}        [ "be lucky", "be fortunate" ]
+    FaCaL                     `verb`    {- yaman-u -}          [ "be lucky", "be fortunate" ]
                               `imperf`     FCuL,
 
-    FaCiL                     `verb`       {- yamin-a -}        [ "be lucky", "be fortunate" ]
-                              `imperf`     FCaL,
-
-    FaCuL                     `verb`       {- yamun-u -}        [ "be lucky", "be fortunate" ]
-                              `imperf`     FCuL,
-
-    FaCCaL                    `verb`       {- yam~an -}         [ "go to the right" ],
-
-    FuCL                      `noun`       {- yumon -}          [ "good fortune", "success" ],
-
-    FaCaL                     `noun`       {- yaman -}          [ "right side" ]
+    FaCaL                     `noun`    {- yaman -}            [ "right side" ]
                               `plural`     FaCL |< aT,
 
-    FaCaL                     `noun`       {- yaman -}          [ "Yemen" ],
+    FaCaL                     `noun`    {- yaman -}            [ "Yemen" ],
 
-    FaCaL |< Iy               `adj`        {- yamaniy~ -}       [ "Yemeni" ],
+    FaCaL |< Iy               `adj`     {- yamaniy~ -}         [ "Yemeni" ],
 
-    FaCAL |< Iy               `adj`        {- yamAniy~ -}       [ "Yemeni" ],
+    FaCAL |< Iy               `adj`     {- yamAniy~ -}         [ "Yemeni" ],
 
-    FaCAL |< Iy               `adj`        {- yamAniy~ -}       [ "Yamani" ],
+    FaCAL |< Iy               `adj`     {- yamAniy~ -}         [ "Yamani" ],
 
-    FaCIL                     `noun`       {- yamiyn -}         [ "right side", "right hand" ],
+    FaCIL                     `noun`    {- yamiyn -}           [ "right side", "right hand" ],
 
-    FaCIL                     `noun`       {- yamiyn -}         [ "oath", "oaths" ]
+    FaCIL                     `noun`    {- yamiyn -}           [ "oath", "oaths" ]
                               `plural`     HaFCAL
-                              {- `others` [ "'aymAn N" ] -},
+                           {- `others`  [ "'aymAn N" ] -},
 
-    FaCIL |< Iy               `adj`        {- yamiyniy~ -}      [ "rightist", "right-wing" ],
+    FaCIL |< Iy               `adj`     {- yamiyniy~ -}        [ "rightist", "right-wing" ],
 
-    HaFCaL                    `noun`       {- Oayoman -}        [ "Ayman", "Aiman" ],
+    HaFCaL                    `noun`    {- Oayoman -}          [ "Ayman", "Aiman" ],
 
-    HaFCaL                    `adj`        {- Oayoman -}        [ "right", "right hand", "lucky" ],
+    HaFCaL                    `adj`     {- Oayoman -}          [ "right", "right hand", "lucky" ],
 
-    FuCLY                     `adj`        {- yumonaY -}        [ "right hand", "right side", "lucky", "right hands", "right sides" ],
+    FuCLY                     `adj`     {- yumonaY -}          [ "right hand", "right side", "lucky", "right hands", "right sides" ],
 
-    FuCLY                     `noun`       {- yumonaY -}        [ "Youmna", "Yumna" ],
+    FuCLY                     `noun`    {- yumonaY -}          [ "Youmna", "Yumna" ],
 
-    MaFCUL                    `adj`        {- mayomuwn -}       [ "lucky", "fortunate" ]
+    MaFCUL                    `adj`     {- mayomuwn -}         [ "lucky", "fortunate" ]
                               `plural`     MaFACIL
-                              {- `others` [ "mayAmiyn Ndip" ] -} ]
+                           {- `others`  [ "mayAmiyn Ndip" ] -} ]
 
  |> "y n ^s" <| [
 
-    FUCAL                     `noun`       {- yuwnA$ -}         [ "Jonas" ] ]
+    FUCAL                     `noun`    {- yuwnA$ -}           [ "Jonas" ] ]
 
  |> "y n n" <| [
 
-    FiL                       `noun`       {- yin -}            [ "Yen" ],
+    FiL                       `noun`    {- yin -}              [ "Yen" ],
 
-    FUCAL                     `noun`       {- yuwnAn -}         [ "Greece" ],
+    FUCAL                     `noun`    {- yuwnAn -}           [ "Greece" ],
 
-    FUCAL |< Iy               `adj`        {- yuwnAniy~ -}      [ "Greek" ] ]
-
- |> "y n s n" <| [
-
-    KaRDUS                    `noun`       {- yanosuwn -}       [ "aniseed", "anise" ] ]
+    FUCAL |< Iy               `adj`     {- yuwnAniy~ -}        [ "Greek" ] ]
 
  |> "y n y r" <| [
 
-    KaRADiS                   `noun`       {- yanAyir -}        [ "January" ] ]
+    KaRADiS                   `noun`    {- yanAyir -}          [ "January" ] ]
 
  |> "y q .z" <| [
 
-    FaCiL                     `verb`       {- yaqiZ-a -}        [ "be awake", "be alert" ]
-                              `imperf`     FCaL,
+    HaFCaL                    `verb`    {- OayoqaZ -}          [ "awaken", "warn", "be awakened", "be warned" ],
 
-    FaCuL                     `verb`       {- yaquZ-u -}        [ "be awake", "be alert" ]
-                              `imperf`     FCuL,
+    IstaFCaL                  `verb`    {- AisotayoqaZ -}      [ "wake up", "be roused", "be alert" ],
 
-    FaCCaL                    `verb`       {- yaq~aZ -}         [ "awaken", "warn" ],
-
-    HaFCaL                    `verb`       {- OayoqaZ -}        [ "awaken", "warn", "be awakened", "be warned" ],
-
-    IstaFCaL                  `verb`       {- AisotayoqaZ -}    [ "wake up", "be roused", "be alert" ],
-
-    FaCiL                     `adj`        {- yaqiZ -}          [ "awake", "alert", "vigilant" ]
-                              `plural`     HaFCAL
-                              `plural`     FaCuL |< aT
-                              {- `others` [ "'ayqA.z N" ] -},
-
-    HiFCAL                    `noun`       {- IiyqAZ -}         [ "awakening", "reveille" ] ]
+    HiFCAL                    `noun`    {- IiyqAZ -}           [ "awakening", "reveille" ] ]
 
  |> "y q n" <| [
 
-    FaCiL                     `verb`       {- yaqin-a -}        [ "be sure", "know for certain" ]
+    FaCiL                     `verb`    {- yaqin-a -}          [ "be sure", "know for certain" ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `verb`       {- Oayoqan -}        [ "ascertain", "be convinced" ],
+    HaFCaL                    `verb`    {- Oayoqan -}          [ "ascertain", "be convinced" ],
 
-    TaFaCCaL                  `verb`       {- tayaq~an -}       [ "ascertain", "be convinced" ],
-
-    FaCiL                     `noun`       {- yaqin -}          [ "credulous", "ingenuous" ]
+    FaCiL                     `noun`    {- yaqin -}            [ "credulous", "ingenuous" ]
                               `plural`     FaCaL |< aT,
 
-    FaCIL                     `noun`       {- yaqiyn -}         [ "certainty", "certitude", "conviction" ],
+    FaCIL                     `noun`    {- yaqiyn -}           [ "certainty", "certitude", "conviction" ],
 
-    FaCIL                     `adj`        {- yaqiyn -}         [ "convinced" ],
+    FaCIL                     `adj`     {- yaqiyn -}           [ "convinced" ],
 
-    FaCIL |< Iy               `adj`        {- yaqiyniy~ -}      [ "indisputable", "certain", "indisputable facts", "established truths" ],
-
-    MutaFaCCiL                `adj`        {- mutayaq~in -}     [ "convinced", "certain" ] ]
-
- |> "y r `" <| [
-
-    FaCAL                     `noun`       {- yarAE -}          [ "reed pen", "firefly" ],
-
-    FaCAL                     `adj`        {- yarAE -}          [ "cowardly" ] ]
+    MutaFaCCiL                `adj`     {- mutayaq~in -}       [ "convinced", "certain" ] ]
 
  |> "y r y" <| [
 
-    FUCI                      `noun`       {- yuwriy -}         [ "Youri", "Yuri" ] ]
+    FUCI                      `noun`    {- yuwriy -}           [ "Youri", "Yuri" ] ]
 
  |> "y s `" <| [
 
-    FaCUL                     `noun`       {- yasuwE -}         [ "Jesus (in Christianity)", "Yasou" ],
+    FaCUL                     `noun`    {- yasuwE -}           [ "Jesus (in Christianity)", "Yasou" ],
 
-    FaCUL |< Iy               `adj`        {- yasuwEiy~ -}      [ "Jesuit" ] ]
+    FaCUL |< Iy               `adj`     {- yasuwEiy~ -}        [ "Jesuit" ] ]
 
  |> "y s r" <| [
 
-    FaCiL                     `verb`       {- yasir-a -}        [ "become easy" ]
-                              `imperf`     FCaL,
+    FaCCaL                    `verb`    {- yas~ar -}           [ "facilitate", "make easy" ],
 
-    FaCuL                     `verb`       {- yasur-u -}        [ "become easy", "be small" ]
-                              `imperf`     FCuL,
+    HaFCaL                    `verb`    {- Oayosar -}          [ "live in comfort", "be made easy", "be facilitated" ],
 
-    FaCCaL                    `verb`       {- yas~ar -}         [ "facilitate", "make easy" ],
+    FaCAL                     `noun`    {- yasAr -}            [ "left", "to the left" ],
 
-    FACaL                     `verb`       {- yAsar -}          [ "be lenient with", "be obliging with" ],
+    FaCAL                     `noun`    {- yasAr -}            [ "comfort", "affluence" ],
 
-    HaFCaL                    `verb`       {- Oayosar -}        [ "live in comfort", "be made easy", "be facilitated" ],
+    FaCAL |< Iy               `adj`     {- yasAriy~ -}         [ "leftist" ],
 
-    FuCL                      `noun`       {- yusor -}          [ "ease", "facility", "affluence" ],
+    FaCIL                     `adj`     {- yasiyr -}           [ "easy", "simple" ],
 
-    FaCAL                     `noun`       {- yasAr -}          [ "left", "to the left" ],
+    FaCIL                     `adj`     {- yasiyr -}           [ "small", "short" ],
 
-    FaCAL                     `noun`       {- yasAr -}          [ "comfort", "affluence" ],
-
-    FaCAL |< Iy               `adj`        {- yasAriy~ -}       [ "leftist" ],
-
-    FaCIL                     `adj`        {- yasiyr -}         [ "easy", "simple" ],
-
-    FaCIL                     `adj`        {- yasiyr -}         [ "small", "short" ],
-
-    HaFCaL                    `noun`       {- Oayosar -}        [ "left", "left hand", "left hands" ]
+    HaFCaL                    `noun`    {- Oayosar -}          [ "left", "left hand", "left hands" ]
                               `plural`     FuCLY
-                              {- `others` [ "yusrY N0" ] -},
+                           {- `others`  [ "yusrY N0" ] -},
 
-    HaFCaL                    `noun`       {- Oayosar -}        [ "easier/easiest", "smaller/smallest" ],
+    HaFCaL                    `noun`    {- Oayosar -}          [ "easier/easiest", "smaller/smallest" ],
 
-    MaFCiL                    `noun`       {- mayosir -}        [ "maisir (pre-Islamic gambling)" ],
+    TaFCIL                    `noun`    {- tayosiyr -}         [ "facilitation" ],
 
-    MaFCaL |< aT              `noun`       {- mayosarap -}      [ "left wing", "left side", "left wings", "left sides" ]
-                              `plural`     MaFACiL
-                              {- `others` [ "mayAsir Ndip" ] -},
+    TaFCIL                    `noun`    {- tayosiyr -}         [ "Taiseer" ],
 
-    MaFCaL |< aT              `noun`       {- mayosarap -}      [ "comfort", "affluence" ]
-                              `plural`     MaFCiL |< aT,
+    FACiL                     `noun`    {- yAsir -}            [ "Yasser", "Yasir" ],
 
-    TaFCIL                    `noun`       {- tayosiyr -}       [ "facilitation" ],
-
-    TaFCIL                    `noun`       {- tayosiyr -}       [ "Taiseer" ],
-
-    FACiL                     `noun`       {- yAsir -}          [ "Yasser", "Yasir" ],
-
-    MaFCUL                    `noun`       {- mayosuwr -}       [ "easily accomplished", "feasible", "well-to-do" ]
-                              `plural`     MaFACIL
-                              {- `others` [ "mayAsiyr Ndip" ] -},
-
-    MuFaCCaL                  `adj`        {- muyas~ar -}       [ "made easy", "facilitated", "well-to-do" ] ]
+    MuFaCCaL                  `adj`     {- muyas~ar -}         [ "made easy", "facilitated", "well-to-do" ] ]
 
  |> "y s s" <| [
 
-    FUCI                      `noun`       {- yuwsiy -}         [ "Yosi", "Yossi" ] ]
+    FUCI                      `noun`    {- yuwsiy -}           [ "Yosi", "Yossi" ] ]
 
  |> "y t m" <| [
 
-    FaCaL                     `verb`       {- yatam-i -}        [ "be orphaned" ]
-                              `imperf`     FCiL,
-
-    FaCuL                     `verb`       {- yatum-u -}        [ "be orphaned" ]
-                              `imperf`     FCuL,
-
-    FaCiL                     `verb`       {- yatim-a -}        [ "be orphaned" ]
-                              `imperf`     FCaL,
-
-    TaFaCCaL                  `verb`       {- tayat~am -}       [ "be orphaned" ],
-
-    FaCIL                     `noun`       {- yatiym -}         [ "orphan", "unique", "orphans" ]
+    FaCIL                     `noun`    {- yatiym -}           [ "orphan", "unique", "orphans" ]
                               `plural`     HaFCAL
-                              {- `others` [ "'aytAm N" ] -} ]
+                           {- `others`  [ "'aytAm N" ] -} ]
 
  |> "y w b l" <| [
 
-    KuRDIS                    `noun`       {- yuwbiyl -}        [ "jubilee" ] ]
-
- |> "y w d" <| [
-
-    FaCCaL                    `verb`       {- yaw~ad -}         [ "iodize", "iodine" ] ]
+    KuRDIS                    `noun`    {- yuwbiyl -}          [ "jubilee" ] ]
 
  |> "y w m" <| [
 
-    FaCL                      `noun`       {- yawom -}          [ "day", "days" ],
+    FaCL                      `noun`    {- yawom -}            [ "day", "days" ],
 
-    FaCL                      `noun`       {- yawom -}          [ "some day" ],
+    FaCL                      `noun`    {- yawom -}            [ "some day" ],
 
-    FaCL                      `noun`       {- yawom -}          [ "today" ],
+    FaCL                      `noun`    {- yawom -}            [ "today" ],
 
-    FaCL                      `noun`       {- yawom -}          [ "Youm" ],
+    FaCL                      `noun`    {- yawom -}            [ "Youm" ],
 
-    FaCL |< Iy                `adj`        {- yawomiy~ -}       [ "daily", "per diem", "on a daily basis" ] ]
+    FaCL |< Iy                `adj`     {- yawomiy~ -}         [ "daily", "per diem", "on a daily basis" ] ]
 
  |> "y w n" <| [
 
-    FuCLAn                    `noun`       {- yuwnAn -}         [ "Greece" ],
+    FuCLAn                    `noun`    {- yuwnAn -}           [ "Greece" ],
 
-    FuCLAn |< Iy              `adj`        {- yuwnAniy~ -}      [ "Greek" ] ]
+    FuCLAn |< Iy              `adj`     {- yuwnAniy~ -}        [ "Greek" ] ]
 
  |> "y w n ^s" <| [
 
-    KuRDAS                    `noun`       {- yuwnA$ -}         [ "Jonas" ] ]
+    KuRDAS                    `noun`    {- yuwnA$ -}           [ "Jonas" ] ]
 
  |> "y w n n" <| [
 
-    KuRDAS                    `noun`       {- yuwnAn -}         [ "Greece" ],
+    KuRDAS                    `noun`    {- yuwnAn -}           [ "Greece" ],
 
-    KuRDAS |< Iy              `adj`        {- yuwnAniy~ -}      [ "Greek" ] ]
+    KuRDAS |< Iy              `adj`     {- yuwnAniy~ -}        [ "Greek" ] ]
 
  |> "y w r n" <| [
 
-    KuRDIS                    `noun`       {- yuwriyn -}        [ "Uhrin" ] ]
+    KuRDIS                    `noun`    {- yuwriyn -}          [ "Uhrin" ] ]
 
  |> "y w r w" <| [
 
-    KuRDuS                    `noun`       {- yuwruw -}         [ "Euro" ] ]
+    KuRDuS                    `noun`    {- yuwruw -}           [ "Euro" ] ]
 
  |> "y w s f" <| [
 
-    KuRDuS |< Iy              `adj`        {- yuwsufiy~ -}      [ "tangerines" ] ]
+    KuRDuS |< Iy              `adj`     {- yuwsufiy~ -}        [ "tangerines" ] ]
 
  |> "y w w" <| [
 
-    FuL                       `noun`       {- yuw -}            [ "Yo", "Yu" ] ]
+    FuL                       `noun`    {- yuw -}              [ "Yo", "Yu" ] ]
 
  |> "y y y" <| [
 
-    FiL                       `noun`       {- yiy -}            [ "Yi" ] ]
+    FiL                       `noun`    {- yiy -}              [ "Yi" ] ]
 
  |> "yA" <| [
 
-    Identity                  `noun`       {- yA -}             [ "oh", "you" ] ]
+    Identity                  `noun`    {- yA -}               [ "oh", "you" ] ]
 
  |> "yAbAn" <| [
 
-    Identity                  `noun`       {- yAbAn -}          [ "Japan" ],
+    Identity                  `noun`    {- yAbAn -}            [ "Japan" ],
 
-    Identity |< Iy            `adj`        {- yAbAniy~ -}       [ "Japanese" ] ]
+    Identity |< Iy            `adj`     {- yAbAniy~ -}         [ "Japanese" ] ]
 
  |> "yAfA" <| [
 
-    Identity                  `noun`       {- yAfA -}           [ "Jaffa", "Yafa" ] ]
+    Identity                  `noun`    {- yAfA -}             [ "Jaffa", "Yafa" ] ]
 
  |> "yAmAhA" <| [
 
-    Identity                  `noun`       {- yAmAhA -}         [ "Yamaha" ] ]
+    Identity                  `noun`    {- yAmAhA -}           [ "Yamaha" ] ]
 
  |> "yAmiy^s" <| [
 
-    Identity                  `noun`       {- yAmiy$ -}         [ "dried fruits" ] ]
+    Identity                  `noun`    {- yAmiy$ -}           [ "dried fruits" ] ]
 
  |> "yAnA" <| [
 
-    Identity                  `noun`       {- yAnA -}           [ "Jana" ] ]
+    Identity                  `noun`    {- yAnA -}             [ "Jana" ] ]
 
  |> "yAsiyn" <| [
 
-    Identity                  `noun`       {- yAsiyn -}         [ "Yaseen", "Yacine" ] ]
+    Identity                  `noun`    {- yAsiyn -}           [ "Yaseen", "Yacine" ] ]
 
  |> "yAsmiyn" <| [
 
-    Identity                  `noun`       {- yAsomiyn -}       [ "Yasmin", "Yasmeen", "Jasmine" ],
+    Identity                  `noun`    {- yAsomiyn -}         [ "Yasmin", "Yasmeen", "Jasmine" ],
 
-    Identity                  `noun`       {- yAsomiyn -}       [ "jasmine" ] ]
+    Identity                  `noun`    {- yAsomiyn -}         [ "jasmine" ] ]
 
  |> "yadiy`uwt" <| [
 
-    Identity                  `noun`       {- yadiyEuwt -}      [ "Yediot" ] ]
+    Identity                  `noun`    {- yadiyEuwt -}        [ "Yediot" ] ]
 
  |> "yusriy" <| [
 
-    Identity                  `noun`       {- yusoriy -}        [ "Yusri", "Yosri" ] ]
+    Identity                  `noun`    {- yusoriy -}          [ "Yusri", "Yosri" ] ]
 
  |> "yuw.guwslAf" <| [
 
-    Identity |< Iy            `adj`        {- yuwguwsolAfiy~ -} [ "Yugoslavian", "Yugoslavians" ] ]
+    Identity |< Iy            `adj`     {- yuwguwsolAfiy~ -}   [ "Yugoslavian", "Yugoslavians" ] ]
 
  |> "yuw.guwslAfiyA" <| [
 
-    Identity                  `noun`       {- yuwguwsolAfiyA -} [ "Yugoslavia" ] ]
+    Identity                  `noun`    {- yuwguwsolAfiyA -}   [ "Yugoslavia" ] ]
 
  |> "yuwhAnsuwn" <| [
 
-    Identity                  `noun`       {- yuwhAnosuwn -}    [ "Johansson" ] ]
+    Identity                  `noun`    {- yuwhAnosuwn -}      [ "Johansson" ] ]
 
  |> "yuwliyuw" <| [
 
-    Identity                  `noun`       {- yuwliyuw -}       [ "July" ] ]
+    Identity                  `noun`    {- yuwliyuw -}         [ "July" ] ]
 
  |> "yuwn.g" <| [
 
-    Identity                  `noun`       {- yuwnog -}         [ "Jong", "Jung", "Yung" ],
+    Identity                  `noun`    {- yuwnog -}           [ "Jong", "Jung", "Yung" ],
 
-    Identity                  `noun`       {- yuwnog -}         [ "Young" ] ]
+    Identity                  `noun`    {- yuwnog -}           [ "Young" ] ]
 
  |> "yuwnAytid" <| [
 
-    Identity                  `noun`       {- yuwnAyotid -}     [ "United" ] ]
+    Identity                  `noun`    {- yuwnAyotid -}       [ "United" ] ]
 
  |> "yuwnis" <| [
 
-    Identity                  `noun`       {- yuwnis -}         [ "Yunis", "Younis", "Jonah" ] ]
+    Identity                  `noun`    {- yuwnis -}           [ "Yunis", "Younis", "Jonah" ] ]
 
  |> "yuwniysif" <| [
 
-    Identity                  `noun`       {- yuwniysif -}      [ "UNICEF" ] ]
+    Identity                  `noun`    {- yuwniysif -}        [ "UNICEF" ] ]
 
  |> "yuwniyskuw" <| [
 
-    Identity                  `noun`       {- yuwniysokuw -}    [ "UNESCO" ] ]
+    Identity                  `noun`    {- yuwniysokuw -}      [ "UNESCO" ] ]
 
  |> "yuwniyuw" <| [
 
-    Identity                  `noun`       {- yuwniyuw -}       [ "June" ] ]
+    Identity                  `noun`    {- yuwniyuw -}         [ "June" ] ]
 
  |> "yuwrAniyuwm" <| [
 
-    Identity                  `noun`       {- yuwrAniyuwm -}    [ "uranium" ] ]
+    Identity                  `noun`    {- yuwrAniyuwm -}      [ "uranium" ] ]
 
  |> "yuwrk" <| [
 
-    Identity                  `noun`       {- yuwrk -}          [ "York" ] ]
+    Identity                  `noun`    {- yuwrk -}            [ "York" ] ]
 
  |> "yuwsif" <| [
 
-    Identity                  `noun`       {- yuwsif -}         [ "Yousif", "Yusif", "Joseph" ] ]
+    Identity                  `noun`    {- yuwsif -}           [ "Yousif", "Yusif", "Joseph" ] ]
 
  |> "yuwtA" <| [
 
-    Identity                  `noun`       {- yuwtA -}          [ "Utah" ] ]
+    Identity                  `noun`    {- yuwtA -}            [ "Utah" ] ]
 
  |> "ywmbl.gAz" <| [
 
-    Identity                  `noun`       {- ywmblgAz -}       [ "Iompelgas ??" ] ]
+    Identity                  `noun`    {- ywmblgAz -}         [ "Iompelgas ??" ] ]
 
