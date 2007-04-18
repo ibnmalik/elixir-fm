@@ -195,19 +195,21 @@ instance Show State where
 state (Nothing    :-: False) = "Indefinite"
 state (Just True  :-: False) = "Definite"
 state (Just False :-: False) = "AbsoluteNegative"
-
 state (Nothing    :-: True)  = "Construct"
 state (Just True  :-: True)  = "Overdetermined"
 state (Just False :-: True)  = "Underdetermined"
 
-
 stateI = Nothing    :-: False
 stateD = Just True  :-: False
 stateA = Just False :-: False
-
 stateR = Nothing    :-: True
 stateC = Just True  :-: True
 stateU = Just False :-: True
+
+indefinite = Nothing    :-: False
+definite   = Just True  :-: False
+absolute   = Just False :-: False
+construct  = Nothing    :-: True
 
 
 data State' = Def | Indef | Const

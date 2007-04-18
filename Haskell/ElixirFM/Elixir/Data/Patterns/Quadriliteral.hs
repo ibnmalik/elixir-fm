@@ -77,14 +77,18 @@ instance Rules PatternQ where
 
     isDiptote = flip elem [ KaRADiS, KaRADIS ]
 
+    isPassive = const False
 
+
+{-
 instance Rules (Morphs PatternQ) where
 
-    isDiptote x = x `elem` []
+    isDiptote (Morphs m [] []) = isDiptote m
+    isDiptote x                = x `elem` []
 
-                || p == [] && s == [] && isDiptote m
-
-        where Morphs m p s = x
+    isPassive (Morphs m [] []) = isPassive m
+    isPassive x                = x `elem` []
+-}
 
 
 data PatternQ =

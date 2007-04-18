@@ -150,12 +150,27 @@ findForm r c (d :-: a) t@(Morphs m p s) =
 
         case s of
 
-            At : _      ->  paraAat c d a (merge r t)
-            An : xs     ->  paraAan c d a (merge r (Morphs m p xs))
-            Un : _      ->  paraUun c d a (merge r m)
+            At : _      ->  paraAat c d a shown
+            An : xs     ->  paraAan c d a (merge r (Morphs m p ((if c == Nominative then An else Ayn) : xs)))
+            Un : xs     ->  paraUun c d a (merge r (Morphs m p ((if c == Nominative then Un else In) : xs)))
 
-            _           ->  if isDiptote t then paraU2a c d a (merge r t)
-                                           else paraU3N c d a (merge r t)
+            _  ->  if isDiptote t then case last shown of
+
+                                'Y' -> paraY2Y c d a (init shown)
+                                'I' -> paraI2a c d a (init shown)
+                                'A' -> paraA2A c d a (init shown)
+                             -- 'U' -> paraY2Y c d a (init shown)
+                                ch  -> paraU2a c d a shown
+
+                                  else case last shown of
+
+                                'Y' -> paraY3N c d a (init shown)
+                                'I' -> paraI3N c d a (init shown)
+                                'A' -> paraA3N c d a (init shown)
+                             -- 'U' -> paraY2Y c d a (init shown)
+                                ch  -> paraU3N c d a shown
+
+        where shown = merge r t
 
 
 prefix x y = x ++ y
@@ -218,9 +233,14 @@ paraI2a c d s = case (c, d, s) of
         ( _ ,           _,          _ )     -> suffix "I"
 
 
-paraAaA c d s = case (c, d, s) of
+paraA3N c d s = case (c, d, s) of
 
         ( _ , Nothing, False)   -> suffix "-aN"
+        ( _ , _ ,      _    )   -> suffix "A"
+
+
+paraA2A c d s = case (c, d, s) of
+
         ( _ , _ ,      _    )   -> suffix "A"
 
 

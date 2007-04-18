@@ -112,7 +112,13 @@ instance Template PatternT => Template (Morphs PatternT) where
 
                 'A' -> case ix of   AT   -> ("A", "T")
                                     Iy   -> ("Aw", show Iy)
+                                    Un   -> ("aw", "n-a")
+                                    In   -> ("ay", "n-a")
                                     _    -> ("aw", show ix)
+
+                'U' -> case ix of   Un   -> ("U", "n-a")
+                                    In   -> ("I", "n-a")
+                                    _    -> ("uw", show ix)
 
                 ch  -> ([ch], show ix)
 
@@ -172,7 +178,7 @@ instance Forming PatternT where
         -- Third
 
         (   FaCA,       FuCiL,      FCU,        FCY         ),  -- da`A
-        (   FaCY,       FIL,        FCI,        FCY         ),  -- ramY
+        (   FaCY,       FuCI,       FCI,        FCY         ),  -- ramY
         (   FaCiL,      FuCiL,      FCY,        FCY         ),  -- nasiya
 
         -- Double
@@ -372,14 +378,32 @@ instance Rules PatternT where
                             MaFACIL, MaFA'IL,
                             FaCLAn ]
 
+    isPassive = flip elem [ FuCiL, FIL, FuCI, FuCL,
+                            FuCCiL, FuCCI,
+                            FUCiL, FUCI, FUCL,
+                            HuFCiL, HUCiL, HuFIL, HuFCI, HuFiCL,
+                            TuFuCCiL, TuFuCCI,
+                            TuFUCiL, TuFUCI, TuFUCL,
+                            UnFuCiL, UnFIL, UnFuCI, UnFuCL,
+                            UFtuCiL, UFtIL, UFtuCI, UFtuCL,
+                            UFCuLL,
+                            UstuFCiL, UstuFIL, UstuFCI, UstuFiCL,
+                            UFCULL,
+                            UFCUCiL,
+                            UFCUwiL,
+                            UFCunLiL,
+                            UFCunLY ]
 
+
+{-
 instance Rules (Morphs PatternT) where
 
-    isDiptote x = x `elem` []
+    isDiptote (Morphs m [] []) = isDiptote m
+    isDiptote x                = x `elem` []
 
-                || p == [] && s == [] && isDiptote m
-
-        where Morphs m p s = x
+    isPassive (Morphs m [] []) = isPassive m
+    isPassive x                = x `elem` []
+-}
 
 
 -- concat $ map (\(a,b,c,d) -> [ concat $ interlock ["m","^s","y"] x [] | x <- [a,b,c,d] ] )
@@ -395,7 +419,7 @@ data PatternT =
         |   FaCiL                                                               |   FaCY
         |   FaCuL
 
-        |   FuCiL
+        |   FuCiL                                                               |   FuCI
 
         |   FCaL                |   CaL                                         |   FCY
         |   FCiL                |   CiL                 |   FIL                 |   FCI                 |   FiCL

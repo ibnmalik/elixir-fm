@@ -147,14 +147,13 @@ instance Nestable PatternQ where (>:) s l = NestQ s l
 type Root = String
 
 
-data Entry a = Entry {  entity  :: Entity a,
-                        morphs  :: Morphs a,
-                        lexref  :: Lexref }
+data Entry a = Entry { entity :: Entity a, morphs :: Morphs a,
+                       lexref :: Lexref }
 
     deriving Show
 
 
-data Entity a = Verb [a] (Maybe Voice)
+data Entity a = Verb { imperfect, perfect', imperfect', imperative :: [a] }
               | Noun [Morphs a] (Maybe Gender) (Maybe Number)
               | Adj [Morphs a] (Maybe Number)
               | More
@@ -182,7 +181,7 @@ data Number = Singular | Dual | Plural
 
 verb, noun, adj, num, prep, conj, part :: (Morphing a b, Nestable b) => a -> Lexref -> Entry b
 
-verb m l = Entry (Verb [] Nothing) (morph m) l
+verb m l = Entry (Verb [] [] [] []) (morph m) l
 
 noun m l = Entry (Noun [] Nothing Nothing) (morph m) l
 
@@ -203,18 +202,31 @@ imperf x y = x { entity = Verb (y ++ z) v }
     where Verb z v = entity x
 -}
 
-imperf :: Nestable a => Entry a -> a -> Entry a
+imperf, pfirst, ithird, second :: Nestable a => Entry a -> a -> Entry a
 
-imperf x y = x { entity = Verb (y : z) v }
+imperf x y = x { entity = e { imperfect = y : i } }
 
-    where Verb z v = entity x
+    where e = entity x
+          i = imperfect e
 
 
-pfirst = const
+pfirst x y = x { entity = e { perfect' = y : p } }
 
-ithird = const
+    where e = entity x
+          p = perfect' e
 
-second = const
+
+ithird x y = x { entity = e { imperfect' = y : i } }
+
+    where e = entity x
+          i = imperfect' e
+
+
+second x y = x { entity = e { imperative = y : i } }
+
+    where e = entity x
+          i = imperative e
+
 
 gerund = const
 
@@ -226,7 +238,9 @@ plural x y = x { entity = Noun (morph y : z) g n }
     where Noun z g n = entity x
 
 
-infixl 3 `imperf`, `gerund`, `plural`
+infixl 3 `imperf`, `pfirst`, `ithird`, `second`
+
+infixl 3 `gerund`, `plural`
 
 
 infixl 3 `others`

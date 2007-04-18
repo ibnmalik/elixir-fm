@@ -35,6 +35,13 @@ instance Template PatternL where
     interlock = const
 
 
+instance Rules PatternL where
+
+    isDiptote = const False
+
+    isPassive = const False
+
+
 data PatternL =  Identity
 
     deriving (Enum, Show, Eq)

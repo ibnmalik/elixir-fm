@@ -56,6 +56,8 @@ class Eq a => Rules a where
 
     isDiptote :: a -> Bool
 
+    isPassive :: a -> Bool
+
 
 {-
 data Morphs a =     Pattern a
@@ -102,6 +104,15 @@ instance Show a => Show (Morphs a) where
                     foldr (((.) . flip (.) ((++) " >| ") . shows)) id p .
                     shows m .
                     foldl (flip ((.) . (.) ((++) " |< ") . shows)) id s
+
+
+instance Rules a => Rules (Morphs a) where
+
+    isDiptote (Morphs m [] []) = isDiptote m
+    isDiptote _                = False
+
+    isPassive (Morphs m [] []) = isPassive m
+    isPassive _                = False
 
 
 instance Morphing (Morphs a) a where
