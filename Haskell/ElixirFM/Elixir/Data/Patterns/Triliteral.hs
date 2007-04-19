@@ -83,14 +83,18 @@ assimilating c = case c of
 
 instance Template PatternT => Template (Morphs PatternT) where
 
-    interlock r (Morphs t p []) = map ((++ "-") . show) p ++
-                                  interlock r t
+    interlock r (Morphs t p []) = prefixes ++ interlock r t
 
-    interlock r (Morphs t p s)  = map ((++ "-") . show) p ++
+        where prefixes = [ case x of Prefix y -> y
+                                     _        -> shows x "-" | x <- p ]
+
+    interlock r (Morphs t p s)  = prefixes ++
                                   [init shown ++ modifi, ed] ++
                                   map show (tail suff)
 
-        where shown = concat (interlock r t)
+        where prefixes = [ case x of Prefix y -> y
+                                     _        -> shows x "-" | x <- p ]
+              shown = concat (interlock r t)
               suff  = reverse s
               ix    = head suff
 
@@ -100,12 +104,48 @@ instance Template PatternT => Template (Morphs PatternT) where
                                     Iy   -> ("aw", show Iy)
                                     Un   -> ("aw", "n-a")
                                     In   -> ("ay", "n-a")
-                                    AN   -> ("", "-aNY")
                                     AJIy -> ("", show AJIy)
+
+                                    Suffix x | x `elem` ["-a", "-i", "-u",
+                                                          "a",  "i",  "u"]
+                                         -> ("Y", "")
+
+                                    Suffix x | x `elem` ["-aN", "-iN", "-uN"]
+
+                                         -> ("", "-aNY")
+
+                                    Suffix x | x `elem` ["aN", "iN", "uN"]
+
+                                         -> ("", "aNY")
+
                                     _    -> ("ay", show ix)
 
-                'I' -> case ix of   Un   -> ("U", "n-a")
+                'I' -> case ix of   AT   -> ("iy", show AT)
+                                    Iy   -> ("I", "y")
+                                    Un   -> ("U", "n-a")
                                     In   -> ("I", "n-a")
+
+                                    Suffix x | x `elem` ["-i", "-u",
+                                                          "i",  "u"]
+                                         -> ("I", "")
+
+                                    Suffix x | x `elem` ["-iN", "-uN"]
+
+                                         -> ("", "-iN")
+
+                                    Suffix x | x `elem` ["iN", "uN"]
+
+                                         -> ("", "iN")
+
+                                    -- Suffix x | x `elem` ["-aN"]
+                                    --      -> ("iy", "-aN")
+                                    -- Suffix x | x `elem` ["aN"]
+                                    --      -> ("iy", "aN")
+                                    -- Suffix x | x `elem` ["-a"]
+                                    --      -> ("iy", "-a")
+                                    -- Suffix x | x `elem` ["a"]
+                                    --      -> ("iy", "a")
+
                                     _    -> ("iy", show ix)
 
                 -- exprerimental and non-verified
@@ -118,6 +158,19 @@ instance Template PatternT => Template (Morphs PatternT) where
 
                 'U' -> case ix of   Un   -> ("U", "n-a")
                                     In   -> ("I", "n-a")
+
+                                    Suffix x | x `elem` ["-i", "-u",
+                                                          "i",  "u"]
+                                         -> ("U", "")
+
+                                    Suffix x | x `elem` ["-iN", "-uN"]
+
+                                         -> ("", "-iN")
+
+                                    Suffix x | x `elem` ["iN", "uN"]
+
+                                         -> ("", "iN")
+
                                     _    -> ("uw", show ix)
 
                 ch  -> ([ch], show ix)

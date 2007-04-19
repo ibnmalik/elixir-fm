@@ -88,8 +88,29 @@ y |< x = Morphs m p (x : s)
     where Morphs m p s = morph y
 
 
-infixr 7 >|
-infixl 8 |<
+infixr 7 >|, >>|    -- , >||
+infixl 8 |<, |<<    -- , ||<
+
+
+(>>|) :: Morphing s m => String -> s -> Morphs m
+
+x >>| y = Prefix x >| y
+
+
+(|<<) :: Morphing s m => s -> String -> Morphs m
+
+y |<< x = y |< Suffix x
+
+
+{-
+
+(>||) :: Morphing s m => String -> s -> Morphs m
+(>||) = (>|) . Prefix
+
+(||<) :: Morphing s m => s -> String -> Morphs m
+(||<) = (flip (.) Suffix) . (|<)
+
+-}
 
 
 data Morphs a = Morphs a [Prefix] [Suffix]
@@ -99,11 +120,18 @@ data Morphs a = Morphs a [Prefix] [Suffix]
 
 instance Show a => Show (Morphs a) where
 
-    showsPrec _ (Morphs m p s) =
+    showsPrec _ (Morphs m p s) = foldr ((.) . prefix') id p . shows m .
+                                 foldl (flip ((.) . suffix')) id s
 
-                    foldr (((.) . flip (.) ((++) " >| ") . shows)) id p .
-                    shows m .
-                    foldl (flip ((.) . (.) ((++) " |< ") . shows)) id s
+                -- foldr (((.) . flip (.) ((++) " >| ") . shows)) id p .
+                -- shows m .
+                -- foldl (flip ((.) . (.) ((++) " |< ") . shows)) id s
+
+        where prefix' (Prefix x) = shows x . (++) " >>| "
+              prefix' y          = shows y . (++)  " >| "
+
+              suffix' (Suffix x) = (++) " |<< " . shows x
+              suffix' y          = (++) " |< "  . shows y
 
 
 instance Rules a => Rules (Morphs a) where
@@ -156,13 +184,17 @@ instance Template a => Combines a (Morphs a) where
 -}
 
 
-data Prefix =       Al
+data Prefix =   Prefix String
+
+                |   Al
                 |   LA
 
-    deriving (Eq, Ord, Enum)
+    deriving Eq
 
 
 instance Show Prefix where
+
+    show (Prefix x) = x
 
     show Al = "al"
     show LA = "lA"
@@ -173,30 +205,87 @@ lA  =   LA
 laa =   LA
 
 
-data Suffix =       Iy
+data Suffix =   Suffix String
+
+                |   Iy
                 |   AT
                 |   At
                 |   Un
                 |   In
                 |   An
                 |   Ayn
-                |   AN
                 |   AJIy
 
-    deriving (Eq, Ord, Enum)
+{-
+                |   U
+                |   UW
+                |   I__
+                |   A
+                |   Ay
+
+                |   N
+
+                |   A_
+                |   I_
+                |   U_
+
+                |   At_
+                |   AtA
+
+                |   Ta
+                |   Ti
+                |   Tu
+
+                |   Tum
+                |   Tunn
+                |   TumA
+
+                |   NA
+                |   Na
+-}
+
+    deriving Eq
 
 
 instance Show Suffix where
 
+    show (Suffix x) = x
+
     show Iy = "Iy"
     show AT = "aT"
     show At = "At"
-    show Un = "Un-a"
-    show In = "In-a"
-    show An = "An-i"
-    show Ayn = "ayn-i"
-    show AN = "aN"
+    show Un = "Un"
+    show In = "In"
+    show An = "An"
+    show Ayn = "ayn"
     show AJIy = "a^gIy"
+
+{-
+    show U_  = "U"
+    show UW = "UW"
+    show I__  = "I"
+    show A  = "A"
+
+    show N  = "N"
+
+    show A_ = "-a"
+    show I_ = "-i"
+    show U_ = "-u"
+
+    show At_ = "at-i"
+    show AtA = "atA"
+
+    show Ta = "t-a"
+    show Ti = "t-i"
+    show Tu = "t-u"
+
+    show Tum  = "tum-u"
+    show Tunn = "tunn-a"
+    show TumA = "tumA"
+
+    show Na = "n-a"
+    show NA = "nA"
+-}
 
 
 iyy   = Iy
@@ -206,7 +295,20 @@ uwn   = Un
 iyn   = In
 aan   = An
 ayn   = Ayn
-aN    = AN
 aJIy  = AJIy
 ajIy  = AJIy
 ajiyy = AJIy
+
+aN    = Suffix "-aN"
+
+{-
+a = A_
+i = I_
+u = U_
+
+at = At_
+
+ta = Ta
+ti = Ti
+tu = Tu
+-}

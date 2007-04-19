@@ -79,18 +79,18 @@ instance Inflect RootEntry a => Inflect Entry a where
 
     inflect x = inflect (RE "f ` l" x)
 
-
+{-
 instance Inflect Entry ParaVerb where
 
     inflect x = inflect (RE "d r s" x)
-
+-}
 
 instance Inflect Entry ParaNoun where
 
     inflect x = inflect (RE "k t b" x)
 
 
-
+{-
 instance Inflect RootEntry ParaVerb where
 
     inflect (RE r e) f = (:[]) $ case f of
@@ -126,7 +126,7 @@ instance Inflect RootEntry ParaVerb where
                            [ (x, y) | x <- [I ..], y <- verbStems x,
                                       let (a, _, _, _) = y,
                                       let Morphs s _ _ = morphs e, s == a ]
-
+-}
 
 instance Inflect RootEntry ParaNoun where
 
@@ -143,39 +143,25 @@ findStem Dual e = [morphs e |< An]
 findStem _ e = [morphs e]
 
 
-findForm r c (d :-: a) t@(Morphs m p s) =
+--findForm r c (d :-: a) t@(Morphs m p s) = (article . endings c d a . merge r) t
+findForm r c (d :-: a) t@(Morphs m p s) = (article . merge r . endings c d a) t
 
-        ( case d of Just True -> prefixDefinite
-                    _         -> id ) $
+    where article = case d of   Just True           ->  merge r . prefixDefinite
+                                _                   ->  id
 
-        case s of
+          endings = case s of   Un : _              ->  paraMasculine
+                                At : _              ->  paraFeminine
+                                An : _              ->  paraDual
 
-            At : _      ->  paraAat c d a shown
-            An : xs     ->  paraAan c d a (merge r (Morphs m p ((if c == Nominative then An else Ayn) : xs)))
-            Un : xs     ->  paraUun c d a (merge r (Morphs m p ((if c == Nominative then Un else In) : xs)))
-
-            _  ->  if isDiptote t then case last shown of
-
-                                'Y' -> paraY2Y c d a (init shown)
-                                'I' -> paraI2a c d a (init shown)
-                                'A' -> paraA2A c d a (init shown)
-                             -- 'U' -> paraY2Y c d a (init shown)
-                                ch  -> paraU2a c d a shown
-
-                                  else case last shown of
-
-                                'Y' -> paraY3N c d a (init shown)
-                                'I' -> paraI3N c d a (init shown)
-                                'A' -> paraA3N c d a (init shown)
-                             -- 'U' -> paraY2Y c d a (init shown)
-                                ch  -> paraU3N c d a shown
-
-        where shown = merge r t
+                                _  | isDiptote t    ->  paraDiptote
+                                _                   ->  paraTriptote
 
 
-prefix x y = x ++ y
+prefix x y = x >>| y
 
-suffix x y = y ++ x
+suffix x y = y |<< x
+
+reduce = id
 
 {-
 instance Inflect String where
@@ -205,7 +191,7 @@ moony = [ "'", "b", "^g", ".h", "_h", "`", ".g",
           "c", "^c", ",c", "^z", "^n", "^l", ".r" ]
 
 
-prefixDefinite :: String -> String
+-- prefixDefinite :: String -> String
 prefixDefinite s =
 
     case filter (flip isPrefixOf s) sunny of
@@ -215,103 +201,99 @@ prefixDefinite s =
         ls : _  ->                          prefix ("a" ++ ls ++ "-") s
 
 
+{-
 paraI3N c d s = case (c, d, s) of
 
-        (Accusative,    Nothing,    False)  -> suffix "iy-aN"
-        ( _ ,           Nothing,    False)  -> suffix "-iN"
+        (Accusative,    Nothing,    False)  -> suffix "iyaN"
+        ( _ ,           Nothing,    False)  -> suffix "iN"
 
-        (Accusative,    _ ,         _ )     -> suffix "iy-a"
+        (Accusative,    _ ,         _ )     -> suffix "iya"
         ( _ ,           _ ,         _ )     -> suffix "I"
-
 
 paraI2a c d s = case (c, d, s) of
 
         (Nominative,    Nothing,    False)  -> suffix "I"
-        ( _ ,           Nothing,    False)  -> suffix "iy-a"
+        ( _ ,           Nothing,    False)  -> suffix "iya"
 
-        (Accusative,    _,          _ )     -> suffix "iy-a"
+        (Accusative,    _,          _ )     -> suffix "iya"
         ( _ ,           _,          _ )     -> suffix "I"
-
 
 paraA3N c d s = case (c, d, s) of
 
-        ( _ , Nothing, False)   -> suffix "-aN"
+        ( _ , Nothing, False)   -> suffix "aN"
         ( _ , _ ,      _    )   -> suffix "A"
-
 
 paraA2A c d s = case (c, d, s) of
 
         ( _ , _ ,      _    )   -> suffix "A"
-
 
 paraY3N c d s = case (c, d, s) of
 
         ( _ , Nothing, False)   -> suffix "aNY"
         ( _ , _ ,      _    )   -> suffix "Y"
 
-
 paraY2Y c d s = case (c, d, s) of
 
         ( _ , _ , _ )           -> suffix "Y"
+-}
+
+paraTriptote c d a = case (c, d, a) of
+
+        (Nominative, Nothing, False)    -> suffix "uN" -- suffix u . suffix N
+        (Genitive,   Nothing, False)    -> suffix "iN" -- suffix i . suffix N
+        (Accusative, Nothing, False)    -> suffix "aN" -- suffix a . suffix N
+
+        (Nominative, _ , _ )            -> suffix "u"
+        (Genitive,   _ , _ )            -> suffix "i"
+        (Accusative, _ , _ )            -> suffix "a"
 
 
-paraU3N c d s = case (c, d, s) of
+paraDiptote c d a = case (c, d, a) of
 
-        (Nominative, Nothing, False)    -> suffix "-uN"
-        (Genitive,   Nothing, False)    -> suffix "-iN"
-        (Accusative, Nothing, False)    -> suffix "-aN"
+        (Nominative, Nothing, False)    -> suffix "u"
+        ( _ ,        Nothing, False)    -> suffix "a"
 
-        (Nominative, _ , _ )            -> suffix "-u"
-        (Genitive,   _ , _ )            -> suffix "-i"
-        (Accusative, _ , _ )            -> suffix "-a"
-
-
-paraU2a c d s = case (c, d, s) of
-
-        (Nominative, Nothing, False)    -> suffix "-u"
-        ( _ ,        Nothing, False)    -> suffix "-a"
-
-        (Nominative, _ , _ )            -> suffix "-u"
-        (Genitive,   _ , _ )            -> suffix "-i"
-        (Accusative, _ , _ )            -> suffix "-a"
+        (Nominative, _ , _ )            -> suffix "u"
+        (Genitive,   _ , _ )            -> suffix "i"
+        (Accusative, _ , _ )            -> suffix "a"
 
 
-paraUun c d s = case (c, d, s) of
+paraMasculine c d a = case (c, d, a) of
 
-        (Nominative, _ , False)         -> suffix "Un-a"
-        ( _ ,        _ , False)         -> suffix "In-a"
+        (Nominative, _ , False)         -> suffix "Una" . reduce
+        ( _ ,        _ , False)         -> suffix "Ina" . reduce
 
-        (Nominative, _ , True)          -> suffix "U"
-        ( _ ,        _ , True)          -> suffix "I"
-
-
-paraAan c d s = case (c, d, s) of
-
-        (Nominative, _ , False)         -> suffix "An-i"
-        ( _ ,        _ , False)         -> suffix "ayn-i"
-
-        (Nominative, _ , True)          -> suffix "A"
-        ( _ ,        _ , True)          -> suffix "ay-i"
+        (Nominative, _ , True)          -> suffix "U" . reduce
+        ( _ ,        _ , True)          -> suffix "I" . reduce
 
 
-paraAat c d s = case (c, d, s) of
+paraDual c d a = case (c, d, a) of
 
-        (Nominative, Nothing, False)    -> suffix "-uN"
-        ( _ ,        Nothing, False)    -> suffix "-iN"
+        (Nominative, _ , False)         -> suffix "Ani"  . reduce
+        ( _ ,        _ , False)         -> suffix "ayni" . reduce
 
-        (Nominative, _ , _ )            -> suffix "-u"
-        ( _ ,        _ , _ )            -> suffix "-i"
+        (Nominative, _ , True)          -> suffix "A"     . reduce
+        ( _ ,        _ , True)          -> suffix "ay-i"  . reduce
+
+
+paraFeminine c d a = case (c, d, a) of
+
+        (Nominative, Nothing, False)    -> suffix "uN"
+        ( _ ,        Nothing, False)    -> suffix "iN"
+
+        (Nominative, _ , _ )            -> suffix "u"
+        ( _ ,        _ , _ )            -> suffix "i"
 
 
 paraVerbP v p g n = case n of
 
             Singular    ->  case (p, g) of
 
-                (Third,  Masculine) ->  suffix "-a"
+                (Third,  Masculine) ->  suffix "a"
                 (Third,  Feminine)  ->  suffix "at-i"
-                (Second, Masculine) ->  suffix "t-a"
-                (Second, Feminine)  ->  suffix "t-i"
-                (First,      _    ) ->  suffix "t-u"
+                (Second, Masculine) ->  suffix "ta"
+                (Second, Feminine)  ->  suffix "ti"
+                (First,      _    ) ->  suffix "tu"
 
             Dual        -> case (p, g) of
 
@@ -322,10 +304,10 @@ paraVerbP v p g n = case n of
 
             Plural      -> case (p, g) of
 
-                (Third,  Masculine) ->  suffix "uW"
-                (Third,  Feminine)  ->  suffix "n-a"
+                (Third,  Masculine) ->  suffix "UW"
+                (Third,  Feminine)  ->  suffix "na"
                 (Second, Masculine) ->  suffix "tum-u"
-                (Second, Feminine)  ->  suffix "tunn-a"
+                (Second, Feminine)  ->  suffix "tunna"
                 (First,      _    ) ->  suffix "nA"
 
 
@@ -354,51 +336,45 @@ prefixImperfect p g n = case n of
 
 paraVerbI m v p g n i = prefixImperfect p g n . prefix i . case m of
 
-    Indicative ->
-
-        case n of
+    Indicative  ->  case n of
 
             Singular    ->  case (p, g) of
 
-                (Second, Feminine)  ->  suffix "In-a"
-                ( _ ,    _    )     ->  suffix "-u"
+                (Second, Feminine)  ->  suffix "Ina"
+                ( _ ,    _    )     ->  suffix "u"
 
             Dual        -> case (p, g) of
 
-                (First, _ )         ->  suffix "-u"
-                ( _,    _ )         ->  suffix "An-i"
+                (First, _ )         ->  suffix "u"
+                ( _,    _ )         ->  suffix "Ani"
 
             Plural      -> case (p, g) of
 
-                (First, _ )         ->  suffix "-u"
-                ( _,    Masculine)  ->  suffix "Un-a"
-                ( _,    Feminine)   ->  suffix "n-a"
+                (First, _ )         ->  suffix "u"
+                ( _,    Masculine)  ->  suffix "Una"
+                ( _,    Feminine)   ->  suffix "na"
 
 
-    Subjunctive ->
-
-        case n of
+    Subjunctive ->  case n of
 
             Singular    ->  case (p, g) of
 
                 (Second, Feminine)  ->  suffix "I"
-                (_,      _ )        ->  suffix "-a"
+                (_,      _ )        ->  suffix "a"
 
             Dual        -> case (p, g) of
 
-                (First,  _    )     ->  suffix "-a"
+                (First,  _    )     ->  suffix "a"
                 ( _ ,    _    )     ->  suffix "A"
 
             Plural      -> case (p, g) of
 
-                (First, _    )      ->  suffix "-a"
+                (First, _    )      ->  suffix "a"
                 ( _ ,   Masculine)  ->  suffix "UW"
-                ( _ ,   Feminine)   ->  suffix "n-a"
+                ( _ ,   Feminine)   ->  suffix "na"
 
 
-    Jussive     ->
-
-        case n of
+    Jussive     ->  case n of
 
             Singular    ->  case (p, g) of
 
@@ -414,12 +390,10 @@ paraVerbI m v p g n i = prefixImperfect p g n . prefix i . case m of
 
                 (First, _   )       ->  suffix ""
                 ( _ ,   Masculine)  ->  suffix "UW"
-                ( _ ,   Feminine)   ->  suffix "n-a"
+                ( _ ,   Feminine)   ->  suffix "na"
 
 
-    Energetic   ->
-
-        case n of
+    Energetic   ->  case n of
 
             Singular    ->  case (p, g) of
 
@@ -452,4 +426,4 @@ paraVerbC g n i = case n of
             Plural      -> case g of
 
                 Masculine ->  prefix i . suffix "UA"
-                Feminine  ->  prefix i . suffix "n-a"
+                Feminine  ->  prefix i . suffix "na"

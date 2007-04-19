@@ -38,7 +38,7 @@ module Elixir.Lexicon (
         PatternQ (..),
 
         Prefix (..), al, lA,
-        Suffix (..), aT, iyy, aN,
+        Suffix (..), aT, aN, -- iyy,
 
         -- * Methods
 
