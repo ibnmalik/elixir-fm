@@ -519,6 +519,15 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- lagA-u -}           [ "speak nonsense", "be null" ]
                               `imperf`     FCU,
 
+    -- ;; lagiy-a_1
+    -- lgy     lagiy   PV_no-w speak nonsense
+    -- lg      lag     PV_w    speak nonsense
+    -- lgY     logaY   IV_0    speak nonsense
+    -- lgy     logay   IV_Ann  speak nonsense
+    -- lg      loga    IV_0hwnyn       speak nonsense
+
+    FaCI                      `verb`    {- lagiy-a -}          [ "speak nonsense" ],
+
     -- ;; >alogaY_1
     -- >lgY    >alogaY PV_0    cancel;abrogate;terminate
     -- AlgY    >alogaY PV_0    cancel;abrogate;terminate
@@ -4802,6 +4811,16 @@ lexicon = listing "Lexicon's properties"
 
     FaCA                      `verb`    {- lahA-u -}           [ "play", "be amused with", "renounce" ]
                               `imperf`     FCU,
+
+    -- ;; lahiy-a_1
+    -- lhy     lahiy   PV_no-w like;renounce
+    -- lh      lah     PV_w    like;renounce
+    -- lhY     lohaY   IV_0    like;renounce
+    -- lhA     lohA    IV_h    like;renounce
+    -- lhy     lohay   IV_Ann  like;renounce
+    -- lh      loha    IV_0hwnyn       like;renounce
+
+    FaCI                      `verb`    {- lahiy-a -}          [ "like", "renounce" ],
 
     -- ;; lah~aY_1
     -- lhY     lah~aY  PV_0    delight;amuse;distract

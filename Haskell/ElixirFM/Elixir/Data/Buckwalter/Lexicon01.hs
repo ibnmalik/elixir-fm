@@ -1065,6 +1065,20 @@ lexicon = listing "Lexicon's properties"
 
  |> "' _d '" <| [
 
+    -- ;; >a*iy-a_1
+    -- >*y     >a*iy   PV_no-w suffer damage
+    -- A*y     >a*iy   PV_no-w suffer damage
+    -- >*      >a*     PV_w    suffer damage
+    -- A*      >a*     PV_w    suffer damage
+    -- >*Y     >o*aY   IV_0_no-Pref-A  suffer damage
+    -- A*Y     >o*aY   IV_0_no-Pref-A  suffer damage
+    -- >*y     >o*ay   IV_Ann_no-Pref-A        suffer damage
+    -- A*y     >o*ay   IV_Ann_no-Pref-A        suffer damage
+    -- >*      >o*a    IV_0hwnyn_no-Pref-A     suffer damage
+    -- A*      >o*a    IV_0hwnyn_no-Pref-A     suffer damage
+
+    FaCI                      `verb`    {- Oa*iy-a -}          [ "suffer damage" ],
+
     -- ;; |*aY_1
     -- \|*Y     |*aY    PV_0    injure;prejudice
     -- A*Y     |*aY    PV_0    injure;prejudice
@@ -1470,8 +1484,9 @@ lexicon = listing "Lexicon's properties"
     -- Axw     >axaw   NAn_Nayn        brothers
 
     FaL                       `noun`    {- Oax -}              [ "brother", "brother + my", "brothers" ]
+                              `plural`     FaCI
                               `plural`     FaCA
-                           {- `others`  [ "'a_hA N0_Nh" ] -} ]
+                           {- `others`  [ "'a_hiy N0_Nh FW-WaBi", "'a_hA N0_Nh" ] -} ]
 
  |> "' _h r" <| [
 
@@ -2387,8 +2402,9 @@ lexicon = listing "Lexicon's properties"
     -- Aby     >abiy   FW-WaBi father + my      [[>ab/NOUN+iy/POSS_PRON_1S]]
 
     FaL                       `noun`    {- Oab -}              [ "father", "father + my" ]
+                              `plural`     FaCI
                               `plural`     FaCA
-                           {- `others`  [ "'abA N0_Nh" ] -},
+                           {- `others`  [ "'abiy N0_Nh FW-WaBi", "'abA N0_Nh" ] -},
 
     -- ;; >abiyb_1
     -- >byb    >abiyb  Nprop   Aviv
@@ -2843,6 +2859,12 @@ lexicon = listing "Lexicon's properties"
     -- AbA     >abA    Nprop   Aba
 
     FaCA                      `noun`    {- OabA -}             [ "Aba" ],
+
+    -- ;; >abiy_1
+    -- >by     >abiy   Nprop   Abi
+    -- Aby     >abiy   Nprop   Abi
+
+    FaCI                      `noun`    {- Oabiy -}            [ "Abi" ],
 
     -- ;; <ibAwap_1
     -- <bAw    <ibAw   Nap     fatherhood
@@ -3617,6 +3639,14 @@ lexicon = listing "Lexicon's properties"
     -- Afsyt   >ufosiyt        N0      offset
 
     KuRDIS                    `noun`    {- Oufosiyt -}         [ "offset" ] ]
+
+ |> "' f w" <| [
+
+    -- ;; >afiy_1
+    -- >fy     >afiy   Nprop   Avi
+    -- Afy     >afiy   Nprop   Avi
+
+    FaCI                      `noun`    {- Oafiy -}            [ "Avi" ] ]
 
  |> "' f y" <| [
 
@@ -8474,6 +8504,20 @@ lexicon = listing "Lexicon's properties"
 
     FaCA                      `verb`    {- OasA-u -}           [ "nurse", "pacify" ]
                               `imperf`     FCU,
+
+    -- ;; >asiy-a_1
+    -- >sy     >asiy   PV_no-w_intr    be sad;grieve
+    -- Asy     >asiy   PV_no-w_intr    be sad;grieve
+    -- >s      >as     PV_w_intr       be sad;grieve
+    -- As      >as     PV_w_intr       be sad;grieve
+    -- >sY     >osaY   IV_0_no-Pref-A  be sad;grieve
+    -- AsY     >osaY   IV_0_no-Pref-A  be sad;grieve
+    -- >sy     >osay   IV_Ann_no-Pref-A        be sad;grieve
+    -- Asy     >osay   IV_Ann_no-Pref-A        be sad;grieve
+    -- >s      >osa    IV_0hwnyn_no-Pref-A     be sad;grieve
+    -- As      >osa    IV_0hwnyn_no-Pref-A     be sad;grieve
+
+    FaCI                      `verb`    {- Oasiy-a -}          [ "be sad", "grieve" ],
 
     -- ;; >as~aY_1
     -- >sY     >as~aY  PV_0    console;comfort

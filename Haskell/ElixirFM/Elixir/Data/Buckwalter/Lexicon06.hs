@@ -4349,6 +4349,15 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- HAdiy -}            [ "leader", "cameleer", "leaders", "cameleers" ],
 
+    -- ;; Hadiy-a_1
+    -- Hdy     Hadiy   PV_no-w remain;not move
+    -- Hd      Had     PV_w    remain;not move
+    -- HdY     HodaY   IV_0    remain;not move
+    -- Hdy     Hoday   IV_Ann  remain;not move
+    -- Hd      Hoda    IV_0hwnyn       remain;not move
+
+    FaCI                      `verb`    {- Hadiy-a -}          [ "remain", "not move" ],
+
     -- ;; HAdiy_3
     -- HAdy    HAdiy   N0      one
 
@@ -7155,7 +7164,8 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `noun`    {- Ham -}              [ "father-in-law", "father-in-law + my", "father-in-law of", "fathers-in-law" ]
                               `plural`     FaCA
-                           {- `others`  [ ".hamA N0_Nh" ] -},
+                              `plural`     FaCI
+                           {- `others`  [ ".hamA N0_Nh", ".hamiy FW-WaBi N0_Nh" ] -},
 
     -- ;; Humap_1
     -- Hm      Hum     NapAt   sting;prick

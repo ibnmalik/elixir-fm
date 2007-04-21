@@ -9380,6 +9380,50 @@ $Lexicon = {
     },
     {
       'types' => {
+        'ksa' => {
+          'IV_0hwnyn' => 1
+        },
+        'ksay' => {
+          'IV_Ann' => 1
+        },
+        'ksY' => {
+          'IV_0' => 1
+        },
+        'kasiy' => {},
+        'kas' => {
+          'PV_w' => 1
+        }
+      },
+      'entry' => 'kasiy',
+      'form' => 'kasiy',
+      'lines' => [
+        ';; kasiy-a_1',
+        'ksy     kasiy   PV_no-w get dressed',
+        'ks      kas     PV_w    get dressed',
+        'ksY     kosaY   IV_0    get dressed',
+        'ksy     kosay   IV_Ann  get dressed',
+        'ks      kosa    IV_0hwnyn       get dressed'
+      ],
+      'patterns' => {
+        'ksY' => [
+          'FCY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCI',
+      'glosses' => [
+        'get dressed'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'kasiy-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'ks' => {
           'IV_0hwnyn_yu' => 1
         },
@@ -45277,31 +45321,10 @@ $Lexicon = {
   ],
   'k s y' => [
     {
-      'types' => {
-        'ksa' => {
-          'IV_0hwnyn' => 1
-        },
-        'ksay' => {
-          'IV_Ann' => 1
-        },
-        'ksY' => {
-          'IV_0' => 1
-        },
-        'kasiy' => {},
-        'kas' => {
-          'PV_w' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kasiy',
       'form' => 'kasiy',
-      'lines' => [
-        ';; kasiy-a_1',
-        'ksy     kasiy   PV_no-w get dressed',
-        'ks      kas     PV_w    get dressed',
-        'ksY     kosaY   IV_0    get dressed',
-        'ksy     kosay   IV_Ann  get dressed',
-        'ks      kosa    IV_0hwnyn       get dressed'
-      ],
+      'lines' => [],
       'patterns' => {
         'ksY' => [
           'FCY'
@@ -45313,13 +45336,9 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCiL',
-      'glosses' => [
-        'get dressed'
-      ],
+      'glosses' => [],
       'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
+      'imperf' => [],
       'orig' => 'kasiy-a',
       'prefix' => ''
     },
@@ -48142,9 +48161,9 @@ $Lexicon = {
 $Lexicon->{'k r y'}[1]{'types'} = $Lexicon->{'k r y'}[0]{'types'};
 $Lexicon->{'k r y'}[1]{'lines'} = $Lexicon->{'k r y'}[0]{'lines'};
 $Lexicon->{'k r y'}[1]{'glosses'} = $Lexicon->{'k r y'}[0]{'glosses'};
-$Lexicon->{'k s w'}[6]{'types'} = $Lexicon->{'k s \''}[0]{'types'};
-$Lexicon->{'k s w'}[6]{'lines'} = $Lexicon->{'k s \''}[0]{'lines'};
-$Lexicon->{'k s w'}[6]{'glosses'} = $Lexicon->{'k s \''}[0]{'glosses'};
+$Lexicon->{'k s w'}[7]{'types'} = $Lexicon->{'k s \''}[0]{'types'};
+$Lexicon->{'k s w'}[7]{'lines'} = $Lexicon->{'k s \''}[0]{'lines'};
+$Lexicon->{'k s w'}[7]{'glosses'} = $Lexicon->{'k s \''}[0]{'glosses'};
 $Lexicon->{'k r \''}[0]{'types'} = $Lexicon->{'k r y'}[11]{'types'};
 $Lexicon->{'k r \''}[0]{'lines'} = $Lexicon->{'k r y'}[11]{'lines'};
 $Lexicon->{'k r \''}[0]{'glosses'} = $Lexicon->{'k r y'}[11]{'glosses'};
@@ -48223,3 +48242,7 @@ $Lexicon->{'k n w'}[2]{'glosses'} = $Lexicon->{'k n n'}[12]{'glosses'};
 $Lexicon->{'k .d .d'}[1]{'types'} = $Lexicon->{'k t .d'}[0]{'types'};
 $Lexicon->{'k .d .d'}[1]{'lines'} = $Lexicon->{'k t .d'}[0]{'lines'};
 $Lexicon->{'k .d .d'}[1]{'glosses'} = $Lexicon->{'k t .d'}[0]{'glosses'};
+$Lexicon->{'k s y'}[0]{'types'} = $Lexicon->{'k s w'}[1]{'types'};
+$Lexicon->{'k s y'}[0]{'lines'} = $Lexicon->{'k s w'}[1]{'lines'};
+$Lexicon->{'k s y'}[0]{'glosses'} = $Lexicon->{'k s w'}[1]{'glosses'};
+$Lexicon->{'k s y'}[0]{'imperf'} = $Lexicon->{'k s w'}[1]{'imperf'};

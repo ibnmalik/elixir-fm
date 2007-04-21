@@ -373,9 +373,9 @@ data PatternT =
 
 --  Form I
 
-            FaCaL                                       |   FAL                 |   FaCA                |   FaCL
-        |   FaCiL                                                               |   FaCY
-        |   FaCuL                                                               |   FaCI
+            FaCaL                                       |   FAL                 |   FaCY                |   FaCL
+        |   FaCiL                                                               |   FaCI
+        |   FaCuL                                                               |   FaCA
 
         |   FuCiL                                                               |   FuCI
 

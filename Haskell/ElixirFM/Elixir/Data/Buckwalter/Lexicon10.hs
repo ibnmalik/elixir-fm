@@ -3874,6 +3874,16 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCuL
                               `imperf`     FCU,
 
+    -- ;; raxiy-a_1
+    -- rxy     raxiy   PV_no-w_intr    be loose;slacken
+    -- rx      rax     PV_w_intr       be loose;slacken
+    -- rxY     roxaY   IV_0    be loose;slacken
+    -- rxA     roxA    IV_h    be loose;slacken
+    -- rxy     roxay   IV_Ann  be loose;slacken
+    -- rx      roxa    IV_0hwnyn       be loose;slacken
+
+    FaCI                      `verb`    {- raxiy-a -}          [ "be loose", "slacken" ],
+
     -- ;; raxA-u_1
     -- rxA     raxA    PV_0    live in ease or opulence
     -- rxw     raxaw   PV_Atn  live in ease or opulence

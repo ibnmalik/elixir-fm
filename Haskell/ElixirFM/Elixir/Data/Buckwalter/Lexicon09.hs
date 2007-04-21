@@ -789,6 +789,15 @@ lexicon = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- \*ukuw~ -}          [ "flaring up", "blazing" ],
 
+    -- ;; *akiy-a_1
+    -- \*ky     *akiy   PV_no-w_intr    be sharp-witted
+    -- \*k      *ak     PV_w_intr       be sharp-witted
+    -- \*kY     *okaY   IV_0    be sharp-witted
+    -- \*ky     *okay   IV_Ann  be sharp-witted
+    -- \*k      *oka    IV_0hwnyn       be sharp-witted
+
+    FaCI                      `verb`    {- \*akiy-a -}         [ "be sharp-witted" ],
+
     -- ;; *ak~aY_1
     -- \*kY     *ak~aY  PV_0    kindle;set ablaze
     -- \*kA     *ak~A   PV_h    kindle;set ablaze
@@ -1870,8 +1879,9 @@ lexicon = listing "Lexicon's properties"
 
     FuL                       `noun`    {- \*uw -}             [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
                               `plural`     FaCuL
+                              `plural`     FaCI
                               `plural`     FaCA
-                           {- `others`  [ "_dawuw FW-Wa FW-Wa-a", "_dawA FW-Wa FW-Wa-A" ] -},
+                           {- `others`  [ "_dawuw FW-Wa FW-Wa-a", "_dawiy FW-Wa-y FW-WaBi", "_dawA FW-Wa FW-Wa-A" ] -},
 
     -- ;; *awAt_1
     -- \*wAt    *awAt   N       selves;beings

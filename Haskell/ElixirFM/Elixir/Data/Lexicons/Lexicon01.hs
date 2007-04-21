@@ -217,8 +217,9 @@ lexicon = listing "Lexicon's properties"
  |> "' _h _h" <| [
 
     FaL                       `noun`    {- Oax -}              [ "brother", "brother + my", "brothers" ]
+                              `plural`     FaCI
                               `plural`     FaCA
-                           {- `others`  [ "'a_hA N0_Nh" ] -} ]
+                           {- `others`  [ "'a_hiy N0_Nh FW-WaBi", "'a_hA N0_Nh" ] -} ]
 
  |> "' _h r" <| [
 
@@ -341,8 +342,9 @@ lexicon = listing "Lexicon's properties"
     FAL                       `noun`    {- \|b -}              [ "August" ],
 
     FaL                       `noun`    {- Oab -}              [ "father", "father + my" ]
+                              `plural`     FaCI
                               `plural`     FaCA
-                           {- `others`  [ "'abA N0_Nh" ] -},
+                           {- `others`  [ "'abiy N0_Nh FW-WaBi", "'abA N0_Nh" ] -},
 
     FaCIL                     `noun`    {- Oabiyb -}           [ "Aviv" ] ]
 
@@ -398,6 +400,8 @@ lexicon = listing "Lexicon's properties"
  |> "' b w" <| [
 
     FaCuL                     `noun`    {- Oabuw -}            [ "Abu" ],
+
+    FaCI                      `noun`    {- Oabiy -}            [ "Abi" ],
 
     FaCY |< Iy                `adj`     {- Oabawiy~ -}         [ "paternal", "fatherly" ] ]
 
@@ -502,6 +506,10 @@ lexicon = listing "Lexicon's properties"
     FuCuL                     `noun`    {- Oufuq -}            [ "horizon", "horizons", "provinces" ]
                               `plural`     HACAL
                            {- `others`  [ "'AfAq N" ] -} ]
+
+ |> "' f w" <| [
+
+    FaCI                      `noun`    {- Oafiy -}            [ "Avi" ] ]
 
  |> "' f y" <| [
 

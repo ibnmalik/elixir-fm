@@ -7482,6 +7482,15 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- kasA-u -}           [ "clothe", "attire", "be clothed", "be attired" ]
                               `imperf`     FCU,
 
+    -- ;; kasiy-a_1
+    -- ksy     kasiy   PV_no-w get dressed
+    -- ks      kas     PV_w    get dressed
+    -- ksY     kosaY   IV_0    get dressed
+    -- ksy     kosay   IV_Ann  get dressed
+    -- ks      kosa    IV_0hwnyn       get dressed
+
+    FaCI                      `verb`    {- kasiy-a -}          [ "get dressed" ],
+
     -- ;; >akosaY_1
     -- >ksY    >akosaY PV_0    clothe;attire
     -- AksY    >akosaY PV_0    clothe;attire

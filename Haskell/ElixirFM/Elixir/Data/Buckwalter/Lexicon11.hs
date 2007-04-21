@@ -2151,6 +2151,13 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- zahA-u -}           [ "flourish", "be radiant" ]
                               `imperf`     FCU,
 
+    -- ;; zuhiy-a_1
+    -- zhy     zuhiy   PV_no-w_intr    be conceited;be boastful
+    -- zhY     zohaY   IV_0    be conceited;be boastful
+    -- zhy     zohay   IV_Ann  be conceited;be boastful
+
+    FuCI                      `verb`    {- zuhiy-a -}          [ "be conceited", "be boastful" ],
+
     -- ;; >azohaY_1
     -- >zhY    >azohaY PV_0    flourish;prosper
     -- AzhY    >azohaY PV_0    flourish;prosper
@@ -2385,6 +2392,15 @@ lexicon = listing "Lexicon's properties"
 
     FaCA                      `verb`    {- zakA-u -}           [ "thrive", "be righteous" ]
                               `imperf`     FCU,
+
+    -- ;; zakiy-a_1
+    -- zky     zakiy   PV_no-w grow;increase
+    -- zk      zak     PV_w    grow;increase
+    -- zkY     zokaY   IV_0    grow;increase
+    -- zky     zokay   IV_Ann  grow;increase
+    -- zk      zoka    IV_0hwnyn       grow;increase
+
+    FaCI                      `verb`    {- zakiy-a -}          [ "grow", "increase" ],
 
     -- ;; zak~aY_1
     -- zkY     zak~aY  PV_0    augment;nominate;recommend

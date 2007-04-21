@@ -464,6 +464,15 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- DaHA-u -}           [ "appear", "become visible" ]
                               `imperf`     FCU,
 
+    -- ;; DaHiy-a_1
+    -- DHy     DaHiy   PV_no-w_intr    be visible;be in the sun
+    -- DH      DaH     PV_w_intr       be visible;be in the sun
+    -- DHY     DoHaY   IV_0    be visible;be in the sun
+    -- DHy     DoHay   IV_Ann  be visible;be in the sun
+    -- DH      DoHa    IV_0hwnyn       be visible;be in the sun
+
+    FaCI                      `verb`    {- DaHiy-a -}          [ "be visible", "be in the sun" ],
+
     -- ;; DaH~aY_1
     -- DHY     DaH~aY  PV_0    sacrifice;immolate
     -- DHA     DaH~A   PV_h    sacrifice;immolate

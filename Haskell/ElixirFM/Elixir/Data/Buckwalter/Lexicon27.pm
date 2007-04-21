@@ -42876,6 +42876,20 @@ $Lexicon = {
       ],
       'orig' => 'waboh',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'wubiy',
+      'form' => 'wubiy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'wubiy',
+      'prefix' => ''
     }
   ],
   'w ^g f' => [
@@ -46010,6 +46024,9 @@ $Lexicon->{'w f \''}[2]{'glosses'} = $Lexicon->{'w f y'}[8]{'glosses'};
 $Lexicon->{'w f \''}[3]{'types'} = $Lexicon->{'w f y'}[9]{'types'};
 $Lexicon->{'w f \''}[3]{'lines'} = $Lexicon->{'w f y'}[9]{'lines'};
 $Lexicon->{'w f \''}[3]{'glosses'} = $Lexicon->{'w f y'}[9]{'glosses'};
+$Lexicon->{'w b h'}[3]{'types'} = $Lexicon->{'w b y'}[0]{'types'};
+$Lexicon->{'w b h'}[3]{'lines'} = $Lexicon->{'w b y'}[0]{'lines'};
+$Lexicon->{'w b h'}[3]{'glosses'} = $Lexicon->{'w b y'}[0]{'glosses'};
 $Lexicon->{'w ^s y'}[3]{'types'} = $Lexicon->{'w ^s y'}[2]{'types'};
 $Lexicon->{'w ^s y'}[3]{'lines'} = $Lexicon->{'w ^s y'}[2]{'lines'};
 $Lexicon->{'w ^s y'}[3]{'glosses'} = $Lexicon->{'w ^s y'}[2]{'glosses'};

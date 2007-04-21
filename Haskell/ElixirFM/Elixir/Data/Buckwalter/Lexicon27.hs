@@ -4946,7 +4946,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; waboh_1
     -- wbh     waboh   N       heeding;minding;paying attention
 
-    FaCL                      `noun`    {- waboh -}            [ "heeding", "minding", "paying attention" ] ]
+    FaCL                      `noun`    {- waboh -}            [ "heeding", "minding", "paying attention" ],
+
+    -- ;; wubiy_1
+    -- wby     wubiy   N0      Yobe
+
+    FuCI                      `noun`    {- wubiy -}            [ "Yobe" ] ]
 
  |> "w b l" <| [
 

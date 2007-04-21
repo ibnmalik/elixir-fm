@@ -2060,6 +2060,15 @@ lexicon = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- varA' -}            [ "wealth", "abundance" ],
 
+    -- ;; variy-a_1
+    -- vry     variy   PV_no-w_intr    become wealthy
+    -- vr      var     PV_w_intr       become wealthy
+    -- vrY     voraY   IV_0    become wealthy
+    -- vry     voray   IV_Ann  become wealthy
+    -- vr      vora    IV_0hwnyn       become wealthy
+
+    FaCI                      `verb`    {- variy-a -}          [ "become wealthy" ],
+
     -- ;; >avoraY_1
     -- >vrY    >avoraY PV_0    enrich;make rich
     -- AvrY    >avoraY PV_0    enrich;make rich
@@ -2235,6 +2244,12 @@ lexicon = listing "Lexicon's properties"
     FaCY                      `verb`    {- vawaY-i -}          [ "settle down", "remain" ]
                               `imperf`     FCY
                               `imperf`     FCI,
+
+    -- ;; vuwiy-a_1
+    -- vwy     vuwiy   PV_no-w_Pass    be buried
+    -- vwY     vowaY   IV_0_Pass_yu    be buried
+
+    FuCI                      `verb`    {- vuwiy-a -}          [ "be buried" ],
 
     -- ;; vaw~aY_1
     -- vwY     vaw~aY  PV_0    give lodging;provide housing

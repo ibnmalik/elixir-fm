@@ -3501,6 +3501,15 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- Ea$A-u -}           [ "be night-blind" ]
                               `imperf`     FCU,
 
+    -- ;; Ea$iy-a_1
+    -- E$y     Ea$iy   PV_no-w_intr    be night-blind
+    -- E$      Ea$     PV_w_intr       be night-blind
+    -- E$Y     Eo$aY   IV_0    be night-blind
+    -- E$y     Eo$ay   IV_Ann  be night-blind
+    -- E$      Eo$a    IV_0hwnyn       be night-blind
+
+    FaCI                      `verb`    {- Ea$iy-a -}          [ "be night-blind" ],
+
     -- ;; Ea$~aY_1
     -- E$Y     Ea$~aY  PV_0    give dinner
     -- E$A     Ea$~A   PV_h    give dinner
@@ -3870,6 +3879,15 @@ lexicon = listing "Lexicon's properties"
 
     FaCA                      `verb`    {- Ea*A-u -}           [ "be healthy" ]
                               `imperf`     FCU,
+
+    -- ;; Ea*iy-a_1
+    -- E*y     Ea*iy   PV_no-w_intr    be healthy
+    -- E*      Ea*     PV_w_intr       be healthy
+    -- E*Y     Eo*aY   IV_0    be healthy
+    -- E*y     Eo*ay   IV_Ann  be healthy
+    -- E*      Eo*a    IV_0hwnyn       be healthy
+
+    FaCI                      `verb`    {- Ea*iy-a -}          [ "be healthy" ],
 
     -- ;; Ea*Ap_1
     -- E*A     Ea*A    Nap     healthfulness;salubrity
@@ -15965,7 +15983,18 @@ lexicon = listing "Lexicon's properties"
     -- EyA     EoyA    IV_0_intr       be incapable
 
     FaCL                      `verb`    {- Eay~-a -}           [ "be incapable" ]
-                              `pfirst`     FaCiL,
+                              `pfirst`     FaCiL
+                              `pfirst`     FaCI,
+
+    -- ;; Eayiy-a_1
+    -- Eyy     Eayiy   PV_no-w_intr    be incapable
+    -- Ey      Eay     PV_w_intr       be incapable
+    -- EyY     EoyaY   IV_0_Pass_yu    be incapable
+    -- EyA     EoyA    IV_0    be incapable
+    -- Eyy     Eoyay   IV_Ann  be incapable
+    -- Ey      Eoya    IV_0hwnyn       be incapable
+
+    FaCI                      `verb`    {- Eayiy-a -}          [ "be incapable" ],
 
     -- ;; Eayiy-a_1
     -- Eyy     Eayiy   PV_no-w_intr    be incapable
@@ -16501,6 +16530,15 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `verb`    {- EazaY-i -}          [ "ascribe", "blame", "be ascribed", "be blamed" ]
                               `imperf`     FCI,
+
+    -- ;; Eaziy-a_1
+    -- Ezy     Eaziy   PV_no-w_intr    be patiently
+    -- Ez      Eaz     PV_w_intr       be patiently
+    -- EzY     EozaY   IV_0    be patiently
+    -- Ezy     Eozay   IV_Ann  be patiently
+    -- Ez      Eoza    IV_0hwnyn       be patiently
+
+    FaCI                      `verb`    {- Eaziy-a -}          [ "be patiently" ],
 
     -- ;; Eaz~aY_1
     -- EzY     Eaz~aY  PV_0    console;offer condolences

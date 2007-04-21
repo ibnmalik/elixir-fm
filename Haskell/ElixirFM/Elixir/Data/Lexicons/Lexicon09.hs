@@ -276,8 +276,9 @@ lexicon = listing "Lexicon's properties"
 
     FuL                       `noun`    {- \*uw -}             [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
                               `plural`     FaCuL
+                              `plural`     FaCI
                               `plural`     FaCA
-                           {- `others`  [ "_dawuw FW-Wa FW-Wa-a", "_dawA FW-Wa FW-Wa-A" ] -} ]
+                           {- `others`  [ "_dawuw FW-Wa FW-Wa-a", "_dawiy FW-Wa-y FW-WaBi", "_dawA FW-Wa FW-Wa-A" ] -} ]
 
  |> "_d w y" <| [
 

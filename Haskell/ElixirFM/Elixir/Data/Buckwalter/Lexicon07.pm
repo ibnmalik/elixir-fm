@@ -17099,6 +17099,21 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '_haniy',
+      'form' => '_haniy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCI',
+      'glosses' => [],
+      'suffix' => '',
+      'imperf' => [],
+      'orig' => 'xaniy-a',
+      'prefix' => ''
+    },
+    {
       'types' => {
         '_hniy' => {
           'IV_0hAnn_yu' => 1
@@ -41391,6 +41406,10 @@ $Lexicon->{'_h t l'}[7]{'glosses'} = $Lexicon->{'_h l l'}[14]{'glosses'};
 $Lexicon->{'_h t l'}[8]{'types'} = $Lexicon->{'_h l l'}[17]{'types'};
 $Lexicon->{'_h t l'}[8]{'lines'} = $Lexicon->{'_h l l'}[17]{'lines'};
 $Lexicon->{'_h t l'}[8]{'glosses'} = $Lexicon->{'_h l l'}[17]{'glosses'};
+$Lexicon->{'_h n w'}[1]{'types'} = $Lexicon->{'_h n y'}[0]{'types'};
+$Lexicon->{'_h n w'}[1]{'lines'} = $Lexicon->{'_h n y'}[0]{'lines'};
+$Lexicon->{'_h n w'}[1]{'glosses'} = $Lexicon->{'_h n y'}[0]{'glosses'};
+$Lexicon->{'_h n w'}[1]{'imperf'} = $Lexicon->{'_h n y'}[0]{'imperf'};
 $Lexicon->{'_h .s .s'}[3]{'types'} = $Lexicon->{'_h t .s'}[0]{'types'};
 $Lexicon->{'_h .s .s'}[3]{'lines'} = $Lexicon->{'_h t .s'}[0]{'lines'};
 $Lexicon->{'_h .s .s'}[3]{'glosses'} = $Lexicon->{'_h t .s'}[0]{'glosses'};

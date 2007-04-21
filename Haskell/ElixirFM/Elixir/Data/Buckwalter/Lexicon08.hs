@@ -4864,6 +4864,15 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- danA-u -}           [ "approach", "draw near", "be approached" ]
                               `imperf`     FCU,
 
+    -- ;; daniy-a_1
+    -- dny     daniy   PV_no-w_intr    be mean;be despicable
+    -- dn      dan     PV_w_intr       be mean;be despicable
+    -- dnY     donaY   IV_0    be mean;be despicable
+    -- dny     donay   IV_Ann  be mean;be despicable
+    -- dn      dona    IV_0hwnyn       be mean;be despicable
+
+    FaCI                      `verb`    {- daniy-a -}          [ "be mean", "be despicable" ],
+
     -- ;; dan~aY_1
     -- dnY     dan~aY  PV_0    move near;be base
     -- dnA     dan~A   PV_h    move near;be base

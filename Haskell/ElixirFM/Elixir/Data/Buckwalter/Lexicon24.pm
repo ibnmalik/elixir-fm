@@ -41684,6 +41684,9 @@ $Lexicon = {
         ],
         'manA' => [
           'FaCA'
+        ],
+        'muniy' => [
+          'FuCI'
         ]
       },
       'index' => '1',

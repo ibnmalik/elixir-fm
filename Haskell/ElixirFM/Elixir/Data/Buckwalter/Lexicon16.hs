@@ -4534,6 +4534,15 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCU
                            {- `others`  [ ".tarA PV" ] -},
 
+    -- ;; Tariy-a_1
+    -- Try     Tariy   PV_no-w_intr    be fresh;be tender
+    -- Tr      Tar     PV_w_intr       be fresh;be tender
+    -- TrY     ToraY   IV_0    be fresh;be tender
+    -- Try     Toray   IV_Ann  be fresh;be tender
+    -- Tr      Tora    IV_0hwnyn       be fresh;be tender
+
+    FaCI                      `verb`    {- Tariy-a -}          [ "be fresh", "be tender" ],
+
     -- ;; Tar~aY_1
     -- TrY     Tar~aY  PV_0    tenderize;freshen
     -- TrA     Tar~A   PV_h    tenderize;freshen

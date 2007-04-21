@@ -2050,6 +2050,16 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCuL
                               `imperf`     FCU,
 
+    -- ;; saxiy-a_1
+    -- sxy     saxiy   PV_no-w_intr    be generous;bestow
+    -- sx      sax     PV_w_intr       be generous;bestow
+    -- sxY     soxaY   IV_0    be generous;bestow
+    -- sxA     soxA    IV_h    be generous;bestow
+    -- sxy     soxay   IV_Ann  be generous;bestow
+    -- sx      soxa    IV_0hwnyn       be generous;bestow
+
+    FaCI                      `verb`    {- saxiy-a -}          [ "be generous", "bestow" ],
+
     -- ;; tasax~aY_1
     -- tsxY    tasax~aY        PV_0    be generous
     -- tsxy    tasax~ay        PV_Atn  be generous

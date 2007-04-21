@@ -1022,6 +1022,10 @@ lexicon = listing "Lexicon's properties"
 
     FiL                       `noun`    {- bin -}              [ "Bin", "Ben" ],
 
+    FaCI                      `noun`    {- baniy -}            [ "Bani", "Beni", "Benny" ],
+
+    FaCI                      `noun`    {- baniy -}            [ "sons/children of" ],
+
     FaCY |< Iy                `adj`     {- banawiy~ -}         [ "filial" ],
 
     FuCL                      `noun`    {- bun~ -}             [ "coffee beans" ],
@@ -1099,6 +1103,8 @@ lexicon = listing "Lexicon's properties"
     FiCAL                     `noun`    {- biqAE -}            [ "regions", "spots" ] ]
 
  |> "b q d" <| [
+
+    FaCI                      `verb`    {- baqiy-a -}          [ "remain", "last" ],
 
     HaFCY                     `verb`    {- OaboqaY -}          [ "maintain", "preserve", "be maintained", "be preserved" ],
 

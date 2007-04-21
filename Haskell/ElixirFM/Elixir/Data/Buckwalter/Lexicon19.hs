@@ -1147,6 +1147,18 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- ga$A-u -}           [ "come to" ]
                               `imperf`     FCU,
 
+    -- ;; ga$iy-a_1
+    -- g$y     ga$iy   PV_no-w cover;overcome
+    -- g$      ga$     PV_w    cover;overcome
+    -- g$Y     go$aY   IV_0    cover;overcome
+    -- g$A     go$A    IV_h    cover;overcome
+    -- g$y     go$ay   IV_Ann  cover;overcome
+    -- g$      go$a    IV_0hwnyn       cover;overcome
+    -- g$y     gu$iy   PV_Pass-a       faint
+    -- g$Y     go$aY   IV_Pass_yu      faint
+
+    FaCI                      `verb`    {- ga$iy-a -}          [ "cover", "overcome", "faint" ],
+
     -- ;; ga$~aY_1
     -- g$Y     ga$~aY  PV_0    cover;wrap
     -- g$A     ga$~A   PV_h    cover;wrap
@@ -2146,6 +2158,15 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- gadA-u -}           [ "depart", "become current" ]
                               `imperf`     FCU,
 
+    -- ;; gadiy-a_1
+    -- gdy     gadiy   PV_no-w have breakfast
+    -- gd      gad     PV_w    have breakfast
+    -- gdY     godaY   IV_0    have breakfast
+    -- gdy     goday   IV_Ann  have breakfast
+    -- gd      goda    IV_0hwnyn       have breakfast
+
+    FaCI                      `verb`    {- gadiy-a -}          [ "have breakfast" ],
+
     -- ;; gad~aY_1
     -- gdY     gad~aY  PV_0    give breakfast
     -- gdA     gad~A   PV_h    give breakfast
@@ -2520,6 +2541,15 @@ lexicon = listing "Lexicon's properties"
 
     FaCA                      `verb`    {- gafA-u -}           [ "doze off" ]
                               `imperf`     FCU,
+
+    -- ;; gafiy-a_1
+    -- gfy     gafiy   PV_no-w doze off
+    -- gf      gaf     PV_w    doze off
+    -- gfY     gofaY   IV_0    doze off
+    -- gfy     gofay   IV_Ann  doze off
+    -- gf      gofa    IV_0hwnyn       doze off
+
+    FaCI                      `verb`    {- gafiy-a -}          [ "doze off" ],
 
     -- ;; >agofaY_1
     -- >gfY    >agofaY PV_0    doze off

@@ -8345,6 +8345,15 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- nadA-u -}           [ "call", "invite", "convene", "be called", "be invited" ]
                               `imperf`     FCU,
 
+    -- ;; nadiy-a_1
+    -- ndy     nadiy   PV_no-w_intr    be moist;be damp
+    -- nd      nad     PV_w_intr       be moist;be damp
+    -- ndY     nodaY   IV_0    be moist;be damp
+    -- ndy     noday   IV_Ann  be moist;be damp
+    -- nd      noda    IV_0hwnyn       be moist;be damp
+
+    FaCI                      `verb`    {- nadiy-a -}          [ "be moist", "be damp" ],
+
     -- ;; nad~aY_1
     -- ndY     nad~aY  PV_0    moisten;make damp
     -- ndA     nad~A   PV_h    moisten;make damp
@@ -13645,6 +13654,15 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "nawAqiys Ndip" ] -} ]
 
  |> "n q w" <| [
+
+    -- ;; naqiy-a_1
+    -- nqy     naqiy   PV_no-w_intr    be pure
+    -- nq      naq     PV_w_intr       be pure
+    -- nqY     noqaY   IV_0    be pure
+    -- nqy     noqay   IV_Ann  be pure
+    -- nq      noqa    IV_0hwnyn       be pure
+
+    FaCI                      `verb`    {- naqiy-a -}          [ "be pure" ],
 
     -- ;; naq~aY_1
     -- nqY     naq~aY  PV_0    purify;clarify

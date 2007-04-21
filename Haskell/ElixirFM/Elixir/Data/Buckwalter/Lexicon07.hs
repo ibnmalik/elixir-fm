@@ -6361,6 +6361,14 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- xanA-u -}           [ "be obscene" ]
                               `imperf`     FCU,
 
+    -- ;; xaniy-a_1
+    -- xny     xaniy   PV_no-w_intr    be obscene
+    -- xn      xan     PV_w_intr       be obscene
+    -- xny     xonay   IV_Ann  be obscene
+    -- xn      xona    IV_0hwnyn       be obscene
+
+    FaCI                      `verb`    {- xaniy-a -}          [ "be obscene" ],
+
     -- ;; >axonaY_1
     -- >xnY    >axonaY PV_0    afflict;wear down;ruin
     -- AxnY    >axonaY PV_0    afflict;wear down;ruin

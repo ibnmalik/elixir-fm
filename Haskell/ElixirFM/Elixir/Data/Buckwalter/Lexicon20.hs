@@ -9723,6 +9723,15 @@ lexicon = listing "Lexicon's properties"
 
  |> "f t w" <| [
 
+    -- ;; fatiy-a_1
+    -- fty     fatiy   PV_no-w_intr    be youthful
+    -- ft      fat     PV_w_intr       be youthful
+    -- ftY     fotaY   IV_0    be youthful
+    -- fty     fotay   IV_Ann  be youthful
+    -- ft      fota    IV_0hwnyn       be youthful
+
+    FaCI                      `verb`    {- fatiy-a -}          [ "be youthful" ],
+
     -- ;; >afotaY_1
     -- >ftY    >afotaY PV_0    deliver a fatwa (legal opinion);opine
     -- AftY    >afotaY PV_0    deliver a fatwa (legal opinion);opine

@@ -6772,6 +6772,55 @@ $Lexicon = {
     },
     {
       'types' => {
+        's_ha' => {
+          'IV_0hwnyn' => 1
+        },
+        's_hA' => {
+          'IV_h' => 1
+        },
+        'sa_hiy' => {},
+        's_hY' => {
+          'IV_0' => 1
+        },
+        's_hay' => {
+          'IV_Ann' => 1
+        },
+        'sa_h' => {
+          'PV_w_intr' => 1
+        }
+      },
+      'entry' => 'sa_hiy',
+      'form' => 'sa_hiy',
+      'lines' => [
+        ';; saxiy-a_1',
+        'sxy     saxiy   PV_no-w_intr    be generous;bestow',
+        'sx      sax     PV_w_intr       be generous;bestow',
+        'sxY     soxaY   IV_0    be generous;bestow',
+        'sxA     soxA    IV_h    be generous;bestow',
+        'sxy     soxay   IV_Ann  be generous;bestow',
+        'sx      soxa    IV_0hwnyn       be generous;bestow'
+      ],
+      'patterns' => {
+        's_hY' => [
+          'FCY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCI',
+      'glosses' => [
+        'be generous',
+        'bestow'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'saxiy-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'tasa_h_hay' => {
           'PV_Atn' => 1,
           'IV_Ann' => 1
@@ -14295,6 +14344,9 @@ $Lexicon = {
         's.tY' => [
           'FCY'
         ],
+        'su.tiy' => [
+          'FuCI'
+        ],
         's.tuw' => [
           'FCuL',
           'FCU'
@@ -15108,35 +15160,10 @@ $Lexicon = {
   ],
   's _h y' => [
     {
-      'types' => {
-        's_ha' => {
-          'IV_0hwnyn' => 1
-        },
-        's_hA' => {
-          'IV_h' => 1
-        },
-        'sa_hiy' => {},
-        's_hY' => {
-          'IV_0' => 1
-        },
-        's_hay' => {
-          'IV_Ann' => 1
-        },
-        'sa_h' => {
-          'PV_w_intr' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'sa_hiy',
       'form' => 'sa_hiy',
-      'lines' => [
-        ';; saxiy-a_1',
-        'sxy     saxiy   PV_no-w_intr    be generous;bestow',
-        'sx      sax     PV_w_intr       be generous;bestow',
-        'sxY     soxaY   IV_0    be generous;bestow',
-        'sxA     soxA    IV_h    be generous;bestow',
-        'sxy     soxay   IV_Ann  be generous;bestow',
-        'sx      soxa    IV_0hwnyn       be generous;bestow'
-      ],
+      'lines' => [],
       'patterns' => {
         's_hY' => [
           'FCY'
@@ -15148,14 +15175,9 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCiL',
-      'glosses' => [
-        'be generous',
-        'bestow'
-      ],
+      'glosses' => [],
       'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
+      'imperf' => [],
       'orig' => 'saxiy-a',
       'prefix' => ''
     },
@@ -61082,6 +61104,10 @@ $Lexicon->{'s q q'}[1]{'glosses'} = $Lexicon->{'s q \''}[2]{'glosses'};
 $Lexicon->{'s l y'}[2]{'types'} = $Lexicon->{'s l w'}[3]{'types'};
 $Lexicon->{'s l y'}[2]{'lines'} = $Lexicon->{'s l w'}[3]{'lines'};
 $Lexicon->{'s l y'}[2]{'glosses'} = $Lexicon->{'s l w'}[3]{'glosses'};
+$Lexicon->{'s _h y'}[0]{'types'} = $Lexicon->{'s _h w'}[2]{'types'};
+$Lexicon->{'s _h y'}[0]{'lines'} = $Lexicon->{'s _h w'}[2]{'lines'};
+$Lexicon->{'s _h y'}[0]{'glosses'} = $Lexicon->{'s _h w'}[2]{'glosses'};
+$Lexicon->{'s _h y'}[0]{'imperf'} = $Lexicon->{'s _h w'}[2]{'imperf'};
 $Lexicon->{'s y \''}[1]{'types'} = $Lexicon->{'s y \''}[0]{'types'};
 $Lexicon->{'s y \''}[1]{'lines'} = $Lexicon->{'s y \''}[0]{'lines'};
 $Lexicon->{'s y \''}[1]{'glosses'} = $Lexicon->{'s y \''}[0]{'glosses'};
@@ -61151,9 +61177,9 @@ $Lexicon->{'s h y'}[0]{'glosses'} = $Lexicon->{'s h w'}[4]{'glosses'};
 $Lexicon->{'s y l n'}[0]{'types'} = $Lexicon->{'s y l'}[12]{'types'};
 $Lexicon->{'s y l n'}[0]{'lines'} = $Lexicon->{'s y l'}[12]{'lines'};
 $Lexicon->{'s y l n'}[0]{'glosses'} = $Lexicon->{'s y l'}[12]{'glosses'};
-$Lexicon->{'s _h \''}[0]{'types'} = $Lexicon->{'s _h w'}[4]{'types'};
-$Lexicon->{'s _h \''}[0]{'lines'} = $Lexicon->{'s _h w'}[4]{'lines'};
-$Lexicon->{'s _h \''}[0]{'glosses'} = $Lexicon->{'s _h w'}[4]{'glosses'};
+$Lexicon->{'s _h \''}[0]{'types'} = $Lexicon->{'s _h w'}[5]{'types'};
+$Lexicon->{'s _h \''}[0]{'lines'} = $Lexicon->{'s _h w'}[5]{'lines'};
+$Lexicon->{'s _h \''}[0]{'glosses'} = $Lexicon->{'s _h w'}[5]{'glosses'};
 $Lexicon->{'s n w'}[1]{'types'} = $Lexicon->{'s n n'}[19]{'types'};
 $Lexicon->{'s n w'}[1]{'lines'} = $Lexicon->{'s n n'}[19]{'lines'};
 $Lexicon->{'s n w'}[1]{'glosses'} = $Lexicon->{'s n n'}[19]{'glosses'};

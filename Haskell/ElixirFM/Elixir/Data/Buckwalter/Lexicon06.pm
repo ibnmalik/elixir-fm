@@ -16945,6 +16945,9 @@ $Lexicon = {
       'patterns' => {
         '.hamA' => [
           'FaCA'
+        ],
+        '.hamiy' => [
+          'FaCI'
         ]
       },
       'index' => '1',
@@ -25983,6 +25986,51 @@ $Lexicon = {
         'cameleers'
       ],
       'orig' => 'HAdiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.hday' => {
+          'IV_Ann' => 1
+        },
+        '.hadiy' => {},
+        '.hda' => {
+          'IV_0hwnyn' => 1
+        },
+        '.hdY' => {
+          'IV_0' => 1
+        },
+        '.had' => {
+          'PV_w' => 1
+        }
+      },
+      'entry' => '.hadiy',
+      'form' => '.hadiy',
+      'lines' => [
+        ';; Hadiy-a_1',
+        'Hdy     Hadiy   PV_no-w remain;not move',
+        'Hd      Had     PV_w    remain;not move',
+        'HdY     HodaY   IV_0    remain;not move',
+        'Hdy     Hoday   IV_Ann  remain;not move',
+        'Hd      Hoda    IV_0hwnyn       remain;not move'
+      ],
+      'patterns' => {
+        '.hdY' => [
+          'FCY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCI',
+      'glosses' => [
+        'remain',
+        'not move'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'Hadiy-a',
       'prefix' => ''
     },
     {
@@ -43268,31 +43316,10 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '.hday' => {
-          'IV_Ann' => 1
-        },
-        '.hadiy' => {},
-        '.hda' => {
-          'IV_0hwnyn' => 1
-        },
-        '.hdY' => {
-          'IV_0' => 1
-        },
-        '.had' => {
-          'PV_w' => 1
-        }
-      },
+      'types' => {},
       'entry' => '.hadiy',
       'form' => '.hadiy',
-      'lines' => [
-        ';; Hadiy-a_1',
-        'Hdy     Hadiy   PV_no-w remain;not move',
-        'Hd      Had     PV_w    remain;not move',
-        'HdY     HodaY   IV_0    remain;not move',
-        'Hdy     Hoday   IV_Ann  remain;not move',
-        'Hd      Hoda    IV_0hwnyn       remain;not move'
-      ],
+      'lines' => [],
       'patterns' => {
         '.hday' => [
           'FCaL'
@@ -43304,14 +43331,9 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCiL',
-      'glosses' => [
-        'remain',
-        'not move'
-      ],
+      'glosses' => [],
       'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
+      'imperf' => [],
       'orig' => 'Hadiy-a',
       'prefix' => ''
     },
@@ -58388,9 +58410,13 @@ $Lexicon->{'.h d y'}[0]{'glosses'} = $Lexicon->{'.h d w'}[5]{'glosses'};
 $Lexicon->{'.h d y'}[1]{'types'} = $Lexicon->{'.h d w'}[6]{'types'};
 $Lexicon->{'.h d y'}[1]{'lines'} = $Lexicon->{'.h d w'}[6]{'lines'};
 $Lexicon->{'.h d y'}[1]{'glosses'} = $Lexicon->{'.h d w'}[6]{'glosses'};
-$Lexicon->{'.h d y'}[3]{'types'} = $Lexicon->{'.h d w'}[7]{'types'};
-$Lexicon->{'.h d y'}[3]{'lines'} = $Lexicon->{'.h d w'}[7]{'lines'};
-$Lexicon->{'.h d y'}[3]{'glosses'} = $Lexicon->{'.h d w'}[7]{'glosses'};
+$Lexicon->{'.h d y'}[2]{'types'} = $Lexicon->{'.h d w'}[7]{'types'};
+$Lexicon->{'.h d y'}[2]{'lines'} = $Lexicon->{'.h d w'}[7]{'lines'};
+$Lexicon->{'.h d y'}[2]{'glosses'} = $Lexicon->{'.h d w'}[7]{'glosses'};
+$Lexicon->{'.h d y'}[2]{'imperf'} = $Lexicon->{'.h d w'}[7]{'imperf'};
+$Lexicon->{'.h d y'}[3]{'types'} = $Lexicon->{'.h d w'}[8]{'types'};
+$Lexicon->{'.h d y'}[3]{'lines'} = $Lexicon->{'.h d w'}[8]{'lines'};
+$Lexicon->{'.h d y'}[3]{'glosses'} = $Lexicon->{'.h d w'}[8]{'glosses'};
 $Lexicon->{'.h y y'}[12]{'types'} = $Lexicon->{'.h y \''}[1]{'types'};
 $Lexicon->{'.h y y'}[12]{'lines'} = $Lexicon->{'.h y \''}[1]{'lines'};
 $Lexicon->{'.h y y'}[12]{'glosses'} = $Lexicon->{'.h y \''}[1]{'glosses'};

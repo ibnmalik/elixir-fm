@@ -5325,6 +5325,15 @@ lexicon = listing "Lexicon's properties"
 
  |> "b h n" <| [
 
+    -- ;; bahiy-a_1
+    -- bhy     bahiy   PV_no-w_intr    be beautiful
+    -- bh      bah     PV_w_intr       be beautiful
+    -- bhY     bohaY   IV_0    be beautiful
+    -- bhy     bohay   IV_Ann  be beautiful
+    -- bh      boha    IV_0hwnyn       be beautiful
+
+    FaCI                      `verb`    {- bahiy-a -}          [ "be beautiful" ],
+
     -- ;; bAhaY_1
     -- bAhY    bAhaY   PV_0    compete;be proud
     -- bAhA    bAhA    PV_h    compete;be proud
@@ -5715,6 +5724,16 @@ lexicon = listing "Lexicon's properties"
     FaCY                      `verb`    {- bakaY-i -}          [ "cry", "weep" ]
                               `imperf`     FCY
                               `imperf`     FCI,
+
+    -- ;; bakiy-a_1
+    -- bky     bakiy   PV_no-w mourn
+    -- bk      bak     PV_w    mourn
+    -- bkY     bokaY   IV_0    mourn
+    -- bkA     bokA    IV_h    mourn
+    -- bky     bokay   IV_Ann  mourn
+    -- bk      boka    IV_0hwnyn       mourn
+
+    FaCI                      `verb`    {- bakiy-a -}          [ "mourn" ],
 
     -- ;; bak~aY_1
     -- bkY     bak~aY  PV_0    make cry
@@ -7266,6 +7285,15 @@ lexicon = listing "Lexicon's properties"
 
     FaCLY                     `noun`    {- balowaY -}          [ "affliction", "necessity" ],
 
+    -- ;; baliy-a_1
+    -- bly     baliy   PV_no-w deteriorate
+    -- bl      bal     PV_w    deteriorate
+    -- blY     bolaY   IV_0    deteriorate
+    -- bly     bolay   IV_Ann  deteriorate
+    -- bl      bola    IV_0hwnyn       deteriorate
+
+    FaCI                      `verb`    {- baliy-a -}          [ "deteriorate" ],
+
     -- ;; bAlaY_1
     -- bAlY    bAlaY   PV_0    care;concern;worry
     -- bAlA    bAlA    PV_h    care;concern;worry
@@ -7842,6 +7870,16 @@ lexicon = listing "Lexicon's properties"
 
     FiL                       `noun`    {- bin -}              [ "Bin", "Ben" ],
 
+    -- ;; baniy_1
+    -- bny     baniy   FW-WaBi Bani;Beni;Benny     [[baniy/NOUN_PROP]]
+
+    FaCI                      `noun`    {- baniy -}            [ "Bani", "Beni", "Benny" ],
+
+    -- ;; baniy_2
+    -- bny     baniy   FW-WaBi sons/children of     [[baniy/NOUN]]
+
+    FaCI                      `noun`    {- baniy -}            [ "sons/children of" ],
+
     -- ;; banuwn_1
     -- bnwn    banuwn  N       sons;children
     -- bnyn    baniyn  N       sons;children
@@ -7850,7 +7888,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCUL                     `noun`    {- banuwn -}           [ "sons", "children" ]
                               `plural`     FaCIL
-                           {- `others`  [ "baniyn N" ] -},
+                              `plural`     FaCI
+                           {- `others`  [ "baniyn N", "baniy N0" ] -},
 
     -- ;; banawiy~_1
     -- bnwy    banawiy~        Nall    filial     [[banawiy~/ADJ]]
@@ -8300,6 +8339,15 @@ lexicon = listing "Lexicon's properties"
     KaRDUS |< aT              `noun`    {- baqobuwqap -}       [ "blister" ] ]
 
  |> "b q d" <| [
+
+    -- ;; baqiy-a_1
+    -- bqy     baqiy   PV_no-w remain;last
+    -- bq      baq     PV_w    remain;last
+    -- bqY     boqaY   IV_0    remain;last
+    -- bqy     boqay   IV_Ann  remain;last
+    -- bq      boqa    IV_0hwnyn       remain;last
+
+    FaCI                      `verb`    {- baqiy-a -}          [ "remain", "last" ],
 
     -- ;; >aboqaY_1
     -- >bqY    >aboqaY PV_0    maintain;preserve

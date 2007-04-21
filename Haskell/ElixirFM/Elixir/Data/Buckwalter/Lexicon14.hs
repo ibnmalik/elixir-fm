@@ -294,6 +294,15 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- SagA-u -}           [ "lean over", "incline", "be leaned over", "be inclined" ]
                               `imperf`     FCU,
 
+    -- ;; Sagiy-a_1
+    -- Sgy     Sagiy   PV_no-w lean over;incline
+    -- Sg      Sag     PV_w    lean over;incline
+    -- SgY     SogaY   IV_0    lean over;incline
+    -- Sgy     Sogay   IV_Ann  lean over;incline
+    -- Sg      Soga    IV_0hwnyn       lean over;incline
+
+    FaCI                      `verb`    {- Sagiy-a -}          [ "lean over", "incline" ],
+
     -- ;; >aSogaY_1
     -- >SgY    >aSogaY PV_0    pay attention;heed
     -- ASgY    >aSogaY PV_0    pay attention;heed
@@ -768,6 +777,15 @@ lexicon = listing "Lexicon's properties"
     -- SHw     SaHow   Nap     resurgence;revival
 
     FaCL |< aT                `noun`    {- SaHowap -}          [ "resurgence", "revival" ],
+
+    -- ;; SaHiy-a_1
+    -- SHy     SaHiy   PV_no-w wake up;regain consciousness
+    -- SH      SaH     PV_w    wake up;regain consciousness
+    -- SHY     SoHaY   IV_0    wake up;regain consciousness
+    -- SHy     SoHay   IV_Ann  wake up;regain consciousness
+    -- SH      SoHa    IV_0hwnyn       wake up;regain consciousness
+
+    FaCI                      `verb`    {- SaHiy-a -}          [ "wake up", "regain consciousness" ],
 
     -- ;; SaH~aY_1
     -- SHY     SaH~aY  PV_0    awaken;rouse
@@ -1909,6 +1927,15 @@ lexicon = listing "Lexicon's properties"
 
     FaCA                      `verb`    {- SabA-u -}           [ "strive for", "aspire to", "be strived for", "be aspired to" ]
                               `imperf`     FCU,
+
+    -- ;; Sabiy-a_1
+    -- Sby     Sabiy   PV_no-w_intr    be childish;be infantile
+    -- Sb      Sab     PV_w_intr       be childish;be infantile
+    -- SbY     SobaY   IV_0    be childish;be infantile
+    -- Sby     Sobay   IV_Ann  be childish;be infantile
+    -- Sb      Soba    IV_0hwnyn       be childish;be infantile
+
+    FaCI                      `verb`    {- Sabiy-a -}          [ "be childish", "be infantile" ],
 
     -- ;; Sab~aY_1
     -- SbY     Sab~aY  PV_0    rejuvenate

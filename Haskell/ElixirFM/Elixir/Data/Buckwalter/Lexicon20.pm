@@ -19897,6 +19897,50 @@ $Lexicon = {
   'f t w' => [
     {
       'types' => {
+        'fta' => {
+          'IV_0hwnyn' => 1
+        },
+        'fat' => {
+          'PV_w_intr' => 1
+        },
+        'fatiy' => {},
+        'ftay' => {
+          'IV_Ann' => 1
+        },
+        'ftY' => {
+          'IV_0' => 1
+        }
+      },
+      'entry' => 'fatiy',
+      'form' => 'fatiy',
+      'lines' => [
+        ';; fatiy-a_1',
+        'fty     fatiy   PV_no-w_intr    be youthful',
+        'ft      fat     PV_w_intr       be youthful',
+        'ftY     fotaY   IV_0    be youthful',
+        'fty     fotay   IV_Ann  be youthful',
+        'ft      fota    IV_0hwnyn       be youthful'
+      ],
+      'patterns' => {
+        'ftY' => [
+          'FCY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCI',
+      'glosses' => [
+        'be youthful'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'fatiy-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'ft' => {
           'IV_0hwnyn_yu' => 1
         },
@@ -48842,31 +48886,10 @@ $Lexicon = {
   ],
   'f t y' => [
     {
-      'types' => {
-        'fta' => {
-          'IV_0hwnyn' => 1
-        },
-        'fat' => {
-          'PV_w_intr' => 1
-        },
-        'fatiy' => {},
-        'ftay' => {
-          'IV_Ann' => 1
-        },
-        'ftY' => {
-          'IV_0' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'fatiy',
       'form' => 'fatiy',
-      'lines' => [
-        ';; fatiy-a_1',
-        'fty     fatiy   PV_no-w_intr    be youthful',
-        'ft      fat     PV_w_intr       be youthful',
-        'ftY     fotaY   IV_0    be youthful',
-        'fty     fotay   IV_Ann  be youthful',
-        'ft      fota    IV_0hwnyn       be youthful'
-      ],
+      'lines' => [],
       'patterns' => {
         'ftY' => [
           'FCY'
@@ -48878,13 +48901,9 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'FaCiL',
-      'glosses' => [
-        'be youthful'
-      ],
+      'glosses' => [],
       'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
+      'imperf' => [],
       'orig' => 'fatiy-a',
       'prefix' => ''
     },
@@ -52717,18 +52736,18 @@ $Lexicon->{'f .d .d'}[10]{'glosses'} = $Lexicon->{'f t .d'}[1]{'glosses'};
 $Lexicon->{'f .d .d'}[12]{'types'} = $Lexicon->{'f .d w'}[1]{'types'};
 $Lexicon->{'f .d .d'}[12]{'lines'} = $Lexicon->{'f .d w'}[1]{'lines'};
 $Lexicon->{'f .d .d'}[12]{'glosses'} = $Lexicon->{'f .d w'}[1]{'glosses'};
-$Lexicon->{'f t \''}[2]{'types'} = $Lexicon->{'f t w'}[5]{'types'};
-$Lexicon->{'f t \''}[2]{'lines'} = $Lexicon->{'f t w'}[5]{'lines'};
-$Lexicon->{'f t \''}[2]{'glosses'} = $Lexicon->{'f t w'}[5]{'glosses'};
-$Lexicon->{'f t \''}[3]{'types'} = $Lexicon->{'f t w'}[8]{'types'};
-$Lexicon->{'f t \''}[3]{'lines'} = $Lexicon->{'f t w'}[8]{'lines'};
-$Lexicon->{'f t \''}[3]{'glosses'} = $Lexicon->{'f t w'}[8]{'glosses'};
-$Lexicon->{'f t \''}[4]{'types'} = $Lexicon->{'f t w'}[9]{'types'};
-$Lexicon->{'f t \''}[4]{'lines'} = $Lexicon->{'f t w'}[9]{'lines'};
-$Lexicon->{'f t \''}[4]{'glosses'} = $Lexicon->{'f t w'}[9]{'glosses'};
-$Lexicon->{'f t \''}[5]{'types'} = $Lexicon->{'f t w'}[10]{'types'};
-$Lexicon->{'f t \''}[5]{'lines'} = $Lexicon->{'f t w'}[10]{'lines'};
-$Lexicon->{'f t \''}[5]{'glosses'} = $Lexicon->{'f t w'}[10]{'glosses'};
+$Lexicon->{'f t \''}[2]{'types'} = $Lexicon->{'f t w'}[6]{'types'};
+$Lexicon->{'f t \''}[2]{'lines'} = $Lexicon->{'f t w'}[6]{'lines'};
+$Lexicon->{'f t \''}[2]{'glosses'} = $Lexicon->{'f t w'}[6]{'glosses'};
+$Lexicon->{'f t \''}[3]{'types'} = $Lexicon->{'f t w'}[9]{'types'};
+$Lexicon->{'f t \''}[3]{'lines'} = $Lexicon->{'f t w'}[9]{'lines'};
+$Lexicon->{'f t \''}[3]{'glosses'} = $Lexicon->{'f t w'}[9]{'glosses'};
+$Lexicon->{'f t \''}[4]{'types'} = $Lexicon->{'f t w'}[10]{'types'};
+$Lexicon->{'f t \''}[4]{'lines'} = $Lexicon->{'f t w'}[10]{'lines'};
+$Lexicon->{'f t \''}[4]{'glosses'} = $Lexicon->{'f t w'}[10]{'glosses'};
+$Lexicon->{'f t \''}[5]{'types'} = $Lexicon->{'f t w'}[11]{'types'};
+$Lexicon->{'f t \''}[5]{'lines'} = $Lexicon->{'f t w'}[11]{'lines'};
+$Lexicon->{'f t \''}[5]{'glosses'} = $Lexicon->{'f t w'}[11]{'glosses'};
 $Lexicon->{'f .g y'}[0]{'types'} = $Lexicon->{'f .g w'}[0]{'types'};
 $Lexicon->{'f .g y'}[0]{'lines'} = $Lexicon->{'f .g w'}[0]{'lines'};
 $Lexicon->{'f .g y'}[0]{'glosses'} = $Lexicon->{'f .g w'}[0]{'glosses'};
@@ -52807,12 +52826,16 @@ $Lexicon->{'f n \''}[2]{'glosses'} = $Lexicon->{'f n y'}[5]{'glosses'};
 $Lexicon->{'f ^s y'}[1]{'types'} = $Lexicon->{'f ^s w'}[6]{'types'};
 $Lexicon->{'f ^s y'}[1]{'lines'} = $Lexicon->{'f ^s w'}[6]{'lines'};
 $Lexicon->{'f ^s y'}[1]{'glosses'} = $Lexicon->{'f ^s w'}[6]{'glosses'};
-$Lexicon->{'f t y'}[3]{'types'} = $Lexicon->{'f t w'}[11]{'types'};
-$Lexicon->{'f t y'}[3]{'lines'} = $Lexicon->{'f t w'}[11]{'lines'};
-$Lexicon->{'f t y'}[3]{'glosses'} = $Lexicon->{'f t w'}[11]{'glosses'};
-$Lexicon->{'f t y'}[4]{'types'} = $Lexicon->{'f t w'}[12]{'types'};
-$Lexicon->{'f t y'}[4]{'lines'} = $Lexicon->{'f t w'}[12]{'lines'};
-$Lexicon->{'f t y'}[4]{'glosses'} = $Lexicon->{'f t w'}[12]{'glosses'};
+$Lexicon->{'f t y'}[0]{'types'} = $Lexicon->{'f t w'}[0]{'types'};
+$Lexicon->{'f t y'}[0]{'lines'} = $Lexicon->{'f t w'}[0]{'lines'};
+$Lexicon->{'f t y'}[0]{'glosses'} = $Lexicon->{'f t w'}[0]{'glosses'};
+$Lexicon->{'f t y'}[0]{'imperf'} = $Lexicon->{'f t w'}[0]{'imperf'};
+$Lexicon->{'f t y'}[3]{'types'} = $Lexicon->{'f t w'}[12]{'types'};
+$Lexicon->{'f t y'}[3]{'lines'} = $Lexicon->{'f t w'}[12]{'lines'};
+$Lexicon->{'f t y'}[3]{'glosses'} = $Lexicon->{'f t w'}[12]{'glosses'};
+$Lexicon->{'f t y'}[4]{'types'} = $Lexicon->{'f t w'}[13]{'types'};
+$Lexicon->{'f t y'}[4]{'lines'} = $Lexicon->{'f t w'}[13]{'lines'};
+$Lexicon->{'f t y'}[4]{'glosses'} = $Lexicon->{'f t w'}[13]{'glosses'};
 $Lexicon->{'f \' q'}[0]{'types'} = $Lexicon->{'f w q'}[12]{'types'};
 $Lexicon->{'f \' q'}[0]{'lines'} = $Lexicon->{'f w q'}[12]{'lines'};
 $Lexicon->{'f \' q'}[0]{'glosses'} = $Lexicon->{'f w q'}[12]{'glosses'};

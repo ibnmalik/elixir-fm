@@ -1566,6 +1566,15 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- \$ajA-u -}          [ "sadden", "distress", "be saddened", "be distressed" ]
                               `imperf`     FCU,
 
+    -- ;; $ajiy-a_1
+    -- \$jy     $ajiy   PV_no-w_intr    be saddened;be distressed
+    -- \$j      $aj     PV_w_intr       be saddened;be distressed
+    -- \$jY     $ojaY   IV_0    be saddened;be distressed
+    -- \$jy     $ojay   IV_Ann  be saddened;be distressed
+    -- \$j      $oja    IV_0hwnyn       be saddened;be distressed
+
+    FaCI                      `verb`    {- \$ajiy-a -}         [ "be saddened", "be distressed" ],
+
     -- ;; $aj~aY_1
     -- \$jY     $aj~aY  PV_0    impress;move
     -- \$jA     $aj~A   PV_h    impress;move
@@ -1611,6 +1620,12 @@ lexicon = listing "Lexicon's properties"
     -- \$jwy    $ajawiy~        N/ap    worried;distressed     [[$ajawiy~/ADJ]]
 
     FaCY |< Iy                `adj`     {- \$ajawiy~ -}        [ "worried", "distressed" ],
+
+    -- ;; $ajiy_1
+    -- \$jy     $ajiy   N/ap    worried;grieved     [[$ajiy/ADJ]]
+    -- \$j      $aj     NK      worried;grieved
+
+    FaCI                      `adj`     {- \$ajiy -}           [ "worried", "grieved" ],
 
     -- ;; mu$aj~iy_1
     -- m$jy    mu$aj~iy        N0F_Nh  touching;pathetic     [[mu$aj~iy/ADJ]]
@@ -7087,6 +7102,15 @@ lexicon = listing "Lexicon's properties"
 
     FaCA                      `verb`    {- \$aqA-u -}          [ "sadden", "distress", "be saddened", "be distressed" ]
                               `imperf`     FCU,
+
+    -- ;; $aqiy-a_1
+    -- \$qy     $aqiy   PV_no-w_intr    be unhappy;suffer
+    -- \$q      $aq     PV_w_intr       be unhappy;suffer
+    -- \$qY     $oqaY   IV_0    be unhappy;suffer
+    -- \$qy     $oqay   IV_Ann  be unhappy;suffer
+    -- \$q      $oqa    IV_0hwnyn       be unhappy;suffer
+
+    FaCI                      `verb`    {- \$aqiy-a -}         [ "be unhappy", "suffer" ],
 
     -- ;; >a$oqaY_1
     -- >$qY    >a$oqaY PV_0    sadden;distress

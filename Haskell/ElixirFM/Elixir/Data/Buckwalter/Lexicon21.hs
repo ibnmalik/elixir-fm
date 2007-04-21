@@ -1794,6 +1794,15 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- qaSA-u -}           [ "be distant" ]
                               `imperf`     FCU,
 
+    -- ;; qaSiy-a_1
+    -- qSy     qaSiy   PV_no-w_intr    be distant
+    -- qS      qaS     PV_w_intr       be distant
+    -- qSY     qoSaY   IV_0    be distant
+    -- qSy     qoSay   IV_Ann  be distant
+    -- qS      qoSa    IV_0hwnyn       be distant
+
+    FaCI                      `verb`    {- qaSiy-a -}          [ "be distant" ],
+
     -- ;; >aqoSaY_1
     -- >qSY    >aqoSaY PV_0    remove
     -- AqSY    >aqoSaY PV_0    remove
@@ -5871,6 +5880,15 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- qadA-u -}           [ "be tasty" ]
                               `imperf`     FCU,
 
+    -- ;; qadiy-a_1
+    -- qdy     qadiy   PV_no-w_intr    be tasty
+    -- qd      qad     PV_w_intr       be tasty
+    -- qdY     qodaY   IV_0    be tasty
+    -- qdy     qoday   IV_Ann  be tasty
+    -- qd      qoda    IV_0hwnyn       be tasty
+
+    FaCI                      `verb`    {- qadiy-a -}          [ "be tasty" ],
+
     -- ;; {iqotadaY_1
     -- <qtdY   {iqotadaY       PV_0    imitate;emulate
     -- AqtdY   {iqotadaY       PV_0    imitate;emulate
@@ -7496,6 +7514,16 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `verb`    {- qalaY-i -}          [ "fry", "bake", "be fried", "be baked" ]
                               `imperf`     FCI,
+
+    -- ;; qaliy-a_1
+    -- qly     qaliy   PV_no-w detest
+    -- ql      qal     PV_w    detest
+    -- qlY     qolaY   IV_0    detest
+    -- qlA     qolA    IV_h    detest
+    -- qly     qolay   IV_Ann  detest
+    -- ql      qola    IV_0hwnyn       detest
+
+    FaCI                      `verb`    {- qaliy-a -}          [ "detest" ],
 
     -- ;; qilow_1
     -- qlw     qilow   N       alkali
