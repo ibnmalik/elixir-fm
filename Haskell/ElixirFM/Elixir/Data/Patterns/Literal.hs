@@ -32,7 +32,9 @@ instance Morphing PatternL PatternL where
 
 instance Template PatternL where
 
-    interlock = const
+    interlock r = concat . const r
+
+ -- interlock = (.) concat . const
 
 
 instance Rules PatternL where

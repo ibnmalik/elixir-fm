@@ -31,8 +31,6 @@ module FM.Arabic.Rules {- (
 import FM.Arabic.Types
 import FM.Generic.General
 
-import Data.List (isPrefixOf, isSuffixOf)
-
 import Encode
 import Encode.Arabic
 
@@ -143,8 +141,8 @@ findStem Dual e = [morphs e |< An]
 findStem _ e = [morphs e]
 
 
---findForm r c (d :-: a) t@(Morphs m p s) = (article . endings c d a . merge r) t
-findForm r c (d :-: a) t@(Morphs m p s) = (article . merge r . endings c d a) t
+--findForm r c (d :-: a) m@(Morphs t p s) = (article . endings c d a . merge r) m
+findForm r c (d :-: a) y@(Morphs t p s) = (article . merge r . endings c d a) m
 
     where article = case d of   Just True           ->  merge r . prefixDefinite
                                 _                   ->  id
@@ -153,7 +151,7 @@ findForm r c (d :-: a) t@(Morphs m p s) = (article . merge r . endings c d a) t
                                 At : _              ->  paraFeminine
                                 An : _              ->  paraDual
 
-                                _  | isDiptote t    ->  paraDiptote
+                                _  | isDiptote y    ->  paraDiptote
                                 _                   ->  paraTriptote
 
 
@@ -180,25 +178,6 @@ instance Template a => Inflect ([Root], a) where
 
 type DictForm = String
 type Stem     = String
-
-
-sunny = [ "t", "_t", "d", "_d", "r", "z", "s", "^s",
-          ".s", ".d", ".t", ".z", "l", "n" ]
-
-moony = [ "'", "b", "^g", ".h", "_h", "`", ".g",
-          "f", "q", "k", "m", "h", "w", "y",
-          "B", "p", "v", "g",
-          "c", "^c", ",c", "^z", "^n", "^l", ".r" ]
-
-
--- prefixDefinite :: String -> String
-prefixDefinite s =
-
-    case filter (flip isPrefixOf s) sunny of
-
-        []      -> if isPrefixOf "i" s then prefix "al-i-" s
-                                       else prefix "al-" s
-        ls : _  ->                          prefix ("a" ++ ls ++ "-") s
 
 
 {-

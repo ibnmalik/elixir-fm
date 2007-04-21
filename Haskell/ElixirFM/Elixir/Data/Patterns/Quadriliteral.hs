@@ -27,13 +27,13 @@ version = revised "$Revision$"
 
 instance Morphing PatternQ PatternQ where
 
-    morph x = Morphs x [] []
+    morph t = Morphs t [] []
 
 
 instance Template PatternQ where
 
     interlock r p = {- if isFormVIII p then (assimilate . show) p
-                                      else -} (substitute . show) p
+                                      else -} (concat . substitute . show) p
 
         where substitute x = (replace . restore) x
 
@@ -83,10 +83,10 @@ instance Rules PatternQ where
 {-
 instance Rules (Morphs PatternQ) where
 
-    isDiptote (Morphs m [] []) = isDiptote m
+    isDiptote (Morphs t [] []) = isDiptote t
     isDiptote x                = x `elem` []
 
-    isPassive (Morphs m [] []) = isPassive m
+    isPassive (Morphs t [] []) = isPassive t
     isPassive x                = x `elem` []
 -}
 

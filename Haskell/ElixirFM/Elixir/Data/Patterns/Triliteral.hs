@@ -34,8 +34,8 @@ instance Morphing PatternT PatternT where
 
 instance Template PatternT where
 
-    interlock r p = if isForm VIII p then (assimilate . show) p
-                                     else (substitute . show) p
+    interlock r p = if isForm VIII p then (concat . assimilate . show) p
+                                     else (concat . substitute . show) p
 
         where substitute x = (replace . restore) x
 
@@ -79,101 +79,6 @@ assimilating c = case c of
             "w"     ->  ("t", "t")
 
             _       ->  (c, "t")
-
-
-instance Template PatternT => Template (Morphs PatternT) where
-
-    interlock r (Morphs t p []) = prefixes ++ interlock r t
-
-        where prefixes = [ case x of Prefix y -> y
-                                     _        -> shows x "-" | x <- p ]
-
-    interlock r (Morphs t p s)  = prefixes ++
-                                  [init shown ++ modifi, ed] ++
-                                  map show (tail suff)
-
-        where prefixes = [ case x of Prefix y -> y
-                                     _        -> shows x "-" | x <- p ]
-              shown = concat (interlock r t)
-              suff  = reverse s
-              ix    = head suff
-
-              (modifi, ed) = case last shown of
-
-                'Y' -> case ix of   AT   -> ("A", "T")
-                                    Iy   -> ("aw", show Iy)
-                                    Un   -> ("aw", "n-a")
-                                    In   -> ("ay", "n-a")
-                                    AJIy -> ("", show AJIy)
-
-                                    Suffix x | x `elem` ["-a", "-i", "-u",
-                                                          "a",  "i",  "u"]
-                                         -> ("Y", "")
-
-                                    Suffix x | x `elem` ["-aN", "-iN", "-uN"]
-
-                                         -> ("", "-aNY")
-
-                                    Suffix x | x `elem` ["aN", "iN", "uN"]
-
-                                         -> ("", "aNY")
-
-                                    _    -> ("ay", show ix)
-
-                'I' -> case ix of   AT   -> ("iy", show AT)
-                                    Iy   -> ("I", "y")
-                                    Un   -> ("U", "n-a")
-                                    In   -> ("I", "n-a")
-
-                                    Suffix x | x `elem` ["-i", "-u",
-                                                          "i",  "u"]
-                                         -> ("I", "")
-
-                                    Suffix x | x `elem` ["-iN", "-uN"]
-
-                                         -> ("", "-iN")
-
-                                    Suffix x | x `elem` ["iN", "uN"]
-
-                                         -> ("", "iN")
-
-                                    -- Suffix x | x `elem` ["-aN"]
-                                    --      -> ("iy", "-aN")
-                                    -- Suffix x | x `elem` ["aN"]
-                                    --      -> ("iy", "aN")
-                                    -- Suffix x | x `elem` ["-a"]
-                                    --      -> ("iy", "-a")
-                                    -- Suffix x | x `elem` ["a"]
-                                    --      -> ("iy", "a")
-
-                                    _    -> ("iy", show ix)
-
-                -- exprerimental and non-verified
-
-                'A' -> case ix of   AT   -> ("A", "T")
-                                    Iy   -> ("Aw", show Iy)
-                                    Un   -> ("aw", "n-a")
-                                    In   -> ("ay", "n-a")
-                                    _    -> ("aw", show ix)
-
-                'U' -> case ix of   Un   -> ("U", "n-a")
-                                    In   -> ("I", "n-a")
-
-                                    Suffix x | x `elem` ["-i", "-u",
-                                                          "i",  "u"]
-                                         -> ("U", "")
-
-                                    Suffix x | x `elem` ["-iN", "-uN"]
-
-                                         -> ("", "-iN")
-
-                                    Suffix x | x `elem` ["iN", "uN"]
-
-                                         -> ("", "iN")
-
-                                    _    -> ("uw", show ix)
-
-                ch  -> ([ch], show ix)
 
 
 instance Forming PatternT where
@@ -232,7 +137,7 @@ instance Forming PatternT where
 
         (   FaCA,       FuCiL,      FCU,        FCY         ),  -- da`A
         (   FaCY,       FuCI,       FCI,        FCY         ),  -- ramY
-        (   FaCiL,      FuCiL,      FCY,        FCY         ),  -- nasiya
+        (   FaCI,       FuCI,       FCY,        FCY         ),  -- nasiya
 
         -- Double
 
@@ -451,10 +356,10 @@ instance Rules PatternT where
 {-
 instance Rules (Morphs PatternT) where
 
-    isDiptote (Morphs m [] []) = isDiptote m
+    isDiptote (Morphs t [] []) = isDiptote t
     isDiptote x                = x `elem` []
 
-    isPassive (Morphs m [] []) = isPassive m
+    isPassive (Morphs t [] []) = isPassive t
     isPassive x                = x `elem` []
 -}
 
@@ -470,7 +375,7 @@ data PatternT =
 
             FaCaL                                       |   FAL                 |   FaCA                |   FaCL
         |   FaCiL                                                               |   FaCY
-        |   FaCuL
+        |   FaCuL                                                               |   FaCI
 
         |   FuCiL                                                               |   FuCI
 

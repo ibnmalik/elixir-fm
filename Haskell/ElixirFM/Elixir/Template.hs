@@ -20,6 +20,8 @@ module Elixir.Template where
 
 import FM.Arabic.Types
 
+import Data.List (isPrefixOf, isSuffixOf)
+
 import Version
 
 version = revised "$Revision$"
@@ -27,12 +29,137 @@ version = revised "$Revision$"
 
 class Template a where
 
-    interlock :: [String] -> a -> [String]
+    interlock :: [String] -> a -> String
 
 
-merge :: Template a => String -> a -> String
+instance Template String where
 
-merge r t = concat (interlock (words r) t)
+    interlock = flip const
+
+
+merge :: (Morphing a b, Template b) => String -> a -> String
+
+merge r y = -- show (Morphs (interlock (words r) t) p s)
+
+            if null s then concat prefixes ++ interlock (words r) t
+                      else concat prefixes ++ init shown ++ modifi ++ ed ++
+                           concat (map show (tail suff))
+
+    where Morphs t p s = morph y
+
+          prefixes = [ case x of Prefix y -> y
+                                 _        -> shows x "-" | x <- p ]
+
+          shown = interlock (words r) t
+
+          suff = reverse s
+
+          (modifi, ed) = case suff of []     -> error "Never ..."
+                                      ix : _ -> last shown -<- ix
+
+
+
+sunny = [ "t", "_t", "d", "_d", "r", "z", "s", "^s",
+          ".s", ".d", ".t", ".z", "l", "n" ]
+
+moony = [ "'", "b", "^g", ".h", "_h", "`", ".g",
+          "f", "q", "k", "m", "h", "w", "y",
+          "B", "p", "v", "g",
+          "c", "^c", ",c", "^z", "^n", "^l", ".r" ]
+
+
+(->-) :: Prefix -> String -> String
+
+Al ->- s = case filter (flip isPrefixOf s) sunny of
+
+            []      -> if isPrefixOf "i" s then "al-i-"
+                                           else "al-"
+
+            ls : _  -> "a" ++ ls ++ "-"
+
+x ->- s = show x
+
+
+(-<-) :: Char -> Suffix -> (String, String)
+
+'Y' -<- x = case x of   AT      -> ("A", "T")
+                        Iy      -> ("aw", show Iy)
+                        Un      -> ("aw", "na")
+                        In      -> ("ay", "na")
+                        AJIy    -> ("", show AJIy)
+
+                        Suffix "Una"    -> ("aw", "na")
+                        Suffix "U"      -> ("aw", "")
+                        Suffix "UW"     -> ("aW", "")
+
+                        Suffix "Ina"    -> ("ay", "na")
+                        Suffix "I"      -> ("ay", "")
+
+                        Suffix x | x `elem` ["a",  "i",  "u"]  -> ("Y", "")
+                                 | x `elem` ["aN", "iN", "uN"] -> ("", "aNY")
+
+                                 | "at" `isPrefixOf` x         -> ("", x)
+
+                        _       -> ("ay", show x)
+
+'I' -<- x = case x of   AT      -> ("iy", show AT)
+                        Iy      -> ("I", "y")
+                        Un      -> ("U", "na")
+                        In      -> ("I", "na")
+
+                        Suffix "Una"    -> ("U", "na")
+                        Suffix "U"      -> ("U", "")
+                        Suffix "UW"     -> ("UW", "")
+
+                        Suffix "Ina"    -> ("I", "na")
+                        Suffix "I"      -> ("I", "")
+
+                        Suffix x | x `elem` ["i",  "u"]  -> ("I", "")
+                                 | x `elem` ["iN", "uN"] -> ("", "iN")
+
+                                 | "n" `isPrefixOf` x ||
+                                   "t" `isPrefixOf` x    -> ("I", x)
+
+                        _       -> ("iy", show x)
+
+'A' -<- x = case x of   AT      -> ("A", "T")
+                        Iy      -> ("Aw", show Iy)
+                        Un      -> ("aw", "na")
+                        In      -> ("ay", "na")
+
+                        Suffix "Una"    -> ("aw", "na")
+                        Suffix "U"      -> ("aw", "")
+                        Suffix "UW"     -> ("aW", "")
+
+                        Suffix "Ina"    -> ("ay", "na")
+                        Suffix "I"      -> ("ay", "")
+
+                        Suffix x | x `elem` ["a",  "i",  "u"]  -> ("Y", "")
+                                 | x `elem` ["aN", "iN", "uN"] -> ("", "aNY")
+
+                                 | "at" `isPrefixOf` x         -> ("", x)
+
+                        _       -> ("aw", show x)
+
+'U' -<- x = case x of   Un      -> ("U", "na")
+                        In      -> ("I", "na")
+
+                        Suffix "Una"    -> ("U", "na")
+                        Suffix "U"      -> ("U", "")
+                        Suffix "UW"     -> ("UW", "")
+
+                        Suffix "Ina"    -> ("I", "na")
+                        Suffix "I"      -> ("I", "")
+
+                        Suffix x | x `elem` ["i",  "u"]  -> ("U", "")
+                                 | x `elem` ["iN", "uN"] -> ("", "iN")
+
+                                 | "n" `isPrefixOf` x ||
+                                   "t" `isPrefixOf` x    -> ("U", x)
+
+                        _       -> ("uw", show x)
+
+c -<- x = ([c], show x)
 
 
 class Forming a where
@@ -69,48 +196,53 @@ infixl 8 :|<:
 -}
 
 
-class Morphing s m | s -> m where
+class Morphing a b | a -> b where
 
-    morph :: s -> Morphs m
-
-
-(>|) :: Morphing s m => Prefix -> s -> Morphs m
-
-x >| y = Morphs m (x : p) s
-
-    where Morphs m p s = morph y
+    morph :: a -> Morphs b
 
 
-(|<) :: Morphing s m => s -> Suffix -> Morphs m
+(>|) :: Morphing a b => Prefix -> a -> Morphs b
 
-y |< x = Morphs m p (x : s)
+x >| y = Morphs t (x : p) s
 
-    where Morphs m p s = morph y
+    where Morphs t p s = morph y
+
+
+(|<) :: Morphing a b => a -> Suffix -> Morphs b
+
+y |< x = Morphs t p (x : s)
+
+    where Morphs t p s = morph y
 
 
 infixr 7 >|, >>|    -- , >||
 infixl 8 |<, |<<    -- , ||<
 
 
-(>>|) :: Morphing s m => String -> s -> Morphs m
+(>>|) :: Morphing a b => String -> a -> Morphs b
 
 x >>| y = Prefix x >| y
 
 
-(|<<) :: Morphing s m => s -> String -> Morphs m
+(|<<) :: Morphing a b => a -> String -> Morphs b
 
 y |<< x = y |< Suffix x
 
 
 {-
 
-(>||) :: Morphing s m => String -> s -> Morphs m
+(>||) :: Morphing a b => String -> a -> Morphs b
 (>||) = (>|) . Prefix
 
-(||<) :: Morphing s m => s -> String -> Morphs m
+(||<) :: Morphing a b => a -> String -> Morphs b
 (||<) = (flip (.) Suffix) . (|<)
 
 -}
+
+
+instance Morphing String String where
+
+    morph x = Morphs x [] []
 
 
 data Morphs a = Morphs a [Prefix] [Suffix]
@@ -120,11 +252,11 @@ data Morphs a = Morphs a [Prefix] [Suffix]
 
 instance Show a => Show (Morphs a) where
 
-    showsPrec _ (Morphs m p s) = foldr ((.) . prefix') id p . shows m .
+    showsPrec _ (Morphs t p s) = foldr ((.) . prefix') id p . shows t .
                                  foldl (flip ((.) . suffix')) id s
 
                 -- foldr (((.) . flip (.) ((++) " >| ") . shows)) id p .
-                -- shows m .
+                -- shows t .
                 -- foldl (flip ((.) . (.) ((++) " |< ") . shows)) id s
 
         where prefix' (Prefix x) = shows x . (++) " >>| "
@@ -136,10 +268,10 @@ instance Show a => Show (Morphs a) where
 
 instance Rules a => Rules (Morphs a) where
 
-    isDiptote (Morphs m [] []) = isDiptote m
+    isDiptote (Morphs t [] []) = isDiptote t
     isDiptote _                = False
 
-    isPassive (Morphs m [] []) = isPassive m
+    isPassive (Morphs t [] []) = isPassive t
     isPassive _                = False
 
 
@@ -156,31 +288,6 @@ instance Morphing Prefix [a] where
 instance Morphing Suffix (Maybe PatternL) where
 
     morph x = Morphs [] [] [x]
--}
-
-
-instance Template t => Template (Morphs t) where
-
---    interlock r (a :>|: m)  = (++) [show a] . interlock r m
---    interlock r (m :|<: a)  = interlock r m . (++) [show a]
---    interlock r (Pattern s) = interlock r s
-
-    interlock r (Morphs t p s) = map ((++ "-") . show) p ++
-                                 [concat (interlock r t)] ++
-                                 map show (reverse s)
-
-
-{-
-instance Template (Morphs a) => Combines (Morphs a) (Morphs a) where
-
-    (|<) = (:|<:)
-    (>|) = (:>|:)
-
-
-instance Template a => Combines a (Morphs a) where
-
-    (|<) p s = (:|<:) (Pattern p) s
-    (>|) p s = (:>|:) p (Pattern s)
 -}
 
 
@@ -216,34 +323,6 @@ data Suffix =   Suffix String
                 |   Ayn
                 |   AJIy
 
-{-
-                |   U
-                |   UW
-                |   I__
-                |   A
-                |   Ay
-
-                |   N
-
-                |   A_
-                |   I_
-                |   U_
-
-                |   At_
-                |   AtA
-
-                |   Ta
-                |   Ti
-                |   Tu
-
-                |   Tum
-                |   Tunn
-                |   TumA
-
-                |   NA
-                |   Na
--}
-
     deriving Eq
 
 
@@ -260,33 +339,6 @@ instance Show Suffix where
     show Ayn = "ayn"
     show AJIy = "a^gIy"
 
-{-
-    show U_  = "U"
-    show UW = "UW"
-    show I__  = "I"
-    show A  = "A"
-
-    show N  = "N"
-
-    show A_ = "-a"
-    show I_ = "-i"
-    show U_ = "-u"
-
-    show At_ = "at-i"
-    show AtA = "atA"
-
-    show Ta = "t-a"
-    show Ti = "t-i"
-    show Tu = "t-u"
-
-    show Tum  = "tum-u"
-    show Tunn = "tunn-a"
-    show TumA = "tumA"
-
-    show Na = "n-a"
-    show NA = "nA"
--}
-
 
 iyy   = Iy
 aT    = AT
@@ -299,16 +351,10 @@ aJIy  = AJIy
 ajIy  = AJIy
 ajiyy = AJIy
 
-aN    = Suffix "-aN"
+aN    = Suffix "aN"
+iN    = Suffix "iN"
+uN    = Suffix "uN"
 
-{-
-a = A_
-i = I_
-u = U_
-
-at = At_
-
-ta = Ta
-ti = Ti
-tu = Tu
--}
+a     = Suffix "a"
+i     = Suffix "i"
+u     = Suffix "u"
