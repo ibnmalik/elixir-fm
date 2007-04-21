@@ -41,21 +41,20 @@ merge :: (Morphing a b, Template b) => String -> a -> String
 
 merge r y = -- show (Morphs (interlock (words r) t) p s)
 
-            if null s then concat prefixes ++ interlock (words r) t
-                      else concat prefixes ++ init shown ++ modifi ++ ed ++
+            if null s then prefixes (interlock (words r) t)
+                      else prefixes (init shown) ++ modified ++
                            concat (map show (tail suff))
 
     where Morphs t p s = morph y
 
-          prefixes = [ case x of Prefix y -> y
-                                 _        -> shows x "-" | x <- p ]
+          prefixes l = foldr (\ x s -> x ->- s) l p
 
           shown = interlock (words r) t
 
           suff = reverse s
 
-          (modifi, ed) = case suff of []     -> error "Never ..."
-                                      ix : _ -> last shown -<- ix
+          modified = case suff of []     -> error "Never ..."
+                                  ix : _ -> last shown -<- ix
 
 
 
@@ -72,94 +71,112 @@ moony = [ "'", "b", "^g", ".h", "_h", "`", ".g",
 
 Al ->- s = case filter (flip isPrefixOf s) sunny of
 
-            []      -> if isPrefixOf "i" s then "al-i-"
-                                           else "al-"
+            []      -> if isPrefixOf "i" s then "al-i-" ++ s
+                                           else "al-"   ++ s
 
-            ls : _  -> "a" ++ ls ++ "-"
+            ls : _  -> "a" ++ ls ++ "-" ++ s
 
-x ->- s = show x
+Prefix "'a" ->- '\'' : s | isClosed s = "'A" ++ s
+Prefix "'u" ->- '\'' : s | isClosed s = "'U" ++ s
+
+Prefix [x, 'u'] ->- y : s | isClosed s &&
+                            y `elem` "wy" = x : 'U' : s
+
+Prefix "i" ->- '\'' : s = 'I' : s
+Prefix "u" ->- '\'' : s = 'U' : s
+
+Prefix x ->- s = x ++ s
+
+x ->- s = shows x ("-" ++ s)
 
 
-(-<-) :: Char -> Suffix -> (String, String)
+isClosed :: String -> Bool
 
-'Y' -<- x = case x of   AT      -> ("A", "T")
-                        Iy      -> ("aw", show Iy)
-                        Un      -> ("aw", "na")
-                        In      -> ("ay", "na")
-                        AJIy    -> ("", show AJIy)
+isClosed (x : _) | x `elem` "aiuAIUY" = False
 
-                        Suffix "Una"    -> ("aw", "na")
-                        Suffix "U"      -> ("aw", "")
-                        Suffix "UW"     -> ("aW", "")
+isClosed _ = True
 
-                        Suffix "Ina"    -> ("ay", "na")
-                        Suffix "I"      -> ("ay", "")
 
-                        Suffix x | x `elem` ["a",  "i",  "u"]  -> ("Y", "")
-                                 | x `elem` ["aN", "iN", "uN"] -> ("", "aNY")
+(-<-) :: Char -> Suffix -> String
 
-                                 | "at" `isPrefixOf` x         -> ("", x)
+'Y' -<- x = case x of   AT      -> "AT"
+                        Iy      -> "awIy"
+                        Un      -> "awna"
+                        In      -> "ayna"
+                        AJIy    -> "a^gIy"
 
-                        _       -> ("ay", show x)
+                        Suffix "Una"    -> "awna"
+                        Suffix "U"      -> "aw"
+                        Suffix "UW"     -> "aW"
 
-'I' -<- x = case x of   AT      -> ("iy", show AT)
-                        Iy      -> ("I", "y")
-                        Un      -> ("U", "na")
-                        In      -> ("I", "na")
+                        Suffix "Ina"    -> "ayna"
+                        Suffix "I"      -> "ay"
 
-                        Suffix "Una"    -> ("U", "na")
-                        Suffix "U"      -> ("U", "")
-                        Suffix "UW"     -> ("UW", "")
+                        Suffix x | x `elem` ["a",  "i",  "u"]  -> "Y"
+                                 | x `elem` ["aN", "iN", "uN"] -> "aNY"
 
-                        Suffix "Ina"    -> ("I", "na")
-                        Suffix "I"      -> ("I", "")
+                                 | "at" `isPrefixOf` x         -> x
 
-                        Suffix x | x `elem` ["i",  "u"]  -> ("I", "")
-                                 | x `elem` ["iN", "uN"] -> ("", "iN")
+                        _       -> "ay" ++ show x
 
-                                 | "n" `isPrefixOf` x ||
-                                   "t" `isPrefixOf` x    -> ("I", x)
+'I' -<- x = case x of   AT      -> "iyaT"
+                        Iy      -> "Iy"
+                        Un      -> "Una"
+                        In      -> "Ina"
 
-                        _       -> ("iy", show x)
+                        Suffix "Una"    -> "Una"
+                        Suffix "U"      -> "U"
+                        Suffix "UW"     -> "UW"
 
-'A' -<- x = case x of   AT      -> ("A", "T")
-                        Iy      -> ("Aw", show Iy)
-                        Un      -> ("aw", "na")
-                        In      -> ("ay", "na")
+                        Suffix "Ina"    -> "Ina"
+                        Suffix "I"      -> "I"
 
-                        Suffix "Una"    -> ("aw", "na")
-                        Suffix "U"      -> ("aw", "")
-                        Suffix "UW"     -> ("aW", "")
-
-                        Suffix "Ina"    -> ("ay", "na")
-                        Suffix "I"      -> ("ay", "")
-
-                        Suffix x | x `elem` ["a",  "i",  "u"]  -> ("Y", "")
-                                 | x `elem` ["aN", "iN", "uN"] -> ("", "aNY")
-
-                                 | "at" `isPrefixOf` x         -> ("", x)
-
-                        _       -> ("aw", show x)
-
-'U' -<- x = case x of   Un      -> ("U", "na")
-                        In      -> ("I", "na")
-
-                        Suffix "Una"    -> ("U", "na")
-                        Suffix "U"      -> ("U", "")
-                        Suffix "UW"     -> ("UW", "")
-
-                        Suffix "Ina"    -> ("I", "na")
-                        Suffix "I"      -> ("I", "")
-
-                        Suffix x | x `elem` ["i",  "u"]  -> ("U", "")
-                                 | x `elem` ["iN", "uN"] -> ("", "iN")
+                        Suffix x | x `elem` ["i",  "u"]  -> "I"
+                                 | x `elem` ["iN", "uN"] -> "iN"
 
                                  | "n" `isPrefixOf` x ||
-                                   "t" `isPrefixOf` x    -> ("U", x)
+                                   "t" `isPrefixOf` x    -> "I" ++ x
 
-                        _       -> ("uw", show x)
+                        _       -> "iy" ++ show x
 
-c -<- x = ([c], show x)
+'A' -<- x = case x of   AT      -> "AT"
+                        Iy      -> "AwIy"
+                        Un      -> "awna"
+                        In      -> "ayna"
+
+                        Suffix "Una"    -> "awna"
+                        Suffix "U"      -> "aw"
+                        Suffix "UW"     -> "aW"
+
+                        Suffix "Ina"    -> "ayna"
+                        Suffix "I"      -> "ay"
+
+                        Suffix x | x `elem` ["a",  "i",  "u"]  -> "Y"
+                                 | x `elem` ["aN", "iN", "uN"] -> "aNY"
+
+                                 | "at" `isPrefixOf` x         -> x
+
+                        _       -> "aw" ++ show x
+
+'U' -<- x = case x of   Un      -> "Una"
+                        In      -> "Ina"
+
+                        Suffix "Una"    -> "Una"
+                        Suffix "U"      -> "U"
+                        Suffix "UW"     -> "UW"
+
+                        Suffix "Ina"    -> "Ina"
+                        Suffix "I"      -> "I"
+
+                        Suffix x | x `elem` ["i",  "u"]  -> "U"
+                                 | x `elem` ["iN", "uN"] -> "iN"
+
+                                 | "n" `isPrefixOf` x ||
+                                   "t" `isPrefixOf` x    -> "U" ++ x
+
+                        _       -> "uw" ++ show x
+
+c -<- x = c : show x
 
 
 class Forming a where
@@ -278,17 +295,6 @@ instance Rules a => Rules (Morphs a) where
 instance Morphing (Morphs a) a where
 
     morph = id
-
-{-
-instance Morphing Prefix [a] where
-
-    morph x = Morphs [] [x] []
-
-
-instance Morphing Suffix (Maybe PatternL) where
-
-    morph x = Morphs [] [] [x]
--}
 
 
 data Prefix =   Prefix String

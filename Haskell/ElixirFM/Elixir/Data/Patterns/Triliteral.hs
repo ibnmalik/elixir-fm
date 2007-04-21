@@ -176,6 +176,7 @@ instance Forming PatternT where
         (   HaFCaL,     HUCiL,      UCiL,       UCaL        ),
         (   HaFAL,      HuFIL,      FIL,        FAL         ),
         (   HaFCY,      HuFCI,      FCI,        FCY         ),
+        (   HaFY,       HuFI,       FI,         FY          ),
         (   HaFaCL,     HuFiCL,     FiCL,       FaCL        )
 
         ]
@@ -485,8 +486,8 @@ data PatternT =
         |   HaFCaL                                      |   HaFAL               |   HaFCY               |   HaFaCL
         |   HuFCiL              |   HUCiL               |   HuFIL               |   HuFCI               |   HuFiCL
 
-                                |   UCiL
-                                |   UCaL
+                                |   UCiL                |   FI                  |   HaFY
+                                |   UCaL                                        |   HuFI
 
         |   HiFCAL              |   HICAL                                       |   HiFCA'
         |   HiFCaL              |   HICaL               |   HiFAL                                       |   HiFaCL
