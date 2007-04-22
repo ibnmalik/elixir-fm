@@ -4969,164 +4969,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.d f b' => [
-    {
-      'types' => {
-        '.dafA' => {},
-        '.dafaw' => {
-          'PV_Atn' => 1
-        },
-        '.daf' => {
-          'PV_ttAw' => 1
-        },
-        '.dfuw' => {
-          'IV_0hAnn' => 1
-        },
-        '.df' => {
-          'IV_0hwnyn' => 1
-        }
-      },
-      'entry' => '.dafA',
-      'form' => '.dafA',
-      'lines' => [
-        ';; DafA-u_1',
-        'DfA     DafA    PV_0    overflow;be abundant',
-        'Dfw     Dafaw   PV_Atn  overflow;be abundant',
-        'Df      Daf     PV_ttAw overflow;be abundant',
-        'Dfw     Dofuw   IV_0hAnn        overflow;be abundant',
-        'Df      Dof     IV_0hwnyn       overflow;be abundant'
-      ],
-      'patterns' => {
-        '.dfuw' => [
-          'FCU'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCA',
-      'glosses' => [
-        'overflow',
-        'be abundant'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'DafA-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.dfiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '\'a.dfA' => {
-          'PV_h' => 2
-        },
-        '\'a.dfY' => {},
-        '.dfY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        '\'a.df' => {
-          'PV_ttAw' => 2
-        },
-        '\'a.dfay' => {
-          'PV_Atn' => 2
-        },
-        '.dfay' => {
-          'IV_Ann_Pass_yu' => 1
-        },
-        '.df' => {
-          'IV_0hwnyn_yu' => 1
-        }
-      },
-      'entry' => '\'a.dfY',
-      'form' => '\'a.dfY',
-      'lines' => [
-        ';; >aDofaY_1',
-        '>DfY    >aDofaY PV_0    grant;confer',
-        'ADfY    >aDofaY PV_0    grant;confer',
-        '>DfA    >aDofA  PV_h    grant;confer',
-        'ADfA    >aDofA  PV_h    grant;confer',
-        '>Dfy    >aDofay PV_Atn  grant;confer',
-        'ADfy    >aDofay PV_Atn  grant;confer',
-        '>Df     >aDof   PV_ttAw grant;confer',
-        'ADf     >aDof   PV_ttAw grant;confer',
-        'Dfy     Dofiy   IV_0hAnn_yu     grant;confer',
-        'Df      Dof     IV_0hwnyn_yu    grant;confer',
-        'DfY     DofaY   IV_0_Pass_yu    be granted;be conferred',
-        'Dfy     Dofay   IV_Ann_Pass_yu  be granted;be conferred'
-      ],
-      'patterns' => {
-        '.dfiy' => [
-          'FCI'
-        ],
-        '.dfY' => [
-          'FCY'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCY',
-      'suffix' => '',
-      'glosses' => [
-        'grant',
-        'confer',
-        'be granted',
-        'be conferred'
-      ],
-      'orig' => 'OaDofaY',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'i.dfA\'',
-      'form' => '\'i.dfA\'',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HiFCA\'',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'IiDofA\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.dAfiy' => {
-          'NapAt' => 1,
-          'NAn_Nayn' => 1,
-          'N0F' => 1
-        },
-        '.dAf' => {
-          'Nuwn_Niyn' => 1,
-          'NK' => 1
-        }
-      },
-      'entry' => '.dAfiy',
-      'form' => '.dAfiy',
-      'lines' => [
-        ';; DAfiy_1',
-        'DAfy    DAfiy   N0F     ample;elaborate',
-        'DAf     DAf     NK      ample;elaborate',
-        'DAfy    DAfiy   NAn_Nayn        ample;elaborate',
-        'DAf     DAf     Nuwn_Niyn       ample;elaborate',
-        'DAfy    DAfiy   NapAt   ample;elaborate'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACI',
-      'suffix' => '',
-      'glosses' => [
-        'ample',
-        'elaborate'
-      ],
-      'orig' => 'DAfiy',
-      'prefix' => ''
-    }
-  ],
   '.d r b' => [
     {
       'types' => {
@@ -6024,55 +5866,6 @@ $Lexicon = {
         'disrupted'
       ],
       'orig' => 'muDoTarib',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.darr' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '.darrA' => {
-          'PV_h' => 1
-        },
-        '.darriy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '.darray' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '.darrY' => {}
-      },
-      'entry' => '.darrY',
-      'form' => '.darrY',
-      'lines' => [
-        ';; Dar~aY_1',
-        'DrY     Dar~aY  PV_0    provoke;excite',
-        'DrA     Dar~A   PV_h    provoke;excite',
-        'Dry     Dar~ay  PV_Atn  provoke;excite',
-        'Dr      Dar~    PV_ttAw provoke;excite',
-        'Dry     Dar~iy  IV_0hAnn_yu     provoke;excite',
-        'Dr      Dar~    IV_0hwnyn_yu    provoke;excite',
-        'DrY     Dar~aY  IV_0_Pass_yu    be provoked;be excited',
-        'Dry     Dar~ay  IV_Ann_Pass_yu  be provoked;be excited'
-      ],
-      'patterns' => {
-        '.darriy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCY',
-      'suffix' => '',
-      'glosses' => [
-        'provoke',
-        'excite',
-        'be provoked',
-        'be excited'
-      ],
-      'orig' => 'Dar~aY',
       'prefix' => ''
     }
   ],
@@ -7992,6 +7785,59 @@ $Lexicon = {
     }
   ],
   '.d r y' => [
+    {
+      'types' => {
+        '.darr' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '.darrA' => {
+          'PV_h' => 1
+        },
+        '.darriy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '.darray' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '.darrY' => {}
+      },
+      'entry' => '.darrY',
+      'form' => '.darrY',
+      'lines' => [
+        ';; Dar~aY_1',
+        'DrY     Dar~aY  PV_0    provoke;excite',
+        'DrA     Dar~A   PV_h    provoke;excite',
+        'Dry     Dar~ay  PV_Atn  provoke;excite',
+        'Dr      Dar~    PV_ttAw provoke;excite',
+        'Dry     Dar~iy  IV_0hAnn_yu     provoke;excite',
+        'Dr      Dar~    IV_0hwnyn_yu    provoke;excite',
+        'DrY     Dar~aY  IV_0_Pass_yu    be provoked;be excited',
+        'Dry     Dar~ay  IV_Ann_Pass_yu  be provoked;be excited'
+      ],
+      'patterns' => {
+        '.darriy' => [
+          'FaCCiL',
+          'FaCCI'
+        ],
+        '.darray' => [
+          'FaCCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCY',
+      'suffix' => '',
+      'glosses' => [
+        'provoke',
+        'excite',
+        'be provoked',
+        'be excited'
+      ],
+      'orig' => 'Dar~aY',
+      'prefix' => ''
+    },
     {
       'types' => {},
       'entry' => '.dawAriy',
@@ -10431,6 +10277,169 @@ $Lexicon = {
   ],
   '.d f y' => [
     {
+      'types' => {
+        '.dafA' => {},
+        '.dafaw' => {
+          'PV_Atn' => 1
+        },
+        '.daf' => {
+          'PV_ttAw' => 1
+        },
+        '.dfuw' => {
+          'IV_0hAnn' => 1
+        },
+        '.df' => {
+          'IV_0hwnyn' => 1
+        }
+      },
+      'entry' => '.dafA',
+      'form' => '.dafA',
+      'lines' => [
+        ';; DafA-u_1',
+        'DfA     DafA    PV_0    overflow;be abundant',
+        'Dfw     Dafaw   PV_Atn  overflow;be abundant',
+        'Df      Daf     PV_ttAw overflow;be abundant',
+        'Dfw     Dofuw   IV_0hAnn        overflow;be abundant',
+        'Df      Dof     IV_0hwnyn       overflow;be abundant'
+      ],
+      'patterns' => {
+        '.dfuw' => [
+          'FCU'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCA',
+      'glosses' => [
+        'overflow',
+        'be abundant'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'DafA-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.dfiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '\'a.dfA' => {
+          'PV_h' => 2
+        },
+        '\'a.dfY' => {},
+        '.dfY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '\'a.df' => {
+          'PV_ttAw' => 2
+        },
+        '\'a.dfay' => {
+          'PV_Atn' => 2
+        },
+        '.dfay' => {
+          'IV_Ann_Pass_yu' => 1
+        },
+        '.df' => {
+          'IV_0hwnyn_yu' => 1
+        }
+      },
+      'entry' => '\'a.dfY',
+      'form' => '\'a.dfY',
+      'lines' => [
+        ';; >aDofaY_1',
+        '>DfY    >aDofaY PV_0    grant;confer',
+        'ADfY    >aDofaY PV_0    grant;confer',
+        '>DfA    >aDofA  PV_h    grant;confer',
+        'ADfA    >aDofA  PV_h    grant;confer',
+        '>Dfy    >aDofay PV_Atn  grant;confer',
+        'ADfy    >aDofay PV_Atn  grant;confer',
+        '>Df     >aDof   PV_ttAw grant;confer',
+        'ADf     >aDof   PV_ttAw grant;confer',
+        'Dfy     Dofiy   IV_0hAnn_yu     grant;confer',
+        'Df      Dof     IV_0hwnyn_yu    grant;confer',
+        'DfY     DofaY   IV_0_Pass_yu    be granted;be conferred',
+        'Dfy     Dofay   IV_Ann_Pass_yu  be granted;be conferred'
+      ],
+      'patterns' => {
+        '.dfiy' => [
+          'FCiL',
+          'FCI'
+        ],
+        '\'a.dfay' => [
+          'HaFCaL'
+        ],
+        '.dfY' => [
+          'FCY'
+        ],
+        '.dfay' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCY',
+      'suffix' => '',
+      'glosses' => [
+        'grant',
+        'confer',
+        'be granted',
+        'be conferred'
+      ],
+      'orig' => 'OaDofaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'i.dfA\'',
+      'form' => '\'i.dfA\'',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCA\'',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'IiDofA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.dAfiy' => {
+          'NapAt' => 1,
+          'NAn_Nayn' => 1,
+          'N0F' => 1
+        },
+        '.dAf' => {
+          'Nuwn_Niyn' => 1,
+          'NK' => 1
+        }
+      },
+      'entry' => '.dAfiy',
+      'form' => '.dAfiy',
+      'lines' => [
+        ';; DAfiy_1',
+        'DAfy    DAfiy   N0F     ample;elaborate',
+        'DAf     DAf     NK      ample;elaborate',
+        'DAfy    DAfiy   NAn_Nayn        ample;elaborate',
+        'DAf     DAf     Nuwn_Niyn       ample;elaborate',
+        'DAfy    DAfiy   NapAt   ample;elaborate'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'ample',
+        'elaborate'
+      ],
+      'orig' => 'DAfiy',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => '.dAfiy',
       'form' => '.dAfiy',
@@ -10438,7 +10447,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'DAfiy',
@@ -15359,18 +15368,15 @@ $Lexicon->{'.d y \''}[5]{'glosses'} = $Lexicon->{'.d y \''}[4]{'glosses'};
 $Lexicon->{'.d y \''}[7]{'types'} = $Lexicon->{'.d y \''}[6]{'types'};
 $Lexicon->{'.d y \''}[7]{'lines'} = $Lexicon->{'.d y \''}[6]{'lines'};
 $Lexicon->{'.d y \''}[7]{'glosses'} = $Lexicon->{'.d y \''}[6]{'glosses'};
-$Lexicon->{'.d f b'}[2]{'types'} = $Lexicon->{'.d f \''}[0]{'types'};
-$Lexicon->{'.d f b'}[2]{'lines'} = $Lexicon->{'.d f \''}[0]{'lines'};
-$Lexicon->{'.d f b'}[2]{'glosses'} = $Lexicon->{'.d f \''}[0]{'glosses'};
 $Lexicon->{'.d .h w'}[2]{'types'} = $Lexicon->{'.d .h .h'}[0]{'types'};
 $Lexicon->{'.d .h w'}[2]{'lines'} = $Lexicon->{'.d .h .h'}[0]{'lines'};
 $Lexicon->{'.d .h w'}[2]{'glosses'} = $Lexicon->{'.d .h .h'}[0]{'glosses'};
 $Lexicon->{'.d n \''}[0]{'types'} = $Lexicon->{'.d n y'}[5]{'types'};
 $Lexicon->{'.d n \''}[0]{'lines'} = $Lexicon->{'.d n y'}[5]{'lines'};
 $Lexicon->{'.d n \''}[0]{'glosses'} = $Lexicon->{'.d n y'}[5]{'glosses'};
-$Lexicon->{'.d r y'}[0]{'types'} = $Lexicon->{'.d w r y'}[0]{'types'};
-$Lexicon->{'.d r y'}[0]{'lines'} = $Lexicon->{'.d w r y'}[0]{'lines'};
-$Lexicon->{'.d r y'}[0]{'glosses'} = $Lexicon->{'.d w r y'}[0]{'glosses'};
+$Lexicon->{'.d r y'}[1]{'types'} = $Lexicon->{'.d w r y'}[0]{'types'};
+$Lexicon->{'.d r y'}[1]{'lines'} = $Lexicon->{'.d w r y'}[0]{'lines'};
+$Lexicon->{'.d r y'}[1]{'glosses'} = $Lexicon->{'.d w r y'}[0]{'glosses'};
 $Lexicon->{'.d r r'}[4]{'types'} = $Lexicon->{'.d .t r'}[0]{'types'};
 $Lexicon->{'.d r r'}[4]{'lines'} = $Lexicon->{'.d .t r'}[0]{'lines'};
 $Lexicon->{'.d r r'}[4]{'glosses'} = $Lexicon->{'.d .t r'}[0]{'glosses'};
@@ -15386,12 +15392,15 @@ $Lexicon->{'.d r r'}[18]{'glosses'} = $Lexicon->{'.d .t r'}[2]{'glosses'};
 $Lexicon->{'.d r r'}[20]{'types'} = $Lexicon->{'.d .t r'}[3]{'types'};
 $Lexicon->{'.d r r'}[20]{'lines'} = $Lexicon->{'.d .t r'}[3]{'lines'};
 $Lexicon->{'.d r r'}[20]{'glosses'} = $Lexicon->{'.d .t r'}[3]{'glosses'};
-$Lexicon->{'.d r r'}[22]{'types'} = $Lexicon->{'.d r b'}[34]{'types'};
-$Lexicon->{'.d r r'}[22]{'lines'} = $Lexicon->{'.d r b'}[34]{'lines'};
-$Lexicon->{'.d r r'}[22]{'glosses'} = $Lexicon->{'.d r b'}[34]{'glosses'};
-$Lexicon->{'.d f y'}[0]{'types'} = $Lexicon->{'.d f b'}[3]{'types'};
-$Lexicon->{'.d f y'}[0]{'lines'} = $Lexicon->{'.d f b'}[3]{'lines'};
-$Lexicon->{'.d f y'}[0]{'glosses'} = $Lexicon->{'.d f b'}[3]{'glosses'};
+$Lexicon->{'.d r r'}[22]{'types'} = $Lexicon->{'.d r y'}[0]{'types'};
+$Lexicon->{'.d r r'}[22]{'lines'} = $Lexicon->{'.d r y'}[0]{'lines'};
+$Lexicon->{'.d r r'}[22]{'glosses'} = $Lexicon->{'.d r y'}[0]{'glosses'};
+$Lexicon->{'.d f y'}[2]{'types'} = $Lexicon->{'.d f \''}[0]{'types'};
+$Lexicon->{'.d f y'}[2]{'lines'} = $Lexicon->{'.d f \''}[0]{'lines'};
+$Lexicon->{'.d f y'}[2]{'glosses'} = $Lexicon->{'.d f \''}[0]{'glosses'};
+$Lexicon->{'.d f y'}[4]{'types'} = $Lexicon->{'.d f y'}[3]{'types'};
+$Lexicon->{'.d f y'}[4]{'lines'} = $Lexicon->{'.d f y'}[3]{'lines'};
+$Lexicon->{'.d f y'}[4]{'glosses'} = $Lexicon->{'.d f y'}[3]{'glosses'};
 $Lexicon->{'.d .g .t'}[5]{'types'} = $Lexicon->{'.d w .g .t'}[0]{'types'};
 $Lexicon->{'.d .g .t'}[5]{'lines'} = $Lexicon->{'.d w .g .t'}[0]{'lines'};
 $Lexicon->{'.d .g .t'}[5]{'glosses'} = $Lexicon->{'.d w .g .t'}[0]{'glosses'};

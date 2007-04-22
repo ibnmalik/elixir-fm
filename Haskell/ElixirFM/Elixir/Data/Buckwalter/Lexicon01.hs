@@ -8779,14 +8779,6 @@ lexicon = listing "Lexicon's properties"
 
     KaRADiS                   `noun`    {- OatAgiy -}          [ "Atagi" ] ]
 
- |> "' t b" <| [
-
-    -- ;; >uwtiy_1
-    -- >wty    >uwtiy  Nprop   Ottey
-    -- Awty    >uwtiy  Nprop   Ottey
-
-    FUCI                      `noun`    {- Ouwtiy -}           [ "Ottey" ] ]
-
  |> "' t m" <| [
 
     -- ;; ma>otam_1
@@ -9013,6 +9005,12 @@ lexicon = listing "Lexicon's properties"
     -- mt>ty   muta>at~iy      NapAt   derived;proceeding
 
     MutaFaCCiL                `noun`    {- mutaOat~iy -}       [ "derived", "proceeding" ],
+
+    -- ;; >uwtiy_1
+    -- >wty    >uwtiy  Nprop   Ottey
+    -- Awty    >uwtiy  Nprop   Ottey
+
+    FUCI                      `noun`    {- Ouwtiy -}           [ "Ottey" ],
 
     -- ;; >uwtiy_1
     -- >wty    >uwtiy  Nprop   Ottey

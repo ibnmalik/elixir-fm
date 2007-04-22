@@ -1027,7 +1027,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; javiyr_1
     -- jvyr    javiyr  Nprop   Jathir
 
-    FaCIL                     `noun`    {- javiyr -}           [ "Jathir" ],
+    FaCIL                     `noun`    {- javiyr -}           [ "Jathir" ] ]
+
+ |> "^g _t w" <| [
+
+    -- ;; juvuw~_1
+    -- jvw     juvuw~  N       kneeling
+
+    FuCUL                     `noun`    {- juvuw~ -}           [ "kneeling" ],
+
+    -- ;; juvowap_1
+    -- jvw     juvow   Nap     rock pile;sepulchral mound
+
+    FuCL |< aT                `noun`    {- juvowap -}          [ "rock pile", "sepulchral mound" ] ]
+
+ |> "^g _t y" <| [
 
     -- ;; javA-u_1
     -- jvA     javA    PV_0    kneel;genuflect
@@ -1052,26 +1066,7 @@ lexicon = listing "Lexicon's properties"
     -- jAv     jAv     Nuwn_Niyn       kneeling
     -- jAvy    jAviy   NapAt   kneeling
 
-    FACI                      `noun`    {- jAviy -}            [ "kneeling" ],
-
-    -- ;; jAviy_2
-    -- jAvy    jAviy   N0      Hercules
-
-    FACI                      `noun`    {- jAviy -}            [ "Hercules" ] ]
-
- |> "^g _t w" <| [
-
-    -- ;; juvuw~_1
-    -- jvw     juvuw~  N       kneeling
-
-    FuCUL                     `noun`    {- juvuw~ -}           [ "kneeling" ],
-
-    -- ;; juvowap_1
-    -- jvw     juvow   Nap     rock pile;sepulchral mound
-
-    FuCL |< aT                `noun`    {- juvowap -}          [ "rock pile", "sepulchral mound" ] ]
-
- |> "^g _t y" <| [
+    FACiL                     `noun`    {- jAviy -}            [ "kneeling" ],
 
     -- ;; jAviy_1
     -- jAvy    jAviy   N0F     kneeling
@@ -1080,12 +1075,17 @@ lexicon = listing "Lexicon's properties"
     -- jAv     jAv     Nuwn_Niyn       kneeling
     -- jAvy    jAviy   NapAt   kneeling
 
-    FACiL                     `noun`    {- jAviy -}            [ "kneeling" ],
+    FACI                      `noun`    {- jAviy -}            [ "kneeling" ],
 
     -- ;; jAviy_2
     -- jAvy    jAviy   N0      Hercules
 
-    FACiL                     `noun`    {- jAviy -}            [ "Hercules" ] ]
+    FACiL                     `noun`    {- jAviy -}            [ "Hercules" ],
+
+    -- ;; jAviy_2
+    -- jAvy    jAviy   N0      Hercules
+
+    FACI                      `noun`    {- jAviy -}            [ "Hercules" ] ]
 
  |> "^g ` ^g `" <| [
 
@@ -1735,7 +1735,34 @@ lexicon = listing "Lexicon's properties"
     -- ;; juborAn_1
     -- jbrAn   juborAn Nprop   Gibran;Jubran
 
-    FuCLAn                    `noun`    {- juborAn -}          [ "Gibran", "Jubran" ],
+    FuCLAn                    `noun`    {- juborAn -}          [ "Gibran", "Jubran" ] ]
+
+ |> "^g b r n" <| [
+
+    -- ;; juborAn_1
+    -- jbrAn   juborAn Nprop   Gibran;Jubran
+
+    KuRDAS                    `noun`    {- juborAn -}          [ "Gibran", "Jubran" ] ]
+
+ |> "^g b s" <| [
+
+    -- ;; jab~as_1
+    -- jbs     jab~as  PV      plaster;put in a cast
+    -- jbs     jab~is  IV_yu   plaster;put in a cast
+
+    FaCCaL                    `verb`    {- jab~as -}           [ "plaster", "put in a cast" ],
+
+    -- ;; jibos_1
+    -- jbs     jibos   N       gypsum;plaster of Paris
+
+    FiCL                      `noun`    {- jibos -}            [ "gypsum", "plaster of Paris" ],
+
+    -- ;; jab~Asap_1
+    -- jbAs    jab~As  Nap     gypsum quarry;plaster kiln
+
+    FaCCAL |< aT              `noun`    {- jab~Asap -}         [ "gypsum quarry", "plaster kiln" ] ]
+
+ |> "^g b y" <| [
 
     -- ;; jabaY-i_1
     -- jbY     jabaY   PV_0    collect;levy
@@ -1774,6 +1801,16 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCY                    `verb`    {- AijotabaY -}        [ "choose", "elect", "be chosen", "be elected" ],
 
+    -- ;; jibAyap_1
+    -- jbAy    jibAy   Nap     collecting;levying
+
+    FiCAL |< aT               `noun`    {- jibAyap -}          [ "collecting", "levying" ],
+
+    -- ;; jibAyap_2
+    -- jbAy    jibAy   NapAt   tax;duty
+
+    FiCAL |< aT               `noun`    {- jibAyap -}          [ "tax", "duty" ],
+
     -- ;; jibA}iy~_1
     -- jbA}y   jibA}iy~        Nall    fiscal;tax     [[jibA}iy~/ADJ]]
 
@@ -1787,8 +1824,20 @@ lexicon = listing "Lexicon's properties"
     -- mjAb    majAb   NK      taxes
 
     MaFCY                     `noun`    {- majobaY -}          [ "tax", "taxes" ]
+                              `plural`     MaFACiL
                               `plural`     MaFACI
-                           {- `others`  [ "ma^gAbiy N0_Nh" ] -},
+                              `plural`     MaFCaL
+                           {- `others`  [ "ma^gAbiy N0_Nh", "ma^gbay NAn_Nayn" ] -},
+
+    -- ;; jAbiy_1
+    -- jAby    jAbiy   N0F     tax collector;collector
+    -- jAb     jAb     NK      tax collector;collector
+    -- jAby    jAbiy   NAn_Nayn        tax collector;collector
+    -- jAb     jAb     Nuwn_Niyn       tax collector;collector
+    -- jAby    jAbiy   NapAt   tax collector;collector
+    -- jbA     jubA    Nap     tax collectors;collectors
+
+    FACiL                     `noun`    {- jAbiy -}            [ "tax collector", "collector", "tax collectors", "collectors" ],
 
     -- ;; jAbiy_1
     -- jAby    jAbiy   N0F     tax collector;collector
@@ -1805,61 +1854,16 @@ lexicon = listing "Lexicon's properties"
     -- jwAby   jawAbiy N0_Nh   pools;basins
     -- jwAb    jawAb   NK      pools;basins
 
-    FACI |< aT                `noun`    {- jAbiyap -}          [ "pool", "basin", "pools", "basins" ] ]
-
- |> "^g b r n" <| [
-
-    -- ;; juborAn_1
-    -- jbrAn   juborAn Nprop   Gibran;Jubran
-
-    KuRDAS                    `noun`    {- juborAn -}          [ "Gibran", "Jubran" ] ]
-
- |> "^g b s" <| [
-
-    -- ;; jab~as_1
-    -- jbs     jab~as  PV      plaster;put in a cast
-    -- jbs     jab~is  IV_yu   plaster;put in a cast
-
-    FaCCaL                    `verb`    {- jab~as -}           [ "plaster", "put in a cast" ],
-
-    -- ;; jibos_1
-    -- jbs     jibos   N       gypsum;plaster of Paris
-
-    FiCL                      `noun`    {- jibos -}            [ "gypsum", "plaster of Paris" ],
-
-    -- ;; jab~Asap_1
-    -- jbAs    jab~As  Nap     gypsum quarry;plaster kiln
-
-    FaCCAL |< aT              `noun`    {- jab~Asap -}         [ "gypsum quarry", "plaster kiln" ] ]
-
- |> "^g b y" <| [
-
-    -- ;; jibAyap_1
-    -- jbAy    jibAy   Nap     collecting;levying
-
-    FiCAL |< aT               `noun`    {- jibAyap -}          [ "collecting", "levying" ],
-
-    -- ;; jibAyap_2
-    -- jbAy    jibAy   NapAt   tax;duty
-
-    FiCAL |< aT               `noun`    {- jibAyap -}          [ "tax", "duty" ],
-
-    -- ;; jAbiy_1
-    -- jAby    jAbiy   N0F     tax collector;collector
-    -- jAb     jAb     NK      tax collector;collector
-    -- jAby    jAbiy   NAn_Nayn        tax collector;collector
-    -- jAb     jAb     Nuwn_Niyn       tax collector;collector
-    -- jAby    jAbiy   NapAt   tax collector;collector
-    -- jbA     jubA    Nap     tax collectors;collectors
-
-    FACiL                     `noun`    {- jAbiy -}            [ "tax collector", "collector", "tax collectors", "collectors" ],
+    FACiL |< aT               `noun`    {- jAbiyap -}          [ "pool", "basin", "pools", "basins" ]
+                              `plural`     FawACiL
+                           {- `others`  [ "^gawAbiy N0_Nh" ] -},
 
     -- ;; jAbiyap_1
     -- jAby    jAbiy   Napdu   pool;basin
     -- jwAby   jawAbiy N0_Nh   pools;basins
     -- jwAb    jawAb   NK      pools;basins
 
-    FACiL |< aT               `noun`    {- jAbiyap -}          [ "pool", "basin", "pools", "basins" ]
+    FACI |< aT                `noun`    {- jAbiyap -}          [ "pool", "basin", "pools", "basins" ]
                               `plural`     FawACiL
                            {- `others`  [ "^gawAbiy N0_Nh" ] -} ]
 
@@ -2300,95 +2304,6 @@ lexicon = listing "Lexicon's properties"
 
     MuFACiL                   `noun`    {- mujAdil -}          [ "disputant", "opponent" ] ]
 
- |> "^g d m" <| [
-
-    -- ;; jadA-u_1
-    -- jdA     jadA    PV_0h   bestow
-    -- jdw     jadaw   PV_Atn  bestow
-    -- jd      jad     PV_ttAw bestow
-    -- jdw     joduw   IV_0hAnn        bestow
-    -- jd      jod     IV_0hwnyn       bestow
-    -- jdY     jodaY   IV_0_Pass_yu    be bestown
-    -- jdy     joday   IV_Ann_Pass_yu  be bestown
-
-    FaCA                      `verb`    {- jadA-u -}           [ "bestow", "be bestown" ]
-                              `imperf`     FCU,
-
-    -- ;; >ajodaY_1
-    -- >jdY    >ajodaY PV_0    be useful
-    -- AjdY    >ajodaY PV_0    be useful
-    -- >jdA    >ajodA  PV_h    be useful
-    -- AjdA    >ajodA  PV_h    be useful
-    -- >jdy    >ajoday PV_Atn  be useful
-    -- Ajdy    >ajoday PV_Atn  be useful
-    -- >jd     >ajod   PV_ttAw_intr    be useful
-    -- Ajd     >ajod   PV_ttAw_intr    be useful
-    -- jdy     jodiy   IV_0hAnn_yu     be useful
-    -- jd      jod     IV_0hwnyn_yu    be useful
-    -- jdY     jodaY   IV_0_Pass_yu    be useful
-    -- jdy     joday   IV_Ann_Pass_yu  be useful
-
-    HaFCY                     `verb`    {- OajodaY -}          [ "be useful" ],
-
-    -- ;; {isotajodaY_1
-    -- <stjdY  {isotajodaY     PV_0    implore;beg
-    -- AstjdY  {isotajodaY     PV_0    implore;beg
-    -- <stjdA  {isotajodA      PV_h    implore;beg
-    -- AstjdA  {isotajodA      PV_h    implore;beg
-    -- <stjdy  {isotajoday     PV_Atn  implore;beg
-    -- Astjdy  {isotajoday     PV_Atn  implore;beg
-    -- <stjd   {isotajod       PV_ttAw implore;beg
-    -- Astjd   {isotajod       PV_ttAw implore;beg
-    -- stjdy   sotajodiy       IV_0hAnn        implore;beg
-    -- stjd    sotajod IV_0hwnyn       implore;beg
-    -- stjdY   sotajodaY       IV_0_Pass_yu    be implored;be begged
-
-    IstaFCY                   `verb`    {- AisotajodaY -}      [ "implore", "beg", "be implored", "be begged" ],
-
-    -- ;; jadA'_1
-    -- jdA'    jadA'   N0_Nh   advantage;gain
-    -- jdA&    jadA&   Nh      advantage;gain
-    -- jdA}    jadA}   Nhy     advantage;gain
-    -- jdwY    jadowaY N0      advantage;benefit
-    -- jdwA    jadowA  Nhy     advantage;benefit
-
-    FaCA'                     `noun`    {- jadA' -}            [ "advantage", "gain", "benefit" ],
-
-    -- ;; >ajodaY_2
-    -- >jdY    >ajodaY N0      more/most useful
-    -- AjdY    >ajodaY N0      more/most useful
-    -- >jdA    >ajodA  Nhy     more/most useful
-    -- AjdA    >ajodA  Nhy     more/most useful
-    -- >jdy    >ajoday NAn_Nayn        more/most useful
-    -- Ajdy    >ajoday NAn_Nayn        more/most useful
-
-    HaFCY                     `noun`    {- OajodaY -}          [ "more/most useful" ],
-
-    -- ;; {isotijodA'_1
-    -- <stjdA' {isotijodA'     N0_Nh   plea;supplication
-    -- AstjdA' {isotijodA'     N0_Nh   plea;supplication
-    -- <stjdA& {isotijodA&     Nh      plea;supplication
-    -- AstjdA& {isotijodA&     Nh      plea;supplication
-    -- <stjdA} {isotijodA}     Nhy     plea;supplication
-    -- AstjdA} {isotijodA}     Nhy     plea;supplication
-    -- <stjdA' {isotijodA'     NAn_Nayn        pleas;supplications
-    -- AstjdA' {isotijodA'     NAn_Nayn        pleas;supplications
-    -- <stjdA} {isotijodA}     Nayn    pleas;supplications
-    -- AstjdA} {isotijodA}     Nayn    pleas;supplications
-    -- <stjdA' {isotijodA'     NAt     pleas;supplications
-    -- AstjdA' {isotijodA'     NAt     pleas;supplications
-
-    IstiFCA'                  `noun`    {- AisotijodA' -}      [ "plea", "supplication", "pleas", "supplications" ],
-
-    -- ;; mujodiy_1
-    -- mjdy    mujodiy N0F_Nh  useful;suitable
-    -- mjd     mujod   NK      useful;suitable
-    -- mjdy    mujodiy NAn_Nayn        useful;suitable
-    -- mjd     mujod   Nuwn_Niyn       useful;suitable
-    -- mjdy    mujodiy NapAt   useful;suitable
-
-    MuFCI                     `noun`    {- mujodiy -}          [ "useful", "suitable" ] ]
-
  |> "^g d r" <| [
 
     -- ;; jadur-u_1
@@ -2500,6 +2415,95 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "^gadAwil Ndip" ] -} ]
 
  |> "^g d y" <| [
+
+    -- ;; jadA-u_1
+    -- jdA     jadA    PV_0h   bestow
+    -- jdw     jadaw   PV_Atn  bestow
+    -- jd      jad     PV_ttAw bestow
+    -- jdw     joduw   IV_0hAnn        bestow
+    -- jd      jod     IV_0hwnyn       bestow
+    -- jdY     jodaY   IV_0_Pass_yu    be bestown
+    -- jdy     joday   IV_Ann_Pass_yu  be bestown
+
+    FaCA                      `verb`    {- jadA-u -}           [ "bestow", "be bestown" ]
+                              `imperf`     FCU,
+
+    -- ;; >ajodaY_1
+    -- >jdY    >ajodaY PV_0    be useful
+    -- AjdY    >ajodaY PV_0    be useful
+    -- >jdA    >ajodA  PV_h    be useful
+    -- AjdA    >ajodA  PV_h    be useful
+    -- >jdy    >ajoday PV_Atn  be useful
+    -- Ajdy    >ajoday PV_Atn  be useful
+    -- >jd     >ajod   PV_ttAw_intr    be useful
+    -- Ajd     >ajod   PV_ttAw_intr    be useful
+    -- jdy     jodiy   IV_0hAnn_yu     be useful
+    -- jd      jod     IV_0hwnyn_yu    be useful
+    -- jdY     jodaY   IV_0_Pass_yu    be useful
+    -- jdy     joday   IV_Ann_Pass_yu  be useful
+
+    HaFCY                     `verb`    {- OajodaY -}          [ "be useful" ],
+
+    -- ;; {isotajodaY_1
+    -- <stjdY  {isotajodaY     PV_0    implore;beg
+    -- AstjdY  {isotajodaY     PV_0    implore;beg
+    -- <stjdA  {isotajodA      PV_h    implore;beg
+    -- AstjdA  {isotajodA      PV_h    implore;beg
+    -- <stjdy  {isotajoday     PV_Atn  implore;beg
+    -- Astjdy  {isotajoday     PV_Atn  implore;beg
+    -- <stjd   {isotajod       PV_ttAw implore;beg
+    -- Astjd   {isotajod       PV_ttAw implore;beg
+    -- stjdy   sotajodiy       IV_0hAnn        implore;beg
+    -- stjd    sotajod IV_0hwnyn       implore;beg
+    -- stjdY   sotajodaY       IV_0_Pass_yu    be implored;be begged
+
+    IstaFCY                   `verb`    {- AisotajodaY -}      [ "implore", "beg", "be implored", "be begged" ],
+
+    -- ;; jadA'_1
+    -- jdA'    jadA'   N0_Nh   advantage;gain
+    -- jdA&    jadA&   Nh      advantage;gain
+    -- jdA}    jadA}   Nhy     advantage;gain
+    -- jdwY    jadowaY N0      advantage;benefit
+    -- jdwA    jadowA  Nhy     advantage;benefit
+
+    FaCA'                     `noun`    {- jadA' -}            [ "advantage", "gain", "benefit" ],
+
+    -- ;; >ajodaY_2
+    -- >jdY    >ajodaY N0      more/most useful
+    -- AjdY    >ajodaY N0      more/most useful
+    -- >jdA    >ajodA  Nhy     more/most useful
+    -- AjdA    >ajodA  Nhy     more/most useful
+    -- >jdy    >ajoday NAn_Nayn        more/most useful
+    -- Ajdy    >ajoday NAn_Nayn        more/most useful
+
+    HaFCY                     `noun`    {- OajodaY -}          [ "more/most useful" ]
+                              `plural`     HaFCaL
+                           {- `others`  [ "'a^gday NAn_Nayn" ] -},
+
+    -- ;; {isotijodA'_1
+    -- <stjdA' {isotijodA'     N0_Nh   plea;supplication
+    -- AstjdA' {isotijodA'     N0_Nh   plea;supplication
+    -- <stjdA& {isotijodA&     Nh      plea;supplication
+    -- AstjdA& {isotijodA&     Nh      plea;supplication
+    -- <stjdA} {isotijodA}     Nhy     plea;supplication
+    -- AstjdA} {isotijodA}     Nhy     plea;supplication
+    -- <stjdA' {isotijodA'     NAn_Nayn        pleas;supplications
+    -- AstjdA' {isotijodA'     NAn_Nayn        pleas;supplications
+    -- <stjdA} {isotijodA}     Nayn    pleas;supplications
+    -- AstjdA} {isotijodA}     Nayn    pleas;supplications
+    -- <stjdA' {isotijodA'     NAt     pleas;supplications
+    -- AstjdA' {isotijodA'     NAt     pleas;supplications
+
+    IstiFCA'                  `noun`    {- AisotijodA' -}      [ "plea", "supplication", "pleas", "supplications" ],
+
+    -- ;; mujodiy_1
+    -- mjdy    mujodiy N0F_Nh  useful;suitable
+    -- mjd     mujod   NK      useful;suitable
+    -- mjdy    mujodiy NAn_Nayn        useful;suitable
+    -- mjd     mujod   Nuwn_Niyn       useful;suitable
+    -- mjdy    mujodiy NapAt   useful;suitable
+
+    MuFCI                     `noun`    {- mujodiy -}          [ "useful", "suitable" ],
 
     -- ;; mujodiy_1
     -- mjdy    mujodiy N0F_Nh  useful;suitable
@@ -2657,13 +2661,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "^g f n" <| [
 
-    -- ;; jufA'_1
-    -- jfA'    jufA'   N0_Nh   dross;refuse;futility
-    -- jfA&    jufA&   Nh      dross;refuse;futility
-    -- jfA}    jufA}   Nhy     dross;refuse;futility
-
-    FuCA'                     `noun`    {- jufA' -}            [ "dross", "refuse", "futility" ],
-
     -- ;; jafon_1
     -- jfn     jafon   Ndu     eyelid
     -- jfwn    jufuwn  N       eyelids
@@ -2683,7 +2680,55 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- jafonap -}          [ "bowl", "grapevine", "bowls", "grapevines" ]
                               `plural`     FaCaL |< At
                               `plural`     FiCAL
-                           {- `others`  [ "^gifAn N" ] -},
+                           {- `others`  [ "^gifAn N" ] -} ]
+
+ |> "^g f r" <| [
+
+    -- ;; jafor_1
+    -- jfr     jafor   N       fortunetelling;divination
+
+    FaCL                      `noun`    {- jafor -}            [ "fortunetelling", "divination" ],
+
+    -- ;; jiforiy~_1
+    -- jfry    jiforiy~        N0      Jifri
+
+    FiCL |< Iy                `adj`     {- jiforiy~ -}         [ "Jifri" ],
+
+    -- ;; juforap_1
+    -- jfr     jufor   Napdu   pit;hole
+    -- jfr     jufar   N       pits;holes
+
+    FuCL |< aT                `noun`    {- juforap -}          [ "pit", "hole", "pits", "holes" ]
+                              `plural`     FuCaL
+                           {- `others`  [ "^gufar N" ] -} ]
+
+ |> "^g f t" <| [
+
+    -- ;; jifot_1
+    -- jft     jifot   Ndu     forceps;tweezers
+
+    FiCL                      `noun`    {- jifot -}            [ "forceps", "tweezers" ] ]
+
+ |> "^g f w" <| [
+
+    -- ;; jafow_1
+    -- jfw     jafow   N       harshness
+
+    FaCL                      `noun`    {- jafow -}            [ "harshness" ],
+
+    -- ;; jafowap_1
+    -- jfw     jafow   Nap     estrangement;rupture
+
+    FaCL |< aT                `noun`    {- jafowap -}          [ "estrangement", "rupture" ] ]
+
+ |> "^g f y" <| [
+
+    -- ;; jufA'_1
+    -- jfA'    jufA'   N0_Nh   dross;refuse;futility
+    -- jfA&    jufA&   Nh      dross;refuse;futility
+    -- jfA}    jufA}   Nhy     dross;refuse;futility
+
+    FuCA'                     `noun`    {- jufA' -}            [ "dross", "refuse", "futility" ],
 
     -- ;; jafA-u_1
     -- jfA     jafA    PV_0h   be rough;shun
@@ -2736,7 +2781,9 @@ lexicon = listing "Lexicon's properties"
     -- >jfy    >ajofay NAn_Nayn        more/most averse
     -- Ajfy    >ajofay NAn_Nayn        more/most averse
 
-    HaFCY                     `noun`    {- OajofaY -}          [ "more/most averse" ],
+    HaFCY                     `noun`    {- OajofaY -}          [ "more/most averse" ]
+                              `plural`     HaFCaL
+                           {- `others`  [ "'a^gfay NAn_Nayn" ] -},
 
     -- ;; jAfiy_1
     -- jAfy    jAfiy   N0F     rough;rude
@@ -2746,48 +2793,7 @@ lexicon = listing "Lexicon's properties"
     -- jAfy    jAfiy   NapAt   rough;rude
     -- jfA     jufA    Nap     rough;rude
 
-    FACI                      `noun`    {- jAfiy -}            [ "rough", "rude" ] ]
-
- |> "^g f r" <| [
-
-    -- ;; jafor_1
-    -- jfr     jafor   N       fortunetelling;divination
-
-    FaCL                      `noun`    {- jafor -}            [ "fortunetelling", "divination" ],
-
-    -- ;; jiforiy~_1
-    -- jfry    jiforiy~        N0      Jifri
-
-    FiCL |< Iy                `adj`     {- jiforiy~ -}         [ "Jifri" ],
-
-    -- ;; juforap_1
-    -- jfr     jufor   Napdu   pit;hole
-    -- jfr     jufar   N       pits;holes
-
-    FuCL |< aT                `noun`    {- juforap -}          [ "pit", "hole", "pits", "holes" ]
-                              `plural`     FuCaL
-                           {- `others`  [ "^gufar N" ] -} ]
-
- |> "^g f t" <| [
-
-    -- ;; jifot_1
-    -- jft     jifot   Ndu     forceps;tweezers
-
-    FiCL                      `noun`    {- jifot -}            [ "forceps", "tweezers" ] ]
-
- |> "^g f w" <| [
-
-    -- ;; jafow_1
-    -- jfw     jafow   N       harshness
-
-    FaCL                      `noun`    {- jafow -}            [ "harshness" ],
-
-    -- ;; jafowap_1
-    -- jfw     jafow   Nap     estrangement;rupture
-
-    FaCL |< aT                `noun`    {- jafowap -}          [ "estrangement", "rupture" ] ]
-
- |> "^g f y" <| [
+    FACI                      `noun`    {- jAfiy -}            [ "rough", "rude" ],
 
     -- ;; jAfiy_1
     -- jAfy    jAfiy   N0F     rough;rude
@@ -3320,13 +3326,6 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`     {- mujah~az -}         [ "equipped", "supplied" ] ]
 
- |> "^g k k" <| [
-
-    -- ;; juwkiy_1
-    -- jwky    juwkiy  N0      jockey
-
-    FUCI                      `noun`    {- juwkiy -}           [ "jockey" ] ]
-
  |> "^g k r" <| [
 
     -- ;; jAkar_1
@@ -3342,6 +3341,13 @@ lexicon = listing "Lexicon's properties"
     -- jAkyt   jAkiyt  N/ap    jacket
 
     FACiL                     `noun`    {- jAkit -}            [ "jacket" ] ]
+
+ |> "^g k y" <| [
+
+    -- ;; juwkiy_1
+    -- jwky    juwkiy  N0      jockey
+
+    FUCI                      `noun`    {- juwkiy -}           [ "jockey" ] ]
 
  |> "^g l '" <| [
 
@@ -4061,12 +4067,7 @@ lexicon = listing "Lexicon's properties"
     -- jlY     jal~aY  IV_0_Pass_yu    be made clear;be revealed;be represented
     -- jly     jal~ay  IV_Ann_Pass_yu  be made clear;be revealed;be represented
 
-    FaCLY                     `verb`    {- jal~aY -}           [ "make clear", "reveal", "represent", "be made clear", "be revealed", "be represented" ],
-
-    -- ;; juwliy_1
-    -- jwly    juwliy  Nprop   Julie
-
-    FUCI                      `noun`    {- juwliy -}           [ "Julie" ] ]
+    FaCLY                     `verb`    {- jal~aY -}           [ "make clear", "reveal", "represent", "be made clear", "be revealed", "be represented" ] ]
 
  |> "^g l m" <| [
 
@@ -4500,7 +4501,12 @@ lexicon = listing "Lexicon's properties"
     -- mtjl    mutajal~        Nuwn_Niyn       obvious;evident
     -- mtjly   mutajal~iy      NapAt   obvious;evident
 
-    MutaFaCCiL                `noun`    {- mutajal~iy -}       [ "obvious", "evident" ] ]
+    MutaFaCCiL                `noun`    {- mutajal~iy -}       [ "obvious", "evident" ],
+
+    -- ;; juwliy_1
+    -- jwly    juwliy  Nprop   Julie
+
+    FUCI                      `noun`    {- juwliy -}           [ "Julie" ] ]
 
  |> "^g m .h" <| [
 
@@ -6920,11 +6926,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "^g r m" <| [
 
-    -- ;; jarA'ap_1
-    -- jrA'    jarA'   Nap     courage;boldness
-
-    FaCA' |< aT               `noun`    {- jarA'ap -}          [ "courage", "boldness" ],
-
     -- ;; jaram-i_1
     -- jrm     jaram   PV      injure;wrong;bone
     -- jrm     jorim   IV      injure;wrong;bone
@@ -7022,128 +7023,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- juron -}            [ "basin", "mortar", "basins", "mortars" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'a^grAn N" ] -},
-
-    -- ;; jaraY-i_1
-    -- jrY     jaraY   PV_0    occur;happen;take place;flow
-    -- jry     jaray   PV_Atn  occur;happen;take place;flow
-    -- jr      jar     PV_ttAw occur;happen;take place;flow
-    -- jry     joriy   IV_0hAnn        occur;happen;take place;flow
-    -- jr      jor     IV_0hwnyn       occur;happen;take place;flow
-    -- jrY     joraY   IV_0_Pass_yu    occur;happen;take place;flow
-
-    FaCY                      `verb`    {- jaraY-i -}          [ "occur", "happen", "take place", "flow" ]
-                              `imperf`     FCI,
-
-    -- ;; jAraY_1
-    -- jArY    jAraY   PV_0    keep up with
-    -- jArA    jArA    PV_h    keep up with
-    -- jAry    jAray   PV_Atn  keep up with
-    -- jAr     jAr     PV_ttAw keep up with
-    -- jAry    jAriy   IV_0hAnn_yu     keep up with
-    -- jAr     jAr     IV_0hwnyn_yu    keep up with
-    -- jArY    jAraY   IV_0_Pass_yu    be kept up with
-    -- jAry    jAray   IV_Ann_Pass_yu  be kept up with
-
-    FACY                      `verb`    {- jAraY -}            [ "keep up with", "be kept up with" ],
-
-    -- ;; >ajoraY_1
-    -- >jrY    >ajoraY PV_0    conduct;carry out;perform
-    -- AjrY    >ajoraY PV_0    conduct;carry out;perform
-    -- >jrA    >ajorA  PV_h    conduct;carry out;perform
-    -- AjrA    >ajorA  PV_h    conduct;carry out;perform
-    -- >jry    >ajoray PV_Atn  conduct;carry out;perform
-    -- Ajry    >ajoray PV_Atn  conduct;carry out;perform
-    -- >jr     >ajor   PV_ttAw conduct;carry out;perform
-    -- Ajr     >ajor   PV_ttAw conduct;carry out;perform
-    -- >jry    >ujoriy PV_Pass-aAat    be conducted;be carried out;be performed
-    -- Ajry    >ujoriy PV_Pass-aAat    be conducted;be carried out;be performed
-    -- jry     joriy   IV_0hAnn_yu     conduct;carry out;perform
-    -- jr      jor     IV_0hwnyn_yu    conduct;carry out;perform
-    -- jrY     joraY   IV_0_Pass_yu    be conducted;be carried out;be performed
-    -- jry     joray   IV_Ann_Pass_yu  be conducted;be carried out;be performed
-
-    HaFCY                     `verb`    {- OajoraY -}          [ "conduct", "carry out", "perform", "be conducted", "be carried out", "be performed" ],
-
-    -- ;; majoraY_1
-    -- mjrY    majoraY N0      course;path
-    -- mjrA    majorA  Nhy     course;path
-    -- mjry    majoray NAn_Nayn        course;path
-    -- mjAry   majAriy N0_Nh   courses;paths
-    -- mjAr    majAr   NK      courses;paths
-
-    MaFCY                     `noun`    {- majoraY -}          [ "course", "path", "courses", "paths" ]
-                              `plural`     MaFACI
-                           {- `others`  [ "ma^gAriy N0_Nh" ] -},
-
-    -- ;; mujArAp_1
-    -- mjArA   mujArA  Nap     conformity
-
-    MuFACY |< aT              `noun`    {- mujArAp -}          [ "conformity" ],
-
-    -- ;; mujArApF_1
-    -- mjArAp  mujArApF        FW-Wa   in conformity;in accordance
-
-    MuFACY |< aT |< aN        `noun`    {- mujArApF -}         [ "in conformity", "in accordance" ],
-
-    -- ;; <ijorA'_1
-    -- <jrA'   <ijorA' N0_Nh   conducting;undertaking;carrying out
-    -- AjrA'   <ijorA' N0_Nh   conducting;undertaking;carrying out
-    -- <jrA&   <ijorA& Nh      conducting;undertaking;carrying out
-    -- AjrA&   <ijorA& Nh      conducting;undertaking;carrying out
-    -- <jrA}   <ijorA} Nhy     conducting;undertaking;carrying out
-    -- AjrA}   <ijorA} Nhy     conducting;undertaking;carrying out
-
-    HiFCA'                    `noun`    {- IijorA' -}          [ "conducting", "undertaking", "carrying out" ],
-
-    -- ;; <ijorA'_2
-    -- <jrA'   <ijorA' N0_Nh   process;measure
-    -- AjrA'   <ijorA' N0_Nh   process;measure
-    -- <jrA&   <ijorA& Nh      process;measure
-    -- AjrA&   <ijorA& Nh      process;measure
-    -- <jrA}   <ijorA} Nhy     process;measure
-    -- AjrA}   <ijorA} Nhy     process;measure
-
-    HiFCA'                    `noun`    {- IijorA' -}          [ "process", "measure" ],
-
-    -- ;; <ijorA'_3
-    -- <jrA'   <ijorA' NAn_Nayn        measures;steps
-    -- AjrA'   <ijorA' NAn_Nayn        measures;steps
-    -- <jrA}   <ijorA} Nayn    measures;steps
-    -- AjrA}   <ijorA} Nayn    measures;steps
-    -- <jrA'   <ijorA' NAt     measures;steps
-    -- AjrA'   <ijorA' NAt     measures;steps
-
-    HiFCA'                    `noun`    {- IijorA' -}          [ "measures", "steps" ],
-
-    -- ;; <ijorA}iy~_1
-    -- <jrA}y  <ijorA}iy~      Nall    operational     [[<ijorA}iy~/ADJ]]
-    -- AjrA}y  <ijorA}iy~      Nall    operational     [[<ijorA}iy~/ADJ]]
-
-    HiFCA' |< Iy              `adj`     {- IijorA}iy~ -}       [ "operational" ],
-
-    -- ;; jAriyAF_1
-    -- jAry    jAriy   NF      occurring;happening;flowing
-
-    FACI |< aN                `noun`    {- jAriyAF -}          [ "occurring", "happening", "flowing" ]
-                              `plural`     FACI
-                           {- `others`  [ "^gAriy NF" ] -},
-
-    -- ;; jAriy_1
-    -- jAry    jAriy   N0      current;present;proceeding;taking place     [[jAriy/ADJ]]
-    -- jAr     jAr     NK      current;present;proceeding;taking place     [[jAr/ADJ]]
-    -- jAry    jAriy   NAn_Nayn        current;present;proceeding;taking place     [[jAriy/ADJ]]
-    -- jAr     jAr     Nuwn_Niyn       current;present;proceeding;taking place     [[jAr/ADJ]]
-    -- jAry    jAriy   NapAt   current;present;proceeding;taking place     [[jAriy/ADJ]]
-
-    FACI                      `adj`     {- jAriy -}            [ "current", "present", "proceeding", "taking place" ],
-
-    -- ;; jAriyap_1
-    -- jAry    jAriy   NapAt   housemaid
-    -- jwAry   jawAriy N0_Nh   maids
-    -- jwAr    jawAr   NK      maids
-
-    FACI |< aT                `noun`    {- jAriyap -}          [ "housemaid", "maids" ] ]
+                           {- `others`  [ "'a^grAn N" ] -} ]
 
  |> "^g r n l" <| [
 
@@ -7338,6 +7218,52 @@ lexicon = listing "Lexicon's properties"
 
  |> "^g r y" <| [
 
+    -- ;; jarA'ap_1
+    -- jrA'    jarA'   Nap     courage;boldness
+
+    FaCA' |< aT               `noun`    {- jarA'ap -}          [ "courage", "boldness" ],
+
+    -- ;; jaraY-i_1
+    -- jrY     jaraY   PV_0    occur;happen;take place;flow
+    -- jry     jaray   PV_Atn  occur;happen;take place;flow
+    -- jr      jar     PV_ttAw occur;happen;take place;flow
+    -- jry     joriy   IV_0hAnn        occur;happen;take place;flow
+    -- jr      jor     IV_0hwnyn       occur;happen;take place;flow
+    -- jrY     joraY   IV_0_Pass_yu    occur;happen;take place;flow
+
+    FaCY                      `verb`    {- jaraY-i -}          [ "occur", "happen", "take place", "flow" ]
+                              `imperf`     FCI,
+
+    -- ;; jAraY_1
+    -- jArY    jAraY   PV_0    keep up with
+    -- jArA    jArA    PV_h    keep up with
+    -- jAry    jAray   PV_Atn  keep up with
+    -- jAr     jAr     PV_ttAw keep up with
+    -- jAry    jAriy   IV_0hAnn_yu     keep up with
+    -- jAr     jAr     IV_0hwnyn_yu    keep up with
+    -- jArY    jAraY   IV_0_Pass_yu    be kept up with
+    -- jAry    jAray   IV_Ann_Pass_yu  be kept up with
+
+    FACY                      `verb`    {- jAraY -}            [ "keep up with", "be kept up with" ],
+
+    -- ;; >ajoraY_1
+    -- >jrY    >ajoraY PV_0    conduct;carry out;perform
+    -- AjrY    >ajoraY PV_0    conduct;carry out;perform
+    -- >jrA    >ajorA  PV_h    conduct;carry out;perform
+    -- AjrA    >ajorA  PV_h    conduct;carry out;perform
+    -- >jry    >ajoray PV_Atn  conduct;carry out;perform
+    -- Ajry    >ajoray PV_Atn  conduct;carry out;perform
+    -- >jr     >ajor   PV_ttAw conduct;carry out;perform
+    -- Ajr     >ajor   PV_ttAw conduct;carry out;perform
+    -- >jry    >ujoriy PV_Pass-aAat    be conducted;be carried out;be performed
+    -- Ajry    >ujoriy PV_Pass-aAat    be conducted;be carried out;be performed
+    -- jry     joriy   IV_0hAnn_yu     conduct;carry out;perform
+    -- jr      jor     IV_0hwnyn_yu    conduct;carry out;perform
+    -- jrY     joraY   IV_0_Pass_yu    be conducted;be carried out;be performed
+    -- jry     joray   IV_Ann_Pass_yu  be conducted;be carried out;be performed
+
+    HaFCY                     `verb`    {- OajoraY -}          [ "conduct", "carry out", "perform", "be conducted", "be carried out", "be performed" ],
+
     -- ;; jaroy_1
     -- jry     jaroy   N       course
 
@@ -7352,6 +7278,73 @@ lexicon = listing "Lexicon's properties"
     -- jryAn   jarayAn N       flow;course
 
     FaCaLAn                   `noun`    {- jarayAn -}          [ "flow", "course" ],
+
+    -- ;; majoraY_1
+    -- mjrY    majoraY N0      course;path
+    -- mjrA    majorA  Nhy     course;path
+    -- mjry    majoray NAn_Nayn        course;path
+    -- mjAry   majAriy N0_Nh   courses;paths
+    -- mjAr    majAr   NK      courses;paths
+
+    MaFCY                     `noun`    {- majoraY -}          [ "course", "path", "courses", "paths" ]
+                              `plural`     MaFCaL
+                              `plural`     MaFACiL
+                              `plural`     MaFACI
+                           {- `others`  [ "ma^gray NAn_Nayn", "ma^gAriy N0_Nh" ] -},
+
+    -- ;; mujArAp_1
+    -- mjArA   mujArA  Nap     conformity
+
+    MuFACY |< aT              `noun`    {- mujArAp -}          [ "conformity" ],
+
+    -- ;; mujArApF_1
+    -- mjArAp  mujArApF        FW-Wa   in conformity;in accordance
+
+    MuFACY |< aT |< aN        `noun`    {- mujArApF -}         [ "in conformity", "in accordance" ],
+
+    -- ;; <ijorA'_1
+    -- <jrA'   <ijorA' N0_Nh   conducting;undertaking;carrying out
+    -- AjrA'   <ijorA' N0_Nh   conducting;undertaking;carrying out
+    -- <jrA&   <ijorA& Nh      conducting;undertaking;carrying out
+    -- AjrA&   <ijorA& Nh      conducting;undertaking;carrying out
+    -- <jrA}   <ijorA} Nhy     conducting;undertaking;carrying out
+    -- AjrA}   <ijorA} Nhy     conducting;undertaking;carrying out
+
+    HiFCA'                    `noun`    {- IijorA' -}          [ "conducting", "undertaking", "carrying out" ],
+
+    -- ;; <ijorA'_2
+    -- <jrA'   <ijorA' N0_Nh   process;measure
+    -- AjrA'   <ijorA' N0_Nh   process;measure
+    -- <jrA&   <ijorA& Nh      process;measure
+    -- AjrA&   <ijorA& Nh      process;measure
+    -- <jrA}   <ijorA} Nhy     process;measure
+    -- AjrA}   <ijorA} Nhy     process;measure
+
+    HiFCA'                    `noun`    {- IijorA' -}          [ "process", "measure" ],
+
+    -- ;; <ijorA'_3
+    -- <jrA'   <ijorA' NAn_Nayn        measures;steps
+    -- AjrA'   <ijorA' NAn_Nayn        measures;steps
+    -- <jrA}   <ijorA} Nayn    measures;steps
+    -- AjrA}   <ijorA} Nayn    measures;steps
+    -- <jrA'   <ijorA' NAt     measures;steps
+    -- AjrA'   <ijorA' NAt     measures;steps
+
+    HiFCA'                    `noun`    {- IijorA' -}          [ "measures", "steps" ],
+
+    -- ;; <ijorA}iy~_1
+    -- <jrA}y  <ijorA}iy~      Nall    operational     [[<ijorA}iy~/ADJ]]
+    -- AjrA}y  <ijorA}iy~      Nall    operational     [[<ijorA}iy~/ADJ]]
+
+    HiFCA' |< Iy              `adj`     {- IijorA}iy~ -}       [ "operational" ],
+
+    -- ;; jAriyAF_1
+    -- jAry    jAriy   NF      occurring;happening;flowing
+
+    FACI |< aN                `noun`    {- jAriyAF -}          [ "occurring", "happening", "flowing" ]
+                              `plural`     FACiL
+                              `plural`     FACI
+                           {- `others`  [ "^gAriy NF" ] -},
 
     -- ;; jAriyAF_1
     -- jAry    jAriy   NF      occurring;happening;flowing
@@ -7368,7 +7361,25 @@ lexicon = listing "Lexicon's properties"
     -- jAr     jAr     Nuwn_Niyn       current;present;proceeding;taking place     [[jAr/ADJ]]
     -- jAry    jAriy   NapAt   current;present;proceeding;taking place     [[jAriy/ADJ]]
 
+    FACI                      `adj`     {- jAriy -}            [ "current", "present", "proceeding", "taking place" ],
+
+    -- ;; jAriy_1
+    -- jAry    jAriy   N0      current;present;proceeding;taking place     [[jAriy/ADJ]]
+    -- jAr     jAr     NK      current;present;proceeding;taking place     [[jAr/ADJ]]
+    -- jAry    jAriy   NAn_Nayn        current;present;proceeding;taking place     [[jAriy/ADJ]]
+    -- jAr     jAr     Nuwn_Niyn       current;present;proceeding;taking place     [[jAr/ADJ]]
+    -- jAry    jAriy   NapAt   current;present;proceeding;taking place     [[jAriy/ADJ]]
+
     FACiL                     `adj`     {- jAriy -}            [ "current", "present", "proceeding", "taking place" ],
+
+    -- ;; jAriyap_1
+    -- jAry    jAriy   NapAt   housemaid
+    -- jwAry   jawAriy N0_Nh   maids
+    -- jwAr    jawAr   NK      maids
+
+    FACI |< aT                `noun`    {- jAriyap -}          [ "housemaid", "maids" ]
+                              `plural`     FawACiL
+                           {- `others`  [ "^gawAriy N0_Nh" ] -},
 
     -- ;; jAriyap_1
     -- jAry    jAriy   NapAt   housemaid
@@ -7773,11 +7784,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "^g t r" <| [
 
-    -- ;; jatA_1
-    -- jtA     jatA    N0      cosine
-
-    FaCA                      `noun`    {- jatA -}             [ "cosine" ],
-
     -- ;; {ijotar~_1
     -- <jtr    {ijotar~        PV_V    ruminate;repeat
     -- Ajtr    {ijotar~        PV_V    ruminate;repeat
@@ -7801,6 +7807,11 @@ lexicon = listing "Lexicon's properties"
     IFCaLL                    `verb`    {- Aijotas~ -}         [ "feel", "handle", "reconnoiter" ] ]
 
  |> "^g t y" <| [
+
+    -- ;; jatA_1
+    -- jtA     jatA    N0      cosine
+
+    FaCA                      `noun`    {- jatA -}             [ "cosine" ],
 
     -- ;; jitAyap_1
     -- jtAy    jitAy   NapAt   head-scarf
@@ -9648,103 +9659,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; jAzuwn_1
     -- jAzwn   jAzuwn  N       lawn
 
-    FACUL                     `noun`    {- jAzuwn -}           [ "lawn" ],
-
-    -- ;; {ijotizA'_1
-    -- AjtzA'  {ijotizA'       N0_Nh   being content;being sufficient
-    -- AjtzA&  {ijotizA&       Nh      being content;being sufficient
-    -- AjtzA}  {ijotizA}       Nhy     being content;being sufficient
-    -- AjtzA'  {ijotizA'       NAn_Nayn        being content;being sufficient
-    -- AjtzA}  {ijotizA}       Nayn    being content;being sufficient
-    -- AjtzA'  {ijotizA'       NAt     being content;being sufficient
-    -- <jtzA'  {ijotizA'       N0_Nh   being content;being sufficient
-    -- <jtzA&  {ijotizA&       Nh      being content;being sufficient
-    -- <jtzA}  {ijotizA}       Nhy     being content;being sufficient
-    -- <jtzA'  {ijotizA'       NAn_Nayn        being content;being sufficient
-    -- <jtzA}  {ijotizA}       Nayn    being content;being sufficient
-    -- <jtzA'  {ijotizA'       NAt     being content;being sufficient
-
-    IFtiCA'                   `noun`    {- AijotizA' -}        [ "being content", "being sufficient" ],
-
-    -- ;; jazaY-i_1
-    -- jzY     jazaY   PV_0    reward;repay;requite
-    -- jzA     jazA    PV_h    reward;repay;requite
-    -- jzy     jazay   PV_Atn  reward;repay;requite
-    -- jz      jaz     PV_ttAw reward;repay;requite
-    -- jzy     joziy   IV_0hAnn        reward;repay;requite
-    -- jz      joz     IV_0hwnyn       reward;repay;requite
-    -- jzY     jozaY   IV_0_Pass_yu    be rewarded;be repaid;be requited
-
-    FaCY                      `verb`    {- jazaY-i -}          [ "reward", "repay", "requite", "be rewarded", "be repaid", "be requited" ]
-                              `imperf`     FCI,
-
-    -- ;; jAzaY_1
-    -- jAzY    jAzaY   PV_0    sanction;reward;punish
-    -- jAzA    jAzA    PV_h    sanction;reward;punish
-    -- jAzy    jAzay   PV_Atn  sanction;reward;punish
-    -- jAz     jAz     PV_ttAw sanction;reward;punish
-    -- jAzy    jAziy   IV_0hAnn_yu     sanction;reward;punish
-    -- jAz     jAz     IV_0hwnyn_yu    sanction;reward;punish
-    -- jAzY    jAzaY   IV_0_Pass_yu    be sanctioned;be rewarded;be punished
-    -- jAzy    jAzay   IV_Ann_Pass_yu  be sanctioned;be rewarded;be punished
-
-    FACY                      `verb`    {- jAzaY -}            [ "sanction", "reward", "punish", "be sanctioned", "be rewarded", "be punished" ],
-
-    -- ;; >ajozaY_1
-    -- >jzY    >ajozaY PV_0    suffice;replace
-    -- AjzY    >ajozaY PV_0    suffice;replace
-    -- >jzA    >ajozA  PV_h    suffice;replace
-    -- AjzA    >ajozA  PV_h    suffice;replace
-    -- >jzy    >ajozay PV_Atn  suffice;replace
-    -- Ajzy    >ajozay PV_Atn  suffice;replace
-    -- >jz     >ajoz   PV_ttAw suffice;replace
-    -- Ajz     >ajoz   PV_ttAw suffice;replace
-    -- jzy     joziy   IV_0hAnn_yu     suffice;replace
-    -- jz      joz     IV_0hwnyn_yu    suffice;replace
-    -- jzY     jozaY   IV_0_Pass_yu    be replaced
-    -- jzy     jozay   IV_Ann_Pass_yu  be replaced
-
-    HaFCY                     `verb`    {- OajozaY -}          [ "suffice", "replace", "be replaced" ],
-
-    -- ;; jazA'_1
-    -- jzA'    jazA'   N0_Nh   reward;punishment;penalty
-    -- jzA&    jazA&   Nh      reward;punishment;penalty
-    -- jzA}    jazA}   Nhy     reward;punishment;penalty
-
-    FaCA'                     `noun`    {- jazA' -}            [ "reward", "punishment", "penalty" ],
-
-    -- ;; jazA}iy~_1
-    -- jzA}y   jazA}iy~        Nall    penal     [[jazA}iy~/ADJ]]
-
-    FaCA' |< Iy               `adj`     {- jazA}iy~ -}         [ "penal" ],
-
-    -- ;; jizaY_1
-    -- jzY     jizaY   N0      taxes
-    -- jzA     jizA    Nhy     taxes
-    -- jzA'    jizA'   N0_Nh   taxes
-    -- jzA&    jizA&   Nh      taxes
-    -- jzA}    jizA}   Nhy     taxes
-
-    FiCY                      `noun`    {- jizaY -}            [ "taxes" ]
-                              `plural`     FiCA'
-                           {- `others`  [ "^gizA' Nh N0_Nh Nhy" ] -},
-
-    -- ;; mujAzAp_1
-    -- mjAzA   mujAzA  Napdu   repayment;punishment
-    -- mjAzy   mujAzay NAt     repayments;punishments
-
-    MuFACY |< aT              `noun`    {- mujAzAp -}          [ "repayment", "punishment", "repayments", "punishments" ],
-
-    -- ;; mujAziy_1
-    -- mjAzy   mujAziy N0F_Nh  remunerator
-    -- mjAz    mujAz   NK      remunerator
-
-    MuFACI                    `noun`    {- mujAziy -}          [ "remunerator" ],
-
-    -- ;; mujAziy_2
-    -- mjAzy   mujAziy N0      Mugazi
-
-    MuFACI                    `noun`    {- mujAziy -}          [ "Mugazi" ] ]
+    FACUL                     `noun`    {- jAzuwn -}           [ "lawn" ] ]
 
  |> "^g z r" <| [
 
@@ -9829,21 +9744,118 @@ lexicon = listing "Lexicon's properties"
 
  |> "^g z y" <| [
 
+    -- ;; {ijotizA'_1
+    -- AjtzA'  {ijotizA'       N0_Nh   being content;being sufficient
+    -- AjtzA&  {ijotizA&       Nh      being content;being sufficient
+    -- AjtzA}  {ijotizA}       Nhy     being content;being sufficient
+    -- AjtzA'  {ijotizA'       NAn_Nayn        being content;being sufficient
+    -- AjtzA}  {ijotizA}       Nayn    being content;being sufficient
+    -- AjtzA'  {ijotizA'       NAt     being content;being sufficient
+    -- <jtzA'  {ijotizA'       N0_Nh   being content;being sufficient
+    -- <jtzA&  {ijotizA&       Nh      being content;being sufficient
+    -- <jtzA}  {ijotizA}       Nhy     being content;being sufficient
+    -- <jtzA'  {ijotizA'       NAn_Nayn        being content;being sufficient
+    -- <jtzA}  {ijotizA}       Nayn    being content;being sufficient
+    -- <jtzA'  {ijotizA'       NAt     being content;being sufficient
+
+    IFtiCA'                   `noun`    {- AijotizA' -}        [ "being content", "being sufficient" ],
+
+    -- ;; jazaY-i_1
+    -- jzY     jazaY   PV_0    reward;repay;requite
+    -- jzA     jazA    PV_h    reward;repay;requite
+    -- jzy     jazay   PV_Atn  reward;repay;requite
+    -- jz      jaz     PV_ttAw reward;repay;requite
+    -- jzy     joziy   IV_0hAnn        reward;repay;requite
+    -- jz      joz     IV_0hwnyn       reward;repay;requite
+    -- jzY     jozaY   IV_0_Pass_yu    be rewarded;be repaid;be requited
+
+    FaCY                      `verb`    {- jazaY-i -}          [ "reward", "repay", "requite", "be rewarded", "be repaid", "be requited" ]
+                              `imperf`     FCI,
+
+    -- ;; jAzaY_1
+    -- jAzY    jAzaY   PV_0    sanction;reward;punish
+    -- jAzA    jAzA    PV_h    sanction;reward;punish
+    -- jAzy    jAzay   PV_Atn  sanction;reward;punish
+    -- jAz     jAz     PV_ttAw sanction;reward;punish
+    -- jAzy    jAziy   IV_0hAnn_yu     sanction;reward;punish
+    -- jAz     jAz     IV_0hwnyn_yu    sanction;reward;punish
+    -- jAzY    jAzaY   IV_0_Pass_yu    be sanctioned;be rewarded;be punished
+    -- jAzy    jAzay   IV_Ann_Pass_yu  be sanctioned;be rewarded;be punished
+
+    FACY                      `verb`    {- jAzaY -}            [ "sanction", "reward", "punish", "be sanctioned", "be rewarded", "be punished" ],
+
+    -- ;; >ajozaY_1
+    -- >jzY    >ajozaY PV_0    suffice;replace
+    -- AjzY    >ajozaY PV_0    suffice;replace
+    -- >jzA    >ajozA  PV_h    suffice;replace
+    -- AjzA    >ajozA  PV_h    suffice;replace
+    -- >jzy    >ajozay PV_Atn  suffice;replace
+    -- Ajzy    >ajozay PV_Atn  suffice;replace
+    -- >jz     >ajoz   PV_ttAw suffice;replace
+    -- Ajz     >ajoz   PV_ttAw suffice;replace
+    -- jzy     joziy   IV_0hAnn_yu     suffice;replace
+    -- jz      joz     IV_0hwnyn_yu    suffice;replace
+    -- jzY     jozaY   IV_0_Pass_yu    be replaced
+    -- jzy     jozay   IV_Ann_Pass_yu  be replaced
+
+    HaFCY                     `verb`    {- OajozaY -}          [ "suffice", "replace", "be replaced" ],
+
+    -- ;; jazA'_1
+    -- jzA'    jazA'   N0_Nh   reward;punishment;penalty
+    -- jzA&    jazA&   Nh      reward;punishment;penalty
+    -- jzA}    jazA}   Nhy     reward;punishment;penalty
+
+    FaCA'                     `noun`    {- jazA' -}            [ "reward", "punishment", "penalty" ],
+
+    -- ;; jazA}iy~_1
+    -- jzA}y   jazA}iy~        Nall    penal     [[jazA}iy~/ADJ]]
+
+    FaCA' |< Iy               `adj`     {- jazA}iy~ -}         [ "penal" ],
+
     -- ;; jizoyap_1
     -- jzy     jizoy   Nap     tax;tribute
 
     FiCL |< aT                `noun`    {- jizoyap -}          [ "tax", "tribute" ],
+
+    -- ;; jizaY_1
+    -- jzY     jizaY   N0      taxes
+    -- jzA     jizA    Nhy     taxes
+    -- jzA'    jizA'   N0_Nh   taxes
+    -- jzA&    jizA&   Nh      taxes
+    -- jzA}    jizA}   Nhy     taxes
+
+    FiCY                      `noun`    {- jizaY -}            [ "taxes" ]
+                              `plural`     FiCA'
+                           {- `others`  [ "^gizA' Nh N0_Nh Nhy" ] -},
 
     -- ;; tajoziyap_1
     -- tjzy    tajoziy NapAt   reward
 
     TaFCiL |< aT              `noun`    {- tajoziyap -}        [ "reward" ],
 
+    -- ;; mujAzAp_1
+    -- mjAzA   mujAzA  Napdu   repayment;punishment
+    -- mjAzy   mujAzay NAt     repayments;punishments
+
+    MuFACY |< aT              `noun`    {- mujAzAp -}          [ "repayment", "punishment", "repayments", "punishments" ]
+                              `plural`     MuFACaL |< At,
+
+    -- ;; mujAziy_1
+    -- mjAzy   mujAziy N0F_Nh  remunerator
+    -- mjAz    mujAz   NK      remunerator
+
+    MuFACI                    `noun`    {- mujAziy -}          [ "remunerator" ],
+
     -- ;; mujAziy_1
     -- mjAzy   mujAziy N0F_Nh  remunerator
     -- mjAz    mujAz   NK      remunerator
 
     MuFACiL                   `noun`    {- mujAziy -}          [ "remunerator" ],
+
+    -- ;; mujAziy_2
+    -- mjAzy   mujAziy N0      Mugazi
+
+    MuFACI                    `noun`    {- mujAziy -}          [ "Mugazi" ],
 
     -- ;; mujAziy_2
     -- mjAzy   mujAziy N0      Mugazi

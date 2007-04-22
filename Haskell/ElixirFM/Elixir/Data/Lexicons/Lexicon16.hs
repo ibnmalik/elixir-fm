@@ -450,7 +450,9 @@ lexicon = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- Tun~ -}             [ "ton", "tons" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'a.tnAn N" ] -},
+                           {- `others`  [ "'a.tnAn N" ] -} ]
+
+ |> ".t n y" <| [
 
     FUCI                      `noun`    {- Tuwniy -}           [ "Tony" ] ]
 

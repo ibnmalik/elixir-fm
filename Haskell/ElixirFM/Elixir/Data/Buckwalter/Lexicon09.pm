@@ -58,6 +58,9 @@ $Lexicon = {
         '_dawiy' => [
           'FaCI'
         ],
+        '_diy' => [
+          'FI'
+        ],
         '_dawA' => [
           'FaCA'
         ]

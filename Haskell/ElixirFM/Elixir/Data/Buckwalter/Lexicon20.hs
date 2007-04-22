@@ -5190,7 +5190,9 @@ lexicon = listing "Lexicon's properties"
     -- ;; famiy~_1
     -- fmy     famiy~  N-ap    oral;buccal     [[famiy~/ADJ]]
 
-    FaL |< Iy                 `adj`     {- famiy~ -}           [ "oral", "buccal" ],
+    FaL |< Iy                 `adj`     {- famiy~ -}           [ "oral", "buccal" ] ]
+
+ |> "f m y" <| [
 
     -- ;; famawiy~_1
     -- fmwy    famawiy~        Nall    oral;buccal     [[famawiy~/ADJ]]
@@ -11119,7 +11121,14 @@ lexicon = listing "Lexicon's properties"
     -- fy      fiy     FW-Wa-y in       [[fiy/PREP]]
     -- fY      fiy     FW-Wa   in       [[fiy/PREP]]
 
-    FiL                       `noun`    {- fiy -}              [ "in" ] ]
+    FiL                       `noun`    {- fiy -}              [ "in" ],
+
+    -- ;; fiy_1
+    -- fy      fiy     FW-Wa   in       [[fiy/PREP]]
+    -- fy      fiy     FW-Wa-y in       [[fiy/PREP]]
+    -- fY      fiy     FW-Wa   in       [[fiy/PREP]]
+
+    FI                        `noun`    {- fiy -}              [ "in" ] ]
 
  |> "f y z" <| [
 

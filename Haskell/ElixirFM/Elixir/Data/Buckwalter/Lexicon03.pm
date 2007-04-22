@@ -1056,54 +1056,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  't n q' => [
-    {
-      'types' => {
-        'tuwniy' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'tuwniy',
-      'form' => 'tuwniy',
-      'lines' => [
-        ';; tuwniy_1',
-        'twny    tuwniy  Nprop   Toni'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCI',
-      'suffix' => '',
-      'glosses' => [
-        'Toni'
-      ],
-      'orig' => 'tuwniy',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'tuwniy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => 'tuwniy',
-      'form' => 'tuwniy',
-      'lines' => [
-        ';; tuwniy_2',
-        'twny    tuwniy  N0      Toni'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FUCI',
-      'suffix' => '',
-      'glosses' => [
-        'Toni'
-      ],
-      'orig' => 'tuwniy',
-      'prefix' => ''
-    }
-  ],
   'timbarwuwlfz' => [
     {
       'types' => {
@@ -3124,31 +3076,6 @@ $Lexicon = {
         'Torino'
       ],
       'orig' => 'tuwriynuw',
-      'prefix' => ''
-    }
-  ],
-  't m q' => [
-    {
-      'types' => {
-        'tuwmiy' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => 'tuwmiy',
-      'form' => 'tuwmiy',
-      'lines' => [
-        ';; tuwmiy_1',
-        'twmy    tuwmiy  Nprop   Tommy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCI',
-      'suffix' => '',
-      'glosses' => [
-        'Tommy'
-      ],
-      'orig' => 'tuwmiy',
       'prefix' => ''
     }
   ],
@@ -6066,6 +5993,54 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  't n y' => [
+    {
+      'types' => {
+        'tuwniy' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'tuwniy',
+      'form' => 'tuwniy',
+      'lines' => [
+        ';; tuwniy_1',
+        'twny    tuwniy  Nprop   Toni'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCI',
+      'suffix' => '',
+      'glosses' => [
+        'Toni'
+      ],
+      'orig' => 'tuwniy',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'tuwniy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => 'tuwniy',
+      'form' => 'tuwniy',
+      'lines' => [
+        ';; tuwniy_2',
+        'twny    tuwniy  N0      Toni'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FUCI',
+      'suffix' => '',
+      'glosses' => [
+        'Toni'
+      ],
+      'orig' => 'tuwniy',
+      'prefix' => ''
+    }
+  ],
   'tuwn^g' => [
     {
       'types' => {
@@ -7416,6 +7391,236 @@ $Lexicon = {
   't l y' => [
     {
       'types' => {
+        'tluw' => {
+          'IV_0hAnn' => 1
+        },
+        'tal' => {
+          'PV_ttAw' => 1
+        },
+        'tlY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        'tl' => {
+          'IV_0hwnyn' => 1
+        },
+        'talaw' => {
+          'PV_Atn' => 1
+        },
+        'tlay' => {
+          'IV_Ann_Pass_yu' => 1
+        },
+        'talA' => {}
+      },
+      'entry' => 'talA',
+      'form' => 'talA',
+      'lines' => [
+        ';; talA-u_1',
+        'tlA     talA    PV_0h   follow;recite',
+        'tlw     talaw   PV_Atn  follow;recite',
+        'tl      tal     PV_ttAw follow;recite',
+        'tlw     toluw   IV_0hAnn        follow;recite',
+        'tl      tol     IV_0hwnyn       follow;recite',
+        'tlY     tolaY   IV_0_Pass_yu    be followed;be recited',
+        'tly     tolay   IV_Ann_Pass_yu  be followed;be recited'
+      ],
+      'patterns' => {
+        'tluw' => [
+          'FCU'
+        ],
+        'tlY' => [
+          'FCY'
+        ],
+        'tlay' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCA',
+      'glosses' => [
+        'follow',
+        'recite',
+        'be followed',
+        'be recited'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'talA-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'tl' => {
+          'IV_0hwnyn_yu' => 1
+        },
+        'tliy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '\'atlA' => {
+          'PV_h' => 2
+        },
+        'tlay' => {
+          'IV_Ann_Pass_yu' => 1
+        },
+        '\'atl' => {
+          'PV_ttAw' => 2
+        },
+        'tlY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '\'atlY' => {},
+        '\'atlay' => {
+          'PV_Atn' => 2
+        }
+      },
+      'entry' => '\'atlY',
+      'form' => '\'atlY',
+      'lines' => [
+        ';; >atolaY_1',
+        '>tlY    >atolaY PV_0    make follow;put next',
+        'AtlY    >atolaY PV_0    make follow;put next',
+        '>tlA    >atolA  PV_h    make follow;put next',
+        'AtlA    >atolA  PV_h    make follow;put next',
+        '>tly    >atolay PV_Atn  make follow;put next',
+        'Atly    >atolay PV_Atn  make follow;put next',
+        '>tl     >atol   PV_ttAw make follow;put next',
+        'Atl     >atol   PV_ttAw make follow;put next',
+        'tly     toliy   IV_0hAnn_yu     make follow;put next',
+        'tl      tol     IV_0hwnyn_yu    make follow;put next',
+        'tlY     tolaY   IV_0_Pass_yu    be made to follow;be put next',
+        'tly     tolay   IV_Ann_Pass_yu  be made to follow;be put next'
+      ],
+      'patterns' => {
+        'tlY' => [
+          'FCY'
+        ],
+        'tliy' => [
+          'FCiL',
+          'FCI'
+        ],
+        '\'atlay' => [
+          'HaFCaL'
+        ],
+        'tlay' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCY',
+      'suffix' => '',
+      'glosses' => [
+        'make follow',
+        'put next',
+        'be made to follow',
+        'be put next'
+      ],
+      'orig' => 'OatolaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'tatAlY' => {},
+        'tatAl' => {
+          'IV_0hwnyn' => 1,
+          'PV_ttAw' => 1
+        },
+        'tatAlay' => {
+          'PV_Atn' => 1,
+          'IV_Ann' => 1
+        },
+        'tatAlA' => {
+          'PV_h' => 1,
+          'IV_h' => 1
+        }
+      },
+      'entry' => 'tatAlY',
+      'form' => 'tatAlY',
+      'lines' => [
+        ';; tatAlaY_1',
+        'ttAlY   tatAlaY PV_0    follow one another;be successive',
+        'ttAlA   tatAlA  PV_h    follow one another;be successive',
+        'ttAly   tatAlay PV_Atn  follow one another;be successive',
+        'ttAl    tatAl   PV_ttAw follow one another;be successive',
+        'ttAlY   tatAlaY IV_0    follow one another;be successive',
+        'ttAlA   tatAlA  IV_h    follow one another;be successive',
+        'ttAly   tatAlay IV_Ann  follow one another;be successive',
+        'ttAl    tatAl   IV_0hwnyn       follow one another;be successive'
+      ],
+      'patterns' => {
+        'tatAlay' => [
+          'TaFACaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFACY',
+      'suffix' => '',
+      'glosses' => [
+        'follow one another',
+        'be successive'
+      ],
+      'orig' => 'tatAlaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'istatl' => {
+          'PV_ttAw' => 2
+        },
+        'statliy' => {
+          'IV_0hAnn' => 1
+        },
+        'statl' => {
+          'IV_0hwnyn' => 1
+        },
+        'istatlA' => {
+          'PV_h' => 2
+        },
+        'istatlY' => {},
+        'statlY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        'istatlay' => {
+          'PV_Atn' => 2
+        }
+      },
+      'entry' => 'istatlY',
+      'form' => 'istatlY',
+      'lines' => [
+        ';; {isotatolaY_1',
+        '<sttlY  {isotatolaY     PV_0    continue',
+        'AsttlY  {isotatolaY     PV_0    continue',
+        '<sttlA  {isotatolA      PV_h    continue',
+        'AsttlA  {isotatolA      PV_h    continue',
+        '<sttly  {isotatolay     PV_Atn  continue',
+        'Asttly  {isotatolay     PV_Atn  continue',
+        '<sttl   {isotatol       PV_ttAw continue',
+        'Asttl   {isotatol       PV_ttAw continue',
+        'sttly   sotatoliy       IV_0hAnn        continue',
+        'sttl    sotatol IV_0hwnyn       continue',
+        'sttlY   sotatolaY       IV_0_Pass_yu    be continued'
+      ],
+      'patterns' => {
+        'istatlay' => [
+          'IstaFCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IstaFCY',
+      'suffix' => '',
+      'glosses' => [
+        'continue',
+        'be continued'
+      ],
+      'orig' => 'AisotatolaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'tAl' => {
           'Nuwn_Niyn' => 1,
           'NK' => 1
@@ -7439,12 +7644,26 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [
         'following',
         'subsequent'
       ],
+      'orig' => 'tAliy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tAliy',
+      'form' => 'tAliy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [],
       'orig' => 'tAliy',
       'prefix' => ''
     },
@@ -7473,12 +7692,26 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MutaFACiL',
+      'morphs' => 'MutaFACI',
       'suffix' => '',
       'glosses' => [
         'consecutive',
         'successive'
       ],
+      'orig' => 'mutatAliy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mutatAliy',
+      'form' => 'mutatAliy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MutaFACiL',
+      'suffix' => '',
+      'glosses' => [],
       'orig' => 'mutatAliy',
       'prefix' => ''
     }
@@ -10026,6 +10259,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  't m y' => [
+    {
+      'types' => {
+        'tuwmiy' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'tuwmiy',
+      'form' => 'tuwmiy',
+      'lines' => [
+        ';; tuwmiy_1',
+        'twmy    tuwmiy  Nprop   Tommy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCI',
+      'suffix' => '',
+      'glosses' => [
+        'Tommy'
+      ],
+      'orig' => 'tuwmiy',
+      'prefix' => ''
+    }
+  ],
   'tiyrAnA' => [
     {
       'types' => {
@@ -11347,248 +11605,6 @@ $Lexicon = {
         'streams'
       ],
       'orig' => 'tay~Ar',
-      'prefix' => ''
-    }
-  ],
-  't l k' => [
-    {
-      'types' => {
-        'tluw' => {
-          'IV_0hAnn' => 1
-        },
-        'tal' => {
-          'PV_ttAw' => 1
-        },
-        'tlY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        'tl' => {
-          'IV_0hwnyn' => 1
-        },
-        'talaw' => {
-          'PV_Atn' => 1
-        },
-        'tlay' => {
-          'IV_Ann_Pass_yu' => 1
-        },
-        'talA' => {}
-      },
-      'entry' => 'talA',
-      'form' => 'talA',
-      'lines' => [
-        ';; talA-u_1',
-        'tlA     talA    PV_0h   follow;recite',
-        'tlw     talaw   PV_Atn  follow;recite',
-        'tl      tal     PV_ttAw follow;recite',
-        'tlw     toluw   IV_0hAnn        follow;recite',
-        'tl      tol     IV_0hwnyn       follow;recite',
-        'tlY     tolaY   IV_0_Pass_yu    be followed;be recited',
-        'tly     tolay   IV_Ann_Pass_yu  be followed;be recited'
-      ],
-      'patterns' => {
-        'tluw' => [
-          'FCU'
-        ],
-        'tlY' => [
-          'FCY'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCA',
-      'glosses' => [
-        'follow',
-        'recite',
-        'be followed',
-        'be recited'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'talA-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'tl' => {
-          'IV_0hwnyn_yu' => 1
-        },
-        'tliy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '\'atlA' => {
-          'PV_h' => 2
-        },
-        'tlay' => {
-          'IV_Ann_Pass_yu' => 1
-        },
-        '\'atl' => {
-          'PV_ttAw' => 2
-        },
-        'tlY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        '\'atlY' => {},
-        '\'atlay' => {
-          'PV_Atn' => 2
-        }
-      },
-      'entry' => '\'atlY',
-      'form' => '\'atlY',
-      'lines' => [
-        ';; >atolaY_1',
-        '>tlY    >atolaY PV_0    make follow;put next',
-        'AtlY    >atolaY PV_0    make follow;put next',
-        '>tlA    >atolA  PV_h    make follow;put next',
-        'AtlA    >atolA  PV_h    make follow;put next',
-        '>tly    >atolay PV_Atn  make follow;put next',
-        'Atly    >atolay PV_Atn  make follow;put next',
-        '>tl     >atol   PV_ttAw make follow;put next',
-        'Atl     >atol   PV_ttAw make follow;put next',
-        'tly     toliy   IV_0hAnn_yu     make follow;put next',
-        'tl      tol     IV_0hwnyn_yu    make follow;put next',
-        'tlY     tolaY   IV_0_Pass_yu    be made to follow;be put next',
-        'tly     tolay   IV_Ann_Pass_yu  be made to follow;be put next'
-      ],
-      'patterns' => {
-        'tlY' => [
-          'FCY'
-        ],
-        'tliy' => [
-          'FCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCY',
-      'suffix' => '',
-      'glosses' => [
-        'make follow',
-        'put next',
-        'be made to follow',
-        'be put next'
-      ],
-      'orig' => 'OatolaY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'tatAlY' => {},
-        'tatAl' => {
-          'IV_0hwnyn' => 1,
-          'PV_ttAw' => 1
-        },
-        'tatAlay' => {
-          'PV_Atn' => 1,
-          'IV_Ann' => 1
-        },
-        'tatAlA' => {
-          'PV_h' => 1,
-          'IV_h' => 1
-        }
-      },
-      'entry' => 'tatAlY',
-      'form' => 'tatAlY',
-      'lines' => [
-        ';; tatAlaY_1',
-        'ttAlY   tatAlaY PV_0    follow one another;be successive',
-        'ttAlA   tatAlA  PV_h    follow one another;be successive',
-        'ttAly   tatAlay PV_Atn  follow one another;be successive',
-        'ttAl    tatAl   PV_ttAw follow one another;be successive',
-        'ttAlY   tatAlaY IV_0    follow one another;be successive',
-        'ttAlA   tatAlA  IV_h    follow one another;be successive',
-        'ttAly   tatAlay IV_Ann  follow one another;be successive',
-        'ttAl    tatAl   IV_0hwnyn       follow one another;be successive'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFACY',
-      'suffix' => '',
-      'glosses' => [
-        'follow one another',
-        'be successive'
-      ],
-      'orig' => 'tatAlaY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'istatl' => {
-          'PV_ttAw' => 2
-        },
-        'statliy' => {
-          'IV_0hAnn' => 1
-        },
-        'statl' => {
-          'IV_0hwnyn' => 1
-        },
-        'istatlA' => {
-          'PV_h' => 2
-        },
-        'istatlY' => {},
-        'statlY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        'istatlay' => {
-          'PV_Atn' => 2
-        }
-      },
-      'entry' => 'istatlY',
-      'form' => 'istatlY',
-      'lines' => [
-        ';; {isotatolaY_1',
-        '<sttlY  {isotatolaY     PV_0    continue',
-        'AsttlY  {isotatolaY     PV_0    continue',
-        '<sttlA  {isotatolA      PV_h    continue',
-        'AsttlA  {isotatolA      PV_h    continue',
-        '<sttly  {isotatolay     PV_Atn  continue',
-        'Asttly  {isotatolay     PV_Atn  continue',
-        '<sttl   {isotatol       PV_ttAw continue',
-        'Asttl   {isotatol       PV_ttAw continue',
-        'sttly   sotatoliy       IV_0hAnn        continue',
-        'sttl    sotatol IV_0hwnyn       continue',
-        'sttlY   sotatolaY       IV_0_Pass_yu    be continued'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IstaFCY',
-      'suffix' => '',
-      'glosses' => [
-        'continue',
-        'be continued'
-      ],
-      'orig' => 'AisotatolaY',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'tAliy',
-      'form' => 'tAliy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'tAliy',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mutatAliy',
-      'form' => 'mutatAliy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MutaFACI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'mutatAliy',
       'prefix' => ''
     }
   ],
@@ -16674,6 +16690,12 @@ $Lexicon->{'t ^g n'}[0]{'glosses'} = $Lexicon->{'t y ^g'}[0]{'glosses'};
 $Lexicon->{'t w q'}[4]{'types'} = $Lexicon->{'t \' q'}[1]{'types'};
 $Lexicon->{'t w q'}[4]{'lines'} = $Lexicon->{'t \' q'}[1]{'lines'};
 $Lexicon->{'t w q'}[4]{'glosses'} = $Lexicon->{'t \' q'}[1]{'glosses'};
+$Lexicon->{'t l y'}[5]{'types'} = $Lexicon->{'t l y'}[4]{'types'};
+$Lexicon->{'t l y'}[5]{'lines'} = $Lexicon->{'t l y'}[4]{'lines'};
+$Lexicon->{'t l y'}[5]{'glosses'} = $Lexicon->{'t l y'}[4]{'glosses'};
+$Lexicon->{'t l y'}[7]{'types'} = $Lexicon->{'t l y'}[6]{'types'};
+$Lexicon->{'t l y'}[7]{'lines'} = $Lexicon->{'t l y'}[6]{'lines'};
+$Lexicon->{'t l y'}[7]{'glosses'} = $Lexicon->{'t l y'}[6]{'glosses'};
 $Lexicon->{'t .t w n'}[0]{'types'} = $Lexicon->{'t .t w'}[0]{'types'};
 $Lexicon->{'t .t w n'}[0]{'lines'} = $Lexicon->{'t .t w'}[0]{'lines'};
 $Lexicon->{'t .t w n'}[0]{'glosses'} = $Lexicon->{'t .t w'}[0]{'glosses'};
@@ -16692,12 +16714,6 @@ $Lexicon->{'t m s'}[0]{'glosses'} = $Lexicon->{'t w m s'}[0]{'glosses'};
 $Lexicon->{'t \' b'}[0]{'types'} = $Lexicon->{'t w b'}[6]{'types'};
 $Lexicon->{'t \' b'}[0]{'lines'} = $Lexicon->{'t w b'}[6]{'lines'};
 $Lexicon->{'t \' b'}[0]{'glosses'} = $Lexicon->{'t w b'}[6]{'glosses'};
-$Lexicon->{'t l k'}[4]{'types'} = $Lexicon->{'t l y'}[0]{'types'};
-$Lexicon->{'t l k'}[4]{'lines'} = $Lexicon->{'t l y'}[0]{'lines'};
-$Lexicon->{'t l k'}[4]{'glosses'} = $Lexicon->{'t l y'}[0]{'glosses'};
-$Lexicon->{'t l k'}[5]{'types'} = $Lexicon->{'t l y'}[1]{'types'};
-$Lexicon->{'t l k'}[5]{'lines'} = $Lexicon->{'t l y'}[1]{'lines'};
-$Lexicon->{'t l k'}[5]{'glosses'} = $Lexicon->{'t l y'}[1]{'glosses'};
 $Lexicon->{'t w n'}[2]{'types'} = $Lexicon->{'t w n'}[1]{'types'};
 $Lexicon->{'t w n'}[2]{'lines'} = $Lexicon->{'t w n'}[1]{'lines'};
 $Lexicon->{'t w n'}[2]{'glosses'} = $Lexicon->{'t w n'}[1]{'glosses'};

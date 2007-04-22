@@ -3151,12 +3151,7 @@ lexicon = listing "Lexicon's properties"
     -- lbY     lab~aY  IV_0_Pass_yu    be complied with;be carried out;be responded to
     -- lby     lab~ay  IV_Ann_Pass_yu  be complied with;be carried out;be responded to
 
-    FaCLY                     `verb`    {- lab~aY -}           [ "comply with", "carry out", "respond to", "be complied with", "be carried out", "be responded to" ],
-
-    -- ;; luwbiy_1
-    -- lwby    luwbiy  N0_L    lobby
-
-    FUCI                      `noun`    {- luwbiy -}           [ "lobby" ] ]
+    FaCLY                     `verb`    {- lab~aY -}           [ "comply with", "carry out", "respond to", "be complied with", "be carried out", "be responded to" ] ]
 
  |> "l b d" <| [
 
@@ -3715,7 +3710,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; talobiyap_1
     -- tlby    talobiy NapAt   compliance with;responding to
 
-    TaFCiL |< aT              `noun`    {- talobiyap -}        [ "compliance with", "responding to" ] ]
+    TaFCiL |< aT              `noun`    {- talobiyap -}        [ "compliance with", "responding to" ],
+
+    -- ;; luwbiy_1
+    -- lwby    luwbiy  N0_L    lobby
+
+    FUCI                      `noun`    {- luwbiy -}           [ "lobby" ] ]
 
  |> "l d '" <| [
 
@@ -6500,7 +6500,7 @@ lexicon = listing "Lexicon's properties"
 
     FACL                      `noun`    {- lArj -}             [ "Large" ] ]
 
- |> "l r d" <| [
+ |> "l r y" <| [
 
     -- ;; luwriy_1
     -- lwry    luwriy  N0_L    lorry;truck
@@ -8165,6 +8165,11 @@ lexicon = listing "Lexicon's properties"
     -- lwA     liwA    Nhy_L   turns;curves
 
     FaCL |< aT                `noun`    {- lay~ap -}           [ "turn", "curve", "turns", "curves" ],
+
+    -- ;; liy_1
+    -- ly      liy     Nprop   Lee;Li
+
+    FI                        `noun`    {- liy -}              [ "Lee", "Li" ],
 
     -- ;; liy_1
     -- ly      liy     Nprop   Lee;Li

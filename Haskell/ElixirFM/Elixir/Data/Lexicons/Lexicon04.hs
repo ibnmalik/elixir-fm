@@ -284,12 +284,6 @@ lexicon = listing "Lexicon's properties"
 
     KaRDAS                    `noun`    {- varovAr -}          [ "chatterbox", "garrulous" ] ]
 
- |> "_t r t" <| [
-
-    FaCA'                     `noun`    {- varA' -}            [ "wealth", "abundance" ],
-
-    HiFCA'                    `noun`    {- IivorA' -}          [ "enrichment" ] ]
-
  |> "_t r w" <| [
 
     FaCL |< aT                `noun`    {- varowap -}          [ "wealth", "abundance", "riches" ]
@@ -298,6 +292,12 @@ lexicon = listing "Lexicon's properties"
  |> "_t r w t" <| [
 
     KaRDaS                    `noun`    {- varowat -}          [ "Tharwat", "Sarwat" ] ]
+
+ |> "_t r y" <| [
+
+    FaCA'                     `noun`    {- varA' -}            [ "wealth", "abundance" ],
+
+    HiFCA'                    `noun`    {- IivorA' -}          [ "enrichment" ] ]
 
  |> "_t w b" <| [
 

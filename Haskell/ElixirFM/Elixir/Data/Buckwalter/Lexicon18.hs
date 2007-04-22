@@ -8762,11 +8762,6 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCL                   `adj`     {- muEotam~ -}         [ "wearing a turban" ],
 
-    -- ;; EAmiy_1
-    -- EAmy    EAmiy   Nprop   Ami
-
-    FACI                      `noun`    {- EAmiy -}            [ "Ami" ],
-
     -- ;; Eam~aY_1
     -- EmY     Eam~aY  PV_0    make blind;camouflage
     -- EmA     Eam~A   PV_h    make blind;camouflage
@@ -9086,6 +9081,11 @@ lexicon = listing "Lexicon's properties"
     FACUL                     `noun`    {- EAmuws -}           [ "Amos (prophet)" ] ]
 
  |> "` m y" <| [
+
+    -- ;; EAmiy_1
+    -- EAmy    EAmiy   Nprop   Ami
+
+    FACI                      `noun`    {- EAmiy -}            [ "Ami" ],
 
     -- ;; EAmiy_1
     -- EAmy    EAmiy   Nprop   Ami

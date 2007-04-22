@@ -1869,29 +1869,6 @@ $Lexicon = {
       ],
       'orig' => 'TAm~ap',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '.tuwmiy' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => '.tuwmiy',
-      'form' => '.tuwmiy',
-      'lines' => [
-        ';; Tuwmiy_1',
-        'Twmy    Tuwmiy  Nprop   Tommy'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCI',
-      'suffix' => '',
-      'glosses' => [
-        'Tommy'
-      ],
-      'orig' => 'Tuwmiy',
-      'prefix' => ''
     }
   ],
   '.t r ^s' => [
@@ -5464,29 +5441,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'Tan~An',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.tuwniy' => {
-          'Nprop' => 1
-        }
-      },
-      'entry' => '.tuwniy',
-      'form' => '.tuwniy',
-      'lines' => [
-        ';; Tuwniy_1',
-        'Twny    Tuwniy  Nprop   Tony'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCI',
-      'suffix' => '',
-      'glosses' => [
-        'Tony'
-      ],
-      'orig' => 'Tuwniy',
       'prefix' => ''
     }
   ],
@@ -11805,6 +11759,31 @@ $Lexicon = {
         'Tom'
       ],
       'orig' => 'Tuwm',
+      'prefix' => ''
+    }
+  ],
+  '.t n y' => [
+    {
+      'types' => {
+        '.tuwniy' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => '.tuwniy',
+      'form' => '.tuwniy',
+      'lines' => [
+        ';; Tuwniy_1',
+        'Twny    Tuwniy  Nprop   Tony'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCI',
+      'suffix' => '',
+      'glosses' => [
+        'Tony'
+      ],
+      'orig' => 'Tuwniy',
       'prefix' => ''
     }
   ],
@@ -23228,6 +23207,29 @@ $Lexicon = {
         'flowing over'
       ],
       'orig' => 'TAmiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '.tuwmiy' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => '.tuwmiy',
+      'form' => '.tuwmiy',
+      'lines' => [
+        ';; Tuwmiy_1',
+        'Twmy    Tuwmiy  Nprop   Tommy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCI',
+      'suffix' => '',
+      'glosses' => [
+        'Tommy'
+      ],
+      'orig' => 'Tuwmiy',
       'prefix' => ''
     }
   ],

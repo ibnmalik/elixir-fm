@@ -158,15 +158,6 @@ lexicon = listing "Lexicon's properties"
 
     MuKaRDaS                  `adj`     {- mutalofaz -}        [ "televised" ] ]
 
- |> "t l k" <| [
-
-    FaCA                      `verb`    {- talA-u -}           [ "follow", "recite", "be followed", "be recited" ]
-                              `imperf`     FCU,
-
-    FACI                      `adj`     {- tAliy -}            [ "following", "subsequent" ],
-
-    MutaFACI                  `noun`    {- mutatAliy -}        [ "consecutive", "successive" ] ]
-
  |> "t l l" <| [
 
     FaCL                      `noun`    {- tal~ -}             [ "Tel" ],
@@ -190,7 +181,14 @@ lexicon = listing "Lexicon's properties"
 
  |> "t l y" <| [
 
+    FaCA                      `verb`    {- talA-u -}           [ "follow", "recite", "be followed", "be recited" ]
+                              `imperf`     FCU,
+
+    FACI                      `adj`     {- tAliy -}            [ "following", "subsequent" ],
+
     FACiL                     `adj`     {- tAliy -}            [ "following", "subsequent" ],
+
+    MutaFACI                  `noun`    {- mutatAliy -}        [ "consecutive", "successive" ],
 
     MutaFACiL                 `noun`    {- mutatAliy -}        [ "consecutive", "successive" ] ]
 
@@ -221,10 +219,6 @@ lexicon = listing "Lexicon's properties"
 
     FACL                      `noun`    {- tAm~ -}             [ "complete", "concluded" ] ]
 
- |> "t m q" <| [
-
-    FUCI                      `noun`    {- tuwmiy -}           [ "Tommy" ] ]
-
  |> "t m r" <| [
 
     FACiL                     `noun`    {- tAmir -}            [ "Tamir", "Tamer" ] ]
@@ -239,6 +233,10 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADIS
                            {- `others`  [ "tamAsiy.h Ndip" ] -} ]
 
+ |> "t m y" <| [
+
+    FUCI                      `noun`    {- tuwmiy -}           [ "Tommy" ] ]
+
  |> "t m z" <| [
 
     FaCCUL                    `noun`    {- tam~uwz -}          [ "July" ] ]
@@ -251,7 +249,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCACIL
                            {- `others`  [ "tanAniyn Ndip" ] -} ]
 
- |> "t n q" <| [
+ |> "t n y" <| [
 
     FUCI                      `noun`    {- tuwniy -}           [ "Toni" ],
 

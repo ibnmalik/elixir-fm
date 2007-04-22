@@ -5985,12 +5985,7 @@ lexicon = listing "Lexicon's properties"
     -- rdY     rad~aY  IV_0_Pass_yu    be struck down;be annihilated
     -- rdy     rad~ay  IV_Ann_Pass_yu  be struck down;be annihilated
 
-    FaCLY                     `verb`    {- rad~aY -}           [ "make fall", "annihilate", "be struck down", "be annihilated" ],
-
-    -- ;; ruwdiy_1
-    -- rwdy    ruwdiy  Nprop   Rudi
-
-    FUCI                      `noun`    {- ruwdiy -}           [ "Rudi" ] ]
+    FaCLY                     `verb`    {- rad~aY -}           [ "make fall", "annihilate", "be struck down", "be annihilated" ] ]
 
  |> "r d f" <| [
 
@@ -6271,7 +6266,12 @@ lexicon = listing "Lexicon's properties"
     -- mtrd    mutarad~        Nuwn_Niyn       deteriorating;worsened
     -- mtrdy   mutarad~iy      NapAt   deteriorating;worsened
 
-    MutaFaCCiL                `noun`    {- mutarad~iy -}       [ "deteriorating", "worsened" ] ]
+    MutaFaCCiL                `noun`    {- mutarad~iy -}       [ "deteriorating", "worsened" ],
+
+    -- ;; ruwdiy_1
+    -- rwdy    ruwdiy  Nprop   Rudi
+
+    FUCI                      `noun`    {- ruwdiy -}           [ "Rudi" ] ]
 
  |> "r f '" <| [
 
@@ -8162,14 +8162,12 @@ lexicon = listing "Lexicon's properties"
 
     FACL                      `noun`    {- rAlf -}             [ "Ralph" ] ]
 
- |> "r l l" <| [
+ |> "r l y" <| [
 
     -- ;; rAliy_1
     -- rAly    rAliy   N0      rally
 
-    FACI                      `noun`    {- rAliy -}            [ "rally" ] ]
-
- |> "r l y" <| [
+    FACI                      `noun`    {- rAliy -}            [ "rally" ],
 
     -- ;; rAliy_1
     -- rAly    rAliy   N0      rally
@@ -8476,11 +8474,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "r m m" <| [
 
-    -- ;; rAmiyap_1
-    -- rAmy    rAmiy   Nap     ramie;China jute
-
-    FACI |< aT                `noun`    {- rAmiyap -}          [ "ramie", "China jute" ],
-
     -- ;; ram~-ui_1
     -- rm      ram~    PV_V    repair;overhaul
     -- rmm     ramam   PV_C    repair;overhaul
@@ -8666,6 +8659,11 @@ lexicon = listing "Lexicon's properties"
     -- rAmy    rAmiy   Nap     ramie;China jute
 
     FACiL |< aT               `noun`    {- rAmiyap -}          [ "ramie", "China jute" ],
+
+    -- ;; rAmiyap_1
+    -- rAmy    rAmiy   Nap     ramie;China jute
+
+    FACI |< aT                `noun`    {- rAmiyap -}          [ "ramie", "China jute" ],
 
     -- ;; ramaY-i_1
     -- rmY     ramaY   PV_0    throw;fling;shoot
@@ -8956,12 +8954,7 @@ lexicon = listing "Lexicon's properties"
     -- rnY     ran~aY  IV_0_Pass_yu    be attracted;be pleased;be delighted
     -- rny     ran~ay  IV_Ann_Pass_yu  be attracted;be pleased;be delighted
 
-    FaCLY                     `verb`    {- ran~aY -}           [ "attract", "please", "delight", "be attracted", "be pleased", "be delighted" ],
-
-    -- ;; ruwniy_1
-    -- rwny    ruwniy  Nprop   Ronny;Ronnie
-
-    FUCI                      `noun`    {- ruwniy -}           [ "Ronny", "Ronnie" ] ]
+    FaCLY                     `verb`    {- ran~aY -}           [ "attract", "please", "delight", "be attracted", "be pleased", "be delighted" ] ]
 
  |> "r n q" <| [
 
@@ -9050,7 +9043,12 @@ lexicon = listing "Lexicon's properties"
     -- rnY     ronaY   IV_0_Pass_yu    be attracted;be pleased;be delighted
     -- rny     ronay   IV_Ann_Pass_yu  be attracted;be pleased;be delighted
 
-    HaFCY                     `verb`    {- OaronaY -}          [ "attract", "please", "delight", "be attracted", "be pleased", "be delighted" ] ]
+    HaFCY                     `verb`    {- OaronaY -}          [ "attract", "please", "delight", "be attracted", "be pleased", "be delighted" ],
+
+    -- ;; ruwniy_1
+    -- rwny    ruwniy  Nprop   Ronny;Ronnie
+
+    FUCI                      `noun`    {- ruwniy -}           [ "Ronny", "Ronnie" ] ]
 
  |> "r q '" <| [
 

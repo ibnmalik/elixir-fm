@@ -11928,6 +11928,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'f m y' => [
+    {
+      'types' => {
+        'famawiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'famY',
+      'form' => 'famawiyy',
+      'lines' => [
+        ';; famawiy~_1',
+        'fmwy    famawiy~        Nall    oral;buccal     [[famawiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCY |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'oral',
+        'buccal'
+      ],
+      'orig' => 'famawiy~',
+      'prefix' => ''
+    }
+  ],
   'fAliyriy' => [
     {
       'types' => {
@@ -12107,6 +12133,20 @@ $Lexicon = {
       'glosses' => [
         'in'
       ],
+      'orig' => 'fiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'fiy',
+      'form' => 'fiy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FI',
+      'suffix' => '',
+      'glosses' => [],
       'orig' => 'fiy',
       'prefix' => ''
     }
@@ -44280,30 +44320,6 @@ $Lexicon = {
       ],
       'orig' => 'famiy~',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'famawiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'famY',
-      'form' => 'famawiyy',
-      'lines' => [
-        ';; famawiy~_1',
-        'fmwy    famawiy~        Nall    oral;buccal     [[famawiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCY |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'oral',
-        'buccal'
-      ],
-      'orig' => 'famawiy~',
-      'prefix' => ''
     }
   ],
   'fiytuwriyy' => [
@@ -52685,6 +52701,9 @@ $Lexicon->{'f t r'}[10]{'glosses'} = $Lexicon->{'f r r'}[2]{'glosses'};
 $Lexicon->{'f t r'}[11]{'types'} = $Lexicon->{'f r r'}[9]{'types'};
 $Lexicon->{'f t r'}[11]{'lines'} = $Lexicon->{'f r r'}[9]{'lines'};
 $Lexicon->{'f t r'}[11]{'glosses'} = $Lexicon->{'f r r'}[9]{'glosses'};
+$Lexicon->{'f y y'}[1]{'types'} = $Lexicon->{'f y y'}[0]{'types'};
+$Lexicon->{'f y y'}[1]{'lines'} = $Lexicon->{'f y y'}[0]{'lines'};
+$Lexicon->{'f y y'}[1]{'glosses'} = $Lexicon->{'f y y'}[0]{'glosses'};
 $Lexicon->{'f \' .z'}[0]{'types'} = $Lexicon->{'f y .z'}[0]{'types'};
 $Lexicon->{'f \' .z'}[0]{'lines'} = $Lexicon->{'f y .z'}[0]{'lines'};
 $Lexicon->{'f \' .z'}[0]{'glosses'} = $Lexicon->{'f y .z'}[0]{'glosses'};

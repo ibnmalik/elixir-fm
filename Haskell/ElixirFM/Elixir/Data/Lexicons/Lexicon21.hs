@@ -1233,9 +1233,7 @@ lexicon = listing "Lexicon's properties"
 
     FACUL |< Iy |< aT         `noun`    {- qAnuwniy~ap -}      [ "legality", "lawfulness" ],
 
-    TaFCIL                    `noun`    {- taqoniyn -}         [ "legislation", "lawmaking" ],
-
-    FUCI |< aT                `noun`    {- quwniyap -}         [ "Konya" ] ]
+    TaFCIL                    `noun`    {- taqoniyn -}         [ "legislation", "lawmaking" ] ]
 
  |> "q n w" <| [
 
@@ -1245,6 +1243,10 @@ lexicon = listing "Lexicon's properties"
     FaCY |< aT                `noun`    {- qanAp -}            [ "Qanat" ],
 
     IFtiCA'                   `noun`    {- AiqotinA' -}        [ "purchase", "acquisition", "purchases", "acquisitions" ] ]
+
+ |> "q n y" <| [
+
+    FUCI |< aT                `noun`    {- quwniyap -}         [ "Konya" ] ]
 
  |> "q r '" <| [
 

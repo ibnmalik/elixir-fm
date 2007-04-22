@@ -650,8 +650,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s f h" <| [
 
-    FaCY |< Iy                `adj`     {- \$afawiy~ -}        [ "oral", "verbal", "orally", "verbally" ],
-
     FaCaL |< Iy               `adj`     {- \$afahiy~ -}        [ "oral", "verbal", "orally", "verbally" ] ]
 
  |> "^s f q" <| [
@@ -679,6 +677,8 @@ lexicon = listing "Lexicon's properties"
     MustaFCY                  `noun`    {- musota$ofaY -}      [ "hospital", "hospitals" ] ]
 
  |> "^s f y" <| [
+
+    FaCY |< Iy                `adj`     {- \$afawiy~ -}        [ "oral", "verbal", "orally", "verbally" ],
 
     FACiL                     `adj`     {- \$Afiy -}           [ "healing", "curative" ] ]
 
@@ -1415,8 +1415,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCLY                     `noun`    {- \$at~aY -}          [ "all", "diverse", "miscellaneous" ],
 
-    FaCCY                     `noun`    {- \$at~aY -}          [ "all", "diverse", "miscellaneous" ],
-
     FaL |< At                 `noun`    {- \$atAt -}           [ "dispersed", "scattered" ]
                               `plural`     FaCIL |< aT,
 
@@ -1433,6 +1431,10 @@ lexicon = listing "Lexicon's properties"
     FiCA'                     `noun`    {- \$itA' -}           [ "rain", "rains" ],
 
     FaCY |< Iy                `adj`     {- \$atawiy~ -}        [ "winter", "wintery" ] ]
+
+ |> "^s t y" <| [
+
+    FaCCY                     `noun`    {- \$at~aY -}          [ "all", "diverse", "miscellaneous" ] ]
 
  |> "^s w .t" <| [
 

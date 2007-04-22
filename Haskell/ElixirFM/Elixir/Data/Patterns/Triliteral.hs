@@ -173,7 +173,8 @@ instance Forming PatternT where
     verbStems IV = [
 
         (   HaFCaL,     HuFCiL,     FCiL,       FCaL        ),
-        (   HaFCaL,     HUCiL,      UCiL,       UCaL        ),
+        (   HaFCaL,     HUCiL,      FCiL,       FCaL        ),
+                                {-- UCiL        UCaL --}
         (   HaFAL,      HuFIL,      FIL,        FAL         ),
         (   HaFCY,      HuFCI,      FCI,        FCY         ),
         (   HaFY,       HuFI,       FI,         FY          ),
@@ -486,8 +487,8 @@ data PatternT =
         |   HaFCaL                                      |   HaFAL               |   HaFCY               |   HaFaCL
         |   HuFCiL              |   HUCiL               |   HuFIL               |   HuFCI               |   HuFiCL
 
-                                |   UCiL                |   FI                  |   HaFY
-                                |   UCaL                                        |   HuFI
+                            {-- |   UCiL    --}         |   FI                  |   HaFY
+                            {-- |   UCaL    --}                                 |   HuFI
 
         |   HiFCAL              |   HICAL                                       |   HiFCA'
         |   HiFCaL              |   HICaL               |   HiFAL                                       |   HiFaCL

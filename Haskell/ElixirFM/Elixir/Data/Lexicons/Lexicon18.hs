@@ -1387,9 +1387,7 @@ lexicon = listing "Lexicon's properties"
 
     FACL                      `adj`     {- EAm~ -}             [ "general", "common", "public" ],
 
-    FACL |< aT                `noun`    {- EAm~ap -}           [ "general public", "populace", "in general", "generally" ],
-
-    FACI                      `noun`    {- EAmiy -}            [ "Ami" ] ]
+    FACL |< aT                `noun`    {- EAm~ap -}           [ "general public", "populace", "in general", "generally" ] ]
 
  |> "` m n" <| [
 
@@ -1488,6 +1486,8 @@ lexicon = listing "Lexicon's properties"
     FACUL                     `noun`    {- EAmuws -}           [ "Amos (prophet)" ] ]
 
  |> "` m y" <| [
+
+    FACI                      `noun`    {- EAmiy -}            [ "Ami" ],
 
     FACiL                     `noun`    {- EAmiy -}            [ "Ami" ],
 

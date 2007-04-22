@@ -40,13 +40,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Iiyh -}             [ "A." ] ]
 
- |> "-- ' --" <| [
-
-    -- ;; <iy_1
-    -- <y      <iy     FW      E.     [[<iy/ABBREV]]
-
-    CI                        `noun`    {- Iiy -}              [ "E." ] ]
-
  |> "-- ' f" <| [
 
     -- ;; >af_1
@@ -115,6 +108,11 @@ lexicon = listing "Lexicon's properties"
     -- ;; <iy_1
     -- <y      <iy     FW      E.     [[<iy/ABBREV]]
 
+    CI                        `noun`    {- Iiy -}              [ "E." ],
+
+    -- ;; <iy_1
+    -- <y      <iy     FW      E.     [[<iy/ABBREV]]
+
     CiL                       `noun`    {- Iiy -}              [ "E." ],
 
     -- ;; >ay_1
@@ -125,15 +123,13 @@ lexicon = listing "Lexicon's properties"
 
     CaL                       `noun`    {- Oay -}              [ "A.", "I." ] ]
 
- |> "-- ^g --" <| [
+ |> "-- ^g y" <| [
 
     -- ;; jiy_1
     -- jy      jiy     FW      G.     [[jiy/ABBREV]]
     -- jy      jiy     FW      J.     [[jiy/ABBREV]]
 
-    CI                        `noun`    {- jiy -}              [ "G.", "J." ] ]
-
- |> "-- ^g y" <| [
+    CI                        `noun`    {- jiy -}              [ "G.", "J." ],
 
     -- ;; jiy_1
     -- jy      jiy     FW      G.     [[jiy/ABBREV]]
@@ -141,27 +137,17 @@ lexicon = listing "Lexicon's properties"
 
     CiL                       `noun`    {- jiy -}              [ "G.", "J." ] ]
 
- |> "-- b --" <| [
-
-    -- ;; biy_1
-    -- by      biy     N0      B.     [[biy/ABBREV]]
-
-    CI                        `noun`    {- biy -}              [ "B." ] ]
-
  |> "-- b y" <| [
 
     -- ;; biy_1
     -- by      biy     N0      B.     [[biy/ABBREV]]
 
-    CiL                       `noun`    {- biy -}              [ "B." ] ]
+    CiL                       `noun`    {- biy -}              [ "B." ],
 
- |> "-- d --" <| [
+    -- ;; biy_1
+    -- by      biy     N0      B.     [[biy/ABBREV]]
 
-    -- ;; diy_1
-    -- dy      diy     FW      D.     [[diy/ABBREV]]
-    -- dy      diy     FW      De     [[diy/NOUN_PROP]]
-
-    CI                        `noun`    {- diy -}              [ "D.", "De" ] ]
+    CI                        `noun`    {- biy -}              [ "B." ] ]
 
  |> "-- d y" <| [
 
@@ -169,49 +155,49 @@ lexicon = listing "Lexicon's properties"
     -- dy      diy     FW      D.     [[diy/ABBREV]]
     -- dy      diy     FW      De     [[diy/NOUN_PROP]]
 
-    CiL                       `noun`    {- diy -}              [ "D.", "De" ] ]
+    CiL                       `noun`    {- diy -}              [ "D.", "De" ],
 
- |> "-- f --" <| [
+    -- ;; diy_1
+    -- dy      diy     FW      D.     [[diy/ABBREV]]
+    -- dy      diy     FW      De     [[diy/NOUN_PROP]]
 
-    -- ;; fiy_2
-    -- fy      fiy     FW      V.     [[Viy/ABBREV]]
-
-    CI                        `noun`    {- fiy -}              [ "V." ] ]
+    CI                        `noun`    {- diy -}              [ "D.", "De" ] ]
 
  |> "-- f y" <| [
 
     -- ;; fiy_2
     -- fy      fiy     FW      V.     [[Viy/ABBREV]]
 
+    CI                        `noun`    {- fiy -}              [ "V." ],
+
+    -- ;; fiy_2
+    -- fy      fiy     FW      V.     [[Viy/ABBREV]]
+
     CiL                       `noun`    {- fiy -}              [ "V." ] ]
-
- |> "-- s --" <| [
-
-    -- ;; siy_1
-    -- sy      siy     N0      C.     [[siy/ABBREV]]
-
-    CI                        `noun`    {- siy -}              [ "C." ] ]
 
  |> "-- s y" <| [
 
     -- ;; siy_1
     -- sy      siy     N0      C.     [[siy/ABBREV]]
 
+    CI                        `noun`    {- siy -}              [ "C." ],
+
+    -- ;; siy_1
+    -- sy      siy     N0      C.     [[siy/ABBREV]]
+
     CiL                       `noun`    {- siy -}              [ "C." ] ]
-
- |> "-- t --" <| [
-
-    -- ;; tiy_1
-    -- ty      tiy     FW      T.     [[tiy/ABBREV]]
-
-    CI                        `noun`    {- tiy -}              [ "T." ] ]
 
  |> "-- t y" <| [
 
     -- ;; tiy_1
     -- ty      tiy     FW      T.     [[tiy/ABBREV]]
 
-    CiL                       `noun`    {- tiy -}              [ "T." ] ]
+    CiL                       `noun`    {- tiy -}              [ "T." ],
+
+    -- ;; tiy_1
+    -- ty      tiy     FW      T.     [[tiy/ABBREV]]
+
+    CI                        `noun`    {- tiy -}              [ "T." ] ]
 
  |> ".d" <| [
 

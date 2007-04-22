@@ -1574,7 +1574,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "f y y" <| [
 
-    FiL                       `noun`    {- fiy -}              [ "in" ] ]
+    FiL                       `noun`    {- fiy -}              [ "in" ],
+
+    FI                        `noun`    {- fiy -}              [ "in" ] ]
 
  |> "f y z" <| [
 

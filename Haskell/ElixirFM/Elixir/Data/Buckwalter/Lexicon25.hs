@@ -7961,11 +7961,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "n d d" <| [
 
-    -- ;; nAdiyap_1
-    -- nAdyp   nAdiyap Nprop   Nadia
-
-    FACI |< aT                `noun`    {- nAdiyap -}          [ "Nadia" ],
-
     -- ;; nad~-i_1
     -- nd      nad~    PV_V    escape;flee
     -- ndd     nadad   PV_C    escape;flee
@@ -8539,6 +8534,11 @@ lexicon = listing "Lexicon's properties"
     -- nAdyp   nAdiyap Nprop   Nadia
 
     FACiL |< aT               `noun`    {- nAdiyap -}          [ "Nadia" ],
+
+    -- ;; nAdiyap_1
+    -- nAdyp   nAdiyap Nprop   Nadia
+
+    FACI |< aT                `noun`    {- nAdiyap -}          [ "Nadia" ],
 
     -- ;; nadiy-a_1
     -- ndy     nadiy   PV_no-w_intr    be moist;be damp
@@ -13950,13 +13950,6 @@ lexicon = listing "Lexicon's properties"
 
     KiRDIS                    `noun`    {- niromiyn -}         [ "Nermine", "Nirmine" ] ]
 
- |> "n r r" <| [
-
-    -- ;; nuwriy_1
-    -- nwry    nuwriy  Nprop   Nouri;Nuri
-
-    FUCI                      `noun`    {- nuwriy -}           [ "Nouri", "Nuri" ] ]
-
  |> "n r w ^g" <| [
 
     -- ;; nurowiyj_1
@@ -13969,6 +13962,13 @@ lexicon = listing "Lexicon's properties"
     -- nrwyjy  nurowiyjiy~     Nall    Norwegian     [[nurowiyjiy~/ADJ]]
 
     KuRDIS |< Iy              `adj`     {- nurowiyjiy~ -}      [ "Norwegian" ] ]
+
+ |> "n r y" <| [
+
+    -- ;; nuwriy_1
+    -- nwry    nuwriy  Nprop   Nouri;Nuri
+
+    FUCI                      `noun`    {- nuwriy -}           [ "Nouri", "Nuri" ] ]
 
  |> "n s '" <| [
 

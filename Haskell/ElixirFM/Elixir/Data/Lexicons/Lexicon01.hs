@@ -1292,10 +1292,6 @@ lexicon = listing "Lexicon's properties"
 
     KaRADiS                   `noun`    {- OatAgiy -}          [ "Atagi" ] ]
 
- |> "' t b" <| [
-
-    FUCI                      `noun`    {- Ouwtiy -}           [ "Ottey" ] ]
-
  |> "' t n" <| [
 
     FiCL |< Iy                `adj`     {- Iitoniy~ -}         [ "ethnic" ] ]
@@ -1320,6 +1316,8 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- \|tiy -}            [ "coming", "following" ],
 
     MuFACiL                   `noun`    {- muWAtiy -}          [ "favorable", "suitable" ],
+
+    FUCI                      `noun`    {- Ouwtiy -}           [ "Ottey" ],
 
     HUCiL                     `noun`    {- Ouwtiy -}           [ "Ottey" ] ]
 

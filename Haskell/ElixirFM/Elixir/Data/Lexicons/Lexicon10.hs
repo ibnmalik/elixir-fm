@@ -875,9 +875,7 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL |< Iy |< aT        `noun`    {- maroduwdiy~ap -}    [ "profitability" ],
 
-    FaCLY                     `verb`    {- rad~aY -}           [ "make fall", "annihilate", "be struck down", "be annihilated" ],
-
-    FUCI                      `noun`    {- ruwdiy -}           [ "Rudi" ] ]
+    FaCLY                     `verb`    {- rad~aY -}           [ "make fall", "annihilate", "be struck down", "be annihilated" ] ]
 
  |> "r d f" <| [
 
@@ -906,7 +904,9 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCA'                   `noun`    {- AirotidA' -}        [ "wearing", "putting on" ],
 
-    MutaFaCCiL                `noun`    {- mutarad~iy -}       [ "deteriorating", "worsened" ] ]
+    MutaFaCCiL                `noun`    {- mutarad~iy -}       [ "deteriorating", "worsened" ],
+
+    FUCI                      `noun`    {- ruwdiy -}           [ "Rudi" ] ]
 
  |> "r f '" <| [
 
@@ -1213,11 +1213,9 @@ lexicon = listing "Lexicon's properties"
 
     FACL                      `noun`    {- rAlf -}             [ "Ralph" ] ]
 
- |> "r l l" <| [
-
-    FACI                      `noun`    {- rAliy -}            [ "rally" ] ]
-
  |> "r l y" <| [
+
+    FACI                      `noun`    {- rAliy -}            [ "rally" ],
 
     FACiL                     `noun`    {- rAliy -}            [ "rally" ] ]
 
@@ -1314,7 +1312,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCCAL                    `adj`     {- ran~An -}           [ "resounding", "resonating", "ringing", "reverberating" ],
 
-    FaCLAn                    `adj`     {- ran~An -}           [ "resounding", "resonating", "ringing", "reverberating" ],
+    FaCLAn                    `adj`     {- ran~An -}           [ "resounding", "resonating", "ringing", "reverberating" ] ]
+
+ |> "r n y" <| [
 
     FUCI                      `noun`    {- ruwniy -}           [ "Ronny", "Ronnie" ] ]
 

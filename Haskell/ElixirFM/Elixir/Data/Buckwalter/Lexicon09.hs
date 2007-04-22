@@ -1881,7 +1881,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCuL
                               `plural`     FaCI
                               `plural`     FaCA
-                           {- `others`  [ "_dawuw FW-Wa FW-Wa-a", "_dawiy FW-Wa-y FW-WaBi", "_dawA FW-Wa FW-Wa-A" ] -},
+                              `plural`     FI
+                           {- `others`  [ "_dawuw FW-Wa FW-Wa-a", "_dawiy FW-Wa-y FW-WaBi", "_dawA FW-Wa FW-Wa-A", "_diy FW-Wa" ] -},
 
     -- ;; *awAt_1
     -- \*wAt    *awAt   N       selves;beings

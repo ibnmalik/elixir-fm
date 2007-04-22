@@ -1192,6 +1192,34 @@ $Lexicon = {
   '_t r y' => [
     {
       'types' => {
+        '_tarA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '_tarA\'',
+      'form' => '_tarA\'',
+      'lines' => [
+        ';; varA\'_1',
+        'vrA\'    varA\'   N0_Nh   wealth;abundance',
+        'vrA&    varA&   Nh      wealth;abundance',
+        'vrA}    varA}   Nhy     wealth;abundance'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCA\'',
+      'suffix' => '',
+      'glosses' => [
+        'wealth',
+        'abundance'
+      ],
+      'orig' => 'varA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '_tariy' => {},
         '_tray' => {
           'IV_Ann' => 1
@@ -1235,6 +1263,168 @@ $Lexicon = {
         'FCaL'
       ],
       'orig' => 'variy-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_tariy',
+      'form' => '_tariy',
+      'lines' => [],
+      'patterns' => {
+        '_tray' => [
+          'FCaL'
+        ],
+        '_trY' => [
+          'FCY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCI',
+      'glosses' => [],
+      'suffix' => '',
+      'imperf' => [],
+      'orig' => 'variy-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_tray' => {
+          'IV_Ann_Pass_yu' => 1
+        },
+        '_tr' => {
+          'IV_0hwnyn_yu' => 1
+        },
+        '\'a_trY' => {},
+        '_trY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '\'a_tr' => {
+          'PV_ttAw' => 2
+        },
+        '\'a_trA' => {
+          'PV_h' => 2
+        },
+        '_triy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '\'a_tray' => {
+          'PV_Atn' => 2
+        }
+      },
+      'entry' => '\'a_trY',
+      'form' => '\'a_trY',
+      'lines' => [
+        ';; >avoraY_1',
+        '>vrY    >avoraY PV_0    enrich;make rich',
+        'AvrY    >avoraY PV_0    enrich;make rich',
+        '>vrA    >avorA  PV_h    enrich;make rich',
+        'AvrA    >avorA  PV_h    enrich;make rich',
+        '>vry    >avoray PV_Atn  enrich;make rich',
+        'Avry    >avoray PV_Atn  enrich;make rich',
+        '>vr     >avor   PV_ttAw enrich;make rich',
+        'Avr     >avor   PV_ttAw enrich;make rich',
+        'vry     voriy   IV_0hAnn_yu     enrich;make rich',
+        'vr      vor     IV_0hwnyn_yu    enrich;make rich',
+        'vrY     voraY   IV_0_Pass_yu    be enriched;be made rich',
+        'vry     voray   IV_Ann_Pass_yu  be enriched;be made rich'
+      ],
+      'patterns' => {
+        '_tray' => [
+          'FCaL'
+        ],
+        '_triy' => [
+          'FCiL',
+          'FCI'
+        ],
+        '\'a_tray' => [
+          'HaFCaL'
+        ],
+        '_trY' => [
+          'FCY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCY',
+      'suffix' => '',
+      'glosses' => [
+        'enrich',
+        'make rich',
+        'be enriched',
+        'be made rich'
+      ],
+      'orig' => 'OavoraY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'i_trA\'' => {
+          'NAt' => 2,
+          'Nh' => 2,
+          'Nayn' => 2,
+          'NAn_Nayn' => 2,
+          'Nhy' => 2,
+          'N0_Nh' => 2
+        }
+      },
+      'entry' => '\'i_trA\'',
+      'form' => '\'i_trA\'',
+      'lines' => [
+        ';; <ivorA\'_1',
+        '<vrA\'   <ivorA\' N0_Nh   enrichment',
+        '<vrA&   <ivorA& Nh      enrichment',
+        '<vrA}   <ivorA} Nhy     enrichment',
+        '<vrA\'   <ivorA\' NAn_Nayn        enrichment',
+        '<vrA}   <ivorA} Nayn    enrichment',
+        '<vrA\'   <ivorA\' NAt     enrichment',
+        'AvrA\'   <ivorA\' N0_Nh   enrichment',
+        'AvrA&   <ivorA& Nh      enrichment',
+        'AvrA}   <ivorA} Nhy     enrichment',
+        'AvrA\'   <ivorA\' NAn_Nayn        enrichment',
+        'AvrA}   <ivorA} Nayn    enrichment',
+        'AvrA\'   <ivorA\' NAt     enrichment'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCA\'',
+      'suffix' => '',
+      'glosses' => [
+        'enrichment'
+      ],
+      'orig' => 'IivorA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_tarA' => {
+          'Nhy' => 1
+        },
+        '_tarY' => {
+          'N0' => 1
+        }
+      },
+      'entry' => '_tarY',
+      'form' => '_tarY',
+      'lines' => [
+        ';; varaY_1',
+        'vrY     varaY   N0      soil',
+        'vrA     varA    Nhy     soil'
+      ],
+      'patterns' => {
+        '_tarA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCY',
+      'suffix' => '',
+      'glosses' => [
+        'soil'
+      ],
+      'orig' => 'varaY',
       'prefix' => ''
     },
     {
@@ -2684,6 +2874,69 @@ $Lexicon = {
   '_t w y' => [
     {
       'types' => {
+        '_tw' => {
+          'IV_0hwnyn' => 1
+        },
+        '_twY' => {
+          'IV_0' => 1
+        },
+        '_tawA' => {
+          'PV_h' => 1
+        },
+        '_twiy' => {
+          'IV_0hAnn' => 1
+        },
+        '_taw' => {
+          'PV_ttAw' => 1
+        },
+        '_taway' => {
+          'PV_Atn' => 1
+        },
+        '_tawY' => {}
+      },
+      'entry' => '_tawY',
+      'form' => '_tawY',
+      'lines' => [
+        ';; vawaY-i_1',
+        'vwY     vawaY   PV_0    settle down;remain',
+        'vwA     vawA    PV_h    settle down;remain',
+        'vwy     vaway   PV_Atn  settle down;remain',
+        'vw      vaw     PV_ttAw settle down;remain',
+        'vwy     vowiy   IV_0hAnn        settle down;remain',
+        'vw      vow     IV_0hwnyn       settle down;remain',
+        'vwY     vowaY   IV_0    settle down;remain'
+      ],
+      'patterns' => {
+        '_tawA' => [
+          'FaCA'
+        ],
+        '_twY' => [
+          'FCY'
+        ],
+        '_taway' => [
+          'FaCaL'
+        ],
+        '_twiy' => [
+          'FCiL',
+          'FCI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCY',
+      'glosses' => [
+        'settle down',
+        'remain'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'vawaY-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '_tuwiy' => {},
         '_twY' => {
           'IV_0_Pass_yu' => 1
@@ -2703,7 +2956,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FuCiL',
+      'morphs' => 'FuCI',
       'glosses' => [
         'be buried'
       ],
@@ -2712,6 +2965,249 @@ $Lexicon = {
         'FCaL'
       ],
       'orig' => 'vuwiy-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_tuwiy',
+      'form' => '_tuwiy',
+      'lines' => [],
+      'patterns' => {
+        '_twY' => [
+          'FCY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FuCiL',
+      'glosses' => [],
+      'suffix' => '',
+      'imperf' => [],
+      'orig' => 'vuwiy-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_tawway' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '_tawwA' => {
+          'PV_h' => 1
+        },
+        '_tawwY' => {},
+        '_tawwiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '_taww' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        }
+      },
+      'entry' => '_tawwY',
+      'form' => '_tawwY',
+      'lines' => [
+        ';; vaw~aY_1',
+        'vwY     vaw~aY  PV_0    give lodging;provide housing',
+        'vwA     vaw~A   PV_h    give lodging;provide housing',
+        'vwy     vaw~ay  PV_Atn  give lodging;provide housing',
+        'vw      vaw~    PV_ttAw give lodging;provide housing',
+        'vwy     vaw~iy  IV_0hAnn_yu     give lodging;provide housing',
+        'vw      vaw~    IV_0hwnyn_yu    give lodging;provide housing',
+        'vwY     vaw~aY  IV_0_Pass_yu    be given lodging;be housed',
+        'vwy     vaw~ay  IV_Ann_Pass_yu  be given lodging;be housed'
+      ],
+      'patterns' => {
+        '_tawway' => [
+          'FaCCaL'
+        ],
+        '_tawwiy' => [
+          'FaCCiL',
+          'FaCCI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCY',
+      'suffix' => '',
+      'glosses' => [
+        'give lodging',
+        'provide housing',
+        'be given lodging',
+        'be housed'
+      ],
+      'orig' => 'vaw~aY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_tway' => {
+          'IV_Ann_Pass_yu' => 1
+        },
+        '_twY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '\'a_twA' => {
+          'PV_h' => 2
+        },
+        '\'a_twY' => {},
+        '_tw' => {
+          'IV_0hwnyn_yu' => 1
+        },
+        '\'a_tway' => {
+          'PV_Atn' => 2
+        },
+        '\'a_tw' => {
+          'PV_ttAw' => 2
+        },
+        '_twiy' => {
+          'IV_0hAnn_yu' => 1
+        }
+      },
+      'entry' => '\'a_twY',
+      'form' => '\'a_twY',
+      'lines' => [
+        ';; >avowaY_1',
+        '>vwY    >avowaY PV_0    reside;lodge',
+        'AvwY    >avowaY PV_0    reside;lodge',
+        '>vwA    >avowA  PV_h    reside;lodge',
+        'AvwA    >avowA  PV_h    reside;lodge',
+        '>vwy    >avoway PV_Atn  reside;lodge',
+        'Avwy    >avoway PV_Atn  reside;lodge',
+        '>vw     >avow   PV_ttAw reside;lodge',
+        'Avw     >avow   PV_ttAw reside;lodge',
+        'vwy     vowiy   IV_0hAnn_yu     reside;lodge',
+        'vw      vow     IV_0hwnyn_yu    reside;lodge',
+        'vwY     vowaY   IV_0_Pass_yu    be housed;be lodged',
+        'vwy     voway   IV_Ann_Pass_yu  be housed;be lodged'
+      ],
+      'patterns' => {
+        '_tway' => [
+          'FCaL'
+        ],
+        '_twY' => [
+          'FCY'
+        ],
+        '\'a_tway' => [
+          'HaFCaL'
+        ],
+        '_twiy' => [
+          'FCiL',
+          'FCI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCY',
+      'suffix' => '',
+      'glosses' => [
+        'reside',
+        'lodge',
+        'be housed',
+        'be lodged'
+      ],
+      'orig' => 'OavowaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_tawiyy' => {
+          'Ndu' => 1
+        }
+      },
+      'entry' => '_tY',
+      'form' => '_tawiyy',
+      'lines' => [
+        ';; vawiy~_1',
+        'vwy     vawiy~  Ndu     guest room'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FY |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'guest room'
+      ],
+      'orig' => 'vawiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_tuwA' => {
+          'Nhy' => 1
+        },
+        '_tuwY' => {
+          'N0' => 1
+        }
+      },
+      'entry' => '_tuwY',
+      'form' => '_tuwY',
+      'lines' => [
+        ';; vuwaY_1',
+        'vwY     vuwaY   N0      road-signs;signposts',
+        'vwA     vuwA    Nhy     road-signs;signposts'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCY',
+      'suffix' => '',
+      'glosses' => [
+        'road-signs',
+        'signposts'
+      ],
+      'orig' => 'vuwaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ma_tway' => {
+          'NAn_Nayn' => 1
+        },
+        'ma_twY' => {
+          'N0' => 1
+        },
+        'ma_tAw' => {
+          'NK' => 1
+        },
+        'ma_tAwiy' => {
+          'N0_Nh' => 1
+        },
+        'ma_twA' => {
+          'Nhy' => 1
+        }
+      },
+      'entry' => 'ma_twY',
+      'form' => 'ma_twY',
+      'lines' => [
+        ';; mavowaY_1',
+        'mvwY    mavowaY N0      abode;lodging',
+        'mvwA    mavowA  Nhy     abode;lodging',
+        'mvwy    mavoway NAn_Nayn        abode;lodging',
+        'mvAwy   mavAwiy N0_Nh   abodes;lodgings',
+        'mvAw    mavAw   NK      abodes;lodgings'
+      ],
+      'patterns' => {
+        'ma_tway' => [
+          'MaFCaL'
+        ],
+        'ma_tAwiy' => [
+          'MaFACiL',
+          'MaFACI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCY',
+      'suffix' => '',
+      'glosses' => [
+        'abode',
+        'lodging',
+        'abodes',
+        'lodgings'
+      ],
+      'orig' => 'mavowaY',
       'prefix' => ''
     }
   ],
@@ -8517,188 +9013,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_t r t' => [
-    {
-      'types' => {
-        '_tarA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '_tarA\'',
-      'form' => '_tarA\'',
-      'lines' => [
-        ';; varA\'_1',
-        'vrA\'    varA\'   N0_Nh   wealth;abundance',
-        'vrA&    varA&   Nh      wealth;abundance',
-        'vrA}    varA}   Nhy     wealth;abundance'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCA\'',
-      'suffix' => '',
-      'glosses' => [
-        'wealth',
-        'abundance'
-      ],
-      'orig' => 'varA\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_tariy',
-      'form' => '_tariy',
-      'lines' => [],
-      'patterns' => {
-        '_trY' => [
-          'FCY'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCI',
-      'glosses' => [],
-      'suffix' => '',
-      'imperf' => [],
-      'orig' => 'variy-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_tray' => {
-          'IV_Ann_Pass_yu' => 1
-        },
-        '_tr' => {
-          'IV_0hwnyn_yu' => 1
-        },
-        '\'a_trY' => {},
-        '_trY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        '\'a_tr' => {
-          'PV_ttAw' => 2
-        },
-        '\'a_trA' => {
-          'PV_h' => 2
-        },
-        '_triy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '\'a_tray' => {
-          'PV_Atn' => 2
-        }
-      },
-      'entry' => '\'a_trY',
-      'form' => '\'a_trY',
-      'lines' => [
-        ';; >avoraY_1',
-        '>vrY    >avoraY PV_0    enrich;make rich',
-        'AvrY    >avoraY PV_0    enrich;make rich',
-        '>vrA    >avorA  PV_h    enrich;make rich',
-        'AvrA    >avorA  PV_h    enrich;make rich',
-        '>vry    >avoray PV_Atn  enrich;make rich',
-        'Avry    >avoray PV_Atn  enrich;make rich',
-        '>vr     >avor   PV_ttAw enrich;make rich',
-        'Avr     >avor   PV_ttAw enrich;make rich',
-        'vry     voriy   IV_0hAnn_yu     enrich;make rich',
-        'vr      vor     IV_0hwnyn_yu    enrich;make rich',
-        'vrY     voraY   IV_0_Pass_yu    be enriched;be made rich',
-        'vry     voray   IV_Ann_Pass_yu  be enriched;be made rich'
-      ],
-      'patterns' => {
-        '_triy' => [
-          'FCI'
-        ],
-        '_trY' => [
-          'FCY'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCY',
-      'suffix' => '',
-      'glosses' => [
-        'enrich',
-        'make rich',
-        'be enriched',
-        'be made rich'
-      ],
-      'orig' => 'OavoraY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'i_trA\'' => {
-          'NAt' => 2,
-          'Nh' => 2,
-          'Nayn' => 2,
-          'NAn_Nayn' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
-        }
-      },
-      'entry' => '\'i_trA\'',
-      'form' => '\'i_trA\'',
-      'lines' => [
-        ';; <ivorA\'_1',
-        '<vrA\'   <ivorA\' N0_Nh   enrichment',
-        '<vrA&   <ivorA& Nh      enrichment',
-        '<vrA}   <ivorA} Nhy     enrichment',
-        '<vrA\'   <ivorA\' NAn_Nayn        enrichment',
-        '<vrA}   <ivorA} Nayn    enrichment',
-        '<vrA\'   <ivorA\' NAt     enrichment',
-        'AvrA\'   <ivorA\' N0_Nh   enrichment',
-        'AvrA&   <ivorA& Nh      enrichment',
-        'AvrA}   <ivorA} Nhy     enrichment',
-        'AvrA\'   <ivorA\' NAn_Nayn        enrichment',
-        'AvrA}   <ivorA} Nayn    enrichment',
-        'AvrA\'   <ivorA\' NAt     enrichment'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HiFCA\'',
-      'suffix' => '',
-      'glosses' => [
-        'enrichment'
-      ],
-      'orig' => 'IivorA\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_tarA' => {
-          'Nhy' => 1
-        },
-        '_tarY' => {
-          'N0' => 1
-        }
-      },
-      'entry' => '_tarY',
-      'form' => '_tarY',
-      'lines' => [
-        ';; varaY_1',
-        'vrY     varaY   N0      soil',
-        'vrA     varA    Nhy     soil'
-      ],
-      'patterns' => {
-        '_tarA' => [
-          'FaCA'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCY',
-      'suffix' => '',
-      'glosses' => [
-        'soil'
-      ],
-      'orig' => 'varaY',
-      'prefix' => ''
-    }
-  ],
   '_talA_tmA\'' => [
     {
       'types' => {
@@ -9185,6 +9499,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_ta`Alab' => [
+    {
+      'types' => {
+        '_ta`Alabiyy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => '_ta`Alab',
+      'form' => '_ta`Alabiyy',
+      'lines' => [
+        ';; vaEAlabiy~_1',
+        'vEAlby  vaEAlabiy~      N0      Tha\'alabi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Tha\'alabi'
+      ],
+      'orig' => 'vaEAlabiy~',
+      'prefix' => ''
+    }
+  ],
   '_t ` l' => [
     {
       'types' => {
@@ -9231,31 +9570,6 @@ $Lexicon = {
         'vixen'
       ],
       'orig' => 'vuEAlap',
-      'prefix' => ''
-    }
-  ],
-  '_ta`Alab' => [
-    {
-      'types' => {
-        '_ta`Alabiyy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => '_ta`Alab',
-      'form' => '_ta`Alabiyy',
-      'lines' => [
-        ';; vaEAlabiy~_1',
-        'vEAlby  vaEAlabiy~      N0      Tha\'alabi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Tha\'alabi'
-      ],
-      'orig' => 'vaEAlabiy~',
       'prefix' => ''
     }
   ],
@@ -9325,36 +9639,10 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '_tawway' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '_tawwA' => {
-          'PV_h' => 1
-        },
-        '_tawwY' => {},
-        '_tawwiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '_taww' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        }
-      },
+      'types' => {},
       'entry' => '_tawwY',
       'form' => '_tawwY',
-      'lines' => [
-        ';; vaw~aY_1',
-        'vwY     vaw~aY  PV_0    give lodging;provide housing',
-        'vwA     vaw~A   PV_h    give lodging;provide housing',
-        'vwy     vaw~ay  PV_Atn  give lodging;provide housing',
-        'vw      vaw~    PV_ttAw give lodging;provide housing',
-        'vwy     vaw~iy  IV_0hAnn_yu     give lodging;provide housing',
-        'vw      vaw~    IV_0hwnyn_yu    give lodging;provide housing',
-        'vwY     vaw~aY  IV_0_Pass_yu    be given lodging;be housed',
-        'vwy     vaw~ay  IV_Ann_Pass_yu  be given lodging;be housed'
-      ],
+      'lines' => [],
       'patterns' => {
         '_tawwiy' => [
           'FaCCI'
@@ -9367,12 +9655,7 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCLY',
       'suffix' => '',
-      'glosses' => [
-        'give lodging',
-        'provide housing',
-        'be given lodging',
-        'be housed'
-      ],
+      'glosses' => [],
       'orig' => 'vaw~aY',
       'prefix' => ''
     }
@@ -10213,262 +10496,6 @@ $Lexicon = {
       ],
       'orig' => 'mavowabap',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '_tw' => {
-          'IV_0hwnyn' => 1
-        },
-        '_twY' => {
-          'IV_0' => 1
-        },
-        '_tawA' => {
-          'PV_h' => 1
-        },
-        '_twiy' => {
-          'IV_0hAnn' => 1
-        },
-        '_taw' => {
-          'PV_ttAw' => 1
-        },
-        '_taway' => {
-          'PV_Atn' => 1
-        },
-        '_tawY' => {}
-      },
-      'entry' => '_tawY',
-      'form' => '_tawY',
-      'lines' => [
-        ';; vawaY-i_1',
-        'vwY     vawaY   PV_0    settle down;remain',
-        'vwA     vawA    PV_h    settle down;remain',
-        'vwy     vaway   PV_Atn  settle down;remain',
-        'vw      vaw     PV_ttAw settle down;remain',
-        'vwy     vowiy   IV_0hAnn        settle down;remain',
-        'vw      vow     IV_0hwnyn       settle down;remain',
-        'vwY     vowaY   IV_0    settle down;remain'
-      ],
-      'patterns' => {
-        '_tawA' => [
-          'FaCA'
-        ],
-        '_twY' => [
-          'FCY'
-        ],
-        '_twiy' => [
-          'FCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCY',
-      'glosses' => [
-        'settle down',
-        'remain'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'vawaY-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_tuwiy',
-      'form' => '_tuwiy',
-      'lines' => [],
-      'patterns' => {
-        '_twY' => [
-          'FCY'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FuCI',
-      'glosses' => [],
-      'suffix' => '',
-      'imperf' => [],
-      'orig' => 'vuwiy-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_tawwY',
-      'form' => '_tawwY',
-      'lines' => [],
-      'patterns' => {
-        '_tawwiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'vaw~aY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_tway' => {
-          'IV_Ann_Pass_yu' => 1
-        },
-        '_twY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        '\'a_twA' => {
-          'PV_h' => 2
-        },
-        '\'a_twY' => {},
-        '_tw' => {
-          'IV_0hwnyn_yu' => 1
-        },
-        '\'a_tway' => {
-          'PV_Atn' => 2
-        },
-        '\'a_tw' => {
-          'PV_ttAw' => 2
-        },
-        '_twiy' => {
-          'IV_0hAnn_yu' => 1
-        }
-      },
-      'entry' => '\'a_twY',
-      'form' => '\'a_twY',
-      'lines' => [
-        ';; >avowaY_1',
-        '>vwY    >avowaY PV_0    reside;lodge',
-        'AvwY    >avowaY PV_0    reside;lodge',
-        '>vwA    >avowA  PV_h    reside;lodge',
-        'AvwA    >avowA  PV_h    reside;lodge',
-        '>vwy    >avoway PV_Atn  reside;lodge',
-        'Avwy    >avoway PV_Atn  reside;lodge',
-        '>vw     >avow   PV_ttAw reside;lodge',
-        'Avw     >avow   PV_ttAw reside;lodge',
-        'vwy     vowiy   IV_0hAnn_yu     reside;lodge',
-        'vw      vow     IV_0hwnyn_yu    reside;lodge',
-        'vwY     vowaY   IV_0_Pass_yu    be housed;be lodged',
-        'vwy     voway   IV_Ann_Pass_yu  be housed;be lodged'
-      ],
-      'patterns' => {
-        '_twY' => [
-          'FCY'
-        ],
-        '_twiy' => [
-          'FCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCY',
-      'suffix' => '',
-      'glosses' => [
-        'reside',
-        'lodge',
-        'be housed',
-        'be lodged'
-      ],
-      'orig' => 'OavowaY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_tawiyy' => {
-          'Ndu' => 1
-        }
-      },
-      'entry' => '_tY',
-      'form' => '_tawiyy',
-      'lines' => [
-        ';; vawiy~_1',
-        'vwy     vawiy~  Ndu     guest room'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FY |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'guest room'
-      ],
-      'orig' => 'vawiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_tuwA' => {
-          'Nhy' => 1
-        },
-        '_tuwY' => {
-          'N0' => 1
-        }
-      },
-      'entry' => '_tuwY',
-      'form' => '_tuwY',
-      'lines' => [
-        ';; vuwaY_1',
-        'vwY     vuwaY   N0      road-signs;signposts',
-        'vwA     vuwA    Nhy     road-signs;signposts'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCY',
-      'suffix' => '',
-      'glosses' => [
-        'road-signs',
-        'signposts'
-      ],
-      'orig' => 'vuwaY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ma_tway' => {
-          'NAn_Nayn' => 1
-        },
-        'ma_twY' => {
-          'N0' => 1
-        },
-        'ma_tAw' => {
-          'NK' => 1
-        },
-        'ma_tAwiy' => {
-          'N0_Nh' => 1
-        },
-        'ma_twA' => {
-          'Nhy' => 1
-        }
-      },
-      'entry' => 'ma_twY',
-      'form' => 'ma_twY',
-      'lines' => [
-        ';; mavowaY_1',
-        'mvwY    mavowaY N0      abode;lodging',
-        'mvwA    mavowA  Nhy     abode;lodging',
-        'mvwy    mavoway NAn_Nayn        abode;lodging',
-        'mvAwy   mavAwiy N0_Nh   abodes;lodgings',
-        'mvAw    mavAw   NK      abodes;lodgings'
-      ],
-      'patterns' => {
-        'ma_tAwiy' => [
-          'MaFACI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFCY',
-      'suffix' => '',
-      'glosses' => [
-        'abode',
-        'lodging',
-        'abodes',
-        'lodgings'
-      ],
-      'orig' => 'mavowaY',
-      'prefix' => ''
     }
   ],
   '_t w l' => [
@@ -10735,6 +10762,14 @@ $Lexicon = {
 $Lexicon->{'_t w m'}[1]{'types'} = $Lexicon->{'_t w m'}[0]{'types'};
 $Lexicon->{'_t w m'}[1]{'lines'} = $Lexicon->{'_t w m'}[0]{'lines'};
 $Lexicon->{'_t w m'}[1]{'glosses'} = $Lexicon->{'_t w m'}[0]{'glosses'};
+$Lexicon->{'_t r y'}[2]{'types'} = $Lexicon->{'_t r y'}[1]{'types'};
+$Lexicon->{'_t r y'}[2]{'lines'} = $Lexicon->{'_t r y'}[1]{'lines'};
+$Lexicon->{'_t r y'}[2]{'glosses'} = $Lexicon->{'_t r y'}[1]{'glosses'};
+$Lexicon->{'_t r y'}[2]{'imperf'} = $Lexicon->{'_t r y'}[1]{'imperf'};
+$Lexicon->{'_t w y'}[2]{'types'} = $Lexicon->{'_t w y'}[1]{'types'};
+$Lexicon->{'_t w y'}[2]{'lines'} = $Lexicon->{'_t w y'}[1]{'lines'};
+$Lexicon->{'_t w y'}[2]{'glosses'} = $Lexicon->{'_t w y'}[1]{'glosses'};
+$Lexicon->{'_t w y'}[2]{'imperf'} = $Lexicon->{'_t w y'}[1]{'imperf'};
 $Lexicon->{'_t d y \''}[0]{'types'} = $Lexicon->{'_t d y'}[1]{'types'};
 $Lexicon->{'_t d y \''}[0]{'lines'} = $Lexicon->{'_t d y'}[1]{'lines'};
 $Lexicon->{'_t d y \''}[0]{'glosses'} = $Lexicon->{'_t d y'}[1]{'glosses'};
@@ -10777,25 +10812,24 @@ $Lexicon->{'_t y r'}[2]{'glosses'} = $Lexicon->{'_t w r'}[18]{'glosses'};
 $Lexicon->{'_t k l'}[3]{'types'} = $Lexicon->{'_t k l n'}[0]{'types'};
 $Lexicon->{'_t k l'}[3]{'lines'} = $Lexicon->{'_t k l n'}[0]{'lines'};
 $Lexicon->{'_t k l'}[3]{'glosses'} = $Lexicon->{'_t k l n'}[0]{'glosses'};
-$Lexicon->{'_t r t'}[1]{'types'} = $Lexicon->{'_t r y'}[0]{'types'};
-$Lexicon->{'_t r t'}[1]{'lines'} = $Lexicon->{'_t r y'}[0]{'lines'};
-$Lexicon->{'_t r t'}[1]{'glosses'} = $Lexicon->{'_t r y'}[0]{'glosses'};
-$Lexicon->{'_t r t'}[1]{'imperf'} = $Lexicon->{'_t r y'}[0]{'imperf'};
 $Lexicon->{'_t w w'}[1]{'types'} = $Lexicon->{'_t w w'}[0]{'types'};
 $Lexicon->{'_t w w'}[1]{'lines'} = $Lexicon->{'_t w w'}[0]{'lines'};
 $Lexicon->{'_t w w'}[1]{'glosses'} = $Lexicon->{'_t w w'}[0]{'glosses'};
+$Lexicon->{'_t w w'}[2]{'types'} = $Lexicon->{'_t w y'}[3]{'types'};
+$Lexicon->{'_t w w'}[2]{'lines'} = $Lexicon->{'_t w y'}[3]{'lines'};
+$Lexicon->{'_t w w'}[2]{'glosses'} = $Lexicon->{'_t w y'}[3]{'glosses'};
 $Lexicon->{'_t ` b'}[2]{'types'} = $Lexicon->{'_t ` b n'}[0]{'types'};
 $Lexicon->{'_t ` b'}[2]{'lines'} = $Lexicon->{'_t ` b n'}[0]{'lines'};
 $Lexicon->{'_t ` b'}[2]{'glosses'} = $Lexicon->{'_t ` b n'}[0]{'glosses'};
 $Lexicon->{'_t ` b'}[3]{'types'} = $Lexicon->{'_t ` b n'}[1]{'types'};
 $Lexicon->{'_t ` b'}[3]{'lines'} = $Lexicon->{'_t ` b n'}[1]{'lines'};
 $Lexicon->{'_t ` b'}[3]{'glosses'} = $Lexicon->{'_t ` b n'}[1]{'glosses'};
-$Lexicon->{'_t r \''}[0]{'types'} = $Lexicon->{'_t r t'}[0]{'types'};
-$Lexicon->{'_t r \''}[0]{'lines'} = $Lexicon->{'_t r t'}[0]{'lines'};
-$Lexicon->{'_t r \''}[0]{'glosses'} = $Lexicon->{'_t r t'}[0]{'glosses'};
-$Lexicon->{'_t r \''}[1]{'types'} = $Lexicon->{'_t r t'}[3]{'types'};
-$Lexicon->{'_t r \''}[1]{'lines'} = $Lexicon->{'_t r t'}[3]{'lines'};
-$Lexicon->{'_t r \''}[1]{'glosses'} = $Lexicon->{'_t r t'}[3]{'glosses'};
+$Lexicon->{'_t r \''}[0]{'types'} = $Lexicon->{'_t r y'}[0]{'types'};
+$Lexicon->{'_t r \''}[0]{'lines'} = $Lexicon->{'_t r y'}[0]{'lines'};
+$Lexicon->{'_t r \''}[0]{'glosses'} = $Lexicon->{'_t r y'}[0]{'glosses'};
+$Lexicon->{'_t r \''}[1]{'types'} = $Lexicon->{'_t r y'}[4]{'types'};
+$Lexicon->{'_t r \''}[1]{'lines'} = $Lexicon->{'_t r y'}[4]{'lines'};
+$Lexicon->{'_t r \''}[1]{'glosses'} = $Lexicon->{'_t r y'}[4]{'glosses'};
 $Lexicon->{'_t .g y'}[0]{'types'} = $Lexicon->{'_t .g w'}[2]{'types'};
 $Lexicon->{'_t .g y'}[0]{'lines'} = $Lexicon->{'_t .g w'}[2]{'lines'};
 $Lexicon->{'_t .g y'}[0]{'glosses'} = $Lexicon->{'_t .g w'}[2]{'glosses'};
@@ -10808,10 +10842,3 @@ $Lexicon->{'_t \' r'}[6]{'glosses'} = $Lexicon->{'_t w r'}[14]{'glosses'};
 $Lexicon->{'_t \' r'}[7]{'types'} = $Lexicon->{'_t w r'}[15]{'types'};
 $Lexicon->{'_t \' r'}[7]{'lines'} = $Lexicon->{'_t w r'}[15]{'lines'};
 $Lexicon->{'_t \' r'}[7]{'glosses'} = $Lexicon->{'_t w r'}[15]{'glosses'};
-$Lexicon->{'_t w b'}[13]{'types'} = $Lexicon->{'_t w y'}[0]{'types'};
-$Lexicon->{'_t w b'}[13]{'lines'} = $Lexicon->{'_t w y'}[0]{'lines'};
-$Lexicon->{'_t w b'}[13]{'glosses'} = $Lexicon->{'_t w y'}[0]{'glosses'};
-$Lexicon->{'_t w b'}[13]{'imperf'} = $Lexicon->{'_t w y'}[0]{'imperf'};
-$Lexicon->{'_t w b'}[14]{'types'} = $Lexicon->{'_t w w'}[2]{'types'};
-$Lexicon->{'_t w b'}[14]{'lines'} = $Lexicon->{'_t w w'}[2]{'lines'};
-$Lexicon->{'_t w b'}[14]{'glosses'} = $Lexicon->{'_t w w'}[2]{'glosses'};

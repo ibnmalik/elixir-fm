@@ -1643,29 +1643,6 @@ $Lexicon = {
       ],
       'orig' => 'lab~aY',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'luwbiy' => {
-          'N0_L' => 1
-        }
-      },
-      'entry' => 'luwbiy',
-      'form' => 'luwbiy',
-      'lines' => [
-        ';; luwbiy_1',
-        'lwby    luwbiy  N0_L    lobby'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCI',
-      'suffix' => '',
-      'glosses' => [
-        'lobby'
-      ],
-      'orig' => 'luwbiy',
-      'prefix' => ''
     }
   ],
   'l \' m' => [
@@ -4779,6 +4756,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'l r y' => [
+    {
+      'types' => {
+        'luwriy' => {
+          'N0_L' => 1
+        }
+      },
+      'entry' => 'luwriy',
+      'form' => 'luwriy',
+      'lines' => [
+        ';; luwriy_1',
+        'lwry    luwriy  N0_L    lorry;truck'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCI',
+      'suffix' => '',
+      'glosses' => [
+        'lorry',
+        'truck'
+      ],
+      'orig' => 'luwriy',
+      'prefix' => ''
+    }
+  ],
   'lAriyuwndA' => [
     {
       'types' => {
@@ -6791,12 +6794,26 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiL',
+      'morphs' => 'FI',
       'suffix' => '',
       'glosses' => [
         'Lee',
         'Li'
       ],
+      'orig' => 'liy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'liy',
+      'form' => 'liy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiL',
+      'suffix' => '',
+      'glosses' => [],
       'orig' => 'liy',
       'prefix' => ''
     }
@@ -12738,32 +12755,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'l r d' => [
-    {
-      'types' => {
-        'luwriy' => {
-          'N0_L' => 1
-        }
-      },
-      'entry' => 'luwriy',
-      'form' => 'luwriy',
-      'lines' => [
-        ';; luwriy_1',
-        'lwry    luwriy  N0_L    lorry;truck'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCI',
-      'suffix' => '',
-      'glosses' => [
-        'lorry',
-        'truck'
-      ],
-      'orig' => 'luwriy',
-      'prefix' => ''
-    }
-  ],
   'l_akin' => [
     {
       'types' => {
@@ -18261,6 +18252,29 @@ $Lexicon = {
         'responding to'
       ],
       'orig' => 'talobiyap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'luwbiy' => {
+          'N0_L' => 1
+        }
+      },
+      'entry' => 'luwbiy',
+      'form' => 'luwbiy',
+      'lines' => [
+        ';; luwbiy_1',
+        'lwby    luwbiy  N0_L    lobby'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCI',
+      'suffix' => '',
+      'glosses' => [
+        'lobby'
+      ],
+      'orig' => 'luwbiy',
       'prefix' => ''
     }
   ],
@@ -37949,6 +37963,9 @@ $Lexicon->{'l y m'}[0]{'glosses'} = $Lexicon->{'l y m n'}[0]{'glosses'};
 $Lexicon->{'l y m'}[1]{'types'} = $Lexicon->{'l y m n'}[1]{'types'};
 $Lexicon->{'l y m'}[1]{'lines'} = $Lexicon->{'l y m n'}[1]{'lines'};
 $Lexicon->{'l y m'}[1]{'glosses'} = $Lexicon->{'l y m n'}[1]{'glosses'};
+$Lexicon->{'l y y'}[5]{'types'} = $Lexicon->{'l y y'}[4]{'types'};
+$Lexicon->{'l y y'}[5]{'lines'} = $Lexicon->{'l y y'}[4]{'lines'};
+$Lexicon->{'l y y'}[5]{'glosses'} = $Lexicon->{'l y y'}[4]{'glosses'};
 $Lexicon->{'l t _d'}[0]{'types'} = $Lexicon->{'l _d _d'}[4]{'types'};
 $Lexicon->{'l t _d'}[0]{'lines'} = $Lexicon->{'l _d _d'}[4]{'lines'};
 $Lexicon->{'l t _d'}[0]{'glosses'} = $Lexicon->{'l _d _d'}[4]{'glosses'};

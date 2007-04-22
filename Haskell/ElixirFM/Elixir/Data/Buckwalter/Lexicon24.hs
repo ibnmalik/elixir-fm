@@ -10316,12 +10316,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mAzin_1
     -- mAzn    mAzin   Nprop   Mazen;Mazin
 
-    FACiL                     `noun`    {- mAzin -}            [ "Mazen", "Mazin" ],
-
-    -- ;; mAziyap_1
-    -- mAzy    mAziy   NapAt   merit;virtue;advantage
-
-    FACI |< aT                `noun`    {- mAziyap -}          [ "merit", "virtue", "advantage" ] ]
+    FACiL                     `noun`    {- mAzin -}            [ "Mazen", "Mazin" ] ]
 
  |> "m z q" <| [
 
@@ -10392,7 +10387,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; mAziyap_1
     -- mAzy    mAziy   NapAt   merit;virtue;advantage
 
-    FACiL |< aT               `noun`    {- mAziyap -}          [ "merit", "virtue", "advantage" ] ]
+    FACiL |< aT               `noun`    {- mAziyap -}          [ "merit", "virtue", "advantage" ],
+
+    -- ;; mAziyap_1
+    -- mAzy    mAziy   NapAt   merit;virtue;advantage
+
+    FACI |< aT                `noun`    {- mAziyap -}          [ "merit", "virtue", "advantage" ] ]
 
  |> "m z z" <| [
 

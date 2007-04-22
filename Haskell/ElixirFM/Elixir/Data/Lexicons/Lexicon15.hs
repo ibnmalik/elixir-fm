@@ -200,12 +200,6 @@ lexicon = listing "Lexicon's properties"
 
     HiFCAL                    `noun`    {- IiDofA' -}          [ "granting", "bestowal" ] ]
 
- |> ".d f b" <| [
-
-    HaFCY                     `verb`    {- OaDofaY -}          [ "grant", "confer", "be granted", "be conferred" ],
-
-    HiFCA'                    `noun`    {- IiDofA' -}          [ "granting", "bestowal" ] ]
-
  |> ".d f f" <| [
 
     FiCL |< aT                `noun`    {- Dif~ap -}           [ "bank", "shore" ],
@@ -219,6 +213,12 @@ lexicon = listing "Lexicon's properties"
     TaFACaL                   `verb`    {- taDAfar -}          [ "interweave", "coordinate" ],
 
     TaFACuL                   `noun`    {- taDAfur -}          [ "coordination", "coalition" ] ]
+
+ |> ".d f y" <| [
+
+    HaFCY                     `verb`    {- OaDofaY -}          [ "grant", "confer", "be granted", "be conferred" ],
+
+    HiFCA'                    `noun`    {- IiDofA' -}          [ "granting", "bestowal" ] ]
 
  |> ".d h d" <| [
 

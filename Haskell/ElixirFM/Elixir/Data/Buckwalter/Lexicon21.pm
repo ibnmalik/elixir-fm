@@ -8992,6 +8992,29 @@ $Lexicon = {
       ],
       'orig' => 'qAniy',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'quwniyaT' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'quwniy',
+      'form' => 'quwniyaT',
+      'lines' => [
+        ';; quwniyap_1',
+        'qwny    quwniy  Nap     Konya'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FUCI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'Konya'
+      ],
+      'orig' => 'quwniyap',
+      'prefix' => ''
     }
   ],
   'qur.tumAn' => [
@@ -34009,29 +34032,6 @@ $Lexicon = {
         'rationed'
       ],
       'orig' => 'muqan~an',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'quwniyaT' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'quwniy',
-      'form' => 'quwniyaT',
-      'lines' => [
-        ';; quwniyap_1',
-        'qwny    quwniy  Nap     Konya'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUCI |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Konya'
-      ],
-      'orig' => 'quwniyap',
       'prefix' => ''
     }
   ],

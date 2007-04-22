@@ -272,7 +272,9 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `noun`    {- yad -}              [ "hand", "hands" ]
                               `plural`     HaFAL
-                           {- `others`  [ "'ayAd NK" ] -},
+                           {- `others`  [ "'ayAd NK" ] -} ]
+
+ |> "y d y" <| [
 
     -- ;; yadawiy~_1
     -- ydwy    yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]
@@ -1170,7 +1172,7 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCiL                `noun`    {- mutayas~ir -}       [ "well-to-do" ] ]
 
- |> "y s s" <| [
+ |> "y s y" <| [
 
     -- ;; yuwsiy_1
     -- ywsy    yuwsiy  Nprop   Yosi;Yossi
@@ -1402,7 +1404,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; yiy_1
     -- yy      yiy     Nprop   Yi
 
-    FiL                       `noun`    {- yiy -}              [ "Yi" ] ]
+    FiL                       `noun`    {- yiy -}              [ "Yi" ],
+
+    -- ;; yiy_1
+    -- yy      yiy     Nprop   Yi
+
+    FI                        `noun`    {- yiy -}              [ "Yi" ] ]
 
  |> "y z ^g" <| [
 

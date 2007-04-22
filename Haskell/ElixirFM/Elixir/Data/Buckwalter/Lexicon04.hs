@@ -2051,7 +2051,23 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- var~ -}             [ "wet", "soaked" ] ]
 
- |> "_t r t" <| [
+ |> "_t r w" <| [
+
+    -- ;; varowap_1
+    -- vrw     varow   Napdu   wealth;abundance
+    -- vrw     varaw   NAt     wealth;abundance;riches
+
+    FaCL |< aT                `noun`    {- varowap -}          [ "wealth", "abundance", "riches" ]
+                              `plural`     FaCaL |< At ]
+
+ |> "_t r w t" <| [
+
+    -- ;; varowat_1
+    -- vrwt    varowat Nprop   Tharwat;Sarwat
+
+    KaRDaS                    `noun`    {- varowat -}          [ "Tharwat", "Sarwat" ] ]
+
+ |> "_t r y" <| [
 
     -- ;; varA'_1
     -- vrA'    varA'   N0_Nh   wealth;abundance
@@ -2059,6 +2075,16 @@ lexicon = listing "Lexicon's properties"
     -- vrA}    varA}   Nhy     wealth;abundance
 
     FaCA'                     `noun`    {- varA' -}            [ "wealth", "abundance" ],
+
+    -- ;; variy-a_1
+    -- vry     variy   PV_no-w_intr    become wealthy
+    -- vr      var     PV_w_intr       become wealthy
+    -- vrY     voraY   IV_0    become wealthy
+    -- vry     voray   IV_Ann  become wealthy
+    -- vr      vora    IV_0hwnyn       become wealthy
+
+    FaCiL                     `verb`    {- variy-a -}          [ "become wealthy" ]
+                              `imperf`     FCY,
 
     -- ;; variy-a_1
     -- vry     variy   PV_no-w_intr    become wealthy
@@ -2107,35 +2133,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `noun`    {- varaY -}            [ "soil" ]
                               `plural`     FaCA
-                           {- `others`  [ "_tarA Nhy" ] -} ]
-
- |> "_t r w" <| [
-
-    -- ;; varowap_1
-    -- vrw     varow   Napdu   wealth;abundance
-    -- vrw     varaw   NAt     wealth;abundance;riches
-
-    FaCL |< aT                `noun`    {- varowap -}          [ "wealth", "abundance", "riches" ]
-                              `plural`     FaCaL |< At ]
-
- |> "_t r w t" <| [
-
-    -- ;; varowat_1
-    -- vrwt    varowat Nprop   Tharwat;Sarwat
-
-    KaRDaS                    `noun`    {- varowat -}          [ "Tharwat", "Sarwat" ] ]
-
- |> "_t r y" <| [
-
-    -- ;; variy-a_1
-    -- vry     variy   PV_no-w_intr    become wealthy
-    -- vr      var     PV_w_intr       become wealthy
-    -- vrY     voraY   IV_0    become wealthy
-    -- vry     voray   IV_Ann  become wealthy
-    -- vr      vora    IV_0hwnyn       become wealthy
-
-    FaCiL                     `verb`    {- variy-a -}          [ "become wealthy" ]
-                              `imperf`     FCY,
+                           {- `others`  [ "_tarA Nhy" ] -},
 
     -- ;; vuray~ap_1
     -- vry     vuray~  NapAt   chandelier
@@ -2230,76 +2228,7 @@ lexicon = listing "Lexicon's properties"
 
     MaFCaL |< aT              `noun`    {- mavowabap -}        [ "reward", "recompense", "rewards", "recompenses" ]
                               `plural`     MaFACiL
-                           {- `others`  [ "ma_tAwib Ndip" ] -},
-
-    -- ;; vawaY-i_1
-    -- vwY     vawaY   PV_0    settle down;remain
-    -- vwA     vawA    PV_h    settle down;remain
-    -- vwy     vaway   PV_Atn  settle down;remain
-    -- vw      vaw     PV_ttAw settle down;remain
-    -- vwy     vowiy   IV_0hAnn        settle down;remain
-    -- vw      vow     IV_0hwnyn       settle down;remain
-    -- vwY     vowaY   IV_0    settle down;remain
-
-    FaCY                      `verb`    {- vawaY-i -}          [ "settle down", "remain" ]
-                              `imperf`     FCY
-                              `imperf`     FCI,
-
-    -- ;; vuwiy-a_1
-    -- vwy     vuwiy   PV_no-w_Pass    be buried
-    -- vwY     vowaY   IV_0_Pass_yu    be buried
-
-    FuCI                      `verb`    {- vuwiy-a -}          [ "be buried" ],
-
-    -- ;; vaw~aY_1
-    -- vwY     vaw~aY  PV_0    give lodging;provide housing
-    -- vwA     vaw~A   PV_h    give lodging;provide housing
-    -- vwy     vaw~ay  PV_Atn  give lodging;provide housing
-    -- vw      vaw~    PV_ttAw give lodging;provide housing
-    -- vwy     vaw~iy  IV_0hAnn_yu     give lodging;provide housing
-    -- vw      vaw~    IV_0hwnyn_yu    give lodging;provide housing
-    -- vwY     vaw~aY  IV_0_Pass_yu    be given lodging;be housed
-    -- vwy     vaw~ay  IV_Ann_Pass_yu  be given lodging;be housed
-
-    FaCCY                     `verb`    {- vaw~aY -}           [ "give lodging", "provide housing", "be given lodging", "be housed" ],
-
-    -- ;; >avowaY_1
-    -- >vwY    >avowaY PV_0    reside;lodge
-    -- AvwY    >avowaY PV_0    reside;lodge
-    -- >vwA    >avowA  PV_h    reside;lodge
-    -- AvwA    >avowA  PV_h    reside;lodge
-    -- >vwy    >avoway PV_Atn  reside;lodge
-    -- Avwy    >avoway PV_Atn  reside;lodge
-    -- >vw     >avow   PV_ttAw reside;lodge
-    -- Avw     >avow   PV_ttAw reside;lodge
-    -- vwy     vowiy   IV_0hAnn_yu     reside;lodge
-    -- vw      vow     IV_0hwnyn_yu    reside;lodge
-    -- vwY     vowaY   IV_0_Pass_yu    be housed;be lodged
-    -- vwy     voway   IV_Ann_Pass_yu  be housed;be lodged
-
-    HaFCY                     `verb`    {- OavowaY -}          [ "reside", "lodge", "be housed", "be lodged" ],
-
-    -- ;; vawiy~_1
-    -- vwy     vawiy~  Ndu     guest room
-
-    FY |< Iy                  `adj`     {- vawiy~ -}           [ "guest room" ],
-
-    -- ;; vuwaY_1
-    -- vwY     vuwaY   N0      road-signs;signposts
-    -- vwA     vuwA    Nhy     road-signs;signposts
-
-    FuCY                      `noun`    {- vuwaY -}            [ "road-signs", "signposts" ],
-
-    -- ;; mavowaY_1
-    -- mvwY    mavowaY N0      abode;lodging
-    -- mvwA    mavowA  Nhy     abode;lodging
-    -- mvwy    mavoway NAn_Nayn        abode;lodging
-    -- mvAwy   mavAwiy N0_Nh   abodes;lodgings
-    -- mvAw    mavAw   NK      abodes;lodgings
-
-    MaFCY                     `noun`    {- mavowaY -}          [ "abode", "lodging", "abodes", "lodgings" ]
-                              `plural`     MaFACI
-                           {- `others`  [ "ma_tAwiy N0_Nh" ] -} ]
+                           {- `others`  [ "ma_tAwib Ndip" ] -} ]
 
  |> "_t w l" <| [
 
@@ -2492,11 +2421,82 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t w y" <| [
 
+    -- ;; vawaY-i_1
+    -- vwY     vawaY   PV_0    settle down;remain
+    -- vwA     vawA    PV_h    settle down;remain
+    -- vwy     vaway   PV_Atn  settle down;remain
+    -- vw      vaw     PV_ttAw settle down;remain
+    -- vwy     vowiy   IV_0hAnn        settle down;remain
+    -- vw      vow     IV_0hwnyn       settle down;remain
+    -- vwY     vowaY   IV_0    settle down;remain
+
+    FaCY                      `verb`    {- vawaY-i -}          [ "settle down", "remain" ]
+                              `imperf`     FCY
+                              `imperf`     FCI,
+
     -- ;; vuwiy-a_1
     -- vwy     vuwiy   PV_no-w_Pass    be buried
     -- vwY     vowaY   IV_0_Pass_yu    be buried
 
-    FuCiL                     `verb`    {- vuwiy-a -}          [ "be buried" ] ]
+    FuCI                      `verb`    {- vuwiy-a -}          [ "be buried" ],
+
+    -- ;; vuwiy-a_1
+    -- vwy     vuwiy   PV_no-w_Pass    be buried
+    -- vwY     vowaY   IV_0_Pass_yu    be buried
+
+    FuCiL                     `verb`    {- vuwiy-a -}          [ "be buried" ],
+
+    -- ;; vaw~aY_1
+    -- vwY     vaw~aY  PV_0    give lodging;provide housing
+    -- vwA     vaw~A   PV_h    give lodging;provide housing
+    -- vwy     vaw~ay  PV_Atn  give lodging;provide housing
+    -- vw      vaw~    PV_ttAw give lodging;provide housing
+    -- vwy     vaw~iy  IV_0hAnn_yu     give lodging;provide housing
+    -- vw      vaw~    IV_0hwnyn_yu    give lodging;provide housing
+    -- vwY     vaw~aY  IV_0_Pass_yu    be given lodging;be housed
+    -- vwy     vaw~ay  IV_Ann_Pass_yu  be given lodging;be housed
+
+    FaCCY                     `verb`    {- vaw~aY -}           [ "give lodging", "provide housing", "be given lodging", "be housed" ],
+
+    -- ;; >avowaY_1
+    -- >vwY    >avowaY PV_0    reside;lodge
+    -- AvwY    >avowaY PV_0    reside;lodge
+    -- >vwA    >avowA  PV_h    reside;lodge
+    -- AvwA    >avowA  PV_h    reside;lodge
+    -- >vwy    >avoway PV_Atn  reside;lodge
+    -- Avwy    >avoway PV_Atn  reside;lodge
+    -- >vw     >avow   PV_ttAw reside;lodge
+    -- Avw     >avow   PV_ttAw reside;lodge
+    -- vwy     vowiy   IV_0hAnn_yu     reside;lodge
+    -- vw      vow     IV_0hwnyn_yu    reside;lodge
+    -- vwY     vowaY   IV_0_Pass_yu    be housed;be lodged
+    -- vwy     voway   IV_Ann_Pass_yu  be housed;be lodged
+
+    HaFCY                     `verb`    {- OavowaY -}          [ "reside", "lodge", "be housed", "be lodged" ],
+
+    -- ;; vawiy~_1
+    -- vwy     vawiy~  Ndu     guest room
+
+    FY |< Iy                  `adj`     {- vawiy~ -}           [ "guest room" ],
+
+    -- ;; vuwaY_1
+    -- vwY     vuwaY   N0      road-signs;signposts
+    -- vwA     vuwA    Nhy     road-signs;signposts
+
+    FuCY                      `noun`    {- vuwaY -}            [ "road-signs", "signposts" ],
+
+    -- ;; mavowaY_1
+    -- mvwY    mavowaY N0      abode;lodging
+    -- mvwA    mavowA  Nhy     abode;lodging
+    -- mvwy    mavoway NAn_Nayn        abode;lodging
+    -- mvAwy   mavAwiy N0_Nh   abodes;lodgings
+    -- mvAw    mavAw   NK      abodes;lodgings
+
+    MaFCY                     `noun`    {- mavowaY -}          [ "abode", "lodging", "abodes", "lodgings" ]
+                              `plural`     MaFCaL
+                              `plural`     MaFACiL
+                              `plural`     MaFACI
+                           {- `others`  [ "ma_tway NAn_Nayn", "ma_tAwiy N0_Nh" ] -} ]
 
  |> "_t y b" <| [
 

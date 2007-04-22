@@ -35,7 +35,9 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `noun`    {- yad -}              [ "hand", "hands" ]
                               `plural`     HaFAL
-                           {- `others`  [ "'ayAd NK" ] -},
+                           {- `others`  [ "'ayAd NK" ] -} ]
+
+ |> "y d y" <| [
 
     FaCY |< Iy                `adj`     {- yadawiy~ -}         [ "manual", "hand" ] ]
 
@@ -171,7 +173,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`     {- muyas~ar -}         [ "made easy", "facilitated", "well-to-do" ] ]
 
- |> "y s s" <| [
+ |> "y s y" <| [
 
     FUCI                      `noun`    {- yuwsiy -}           [ "Yosi", "Yossi" ] ]
 
@@ -231,7 +233,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "y y y" <| [
 
-    FiL                       `noun`    {- yiy -}              [ "Yi" ] ]
+    FiL                       `noun`    {- yiy -}              [ "Yi" ],
+
+    FI                        `noun`    {- yiy -}              [ "Yi" ] ]
 
  |> "yA" <| [
 

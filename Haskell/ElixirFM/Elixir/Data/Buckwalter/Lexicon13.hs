@@ -3961,12 +3961,6 @@ lexicon = listing "Lexicon's properties"
 
     FACaL                     `verb`    {- \$Afah -}           [ "communicate verbally" ],
 
-    -- ;; $afawiy~_1
-    -- \$fwy    $afawiy~        N-ap    oral;verbal         [[$afawiy~/ADJ]]
-    -- \$fwy    $afawiy~        NF      orally;verbally     [[$afawiy~/ADV]]
-
-    FaCY |< Iy                `adj`     {- \$afawiy~ -}        [ "oral", "verbal", "orally", "verbally" ],
-
     -- ;; $afahiy~_1
     -- \$fhy    $afahiy~        N-ap    oral;verbal         [[$afahiy~/ADJ]]
     -- \$fhy    $afahiy~        NF      orally;verbally     [[$afahiy~/ADV]]
@@ -4287,6 +4281,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s f y" <| [
 
+    -- ;; $afawiy~_1
+    -- \$fwy    $afawiy~        N-ap    oral;verbal         [[$afawiy~/ADJ]]
+    -- \$fwy    $afawiy~        NF      orally;verbally     [[$afawiy~/ADV]]
+
+    FaCY |< Iy                `adj`     {- \$afawiy~ -}        [ "oral", "verbal", "orally", "verbally" ],
+
     -- ;; $Afiy_1
     -- \$Afy    $Afiy   N0F     healing;curative     [[$Afiy/ADJ]]
     -- \$Af     $Af     NK      healing;curative
@@ -4515,11 +4515,6 @@ lexicon = listing "Lexicon's properties"
     IstiFCAL |< Iy            `adj`     {- Aisoti$ohAdiy~ -}   [ "martyr (\"suicide\" in Western media)" ] ]
 
  |> "^s h h" <| [
-
-    -- ;; $Ahiy_1
-    -- \$Ahy    $Ahiy   N0      tea
-
-    FACI                      `noun`    {- \$Ahiy -}           [ "tea" ],
 
     -- ;; $ah~aY_1
     -- \$hY     $ah~aY  PV_0    excite;arouse
@@ -4766,6 +4761,11 @@ lexicon = listing "Lexicon's properties"
     KaRDIS                    `adj`     {- \$ahowiy~ -}        [ "sensual" ] ]
 
  |> "^s h y" <| [
+
+    -- ;; $Ahiy_1
+    -- \$Ahy    $Ahiy   N0      tea
+
+    FACI                      `noun`    {- \$Ahiy -}           [ "tea" ],
 
     -- ;; $Ahiy_1
     -- \$Ahy    $Ahiy   N0      tea
@@ -8970,15 +8970,6 @@ lexicon = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- \$usuwE -}          [ "immensity", "extensiveness" ] ]
 
- |> "^s s s" <| [
-
-    -- ;; $Asiy_1
-    -- \$Asy    $Asiy   N0      chassis
-    -- \$Asyh   $Asiyh  N       chassis
-    -- \$Asyh   $Asiyh  NAt     chassis
-
-    FACI                      `noun`    {- \$Asiy -}           [ "chassis" ] ]
-
  |> "^s s t" <| [
 
     -- ;; $isot_1
@@ -8993,7 +8984,14 @@ lexicon = listing "Lexicon's properties"
     -- \$Asyh   $Asiyh  N       chassis
     -- \$Asyh   $Asiyh  NAt     chassis
 
-    FACiL                     `noun`    {- \$Asiy -}           [ "chassis" ] ]
+    FACiL                     `noun`    {- \$Asiy -}           [ "chassis" ],
+
+    -- ;; $Asiy_1
+    -- \$Asy    $Asiy   N0      chassis
+    -- \$Asyh   $Asiyh  N       chassis
+    -- \$Asyh   $Asiyh  NAt     chassis
+
+    FACI                      `noun`    {- \$Asiy -}           [ "chassis" ] ]
 
  |> "^s t '" <| [
 
@@ -9253,11 +9251,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCLY                     `noun`    {- \$at~aY -}          [ "all", "diverse", "miscellaneous" ],
 
-    -- ;; $at~aY_1
-    -- \$tY     $at~aY  N0      all;diverse;miscellaneous
-
-    FaCCY                     `noun`    {- \$at~aY -}          [ "all", "diverse", "miscellaneous" ],
-
     -- ;; $atAt_1
     -- \$tAt    $atAt   N       dispersed;scattered
     -- \$tyt    $atiyt  N/ap    dispersed;scattered
@@ -9377,6 +9370,11 @@ lexicon = listing "Lexicon's properties"
     FaCY |< Iy                `adj`     {- \$atawiy~ -}        [ "winter", "wintery" ] ]
 
  |> "^s t y" <| [
+
+    -- ;; $at~aY_1
+    -- \$tY     $at~aY  N0      all;diverse;miscellaneous
+
+    FaCCY                     `noun`    {- \$at~aY -}          [ "all", "diverse", "miscellaneous" ],
 
     -- ;; $Atiy_1
     -- \$Aty    $Atiy   N0F     wintry;hibernal     [[$Atiy/ADJ]]
@@ -9705,16 +9703,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $A}ih_1
     -- \$A}h    $A}ih   N-ap    distorted     [[$A}ih/ADJ]]
 
-    FA'iL                     `adj`     {- \$A}ih -}           [ "distorted" ],
-
-    -- ;; $Ap_1
-    -- \$A      $A      Napdu   sheep
-    -- \$wAh    $iwAh   N       sheep
-    -- \$yAh    $iyAh   N       sheep
-
-    FY |< aT                  `noun`    {- \$Ap -}             [ "sheep" ]
-                              `plural`     FiCAL
-                           {- `others`  [ "^siwAh N" ] -} ]
+    FA'iL                     `adj`     {- \$A}ih -}           [ "distorted" ] ]
 
  |> "^s w k" <| [
 
@@ -10174,6 +10163,13 @@ lexicon = listing "Lexicon's properties"
     FaCLA'                    `noun`    {- \$aw~A' -}          [ "seller of roast meat", "rotisseur" ] ]
 
  |> "^s w y" <| [
+
+    -- ;; $Ap_1
+    -- \$A      $A      Napdu   sheep
+    -- \$wAh    $iwAh   N       sheep
+    -- \$yAh    $iyAh   N       sheep
+
+    FY |< aT                  `noun`    {- \$Ap -}             [ "sheep" ],
 
     -- ;; $awaY-i_1
     -- \$wY     $awaY   PV_0    roast;grill

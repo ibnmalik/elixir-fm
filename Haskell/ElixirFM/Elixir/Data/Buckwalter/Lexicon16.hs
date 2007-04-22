@@ -2946,12 +2946,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; TAm~ap_1
     -- TAm     TAm~    NapAt   calamity;disaster
 
-    FACL |< aT                `noun`    {- TAm~ap -}           [ "calamity", "disaster" ],
-
-    -- ;; Tuwmiy_1
-    -- Twmy    Tuwmiy  Nprop   Tommy
-
-    FUCI                      `noun`    {- Tuwmiy -}           [ "Tommy" ] ]
+    FACL |< aT                `noun`    {- TAm~ap -}           [ "calamity", "disaster" ] ]
 
  |> ".t m n" <| [
 
@@ -3140,7 +3135,12 @@ lexicon = listing "Lexicon's properties"
     -- TAm     TAm     Nuwn_Niyn       flowing over
     -- TAmy    TAmiy   NapAt   flowing over
 
-    FACiL                     `adj`     {- TAmiy -}            [ "flowing over" ] ]
+    FACiL                     `adj`     {- TAmiy -}            [ "flowing over" ],
+
+    -- ;; Tuwmiy_1
+    -- Twmy    Tuwmiy  Nprop   Tommy
+
+    FUCI                      `noun`    {- Tuwmiy -}           [ "Tommy" ] ]
 
  |> ".t m y y" <| [
 
@@ -3365,7 +3365,9 @@ lexicon = listing "Lexicon's properties"
     -- ATnAn   <iTonAn N/At    resounding;ringing
 
     FaCLAn                    `noun`    {- Tan~An -}           [ "resounding", "ringing" ]
-                              `plural`     HiFCAL |< At,
+                              `plural`     HiFCAL |< At ]
+
+ |> ".t n y" <| [
 
     -- ;; Tuwniy_1
     -- Twny    Tuwniy  Nprop   Tony

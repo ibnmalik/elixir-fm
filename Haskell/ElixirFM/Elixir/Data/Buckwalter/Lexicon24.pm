@@ -1686,6 +1686,20 @@ $Lexicon = {
       ],
       'orig' => 'mAziyap',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mAziy',
+      'form' => 'mAziyaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'mAziyap',
+      'prefix' => ''
     }
   ],
   'muwrdi_hAy' => [
@@ -10559,20 +10573,6 @@ $Lexicon = {
         'Mazin'
       ],
       'orig' => 'mAzin',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mAziy',
-      'form' => 'mAziyaT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACI |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [],
-      'orig' => 'mAziyap',
       'prefix' => ''
     }
   ],
@@ -50297,6 +50297,9 @@ $Lexicon = {
     }
   ]
 };
+$Lexicon->{'m z y'}[1]{'types'} = $Lexicon->{'m z y'}[0]{'types'};
+$Lexicon->{'m z y'}[1]{'lines'} = $Lexicon->{'m z y'}[0]{'lines'};
+$Lexicon->{'m z y'}[1]{'glosses'} = $Lexicon->{'m z y'}[0]{'glosses'};
 $Lexicon->{'m .g n'}[2]{'types'} = $Lexicon->{'m .g n'}[1]{'types'};
 $Lexicon->{'m .g n'}[2]{'lines'} = $Lexicon->{'m .g n'}[1]{'lines'};
 $Lexicon->{'m .g n'}[2]{'glosses'} = $Lexicon->{'m .g n'}[1]{'glosses'};
@@ -50315,9 +50318,6 @@ $Lexicon->{'m y t'}[3]{'glosses'} = $Lexicon->{'m w t'}[9]{'glosses'};
 $Lexicon->{'m y t'}[4]{'types'} = $Lexicon->{'m w t'}[10]{'types'};
 $Lexicon->{'m y t'}[4]{'lines'} = $Lexicon->{'m w t'}[10]{'lines'};
 $Lexicon->{'m y t'}[4]{'glosses'} = $Lexicon->{'m w t'}[10]{'glosses'};
-$Lexicon->{'m z n'}[2]{'types'} = $Lexicon->{'m z y'}[0]{'types'};
-$Lexicon->{'m z n'}[2]{'lines'} = $Lexicon->{'m z y'}[0]{'lines'};
-$Lexicon->{'m z n'}[2]{'glosses'} = $Lexicon->{'m z y'}[0]{'glosses'};
 $Lexicon->{'m t z'}[0]{'types'} = $Lexicon->{'m z z'}[1]{'types'};
 $Lexicon->{'m t z'}[0]{'lines'} = $Lexicon->{'m z z'}[1]{'lines'};
 $Lexicon->{'m t z'}[0]{'glosses'} = $Lexicon->{'m z z'}[1]{'glosses'};

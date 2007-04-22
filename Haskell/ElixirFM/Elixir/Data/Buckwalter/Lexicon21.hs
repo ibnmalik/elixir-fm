@@ -8857,12 +8857,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muqan~an_1
     -- mqnn    muqan~an        N-ap    standard;rationed     [[muqan~an/ADJ]]
 
-    MuFaCCaL                  `adj`     {- muqan~an -}         [ "standard", "rationed" ],
-
-    -- ;; quwniyap_1
-    -- qwny    quwniy  Nap     Konya
-
-    FUCI |< aT                `noun`    {- quwniyap -}         [ "Konya" ] ]
+    MuFaCCaL                  `adj`     {- muqan~an -}         [ "standard", "rationed" ] ]
 
  |> "q n q r" <| [
 
@@ -9042,7 +9037,12 @@ lexicon = listing "Lexicon's properties"
     -- qAny    qAniy   NAn_Nayn        owner;possessor
     -- qAny    qAniy   NapAt   owner;possessor
 
-    FACiL                     `noun`    {- qAniy -}            [ "owner", "possessor" ] ]
+    FACiL                     `noun`    {- qAniy -}            [ "owner", "possessor" ],
+
+    -- ;; quwniyap_1
+    -- qwny    quwniy  Nap     Konya
+
+    FUCI |< aT                `noun`    {- quwniyap -}         [ "Konya" ] ]
 
  |> "q n z `" <| [
 

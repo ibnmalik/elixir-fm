@@ -1749,15 +1749,15 @@ lexicon = listing "Lexicon's properties"
 
     FaCUL |< Iy               `adj`     {- naruwjiy~ -}        [ "Norwegian" ] ]
 
- |> "n r r" <| [
-
-    FUCI                      `noun`    {- nuwriy -}           [ "Nouri", "Nuri" ] ]
-
  |> "n r w ^g" <| [
 
     KuRDIS                    `noun`    {- nurowiyj -}         [ "Norway" ],
 
     KuRDIS |< Iy              `adj`     {- nurowiyjiy~ -}      [ "Norwegian" ] ]
+
+ |> "n r y" <| [
+
+    FUCI                      `noun`    {- nuwriy -}           [ "Nouri", "Nuri" ] ]
 
  |> "n s '" <| [
 

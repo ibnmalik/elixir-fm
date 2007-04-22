@@ -1309,55 +1309,6 @@ lexicon = listing "Lexicon's properties"
 
     KaRADiS                   `noun`    {- DafA}ir -}          [ "braids" ] ]
 
- |> ".d f b" <| [
-
-    -- ;; DafA-u_1
-    -- DfA     DafA    PV_0    overflow;be abundant
-    -- Dfw     Dafaw   PV_Atn  overflow;be abundant
-    -- Df      Daf     PV_ttAw overflow;be abundant
-    -- Dfw     Dofuw   IV_0hAnn        overflow;be abundant
-    -- Df      Dof     IV_0hwnyn       overflow;be abundant
-
-    FaCA                      `verb`    {- DafA-u -}           [ "overflow", "be abundant" ]
-                              `imperf`     FCU,
-
-    -- ;; >aDofaY_1
-    -- >DfY    >aDofaY PV_0    grant;confer
-    -- ADfY    >aDofaY PV_0    grant;confer
-    -- >DfA    >aDofA  PV_h    grant;confer
-    -- ADfA    >aDofA  PV_h    grant;confer
-    -- >Dfy    >aDofay PV_Atn  grant;confer
-    -- ADfy    >aDofay PV_Atn  grant;confer
-    -- >Df     >aDof   PV_ttAw grant;confer
-    -- ADf     >aDof   PV_ttAw grant;confer
-    -- Dfy     Dofiy   IV_0hAnn_yu     grant;confer
-    -- Df      Dof     IV_0hwnyn_yu    grant;confer
-    -- DfY     DofaY   IV_0_Pass_yu    be granted;be conferred
-    -- Dfy     Dofay   IV_Ann_Pass_yu  be granted;be conferred
-
-    HaFCY                     `verb`    {- OaDofaY -}          [ "grant", "confer", "be granted", "be conferred" ],
-
-    -- ;; <iDofA'_1
-    -- <DfA'   <iDofA' N0_Nh   granting;bestowal
-    -- ADfA'   <iDofA' N0_Nh   granting;bestowal
-    -- <DfA&   <iDofA& Nh      granting;bestowal
-    -- ADfA&   <iDofA& Nh      granting;bestowal
-    -- <DfA}   <iDofA} Nhy     granting;bestowal
-    -- ADfA}   <iDofA} Nhy     granting;bestowal
-    -- <DfA'   <iDofA' NAt     granting;bestowal
-    -- ADfA'   <iDofA' NAt     granting;bestowal
-
-    HiFCA'                    `noun`    {- IiDofA' -}          [ "granting", "bestowal" ],
-
-    -- ;; DAfiy_1
-    -- DAfy    DAfiy   N0F     ample;elaborate
-    -- DAf     DAf     NK      ample;elaborate
-    -- DAfy    DAfiy   NAn_Nayn        ample;elaborate
-    -- DAf     DAf     Nuwn_Niyn       ample;elaborate
-    -- DAfy    DAfiy   NapAt   ample;elaborate
-
-    FACI                      `noun`    {- DAfiy -}            [ "ample", "elaborate" ] ]
-
  |> ".d f d `" <| [
 
     -- ;; DafodaE_1
@@ -1455,6 +1406,44 @@ lexicon = listing "Lexicon's properties"
 
  |> ".d f y" <| [
 
+    -- ;; DafA-u_1
+    -- DfA     DafA    PV_0    overflow;be abundant
+    -- Dfw     Dafaw   PV_Atn  overflow;be abundant
+    -- Df      Daf     PV_ttAw overflow;be abundant
+    -- Dfw     Dofuw   IV_0hAnn        overflow;be abundant
+    -- Df      Dof     IV_0hwnyn       overflow;be abundant
+
+    FaCA                      `verb`    {- DafA-u -}           [ "overflow", "be abundant" ]
+                              `imperf`     FCU,
+
+    -- ;; >aDofaY_1
+    -- >DfY    >aDofaY PV_0    grant;confer
+    -- ADfY    >aDofaY PV_0    grant;confer
+    -- >DfA    >aDofA  PV_h    grant;confer
+    -- ADfA    >aDofA  PV_h    grant;confer
+    -- >Dfy    >aDofay PV_Atn  grant;confer
+    -- ADfy    >aDofay PV_Atn  grant;confer
+    -- >Df     >aDof   PV_ttAw grant;confer
+    -- ADf     >aDof   PV_ttAw grant;confer
+    -- Dfy     Dofiy   IV_0hAnn_yu     grant;confer
+    -- Df      Dof     IV_0hwnyn_yu    grant;confer
+    -- DfY     DofaY   IV_0_Pass_yu    be granted;be conferred
+    -- Dfy     Dofay   IV_Ann_Pass_yu  be granted;be conferred
+
+    HaFCY                     `verb`    {- OaDofaY -}          [ "grant", "confer", "be granted", "be conferred" ],
+
+    -- ;; <iDofA'_1
+    -- <DfA'   <iDofA' N0_Nh   granting;bestowal
+    -- ADfA'   <iDofA' N0_Nh   granting;bestowal
+    -- <DfA&   <iDofA& Nh      granting;bestowal
+    -- ADfA&   <iDofA& Nh      granting;bestowal
+    -- <DfA}   <iDofA} Nhy     granting;bestowal
+    -- ADfA}   <iDofA} Nhy     granting;bestowal
+    -- <DfA'   <iDofA' NAt     granting;bestowal
+    -- ADfA'   <iDofA' NAt     granting;bestowal
+
+    HiFCA'                    `noun`    {- IiDofA' -}          [ "granting", "bestowal" ],
+
     -- ;; DAfiy_1
     -- DAfy    DAfiy   N0F     ample;elaborate
     -- DAf     DAf     NK      ample;elaborate
@@ -1462,7 +1451,16 @@ lexicon = listing "Lexicon's properties"
     -- DAf     DAf     Nuwn_Niyn       ample;elaborate
     -- DAfy    DAfiy   NapAt   ample;elaborate
 
-    FACiL                     `noun`    {- DAfiy -}            [ "ample", "elaborate" ] ]
+    FACiL                     `noun`    {- DAfiy -}            [ "ample", "elaborate" ],
+
+    -- ;; DAfiy_1
+    -- DAfy    DAfiy   N0F     ample;elaborate
+    -- DAf     DAf     NK      ample;elaborate
+    -- DAfy    DAfiy   NAn_Nayn        ample;elaborate
+    -- DAf     DAf     Nuwn_Niyn       ample;elaborate
+    -- DAfy    DAfiy   NapAt   ample;elaborate
+
+    FACI                      `noun`    {- DAfiy -}            [ "ample", "elaborate" ] ]
 
  |> ".d h d" <| [
 
@@ -2648,19 +2646,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muDoTarib_1
     -- mDTrb   muDoTarib       Nall    disturbed;agitated;disrupted
 
-    MuFtaCiL                  `noun`    {- muDoTarib -}        [ "disturbed", "agitated", "disrupted" ],
-
-    -- ;; Dar~aY_1
-    -- DrY     Dar~aY  PV_0    provoke;excite
-    -- DrA     Dar~A   PV_h    provoke;excite
-    -- Dry     Dar~ay  PV_Atn  provoke;excite
-    -- Dr      Dar~    PV_ttAw provoke;excite
-    -- Dry     Dar~iy  IV_0hAnn_yu     provoke;excite
-    -- Dr      Dar~    IV_0hwnyn_yu    provoke;excite
-    -- DrY     Dar~aY  IV_0_Pass_yu    be provoked;be excited
-    -- Dry     Dar~ay  IV_Ann_Pass_yu  be provoked;be excited
-
-    FaCCY                     `verb`    {- Dar~aY -}           [ "provoke", "excite", "be provoked", "be excited" ] ]
+    MuFtaCiL                  `noun`    {- muDoTarib -}        [ "disturbed", "agitated", "disrupted" ] ]
 
  |> ".d r m" <| [
 
@@ -2946,6 +2932,18 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ ".dAriy NAn_Nayn N0F" ] -} ]
 
  |> ".d r y" <| [
+
+    -- ;; Dar~aY_1
+    -- DrY     Dar~aY  PV_0    provoke;excite
+    -- DrA     Dar~A   PV_h    provoke;excite
+    -- Dry     Dar~ay  PV_Atn  provoke;excite
+    -- Dr      Dar~    PV_ttAw provoke;excite
+    -- Dry     Dar~iy  IV_0hAnn_yu     provoke;excite
+    -- Dr      Dar~    IV_0hwnyn_yu    provoke;excite
+    -- DrY     Dar~aY  IV_0_Pass_yu    be provoked;be excited
+    -- Dry     Dar~ay  IV_Ann_Pass_yu  be provoked;be excited
+
+    FaCCY                     `verb`    {- Dar~aY -}           [ "provoke", "excite", "be provoked", "be excited" ],
 
     -- ;; DawAriy_1
     -- DwAry   DawAriy N0_Nh   predatory animals

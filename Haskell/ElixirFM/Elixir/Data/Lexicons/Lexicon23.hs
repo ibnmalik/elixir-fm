@@ -347,9 +347,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- labiyb -}           [ "sensible", "reasonable" ],
 
-    FaCLY                     `verb`    {- lab~aY -}           [ "comply with", "carry out", "respond to", "be complied with", "be carried out", "be responded to" ],
-
-    FUCI                      `noun`    {- luwbiy -}           [ "lobby" ] ]
+    FaCLY                     `verb`    {- lab~aY -}           [ "comply with", "carry out", "respond to", "be complied with", "be carried out", "be responded to" ] ]
 
  |> "l b n" <| [
 
@@ -405,7 +403,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCCY                     `verb`    {- lab~aY -}           [ "comply with", "carry out", "respond to", "be complied with", "be carried out", "be responded to" ],
 
-    TaFCiL |< aT              `noun`    {- talobiyap -}        [ "compliance with", "responding to" ] ]
+    TaFCiL |< aT              `noun`    {- talobiyap -}        [ "compliance with", "responding to" ],
+
+    FUCI                      `noun`    {- luwbiy -}           [ "lobby" ] ]
 
  |> "l d ' n" <| [
 
@@ -926,6 +926,8 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCaL ]
 
  |> "l y y" <| [
+
+    FI                        `noun`    {- liy -}              [ "Lee", "Li" ],
 
     FiL                       `noun`    {- liy -}              [ "Lee", "Li" ] ]
 

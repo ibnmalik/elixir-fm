@@ -387,11 +387,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "h ^g ^g" <| [
 
-    -- ;; hAjiy_1
-    -- hAjy    hAjiy   Nprop   Haji
-
-    FACI                      `noun`    {- hAjiy -}            [ "Haji" ],
-
     -- ;; haj~-u_1
     -- hj      haj~    PV_V    burn;be aflame
     -- hjj     hajaj   PV_C    burn;be aflame
@@ -966,6 +961,11 @@ lexicon = listing "Lexicon's properties"
     -- ;; hAjiy_1
     -- hAjy    hAjiy   Nprop   Haji
 
+    FACI                      `noun`    {- hAjiy -}            [ "Haji" ],
+
+    -- ;; hAjiy_1
+    -- hAjy    hAjiy   Nprop   Haji
+
     FACiL                     `noun`    {- hAjiy -}            [ "Haji" ],
 
     -- ;; tahojiyap_1
@@ -1033,12 +1033,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hA$~_1
     -- hA$     hA$~    Nall    cheerful     [[hA$~/ADJ]]
 
-    FACL                      `adj`     {- hA$~ -}             [ "cheerful" ],
-
-    -- ;; huw$iy_1
-    -- hw$y    huw$iy  Nprop   Ho Chi
-
-    FUCI                      `noun`    {- huw$iy -}           [ "Ho Chi" ] ]
+    FACL                      `adj`     {- hA$~ -}             [ "cheerful" ] ]
 
  |> "h ^s m" <| [
 
@@ -1108,6 +1103,13 @@ lexicon = listing "Lexicon's properties"
     -- mh$m    muha$~am        Nall    smashed;shattered     [[muha$~am/ADJ]]
 
     MuFaCCaL                  `adj`     {- muha$~am -}         [ "smashed", "shattered" ] ]
+
+ |> "h ^s y" <| [
+
+    -- ;; huw$iy_1
+    -- hw$y    huw$iy  Nprop   Ho Chi
+
+    FUCI                      `noun`    {- huw$iy -}           [ "Ho Chi" ] ]
 
  |> "h _d '" <| [
 
@@ -2669,13 +2671,6 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `verb`    {- hakaE-a -}          [ "lie down", "rest" ]
                               `imperf`     FCaL ]
 
- |> "h k k" <| [
-
-    -- ;; huwkiy_1
-    -- hwky    huwkiy  N0      hockey
-
-    FUCI                      `noun`    {- huwkiy -}           [ "hockey" ] ]
-
  |> "h k m" <| [
 
     -- ;; tahak~am_1
@@ -2721,6 +2716,13 @@ lexicon = listing "Lexicon's properties"
     -- hktAr   hikotAr NduAt   hectare
 
     KiRDAS                    `noun`    {- hikotAr -}          [ "hectare" ] ]
+
+ |> "h k y" <| [
+
+    -- ;; huwkiy_1
+    -- hwky    huwkiy  N0      hockey
+
+    FUCI                      `noun`    {- huwkiy -}           [ "hockey" ] ]
 
  |> "h l `" <| [
 

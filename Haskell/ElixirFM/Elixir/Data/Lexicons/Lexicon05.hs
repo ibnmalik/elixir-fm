@@ -284,16 +284,6 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL                    `noun`    {- majoduwl -}         [ "twisted", "braided" ] ]
 
- |> "^g d m" <| [
-
-    IstaFCY                   `verb`    {- AisotajodaY -}      [ "implore", "beg", "be implored", "be begged" ],
-
-    FaCA'                     `noun`    {- jadA' -}            [ "advantage", "gain", "benefit" ],
-
-    IstiFCA'                  `noun`    {- AisotijodA' -}      [ "plea", "supplication", "pleas", "supplications" ],
-
-    MuFCI                     `noun`    {- mujodiy -}          [ "useful", "suitable" ] ]
-
  |> "^g d r" <| [
 
     FaCuL                     `verb`    {- jadur-u -}          [ "be suitable", "behoove" ]
@@ -327,6 +317,14 @@ lexicon = listing "Lexicon's properties"
 
  |> "^g d y" <| [
 
+    IstaFCY                   `verb`    {- AisotajodaY -}      [ "implore", "beg", "be implored", "be begged" ],
+
+    FaCA'                     `noun`    {- jadA' -}            [ "advantage", "gain", "benefit" ],
+
+    IstiFCA'                  `noun`    {- AisotijodA' -}      [ "plea", "supplication", "pleas", "supplications" ],
+
+    MuFCI                     `noun`    {- mujodiy -}          [ "useful", "suitable" ],
+
     MuFCiL                    `noun`    {- mujodiy -}          [ "useful", "suitable" ],
 
     FaCL                      `noun`    {- jadoy -}            [ "goat", "goats" ]
@@ -355,7 +353,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- mujaf~af -}         [ "dried", "desiccated" ] ]
 
- |> "^g f n" <| [
+ |> "^g f y" <| [
 
     FaCA'                     `noun`    {- jafA' -}            [ "harshness" ] ]
 
@@ -1014,31 +1012,6 @@ lexicon = listing "Lexicon's properties"
 
     MuFCiL                    `noun`    {- mujorim -}          [ "criminal" ] ]
 
- |> "^g r n" <| [
-
-    FaCY                      `verb`    {- jaraY-i -}          [ "occur", "happen", "take place", "flow" ]
-                              `imperf`     FCI,
-
-    HaFCY                     `verb`    {- OajoraY -}          [ "conduct", "carry out", "perform", "be conducted", "be carried out", "be performed" ],
-
-    MaFCY                     `noun`    {- majoraY -}          [ "course", "path", "courses", "paths" ]
-                              `plural`     MaFACI
-                           {- `others`  [ "ma^gAriy N0_Nh" ] -},
-
-    HiFCA'                    `noun`    {- IijorA' -}          [ "conducting", "undertaking", "carrying out" ],
-
-    HiFCA'                    `noun`    {- IijorA' -}          [ "process", "measure" ],
-
-    HiFCA'                    `noun`    {- IijorA' -}          [ "measures", "steps" ],
-
-    HiFCA' |< Iy              `adj`     {- IijorA}iy~ -}       [ "operational" ],
-
-    FACI |< aN                `noun`    {- jAriyAF -}          [ "occurring", "happening", "flowing" ]
-                              `plural`     FACI
-                           {- `others`  [ "^gAriy NF" ] -},
-
-    FACI                      `adj`     {- jAriy -}            [ "current", "present", "proceeding", "taking place" ] ]
-
  |> "^g r r" <| [
 
     FaCL                      `verb`    {- jar~-u -}           [ "pull", "drag" ]
@@ -1065,14 +1038,40 @@ lexicon = listing "Lexicon's properties"
 
  |> "^g r y" <| [
 
+    FaCY                      `verb`    {- jaraY-i -}          [ "occur", "happen", "take place", "flow" ]
+                              `imperf`     FCI,
+
+    HaFCY                     `verb`    {- OajoraY -}          [ "conduct", "carry out", "perform", "be conducted", "be carried out", "be performed" ],
+
     FaCL                      `noun`    {- jaroy -}            [ "course" ],
 
     FiCAL |< aT               `noun`    {- jirAyap -}          [ "rations", "salary" ],
+
+    MaFCY                     `noun`    {- majoraY -}          [ "course", "path", "courses", "paths" ]
+                              `plural`     MaFCaL
+                              `plural`     MaFACiL
+                              `plural`     MaFACI
+                           {- `others`  [ "ma^gray NAn_Nayn", "ma^gAriy N0_Nh" ] -},
+
+    HiFCA'                    `noun`    {- IijorA' -}          [ "conducting", "undertaking", "carrying out" ],
+
+    HiFCA'                    `noun`    {- IijorA' -}          [ "process", "measure" ],
+
+    HiFCA'                    `noun`    {- IijorA' -}          [ "measures", "steps" ],
+
+    HiFCA' |< Iy              `adj`     {- IijorA}iy~ -}       [ "operational" ],
+
+    FACI |< aN                `noun`    {- jAriyAF -}          [ "occurring", "happening", "flowing" ]
+                              `plural`     FACiL
+                              `plural`     FACI
+                           {- `others`  [ "^gAriy NF" ] -},
 
     FACiL |< aN               `noun`    {- jAriyAF -}          [ "occurring", "happening", "flowing" ]
                               `plural`     FACiL
                               `plural`     FACI
                            {- `others`  [ "^gAriy NF" ] -},
+
+    FACI                      `adj`     {- jAriy -}            [ "current", "present", "proceeding", "taking place" ],
 
     FACiL                     `adj`     {- jAriy -}            [ "current", "present", "proceeding", "taking place" ] ]
 
@@ -1457,12 +1456,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- jazom -}            [ "clipping", "decision" ] ]
 
- |> "^g z n" <| [
-
-    FaCA'                     `noun`    {- jazA' -}            [ "reward", "punishment", "penalty" ],
-
-    FaCA' |< Iy               `adj`     {- jazA}iy~ -}         [ "penal" ] ]
-
  |> "^g z r" <| [
 
     FaCIL |< aT               `noun`    {- jaziyrap -}         [ "island", "peninsula" ],
@@ -1472,6 +1465,12 @@ lexicon = listing "Lexicon's properties"
     MaFCaL |< aT              `noun`    {- majozarap -}        [ "massacre", "slaughter", "massacres", "slaughters" ]
                               `plural`     MaFACiL
                            {- `others`  [ "ma^gAzir Ndip" ] -} ]
+
+ |> "^g z y" <| [
+
+    FaCA'                     `noun`    {- jazA' -}            [ "reward", "punishment", "penalty" ],
+
+    FaCA' |< Iy               `adj`     {- jazA}iy~ -}         [ "penal" ] ]
 
  |> "^gA.guwAr" <| [
 

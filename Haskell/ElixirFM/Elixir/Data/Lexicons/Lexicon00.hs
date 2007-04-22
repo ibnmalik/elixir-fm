@@ -21,10 +21,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Iiyh -}             [ "A." ] ]
 
- |> "-- ' --" <| [
-
-    CI                        `noun`    {- Iiy -}              [ "E." ] ]
-
  |> "-- ' f" <| [
 
     CaL                       `noun`    {- Oaf -}              [ "A.F." ],
@@ -57,57 +53,47 @@ lexicon = listing "Lexicon's properties"
 
  |> "-- ' y" <| [
 
+    CI                        `noun`    {- Iiy -}              [ "E." ],
+
     CiL                       `noun`    {- Iiy -}              [ "E." ],
 
     CaL                       `noun`    {- Oay -}              [ "A.", "I." ] ]
 
- |> "-- ^g --" <| [
-
-    CI                        `noun`    {- jiy -}              [ "G.", "J." ] ]
-
  |> "-- ^g y" <| [
+
+    CI                        `noun`    {- jiy -}              [ "G.", "J." ],
 
     CiL                       `noun`    {- jiy -}              [ "G.", "J." ] ]
 
- |> "-- b --" <| [
+ |> "-- b y" <| [
+
+    CiL                       `noun`    {- biy -}              [ "B." ],
 
     CI                        `noun`    {- biy -}              [ "B." ] ]
 
- |> "-- b y" <| [
+ |> "-- d y" <| [
 
-    CiL                       `noun`    {- biy -}              [ "B." ] ]
-
- |> "-- d --" <| [
+    CiL                       `noun`    {- diy -}              [ "D.", "De" ],
 
     CI                        `noun`    {- diy -}              [ "D.", "De" ] ]
 
- |> "-- d y" <| [
-
-    CiL                       `noun`    {- diy -}              [ "D.", "De" ] ]
-
- |> "-- f --" <| [
-
-    CI                        `noun`    {- fiy -}              [ "V." ] ]
-
  |> "-- f y" <| [
+
+    CI                        `noun`    {- fiy -}              [ "V." ],
 
     CiL                       `noun`    {- fiy -}              [ "V." ] ]
 
- |> "-- s --" <| [
-
-    CI                        `noun`    {- siy -}              [ "C." ] ]
-
  |> "-- s y" <| [
+
+    CI                        `noun`    {- siy -}              [ "C." ],
 
     CiL                       `noun`    {- siy -}              [ "C." ] ]
 
- |> "-- t --" <| [
-
-    CI                        `noun`    {- tiy -}              [ "T." ] ]
-
  |> "-- t y" <| [
 
-    CiL                       `noun`    {- tiy -}              [ "T." ] ]
+    CiL                       `noun`    {- tiy -}              [ "T." ],
+
+    CI                        `noun`    {- tiy -}              [ "T." ] ]
 
  |> ".g" <| [
 

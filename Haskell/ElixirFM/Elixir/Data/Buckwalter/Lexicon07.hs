@@ -583,12 +583,6 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- taxoSiyS -}         [ "designation", "allocation", "apportionment" ],
 
-    -- ;; <ixoSA}iy~_1
-    -- <xSA}y  <ixoSA}iy~      Nall    specialist;expert     [[<ixoSA}iy~/ADJ]]
-    -- AxSA}y  <ixoSA}iy~      Nall    specialist;expert     [[<ixoSA}iy~/ADJ]]
-
-    HiFCA' |< Iy              `adj`     {- IixoSA}iy~ -}       [ "specialist", "expert" ],
-
     -- ;; taxaS~uS_1
     -- txSS    taxaS~uS        NduAt   specialization;major field
 
@@ -928,6 +922,12 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "_hawA.sir Ndip" ] -} ]
 
  |> "_h .s y" <| [
+
+    -- ;; <ixoSA}iy~_1
+    -- <xSA}y  <ixoSA}iy~      Nall    specialist;expert     [[<ixoSA}iy~/ADJ]]
+    -- AxSA}y  <ixoSA}iy~      Nall    specialist;expert     [[<ixoSA}iy~/ADJ]]
+
+    HiFCA' |< Iy              `adj`     {- IixoSA}iy~ -}       [ "specialist", "expert" ],
 
     -- ;; xaSaY-i_1
     -- xSY     xaSaY   PV_0    castrate;emasculate
@@ -2669,18 +2669,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muxab~al_1
     -- mxbl    muxab~al        Nall    confused     [[muxab~al/ADJ]]
 
-    MuFaCCaL                  `adj`     {- muxab~al -}         [ "confused" ],
-
-    -- ;; xabA-u_1
-    -- xbA     xabA    PV_0    die out
-    -- xbw     xabaw   PV_Atn  die out
-    -- xb      xab     PV_ttAw die out
-    -- xbw     xobuw   IV_0hAnn        die out
-    -- xb      xob     IV_0hwnyn       die out
-    -- xbY     xobaY   IV_0_Pass_yu    die out
-
-    FaCA                      `verb`    {- xabA-u -}           [ "die out" ]
-                              `imperf`     FCU ]
+    MuFaCCaL                  `adj`     {- muxab~al -}         [ "confused" ] ]
 
  |> "_h b r" <| [
 
@@ -2882,6 +2871,19 @@ lexicon = listing "Lexicon's properties"
     -- mxbt    muxobit Nall    being humble
 
     MuFCiL                    `noun`    {- muxobit -}          [ "being humble" ] ]
+
+ |> "_h b y" <| [
+
+    -- ;; xabA-u_1
+    -- xbA     xabA    PV_0    die out
+    -- xbw     xabaw   PV_Atn  die out
+    -- xb      xab     PV_ttAw die out
+    -- xbw     xobuw   IV_0hAnn        die out
+    -- xb      xob     IV_0hwnyn       die out
+    -- xbY     xobaY   IV_0_Pass_yu    die out
+
+    FaCA                      `verb`    {- xabA-u -}           [ "die out" ]
+                              `imperf`     FCU ]
 
  |> "_h b z" <| [
 
@@ -7402,18 +7404,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; xuruwr_1
     -- xrwr    xuruwr  N       falling down;collapse
 
-    FuCUL                     `noun`    {- xuruwr -}           [ "falling down", "collapse" ],
-
-    -- ;; xuwriy_1
-    -- xwry    xuwriy  N0      priest
-    -- xwArn   xawArin Nap     priests
-
-    FUCI                      `noun`    {- xuwriy -}           [ "priest", "priests" ],
-
-    -- ;; xuwriy_2
-    -- xwry    xuwriy  N0      Khouri
-
-    FUCI                      `noun`    {- xuwriy -}           [ "Khouri" ] ]
+    FuCUL                     `noun`    {- xuruwr -}           [ "falling down", "collapse" ] ]
 
  |> "_h r s" <| [
 
@@ -7493,6 +7484,19 @@ lexicon = listing "Lexicon's properties"
     -- xrtyt   xartiyt N       rhinoceros
 
     KaRDIS                    `noun`    {- xartiyt -}          [ "rhinoceros" ] ]
+
+ |> "_h r y" <| [
+
+    -- ;; xuwriy_1
+    -- xwry    xuwriy  N0      priest
+    -- xwArn   xawArin Nap     priests
+
+    FUCI                      `noun`    {- xuwriy -}           [ "priest", "priests" ],
+
+    -- ;; xuwriy_2
+    -- xwry    xuwriy  N0      Khouri
+
+    FUCI                      `noun`    {- xuwriy -}           [ "Khouri" ] ]
 
  |> "_h r z" <| [
 

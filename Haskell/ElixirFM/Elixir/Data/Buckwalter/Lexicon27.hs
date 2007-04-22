@@ -4946,12 +4946,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; waboh_1
     -- wbh     waboh   N       heeding;minding;paying attention
 
-    FaCL                      `noun`    {- waboh -}            [ "heeding", "minding", "paying attention" ],
-
-    -- ;; wubiy_1
-    -- wby     wubiy   N0      Yobe
-
-    FuCI                      `noun`    {- wubiy -}            [ "Yobe" ] ]
+    FaCL                      `noun`    {- waboh -}            [ "heeding", "minding", "paying attention" ] ]
 
  |> "w b l" <| [
 
@@ -5073,6 +5068,11 @@ lexicon = listing "Lexicon's properties"
     MuFaCCaL                  `adj`     {- muwab~ar -}         [ "woolly" ] ]
 
  |> "w b y" <| [
+
+    -- ;; wubiy_1
+    -- wby     wubiy   N0      Yobe
+
+    FuCI                      `noun`    {- wubiy -}            [ "Yobe" ],
 
     -- ;; wubiy_1
     -- wby     wubiy   N0      Yobe

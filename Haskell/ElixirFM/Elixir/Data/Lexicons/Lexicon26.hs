@@ -283,13 +283,13 @@ lexicon = listing "Lexicon's properties"
 
     TaFACuL                   `noun`    {- tahAfut -}          [ "collapse" ] ]
 
- |> "h k k" <| [
-
-    FUCI                      `noun`    {- huwkiy -}           [ "hockey" ] ]
-
  |> "h k t r" <| [
 
     KiRDAS                    `noun`    {- hikotAr -}          [ "hectare" ] ]
+
+ |> "h k y" <| [
+
+    FUCI                      `noun`    {- huwkiy -}           [ "hockey" ] ]
 
  |> "h l `" <| [
 

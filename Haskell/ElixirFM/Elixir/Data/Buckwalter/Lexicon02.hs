@@ -632,123 +632,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "b .g d" <| [
 
-    -- ;; bagaY-i_1
-    -- bgY     bagaY   PV_0    want;desire
-    -- bgA     bagA    PV_h    want;desire
-    -- bgy     bagay   PV_Atn  want;desire
-    -- bg      bag     PV_ttAw want;desire
-    -- bgy     bogiy   IV_0hAnn        want;desire
-    -- bg      bog     IV_0hwnyn       want;desire
-    -- bgY     bogaY   IV_0_Pass_yu    be wanted;be desired
-
-    FaCY                      `verb`    {- bagaY-i -}          [ "want", "desire", "be wanted", "be desired" ]
-                              `imperf`     FCI,
-
-    -- ;; {inobagaY_1
-    -- <nbgY   {inobagaY       PV_0    be incumbent;be necessary
-    -- AnbgY   {inobagaY       PV_0    be incumbent;be necessary
-    -- <nbgA   {inobagA        PV_h    be incumbent;be necessary
-    -- AnbgA   {inobagA        PV_h    be incumbent;be necessary
-    -- <nbgy   {inobagay       PV_Atn  be incumbent;be necessary
-    -- Anbgy   {inobagay       PV_Atn  be incumbent;be necessary
-    -- <nbg    {inobag PV_ttAw_intr    be incumbent;be necessary
-    -- Anbg    {inobag PV_ttAw_intr    be incumbent;be necessary
-    -- nbgy    nobagiy IV_0hAnn        be incumbent;be necessary
-    -- nbg     nobag   IV_0hwnyn       be incumbent;be necessary
-    -- nbgY    nobagaY IV_0_Pass_yu    be incumbent;be necessary
-
-    InFaCY                    `verb`    {- AinobagaY -}        [ "be incumbent", "be necessary" ],
-
-    -- ;; {ibotagaY_1
-    -- <btgY   {ibotagaY       PV_0    desire;want
-    -- AbtgY   {ibotagaY       PV_0    desire;want
-    -- <btgA   {ibotagA        PV_h    desire;want
-    -- AbtgA   {ibotagA        PV_h    desire;want
-    -- <btgy   {ibotagay       PV_Atn  desire;want
-    -- Abtgy   {ibotagay       PV_Atn  desire;want
-    -- <btg    {ibotag PV_ttAw desire;want
-    -- Abtg    {ibotag PV_ttAw desire;want
-    -- btgy    botagiy IV_0hAnn        desire;want
-    -- btg     botag   IV_0hwnyn       desire;want
-    -- btgY    botagaY IV_0    desire;want
-
-    IFtaCY                    `verb`    {- AibotagaY -}        [ "desire", "want" ],
-
-    -- ;; bigA'_1
-    -- bgA'    bigA'   N0_Nh   prostitution
-    -- bgA&    bigA&   Nh      prostitution
-    -- bgA}    bigA}   Nhy     prostitution
-
-    FiCA'                     `noun`    {- bigA' -}            [ "prostitution" ],
-
-    -- ;; bugA'_1
-    -- bgA'    bugA'   N0_Nh   desire;endeavor
-    -- bgA&    bugA&   Nh      desire;endeavor
-    -- bgA}    bugA}   Nhy     desire;endeavor
-
-    FuCA'                     `noun`    {- bugA' -}            [ "desire", "endeavor" ],
-
-    -- ;; mabogaY_1
-    -- mbgY    mabogaY N0      desideratum
-    -- mbgA    mabogA  Nhy     desideratum
-    -- mbgy    mabogay NAn_Nayn        desiderata
-    -- mbAgy   mabAgiy N0_Nh   desiderata
-    -- mbAg    mabAg   NK      desiderata
-
-    MaFCY                     `noun`    {- mabogaY -}          [ "desideratum", "desiderata" ]
-                              `plural`     MaFACI
-                           {- `others`  [ "mabA.giy N0_Nh" ] -},
-
-    -- ;; {ibotigA'_1
-    -- <btgA'  {ibotigA'       N0_Nh   desire;wish
-    -- AbtgA'  {ibotigA'       N0_Nh   desire;wish
-    -- <btgA&  {ibotigA&       Nh      desire;wish
-    -- AbtgA&  {ibotigA&       Nh      desire;wish
-    -- <btgA}  {ibotigA}       Nhy     desire;wish
-    -- AbtgA}  {ibotigA}       Nhy     desire;wish
-    -- <btgA'  {ibotigA'       NAn_Nayn        desire;wish
-    -- AbtgA'  {ibotigA'       NAn_Nayn        desire;wish
-    -- <btgA}  {ibotigA}       Nayn    desire;wish
-    -- AbtgA}  {ibotigA}       Nayn    desire;wish
-    -- <btgA'  {ibotigA'       NAt     desire;wish
-    -- AbtgA'  {ibotigA'       NAt     desire;wish
-
-    IFtiCA'                   `noun`    {- AibotigA' -}        [ "desire", "wish" ],
-
-    -- ;; {ibotigA'F_1
-    -- <btgA'  {ibotigA'F      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'F/ADV]]
-    -- AbtgA'  {ibotigA'F      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'F/ADV]]
-
-    IFtiCA' |< aN             `noun`    {- AibotigA'F -}       [ "with the aim of", "for the purpose of" ],
-
-    -- ;; bAgiy_1
-    -- bAgy    bAgiy   N0F     oppressive;tyrant
-    -- bAg     bAg     NK      oppressive;tyrant
-    -- bAgy    bAgiy   NAn_Nayn        oppressive;tyrant
-    -- bAg     bAg     Nuwn_Niyn       oppressive;tyrant
-    -- bAgy    bAgiy   NapAt   oppressive;tyrant
-    -- bgA     bugA    Nap     oppressors;tyrants
-
-    FACI                      `noun`    {- bAgiy -}            [ "oppressive", "tyrant", "oppressors", "tyrants" ],
-
-    -- ;; bAgiy_2
-    -- bAgy    bAgiy   N0F     desiring
-    -- bAg     bAg     NK      desiring
-    -- bAgy    bAgiy   NAn_Nayn        desiring
-    -- bAg     bAg     Nuwn_Niyn       desiring
-    -- bAgy    bAgiy   NapAt   desiring
-    -- bgA     bugA    Nap     desiring
-
-    FACI                      `noun`    {- bAgiy -}            [ "desiring" ],
-
-    -- ;; mubotagaY_1
-    -- mbtgY   mubotagaY       N0      aspiration;goal
-    -- mbtgA   mubotagA        Nhy     aspiration;goal
-    -- mbtgy   mubotagay       NAn_Nayn        aspirations;goals
-    -- mbtgy   mubotagay       NAt     aspirations;goals
-
-    MuFtaCY                   `noun`    {- mubotagaY -}        [ "aspiration", "goal", "aspirations", "goals" ],
-
     -- ;; buwgAdap_1
     -- bwgAd   buwgAd  Nap     potash;lye
     -- bwgAD   buwgAD  Nap     potash;lye
@@ -874,6 +757,48 @@ lexicon = listing "Lexicon's properties"
 
  |> "b .g y" <| [
 
+    -- ;; bagaY-i_1
+    -- bgY     bagaY   PV_0    want;desire
+    -- bgA     bagA    PV_h    want;desire
+    -- bgy     bagay   PV_Atn  want;desire
+    -- bg      bag     PV_ttAw want;desire
+    -- bgy     bogiy   IV_0hAnn        want;desire
+    -- bg      bog     IV_0hwnyn       want;desire
+    -- bgY     bogaY   IV_0_Pass_yu    be wanted;be desired
+
+    FaCY                      `verb`    {- bagaY-i -}          [ "want", "desire", "be wanted", "be desired" ]
+                              `imperf`     FCI,
+
+    -- ;; {inobagaY_1
+    -- <nbgY   {inobagaY       PV_0    be incumbent;be necessary
+    -- AnbgY   {inobagaY       PV_0    be incumbent;be necessary
+    -- <nbgA   {inobagA        PV_h    be incumbent;be necessary
+    -- AnbgA   {inobagA        PV_h    be incumbent;be necessary
+    -- <nbgy   {inobagay       PV_Atn  be incumbent;be necessary
+    -- Anbgy   {inobagay       PV_Atn  be incumbent;be necessary
+    -- <nbg    {inobag PV_ttAw_intr    be incumbent;be necessary
+    -- Anbg    {inobag PV_ttAw_intr    be incumbent;be necessary
+    -- nbgy    nobagiy IV_0hAnn        be incumbent;be necessary
+    -- nbg     nobag   IV_0hwnyn       be incumbent;be necessary
+    -- nbgY    nobagaY IV_0_Pass_yu    be incumbent;be necessary
+
+    InFaCY                    `verb`    {- AinobagaY -}        [ "be incumbent", "be necessary" ],
+
+    -- ;; {ibotagaY_1
+    -- <btgY   {ibotagaY       PV_0    desire;want
+    -- AbtgY   {ibotagaY       PV_0    desire;want
+    -- <btgA   {ibotagA        PV_h    desire;want
+    -- AbtgA   {ibotagA        PV_h    desire;want
+    -- <btgy   {ibotagay       PV_Atn  desire;want
+    -- Abtgy   {ibotagay       PV_Atn  desire;want
+    -- <btg    {ibotag PV_ttAw desire;want
+    -- Abtg    {ibotag PV_ttAw desire;want
+    -- btgy    botagiy IV_0hAnn        desire;want
+    -- btg     botag   IV_0hwnyn       desire;want
+    -- btgY    botagaY IV_0    desire;want
+
+    IFtaCY                    `verb`    {- AibotagaY -}        [ "desire", "want" ],
+
     -- ;; bagoy_1
     -- bgy     bagoy   N       injustice
 
@@ -887,6 +812,55 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCL
                            {- `others`  [ "bi.gy Napdu" ] -},
 
+    -- ;; bigA'_1
+    -- bgA'    bigA'   N0_Nh   prostitution
+    -- bgA&    bigA&   Nh      prostitution
+    -- bgA}    bigA}   Nhy     prostitution
+
+    FiCA'                     `noun`    {- bigA' -}            [ "prostitution" ],
+
+    -- ;; bugA'_1
+    -- bgA'    bugA'   N0_Nh   desire;endeavor
+    -- bgA&    bugA&   Nh      desire;endeavor
+    -- bgA}    bugA}   Nhy     desire;endeavor
+
+    FuCA'                     `noun`    {- bugA' -}            [ "desire", "endeavor" ],
+
+    -- ;; mabogaY_1
+    -- mbgY    mabogaY N0      desideratum
+    -- mbgA    mabogA  Nhy     desideratum
+    -- mbgy    mabogay NAn_Nayn        desiderata
+    -- mbAgy   mabAgiy N0_Nh   desiderata
+    -- mbAg    mabAg   NK      desiderata
+
+    MaFCY                     `noun`    {- mabogaY -}          [ "desideratum", "desiderata" ]
+                              `plural`     MaFACiL
+                              `plural`     MaFACI
+                              `plural`     MaFCaL
+                           {- `others`  [ "mabA.giy N0_Nh", "mab.gay NAn_Nayn" ] -},
+
+    -- ;; {ibotigA'_1
+    -- <btgA'  {ibotigA'       N0_Nh   desire;wish
+    -- AbtgA'  {ibotigA'       N0_Nh   desire;wish
+    -- <btgA&  {ibotigA&       Nh      desire;wish
+    -- AbtgA&  {ibotigA&       Nh      desire;wish
+    -- <btgA}  {ibotigA}       Nhy     desire;wish
+    -- AbtgA}  {ibotigA}       Nhy     desire;wish
+    -- <btgA'  {ibotigA'       NAn_Nayn        desire;wish
+    -- AbtgA'  {ibotigA'       NAn_Nayn        desire;wish
+    -- <btgA}  {ibotigA}       Nayn    desire;wish
+    -- AbtgA}  {ibotigA}       Nayn    desire;wish
+    -- <btgA'  {ibotigA'       NAt     desire;wish
+    -- AbtgA'  {ibotigA'       NAt     desire;wish
+
+    IFtiCA'                   `noun`    {- AibotigA' -}        [ "desire", "wish" ],
+
+    -- ;; {ibotigA'F_1
+    -- <btgA'  {ibotigA'F      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'F/ADV]]
+    -- AbtgA'  {ibotigA'F      FW-Wa   with the aim of;for the purpose of     [[{ibotigA'F/ADV]]
+
+    IFtiCA' |< aN             `noun`    {- AibotigA'F -}       [ "with the aim of", "for the purpose of" ],
+
     -- ;; bAgiy_1
     -- bAgy    bAgiy   N0F     oppressive;tyrant
     -- bAg     bAg     NK      oppressive;tyrant
@@ -897,6 +871,16 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- bAgiy -}            [ "oppressive", "tyrant", "oppressors", "tyrants" ],
 
+    -- ;; bAgiy_1
+    -- bAgy    bAgiy   N0F     oppressive;tyrant
+    -- bAg     bAg     NK      oppressive;tyrant
+    -- bAgy    bAgiy   NAn_Nayn        oppressive;tyrant
+    -- bAg     bAg     Nuwn_Niyn       oppressive;tyrant
+    -- bAgy    bAgiy   NapAt   oppressive;tyrant
+    -- bgA     bugA    Nap     oppressors;tyrants
+
+    FACI                      `noun`    {- bAgiy -}            [ "oppressive", "tyrant", "oppressors", "tyrants" ],
+
     -- ;; bAgiy_2
     -- bAgy    bAgiy   N0F     desiring
     -- bAg     bAg     NK      desiring
@@ -905,7 +889,27 @@ lexicon = listing "Lexicon's properties"
     -- bAgy    bAgiy   NapAt   desiring
     -- bgA     bugA    Nap     desiring
 
-    FACiL                     `noun`    {- bAgiy -}            [ "desiring" ] ]
+    FACiL                     `noun`    {- bAgiy -}            [ "desiring" ],
+
+    -- ;; bAgiy_2
+    -- bAgy    bAgiy   N0F     desiring
+    -- bAg     bAg     NK      desiring
+    -- bAgy    bAgiy   NAn_Nayn        desiring
+    -- bAg     bAg     Nuwn_Niyn       desiring
+    -- bAgy    bAgiy   NapAt   desiring
+    -- bgA     bugA    Nap     desiring
+
+    FACI                      `noun`    {- bAgiy -}            [ "desiring" ],
+
+    -- ;; mubotagaY_1
+    -- mbtgY   mubotagaY       N0      aspiration;goal
+    -- mbtgA   mubotagA        Nhy     aspiration;goal
+    -- mbtgy   mubotagay       NAn_Nayn        aspirations;goals
+    -- mbtgy   mubotagay       NAt     aspirations;goals
+
+    MuFtaCY                   `noun`    {- mubotagaY -}        [ "aspiration", "goal", "aspirations", "goals" ]
+                              `plural`     MuFtaCaL |< At
+                           {- `others`  [ "mubta.gay NAn_Nayn" ] -} ]
 
  |> "b .g z" <| [
 
@@ -1900,31 +1904,6 @@ lexicon = listing "Lexicon's properties"
 
     KaRDaS |< aT              `noun`    {- baTobaTap -}        [ "quacking" ] ]
 
- |> "b .t k" <| [
-
-    -- ;; <iboTA'_1
-    -- <bTA'   <iboTA' N0_Nh   delay;slowing down
-    -- AbTA'   <iboTA' N0_Nh   delay;slowing down
-    -- <bTA&   <iboTA& Nh      delay;slowing down
-    -- AbTA&   <iboTA& Nh      delay;slowing down
-    -- <bTA}   <iboTA} Nhy     delay;slowing down
-    -- AbTA}   <iboTA} Nhy     delay;slowing down
-    -- <bTA'   <iboTA' NAn_Nayn        delay;slowing down
-    -- AbTA'   <iboTA' NAn_Nayn        delay;slowing down
-    -- <bTA}   <iboTA} Nayn    delay;slowing down
-    -- AbTA}   <iboTA} Nayn    delay;slowing down
-    -- <bTA'   <iboTA' NAt     delay;slowing down
-    -- AbTA'   <iboTA' NAt     delay;slowing down
-
-    HiFCA'                    `noun`    {- IiboTA' -}          [ "delay", "slowing down" ],
-
-    -- ;; bATiyap_1
-    -- bATy    bATiy   Napdu   pitcher;jug
-    -- bwATy   bawATiy N0_Nh   pitchers;jugs
-    -- bwAT    bawAT   NK      pitchers;jugs
-
-    FACI |< aT                `noun`    {- bATiyap -}          [ "pitcher", "jug", "pitchers", "jugs" ] ]
-
  |> "b .t l" <| [
 
     -- ;; baTal-u_1
@@ -2330,6 +2309,31 @@ lexicon = listing "Lexicon's properties"
     FaCACiL                   `noun`    {- baTATis -}          [ "potatoes" ] ]
 
  |> "b .t y" <| [
+
+    -- ;; <iboTA'_1
+    -- <bTA'   <iboTA' N0_Nh   delay;slowing down
+    -- AbTA'   <iboTA' N0_Nh   delay;slowing down
+    -- <bTA&   <iboTA& Nh      delay;slowing down
+    -- AbTA&   <iboTA& Nh      delay;slowing down
+    -- <bTA}   <iboTA} Nhy     delay;slowing down
+    -- AbTA}   <iboTA} Nhy     delay;slowing down
+    -- <bTA'   <iboTA' NAn_Nayn        delay;slowing down
+    -- AbTA'   <iboTA' NAn_Nayn        delay;slowing down
+    -- <bTA}   <iboTA} Nayn    delay;slowing down
+    -- AbTA}   <iboTA} Nayn    delay;slowing down
+    -- <bTA'   <iboTA' NAt     delay;slowing down
+    -- AbTA'   <iboTA' NAt     delay;slowing down
+
+    HiFCA'                    `noun`    {- IiboTA' -}          [ "delay", "slowing down" ],
+
+    -- ;; bATiyap_1
+    -- bATy    bATiy   Napdu   pitcher;jug
+    -- bwATy   bawATiy N0_Nh   pitchers;jugs
+    -- bwAT    bawAT   NK      pitchers;jugs
+
+    FACI |< aT                `noun`    {- bATiyap -}          [ "pitcher", "jug", "pitchers", "jugs" ]
+                              `plural`     FawACiL
+                           {- `others`  [ "bawA.tiy N0_Nh" ] -},
 
     -- ;; bATiyap_1
     -- bATy    bATiy   Napdu   pitcher;jug
@@ -2926,13 +2930,6 @@ lexicon = listing "Lexicon's properties"
 
     MuFACiL                   `noun`    {- mubA$ir -}          [ "direct", "immediate" ] ]
 
- |> "b ^s s" <| [
-
-    -- ;; bA$awiy~_1
-    -- bA$wy   bA$awiy~        Nall    rank of pasha     [[bA$awiy~/ADJ]]
-
-    FACY |< Iy                `adj`     {- bA$awiy~ -}         [ "rank of pasha" ] ]
-
  |> "b ^s t" <| [
 
     -- ;; bu$ot_1
@@ -2954,6 +2951,13 @@ lexicon = listing "Lexicon's properties"
     -- bA$twn  bA$otuwn        N0      Pashtun     [[ba$otuwn/ADJ]]
 
     KaRDUS                    `adj`     {- ba$otuwn -}         [ "Pashtun" ] ]
+
+ |> "b ^s y" <| [
+
+    -- ;; bA$awiy~_1
+    -- bA$wy   bA$awiy~        Nall    rank of pasha     [[bA$awiy~/ADJ]]
+
+    FACY |< Iy                `adj`     {- bA$awiy~ -}         [ "rank of pasha" ] ]
 
  |> "b _d '" <| [
 
@@ -3170,7 +3174,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCiL                  `noun`    {- muba*~ir -}         [ "squanderer" ] ]
 
- |> "b _d s" <| [
+ |> "b _d y" <| [
 
     -- ;; ba*A'_1
     -- b*A'    ba*A'   N0_Nh   obscenity;contempt
@@ -3393,17 +3397,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAxis_1
     -- bAxs    bAxis   Nall    trifling;minuscule
 
-    FACiL                     `noun`    {- bAxis -}            [ "trifling", "minuscule" ],
-
-    -- ;; baxA-u_1
-    -- bxA     baxA    PV_0    abate;subside
-    -- bxw     baxaw   PV_Atn  abate;subside
-    -- bx      bax     PV_ttAw abate;subside
-    -- bxw     boxuw   IV_0hAnn        abate;subside
-    -- bx      box     IV_0hwnyn       abate;subside
-
-    FaCA                      `verb`    {- baxA-u -}           [ "abate", "subside" ]
-                              `imperf`     FCU ]
+    FACiL                     `noun`    {- bAxis -}            [ "trifling", "minuscule" ] ]
 
  |> "b _h t" <| [
 
@@ -3448,6 +3442,18 @@ lexicon = listing "Lexicon's properties"
     -- tbxtr   tabaxotur       NduAt   strutting gait
 
     TaKaRDuS                  `noun`    {- tabaxotur -}        [ "strutting gait" ] ]
+
+ |> "b _h y" <| [
+
+    -- ;; baxA-u_1
+    -- bxA     baxA    PV_0    abate;subside
+    -- bxw     baxaw   PV_Atn  abate;subside
+    -- bx      bax     PV_ttAw abate;subside
+    -- bxw     boxuw   IV_0hAnn        abate;subside
+    -- bx      box     IV_0hwnyn       abate;subside
+
+    FaCA                      `verb`    {- baxA-u -}           [ "abate", "subside" ]
+                              `imperf`     FCU ]
 
  |> "b _t _t" <| [
 
@@ -4800,12 +4806,26 @@ lexicon = listing "Lexicon's properties"
 
     KaRDAS                    `noun`    {- badorAn -}          [ "Badran" ] ]
 
- |> "b d s" <| [
+ |> "b d w" <| [
+
+    -- ;; badAwap_1
+    -- bdAw    badAw   Nap     desert life;nomadism;Bedouin life
+    -- bdAw    bidAw   Nap     desert life;nomadism;Bedouin life
+
+    FaCAL |< aT               `noun`    {- badAwap -}          [ "desert life", "nomadism", "Bedouin life" ]
+                              `plural`     FiCAL |< aT ]
+
+ |> "b d y" <| [
 
     -- ;; badA'ap_1
     -- bdA'    badA'   NapAt   beginning;start
 
     FaCA' |< aT               `noun`    {- badA'ap -}          [ "beginning", "start" ],
+
+    -- ;; bidAyap_1
+    -- bdAy    bidAy   NapAt   beginning;start
+
+    FiCAL |< aT               `noun`    {- bidAyap -}          [ "beginning", "start" ],
 
     -- ;; badA}iy~_1
     -- bdA}y   badA}iy~        Nall    initial;original     [[badA}iy~/ADJ]]
@@ -4940,35 +4960,6 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- bAdiy -}            [ "apparent", "obvious" ],
 
-    -- ;; bAdiyap_1
-    -- bAdy    bAdiy   NapAt   desert
-
-    FACI |< aT                `noun`    {- bAdiyap -}          [ "desert" ],
-
-    -- ;; mubodiyAF_1
-    -- mbdy    mubodiy NF      expressing;showing;demonstrating
-    -- mbdy    mubodiy N0      expressing;showing;demonstrating
-
-    MuFCI |< aN               `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
-                              `plural`     MuFCI
-                           {- `others`  [ "mubdiy NF N0" ] -} ]
-
- |> "b d w" <| [
-
-    -- ;; badAwap_1
-    -- bdAw    badAw   Nap     desert life;nomadism;Bedouin life
-    -- bdAw    bidAw   Nap     desert life;nomadism;Bedouin life
-
-    FaCAL |< aT               `noun`    {- badAwap -}          [ "desert life", "nomadism", "Bedouin life" ]
-                              `plural`     FiCAL |< aT ]
-
- |> "b d y" <| [
-
-    -- ;; bidAyap_1
-    -- bdAy    bidAy   NapAt   beginning;start
-
-    FiCAL |< aT               `noun`    {- bidAyap -}          [ "beginning", "start" ],
-
     -- ;; bAdiy_1
     -- bAdy    bAdiy   N0F     apparent;obvious
     -- bAd     bAd     NK      apparent;obvious
@@ -4981,6 +4972,11 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAdiyap_1
     -- bAdy    bAdiy   NapAt   desert
 
+    FACI |< aT                `noun`    {- bAdiyap -}          [ "desert" ],
+
+    -- ;; bAdiyap_1
+    -- bAdy    bAdiy   NapAt   desert
+
     FACiL |< aT               `noun`    {- bAdiyap -}          [ "desert" ],
 
     -- ;; bawAdiy_1
@@ -4988,6 +4984,15 @@ lexicon = listing "Lexicon's properties"
     -- bwAd    bawAd   NK      nomads;Bedouins
 
     FawACiL                   `noun`    {- bawAdiy -}          [ "nomads", "Bedouins" ],
+
+    -- ;; mubodiyAF_1
+    -- mbdy    mubodiy NF      expressing;showing;demonstrating
+    -- mbdy    mubodiy N0      expressing;showing;demonstrating
+
+    MuFCI |< aN               `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
+                              `plural`     MuFCiL
+                              `plural`     MuFCI
+                           {- `others`  [ "mubdiy NF N0" ] -},
 
     -- ;; mubodiyAF_1
     -- mbdy    mubodiy NF      expressing;showing;demonstrating
@@ -5323,86 +5328,6 @@ lexicon = listing "Lexicon's properties"
     MuFCaL |< At              `noun`    {- mubohamAt -}        [ "inscrutable topics" ]
                               `plural`     MuFCaL |< At ]
 
- |> "b h n" <| [
-
-    -- ;; bahiy-a_1
-    -- bhy     bahiy   PV_no-w_intr    be beautiful
-    -- bh      bah     PV_w_intr       be beautiful
-    -- bhY     bohaY   IV_0    be beautiful
-    -- bhy     bohay   IV_Ann  be beautiful
-    -- bh      boha    IV_0hwnyn       be beautiful
-
-    FaCI                      `verb`    {- bahiy-a -}          [ "be beautiful" ],
-
-    -- ;; bAhaY_1
-    -- bAhY    bAhaY   PV_0    compete;be proud
-    -- bAhA    bAhA    PV_h    compete;be proud
-    -- bAhy    bAhay   PV_Atn  compete;be proud
-    -- bAh     bAh     PV_ttAw compete;be proud
-    -- bAhy    bAhiy   IV_0hAnn_yu     compete;be proud
-    -- bAh     bAh     IV_0hwnyn_yu    compete;be proud
-    -- bAhY    bAhaY   IV_0_Pass_yu    be contested;be proud
-    -- bAhy    bAhay   IV_Ann_Pass_yu  be contested;be proud
-
-    FACY                      `verb`    {- bAhaY -}            [ "compete", "be proud", "be contested" ],
-
-    -- ;; tabAhaY_1
-    -- tbAhY   tabAhaY PV_0    be vain;boast
-    -- tbAhA   tabAhA  PV_h    be vain;boast
-    -- tbAhy   tabAhay PV_Atn  be vain;boast
-    -- tbAh    tabAh   PV_ttAw_intr    be vain;boast
-    -- tbAhY   tabAhaY IV_0    be vain;boast
-    -- tbAhA   tabAhA  IV_h    be vain;boast
-    -- tbAhy   tabAhay IV_Ann  be vain;boast
-    -- tbAh    tabAh   IV_0hwnyn       be vain;boast
-
-    TaFACY                    `verb`    {- tabAhaY -}          [ "be vain", "boast" ],
-
-    -- ;; bahA'_1
-    -- bhA'    bahA'   N0_Nh   beauty;brilliancy
-    -- bhA&    bahA&   Nh      beauty;brilliancy
-    -- bhA}    bahA}   Nhy     beauty;brilliancy
-
-    FaCA'                     `noun`    {- bahA' -}            [ "beauty", "brilliancy" ],
-
-    -- ;; bahA}iy~_1
-    -- bhA}y   bahA}iy~        Nall    Baha'i     [[bahA}iy~/NOUN]]
-    -- bhA}y   bahA}iy~        Nall    Baha'i     [[bahA}iy~/ADJ]]
-
-    FaCA' |< Iy               `adj`     {- bahA}iy~ -}         [ "Baha'i" ],
-
-    -- ;; >abohaY_1
-    -- >bhY    >abohaY N0      more/most splendid
-    -- AbhY    >abohaY N0      more/most splendid
-    -- >bhA    >abohA  Nhy     more/most splendid
-    -- AbhA    >abohA  Nhy     more/most splendid
-    -- >bhy    >abohay NAn_Nayn        more/most splendid
-    -- Abhy    >abohay NAn_Nayn        more/most splendid
-
-    HaFCY                     `noun`    {- OabohaY -}          [ "more/most splendid" ],
-
-    -- ;; mubAhAp_1
-    -- mbAhA   mubAhA  Nap     pride;boastfulness
-
-    MuFACY |< aT              `noun`    {- mubAhAp -}          [ "pride", "boastfulness" ],
-
-    -- ;; tabAhiy_1
-    -- tbAhy   tabAhiy N0_Nh   pride;boastfulness
-    -- tbAh    tabAh   NK      pride;boastfulness
-    -- tbAhy   tabAhiy NAn_Nayn        pride;boastfulness
-    -- tbAhy   tabAhiy NAt     pride;boastfulness
-
-    TaFACI                    `noun`    {- tabAhiy -}          [ "pride", "boastfulness" ],
-
-    -- ;; mutabAhiy_1
-    -- mtbAhy  mutabAhiy       N0F_Nh  proud;boastful
-    -- mtbAh   mutabAh NK      proud;boastful
-    -- mtbAhy  mutabAhiy       NAn_Nayn        proud;boastful
-    -- mtbAh   mutabAh Nuwn_Niyn       proud;boastful
-    -- mtbAhy  mutabAhiy       NapAt   proud;boastful
-
-    MutaFACI                  `noun`    {- mutabAhiy -}        [ "proud", "boastful" ] ]
-
  |> "b h q" <| [
 
     -- ;; bahaq_1
@@ -5669,8 +5594,88 @@ lexicon = listing "Lexicon's properties"
     -- bhy     bohay   IV_Ann  be beautiful
     -- bh      boha    IV_0hwnyn       be beautiful
 
+    FaCI                      `verb`    {- bahiy-a -}          [ "be beautiful" ],
+
+    -- ;; bahiy-a_1
+    -- bhy     bahiy   PV_no-w_intr    be beautiful
+    -- bh      bah     PV_w_intr       be beautiful
+    -- bhY     bohaY   IV_0    be beautiful
+    -- bhy     bohay   IV_Ann  be beautiful
+    -- bh      boha    IV_0hwnyn       be beautiful
+
     FaCiL                     `verb`    {- bahiy-a -}          [ "be beautiful" ]
                               `imperf`     FCY,
+
+    -- ;; bAhaY_1
+    -- bAhY    bAhaY   PV_0    compete;be proud
+    -- bAhA    bAhA    PV_h    compete;be proud
+    -- bAhy    bAhay   PV_Atn  compete;be proud
+    -- bAh     bAh     PV_ttAw compete;be proud
+    -- bAhy    bAhiy   IV_0hAnn_yu     compete;be proud
+    -- bAh     bAh     IV_0hwnyn_yu    compete;be proud
+    -- bAhY    bAhaY   IV_0_Pass_yu    be contested;be proud
+    -- bAhy    bAhay   IV_Ann_Pass_yu  be contested;be proud
+
+    FACY                      `verb`    {- bAhaY -}            [ "compete", "be proud", "be contested" ],
+
+    -- ;; tabAhaY_1
+    -- tbAhY   tabAhaY PV_0    be vain;boast
+    -- tbAhA   tabAhA  PV_h    be vain;boast
+    -- tbAhy   tabAhay PV_Atn  be vain;boast
+    -- tbAh    tabAh   PV_ttAw_intr    be vain;boast
+    -- tbAhY   tabAhaY IV_0    be vain;boast
+    -- tbAhA   tabAhA  IV_h    be vain;boast
+    -- tbAhy   tabAhay IV_Ann  be vain;boast
+    -- tbAh    tabAh   IV_0hwnyn       be vain;boast
+
+    TaFACY                    `verb`    {- tabAhaY -}          [ "be vain", "boast" ],
+
+    -- ;; bahA'_1
+    -- bhA'    bahA'   N0_Nh   beauty;brilliancy
+    -- bhA&    bahA&   Nh      beauty;brilliancy
+    -- bhA}    bahA}   Nhy     beauty;brilliancy
+
+    FaCA'                     `noun`    {- bahA' -}            [ "beauty", "brilliancy" ],
+
+    -- ;; bahA}iy~_1
+    -- bhA}y   bahA}iy~        Nall    Baha'i     [[bahA}iy~/NOUN]]
+    -- bhA}y   bahA}iy~        Nall    Baha'i     [[bahA}iy~/ADJ]]
+
+    FaCA' |< Iy               `adj`     {- bahA}iy~ -}         [ "Baha'i" ],
+
+    -- ;; >abohaY_1
+    -- >bhY    >abohaY N0      more/most splendid
+    -- AbhY    >abohaY N0      more/most splendid
+    -- >bhA    >abohA  Nhy     more/most splendid
+    -- AbhA    >abohA  Nhy     more/most splendid
+    -- >bhy    >abohay NAn_Nayn        more/most splendid
+    -- Abhy    >abohay NAn_Nayn        more/most splendid
+
+    HaFCY                     `noun`    {- OabohaY -}          [ "more/most splendid" ]
+                              `plural`     HaFCaL
+                           {- `others`  [ "'abhay NAn_Nayn" ] -},
+
+    -- ;; mubAhAp_1
+    -- mbAhA   mubAhA  Nap     pride;boastfulness
+
+    MuFACY |< aT              `noun`    {- mubAhAp -}          [ "pride", "boastfulness" ],
+
+    -- ;; tabAhiy_1
+    -- tbAhy   tabAhiy N0_Nh   pride;boastfulness
+    -- tbAh    tabAh   NK      pride;boastfulness
+    -- tbAhy   tabAhiy NAn_Nayn        pride;boastfulness
+    -- tbAhy   tabAhiy NAt     pride;boastfulness
+
+    TaFACI                    `noun`    {- tabAhiy -}          [ "pride", "boastfulness" ],
+
+    -- ;; mutabAhiy_1
+    -- mtbAhy  mutabAhiy       N0F_Nh  proud;boastful
+    -- mtbAh   mutabAh NK      proud;boastful
+    -- mtbAhy  mutabAhiy       NAn_Nayn        proud;boastful
+    -- mtbAh   mutabAh Nuwn_Niyn       proud;boastful
+    -- mtbAhy  mutabAhiy       NapAt   proud;boastful
+
+    MutaFACI                  `noun`    {- mutabAhiy -}        [ "proud", "boastful" ],
 
     -- ;; mutabAhiy_1
     -- mtbAhy  mutabAhiy       N0F_Nh  proud;boastful
@@ -7870,16 +7875,6 @@ lexicon = listing "Lexicon's properties"
 
     FiL                       `noun`    {- bin -}              [ "Bin", "Ben" ],
 
-    -- ;; baniy_1
-    -- bny     baniy   FW-WaBi Bani;Beni;Benny     [[baniy/NOUN_PROP]]
-
-    FaCI                      `noun`    {- baniy -}            [ "Bani", "Beni", "Benny" ],
-
-    -- ;; baniy_2
-    -- bny     baniy   FW-WaBi sons/children of     [[baniy/NOUN]]
-
-    FaCI                      `noun`    {- baniy -}            [ "sons/children of" ],
-
     -- ;; banuwn_1
     -- bnwn    banuwn  N       sons;children
     -- bnyn    baniyn  N       sons;children
@@ -7891,11 +7886,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCI
                            {- `others`  [ "baniyn N", "baniy N0" ] -},
 
-    -- ;; banawiy~_1
-    -- bnwy    banawiy~        Nall    filial     [[banawiy~/ADJ]]
-
-    FaCY |< Iy                `adj`     {- banawiy~ -}         [ "filial" ],
-
     -- ;; bun~_1
     -- bn      bun~    N       coffee beans
 
@@ -7905,6 +7895,117 @@ lexicon = listing "Lexicon's properties"
     -- bnAn    banAn   N       finger tips
 
     FaCAL                     `noun`    {- banAn -}            [ "finger tips" ],
+
+    -- ;; ban~A'_1
+    -- bnA'    ban~A'  N0      builder;mason
+    -- bnA'    ban~A'  Nh      builder;mason
+    -- bnA&    ban~A&  Nh      builder;mason
+    -- bnA}    ban~A}  Nhy     builder;mason
+    -- bnA}    ban~A}  NAn_Nayn        builder;mason
+    -- bnA&    ban~A&  Nuwn_Niyn       builder;mason
+
+    FaCLA'                    `noun`    {- ban~A' -}           [ "builder", "mason" ],
+
+    -- ;; ban~A'_2
+    -- bnA'    ban~A'  N0      constructive     [[ban~A'/ADJ]]
+    -- bnA'    ban~A'  NAn_Nayn        constructive     [[ban~A'/ADJ]]
+    -- bnA'    ban~A'  Napdu   constructive     [[ban~A'/ADJ]]
+
+    FaCLA'                    `adj`     {- ban~A' -}           [ "constructive" ],
+
+    -- ;; ban~A'_3
+    -- bnA'    ban~A'  N0      Banna
+
+    FaCLA'                    `noun`    {- ban~A' -}           [ "Banna" ] ]
+
+ |> "b n q" <| [
+
+    -- ;; binaqap_1
+    -- bnq     binaq   Nap     gore;gusset
+    -- bnyq    baniyq  Nap     gore;gusset
+
+    FiCaL |< aT               `noun`    {- binaqap -}          [ "gore", "gusset" ]
+                              `plural`     FaCIL |< aT ]
+
+ |> "b n r" <| [
+
+    -- ;; ban~uwr_1
+    -- bnwr    ban~uwr N       glass
+
+    FaCCUL                    `noun`    {- ban~uwr -}          [ "glass" ] ]
+
+ |> "b n r s" <| [
+
+    -- ;; banAris_1
+    -- bnArs   banAris N0      Benares
+
+    KaRADiS                   `noun`    {- banAris -}          [ "Benares" ] ]
+
+ |> "b n s" <| [
+
+    -- ;; bAnuws_1
+    -- bAnws   bAnuws  Nprop   Panos
+
+    FACUL                     `noun`    {- bAnuws -}           [ "Panos" ] ]
+
+ |> "b n t" <| [
+
+    -- ;; binot_1
+    -- bnt     binot   Ndu     daughter;girl
+    -- bn      ban     NAt     daughters;girls
+
+    FiCL                      `noun`    {- binot -}            [ "daughter", "girl", "daughters", "girls" ] ]
+
+ |> "b n w" <| [
+
+    -- ;; bunuw~ap_1
+    -- bnw     bunuw~  Nap     sonship;filiation
+
+    FuCUL |< aT               `noun`    {- bunuw~ap -}         [ "sonship", "filiation" ],
+
+    -- ;; buw_1
+    -- bw      buw     Nprop   Bou
+
+    FuL                       `noun`    {- buw -}              [ "Bou" ] ]
+
+ |> "b n w r" <| [
+
+    -- ;; banowAr_1
+    -- bnwAr   banowAr N       baignoire
+
+    KaRDAS                    `noun`    {- banowAr -}          [ "baignoire" ] ]
+
+ |> "b n y" <| [
+
+    -- ;; baniy_1
+    -- bny     baniy   FW-WaBi Bani;Beni;Benny     [[baniy/NOUN_PROP]]
+
+    FaCI                      `noun`    {- baniy -}            [ "Bani", "Beni", "Benny" ],
+
+    -- ;; baniy_1
+    -- bny     baniy   FW-WaBi Bani;Beni;Benny     [[baniy/NOUN_PROP]]
+
+    FaCiL                     `noun`    {- baniy -}            [ "Bani", "Beni", "Benny" ],
+
+    -- ;; baniy_2
+    -- bny     baniy   FW-WaBi sons/children of     [[baniy/NOUN]]
+
+    FaCI                      `noun`    {- baniy -}            [ "sons/children of" ],
+
+    -- ;; baniy_2
+    -- bny     baniy   FW-WaBi sons/children of     [[baniy/NOUN]]
+
+    FaCiL                     `noun`    {- baniy -}            [ "sons/children of" ],
+
+    -- ;; bunay~_1
+    -- bny     bunay~  N       little son
+
+    FuCayL                    `noun`    {- bunay~ -}           [ "little son" ],
+
+    -- ;; banawiy~_1
+    -- bnwy    banawiy~        Nall    filial     [[banawiy~/ADJ]]
+
+    FaCY |< Iy                `adj`     {- banawiy~ -}         [ "filial" ],
 
     -- ;; banaY-i_1
     -- bnY     banaY   PV_0    build;erect
@@ -7997,7 +8098,8 @@ lexicon = listing "Lexicon's properties"
     -- >bny    >aboniy NAt     buildings;structures
     -- Abny    >aboniy NAt     buildings;structures
 
-    FiCA'                     `noun`    {- binA' -}            [ "building", "structure", "buildings", "structures" ],
+    FiCA'                     `noun`    {- binA' -}            [ "building", "structure", "buildings", "structures" ]
+                              `plural`     HaFCiL |< At |< aT,
 
     -- ;; binA'F_1
     -- bnA'    binA'F  FW-Wa   based on;according to     [[binA'F/ADV]]
@@ -8008,131 +8110,6 @@ lexicon = listing "Lexicon's properties"
     -- bnA}y   binA}iy~        Nall    structural;architectural     [[binA}iy~/ADJ]]
 
     FiCA' |< Iy               `adj`     {- binA}iy~ -}         [ "structural", "architectural" ],
-
-    -- ;; ban~A'_1
-    -- bnA'    ban~A'  N0      builder;mason
-    -- bnA'    ban~A'  Nh      builder;mason
-    -- bnA&    ban~A&  Nh      builder;mason
-    -- bnA}    ban~A}  Nhy     builder;mason
-    -- bnA}    ban~A}  NAn_Nayn        builder;mason
-    -- bnA&    ban~A&  Nuwn_Niyn       builder;mason
-
-    FaCLA'                    `noun`    {- ban~A' -}           [ "builder", "mason" ],
-
-    -- ;; ban~A'_2
-    -- bnA'    ban~A'  N0      constructive     [[ban~A'/ADJ]]
-    -- bnA'    ban~A'  NAn_Nayn        constructive     [[ban~A'/ADJ]]
-    -- bnA'    ban~A'  Napdu   constructive     [[ban~A'/ADJ]]
-
-    FaCLA'                    `adj`     {- ban~A' -}           [ "constructive" ],
-
-    -- ;; ban~A'_3
-    -- bnA'    ban~A'  N0      Banna
-
-    FaCLA'                    `noun`    {- ban~A' -}           [ "Banna" ],
-
-    -- ;; mabonaY_1
-    -- mbnY    mabonaY N0      building;structure
-    -- mbnA    mabonA  Nhy     building;structure
-    -- mbny    mabonay NAn_Nayn        buildings;structures
-    -- mbAny   mabAniy N0_Nh   buildings;structures
-    -- mbAn    mabAn   NK      buildings;structures
-
-    MaFCY                     `noun`    {- mabonaY -}          [ "building", "structure", "buildings", "structures" ]
-                              `plural`     MaFACI
-                              `plural`     MaFAL
-                           {- `others`  [ "mabAniy N0_Nh", "mabAn NK" ] -},
-
-    -- ;; bAniy_1
-    -- bAny    bAniy   N0F     building;builder
-    -- bAn     bAn     NK      building;builder
-    -- bAny    bAniy   NAn_Nayn        building;builder
-    -- bAn     bAn     Nuwn_Niyn       building;builder
-    -- bAny    bAniy   NapAt   building;builder
-    -- bnA     bunA    Nap     builders
-
-    FACI                      `noun`    {- bAniy -}            [ "building", "builder", "builders" ]
-                              `plural`     FAL |< Un
-                           {- `others`  [ "bAn NK" ] -},
-
-    -- ;; buwniy_1
-    -- bwny    buwniy  Nprop   Boni
-
-    FUCI                      `noun`    {- buwniy -}           [ "Boni" ] ]
-
- |> "b n q" <| [
-
-    -- ;; binaqap_1
-    -- bnq     binaq   Nap     gore;gusset
-    -- bnyq    baniyq  Nap     gore;gusset
-
-    FiCaL |< aT               `noun`    {- binaqap -}          [ "gore", "gusset" ]
-                              `plural`     FaCIL |< aT ]
-
- |> "b n r" <| [
-
-    -- ;; ban~uwr_1
-    -- bnwr    ban~uwr N       glass
-
-    FaCCUL                    `noun`    {- ban~uwr -}          [ "glass" ] ]
-
- |> "b n r s" <| [
-
-    -- ;; banAris_1
-    -- bnArs   banAris N0      Benares
-
-    KaRADiS                   `noun`    {- banAris -}          [ "Benares" ] ]
-
- |> "b n s" <| [
-
-    -- ;; bAnuws_1
-    -- bAnws   bAnuws  Nprop   Panos
-
-    FACUL                     `noun`    {- bAnuws -}           [ "Panos" ] ]
-
- |> "b n t" <| [
-
-    -- ;; binot_1
-    -- bnt     binot   Ndu     daughter;girl
-    -- bn      ban     NAt     daughters;girls
-
-    FiCL                      `noun`    {- binot -}            [ "daughter", "girl", "daughters", "girls" ] ]
-
- |> "b n w" <| [
-
-    -- ;; bunuw~ap_1
-    -- bnw     bunuw~  Nap     sonship;filiation
-
-    FuCUL |< aT               `noun`    {- bunuw~ap -}         [ "sonship", "filiation" ],
-
-    -- ;; buw_1
-    -- bw      buw     Nprop   Bou
-
-    FuL                       `noun`    {- buw -}              [ "Bou" ] ]
-
- |> "b n w r" <| [
-
-    -- ;; banowAr_1
-    -- bnwAr   banowAr N       baignoire
-
-    KaRDAS                    `noun`    {- banowAr -}          [ "baignoire" ] ]
-
- |> "b n y" <| [
-
-    -- ;; baniy_1
-    -- bny     baniy   FW-WaBi Bani;Beni;Benny     [[baniy/NOUN_PROP]]
-
-    FaCiL                     `noun`    {- baniy -}            [ "Bani", "Beni", "Benny" ],
-
-    -- ;; baniy_2
-    -- bny     baniy   FW-WaBi sons/children of     [[baniy/NOUN]]
-
-    FaCiL                     `noun`    {- baniy -}            [ "sons/children of" ],
-
-    -- ;; bunay~_1
-    -- bny     bunay~  N       little son
-
-    FuCayL                    `noun`    {- bunay~ -}           [ "little son" ],
 
     -- ;; binoyap_1
     -- bny     binoy   Nap     structure;make-up
@@ -8169,6 +8146,19 @@ lexicon = listing "Lexicon's properties"
 
     FuCLAn                    `noun`    {- bunoyAn -}          [ "structure", "edifice" ],
 
+    -- ;; mabonaY_1
+    -- mbnY    mabonaY N0      building;structure
+    -- mbnA    mabonA  Nhy     building;structure
+    -- mbny    mabonay NAn_Nayn        buildings;structures
+    -- mbAny   mabAniy N0_Nh   buildings;structures
+    -- mbAn    mabAn   NK      buildings;structures
+
+    MaFCY                     `noun`    {- mabonaY -}          [ "building", "structure", "buildings", "structures" ]
+                              `plural`     MaFCaL
+                              `plural`     MaFACiL
+                              `plural`     MaFACI
+                           {- `others`  [ "mabnay NAn_Nayn", "mabAniy N0_Nh" ] -},
+
     -- ;; bAniy_1
     -- bAny    bAniy   N0F     building;builder
     -- bAn     bAn     NK      building;builder
@@ -8177,7 +8167,22 @@ lexicon = listing "Lexicon's properties"
     -- bAny    bAniy   NapAt   building;builder
     -- bnA     bunA    Nap     builders
 
-    FACiL                     `noun`    {- bAniy -}            [ "building", "builder", "builders" ] ]
+    FACI                      `noun`    {- bAniy -}            [ "building", "builder", "builders" ],
+
+    -- ;; bAniy_1
+    -- bAny    bAniy   N0F     building;builder
+    -- bAn     bAn     NK      building;builder
+    -- bAny    bAniy   NAn_Nayn        building;builder
+    -- bAn     bAn     Nuwn_Niyn       building;builder
+    -- bAny    bAniy   NapAt   building;builder
+    -- bnA     bunA    Nap     builders
+
+    FACiL                     `noun`    {- bAniy -}            [ "building", "builder", "builders" ],
+
+    -- ;; buwniy_1
+    -- bwny    buwniy  Nprop   Boni
+
+    FUCI                      `noun`    {- buwniy -}           [ "Boni" ] ]
 
  |> "b n y n" <| [
 
@@ -8337,132 +8342,6 @@ lexicon = listing "Lexicon's properties"
     -- bqbwq   baqobuwq        NapAt   blister
 
     KaRDUS |< aT              `noun`    {- baqobuwqap -}       [ "blister" ] ]
-
- |> "b q d" <| [
-
-    -- ;; baqiy-a_1
-    -- bqy     baqiy   PV_no-w remain;last
-    -- bq      baq     PV_w    remain;last
-    -- bqY     boqaY   IV_0    remain;last
-    -- bqy     boqay   IV_Ann  remain;last
-    -- bq      boqa    IV_0hwnyn       remain;last
-
-    FaCI                      `verb`    {- baqiy-a -}          [ "remain", "last" ],
-
-    -- ;; >aboqaY_1
-    -- >bqY    >aboqaY PV_0    maintain;preserve
-    -- AbqY    >aboqaY PV_0    maintain;preserve
-    -- >bqA    >aboqA  PV_h    maintain;preserve
-    -- AbqA    >aboqA  PV_h    maintain;preserve
-    -- >bqy    >aboqay PV_Atn  maintain;preserve
-    -- Abqy    >aboqay PV_Atn  maintain;preserve
-    -- >bq     >aboq   PV_ttAw maintain;preserve
-    -- Abq     >aboq   PV_ttAw maintain;preserve
-    -- bqy     boqiy   IV_0hAnn_yu     maintain;preserve
-    -- bq      boq     IV_0hwnyn_yu    maintain;preserve
-    -- bqY     boqaY   IV_0_Pass_yu    be maintained;be preserved
-    -- bqy     boqay   IV_Ann_Pass_yu  be maintained;be preserved
-
-    HaFCY                     `verb`    {- OaboqaY -}          [ "maintain", "preserve", "be maintained", "be preserved" ],
-
-    -- ;; tabaq~aY_1
-    -- tbqY    tabaq~aY        PV_0    remain;stay
-    -- tbqA    tabaq~A PV_h    remain;stay
-    -- tbqy    tabaq~ay        PV_Atn  remain;stay
-    -- tbq     tabaq~  PV_ttAw remain;stay
-    -- tbqY    tabaq~aY        IV_0    remain;stay
-    -- tbqA    tabaq~A IV_h    remain;stay
-    -- tbqy    tabaq~ay        IV_Ann  remain;stay
-    -- tbq     tabaq~  IV_0hwnyn       remain;stay
-
-    TaFaCCY                   `verb`    {- tabaq~aY -}         [ "remain", "stay" ],
-
-    -- ;; {isotaboqaY_1
-    -- <stbqY  {isotaboqaY     PV_0    maintain;retain;preserve
-    -- AstbqY  {isotaboqaY     PV_0    maintain;retain;preserve
-    -- <stbqA  {isotaboqA      PV_h    maintain;retain;preserve
-    -- AstbqA  {isotaboqA      PV_h    maintain;retain;preserve
-    -- <stbqy  {isotaboqay     PV_Atn  maintain;retain;preserve
-    -- Astbqy  {isotaboqay     PV_Atn  maintain;retain;preserve
-    -- <stbq   {isotaboq       PV_ttAw maintain;retain;preserve
-    -- Astbq   {isotaboq       PV_ttAw maintain;retain;preserve
-    -- stbqy   sotaboqiy       IV_0hAnn        maintain;retain;preserve
-    -- stbq    sotaboq IV_0hwnyn       maintain;retain;preserve
-    -- stbqY   sotaboqaY       IV_0_Pass_yu    be maintained;be retained;be preserved
-
-    IstaFCY                   `verb`    {- AisotaboqaY -}      [ "maintain", "retain", "preserve", "be maintained", "be retained", "be preserved" ],
-
-    -- ;; baqA'_1
-    -- bqA'    baqA'   N0_Nh   survival;remaining
-    -- bqA&    baqA&   Nh      survival;remaining
-    -- bqA}    baqA}   Nhy     survival;remaining
-
-    FaCA'                     `noun`    {- baqA' -}            [ "survival", "remaining" ],
-
-    -- ;; >aboqaY_2
-    -- >bqY    >aboqaY N0      more lasting;more durable
-    -- AbqY    >aboqaY N0      more lasting;more durable
-    -- >bqA    >aboqA  Nhy     more lasting;more durable
-    -- AbqA    >aboqA  Nhy     more lasting;more durable
-    -- >bqy    >aboqay NAn_Nayn        more lasting;more durable
-    -- Abqy    >aboqay NAn_Nayn        more lasting;more durable
-
-    HaFCY                     `noun`    {- OaboqaY -}          [ "more lasting", "more durable" ],
-
-    -- ;; <iboqA'_1
-    -- <bqA'   <iboqA' N0_Nh   continuation;preservation
-    -- AbqA'   <iboqA' N0_Nh   continuation;preservation
-    -- <bqA&   <iboqA& Nh      continuation;preservation
-    -- AbqA&   <iboqA& Nh      continuation;preservation
-    -- <bqA}   <iboqA} Nhy     continuation;preservation
-    -- AbqA}   <iboqA} Nhy     continuation;preservation
-    -- <bqA'   <iboqA' NAn_Nayn        continuation;preservation
-    -- AbqA'   <iboqA' NAn_Nayn        continuation;preservation
-    -- <bqA}   <iboqA} Nayn    continuation;preservation
-    -- AbqA}   <iboqA} Nayn    continuation;preservation
-    -- <bqA'   <iboqA' NAt     continuation;preservation
-    -- AbqA'   <iboqA' NAt     continuation;preservation
-
-    HiFCA'                    `noun`    {- IiboqA' -}          [ "continuation", "preservation" ],
-
-    -- ;; {isotiboqA'_1
-    -- <stbqA' {isotiboqA'     N0_Nh   maintenance;continuation
-    -- AstbqA' {isotiboqA'     N0_Nh   maintenance;continuation
-    -- <stbqA& {isotiboqA&     Nh      maintenance;continuation
-    -- AstbqA& {isotiboqA&     Nh      maintenance;continuation
-    -- <stbqA} {isotiboqA}     Nhy     maintenance;continuation
-    -- AstbqA} {isotiboqA}     Nhy     maintenance;continuation
-    -- <stbqA' {isotiboqA'     NAn_Nayn        maintenance;continuation
-    -- AstbqA' {isotiboqA'     NAn_Nayn        maintenance;continuation
-    -- <stbqA} {isotiboqA}     Nayn    maintenance;continuation
-    -- AstbqA} {isotiboqA}     Nayn    maintenance;continuation
-    -- <stbqA' {isotiboqA'     NAt     maintenance;continuation
-    -- AstbqA' {isotiboqA'     NAt     maintenance;continuation
-
-    IstiFCA'                  `noun`    {- AisotiboqA' -}      [ "maintenance", "continuation" ],
-
-    -- ;; bAqiy_1
-    -- bAqy    bAqiy   N0      Baqi
-
-    FACI                      `noun`    {- bAqiy -}            [ "Baqi" ],
-
-    -- ;; bAqiy_2
-    -- bAqy    bAqiy   N0F_Nh  remaining
-    -- bAq     bAq     NK      remaining
-    -- bAqy    bAqiy   NAn_Nayn        remaining
-    -- bAq     bAq     Nuwn_Niyn       remaining
-    -- bAqy    bAqiy   NapAt   remaining
-
-    FACI                      `noun`    {- bAqiy -}            [ "remaining" ],
-
-    -- ;; mutabaq~iy_1
-    -- mtbqy   mutabaq~iy      N0F_Nh  residue;remnant
-    -- mtbq    mutabaq~        NK      residue;remnant
-    -- mtbqy   mutabaq~iy      NAn_Nayn        residue;remnant
-    -- mtbq    mutabaq~        Nuwn_Niyn       residue;remnant
-    -- mtbqy   mutabaq~iy      NapAt   residue;remnant
-
-    MutaFaCCI                 `noun`    {- mutabaq~iy -}       [ "residue", "remnant" ] ]
 
  |> "b q l" <| [
 
@@ -8658,8 +8537,116 @@ lexicon = listing "Lexicon's properties"
     -- bqy     boqay   IV_Ann  remain;last
     -- bq      boqa    IV_0hwnyn       remain;last
 
+    FaCI                      `verb`    {- baqiy-a -}          [ "remain", "last" ],
+
+    -- ;; baqiy-a_1
+    -- bqy     baqiy   PV_no-w remain;last
+    -- bq      baq     PV_w    remain;last
+    -- bqY     boqaY   IV_0    remain;last
+    -- bqy     boqay   IV_Ann  remain;last
+    -- bq      boqa    IV_0hwnyn       remain;last
+
     FaCiL                     `verb`    {- baqiy-a -}          [ "remain", "last" ]
                               `imperf`     FCY,
+
+    -- ;; >aboqaY_1
+    -- >bqY    >aboqaY PV_0    maintain;preserve
+    -- AbqY    >aboqaY PV_0    maintain;preserve
+    -- >bqA    >aboqA  PV_h    maintain;preserve
+    -- AbqA    >aboqA  PV_h    maintain;preserve
+    -- >bqy    >aboqay PV_Atn  maintain;preserve
+    -- Abqy    >aboqay PV_Atn  maintain;preserve
+    -- >bq     >aboq   PV_ttAw maintain;preserve
+    -- Abq     >aboq   PV_ttAw maintain;preserve
+    -- bqy     boqiy   IV_0hAnn_yu     maintain;preserve
+    -- bq      boq     IV_0hwnyn_yu    maintain;preserve
+    -- bqY     boqaY   IV_0_Pass_yu    be maintained;be preserved
+    -- bqy     boqay   IV_Ann_Pass_yu  be maintained;be preserved
+
+    HaFCY                     `verb`    {- OaboqaY -}          [ "maintain", "preserve", "be maintained", "be preserved" ],
+
+    -- ;; tabaq~aY_1
+    -- tbqY    tabaq~aY        PV_0    remain;stay
+    -- tbqA    tabaq~A PV_h    remain;stay
+    -- tbqy    tabaq~ay        PV_Atn  remain;stay
+    -- tbq     tabaq~  PV_ttAw remain;stay
+    -- tbqY    tabaq~aY        IV_0    remain;stay
+    -- tbqA    tabaq~A IV_h    remain;stay
+    -- tbqy    tabaq~ay        IV_Ann  remain;stay
+    -- tbq     tabaq~  IV_0hwnyn       remain;stay
+
+    TaFaCCY                   `verb`    {- tabaq~aY -}         [ "remain", "stay" ],
+
+    -- ;; {isotaboqaY_1
+    -- <stbqY  {isotaboqaY     PV_0    maintain;retain;preserve
+    -- AstbqY  {isotaboqaY     PV_0    maintain;retain;preserve
+    -- <stbqA  {isotaboqA      PV_h    maintain;retain;preserve
+    -- AstbqA  {isotaboqA      PV_h    maintain;retain;preserve
+    -- <stbqy  {isotaboqay     PV_Atn  maintain;retain;preserve
+    -- Astbqy  {isotaboqay     PV_Atn  maintain;retain;preserve
+    -- <stbq   {isotaboq       PV_ttAw maintain;retain;preserve
+    -- Astbq   {isotaboq       PV_ttAw maintain;retain;preserve
+    -- stbqy   sotaboqiy       IV_0hAnn        maintain;retain;preserve
+    -- stbq    sotaboq IV_0hwnyn       maintain;retain;preserve
+    -- stbqY   sotaboqaY       IV_0_Pass_yu    be maintained;be retained;be preserved
+
+    IstaFCY                   `verb`    {- AisotaboqaY -}      [ "maintain", "retain", "preserve", "be maintained", "be retained", "be preserved" ],
+
+    -- ;; baqA'_1
+    -- bqA'    baqA'   N0_Nh   survival;remaining
+    -- bqA&    baqA&   Nh      survival;remaining
+    -- bqA}    baqA}   Nhy     survival;remaining
+
+    FaCA'                     `noun`    {- baqA' -}            [ "survival", "remaining" ],
+
+    -- ;; >aboqaY_2
+    -- >bqY    >aboqaY N0      more lasting;more durable
+    -- AbqY    >aboqaY N0      more lasting;more durable
+    -- >bqA    >aboqA  Nhy     more lasting;more durable
+    -- AbqA    >aboqA  Nhy     more lasting;more durable
+    -- >bqy    >aboqay NAn_Nayn        more lasting;more durable
+    -- Abqy    >aboqay NAn_Nayn        more lasting;more durable
+
+    HaFCY                     `noun`    {- OaboqaY -}          [ "more lasting", "more durable" ]
+                              `plural`     HaFCaL
+                           {- `others`  [ "'abqay NAn_Nayn" ] -},
+
+    -- ;; <iboqA'_1
+    -- <bqA'   <iboqA' N0_Nh   continuation;preservation
+    -- AbqA'   <iboqA' N0_Nh   continuation;preservation
+    -- <bqA&   <iboqA& Nh      continuation;preservation
+    -- AbqA&   <iboqA& Nh      continuation;preservation
+    -- <bqA}   <iboqA} Nhy     continuation;preservation
+    -- AbqA}   <iboqA} Nhy     continuation;preservation
+    -- <bqA'   <iboqA' NAn_Nayn        continuation;preservation
+    -- AbqA'   <iboqA' NAn_Nayn        continuation;preservation
+    -- <bqA}   <iboqA} Nayn    continuation;preservation
+    -- AbqA}   <iboqA} Nayn    continuation;preservation
+    -- <bqA'   <iboqA' NAt     continuation;preservation
+    -- AbqA'   <iboqA' NAt     continuation;preservation
+
+    HiFCA'                    `noun`    {- IiboqA' -}          [ "continuation", "preservation" ],
+
+    -- ;; {isotiboqA'_1
+    -- <stbqA' {isotiboqA'     N0_Nh   maintenance;continuation
+    -- AstbqA' {isotiboqA'     N0_Nh   maintenance;continuation
+    -- <stbqA& {isotiboqA&     Nh      maintenance;continuation
+    -- AstbqA& {isotiboqA&     Nh      maintenance;continuation
+    -- <stbqA} {isotiboqA}     Nhy     maintenance;continuation
+    -- AstbqA} {isotiboqA}     Nhy     maintenance;continuation
+    -- <stbqA' {isotiboqA'     NAn_Nayn        maintenance;continuation
+    -- AstbqA' {isotiboqA'     NAn_Nayn        maintenance;continuation
+    -- <stbqA} {isotiboqA}     Nayn    maintenance;continuation
+    -- AstbqA} {isotiboqA}     Nayn    maintenance;continuation
+    -- <stbqA' {isotiboqA'     NAt     maintenance;continuation
+    -- AstbqA' {isotiboqA'     NAt     maintenance;continuation
+
+    IstiFCA'                  `noun`    {- AisotiboqA' -}      [ "maintenance", "continuation" ],
+
+    -- ;; bAqiy_1
+    -- bAqy    bAqiy   N0      Baqi
+
+    FACI                      `noun`    {- bAqiy -}            [ "Baqi" ],
 
     -- ;; bAqiy_1
     -- bAqy    bAqiy   N0      Baqi
@@ -8678,7 +8665,25 @@ lexicon = listing "Lexicon's properties"
     -- bAq     bAq     Nuwn_Niyn       remaining
     -- bAqy    bAqiy   NapAt   remaining
 
+    FACI                      `noun`    {- bAqiy -}            [ "remaining" ],
+
+    -- ;; bAqiy_2
+    -- bAqy    bAqiy   N0F_Nh  remaining
+    -- bAq     bAq     NK      remaining
+    -- bAqy    bAqiy   NAn_Nayn        remaining
+    -- bAq     bAq     Nuwn_Niyn       remaining
+    -- bAqy    bAqiy   NapAt   remaining
+
     FACiL                     `noun`    {- bAqiy -}            [ "remaining" ],
+
+    -- ;; mutabaq~iy_1
+    -- mtbqy   mutabaq~iy      N0F_Nh  residue;remnant
+    -- mtbq    mutabaq~        NK      residue;remnant
+    -- mtbqy   mutabaq~iy      NAn_Nayn        residue;remnant
+    -- mtbq    mutabaq~        Nuwn_Niyn       residue;remnant
+    -- mtbqy   mutabaq~iy      NapAt   residue;remnant
+
+    MutaFaCCI                 `noun`    {- mutabaq~iy -}       [ "residue", "remnant" ],
 
     -- ;; mutabaq~iy_1
     -- mtbqy   mutabaq~iy      N0F_Nh  residue;remnant
@@ -10294,11 +10299,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "b r r" <| [
 
-    -- ;; bAriy_2
-    -- bAry    bAriy   Nprop   Paris
-
-    FACI                      `noun`    {- bAriy -}            [ "Paris" ],
-
     -- ;; bar~-i_1
     -- br      bar~    PV_V_intr       be charitable;be devoted
     -- brr     barar   PV_C_intr       be charitable;be devoted
@@ -10425,56 +10425,9 @@ lexicon = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- bur~ -}             [ "wheat" ]
                               `plural`     FaCL
-                           {- `others`  [ "barr N" ] -},
-
-    -- ;; buwriy_1
-    -- bwry    buwriy  N/At    bugle;signal horn
-
-    FUCI                      `noun`    {- buwriy -}           [ "bugle", "signal horn" ] ]
+                           {- `others`  [ "barr N" ] -} ]
 
  |> "b r s" <| [
-
-    -- ;; barA'ap_1
-    -- brA'    barA'   Nap     innocence
-
-    FaCA' |< aT               `noun`    {- barA'ap -}          [ "innocence" ],
-
-    -- ;; barA'ap_2
-    -- brA'    barA'   NapAt   license;patent
-
-    FaCA' |< aT               `noun`    {- barA'ap -}          [ "license", "patent" ],
-
-    -- ;; <iborA'_1
-    -- <brA'   <iborA' N0_Nh   acquittal;exoneration
-    -- AbrA'   <iborA' N0_Nh   acquittal;exoneration
-    -- <brA&   <iborA& Nh      acquittal;exoneration
-    -- AbrA&   <iborA& Nh      acquittal;exoneration
-    -- <brA}   <iborA} Nhy     acquittal;exoneration
-    -- AbrA}   <iborA} Nhy     acquittal;exoneration
-    -- <brA'   <iborA' NAn_Nayn        acquittals;exonerations
-    -- AbrA'   <iborA' NAn_Nayn        acquittals;exonerations
-    -- <brA}   <iborA} Nayn    acquittals;exonerations
-    -- AbrA}   <iborA} Nayn    acquittals;exonerations
-    -- <brA'   <iborA' NAt     acquittals;exonerations
-    -- AbrA'   <iborA' NAt     acquittals;exonerations
-
-    HiFCA'                    `noun`    {- IiborA' -}          [ "acquittal", "exoneration", "acquittals", "exonerations" ],
-
-    -- ;; {isotiborA'_1
-    -- <stbrA' {isotiborA'     N0_Nh   purification
-    -- AstbrA' {isotiborA'     N0_Nh   purification
-    -- <stbrA& {isotiborA&     Nh      purification
-    -- AstbrA& {isotiborA&     Nh      purification
-    -- <stbrA} {isotiborA}     Nhy     purification
-    -- AstbrA} {isotiborA}     Nhy     purification
-    -- <stbrA' {isotiborA'     NAn_Nayn        purifications
-    -- AstbrA' {isotiborA'     NAn_Nayn        purifications
-    -- <stbrA} {isotiborA}     Nayn    purifications
-    -- AstbrA} {isotiborA}     Nayn    purifications
-    -- <stbrA' {isotiborA'     NAt     purifications
-    -- AstbrA' {isotiborA'     NAt     purifications
-
-    IstiFCA'                  `noun`    {- AisotiborA' -}      [ "purification", "purifications" ],
 
     -- ;; bris_1
     -- brs     bris    N0      Press
@@ -10525,6 +10478,11 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAriy_2
     -- bAry    bAriy   Nprop   Paris
 
+    FACI                      `noun`    {- bAriy -}            [ "Paris" ],
+
+    -- ;; bAriy_2
+    -- bAry    bAriy   Nprop   Paris
+
     FACiL                     `noun`    {- bAriy -}            [ "Paris" ],
 
     -- ;; >aboriyA'_1
@@ -10536,6 +10494,48 @@ lexicon = listing "Lexicon's properties"
     -- AbryA}  >aboriyA}       Nhy     innocent;exempt
 
     HaFCiLA'                  `noun`    {- OaboriyA' -}        [ "innocent", "exempt" ],
+
+    -- ;; barA'ap_1
+    -- brA'    barA'   Nap     innocence
+
+    FaCA' |< aT               `noun`    {- barA'ap -}          [ "innocence" ],
+
+    -- ;; barA'ap_2
+    -- brA'    barA'   NapAt   license;patent
+
+    FaCA' |< aT               `noun`    {- barA'ap -}          [ "license", "patent" ],
+
+    -- ;; <iborA'_1
+    -- <brA'   <iborA' N0_Nh   acquittal;exoneration
+    -- AbrA'   <iborA' N0_Nh   acquittal;exoneration
+    -- <brA&   <iborA& Nh      acquittal;exoneration
+    -- AbrA&   <iborA& Nh      acquittal;exoneration
+    -- <brA}   <iborA} Nhy     acquittal;exoneration
+    -- AbrA}   <iborA} Nhy     acquittal;exoneration
+    -- <brA'   <iborA' NAn_Nayn        acquittals;exonerations
+    -- AbrA'   <iborA' NAn_Nayn        acquittals;exonerations
+    -- <brA}   <iborA} Nayn    acquittals;exonerations
+    -- AbrA}   <iborA} Nayn    acquittals;exonerations
+    -- <brA'   <iborA' NAt     acquittals;exonerations
+    -- AbrA'   <iborA' NAt     acquittals;exonerations
+
+    HiFCA'                    `noun`    {- IiborA' -}          [ "acquittal", "exoneration", "acquittals", "exonerations" ],
+
+    -- ;; {isotiborA'_1
+    -- <stbrA' {isotiborA'     N0_Nh   purification
+    -- AstbrA' {isotiborA'     N0_Nh   purification
+    -- <stbrA& {isotiborA&     Nh      purification
+    -- AstbrA& {isotiborA&     Nh      purification
+    -- <stbrA} {isotiborA}     Nhy     purification
+    -- AstbrA} {isotiborA}     Nhy     purification
+    -- <stbrA' {isotiborA'     NAn_Nayn        purifications
+    -- AstbrA' {isotiborA'     NAn_Nayn        purifications
+    -- <stbrA} {isotiborA}     Nayn    purifications
+    -- AstbrA} {isotiborA}     Nayn    purifications
+    -- <stbrA' {isotiborA'     NAt     purifications
+    -- AstbrA' {isotiborA'     NAt     purifications
+
+    IstiFCA'                  `noun`    {- AisotiborA' -}      [ "purification", "purifications" ],
 
     -- ;; baraY-i_1
     -- brY     baraY   PV_0    sharpen;trim;wear out
@@ -10627,7 +10627,12 @@ lexicon = listing "Lexicon's properties"
     -- mtbAr   mutabAr Nuwn_Niyn       participant;competitor
     -- mtbAry  mutabAriy       NapAt   participant;competitor
 
-    MutaFACiL                 `noun`    {- mutabAriy -}        [ "participant", "competitor" ] ]
+    MutaFACiL                 `noun`    {- mutabAriy -}        [ "participant", "competitor" ],
+
+    -- ;; buwriy_1
+    -- bwry    buwriy  N/At    bugle;signal horn
+
+    FUCI                      `noun`    {- buwriy -}           [ "bugle", "signal horn" ] ]
 
  |> "b r z" <| [
 
@@ -11329,13 +11334,6 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- bAtiE -}            [ "strong", "entire" ] ]
 
- |> "b t b" <| [
-
-    -- ;; buwtiy_1
-    -- bwty    buwtiy  Nprop   Petit
-
-    FUCI                      `noun`    {- buwtiy -}           [ "Petit" ] ]
-
  |> "b t k" <| [
 
     -- ;; bat~ak_1
@@ -11607,6 +11605,13 @@ lexicon = listing "Lexicon's properties"
     -- mbtwt   mabotuwt        Nall    severed;terminated
 
     MaFCUL                    `noun`    {- mabotuwt -}         [ "severed", "terminated" ] ]
+
+ |> "b t y" <| [
+
+    -- ;; buwtiy_1
+    -- bwty    buwtiy  Nprop   Petit
+
+    FUCI                      `noun`    {- buwtiy -}           [ "Petit" ] ]
 
  |> "b t z" <| [
 

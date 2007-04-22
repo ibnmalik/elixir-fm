@@ -1023,15 +1023,15 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCAL                   `noun`    {- AixotirAq -}        [ "penetration", "crossing" ] ]
 
- |> "_h r r" <| [
+ |> "_h r s" <| [
+
+    FaCaLAn                   `noun`    {- xarasAn -}          [ "concrete" ] ]
+
+ |> "_h r y" <| [
 
     FUCI                      `noun`    {- xuwriy -}           [ "priest", "priests" ],
 
     FUCI                      `noun`    {- xuwriy -}           [ "Khouri" ] ]
-
- |> "_h r s" <| [
-
-    FaCaLAn                   `noun`    {- xarasAn -}          [ "concrete" ] ]
 
  |> "_h r z" <| [
 

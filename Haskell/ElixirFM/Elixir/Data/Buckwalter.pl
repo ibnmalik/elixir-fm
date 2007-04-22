@@ -29,7 +29,7 @@ our ($F, $C, $L, $K, $R, $D, $S);
 
 demode "buckwalter", "nowasla", "xml";
 
-initialize_patterns();
+initializePatterns();
 
 
 $/ = "\n";
@@ -93,7 +93,7 @@ until (eof()) {
 
             storeGloss($_) foreach split /\s*;\s*/, $gloss;
 
-            my $form = convert($full);
+            my $form = restoreForm($full);
 
             storeType($form, $type, $tags);
         }
@@ -115,7 +115,7 @@ sub beginEntry {
 
     $Entry->{'orig'} = $_[0];
 
-    $Entry->{'form'} = convert($Entry->{'orig'});
+    $Entry->{'form'} = restoreForm($Entry->{'orig'});
 
     $Entry->{'index'} = $_[1];
 
@@ -368,8 +368,8 @@ sub closeEntry {
 
                 $done = 1;
 
-                $toor[1] = $root[1]  if $toor[1] eq '' and @root > 1;
-                $toor[2] = $root[-1] if $toor[2] eq '' and @root > 1;
+                $toor[1] = $root[1]               if $toor[1] eq '' and @root > 1;
+                $toor[2] = restoreWith($root[-1]) if $toor[2] eq '' and @root > 1;
 
                 storeEntry((join ' ', @toor), $_) foreach @{$root{$toor}};
             }
@@ -378,7 +378,7 @@ sub closeEntry {
                 $done = 1;
 
                 $toor[0] = $root[0];
-                $toor[2] = $root[-1] if $toor[2] eq '' and @root > 1;
+                $toor[2] = restoreWith($root[-1]) if $toor[2] eq '' and @root > 1;
 
                 storeEntry((join ' ', @toor), $_) foreach @{$root{$toor}};
             }
@@ -388,6 +388,12 @@ sub closeEntry {
     }
 
     $Entry = undef;
+}
+
+
+sub restoreWith {
+
+    return $_[0] =~ /^[wy\']$/ ? $_[0] : "y";
 }
 
 
@@ -471,7 +477,7 @@ package Elixir::Data::Buckwalter::Lexicon$ID;
 }
 
 
-sub convert {
+sub restoreForm {
 
     my $entry = $_[0];
 
@@ -493,12 +499,12 @@ sub convert {
 }
 
 
-sub initialize_patterns {
+sub initializePatterns {
 
     my $X = "(\\'|b|t|\\_t|\\^g|\\.h|\\_h|d|\\_d|r|z|s|\\^s|\\.s|\\.d|\\.t|\\.z|\\`|\\.g|f|q|k|l|m|n|h|w|y)";
     my $T = "(?:t|\\_t|d|\\_d|\\.t)";
 
-    @pAttErns = read_patterns('Patterns/Triliteral.hs', 'Patterns/Quadriliteral.hs');
+    @pAttErns = readPatterns('Patterns/Triliteral.hs', 'Patterns/Quadriliteral.hs');
 
     printf STDERR "%4d patterns\n", scalar @pAttErns;
 
@@ -538,7 +544,7 @@ sub initialize_patterns {
 }
 
 
-sub read_patterns {
+sub readPatterns {
 
     my (@files, $file) = @_;
 

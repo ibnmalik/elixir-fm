@@ -1280,81 +1280,6 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCaL                `noun`    {- mutatal~ah -}       [ "bewildered", "distracted" ] ]
 
- |> "t l k" <| [
-
-    -- ;; talA-u_1
-    -- tlA     talA    PV_0h   follow;recite
-    -- tlw     talaw   PV_Atn  follow;recite
-    -- tl      tal     PV_ttAw follow;recite
-    -- tlw     toluw   IV_0hAnn        follow;recite
-    -- tl      tol     IV_0hwnyn       follow;recite
-    -- tlY     tolaY   IV_0_Pass_yu    be followed;be recited
-    -- tly     tolay   IV_Ann_Pass_yu  be followed;be recited
-
-    FaCA                      `verb`    {- talA-u -}           [ "follow", "recite", "be followed", "be recited" ]
-                              `imperf`     FCU,
-
-    -- ;; >atolaY_1
-    -- >tlY    >atolaY PV_0    make follow;put next
-    -- AtlY    >atolaY PV_0    make follow;put next
-    -- >tlA    >atolA  PV_h    make follow;put next
-    -- AtlA    >atolA  PV_h    make follow;put next
-    -- >tly    >atolay PV_Atn  make follow;put next
-    -- Atly    >atolay PV_Atn  make follow;put next
-    -- >tl     >atol   PV_ttAw make follow;put next
-    -- Atl     >atol   PV_ttAw make follow;put next
-    -- tly     toliy   IV_0hAnn_yu     make follow;put next
-    -- tl      tol     IV_0hwnyn_yu    make follow;put next
-    -- tlY     tolaY   IV_0_Pass_yu    be made to follow;be put next
-    -- tly     tolay   IV_Ann_Pass_yu  be made to follow;be put next
-
-    HaFCY                     `verb`    {- OatolaY -}          [ "make follow", "put next", "be made to follow", "be put next" ],
-
-    -- ;; tatAlaY_1
-    -- ttAlY   tatAlaY PV_0    follow one another;be successive
-    -- ttAlA   tatAlA  PV_h    follow one another;be successive
-    -- ttAly   tatAlay PV_Atn  follow one another;be successive
-    -- ttAl    tatAl   PV_ttAw follow one another;be successive
-    -- ttAlY   tatAlaY IV_0    follow one another;be successive
-    -- ttAlA   tatAlA  IV_h    follow one another;be successive
-    -- ttAly   tatAlay IV_Ann  follow one another;be successive
-    -- ttAl    tatAl   IV_0hwnyn       follow one another;be successive
-
-    TaFACY                    `verb`    {- tatAlaY -}          [ "follow one another", "be successive" ],
-
-    -- ;; {isotatolaY_1
-    -- <sttlY  {isotatolaY     PV_0    continue
-    -- AsttlY  {isotatolaY     PV_0    continue
-    -- <sttlA  {isotatolA      PV_h    continue
-    -- AsttlA  {isotatolA      PV_h    continue
-    -- <sttly  {isotatolay     PV_Atn  continue
-    -- Asttly  {isotatolay     PV_Atn  continue
-    -- <sttl   {isotatol       PV_ttAw continue
-    -- Asttl   {isotatol       PV_ttAw continue
-    -- sttly   sotatoliy       IV_0hAnn        continue
-    -- sttl    sotatol IV_0hwnyn       continue
-    -- sttlY   sotatolaY       IV_0_Pass_yu    be continued
-
-    IstaFCY                   `verb`    {- AisotatolaY -}      [ "continue", "be continued" ],
-
-    -- ;; tAliy_1
-    -- tAly    tAliy   N0F     following;subsequent     [[tAliy/ADJ]]
-    -- tAl     tAl     NK      following;subsequent     [[tAl/ADJ]]
-    -- tAly    tAliy   NAn_Nayn        following;subsequent     [[tAliy/ADJ]]
-    -- tAl     tAl     Nuwn_Niyn       following;subsequent     [[tAl/ADJ]]
-    -- tAly    tAliy   NapAt   following;subsequent     [[tAliy/ADJ]]
-
-    FACI                      `adj`     {- tAliy -}            [ "following", "subsequent" ],
-
-    -- ;; mutatAliy_1
-    -- mttAly  mutatAliy       N0F_Nh  consecutive;successive
-    -- mttAl   mutatAl NK      consecutive;successive
-    -- mttAly  mutatAliy       NAn_Nayn        consecutive;successive
-    -- mttAl   mutatAl Nuwn_Niyn       consecutive;successive
-    -- mttAly  mutatAliy       NapAt   consecutive;successive
-
-    MutaFACI                  `noun`    {- mutatAliy -}        [ "consecutive", "successive" ] ]
-
  |> "t l l" <| [
 
     -- ;; tal~_1
@@ -1465,6 +1390,70 @@ lexicon = listing "Lexicon's properties"
 
  |> "t l y" <| [
 
+    -- ;; talA-u_1
+    -- tlA     talA    PV_0h   follow;recite
+    -- tlw     talaw   PV_Atn  follow;recite
+    -- tl      tal     PV_ttAw follow;recite
+    -- tlw     toluw   IV_0hAnn        follow;recite
+    -- tl      tol     IV_0hwnyn       follow;recite
+    -- tlY     tolaY   IV_0_Pass_yu    be followed;be recited
+    -- tly     tolay   IV_Ann_Pass_yu  be followed;be recited
+
+    FaCA                      `verb`    {- talA-u -}           [ "follow", "recite", "be followed", "be recited" ]
+                              `imperf`     FCU,
+
+    -- ;; >atolaY_1
+    -- >tlY    >atolaY PV_0    make follow;put next
+    -- AtlY    >atolaY PV_0    make follow;put next
+    -- >tlA    >atolA  PV_h    make follow;put next
+    -- AtlA    >atolA  PV_h    make follow;put next
+    -- >tly    >atolay PV_Atn  make follow;put next
+    -- Atly    >atolay PV_Atn  make follow;put next
+    -- >tl     >atol   PV_ttAw make follow;put next
+    -- Atl     >atol   PV_ttAw make follow;put next
+    -- tly     toliy   IV_0hAnn_yu     make follow;put next
+    -- tl      tol     IV_0hwnyn_yu    make follow;put next
+    -- tlY     tolaY   IV_0_Pass_yu    be made to follow;be put next
+    -- tly     tolay   IV_Ann_Pass_yu  be made to follow;be put next
+
+    HaFCY                     `verb`    {- OatolaY -}          [ "make follow", "put next", "be made to follow", "be put next" ],
+
+    -- ;; tatAlaY_1
+    -- ttAlY   tatAlaY PV_0    follow one another;be successive
+    -- ttAlA   tatAlA  PV_h    follow one another;be successive
+    -- ttAly   tatAlay PV_Atn  follow one another;be successive
+    -- ttAl    tatAl   PV_ttAw follow one another;be successive
+    -- ttAlY   tatAlaY IV_0    follow one another;be successive
+    -- ttAlA   tatAlA  IV_h    follow one another;be successive
+    -- ttAly   tatAlay IV_Ann  follow one another;be successive
+    -- ttAl    tatAl   IV_0hwnyn       follow one another;be successive
+
+    TaFACY                    `verb`    {- tatAlaY -}          [ "follow one another", "be successive" ],
+
+    -- ;; {isotatolaY_1
+    -- <sttlY  {isotatolaY     PV_0    continue
+    -- AsttlY  {isotatolaY     PV_0    continue
+    -- <sttlA  {isotatolA      PV_h    continue
+    -- AsttlA  {isotatolA      PV_h    continue
+    -- <sttly  {isotatolay     PV_Atn  continue
+    -- Asttly  {isotatolay     PV_Atn  continue
+    -- <sttl   {isotatol       PV_ttAw continue
+    -- Asttl   {isotatol       PV_ttAw continue
+    -- sttly   sotatoliy       IV_0hAnn        continue
+    -- sttl    sotatol IV_0hwnyn       continue
+    -- sttlY   sotatolaY       IV_0_Pass_yu    be continued
+
+    IstaFCY                   `verb`    {- AisotatolaY -}      [ "continue", "be continued" ],
+
+    -- ;; tAliy_1
+    -- tAly    tAliy   N0F     following;subsequent     [[tAliy/ADJ]]
+    -- tAl     tAl     NK      following;subsequent     [[tAl/ADJ]]
+    -- tAly    tAliy   NAn_Nayn        following;subsequent     [[tAliy/ADJ]]
+    -- tAl     tAl     Nuwn_Niyn       following;subsequent     [[tAl/ADJ]]
+    -- tAly    tAliy   NapAt   following;subsequent     [[tAliy/ADJ]]
+
+    FACI                      `adj`     {- tAliy -}            [ "following", "subsequent" ],
+
     -- ;; tAliy_1
     -- tAly    tAliy   N0F     following;subsequent     [[tAliy/ADJ]]
     -- tAl     tAl     NK      following;subsequent     [[tAl/ADJ]]
@@ -1473,6 +1462,15 @@ lexicon = listing "Lexicon's properties"
     -- tAly    tAliy   NapAt   following;subsequent     [[tAliy/ADJ]]
 
     FACiL                     `adj`     {- tAliy -}            [ "following", "subsequent" ],
+
+    -- ;; mutatAliy_1
+    -- mttAly  mutatAliy       N0F_Nh  consecutive;successive
+    -- mttAl   mutatAl NK      consecutive;successive
+    -- mttAly  mutatAliy       NAn_Nayn        consecutive;successive
+    -- mttAl   mutatAl Nuwn_Niyn       consecutive;successive
+    -- mttAly  mutatAliy       NapAt   consecutive;successive
+
+    MutaFACI                  `noun`    {- mutatAliy -}        [ "consecutive", "successive" ],
 
     -- ;; mutatAliy_1
     -- mttAly  mutatAliy       N0F_Nh  consecutive;successive
@@ -1621,13 +1619,6 @@ lexicon = listing "Lexicon's properties"
 
     FuCCaL                    `noun`    {- tum~an -}           [ "rice" ] ]
 
- |> "t m q" <| [
-
-    -- ;; tuwmiy_1
-    -- twmy    tuwmiy  Nprop   Tommy
-
-    FUCI                      `noun`    {- tuwmiy -}           [ "Tommy" ] ]
-
  |> "t m r" <| [
 
     -- ;; tamor_1
@@ -1669,6 +1660,13 @@ lexicon = listing "Lexicon's properties"
     -- tmtm    tamotam Nap     murmuring;babble
 
     KaRDaS |< aT              `noun`    {- tamotamap -}        [ "murmuring", "babble" ] ]
+
+ |> "t m y" <| [
+
+    -- ;; tuwmiy_1
+    -- twmy    tuwmiy  Nprop   Tommy
+
+    FUCI                      `noun`    {- tuwmiy -}           [ "Tommy" ] ]
 
  |> "t m z" <| [
 
@@ -1762,18 +1760,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCACIL
                            {- `others`  [ "tanAniyn Ndip" ] -} ]
 
- |> "t n q" <| [
-
-    -- ;; tuwniy_1
-    -- twny    tuwniy  Nprop   Toni
-
-    FUCI                      `noun`    {- tuwniy -}           [ "Toni" ],
-
-    -- ;; tuwniy_2
-    -- twny    tuwniy  N0      Toni
-
-    FUCI                      `noun`    {- tuwniy -}           [ "Toni" ] ]
-
  |> "t n r" <| [
 
     -- ;; tan~uwr_1
@@ -1795,6 +1781,18 @@ lexicon = listing "Lexicon's properties"
     -- tnw     tanow   Nap     coffee dregs
 
     FaCL |< aT                `noun`    {- tanowap -}          [ "coffee dregs" ] ]
+
+ |> "t n y" <| [
+
+    -- ;; tuwniy_1
+    -- twny    tuwniy  Nprop   Toni
+
+    FUCI                      `noun`    {- tuwniy -}           [ "Toni" ],
+
+    -- ;; tuwniy_2
+    -- twny    tuwniy  N0      Toni
+
+    FUCI                      `noun`    {- tuwniy -}           [ "Toni" ] ]
 
  |> "t n z" <| [
 
