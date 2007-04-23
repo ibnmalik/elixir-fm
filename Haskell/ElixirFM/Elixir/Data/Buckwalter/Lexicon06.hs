@@ -1985,7 +1985,10 @@ lexicon = listing "Lexicon's properties"
     -- >HAj    >aHAj   NK      riddles;puzzles
     -- AHAj    >aHAj   NK      riddles;puzzles
 
-    FuCCAL |< aT              `noun`    {- Huj~Ayap -}         [ "riddle", "puzzle", "riddles", "puzzles" ] ]
+    FuCCAL |< aT              `noun`    {- Huj~Ayap -}         [ "riddle", "puzzle", "riddles", "puzzles" ]
+                              `plural`     HaFACiL
+                              `plural`     HaFACI
+                           {- `others`  [ "'a.hA^giy N0_Nh" ] -} ]
 
  |> ".h ^g z" <| [
 
@@ -10524,8 +10527,9 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- OaHosan -}          [ "better/best", "beauty", "belle", "best", "beauties" ]
                               `plural`     FaCLA'
+                              `plural`     HaFACiL
                               `plural`     FuCLY
-                           {- `others`  [ ".hasnA' Nh N0_Nh Nhy", ".husnY N0" ] -},
+                           {- `others`  [ ".hasnA' Nh N0_Nh Nhy", "'a.hAsin Ndip", ".husnY N0" ] -},
 
     -- ;; Hasanap_1
     -- Hsn     Hasan   NapAt   good deed;merit

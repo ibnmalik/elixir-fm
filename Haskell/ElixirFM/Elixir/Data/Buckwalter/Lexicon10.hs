@@ -7067,7 +7067,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- rahoT -}            [ "group", "band", "groups", "bands" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'arhA.t N" ] -},
+                              `plural`     HaFACiL
+                           {- `others`  [ "'arhA.t N", "'arAhi.t Ndip" ] -},
 
     -- ;; rahoT_2
     -- rhT     rahoT   Ndu     leather loincloth
@@ -8450,7 +8451,9 @@ lexicon = listing "Lexicon's properties"
     -- >rAml   >arAmil Ndip    widowers
     -- ArAml   >arAmil Ndip    widowers
 
-    HaFCaL                    `noun`    {- Oaromal -}          [ "widower", "widowers" ],
+    HaFCaL                    `noun`    {- Oaromal -}          [ "widower", "widowers" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'arAmil Ndip" ] -},
 
     -- ;; >aromalap_1
     -- >rml    >aromal Napdu   widow
@@ -8460,7 +8463,9 @@ lexicon = listing "Lexicon's properties"
     -- >rAml   >arAmil Nap     widows
     -- ArAml   >arAmil Nap     widows
 
-    HaFCaL |< aT              `noun`    {- Oaromalap -}        [ "widow", "widows" ],
+    HaFCaL |< aT              `noun`    {- Oaromalap -}        [ "widow", "widows" ]
+                              `plural`     HaFACiL |< aT
+                           {- `others`  [ "'arAmil Ndip" ] -},
 
     -- ;; miromalap_1
     -- mrml    miromal NapAt   sandbox

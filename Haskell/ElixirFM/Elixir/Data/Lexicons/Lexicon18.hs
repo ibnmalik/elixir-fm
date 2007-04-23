@@ -325,7 +325,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- OaEoZam -}          [ "greater/greatest", "major", "supreme" ]
                               `plural`     FuCLY
-                           {- `others`  [ "`u.zmY N0" ] -},
+                              `plural`     HaFACiL
+                           {- `others`  [ "`u.zmY N0", "'a`A.zim Ndip" ] -},
 
     TaFCIL                    `noun`    {- taEoZiym -}         [ "glorification", "veneration" ],
 
@@ -842,7 +843,9 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCY                    `verb`    {- AiEotadaY -}        [ "commit an aggression", "be hostile", "encroach", "infringe" ],
 
-    FaCUL                     `noun`    {- Eaduw~ -}           [ "enemy", "enemies" ],
+    FaCUL                     `noun`    {- Eaduw~ -}           [ "enemy", "enemies" ]
+                              `plural`     HaFACI
+                           {- `others`  [ "'a`Adiy N0_Nh" ] -},
 
     FaCLY                     `noun`    {- EadowaY -}          [ "infection" ],
 
@@ -1209,7 +1212,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `adj`     {- OaEolaY -}          [ "higher/highest", "supreme", "highest", "heights", "peaks", "high" ]
                               `plural`     FuCyA
-                           {- `others`  [ "`ulyA N0" ] -},
+                              `plural`     HaFACI
+                           {- `others`  [ "`ulyA N0", "'a`Aliy N0_Nh" ] -},
 
     HiFCA'                    `noun`    {- IiEolA' -}          [ "raising", "lifting" ],
 

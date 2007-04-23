@@ -5874,7 +5874,9 @@ lexicon = listing "Lexicon's properties"
     -- >TAyb   >aTAyib Ndip    pleasures;amenities
     -- ATAyb   >aTAyib Ndip    pleasures;amenities
 
-    HaFCaL                    `noun`    {- OaToyab -}          [ "better/best", "pleasures", "amenities" ],
+    HaFCaL                    `noun`    {- OaToyab -}          [ "better/best", "pleasures", "amenities" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'a.tAyib Ndip" ] -},
 
     -- ;; maTAyib_1
     -- mTAyb   maTAyib Ndip    comforts;amenities

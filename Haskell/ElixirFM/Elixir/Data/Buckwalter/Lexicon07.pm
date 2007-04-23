@@ -6183,6 +6183,9 @@ $Lexicon = {
         'AxAyr   >axAyir Ndip    better;superior'
       ],
       'patterns' => {
+        '\'a_hAyir' => [
+          'HaFACiL'
+        ],
         '_hiyrY' => [
           'FiCLY'
         ]
@@ -16732,6 +16735,9 @@ $Lexicon = {
         'xylA}   xuyalA} Nhy     conceit;arrogance'
       ],
       'patterns' => {
+        '\'a_hAyil' => [
+          'HaFACiL'
+        ],
         '_huyalA\'' => [
           'FuCaLA\''
         ],
@@ -40270,7 +40276,11 @@ $Lexicon = {
         '>xAmS   >axAmiS Ndip    soles;toes',
         'AxAmS   >axAmiS Ndip    soles;toes'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a_hAmi.s' => [
+          'HaFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',

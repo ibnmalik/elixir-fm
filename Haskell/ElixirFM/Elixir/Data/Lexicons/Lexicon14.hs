@@ -269,7 +269,9 @@ lexicon = listing "Lexicon's properties"
 
  |> ".s b `" <| [
 
-    HiFCaL                    `noun`    {- IiSobaE -}          [ "finger", "fingers" ] ]
+    HiFCaL                    `noun`    {- IiSobaE -}          [ "finger", "fingers" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'a.sAbi` Ndip" ] -} ]
 
  |> ".s b b" <| [
 

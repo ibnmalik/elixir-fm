@@ -151,8 +151,9 @@ lexicon = listing "Lexicon's properties"
     TaFCIL |< Iy              `adj`     {- tafoDiyliy~ -}      [ "preferential" ],
 
     FACiL                     `adj`     {- fADil -}            [ "honorable", "eminent" ]
+                              `plural`     HaFACiL
                               `plural`     FuCaLA'
-                           {- `others`  [ "fu.dalA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "'afA.dil Ndip", "fu.dalA' Nh N0_Nh Nhy" ] -},
 
     FACiL                     `noun`    {- fADil -}            [ "Fadil" ],
 

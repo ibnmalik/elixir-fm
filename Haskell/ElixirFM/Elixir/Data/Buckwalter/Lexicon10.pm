@@ -6723,7 +6723,11 @@ $Lexicon = {
         '>rAml   >arAmil Ndip    widowers',
         'ArAml   >arAmil Ndip    widowers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'arAmil' => [
+          'HaFACiL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',
@@ -6756,7 +6760,11 @@ $Lexicon = {
         '>rAml   >arAmil Nap     widows',
         'ArAml   >arAmil Nap     widows'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'arAmil' => [
+          'HaFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL |< aT',
@@ -50669,6 +50677,9 @@ $Lexicon = {
       'patterns' => {
         '\'arhA.t' => [
           'HaFCAL'
+        ],
+        '\'arAhi.t' => [
+          'HaFACiL'
         ]
       },
       'index' => '1',

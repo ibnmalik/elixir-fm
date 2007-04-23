@@ -7857,6 +7857,9 @@ $Lexicon = {
       'patterns' => {
         'qu.swY' => [
           'FuCLY'
+        ],
+        '\'aqA.siy' => [
+          'HaFACI'
         ]
       },
       'index' => '3',
@@ -63232,7 +63235,11 @@ $Lexicon = {
         '>qArb   >aqArib Ndip    relatives;extended family',
         'AqArb   >aqArib Ndip    relatives;extended family'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'aqArib' => [
+          'HaFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',

@@ -9462,9 +9462,10 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- Oa$owa$ -}          [ "brave", "hero", "heroes", "proud", "audacious" ]
                               `plural`     FaCLA'
+                              `plural`     HaFACiL
                               `plural`     FUL
                               `plural`     FuCL
-                           {- `others`  [ "^saw^sA' Nh N0_Nh Nhy", "^suw^s N" ] -},
+                           {- `others`  [ "^saw^sA' Nh N0_Nh Nhy", "'a^sAwi^s Ndip", "^suw^s N" ] -},
 
     -- ;; $aw~a$_1
     -- \$w$     $aw~a$  PV      confuse;disturb

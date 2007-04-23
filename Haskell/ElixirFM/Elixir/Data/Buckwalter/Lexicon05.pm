@@ -11880,7 +11880,11 @@ $Lexicon = {
         '>jAnb   >ajAnib Ndip    foreign     [[>ajAnib/ADJ]]',
         'AjAnb   >ajAnib Ndip    foreign     [[>ajAnib/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a^gAnib' => [
+          'HaFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'HaFCaL |< Iy',
@@ -11909,7 +11913,11 @@ $Lexicon = {
         '>jAnb   >ajAnib Ndip    foreigner     [[>ajAnib/NOUN]]',
         'AjAnb   >ajAnib Ndip    foreigner     [[>ajAnib/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a^gAnib' => [
+          'HaFACiL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'HaFCaL |< Iy',

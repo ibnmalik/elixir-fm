@@ -1878,6 +1878,9 @@ $Lexicon = {
         '^suw^s' => [
           'FUL',
           'FuCL'
+        ],
+        '\'a^sAwi^s' => [
+          'HaFACiL'
         ]
       },
       'index' => '1',

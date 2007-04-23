@@ -597,7 +597,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `noun`    {- OadonaY -}          [ "near", "nearer", "nearest", "inferior", "lowest", "near/nearer/nearest", "lower/lowest" ]
                               `plural`     FuCY
-                           {- `others`  [ "dunY N0" ] -},
+                              `plural`     HaFACI
+                           {- `others`  [ "dunY N0", "'adAniy N0_Nh" ] -},
 
     HaFCY                     `noun`    {- OadonaY -}          [ "minimum" ],
 

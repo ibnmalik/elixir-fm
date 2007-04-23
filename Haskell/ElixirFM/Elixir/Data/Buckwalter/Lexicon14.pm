@@ -4362,7 +4362,11 @@ $Lexicon = {
         '>SAbE   >aSAbiE Ndip    fingers',
         'ASAbE   >aSAbiE Ndip    fingers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.sAbi`' => [
+          'HaFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HiFCaL',

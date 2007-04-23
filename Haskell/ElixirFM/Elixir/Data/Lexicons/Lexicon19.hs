@@ -444,7 +444,10 @@ lexicon = listing "Lexicon's properties"
 
     FiCA' |< Iy               `adj`     {- ginA}iy~ -}         [ "singing", "vocal", "lyrical" ],
 
-    HuFCiL |< aT              `noun`    {- Ougoniyap -}        [ "song", "melody", "songs", "melodies" ],
+    HuFCiL |< aT              `noun`    {- Ougoniyap -}        [ "song", "melody", "songs", "melodies" ]
+                              `plural`     HaFACiL
+                              `plural`     HaFACI
+                           {- `others`  [ "'a.gAniy N0_Nh" ] -},
 
     IstiFCA'                  `noun`    {- AisotigonA' -}      [ "dispensing with", "renunciation" ],
 

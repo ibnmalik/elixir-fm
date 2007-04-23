@@ -13658,6 +13658,9 @@ $Lexicon = {
         'AfADl   >afADil Ndip    honorable;eminent'
       ],
       'patterns' => {
+        '\'afA.dil' => [
+          'HaFACiL'
+        ],
         'fu.dalA\'' => [
           'FuCaLA\''
         ]
@@ -22290,7 +22293,11 @@ $Lexicon = {
         '>fAE    >afAE   NK      vipers',
         'AfAE    >afAE   NK      vipers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'afA`iy' => [
+          'HaFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCY',

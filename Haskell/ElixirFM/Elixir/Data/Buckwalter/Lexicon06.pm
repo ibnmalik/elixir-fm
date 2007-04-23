@@ -48944,7 +48944,12 @@ $Lexicon = {
         '>HAj    >aHAj   NK      riddles;puzzles',
         'AHAj    >aHAj   NK      riddles;puzzles'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.hA^giy' => [
+          'HaFACiL',
+          'HaFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCCAL |< aT',
@@ -49828,6 +49833,9 @@ $Lexicon = {
       'patterns' => {
         '.hasnA\'' => [
           'FaCLA\''
+        ],
+        '\'a.hAsin' => [
+          'HaFACiL'
         ],
         '.husnY' => [
           'FuCLY'

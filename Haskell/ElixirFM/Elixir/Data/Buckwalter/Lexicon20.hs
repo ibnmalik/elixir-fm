@@ -729,8 +729,9 @@ lexicon = listing "Lexicon's properties"
     -- AfADl   >afADil Ndip    honorable;eminent
 
     FACiL                     `adj`     {- fADil -}            [ "honorable", "eminent" ]
+                              `plural`     HaFACiL
                               `plural`     FuCaLA'
-                           {- `others`  [ "fu.dalA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "'afA.dil Ndip", "fu.dalA' Nh N0_Nh Nhy" ] -},
 
     -- ;; fADil_2
     -- fADl    fADil   N0      Fadil
@@ -3443,7 +3444,9 @@ lexicon = listing "Lexicon's properties"
     -- >fAE    >afAE   NK      vipers
     -- AfAE    >afAE   NK      vipers
 
-    HaFCY                     `noun`    {- OafoEaY -}          [ "viper", "vipers" ],
+    HaFCY                     `noun`    {- OafoEaY -}          [ "viper", "vipers" ]
+                              `plural`     HaFACI
+                           {- `others`  [ "'afA`iy N0_Nh" ] -},
 
     -- ;; mafoEAp_1
     -- mfEA    mafoEA  Napdu   den of vipers

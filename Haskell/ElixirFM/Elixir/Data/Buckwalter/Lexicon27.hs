@@ -2515,8 +2515,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- waTob -}            [ "milkskin", "milkskins" ]
                               `plural`     FiCAL
+                              `plural`     HaFACiL
                               `plural`     HaFCAL
-                           {- `others`  [ "wi.tAb N", "'aw.tAb N" ] -} ]
+                           {- `others`  [ "wi.tAb N", "'awA.tib Ndip", "'aw.tAb N" ] -} ]
 
  |> "w .t d" <| [
 
@@ -4300,7 +4301,9 @@ lexicon = listing "Lexicon's properties"
     -- >wAE    >awAE   NK      containers;receptacles;vessels
     -- AwAE    >awAE   NK      containers;receptacles;vessels
 
-    FiCAL                     `noun`    {- wiEA' -}            [ "container", "receptacle", "vessel", "containers", "receptacles", "vessels" ] ]
+    FiCAL                     `noun`    {- wiEA' -}            [ "container", "receptacle", "vessel", "containers", "receptacles", "vessels" ]
+                              `plural`     HaFACI
+                           {- `others`  [ "'awA`iy N0_Nh" ] -} ]
 
  |> "w ` .z" <| [
 
@@ -4762,7 +4765,10 @@ lexicon = listing "Lexicon's properties"
     -- AwAE    >awAE   NK      containers;receptacles;vessels
 
     FiCA'                     `noun`    {- wiEA' -}            [ "container", "receptacle", "vessel", "containers", "receptacles", "vessels" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFACiL
+                              `plural`     HaFACI
+                              `plural`     HaFCiL |< aT
+                           {- `others`  [ "'awA`iy N0_Nh" ] -},
 
     -- ;; tawoEiyap_1
     -- twEy    tawoEiy Nap     making aware;enlightening
@@ -9737,8 +9743,9 @@ lexicon = listing "Lexicon's properties"
     -- AwAsT   >awAsiT Ndip    middle;central
 
     HaFCaL                    `adj`     {- OawosaT -}          [ "middle", "central" ]
+                              `plural`     HaFACiL
                               `plural`     FuCLY
-                           {- `others`  [ "wus.tY N0" ] -},
+                           {- `others`  [ "'awAsi.t Ndip", "wus.tY N0" ] -},
 
     -- ;; >awosaTiy~_1
     -- >wsTy   >awosaTiy~      Nall    Middle

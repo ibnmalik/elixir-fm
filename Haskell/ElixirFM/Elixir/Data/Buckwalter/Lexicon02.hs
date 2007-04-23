@@ -9,22 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "'abA.ti.h" <| [
-
-    -- ;; >abATiH_1
-    -- >bATH   >abATiH Ndip    wide valley;plain
-    -- AbATH   >abATiH Ndip    wide valley;plain
-
-    Identity                  `noun`    {- OabATiH -}          [ "wide valley", "plain" ] ]
-
- |> "'abA.tir" <| [
-
-    -- ;; >abATirap_1
-    -- >bATr   >abATir Nap     emperors
-    -- AbATr   >abATir Nap     emperors
-
-    Identity |< aT            `noun`    {- OabATirap -}        [ "emperors" ] ]
-
  |> "'abA.tiyl" <| [
 
     -- ;; >abATiyl_1
@@ -32,14 +16,6 @@ lexicon = listing "Lexicon's properties"
     -- AbATyl  >abATiyl        Ndip    vanities;falsehood
 
     Identity                  `noun`    {- OabATiyl -}         [ "vanities", "falsehood" ] ]
-
- |> "'abA`id" <| [
-
-    -- ;; >abAEid_1
-    -- >bAEd   >abAEid Ndip    farther;farthest
-    -- AbAEd   >abAEid Ndip    farther;farthest
-
-    Identity                  `noun`    {- OabAEid -}          [ "farther", "farthest" ] ]
 
  |> "'abAdiyd" <| [
 
@@ -1781,6 +1757,12 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- OaboTaH -}          [ "flat", "level" ],
 
+    -- ;; >abATiH_1
+    -- >bATH   >abATiH Ndip    wide valley;plain
+    -- AbATH   >abATiH Ndip    wide valley;plain
+
+    HaFACiL                   `noun`    {- OabATiH -}          [ "wide valley", "plain" ],
+
     -- ;; baToHA'_1
     -- bTHA'   baToHA' N0_Nh   wide valley;plain
     -- bTHA&   baToHA& Nh      wide valley;plain
@@ -2215,6 +2197,12 @@ lexicon = listing "Lexicon's properties"
     -- bTr     baTar   N       wantonness;arrogance
 
     FaCaL                     `noun`    {- baTar -}            [ "wantonness", "arrogance" ],
+
+    -- ;; >abATirap_1
+    -- >bATr   >abATir Nap     emperors
+    -- AbATr   >abATir Nap     emperors
+
+    HaFACiL |< aT             `noun`    {- OabATirap -}        [ "emperors" ],
 
     -- ;; baTir_1
     -- bTr     baTir   Nall    arrogant;insolent
@@ -3885,6 +3873,12 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- OaboEad -}          [ "farther", "farthest" ],
 
+    -- ;; >abAEid_1
+    -- >bAEd   >abAEid Ndip    farther;farthest
+    -- AbAEd   >abAEid Ndip    farther;farthest
+
+    HaFACiL                   `noun`    {- OabAEid -}          [ "farther", "farthest" ],
+
     -- ;; >aboEAdiy~ap_1
     -- >bEAdy  >aboEAdiy~      NapAt   country estate     [[>aboEAdiy~/NOUN]]
     -- AbEAdy  >aboEAdiy~      NapAt   country estate     [[>aboEAdiy~/NOUN]]
@@ -4030,9 +4024,10 @@ lexicon = listing "Lexicon's properties"
     -- bEAryn  baEAriyn        Ndip    camels
 
     FaCIL                     `noun`    {- baEiyr -}           [ "camel", "camels" ]
+                              `plural`     HaFACiL
                               `plural`     FuCLAn
                               `plural`     HaFCiL |< aT
-                           {- `others`  [ "bu`rAn N" ] -} ]
+                           {- `others`  [ "'abA`ir Ndip", "bu`rAn N" ] -} ]
 
  |> "b ` z q" <| [
 

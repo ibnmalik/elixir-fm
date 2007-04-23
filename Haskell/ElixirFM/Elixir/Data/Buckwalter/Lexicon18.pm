@@ -49866,6 +49866,9 @@ $Lexicon = {
       'patterns' => {
         '`ulyA' => [
           'FuCyA'
+        ],
+        '\'a`Aliy' => [
+          'HaFACI'
         ]
       },
       'index' => '2',
@@ -61066,6 +61069,9 @@ $Lexicon = {
       'patterns' => {
         '`u.zmY' => [
           'FuCLY'
+        ],
+        '\'a`A.zim' => [
+          'HaFACiL'
         ]
       },
       'index' => '2',
@@ -66301,7 +66307,11 @@ $Lexicon = {
         '>EAd    >aEAd   NK      enemies',
         'AEAd    >aEAd   NK      enemies'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a`Adiy' => [
+          'HaFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCUL',
@@ -67480,6 +67490,9 @@ $Lexicon = {
         'AEAjm   >aEAjim Ndip    non-Arab;speechless'
       ],
       'patterns' => {
+        '\'a`A^gim' => [
+          'HaFACiL'
+        ],
         '`a^gmA\'' => [
           'FaCLA\''
         ]

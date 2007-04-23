@@ -2932,6 +2932,9 @@ $Lexicon = {
         'bEAryn  baEAriyn        Ndip    camels'
       ],
       'patterns' => {
+        '\'abA`ir' => [
+          'HaFACiL'
+        ],
         '\'ab`ir' => [
           'HaFCiL'
         ],
@@ -16230,32 +16233,6 @@ $Lexicon = {
         'Barada (river in Syr.)'
       ],
       'orig' => 'baradaY',
-      'prefix' => ''
-    }
-  ],
-  '\'abA.tir' => [
-    {
-      'types' => {
-        '\'abA.tiraT' => {
-          'Nap' => 2
-        }
-      },
-      'entry' => '\'abA.tir',
-      'form' => '\'abA.tiraT',
-      'lines' => [
-        ';; >abATirap_1',
-        '>bATr   >abATir Nap     emperors',
-        'AbATr   >abATir Nap     emperors'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'emperors'
-      ],
-      'orig' => 'OabATirap',
       'prefix' => ''
     }
   ],
@@ -29619,6 +29596,31 @@ $Lexicon = {
     },
     {
       'types' => {
+        '\'abA.ti.h' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'abA.ti.h',
+      'form' => '\'abA.ti.h',
+      'lines' => [
+        ';; >abATiH_1',
+        '>bATH   >abATiH Ndip    wide valley;plain',
+        'AbATH   >abATiH Ndip    wide valley;plain'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFACiL',
+      'suffix' => '',
+      'glosses' => [
+        'wide valley',
+        'plain'
+      ],
+      'orig' => 'OabATiH',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'ba.t.hAw' => {
           'NAt' => 1
         },
@@ -35577,6 +35579,31 @@ $Lexicon = {
         'farthest'
       ],
       'orig' => 'OaboEad',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'abA`id' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '\'abA`id',
+      'form' => '\'abA`id',
+      'lines' => [
+        ';; >abAEid_1',
+        '>bAEd   >abAEid Ndip    farther;farthest',
+        'AbAEd   >abAEid Ndip    farther;farthest'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFACiL',
+      'suffix' => '',
+      'glosses' => [
+        'farther',
+        'farthest'
+      ],
+      'orig' => 'OabAEid',
       'prefix' => ''
     },
     {
@@ -42027,33 +42054,6 @@ $Lexicon = {
         'Burma'
       ],
       'orig' => 'buwromA',
-      'prefix' => ''
-    }
-  ],
-  '\'abA.ti.h' => [
-    {
-      'types' => {
-        '\'abA.ti.h' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'abA.ti.h',
-      'form' => '\'abA.ti.h',
-      'lines' => [
-        ';; >abATiH_1',
-        '>bATH   >abATiH Ndip    wide valley;plain',
-        'AbATH   >abATiH Ndip    wide valley;plain'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'wide valley',
-        'plain'
-      ],
-      'orig' => 'OabATiH',
       'prefix' => ''
     }
   ],
@@ -49923,6 +49923,30 @@ $Lexicon = {
     },
     {
       'types' => {
+        '\'abA.tiraT' => {
+          'Nap' => 2
+        }
+      },
+      'entry' => '\'abA.tir',
+      'form' => '\'abA.tiraT',
+      'lines' => [
+        ';; >abATirap_1',
+        '>bATr   >abATir Nap     emperors',
+        'AbATr   >abATir Nap     emperors'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFACiL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'emperors'
+      ],
+      'orig' => 'OabATirap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'ba.tir' => {
           'Nall' => 1
         },
@@ -57516,33 +57540,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'mubotaliy',
-      'prefix' => ''
-    }
-  ],
-  '\'abA`id' => [
-    {
-      'types' => {
-        '\'abA`id' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '\'abA`id',
-      'form' => '\'abA`id',
-      'lines' => [
-        ';; >abAEid_1',
-        '>bAEd   >abAEid Ndip    farther;farthest',
-        'AbAEd   >abAEid Ndip    farther;farthest'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'farther',
-        'farthest'
-      ],
-      'orig' => 'OabAEid',
       'prefix' => ''
     }
   ],
@@ -67385,9 +67382,9 @@ $Lexicon->{'b \' r'}[4]{'glosses'} = $Lexicon->{'b w r'}[7]{'glosses'};
 $Lexicon->{'b ^g n'}[1]{'types'} = $Lexicon->{'b y ^g n'}[0]{'types'};
 $Lexicon->{'b ^g n'}[1]{'lines'} = $Lexicon->{'b y ^g n'}[0]{'lines'};
 $Lexicon->{'b ^g n'}[1]{'glosses'} = $Lexicon->{'b y ^g n'}[0]{'glosses'};
-$Lexicon->{'b .t r'}[6]{'types'} = $Lexicon->{'b .t r \''}[0]{'types'};
-$Lexicon->{'b .t r'}[6]{'lines'} = $Lexicon->{'b .t r \''}[0]{'lines'};
-$Lexicon->{'b .t r'}[6]{'glosses'} = $Lexicon->{'b .t r \''}[0]{'glosses'};
+$Lexicon->{'b .t r'}[7]{'types'} = $Lexicon->{'b .t r \''}[0]{'types'};
+$Lexicon->{'b .t r'}[7]{'lines'} = $Lexicon->{'b .t r \''}[0]{'lines'};
+$Lexicon->{'b .t r'}[7]{'glosses'} = $Lexicon->{'b .t r \''}[0]{'glosses'};
 $Lexicon->{'b y ^g'}[0]{'types'} = $Lexicon->{'b y ^g n'}[0]{'types'};
 $Lexicon->{'b y ^g'}[0]{'lines'} = $Lexicon->{'b y ^g n'}[0]{'lines'};
 $Lexicon->{'b y ^g'}[0]{'glosses'} = $Lexicon->{'b y ^g n'}[0]{'glosses'};
@@ -67536,9 +67533,9 @@ $Lexicon->{'b q \''}[1]{'glosses'} = $Lexicon->{'b q y'}[7]{'glosses'};
 $Lexicon->{'b q \''}[2]{'types'} = $Lexicon->{'b q y'}[8]{'types'};
 $Lexicon->{'b q \''}[2]{'lines'} = $Lexicon->{'b q y'}[8]{'lines'};
 $Lexicon->{'b q \''}[2]{'glosses'} = $Lexicon->{'b q y'}[8]{'glosses'};
-$Lexicon->{'b .t .h \''}[0]{'types'} = $Lexicon->{'b .t .h'}[4]{'types'};
-$Lexicon->{'b .t .h \''}[0]{'lines'} = $Lexicon->{'b .t .h'}[4]{'lines'};
-$Lexicon->{'b .t .h \''}[0]{'glosses'} = $Lexicon->{'b .t .h'}[4]{'glosses'};
+$Lexicon->{'b .t .h \''}[0]{'types'} = $Lexicon->{'b .t .h'}[5]{'types'};
+$Lexicon->{'b .t .h \''}[0]{'lines'} = $Lexicon->{'b .t .h'}[5]{'lines'};
+$Lexicon->{'b .t .h \''}[0]{'glosses'} = $Lexicon->{'b .t .h'}[5]{'glosses'};
 $Lexicon->{'b .h r \''}[0]{'types'} = $Lexicon->{'b .h r'}[9]{'types'};
 $Lexicon->{'b .h r \''}[0]{'lines'} = $Lexicon->{'b .h r'}[9]{'lines'};
 $Lexicon->{'b .h r \''}[0]{'glosses'} = $Lexicon->{'b .h r'}[9]{'glosses'};

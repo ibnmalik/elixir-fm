@@ -287,7 +287,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `noun`    {- OaqoSaY -}          [ "farthest", "most remote", "remotest" ]
                               `plural`     FuCLY
-                           {- `others`  [ "qu.swY N0" ] -},
+                              `plural`     HaFACI
+                           {- `others`  [ "qu.swY N0", "'aqA.siy N0_Nh" ] -},
 
     HaFCY                     `noun`    {- OaqoSaY -}          [ "maximum" ],
 
@@ -1395,7 +1396,9 @@ lexicon = listing "Lexicon's properties"
 
     FuCAL |< aT               `noun`    {- qurAbap -}          [ "almost", "nearly" ],
 
-    HaFCaL                    `noun`    {- Oaqorab -}          [ "soonest", "nearer/nearest", "more/most likely", "relatives", "extended family" ],
+    HaFCaL                    `noun`    {- Oaqorab -}          [ "soonest", "nearer/nearest", "more/most likely", "relatives", "extended family" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'aqArib Ndip" ] -},
 
     MaFCaL |< aT              `noun`    {- maqorabap -}        [ "close", "near", "vicinity", "proximity" ],
 

@@ -32829,6 +32829,9 @@ $Lexicon = {
       'patterns' => {
         'dunY' => [
           'FuCY'
+        ],
+        '\'adAniy' => [
+          'HaFACI'
         ]
       },
       'index' => '3',

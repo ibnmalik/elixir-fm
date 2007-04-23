@@ -2224,7 +2224,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- OaEoZam -}          [ "greater/greatest", "major", "supreme" ]
                               `plural`     FuCLY
-                           {- `others`  [ "`u.zmY N0" ] -},
+                              `plural`     HaFACiL
+                           {- `others`  [ "`u.zmY N0", "'a`A.zim Ndip" ] -},
 
     -- ;; taEoZiym_1
     -- tEZym   taEoZiym        N/At    glorification;veneration
@@ -2767,8 +2768,9 @@ lexicon = listing "Lexicon's properties"
     -- AEAjm   >aEAjim Ndip    non-Arab;speechless
 
     HaFCaL                    `noun`    {- OaEojam -}          [ "non-Arab", "speechless" ]
+                              `plural`     HaFACiL
                               `plural`     FaCLA'
-                           {- `others`  [ "`a^gmA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ "'a`A^gim Ndip", "`a^gmA' Nh N0_Nh Nhy" ] -},
 
     -- ;; >aEojamiy~_1
     -- >Ejmy   >aEojamiy~      Nall    non-Arab;foreigner     [[>aEojamiy~/ADJ]]
@@ -5572,7 +5574,9 @@ lexicon = listing "Lexicon's properties"
     -- >EAd    >aEAd   NK      enemies
     -- AEAd    >aEAd   NK      enemies
 
-    FaCUL                     `noun`    {- Eaduw~ -}           [ "enemy", "enemies" ],
+    FaCUL                     `noun`    {- Eaduw~ -}           [ "enemy", "enemies" ]
+                              `plural`     HaFACI
+                           {- `others`  [ "'a`Adiy N0_Nh" ] -},
 
     -- ;; Eudowap_1
     -- Edw     Eudow   NapAt   embankment;shore
@@ -7947,7 +7951,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `adj`     {- OaEolaY -}          [ "higher/highest", "supreme", "highest", "heights", "peaks", "high" ]
                               `plural`     FuCyA
-                           {- `others`  [ "`ulyA N0" ] -},
+                              `plural`     HaFACI
+                           {- `others`  [ "`ulyA N0", "'a`Aliy N0_Nh" ] -},
 
     -- ;; maEolAp_1
     -- mElA    maEolA  Nap     greatness;nobility

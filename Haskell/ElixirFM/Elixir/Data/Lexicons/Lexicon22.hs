@@ -222,7 +222,9 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- Oakobar -}          [ "larger/largest", "greater/greatest" ],
 
-    HaFCaL                    `adj`     {- Oakobar -}          [ "senior", "important", "seniors", "leaders" ],
+    HaFCaL                    `adj`     {- Oakobar -}          [ "senior", "important", "seniors", "leaders" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'akAbir Ndip" ] -},
 
     HaFCaL                    `noun`    {- Oakobar -}          [ "Akbar" ],
 
@@ -739,7 +741,9 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oakoram -}          [ "Akram" ],
 
-    HaFCaL                    `noun`    {- Oakoram -}          [ "nobler/noblest", "dearer/dearest", "more/most precious" ],
+    HaFCaL                    `noun`    {- Oakoram -}          [ "nobler/noblest", "dearer/dearest", "more/most precious" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'akArim Ndip" ] -},
 
     TaFCIL                    `noun`    {- takoriym -}         [ "honoring", "tribute", "in honor of" ],
 

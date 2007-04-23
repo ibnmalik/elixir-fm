@@ -5675,6 +5675,9 @@ $Lexicon = {
       'patterns' => {
         '\'ayAd' => [
           'HaFAL'
+        ],
+        '\'ayAdiy' => [
+          'HaFACI'
         ]
       },
       'index' => '1',

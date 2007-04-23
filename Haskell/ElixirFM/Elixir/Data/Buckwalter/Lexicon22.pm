@@ -3017,7 +3017,11 @@ $Lexicon = {
         '>kAsr   >akAsir Ndip    Khosrau;Persian royalty',
         'AkAsr   >akAsir Ndip    Khosrau;Persian royalty'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'akAsir' => [
+          'HaFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCLY',
@@ -5150,7 +5154,11 @@ $Lexicon = {
         '>kArE   >akAriE Ndip    legs;trotters;extremities',
         'AkArE   >akAriE Ndip    legs;trotters;extremities'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'akAri`' => [
+          'HaFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCAL',
@@ -6220,7 +6228,11 @@ $Lexicon = {
         '>kAbr   >akAbir Ndip    seniors;leaders',
         'AkAbr   >akAbir Ndip    seniors;leaders'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'akAbir' => [
+          'HaFACiL'
+        ]
+      },
       'index' => '3',
       'entity' => 'adj',
       'morphs' => 'HaFCaL',
@@ -39215,7 +39227,11 @@ $Lexicon = {
         '>kArm   >akArim Ndip    nobler/noblest;dearer/dearest;more/most precious',
         'AkArm   >akArim Ndip    nobler/noblest;dearer/dearest;more/most precious'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'akArim' => [
+          'HaFACiL'
+        ]
+      },
       'index' => '3',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',

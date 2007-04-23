@@ -12960,6 +12960,9 @@ $Lexicon = {
       'patterns' => {
         'mu_tlY' => [
           'FuCLY'
+        ],
+        '\'amA_til' => [
+          'HaFACiL'
         ]
       },
       'index' => '1',
@@ -32252,6 +32255,10 @@ $Lexicon = {
       'patterns' => {
         'miny' => [
           'FiCL'
+        ],
+        '\'amAniy' => [
+          'HaFACiL',
+          'HaFACI'
         ]
       },
       'index' => '1',

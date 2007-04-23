@@ -672,7 +672,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "w ` '" <| [
 
-    FiCAL                     `noun`    {- wiEA' -}            [ "container", "receptacle", "vessel", "containers", "receptacles", "vessels" ] ]
+    FiCAL                     `noun`    {- wiEA' -}            [ "container", "receptacle", "vessel", "containers", "receptacles", "vessels" ]
+                              `plural`     HaFACI
+                           {- `others`  [ "'awA`iy N0_Nh" ] -} ]
 
  |> "w ` _t" <| [
 
@@ -738,7 +740,10 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- waEoy -}            [ "consciousness", "awareness", "attention" ],
 
     FiCA'                     `noun`    {- wiEA' -}            [ "container", "receptacle", "vessel", "containers", "receptacles", "vessels" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFACiL
+                              `plural`     HaFACI
+                              `plural`     HaFCiL |< aT
+                           {- `others`  [ "'awA`iy N0_Nh" ] -},
 
     TaFCiL |< aT              `noun`    {- tawoEiyap -}        [ "making aware", "enlightening" ],
 
@@ -1508,8 +1513,9 @@ lexicon = listing "Lexicon's properties"
     HaFCaL                    `noun`    {- OawosaT -}          [ "Middle" ],
 
     HaFCaL                    `adj`     {- OawosaT -}          [ "middle", "central" ]
+                              `plural`     HaFACiL
                               `plural`     FuCLY
-                           {- `others`  [ "wus.tY N0" ] -},
+                           {- `others`  [ "'awAsi.t Ndip", "wus.tY N0" ] -},
 
     HaFCaL |< Iy              `adj`     {- OawosaTiy~ -}       [ "Middle" ],
 

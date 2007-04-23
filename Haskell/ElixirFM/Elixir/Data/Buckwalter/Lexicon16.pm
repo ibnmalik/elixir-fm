@@ -16768,7 +16768,11 @@ $Lexicon = {
         '>TAyb   >aTAyib Ndip    pleasures;amenities',
         'ATAyb   >aTAyib Ndip    pleasures;amenities'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.tAyib' => [
+          'HaFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',

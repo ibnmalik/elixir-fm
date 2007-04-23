@@ -430,6 +430,8 @@ data PatternT =
         |   HaFCAL              |   HACAL
         |   HaFCiL
 
+        |   HaFACiL                                                             |   HaFACI
+
         |   HaFCiLA'
 
         |   FACUL

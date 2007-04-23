@@ -1596,7 +1596,9 @@ lexicon = listing "Lexicon's properties"
     -- >SAbE   >aSAbiE Ndip    fingers
     -- ASAbE   >aSAbiE Ndip    fingers
 
-    HiFCaL                    `noun`    {- IiSobaE -}          [ "finger", "fingers" ],
+    HiFCaL                    `noun`    {- IiSobaE -}          [ "finger", "fingers" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'a.sAbi` Ndip" ] -},
 
     -- ;; <iSobaEiy~_1
     -- <SbEy   <iSobaEiy~      N-ap    finger-related;digital     [[<iSobaEiy~/ADJ]]

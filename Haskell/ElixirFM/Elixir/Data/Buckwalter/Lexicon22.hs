@@ -1743,7 +1743,9 @@ lexicon = listing "Lexicon's properties"
     -- >kAbr   >akAbir Ndip    seniors;leaders
     -- AkAbr   >akAbir Ndip    seniors;leaders
 
-    HaFCaL                    `adj`     {- Oakobar -}          [ "senior", "important", "seniors", "leaders" ],
+    HaFCaL                    `adj`     {- Oakobar -}          [ "senior", "important", "seniors", "leaders" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'akAbir Ndip" ] -},
 
     -- ;; >akobar_4
     -- >kbr    >akobar N0      Akbar
@@ -5611,7 +5613,9 @@ lexicon = listing "Lexicon's properties"
     -- >kArE   >akAriE Ndip    legs;trotters;extremities
     -- AkArE   >akAriE Ndip    legs;trotters;extremities
 
-    FuCAL                     `noun`    {- kurAE -}            [ "leg", "trotter", "extremity", "legs", "trotters", "extremities" ],
+    FuCAL                     `noun`    {- kurAE -}            [ "leg", "trotter", "extremity", "legs", "trotters", "extremities" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'akAri` Ndip" ] -},
 
     -- ;; takoriyEap_1
     -- tkryE   takoriyE        Nap     belching;eructation
@@ -6166,7 +6170,9 @@ lexicon = listing "Lexicon's properties"
     -- >kArm   >akArim Ndip    nobler/noblest;dearer/dearest;more/most precious
     -- AkArm   >akArim Ndip    nobler/noblest;dearer/dearest;more/most precious
 
-    HaFCaL                    `noun`    {- Oakoram -}          [ "nobler/noblest", "dearer/dearest", "more/most precious" ],
+    HaFCaL                    `noun`    {- Oakoram -}          [ "nobler/noblest", "dearer/dearest", "more/most precious" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'akArim Ndip" ] -},
 
     -- ;; makoram_1
     -- mkrm    makoram N0      Makram
@@ -7454,7 +7460,9 @@ lexicon = listing "Lexicon's properties"
     -- >kAsr   >akAsir Ndip    Khosrau;Persian royalty
     -- AkAsr   >akAsir Ndip    Khosrau;Persian royalty
 
-    FiCLY                     `noun`    {- kisoraY -}          [ "Khosrau", "Persian royalty" ] ]
+    FiCLY                     `noun`    {- kisoraY -}          [ "Khosrau", "Persian royalty" ]
+                              `plural`     HaFACiL |< aT
+                           {- `others`  [ "'akAsir Ndip" ] -} ]
 
  |> "k s t k" <| [
 

@@ -4377,8 +4377,9 @@ lexicon = listing "Lexicon's properties"
     -- AsAfl   >asAfil Ndip    lower/lowest;underneath
 
     HaFCaL                    `noun`    {- Oasofal -}          [ "lower/lowest", "underneath" ]
+                              `plural`     HaFACiL
                               `plural`     FuCLY
-                           {- `others`  [ "suflY N0" ] -},
+                           {- `others`  [ "'asAfil Ndip", "suflY N0" ] -},
 
     -- ;; sAfil_1
     -- sAfl    sAfil   Nall    lowly;base     [[sAfil/ADJ]]
@@ -5193,7 +5194,8 @@ lexicon = listing "Lexicon's properties"
     -- >sAkf   >asAkif Nap     shoemakers;cobblers
     -- AsAkf   >asAkif Nap     shoemakers;cobblers
 
-    HiFCAL |< Iy              `adj`     {- IisokAfiy~ -}       [ "shoemaker", "cobbler", "shoemakers", "cobblers" ],
+    HiFCAL |< Iy              `adj`     {- IisokAfiy~ -}       [ "shoemaker", "cobbler", "shoemakers", "cobblers" ]
+                              `plural`     HaFACiL |< aT,
 
     -- ;; <isokAfiy~_2
     -- <skAfy  <isokAfiy~      N0      Iskafi
@@ -9064,7 +9066,9 @@ lexicon = listing "Lexicon's properties"
     -- >sAq    >asAq   NK      waterskins
     -- AsAq    >asAq   NK      waterskins
 
-    FiCAL                     `noun`    {- siqA' -}            [ "waterskin", "waterskins" ],
+    FiCAL                     `noun`    {- siqA' -}            [ "waterskin", "waterskins" ]
+                              `plural`     HaFACI
+                           {- `others`  [ "'asAqiy N0_Nh" ] -},
 
     -- ;; saq~A'_1
     -- sqA'    saq~A'  N0_Nh   water carrier
@@ -9528,7 +9532,10 @@ lexicon = listing "Lexicon's properties"
     -- AsAq    >asAq   NK      waterskins
 
     FiCA'                     `noun`    {- siqA' -}            [ "waterskin", "waterskins" ]
-                              `plural`     HaFCiL |< At,
+                              `plural`     HaFCiL |< At
+                              `plural`     HaFACiL
+                              `plural`     HaFACI
+                           {- `others`  [ "'asAqiy N0_Nh" ] -},
 
     -- ;; siqAyap_1
     -- sqAy    siqAy   Nap     irrigation;watering place
@@ -12121,7 +12128,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCiL |< aT
                               `plural`     FUL
                               `plural`     FuCL
-                           {- `others`  [ "suwr N" ] -} ]
+                              `plural`     HaFACiL |< aT
+                           {- `others`  [ "suwr N", "'asAwir Ndip" ] -} ]
 
  |> "s w r y" <| [
 

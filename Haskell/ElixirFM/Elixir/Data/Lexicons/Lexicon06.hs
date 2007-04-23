@@ -1807,8 +1807,9 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- OaHosan -}          [ "better/best", "beauty", "belle", "best", "beauties" ]
                               `plural`     FaCLA'
+                              `plural`     HaFACiL
                               `plural`     FuCLY
-                           {- `others`  [ ".hasnA' Nh N0_Nh Nhy", ".husnY N0" ] -},
+                           {- `others`  [ ".hasnA' Nh N0_Nh Nhy", "'a.hAsin Ndip", ".husnY N0" ] -},
 
     MaFACiL                   `noun`    {- maHAsin -}          [ "merits", "good qualities" ],
 

@@ -5532,7 +5532,9 @@ lexicon = listing "Lexicon's properties"
     -- >jAnb   >ajAnib Ndip    foreign     [[>ajAnib/ADJ]]
     -- AjAnb   >ajAnib Ndip    foreign     [[>ajAnib/ADJ]]
 
-    HaFCaL |< Iy              `adj`     {- Oajonabiy~ -}       [ "foreign" ],
+    HaFCaL |< Iy              `adj`     {- Oajonabiy~ -}       [ "foreign" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'a^gAnib Ndip" ] -},
 
     -- ;; >ajonabiy~_2
     -- >jnby   >ajonabiy~      Nall    foreigner     [[>ajonabiy~/NOUN]]
@@ -5540,7 +5542,9 @@ lexicon = listing "Lexicon's properties"
     -- >jAnb   >ajAnib Ndip    foreigner     [[>ajAnib/NOUN]]
     -- AjAnb   >ajAnib Ndip    foreigner     [[>ajAnib/NOUN]]
 
-    HaFCaL |< Iy              `noun`    {- Oajonabiy~ -}       [ "foreigner" ],
+    HaFCaL |< Iy              `noun`    {- Oajonabiy~ -}       [ "foreigner" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'a^gAnib Ndip" ] -},
 
     -- ;; jan~Abiy~ap_1
     -- jnAby   jan~Abiy~       NapAt   embankment;side channel     [[jan~Abiy~/NOUN]]

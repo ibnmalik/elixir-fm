@@ -1727,7 +1727,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCiL |< aT
                               `plural`     FUL
                               `plural`     FuCL
-                           {- `others`  [ "suwr N" ] -} ]
+                              `plural`     HaFACiL |< aT
+                           {- `others`  [ "suwr N", "'asAwir Ndip" ] -} ]
 
  |> "s w r y" <| [
 

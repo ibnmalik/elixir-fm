@@ -49791,6 +49791,9 @@ $Lexicon = {
         'AnAbyr  >anAbiyr        Ndip    barns;granaries;warehouses'
       ],
       'patterns' => {
+        '\'anAbir' => [
+          'HaFACiL'
+        ],
         '\'anbAr' => [
           'HaFCAL'
         ]
@@ -72550,7 +72553,11 @@ $Lexicon = {
         '>nAdr   >anAdir Ndip    threshing floors',
         'AnAdr   >anAdir Ndip    threshing floors'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'anAdir' => [
+          'HaFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HaFCaL',

@@ -795,9 +795,13 @@ lexicon = listing "Lexicon's properties"
 
     FACiL |< Iy               `adj`     {- jAnibiy~ -}         [ "side", "lateral", "marginal" ],
 
-    HaFCaL |< Iy              `adj`     {- Oajonabiy~ -}       [ "foreign" ],
+    HaFCaL |< Iy              `adj`     {- Oajonabiy~ -}       [ "foreign" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'a^gAnib Ndip" ] -},
 
-    HaFCaL |< Iy              `noun`    {- Oajonabiy~ -}       [ "foreigner" ],
+    HaFCaL |< Iy              `noun`    {- Oajonabiy~ -}       [ "foreigner" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'a^gAnib Ndip" ] -},
 
     TaFCIL                    `noun`    {- tajoniyb -}         [ "helping avoid", "shielding from" ],
 

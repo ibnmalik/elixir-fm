@@ -4755,7 +4755,10 @@ lexicon = listing "Lexicon's properties"
     -- >gAn    >agAn   NK      songs;melodies
     -- AgAn    >agAn   NK      songs;melodies
 
-    HuFCiL |< aT              `noun`    {- Ougoniyap -}        [ "song", "melody", "songs", "melodies" ],
+    HuFCiL |< aT              `noun`    {- Ougoniyap -}        [ "song", "melody", "songs", "melodies" ]
+                              `plural`     HaFACiL
+                              `plural`     HaFACI
+                           {- `others`  [ "'a.gAniy N0_Nh" ] -},
 
     -- ;; magonaY_1
     -- mgnY    magonaY N0      villa;habitation

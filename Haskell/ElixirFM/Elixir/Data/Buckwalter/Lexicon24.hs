@@ -3050,7 +3050,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oamoval -}          [ "exemplary", "ideal" ]
                               `plural`     FuCLY
-                           {- `others`  [ "mu_tlY N0" ] -},
+                              `plural`     HaFACiL
+                           {- `others`  [ "mu_tlY N0", "'amA_til Ndip" ] -},
 
     -- ;; timovAl_1
     -- tmvAl   timovAl Ndu     statue
@@ -6454,7 +6455,10 @@ lexicon = listing "Lexicon's properties"
     -- AmAn    >amAn   NK      wishes;desires;aspirations
 
     FuCL |< aT                `noun`    {- munoyap -}          [ "wish", "desire", "aspiration", "wishes", "desires", "aspirations" ]
-                              `plural`     FiCL |< aT,
+                              `plural`     HaFACiL
+                              `plural`     HaFACI
+                              `plural`     FiCL |< aT
+                           {- `others`  [ "'amAniy N0_Nh" ] -},
 
     -- ;; tamoniyap_1
     -- tmny    tamoniy Nap     ejaculation

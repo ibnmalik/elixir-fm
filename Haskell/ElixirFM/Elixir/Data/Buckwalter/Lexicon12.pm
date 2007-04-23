@@ -2026,7 +2026,11 @@ $Lexicon = {
         '>sAq    >asAq   NK      waterskins',
         'AsAq    >asAq   NK      waterskins'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'asAqiy' => [
+          'HaFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -6112,7 +6116,11 @@ $Lexicon = {
         '>sAkf   >asAkif Nap     shoemakers;cobblers',
         'AsAkf   >asAkif Nap     shoemakers;cobblers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'asAkif' => [
+          'HaFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'HiFCAL |< Iy',
@@ -13152,6 +13160,9 @@ $Lexicon = {
         'suwr' => [
           'FUL',
           'FuCL'
+        ],
+        '\'asAwir' => [
+          'HaFACiL'
         ]
       },
       'index' => '1',
@@ -27147,6 +27158,10 @@ $Lexicon = {
       'patterns' => {
         '\'asqiy' => [
           'HaFCiL'
+        ],
+        '\'asAqiy' => [
+          'HaFACiL',
+          'HaFACI'
         ]
       },
       'index' => '1',
@@ -60607,6 +60622,9 @@ $Lexicon = {
         'AsAfl   >asAfil Ndip    lower/lowest;underneath'
       ],
       'patterns' => {
+        '\'asAfil' => [
+          'HaFACiL'
+        ],
         'suflY' => [
           'FuCLY'
         ]

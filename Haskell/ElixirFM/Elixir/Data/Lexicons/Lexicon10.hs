@@ -1238,7 +1238,9 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCAL
                            {- `others`  [ "rimAl N" ] -},
 
-    HaFCaL |< aT              `noun`    {- Oaromalap -}        [ "widow", "widows" ] ]
+    HaFCaL |< aT              `noun`    {- Oaromalap -}        [ "widow", "widows" ]
+                              `plural`     HaFACiL |< aT
+                           {- `others`  [ "'arAmil Ndip" ] -} ]
 
  |> "r m m" <| [
 

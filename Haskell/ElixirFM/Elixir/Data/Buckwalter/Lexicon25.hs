@@ -7540,8 +7540,9 @@ lexicon = listing "Lexicon's properties"
     -- AnAbyr  >anAbiyr        Ndip    barns;granaries;warehouses
 
     FiCL                      `noun`    {- nibor -}            [ "barn", "granary", "warehouse", "barns", "granaries", "warehouses" ]
+                              `plural`     HaFACiL
                               `plural`     HaFCAL
-                           {- `others`  [ "'anbAr N" ] -},
+                           {- `others`  [ "'anAbir Ndip", "'anbAr N" ] -},
 
     -- ;; naborap_1
     -- nbr     nabor   Napdu   accentuation;intonation
@@ -8263,7 +8264,9 @@ lexicon = listing "Lexicon's properties"
     -- >nAdr   >anAdir Ndip    threshing floors
     -- AnAdr   >anAdir Ndip    threshing floors
 
-    HaFCaL                    `noun`    {- Oanodar -}          [ "threshing floor", "threshing floors" ],
+    HaFCaL                    `noun`    {- Oanodar -}          [ "threshing floor", "threshing floors" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'anAdir Ndip" ] -},
 
     -- ;; >anodar_2
     -- >ndr    >anodar Nel     rarer/rarest

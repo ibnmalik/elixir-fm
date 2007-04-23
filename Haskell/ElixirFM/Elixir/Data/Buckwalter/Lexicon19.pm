@@ -16337,7 +16337,12 @@ $Lexicon = {
         '>gAn    >agAn   NK      songs;melodies',
         'AgAn    >agAn   NK      songs;melodies'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.gAniy' => [
+          'HaFACiL',
+          'HaFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HuFCiL |< aT',

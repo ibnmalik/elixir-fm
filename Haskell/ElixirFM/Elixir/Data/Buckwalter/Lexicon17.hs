@@ -140,7 +140,8 @@ lexicon = listing "Lexicon's properties"
 
     FuCuL                     `noun`    {- Zufur -}            [ "nail", "claw", "talon", "nails", "claws", "talons" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'a.zfAr N" ] -},
+                              `plural`     HaFACiL
+                           {- `others`  [ "'a.zfAr N", "'a.zAfir Ndip" ] -},
 
     -- ;; Zafar_1
     -- Zfr     Zafar   N       victory

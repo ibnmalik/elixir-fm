@@ -5559,7 +5559,9 @@ lexicon = listing "Lexicon's properties"
     -- >xAmS   >axAmiS Ndip    soles;toes
     -- AxAmS   >axAmiS Ndip    soles;toes
 
-    HaFCaL                    `noun`    {- OaxomaS -}          [ "sole", "toe", "soles", "toes" ] ]
+    HaFCaL                    `noun`    {- OaxomaS -}          [ "sole", "toe", "soles", "toes" ]
+                              `plural`     HaFACiL
+                           {- `others`  [ "'a_hAmi.s Ndip" ] -} ]
 
  |> "_h m ^g" <| [
 
@@ -8856,9 +8858,10 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oaxoyal -}          [ "green woodpecker", "green woodpeckers", "conceit", "arrogance" ]
                               `plural`     FuCaLA'
+                              `plural`     HaFACiL
                               `plural`     FIL
                               `plural`     FiCL
-                           {- `others`  [ "_huyalA' Nh N0_Nh Nhy", "_hiyl N" ] -},
+                           {- `others`  [ "_huyalA' Nh N0_Nh Nhy", "'a_hAyil Ndip", "_hiyl N" ] -},
 
     -- ;; maxiylap_1
     -- mxyl    maxiyl  Nap     conceit;arrogance
@@ -9080,8 +9083,9 @@ lexicon = listing "Lexicon's properties"
     -- AxAyr   >axAyir Ndip    better;superior
 
     HaFCaL                    `noun`    {- Oaxoyar -}          [ "better", "superior" ]
+                              `plural`     HaFACiL
                               `plural`     FiCLY
-                           {- `others`  [ "_hiyrY N0" ] -},
+                           {- `others`  [ "'a_hAyir Ndip", "_hiyrY N0" ] -},
 
     -- ;; xiyAr_1
     -- xyAr    xiyAr   NduAt   option;choice;selection

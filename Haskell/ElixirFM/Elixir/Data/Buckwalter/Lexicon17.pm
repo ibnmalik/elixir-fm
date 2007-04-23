@@ -2724,6 +2724,9 @@ $Lexicon = {
       'patterns' => {
         '\'a.zfAr' => [
           'HaFCAL'
+        ],
+        '\'a.zAfir' => [
+          'HaFACiL'
         ]
       },
       'index' => '1',

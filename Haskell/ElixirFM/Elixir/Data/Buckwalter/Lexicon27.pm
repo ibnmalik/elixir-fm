@@ -7079,6 +7079,10 @@ $Lexicon = {
         'AwAE    >awAE   NK      containers;receptacles;vessels'
       ],
       'patterns' => {
+        '\'awA`iy' => [
+          'HaFACiL',
+          'HaFACI'
+        ],
         '\'aw`iy' => [
           'HaFCiL'
         ]
@@ -18721,7 +18725,11 @@ $Lexicon = {
       'entry' => 'wi`A\'',
       'form' => 'wi`A\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'awA`iy' => [
+          'HaFACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -26269,6 +26277,9 @@ $Lexicon = {
         'wi.tAb' => [
           'FiCAL'
         ],
+        '\'awA.tib' => [
+          'HaFACiL'
+        ],
         '\'aw.tAb' => [
           'HaFCAL'
         ]
@@ -32588,6 +32599,9 @@ $Lexicon = {
         'AwAsT   >awAsiT Ndip    middle;central'
       ],
       'patterns' => {
+        '\'awAsi.t' => [
+          'HaFACiL'
+        ],
         'wus.tY' => [
           'FuCLY'
         ]
