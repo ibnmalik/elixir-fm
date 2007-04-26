@@ -34,7 +34,25 @@ class Template a where
 
 instance Template String where
 
-    interlock = flip const
+ -- interlock = flip const
+
+    interlock r = concat . substitute . show
+
+        where substitute = replace . restore
+
+              replace x = [ maybe [c] id (lookup c lock) | c <- x ]
+
+                    where lock = --zip ['F', 'C', 'L'] r ++
+                                 zip ['K', 'R', 'D', 'S'] r
+
+              restore x = case x of 'H' : y -> '\'' : y
+                                    'I' : y -> 'i' : y
+                                    'M' : y -> 'm' : y
+                                 --   'N' : y -> 'n' : y
+                                 --   'S' : y -> 's' : y
+                                    'T' : y -> 't' : y
+                                    'U' : y -> 'u' : y
+                                    _       -> x
 
 
 merge :: (Morphing a b, Template b) => String -> a -> String
@@ -56,6 +74,10 @@ merge r y = -- show (Morphs (interlock (words r) t) p s)
           modified = case suff of []     -> error "Never ..."
                                   ix : _ -> last shown -<- ix
 
+
+mergeWith :: (Morphing a b, Template b) => a -> String -> String
+
+mergeWith = flip merge
 
 
 sunny = [ "t", "_t", "d", "_d", "r", "z", "s", "^s",
@@ -257,6 +279,11 @@ y |<< x = y |< Suffix x
 -}
 
 
+instance Morphing (Morphs a) a where
+
+    morph = id
+
+
 instance Morphing String String where
 
     morph x = Morphs x [] []
@@ -272,8 +299,24 @@ instance Show a => Show (Morphs a) where
     showsPrec _ (Morphs t p s) = foldr ((.) . prefix') id p . shows t .
                                  foldl (flip ((.) . suffix')) id s
 
-                -- foldr (((.) . flip (.) ((++) " >| ") . shows)) id p .
-                -- shows t .
+                -- foldr (((.) . flip (.) ((++) " >| ") . shows)) id p
+                -- . shows t .
+                -- foldl (flip ((.) . (.) ((++) " |< ") . shows)) id s
+
+        where prefix' (Prefix x) = shows x . (++) " >>| "
+              prefix' y          = shows y . (++)  " >| "
+
+              suffix' (Suffix x) = (++) " |<< " . shows x
+              suffix' y          = (++) " |< "  . shows y
+
+
+instance Show (Morphs String) where
+
+    showsPrec _ (Morphs t p s) = foldr ((.) . prefix') id p . (t ++) .
+                                 foldl (flip ((.) . suffix')) id s
+
+                -- foldr (((.) . flip (.) ((++) " >| ") . shows)) id p
+                -- . (t ++) .
                 -- foldl (flip ((.) . (.) ((++) " |< ") . shows)) id s
 
         where prefix' (Prefix x) = shows x . (++) " >>| "
@@ -290,11 +333,6 @@ instance Rules a => Rules (Morphs a) where
 
     isPassive (Morphs t [] []) = isPassive t
     isPassive _                = False
-
-
-instance Morphing (Morphs a) a where
-
-    morph = id
 
 
 data Prefix =   Prefix String

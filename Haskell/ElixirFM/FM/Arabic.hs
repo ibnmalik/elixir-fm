@@ -5,8 +5,8 @@
 -- |
 --
 -- Module      :  FM.Arabic
--- Copyright   :  Otakar Smrz 2005-2006
--- License     :  BSD-style
+-- Copyright   :  Otakar Smrz 2005-2007
+-- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
 -- Stability   :  provisional

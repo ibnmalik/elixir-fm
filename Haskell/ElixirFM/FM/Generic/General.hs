@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  FM.Generic.General
--- Copyright   :  Otakar Smrz 2005-2006, Markus Forsberg 2004
+-- Copyright   :  Otakar Smrz 2005-2007, Markus Forsberg 2004
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz

@@ -32,17 +32,9 @@ instance Morphing PatternQ PatternQ where
 
 instance Template PatternQ where
 
-    interlock r p = {- if isFormVIII p then (assimilate . show) p
-                                      else -} (concat . substitute . show) p
+    interlock r = concat . substitute . show
 
-        where substitute x = (replace . restore) x
-
-              {- assimilate x = (replace . restore . init) iF
-                             ++ [z, d] ++
-                             (replace . tail) taCaL
-
-                    where (iF, taCaL) = break ('t' ==) x
-                          (z, d) = assimilateVIII (head r) -}
+        where substitute = replace . restore
 
               replace x = [ maybe [c] id (lookup c lock) | c <- x ]
 
