@@ -127,6 +127,8 @@ isClosed _ = True
                         In      -> "ayna"
                         AJIy    -> "a^gIy"
 
+                        Suffix ""       -> "a"
+
                         Suffix "Una"    -> "awna"
                         Suffix "U"      -> "aw"
                         Suffix "UW"     -> "aW"
@@ -145,6 +147,8 @@ isClosed _ = True
                         Iy      -> "Iy"
                         Un      -> "Una"
                         In      -> "Ina"
+
+                        Suffix ""       -> "i"
 
                         Suffix "Una"    -> "Una"
                         Suffix "U"      -> "U"
@@ -166,6 +170,8 @@ isClosed _ = True
                         Un      -> "awna"
                         In      -> "ayna"
 
+                        Suffix ""       -> "a"
+
                         Suffix "Una"    -> "awna"
                         Suffix "U"      -> "aw"
                         Suffix "UW"     -> "aW"
@@ -182,6 +188,8 @@ isClosed _ = True
 
 'U' -<- x = case x of   Un      -> "Una"
                         In      -> "Ina"
+
+                        Suffix ""       -> "u"
 
                         Suffix "Una"    -> "Una"
                         Suffix "U"      -> "U"

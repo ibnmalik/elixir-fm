@@ -275,7 +275,7 @@ paraVerbC g n i = case n of
 
             Singular    -> case g of
 
-                Masculine ->  prefix i
+                Masculine ->  prefix i . suffix ""
                 Feminine  ->  prefix i . suffix "I"
 
             Dual        -> case g of
@@ -284,7 +284,7 @@ paraVerbC g n i = case n of
 
             Plural      -> case g of
 
-                Masculine ->  prefix i . suffix "UA"
+                Masculine ->  prefix i . suffix "UW"
                 Feminine  ->  prefix i . suffix "na"
 
 
