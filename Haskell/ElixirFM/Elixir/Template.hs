@@ -36,15 +36,9 @@ instance Template String where
 
  -- interlock = flip const
 
-    interlock r = modify . substitute
+    interlock r = smooth . concat . replace . restore
 
-        where substitute = concat . replace . restore
-
-              modify ('\'' : 'a' : '\'' : y) | isClosed y = "'A" ++ y
-              modify ('\'' : 'u' : '\'' : y) | isClosed y = "'U" ++ y
-              modify                      y               =         y
-
-              replace x = [ maybe [c] id (lookup c lock) | c <- x ]
+        where replace x = [ maybe [c] id (lookup c lock) | c <- x ]
 
                     where lock = zip ['F', 'C', 'L'] r ++
                                  zip ['K', 'R', 'D', 'S'] r
@@ -84,6 +78,9 @@ mergeWith :: (Morphing a b, Template b) => a -> String -> String
 mergeWith = flip merge
 
 
+infix 5 `merge`, `mergeWith`
+
+
 sunny = [ "t", "_t", "d", "_d", "r", "z", "s", "^s",
           ".s", ".d", ".t", ".z", "l", "n" ]
 
@@ -116,6 +113,13 @@ Prefix x ->- s = x ++ s
 x ->- s = shows x ("-" ++ s)
 
 
+smooth :: String -> String
+
+smooth ('\'' : 'a' : '\'' : y) | isClosed y = "'A" ++ y
+smooth ('\'' : 'u' : '\'' : y) | isClosed y = "'U" ++ y
+smooth                      y               =         y
+
+
 isClosed :: String -> Bool
 
 isClosed (x : _) | x `elem` "aiuAIUY" = False
@@ -129,7 +133,6 @@ isClosed _ = True
                         Iy      -> "awIy"
                         Un      -> "awna"
                         In      -> "ayna"
-                        AJIy    -> "a^gIy"
 
                         Suffix ""       -> "a"
 
@@ -144,6 +147,8 @@ isClosed _ = True
                                  | x `elem` ["aN", "iN", "uN"] -> "aNY"
 
                                  | "at" `isPrefixOf` x         -> x
+
+                        Suffix "a^gIy"  -> "a^gIy"
 
                         _       -> "ay" ++ show x
 
@@ -361,7 +366,6 @@ data Suffix =   Suffix String
                 |   In
                 |   An
                 |   Ayn
-                |   AJIy
 
     deriving Eq
 
@@ -377,7 +381,6 @@ instance Show Suffix where
     show In = "In"
     show An = "An"
     show Ayn = "ayn"
-    show AJIy = "a^gIy"
 
 
 iyy   = Iy
@@ -387,9 +390,10 @@ uwn   = Un
 iyn   = In
 aan   = An
 ayn   = Ayn
-aJIy  = AJIy
-ajIy  = AJIy
-ajiyy = AJIy
+
+aJIy  = Suffix "a^gIy"
+ajIy  = Suffix "a^gIy"
+ajiyy = Suffix "a^gIy"
 
 aN    = Suffix "aN"
 iN    = Suffix "iN"

@@ -35,20 +35,17 @@ instance Morphing PatternT PatternT where
 instance Template PatternT where
 
     interlock r p = if isForm VIII p then (concat . assimilate . show) p
-                                     else (modify . substitute . show) p
+                                     else (smooth . substitute . show) p
 
         where substitute x = (concat . replace . restore) x
-
-              modify ('\'' : 'a' : '\'' : y) | isClosed y = "'A" ++ y
-              modify ('\'' : 'u' : '\'' : y) | isClosed y = "'U" ++ y
-              modify                      y               =         y
 
               assimilate x = (replace . restore . init) iF
                              ++ [z, d] ++
                              (replace . tail) taCaL
 
                     where (iF, taCaL) = break ('t' ==) x
-                          (z, d) = assimilating (head r)
+                          (z, d) = case r of []      -> ("F", "t")
+                                             (c : _) -> assimilating c
 
               replace x = [ maybe [c] id (lookup c lock) | c <- x ]
 
@@ -68,21 +65,21 @@ assimilating :: String -> (String, String)
 
 assimilating c = case c of
 
-            "_t"    ->  (c, "_t")
-            "_d"    ->  (c, "_d")
+                    "_t"    ->  (c, "_t")
+                    "_d"    ->  (c, "_d")
 
-            "d"     ->  (c, "d")
-            "z"     ->  (c, "d")
+                    "d"     ->  (c, "d")
+                    "z"     ->  (c, "d")
 
-            ".s"    ->  (c, ".t")
-            ".d"    ->  (c, ".t")
-            ".t"    ->  (c, ".t")
-            ".z"    ->  (c, ".t")
+                    ".s"    ->  (c, ".t")
+                    ".d"    ->  (c, ".t")
+                    ".t"    ->  (c, ".t")
+                    ".z"    ->  (c, ".t")
 
-         -- "_d"    ->  ("d", "d")
-            "w"     ->  ("t", "t")
+                 -- "_d"    ->  ("d", "d")
+                    "w"     ->  ("t", "t")
 
-            _       ->  (c, "t")
+                    _       ->  (c, "t")
 
 
 instance Forming PatternT where
