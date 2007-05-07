@@ -35,9 +35,13 @@ instance Morphing PatternT PatternT where
 instance Template PatternT where
 
     interlock r p = if isForm VIII p then (concat . assimilate . show) p
-                                     else (concat . substitute . show) p
+                                     else (modify . substitute . show) p
 
-        where substitute x = (replace . restore) x
+        where substitute x = (concat . replace . restore) x
+
+              modify ('\'' : 'a' : '\'' : y) | isClosed y = "'A" ++ y
+              modify ('\'' : 'u' : '\'' : y) | isClosed y = "'U" ++ y
+              modify                      y               =         y
 
               assimilate x = (replace . restore . init) iF
                              ++ [z, d] ++
@@ -427,7 +431,7 @@ data PatternT =
         |   MiFCAL              |   MICAL
         |   MiFCaL                                                              |   MiFCY               |   MiFaCL
 
-        |   HaFCAL              |   HACAL
+        |   HaFCAL              |   HACAL                                       |   HaFCA'
         |   HaFCiL
 
         |   HaFACiL                                                             |   HaFACI

@@ -36,13 +36,17 @@ instance Template String where
 
  -- interlock = flip const
 
-    interlock r = concat . substitute . show
+    interlock r = modify . substitute
 
-        where substitute = replace . restore
+        where substitute = concat . replace . restore
+
+              modify ('\'' : 'a' : '\'' : y) | isClosed y = "'A" ++ y
+              modify ('\'' : 'u' : '\'' : y) | isClosed y = "'U" ++ y
+              modify                      y               =         y
 
               replace x = [ maybe [c] id (lookup c lock) | c <- x ]
 
-                    where lock = --zip ['F', 'C', 'L'] r ++
+                    where lock = zip ['F', 'C', 'L'] r ++
                                  zip ['K', 'R', 'D', 'S'] r
 
               restore x = case x of 'H' : y -> '\'' : y
@@ -309,22 +313,6 @@ instance Show a => Show (Morphs a) where
 
                 -- foldr (((.) . flip (.) ((++) " >| ") . shows)) id p
                 -- . shows t .
-                -- foldl (flip ((.) . (.) ((++) " |< ") . shows)) id s
-
-        where prefix' (Prefix x) = shows x . (++) " >>| "
-              prefix' y          = shows y . (++)  " >| "
-
-              suffix' (Suffix x) = (++) " |<< " . shows x
-              suffix' y          = (++) " |< "  . shows y
-
-
-instance Show (Morphs String) where
-
-    showsPrec _ (Morphs t p s) = foldr ((.) . prefix') id p . (t ++) .
-                                 foldl (flip ((.) . suffix')) id s
-
-                -- foldr (((.) . flip (.) ((++) " >| ") . shows)) id p
-                -- . (t ++) .
                 -- foldl (flip ((.) . (.) ((++) " |< ") . shows)) id s
 
         where prefix' (Prefix x) = shows x . (++) " >>| "

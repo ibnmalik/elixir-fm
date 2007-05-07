@@ -118,7 +118,6 @@ data Nest =     NestL Root [Entry PatternL]
           |     NestT Root [Entry PatternT]
           |     NestQ Root [Entry PatternQ]
 
-
     deriving Show
 
 
