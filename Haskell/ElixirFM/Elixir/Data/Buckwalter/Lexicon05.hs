@@ -6057,7 +6057,9 @@ lexicon = listing "Lexicon's properties"
     -- AjnA&   >ajonA& Nh      fruits
     -- AjnA}   >ajonA} Nhy     fruits
 
-    FaCY                      `noun`    {- janaY -}            [ "fruits" ],
+    FaCY                      `noun`    {- janaY -}            [ "fruits" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a^gnA' Nh N0_Nh Nhy" ] -},
 
     -- ;; jinA}iy~_1
     -- jnA}y   jinA}iy~        Nall    criminal;penal     [[jinA}iy~/ADJ]]
@@ -8678,12 +8680,19 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- jaw~ -}             [ "air (military)", "climate", "atmosphere", "by air", "air" ]
                               `plural`     FiCA'
-                           {- `others`  [ "^giwA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFCA'
+                           {- `others`  [ "^giwA' Nh N0_Nh Nhy", "'a^gwA' Nh N0_Nh Nhy" ] -},
 
     -- ;; jaw~iy~_1
     -- jwy     jaw~iy~ N/ap    air;aerial;atmospheric     [[jaw~iy~/ADJ]]
 
     FaCL |< Iy                `adj`     {- jaw~iy~ -}          [ "air", "aerial", "atmospheric" ],
+
+    -- ;; >ajowA}iy~_1
+    -- >jwA}y  >ajowA}iy~      N-ap    atmospheric;meteorological     [[>ajowA}iy~/ADJ]]
+    -- AjwA}y  >ajowA}iy~      N-ap    atmospheric;meteorological     [[>ajowA}iy~/ADJ]]
+
+    HaFCA' |< Iy              `adj`     {- OajowA}iy~ -}       [ "atmospheric", "meteorological" ],
 
     -- ;; juw_1
     -- jw      juw     Nprop   Joe
@@ -9333,6 +9342,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- juzo' -}            [ "section", "piece", "portion", "part", "fraction", "sections", "pieces", "portions", "parts", "fractions" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'a^gzA' Nh N0_Nh Nhy" ] -},
 
     -- ;; juzo}iy~_1
@@ -9747,6 +9757,18 @@ lexicon = listing "Lexicon's properties"
     FaCaL                     `noun`    {- jazar -}            [ "carrots", "carrot" ] ]
 
  |> "^g z y" <| [
+
+    -- ;; >ajozA}iy~_1
+    -- >jzA}y  >ajozA}iy~      Nall    pharmacist     [[>ajozA}iy~/ADJ]]
+    -- AjzA}y  >ajozA}iy~      Nall    pharmacist     [[>ajozA}iy~/ADJ]]
+
+    HaFCA' |< Iy              `adj`     {- OajozA}iy~ -}       [ "pharmacist" ],
+
+    -- ;; >ajozA}iy~ap_1
+    -- >jzA}y  >ajozA}iy~      Nap     pharmacy     [[>ajozA}iy~/NOUN]]
+    -- AjzA}y  >ajozA}iy~      Nap     pharmacy     [[>ajozA}iy~/NOUN]]
+
+    HaFCA' |< Iy |< aT        `noun`    {- OajozA}iy~ap -}     [ "pharmacy" ],
 
     -- ;; {ijotizA'_1
     -- AjtzA'  {ijotizA'       N0_Nh   being content;being sufficient

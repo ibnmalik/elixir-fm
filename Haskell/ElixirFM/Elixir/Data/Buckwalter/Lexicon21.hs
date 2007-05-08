@@ -1957,7 +1957,9 @@ lexicon = listing "Lexicon's properties"
     -- >qSA}   >aqoSA} Nhy     distant;remote
     -- AqSA}   >aqoSA} Nhy     distant;remote
 
-    FaCIL                     `adj`     {- qaSiy~ -}           [ "distant", "remote" ],
+    FaCIL                     `adj`     {- qaSiy~ -}           [ "distant", "remote" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'aq.sA' Nh N0_Nh Nhy" ] -},
 
     -- ;; qASiy_1
     -- qASy    qASiy   N0F     distant;remote     [[qASiy/ADJ]]
@@ -3699,7 +3701,9 @@ lexicon = listing "Lexicon's properties"
     -- >q*A}   >aqo*A} Nhy     dust particles
     -- Aq*A}   >aqo*A} Nhy     dust particles
 
-    FiCY                      `noun`    {- qi*aY -}            [ "dust particle", "dust particles" ] ]
+    FiCY                      `noun`    {- qi*aY -}            [ "dust particle", "dust particles" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'aq_dA' Nh N0_Nh Nhy" ] -} ]
 
  |> "q _t '" <| [
 
@@ -6142,7 +6146,8 @@ lexicon = listing "Lexicon's properties"
 
     FaL |< aN                 `noun`    {- qafAF -}            [ "neck", "nape", "back", "reverse", "necks", "napes", "backs" ]
                               `plural`     FaCA
-                           {- `others`  [ "qafA N0_Nhy" ] -} ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "qafA N0_Nhy", "'aqfA' Nh N0_Nh Nhy" ] -} ]
 
  |> "q f l" <| [
 
@@ -8943,8 +8948,9 @@ lexicon = listing "Lexicon's properties"
     -- qnyAn   qunoyAn N       dates (food)
 
     FuCL                      `noun`    {- qunow -}            [ "dates (food)" ]
+                              `plural`     HaFCA'
                               `plural`     FuCLAn
-                           {- `others`  [ "qunwAn N" ] -},
+                           {- `others`  [ "'aqnA' Nh N0_Nh Nhy", "qunwAn N" ] -},
 
     -- ;; qunowap_1
     -- qnw     qunow   Nap     acquisition;possessions;property

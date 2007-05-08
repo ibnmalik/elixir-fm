@@ -1829,8 +1829,9 @@ lexicon = listing "Lexicon's properties"
     -- ArHy    >aroHiy Nap     querns;hand mills
 
     FaCY                      `noun`    {- raHaY -}            [ "quern", "hand mill", "querns", "hand mills" ]
+                              `plural`     HaFCA'
                               `plural`     FaCA
-                           {- `others`  [ "ra.hA Nhy" ] -},
+                           {- `others`  [ "'ar.hA' Nh N0_Nh Nhy", "ra.hA Nhy" ] -},
 
     -- ;; raHawiy~_1
     -- rHwy    raHawiy~        Nall    rotating;rotatory     [[raHawiy~/ADJ]]
@@ -2997,6 +2998,16 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `noun`    {- rajA -}             [ "side wall", "side walls" ]
                               `plural`     FaCaL
                            {- `others`  [ "ra^gaw NAn_Nayn" ] -},
+
+    -- ;; >arojA'_1
+    -- >rjA'   >arojA' N0_Nh   periphery;zones;throughout
+    -- ArjA'   >arojA' N0_Nh   periphery;zones;throughout
+    -- >rjA&   >arojA& Nh      periphery;zones;throughout
+    -- ArjA&   >arojA& Nh      periphery;zones;throughout
+    -- >rjA}   >arojA} Nhy     periphery;zones;throughout
+    -- ArjA}   >arojA} Nhy     periphery;zones;throughout
+
+    HaFCA'                    `noun`    {- OarojA' -}          [ "periphery", "zones", "throughout" ],
 
     -- ;; rajA'_1
     -- rjA'    rajA'   N0_Nh   hope
@@ -5724,6 +5735,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- rido' -}            [ "support", "helper", "helpers" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'ardA' Nh N0_Nh Nhy" ] -},
 
     -- ;; radiy'_1
@@ -12979,6 +12991,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- ruzo' -}            [ "heavy loss", "serious damage", "heavy losses" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'arzA' Nh N0_Nh Nhy" ] -},
 
     -- ;; raziy}ap_1

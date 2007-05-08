@@ -8437,7 +8437,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'ahbA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -13523,6 +13524,9 @@ $Lexicon = {
       'patterns' => {
         'hawA' => [
           'FaCA'
+        ],
+        '\'ahwA\'' => [
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -13573,6 +13577,9 @@ $Lexicon = {
         'AhwA}   >ahowA} Nhy     air;atmosphere;climate'
       ],
       'patterns' => {
+        '\'ahwA\'' => [
+          'HaFCA\''
+        ],
         '\'ahwiy' => [
           'HaFCiL'
         ]
@@ -19529,7 +19536,11 @@ $Lexicon = {
       'entry' => 'habA\'',
       'form' => 'habA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'ahbA\'' => [
+          'HaFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCA\'',
@@ -19547,7 +19558,8 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '\'ahwA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -26965,7 +26977,11 @@ $Lexicon = {
         '>hrA}   >ahorA} Nhy     granaries',
         'AhrA}   >ahorA} Nhy     granaries'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'ahrA\'' => [
+          'HaFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCL',

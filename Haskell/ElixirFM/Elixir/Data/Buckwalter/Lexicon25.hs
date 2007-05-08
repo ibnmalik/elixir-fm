@@ -797,7 +797,9 @@ lexicon = listing "Lexicon's properties"
     -- >nDA}   >anoDA} Nhy     tattered garment
     -- AnDA}   >anoDA} Nhy     tattered garment
 
-    FaCL                      `noun`    {- naDow -}            [ "tattered garment" ],
+    FaCL                      `noun`    {- naDow -}            [ "tattered garment" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'an.dA' Nh N0_Nh Nhy" ] -},
 
     -- ;; niDow_1
     -- nDw     niDow   N-ap    lean
@@ -808,7 +810,9 @@ lexicon = listing "Lexicon's properties"
     -- >nDA}   >anoDA} Nhy     lean
     -- AnDA}   >anoDA} Nhy     lean
 
-    FiCL                      `noun`    {- niDow -}            [ "lean" ] ]
+    FiCL                      `noun`    {- niDow -}            [ "lean" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'an.dA' Nh N0_Nh Nhy" ] -} ]
 
  |> "n .g .s" <| [
 
@@ -1647,7 +1651,9 @@ lexicon = listing "Lexicon's properties"
     -- >nHA}   >anoHA} Nhy     areas
     -- AnHA}   >anoHA} Nhy     areas
 
-    FaCL                      `noun`    {- naHow -}            [ "manner", "method", "areas" ],
+    FaCL                      `noun`    {- naHow -}            [ "manner", "method", "areas" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'an.hA' Nh N0_Nh Nhy" ] -},
 
     -- ;; naHow_2
     -- nHw     naHow   N       grammar
@@ -6786,6 +6792,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- nabaO -}            [ "news item", "report", "news items", "reports" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'anbA' Nh N0_Nh Nhy" ] -},
 
     -- ;; nabo>ap_1
@@ -8454,8 +8461,9 @@ lexicon = listing "Lexicon's properties"
     -- AndA}   >anodA} Nhy     dew;generosity
 
     FaCY                      `noun`    {- nadaY -}            [ "dew", "generosity" ]
+                              `plural`     HaFCA'
                               `plural`     FaCA
-                           {- `others`  [ "nadA Nhy" ] -},
+                           {- `others`  [ "'andA' Nh N0_Nh Nhy", "nadA Nhy" ] -},
 
     -- ;; nadA_1
     -- ndA     nadA    N0      Nada
@@ -15418,6 +15426,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- nawo' -}            [ "storm", "hurricane", "storms", "hurricanes" ]
                               `plural`     FuCLAn
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "nuw'An N", "'anwA' Nh N0_Nh Nhy" ] -},
 
     -- ;; munAwa>ap_1

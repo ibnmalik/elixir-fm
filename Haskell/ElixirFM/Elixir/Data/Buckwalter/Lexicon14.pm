@@ -10530,6 +10530,9 @@ $Lexicon = {
       'patterns' => {
         '.sadA' => [
           'FaCA'
+        ],
+        '\'a.sdA\'' => [
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -11239,7 +11242,11 @@ $Lexicon = {
         '>SnA}   >aSonA} Nhy     twins',
         'ASnA}   >aSonA} Nhy     twins'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.snA\'' => [
+          'HaFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCL',
@@ -25070,6 +25077,9 @@ $Lexicon = {
         'AShA}   >aSohA} Nhy     rumps;backs'
       ],
       'patterns' => {
+        '\'a.shA\'' => [
+          'HaFCA\''
+        ],
         '.sahaw' => [
           'FaCaL'
         ]
@@ -27547,6 +27557,9 @@ $Lexicon = {
         'ASbA}   >aSobA} Nhy     east winds'
       ],
       'patterns' => {
+        '\'a.sbA\'' => [
+          'HaFCA\''
+        ],
         '.sabA' => [
           'FaCA'
         ]

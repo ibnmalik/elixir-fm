@@ -143,7 +143,9 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCY                   `verb`    {- tanaH~aY -}         [ "withdraw", "forego", "abandon" ],
 
-    FaCL                      `noun`    {- naHow -}            [ "manner", "method", "areas" ],
+    FaCL                      `noun`    {- naHow -}            [ "manner", "method", "areas" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'an.hA' Nh N0_Nh Nhy" ] -},
 
     FaCL                      `noun`    {- naHow -}            [ "grammar" ],
 
@@ -840,6 +842,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- nabaO -}            [ "news item", "report", "news items", "reports" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'anbA' Nh N0_Nh Nhy" ] -},
 
     FuCUL |< aT               `noun`    {- nubuw'ap -}         [ "prophecy", "prognosis" ],

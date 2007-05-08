@@ -6343,8 +6343,9 @@ lexicon = listing "Lexicon's properties"
     -- AlqA}   >aloqA} Nhy     offal
 
     FaCY                      `noun`    {- laqaY -}            [ "offal" ]
+                              `plural`     HaFCA'
                               `plural`     FaCA
-                           {- `others`  [ "laqA Nhy_L" ] -},
+                           {- `others`  [ "'alqA' Nh N0_Nh Nhy", "laqA Nhy_L" ] -},
 
     -- ;; luqoyA_1
     -- lqyA    luqoyA  Ndip_L  encounter
@@ -7616,7 +7617,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `noun`    {- lawaY -}            [ "hardship", "pain" ]
                               `plural`     FaCA
-                           {- `others`  [ "lawA Nhy_L" ] -},
+                              `plural`     HaFCA'
+                           {- `others`  [ "lawA Nhy_L", "'alwA' Nh N0_Nh Nhy" ] -},
 
     -- ;; liwaY_1
     -- lwY     liwaY   N0_L    curvature
@@ -7631,7 +7633,9 @@ lexicon = listing "Lexicon's properties"
     -- Alwy    >alowiy Nap     curvatures
 
     FiCY                      `noun`    {- liwaY -}            [ "curvature", "curvatures" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCA'
+                           {- `others`  [ "'alwA' Nh N0_Nh Nhy" ] -},
 
     -- ;; liwA'_1
     -- lwA'    liwA'   N0_Nh_L banner;flag

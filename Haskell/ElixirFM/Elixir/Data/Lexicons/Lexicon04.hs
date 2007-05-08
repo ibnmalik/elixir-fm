@@ -220,6 +220,8 @@ lexicon = listing "Lexicon's properties"
 
     IstaFCY                   `verb`    {- AisotavonaY -}      [ "except", "exclude", "be excepted", "be excluded" ],
 
+    HaFCA'                    `noun`    {- OavonA' -}          [ "meanwhile", "meantime" ],
+
     FuCA' |< Iy               `adj`     {- vunA}iy~ -}         [ "bilateral", "dual" ],
 
     FACiL                     `adj`     {- vAniy -}            [ "second", "next" ],

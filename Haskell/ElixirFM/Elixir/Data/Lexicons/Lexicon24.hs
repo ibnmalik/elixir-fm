@@ -351,6 +351,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- miEA' -}            [ "intestines", "entrails" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'am`A' Nh N0_Nh Nhy" ] -} ]
 
  |> "m ` `" <| [
@@ -369,7 +370,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "m ` y" <| [
 
-    FiCA'                     `noun`    {- miEA' -}            [ "intestines", "entrails" ] ]
+    FiCA'                     `noun`    {- miEA' -}            [ "intestines", "entrails" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'am`A' Nh N0_Nh Nhy" ] -} ]
 
  |> "m ` z" <| [
 
@@ -606,6 +609,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- malaO -}            [ "crowd", "assembly", "audience" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'amlA' Nh N0_Nh Nhy" ] -},
 
     FaCIL                     `adj`     {- maliy' -}           [ "full", "filled", "replete" ]

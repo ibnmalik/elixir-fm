@@ -5578,7 +5578,9 @@ lexicon = listing "Lexicon's properties"
     -- >bhA}   >abohA} Nhy     parlors;lobbies
     -- AbhA}   >abohA} Nhy     parlors;lobbies
 
-    FaCL                      `noun`    {- bahow -}            [ "parlor", "lobby", "parlors", "lobbies" ] ]
+    FaCL                      `noun`    {- bahow -}            [ "parlor", "lobby", "parlors", "lobbies" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'abhA' Nh N0_Nh Nhy" ] -} ]
 
  |> "b h y" <| [
 

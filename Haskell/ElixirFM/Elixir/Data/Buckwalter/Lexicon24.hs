@@ -3180,6 +3180,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- miEA' -}            [ "intestines", "entrails" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'am`A' Nh N0_Nh Nhy" ] -} ]
 
  |> "m ` .d" <| [
@@ -3462,7 +3463,9 @@ lexicon = listing "Lexicon's properties"
     -- >mEA}   >amoEA} Nhy     intestines;entrails
     -- AmEA}   >amoEA} Nhy     intestines;entrails
 
-    FiCA'                     `noun`    {- miEA' -}            [ "intestines", "entrails" ],
+    FiCA'                     `noun`    {- miEA' -}            [ "intestines", "entrails" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'am`A' Nh N0_Nh Nhy" ] -},
 
     -- ;; miEawiy~_1
     -- mEwy    miEawiy~        N-ap    intestinal;enteric     [[miEawiy~/ADJ]]
@@ -4762,6 +4765,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- milo' -}            [ "filling", "quantity" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'amlA' Nh N0_Nh Nhy" ] -},
 
     -- ;; mala>_1
@@ -4777,6 +4781,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- malaO -}            [ "crowd", "assembly", "audience" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'amlA' Nh N0_Nh Nhy" ] -},
 
     -- ;; maliy'_1
@@ -5842,8 +5847,9 @@ lexicon = listing "Lexicon's properties"
     -- AmlA}   >amolA} Nhy     open country;steppe
 
     FaCY                      `noun`    {- malaY -}            [ "open country", "steppe" ]
+                              `plural`     HaFCA'
                               `plural`     FaCA
-                           {- `others`  [ "malA Nhy" ] -},
+                           {- `others`  [ "'amlA' Nh N0_Nh Nhy", "malA Nhy" ] -},
 
     -- ;; malowap_1
     -- mlw     malow   Napdu   malwa (dry measure)

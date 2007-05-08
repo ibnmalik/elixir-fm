@@ -4855,6 +4855,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- wabaO -}            [ "epidemic", "disease", "epidemics", "diseases" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'awbA' Nh N0_Nh Nhy" ] -},
 
     -- ;; wabA'_1

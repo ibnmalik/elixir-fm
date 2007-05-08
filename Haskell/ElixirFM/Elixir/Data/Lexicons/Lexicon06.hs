@@ -2221,11 +2221,15 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Hay~ -}             [ "Hayy" ],
 
-    FaCL                      `adj`     {- Hay~ -}             [ "alive", "living", "live", "lively" ],
+    FaCL                      `adj`     {- Hay~ -}             [ "alive", "living", "live", "lively" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a.hyA' Nh N0_Nh Nhy" ] -},
 
     MuFCiL                    `noun`    {- muHoyiy -}          [ "Muhi" ],
 
-    FaCL                      `noun`    {- Hay~ -}             [ "quarter", "district", "quarters", "districts" ],
+    FaCL                      `noun`    {- Hay~ -}             [ "quarter", "district", "quarters", "districts" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a.hyA' Nh N0_Nh Nhy" ] -},
 
     FaCA'                     `noun`    {- HayA' -}            [ "modesty", "shame" ],
 

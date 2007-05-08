@@ -1278,6 +1278,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- habA' -}            [ "dust particles", "dust particle" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'ahbA' Nh N0_Nh Nhy" ] -} ]
 
  |> "h b .t" <| [
@@ -1600,7 +1601,9 @@ lexicon = listing "Lexicon's properties"
     -- >hbA}   >ahobA} Nhy     dust particles
     -- AhbA}   >ahobA} Nhy     dust particles
 
-    FaCA'                     `noun`    {- habA' -}            [ "dust particles", "dust particle" ] ]
+    FaCA'                     `noun`    {- habA' -}            [ "dust particles", "dust particle" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'ahbA' Nh N0_Nh Nhy" ] -} ]
 
  |> "h b y" <| [
 
@@ -4720,7 +4723,9 @@ lexicon = listing "Lexicon's properties"
     -- >hrA}   >ahorA} Nhy     granaries
     -- AhrA}   >ahorA} Nhy     granaries
 
-    FuCL                      `noun`    {- huroy -}            [ "granary", "granaries" ],
+    FuCL                      `noun`    {- huroy -}            [ "granary", "granaries" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'ahrA' Nh N0_Nh Nhy" ] -},
 
     -- ;; hAriy_1
     -- hAry    hAriy   N0F     unsteady;tottering;reeling     [[hAriy/ADJ]]
@@ -5076,6 +5081,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'ahwA' Nh N0_Nh Nhy" ] -},
 
     -- ;; hawA}iy~_1
@@ -5944,7 +5950,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `noun`    {- hawaY -}            [ "affection", "inclination", "preference", "desires", "wishes", "inclinations" ]
                               `plural`     FaCA
-                           {- `others`  [ "hawA Nhy" ] -},
+                              `plural`     HaFCA'
+                           {- `others`  [ "hawA Nhy", "'ahwA' Nh N0_Nh Nhy" ] -},
 
     -- ;; hawA'_1
     -- hwA'    hawA'   N0_Nh   air;atmosphere;climate
@@ -5960,7 +5967,9 @@ lexicon = listing "Lexicon's properties"
     -- AhwA}   >ahowA} Nhy     air;atmosphere;climate
 
     FaCA'                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCA'
+                              `plural`     HaFCiL |< aT
+                           {- `others`  [ "'ahwA' Nh N0_Nh Nhy" ] -},
 
     -- ;; hawA}iy~_1
     -- hwA}y   hawA}iy~        NduAt   antenna     [[hawA}iy~/NOUN]]

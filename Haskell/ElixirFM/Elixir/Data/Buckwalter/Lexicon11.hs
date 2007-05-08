@@ -5683,6 +5683,16 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- ziy~ -}             [ "uniform", "clothing" ],
 
+    -- ;; >azoyA'_1
+    -- >zyA'   >azoyA' N0_Nh   fashion;clothes;uniforms
+    -- AzyA'   >azoyA' N0_Nh   fashion;clothes;uniforms
+    -- >zyA&   >azoyA& Nh      fashion;clothes;uniforms
+    -- AzyA&   >azoyA& Nh      fashion;clothes;uniforms
+    -- >zyA}   >azoyA} Nhy     fashion;clothes;uniforms
+    -- AzyA}   >azoyA} Nhy     fashion;clothes;uniforms
+
+    HaFCA'                    `noun`    {- OazoyA' -}          [ "fashion", "clothes", "uniforms" ],
+
     -- ;; zay~At_1
     -- zyAt    zay~At  N0      Zayyat
 

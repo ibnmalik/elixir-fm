@@ -1185,6 +1185,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `noun`    {- OasomaY -}          [ "higher/highest", "more/most eminent", "highest", "most eminent" ],
 
+    HaFCA'                    `noun`    {- OasomA' -}          [ "Asmaa" ],
+
     FACI                      `noun`    {- sAmiy -}            [ "Sami" ],
 
     FACI |< aT                `noun`    {- sAmiyap -}          [ "Samia" ],
@@ -1577,6 +1579,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- suw' -}             [ "offense", "bad/ill", "offenses" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'aswA' Nh N0_Nh Nhy" ] -},
 
     HaFCaL                    `noun`    {- OasowaO -}          [ "worse/worst" ],
@@ -1762,7 +1765,9 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCiLA'
                            {- `others`  [ "'aswiyA' Nh N0_Nh Nhy" ] -},
 
-    FIL                       `noun`    {- siy~ -}             [ "alike", "the same", "equals" ],
+    FIL                       `noun`    {- siy~ -}             [ "alike", "the same", "equals" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'aswA' Nh N0_Nh Nhy" ] -},
 
     TaFCiL |< aT              `noun`    {- tasowiyap -}        [ "settlement", "solution" ],
 

@@ -8218,6 +8218,12 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `noun`    {- OasomaY -}          [ "higher/highest", "more/most eminent", "highest", "most eminent" ],
 
+    -- ;; >asomA'_1
+    -- >smA'   >asomA' Nprop   Asmaa
+    -- AsmA'   >asomA' Nprop   Asmaa
+
+    HaFCA'                    `noun`    {- OasomA' -}          [ "Asmaa" ],
+
     -- ;; sAmiy_1
     -- sAmy    sAmiy   Nprop   Sami
 
@@ -11247,6 +11253,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- suw' -}             [ "offense", "bad/ill", "offenses" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'aswA' Nh N0_Nh Nhy" ] -},
 
     -- ;; sawo>ap_1
@@ -12375,7 +12382,9 @@ lexicon = listing "Lexicon's properties"
     -- AswA}   >asowA} Nhy     alike;the same
     -- swAsy   sawAsiy Nap     alike;the same;equals
 
-    FIL                       `noun`    {- siy~ -}             [ "alike", "the same", "equals" ],
+    FIL                       `noun`    {- siy~ -}             [ "alike", "the same", "equals" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'aswA' Nh N0_Nh Nhy" ] -},
 
     -- ;; tasowiyap_1
     -- tswy    tasowiy NapAt   settlement;solution

@@ -476,6 +476,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCaL
                            {- `others`  [ "ra^gaw NAn_Nayn" ] -},
 
+    HaFCA'                    `noun`    {- OarojA' -}          [ "periphery", "zones", "throughout" ],
+
     FaCA'                     `noun`    {- rajA' -}            [ "hope" ],
 
     FaCA'                     `noun`    {- rajA' -}            [ "Raja" ],

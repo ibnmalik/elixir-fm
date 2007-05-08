@@ -646,7 +646,8 @@ lexicon = listing "Lexicon's properties"
 
     FaL |< aN                 `noun`    {- \$afAF -}           [ "brink", "verge", "edge", "edges" ]
                               `plural`     FaCA
-                           {- `others`  [ "^safA N0_Nhy" ] -} ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "^safA N0_Nhy", "'a^sfA' Nh N0_Nh Nhy" ] -} ]
 
  |> "^s f h" <| [
 
@@ -927,7 +928,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s l w" <| [
 
-    FiCL                      `noun`    {- \$ilow -}           [ "limb", "corpse", "limbs", "corpses" ] ]
+    FiCL                      `noun`    {- \$ilow -}           [ "limb", "corpse", "limbs", "corpses" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a^slA' Nh N0_Nh Nhy" ] -} ]
 
  |> "^s m _h" <| [
 
@@ -1568,6 +1571,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- \$ayo' -}           [ "something", "things" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                               `plural`     FaL
                            {- `others`  [ "'a^syA' Nh N0_Nh Nhy", "^sa' N0" ] -} ]
 

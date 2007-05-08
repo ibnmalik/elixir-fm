@@ -650,9 +650,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- vadoy -}            [ "breast", "breasts" ]
                               `plural`     FaCA
+                              `plural`     HaFCA'
                               `plural`     FaCaL
                               `plural`     FaCY
-                           {- `others`  [ "_tadA Nhy", "_taday NAn_Nayn", "_tadY N0" ] -},
+                           {- `others`  [ "_tadA Nhy", "'a_tdA' Nh N0_Nh Nhy", "_taday NAn_Nayn", "_tadY N0" ] -},
 
     -- ;; vadoyA'_1
     -- vdyA'   vadoyA' N0_Nh   buxom
@@ -1509,7 +1510,15 @@ lexicon = listing "Lexicon's properties"
     -- >vnA}   >avonA} Nhy     folds;bends
     -- AvnA}   >avonA} Nhy     folds;bends
 
-    FiCL                      `noun`    {- vinoy -}            [ "fold", "bend", "folds", "bends" ],
+    FiCL                      `noun`    {- vinoy -}            [ "fold", "bend", "folds", "bends" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a_tnA' Nh N0_Nh Nhy" ] -},
+
+    -- ;; >avonA'_2
+    -- >vnA'   >avonA' N0      meanwhile;meantime
+    -- AvnA'   >avonA' N0      meanwhile;meantime
+
+    HaFCA'                    `noun`    {- OavonA' -}          [ "meanwhile", "meantime" ],
 
     -- ;; vanoyap_1
     -- vny     vanoy   Napdu   fold;crease

@@ -584,6 +584,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- ziy~ -}             [ "uniform", "clothing" ],
 
+    HaFCA'                    `noun`    {- OazoyA' -}          [ "fashion", "clothes", "uniforms" ],
+
     FaCL |< At                `noun`    {- zay~At -}           [ "Zayyat" ],
 
     FaCL |< At                `noun`    {- zay~At -}           [ "oil dealer", "oilman" ] ]

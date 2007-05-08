@@ -452,7 +452,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `noun`    {- SadaY -}            [ "echo", "echoes" ]
                               `plural`     FaCA
-                           {- `others`  [ ".sadA N0_Nhy" ] -},
+                              `plural`     HaFCA'
+                           {- `others`  [ ".sadA N0_Nhy", "'a.sdA' Nh N0_Nh Nhy" ] -},
 
     TaFaCCI                   `noun`    {- taSad~iy -}         [ "resistance", "confrontation", "confrontations" ] ]
 

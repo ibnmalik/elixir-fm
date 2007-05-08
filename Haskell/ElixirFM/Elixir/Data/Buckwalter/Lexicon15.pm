@@ -15181,7 +15181,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'a.dwA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',

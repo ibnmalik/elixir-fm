@@ -1603,6 +1603,9 @@ $Lexicon = {
       'patterns' => {
         '^safA' => [
           'FaCA'
+        ],
+        '\'a^sfA\'' => [
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -29671,7 +29674,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'a^syA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ],
         '^sa\'' => [
           'FaL'
@@ -33204,7 +33208,11 @@ $Lexicon = {
         '>$lA}   >a$olA} Nhy     limbs;corpses',
         'A$lA}   >a$olA} Nhy     limbs;corpses'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a^slA\'' => [
+          'HaFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCL',

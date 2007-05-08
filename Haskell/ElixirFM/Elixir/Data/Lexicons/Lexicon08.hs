@@ -843,6 +843,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `noun`    {- dA' -}              [ "disease", "illness", "diseases", "illnesses" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'adwA' Nh N0_Nh Nhy" ] -},
 
     FaCAL                     `noun`    {- dawA' -}            [ "remedy", "medication", "remedies", "medications" ],

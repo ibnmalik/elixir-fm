@@ -1384,6 +1384,9 @@ $Lexicon = {
         'AmlA}   >amolA} Nhy     open country;steppe'
       ],
       'patterns' => {
+        '\'amlA\'' => [
+          'HaFCA\''
+        ],
         'malA' => [
           'FaCA'
         ]
@@ -3041,7 +3044,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'am`A\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -15994,7 +15998,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'amlA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -16037,7 +16042,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'amlA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -18940,7 +18946,11 @@ $Lexicon = {
       'entry' => 'mi`A\'',
       'form' => 'mi`A\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'am`A\'' => [
+          'HaFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCA\'',

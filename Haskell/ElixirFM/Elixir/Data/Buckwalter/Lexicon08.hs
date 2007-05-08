@@ -4635,6 +4635,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- daniy' -}           [ "contemptible", "inferior" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'adnA' Nh N0_Nh Nhy" ] -},
 
     -- ;; >adona>_1
@@ -6690,6 +6691,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `noun`    {- dA' -}              [ "disease", "illness", "diseases", "illnesses" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'adwA' Nh N0_Nh Nhy" ] -},
 
     -- ;; dawA'_1
@@ -7748,7 +7750,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `noun`    {- dawaY -}            [ "illness", "disease", "illnesses", "diseases" ]
                               `plural`     FaCA
-                           {- `others`  [ "dawA Nhy" ] -},
+                              `plural`     HaFCA'
+                           {- `others`  [ "dawA Nhy", "'adwA' Nh N0_Nh Nhy" ] -},
 
     -- ;; dawaY_2
     -- dwY     dawaY   N0      buzzing;humming

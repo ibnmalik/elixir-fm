@@ -10506,7 +10506,11 @@ $Lexicon = {
         '>bhA}   >abohA} Nhy     parlors;lobbies',
         'AbhA}   >abohA} Nhy     parlors;lobbies'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'abhA\'' => [
+          'HaFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',

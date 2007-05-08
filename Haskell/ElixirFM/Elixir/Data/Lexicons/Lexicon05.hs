@@ -860,7 +860,9 @@ lexicon = listing "Lexicon's properties"
     FaCY                      `verb`    {- janaY-i -}          [ "harvest", "collect", "be harvested", "be collected" ]
                               `imperf`     FCI,
 
-    FaCY                      `noun`    {- janaY -}            [ "fruits" ],
+    FaCY                      `noun`    {- janaY -}            [ "fruits" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a^gnA' Nh N0_Nh Nhy" ] -},
 
     FiCA' |< Iy               `adj`     {- jinA}iy~ -}         [ "criminal", "penal" ],
 
@@ -1281,7 +1283,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- jaw~ -}             [ "air (military)", "climate", "atmosphere", "by air", "air" ]
                               `plural`     FiCA'
-                           {- `others`  [ "^giwA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFCA'
+                           {- `others`  [ "^giwA' Nh N0_Nh Nhy", "'a^gwA' Nh N0_Nh Nhy" ] -},
 
     FaCL |< Iy                `adj`     {- jaw~iy~ -}          [ "air", "aerial", "atmospheric" ],
 
@@ -1421,6 +1424,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- juzo' -}            [ "section", "piece", "portion", "part", "fraction", "sections", "pieces", "portions", "parts", "fractions" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'a^gzA' Nh N0_Nh Nhy" ] -},
 
     FuCL |< Iy                `adj`     {- juzo}iy~ -}         [ "partial", "petty" ],

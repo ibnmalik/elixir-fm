@@ -5070,7 +5070,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- filow -}            [ "colt", "foal", "colts", "foals" ]
                               `plural`     FiCA'
-                           {- `others`  [ "filA' Nh N0_Nh Nhy" ] -},
+                              `plural`     HaFCA'
+                           {- `others`  [ "filA' Nh N0_Nh Nhy", "'aflA' Nh N0_Nh Nhy" ] -},
 
     -- ;; faluw~_1
     -- flw     faluw~  N       colt;foal
@@ -5090,8 +5091,10 @@ lexicon = listing "Lexicon's properties"
     -- AflA}   >afolA} Nhy     open country
 
     FaCA |< aT                `noun`    {- falAap -}           [ "open country" ]
+                              `plural`     HaFCA'
                               `plural`     FaCaL |< At
-                              `plural`     FaCA |< aT,
+                              `plural`     FaCA |< aT
+                           {- `others`  [ "'aflA' Nh N0_Nh Nhy" ] -},
 
     -- ;; mafAliy_1
     -- mfAly   mafAliy N0_Nh   pastures
@@ -6208,6 +6211,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- faraO -}            [ "onager", "wild ass", "onagers", "wild asses" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'afrA' Nh N0_Nh Nhy" ] -},
 
     -- ;; farA'_1
@@ -10600,6 +10604,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- fayo' -}            [ "shadow", "shadows" ]
                               `plural`     FuCUL
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "fuyuw' N0_Nh Nhy", "'afyA' Nh N0_Nh Nhy" ] -},
 
     -- ;; fi}ap_1

@@ -363,7 +363,9 @@ lexicon = listing "Lexicon's properties"
     -- >EDA}   >aEoDA} Nhy     members
     -- AEDA}   >aEoDA} Nhy     members
 
-    FuCL                      `noun`    {- EuDow -}            [ "member", "members" ],
+    FuCL                      `noun`    {- EuDow -}            [ "member", "members" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a`.dA' Nh N0_Nh Nhy" ] -},
 
     -- ;; EuDow_2
     -- EDw     EuDow   Ndu     organ
@@ -374,7 +376,9 @@ lexicon = listing "Lexicon's properties"
     -- >EDA}   >aEoDA} Nhy     organs
     -- AEDA}   >aEoDA} Nhy     organs
 
-    FuCL                      `noun`    {- EuDow -}            [ "organ", "organs" ],
+    FuCL                      `noun`    {- EuDow -}            [ "organ", "organs" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a`.dA' Nh N0_Nh Nhy" ] -},
 
     -- ;; muEaD~iy_1
     -- mEDy    muEaD~iy        N0F_Nh  fissiparous (reproducing by spitting)     [[muEaD~iy/ADJ]]
@@ -4085,6 +4089,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- Eibo' -}            [ "load", "burden", "burdens", "loads" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'a`bA' Nh N0_Nh Nhy" ] -},
 
     -- ;; EabA'_1
@@ -5576,7 +5581,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCUL                     `noun`    {- Eaduw~ -}           [ "enemy", "enemies" ]
                               `plural`     HaFACI
-                           {- `others`  [ "'a`Adiy N0_Nh" ] -},
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a`Adiy N0_Nh", "'a`dA' Nh N0_Nh Nhy" ] -},
 
     -- ;; Eudowap_1
     -- Edw     Eudow   NapAt   embankment;shore
@@ -13853,7 +13859,9 @@ lexicon = listing "Lexicon's properties"
     -- >EtA}   >aEotA} Nhy     arrogant;insolent
     -- AEtA}   >aEotA} Nhy     arrogant;insolent
 
-    FaCIL                     `adj`     {- Eatiy~ -}           [ "arrogant", "insolent" ] ]
+    FaCIL                     `adj`     {- Eatiy~ -}           [ "arrogant", "insolent" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a`tA' Nh N0_Nh Nhy" ] -} ]
 
  |> "` t z" <| [
 

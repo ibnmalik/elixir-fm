@@ -31083,7 +31083,8 @@ $Lexicon = {
           'FaCA\''
         ],
         '\'a_h.tA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',

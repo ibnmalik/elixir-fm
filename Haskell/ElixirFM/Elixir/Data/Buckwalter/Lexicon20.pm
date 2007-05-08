@@ -4649,6 +4649,9 @@ $Lexicon = {
       'patterns' => {
         'filA\'' => [
           'FiCA\''
+        ],
+        '\'aflA\'' => [
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -4727,6 +4730,9 @@ $Lexicon = {
         'AflA}   >afolA} Nhy     open country'
       ],
       'patterns' => {
+        '\'aflA\'' => [
+          'HaFCA\''
+        ],
         'falaw' => [
           'FaCaL'
         ],
@@ -43786,7 +43792,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'afrA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -44231,7 +44238,8 @@ $Lexicon = {
           'FuCUL'
         ],
         '\'afyA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',

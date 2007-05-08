@@ -172,6 +172,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCAL
                               `plural`     FaCA'
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "_ha.tA' Nh N0_Nh Nhy", "'a_h.tA' Nh N0_Nh Nhy" ] -},
 
     FACiL                     `adj`     {- xATi} -}            [ "mistaken", "at fault" ]

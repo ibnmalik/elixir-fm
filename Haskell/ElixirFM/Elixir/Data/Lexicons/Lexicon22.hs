@@ -296,6 +296,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- kafo' -}            [ "adequate", "qualified" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'akfA' Nh N0_Nh Nhy" ] -},
 
     FaCAL |< aT               `noun`    {- kafA'ap -}          [ "competence", "suitability", "proficiency" ],

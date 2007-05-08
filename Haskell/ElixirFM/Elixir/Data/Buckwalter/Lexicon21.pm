@@ -27899,7 +27899,11 @@ $Lexicon = {
         '>qSA}   >aqoSA} Nhy     distant;remote',
         'AqSA}   >aqoSA} Nhy     distant;remote'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'aq.sA\'' => [
+          'HaFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -43836,7 +43840,11 @@ $Lexicon = {
         '>q*A}   >aqo*A} Nhy     dust particles',
         'Aq*A}   >aqo*A} Nhy     dust particles'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'aq_dA\'' => [
+          'HaFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCY',
@@ -48004,6 +48012,9 @@ $Lexicon = {
         'qnyAn   qunoyAn N       dates (food)'
       ],
       'patterns' => {
+        '\'aqnA\'' => [
+          'HaFCA\''
+        ],
         'qunwAn' => [
           'FuCLAn'
         ]
@@ -50054,6 +50065,9 @@ $Lexicon = {
       'patterns' => {
         'qafA' => [
           'FaCA'
+        ],
+        '\'aqfA\'' => [
+          'HaFCA\''
         ]
       },
       'index' => '1',

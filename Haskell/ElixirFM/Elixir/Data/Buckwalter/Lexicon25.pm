@@ -20933,7 +20933,11 @@ $Lexicon = {
         '>nDA}   >anoDA} Nhy     tattered garment',
         'AnDA}   >anoDA} Nhy     tattered garment'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'an.dA\'' => [
+          'HaFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',
@@ -20967,7 +20971,11 @@ $Lexicon = {
         '>nDA}   >anoDA} Nhy     lean',
         'AnDA}   >anoDA} Nhy     lean'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'an.dA\'' => [
+          'HaFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCL',
@@ -27950,7 +27958,11 @@ $Lexicon = {
         '>nHA}   >anoHA} Nhy     areas',
         'AnHA}   >anoHA} Nhy     areas'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'an.hA\'' => [
+          'HaFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',
@@ -42072,7 +42084,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'anbA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -46629,6 +46642,9 @@ $Lexicon = {
         'AndA}   >anodA} Nhy     dew;generosity'
       ],
       'patterns' => {
+        '\'andA\'' => [
+          'HaFCA\''
+        ],
         'nadA' => [
           'FaCA'
         ]
@@ -66145,7 +66161,8 @@ $Lexicon = {
           'FuCLAn'
         ],
         '\'anwA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',

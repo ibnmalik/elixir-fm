@@ -611,6 +611,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'ahwA' Nh N0_Nh Nhy" ] -},
 
     FaCAL |< Iy               `noun`    {- hawA}iy~ -}         [ "antenna" ],
@@ -707,10 +708,13 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `noun`    {- hawaY -}            [ "affection", "inclination", "preference", "desires", "wishes", "inclinations" ]
                               `plural`     FaCA
-                           {- `others`  [ "hawA Nhy" ] -},
+                              `plural`     HaFCA'
+                           {- `others`  [ "hawA Nhy", "'ahwA' Nh N0_Nh Nhy" ] -},
 
     FaCA'                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCA'
+                              `plural`     HaFCiL |< aT
+                           {- `others`  [ "'ahwA' Nh N0_Nh Nhy" ] -},
 
     FaCA' |< Iy               `noun`    {- hawA}iy~ -}         [ "antenna" ],
 

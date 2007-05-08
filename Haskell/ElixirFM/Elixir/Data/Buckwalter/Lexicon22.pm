@@ -21341,7 +21341,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'akfA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -36703,7 +36704,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'aklA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -46255,7 +46257,11 @@ $Lexicon = {
         '>kmA}   >akomA} Nhy     armed;brave',
         'AkmA}   >akomA} Nhy     armed;brave'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'akmA\'' => [
+          'HaFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',

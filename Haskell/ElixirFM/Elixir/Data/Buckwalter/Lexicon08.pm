@@ -5902,6 +5902,9 @@ $Lexicon = {
       'patterns' => {
         'dawA' => [
           'FaCA'
+        ],
+        '\'adwA\'' => [
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -19867,7 +19870,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'adnA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -35807,7 +35811,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'adwA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',

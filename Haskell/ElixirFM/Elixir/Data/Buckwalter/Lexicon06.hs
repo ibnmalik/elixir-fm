@@ -1957,7 +1957,9 @@ lexicon = listing "Lexicon's properties"
     -- >HjA}   >aHojA} Nhy     intelligence;wit
     -- AHjA}   >aHojA} Nhy     intelligence;wit
 
-    FiCY                      `noun`    {- HijaY -}            [ "intelligence", "wit" ],
+    FiCY                      `noun`    {- HijaY -}            [ "intelligence", "wit" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a.h^gA' Nh N0_Nh Nhy" ] -},
 
     -- ;; >aHojaY_1
     -- >HjY    >aHojaY N0      more/most appropriate/correct
@@ -2460,8 +2462,9 @@ lexicon = listing "Lexicon's properties"
     -- AH$A}   >aHo$A} Nhy     intestines;bowels;interior
 
     FaCY                      `noun`    {- Ha$aY -}            [ "intestines", "bowels", "interior" ]
+                              `plural`     HaFCA'
                               `plural`     FaCA
-                           {- `others`  [ ".ha^sA N0_Nhy" ] -},
+                           {- `others`  [ "'a.h^sA' Nh N0_Nh Nhy", ".ha^sA N0_Nhy" ] -},
 
     -- ;; taHA$iy_1
     -- tHA$y   taHA$iy N0_Nh   avoidance
@@ -7168,7 +7171,8 @@ lexicon = listing "Lexicon's properties"
     FaL                       `noun`    {- Ham -}              [ "father-in-law", "father-in-law + my", "father-in-law of", "fathers-in-law" ]
                               `plural`     FaCA
                               `plural`     FaCI
-                           {- `others`  [ ".hamA N0_Nh", ".hamiy FW-WaBi N0_Nh" ] -},
+                              `plural`     HaFCA'
+                           {- `others`  [ ".hamA N0_Nh", ".hamiy FW-WaBi N0_Nh", "'a.hmA' Nh N0_Nh Nhy" ] -},
 
     -- ;; Humap_1
     -- Hm      Hum     NapAt   sting;prick
@@ -8138,7 +8142,9 @@ lexicon = listing "Lexicon's properties"
     -- >HnA}   >aHonA} Nhy     bends;twists;ribs
     -- AHnA}   >aHonA} Nhy     bends;twists;ribs
 
-    FiCL                      `noun`    {- Hinow -}            [ "bend", "turn", "bends", "twists", "ribs" ],
+    FiCL                      `noun`    {- Hinow -}            [ "bend", "turn", "bends", "twists", "ribs" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a.hnA' Nh N0_Nh Nhy" ] -},
 
     -- ;; Hunuw~_1
     -- Hnw     Hunuw~  N       sympathy;affection
@@ -8700,7 +8706,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Haqow -}            [ "loin", "groin", "loins" ]
                               `plural`     FiCA'
-                           {- `others`  [ ".hiqA' Nh N0_Nh Nhy" ] -} ]
+                              `plural`     HaFCA'
+                           {- `others`  [ ".hiqA' Nh N0_Nh Nhy", "'a.hqA' Nh N0_Nh Nhy" ] -} ]
 
  |> ".h r '" <| [
 
@@ -10856,7 +10863,13 @@ lexicon = listing "Lexicon's properties"
     -- HsA&    HasA&   Nh      soup
     -- HsA}    HasA}   Nhy     soup
 
-    FaCA'                     `noun`    {- HasA' -}            [ "soup" ] ]
+    FaCA'                     `noun`    {- HasA' -}            [ "soup" ],
+
+    -- ;; >aHosA'_1
+    -- >HsA'   >aHosA' N0      Hasa (S.Ar.)
+    -- AHsA'   >aHosA' N0      Hasa (S.Ar.)
+
+    HaFCA'                    `noun`    {- OaHosA' -}          [ "Hasa (S.Ar.)" ] ]
 
  |> ".h t .t" <| [
 
@@ -13085,7 +13098,9 @@ lexicon = listing "Lexicon's properties"
     -- >HyA}   >aHoyA} Nhy     alive;living;live;lively     [[>aHoyA}/ADJ]]
     -- AHyA}   >aHoyA} Nhy     alive;living;live;lively     [[>aHoyA}/ADJ]]
 
-    FaCL                      `adj`     {- Hay~ -}             [ "alive", "living", "live", "lively" ],
+    FaCL                      `adj`     {- Hay~ -}             [ "alive", "living", "live", "lively" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a.hyA' Nh N0_Nh Nhy" ] -},
 
     -- ;; muHoyiy_1
     -- mHyy    muHoyiy Nprop   Muhi
@@ -13101,12 +13116,20 @@ lexicon = listing "Lexicon's properties"
     -- >HyA}   >aHoyA} Nhy     quarters;districts
     -- AHyA}   >aHoyA} Nhy     quarters;districts
 
-    FaCL                      `noun`    {- Hay~ -}             [ "quarter", "district", "quarters", "districts" ],
+    FaCL                      `noun`    {- Hay~ -}             [ "quarter", "district", "quarters", "districts" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a.hyA' Nh N0_Nh Nhy" ] -},
 
     -- ;; Hay~ap_1
     -- Hy      Hay~    NapAt   snake
 
     FaCL |< aT                `noun`    {- Hay~ap -}           [ "snake" ],
+
+    -- ;; >aHoyA}iy~_1
+    -- >HyA}y  >aHoyA}iy~      Nall    biological;biologist     [[>aHoyA}iy~/ADJ]]
+    -- AHyA}y  >aHoyA}iy~      Nall    biological;biologist     [[>aHoyA}iy~/ADJ]]
+
+    HaFCA' |< Iy              `adj`     {- OaHoyA}iy~ -}       [ "biological", "biologist" ],
 
     -- ;; Hayiy~_1
     -- Hyy     Hayiy~  N/ap    bashful;modest     [[Hayiy~/ADJ]]

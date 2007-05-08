@@ -3035,6 +3035,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Dawo' -}            [ "light", "lights" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'a.dwA' Nh N0_Nh Nhy" ] -},
 
     -- ;; Dawo}iy~_1

@@ -11705,6 +11705,9 @@ $Lexicon = {
       'patterns' => {
         'lawA' => [
           'FaCA'
+        ],
+        '\'alwA\'' => [
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -11753,6 +11756,9 @@ $Lexicon = {
       'patterns' => {
         '\'alwiy' => [
           'HaFCiL'
+        ],
+        '\'alwA\'' => [
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -15182,6 +15188,9 @@ $Lexicon = {
         'AlqA}   >aloqA} Nhy     offal'
       ],
       'patterns' => {
+        '\'alqA\'' => [
+          'HaFCA\''
+        ],
         'laqA' => [
           'FaCA'
         ]

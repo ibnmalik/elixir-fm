@@ -28663,7 +28663,11 @@ $Lexicon = {
         '>EtA}   >aEotA} Nhy     arrogant;insolent',
         'AEtA}   >aEotA} Nhy     arrogant;insolent'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a`tA\'' => [
+          'HaFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -66310,6 +66314,9 @@ $Lexicon = {
       'patterns' => {
         '\'a`Adiy' => [
           'HaFACI'
+        ],
+        '\'a`dA\'' => [
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -67806,7 +67813,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'a`bA\'' => [
-          'HaFCAL'
+          'HaFCAL',
+          'HaFCA\''
         ]
       },
       'index' => '1',
@@ -75081,7 +75089,11 @@ $Lexicon = {
         '>EDA}   >aEoDA} Nhy     members',
         'AEDA}   >aEoDA} Nhy     members'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a`.dA\'' => [
+          'HaFCA\''
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCL',
@@ -75116,7 +75128,11 @@ $Lexicon = {
         '>EDA}   >aEoDA} Nhy     organs',
         'AEDA}   >aEoDA} Nhy     organs'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a`.dA\'' => [
+          'HaFCA\''
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FuCL',

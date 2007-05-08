@@ -2520,6 +2520,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- kafo' -}            [ "adequate", "qualified" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'akfA' Nh N0_Nh Nhy" ] -},
 
     -- ;; kufuw'_1
@@ -3448,6 +3449,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- kalaO -}            [ "pasture", "herbage", "pastures" ]
                               `plural`     HaFCAL
+                              `plural`     HaFCA'
                            {- `others`  [ "'aklA' Nh N0_Nh Nhy" ] -},
 
     -- ;; kaluw'_1
@@ -4756,7 +4758,9 @@ lexicon = listing "Lexicon's properties"
     -- >kmA}   >akomA} Nhy     armed;brave
     -- AkmA}   >akomA} Nhy     armed;brave
 
-    FaCIL                     `adj`     {- kamiy~ -}           [ "armed", "brave" ] ]
+    FaCIL                     `adj`     {- kamiy~ -}           [ "armed", "brave" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'akmA' Nh N0_Nh Nhy" ] -} ]
 
  |> "k m y n" <| [
 

@@ -1742,8 +1742,9 @@ lexicon = listing "Lexicon's properties"
     -- ASbA}   >aSobA} Nhy     east winds
 
     FaL                       `noun`    {- Sab -}              [ "east wind", "east winds" ]
+                              `plural`     HaFCA'
                               `plural`     FaCA
-                           {- `others`  [ ".sabA N0" ] -},
+                           {- `others`  [ "'a.sbA' Nh N0_Nh Nhy", ".sabA N0" ] -},
 
     -- ;; SibAF_1
     -- SbA     SibAF   FW-WaBi youth;childhood     [[SibAF/NOUN]]
@@ -2907,7 +2908,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `noun`    {- SadaY -}            [ "echo", "echoes" ]
                               `plural`     FaCA
-                           {- `others`  [ ".sadA N0_Nhy" ] -},
+                              `plural`     HaFCA'
+                           {- `others`  [ ".sadA N0_Nhy", "'a.sdA' Nh N0_Nh Nhy" ] -},
 
     -- ;; taSodiyap_1
     -- tSdy    taSodiy Nap     hand clapping
@@ -4090,7 +4092,9 @@ lexicon = listing "Lexicon's properties"
     -- AShA}   >aSohA} Nhy     rumps;backs
 
     FaCL |< aT                `noun`    {- Sahowap -}          [ "rump", "back", "rumps", "backs" ]
-                              `plural`     FaCaL |< At ]
+                              `plural`     HaFCA'
+                              `plural`     FaCaL |< At
+                           {- `others`  [ "'a.shA' Nh N0_Nh Nhy" ] -} ]
 
  |> ".s h y n" <| [
 
@@ -5749,7 +5753,9 @@ lexicon = listing "Lexicon's properties"
     -- >SnA}   >aSonA} Nhy     twins
     -- ASnA}   >aSonA} Nhy     twins
 
-    FiCL                      `noun`    {- Sinow -}            [ "twin", "twins" ],
+    FiCL                      `noun`    {- Sinow -}            [ "twin", "twins" ]
+                              `plural`     HaFCA'
+                           {- `others`  [ "'a.snA' Nh N0_Nh Nhy" ] -},
 
     -- ;; Sinowap_1
     -- Snw     Sinow   Nap     sister

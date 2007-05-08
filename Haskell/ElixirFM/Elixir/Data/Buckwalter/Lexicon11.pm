@@ -14455,6 +14455,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '\'azyA\'',
+      'form' => '\'azyA\'',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFCA\'',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'OazoyA\'',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'zayyAt' => {
           'N0' => 1
@@ -24375,6 +24389,9 @@ $Lexicon->{'z y y'}[1]{'glosses'} = $Lexicon->{'z y y'}[0]{'glosses'};
 $Lexicon->{'z y y'}[4]{'types'} = $Lexicon->{'z y y'}[3]{'types'};
 $Lexicon->{'z y y'}[4]{'lines'} = $Lexicon->{'z y y'}[3]{'lines'};
 $Lexicon->{'z y y'}[4]{'glosses'} = $Lexicon->{'z y y'}[3]{'glosses'};
+$Lexicon->{'z y y'}[5]{'types'} = $Lexicon->{'z y \''}[0]{'types'};
+$Lexicon->{'z y y'}[5]{'lines'} = $Lexicon->{'z y \''}[0]{'lines'};
+$Lexicon->{'z y y'}[5]{'glosses'} = $Lexicon->{'z y \''}[0]{'glosses'};
 $Lexicon->{'z r \''}[0]{'types'} = $Lexicon->{'z r y'}[7]{'types'};
 $Lexicon->{'z r \''}[0]{'lines'} = $Lexicon->{'z r y'}[7]{'lines'};
 $Lexicon->{'z r \''}[0]{'glosses'} = $Lexicon->{'z r y'}[7]{'glosses'};
