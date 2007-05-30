@@ -282,14 +282,30 @@ instance Forming PatternT where
 
 instance Rules PatternT where
 
-    imperfectPrefix x t v =
+    prefixVerbI _ _ Passive                     = "u"
+
+    prefixVerbI x _ _   | x `elem` [II .. IV]   = "u"
+                        | otherwise             = "a"
+
+
+    prefixVerbC I   FCuL    = "u"
+    prefixVerbC I   _       = "i"
+
+    prefixVerbC IV  _       = "'a"
+
+    prefixVerbC x   _   | x `elem` [II, III, V, VI] = ""
+                        | otherwise                 = "i"
+
+{-
+    prefixVerbI x t v =
 
         if elem x [II .. IV] || v == Passive
 
             then "u"
             else "a"
 
-    imperativePrefix x t =
+
+    prefixVerbC x t =
 
         if x == I
 
@@ -303,27 +319,6 @@ instance Rules PatternT where
 
                         then ""
                         else "i"
-
-{-
-    imperfectPrefix v t =
-
-        if any (`isForm` t) [II .. IV]
-           || v == Passive
-
-            then "u"
-            else "a"
-
-    imperativePrefix t =
-
-        if any (`isForm` t) [I]
-
-            then case t of FCuL -> "u"
-                           _    -> "i"
-
-            else if any (`isForm` t) [VII .. X]
-
-                    then "i"
-                    else ""
 -}
 
     isDiptote = flip elem [ HaFCaL,
@@ -338,6 +333,7 @@ instance Rules PatternT where
                             MaFACiL, MaFA'iL, MaFACL,
                             MaFACIL, MaFA'IL,
                             FaCLAn ]
+
 
     isPassive = flip elem [ FuCiL, FIL, FuCI, FuCL,
                             FuCCiL, FuCCI,

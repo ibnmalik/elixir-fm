@@ -63,9 +63,9 @@ instance Forming PatternQ where
 
 instance Rules PatternQ where
 
-    imperfectPrefix _ _ _ = "u"
+    prefixVerbI _ _ _ = "u"
 
-    imperativePrefix _ _ = ""
+    prefixVerbC _ _   = ""
 
     isDiptote = flip elem [ KaRADiS, KaRADIS ]
 

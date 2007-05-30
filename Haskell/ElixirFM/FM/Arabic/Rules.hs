@@ -84,32 +84,40 @@ instance Inflect Entry ParaNoun where
 
 instance Inflect RootEntry ParaVerb where
 
-    inflect (RE r e) x@(VerbP   v p g n) = (map findForm . findStem) e
+    inflect (RE r e) x@(VerbP   v p g n) = (map inRules . inEntry) e
 
-        where findStem e = let normal = [morphs e] in case entity e of
+        where inEntry e = case entity e of
 
-                  Verb _ [] _ _ ->  normal
-                  Verb _ is _ _ ->  if isDefault x then normal
+                  Verb _ [] _ _ ->  [ morphs e ]
+
+                  Verb _ is _ _ ->  if isDefault x then [ morphs e ]
                                                    else [ morph i | i <- is ]
 
                   _             ->  error "Incompatible Verb"
 
-              findForm = merge r . withParadigm (paraVerbP v p g n)
+              inRules = merge r . paradigm (paraVerbP v p g n)
 
-              withParadigm p m@(Morphs t _ _) = p $ case v of
+              Morphs pattern _ _ = morphs e
+
+              paradigm p m@(Morphs t _ _) = p $ case v of
 
                     Active  -> m
-                    Passive -> maybe m morph $
+                    Passive -> head [ morph y |
+                                      (x, y, _, _) <- verbStems form, x == t ]
 
-                            lookup t [ (x, y) | f <- [I ..],
-                                                (x, y, _, _) <- verbStems f ]
+              form = case nub [ f | f <- [I ..], (x, _, _, _) <- verbStems f,
+                                    x == pattern ] of
+                        [x] ->  x
+                        _   ->  error "Inconsistent Derivation Form"
 
 
-    inflect (RE r e) x@(VerbI m v p g n) = (map findForm . findStem) e
+    inflect (RE r e) x@(VerbI m v p g n) = (map inRules . inEntry) e
 
-        where findStem e = case entity e of
+        where inEntry e = case entity e of
 
-                  Verb [] _ _  _ -> [ theTense (morphs e) ]
+                  Verb [] _ _  _ -> [ morph y | (x, _, y, _) <- verbStems form,
+                                                x == pattern ]
+
                   Verb is _ [] _ -> [ morph i | i <- is ]
 
                   Verb is _ ys _ -> if isDefault x then [ morph i | i <- is ]
@@ -117,30 +125,29 @@ instance Inflect RootEntry ParaVerb where
 
                   _              -> error "Incompatible Verb"
 
-              findForm = merge r . withParadigm (paraVerbI m v p g n)
+              inRules = merge r . paradigm (paraVerbI m v p g n)
 
-              theTense m@(Morphs t _ _) = maybe m morph $
+              Morphs pattern _ _ = morphs e
 
-                            lookup t [ (x, y) | f <- [I ..],
-                                                (x, _, y, _) <- verbStems f ]
+              paradigm p m@(Morphs t _ _) = p (prefixVerbI form t v) $ case v of
 
-              withParadigm p m@(Morphs t _ _) = p (imperfectPrefix f t v) $
+                    Active  -> m
+                    Passive -> head [ morph y |
+                                      (_, _, x, y) <- verbStems form, x == t ]
 
-                    case v of   Active  ->  m
-                                Passive ->  morph y
-
-                where (f, y) = maybe (I, q) id $
-                            lookup t [ (x, (f, y)) | f <- [I ..],
-                                                (_, _, x, y) <- verbStems f ]
-
-                      (_, _, q, _) = head (verbStems I)
+              form = case nub [ f | f <- [I ..], (x, _, _, _) <- verbStems f,
+                                    x == pattern ] of
+                        [x] ->  x
+                        _   ->  error "Inconsistent Derivation Form"
 
 
-    inflect (RE r e) x@(VerbC       g n) = (map findForm . findStem) e
+    inflect (RE r e) x@(VerbC       g n) = (map inRules . inEntry) e
 
-        where findStem e = case entity e of
+        where inEntry e = case entity e of
 
-                Verb [] _ _  [] ->  [ theTense (morphs e) ]
+                Verb [] _ _  [] ->  [ morph y | (x, _, y, _) <- verbStems form,
+                                                x == pattern ]
+
                 Verb is _ [] [] ->  [ morph i | i <- is ]
 
                 Verb is _ ys [] ->  if isDefault x then [ morph i | i <- is ]
@@ -150,18 +157,17 @@ instance Inflect RootEntry ParaVerb where
 
                 _               ->  error "Incompatible Verb"
 
-              findForm = merge r . withParadigm (paraVerbC g n)
+              inRules = merge r . paradigm (paraVerbC g n)
 
-              theTense m@(Morphs t _ _) = maybe m morph $
+              Morphs pattern _ _ = morphs e
 
-                            lookup t [ (x, y) | f <- [I ..],
-                                                (x, _, y, _) <- verbStems f ]
+              paradigm p m@(Morphs t _ _) = p (prefixVerbC form t) m
 
-              withParadigm p m@(Morphs t _ _) = p (imperativePrefix f t) m
+              form = case nub [ f | f <- [I ..], (x, _, _, _) <- verbStems f,
+                                    x == pattern ] of
+                        [x] ->  x
+                        _   ->  error "Inconsistent Derivation Form"
 
-                where f = maybe I id $
-                            lookup t [ (x, f) | f <- [I ..],
-                                                (_, _, x, _) <- verbStems f ]
 
     inflect _ _ = []
 
@@ -329,27 +335,27 @@ paraVerbC g n i = case n of
 
             where t = case v of Active  -> pa
                                 Passive -> pp
-                  (_, (pa, pp, _, _)) = findStem e
+                  (_, (pa, pp, _, _)) = inEntry e
 
         VerbI m v p g n -> paraVerbI m v p g n i t
 
             where t = case v of Active  -> ia
                                 Passive -> ip
-                  (x, (_, _, ia, ip)) = findStem e
+                  (x, (_, _, ia, ip)) = inEntry e
                   i = imperfectPrefix x v t
 
         VerbC       g n -> paraVerbC       g n i t
 
             where t = ia
-                  (x, (_, _, ia, _)) = findStem e
+                  (x, (_, _, ia, _)) = inEntry e
                   i = imperativePrefix x t
 
-        where findStem e = case findForm e of
+        where inEntry e = case inRules e of
 
                             x : _ -> x
                             _     -> error "Form not found"
 
-              findForm e = {-(concat . map
+              inRules e = {-(concat . map
                            (filter (\ (x, (a, _, _, _)) -> morph a == morphs e))
                             . map (\ x -> (x, verbStems x)))
                            [I .. X]-}
@@ -361,20 +367,20 @@ paraVerbC g n i = case n of
 
 instance Inflect RootEntry ParaNoun where
 
-    inflect (RE r e) (NounS n c s) = (map (findForm r c s) . findStem n) e
+    inflect (RE r e) (NounS n c s) = (map (inRules r c s) . inEntry n) e
 
     inflect _        _             = error "Unexpected case ..."
 
 
-findStem Plural e = case entity e of Noun l _ _ -> l
-                                     _          -> error "Incompatible Noun"
+inEntry Plural e = case entity e of Noun l _ _  -> l
+                                    _           -> error "Incompatible Noun"
 
-findStem Dual e = [morphs e |< An]
+inEntry Dual e = [morphs e |< An]
 
-findStem _ e = [morphs e]
+inEntry _ e = [morphs e]
 
 
-findForm r c (d :-: a) y@(Morphs t p s) = (merge r . article . endings c d a) y
+inRules r c (d :-: a) y@(Morphs t p s) = (merge r . article . endings c d a) y
 
     where article = case d of   Just True        -> (al >|)
                                 _                -> id
