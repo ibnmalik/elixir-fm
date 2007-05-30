@@ -282,7 +282,7 @@ instance Forming PatternT where
 
 instance Rules PatternT where
 
-    imperfectPrefix x v t =
+    imperfectPrefix x t v =
 
         if elem x [II .. IV] || v == Passive
 
@@ -299,10 +299,10 @@ instance Rules PatternT where
             else if x == IV
 
                 then "'a"
-                else if elem x [VII .. X]
+                else if elem x [II, III, V, VI]
 
-                        then "i"
-                        else ""
+                        then ""
+                        else "i"
 
 {-
     imperfectPrefix v t =

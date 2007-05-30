@@ -94,14 +94,22 @@ instance Inflect RootEntry ParaVerb where
 
                   _             ->  error "Incompatible Verb"
 
-              findForm = merge r . paraVerbP v p g n
+              findForm = merge r . withParadigm (paraVerbP v p g n)
+
+              withParadigm p m@(Morphs t _ _) = p $ case v of
+
+                    Active  -> m
+                    Passive -> maybe m morph $
+
+                            lookup t [ (x, y) | f <- [I ..],
+                                                (x, y, _, _) <- verbStems f ]
 
 
     inflect (RE r e) x@(VerbI m v p g n) = (map findForm . findStem) e
 
         where findStem e = case entity e of
 
-                  Verb [] _ _  _ -> [ morphs e ]
+                  Verb [] _ _  _ -> [ theTense (morphs e) ]
                   Verb is _ [] _ -> [ morph i | i <- is ]
 
                   Verb is _ ys _ -> if isDefault x then [ morph i | i <- is ]
@@ -109,14 +117,30 @@ instance Inflect RootEntry ParaVerb where
 
                   _              -> error "Incompatible Verb"
 
-              findForm = merge r . paraVerbI m v p g n "u"
+              findForm = merge r . withParadigm (paraVerbI m v p g n)
+
+              theTense m@(Morphs t _ _) = maybe m morph $
+
+                            lookup t [ (x, y) | f <- [I ..],
+                                                (x, _, y, _) <- verbStems f ]
+
+              withParadigm p m@(Morphs t _ _) = p (imperfectPrefix f t v) $
+
+                    case v of   Active  ->  m
+                                Passive ->  morph y
+
+                where (f, y) = maybe (I, q) id $
+                            lookup t [ (x, (f, y)) | f <- [I ..],
+                                                (_, _, x, y) <- verbStems f ]
+
+                      (_, _, q, _) = head (verbStems I)
 
 
     inflect (RE r e) x@(VerbC       g n) = (map findForm . findStem) e
 
         where findStem e = case entity e of
 
-                Verb [] _ _  [] ->  [ morphs e ]
+                Verb [] _ _  [] ->  [ theTense (morphs e) ]
                 Verb is _ [] [] ->  [ morph i | i <- is ]
 
                 Verb is _ ys [] ->  if isDefault x then [ morph i | i <- is ]
@@ -126,8 +150,18 @@ instance Inflect RootEntry ParaVerb where
 
                 _               ->  error "Incompatible Verb"
 
-              findForm = merge r . paraVerbC g n "i"
+              findForm = merge r . withParadigm (paraVerbC g n)
 
+              theTense m@(Morphs t _ _) = maybe m morph $
+
+                            lookup t [ (x, y) | f <- [I ..],
+                                                (x, _, y, _) <- verbStems f ]
+
+              withParadigm p m@(Morphs t _ _) = p (imperativePrefix f t) m
+
+                where f = maybe I id $
+                            lookup t [ (x, f) | f <- [I ..],
+                                                (_, _, x, _) <- verbStems f ]
 
     inflect _ _ = []
 

@@ -233,7 +233,7 @@ data Form = I | II | III | IV | V | VI | VII | VIII | IX | X |
 
 class Eq a => Rules a where
 
-    imperfectPrefix :: Form -> Voice -> a -> String
+    imperfectPrefix :: Form -> a -> Voice -> String
 
     imperativePrefix :: Form -> a -> String
 
