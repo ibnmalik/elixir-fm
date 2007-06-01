@@ -32,26 +32,31 @@ import Elixir.Template
 import Encode
 import Encode.Arabic
 
--- recode = encode Tim . decode TeX . (++) "\\noneplus "
+-- recode = map (encode Tim . decode TeX . (++) "\\noneplus ")
 recode = id
 
 
 arabicDict :: Dictionary
 
-arabicDict = (dictionary . concat . map lex2dict) $ take 80 $ drop 1000 lexicon
+arabicDict = (dictionary . concat . map lex2dict) $ take 50 $ drop 1000 lexicon
 
     where   lex2dict (NestT x ys) = [ case entity y of
 
-                                        Noun _ _ _ -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
-                                                            "Noun", [],
-                                                            [ (show v, (0, map recode (inflect (RE x y) v))) | v :: ParaNoun <- values ])
+                Noun _ _ _      -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
+                                    "Noun", [],
+                                    [ (show v, (0, recode (inflect (RE x y) v))) | v :: ParaNoun <- values ])
 
-                                      --  Verb _ _   -> (dictword (inflect y :: ParaVerb -> [String]),
-                                      --                      "Verb", [],
-                                      --                      [ (show v, (0, inflect y v)) | v :: ParaVerb <- values ])
-                                        _          -> ("Dictword",
-                                                            "Category", ["Inherent"],
-                                                            [ ("Untyped",(0,["String"])) ]) | y <- ys ]
+                Adj _ _         -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
+                                    "Noun", [],
+                                    [ (show v, (0, recode (inflect (RE x y) v))) | v :: ParaNoun <- values ])
+
+                Verb _ _ _ _    -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaVerb -> [String]),
+                                    "Verb", [],
+                                    [ (show v, (0, recode (inflect (RE x y) v))) | v :: ParaVerb <- values ])
+
+                _               -> ("Dictword",
+                                    "Category", ["Inherent"],
+                                    [ ("Untyped",(0,["String"])) ]) | y <- ys ]
                 where root = words x
 
             lex2dict _            = [ ("Others", "Category", [], [ ("Untyped", (0, [])) ]) ]

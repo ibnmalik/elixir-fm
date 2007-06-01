@@ -102,6 +102,50 @@ instance Forming PatternT where
                             XIV     ->  init [IFCanLaL .. IFCanLY]
                             XV      ->  [IFCanLY ..]
 
+{-
+    shortStem x = (maybe x id . lookup x) [ (   FUL,        FuL         ),
+                                            (   FAL,        FaL         ),
+                                            (   FIL,        FiL         ),
+
+                                            (   HaFAL,      HaFaL       ),
+                                            (   HuFIL,      HuFiL       ),
+
+                                            (   InFAL,      InFaL       ),
+                                            (   UnFIL,      UnFiL       ),
+                                            (   NFAL,       NFaL        ),
+
+                                            (   IFtAL,      IFtaL       ),
+                                            (   UFtIL,      UFtiL       ),
+                                            (   FtAL,       FtaL        ),
+
+                                            (   IstaFAL,    IstaFaL     ),
+                                            (   UstuFIL,    UstuFiL     ),
+                                            (   StaFIL,     StaFiL      ),
+                                            (   StaFAL,     StaFaL      ) ]
+-}
+
+    shortStem x = case x of     FUL         ->      FuL
+                                FAL         ->      FaL
+                                FIL         ->      FiL
+
+                                HaFAL       ->      HaFaL
+                                HuFIL       ->      HuFiL
+
+                                InFAL       ->      InFaL
+                                UnFIL       ->      UnFiL
+                                NFAL        ->      NFaL
+
+                                IFtAL       ->      IFtaL
+                                UFtIL       ->      UFtiL
+                                FtAL        ->      FtaL
+
+                                IstaFAL     ->      IstaFaL
+                                UstuFIL     ->      UstuFiL
+                                StaFIL      ->      StaFiL
+                                StaFAL      ->      StaFaL
+
+                                _           ->      x
+
 
     verbStems I = [
 
@@ -130,9 +174,11 @@ instance Forming PatternT where
         --  Second
 
         (   FAL,        FIL,        FUL,        FAL         ),  -- qAla
-        (   FAL,        FIL,        FAL,        FAL         ),  -- nAma
+        (   FuL,        FiL,        FuL,        FaL         ),  -- qAla
+        (   FAL,        FIL,        FAL,        FAL         ),  -- nAma / nAla
+        (   FiL,        FiL,        FaL,        FaL         ),  -- nAma / nAla
         (   FAL,        FIL,        FIL,        FAL         ),  -- sAra
-        (   FAL,        FIL,        FAL,        FAL         ),  -- nAla
+        (   FiL,        FiL,        FiL,        FaL         ),  -- sAra
 
         -- Third
 
@@ -289,6 +335,8 @@ instance Rules PatternT where
 
 
     prefixVerbC I   FCuL    = "u"
+    prefixVerbC I   y   | y `elem` [FUL, FAL, FIL,
+                                    FuL, FaL, FiL]  = ""
     prefixVerbC I   _       = "i"
 
     prefixVerbC IV  _       = "'a"
@@ -489,6 +537,9 @@ data PatternT =
                             {-- |   UCiL    --}         |   FI                  |   HaFY
                             {-- |   UCaL    --}                                 |   HuFI
 
+                                                        |   HaFaL
+                                                        |   HuFiL
+
         |   HiFCAL              |   HICAL                                       |   HiFCA'
         |   HiFCaL              |   HICaL               |   HiFAL                                       |   HiFaCL
 
@@ -525,6 +576,10 @@ data PatternT =
         |   NFaCiL                                      |   NFAL                |   NFaCI               |   NFaCL
         |   NFaCaL                                                              |   NFaCY
 
+                                                        |   InFaL
+                                                        |   UnFiL
+                                                        |   NFaL
+
         |   InFiCAL                                     |   InFiyAL             |   InFiCA'
 
         |   MunFaCiL                                                            |   MunFaCI             |   MunFaCL
@@ -537,6 +592,10 @@ data PatternT =
 
         |   FtaCiL                                      |   FtAL                |   FtaCI               |   FtaCL
         |   FtaCaL                                                              |   FtaCY
+
+                                                        |   IFtaL
+                                                        |   UFtiL
+                                                        |   FtaL
 
         |   IFtiCAL                                     |   IFtiyAL             |   IFtiCA'
 
@@ -561,6 +620,12 @@ data PatternT =
 
         |   StaFCiL                                     |   StaFIL              |   StaFCI              |   StaFiCL
         |   StaFCaL                                     |   StaFAL              |   StaFCY              |   StaFaCL
+
+                                                        |   IstaFaL
+                                                        |   UstuFiL
+
+                                                        |   StaFiL
+                                                        |   StaFaL
 
         |   IstiFCAL            |   IstICAL             |   IstiFAL             |   IstiFCA'
 

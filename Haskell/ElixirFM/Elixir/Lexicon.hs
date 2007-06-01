@@ -232,9 +232,10 @@ gerund = const
 
 plural :: (Morphing a b, Nestable b) => Entry b -> a -> Entry b
 
-plural x y = x { entity = Noun (morph y : z) g n }
+plural x y = case entity x of
 
-    where Noun z g n = entity x
+                Noun z g n  -> x { entity = Noun (morph y : z) g n }
+                Adj  z   n  -> x { entity = Adj  (morph y : z)   n }
 
 
 infixl 3 `imperf`, `pfirst`, `ithird`, `second`

@@ -224,6 +224,8 @@ class Forming a where
 
     verbStems :: Form -> [(a, a, a, a)]
 
+    shortStem :: a -> a
+
 
 data Form = I | II | III | IV | V | VI | VII | VIII | IX | X |
             XI | XII | XIII | XIV | XV

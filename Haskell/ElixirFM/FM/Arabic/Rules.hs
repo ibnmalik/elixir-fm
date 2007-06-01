@@ -50,7 +50,7 @@ data RootEntry a = RE Root (Entry a)
 
 class Param p => Inflect m p where
 
-    inflect :: (Template a, Rules a, Forming a, Morphing a a) =>
+    inflect :: (Template a, Rules a, Forming a, Morphing a a, Show a) =>
                m a -> p -> [String]
 
     -- inflect :: Template b => a -> b -> Root -> [String]
@@ -101,9 +101,14 @@ instance Inflect RootEntry ParaVerb where
 
               paradigm p m@(Morphs t _ _) = p $ case v of
 
-                    Active  -> m
-                    Passive -> head [ morph y |
+                    Active  -> if isDefault x then m else morph (shortStem t)
+                    Passive -> case [ morph y |
                                       (x, y, _, _) <- verbStems form, x == t ]
+
+                                      of [] -> error (unwords [show r, show t,
+                                                               show form,
+                                                               "VerbP"])
+                                         xs -> head xs
 
               form = case nub [ f | f <- [I ..], (x, _, _, _) <- verbStems f,
                                     x == pattern ] of
@@ -131,9 +136,14 @@ instance Inflect RootEntry ParaVerb where
 
               paradigm p m@(Morphs t _ _) = p (prefixVerbI form t v) $ case v of
 
-                    Active  -> m
-                    Passive -> head [ morph y |
+                    Active  -> if isDefault x then m else morph (shortStem t)
+                    Passive -> case [ morph y |
                                       (_, _, x, y) <- verbStems form, x == t ]
+
+                                      of [] -> error (unwords [show r, show t,
+                                                               show form,
+                                                               "VerbI"])
+                                         xs -> head xs
 
               form = case nub [ f | f <- [I ..], (x, _, _, _) <- verbStems f,
                                     x == pattern ] of
@@ -161,7 +171,9 @@ instance Inflect RootEntry ParaVerb where
 
               Morphs pattern _ _ = morphs e
 
-              paradigm p m@(Morphs t _ _) = p (prefixVerbC form t) m
+              paradigm p m@(Morphs t _ _) = p (prefixVerbC form t)
+                                            (if isDefault x then m
+                                                            else morph (shortStem t))
 
               form = case nub [ f | f <- [I ..], (x, _, _, _) <- verbStems f,
                                     x == pattern ] of
@@ -373,6 +385,7 @@ instance Inflect RootEntry ParaNoun where
 
 
 inEntry Plural e = case entity e of Noun l _ _  -> l
+                                    Adj  l   _  -> l
                                     _           -> error "Incompatible Noun"
 
 inEntry Dual e = [morphs e |< An]

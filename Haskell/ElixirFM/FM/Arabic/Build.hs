@@ -119,7 +119,6 @@ instance Dict ParaNoun where
 instance Dict ParaVerb where
 
     category = const "Verb"
-    dictword f = head $ f (VerbP Active Third Masculine Singular)
 
 {-
 instance Dict ParaAdverb    where category _ = "Adverb"
