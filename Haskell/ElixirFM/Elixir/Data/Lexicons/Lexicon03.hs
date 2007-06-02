@@ -200,8 +200,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- tam~-i -}           [ "conclude", "take place" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     HaFaCL                    `verb`    {- Oatam~ -}           [ "complete", "conclude", "be completed", "be concluded" ],
 
@@ -394,8 +393,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- tAh-u -}            [ "go astray", "get lost" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL ]
+                              `pfirst`     FuL ]
 
  |> "t w m" <| [
 
@@ -415,8 +413,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- tAq-u -}            [ "yearn", "wish", "desire" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCCAL                    `noun`    {- taw~Aq -}           [ "longing", "yearning" ] ]
 
@@ -448,8 +445,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- tAh-i -}            [ "get lost", "perish" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FiCL                      `noun`    {- tiyh -}             [ "desert", "labyrinth" ] ]
 

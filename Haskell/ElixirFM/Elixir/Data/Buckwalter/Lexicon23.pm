@@ -14673,6 +14673,31 @@ $Lexicon = {
     },
     {
       'types' => {
+        'iltifAtaT' => {
+          'NapAt' => 2
+        }
+      },
+      'entry' => 'iltifAt',
+      'form' => 'iltifAtaT',
+      'lines' => [
+        ';; {ilotifAtap_1',
+        '<ltfAt  {ilotifAt       NapAt   turn;glance',
+        'AltfAt  {ilotifAt       NapAt   turn;glance'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IFtiCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'turn',
+        'glance'
+      ],
+      'orig' => 'AilotifAtap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'lAfit' => {
           'N-ap' => 1
         }
@@ -23296,31 +23321,6 @@ $Lexicon = {
         'attention'
       ],
       'orig' => 'AilotifAt',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'iltifAtaT' => {
-          'NapAt' => 2
-        }
-      },
-      'entry' => 'iltif',
-      'form' => 'iltifAtaT',
-      'lines' => [
-        ';; {ilotifAtap_1',
-        '<ltfAt  {ilotifAt       NapAt   turn;glance',
-        'AltfAt  {ilotifAt       NapAt   turn;glance'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At |< aT',
-      'suffix' => ' |< At |< aT',
-      'glosses' => [
-        'turn',
-        'glance'
-      ],
-      'orig' => 'AilotifAtap',
       'prefix' => ''
     }
   ],

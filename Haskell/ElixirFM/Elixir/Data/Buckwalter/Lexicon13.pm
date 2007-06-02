@@ -7032,45 +7032,6 @@ $Lexicon = {
       ],
       'orig' => 'muta$Akil',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '^sukuwlA.t' => {
-          'NapAt' => 1
-        },
-        '^sukulA.t' => {
-          'NapAt' => 1
-        },
-        '^sukuwlAtaT' => {
-          'NapAt' => 1
-        },
-        '^siykuwlAt' => {
-          'NapAt' => 1
-        },
-        '^suwkuwlAt' => {
-          'NapAt' => 1
-        }
-      },
-      'entry' => '^sukuwl',
-      'form' => '^sukuwlAtaT',
-      'lines' => [
-        ';; $ukuwlAtap_1',
-        '$kwlAt  $ukuwlAt        NapAt   chocolate',
-        '$wkwlAt $uwkuwlAt       NapAt   chocolate',
-        '$ykwlAt $iykuwlAt       NapAt   chocolate',
-        '$kwlAT  $ukuwlAT        NapAt   chocolate',
-        '$klAT   $ukulAT NapAt   chocolate'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCUL |< At |< aT',
-      'suffix' => ' |< At |< aT',
-      'glosses' => [
-        'chocolate'
-      ],
-      'orig' => '$ukuwlAtap',
-      'prefix' => ''
     }
   ],
   '^s ` n n' => [
@@ -17132,6 +17093,29 @@ $Lexicon = {
       ],
       'orig' => '$aHat-a',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        '^sa.h.hAtaT' => {
+          'N0' => 1
+        }
+      },
+      'entry' => '^sa.h.hAt',
+      'form' => '^sa.h.hAtaT',
+      'lines' => [
+        ';; $aH~Atap_1',
+        '$HAtp   $aH~Atap        N0      Shahhata'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'Shahhata'
+      ],
+      'orig' => '$aH~Atap',
+      'prefix' => ''
     }
   ],
   '^s y q l' => [
@@ -17963,29 +17947,6 @@ $Lexicon = {
         'beggar'
       ],
       'orig' => '$aH~At',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '^sa.h.hAtaT' => {
-          'N0' => 1
-        }
-      },
-      'entry' => '^sa.h.h',
-      'form' => '^sa.h.hAtaT',
-      'lines' => [
-        ';; $aH~Atap_1',
-        '$HAtp   $aH~Atap        N0      Shahhata'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< At |< aT',
-      'suffix' => ' |< At |< aT',
-      'glosses' => [
-        'Shahhata'
-      ],
-      'orig' => '$aH~Atap',
       'prefix' => ''
     }
   ],
@@ -42422,33 +42383,48 @@ $Lexicon = {
       ],
       'orig' => '$amAt',
       'prefix' => ''
-    },
+    }
+  ],
+  '^sukuwlAt' => [
     {
       'types' => {
-        '^samAtaT' => {
-          'Nap' => 1
+        '^sukuwlA.t' => {
+          'NapAt' => 1
+        },
+        '^sukulA.t' => {
+          'NapAt' => 1
+        },
+        '^sukuwlAtaT' => {
+          'NapAt' => 1
+        },
+        '^siykuwlAt' => {
+          'NapAt' => 1
+        },
+        '^suwkuwlAt' => {
+          'NapAt' => 1
         }
       },
-      'entry' => '^sam',
-      'form' => '^samAtaT',
+      'entry' => '^sukuwlAt',
+      'form' => '^sukuwlAtaT',
       'lines' => [
-        ';; $amAtap_1',
-        '$mAt    $amAt   Nap     gloating;malicious joy'
+        ';; $ukuwlAtap_1',
+        '$kwlAt  $ukuwlAt        NapAt   chocolate',
+        '$wkwlAt $uwkuwlAt       NapAt   chocolate',
+        '$ykwlAt $iykuwlAt       NapAt   chocolate',
+        '$kwlAT  $ukuwlAT        NapAt   chocolate',
+        '$klAT   $ukulAT NapAt   chocolate'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaL |< At |< aT',
-      'suffix' => ' |< At |< aT',
+      'morphs' => 'Identity |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
-        'gloating',
-        'malicious joy'
+        'chocolate'
       ],
-      'orig' => '$amAtap',
+      'orig' => '$ukuwlAtap',
       'prefix' => ''
-    }
-  ],
-  '^sukuwlAt' => [
+    },
     {
       'types' => {
         '^suwkuwlAtiyy' => {
@@ -43186,6 +43162,30 @@ $Lexicon = {
         'be rejoiced maliciously'
       ],
       'orig' => 'Oa$omat',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '^samAtaT' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => '^samAt',
+      'form' => '^samAtaT',
+      'lines' => [
+        ';; $amAtap_1',
+        '$mAt    $amAt   Nap     gloating;malicious joy'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'gloating',
+        'malicious joy'
+      ],
+      'orig' => '$amAtap',
       'prefix' => ''
     },
     {

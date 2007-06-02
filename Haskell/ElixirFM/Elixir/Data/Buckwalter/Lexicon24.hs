@@ -140,14 +140,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- AimoruW -}          [ "Imru'", "Imra'", "Imri'" ] ]
 
- |> "istim" <| [
-
-    -- ;; {isotimAtap_1
-    -- <stmAt  {isotimAt       Nap     defiance of death;desperate effort
-    -- AstmAt  {isotimAt       Nap     defiance of death;desperate effort
-
-    Identity |< At |< aT      `noun`    {- AisotimAtap -}      [ "defiance of death", "desperate effort" ] ]
-
  |> "limA_dA" <| [
 
     -- ;; limA*A_1
@@ -244,14 +236,6 @@ lexicon = listing "Lexicon's properties"
     -- mA}l    mA}il   N-ap    italic     [[mA}il/ADJ]]
 
     FACiL                     `adj`     {- mA}il -}            [ "italic" ] ]
-
- |> "m ' m" <| [
-
-    -- ;; <imAtap_1
-    -- <mAt    <imAt   Nap     mortification;killing
-    -- AmAt    <imAt   Nap     mortification;killing
-
-    CiL |< At |< aT           `noun`    {- IimAtap -}          [ "mortification", "killing" ] ]
 
  |> "m ' m '" <| [
 
@@ -9312,6 +9296,18 @@ lexicon = listing "Lexicon's properties"
     -- myt     miyt    Nap     death
 
     FIL |< aT                 `noun`    {- miytap -}           [ "death" ],
+
+    -- ;; <imAtap_1
+    -- <mAt    <imAt   Nap     mortification;killing
+    -- AmAt    <imAt   Nap     mortification;killing
+
+    HiFAL |< aT               `noun`    {- IimAtap -}          [ "mortification", "killing" ],
+
+    -- ;; {isotimAtap_1
+    -- <stmAt  {isotimAt       Nap     defiance of death;desperate effort
+    -- AstmAt  {isotimAt       Nap     defiance of death;desperate effort
+
+    IstiFAL |< aT             `noun`    {- AisotimAtap -}      [ "defiance of death", "desperate effort" ],
 
     -- ;; mA}it_1
     -- mA}t    mA}it   Nall    moribund;mortal     [[mA}it/ADJ]]

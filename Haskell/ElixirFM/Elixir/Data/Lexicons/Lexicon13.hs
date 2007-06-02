@@ -125,9 +125,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCAL
                            {- `others`  [ "^si.hA.h N" ] -},
 
-    FaCL |< At                `noun`    {- \$aH~At -}          [ "beggar" ],
-
-    FaCL |< At |< aT          `noun`    {- \$aH~Atap -}        [ "Shahhata" ] ]
+    FaCL |< At                `noun`    {- \$aH~At -}          [ "beggar" ] ]
 
  |> "^s .h _d" <| [
 
@@ -155,6 +153,10 @@ lexicon = listing "Lexicon's properties"
 
     FACiL |< aT               `noun`    {- \$AHinap -}         [ "truck", "lorry", "freight car", "trucks", "lorries", "freight cars" ]
                               `plural`     FACiL |< At ]
+
+ |> "^s .h t" <| [
+
+    FaCCAL |< aT              `noun`    {- \$aH~Atap -}        [ "Shahhata" ] ]
 
  |> "^s .t '" <| [
 
@@ -259,9 +261,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- \$a*~-iu -}         [ "deviate", "be separate" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- \$a*~ -}            [ "deviation", "exception", "abnormality" ]
                               `plural`     FuCUL
@@ -308,8 +308,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- \$aE~-i -}          [ "radiate", "disperse" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FuCAL                     `noun`    {- \$uEAE -}           [ "rays" ],
 
@@ -446,13 +445,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- \$ab~-i -}          [ "grow up", "burn" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- \$ab~-u -}          [ "kindle" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- \$ab~ -}            [ "youth", "young woman", "youths" ]
                               `plural`     FaCAL
@@ -550,9 +547,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- \$ad~-iu -}         [ "make tight", "make strong" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- \$ad~ad -}          [ "strengthen", "intensify", "emphasize", "be strengthened", "be intensified", "be emphasized" ],
 
@@ -619,7 +614,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s f '" <| [
 
-    FiCAL                     `noun`    {- \$ifA' -}           [ "cure", "remedy", "medication", "remedies" ],
+    FiCAL                     `noun`    {- \$ifA' -}           [ "cure", "remedy", "medication", "remedies" ]
+                              `plural`     HaFCI |< aT,
 
     IstiFCAL                  `noun`    {- Aisoti$ofA' -}      [ "hospitalization" ] ]
 
@@ -669,7 +665,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `verb`    {- Oa$ofaY -}          [ "be very close", "be on the verge" ],
 
-    FiCA'                     `noun`    {- \$ifA' -}           [ "cure", "remedy", "medication", "remedies" ],
+    FiCA'                     `noun`    {- \$ifA' -}           [ "cure", "remedy", "medication", "remedies" ]
+                              `plural`     HaFCI |< aT,
 
     IstiFCA'                  `noun`    {- Aisoti$ofA' -}      [ "hospitalization" ],
 
@@ -804,8 +801,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- \$ak~-u -}          [ "doubt", "distrust", "impale" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- \$ak~ak -}          [ "make doubt", "give suspicions" ],
 
@@ -908,12 +904,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- \$al~-u -}          [ "paralyze", "immobilize", "neutralize" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- \$al~-a -}          [ "be paralyzed", "be immobile" ]
-                              `pfirst`     FaCaL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCaL,
 
     HaFaCL                    `verb`    {- Oa$al~ -}           [ "paralyze", "immobilize", "neutralize", "be paralyzed", "be immobilized", "be neutralized" ],
 
@@ -1034,8 +1028,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- \$aq~-u -}          [ "split", "cut through" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     InFaCL                    `verb`    {- Aino$aq~ -}         [ "split off" ],
 
@@ -1392,9 +1385,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s t '" <| [
 
-    FiCAL                     `noun`    {- \$itA' -}           [ "winter", "winters" ],
+    FiCAL                     `noun`    {- \$itA' -}           [ "winter", "winters" ]
+                              `plural`     HaFCI |< aT,
 
-    FiCAL                     `noun`    {- \$itA' -}           [ "rain", "rains" ] ]
+    FiCAL                     `noun`    {- \$itA' -}           [ "rain", "rains" ]
+                              `plural`     HaFCI |< aT ]
 
  |> "^s t d" <| [
 
@@ -1429,9 +1424,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCCY                     `verb`    {- \$at~aY -}          [ "hibernate", "spend the winter", "rain" ],
 
-    FiCA'                     `noun`    {- \$itA' -}           [ "winter", "winters" ],
+    FiCA'                     `noun`    {- \$itA' -}           [ "winter", "winters" ]
+                              `plural`     HaFCI |< aT,
 
-    FiCA'                     `noun`    {- \$itA' -}           [ "rain", "rains" ],
+    FiCA'                     `noun`    {- \$itA' -}           [ "rain", "rains" ]
+                              `plural`     HaFCI |< aT,
 
     FaCY |< Iy                `adj`     {- \$atawiy~ -}        [ "winter", "wintery" ] ]
 
@@ -1458,8 +1455,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \$Ab-u -}           [ "corrupt", "adulterate" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FA'iL |< aT               `noun`    {- \$A}ibap -}         [ "defect", "impurity", "defects", "impurities" ]
                               `plural`     FawA'iL
@@ -1473,8 +1469,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \$Ah-u -}           [ "be deformed", "be distorted", "become ugly" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCiL                     `verb`    {- \$awih-a -}         [ "be deformed", "be distorted", "become ugly" ]
                               `imperf`     FaL,
@@ -1491,8 +1486,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \$Ak-u -}           [ "sting", "prick" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCL                      `noun`    {- \$awok -}           [ "thorns", "pricks", "forks" ]
                               `plural`     HaFCAL
@@ -1566,8 +1560,7 @@ lexicon = listing "Lexicon's properties"
  |> "^s y '" <| [
 
     FAL                       `verb`    {- \$A'-a -}           [ "want", "desire", "wish" ]
-                              `pfirst`     FiL
-                              `ithird`     FaL,
+                              `pfirst`     FiL,
 
     FaCL                      `noun`    {- \$ayo' -}           [ "something", "things" ]
                               `plural`     HaFCAL
@@ -1614,8 +1607,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \$AE-i -}           [ "circulate", "be propagated" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCCaL                    `verb`    {- \$ay~aE -}          [ "escort" ],
 
@@ -1649,15 +1641,13 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \$Ab-i -}           [ "become gray-haired", "turn gray" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL ]
+                              `pfirst`     FiL ]
 
  |> "^s y d" <| [
 
     FAL                       `verb`    {- \$Ad-i -}           [ "build" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCCaL                    `verb`    {- \$ay~ad -}          [ "build" ],
 
@@ -1671,8 +1661,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \$Am-i -}           [ "be on the lookout for", "expect" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL ]
+                              `pfirst`     FiL ]
 
  |> "^s y m n" <| [
 

@@ -442,8 +442,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- laf~-u -}           [ "wrap", "turn" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     IFtaCL                    `verb`    {- Ailotaf~ -}         [ "turn", "be wrapped" ],
 
@@ -578,8 +577,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- lam~-u -}           [ "collect", "put in order" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     HaFaCL                    `verb`    {- Oalam~ -}           [ "be acquainted with" ],
 
@@ -744,7 +742,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- liwA' -}            [ "major general", "brigade" ],
 
-    FiCAL                     `noun`    {- liwA' -}            [ "district", "province", "districts", "provinces" ],
+    FiCAL                     `noun`    {- liwA' -}            [ "district", "province", "districts", "provinces" ]
+                              `plural`     HaFCI |< aT,
 
     FiCAL                     `noun`    {- liwA' -}            [ "Liwa" ] ]
 
@@ -768,8 +767,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- lA*-u -}            [ "seek refuge", "have recourse" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     MaFAL                     `noun`    {- malA* -}            [ "shelter", "sanctuary" ] ]
 
@@ -785,8 +783,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- lAm-u -}            [ "blame", "censure" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCL                      `noun`    {- lawom -}            [ "blame", "censure" ],
 
@@ -843,7 +840,8 @@ lexicon = listing "Lexicon's properties"
     FiCA'                     `noun`    {- liwA' -}            [ "major general", "brigade" ],
 
     FiCA'                     `noun`    {- liwA' -}            [ "district", "province", "districts", "provinces" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT,
 
     FiCA'                     `noun`    {- liwA' -}            [ "Liwa" ],
 
@@ -907,8 +905,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- lAq-i -}            [ "be proper for", "be suitable for" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FiCAL |< aT               `noun`    {- liyAqap -}          [ "capability", "competence" ],
 

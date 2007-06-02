@@ -5509,8 +5509,7 @@ $Lexicon = {
           'N0_Nh' => 1
         },
         '\'abniy' => {
-          'Nap' => 2,
-          'NAt' => 2
+          'Nap' => 2
         }
       },
       'entry' => 'binA\'',
@@ -5523,9 +5522,7 @@ $Lexicon = {
         'bnA\'    binA\'   NAn_Nayn        buildings;structures',
         'bnA}    binA}   Nayn    buildings;structures',
         '>bny    >aboniy Nap     buildings;structures',
-        'Abny    >aboniy Nap     buildings;structures',
-        '>bny    >aboniy NAt     buildings;structures',
-        'Abny    >aboniy NAt     buildings;structures'
+        'Abny    >aboniy Nap     buildings;structures'
       ],
       'patterns' => {
         '\'abniy' => [

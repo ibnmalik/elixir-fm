@@ -178,8 +178,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- naS~-u -}           [ "stipulate", "specify" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- naS~ -}             [ "text", "texts" ]
                               `plural`     FuCUL
@@ -1050,7 +1049,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- nidA' -}            [ "call", "appeal", "invitation", "summons", "calls", "appeals", "invitations" ],
 
-    FACI                      `noun`    {- nAdiy -}            [ "club", "association", "clubs", "associations" ],
+    FACI                      `noun`    {- nAdiy -}            [ "club", "association", "clubs", "associations" ]
+                              `plural`     HaFCI |< aT,
 
     MuFtaCY                   `noun`    {- munotadaY -}        [ "assembly room", "gathering place", "assembly rooms", "gathering places" ] ]
 
@@ -1059,6 +1059,7 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- nAdiy -}            [ "club", "association", "clubs", "associations" ]
                               `plural`     FawACiL
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT
                            {- `others`  [ "nawAdiy N0_Nh" ] -} ]
 
  |> "n f .d" <| [
@@ -1466,9 +1467,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- nam~-ui -}          [ "slander", "gossip about" ]
                               `imperf`     FuCL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- nam~ -}             [ "slander", "gossip" ],
 
@@ -2019,8 +2018,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- nAl-u -}            [ "grant", "confer" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FACaL                     `verb`    {- nAwal -}            [ "hand over", "deliver" ],
 
@@ -2043,8 +2041,7 @@ lexicon = listing "Lexicon's properties"
  |> "n w m" <| [
 
     FAL                       `verb`    {- nAm-a -}            [ "sleep", "lie down" ]
-                              `pfirst`     FiL
-                              `ithird`     FaL,
+                              `pfirst`     FiL,
 
     FaCL                      `noun`    {- nawom -}            [ "sleep" ],
 
@@ -2119,8 +2116,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- nAs-u -}            [ "dangle" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FAL                       `noun`    {- nAs -}              [ "people" ] ]
 
@@ -2135,6 +2131,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCY |< aT                `noun`    {- nawAp -}            [ "nucleus", "core", "nuclei", "cores" ]
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT
                               `plural`     FaCaL |< At,
 
     FaCY |< aT                `noun`    {- nawAp -}            [ "fruit pit", "fruit pits" ]
@@ -2168,8 +2165,7 @@ lexicon = listing "Lexicon's properties"
  |> "n y l" <| [
 
     FAL                       `verb`    {- nAl-a -}            [ "attain", "achieve", "acquire", "be attained", "be achieved", "be acquired" ]
-                              `pfirst`     FiL
-                              `ithird`     FaL,
+                              `pfirst`     FiL,
 
     FaCL                      `noun`    {- nayol -}            [ "attainment", "achievement", "acquiring" ],
 

@@ -51766,7 +51766,7 @@ $Lexicon = {
     {
       'types' => {
         'sAd' => {
-          'NapAt' => 1
+          'Nap' => 1
         },
         '\'asyAd' => {
           'N' => 2
@@ -51780,7 +51780,7 @@ $Lexicon = {
       'lines' => [
         ';; say~id_1',
         'syd     say~id  Ndu     Sir;Mr.;Mister',
-        'sAd     sAd     NapAt   Sirs;Messrs.;gentlement',
+        'sAd     sAd     Nap     Sirs;Messrs.;gentlement',
         '>syAd   >asoyAd N       Sirs;Messrs.;gentlement',
         'AsyAd   >asoyAd N       Sirs;Messrs.;gentlement'
       ],

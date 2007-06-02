@@ -95,10 +95,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< At            `noun`    {- miyqAt -}           [ "appointed time", "meeting point", "timetables", "rendezvous points and times" ] ]
 
- |> "miysam" <| [
-
-    Identity                  `noun`    {- miysam -}           [ "brand", "stigma", "brands", "stigmas" ] ]
-
  |> "mutta.hid" <| [
 
     Identity                  `adj`     {- mut~aHid -}         [ "united" ] ]
@@ -300,6 +296,8 @@ lexicon = listing "Lexicon's properties"
     HaFCY                     `verb`    {- OawoHaY -}          [ "inspire", "suggest", "be inspired", "be suggested" ],
 
     FaCL                      `noun`    {- waHoy -}            [ "inspiration" ],
+
+    HICA'                     `noun`    {- IiyHA' -}           [ "suggestion", "inspiration", "suggestions" ],
 
     MuFCiL                    `adj`     {- muwHiy -}           [ "inspiring" ],
 
@@ -674,6 +672,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- wiEA' -}            [ "container", "receptacle", "vessel", "containers", "receptacles", "vessels" ]
                               `plural`     HaFACI
+                              `plural`     HaFCI |< aT
                            {- `others`  [ "'awA`iy N0_Nh" ] -} ]
 
  |> "w ` _t" <| [
@@ -743,6 +742,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFACiL
                               `plural`     HaFACI
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT
                            {- `others`  [ "'awA`iy N0_Nh" ] -},
 
     TaFCiL |< aT              `noun`    {- tawoEiyap -}        [ "making aware", "enlightening" ],
@@ -805,8 +805,7 @@ lexicon = listing "Lexicon's properties"
  |> "w d d" <| [
 
     FaCL                      `verb`    {- wad~-a -}           [ "want", "would like" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCiL,
 
     FuCL                      `noun`    {- wud~ -}             [ "affection", "friendship" ]
                               `plural`     FiCL
@@ -826,6 +825,7 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- wAdiy -}            [ "wadi", "valley", "wadis", "valleys" ]
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT
                               `plural`     FiCLAn
                            {- `others`  [ "widyAn N" ] -} ]
 
@@ -1186,9 +1186,13 @@ lexicon = listing "Lexicon's properties"
 
     TaFCiL |< aT              `noun`    {- tawoliyap -}        [ "appointment as successor" ],
 
+    HICA'                     `noun`    {- IiylA' -}           [ "marriage annulment", "marriage annulments" ],
+
     TaFaCCI                   `noun`    {- tawal~iy -}         [ "taking charge of", "assuming responsibility" ],
 
     TaFACI                    `noun`    {- tawAliy -}          [ "continuous succession", "consecutive" ],
+
+    IstICA'                   `noun`    {- AisotiylA' -}       [ "appropriation", "seizure", "appropriations", "seizures" ],
 
     FACiL                     `noun`    {- wAliy -}            [ "ruler", "governor", "rulers", "governors" ],
 
@@ -1203,6 +1207,8 @@ lexicon = listing "Lexicon's properties"
     MaFCY |< Iy               `adj`     {- mawolawiy~ -}       [ "Mawlawi dervish" ] ]
 
  |> "w m '" <| [
+
+    HICA' |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ],
 
     HICAL |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ] ]
 
@@ -1588,7 +1594,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "mawAsim Ndip" ] -},
 
-    MaFCiL |< Iy              `adj`     {- mawosimiy~ -}       [ "seasonal" ] ]
+    MaFCiL |< Iy              `adj`     {- mawosimiy~ -}       [ "seasonal" ],
+
+    MICaL                     `noun`    {- miysam -}           [ "brand", "stigma", "brands", "stigmas" ]
+                              `plural`     MaFACiL
+                           {- `others`  [ "mawAsim Ndip" ] -} ]
 
  |> "w s y" <| [
 

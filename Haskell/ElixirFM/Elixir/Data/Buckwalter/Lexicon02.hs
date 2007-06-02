@@ -7538,11 +7538,9 @@ lexicon = listing "Lexicon's properties"
     -- bnA}    binA}   Nayn    buildings;structures
     -- >bny    >aboniy Nap     buildings;structures
     -- Abny    >aboniy Nap     buildings;structures
-    -- >bny    >aboniy NAt     buildings;structures
-    -- Abny    >aboniy NAt     buildings;structures
 
     FiCAL                     `noun`    {- binA' -}            [ "building", "structure", "buildings", "structures" ]
-                              `plural`     HaFCI |< At |< aT,
+                              `plural`     HaFCI |< aT,
 
     -- ;; binA'F_1
     -- bnA'    binA'F  FW-Wa   based on;according to     [[binA'F/ADV]]
@@ -8079,12 +8077,10 @@ lexicon = listing "Lexicon's properties"
     -- bnA}    binA}   Nayn    buildings;structures
     -- >bny    >aboniy Nap     buildings;structures
     -- Abny    >aboniy Nap     buildings;structures
-    -- >bny    >aboniy NAt     buildings;structures
-    -- Abny    >aboniy NAt     buildings;structures
 
     FiCA'                     `noun`    {- binA' -}            [ "building", "structure", "buildings", "structures" ]
-                              `plural`     HaFCiL |< At |< aT
-                              `plural`     HaFCI |< At |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT,
 
     -- ;; binA'F_1
     -- bnA'    binA'F  FW-Wa   based on;according to     [[binA'F/ADV]]

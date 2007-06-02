@@ -106,8 +106,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Dax~-u -}           [ "inject", "pump", "spurt" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- Dax~ -}             [ "pumping", "injecting" ],
 
@@ -260,8 +259,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Dal~-i -}           [ "go astray", "be in vain" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- Dal~al -}           [ "mislead", "deceive" ],
 
@@ -279,8 +277,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Dam~-u -}           [ "include", "comprise", "incorporate" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     InFaCL                    `verb`    {- AinoDam~ -}         [ "join", "be affiliated", "be added" ],
 
@@ -423,8 +420,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Dar~-u -}           [ "harm", "injure" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     HaFaCL                    `verb`    {- OaDar~ -}           [ "damage", "injure", "be damaged", "be injured" ],
 
@@ -487,25 +483,21 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- DAE-u -}            [ "emanate", "be fragrant" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL ]
+                              `pfirst`     FuL ]
 
  |> ".d w r" <| [
 
     FAL                       `verb`    {- DAr-u -}            [ "harm", "injure" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FAL                       `verb`    {- DAr-u -}            [ "starve" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FAL                       `verb`    {- DAr-i -}            [ "harm", "injure" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL ]
+                              `pfirst`     FiL ]
 
  |> ".d w y" <| [
 
@@ -527,8 +519,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- DAE-i -}            [ "disappear", "vanish" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCCaL                    `verb`    {- Day~aE -}           [ "lose", "miss", "let go by" ],
 
@@ -570,8 +561,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- DAq-i -}            [ "be narrow", "be confined", "be small" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCCaL                    `verb`    {- Day~aq -}           [ "make narrow", "tighten" ],
 

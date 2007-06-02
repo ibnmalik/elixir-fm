@@ -1063,11 +1063,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< At                `noun`    {- naH~At -}           [ "Nahhat" ],
 
-    -- ;; nuHAtap_1
-    -- nHAt    nuHAt   Nap     chips;shavings;slivers
-
-    FuL |< At |< aT           `noun`    {- nuHAtap -}          [ "chips", "shavings", "slivers" ],
-
     -- ;; naH~aY_1
     -- nHY     naH~aY  PV_0    put aside;eliminate
     -- nHA     naH~A   PV_h    put aside;eliminate
@@ -1549,6 +1544,11 @@ lexicon = listing "Lexicon's properties"
     -- nHt     naHot   N       sculpturing;shaping
 
     FaCL                      `noun`    {- naHot -}            [ "sculpturing", "shaping" ],
+
+    -- ;; nuHAtap_1
+    -- nHAt    nuHAt   Nap     chips;shavings;slivers
+
+    FuCAL |< aT               `noun`    {- nuHAtap -}          [ "chips", "shavings", "slivers" ],
 
     -- ;; minoHat_1
     -- mnHt    minoHat Ndu     chisel

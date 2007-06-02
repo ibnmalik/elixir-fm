@@ -214,8 +214,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- jad~-i -}           [ "be new", "be serious" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- jad~ad -}           [ "renew", "repeat" ],
 
@@ -342,8 +341,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- jaf~-i -}           [ "dry", "become dry", "dehydrate" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCAL                     `noun`    {- jafAf -}            [ "dryness", "desiccation" ],
 
@@ -736,9 +734,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- jam~-iu -}          [ "concentrate", "rest" ]
                               `imperf`     FuCL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- jam~ -}             [ "ample", "throng" ] ]
 
@@ -1022,8 +1018,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- jar~-u -}           [ "pull", "drag" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- jar~ -}             [ "pulling" ],
 
@@ -1155,8 +1150,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- jAb-u -}            [ "explore", "traverse" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     HaFAL                     `verb`    {- OajAb -}            [ "answer", "reply", "comply", "be answered", "be replied", "be complied" ],
 
@@ -1225,8 +1219,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- jAl-u -}            [ "wander", "be engrossed" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     TaFaCCaL                  `verb`    {- tajaw~al -}         [ "roam", "patrol", "travel" ],
 
@@ -1264,8 +1257,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- jAr-u -}            [ "tyrannize" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FAL                       `noun`    {- jAr -}              [ "neighbor", "neighbors" ],
 
@@ -1293,8 +1285,7 @@ lexicon = listing "Lexicon's properties"
  |> "^g w z" <| [
 
     FAL                       `verb`    {- jAz-u -}            [ "be allowed", "be possible" ]
-                              `imperf`     FUL
-                              `ithird`     FuL,
+                              `imperf`     FUL,
 
     FACaL                     `verb`    {- jAwaz -}            [ "pass", "exceed" ],
 
@@ -1340,8 +1331,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- jA'-a -}            [ "arrive", "come", "occur" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     MaFIL                     `noun`    {- majiy' -}           [ "arrival", "advent" ] ]
 
@@ -1353,8 +1343,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- jA$-i -}            [ "be agitated", "rage", "simmer" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCL                      `noun`    {- jayo$ -}            [ "army", "troops" ]
                               `plural`     FuCUL

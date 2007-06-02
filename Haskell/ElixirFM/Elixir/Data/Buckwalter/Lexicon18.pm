@@ -4899,8 +4899,7 @@ $Lexicon = {
     {
       'types' => {
         '\'a`.tiy' => {
-          'Nap' => 2,
-          'NAt' => 2
+          'Nap' => 2
         },
         '`a.tA\'' => {
           'Nh' => 1,
@@ -4916,9 +4915,7 @@ $Lexicon = {
         'ETA&    EaTA&   Nh      gift;offer',
         'ETA}    EaTA}   Nhy     gift;offer',
         '>ETy    >aEoTiy Nap     gifts;offers',
-        'AETy    >aEoTiy Nap     gifts;offers',
-        '>ETy    >aEoTiy NAt     gifts;offers',
-        'AETy    >aEoTiy NAt     gifts;offers'
+        'AETy    >aEoTiy Nap     gifts;offers'
       ],
       'patterns' => {
         '\'a`.tiy' => [

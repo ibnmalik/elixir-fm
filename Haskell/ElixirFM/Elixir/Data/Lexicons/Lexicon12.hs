@@ -445,8 +445,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- sab~-u -}           [ "curse", "swear" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- sab~ab -}           [ "cause", "produce", "provoke" ],
 
@@ -533,18 +532,15 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- sad~-u -}           [ "block", "obstruct" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- sad~-u -}           [ "defray", "fulfill" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- sad~-i -}           [ "be right" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- sad~ad -}           [ "obstruct", "aim", "direct" ],
 
@@ -1124,8 +1120,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- sam~-u -}           [ "poison" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- sam~ -}             [ "poison", "toxins" ]
                               `plural`     FiCAL
@@ -1465,13 +1460,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- sar~-u -}           [ "delight", "make happy" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- sar~-u -}           [ "be happy" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FACL                      `verb`    {- sAr~ -}             [ "confide a secret" ],
 
@@ -1568,8 +1561,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- sA'-u -}            [ "become bad", "become evil" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     HaFAL                     `verb`    {- OasA' -}            [ "harm", "offend", "be harmed", "be offended" ],
 
@@ -1637,8 +1629,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- sAd-u -}            [ "prevail", "be predominant", "rule/govern" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FA'iL                     `adj`     {- sA}id -}            [ "prevailing", "dominant", "ruling" ],
 
@@ -1684,8 +1675,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- sAm-u -}            [ "impose", "demand" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FACaL                     `verb`    {- sAwam -}            [ "bargain", "haggle" ],
 
@@ -1695,8 +1685,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- sAq-u -}            [ "drive", "lead", "direct" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCCaL                    `verb`    {- saw~aq -}           [ "market" ],
 
@@ -1825,7 +1814,7 @@ lexicon = listing "Lexicon's properties"
  |> "s y d" <| [
 
     FaCCiL                    `noun`    {- say~id -}           [ "Sir", "Mr.", "Mister", "Sirs", "Messrs.", "gentlement" ]
-                              `plural`     FAL |< At
+                              `plural`     FAL |< aT
                               `plural`     HaFCAL
                            {- `others`  [ "'asyAd N" ] -},
 
@@ -1863,8 +1852,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- sAl-i -}            [ "flow", "leak", "melt" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCL                      `noun`    {- sayol -}            [ "streaming", "flowing" ]
                               `plural`     FuCUL
@@ -1886,8 +1874,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- sAr-i -}            [ "move", "march" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCCaL                    `verb`    {- say~ar -}           [ "set in motion", "dispatch" ],
 

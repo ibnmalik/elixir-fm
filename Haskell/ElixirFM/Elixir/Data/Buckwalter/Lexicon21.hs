@@ -142,10 +142,9 @@ lexicon = listing "Lexicon's properties"
     -- qwAd    quw~Ad  N       leaders;commanders
     -- qwd     quw~ad  N       leaders;commanders
     -- qAd     qAd     Nap     leaders;commanders
-    -- qAd     qAd     NAt     leaders;commanders
 
     FACiL                     `noun`    {- qA}id -}            [ "leader", "commander", "leaders", "commanders" ]
-                              `plural`     FAL |< At |< aT,
+                              `plural`     FAL |< aT,
 
     -- ;; qA}id_2
     -- qA}d    qA}id   Nall    driver;chauffeur
@@ -12729,10 +12728,9 @@ lexicon = listing "Lexicon's properties"
     -- qwAd    quw~Ad  N       leaders;commanders
     -- qwd     quw~ad  N       leaders;commanders
     -- qAd     qAd     Nap     leaders;commanders
-    -- qAd     qAd     NAt     leaders;commanders
 
     FA'iL                     `noun`    {- qA}id -}            [ "leader", "commander", "leaders", "commanders" ]
-                              `plural`     FAL |< At |< aT
+                              `plural`     FAL |< aT
                               `plural`     FuCCAL
                               `plural`     FUCAL
                               `plural`     FuCCaL

@@ -74,8 +74,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- SaH~-i -}           [ "be correct", "be true" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- SaH~aH -}           [ "correct", "confirm" ],
 
@@ -277,12 +276,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Sab~-u -}           [ "pour", "flow" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- Sab~-a -}           [ "love passionately" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCiL,
 
     TaFaCCaL                  `verb`    {- taSab~ab -}         [ "flow", "perspire", "drip" ],
 
@@ -323,6 +320,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- Sabiy~ -}           [ "young boy", "youth", "young boys", "youths" ]
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT
                               `plural`     FiCL |< aT
                               `plural`     FiCLAn
                            {- `others`  [ ".sibyAn N" ] -} ]
@@ -491,8 +489,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Saf~-u -}           [ "arrange", "classify" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- Saf~ -}             [ "line", "row", "class", "lines", "rows", "classes" ]
                               `plural`     FuCUL
@@ -611,8 +608,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Sak~-u -}           [ "strike", "ring" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- Sak~ -}             [ "deed", "document", "deeds", "documents" ]
                               `plural`     FiCAL
@@ -961,8 +957,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- SAg-u -}            [ "forge", "create", "formulate" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCL                      `noun`    {- Sawog -}            [ "molding", "shaping" ],
 
@@ -1018,8 +1013,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- SAm-u -}            [ "abstain", "fast" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCL                      `noun`    {- Sawom -}            [ "fasting", "abstinence" ],
 
@@ -1044,8 +1038,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- SAn-u -}            [ "maintain", "preserve", "protect" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCL                      `noun`    {- Sawon -}            [ "maintenance", "preservation", "protection" ] ]
 
@@ -1159,8 +1152,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- SAr-i -}            [ "become", "begin to" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     MaFIL                     `noun`    {- maSiyr -}           [ "path", "destiny", "fate", "paths", "destinies", "fates" ]
                               `plural`     MaFACiL

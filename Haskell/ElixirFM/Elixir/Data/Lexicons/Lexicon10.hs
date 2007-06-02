@@ -515,8 +515,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- ra$~-u -}           [ "spray", "splatter" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- ra$~ -}             [ "sprinkling", "spraying" ],
 
@@ -778,8 +777,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- rab~-u -}           [ "be master of", "control" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- rab~ -}             [ "lord", "master", "lords", "masters" ]
                               `plural`     HaFCAL
@@ -842,8 +840,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- rad~-u -}           [ "answer", "reply", "return" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- rad~ad -}           [ "repeat", "reiterate" ],
 
@@ -978,13 +975,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- raf~-i -}           [ "glitter", "glisten" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- raf~-u -}           [ "flutter", "quiver" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- raf~ -}             [ "glittering", "fluttering" ],
 
@@ -1607,8 +1602,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAH-u -}            [ "begin", "go" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FACaL                     `verb`    {- rAwaH -}            [ "alternate", "vary" ],
 
@@ -1684,8 +1678,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAE-u -}            [ "surprise", "startle", "thrill" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCCaL                    `verb`    {- raw~aE -}           [ "frighten" ],
 
@@ -1754,8 +1747,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAm-u -}            [ "desire", "wish", "covet", "fine", "okay" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FuCL                      `noun`    {- ruwm -}             [ "Romans", "Byzantines" ]
                               `plural`     HaFCAL
@@ -1773,8 +1765,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAq-u -}            [ "please", "be pure", "surpass" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FAL                       `noun`    {- rAq -}              [ "layer", "stratum" ],
 
@@ -1871,8 +1862,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAE-i -}            [ "grow", "increase", "thrive" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCL                      `noun`    {- rayoE -}            [ "income", "proceeds", "profit", "profits" ]
                               `plural`     FuCUL
@@ -1916,8 +1906,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAm-i -}            [ "depart", "move" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL ]
+                              `pfirst`     FiL ]
 
  |> "r y n" <| [
 
@@ -1933,8 +1922,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAq-i -}            [ "shine", "glisten" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL ]
+                              `pfirst`     FiL ]
 
  |> "r y s" <| [
 

@@ -38,8 +38,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- gaD~-u -}           [ "lower", "diminish" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- gaD~ -}             [ "turning aside" ],
 
@@ -77,8 +76,7 @@ lexicon = listing "Lexicon's properties"
  |> ".g .s .s" <| [
 
     FaCL                      `verb`    {- gaS~-a -}           [ "be congested", "be crowded" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL ]
+                              `pfirst`     FaCiL ]
 
  |> ".g .s b" <| [
 
@@ -92,14 +90,14 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g .t '" <| [
 
-    FiCAL                     `noun`    {- giTA' -}            [ "cover", "blanket", "covers", "blankets" ] ]
+    FiCAL                     `noun`    {- giTA' -}            [ "cover", "blanket", "covers", "blankets" ]
+                              `plural`     HaFCI |< aT ]
 
  |> ".g .t .t" <| [
 
     FaCL                      `verb`    {- gaT~-u -}           [ "immerse", "dip", "plunge" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCLY                     `verb`    {- gaT~aY -}           [ "cover", "conceal", "be covered", "be concealed" ] ]
 
@@ -120,7 +118,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCCY                     `verb`    {- gaT~aY -}           [ "cover", "conceal", "be covered", "be concealed" ],
 
-    FiCA'                     `noun`    {- giTA' -}            [ "cover", "blanket", "covers", "blankets" ],
+    FiCA'                     `noun`    {- giTA' -}            [ "cover", "blanket", "covers", "blankets" ]
+                              `plural`     HaFCI |< aT,
 
     MuFaCCY                   `adj`     {- mugaT~aY -}         [ "covered" ] ]
 
@@ -132,8 +131,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- ga$~-u -}           [ "deceive", "adulterate", "tamper" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- ga$~ -}             [ "cheating", "deceit" ],
 
@@ -149,7 +147,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g _d '" <| [
 
-    FiCAL                     `noun`    {- gi*A' -}            [ "food", "provisions" ],
+    FiCAL                     `noun`    {- gi*A' -}            [ "food", "provisions" ]
+                              `plural`     HaFCI |< aT,
 
     FiCAL |< Iy               `adj`     {- gi*A}iy~ -}         [ "food", "alimentary", "nutritional" ] ]
 
@@ -161,7 +160,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCCY                     `verb`    {- ga*~aY -}           [ "feed", "nourish", "be fed", "be nourished" ],
 
-    FiCA'                     `noun`    {- gi*A' -}            [ "food", "provisions" ],
+    FiCA'                     `noun`    {- gi*A' -}            [ "food", "provisions" ]
+                              `plural`     HaFCI |< aT,
 
     FiCA' |< Iy               `adj`     {- gi*A}iy~ -}         [ "food", "alimentary", "nutritional" ],
 
@@ -207,7 +207,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g d '" <| [
 
-    FaCAL                     `noun`    {- gadA' -}            [ "breakfast", "lunch" ] ]
+    FaCAL                     `noun`    {- gadA' -}            [ "breakfast", "lunch" ]
+                              `plural`     HaFCI |< aT ]
 
  |> ".g d d" <| [
 
@@ -227,7 +228,8 @@ lexicon = listing "Lexicon's properties"
     FaCA                      `verb`    {- gadA-u -}           [ "depart", "become current" ]
                               `imperf`     FCU,
 
-    FaCA'                     `noun`    {- gadA' -}            [ "breakfast", "lunch" ],
+    FaCA'                     `noun`    {- gadA' -}            [ "breakfast", "lunch" ]
+                              `plural`     HaFCI |< aT,
 
     FaCY |< aT                `noun`    {- gadAp -}            [ "morning", "tomorrow", "comings", "mornings" ]
                               `plural`     FaCaL |< At ]
@@ -636,8 +638,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- gAl-u -}            [ "seize", "snatch", "destroy" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     IFtAL                     `verb`    {- AigotAl -}          [ "assassinate", "murder", "be assassinated", "be murdered" ],
 
@@ -685,8 +686,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- gAb-i -}            [ "be absent" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FAL |< aT                 `noun`    {- gAbap -}            [ "forest", "jungle" ]
                               `plural`     FAL

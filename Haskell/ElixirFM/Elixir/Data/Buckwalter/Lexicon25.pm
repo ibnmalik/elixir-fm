@@ -30090,31 +30090,6 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'nu.hAtaT' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'nu.h',
-      'form' => 'nu.hAtaT',
-      'lines' => [
-        ';; nuHAtap_1',
-        'nHAt    nuHAt   Nap     chips;shavings;slivers'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuL |< At |< aT',
-      'suffix' => ' |< At |< aT',
-      'glosses' => [
-        'chips',
-        'shavings',
-        'slivers'
-      ],
-      'orig' => 'nuHAtap',
-      'prefix' => ''
-    },
-    {
       'types' => {},
       'entry' => 'na.h.hY',
       'form' => 'na.h.hY',
@@ -52606,6 +52581,31 @@ $Lexicon = {
         'shaping'
       ],
       'orig' => 'naHot',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'nu.hAtaT' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'nu.hAt',
+      'form' => 'nu.hAtaT',
+      'lines' => [
+        ';; nuHAtap_1',
+        'nHAt    nuHAt   Nap     chips;shavings;slivers'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'chips',
+        'shavings',
+        'slivers'
+      ],
+      'orig' => 'nuHAtap',
       'prefix' => ''
     },
     {
@@ -78502,9 +78502,9 @@ $Lexicon->{'n ^s \''}[21]{'glosses'} = $Lexicon->{'n ^s y'}[5]{'glosses'};
 $Lexicon->{'n ^s \''}[22]{'types'} = $Lexicon->{'n ^s y'}[8]{'types'};
 $Lexicon->{'n ^s \''}[22]{'lines'} = $Lexicon->{'n ^s y'}[8]{'lines'};
 $Lexicon->{'n ^s \''}[22]{'glosses'} = $Lexicon->{'n ^s y'}[8]{'glosses'};
-$Lexicon->{'n .h .h'}[3]{'types'} = $Lexicon->{'n .h w'}[2]{'types'};
-$Lexicon->{'n .h .h'}[3]{'lines'} = $Lexicon->{'n .h w'}[2]{'lines'};
-$Lexicon->{'n .h .h'}[3]{'glosses'} = $Lexicon->{'n .h w'}[2]{'glosses'};
+$Lexicon->{'n .h .h'}[2]{'types'} = $Lexicon->{'n .h w'}[2]{'types'};
+$Lexicon->{'n .h .h'}[2]{'lines'} = $Lexicon->{'n .h w'}[2]{'lines'};
+$Lexicon->{'n .h .h'}[2]{'glosses'} = $Lexicon->{'n .h w'}[2]{'glosses'};
 $Lexicon->{'n .d .d'}[3]{'types'} = $Lexicon->{'n .d w'}[1]{'types'};
 $Lexicon->{'n .d .d'}[3]{'lines'} = $Lexicon->{'n .d w'}[1]{'lines'};
 $Lexicon->{'n .d .d'}[3]{'glosses'} = $Lexicon->{'n .d w'}[1]{'glosses'};

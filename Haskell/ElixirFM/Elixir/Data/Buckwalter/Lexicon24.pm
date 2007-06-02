@@ -766,6 +766,56 @@ $Lexicon = {
     },
     {
       'types' => {
+        '\'imAtaT' => {
+          'Nap' => 2
+        }
+      },
+      'entry' => '\'imAt',
+      'form' => '\'imAtaT',
+      'lines' => [
+        ';; <imAtap_1',
+        '<mAt    <imAt   Nap     mortification;killing',
+        'AmAt    <imAt   Nap     mortification;killing'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'mortification',
+        'killing'
+      ],
+      'orig' => 'IimAtap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'istimAtaT' => {
+          'Nap' => 2
+        }
+      },
+      'entry' => 'istimAt',
+      'form' => 'istimAtaT',
+      'lines' => [
+        ';; {isotimAtap_1',
+        '<stmAt  {isotimAt       Nap     defiance of death;desperate effort',
+        'AstmAt  {isotimAt       Nap     defiance of death;desperate effort'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IstiFAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'defiance of death',
+        'desperate effort'
+      ],
+      'orig' => 'AisotimAtap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'mA\'it' => {
           'Nall' => 1
         },
@@ -8148,33 +8198,6 @@ $Lexicon = {
         'Martin'
       ],
       'orig' => 'mArotiyn',
-      'prefix' => ''
-    }
-  ],
-  'istim' => [
-    {
-      'types' => {
-        'istimAtaT' => {
-          'Nap' => 2
-        }
-      },
-      'entry' => 'istim',
-      'form' => 'istimAtaT',
-      'lines' => [
-        ';; {isotimAtap_1',
-        '<stmAt  {isotimAt       Nap     defiance of death;desperate effort',
-        'AstmAt  {isotimAt       Nap     defiance of death;desperate effort'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At |< aT',
-      'suffix' => ' |< At |< aT',
-      'glosses' => [
-        'defiance of death',
-        'desperate effort'
-      ],
-      'orig' => 'AisotimAtap',
       'prefix' => ''
     }
   ],
@@ -47401,33 +47424,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'm \' m' => [
-    {
-      'types' => {
-        '\'imAtaT' => {
-          'Nap' => 2
-        }
-      },
-      'entry' => '\'im',
-      'form' => '\'imAtaT',
-      'lines' => [
-        ';; <imAtap_1',
-        '<mAt    <imAt   Nap     mortification;killing',
-        'AmAt    <imAt   Nap     mortification;killing'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'CiL |< At |< aT',
-      'suffix' => ' |< At |< aT',
-      'glosses' => [
-        'mortification',
-        'killing'
-      ],
-      'orig' => 'IimAtap',
-      'prefix' => ''
-    }
-  ],
   'm .h .h' => [
     {
       'types' => {
@@ -50381,12 +50377,12 @@ $Lexicon->{'m l l'}[17]{'glosses'} = $Lexicon->{'m l w'}[1]{'glosses'};
 $Lexicon->{'m y t'}[2]{'types'} = $Lexicon->{'m w t'}[7]{'types'};
 $Lexicon->{'m y t'}[2]{'lines'} = $Lexicon->{'m w t'}[7]{'lines'};
 $Lexicon->{'m y t'}[2]{'glosses'} = $Lexicon->{'m w t'}[7]{'glosses'};
-$Lexicon->{'m y t'}[3]{'types'} = $Lexicon->{'m w t'}[9]{'types'};
-$Lexicon->{'m y t'}[3]{'lines'} = $Lexicon->{'m w t'}[9]{'lines'};
-$Lexicon->{'m y t'}[3]{'glosses'} = $Lexicon->{'m w t'}[9]{'glosses'};
-$Lexicon->{'m y t'}[4]{'types'} = $Lexicon->{'m w t'}[10]{'types'};
-$Lexicon->{'m y t'}[4]{'lines'} = $Lexicon->{'m w t'}[10]{'lines'};
-$Lexicon->{'m y t'}[4]{'glosses'} = $Lexicon->{'m w t'}[10]{'glosses'};
+$Lexicon->{'m y t'}[3]{'types'} = $Lexicon->{'m w t'}[11]{'types'};
+$Lexicon->{'m y t'}[3]{'lines'} = $Lexicon->{'m w t'}[11]{'lines'};
+$Lexicon->{'m y t'}[3]{'glosses'} = $Lexicon->{'m w t'}[11]{'glosses'};
+$Lexicon->{'m y t'}[4]{'types'} = $Lexicon->{'m w t'}[12]{'types'};
+$Lexicon->{'m y t'}[4]{'lines'} = $Lexicon->{'m w t'}[12]{'lines'};
+$Lexicon->{'m y t'}[4]{'glosses'} = $Lexicon->{'m w t'}[12]{'glosses'};
 $Lexicon->{'m t z'}[0]{'types'} = $Lexicon->{'m z z'}[1]{'types'};
 $Lexicon->{'m t z'}[0]{'lines'} = $Lexicon->{'m z z'}[1]{'lines'};
 $Lexicon->{'m t z'}[0]{'glosses'} = $Lexicon->{'m z z'}[1]{'glosses'};
@@ -50507,9 +50503,9 @@ $Lexicon->{'m s w'}[6]{'glosses'} = $Lexicon->{'m s y'}[0]{'glosses'};
 $Lexicon->{'m n n'}[3]{'types'} = $Lexicon->{'m n w'}[3]{'types'};
 $Lexicon->{'m n n'}[3]{'lines'} = $Lexicon->{'m n w'}[3]{'lines'};
 $Lexicon->{'m n n'}[3]{'glosses'} = $Lexicon->{'m n w'}[3]{'glosses'};
-$Lexicon->{'m \' t'}[0]{'types'} = $Lexicon->{'m w t'}[8]{'types'};
-$Lexicon->{'m \' t'}[0]{'lines'} = $Lexicon->{'m w t'}[8]{'lines'};
-$Lexicon->{'m \' t'}[0]{'glosses'} = $Lexicon->{'m w t'}[8]{'glosses'};
+$Lexicon->{'m \' t'}[0]{'types'} = $Lexicon->{'m w t'}[10]{'types'};
+$Lexicon->{'m \' t'}[0]{'lines'} = $Lexicon->{'m w t'}[10]{'lines'};
+$Lexicon->{'m \' t'}[0]{'glosses'} = $Lexicon->{'m w t'}[10]{'glosses'};
 $Lexicon->{'m t .s'}[0]{'types'} = $Lexicon->{'m .s .s'}[3]{'types'};
 $Lexicon->{'m t .s'}[0]{'lines'} = $Lexicon->{'m .s .s'}[3]{'lines'};
 $Lexicon->{'m t .s'}[0]{'glosses'} = $Lexicon->{'m .s .s'}[3]{'glosses'};

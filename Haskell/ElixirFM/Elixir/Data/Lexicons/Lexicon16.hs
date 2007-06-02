@@ -644,8 +644,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- TAf-u -}            [ "circulate", "wander about" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FuCLAn                    `noun`    {- TuwfAn -}           [ "deluge", "flood", "typhoon" ],
 
@@ -668,8 +667,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- TAl-u -}            [ "be long" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FACaL                     `verb`    {- TAwal -}            [ "contend with" ],
 
@@ -762,8 +760,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- TAb-i -}            [ "be good", "be pleasant" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCCiL                    `adj`     {- Tay~ib -}           [ "good", "pleasant" ],
 
@@ -773,8 +770,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- TAf-i -}            [ "appear" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCL                      `noun`    {- Tayof -}            [ "spectrum (light)" ],
 
@@ -801,8 +797,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- TAr-i -}            [ "fly" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCL                      `noun`    {- Tayor -}            [ "bird", "birds" ]
                               `plural`     FuCUL

@@ -268,8 +268,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- kad~-u -}           [ "work hard", "exhaust" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- kad~ -}             [ "toil", "labor" ] ]
 
@@ -327,8 +326,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- kaf~-u -}           [ "refrain", "abstain" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- kaf~ -}             [ "refraining", "discontinuation", "stoppage" ],
 
@@ -582,8 +580,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- kam~-u -}           [ "cover", "hide" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- kam~ -}             [ "amount", "quantity" ],
 
@@ -676,7 +673,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "k r '" <| [
 
-    FiCAL                     `noun`    {- kirA' -}            [ "rent", "renting", "rent money" ] ]
+    FiCAL                     `noun`    {- kirA' -}            [ "rent", "renting", "rent money" ]
+                              `plural`     HaFCI |< aT ]
 
  |> "k r _t" <| [
 
@@ -822,7 +820,8 @@ lexicon = listing "Lexicon's properties"
     FuCayL |< aT              `noun`    {- kuray~ap -}         [ "globule", "pellet", "corpuscle" ],
 
     FiCA'                     `noun`    {- kirA' -}            [ "rent", "renting", "rent money" ]
-                              `plural`     HaFCiL |< aT ]
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT ]
 
  |> "k s .h" <| [
 
@@ -976,8 +975,7 @@ lexicon = listing "Lexicon's properties"
  |> "k w d" <| [
 
     FAL                       `verb`    {- kAd-a -}            [ "almost", "hardly", "no sooner" ]
-                              `pfirst`     FiL
-                              `ithird`     FaL,
+                              `pfirst`     FiL,
 
     FAL                       `noun`    {- kAd -}              [ "almost" ] ]
 
@@ -1025,8 +1023,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- kAn-u -}            [ "was", "were", "is", "are" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCCaL                    `verb`    {- kaw~an -}           [ "create" ],
 
@@ -1094,8 +1091,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- kAd-i -}            [ "deceive", "harm" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL ]
+                              `pfirst`     FiL ]
 
  |> "k y f" <| [
 

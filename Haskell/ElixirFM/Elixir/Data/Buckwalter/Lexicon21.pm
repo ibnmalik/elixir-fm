@@ -17286,8 +17286,7 @@ $Lexicon = {
     {
       'types' => {
         'qAd' => {
-          'Nap' => 1,
-          'NAt' => 1
+          'Nap' => 1
         },
         'quwwAd' => {
           'N' => 1
@@ -17306,8 +17305,7 @@ $Lexicon = {
         'qA}d    qA}id   Ndu     leader;commander',
         'qwAd    quw~Ad  N       leaders;commanders',
         'qwd     quw~ad  N       leaders;commanders',
-        'qAd     qAd     Nap     leaders;commanders',
-        'qAd     qAd     NAt     leaders;commanders'
+        'qAd     qAd     Nap     leaders;commanders'
       ],
       'patterns' => {
         'qAd' => [

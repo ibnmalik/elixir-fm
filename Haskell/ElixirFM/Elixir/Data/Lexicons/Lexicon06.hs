@@ -36,8 +36,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- HaD~-u -}           [ "incite", "prod" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- HaD~ -}             [ "incitement", "instigation" ] ]
 
@@ -228,13 +227,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- HaT~-u -}           [ "descend", "land" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- HaT~-u -}           [ "set down", "lower" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- HaT~ -}             [ "putting down", "reduction", "decrease" ],
 
@@ -266,8 +263,7 @@ lexicon = listing "Lexicon's properties"
  |> ".h .z .z" <| [
 
     FaCL                      `verb`    {- HaZ~-a -}           [ "be fortunate" ]
-                              `pfirst`     FaCaL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCaL,
 
     HaFaCL                    `verb`    {- OaHaZ~ -}           [ "be fortunate" ],
 
@@ -293,8 +289,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Haj~-u -}           [ "make a pilgrimage", "confute" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FACL                      `verb`    {- HAj~ -}             [ "argue", "dispute" ],
 
@@ -445,7 +440,8 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h _d '" <| [
 
-    FiCAL                     `noun`    {- Hi*A' -}            [ "(pair of) shoes", "shoes" ] ]
+    FiCAL                     `noun`    {- Hi*A' -}            [ "(pair of) shoes", "shoes" ]
+                              `plural`     HaFCI |< aT ]
 
  |> ".h _d r" <| [
 
@@ -463,7 +459,8 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCY                    `verb`    {- AiHota*aY -}        [ "imitate", "wear" ],
 
-    FiCA'                     `noun`    {- Hi*A' -}            [ "(pair of) shoes", "shoes" ],
+    FiCA'                     `noun`    {- Hi*A' -}            [ "(pair of) shoes", "shoes" ]
+                              `plural`     HaFCI |< aT,
 
     MuFACY |< aT              `noun`    {- muHA*Ap -}          [ "alongside", "parallel to" ],
 
@@ -477,8 +474,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Hav~-u -}           [ "urge", "incite" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCIL                     `adj`     {- Haviyv -}           [ "rapid", "quick", "rapidly", "quickly" ] ]
 
@@ -611,13 +607,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Had~-u -}           [ "delimit", "halt" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- Had~-i -}           [ "be furious" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- Had~ad -}           [ "determine", "define", "specify", "be determined", "be defined", "be specified" ],
 
@@ -977,13 +971,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Hal~-u -}           [ "dissolve", "untie" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- Hal~-i -}           [ "begin", "arrive" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     HaFaCL                    `verb`    {- OaHal~ -}           [ "allow", "replace", "be allowed" ],
 
@@ -1379,9 +1371,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- Haq~-iu -}          [ "be correct", "be right" ]
                               `imperf`     FuCL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- Haq~aq -}           [ "achieve", "realize", "reach", "be achieved", "be realized", "be reached" ],
 
@@ -1631,9 +1621,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- Har~-ui -}          [ "be hot" ]
                               `imperf`     FuCL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- Har~ar -}           [ "liberate", "free" ],
 
@@ -1837,12 +1825,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Has~-i -}           [ "feel" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- Has~-a -}           [ "feel" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCiL,
 
     HaFaCL                    `verb`    {- OaHas~ -}           [ "feel", "perceive", "be felt", "be perceived" ],
 
@@ -1983,20 +1969,17 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- HAk-u -}            [ "weave", "knit" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FAL                       `verb`    {- HAk-u -}            [ "contrive", "fabricate" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL ]
+                              `pfirst`     FuL ]
 
  |> ".h w l" <| [
 
     FAL                       `verb`    {- HAl-u -}            [ "prevent" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCCaL                    `verb`    {- Haw~al -}           [ "change", "convert", "switch" ],
 
@@ -2056,8 +2039,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- HAm-u -}            [ "hover", "circle", "glide" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCCaL                    `verb`    {- Haw~am -}           [ "circle", "hover", "revolve" ] ]
 
@@ -2113,13 +2095,11 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- HAz-u -}            [ "possess", "attain" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FAL                       `verb`    {- HAz-i -}            [ "drive on", "urge on (camels)" ]
                               `imperf`     FIL
-                              `pfirst`     FaL
-                              `ithird`     FiL,
+                              `pfirst`     FaL,
 
     InFAL                     `verb`    {- AinoHAz -}          [ "be aligned", "be biased (politically)" ],
 
@@ -2193,8 +2173,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- HAn-i -}            [ "arrive", "approach" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FiCL                      `noun`    {- Hiyn -}             [ "time", "moment", "opportunity", "times", "opportunities", "sometimes", "occasionally" ]
                               `plural`     HaFCAL

@@ -58,8 +58,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- zaj~-u -}           [ "throw", "push", "press" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FuCAL                     `noun`    {- zujAj -}            [ "glass", "windshield" ],
 
@@ -352,8 +351,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- zar~-u -}           [ "button up", "contort" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FiCL                      `noun`    {- zir~ -}             [ "button", "switch button", "buttons", "switch buttons" ]
                               `plural`     HaFCAL
@@ -422,12 +420,10 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- zAl-u -}            [ "disappear" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FAL                       `verb`    {- zAl-a -}            [ "cease", "stop being", "stop doing" ]
-                              `pfirst`     FiL
-                              `ithird`     FaL,
+                              `pfirst`     FiL,
 
     FACaL                     `verb`    {- zAwal -}            [ "pursue" ],
 
@@ -449,8 +445,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- zAr-u -}            [ "visit" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FuCL                      `noun`    {- zuwr -}             [ "lie", "falsehood", "force" ],
 
@@ -495,8 +490,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- zAd-i -}            [ "increase", "exceed", "add", "be increased", "be added" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCCaL                    `verb`    {- zay~ad -}           [ "augment" ],
 

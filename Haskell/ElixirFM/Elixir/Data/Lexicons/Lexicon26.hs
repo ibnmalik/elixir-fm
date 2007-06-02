@@ -90,9 +90,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- ha$~-iu -}          [ "be cheerful", "be delighted" ]
                               `imperf`     FuCL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- ha$~ -}             [ "cheerful" ],
 
@@ -128,8 +126,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- hab~-u -}           [ "get up", "set out", "blow" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     HaFaCL                    `verb`    {- Oahab~ -}           [ "awaken", "rouse", "be awakened", "be roused" ],
 
@@ -176,13 +173,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- had~-i -}           [ "be weak", "be decrepit" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- had~-u -}           [ "demolish", "destroy" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- had~ad -}           [ "threaten", "intimidate", "menace" ],
 
@@ -328,8 +323,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- hal~-i -}           [ "begin", "appear" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     HaFaCL                    `verb`    {- Oahal~ -}           [ "begin", "appear", "offer", "sacrifice", "be offered", "be sacrificed" ],
 
@@ -393,8 +387,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- ham~-u -}           [ "be ready", "intend" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     HaFaCL                    `verb`    {- Oaham~ -}           [ "concern", "be important", "be of concern" ],
 
@@ -612,6 +605,7 @@ lexicon = listing "Lexicon's properties"
     FaCAL                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
                               `plural`     HaFCAL
                               `plural`     HaFCA'
+                              `plural`     HaFCI |< aT
                            {- `others`  [ "'ahwA' Nh N0_Nh Nhy" ] -},
 
     FaCAL |< Iy               `noun`    {- hawA}iy~ -}         [ "antenna" ],
@@ -642,8 +636,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- hAl-u -}            [ "frighten", "intimidate" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FAL                       `noun`    {- hAl -}              [ "mirage", "fata morgana" ],
 
@@ -714,6 +707,7 @@ lexicon = listing "Lexicon's properties"
     FaCA'                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
                               `plural`     HaFCA'
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT
                            {- `others`  [ "'ahwA' Nh N0_Nh Nhy" ] -},
 
     FaCA' |< Iy               `noun`    {- hawA}iy~ -}         [ "antenna" ],
@@ -781,8 +775,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- hAl-i -}            [ "pour", "strew" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     InFAL                     `verb`    {- AinohAl -}          [ "shower", "rain down", "precipitate" ],
 
@@ -833,8 +826,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- haz~-u -}           [ "shake", "jolt", "rock" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     IFtaCL                    `verb`    {- Aihotaz~ -}         [ "tremble", "quake", "be shaken" ],
 

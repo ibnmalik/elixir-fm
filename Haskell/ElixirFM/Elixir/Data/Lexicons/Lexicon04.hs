@@ -319,8 +319,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- vAr-u -}            [ "revolt", "arise" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     HaFAL                     `verb`    {- OavAr -}            [ "provoke", "agitate", "be provoked", "be agitated" ],
 

@@ -1226,11 +1226,9 @@ lexicon = listing "Lexicon's properties"
     -- ETA}    EaTA}   Nhy     gift;offer
     -- >ETy    >aEoTiy Nap     gifts;offers
     -- AETy    >aEoTiy Nap     gifts;offers
-    -- >ETy    >aEoTiy NAt     gifts;offers
-    -- AETy    >aEoTiy NAt     gifts;offers
 
     FaCAL                     `noun`    {- EaTA' -}            [ "gift", "offer", "gifts", "offers" ]
-                              `plural`     HaFCI |< At |< aT,
+                              `plural`     HaFCI |< aT,
 
     -- ;; EaTA'_3
     -- ETA'    EaTA'   N0_Nh   offer;tender
@@ -1949,12 +1947,10 @@ lexicon = listing "Lexicon's properties"
     -- ETA}    EaTA}   Nhy     gift;offer
     -- >ETy    >aEoTiy Nap     gifts;offers
     -- AETy    >aEoTiy Nap     gifts;offers
-    -- >ETy    >aEoTiy NAt     gifts;offers
-    -- AETy    >aEoTiy NAt     gifts;offers
 
     FaCA'                     `noun`    {- EaTA' -}            [ "gift", "offer", "gifts", "offers" ]
-                              `plural`     HaFCiL |< At |< aT
-                              `plural`     HaFCI |< At |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT,
 
     -- ;; EaTA'_3
     -- ETA'    EaTA'   N0_Nh   offer;tender

@@ -401,8 +401,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- bav~-u -}           [ "transmit", "disseminate" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- bav~ -}             [ "broadcast", "transmission", "dissemination" ] ]
 
@@ -962,7 +961,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- binA' -}            [ "build", "construct" ],
 
-    FiCAL                     `noun`    {- binA' -}            [ "building", "structure", "buildings", "structures" ],
+    FiCAL                     `noun`    {- binA' -}            [ "building", "structure", "buildings", "structures" ]
+                              `plural`     HaFCI |< aT,
 
     FaCCAL                    `noun`    {- ban~A' -}           [ "builder", "mason" ],
 
@@ -972,8 +972,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bA'-u -}            [ "return", "incur" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FIL |< aT                 `noun`    {- biy}ap -}           [ "environment", "milieu" ],
 
@@ -1065,7 +1064,8 @@ lexicon = listing "Lexicon's properties"
     FiCA'                     `noun`    {- binA' -}            [ "build", "construct" ],
 
     FiCA'                     `noun`    {- binA' -}            [ "building", "structure", "buildings", "structures" ]
-                              `plural`     HaFCiL |< At |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT,
 
     FiCL |< aT                `noun`    {- binoyap -}          [ "structure", "make-up", "structures" ]
                               `plural`     FuCL |< aT
@@ -1297,9 +1297,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- bar~-i -}           [ "be charitable", "be devoted" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- bar~ar -}           [ "justify", "warrant", "vindicate", "acquit", "be justified", "be warranted" ],
 
@@ -1443,9 +1441,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- bat~-ui -}          [ "determine", "complete" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- bat~ -}             [ "settlement", "decision" ],
 
@@ -1527,8 +1523,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bAl-u -}            [ "urinate" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCL                      `noun`    {- bawol -}            [ "urine" ]
                               `plural`     HaFCAL
@@ -1616,8 +1611,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bAE-i -}            [ "sell" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     HaFAL                     `verb`    {- OabAE -}            [ "offer for sale", "tender", "be offered for sale", "tendered" ],
 
@@ -1667,8 +1661,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bAn-i -}            [ "appear", "be evident" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCCaL                    `verb`    {- bay~an -}           [ "declare", "demonstrate" ],
 
@@ -1718,8 +1711,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bAt-i -}            [ "become", "remain" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCL                      `noun`    {- bayot -}            [ "Beit" ],
 

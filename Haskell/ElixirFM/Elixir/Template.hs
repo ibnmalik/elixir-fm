@@ -36,7 +36,7 @@ instance Template String where
 
  -- interlock = flip const
 
-    interlock r = smooth . concat . replace . restore
+    interlock r = {- smooth . -} concat . replace . restore
 
         where replace x = [ maybe [c] id (lookup c lock) | c <- x ]
 
@@ -113,11 +113,15 @@ Prefix x ->- s = x ++ s
 x ->- s = shows x ("-" ++ s)
 
 
+{-
+
 smooth :: String -> String
 
 smooth ('\'' : 'a' : '\'' : y) | isClosed y = "'A" ++ y
 smooth ('\'' : 'u' : '\'' : y) | isClosed y = "'U" ++ y
 smooth                      y               =         y
+
+-}
 
 
 isClosed :: String -> Bool

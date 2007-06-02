@@ -35,9 +35,9 @@ instance Morphing PatternT PatternT where
 instance Template PatternT where
 
     interlock r p = if isForm VIII p then (concat . assimilate . show) p
-                                     else (smooth . substitute . show) p
+                                     else (concat . substitute . show) p
 
-        where substitute x = (concat . replace . restore) x
+        where substitute x = (replace . restore) x
 
               assimilate x = (replace . restore . init) iF
                              ++ [z, d] ++
@@ -219,7 +219,8 @@ instance Forming PatternT where
         (   HaFAL,      HuFIL,      FIL,        FAL         ),
         (   HaFCY,      HuFCI,      FCI,        FCY         ),
         (   HaFY,       HuFI,       FI,         FY          ),
-        (   HaFaCL,     HuFiCL,     FiCL,       FaCL        )
+        (   HaFaCL,     HuFiCL,     FiCL,       FaCL        ),
+        (   HACY,       HUCI,       FCI,        FCY         )
 
         ]
 
@@ -281,7 +282,8 @@ instance Forming PatternT where
         (   IstaFCaL,   UstUCiL,    StaFCiL,    StaFCaL     ),
         (   IstaFAL,    UstuFIL,    StaFIL,     StaFAL      ),
         (   IstaFCY,    UstuFCI,    StaFCI,     StaFCY      ),
-        (   IstaFaCL,   UstuFiCL,   StaFiCL,    StaFaCL     )
+        (   IstaFaCL,   UstuFiCL,   StaFiCL,    StaFaCL     ),
+        (   IstaFCY,    UstUCI,     StaFCI,     StaFCY      )
 
         ]
 
@@ -380,13 +382,13 @@ instance Rules PatternT where
     isPassive = flip elem [ FuCiL, FIL, FuCI, FuCL,
                             FuCCiL, FuCCI,
                             FUCiL, FUCI, FUCL,
-                            HuFCiL, HUCiL, HuFIL, HuFCI, HuFiCL,
+                            HuFCiL, HUCiL, HuFIL, HuFCI, HuFiCL, HUCI,
                             TuFuCCiL, TuFuCCI,
                             TuFUCiL, TuFUCI, TuFUCL,
                             UnFuCiL, UnFIL, UnFuCI, UnFuCL,
                             UFtuCiL, UFtIL, UFtuCI, UFtuCL,
                             UFCuLL,
-                            UstuFCiL, UstUCiL, UstuFIL, UstuFCI, UstuFiCL,
+                            UstuFCiL, UstUCiL, UstuFIL, UstuFCI, UstuFiCL, UstUCI,
                             UFCULL,
                             UFCUCiL,
                             UFCUwiL,

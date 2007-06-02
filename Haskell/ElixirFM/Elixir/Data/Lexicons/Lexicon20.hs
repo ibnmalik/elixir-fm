@@ -82,7 +82,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "f .d '" <| [
 
-    FaCAL                     `noun`    {- faDA' -}            [ "space", "cosmos", "open country" ],
+    FaCAL                     `noun`    {- faDA' -}            [ "space", "cosmos", "open country" ]
+                              `plural`     HaFCI |< aT,
 
     FaCAL |< Iy               `adj`     {- faDA}iy~ -}         [ "space", "cosmic", "satellite-based" ],
 
@@ -92,8 +93,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- faD~-u -}           [ "break up", "disperse", "dissolve" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     InFaCL                    `verb`    {- AinofaD~ -}         [ "be dispersed", "be dissolved", "be concluded" ],
 
@@ -163,7 +163,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `verb`    {- OafoDaY -}          [ "inform", "notify", "lead", "take", "be informed", "be notified", "be led", "be taken" ],
 
-    FaCA'                     `noun`    {- faDA' -}            [ "space", "cosmos", "open country" ],
+    FaCA'                     `noun`    {- faDA' -}            [ "space", "cosmos", "open country" ]
+                              `plural`     HaFCI |< aT,
 
     FaCA' |< Iy               `adj`     {- faDA}iy~ -}         [ "space", "cosmic", "satellite-based" ],
 
@@ -315,8 +316,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- faj~-u -}           [ "straddle" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- faj~ -}             [ "road", "roads" ]
                               `plural`     FiCAL
@@ -580,8 +580,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- fak~-u -}           [ "separate", "dismantle", "detach", "disengage" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- fak~ak -}           [ "dismantle", "take apart", "loosen", "dismount" ],
 
@@ -649,8 +648,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- fal~-u -}           [ "dent", "notch", "break", "route" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- fal~ -}             [ "cork" ],
 
@@ -1079,8 +1077,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- far~-i -}           [ "escape", "flee", "defect", "desert" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FiCAL                     `noun`    {- firAr -}            [ "escape", "evasion", "desertion", "defection" ],
 
@@ -1297,8 +1294,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- fat~-u -}           [ "weaken", "enervate" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL ]
+                              `pfirst`     FaCaL ]
 
  |> "f t w" <| [
 
@@ -1361,8 +1357,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- fAH-u -}            [ "be fragrant", "emanate" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL ]
+                              `pfirst`     FuL ]
 
  |> "f w ^g" <| [
 
@@ -1400,8 +1395,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- fAq-u -}            [ "surpass", "excel" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     TaFaCCaL                  `verb`    {- tafaw~aq -}         [ "excel", "be dominant", "be superior" ],
 
@@ -1431,8 +1425,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- fAt-u -}            [ "expire", "go by" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     TaFACaL                   `verb`    {- tafAwat -}          [ "differ", "vary" ],
 
@@ -1450,8 +1443,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- fAz-u -}            [ "win", "be victorious" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCL                      `noun`    {- fawoz -}            [ "victory" ],
 

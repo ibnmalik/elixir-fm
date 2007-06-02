@@ -211,13 +211,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- \*ar~-u -}          [ "scatter", "spread", "sprinkle" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- \*ar~-u -}          [ "rise", "emerge" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- \*ar~ -}            [ "strewing", "sprinkling" ],
 
@@ -257,8 +255,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \*Aq-u -}           [ "taste", "sample", "experience", "be tasted", "be experienced" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     HaFAL                     `verb`    {- Oa*Aq -}            [ "make taste", "make sample", "make experience", "be made to taste/sample", "be made to make experience" ],
 

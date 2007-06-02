@@ -194,7 +194,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- EaTA' -}            [ "giving", "offering" ],
 
-    FaCAL                     `noun`    {- EaTA' -}            [ "gift", "offer", "gifts", "offers" ],
+    FaCAL                     `noun`    {- EaTA' -}            [ "gift", "offer", "gifts", "offers" ]
+                              `plural`     HaFCI |< aT,
 
     FaCAL                     `noun`    {- EaTA' -}            [ "offer", "tender", "offers", "tenders" ],
 
@@ -283,7 +284,8 @@ lexicon = listing "Lexicon's properties"
     FaCA'                     `noun`    {- EaTA' -}            [ "giving", "offering" ],
 
     FaCA'                     `noun`    {- EaTA' -}            [ "gift", "offer", "gifts", "offers" ]
-                              `plural`     HaFCiL |< At |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT,
 
     FaCA'                     `noun`    {- EaTA' -}            [ "offer", "tender", "offers", "tenders" ],
 
@@ -348,8 +350,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Eaj~-i -}           [ "shout", "resound" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     HaFaCL                    `verb`    {- OaEaj~ -}           [ "swirl", "be swirled" ],
 
@@ -439,7 +440,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "` ^s '" <| [
 
-    FaCAL                     `noun`    {- Ea$A' -}            [ "dinner", "supper", "dinners", "suppers" ],
+    FaCAL                     `noun`    {- Ea$A' -}            [ "dinner", "supper", "dinners", "suppers" ]
+                              `plural`     HaFCI |< aT,
 
     FiCAL                     `noun`    {- Ei$A' -}            [ "evening" ] ]
 
@@ -498,7 +500,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCLA' |< Iy              `adj`     {- Ea$owA}iy~ -}       [ "random" ],
 
-    FaCA'                     `noun`    {- Ea$A' -}            [ "dinner", "supper", "dinners", "suppers" ],
+    FaCA'                     `noun`    {- Ea$A' -}            [ "dinner", "supper", "dinners", "suppers" ]
+                              `plural`     HaFCI |< aT,
 
     FiCA'                     `noun`    {- Ei$A' -}            [ "evening" ] ]
 
@@ -692,8 +695,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Ead~-u -}           [ "count", "consider", "deem", "be counted", "be considered", "be deemed" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- Ead~ad -}           [ "enumerate", "count" ],
 
@@ -1378,8 +1380,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Eam~-u -}           [ "be universal", "be prevalent" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- Eam~am -}           [ "generalize", "popularize", "propagate" ],
 
@@ -2177,8 +2178,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAD-u -}            [ "compensate", "replace" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCCaL                    `verb`    {- Eaw~aD -}           [ "replace", "compensate" ],
 
@@ -2200,8 +2200,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAj-u -}            [ "make a stop" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FAL                       `noun`    {- EAj -}              [ "ivory" ],
 
@@ -2211,8 +2210,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAd-u -}            [ "return", "go back", "no longer" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCCaL                    `verb`    {- Eaw~ad -}           [ "accustom", "condition", "habituate" ],
 
@@ -2269,8 +2267,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAl-u -}            [ "deviate" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCCaL                    `verb`    {- Eaw~al -}           [ "cry out", "authorize" ],
 
@@ -2293,8 +2290,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAm-u -}            [ "float", "swim" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FAL                       `noun`    {- EAm -}              [ "year", "years" ]
                               `plural`     HaFCAL
@@ -2346,8 +2342,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAq-u -}            [ "hinder", "impede" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCCaL                    `verb`    {- Eaw~aq -}           [ "hinder", "impede", "delay" ],
 
@@ -2386,8 +2381,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAz-u -}            [ "want", "need" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCaL                     `noun`    {- Eawaz -}            [ "poverty", "need" ],
 
@@ -2401,8 +2395,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EA$-i -}            [ "live", "exist", "be lived" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCCaL                    `verb`    {- Eay~a$ -}           [ "sustain" ],
 
@@ -2436,8 +2429,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAv-i -}            [ "cause havoc", "ravage" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL ]
+                              `pfirst`     FiL ]
 
  |> "` y b" <| [
 
@@ -2464,8 +2456,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAl-i -}            [ "be impoverished" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL ]
+                              `pfirst`     FiL ]
 
  |> "` y n" <| [
 

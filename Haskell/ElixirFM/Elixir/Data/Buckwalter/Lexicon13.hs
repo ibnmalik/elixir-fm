@@ -585,12 +585,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $aH~At_1
     -- \$HAt    $aH~At  Nall    beggar
 
-    FaCL |< At                `noun`    {- \$aH~At -}          [ "beggar" ],
-
-    -- ;; $aH~Atap_1
-    -- \$HAtp   $aH~Atap        N0      Shahhata
-
-    FaCL |< At |< aT          `noun`    {- \$aH~Atap -}        [ "Shahhata" ] ]
+    FaCL |< At                `noun`    {- \$aH~At -}          [ "beggar" ] ]
 
  |> "^s .h .t" <| [
 
@@ -883,7 +878,12 @@ lexicon = listing "Lexicon's properties"
     -- \$Ht     $oHat   IV      ask for alms
 
     FaCaL                     `verb`    {- \$aHat-a -}         [ "ask for alms" ]
-                              `imperf`     FCaL ]
+                              `imperf`     FCaL,
+
+    -- ;; $aH~Atap_1
+    -- \$HAtp   $aH~Atap        N0      Shahhata
+
+    FaCCAL |< aT              `noun`    {- \$aH~Atap -}        [ "Shahhata" ] ]
 
  |> "^s .h w r" <| [
 
@@ -5187,16 +5187,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muta$Akil_1
     -- mt$Akl  muta$Akil       Nall    similar;uniform;isomorphic     [[muta$Akil/ADJ]]
 
-    MutaFACiL                 `adj`     {- muta$Akil -}        [ "similar", "uniform", "isomorphic" ],
-
-    -- ;; $ukuwlAtap_1
-    -- \$kwlAt  $ukuwlAt        NapAt   chocolate
-    -- \$wkwlAt $uwkuwlAt       NapAt   chocolate
-    -- \$ykwlAt $iykuwlAt       NapAt   chocolate
-    -- \$kwlAT  $ukuwlAT        NapAt   chocolate
-    -- \$klAT   $ukulAT NapAt   chocolate
-
-    FuCUL |< At |< aT         `noun`    {- \$ukuwlAtap -}      [ "chocolate" ] ]
+    MutaFACiL                 `adj`     {- muta$Akil -}        [ "similar", "uniform", "isomorphic" ] ]
 
  |> "^s k m" <| [
 
@@ -6159,12 +6150,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $amAt_1
     -- \$mAt    $amAt   N       gloating;malicious joy
 
-    FaL |< At                 `noun`    {- \$amAt -}           [ "gloating", "malicious joy" ],
-
-    -- ;; $amAtap_1
-    -- \$mAt    $amAt   Nap     gloating;malicious joy
-
-    FaL |< At |< aT           `noun`    {- \$amAtap -}         [ "gloating", "malicious joy" ] ]
+    FaL |< At                 `noun`    {- \$amAt -}           [ "gloating", "malicious joy" ] ]
 
  |> "^s m n" <| [
 
@@ -6361,6 +6347,11 @@ lexicon = listing "Lexicon's properties"
     -- \$mt     $omat   IV_Pass_yu      be gloated over;be rejoiced maliciously
 
     HaFCaL                    `verb`    {- Oa$omat -}          [ "gloat", "rejoice maliciously", "be gloated over", "be rejoiced maliciously" ],
+
+    -- ;; $amAtap_1
+    -- \$mAt    $amAt   Nap     gloating;malicious joy
+
+    FaCAL |< aT               `noun`    {- \$amAtap -}         [ "gloating", "malicious joy" ],
 
     -- ;; $Amit_1
     -- \$Amt    $Amit   N-ap    malicious;gloating     [[$Amit/ADJ]]
@@ -11662,6 +11653,15 @@ lexicon = listing "Lexicon's properties"
     Identity                  `noun`    {- \$tuwtogArot -}     [ "Stuttgart" ] ]
 
  |> "^sukuwlAt" <| [
+
+    -- ;; $ukuwlAtap_1
+    -- \$kwlAt  $ukuwlAt        NapAt   chocolate
+    -- \$wkwlAt $uwkuwlAt       NapAt   chocolate
+    -- \$ykwlAt $iykuwlAt       NapAt   chocolate
+    -- \$kwlAT  $ukuwlAT        NapAt   chocolate
+    -- \$klAT   $ukulAT NapAt   chocolate
+
+    Identity |< aT            `noun`    {- \$ukuwlAtap -}      [ "chocolate" ],
 
     -- ;; $ukuwlAtiy~_1
     -- \$kwlAty $ukuwlAtiy~     Nall    chocolate     [[$ukuwlAtiy~/ADJ]]

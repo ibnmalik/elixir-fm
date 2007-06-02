@@ -279,7 +279,7 @@ sub closeEntry {
             $suffix = ' |< aT' . $suffix;
         }
 
-        if ($entry =~ /^(.*)At$/ and $suffix !~ ' |< aT') {
+        if ($entry =~ /^(.*)At$/ and $suffix !~ /^ \|\< aT/) {
 
             $entry = $1;
             $suffix = ' |< At' . $suffix;

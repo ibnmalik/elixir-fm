@@ -145,7 +145,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "d ` '" <| [
 
-    FuCAL                     `noun`    {- duEA' -}            [ "call", "request", "invocation" ],
+    FuCAL                     `noun`    {- duEA' -}            [ "call", "request", "invocation" ]
+                              `plural`     HaFCI |< aT,
 
     FiCAL |< Iy               `adj`     {- diEA}iy~ -}         [ "propagandistic" ],
 
@@ -205,7 +206,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCLY                     `noun`    {- daEowaY -}          [ "lawsuit", "allegation", "legal action", "lawsuits", "allegations", "legal actions" ],
 
-    FuCA'                     `noun`    {- duEA' -}            [ "call", "request", "invocation" ],
+    FuCA'                     `noun`    {- duEA' -}            [ "call", "request", "invocation" ]
+                              `plural`     HaFCI |< aT,
 
     FiCA' |< Iy               `adj`     {- diEA}iy~ -}         [ "propagandistic" ],
 
@@ -251,8 +253,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- dab~-i -}           [ "crawl", "advance", "spread" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCCAL |< aT              `noun`    {- dab~Abap -}         [ "tank", "tanks" ]
                               `plural`     FaCCAL |< At ]
@@ -466,8 +467,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- dal~-u -}           [ "point", "indicate" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- dal~al -}           [ "prove", "confirm" ],
 
@@ -624,13 +624,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- daq~-i -}           [ "be minute", "be fragile" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- daq~-u -}           [ "knock", "strike", "throb" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     HaFaCL                    `verb`    {- Oadaq~ -}           [ "make fine", "make precise", "be made fine", "be made precise" ],
 
@@ -828,8 +826,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- das~-u -}           [ "insert", "stick" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL ]
+                              `pfirst`     FaCaL ]
 
  |> "d s t r" <| [
 
@@ -846,7 +843,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCA'
                            {- `others`  [ "'adwA' Nh N0_Nh Nhy" ] -},
 
-    FaCAL                     `noun`    {- dawA' -}            [ "remedy", "medication", "remedies", "medications" ],
+    FaCAL                     `noun`    {- dawA' -}            [ "remedy", "medication", "remedies", "medications" ]
+                              `plural`     HaFCI |< aT,
 
     FaCAL |< Iy               `adj`     {- dawA}iy~ -}         [ "medicinal", "curative" ],
 
@@ -915,8 +913,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- dAm-u -}            [ "last", "persevere", "continue" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCL |< aN                `noun`    {- dawomAF -}          [ "constantly", "at all times" ]
                               `plural`     FaCL
@@ -955,8 +952,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- dAr-u -}            [ "go around", "turn" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     HaFAL                     `verb`    {- OadAr -}            [ "direct", "manage", "conduct", "be directed", "be managed", "be conducted" ],
 
@@ -1020,8 +1016,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- dAs-u -}            [ "step on", "run over" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL ]
+                              `pfirst`     FuL ]
 
  |> "d w s r" <| [
 
@@ -1040,7 +1035,8 @@ lexicon = listing "Lexicon's properties"
     FY |< Iy                  `adj`     {- dawiy~ -}           [ "sound", "drone", "echo" ],
 
     FaCA'                     `noun`    {- dawA' -}            [ "remedy", "medication", "remedies", "medications" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT,
 
     FaCA' |< Iy               `adj`     {- dawA}iy~ -}         [ "medicinal", "curative" ],
 
@@ -1108,8 +1104,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- dAn-i -}            [ "condemn", "borrow", "profess" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     HaFAL                     `verb`    {- OadAn -}            [ "condemn", "censure", "be condemned", "be censured" ],
 

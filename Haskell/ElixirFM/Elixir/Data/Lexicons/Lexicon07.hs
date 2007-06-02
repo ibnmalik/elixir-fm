@@ -82,8 +82,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- xaS~-u -}           [ "concern", "stipulate", "confer" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- xaS~aS -}           [ "specify", "designate", "allocate", "be specified", "be designated", "be allocated" ],
 
@@ -185,8 +184,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- xaT~-u -}           [ "draw", "inscribe", "outline" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- xaT~aT -}           [ "draw lines", "demarcate" ],
 
@@ -437,8 +435,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- xad~-u -}           [ "furrow", "plow" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- xad~ -}             [ "cheek", "side", "furrow", "cheeks" ]
                               `plural`     FuCUL
@@ -509,8 +506,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- xaf~-i -}           [ "be light", "decrease", "reduce" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- xaf~af -}           [ "decrease", "mitigate" ],
 
@@ -1111,16 +1107,14 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- xAD-u -}            [ "wage", "embark", "carry out" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCL                      `noun`    {- xawoD -}            [ "waging", "embarking", "carrying out" ] ]
 
  |> "_h w f" <| [
 
     FAL                       `verb`    {- xAf-a -}            [ "be scared", "be afraid", "be frightened" ]
-                              `pfirst`     FiL
-                              `ithird`     FaL,
+                              `pfirst`     FiL,
 
     HaFAL                     `verb`    {- OaxAf -}            [ "frighten", "alarm", "be frightened", "be alarmed" ],
 
@@ -1163,8 +1157,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- xAn-u -}            [ "betray", "deceive", "fail" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FA'iL                     `noun`    {- xA}in -}            [ "traitor", "treacherous", "traitors", "disloyal" ]
                               `plural`     FaCL |< aT
@@ -1214,8 +1207,7 @@ lexicon = listing "Lexicon's properties"
  |> "_h y l" <| [
 
     FAL                       `verb`    {- xAl-a -}            [ "imagine", "suppose", "regard" ]
-                              `pfirst`     FiL
-                              `ithird`     FaL,
+                              `pfirst`     FiL,
 
     TaFaCCaL                  `verb`    {- taxay~al -}         [ "imagine", "suppose" ],
 

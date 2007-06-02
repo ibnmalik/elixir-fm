@@ -20,7 +20,7 @@ lexicon = listing "Lexicon's properties"
  |> "q ' d" <| [
 
     FACiL                     `noun`    {- qA}id -}            [ "leader", "commander", "leaders", "commanders" ]
-                              `plural`     FAL |< At |< aT,
+                              `plural`     FAL |< aT,
 
     FACiL                     `noun`    {- qA}id -}            [ "driver", "chauffeur", "drivers", "chauffeurs" ] ]
 
@@ -51,7 +51,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- qaDA' -}            [ "extermination", "annihilation" ],
 
-    FaCAL                     `noun`    {- qaDA' -}            [ "district", "province", "districts", "provinces" ],
+    FaCAL                     `noun`    {- qaDA' -}            [ "district", "province", "districts", "provinces" ]
+                              `plural`     HaFCI |< aT,
 
     FaCAL |< Iy               `adj`     {- qaDA}iy~ -}         [ "judicial", "legal" ],
 
@@ -91,6 +92,7 @@ lexicon = listing "Lexicon's properties"
     FaCY                      `noun`    {- qaDaY -}            [ "judgment", "sentence", "judgments", "sentences" ]
                               `plural`     FaCA
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT
                            {- `others`  [ "qa.dA Nhy" ] -},
 
     FaCA'                     `noun`    {- qaDA' -}            [ "justice", "judiciary" ],
@@ -98,7 +100,8 @@ lexicon = listing "Lexicon's properties"
     FaCA'                     `noun`    {- qaDA' -}            [ "extermination", "annihilation" ],
 
     FaCA'                     `noun`    {- qaDA' -}            [ "district", "province", "districts", "provinces" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT,
 
     FaCA' |< Iy               `adj`     {- qaDA}iy~ -}         [ "judicial", "legal" ],
 
@@ -147,13 +150,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qaS~-u -}           [ "cut", "trim" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- qaS~-u -}           [ "narrate", "tell" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FACL                      `verb`    {- qAS~ -}             [ "retaliate against", "settle accounts with" ],
 
@@ -876,8 +877,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qaf~-u -}           [ "be dry", "wither", "shrink" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCLY                     `verb`    {- qaf~aY -}           [ "send", "rhyme", "be sent", "be rhymed" ] ]
 
@@ -1040,8 +1040,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qal~-i -}           [ "be less", "decrease", "diminish" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- qal~al -}           [ "lessen", "reduce", "diminish" ],
 
@@ -1239,7 +1238,8 @@ lexicon = listing "Lexicon's properties"
  |> "q n w" <| [
 
     FaCY |< aT                `noun`    {- qanAp -}            [ "canal", "channel", "canals", "channels" ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCaL |< At
+                              `plural`     HaFCI |< aT,
 
     FaCY |< aT                `noun`    {- qanAp -}            [ "Qanat" ],
 
@@ -1473,9 +1473,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- qar~-ia -}          [ "settle down", "remain" ]
                               `imperf`     FiCL
                               `pfirst`     FaCaL
-                              `pfirst`     FaCiL
-                              `ithird`     FCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCiL,
 
     FaCCaL                    `verb`    {- qar~ar -}           [ "decide", "resolve" ],
 
@@ -1608,8 +1606,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qas~-u -}           [ "pursue", "strive", "aspire" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- qas~ -}             [ "clergyman", "reverend", "clergymen" ]
                               `plural`     FuCUL
@@ -1683,16 +1680,14 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAd-u -}            [ "lead", "guide" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FAL                       `verb`    {- qAd-u -}            [ "drive", "pilot" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FA'iL                     `noun`    {- qA}id -}            [ "leader", "commander", "leaders", "commanders" ]
-                              `plural`     FAL |< At |< aT
+                              `plural`     FAL |< aT
                               `plural`     FuCCAL
                               `plural`     FUCAL
                               `plural`     FuCCaL
@@ -1707,8 +1702,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAl-u -}            [ "say", "be said" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCL                      `noun`    {- qawol -}            [ "statement", "remark", "statements", "reports", "remarks" ]
                               `plural`     HaFCAL
@@ -1729,8 +1723,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAm-u -}            [ "undertake", "carry out" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     FaCCaL                    `verb`    {- qaw~am -}           [ "straighten" ],
 
@@ -1946,8 +1939,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAs-i -}            [ "measure", "draw conclusions", "compare" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     FaCCaL                    `verb`    {- qay~as -}           [ "measure" ],
 

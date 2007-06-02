@@ -48,13 +48,7 @@ lexicon = listing "Lexicon's properties"
     -- <ltfAt  {ilotifAt       N/At    turning;attention
     -- AltfAt  {ilotifAt       N/At    turning;attention
 
-    Identity |< At            `noun`    {- AilotifAt -}        [ "turning", "attention" ],
-
-    -- ;; {ilotifAtap_1
-    -- <ltfAt  {ilotifAt       NapAt   turn;glance
-    -- AltfAt  {ilotifAt       NapAt   turn;glance
-
-    Identity |< At |< aT      `noun`    {- AilotifAtap -}      [ "turn", "glance" ] ]
+    Identity |< At            `noun`    {- AilotifAt -}        [ "turning", "attention" ] ]
 
  |> "istilf" <| [
 
@@ -4322,6 +4316,12 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCL
                               `plural`     FaCLA'
                            {- `others`  [ "luft N_L", "laftA' Nh_L N0_Nh_L Nhy_L" ] -},
+
+    -- ;; {ilotifAtap_1
+    -- <ltfAt  {ilotifAt       NapAt   turn;glance
+    -- AltfAt  {ilotifAt       NapAt   turn;glance
+
+    IFtiCAL |< aT             `noun`    {- AilotifAtap -}      [ "turn", "glance" ],
 
     -- ;; lAfit_1
     -- lAft    lAfit   N-ap    attracting;turning     [[lAfit/ADJ]]

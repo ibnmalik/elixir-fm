@@ -12744,12 +12744,12 @@ lexicon = listing "Lexicon's properties"
 
     -- ;; say~id_1
     -- syd     say~id  Ndu     Sir;Mr.;Mister
-    -- sAd     sAd     NapAt   Sirs;Messrs.;gentlement
+    -- sAd     sAd     Nap     Sirs;Messrs.;gentlement
     -- >syAd   >asoyAd N       Sirs;Messrs.;gentlement
     -- AsyAd   >asoyAd N       Sirs;Messrs.;gentlement
 
     FaCCiL                    `noun`    {- say~id -}           [ "Sir", "Mr.", "Mister", "Sirs", "Messrs.", "gentlement" ]
-                              `plural`     FAL |< At
+                              `plural`     FAL |< aT
                               `plural`     HaFCAL
                            {- `others`  [ "'asyAd N" ] -},
 

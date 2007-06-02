@@ -395,8 +395,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- mad~-u -}           [ "extend", "stretch", "spread out" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- mad~ad -}           [ "extend", "stretch out", "spread out" ],
 
@@ -708,8 +707,7 @@ lexicon = listing "Lexicon's properties"
  |> "m l l" <| [
 
     FaCL                      `verb`    {- mal~-a -}           [ "become bored with", "become impatient with" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCiL,
 
     FaCL                      `noun`    {- mal~ -}             [ "bored", "fed-up" ],
 
@@ -967,8 +965,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- mar~-u -}           [ "pass", "go through" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     IstaFaCL                  `verb`    {- Aisotamar~ -}       [ "continue" ],
 
@@ -1112,8 +1109,7 @@ lexicon = listing "Lexicon's properties"
  |> "m s s" <| [
 
     FaCL                      `verb`    {- mas~-a -}           [ "touch", "violate", "infringe" ]
-                              `pfirst`     FaCaL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCaL,
 
     FACL                      `verb`    {- mAs~ -}             [ "be in touch with", "be in contact with" ],
 
@@ -1219,8 +1215,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- mat~-u -}           [ "be related by marriage", "be associated" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL ]
+                              `pfirst`     FaCaL ]
 
  |> "m t y" <| [
 
@@ -1292,8 +1287,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAr-u -}            [ "move from side to side" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     TaFaCCuL                  `noun`    {- tamaw~ur -}         [ "swinging motion", "oscillation" ],
 
@@ -1329,8 +1323,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAt-u -}            [ "die", "pass away" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     HaFAL                     `verb`    {- OamAt -}            [ "mortify", "kill", "be killed", "be suppressed" ],
 
@@ -1392,8 +1385,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAl-i -}            [ "lean", "bend", "incline", "be partial", "sympathize" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     HaFAL                     `verb`    {- OamAl -}            [ "incline", "tilt", "be inclined", "be tilted" ],
 
@@ -1434,15 +1426,13 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAr-i -}            [ "provide for", "support" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL ]
+                              `pfirst`     FiL ]
 
  |> "m y s" <| [
 
     FAL                       `verb`    {- mAs-i -}            [ "swagger" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL ]
+                              `pfirst`     FiL ]
 
  |> "m y t" <| [
 
