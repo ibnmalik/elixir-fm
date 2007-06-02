@@ -3864,6 +3864,9 @@ $Lexicon = {
         '_dAb' => [
           'FAL'
         ],
+        '\'a_dab' => [
+          'HaFaL'
+        ],
         '_dib' => [
           'FiL'
         ]
@@ -6611,6 +6614,9 @@ $Lexicon = {
         '\'u_diy`' => [
           'HuFIL'
         ],
+        '\'a_da`' => [
+          'HaFaL'
+        ],
         '_diy`' => [
           'FIL'
         ],
@@ -8461,6 +8467,9 @@ $Lexicon = {
         ],
         '_daq' => [
           'FaL'
+        ],
+        '\'a_daq' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -8759,6 +8768,9 @@ $Lexicon = {
       'patterns' => {
         '_dil' => [
           'FiL'
+        ],
+        '\'a_dal' => [
+          'HaFaL'
         ],
         '_dAl' => [
           'FAL'

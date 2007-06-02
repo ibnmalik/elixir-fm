@@ -165,7 +165,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; tiyjAniy~_1
     -- tyjAny  tiyjAniy~       N0      Tijani
 
-    FICAL |< Iy               `adj`     {- tiyjAniy~ -}        [ "Tijani" ] ]
+    FICAL |< Iy               `adj`     {- tiyjAniy~ -}        [ "Tijani" ],
+
+    -- ;; tiyjAniy~_1
+    -- tyjAny  tiyjAniy~       N0      Tijani
+
+    TICAL |< Iy               `adj`     {- tiyjAniy~ -}        [ "Tijani" ] ]
 
  |> "t ^g r" <| [
 
@@ -264,8 +269,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- tax~-u -}           [ "become sour", "ferment" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL ]
+                              `pfirst`     FaCaL ]
 
  |> "t _h m" <| [
 
@@ -681,8 +685,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- tab~-i -}           [ "perish", "be destroyed" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; {isotatab~_1
     -- <sttb   {isotatab~      PV_V    stabilize;be established
@@ -874,8 +877,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- taf~-i -}           [ "spit" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; taf~af_1
     -- tff     taf~af  PV      reject with disgust;say "phew"
@@ -1009,8 +1011,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- tak~-u -}           [ "trample underfoot", "intoxicate" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; tak~-i_1
     -- tk      tak~    PV_V    tick
@@ -1020,8 +1021,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- tak~-i -}           [ "tick" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; tik~ap_1
     -- tk      tik~    Nap     waistband
@@ -1486,7 +1486,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; tiymAwiy~_1
     -- tymAwy  tiymAwiy~       N0      Timawi
 
-    FICAL |< Iy               `adj`     {- tiymAwiy~ -}        [ "Timawi" ] ]
+    FICAL |< Iy               `adj`     {- tiymAwiy~ -}        [ "Timawi" ],
+
+    -- ;; tiymAwiy~_1
+    -- tymAwy  tiymAwiy~       N0      Timawi
+
+    TICAL |< Iy               `adj`     {- tiymAwiy~ -}        [ "Timawi" ] ]
 
  |> "t m .g" <| [
 
@@ -1520,8 +1525,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- tam~-i -}           [ "conclude", "take place" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; tam~am_1
     -- tmm     tam~am  PV      complete;conclude
@@ -1666,7 +1670,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuwmiy_1
     -- twmy    tuwmiy  Nprop   Tommy
 
-    FUCI                      `noun`    {- tuwmiy -}           [ "Tommy" ] ]
+    FUCI                      `noun`    {- tuwmiy -}           [ "Tommy" ],
+
+    -- ;; tiymAwiy~_1
+    -- tymAwy  tiymAwiy~       N0      Timawi
+
+    TICA' |< Iy               `adj`     {- tiymAwiy~ -}        [ "Timawi" ] ]
 
  |> "t m z" <| [
 
@@ -2575,8 +2584,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- tAb-u -}            [ "repent" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; taw~ab_1
     -- twb     taw~ab  PV      make repent
@@ -2632,8 +2640,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- tAh-u -}            [ "go astray", "get lost" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; taw~ah_1
     -- twh     taw~ah  PV      mislead;confuse
@@ -2724,8 +2731,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- tAq-u -}            [ "yearn", "wish", "desire" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; tawoq_1
     -- twq     tawoq   N       desire;longing;yearning
@@ -2882,8 +2888,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- tAh-i -}            [ "get lost", "perish" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; tay~ah_1
     -- tyh     tay~ah  PV      mislead;confuse
@@ -2992,8 +2997,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- tAm-i -}            [ "be infatuated", "be enslaved" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; tay~am_1
     -- tym     tay~am  PV      infatuate;enslave

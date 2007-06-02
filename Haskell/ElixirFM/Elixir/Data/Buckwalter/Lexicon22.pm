@@ -3753,7 +3753,11 @@ $Lexicon = {
         '>ksy    >akosiy Nap     clothes;garment',
         'Aksy    >akosiy Nap     clothes;garment'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'aksiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -7192,7 +7196,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'akriy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '1',
@@ -9675,7 +9680,11 @@ $Lexicon = {
       'entry' => 'kisA\'',
       'form' => 'kisA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'aksiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCA\'',
@@ -11736,7 +11745,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'ktan' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -13376,7 +13386,11 @@ $Lexicon = {
         'stkyn   sotakiyn        IV_V_intr       be humble;submit',
         'stkn    sotakin IV-n_intr       be humble;submit'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istakan' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -17800,7 +17814,11 @@ $Lexicon = {
       'entry' => 'kirA\'',
       'form' => 'kirA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'akriy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -19126,7 +19144,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'ktab' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ],
         'kutib' => [
           'FuCiL'
@@ -19204,7 +19223,8 @@ $Lexicon = {
           'FCiL'
         ],
         'ktab' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ]
       },
       'index' => '1',

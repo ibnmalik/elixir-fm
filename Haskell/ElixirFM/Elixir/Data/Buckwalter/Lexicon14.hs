@@ -407,8 +407,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- SaH~-i -}           [ "be correct", "be true" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; SaH~aH_1
     -- SHH     SaH~aH  PV      correct;confirm
@@ -1635,8 +1634,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Sab~-u -}           [ "pour", "flow" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; Sab~-a_1
     -- Sb      Sab~    PV_V    love passionately
@@ -1645,8 +1643,7 @@ lexicon = listing "Lexicon's properties"
     -- Sbb     Sobab   IV_C    love passionately
 
     FaCL                      `verb`    {- Sab~-a -}           [ "love passionately" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCiL,
 
     -- ;; taSab~ab_1
     -- tSbb    taSab~ab        PV      flow;perspire;drip
@@ -2047,6 +2044,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- Sabiy~ -}           [ "young boy", "youth", "young boys", "youths" ]
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT
                               `plural`     FiCL |< aT
                               `plural`     FiCLAn
                            {- `others`  [ ".sibyAn N" ] -},
@@ -2282,8 +2280,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Sad~-u -}           [ "repel", "deter", "resist" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; >aSad~_1
     -- >Sd     >aSad~  PV_V    suppurate;fester
@@ -3189,8 +3186,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Saf~-u -}           [ "arrange", "classify" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; Saf~af_1
     -- Sff     Saf~af  PV      arrange
@@ -4131,8 +4127,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Sak~-u -}           [ "strike", "ring" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; {iSoTak~_1
     -- <STk    {iSoTak~        PV_V    tremble;shake
@@ -5119,8 +5114,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Sam~-u -}           [ "plug", "stop up" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; Sam~am_1
     -- Smm     Sam~am  PV_intr be determined;be persistent
@@ -6539,8 +6533,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Sar~-i -}           [ "screech", "chirp" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; >aSar~_1
     -- >Sr     >aSar~  PV_V    insist;assert
@@ -6636,8 +6629,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- SAg-u -}            [ "forge", "create", "formulate" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Sawog_1
     -- Swg     Sawog   N       molding;shaping
@@ -6738,8 +6730,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- SAx-u -}            [ "be slippery", "sink", "swoon" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Sawox_1
     -- Swx     Sawox   N       sinking;swooning
@@ -7016,8 +7007,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- SAl-u -}            [ "attack", "jump on" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; SAwal_1
     -- SAwl    SAwal   PV      attack;jump on
@@ -7071,8 +7061,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- SAm-u -}            [ "abstain", "fast" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Sawom_1
     -- Swm     Sawom   N       fasting;abstinence
@@ -7129,8 +7118,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- SAn-u -}            [ "maintain", "preserve", "protect" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Sawon_1
     -- Swn     Sawon   N       maintenance;preservation;protection
@@ -7283,8 +7271,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- SAt-u -}            [ "shout", "sound out" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Saw~at_1
     -- Swt     Saw~at  PV-t    vote
@@ -7421,8 +7408,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- SAH-i -}            [ "scream", "call out" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; Say~aH_1
     -- SyH     Say~aH  PV      scream;call out
@@ -7513,8 +7499,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- SAd-i -}            [ "hunt", "fish", "trap" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; taSay~ad_1
     -- tSyd    taSay~ad        PV      hunt;fish;trap
@@ -7743,8 +7728,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- SAr-i -}            [ "become", "begin to" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; Say~ar_1
     -- Syr     Say~ar  PV      induce;cause to do

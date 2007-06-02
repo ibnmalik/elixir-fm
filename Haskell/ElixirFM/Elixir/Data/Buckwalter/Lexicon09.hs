@@ -342,8 +342,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- \*ab~-u -}          [ "drive away", "defend" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; *ubAb_1
     -- \*bAb    *ubAb   N       flies
@@ -1054,8 +1053,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- \*am~-u -}          [ "blame", "criticize" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; *am~am_1
     -- \*mm     *am~am  PV      rebuke;censure
@@ -1398,8 +1396,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- \*ar~-u -}          [ "scatter", "spread", "sprinkle" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; *ar~-u_2
     -- \*r      *ar~    PV_V    rise;emerge
@@ -1409,8 +1406,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- \*ar~-u -}          [ "rise", "emerge" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; *ar~_1
     -- \*r      *ar~    N       strewing;sprinkling
@@ -1614,8 +1610,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \*AE-i -}           [ "spread", "circulate", "become public" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; >a*AE_1
     -- >*AE    >a*AE   PV_V    broadcast;propagate
@@ -1666,8 +1661,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \*Ab-u -}           [ "be dissolved", "be melted", "dwindle" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; *aw~ab_1
     -- \*wb     *aw~ab  PV      dissolve;liquify;melt
@@ -1733,8 +1727,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \*Ad-u -}           [ "scatter", "remove", "defend" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; *awod_1
     -- \*wd     *awod   N       defense;protection
@@ -1780,8 +1773,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \*Aq-u -}           [ "taste", "sample", "experience", "be tasted", "be experienced" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; >a*Aq_1
     -- >*Aq    >a*Aq   PV_V    make taste;make sample;make experience

@@ -1707,6 +1707,12 @@ $Lexicon = {
       'patterns' => {
         'zdAn' => [
           'FtAL'
+        ],
+        'zdan' => [
+          'FtaL'
+        ],
+        'izdan' => [
+          'IFtaL'
         ]
       },
       'index' => '1',
@@ -5903,6 +5909,9 @@ $Lexicon = {
         'zg      zag     IV_C_Pass_yu    be deviated;be averted'
       ],
       'patterns' => {
+        '\'aza.g' => [
+          'HaFaL'
+        ],
         'ziy.g' => [
           'FIL',
           'FiCL'
@@ -7587,8 +7596,14 @@ $Lexicon = {
         'zdd     zodad   IV_C    increase'
       ],
       'patterns' => {
+        'zdad' => [
+          'FtaL'
+        ],
         'zdAd' => [
           'FtAL'
+        ],
+        'izdad' => [
+          'IFtaL'
         ]
       },
       'index' => '1',
@@ -7625,7 +7640,11 @@ $Lexicon = {
         'stzyd   sotaziyd        IV_V    seek an increase',
         'stzd    sotazid IV_C    seek an increase'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istazad' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -12153,6 +12172,9 @@ $Lexicon = {
         ],
         'zad' => [
           'FaL'
+        ],
+        '\'azad' => [
+          'HaFaL'
         ],
         'ziyd' => [
           'FIL'
@@ -19810,6 +19832,9 @@ $Lexicon = {
         'za.h' => [
           'FaL'
         ],
+        '\'aza.h' => [
+          'HaFaL'
+        ],
         'ziy.h' => [
           'FIL',
           'FiCL'
@@ -19853,8 +19878,14 @@ $Lexicon = {
         'nzH     nozaH   IV_C    depart;be removed'
       ],
       'patterns' => {
+        'inza.h' => [
+          'InFaL'
+        ],
         'nzA.h' => [
           'NFAL'
+        ],
+        'nza.h' => [
+          'NFaL'
         ]
       },
       'index' => '1',
@@ -21303,6 +21334,9 @@ $Lexicon = {
         ],
         'zal' => [
           'FaL'
+        ],
+        '\'azal' => [
+          'HaFaL'
         ],
         'ziyl' => [
           'FIL'
@@ -23256,6 +23290,9 @@ $Lexicon = {
         'zir' => [
           'FiL'
         ],
+        '\'azar' => [
+          'HaFaL'
+        ],
         'zar' => [
           'FaL'
         ],
@@ -23363,7 +23400,11 @@ $Lexicon = {
         'stzyr   sotaziyr        IV_V    seek a visit',
         'stzr    sotazir IV_C    seek a visit'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istazar' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',

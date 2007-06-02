@@ -1022,9 +1022,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- Tab~-u -}           [ "treat medically" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; Tab~ab_1
     -- Tbb     Tab~ab  PV      treat medically
@@ -2366,8 +2364,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Tal~-u -}           [ "sprinkle" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; >aTal~_1
     -- >Tl     >aTal~  PV_V    overlook;face;look out
@@ -2915,8 +2912,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Tam~-u -}           [ "inundate", "engulf" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; {inoTam~_1
     -- <nTm    {inoTam~        PV_V_intr       be inundated;be engulfed
@@ -3439,8 +3435,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Taq~-u -}           [ "crack", "burst" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; Taq~_1
     -- Tq      Taq~    N       cracking;bursting
@@ -4442,8 +4437,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Tar~-u -}           [ "trim", "sharpen" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; Tar~-i_1
     -- Tr      Tar~    PV_V    grow
@@ -4453,8 +4447,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Tar~-i -}           [ "grow" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; Tar~_1
     -- Tr      Tar~    N       trimming;sharpening
@@ -4731,8 +4724,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- TAH-u -}            [ "go astray" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Taw~aH_1
     -- TwH     Taw~aH  PV      mislead
@@ -4811,8 +4803,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- TAE-u -}            [ "obey" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Taw~aE_1
     -- TwE     Taw~aE  PV      enlist;recruit
@@ -5073,8 +5064,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- TAf-u -}            [ "circulate", "wander about" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Taw~af_1
     -- Twf     Taw~af  PV      circulate;wander about
@@ -5193,8 +5183,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- TAl-u -}            [ "be long" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Taw~al_1
     -- Twl     Taw~al  PV      lengthen
@@ -5371,8 +5360,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- TAq-u -}            [ "be able", "be capable" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Taw~aq_1
     -- Twq     Taw~aq  PV      encircle;surround
@@ -5686,8 +5674,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- TAH-i -}            [ "be lost" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; Tay~aH_1
     -- TyH     Tay~aH  PV      cause to be lost
@@ -5715,8 +5702,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- TA$-i -}            [ "be frivolous", "miss the mark" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; TA}i$_1
     -- TA}$    TA}i$   Nall    reckless;out of control
@@ -5766,8 +5752,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- TAb-i -}            [ "be good", "be pleasant" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; Tay~ab_1
     -- Tyb     Tay~ab  PV      make pleasant
@@ -5925,8 +5910,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- TAf-i -}            [ "appear" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; Tayof_1
     -- Tyf     Tayof   N       spectrum (light)
@@ -6008,8 +5992,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- TAr-i -}            [ "fly" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; Tay~ar_1
     -- Tyr     Tay~ar  PV      make fly

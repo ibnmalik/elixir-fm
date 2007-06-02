@@ -615,8 +615,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- zaj~-u -}           [ "throw", "push", "press" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; zaj~aj_1
     -- zjj     zaj~aj  PV      draw;glaze
@@ -1626,8 +1625,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- zaf~-i -}           [ "hurry" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; zaf~-u_1
     -- zf      zaf~    PV_V    conduct in solemn procession
@@ -1641,8 +1639,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- zaf~-u -}           [ "conduct in solemn procession", "be married off" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; zufuwf_1
     -- zfwf    zufuwf  N       hurrying
@@ -2702,9 +2699,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- zal~-ia -}          [ "err", "slip" ]
                               `imperf`     FiCL
                               `pfirst`     FaCiL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCaL,
 
     -- ;; >azal~_1
     -- >zl     >azal~  PV_V    make slip;make stumble
@@ -3026,8 +3021,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- zam~-u -}           [ "fasten", "truss up" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; zam~am_1
     -- zmm     zam~am  PV      bridle
@@ -3657,8 +3651,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- zaq~-u -}           [ "feed (mouth-to-mouth)" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; zaq~_1
     -- zq      zaq~    N       wineskin
@@ -4139,8 +4132,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- zar~-u -}           [ "button up", "contort" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; zar~ar_1
     -- zrr     zar~ar  PV      button up
@@ -4350,8 +4342,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- zAg-u -}            [ "turn aside", "deviate", "swindle" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; tazAwag_1
     -- tzAwg   tazAwag PV      swerve;turn aside
@@ -4375,8 +4366,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- zAH-u -}            [ "depart" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL ]
+                              `pfirst`     FuL ]
 
  |> "z w ^g" <| [
 
@@ -4630,8 +4620,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- zAl-u -}            [ "disappear" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; zAl-a_1
     -- zAl     zAl     PV_V    cease;stop being;stop doing
@@ -4640,8 +4629,7 @@ lexicon = listing "Lexicon's properties"
     -- zl      zal     IV_C    cease;stop being;stop doing
 
     FAL                       `verb`    {- zAl-a -}            [ "cease", "stop being", "stop doing" ]
-                              `pfirst`     FiL
-                              `ithird`     FaL,
+                              `pfirst`     FiL,
 
     -- ;; zaw~al_1
     -- zwl     zaw~al  PV      remove
@@ -4738,8 +4726,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- zAm-u -}            [ "growl", "snarl" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; zaw~am_1
     -- zwm     zaw~am  PV      mutter;mumble
@@ -4791,8 +4778,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- zAr-u -}            [ "visit" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; zaw~ar_1
     -- zwr     zaw~ar  PV      forge;falsify
@@ -5064,8 +5050,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- zAg-i -}            [ "depart", "turn aside", "wander" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; >azAg_1
     -- >zAg    >azAg   PV_V    make deviate;avert
@@ -5104,8 +5089,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- zAH-i -}            [ "depart" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; >azAH_1
     -- >zAH    >azAH   PV_V    remove;abolish
@@ -5188,8 +5172,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- zAd-i -}            [ "increase", "exceed", "add", "be increased", "be added" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; zay~ad_1
     -- zyd     zay~ad  PV      augment
@@ -5353,8 +5336,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- zAf-i -}            [ "be false" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; zay~af_1
     -- zyf     zay~af  PV      counterfeit;consider spurious
@@ -5439,8 +5421,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- zAn-i -}            [ "decorate", "adorn" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; zay~an_1
     -- zyn     zay~an  PV-n    embellish;decorate

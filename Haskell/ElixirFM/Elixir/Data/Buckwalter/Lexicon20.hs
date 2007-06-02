@@ -342,7 +342,8 @@ lexicon = listing "Lexicon's properties"
     -- >fDy    >afoDiy Nap     open country
     -- AfDy    >afoDiy Nap     open country
 
-    FaCAL                     `noun`    {- faDA' -}            [ "space", "cosmos", "open country" ],
+    FaCAL                     `noun`    {- faDA' -}            [ "space", "cosmos", "open country" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; faDA}iy~_1
     -- fDA}y   faDA}iy~        N-ap    space;cosmic     [[faDA}iy~/ADJ]]
@@ -377,8 +378,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- faD~-u -}           [ "break up", "disperse", "dissolve" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; {inofaD~_1
     -- <nfD    {inofaD~        PV_V_intr       be dispersed;be dissolved;be concluded
@@ -811,7 +811,8 @@ lexicon = listing "Lexicon's properties"
     -- >fDy    >afoDiy Nap     open country
     -- AfDy    >afoDiy Nap     open country
 
-    FaCA'                     `noun`    {- faDA' -}            [ "space", "cosmos", "open country" ],
+    FaCA'                     `noun`    {- faDA' -}            [ "space", "cosmos", "open country" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; faDA}iy~_1
     -- fDA}y   faDA}iy~        N-ap    space;cosmic     [[faDA}iy~/ADJ]]
@@ -981,8 +982,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- faH~-u -}           [ "hiss", "whistle" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; faH~_1
     -- fH      faH~    N       hissing;whistling
@@ -1360,8 +1360,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- faS~-u -}           [ "peel", "shell" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; faS~aS_1
     -- fSS     faS~aS  PV      peel;shell
@@ -2293,8 +2292,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- faj~-u -}           [ "straddle" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; >afaj~_1
     -- >fj     >afaj~  PV_V    hurry;hasten
@@ -2631,8 +2629,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- fa$~-u -}           [ "cause to subside" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; {inofa$~_1
     -- <nf$    {inofa$~        PV_V    subside
@@ -4117,8 +4114,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- fak~-u -}           [ "separate", "dismantle", "detach", "disengage" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; fak~ak_1
     -- fkk     fak~ak  PV      dismantle;take apart;loosen;dismount
@@ -4713,8 +4709,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- fal~-u -}           [ "dent", "notch", "break", "route" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; fal~_2
     -- fl      fal~    N       cork
@@ -5221,7 +5216,8 @@ lexicon = listing "Lexicon's properties"
     -- >fny    >afoniy Nap     courtyards
     -- Afny    >afoniy Nap     courtyards
 
-    FiCAL                     `noun`    {- finA' -}            [ "courtyard", "courtyards" ],
+    FiCAL                     `noun`    {- finA' -}            [ "courtyard", "courtyards" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; <ifonA'_1
     -- <fnA'   <ifonA' N0_Nh   annihilation;destruction
@@ -5546,7 +5542,8 @@ lexicon = listing "Lexicon's properties"
     -- Afny    >afoniy Nap     courtyards
 
     FiCA'                     `noun`    {- finA' -}            [ "courtyard", "courtyards" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT,
 
     -- ;; <ifonA'_1
     -- <fnA'   <ifonA' N0_Nh   annihilation;destruction
@@ -7960,8 +7957,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- far~-i -}           [ "escape", "flee", "defect", "desert" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; >afar~_1
     -- >fr     >afar~  PV_V    scare off
@@ -9679,8 +9675,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- fat~-u -}           [ "weaken", "enervate" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; fat~at_1
     -- ftt     fat~at  PV-t    tear apart;dismember
@@ -10005,8 +10000,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- fAH-u -}            [ "be fragrant", "emanate" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; fawoHap_1
     -- fwH     fawoH   Nap     whiff;fragrance
@@ -10101,8 +10095,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- fAh-u -}            [ "pronounce", "utter", "voice" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; tafaw~ah_1
     -- tfwh    tafaw~ah        PV      pronounce;utter;voice
@@ -10213,8 +10206,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- fAq-u -}            [ "surpass", "excel" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; >afAq_1
     -- >fAq    >afAq   PV_V    wake up;recover;recuperate
@@ -10322,8 +10314,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- fAr-u -}            [ "boil", "gush out" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; faw~ar_1
     -- fwr     faw~ar  PV      boil
@@ -10414,8 +10405,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- fAt-u -}            [ "expire", "go by" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; faw~at_1
     -- fwt     faw~at  PV-t    miss;skip
@@ -10490,8 +10480,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- fAz-u -}            [ "win", "be victorious" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; fawoz_1
     -- fwz     fawoz   Ndu     victory
@@ -10549,8 +10538,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- fA'-i -}            [ "be displaced", "shift" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; fay~a>_1
     -- fy>     fay~a>  PV      give shade
@@ -10622,8 +10610,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- fAD-i -}            [ "exceed", "overflow" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; >afAD_1
     -- >fAD    >afAD   PV_V    spill;overfill
@@ -10769,8 +10756,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- fA$-i -}            [ "boast" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; fayo$_1
     -- fy$     fayo$   N       boasting
@@ -10937,8 +10923,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- fAl-i -}            [ "be erroneous" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; fuyuwlap_1
     -- fywl    fuyuwl  Nap     erring
@@ -11285,8 +11270,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- faz~-i -}           [ "be startled" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; faz~-i_2
     -- fz      faz~    PV_V    frighten;startle
@@ -11296,8 +11280,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- faz~-i -}           [ "frighten", "startle" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; >afaz~_1
     -- >fz     >afaz~  PV_V    frighten;startle

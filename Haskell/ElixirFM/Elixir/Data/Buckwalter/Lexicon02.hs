@@ -324,8 +324,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- baD~-i -}           [ "tune (instrument)" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; baD~_1
     -- bD      baD~    N       tuning (instrument)
@@ -907,8 +906,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- baH~-u -}           [ "be hoarse", "be harsh" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; baH~aH_1
     -- bHH     baH~aH  PV      make hoarse
@@ -1292,8 +1290,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- baS~-u -}           [ "look" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; baS~-i_1
     -- bS      baS~    PV_V    glow;sparkle
@@ -1303,8 +1300,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- baS~-i -}           [ "glow", "sparkle" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; baS~ap_1
     -- bS      baS~    Nap     embers
@@ -1817,8 +1813,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- baT~-u -}           [ "flush", "pierce" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; baT~_1
     -- bT      baT~    N       duck
@@ -2342,8 +2337,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- baZ~-u -}           [ "swell", "expand" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; baZ~_1
     -- bZ      baZ~    N       swelling;expanding
@@ -2533,8 +2527,7 @@ lexicon = listing "Lexicon's properties"
     -- b$$     bo$a$   IV_C_intr       be happy;be playful
 
     FaCL                      `verb`    {- ba$~-a -}           [ "be happy", "be playful" ]
-                              `pfirst`     FaCaL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCaL,
 
     -- ;; ba$uw$_1
     -- b$w$    ba$uw$  Nall    smiling;cheerful
@@ -2998,8 +2991,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- ba*~-u -}           [ "surpass", "beat" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; ba*~_1
     -- b*      ba*~    N       slovenly;squalid
@@ -3192,8 +3184,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- bax~-u -}           [ "sprinkle", "splatter" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; bax~Ax_1
     -- bxAx    bax~Ax  N       nozzle
@@ -3453,8 +3444,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- bav~-u -}           [ "transmit", "disseminate" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; {inobav~_1
     -- <nbv    {inobav~        PV_V_intr       be transmitted;be disseminated
@@ -4356,8 +4346,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- bad~-u -}           [ "disperse", "distribute" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; bad~ad_1
     -- bdd     bad~ad  PV      squander;disperse
@@ -7000,8 +6989,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- bal~-u -}           [ "soak", "wet" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; bal~-i_1
     -- bl      bal~    PV_V    recover
@@ -7011,8 +6999,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- bal~-i -}           [ "recover" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; bal~al_1
     -- bll     bal~al  PV      dampen;humidify;wet
@@ -7554,7 +7541,8 @@ lexicon = listing "Lexicon's properties"
     -- >bny    >aboniy NAt     buildings;structures
     -- Abny    >aboniy NAt     buildings;structures
 
-    FiCAL                     `noun`    {- binA' -}            [ "building", "structure", "buildings", "structures" ],
+    FiCAL                     `noun`    {- binA' -}            [ "building", "structure", "buildings", "structures" ]
+                              `plural`     HaFCI |< At |< aT,
 
     -- ;; binA'F_1
     -- bnA'    binA'F  FW-Wa   based on;according to     [[binA'F/ADV]]
@@ -7599,8 +7587,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bA'-u -}            [ "return", "incur" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; >abA'_1
     -- >bA'    >abA'   PV_V    accommodate;reside
@@ -8096,7 +8083,8 @@ lexicon = listing "Lexicon's properties"
     -- Abny    >aboniy NAt     buildings;structures
 
     FiCA'                     `noun`    {- binA' -}            [ "building", "structure", "buildings", "structures" ]
-                              `plural`     HaFCiL |< At |< aT,
+                              `plural`     HaFCiL |< At |< aT
+                              `plural`     HaFCI |< At |< aT,
 
     -- ;; binA'F_1
     -- bnA'    binA'F  FW-Wa   based on;according to     [[binA'F/ADV]]
@@ -8419,8 +8407,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- baq~-u -}           [ "be bounteous" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; baq~_1
     -- bq      baq~    N/ap    bedbug
@@ -10306,9 +10293,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- bar~-i -}           [ "be charitable", "be devoted" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; bar~ar_1
     -- brr     bar~ar  PV      justify;warrant;vindicate;acquit
@@ -11251,8 +11236,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- bas~-u -}           [ "crush", "pulverize" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; bas~ap_1
     -- bs      bas~    Napdu   cat
@@ -11531,9 +11515,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- bat~-ui -}          [ "determine", "complete" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; bat~at_1
     -- btt     bat~at  PV-t    accomplish;adjudicate
@@ -11706,8 +11688,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bAH-u -}            [ "disclose", "divulge" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; >abAH_1
     -- >bAH    >abAH   PV_V    reveal;allow
@@ -11848,8 +11829,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bA$-u -}            [ "be boisterous" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; baw~a$_1
     -- bw$     baw~a$  PV_intr be boisterous
@@ -11892,8 +11872,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bAx-u -}            [ "subside", "spoil" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; baw~ax_1
     -- bwx     baw~ax  PV      spoil;ruin
@@ -12076,8 +12055,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bAl-u -}            [ "urinate" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; baw~al_1
     -- bwl     baw~al  PV      urinate
@@ -12324,8 +12302,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bAr-u -}            [ "perish", "be futile" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; baw~ar_1
     -- bwr     baw~ar  PV      make useless
@@ -12401,8 +12378,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bAs-u -}            [ "kiss" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; bawosap_1
     -- bws     bawos   NapAt   kiss
@@ -12517,8 +12493,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bAD-i -}            [ "lay an egg", "settle down" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; bay~aD_1
     -- byD     bay~aD  PV      bleach;blanch
@@ -12697,8 +12672,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bAE-i -}            [ "sell" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; bAyaE_1
     -- bAyE    bAyaE   PV      pledge allegiance to;recognize as leader
@@ -12840,8 +12814,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bAd-i -}            [ "perish", "disappear" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; >abAd_1
     -- >bAd    >abAd   PV_V    exterminate
@@ -12982,8 +12955,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bAn-i -}            [ "appear", "be evident" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; bay~an_1
     -- byn     bay~an  PV-n    declare;demonstrate
@@ -13265,8 +13237,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- bAt-i -}            [ "become", "remain" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; bay~at_1
     -- byt     bay~at  PV-t    plot;scheme
@@ -13541,8 +13512,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- baz~-u -}           [ "steal", "defeat" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; baz~-a_1
     -- bz      baz~    PV_V    bud;burgeon
@@ -13552,8 +13522,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- baz~-a -}           [ "bud", "burgeon" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; {ibotaz~_1
     -- <btz    {ibotaz~        PV_V    embezzle;extort

@@ -2027,6 +2027,9 @@ $Lexicon = {
         'AsAq    >asAq   NK      waterskins'
       ],
       'patterns' => {
+        '\'asqiy' => [
+          'HaFCI'
+        ],
         '\'asAqiy' => [
           'HaFACI'
         ]
@@ -8131,8 +8134,14 @@ $Lexicon = {
         'nsb     nosab   IV_C    flow;stream'
       ],
       'patterns' => {
+        'nsab' => [
+          'NFaL'
+        ],
         'nsAb' => [
           'NFAL'
+        ],
+        'insab' => [
+          'InFaL'
         ]
       },
       'index' => '1',
@@ -18593,6 +18602,9 @@ $Lexicon = {
         ],
         'sAm' => [
           'FAL'
+        ],
+        '\'asam' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -18654,6 +18666,12 @@ $Lexicon = {
         'nsm     nosam   IV_C_intr       be ordained;be consecrated'
       ],
       'patterns' => {
+        'nsam' => [
+          'NFaL'
+        ],
+        'insam' => [
+          'InFaL'
+        ],
         'nsAm' => [
           'NFAL'
         ]
@@ -18694,8 +18712,14 @@ $Lexicon = {
         'stm     sotam   IV_C    bargain;haggle'
       ],
       'patterns' => {
+        'istam' => [
+          'IFtaL'
+        ],
         'stAm' => [
           'FtAL'
+        ],
+        'stam' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -20861,6 +20885,9 @@ $Lexicon = {
         'sa.g' => [
           'FaL'
         ],
+        '\'asa.g' => [
+          'HaFaL'
+        ],
         'siy.g' => [
           'FIL'
         ]
@@ -20925,7 +20952,11 @@ $Lexicon = {
         'stsyg   sotasiyg        IV_V    find pleasant;admit',
         'stsg    sotasig IV_C    find pleasant;admit'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istasa.g' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -27181,7 +27212,8 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '\'asqiy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ],
         '\'asAqiy' => [
           'HaFACiL',
@@ -33424,6 +33456,9 @@ $Lexicon = {
           'FIL',
           'FiCL'
         ],
+        '\'asal' => [
+          'HaFaL'
+        ],
         'sil' => [
           'FiL'
         ]
@@ -36555,6 +36590,12 @@ $Lexicon = {
         'nsq     nosaq   IV_C_intr       be driven;be carried away'
       ],
       'patterns' => {
+        'nsaq' => [
+          'NFaL'
+        ],
+        'insaq' => [
+          'InFaL'
+        ],
         'nsAq' => [
           'NFAL'
         ]
@@ -36595,6 +36636,12 @@ $Lexicon = {
         'stq     sotaq   IV_C    urge on'
       ],
       'patterns' => {
+        'istaq' => [
+          'IFtaL'
+        ],
+        'staq' => [
+          'FtaL'
+        ],
         'stAq' => [
           'FtAL'
         ]
@@ -45436,7 +45483,8 @@ $Lexicon = {
           'FaCA'
         ],
         '\'asdiy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '1',
@@ -46430,6 +46478,9 @@ $Lexicon = {
         'si.h' => [
           'FiL'
         ],
+        '\'asa.h' => [
+          'HaFaL'
+        ],
         'sA.h' => [
           'FAL'
         ]
@@ -46470,8 +46521,14 @@ $Lexicon = {
         'nsH     nosaH   IV_C    spread;pour'
       ],
       'patterns' => {
+        'insa.h' => [
+          'InFaL'
+        ],
         'nsA.h' => [
           'NFAL'
+        ],
+        'nsa.h' => [
+          'NFaL'
         ]
       },
       'index' => '1',
@@ -48100,6 +48157,9 @@ $Lexicon = {
         'sA\'' => [
           'FAL'
         ],
+        '\'asa\'' => [
+          'HaFaL'
+        ],
         'si\'' => [
           'FiL'
         ]
@@ -48158,6 +48218,9 @@ $Lexicon = {
         'sA\'' => [
           'FAL'
         ],
+        '\'asa\'' => [
+          'HaFaL'
+        ],
         'si\'' => [
           'FiL'
         ]
@@ -48206,6 +48269,12 @@ $Lexicon = {
         'st>     sota>   IV_C_intr       be dissatisfied;be discontent'
       ],
       'patterns' => {
+        'sta\'' => [
+          'FtaL'
+        ],
+        'ista\'' => [
+          'IFtaL'
+        ],
         'stA\'' => [
           'FtAL'
         ]
@@ -49720,6 +49789,9 @@ $Lexicon = {
         ],
         'sAr' => [
           'FAL'
+        ],
+        '\'asar' => [
+          'HaFaL'
         ],
         'sar' => [
           'FaL'
@@ -54394,7 +54466,8 @@ $Lexicon = {
           'FuCLAn'
         ],
         '\'asriy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '2',
@@ -55357,6 +55430,9 @@ $Lexicon = {
       'patterns' => {
         '\'asli\'' => [
           'HaFCiL'
+        ],
+        '\'asliy' => [
+          'HaFCI'
         ]
       },
       'index' => '1',

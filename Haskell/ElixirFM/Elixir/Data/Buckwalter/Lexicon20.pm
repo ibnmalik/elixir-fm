@@ -7821,7 +7821,11 @@ $Lexicon = {
         '>fDy    >afoDiy Nap     open country',
         'AfDy    >afoDiy Nap     open country'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'af.diy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCAL',
@@ -8003,7 +8007,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'ftar' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ],
         'ftir' => [
           'FCiL'
@@ -15447,6 +15452,9 @@ $Lexicon = {
         'fiq' => [
           'FiL'
         ],
+        '\'afaq' => [
+          'HaFaL'
+        ],
         'fAq' => [
           'FAL'
         ]
@@ -15512,7 +15520,11 @@ $Lexicon = {
         'stfyq   sotafiyq        IV_V    wake up;recover;recuperate',
         'stfq    sotafiq IV_C    wake up;recover;recuperate'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istafaq' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -21832,6 +21844,9 @@ $Lexicon = {
         'fA.d' => [
           'FAL'
         ],
+        '\'afa.d' => [
+          'HaFaL'
+        ],
         'fa.d' => [
           'FaL'
         ],
@@ -21876,7 +21891,11 @@ $Lexicon = {
         'stfyD   sotafiyD        IV_V    spread;be thorough',
         'stfD    sotafiD IV_C    spread;be thorough'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istafa.d' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -26449,6 +26468,9 @@ $Lexicon = {
           'FIL',
           'FiCL'
         ],
+        '\'afad' => [
+          'HaFaL'
+        ],
         'fAd' => [
           'FAL'
         ]
@@ -26504,7 +26526,11 @@ $Lexicon = {
         'stfAd   sotafAd IV_V_Pass_yu    be benefited from;be made use of',
         'stfd    sotafad IV_C_Pass_yu    be benefited from;be made use of'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istafad' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -26888,8 +26914,14 @@ $Lexicon = {
         'ftt     fotat   IV_C    invent;violate;infringe'
       ],
       'patterns' => {
+        'iftat' => [
+          'IFtaL'
+        ],
         'ftAt' => [
           'FtAL'
+        ],
+        'ftat' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -27611,7 +27643,11 @@ $Lexicon = {
       'entry' => 'fa.dA\'',
       'form' => 'fa.dA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'af.diy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCA\'',
@@ -28617,7 +28653,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'ftan' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ],
         'futin' => [
           'FuCiL'
@@ -28662,7 +28699,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'ftan' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ],
         'ftin' => [
           'FCiL'
@@ -29620,7 +29658,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'afniy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '1',
@@ -31564,7 +31603,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'fta\'' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -35331,7 +35371,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'fta.h' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ],
         'futi.h' => [
           'FuCiL'
@@ -44154,6 +44195,9 @@ $Lexicon = {
           'FIL',
           'FiCL'
         ],
+        '\'afa\'' => [
+          'HaFaL'
+        ],
         'fi\'' => [
           'FiL'
         ],
@@ -48365,7 +48409,11 @@ $Lexicon = {
       'entry' => 'finA\'',
       'form' => 'finA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'afniy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -48926,7 +48974,8 @@ $Lexicon = {
           'FCY'
         ],
         'ftay' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -51817,6 +51866,9 @@ $Lexicon = {
         ],
         'fAr' => [
           'FAL'
+        ],
+        '\'afar' => [
+          'HaFaL'
         ],
         'fir' => [
           'FiL'

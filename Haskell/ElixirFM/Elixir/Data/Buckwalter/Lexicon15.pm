@@ -6590,6 +6590,9 @@ $Lexicon = {
         'Df      Daf     IV_C_Pass_yu    be added'
       ],
       'patterns' => {
+        '\'a.daf' => [
+          'HaFaL'
+        ],
         '.diyf' => [
           'FIL',
           'FiCL'
@@ -6666,8 +6669,14 @@ $Lexicon = {
         'nDf     noDaf   IV_C_intr       be added'
       ],
       'patterns' => {
+        'in.daf' => [
+          'InFaL'
+        ],
         'n.dAf' => [
           'NFAL'
+        ],
+        'n.daf' => [
+          'NFaL'
         ]
       },
       'index' => '1',
@@ -6712,7 +6721,11 @@ $Lexicon = {
         'stDAf   sotaDAf IV_V_Pass_yu    be hosted;be invited',
         'stDf    sotaDaf IV_C_Pass_yu    be hosted;be invited'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista.daf' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -13487,6 +13500,9 @@ $Lexicon = {
         '.da`' => [
           'FaL'
         ],
+        '\'a.da`' => [
+          'HaFaL'
+        ],
         '.di`' => [
           'FiL'
         ],
@@ -14649,7 +14665,11 @@ $Lexicon = {
         'stDym   sotaDiym        IV_V    treat unjustly;injure',
         'stDm    sotaDim IV_C    treat unjustly;injure'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista.dam' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -15060,6 +15080,9 @@ $Lexicon = {
         '.diy\'' => [
           'FIL'
         ],
+        '\'a.da\'' => [
+          'HaFaL'
+        ],
         '.di\'' => [
           'FiL'
         ]
@@ -15132,7 +15155,11 @@ $Lexicon = {
         'stDy}   sotaDiy}        IV_V_intr       be lit;become clear',
         'stD}    sotaDi} IV_C_intr       be lit;become clear'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista.da\'' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',

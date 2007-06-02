@@ -86,18 +86,18 @@ instance Inflect RootEntry ParaVerb where
 
     inflect (RE r e) x@(VerbP   v p g n) = (map inRules . inEntry) e
 
-        where inEntry e = case entity e of
+        where Morphs pattern _ _ = morphs e
 
-                  Verb _ [] _ _ ->  [ morphs e ]
+              inEntry e = case entity e of
 
-                  Verb _ is _ _ ->  if isDefault x then [ morphs e ]
+                  Verb [] _ _   ->  [ morphs e ]
+
+                  Verb is _ _   ->  if isDefault x then [ morphs e ]
                                                    else [ morph i | i <- is ]
 
-                  _             ->  error "Incompatible Verb"
+                  _             ->  error "Incompatible VerbP"
 
               inRules = merge r . paradigm (paraVerbP v p g n)
-
-              Morphs pattern _ _ = morphs e
 
               paradigm p m@(Morphs t _ _) = p $ case v of
 
@@ -118,21 +118,21 @@ instance Inflect RootEntry ParaVerb where
 
     inflect (RE r e) x@(VerbI m v p g n) = (map inRules . inEntry) e
 
-        where inEntry e = case entity e of
+        where Morphs pattern _ _ = morphs e
 
-                  Verb [] _ _  _ -> [ morph y | (x, _, y, _) <- verbStems form,
+              inEntry e = case entity e of
+
+                  Verb _ [] _   -> [ morph y | (x, _, y, _) <- verbStems form,
                                                 x == pattern ]
 
-                  Verb is _ [] _ -> [ morph i | i <- is ]
+                  Verb _ is _   -> [ morph i | i <- is ]
 
-                  Verb is _ ys _ -> if isDefault x then [ morph i | i <- is ]
-                                                   else [ morph y | y <- ys ]
+                                   -- if isDefault x then [ morph i | i <- is ]
+                                   --                else [ morph y | y <- ys ]
 
-                  _              -> error "Incompatible Verb"
+                  _              -> error "Incompatible VerbI"
 
               inRules = merge r . paradigm (paraVerbI m v p g n)
-
-              Morphs pattern _ _ = morphs e
 
               paradigm p m@(Morphs t _ _) = p (prefixVerbI form t v) $ case v of
 
@@ -153,23 +153,20 @@ instance Inflect RootEntry ParaVerb where
 
     inflect (RE r e) x@(VerbC       g n) = (map inRules . inEntry) e
 
-        where inEntry e = case entity e of
+        where Morphs pattern _ _ = morphs e
 
-                Verb [] _ _  [] ->  [ morph y | (x, _, y, _) <- verbStems form,
+              inEntry e = case entity e of
+
+                  Verb _ [] []  ->  [ morph y | (x, _, y, _) <- verbStems form,
                                                 x == pattern ]
 
-                Verb is _ [] [] ->  [ morph i | i <- is ]
+                  Verb _ is []  ->  [ morph i | i <- is ]
 
-                Verb is _ ys [] ->  if isDefault x then [ morph i | i <- is ]
-                                                   else [ morph y | y <- ys ]
+                  Verb _ _  is  ->  [ morph i | i <- is ]
 
-                Verb _  _ _  is ->  [ morph i | i <- is ]
-
-                _               ->  error "Incompatible Verb"
+                  _             ->  error "Incompatible VerbC"
 
               inRules = merge r . paradigm (paraVerbC g n)
-
-              Morphs pattern _ _ = morphs e
 
               paradigm p m@(Morphs t _ _) = p (prefixVerbC form t)
                                             (if isDefault x then m

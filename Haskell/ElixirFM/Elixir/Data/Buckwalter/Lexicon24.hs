@@ -448,8 +448,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- maD~-u -}           [ "hurt", "sting", "harass" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; maD~-a_1
     -- mD      maD~    PV_V_intr       suffer;be worried
@@ -458,8 +457,7 @@ lexicon = listing "Lexicon's properties"
     -- mDD     moDaD   IV_C_intr       suffer;be worried
 
     FaCL                      `verb`    {- maD~-a -}           [ "suffer", "be worried" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCiL,
 
     -- ;; >amaD~_1
     -- >mD     >amaD~  PV_V    hurt;torment
@@ -1434,8 +1432,7 @@ lexicon = listing "Lexicon's properties"
     -- mSS     moSaS   IV_C    suck;absorb;lap up
 
     FaCL                      `verb`    {- maS~-a -}           [ "suck", "absorb", "lap up" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCiL,
 
     -- ;; maS~-u_1
     -- mSS     maSaS   PV_C    suck;absorb;lap up
@@ -1444,8 +1441,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- maS~-u -}           [ "suck", "absorb", "lap up" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; tamaS~aS_1
     -- tmSS    tamaS~aS        PV      sip
@@ -1645,8 +1641,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- maT~-u -}           [ "stretch", "draw tight", "make taut" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; maT~aT_1
     -- mTT     maT~aT  PV      expand;stretch
@@ -1912,8 +1907,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- maj~-u -}           [ "emit", "discharge", "reject" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; maj~aj_1
     -- mjj     maj~aj  PV      ripen;mellow
@@ -2331,8 +2325,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- ma$~-u -}           [ "macerate", "soak" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; ma$~_1
     -- m$      ma$~    N       maceration;soaking
@@ -3608,8 +3601,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- mad~-u -}           [ "extend", "stretch", "spread out" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; mad~ad_1
     -- mdd     mad~ad  PV      extend;stretch out;spread out
@@ -5496,8 +5488,7 @@ lexicon = listing "Lexicon's properties"
     -- mll     molal   IV_C_intr       become bored with;become impatient with
 
     FaCL                      `verb`    {- mal~-a -}           [ "become bored with", "become impatient with" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCiL,
 
     -- ;; >amal~_1
     -- >ml     >amal~  PV_V    annoy;irritate;bother
@@ -7393,8 +7384,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- mar~-u -}           [ "pass", "go through" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; mar~ar_1
     -- mrr     mar~ar  PV      let pass through;make bitter
@@ -8276,8 +8266,7 @@ lexicon = listing "Lexicon's properties"
     -- mss     mosas   IV_C    touch;violate;infringe
 
     FaCL                      `verb`    {- mas~-a -}           [ "touch", "violate", "infringe" ]
-                              `pfirst`     FaCaL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCaL,
 
     -- ;; mAs~_1
     -- mAs     mAs~    PV_V_intr       be in touch with;be in contact with
@@ -8745,8 +8734,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- mat~-u -}           [ "be related by marriage", "be associated" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; mAt~ap_1
     -- mAt     mAt~    Nap     family ties;kinship
@@ -8857,8 +8845,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAj-u -}            [ "surge", "swell", "be agitated" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; maw~aj_1
     -- mwj     maw~aj  PV      ripple
@@ -8967,8 +8954,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAh-u -}            [ "mix", "have abundant water" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; maw~ah_1
     -- mwh     maw~ah  PV      have abundant water;add water;dilute
@@ -9160,8 +9146,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAr-u -}            [ "move from side to side" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; tamaw~ar_1
     -- tmwr    tamaw~ar        PV      move from side to side
@@ -9274,8 +9259,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAt-u -}            [ "die", "pass away" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; maw~at_1
     -- mwt     maw~at  PV-t    kill
@@ -9398,8 +9382,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAH-i -}            [ "strut", "waddle" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; tamay~aH_1
     -- tmyH    tamay~aH        PV      stagger;swing
@@ -9445,8 +9428,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAT-i -}            [ "remove", "pull away", "draw back" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; >amAT_1
     -- >mAT    >amAT   PV_V    remove;pull away;draw back
@@ -9511,8 +9493,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAE-i -}            [ "dissolve", "melt", "be indulgent" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; may~aE_1
     -- myE     may~aE  PV      soften;attenuate;liquify
@@ -9604,8 +9585,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAd-i -}            [ "shake", "totter", "sway" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; tamAyad_1
     -- tmAyd   tamAyad PV      sway back and forth
@@ -9710,8 +9690,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAl-i -}            [ "lean", "bend", "incline", "be partial", "sympathize" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; may~al_1
     -- myl     may~al  PV      incline;tilt
@@ -9880,8 +9859,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAr-i -}            [ "provide for", "support" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; >amAr_1
     -- >mAr    >amAr   PV_V    provide for;support
@@ -9946,8 +9924,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAs-i -}            [ "swagger" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; mayos_1
     -- mys     mayos   N       swagger
@@ -10031,8 +10008,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- mAz-i -}            [ "separate", "distinguish" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; may~az_1
     -- myz     may~az  PV      distinguish;differentiate;discriminate
@@ -10414,8 +10390,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- maz~-u -}           [ "sip", "suck" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; {imotaz~_1
     -- <mtz    {imotaz~        PV_V    adsorb;accumulate on the surface

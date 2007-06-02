@@ -152,7 +152,7 @@ data Entry a = Entry { entity :: Entity a, morphs :: Morphs a,
     deriving Show
 
 
-data Entity a = Verb { imperfect, perfect', imperfect', imperative :: [a] }
+data Entity a = Verb { perfect', imperfect, imperative :: [a] }
               | Noun [Morphs a] (Maybe Gender) (Maybe Number)
               | Adj [Morphs a] (Maybe Number)
               | More
@@ -180,7 +180,7 @@ data Number = Singular | Dual | Plural
 
 verb, noun, adj, num, prep, conj, part :: (Morphing a b, Nestable b) => a -> Lexref -> Entry b
 
-verb m l = Entry (Verb [] [] [] []) (morph m) l
+verb m l = Entry (Verb [] [] []) (morph m) l
 
 noun m l = Entry (Noun [] Nothing Nothing) (morph m) l
 
@@ -215,10 +215,14 @@ pfirst x y = x { entity = e { perfect' = y : p } }
           p = perfect' e
 
 
+ithird = const
+
+{-
 ithird x y = x { entity = e { imperfect' = y : i } }
 
     where e = entity x
           i = imperfect' e
+-}
 
 
 second x y = x { entity = e { imperative = y : i } }

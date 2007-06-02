@@ -597,6 +597,9 @@ $Lexicon = {
         'miyt' => [
           'FIL'
         ],
+        '\'amat' => [
+          'HaFaL'
+        ],
         'mAt' => [
           'FAL'
         ],
@@ -667,7 +670,11 @@ $Lexicon = {
         'stmyt   sotamiyt        IV_V    defy death;make a desperate effort',
         'stmt    sotamit IV_C    defy death;make a desperate effort'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istamat' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -11515,6 +11522,9 @@ $Lexicon = {
         'ma.t' => [
           'FaL'
         ],
+        '\'ama.t' => [
+          'HaFaL'
+        ],
         'miy.t' => [
           'FIL',
           'FiCL'
@@ -17432,7 +17442,11 @@ $Lexicon = {
         'stmyH   sotamiyH        IV_V    request',
         'stmH    sotamiH IV_C    request'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istama.h' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -25501,6 +25515,9 @@ $Lexicon = {
         'ml      mal     IV_C_Pass_yu    be inclined;be tilted'
       ],
       'patterns' => {
+        '\'amal' => [
+          'HaFaL'
+        ],
         'mal' => [
           'FaL'
         ],
@@ -25595,7 +25612,11 @@ $Lexicon = {
         'stmyl   sotamiyl        IV_V    make incline;attract;win the affection of',
         'stml    sotamil IV_C    make incline;attract;win the affection of'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istamal' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '2',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -32651,6 +32672,9 @@ $Lexicon = {
         'mAr' => [
           'FAL'
         ],
+        '\'amar' => [
+          'HaFaL'
+        ],
         'mar' => [
           'FaL'
         ],
@@ -34282,7 +34306,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'mta`' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -34350,7 +34375,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'mta`' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ],
         'mti`' => [
           'FCiL'
@@ -36042,7 +36068,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'mta.h' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -37814,7 +37841,11 @@ $Lexicon = {
         'stmyl   sotamiyl        IV_V    get rich',
         'stml    sotamil IV_C    get rich'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istamal' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -43247,6 +43278,9 @@ $Lexicon = {
         ],
         'mah' => [
           'FaL'
+        ],
+        '\'amah' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -46456,6 +46490,9 @@ $Lexicon = {
         'mAz' => [
           'FAL'
         ],
+        '\'amaz' => [
+          'HaFaL'
+        ],
         'maz' => [
           'FaL'
         ]
@@ -46566,8 +46603,14 @@ $Lexicon = {
         'mtz     motaz   IV_C_intr       be distinguished;excel;surpass'
       ],
       'patterns' => {
+        'mtaz' => [
+          'FtaL'
+        ],
         'mtAz' => [
           'FtAL'
+        ],
+        'imtaz' => [
+          'IFtaL'
         ]
       },
       'index' => '1',
@@ -47597,6 +47640,9 @@ $Lexicon = {
         'ma`' => [
           'FaL'
         ],
+        '\'ama`' => [
+          'HaFaL'
+        ],
         'mi`' => [
           'FiL'
         ],
@@ -47667,6 +47713,12 @@ $Lexicon = {
       'patterns' => {
         'nmA`' => [
           'NFAL'
+        ],
+        'nma`' => [
+          'NFaL'
+        ],
+        'inma`' => [
+          'InFaL'
         ]
       },
       'index' => '1',

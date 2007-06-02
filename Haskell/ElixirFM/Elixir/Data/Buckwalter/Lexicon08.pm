@@ -823,6 +823,9 @@ $Lexicon = {
         'dAm' => [
           'FAL'
         ],
+        '\'adam' => [
+          'HaFaL'
+        ],
         'dam' => [
           'FaL'
         ],
@@ -868,7 +871,11 @@ $Lexicon = {
         'stdym   sotadiym        IV_V    make last;continue',
         'stdm    sotadim IV_C    make last;continue'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istadam' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -3179,7 +3186,11 @@ $Lexicon = {
         '>dEy    >adoEiy Nap     call;request;invocation',
         'AdEy    >adoEiy Nap     call;request;invocation'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'ad`iy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCAL',
@@ -5111,6 +5122,9 @@ $Lexicon = {
         ],
         'dAl' => [
           'FAL'
+        ],
+        '\'adal' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -6054,7 +6068,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'adwiy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '1',
@@ -24104,7 +24119,11 @@ $Lexicon = {
       'entry' => 'du`A\'',
       'form' => 'du`A\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'ad`iy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCA\'',
@@ -24896,6 +24915,9 @@ $Lexicon = {
         'dAr' => [
           'FAL'
         ],
+        '\'adar' => [
+          'HaFaL'
+        ],
         'diyr' => [
           'FIL'
         ],
@@ -24967,7 +24989,11 @@ $Lexicon = {
         'stdyr   sotadiyr        IV_V    turn around;encircle',
         'stdr    sotadir IV_C    turn around;encircle'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istadar' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -28141,8 +28167,14 @@ $Lexicon = {
         'nds     nodas   IV_C_intr       be stepped on;be crushed;be run over'
       ],
       'patterns' => {
+        'ndas' => [
+          'NFaL'
+        ],
         'ndAs' => [
           'NFAL'
+        ],
+        'indas' => [
+          'InFaL'
         ]
       },
       'index' => '1',
@@ -29570,6 +29602,9 @@ $Lexicon = {
           'FIL',
           'FiCL'
         ],
+        '\'adan' => [
+          'HaFaL'
+        ],
         'dAn' => [
           'FAL'
         ],
@@ -29661,7 +29696,11 @@ $Lexicon = {
         'stdyn   sotadiyn        IV_V    borrow',
         'stdn    sotadin IV-n    borrow'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istadan' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -33878,6 +33917,12 @@ $Lexicon = {
       'patterns' => {
         'ddA.h' => [
           'FtAL'
+        ],
+        'dda.h' => [
+          'FtaL'
+        ],
+        'idda.h' => [
+          'IFtaL'
         ]
       },
       'index' => '1',
@@ -35833,7 +35878,11 @@ $Lexicon = {
       'entry' => 'dawA\'',
       'form' => 'dawA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'adwiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCAL',

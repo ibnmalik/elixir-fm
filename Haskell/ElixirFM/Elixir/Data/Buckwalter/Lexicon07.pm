@@ -670,6 +670,9 @@ $Lexicon = {
         ],
         '_haf' => [
           'FaL'
+        ],
+        '\'a_haf' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -5901,6 +5904,12 @@ $Lexicon = {
         'xtr     xotar   IV_C_Pass_yu    be chosen;be picked;be selected'
       ],
       'patterns' => {
+        '_htar' => [
+          'FtaL'
+        ],
+        'i_htar' => [
+          'IFtaL'
+        ],
         '_htAr' => [
           'FtAL'
         ]
@@ -5944,7 +5953,11 @@ $Lexicon = {
         'stxyr   sotaxiyr        IV_V    seek guidance',
         'stxr    sotaxir IV_C    seek guidance'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista_har' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -14708,6 +14721,9 @@ $Lexicon = {
         'Axby    >axobiy Nap     tents;husks;hulls'
       ],
       'patterns' => {
+        '\'a_hbiy' => [
+          'HaFCI'
+        ],
         '\'a_hbi\'' => [
           'HaFCiL'
         ]
@@ -16490,6 +16506,9 @@ $Lexicon = {
         'xl      xil     IV_C_intr_yu    be vague;be doubtful;be intricate'
       ],
       'patterns' => {
+        '\'a_hal' => [
+          'HaFaL'
+        ],
         '_hil' => [
           'FiL'
         ],
@@ -16584,6 +16603,12 @@ $Lexicon = {
       'patterns' => {
         '_htAl' => [
           'FtAL'
+        ],
+        'i_htal' => [
+          'IFtaL'
+        ],
+        '_htal' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -20371,8 +20396,14 @@ $Lexicon = {
         'xtn     xotan   IV-n    cheat;betray'
       ],
       'patterns' => {
+        'i_htan' => [
+          'IFtaL'
+        ],
         '_htAn' => [
           'FtAL'
+        ],
+        '_htan' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -29725,6 +29756,9 @@ $Lexicon = {
         '_hiyb' => [
           'FIL',
           'FiCL'
+        ],
+        '\'a_hab' => [
+          'HaFaL'
         ],
         '_hib' => [
           'FiL'

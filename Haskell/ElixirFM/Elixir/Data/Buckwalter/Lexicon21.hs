@@ -233,7 +233,8 @@ lexicon = listing "Lexicon's properties"
     -- >qDy    >aqoDiy Nap     districts;provinces
     -- AqDy    >aqoDiy Nap     districts;provinces
 
-    FaCAL                     `noun`    {- qaDA' -}            [ "district", "province", "districts", "provinces" ],
+    FaCAL                     `noun`    {- qaDA' -}            [ "district", "province", "districts", "provinces" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; qaDA}iy~_1
     -- qDA}y   qaDA}iy~        N-ap    judicial;legal     [[qaDA}iy~/ADJ]]
@@ -282,8 +283,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qaD~-u -}           [ "perforate", "demolish" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; qaD~-a_1
     -- qD      qaD~    PV_V_intr       be rough;be crude
@@ -292,8 +292,7 @@ lexicon = listing "Lexicon's properties"
     -- qDD     qoDaD   IV_C_intr       be rough;be crude
 
     FaCL                      `verb`    {- qaD~-a -}           [ "be rough", "be crude" ]
-                              `pfirst`     FaCaL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCaL,
 
     -- ;; >aqaD~_1
     -- >qD     >aqaD~  PV_V_intr       be rough;be hard
@@ -593,6 +592,7 @@ lexicon = listing "Lexicon's properties"
     FaCY                      `noun`    {- qaDaY -}            [ "judgment", "sentence", "judgments", "sentences" ]
                               `plural`     FaCA
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT
                            {- `others`  [ "qa.dA Nhy" ] -},
 
     -- ;; qaDA'_1
@@ -617,7 +617,8 @@ lexicon = listing "Lexicon's properties"
     -- AqDy    >aqoDiy Nap     districts;provinces
 
     FaCA'                     `noun`    {- qaDA' -}            [ "district", "province", "districts", "provinces" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT,
 
     -- ;; qaDawiy~ap_1
     -- qDwy    qaDawiy~        Nap     jurisdiction     [[qaDawiy~/NOUN]]
@@ -757,8 +758,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qaH~-u -}           [ "cough" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; quH~_1
     -- qH      quH~    N-ap    pure;genuine
@@ -995,8 +995,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qaS~-u -}           [ "cut", "trim" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; qaS~-u_2
     -- qS      qaS~    PV_V    narrate;tell
@@ -1006,8 +1005,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qaS~-u -}           [ "narrate", "tell" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; qaS~aS_1
     -- qSS     qaS~aS  PV      cut off;trim
@@ -1988,8 +1986,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qaT~-u -}           [ "carve", "trim", "sharpen" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; qaT~aT_1
     -- qTT     qaT~aT  PV      carve
@@ -3013,9 +3010,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- qa$~-ui -}          [ "collect", "dry up" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; qa$~a$_1
     -- q$$     qa$~a$  PV      reupholster;reseat;glean
@@ -3735,8 +3730,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qav~-u -}           [ "uproot", "extirpate" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; {iqotav~_1
     -- <qtv    {iqotav~        PV_V    uproot;extirpate
@@ -4437,8 +4431,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qab~-u -}           [ "bristle", "rise", "swell" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; qab~ab_1
     -- qbb     qab~ab  PV      make bristle;make rise;make swell
@@ -4989,7 +4982,8 @@ lexicon = listing "Lexicon's properties"
     -- >qby    >aqobiy Nap     underground shelters;vaulted ceilings;arches
     -- Aqby    >aqobiy Nap     underground shelters;vaulted ceilings;arches
 
-    FaCL                      `noun`    {- qabow -}            [ "underground shelter", "vaulted ceiling", "arch", "underground shelters", "vaulted ceilings", "arches" ],
+    FaCL                      `noun`    {- qabow -}            [ "underground shelter", "vaulted ceiling", "arch", "underground shelters", "vaulted ceilings", "arches" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; qabowap_1
     -- qbw     qabow   Napdu   vault;cellar
@@ -5155,8 +5149,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qad~-u -}           [ "cut lengthwise", "cut into strips" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; qad~ad_1
     -- qdd     qad~ad  PV      cut lengthwise;cut into strips
@@ -6085,8 +6078,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qaf~-u -}           [ "be dry", "wither", "shrink" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; qufuwf_1
     -- qfwf    qufuwf  N       drying up;withering;shrinking
@@ -6145,9 +6137,10 @@ lexicon = listing "Lexicon's properties"
     -- qfy     qifiy~  N       necks;napes;backs
 
     FaL |< aN                 `noun`    {- qafAF -}            [ "neck", "nape", "back", "reverse", "necks", "napes", "backs" ]
+                              `plural`     HaFCI |< aT
                               `plural`     FaCA
                               `plural`     HaFCA'
-                           {- `others`  [ "qafA N0_Nhy", "'aqfA' Nh N0_Nh Nhy" ] -} ]
+                           {- `others`  [ "'aqfiy N0_Nh", "qafA N0_Nhy", "'aqfA' Nh N0_Nh Nhy" ] -} ]
 
  |> "q f l" <| [
 
@@ -7169,8 +7162,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qal~-i -}           [ "be less", "decrease", "diminish" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; qal~al_1
     -- qll     qal~al  PV      lessen;reduce;diminish
@@ -7925,8 +7917,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qam~-u -}           [ "sweep" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; qam~_1
     -- qm      qam~    N       sweeping
@@ -8964,7 +8955,8 @@ lexicon = listing "Lexicon's properties"
     -- Aqny    >aqoniy Nap     canals;channels
 
     FaCY |< aT                `noun`    {- qanAp -}            [ "canal", "channel", "canals", "channels" ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCaL |< At
+                              `plural`     HaFCI |< aT,
 
     -- ;; qanAp_2
     -- qnAp    qanAp   Nprop   Qanat
@@ -10945,9 +10937,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- qar~-ia -}          [ "settle down", "remain" ]
                               `imperf`     FiCL
                               `pfirst`     FaCaL
-                              `pfirst`     FaCiL
-                              `ithird`     FCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCiL,
 
     -- ;; qar~ar_1
     -- qrr     qar~ar  PV      decide;resolve
@@ -11821,8 +11811,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qas~-u -}           [ "pursue", "strive", "aspire" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; taqas~as_1
     -- tqss    taqas~as        PV      pursue;strive;aspire
@@ -12366,8 +12355,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qat~-u -}           [ "lie", "minimize" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; {iqotat~_1
     -- <qtt    {iqotat~        PV_V    extirpate;remove;get rid of
@@ -12442,8 +12430,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAD-u -}            [ "demolish", "raze" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; qaw~aD_1
     -- qwD     qaw~aD  PV      demolish;raze
@@ -12477,8 +12464,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAH-u -}            [ "fester", "swell" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; qaw~aH_1
     -- qwH     qaw~aH  PV      sweep
@@ -12601,8 +12587,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAb-u -}            [ "excavate", "hollow out" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; qaw~ab_1
     -- qwb     qaw~ab  PV      excavate;hollow out
@@ -12663,8 +12648,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAd-u -}            [ "lead", "guide" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; qAd-u_2
     -- qAd     qAd     PV_V    drive;pilot
@@ -12674,8 +12658,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAd-u -}            [ "drive", "pilot" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; >aqAd_1
     -- >qAd    >aqAd   PV_V    cause to retaliate
@@ -12805,8 +12788,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAl-u -}            [ "say", "be said" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; qAwal_1
     -- qAwl    qAwal   PV      negotiate with;make a deal with
@@ -12936,8 +12918,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAm-u -}            [ "undertake", "carry out" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; qaw~am_1
     -- qwm     qaw~am  PV      straighten
@@ -13230,8 +13211,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAq-u -}            [ "cackle", "cluck" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; qaw~aq_1
     -- qwq     qaw~aq  PV      cackle;cluck
@@ -13442,8 +13422,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAt-u -}            [ "support", "nourish", "sustain" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; qaw~at_1
     -- qwt     qaw~at  PV-t    support;nourish;sustain
@@ -13770,8 +13749,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qA'-i -}            [ "vomit" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; qay~a>_1
     -- qy>     qay~a>  PV      make vomit
@@ -13830,8 +13808,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAD-i -}            [ "break open", "crack" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; qay~aD_1
     -- qyD     qay~aD  PV      lead;send
@@ -13886,8 +13863,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAH-i -}            [ "fester", "be infected" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; qay~aH_1
     -- qyH     qay~aH  PV      fester;be infected
@@ -13980,8 +13956,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAZ-i -}            [ "be blistering hot" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; qayoZ_1
     -- qyZ     qayoZ   N       heat
@@ -14359,8 +14334,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- qAs-i -}            [ "measure", "draw conclusions", "compare" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; qay~as_1
     -- qys     qay~as  PV      measure
@@ -14614,8 +14588,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qaz~-u -}           [ "detest" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; qaz~az_1
     -- qzz     qaz~az  PV      glaze;vitrify

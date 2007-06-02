@@ -50,7 +50,7 @@ arabicDict = (dictionary . concat . map lex2dict) $ take 50 $ drop 1000 lexicon
                                     "Noun", [],
                                     [ (show v, (0, recode (inflect (RE x y) v))) | v :: ParaNoun <- values ])
 
-                Verb _ _ _ _    -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaVerb -> [String]),
+                Verb _ _ _      -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaVerb -> [String]),
                                     "Verb", [],
                                     [ (show v, (0, recode (inflect (RE x y) v))) | v :: ParaVerb <- values ])
 

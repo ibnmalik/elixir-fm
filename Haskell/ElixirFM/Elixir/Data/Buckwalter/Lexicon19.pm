@@ -2845,7 +2845,11 @@ $Lexicon = {
         '>gTy    >agoTiy Nap     covers;blankets',
         'AgTy    >agoTiy Nap     covers;blankets'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.g.tiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCA\'',
@@ -5567,6 +5571,9 @@ $Lexicon = {
         '.gar' => [
           'FaL'
         ],
+        '\'a.gar' => [
+          'HaFaL'
+        ],
         '.gAr' => [
           'FAL'
         ]
@@ -7583,7 +7590,11 @@ $Lexicon = {
         '>g$y    >ago$iy Nap     covering;coating;membranes',
         'Ag$y    >ago$iy Nap     covering;coating;membranes'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.g^siy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -8571,6 +8582,9 @@ $Lexicon = {
         '.ga.z' => [
           'FaL'
         ],
+        '\'a.ga.z' => [
+          'HaFaL'
+        ],
         '.giy.z' => [
           'FIL',
           'FiCL'
@@ -8643,8 +8657,14 @@ $Lexicon = {
         'ngZ     nogaZ   IV_C_intr       become enraged;be irritated'
       ],
       'patterns' => {
+        'n.ga.z' => [
+          'NFaL'
+        ],
         'n.gA.z' => [
           'NFAL'
+        ],
+        'in.ga.z' => [
+          'InFaL'
         ]
       },
       'index' => '1',
@@ -8685,6 +8705,12 @@ $Lexicon = {
       'patterns' => {
         '.gtA.z' => [
           'FtAL'
+        ],
+        'i.gta.z' => [
+          'IFtaL'
+        ],
+        '.gta.z' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -9566,6 +9592,12 @@ $Lexicon = {
       'patterns' => {
         '.gtAl' => [
           'FtAL'
+        ],
+        '.gtal' => [
+          'FtaL'
+        ],
+        'i.gtal' => [
+          'IFtaL'
         ]
       },
       'index' => '1',
@@ -10414,7 +10446,11 @@ $Lexicon = {
         '>gdy    >agodiy Nap     breakfast;lunch',
         'Agdy    >agodiy Nap     breakfast;lunch'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.gdiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCA\'',
@@ -12660,7 +12696,11 @@ $Lexicon = {
         '>g*y    >ago*iy Nap     food;provisions',
         'Ag*y    >ago*iy Nap     food;provisions'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.g_diy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCA\'',
@@ -12983,7 +13023,11 @@ $Lexicon = {
       'entry' => '.gi_dA\'',
       'form' => '.gi_dA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.g_diy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -13345,7 +13389,11 @@ $Lexicon = {
       'entry' => '.gi^sA\'',
       'form' => '.gi^sA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.g^siy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCA\'',
@@ -14334,6 +14382,9 @@ $Lexicon = {
         ],
         '.gar' => [
           'FaL'
+        ],
+        '\'a.gar' => [
+          'HaFaL'
         ],
         '.gAr' => [
           'FAL'
@@ -15803,7 +15854,11 @@ $Lexicon = {
       'entry' => '.gi.tA\'',
       'form' => '.gi.tA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.g.tiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -19664,8 +19719,14 @@ $Lexicon = {
         'gtb     gotab   IV_C    denigrate;slander'
       ],
       'patterns' => {
+        'i.gtab' => [
+          'IFtaL'
+        ],
         '.gtAb' => [
           'FtAL'
+        ],
+        '.gtab' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -19705,7 +19766,11 @@ $Lexicon = {
         'stgyb   sotagiyb        IV_V    denigrate;slander',
         'stgb    sotagib IV_C    denigrate;slander'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista.gab' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -22647,6 +22712,9 @@ $Lexicon = {
         'gm      gam     IV_C_Pass_yu    become overcast/blurred'
       ],
       'patterns' => {
+        '\'a.gam' => [
+          'HaFaL'
+        ],
         '.gim' => [
           'FiL'
         ],
@@ -31002,6 +31070,9 @@ $Lexicon = {
         ],
         '.ga_t' => [
           'FaL'
+        ],
+        '\'a.ga_t' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -31054,7 +31125,11 @@ $Lexicon = {
         'stgAv   sotagAv IV_V_Pass_yu    be asked for help',
         'stgv    sotagav IV_C_Pass_yu    be asked for help'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista.ga_t' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -33334,7 +33409,11 @@ $Lexicon = {
       'entry' => '.gadA\'',
       'form' => '.gadA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.gdiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCAL',

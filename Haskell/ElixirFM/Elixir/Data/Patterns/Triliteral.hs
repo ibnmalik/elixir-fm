@@ -102,42 +102,36 @@ instance Forming PatternT where
                             XIV     ->  init [IFCanLaL .. IFCanLY]
                             XV      ->  [IFCanLY ..]
 
-{-
-    shortStem x = (maybe x id . lookup x) [ (   FUL,        FuL         ),
-                                            (   FAL,        FaL         ),
-                                            (   FIL,        FiL         ),
-
-                                            (   HaFAL,      HaFaL       ),
-                                            (   HuFIL,      HuFiL       ),
-
-                                            (   InFAL,      InFaL       ),
-                                            (   UnFIL,      UnFiL       ),
-                                            (   NFAL,       NFaL        ),
-
-                                            (   IFtAL,      IFtaL       ),
-                                            (   UFtIL,      UFtiL       ),
-                                            (   FtAL,       FtaL        ),
-
-                                            (   IstaFAL,    IstaFaL     ),
-                                            (   UstuFIL,    UstuFiL     ),
-                                            (   StaFIL,     StaFiL      ),
-                                            (   StaFAL,     StaFaL      ) ]
--}
 
     shortStem x = case x of     FUL         ->      FuL
                                 FAL         ->      FaL
                                 FIL         ->      FiL
 
+                                FuCL        ->      FCuL
+                                FaCL        ->      FCaL
+                                FiCL        ->      FCiL
+
                                 HaFAL       ->      HaFaL
                                 HuFIL       ->      HuFiL
+
+                                HaFaCL      ->      HaFCaL
+                                HuFiCL      ->      HuFCiL
 
                                 InFAL       ->      InFaL
                                 UnFIL       ->      UnFiL
                                 NFAL        ->      NFaL
 
+                                InFaCL      ->      InFaCaL
+                                UnFuCL      ->      UnFuCiL
+                                NFaCL       ->      NFaCiL
+
                                 IFtAL       ->      IFtaL
                                 UFtIL       ->      UFtiL
                                 FtAL        ->      FtaL
+
+                                IFtaCL      ->      IFtaCaL
+                                UFtuCL      ->      UFtuCiL
+                                FtaCL       ->      FtaCiL
 
                                 IstaFAL     ->      IstaFaL
                                 UstuFIL     ->      UstuFiL
@@ -174,15 +168,15 @@ instance Forming PatternT where
         --  Second
 
         (   FAL,        FIL,        FUL,        FAL         ),  -- qAla
-        (   FuL,        FiL,        FuL,        FaL         ),  -- qAla
+        (   FuL,        FiL,        FuL,        FaL         ),
         (   FAL,        FIL,        FAL,        FAL         ),  -- nAma / nAla
-        (   FiL,        FiL,        FaL,        FaL         ),  -- nAma / nAla
+        (   FiL,        FiL,        FaL,        FaL         ),
         (   FAL,        FIL,        FIL,        FAL         ),  -- sAra
-        (   FiL,        FiL,        FiL,        FaL         ),  -- sAra
+        (   FiL,        FiL,        FiL,        FaL         ),
 
         -- Third
 
-        (   FaCA,       FuCiL,      FCU,        FCY         ),  -- da`A
+        (   FaCA,       FuCI,       FCU,        FCY         ),  -- da`A
         (   FaCY,       FuCI,       FCI,        FCY         ),  -- ramY
         (   FaCI,       FuCI,       FCY,        FCY         ),  -- nasiya
 
@@ -284,7 +278,7 @@ instance Forming PatternT where
     verbStems X = [
 
         (   IstaFCaL,   UstuFCiL,   StaFCiL,    StaFCaL     ),
-        (   IstaFCaL,   UstuFCiL,   StaFCiL,    StaFCaL     ),
+        (   IstaFCaL,   UstUCiL,    StaFCiL,    StaFCaL     ),
         (   IstaFAL,    UstuFIL,    StaFIL,     StaFAL      ),
         (   IstaFCY,    UstuFCI,    StaFCI,     StaFCY      ),
         (   IstaFaCL,   UstuFiCL,   StaFiCL,    StaFaCL     )
@@ -392,7 +386,7 @@ instance Rules PatternT where
                             UnFuCiL, UnFIL, UnFuCI, UnFuCL,
                             UFtuCiL, UFtIL, UFtuCI, UFtuCL,
                             UFCuLL,
-                            UstuFCiL, UstuFIL, UstuFCI, UstuFiCL,
+                            UstuFCiL, UstUCiL, UstuFIL, UstuFCI, UstuFiCL,
                             UFCULL,
                             UFCUCiL,
                             UFCUwiL,
@@ -416,32 +410,32 @@ instance Rules (Morphs PatternT) where
 
 data PatternT =
 
---      |   Regular             |   First               |   Second              |   Third               |   Double
+--      |   Regular     |   First       |   Second      |   Third       |   Double      |   Either
 
 --  Form I
 
-            FaCaL                                       |   FAL                 |   FaCY                |   FaCL
-        |   FaCiL                                                               |   FaCI
-        |   FaCuL                                                               |   FaCA
+            FaCaL                       |   FAL         |   FaCY        |   FaCL
+        |   FaCiL                                       |   FaCI
+        |   FaCuL                                       |   FaCA
 
-        |   FuCiL                                                               |   FuCI
+        |   FuCiL                                       |   FuCI
 
-        |   FCaL                |   CaL                                         |   FCY
-        |   FCiL                |   CiL                 |   FIL                 |   FCI                 |   FiCL
-        |   FCuL                |   CuL                 |   FUL                 |   FCU                 |   FuCL
-                                |   CI                  |   FY
+        |   FCaL        |   CaL                         |   FCY
+        |   FCiL        |   CiL         |   FIL         |   FCI         |   FiCL
+        |   FCuL        |   CuL         |   FUL         |   FCU         |   FuCL
+                        |   CI          |   FY
 
-                                                        |   FaL
-                                                        |   FiL
-                                                        |   FuL
+                                        |   FaL
+                                        |   FiL
+                                        |   FuL
 
     {-- |   FaCL    --}
     {-- |   FiCL    --}
     {-- |   FuCL    --}
 
-        |   FaCAL                                                               |   FaCA'
-        |   FiCAL                                                               |   FiCA'
-        |   FuCAL                                                               |   FuCA'
+        |   FaCAL                                       |   FaCA'
+        |   FiCAL                                       |   FiCA'
+        |   FuCAL                                       |   FuCA'
 
         |   FaCUL
         |   FuCUL
@@ -451,13 +445,13 @@ data PatternT =
         |   FaCLA'
         |   FuCaLA'
 
-    {-- |   FACiL   --}                                 |   FA'iL           {-- |   FACI    --}
+    {-- |   FACiL   --}                 |   FA'iL   {-- |   FACI    --}
 
-        |   MaFCUL                                      |   MaFUL               |   MaFCIy
+        |   MaFCUL                      |   MaFUL       |   MaFCIy
 
         |   FaCCAL
-        |   FiCCAL                                      |   FICAL
-        |   FuCCAL                                      |   FUCAL
+        |   FiCCAL                      |   FICAL
+        |   FuCCAL                      |   FUCAL
 
         |   FuCCaL
 
@@ -467,29 +461,29 @@ data PatternT =
         |   FaCACiL
         |   FaCACIL
 
-        |   MaFCaL                                      |   MaFAL               |   MaFCY               |   MaFaCL
-        |   MaFCiL                                      |   MaFIL               |   MaFCI
-        |   MiFCAL              |   MICAL
-        |   MiFCaL                                                              |   MiFCY               |   MiFaCL
+        |   MaFCaL                      |   MaFAL       |   MaFCY       |   MaFaCL
+        |   MaFCiL                      |   MaFIL       |   MaFCI
+        |   MiFCAL      |   MICAL
+        |   MiFCaL      |   MICaL                       |   MiFCY       |   MiFaCL      |   MICY
 
-        |   HaFCAL              |   HACAL                                       |   HaFCA'
-        |   HaFCiL
+        |   HaFCAL      |   HACAL                       |   HaFCA'                      |   HACA'
+        |   HaFCiL      |   HACiL       |   HaFIL       |   HaFCI                       |   HACI
 
-        |   HaFACiL                                                             |   HaFACI
+        |   HaFACiL                                     |   HaFACI
 
-        |   HaFCiLA'
+        |   HaFCiLA'    |   HACiLA'
 
         |   FACUL
 
-        |   FawACiL                                     |   FawA'iL
-        |   FawACIL                                     |   FawA'IL
+        |   FawACiL                     |   FawA'iL
+        |   FawACIL                     |   FawA'IL
 
-        |   MaFACiL                                     |   MaFA'iL             |   MaFACI              |   MaFACL
-        |   MaFACIL                                     |   MaFA'IL
+        |   MaFACiL                     |   MaFA'iL     |   MaFACI      |   MaFACL
+        |   MaFACIL                     |   MaFA'IL
 
-    {-- |   FaCaL   --}                                                     {-- |   FaCY    --}
-        |   FiCaL                                                               |   FiCY
-        |   FuCaL                                                               |   FuCY
+    {-- |   FaCaL   --}                             {-- |   FaCY    --}
+        |   FiCaL                                       |   FiCY
+        |   FuCaL                                       |   FuCY
         |   FuCuL
 
         |   FaCLAn
@@ -502,105 +496,103 @@ data PatternT =
 
         |   FaCLY
         |   FiCLY
-        |   FuCLY                                                               |   FuCyA
+        |   FuCLY                                       |   FuCyA
 
 --  Form II
 
-        |   FaCCaL                                                              |   FaCCY
-        |   FuCCiL                                                              |   FuCCI
+        |   FaCCaL                                      |   FaCCY
+        |   FuCCiL                                      |   FuCCI
 
-        |   FaCCiL                                                              |   FaCCI
+        |   FaCCiL                                      |   FaCCI
 
         |   TaFCIL
         |   TaFCiL
 
-        |   TiFCAL                                                              |   TiFCA'
+        |   TiFCAL      |   TICAL                       |   TiFCA'                      |   TICA'
 
-        |   MuFaCCiL                                                            |   MuFaCCI
-        |   MuFaCCaL                                                            |   MuFaCCY
+        |   MuFaCCiL                                    |   MuFaCCI
+        |   MuFaCCaL                                    |   MuFaCCY
 
 --  Form III
 
-        |   FACaL                                                               |   FACY                |   FACL
-        |   FUCiL                                                               |   FUCI                |   FUCL
+        |   FACaL                                       |   FACY        |   FACL
+        |   FUCiL                                       |   FUCI        |   FUCL
 
-        |   FACiL                                                               |   FACI
+        |   FACiL                                       |   FACI
 
-        |   MuFACiL                                                             |   MuFACI              |   MuFACL
-        |   MuFACaL                                                             |   MuFACY
+        |   MuFACiL                                     |   MuFACI      |   MuFACL
+        |   MuFACaL                                     |   MuFACY
 
 --  Form IV
 
-        |   HaFCaL                                      |   HaFAL               |   HaFCY               |   HaFaCL
-        |   HuFCiL              |   HUCiL               |   HuFIL               |   HuFCI               |   HuFiCL
+        |   HaFCaL      |   HACaL       |   HaFAL       |   HaFCY       |   HaFaCL      |   HACY
+        |   HuFCiL      |   HUCiL       |   HuFIL       |   HuFCI       |   HuFiCL      |   HUCI
 
-                            {-- |   UCiL    --}         |   FI                  |   HaFY
-                            {-- |   UCaL    --}                                 |   HuFI
+                    {-- |   UCiL    --} |   FI          |   HaFY
+                    {-- |   UCaL    --}                 |   HuFI
 
-                                                        |   HaFaL
-                                                        |   HuFiL
+                                        |   HaFaL
+                                        |   HuFiL
 
-        |   HiFCAL              |   HICAL                                       |   HiFCA'
-        |   HiFCaL              |   HICaL               |   HiFAL                                       |   HiFaCL
+        |   HiFCAL      |   HICAL                       |   HiFCA'                      |   HICA'
+        |   HiFCaL      |   HICaL       |   HiFAL       |   HiFCY       |   HiFaCL      |   HICY
 
-        |   MuFCiL              |   MUCiL               |   MuFIL               |   MuFCI               |   MuFiCL
-        |   MuFCaL              |   MUCaL               |   MuFAL               |   MuFCY               |   MuFaCL
-                                |   MUCI
-                                |   MUCY
+        |   MuFCiL      |   MUCiL       |   MuFIL       |   MuFCI       |   MuFiCL      |   MUCI
+        |   MuFCaL      |   MUCaL       |   MuFAL       |   MuFCY       |   MuFaCL      |   MUCY
 
 --  Form V
 
-        |   TaFaCCaL                                                            |   TaFaCCY
-        |   TuFuCCiL                                                            |   TuFuCCI
+        |   TaFaCCaL                                    |   TaFaCCY
+        |   TuFuCCiL                                    |   TuFuCCI
 
-        |   TaFaCCuL                                                            |   TaFaCCI
+        |   TaFaCCuL                                    |   TaFaCCI
 
-        |   MutaFaCCiL                                                          |   MutaFaCCI
-        |   MutaFaCCaL                                                          |   MutaFaCCY
+        |   MutaFaCCiL                                  |   MutaFaCCI
+        |   MutaFaCCaL                                  |   MutaFaCCY
 
 --  Form VI
 
-        |   TaFACaL                                                             |   TaFACY              |   TaFACL
-        |   TuFUCiL                                                             |   TuFUCI              |   TuFUCL
+        |   TaFACaL                                     |   TaFACY      |   TaFACL
+        |   TuFUCiL                                     |   TuFUCI      |   TuFUCL
 
-        |   TaFACuL                                                             |   TaFACI
+        |   TaFACuL                                     |   TaFACI
 
-        |   MutaFACiL                                                           |   MutaFACI
-        |   MutaFACaL                                                           |   MutaFACY
+        |   MutaFACiL                                   |   MutaFACI
+        |   MutaFACaL                                   |   MutaFACY
 
 --  Form VII
 
-        |   InFaCaL                                     |   InFAL               |   InFaCY              |   InFaCL
-        |   UnFuCiL                                     |   UnFIL               |   UnFuCI              |   UnFuCL
+        |   InFaCaL                     |   InFAL       |   InFaCY      |   InFaCL
+        |   UnFuCiL                     |   UnFIL       |   UnFuCI      |   UnFuCL
 
-        |   NFaCiL                                      |   NFAL                |   NFaCI               |   NFaCL
-        |   NFaCaL                                                              |   NFaCY
+        |   NFaCiL                      |   NFAL        |   NFaCI       |   NFaCL
+        |   NFaCaL                                      |   NFaCY
 
-                                                        |   InFaL
-                                                        |   UnFiL
-                                                        |   NFaL
+                                        |   InFaL
+                                        |   UnFiL
+                                        |   NFaL
 
-        |   InFiCAL                                     |   InFiyAL             |   InFiCA'
+        |   InFiCAL                     |   InFiyAL     |   InFiCA'
 
-        |   MunFaCiL                                                            |   MunFaCI             |   MunFaCL
-        |   MunFaCaL                                                            |   MunFaCY
+        |   MunFaCiL                                    |   MunFaCI     |   MunFaCL
+        |   MunFaCaL                                    |   MunFaCY
 
 --  Form VIII
 
-        |   IFtaCaL                                     |   IFtAL               |   IFtaCY              |   IFtaCL
-        |   UFtuCiL                                     |   UFtIL               |   UFtuCI              |   UFtuCL
+        |   IFtaCaL                     |   IFtAL       |   IFtaCY      |   IFtaCL
+        |   UFtuCiL                     |   UFtIL       |   UFtuCI      |   UFtuCL
 
-        |   FtaCiL                                      |   FtAL                |   FtaCI               |   FtaCL
-        |   FtaCaL                                                              |   FtaCY
+        |   FtaCiL                      |   FtAL        |   FtaCI       |   FtaCL
+        |   FtaCaL                                      |   FtaCY
 
-                                                        |   IFtaL
-                                                        |   UFtiL
-                                                        |   FtaL
+                                        |   IFtaL
+                                        |   UFtiL
+                                        |   FtaL
 
-        |   IFtiCAL                                     |   IFtiyAL             |   IFtiCA'
+        |   IFtiCAL                     |   IFtiyAL     |   IFtiCA'
 
-        |   MuFtaCiL                                    |   MuFtAL              |   MuFtaCI             |   MuFtaCL
-        |   MuFtaCaL                                                            |   MuFtaCY
+        |   MuFtaCiL                    |   MuFtAL      |   MuFtaCI     |   MuFtaCL
+        |   MuFtaCaL                                    |   MuFtaCY
 
 --  Form IX
 
@@ -615,22 +607,22 @@ data PatternT =
 
 --  Form X
 
-        |   IstaFCaL                                    |   IstaFAL             |   IstaFCY             |   IstaFaCL
-        |   UstuFCiL                                    |   UstuFIL             |   UstuFCI             |   UstuFiCL
+        |   IstaFCaL                    |   IstaFAL     |   IstaFCY     |   IstaFaCL
+        |   UstuFCiL    |   UstUCiL     |   UstuFIL     |   UstuFCI     |   UstuFiCL    |   UstUCI
 
-        |   StaFCiL                                     |   StaFIL              |   StaFCI              |   StaFiCL
-        |   StaFCaL                                     |   StaFAL              |   StaFCY              |   StaFaCL
+        |   StaFCiL                     |   StaFIL      |   StaFCI      |   StaFiCL
+        |   StaFCaL                     |   StaFAL      |   StaFCY      |   StaFaCL
 
-                                                        |   IstaFaL
-                                                        |   UstuFiL
+                                        |   IstaFaL
+                                        |   UstuFiL
 
-                                                        |   StaFiL
-                                                        |   StaFaL
+                                        |   StaFiL
+                                        |   StaFaL
 
-        |   IstiFCAL            |   IstICAL             |   IstiFAL             |   IstiFCA'
+        |   IstiFCAL    |   IstICAL     |   IstiFAL     |   IstiFCA'                    |   IstICA'
 
-        |   MustaFCiL                                   |   MustaFIL            |   MustaFCI            |   MustaFiCL
-        |   MustaFCaL                                   |   MustaFAL            |   MustaFCY            |   MustaFaCL
+        |   MustaFCiL                   |   MustaFIL    |   MustaFCI    |   MustaFiCL
+        |   MustaFCaL                   |   MustaFAL    |   MustaFCY    |   MustaFaCL
 
 --  Form XI
 

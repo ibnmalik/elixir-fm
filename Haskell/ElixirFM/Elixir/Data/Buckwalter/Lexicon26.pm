@@ -1697,6 +1697,9 @@ $Lexicon = {
         'hb      hab     IV_C_Pass_yu    be called on'
       ],
       'patterns' => {
+        '\'ahab' => [
+          'HaFaL'
+        ],
         'hib' => [
           'FiL'
         ],
@@ -1771,8 +1774,14 @@ $Lexicon = {
         'htb     hotab   IV_C    fear;respect'
       ],
       'patterns' => {
+        'ihtab' => [
+          'IFtaL'
+        ],
         'htAb' => [
           'FtAL'
+        ],
+        'htab' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -2445,8 +2454,14 @@ $Lexicon = {
         'nhs     nohas   IV_C_intr       be dazzled;be beguiled'
       ],
       'patterns' => {
+        'inhas' => [
+          'InFaL'
+        ],
         'nhAs' => [
           'NFAL'
+        ],
+        'nhas' => [
+          'NFaL'
         ]
       },
       'index' => '1',
@@ -5162,6 +5177,9 @@ $Lexicon = {
         'hi^g' => [
           'FiL'
         ],
+        '\'aha^g' => [
+          'HaFaL'
+        ],
         'hA^g' => [
           'FAL'
         ],
@@ -5234,8 +5252,14 @@ $Lexicon = {
         'htj     hotaj   IV_C_intr       be agitated;be provoked'
       ],
       'patterns' => {
+        'ihta^g' => [
+          'IFtaL'
+        ],
         'htA^g' => [
           'FtAL'
+        ],
+        'hta^g' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -7412,7 +7436,11 @@ $Lexicon = {
         'sthyl   sotahiyl        IV_V    deem significant;be appalled',
         'sthl    sotahil IV_C    deem significant;be appalled'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istahal' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -13581,7 +13609,8 @@ $Lexicon = {
           'HaFCA\''
         ],
         '\'ahwiy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '1',
@@ -19560,6 +19589,9 @@ $Lexicon = {
         '\'ahwA\'' => [
           'HaFCAL',
           'HaFCA\''
+        ],
+        '\'ahwiy' => [
+          'HaFCI'
         ]
       },
       'index' => '1',
@@ -21592,6 +21624,9 @@ $Lexicon = {
         'hAn' => [
           'FAL'
         ],
+        '\'ahan' => [
+          'HaFaL'
+        ],
         'hin' => [
           'FiL'
         ]
@@ -21661,7 +21696,11 @@ $Lexicon = {
         'sthn    sotahin IV-n    consider easy;disdain',
         'sthAn   sotahAn IV_V_Pass_yu    be disdained;be underestimated'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istahan' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -28305,6 +28344,12 @@ $Lexicon = {
         'nhr     nohar   IV_C_intr       be demolished;collapse'
       ],
       'patterns' => {
+        'inhar' => [
+          'InFaL'
+        ],
+        'nhar' => [
+          'NFaL'
+        ],
         'nhAr' => [
           'NFAL'
         ]
@@ -29755,7 +29800,11 @@ $Lexicon = {
         'sthym   sotahiym        IV_V    infatuate;captivate',
         'sthm    sotahim IV_C    infatuate;captivate'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istaham' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -30075,6 +30124,9 @@ $Lexicon = {
           'FIL',
           'FiCL'
         ],
+        '\'ahal' => [
+          'HaFaL'
+        ],
         'hal' => [
           'FaL'
         ],
@@ -30124,6 +30176,12 @@ $Lexicon = {
       'patterns' => {
         'nhAl' => [
           'NFAL'
+        ],
+        'inhal' => [
+          'InFaL'
+        ],
+        'nhal' => [
+          'NFaL'
         ]
       },
       'index' => '1',

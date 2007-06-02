@@ -682,8 +682,7 @@ lexicon = listing "Lexicon's properties"
     -- lHH     loHaH   IV_C_intr       be close
 
     FaCL                      `verb`    {- laH~-a -}           [ "be close" ]
-                              `pfirst`     FaCaL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCaL,
 
     -- ;; >alaH~_1
     -- >lH     >alaH~  PV_V    insist;harass;bother
@@ -1440,6 +1439,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- laHoy -}            [ "jawbone", "jawbones" ]
                               `plural`     HaFCiL
+                              `plural`     HaFCI
                            {- `others`  [ "'al.hiy N0_Nh" ] -},
 
     -- ;; liHoyap_1
@@ -1478,8 +1478,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- laS~-u -}           [ "steal", "do secretly" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; talaS~aS_1
     -- tlSS    talaS~aS        PV_intr become a thief;spy
@@ -2068,9 +2067,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- laj~-ai -}          [ "be stubborn", "persist" ]
                               `imperf`     FiCL
                               `pfirst`     FaCiL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCaL,
 
     -- ;; lAj~_1
     -- lAj     lAj~    PV_V    dispute with;argue with
@@ -2311,8 +2308,7 @@ lexicon = listing "Lexicon's properties"
     -- l**     lo*a*   IV_C_intr       be delightful;be pleasing
 
     FaCL                      `verb`    {- la*~-a -}           [ "be delightful", "be pleasing" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCiL,
 
     -- ;; la*~a*_1
     -- l**     la*~a*  PV      gratify;please
@@ -3058,8 +3054,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- lab~-u -}           [ "remain" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; lab~-au_1
     -- lb      lab~    PV_V_intr       be sensible
@@ -3071,9 +3066,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- lab~-au -}          [ "be sensible" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCiL,
 
     -- ;; lab~ab_1
     -- lbb     lab~ab  PV      produce kernels
@@ -3788,8 +3781,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- lad~-u -}           [ "quarrel with", "fight" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; lad~ad_1
     -- ldd     lad~ad  PV      defame;slander
@@ -4075,8 +4067,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- laf~-u -}           [ "wrap", "turn" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; laf~af_1
     -- lff     laf~af  PV      wrap tightly
@@ -5098,8 +5089,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- lak~-u -}           [ "punch" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; {ilotak~_1
     -- <ltk    {ilotak~        PV_V_intr       be crowded
@@ -5525,8 +5515,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- lam~-u -}           [ "collect", "put in order" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; >alam~_1
     -- >lm     >alam~  PV_V_intr       be acquainted with
@@ -6739,8 +6728,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- lat~-u -}           [ "crush", "pound" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; lat~_1
     -- lt      lat~    N_L     prattle;idle talk
@@ -6787,7 +6775,8 @@ lexicon = listing "Lexicon's properties"
     -- >lwy    >alowiy Nap     districts;provinces
     -- Alwy    >alowiy Nap     districts;provinces
 
-    FiCAL                     `noun`    {- liwA' -}            [ "district", "province", "districts", "provinces" ],
+    FiCAL                     `noun`    {- liwA' -}            [ "district", "province", "districts", "provinces" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; liwA'_4
     -- lwA'    liwA'   N0_L    Liwa
@@ -6826,8 +6815,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- lAH-u -}            [ "appear", "seem" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; law~aH_1
     -- lwH     law~aH  PV      wave;gesticulate;insinuate
@@ -6903,8 +6891,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- lAS-u -}            [ "peep", "peer" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; lAwaS_1
     -- lAwS    lAwaS   PV      stare;gaze;peep
@@ -6927,8 +6914,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- lAT-u -}            [ "adhere", "cling", "plaster" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; luwT_1
     -- lwT     luwT    Nprop   Lot
@@ -6974,8 +6960,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- lA*-u -}            [ "seek refuge", "have recourse" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; malA*_1
     -- mlA*    malA*   Ndu     shelter;sanctuary
@@ -7014,8 +6999,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- lAv-u -}            [ "pollute" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; lawiv-a_1
     -- lwv     lawiv   PV      hesitate;be dilatory
@@ -7110,8 +7094,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- lAE-u -}            [ "be impatient", "torment" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; law~aE_1
     -- lwE     law~aE  PV      torment
@@ -7161,8 +7144,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- lAb-u -}            [ "wander", "move about" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL ]
+                              `pfirst`     FuL ]
 
  |> "l w f" <| [
 
@@ -7174,8 +7156,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- lAf-u -}            [ "chew" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; lawof_1
     -- lwf     lawof   N_L     chewing
@@ -7200,8 +7181,7 @@ lexicon = listing "Lexicon's properties"
     -- lk      luk     IV_C    chew;discredit
 
     FAL                       `verb`    {- lAk-u -}            [ "chew", "discredit" ]
-                              `imperf`     FUL
-                              `ithird`     FuL,
+                              `imperf`     FUL,
 
     -- ;; lawok_1
     -- lwk     lawok   N_L     chewing;discrediting
@@ -7238,8 +7218,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- lAm-u -}            [ "blame", "censure" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; law~am_1
     -- lwm     law~am  PV      reprimand
@@ -7489,8 +7468,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- lAs-u -}            [ "taste" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; luws_1
     -- lws     luws    Nprop   Los
@@ -7634,6 +7612,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCY                      `noun`    {- liwaY -}            [ "curvature", "curvatures" ]
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT
                               `plural`     HaFCA'
                            {- `others`  [ "'alwA' Nh N0_Nh Nhy" ] -},
 
@@ -7659,7 +7638,8 @@ lexicon = listing "Lexicon's properties"
     -- Alwy    >alowiy Nap     districts;provinces
 
     FiCA'                     `noun`    {- liwA' -}            [ "district", "province", "districts", "provinces" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT,
 
     -- ;; liwA'_4
     -- lwA'    liwA'   N0_L    Liwa
@@ -7983,8 +7963,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- lAn-i -}            [ "be flexible", "be delicate" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; lay~an_1
     -- lyn     lay~an  PV-n    soften;placate;moderate
@@ -8078,8 +8057,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- lAq-i -}            [ "be proper for", "be suitable for" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; layoq_1
     -- lyq     layoq   N_L     being proper for;being suitable for
@@ -8504,8 +8482,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- laz~-u -}           [ "unite", "connect" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; laz~az_1
     -- lzz     laz~az  PV      cram together;unite closely

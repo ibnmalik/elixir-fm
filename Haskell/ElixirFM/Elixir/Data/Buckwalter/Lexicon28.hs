@@ -271,9 +271,10 @@ lexicon = listing "Lexicon's properties"
     -- AyAd    >ayAd   NK      hands
 
     FaL                       `noun`    {- yad -}              [ "hand", "hands" ]
+                              `plural`     HaFCI
                               `plural`     HaFAL
                               `plural`     HaFACI
-                           {- `others`  [ "'ayAd NK", "'ayAdiy N0_Nh" ] -} ]
+                           {- `others`  [ "'aydiy N0_Nh", "'ayAd NK", "'ayAdiy N0_Nh" ] -} ]
 
  |> "y d y" <| [
 

@@ -380,8 +380,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- naD~-i -}           [ "ripple", "drip", "percolate" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; naD~aD_1
     -- nDD     naD~aD  PV      move;shake
@@ -1816,8 +1815,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- naS~-u -}           [ "stipulate", "specify" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; naS~_1
     -- nS      naS~    Ndu     text
@@ -2605,8 +2603,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- naT~-u -}           [ "jump", "leap" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; naT~_1
     -- nT      naT~    N       jumping;leaping
@@ -4280,7 +4277,8 @@ lexicon = listing "Lexicon's properties"
     -- Anjy    >anojiy Nap     secrets
 
     FaCIL                     `noun`    {- najiy~ -}           [ "secret", "secrets" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT,
 
     -- ;; najiy~_2
     -- njy     najiy~  N/ap    confidant;bosom friend     [[najiy~/NOUN]]
@@ -4759,8 +4757,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- na$~-i -}           [ "sizzle", "hiss" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; na$~A$_1
     -- n$A$    na$~A$  N       blotting
@@ -7977,8 +7974,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- nad~-i -}           [ "escape", "flee" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; nad~ad_1
     -- ndd     nad~ad  PV      criticize;denounce
@@ -8500,7 +8496,8 @@ lexicon = listing "Lexicon's properties"
     -- nwAdy   nawAdiy N0_Nh   clubs;associations
     -- nwAd    nawAd   NK      clubs;associations
 
-    FACI                      `noun`    {- nAdiy -}            [ "club", "association", "clubs", "associations" ],
+    FACI                      `noun`    {- nAdiy -}            [ "club", "association", "clubs", "associations" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; munad~aY_1
     -- mndY    munad~aY        N0      wet;damp     [[munad~aY/ADJ]]
@@ -8583,6 +8580,7 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- nAdiy -}            [ "club", "association", "clubs", "associations" ]
                               `plural`     FawACiL
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT
                            {- `others`  [ "nawAdiy N0_Nh" ] -},
 
     -- ;; munAdiy_1
@@ -9290,8 +9288,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- naf~-i -}           [ "blow the nose", "snuff" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; naf~ap_1
     -- nf      naf~    Nap     pinch of snuff
@@ -11832,9 +11829,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- nam~-ui -}          [ "slander", "gossip about" ]
                               `imperf`     FuCL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; nam~_1
     -- nm      nam~    N       slander;gossip
@@ -13476,8 +13471,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- naq~-i -}           [ "croak", "cluck" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; naq~_1
     -- nq      naq~    N       cackle;croaking
@@ -15384,8 +15378,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- nA'-u -}            [ "weigh heavily", "bear with difficulty", "be oppressed" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; nAwa>_1
     -- nAw>    nAwa>   PV      resist;oppose;compete with;contend with
@@ -15457,8 +15450,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- nAH-u -}            [ "mourn", "be lamented", "be mourned" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; nAwaH_1
     -- nAwH    nAwaH   PV_intr be opposite;face
@@ -15524,8 +15516,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- nAS-u -}            [ "avoid", "dodge" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; {inotAS_1
     -- <ntAS   {inotAS PV_V    grow dim;die down
@@ -15562,8 +15553,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- nAT-u -}            [ "entrust", "make dependent", "make conditional" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; naw~aT_1
     -- nwT     naw~aT  PV      entrust;make dependent;make conditional
@@ -15774,8 +15764,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- nAb-u -}            [ "represent", "substitute" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; naw~ab_1
     -- nwb     naw~ab  PV      appoint as deputy;deputize
@@ -15925,8 +15914,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- nAd-u -}            [ "sway", "swing" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; tanaw~ad_1
     -- tnwd    tanaw~ad        PV      sway;swing
@@ -15959,8 +15947,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- nAf-u -}            [ "exceed" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; >anAf_1
     -- >nAf    >anAf   PV_V    exceed
@@ -16055,8 +16042,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- nAl-u -}            [ "grant", "confer" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; naw~al_1
     -- nwl     naw~al  PV      let obtain
@@ -16150,8 +16136,7 @@ lexicon = listing "Lexicon's properties"
     -- nm      nam     IV_C    sleep;lie down
 
     FAL                       `verb`    {- nAm-a -}            [ "sleep", "lie down" ]
-                              `pfirst`     FiL
-                              `ithird`     FaL,
+                              `pfirst`     FiL,
 
     -- ;; naw~am_1
     -- nwm     naw~am  PV      lull to sleep;lay down;anesthetize
@@ -16610,8 +16595,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- nAs-u -}            [ "dangle" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; nAs_1
     -- nAs     nAs     N       people
@@ -16660,8 +16644,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- nAt-u -}            [ "sway", "stagger" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; nuwt_1
     -- nwt     nuwt    N       music note
@@ -16742,6 +16725,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCY |< aT                `noun`    {- nawAp -}            [ "nucleus", "core", "nuclei", "cores" ]
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT
                               `plural`     FaCaL |< At,
 
     -- ;; nawAp_2
@@ -16784,8 +16768,7 @@ lexicon = listing "Lexicon's properties"
     -- n'      ni'     IV_C_intr       be raw;be uncooked
 
     FAL                       `verb`    {- nA'-i -}            [ "be raw", "be uncooked" ]
-                              `imperf`     FIL
-                              `ithird`     FiL,
+                              `imperf`     FIL,
 
     -- ;; nayo'_1
     -- ny'     nayo'   N0      raw state;uncooked state
@@ -16917,8 +16900,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- nAk-i -}            [ "have sex with" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; niykap_1
     -- nyk     niyk    Napdu   have sex with
@@ -16954,8 +16936,7 @@ lexicon = listing "Lexicon's properties"
     -- nl      nal     IV_C_Pass_yu    be attained;be achieved;be acquired
 
     FAL                       `verb`    {- nAl-a -}            [ "attain", "achieve", "acquire", "be attained", "be achieved", "be acquired" ]
-                              `pfirst`     FiL
-                              `ithird`     FaL,
+                              `pfirst`     FiL,
 
     -- ;; nay~al_1
     -- nyl     nay~al  PV      dye with indigo
@@ -17901,8 +17882,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- naz~-i -}           [ "leak", "trickle" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; naziyz_1
     -- nzyz    naziyz  N       leaking;trickling

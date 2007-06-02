@@ -5107,6 +5107,9 @@ $Lexicon = {
         '$H      $aH     IV_C_Pass_yu    be averted (eyes);be turned away'
       ],
       'patterns' => {
+        '\'a^sa.h' => [
+          'HaFaL'
+        ],
         '^si.h' => [
           'FiL'
         ],
@@ -5920,6 +5923,12 @@ $Lexicon = {
         '$tq     $otaq   IV_C    desire;love'
       ],
       'patterns' => {
+        '^staq' => [
+          'FtaL'
+        ],
+        'i^staq' => [
+          'IFtaL'
+        ],
         '^stAq' => [
           'FtAL'
         ]
@@ -9981,7 +9990,11 @@ $Lexicon = {
         '>$fy    >a$ofiy Nap     remedies;medication',
         'A$fy    >a$ofiy Nap     remedies;medication'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a^sfiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCA\'',
@@ -10936,7 +10949,11 @@ $Lexicon = {
         '>$ty    >a$otiy Nap     winters',
         'A$ty    >a$otiy Nap     winters'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a^stiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCA\'',
@@ -10969,7 +10986,11 @@ $Lexicon = {
         '>$ty    >a$otiy Nap     rains',
         'A$ty    >a$otiy Nap     rains'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a^stiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FiCA\'',
@@ -15782,7 +15803,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'a^sriy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '1',
@@ -19619,6 +19641,9 @@ $Lexicon = {
         '^sib' => [
           'FiL'
         ],
+        '\'a^sab' => [
+          'HaFaL'
+        ],
         '^siyb' => [
           'FIL',
           'FiCL'
@@ -21292,6 +21317,9 @@ $Lexicon = {
         '^sal' => [
           'FaL'
         ],
+        '\'a^sal' => [
+          'HaFaL'
+        ],
         '^siyl' => [
           'FIL'
         ],
@@ -22929,6 +22957,9 @@ $Lexicon = {
         '^sa.t' => [
           'FaL'
         ],
+        '\'a^sa.t' => [
+          'HaFaL'
+        ],
         '^siy.t' => [
           'FIL',
           'FiCL'
@@ -22996,7 +23027,11 @@ $Lexicon = {
         'st$yT   sota$iyT        IV_V    flare up;be enraged',
         'st$T    sota$iT IV_C    flare up;be enraged'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista^sa.t' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -26287,7 +26322,11 @@ $Lexicon = {
       'entry' => '^sitA\'',
       'form' => '^sitA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'a^stiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -26301,7 +26340,11 @@ $Lexicon = {
       'entry' => '^sitA\'',
       'form' => '^sitA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'a^stiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -31412,7 +31455,11 @@ $Lexicon = {
       'entry' => '^sifA\'',
       'form' => '^sifA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'a^sfiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -31958,6 +32005,9 @@ $Lexicon = {
       'patterns' => {
         '^siyk' => [
           'FIL'
+        ],
+        '\'a^sak' => [
+          'HaFaL'
         ],
         '^sik' => [
           'FiL'
@@ -36047,6 +36097,9 @@ $Lexicon = {
         '^sa`' => [
           'FaL'
         ],
+        '\'a^sa`' => [
+          'HaFaL'
+        ],
         '^siy`' => [
           'FIL',
           'FiCL'
@@ -37686,6 +37739,9 @@ $Lexicon = {
         '$r      $ar     IV_C_Pass_yu    be indicated;be mentioned;be cited'
       ],
       'patterns' => {
+        '\'a^sar' => [
+          'HaFaL'
+        ],
         '^sir' => [
           'FiL'
         ],
@@ -37761,7 +37817,11 @@ $Lexicon = {
         'st$yr   sota$iyr        IV_V    consult;seek the advice of',
         'st$r    sota$ir IV_C    consult;seek the advice of'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista^sar' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -43305,6 +43365,9 @@ $Lexicon = {
         ],
         '^sad' => [
           'FaL'
+        ],
+        '\'a^sad' => [
+          'HaFaL'
         ]
       },
       'index' => '1',

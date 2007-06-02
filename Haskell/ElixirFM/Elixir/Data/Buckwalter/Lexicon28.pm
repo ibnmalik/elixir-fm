@@ -4700,7 +4700,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'ytam' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -5673,6 +5674,9 @@ $Lexicon = {
         'AyAd    >ayAd   NK      hands'
       ],
       'patterns' => {
+        '\'aydiy' => [
+          'HaFCI'
+        ],
         '\'ayAd' => [
           'HaFAL'
         ],

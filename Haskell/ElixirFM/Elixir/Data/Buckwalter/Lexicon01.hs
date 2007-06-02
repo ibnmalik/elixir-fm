@@ -85,8 +85,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- OaH~-u -}           [ "cough" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; >aH~_1
     -- >H      >aH~    N       cough
@@ -359,6 +358,16 @@ lexicon = listing "Lexicon's properties"
     -- >wASr   >awASir Ndip    attachment;bonds
     -- AwASr   >awASir Ndip    attachment;bonds
 
+    HACiL |< aT               `noun`    {- \|Sirap -}          [ "attachment", "bond", "bonds" ]
+                              `plural`     FawACiL
+                           {- `others`  [ "'awA.sir Ndip" ] -},
+
+    -- ;; |Sirap_1
+    -- \|Sr     |Sir    Nap     attachment;bond
+    -- ASr     |Sir    Nap     attachment;bond
+    -- >wASr   >awASir Ndip    attachment;bonds
+    -- AwASr   >awASir Ndip    attachment;bonds
+
     FACiL |< aT               `noun`    {- \|Sirap -}          [ "attachment", "bond", "bonds" ]
                               `plural`     FawACiL
                            {- `others`  [ "'awA.sir Ndip" ] -},
@@ -381,8 +390,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- OaT~-i -}           [ "bray" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; >aT~_1
     -- >T      >aT~    N       braying
@@ -532,9 +540,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- Oaj~-ui -}          [ "burn", "blaze" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; >aj~aj_1
     -- >jj     >aj~aj  PV      kindle;light
@@ -649,11 +655,23 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- \|jil -}            [ "future", "deferred" ],
 
+    -- ;; |jil_1
+    -- \|jl     |jil    Nall    future;deferred
+    -- Ajl     |jil    Nall    future;deferred
+
+    HACiL                     `noun`    {- \|jil -}            [ "future", "deferred" ],
+
     -- ;; |jilap_1
     -- \|jl     |jil    Nap     hereafter
     -- Ajl     |jil    Nap     hereafter
 
     FACiL |< aT               `noun`    {- \|jilap -}          [ "hereafter" ],
+
+    -- ;; |jilap_1
+    -- \|jl     |jil    Nap     hereafter
+    -- Ajl     |jil    Nap     hereafter
+
+    HACiL |< aT               `noun`    {- \|jilap -}          [ "hereafter" ],
 
     -- ;; ta>ojiyl_1
     -- t>jyl   ta>ojiyl        NduAt   postponement;delay
@@ -707,7 +725,13 @@ lexicon = listing "Lexicon's properties"
     -- \|jn     |jin    Nall    putrid;brackish
     -- Ajn     |jin    Nall    putrid;brackish
 
-    FACiL                     `noun`    {- \|jin -}            [ "putrid", "brackish" ] ]
+    FACiL                     `noun`    {- \|jin -}            [ "putrid", "brackish" ],
+
+    -- ;; |jin_1
+    -- \|jn     |jin    Nall    putrid;brackish
+    -- Ajn     |jin    Nall    putrid;brackish
+
+    HACiL                     `noun`    {- \|jin -}            [ "putrid", "brackish" ] ]
 
  |> "' ^g r" <| [
 
@@ -730,6 +754,14 @@ lexicon = listing "Lexicon's properties"
     -- &jr     &aj~ar  IV_Pass_yu      be leased;be lent
 
     FaCCaL                    `verb`    {- Oaj~ar -}           [ "lease", "lend", "be leased", "be lent" ],
+
+    -- ;; |jar_1
+    -- \|jr     |jar    PV      lend;hire out
+    -- Ajr     |jar    PV      lend;hire out
+    -- &jr     &ojir   IV_no-Pref-A_yu lend;hire out
+    -- wjr     wjir    IV_need-Pref-A_yu       lend;hire out
+
+    HACaL                     `verb`    {- \|jar -}            [ "lend", "hire out" ],
 
     -- ;; |jar_1
     -- \|jr     |jar    PV      lend;hire out
@@ -1095,6 +1127,22 @@ lexicon = listing "Lexicon's properties"
 
     FACY                      `verb`    {- \|*aY -}            [ "injure", "prejudice", "be injured", "be prejudiced" ],
 
+    -- ;; |*aY_1
+    -- \|*Y     |*aY    PV_0    injure;prejudice
+    -- A*Y     |*aY    PV_0    injure;prejudice
+    -- \|*A     |*A     PV_h    injure;prejudice
+    -- A*A     |*A     PV_h    injure;prejudice
+    -- \|*y     |*ay    PV_Atn  injure;prejudice
+    -- A*y     |*ay    PV_Atn  injure;prejudice
+    -- \|*      |*      PV_ttAw injure;prejudice
+    -- A*      |*      PV_ttAw injure;prejudice
+    -- &*y     &o*iy   IV_0hAnn_yu     injure;prejudice
+    -- &*      &o*     IV_0hwnyn_yu    injure;prejudice
+    -- &*Y     &o*aY   IV_0_Pass_yu    be injured;be prejudiced
+    -- &*y     &o*ay   IV_Ann_Pass_yu  be injured;be prejudiced
+
+    HACY                      `verb`    {- \|*aY -}            [ "injure", "prejudice", "be injured", "be prejudiced" ],
+
     -- ;; ta>a*~aY_1
     -- t>*Y    ta>a*~aY        PV_0    be injured;be offended
     -- t>*A    ta>a*~A PV_h    be injured;be offended
@@ -1198,6 +1246,14 @@ lexicon = listing "Lexicon's properties"
     -- &*n     &o*in   IV-n_no-Pref-A_yu       announce;warn
     -- w*n     w*in    IV_need-Pref-A_yu       announce;warn
 
+    HACaL                     `verb`    {- \|*an -}            [ "announce", "warn" ],
+
+    -- ;; |*an_1
+    -- \|*n     |*an    PV-n    announce;warn
+    -- A*n     |*an    PV-n    announce;warn
+    -- &*n     &o*in   IV-n_no-Pref-A_yu       announce;warn
+    -- w*n     w*in    IV_need-Pref-A_yu       announce;warn
+
     FACaL                     `verb`    {- \|*an -}            [ "announce", "warn" ],
 
     -- ;; ta>a*~an_1
@@ -1269,6 +1325,12 @@ lexicon = listing "Lexicon's properties"
     -- A*n     |*in    Nall    door-keeper;porter
 
     FACiL                     `noun`    {- \|*in -}            [ "door-keeper", "porter" ],
+
+    -- ;; |*in_1
+    -- \|*n     |*in    Nall    door-keeper;porter
+    -- A*n     |*in    Nall    door-keeper;porter
+
+    HACiL                     `noun`    {- \|*in -}            [ "door-keeper", "porter" ],
 
     -- ;; ma>o*uwn_1
     -- m>*wn   ma>o*uwn        Nall    authorized;licensed
@@ -1400,6 +1462,13 @@ lexicon = listing "Lexicon's properties"
     -- Ax*     |xa*    PV      blame;reproach
     -- &Ax*    &Axi*   IV_yu   blame;reproach
 
+    HACaL                     `verb`    {- \|xa* -}            [ "blame", "reproach" ],
+
+    -- ;; |xa*_1
+    -- \|x*     |xa*    PV      blame;reproach
+    -- Ax*     |xa*    PV      blame;reproach
+    -- &Ax*    &Axi*   IV_yu   blame;reproach
+
     FACaL                     `verb`    {- \|xa* -}            [ "blame", "reproach" ],
 
     -- ;; >axo*_1
@@ -1413,6 +1482,12 @@ lexicon = listing "Lexicon's properties"
     -- Ax*     |xi*    Nall    taking;captivating;engrossing
 
     FACiL                     `noun`    {- \|xi* -}            [ "taking", "captivating", "engrossing" ],
+
+    -- ;; |xi*_1
+    -- \|x*     |xi*    Nall    taking;captivating;engrossing
+    -- Ax*     |xi*    Nall    taking;captivating;engrossing
+
+    HACiL                     `noun`    {- \|xi* -}            [ "taking", "captivating", "engrossing" ],
 
     -- ;; >ax~A*_1
     -- >xA*    >ax~A*  Nall    fascinating;captivating
@@ -1651,6 +1726,22 @@ lexicon = listing "Lexicon's properties"
     -- &AxY    &AxaY   IV_0_Pass_yu    be fraternized with
     -- &Axy    &Axay   IV_Ann_Pass_yu  be fraternized with
 
+    HACY                      `verb`    {- \|xaY -}            [ "fraternize", "be fraternized with" ],
+
+    -- ;; |xaY_1
+    -- \|xY     |xaY    PV_0    fraternize
+    -- AxY     |xaY    PV_0    fraternize
+    -- \|xA     |xA     PV_h    fraternize
+    -- AxA     |xA     PV_h    fraternize
+    -- \|xy     |xay    PV_Atn  fraternize
+    -- Axy     |xay    PV_Atn  fraternize
+    -- \|x      |x      PV_ttAw fraternize
+    -- Ax      |x      PV_ttAw fraternize
+    -- &Axy    &Axiy   IV_0hAnn_yu     fraternize
+    -- &Ax     &Ax     IV_0hwnyn_yu    fraternize
+    -- &AxY    &AxaY   IV_0_Pass_yu    be fraternized with
+    -- &Axy    &Axay   IV_Ann_Pass_yu  be fraternized with
+
     FACY                      `verb`    {- \|xaY -}            [ "fraternize", "be fraternized with" ],
 
     -- ;; ta>ax~aY_1
@@ -1712,6 +1803,12 @@ lexicon = listing "Lexicon's properties"
 
     FACI |< aT                `noun`    {- \|xiyap -}          [ "attachment", "bond" ],
 
+    -- ;; |xiyap_1
+    -- \|xy     |xiy    Nap     attachment;bond
+    -- Axy     |xiy    Nap     attachment;bond
+
+    HACI |< aT                `noun`    {- \|xiyap -}          [ "attachment", "bond" ],
+
     -- ;; <ixA'_1
     -- <xA'    <ixA'   N0_Nh   fraternity
     -- AxA'    <ixA'   N0_Nh   fraternity
@@ -1765,6 +1862,12 @@ lexicon = listing "Lexicon's properties"
     -- \|xy     |xiy    Nap     attachment;bond
     -- Axy     |xiy    Nap     attachment;bond
 
+    HACiL |< aT               `noun`    {- \|xiyap -}          [ "attachment", "bond" ],
+
+    -- ;; |xiyap_1
+    -- \|xy     |xiy    Nap     attachment;bond
+    -- Axy     |xiy    Nap     attachment;bond
+
     FACiL |< aT               `noun`    {- \|xiyap -}          [ "attachment", "bond" ],
 
     -- ;; >awAxiy_1
@@ -1796,10 +1899,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- Oav~-uia -}         [ "be luxuriant", "grow profusely" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL
-                              `ithird`     FCuL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCaL,
 
     -- ;; >avAvap_1
     -- >vAv    >avAv   Nap     profusion
@@ -1983,6 +2083,12 @@ lexicon = listing "Lexicon's properties"
     -- t>vym   ta>oviym        NduAt   sin;offense
 
     TaFCIL                    `noun`    {- taOoviym -}         [ "sin", "offense" ],
+
+    -- ;; |vim_1
+    -- \|vm     |vim    Nall    sinful;evil
+    -- Avm     |vim    Nall    sinful;evil
+
+    HACiL                     `noun`    {- \|vim -}            [ "sinful", "evil" ],
 
     -- ;; |vim_1
     -- \|vm     |vim    Nall    sinful;evil
@@ -2379,9 +2485,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- Oab~-ui -}          [ "desire", "aspire" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; >abAbap_1
     -- >bAb    >abAb   Nap     nostalgia;homesickness
@@ -2872,6 +2976,16 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- IibAwap -}          [ "fatherhood" ],
 
+    -- ;; |bA'_1
+    -- \|bA'    |bA'    N0_Nh   fathers;ancestors
+    -- AbA'    |bA'    N0_Nh   fathers;ancestors
+    -- \|bA&    |bA&    Nh      fathers;ancestors
+    -- AbA&    |bA&    Nh      fathers;ancestors
+    -- \|bA}    |bA}    Nhy     fathers;ancestors
+    -- AbA}    |bA}    Nhy     fathers;ancestors
+
+    HACA'                     `noun`    {- \|bA' -}            [ "fathers", "ancestors" ],
+
     -- ;; >ubuw~ap_1
     -- >bw     >ubuw~  NapAt   paternity
     -- Abw     >ubuw~  NapAt   paternity
@@ -3160,9 +3274,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- Oad~-ui -}          [ "befall", "afflict" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; <id~_1
     -- <d      <id~    N       horrible;evil
@@ -3192,6 +3304,12 @@ lexicon = listing "Lexicon's properties"
     -- \|dm     |dam    Nprop   Adam
     -- Adm     |dam    Nprop   Adam
 
+    HACaL                     `noun`    {- \|dam -}            [ "Adam" ],
+
+    -- ;; |dam_1
+    -- \|dm     |dam    Nprop   Adam
+    -- Adm     |dam    Nprop   Adam
+
     FACaL                     `noun`    {- \|dam -}            [ "Adam" ],
 
     -- ;; >awAdim_1
@@ -3199,6 +3317,12 @@ lexicon = listing "Lexicon's properties"
     -- AwAdm   >awAdim Ndip    humans
 
     FawACiL                   `noun`    {- OawAdim -}          [ "humans" ],
+
+    -- ;; |damiy~_1
+    -- \|dmy    |damiy~ Nall    human;humane     [[|damiy~/ADJ]]
+    -- Admy    |damiy~ Nall    human;humane     [[|damiy~/ADJ]]
+
+    HACaL |< Iy               `adj`     {- \|damiy~ -}         [ "human", "humane" ],
 
     -- ;; |damiy~_1
     -- \|dmy    |damiy~ Nall    human;humane     [[|damiy~/ADJ]]
@@ -3506,6 +3630,12 @@ lexicon = listing "Lexicon's properties"
     -- \|fl     |fil    Nall    passing;fading;transitory
     -- Afl     |fil    Nall    passing;fading;transitory
 
+    HACiL                     `noun`    {- \|fil -}            [ "passing", "fading", "transitory" ],
+
+    -- ;; |fil_1
+    -- \|fl     |fil    Nall    passing;fading;transitory
+    -- Afl     |fil    Nall    passing;fading;transitory
+
     FACiL                     `noun`    {- \|fil -}            [ "passing", "fading", "transitory" ] ]
 
  |> "' f n" <| [
@@ -3808,6 +3938,12 @@ lexicon = listing "Lexicon's properties"
     -- Ahly    >aholiy~        Nap     aptitude;competence;qualification     [[>aholiy~/NOUN]]
 
     FaCL |< Iy |< aT          `noun`    {- Oaholiy~ap -}       [ "aptitude", "competence", "qualification" ],
+
+    -- ;; |hil_1
+    -- \|hl     |hil    Nall    populated
+    -- Ahl     |hil    Nall    populated
+
+    HACiL                     `noun`    {- \|hil -}            [ "populated" ],
 
     -- ;; |hil_1
     -- \|hl     |hil    Nall    populated
@@ -4160,6 +4296,13 @@ lexicon = listing "Lexicon's properties"
 
     FACaL                     `verb`    {- \|kar -}            [ "farm", "sharecrop" ],
 
+    -- ;; |kar_1
+    -- \|kr     |kar    PV      farm;sharecrop
+    -- Akr     |kar    PV      farm;sharecrop
+    -- &Akr    &Akir   IV_yu   farm;sharecrop
+
+    HACaL                     `verb`    {- \|kar -}            [ "farm", "sharecrop" ],
+
     -- ;; >akor_1
     -- >kr     >akor   N       cultivation
     -- Akr     >akor   N       cultivation
@@ -4441,6 +4584,13 @@ lexicon = listing "Lexicon's properties"
 
     FACaL                     `verb`    {- \|laf -}            [ "befriend", "adapt to" ],
 
+    -- ;; |laf_1
+    -- \|lf     |laf    PV      befriend;adapt to
+    -- Alf     |laf    PV      befriend;adapt to
+    -- &Alf    &Alif   IV_yu   befriend;adapt to
+
+    HACaL                     `verb`    {- \|laf -}            [ "befriend", "adapt to" ],
+
     -- ;; |laf_2
     -- \|lf     |laf    PV      adapt;familiarize
     -- Alf     |laf    PV      adapt;familiarize
@@ -4448,6 +4598,14 @@ lexicon = listing "Lexicon's properties"
     -- wlf     wlif    IV_need-Pref-A_yu       adapt;familiarize
 
     FACaL                     `verb`    {- \|laf -}            [ "adapt", "familiarize" ],
+
+    -- ;; |laf_2
+    -- \|lf     |laf    PV      adapt;familiarize
+    -- Alf     |laf    PV      adapt;familiarize
+    -- &lf     &olif   IV_no-Pref-A_yu adapt;familiarize
+    -- wlf     wlif    IV_need-Pref-A_yu       adapt;familiarize
+
+    HACaL                     `verb`    {- \|laf -}            [ "adapt", "familiarize" ],
 
     -- ;; ta>al~af_1
     -- t>lf    ta>al~af        PV      consist of
@@ -4549,11 +4707,27 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACiL
                            {- `others`  [ "'awAlif Ndip" ] -},
 
+    -- ;; |lif_1
+    -- \|lf     |lif    Nall    companion;confidant
+    -- Alf     |lif    Nall    companion;confidant
+    -- >wAlf   >awAlif Ndip    companions;confidants
+    -- AwAlf   >awAlif Ndip    companions;confidants
+
+    HACiL                     `noun`    {- \|lif -}            [ "companion", "confidant", "companions", "confidants" ]
+                              `plural`     FawACiL
+                           {- `others`  [ "'awAlif Ndip" ] -},
+
     -- ;; |laf_3
     -- \|lf     |laf    Nel     friendlier;friendliest;more/most accustomed
     -- Alf     |laf    Nel     friendlier;friendliest;more/most accustomed
 
     FACaL                     `noun`    {- \|laf -}            [ "friendlier", "friendliest", "more/most accustomed" ],
+
+    -- ;; |laf_3
+    -- \|lf     |laf    Nel     friendlier;friendliest;more/most accustomed
+    -- Alf     |laf    Nel     friendlier;friendliest;more/most accustomed
+
+    HACaL                     `noun`    {- \|laf -}            [ "friendlier", "friendliest", "more/most accustomed" ],
 
     -- ;; ma>oluwf_1
     -- m>lwf   ma>oluwf        Nall    familiar;usual;customary
@@ -4749,6 +4923,14 @@ lexicon = listing "Lexicon's properties"
     -- &lm     &olim   IV_no-Pref-A_yu afflict;distress
     -- wlm     wlim    IV_need-Pref-A_yu       afflict;distress
 
+    HACaL                     `verb`    {- \|lam -}            [ "afflict", "distress" ],
+
+    -- ;; |lam_1
+    -- \|lm     |lam    PV      afflict;distress
+    -- Alm     |lam    PV      afflict;distress
+    -- &lm     &olim   IV_no-Pref-A_yu afflict;distress
+    -- wlm     wlim    IV_need-Pref-A_yu       afflict;distress
+
     FACaL                     `verb`    {- \|lam -}            [ "afflict", "distress" ],
 
     -- ;; ta>al~am_1
@@ -4772,6 +4954,12 @@ lexicon = listing "Lexicon's properties"
     -- Alym    >aliym  Nall    painful;cruel
 
     FaCIL                     `noun`    {- Oaliym -}           [ "painful", "cruel" ],
+
+    -- ;; |lam_2
+    -- \|lm     |lam    Nel     more/most painful
+    -- Alm     |lam    Nel     more/most painful
+
+    HACaL                     `noun`    {- \|lam -}            [ "more/most painful" ],
 
     -- ;; |lam_2
     -- \|lm     |lam    Nel     more/most painful
@@ -4897,6 +5085,7 @@ lexicon = listing "Lexicon's properties"
 
     HACAL                     `noun`    {- \|lAn -}            [ "Allan", "Allen", "Alain" ]
                               `plural`     FACaL
+                              `plural`     HACaL
                            {- `others`  [ "'Alan Nprop" ] -} ]
 
  |> "' l q" <| [
@@ -5004,7 +5193,39 @@ lexicon = listing "Lexicon's properties"
     -- &lY     &olaY   IV_0_Pass_yu    be taken (oath)
     -- &ly     &olay   IV_Ann_Pass_yu  be taken (oath)
 
+    HACY                      `verb`    {- \|laY -}            [ "promise", "take an oath", "be taken (oath)" ],
+
+    -- ;; |laY_1
+    -- \|lY     |laY    PV_0    promise;take an oath
+    -- AlY     |laY    PV_0    promise;take an oath
+    -- \|lA     |lA     PV_h    promise;take an oath
+    -- AlA     |lA     PV_h    promise;take an oath
+    -- \|ly     |lay    PV_Atn  promise;take an oath
+    -- Aly     |lay    PV_Atn  promise;take an oath
+    -- \|l      |l      PV_ttAw promise;take an oath
+    -- Al      |l      PV_ttAw promise;take an oath
+    -- &ly     &oliy   IV_0hAnn_yu     promise;take an oath
+    -- &l      &ol     IV_0hwnyn_yu    promise;take an oath
+    -- &lY     &olaY   IV_0_Pass_yu    be taken (oath)
+    -- &ly     &olay   IV_Ann_Pass_yu  be taken (oath)
+
     FACY                      `verb`    {- \|laY -}            [ "promise", "take an oath", "be taken (oath)" ],
+
+    -- ;; <iylA'_1
+    -- <ylA'   <iylA'  N0_Nh   oath
+    -- AylA'   <iylA'  N0_Nh   oath
+    -- <ylA&   <iylA&  Nh      oath
+    -- AylA&   <iylA&  Nh      oath
+    -- <ylA}   <iylA}  Nhy     oath
+    -- AylA}   <iylA}  Nhy     oath
+    -- <ylA'   <iylA'  NAn_Nayn        oaths
+    -- AylA'   <iylA'  NAn_Nayn        oaths
+    -- <ylA}   <iylA}  Nayn    oaths
+    -- AylA}   <iylA}  Nayn    oaths
+    -- <ylA'   <iylA'  NAt     oaths
+    -- AylA'   <iylA'  NAt     oaths
+
+    HICA'                     `noun`    {- IiylA' -}           [ "oath", "oaths" ],
 
     -- ;; >alowap_1
     -- >lw     >alow   Napdu   aloe
@@ -5080,7 +5301,17 @@ lexicon = listing "Lexicon's properties"
     -- AlAyA   >alAyA  Nhy     buttocks;backsides
 
     FaCL |< aT                `noun`    {- Oaloyap -}          [ "buttock", "backside", "buttocks", "backsides" ]
-                              `plural`     FaCaL |< At ]
+                              `plural`     FaCaL |< At,
+
+    -- ;; |lA'_1
+    -- \|lA'    |lA'    N0_Nh   benefits;blessings
+    -- AlA'    |lA'    N0_Nh   benefits;blessings
+    -- \|lA&    |lA&    Nh      benefits;blessings
+    -- AlA&    |lA&    Nh      benefits;blessings
+    -- \|lA}    |lA}    Nhy     benefits;blessings
+    -- AlA}    |lA}    Nhy     benefits;blessings
+
+    HACA'                     `noun`    {- \|lA' -}            [ "benefits", "blessings" ] ]
 
  |> "' l y s" <| [
 
@@ -5448,6 +5679,14 @@ lexicon = listing "Lexicon's properties"
 
     FACaL                     `verb`    {- \|man -}            [ "believe" ],
 
+    -- ;; |man_1
+    -- \|mn     |man    PV-n    believe
+    -- Amn     |man    PV-n    believe
+    -- &mn     &omin   IV-n_no-Pref-A_yu       believe
+    -- wmn     wmin    IV_need-Pref-A_yu       believe
+
+    HACaL                     `verb`    {- \|man -}            [ "believe" ],
+
     -- ;; {i}otaman_1
     -- <}tmn   {i}otaman       PV-n    trust;entrust
     -- A}tmn   {i}otaman       PV-n    trust;entrust
@@ -5545,6 +5784,12 @@ lexicon = listing "Lexicon's properties"
     -- Amn     |min    Nall    secure;safe
 
     FACiL                     `noun`    {- \|min -}            [ "secure", "safe" ],
+
+    -- ;; |min_1
+    -- \|mn     |min    Nall    secure;safe
+    -- Amn     |min    Nall    secure;safe
+
+    HACiL                     `noun`    {- \|min -}            [ "secure", "safe" ],
 
     -- ;; ma>omuwn_1
     -- m>mwn   ma>omuwn        N0      Mamoun
@@ -5985,6 +6230,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `noun`    {- OanaY -}            [ "time", "period" ]
                               `plural`     HACAL
+                              `plural`     HACA'
                               `plural`     FaCA
                            {- `others`  [ "'AnA' Nh N0_Nh Nhy", "'anA Nhy" ] -},
 
@@ -6013,6 +6259,7 @@ lexicon = listing "Lexicon's properties"
     -- AwAn    >awAn   NK      vessels;containers;receptacles
 
     FiCAL                     `noun`    {- IinA' -}            [ "vessel", "container", "receptacle", "vessels", "containers", "receptacles" ]
+                              `plural`     HACI |< aT
                               `plural`     FACI |< aT,
 
     -- ;; ta>an~iy_1
@@ -6360,11 +6607,27 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- \|nif -}            [ "previous", "beforehand" ],
 
+    -- ;; |nif_1
+    -- \|nf     |nif    N/ap    previous;beforehand
+    -- Anf     |nif    N/ap    previous;beforehand
+
+    HACiL                     `noun`    {- \|nif -}            [ "previous", "beforehand" ],
+
     -- ;; |nifAF_1
     -- \|nf     |nif    NF      previously;foregoing     [[|nif/ADV]]
     -- Anf     |nif    NF      previously;foregoing     [[|nif/ADV]]
 
     FACiL |< aN               `noun`    {- \|nifAF -}          [ "previously", "foregoing" ]
+                              `plural`     HACiL
+                              `plural`     FACiL
+                           {- `others`  [ "'Anif NF" ] -},
+
+    -- ;; |nifAF_1
+    -- \|nf     |nif    NF      previously;foregoing     [[|nif/ADV]]
+    -- Anf     |nif    NF      previously;foregoing     [[|nif/ADV]]
+
+    HACiL |< aN               `noun`    {- \|nifAF -}          [ "previously", "foregoing" ]
+                              `plural`     HACiL
                               `plural`     FACiL
                            {- `others`  [ "'Anif NF" ] -},
 
@@ -6529,6 +6792,14 @@ lexicon = listing "Lexicon's properties"
     -- &nq     &oniq   IV_no-Pref-A_yu please
     -- wnq     wniq    IV_need-Pref-A_yu       please
 
+    HACaL                     `verb`    {- \|naq -}            [ "please" ],
+
+    -- ;; |naq_1
+    -- \|nq     |naq    PV      please
+    -- Anq     |naq    PV      please
+    -- &nq     &oniq   IV_no-Pref-A_yu please
+    -- wnq     wniq    IV_need-Pref-A_yu       please
+
     FACaL                     `verb`    {- \|naq -}            [ "please" ],
 
     -- ;; ta>an~aq_1
@@ -6629,7 +6900,22 @@ lexicon = listing "Lexicon's properties"
     -- Ans     |nas    PV_intr be friendly;entertain
     -- &Ans    &Anis   IV_intr_yu      be friendly;entertain
 
+    HACaL                     `verb`    {- \|nas -}            [ "be friendly", "entertain" ],
+
+    -- ;; |nas_1
+    -- \|ns     |nas    PV_intr be friendly;entertain
+    -- Ans     |nas    PV_intr be friendly;entertain
+    -- &Ans    &Anis   IV_intr_yu      be friendly;entertain
+
     FACaL                     `verb`    {- \|nas -}            [ "be friendly", "entertain" ],
+
+    -- ;; |nas_2
+    -- \|ns     |nas    PV      entertain;perceive
+    -- Ans     |nas    PV      entertain;perceive
+    -- &ns     &onis   IV_no-Pref-A_yu entertain;perceive
+    -- wns     wnis    IV_need-Pref-A_yu       entertain;perceive
+
+    HACaL                     `verb`    {- \|nas -}            [ "entertain", "perceive" ],
 
     -- ;; |nas_2
     -- \|ns     |nas    PV      entertain;perceive
@@ -6743,6 +7029,12 @@ lexicon = listing "Lexicon's properties"
     -- AnsAny  <inosAniy~      NAt     Humanities     [[<inosAniy~/NOUN]]
 
     FiCLAn |< Iy |< At        `noun`    {- IinosAniy~At -}     [ "Humanities" ],
+
+    -- ;; |nisap_1
+    -- \|ns     |nis    NapAt   lady;Miss
+    -- Ans     |nis    NapAt   lady;Miss
+
+    HACiL |< aT               `noun`    {- \|nisap -}          [ "lady", "Miss" ],
 
     -- ;; |nisap_1
     -- \|ns     |nis    NapAt   lady;Miss
@@ -7607,6 +7899,12 @@ lexicon = listing "Lexicon's properties"
     -- \|rq     |riq    Nall    insomniac
     -- Arq     |riq    Nall    insomniac
 
+    HACiL                     `noun`    {- \|riq -}            [ "insomniac" ],
+
+    -- ;; |riq_1
+    -- \|rq     |riq    Nall    insomniac
+    -- Arq     |riq    Nall    insomniac
+
     FACiL                     `noun`    {- \|riq -}            [ "insomniac" ],
 
     -- ;; >ariq_1
@@ -7936,6 +8234,14 @@ lexicon = listing "Lexicon's properties"
     -- &sf     &osif   IV_no-Pref-A_yu sadden;distress
     -- wsf     wsif    IV_need-Pref-A_yu       sadden;distress
 
+    HACaL                     `verb`    {- \|saf -}            [ "sadden", "distress" ],
+
+    -- ;; |saf_1
+    -- \|sf     |saf    PV      sadden;distress
+    -- Asf     |saf    PV      sadden;distress
+    -- &sf     &osif   IV_no-Pref-A_yu sadden;distress
+    -- wsf     wsif    IV_need-Pref-A_yu       sadden;distress
+
     FACaL                     `verb`    {- \|saf -}            [ "sadden", "distress" ],
 
     -- ;; ta>as~af_1
@@ -7954,6 +8260,12 @@ lexicon = listing "Lexicon's properties"
     -- t>sf    ta>as~uf        NduAt   sorry;regret
 
     TaFaCCuL                  `noun`    {- taOas~uf -}         [ "sorry", "regret" ],
+
+    -- ;; |sif_1
+    -- \|sf     |sif    Nall    sorry;regretful
+    -- Asf     |sif    Nall    sorry;regretful
+
+    HACiL                     `noun`    {- \|sif -}            [ "sorry", "regretful" ],
 
     -- ;; |sif_1
     -- \|sf     |sif    Nall    sorry;regretful
@@ -8133,6 +8445,12 @@ lexicon = listing "Lexicon's properties"
     -- Asn     |sin    Nall    contaminated;brackish
 
     FACiL                     `noun`    {- \|sin -}            [ "contaminated", "brackish" ],
+
+    -- ;; |sin_1
+    -- \|sn     |sin    Nall    contaminated;brackish
+    -- Asn     |sin    Nall    contaminated;brackish
+
+    HACiL                     `noun`    {- \|sin -}            [ "contaminated", "brackish" ],
 
     -- ;; muta>as~in_1
     -- mt>sn   muta>as~in      Nall    putrid;brackish
@@ -8549,7 +8867,39 @@ lexicon = listing "Lexicon's properties"
     -- &AsY    &AsaY   IV_0_Pass_yu    be consoled;be comforted
     -- &Asy    &Asay   IV_Ann_Pass_yu  be consoled;be comforted
 
+    HACY                      `verb`    {- \|saY -}            [ "console", "comfort", "be consoled", "be comforted" ],
+
+    -- ;; |saY_1
+    -- \|sY     |saY    PV_0    console;comfort
+    -- AsY     |saY    PV_0    console;comfort
+    -- \|sA     |sA     PV_h    console;comfort
+    -- AsA     |sA     PV_h    console;comfort
+    -- \|sy     |say    PV_Atn  console;comfort
+    -- Asy     |say    PV_Atn  console;comfort
+    -- \|s      |s      PV_ttAw console;comfort
+    -- As      |s      PV_ttAw console;comfort
+    -- &Asy    &Asiy   IV_0hAnn_yu     console;comfort
+    -- &As     &As     IV_0hwnyn_yu    console;comfort
+    -- &AsY    &AsaY   IV_0_Pass_yu    be consoled;be comforted
+    -- &Asy    &Asay   IV_Ann_Pass_yu  be consoled;be comforted
+
     FACY                      `verb`    {- \|saY -}            [ "console", "comfort", "be consoled", "be comforted" ],
+
+    -- ;; |saY_2
+    -- \|sY     |saY    PV_0    grieve;afflict
+    -- AsY     |saY    PV_0    grieve;afflict
+    -- \|sA     |sA     PV_h    grieve;afflict
+    -- AsA     |sA     PV_h    grieve;afflict
+    -- \|sy     |say    PV_Atn  grieve;afflict
+    -- Asy     |say    PV_Atn  grieve;afflict
+    -- \|s      |s      PV_ttAw grieve;afflict
+    -- As      |s      PV_ttAw grieve;afflict
+    -- &sy     &osiy   IV_0hAnn_yu     grieve;afflict
+    -- &s      &os     IV_0hwnyn_yu    grieve;afflict
+    -- &sY     &osaY   IV_0_Pass_yu    be aggrieved;be afflicted
+    -- &sy     &osay   IV_Ann_Pass_yu  be aggrieved;be afflicted
+
+    HACY                      `verb`    {- \|saY -}            [ "grieve", "afflict", "be aggrieved", "be afflicted" ],
 
     -- ;; |saY_2
     -- \|sY     |saY    PV_0    grieve;afflict
@@ -8600,6 +8950,20 @@ lexicon = listing "Lexicon's properties"
     FaCY                      `noun`    {- OasaY -}            [ "affliction", "sorrow" ]
                               `plural`     FaCA
                            {- `others`  [ "'asA Nhy" ] -},
+
+    -- ;; |siy_1
+    -- \|sy     |siy    N0F     afflicted;desolate
+    -- Asy     |siy    N0F     afflicted;desolate
+    -- \|s      |s      NK      afflicted;desolate
+    -- As      |s      NK      afflicted;desolate
+    -- \|sy     |siy    NAn_Nayn        afflicted;desolate
+    -- Asy     |siy    NAn_Nayn        afflicted;desolate
+    -- \|s      |s      Nuwn_Niyn       afflicted;desolate
+    -- As      |s      Nuwn_Niyn       afflicted;desolate
+    -- \|sy     |siy    NapAt   afflicted;desolate
+    -- Asy     |siy    NapAt   afflicted;desolate
+
+    HACI                      `noun`    {- \|siy -}            [ "afflicted", "desolate" ],
 
     -- ;; |siy_1
     -- \|sy     |siy    N0F     afflicted;desolate
@@ -8710,6 +9074,20 @@ lexicon = listing "Lexicon's properties"
 
     FaCiL                     `verb`    {- Oasiy-a -}          [ "be sad", "grieve" ]
                               `imperf`     FCY,
+
+    -- ;; |siy_1
+    -- \|sy     |siy    N0F     afflicted;desolate
+    -- Asy     |siy    N0F     afflicted;desolate
+    -- \|s      |s      NK      afflicted;desolate
+    -- As      |s      NK      afflicted;desolate
+    -- \|sy     |siy    NAn_Nayn        afflicted;desolate
+    -- Asy     |siy    NAn_Nayn        afflicted;desolate
+    -- \|s      |s      Nuwn_Niyn       afflicted;desolate
+    -- As      |s      Nuwn_Niyn       afflicted;desolate
+    -- \|sy     |siy    NapAt   afflicted;desolate
+    -- Asy     |siy    NapAt   afflicted;desolate
+
+    HACiL                     `noun`    {- \|siy -}            [ "afflicted", "desolate" ],
 
     -- ;; |siy_1
     -- \|sy     |siy    N0F     afflicted;desolate
@@ -8912,6 +9290,22 @@ lexicon = listing "Lexicon's properties"
 
     FACY                      `verb`    {- \|taY -}            [ "give", "offer", "be given", "be offered" ],
 
+    -- ;; |taY_1
+    -- \|tY     |taY    PV_0    give;offer
+    -- AtY     |taY    PV_0    give;offer
+    -- \|tA     |tA     PV_h    give;offer
+    -- AtA     |tA     PV_h    give;offer
+    -- \|ty     |tay    PV_Atn  give;offer
+    -- Aty     |tay    PV_Atn  give;offer
+    -- \|t      |t      PV_ttAw give;offer
+    -- At      |t      PV_ttAw give;offer
+    -- &Aty    &Atiy   IV_0hAnn_yu     give;offer
+    -- &At     &At     IV_0hwnyn_yu    give;offer
+    -- &AtY    &AtaY   IV_0_Pass_yu    be given;be offered
+    -- &Aty    &Atay   IV_Ann_Pass_yu  be given;be offered
+
+    HACY                      `verb`    {- \|taY -}            [ "give", "offer", "be given", "be offered" ],
+
     -- ;; |taY_2
     -- \|tY     |taY    PV_0    give;offer
     -- AtY     |taY    PV_0    give;offer
@@ -8927,6 +9321,22 @@ lexicon = listing "Lexicon's properties"
     -- &ty     &otay   IV_Ann_Pass_yu  be given;be offered
 
     FACY                      `verb`    {- \|taY -}            [ "give", "offer", "be given", "be offered" ],
+
+    -- ;; |taY_2
+    -- \|tY     |taY    PV_0    give;offer
+    -- AtY     |taY    PV_0    give;offer
+    -- \|tA     |tA     PV_h    give;offer
+    -- AtA     |tA     PV_h    give;offer
+    -- \|ty     |tay    PV_Atn  give;offer
+    -- Aty     |tay    PV_Atn  give;offer
+    -- \|t      |t      PV_ttAw give;offer
+    -- At      |t      PV_ttAw give;offer
+    -- &ty     &otiy   IV_0hAnn_yu     give;offer
+    -- &t      &ot     IV_0hwnyn_yu    give;offer
+    -- &tY     &otaY   IV_0_Pass_yu    be given;be offered
+    -- &ty     &otay   IV_Ann_Pass_yu  be given;be offered
+
+    HACY                      `verb`    {- \|taY -}            [ "give", "offer", "be given", "be offered" ],
 
     -- ;; ta>at~aY_1
     -- t>tY    ta>at~aY        PV_0    happen;result
@@ -9016,7 +9426,13 @@ lexicon = listing "Lexicon's properties"
     -- >wty    >uwtiy  Nprop   Ottey
     -- Awty    >uwtiy  Nprop   Ottey
 
-    HUCiL                     `noun`    {- Ouwtiy -}           [ "Ottey" ] ]
+    HUCiL                     `noun`    {- Ouwtiy -}           [ "Ottey" ],
+
+    -- ;; >uwtiy_1
+    -- >wty    >uwtiy  Nprop   Ottey
+    -- Awty    >uwtiy  Nprop   Ottey
+
+    HUCI                      `noun`    {- Ouwtiy -}           [ "Ottey" ] ]
 
  |> "' w '" <| [
 
@@ -9164,8 +9580,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \|b-u -}            [ "return" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; >aw~ab_1
     -- >wb     >aw~ab  PV      repeat
@@ -9213,8 +9628,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \|d-u -}            [ "burden", "make difficult" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; >awid-a_1
     -- >wd     >awid   PV_intr bend;be bent
@@ -9315,8 +9729,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \|h-u -}            [ "moan", "sigh" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; >aw~ah_1
     -- >wh     >aw~ah  PV      moan;sigh
@@ -9392,8 +9805,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \|l-u -}            [ "arrive", "lead", "return" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; >aw~al_1
     -- >wl     >aw~al  PV      explain;interpret
@@ -9565,9 +9977,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \|n-ui -}           [ "arrive", "approach" ]
                               `imperf`     FIL
-                              `imperf`     FUL
-                              `ithird`     FiL
-                              `ithird`     FuL,
+                              `imperf`     FUL,
 
     -- ;; |n_1
     -- \|n      |n      N       time;moment
@@ -9601,6 +10011,7 @@ lexicon = listing "Lexicon's properties"
     -- >wn     |win    Nap     times;moments
 
     FaCAL                     `noun`    {- OawAn -}            [ "time", "moment", "times", "moments" ]
+                              `plural`     HACiL |< aT
                               `plural`     FACiL |< aT,
 
     -- ;; <iywAn_1
@@ -9651,8 +10062,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \|q-u -}            [ "bring bad luck", "cause hardship" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; >aw~aq_1
     -- >wq     >aw~aq  PV      burden;impose
@@ -9845,6 +10255,22 @@ lexicon = listing "Lexicon's properties"
 
     FACY                      `verb`    {- \|waY -}            [ "seek shelter", "provide asylum", "be sought as shelter", "be provided as asylum" ],
 
+    -- ;; |waY_1
+    -- \|wY     |waY    PV_0    seek shelter;provide asylum
+    -- AwY     |waY    PV_0    seek shelter;provide asylum
+    -- \|wA     |wA     PV_h    seek shelter;provide asylum
+    -- AwA     |wA     PV_h    seek shelter;provide asylum
+    -- \|wy     |way    PV_Atn  seek shelter;provide asylum
+    -- Awy     |way    PV_Atn  seek shelter;provide asylum
+    -- \|w      |w      PV_ttAw seek shelter;provide asylum
+    -- Aw      |w      PV_ttAw seek shelter;provide asylum
+    -- &wy     &owiy   IV_0hAnn_yu     seek shelter;provide asylum
+    -- &w      &ow     IV_0hwnyn_yu    seek shelter;provide asylum
+    -- &wY     &owaY   IV_0_Pass_yu    be sought as shelter;be provided as asylum
+    -- &wy     &oway   IV_Ann_Pass_yu  be sought as shelter;be provided as asylum
+
+    HACY                      `verb`    {- \|waY -}            [ "seek shelter", "provide asylum", "be sought as shelter", "be provided as asylum" ],
+
     -- ;; <iwA'_1
     -- <wA'    <iwA'   N0_Nh   sheltering;harboring;lodging
     -- AwA'    <iwA'   N0_Nh   sheltering;harboring;lodging
@@ -9856,6 +10282,18 @@ lexicon = listing "Lexicon's properties"
     -- AwA'    <iwA'   NAt     sheltering;harboring;lodging
 
     FiCA'                     `noun`    {- IiwA' -}            [ "sheltering", "harboring", "lodging" ],
+
+    -- ;; <iywA'_2
+    -- <ywA'   <iywA'  N0_Nh   accommodation;housing
+    -- AywA'   <iywA'  N0_Nh   accommodation;housing
+    -- <ywA&   <iywA&  Nh      accommodation;housing
+    -- AywA&   <iywA&  Nh      accommodation;housing
+    -- <ywA}   <iywA}  Nhy     accommodation;housing
+    -- AywA}   <iywA}  Nhy     accommodation;housing
+    -- <ywA'   <iywA'  NAt     accommodations;housing
+    -- AywA'   <iywA'  NAt     accommodations;housing
+
+    HICA'                     `noun`    {- IiywA' -}           [ "accommodation", "housing", "accommodations" ],
 
     -- ;; ma>owaY_1
     -- m>wY    ma>owaY N0      refuge;shelter
@@ -9920,8 +10358,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- \|D-i -}            [ "return", "revert" ]
                               `imperf`     FIL
-                              `pfirst`     FaL
-                              `ithird`     FiL,
+                              `pfirst`     FaL,
 
     -- ;; >ay~aD_1
     -- >yD     >ay~aD  PV      metabolize
@@ -10026,6 +10463,12 @@ lexicon = listing "Lexicon's properties"
     -- Ayb     |yib    Nall    coming;returning
 
     FACiL                     `noun`    {- \|yib -}            [ "coming", "returning" ],
+
+    -- ;; |yib_1
+    -- \|yb     |yib    Nall    coming;returning
+    -- Ayb     |yib    Nall    coming;returning
+
+    HACiL                     `noun`    {- \|yib -}            [ "coming", "returning" ],
 
     -- ;; >ay~uwb_1
     -- >ywb    >ay~uwb Nprop   Ayub;Ayyoub;Job
@@ -10287,8 +10730,7 @@ lexicon = listing "Lexicon's properties"
     -- }m      }im     IV_C_intr       be widowed
 
     FAL                       `verb`    {- \|m-i -}            [ "be widowed" ]
-                              `imperf`     FIL
-                              `ithird`     FiL,
+                              `imperf`     FIL,
 
     -- ;; ta>ay~am_1
     -- t>ym    ta>ay~am        PV_intr be widowed
@@ -10721,6 +11163,12 @@ lexicon = listing "Lexicon's properties"
     -- \|zf     |zif    Nap     end
     -- Azf     |zif    Nap     end
 
+    HACiL |< aT               `noun`    {- \|zifap -}          [ "end" ],
+
+    -- ;; |zifap_1
+    -- \|zf     |zif    Nap     end
+    -- Azf     |zif    Nap     end
+
     FACiL |< aT               `noun`    {- \|zifap -}          [ "end" ] ]
 
  |> "' z l" <| [
@@ -10769,6 +11217,12 @@ lexicon = listing "Lexicon's properties"
     -- Azm     |zim    Nall    critical;decisive
 
     FACiL                     `noun`    {- \|zim -}            [ "critical", "decisive" ],
+
+    -- ;; |zim_1
+    -- \|zm     |zim    Nall    critical;decisive
+    -- Azm     |zim    Nall    critical;decisive
+
+    HACiL                     `noun`    {- \|zim -}            [ "critical", "decisive" ],
 
     -- ;; ma>ozuwm_1
     -- m>zwm   ma>ozuwm        Nall    crisis victim;chagrined
@@ -10860,6 +11314,13 @@ lexicon = listing "Lexicon's properties"
     -- &Azr    &Azir   IV_yu   help;support
 
     FACaL                     `verb`    {- \|zar -}            [ "help", "support" ],
+
+    -- ;; |zar_1
+    -- \|zr     |zar    PV      help;support
+    -- Azr     |zar    PV      help;support
+    -- &Azr    &Azir   IV_yu   help;support
+
+    HACaL                     `verb`    {- \|zar -}            [ "help", "support" ],
 
     -- ;; ta>az~ar_1
     -- t>zr    ta>az~ar        PV_intr be wrapped in a shawl
@@ -10962,6 +11423,22 @@ lexicon = listing "Lexicon's properties"
     -- &AzY    &AzaY   IV_0_Pass_yu    be opposite;be faced
     -- &Azy    &Azay   IV_Ann_Pass_yu  be opposite;be faced
 
+    HACY                      `verb`    {- \|zaY -}            [ "be opposite", "face", "be faced" ],
+
+    -- ;; |zaY_1
+    -- \|zY     |zaY    PV_0    be opposite;face
+    -- AzY     |zaY    PV_0    be opposite;face
+    -- \|zA     |zA     PV_h    be opposite;face
+    -- AzA     |zA     PV_h    be opposite;face
+    -- \|zy     |zay    PV_Atn  be opposite;face
+    -- Azy     |zay    PV_Atn  be opposite;face
+    -- \|z      |z      PV_ttAw_intr    be opposite;face
+    -- Az      |z      PV_ttAw_intr    be opposite;face
+    -- &Azy    &Aziy   IV_0hAnn_yu     be opposite;face
+    -- &Az     &Az     IV_0hwnyn_yu    be opposite;face
+    -- &AzY    &AzaY   IV_0_Pass_yu    be opposite;be faced
+    -- &Azy    &Azay   IV_Ann_Pass_yu  be opposite;be faced
+
     FACY                      `verb`    {- \|zaY -}            [ "be opposite", "face", "be faced" ],
 
     -- ;; <izA'_1
@@ -10997,9 +11474,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- Oaz~-ui -}          [ "hum", "buzz" ]
                               `imperf`     FuCL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; ta>az~az_1
     -- t>zz    ta>az~az        PV      bubble;boil

@@ -6408,6 +6408,12 @@ $Lexicon = {
         'ltv     lotav   IV_C_intr       be muddy;be murky'
       ],
       'patterns' => {
+        'lta_t' => [
+          'FtaL'
+        ],
+        'ilta_t' => [
+          'IFtaL'
+        ],
         'ltA_t' => [
           'FtAL'
         ]
@@ -11755,7 +11761,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'alwiy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ],
         '\'alwA\'' => [
           'HaFCA\''
@@ -11851,7 +11858,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'alwiy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '3',
@@ -17667,7 +17675,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'al.hiy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '2',
@@ -17922,6 +17931,9 @@ $Lexicon = {
         'ln      lan     IV-n_Pass_yu    be softened;be placated'
       ],
       'patterns' => {
+        '\'alan' => [
+          'HaFaL'
+        ],
         'liyn' => [
           'FIL',
           'FiCL'
@@ -20373,6 +20385,9 @@ $Lexicon = {
         'lim' => [
           'FiL'
         ],
+        '\'alam' => [
+          'HaFaL'
+        ],
         'lAm' => [
           'FAL'
         ],
@@ -20467,6 +20482,12 @@ $Lexicon = {
         'ltm     lotam   IV_C_intr       be blamed;be censured'
       ],
       'patterns' => {
+        'iltam' => [
+          'IFtaL'
+        ],
+        'ltam' => [
+          'FtaL'
+        ],
         'ltAm' => [
           'FtAL'
         ]
@@ -20506,7 +20527,11 @@ $Lexicon = {
         'stlym   sotaliym        IV_V_intr       be blameworthy;be reprehensible',
         'stlm    sotalim IV_C_intr       be blameworthy;be reprehensible'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istalam' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -30130,6 +30155,9 @@ $Lexicon = {
         'lA.h' => [
           'FAL'
         ],
+        '\'ala.h' => [
+          'HaFaL'
+        ],
         'liy.h' => [
           'FIL'
         ],
@@ -31401,7 +31429,11 @@ $Lexicon = {
       'entry' => 'liwA\'',
       'form' => 'liwA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'alwiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '3',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -33701,6 +33733,12 @@ $Lexicon = {
         'ltE     lotaE   IV_C_intr       be burning;be languishing'
       ],
       'patterns' => {
+        'ilta`' => [
+          'IFtaL'
+        ],
+        'lta`' => [
+          'FtaL'
+        ],
         'ltA`' => [
           'FtAL'
         ]

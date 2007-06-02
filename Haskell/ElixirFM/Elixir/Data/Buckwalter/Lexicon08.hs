@@ -536,8 +536,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- daj~-i -}           [ "walk slowly" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; daj~aj_1
     -- djj     daj~aj  PV      arm
@@ -759,8 +758,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- da$~-u -}           [ "crush", "grind" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; da$iy$_1
     -- d$y$    da$iy$  N       porridge
@@ -1158,7 +1156,8 @@ lexicon = listing "Lexicon's properties"
     -- >dEy    >adoEiy Nap     call;request;invocation
     -- AdEy    >adoEiy Nap     call;request;invocation
 
-    FuCAL                     `noun`    {- duEA' -}            [ "call", "request", "invocation" ],
+    FuCAL                     `noun`    {- duEA' -}            [ "call", "request", "invocation" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; diEA}iy~_1
     -- dEA}y   diEA}iy~        Nall    propagandistic     [[diEA}iy~/ADJ]]
@@ -1221,8 +1220,7 @@ lexicon = listing "Lexicon's properties"
     -- dEE     doEaE   IV_C    rebuff;turn down
 
     FaCL                      `verb`    {- daE~-a -}           [ "rebuff", "turn down" ]
-                              `pfirst`     FaCaL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCaL,
 
     -- ;; daEiyE_1
     -- dEyE    daEiyE  N0      Da'ii
@@ -1534,7 +1532,8 @@ lexicon = listing "Lexicon's properties"
     -- >dEy    >adoEiy Nap     call;request;invocation
     -- AdEy    >adoEiy Nap     call;request;invocation
 
-    FuCA'                     `noun`    {- duEA' -}            [ "call", "request", "invocation" ],
+    FuCA'                     `noun`    {- duEA' -}            [ "call", "request", "invocation" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; diEA}iy~_1
     -- dEA}y   diEA}iy~        Nall    propagandistic     [[diEA}iy~/ADJ]]
@@ -1867,8 +1866,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- dab~-i -}           [ "crawl", "advance", "spread" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; dab~ab_1
     -- dbb     dab~ab  PV      sharpen;taper
@@ -2504,8 +2502,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- daf~-i -}           [ "flap", "hurry" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; daf~af_1
     -- dff     daf~af  PV      hurry;rush
@@ -3230,8 +3227,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- dak~-u -}           [ "level", "demolish" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; dak~ak_1
     -- dkk     dak~ak  PV      mix;mingle
@@ -3607,8 +3603,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- dal~-u -}           [ "point", "indicate" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; dal~al_1
     -- dll     dal~al  PV      prove;confirm
@@ -4264,8 +4259,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- dam~-u -}           [ "paint", "smear" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; dam~am_1
     -- dmm     dam~am  PV      anoint;embrocate
@@ -5197,8 +5191,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- daq~-i -}           [ "be minute", "be fragile" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; daq~-u_1
     -- dq      daq~    PV_V    knock;strike;throb
@@ -5208,8 +5201,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- daq~-u -}           [ "knock", "strike", "throb" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; daq~aq_1
     -- dqq     daq~aq  PV_intr be precise;be exact
@@ -6129,9 +6121,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- dar~-iu -}          [ "stream", "accrue", "be abundant" ]
                               `imperf`     FuCL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; >adar~_1
     -- >dr     >adar~  PV_V    make flow;bestow lavishly;yield
@@ -6568,8 +6558,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- das~-u -}           [ "insert", "stick" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; das~as_1
     -- dss     das~as  PV      shove;insert
@@ -6701,7 +6690,8 @@ lexicon = listing "Lexicon's properties"
     -- >dwy    >adowiy Nap     remedies;medications
     -- Adwy    >adowiy Nap     remedies;medications
 
-    FaCAL                     `noun`    {- dawA' -}            [ "remedy", "medication", "remedies", "medications" ],
+    FaCAL                     `noun`    {- dawA' -}            [ "remedy", "medication", "remedies", "medications" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; dawA}iy~_1
     -- dwA}y   dawA}iy~        N-ap    medicinal;curative     [[dawA}iy~/ADJ]]
@@ -6800,8 +6790,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- dAx-u -}            [ "conquer" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; dAx-u_2
     -- dAx     dAx     PV_V_intr       be humble;be nauseated
@@ -6811,8 +6800,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- dAx-u -}            [ "be humble", "be nauseated" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; daw~ax_1
     -- dwx     daw~ax  PV      conquer;molest
@@ -6845,8 +6833,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- dAb-u -}            [ "be worn out" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; daw~ab_1
     -- dwb     daw~ab  PV      wear out;ruin
@@ -6918,8 +6905,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- dAf-u -}            [ "mix", "mingle" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; duwf_1
     -- dwf     duwf    Nprop   Dov
@@ -6959,8 +6945,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- dAl-u -}            [ "rotate", "change" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; dAwal_1
     -- dAwl    dAwal   PV      alternate;rotate
@@ -7087,8 +7072,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- dAm-u -}            [ "last", "persevere", "continue" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; daw~am_1
     -- dwm     daw~am  PV      revolve;spin
@@ -7301,8 +7285,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- dAr-u -}            [ "go around", "turn" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; daw~ar_1
     -- dwr     daw~ar  PV      rotate;wind
@@ -7606,8 +7589,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- dAs-u -}            [ "step on", "run over" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; {inodAs_1
     -- <ndAs   {inodAs PV_V_intr       be stepped on;be crushed;be run over
@@ -7784,7 +7766,8 @@ lexicon = listing "Lexicon's properties"
     -- Adwy    >adowiy Nap     remedies;medications
 
     FaCA'                     `noun`    {- dawA' -}            [ "remedy", "medication", "remedies", "medications" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT,
 
     -- ;; dawA}iy~_1
     -- dwA}y   dawA}iy~        N-ap    medicinal;curative     [[dawA}iy~/ADJ]]
@@ -8056,8 +8039,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- dAn-i -}            [ "condemn", "borrow", "profess" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; dAyan_1
     -- dAyn    dAyan   PV-n_intr       be indebted to

@@ -3675,6 +3675,9 @@ $Lexicon = {
         'rAd' => [
           'FAL'
         ],
+        '\'arad' => [
+          'HaFaL'
+        ],
         'riyd' => [
           'FIL'
         ],
@@ -3726,6 +3729,12 @@ $Lexicon = {
       'patterns' => {
         'rtAd' => [
           'FtAL'
+        ],
+        'irtad' => [
+          'IFtaL'
+        ],
+        'rtad' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -3764,7 +3773,11 @@ $Lexicon = {
         'stryd   sotariyd        IV_V    aspire;strive',
         'strd    sotarid IV_C    aspire;strive'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istarad' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -14760,7 +14773,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'rta^g' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -17280,6 +17294,9 @@ $Lexicon = {
         ],
         'ra.hA' => [
           'FaCA'
+        ],
+        '\'ar.hiy' => [
+          'HaFCI'
         ]
       },
       'index' => '1',
@@ -27778,6 +27795,9 @@ $Lexicon = {
         ],
         'rab' => [
           'FaL'
+        ],
+        '\'arab' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -34340,6 +34360,9 @@ $Lexicon = {
         ],
         'rab' => [
           'FaL'
+        ],
+        '\'arab' => [
+          'HaFaL'
         ]
       },
       'index' => '2',
@@ -34405,6 +34428,12 @@ $Lexicon = {
       'patterns' => {
         'rtAb' => [
           'FtAL'
+        ],
+        'irtab' => [
+          'IFtaL'
+        ],
+        'rtab' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -34442,7 +34471,11 @@ $Lexicon = {
         'stryb   sotariyb        IV_V    have misgivings;be suspicious',
         'strb    sotarib IV_C    have misgivings;be suspicious'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istarab' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -36871,6 +36904,9 @@ $Lexicon = {
         'ri`' => [
           'FiL'
         ],
+        '\'ara`' => [
+          'HaFaL'
+        ],
         'rA`' => [
           'FAL'
         ]
@@ -36933,6 +36969,12 @@ $Lexicon = {
         'rtE     rotaE   IV_C_intr       be frightened'
       ],
       'patterns' => {
+        'rta`' => [
+          'FtaL'
+        ],
+        'irta`' => [
+          'IFtaL'
+        ],
         'rtA`' => [
           'FtAL'
         ]
@@ -37377,8 +37419,14 @@ $Lexicon = {
         'rtD     rotaD   IV_C    practice;exercise'
       ],
       'patterns' => {
+        'rta.d' => [
+          'FtaL'
+        ],
         'rtA.d' => [
           'FtAL'
+        ],
+        'irta.d' => [
+          'IFtaL'
         ]
       },
       'index' => '1',
@@ -37416,7 +37464,11 @@ $Lexicon = {
         'stryD   sotariyD        IV_V_intr       be cheerful',
         'strD    sotariD IV_C_intr       be cheerful'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istara.d' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -41241,6 +41293,9 @@ $Lexicon = {
         'rA.h' => [
           'FAL'
         ],
+        '\'ara.h' => [
+          'HaFaL'
+        ],
         'riy.h' => [
           'FIL'
         ]
@@ -41362,6 +41417,12 @@ $Lexicon = {
       'patterns' => {
         'rtA.h' => [
           'FtAL'
+        ],
+        'irta.h' => [
+          'IFtaL'
+        ],
+        'rta.h' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -41400,7 +41461,11 @@ $Lexicon = {
         'stryH   sotariyH        IV_V    rest;relax;calm down;be pleased',
         'strH    sotariH IV_C    rest;relax;calm down;be pleased'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istara.h' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -51014,7 +51079,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'rtal' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -52459,7 +52525,11 @@ $Lexicon = {
         '>rdy    >arodiy Nap     gowns;robes',
         'Ardy    >arodiy Nap     gowns;robes'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'ardiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -55885,7 +55955,8 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '\'ardiy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '1',
@@ -56506,6 +56577,9 @@ $Lexicon = {
         'rq      raq     IV_C_Pass_yu    be poured;be spilled'
       ],
       'patterns' => {
+        '\'araq' => [
+          'HaFaL'
+        ],
         'raq' => [
           'FaL'
         ],

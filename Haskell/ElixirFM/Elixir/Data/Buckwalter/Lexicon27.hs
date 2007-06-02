@@ -430,36 +430,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- matAwilap -}        [ "Metuali (Shiite sect)" ] ]
 
- |> "miy.tad" <| [
-
-    -- ;; miyTadap_1
-    -- myTd    miyTad  Nap     rammer;tamper
-
-    Identity |< aT            `noun`    {- miyTadap -}         [ "rammer", "tamper" ] ]
-
- |> "miy_tar" <| [
-
-    -- ;; miyvarap_1
-    -- myvr    miyvar  Napdu   saddlecloth;blanket
-    -- mwAvr   mawAvir Ndip    saddlecloths;blankets
-    -- myAvq   mayAviq Ndip    saddlecloths;blankets
-
-    Identity |< aT            `noun`    {- miyvarap -}         [ "saddlecloth", "blanket", "saddlecloths", "blankets" ] ]
-
- |> "miyda`" <| [
-
-    -- ;; miydaEap_1
-    -- mydE    miydaE  Napdu   apron;smock
-
-    Identity |< aT            `noun`    {- miydaEap -}         [ "apron", "smock" ] ]
-
- |> "miyka`" <| [
-
-    -- ;; miykaEap_1
-    -- mykE    miykaE  Nap     plowshare
-
-    Identity |< aT            `noun`    {- miykaEap -}         [ "plowshare" ] ]
-
  |> "miyq" <| [
 
     -- ;; miyqAt_1
@@ -467,22 +437,6 @@ lexicon = listing "Lexicon's properties"
     -- mwAqyt  mawAqiyt        Ndip    timetables;rendezvous points and times
 
     Identity |< At            `noun`    {- miyqAt -}           [ "appointed time", "meeting point", "timetables", "rendezvous points and times" ] ]
-
- |> "miyqa`" <| [
-
-    -- ;; miyqaEap_1
-    -- myqE    miyqaE  Nap     grindstone
-
-    Identity |< aT            `noun`    {- miyqaEap -}         [ "grindstone" ] ]
-
- |> "miysam" <| [
-
-    -- ;; miysam_1
-    -- mysm    miysam  Ndu     brand;stigma
-    -- mwAsm   mawAsim Ndip    brands;stigmas
-    -- myAsm   mayAsim Ndip    brands;stigmas
-
-    Identity                  `noun`    {- miysam -}           [ "brand", "stigma", "brands", "stigmas" ] ]
 
  |> "mutta'id" <| [
 
@@ -1684,6 +1638,22 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- waHoy -}            [ "inspiration" ],
 
+    -- ;; <iyHA'_1
+    -- <yHA'   <iyHA'  N0_Nh   suggestion;inspiration
+    -- AyHA'   <iyHA'  N0_Nh   suggestion;inspiration
+    -- <yHA&   <iyHA&  Nh      suggestion;inspiration
+    -- AyHA&   <iyHA&  Nh      suggestion;inspiration
+    -- <yHA}   <iyHA}  Nhy     suggestion;inspiration
+    -- AyHA}   <iyHA}  Nhy     suggestion;inspiration
+    -- <yHA'   <iyHA'  NAn_Nayn        suggestions;inspiration
+    -- AyHA'   <iyHA'  NAn_Nayn        suggestions;inspiration
+    -- <yHA}   <iyHA}  Nayn    suggestions;inspiration
+    -- AyHA}   <iyHA}  Nayn    suggestions;inspiration
+    -- <yHA'   <iyHA'  NAt     suggestions;inspiration
+    -- AyHA'   <iyHA'  NAt     suggestions;inspiration
+
+    HICA'                     `noun`    {- IiyHA' -}           [ "suggestion", "inspiration", "suggestions" ],
+
     -- ;; muwHiy_1
     -- mwHy    muwHiy  N0F_Nh  inspiring     [[muwHiy/ADJ]]
     -- mwH     muwH    NK      inspiring
@@ -2306,6 +2276,22 @@ lexicon = listing "Lexicon's properties"
     TaFCiL |< aT              `noun`    {- tawoSiyap -}        [ "advice", "recommendation", "recommendations" ]
                               `plural`     TaFCiL |< At,
 
+    -- ;; <iySA'_1
+    -- <ySA'   <iySA'  N0_Nh   recommendation;order;mandate
+    -- AySA'   <iySA'  N0_Nh   recommendation;order;mandate
+    -- <ySA&   <iySA&  Nh      recommendation;order;mandate
+    -- AySA&   <iySA&  Nh      recommendation;order;mandate
+    -- <ySA}   <iySA}  Nhy     recommendation;order;mandate
+    -- AySA}   <iySA}  Nhy     recommendation;order;mandate
+    -- <ySA'   <iySA'  NAn_Nayn        recommendation;order;mandate
+    -- AySA'   <iySA'  NAn_Nayn        recommendation;order;mandate
+    -- <ySA}   <iySA}  Nayn    recommendation;order;mandate
+    -- AySA}   <iySA}  Nayn    recommendation;order;mandate
+    -- <ySA'   <iySA'  NAt     recommendation;order;mandate
+    -- AySA'   <iySA'  NAt     recommendation;order;mandate
+
+    HICA'                     `noun`    {- IiySA' -}           [ "recommendation", "order", "mandate" ],
+
     -- ;; muwaS~iy_1
     -- mwSy    muwaS~iy        N0F_Nh  recommender;advising
     -- mwS     muwaS~  NK      recommender;advising
@@ -2550,6 +2536,11 @@ lexicon = listing "Lexicon's properties"
     -- AwTAd   >awoTAd N       mountains
 
     HaFCAL                    `noun`    {- OawoTAd -}          [ "mountains" ],
+
+    -- ;; miyTadap_1
+    -- myTd    miyTad  Nap     rammer;tamper
+
+    MICaL |< aT               `noun`    {- miyTadap -}         [ "rammer", "tamper" ],
 
     -- ;; tawoTiyd_1
     -- twTyd   tawoTiyd        N/At    reinforcing;stabilizing;consolidation
@@ -4285,7 +4276,16 @@ lexicon = listing "Lexicon's properties"
     -- ;; wivAr_1
     -- wvAr    wivAr   N       soft bed
 
-    FiCAL                     `noun`    {- wivAr -}            [ "soft bed" ] ]
+    FiCAL                     `noun`    {- wivAr -}            [ "soft bed" ],
+
+    -- ;; miyvarap_1
+    -- myvr    miyvar  Napdu   saddlecloth;blanket
+    -- mwAvr   mawAvir Ndip    saddlecloths;blankets
+    -- myAvq   mayAviq Ndip    saddlecloths;blankets
+
+    MICaL |< aT               `noun`    {- miyvarap -}         [ "saddlecloth", "blanket", "saddlecloths", "blankets" ]
+                              `plural`     MaFACiL
+                           {- `others`  [ "mawA_tir Ndip" ] -} ]
 
  |> "w ` '" <| [
 
@@ -4303,6 +4303,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- wiEA' -}            [ "container", "receptacle", "vessel", "containers", "receptacles", "vessels" ]
                               `plural`     HaFACI
+                              `plural`     HaFCI |< aT
                            {- `others`  [ "'awA`iy N0_Nh" ] -} ]
 
  |> "w ` .z" <| [
@@ -4768,6 +4769,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFACiL
                               `plural`     HaFACI
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT
                            {- `others`  [ "'awA`iy N0_Nh" ] -},
 
     -- ;; tawoEiyap_1
@@ -5172,6 +5174,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- wadiyEap -}         [ "deposit", "trust", "charge", "deposits", "trusts", "charges" ],
 
+    -- ;; miydaEap_1
+    -- mydE    miydaE  Napdu   apron;smock
+
+    MICaL |< aT               `noun`    {- miydaEap -}         [ "apron", "smock" ],
+
     -- ;; tawodiyE_1
     -- twdyE   tawodiyE        N/At    departure;farewell
 
@@ -5243,8 +5250,7 @@ lexicon = listing "Lexicon's properties"
     -- wdd     wodad   IV_C    want;would like
 
     FaCL                      `verb`    {- wad~-a -}           [ "want", "would like" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCiL,
 
     -- ;; wAd~_1
     -- wAd     wAd~    PV_V    befriend
@@ -5439,6 +5445,7 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- wAdiy -}            [ "wadi", "valley", "wadis", "valleys" ]
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT
                               `plural`     FiCLAn
                            {- `others`  [ "widyAn N" ] -} ]
 
@@ -5962,6 +5969,34 @@ lexicon = listing "Lexicon's properties"
     MuFACY |< aT              `noun`    {- muwAfAp -}          [ "arrival", "communication", "arrivals", "communications" ]
                               `plural`     MuFACaL |< At,
 
+    -- ;; <iyfA'_1
+    -- <yfA'   <iyfA'  N0_Nh   fulfillment;payment
+    -- AyfA'   <iyfA'  N0_Nh   fulfillment;payment
+    -- <yfA&   <iyfA&  Nh      fulfillment;payment
+    -- AyfA&   <iyfA&  Nh      fulfillment;payment
+    -- <yfA}   <iyfA}  Nhy     fulfillment;payment
+    -- AyfA}   <iyfA}  Nhy     fulfillment;payment
+    -- <yfA'   <iyfA'  NAn_Nayn        fulfillment;payment
+    -- AyfA'   <iyfA'  NAn_Nayn        fulfillment;payment
+    -- <yfA}   <iyfA}  Nayn    fulfillment;payment
+    -- AyfA}   <iyfA}  Nayn    fulfillment;payment
+    -- <yfA'   <iyfA'  NAt     fulfillment;payment
+    -- AyfA'   <iyfA'  NAt     fulfillment;payment
+
+    HICA'                     `noun`    {- IiyfA' -}           [ "fulfillment", "payment" ],
+
+    -- ;; {isotiyfA'_1
+    -- <styfA' {isotiyfA'      N0_Nh   fulfillment;completion
+    -- AstyfA' {isotiyfA'      N0_Nh   fulfillment;completion
+    -- <styfA& {isotiyfA&      Nh      fulfillment;completion
+    -- AstyfA& {isotiyfA&      Nh      fulfillment;completion
+    -- <styfA} {isotiyfA}      Nhy     fulfillment;completion
+    -- AstyfA} {isotiyfA}      Nhy     fulfillment;completion
+    -- <styfA' {isotiyfA'      NAt     fulfillment;completion
+    -- AstyfA' {isotiyfA'      NAt     fulfillment;completion
+
+    IstICA'                   `noun`    {- AisotiyfA' -}       [ "fulfillment", "completion" ],
+
     -- ;; wAfiy_1
     -- wAfy    wAfiy   N0F     loyal     [[wAfiy/ADJ]]
     -- wAf     wAf     NK      loyal
@@ -6472,7 +6507,8 @@ lexicon = listing "Lexicon's properties"
     -- >wky    >awokiy Nap     strings;thongs
     -- Awky    >awokiy Nap     strings;thongs
 
-    FiCAL                     `noun`    {- wikA' -}            [ "string", "thong", "strings", "thongs" ] ]
+    FiCAL                     `noun`    {- wikA' -}            [ "string", "thong", "strings", "thongs" ]
+                              `plural`     HaFCI |< aT ]
 
  |> "w k `" <| [
 
@@ -6486,7 +6522,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; wakAEap_1
     -- wkAE    wakAE   Nap     being strong;strength
 
-    FaCAL |< aT               `noun`    {- wakAEap -}          [ "being strong", "strength" ] ]
+    FaCAL |< aT               `noun`    {- wakAEap -}          [ "being strong", "strength" ],
+
+    -- ;; miykaEap_1
+    -- mykE    miykaE  Nap     plowshare
+
+    MICaL |< aT               `noun`    {- miykaEap -}         [ "plowshare" ] ]
 
  |> "w k b" <| [
 
@@ -6829,7 +6870,8 @@ lexicon = listing "Lexicon's properties"
     -- Awky    >awokiy Nap     strings;thongs
 
     FiCA'                     `noun`    {- wikA' -}            [ "string", "thong", "strings", "thongs" ]
-                              `plural`     HaFCiL |< aT ]
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT ]
 
  |> "w k z" <| [
 
@@ -7621,6 +7663,22 @@ lexicon = listing "Lexicon's properties"
     MuFACY |< aT              `noun`    {- muwAlAp -}          [ "friendship", "continuous practice", "friendships" ]
                               `plural`     MuFACaL |< At,
 
+    -- ;; <iylA'_2
+    -- <ylA'   <iylA'  N0_Nh   marriage annulment
+    -- AylA'   <iylA'  N0_Nh   marriage annulment
+    -- <ylA&   <iylA&  Nh      marriage annulment
+    -- AylA&   <iylA&  Nh      marriage annulment
+    -- <ylA}   <iylA}  Nhy     marriage annulment
+    -- AylA}   <iylA}  Nhy     marriage annulment
+    -- <ylA'   <iylA'  NAn_Nayn        marriage annulments
+    -- AylA'   <iylA'  NAn_Nayn        marriage annulments
+    -- <ylA}   <iylA}  Nayn    marriage annulments
+    -- AylA}   <iylA}  Nayn    marriage annulments
+    -- <ylA'   <iylA'  NAt     marriage annulments
+    -- AylA'   <iylA'  NAt     marriage annulments
+
+    HICA'                     `noun`    {- IiylA' -}           [ "marriage annulment", "marriage annulments" ],
+
     -- ;; tawal~iy_1
     -- twly    tawal~iy        N0_Nh   taking charge of;assuming responsibility
     -- twl     tawal~  NK      taking charge of;assuming responsibility
@@ -7635,6 +7693,22 @@ lexicon = listing "Lexicon's properties"
     -- twAly   tawAliy NAt     continuous succession;consecutive
 
     TaFACI                    `noun`    {- tawAliy -}          [ "continuous succession", "consecutive" ],
+
+    -- ;; {isotiylA'_1
+    -- <stylA' {isotiylA'      N0_Nh   appropriation;seizure
+    -- AstylA' {isotiylA'      N0_Nh   appropriation;seizure
+    -- <stylA& {isotiylA&      Nh      appropriation;seizure
+    -- AstylA& {isotiylA&      Nh      appropriation;seizure
+    -- <stylA} {isotiylA}      Nhy     appropriation;seizure
+    -- AstylA} {isotiylA}      Nhy     appropriation;seizure
+    -- <stylA' {isotiylA'      NAn_Nayn        appropriations;seizures
+    -- AstylA' {isotiylA'      NAn_Nayn        appropriations;seizures
+    -- <stylA} {isotiylA}      Nayn    appropriations;seizures
+    -- AstylA} {isotiylA}      Nayn    appropriations;seizures
+    -- <stylA' {isotiylA'      NAt     appropriations;seizures
+    -- AstylA' {isotiylA'      NAt     appropriations;seizures
+
+    IstICA'                   `noun`    {- AisotiylA' -}       [ "appropriation", "seizure", "appropriations", "seizures" ],
 
     -- ;; wAliy_1
     -- wAly    wAliy   N0F_Nh  ruler;governor
@@ -7715,7 +7789,29 @@ lexicon = listing "Lexicon's properties"
     -- <ymA'   <iymA'  NAt     gestures;signs
     -- AymA'   <iymA'  NAt     gestures;signs
 
+    HICA'                     `noun`    {- IiymA' -}           [ "gesture", "sign", "gestures", "signs" ],
+
+    -- ;; <iymA'_1
+    -- <ymA'   <iymA'  N0_Nh   gesture;sign
+    -- AymA'   <iymA'  N0_Nh   gesture;sign
+    -- <ymA&   <iymA&  Nh      gesture;sign
+    -- AymA&   <iymA&  Nh      gesture;sign
+    -- <ymA}   <iymA}  Nhy     gesture;sign
+    -- AymA}   <iymA}  Nhy     gesture;sign
+    -- <ymA'   <iymA'  NAn_Nayn        gestures;signs
+    -- AymA'   <iymA'  NAn_Nayn        gestures;signs
+    -- <ymA}   <iymA}  Nayn    gestures;signs
+    -- AymA}   <iymA}  Nayn    gestures;signs
+    -- <ymA'   <iymA'  NAt     gestures;signs
+    -- AymA'   <iymA'  NAt     gestures;signs
+
     HICAL                     `noun`    {- IiymA' -}           [ "gesture", "sign", "gestures", "signs" ],
+
+    -- ;; <iymA'_2
+    -- <ymA'   <iymA'  N0      with reference to
+    -- AymA'   <iymA'  N0      with reference to
+
+    HICA'                     `noun`    {- IiymA' -}           [ "with reference to" ],
 
     -- ;; <iymA'_2
     -- <ymA'   <iymA'  N0      with reference to
@@ -7727,7 +7823,19 @@ lexicon = listing "Lexicon's properties"
     -- <ymA'   <iymA'  NapAt   gesture;sign;clue
     -- AymA'   <iymA'  NapAt   gesture;sign;clue
 
+    HICA' |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ],
+
+    -- ;; <iymA'ap_1
+    -- <ymA'   <iymA'  NapAt   gesture;sign;clue
+    -- AymA'   <iymA'  NapAt   gesture;sign;clue
+
     HICAL |< aT               `noun`    {- IiymA'ap -}         [ "gesture", "sign", "clue" ],
+
+    -- ;; <iymA}iy~_1
+    -- <ymA}y  <iymA}iy~       Nall    pantomimic;gesturing     [[<iymA}iy~/ADJ]]
+    -- AymA}y  <iymA}iy~       Nall    pantomimic;gesturing     [[<iymA}iy~/ADJ]]
+
+    HICA' |< Iy               `adj`     {- IiymA}iy~ -}        [ "pantomimic", "gesturing" ],
 
     -- ;; <iymA}iy~_1
     -- <ymA}y  <iymA}iy~       Nall    pantomimic;gesturing     [[<iymA}iy~/ADJ]]
@@ -8211,6 +8319,11 @@ lexicon = listing "Lexicon's properties"
     -- mwqE    mawoqaE Napdu   battlefield
 
     MaFCaL |< aT              `noun`    {- mawoqaEap -}        [ "battlefield" ],
+
+    -- ;; miyqaEap_1
+    -- myqE    miyqaE  Nap     grindstone
+
+    MICaL |< aT               `noun`    {- miyqaEap -}         [ "grindstone" ],
 
     -- ;; tawoqiyE_1
     -- twqyE   tawoqiyE        N       signing
@@ -10089,6 +10202,15 @@ lexicon = listing "Lexicon's properties"
 
     MaFCiL |< Iy              `adj`     {- mawosimiy~ -}       [ "seasonal" ],
 
+    -- ;; miysam_1
+    -- mysm    miysam  Ndu     brand;stigma
+    -- mwAsm   mawAsim Ndip    brands;stigmas
+    -- myAsm   mayAsim Ndip    brands;stigmas
+
+    MICaL                     `noun`    {- miysam -}           [ "brand", "stigma", "brands", "stigmas" ]
+                              `plural`     MaFACiL
+                           {- `others`  [ "mawAsim Ndip" ] -},
+
     -- ;; mawosuwm_1
     -- mwswm   mawosuwm        Nall    marked;branded     [[mawosuwm/ADJ]]
 
@@ -10818,8 +10940,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- waz~-u -}           [ "incite" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; waz~_1
     -- wz      waz~    N       inciting

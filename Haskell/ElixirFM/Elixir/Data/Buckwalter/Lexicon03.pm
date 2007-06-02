@@ -3093,6 +3093,20 @@ $Lexicon = {
       'glosses' => [],
       'orig' => 'tiyjAniy~',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tiy^gAn',
+      'form' => 'tiy^gAniyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'TICAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'tiyjAniy~',
+      'prefix' => ''
     }
   ],
   't b .g' => [
@@ -4747,6 +4761,9 @@ $Lexicon = {
         'ta.h' => [
           'FaL'
         ],
+        '\'ata.h' => [
+          'HaFaL'
+        ],
         'tA.h' => [
           'FAL'
         ],
@@ -4844,6 +4861,20 @@ $Lexicon = {
       'glosses' => [
         'Timawi'
       ],
+      'orig' => 'tiymAwiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tiymA\'',
+      'form' => 'tiymAwiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'TICAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
       'orig' => 'tiymAwiy~',
       'prefix' => ''
     }
@@ -6842,7 +6873,11 @@ $Lexicon = {
         'sttyb   sotatiyb        IV_V    convert;call to repent',
         'sttb    sotatib IV_C    convert;call to repent'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istatab' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -9486,6 +9521,9 @@ $Lexicon = {
         'th      tah     IV_C_Pass_yu    be misled;be confused'
       ],
       'patterns' => {
+        '\'atah' => [
+          'HaFaL'
+        ],
         'tih' => [
           'FiL'
         ],
@@ -10281,6 +10319,20 @@ $Lexicon = {
         'Tommy'
       ],
       'orig' => 'tuwmiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tiymA\'',
+      'form' => 'tiymAwiyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'TICA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'tiymAwiy~',
       'prefix' => ''
     }
   ],
@@ -16687,6 +16739,12 @@ $Lexicon->{'t w k'}[1]{'glosses'} = $Lexicon->{'t w k'}[0]{'glosses'};
 $Lexicon->{'t ^g n'}[0]{'types'} = $Lexicon->{'t y ^g'}[0]{'types'};
 $Lexicon->{'t ^g n'}[0]{'lines'} = $Lexicon->{'t y ^g'}[0]{'lines'};
 $Lexicon->{'t ^g n'}[0]{'glosses'} = $Lexicon->{'t y ^g'}[0]{'glosses'};
+$Lexicon->{'t ^g n'}[1]{'types'} = $Lexicon->{'t y ^g'}[0]{'types'};
+$Lexicon->{'t ^g n'}[1]{'lines'} = $Lexicon->{'t y ^g'}[0]{'lines'};
+$Lexicon->{'t ^g n'}[1]{'glosses'} = $Lexicon->{'t y ^g'}[0]{'glosses'};
+$Lexicon->{'t m \''}[1]{'types'} = $Lexicon->{'t m \''}[0]{'types'};
+$Lexicon->{'t m \''}[1]{'lines'} = $Lexicon->{'t m \''}[0]{'lines'};
+$Lexicon->{'t m \''}[1]{'glosses'} = $Lexicon->{'t m \''}[0]{'glosses'};
 $Lexicon->{'t w q'}[4]{'types'} = $Lexicon->{'t \' q'}[1]{'types'};
 $Lexicon->{'t w q'}[4]{'lines'} = $Lexicon->{'t \' q'}[1]{'lines'};
 $Lexicon->{'t w q'}[4]{'glosses'} = $Lexicon->{'t \' q'}[1]{'glosses'};
@@ -16708,6 +16766,9 @@ $Lexicon->{'t w t'}[3]{'glosses'} = $Lexicon->{'t w t'}[2]{'glosses'};
 $Lexicon->{'t w t'}[5]{'types'} = $Lexicon->{'t w t'}[4]{'types'};
 $Lexicon->{'t w t'}[5]{'lines'} = $Lexicon->{'t w t'}[4]{'lines'};
 $Lexicon->{'t w t'}[5]{'glosses'} = $Lexicon->{'t w t'}[4]{'glosses'};
+$Lexicon->{'t m y'}[1]{'types'} = $Lexicon->{'t m \''}[0]{'types'};
+$Lexicon->{'t m y'}[1]{'lines'} = $Lexicon->{'t m \''}[0]{'lines'};
+$Lexicon->{'t m y'}[1]{'glosses'} = $Lexicon->{'t m \''}[0]{'glosses'};
 $Lexicon->{'t m s'}[0]{'types'} = $Lexicon->{'t w m s'}[0]{'types'};
 $Lexicon->{'t m s'}[0]{'lines'} = $Lexicon->{'t w m s'}[0]{'lines'};
 $Lexicon->{'t m s'}[0]{'glosses'} = $Lexicon->{'t w m s'}[0]{'glosses'};

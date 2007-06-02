@@ -1267,7 +1267,11 @@ $Lexicon = {
         '>qDy    >aqoDiy Nap     districts;provinces',
         'AqDy    >aqoDiy Nap     districts;provinces'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'aq.diy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '3',
       'entity' => 'noun',
       'morphs' => 'FaCAL',
@@ -10661,6 +10665,9 @@ $Lexicon = {
         ],
         'qat' => [
           'FaL'
+        ],
+        '\'aqat' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -10729,6 +10736,12 @@ $Lexicon = {
       'patterns' => {
         'qtAt' => [
           'FtAL'
+        ],
+        'qtat' => [
+          'FtaL'
+        ],
+        'iqtat' => [
+          'IFtaL'
         ]
       },
       'index' => '1',
@@ -20009,7 +20022,11 @@ $Lexicon = {
         '>qby    >aqobiy Nap     underground shelters;vaulted ceilings;arches',
         'Aqby    >aqobiy Nap     underground shelters;vaulted ceilings;arches'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'aqbiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',
@@ -20581,6 +20598,9 @@ $Lexicon = {
         'ql      qil     IV_C_yu dismiss;discharge'
       ],
       'patterns' => {
+        '\'aqal' => [
+          'HaFaL'
+        ],
         'qiyl' => [
           'FIL',
           'FiCL'
@@ -20624,7 +20644,11 @@ $Lexicon = {
         'stqyl   sotaqiyl        IV_V    resign',
         'stql    sotaqil IV_C    resign'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istaqal' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -26510,6 +26534,9 @@ $Lexicon = {
         '\'uqiym' => [
           'HuFIL'
         ],
+        '\'aqam' => [
+          'HaFaL'
+        ],
         'qim' => [
           'FiL'
         ]
@@ -26553,7 +26580,11 @@ $Lexicon = {
         'stqym   sotaqiym        IV_V_intr       be straight;be right',
         'stqm    sotaqim IV_C_intr       be straight;be right'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istaqam' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -31361,8 +31392,14 @@ $Lexicon = {
         'nqD     noqaD   IV_C_intr       be broken;be cracked'
       ],
       'patterns' => {
+        'inqa.d' => [
+          'InFaL'
+        ],
         'nqA.d' => [
           'NFAL'
+        ],
+        'nqa.d' => [
+          'NFaL'
         ]
       },
       'index' => '1',
@@ -34911,6 +34948,12 @@ $Lexicon = {
         'qts     qotas   IV_C    measure;imitate'
       ],
       'patterns' => {
+        'iqtas' => [
+          'IFtaL'
+        ],
+        'qtas' => [
+          'FtaL'
+        ],
         'qtAs' => [
           'FtAL'
         ]
@@ -36799,6 +36842,9 @@ $Lexicon = {
         ],
         'qad' => [
           'FaL'
+        ],
+        '\'aqad' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -36837,6 +36883,12 @@ $Lexicon = {
         'nqd     noqad   IV_C_intr       yield;submit'
       ],
       'patterns' => {
+        'inqad' => [
+          'InFaL'
+        ],
+        'nqad' => [
+          'NFaL'
+        ],
         'nqAd' => [
           'NFAL'
         ]
@@ -36877,6 +36929,12 @@ $Lexicon = {
         'qtd     qotad   IV_C    lead;lead away'
       ],
       'patterns' => {
+        'iqtad' => [
+          'IFtaL'
+        ],
+        'qtad' => [
+          'FtaL'
+        ],
         'qtAd' => [
           'FtAL'
         ]
@@ -36916,7 +36974,11 @@ $Lexicon = {
         'stqyd   sotaqiyd        IV_V    retaliate',
         'stqd    sotaqid IV_C    retaliate'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istaqad' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -37624,7 +37686,8 @@ $Lexicon = {
           'FaCA'
         ],
         '\'aq.diy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '1',
@@ -37675,7 +37738,8 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '\'aq.diy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '3',
@@ -48078,6 +48142,9 @@ $Lexicon = {
       'patterns' => {
         'qanaw' => [
           'FaCaL'
+        ],
+        '\'aqniy' => [
+          'HaFCI'
         ]
       },
       'index' => '1',
@@ -50063,6 +50130,9 @@ $Lexicon = {
         'qfy     qifiy~  N       necks;napes;backs'
       ],
       'patterns' => {
+        '\'aqfiy' => [
+          'HaFCI'
+        ],
         'qafA' => [
           'FaCA'
         ],
@@ -51799,6 +51869,12 @@ $Lexicon = {
       'patterns' => {
         'qtAr' => [
           'FtAL'
+        ],
+        'qtar' => [
+          'FtaL'
+        ],
+        'iqtar' => [
+          'IFtaL'
         ]
       },
       'index' => '1',
@@ -56532,7 +56608,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'qtal' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ],
         'qutil' => [
           'FuCiL'

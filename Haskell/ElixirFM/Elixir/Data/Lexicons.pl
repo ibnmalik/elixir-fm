@@ -184,6 +184,8 @@ sub showEntry ($) {
 
                 my @ptrns = @{$entry->{'patterns'}->{$form}};
 
+                @ptrns = grep { not /^FtaL$/    } @ptrns if $entry->{'morphs'} =~ /^FaC[aiu]L$/;
+
                 @ptrns = grep { not /^F[iu]CL$/ } @ptrns if $entry->{'morphs'} eq 'FAL';
                 @ptrns = grep { not /^FCuL$/    } @ptrns if $entry->{'morphs'} eq 'FaCA';
                 @ptrns = grep { not /^FCiL$/    } @ptrns if $entry->{'morphs'} eq 'FaCY';
@@ -233,7 +235,7 @@ sub showEntry ($) {
 
                    (@{$imperf} > 0 ? map { '   `imperf`     ' . $_ } @{$imperf} : ()),
                    (@{$pfirst} > 0 ? map { '   `pfirst`     ' . $_ } @{$pfirst} : ()),
-                   (@{$ithird} > 0 ? map { '   `ithird`     ' . $_ } @{$ithird} : ()),
+    # derived #    (@{$ithird} > 0 ? map { '   `ithird`     ' . $_ } @{$ithird} : ()),
                    (@{$second} > 0 ? map { '   `second`     ' . $_ } @{$second} : ()),
                    (@{$plural} > 0 ? map { '   `plural`     ' . $_ } @{$plural} : ()),
 

@@ -13540,6 +13540,9 @@ $Lexicon = {
         ],
         'nA_h' => [
           'FAL'
+        ],
+        '\'ana_h' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -13578,7 +13581,11 @@ $Lexicon = {
         'stnyx   sotaniyx        IV_V    kneel down',
         'stnx    sotanix IV_C    kneel down'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istana_h' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -14082,6 +14089,9 @@ $Lexicon = {
         'niyl' => [
           'FIL',
           'FiCL'
+        ],
+        '\'anal' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -14598,6 +14608,12 @@ $Lexicon = {
       'patterns' => {
         'ntA.s' => [
           'FtAL'
+        ],
+        'nta.s' => [
+          'FtaL'
+        ],
+        'inta.s' => [
+          'IFtaL'
         ]
       },
       'index' => '1',
@@ -20140,7 +20156,8 @@ $Lexicon = {
           'FaCaL'
         ],
         '\'anwiy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '1',
@@ -23963,7 +23980,8 @@ $Lexicon = {
           'FawACiL'
         ],
         '\'andiy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '1',
@@ -26284,7 +26302,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'nta\'' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -28379,7 +28398,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'nta^g' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ],
         'nti^g' => [
           'FCiL'
@@ -33378,6 +33398,9 @@ $Lexicon = {
         'nAb' => [
           'FAL'
         ],
+        '\'anab' => [
+          'HaFaL'
+        ],
         'nab' => [
           'FaL'
         ],
@@ -33446,6 +33469,12 @@ $Lexicon = {
         'ntb     notab   IV_C    afflict;happen'
       ],
       'patterns' => {
+        'intab' => [
+          'IFtaL'
+        ],
+        'ntab' => [
+          'FtaL'
+        ],
         'ntAb' => [
           'FtAL'
         ]
@@ -38489,6 +38518,9 @@ $Lexicon = {
         ],
         'nAr' => [
           'FAL'
+        ],
+        '\'anar' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -38592,7 +38624,11 @@ $Lexicon = {
         'stnyr   sotaniyr        IV_V    seek enlightenment;obtain enlightenment',
         'stnr    sotanir IV_C    seek enlightenment;obtain enlightenment'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istanar' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -43881,7 +43917,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'an^giy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '1',
@@ -46759,7 +46796,11 @@ $Lexicon = {
       'entry' => 'nAdiy',
       'form' => 'nAdiy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'andiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACI',
@@ -51354,6 +51395,9 @@ $Lexicon = {
         'ni.t' => [
           'FiL'
         ],
+        '\'ana.t' => [
+          'HaFaL'
+        ],
         'nA.t' => [
           'FAL'
         ],
@@ -53285,7 +53329,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'nta.h' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ],
         'nti.h' => [
           'FCiL'
@@ -53517,6 +53562,9 @@ $Lexicon = {
         ],
         'nif' => [
           'FiL'
+        ],
+        '\'anaf' => [
+          'HaFaL'
         ],
         'nAf' => [
           'FAL'
@@ -56914,7 +56962,8 @@ $Lexicon = {
       ],
       'patterns' => {
         'ntan' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -65258,6 +65307,9 @@ $Lexicon = {
         'niym' => [
           'FIL'
         ],
+        '\'anam' => [
+          'HaFaL'
+        ],
         'nim' => [
           'FiL'
         ],
@@ -65329,7 +65381,11 @@ $Lexicon = {
         'stnym   sotaniym        IV_V_intr       be lulled to sleep;comply;trust',
         'stnm    sotanim IV_C_intr       be lulled to sleep;comply;trust'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istanam' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -66108,6 +66164,9 @@ $Lexicon = {
       'patterns' => {
         'ni\'' => [
           'FiL'
+        ],
+        '\'ana\'' => [
+          'HaFaL'
         ],
         'niy\'' => [
           'FIL'

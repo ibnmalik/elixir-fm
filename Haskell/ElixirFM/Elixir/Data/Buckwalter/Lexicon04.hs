@@ -285,8 +285,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- vaj~-u -}           [ "flow", "stream" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; vajAj_1
     -- vjAj    vajAj   N       flowing;streaming
@@ -979,8 +978,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- val~-u -}           [ "overthrow", "destroy" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; {inoval~_1
     -- <nvl    {inoval~        PV_V_intr       be subverted;be overthrown
@@ -2051,9 +2049,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- var~-ui -}          [ "rain hard", "talk a lot" ]
                               `imperf`     FuCL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; var~_1
     -- vr      var~    N/ap    wet;soaked
@@ -2159,8 +2155,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- vAb-u -}            [ "return", "come back" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; vaw~ab_1
     -- vwb     vaw~ab  PV      reward
@@ -2286,8 +2281,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- vAr-u -}            [ "revolt", "arise" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; vaw~ar_1
     -- vwr     vaw~ar  PV      stir up;revolutionize

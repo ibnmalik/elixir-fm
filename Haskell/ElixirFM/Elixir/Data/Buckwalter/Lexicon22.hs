@@ -268,8 +268,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- kaH~-u -}           [ "cough" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL ]
+                              `pfirst`     FaCaL ]
 
  |> "k .h k .h" <| [
 
@@ -456,8 +455,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- kaZ~-u -}           [ "overfill", "encumber", "overstuff" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; {ikotaZ~_1
     -- <ktZ    {ikotaZ~        PV_V_intr       be overcrowded;be overstuffed
@@ -602,8 +600,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- ka$~-i -}           [ "recoil" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; ku$~ap_1
     -- k$      ku$~    Napdu   lock of hair
@@ -980,8 +977,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- kav~-i -}           [ "be thick", "be dense" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; kavav_1
     -- kvv     kavav   N       thickness;density
@@ -1438,8 +1434,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- kab~-u -}           [ "pour out", "topple" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; kab~ab_1
     -- kbb     kab~ab  PV      roll
@@ -2165,8 +2160,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- kad~-u -}           [ "work hard", "exhaust" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; kad~ad_1
     -- kdd     kad~ad  PV      drive away
@@ -2666,8 +2660,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- kaf~-u -}           [ "refrain", "abstain" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; kaf~af_1
     -- kff     kaf~af  PV      hem
@@ -4548,8 +4541,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- kam~-u -}           [ "cover", "hide" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; kam~am_1
     -- kmm     kam~am  PV      muzzle;gag;quantify
@@ -5372,7 +5364,8 @@ lexicon = listing "Lexicon's properties"
     -- >kry    >akoriy Nap     rent money
     -- Akry    >akoriy Nap     rent money
 
-    FiCAL                     `noun`    {- kirA' -}            [ "rent", "renting", "rent money" ],
+    FiCAL                     `noun`    {- kirA' -}            [ "rent", "renting", "rent money" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; <ikorA'_1
     -- <krA'   <ikorA' N0_Nh   renting;leasing
@@ -6329,8 +6322,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- kar~-u -}           [ "recur" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; kar~ar_1
     -- krr     kar~ar  PV      repeat;reiterate
@@ -6727,7 +6719,8 @@ lexicon = listing "Lexicon's properties"
     -- Akry    >akoriy Nap     rent money
 
     FiCA'                     `noun`    {- kirA' -}            [ "rent", "renting", "rent money" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT,
 
     -- ;; <ikorA'_1
     -- <krA'   <ikorA' N0_Nh   renting;leasing
@@ -6892,7 +6885,8 @@ lexicon = listing "Lexicon's properties"
     -- >ksy    >akosiy Nap     clothes;garment
     -- Aksy    >akosiy Nap     clothes;garment
 
-    FiCAL                     `noun`    {- kisA' -}            [ "clothes", "garment" ] ]
+    FiCAL                     `noun`    {- kisA' -}            [ "clothes", "garment" ]
+                              `plural`     HaFCI |< aT ]
 
  |> "k s .h" <| [
 
@@ -7571,7 +7565,8 @@ lexicon = listing "Lexicon's properties"
     -- >ksy    >akosiy Nap     clothes;garment
     -- Aksy    >akosiy Nap     clothes;garment
 
-    FiCA'                     `noun`    {- kisA' -}            [ "clothes", "garment" ] ]
+    FiCA'                     `noun`    {- kisA' -}            [ "clothes", "garment" ]
+                              `plural`     HaFCI |< aT ]
 
  |> "k s y" <| [
 
@@ -8170,8 +8165,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- kat~-i -}           [ "hum softly" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; kat~_1
     -- kt      kat~    N       soft humming
@@ -8321,8 +8315,7 @@ lexicon = listing "Lexicon's properties"
     -- kd      kad     IV_C_intr       almost;hardly;no sooner
 
     FAL                       `verb`    {- kAd-a -}            [ "almost", "hardly", "no sooner" ]
-                              `pfirst`     FiL
-                              `ithird`     FaL,
+                              `pfirst`     FiL,
 
     -- ;; kaw~ad_1
     -- kwd     kaw~ad  PV      pile up
@@ -8513,8 +8506,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- kAn-u -}            [ "was", "were", "is", "are" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; kaw~an_1
     -- kwn     kaw~an  PV-n    create
@@ -8894,8 +8886,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- kAd-i -}            [ "deceive", "harm" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; kAyad_1
     -- kAyd    kAyad   PV      deceive;outwit
@@ -9011,8 +9002,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- kAl-i -}            [ "measure" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; kay~al_1
     -- kyl     kay~al  PV      measure
@@ -9206,8 +9196,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- kAs-i -}            [ "be clever" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; kay~as_1
     -- kys     kay~as  PV      make elegant
@@ -9367,8 +9356,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- kaz~-u -}           [ "dry up", "shrivel", "shrink" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCuL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCuL,
 
     -- ;; kuz~_1
     -- kz      kuz~    PV_V    have tetanus

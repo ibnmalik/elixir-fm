@@ -483,6 +483,12 @@ $Lexicon = {
         'STd     SoTad   IV_C_Pass_yu    be hunted;be fished;be trapped'
       ],
       'patterns' => {
+        'i.s.tad' => [
+          'IFtaL'
+        ],
+        '.s.tad' => [
+          'FtaL'
+        ],
         '.s.tAd' => [
           'FtAL'
         ]
@@ -7797,6 +7803,9 @@ $Lexicon = {
         'Sx      Sax     IV_C_Pass_yu    be listened to;be lent an ear'
       ],
       'patterns' => {
+        '\'a.sa_h' => [
+          'HaFaL'
+        ],
         '.sa_h' => [
           'FaL'
         ],
@@ -8690,6 +8699,12 @@ $Lexicon = {
         'nSE     noSaE   IV_C    submit;obey'
       ],
       'patterns' => {
+        'n.sa`' => [
+          'NFaL'
+        ],
+        'in.sa`' => [
+          'InFaL'
+        ],
         'n.sA`' => [
           'NFAL'
         ]
@@ -13336,6 +13351,9 @@ $Lexicon = {
         ],
         '\'u.siyb' => [
           'HuFIL'
+        ],
+        '\'a.sab' => [
+          'HaFaL'
         ],
         '.sAb' => [
           'FAL'
@@ -31141,7 +31159,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'a.sbiy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ],
         '.siby' => [
           'FiCL'
@@ -32509,8 +32528,14 @@ $Lexicon = {
         'STf     SoTaf   IV_C    estivate;spend the summer'
       ],
       'patterns' => {
+        'i.s.taf' => [
+          'IFtaL'
+        ],
         '.s.tAf' => [
           'FtAL'
+        ],
+        '.s.taf' => [
+          'FtaL'
         ]
       },
       'index' => '1',

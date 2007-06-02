@@ -2512,8 +2512,14 @@ $Lexicon = {
         'Hts     Hotas   IV_C_intr       hesitate'
       ],
       'patterns' => {
+        'i.htas' => [
+          'IFtaL'
+        ],
         '.htAs' => [
           'FtAL'
+        ],
+        '.htas' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -6383,6 +6389,12 @@ $Lexicon = {
       'patterns' => {
         '.htAr' => [
           'FtAL'
+        ],
+        'i.htar' => [
+          'IFtaL'
+        ],
+        '.htar' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -11212,6 +11224,12 @@ $Lexicon = {
         'nHS     noHaS   IV_C    escape;turn away'
       ],
       'patterns' => {
+        'in.ha.s' => [
+          'InFaL'
+        ],
+        'n.ha.s' => [
+          'NFaL'
+        ],
         'n.hA.s' => [
           'NFAL'
         ]
@@ -12868,6 +12886,12 @@ $Lexicon = {
         'Htj     Hotaj   IV_C    need;want'
       ],
       'patterns' => {
+        'i.hta^g' => [
+          'IFtaL'
+        ],
+        '.hta^g' => [
+          'FtaL'
+        ],
         '.htA^g' => [
           'FtAL'
         ]
@@ -18134,7 +18158,11 @@ $Lexicon = {
         '>H*y    >aHo*iy Nap     shoes',
         'AH*y    >aHo*iy Nap     shoes'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.h_diy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCA\'',
@@ -19409,6 +19437,9 @@ $Lexicon = {
         ],
         '.hAr' => [
           'FAL'
+        ],
+        '\'a.har' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -22821,8 +22852,14 @@ $Lexicon = {
         'nHd     noHad   IV_C    depart;deviate'
       ],
       'patterns' => {
+        'in.had' => [
+          'InFaL'
+        ],
         'n.hAd' => [
           'NFAL'
+        ],
+        'n.had' => [
+          'NFaL'
         ]
       },
       'index' => '1',
@@ -27458,6 +27495,9 @@ $Lexicon = {
         'Hl      Hal     IV_C_Pass_yu    appear (in court);be referred;be assigned'
       ],
       'patterns' => {
+        '\'a.hal' => [
+          'HaFaL'
+        ],
         '.hiyl' => [
           'FIL'
         ],
@@ -27556,6 +27596,12 @@ $Lexicon = {
         'Htl     Hotal   IV_C    deceive;swindle;cheat'
       ],
       'patterns' => {
+        'i.htal' => [
+          'IFtaL'
+        ],
+        '.htal' => [
+          'FtaL'
+        ],
         '.htAl' => [
           'FtAL'
         ]
@@ -27636,7 +27682,11 @@ $Lexicon = {
         'stHyl   sotaHiyl        IV_V_intr       be impossible;be transformed',
         'stHl    sotaHil IV_C_intr       be impossible;be transformed'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista.hal' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -36351,6 +36401,9 @@ $Lexicon = {
         'Hv      Hav     IV_C_Pass_yu    be excavated'
       ],
       'patterns' => {
+        '\'a.ha_t' => [
+          'HaFaL'
+        ],
         '.hiy_t' => [
           'FIL'
         ],
@@ -36407,7 +36460,11 @@ $Lexicon = {
         'stHAv   sotaHAv IV_V_Pass_yu    be excavated',
         'stHv    sotaHav IV_C_Pass_yu    be excavated'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista.ha_t' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -40977,6 +41034,12 @@ $Lexicon = {
         'nHz     noHaz   IV_C_intr       be aligned;be biased (politically)'
       ],
       'patterns' => {
+        'n.haz' => [
+          'NFaL'
+        ],
+        'in.haz' => [
+          'InFaL'
+        ],
         'n.hAz' => [
           'NFAL'
         ]
@@ -41019,6 +41082,12 @@ $Lexicon = {
       'patterns' => {
         '.htAz' => [
           'FtAL'
+        ],
+        'i.htaz' => [
+          'IFtaL'
+        ],
+        '.htaz' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -51429,7 +51498,11 @@ $Lexicon = {
       'entry' => '.hi_dA\'',
       'form' => '.hi_dA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'a.h_diy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -51699,6 +51772,9 @@ $Lexicon = {
         'AHsy    >aHosiy Nap     sips'
       ],
       'patterns' => {
+        '\'a.hsiy' => [
+          'HaFCI'
+        ],
         '.hasaw' => [
           'FaCaL'
         ]
@@ -56079,7 +56155,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '.htad' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -57797,6 +57874,9 @@ $Lexicon = {
         '.hAq' => [
           'FAL'
         ],
+        '\'a.haq' => [
+          'HaFaL'
+        ],
         '.hiyq' => [
           'FIL',
           'FiCL'
@@ -57988,6 +58068,9 @@ $Lexicon = {
         '.ha.t' => [
           'FaL'
         ],
+        '\'a.ha.t' => [
+          'HaFaL'
+        ],
         '.hA.t' => [
           'FAL'
         ],
@@ -58059,6 +58142,12 @@ $Lexicon = {
       'patterns' => {
         '.htA.t' => [
           'FtAL'
+        ],
+        'i.hta.t' => [
+          'IFtaL'
+        ],
+        '.hta.t' => [
+          'FtaL'
         ]
       },
       'index' => '1',

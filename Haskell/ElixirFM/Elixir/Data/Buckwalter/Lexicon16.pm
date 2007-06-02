@@ -2442,6 +2442,9 @@ $Lexicon = {
         '.tiq' => [
           'FiL'
         ],
+        '\'a.taq' => [
+          'HaFaL'
+        ],
         '.tAq' => [
           'FAL'
         ],
@@ -3267,6 +3270,9 @@ $Lexicon = {
         'TH      TaH     IV_C_Pass_yu    be overthrown;be toppled'
       ],
       'patterns' => {
+        '\'a.ta.h' => [
+          'HaFaL'
+        ],
         '.ti.h' => [
           'FiL'
         ],
@@ -4191,6 +4197,9 @@ $Lexicon = {
         ],
         '.tif' => [
           'FiL'
+        ],
+        '\'a.taf' => [
+          'HaFaL'
         ],
         '.tiyf' => [
           'FIL'
@@ -13750,6 +13759,9 @@ $Lexicon = {
         '.tiy`' => [
           'FIL'
         ],
+        '\'a.ta`' => [
+          'HaFaL'
+        ],
         '.tA`' => [
           'FAL'
         ]
@@ -13814,6 +13826,12 @@ $Lexicon = {
       'patterns' => {
         'n.tA`' => [
           'NFAL'
+        ],
+        'in.ta`' => [
+          'InFaL'
+        ],
+        'n.ta`' => [
+          'NFaL'
         ]
       },
       'index' => '1',
@@ -13854,7 +13872,11 @@ $Lexicon = {
         'stTAE   sotaTAE IV_V_intr       be possible;be capable',
         'stTE    sotaTiE IV_C_intr       be able;be capable'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista.ta`' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -15522,6 +15544,9 @@ $Lexicon = {
         '.tAl' => [
           'FAL'
         ],
+        '\'a.tal' => [
+          'HaFaL'
+        ],
         '.til' => [
           'FiL'
         ],
@@ -15590,7 +15615,11 @@ $Lexicon = {
         'stTyl   sotaTiyl        IV_V_intr       be lengthened;be insolent',
         'stTl    sotaTil IV_C_intr       be lengthened;be insolent'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista.tal' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -16418,6 +16447,9 @@ $Lexicon = {
           'FIL',
           'FiCL'
         ],
+        '\'a.tab' => [
+          'HaFaL'
+        ],
         '.tAb' => [
           'FAL'
         ]
@@ -16479,7 +16511,11 @@ $Lexicon = {
         'stTyb   sotaTiyb        IV_V    appreciate;consider pleasant',
         'stTb    sotaTib IV_C    appreciate;consider pleasant'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista.tab' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -23765,6 +23801,12 @@ $Lexicon = {
       'patterns' => {
         'n.tAd' => [
           'NFAL'
+        ],
+        'n.tad' => [
+          'NFaL'
+        ],
+        'in.tad' => [
+          'InFaL'
         ]
       },
       'index' => '1',
@@ -25815,7 +25857,11 @@ $Lexicon = {
         'stTyr   sotaTiyr        IV_V    fly apart;scatter;agitate',
         'stTr    sotaTir IV_C    fly apart;scatter;agitate'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista.tar' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',

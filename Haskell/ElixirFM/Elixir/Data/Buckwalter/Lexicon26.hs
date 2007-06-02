@@ -145,8 +145,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- haD~-u -}           [ "move briskly", "advance" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; {inohaD~_1
     -- <nhD    {inohaD~        PV_V_intr       be smashed;be broken
@@ -254,8 +253,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- haS~-u -}           [ "trample" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; haSiyS_1
     -- hSyS    haSiyS  N       trampling
@@ -395,8 +393,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- haj~-u -}           [ "burn", "be aflame" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; haj~aj_1
     -- hjj     haj~aj  PV      set ablaze
@@ -995,9 +992,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- ha$~-iu -}          [ "be cheerful", "be delighted" ]
                               `imperf`     FuCL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; ha$~a$_1
     -- h$$     ha$~a$  PV      cheer up;enliven
@@ -1375,8 +1370,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- hab~-u -}           [ "get up", "set out", "blow" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; hab~ab_1
     -- hbb     hab~ab  PV      tear;bungle
@@ -1828,8 +1822,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- had~-i -}           [ "be weak", "be decrepit" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; had~-u_1
     -- hd      had~    PV_V    demolish;destroy
@@ -1839,8 +1832,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- had~-u -}           [ "demolish", "destroy" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; had~ad_1
     -- hdd     had~ad  PV      threaten;intimidate;menace
@@ -2522,8 +2514,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- haf~-i -}           [ "howl", "yearn" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; hif~_1
     -- hf      hif~    N       empty;light
@@ -2992,8 +2983,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- hal~-i -}           [ "begin", "appear" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; hal~al_1
     -- hll     hal~al  PV      rejoice;applaud
@@ -3495,8 +3485,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- ham~-u -}           [ "be ready", "intend" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; >aham~_1
     -- >hm     >aham~  PV_V    concern;be important
@@ -4576,8 +4565,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- har~-i -}           [ "howl", "whine", "purr" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; hir~_1
     -- hr      hir~    N       cat;tomcat
@@ -4746,8 +4734,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- has~-i -}           [ "whisper" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; has~_1
     -- hs      has~    N       whispering
@@ -5082,6 +5069,7 @@ lexicon = listing "Lexicon's properties"
     FaCAL                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
                               `plural`     HaFCAL
                               `plural`     HaFCA'
+                              `plural`     HaFCI |< aT
                            {- `others`  [ "'ahwA' Nh N0_Nh Nhy" ] -},
 
     -- ;; hawA}iy~_1
@@ -5176,8 +5164,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- hA$-u -}            [ "be excited", "be agitated" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; hawi$-a_1
     -- hw$     hawi$   PV_intr be excited;be agitated
@@ -5233,9 +5220,7 @@ lexicon = listing "Lexicon's properties"
     FAL                       `verb`    {- hAE-ua -}           [ "vomit" ]
                               `imperf`     FUL
                               `pfirst`     FuL
-                              `pfirst`     FiL
-                              `ithird`     FaL
-                              `ithird`     FuL,
+                              `pfirst`     FiL,
 
     -- ;; haw~aE_1
     -- hwE     haw~aE  PV      make vomit
@@ -5271,8 +5256,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- hAd-u -}            [ "be a Jew" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; haw~ad_1
     -- hwd     haw~ad  PV      make Jewish
@@ -5360,8 +5344,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- hAl-u -}            [ "frighten", "intimidate" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; haw~al_1
     -- hwl     haw~al  PV      frighten;intimidate
@@ -5463,8 +5446,7 @@ lexicon = listing "Lexicon's properties"
     -- hn      hun     IV_C_intr       be insignificant;be contemptible
 
     FAL                       `verb`    {- hAn-u -}            [ "be insignificant", "be contemptible" ]
-                              `imperf`     FUL
-                              `ithird`     FuL,
+                              `imperf`     FUL,
 
     -- ;; haw~an_1
     -- hwn     haw~an  PV-n    facilitate;disparage
@@ -5592,8 +5574,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- hAr-u -}            [ "collapse" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; hAr-u_2
     -- hAr     hAr     PV_V    topple
@@ -5603,8 +5584,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- hAr-u -}            [ "topple" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; haw~ar_1
     -- hwr     haw~ar  PV      endanger;imperil
@@ -5969,6 +5949,7 @@ lexicon = listing "Lexicon's properties"
     FaCA'                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
                               `plural`     HaFCA'
                               `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT
                            {- `others`  [ "'ahwA' Nh N0_Nh Nhy" ] -},
 
     -- ;; hawA}iy~_1
@@ -6163,8 +6144,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- hAD-i -}            [ "be broken", "be powerless" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; hayoDap_1
     -- hyD     hayoD   Nap     cholera
@@ -6186,8 +6166,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- hAT-i -}            [ "shout", "raise a din" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; hayoT_1
     -- hyT     hayoT   N       ruckus;clamor
@@ -6220,8 +6199,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- hAj-i -}            [ "be stirred up", "be agitated" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; hay~aj_1
     -- hyj     hay~aj  PV      agitate;stir up;provoke
@@ -6324,8 +6302,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- hA$-i -}            [ "be agitated", "be excited" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; hiy$_1
     -- hy$     hiy$    N       thicket;brush
@@ -6353,8 +6330,7 @@ lexicon = listing "Lexicon's properties"
     -- hb      hab     IV_C    fear;respect
 
     FAL                       `verb`    {- hAb-a -}            [ "fear", "respect" ]
-                              `pfirst`     FiL
-                              `ithird`     FaL,
+                              `pfirst`     FiL,
 
     -- ;; hay~ab_1
     -- hyb     hay~ab  PV      intimidate
@@ -6466,8 +6442,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- hAf-i -}            [ "be parched", "be thirsty" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; hAf-a_1
     -- hAf     hAf     PV_V    run away
@@ -6476,8 +6451,7 @@ lexicon = listing "Lexicon's properties"
     -- hf      haf     IV_C    run away
 
     FAL                       `verb`    {- hAf-a -}            [ "run away" ]
-                              `pfirst`     FiL
-                              `ithird`     FaL,
+                              `pfirst`     FiL,
 
     -- ;; hAf-a_2
     -- hAf     hAf     PV_V    be slender
@@ -6486,8 +6460,7 @@ lexicon = listing "Lexicon's properties"
     -- hf      haf     IV_C    be slender
 
     FAL                       `verb`    {- hAf-a -}            [ "be slender" ]
-                              `pfirst`     FiL
-                              `ithird`     FaL,
+                              `pfirst`     FiL,
 
     -- ;; hayif-a_1
     -- hyf     hayif   PV_intr be slender
@@ -6574,8 +6547,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- hAl-i -}            [ "pour", "strew" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; hay~al_1
     -- hyl     hay~al  PV      pour;pile up;strew
@@ -6654,8 +6626,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- hAm-i -}            [ "be in love", "wander" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; hay~am_1
     -- hym     hay~am  PV      confuse;enchant
@@ -7201,8 +7172,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- haz~-u -}           [ "shake", "jolt", "rock" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; haz~az_1
     -- hzz     haz~az  PV      swing;shake

@@ -7402,6 +7402,9 @@ $Lexicon = {
         ],
         '_tar' => [
           'FaL'
+        ],
+        '\'a_tar' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -7441,7 +7444,11 @@ $Lexicon = {
         'stvyr   sotaviyr        IV_V    incite;elicit',
         'stvr    sotavir IV_C    incite;elicit'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista_tar' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -10241,6 +10248,9 @@ $Lexicon = {
         'vb      vab     IV_C_Pass_yu    be returned;be compensated;be rewarded'
       ],
       'patterns' => {
+        '\'a_tab' => [
+          'HaFaL'
+        ],
         '_tiyb' => [
           'FIL'
         ],
@@ -10315,7 +10325,11 @@ $Lexicon = {
         'stvyb   sotaviyb        IV_V    lay claim to;seek reward',
         'stvb    sotavib IV_C    lay claim to;seek reward'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista_tab' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -10567,6 +10581,12 @@ $Lexicon = {
         'nvl     noval   IV_C    swarm;throng'
       ],
       'patterns' => {
+        'n_tal' => [
+          'NFaL'
+        ],
+        'in_tal' => [
+          'InFaL'
+        ],
         'n_tAl' => [
           'NFAL'
         ]

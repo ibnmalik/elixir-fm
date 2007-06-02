@@ -757,8 +757,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- raD~-u -}           [ "crush", "bruise" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; raD~_1
     -- rD      raD~    Ndu     bruise;contusion
@@ -1831,6 +1830,7 @@ lexicon = listing "Lexicon's properties"
     FaCY                      `noun`    {- raHaY -}            [ "quern", "hand mill", "querns", "hand mills" ]
                               `plural`     HaFCA'
                               `plural`     FaCA
+                              `plural`     HaFCI |< aT
                            {- `others`  [ "'ar.hA' Nh N0_Nh Nhy", "ra.hA Nhy" ] -},
 
     -- ;; raHawiy~_1
@@ -1855,8 +1855,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- raS~-u -}           [ "compress", "join together", "align" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; raS~aS_1
     -- rSS     raS~aS  PV      fit tightly together;compress
@@ -2413,8 +2412,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- raj~-u -}           [ "convulse", "shake", "quake" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; {irotaj~_1
     -- <rtj    {irotaj~        PV_V    shake;tremble;be blurred
@@ -3213,8 +3211,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- ra$~-u -}           [ "spray", "splatter" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; ra$~_1
     -- r$      ra$~    N       sprinkling;spraying
@@ -3572,8 +3569,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- ra*~-u -}           [ "drizzle", "sprinkle" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; >ara*~_1
     -- >r*     >ara*~  PV_V    drizzle;sprinkle
@@ -3793,8 +3789,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- rax~-u -}           [ "dilute" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; rax~_1
     -- rx      rax~    N       light shower
@@ -4103,8 +4098,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- rav~-i -}           [ "be ragged", "be shabby" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; rav~_1
     -- rv      rav~    N/ap    shabby;tattered
@@ -5188,8 +5182,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- rab~-u -}           [ "be master of", "control" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; rab~ab_1
     -- rbb     rab~ab  PV      bring up;raise;idolize
@@ -5775,7 +5768,8 @@ lexicon = listing "Lexicon's properties"
     -- >rdy    >arodiy Nap     gowns;robes
     -- Ardy    >arodiy Nap     gowns;robes
 
-    FiCAL                     `noun`    {- ridA' -}            [ "gown", "robe", "gowns", "robes" ],
+    FiCAL                     `noun`    {- ridA' -}            [ "gown", "robe", "gowns", "robes" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; {irotidA'_1
     -- <rtdA'  {irotidA'       N0_Nh   wearing;putting on
@@ -5856,8 +5850,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- rad~-u -}           [ "answer", "reply", "return" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; rad~ad_1
     -- rdd     rad~ad  PV      repeat;reiterate
@@ -6253,7 +6246,8 @@ lexicon = listing "Lexicon's properties"
     -- Ardy    >arodiy Nap     gowns;robes
 
     FiCA'                     `noun`    {- ridA' -}            [ "gown", "robe", "gowns", "robes" ]
-                              `plural`     HaFCiL |< aT,
+                              `plural`     HaFCiL |< aT
+                              `plural`     HaFCI |< aT,
 
     -- ;; {irotidA'_1
     -- <rtdA'  {irotidA'       N0_Nh   wearing;putting on
@@ -6688,8 +6682,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- raf~-i -}           [ "glitter", "glisten" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; raf~-u_1
     -- rf      raf~    PV_V    flutter;quiver
@@ -6699,8 +6692,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- raf~-u -}           [ "flutter", "quiver" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; raf~_1
     -- rf      raf~    N       glittering;fluttering
@@ -7815,8 +7807,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- rak~-i -}           [ "be weak", "be poor" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; rak~-u_1
     -- rk      rak~    PV_V    entrust
@@ -7826,8 +7817,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- rak~-u -}           [ "entrust" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; rik~ap_1
     -- rk      rik~    Nap     weakness
@@ -8502,9 +8492,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- ram~-ui -}          [ "repair", "overhaul" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; ram~-i_1
     -- rm      ram~    PV_V_intr       decay;rot
@@ -8514,8 +8502,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- ram~-i -}           [ "decay", "rot" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; ram~am_1
     -- rmm     ram~am  PV      repair;restore;renovate
@@ -9623,8 +9610,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- raq~-i -}           [ "be thin", "be delicate" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; raq~aq_1
     -- rqq     raq~aq  PV      make thin;refine
@@ -10953,8 +10939,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAD-u -}            [ "domesticate", "pacify" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; raw~aD_1
     -- rwD     raw~aD  PV      domesticate;pacify;regulate
@@ -11025,8 +11010,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAg-u -}            [ "evade", "dodge", "swerve" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; rAwag_1
     -- rAwg    rAwag   PV      double-cross;deal fraudulently with
@@ -11082,8 +11066,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAH-u -}            [ "begin", "go" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; raw~aH_1
     -- rwH     raw~aH  PV      fan;ventilate;revive
@@ -11376,8 +11359,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAj-u -}            [ "circulate", "spread", "be available" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; raw~aj_1
     -- rwj     raw~aj  PV      promote;market;circulate
@@ -11448,8 +11430,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAv-u -}            [ "drop dung" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; rawov_1
     -- rwv     rawov   N       dung
@@ -11471,8 +11452,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAE-u -}            [ "surprise", "startle", "thrill" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; raw~aE_1
     -- rwE     raw~aE  PV      frighten
@@ -11583,8 +11563,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAb-u -}            [ "curdle" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; raw~ab_1
     -- rwb     raw~ab  PV      make curdle
@@ -11700,8 +11679,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAd-u -}            [ "tour", "explore" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; rAwad_1
     -- rAwd    rAwad   PV      entice;seduce
@@ -11919,8 +11897,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAm-u -}            [ "desire", "wish", "covet", "fine", "okay" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; rawom_1
     -- rwm     rawom   N       wish;desire
@@ -11993,8 +11970,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAq-u -}            [ "please", "be pure", "surpass" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; raw~aq_1
     -- rwq     raw~aq  PV      clarify;purify;filter
@@ -12333,8 +12309,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAz-u -}            [ "weigh", "examine", "consider" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; rawoz_1
     -- rwz     rawoz   N       weighing;examining;considering
@@ -12496,8 +12471,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rA$-i -}            [ "provide with feathers", "become wealthy" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; ray~a$_1
     -- ry$     ray~a$  PV      provide with feathers
@@ -12550,8 +12524,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAv-i -}            [ "hesitate", "delay" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; taray~av_1
     -- tryv    taray~av        PV      hesitate;delay;be patient
@@ -12580,8 +12553,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAE-i -}            [ "grow", "increase", "thrive" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; ray~aE_1
     -- ryE     ray~aE  PV      increase;augment
@@ -12627,8 +12599,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAb-i -}            [ "elicit doubts", "cast suspicion on", "question" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; >arAb_2
     -- >rAb    >arAb   PV_V    disquiet;fill with misgivings
@@ -12782,8 +12753,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAl-i -}            [ "drool", "slobber" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; ray~al_1
     -- ryl     ray~al  PV      drool;slobber
@@ -12814,8 +12784,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAm-i -}            [ "depart", "move" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; ray~am_1
     -- rym     ray~am  PV      remain;bluff
@@ -12870,8 +12839,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAn-i -}            [ "seize", "overcome", "prevail" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; riyAn_1
     -- ryAn    riyAn   N       Riyan
@@ -12895,8 +12863,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- rAq-i -}            [ "shine", "glisten" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; riyq_1
     -- ryq     riyq    N       saliva;spittle
@@ -13204,8 +13171,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- raz~-u -}           [ "insert", "drive in" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; raz~az_1
     -- rzz     raz~az  PV      burnish;polish

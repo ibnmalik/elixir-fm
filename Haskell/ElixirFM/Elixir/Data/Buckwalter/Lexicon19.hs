@@ -188,8 +188,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- gaD~-u -}           [ "lower", "diminish" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; gaD~aD_1
     -- gDD     gaD~aD  PV      frustrate
@@ -499,8 +498,7 @@ lexicon = listing "Lexicon's properties"
     -- gSS     goSaS   IV_C_intr       be congested;be crowded
 
     FaCL                      `verb`    {- gaS~-a -}           [ "be congested", "be crowded" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCiL,
 
     -- ;; >agaS~_1
     -- >gS     >agaS~  PV_V    suffocate;asphyxiate;drown
@@ -633,7 +631,8 @@ lexicon = listing "Lexicon's properties"
     -- >gTy    >agoTiy Nap     covers;blankets
     -- AgTy    >agoTiy Nap     covers;blankets
 
-    FiCAL                     `noun`    {- giTA' -}            [ "cover", "blanket", "covers", "blankets" ],
+    FiCAL                     `noun`    {- giTA' -}            [ "cover", "blanket", "covers", "blankets" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; giTA}iy~_1
     -- gTA}y   giTA}iy~        N-ap    covering;wrapping     [[giTA}iy~/ADJ]]
@@ -650,8 +649,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- gaT~-u -}           [ "immerse", "dip", "plunge" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; >agaT~_1
     -- >gT     >agaT~  PV_V    immerse;dip;plunge
@@ -914,7 +912,8 @@ lexicon = listing "Lexicon's properties"
     -- >gTy    >agoTiy Nap     covers;blankets
     -- AgTy    >agoTiy Nap     covers;blankets
 
-    FiCA'                     `noun`    {- giTA' -}            [ "cover", "blanket", "covers", "blankets" ],
+    FiCA'                     `noun`    {- giTA' -}            [ "cover", "blanket", "covers", "blankets" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; giTA}iy~_1
     -- gTA}y   giTA}iy~        N-ap    covering;wrapping     [[giTA}iy~/ADJ]]
@@ -968,7 +967,8 @@ lexicon = listing "Lexicon's properties"
     -- >g$y    >ago$iy Nap     covering;coating;membranes
     -- Ag$y    >ago$iy Nap     covering;coating;membranes
 
-    FiCAL                     `noun`    {- gi$A' -}            [ "covering", "coating", "membrane", "membranes" ],
+    FiCAL                     `noun`    {- gi$A' -}            [ "covering", "coating", "membrane", "membranes" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; gi$A}iy~_1
     -- g$A}y   gi$A}iy~        N-ap    membranous;tegumentary     [[gi$A}iy~/ADJ]]
@@ -985,8 +985,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- ga$~-u -}           [ "deceive", "adulterate", "tamper" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; ga$~a$_1
     -- g$$     ga$~a$  PV      deceive;dupe
@@ -1229,7 +1228,8 @@ lexicon = listing "Lexicon's properties"
     -- >g$y    >ago$iy Nap     covering;coating;membranes
     -- Ag$y    >ago$iy Nap     covering;coating;membranes
 
-    FiCA'                     `noun`    {- gi$A' -}            [ "covering", "coating", "membrane", "membranes" ],
+    FiCA'                     `noun`    {- gi$A' -}            [ "covering", "coating", "membrane", "membranes" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; gi$A}iy~_1
     -- g$A}y   gi$A}iy~        N-ap    membranous;tegumentary     [[gi$A}iy~/ADJ]]
@@ -1314,7 +1314,8 @@ lexicon = listing "Lexicon's properties"
     -- >g*y    >ago*iy Nap     food;provisions
     -- Ag*y    >ago*iy Nap     food;provisions
 
-    FiCAL                     `noun`    {- gi*A' -}            [ "food", "provisions" ],
+    FiCAL                     `noun`    {- gi*A' -}            [ "food", "provisions" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; gi*A}iy~_1
     -- g*A}y   gi*A}iy~        Nall    food;alimentary;nutritional     [[gi*A}iy~/ADJ]]
@@ -1331,8 +1332,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- ga*~-i -}           [ "fester", "suppurate" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; >aga*~_1
     -- >g*     >aga*~  PV_V    hurry;suppurate
@@ -1434,7 +1434,8 @@ lexicon = listing "Lexicon's properties"
     -- >g*y    >ago*iy Nap     food;provisions
     -- Ag*y    >ago*iy Nap     food;provisions
 
-    FiCA'                     `noun`    {- gi*A' -}            [ "food", "provisions" ],
+    FiCA'                     `noun`    {- gi*A' -}            [ "food", "provisions" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; gi*A}iy~_1
     -- g*A}y   gi*A}iy~        Nall    food;alimentary;nutritional     [[gi*A}iy~/ADJ]]
@@ -1483,8 +1484,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- gav~-i -}           [ "be thin", "fester" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; gav~_1
     -- gv      gav~    N       thin;meager
@@ -1669,8 +1669,7 @@ lexicon = listing "Lexicon's properties"
     -- gbb     gobab   IV_C    come intermittently
 
     FaCL                      `verb`    {- gab~-a -}           [ "come intermittently" ]
-                              `pfirst`     FaCaL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCaL,
 
     -- ;; gab~-u_1
     -- gb      gab~    PV_V    quaff
@@ -1680,8 +1679,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- gab~-u -}           [ "quaff" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; gib~_1
     -- gb      gib~    N       consequence;outcome
@@ -1954,7 +1952,8 @@ lexicon = listing "Lexicon's properties"
     -- >gdy    >agodiy Nap     breakfast;lunch
     -- Agdy    >agodiy Nap     breakfast;lunch
 
-    FaCAL                     `noun`    {- gadA' -}            [ "breakfast", "lunch" ] ]
+    FaCAL                     `noun`    {- gadA' -}            [ "breakfast", "lunch" ]
+                              `plural`     HaFCI |< aT ]
 
  |> ".g d d" <| [
 
@@ -2199,7 +2198,8 @@ lexicon = listing "Lexicon's properties"
     -- >gdy    >agodiy Nap     breakfast;lunch
     -- Agdy    >agodiy Nap     breakfast;lunch
 
-    FaCA'                     `noun`    {- gadA' -}            [ "breakfast", "lunch" ],
+    FaCA'                     `noun`    {- gadA' -}            [ "breakfast", "lunch" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; gadAp_1
     -- gdA     gadA    Nap     morning;tomorrow
@@ -2284,8 +2284,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- gaf~-i -}           [ "seize", "grasp" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL ]
+                              `pfirst`     FaCaL ]
 
  |> ".g f l" <| [
 
@@ -3025,8 +3024,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- gal~-u -}           [ "penetrate", "shackle" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; gal~-i_1
     -- gl      gal~    PV_V    yield;produce
@@ -3036,8 +3034,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- gal~-i -}           [ "yield", "produce" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; gal~al_1
     -- gll     gal~al  PV      handcuff;shackle
@@ -3825,8 +3822,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- gam~-u -}           [ "hide", "cover up", "be obscure", "be incomprehensible" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; gam~am_1
     -- gmm     gam~am  PV      conceal;hide
@@ -4853,8 +4849,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- gaq~-i -}           [ "bubble", "boil", "gurgle" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; gaqiyq_1
     -- gqyq    gaqiyq  N       bubbling;boiling;gurgling     [[gaqiyq/ADJ]]
@@ -5621,8 +5616,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- gar~-u -}           [ "mislead", "delude" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; gar~ar_1
     -- grr     gar~ar  PV      deceive;endanger
@@ -6333,8 +6327,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- gat~-u -}           [ "submerse", "immerse" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; gat~_1
     -- gt      gat~    N       submersion;immersion
@@ -6389,8 +6382,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- gAS-u -}            [ "plunge", "immerse", "dive" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; gaw~aS_1
     -- gwS     gaw~aS  PV      immerse;plunge
@@ -6593,8 +6585,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- gAl-u -}            [ "seize", "snatch", "destroy" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; {igotAl_1
     -- <gtAl   {igotAl PV_V    assassinate;murder
@@ -6672,8 +6663,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- gAr-u -}            [ "penetrate" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; >agAr_1
     -- >gAr    >agAr   PV_V    attack;invade;raid
@@ -6988,8 +6978,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- gAD-i -}            [ "diminish", "dwindle", "pale" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; gayoD_1
     -- gyD     gayoD   N       small amount;unborn fetus
@@ -7054,8 +7043,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- gAZ-i -}            [ "enrage", "irritate" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; gay~aZ_1
     -- gyZ     gay~aZ  PV      enrage;irritate
@@ -7158,8 +7146,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- gAv-i -}            [ "send rain" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; gayov_1
     -- gyv     gayov   N0      Ghaith
@@ -7187,8 +7174,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- gAb-i -}            [ "be absent" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; gay~ab_1
     -- gyb     gay~ab  PV      remove
@@ -7467,8 +7453,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- gAm-i -}            [ "become overcast/blurred" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; gay~am_1
     -- gym     gay~am  PV_intr be overcast/blurred

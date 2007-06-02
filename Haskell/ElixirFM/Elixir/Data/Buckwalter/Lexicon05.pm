@@ -2606,6 +2606,9 @@ $Lexicon = {
         ],
         '^gaz' => [
           'FaL'
+        ],
+        '\'a^gaz' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -2701,6 +2704,12 @@ $Lexicon = {
       'patterns' => {
         '^gtAz' => [
           'FtAL'
+        ],
+        'i^gtaz' => [
+          'IFtaL'
+        ],
+        '^gtaz' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -2740,7 +2749,11 @@ $Lexicon = {
         'stjyz   sotajiyz        IV_V    deem permissible;ask permission',
         'stjz    sotajiz IV_C    deem permissible;ask permission'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista^gaz' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -4488,6 +4501,9 @@ $Lexicon = {
         'jH      jaH     IV_C_Pass_yu    be annihilated;be ruined;be flooded'
       ],
       'patterns' => {
+        '\'a^ga.h' => [
+          'HaFaL'
+        ],
         '^gi.h' => [
           'FiL'
         ],
@@ -4548,6 +4564,12 @@ $Lexicon = {
       'patterns' => {
         '^gtA.h' => [
           'FtAL'
+        ],
+        'i^gta.h' => [
+          'IFtaL'
+        ],
+        '^gta.h' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -5729,6 +5751,9 @@ $Lexicon = {
         ],
         '^giyb' => [
           'FIL'
+        ],
+        '\'a^gab' => [
+          'HaFaL'
         ]
       },
       'index' => '1',
@@ -5796,6 +5821,12 @@ $Lexicon = {
       'patterns' => {
         'n^gAb' => [
           'NFAL'
+        ],
+        'n^gab' => [
+          'NFaL'
+        ],
+        'in^gab' => [
+          'InFaL'
         ]
       },
       'index' => '1',
@@ -5842,7 +5873,11 @@ $Lexicon = {
         'stjAb   sotajAb IV_V_Pass_yu    be complied with;be replied to',
         'stjb    sotajab IV_C_Pass_yu    be complied with;be replied to'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista^gab' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -10982,7 +11017,11 @@ $Lexicon = {
         'stjy$   sotajiy$        IV_V    raise;mobilize',
         'stj$    sotaji$ IV_C    raise;mobilize'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista^ga^s' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -14511,6 +14550,9 @@ $Lexicon = {
         '^gad' => [
           'FaL'
         ],
+        '\'a^gad' => [
+          'HaFaL'
+        ],
         '^gAd' => [
           'FAL'
         ]
@@ -14550,7 +14592,11 @@ $Lexicon = {
         'stjyd   sotajiyd        IV_V    think well of;approve of',
         'stjd    sotajid IV_C    think well of;approve of'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista^gad' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -17688,6 +17734,9 @@ $Lexicon = {
         'jl      jal     IV_C_Pass_yu    be circulated;be pondered'
       ],
       'patterns' => {
+        '\'a^gal' => [
+          'HaFaL'
+        ],
         '^gAl' => [
           'FAL'
         ],
@@ -18097,6 +18146,9 @@ $Lexicon = {
         '^gAr' => [
           'FAL'
         ],
+        '\'a^gar' => [
+          'HaFaL'
+        ],
         '^gar' => [
           'FaL'
         ],
@@ -18166,7 +18218,11 @@ $Lexicon = {
         'stjyr   sotajiyr        IV_V    seek protection;seek aid',
         'stjr    sotajir IV_C    seek protection;seek aid'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista^gar' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -19513,8 +19569,14 @@ $Lexicon = {
         'jts     jotas   IV_C    search;investigate'
       ],
       'patterns' => {
+        '^gtas' => [
+          'FtaL'
+        ],
         '^gtAs' => [
           'FtAL'
+        ],
+        'i^gtas' => [
+          'IFtaL'
         ]
       },
       'index' => '1',
@@ -25815,6 +25877,9 @@ $Lexicon = {
       'patterns' => {
         '^gA`' => [
           'FAL'
+        ],
+        '\'a^ga`' => [
+          'HaFaL'
         ],
         '^giy`' => [
           'FIL'

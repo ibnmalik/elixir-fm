@@ -5527,7 +5527,11 @@ $Lexicon = {
         '>bny    >aboniy NAt     buildings;structures',
         'Abny    >aboniy NAt     buildings;structures'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'abniy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FiCAL',
@@ -5749,6 +5753,9 @@ $Lexicon = {
         'b}      bi}     IV_C_yu accommodate;reside'
       ],
       'patterns' => {
+        '\'aba\'' => [
+          'HaFaL'
+        ],
         'bi\'' => [
           'FiL'
         ],
@@ -11249,6 +11256,9 @@ $Lexicon = {
         ],
         'bad' => [
           'FaL'
+        ],
+        '\'abad' => [
+          'HaFaL'
         ],
         'bAd' => [
           'FAL'
@@ -27270,6 +27280,9 @@ $Lexicon = {
         'bat' => [
           'FaL'
         ],
+        '\'abat' => [
+          'HaFaL'
+        ],
         'bit' => [
           'FiL'
         ],
@@ -31236,6 +31249,9 @@ $Lexicon = {
         'bl      bil     IV_C_yu make urinate;be diuretic'
       ],
       'patterns' => {
+        '\'abal' => [
+          'HaFaL'
+        ],
         'biyl' => [
           'FIL'
         ],
@@ -31300,7 +31316,11 @@ $Lexicon = {
         'stbyl   sotabiyl        IV_V    make urinate',
         'stbl    sotabil IV_C    make urinate'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istabal' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -39743,6 +39763,9 @@ $Lexicon = {
         'bar' => [
           'FaL'
         ],
+        '\'abar' => [
+          'HaFaL'
+        ],
         'bAr' => [
           'FAL'
         ],
@@ -40225,6 +40248,9 @@ $Lexicon = {
           'FIL',
           'FiCL'
         ],
+        '\'aban' => [
+          'HaFaL'
+        ],
         'bAn' => [
           'FAL'
         ]
@@ -40309,7 +40335,11 @@ $Lexicon = {
         'stbyn   sotabiyn        IV_V    clarify;explain',
         'stbn    sotabin IV-n    clarify;explain'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istaban' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -44057,6 +44087,9 @@ $Lexicon = {
         'biy.h' => [
           'FIL'
         ],
+        '\'aba.h' => [
+          'HaFaL'
+        ],
         'bA.h' => [
           'FAL'
         ],
@@ -44101,7 +44134,11 @@ $Lexicon = {
         'stbyH   sotabiyH        IV_V    allow;seize',
         'stbH    sotabiH IV_C    allow;seize'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'istaba.h' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -45230,7 +45267,8 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '\'abniy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '2',
@@ -46124,6 +46162,9 @@ $Lexicon = {
         'bE      baE     IV_C_Pass_yu    be offered for sale;tendered'
       ],
       'patterns' => {
+        '\'aba`' => [
+          'HaFaL'
+        ],
         'biy`' => [
           'FIL',
           'FiCL'
@@ -46198,8 +46239,14 @@ $Lexicon = {
         'nbE     nobaE   IV_C_intr       be sold;be for sale'
       ],
       'patterns' => {
+        'nba`' => [
+          'NFaL'
+        ],
         'nbA`' => [
           'NFAL'
+        ],
+        'inba`' => [
+          'InFaL'
         ]
       },
       'index' => '1',
@@ -46238,8 +46285,14 @@ $Lexicon = {
         'btE     botaE   IV_C    purchase'
       ],
       'patterns' => {
+        'ibta`' => [
+          'IFtaL'
+        ],
         'btA`' => [
           'FtAL'
+        ],
+        'bta`' => [
+          'FtaL'
         ]
       },
       'index' => '1',

@@ -4920,7 +4920,11 @@ $Lexicon = {
         '>ETy    >aEoTiy NAt     gifts;offers',
         'AETy    >aEoTiy NAt     gifts;offers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a`.tiy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCAL',
@@ -5298,7 +5302,11 @@ $Lexicon = {
         '>E$y    >aEo$iy Nap     dinners;suppers',
         'AE$y    >aEo$iy Nap     dinners;suppers'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'a`^siy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCAL',
@@ -7777,6 +7785,9 @@ $Lexicon = {
         '`a.d' => [
           'FaL'
         ],
+        '\'a`a.d' => [
+          'HaFaL'
+        ],
         '`iy.d' => [
           'FIL'
         ]
@@ -7864,6 +7875,12 @@ $Lexicon = {
         'EtD     EotaD   IV_C_intr       be substituted;be compensated'
       ],
       'patterns' => {
+        '`ta.d' => [
+          'FtaL'
+        ],
+        'i`ta.d' => [
+          'IFtaL'
+        ],
         '`tA.d' => [
           'FtAL'
         ]
@@ -7903,7 +7920,11 @@ $Lexicon = {
         'stEyD   sotaEiyD        IV_V    exchange;substitute;be compensated',
         'stED    sotaEiD IV_C    exchange;substitute;be compensated'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista`a.d' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -9726,7 +9747,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '`taq' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ],
         '`tiq' => [
           'FCiL'
@@ -15766,6 +15788,12 @@ $Lexicon = {
       'patterns' => {
         '`tA.s' => [
           'FtAL'
+        ],
+        '`ta.s' => [
+          'FtaL'
+        ],
+        'i`ta.s' => [
+          'IFtaL'
         ]
       },
       'index' => '1',
@@ -17713,7 +17741,11 @@ $Lexicon = {
       'entry' => '`a^sA\'',
       'form' => '`a^sA\'',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'a`^siy' => [
+          'HaFCI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCA\'',
@@ -21867,6 +21899,9 @@ $Lexicon = {
         '`an' => [
           'FaL'
         ],
+        '\'a`an' => [
+          'HaFaL'
+        ],
         '`in' => [
           'FiL'
         ],
@@ -21933,7 +21968,11 @@ $Lexicon = {
         'stEyn   sotaEiyn        IV_V    seek aid from;resort to;turn for help to',
         'stEn    sotaEin IV-n    seek aid from;resort to;turn for help to'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista`an' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -23117,7 +23156,8 @@ $Lexicon = {
           'FCiL'
         ],
         '`tad' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -25147,6 +25187,9 @@ $Lexicon = {
         '`Aq' => [
           'FAL'
         ],
+        '\'a`aq' => [
+          'HaFaL'
+        ],
         '`aq' => [
           'FaL'
         ],
@@ -25216,6 +25259,12 @@ $Lexicon = {
         'Etq     Eotaq   IV_C    hinder;impede'
       ],
       'patterns' => {
+        '`taq' => [
+          'FtaL'
+        ],
+        'i`taq' => [
+          'IFtaL'
+        ],
         '`tAq' => [
           'FtAL'
         ]
@@ -27897,7 +27946,8 @@ $Lexicon = {
           'FCiL'
         ],
         '`tam' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -29609,6 +29659,9 @@ $Lexicon = {
         '`a_d' => [
           'FaL'
         ],
+        '\'a`a_d' => [
+          'HaFaL'
+        ],
         '`iy_d' => [
           'FIL'
         ]
@@ -29671,7 +29724,11 @@ $Lexicon = {
         'stEy*   sotaEiy*        IV_V    take refuge;seek protection',
         'stE*    sotaEi* IV_C    take refuge;seek protection'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista`a_d' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -48475,6 +48532,9 @@ $Lexicon = {
         '`iyr' => [
           'FIL'
         ],
+        '\'a`ar' => [
+          'HaFaL'
+        ],
         '`ir' => [
           'FiL'
         ],
@@ -48590,7 +48650,11 @@ $Lexicon = {
         'stEAr   sotaEAr IV_V_Pass_yu    be borrowed',
         'stEr    sotaEar IV_C_Pass_yu    be borrowed'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista`ar' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -54787,7 +54851,8 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '\'a`.tiy' => [
-          'HaFCiL'
+          'HaFCiL',
+          'HaFCI'
         ]
       },
       'index' => '2',
@@ -57081,6 +57146,9 @@ $Lexicon = {
         ],
         '`al' => [
           'FaL'
+        ],
+        '\'a`al' => [
+          'HaFaL'
         ],
         '`Al' => [
           'FAL'
@@ -61476,6 +61544,9 @@ $Lexicon = {
         'Ed      Ead     IV_C_Pass_yu    (be done) again;be returned;be given back'
       ],
       'patterns' => {
+        '\'a`ad' => [
+          'HaFaL'
+        ],
         '`Ad' => [
           'FAL'
         ],
@@ -61556,8 +61627,14 @@ $Lexicon = {
         'Etd     Eotad   IV_C    make a habit of;be accustomed to'
       ],
       'patterns' => {
+        'i`tad' => [
+          'IFtaL'
+        ],
         '`tAd' => [
           'FtAL'
+        ],
+        '`tad' => [
+          'FtaL'
         ]
       },
       'index' => '1',
@@ -61608,7 +61685,11 @@ $Lexicon = {
         'stEAd   sotaEAd IV_V_Pass_yu    be recovered;be regained;be reclaimed',
         'stEd    sotaEad IV_C_Pass_yu    be recovered;be regained;be reclaimed'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ista`ad' => [
+          'IstaFaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'verb',
       'morphs' => 'IstaFAL',
@@ -63110,6 +63191,9 @@ $Lexicon = {
         '`a^s' => [
           'FaL'
         ],
+        '\'a`a^s' => [
+          'HaFaL'
+        ],
         '`iy^s' => [
           'FIL',
           'FiCL'
@@ -63203,6 +63287,12 @@ $Lexicon = {
         'Et$     Eota$   IV_C    subsist;make a living'
       ],
       'patterns' => {
+        '`ta^s' => [
+          'FtaL'
+        ],
+        'i`ta^s' => [
+          'IFtaL'
+        ],
         '`tA^s' => [
           'FtAL'
         ]
@@ -75176,7 +75266,8 @@ $Lexicon = {
       ],
       'patterns' => {
         '`tah' => [
-          'FCaL'
+          'FCaL',
+          'FtaL'
         ]
       },
       'index' => '1',

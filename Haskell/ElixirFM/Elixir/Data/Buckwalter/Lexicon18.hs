@@ -153,8 +153,7 @@ lexicon = listing "Lexicon's properties"
     -- EDD     EoDaD   IV_C    bite
 
     FaCL                      `verb`    {- EaD~-a -}           [ "bite" ]
-                              `pfirst`     FaCiL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCiL,
 
     -- ;; EaD~aD_1
     -- EDD     EaD~aD  PV      bite
@@ -454,8 +453,7 @@ lexicon = listing "Lexicon's properties"
     -- ESS     EoSaS   IV_C    harden
 
     FaCL                      `verb`    {- EaS~-a -}           [ "harden" ]
-                              `pfirst`     FaCaL
-                              `ithird`     FCaL,
+                              `pfirst`     FaCaL,
 
     -- ;; EaS~_1
     -- ES      EaS~    N       hardening
@@ -1231,7 +1229,8 @@ lexicon = listing "Lexicon's properties"
     -- >ETy    >aEoTiy NAt     gifts;offers
     -- AETy    >aEoTiy NAt     gifts;offers
 
-    FaCAL                     `noun`    {- EaTA' -}            [ "gift", "offer", "gifts", "offers" ],
+    FaCAL                     `noun`    {- EaTA' -}            [ "gift", "offer", "gifts", "offers" ]
+                              `plural`     HaFCI |< At |< aT,
 
     -- ;; EaTA'_3
     -- ETA'    EaTA'   N0_Nh   offer;tender
@@ -1954,7 +1953,8 @@ lexicon = listing "Lexicon's properties"
     -- AETy    >aEoTiy NAt     gifts;offers
 
     FaCA'                     `noun`    {- EaTA' -}            [ "gift", "offer", "gifts", "offers" ]
-                              `plural`     HaFCiL |< At |< aT,
+                              `plural`     HaFCiL |< At |< aT
+                              `plural`     HaFCI |< At |< aT,
 
     -- ;; EaTA'_3
     -- ETA'    EaTA'   N0_Nh   offer;tender
@@ -2294,8 +2294,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Eaj~-i -}           [ "shout", "resound" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; Eaj~aj_1
     -- Ejj     Eaj~aj  PV      swirl
@@ -3069,7 +3068,8 @@ lexicon = listing "Lexicon's properties"
     -- >E$y    >aEo$iy Nap     dinners;suppers
     -- AE$y    >aEo$iy Nap     dinners;suppers
 
-    FaCAL                     `noun`    {- Ea$A' -}            [ "dinner", "supper", "dinners", "suppers" ],
+    FaCAL                     `noun`    {- Ea$A' -}            [ "dinner", "supper", "dinners", "suppers" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; Ei$A'_1
     -- E$A'    Ei$A'   N0_Nh   evening
@@ -3591,7 +3591,8 @@ lexicon = listing "Lexicon's properties"
     -- >E$y    >aEo$iy Nap     dinners;suppers
     -- AE$y    >aEo$iy Nap     dinners;suppers
 
-    FaCA'                     `noun`    {- Ea$A' -}            [ "dinner", "supper", "dinners", "suppers" ],
+    FaCA'                     `noun`    {- Ea$A' -}            [ "dinner", "supper", "dinners", "suppers" ]
+                              `plural`     HaFCI |< aT,
 
     -- ;; Ei$A'_1
     -- E$A'    Ei$A'   N0_Nh   evening
@@ -4247,8 +4248,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Eab~-u -}           [ "drink", "quaff" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; Eab~_1
     -- Eb      Eab~    N       drinking;quaffing
@@ -4876,8 +4876,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Ead~-u -}           [ "count", "consider", "deem", "be counted", "be considered", "be deemed" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; Ead~ad_1
     -- Edd     Ead~ad  PV      enumerate;count
@@ -5949,8 +5948,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Eaf~-i -}           [ "refrain", "abstain" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; taEaf~af_1
     -- tEff    taEaf~af        PV      shy away;shrink away
@@ -6757,8 +6755,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Eak~-u -}           [ "be sultry", "be muggy" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; Eak~_1
     -- Ek      Eak~    N       sultriness;mugginess
@@ -8656,8 +8653,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Eam~-u -}           [ "be universal", "be prevalent" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; Eam~am_1
     -- Emm     Eam~am  PV      generalize;popularize;propagate
@@ -11083,8 +11079,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Eaq~-u -}           [ "disobey" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; Eaq~_1
     -- Eq      Eaq~    Nall    disobedient
@@ -12558,8 +12553,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Ear~-u -}           [ "disgrace", "dishonor" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; Eur~ap_1
     -- Er      Eur~    Nap     scabies;disgrace;shame
@@ -13270,8 +13264,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Eas~-u -}           [ "patrol by night", "make nocturnal rounds" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCuL,
+                              `pfirst`     FaCaL,
 
     -- ;; {iEotas~_1
     -- <Ets    {iEotas~        PV_V    patrol by night;make nocturnal rounds
@@ -13915,8 +13908,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAD-u -}            [ "compensate", "replace" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Eaw~aD_1
     -- EwD     Eaw~aD  PV      replace;compensate
@@ -14103,8 +14095,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAj-u -}            [ "make a stop" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Eaw~aj_1
     -- Ewj     Eaw~aj  PV      bend;twist
@@ -14204,8 +14195,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EA*-u -}            [ "take refuge", "seek protection" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Eaw~a*_1
     -- Ew*     Eaw~a*  PV      protect
@@ -14291,8 +14281,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAd-u -}            [ "return", "go back", "no longer" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Eaw~ad_1
     -- Ewd     Eaw~ad  PV      accustom;condition;habituate
@@ -14514,8 +14503,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAf-u -}            [ "hover", "glide" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Eawof_1
     -- Ewf     Eawof   N0      Awf;Ouf
@@ -14568,8 +14556,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAl-u -}            [ "deviate" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Eaw~al_1
     -- Ewl     Eaw~al  PV      cry out;authorize
@@ -14694,8 +14681,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAm-u -}            [ "float", "swim" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Eaw~am_1
     -- Ewm     Eaw~am  PV      launch;flood
@@ -14874,8 +14860,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAq-u -}            [ "hinder", "impede" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Eaw~aq_1
     -- Ewq     Eaw~aq  PV      hinder;impede;delay
@@ -14975,8 +14960,7 @@ lexicon = listing "Lexicon's properties"
     -- Er      Ear     IV_C    lose an eye;become one-eyed
 
     FAL                       `verb`    {- EAr-a -}            [ "lose an eye", "become one-eyed" ]
-                              `pfirst`     FiL
-                              `ithird`     FaL,
+                              `pfirst`     FiL,
 
     -- ;; Eaw~ar_1
     -- Ewr     Eaw~ar  PV      make blind in one eye
@@ -15200,8 +15184,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAz-u -}            [ "want", "need" ]
                               `imperf`     FUL
-                              `pfirst`     FuL
-                              `ithird`     FuL,
+                              `pfirst`     FuL,
 
     -- ;; Eawiz-a_1
     -- Ewz     Eawiz   PV_intr be destitute
@@ -15314,8 +15297,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EA$-i -}            [ "live", "exist", "be lived" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; Eay~a$_1
     -- Ey$     Eay~a$  PV      sustain
@@ -15438,8 +15420,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAv-i -}            [ "cause havoc", "ravage" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; Eay~av_1
     -- Eyv     Eay~av  PV      fumble;grope
@@ -15462,8 +15443,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAb-i -}            [ "be a disgrace", "be defective" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; EAb-i_2
     -- EAb     EAb     PV_V    denounce;reproach
@@ -15473,8 +15453,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAb-i -}            [ "denounce", "reproach" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; Eay~ab_1
     -- Eyb     Eay~ab  PV      disgrace;blame
@@ -15627,8 +15606,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAf-i -}            [ "loathe" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; Eayof_1
     -- Eyf     Eayof   N       loathing
@@ -15667,8 +15645,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAl-i -}            [ "be impoverished" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; Eay~al_1
     -- Eyl     Eay~al  PV      have a large family
@@ -15865,8 +15842,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- EAr-i -}            [ "wander", "rove" ]
                               `imperf`     FIL
-                              `pfirst`     FiL
-                              `ithird`     FiL,
+                              `pfirst`     FiL,
 
     -- ;; Eay~ar_1
     -- Eyr     Eay~ar  PV      reproach;insult
@@ -16683,8 +16659,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- Eaz~-i -}           [ "be strong", "be dear" ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL
-                              `ithird`     FCiL,
+                              `pfirst`     FaCaL,
 
     -- ;; Eaz~az_1
     -- Ezz     Eaz~az  PV      strengthen;reinforce
