@@ -14383,60 +14383,6 @@ $Lexicon = {
       ],
       'orig' => 'HalAF',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '.halliy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '.hallA' => {
-          'PV_h' => 1
-        },
-        '.hall' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '.hallay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '.hallY' => {}
-      },
-      'entry' => '.hallY',
-      'form' => '.hallY',
-      'lines' => [
-        ';; Hal~aY_1',
-        'HlY     Hal~aY  PV_0    sweeten;adorn;furnish',
-        'HlA     Hal~A   PV_h    sweeten;adorn;furnish',
-        'Hly     Hal~ay  PV_Atn  sweeten;adorn;furnish',
-        'Hl      Hal~    PV_ttAw sweeten;adorn;furnish',
-        'Hly     Hal~iy  IV_0hAnn_yu     sweeten;adorn;furnish',
-        'Hl      Hal~    IV_0hwnyn_yu    sweeten;adorn;furnish',
-        'HlY     Hal~aY  IV_0_Pass_yu    be sweetened;be adorned;be furnished',
-        'Hly     Hal~ay  IV_Ann_Pass_yu  be sweetened;be adorned;be furnished'
-      ],
-      'patterns' => {
-        '.halliy' => [
-          'FaCCI'
-        ],
-        '.hall' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'sweeten',
-        'adorn',
-        'furnish',
-        'be sweetened',
-        'be adorned',
-        'be furnished'
-      ],
-      'orig' => 'Hal~aY',
-      'prefix' => ''
     }
   ],
   '.h .d r m' => [
@@ -17026,58 +16972,6 @@ $Lexicon = {
         'pricks'
       ],
       'orig' => 'Humap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '.hammiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '.hammA' => {
-          'PV_h' => 1
-        },
-        '.hamm' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '.hammay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '.hammY' => {}
-      },
-      'entry' => '.hammY',
-      'form' => '.hammY',
-      'lines' => [
-        ';; Ham~aY_1',
-        'HmY     Ham~aY  PV_0    make hot;kindle',
-        'HmA     Ham~A   PV_h    make hot;kindle',
-        'Hmy     Ham~ay  PV_Atn  make hot;kindle',
-        'Hm      Ham~    PV_ttAw make hot;kindle',
-        'Hmy     Ham~iy  IV_0hAnn_yu     make hot;kindle',
-        'Hm      Ham~    IV_0hwnyn_yu    make hot;kindle',
-        'HmY     Ham~aY  IV_0_Pass_yu    be heated;be kindled',
-        'Hmy     Ham~ay  IV_Ann_Pass_yu  be heated;be kindled'
-      ],
-      'patterns' => {
-        '.hammiy' => [
-          'FaCCI'
-        ],
-        '.hamm' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'make hot',
-        'kindle',
-        'be heated',
-        'be kindled'
-      ],
-      'orig' => 'Ham~aY',
       'prefix' => ''
     }
   ],
@@ -31663,10 +31557,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '.halliy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '.hallA' => {
+          'PV_h' => 1
+        },
+        '.hall' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '.hallay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '.hallY' => {}
+      },
       'entry' => '.hallY',
       'form' => '.hallY',
-      'lines' => [],
+      'lines' => [
+        ';; Hal~aY_1',
+        'HlY     Hal~aY  PV_0    sweeten;adorn;furnish',
+        'HlA     Hal~A   PV_h    sweeten;adorn;furnish',
+        'Hly     Hal~ay  PV_Atn  sweeten;adorn;furnish',
+        'Hl      Hal~    PV_ttAw sweeten;adorn;furnish',
+        'Hly     Hal~iy  IV_0hAnn_yu     sweeten;adorn;furnish',
+        'Hl      Hal~    IV_0hwnyn_yu    sweeten;adorn;furnish',
+        'HlY     Hal~aY  IV_0_Pass_yu    be sweetened;be adorned;be furnished',
+        'Hly     Hal~ay  IV_Ann_Pass_yu  be sweetened;be adorned;be furnished'
+      ],
       'patterns' => {
         '.halliy' => [
           'FaCCiL',
@@ -31680,7 +31600,14 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'sweeten',
+        'adorn',
+        'furnish',
+        'be sweetened',
+        'be adorned',
+        'be furnished'
+      ],
       'orig' => 'Hal~aY',
       'prefix' => ''
     },
@@ -35506,10 +35433,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '.hammiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '.hammA' => {
+          'PV_h' => 1
+        },
+        '.hamm' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '.hammay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '.hammY' => {}
+      },
       'entry' => '.hammY',
       'form' => '.hammY',
-      'lines' => [],
+      'lines' => [
+        ';; Ham~aY_1',
+        'HmY     Ham~aY  PV_0    make hot;kindle',
+        'HmA     Ham~A   PV_h    make hot;kindle',
+        'Hmy     Ham~ay  PV_Atn  make hot;kindle',
+        'Hm      Ham~    PV_ttAw make hot;kindle',
+        'Hmy     Ham~iy  IV_0hAnn_yu     make hot;kindle',
+        'Hm      Ham~    IV_0hwnyn_yu    make hot;kindle',
+        'HmY     Ham~aY  IV_0_Pass_yu    be heated;be kindled',
+        'Hmy     Ham~ay  IV_Ann_Pass_yu  be heated;be kindled'
+      ],
       'patterns' => {
         '.hammiy' => [
           'FaCCiL',
@@ -35523,7 +35476,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'make hot',
+        'kindle',
+        'be heated',
+        'be kindled'
+      ],
       'orig' => 'Ham~aY',
       'prefix' => ''
     },
@@ -36508,7 +36466,7 @@ $Lexicon = {
           'PV_h' => 1
         },
         '.hwY' => {
-          'IV_0' => 1
+          'IV_0_Pass_yu' => 1
         },
         '.haway' => {
           'PV_Atn' => 1
@@ -36534,7 +36492,7 @@ $Lexicon = {
         'Hw      Haw     PV_ttAw gather;encompass;clasp',
         'Hwy     Howiy   IV_0hAnn        gather;encompass;clasp',
         'Hw      How     IV_0hwnyn       gather;encompass;clasp',
-        'HwY     HowaY   IV_0    gather;encompass;clasp'
+        'HwY     HowaY   IV_0_Pass_yu    gather;encompass;clasp'
       ],
       'patterns' => {
         '.hawA' => [
@@ -40945,10 +40903,8 @@ $Lexicon = {
         '.hiyz' => {
           'IV_V' => 1
         },
-        '.haz' => {
-          'PV_C' => 1
-        },
         '.hiz' => {
+          'PV_C' => 1,
           'IV_C' => 1
         }
       },
@@ -40957,16 +40913,13 @@ $Lexicon = {
       'lines' => [
         ';; HAz-i_1',
         'HAz     HAz     PV_V    drive on;urge on (camels)',
-        'Hz      Haz     PV_C    drive on;urge on (camels)',
+        'Hz      Hiz     PV_C    drive on;urge on (camels)',
         'Hyz     Hiyz    IV_V    drive on;urge on (camels)',
         'Hz      Hiz     IV_C    drive on;urge on (camels)'
       ],
       'patterns' => {
         '.hiyz' => [
           'FIL'
-        ],
-        '.haz' => [
-          'FaL'
         ],
         '.hiz' => [
           'FiL'
@@ -44936,7 +44889,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCLY',
+      'morphs' => 'FaCCY',
       'suffix' => '',
       'glosses' => [
         'grant a long life',
@@ -54885,27 +54838,6 @@ $Lexicon = {
       ],
       'orig' => 'maHo$a$',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.ha^s^sY',
-      'form' => '.ha^s^sY',
-      'lines' => [],
-      'patterns' => {
-        '.ha^s^s' => [
-          'FaCL'
-        ],
-        '.ha^s^siy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Ha$~aY',
-      'prefix' => ''
     }
   ],
   '.halan^g' => [
@@ -58530,12 +58462,6 @@ $Lexicon->{'.h t k'}[2]{'glosses'} = $Lexicon->{'.h k k'}[11]{'glosses'};
 $Lexicon->{'.h t k'}[3]{'types'} = $Lexicon->{'.h k k'}[12]{'types'};
 $Lexicon->{'.h t k'}[3]{'lines'} = $Lexicon->{'.h k k'}[12]{'lines'};
 $Lexicon->{'.h t k'}[3]{'glosses'} = $Lexicon->{'.h k k'}[12]{'glosses'};
-$Lexicon->{'.h l y'}[2]{'types'} = $Lexicon->{'.h l l'}[33]{'types'};
-$Lexicon->{'.h l y'}[2]{'lines'} = $Lexicon->{'.h l l'}[33]{'lines'};
-$Lexicon->{'.h l y'}[2]{'glosses'} = $Lexicon->{'.h l l'}[33]{'glosses'};
-$Lexicon->{'.h m y'}[2]{'types'} = $Lexicon->{'.h m m'}[21]{'types'};
-$Lexicon->{'.h m y'}[2]{'lines'} = $Lexicon->{'.h m m'}[21]{'lines'};
-$Lexicon->{'.h m y'}[2]{'glosses'} = $Lexicon->{'.h m m'}[21]{'glosses'};
 $Lexicon->{'.h m y'}[14]{'types'} = $Lexicon->{'.h m \''}[3]{'types'};
 $Lexicon->{'.h m y'}[14]{'lines'} = $Lexicon->{'.h m \''}[3]{'lines'};
 $Lexicon->{'.h m y'}[14]{'glosses'} = $Lexicon->{'.h m \''}[3]{'glosses'};
@@ -58645,9 +58571,6 @@ $Lexicon->{'.h y z'}[5]{'glosses'} = $Lexicon->{'.h w z'}[9]{'glosses'};
 $Lexicon->{'.h t z'}[0]{'types'} = $Lexicon->{'.h z z'}[2]{'types'};
 $Lexicon->{'.h t z'}[0]{'lines'} = $Lexicon->{'.h z z'}[2]{'lines'};
 $Lexicon->{'.h t z'}[0]{'glosses'} = $Lexicon->{'.h z z'}[2]{'glosses'};
-$Lexicon->{'.h ^s ^s'}[9]{'types'} = $Lexicon->{'.h ^s w'}[1]{'types'};
-$Lexicon->{'.h ^s ^s'}[9]{'lines'} = $Lexicon->{'.h ^s w'}[1]{'lines'};
-$Lexicon->{'.h ^s ^s'}[9]{'glosses'} = $Lexicon->{'.h ^s w'}[1]{'glosses'};
 $Lexicon->{'.h f y'}[5]{'types'} = $Lexicon->{'.h f \''}[0]{'types'};
 $Lexicon->{'.h f y'}[5]{'lines'} = $Lexicon->{'.h f \''}[0]{'lines'};
 $Lexicon->{'.h f y'}[5]{'glosses'} = $Lexicon->{'.h f \''}[0]{'glosses'};

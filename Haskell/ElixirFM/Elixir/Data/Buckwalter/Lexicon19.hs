@@ -680,19 +680,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; guTayoT_1
     -- gTyT    guTayoT Nap     fog;mist
 
-    FuCayL                    `noun`    {- guTayoT -}          [ "fog", "mist" ],
-
-    -- ;; gaT~aY_1
-    -- gTY     gaT~aY  PV_0    cover;conceal
-    -- gTA     gaT~A   PV_h    cover;conceal
-    -- gTy     gaT~ay  PV_Atn  cover;conceal
-    -- gT      gaT~    PV_ttAw cover;conceal
-    -- gTy     gaT~iy  IV_0hAnn_yu     cover;conceal
-    -- gT      gaT~    IV_0hwnyn_yu    cover;conceal
-    -- gTY     gaT~aY  IV_0_Pass_yu    be covered;be concealed
-    -- gTy     gaT~ay  IV_Ann_Pass_yu  be covered;be concealed
-
-    FaCLY                     `verb`    {- gaT~aY -}           [ "cover", "conceal", "be covered", "be concealed" ] ]
+    FuCayL                    `noun`    {- guTayoT -}          [ "fog", "mist" ] ]
 
  |> ".g .t ^s" <| [
 
@@ -1053,19 +1041,7 @@ lexicon = listing "Lexicon's properties"
     -- g$$     ga$a$   Nap     swindlers;cheaters
 
     FACL                      `noun`    {- gA$~ -}             [ "swindler", "deceptive", "swindlers", "cheaters" ]
-                              `plural`     FaCaL |< aT,
-
-    -- ;; ga$~aY_1
-    -- g$Y     ga$~aY  PV_0    cover;wrap
-    -- g$A     ga$~A   PV_h    cover;wrap
-    -- g$y     ga$~ay  PV_Atn  cover;wrap
-    -- g$      ga$~    PV_ttAw cover;wrap
-    -- g$y     ga$~iy  IV_0hAnn_yu     cover;wrap
-    -- g$      ga$~    IV_0hwnyn_yu    cover;wrap
-    -- g$Y     ga$~aY  IV_0_Pass_yu    be covered;be wrapped
-    -- g$y     ga$~ay  IV_Ann_Pass_yu  be covered;be wrapped
-
-    FaCLY                     `verb`    {- ga$~aY -}           [ "cover", "wrap", "be covered", "be wrapped" ] ]
+                              `plural`     FaCaL |< aT ]
 
  |> ".g ^s m" <| [
 
@@ -1353,20 +1329,7 @@ lexicon = listing "Lexicon's properties"
     -- <g*A*   <igo*A* N/At    hurrying;festering
     -- Ag*A*   <igo*A* N/At    hurrying;festering
 
-    HiFCAL                    `noun`    {- Iigo*A* -}          [ "hurrying", "festering" ],
-
-    -- ;; ga*~aY_1
-    -- g*Y     ga*~aY  PV_0    feed;nourish
-    -- g*A     ga*~A   PV_h    feed;nourish
-    -- g*y     ga*~ay  PV_Atn  feed;nourish
-    -- g*      ga*~    PV_ttAw feed;nourish
-    -- g*y     ga*~iy  IV_0hAnn_yu     feed;nourish
-    -- g*      ga*~    IV_0hwnyn_yu    feed;nourish
-    -- g*Y     ga*~aY  IV_0_Pass_yu    be fed;be nourished
-    -- g*y     ga*~ay  IV_Ann_Pass_yu  be fed;be nourished
-    -- g*      ga*~    IV_0hwnyn_yu    be fed;be nourished
-
-    FaCLY                     `verb`    {- ga*~aY -}           [ "feed", "nourish", "be fed", "be nourished" ] ]
+    HiFCAL                    `noun`    {- Iigo*A* -}          [ "hurrying", "festering" ] ]
 
  |> ".g _d w" <| [
 
@@ -1979,19 +1942,6 @@ lexicon = listing "Lexicon's properties"
     -- gdy     gud~iy~ N-ap    glandular     [[gud~iy~/ADJ]]
 
     FuCL |< Iy                `adj`     {- gud~iy~ -}          [ "glandular" ],
-
-    -- ;; gad~aY_1
-    -- gdY     gad~aY  PV_0    give breakfast
-    -- gdA     gad~A   PV_h    give breakfast
-    -- gdy     gad~ay  PV_Atn  give breakfast
-    -- gd      gad~    PV_ttAw give breakfast
-    -- gdy     gad~iy  IV_0hAnn_yu     give breakfast
-    -- gd      gad~    IV_0hwnyn_yu    give breakfast
-    -- gdY     gad~aY  IV_0_Pass_yu    be fed breakfast
-    -- gdy     gad~ay  IV_Ann_Pass_yu  be fed breakfast
-    -- gd      gad~    IV_0hwnyn_yu    be fed breakfast
-
-    FaCLY                     `verb`    {- gad~aY -}           [ "give breakfast", "be fed breakfast" ],
 
     -- ;; gadAF_1
     -- gdA     gadAF   FW-WaBi tomorrow     [[gadAF/ADV]]
@@ -3149,19 +3099,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; musotagal~_1
     -- mstgl   musotagal~      N-ap    exploited;cultivated     [[musotagal~/ADJ]]
 
-    MustaFaCL                 `adj`     {- musotagal~ -}       [ "exploited", "cultivated" ],
-
-    -- ;; gal~aY_1
-    -- glY     gal~aY  PV_0    boil
-    -- glA     gal~A   PV_h    boil
-    -- gly     gal~ay  PV_Atn  boil
-    -- gl      gal~    PV_ttAw boil
-    -- gly     gal~iy  IV_0hAnn_yu     boil
-    -- gl      gal~    IV_0hwnyn_yu    boil
-    -- glY     gal~aY  IV_0_Pass_yu    be boiled
-    -- gly     gal~ay  IV_Ann_Pass_yu  be boiled
-
-    FaCLY                     `verb`    {- gal~aY -}           [ "boil", "be boiled" ] ]
+    MustaFaCL                 `adj`     {- musotagal~ -}       [ "exploited", "cultivated" ] ]
 
  |> ".g l m" <| [
 
@@ -3946,20 +3884,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mugim~_2
     -- mgm     mugim~  N-ap    overcast     [[mugim~/ADJ]]
 
-    MuFiCL                    `adj`     {- mugim~ -}           [ "overcast" ],
-
-    -- ;; gam~aY_1
-    -- gmY     gam~aY  PV_0    blindfold
-    -- gmA     gam~A   PV_h    blindfold
-    -- gmy     gam~ay  PV_Atn  blindfold
-    -- gm      gam~    PV_ttAw blindfold
-    -- gmy     gam~iy  IV_0hAnn_yu     blindfold
-    -- gm      gam~    IV_0hwnyn_yu    blindfold
-    -- gmY     gam~aY  IV_0_Pass_yu    be blindfolded
-    -- gmy     gam~ay  IV_Ann_Pass_yu  be blindfolded
-    -- gm      gam~    IV_0hwnyn_yu    be blindfolded
-
-    FaCLY                     `verb`    {- gam~aY -}           [ "blindfold", "be blindfolded" ] ]
+    MuFiCL                    `adj`     {- mugim~ -}           [ "overcast" ] ]
 
  |> ".g m q" <| [
 
@@ -4598,19 +4523,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mugin~_1
     -- mgn     mugin~  Nall    buzzing;droning     [[mugin~/ADJ]]
 
-    MuFiCL                    `adj`     {- mugin~ -}           [ "buzzing", "droning" ],
-
-    -- ;; gan~aY_1
-    -- gnY     gan~aY  PV_0    sing
-    -- gnA     gan~A   PV_h    sing
-    -- gny     gan~ay  PV_Atn  sing
-    -- gn      gan~    PV_ttAw sing
-    -- gny     gan~iy  IV_0hAnn_yu     sing
-    -- gn      gan~    IV_0hwnyn_yu    sing
-    -- gnY     gan~aY  IV_0_Pass_yu    be sung
-    -- gny     gan~ay  IV_Ann_Pass_yu  be sung
-
-    FaCLY                     `verb`    {- gan~aY -}           [ "sing", "be sung" ] ]
+    MuFiCL                    `adj`     {- mugin~ -}           [ "buzzing", "droning" ] ]
 
  |> ".g n r" <| [
 
@@ -5742,19 +5655,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mugotar~_1
     -- mgtr    mugotar~        Nall    conceited;vain     [[mugotar~/ADJ]]
 
-    MuFtaCL                   `adj`     {- mugotar~ -}         [ "conceited", "vain" ],
-
-    -- ;; gar~aY_1
-    -- grY     gar~aY  PV_0    glue
-    -- grA     gar~A   PV_h    glue
-    -- gry     gar~ay  PV_Atn  glue
-    -- gr      gar~    PV_ttAw glue
-    -- gry     gar~iy  IV_0hAnn_yu     glue
-    -- gr      gar~    IV_0hwnyn_yu    glue
-    -- grY     gar~aY  IV_0_Pass_yu    be glued
-    -- gry     gar~ay  IV_Ann_Pass_yu  be glued
-
-    FaCLY                     `verb`    {- gar~aY -}           [ "glue", "be glued" ] ]
+    MuFtaCL                   `adj`     {- mugotar~ -}         [ "conceited", "vain" ] ]
 
  |> ".g r s" <| [
 
@@ -6772,19 +6673,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; guw_1
     -- gw      guw     FW      Gou;Gu     [[guw/NOUN_PROP]]
 
-    FuL                       `noun`    {- guw -}              [ "Gou", "Gu" ],
-
-    -- ;; gaw~aY_1
-    -- gwY     gaw~aY  PV_0    mislead;seduce
-    -- gwA     gaw~A   PV_h    mislead;seduce
-    -- gwy     gaw~ay  PV_Atn  mislead;seduce
-    -- gw      gaw~    PV_ttAw mislead;seduce
-    -- gwy     gaw~iy  IV_0hAnn_yu     mislead;seduce
-    -- gw      gaw~    IV_0hwnyn_yu    mislead;seduce
-    -- gwY     gaw~aY  IV_0_Pass_yu    be mislead;be seduced
-    -- gwy     gaw~ay  IV_Ann_Pass_yu  be mislead;seduced
-
-    FaCLY                     `verb`    {- gaw~aY -}           [ "mislead", "seduce", "be mislead", "be seduced", "seduced" ] ]
+    FuL                       `noun`    {- guw -}              [ "Gou", "Gu" ] ]
 
  |> ".g w y" <| [
 

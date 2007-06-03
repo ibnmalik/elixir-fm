@@ -1989,58 +1989,6 @@ $Lexicon = {
       ],
       'orig' => 'vun~ap',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '_tannA' => {
-          'PV_h' => 1
-        },
-        '_tannay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '_tann' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '_tanniy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '_tannY' => {}
-      },
-      'entry' => '_tannY',
-      'form' => '_tannY',
-      'lines' => [
-        ';; van~aY_1',
-        'vnY     van~aY  PV_0    fold;double',
-        'vnA     van~A   PV_h    fold;double',
-        'vny     van~ay  PV_Atn  fold;double',
-        'vn      van~    PV_ttAw fold;double',
-        'vny     van~iy  IV_0hAnn_yu     fold;double',
-        'vn      van~    IV_0hwnyn_yu    fold;double',
-        'vnY     van~aY  IV_0_Pass_yu    be folded;be doubled',
-        'vny     van~ay  IV_Ann_Pass_yu  be folded;be doubled'
-      ],
-      'patterns' => {
-        '_tann' => [
-          'FaCL'
-        ],
-        '_tanniy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'fold',
-        'double',
-        'be folded',
-        'be doubled'
-      ],
-      'orig' => 'van~aY',
-      'prefix' => ''
     }
   ],
   '_tuwriyuwm' => [
@@ -3716,10 +3664,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '_tannA' => {
+          'PV_h' => 1
+        },
+        '_tannay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '_tann' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '_tanniy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '_tannY' => {}
+      },
       'entry' => '_tannY',
       'form' => '_tannY',
-      'lines' => [],
+      'lines' => [
+        ';; van~aY_1',
+        'vnY     van~aY  PV_0    fold;double',
+        'vnA     van~A   PV_h    fold;double',
+        'vny     van~ay  PV_Atn  fold;double',
+        'vn      van~    PV_ttAw fold;double',
+        'vny     van~iy  IV_0hAnn_yu     fold;double',
+        'vn      van~    IV_0hwnyn_yu    fold;double',
+        'vnY     van~aY  IV_0_Pass_yu    be folded;be doubled',
+        'vny     van~ay  IV_Ann_Pass_yu  be folded;be doubled'
+      ],
       'patterns' => {
         '_tannay' => [
           'FaCCaL'
@@ -3733,7 +3707,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'fold',
+        'double',
+        'be folded',
+        'be doubled'
+      ],
       'orig' => 'van~aY',
       'prefix' => ''
     },
@@ -9665,27 +9644,6 @@ $Lexicon = {
       'glosses' => [],
       'orig' => 'vuw~ap',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_tawwY',
-      'form' => '_tawwY',
-      'lines' => [],
-      'patterns' => {
-        '_tawwiy' => [
-          'FaCCI'
-        ],
-        '_taww' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'vaw~aY',
-      'prefix' => ''
     }
   ],
   'lilAi_tnatayni' => [
@@ -10814,9 +10772,6 @@ $Lexicon->{'_t w y'}[2]{'imperf'} = $Lexicon->{'_t w y'}[1]{'imperf'};
 $Lexicon->{'_t d y \''}[0]{'types'} = $Lexicon->{'_t d y'}[1]{'types'};
 $Lexicon->{'_t d y \''}[0]{'lines'} = $Lexicon->{'_t d y'}[1]{'lines'};
 $Lexicon->{'_t d y \''}[0]{'glosses'} = $Lexicon->{'_t d y'}[1]{'glosses'};
-$Lexicon->{'_t n y'}[4]{'types'} = $Lexicon->{'_t n n'}[1]{'types'};
-$Lexicon->{'_t n y'}[4]{'lines'} = $Lexicon->{'_t n n'}[1]{'lines'};
-$Lexicon->{'_t n y'}[4]{'glosses'} = $Lexicon->{'_t n n'}[1]{'glosses'};
 $Lexicon->{'_t .g \''}[0]{'types'} = $Lexicon->{'_t .g w'}[1]{'types'};
 $Lexicon->{'_t .g \''}[0]{'lines'} = $Lexicon->{'_t .g w'}[1]{'lines'};
 $Lexicon->{'_t .g \''}[0]{'glosses'} = $Lexicon->{'_t .g w'}[1]{'glosses'};
@@ -10859,9 +10814,6 @@ $Lexicon->{'_t k l'}[3]{'glosses'} = $Lexicon->{'_t k l n'}[0]{'glosses'};
 $Lexicon->{'_t w w'}[1]{'types'} = $Lexicon->{'_t w w'}[0]{'types'};
 $Lexicon->{'_t w w'}[1]{'lines'} = $Lexicon->{'_t w w'}[0]{'lines'};
 $Lexicon->{'_t w w'}[1]{'glosses'} = $Lexicon->{'_t w w'}[0]{'glosses'};
-$Lexicon->{'_t w w'}[2]{'types'} = $Lexicon->{'_t w y'}[3]{'types'};
-$Lexicon->{'_t w w'}[2]{'lines'} = $Lexicon->{'_t w y'}[3]{'lines'};
-$Lexicon->{'_t w w'}[2]{'glosses'} = $Lexicon->{'_t w y'}[3]{'glosses'};
 $Lexicon->{'_t ` b'}[2]{'types'} = $Lexicon->{'_t ` b n'}[0]{'types'};
 $Lexicon->{'_t ` b'}[2]{'lines'} = $Lexicon->{'_t ` b n'}[0]{'lines'};
 $Lexicon->{'_t ` b'}[2]{'glosses'} = $Lexicon->{'_t ` b n'}[0]{'glosses'};

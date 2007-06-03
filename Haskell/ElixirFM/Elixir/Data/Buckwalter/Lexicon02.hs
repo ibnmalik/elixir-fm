@@ -5854,19 +5854,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bak~ap_1
     -- bkp     bak~ap  N0      Bakka (ancient name of Mecca)
 
-    FaCL |< aT                `noun`    {- bak~ap -}           [ "Bakka (ancient name of Mecca)" ],
-
-    -- ;; bak~aY_1
-    -- bkY     bak~aY  PV_0    make cry
-    -- bkA     bak~A   PV_h    make cry
-    -- bky     bak~ay  PV_Atn  make cry
-    -- bk      bak~    PV_ttAw make cry
-    -- bky     bak~iy  IV_0hAnn_yu     make cry
-    -- bk      bak~    IV_0hwnyn_yu    make cry
-    -- bkY     bak~aY  IV_0_Pass_yu    be made to cry
-    -- bky     bak~ay  IV_Ann_Pass_yu  be made to cry
-
-    FaCLY                     `verb`    {- bak~aY -}           [ "make cry", "be made to cry" ] ]
+    FaCL |< aT                `noun`    {- bak~ap -}           [ "Bakka (ancient name of Mecca)" ] ]
 
  |> "b k l" <| [
 

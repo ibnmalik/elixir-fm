@@ -477,19 +477,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mumiD~_1
     -- mmD     mumiD~  Nall    agonizing;tormenting     [[mumiD~/ADJ]]
 
-    MuFiCL                    `adj`     {- mumiD~ -}           [ "agonizing", "tormenting" ],
-
-    -- ;; maD~aY_1
-    -- mDY     maD~aY  PV_0    spend
-    -- mDA     maD~A   PV_h    spend
-    -- mDy     maD~ay  PV_Atn  spend
-    -- mD      maD~    PV_ttAw spend
-    -- mDy     maD~iy  IV_0hAnn_yu     spend
-    -- mD      maD~    IV_0hwnyn_yu    spend
-    -- mDY     maD~aY  IV_0_Pass_yu    be spent
-    -- mDy     maD~ay  IV_Ann_Pass_yu  be spent
-
-    FaCLY                     `verb`    {- maD~aY -}           [ "spend", "be spent" ] ]
+    MuFiCL                    `adj`     {- mumiD~ -}           [ "agonizing", "tormenting" ] ]
 
  |> "m .d .g" <| [
 
@@ -985,19 +973,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muH~_1
     -- mH      muH~    N       quintessence;egg yolk
 
-    FuCL                      `noun`    {- muH~ -}             [ "quintessence", "egg yolk" ],
-
-    -- ;; maH~aY_1
-    -- mHY     maH~aY  PV_0    wipe out;eradicate;exterminate
-    -- mHA     maH~A   PV_h    wipe out;eradicate;exterminate
-    -- mHy     maH~ay  PV_Atn  wipe out;eradicate;exterminate
-    -- mH      maH~    PV_ttAw wipe out;eradicate;exterminate
-    -- mHy     maH~iy  IV_0hAnn_yu     wipe out;eradicate;exterminate
-    -- mH      maH~    IV_0hwnyn_yu    wipe out;eradicate;exterminate
-    -- mHY     maH~aY  IV_0_Pass_yu    be wipped out;be eradicated;be exterminated
-    -- mHy     maH~ay  IV_Ann_Pass_yu  be wipped out;be eradicated;be exterminated
-
-    FaCLY                     `verb`    {- maH~aY -}           [ "wipe out", "eradicate", "exterminate", "be wipped out", "be eradicated", "be exterminated" ] ]
+    FuCL                      `noun`    {- muH~ -}             [ "quintessence", "egg yolk" ] ]
 
  |> "m .h .s" <| [
 
@@ -2325,18 +2301,6 @@ lexicon = listing "Lexicon's properties"
     -- m$w$    ma$uw$  N       napkin
 
     FaCUL                     `noun`    {- ma$uw$ -}           [ "napkin" ],
-
-    -- ;; ma$~aY_1
-    -- m$Y     ma$~aY  PV_0    make walk;adjust
-    -- m$A     ma$~A   PV_h    make walk;adjust
-    -- m$y     ma$~ay  PV_Atn  make walk;adjust
-    -- m$      ma$~    PV_ttAw make walk;adjust
-    -- m$y     ma$~iy  IV_0hAnn_yu     make walk;adjust
-    -- m$      ma$~    IV_0hwnyn_yu    make walk;adjust
-    -- m$Y     ma$~aY  IV_0_Pass_yu    be made to walk;be adjusted
-    -- m$y     ma$~ay  IV_Ann_Pass_yu  be made to walk;be adjusted
-
-    FaCLY                     `verb`    {- ma$~aY -}           [ "make walk", "adjust", "be made to walk", "be adjusted" ],
 
     -- ;; ma$~A'_1
     -- m$A'    ma$~A'  N0_Nh   walker
@@ -5571,17 +5535,7 @@ lexicon = listing "Lexicon's properties"
     -- mlY     mul~aY  N0      bread
     -- mlA     mul~A   Nhy     bread
 
-    FuCLY                     `noun`    {- mul~aY -}           [ "bread" ],
-
-    -- ;; mal~aY_1
-    -- mlY     mal~aY  PV_0    entertain;make enjoy
-    -- mlA     mal~A   PV_h    entertain;make enjoy
-    -- mly     mal~ay  PV_Atn  entertain;make enjoy
-    -- mly     mal~iy  IV_0hAnn_yu     entertain;make enjoy
-    -- mlY     mal~aY  IV_0_Pass_yu    be entertained
-    -- mly     mal~ay  IV_Ann_Pass_yu  be entertained
-
-    FaCLY                     `verb`    {- mal~aY -}           [ "entertain", "make enjoy", "be entertained" ] ]
+    FuCLY                     `noun`    {- mul~aY -}           [ "bread" ] ]
 
  |> "m l m l" <| [
 
@@ -6257,19 +6211,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; man_2
     -- mn      man     FW-WaBi who/whom   [[man/INTERROG_PART]]
 
-    FaL                       `noun`    {- man -}              [ "who/whom" ],
-
-    -- ;; man~aY_1
-    -- mnY     man~aY  PV_0    arouse;raise hopes
-    -- mnA     man~A   PV_h    arouse;raise hopes
-    -- mny     man~ay  PV_Atn  arouse;raise hopes
-    -- mn      man~    PV_ttAw arouse;raise hopes
-    -- mny     man~iy  IV_0hAnn_yu     arouse;raise hopes
-    -- mn      man~    IV_0hwnyn_yu    arouse;raise hopes
-    -- mnY     man~aY  IV_0_Pass_yu    be heartened;be given hope
-    -- mny     man~ay  IV_Ann_Pass_yu  be heartened;be given hope
-
-    FaCLY                     `verb`    {- man~aY -}           [ "arouse", "raise hopes", "be heartened", "be given hope" ] ]
+    FaL                       `noun`    {- man -}              [ "who/whom" ] ]
 
  |> "m n t l" <| [
 
@@ -8325,20 +8267,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mumAs~_1
     -- mmAs    mumAs~  N       tangent
 
-    MuFACL                    `noun`    {- mumAs~ -}           [ "tangent" ],
-
-    -- ;; mas~aY_1
-    -- msY     mas~aY  PV_0    wish good evening
-    -- msA     mas~A   PV_h    wish good evening
-    -- msy     mas~ay  PV_Atn  wish good evening
-    -- ms      mas~    PV_ttAw wish good evening
-    -- msy     mas~iy  IV_0hAnn_yu     wish good evening
-    -- ms      mas~    IV_0hwnyn_yu    wish good evening
-    -- msY     mas~aY  IV_0_Pass_yu    be wished good evening
-    -- msy     mas~ay  IV_Ann_Pass_yu  be wished good evening
-    -- ms      mas~    IV_0hwnyn_yu    be wished good evening
-
-    FaCLY                     `verb`    {- mas~aY -}           [ "wish good evening", "be wished good evening" ] ]
+    MuFACL                    `noun`    {- mumAs~ -}           [ "tangent" ] ]
 
  |> "m s w" <| [
 

@@ -97,9 +97,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- gaT~-u -}           [ "immerse", "dip", "plunge" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL,
-
-    FaCLY                     `verb`    {- gaT~aY -}           [ "cover", "conceal", "be covered", "be concealed" ] ]
+                              `pfirst`     FaCaL ]
 
  |> ".g .t r s" <| [
 
@@ -151,10 +149,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCI |< aT,
 
     FiCAL |< Iy               `adj`     {- gi*A}iy~ -}         [ "food", "alimentary", "nutritional" ] ]
-
- |> ".g _d _d" <| [
-
-    FaCLY                     `verb`    {- ga*~aY -}           [ "feed", "nourish", "be fed", "be nourished" ] ]
 
  |> ".g _d w" <| [
 
@@ -422,10 +416,6 @@ lexicon = listing "Lexicon's properties"
     FACiL                     `noun`    {- gAnim -}            [ "successful" ],
 
     IFtiCAL                   `noun`    {- AigotinAm -}        [ "profiting from", "seizing (opportunity)" ] ]
-
- |> ".g n n" <| [
-
-    FaCLY                     `verb`    {- gan~aY -}           [ "sing", "be sung" ] ]
 
  |> ".g n y" <| [
 

@@ -23349,56 +23349,6 @@ $Lexicon = {
       ],
       'orig' => 'bak~ap',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'bakkA' => {
-          'PV_h' => 1
-        },
-        'bakkY' => {},
-        'bakkay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'bakkiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'bakk' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        }
-      },
-      'entry' => 'bakkY',
-      'form' => 'bakkY',
-      'lines' => [
-        ';; bak~aY_1',
-        'bkY     bak~aY  PV_0    make cry',
-        'bkA     bak~A   PV_h    make cry',
-        'bky     bak~ay  PV_Atn  make cry',
-        'bk      bak~    PV_ttAw make cry',
-        'bky     bak~iy  IV_0hAnn_yu     make cry',
-        'bk      bak~    IV_0hwnyn_yu    make cry',
-        'bkY     bak~aY  IV_0_Pass_yu    be made to cry',
-        'bky     bak~ay  IV_Ann_Pass_yu  be made to cry'
-      ],
-      'patterns' => {
-        'bakk' => [
-          'FaCL'
-        ],
-        'bakkiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'make cry',
-        'be made to cry'
-      ],
-      'orig' => 'bak~aY',
-      'prefix' => ''
     }
   ],
   'b s b s' => [
@@ -36038,10 +35988,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'bakkA' => {
+          'PV_h' => 1
+        },
+        'bakkY' => {},
+        'bakkay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'bakkiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'bakk' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        }
+      },
       'entry' => 'bakkY',
       'form' => 'bakkY',
-      'lines' => [],
+      'lines' => [
+        ';; bak~aY_1',
+        'bkY     bak~aY  PV_0    make cry',
+        'bkA     bak~A   PV_h    make cry',
+        'bky     bak~ay  PV_Atn  make cry',
+        'bk      bak~    PV_ttAw make cry',
+        'bky     bak~iy  IV_0hAnn_yu     make cry',
+        'bk      bak~    IV_0hwnyn_yu    make cry',
+        'bkY     bak~aY  IV_0_Pass_yu    be made to cry',
+        'bky     bak~ay  IV_Ann_Pass_yu  be made to cry'
+      ],
       'patterns' => {
         'bakkiy' => [
           'FaCCI'
@@ -36051,7 +36027,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'make cry',
+        'be made to cry'
+      ],
       'orig' => 'bak~aY',
       'prefix' => ''
     },
@@ -67357,9 +67336,6 @@ $Lexicon->{'b k \''}[2]{'types'} = $Lexicon->{'b k y'}[0]{'types'};
 $Lexicon->{'b k \''}[2]{'lines'} = $Lexicon->{'b k y'}[0]{'lines'};
 $Lexicon->{'b k \''}[2]{'glosses'} = $Lexicon->{'b k y'}[0]{'glosses'};
 $Lexicon->{'b k \''}[2]{'imperf'} = $Lexicon->{'b k y'}[0]{'imperf'};
-$Lexicon->{'b k \''}[3]{'types'} = $Lexicon->{'b k k'}[2]{'types'};
-$Lexicon->{'b k \''}[3]{'lines'} = $Lexicon->{'b k k'}[2]{'lines'};
-$Lexicon->{'b k \''}[3]{'glosses'} = $Lexicon->{'b k k'}[2]{'glosses'};
 $Lexicon->{'b k \''}[10]{'types'} = $Lexicon->{'b k y'}[1]{'types'};
 $Lexicon->{'b k \''}[10]{'lines'} = $Lexicon->{'b k y'}[1]{'lines'};
 $Lexicon->{'b k \''}[10]{'glosses'} = $Lexicon->{'b k y'}[1]{'glosses'};

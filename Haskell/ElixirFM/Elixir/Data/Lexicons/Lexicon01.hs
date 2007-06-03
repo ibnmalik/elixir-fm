@@ -233,8 +233,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "' _h r" <| [
 
-    FaCCiL                    `verb`    {- Wax~ir -}           [ "delay", "postpone", "be delayed", "be postponed" ],
-
     TaFaCCaL                  `verb`    {- taOax~ar -}         [ "be delayed", "be postponed" ],
 
     FACaL                     `adj`     {- \|xar -}            [ "other", "another", "latest" ],
@@ -458,9 +456,7 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `verb`    {- Oad~-ui -}          [ "befall", "afflict" ]
                               `imperf`     FiCL
                               `imperf`     FuCL
-                              `pfirst`     FaCaL,
-
-    FaCLY                     `verb`    {- Oad~aY -}           [ "direct", "guide", "lead", "be directed", "be guided", "be lead" ] ]
+                              `pfirst`     FaCaL ]
 
  |> "' d m" <| [
 
@@ -1447,10 +1443,6 @@ lexicon = listing "Lexicon's properties"
  |> "' w t w" <| [
 
     KuRDuS                    `noun`    {- Ouwtuw -}           [ "Otto" ] ]
-
- |> "' w w" <| [
-
-    FaCLY                     `verb`    {- Oaw~aY -}           [ "shelter", "lodge", "be sheltered", "be lodged" ] ]
 
  |> "' w y" <| [
 

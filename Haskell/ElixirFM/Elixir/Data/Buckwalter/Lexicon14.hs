@@ -470,19 +470,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muSaH~iH_1
     -- mSHH    muSaH~iH        N-ap    correcting;corrective
 
-    MuFaCCiL                  `noun`    {- muSaH~iH -}         [ "correcting", "corrective" ],
-
-    -- ;; SaH~aY_1
-    -- SHY     SaH~aY  PV_0    awaken;rouse
-    -- SHA     SaH~A   PV_h    awaken;rouse
-    -- SHy     SaH~ay  PV_Atn  awaken;rouse
-    -- SH      SaH~    PV_ttAw awaken;rouse
-    -- SHy     SaH~iy  IV_0hAnn_yu     awaken;rouse
-    -- SH      SaH~    IV_0hwnyn_yu    awaken;rouse
-    -- SHY     SaH~aY  IV_0_Pass_yu    be awakened;be roused
-    -- SHy     SaH~ay  IV_Ann_Pass_yu  be awakened;be roused
-
-    FaCLY                     `verb`    {- SaH~aY -}           [ "awaken", "rouse", "be awakened", "be roused" ] ]
+    MuFaCCiL                  `noun`    {- muSaH~iH -}         [ "correcting", "corrective" ] ]
 
  |> ".s .h b" <| [
 
@@ -1715,18 +1703,6 @@ lexicon = listing "Lexicon's properties"
 
     InFiCAL                   `noun`    {- AinoSibAb -}        [ "pouring out", "throwing out" ],
 
-    -- ;; Sab~aY_1
-    -- SbY     Sab~aY  PV_0    rejuvenate
-    -- SbA     Sab~A   PV_h    rejuvenate
-    -- Sby     Sab~ay  PV_Atn  rejuvenate
-    -- Sb      Sab~    PV_ttAw rejuvenate
-    -- Sby     Sab~iy  IV_0hAnn_yu     rejuvenate
-    -- Sb      Sab~    IV_0hwnyn_yu    rejuvenate
-    -- SbY     Sab~aY  IV_0_Pass_yu    be rejuvenated
-    -- Sby     Sab~ay  IV_Ann_Pass_yu  be rejuvenated
-
-    FaCLY                     `verb`    {- Sab~aY -}           [ "rejuvenate", "be rejuvenated" ],
-
     -- ;; Sab_1
     -- Sb      Sab     NF      east wind     [[Sab/NOUN]]
     -- SbA     SabA    N0      east wind
@@ -2331,19 +2307,7 @@ lexicon = listing "Lexicon's properties"
     -- <SdAd   <iSodAd N/At    suppuration
     -- ASdAd   <iSodAd N/At    suppuration
 
-    HiFCAL                    `noun`    {- IiSodAd -}          [ "suppuration" ],
-
-    -- ;; Sad~aY_1
-    -- SdY     Sad~aY  PV_0    echo
-    -- SdA     Sad~A   PV_h    echo
-    -- Sdy     Sad~ay  PV_Atn  echo
-    -- Sd      Sad~    PV_ttAw echo
-    -- Sdy     Sad~iy  IV_0hAnn_yu     echo
-    -- Sd      Sad~    IV_0hwnyn_yu    echo
-    -- SdY     Sad~aY  IV_0_Pass_yu    be echoed
-    -- Sdy     Sad~ay  IV_Ann_Pass_yu  be echoed
-
-    FaCLY                     `verb`    {- Sad~aY -}           [ "echo", "be echoed" ] ]
+    HiFCAL                    `noun`    {- IiSodAd -}          [ "suppuration" ] ]
 
  |> ".s d f" <| [
 
@@ -3262,18 +3226,6 @@ lexicon = listing "Lexicon's properties"
     -- mSfwf   maSofuwf        NapAt   matrix
 
     MaFCUL |< aT              `noun`    {- maSofuwfap -}       [ "matrix" ],
-
-    -- ;; Saf~aY_1
-    -- SfY     Saf~aY  PV_0    clarify;purify;liquidate
-    -- SfA     Saf~A   PV_h    clarify;purify;liquidate
-    -- Sfy     Saf~ay  PV_Atn  clarify;purify;liquidate
-    -- Sf      Saf~    PV_ttAw clarify;purify;liquidate
-    -- Sfy     Saf~iy  IV_0hAnn_yu     clarify;purify;liquidate
-    -- Sf      Saf~    IV_0hwnyn_yu    clarify;purify;liquidate
-    -- SfY     Saf~aY  IV_0_Pass_yu    be purified;be liquidated
-    -- Sfy     Saf~ay  IV_Ann_Pass_yu  be purified;be liquidated
-
-    FaCLY                     `verb`    {- Saf~aY -}           [ "clarify", "purify", "liquidate", "be purified", "be liquidated" ],
 
     -- ;; SafAF_1
     -- SfA     SafAF   FW-WaBi stones;rocks     [[SafAF/NOUN]]
@@ -4756,18 +4708,6 @@ lexicon = listing "Lexicon's properties"
     HaFCAL                    `noun`    {- OaSolAl -}          [ "vipers" ]
                               `plural`     FiCAL
                            {- `others`  [ ".silAl N" ] -},
-
-    -- ;; Sal~aY_1
-    -- SlY     Sal~aY  PV_0    pray;worship
-    -- SlA     Sal~A   PV_h    pray;worship
-    -- Sly     Sal~ay  PV_Atn  pray;worship
-    -- Sl      Sal~    PV_ttAw pray;worship
-    -- Sly     Sal~iy  IV_0hAnn_yu     pray;worship
-    -- Sl      Sal~    IV_0hwnyn_yu    pray;worship
-    -- SlY     Sal~aY  IV_0_Pass_yu    be worshiped;be prayed
-    -- Sly     Sal~ay  IV_Ann_Pass_yu  be worshiped;be prayed
-
-    FaCLY                     `verb`    {- Sal~aY -}           [ "pray", "worship", "be worshiped", "be prayed" ],
 
     -- ;; SalAt_1
     -- SlAt    SalAt   Nprop   Salat
@@ -6700,18 +6640,7 @@ lexicon = listing "Lexicon's properties"
     -- SwS     SuwS    Ndu     chick
     -- SySAn   SiySAn  N       chicks
 
-    FuCL                      `noun`    {- SuwS -}             [ "chick", "chicks" ],
-
-    -- ;; SawoSaY_1
-    -- SwSY    SawoSaY PV_0    squeak;cheep
-    -- SwSA    SawoSA  PV_h    squeak;cheep
-    -- SwSy    SawoSay PV_Atn  squeak;cheep
-    -- SwS     SawoSa  PV_ttAw squeak;cheep
-    -- SwSy    SawoSiy IV_0hAnn_yu     squeak;cheep
-    -- SwS     SawoS   IV_0hwnyn       squeak;cheep
-    -- SwSY    SawoSaY IV_0    squeak;cheep
-
-    FaCLY                     `verb`    {- SawoSaY -}          [ "squeak", "cheep" ] ]
+    FuCL                      `noun`    {- SuwS -}             [ "chick", "chicks" ] ]
 
  |> ".s w ^g" <| [
 
@@ -7836,6 +7765,19 @@ lexicon = listing "Lexicon's properties"
     -- SrdA    SarodA  Nprop   Sarda
 
     Identity                  `noun`    {- SarodA -}           [ "Sarda" ] ]
+
+ |> ".saw.sY" <| [
+
+    -- ;; SawoSaY_1
+    -- SwSY    SawoSaY PV_0    squeak;cheep
+    -- SwSA    SawoSA  PV_h    squeak;cheep
+    -- SwSy    SawoSay PV_Atn  squeak;cheep
+    -- SwS     SawoSa  PV_ttAw squeak;cheep
+    -- SwSy    SawoSiy IV_0hAnn_yu     squeak;cheep
+    -- SwS     SawoS   IV_0hwnyn       squeak;cheep
+    -- SwSY    SawoSaY IV_0    squeak;cheep
+
+    Identity                  `verb`    {- SawoSaY -}          [ "squeak", "cheep" ] ]
 
  |> ".sawla^gAn" <| [
 

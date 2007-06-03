@@ -392,19 +392,7 @@ lexicon = listing "Lexicon's properties"
     -- nD      naD~    N       hard cash
     -- nD      naD~    NF      in cash     [[naD~/ADV]]
 
-    FaCL                      `noun`    {- naD~ -}             [ "hard cash", "in cash" ],
-
-    -- ;; naD~aY_1
-    -- nDY     naD~aY  PV_0    take off;strip
-    -- nDA     naD~A   PV_h    take off;strip
-    -- nDy     naD~ay  PV_Atn  take off;strip
-    -- nD      naD~    PV_ttAw take off;strip
-    -- nDy     naD~iy  IV_0hAnn_yu     take off;strip
-    -- nD      naD~    IV_0hwnyn_yu    take off;strip
-    -- nDY     naD~aY  IV_0_Pass_yu    be stripped
-    -- nDy     naD~ay  IV_Ann_Pass_yu  be stripped
-
-    FaCLY                     `verb`    {- naD~aY -}           [ "take off", "strip", "be stripped" ] ]
+    FaCL                      `noun`    {- naD~ -}             [ "hard cash", "in cash" ] ]
 
  |> "n .d .h" <| [
 
@@ -1061,19 +1049,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; naH~At_2
     -- nHAt    naH~At  N0      Nahhat
 
-    FaCL |< At                `noun`    {- naH~At -}           [ "Nahhat" ],
-
-    -- ;; naH~aY_1
-    -- nHY     naH~aY  PV_0    put aside;eliminate
-    -- nHA     naH~A   PV_h    put aside;eliminate
-    -- nHy     naH~ay  PV_Atn  put aside;eliminate
-    -- nH      naH~    PV_ttAw put aside;eliminate
-    -- nHy     naH~iy  IV_0hAnn_yu     put aside;eliminate
-    -- nH      naH~    IV_0hwnyn_yu    put aside;eliminate
-    -- nHY     naH~aY  IV_0_Pass_yu    be put aside;be eliminated
-    -- nHy     naH~ay  IV_Ann_Pass_yu  be put aside;be eliminated
-
-    FaCLY                     `verb`    {- naH~aY -}           [ "put aside", "eliminate", "be put aside", "be eliminated" ] ]
+    FaCL |< At                `noun`    {- naH~At -}           [ "Nahhat" ] ]
 
  |> "n .h b" <| [
 
@@ -3410,18 +3386,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "n ^g ^g" <| [
 
-    -- ;; naj~aY_1
-    -- njY     naj~aY  PV_0    rescue
-    -- njA     naj~A   PV_h    rescue
-    -- njy     naj~ay  PV_Atn  rescue
-    -- nj      naj~    PV_ttAw rescue
-    -- njy     naj~iy  IV_0hAnn_yu     rescue
-    -- nj      naj~    IV_0hwnyn_yu    rescue
-    -- njY     naj~aY  IV_0_Pass_yu    be rescued
-    -- njy     naj~ay  IV_Ann_Pass_yu  be rescued
-
-    FaCLY                     `verb`    {- naj~aY -}           [ "rescue", "be rescued" ],
-
     -- ;; najAF_1
     -- njA     najAF   FW-WaBi rescue;survival;escape;salvation     [[najAF/NOUN]]
     -- njA     najA    N0_Nhy  rescue;survival;escape;salvation
@@ -4769,18 +4733,6 @@ lexicon = listing "Lexicon's properties"
 
     MiFaCL |< aT              `noun`    {- mina$~ap -}         [ "fly swatter" ],
 
-    -- ;; na$~aY_1
-    -- n$Y     na$~aY  PV_0    starch
-    -- n$A     na$~A   PV_h    starch
-    -- n$y     na$~ay  PV_Atn  starch
-    -- n$      na$~    PV_ttAw starch
-    -- n$y     na$~iy  IV_0hAnn_yu     starch
-    -- n$      na$~    IV_0hwnyn_yu    starch
-    -- n$Y     na$~aY  IV_0_Pass_yu    be starched
-    -- n$y     na$~ay  IV_Ann_Pass_yu  be starched
-
-    FaCLY                     `verb`    {- na$~aY -}           [ "starch", "be starched" ],
-
     -- ;; na$AF_1
     -- n$A     na$AF   FW-WaBi aroma;scent;perfume;starch     [[na$AF/NOUN]]
     -- n$A     na$A    N0_Nhy  aroma;scent;perfume;starch
@@ -5618,19 +5570,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- nax~ -}             [ "mat", "rug", "carpet" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'an_hA_h N" ] -},
-
-    -- ;; nax~aY_1
-    -- nxY     nax~aY  PV_0    incite;arouse
-    -- nxA     nax~A   PV_h    incite;arouse
-    -- nxy     nax~ay  PV_Atn  incite;arouse
-    -- nx      nax~    PV_ttAw incite;arouse
-    -- nxy     nax~iy  IV_0hAnn_yu     incite;arouse
-    -- nx      nax~    IV_0hwnyn_yu    incite;arouse
-    -- nxY     nax~aY  IV_0_Pass_yu    be incited;be aroused
-    -- nxy     nax~ay  IV_Ann_Pass_yu  be incited;be aroused
-
-    FaCLY                     `verb`    {- nax~aY -}           [ "incite", "arouse", "be incited", "be aroused" ] ]
+                           {- `others`  [ "'an_hA_h N" ] -} ]
 
  |> "n _h `" <| [
 
@@ -8019,19 +7959,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; munad~id_1
     -- mndd    munad~id        Nall    criticizing;denouncing     [[munad~id/ADJ]]
 
-    MuFaCCiL                  `adj`     {- munad~id -}         [ "criticizing", "denouncing" ],
-
-    -- ;; nad~aY_1
-    -- ndY     nad~aY  PV_0    moisten;make damp
-    -- ndA     nad~A   PV_h    moisten;make damp
-    -- ndy     nad~ay  PV_Atn  moisten;make damp
-    -- nd      nad~    PV_ttAw moisten;make damp
-    -- ndy     nad~iy  IV_0hAnn_yu     moisten;make damp
-    -- nd      nad~    IV_0hwnyn_yu    moisten;make damp
-    -- ndY     nad~aY  IV_0_Pass_yu    be moistened
-    -- ndy     nad~ay  IV_Ann_Pass_yu  be moistened
-
-    FaCLY                     `verb`    {- nad~aY -}           [ "moisten", "make damp", "be moistened" ] ]
+    MuFaCCiL                  `adj`     {- munad~id -}         [ "criticizing", "denouncing" ] ]
 
  |> "n d f" <| [
 
@@ -11872,19 +11800,7 @@ lexicon = listing "Lexicon's properties"
     -- nmy     num~iy~ N-ap    numismatic;coin     [[num~iy~/ADJ]]
     -- nmy     num~iy~ NAt     numismatics;coins     [[num~iy~/NOUN]]
 
-    FuCL |< Iy                `adj`     {- num~iy~ -}          [ "numismatic", "coin", "numismatics", "coins" ],
-
-    -- ;; nam~aY_1
-    -- nmY     nam~aY  PV_0    make grow;advance
-    -- nmA     nam~A   PV_h    make grow;advance
-    -- nmy     nam~ay  PV_Atn  make grow;advance
-    -- nm      nam~    PV_ttAw make grow;advance
-    -- nmy     nam~iy  IV_0hAnn_yu     make grow;advance
-    -- nm      nam~    IV_0hwnyn_yu    make grow;advance
-    -- nmY     nam~aY  IV_0_Pass_yu    be grown;be developed;be advanced
-    -- nmy     nam~ay  IV_Ann_Pass_yu  be grown;be developed;be advanced
-
-    FaCLY                     `verb`    {- nam~aY -}           [ "make grow", "advance", "be grown", "be developed", "be advanced" ] ]
+    FuCL |< Iy                `adj`     {- num~iy~ -}          [ "numismatic", "coin", "numismatics", "coins" ] ]
 
  |> "n m n m" <| [
 
@@ -13491,19 +13407,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; naqiyq_1
     -- nqyq    naqiyq  N       croaking;cackling
 
-    FaCIL                     `noun`    {- naqiyq -}           [ "croaking", "cackling" ],
-
-    -- ;; naq~aY_1
-    -- nqY     naq~aY  PV_0    purify;clarify
-    -- nqA     naq~A   PV_h    purify;clarify
-    -- nqy     naq~ay  PV_Atn  purify;clarify
-    -- nq      naq~    PV_ttAw purify;clarify
-    -- nqy     naq~iy  IV_0hAnn_yu     purify;clarify
-    -- nq      naq~    IV_0hwnyn_yu    purify;clarify
-    -- nqY     naq~aY  IV_0_Pass_yu    be purified;be clarified
-    -- nqy     naq~ay  IV_Ann_Pass_yu  be purified;be clarified
-
-    FaCLY                     `verb`    {- naq~aY -}           [ "purify", "clarify", "be purified", "be clarified" ] ]
+    FaCIL                     `noun`    {- naqiyq -}           [ "croaking", "cackling" ] ]
 
  |> "n q r" <| [
 

@@ -334,7 +334,14 @@ sub closeEntry {
 
     foreach my $pattern (@patterns) {
 
-        next if $Entry->{'entity'} ne 'verb' and $patterns{$pattern} =~ /^FUCi?L$/;
+        if ($Entry->{'entity'} eq 'verb') {
+
+            next if $patterns{$pattern} =~ /^FaCLY$/;
+        }
+        else {
+
+            next if $patterns{$pattern} =~ /^FUCi?L$/;
+        }
 
         undef $_ foreach $F, $C, $L, $K, $R, $D, $S;
 

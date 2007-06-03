@@ -1246,18 +1246,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCAL
                            {- `others`  [ "^si^gA^g N" ] -},
 
-    -- ;; $aj~aY_1
-    -- \$jY     $aj~aY  PV_0    impress;move
-    -- \$jA     $aj~A   PV_h    impress;move
-    -- \$jy     $aj~ay  PV_Atn  impress;move
-    -- \$j      $aj~    PV_ttAw impress;move
-    -- \$jy     $aj~iy  IV_0hAnn_yu     impress;move
-    -- \$j      $aj~    IV_0hwnyn_yu    impress;move
-    -- \$jY     $aj~aY  IV_0_Pass_yu    be impressed;be moved
-    -- \$jy     $aj~ay  IV_Ann_Pass_yu  be impressed;be moved
-
-    FaCLY                     `verb`    {- \$aj~aY -}          [ "impress", "move", "be impressed", "be moved" ],
-
     -- ;; $ajAF_1
     -- \$jA     $ajAF   FW-WaBi sadness;distress;anxiety     [[$ajAF/NOUN]]
 
@@ -4501,20 +4489,6 @@ lexicon = listing "Lexicon's properties"
     -- Ast$hAdy        {isoti$ohAdiy~  Nall    martyr ("suicide" in Western media)     [[{isoti$ohAdiy~/ADJ]]
 
     IstiFCAL |< Iy            `adj`     {- Aisoti$ohAdiy~ -}   [ "martyr (\"suicide\" in Western media)" ] ]
-
- |> "^s h h" <| [
-
-    -- ;; $ah~aY_1
-    -- \$hY     $ah~aY  PV_0    excite;arouse
-    -- \$hA     $ah~A   PV_h    excite;arouse
-    -- \$hy     $ah~ay  PV_Atn  excite;arouse
-    -- \$h      $ah~    PV_ttAw excite;arouse
-    -- \$hy     $ah~iy  IV_0hAnn_yu     excite;arouse
-    -- \$h      $ah~    IV_0hwnyn_yu    excite;arouse
-    -- \$hY     $ah~aY  IV_0_Pass_yu    be excited;be aroused
-    -- \$hy     $ah~ay  IV_Ann_Pass_yu  be excited;be aroused
-
-    FaCLY                     `verb`    {- \$ah~aY -}          [ "excite", "arouse", "be excited", "be aroused" ] ]
 
  |> "^s h l" <| [
 
@@ -9242,19 +9216,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; ta$otiyt_1
     -- t$tyt   ta$otiyt        NduAt   dispersion;scattering;disruption
 
-    TaFCIL                    `noun`    {- ta$otiyt -}         [ "dispersion", "scattering", "disruption" ],
-
-    -- ;; $at~aY_2
-    -- \$tY     $at~aY  PV_0    hibernate;spend the winter;rain
-    -- \$tA     $at~A   PV_h    hibernate;spend the winter;rain
-    -- \$ty     $at~ay  PV_Atn  hibernate;spend the winter;rain
-    -- \$t      $at~    PV_ttAw hibernate;spend the winter;rain
-    -- \$ty     $at~iy  IV_0hAnn_yu     hibernate;spend the winter;rain
-    -- \$t      $at~    IV_0hwnyn_yu    hibernate;spend the winter;rain
-    -- \$tY     $at~aY  IV_0_Pass_yu    hibernate;spend the winter
-    -- \$ty     $at~ay  IV_Ann_Pass_yu  hibernate;spend the winter
-
-    FaCLY                     `verb`    {- \$at~aY -}          [ "hibernate", "spend the winter", "rain" ] ]
+    TaFCIL                    `noun`    {- ta$otiyt -}         [ "dispersion", "scattering", "disruption" ] ]
 
  |> "^s t w" <| [
 

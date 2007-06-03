@@ -690,10 +690,6 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- taSoliyb -}         [ "crossing", "intersecting" ] ]
 
- |> ".s l l" <| [
-
-    FaCLY                     `verb`    {- Sal~aY -}           [ "pray", "worship", "be worshiped", "be prayed" ] ]
-
  |> ".s l n" <| [
 
     FACUL                     `noun`    {- SAluwn -}           [ "salon", "parlor" ]

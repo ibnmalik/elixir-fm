@@ -1147,19 +1147,7 @@ lexicon = listing "Lexicon's properties"
     -- mxTT    muxaT~aT        Ndu     plan;sketch
     -- mxTT    muxaT~aT        NAt     plans;sketches
 
-    MuFaCCaL                  `noun`    {- muxaT~aT -}         [ "plan", "sketch", "plans", "sketches" ],
-
-    -- ;; xaT~aY_1
-    -- xTY     xaT~aY  PV_0    cross;exceed
-    -- xTA     xaT~A   PV_h    cross;exceed
-    -- xTy     xaT~ay  PV_Atn  cross;exceed
-    -- xT      xaT~    PV_ttAw cross;exceed
-    -- xTy     xaT~iy  IV_0hAnn_yu     cross;exceed
-    -- xT      xaT~    IV_0hwnyn_yu    cross;exceed
-    -- xTY     xaT~aY  IV_0_Pass_yu    be exceeded;be crossed
-    -- xTy     xaT~ay  IV_Ann_Pass_yu  be exceeded;be crossed
-
-    FaCLY                     `verb`    {- xaT~aY -}           [ "cross", "exceed", "be exceeded", "be crossed" ] ]
+    MuFaCCaL                  `noun`    {- muxaT~aT -}         [ "plan", "sketch", "plans", "sketches" ] ]
 
  |> "_h .t b" <| [
 
@@ -1747,19 +1735,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; xi$A$_1
     -- x$A$    xi$A$   N       vermin;insects
 
-    FiCAL                     `noun`    {- xi$A$ -}            [ "vermin", "insects" ],
-
-    -- ;; xa$~aY_1
-    -- x$Y     xa$~aY  PV_0    frighten;alarm
-    -- x$A     xa$~A   PV_h    frighten;alarm
-    -- x$y     xa$~ay  PV_Atn  frighten;alarm
-    -- x$      xa$~    PV_ttAw frighten;alarm
-    -- x$y     xa$~iy  IV_0hAnn_yu     frighten;alarm
-    -- x$      xa$~    IV_0hwnyn_yu    frighten;alarm
-    -- x$Y     xa$~aY  IV_0_Pass_yu    be frighten;be alarmed
-    -- x$y     xa$~ay  IV_Ann_Pass_yu  be frighten;be alarmed
-
-    FaCLY                     `verb`    {- xa$~aY -}           [ "frighten", "alarm", "be frighten", "be alarmed" ] ]
+    FiCAL                     `noun`    {- xi$A$ -}            [ "vermin", "insects" ] ]
 
  |> "_h ^s _h ^s" <| [
 
@@ -5026,19 +5002,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muxotal~_1
     -- mxtl    muxotal~        Nall    disturbed;defective;deficient     [[muxotal~/ADJ]]
 
-    MuFtaCL                   `adj`     {- muxotal~ -}         [ "disturbed", "defective", "deficient" ],
-
-    -- ;; xal~aY_1
-    -- xlY     xal~aY  PV_0    release;evacuate;allow
-    -- xlA     xal~A   PV_h    release;evacuate;allow
-    -- xly     xal~ay  PV_Atn  release;evacuate;allow
-    -- xl      xal~    PV_ttAw release;evacuate;allow
-    -- xly     xal~iy  IV_0hAnn_yu     release;evacuate;allow
-    -- xl      xal~    IV_0hwnyn_yu    release;evacuate;allow
-    -- xlY     xal~aY  IV_0_Pass_yu    be released;be evacuated;be allowed
-    -- xly     xal~ay  IV_Ann_Pass_yu  be released;be evacuated;be allowed
-
-    FaCLY                     `verb`    {- xal~aY -}           [ "release", "evacuate", "allow", "be released", "be evacuated", "be allowed" ] ]
+    MuFtaCL                   `adj`     {- muxotal~ -}         [ "disturbed", "defective", "deficient" ] ]
 
  |> "_h l q" <| [
 

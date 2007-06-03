@@ -3692,60 +3692,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_d k k' => [
-    {
-      'types' => {
-        '_dakkay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '_dakkiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '_dakk' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '_dakkY' => {},
-        '_dakkA' => {
-          'PV_h' => 1
-        }
-      },
-      'entry' => '_dakkY',
-      'form' => '_dakkY',
-      'lines' => [
-        ';; *ak~aY_1',
-        '*kY     *ak~aY  PV_0    kindle;set ablaze',
-        '*kA     *ak~A   PV_h    kindle;set ablaze',
-        '*ky     *ak~ay  PV_Atn  kindle;set ablaze',
-        '*k      *ak~    PV_ttAw kindle;set ablaze',
-        '*ky     *ak~iy  IV_0hAnn_yu     kindle;set ablaze',
-        '*k      *ak~    IV_0hwnyn_yu    kindle;set ablaze',
-        '*kY     *ak~aY  IV_0_Pass_yu    be kindled;be set ablaze',
-        '*ky     *ak~ay  IV_Ann_Pass_yu  be kindled;be set ablaze'
-      ],
-      'patterns' => {
-        '_dakkiy' => [
-          'FaCCI'
-        ],
-        '_dakk' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'kindle',
-        'set ablaze',
-        'be kindled',
-        'be set ablaze'
-      ],
-      'orig' => '*ak~aY',
-      'prefix' => ''
-    }
-  ],
   '_d w b' => [
     {
       'types' => {
@@ -4236,10 +4182,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '_dakkay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '_dakkiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '_dakk' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '_dakkY' => {},
+        '_dakkA' => {
+          'PV_h' => 1
+        }
+      },
       'entry' => '_dakkY',
       'form' => '_dakkY',
-      'lines' => [],
+      'lines' => [
+        ';; *ak~aY_1',
+        '*kY     *ak~aY  PV_0    kindle;set ablaze',
+        '*kA     *ak~A   PV_h    kindle;set ablaze',
+        '*ky     *ak~ay  PV_Atn  kindle;set ablaze',
+        '*k      *ak~    PV_ttAw kindle;set ablaze',
+        '*ky     *ak~iy  IV_0hAnn_yu     kindle;set ablaze',
+        '*k      *ak~    IV_0hwnyn_yu    kindle;set ablaze',
+        '*kY     *ak~aY  IV_0_Pass_yu    be kindled;be set ablaze',
+        '*ky     *ak~ay  IV_Ann_Pass_yu  be kindled;be set ablaze'
+      ],
       'patterns' => {
         '_dakkiy' => [
           'FaCCI'
@@ -4249,7 +4221,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'kindle',
+        'set ablaze',
+        'be kindled',
+        'be set ablaze'
+      ],
       'orig' => '*ak~aY',
       'prefix' => ''
     },
@@ -5362,27 +5339,6 @@ $Lexicon = {
         'offspring'
       ],
       'orig' => '*ur~iy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_darrY',
-      'form' => '_darrY',
-      'lines' => [],
-      'patterns' => {
-        '_darriy' => [
-          'FaCCI'
-        ],
-        '_darr' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => '*ar~aY',
       'prefix' => ''
     },
     {
@@ -8954,15 +8910,9 @@ $Lexicon->{'_d k w'}[2]{'types'} = $Lexicon->{'_d k y'}[0]{'types'};
 $Lexicon->{'_d k w'}[2]{'lines'} = $Lexicon->{'_d k y'}[0]{'lines'};
 $Lexicon->{'_d k w'}[2]{'glosses'} = $Lexicon->{'_d k y'}[0]{'glosses'};
 $Lexicon->{'_d k w'}[2]{'imperf'} = $Lexicon->{'_d k y'}[0]{'imperf'};
-$Lexicon->{'_d k w'}[3]{'types'} = $Lexicon->{'_d k k'}[0]{'types'};
-$Lexicon->{'_d k w'}[3]{'lines'} = $Lexicon->{'_d k k'}[0]{'lines'};
-$Lexicon->{'_d k w'}[3]{'glosses'} = $Lexicon->{'_d k k'}[0]{'glosses'};
 $Lexicon->{'_d k w'}[7]{'types'} = $Lexicon->{'_d k \''}[0]{'types'};
 $Lexicon->{'_d k w'}[7]{'lines'} = $Lexicon->{'_d k \''}[0]{'lines'};
 $Lexicon->{'_d k w'}[7]{'glosses'} = $Lexicon->{'_d k \''}[0]{'glosses'};
-$Lexicon->{'_d r r'}[11]{'types'} = $Lexicon->{'_d r y'}[1]{'types'};
-$Lexicon->{'_d r r'}[11]{'lines'} = $Lexicon->{'_d r y'}[1]{'lines'};
-$Lexicon->{'_d r r'}[11]{'glosses'} = $Lexicon->{'_d r y'}[1]{'glosses'};
 $Lexicon->{'_d b n'}[0]{'types'} = $Lexicon->{'_d b b'}[3]{'types'};
 $Lexicon->{'_d b n'}[0]{'lines'} = $Lexicon->{'_d b b'}[3]{'lines'};
 $Lexicon->{'_d b n'}[0]{'glosses'} = $Lexicon->{'_d b b'}[3]{'glosses'};

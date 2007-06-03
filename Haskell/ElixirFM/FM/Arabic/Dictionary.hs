@@ -38,9 +38,12 @@ recode = id
 
 arabicDict :: Dictionary
 
-arabicDict = (dictionary . concat . map lex2dict) $ take 50 $ drop 1000 lexicon
+arabicDict = (dictionary . (++) extradict . concat . map lex2dict) -- take 57 $ drop 1000
+                                                                    lexicon
 
-    where   lex2dict (NestT x ys) = [ case entity y of
+    where   extradict = [ ("wa-", "Conj", [], [ ("\nC---------", (1, ["wa-"])) ]) ]
+
+            lex2dict (NestT x ys) = [ case entity y of
 
                 Noun _ _ _      -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
                                     "Noun", [],
@@ -55,8 +58,7 @@ arabicDict = (dictionary . concat . map lex2dict) $ take 50 $ drop 1000 lexicon
                                     [ (show v, (0, recode (inflect (RE x y) v))) | v :: ParaVerb <- values ])
 
                 _               -> ("Dictword",
-                                    "Category", ["Inherent"],
-                                    [ ("Untyped",(0,["String"])) ]) | y <- ys ]
+                                    "Category", ["Inherent"], [ ("Untyped", (0, ["String"])) ]) | y <- ys ]
                 where root = words x
 
             lex2dict _            = [ ("Others", "Category", [], [ ("Untyped", (0, [])) ]) ]

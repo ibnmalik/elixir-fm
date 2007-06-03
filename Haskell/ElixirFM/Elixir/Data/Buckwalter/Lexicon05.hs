@@ -1360,17 +1360,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; jab~Anap_1
     -- jbAn    jab~An  Napdu   cemetery
 
-    FaCLAn |< aT              `noun`    {- jab~Anap -}         [ "cemetery" ],
-
-    -- ;; jab~aY_1
-    -- jbY     jab~aY  PV_0    kneel;prostrate
-    -- jbA     jab~A   PV_h    kneel;prostrate
-    -- jby     jab~ay  PV_Atn  kneel;prostrate
-    -- jb      jab~    PV_ttAw kneel;prostrate
-    -- jby     jab~iy  IV_0hAnn_yu     kneel;prostrate
-    -- jb      jab~    IV_0hwnyn_yu    kneel;prostrate
-
-    FaCLY                     `verb`    {- jab~aY -}           [ "kneel", "prostrate" ] ]
+    FaCLAn |< aT              `noun`    {- jab~Anap -}         [ "cemetery" ] ]
 
  |> "^g b h" <| [
 
@@ -4047,19 +4037,7 @@ lexicon = listing "Lexicon's properties"
     -- <jlAl   <ijolAl NduAt   reverence
     -- AjlAl   <ijolAl NduAt   reverence
 
-    HiFCAL                    `noun`    {- IijolAl -}          [ "reverence" ],
-
-    -- ;; jal~aY_1
-    -- jlY     jal~aY  PV_0    make clear;reveal;represent
-    -- jlA     jal~A   PV_h    make clear;reveal;represent
-    -- jly     jal~ay  PV_Atn  make clear;reveal;represent
-    -- jl      jal~    PV_ttAw make clear;reveal;represent
-    -- jly     jal~iy  IV_0hAnn_yu     make clear;reveal;represent
-    -- jl      jal~    IV_0hwnyn_yu    make clear;reveal;represent
-    -- jlY     jal~aY  IV_0_Pass_yu    be made clear;be revealed;be represented
-    -- jly     jal~ay  IV_Ann_Pass_yu  be made clear;be revealed;be represented
-
-    FaCLY                     `verb`    {- jal~aY -}           [ "make clear", "reveal", "represent", "be made clear", "be revealed", "be represented" ] ]
+    HiFCAL                    `noun`    {- IijolAl -}          [ "reverence" ] ]
 
  |> "^g l m" <| [
 

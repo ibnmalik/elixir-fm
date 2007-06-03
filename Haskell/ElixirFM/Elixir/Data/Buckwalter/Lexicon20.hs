@@ -445,19 +445,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mufaD~aD_1
     -- mfDD    mufaD~aD        N-ap    silver-plated
 
-    MuFaCCaL                  `noun`    {- mufaD~aD -}         [ "silver-plated" ],
-
-    -- ;; faD~aY_1
-    -- fDY     faD~aY  PV_0    vacate;empty
-    -- fDA     faD~A   PV_h    vacate;empty
-    -- fDy     faD~ay  PV_Atn  vacate;empty
-    -- fD      faD~    PV_ttAw vacate;empty
-    -- fDy     faD~iy  IV_0hAnn_yu     vacate;empty
-    -- fD      faD~    IV_0hwnyn_yu    vacate;empty
-    -- fDY     faD~aY  IV_0_Pass_yu    be vacated;be emptied
-    -- fDy     faD~ay  IV_Ann_Pass_yu  be vacated;be emptied
-
-    FaCLY                     `verb`    {- faD~aY -}           [ "vacate", "empty", "be vacated", "be emptied" ] ]
+    MuFaCCaL                  `noun`    {- mufaD~aD -}         [ "silver-plated" ] ]
 
  |> "f .d .h" <| [
 
@@ -4767,18 +4755,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCA
                            {- `others`  [ "falA N0_Nhy" ] -},
 
-    -- ;; fal~aY_1
-    -- flY     fal~aY  PV_0    scrutinize;peruse;delouse
-    -- flA     fal~A   PV_h    scrutinize;peruse;delouse
-    -- fly     fal~ay  PV_Atn  scrutinize;peruse;delouse
-    -- fl      fal~    PV_ttAw scrutinize;peruse;delouse
-    -- fly     fal~iy  IV_0hAnn_yu     scrutinize;peruse;delouse
-    -- fl      fal~    IV_0hwnyn_yu    scrutinize;peruse;delouse
-    -- flY     fal~aY  IV_0_Pass_yu    be scrutinized;be perused;be deloused
-    -- fly     fal~ay  IV_Ann_Pass_yu  be scrutinized;be perused;be deloused
-
-    FaCLY                     `verb`    {- fal~aY -}           [ "scrutinize", "peruse", "delouse", "be scrutinized", "be perused", "be deloused" ],
-
     -- ;; fiylAliy~_1
     -- fylAly  fiylAliy~       N0      Filali
 
@@ -8037,19 +8013,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; far~A'_2
     -- frA'    far~A'  N0      Farra
 
-    FaCLA'                    `noun`    {- far~A' -}           [ "Farra" ],
-
-    -- ;; far~aY_1
-    -- frY     far~aY  PV_0    cut or split lengthwise
-    -- frA     far~A   PV_h    cut or split lengthwise
-    -- fry     far~ay  PV_Atn  cut or split lengthwise
-    -- fr      far~    PV_ttAw cut or split lengthwise
-    -- fry     far~iy  IV_0hAnn_yu     cut or split lengthwise
-    -- fr      far~    IV_0hwnyn_yu    cut or split lengthwise
-    -- frY     far~aY  IV_0_Pass_yu    be cut or split lengthwise
-    -- fry     far~ay  IV_Ann_Pass_yu  be cut or split lengthwise
-
-    FaCLY                     `verb`    {- far~aY -}           [ "cut or split lengthwise", "be cut or split lengthwise" ] ]
+    FaCLA'                    `noun`    {- far~A' -}           [ "Farra" ] ]
 
  |> "f r s" <| [
 

@@ -613,20 +613,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- \*akA' -}           [ "cleverness" ] ]
 
- |> "_d k k" <| [
-
-    -- ;; *ak~aY_1
-    -- \*kY     *ak~aY  PV_0    kindle;set ablaze
-    -- \*kA     *ak~A   PV_h    kindle;set ablaze
-    -- \*ky     *ak~ay  PV_Atn  kindle;set ablaze
-    -- \*k      *ak~    PV_ttAw kindle;set ablaze
-    -- \*ky     *ak~iy  IV_0hAnn_yu     kindle;set ablaze
-    -- \*k      *ak~    IV_0hwnyn_yu    kindle;set ablaze
-    -- \*kY     *ak~aY  IV_0_Pass_yu    be kindled;be set ablaze
-    -- \*ky     *ak~ay  IV_Ann_Pass_yu  be kindled;be set ablaze
-
-    FaCLY                     `verb`    {- \*ak~aY -}          [ "kindle", "set ablaze", "be kindled", "be set ablaze" ] ]
-
  |> "_d k r" <| [
 
     -- ;; *akar-u_1
@@ -1456,18 +1442,6 @@ lexicon = listing "Lexicon's properties"
     -- \*rAry   *arAriy~        N       descendants;offspring
 
     FuCL |< Iy |< aT          `noun`    {- \*ur~iy~ap -}       [ "descendants", "offspring" ],
-
-    -- ;; *ar~aY_1
-    -- \*rY     *ar~aY  PV_0    disperse;scatter;atomize
-    -- \*rA     *ar~A   PV_h    disperse;scatter;atomize
-    -- \*ry     *ar~ay  PV_Atn  disperse;scatter;atomize
-    -- \*r      *ar~    PV_ttAw disperse;scatter;atomize
-    -- \*ry     *ar~iy  IV_0hAnn_yu     disperse;scatter;atomize
-    -- \*r      *ar~    IV_0hwnyn_yu    disperse;scatter;atomize
-    -- \*rY     *ar~aY  IV_0_Pass_yu    be dispersed;be scattered;be atomized
-    -- \*ry     *ar~ay  IV_Ann_Pass_yu  be dispersed;be scattered;be atomized
-
-    FaCLY                     `verb`    {- \*ar~aY -}          [ "disperse", "scatter", "atomize", "be dispersed", "be scattered", "be atomized" ],
 
     -- ;; *urap_1
     -- \*r      *ur     Nap     sorghum;maize

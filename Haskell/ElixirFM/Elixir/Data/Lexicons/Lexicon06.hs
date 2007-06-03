@@ -1011,9 +1011,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCiL                  `noun`    {- muHal~il -}         [ "analyst" ],
 
-    MuFtaCL                   `adj`     {- muHotal~ -}         [ "occupying", "occupied" ],
-
-    FaCLY                     `verb`    {- Hal~aY -}           [ "sweeten", "adorn", "furnish", "be sweetened", "be adorned", "be furnished" ] ]
+    MuFtaCL                   `adj`     {- muHotal~ -}         [ "occupying", "occupied" ] ]
 
  |> ".h l m" <| [
 
@@ -2078,7 +2076,6 @@ lexicon = listing "Lexicon's properties"
  |> ".h w y" <| [
 
     FaCY                      `verb`    {- HawaY-i -}          [ "gather", "encompass", "clasp" ]
-                              `imperf`     FCY
                               `imperf`     FCI,
 
     IFtaCY                    `verb`    {- AiHotawaY -}        [ "contain", "include" ],
@@ -2099,7 +2096,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `verb`    {- HAz-i -}            [ "drive on", "urge on (camels)" ]
                               `imperf`     FIL
-                              `pfirst`     FaL,
+                              `pfirst`     FiL,
 
     InFAL                     `verb`    {- AinoHAz -}          [ "be aligned", "be biased (politically)" ],
 

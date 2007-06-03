@@ -334,19 +334,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; munoqaD~_1
     -- mnqD    munoqaD~        N-ap    assault;attack
 
-    MunFaCL                   `noun`    {- munoqaD~ -}         [ "assault", "attack" ],
-
-    -- ;; qaD~aY_1
-    -- qDY     qaD~aY  PV_0    carry out;effectuate;accomplish
-    -- qDA     qaD~A   PV_h    carry out;effectuate;accomplish
-    -- qDy     qaD~ay  PV_Atn  carry out;effectuate;accomplish
-    -- qD      qaD~    PV_ttAw carry out;effectuate;accomplish
-    -- qDy     qaD~iy  IV_0hAnn_yu     carry out;effectuate;accomplish
-    -- qD      qaD~    IV_0hwnyn_yu    carry out;effectuate;accomplish
-    -- qDY     qaD~aY  IV_0_Pass_yu    be carried out;be effectuated;be accomplished
-    -- qDy     qaD~ay  IV_Ann_Pass_yu  be carried out;be effectuated;be accomplished
-
-    FaCLY                     `verb`    {- qaD~aY -}           [ "carry out", "effectuate", "accomplish", "be carried out", "be effectuated", "be accomplished" ] ]
+    MunFaCL                   `noun`    {- munoqaD~ -}         [ "assault", "attack" ] ]
 
  |> "q .d `" <| [
 
@@ -4489,19 +4477,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muqab~ab_2
     -- mqbb    muqab~ab        N-ap    bulging;swollen     [[muqab~ab/ADJ]]
 
-    MuFaCCaL                  `adj`     {- muqab~ab -}         [ "bulging", "swollen" ],
-
-    -- ;; qab~aY_1
-    -- qbY     qab~aY  PV_0    vault;arch
-    -- qbA     qab~A   PV_h    vault;arch
-    -- qby     qab~ay  PV_Atn  vault;arch
-    -- qb      qab~    PV_ttAw vault;arch
-    -- qby     qab~iy  IV_0hAnn_yu     vault;arch
-    -- qb      qab~    IV_0hwnyn_yu    vault;arch
-    -- qbY     qab~aY  IV_0_Pass_yu    be vaulted;be arched
-    -- qby     qab~ay  IV_Ann_Pass_yu  be vaulted;be arched
-
-    FaCLY                     `verb`    {- qab~aY -}           [ "vault", "arch", "be vaulted", "be arched" ] ]
+    MuFaCCaL                  `adj`     {- muqab~ab -}         [ "bulging", "swollen" ] ]
 
  |> "q b l" <| [
 
@@ -6104,18 +6080,6 @@ lexicon = listing "Lexicon's properties"
     -- qf      qaf~    Nap     feverish shiver
 
     FaCL |< aT                `noun`    {- qaf~ap -}           [ "feverish shiver" ],
-
-    -- ;; qaf~aY_1
-    -- qfY     qaf~aY  PV_0    send;rhyme
-    -- qfA     qaf~A   PV_h    send;rhyme
-    -- qfy     qaf~ay  PV_Atn  send;rhyme
-    -- qf      qaf~    PV_ttAw send;rhyme
-    -- qfy     qaf~iy  IV_0hAnn_yu     send;rhyme
-    -- qf      qaf~    IV_0hwnyn_yu    send;rhyme
-    -- qfY     qaf~aY  IV_0_Pass_yu    be sent;be rhymed
-    -- qfy     qaf~ay  IV_Ann_Pass_yu  be sent;be rhymed
-
-    FaCLY                     `verb`    {- qaf~aY -}           [ "send", "rhyme", "be sent", "be rhymed" ],
 
     -- ;; qafAF_1
     -- qfA     qafAF   FW-WaBi neck;nape;back;reverse     [[qafAF/NOUN]]
@@ -11855,19 +11819,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; qusuwsiy~_1
     -- qswsy   qusuwsiy~       N-ap    priestly;ordination     [[qusuwsiy~/ADJ]]
 
-    FuCUL |< Iy               `adj`     {- qusuwsiy~ -}        [ "priestly", "ordination" ],
-
-    -- ;; qas~aY_1
-    -- qsY     qas~aY  PV_0    harden;make stubborn;make hard-hearted
-    -- qsA     qas~A   PV_h    harden;make stubborn;make hard-hearted
-    -- qsy     qas~ay  PV_Atn  harden;make stubborn;make hard-hearted
-    -- qs      qas~    PV_ttAw harden;make stubborn;make hard-hearted
-    -- qsy     qas~iy  IV_0hAnn_yu     harden;make stubborn;make hard-hearted
-    -- qs      qas~    IV_0hwnyn_yu    harden;make stubborn;make hard-hearted
-    -- qsY     qas~aY  IV_0_Pass_yu    be hardened;be made stubborn;be made hard-hearted
-    -- qsy     qas~ay  IV_Ann_Pass_yu  be hardened;be made stubborn;be made hard-hearted
-
-    FaCLY                     `verb`    {- qas~aY -}           [ "harden", "make stubborn", "make hard-hearted", "be hardened", "be made stubborn", "be made hard-hearted" ] ]
+    FuCUL |< Iy               `adj`     {- qusuwsiy~ -}        [ "priestly", "ordination" ] ]
 
  |> "q s w" <| [
 
@@ -13503,18 +13455,6 @@ lexicon = listing "Lexicon's properties"
     MuKaRDaS                  `adj`     {- muqawotab -}        [ "hunchbacked" ] ]
 
  |> "q w w" <| [
-
-    -- ;; qaw~aY_1
-    -- qwY     qaw~aY  PV_0    strengthen
-    -- qwA     qaw~A   PV_h    strengthen
-    -- qwy     qaw~ay  PV_Atn  strengthen
-    -- qw      qaw~    PV_ttAw strengthen
-    -- qwy     qaw~iy  IV_0hAnn_yu     strengthen
-    -- qw      qaw~    IV_0hwnyn_yu    strengthen
-    -- qwY     qaw~aY  IV_0_Pass_yu    be strengthened
-    -- qwy     qaw~ay  IV_Ann_Pass_yu  be strengthened
-
-    FaCLY                     `verb`    {- qaw~aY -}           [ "strengthen", "be strengthened" ],
 
     -- ;; quw~ap_1
     -- qw      quw~    Napdu   power;strength

@@ -583,10 +583,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCaL
                            {- `others`  [ "`aba_t NF" ] -} ]
 
- |> "` b b" <| [
-
-    FaCLY                     `verb`    {- Eab~aY -}           [ "package", "load", "mobilize", "be packaged", "be loaded", "be mobilized" ] ]
-
  |> "` b d" <| [
 
     FaCL                      `noun`    {- Eabod -}            [ "Abd" ],
@@ -2653,9 +2649,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFtaCL                   `adj`     {- muEotaz~ -}         [ "proud", "mighty" ],
 
-    MuFtaCL                   `noun`    {- muEotaz~ -}         [ "Mu'tazz" ],
-
-    FaCLY                     `verb`    {- Eaz~aY -}           [ "console", "offer condolences", "be consoled", "be offered condolences" ] ]
+    MuFtaCL                   `noun`    {- muEotaz~ -}         [ "Mu'tazz" ] ]
 
  |> "`A^suwrA'" <| [
 

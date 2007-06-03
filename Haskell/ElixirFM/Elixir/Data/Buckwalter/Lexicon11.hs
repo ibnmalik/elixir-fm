@@ -678,19 +678,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muzaj~aj_1
     -- mzjj    muzaj~aj        N/ap    glazed;enameled     [[muzaj~aj/ADJ]]
 
-    MuFaCCaL                  `adj`     {- muzaj~aj -}         [ "glazed", "enameled" ],
-
-    -- ;; zaj~aY_1
-    -- zjY     zaj~aY  PV_0    shove;jostle
-    -- zjA     zaj~A   PV_h    shove;jostle
-    -- zjy     zaj~ay  PV_Atn  shove;jostle
-    -- zj      zaj~    PV_ttAw shove;jostle
-    -- zjy     zaj~iy  IV_0hAnn_yu     shove;jostle
-    -- zj      zaj~    IV_0hwnyn_yu    shove;jostle
-    -- zjY     zaj~aY  IV_0_Pass_yu    be shoved;be jostled
-    -- zjy     zaj~ay  IV_Ann_Pass_yu  be shoved;be jostled
-
-    FaCLY                     `verb`    {- zaj~aY -}           [ "shove", "jostle", "be shoved", "be jostled" ] ]
+    MuFaCCaL                  `adj`     {- muzaj~aj -}         [ "glazed", "enameled" ] ]
 
  |> "z ^g l" <| [
 
@@ -2316,18 +2304,6 @@ lexicon = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- zakiybap -}         [ "sack", "bag", "sacks", "bags" ] ]
 
  |> "z k k" <| [
-
-    -- ;; zak~aY_1
-    -- zkY     zak~aY  PV_0    augment;nominate;recommend
-    -- zkA     zak~A   PV_h    augment;nominate;recommend
-    -- zky     zak~ay  PV_Atn  augment;nominate;recommend
-    -- zk      zak~    PV_ttAw augment;nominate;recommend
-    -- zky     zak~iy  IV_0hAnn_yu     augment;nominate;recommend
-    -- zk      zak~    IV_0hwnyn_yu    augment;nominate;recommend
-    -- zkY     zak~aY  IV_0_Pass_yu    be augmented;be nominated;be recommended
-    -- zky     zak~ay  IV_Ann_Pass_yu  be augmented;be nominated;be recommended
-
-    FaCLY                     `verb`    {- zak~aY -}           [ "augment", "nominate", "recommend", "be augmented", "be nominated", "be recommended" ],
 
     -- ;; zakAF_1
     -- zkA     zakAF   FW-WaBi alms;purity;honesty;integrity     [[zakAF/NOUN]]
@@ -4925,20 +4901,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADiS
                            {- `others`  [ "zawAriq Ndip" ] -} ]
 
- |> "z w w" <| [
-
-    -- ;; zaw~aY_1
-    -- zwY     zaw~aY  PV_0    retire;go into seclusion
-    -- zwA     zaw~A   PV_h    retire;go into seclusion
-    -- zwy     zaw~ay  PV_Atn  retire;go into seclusion
-    -- zw      zaw~    PV_ttAw retire;go into seclusion
-    -- zwy     zaw~iy  IV_0hAnn_yu     retire;go into seclusion
-    -- zw      zaw~    IV_0hwnyn_yu    retire;go into seclusion
-    -- zwY     zaw~aY  IV_0_Pass_yu    be retired;be secluded
-    -- zwy     zaw~ay  IV_Ann_Pass_yu  be retired;be secluded
-
-    FaCLY                     `verb`    {- zaw~aY -}           [ "retire", "go into seclusion", "be retired", "be secluded" ] ]
-
  |> "z w y" <| [
 
     -- ;; zawaY-i_1
@@ -5619,18 +5581,6 @@ lexicon = listing "Lexicon's properties"
     KaRDUS |< Iy              `adj`     {- zayotuwniy~ -}      [ "olive-like", "olive" ] ]
 
  |> "z y y" <| [
-
-    -- ;; zay~aY_1
-    -- zyY     zay~aY  PV_0    dress;clothe
-    -- zyA     zay~A   PV_h    dress;clothe
-    -- zyy     zay~ay  PV_Atn  dress;clothe
-    -- zy      zay~    PV_ttAw dress;clothe
-    -- zyy     zay~iy  IV_0hAnn_yu     dress;clothe
-    -- zy      zay~    IV_0hwnyn_yu    dress;clothe
-    -- zyY     zay~aY  IV_0_Pass_yu    be dressed;be clothed
-    -- zyy     zay~ay  IV_Ann_Pass_yu  be dressed;be clothed
-
-    FaCLY                     `verb`    {- zay~aY -}           [ "dress", "clothe", "be dressed", "be clothed" ],
 
     -- ;; zay~aY_1
     -- zyY     zay~aY  PV_0    dress;clothe

@@ -5747,60 +5747,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^s h h' => [
-    {
-      'types' => {
-        '^sahhA' => {
-          'PV_h' => 1
-        },
-        '^sahhY' => {},
-        '^sahhiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '^sahh' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '^sahhay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        }
-      },
-      'entry' => '^sahhY',
-      'form' => '^sahhY',
-      'lines' => [
-        ';; $ah~aY_1',
-        '$hY     $ah~aY  PV_0    excite;arouse',
-        '$hA     $ah~A   PV_h    excite;arouse',
-        '$hy     $ah~ay  PV_Atn  excite;arouse',
-        '$h      $ah~    PV_ttAw excite;arouse',
-        '$hy     $ah~iy  IV_0hAnn_yu     excite;arouse',
-        '$h      $ah~    IV_0hwnyn_yu    excite;arouse',
-        '$hY     $ah~aY  IV_0_Pass_yu    be excited;be aroused',
-        '$hy     $ah~ay  IV_Ann_Pass_yu  be excited;be aroused'
-      ],
-      'patterns' => {
-        '^sahhiy' => [
-          'FaCCI'
-        ],
-        '^sahh' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'excite',
-        'arouse',
-        'be excited',
-        'be aroused'
-      ],
-      'orig' => '$ah~aY',
-      'prefix' => ''
-    }
-  ],
   '^s w q' => [
     {
       'types' => {
@@ -13874,27 +13820,6 @@ $Lexicon = {
         'disruption'
       ],
       'orig' => 'ta$otiyt',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '^sattY',
-      'form' => '^sattY',
-      'lines' => [],
-      'patterns' => {
-        '^satt' => [
-          'FaCL'
-        ],
-        '^sattiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => '$at~aY',
       'prefix' => ''
     }
   ],
@@ -22357,27 +22282,6 @@ $Lexicon = {
         'fractures'
       ],
       'orig' => '$aj~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '^sa^g^gY',
-      'form' => '^sa^g^gY',
-      'lines' => [],
-      'patterns' => {
-        '^sa^g^g' => [
-          'FaCL'
-        ],
-        '^sa^g^giy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => '$aj~aY',
       'prefix' => ''
     },
     {
@@ -35039,10 +34943,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '^sahhA' => {
+          'PV_h' => 1
+        },
+        '^sahhY' => {},
+        '^sahhiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '^sahh' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '^sahhay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        }
+      },
       'entry' => '^sahhY',
       'form' => '^sahhY',
-      'lines' => [],
+      'lines' => [
+        ';; $ah~aY_1',
+        '$hY     $ah~aY  PV_0    excite;arouse',
+        '$hA     $ah~A   PV_h    excite;arouse',
+        '$hy     $ah~ay  PV_Atn  excite;arouse',
+        '$h      $ah~    PV_ttAw excite;arouse',
+        '$hy     $ah~iy  IV_0hAnn_yu     excite;arouse',
+        '$h      $ah~    IV_0hwnyn_yu    excite;arouse',
+        '$hY     $ah~aY  IV_0_Pass_yu    be excited;be aroused',
+        '$hy     $ah~ay  IV_Ann_Pass_yu  be excited;be aroused'
+      ],
       'patterns' => {
         '^sahhiy' => [
           'FaCCiL',
@@ -35056,7 +34986,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'excite',
+        'arouse',
+        'be excited',
+        'be aroused'
+      ],
       'orig' => '$ah~aY',
       'prefix' => ''
     },
@@ -48393,9 +48328,6 @@ $Lexicon->{'^s y l'}[5]{'glosses'} = $Lexicon->{'^s y l'}[4]{'glosses'};
 $Lexicon->{'^s \' q'}[0]{'types'} = $Lexicon->{'^s w q'}[8]{'types'};
 $Lexicon->{'^s \' q'}[0]{'lines'} = $Lexicon->{'^s w q'}[8]{'lines'};
 $Lexicon->{'^s \' q'}[0]{'glosses'} = $Lexicon->{'^s w q'}[8]{'glosses'};
-$Lexicon->{'^s t t'}[9]{'types'} = $Lexicon->{'^s t w'}[1]{'types'};
-$Lexicon->{'^s t t'}[9]{'lines'} = $Lexicon->{'^s t w'}[1]{'lines'};
-$Lexicon->{'^s t t'}[9]{'glosses'} = $Lexicon->{'^s t w'}[1]{'glosses'};
 $Lexicon->{'^s ^g w'}[1]{'types'} = $Lexicon->{'^s ^g y'}[0]{'types'};
 $Lexicon->{'^s ^g w'}[1]{'lines'} = $Lexicon->{'^s ^g y'}[0]{'lines'};
 $Lexicon->{'^s ^g w'}[1]{'glosses'} = $Lexicon->{'^s ^g y'}[0]{'glosses'};
@@ -48415,9 +48347,6 @@ $Lexicon->{'^s y r k'}[0]{'glosses'} = $Lexicon->{'^s r k'}[22]{'glosses'};
 $Lexicon->{'^s f y'}[1]{'types'} = $Lexicon->{'^s f w'}[11]{'types'};
 $Lexicon->{'^s f y'}[1]{'lines'} = $Lexicon->{'^s f w'}[11]{'lines'};
 $Lexicon->{'^s f y'}[1]{'glosses'} = $Lexicon->{'^s f w'}[11]{'glosses'};
-$Lexicon->{'^s ^g ^g'}[2]{'types'} = $Lexicon->{'^s ^g w'}[2]{'types'};
-$Lexicon->{'^s ^g ^g'}[2]{'lines'} = $Lexicon->{'^s ^g w'}[2]{'lines'};
-$Lexicon->{'^s ^g ^g'}[2]{'glosses'} = $Lexicon->{'^s ^g w'}[2]{'glosses'};
 $Lexicon->{'^s t \''}[0]{'types'} = $Lexicon->{'^s t w'}[3]{'types'};
 $Lexicon->{'^s t \''}[0]{'lines'} = $Lexicon->{'^s t w'}[3]{'lines'};
 $Lexicon->{'^s t \''}[0]{'glosses'} = $Lexicon->{'^s t w'}[3]{'glosses'};
@@ -48487,9 +48416,6 @@ $Lexicon->{'^s ` w'}[0]{'glosses'} = $Lexicon->{'^s ` w \''}[0]{'glosses'};
 $Lexicon->{'^s h y'}[1]{'types'} = $Lexicon->{'^s h y'}[0]{'types'};
 $Lexicon->{'^s h y'}[1]{'lines'} = $Lexicon->{'^s h y'}[0]{'lines'};
 $Lexicon->{'^s h y'}[1]{'glosses'} = $Lexicon->{'^s h y'}[0]{'glosses'};
-$Lexicon->{'^s h y'}[2]{'types'} = $Lexicon->{'^s h h'}[0]{'types'};
-$Lexicon->{'^s h y'}[2]{'lines'} = $Lexicon->{'^s h h'}[0]{'lines'};
-$Lexicon->{'^s h y'}[2]{'glosses'} = $Lexicon->{'^s h h'}[0]{'glosses'};
 $Lexicon->{'^s w b'}[3]{'types'} = $Lexicon->{'^s \' b'}[0]{'types'};
 $Lexicon->{'^s w b'}[3]{'lines'} = $Lexicon->{'^s \' b'}[0]{'lines'};
 $Lexicon->{'^s w b'}[3]{'glosses'} = $Lexicon->{'^s \' b'}[0]{'glosses'};

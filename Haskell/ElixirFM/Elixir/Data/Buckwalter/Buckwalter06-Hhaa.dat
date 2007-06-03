@@ -5850,7 +5850,7 @@ Hwz     Huwz    IV_V    possess;attain
 Hz      Huz     IV_C    possess;attain
 ;; HAz-i_1
 HAz     HAz     PV_V    drive on;urge on (camels)
-Hz      Haz     PV_C    drive on;urge on (camels)
+Hz      Hiz     PV_C    drive on;urge on (camels)
 Hyz     Hiyz    IV_V    drive on;urge on (camels)
 Hz      Hiz     IV_C    drive on;urge on (camels)
 ;; taHaw~az_1
@@ -6274,7 +6274,7 @@ Hwy     Haway   PV_Atn  gather;encompass;clasp
 Hw      Haw     PV_ttAw gather;encompass;clasp
 Hwy     Howiy   IV_0hAnn        gather;encompass;clasp
 Hw      How     IV_0hwnyn       gather;encompass;clasp
-HwY     HowaY   IV_0    gather;encompass;clasp
+HwY     HowaY   IV_0_Pass_yu    gather;encompass;clasp
 ;; taHaw~aY_1
 tHwY    taHaw~aY        PV_0    curl up;coil up
 tHwA    taHaw~A PV_h    curl up;coil up

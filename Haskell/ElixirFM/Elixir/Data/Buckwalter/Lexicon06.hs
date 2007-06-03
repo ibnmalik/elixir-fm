@@ -2114,19 +2114,7 @@ lexicon = listing "Lexicon's properties"
 
     MaFCaL                    `noun`    {- maHo$a$ -}          [ "hashish den", "hashish dens" ]
                               `plural`     MaFACiL
-                           {- `others`  [ "ma.hA^si^s Ndip" ] -},
-
-    -- ;; Ha$~aY_1
-    -- H$Y     Ha$~aY  PV_0    insert;interpolate
-    -- H$A     Ha$~A   PV_h    insert;interpolate
-    -- H$y     Ha$~ay  PV_Atn  insert;interpolate
-    -- H$      Ha$~    PV_ttAw insert;interpolate
-    -- H$y     Ha$~iy  IV_0hAnn_yu     insert;interpolate
-    -- H$      Ha$~    IV_0hwnyn_yu    insert;interpolate
-    -- H$Y     Ha$~aY  IV_0_Pass_yu    be inserted;be interpolated
-    -- H$y     Ha$~ay  IV_Ann_Pass_yu  be inserted;be interpolated
-
-    FaCLY                     `verb`    {- Ha$~aY -}           [ "insert", "interpolate", "be inserted", "be interpolated" ] ]
+                           {- `others`  [ "ma.hA^si^s Ndip" ] -} ]
 
  |> ".h ^s d" <| [
 
@@ -5991,19 +5979,7 @@ lexicon = listing "Lexicon's properties"
 
     FaL |< aN                 `noun`    {- HalAF -}            [ "sweetness", "pleasantness" ]
                               `plural`     FaCA
-                           {- `others`  [ ".halA N0_Nhy" ] -},
-
-    -- ;; Hal~aY_1
-    -- HlY     Hal~aY  PV_0    sweeten;adorn;furnish
-    -- HlA     Hal~A   PV_h    sweeten;adorn;furnish
-    -- Hly     Hal~ay  PV_Atn  sweeten;adorn;furnish
-    -- Hl      Hal~    PV_ttAw sweeten;adorn;furnish
-    -- Hly     Hal~iy  IV_0hAnn_yu     sweeten;adorn;furnish
-    -- Hl      Hal~    IV_0hwnyn_yu    sweeten;adorn;furnish
-    -- HlY     Hal~aY  IV_0_Pass_yu    be sweetened;be adorned;be furnished
-    -- Hly     Hal~ay  IV_Ann_Pass_yu  be sweetened;be adorned;be furnished
-
-    FaCLY                     `verb`    {- Hal~aY -}           [ "sweeten", "adorn", "furnish", "be sweetened", "be adorned", "be furnished" ] ]
+                           {- `others`  [ ".halA N0_Nhy" ] -} ]
 
  |> ".h l m" <| [
 
@@ -7166,19 +7142,7 @@ lexicon = listing "Lexicon's properties"
 
     FuL |< aT                 `noun`    {- Humap -}            [ "sting", "prick", "stings", "pricks" ]
                               `plural`     FuCY
-                           {- `others`  [ ".humY N0" ] -},
-
-    -- ;; Ham~aY_1
-    -- HmY     Ham~aY  PV_0    make hot;kindle
-    -- HmA     Ham~A   PV_h    make hot;kindle
-    -- Hmy     Ham~ay  PV_Atn  make hot;kindle
-    -- Hm      Ham~    PV_ttAw make hot;kindle
-    -- Hmy     Ham~iy  IV_0hAnn_yu     make hot;kindle
-    -- Hm      Ham~    IV_0hwnyn_yu    make hot;kindle
-    -- HmY     Ham~aY  IV_0_Pass_yu    be heated;be kindled
-    -- Hmy     Ham~ay  IV_Ann_Pass_yu  be heated;be kindled
-
-    FaCLY                     `verb`    {- Ham~aY -}           [ "make hot", "kindle", "be heated", "be kindled" ] ]
+                           {- `others`  [ ".humY N0" ] -} ]
 
  |> ".h m q" <| [
 
@@ -12213,10 +12177,9 @@ lexicon = listing "Lexicon's properties"
     -- Hw      Haw     PV_ttAw gather;encompass;clasp
     -- Hwy     Howiy   IV_0hAnn        gather;encompass;clasp
     -- Hw      How     IV_0hwnyn       gather;encompass;clasp
-    -- HwY     HowaY   IV_0    gather;encompass;clasp
+    -- HwY     HowaY   IV_0_Pass_yu    gather;encompass;clasp
 
     FaCY                      `verb`    {- HawaY-i -}          [ "gather", "encompass", "clasp" ]
-                              `imperf`     FCY
                               `imperf`     FCI,
 
     -- ;; taHaw~aY_1
@@ -12316,13 +12279,13 @@ lexicon = listing "Lexicon's properties"
 
     -- ;; HAz-i_1
     -- HAz     HAz     PV_V    drive on;urge on (camels)
-    -- Hz      Haz     PV_C    drive on;urge on (camels)
+    -- Hz      Hiz     PV_C    drive on;urge on (camels)
     -- Hyz     Hiyz    IV_V    drive on;urge on (camels)
     -- Hz      Hiz     IV_C    drive on;urge on (camels)
 
     FAL                       `verb`    {- HAz-i -}            [ "drive on", "urge on (camels)" ]
                               `imperf`     FIL
-                              `pfirst`     FaL,
+                              `pfirst`     FiL,
 
     -- ;; taHaw~az_1
     -- tHwz    taHaw~az        PV_intr twist;coil
@@ -12997,7 +12960,7 @@ lexicon = listing "Lexicon's properties"
     -- HyY     Hay~aY  IV_0_Pass_yu    be granted a long life
     -- Hyy     Hay~ay  IV_Ann_Pass_yu  be granted a long life
 
-    FaCLY                     `verb`    {- Hay~aY -}           [ "grant a long life", "be granted a long life" ],
+    FaCCY                     `verb`    {- Hay~aY -}           [ "grant a long life", "be granted a long life" ],
 
     -- ;; >aHoyaY_1
     -- >HyY    >aHoyaY PV_0    enliven;celebrate

@@ -2201,19 +2201,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; makoduwd_1
     -- mkdwd   makoduwd        Nall    worn out;exhausted     [[makoduwd/ADJ]]
 
-    MaFCUL                    `adj`     {- makoduwd -}         [ "worn out", "exhausted" ],
-
-    -- ;; kad~aY_1
-    -- kdY     kad~aY  PV_0    beg
-    -- kdA     kad~A   PV_h    beg
-    -- kdy     kad~ay  PV_Atn  beg
-    -- kd      kad~    PV_ttAw beg
-    -- kdy     kad~iy  IV_0hAnn_yu     beg
-    -- kd      kad~    IV_0hwnyn_yu    beg
-    -- kdY     kad~aY  IV_0_Pass_yu    be begged
-    -- kdy     kad~ay  IV_Ann_Pass_yu  be begged
-
-    FaCLY                     `verb`    {- kad~aY -}           [ "beg", "be begged" ] ]
+    MaFCUL                    `adj`     {- makoduwd -}         [ "worn out", "exhausted" ] ]
 
  |> "k d m" <| [
 
@@ -5096,19 +5084,7 @@ lexicon = listing "Lexicon's properties"
     -- mknwn   makonuwn        Nall    concealed;well-kept     [[makonuwn/ADJ]]
     -- mknwn   makonuwn        NAt     hidden things     [[makonuwn/NOUN]]
 
-    MaFCUL                    `adj`     {- makonuwn -}         [ "concealed", "well-kept", "hidden things" ],
-
-    -- ;; kan~aY_1
-    -- knY     kan~aY  PV_0    nickname
-    -- knA     kan~A   PV_h    nickname
-    -- kny     kan~ay  PV_Atn  nickname
-    -- kn      kan~    PV_ttAw nickname
-    -- kny     kan~iy  IV_0hAnn_yu     nickname
-    -- kn      kan~    IV_0hwnyn_yu    nickname
-    -- knY     kan~aY  IV_0_Pass_yu    be nicknamed
-    -- kny     kan~ay  IV_Ann_Pass_yu  be nicknamed
-
-    FaCLY                     `verb`    {- kan~aY -}           [ "nickname", "be nicknamed" ] ]
+    MaFCUL                    `adj`     {- makonuwn -}         [ "concealed", "well-kept", "hidden things" ] ]
 
  |> "k n r" <| [
 

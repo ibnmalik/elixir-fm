@@ -746,58 +746,6 @@ $Lexicon = {
       ],
       'orig' => 'muzaj~aj',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'za^g^gA' => {
-          'PV_h' => 1
-        },
-        'za^g^g' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'za^g^giy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'za^g^gay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'za^g^gY' => {}
-      },
-      'entry' => 'za^g^gY',
-      'form' => 'za^g^gY',
-      'lines' => [
-        ';; zaj~aY_1',
-        'zjY     zaj~aY  PV_0    shove;jostle',
-        'zjA     zaj~A   PV_h    shove;jostle',
-        'zjy     zaj~ay  PV_Atn  shove;jostle',
-        'zj      zaj~    PV_ttAw shove;jostle',
-        'zjy     zaj~iy  IV_0hAnn_yu     shove;jostle',
-        'zj      zaj~    IV_0hwnyn_yu    shove;jostle',
-        'zjY     zaj~aY  IV_0_Pass_yu    be shoved;be jostled',
-        'zjy     zaj~ay  IV_Ann_Pass_yu  be shoved;be jostled'
-      ],
-      'patterns' => {
-        'za^g^g' => [
-          'FaCL'
-        ],
-        'za^g^giy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'shove',
-        'jostle',
-        'be shoved',
-        'be jostled'
-      ],
-      'orig' => 'zaj~aY',
-      'prefix' => ''
     }
   ],
   'z h r' => [
@@ -2772,60 +2720,6 @@ $Lexicon = {
   'z k k' => [
     {
       'types' => {
-        'zakkA' => {
-          'PV_h' => 1
-        },
-        'zakkiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'zakkay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'zakk' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'zakkY' => {}
-      },
-      'entry' => 'zakkY',
-      'form' => 'zakkY',
-      'lines' => [
-        ';; zak~aY_1',
-        'zkY     zak~aY  PV_0    augment;nominate;recommend',
-        'zkA     zak~A   PV_h    augment;nominate;recommend',
-        'zky     zak~ay  PV_Atn  augment;nominate;recommend',
-        'zk      zak~    PV_ttAw augment;nominate;recommend',
-        'zky     zak~iy  IV_0hAnn_yu     augment;nominate;recommend',
-        'zk      zak~    IV_0hwnyn_yu    augment;nominate;recommend',
-        'zkY     zak~aY  IV_0_Pass_yu    be augmented;be nominated;be recommended',
-        'zky     zak~ay  IV_Ann_Pass_yu  be augmented;be nominated;be recommended'
-      ],
-      'patterns' => {
-        'zakkiy' => [
-          'FaCCI'
-        ],
-        'zakk' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'augment',
-        'nominate',
-        'recommend',
-        'be augmented',
-        'be nominated',
-        'be recommended'
-      ],
-      'orig' => 'zak~aY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
         'zakA' => {
           'N0_Nhy' => 1
         },
@@ -3038,10 +2932,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'zakkA' => {
+          'PV_h' => 1
+        },
+        'zakkiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'zakkay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'zakk' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'zakkY' => {}
+      },
       'entry' => 'zakkY',
       'form' => 'zakkY',
-      'lines' => [],
+      'lines' => [
+        ';; zak~aY_1',
+        'zkY     zak~aY  PV_0    augment;nominate;recommend',
+        'zkA     zak~A   PV_h    augment;nominate;recommend',
+        'zky     zak~ay  PV_Atn  augment;nominate;recommend',
+        'zk      zak~    PV_ttAw augment;nominate;recommend',
+        'zky     zak~iy  IV_0hAnn_yu     augment;nominate;recommend',
+        'zk      zak~    IV_0hwnyn_yu    augment;nominate;recommend',
+        'zkY     zak~aY  IV_0_Pass_yu    be augmented;be nominated;be recommended',
+        'zky     zak~ay  IV_Ann_Pass_yu  be augmented;be nominated;be recommended'
+      ],
       'patterns' => {
         'zakkiy' => [
           'FaCCI'
@@ -3051,7 +2971,14 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'augment',
+        'nominate',
+        'recommend',
+        'be augmented',
+        'be nominated',
+        'be recommended'
+      ],
       'orig' => 'zak~aY',
       'prefix' => ''
     },
@@ -4153,10 +4080,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'za^g^gA' => {
+          'PV_h' => 1
+        },
+        'za^g^g' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'za^g^giy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'za^g^gay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'za^g^gY' => {}
+      },
       'entry' => 'za^g^gY',
       'form' => 'za^g^gY',
-      'lines' => [],
+      'lines' => [
+        ';; zaj~aY_1',
+        'zjY     zaj~aY  PV_0    shove;jostle',
+        'zjA     zaj~A   PV_h    shove;jostle',
+        'zjy     zaj~ay  PV_Atn  shove;jostle',
+        'zj      zaj~    PV_ttAw shove;jostle',
+        'zjy     zaj~iy  IV_0hAnn_yu     shove;jostle',
+        'zj      zaj~    IV_0hwnyn_yu    shove;jostle',
+        'zjY     zaj~aY  IV_0_Pass_yu    be shoved;be jostled',
+        'zjy     zaj~ay  IV_Ann_Pass_yu  be shoved;be jostled'
+      ],
       'patterns' => {
         'za^g^giy' => [
           'FaCCI'
@@ -4166,7 +4119,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'shove',
+        'jostle',
+        'be shoved',
+        'be jostled'
+      ],
       'orig' => 'zaj~aY',
       'prefix' => ''
     },
@@ -12689,60 +12647,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'z w w' => [
-    {
-      'types' => {
-        'zawwA' => {
-          'PV_h' => 1
-        },
-        'zawway' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'zawwY' => {},
-        'zawwiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'zaww' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        }
-      },
-      'entry' => 'zawwY',
-      'form' => 'zawwY',
-      'lines' => [
-        ';; zaw~aY_1',
-        'zwY     zaw~aY  PV_0    retire;go into seclusion',
-        'zwA     zaw~A   PV_h    retire;go into seclusion',
-        'zwy     zaw~ay  PV_Atn  retire;go into seclusion',
-        'zw      zaw~    PV_ttAw retire;go into seclusion',
-        'zwy     zaw~iy  IV_0hAnn_yu     retire;go into seclusion',
-        'zw      zaw~    IV_0hwnyn_yu    retire;go into seclusion',
-        'zwY     zaw~aY  IV_0_Pass_yu    be retired;be secluded',
-        'zwy     zaw~ay  IV_Ann_Pass_yu  be retired;be secluded'
-      ],
-      'patterns' => {
-        'zaww' => [
-          'FaCL'
-        ],
-        'zawwiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'retire',
-        'go into seclusion',
-        'be retired',
-        'be secluded'
-      ],
-      'orig' => 'zaw~aY',
-      'prefix' => ''
-    }
-  ],
   'z y ^g' => [
     {
       'types' => {},
@@ -13019,10 +12923,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'zawwA' => {
+          'PV_h' => 1
+        },
+        'zawway' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'zawwY' => {},
+        'zawwiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'zaww' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        }
+      },
       'entry' => 'zawwY',
       'form' => 'zawwY',
-      'lines' => [],
+      'lines' => [
+        ';; zaw~aY_1',
+        'zwY     zaw~aY  PV_0    retire;go into seclusion',
+        'zwA     zaw~A   PV_h    retire;go into seclusion',
+        'zwy     zaw~ay  PV_Atn  retire;go into seclusion',
+        'zw      zaw~    PV_ttAw retire;go into seclusion',
+        'zwy     zaw~iy  IV_0hAnn_yu     retire;go into seclusion',
+        'zw      zaw~    IV_0hwnyn_yu    retire;go into seclusion',
+        'zwY     zaw~aY  IV_0_Pass_yu    be retired;be secluded',
+        'zwy     zaw~ay  IV_Ann_Pass_yu  be retired;be secluded'
+      ],
       'patterns' => {
         'zawway' => [
           'FaCCaL'
@@ -13036,7 +12966,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'retire',
+        'go into seclusion',
+        'be retired',
+        'be secluded'
+      ],
       'orig' => 'zaw~aY',
       'prefix' => ''
     },
@@ -14363,7 +14298,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCLY',
+      'morphs' => 'FaCCY',
       'suffix' => '',
       'glosses' => [
         'dress',
@@ -14371,31 +14306,6 @@ $Lexicon = {
         'be dressed',
         'be clothed'
       ],
-      'orig' => 'zay~aY',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'zayyY',
-      'form' => 'zayyY',
-      'lines' => [],
-      'patterns' => {
-        'zayyiy' => [
-          'FaCCiL',
-          'FaCCI'
-        ],
-        'zayyay' => [
-          'FaCCaL'
-        ],
-        'zayy' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCY',
-      'suffix' => '',
-      'glosses' => [],
       'orig' => 'zay~aY',
       'prefix' => ''
     },
@@ -24391,12 +24301,6 @@ $Lexicon = {
     }
   ]
 };
-$Lexicon->{'z k w'}[2]{'types'} = $Lexicon->{'z k k'}[0]{'types'};
-$Lexicon->{'z k w'}[2]{'lines'} = $Lexicon->{'z k k'}[0]{'lines'};
-$Lexicon->{'z k w'}[2]{'glosses'} = $Lexicon->{'z k k'}[0]{'glosses'};
-$Lexicon->{'z ^g w'}[1]{'types'} = $Lexicon->{'z ^g ^g'}[11]{'types'};
-$Lexicon->{'z ^g w'}[1]{'lines'} = $Lexicon->{'z ^g ^g'}[11]{'lines'};
-$Lexicon->{'z ^g w'}[1]{'glosses'} = $Lexicon->{'z ^g ^g'}[11]{'glosses'};
 $Lexicon->{'z y f'}[6]{'types'} = $Lexicon->{'z \' f'}[0]{'types'};
 $Lexicon->{'z y f'}[6]{'lines'} = $Lexicon->{'z \' f'}[0]{'lines'};
 $Lexicon->{'z y f'}[6]{'glosses'} = $Lexicon->{'z \' f'}[0]{'glosses'};
@@ -24421,18 +24325,12 @@ $Lexicon->{'z y ^g'}[1]{'glosses'} = $Lexicon->{'z w ^g'}[10]{'glosses'};
 $Lexicon->{'z y ^g'}[2]{'types'} = $Lexicon->{'z w ^g'}[11]{'types'};
 $Lexicon->{'z y ^g'}[2]{'lines'} = $Lexicon->{'z w ^g'}[11]{'lines'};
 $Lexicon->{'z y ^g'}[2]{'glosses'} = $Lexicon->{'z w ^g'}[11]{'glosses'};
-$Lexicon->{'z w y'}[1]{'types'} = $Lexicon->{'z w w'}[0]{'types'};
-$Lexicon->{'z w y'}[1]{'lines'} = $Lexicon->{'z w w'}[0]{'lines'};
-$Lexicon->{'z w y'}[1]{'glosses'} = $Lexicon->{'z w w'}[0]{'glosses'};
-$Lexicon->{'z y y'}[1]{'types'} = $Lexicon->{'z y y'}[0]{'types'};
-$Lexicon->{'z y y'}[1]{'lines'} = $Lexicon->{'z y y'}[0]{'lines'};
-$Lexicon->{'z y y'}[1]{'glosses'} = $Lexicon->{'z y y'}[0]{'glosses'};
-$Lexicon->{'z y y'}[4]{'types'} = $Lexicon->{'z y y'}[3]{'types'};
-$Lexicon->{'z y y'}[4]{'lines'} = $Lexicon->{'z y y'}[3]{'lines'};
-$Lexicon->{'z y y'}[4]{'glosses'} = $Lexicon->{'z y y'}[3]{'glosses'};
-$Lexicon->{'z y y'}[5]{'types'} = $Lexicon->{'z y \''}[0]{'types'};
-$Lexicon->{'z y y'}[5]{'lines'} = $Lexicon->{'z y \''}[0]{'lines'};
-$Lexicon->{'z y y'}[5]{'glosses'} = $Lexicon->{'z y \''}[0]{'glosses'};
+$Lexicon->{'z y y'}[3]{'types'} = $Lexicon->{'z y y'}[2]{'types'};
+$Lexicon->{'z y y'}[3]{'lines'} = $Lexicon->{'z y y'}[2]{'lines'};
+$Lexicon->{'z y y'}[3]{'glosses'} = $Lexicon->{'z y y'}[2]{'glosses'};
+$Lexicon->{'z y y'}[4]{'types'} = $Lexicon->{'z y \''}[0]{'types'};
+$Lexicon->{'z y y'}[4]{'lines'} = $Lexicon->{'z y \''}[0]{'lines'};
+$Lexicon->{'z y y'}[4]{'glosses'} = $Lexicon->{'z y \''}[0]{'glosses'};
 $Lexicon->{'z r \''}[0]{'types'} = $Lexicon->{'z r y'}[7]{'types'};
 $Lexicon->{'z r \''}[0]{'lines'} = $Lexicon->{'z r y'}[7]{'lines'};
 $Lexicon->{'z r \''}[0]{'glosses'} = $Lexicon->{'z r y'}[7]{'glosses'};

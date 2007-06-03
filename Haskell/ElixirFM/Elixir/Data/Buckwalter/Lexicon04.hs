@@ -1380,19 +1380,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- vun~ap -}           [ "fetlock", "fetlocks" ]
                               `plural`     FuCaL
-                           {- `others`  [ "_tunan N" ] -},
-
-    -- ;; van~aY_1
-    -- vnY     van~aY  PV_0    fold;double
-    -- vnA     van~A   PV_h    fold;double
-    -- vny     van~ay  PV_Atn  fold;double
-    -- vn      van~    PV_ttAw fold;double
-    -- vny     van~iy  IV_0hAnn_yu     fold;double
-    -- vn      van~    IV_0hwnyn_yu    fold;double
-    -- vnY     van~aY  IV_0_Pass_yu    be folded;be doubled
-    -- vny     van~ay  IV_Ann_Pass_yu  be folded;be doubled
-
-    FaCLY                     `verb`    {- van~aY -}           [ "fold", "double", "be folded", "be doubled" ] ]
+                           {- `others`  [ "_tunan N" ] -} ]
 
  |> "_t n y" <| [
 
@@ -2408,19 +2396,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; vuw~ap_1
     -- vw      vuw~    Nap     road sign;signpost
 
-    FUL |< aT                 `noun`    {- vuw~ap -}           [ "road sign", "signpost" ],
-
-    -- ;; vaw~aY_1
-    -- vwY     vaw~aY  PV_0    give lodging;provide housing
-    -- vwA     vaw~A   PV_h    give lodging;provide housing
-    -- vwy     vaw~ay  PV_Atn  give lodging;provide housing
-    -- vw      vaw~    PV_ttAw give lodging;provide housing
-    -- vwy     vaw~iy  IV_0hAnn_yu     give lodging;provide housing
-    -- vw      vaw~    IV_0hwnyn_yu    give lodging;provide housing
-    -- vwY     vaw~aY  IV_0_Pass_yu    be given lodging;be housed
-    -- vwy     vaw~ay  IV_Ann_Pass_yu  be given lodging;be housed
-
-    FaCLY                     `verb`    {- vaw~aY -}           [ "give lodging", "provide housing", "be given lodging", "be housed" ] ]
+    FUL |< aT                 `noun`    {- vuw~ap -}           [ "road sign", "signpost" ] ]
 
  |> "_t w y" <| [
 

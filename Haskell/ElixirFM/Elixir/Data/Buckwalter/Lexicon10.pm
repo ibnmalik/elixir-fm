@@ -8427,60 +8427,6 @@ $Lexicon = {
       ],
       'orig' => 'mironAn',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'ranniy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'rann' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'rannay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'rannA' => {
-          'PV_h' => 1
-        },
-        'rannY' => {}
-      },
-      'entry' => 'rannY',
-      'form' => 'rannY',
-      'lines' => [
-        ';; ran~aY_1',
-        'rnY     ran~aY  PV_0    attract;please;delight',
-        'rnA     ran~A   PV_h    attract;please;delight',
-        'rny     ran~ay  PV_Atn  attract;please;delight',
-        'rn      ran~    PV_ttAw attract;please;delight',
-        'rny     ran~iy  IV_0hAnn_yu     attract;please;delight',
-        'rn      ran~    IV_0hwnyn_yu    attract;please;delight',
-        'rnY     ran~aY  IV_0_Pass_yu    be attracted;be pleased;be delighted',
-        'rny     ran~ay  IV_Ann_Pass_yu  be attracted;be pleased;be delighted'
-      ],
-      'patterns' => {
-        'ranniy' => [
-          'FaCCI'
-        ],
-        'rann' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'attract',
-        'please',
-        'delight',
-        'be attracted',
-        'be pleased',
-        'be delighted'
-      ],
-      'orig' => 'ran~aY',
-      'prefix' => ''
     }
   ],
   'rawAlbindiy' => [
@@ -18650,58 +18596,6 @@ $Lexicon = {
       ],
       'orig' => 'mutarad~id',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'radday' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'radd' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'raddA' => {
-          'PV_h' => 1
-        },
-        'raddY' => {},
-        'raddiy' => {
-          'IV_0hAnn_yu' => 1
-        }
-      },
-      'entry' => 'raddY',
-      'form' => 'raddY',
-      'lines' => [
-        ';; rad~aY_1',
-        'rdY     rad~aY  PV_0    make fall;annihilate',
-        'rdA     rad~A   PV_h    make fall;annihilate',
-        'rdy     rad~ay  PV_Atn  make fall;annihilate',
-        'rd      rad~    PV_ttAw make fall;annihilate',
-        'rdy     rad~iy  IV_0hAnn_yu     make fall;annihilate',
-        'rd      rad~    IV_0hwnyn_yu    make fall;annihilate',
-        'rdY     rad~aY  IV_0_Pass_yu    be struck down;be annihilated',
-        'rdy     rad~ay  IV_Ann_Pass_yu  be struck down;be annihilated'
-      ],
-      'patterns' => {
-        'radd' => [
-          'FaCL'
-        ],
-        'raddiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'make fall',
-        'annihilate',
-        'be struck down',
-        'be annihilated'
-      ],
-      'orig' => 'rad~aY',
-      'prefix' => ''
     }
   ],
   'r t w' => [
@@ -22110,58 +22004,6 @@ $Lexicon = {
         'marqouq (thin bread)'
       ],
       'orig' => 'maroquwq',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'raqqiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'raqqA' => {
-          'PV_h' => 1
-        },
-        'raqq' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'raqqay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'raqqY' => {}
-      },
-      'entry' => 'raqqY',
-      'form' => 'raqqY',
-      'lines' => [
-        ';; raq~aY_1',
-        'rqY     raq~aY  PV_0    promote;advance',
-        'rqA     raq~A   PV_h    promote;advance',
-        'rqy     raq~ay  PV_Atn  promote;advance',
-        'rq      raq~    PV_ttAw promote;advance',
-        'rqy     raq~iy  IV_0hAnn_yu     promote;advance',
-        'rq      raq~    IV_0hwnyn_yu    promote;advance',
-        'rqY     raq~aY  IV_0_Pass_yu    be promoted;be advanced',
-        'rqy     raq~ay  IV_Ann_Pass_yu  be promoted;be advanced'
-      ],
-      'patterns' => {
-        'raqqiy' => [
-          'FaCCI'
-        ],
-        'raqq' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'promote',
-        'advance',
-        'be promoted',
-        'be advanced'
-      ],
-      'orig' => 'raq~aY',
       'prefix' => ''
     }
   ],
@@ -27162,10 +27004,36 @@ $Lexicon = {
   ],
   'r n y' => [
     {
-      'types' => {},
+      'types' => {
+        'ranniy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'rann' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'rannay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'rannA' => {
+          'PV_h' => 1
+        },
+        'rannY' => {}
+      },
       'entry' => 'rannY',
       'form' => 'rannY',
-      'lines' => [],
+      'lines' => [
+        ';; ran~aY_1',
+        'rnY     ran~aY  PV_0    attract;please;delight',
+        'rnA     ran~A   PV_h    attract;please;delight',
+        'rny     ran~ay  PV_Atn  attract;please;delight',
+        'rn      ran~    PV_ttAw attract;please;delight',
+        'rny     ran~iy  IV_0hAnn_yu     attract;please;delight',
+        'rn      ran~    IV_0hwnyn_yu    attract;please;delight',
+        'rnY     ran~aY  IV_0_Pass_yu    be attracted;be pleased;be delighted',
+        'rny     ran~ay  IV_Ann_Pass_yu  be attracted;be pleased;be delighted'
+      ],
       'patterns' => {
         'ranniy' => [
           'FaCCiL',
@@ -27179,7 +27047,14 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'attract',
+        'please',
+        'delight',
+        'be attracted',
+        'be pleased',
+        'be delighted'
+      ],
       'orig' => 'ran~aY',
       'prefix' => ''
     },
@@ -32747,10 +32622,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'raqqiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'raqqA' => {
+          'PV_h' => 1
+        },
+        'raqq' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'raqqay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'raqqY' => {}
+      },
       'entry' => 'raqqY',
       'form' => 'raqqY',
-      'lines' => [],
+      'lines' => [
+        ';; raq~aY_1',
+        'rqY     raq~aY  PV_0    promote;advance',
+        'rqA     raq~A   PV_h    promote;advance',
+        'rqy     raq~ay  PV_Atn  promote;advance',
+        'rq      raq~    PV_ttAw promote;advance',
+        'rqy     raq~iy  IV_0hAnn_yu     promote;advance',
+        'rq      raq~    IV_0hwnyn_yu    promote;advance',
+        'rqY     raq~aY  IV_0_Pass_yu    be promoted;be advanced',
+        'rqy     raq~ay  IV_Ann_Pass_yu  be promoted;be advanced'
+      ],
       'patterns' => {
         'raqqiy' => [
           'FaCCiL',
@@ -32764,7 +32665,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'promote',
+        'advance',
+        'be promoted',
+        'be advanced'
+      ],
       'orig' => 'raq~aY',
       'prefix' => ''
     },
@@ -34844,27 +34750,6 @@ $Lexicon = {
         'bruised'
       ],
       'orig' => 'raDiyD',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ra.d.dY',
-      'form' => 'ra.d.dY',
-      'lines' => [],
-      'patterns' => {
-        'ra.d.d' => [
-          'FaCL'
-        ],
-        'ra.d.diy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'raD~aY',
       'prefix' => ''
     }
   ],
@@ -39365,27 +39250,6 @@ $Lexicon = {
       ],
       'orig' => 'rut~',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'rattY',
-      'form' => 'rattY',
-      'lines' => [],
-      'patterns' => {
-        'rattiy' => [
-          'FaCCI'
-        ],
-        'ratt' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'rat~aY',
-      'prefix' => ''
     }
   ],
   'r w ^s w' => [
@@ -43584,6 +43448,63 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'r .g _t' => [
+    {
+      'types' => {
+        'r.ga_t' => {
+          'IV' => 1
+        },
+        'ra.ga_t' => {}
+      },
+      'entry' => 'ra.ga_t',
+      'form' => 'ra.ga_t',
+      'lines' => [
+        ';; ragav-a_1',
+        'rgv     ragav   PV      breast-feed',
+        'rgv     rogav   IV      breast-feed'
+      ],
+      'patterns' => {
+        'r.ga_t' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'breast-feed'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'ragav-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ra.guw_t' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => 'ra.guw_t',
+      'form' => 'ra.guw_t',
+      'lines' => [
+        ';; raguwv_1',
+        'rgwv    raguwv  Nall    unweaned'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCUL',
+      'suffix' => '',
+      'glosses' => [
+        'unweaned'
+      ],
+      'orig' => 'raguwv',
+      'prefix' => ''
+    }
+  ],
   'r f w' => [
     {
       'types' => {
@@ -43669,63 +43590,6 @@ $Lexicon = {
         'darning'
       ],
       'orig' => 'rafow',
-      'prefix' => ''
-    }
-  ],
-  'r .g _t' => [
-    {
-      'types' => {
-        'r.ga_t' => {
-          'IV' => 1
-        },
-        'ra.ga_t' => {}
-      },
-      'entry' => 'ra.ga_t',
-      'form' => 'ra.ga_t',
-      'lines' => [
-        ';; ragav-a_1',
-        'rgv     ragav   PV      breast-feed',
-        'rgv     rogav   IV      breast-feed'
-      ],
-      'patterns' => {
-        'r.ga_t' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'breast-feed'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'ragav-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ra.guw_t' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => 'ra.guw_t',
-      'form' => 'ra.guw_t',
-      'lines' => [
-        ';; raguwv_1',
-        'rgwv    raguwv  Nall    unweaned'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCUL',
-      'suffix' => '',
-      'glosses' => [
-        'unweaned'
-      ],
-      'orig' => 'raguwv',
       'prefix' => ''
     }
   ],
@@ -47764,29 +47628,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'r s s' => [
-    {
-      'types' => {},
-      'entry' => 'rassY',
-      'form' => 'rassY',
-      'lines' => [],
-      'patterns' => {
-        'rassiy' => [
-          'FaCCI'
-        ],
-        'rass' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'ras~aY',
-      'prefix' => ''
-    }
-  ],
   'r ^s n' => [
     {
       'types' => {
@@ -48580,29 +48421,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'r w w' => [
-    {
-      'types' => {},
-      'entry' => 'rawwY',
-      'form' => 'rawwY',
-      'lines' => [],
-      'patterns' => {
-        'rawwiy' => [
-          'FaCCI'
-        ],
-        'raww' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'raw~aY',
-      'prefix' => ''
-    }
-  ],
   'r h w' => [
     {
       'types' => {
@@ -48788,27 +48606,6 @@ $Lexicon = {
     }
   ],
   'r .g .g' => [
-    {
-      'types' => {},
-      'entry' => 'ra.g.gY',
-      'form' => 'ra.g.gY',
-      'lines' => [],
-      'patterns' => {
-        'ra.g.g' => [
-          'FaCL'
-        ],
-        'ra.g.giy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'rag~aY',
-      'prefix' => ''
-    },
     {
       'types' => {},
       'entry' => 'ra.g.gA\'',
@@ -52166,27 +51963,6 @@ $Lexicon = {
       'suffix' => ' |< Iy',
       'glosses' => [],
       'orig' => 'rab~Aniy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'rabbY',
-      'form' => 'rabbY',
-      'lines' => [],
-      'patterns' => {
-        'rabb' => [
-          'FaCL'
-        ],
-        'rabbiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'rab~aY',
       'prefix' => ''
     }
   ],
@@ -55725,10 +55501,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'radday' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'radd' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'raddA' => {
+          'PV_h' => 1
+        },
+        'raddY' => {},
+        'raddiy' => {
+          'IV_0hAnn_yu' => 1
+        }
+      },
       'entry' => 'raddY',
       'form' => 'raddY',
-      'lines' => [],
+      'lines' => [
+        ';; rad~aY_1',
+        'rdY     rad~aY  PV_0    make fall;annihilate',
+        'rdA     rad~A   PV_h    make fall;annihilate',
+        'rdy     rad~ay  PV_Atn  make fall;annihilate',
+        'rd      rad~    PV_ttAw make fall;annihilate',
+        'rdy     rad~iy  IV_0hAnn_yu     make fall;annihilate',
+        'rd      rad~    IV_0hwnyn_yu    make fall;annihilate',
+        'rdY     rad~aY  IV_0_Pass_yu    be struck down;be annihilated',
+        'rdy     rad~ay  IV_Ann_Pass_yu  be struck down;be annihilated'
+      ],
       'patterns' => {
         'radday' => [
           'FaCCaL'
@@ -55742,7 +55544,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'make fall',
+        'annihilate',
+        'be struck down',
+        'be annihilated'
+      ],
       'orig' => 'rad~aY',
       'prefix' => ''
     },
@@ -58207,9 +58014,6 @@ $Lexicon->{'r t d'}[1]{'glosses'} = $Lexicon->{'r d d'}[15]{'glosses'};
 $Lexicon->{'r t d'}[2]{'types'} = $Lexicon->{'r d d'}[19]{'types'};
 $Lexicon->{'r t d'}[2]{'lines'} = $Lexicon->{'r d d'}[19]{'lines'};
 $Lexicon->{'r t d'}[2]{'glosses'} = $Lexicon->{'r d d'}[19]{'glosses'};
-$Lexicon->{'r n y'}[0]{'types'} = $Lexicon->{'r n n'}[6]{'types'};
-$Lexicon->{'r n y'}[0]{'lines'} = $Lexicon->{'r n n'}[6]{'lines'};
-$Lexicon->{'r n y'}[0]{'glosses'} = $Lexicon->{'r n n'}[6]{'glosses'};
 $Lexicon->{'r w b'}[8]{'types'} = $Lexicon->{'r w b'}[7]{'types'};
 $Lexicon->{'r w b'}[8]{'lines'} = $Lexicon->{'r w b'}[7]{'lines'};
 $Lexicon->{'r w b'}[8]{'glosses'} = $Lexicon->{'r w b'}[7]{'glosses'};
@@ -58228,9 +58032,6 @@ $Lexicon->{'r w ^g'}[6]{'glosses'} = $Lexicon->{'r \' ^g'}[0]{'glosses'};
 $Lexicon->{'r ` w'}[3]{'types'} = $Lexicon->{'r ` \''}[0]{'types'};
 $Lexicon->{'r ` w'}[3]{'lines'} = $Lexicon->{'r ` \''}[0]{'lines'};
 $Lexicon->{'r ` w'}[3]{'glosses'} = $Lexicon->{'r ` \''}[0]{'glosses'};
-$Lexicon->{'r q y'}[1]{'types'} = $Lexicon->{'r q q'}[17]{'types'};
-$Lexicon->{'r q y'}[1]{'lines'} = $Lexicon->{'r q q'}[17]{'lines'};
-$Lexicon->{'r q y'}[1]{'glosses'} = $Lexicon->{'r q q'}[17]{'glosses'};
 $Lexicon->{'r q y'}[11]{'types'} = $Lexicon->{'r q \''}[1]{'types'};
 $Lexicon->{'r q y'}[11]{'lines'} = $Lexicon->{'r q \''}[1]{'lines'};
 $Lexicon->{'r q y'}[11]{'glosses'} = $Lexicon->{'r q \''}[1]{'glosses'};
@@ -58252,9 +58053,6 @@ $Lexicon->{'r w \''}[3]{'glosses'} = $Lexicon->{'r w y'}[13]{'glosses'};
 $Lexicon->{'r w \''}[4]{'types'} = $Lexicon->{'r w y'}[15]{'types'};
 $Lexicon->{'r w \''}[4]{'lines'} = $Lexicon->{'r w y'}[15]{'lines'};
 $Lexicon->{'r w \''}[4]{'glosses'} = $Lexicon->{'r w y'}[15]{'glosses'};
-$Lexicon->{'r .d .d'}[3]{'types'} = $Lexicon->{'r .d y'}[1]{'types'};
-$Lexicon->{'r .d .d'}[3]{'lines'} = $Lexicon->{'r .d y'}[1]{'lines'};
-$Lexicon->{'r .d .d'}[3]{'glosses'} = $Lexicon->{'r .d y'}[1]{'glosses'};
 $Lexicon->{'r w k'}[1]{'types'} = $Lexicon->{'r w k'}[0]{'types'};
 $Lexicon->{'r w k'}[1]{'lines'} = $Lexicon->{'r w k'}[0]{'lines'};
 $Lexicon->{'r w k'}[1]{'glosses'} = $Lexicon->{'r w k'}[0]{'glosses'};
@@ -58273,9 +58071,6 @@ $Lexicon->{'r w `'}[15]{'glosses'} = $Lexicon->{'r y `'}[1]{'glosses'};
 $Lexicon->{'r y .h'}[5]{'types'} = $Lexicon->{'r .h n'}[0]{'types'};
 $Lexicon->{'r y .h'}[5]{'lines'} = $Lexicon->{'r .h n'}[0]{'lines'};
 $Lexicon->{'r y .h'}[5]{'glosses'} = $Lexicon->{'r .h n'}[0]{'glosses'};
-$Lexicon->{'r t t'}[2]{'types'} = $Lexicon->{'r t w'}[1]{'types'};
-$Lexicon->{'r t t'}[2]{'lines'} = $Lexicon->{'r t w'}[1]{'lines'};
-$Lexicon->{'r t t'}[2]{'glosses'} = $Lexicon->{'r t w'}[1]{'glosses'};
 $Lexicon->{'r m y'}[1]{'types'} = $Lexicon->{'r m y'}[0]{'types'};
 $Lexicon->{'r m y'}[1]{'lines'} = $Lexicon->{'r m y'}[0]{'lines'};
 $Lexicon->{'r m y'}[1]{'glosses'} = $Lexicon->{'r m y'}[0]{'glosses'};
@@ -58303,9 +58098,6 @@ $Lexicon->{'r w .h'}[41]{'glosses'} = $Lexicon->{'r y .h'}[13]{'glosses'};
 $Lexicon->{'r w .h'}[43]{'types'} = $Lexicon->{'r y .h'}[14]{'types'};
 $Lexicon->{'r w .h'}[43]{'lines'} = $Lexicon->{'r y .h'}[14]{'lines'};
 $Lexicon->{'r w .h'}[43]{'glosses'} = $Lexicon->{'r y .h'}[14]{'glosses'};
-$Lexicon->{'r s s'}[0]{'types'} = $Lexicon->{'r s w'}[1]{'types'};
-$Lexicon->{'r s s'}[0]{'lines'} = $Lexicon->{'r s w'}[1]{'lines'};
-$Lexicon->{'r s s'}[0]{'glosses'} = $Lexicon->{'r s w'}[1]{'glosses'};
 $Lexicon->{'r \' .h'}[0]{'types'} = $Lexicon->{'r w .h'}[39]{'types'};
 $Lexicon->{'r \' .h'}[0]{'lines'} = $Lexicon->{'r w .h'}[39]{'lines'};
 $Lexicon->{'r \' .h'}[0]{'glosses'} = $Lexicon->{'r w .h'}[39]{'glosses'};
@@ -58327,15 +58119,9 @@ $Lexicon->{'r ^g w'}[7]{'glosses'} = $Lexicon->{'r ^g \''}[6]{'glosses'};
 $Lexicon->{'r ^g w'}[12]{'types'} = $Lexicon->{'r ^g y'}[1]{'types'};
 $Lexicon->{'r ^g w'}[12]{'lines'} = $Lexicon->{'r ^g y'}[1]{'lines'};
 $Lexicon->{'r ^g w'}[12]{'glosses'} = $Lexicon->{'r ^g y'}[1]{'glosses'};
-$Lexicon->{'r w w'}[0]{'types'} = $Lexicon->{'r w y'}[1]{'types'};
-$Lexicon->{'r w w'}[0]{'lines'} = $Lexicon->{'r w y'}[1]{'lines'};
-$Lexicon->{'r w w'}[0]{'glosses'} = $Lexicon->{'r w y'}[1]{'glosses'};
-$Lexicon->{'r .g .g'}[0]{'types'} = $Lexicon->{'r .g w'}[1]{'types'};
-$Lexicon->{'r .g .g'}[0]{'lines'} = $Lexicon->{'r .g w'}[1]{'lines'};
-$Lexicon->{'r .g .g'}[0]{'glosses'} = $Lexicon->{'r .g w'}[1]{'glosses'};
-$Lexicon->{'r .g .g'}[1]{'types'} = $Lexicon->{'r .g \''}[0]{'types'};
-$Lexicon->{'r .g .g'}[1]{'lines'} = $Lexicon->{'r .g \''}[0]{'lines'};
-$Lexicon->{'r .g .g'}[1]{'glosses'} = $Lexicon->{'r .g \''}[0]{'glosses'};
+$Lexicon->{'r .g .g'}[0]{'types'} = $Lexicon->{'r .g \''}[0]{'types'};
+$Lexicon->{'r .g .g'}[0]{'lines'} = $Lexicon->{'r .g \''}[0]{'lines'};
+$Lexicon->{'r .g .g'}[0]{'glosses'} = $Lexicon->{'r .g \''}[0]{'glosses'};
 $Lexicon->{'r ^s \''}[0]{'types'} = $Lexicon->{'r ^s w'}[4]{'types'};
 $Lexicon->{'r ^s \''}[0]{'lines'} = $Lexicon->{'r ^s w'}[4]{'lines'};
 $Lexicon->{'r ^s \''}[0]{'glosses'} = $Lexicon->{'r ^s w'}[4]{'glosses'};
@@ -58357,9 +58143,6 @@ $Lexicon->{'r b b'}[14]{'glosses'} = $Lexicon->{'r b n'}[0]{'glosses'};
 $Lexicon->{'r b b'}[15]{'types'} = $Lexicon->{'r b n'}[1]{'types'};
 $Lexicon->{'r b b'}[15]{'lines'} = $Lexicon->{'r b n'}[1]{'lines'};
 $Lexicon->{'r b b'}[15]{'glosses'} = $Lexicon->{'r b n'}[1]{'glosses'};
-$Lexicon->{'r b b'}[16]{'types'} = $Lexicon->{'r b w'}[1]{'types'};
-$Lexicon->{'r b b'}[16]{'lines'} = $Lexicon->{'r b w'}[1]{'lines'};
-$Lexicon->{'r b b'}[16]{'glosses'} = $Lexicon->{'r b w'}[1]{'glosses'};
 $Lexicon->{'r b y'}[1]{'types'} = $Lexicon->{'r b w'}[11]{'types'};
 $Lexicon->{'r b y'}[1]{'lines'} = $Lexicon->{'r b w'}[11]{'lines'};
 $Lexicon->{'r b y'}[1]{'glosses'} = $Lexicon->{'r b w'}[11]{'glosses'};
@@ -58381,9 +58164,6 @@ $Lexicon->{'r y .h n'}[1]{'glosses'} = $Lexicon->{'r .h n'}[0]{'glosses'};
 $Lexicon->{'r y .h n'}[2]{'types'} = $Lexicon->{'r y .h'}[6]{'types'};
 $Lexicon->{'r y .h n'}[2]{'lines'} = $Lexicon->{'r y .h'}[6]{'lines'};
 $Lexicon->{'r y .h n'}[2]{'glosses'} = $Lexicon->{'r y .h'}[6]{'glosses'};
-$Lexicon->{'r d y'}[1]{'types'} = $Lexicon->{'r d d'}[22]{'types'};
-$Lexicon->{'r d y'}[1]{'lines'} = $Lexicon->{'r d d'}[22]{'lines'};
-$Lexicon->{'r d y'}[1]{'glosses'} = $Lexicon->{'r d d'}[22]{'glosses'};
 $Lexicon->{'r d y'}[6]{'types'} = $Lexicon->{'r d \''}[7]{'types'};
 $Lexicon->{'r d y'}[6]{'lines'} = $Lexicon->{'r d \''}[7]{'lines'};
 $Lexicon->{'r d y'}[6]{'glosses'} = $Lexicon->{'r d \''}[7]{'glosses'};

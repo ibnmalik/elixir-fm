@@ -4681,58 +4681,6 @@ $Lexicon = {
       ],
       'orig' => 'muEotam~',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '`ammay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '`ammY' => {},
-        '`amm' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '`ammiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '`ammA' => {
-          'PV_h' => 1
-        }
-      },
-      'entry' => '`ammY',
-      'form' => '`ammY',
-      'lines' => [
-        ';; Eam~aY_1',
-        'EmY     Eam~aY  PV_0    make blind;camouflage',
-        'EmA     Eam~A   PV_h    make blind;camouflage',
-        'Emy     Eam~ay  PV_Atn  make blind;camouflage',
-        'Em      Eam~    PV_ttAw make blind;camouflage',
-        'Emy     Eam~iy  IV_0hAnn_yu     make blind;camouflage',
-        'Em      Eam~    IV_0hwnyn_yu    make blind;camouflage',
-        'EmY     Eam~aY  IV_0_Pass_yu    be blinded;be camouflaged',
-        'Emy     Eam~ay  IV_Ann_Pass_yu  be blinded;be camouflaged'
-      ],
-      'patterns' => {
-        '`amm' => [
-          'FaCL'
-        ],
-        '`ammiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'make blind',
-        'camouflage',
-        'be blinded',
-        'be camouflaged'
-      ],
-      'orig' => 'Eam~aY',
-      'prefix' => ''
     }
   ],
   '` d s' => [
@@ -5629,56 +5577,6 @@ $Lexicon = {
       ],
       'orig' => 'taEo$iy$',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '`a^s^s' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '`a^s^sY' => {},
-        '`a^s^say' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '`a^s^sA' => {
-          'PV_h' => 1
-        },
-        '`a^s^siy' => {
-          'IV_0hAnn_yu' => 1
-        }
-      },
-      'entry' => '`a^s^sY',
-      'form' => '`a^s^sY',
-      'lines' => [
-        ';; Ea$~aY_1',
-        'E$Y     Ea$~aY  PV_0    give dinner',
-        'E$A     Ea$~A   PV_h    give dinner',
-        'E$y     Ea$~ay  PV_Atn  give dinner',
-        'E$      Ea$~    PV_ttAw give dinner',
-        'E$y     Ea$~iy  IV_0hAnn_yu     give dinner',
-        'E$      Ea$~    IV_0hwnyn_yu    give dinner',
-        'E$Y     Ea$~aY  IV_0_Pass_yu    be given dinner',
-        'E$y     Ea$~ay  IV_Ann_Pass_yu  be given dinner'
-      ],
-      'patterns' => {
-        '`a^s^s' => [
-          'FaCL'
-        ],
-        '`a^s^siy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'give dinner',
-        'be given dinner'
-      ],
-      'orig' => 'Ea$~aY',
-      'prefix' => ''
     }
   ],
   '`izzAlddiyn' => [
@@ -6391,58 +6289,6 @@ $Lexicon = {
         'modest'
       ],
       'orig' => 'mutaEaf~if',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '`aff' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '`affY' => {},
-        '`affay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '`affiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '`affA' => {
-          'PV_h' => 1
-        }
-      },
-      'entry' => '`affY',
-      'form' => '`affY',
-      'lines' => [
-        ';; Eaf~aY_1',
-        'EfY     Eaf~aY  PV_0    efface;eliminate',
-        'EfA     Eaf~A   PV_h    efface;eliminate',
-        'Efy     Eaf~ay  PV_Atn  efface;eliminate',
-        'Ef      Eaf~    PV_ttAw efface;eliminate',
-        'Efy     Eaf~iy  IV_0hAnn_yu     efface;eliminate',
-        'Ef      Eaf~    IV_0hwnyn_yu    efface;eliminate',
-        'EfY     Eaf~aY  IV_0_Pass_yu    be effaced;be eliminated',
-        'Efy     Eaf~ay  IV_Ann_Pass_yu  be effaced;be eliminated'
-      ],
-      'patterns' => {
-        '`aff' => [
-          'FaCL'
-        ],
-        '`affiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'efface',
-        'eliminate',
-        'be effaced',
-        'be eliminated'
-      ],
-      'orig' => 'Eaf~aY',
       'prefix' => ''
     }
   ],
@@ -17489,10 +17335,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '`a^s^s' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '`a^s^sY' => {},
+        '`a^s^say' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '`a^s^sA' => {
+          'PV_h' => 1
+        },
+        '`a^s^siy' => {
+          'IV_0hAnn_yu' => 1
+        }
+      },
       'entry' => '`a^s^sY',
       'form' => '`a^s^sY',
-      'lines' => [],
+      'lines' => [
+        ';; Ea$~aY_1',
+        'E$Y     Ea$~aY  PV_0    give dinner',
+        'E$A     Ea$~A   PV_h    give dinner',
+        'E$y     Ea$~ay  PV_Atn  give dinner',
+        'E$      Ea$~    PV_ttAw give dinner',
+        'E$y     Ea$~iy  IV_0hAnn_yu     give dinner',
+        'E$      Ea$~    IV_0hwnyn_yu    give dinner',
+        'E$Y     Ea$~aY  IV_0_Pass_yu    be given dinner',
+        'E$y     Ea$~ay  IV_Ann_Pass_yu  be given dinner'
+      ],
       'patterns' => {
         '`a^s^siy' => [
           'FaCCI'
@@ -17502,7 +17374,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'give dinner',
+        'be given dinner'
+      ],
       'orig' => 'Ea$~aY',
       'prefix' => ''
     },
@@ -31216,58 +31091,6 @@ $Lexicon = {
       'glosses' => [],
       'orig' => 'muEotaz~',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '`azziy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '`azz' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '`azzY' => {},
-        '`azzay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '`azzA' => {
-          'PV_h' => 1
-        }
-      },
-      'entry' => '`azzY',
-      'form' => '`azzY',
-      'lines' => [
-        ';; Eaz~aY_1',
-        'EzY     Eaz~aY  PV_0    console;offer condolences',
-        'EzA     Eaz~A   PV_h    console;offer condolences',
-        'Ezy     Eaz~ay  PV_Atn  console;offer condolences',
-        'Ez      Eaz~    PV_ttAw console;offer condolences',
-        'Ezy     Eaz~iy  IV_0hAnn_yu     console;offer condolences',
-        'Ez      Eaz~    IV_0hwnyn_yu    console;offer condolences',
-        'EzY     Eaz~aY  IV_0_Pass_yu    be consoled;be offered condolences',
-        'Ezy     Eaz~ay  IV_Ann_Pass_yu  be consoled;be offered condolences'
-      ],
-      'patterns' => {
-        '`azz' => [
-          'FaCL'
-        ],
-        '`azziy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'console',
-        'offer condolences',
-        'be consoled',
-        'be offered condolences'
-      ],
-      'orig' => 'Eaz~aY',
-      'prefix' => ''
     }
   ],
   '` z b' => [
@@ -31690,10 +31513,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '`ammay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '`ammY' => {},
+        '`amm' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '`ammiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '`ammA' => {
+          'PV_h' => 1
+        }
+      },
       'entry' => '`ammY',
       'form' => '`ammY',
-      'lines' => [],
+      'lines' => [
+        ';; Eam~aY_1',
+        'EmY     Eam~aY  PV_0    make blind;camouflage',
+        'EmA     Eam~A   PV_h    make blind;camouflage',
+        'Emy     Eam~ay  PV_Atn  make blind;camouflage',
+        'Em      Eam~    PV_ttAw make blind;camouflage',
+        'Emy     Eam~iy  IV_0hAnn_yu     make blind;camouflage',
+        'Em      Eam~    IV_0hwnyn_yu    make blind;camouflage',
+        'EmY     Eam~aY  IV_0_Pass_yu    be blinded;be camouflaged',
+        'Emy     Eam~ay  IV_Ann_Pass_yu  be blinded;be camouflaged'
+      ],
       'patterns' => {
         '`ammay' => [
           'FaCCaL'
@@ -31707,7 +31556,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'make blind',
+        'camouflage',
+        'be blinded',
+        'be camouflaged'
+      ],
       'orig' => 'Eam~aY',
       'prefix' => ''
     },
@@ -33239,58 +33093,6 @@ $Lexicon = {
       ],
       'orig' => 'muEotar~',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '`arrY' => {},
-        '`arrA' => {
-          'PV_h' => 1
-        },
-        '`arr' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '`arriy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '`array' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        }
-      },
-      'entry' => '`arrY',
-      'form' => '`arrY',
-      'lines' => [
-        ';; Ear~aY_1',
-        'ErY     Ear~aY  PV_0    uncover;unclothe',
-        'ErA     Ear~A   PV_h    uncover;unclothe',
-        'Ery     Ear~ay  PV_Atn  uncover;unclothe',
-        'Er      Ear~    PV_ttAw uncover;unclothe',
-        'Ery     Ear~iy  IV_0hAnn_yu     uncover;unclothe',
-        'Er      Ear~    IV_0hwnyn_yu    uncover;unclothe',
-        'ErY     Ear~aY  IV_0_Pass_yu    be uncovered;be laid bare',
-        'Ery     Ear~ay  IV_Ann_Pass_yu  be uncovered;be laid bare'
-      ],
-      'patterns' => {
-        '`arr' => [
-          'FaCL'
-        ],
-        '`arriy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'uncover',
-        'unclothe',
-        'be uncovered',
-        'be laid bare'
-      ],
-      'orig' => 'Ear~aY',
-      'prefix' => ''
     }
   ],
   '` r m' => [
@@ -33719,56 +33521,6 @@ $Lexicon = {
         'impotent'
       ],
       'orig' => 'Ein~iyn',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '`anniy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '`ann' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '`annay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '`annA' => {
-          'PV_h' => 1
-        },
-        '`annY' => {}
-      },
-      'entry' => '`annY',
-      'form' => '`annY',
-      'lines' => [
-        ';; Ean~aY_1',
-        'EnY     Ean~aY  PV_0    afflict',
-        'EnA     Ean~A   PV_h    afflict',
-        'Eny     Ean~ay  PV_Atn  afflict',
-        'En      Ean~    PV_ttAw afflict',
-        'Eny     Ean~iy  IV_0hAnn_yu     afflict',
-        'En      Ean~    IV_0hwnyn_yu    afflict',
-        'EnY     Ean~aY  IV_0_Pass_yu    be afflicted',
-        'Eny     Ean~ay  IV_Ann_Pass_yu  be afflicted'
-      ],
-      'patterns' => {
-        '`anniy' => [
-          'FaCCI'
-        ],
-        '`ann' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'afflict',
-        'be afflicted'
-      ],
-      'orig' => 'Ean~aY',
       'prefix' => ''
     }
   ],
@@ -43463,27 +43215,6 @@ $Lexicon = {
       ],
       'orig' => 'EubAb',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '`abbY',
-      'form' => '`abbY',
-      'lines' => [],
-      'patterns' => {
-        '`abb' => [
-          'FaCL'
-        ],
-        '`abbiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Eab~aY',
-      'prefix' => ''
     }
   ],
   '`abdAlmu`.tiy' => [
@@ -51115,58 +50846,6 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '`addiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '`addA' => {
-          'PV_h' => 1
-        },
-        '`adday' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '`addY' => {},
-        '`add' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        }
-      },
-      'entry' => '`addY',
-      'form' => '`addY',
-      'lines' => [
-        ';; Ead~aY_1',
-        'EdY     Ead~aY  PV_0    traverse;cross',
-        'EdA     Ead~A   PV_h    traverse;cross',
-        'Edy     Ead~ay  PV_Atn  traverse;cross',
-        'Ed      Ead~    PV_ttAw traverse;cross',
-        'Edy     Ead~iy  IV_0hAnn_yu     traverse;cross',
-        'Ed      Ead~    IV_0hwnyn_yu    traverse;cross',
-        'EdY     Ead~aY  IV_0_Pass_yu    be traversed;be crossed',
-        'Edy     Ead~ay  IV_Ann_Pass_yu  be traversed;be crossed'
-      ],
-      'patterns' => {
-        '`addiy' => [
-          'FaCCI'
-        ],
-        '`add' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'traverse',
-        'cross',
-        'be traversed',
-        'be crossed'
-      ],
-      'orig' => 'Ead~aY',
-      'prefix' => ''
-    },
-    {
       'types' => {},
       'entry' => '`addA\'',
       'form' => '`addA\'',
@@ -51296,10 +50975,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '`aff' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '`affY' => {},
+        '`affay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '`affiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '`affA' => {
+          'PV_h' => 1
+        }
+      },
       'entry' => '`affY',
       'form' => '`affY',
-      'lines' => [],
+      'lines' => [
+        ';; Eaf~aY_1',
+        'EfY     Eaf~aY  PV_0    efface;eliminate',
+        'EfA     Eaf~A   PV_h    efface;eliminate',
+        'Efy     Eaf~ay  PV_Atn  efface;eliminate',
+        'Ef      Eaf~    PV_ttAw efface;eliminate',
+        'Efy     Eaf~iy  IV_0hAnn_yu     efface;eliminate',
+        'Ef      Eaf~    IV_0hwnyn_yu    efface;eliminate',
+        'EfY     Eaf~aY  IV_0_Pass_yu    be effaced;be eliminated',
+        'Efy     Eaf~ay  IV_Ann_Pass_yu  be effaced;be eliminated'
+      ],
       'patterns' => {
         '`affiy' => [
           'FaCCI'
@@ -51309,7 +51014,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'efface',
+        'eliminate',
+        'be effaced',
+        'be eliminated'
+      ],
       'orig' => 'Eaf~aY',
       'prefix' => ''
     },
@@ -56038,10 +55748,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '`anniy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '`ann' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '`annay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '`annA' => {
+          'PV_h' => 1
+        },
+        '`annY' => {}
+      },
       'entry' => '`annY',
       'form' => '`annY',
-      'lines' => [],
+      'lines' => [
+        ';; Ean~aY_1',
+        'EnY     Ean~aY  PV_0    afflict',
+        'EnA     Ean~A   PV_h    afflict',
+        'Eny     Ean~ay  PV_Atn  afflict',
+        'En      Ean~    PV_ttAw afflict',
+        'Eny     Ean~iy  IV_0hAnn_yu     afflict',
+        'En      Ean~    IV_0hwnyn_yu    afflict',
+        'EnY     Ean~aY  IV_0_Pass_yu    be afflicted',
+        'Eny     Ean~ay  IV_Ann_Pass_yu  be afflicted'
+      ],
       'patterns' => {
         '`anniy' => [
           'FaCCiL',
@@ -56055,7 +55791,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'afflict',
+        'be afflicted'
+      ],
       'orig' => 'Ean~aY',
       'prefix' => ''
     },
@@ -65960,10 +65699,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '`addiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '`addA' => {
+          'PV_h' => 1
+        },
+        '`adday' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '`addY' => {},
+        '`add' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        }
+      },
       'entry' => '`addY',
       'form' => '`addY',
-      'lines' => [],
+      'lines' => [
+        ';; Ead~aY_1',
+        'EdY     Ead~aY  PV_0    traverse;cross',
+        'EdA     Ead~A   PV_h    traverse;cross',
+        'Edy     Ead~ay  PV_Atn  traverse;cross',
+        'Ed      Ead~    PV_ttAw traverse;cross',
+        'Edy     Ead~iy  IV_0hAnn_yu     traverse;cross',
+        'Ed      Ead~    IV_0hwnyn_yu    traverse;cross',
+        'EdY     Ead~aY  IV_0_Pass_yu    be traversed;be crossed',
+        'Edy     Ead~ay  IV_Ann_Pass_yu  be traversed;be crossed'
+      ],
       'patterns' => {
         '`addiy' => [
           'FaCCI'
@@ -65973,7 +65738,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'traverse',
+        'cross',
+        'be traversed',
+        'be crossed'
+      ],
       'orig' => 'Ead~aY',
       'prefix' => ''
     },
@@ -68899,10 +68669,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '`arrY' => {},
+        '`arrA' => {
+          'PV_h' => 1
+        },
+        '`arr' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '`arriy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '`array' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        }
+      },
       'entry' => '`arrY',
       'form' => '`arrY',
-      'lines' => [],
+      'lines' => [
+        ';; Ear~aY_1',
+        'ErY     Ear~aY  PV_0    uncover;unclothe',
+        'ErA     Ear~A   PV_h    uncover;unclothe',
+        'Ery     Ear~ay  PV_Atn  uncover;unclothe',
+        'Er      Ear~    PV_ttAw uncover;unclothe',
+        'Ery     Ear~iy  IV_0hAnn_yu     uncover;unclothe',
+        'Er      Ear~    IV_0hwnyn_yu    uncover;unclothe',
+        'ErY     Ear~aY  IV_0_Pass_yu    be uncovered;be laid bare',
+        'Ery     Ear~ay  IV_Ann_Pass_yu  be uncovered;be laid bare'
+      ],
       'patterns' => {
         '`array' => [
           'FaCCaL'
@@ -68916,7 +68712,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'uncover',
+        'unclothe',
+        'be uncovered',
+        'be laid bare'
+      ],
       'orig' => 'Ear~aY',
       'prefix' => ''
     },
@@ -70858,10 +70659,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '`azziy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '`azz' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '`azzY' => {},
+        '`azzay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '`azzA' => {
+          'PV_h' => 1
+        }
+      },
       'entry' => '`azzY',
       'form' => '`azzY',
-      'lines' => [],
+      'lines' => [
+        ';; Eaz~aY_1',
+        'EzY     Eaz~aY  PV_0    console;offer condolences',
+        'EzA     Eaz~A   PV_h    console;offer condolences',
+        'Ezy     Eaz~ay  PV_Atn  console;offer condolences',
+        'Ez      Eaz~    PV_ttAw console;offer condolences',
+        'Ezy     Eaz~iy  IV_0hAnn_yu     console;offer condolences',
+        'Ez      Eaz~    IV_0hwnyn_yu    console;offer condolences',
+        'EzY     Eaz~aY  IV_0_Pass_yu    be consoled;be offered condolences',
+        'Ezy     Eaz~ay  IV_Ann_Pass_yu  be consoled;be offered condolences'
+      ],
       'patterns' => {
         '`azziy' => [
           'FaCCI'
@@ -70871,7 +70698,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'console',
+        'offer condolences',
+        'be consoled',
+        'be offered condolences'
+      ],
       'orig' => 'Eaz~aY',
       'prefix' => ''
     },
@@ -75362,9 +75194,6 @@ $Lexicon = {
 $Lexicon->{'` t ^s'}[0]{'types'} = $Lexicon->{'` ^s ^s'}[2]{'types'};
 $Lexicon->{'` t ^s'}[0]{'lines'} = $Lexicon->{'` ^s ^s'}[2]{'lines'};
 $Lexicon->{'` t ^s'}[0]{'glosses'} = $Lexicon->{'` ^s ^s'}[2]{'glosses'};
-$Lexicon->{'` ^s w'}[2]{'types'} = $Lexicon->{'` ^s ^s'}[6]{'types'};
-$Lexicon->{'` ^s w'}[2]{'lines'} = $Lexicon->{'` ^s ^s'}[6]{'lines'};
-$Lexicon->{'` ^s w'}[2]{'glosses'} = $Lexicon->{'` ^s ^s'}[6]{'glosses'};
 $Lexicon->{'` ^s w'}[10]{'types'} = $Lexicon->{'` ^s \''}[0]{'types'};
 $Lexicon->{'` ^s w'}[10]{'lines'} = $Lexicon->{'` ^s \''}[0]{'lines'};
 $Lexicon->{'` ^s w'}[10]{'glosses'} = $Lexicon->{'` ^s \''}[0]{'glosses'};
@@ -75395,9 +75224,6 @@ $Lexicon->{'` z z'}[24]{'glosses'} = $Lexicon->{'` t z'}[3]{'glosses'};
 $Lexicon->{'` m y'}[1]{'types'} = $Lexicon->{'` m y'}[0]{'types'};
 $Lexicon->{'` m y'}[1]{'lines'} = $Lexicon->{'` m y'}[0]{'lines'};
 $Lexicon->{'` m y'}[1]{'glosses'} = $Lexicon->{'` m y'}[0]{'glosses'};
-$Lexicon->{'` m y'}[3]{'types'} = $Lexicon->{'` m m'}[21]{'types'};
-$Lexicon->{'` m y'}[3]{'lines'} = $Lexicon->{'` m m'}[21]{'lines'};
-$Lexicon->{'` m y'}[3]{'glosses'} = $Lexicon->{'` m m'}[21]{'glosses'};
 $Lexicon->{'` y y'}[2]{'types'} = $Lexicon->{'` y y'}[1]{'types'};
 $Lexicon->{'` y y'}[2]{'lines'} = $Lexicon->{'` y y'}[1]{'lines'};
 $Lexicon->{'` y y'}[2]{'glosses'} = $Lexicon->{'` y y'}[1]{'glosses'};
@@ -75414,9 +75240,6 @@ $Lexicon->{'` y y'}[10]{'glosses'} = $Lexicon->{'` y \''}[1]{'glosses'};
 $Lexicon->{'` y y'}[12]{'types'} = $Lexicon->{'` y y'}[11]{'types'};
 $Lexicon->{'` y y'}[12]{'lines'} = $Lexicon->{'` y y'}[11]{'lines'};
 $Lexicon->{'` y y'}[12]{'glosses'} = $Lexicon->{'` y y'}[11]{'glosses'};
-$Lexicon->{'` b b'}[3]{'types'} = $Lexicon->{'` b w'}[1]{'types'};
-$Lexicon->{'` b b'}[3]{'lines'} = $Lexicon->{'` b w'}[1]{'lines'};
-$Lexicon->{'` b b'}[3]{'glosses'} = $Lexicon->{'` b w'}[1]{'glosses'};
 $Lexicon->{'` w m'}[7]{'types'} = $Lexicon->{'` \' m'}[0]{'types'};
 $Lexicon->{'` w m'}[7]{'lines'} = $Lexicon->{'` \' m'}[0]{'lines'};
 $Lexicon->{'` w m'}[7]{'glosses'} = $Lexicon->{'` \' m'}[0]{'glosses'};
@@ -75476,12 +75299,9 @@ $Lexicon->{'` d d'}[22]{'glosses'} = $Lexicon->{'` t d'}[8]{'glosses'};
 $Lexicon->{'` d d'}[28]{'types'} = $Lexicon->{'` t d'}[9]{'types'};
 $Lexicon->{'` d d'}[28]{'lines'} = $Lexicon->{'` t d'}[9]{'lines'};
 $Lexicon->{'` d d'}[28]{'glosses'} = $Lexicon->{'` t d'}[9]{'glosses'};
-$Lexicon->{'` d d'}[34]{'types'} = $Lexicon->{'` d \''}[1]{'types'};
-$Lexicon->{'` d d'}[34]{'lines'} = $Lexicon->{'` d \''}[1]{'lines'};
-$Lexicon->{'` d d'}[34]{'glosses'} = $Lexicon->{'` d \''}[1]{'glosses'};
-$Lexicon->{'` f w'}[1]{'types'} = $Lexicon->{'` f f'}[11]{'types'};
-$Lexicon->{'` f w'}[1]{'lines'} = $Lexicon->{'` f f'}[11]{'lines'};
-$Lexicon->{'` f w'}[1]{'glosses'} = $Lexicon->{'` f f'}[11]{'glosses'};
+$Lexicon->{'` d d'}[33]{'types'} = $Lexicon->{'` d \''}[1]{'types'};
+$Lexicon->{'` d d'}[33]{'lines'} = $Lexicon->{'` d \''}[1]{'lines'};
+$Lexicon->{'` d d'}[33]{'glosses'} = $Lexicon->{'` d \''}[1]{'glosses'};
 $Lexicon->{'` f w'}[9]{'types'} = $Lexicon->{'` f \''}[0]{'types'};
 $Lexicon->{'` f w'}[9]{'lines'} = $Lexicon->{'` f \''}[0]{'lines'};
 $Lexicon->{'` f w'}[9]{'glosses'} = $Lexicon->{'` f \''}[0]{'glosses'};
@@ -75518,9 +75338,6 @@ $Lexicon->{'` .t y'}[12]{'glosses'} = $Lexicon->{'` .t \''}[4]{'glosses'};
 $Lexicon->{'` .t y'}[14]{'types'} = $Lexicon->{'` .t \''}[5]{'types'};
 $Lexicon->{'` .t y'}[14]{'lines'} = $Lexicon->{'` .t \''}[5]{'lines'};
 $Lexicon->{'` .t y'}[14]{'glosses'} = $Lexicon->{'` .t \''}[5]{'glosses'};
-$Lexicon->{'` n y'}[2]{'types'} = $Lexicon->{'` n n'}[8]{'types'};
-$Lexicon->{'` n y'}[2]{'lines'} = $Lexicon->{'` n n'}[8]{'lines'};
-$Lexicon->{'` n y'}[2]{'glosses'} = $Lexicon->{'` n n'}[8]{'glosses'};
 $Lexicon->{'` n y'}[6]{'types'} = $Lexicon->{'` n \''}[0]{'types'};
 $Lexicon->{'` n y'}[6]{'lines'} = $Lexicon->{'` n \''}[0]{'lines'};
 $Lexicon->{'` n y'}[6]{'glosses'} = $Lexicon->{'` n \''}[0]{'glosses'};
@@ -75599,9 +75416,6 @@ $Lexicon->{'` m \''}[0]{'glosses'} = $Lexicon->{'` m y'}[9]{'glosses'};
 $Lexicon->{'` m \''}[1]{'types'} = $Lexicon->{'` m y'}[11]{'types'};
 $Lexicon->{'` m \''}[1]{'lines'} = $Lexicon->{'` m y'}[11]{'lines'};
 $Lexicon->{'` m \''}[1]{'glosses'} = $Lexicon->{'` m y'}[11]{'glosses'};
-$Lexicon->{'` d w'}[3]{'types'} = $Lexicon->{'` d d'}[33]{'types'};
-$Lexicon->{'` d w'}[3]{'lines'} = $Lexicon->{'` d d'}[33]{'lines'};
-$Lexicon->{'` d w'}[3]{'glosses'} = $Lexicon->{'` d d'}[33]{'glosses'};
 $Lexicon->{'` d w'}[16]{'types'} = $Lexicon->{'` d \''}[0]{'types'};
 $Lexicon->{'` d w'}[16]{'lines'} = $Lexicon->{'` d \''}[0]{'lines'};
 $Lexicon->{'` d w'}[16]{'glosses'} = $Lexicon->{'` d \''}[0]{'glosses'};
@@ -75644,9 +75458,6 @@ $Lexicon->{'` .s \''}[0]{'glosses'} = $Lexicon->{'` .s y'}[12]{'glosses'};
 $Lexicon->{'` .s \''}[1]{'types'} = $Lexicon->{'` .s y'}[13]{'types'};
 $Lexicon->{'` .s \''}[1]{'lines'} = $Lexicon->{'` .s y'}[13]{'lines'};
 $Lexicon->{'` .s \''}[1]{'glosses'} = $Lexicon->{'` .s y'}[13]{'glosses'};
-$Lexicon->{'` r y'}[1]{'types'} = $Lexicon->{'` r r'}[6]{'types'};
-$Lexicon->{'` r y'}[1]{'lines'} = $Lexicon->{'` r r'}[6]{'lines'};
-$Lexicon->{'` r y'}[1]{'glosses'} = $Lexicon->{'` r r'}[6]{'glosses'};
 $Lexicon->{'` r y'}[5]{'types'} = $Lexicon->{'` r \''}[0]{'types'};
 $Lexicon->{'` r y'}[5]{'lines'} = $Lexicon->{'` r \''}[0]{'lines'};
 $Lexicon->{'` r y'}[5]{'glosses'} = $Lexicon->{'` r \''}[0]{'glosses'};
@@ -75675,9 +75486,6 @@ $Lexicon->{'` z w'}[2]{'types'} = $Lexicon->{'` z y'}[0]{'types'};
 $Lexicon->{'` z w'}[2]{'lines'} = $Lexicon->{'` z y'}[0]{'lines'};
 $Lexicon->{'` z w'}[2]{'glosses'} = $Lexicon->{'` z y'}[0]{'glosses'};
 $Lexicon->{'` z w'}[2]{'imperf'} = $Lexicon->{'` z y'}[0]{'imperf'};
-$Lexicon->{'` z w'}[3]{'types'} = $Lexicon->{'` z z'}[25]{'types'};
-$Lexicon->{'` z w'}[3]{'lines'} = $Lexicon->{'` z z'}[25]{'lines'};
-$Lexicon->{'` z w'}[3]{'glosses'} = $Lexicon->{'` z z'}[25]{'glosses'};
 $Lexicon->{'` z w'}[10]{'types'} = $Lexicon->{'` z \''}[0]{'types'};
 $Lexicon->{'` z w'}[10]{'lines'} = $Lexicon->{'` z \''}[0]{'lines'};
 $Lexicon->{'` z w'}[10]{'glosses'} = $Lexicon->{'` z \''}[0]{'glosses'};

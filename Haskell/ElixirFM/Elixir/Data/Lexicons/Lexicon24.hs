@@ -77,9 +77,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "m .d .d" <| [
 
-    HaFaCL                    `verb`    {- OamaD~ -}           [ "hurt", "torment", "be hurt", "be tormented" ],
-
-    FaCLY                     `verb`    {- maD~aY -}           [ "spend", "be spent" ] ]
+    HaFaCL                    `verb`    {- OamaD~ -}           [ "hurt", "torment", "be hurt", "be tormented" ] ]
 
  |> "m .d y" <| [
 
@@ -814,9 +812,7 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `noun`    {- man -}              [ "who/whom" ],
 
-    FaL                       `noun`    {- man -}              [ "who/whom" ],
-
-    FaCLY                     `verb`    {- man~aY -}           [ "arouse", "raise hopes", "be heartened", "be given hope" ] ]
+    FaL                       `noun`    {- man -}              [ "who/whom" ] ]
 
  |> "m n w" <| [
 

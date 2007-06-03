@@ -1715,20 +1715,6 @@ lexicon = listing "Lexicon's properties"
 
     HICAL                     `noun`    {- IiySA' -}           [ "recommendation", "order", "mandate" ] ]
 
- |> "w .s .s" <| [
-
-    -- ;; waS~aY_1
-    -- wSY     waS~aY  PV_0    recommend;advise
-    -- wSA     waS~A   PV_h    recommend;advise
-    -- wSy     waS~ay  PV_Atn  recommend;advise
-    -- wS      waS~    PV_ttAw recommend;advise
-    -- wSy     waS~iy  IV_0hAnn_yu     recommend;advise
-    -- wS      waS~    IV_0hwnyn_yu    recommend;advise
-    -- wSY     waS~aY  IV_0_Pass_yu    be recommended;be advised
-    -- wSy     waS~ay  IV_Ann_Pass_yu  be recommended;be advised
-
-    FaCLY                     `verb`    {- waS~aY -}           [ "recommend", "advise", "be recommended", "be advised" ] ]
-
  |> "w .s b" <| [
 
     -- ;; waSib-a_1
@@ -2460,20 +2446,6 @@ lexicon = listing "Lexicon's properties"
     -- mwT}    muwaT~i}        NAt     predisposing factors
 
     MuFaCCiL                  `noun`    {- muwaT~i} -}         [ "predisposing", "preparing the way", "pioneer", "predisposing factors" ] ]
-
- |> "w .t .t" <| [
-
-    -- ;; waT~aY_1
-    -- wTY     waT~aY  PV_0    lower
-    -- wTA     waT~A   PV_h    lower
-    -- wTy     waT~ay  PV_Atn  lower
-    -- wT      waT~    PV_ttAw lower
-    -- wTy     waT~iy  IV_0hAnn_yu     lower
-    -- wT      waT~    IV_0hwnyn_yu    lower
-    -- wTY     waT~aY  IV_0_Pass_yu    be lowered
-    -- wTy     waT~ay  IV_Ann_Pass_yu  be lowered
-
-    FaCLY                     `verb`    {- waT~aY -}           [ "lower", "be lowered" ] ]
 
  |> "w .t ^s" <| [
 
@@ -3533,18 +3505,6 @@ lexicon = listing "Lexicon's properties"
 
  |> "w ^s ^s" <| [
 
-    -- ;; wa$~aY_1
-    -- w$Y     wa$~aY  PV_0    embellish;embroider
-    -- w$A     wa$~A   PV_h    embellish;embroider
-    -- w$y     wa$~ay  PV_Atn  embellish;embroider
-    -- w$      wa$~    PV_ttAw embellish;embroider
-    -- w$y     wa$~iy  IV_0hAnn_yu     embellish;embroider
-    -- w$      wa$~    IV_0hwnyn_yu    embellish;embroider
-    -- w$Y     wa$~aY  IV_0_Pass_yu    be embellished;be embroidered
-    -- w$y     wa$~ay  IV_Ann_Pass_yu  be embellished;be embroidered
-
-    FaCLY                     `verb`    {- wa$~aY -}           [ "embellish", "embroider", "be embellished", "be embroidered" ],
-
     -- ;; wa$~A'_1
     -- w$A'    wa$~A'  N0_Nh   embroidery vendor
     -- w$A&    wa$~A&  Nh_Nuwn embroidery vendor
@@ -3810,20 +3770,6 @@ lexicon = listing "Lexicon's properties"
     -- wxT     waxoT   N       graying
 
     FaCL                      `noun`    {- waxoT -}            [ "graying" ] ]
-
- |> "w _h _h" <| [
-
-    -- ;; wax~aY_1
-    -- wxY     wax~aY  PV_0    intend;consider;guide;lead
-    -- wxA     wax~A   PV_h    intend;consider;guide;lead
-    -- wxy     wax~ay  PV_Atn  intend;consider;guide;lead
-    -- wx      wax~    PV_ttAw intend;consider;guide;lead
-    -- wxy     wax~iy  IV_0hAnn_yu     intend;consider;guide;lead
-    -- wx      wax~    IV_0hwnyn_yu    intend;consider;guide;lead
-    -- wxY     wax~aY  IV_0_Pass_yu    be intended;be guided;be led
-    -- wxy     wax~ay  IV_Ann_Pass_yu  be intended;be guided;be led
-
-    FaCLY                     `verb`    {- wax~aY -}           [ "intend", "consider", "guide", "lead", "be intended", "be guided", "be led" ] ]
 
  |> "w _h m" <| [
 
@@ -4361,20 +4307,6 @@ lexicon = listing "Lexicon's properties"
     -- wEvA}   waEovA} Nhy     difficulty;inconvenience
 
     FaCLA'                    `noun`    {- waEovA' -}          [ "difficulty", "inconvenience" ] ]
-
- |> "w ` `" <| [
-
-    -- ;; waE~aY_1
-    -- wEY     waE~aY  PV_0    make conscious;raise the consciousness
-    -- wEA     waE~A   PV_h    make conscious;raise the consciousness
-    -- wEy     waE~ay  PV_Atn  make conscious;raise the consciousness
-    -- wE      waE~    PV_ttAw make conscious;raise the consciousness
-    -- wEy     waE~iy  IV_0hAnn_yu     make conscious;raise the consciousness
-    -- wE      waE~    IV_0hwnyn_yu    make conscious;raise the consciousness
-    -- wEY     waE~aY  IV_0_Pass_yu    be made conscious;be made aware
-    -- wEy     waE~ay  IV_Ann_Pass_yu  be made conscious;be made aware
-
-    FaCLY                     `verb`    {- waE~aY -}           [ "make conscious", "raise the consciousness", "be made conscious", "be made aware" ] ]
 
  |> "w ` b" <| [
 
@@ -5606,20 +5538,6 @@ lexicon = listing "Lexicon's properties"
     -- mwfd    muwfad  Nall    envoy;delegate;appointee
 
     MuFCaL                    `noun`    {- muwfad -}           [ "envoy", "delegate", "appointee" ] ]
-
- |> "w f f" <| [
-
-    -- ;; waf~aY_1
-    -- wfY     waf~aY  PV_0    satisfy;fulfill
-    -- wfA     waf~A   PV_h    satisfy;fulfill
-    -- wfy     waf~ay  PV_Atn  satisfy;fulfill
-    -- wf      waf~    PV_ttAw satisfy;fulfill
-    -- wfy     waf~iy  IV_0hAnn_yu     satisfy;fulfill
-    -- wf      waf~    IV_0hwnyn_yu    satisfy;fulfill
-    -- wfY     waf~aY  IV_0_Pass_yu    be satisfied;be fulfilled
-    -- wfy     waf~ay  IV_Ann_Pass_yu  be satisfied;be fulfilled
-
-    FaCLY                     `verb`    {- waf~aY -}           [ "satisfy", "fulfill", "be satisfied", "be fulfilled" ] ]
 
  |> "w f q" <| [
 
@@ -7388,21 +7306,6 @@ lexicon = listing "Lexicon's properties"
 
     MutaFaCCiL                `adj`     {- mutawal~ih -}       [ "bewildered", "hare-brained" ] ]
 
- |> "w l l" <| [
-
-    -- ;; wal~aY_1
-    -- wlY     wal~aY  PV_0    put in charge;entrust;commission
-    -- wlA     wal~A   PV_h    put in charge;entrust;commission
-    -- wly     wal~ay  PV_Atn  put in charge;entrust;commission
-    -- wl      wal~    PV_ttAw put in charge;entrust;commission
-    -- wly     wal~iy  IV_0hAnn_yu     put in charge;entrust;commission
-    -- wl      wal~    IV_0hwnyn_yu    put in charge;entrust;commission
-    -- wlY     wal~aY  IV_0_Pass_yu    be put in charge;be entrusted
-    -- wly     wal~ay  IV_Ann_Pass_yu  be put in charge;be entrusted
-    -- wl      wal~    IV_0hwnyn_yu    be put in charge;be entrusted
-
-    FaCLY                     `verb`    {- wal~aY -}           [ "put in charge", "entrust", "commission", "be put in charge", "be entrusted" ] ]
-
  |> "w l m" <| [
 
     -- ;; >awolam_1
@@ -7981,17 +7884,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; wan~_1
     -- wn      wan~    N       buzzing;droning
 
-    FaCL                      `noun`    {- wan~ -}             [ "buzzing", "droning" ],
-
-    -- ;; wan~aY_1
-    -- wnY     wan~aY  PV_0    be slow;be negligent
-    -- wnA     wan~A   PV_h    be slow;be negligent
-    -- wny     wan~ay  PV_Atn  be slow;be negligent
-    -- wn      wan~    PV_ttAw_intr    be slow;be negligent
-    -- wny     wan~iy  IV_0hAnn_yu     be slow;be negligent
-    -- wn      wan~    IV_0hwnyn_yu    be slow;be negligent
-
-    FaCLY                     `verb`    {- wan~aY -}           [ "be slow", "be negligent" ] ]
+    FaCL                      `noun`    {- wan~ -}             [ "buzzing", "droning" ] ]
 
  |> "w n y" <| [
 
@@ -9627,20 +9520,6 @@ lexicon = listing "Lexicon's properties"
     -- mwrq    muwriq  N-ap    verdant;leafy;green     [[muwriq/ADJ]]
 
     MuFCiL                    `adj`     {- muwriq -}           [ "verdant", "leafy", "green" ] ]
-
- |> "w r r" <| [
-
-    -- ;; war~aY_1
-    -- wrY     war~aY  PV_0    stoke;kindle;conceal;feign
-    -- wrA     war~A   PV_h    stoke;kindle;conceal;feign
-    -- wry     war~ay  PV_Atn  stoke;kindle;conceal;feign
-    -- wr      war~    PV_ttAw stoke;kindle;conceal;feign
-    -- wry     war~iy  IV_0hAnn_yu     stoke;kindle;conceal;feign
-    -- wr      war~    IV_0hwnyn_yu    stoke;kindle;conceal;feign
-    -- wrY     war~aY  IV_0_Pass_yu    be stoked;be kindled;be concealed;be feigned
-    -- wry     war~ay  IV_Ann_Pass_yu  be stoked;be kindled;be concealed;be feigned
-
-    FaCLY                     `verb`    {- war~aY -}           [ "stoke", "kindle", "conceal", "feign", "be stoked", "be kindled", "be concealed", "be feigned" ] ]
 
  |> "w r s" <| [
 

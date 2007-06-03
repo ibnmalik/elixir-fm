@@ -105,11 +105,19 @@ classifyDict = foldr addNext [] . unDict
 type FullFormLex = [(String,[(Attr,String)])]
 
 dict2fullform :: Dictionary -> FullFormLex
+
+dict2fullform dict = (map (\(a, b) -> (a, concat b)) . sortAssocs . concatMap mkOne) (zip (unDict dict) [0 ..])
+    where mkOne ((stem, typ, inhs, infl), n) = (map mkInfo . sortAssocs . concatMap mkForm) infl
+            where mkLabel = unwords (stem : ("(" ++ show n ++ ")") : typ : inhs)
+                  mkInfo (x, y) = (x, (map (\(a, pars) -> (a, mkLabel ++ concat pars)) . sortAssocs) y)
+          mkForm (par, (a, str)) = [(s, (a, par)) | s <- str]
+{-
 dict2fullform dict = sortAssocs $ concatMap mkOne $ zip (unDict dict) [0..] where
   mkOne ((stem, typ, inhs, infl),n) = concatMap mkForm infl where
     mkForm (par,(a,str)) = [(s, (a,
                 unwords (stem : ("(" ++ show n ++ ")") : typ : sp : par : sp : inhs))) | s <- str]
     sp = "-"
+-}
 
 -- binary search tree with logarithmic lookup
 data BinTree a = NT | BT a (BinTree a) (BinTree a) deriving (Show,Read)

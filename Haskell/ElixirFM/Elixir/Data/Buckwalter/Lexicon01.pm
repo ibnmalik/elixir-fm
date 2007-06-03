@@ -1366,26 +1366,28 @@ $Lexicon = {
   '\' _h r' => [
     {
       'types' => {
-        '\'a_h_har' => {
-          'IV_Pass_yu' => 1
-        },
-        '\'a_h_hir' => {}
+        '\'a_h_har' => {},
+        '\'a_h_hir' => {
+          'IV_yu' => 1
+        }
       },
-      'entry' => '\'a_h_hir',
-      'form' => '\'a_h_hir',
+      'entry' => '\'a_h_har',
+      'form' => '\'a_h_har',
       'lines' => [
-        ';; &ax~ir_1',
+        ';; &ax~ar_1',
+        '>xr     >ax~ar  PV      delay;postpone',
+        'Axr     >ax~ar  PV      delay;postpone',
         '&xr     &ax~ir  IV_yu   delay;postpone',
         '&xr     &ax~ar  IV_Pass_yu      be delayed;be postponed'
       ],
       'patterns' => {
-        '\'a_h_har' => [
-          'FaCCaL'
+        '\'a_h_hir' => [
+          'FaCCiL'
         ]
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCCiL',
+      'morphs' => 'FaCCaL',
       'suffix' => '',
       'glosses' => [
         'delay',
@@ -1393,7 +1395,7 @@ $Lexicon = {
         'be delayed',
         'be postponed'
       ],
-      'orig' => 'Wax~ir',
+      'orig' => 'Wax~ar',
       'prefix' => ''
     },
     {
@@ -6882,32 +6884,32 @@ $Lexicon = {
   '\' b n' => [
     {
       'types' => {
-        '\'abbin' => {},
-        '\'abban' => {
-          'PV-n' => 2
-        }
+        '\'abbin' => {
+          'IV-n_yu' => 1
+        },
+        '\'abban' => {}
       },
-      'entry' => '\'abbin',
-      'form' => '\'abbin',
+      'entry' => '\'abban',
+      'form' => '\'abban',
       'lines' => [
-        ';; &ab~in_1',
+        ';; &ab~an_1',
         '>bn     >ab~an  PV-n    eulogize',
         'Abn     >ab~an  PV-n    eulogize',
         '&bn     &ab~in  IV-n_yu eulogize'
       ],
       'patterns' => {
-        '\'abban' => [
-          'FaCCaL'
+        '\'abbin' => [
+          'FaCCiL'
         ]
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCCiL',
+      'morphs' => 'FaCCaL',
       'suffix' => '',
       'glosses' => [
         'eulogize'
       ],
-      'orig' => 'Wab~in',
+      'orig' => 'Wab~an',
       'prefix' => ''
     },
     {
@@ -9595,27 +9597,6 @@ $Lexicon = {
         'evil'
       ],
       'orig' => 'Iid~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'addY',
-      'form' => '\'addY',
-      'lines' => [],
-      'patterns' => {
-        '\'add' => [
-          'FaCL'
-        ],
-        '\'addiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Oad~aY',
       'prefix' => ''
     }
   ],
@@ -19799,64 +19780,6 @@ $Lexicon = {
         'mouflon (wild sheep)'
       ],
       'orig' => 'Ourowiy~ap',
-      'prefix' => ''
-    }
-  ],
-  '\' w w' => [
-    {
-      'types' => {
-        '\'awwA' => {
-          'PV_h' => 2
-        },
-        '\'awwY' => {},
-        '\'aww' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 2
-        },
-        '\'awway' => {
-          'PV_Atn' => 2,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '\'awwiy' => {
-          'IV_0hAnn_yu' => 1
-        }
-      },
-      'entry' => '\'awwY',
-      'form' => '\'awwY',
-      'lines' => [
-        ';; >aw~aY_1',
-        '>wY     >aw~aY  PV_0    shelter;lodge',
-        'AwY     >aw~aY  PV_0    shelter;lodge',
-        '>wA     >aw~A   PV_h    shelter;lodge',
-        'AwA     >aw~A   PV_h    shelter;lodge',
-        '>wy     >aw~ay  PV_Atn  shelter;lodge',
-        'Awy     >aw~ay  PV_Atn  shelter;lodge',
-        '>w      >aw~    PV_ttAw shelter;lodge',
-        'Aw      >aw~    PV_ttAw shelter;lodge',
-        '&wy     &aw~iy  IV_0hAnn_yu     shelter;lodge',
-        '&w      &aw~    IV_0hwnyn_yu    shelter;lodge',
-        '&wY     &aw~aY  IV_0_Pass_yu    be sheltered;be lodged',
-        '&wy     &aw~ay  IV_Ann_Pass_yu  be sheltered;be lodged'
-      ],
-      'patterns' => {
-        '\'aww' => [
-          'FaCL'
-        ],
-        '\'awwiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'shelter',
-        'lodge',
-        'be sheltered',
-        'be lodged'
-      ],
-      'orig' => 'Oaw~aY',
       'prefix' => ''
     }
   ],
@@ -36736,10 +36659,8 @@ $Lexicon = {
         '\'iy.d' => {
           'IV_V' => 1
         },
-        '\'a.d' => {
-          'PV_C' => 2
-        },
         '\'i.d' => {
+          'PV_C' => 2,
           'IV_C' => 1
         }
       },
@@ -36749,15 +36670,12 @@ $Lexicon = {
         ';; |D-i_1',
         '|D      |D      PV_V    return;revert',
         'AD      |D      PV_V    return;revert',
-        '>D      >aD     PV_C    return;revert',
-        'AD      >aD     PV_C    return;revert',
+        '<D      <iD     PV_C    return;revert',
+        'AD      <iD     PV_C    return;revert',
         '}yD     }iyD    IV_V    return;revert',
         '}D      }iD     IV_C    return;revert'
       ],
       'patterns' => {
-        '\'a.d' => [
-          'FaL'
-        ],
         '\'iy.d' => [
           'FIL',
           'FiCL'
@@ -50721,29 +50639,28 @@ $Lexicon = {
     },
     {
       'types' => {
-        '\'a_h_hi_d' => {},
-        '\'a_h_ha_d' => {
-          'IV_Pass_yu' => 1,
-          'PV' => 2
-        }
+        '\'a_h_hi_d' => {
+          'IV_yu' => 1
+        },
+        '\'a_h_ha_d' => {}
       },
-      'entry' => '\'a_h_hi_d',
-      'form' => '\'a_h_hi_d',
+      'entry' => '\'a_h_ha_d',
+      'form' => '\'a_h_ha_d',
       'lines' => [
-        ';; &ax~i*_1',
+        ';; &ax~a*_1',
         '>x*     >ax~a*  PV      enchant;bewitch',
         'Ax*     >ax~a*  PV      enchant;bewitch',
         '&x*     &ax~i*  IV_yu   enchant;bewitch',
         '&x*     &ax~a*  IV_Pass_yu      be enchanted;be bewitched'
       ],
       'patterns' => {
-        '\'a_h_ha_d' => [
-          'FaCCaL'
+        '\'a_h_hi_d' => [
+          'FaCCiL'
         ]
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCCiL',
+      'morphs' => 'FaCCaL',
       'suffix' => '',
       'glosses' => [
         'enchant',
@@ -50751,7 +50668,7 @@ $Lexicon = {
         'be enchanted',
         'be bewitched'
       ],
-      'orig' => 'Wax~i*',
+      'orig' => 'Wax~a*',
       'prefix' => ''
     },
     {
@@ -53038,27 +52955,6 @@ $Lexicon = {
         'organizational'
       ],
       'orig' => 'muWas~asiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'assY',
-      'form' => '\'assY',
-      'lines' => [],
-      'patterns' => {
-        '\'ass' => [
-          'FaCL'
-        ],
-        '\'assiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Oas~aY',
       'prefix' => ''
     }
   ],
@@ -59196,10 +59092,40 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '\'awwA' => {
+          'PV_h' => 2
+        },
+        '\'awwY' => {},
+        '\'aww' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 2
+        },
+        '\'awway' => {
+          'PV_Atn' => 2,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '\'awwiy' => {
+          'IV_0hAnn_yu' => 1
+        }
+      },
       'entry' => '\'awwY',
       'form' => '\'awwY',
-      'lines' => [],
+      'lines' => [
+        ';; >aw~aY_1',
+        '>wY     >aw~aY  PV_0    shelter;lodge',
+        'AwY     >aw~aY  PV_0    shelter;lodge',
+        '>wA     >aw~A   PV_h    shelter;lodge',
+        'AwA     >aw~A   PV_h    shelter;lodge',
+        '>wy     >aw~ay  PV_Atn  shelter;lodge',
+        'Awy     >aw~ay  PV_Atn  shelter;lodge',
+        '>w      >aw~    PV_ttAw shelter;lodge',
+        'Aw      >aw~    PV_ttAw shelter;lodge',
+        '&wy     &aw~iy  IV_0hAnn_yu     shelter;lodge',
+        '&w      &aw~    IV_0hwnyn_yu    shelter;lodge',
+        '&wY     &aw~aY  IV_0_Pass_yu    be sheltered;be lodged',
+        '&wy     &aw~ay  IV_Ann_Pass_yu  be sheltered;be lodged'
+      ],
       'patterns' => {
         '\'awway' => [
           'FaCCaL'
@@ -59213,7 +59139,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'shelter',
+        'lodge',
+        'be sheltered',
+        'be lodged'
+      ],
       'orig' => 'Oaw~aY',
       'prefix' => ''
     },
@@ -59720,9 +59651,6 @@ $Lexicon->{'\' n s'}[23]{'glosses'} = $Lexicon->{'\' n s'}[22]{'glosses'};
 $Lexicon->{'\' n s'}[29]{'types'} = $Lexicon->{'\' n s'}[28]{'types'};
 $Lexicon->{'\' n s'}[29]{'lines'} = $Lexicon->{'\' n s'}[28]{'lines'};
 $Lexicon->{'\' n s'}[29]{'glosses'} = $Lexicon->{'\' n s'}[28]{'glosses'};
-$Lexicon->{'\' d d'}[2]{'types'} = $Lexicon->{'\' d y'}[0]{'types'};
-$Lexicon->{'\' d d'}[2]{'lines'} = $Lexicon->{'\' d y'}[0]{'lines'};
-$Lexicon->{'\' d d'}[2]{'glosses'} = $Lexicon->{'\' d y'}[0]{'glosses'};
 $Lexicon->{'\' z r'}[3]{'types'} = $Lexicon->{'\' z r'}[2]{'types'};
 $Lexicon->{'\' z r'}[3]{'lines'} = $Lexicon->{'\' z r'}[2]{'lines'};
 $Lexicon->{'\' z r'}[3]{'glosses'} = $Lexicon->{'\' z r'}[2]{'glosses'};
@@ -60034,9 +59962,6 @@ $Lexicon->{'\' l m n'}[4]{'glosses'} = $Lexicon->{'\' l m'}[14]{'glosses'};
 $Lexicon->{'\' l m n'}[5]{'types'} = $Lexicon->{'\' l m'}[15]{'types'};
 $Lexicon->{'\' l m n'}[5]{'lines'} = $Lexicon->{'\' l m'}[15]{'lines'};
 $Lexicon->{'\' l m n'}[5]{'glosses'} = $Lexicon->{'\' l m'}[15]{'glosses'};
-$Lexicon->{'\' s s'}[15]{'types'} = $Lexicon->{'\' s w'}[2]{'types'};
-$Lexicon->{'\' s s'}[15]{'lines'} = $Lexicon->{'\' s w'}[2]{'lines'};
-$Lexicon->{'\' s s'}[15]{'glosses'} = $Lexicon->{'\' s w'}[2]{'glosses'};
 $Lexicon->{'\' n \''}[10]{'types'} = $Lexicon->{'\' n y'}[0]{'types'};
 $Lexicon->{'\' n \''}[10]{'lines'} = $Lexicon->{'\' n y'}[0]{'lines'};
 $Lexicon->{'\' n \''}[10]{'glosses'} = $Lexicon->{'\' n y'}[0]{'glosses'};
@@ -60103,9 +60028,6 @@ $Lexicon->{'\' w l'}[4]{'glosses'} = $Lexicon->{'\' w \' l'}[0]{'glosses'};
 $Lexicon->{'\' w l'}[5]{'types'} = $Lexicon->{'\' w \' l'}[1]{'types'};
 $Lexicon->{'\' w l'}[5]{'lines'} = $Lexicon->{'\' w \' l'}[1]{'lines'};
 $Lexicon->{'\' w l'}[5]{'glosses'} = $Lexicon->{'\' w \' l'}[1]{'glosses'};
-$Lexicon->{'\' w y'}[1]{'types'} = $Lexicon->{'\' w w'}[0]{'types'};
-$Lexicon->{'\' w y'}[1]{'lines'} = $Lexicon->{'\' w w'}[0]{'lines'};
-$Lexicon->{'\' w y'}[1]{'glosses'} = $Lexicon->{'\' w w'}[0]{'glosses'};
 $Lexicon->{'\' w y'}[3]{'types'} = $Lexicon->{'\' w y'}[2]{'types'};
 $Lexicon->{'\' w y'}[3]{'lines'} = $Lexicon->{'\' w y'}[2]{'lines'};
 $Lexicon->{'\' w y'}[3]{'glosses'} = $Lexicon->{'\' w y'}[2]{'glosses'};

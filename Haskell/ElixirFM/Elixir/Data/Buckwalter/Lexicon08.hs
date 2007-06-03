@@ -2804,20 +2804,6 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- madohuw$ -}         [ "surprised", "alarmed" ] ]
 
- |> "d h h" <| [
-
-    -- ;; dah~aY_1
-    -- dhY     dah~aY  PV_0    befall;strike
-    -- dhA     dah~A   PV_h    befall;strike
-    -- dhy     dah~ay  PV_Atn  befall;strike
-    -- dh      dah~    PV_ttAw befall;strike
-    -- dhy     dah~iy  IV_0hAnn_yu     befall;strike
-    -- dh      dah~    IV_0hwnyn_yu    befall;strike
-    -- dhY     dah~aY  IV_0_Pass_yu    be struck
-    -- dhy     dah~ay  IV_Ann_Pass_yu  be struck
-
-    FaCLY                     `verb`    {- dah~aY -}           [ "befall", "strike", "be struck" ] ]
-
  |> "d h k" <| [
 
     -- ;; dahak-a_1
@@ -3770,19 +3756,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mudil~_1
     -- mdl     mudil~  Nall    arrogant;conceited     [[mudil~/ADJ]]
 
-    MuFiCL                    `adj`     {- mudil~ -}           [ "arrogant", "conceited" ],
-
-    -- ;; dal~aY_1
-    -- dlY     dal~aY  PV_0    dangle;suspend;lower
-    -- dlA     dal~A   PV_h    dangle;suspend;lower
-    -- dly     dal~ay  PV_Atn  dangle;suspend;lower
-    -- dl      dal~    PV_ttAw dangle;suspend;lower
-    -- dly     dal~iy  IV_0hAnn_yu     dangle;suspend;lower
-    -- dl      dal~    IV_0hwnyn_yu    dangle;suspend;lower
-    -- dlY     dal~aY  IV_0_Pass_yu    be dangled;be suspended;be lowered
-    -- dly     dal~ay  IV_Ann_Pass_yu  be dangled;be suspended;be lowered
-
-    FaCLY                     `verb`    {- dal~aY -}           [ "dangle", "suspend", "lower", "be dangled", "be suspended", "be lowered" ] ]
+    MuFiCL                    `adj`     {- mudil~ -}           [ "arrogant", "conceited" ] ]
 
  |> "d l n" <| [
 
@@ -4295,18 +4269,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- dam~Am -}           [ "Dammam" ],
 
-    -- ;; dam~aY_1
-    -- dmY     dam~aY  PV_0    make bleed
-    -- dmA     dam~A   PV_h    make bleed
-    -- dmy     dam~ay  PV_Atn  make bleed
-    -- dm      dam~    PV_ttAw make bleed
-    -- dmy     dam~iy  IV_0hAnn_yu     make bleed
-    -- dm      dam~    IV_0hwnyn_yu    make bleed
-    -- dmY     dam~aY  IV_0_Pass_yu    be bled
-    -- dmy     dam~ay  IV_Ann_Pass_yu  be bled
-
-    FaCLY                     `verb`    {- dam~aY -}           [ "make bleed", "be bled" ],
-
     -- ;; dam_1
     -- dm      dam     N       blood
     -- dmA'    dimA'   N0_Nh   blood
@@ -4753,19 +4715,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; dinAn_1
     -- dnAn    dinAn   N       wine jug
 
-    FiCAL                     `noun`    {- dinAn -}            [ "wine jug" ],
-
-    -- ;; dan~aY_1
-    -- dnY     dan~aY  PV_0    move near;be base
-    -- dnA     dan~A   PV_h    move near;be base
-    -- dny     dan~ay  PV_Atn  move near;be base
-    -- dn      dan~    PV_ttAw move near;be base
-    -- dny     dan~iy  IV_0hAnn_yu     move near;be base
-    -- dn      dan~    IV_0hwnyn_yu    move near;be base
-    -- dnY     dan~aY  IV_0_Pass_yu    be moved near;be debased
-    -- dny     dan~ay  IV_Ann_Pass_yu  be moved near;be debased
-
-    FaCLY                     `verb`    {- dan~aY -}           [ "move near", "be base", "be moved near", "be debased" ] ]
+    FiCAL                     `noun`    {- dinAn -}            [ "wine jug" ] ]
 
  |> "d n q" <| [
 
@@ -6591,19 +6541,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; das~As_1
     -- dsAs    das~As  Nall    schemer;conspirator
 
-    FaCCAL                    `noun`    {- das~As -}           [ "schemer", "conspirator" ],
-
-    -- ;; das~aY_1
-    -- dsY     das~aY  PV_0    introduce;bring in
-    -- dsA     das~A   PV_h    introduce;bring in
-    -- dsy     das~ay  PV_Atn  introduce;bring in
-    -- ds      das~    PV_ttAw introduce;bring in
-    -- dsy     das~iy  IV_0hAnn_yu     introduce;bring in
-    -- ds      das~    IV_0hwnyn_yu    introduce;bring in
-    -- dsY     das~aY  IV_0_Pass_yu    be introduced;be brought in
-    -- dsy     das~ay  IV_Ann_Pass_yu  be introduced;be brought in
-
-    FaCLY                     `verb`    {- das~aY -}           [ "introduce", "bring in", "be introduced", "be brought in" ] ]
+    FaCCAL                    `noun`    {- das~As -}           [ "schemer", "conspirator" ] ]
 
  |> "d s t" <| [
 
@@ -7653,17 +7591,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; duw_1
     -- dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]
 
-    FuL                       `noun`    {- duw -}              [ "Du", "Do" ],
-
-    -- ;; daw~aY_1
-    -- dwY     daw~aY  PV_0    buzz;hum;drone
-    -- dwA     daw~A   PV_h    buzz;hum;drone
-    -- dwy     daw~ay  PV_Atn  buzz;hum;drone
-    -- dw      daw~    PV_ttAw buzz;hum;drone
-    -- dwy     daw~iy  IV_0hAnn_yu     buzz;hum;drone
-    -- dw      daw~    IV_0hwnyn_yu    buzz;hum;drone
-
-    FaCLY                     `verb`    {- daw~aY -}           [ "buzz", "hum", "drone" ] ]
+    FuL                       `noun`    {- duw -}              [ "Du", "Do" ] ]
 
  |> "d w y" <| [
 

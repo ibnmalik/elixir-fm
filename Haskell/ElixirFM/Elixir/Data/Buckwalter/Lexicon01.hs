@@ -1449,13 +1449,13 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FCuL
                               `second`     CuL,
 
-    -- ;; &ax~i*_1
+    -- ;; &ax~a*_1
     -- >x*     >ax~a*  PV      enchant;bewitch
     -- Ax*     >ax~a*  PV      enchant;bewitch
     -- &x*     &ax~i*  IV_yu   enchant;bewitch
     -- &x*     &ax~a*  IV_Pass_yu      be enchanted;be bewitched
 
-    FaCCiL                    `verb`    {- Wax~i* -}           [ "enchant", "bewitch", "be enchanted", "be bewitched" ],
+    FaCCaL                    `verb`    {- Wax~a* -}           [ "enchant", "bewitch", "be enchanted", "be bewitched" ],
 
     -- ;; |xa*_1
     -- \|x*     |xa*    PV      blame;reproach
@@ -1565,11 +1565,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "' _h r" <| [
 
-    -- ;; &ax~ir_1
+    -- ;; &ax~ar_1
+    -- >xr     >ax~ar  PV      delay;postpone
+    -- Axr     >ax~ar  PV      delay;postpone
     -- &xr     &ax~ir  IV_yu   delay;postpone
     -- &xr     &ax~ar  IV_Pass_yu      be delayed;be postponed
 
-    FaCCiL                    `verb`    {- Wax~ir -}           [ "delay", "postpone", "be delayed", "be postponed" ],
+    FaCCaL                    `verb`    {- Wax~ar -}           [ "delay", "postpone", "be delayed", "be postponed" ],
 
     -- ;; ta>ax~ar_1
     -- t>xr    ta>ax~ar        PV_intr be delayed;be postponed
@@ -2750,12 +2752,12 @@ lexicon = listing "Lexicon's properties"
 
  |> "' b n" <| [
 
-    -- ;; &ab~in_1
+    -- ;; &ab~an_1
     -- >bn     >ab~an  PV-n    eulogize
     -- Abn     >ab~an  PV-n    eulogize
     -- &bn     &ab~in  IV-n_yu eulogize
 
-    FaCCiL                    `verb`    {- Wab~in -}           [ "eulogize" ],
+    FaCCaL                    `verb`    {- Wab~an -}           [ "eulogize" ],
 
     -- ;; <ib~An_1
     -- <bAn    <ib~An  N       during;time
@@ -3280,23 +3282,7 @@ lexicon = listing "Lexicon's properties"
     -- <d      <id~    N       horrible;evil
     -- Ad      <id~    N       horrible;evil
 
-    FiCL                      `noun`    {- Iid~ -}             [ "horrible", "evil" ],
-
-    -- ;; >ad~aY_1
-    -- >dY     >ad~aY  PV_0    direct;guide;lead
-    -- AdY     >ad~aY  PV_0    direct;guide;lead
-    -- >dA     >ad~A   PV_h    direct;guide;lead
-    -- AdA     >ad~A   PV_h    direct;guide;lead
-    -- >dy     >ad~ay  PV_Atn  direct;guide;lead
-    -- Ady     >ad~ay  PV_Atn  direct;guide;lead
-    -- >d      >ad~    PV_ttAw direct;guide;lead
-    -- Ad      >ad~    PV_ttAw direct;guide;lead
-    -- &dy     &ad~iy  IV_0hAnn_yu     direct;guide;lead
-    -- &d      &ad~    IV_0hwnyn_yu    direct;guide;lead
-    -- &dY     &ad~aY  IV_0_Pass_yu    be directed;be guided;be lead
-    -- &dy     &ad~ay  IV_Ann_Pass_yu  be directed;be guided;be lead
-
-    FaCLY                     `verb`    {- Oad~aY -}           [ "direct", "guide", "lead", "be directed", "be guided", "be lead" ] ]
+    FiCL                      `noun`    {- Iid~ -}             [ "horrible", "evil" ] ]
 
  |> "' d m" <| [
 
@@ -8696,23 +8682,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mu&as~asiy~_1
     -- m&ssy   mu&as~asiy~     Nall    institutional;organizational     [[mu&as~asiy~/ADJ]]
 
-    MuFaCCaL |< Iy            `adj`     {- muWas~asiy~ -}      [ "institutional", "organizational" ],
-
-    -- ;; >as~aY_1
-    -- >sY     >as~aY  PV_0    console;comfort
-    -- AsY     >as~aY  PV_0    console;comfort
-    -- >sA     >as~A   PV_h    console;comfort
-    -- AsA     >as~A   PV_h    console;comfort
-    -- >sy     >as~ay  PV_Atn  console;comfort
-    -- Asy     >as~ay  PV_Atn  console;comfort
-    -- >s      >as~    PV_ttAw console;comfort
-    -- As      >as~    PV_ttAw console;comfort
-    -- &sy     &as~iy  IV_0hAnn_yu     console;comfort
-    -- &s      &as~    IV_0hwnyn_yu    console;comfort
-    -- &sY     &as~aY  IV_0_Pass_yu    be consoled;be comforted
-    -- &sy     &as~ay  IV_Ann_Pass_yu  be consoled;be comforted
-
-    FaCLY                     `verb`    {- Oas~aY -}           [ "console", "comfort", "be consoled", "be comforted" ] ]
+    MuFaCCaL |< Iy            `adj`     {- muWas~asiy~ -}      [ "institutional", "organizational" ] ]
 
  |> "' s t" <| [
 
@@ -10183,24 +10153,6 @@ lexicon = listing "Lexicon's properties"
 
     KuRDuS                    `noun`    {- Ouwtuw -}           [ "Otto" ] ]
 
- |> "' w w" <| [
-
-    -- ;; >aw~aY_1
-    -- >wY     >aw~aY  PV_0    shelter;lodge
-    -- AwY     >aw~aY  PV_0    shelter;lodge
-    -- >wA     >aw~A   PV_h    shelter;lodge
-    -- AwA     >aw~A   PV_h    shelter;lodge
-    -- >wy     >aw~ay  PV_Atn  shelter;lodge
-    -- Awy     >aw~ay  PV_Atn  shelter;lodge
-    -- >w      >aw~    PV_ttAw shelter;lodge
-    -- Aw      >aw~    PV_ttAw shelter;lodge
-    -- &wy     &aw~iy  IV_0hAnn_yu     shelter;lodge
-    -- &w      &aw~    IV_0hwnyn_yu    shelter;lodge
-    -- &wY     &aw~aY  IV_0_Pass_yu    be sheltered;be lodged
-    -- &wy     &aw~ay  IV_Ann_Pass_yu  be sheltered;be lodged
-
-    FaCLY                     `verb`    {- Oaw~aY -}           [ "shelter", "lodge", "be sheltered", "be lodged" ] ]
-
  |> "' w y" <| [
 
     -- ;; >awaY-i_1
@@ -10351,14 +10303,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; |D-i_1
     -- \|D      |D      PV_V    return;revert
     -- AD      |D      PV_V    return;revert
-    -- >D      >aD     PV_C    return;revert
-    -- AD      >aD     PV_C    return;revert
+    -- <D      <iD     PV_C    return;revert
+    -- AD      <iD     PV_C    return;revert
     -- }yD     }iyD    IV_V    return;revert
     -- }D      }iD     IV_C    return;revert
 
     FAL                       `verb`    {- \|D-i -}            [ "return", "revert" ]
                               `imperf`     FIL
-                              `pfirst`     FaL,
+                              `pfirst`     FiL,
 
     -- ;; >ay~aD_1
     -- >yD     >ay~aD  PV      metabolize

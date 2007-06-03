@@ -877,9 +877,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `verb`    {- qaf~-u -}           [ "be dry", "wither", "shrink" ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL,
-
-    FaCLY                     `verb`    {- qaf~aY -}           [ "send", "rhyme", "be sent", "be rhymed" ] ]
+                              `pfirst`     FaCaL ]
 
  |> "q f l" <| [
 
@@ -1819,8 +1817,6 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "'aqwAt N" ] -} ]
 
  |> "q w w" <| [
-
-    FaCLY                     `verb`    {- qaw~aY -}           [ "strengthen", "be strengthened" ],
 
     FuCL |< aT                `noun`    {- quw~ap -}           [ "power", "strength", "armed forces" ]
                               `plural`     FuCY

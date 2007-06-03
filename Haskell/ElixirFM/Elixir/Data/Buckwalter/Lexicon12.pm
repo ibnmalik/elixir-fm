@@ -565,56 +565,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'sannay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'sanniy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'sannA' => {
-          'PV_h' => 1
-        },
-        'sannY' => {},
-        'sann' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        }
-      },
-      'entry' => 'sannY',
-      'form' => 'sannY',
-      'lines' => [
-        ';; san~aY_1',
-        'snY     san~aY  PV_0    facilitate',
-        'snA     san~A   PV_h    facilitate',
-        'sny     san~ay  PV_Atn  facilitate',
-        'sn      san~    PV_ttAw facilitate',
-        'sny     san~iy  IV_0hAnn_yu     facilitate',
-        'sn      san~    IV_0hwnyn_yu    facilitate',
-        'snY     san~aY  IV_0_Pass_yu    be facilitated',
-        'sny     san~ay  IV_Ann_Pass_yu  be facilitated'
-      ],
-      'patterns' => {
-        'sanniy' => [
-          'FaCCI'
-        ],
-        'sann' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'facilitate',
-        'be facilitated'
-      ],
-      'orig' => 'san~aY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
         'sin' => {
           'Nuwn_Niyn' => 1
         },
@@ -9752,58 +9702,6 @@ $Lexicon = {
         'Sue'
       ],
       'orig' => 'suw',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'saww' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'sawway' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'sawwY' => {},
-        'sawwA' => {
-          'PV_h' => 1
-        },
-        'sawwiy' => {
-          'IV_0hAnn_yu' => 1
-        }
-      },
-      'entry' => 'sawwY',
-      'form' => 'sawwY',
-      'lines' => [
-        ';; saw~aY_1',
-        'swY     saw~aY  PV_0    equalize;settle',
-        'swA     saw~A   PV_h    equalize;settle',
-        'swy     saw~ay  PV_Atn  equalize;settle',
-        'sw      saw~    PV_ttAw equalize;settle',
-        'swy     saw~iy  IV_0hAnn_yu     equalize;settle',
-        'sw      saw~    IV_0hwnyn_yu    equalize;settle',
-        'swY     saw~aY  IV_0_Pass_yu    be equalized;be settled',
-        'swy     saw~ay  IV_Ann_Pass_yu  be equalized;be settled'
-      ],
-      'patterns' => {
-        'saww' => [
-          'FaCL'
-        ],
-        'sawwiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'equalize',
-        'settle',
-        'be equalized',
-        'be settled'
-      ],
-      'orig' => 'saw~aY',
       'prefix' => ''
     }
   ],
@@ -24666,60 +24564,6 @@ $Lexicon = {
       ],
       'orig' => 'musim~',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'sammay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'sammiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'sammA' => {
-          'PV_h' => 1
-        },
-        'sammY' => {},
-        'samm' => {
-          'IV_0hwnyn_yu' => 2,
-          'PV_ttAw' => 1
-        }
-      },
-      'entry' => 'sammY',
-      'form' => 'sammY',
-      'lines' => [
-        ';; sam~aY_1',
-        'smY     sam~aY  PV_0    name;designate',
-        'smA     sam~A   PV_h    name;designate',
-        'smy     sam~ay  PV_Atn  name;designate',
-        'sm      sam~    PV_ttAw name;designate',
-        'smy     sam~iy  IV_0hAnn_yu     name;designate',
-        'sm      sam~    IV_0hwnyn_yu    name;designate',
-        'smY     sam~aY  IV_0_Pass_yu    be called;be named;be designated',
-        'smy     sam~ay  IV_Ann_Pass_yu  be called;be named;be designated',
-        'sm      sam~    IV_0hwnyn_yu    be called;be named;be designated'
-      ],
-      'patterns' => {
-        'sammiy' => [
-          'FaCCI'
-        ],
-        'samm' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'name',
-        'designate',
-        'be called',
-        'be named',
-        'be designated'
-      ],
-      'orig' => 'sam~aY',
-      'prefix' => ''
     }
   ],
   's l f' => [
@@ -25399,10 +25243,37 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sammay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'sammiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'sammA' => {
+          'PV_h' => 1
+        },
+        'sammY' => {},
+        'samm' => {
+          'IV_0hwnyn_yu' => 2,
+          'PV_ttAw' => 1
+        }
+      },
       'entry' => 'sammY',
       'form' => 'sammY',
-      'lines' => [],
+      'lines' => [
+        ';; sam~aY_1',
+        'smY     sam~aY  PV_0    name;designate',
+        'smA     sam~A   PV_h    name;designate',
+        'smy     sam~ay  PV_Atn  name;designate',
+        'sm      sam~    PV_ttAw name;designate',
+        'smy     sam~iy  IV_0hAnn_yu     name;designate',
+        'sm      sam~    IV_0hwnyn_yu    name;designate',
+        'smY     sam~aY  IV_0_Pass_yu    be called;be named;be designated',
+        'smy     sam~ay  IV_Ann_Pass_yu  be called;be named;be designated',
+        'sm      sam~    IV_0hwnyn_yu    be called;be named;be designated'
+      ],
       'patterns' => {
         'sammiy' => [
           'FaCCI'
@@ -25412,7 +25283,13 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'name',
+        'designate',
+        'be called',
+        'be named',
+        'be designated'
+      ],
       'orig' => 'sam~aY',
       'prefix' => ''
     },
@@ -28457,27 +28334,6 @@ $Lexicon = {
         'offprint'
       ],
       'orig' => 'musotal~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'sallY',
-      'form' => 'sallY',
-      'lines' => [],
-      'patterns' => {
-        'sall' => [
-          'FaCL'
-        ],
-        'salliy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'sal~aY',
       'prefix' => ''
     }
   ],
@@ -38688,56 +38544,6 @@ $Lexicon = {
       ],
       'orig' => 'masoduwd',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'sadday' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'saddY' => {},
-        'sadd' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'saddA' => {
-          'PV_h' => 1
-        },
-        'saddiy' => {
-          'IV_0hAnn_yu' => 1
-        }
-      },
-      'entry' => 'saddY',
-      'form' => 'saddY',
-      'lines' => [
-        ';; sad~aY_1',
-        'sdY     sad~aY  PV_0    confer',
-        'sdA     sad~A   PV_h    confer',
-        'sdy     sad~ay  PV_Atn  confer',
-        'sd      sad~    PV_ttAw confer',
-        'sdy     sad~iy  IV_0hAnn_yu     confer',
-        'sd      sad~    IV_0hwnyn_yu    confer',
-        'sdY     sad~aY  IV_0_Pass_yu    be conferred',
-        'sdy     sad~ay  IV_Ann_Pass_yu  be conferred'
-      ],
-      'patterns' => {
-        'sadd' => [
-          'FaCL'
-        ],
-        'saddiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'confer',
-        'be conferred'
-      ],
-      'orig' => 'sad~aY',
-      'prefix' => ''
     }
   ],
   's m s m' => [
@@ -42047,10 +41853,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sannay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'sanniy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'sannA' => {
+          'PV_h' => 1
+        },
+        'sannY' => {},
+        'sann' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        }
+      },
       'entry' => 'sannY',
       'form' => 'sannY',
-      'lines' => [],
+      'lines' => [
+        ';; san~aY_1',
+        'snY     san~aY  PV_0    facilitate',
+        'snA     san~A   PV_h    facilitate',
+        'sny     san~ay  PV_Atn  facilitate',
+        'sn      san~    PV_ttAw facilitate',
+        'sny     san~iy  IV_0hAnn_yu     facilitate',
+        'sn      san~    IV_0hwnyn_yu    facilitate',
+        'snY     san~aY  IV_0_Pass_yu    be facilitated',
+        'sny     san~ay  IV_Ann_Pass_yu  be facilitated'
+      ],
       'patterns' => {
         'sanniy' => [
           'FaCCI'
@@ -42060,7 +41892,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'facilitate',
+        'be facilitated'
+      ],
       'orig' => 'san~aY',
       'prefix' => ''
     },
@@ -43598,30 +43433,6 @@ $Lexicon = {
         'concubinage'
       ],
       'orig' => 'AisotisorAriy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'sarrY',
-      'form' => 'sarrY',
-      'lines' => [],
-      'patterns' => {
-        'surriy' => [
-          'FuCCI'
-        ],
-        'sarriy' => [
-          'FaCCI'
-        ],
-        'sarr' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'sar~aY',
       'prefix' => ''
     }
   ],
@@ -45366,10 +45177,36 @@ $Lexicon = {
   ],
   's d y' => [
     {
-      'types' => {},
+      'types' => {
+        'sadday' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'saddY' => {},
+        'sadd' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'saddA' => {
+          'PV_h' => 1
+        },
+        'saddiy' => {
+          'IV_0hAnn_yu' => 1
+        }
+      },
       'entry' => 'saddY',
       'form' => 'saddY',
-      'lines' => [],
+      'lines' => [
+        ';; sad~aY_1',
+        'sdY     sad~aY  PV_0    confer',
+        'sdA     sad~A   PV_h    confer',
+        'sdy     sad~ay  PV_Atn  confer',
+        'sd      sad~    PV_ttAw confer',
+        'sdy     sad~iy  IV_0hAnn_yu     confer',
+        'sd      sad~    IV_0hwnyn_yu    confer',
+        'sdY     sad~aY  IV_0_Pass_yu    be conferred',
+        'sdy     sad~ay  IV_Ann_Pass_yu  be conferred'
+      ],
       'patterns' => {
         'sadday' => [
           'FaCCaL'
@@ -45383,7 +45220,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'confer',
+        'be conferred'
+      ],
       'orig' => 'sad~aY',
       'prefix' => ''
     },
@@ -55972,48 +55812,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  's y y' => [
-    {
-      'types' => {
-        '\'aswA\'' => {
-          'Nh' => 2,
-          'Nhy' => 2,
-          'N0_Nh' => 2
-        },
-        'siyy' => {
-          'NAn_Nayn' => 1
-        },
-        'sawAsiy' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => 'siyy',
-      'form' => 'siyy',
-      'lines' => [
-        ';; siy~_1',
-        'sy      siy~    NAn_Nayn        alike;the same',
-        '>swA\'   >asowA\' N0_Nh   alike;the same',
-        'AswA\'   >asowA\' N0_Nh   alike;the same',
-        '>swA&   >asowA& Nh      alike;the same',
-        'AswA&   >asowA& Nh      alike;the same',
-        '>swA}   >asowA} Nhy     alike;the same',
-        'AswA}   >asowA} Nhy     alike;the same',
-        'swAsy   sawAsiy Nap     alike;the same;equals'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCL',
-      'suffix' => '',
-      'glosses' => [
-        'alike',
-        'the same',
-        'equals'
-      ],
-      'orig' => 'siy~',
-      'prefix' => ''
-    }
-  ],
   's h b' => [
     {
       'types' => {
@@ -56134,6 +55932,48 @@ $Lexicon = {
         'detailed'
       ],
       'orig' => 'musohib',
+      'prefix' => ''
+    }
+  ],
+  's y y' => [
+    {
+      'types' => {
+        '\'aswA\'' => {
+          'Nh' => 2,
+          'Nhy' => 2,
+          'N0_Nh' => 2
+        },
+        'siyy' => {
+          'NAn_Nayn' => 1
+        },
+        'sawAsiy' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'siyy',
+      'form' => 'siyy',
+      'lines' => [
+        ';; siy~_1',
+        'sy      siy~    NAn_Nayn        alike;the same',
+        '>swA\'   >asowA\' N0_Nh   alike;the same',
+        'AswA\'   >asowA\' N0_Nh   alike;the same',
+        '>swA&   >asowA& Nh      alike;the same',
+        'AswA&   >asowA& Nh      alike;the same',
+        '>swA}   >asowA} Nhy     alike;the same',
+        'AswA}   >asowA} Nhy     alike;the same',
+        'swAsy   sawAsiy Nap     alike;the same;equals'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCL',
+      'suffix' => '',
+      'glosses' => [
+        'alike',
+        'the same',
+        'equals'
+      ],
+      'orig' => 'siy~',
       'prefix' => ''
     }
   ],
@@ -58000,29 +57840,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  's ^g ^g' => [
-    {
-      'types' => {},
-      'entry' => 'sa^g^gY',
-      'form' => 'sa^g^gY',
-      'lines' => [],
-      'patterns' => {
-        'sa^g^giy' => [
-          'FaCCI'
-        ],
-        'sa^g^g' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'saj~aY',
-      'prefix' => ''
-    }
-  ],
   's r k s' => [
     {
       'types' => {
@@ -59637,10 +59454,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'saww' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'sawway' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'sawwY' => {},
+        'sawwA' => {
+          'PV_h' => 1
+        },
+        'sawwiy' => {
+          'IV_0hAnn_yu' => 1
+        }
+      },
       'entry' => 'sawwY',
       'form' => 'sawwY',
-      'lines' => [],
+      'lines' => [
+        ';; saw~aY_1',
+        'swY     saw~aY  PV_0    equalize;settle',
+        'swA     saw~A   PV_h    equalize;settle',
+        'swy     saw~ay  PV_Atn  equalize;settle',
+        'sw      saw~    PV_ttAw equalize;settle',
+        'swy     saw~iy  IV_0hAnn_yu     equalize;settle',
+        'sw      saw~    IV_0hwnyn_yu    equalize;settle',
+        'swY     saw~aY  IV_0_Pass_yu    be equalized;be settled',
+        'swy     saw~ay  IV_Ann_Pass_yu  be equalized;be settled'
+      ],
       'patterns' => {
         'sawway' => [
           'FaCCaL'
@@ -59654,7 +59497,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'equalize',
+        'settle',
+        'be equalized',
+        'be settled'
+      ],
       'orig' => 'saw~aY',
       'prefix' => ''
     },
@@ -61230,9 +61078,6 @@ $Lexicon->{'s w m'}[8]{'glosses'} = $Lexicon->{'s \' m'}[6]{'glosses'};
 $Lexicon->{'s r s'}[1]{'types'} = $Lexicon->{'s y r s'}[0]{'types'};
 $Lexicon->{'s r s'}[1]{'lines'} = $Lexicon->{'s y r s'}[0]{'lines'};
 $Lexicon->{'s r s'}[1]{'glosses'} = $Lexicon->{'s y r s'}[0]{'glosses'};
-$Lexicon->{'s m w'}[1]{'types'} = $Lexicon->{'s m m'}[12]{'types'};
-$Lexicon->{'s m w'}[1]{'lines'} = $Lexicon->{'s m m'}[12]{'lines'};
-$Lexicon->{'s m w'}[1]{'glosses'} = $Lexicon->{'s m m'}[12]{'glosses'};
 $Lexicon->{'s m w'}[12]{'types'} = $Lexicon->{'s m y'}[3]{'types'};
 $Lexicon->{'s m w'}[12]{'lines'} = $Lexicon->{'s m y'}[3]{'lines'};
 $Lexicon->{'s m w'}[12]{'glosses'} = $Lexicon->{'s m y'}[3]{'glosses'};
@@ -61254,9 +61099,6 @@ $Lexicon->{'s q y'}[11]{'glosses'} = $Lexicon->{'s q \''}[4]{'glosses'};
 $Lexicon->{'s q y'}[12]{'types'} = $Lexicon->{'s q \''}[5]{'types'};
 $Lexicon->{'s q y'}[12]{'lines'} = $Lexicon->{'s q \''}[5]{'lines'};
 $Lexicon->{'s q y'}[12]{'glosses'} = $Lexicon->{'s q \''}[5]{'glosses'};
-$Lexicon->{'s l l'}[18]{'types'} = $Lexicon->{'s l y'}[4]{'types'};
-$Lexicon->{'s l l'}[18]{'lines'} = $Lexicon->{'s l y'}[4]{'lines'};
-$Lexicon->{'s l l'}[18]{'glosses'} = $Lexicon->{'s l y'}[4]{'glosses'};
 $Lexicon->{'s m \''}[0]{'types'} = $Lexicon->{'s m w'}[8]{'types'};
 $Lexicon->{'s m \''}[0]{'lines'} = $Lexicon->{'s m w'}[8]{'lines'};
 $Lexicon->{'s m \''}[0]{'glosses'} = $Lexicon->{'s m w'}[8]{'glosses'};
@@ -61296,9 +61138,6 @@ $Lexicon->{'s y l n'}[0]{'glosses'} = $Lexicon->{'s y l'}[12]{'glosses'};
 $Lexicon->{'s _h \''}[0]{'types'} = $Lexicon->{'s _h w'}[5]{'types'};
 $Lexicon->{'s _h \''}[0]{'lines'} = $Lexicon->{'s _h w'}[5]{'lines'};
 $Lexicon->{'s _h \''}[0]{'glosses'} = $Lexicon->{'s _h w'}[5]{'glosses'};
-$Lexicon->{'s n w'}[1]{'types'} = $Lexicon->{'s n n'}[19]{'types'};
-$Lexicon->{'s n w'}[1]{'lines'} = $Lexicon->{'s n n'}[19]{'lines'};
-$Lexicon->{'s n w'}[1]{'glosses'} = $Lexicon->{'s n n'}[19]{'glosses'};
 $Lexicon->{'s n w'}[4]{'types'} = $Lexicon->{'s n \''}[0]{'types'};
 $Lexicon->{'s n w'}[4]{'lines'} = $Lexicon->{'s n \''}[0]{'lines'};
 $Lexicon->{'s n w'}[4]{'glosses'} = $Lexicon->{'s n \''}[0]{'glosses'};
@@ -61311,12 +61150,6 @@ $Lexicon->{'s r r'}[7]{'glosses'} = $Lexicon->{'s t s r'}[0]{'glosses'};
 $Lexicon->{'s r r'}[21]{'types'} = $Lexicon->{'s r \''}[0]{'types'};
 $Lexicon->{'s r r'}[21]{'lines'} = $Lexicon->{'s r \''}[0]{'lines'};
 $Lexicon->{'s r r'}[21]{'glosses'} = $Lexicon->{'s r \''}[0]{'glosses'};
-$Lexicon->{'s r r'}[32]{'types'} = $Lexicon->{'s r w'}[0]{'types'};
-$Lexicon->{'s r r'}[32]{'lines'} = $Lexicon->{'s r w'}[0]{'lines'};
-$Lexicon->{'s r r'}[32]{'glosses'} = $Lexicon->{'s r w'}[0]{'glosses'};
-$Lexicon->{'s d y'}[0]{'types'} = $Lexicon->{'s d d'}[27]{'types'};
-$Lexicon->{'s d y'}[0]{'lines'} = $Lexicon->{'s d d'}[27]{'lines'};
-$Lexicon->{'s d y'}[0]{'glosses'} = $Lexicon->{'s d d'}[27]{'glosses'};
 $Lexicon->{'s t n'}[3]{'types'} = $Lexicon->{'s n n'}[3]{'types'};
 $Lexicon->{'s t n'}[3]{'lines'} = $Lexicon->{'s n n'}[3]{'lines'};
 $Lexicon->{'s t n'}[3]{'glosses'} = $Lexicon->{'s n n'}[3]{'glosses'};
@@ -61371,18 +61204,12 @@ $Lexicon->{'s \' b'}[0]{'glosses'} = $Lexicon->{'s y b'}[6]{'glosses'};
 $Lexicon->{'s l \''}[2]{'types'} = $Lexicon->{'s l y'}[0]{'types'};
 $Lexicon->{'s l \''}[2]{'lines'} = $Lexicon->{'s l y'}[0]{'lines'};
 $Lexicon->{'s l \''}[2]{'glosses'} = $Lexicon->{'s l y'}[0]{'glosses'};
-$Lexicon->{'s ^g ^g'}[0]{'types'} = $Lexicon->{'s ^g w'}[1]{'types'};
-$Lexicon->{'s ^g ^g'}[0]{'lines'} = $Lexicon->{'s ^g w'}[1]{'lines'};
-$Lexicon->{'s ^g ^g'}[0]{'glosses'} = $Lexicon->{'s ^g w'}[1]{'glosses'};
 $Lexicon->{'s \' l'}[18]{'types'} = $Lexicon->{'s y l'}[10]{'types'};
 $Lexicon->{'s \' l'}[18]{'lines'} = $Lexicon->{'s y l'}[10]{'lines'};
 $Lexicon->{'s \' l'}[18]{'glosses'} = $Lexicon->{'s y l'}[10]{'glosses'};
 $Lexicon->{'s \' l'}[19]{'types'} = $Lexicon->{'s y l'}[11]{'types'};
 $Lexicon->{'s \' l'}[19]{'lines'} = $Lexicon->{'s y l'}[11]{'lines'};
 $Lexicon->{'s \' l'}[19]{'glosses'} = $Lexicon->{'s y l'}[11]{'glosses'};
-$Lexicon->{'s w y'}[1]{'types'} = $Lexicon->{'s w w'}[1]{'types'};
-$Lexicon->{'s w y'}[1]{'lines'} = $Lexicon->{'s w w'}[1]{'lines'};
-$Lexicon->{'s w y'}[1]{'glosses'} = $Lexicon->{'s w w'}[1]{'glosses'};
 $Lexicon->{'s w y'}[7]{'types'} = $Lexicon->{'s w \''}[15]{'types'};
 $Lexicon->{'s w y'}[7]{'lines'} = $Lexicon->{'s w \''}[15]{'lines'};
 $Lexicon->{'s w y'}[7]{'glosses'} = $Lexicon->{'s w \''}[15]{'glosses'};

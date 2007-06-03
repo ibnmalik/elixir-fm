@@ -301,7 +301,7 @@ AbAlys  >abAliys        Ndip    devils;demons
 AbAls   >abAlis Nap     devils;demons
 ;
 ;--- Abn
-;; &ab~in_1
+;; &ab~an_1
 >bn     >ab~an  PV-n    eulogize
 Abn     >ab~an  PV-n    eulogize
 &bn     &ab~in  IV-n_yu eulogize
@@ -1273,7 +1273,7 @@ Ax*     >axa*   PV      take;begin
 Ax*     >oxu*   IV_no-Pref-A    take;begin
 x*      xu*     IV_need-Pref-|  take;begin
 x*      xu*     CV      take
-;; &ax~i*_1
+;; &ax~a*_1
 >x*     >ax~a*  PV      enchant;bewitch
 Ax*     >ax~a*  PV      enchant;bewitch
 &x*     &ax~i*  IV_yu   enchant;bewitch
@@ -1328,7 +1328,9 @@ AtxA*   {it~ixA*        NduAt   taking;adoption
 mtx*    mut~axa*        N-ap    taken;adopted
 ;
 ;--- Axr
-;; &ax~ir_1
+;; &ax~ar_1
+>xr     >ax~ar  PV      delay;postpone
+Axr     >ax~ar  PV      delay;postpone
 &xr     &ax~ir  IV_yu   delay;postpone
 &xr     &ax~ar  IV_Pass_yu      be delayed;be postponed
 ;; ta>ax~ar_1
@@ -8540,8 +8542,8 @@ AyD     >ayoD   NF      also     <pos>>ayoD/ADV</pos>
 ;; |D-i_1
 |D      |D      PV_V    return;revert
 AD      |D      PV_V    return;revert
->D      >aD     PV_C    return;revert
-AD      >aD     PV_C    return;revert
+<D      <iD     PV_C    return;revert
+AD      <iD     PV_C    return;revert
 }yD     }iyD    IV_V    return;revert
 }D      }iD     IV_C    return;revert
 ;; >ay~aD_1

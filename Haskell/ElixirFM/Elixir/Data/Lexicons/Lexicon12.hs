@@ -567,9 +567,7 @@ lexicon = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- tasodiyd -}         [ "aiming", "shooting" ],
 
-    MaFCUL                    `adj`     {- masoduwd -}         [ "blocked", "closed" ],
-
-    FaCLY                     `verb`    {- sad~aY -}           [ "confer", "be conferred" ] ]
+    MaFCUL                    `adj`     {- masoduwd -}         [ "blocked", "closed" ] ]
 
  |> "s d s" <| [
 
@@ -1131,9 +1129,7 @@ lexicon = listing "Lexicon's properties"
 
     MaFACL                    `noun`    {- masAm~ -}           [ "pores" ],
 
-    FACL                      `adj`     {- sAm~ -}             [ "poisonous", "toxic" ],
-
-    FaCLY                     `verb`    {- sam~aY -}           [ "name", "designate", "be called", "be named", "be designated" ] ]
+    FACL                      `adj`     {- sAm~ -}             [ "poisonous", "toxic" ] ]
 
  |> "s m r" <| [
 

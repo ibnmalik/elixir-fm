@@ -1416,9 +1416,7 @@ lexicon = listing "Lexicon's properties"
     FaL |< At                 `noun`    {- \$atAt -}           [ "dispersed", "scattered" ]
                               `plural`     FaCIL |< aT,
 
-    TaFCIL                    `noun`    {- ta$otiyt -}         [ "dispersion", "scattering", "disruption" ],
-
-    FaCLY                     `verb`    {- \$at~aY -}          [ "hibernate", "spend the winter", "rain" ] ]
+    TaFCIL                    `noun`    {- ta$otiyt -}         [ "dispersion", "scattering", "disruption" ] ]
 
  |> "^s t w" <| [
 

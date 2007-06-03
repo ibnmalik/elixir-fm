@@ -14972,58 +14972,6 @@ $Lexicon = {
       ],
       'orig' => 'Tar~Ar',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '.tarrA' => {
-          'PV_h' => 1
-        },
-        '.tarrY' => {},
-        '.tarr' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '.tarray' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '.tarriy' => {
-          'IV_0hAnn_yu' => 1
-        }
-      },
-      'entry' => '.tarrY',
-      'form' => '.tarrY',
-      'lines' => [
-        ';; Tar~aY_1',
-        'TrY     Tar~aY  PV_0    tenderize;freshen',
-        'TrA     Tar~A   PV_h    tenderize;freshen',
-        'Try     Tar~ay  PV_Atn  tenderize;freshen',
-        'Tr      Tar~    PV_ttAw tenderize;freshen',
-        'Try     Tar~iy  IV_0hAnn_yu     tenderize;freshen',
-        'Tr      Tar~    IV_0hwnyn_yu    tenderize;freshen',
-        'TrY     Tar~aY  IV_0_Pass_yu    be tenderized;be freshened',
-        'Try     Tar~ay  IV_Ann_Pass_yu  be tenderized;be freshened'
-      ],
-      'patterns' => {
-        '.tarr' => [
-          'FaCL'
-        ],
-        '.tarriy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'tenderize',
-        'freshen',
-        'be tenderized',
-        'be freshened'
-      ],
-      'orig' => 'Tar~aY',
-      'prefix' => ''
     }
   ],
   '.t f w' => [
@@ -24991,10 +24939,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '.tarrA' => {
+          'PV_h' => 1
+        },
+        '.tarrY' => {},
+        '.tarr' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '.tarray' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '.tarriy' => {
+          'IV_0hAnn_yu' => 1
+        }
+      },
       'entry' => '.tarrY',
       'form' => '.tarrY',
-      'lines' => [],
+      'lines' => [
+        ';; Tar~aY_1',
+        'TrY     Tar~aY  PV_0    tenderize;freshen',
+        'TrA     Tar~A   PV_h    tenderize;freshen',
+        'Try     Tar~ay  PV_Atn  tenderize;freshen',
+        'Tr      Tar~    PV_ttAw tenderize;freshen',
+        'Try     Tar~iy  IV_0hAnn_yu     tenderize;freshen',
+        'Tr      Tar~    IV_0hwnyn_yu    tenderize;freshen',
+        'TrY     Tar~aY  IV_0_Pass_yu    be tenderized;be freshened',
+        'Try     Tar~ay  IV_Ann_Pass_yu  be tenderized;be freshened'
+      ],
       'patterns' => {
         '.tarriy' => [
           'FaCCI'
@@ -25004,7 +24978,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'tenderize',
+        'freshen',
+        'be tenderized',
+        'be freshened'
+      ],
       'orig' => 'Tar~aY',
       'prefix' => ''
     },
@@ -26918,9 +26897,6 @@ $Lexicon->{'.t r w'}[1]{'types'} = $Lexicon->{'.t r y'}[0]{'types'};
 $Lexicon->{'.t r w'}[1]{'lines'} = $Lexicon->{'.t r y'}[0]{'lines'};
 $Lexicon->{'.t r w'}[1]{'glosses'} = $Lexicon->{'.t r y'}[0]{'glosses'};
 $Lexicon->{'.t r w'}[1]{'imperf'} = $Lexicon->{'.t r y'}[0]{'imperf'};
-$Lexicon->{'.t r w'}[2]{'types'} = $Lexicon->{'.t r r'}[9]{'types'};
-$Lexicon->{'.t r w'}[2]{'lines'} = $Lexicon->{'.t r r'}[9]{'lines'};
-$Lexicon->{'.t r w'}[2]{'glosses'} = $Lexicon->{'.t r r'}[9]{'glosses'};
 $Lexicon->{'.t r w'}[6]{'types'} = $Lexicon->{'.t r y'}[2]{'types'};
 $Lexicon->{'.t r w'}[6]{'lines'} = $Lexicon->{'.t r y'}[2]{'lines'};
 $Lexicon->{'.t r w'}[6]{'glosses'} = $Lexicon->{'.t r y'}[2]{'glosses'};

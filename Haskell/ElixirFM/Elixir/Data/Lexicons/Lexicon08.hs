@@ -485,9 +485,7 @@ lexicon = listing "Lexicon's properties"
 
     IstiFCAL                  `noun`    {- AisotidolAl -}      [ "argumentation", "inference", "proof" ],
 
-    MuFaCCaL                  `adj`     {- mudal~al -}         [ "pampered", "spoiled" ],
-
-    FaCLY                     `verb`    {- dal~aY -}           [ "dangle", "suspend", "lower", "be dangled", "be suspended", "be lowered" ] ]
+    MuFaCCaL                  `adj`     {- mudal~al -}         [ "pampered", "spoiled" ] ]
 
  |> "d l n" <| [
 
@@ -1024,9 +1022,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "d w w" <| [
 
-    FuL                       `noun`    {- duw -}              [ "Du", "Do" ],
-
-    FaCLY                     `verb`    {- daw~aY -}           [ "buzz", "hum", "drone" ] ]
+    FuL                       `noun`    {- duw -}              [ "Du", "Do" ] ]
 
  |> "d w y" <| [
 

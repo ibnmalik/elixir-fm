@@ -2139,60 +2139,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '.d .h .h' => [
-    {
-      'types' => {
-        '.da.h.hiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '.da.h.h' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '.da.h.hA' => {
-          'PV_h' => 1
-        },
-        '.da.h.hY' => {},
-        '.da.h.hay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        }
-      },
-      'entry' => '.da.h.hY',
-      'form' => '.da.h.hY',
-      'lines' => [
-        ';; DaH~aY_1',
-        'DHY     DaH~aY  PV_0    sacrifice;immolate',
-        'DHA     DaH~A   PV_h    sacrifice;immolate',
-        'DHy     DaH~ay  PV_Atn  sacrifice;immolate',
-        'DH      DaH~    PV_ttAw sacrifice;immolate',
-        'DHy     DaH~iy  IV_0hAnn_yu     sacrifice;immolate',
-        'DH      DaH~    IV_0hwnyn_yu    sacrifice;immolate',
-        'DHY     DaH~aY  IV_0_Pass_yu    be sacrificed;be immolated',
-        'DHy     DaH~ay  IV_Ann_Pass_yu  be sacrificed;be immolated'
-      ],
-      'patterns' => {
-        '.da.h.hiy' => [
-          'FaCCI'
-        ],
-        '.da.h.h' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'sacrifice',
-        'immolate',
-        'be sacrificed',
-        'be immolated'
-      ],
-      'orig' => 'DaH~aY',
-      'prefix' => ''
-    }
-  ],
   '.d h l' => [
     {
       'types' => {
@@ -6174,10 +6120,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '.da.h.hiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '.da.h.h' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '.da.h.hA' => {
+          'PV_h' => 1
+        },
+        '.da.h.hY' => {},
+        '.da.h.hay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        }
+      },
       'entry' => '.da.h.hY',
       'form' => '.da.h.hY',
-      'lines' => [],
+      'lines' => [
+        ';; DaH~aY_1',
+        'DHY     DaH~aY  PV_0    sacrifice;immolate',
+        'DHA     DaH~A   PV_h    sacrifice;immolate',
+        'DHy     DaH~ay  PV_Atn  sacrifice;immolate',
+        'DH      DaH~    PV_ttAw sacrifice;immolate',
+        'DHy     DaH~iy  IV_0hAnn_yu     sacrifice;immolate',
+        'DH      DaH~    IV_0hwnyn_yu    sacrifice;immolate',
+        'DHY     DaH~aY  IV_0_Pass_yu    be sacrificed;be immolated',
+        'DHy     DaH~ay  IV_Ann_Pass_yu  be sacrificed;be immolated'
+      ],
       'patterns' => {
         '.da.h.hiy' => [
           'FaCCI'
@@ -6187,7 +6159,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'sacrifice',
+        'immolate',
+        'be sacrificed',
+        'be immolated'
+      ],
       'orig' => 'DaH~aY',
       'prefix' => ''
     },
@@ -9635,27 +9612,6 @@ $Lexicon = {
         'damaged'
       ],
       'orig' => 'mutaDar~ir',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '.darrY',
-      'form' => '.darrY',
-      'lines' => [],
-      'patterns' => {
-        '.darr' => [
-          'FaCL'
-        ],
-        '.darriy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Dar~aY',
       'prefix' => ''
     }
   ],
@@ -15396,9 +15352,6 @@ $Lexicon->{'.d y \''}[5]{'glosses'} = $Lexicon->{'.d y \''}[4]{'glosses'};
 $Lexicon->{'.d y \''}[7]{'types'} = $Lexicon->{'.d y \''}[6]{'types'};
 $Lexicon->{'.d y \''}[7]{'lines'} = $Lexicon->{'.d y \''}[6]{'lines'};
 $Lexicon->{'.d y \''}[7]{'glosses'} = $Lexicon->{'.d y \''}[6]{'glosses'};
-$Lexicon->{'.d .h w'}[2]{'types'} = $Lexicon->{'.d .h .h'}[0]{'types'};
-$Lexicon->{'.d .h w'}[2]{'lines'} = $Lexicon->{'.d .h .h'}[0]{'lines'};
-$Lexicon->{'.d .h w'}[2]{'glosses'} = $Lexicon->{'.d .h .h'}[0]{'glosses'};
 $Lexicon->{'.d n \''}[0]{'types'} = $Lexicon->{'.d n y'}[5]{'types'};
 $Lexicon->{'.d n \''}[0]{'lines'} = $Lexicon->{'.d n y'}[5]{'lines'};
 $Lexicon->{'.d n \''}[0]{'glosses'} = $Lexicon->{'.d n y'}[5]{'glosses'};
@@ -15420,9 +15373,6 @@ $Lexicon->{'.d r r'}[18]{'glosses'} = $Lexicon->{'.d .t r'}[2]{'glosses'};
 $Lexicon->{'.d r r'}[20]{'types'} = $Lexicon->{'.d .t r'}[3]{'types'};
 $Lexicon->{'.d r r'}[20]{'lines'} = $Lexicon->{'.d .t r'}[3]{'lines'};
 $Lexicon->{'.d r r'}[20]{'glosses'} = $Lexicon->{'.d .t r'}[3]{'glosses'};
-$Lexicon->{'.d r r'}[22]{'types'} = $Lexicon->{'.d r y'}[0]{'types'};
-$Lexicon->{'.d r r'}[22]{'lines'} = $Lexicon->{'.d r y'}[0]{'lines'};
-$Lexicon->{'.d r r'}[22]{'glosses'} = $Lexicon->{'.d r y'}[0]{'glosses'};
 $Lexicon->{'.d f y'}[2]{'types'} = $Lexicon->{'.d f \''}[0]{'types'};
 $Lexicon->{'.d f y'}[2]{'lines'} = $Lexicon->{'.d f \''}[0]{'lines'};
 $Lexicon->{'.d f y'}[2]{'glosses'} = $Lexicon->{'.d f \''}[0]{'glosses'};

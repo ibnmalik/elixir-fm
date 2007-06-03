@@ -5122,60 +5122,6 @@ $Lexicon = {
       ],
       'orig' => 'munoqaD~',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'qa.d.d' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'qa.d.day' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'qa.d.dY' => {},
-        'qa.d.diy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'qa.d.dA' => {
-          'PV_h' => 1
-        }
-      },
-      'entry' => 'qa.d.dY',
-      'form' => 'qa.d.dY',
-      'lines' => [
-        ';; qaD~aY_1',
-        'qDY     qaD~aY  PV_0    carry out;effectuate;accomplish',
-        'qDA     qaD~A   PV_h    carry out;effectuate;accomplish',
-        'qDy     qaD~ay  PV_Atn  carry out;effectuate;accomplish',
-        'qD      qaD~    PV_ttAw carry out;effectuate;accomplish',
-        'qDy     qaD~iy  IV_0hAnn_yu     carry out;effectuate;accomplish',
-        'qD      qaD~    IV_0hwnyn_yu    carry out;effectuate;accomplish',
-        'qDY     qaD~aY  IV_0_Pass_yu    be carried out;be effectuated;be accomplished',
-        'qDy     qaD~ay  IV_Ann_Pass_yu  be carried out;be effectuated;be accomplished'
-      ],
-      'patterns' => {
-        'qa.d.d' => [
-          'FaCL'
-        ],
-        'qa.d.diy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'carry out',
-        'effectuate',
-        'accomplish',
-        'be carried out',
-        'be effectuated',
-        'be accomplished'
-      ],
-      'orig' => 'qaD~aY',
-      'prefix' => ''
     }
   ],
   'q .t .t' => [
@@ -11571,58 +11517,6 @@ $Lexicon = {
       ],
       'orig' => 'muqab~ab',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'qabbA' => {
-          'PV_h' => 1
-        },
-        'qabbY' => {},
-        'qabbiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'qabb' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'qabbay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        }
-      },
-      'entry' => 'qabbY',
-      'form' => 'qabbY',
-      'lines' => [
-        ';; qab~aY_1',
-        'qbY     qab~aY  PV_0    vault;arch',
-        'qbA     qab~A   PV_h    vault;arch',
-        'qby     qab~ay  PV_Atn  vault;arch',
-        'qb      qab~    PV_ttAw vault;arch',
-        'qby     qab~iy  IV_0hAnn_yu     vault;arch',
-        'qb      qab~    IV_0hwnyn_yu    vault;arch',
-        'qbY     qab~aY  IV_0_Pass_yu    be vaulted;be arched',
-        'qby     qab~ay  IV_Ann_Pass_yu  be vaulted;be arched'
-      ],
-      'patterns' => {
-        'qabb' => [
-          'FaCL'
-        ],
-        'qabbiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'vault',
-        'arch',
-        'be vaulted',
-        'be arched'
-      ],
-      'orig' => 'qab~aY',
-      'prefix' => ''
     }
   ],
   'q l n s' => [
@@ -15401,60 +15295,6 @@ $Lexicon = {
         'ordination'
       ],
       'orig' => 'qusuwsiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'qass' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'qassay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'qassY' => {},
-        'qassiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'qassA' => {
-          'PV_h' => 1
-        }
-      },
-      'entry' => 'qassY',
-      'form' => 'qassY',
-      'lines' => [
-        ';; qas~aY_1',
-        'qsY     qas~aY  PV_0    harden;make stubborn;make hard-hearted',
-        'qsA     qas~A   PV_h    harden;make stubborn;make hard-hearted',
-        'qsy     qas~ay  PV_Atn  harden;make stubborn;make hard-hearted',
-        'qs      qas~    PV_ttAw harden;make stubborn;make hard-hearted',
-        'qsy     qas~iy  IV_0hAnn_yu     harden;make stubborn;make hard-hearted',
-        'qs      qas~    IV_0hwnyn_yu    harden;make stubborn;make hard-hearted',
-        'qsY     qas~aY  IV_0_Pass_yu    be hardened;be made stubborn;be made hard-hearted',
-        'qsy     qas~ay  IV_Ann_Pass_yu  be hardened;be made stubborn;be made hard-hearted'
-      ],
-      'patterns' => {
-        'qass' => [
-          'FaCL'
-        ],
-        'qassiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'harden',
-        'make stubborn',
-        'make hard-hearted',
-        'be hardened',
-        'be made stubborn',
-        'be made hard-hearted'
-      ],
-      'orig' => 'qas~aY',
       'prefix' => ''
     }
   ],
@@ -19951,10 +19791,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'qabbA' => {
+          'PV_h' => 1
+        },
+        'qabbY' => {},
+        'qabbiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'qabb' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'qabbay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        }
+      },
       'entry' => 'qabbY',
       'form' => 'qabbY',
-      'lines' => [],
+      'lines' => [
+        ';; qab~aY_1',
+        'qbY     qab~aY  PV_0    vault;arch',
+        'qbA     qab~A   PV_h    vault;arch',
+        'qby     qab~ay  PV_Atn  vault;arch',
+        'qb      qab~    PV_ttAw vault;arch',
+        'qby     qab~iy  IV_0hAnn_yu     vault;arch',
+        'qb      qab~    IV_0hwnyn_yu    vault;arch',
+        'qbY     qab~aY  IV_0_Pass_yu    be vaulted;be arched',
+        'qby     qab~ay  IV_Ann_Pass_yu  be vaulted;be arched'
+      ],
       'patterns' => {
         'qabbiy' => [
           'FaCCI'
@@ -19964,7 +19830,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'vault',
+        'arch',
+        'be vaulted',
+        'be arched'
+      ],
       'orig' => 'qab~aY',
       'prefix' => ''
     },
@@ -20867,10 +20738,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'qass' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'qassay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'qassY' => {},
+        'qassiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'qassA' => {
+          'PV_h' => 1
+        }
+      },
       'entry' => 'qassY',
       'form' => 'qassY',
-      'lines' => [],
+      'lines' => [
+        ';; qas~aY_1',
+        'qsY     qas~aY  PV_0    harden;make stubborn;make hard-hearted',
+        'qsA     qas~A   PV_h    harden;make stubborn;make hard-hearted',
+        'qsy     qas~ay  PV_Atn  harden;make stubborn;make hard-hearted',
+        'qs      qas~    PV_ttAw harden;make stubborn;make hard-hearted',
+        'qsy     qas~iy  IV_0hAnn_yu     harden;make stubborn;make hard-hearted',
+        'qs      qas~    IV_0hwnyn_yu    harden;make stubborn;make hard-hearted',
+        'qsY     qas~aY  IV_0_Pass_yu    be hardened;be made stubborn;be made hard-hearted',
+        'qsy     qas~ay  IV_Ann_Pass_yu  be hardened;be made stubborn;be made hard-hearted'
+      ],
       'patterns' => {
         'qassiy' => [
           'FaCCI'
@@ -20880,7 +20777,14 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'harden',
+        'make stubborn',
+        'make hard-hearted',
+        'be hardened',
+        'be made stubborn',
+        'be made hard-hearted'
+      ],
       'orig' => 'qas~aY',
       'prefix' => ''
     },
@@ -37322,10 +37226,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'qa.d.d' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'qa.d.day' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'qa.d.dY' => {},
+        'qa.d.diy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'qa.d.dA' => {
+          'PV_h' => 1
+        }
+      },
       'entry' => 'qa.d.dY',
       'form' => 'qa.d.dY',
-      'lines' => [],
+      'lines' => [
+        ';; qaD~aY_1',
+        'qDY     qaD~aY  PV_0    carry out;effectuate;accomplish',
+        'qDA     qaD~A   PV_h    carry out;effectuate;accomplish',
+        'qDy     qaD~ay  PV_Atn  carry out;effectuate;accomplish',
+        'qD      qaD~    PV_ttAw carry out;effectuate;accomplish',
+        'qDy     qaD~iy  IV_0hAnn_yu     carry out;effectuate;accomplish',
+        'qD      qaD~    IV_0hwnyn_yu    carry out;effectuate;accomplish',
+        'qDY     qaD~aY  IV_0_Pass_yu    be carried out;be effectuated;be accomplished',
+        'qDy     qaD~ay  IV_Ann_Pass_yu  be carried out;be effectuated;be accomplished'
+      ],
       'patterns' => {
         'qa.d.day' => [
           'FaCCaL'
@@ -37339,7 +37269,14 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'carry out',
+        'effectuate',
+        'accomplish',
+        'be carried out',
+        'be effectuated',
+        'be accomplished'
+      ],
       'orig' => 'qaD~aY',
       'prefix' => ''
     },
@@ -38384,27 +38321,6 @@ $Lexicon = {
     }
   ],
   'q w w' => [
-    {
-      'types' => {},
-      'entry' => 'qawwY',
-      'form' => 'qawwY',
-      'lines' => [],
-      'patterns' => {
-        'qaww' => [
-          'FaCL'
-        ],
-        'qawwiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'qaw~aY',
-      'prefix' => ''
-    },
     {
       'types' => {
         'quwY' => {
@@ -50056,27 +49972,6 @@ $Lexicon = {
         'feverish shiver'
       ],
       'orig' => 'qaf~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'qaffY',
-      'form' => 'qaffY',
-      'lines' => [],
-      'patterns' => {
-        'qaff' => [
-          'FaCL'
-        ],
-        'qaffiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'qaf~aY',
       'prefix' => ''
     },
     {
@@ -63836,18 +63731,12 @@ $Lexicon = {
 $Lexicon->{'q y n n'}[0]{'types'} = $Lexicon->{'q y n'}[0]{'types'};
 $Lexicon->{'q y n n'}[0]{'lines'} = $Lexicon->{'q y n'}[0]{'lines'};
 $Lexicon->{'q y n n'}[0]{'glosses'} = $Lexicon->{'q y n'}[0]{'glosses'};
-$Lexicon->{'q b w'}[1]{'types'} = $Lexicon->{'q b b'}[11]{'types'};
-$Lexicon->{'q b w'}[1]{'lines'} = $Lexicon->{'q b b'}[11]{'lines'};
-$Lexicon->{'q b w'}[1]{'glosses'} = $Lexicon->{'q b b'}[11]{'glosses'};
 $Lexicon->{'q b w'}[5]{'types'} = $Lexicon->{'q b \''}[0]{'types'};
 $Lexicon->{'q b w'}[5]{'lines'} = $Lexicon->{'q b \''}[0]{'lines'};
 $Lexicon->{'q b w'}[5]{'glosses'} = $Lexicon->{'q b \''}[0]{'glosses'};
 $Lexicon->{'q t .t'}[0]{'types'} = $Lexicon->{'q .t .t'}[2]{'types'};
 $Lexicon->{'q t .t'}[0]{'lines'} = $Lexicon->{'q .t .t'}[2]{'lines'};
 $Lexicon->{'q t .t'}[0]{'glosses'} = $Lexicon->{'q .t .t'}[2]{'glosses'};
-$Lexicon->{'q s w'}[1]{'types'} = $Lexicon->{'q s s'}[7]{'types'};
-$Lexicon->{'q s w'}[1]{'lines'} = $Lexicon->{'q s s'}[7]{'lines'};
-$Lexicon->{'q s w'}[1]{'glosses'} = $Lexicon->{'q s s'}[7]{'glosses'};
 $Lexicon->{'q _t r'}[0]{'types'} = $Lexicon->{'q y _t r'}[0]{'types'};
 $Lexicon->{'q _t r'}[0]{'lines'} = $Lexicon->{'q y _t r'}[0]{'lines'};
 $Lexicon->{'q _t r'}[0]{'glosses'} = $Lexicon->{'q y _t r'}[0]{'glosses'};
@@ -63895,9 +63784,6 @@ $Lexicon->{'q w d'}[10]{'glosses'} = $Lexicon->{'q \' d'}[0]{'glosses'};
 $Lexicon->{'q w d'}[11]{'types'} = $Lexicon->{'q \' d'}[1]{'types'};
 $Lexicon->{'q w d'}[11]{'lines'} = $Lexicon->{'q \' d'}[1]{'lines'};
 $Lexicon->{'q w d'}[11]{'glosses'} = $Lexicon->{'q \' d'}[1]{'glosses'};
-$Lexicon->{'q .d y'}[1]{'types'} = $Lexicon->{'q .d .d'}[8]{'types'};
-$Lexicon->{'q .d y'}[1]{'lines'} = $Lexicon->{'q .d .d'}[8]{'lines'};
-$Lexicon->{'q .d y'}[1]{'glosses'} = $Lexicon->{'q .d .d'}[8]{'glosses'};
 $Lexicon->{'q .d y'}[9]{'types'} = $Lexicon->{'q .d \''}[0]{'types'};
 $Lexicon->{'q .d y'}[9]{'lines'} = $Lexicon->{'q .d \''}[0]{'lines'};
 $Lexicon->{'q .d y'}[9]{'glosses'} = $Lexicon->{'q .d \''}[0]{'glosses'};
@@ -63916,12 +63802,9 @@ $Lexicon->{'q .d y'}[18]{'glosses'} = $Lexicon->{'q .d \''}[4]{'glosses'};
 $Lexicon->{'q .d y'}[19]{'types'} = $Lexicon->{'q .d \''}[5]{'types'};
 $Lexicon->{'q .d y'}[19]{'lines'} = $Lexicon->{'q .d \''}[5]{'lines'};
 $Lexicon->{'q .d y'}[19]{'glosses'} = $Lexicon->{'q .d \''}[5]{'glosses'};
-$Lexicon->{'q w w'}[0]{'types'} = $Lexicon->{'q w y'}[1]{'types'};
-$Lexicon->{'q w w'}[0]{'lines'} = $Lexicon->{'q w y'}[1]{'lines'};
-$Lexicon->{'q w w'}[0]{'glosses'} = $Lexicon->{'q w y'}[1]{'glosses'};
-$Lexicon->{'q w w'}[2]{'types'} = $Lexicon->{'q w w'}[1]{'types'};
-$Lexicon->{'q w w'}[2]{'lines'} = $Lexicon->{'q w w'}[1]{'lines'};
-$Lexicon->{'q w w'}[2]{'glosses'} = $Lexicon->{'q w w'}[1]{'glosses'};
+$Lexicon->{'q w w'}[1]{'types'} = $Lexicon->{'q w w'}[0]{'types'};
+$Lexicon->{'q w w'}[1]{'lines'} = $Lexicon->{'q w w'}[0]{'lines'};
+$Lexicon->{'q w w'}[1]{'glosses'} = $Lexicon->{'q w w'}[0]{'glosses'};
 $Lexicon->{'q y \''}[0]{'types'} = $Lexicon->{'q y y'}[0]{'types'};
 $Lexicon->{'q y \''}[0]{'lines'} = $Lexicon->{'q y y'}[0]{'lines'};
 $Lexicon->{'q y \''}[0]{'glosses'} = $Lexicon->{'q y y'}[0]{'glosses'};
@@ -63961,9 +63844,6 @@ $Lexicon->{'q w \''}[1]{'glosses'} = $Lexicon->{'q w y'}[8]{'glosses'};
 $Lexicon->{'q w \''}[2]{'types'} = $Lexicon->{'q w y'}[13]{'types'};
 $Lexicon->{'q w \''}[2]{'lines'} = $Lexicon->{'q w y'}[13]{'lines'};
 $Lexicon->{'q w \''}[2]{'glosses'} = $Lexicon->{'q w y'}[13]{'glosses'};
-$Lexicon->{'q f f'}[5]{'types'} = $Lexicon->{'q f w'}[1]{'types'};
-$Lexicon->{'q f f'}[5]{'lines'} = $Lexicon->{'q f w'}[1]{'lines'};
-$Lexicon->{'q f f'}[5]{'glosses'} = $Lexicon->{'q f w'}[1]{'glosses'};
 $Lexicon->{'q y t'}[0]{'types'} = $Lexicon->{'q w t'}[10]{'types'};
 $Lexicon->{'q y t'}[0]{'lines'} = $Lexicon->{'q w t'}[10]{'lines'};
 $Lexicon->{'q y t'}[0]{'glosses'} = $Lexicon->{'q w t'}[10]{'glosses'};

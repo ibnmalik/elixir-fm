@@ -4487,19 +4487,7 @@ lexicon = listing "Lexicon's properties"
     -- TrAr    Tar~Ar  Ndu     scoundrel
     -- TrAr    Tar~Ar  Nap     scoundrels
 
-    FaCCAL                    `noun`    {- Tar~Ar -}           [ "scoundrel", "scoundrels" ],
-
-    -- ;; Tar~aY_1
-    -- TrY     Tar~aY  PV_0    tenderize;freshen
-    -- TrA     Tar~A   PV_h    tenderize;freshen
-    -- Try     Tar~ay  PV_Atn  tenderize;freshen
-    -- Tr      Tar~    PV_ttAw tenderize;freshen
-    -- Try     Tar~iy  IV_0hAnn_yu     tenderize;freshen
-    -- Tr      Tar~    IV_0hwnyn_yu    tenderize;freshen
-    -- TrY     Tar~aY  IV_0_Pass_yu    be tenderized;be freshened
-    -- Try     Tar~ay  IV_Ann_Pass_yu  be tenderized;be freshened
-
-    FaCLY                     `verb`    {- Tar~aY -}           [ "tenderize", "freshen", "be tenderized", "be freshened" ] ]
+    FaCCAL                    `noun`    {- Tar~Ar -}           [ "scoundrel", "scoundrels" ] ]
 
  |> ".t r s" <| [
 

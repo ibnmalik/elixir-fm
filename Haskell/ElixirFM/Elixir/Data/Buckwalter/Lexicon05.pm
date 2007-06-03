@@ -8334,60 +8334,6 @@ $Lexicon = {
       ],
       'orig' => 'IijolAl',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '^gallay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '^gallA' => {
-          'PV_h' => 1
-        },
-        '^galliy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '^gall' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '^gallY' => {}
-      },
-      'entry' => '^gallY',
-      'form' => '^gallY',
-      'lines' => [
-        ';; jal~aY_1',
-        'jlY     jal~aY  PV_0    make clear;reveal;represent',
-        'jlA     jal~A   PV_h    make clear;reveal;represent',
-        'jly     jal~ay  PV_Atn  make clear;reveal;represent',
-        'jl      jal~    PV_ttAw make clear;reveal;represent',
-        'jly     jal~iy  IV_0hAnn_yu     make clear;reveal;represent',
-        'jl      jal~    IV_0hwnyn_yu    make clear;reveal;represent',
-        'jlY     jal~aY  IV_0_Pass_yu    be made clear;be revealed;be represented',
-        'jly     jal~ay  IV_Ann_Pass_yu  be made clear;be revealed;be represented'
-      ],
-      'patterns' => {
-        '^galliy' => [
-          'FaCCI'
-        ],
-        '^gall' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'make clear',
-        'reveal',
-        'represent',
-        'be made clear',
-        'be revealed',
-        'be represented'
-      ],
-      'orig' => 'jal~aY',
-      'prefix' => ''
     }
   ],
   '^g ^s r' => [
@@ -17521,53 +17467,6 @@ $Lexicon = {
       'glosses' => [],
       'orig' => 'jab~Anap',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '^gabbY' => {},
-        '^gabbay' => {
-          'PV_Atn' => 1
-        },
-        '^gabbA' => {
-          'PV_h' => 1
-        },
-        '^gabbiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '^gabb' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        }
-      },
-      'entry' => '^gabbY',
-      'form' => '^gabbY',
-      'lines' => [
-        ';; jab~aY_1',
-        'jbY     jab~aY  PV_0    kneel;prostrate',
-        'jbA     jab~A   PV_h    kneel;prostrate',
-        'jby     jab~ay  PV_Atn  kneel;prostrate',
-        'jb      jab~    PV_ttAw kneel;prostrate',
-        'jby     jab~iy  IV_0hAnn_yu     kneel;prostrate',
-        'jb      jab~    IV_0hwnyn_yu    kneel;prostrate'
-      ],
-      'patterns' => {
-        '^gabbiy' => [
-          'FaCCI'
-        ],
-        '^gabb' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'kneel',
-        'prostrate'
-      ],
-      'orig' => 'jab~aY',
-      'prefix' => ''
     }
   ],
   '^g w z l' => [
@@ -23239,10 +23138,33 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '^gabbY' => {},
+        '^gabbay' => {
+          'PV_Atn' => 1
+        },
+        '^gabbA' => {
+          'PV_h' => 1
+        },
+        '^gabbiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '^gabb' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        }
+      },
       'entry' => '^gabbY',
       'form' => '^gabbY',
-      'lines' => [],
+      'lines' => [
+        ';; jab~aY_1',
+        'jbY     jab~aY  PV_0    kneel;prostrate',
+        'jbA     jab~A   PV_h    kneel;prostrate',
+        'jby     jab~ay  PV_Atn  kneel;prostrate',
+        'jb      jab~    PV_ttAw kneel;prostrate',
+        'jby     jab~iy  IV_0hAnn_yu     kneel;prostrate',
+        'jb      jab~    IV_0hwnyn_yu    kneel;prostrate'
+      ],
       'patterns' => {
         '^gabbay' => [
           'FaCCaL'
@@ -23256,7 +23178,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'kneel',
+        'prostrate'
+      ],
       'orig' => 'jab~aY',
       'prefix' => ''
     },
@@ -31515,10 +31440,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '^gallay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '^gallA' => {
+          'PV_h' => 1
+        },
+        '^galliy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '^gall' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '^gallY' => {}
+      },
       'entry' => '^gallY',
       'form' => '^gallY',
-      'lines' => [],
+      'lines' => [
+        ';; jal~aY_1',
+        'jlY     jal~aY  PV_0    make clear;reveal;represent',
+        'jlA     jal~A   PV_h    make clear;reveal;represent',
+        'jly     jal~ay  PV_Atn  make clear;reveal;represent',
+        'jl      jal~    PV_ttAw make clear;reveal;represent',
+        'jly     jal~iy  IV_0hAnn_yu     make clear;reveal;represent',
+        'jl      jal~    IV_0hwnyn_yu    make clear;reveal;represent',
+        'jlY     jal~aY  IV_0_Pass_yu    be made clear;be revealed;be represented',
+        'jly     jal~ay  IV_Ann_Pass_yu  be made clear;be revealed;be represented'
+      ],
       'patterns' => {
         '^galliy' => [
           'FaCCI'
@@ -31528,7 +31479,14 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'make clear',
+        'reveal',
+        'represent',
+        'be made clear',
+        'be revealed',
+        'be represented'
+      ],
       'orig' => 'jal~aY',
       'prefix' => ''
     },
@@ -44089,9 +44047,6 @@ $Lexicon->{'^g z y'}[15]{'glosses'} = $Lexicon->{'^g z y'}[14]{'glosses'};
 $Lexicon->{'^g w z m'}[0]{'types'} = $Lexicon->{'^g z m'}[4]{'types'};
 $Lexicon->{'^g w z m'}[0]{'lines'} = $Lexicon->{'^g z m'}[4]{'lines'};
 $Lexicon->{'^g w z m'}[0]{'glosses'} = $Lexicon->{'^g z m'}[4]{'glosses'};
-$Lexicon->{'^g b y'}[1]{'types'} = $Lexicon->{'^g b b'}[5]{'types'};
-$Lexicon->{'^g b y'}[1]{'lines'} = $Lexicon->{'^g b b'}[5]{'lines'};
-$Lexicon->{'^g b y'}[1]{'glosses'} = $Lexicon->{'^g b b'}[5]{'glosses'};
 $Lexicon->{'^g b y'}[8]{'types'} = $Lexicon->{'^g b y'}[7]{'types'};
 $Lexicon->{'^g b y'}[8]{'lines'} = $Lexicon->{'^g b y'}[7]{'lines'};
 $Lexicon->{'^g b y'}[8]{'glosses'} = $Lexicon->{'^g b y'}[7]{'glosses'};
@@ -44146,9 +44101,6 @@ $Lexicon->{'^g n y'}[2]{'glosses'} = $Lexicon->{'^g n w'}[9]{'glosses'};
 $Lexicon->{'^g z d n'}[0]{'types'} = $Lexicon->{'^g z d'}[0]{'types'};
 $Lexicon->{'^g z d n'}[0]{'lines'} = $Lexicon->{'^g z d'}[0]{'lines'};
 $Lexicon->{'^g z d n'}[0]{'glosses'} = $Lexicon->{'^g z d'}[0]{'glosses'};
-$Lexicon->{'^g l w'}[3]{'types'} = $Lexicon->{'^g l l'}[23]{'types'};
-$Lexicon->{'^g l w'}[3]{'lines'} = $Lexicon->{'^g l l'}[23]{'lines'};
-$Lexicon->{'^g l w'}[3]{'glosses'} = $Lexicon->{'^g l l'}[23]{'glosses'};
 $Lexicon->{'^g l w'}[11]{'types'} = $Lexicon->{'^g l y'}[4]{'types'};
 $Lexicon->{'^g l w'}[11]{'lines'} = $Lexicon->{'^g l y'}[4]{'lines'};
 $Lexicon->{'^g l w'}[11]{'glosses'} = $Lexicon->{'^g l y'}[4]{'glosses'};

@@ -414,19 +414,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hajiyj_1
     -- hjyj    hajiyj  N       burning;blazing
 
-    FaCIL                     `noun`    {- hajiyj -}           [ "burning", "blazing" ],
-
-    -- ;; haj~aY_1
-    -- hjY     haj~aY  PV_0    spell
-    -- hjA     haj~A   PV_h    spell
-    -- hjy     haj~ay  PV_Atn  spell
-    -- hj      haj~    PV_ttAw spell
-    -- hjy     haj~iy  IV_0hAnn_yu     spell
-    -- hj      haj~    IV_0hwnyn_yu    spell
-    -- hjY     haj~aY  IV_0_Pass_yu    be spelled
-    -- hjy     haj~ay  IV_Ann_Pass_yu  be spelled
-
-    FaCLY                     `verb`    {- haj~aY -}           [ "spell", "be spelled" ] ]
+    FaCIL                     `noun`    {- hajiyj -}           [ "burning", "blazing" ] ]
 
  |> "h ^g `" <| [
 
@@ -5762,18 +5750,6 @@ lexicon = listing "Lexicon's properties"
     -- hw      huw     FW-WaBi Ho (in "Ho Chi Minh")    [[huw/NOUN_PROP]]
 
     FuL                       `noun`    {- huw -}              [ "Ho (in \"Ho Chi Minh\")" ],
-
-    -- ;; haw~aY_1
-    -- hwY     haw~aY  PV_0    ventilate
-    -- hwA     haw~A   PV_h    ventilate
-    -- hwy     haw~ay  PV_Atn  ventilate
-    -- hw      haw~    PV_ttAw ventilate
-    -- hwy     haw~iy  IV_0hAnn_yu     ventilate
-    -- hw      haw~    IV_0hwnyn_yu    ventilate
-    -- hwY     haw~aY  IV_0_Pass_yu    be ventilated
-    -- hwy     haw~ay  IV_Ann_Pass_yu  be ventilated
-
-    FaCLY                     `verb`    {- haw~aY -}           [ "ventilate", "be ventilated" ],
 
     -- ;; huw~ap_1
     -- hw      huw~    NapAt   abyss;chasm

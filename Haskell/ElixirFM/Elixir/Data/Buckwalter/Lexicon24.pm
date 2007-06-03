@@ -5234,24 +5234,6 @@ $Lexicon = {
       ],
       'orig' => 'mul~aY',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mallY',
-      'form' => 'mallY',
-      'lines' => [],
-      'patterns' => {
-        'malliy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'mal~aY',
-      'prefix' => ''
     }
   ],
   'm \' l' => [
@@ -18477,57 +18459,6 @@ $Lexicon = {
         'tangent'
       ],
       'orig' => 'mumAs~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'massA' => {
-          'PV_h' => 1
-        },
-        'mass' => {
-          'IV_0hwnyn_yu' => 2,
-          'PV_ttAw' => 1
-        },
-        'massay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'massiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'massY' => {}
-      },
-      'entry' => 'massY',
-      'form' => 'massY',
-      'lines' => [
-        ';; mas~aY_1',
-        'msY     mas~aY  PV_0    wish good evening',
-        'msA     mas~A   PV_h    wish good evening',
-        'msy     mas~ay  PV_Atn  wish good evening',
-        'ms      mas~    PV_ttAw wish good evening',
-        'msy     mas~iy  IV_0hAnn_yu     wish good evening',
-        'ms      mas~    IV_0hwnyn_yu    wish good evening',
-        'msY     mas~aY  IV_0_Pass_yu    be wished good evening',
-        'msy     mas~ay  IV_Ann_Pass_yu  be wished good evening',
-        'ms      mas~    IV_0hwnyn_yu    be wished good evening'
-      ],
-      'patterns' => {
-        'mass' => [
-          'FaCL'
-        ],
-        'massiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'wish good evening',
-        'be wished good evening'
-      ],
-      'orig' => 'mas~aY',
       'prefix' => ''
     }
   ],
@@ -34845,27 +34776,6 @@ $Lexicon = {
     },
     {
       'types' => {},
-      'entry' => 'ma^s^sY',
-      'form' => 'ma^s^sY',
-      'lines' => [],
-      'patterns' => {
-        'ma^s^s' => [
-          'FaCL'
-        ],
-        'ma^s^siy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'ma$~aY',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
       'entry' => 'ma^s^sA\'',
       'form' => 'ma^s^sA\'',
       'lines' => [],
@@ -41566,27 +41476,6 @@ $Lexicon = {
       ],
       'orig' => 'mumiD~',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ma.d.dY',
-      'form' => 'ma.d.dY',
-      'lines' => [],
-      'patterns' => {
-        'ma.d.d' => [
-          'FaCL'
-        ],
-        'ma.d.diy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'maD~aY',
-      'prefix' => ''
     }
   ],
   'muwr.giynstiyrn' => [
@@ -42931,10 +42820,37 @@ $Lexicon = {
   ],
   'm s w' => [
     {
-      'types' => {},
+      'types' => {
+        'massA' => {
+          'PV_h' => 1
+        },
+        'mass' => {
+          'IV_0hwnyn_yu' => 2,
+          'PV_ttAw' => 1
+        },
+        'massay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'massiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'massY' => {}
+      },
       'entry' => 'massY',
       'form' => 'massY',
-      'lines' => [],
+      'lines' => [
+        ';; mas~aY_1',
+        'msY     mas~aY  PV_0    wish good evening',
+        'msA     mas~A   PV_h    wish good evening',
+        'msy     mas~ay  PV_Atn  wish good evening',
+        'ms      mas~    PV_ttAw wish good evening',
+        'msy     mas~iy  IV_0hAnn_yu     wish good evening',
+        'ms      mas~    IV_0hwnyn_yu    wish good evening',
+        'msY     mas~aY  IV_0_Pass_yu    be wished good evening',
+        'msy     mas~ay  IV_Ann_Pass_yu  be wished good evening',
+        'ms      mas~    IV_0hwnyn_yu    be wished good evening'
+      ],
       'patterns' => {
         'massiy' => [
           'FaCCI'
@@ -42944,7 +42860,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'wish good evening',
+        'be wished good evening'
+      ],
       'orig' => 'mas~aY',
       'prefix' => ''
     },
@@ -43805,27 +43724,6 @@ $Lexicon = {
         'who/whom'
       ],
       'orig' => 'man',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mannY',
-      'form' => 'mannY',
-      'lines' => [],
-      'patterns' => {
-        'mann' => [
-          'FaCL'
-        ],
-        'manniy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'man~aY',
       'prefix' => ''
     }
   ],
@@ -47472,27 +47370,6 @@ $Lexicon = {
       ],
       'orig' => 'muH~',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ma.h.hY',
-      'form' => 'ma.h.hY',
-      'lines' => [],
-      'patterns' => {
-        'ma.h.h' => [
-          'FaCL'
-        ],
-        'ma.h.hiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'maH~aY',
-      'prefix' => ''
     }
   ],
   'maqduwnis' => [
@@ -50371,9 +50248,6 @@ $Lexicon->{'m .g n'}[2]{'glosses'} = $Lexicon->{'m .g n'}[1]{'glosses'};
 $Lexicon->{'m y .g'}[0]{'types'} = $Lexicon->{'m .g n'}[1]{'types'};
 $Lexicon->{'m y .g'}[0]{'lines'} = $Lexicon->{'m .g n'}[1]{'lines'};
 $Lexicon->{'m y .g'}[0]{'glosses'} = $Lexicon->{'m .g n'}[1]{'glosses'};
-$Lexicon->{'m l l'}[17]{'types'} = $Lexicon->{'m l w'}[1]{'types'};
-$Lexicon->{'m l l'}[17]{'lines'} = $Lexicon->{'m l w'}[1]{'lines'};
-$Lexicon->{'m l l'}[17]{'glosses'} = $Lexicon->{'m l w'}[1]{'glosses'};
 $Lexicon->{'m y t'}[2]{'types'} = $Lexicon->{'m w t'}[7]{'types'};
 $Lexicon->{'m y t'}[2]{'lines'} = $Lexicon->{'m w t'}[7]{'lines'};
 $Lexicon->{'m y t'}[2]{'glosses'} = $Lexicon->{'m w t'}[7]{'glosses'};
@@ -50455,12 +50329,9 @@ $Lexicon->{'m \' d'}[1]{'glosses'} = $Lexicon->{'m y d'}[5]{'glosses'};
 $Lexicon->{'m y n \''}[0]{'types'} = $Lexicon->{'m n \''}[2]{'types'};
 $Lexicon->{'m y n \''}[0]{'lines'} = $Lexicon->{'m n \''}[2]{'lines'};
 $Lexicon->{'m y n \''}[0]{'glosses'} = $Lexicon->{'m n \''}[2]{'glosses'};
-$Lexicon->{'m ^s ^s'}[4]{'types'} = $Lexicon->{'m ^s y'}[1]{'types'};
-$Lexicon->{'m ^s ^s'}[4]{'lines'} = $Lexicon->{'m ^s y'}[1]{'lines'};
-$Lexicon->{'m ^s ^s'}[4]{'glosses'} = $Lexicon->{'m ^s y'}[1]{'glosses'};
-$Lexicon->{'m ^s ^s'}[5]{'types'} = $Lexicon->{'m ^s \''}[0]{'types'};
-$Lexicon->{'m ^s ^s'}[5]{'lines'} = $Lexicon->{'m ^s \''}[0]{'lines'};
-$Lexicon->{'m ^s ^s'}[5]{'glosses'} = $Lexicon->{'m ^s \''}[0]{'glosses'};
+$Lexicon->{'m ^s ^s'}[4]{'types'} = $Lexicon->{'m ^s \''}[0]{'types'};
+$Lexicon->{'m ^s ^s'}[4]{'lines'} = $Lexicon->{'m ^s \''}[0]{'lines'};
+$Lexicon->{'m ^s ^s'}[4]{'glosses'} = $Lexicon->{'m ^s \''}[0]{'glosses'};
 $Lexicon->{'m .h w'}[8]{'types'} = $Lexicon->{'m .h y'}[1]{'types'};
 $Lexicon->{'m .h w'}[8]{'lines'} = $Lexicon->{'m .h y'}[1]{'lines'};
 $Lexicon->{'m .h w'}[8]{'glosses'} = $Lexicon->{'m .h y'}[1]{'glosses'};
@@ -50479,9 +50350,6 @@ $Lexicon->{'m .d y'}[6]{'glosses'} = $Lexicon->{'m .d \''}[1]{'glosses'};
 $Lexicon->{'m .d y'}[7]{'types'} = $Lexicon->{'m .d \''}[2]{'types'};
 $Lexicon->{'m .d y'}[7]{'lines'} = $Lexicon->{'m .d \''}[2]{'lines'};
 $Lexicon->{'m .d y'}[7]{'glosses'} = $Lexicon->{'m .d \''}[2]{'glosses'};
-$Lexicon->{'m .d .d'}[8]{'types'} = $Lexicon->{'m .d y'}[2]{'types'};
-$Lexicon->{'m .d .d'}[8]{'lines'} = $Lexicon->{'m .d y'}[2]{'lines'};
-$Lexicon->{'m .d .d'}[8]{'glosses'} = $Lexicon->{'m .d y'}[2]{'glosses'};
 $Lexicon->{'m n w'}[11]{'types'} = $Lexicon->{'m n \''}[0]{'types'};
 $Lexicon->{'m n w'}[11]{'lines'} = $Lexicon->{'m n \''}[0]{'lines'};
 $Lexicon->{'m n w'}[11]{'glosses'} = $Lexicon->{'m n \''}[0]{'glosses'};
@@ -50494,15 +50362,9 @@ $Lexicon->{'m n w'}[14]{'glosses'} = $Lexicon->{'m n y'}[3]{'glosses'};
 $Lexicon->{'m y d \''}[0]{'types'} = $Lexicon->{'m d \''}[0]{'types'};
 $Lexicon->{'m y d \''}[0]{'lines'} = $Lexicon->{'m d \''}[0]{'lines'};
 $Lexicon->{'m y d \''}[0]{'glosses'} = $Lexicon->{'m d \''}[0]{'glosses'};
-$Lexicon->{'m s w'}[0]{'types'} = $Lexicon->{'m s s'}[14]{'types'};
-$Lexicon->{'m s w'}[0]{'lines'} = $Lexicon->{'m s s'}[14]{'lines'};
-$Lexicon->{'m s w'}[0]{'glosses'} = $Lexicon->{'m s s'}[14]{'glosses'};
 $Lexicon->{'m s w'}[6]{'types'} = $Lexicon->{'m s y'}[0]{'types'};
 $Lexicon->{'m s w'}[6]{'lines'} = $Lexicon->{'m s y'}[0]{'lines'};
 $Lexicon->{'m s w'}[6]{'glosses'} = $Lexicon->{'m s y'}[0]{'glosses'};
-$Lexicon->{'m n n'}[3]{'types'} = $Lexicon->{'m n w'}[3]{'types'};
-$Lexicon->{'m n n'}[3]{'lines'} = $Lexicon->{'m n w'}[3]{'lines'};
-$Lexicon->{'m n n'}[3]{'glosses'} = $Lexicon->{'m n w'}[3]{'glosses'};
 $Lexicon->{'m \' t'}[0]{'types'} = $Lexicon->{'m w t'}[10]{'types'};
 $Lexicon->{'m \' t'}[0]{'lines'} = $Lexicon->{'m w t'}[10]{'lines'};
 $Lexicon->{'m \' t'}[0]{'glosses'} = $Lexicon->{'m w t'}[10]{'glosses'};
@@ -50524,9 +50386,6 @@ $Lexicon->{'m w f z'}[0]{'glosses'} = $Lexicon->{'m f z'}[0]{'glosses'};
 $Lexicon->{'m w ^g'}[9]{'types'} = $Lexicon->{'m \' ^g'}[0]{'types'};
 $Lexicon->{'m w ^g'}[9]{'lines'} = $Lexicon->{'m \' ^g'}[0]{'lines'};
 $Lexicon->{'m w ^g'}[9]{'glosses'} = $Lexicon->{'m \' ^g'}[0]{'glosses'};
-$Lexicon->{'m .h .h'}[2]{'types'} = $Lexicon->{'m .h w'}[1]{'types'};
-$Lexicon->{'m .h .h'}[2]{'lines'} = $Lexicon->{'m .h w'}[1]{'lines'};
-$Lexicon->{'m .h .h'}[2]{'glosses'} = $Lexicon->{'m .h w'}[1]{'glosses'};
 $Lexicon->{'m y `'}[11]{'types'} = $Lexicon->{'m \' `'}[0]{'types'};
 $Lexicon->{'m y `'}[11]{'lines'} = $Lexicon->{'m \' `'}[0]{'lines'};
 $Lexicon->{'m y `'}[11]{'glosses'} = $Lexicon->{'m \' `'}[0]{'glosses'};

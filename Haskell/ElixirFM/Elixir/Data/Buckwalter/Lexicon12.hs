@@ -1309,20 +1309,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCLA'
                            {- `others`  [ "sa^g.hA' Nh N0_Nh Nhy" ] -} ]
 
- |> "s ^g ^g" <| [
-
-    -- ;; saj~aY_1
-    -- sjY     saj~aY  PV_0    shroud
-    -- sjA     saj~A   PV_h    shroud
-    -- sjy     saj~ay  PV_Atn  shroud
-    -- sj      saj~    PV_ttAw shroud
-    -- sjy     saj~iy  IV_0hAnn_yu     shroud
-    -- sj      saj~    IV_0hwnyn_yu    shroud
-    -- sjY     saj~aY  IV_0_Pass_yu    be shrouded
-    -- sjy     saj~ay  IV_Ann_Pass_yu  be shrouded
-
-    FaCLY                     `verb`    {- saj~aY -}           [ "shroud", "be shrouded" ] ]
-
  |> "s ^g `" <| [
 
     -- ;; sajaE-a_1
@@ -3779,19 +3765,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; masoduwd_1
     -- msdwd   masoduwd        N/ap    blocked;closed     [[masoduwd/ADJ]]
 
-    MaFCUL                    `adj`     {- masoduwd -}         [ "blocked", "closed" ],
-
-    -- ;; sad~aY_1
-    -- sdY     sad~aY  PV_0    confer
-    -- sdA     sad~A   PV_h    confer
-    -- sdy     sad~ay  PV_Atn  confer
-    -- sd      sad~    PV_ttAw confer
-    -- sdy     sad~iy  IV_0hAnn_yu     confer
-    -- sd      sad~    IV_0hwnyn_yu    confer
-    -- sdY     sad~aY  IV_0_Pass_yu    be conferred
-    -- sdy     sad~ay  IV_Ann_Pass_yu  be conferred
-
-    FaCLY                     `verb`    {- sad~aY -}           [ "confer", "be conferred" ] ]
+    MaFCUL                    `adj`     {- masoduwd -}         [ "blocked", "closed" ] ]
 
  |> "s d f" <| [
 
@@ -6503,19 +6477,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; musotal~ap_1
     -- mstl    musotal~        NapAt   offprint
 
-    MuFtaCL |< aT             `noun`    {- musotal~ap -}       [ "offprint" ],
-
-    -- ;; sal~aY_1
-    -- slY     sal~aY  PV_0    comfort;distract;console;entertain
-    -- slA     sal~A   PV_h    comfort;distract;console;entertain
-    -- sly     sal~ay  PV_Atn  comfort;distract;console;entertain
-    -- sl      sal~    PV_ttAw comfort;distract;console;entertain
-    -- sly     sal~iy  IV_0hAnn_yu     comfort;distract;console;entertain
-    -- sl      sal~    IV_0hwnyn_yu    comfort;distract;console;entertain
-    -- slY     sal~aY  IV_0_Pass_yu    be comforted;be distracted;be cheered up
-    -- sly     sal~ay  IV_Ann_Pass_yu  be comforted;be distracted;be cheered up
-
-    FaCLY                     `verb`    {- sal~aY -}           [ "comfort", "distract", "console", "entertain", "be comforted", "be distracted", "be cheered up" ] ]
+    MuFtaCL |< aT             `noun`    {- musotal~ap -}       [ "offprint" ] ]
 
  |> "s l m" <| [
 
@@ -7742,20 +7704,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; musim~_1
     -- msm     musim~  N-ap    poisonous;toxic     [[musim~/ADJ]]
 
-    MuFiCL                    `adj`     {- musim~ -}           [ "poisonous", "toxic" ],
-
-    -- ;; sam~aY_1
-    -- smY     sam~aY  PV_0    name;designate
-    -- smA     sam~A   PV_h    name;designate
-    -- smy     sam~ay  PV_Atn  name;designate
-    -- sm      sam~    PV_ttAw name;designate
-    -- smy     sam~iy  IV_0hAnn_yu     name;designate
-    -- sm      sam~    IV_0hwnyn_yu    name;designate
-    -- smY     sam~aY  IV_0_Pass_yu    be called;be named;be designated
-    -- smy     sam~ay  IV_Ann_Pass_yu  be called;be named;be designated
-    -- sm      sam~    IV_0hwnyn_yu    be called;be named;be designated
-
-    FaCLY                     `verb`    {- sam~aY -}           [ "name", "designate", "be called", "be named", "be designated" ] ]
+    MuFiCL                    `adj`     {- musim~ -}           [ "poisonous", "toxic" ] ]
 
  |> "s m n" <| [
 
@@ -8866,18 +8815,6 @@ lexicon = listing "Lexicon's properties"
     -- msn     musin~  Nall    old aged;senior;superadult
 
     MuFiCL                    `noun`    {- musin~ -}           [ "old aged", "senior", "superadult" ],
-
-    -- ;; san~aY_1
-    -- snY     san~aY  PV_0    facilitate
-    -- snA     san~A   PV_h    facilitate
-    -- sny     san~ay  PV_Atn  facilitate
-    -- sn      san~    PV_ttAw facilitate
-    -- sny     san~iy  IV_0hAnn_yu     facilitate
-    -- sn      san~    IV_0hwnyn_yu    facilitate
-    -- snY     san~aY  IV_0_Pass_yu    be facilitated
-    -- sny     san~ay  IV_Ann_Pass_yu  be facilitated
-
-    FaCLY                     `verb`    {- san~aY -}           [ "facilitate", "be facilitated" ],
 
     -- ;; sanap_1
     -- sn      san     Napdu   year
@@ -10590,20 +10527,7 @@ lexicon = listing "Lexicon's properties"
     -- <stsrAry        {isotisorAriy~  Nall    concubinage     [[{isotisorAriy~/ADJ]]
     -- AstsrAry        {isotisorAriy~  Nall    concubinage
 
-    IstiFCAL |< Iy            `adj`     {- AisotisorAriy~ -}   [ "concubinage" ],
-
-    -- ;; sar~aY_1
-    -- srY     sar~aY  PV_0    dispel worries;distract
-    -- srA     sar~A   PV_h    dispel worries;distract
-    -- sry     sar~ay  PV_Atn  dispel worries;distract
-    -- sr      sar~    PV_ttAw dispel worries;distract
-    -- sry     sar~iy  IV_0hAnn_yu     dispel worries;distract
-    -- sr      sar~    IV_0hwnyn_yu    dispel worries;distract
-    -- sry     sur~iy  PV_V_Pass       be rid of worries;be distracted
-    -- srY     sar~aY  IV_0_Pass_yu    be rid of worries;be distracted
-    -- sry     sar~ay  IV_Ann_Pass_yu  be rid of worries;be distracted
-
-    FaCLY                     `verb`    {- sar~aY -}           [ "dispel worries", "distract", "be rid of worries", "be distracted" ] ]
+    IstiFCAL |< Iy            `adj`     {- AisotisorAriy~ -}   [ "concubinage" ] ]
 
  |> "s r s" <| [
 
@@ -12225,19 +12149,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; suw_1
     -- sw      suw     Nprop   Sue
 
-    FuL                       `noun`    {- suw -}              [ "Sue" ],
-
-    -- ;; saw~aY_1
-    -- swY     saw~aY  PV_0    equalize;settle
-    -- swA     saw~A   PV_h    equalize;settle
-    -- swy     saw~ay  PV_Atn  equalize;settle
-    -- sw      saw~    PV_ttAw equalize;settle
-    -- swy     saw~iy  IV_0hAnn_yu     equalize;settle
-    -- sw      saw~    IV_0hwnyn_yu    equalize;settle
-    -- swY     saw~aY  IV_0_Pass_yu    be equalized;be settled
-    -- swy     saw~ay  IV_Ann_Pass_yu  be equalized;be settled
-
-    FaCLY                     `verb`    {- saw~aY -}           [ "equalize", "settle", "be equalized", "be settled" ] ]
+    FuL                       `noun`    {- suw -}              [ "Sue" ] ]
 
  |> "s w y" <| [
 

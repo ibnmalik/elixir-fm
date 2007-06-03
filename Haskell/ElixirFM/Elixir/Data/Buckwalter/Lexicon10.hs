@@ -770,19 +770,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; raDiyD_1
     -- rDyD    raDiyD  Nall    crushed;bruised     [[raDiyD/ADJ]]
 
-    FaCIL                     `adj`     {- raDiyD -}           [ "crushed", "bruised" ],
-
-    -- ;; raD~aY_1
-    -- rDY     raD~aY  PV_0    satisfy;compensate
-    -- rDA     raD~A   PV_h    satisfy;compensate
-    -- rDy     raD~ay  PV_Atn  satisfy;compensate
-    -- rD      raD~    PV_ttAw satisfy;compensate
-    -- rDy     raD~iy  IV_0hAnn_yu     satisfy;compensate
-    -- rD      raD~    IV_0hwnyn_yu    satisfy;compensate
-    -- rDY     raD~aY  IV_0_Pass_yu    be satisfied;be compensated
-    -- rDy     raD~ay  IV_Ann_Pass_yu  be satisfied;be compensated
-
-    FaCLY                     `verb`    {- raD~aY -}           [ "satisfy", "compensate", "be satisfied", "be compensated" ] ]
+    FaCIL                     `adj`     {- raDiyD -}           [ "crushed", "bruised" ] ]
 
  |> "r .d _h" <| [
 
@@ -1175,16 +1163,6 @@ lexicon = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- rag~A' -}           [ "garrulous", "chatterbox" ] ]
 
  |> "r .g .g" <| [
-
-    -- ;; rag~aY_1
-    -- rgY     rag~aY  PV_0    foam;froth (in anger)
-    -- rgA     rag~A   PV_h    foam;froth (in anger)
-    -- rgy     rag~ay  PV_Atn  foam;froth (in anger)
-    -- rg      rag~    PV_ttAw foam;froth (in anger)
-    -- rgy     rag~iy  IV_0hAnn_yu     foam;froth (in anger)
-    -- rg      rag~    IV_0hwnyn_yu    foam;froth (in anger)
-
-    FaCLY                     `verb`    {- rag~aY -}           [ "foam", "froth (in anger)" ],
 
     -- ;; rag~A'_1
     -- rgA'    rag~A'  N0_Nh   garrulous;chatterbox
@@ -5274,19 +5252,7 @@ lexicon = listing "Lexicon's properties"
     -- rbAny   rab~Aniy~       N-ap    divine     [[rab~Aniy~/ADJ]]
     -- rbAny   rab~Aniy~       NAt     divinities     [[rab~Aniy~/ADJ]]
 
-    FaCLAn |< Iy              `adj`     {- rab~Aniy~ -}        [ "divine", "divinities" ],
-
-    -- ;; rab~aY_1
-    -- rbY     rab~aY  PV_0    raise;grow
-    -- rbA     rab~A   PV_h    raise;grow
-    -- rby     rab~ay  PV_Atn  raise;grow
-    -- rb      rab~    PV_ttAw raise;grow
-    -- rby     rab~iy  IV_0hAnn_yu     raise;grow
-    -- rb      rab~    IV_0hwnyn_yu    raise;grow
-    -- rbY     rab~aY  IV_0_Pass_yu    be raised;be grown
-    -- rby     rab~ay  IV_Ann_Pass_yu  be raised;be grown
-
-    FaCLY                     `verb`    {- rab~aY -}           [ "raise", "grow", "be raised", "be grown" ] ]
+    FaCLAn |< Iy              `adj`     {- rab~Aniy~ -}        [ "divine", "divinities" ] ]
 
  |> "r b d" <| [
 
@@ -5978,19 +5944,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mutarad~id_2
     -- mtrdd   mutarad~id      N-ap    repeated;continuous     [[mutarad~id/ADJ]]
 
-    MutaFaCCiL                `adj`     {- mutarad~id -}       [ "repeated", "continuous" ],
-
-    -- ;; rad~aY_1
-    -- rdY     rad~aY  PV_0    make fall;annihilate
-    -- rdA     rad~A   PV_h    make fall;annihilate
-    -- rdy     rad~ay  PV_Atn  make fall;annihilate
-    -- rd      rad~    PV_ttAw make fall;annihilate
-    -- rdy     rad~iy  IV_0hAnn_yu     make fall;annihilate
-    -- rd      rad~    IV_0hwnyn_yu    make fall;annihilate
-    -- rdY     rad~aY  IV_0_Pass_yu    be struck down;be annihilated
-    -- rdy     rad~ay  IV_Ann_Pass_yu  be struck down;be annihilated
-
-    FaCLY                     `verb`    {- rad~aY -}           [ "make fall", "annihilate", "be struck down", "be annihilated" ] ]
+    MutaFaCCiL                `adj`     {- mutarad~id -}       [ "repeated", "continuous" ] ]
 
  |> "r d f" <| [
 
@@ -8946,19 +8900,7 @@ lexicon = listing "Lexicon's properties"
     -- mrnAn   mironAn Ndu     resonator
     -- mrnAn   mironAn N-ap    resonating
 
-    MiFCAL                    `noun`    {- mironAn -}          [ "resonator", "resonating" ],
-
-    -- ;; ran~aY_1
-    -- rnY     ran~aY  PV_0    attract;please;delight
-    -- rnA     ran~A   PV_h    attract;please;delight
-    -- rny     ran~ay  PV_Atn  attract;please;delight
-    -- rn      ran~    PV_ttAw attract;please;delight
-    -- rny     ran~iy  IV_0hAnn_yu     attract;please;delight
-    -- rn      ran~    IV_0hwnyn_yu    attract;please;delight
-    -- rnY     ran~aY  IV_0_Pass_yu    be attracted;be pleased;be delighted
-    -- rny     ran~ay  IV_Ann_Pass_yu  be attracted;be pleased;be delighted
-
-    FaCLY                     `verb`    {- ran~aY -}           [ "attract", "please", "delight", "be attracted", "be pleased", "be delighted" ] ]
+    MiFCAL                    `noun`    {- mironAn -}          [ "resonator", "resonating" ] ]
 
  |> "r n q" <| [
 
@@ -9719,19 +9661,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; maroquwq_1
     -- mrqwq   maroquwq        N       marqouq (thin bread)
 
-    MaFCUL                    `noun`    {- maroquwq -}         [ "marqouq (thin bread)" ],
-
-    -- ;; raq~aY_1
-    -- rqY     raq~aY  PV_0    promote;advance
-    -- rqA     raq~A   PV_h    promote;advance
-    -- rqy     raq~ay  PV_Atn  promote;advance
-    -- rq      raq~    PV_ttAw promote;advance
-    -- rqy     raq~iy  IV_0hAnn_yu     promote;advance
-    -- rq      raq~    IV_0hwnyn_yu    promote;advance
-    -- rqY     raq~aY  IV_0_Pass_yu    be promoted;be advanced
-    -- rqy     raq~ay  IV_Ann_Pass_yu  be promoted;be advanced
-
-    FaCLY                     `verb`    {- raq~aY -}           [ "promote", "advance", "be promoted", "be advanced" ] ]
+    MaFCUL                    `noun`    {- maroquwq -}         [ "marqouq (thin bread)" ] ]
 
  |> "r q r q" <| [
 
@@ -10400,20 +10330,6 @@ lexicon = listing "Lexicon's properties"
 
     KiRDAS                    `noun`    {- risorAs -}          [ "adhesive", "glue" ] ]
 
- |> "r s s" <| [
-
-    -- ;; ras~aY_1
-    -- rsY     ras~aY  PV_0    grant;award
-    -- rsA     ras~A   PV_h    grant;award
-    -- rsy     ras~ay  PV_Atn  grant;award
-    -- rs      ras~    PV_ttAw grant;award
-    -- rsy     ras~iy  IV_0hAnn_yu     grant;award
-    -- rs      ras~    IV_0hwnyn_yu    grant;award
-    -- rsY     ras~aY  IV_0_Pass_yu    be granted;be awarded
-    -- rsy     ras~ay  IV_Ann_Pass_yu  be granted;be awarded
-
-    FaCLY                     `verb`    {- ras~aY -}           [ "grant", "award", "be granted", "be awarded" ] ]
-
  |> "r s t m" <| [
 
     -- ;; rusotum_1
@@ -10852,19 +10768,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; rut~_1
     -- rt      rut~    N       having a speech defect
 
-    FuCL                      `noun`    {- rut~ -}             [ "having a speech defect" ],
-
-    -- ;; rat~aY_1
-    -- rtY     rat~aY  PV_0    mend;darn
-    -- rtA     rat~A   PV_h    mend;darn
-    -- rty     rat~ay  PV_Atn  mend;darn
-    -- rt      rat~    PV_ttAw mend;darn
-    -- rty     rat~iy  IV_0hAnn_yu     mend;darn
-    -- rt      rat~    IV_0hwnyn_yu    mend;darn
-    -- rtY     rat~aY  IV_0_Pass_yu    be mended;be darned
-    -- rty     rat~ay  IV_Ann_Pass_yu  be mended;be darned
-
-    FaCLY                     `verb`    {- rat~aY -}           [ "mend", "darn", "be mended", "be darned" ] ]
+    FuCL                      `noun`    {- rut~ -}             [ "having a speech defect" ] ]
 
  |> "r t w" <| [
 
@@ -12124,20 +12028,6 @@ lexicon = listing "Lexicon's properties"
     -- rwtyny  ruwtiyniy~      Nall    routine;bureaucratic     [[ruwtiyniy~/ADJ]]
 
     KuRDIS |< Iy              `adj`     {- ruwtiyniy~ -}       [ "routine", "bureaucratic" ] ]
-
- |> "r w w" <| [
-
-    -- ;; raw~aY_1
-    -- rwY     raw~aY  PV_0    irrigate
-    -- rwA     raw~A   PV_h    irrigate
-    -- rwy     raw~ay  PV_Atn  irrigate
-    -- rw      raw~    PV_ttAw irrigate
-    -- rwy     raw~iy  IV_0hAnn_yu     irrigate
-    -- rw      raw~    IV_0hwnyn_yu    irrigate
-    -- rwY     raw~aY  IV_0_Pass_yu    be irrigated
-    -- rwy     raw~ay  IV_Ann_Pass_yu  be irrigated
-
-    FaCLY                     `verb`    {- raw~aY -}           [ "irrigate", "be irrigated" ] ]
 
  |> "r w y" <| [
 

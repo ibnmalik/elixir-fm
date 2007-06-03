@@ -3126,19 +3126,7 @@ lexicon = listing "Lexicon's properties"
     -- tlbyb   talobiyb        Ndu     collar
     -- tlAbyb  talAbiyb        Ndip    collars
 
-    TaFCIL                    `noun`    {- talobiyb -}         [ "collar", "collars" ],
-
-    -- ;; lab~aY_1
-    -- lbY     lab~aY  PV_0    comply with;carry out;respond to
-    -- lbA     lab~A   PV_h    comply with;carry out;respond to
-    -- lby     lab~ay  PV_Atn  comply with;carry out;respond to
-    -- lb      lab~    PV_ttAw comply with;carry out;respond to
-    -- lby     lab~iy  IV_0hAnn_yu     comply with;carry out;respond to
-    -- lb      lab~    IV_0hwnyn_yu    comply with;carry out;respond to
-    -- lbY     lab~aY  IV_0_Pass_yu    be complied with;be carried out;be responded to
-    -- lby     lab~ay  IV_Ann_Pass_yu  be complied with;be carried out;be responded to
-
-    FaCLY                     `verb`    {- lab~aY -}           [ "comply with", "carry out", "respond to", "be complied with", "be carried out", "be responded to" ] ]
+    TaFCIL                    `noun`    {- talobiyb -}         [ "collar", "collars" ] ]
 
  |> "l b d" <| [
 
@@ -4642,20 +4630,6 @@ lexicon = listing "Lexicon's properties"
     -- mtlhf   mutalah~if      Nall    yearning;anxious;impatient     [[mutalah~if/ADJ]]
 
     MutaFaCCiL                `adj`     {- mutalah~if -}       [ "yearning", "anxious", "impatient" ] ]
-
- |> "l h h" <| [
-
-    -- ;; lah~aY_1
-    -- lhY     lah~aY  PV_0    delight;amuse;distract
-    -- lhA     lah~A   PV_h    delight;amuse;distract
-    -- lhy     lah~ay  PV_Atn  delight;amuse;distract
-    -- lh      lah~    PV_ttAw delight;amuse;distract
-    -- lhy     lah~iy  IV_0hAnn_yu     delight;amuse;distract
-    -- lh      lah~    IV_0hwnyn_yu    delight;amuse;distract
-    -- lhY     lah~aY  IV_0_Pass_yu    be delighted;be amused;be distracted
-    -- lhy     lah~ay  IV_Ann_Pass_yu  be delighted;be amused;be distracted
-
-    FaCLY                     `verb`    {- lah~aY -}           [ "delight", "amuse", "distract", "be delighted", "be amused", "be distracted" ] ]
 
  |> "l h l q" <| [
 
@@ -7492,19 +7466,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; luw_1
     -- lw      luw     FW-Wa   Le     [[luw/NOUN_PROP]]
 
-    FuL                       `noun`    {- luw -}              [ "Le" ],
-
-    -- ;; law~aY_1
-    -- lwY     law~aY  PV_0    bend;contort;distort
-    -- lwA     law~A   PV_h    bend;contort;distort
-    -- lwy     law~ay  PV_Atn  bend;contort;distort
-    -- lw      law~    PV_ttAw bend;contort;distort
-    -- lwy     law~iy  IV_0hAnn_yu     bend;contort;distort
-    -- lw      law~    IV_0hwnyn_yu    bend;contort;distort
-    -- lwY     law~aY  IV_0_Pass_yu    be bent;be contorted;be distorted
-    -- lwy     law~ay  IV_Ann_Pass_yu  be bent;be contorted;be distorted
-
-    FaCLY                     `verb`    {- law~aY -}           [ "bend", "contort", "distort", "be bent", "be contorted", "be distorted" ] ]
+    FuL                       `noun`    {- luw -}              [ "Le" ] ]
 
  |> "l w y" <| [
 

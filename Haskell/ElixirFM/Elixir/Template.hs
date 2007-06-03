@@ -90,6 +90,10 @@ moony = [ "'", "b", "^g", ".h", "_h", "`", ".g",
           "c", "^c", ",c", "^z", "^n", "^l", ".r" ]
 
 
+infixr 4 ->-
+infix  4 -<-
+
+
 (->-) :: Prefix -> String -> String
 
 Al ->- s = case filter (flip isPrefixOf s) sunny of

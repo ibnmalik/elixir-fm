@@ -3130,19 +3130,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taEo$iy$_1
     -- tE$y$   taEo$iy$        N/At    nesting;rooting
 
-    TaFCIL                    `noun`    {- taEo$iy$ -}         [ "nesting", "rooting" ],
-
-    -- ;; Ea$~aY_1
-    -- E$Y     Ea$~aY  PV_0    give dinner
-    -- E$A     Ea$~A   PV_h    give dinner
-    -- E$y     Ea$~ay  PV_Atn  give dinner
-    -- E$      Ea$~    PV_ttAw give dinner
-    -- E$y     Ea$~iy  IV_0hAnn_yu     give dinner
-    -- E$      Ea$~    IV_0hwnyn_yu    give dinner
-    -- E$Y     Ea$~aY  IV_0_Pass_yu    be given dinner
-    -- E$y     Ea$~ay  IV_Ann_Pass_yu  be given dinner
-
-    FaCLY                     `verb`    {- Ea$~aY -}           [ "give dinner", "be given dinner" ] ]
+    TaFCIL                    `noun`    {- taEo$iy$ -}         [ "nesting", "rooting" ] ]
 
  |> "` ^s ` ^s" <| [
 
@@ -4254,20 +4242,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; EubAb_1
     -- EbAb    EubAb   N       ocean waves;flood
 
-    FuCAL                     `noun`    {- EubAb -}            [ "ocean waves", "flood" ],
-
-    -- ;; Eab~aY_1
-    -- EbY     Eab~aY  PV_0    package;load;mobilize
-    -- EbA     Eab~A   PV_h    package;load;mobilize
-    -- Eby     Eab~ay  PV_Atn  package;load;mobilize
-    -- Eb      Eab~    PV_ttAw package;load;mobilize
-    -- Eby     Eab~iy  IV_0hAnn_yu     package;load;mobilize
-    -- Eb      Eab~    IV_0hwnyn_yu    package;load;mobilize
-    -- EbY     Eab~aY  IV_0_Pass_yu    be packaged;be loaded;be mobilized
-    -- Eby     Eab~ay  IV_Ann_Pass_yu  be packaged;be loaded;be mobilized
-    -- Eb      Eab~    IV_0hwnyn_yu    be mobilized;be packaged;be loaded
-
-    FaCLY                     `verb`    {- Eab~aY -}           [ "package", "load", "mobilize", "be packaged", "be loaded", "be mobilized" ] ]
+    FuCAL                     `noun`    {- EubAb -}            [ "ocean waves", "flood" ] ]
 
  |> "` b d" <| [
 
@@ -5068,18 +5043,6 @@ lexicon = listing "Lexicon's properties"
     -- mstEd   musotaEid~      Nall    ready;prepared     [[musotaEid~/ADJ]]
 
     MustaFiCL                 `adj`     {- musotaEid~ -}       [ "ready", "prepared" ],
-
-    -- ;; Ead~aY_1
-    -- EdY     Ead~aY  PV_0    traverse;cross
-    -- EdA     Ead~A   PV_h    traverse;cross
-    -- Edy     Ead~ay  PV_Atn  traverse;cross
-    -- Ed      Ead~    PV_ttAw traverse;cross
-    -- Edy     Ead~iy  IV_0hAnn_yu     traverse;cross
-    -- Ed      Ead~    IV_0hwnyn_yu    traverse;cross
-    -- EdY     Ead~aY  IV_0_Pass_yu    be traversed;be crossed
-    -- Edy     Ead~ay  IV_Ann_Pass_yu  be traversed;be crossed
-
-    FaCLY                     `verb`    {- Ead~aY -}           [ "traverse", "cross", "be traversed", "be crossed" ],
 
     -- ;; Ead~A'_1
     -- EdA'    Ead~A'  N0_Nh   runner
@@ -6004,19 +5967,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mutaEaf~if_1
     -- mtEff   mutaEaf~if      Nall    virtuous;modest     [[mutaEaf~if/ADJ]]
 
-    MutaFaCCiL                `adj`     {- mutaEaf~if -}       [ "virtuous", "modest" ],
-
-    -- ;; Eaf~aY_1
-    -- EfY     Eaf~aY  PV_0    efface;eliminate
-    -- EfA     Eaf~A   PV_h    efface;eliminate
-    -- Efy     Eaf~ay  PV_Atn  efface;eliminate
-    -- Ef      Eaf~    PV_ttAw efface;eliminate
-    -- Efy     Eaf~iy  IV_0hAnn_yu     efface;eliminate
-    -- Ef      Eaf~    IV_0hwnyn_yu    efface;eliminate
-    -- EfY     Eaf~aY  IV_0_Pass_yu    be effaced;be eliminated
-    -- Efy     Eaf~ay  IV_Ann_Pass_yu  be effaced;be eliminated
-
-    FaCLY                     `verb`    {- Eaf~aY -}           [ "efface", "eliminate", "be effaced", "be eliminated" ] ]
+    MutaFaCCiL                `adj`     {- mutaEaf~if -}       [ "virtuous", "modest" ] ]
 
  |> "` f n" <| [
 
@@ -8763,19 +8714,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muEotam~_1
     -- mEtm    muEotam~        Nall    wearing a turban     [[muEotam~/ADJ]]
 
-    MuFtaCL                   `adj`     {- muEotam~ -}         [ "wearing a turban" ],
-
-    -- ;; Eam~aY_1
-    -- EmY     Eam~aY  PV_0    make blind;camouflage
-    -- EmA     Eam~A   PV_h    make blind;camouflage
-    -- Emy     Eam~ay  PV_Atn  make blind;camouflage
-    -- Em      Eam~    PV_ttAw make blind;camouflage
-    -- Emy     Eam~iy  IV_0hAnn_yu     make blind;camouflage
-    -- Em      Eam~    IV_0hwnyn_yu    make blind;camouflage
-    -- EmY     Eam~aY  IV_0_Pass_yu    be blinded;be camouflaged
-    -- Emy     Eam~ay  IV_Ann_Pass_yu  be blinded;be camouflaged
-
-    FaCLY                     `verb`    {- Eam~aY -}           [ "make blind", "camouflage", "be blinded", "be camouflaged" ] ]
+    MuFtaCL                   `adj`     {- muEotam~ -}         [ "wearing a turban" ] ]
 
  |> "` m n" <| [
 
@@ -9636,19 +9575,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Ein~iyn_1
     -- Enyn    Ein~iyn Ndu     impotent
 
-    FiCCIL                    `noun`    {- Ein~iyn -}          [ "impotent" ],
-
-    -- ;; Ean~aY_1
-    -- EnY     Ean~aY  PV_0    afflict
-    -- EnA     Ean~A   PV_h    afflict
-    -- Eny     Ean~ay  PV_Atn  afflict
-    -- En      Ean~    PV_ttAw afflict
-    -- Eny     Ean~iy  IV_0hAnn_yu     afflict
-    -- En      Ean~    IV_0hwnyn_yu    afflict
-    -- EnY     Ean~aY  IV_0_Pass_yu    be afflicted
-    -- Eny     Ean~ay  IV_Ann_Pass_yu  be afflicted
-
-    FaCLY                     `verb`    {- Ean~aY -}           [ "afflict", "be afflicted" ] ]
+    FiCCIL                    `noun`    {- Ein~iyn -}          [ "impotent" ] ]
 
  |> "` n q" <| [
 
@@ -12574,19 +12501,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muEotar~_1
     -- mEtr    muEotar~        Nall    scabious;miserable;scoundrel     [[muEotar~/ADJ]]
 
-    MuFtaCL                   `adj`     {- muEotar~ -}         [ "scabious", "miserable", "scoundrel" ],
-
-    -- ;; Ear~aY_1
-    -- ErY     Ear~aY  PV_0    uncover;unclothe
-    -- ErA     Ear~A   PV_h    uncover;unclothe
-    -- Ery     Ear~ay  PV_Atn  uncover;unclothe
-    -- Er      Ear~    PV_ttAw uncover;unclothe
-    -- Ery     Ear~iy  IV_0hAnn_yu     uncover;unclothe
-    -- Er      Ear~    IV_0hwnyn_yu    uncover;unclothe
-    -- ErY     Ear~aY  IV_0_Pass_yu    be uncovered;be laid bare
-    -- Ery     Ear~ay  IV_Ann_Pass_yu  be uncovered;be laid bare
-
-    FaCLY                     `verb`    {- Ear~aY -}           [ "uncover", "unclothe", "be uncovered", "be laid bare" ] ]
+    MuFtaCL                   `adj`     {- muEotar~ -}         [ "scabious", "miserable", "scoundrel" ] ]
 
  |> "` r s" <| [
 
@@ -16806,19 +16721,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muEotaz~_2
     -- mEtz    muEotaz~        N0      Mu'tazz
 
-    MuFtaCL                   `noun`    {- muEotaz~ -}         [ "Mu'tazz" ],
-
-    -- ;; Eaz~aY_1
-    -- EzY     Eaz~aY  PV_0    console;offer condolences
-    -- EzA     Eaz~A   PV_h    console;offer condolences
-    -- Ezy     Eaz~ay  PV_Atn  console;offer condolences
-    -- Ez      Eaz~    PV_ttAw console;offer condolences
-    -- Ezy     Eaz~iy  IV_0hAnn_yu     console;offer condolences
-    -- Ez      Eaz~    IV_0hwnyn_yu    console;offer condolences
-    -- EzY     Eaz~aY  IV_0_Pass_yu    be consoled;be offered condolences
-    -- Ezy     Eaz~ay  IV_Ann_Pass_yu  be consoled;be offered condolences
-
-    FaCLY                     `verb`    {- Eaz~aY -}           [ "console", "offer condolences", "be consoled", "be offered condolences" ] ]
+    MuFtaCL                   `noun`    {- muEotaz~ -}         [ "Mu'tazz" ] ]
 
  |> "`A^g^guwr" <| [
 

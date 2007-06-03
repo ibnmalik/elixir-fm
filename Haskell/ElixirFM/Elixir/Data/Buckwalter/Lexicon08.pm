@@ -9128,58 +9128,6 @@ $Lexicon = {
       ],
       'orig' => 'das~As',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'dass' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'dassay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'dassY' => {},
-        'dassA' => {
-          'PV_h' => 1
-        },
-        'dassiy' => {
-          'IV_0hAnn_yu' => 1
-        }
-      },
-      'entry' => 'dassY',
-      'form' => 'dassY',
-      'lines' => [
-        ';; das~aY_1',
-        'dsY     das~aY  PV_0    introduce;bring in',
-        'dsA     das~A   PV_h    introduce;bring in',
-        'dsy     das~ay  PV_Atn  introduce;bring in',
-        'ds      das~    PV_ttAw introduce;bring in',
-        'dsy     das~iy  IV_0hAnn_yu     introduce;bring in',
-        'ds      das~    IV_0hwnyn_yu    introduce;bring in',
-        'dsY     das~aY  IV_0_Pass_yu    be introduced;be brought in',
-        'dsy     das~ay  IV_Ann_Pass_yu  be introduced;be brought in'
-      ],
-      'patterns' => {
-        'dass' => [
-          'FaCL'
-        ],
-        'dassiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'introduce',
-        'bring in',
-        'be introduced',
-        'be brought in'
-      ],
-      'orig' => 'das~aY',
-      'prefix' => ''
     }
   ],
   'dAkAr' => [
@@ -16827,27 +16775,6 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
-      'entry' => 'dammY',
-      'form' => 'dammY',
-      'lines' => [],
-      'patterns' => {
-        'damm' => [
-          'FaCL'
-        ],
-        'dammiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'dam~aY',
-      'prefix' => ''
-    },
-    {
       'types' => {
         'dam' => {
           'N' => 1
@@ -18296,27 +18223,6 @@ $Lexicon = {
         'conceited'
       ],
       'orig' => 'mudil~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'dallY',
-      'form' => 'dallY',
-      'lines' => [],
-      'patterns' => {
-        'dall' => [
-          'FaCL'
-        ],
-        'dalliy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'dal~aY',
       'prefix' => ''
     }
   ],
@@ -21192,58 +21098,6 @@ $Lexicon = {
       ],
       'orig' => 'dinAn',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'dannA' => {
-          'PV_h' => 1
-        },
-        'dannY' => {},
-        'danniy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'dannay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'dann' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        }
-      },
-      'entry' => 'dannY',
-      'form' => 'dannY',
-      'lines' => [
-        ';; dan~aY_1',
-        'dnY     dan~aY  PV_0    move near;be base',
-        'dnA     dan~A   PV_h    move near;be base',
-        'dny     dan~ay  PV_Atn  move near;be base',
-        'dn      dan~    PV_ttAw move near;be base',
-        'dny     dan~iy  IV_0hAnn_yu     move near;be base',
-        'dn      dan~    IV_0hwnyn_yu    move near;be base',
-        'dnY     dan~aY  IV_0_Pass_yu    be moved near;be debased',
-        'dny     dan~ay  IV_Ann_Pass_yu  be moved near;be debased'
-      ],
-      'patterns' => {
-        'danniy' => [
-          'FaCCI'
-        ],
-        'dann' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'move near',
-        'be base',
-        'be moved near',
-        'be debased'
-      ],
-      'orig' => 'dan~aY',
-      'prefix' => ''
     }
   ],
   'd b q' => [
@@ -21951,10 +21805,36 @@ $Lexicon = {
   ],
   'd s y' => [
     {
-      'types' => {},
+      'types' => {
+        'dass' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'dassay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'dassY' => {},
+        'dassA' => {
+          'PV_h' => 1
+        },
+        'dassiy' => {
+          'IV_0hAnn_yu' => 1
+        }
+      },
       'entry' => 'dassY',
       'form' => 'dassY',
-      'lines' => [],
+      'lines' => [
+        ';; das~aY_1',
+        'dsY     das~aY  PV_0    introduce;bring in',
+        'dsA     das~A   PV_h    introduce;bring in',
+        'dsy     das~ay  PV_Atn  introduce;bring in',
+        'ds      das~    PV_ttAw introduce;bring in',
+        'dsy     das~iy  IV_0hAnn_yu     introduce;bring in',
+        'ds      das~    IV_0hwnyn_yu    introduce;bring in',
+        'dsY     das~aY  IV_0_Pass_yu    be introduced;be brought in',
+        'dsy     das~ay  IV_Ann_Pass_yu  be introduced;be brought in'
+      ],
       'patterns' => {
         'dassay' => [
           'FaCCaL'
@@ -21968,7 +21848,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'introduce',
+        'bring in',
+        'be introduced',
+        'be brought in'
+      ],
       'orig' => 'das~aY',
       'prefix' => ''
     },
@@ -32430,10 +32315,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'dannA' => {
+          'PV_h' => 1
+        },
+        'dannY' => {},
+        'danniy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'dannay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'dann' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        }
+      },
       'entry' => 'dannY',
       'form' => 'dannY',
-      'lines' => [],
+      'lines' => [
+        ';; dan~aY_1',
+        'dnY     dan~aY  PV_0    move near;be base',
+        'dnA     dan~A   PV_h    move near;be base',
+        'dny     dan~ay  PV_Atn  move near;be base',
+        'dn      dan~    PV_ttAw move near;be base',
+        'dny     dan~iy  IV_0hAnn_yu     move near;be base',
+        'dn      dan~    IV_0hwnyn_yu    move near;be base',
+        'dnY     dan~aY  IV_0_Pass_yu    be moved near;be debased',
+        'dny     dan~ay  IV_Ann_Pass_yu  be moved near;be debased'
+      ],
       'patterns' => {
         'danniy' => [
           'FaCCI'
@@ -32443,7 +32354,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'move near',
+        'be base',
+        'be moved near',
+        'be debased'
+      ],
       'orig' => 'dan~aY',
       'prefix' => ''
     },
@@ -36825,29 +36741,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'd h h' => [
-    {
-      'types' => {},
-      'entry' => 'dahhY',
-      'form' => 'dahhY',
-      'lines' => [],
-      'patterns' => {
-        'dahh' => [
-          'FaCL'
-        ],
-        'dahhiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'dah~aY',
-      'prefix' => ''
-    }
-  ],
   'du^gunn' => [
     {
       'types' => {
@@ -37492,27 +37385,6 @@ $Lexicon = {
         'Do'
       ],
       'orig' => 'duw',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'dawwY',
-      'form' => 'dawwY',
-      'lines' => [],
-      'patterns' => {
-        'dawwiy' => [
-          'FaCCI'
-        ],
-        'daww' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'daw~aY',
       'prefix' => ''
     }
   ],
@@ -38430,12 +38302,6 @@ $Lexicon->{'d \' y'}[3]{'glosses'} = $Lexicon->{'d w y'}[16]{'glosses'};
 $Lexicon->{'d \' y'}[4]{'types'} = $Lexicon->{'d w y'}[16]{'types'};
 $Lexicon->{'d \' y'}[4]{'lines'} = $Lexicon->{'d w y'}[16]{'lines'};
 $Lexicon->{'d \' y'}[4]{'glosses'} = $Lexicon->{'d w y'}[16]{'glosses'};
-$Lexicon->{'d m m'}[7]{'types'} = $Lexicon->{'d m y'}[1]{'types'};
-$Lexicon->{'d m m'}[7]{'lines'} = $Lexicon->{'d m y'}[1]{'lines'};
-$Lexicon->{'d m m'}[7]{'glosses'} = $Lexicon->{'d m y'}[1]{'glosses'};
-$Lexicon->{'d l l'}[30]{'types'} = $Lexicon->{'d l y'}[0]{'types'};
-$Lexicon->{'d l l'}[30]{'lines'} = $Lexicon->{'d l y'}[0]{'lines'};
-$Lexicon->{'d l l'}[30]{'glosses'} = $Lexicon->{'d l y'}[0]{'glosses'};
 $Lexicon->{'d y m'}[0]{'types'} = $Lexicon->{'d w m'}[8]{'types'};
 $Lexicon->{'d y m'}[0]{'lines'} = $Lexicon->{'d w m'}[8]{'lines'};
 $Lexicon->{'d y m'}[0]{'glosses'} = $Lexicon->{'d w m'}[8]{'glosses'};
@@ -38448,9 +38314,6 @@ $Lexicon->{'d n r'}[0]{'glosses'} = $Lexicon->{'d y n r'}[0]{'glosses'};
 $Lexicon->{'d l n'}[0]{'types'} = $Lexicon->{'d w l'}[12]{'types'};
 $Lexicon->{'d l n'}[0]{'lines'} = $Lexicon->{'d w l'}[12]{'lines'};
 $Lexicon->{'d l n'}[0]{'glosses'} = $Lexicon->{'d w l'}[12]{'glosses'};
-$Lexicon->{'d s y'}[0]{'types'} = $Lexicon->{'d s s'}[6]{'types'};
-$Lexicon->{'d s y'}[0]{'lines'} = $Lexicon->{'d s s'}[6]{'lines'};
-$Lexicon->{'d s y'}[0]{'glosses'} = $Lexicon->{'d s s'}[6]{'glosses'};
 $Lexicon->{'d ` w'}[8]{'types'} = $Lexicon->{'d ` \''}[0]{'types'};
 $Lexicon->{'d ` w'}[8]{'lines'} = $Lexicon->{'d ` \''}[0]{'lines'};
 $Lexicon->{'d ` w'}[8]{'glosses'} = $Lexicon->{'d ` \''}[0]{'glosses'};
@@ -38527,9 +38390,6 @@ $Lexicon->{'d n w'}[1]{'types'} = $Lexicon->{'d n y'}[0]{'types'};
 $Lexicon->{'d n w'}[1]{'lines'} = $Lexicon->{'d n y'}[0]{'lines'};
 $Lexicon->{'d n w'}[1]{'glosses'} = $Lexicon->{'d n y'}[0]{'glosses'};
 $Lexicon->{'d n w'}[1]{'imperf'} = $Lexicon->{'d n y'}[0]{'imperf'};
-$Lexicon->{'d n w'}[2]{'types'} = $Lexicon->{'d n n'}[2]{'types'};
-$Lexicon->{'d n w'}[2]{'lines'} = $Lexicon->{'d n n'}[2]{'lines'};
-$Lexicon->{'d n w'}[2]{'glosses'} = $Lexicon->{'d n n'}[2]{'glosses'};
 $Lexicon->{'d n w'}[16]{'types'} = $Lexicon->{'d n y'}[5]{'types'};
 $Lexicon->{'d n w'}[16]{'lines'} = $Lexicon->{'d n y'}[5]{'lines'};
 $Lexicon->{'d n w'}[16]{'glosses'} = $Lexicon->{'d n y'}[5]{'glosses'};
@@ -38569,12 +38429,6 @@ $Lexicon->{'d w \''}[3]{'glosses'} = $Lexicon->{'d w y'}[12]{'glosses'};
 $Lexicon->{'d w l n'}[0]{'types'} = $Lexicon->{'d w l'}[12]{'types'};
 $Lexicon->{'d w l n'}[0]{'lines'} = $Lexicon->{'d w l'}[12]{'lines'};
 $Lexicon->{'d w l n'}[0]{'glosses'} = $Lexicon->{'d w l'}[12]{'glosses'};
-$Lexicon->{'d h h'}[0]{'types'} = $Lexicon->{'d h y'}[2]{'types'};
-$Lexicon->{'d h h'}[0]{'lines'} = $Lexicon->{'d h y'}[2]{'lines'};
-$Lexicon->{'d h h'}[0]{'glosses'} = $Lexicon->{'d h y'}[2]{'glosses'};
 $Lexicon->{'d m n'}[8]{'types'} = $Lexicon->{'d w m'}[21]{'types'};
 $Lexicon->{'d m n'}[8]{'lines'} = $Lexicon->{'d w m'}[21]{'lines'};
 $Lexicon->{'d m n'}[8]{'glosses'} = $Lexicon->{'d w m'}[21]{'glosses'};
-$Lexicon->{'d w w'}[1]{'types'} = $Lexicon->{'d w y'}[2]{'types'};
-$Lexicon->{'d w w'}[1]{'lines'} = $Lexicon->{'d w y'}[2]{'lines'};
-$Lexicon->{'d w w'}[1]{'glosses'} = $Lexicon->{'d w y'}[2]{'glosses'};

@@ -7654,58 +7654,6 @@ $Lexicon = {
       ],
       'orig' => 'xi$A$',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        '_ha^s^siy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '_ha^s^s' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '_ha^s^say' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '_ha^s^sA' => {
-          'PV_h' => 1
-        },
-        '_ha^s^sY' => {}
-      },
-      'entry' => '_ha^s^sY',
-      'form' => '_ha^s^sY',
-      'lines' => [
-        ';; xa$~aY_1',
-        'x$Y     xa$~aY  PV_0    frighten;alarm',
-        'x$A     xa$~A   PV_h    frighten;alarm',
-        'x$y     xa$~ay  PV_Atn  frighten;alarm',
-        'x$      xa$~    PV_ttAw frighten;alarm',
-        'x$y     xa$~iy  IV_0hAnn_yu     frighten;alarm',
-        'x$      xa$~    IV_0hwnyn_yu    frighten;alarm',
-        'x$Y     xa$~aY  IV_0_Pass_yu    be frighten;be alarmed',
-        'x$y     xa$~ay  IV_Ann_Pass_yu  be frighten;be alarmed'
-      ],
-      'patterns' => {
-        '_ha^s^s' => [
-          'FaCL'
-        ],
-        '_ha^s^siy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'frighten',
-        'alarm',
-        'be frighten',
-        'be alarmed'
-      ],
-      'orig' => 'xa$~aY',
-      'prefix' => ''
     }
   ],
   '_h l `' => [
@@ -15557,27 +15505,6 @@ $Lexicon = {
       ],
       'orig' => 'muxotal~',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hallY',
-      'form' => '_hallY',
-      'lines' => [],
-      'patterns' => {
-        '_halliy' => [
-          'FaCCI'
-        ],
-        '_hall' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'xal~aY',
-      'prefix' => ''
     }
   ],
   '_h  \'' => [
@@ -22944,10 +22871,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '_ha^s^siy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '_ha^s^s' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '_ha^s^say' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '_ha^s^sA' => {
+          'PV_h' => 1
+        },
+        '_ha^s^sY' => {}
+      },
       'entry' => '_ha^s^sY',
       'form' => '_ha^s^sY',
-      'lines' => [],
+      'lines' => [
+        ';; xa$~aY_1',
+        'x$Y     xa$~aY  PV_0    frighten;alarm',
+        'x$A     xa$~A   PV_h    frighten;alarm',
+        'x$y     xa$~ay  PV_Atn  frighten;alarm',
+        'x$      xa$~    PV_ttAw frighten;alarm',
+        'x$y     xa$~iy  IV_0hAnn_yu     frighten;alarm',
+        'x$      xa$~    IV_0hwnyn_yu    frighten;alarm',
+        'x$Y     xa$~aY  IV_0_Pass_yu    be frighten;be alarmed',
+        'x$y     xa$~ay  IV_Ann_Pass_yu  be frighten;be alarmed'
+      ],
       'patterns' => {
         '_ha^s^say' => [
           'FaCCaL'
@@ -22961,7 +22914,12 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'frighten',
+        'alarm',
+        'be frighten',
+        'be alarmed'
+      ],
       'orig' => 'xa$~aY',
       'prefix' => ''
     },
@@ -29483,27 +29441,6 @@ $Lexicon = {
         'sketches'
       ],
       'orig' => 'muxaT~aT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.t.tY',
-      'form' => '_ha.t.tY',
-      'lines' => [],
-      'patterns' => {
-        '_ha.t.t' => [
-          'FaCL'
-        ],
-        '_ha.t.tiy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'xaT~aY',
       'prefix' => ''
     }
   ],
@@ -41440,9 +41377,6 @@ $Lexicon = {
     }
   ]
 };
-$Lexicon->{'_h l l'}[18]{'types'} = $Lexicon->{'_h l w'}[1]{'types'};
-$Lexicon->{'_h l l'}[18]{'lines'} = $Lexicon->{'_h l w'}[1]{'lines'};
-$Lexicon->{'_h l l'}[18]{'glosses'} = $Lexicon->{'_h l w'}[1]{'glosses'};
 $Lexicon->{'_h w \''}[0]{'types'} = $Lexicon->{'_h w y'}[3]{'types'};
 $Lexicon->{'_h w \''}[0]{'lines'} = $Lexicon->{'_h w y'}[3]{'lines'};
 $Lexicon->{'_h w \''}[0]{'glosses'} = $Lexicon->{'_h w y'}[3]{'glosses'};
@@ -41474,9 +41408,6 @@ $Lexicon->{'_h .s .s'}[27]{'glosses'} = $Lexicon->{'_h t .s'}[3]{'glosses'};
 $Lexicon->{'_h \' .t'}[0]{'types'} = $Lexicon->{'_h y .t'}[9]{'types'};
 $Lexicon->{'_h \' .t'}[0]{'lines'} = $Lexicon->{'_h y .t'}[9]{'lines'};
 $Lexicon->{'_h \' .t'}[0]{'glosses'} = $Lexicon->{'_h y .t'}[9]{'glosses'};
-$Lexicon->{'_h ^s y'}[1]{'types'} = $Lexicon->{'_h ^s ^s'}[2]{'types'};
-$Lexicon->{'_h ^s y'}[1]{'lines'} = $Lexicon->{'_h ^s ^s'}[2]{'lines'};
-$Lexicon->{'_h ^s y'}[1]{'glosses'} = $Lexicon->{'_h ^s ^s'}[2]{'glosses'};
 $Lexicon->{'_h l y'}[4]{'types'} = $Lexicon->{'_h l w'}[17]{'types'};
 $Lexicon->{'_h l y'}[4]{'lines'} = $Lexicon->{'_h l w'}[17]{'lines'};
 $Lexicon->{'_h l y'}[4]{'glosses'} = $Lexicon->{'_h l w'}[17]{'glosses'};
@@ -41498,9 +41429,6 @@ $Lexicon->{'_h .t .t'}[2]{'glosses'} = $Lexicon->{'_h t .t'}[0]{'glosses'};
 $Lexicon->{'_h .t .t'}[3]{'types'} = $Lexicon->{'_h t .t'}[1]{'types'};
 $Lexicon->{'_h .t .t'}[3]{'lines'} = $Lexicon->{'_h t .t'}[1]{'lines'};
 $Lexicon->{'_h .t .t'}[3]{'glosses'} = $Lexicon->{'_h t .t'}[1]{'glosses'};
-$Lexicon->{'_h .t .t'}[15]{'types'} = $Lexicon->{'_h .t w'}[1]{'types'};
-$Lexicon->{'_h .t .t'}[15]{'lines'} = $Lexicon->{'_h .t w'}[1]{'lines'};
-$Lexicon->{'_h .t .t'}[15]{'glosses'} = $Lexicon->{'_h .t w'}[1]{'glosses'};
 $Lexicon->{'_h y b'}[5]{'types'} = $Lexicon->{'_h \' b'}[0]{'types'};
 $Lexicon->{'_h y b'}[5]{'lines'} = $Lexicon->{'_h \' b'}[0]{'lines'};
 $Lexicon->{'_h y b'}[5]{'glosses'} = $Lexicon->{'_h \' b'}[0]{'glosses'};

@@ -774,9 +774,7 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `noun`    {- bak -}              [ "Bey", "beys" ]
                               `plural`     FIL
-                           {- `others`  [ "biyk N" ] -},
-
-    FaCLY                     `verb`    {- bak~aY -}           [ "make cry", "be made to cry" ] ]
+                           {- `others`  [ "biyk N" ] -} ]
 
  |> "b k l" <| [
 

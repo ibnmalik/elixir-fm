@@ -345,9 +345,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- labiyb -}           [ "Labib", "Labeeb" ],
 
-    FaCIL                     `adj`     {- labiyb -}           [ "sensible", "reasonable" ],
-
-    FaCLY                     `verb`    {- lab~aY -}           [ "comply with", "carry out", "respond to", "be complied with", "be carried out", "be responded to" ] ]
+    FaCIL                     `adj`     {- labiyb -}           [ "sensible", "reasonable" ] ]
 
  |> "l b n" <| [
 

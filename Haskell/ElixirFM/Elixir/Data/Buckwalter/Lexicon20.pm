@@ -909,60 +909,6 @@ $Lexicon = {
     },
     {
       'types' => {
-        'fall' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'fallA' => {
-          'PV_h' => 1
-        },
-        'falliy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'fallY' => {},
-        'fallay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        }
-      },
-      'entry' => 'fallY',
-      'form' => 'fallY',
-      'lines' => [
-        ';; fal~aY_1',
-        'flY     fal~aY  PV_0    scrutinize;peruse;delouse',
-        'flA     fal~A   PV_h    scrutinize;peruse;delouse',
-        'fly     fal~ay  PV_Atn  scrutinize;peruse;delouse',
-        'fl      fal~    PV_ttAw scrutinize;peruse;delouse',
-        'fly     fal~iy  IV_0hAnn_yu     scrutinize;peruse;delouse',
-        'fl      fal~    IV_0hwnyn_yu    scrutinize;peruse;delouse',
-        'flY     fal~aY  IV_0_Pass_yu    be scrutinized;be perused;be deloused',
-        'fly     fal~ay  IV_Ann_Pass_yu  be scrutinized;be perused;be deloused'
-      ],
-      'patterns' => {
-        'fall' => [
-          'FaCL'
-        ],
-        'falliy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'scrutinize',
-        'peruse',
-        'delouse',
-        'be scrutinized',
-        'be perused',
-        'be deloused'
-      ],
-      'orig' => 'fal~aY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
         'fiylAliyy' => {
           'N0' => 1
         }
@@ -3208,56 +3154,6 @@ $Lexicon = {
         'Farra'
       ],
       'orig' => 'far~A\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'farriy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'farr' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'farray' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'farrY' => {},
-        'farrA' => {
-          'PV_h' => 1
-        }
-      },
-      'entry' => 'farrY',
-      'form' => 'farrY',
-      'lines' => [
-        ';; far~aY_1',
-        'frY     far~aY  PV_0    cut or split lengthwise',
-        'frA     far~A   PV_h    cut or split lengthwise',
-        'fry     far~ay  PV_Atn  cut or split lengthwise',
-        'fr      far~    PV_ttAw cut or split lengthwise',
-        'fry     far~iy  IV_0hAnn_yu     cut or split lengthwise',
-        'fr      far~    IV_0hwnyn_yu    cut or split lengthwise',
-        'frY     far~aY  IV_0_Pass_yu    be cut or split lengthwise',
-        'fry     far~ay  IV_Ann_Pass_yu  be cut or split lengthwise'
-      ],
-      'patterns' => {
-        'farriy' => [
-          'FaCCI'
-        ],
-        'farr' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'cut or split lengthwise',
-        'be cut or split lengthwise'
-      ],
-      'orig' => 'far~aY',
       'prefix' => ''
     }
   ],
@@ -31000,27 +30896,6 @@ $Lexicon = {
       ],
       'orig' => 'mufaD~aD',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'fa.d.dY',
-      'form' => 'fa.d.dY',
-      'lines' => [],
-      'patterns' => {
-        'fa.d.diy' => [
-          'FaCCI'
-        ],
-        'fa.d.d' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'faD~aY',
-      'prefix' => ''
     }
   ],
   'f ^g \'' => [
@@ -37446,10 +37321,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'fall' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'fallA' => {
+          'PV_h' => 1
+        },
+        'falliy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'fallY' => {},
+        'fallay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        }
+      },
       'entry' => 'fallY',
       'form' => 'fallY',
-      'lines' => [],
+      'lines' => [
+        ';; fal~aY_1',
+        'flY     fal~aY  PV_0    scrutinize;peruse;delouse',
+        'flA     fal~A   PV_h    scrutinize;peruse;delouse',
+        'fly     fal~ay  PV_Atn  scrutinize;peruse;delouse',
+        'fl      fal~    PV_ttAw scrutinize;peruse;delouse',
+        'fly     fal~iy  IV_0hAnn_yu     scrutinize;peruse;delouse',
+        'fl      fal~    IV_0hwnyn_yu    scrutinize;peruse;delouse',
+        'flY     fal~aY  IV_0_Pass_yu    be scrutinized;be perused;be deloused',
+        'fly     fal~ay  IV_Ann_Pass_yu  be scrutinized;be perused;be deloused'
+      ],
       'patterns' => {
         'falliy' => [
           'FaCCiL',
@@ -37463,7 +37364,14 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'scrutinize',
+        'peruse',
+        'delouse',
+        'be scrutinized',
+        'be perused',
+        'be deloused'
+      ],
       'orig' => 'fal~aY',
       'prefix' => ''
     },
@@ -45391,10 +45299,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'farriy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'farr' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'farray' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'farrY' => {},
+        'farrA' => {
+          'PV_h' => 1
+        }
+      },
       'entry' => 'farrY',
       'form' => 'farrY',
-      'lines' => [],
+      'lines' => [
+        ';; far~aY_1',
+        'frY     far~aY  PV_0    cut or split lengthwise',
+        'frA     far~A   PV_h    cut or split lengthwise',
+        'fry     far~ay  PV_Atn  cut or split lengthwise',
+        'fr      far~    PV_ttAw cut or split lengthwise',
+        'fry     far~iy  IV_0hAnn_yu     cut or split lengthwise',
+        'fr      far~    IV_0hwnyn_yu    cut or split lengthwise',
+        'frY     far~aY  IV_0_Pass_yu    be cut or split lengthwise',
+        'fry     far~ay  IV_Ann_Pass_yu  be cut or split lengthwise'
+      ],
       'patterns' => {
         'farriy' => [
           'FaCCiL',
@@ -45408,7 +45342,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'cut or split lengthwise',
+        'be cut or split lengthwise'
+      ],
       'orig' => 'far~aY',
       'prefix' => ''
     },
@@ -52759,9 +52696,9 @@ $Lexicon = {
     }
   ]
 };
-$Lexicon->{'f y l l'}[1]{'types'} = $Lexicon->{'f l l'}[11]{'types'};
-$Lexicon->{'f y l l'}[1]{'lines'} = $Lexicon->{'f l l'}[11]{'lines'};
-$Lexicon->{'f y l l'}[1]{'glosses'} = $Lexicon->{'f l l'}[11]{'glosses'};
+$Lexicon->{'f y l l'}[1]{'types'} = $Lexicon->{'f l l'}[10]{'types'};
+$Lexicon->{'f y l l'}[1]{'lines'} = $Lexicon->{'f l l'}[10]{'lines'};
+$Lexicon->{'f y l l'}[1]{'glosses'} = $Lexicon->{'f l l'}[10]{'glosses'};
 $Lexicon->{'f t r'}[10]{'types'} = $Lexicon->{'f r r'}[2]{'types'};
 $Lexicon->{'f t r'}[10]{'lines'} = $Lexicon->{'f r r'}[2]{'lines'};
 $Lexicon->{'f t r'}[10]{'glosses'} = $Lexicon->{'f r r'}[2]{'glosses'};
@@ -52819,9 +52756,6 @@ $Lexicon->{'f .d .d'}[2]{'glosses'} = $Lexicon->{'f t .d'}[0]{'glosses'};
 $Lexicon->{'f .d .d'}[10]{'types'} = $Lexicon->{'f t .d'}[1]{'types'};
 $Lexicon->{'f .d .d'}[10]{'lines'} = $Lexicon->{'f t .d'}[1]{'lines'};
 $Lexicon->{'f .d .d'}[10]{'glosses'} = $Lexicon->{'f t .d'}[1]{'glosses'};
-$Lexicon->{'f .d .d'}[12]{'types'} = $Lexicon->{'f .d w'}[1]{'types'};
-$Lexicon->{'f .d .d'}[12]{'lines'} = $Lexicon->{'f .d w'}[1]{'lines'};
-$Lexicon->{'f .d .d'}[12]{'glosses'} = $Lexicon->{'f .d w'}[1]{'glosses'};
 $Lexicon->{'f t \''}[2]{'types'} = $Lexicon->{'f t w'}[6]{'types'};
 $Lexicon->{'f t \''}[2]{'lines'} = $Lexicon->{'f t w'}[6]{'lines'};
 $Lexicon->{'f t \''}[2]{'glosses'} = $Lexicon->{'f t w'}[6]{'glosses'};
@@ -52846,9 +52780,6 @@ $Lexicon->{'f w z'}[8]{'glosses'} = $Lexicon->{'f \' z'}[2]{'glosses'};
 $Lexicon->{'f l y'}[0]{'types'} = $Lexicon->{'f l w'}[3]{'types'};
 $Lexicon->{'f l y'}[0]{'lines'} = $Lexicon->{'f l w'}[3]{'lines'};
 $Lexicon->{'f l y'}[0]{'glosses'} = $Lexicon->{'f l w'}[3]{'glosses'};
-$Lexicon->{'f l y'}[2]{'types'} = $Lexicon->{'f l l'}[10]{'types'};
-$Lexicon->{'f l y'}[2]{'lines'} = $Lexicon->{'f l l'}[10]{'lines'};
-$Lexicon->{'f l y'}[2]{'glosses'} = $Lexicon->{'f l l'}[10]{'glosses'};
 $Lexicon->{'f \' t'}[1]{'types'} = $Lexicon->{'f w t'}[8]{'types'};
 $Lexicon->{'f \' t'}[1]{'lines'} = $Lexicon->{'f w t'}[8]{'lines'};
 $Lexicon->{'f \' t'}[1]{'glosses'} = $Lexicon->{'f w t'}[8]{'glosses'};
@@ -52879,9 +52810,6 @@ $Lexicon->{'f n n'}[11]{'glosses'} = $Lexicon->{'f t n'}[16]{'glosses'};
 $Lexicon->{'f n n'}[13]{'types'} = $Lexicon->{'f t n'}[17]{'types'};
 $Lexicon->{'f n n'}[13]{'lines'} = $Lexicon->{'f t n'}[17]{'lines'};
 $Lexicon->{'f n n'}[13]{'glosses'} = $Lexicon->{'f t n'}[17]{'glosses'};
-$Lexicon->{'f r y'}[1]{'types'} = $Lexicon->{'f r r'}[14]{'types'};
-$Lexicon->{'f r y'}[1]{'lines'} = $Lexicon->{'f r r'}[14]{'lines'};
-$Lexicon->{'f r y'}[1]{'glosses'} = $Lexicon->{'f r r'}[14]{'glosses'};
 $Lexicon->{'f r y'}[8]{'types'} = $Lexicon->{'f r \''}[4]{'types'};
 $Lexicon->{'f r y'}[8]{'lines'} = $Lexicon->{'f r \''}[4]{'lines'};
 $Lexicon->{'f r y'}[8]{'glosses'} = $Lexicon->{'f r \''}[4]{'glosses'};

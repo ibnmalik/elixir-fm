@@ -1137,10 +1137,6 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- muwal~ad -}         [ "mixed-blood", "non-native" ] ]
 
- |> "w l l" <| [
-
-    FaCLY                     `verb`    {- wal~aY -}           [ "put in charge", "entrust", "commission", "be put in charge", "be entrusted" ] ]
-
  |> "w l s" <| [
 
     FaCaL                     `verb`    {- walas-i -}          [ "deceive", "cheat", "be deceived", "be cheated" ]

@@ -764,9 +764,7 @@ lexicon = listing "Lexicon's properties"
 
     HiFCAL                    `noun`    {- IixolAl -}          [ "breach", "disturbance", "harm" ],
 
-    IFtiCAL                   `noun`    {- AixotilAl -}        [ "disturbance", "disorder", "deterioration" ],
-
-    FaCLY                     `verb`    {- xal~aY -}           [ "release", "evacuate", "allow", "be released", "be evacuated", "be allowed" ] ]
+    IFtiCAL                   `noun`    {- AixotilAl -}        [ "disturbance", "disorder", "deterioration" ] ]
 
  |> "_h l q" <| [
 

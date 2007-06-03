@@ -110,10 +110,12 @@ instance Inflect RootEntry ParaVerb where
                                                                "VerbP"])
                                          xs -> head xs
 
-              form = case nub [ f | f <- [I ..], (x, _, _, _) <- verbStems f,
-                                    x == pattern ] of
+              form = case nub [ f | f <- [I ..], (x, y, _, _) <- verbStems f,
+                                    x == pattern || y == pattern ] of
                         [x] ->  x
-                        _   ->  error "Inconsistent Derivation Form"
+                        _   ->  (error . unwords)
+                                    ["Inconsistent Derivation Form VerbP",
+                                    show pattern, show r]
 
 
     inflect (RE r e) x@(VerbI m v p g n) = (map inRules . inEntry) e
@@ -145,10 +147,12 @@ instance Inflect RootEntry ParaVerb where
                                                                "VerbI"])
                                          xs -> head xs
 
-              form = case nub [ f | f <- [I ..], (x, _, _, _) <- verbStems f,
-                                    x == pattern ] of
+              form = case nub [ f | f <- [I ..], (x, y, _, _) <- verbStems f,
+                                    x == pattern || y == pattern ] of
                         [x] ->  x
-                        _   ->  error "Inconsistent Derivation Form"
+                        _   ->  (error . unwords)
+                                    ["Inconsistent Derivation Form VerbI",
+                                    show pattern, show r]
 
 
     inflect (RE r e) x@(VerbC       g n) = (map inRules . inEntry) e
@@ -172,10 +176,12 @@ instance Inflect RootEntry ParaVerb where
                                             (if isDefault x then m
                                                             else morph (shortStem t))
 
-              form = case nub [ f | f <- [I ..], (x, _, _, _) <- verbStems f,
-                                    x == pattern ] of
+              form = case nub [ f | f <- [I ..], (x, y, _, _) <- verbStems f,
+                                    x == pattern || y == pattern ] of
                         [x] ->  x
-                        _   ->  error "Inconsistent Derivation Form"
+                        _   ->  (error . unwords)
+                                    ["Inconsistent Derivation Form VerbC",
+                                    show pattern, show r]
 
 
     inflect _ _ = []
@@ -392,7 +398,7 @@ inEntry _ e = [morphs e]
 
 inRules r c (d :-: a) y@(Morphs t p s) = (merge r . article . endings c d a) y
 
-    where article = case d of   Just True        -> (al >|)
+    where article = case d of   Just True        -> id -- (al >|)
                                 _                -> id
 
           endings = case s of   Un : _           -> paraMasculine `with` reduce

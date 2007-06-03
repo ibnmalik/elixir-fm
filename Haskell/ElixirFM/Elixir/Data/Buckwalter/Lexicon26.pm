@@ -524,56 +524,6 @@ $Lexicon = {
       ],
       'orig' => 'hajiyj',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'ha^g^g' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'ha^g^gY' => {},
-        'ha^g^giy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'ha^g^gay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        'ha^g^gA' => {
-          'PV_h' => 1
-        }
-      },
-      'entry' => 'ha^g^gY',
-      'form' => 'ha^g^gY',
-      'lines' => [
-        ';; haj~aY_1',
-        'hjY     haj~aY  PV_0    spell',
-        'hjA     haj~A   PV_h    spell',
-        'hjy     haj~ay  PV_Atn  spell',
-        'hj      haj~    PV_ttAw spell',
-        'hjy     haj~iy  IV_0hAnn_yu     spell',
-        'hj      haj~    IV_0hwnyn_yu    spell',
-        'hjY     haj~aY  IV_0_Pass_yu    be spelled',
-        'hjy     haj~ay  IV_Ann_Pass_yu  be spelled'
-      ],
-      'patterns' => {
-        'ha^g^g' => [
-          'FaCL'
-        ],
-        'ha^g^giy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'spell',
-        'be spelled'
-      ],
-      'orig' => 'haj~aY',
-      'prefix' => ''
     }
   ],
   'h n d s' => [
@@ -3736,10 +3686,36 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'ha^g^g' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'ha^g^gY' => {},
+        'ha^g^giy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'ha^g^gay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        'ha^g^gA' => {
+          'PV_h' => 1
+        }
+      },
       'entry' => 'ha^g^gY',
       'form' => 'ha^g^gY',
-      'lines' => [],
+      'lines' => [
+        ';; haj~aY_1',
+        'hjY     haj~aY  PV_0    spell',
+        'hjA     haj~A   PV_h    spell',
+        'hjy     haj~ay  PV_Atn  spell',
+        'hj      haj~    PV_ttAw spell',
+        'hjy     haj~iy  IV_0hAnn_yu     spell',
+        'hj      haj~    IV_0hwnyn_yu    spell',
+        'hjY     haj~aY  IV_0_Pass_yu    be spelled',
+        'hjy     haj~ay  IV_Ann_Pass_yu  be spelled'
+      ],
       'patterns' => {
         'ha^g^giy' => [
           'FaCCI'
@@ -3749,7 +3725,10 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'spell',
+        'be spelled'
+      ],
       'orig' => 'haj~aY',
       'prefix' => ''
     },
@@ -27321,27 +27300,6 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
-      'entry' => 'hawwY',
-      'form' => 'hawwY',
-      'lines' => [],
-      'patterns' => {
-        'hawwiy' => [
-          'FaCCI'
-        ],
-        'haww' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'haw~aY',
-      'prefix' => ''
-    },
-    {
       'types' => {
         'huwA' => {
           'Nhy' => 1
@@ -33602,9 +33560,6 @@ $Lexicon = {
     }
   ]
 };
-$Lexicon->{'h ^g w'}[1]{'types'} = $Lexicon->{'h ^g ^g'}[4]{'types'};
-$Lexicon->{'h ^g w'}[1]{'lines'} = $Lexicon->{'h ^g ^g'}[4]{'lines'};
-$Lexicon->{'h ^g w'}[1]{'glosses'} = $Lexicon->{'h ^g ^g'}[4]{'glosses'};
 $Lexicon->{'h y ^g'}[11]{'types'} = $Lexicon->{'h \' ^g'}[0]{'types'};
 $Lexicon->{'h y ^g'}[11]{'lines'} = $Lexicon->{'h \' ^g'}[0]{'lines'};
 $Lexicon->{'h y ^g'}[11]{'glosses'} = $Lexicon->{'h \' ^g'}[0]{'glosses'};
@@ -33671,15 +33626,12 @@ $Lexicon->{'h t m'}[4]{'glosses'} = $Lexicon->{'h m m'}[14]{'glosses'};
 $Lexicon->{'h t m'}[5]{'types'} = $Lexicon->{'h m m'}[19]{'types'};
 $Lexicon->{'h t m'}[5]{'lines'} = $Lexicon->{'h m m'}[19]{'lines'};
 $Lexicon->{'h t m'}[5]{'glosses'} = $Lexicon->{'h m m'}[19]{'glosses'};
-$Lexicon->{'h w w'}[1]{'types'} = $Lexicon->{'h w y'}[2]{'types'};
-$Lexicon->{'h w w'}[1]{'lines'} = $Lexicon->{'h w y'}[2]{'lines'};
-$Lexicon->{'h w w'}[1]{'glosses'} = $Lexicon->{'h w y'}[2]{'glosses'};
-$Lexicon->{'h w w'}[3]{'types'} = $Lexicon->{'h w w'}[2]{'types'};
-$Lexicon->{'h w w'}[3]{'lines'} = $Lexicon->{'h w w'}[2]{'lines'};
-$Lexicon->{'h w w'}[3]{'glosses'} = $Lexicon->{'h w w'}[2]{'glosses'};
-$Lexicon->{'h w w'}[4]{'types'} = $Lexicon->{'h w \''}[3]{'types'};
-$Lexicon->{'h w w'}[4]{'lines'} = $Lexicon->{'h w \''}[3]{'lines'};
-$Lexicon->{'h w w'}[4]{'glosses'} = $Lexicon->{'h w \''}[3]{'glosses'};
+$Lexicon->{'h w w'}[2]{'types'} = $Lexicon->{'h w w'}[1]{'types'};
+$Lexicon->{'h w w'}[2]{'lines'} = $Lexicon->{'h w w'}[1]{'lines'};
+$Lexicon->{'h w w'}[2]{'glosses'} = $Lexicon->{'h w w'}[1]{'glosses'};
+$Lexicon->{'h w w'}[3]{'types'} = $Lexicon->{'h w \''}[3]{'types'};
+$Lexicon->{'h w w'}[3]{'lines'} = $Lexicon->{'h w \''}[3]{'lines'};
+$Lexicon->{'h w w'}[3]{'glosses'} = $Lexicon->{'h w \''}[3]{'glosses'};
 $Lexicon->{'h y m'}[8]{'types'} = $Lexicon->{'h \' m'}[0]{'types'};
 $Lexicon->{'h y m'}[8]{'lines'} = $Lexicon->{'h \' m'}[0]{'lines'};
 $Lexicon->{'h y m'}[8]{'glosses'} = $Lexicon->{'h \' m'}[0]{'glosses'};

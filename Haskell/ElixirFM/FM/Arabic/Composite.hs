@@ -25,6 +25,7 @@ import FM.Arabic.Build
 import FM.Arabic.Attr
 
 arabicDecompose :: [Attr] -> Bool
+arabicDecompose   [1,0] = True
 arabicDecompose   [x,y] = (x /= y) && atS == y
 arabicDecompose     [x] = True
 arabicDecompose      _  = False

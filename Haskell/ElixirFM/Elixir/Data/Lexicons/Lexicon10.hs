@@ -789,9 +789,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- rabAb -}            [ "rebec", "rabab (lute-like instrument played with a bow)" ],
 
-    FaCLAn |< Iy              `adj`     {- rab~Aniy~ -}        [ "divine", "divinities" ],
-
-    FaCLY                     `verb`    {- rab~aY -}           [ "raise", "grow", "be raised", "be grown" ] ]
+    FaCLAn |< Iy              `adj`     {- rab~Aniy~ -}        [ "divine", "divinities" ] ]
 
  |> "r b k" <| [
 
@@ -872,9 +870,7 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL                    `noun`    {- maroduwd -}         [ "yield", "returns", "revenue" ],
 
-    MaFCUL |< Iy |< aT        `noun`    {- maroduwdiy~ap -}    [ "profitability" ],
-
-    FaCLY                     `verb`    {- rad~aY -}           [ "make fall", "annihilate", "be struck down", "be annihilated" ] ]
+    MaFCUL |< Iy |< aT        `noun`    {- maroduwdiy~ap -}    [ "profitability" ] ]
 
  |> "r d f" <| [
 

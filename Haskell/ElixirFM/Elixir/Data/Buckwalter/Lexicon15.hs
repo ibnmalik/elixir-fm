@@ -332,20 +332,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADIS
                            {- `others`  [ ".da.hA.diy.h Ndip" ] -} ]
 
- |> ".d .h .h" <| [
-
-    -- ;; DaH~aY_1
-    -- DHY     DaH~aY  PV_0    sacrifice;immolate
-    -- DHA     DaH~A   PV_h    sacrifice;immolate
-    -- DHy     DaH~ay  PV_Atn  sacrifice;immolate
-    -- DH      DaH~    PV_ttAw sacrifice;immolate
-    -- DHy     DaH~iy  IV_0hAnn_yu     sacrifice;immolate
-    -- DH      DaH~    IV_0hwnyn_yu    sacrifice;immolate
-    -- DHY     DaH~aY  IV_0_Pass_yu    be sacrificed;be immolated
-    -- DHy     DaH~ay  IV_Ann_Pass_yu  be sacrificed;be immolated
-
-    FaCLY                     `verb`    {- DaH~aY -}           [ "sacrifice", "immolate", "be sacrificed", "be immolated" ] ]
-
  |> ".d .h k" <| [
 
     -- ;; DaHik-a_1
@@ -2839,19 +2825,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mutaDar~ir_1
     -- mtDrr   mutaDar~ir      N-ap    damaged     [[mutaDar~ir/ADJ]]
 
-    MutaFaCCiL                `adj`     {- mutaDar~ir -}       [ "damaged" ],
-
-    -- ;; Dar~aY_1
-    -- DrY     Dar~aY  PV_0    provoke;excite
-    -- DrA     Dar~A   PV_h    provoke;excite
-    -- Dry     Dar~ay  PV_Atn  provoke;excite
-    -- Dr      Dar~    PV_ttAw provoke;excite
-    -- Dry     Dar~iy  IV_0hAnn_yu     provoke;excite
-    -- Dr      Dar~    IV_0hwnyn_yu    provoke;excite
-    -- DrY     Dar~aY  IV_0_Pass_yu    be provoked;be excited
-    -- Dry     Dar~ay  IV_Ann_Pass_yu  be provoked;be excited
-
-    FaCLY                     `verb`    {- Dar~aY -}           [ "provoke", "excite", "be provoked", "be excited" ] ]
+    MutaFaCCiL                `adj`     {- mutaDar~ir -}       [ "damaged" ] ]
 
  |> ".d r s" <| [
 

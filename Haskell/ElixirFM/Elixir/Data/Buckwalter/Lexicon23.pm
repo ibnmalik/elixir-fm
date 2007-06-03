@@ -1589,60 +1589,6 @@ $Lexicon = {
       ],
       'orig' => 'talobiyb',
       'prefix' => ''
-    },
-    {
-      'types' => {
-        'labbiy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        'labb' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        'labbY' => {},
-        'labbA' => {
-          'PV_h' => 1
-        },
-        'labbay' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        }
-      },
-      'entry' => 'labbY',
-      'form' => 'labbY',
-      'lines' => [
-        ';; lab~aY_1',
-        'lbY     lab~aY  PV_0    comply with;carry out;respond to',
-        'lbA     lab~A   PV_h    comply with;carry out;respond to',
-        'lby     lab~ay  PV_Atn  comply with;carry out;respond to',
-        'lb      lab~    PV_ttAw comply with;carry out;respond to',
-        'lby     lab~iy  IV_0hAnn_yu     comply with;carry out;respond to',
-        'lb      lab~    IV_0hwnyn_yu    comply with;carry out;respond to',
-        'lbY     lab~aY  IV_0_Pass_yu    be complied with;be carried out;be responded to',
-        'lby     lab~ay  IV_Ann_Pass_yu  be complied with;be carried out;be responded to'
-      ],
-      'patterns' => {
-        'labbiy' => [
-          'FaCCI'
-        ],
-        'labb' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [
-        'comply with',
-        'carry out',
-        'respond to',
-        'be complied with',
-        'be carried out',
-        'be responded to'
-      ],
-      'orig' => 'lab~aY',
-      'prefix' => ''
     }
   ],
   'l \' m' => [
@@ -18255,10 +18201,36 @@ $Lexicon = {
   ],
   'l b y' => [
     {
-      'types' => {},
+      'types' => {
+        'labbiy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        'labb' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        'labbY' => {},
+        'labbA' => {
+          'PV_h' => 1
+        },
+        'labbay' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        }
+      },
       'entry' => 'labbY',
       'form' => 'labbY',
-      'lines' => [],
+      'lines' => [
+        ';; lab~aY_1',
+        'lbY     lab~aY  PV_0    comply with;carry out;respond to',
+        'lbA     lab~A   PV_h    comply with;carry out;respond to',
+        'lby     lab~ay  PV_Atn  comply with;carry out;respond to',
+        'lb      lab~    PV_ttAw comply with;carry out;respond to',
+        'lby     lab~iy  IV_0hAnn_yu     comply with;carry out;respond to',
+        'lb      lab~    IV_0hwnyn_yu    comply with;carry out;respond to',
+        'lbY     lab~aY  IV_0_Pass_yu    be complied with;be carried out;be responded to',
+        'lby     lab~ay  IV_Ann_Pass_yu  be complied with;be carried out;be responded to'
+      ],
       'patterns' => {
         'labbiy' => [
           'FaCCiL',
@@ -18272,7 +18244,14 @@ $Lexicon = {
       'entity' => 'verb',
       'morphs' => 'FaCCY',
       'suffix' => '',
-      'glosses' => [],
+      'glosses' => [
+        'comply with',
+        'carry out',
+        'respond to',
+        'be complied with',
+        'be carried out',
+        'be responded to'
+      ],
       'orig' => 'lab~aY',
       'prefix' => ''
     },
@@ -35929,29 +35908,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'l h h' => [
-    {
-      'types' => {},
-      'entry' => 'lahhY',
-      'form' => 'lahhY',
-      'lines' => [],
-      'patterns' => {
-        'lahhiy' => [
-          'FaCCI'
-        ],
-        'lahh' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'lah~aY',
-      'prefix' => ''
-    }
-  ],
   'l n n' => [
     {
       'types' => {
@@ -37930,27 +37886,6 @@ $Lexicon = {
       ],
       'orig' => 'luw',
       'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'lawwY',
-      'form' => 'lawwY',
-      'lines' => [],
-      'patterns' => {
-        'lawwiy' => [
-          'FaCCI'
-        ],
-        'laww' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCLY',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'law~aY',
-      'prefix' => ''
     }
   ],
   'liyuwbliyAn' => [
@@ -38019,9 +37954,6 @@ $Lexicon->{'l t _d'}[0]{'glosses'} = $Lexicon->{'l _d _d'}[4]{'glosses'};
 $Lexicon->{'l .g \''}[0]{'types'} = $Lexicon->{'l .g w'}[7]{'types'};
 $Lexicon->{'l .g \''}[0]{'lines'} = $Lexicon->{'l .g w'}[7]{'lines'};
 $Lexicon->{'l .g \''}[0]{'glosses'} = $Lexicon->{'l .g w'}[7]{'glosses'};
-$Lexicon->{'l b y'}[0]{'types'} = $Lexicon->{'l b b'}[11]{'types'};
-$Lexicon->{'l b y'}[0]{'lines'} = $Lexicon->{'l b b'}[11]{'lines'};
-$Lexicon->{'l b y'}[0]{'glosses'} = $Lexicon->{'l b b'}[11]{'glosses'};
 $Lexicon->{'l t ^g'}[0]{'types'} = $Lexicon->{'l ^g ^g'}[2]{'types'};
 $Lexicon->{'l t ^g'}[0]{'lines'} = $Lexicon->{'l ^g ^g'}[2]{'lines'};
 $Lexicon->{'l t ^g'}[0]{'glosses'} = $Lexicon->{'l ^g ^g'}[2]{'glosses'};
@@ -38135,15 +38067,9 @@ $Lexicon->{'l f f'}[20]{'glosses'} = $Lexicon->{'l t f'}[2]{'glosses'};
 $Lexicon->{'l f f'}[21]{'types'} = $Lexicon->{'l t f'}[3]{'types'};
 $Lexicon->{'l f f'}[21]{'lines'} = $Lexicon->{'l t f'}[3]{'lines'};
 $Lexicon->{'l f f'}[21]{'glosses'} = $Lexicon->{'l t f'}[3]{'glosses'};
-$Lexicon->{'l h h'}[0]{'types'} = $Lexicon->{'l h w'}[2]{'types'};
-$Lexicon->{'l h h'}[0]{'lines'} = $Lexicon->{'l h w'}[2]{'lines'};
-$Lexicon->{'l h h'}[0]{'glosses'} = $Lexicon->{'l h w'}[2]{'glosses'};
 $Lexicon->{'l m n'}[0]{'types'} = $Lexicon->{'l y m n'}[0]{'types'};
 $Lexicon->{'l m n'}[0]{'lines'} = $Lexicon->{'l y m n'}[0]{'lines'};
 $Lexicon->{'l m n'}[0]{'glosses'} = $Lexicon->{'l y m n'}[0]{'glosses'};
 $Lexicon->{'l m n'}[1]{'types'} = $Lexicon->{'l y m n'}[1]{'types'};
 $Lexicon->{'l m n'}[1]{'lines'} = $Lexicon->{'l y m n'}[1]{'lines'};
 $Lexicon->{'l m n'}[1]{'glosses'} = $Lexicon->{'l y m n'}[1]{'glosses'};
-$Lexicon->{'l w w'}[2]{'types'} = $Lexicon->{'l w y'}[2]{'types'};
-$Lexicon->{'l w w'}[2]{'lines'} = $Lexicon->{'l w y'}[2]{'lines'};
-$Lexicon->{'l w w'}[2]{'glosses'} = $Lexicon->{'l w y'}[2]{'glosses'};
