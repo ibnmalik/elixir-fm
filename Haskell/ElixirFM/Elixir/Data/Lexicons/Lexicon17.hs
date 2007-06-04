@@ -11,7 +11,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".z b y" <| [
 
-    FaCiL                     `noun`    {- Zabiy -}            [ "Dhabi" ] ]
+    FaCI                      `noun`    {- Zabiy -}            [ "Dhabi" ] ]
 
  |> ".z f r" <| [
 

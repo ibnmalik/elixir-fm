@@ -282,7 +282,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h .z y" <| [
 
-    FaCiL                     `verb`    {- HaZiy-a -}          [ "enjoy", "gain" ]
+    FaCI                      `verb`    {- HaZiy-a -}          [ "enjoy", "gain" ]
                               `imperf`     FCY ]
 
  |> ".h ^g ^g" <| [
@@ -430,12 +430,15 @@ lexicon = listing "Lexicon's properties"
 
     TaFACI                    `noun`    {- taHA$iy -}          [ "avoidance" ],
 
-    FACI |< aT                `noun`    {- HA$iyap -}          [ "margin", "edge", "retinue", "margins", "edges" ] ]
+    FACI |< aT                `noun`    {- HA$iyap -}          [ "margin", "edge", "retinue", "margins", "edges" ]
+                              `plural`     FawACI
+                           {- `others`  [ ".hawA^siy N0_Nh" ] -} ]
 
  |> ".h ^s y" <| [
 
-    FACiL |< aT               `noun`    {- HA$iyap -}          [ "margin", "edge", "retinue", "margins", "edges" ]
+    FACI |< aT                `noun`    {- HA$iyap -}          [ "margin", "edge", "retinue", "margins", "edges" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ ".hawA^siy N0_Nh" ] -} ]
 
  |> ".h _d '" <| [
@@ -468,7 +471,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h _d y" <| [
 
-    MuFACiL                   `noun`    {- muHA*iy -}          [ "opposite", "facing" ] ]
+    MuFACI                    `noun`    {- muHA*iy -}          [ "opposite", "facing" ] ]
 
  |> ".h _t _t" <| [
 
@@ -700,11 +703,11 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h d y" <| [
 
-    FACiL                     `adj`     {- HAdiy -}            [ "first (word in \"11th\", \"21st\", \"31st\", through \"91st\")" ],
+    FACI                      `adj`     {- HAdiy -}            [ "first (word in \"11th\", \"21st\", \"31st\", through \"91st\")" ],
 
-    FACiL                     `noun`    {- HAdiy -}            [ "leader", "cameleer", "leaders", "cameleers" ],
+    FACI                      `noun`    {- HAdiy -}            [ "leader", "cameleer", "leaders", "cameleers" ],
 
-    FACiL                     `noun`    {- HAdiy -}            [ "one" ] ]
+    FACI                      `noun`    {- HAdiy -}            [ "one" ] ]
 
  |> ".h f '" <| [
 
@@ -1059,8 +1062,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h l w" <| [
 
-    FaCuL                     `verb`    {- Haluw-u -}          [ "be sweet", "be pleasant" ]
-                              `imperf`     FCuL
+    FaCU                      `verb`    {- Haluw-u -}          [ "be sweet", "be pleasant" ]
                               `imperf`     FCU
                            {- `others`  [ ".halA PV" ] -},
 
@@ -1088,7 +1090,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Haloy -}            [ "jewelry" ],
 
-    TaFCiL |< aT              `noun`    {- taHoliyap -}        [ "decoration", "sweetening" ] ]
+    TaFCI |< aT               `noun`    {- taHoliyap -}        [ "decoration", "sweetening" ] ]
 
  |> ".h l y b" <| [
 
@@ -1262,13 +1264,13 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCA'                   `noun`    {- AiHotimA' -}        [ "seeking cover", "shelter", "shelters" ],
 
-    FACiL                     `noun`    {- HAmiy -}            [ "heated", "passionate", "burning" ],
+    FACI                      `noun`    {- HAmiy -}            [ "heated", "passionate", "burning" ],
 
-    FACiL                     `noun`    {- HAmiy -}            [ "protector", "patron", "protectors", "patrons" ],
+    FACI                      `noun`    {- HAmiy -}            [ "protector", "patron", "protectors", "patrons" ],
 
     MaFCIy                    `adj`     {- maHomiy~ -}         [ "protected", "protectorate" ],
 
-    MuFACiL                   `noun`    {- muHAmiy -}          [ "lawyer", "defense counsel", "lawyers" ] ]
+    MuFACI                    `noun`    {- muHAmiy -}          [ "lawyer", "defense counsel", "lawyers" ] ]
 
  |> ".h m z" <| [
 
@@ -2080,7 +2082,7 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCY                    `verb`    {- AiHotawaY -}        [ "contain", "include" ],
 
-    FACiL                     `noun`    {- HAwiy -}            [ "magician", "juggler", "magicians", "jugglers" ],
+    FACI                      `noun`    {- HAwiy -}            [ "magician", "juggler", "magicians", "jugglers" ],
 
     IFtiCA'                   `noun`    {- AiHotiwA' -}        [ "inclusion", "content" ],
 
@@ -2201,7 +2203,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCA'
                            {- `others`  [ "'a.hyA' Nh N0_Nh Nhy" ] -},
 
-    MuFCiL                    `noun`    {- muHoyiy -}          [ "Muhi" ],
+    MuFCI                     `noun`    {- muHoyiy -}          [ "Muhi" ],
 
     FaCL                      `noun`    {- Hay~ -}             [ "quarter", "district", "quarters", "districts" ]
                               `plural`     HaFCA'

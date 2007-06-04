@@ -167,7 +167,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "r .d y" <| [
 
-    FaCiL                     `verb`    {- raDiy-a -}          [ "be pleased", "agree", "approve" ]
+    FaCI                      `verb`    {- raDiy-a -}          [ "be pleased", "agree", "approve" ]
                               `imperf`     FCY,
 
     HaFCY                     `verb`    {- OaroDaY -}          [ "satisfy", "please", "be satisfied", "be pleased" ],
@@ -180,9 +180,9 @@ lexicon = listing "Lexicon's properties"
 
     HiFCA'                    `noun`    {- IiroDA' -}          [ "satisfaction", "fulfillment" ],
 
-    FACiL                     `adj`     {- rADiy -}            [ "pleased", "accepting", "consenting" ],
+    FACI                      `adj`     {- rADiy -}            [ "pleased", "accepting", "consenting" ],
 
-    MuFCiL                    `adj`     {- muroDiy -}          [ "satisfactory", "pleasing", "sufficient" ],
+    MuFCI                     `adj`     {- muroDiy -}          [ "satisfactory", "pleasing", "sufficient" ],
 
     MuFtaCY                   `noun`    {- murotaDaY -}        [ "Murtada" ] ]
 
@@ -490,7 +490,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "r ^g y" <| [
 
-    FACiL                     `adj`     {- rAjiy -}            [ "hoping", "full of hope" ] ]
+    FACI                      `adj`     {- rAjiy -}            [ "hoping", "full of hope" ] ]
 
  |> "r ^s .h" <| [
 
@@ -661,7 +661,7 @@ lexicon = listing "Lexicon's properties"
     MuFACY |< aT              `noun`    {- murAEAp -}          [ "compliance", "observance", "deference" ]
                               `plural`     MuFACaL |< At,
 
-    FACiL                     `noun`    {- rAEiy -}            [ "guardian", "patron", "sponsor", "guardians", "patrons", "sponsors" ]
+    FACI                      `noun`    {- rAEiy -}            [ "guardian", "patron", "sponsor", "guardians", "patrons", "sponsors" ]
                               `plural`     FuCA'
                               `plural`     FuCLAn
                            {- `others`  [ "ru`A' Nh N0_Nh Nhy", "ru`yAn N" ] -},
@@ -810,11 +810,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "r b w" <| [
 
-    FaCCY                     `verb`    {- rab~aY -}           [ "raise", "grow", "be raised", "be grown" ] ]
+    FaCCY                     `verb`    {- rab~aY -}           [ "raise", "grow", "be raised", "be grown" ],
+
+    TaFCI |< aT               `noun`    {- tarobiyap -}        [ "education", "pedagogy", "breeding" ] ]
 
  |> "r b y" <| [
 
-    TaFCiL |< aT              `noun`    {- tarobiyap -}        [ "education", "pedagogy", "breeding" ] ]
+    TaFCI |< aT               `noun`    {- tarobiyap -}        [ "education", "pedagogy", "breeding" ] ]
 
  |> "r d '" <| [
 
@@ -899,7 +901,7 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCA'                   `noun`    {- AirotidA' -}        [ "wearing", "putting on" ],
 
-    MutaFaCCiL                `noun`    {- mutarad~iy -}       [ "deteriorating", "worsened" ],
+    MutaFaCCI                 `noun`    {- mutarad~iy -}       [ "deteriorating", "worsened" ],
 
     FUCI                      `noun`    {- ruwdiy -}           [ "Rudi" ] ]
 
@@ -1210,7 +1212,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- rAliy -}            [ "rally" ],
 
-    FACiL                     `noun`    {- rAliy -}            [ "rally" ] ]
+    FACI                      `noun`    {- rAliy -}            [ "rally" ] ]
 
  |> "r m .d" <| [
 
@@ -1271,13 +1273,13 @@ lexicon = listing "Lexicon's properties"
 
     MaFCY                     `noun`    {- maromaY -}          [ "goal", "purpose", "target" ],
 
-    FACiL                     `noun`    {- rAmiy -}            [ "aimed (at)", "attempting (to)" ],
+    FACI                      `noun`    {- rAmiy -}            [ "aimed (at)", "attempting (to)" ],
 
-    FACiL                     `noun`    {- rAmiy -}            [ "throwing", "thrower", "rifleman", "archer", "throwers", "riflemen", "archers" ],
+    FACI                      `noun`    {- rAmiy -}            [ "throwing", "thrower", "rifleman", "archer", "throwers", "riflemen", "archers" ],
 
-    FACiL                     `noun`    {- rAmiy -}            [ "Sagittarius" ],
+    FACI                      `noun`    {- rAmiy -}            [ "Sagittarius" ],
 
-    MutaFACiL                 `adj`     {- mutarAmiy -}        [ "wide", "extensive" ] ]
+    MutaFACI                  `adj`     {- mutarAmiy -}        [ "wide", "extensive" ] ]
 
  |> "r m z" <| [
 
@@ -1421,7 +1423,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "r q y" <| [
 
-    FaCiL                     `verb`    {- raqiy-a -}          [ "ascend", "rise", "promote" ]
+    FaCI                      `verb`    {- raqiy-a -}          [ "ascend", "rise", "promote" ]
                               `imperf`     FCY,
 
     IFtaCY                    `verb`    {- AirotaqaY -}        [ "ascend", "increase", "rise" ],
@@ -1430,13 +1432,13 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCaL
                            {- `others`  [ "'arqay NAn_Nayn" ] -},
 
-    TaFCiL |< aT              `noun`    {- taroqiyap -}        [ "promotion", "advancement", "elevation" ],
+    TaFCI |< aT               `noun`    {- taroqiyap -}        [ "promotion", "advancement", "elevation" ],
 
     IFtiCA'                   `noun`    {- AirotiqA' -}        [ "ascent", "advancement", "progress", "evolution", "ascents", "advancements" ],
 
-    FACiL                     `adj`     {- rAqiy -}            [ "ascending", "advanced" ],
+    FACI                      `adj`     {- rAqiy -}            [ "ascending", "advanced" ],
 
-    FACiL                     `noun`    {- rAqiy -}            [ "sorcerer", "sorcerers" ] ]
+    FACI                      `noun`    {- rAqiy -}            [ "sorcerer", "sorcerers" ] ]
 
  |> "r s '" <| [
 
@@ -1540,12 +1542,15 @@ lexicon = listing "Lexicon's properties"
 
     HiFCA'                    `noun`    {- IirosA' -}          [ "anchorage" ],
 
-    FACI                      `adj`     {- rAsiy -}            [ "immovable", "anchored", "moored" ] ]
+    FACI                      `adj`     {- rAsiy -}            [ "immovable", "anchored", "moored" ]
+                              `plural`     FawACI
+                           {- `others`  [ "rawAsiy N0_Nh" ] -} ]
 
  |> "r s y" <| [
 
-    FACiL                     `adj`     {- rAsiy -}            [ "immovable", "anchored", "moored" ]
+    FACI                      `adj`     {- rAsiy -}            [ "immovable", "anchored", "moored" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "rawAsiy N0_Nh" ] -} ]
 
  |> "r t b" <| [
@@ -1799,7 +1804,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCA' |< Iy               `adj`     {- riwA}iy~ -}         [ "novelist", "narrator" ],
 
-    FACiL                     `noun`    {- rAwiy -}            [ "narrator", "storyteller", "narrators", "storytellers" ],
+    FACI                      `noun`    {- rAwiy -}            [ "narrator", "storyteller", "narrators", "storytellers" ],
 
     MaFCIy |< At              `noun`    {- marowiy~At -}       [ "tales", "stories", "reports" ]
                               `plural`     MaFCIy |< At ]

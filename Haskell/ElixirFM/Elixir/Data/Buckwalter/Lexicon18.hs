@@ -379,6 +379,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCA'
                            {- `others`  [ "'a`.dA' Nh N0_Nh Nhy" ] -},
 
+    -- ;; taEoDiyap_1
+    -- tEDy    taEoDiy Nap     forming groups;reproducing by spitting
+
+    TaFCI |< aT               `noun`    {- taEoDiyap -}        [ "forming groups", "reproducing by spitting" ],
+
     -- ;; muEaD~iy_1
     -- mEDy    muEaD~iy        N0F_Nh  fissiparous (reproducing by spitting)     [[muEaD~iy/ADJ]]
     -- mED     muEaD~  NK      fissiparous (reproducing by spitting)
@@ -404,7 +409,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taEoDiyap_1
     -- tEDy    taEoDiy Nap     forming groups;reproducing by spitting
 
-    TaFCiL |< aT              `noun`    {- taEoDiyap -}        [ "forming groups", "reproducing by spitting" ],
+    TaFCI |< aT               `noun`    {- taEoDiyap -}        [ "forming groups", "reproducing by spitting" ],
 
     -- ;; muEaD~iy_1
     -- mEDy    muEaD~iy        N0F_Nh  fissiparous (reproducing by spitting)     [[muEaD~iy/ADJ]]
@@ -412,7 +417,7 @@ lexicon = listing "Lexicon's properties"
     -- mEDy    muEaD~iy        NAn_Nayn        fissiparous (reproducing by spitting)
     -- mEDy    muEaD~iy        Napdu   fissiparous (reproducing by spitting)
 
-    MuFaCCiL                  `adj`     {- muEaD~iy -}         [ "fissiparous (reproducing by spitting)" ] ]
+    MuFaCCI                   `adj`     {- muEaD~iy -}         [ "fissiparous (reproducing by spitting)" ] ]
 
  |> "` .s '" <| [
 
@@ -1135,7 +1140,7 @@ lexicon = listing "Lexicon's properties"
     -- mEASy   maEASiy N0_Nh   insubordination;rebellions
     -- mEAS    maEAS   NK      insubordination;rebellions
 
-    MaFCiL |< aT              `noun`    {- maEoSiyap -}        [ "insubordination", "rebellion", "rebellions" ]
+    MaFCI |< aT               `noun`    {- maEoSiyap -}        [ "insubordination", "rebellion", "rebellions" ]
                               `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "ma`A.siy N0_Nh" ] -},
@@ -1143,7 +1148,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; maEoSiyap_2
     -- mESy    maEoSiy Nap     disobedience;sin
 
-    MaFCiL |< aT              `noun`    {- maEoSiyap -}        [ "disobedience", "sin" ],
+    MaFCI |< aT               `noun`    {- maEoSiyap -}        [ "disobedience", "sin" ],
 
     -- ;; {isotiEoSA'_1
     -- <stESA' {isotiEoSA'     N0_Nh   obstinacy;difficulty
@@ -1181,17 +1186,17 @@ lexicon = listing "Lexicon's properties"
     -- EASy    EASiy   NapAt   rebellious;insubordinate
     -- ESA     EuSA    Nap     rebellious;insubordinate
 
-    FACiL                     `adj`     {- EASiy -}            [ "rebellious", "insubordinate" ],
+    FACI                      `adj`     {- EASiy -}            [ "rebellious", "insubordinate" ],
 
     -- ;; EASiy_2
     -- EASy    EASiy   N0      Orontes
 
-    FACiL                     `noun`    {- EASiy -}            [ "Orontes" ],
+    FACI                      `noun`    {- EASiy -}            [ "Orontes" ],
 
     -- ;; EASiy_3
     -- EASy    EASiy   N0      Assi
 
-    FACiL                     `noun`    {- EASiy -}            [ "Assi" ],
+    FACI                      `noun`    {- EASiy -}            [ "Assi" ],
 
     -- ;; mutaEaS~iy_1
     -- mtESy   mutaEaS~iy      N0F_Nh  difficult;incurable     [[mutaEaS~iy/ADJ]]
@@ -1200,7 +1205,7 @@ lexicon = listing "Lexicon's properties"
     -- mtES    mutaEaS~        Nuwn_Niyn       difficult;incurable
     -- mtESy   mutaEaS~iy      NapAt   difficult;incurable
 
-    MutaFaCCiL                `adj`     {- mutaEaS~iy -}       [ "difficult", "incurable" ],
+    MutaFaCCI                 `adj`     {- mutaEaS~iy -}       [ "difficult", "incurable" ],
 
     -- ;; musotaEoSiy_1
     -- mstESy  musotaEoSiy     N0F_Nh  difficult;incurable     [[musotaEoSiy/ADJ]]
@@ -1209,7 +1214,7 @@ lexicon = listing "Lexicon's properties"
     -- mstES   musotaEoS       Nuwn_Niyn       difficult;incurable
     -- mstESy  musotaEoSiy     NapAt   difficult;incurable
 
-    MustaFCiL                 `adj`     {- musotaEoSiy -}      [ "difficult", "incurable" ] ]
+    MustaFCI                  `adj`     {- musotaEoSiy -}      [ "difficult", "incurable" ] ]
 
  |> "` .t '" <| [
 
@@ -2023,7 +2028,7 @@ lexicon = listing "Lexicon's properties"
     -- mET     muEoT   Nuwn_Niyn       donor;giving
     -- mETy    muEoTiy NapAt   donor;giving
 
-    MuFCiL                    `noun`    {- muEoTiy -}          [ "donor", "giving" ],
+    MuFCI                     `noun`    {- muEoTiy -}          [ "donor", "giving" ],
 
     -- ;; muEoTaY_1
     -- mETY    muEoTaY N0      given
@@ -2048,7 +2053,7 @@ lexicon = listing "Lexicon's properties"
     -- mtEAT   mutaEAT Nuwn_Niyn       addict;habitual user
     -- mtEATy  mutaEATiy       NapAt   addict;habitual user
 
-    MutaFACiL                 `noun`    {- mutaEATiy -}        [ "addict", "habitual user" ],
+    MutaFACI                  `noun`    {- mutaEATiy -}        [ "addict", "habitual user" ],
 
     -- ;; musotaEoTiy_1
     -- mstETy  musotaEoTiy     N0F_Nh  beggar;mendicant
@@ -2057,7 +2062,7 @@ lexicon = listing "Lexicon's properties"
     -- mstET   musotaEoT       Nuwn_Niyn       beggars;mendicants
     -- mstETy  musotaEoTiy     NapAt   beggar;mendicant
 
-    MustaFCiL                 `noun`    {- musotaEoTiy -}      [ "beggar", "mendicant", "beggars", "mendicants" ] ]
+    MustaFCI                  `noun`    {- musotaEoTiy -}      [ "beggar", "mendicant", "beggars", "mendicants" ] ]
 
  |> "` .z '" <| [
 
@@ -3498,7 +3503,8 @@ lexicon = listing "Lexicon's properties"
     -- E$y     Eo$ay   IV_Ann  be night-blind
     -- E$      Eo$a    IV_0hwnyn       be night-blind
 
-    FaCI                      `verb`    {- Ea$iy-a -}          [ "be night-blind" ],
+    FaCI                      `verb`    {- Ea$iy-a -}          [ "be night-blind" ]
+                              `imperf`     FCY,
 
     -- ;; Ea$~aY_1
     -- E$Y     Ea$~aY  PV_0    give dinner
@@ -3604,7 +3610,7 @@ lexicon = listing "Lexicon's properties"
     -- E$y     Eo$ay   IV_Ann  be night-blind
     -- E$      Eo$a    IV_0hwnyn       be night-blind
 
-    FaCiL                     `verb`    {- Ea$iy-a -}          [ "be night-blind" ]
+    FaCI                      `verb`    {- Ea$iy-a -}          [ "be night-blind" ]
                               `imperf`     FCY,
 
     -- ;; Ea$iy~ap_1
@@ -3878,7 +3884,8 @@ lexicon = listing "Lexicon's properties"
     -- E*y     Eo*ay   IV_Ann  be healthy
     -- E*      Eo*a    IV_0hwnyn       be healthy
 
-    FaCI                      `verb`    {- Ea*iy-a -}          [ "be healthy" ],
+    FaCI                      `verb`    {- Ea*iy-a -}          [ "be healthy" ]
+                              `imperf`     FCY,
 
     -- ;; Ea*Ap_1
     -- E*A     Ea*A    Nap     healthfulness;salubrity
@@ -3899,7 +3906,7 @@ lexicon = listing "Lexicon's properties"
     -- E*y     Eo*ay   IV_Ann  be healthy
     -- E*      Eo*a    IV_0hwnyn       be healthy
 
-    FaCiL                     `verb`    {- Ea*iy-a -}          [ "be healthy" ]
+    FaCI                      `verb`    {- Ea*iy-a -}          [ "be healthy" ]
                               `imperf`     FCY,
 
     -- ;; Ea*iy~_1
@@ -5619,6 +5626,11 @@ lexicon = listing "Lexicon's properties"
 
     MaFACI                    `noun`    {- maEAdiy -}          [ "Maadi (Cairo)" ],
 
+    -- ;; taEodiyap_1
+    -- tEdy    taEodiy Nap     ferry service;shuttle
+
+    TaFCI |< aT               `noun`    {- taEodiyap -}        [ "ferry service", "shuttle" ],
+
     -- ;; taEad~iy_1
     -- tEdy    taEad~iy        N0_Nh   crossing
     -- tEd     taEad~  NK      crossing
@@ -5673,14 +5685,18 @@ lexicon = listing "Lexicon's properties"
     -- EwAdy   EawAdiy N0_Nh   aggressive;hostile
     -- EwAd    EawAd   NK      aggressive;hostile
 
-    FACI                      `adj`     {- EAdiy -}            [ "aggressive", "hostile" ],
+    FACI                      `adj`     {- EAdiy -}            [ "aggressive", "hostile" ]
+                              `plural`     FawACI
+                           {- `others`  [ "`awAdiy N0_Nh" ] -},
 
     -- ;; EAdiyap_1
     -- EAdy    EAdiy   NapAt   adversity;impediment
     -- EwAdy   EawAdiy N0_Nh   adversities;impediments
     -- EwAd    EawAd   NK      adversities;impediments
 
-    FACI |< aT                `noun`    {- EAdiyap -}          [ "adversity", "impediment", "adversities", "impediments" ],
+    FACI |< aT                `noun`    {- EAdiyap -}          [ "adversity", "impediment", "adversities", "impediments" ]
+                              `plural`     FawACI
+                           {- `others`  [ "`awAdiy N0_Nh" ] -},
 
     -- ;; muEad~iyap_1
     -- mEdy    muEad~iy        NapAt   ferry;boat
@@ -5741,17 +5757,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; maEodiyap_1
     -- mEdy    maEodiy NapAt   ferryboat;shuttle
 
-    MaFCiL |< aT              `noun`    {- maEodiyap -}        [ "ferryboat", "shuttle" ],
+    MaFCI |< aT               `noun`    {- maEodiyap -}        [ "ferryboat", "shuttle" ],
 
     -- ;; maEAdiy_1
     -- mEAdy   maEAdiy N0_Nh   Maadi (Cairo)
 
-    MaFACiL                   `noun`    {- maEAdiy -}          [ "Maadi (Cairo)" ],
+    MaFACI                    `noun`    {- maEAdiy -}          [ "Maadi (Cairo)" ],
 
     -- ;; taEodiyap_1
     -- tEdy    taEodiy Nap     ferry service;shuttle
 
-    TaFCiL |< aT              `noun`    {- taEodiyap -}        [ "ferry service", "shuttle" ],
+    TaFCI |< aT               `noun`    {- taEodiyap -}        [ "ferry service", "shuttle" ],
 
     -- ;; EAdiy_1
     -- EAdy    EAdiy   N0F     aggressive;hostile     [[EAdiy/ADJ]]
@@ -5762,8 +5778,9 @@ lexicon = listing "Lexicon's properties"
     -- EwAdy   EawAdiy N0_Nh   aggressive;hostile
     -- EwAd    EawAd   NK      aggressive;hostile
 
-    FACiL                     `adj`     {- EAdiy -}            [ "aggressive", "hostile" ]
+    FACI                      `adj`     {- EAdiy -}            [ "aggressive", "hostile" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "`awAdiy N0_Nh" ] -},
 
     -- ;; EAdiyap_1
@@ -5771,14 +5788,15 @@ lexicon = listing "Lexicon's properties"
     -- EwAdy   EawAdiy N0_Nh   adversities;impediments
     -- EwAd    EawAd   NK      adversities;impediments
 
-    FACiL |< aT               `noun`    {- EAdiyap -}          [ "adversity", "impediment", "adversities", "impediments" ]
+    FACI |< aT                `noun`    {- EAdiyap -}          [ "adversity", "impediment", "adversities", "impediments" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "`awAdiy N0_Nh" ] -},
 
     -- ;; muEad~iyap_1
     -- mEdy    muEad~iy        NapAt   ferry;boat
 
-    MuFaCCiL |< aT            `noun`    {- muEad~iyap -}       [ "ferry", "boat" ],
+    MuFaCCI |< aT             `noun`    {- muEad~iyap -}       [ "ferry", "boat" ],
 
     -- ;; muEAdiy_1
     -- mEAdy   muEAdiy N0F_Nh  hostile;anti-     [[muEAdiy/ADJ]]
@@ -5787,7 +5805,7 @@ lexicon = listing "Lexicon's properties"
     -- mEAd    muEAd   Nuwn_Niyn       hostile;anti-
     -- mEAdy   muEAdiy NapAt   hostile;anti-
 
-    MuFACiL                   `adj`     {- muEAdiy -}          [ "hostile", "anti-" ],
+    MuFACI                    `adj`     {- muEAdiy -}          [ "hostile", "anti-" ],
 
     -- ;; muEodiy_1
     -- mEdy    muEodiy N0F_Nh  contagious;infectious     [[muEodiy/ADJ]]
@@ -5796,7 +5814,7 @@ lexicon = listing "Lexicon's properties"
     -- mEd     muEod   Nuwn_Niyn       contagious;infectious
     -- mEdy    muEodiy NapAt   contagious;infectious
 
-    MuFCiL                    `adj`     {- muEodiy -}          [ "contagious", "infectious" ],
+    MuFCI                     `adj`     {- muEodiy -}          [ "contagious", "infectious" ],
 
     -- ;; mutaEad~iy_1
     -- mtEdy   mutaEad~iy      N0F_Nh  aggressor;assailant
@@ -5810,7 +5828,7 @@ lexicon = listing "Lexicon's properties"
     -- mEtd    muEotad Nuwn_Niyn       aggressor;assailant
     -- mEtdy   muEotadiy       NapAt   aggressor;assailant
 
-    MutaFaCCiL                `noun`    {- mutaEad~iy -}       [ "aggressor", "assailant" ]
+    MutaFaCCI                 `noun`    {- mutaEad~iy -}       [ "aggressor", "assailant" ]
                               `plural`     MuFtaCiL |< At
                               `plural`     MuFtaCI |< At
                            {- `others`  [ "mu`tadiy NAn_Nayn N0_Nh" ] -} ]
@@ -6258,6 +6276,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- EafA' -}            [ "extinction", "disuse" ],
 
+    -- ;; taEofiyap_1
+    -- tEfy    taEofiy NapAt   effacement;obliteration
+
+    TaFCI |< aT               `noun`    {- taEofiyap -}        [ "effacement", "obliteration" ],
+
     -- ;; muEAfAp_1
     -- mEAfA   muEAfA  Napdu   exemption;pardon
     -- mEAfy   muEAfay NAt     exemptions;pardons
@@ -6376,7 +6399,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taEofiyap_1
     -- tEfy    taEofiy NapAt   effacement;obliteration
 
-    TaFCiL |< aT              `noun`    {- taEofiyap -}        [ "effacement", "obliteration" ],
+    TaFCI |< aT               `noun`    {- taEofiyap -}        [ "effacement", "obliteration" ],
 
     -- ;; EAfiy_1
     -- EAfy    EAfiy   N0F     effaced;obliterated     [[EAfiy/ADJ]]
@@ -6385,12 +6408,12 @@ lexicon = listing "Lexicon's properties"
     -- EAf     EAf     Nuwn_Niyn       effaced;obliterated
     -- EAfy    EAfiy   NapAt   effaced;obliterated
 
-    FACiL                     `adj`     {- EAfiy -}            [ "effaced", "obliterated" ],
+    FACI                      `adj`     {- EAfiy -}            [ "effaced", "obliterated" ],
 
     -- ;; EAfiyap_1
     -- EAfy    EAfiy   Nap     good health
 
-    FACiL |< aT               `noun`    {- EAfiyap -}          [ "good health" ],
+    FACI |< aT                `noun`    {- EAfiyap -}          [ "good health" ],
 
     -- ;; mutaEAfiy_1
     -- mtEAfy  mutaEAfiy       N0F_Nh  recovered;cured     [[mutaEAfiy/ADJ]]
@@ -6399,7 +6422,7 @@ lexicon = listing "Lexicon's properties"
     -- mtEAf   mutaEAf Nuwn_Niyn       recovered;cured
     -- mtEAfy  mutaEAfiy       NapAt   recovered;cured
 
-    MutaFACiL                 `adj`     {- mutaEAfiy -}        [ "recovered", "cured" ] ]
+    MutaFACI                  `adj`     {- mutaEAfiy -}        [ "recovered", "cured" ] ]
 
  |> "` h d" <| [
 
@@ -7917,6 +7940,11 @@ lexicon = listing "Lexicon's properties"
 
     MaFACI                    `noun`    {- maEAliy -}          [ "Ma'ale" ],
 
+    -- ;; taEoliyap_1
+    -- tEly    taEoliy Nap     raising;elevation
+
+    TaFCI |< aT               `noun`    {- taEoliyap -}        [ "raising", "elevation" ],
+
     -- ;; <iEolA'_1
     -- <ElA'   <iEolA' N0_Nh   raising;lifting
     -- AElA'   <iEolA' N0_Nh   raising;lifting
@@ -7971,7 +7999,9 @@ lexicon = listing "Lexicon's properties"
     -- EwAly   EawAliy N0_Nh   uphill slopes;upstream
     -- EwAl    EawAl   NK      uphill slopes;upstream
 
-    FACI |< aT                `noun`    {- EAliyap -}          [ "uphill slope", "upstream", "uphill slopes" ],
+    FACI |< aT                `noun`    {- EAliyap -}          [ "uphill slope", "upstream", "uphill slopes" ]
+                              `plural`     FawACI
+                           {- `others`  [ "`awAliy N0_Nh" ] -},
 
     -- ;; muEal~aY_1
     -- mElY    muEal~aY        N0      raised     [[muEal~aY/ADJ]]
@@ -8048,12 +8078,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; maEAliy_1
     -- mEAly   maEAliy Nprop   Ma'ale
 
-    MaFACiL                   `noun`    {- maEAliy -}          [ "Ma'ale" ],
+    MaFACI                    `noun`    {- maEAliy -}          [ "Ma'ale" ],
 
     -- ;; taEoliyap_1
     -- tEly    taEoliy Nap     raising;elevation
 
-    TaFCiL |< aT              `noun`    {- taEoliyap -}        [ "raising", "elevation" ],
+    TaFCI |< aT               `noun`    {- taEoliyap -}        [ "raising", "elevation" ],
 
     -- ;; EAliy_1
     -- EAly    EAliy   N0F     high;elevated     [[EAliy/ADJ]]
@@ -8062,15 +8092,16 @@ lexicon = listing "Lexicon's properties"
     -- EAl     EAl     Nuwn_Niyn       high;elevated
     -- EAly    EAliy   NapAt   high;elevated
 
-    FACiL                     `adj`     {- EAliy -}            [ "high", "elevated" ],
+    FACI                      `adj`     {- EAliy -}            [ "high", "elevated" ],
 
     -- ;; EAliyap_1
     -- EAly    EAliy   Napdu   uphill slope;upstream
     -- EwAly   EawAliy N0_Nh   uphill slopes;upstream
     -- EwAl    EawAl   NK      uphill slopes;upstream
 
-    FACiL |< aT               `noun`    {- EAliyap -}          [ "uphill slope", "upstream", "uphill slopes" ]
+    FACI |< aT                `noun`    {- EAliyap -}          [ "uphill slope", "upstream", "uphill slopes" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "`awAliy N0_Nh" ] -},
 
     -- ;; mutaEAliy_1
@@ -8080,7 +8111,7 @@ lexicon = listing "Lexicon's properties"
     -- mtEAl   mutaEAl Nuwn_Niyn       high;exalted
     -- mtEAly  mutaEAliy       NapAt   high;exalted
 
-    MutaFACiL                 `adj`     {- mutaEAliy -}        [ "high", "exalted" ],
+    MutaFACI                  `adj`     {- mutaEAliy -}        [ "high", "exalted" ],
 
     -- ;; musotaEoliy_1
     -- mstEly  musotaEoliy     N0F_Nh  rising;lofty     [[musotaEoliy/ADJ]]
@@ -8088,7 +8119,7 @@ lexicon = listing "Lexicon's properties"
     -- mstEly  musotaEoliy     NAn_Nayn        rising;lofty
     -- mstEly  musotaEoliy     Napdu   rising;lofty
 
-    MustaFCiL                 `adj`     {- musotaEoliy -}      [ "rising", "lofty" ] ]
+    MustaFCI                  `adj`     {- musotaEoliy -}      [ "rising", "lofty" ] ]
 
  |> "` l y '" <| [
 
@@ -9032,7 +9063,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; EAmiy_1
     -- EAmy    EAmiy   Nprop   Ami
 
-    FACiL                     `noun`    {- EAmiy -}            [ "Ami" ],
+    FACI                      `noun`    {- EAmiy -}            [ "Ami" ],
 
     -- ;; Eamiy-a_1
     -- Emy     Eamiy   PV_no-w_intr    be blind;be obscure
@@ -9041,7 +9072,7 @@ lexicon = listing "Lexicon's properties"
     -- Emy     Eomay   IV_Ann  be blind;be obscure
     -- Em      Eoma    IV_0hwnyn       be blind;be obscure
 
-    FaCiL                     `verb`    {- Eamiy-a -}          [ "be blind", "be obscure" ]
+    FaCI                      `verb`    {- Eamiy-a -}          [ "be blind", "be obscure" ]
                               `imperf`     FCY,
 
     -- ;; Eam~aY_1
@@ -9155,7 +9186,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taEomiyap_1
     -- tEmy    taEomiy NapAt   camouflage
 
-    TaFCiL |< aT              `noun`    {- taEomiyap -}        [ "camouflage" ],
+    TaFCI |< aT               `noun`    {- taEomiyap -}        [ "camouflage" ],
 
     -- ;; taEAmiy_1
     -- tEAmy   taEAmiy N0_Nh   blindness
@@ -9903,7 +9934,7 @@ lexicon = listing "Lexicon's properties"
     -- EAn     EAn     Nuwn_Niyn       subservient;distressed
     -- EAny    EAniy   NapAt   subservient;distressed
 
-    FACiL                     `adj`     {- EAniy -}            [ "subservient", "distressed" ],
+    FACI                      `adj`     {- EAniy -}            [ "subservient", "distressed" ],
 
     -- ;; EanaY-i_1
     -- EnY     EanaY   PV_0    mean;signify;concern
@@ -10035,7 +10066,7 @@ lexicon = listing "Lexicon's properties"
     -- mEAn    muEAn   Nuwn_Niyn       suffering
     -- mEAny   muEAniy NapAt   suffering
 
-    MuFACiL                   `adj`     {- muEAniy -}          [ "suffering" ],
+    MuFACI                    `adj`     {- muEAniy -}          [ "suffering" ],
 
     -- ;; muEotaniy_1
     -- mEtny   muEotaniy       N0_Nh   concerned;attentive     [[muEotaniy/ADJ]]
@@ -10044,7 +10075,7 @@ lexicon = listing "Lexicon's properties"
     -- mEtn    muEotan Nuwn_Niyn       concerned;attentive
     -- mEtny   muEotaniy       NapAt   concerned;attentive
 
-    MuFtaCiL                  `adj`     {- muEotaniy -}        [ "concerned", "attentive" ],
+    MuFtaCI                   `adj`     {- muEotaniy -}        [ "concerned", "attentive" ],
 
     -- ;; muEotanaY_1
     -- mEtnY   muEotanaY       N0      conscientious;attentive     [[muEotanaY/ADJ]]
@@ -12614,7 +12645,7 @@ lexicon = listing "Lexicon's properties"
     -- Ery     Eoray   IV_Ann  be nude;be bare
     -- Er      Eora    IV_0hwnyn       be nude;be bare
 
-    FaCiL                     `verb`    {- Eariy-a -}          [ "be nude", "be bare" ]
+    FaCI                      `verb`    {- Eariy-a -}          [ "be nude", "be bare" ]
                               `imperf`     FCY,
 
     -- ;; Ear~aY_1
@@ -12676,7 +12707,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taEoriyap_1
     -- tEry    taEoriy Nap     uncovering;exposure;unveiling
 
-    TaFCiL |< aT              `noun`    {- taEoriyap -}        [ "uncovering", "exposure", "unveiling" ],
+    TaFCI |< aT               `noun`    {- taEoriyap -}        [ "uncovering", "exposure", "unveiling" ],
 
     -- ;; taEar~iy_1
     -- tEry    taEar~iy        N0_Nh   nudity
@@ -12703,7 +12734,7 @@ lexicon = listing "Lexicon's properties"
     -- EAry    EAriy   NapAt   naked;bare
     -- ErA     EurA    Nap     naked;bare
 
-    FACiL                     `adj`     {- EAriy -}            [ "naked", "bare" ],
+    FACI                      `adj`     {- EAriy -}            [ "naked", "bare" ],
 
     -- ;; muEar~aY_1
     -- mErY    muEar~aY        N0      uncovered;exposed     [[muEar~aY/ADJ]]
@@ -12740,7 +12771,7 @@ lexicon = listing "Lexicon's properties"
     -- mtEr    mutaEar~        Nuwn_Niyn       nudists
     -- mtEry   mutaEar~iy      NapAt   nudist
 
-    MutaFaCCiL                `noun`    {- mutaEar~iy -}       [ "nudist", "nudists" ] ]
+    MutaFaCCI                 `noun`    {- mutaEar~iy -}       [ "nudist", "nudists" ] ]
 
  |> "` r z l" <| [
 
@@ -13247,7 +13278,7 @@ lexicon = listing "Lexicon's properties"
     -- EAs     EAs     Nuwn_Niyn       withered
     -- EAsy    EAsiy   NapAt   withered
 
-    FACiL                     `adj`     {- EAsiy -}            [ "withered" ],
+    FACI                      `adj`     {- EAsiy -}            [ "withered" ],
 
     -- ;; Easiy~_1
     -- Esy     Easiy~  Nall    capable;suited;able     [[Easiy~/ADJ]]
@@ -13752,7 +13783,7 @@ lexicon = listing "Lexicon's properties"
     -- EAty    EAtiy   NapAt   arrogant;insolent
     -- EtA     EutA    Nap     arrogant;insolent
 
-    FACiL                     `adj`     {- EAtiy -}            [ "arrogant", "insolent" ],
+    FACI                      `adj`     {- EAtiy -}            [ "arrogant", "insolent" ],
 
     -- ;; Eatiy~_1
     -- Ety     Eatiy~  N-ap    arrogant;insolent     [[Eatiy~/ADJ]]
@@ -15078,12 +15109,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; muEAwiyap_1
     -- mEAwyp  muEAwiyap       N0      Mu'awiya
 
-    MuFACiL |< aT             `noun`    {- muEAwiyap -}        [ "Mu'awiya" ],
+    MuFACI |< aT              `noun`    {- muEAwiyap -}        [ "Mu'awiya" ],
 
     -- ;; muEAwiyap_2
     -- mEAwy   muEAwiy NapAt   dog (bitch)
 
-    MuFACiL |< aT             `noun`    {- muEAwiyap -}        [ "dog (bitch)" ] ]
+    MuFACI |< aT              `noun`    {- muEAwiyap -}        [ "dog (bitch)" ] ]
 
  |> "` w z" <| [
 
@@ -15904,7 +15935,7 @@ lexicon = listing "Lexicon's properties"
     -- Eyy     Eoyay   IV_Ann  be incapable
     -- Ey      Eoya    IV_0hwnyn       be incapable
 
-    FaCiL                     `verb`    {- Eayiy-a -}          [ "be incapable" ],
+    FaCI                      `verb`    {- Eayiy-a -}          [ "be incapable" ],
 
     -- ;; >aEoyaY_1
     -- >EyY    >aEoyaY PV_0    thwart
@@ -15980,7 +16011,7 @@ lexicon = listing "Lexicon's properties"
     -- mEy     muEoy   Nuwn_Niyn       tired;exhausted
     -- mEyy    muEoyiy NapAt   tired;exhausted
 
-    MuFCiL                    `adj`     {- muEoyiy -}          [ "tired", "exhausted" ],
+    MuFCI                     `adj`     {- muEoyiy -}          [ "tired", "exhausted" ],
 
     -- ;; muEoyaY_1
     -- mEyY    muEoyaY N0      exhausted     [[muEoyaY/ADJ]]
@@ -16438,7 +16469,8 @@ lexicon = listing "Lexicon's properties"
     -- Ezy     Eozay   IV_Ann  be patiently
     -- Ez      Eoza    IV_0hwnyn       be patiently
 
-    FaCI                      `verb`    {- Eaziy-a -}          [ "be patiently" ],
+    FaCI                      `verb`    {- Eaziy-a -}          [ "be patiently" ]
+                              `imperf`     FCY,
 
     -- ;; Eaz~aY_1
     -- EzY     Eaz~aY  PV_0    console;offer condolences
@@ -16521,6 +16553,15 @@ lexicon = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- EazA' -}            [ "consolation", "mourning" ],
 
+    -- ;; taEoziyap_1
+    -- tEzy    taEoziy NapAt   condolence;mourning
+    -- tEAzy   taEAziy N0_Nh   condolences;mourning
+    -- tEAz    taEAz   NK      condolences;mourning
+
+    TaFCI |< aT               `noun`    {- taEoziyap -}        [ "condolence", "mourning", "condolences" ]
+                              `plural`     TaFACI
+                           {- `others`  [ "ta`Aziy N0_Nh" ] -},
+
     -- ;; muEaz~iy_1
     -- mEzy    muEaz~iy        N0F_Nh  mourner
     -- mEz     muEaz~  NK      mourner
@@ -16539,7 +16580,7 @@ lexicon = listing "Lexicon's properties"
     -- Ezy     Eozay   IV_Ann  be patiently
     -- Ez      Eoza    IV_0hwnyn       be patiently
 
-    FaCiL                     `verb`    {- Eaziy-a -}          [ "be patiently" ]
+    FaCI                      `verb`    {- Eaziy-a -}          [ "be patiently" ]
                               `imperf`     FCY,
 
     -- ;; taEoziyap_1
@@ -16547,7 +16588,7 @@ lexicon = listing "Lexicon's properties"
     -- tEAzy   taEAziy N0_Nh   condolences;mourning
     -- tEAz    taEAz   NK      condolences;mourning
 
-    TaFCiL |< aT              `noun`    {- taEoziyap -}        [ "condolence", "mourning", "condolences" ]
+    TaFCI |< aT               `noun`    {- taEoziyap -}        [ "condolence", "mourning", "condolences" ]
                               `plural`     TaFACI
                            {- `others`  [ "ta`Aziy N0_Nh" ] -},
 
@@ -16558,7 +16599,7 @@ lexicon = listing "Lexicon's properties"
     -- mEz     muEaz~  Nuwn_Niyn       mourners
     -- mEzy    muEaz~iy        NapAt   mourner
 
-    MuFaCCiL                  `noun`    {- muEaz~iy -}         [ "mourner", "mourners" ] ]
+    MuFaCCI                   `noun`    {- muEaz~iy -}         [ "mourner", "mourners" ] ]
 
  |> "` z z" <| [
 

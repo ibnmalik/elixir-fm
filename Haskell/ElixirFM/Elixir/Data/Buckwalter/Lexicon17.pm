@@ -443,7 +443,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCiL',
+      'morphs' => 'FaCI',
       'suffix' => '',
       'glosses' => [
         'Dhabi'

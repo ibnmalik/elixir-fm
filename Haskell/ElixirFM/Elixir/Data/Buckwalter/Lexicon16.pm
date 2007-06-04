@@ -3040,7 +3040,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCiL',
+      'morphs' => 'FaCI',
       'glosses' => [
         'be fresh',
         'be tender'
@@ -3101,7 +3101,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'MuFCiL',
+      'morphs' => 'MuFCI',
       'suffix' => '',
       'glosses' => [
         'flattering'
@@ -4965,12 +4965,13 @@ $Lexicon = {
       ],
       'patterns' => {
         '.tawAbiy' => [
-          'FawACiL'
+          'FawACiL',
+          'FawACI'
         ]
       },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL |< aT',
+      'morphs' => 'FACI |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'fortress',
@@ -5114,7 +5115,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [
         'floating',
@@ -5146,12 +5147,13 @@ $Lexicon = {
       ],
       'patterns' => {
         '.tawAfiy' => [
-          'FawACiL'
+          'FawACiL',
+          'FawACI'
         ]
       },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL |< aT',
+      'morphs' => 'FACI |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'buoy',
@@ -9397,7 +9399,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [
         'cook',
@@ -15138,7 +15140,11 @@ $Lexicon = {
       'entry' => '.tAfiy',
       'form' => '.tAfiyaT',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '.tawAfiy' => [
+          'FawACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACI |< aT',
@@ -18230,7 +18236,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [
         'starved',
@@ -18288,7 +18294,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MunFaCiL',
+      'morphs' => 'MunFaCI',
       'suffix' => '',
       'glosses' => [
         'withdrawn',
@@ -21181,12 +21187,13 @@ $Lexicon = {
       ],
       'patterns' => {
         '.tawAqiy' => [
-          'FawACiL'
+          'FawACiL',
+          'FawACI'
         ]
       },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL |< aT',
+      'morphs' => 'FACI |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'skullcap',
@@ -22027,7 +22034,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'TAgiy',
@@ -23189,7 +23196,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [
         'flowing over'
@@ -24907,7 +24914,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCuL',
+      'morphs' => 'FaCU',
       'glosses' => [
         'be fresh',
         'be tender'

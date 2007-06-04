@@ -299,7 +299,7 @@ lexicon = listing "Lexicon's properties"
 
     HICA'                     `noun`    {- IiyHA' -}           [ "suggestion", "inspiration", "suggestions" ],
 
-    MuFCiL                    `adj`     {- muwHiy -}           [ "inspiring" ],
+    MuFCI                     `adj`     {- muwHiy -}           [ "inspiring" ],
 
     MustaFCY                  `noun`    {- musotawoHaY -}      [ "guided", "advised", "counseled", "influenced" ]
                               `plural`     MustaFCaL |< At
@@ -406,10 +406,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCAL
                            {- `others`  [ "wa.sAy Napdu" ] -},
 
-    TaFCiL |< aT              `noun`    {- tawoSiyap -}        [ "advice", "recommendation", "recommendations" ]
-                              `plural`     TaFCiL |< At,
+    TaFCI |< aT               `noun`    {- tawoSiyap -}        [ "advice", "recommendation", "recommendations" ]
+                              `plural`     TaFCiL |< At
+                              `plural`     TaFCI |< At,
 
-    MuFaCCiL                  `noun`    {- muwaS~iy -}         [ "recommender", "advising", "recommenders" ] ]
+    MuFaCCI                   `noun`    {- muwaS~iy -}         [ "recommender", "advising", "recommenders" ] ]
 
  |> "w .t '" <| [
 
@@ -745,9 +746,9 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCI |< aT
                            {- `others`  [ "'awA`iy N0_Nh" ] -},
 
-    TaFCiL |< aT              `noun`    {- tawoEiyap -}        [ "making aware", "enlightening" ],
+    TaFCI |< aT               `noun`    {- tawoEiyap -}        [ "making aware", "enlightening" ],
 
-    FACiL                     `adj`     {- wAEiy -}            [ "aware", "alert", "conscious" ] ]
+    FACI                      `adj`     {- wAEiy -}            [ "aware", "alert", "conscious" ] ]
 
  |> "w ` z" <| [
 
@@ -823,7 +824,7 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `verb`    {- OawodaY -}          [ "put and end to", "destroy", "be ended", "be destroyed" ],
 
-    FACiL                     `noun`    {- wAdiy -}            [ "wadi", "valley", "wadis", "valleys" ]
+    FACI                      `noun`    {- wAdiy -}            [ "wadi", "valley", "wadis", "valleys" ]
                               `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT
                               `plural`     FiCLAn
@@ -947,13 +948,13 @@ lexicon = listing "Lexicon's properties"
     MuFACY |< aT              `noun`    {- muwAfAp -}          [ "arrival", "communication", "arrivals", "communications" ]
                               `plural`     MuFACaL |< At,
 
-    FACiL                     `adj`     {- wAfiy -}            [ "loyal" ],
+    FACI                      `adj`     {- wAfiy -}            [ "loyal" ],
 
-    FACiL                     `adj`     {- wAfiy -}            [ "sufficient", "abundant" ],
+    FACI                      `adj`     {- wAfiy -}            [ "sufficient", "abundant" ],
 
-    FACiL                     `noun`    {- wAfiy -}            [ "Wafi" ],
+    FACI                      `noun`    {- wAfiy -}            [ "Wafi" ],
 
-    MuFaCCiL                  `noun`    {- muwaf~iy -}         [ "completing", "rounding out", "last day" ],
+    MuFaCCI                   `noun`    {- muwaf~iy -}         [ "completing", "rounding out", "last day" ],
 
     MutaFaCCY                 `noun`    {- mutawaf~aY -}       [ "deceased", "having died" ]
                               `plural`     MutaFaCCaL |< At
@@ -1009,7 +1010,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "w h y" <| [
 
-    FACiL                     `adj`     {- wAhiy -}            [ "feeble", "fragile", "flimsy" ] ]
+    FACI                      `adj`     {- wAhiy -}            [ "feeble", "fragile", "flimsy" ] ]
 
  |> "w k b" <| [
 
@@ -1144,7 +1145,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "w l y" <| [
 
-    FaCiL                     `verb`    {- waliy-i -}          [ "follow", "come after" ]
+    FaCI                      `verb`    {- waliy-i -}          [ "follow", "come after" ]
                               `imperf`     CiL
                               `imperf`     CI,
 
@@ -1180,7 +1181,7 @@ lexicon = listing "Lexicon's properties"
 
     MaFCY                     `noun`    {- mawolaY -}          [ "Mawla" ],
 
-    TaFCiL |< aT              `noun`    {- tawoliyap -}        [ "appointment as successor" ],
+    TaFCI |< aT               `noun`    {- tawoliyap -}        [ "appointment as successor" ],
 
     HICA'                     `noun`    {- IiylA' -}           [ "marriage annulment", "marriage annulments" ],
 
@@ -1190,15 +1191,15 @@ lexicon = listing "Lexicon's properties"
 
     IstICA'                   `noun`    {- AisotiylA' -}       [ "appropriation", "seizure", "appropriations", "seizures" ],
 
-    FACiL                     `noun`    {- wAliy -}            [ "ruler", "governor", "rulers", "governors" ],
+    FACI                      `noun`    {- wAliy -}            [ "ruler", "governor", "rulers", "governors" ],
 
-    MuFACiL                   `noun`    {- muwAliy -}          [ "partisan", "sympathizer" ],
+    MuFACI                    `noun`    {- muwAliy -}          [ "partisan", "sympathizer" ],
 
-    MutaFaCCiL                `noun`    {- mutawal~iy -}       [ "responsible", "commissioned" ],
+    MutaFaCCI                 `noun`    {- mutawal~iy -}       [ "responsible", "commissioned" ],
 
-    MutaFaCCiL                `noun`    {- mutawal~iy -}       [ "Mitwalli" ],
+    MutaFaCCI                 `noun`    {- mutawal~iy -}       [ "Mitwalli" ],
 
-    MutaFACiL                 `noun`    {- mutawAliy -}        [ "successive", "consecutive" ],
+    MutaFACI                  `noun`    {- mutawAliy -}        [ "successive", "consecutive" ],
 
     MaFCY |< Iy               `adj`     {- mawolawiy~ -}       [ "Mawlawi dervish" ] ]
 
@@ -1372,7 +1373,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCA' |< Iy |< aT         `noun`    {- wiqA}iy~ap -}       [ "prevention", "protection" ],
 
-    FACiL                     `adj`     {- wAqiy -}            [ "preserving", "guarding", "protecting" ] ]
+    FACI                      `adj`     {- wAqiy -}            [ "preserving", "guarding", "protecting" ] ]
 
  |> "w r '" <| [
 
@@ -1726,9 +1727,9 @@ lexicon = listing "Lexicon's properties"
 
     TaFACI                    `noun`    {- tawAziy -}          [ "parallel", "equivalent" ],
 
-    MuFACiL                   `adj`     {- muwAziy -}          [ "parallel", "equivalent" ],
+    MuFACI                    `adj`     {- muwAziy -}          [ "parallel", "equivalent" ],
 
-    MutaFACiL                 `adj`     {- mutawAziy -}        [ "parallel", "equivalent", "egalitarian" ] ]
+    MutaFACI                  `adj`     {- mutawAziy -}        [ "parallel", "equivalent", "egalitarian" ] ]
 
  |> "wA^sin.tuwn" <| [
 

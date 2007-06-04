@@ -228,8 +228,9 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `noun`    {- Oax -}              [ "brother", "brother + my", "brothers" ]
                               `plural`     FaCI
+                              `plural`     FaCU
                               `plural`     FaCA
-                           {- `others`  [ "'a_hiy N0_Nh FW-WaBi", "'a_hA N0_Nh" ] -} ]
+                           {- `others`  [ "'a_hiy N0_Nh FW-WaBi", "'a_huw N0_Nh", "'a_hA N0_Nh" ] -} ]
 
  |> "' _h r" <| [
 
@@ -353,8 +354,9 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `noun`    {- Oab -}              [ "father", "father + my" ]
                               `plural`     FaCI
+                              `plural`     FaCU
                               `plural`     FaCA
-                           {- `others`  [ "'abiy N0_Nh FW-WaBi", "'abA N0_Nh" ] -},
+                           {- `others`  [ "'abiy N0_Nh FW-WaBi", "'abuw N0_Nh", "'abA N0_Nh" ] -},
 
     FaCIL                     `noun`    {- Oabiyb -}           [ "Aviv" ] ]
 
@@ -409,7 +411,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' b w" <| [
 
-    FaCuL                     `noun`    {- Oabuw -}            [ "Abu" ],
+    FaCU                      `noun`    {- Oabuw -}            [ "Abu" ],
 
     FaCI                      `noun`    {- Oabiy -}            [ "Abi" ],
 
@@ -419,7 +421,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' b y" <| [
 
-    FaCiL                     `noun`    {- Oabiy -}            [ "Abi" ],
+    FaCI                      `noun`    {- Oabiy -}            [ "Abi" ],
 
     FaCY                      `verb`    {- OabaY-a -}          [ "deny", "refuse" ]
                               `imperf`     FCY ]
@@ -487,9 +489,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- OadA' -}            [ "performance", "fulfillment" ],
 
-    TaFCiL |< aT              `noun`    {- taOodiyap -}        [ "accomplishment", "performance" ],
+    TaFCI |< aT               `noun`    {- taOodiyap -}        [ "accomplishment", "performance" ],
 
-    MuFaCCiL                  `noun`    {- muWad~iy -}         [ "leading", "causing" ] ]
+    MuFaCCI                   `noun`    {- muWad~iy -}         [ "leading", "causing" ] ]
 
  |> "' f .g" <| [
 
@@ -521,7 +523,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' f y" <| [
 
-    FaCiL                     `noun`    {- Oafiy -}            [ "Avi" ] ]
+    FaCI                      `noun`    {- Oafiy -}            [ "Avi" ] ]
 
  |> "' h b" <| [
 
@@ -938,8 +940,10 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "'AnA' Nh N0_Nh Nhy", "'anA Nhy" ] -},
 
     FiCAL                     `noun`    {- IinA' -}            [ "vessel", "container", "receptacle", "vessels", "containers", "receptacles" ]
+                              `plural`     FawACI
                               `plural`     HACI |< aT
-                              `plural`     FACI |< aT,
+                              `plural`     FACI |< aT
+                           {- `others`  [ "'awAniy N0_Nh" ] -},
 
     MutaFaCCI                 `noun`    {- mutaOan~iy -}       [ "circumspect", "prudent" ] ]
 
@@ -1054,7 +1058,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' n y" <| [
 
-    MutaFaCCiL                `noun`    {- mutaOan~iy -}       [ "circumspect", "prudent" ] ]
+    MutaFaCCI                 `noun`    {- mutaOan~iy -}       [ "circumspect", "prudent" ] ]
 
  |> "' q l m" <| [
 
@@ -1348,13 +1352,13 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCY                   `verb`    {- taOat~aY -}         [ "happen", "result" ],
 
-    FACiL                     `noun`    {- \|tiy -}            [ "coming", "following" ],
+    FACI                      `noun`    {- \|tiy -}            [ "coming", "following" ],
 
-    MuFACiL                   `noun`    {- muWAtiy -}          [ "favorable", "suitable" ],
+    MuFACI                    `noun`    {- muWAtiy -}          [ "favorable", "suitable" ],
 
     FUCI                      `noun`    {- Ouwtiy -}           [ "Ottey" ],
 
-    HUCiL                     `noun`    {- Ouwtiy -}           [ "Ottey" ],
+    HUCI                      `noun`    {- Ouwtiy -}           [ "Ottey" ],
 
     HUCI                      `noun`    {- Ouwtiy -}           [ "Ottey" ] ]
 

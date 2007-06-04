@@ -186,11 +186,11 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `adj`     {- tAliy -}            [ "following", "subsequent" ],
 
-    FACiL                     `adj`     {- tAliy -}            [ "following", "subsequent" ],
+    FACI                      `adj`     {- tAliy -}            [ "following", "subsequent" ],
 
     MutaFACI                  `noun`    {- mutatAliy -}        [ "consecutive", "successive" ],
 
-    MutaFACiL                 `noun`    {- mutatAliy -}        [ "consecutive", "successive" ] ]
+    MutaFACI                  `noun`    {- mutatAliy -}        [ "consecutive", "successive" ] ]
 
  |> "t m l" <| [
 

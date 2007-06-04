@@ -367,7 +367,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCiL',
+      'morphs' => 'FaCI',
       'glosses' => [
         'become emaciated',
         'languish'
@@ -498,7 +498,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FaCiL',
+      'morphs' => 'FaCI',
       'suffix' => '',
       'glosses' => [
         'grief-stricken',
@@ -590,7 +590,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'MuFCiL',
+      'morphs' => 'MuFCI',
       'suffix' => '',
       'glosses' => [
         'debilitating',
@@ -5986,7 +5986,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'MuFACiL',
+      'morphs' => 'MuFACI',
       'suffix' => '',
       'glosses' => [
         'analogous',
@@ -6345,6 +6345,33 @@ $Lexicon = {
     },
     {
       'types' => {
+        'ta.d.hiy' => {
+          'NAt' => 1,
+          'NapAt' => 1
+        }
+      },
+      'entry' => 'ta.d.hiy',
+      'form' => 'ta.d.hiy',
+      'lines' => [
+        ';; taDoHiy_1',
+        'tDHy    taDoHiy NapAt   sacrifice;immolation',
+        'tDHy    taDoHiy NAt     sacrifices'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCI',
+      'suffix' => '',
+      'glosses' => [
+        'sacrifice',
+        'immolation',
+        'sacrifices'
+      ],
+      'orig' => 'taDoHiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         '.dA.hiy' => {
           'N0F' => 1
         },
@@ -6390,7 +6417,11 @@ $Lexicon = {
         'DwAHy   DawAHiy N0_Nh   suburbs;outskirts',
         'DwAH    DawAH   NK      suburbs;outskirts'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.dawA.hiy' => [
+          'FawACI'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACI |< aT',
@@ -7836,7 +7867,21 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FawACiL',
+      'morphs' => 'FawACI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'DawAriy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.dawAriy',
+      'form' => '.dawAriy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FawACI',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'DawAriy',
@@ -7857,11 +7902,25 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'TaFCiL |< aT',
+      'morphs' => 'TaFCI |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'provocation'
       ],
+      'orig' => 'taDoriyap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta.driy',
+      'form' => 'ta.driyaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
       'orig' => 'taDoriyap',
       'prefix' => ''
     }
@@ -10399,7 +10458,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [
         'ample',
@@ -11969,7 +12028,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [
         'weak',
@@ -12003,7 +12062,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'MunFaCiL',
+      'morphs' => 'MunFaCI',
       'suffix' => '',
       'glosses' => [
         'seeking refuge',
@@ -13132,7 +13191,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCiL',
+      'morphs' => 'FaCI',
       'glosses' => [],
       'suffix' => '',
       'imperf' => [],
@@ -13168,29 +13227,16 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'ta.d.hiy' => {
-          'NAt' => 1,
-          'NapAt' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'ta.d.hiy',
       'form' => 'ta.d.hiy',
-      'lines' => [
-        ';; taDoHiy_1',
-        'tDHy    taDoHiy NapAt   sacrifice;immolation',
-        'tDHy    taDoHiy NAt     sacrifices'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'TaFCiL',
+      'morphs' => 'TaFCI',
       'suffix' => '',
-      'glosses' => [
-        'sacrifice',
-        'immolation',
-        'sacrifices'
-      ],
+      'glosses' => [],
       'orig' => 'taDoHiy',
       'prefix' => ''
     },
@@ -13202,7 +13248,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'DAHiy',
@@ -13215,12 +13261,13 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '.dawA.hiy' => [
-          'FawACiL'
+          'FawACiL',
+          'FawACI'
         ]
       },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL |< aT',
+      'morphs' => 'FACI |< aT',
       'suffix' => ' |< aT',
       'glosses' => [],
       'orig' => 'DAHiyap',
@@ -15358,6 +15405,12 @@ $Lexicon->{'.d n \''}[0]{'glosses'} = $Lexicon->{'.d n y'}[5]{'glosses'};
 $Lexicon->{'.d r y'}[1]{'types'} = $Lexicon->{'.d w r y'}[0]{'types'};
 $Lexicon->{'.d r y'}[1]{'lines'} = $Lexicon->{'.d w r y'}[0]{'lines'};
 $Lexicon->{'.d r y'}[1]{'glosses'} = $Lexicon->{'.d w r y'}[0]{'glosses'};
+$Lexicon->{'.d r y'}[2]{'types'} = $Lexicon->{'.d w r y'}[0]{'types'};
+$Lexicon->{'.d r y'}[2]{'lines'} = $Lexicon->{'.d w r y'}[0]{'lines'};
+$Lexicon->{'.d r y'}[2]{'glosses'} = $Lexicon->{'.d w r y'}[0]{'glosses'};
+$Lexicon->{'.d r y'}[4]{'types'} = $Lexicon->{'.d r y'}[3]{'types'};
+$Lexicon->{'.d r y'}[4]{'lines'} = $Lexicon->{'.d r y'}[3]{'lines'};
+$Lexicon->{'.d r y'}[4]{'glosses'} = $Lexicon->{'.d r y'}[3]{'glosses'};
 $Lexicon->{'.d r r'}[4]{'types'} = $Lexicon->{'.d .t r'}[0]{'types'};
 $Lexicon->{'.d r r'}[4]{'lines'} = $Lexicon->{'.d .t r'}[0]{'lines'};
 $Lexicon->{'.d r r'}[4]{'glosses'} = $Lexicon->{'.d .t r'}[0]{'glosses'};
@@ -15389,12 +15442,15 @@ $Lexicon->{'.d .h y'}[0]{'types'} = $Lexicon->{'.d .h w'}[1]{'types'};
 $Lexicon->{'.d .h y'}[0]{'lines'} = $Lexicon->{'.d .h w'}[1]{'lines'};
 $Lexicon->{'.d .h y'}[0]{'glosses'} = $Lexicon->{'.d .h w'}[1]{'glosses'};
 $Lexicon->{'.d .h y'}[0]{'imperf'} = $Lexicon->{'.d .h w'}[1]{'imperf'};
-$Lexicon->{'.d .h y'}[3]{'types'} = $Lexicon->{'.d .h w'}[8]{'types'};
-$Lexicon->{'.d .h y'}[3]{'lines'} = $Lexicon->{'.d .h w'}[8]{'lines'};
-$Lexicon->{'.d .h y'}[3]{'glosses'} = $Lexicon->{'.d .h w'}[8]{'glosses'};
-$Lexicon->{'.d .h y'}[4]{'types'} = $Lexicon->{'.d .h w'}[9]{'types'};
-$Lexicon->{'.d .h y'}[4]{'lines'} = $Lexicon->{'.d .h w'}[9]{'lines'};
-$Lexicon->{'.d .h y'}[4]{'glosses'} = $Lexicon->{'.d .h w'}[9]{'glosses'};
+$Lexicon->{'.d .h y'}[2]{'types'} = $Lexicon->{'.d .h w'}[8]{'types'};
+$Lexicon->{'.d .h y'}[2]{'lines'} = $Lexicon->{'.d .h w'}[8]{'lines'};
+$Lexicon->{'.d .h y'}[2]{'glosses'} = $Lexicon->{'.d .h w'}[8]{'glosses'};
+$Lexicon->{'.d .h y'}[3]{'types'} = $Lexicon->{'.d .h w'}[9]{'types'};
+$Lexicon->{'.d .h y'}[3]{'lines'} = $Lexicon->{'.d .h w'}[9]{'lines'};
+$Lexicon->{'.d .h y'}[3]{'glosses'} = $Lexicon->{'.d .h w'}[9]{'glosses'};
+$Lexicon->{'.d .h y'}[4]{'types'} = $Lexicon->{'.d .h w'}[10]{'types'};
+$Lexicon->{'.d .h y'}[4]{'lines'} = $Lexicon->{'.d .h w'}[10]{'lines'};
+$Lexicon->{'.d .h y'}[4]{'glosses'} = $Lexicon->{'.d .h w'}[10]{'glosses'};
 $Lexicon->{'.d y `'}[11]{'types'} = $Lexicon->{'.d \' `'}[0]{'types'};
 $Lexicon->{'.d y `'}[11]{'lines'} = $Lexicon->{'.d \' `'}[0]{'lines'};
 $Lexicon->{'.d y `'}[11]{'glosses'} = $Lexicon->{'.d \' `'}[0]{'glosses'};

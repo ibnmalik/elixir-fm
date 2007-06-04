@@ -595,15 +595,15 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s d y" <| [
 
-    FACiL                     `noun`    {- \$Adiy -}           [ "Shadi" ],
+    FACI                      `noun`    {- \$Adiy -}           [ "Shadi" ],
 
-    FACiL                     `adj`     {- \$Adiy -}           [ "educated", "trained" ],
+    FACI                      `adj`     {- \$Adiy -}           [ "educated", "trained" ],
 
-    FACiL                     `adj`     {- \$Adiy -}           [ "singing", "chanting" ],
+    FACI                      `adj`     {- \$Adiy -}           [ "singing", "chanting" ],
 
-    FACiL |< aT               `noun`    {- \$Adiyap -}         [ "Shadia" ],
+    FACI |< aT                `noun`    {- \$Adiyap -}         [ "Shadia" ],
 
-    FACiL |< aT               `noun`    {- \$Adiyap -}         [ "songstress", "singer" ] ]
+    FACI |< aT                `noun`    {- \$Adiyap -}         [ "songstress", "singer" ] ]
 
  |> "^s d y q" <| [
 
@@ -678,7 +678,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCY |< Iy                `adj`     {- \$afawiy~ -}        [ "oral", "verbal", "orally", "verbally" ],
 
-    FACiL                     `adj`     {- \$Afiy -}           [ "healing", "curative" ] ]
+    FACI                      `adj`     {- \$Afiy -}           [ "healing", "curative" ] ]
 
  |> "^s h b" <| [
 
@@ -1362,13 +1362,13 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCA'                   `noun`    {- Ai$otirA' -}        [ "purchase", "purchases" ],
 
-    FACiL                     `noun`    {- \$Ariy -}           [ "buyer", "client", "buyers", "clients" ],
+    FACI                      `noun`    {- \$Ariy -}           [ "buyer", "client", "buyers", "clients" ],
 
-    FACiL                     `noun`    {- \$Ariy -}           [ "lightning rod" ],
+    FACI                      `noun`    {- \$Ariy -}           [ "lightning rod" ],
 
-    MuFtaCiL                  `noun`    {- mu$otariy -}        [ "buyer" ],
+    MuFtaCI                   `noun`    {- mu$otariy -}        [ "buyer" ],
 
-    MuFtaCiL                  `noun`    {- mu$otariy -}        [ "Jupiter" ],
+    MuFtaCI                   `noun`    {- mu$otariy -}        [ "Jupiter" ],
 
     MuFtaCY                   `noun`    {- mu$otaraY -}        [ "purchased goods" ]
                               `plural`     MuFtaCaL |< At,
@@ -1553,7 +1553,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s w w" <| [
 
-    FuL                       `noun`    {- \$uw -}             [ "Shaw" ] ]
+    FU                        `noun`    {- \$uw -}             [ "Shaw" ] ]
 
  |> "^s y '" <| [
 

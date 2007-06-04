@@ -520,7 +520,8 @@ lexicon = listing "Lexicon's properties"
     -- lgy     logay   IV_Ann  speak nonsense
     -- lg      loga    IV_0hwnyn       speak nonsense
 
-    FaCI                      `verb`    {- lagiy-a -}          [ "speak nonsense" ],
+    FaCI                      `verb`    {- lagiy-a -}          [ "speak nonsense" ]
+                              `imperf`     FCY,
 
     -- ;; >alogaY_1
     -- >lgY    >alogaY PV_0    cancel;abrogate;terminate
@@ -605,7 +606,7 @@ lexicon = listing "Lexicon's properties"
     -- lgy     logay   IV_Ann  speak nonsense
     -- lg      loga    IV_0hwnyn       speak nonsense
 
-    FaCiL                     `verb`    {- lagiy-a -}          [ "speak nonsense" ]
+    FaCI                      `verb`    {- lagiy-a -}          [ "speak nonsense" ]
                               `imperf`     FCY,
 
     -- ;; lAgiy_1
@@ -614,12 +615,12 @@ lexicon = listing "Lexicon's properties"
     -- lAgy    lAgiy   NAn_Nayn_L      abrogated;null;void
     -- lAgy    lAgiy   NapAt_L abrogated;null;void
 
-    FACiL                     `adj`     {- lAgiy -}            [ "abrogated", "null", "void" ],
+    FACI                      `adj`     {- lAgiy -}            [ "abrogated", "null", "void" ],
 
     -- ;; lAgiyap_1
     -- lAgy    lAgiy   Nap_L   solecism;mistake
 
-    FACiL |< aT               `noun`    {- lAgiyap -}          [ "solecism", "mistake" ] ]
+    FACI |< aT                `noun`    {- lAgiyap -}          [ "solecism", "mistake" ] ]
 
  |> "l .g z" <| [
 
@@ -1460,7 +1461,7 @@ lexicon = listing "Lexicon's properties"
     -- mltH    mulotaH Nuwn_Niyn       bearded
     -- mltHy   mulotaHiy       NapAt   bearded
 
-    MuFtaCiL                  `noun`    {- mulotaHiy -}        [ "bearded" ] ]
+    MuFtaCI                   `noun`    {- mulotaHiy -}        [ "bearded" ] ]
 
  |> "l .s .s" <| [
 
@@ -1909,7 +1910,7 @@ lexicon = listing "Lexicon's properties"
     -- lZy     loZay   IV_Ann  be ablaze;burn brightly
     -- lZ      loZa    IV_0hwnyn       be ablaze;burn brightly
 
-    FaCiL                     `verb`    {- laZiy-a -}          [ "be ablaze", "burn brightly" ]
+    FaCI                      `verb`    {- laZiy-a -}          [ "be ablaze", "burn brightly" ]
                               `imperf`     FCY,
 
     -- ;; talaZ~aY_1
@@ -2291,7 +2292,7 @@ lexicon = listing "Lexicon's properties"
     -- mtlA$   mutalA$ Nuwn_Niyn       disappearing;vanishing
     -- mtlA$y  mutalA$iy       NapAt   disappearing;vanishing
 
-    MutaFACiL                 `noun`    {- mutalA$iy -}        [ "disappearing", "vanishing" ] ]
+    MutaFACI                  `noun`    {- mutalA$iy -}        [ "disappearing", "vanishing" ] ]
 
  |> "l _d _d" <| [
 
@@ -2440,7 +2441,7 @@ lexicon = listing "Lexicon's properties"
     -- l*y     lo*ay   IV_Ann  adhere;cleave
     -- l*      lo*a    IV_0hwnyn       adhere;cleave
 
-    FaCiL                     `verb`    {- la*iy-a -}          [ "adhere", "cleave" ]
+    FaCI                      `verb`    {- la*iy-a -}          [ "adhere", "cleave" ]
                               `imperf`     FCY,
 
     -- ;; la*aY_1
@@ -3685,7 +3686,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; talobiyap_1
     -- tlby    talobiy NapAt   compliance with;responding to
 
-    TaFCiL |< aT              `noun`    {- talobiyap -}        [ "compliance with", "responding to" ],
+    TaFCI |< aT               `noun`    {- talobiyap -}        [ "compliance with", "responding to" ],
 
     -- ;; luwbiy_1
     -- lwby    luwbiy  N0_L    lobby
@@ -4785,7 +4786,8 @@ lexicon = listing "Lexicon's properties"
     -- lhy     lohay   IV_Ann  like;renounce
     -- lh      loha    IV_0hwnyn       like;renounce
 
-    FaCI                      `verb`    {- lahiy-a -}          [ "like", "renounce" ],
+    FaCI                      `verb`    {- lahiy-a -}          [ "like", "renounce" ]
+                              `imperf`     FCY,
 
     -- ;; lah~aY_1
     -- lhY     lah~aY  PV_0    delight;amuse;distract
@@ -4911,6 +4913,11 @@ lexicon = listing "Lexicon's properties"
 
     MiFCY                     `noun`    {- milohaY -}          [ "toy", "toys" ],
 
+    -- ;; talohiyap_1
+    -- tlhy    talohiy Nap     distraction;amusement
+
+    TaFCI |< aT               `noun`    {- talohiyap -}        [ "distraction", "amusement" ],
+
     -- ;; lAhiy_1
     -- lAhy    lAhiy   N0F     oblivious;heedless     [[lAhiy/ADJ]]
     -- lAh     lAh     NK      oblivious;heedless
@@ -4946,13 +4953,13 @@ lexicon = listing "Lexicon's properties"
     -- lhy     lohay   IV_Ann  like;renounce
     -- lh      loha    IV_0hwnyn       like;renounce
 
-    FaCiL                     `verb`    {- lahiy-a -}          [ "like", "renounce" ]
+    FaCI                      `verb`    {- lahiy-a -}          [ "like", "renounce" ]
                               `imperf`     FCY,
 
     -- ;; talohiyap_1
     -- tlhy    talohiy Nap     distraction;amusement
 
-    TaFCiL |< aT              `noun`    {- talohiyap -}        [ "distraction", "amusement" ],
+    TaFCI |< aT               `noun`    {- talohiyap -}        [ "distraction", "amusement" ],
 
     -- ;; lAhiy_1
     -- lAhy    lAhiy   N0F     oblivious;heedless     [[lAhiy/ADJ]]
@@ -4961,7 +4968,7 @@ lexicon = listing "Lexicon's properties"
     -- lAh     lAh     Nuwn_Niyn_L     oblivious;heedless
     -- lAhy    lAhiy   NapAt_L oblivious;heedless
 
-    FACiL                     `adj`     {- lAhiy -}            [ "oblivious", "heedless" ],
+    FACI                      `adj`     {- lAhiy -}            [ "oblivious", "heedless" ],
 
     -- ;; mulohiy_1
     -- mlhy    mulohiy N0F_Nh  amusing;diverting     [[mulohiy/ADJ]]
@@ -4970,7 +4977,7 @@ lexicon = listing "Lexicon's properties"
     -- mlh     muloh   Nuwn_Niyn       amusing;diverting
     -- mlhy    mulohiy NapAt   amusing;diverting
 
-    MuFCiL                    `adj`     {- mulohiy -}          [ "amusing", "diverting" ] ]
+    MuFCI                     `adj`     {- mulohiy -}          [ "amusing", "diverting" ] ]
 
  |> "l k '" <| [
 
@@ -6208,7 +6215,7 @@ lexicon = listing "Lexicon's properties"
     -- lqy     loqay   IV_Ann  meet;encounter;find
     -- lq      loqa    IV_0hwnyn       meet;encounter;find
 
-    FaCiL                     `verb`    {- laqiy-a -}          [ "meet", "encounter", "find" ]
+    FaCI                      `verb`    {- laqiy-a -}          [ "meet", "encounter", "find" ]
                               `imperf`     FCY,
 
     -- ;; lAqaY_1
@@ -6425,7 +6432,7 @@ lexicon = listing "Lexicon's properties"
     -- mlqy    muloqiy NAn_Nayn        mine layers
     -- mlqy    muloqiy NAt     mine layers
 
-    MuFCiL                    `noun`    {- muloqiy -}          [ "mine layer", "mine layers" ],
+    MuFCI                     `noun`    {- muloqiy -}          [ "mine layer", "mine layers" ],
 
     -- ;; muloqaY_1
     -- mlqY    muloqaY N0      discarded;thrown;cast     [[muloqaY/ADJ]]
@@ -6445,7 +6452,7 @@ lexicon = listing "Lexicon's properties"
     -- mtlq    mutalaq~        Nuwn_Niyn       receiving
     -- mtlqy   mutalaq~iy      NapAt   receiving
 
-    MutaFaCCiL                `adj`     {- mutalaq~iy -}       [ "receiving" ],
+    MutaFaCCI                 `adj`     {- mutalaq~iy -}       [ "receiving" ],
 
     -- ;; mulotaqaY_1
     -- mltqY   mulotaqaY       N0      meeting place;juncture
@@ -7466,7 +7473,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; luw_1
     -- lw      luw     FW-Wa   Le     [[luw/NOUN_PROP]]
 
-    FuL                       `noun`    {- luw -}              [ "Le" ] ]
+    FU                        `noun`    {- luw -}              [ "Le" ] ]
 
  |> "l w y" <| [
 
@@ -7489,7 +7496,7 @@ lexicon = listing "Lexicon's properties"
     -- lwy     loway   IV_Ann  be crooked;be bent
     -- lw      lowa    IV_0hwnyn       be crooked;be bent
 
-    FaCiL                     `verb`    {- lawiy-a -}          [ "be crooked", "be bent" ]
+    FaCI                      `verb`    {- lawiy-a -}          [ "be crooked", "be bent" ]
                               `imperf`     FCY,
 
     -- ;; law~aY_1
@@ -7650,7 +7657,7 @@ lexicon = listing "Lexicon's properties"
     -- lAwy    lAwiy   NapAt_L turning;twisting
     -- lwA     luwA    Nap_L   turning;twisting
 
-    FACiL                     `adj`     {- lAwiy -}            [ "turning", "twisting" ],
+    FACI                      `adj`     {- lAwiy -}            [ "turning", "twisting" ],
 
     -- ;; malowiy~_1
     -- mlwy    malowiy~        Nall    crooked;warped     [[malowiy~/ADJ]]
@@ -7664,7 +7671,7 @@ lexicon = listing "Lexicon's properties"
     -- mltw    mulotaw Nuwn_Niyn       crooked;warped
     -- mltwy   mulotawiy       NapAt   crooked;warped
 
-    MuFtaCiL                  `adj`     {- mulotawiy -}        [ "crooked", "warped" ],
+    MuFtaCI                   `adj`     {- mulotawiy -}        [ "crooked", "warped" ],
 
     -- ;; mulotawaY_1
     -- mltwY   mulotawaY       N0      turn;curve;curvature
@@ -8118,7 +8125,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; liy_1
     -- ly      liy     Nprop   Lee;Li
 
-    FiL                       `noun`    {- liy -}              [ "Lee", "Li" ] ]
+    FI                        `noun`    {- liy -}              [ "Lee", "Li" ] ]
 
  |> "l y z r" <| [
 

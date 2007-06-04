@@ -1204,7 +1204,7 @@ lexicon = listing "Lexicon's properties"
     -- \$Zy     $oZay   IV_Ann  be splintered;be shattered
     -- \$Z      $oZa    IV_0hwnyn       be splintered;be shattered
 
-    FaCiL                     `verb`    {- \$aZiy-a -}         [ "be splintered", "be shattered" ]
+    FaCI                      `verb`    {- \$aZiy-a -}         [ "be splintered", "be shattered" ]
                               `imperf`     FCY,
 
     -- ;; ta$aZ~aY_1
@@ -1555,7 +1555,8 @@ lexicon = listing "Lexicon's properties"
     -- \$jy     $ojay   IV_Ann  be saddened;be distressed
     -- \$j      $oja    IV_0hwnyn       be saddened;be distressed
 
-    FaCI                      `verb`    {- \$ajiy-a -}         [ "be saddened", "be distressed" ],
+    FaCI                      `verb`    {- \$ajiy-a -}         [ "be saddened", "be distressed" ]
+                              `imperf`     FCY,
 
     -- ;; $aj~aY_1
     -- \$jY     $aj~aY  PV_0    impress;move
@@ -1627,14 +1628,14 @@ lexicon = listing "Lexicon's properties"
     -- \$jy     $ojay   IV_Ann  be saddened;be distressed
     -- \$j      $oja    IV_0hwnyn       be saddened;be distressed
 
-    FaCiL                     `verb`    {- \$ajiy-a -}         [ "be saddened", "be distressed" ]
+    FaCI                      `verb`    {- \$ajiy-a -}         [ "be saddened", "be distressed" ]
                               `imperf`     FCY,
 
     -- ;; $ajiy_1
     -- \$jy     $ajiy   N/ap    worried;grieved     [[$ajiy/ADJ]]
     -- \$j      $aj     NK      worried;grieved
 
-    FaCiL                     `adj`     {- \$ajiy -}           [ "worried", "grieved" ],
+    FaCI                      `adj`     {- \$ajiy -}           [ "worried", "grieved" ],
 
     -- ;; $ajiy~_1
     -- \$jy     $ajiy~  N/ap    worried;grieved;sentimental     [[$ajiy~/ADJ]]
@@ -1648,7 +1649,7 @@ lexicon = listing "Lexicon's properties"
     -- m$j     mu$aj~  Nuwn_Niyn       touching;pathetic
     -- m$jy    mu$aj~iy        NapAt   touching;pathetic
 
-    MuFaCCiL                  `adj`     {- mu$aj~iy -}         [ "touching", "pathetic" ] ]
+    MuFaCCI                   `adj`     {- mu$aj~iy -}         [ "touching", "pathetic" ] ]
 
  |> "^s _d _d" <| [
 
@@ -3600,7 +3601,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $Adiy_1
     -- \$Ady    $Adiy   N0      Shadi
 
-    FACiL                     `noun`    {- \$Adiy -}           [ "Shadi" ],
+    FACI                      `noun`    {- \$Adiy -}           [ "Shadi" ],
 
     -- ;; $Adiy_2
     -- \$Ady    $Adiy   N0F     educated;trained     [[$Adiy/ADJ]]
@@ -3609,7 +3610,7 @@ lexicon = listing "Lexicon's properties"
     -- \$Ad     $Ad     Nuwn_Niyn       educated;trained
     -- \$Ady    $Adiy   NapAt   educated;trained
 
-    FACiL                     `adj`     {- \$Adiy -}           [ "educated", "trained" ],
+    FACI                      `adj`     {- \$Adiy -}           [ "educated", "trained" ],
 
     -- ;; $Adiy_3
     -- \$Ady    $Adiy   N0F     singing;chanting     [[$Adiy/ADJ]]
@@ -3618,17 +3619,17 @@ lexicon = listing "Lexicon's properties"
     -- \$Ad     $Ad     Nuwn_Niyn       singing;chanting
     -- \$Ady    $Adiy   NapAt   singing;chanting
 
-    FACiL                     `adj`     {- \$Adiy -}           [ "singing", "chanting" ],
+    FACI                      `adj`     {- \$Adiy -}           [ "singing", "chanting" ],
 
     -- ;; $Adiyap_1
     -- \$Ady    $Adiy   Nap     Shadia
 
-    FACiL |< aT               `noun`    {- \$Adiyap -}         [ "Shadia" ],
+    FACI |< aT                `noun`    {- \$Adiyap -}         [ "Shadia" ],
 
     -- ;; $Adiyap_2
     -- \$Ady    $Adiy   Nap     songstress;singer
 
-    FACiL |< aT               `noun`    {- \$Adiyap -}         [ "songstress", "singer" ] ]
+    FACI |< aT                `noun`    {- \$Adiyap -}         [ "songstress", "singer" ] ]
 
  |> "^s d y q" <| [
 
@@ -4269,7 +4270,7 @@ lexicon = listing "Lexicon's properties"
     -- \$Afy    $Afiy   NAn_Nayn        healing;curative
     -- \$Afy    $Afiy   Napdu   healing;curative
 
-    FACiL                     `adj`     {- \$Afiy -}           [ "healing", "curative" ] ]
+    FACI                      `adj`     {- \$Afiy -}           [ "healing", "curative" ] ]
 
  |> "^s h '" <| [
 
@@ -4732,7 +4733,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $Ahiy_1
     -- \$Ahy    $Ahiy   N0      tea
 
-    FACiL                     `noun`    {- \$Ahiy -}           [ "tea" ],
+    FACI                      `noun`    {- \$Ahiy -}           [ "tea" ],
 
     -- ;; $ah~aY_1
     -- \$hY     $ah~aY  PV_0    excite;arouse
@@ -4795,7 +4796,7 @@ lexicon = listing "Lexicon's properties"
     -- m$hy    mu$ah~iy        NAn_Nayn        appetizer;aperitif
     -- m$hy    mu$ah~iy        NapAt   appetizer;aperitif
 
-    MuFaCCiL                  `noun`    {- mu$ah~iy -}         [ "appetizer", "aperitif" ],
+    MuFaCCI                   `noun`    {- mu$ah~iy -}         [ "appetizer", "aperitif" ],
 
     -- ;; mu$ah~iy_2
     -- m$hy    mu$ah~iy        N0F_Nh  appetizing
@@ -4803,7 +4804,7 @@ lexicon = listing "Lexicon's properties"
     -- m$hy    mu$ah~iy        NAn_Nayn        appetizing
     -- m$hy    mu$ah~iy        NapAt   appetizing
 
-    MuFaCCiL                  `noun`    {- mu$ah~iy -}         [ "appetizing" ],
+    MuFaCCI                   `noun`    {- mu$ah~iy -}         [ "appetizing" ],
 
     -- ;; mu$otahiy_1
     -- m$thy   mu$otahiy       N0_Nh   covetous;greedy     [[mu$otahiy/ADJ]]
@@ -4812,7 +4813,7 @@ lexicon = listing "Lexicon's properties"
     -- m$th    mu$otah Nuwn_Niyn       covetous;greedy
     -- m$thy   mu$otahiy       NapAt   covetous;greedy
 
-    MuFtaCiL                  `adj`     {- mu$otahiy -}        [ "covetous", "greedy" ],
+    MuFtaCI                   `adj`     {- mu$otahiy -}        [ "covetous", "greedy" ],
 
     -- ;; mu$otahaY_1
     -- m$thY   mu$otahaY       N0      desirable;coveted     [[mu$otahaY/ADJ]]
@@ -4827,7 +4828,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; ta$ohiyap_1
     -- t$hy    ta$ohiy Nap     arousing the appetite
 
-    TaFCiL |< aT              `noun`    {- ta$ohiyap -}        [ "arousing the appetite" ] ]
+    TaFCI |< aT               `noun`    {- ta$ohiyap -}        [ "arousing the appetite" ] ]
 
  |> "^s k '" <| [
 
@@ -5503,7 +5504,7 @@ lexicon = listing "Lexicon's properties"
     -- \$Ak     $Ak     Nuwn_Niyn       complaining
     -- \$Aky    $Akiy   NapAt   complaining
 
-    FACiL                     `adj`     {- \$Akiy -}           [ "complaining" ],
+    FACI                      `adj`     {- \$Akiy -}           [ "complaining" ],
 
     -- ;; $Akiy_2
     -- \$Aky    $Akiy   N0F     plaintiff
@@ -5512,7 +5513,7 @@ lexicon = listing "Lexicon's properties"
     -- \$Ak     $Ak     Nuwn_Niyn       plaintiff
     -- \$Aky    $Akiy   NapAt   plaintiff
 
-    FACiL                     `noun`    {- \$Akiy -}           [ "plaintiff" ],
+    FACI                      `noun`    {- \$Akiy -}           [ "plaintiff" ],
 
     -- ;; mu$otakiy_1
     -- m$tky   mu$otakiy       N0_Nh   complainant;plaintiff
@@ -5521,7 +5522,7 @@ lexicon = listing "Lexicon's properties"
     -- m$tk    mu$otak Nuwn_Niyn       complainant;plaintiff
     -- m$tky   mu$otakiy       NapAt   complainant;plaintiff
 
-    MuFtaCiL                  `noun`    {- mu$otakiy -}        [ "complainant", "plaintiff" ] ]
+    MuFtaCI                   `noun`    {- mu$otakiy -}        [ "complainant", "plaintiff" ] ]
 
  |> "^s l .h" <| [
 
@@ -7060,7 +7061,8 @@ lexicon = listing "Lexicon's properties"
     -- \$qy     $oqay   IV_Ann  be unhappy;suffer
     -- \$q      $oqa    IV_0hwnyn       be unhappy;suffer
 
-    FaCI                      `verb`    {- \$aqiy-a -}         [ "be unhappy", "suffer" ],
+    FaCI                      `verb`    {- \$aqiy-a -}         [ "be unhappy", "suffer" ]
+                              `imperf`     FCY,
 
     -- ;; >a$oqaY_1
     -- >$qY    >a$oqaY PV_0    sadden;distress
@@ -7119,7 +7121,7 @@ lexicon = listing "Lexicon's properties"
     -- \$qy     $oqay   IV_Ann  be unhappy;suffer
     -- \$q      $oqa    IV_0hwnyn       be unhappy;suffer
 
-    FaCiL                     `verb`    {- \$aqiy-a -}         [ "be unhappy", "suffer" ]
+    FaCI                      `verb`    {- \$aqiy-a -}         [ "be unhappy", "suffer" ]
                               `imperf`     FCY,
 
     -- ;; $aqiy~_1
@@ -8853,12 +8855,12 @@ lexicon = listing "Lexicon's properties"
     -- \$Ary    $Ariy   NAn_Nayn        buyer;client
     -- \$rA     $urA    Nap     buyers;clients
 
-    FACiL                     `noun`    {- \$Ariy -}           [ "buyer", "client", "buyers", "clients" ],
+    FACI                      `noun`    {- \$Ariy -}           [ "buyer", "client", "buyers", "clients" ],
 
     -- ;; $Ariy_2
     -- \$Ary    $Ariy   N0F     lightning rod
 
-    FACiL                     `noun`    {- \$Ariy -}           [ "lightning rod" ],
+    FACI                      `noun`    {- \$Ariy -}           [ "lightning rod" ],
 
     -- ;; mu$otariy_1
     -- m$try   mu$otariy       N0_Nh   buyer
@@ -8867,12 +8869,12 @@ lexicon = listing "Lexicon's properties"
     -- m$tr    mu$otar Nuwn_Niyn       buyer
     -- m$try   mu$otariy       NapAt   buyer
 
-    MuFtaCiL                  `noun`    {- mu$otariy -}        [ "buyer" ],
+    MuFtaCI                   `noun`    {- mu$otariy -}        [ "buyer" ],
 
     -- ;; mu$otariy_2
     -- m$try   mu$otariy       N0      Jupiter
 
-    MuFtaCiL                  `noun`    {- mu$otariy -}        [ "Jupiter" ],
+    MuFtaCI                   `noun`    {- mu$otariy -}        [ "Jupiter" ],
 
     -- ;; mu$otaraY_1
     -- m$trY   mu$otaraY       N0      purchased goods
@@ -8933,7 +8935,7 @@ lexicon = listing "Lexicon's properties"
     -- \$Asyh   $Asiyh  N       chassis
     -- \$Asyh   $Asiyh  NAt     chassis
 
-    FACiL                     `noun`    {- \$Asiy -}           [ "chassis" ],
+    FACI                      `noun`    {- \$Asiy -}           [ "chassis" ],
 
     -- ;; $Asiy_1
     -- \$Asy    $Asiy   N0      chassis
@@ -9322,7 +9324,7 @@ lexicon = listing "Lexicon's properties"
     -- \$Aty    $Atiy   NAn_Nayn        wintry;hibernal
     -- \$Aty    $Atiy   Napdu   wintry;hibernal
 
-    FACiL                     `adj`     {- \$Atiy -}           [ "wintry", "hibernal" ] ]
+    FACI                      `adj`     {- \$Atiy -}           [ "wintry", "hibernal" ] ]
 
  |> "^s w '" <| [
 
@@ -10088,7 +10090,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $uw_1
     -- \$w      $uw     Nprop   Shaw
 
-    FuL                       `noun`    {- \$uw -}             [ "Shaw" ],
+    FU                        `noun`    {- \$uw -}             [ "Shaw" ],
 
     -- ;; $aw~A'_1
     -- \$wA'    $aw~A'  N0_Nh   seller of roast meat;rotisseur

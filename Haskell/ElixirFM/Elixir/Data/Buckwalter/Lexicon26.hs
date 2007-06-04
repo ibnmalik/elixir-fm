@@ -917,6 +917,11 @@ lexicon = listing "Lexicon's properties"
 
     FiCA' |< Iy               `adj`     {- hijA}iy~ -}         [ "alphabetical" ],
 
+    -- ;; tahojiyap_1
+    -- thjy    tahojiy Nap     spelling
+
+    TaFCI |< aT               `noun`    {- tahojiyap -}        [ "spelling" ],
+
     -- ;; tahaj~iy_1
     -- thjy    tahaj~iy        N0_Nh   spelling
     -- thj     tahaj~  NK      spelling
@@ -951,12 +956,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; hAjiy_1
     -- hAjy    hAjiy   Nprop   Haji
 
-    FACiL                     `noun`    {- hAjiy -}            [ "Haji" ],
+    FACI                      `noun`    {- hAjiy -}            [ "Haji" ],
 
     -- ;; tahojiyap_1
     -- thjy    tahojiy Nap     spelling
 
-    TaFCiL |< aT              `noun`    {- tahojiyap -}        [ "spelling" ],
+    TaFCI |< aT               `noun`    {- tahojiyap -}        [ "spelling" ],
 
     -- ;; hAjiy_2
     -- hAjy    hAjiy   N0F     defamatory;satirical     [[hAjiy/ADJ]]
@@ -965,7 +970,7 @@ lexicon = listing "Lexicon's properties"
     -- hAj     hAj     Nuwn_Niyn       defamatory;satirical
     -- hAjy    hAjiy   NapAt   defamatory;satirical
 
-    FACiL                     `adj`     {- hAjiy -}            [ "defamatory", "satirical" ] ]
+    FACI                      `adj`     {- hAjiy -}            [ "defamatory", "satirical" ] ]
 
  |> "h ^s ^s" <| [
 
@@ -1243,7 +1248,7 @@ lexicon = listing "Lexicon's properties"
     -- hA*     hA*     Nuwn_Niyn       delirious
     -- hA*y    hA*iy   NapAt   delirious
 
-    FACiL                     `adj`     {- hA*iy -}            [ "delirious" ] ]
+    FACI                      `adj`     {- hA*iy -}            [ "delirious" ] ]
 
  |> "h b '" <| [
 
@@ -2431,7 +2436,7 @@ lexicon = listing "Lexicon's properties"
     -- mhd     muhod   Nuwn_Niyn       leading;guiding
     -- mhdy    muhodiy NapAt   leading;guiding
 
-    MuFCiL                    `adj`     {- muhodiy -}          [ "leading", "guiding" ],
+    MuFCI                     `adj`     {- muhodiy -}          [ "leading", "guiding" ],
 
     -- ;; muhodiy_2
     -- mhdy    muhodiy N0F_Nh  leader;guide
@@ -2440,7 +2445,7 @@ lexicon = listing "Lexicon's properties"
     -- mhd     muhod   Nuwn_Niyn       leader;guide
     -- mhdy    muhodiy NapAt   leader;guide
 
-    MuFCiL                    `noun`    {- muhodiy -}          [ "leader", "guide" ],
+    MuFCI                     `noun`    {- muhodiy -}          [ "leader", "guide" ],
 
     -- ;; hAdiy_1
     -- hAdy    hAdiy   N0F_Nh  leader;guide
@@ -2450,12 +2455,12 @@ lexicon = listing "Lexicon's properties"
     -- hAdy    hAdiy   NapAt   leader;guide
     -- hdA     hudA    Nap     leaders;guides
 
-    FACiL                     `noun`    {- hAdiy -}            [ "leader", "guide", "leaders", "guides" ],
+    FACI                      `noun`    {- hAdiy -}            [ "leader", "guide", "leaders", "guides" ],
 
     -- ;; hAdiy_2
     -- hAdy    hAdiy   N0      Hadi
 
-    FACiL                     `noun`    {- hAdiy -}            [ "Hadi" ],
+    FACI                      `noun`    {- hAdiy -}            [ "Hadi" ],
 
     -- ;; mahodiy~_1
     -- mhdy    mahodiy~        N0      Mahdi
@@ -2490,7 +2495,7 @@ lexicon = listing "Lexicon's properties"
     -- mhtd    muhotad Nuwn_Niyn       guided;led
     -- mhtdy   muhotadiy       NapAt   guided;led
 
-    MuFtaCiL                  `noun`    {- muhotadiy -}        [ "guided", "led" ] ]
+    MuFtaCI                   `noun`    {- muhotadiy -}        [ "guided", "led" ] ]
 
  |> "h f f" <| [
 
@@ -2642,7 +2647,7 @@ lexicon = listing "Lexicon's properties"
     -- hAf     hAf     Nuwn_Niyn       famished;starved
     -- hAfy    hAfiy   NapAt   famished;starved
 
-    FACiL                     `adj`     {- hAfiy -}            [ "famished", "starved" ] ]
+    FACI                      `adj`     {- hAfiy -}            [ "famished", "starved" ] ]
 
  |> "h k `" <| [
 
@@ -4114,7 +4119,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hAniy_1
     -- hAny    hAniy   Nprop   Hani
 
-    FACiL                     `noun`    {- hAniy -}            [ "Hani" ] ]
+    FACI                      `noun`    {- hAniy -}            [ "Hani" ] ]
 
  |> "h n z" <| [
 
@@ -4688,7 +4693,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; harAriy_1
     -- hrAry   harAriy Nprop   Harare
 
-    FaCACiL                   `noun`    {- harAriy -}          [ "Harare" ],
+    FaCACI                    `noun`    {- harAriy -}          [ "Harare" ],
+
+    -- ;; harAriy_1
+    -- hrAry   harAriy Nprop   Harare
+
+    FaCACI                    `noun`    {- harAriy -}          [ "Harare" ],
 
     -- ;; huroy_1
     -- hry     huroy   Ndu     granary
@@ -4710,7 +4720,7 @@ lexicon = listing "Lexicon's properties"
     -- hAr     hAr     Nuwn_Niyn       unsteady;tottering;reeling
     -- hAry    hAriy   NapAt   unsteady;tottering;reeling
 
-    FACiL                     `adj`     {- hAriy -}            [ "unsteady", "tottering", "reeling" ] ]
+    FACI                      `adj`     {- hAriy -}            [ "unsteady", "tottering", "reeling" ] ]
 
  |> "h s s" <| [
 
@@ -5749,7 +5759,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; huw_1
     -- hw      huw     FW-WaBi Ho (in "Ho Chi Minh")    [[huw/NOUN_PROP]]
 
-    FuL                       `noun`    {- huw -}              [ "Ho (in \"Ho Chi Minh\")" ],
+    FU                        `noun`    {- huw -}              [ "Ho (in \"Ho Chi Minh\")" ],
 
     -- ;; huw~ap_1
     -- hw      huw~    NapAt   abyss;chasm
@@ -5798,7 +5808,7 @@ lexicon = listing "Lexicon's properties"
     -- hwy     howay   IV_Ann  love;like
     -- hw      howa    IV_0hwnyn       love;like
 
-    FaCiL                     `verb`    {- hawiy-a -}          [ "love", "like" ]
+    FaCI                      `verb`    {- hawiy-a -}          [ "love", "like" ]
                               `imperf`     FCY,
 
     -- ;; haw~aY_1
@@ -5982,7 +5992,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tahowiyap_1
     -- thwy    tahowiy Nap     ventilation
 
-    TaFCiL |< aT              `noun`    {- tahowiyap -}        [ "ventilation" ],
+    TaFCI |< aT               `noun`    {- tahowiyap -}        [ "ventilation" ],
 
     -- ;; {isotihowA'_1
     -- <sthwA' {isotihowA'     N0_Nh   fascination;enchantment;seduction
@@ -6003,12 +6013,12 @@ lexicon = listing "Lexicon's properties"
     -- hAwy    hAwiy   NapAt   amateur;enthusiast;lover of
     -- hwA     huwA    Nap     amateurs;enthusiasts;lovers of
 
-    FACiL                     `noun`    {- hAwiy -}            [ "amateur", "enthusiast", "lover of", "amateurs", "enthusiasts", "lovers of" ],
+    FACI                      `noun`    {- hAwiy -}            [ "amateur", "enthusiast", "lover of", "amateurs", "enthusiasts", "lovers of" ],
 
     -- ;; hAwiyap_1
     -- hAwy    hAwiy   Napdu   crevasse;precipice
 
-    FACiL |< aT               `noun`    {- hAwiyap -}          [ "crevasse", "precipice" ] ]
+    FACI |< aT                `noun`    {- hAwiyap -}          [ "crevasse", "precipice" ] ]
 
  |> "h w z" <| [
 

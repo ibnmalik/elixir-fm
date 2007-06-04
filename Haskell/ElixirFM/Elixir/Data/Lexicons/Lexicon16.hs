@@ -261,7 +261,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t h y" <| [
 
-    FACiL                     `noun`    {- TAhiy -}            [ "cook", "cooks" ] ]
+    FACI                      `noun`    {- TAhiy -}            [ "cook", "cooks" ] ]
 
  |> ".t l `" <| [
 

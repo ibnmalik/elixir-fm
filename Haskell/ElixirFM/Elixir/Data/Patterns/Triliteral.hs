@@ -178,13 +178,19 @@ instance Forming PatternT where
 
         (   FaCA,       FuCI,       FCU,        FCY         ),  -- da`A
         (   FaCY,       FuCI,       FCI,        FCY         ),  -- ramY
+        (   FaCY,       FuCI,       FY,         FY          ),  -- ra'Y
         (   FaCI,       FuCI,       FCY,        FCY         ),  -- nasiya
 
         -- Double
 
         (   FaCL,       FuCL,       FaCL,       FaCL        ),
         (   FaCL,       FuCL,       FiCL,       FaCL        ),
-        (   FaCL,       FuCL,       FuCL,       FaCL        )
+        (   FaCL,       FuCL,       FuCL,       FaCL        ),
+
+        -- Either
+
+        (   FaCY,       FuCI,       CI,         CY          ),  -- waqY
+        (   FaCI,       FuCI,       CI,         CY          )   -- waliya
 
         ]
 
@@ -218,7 +224,7 @@ instance Forming PatternT where
                                 {-- UCiL        UCaL --}
         (   HaFAL,      HuFIL,      FIL,        FAL         ),
         (   HaFCY,      HuFCI,      FCI,        FCY         ),
-        (   HaFY,       HuFI,       FI,         FY          ),
+        (   HaFY,       HuFI,       FI,         FY          ),  -- 'arY
         (   HaFaCL,     HuFiCL,     FiCL,       FaCL        ),
         (   HACY,       HUCI,       FCI,        FCY         )
 
@@ -417,8 +423,9 @@ data PatternT =
 --  Form I
 
             FaCaL                       |   FAL         |   FaCY        |   FaCL
+                                                        |   FaCA
         |   FaCiL                                       |   FaCI
-        |   FaCuL                                       |   FaCA
+        |   FaCuL                                       |   FaCU
 
         |   FuCiL                                       |   FuCI
 
@@ -459,7 +466,7 @@ data PatternT =
         |   FiCCIL
         |   FaCCUL
 
-        |   FaCACiL
+        |   FaCACiL                                     |   FaCACI
         |   FaCACIL
 
         |   MaFCaL                      |   MaFAL       |   MaFCY       |   MaFaCL
@@ -476,7 +483,7 @@ data PatternT =
 
         |   FACUL
 
-        |   FawACiL                     |   FawA'iL
+        |   FawACiL                     |   FawA'iL     |   FawACI
         |   FawACIL                     |   FawA'IL
 
         |   MaFACiL                     |   MaFA'iL     |   MaFACI      |   MaFACL
@@ -485,7 +492,7 @@ data PatternT =
     {-- |   FaCaL   --}                             {-- |   FaCY    --}
         |   FiCaL                                       |   FiCY
         |   FuCaL                                       |   FuCY
-        |   FuCuL
+        |   FuCuL                                       |   FuCU
 
         |   FaCLAn
         |   FaCaLAn
@@ -507,7 +514,7 @@ data PatternT =
         |   FaCCiL                                      |   FaCCI
 
         |   TaFCIL
-        |   TaFCiL
+        |   TaFCiL                                      |   TaFCI
 
         |   TiFCAL      |   TICAL                       |   TiFCA'                      |   TICA'
 

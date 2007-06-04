@@ -196,7 +196,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "z h y" <| [
 
-    FACiL                     `adj`     {- zAhiy -}            [ "resplendent", "magnificent" ] ]
+    FACI                      `adj`     {- zAhiy -}            [ "resplendent", "magnificent" ] ]
 
  |> "z k m" <| [
 
@@ -205,7 +205,9 @@ lexicon = listing "Lexicon's properties"
  |> "z k w" <| [
 
     FaCY |< aT                `noun`    {- zakAp -}            [ "alms", "charity" ]
-                              `plural`     FaCaL |< At ]
+                              `plural`     FaCaL |< At,
+
+    TaFCI |< aT               `noun`    {- tazokiyap -}        [ "purification", "nomination by acclamation" ] ]
 
  |> "z k y" <| [
 
@@ -213,7 +215,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCiLA'
                            {- `others`  [ "'azkiyA' Nh N0_Nh Nhy" ] -},
 
-    TaFCiL |< aT              `noun`    {- tazokiyap -}        [ "purification", "nomination by acclamation" ] ]
+    TaFCI |< aT               `noun`    {- tazokiyap -}        [ "purification", "nomination by acclamation" ] ]
 
  |> "z l q" <| [
 
@@ -470,7 +472,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "z w y" <| [
 
-    FACiL |< aT               `noun`    {- zAwiyap -}          [ "corner", "nook", "angle", "corners", "nooks", "angles" ] ]
+    FACI |< aT                `noun`    {- zAwiyap -}          [ "corner", "nook", "angle", "corners", "nooks", "angles" ] ]
 
  |> "z y '" <| [
 

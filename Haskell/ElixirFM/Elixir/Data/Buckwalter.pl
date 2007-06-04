@@ -352,7 +352,12 @@ sub closeEntry {
             next if defined $toor[0] and defined $toor[1] and $toor[0] eq $toor[1] or
                     @toor == 4 and $toor[1] eq $toor[2];
 
-            push @{$root{join ' ', map { defined $_ ? $_ : '' } @toor}}, $patterns{$pattern};
+            my $ptrn = $patterns{$pattern};
+
+            $ptrn =~ s/iL$/I/ if defined $toor[2] and $toor[2] eq 'y';
+            $ptrn =~ s/uL$/U/ if defined $toor[2] and $toor[2] eq 'w';
+
+            push @{$root{join ' ', map { defined $_ ? $_ : '' } @toor}}, $ptrn;
         }
     }
 
@@ -400,7 +405,7 @@ sub closeEntry {
 
 sub restoreWith {
 
-    return $_[0] =~ /^[wy\']$/ ? $_[0] : "y";
+    return $_[0] =~ /^[yw\']$/ ? $_[0] : "y";
 }
 
 

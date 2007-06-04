@@ -53,7 +53,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- dA}iy -}            [ "Da'i" ],
 
-    FACiL                     `noun`    {- dA}iy -}            [ "Da'i" ] ]
+    FACI                      `noun`    {- dA}iy -}            [ "Da'i" ] ]
 
  |> "d .h l" <| [
 
@@ -219,7 +219,9 @@ lexicon = listing "Lexicon's properties"
 
     IstiFCA'                  `noun`    {- AisotidoEA' -}      [ "summons", "petition", "petitions" ],
 
-    FACI                      `noun`    {- dAEiy -}            [ "cause", "reason", "motives", "requirements" ],
+    FACI                      `noun`    {- dAEiy -}            [ "cause", "reason", "motives", "requirements" ]
+                              `plural`     FawACI
+                           {- `others`  [ "dawA`iy N0_Nh" ] -},
 
     FACI                      `noun`    {- dAEiy -}            [ "inviter", "propagandist", "callers", "propagandists" ],
 
@@ -239,15 +241,16 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- diEAyap -}          [ "propaganda", "advertising" ],
 
-    FACiL                     `noun`    {- dAEiy -}            [ "cause", "reason", "motives", "requirements" ]
+    FACI                      `noun`    {- dAEiy -}            [ "cause", "reason", "motives", "requirements" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "dawA`iy N0_Nh" ] -},
 
-    FACiL                     `noun`    {- dAEiy -}            [ "inviter", "propagandist", "callers", "propagandists" ],
+    FACI                      `noun`    {- dAEiy -}            [ "inviter", "propagandist", "callers", "propagandists" ],
 
-    FACiL |< aT               `noun`    {- dAEiyap -}          [ "propagandist", "missionary", "motive" ],
+    FACI |< aT                `noun`    {- dAEiyap -}          [ "propagandist", "missionary", "motive" ],
 
-    MuFtaCiL                  `noun`    {- mud~aEiy -}         [ "plaintiff", "prosecutor" ] ]
+    MuFtaCI                   `noun`    {- mud~aEiy -}         [ "plaintiff", "prosecutor" ] ]
 
  |> "d b b" <| [
 
@@ -561,7 +564,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCY |< Iy                `adj`     {- damawiy~ -}         [ "bloody", "blood" ],
 
-    FACiL                     `noun`    {- dAmiy -}            [ "bloody" ],
+    FACI                      `noun`    {- dAmiy -}            [ "bloody" ],
 
     MuFaCCY                   `noun`    {- mudam~aY -}         [ "bloody" ]
                               `plural`     MuFaCCaL |< At
@@ -610,7 +613,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "d n y" <| [
 
-    MutaFaCCiL                `noun`    {- mutadan~iy -}       [ "approaching", "debased ??" ] ]
+    MutaFaCCI                 `noun`    {- mutadan~iy -}       [ "approaching", "debased ??" ] ]
 
  |> "d q l" <| [
 
@@ -1022,7 +1025,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "d w w" <| [
 
-    FuL                       `noun`    {- duw -}              [ "Du", "Do" ] ]
+    FU                        `noun`    {- duw -}              [ "Du", "Do" ] ]
 
  |> "d w y" <| [
 
@@ -1038,9 +1041,9 @@ lexicon = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- diwA' -}            [ "therapy", "treatment" ],
 
-    MuFaCCiL                  `noun`    {- mudaw~iy -}         [ "ringing", "resounding" ],
+    MuFaCCI                   `noun`    {- mudaw~iy -}         [ "ringing", "resounding" ],
 
-    FA'iL                     `noun`    {- dA}iy -}            [ "Da'i" ] ]
+    FA'I                      `noun`    {- dA}iy -}            [ "Da'i" ] ]
 
  |> "d y ^s y" <| [
 

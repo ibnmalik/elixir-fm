@@ -1399,14 +1399,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; yuw_1
     -- yw      yuw     Nprop   Yo;Yu
 
-    FuL                       `noun`    {- yuw -}              [ "Yo", "Yu" ] ]
+    FU                        `noun`    {- yuw -}              [ "Yo", "Yu" ] ]
 
  |> "y y y" <| [
 
     -- ;; yiy_1
     -- yy      yiy     Nprop   Yi
 
-    FiL                       `noun`    {- yiy -}              [ "Yi" ],
+    FI                        `noun`    {- yiy -}              [ "Yi" ],
 
     -- ;; yiy_1
     -- yy      yiy     Nprop   Yi

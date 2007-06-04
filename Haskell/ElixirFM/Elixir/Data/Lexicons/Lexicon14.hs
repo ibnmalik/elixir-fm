@@ -68,7 +68,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".s .g y" <| [
 
-    FACiL                     `adj`     {- SAgiy -}            [ "attentive", "listening" ] ]
+    FACI                      `adj`     {- SAgiy -}            [ "attentive", "listening" ] ]
 
  |> ".s .h .h" <| [
 
@@ -555,6 +555,12 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACI
                            {- `others`  [ "ma.sAfiy N0_Nh" ] -},
 
+    TaFCI |< aT               `noun`    {- taSofiyap -}        [ "settlement" ],
+
+    TaFCI |< aT               `noun`    {- taSofiyap -}        [ "clearing", "liquidation", "elimination series (sports)" ],
+
+    TaFCI |< aT               `noun`    {- taSofiyap -}        [ "purification", "filtration" ],
+
     IFtiCA'                   `noun`    {- AiSoTifA' -}        [ "selection" ],
 
     FACI                      `noun`    {- SAfiy -}            [ "net" ],
@@ -573,15 +579,15 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCiLA'
                            {- `others`  [ "'a.sfiyA' Nh N0_Nh Nhy" ] -},
 
-    TaFCiL |< aT              `noun`    {- taSofiyap -}        [ "settlement" ],
+    TaFCI |< aT               `noun`    {- taSofiyap -}        [ "settlement" ],
 
-    TaFCiL |< aT              `noun`    {- taSofiyap -}        [ "clearing", "liquidation", "elimination series (sports)" ],
+    TaFCI |< aT               `noun`    {- taSofiyap -}        [ "clearing", "liquidation", "elimination series (sports)" ],
 
-    TaFCiL |< aT              `noun`    {- taSofiyap -}        [ "purification", "filtration" ],
+    TaFCI |< aT               `noun`    {- taSofiyap -}        [ "purification", "filtration" ],
 
-    FACiL                     `noun`    {- SAfiy -}            [ "net" ],
+    FACI                      `noun`    {- SAfiy -}            [ "net" ],
 
-    FACiL                     `adj`     {- SAfiy -}            [ "pure", "clear", "sincere" ] ]
+    FACI                      `adj`     {- SAfiy -}            [ "pure", "clear", "sincere" ] ]
 
  |> ".s h r" <| [
 
@@ -708,7 +714,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".s l y" <| [
 
-    MuFaCCiL                  `noun`    {- muSal~iy -}         [ "praying", "worshipping", "people praying", "people worshipping" ] ]
+    MuFaCCI                   `noun`    {- muSal~iy -}         [ "praying", "worshipping", "people praying", "people worshipping" ] ]
 
  |> ".s m d" <| [
 

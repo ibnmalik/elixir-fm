@@ -148,7 +148,7 @@ sub showEntry ($) {
 
     if ($entry->{'entity'} eq 'verb') {
 
-        if ($entry->{'morphs'} =~ /^(?:FaC[aiu]L|FAL|FaC[AY]|FaCL)$/) {
+        if ($entry->{'morphs'} =~ /^(?:FaC[aiu]L|FAL|FaC[YAIU]|FaCL)$/) {
 
             warn $entry->{'orig'} . "\n" unless exists $entry->{'imperf'} and @{$entry->{'imperf'}} > 0;
 
@@ -187,8 +187,10 @@ sub showEntry ($) {
                 @ptrns = grep { not /^FtaL$/    } @ptrns if $entry->{'morphs'} =~ /^FaC[aiu]L$/;
 
                 @ptrns = grep { not /^F[iu]CL$/ } @ptrns if $entry->{'morphs'} eq 'FAL';
-                @ptrns = grep { not /^FCuL$/    } @ptrns if $entry->{'morphs'} eq 'FaCA';
                 @ptrns = grep { not /^FCiL$/    } @ptrns if $entry->{'morphs'} eq 'FaCY';
+                @ptrns = grep { not /^FCuL$/    } @ptrns if $entry->{'morphs'} eq 'FaCA';
+                @ptrns = grep { not /^FCaL$/    } @ptrns if $entry->{'morphs'} eq 'FaCI';
+                @ptrns = grep { not /^FCuL$/    } @ptrns if $entry->{'morphs'} eq 'FaCU';
 
                 push @{$imperf}, @ptrns if grep { /^IV(?:_V)?$/ } @types;
                 push @{$pfirst}, @ptrns if grep { /^PV_C/       } @types;

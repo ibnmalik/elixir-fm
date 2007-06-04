@@ -392,7 +392,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "f ^s y" <| [
 
-    MutaFaCCiL                `adj`     {- mutafa$~iy -}       [ "spread", "endemic" ] ]
+    MutaFaCCI                 `adj`     {- mutafa$~iy -}       [ "spread", "endemic" ] ]
 
  |> "f _h _d" <| [
 
@@ -1324,9 +1324,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- fatiy~ -}           [ "youthful" ],
 
-    MuFCiL                    `noun`    {- mufotiy -}          [ "mufti (Muslim legal scholar)" ],
+    MuFCI                     `noun`    {- mufotiy -}          [ "mufti (Muslim legal scholar)" ],
 
-    MuFCiL                    `noun`    {- mufotiy -}          [ "Mufti" ] ]
+    MuFCI                     `noun`    {- mufotiy -}          [ "Mufti" ] ]
 
  |> "f w .d" <| [
 
@@ -1567,7 +1567,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "f y y" <| [
 
-    FiL                       `noun`    {- fiy -}              [ "in" ],
+    FI                        `noun`    {- fiy -}              [ "in" ],
 
     FI                        `noun`    {- fiy -}              [ "in" ] ]
 

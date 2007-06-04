@@ -224,19 +224,20 @@ lexicon = listing "Lexicon's properties"
 
     FuCA' |< Iy               `adj`     {- vunA}iy~ -}         [ "bilateral", "dual" ],
 
-    FACiL                     `adj`     {- vAniy -}            [ "second", "next" ],
+    FACI                      `adj`     {- vAniy -}            [ "second", "next" ],
 
-    FACiL                     `noun`    {- vAniy -}            [ "Second" ],
+    FACI                      `noun`    {- vAniy -}            [ "Second" ],
 
-    FACiL                     `adj`     {- vAniy -}            [ "second", "next" ],
+    FACI                      `adj`     {- vAniy -}            [ "second", "next" ],
 
-    FACiL |< aN               `noun`    {- vAniyAF -}          [ "secondly" ]
+    FACI |< aN                `noun`    {- vAniyAF -}          [ "secondly" ]
                               `plural`     FACiL
                               `plural`     FACI
                            {- `others`  [ "_tAniy NF" ] -},
 
-    FACiL |< aT               `noun`    {- vAniyap -}          [ "second (time span)", "seconds (time span)" ]
+    FACI |< aT                `noun`    {- vAniyap -}          [ "second (time span)", "seconds (time span)" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "_tawAniy N0_Nh" ] -},
 
     IstiFCA'                  `noun`    {- AisotivonA' -}      [ "exception", "exclusion", "exceptions", "exclusions" ],

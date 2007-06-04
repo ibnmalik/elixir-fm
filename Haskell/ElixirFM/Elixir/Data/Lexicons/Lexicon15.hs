@@ -72,14 +72,17 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `noun`    {- OaDoHaY -}          [ "Adha Feast", "Immolation" ],
 
-    FACI |< aT                `noun`    {- DAHiyap -}          [ "suburb", "vicinity", "suburbs", "outskirts" ] ]
+    FACI |< aT                `noun`    {- DAHiyap -}          [ "suburb", "vicinity", "suburbs", "outskirts" ]
+                              `plural`     FawACI
+                           {- `others`  [ ".dawA.hiy N0_Nh" ] -} ]
 
  |> ".d .h y" <| [
 
     FaCIL |< aT               `noun`    {- DaHiy~ap -}         [ "victim", "victims" ],
 
-    FACiL |< aT               `noun`    {- DAHiyap -}          [ "suburb", "vicinity", "suburbs", "outskirts" ]
+    FACI |< aT                `noun`    {- DAHiyap -}          [ "suburb", "vicinity", "suburbs", "outskirts" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ ".dawA.hiy N0_Nh" ] -} ]
 
  |> ".d .t r" <| [

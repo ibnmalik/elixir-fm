@@ -95,10 +95,11 @@ lexicon = listing "Lexicon's properties"
 
     HiFCA'                    `noun`    {- IimoDA' -}          [ "accomplishment", "completion" ],
 
-    FACiL                     `adj`     {- mADiy -}            [ "past", "bygone" ],
+    FACI                      `adj`     {- mADiy -}            [ "past", "bygone" ],
 
-    FACiL                     `adj`     {- mADiy -}            [ "incisive", "keen", "energetic", "efficient" ]
+    FACI                      `adj`     {- mADiy -}            [ "incisive", "keen", "energetic", "efficient" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "mawA.diy N0_Nh" ] -} ]
 
  |> "m .g n" <| [
@@ -265,10 +266,11 @@ lexicon = listing "Lexicon's properties"
 
     TaFACI                    `noun`    {- tamA$iy -}          [ "in accordance with", "in conformity with" ],
 
-    FACiL                     `noun`    {- mA$iy -}            [ "going", "walking", "infantry", "pedestrians", "on foot" ],
+    FACI                      `noun`    {- mA$iy -}            [ "going", "walking", "infantry", "pedestrians", "on foot" ],
 
-    FACiL |< aT               `noun`    {- mA$iyap -}          [ "livestock", "cattle" ]
+    FACI |< aT                `noun`    {- mA$iyap -}          [ "livestock", "cattle" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "mawA^siy N0_Nh" ] -} ]
 
  |> "m _h .d" <| [
@@ -723,7 +725,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "m l y" <| [
 
-    FACiL                     `noun`    {- mAliy -}            [ "Mali" ],
+    FACI                      `noun`    {- mAliy -}            [ "Mali" ],
 
     FACI                      `noun`    {- mAliy -}            [ "Mali" ],
 
@@ -743,11 +745,13 @@ lexicon = listing "Lexicon's properties"
 
     MICAL                     `noun`    {- miynA' -}           [ "port", "harbor", "ports", "harbors" ]
                               `plural`     FawACiL
-                           {- `others`  [ "mawAni' Ndip" ] -},
+                              `plural`     FawACI
+                           {- `others`  [ "mawAni' Ndip", "mawAniy N0_Nh" ] -},
 
     FICAL                     `noun`    {- miynA' -}           [ "port", "harbor", "ports", "harbors" ]
                               `plural`     FawACiL
-                           {- `others`  [ "mawAni' Ndip" ] -} ]
+                              `plural`     FawACI
+                           {- `others`  [ "mawAni' Ndip", "mawAniy N0_Nh" ] -} ]
 
  |> "m n .g l" <| [
 
@@ -841,7 +845,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCL |< aT
                            {- `others`  [ "'amAniy N0_Nh" ] -},
 
-    MutaFaCCiL                `noun`    {- mutaman~iy -}       [ "wishing", "desiring" ] ]
+    MutaFaCCI                 `noun`    {- mutaman~iy -}       [ "wishing", "desiring" ] ]
 
  |> "m q l" <| [
 
@@ -1030,7 +1034,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- mAriy -}            [ "Mary" ],
 
-    FACiL                     `noun`    {- mAriy -}            [ "Mary" ] ]
+    FACI                      `noun`    {- mAriy -}            [ "Mary" ] ]
 
  |> "m r y m" <| [
 

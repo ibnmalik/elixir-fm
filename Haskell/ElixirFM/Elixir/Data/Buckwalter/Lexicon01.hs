@@ -1109,7 +1109,8 @@ lexicon = listing "Lexicon's properties"
     -- >*      >o*a    IV_0hwnyn_no-Pref-A     suffer damage
     -- A*      >o*a    IV_0hwnyn_no-Pref-A     suffer damage
 
-    FaCI                      `verb`    {- Oa*iy-a -}          [ "suffer damage" ],
+    FaCI                      `verb`    {- Oa*iy-a -}          [ "suffer damage" ]
+                              `imperf`     FCY,
 
     -- ;; |*aY_1
     -- \|*Y     |*aY    PV_0    injure;prejudice
@@ -1398,7 +1399,7 @@ lexicon = listing "Lexicon's properties"
     -- >*      >o*a    IV_0hwnyn_no-Pref-A     suffer damage
     -- A*      >o*a    IV_0hwnyn_no-Pref-A     suffer damage
 
-    FaCiL                     `verb`    {- Oa*iy-a -}          [ "suffer damage" ]
+    FaCI                      `verb`    {- Oa*iy-a -}          [ "suffer damage" ]
                               `imperf`     FCY,
 
     -- ;; <i*Ayap_1
@@ -1414,7 +1415,7 @@ lexicon = listing "Lexicon's properties"
     -- m&*     mu&o*   Nuwn_Niyn       harmful;offensive
     -- m&*y    mu&o*iy NapAt   harmful;offensive
 
-    MuFCiL                    `noun`    {- muWo*iy -}          [ "harmful", "offensive" ] ]
+    MuFCI                     `noun`    {- muWo*iy -}          [ "harmful", "offensive" ] ]
 
  |> "' _h '" <| [
 
@@ -1560,8 +1561,9 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `noun`    {- Oax -}              [ "brother", "brother + my", "brothers" ]
                               `plural`     FaCI
+                              `plural`     FaCU
                               `plural`     FaCA
-                           {- `others`  [ "'a_hiy N0_Nh FW-WaBi", "'a_hA N0_Nh" ] -} ]
+                           {- `others`  [ "'a_hiy N0_Nh FW-WaBi", "'a_huw N0_Nh", "'a_hA N0_Nh" ] -} ]
 
  |> "' _h r" <| [
 
@@ -1848,7 +1850,15 @@ lexicon = listing "Lexicon's properties"
     -- mwAxw   muwAxaw NAt     fraternization
 
     MuFACY |< aT              `noun`    {- muWAxAp -}          [ "fraternization" ]
-                              `plural`     MuFACaL |< At ]
+                              `plural`     MuFACaL |< At,
+
+    -- ;; >awAxiy_1
+    -- >wAxy   >awAxiy N0_Nh   ties;bonds
+    -- AwAxy   >awAxiy N0_Nh   ties;bonds
+    -- >wAx    >awAx   NK      ties;bonds
+    -- AwAx    >awAx   NK      ties;bonds
+
+    FawACI                    `noun`    {- OawAxiy -}          [ "ties", "bonds" ] ]
 
  |> "' _h w y" <| [
 
@@ -1864,13 +1874,13 @@ lexicon = listing "Lexicon's properties"
     -- \|xy     |xiy    Nap     attachment;bond
     -- Axy     |xiy    Nap     attachment;bond
 
-    HACiL |< aT               `noun`    {- \|xiyap -}          [ "attachment", "bond" ],
+    HACI |< aT                `noun`    {- \|xiyap -}          [ "attachment", "bond" ],
 
     -- ;; |xiyap_1
     -- \|xy     |xiy    Nap     attachment;bond
     -- Axy     |xiy    Nap     attachment;bond
 
-    FACiL |< aT               `noun`    {- \|xiyap -}          [ "attachment", "bond" ],
+    FACI |< aT                `noun`    {- \|xiyap -}          [ "attachment", "bond" ],
 
     -- ;; >awAxiy_1
     -- >wAxy   >awAxiy N0_Nh   ties;bonds
@@ -1878,7 +1888,7 @@ lexicon = listing "Lexicon's properties"
     -- >wAx    >awAx   NK      ties;bonds
     -- AwAx    >awAx   NK      ties;bonds
 
-    FawACiL                   `noun`    {- OawAxiy -}          [ "ties", "bonds" ] ]
+    FawACI                    `noun`    {- OawAxiy -}          [ "ties", "bonds" ] ]
 
  |> "' _t _t" <| [
 
@@ -2509,8 +2519,9 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `noun`    {- Oab -}              [ "father", "father + my" ]
                               `plural`     FaCI
+                              `plural`     FaCU
                               `plural`     FaCA
-                           {- `others`  [ "'abiy N0_Nh FW-WaBi", "'abA N0_Nh" ] -},
+                           {- `others`  [ "'abiy N0_Nh FW-WaBi", "'abuw N0_Nh", "'abA N0_Nh" ] -},
 
     -- ;; >abiyb_1
     -- >byb    >abiyb  Nprop   Aviv
@@ -2958,7 +2969,7 @@ lexicon = listing "Lexicon's properties"
     -- >bw     >abuw   Nprop   Abu
     -- Abw     >abuw   Nprop   Abu
 
-    FaCuL                     `noun`    {- Oabuw -}            [ "Abu" ],
+    FaCU                      `noun`    {- Oabuw -}            [ "Abu" ],
 
     -- ;; >abA_1
     -- >bA     >abA    Nprop   Aba
@@ -3020,7 +3031,7 @@ lexicon = listing "Lexicon's properties"
     -- >by     >abiy   Nprop   Abi
     -- Aby     >abiy   Nprop   Abi
 
-    FaCiL                     `noun`    {- Oabiy -}            [ "Abi" ],
+    FaCI                      `noun`    {- Oabiy -}            [ "Abi" ],
 
     -- ;; >abaY-a_1
     -- >bY     >abaY   PV_0    deny;refuse
@@ -3091,7 +3102,7 @@ lexicon = listing "Lexicon's properties"
     -- >bA     >ubA    Nap     reluctant;unwilling
     -- AbA     >ubA    Nap     reluctant;unwilling
 
-    FACiL                     `noun`    {- \|biy -}            [ "reluctant", "unwilling" ] ]
+    FACI                      `noun`    {- \|biy -}            [ "reluctant", "unwilling" ] ]
 
  |> "' b z m" <| [
 
@@ -3457,7 +3468,7 @@ lexicon = listing "Lexicon's properties"
     -- t>dy    ta>odiy NapAt   accomplishment;performance
     -- tAdy    ta>odiy NapAt   accomplishment;performance
 
-    TaFCiL |< aT              `noun`    {- taOodiyap -}        [ "accomplishment", "performance" ],
+    TaFCI |< aT               `noun`    {- taOodiyap -}        [ "accomplishment", "performance" ],
 
     -- ;; mu&ad~iy_1
     -- m&dy    mu&ad~iy        N0_Nh   leading;causing
@@ -3466,7 +3477,7 @@ lexicon = listing "Lexicon's properties"
     -- m&d     mu&ad~  Nuwn_Niyn       leading;causing
     -- m&dy    mu&ad~iy        NapAt   leading;causing
 
-    MuFaCCiL                  `noun`    {- muWad~iy -}         [ "leading", "causing" ],
+    MuFaCCI                   `noun`    {- muWad~iy -}         [ "leading", "causing" ],
 
     -- ;; mu&ad~aY_1
     -- m&dY    mu&ad~aY        N0      task;content;significance
@@ -3770,7 +3781,7 @@ lexicon = listing "Lexicon's properties"
     -- >fy     >afiy   Nprop   Avi
     -- Afy     >afiy   Nprop   Avi
 
-    FaCiL                     `noun`    {- Oafiy -}            [ "Avi" ] ]
+    FaCI                      `noun`    {- Oafiy -}            [ "Avi" ] ]
 
  |> "' f y m" <| [
 
@@ -5226,7 +5237,7 @@ lexicon = listing "Lexicon's properties"
     -- >lw     >uluw   FW-WaBi those     [[>uluw/DEM_PRON_MP]]
     -- Alw     >uluw   FW-WaBi those     [[>uluw/DEM_PRON_MP]]
 
-    FuCuL                     `noun`    {- Ouluw -}            [ "those" ] ]
+    FuCU                      `noun`    {- Ouluw -}            [ "those" ] ]
 
  |> "' l y" <| [
 
@@ -5254,7 +5265,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; ta>oliyap_1
     -- t>ly    ta>oliy NapAt   automation;mechanization
 
-    TaFCiL |< aT              `noun`    {- taOoliyap -}        [ "automation", "mechanization" ],
+    TaFCI |< aT               `noun`    {- taOoliyap -}        [ "automation", "mechanization" ],
 
     -- ;; ta>al~aY_1
     -- t>lY    ta>al~aY        PV_0    be automated;be mechanized
@@ -5297,7 +5308,13 @@ lexicon = listing "Lexicon's properties"
     -- \|lA}    |lA}    Nhy     benefits;blessings
     -- AlA}    |lA}    Nhy     benefits;blessings
 
-    HACA'                     `noun`    {- \|lA' -}            [ "benefits", "blessings" ] ]
+    HACA'                     `noun`    {- \|lA' -}            [ "benefits", "blessings" ],
+
+    -- ;; >uluw_1
+    -- >lw     >uluw   FW-WaBi those     [[>uluw/DEM_PRON_MP]]
+    -- Alw     >uluw   FW-WaBi those     [[>uluw/DEM_PRON_MP]]
+
+    FuCU                      `noun`    {- Ouluw -}            [ "those" ] ]
 
  |> "' l y s" <| [
 
@@ -6245,8 +6262,10 @@ lexicon = listing "Lexicon's properties"
     -- AwAn    >awAn   NK      vessels;containers;receptacles
 
     FiCAL                     `noun`    {- IinA' -}            [ "vessel", "container", "receptacle", "vessels", "containers", "receptacles" ]
+                              `plural`     FawACI
                               `plural`     HACI |< aT
-                              `plural`     FACI |< aT,
+                              `plural`     FACI |< aT
+                           {- `others`  [ "'awAniy N0_Nh" ] -},
 
     -- ;; ta>an~iy_1
     -- t>ny    ta>an~iy        N0_Nh   circumspection;prudence
@@ -7146,7 +7165,7 @@ lexicon = listing "Lexicon's properties"
     -- mt>n    muta>an~        Nuwn_Niyn       circumspect;prudent
     -- mt>ny   muta>an~iy      NapAt   circumspect;prudent
 
-    MutaFaCCiL                `noun`    {- mutaOan~iy -}       [ "circumspect", "prudent" ] ]
+    MutaFaCCI                 `noun`    {- mutaOan~iy -}       [ "circumspect", "prudent" ] ]
 
  |> "' n y s" <| [
 
@@ -8805,7 +8824,8 @@ lexicon = listing "Lexicon's properties"
     -- >s      >osa    IV_0hwnyn_no-Pref-A     be sad;grieve
     -- As      >osa    IV_0hwnyn_no-Pref-A     be sad;grieve
 
-    FaCI                      `verb`    {- Oasiy-a -}          [ "be sad", "grieve" ],
+    FaCI                      `verb`    {- Oasiy-a -}          [ "be sad", "grieve" ]
+                              `imperf`     FCY,
 
     -- ;; >as~aY_1
     -- >sY     >as~aY  PV_0    console;comfort
@@ -8980,6 +9000,12 @@ lexicon = listing "Lexicon's properties"
 
     MaFCY |< Iy               `adj`     {- maOosawiy~ -}       [ "tragic" ],
 
+    -- ;; ta>osiyap_1
+    -- t>sy    ta>osiy NapAt   consolation;comfort
+    -- tAsy    ta>osiy NapAt   consolation;comfort
+
+    TaFCI |< aT               `noun`    {- taOosiyap -}        [ "consolation", "comfort" ],
+
     -- ;; mu&AsAp_1
     -- m&AsA   mu&AsA  Napdu   consolation;charity
     -- m&Asw   mu&Asaw NAt     consolation;charity
@@ -9042,7 +9068,7 @@ lexicon = listing "Lexicon's properties"
     -- >s      >osa    IV_0hwnyn_no-Pref-A     be sad;grieve
     -- As      >osa    IV_0hwnyn_no-Pref-A     be sad;grieve
 
-    FaCiL                     `verb`    {- Oasiy-a -}          [ "be sad", "grieve" ]
+    FaCI                      `verb`    {- Oasiy-a -}          [ "be sad", "grieve" ]
                               `imperf`     FCY,
 
     -- ;; |siy_1
@@ -9057,7 +9083,7 @@ lexicon = listing "Lexicon's properties"
     -- \|sy     |siy    NapAt   afflicted;desolate
     -- Asy     |siy    NapAt   afflicted;desolate
 
-    HACiL                     `noun`    {- \|siy -}            [ "afflicted", "desolate" ],
+    HACI                      `noun`    {- \|siy -}            [ "afflicted", "desolate" ],
 
     -- ;; |siy_1
     -- \|sy     |siy    N0F     afflicted;desolate
@@ -9071,7 +9097,7 @@ lexicon = listing "Lexicon's properties"
     -- \|sy     |siy    NapAt   afflicted;desolate
     -- Asy     |siy    NapAt   afflicted;desolate
 
-    FACiL                     `noun`    {- \|siy -}            [ "afflicted", "desolate" ],
+    FACI                      `noun`    {- \|siy -}            [ "afflicted", "desolate" ],
 
     -- ;; >asoyAn_1
     -- >syAn   >asoyAn N/ap    afflicted;desolate;sad
@@ -9083,7 +9109,7 @@ lexicon = listing "Lexicon's properties"
     -- t>sy    ta>osiy NapAt   consolation;comfort
     -- tAsy    ta>osiy NapAt   consolation;comfort
 
-    TaFCiL |< aT              `noun`    {- taOosiyap -}        [ "consolation", "comfort" ],
+    TaFCI |< aT               `noun`    {- taOosiyap -}        [ "consolation", "comfort" ],
 
     -- ;; mu&Asiy_1
     -- m&Asy   mu&Asiy N0F_Nh  comforting;consoling
@@ -9092,7 +9118,7 @@ lexicon = listing "Lexicon's properties"
     -- m&As    mu&As   Nuwn_Niyn       comforting;consoling
     -- m&Asy   mu&Asiy NapAt   comforting;consoling
 
-    MuFACiL                   `noun`    {- muWAsiy -}          [ "comforting", "consoling" ],
+    MuFACI                    `noun`    {- muWAsiy -}          [ "comforting", "consoling" ],
 
     -- ;; mu&osiy_1
     -- m&sy    mu&osiy N0F_Nh  saddening;discomforting
@@ -9101,7 +9127,7 @@ lexicon = listing "Lexicon's properties"
     -- m&s     mu&os   Nuwn_Niyn       saddening;discomforting
     -- m&sy    mu&osiy NapAt   saddening;discomforting
 
-    MuFCiL                    `noun`    {- muWosiy -}          [ "saddening", "discomforting" ] ]
+    MuFCI                     `noun`    {- muWosiy -}          [ "saddening", "discomforting" ] ]
 
  |> "' s y .t" <| [
 
@@ -9353,7 +9379,7 @@ lexicon = listing "Lexicon's properties"
     -- \|ty     |tiy    NapAt   coming;following
     -- Aty     |tiy    NapAt   coming;following
 
-    FACiL                     `noun`    {- \|tiy -}            [ "coming", "following" ],
+    FACI                      `noun`    {- \|tiy -}            [ "coming", "following" ],
 
     -- ;; ma>otaY_1
     -- m>tY    ma>otaY N0      place of origin;source
@@ -9375,7 +9401,7 @@ lexicon = listing "Lexicon's properties"
     -- m&At    mu&At   Nuwn_Niyn       favorable;suitable
     -- m&Aty   mu&Atiy NapAt   favorable;suitable
 
-    MuFACiL                   `noun`    {- muWAtiy -}          [ "favorable", "suitable" ],
+    MuFACI                    `noun`    {- muWAtiy -}          [ "favorable", "suitable" ],
 
     -- ;; muta>at~iy_1
     -- mt>ty   muta>at~iy      N0F_Nh  derived;proceeding
@@ -9384,7 +9410,7 @@ lexicon = listing "Lexicon's properties"
     -- mt>t    muta>at~        Nuwn_Niyn       derived;proceeding
     -- mt>ty   muta>at~iy      NapAt   derived;proceeding
 
-    MutaFaCCiL                `noun`    {- mutaOat~iy -}       [ "derived", "proceeding" ],
+    MutaFaCCI                 `noun`    {- mutaOat~iy -}       [ "derived", "proceeding" ],
 
     -- ;; >uwtiy_1
     -- >wty    >uwtiy  Nprop   Ottey
@@ -9396,7 +9422,7 @@ lexicon = listing "Lexicon's properties"
     -- >wty    >uwtiy  Nprop   Ottey
     -- Awty    >uwtiy  Nprop   Ottey
 
-    HUCiL                     `noun`    {- Ouwtiy -}           [ "Ottey" ],
+    HUCI                      `noun`    {- Ouwtiy -}           [ "Ottey" ],
 
     -- ;; >uwtiy_1
     -- >wty    >uwtiy  Nprop   Ottey

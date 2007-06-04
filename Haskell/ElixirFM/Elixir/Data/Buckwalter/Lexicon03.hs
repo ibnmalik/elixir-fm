@@ -1461,7 +1461,7 @@ lexicon = listing "Lexicon's properties"
     -- tAl     tAl     Nuwn_Niyn       following;subsequent     [[tAl/ADJ]]
     -- tAly    tAliy   NapAt   following;subsequent     [[tAliy/ADJ]]
 
-    FACiL                     `adj`     {- tAliy -}            [ "following", "subsequent" ],
+    FACI                      `adj`     {- tAliy -}            [ "following", "subsequent" ],
 
     -- ;; mutatAliy_1
     -- mttAly  mutatAliy       N0F_Nh  consecutive;successive
@@ -1479,7 +1479,7 @@ lexicon = listing "Lexicon's properties"
     -- mttAl   mutatAl Nuwn_Niyn       consecutive;successive
     -- mttAly  mutatAliy       NapAt   consecutive;successive
 
-    MutaFACiL                 `noun`    {- mutatAliy -}        [ "consecutive", "successive" ] ]
+    MutaFACI                  `noun`    {- mutatAliy -}        [ "consecutive", "successive" ] ]
 
  |> "t m '" <| [
 
@@ -1935,7 +1935,7 @@ lexicon = listing "Lexicon's properties"
     -- mtq     mut~aq  Nuwn_Niyn       pious;devout
     -- mtqy    mut~aqiy        NapAt   pious;devout
 
-    MuFtaCiL                  `noun`    {- mut~aqiy -}         [ "pious", "devout" ],
+    MuFtaCI                   `noun`    {- mut~aqiy -}         [ "pious", "devout" ],
 
     -- ;; taqiy~ap_1
     -- tqy     taqiy~  Nap     dissimulation     [[taqiy~/NOUN]]

@@ -781,7 +781,8 @@ lexicon = listing "Lexicon's properties"
     -- \*ky     *okay   IV_Ann  be sharp-witted
     -- \*k      *oka    IV_0hwnyn       be sharp-witted
 
-    FaCI                      `verb`    {- \*akiy-a -}         [ "be sharp-witted" ],
+    FaCI                      `verb`    {- \*akiy-a -}         [ "be sharp-witted" ]
+                              `imperf`     FCY,
 
     -- ;; *ak~aY_1
     -- \*kY     *ak~aY  PV_0    kindle;set ablaze
@@ -857,7 +858,7 @@ lexicon = listing "Lexicon's properties"
     -- \*ky     *okay   IV_Ann  be sharp-witted
     -- \*k      *oka    IV_0hwnyn       be sharp-witted
 
-    FaCiL                     `verb`    {- \*akiy-a -}         [ "be sharp-witted" ]
+    FaCI                      `verb`    {- \*akiy-a -}         [ "be sharp-witted" ]
                               `imperf`     FCY,
 
     -- ;; *akiy~_1
@@ -1125,7 +1126,7 @@ lexicon = listing "Lexicon's properties"
     -- \*my     *omay   IV_Ann  be near death
     -- \*m      *oma    IV_0hwnyn       be near death
 
-    FaCiL                     `verb`    {- \*amiy-a -}         [ "be near death" ]
+    FaCI                      `verb`    {- \*amiy-a -}         [ "be near death" ]
                               `imperf`     FCY,
 
     -- ;; *amA'_1
@@ -1572,7 +1573,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; ta*oriyap_1
     -- t*ry    ta*oriy Nap     atomization
 
-    TaFCiL |< aT              `noun`    {- ta*oriyap -}        [ "atomization" ] ]
+    TaFCI |< aT               `noun`    {- ta*oriyap -}        [ "atomization" ] ]
 
  |> "_d w `" <| [
 
@@ -1843,8 +1844,9 @@ lexicon = listing "Lexicon's properties"
     -- \*wy     *awiy   FW-WaBi (relatives) of;family     [[*awiy/DEM_PRON_MD]]
     -- \*wy     *awiy   FW-Wa-y (relatives) of;family     [[*awiy/DEM_PRON_MD]]
 
-    FuL                       `noun`    {- \*uw -}             [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
+    FU                        `noun`    {- \*uw -}             [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
                               `plural`     FaCuL
+                              `plural`     FaCU
                               `plural`     FaCI
                               `plural`     FaCA
                               `plural`     FI
@@ -1878,7 +1880,7 @@ lexicon = listing "Lexicon's properties"
     -- \*wy     *oway   IV_Ann  wither;fade
     -- \*w      *owa    IV_0hwnyn       wither;fade
 
-    FaCiL                     `verb`    {- \*awiy-a -}         [ "wither", "fade" ],
+    FaCI                      `verb`    {- \*awiy-a -}         [ "wither", "fade" ],
 
     -- ;; >a*owaY_1
     -- >*wY    >a*owaY PV_0    make wilt;make dry
@@ -1903,7 +1905,7 @@ lexicon = listing "Lexicon's properties"
     -- \*Aw     *Aw     Nuwn_Niyn       withered;faded
     -- \*Awy    *Awiy   NapAt   withered;faded
 
-    FACiL                     `adj`     {- \*Awiy -}           [ "withered", "faded" ] ]
+    FACI                      `adj`     {- \*Awiy -}           [ "withered", "faded" ] ]
 
  |> "_d y `" <| [
 

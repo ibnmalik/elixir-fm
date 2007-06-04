@@ -1974,7 +1974,7 @@ lexicon = listing "Lexicon's properties"
     -- x$y     xo$ay   IV_Ann  fear;be afraid
     -- x$      xo$a    IV_0hwnyn       fear;be afraid
 
-    FaCiL                     `verb`    {- xa$iy-a -}          [ "fear", "be afraid" ]
+    FaCI                      `verb`    {- xa$iy-a -}          [ "fear", "be afraid" ]
                               `imperf`     FCY,
 
     -- ;; xa$~aY_1
@@ -2045,7 +2045,7 @@ lexicon = listing "Lexicon's properties"
     -- xA$     xA$     Nuwn_Niyn       timid;anxious
     -- xA$y    xA$iy   NapAt   timid;anxious
 
-    FACiL                     `noun`    {- xA$iy -}            [ "timid", "anxious" ] ]
+    FACI                      `noun`    {- xA$iy -}            [ "timid", "anxious" ] ]
 
  |> "_h _d '" <| [
 
@@ -2203,7 +2203,7 @@ lexicon = listing "Lexicon's properties"
     -- mstx*   musotaxo*       Nuwn_Niyn       submissive;obedient
     -- mstx*y  musotaxo*iy     NapAt   submissive;obedient
 
-    MustaFCiL                 `noun`    {- musotaxo*iy -}      [ "submissive", "obedient" ] ]
+    MustaFCI                  `noun`    {- musotaxo*iy -}      [ "submissive", "obedient" ] ]
 
  |> "_h _t r" <| [
 
@@ -2379,8 +2379,9 @@ lexicon = listing "Lexicon's properties"
 
     FACiL |< aT               `noun`    {- xAbi}ap -}          [ "cask", "jar", "casks", "jars" ]
                               `plural`     FACI
+                              `plural`     FawACI
                               `plural`     FawACiL
-                           {- `others`  [ "_hAbiy Napdu", "_hawAbi' Ndip" ] -},
+                           {- `others`  [ "_hAbiy Napdu", "_hawAbiy N0_Nh", "_hawAbi' Ndip" ] -},
 
     -- ;; muxab~a>ap_1
     -- mxb>    muxab~a>        Napdu   hidden;secret
@@ -3771,7 +3772,7 @@ lexicon = listing "Lexicon's properties"
     -- xfy     xofay   IV_Ann  be hidden
     -- xf      xofa    IV_0hwnyn       be hidden
 
-    FaCiL                     `verb`    {- xafiy-a -}          [ "be hidden" ]
+    FaCI                      `verb`    {- xafiy-a -}          [ "be hidden" ]
                               `imperf`     FCY,
 
     -- ;; xafaY-i_1
@@ -3905,7 +3906,7 @@ lexicon = listing "Lexicon's properties"
     -- xAf     xAf     Nuwn_Niyn       hidden;secret
     -- xAfy    xAfiy   NapAt   hidden;secret
 
-    FACiL                     `adj`     {- xAfiy -}            [ "hidden", "secret" ],
+    FACI                      `adj`     {- xAfiy -}            [ "hidden", "secret" ],
 
     -- ;; xAfiyap_2
     -- xAfy    xAfiy   Napdu   secret
@@ -3913,10 +3914,11 @@ lexicon = listing "Lexicon's properties"
     -- xwAfy   xawAfiy N0_Nh   secrets
     -- xwAf    xawAf   NK      secrets
 
-    FACiL |< aT               `noun`    {- xAfiyap -}          [ "secret", "secrets" ]
+    FACI |< aT                `noun`    {- xAfiyap -}          [ "secret", "secrets" ]
                               `plural`     FACiL |< At
                               `plural`     FACI |< At
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "_hawAfiy N0_Nh" ] -},
 
     -- ;; maxofiy~_1
@@ -3931,7 +3933,7 @@ lexicon = listing "Lexicon's properties"
     -- mtxf    mutaxaf~        Nuwn_Niyn       disguised
     -- mtxfy   mutaxaf~iy      NapAt   disguised
 
-    MutaFaCCiL                `noun`    {- mutaxaf~iy -}       [ "disguised" ],
+    MutaFaCCI                 `noun`    {- mutaxaf~iy -}       [ "disguised" ],
 
     -- ;; muxotafiy_1
     -- mxtfy   muxotafiy       N0_Nh   hidden;secret     [[muxotafiy/ADJ]]
@@ -3940,7 +3942,7 @@ lexicon = listing "Lexicon's properties"
     -- mxtf    muxotaf Nuwn_Niyn       hidden;secrets
     -- mxtfy   muxotafiy       NapAt   hidden;secret
 
-    MuFtaCiL                  `adj`     {- muxotafiy -}        [ "hidden", "secret", "secrets" ],
+    MuFtaCI                   `adj`     {- muxotafiy -}        [ "hidden", "secret", "secrets" ],
 
     -- ;; muxotafaY_1
     -- mxtfY   muxotafaY       N0      hide-out
@@ -5377,6 +5379,11 @@ lexicon = listing "Lexicon's properties"
 
     MiFCY |< aT               `noun`    {- mixolAp -}          [ "sack", "bag", "sacks", "bags" ],
 
+    -- ;; taxoliyap_1
+    -- txly    taxoliy Nap     vacating;evacuation
+
+    TaFCI |< aT               `noun`    {- taxoliyap -}        [ "vacating", "evacuation" ],
+
     -- ;; <ixolA'_1
     -- <xlA'   <ixolA' N0_Nh   emptying;evacuation
     -- AxlA'   <ixolA' N0_Nh   emptying;evacuation
@@ -5440,7 +5447,13 @@ lexicon = listing "Lexicon's properties"
     -- xAl     xAl     Nuwn_Niyn       empty;devoid;free
     -- xAly    xAliy   NapAt   empty;devoid;free
 
-    FACI                      `adj`     {- xAliy -}            [ "empty", "devoid", "free" ] ]
+    FACI                      `adj`     {- xAliy -}            [ "empty", "devoid", "free" ],
+
+    -- ;; xawAliy_1
+    -- xwAly   xawAliy N0_Nh   elapsed
+    -- xwAl    xawAl   NK      elapsed
+
+    FawACI                    `noun`    {- xawAliy -}          [ "elapsed" ] ]
 
  |> "_h l y" <| [
 
@@ -5472,7 +5485,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taxoliyap_1
     -- txly    taxoliy Nap     vacating;evacuation
 
-    TaFCiL |< aT              `noun`    {- taxoliyap -}        [ "vacating", "evacuation" ],
+    TaFCI |< aT               `noun`    {- taxoliyap -}        [ "vacating", "evacuation" ],
 
     -- ;; xAliy_1
     -- xAly    xAliy   N0F     empty;devoid;free     [[xAliy/ADJ]]
@@ -5481,13 +5494,13 @@ lexicon = listing "Lexicon's properties"
     -- xAl     xAl     Nuwn_Niyn       empty;devoid;free
     -- xAly    xAliy   NapAt   empty;devoid;free
 
-    FACiL                     `adj`     {- xAliy -}            [ "empty", "devoid", "free" ],
+    FACI                      `adj`     {- xAliy -}            [ "empty", "devoid", "free" ],
 
     -- ;; xawAliy_1
     -- xwAly   xawAliy N0_Nh   elapsed
     -- xwAl    xawAl   NK      elapsed
 
-    FawACiL                   `noun`    {- xawAliy -}          [ "elapsed" ] ]
+    FawACI                    `noun`    {- xawAliy -}          [ "elapsed" ] ]
 
  |> "_h m .s" <| [
 
@@ -6359,7 +6372,7 @@ lexicon = listing "Lexicon's properties"
     -- xny     xonay   IV_Ann  be obscene
     -- xn      xona    IV_0hwnyn       be obscene
 
-    FaCiL                     `verb`    {- xaniy-a -}          [ "be obscene" ] ]
+    FaCI                      `verb`    {- xaniy-a -}          [ "be obscene" ] ]
 
  |> "_h n z b" <| [
 
@@ -8501,7 +8514,7 @@ lexicon = listing "Lexicon's properties"
     -- xwy     xoway   IV_Ann  be empty;be desolate
     -- xw      xowa    IV_0hwnyn       be empty;be desolate
 
-    FaCiL                     `verb`    {- xawiy-a -}          [ "be empty", "be desolate" ]
+    FaCI                      `verb`    {- xawiy-a -}          [ "be empty", "be desolate" ]
                               `imperf`     FCY,
 
     -- ;; xAwaY_1
@@ -8535,7 +8548,7 @@ lexicon = listing "Lexicon's properties"
     -- xAw     xAw     Nuwn_Niyn       empty;dreary;desolate
     -- xAwy    xAwiy   NapAt   empty;dreary;desolate
 
-    FACiL                     `adj`     {- xAwiy -}            [ "empty", "dreary", "desolate" ],
+    FACI                      `adj`     {- xAwiy -}            [ "empty", "dreary", "desolate" ],
 
     -- ;; muxAwiy_1
     -- mxAwy   muxAwiy N0F_Nh  brotherly;fraternal     [[muxAwiy/ADJ]]
@@ -8544,7 +8557,7 @@ lexicon = listing "Lexicon's properties"
     -- mxAw    muxAw   Nuwn_Niyn       brotherly;fraternal
     -- mxAwy   muxAwiy NapAt   brotherly;fraternal
 
-    MuFACiL                   `adj`     {- muxAwiy -}          [ "brotherly", "fraternal" ] ]
+    MuFACI                    `adj`     {- muxAwiy -}          [ "brotherly", "fraternal" ] ]
 
  |> "_h w z q" <| [
 
@@ -9396,7 +9409,7 @@ lexicon = listing "Lexicon's properties"
     -- xzy     xozay   IV_Ann  be despicable
     -- xz      xoza    IV_0hwnyn       be despicable
 
-    FaCiL                     `verb`    {- xaziy-a -}          [ "be despicable" ]
+    FaCI                      `verb`    {- xaziy-a -}          [ "be despicable" ]
                               `imperf`     FCY,
 
     -- ;; xazaY-i_1
@@ -9476,7 +9489,7 @@ lexicon = listing "Lexicon's properties"
     -- mxzy    muxoziy NapAt   infamous;scandalous
     -- mxzy    muxoziy NapAt   infamy;disgraceful act
 
-    MuFCiL                    `noun`    {- muxoziy -}          [ "infamous", "scandalous", "infamy", "disgraceful act" ],
+    MuFCI                     `noun`    {- muxoziy -}          [ "infamous", "scandalous", "infamy", "disgraceful act" ],
 
     -- ;; xazoyAn_1
     -- xzyAn   xazoyAn Ndip    ashamed;disgraceful

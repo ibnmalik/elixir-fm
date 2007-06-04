@@ -354,7 +354,7 @@ lexicon = listing "Lexicon's properties"
     -- nA}y    nA}iy   NAn_Nayn        remote;distant;secluded
     -- nA}y    nA}iy   NapAt   remote;distant;secluded     [[nA}iy/ADJ]]
 
-    FACiL                     `adj`     {- nA}iy -}            [ "remote", "distant", "secluded" ],
+    FACI                      `adj`     {- nA}iy -}            [ "remote", "distant", "secluded" ],
 
     -- ;; nAy_1
     -- nAy     nAy     N/At    nay;bamboo flute
@@ -1651,6 +1651,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACI
                            {- `others`  [ "manA.hiy N0_Nh" ] -},
 
+    -- ;; tanoHiyap_1
+    -- tnHy    tanoHiy Nap     elimination;removal
+
+    TaFCI |< aT               `noun`    {- tanoHiyap -}        [ "elimination", "removal" ],
+
     -- ;; nAHiy_1
     -- nAHy    nAHiy   N0F_Nh  grammarian
     -- nAH     nAH     NK      grammarian
@@ -1664,7 +1669,9 @@ lexicon = listing "Lexicon's properties"
     -- nwAHy   nawAHiy N0_Nh   sides;perspectives;areas;regions
     -- nwAH    nawAH   NK      sides;perspectives;areas;regions
 
-    FACI |< aT                `noun`    {- nAHiyap -}          [ "side", "perspective", "sides", "perspectives", "areas", "regions" ] ]
+    FACI |< aT                `noun`    {- nAHiyap -}          [ "side", "perspective", "sides", "perspectives", "areas", "regions" ]
+                              `plural`     FawACI
+                           {- `others`  [ "nawA.hiy N0_Nh" ] -} ]
 
  |> "n .h w y" <| [
 
@@ -1678,7 +1685,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tanoHiyap_1
     -- tnHy    tanoHiy Nap     elimination;removal
 
-    TaFCiL |< aT              `noun`    {- tanoHiyap -}        [ "elimination", "removal" ],
+    TaFCI |< aT               `noun`    {- tanoHiyap -}        [ "elimination", "removal" ],
 
     -- ;; nAHiy_1
     -- nAHy    nAHiy   N0F_Nh  grammarian
@@ -1686,15 +1693,16 @@ lexicon = listing "Lexicon's properties"
     -- nAHy    nAHiy   NAn_Nayn        grammarian
     -- nHA     nuHA    Nap     grammarians
 
-    FACiL                     `noun`    {- nAHiy -}            [ "grammarian", "grammarians" ],
+    FACI                      `noun`    {- nAHiy -}            [ "grammarian", "grammarians" ],
 
     -- ;; nAHiyap_1
     -- nAHy    nAHiy   Napdu   side;perspective
     -- nwAHy   nawAHiy N0_Nh   sides;perspectives;areas;regions
     -- nwAH    nawAH   NK      sides;perspectives;areas;regions
 
-    FACiL |< aT               `noun`    {- nAHiyap -}          [ "side", "perspective", "sides", "perspectives", "areas", "regions" ]
+    FACI |< aT                `noun`    {- nAHiyap -}          [ "side", "perspective", "sides", "perspectives", "areas", "regions" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "nawA.hiy N0_Nh" ] -} ]
 
  |> "n .h z" <| [
@@ -2504,8 +2512,9 @@ lexicon = listing "Lexicon's properties"
     -- nwASy   nawASiy N0_Nh   corners;affairs;situation
     -- nwAS    nawAS   NK      corners;affairs;situation
 
-    FACiL |< aT               `noun`    {- nASiyap -}          [ "corner", "affairs", "situation", "corners" ]
+    FACI |< aT                `noun`    {- nASiyap -}          [ "corner", "affairs", "situation", "corners" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "nawA.siy N0_Nh" ] -} ]
 
  |> "n .t .h" <| [
@@ -4204,6 +4213,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACI
                            {- `others`  [ "manA^giy N0_Nh" ] -},
 
+    -- ;; tanojiyap_1
+    -- tnjy    tanojiy Nap     rescue;deliverance
+
+    TaFCI |< aT               `noun`    {- tanojiyap -}        [ "rescue", "deliverance" ],
+
     -- ;; munAjAp_1
     -- mnAjA   munAjA  Napdu   confidential talk;intimate discourse
     -- mnAjy   munAjay NAt     confidential talks;intimate discourse
@@ -4260,12 +4274,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; tanojiyap_1
     -- tnjy    tanojiy Nap     rescue;deliverance
 
-    TaFCiL |< aT              `noun`    {- tanojiyap -}        [ "rescue", "deliverance" ],
+    TaFCI |< aT               `noun`    {- tanojiyap -}        [ "rescue", "deliverance" ],
 
     -- ;; nAjiy_1
     -- nAjy    nAjiy   Nprop   Naji;Nagi
 
-    FACiL                     `noun`    {- nAjiy -}            [ "Naji", "Nagi" ],
+    FACI                      `noun`    {- nAjiy -}            [ "Naji", "Nagi" ],
 
     -- ;; nAjiy_2
     -- nAjy    nAjiy   N0F_Nh  escaping;surviving;survivor
@@ -4274,7 +4288,7 @@ lexicon = listing "Lexicon's properties"
     -- nAj     nAj     Nuwn_Niyn       escaping;surviving;survivor
     -- nAjy    nAjiy   NapAt   escaping;surviving;survivor
 
-    FACiL                     `noun`    {- nAjiy -}            [ "escaping", "surviving", "survivor" ],
+    FACI                      `noun`    {- nAjiy -}            [ "escaping", "surviving", "survivor" ],
 
     -- ;; munaj~iy_1
     -- mnjy    munaj~iy        N0F_Nh  rescuer;deliverer
@@ -4283,7 +4297,7 @@ lexicon = listing "Lexicon's properties"
     -- mnj     munaj~  Nuwn_Niyn       rescuers;deliverers
     -- mnjy    munaj~iy        NapAt   rescuer;deliverer
 
-    MuFaCCiL                  `noun`    {- munaj~iy -}         [ "rescuer", "deliverer", "rescuers", "deliverers" ] ]
+    MuFaCCI                   `noun`    {- munaj~iy -}         [ "rescuer", "deliverer", "rescuers", "deliverers" ] ]
 
  |> "n ^g z" <| [
 
@@ -5289,7 +5303,7 @@ lexicon = listing "Lexicon's properties"
     -- n$y     no$ay   IV_Ann  become intoxicated
     -- n$      no$a    IV_0hwnyn       become intoxicated
 
-    FaCiL                     `verb`    {- na$iy-a -}          [ "become intoxicated" ]
+    FaCI                      `verb`    {- na$iy-a -}          [ "become intoxicated" ]
                               `imperf`     FCY,
 
     -- ;; na$~aY_1
@@ -7729,7 +7743,7 @@ lexicon = listing "Lexicon's properties"
     -- nAb     nAb     Nuwn_Niyn       repugnant;improper
     -- nAby    nAbiy   NapAt   repugnant;improper
 
-    FACiL                     `adj`     {- nAbiy -}            [ "repugnant", "improper" ] ]
+    FACI                      `adj`     {- nAbiy -}            [ "repugnant", "improper" ] ]
 
  |> "n b z" <| [
 
@@ -8281,7 +8295,8 @@ lexicon = listing "Lexicon's properties"
     -- ndy     noday   IV_Ann  be moist;be damp
     -- nd      noda    IV_0hwnyn       be moist;be damp
 
-    FaCI                      `verb`    {- nadiy-a -}          [ "be moist", "be damp" ],
+    FaCI                      `verb`    {- nadiy-a -}          [ "be moist", "be damp" ]
+                              `imperf`     FCY,
 
     -- ;; nad~aY_1
     -- ndY     nad~aY  PV_0    moisten;make damp
@@ -8425,7 +8440,9 @@ lexicon = listing "Lexicon's properties"
     -- nwAd    nawAd   NK      clubs;associations
 
     FACI                      `noun`    {- nAdiy -}            [ "club", "association", "clubs", "associations" ]
-                              `plural`     HaFCI |< aT,
+                              `plural`     FawACI
+                              `plural`     HaFCI |< aT
+                           {- `others`  [ "nawAdiy N0_Nh" ] -},
 
     -- ;; munad~aY_1
     -- mndY    munad~aY        N0      wet;damp     [[munad~aY/ADJ]]
@@ -8469,7 +8486,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; nAdiyap_1
     -- nAdyp   nAdiyap Nprop   Nadia
 
-    FACiL |< aT               `noun`    {- nAdiyap -}          [ "Nadia" ],
+    FACI |< aT                `noun`    {- nAdiyap -}          [ "Nadia" ],
 
     -- ;; nAdiyap_1
     -- nAdyp   nAdiyap Nprop   Nadia
@@ -8483,7 +8500,7 @@ lexicon = listing "Lexicon's properties"
     -- ndy     noday   IV_Ann  be moist;be damp
     -- nd      noda    IV_0hwnyn       be moist;be damp
 
-    FaCiL                     `verb`    {- nadiy-a -}          [ "be moist", "be damp" ]
+    FaCI                      `verb`    {- nadiy-a -}          [ "be moist", "be damp" ]
                               `imperf`     FCY,
 
     -- ;; nadiy~_1
@@ -8505,8 +8522,9 @@ lexicon = listing "Lexicon's properties"
     -- nwAdy   nawAdiy N0_Nh   clubs;associations
     -- nwAd    nawAd   NK      clubs;associations
 
-    FACiL                     `noun`    {- nAdiy -}            [ "club", "association", "clubs", "associations" ]
+    FACI                      `noun`    {- nAdiy -}            [ "club", "association", "clubs", "associations" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                               `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT
                            {- `others`  [ "nawAdiy N0_Nh" ] -},
@@ -8518,12 +8536,12 @@ lexicon = listing "Lexicon's properties"
     -- mnAd    munAd   Nuwn_Niyn       callers;calling
     -- mnAdy   munAdiy NapAt   caller;calling
 
-    MuFACiL                   `noun`    {- munAdiy -}          [ "caller", "calling", "callers" ],
+    MuFACI                    `noun`    {- munAdiy -}          [ "caller", "calling", "callers" ],
 
     -- ;; munodiyap_1
     -- mndy    munodiy NapAt   disgraceful deed;insult
 
-    MuFCiL |< aT              `noun`    {- munodiyap -}        [ "disgraceful deed", "insult" ] ]
+    MuFCI |< aT               `noun`    {- munodiyap -}        [ "disgraceful deed", "insult" ] ]
 
  |> "n d y n" <| [
 
@@ -9864,7 +9882,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; nAfiyAF_1
     -- nAfy    nAfiy   NF      denying;disavowing;rejecting
 
-    FACiL |< aN               `noun`    {- nAfiyAF -}          [ "denying", "disavowing", "rejecting" ]
+    FACI |< aN                `noun`    {- nAfiyAF -}          [ "denying", "disavowing", "rejecting" ]
                               `plural`     FACiL
                               `plural`     FACI
                            {- `others`  [ "nAfiy NF" ] -},
@@ -9876,7 +9894,7 @@ lexicon = listing "Lexicon's properties"
     -- mnAf    munAf   Nuwn_Niyn       incompatible
     -- mnAfy   munAfiy NapAt   incompatible
 
-    MuFACiL                   `adj`     {- munAfiy -}          [ "incompatible" ] ]
+    MuFACI                    `adj`     {- munAfiy -}          [ "incompatible" ] ]
 
  |> "n f y y" <| [
 
@@ -10685,7 +10703,9 @@ lexicon = listing "Lexicon's properties"
     -- nwAhy   nawAhiy N0_Nh   proscriptions;prohibition orders
     -- nwAh    nawAh   NK      proscriptions;prohibition orders
 
-    FACI |< aT                `noun`    {- nAhiyap -}          [ "ban", "proscription", "proscriptions", "prohibition orders" ],
+    FACI |< aT                `noun`    {- nAhiyap -}          [ "ban", "proscription", "proscriptions", "prohibition orders" ]
+                              `plural`     FawACI
+                           {- `others`  [ "nawAhiy N0_Nh" ] -},
 
     -- ;; manohiy~_1
     -- mnhy    manohiy~        N-ap    forbidden;illicit     [[manohiy~/ADJ]]
@@ -10752,15 +10772,16 @@ lexicon = listing "Lexicon's properties"
     -- nAhy    nAhiy   NAn_Nayn        prohibitive;interdictory
     -- nAhy    nAhiy   NapAt   prohibitive;interdictory
 
-    FACiL                     `adj`     {- nAhiy -}            [ "prohibitive", "interdictory" ],
+    FACI                      `adj`     {- nAhiy -}            [ "prohibitive", "interdictory" ],
 
     -- ;; nAhiyap_1
     -- nAhy    nAhiy   Napdu   ban;proscription
     -- nwAhy   nawAhiy N0_Nh   proscriptions;prohibition orders
     -- nwAh    nawAh   NK      proscriptions;prohibition orders
 
-    FACiL |< aT               `noun`    {- nAhiyap -}          [ "ban", "proscription", "proscriptions", "prohibition orders" ]
+    FACI |< aT                `noun`    {- nAhiyap -}          [ "ban", "proscription", "proscriptions", "prohibition orders" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "nawAhiy N0_Nh" ] -},
 
     -- ;; mutanAhiy_1
@@ -10770,12 +10791,12 @@ lexicon = listing "Lexicon's properties"
     -- mtnAh   mutanAh Nuwn_Niyn       utmost;extreme;finished
     -- mtnAhy  mutanAhiy       NapAt   utmost;extreme;finished
 
-    MutaFACiL                 `noun`    {- mutanAhiy -}        [ "utmost", "extreme", "finished" ],
+    MutaFACI                  `noun`    {- mutanAhiy -}        [ "utmost", "extreme", "finished" ],
 
     -- ;; lAmutanAhiy_1
     -- lAmtnAhy        lAmutanAhiy     Nall_L  infinite
 
-    lA >| MutaFACiL           `noun`    {- lAmutanAhiy -}      [ "infinite" ],
+    lA >| MutaFACI            `noun`    {- lAmutanAhiy -}      [ "infinite" ],
 
     -- ;; munotahiy_1
     -- mnthy   munotahiy       N0_Nh   finished;expired
@@ -10784,7 +10805,7 @@ lexicon = listing "Lexicon's properties"
     -- mnth    munotah Nuwn_Niyn       finished;expired
     -- mnthy   munotahiy       NapAt   finished;expired
 
-    MuFtaCiL                  `noun`    {- munotahiy -}        [ "finished", "expired" ] ]
+    MuFtaCI                   `noun`    {- munotahiy -}        [ "finished", "expired" ] ]
 
  |> "n h y n" <| [
 
@@ -12123,7 +12144,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tanomiyap_1
     -- tnmy    tanomiy Nap     development;growth
 
-    TaFCiL |< aT              `noun`    {- tanomiyap -}        [ "development", "growth" ],
+    TaFCI |< aT               `noun`    {- tanomiyap -}        [ "development", "growth" ],
 
     -- ;; <inomA'_1
     -- <nmA'   <inomA' N0_Nh   promotion;advancement
@@ -12184,14 +12205,15 @@ lexicon = listing "Lexicon's properties"
     -- nAm     nAm     Nuwn_Niyn       developing
     -- nAmy    nAmiy   NapAt   developing
 
-    FACiL                     `adj`     {- nAmiy -}            [ "developing" ],
+    FACI                      `adj`     {- nAmiy -}            [ "developing" ],
 
     -- ;; nAmiy_2
     -- nwAmy   nawAmiy N0_Nh   tumors
     -- nwAm    nawAm   NK      tumors
 
-    FACiL                     `noun`    {- nAmiy -}            [ "tumors" ]
+    FACI                      `noun`    {- nAmiy -}            [ "tumors" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "nawAmiy N0_Nh" ] -},
 
     -- ;; mutanAmiy_1
@@ -12201,7 +12223,7 @@ lexicon = listing "Lexicon's properties"
     -- mtnAm   mutanAm Nuwn_Niyn       growing gradually
     -- mtnAmy  mutanAmiy       NapAt   growing gradually
 
-    MutaFACiL                 `adj`     {- mutanAmiy -}        [ "growing gradually" ],
+    MutaFACI                  `adj`     {- mutanAmiy -}        [ "growing gradually" ],
 
     -- ;; munotamiy_1
     -- mntmy   munotamiy       N0_Nh   belonging;affiliated;committed     [[munotamiy/ADJ]]
@@ -12210,12 +12232,12 @@ lexicon = listing "Lexicon's properties"
     -- mntm    munotam Nuwn_Niyn       belonging;affiliated;committed
     -- mntmy   munotamiy       NapAt   belonging;affiliated;committed
 
-    MuFtaCiL                  `adj`     {- munotamiy -}        [ "belonging", "affiliated", "committed" ],
+    MuFtaCI                   `adj`     {- munotamiy -}        [ "belonging", "affiliated", "committed" ],
 
     -- ;; lAmunotamiy_1
     -- lAmntmy lAmunotamiy     N_L     ideological independence
 
-    lA >| MuFtaCiL            `noun`    {- lAmunotamiy -}      [ "ideological independence" ],
+    lA >| MuFtaCI             `noun`    {- lAmunotamiy -}      [ "ideological independence" ],
 
     -- ;; munotamaY_1
     -- mntmY   munotamaY       N0      affiliation;membership;commitment
@@ -13571,7 +13593,8 @@ lexicon = listing "Lexicon's properties"
     -- nqy     noqay   IV_Ann  be pure
     -- nq      noqa    IV_0hwnyn       be pure
 
-    FaCI                      `verb`    {- naqiy-a -}          [ "be pure" ],
+    FaCI                      `verb`    {- naqiy-a -}          [ "be pure" ]
+                              `imperf`     FCY,
 
     -- ;; naq~aY_1
     -- nqY     naq~aY  PV_0    purify;clarify
@@ -13643,6 +13666,16 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `noun`    {- OanoqaY -}          [ "purer/purest", "cleaner/cleanest", "purest", "cleanest" ],
 
+    -- ;; tanoqiyap_1
+    -- tnqy    tanoqiy Nap     purification;cleansing
+
+    TaFCI |< aT               `noun`    {- tanoqiyap -}        [ "purification", "cleansing" ],
+
+    -- ;; tanoqiyap_2
+    -- tnqy    tanoqiy Nap     clearing;clarifying;dispelling
+
+    TaFCI |< aT               `noun`    {- tanoqiyap -}        [ "clearing", "clarifying", "dispelling" ],
+
     -- ;; {inotiqA'_1
     -- <ntqA'  {inotiqA'       N0_Nh   selection
     -- AntqA'  {inotiqA'       N0_Nh   selection
@@ -13682,7 +13715,7 @@ lexicon = listing "Lexicon's properties"
     -- nqy     noqay   IV_Ann  be pure
     -- nq      noqa    IV_0hwnyn       be pure
 
-    FaCiL                     `verb`    {- naqiy-a -}          [ "be pure" ]
+    FaCI                      `verb`    {- naqiy-a -}          [ "be pure" ]
                               `imperf`     FCY,
 
     -- ;; nuqAyap_1
@@ -13711,12 +13744,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; tanoqiyap_1
     -- tnqy    tanoqiy Nap     purification;cleansing
 
-    TaFCiL |< aT              `noun`    {- tanoqiyap -}        [ "purification", "cleansing" ],
+    TaFCI |< aT               `noun`    {- tanoqiyap -}        [ "purification", "cleansing" ],
 
     -- ;; tanoqiyap_2
     -- tnqy    tanoqiy Nap     clearing;clarifying;dispelling
 
-    TaFCiL |< aT              `noun`    {- tanoqiyap -}        [ "clearing", "clarifying", "dispelling" ] ]
+    TaFCI |< aT               `noun`    {- tanoqiyap -}        [ "clearing", "clarifying", "dispelling" ] ]
 
  |> "n q z" <| [
 
@@ -14879,7 +14912,7 @@ lexicon = listing "Lexicon's properties"
     -- nsY     nosaY   IV_0_Pass_yu    be forgotten
     -- nsy     nosay   IV_Ann_Pass_yu  be forgotten
 
-    FaCiL                     `verb`    {- nasiy-a -}          [ "forget", "be forgotten" ]
+    FaCI                      `verb`    {- nasiy-a -}          [ "forget", "be forgotten" ]
                               `imperf`     FCY,
 
     -- ;; >anosaY_1
@@ -16656,7 +16689,7 @@ lexicon = listing "Lexicon's properties"
     -- mnAw    munAw   Nuwn_Niyn       hostile;unfriendly
     -- mnAwy   munAwiy NapAt   hostile;unfriendly
 
-    MuFACiL                   `adj`     {- munAwiy -}          [ "hostile", "unfriendly" ],
+    MuFACI                    `adj`     {- munAwiy -}          [ "hostile", "unfriendly" ],
 
     -- ;; niy~ap_1
     -- ny      niy~    NapAt   intention;purpose;desire     [[niy~/NOUN]]

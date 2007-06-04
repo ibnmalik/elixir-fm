@@ -203,7 +203,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; dA}iy_1
     -- dA}y    dA}iy   Nprop   Da'i
 
-    FACiL                     `noun`    {- dA}iy -}            [ "Da'i" ] ]
+    FACI                      `noun`    {- dA}iy -}            [ "Da'i" ] ]
 
  |> "d .g .s" <| [
 
@@ -746,7 +746,7 @@ lexicon = listing "Lexicon's properties"
     -- dAj     dAj     Nuwn_Niyn       gloomy;dark
     -- dAjy    dAjiy   NapAt   gloomy;dark
 
-    FACiL                     `adj`     {- dAjiy -}            [ "gloomy", "dark" ] ]
+    FACI                      `adj`     {- dAjiy -}            [ "gloomy", "dark" ] ]
 
  |> "d ^s ^s" <| [
 
@@ -1606,7 +1606,9 @@ lexicon = listing "Lexicon's properties"
     -- dwAEy   dawAEiy N0_Nh   motives;requirements
     -- dwAE    dawAE   NK      motives;requirements
 
-    FACI                      `noun`    {- dAEiy -}            [ "cause", "reason", "motives", "requirements" ],
+    FACI                      `noun`    {- dAEiy -}            [ "cause", "reason", "motives", "requirements" ]
+                              `plural`     FawACI
+                           {- `others`  [ "dawA`iy N0_Nh" ] -},
 
     -- ;; dAEiy_2
     -- dAEy    dAEiy   N0F     inviter;propagandist
@@ -1704,8 +1706,9 @@ lexicon = listing "Lexicon's properties"
     -- dwAEy   dawAEiy N0_Nh   motives;requirements
     -- dwAE    dawAE   NK      motives;requirements
 
-    FACiL                     `noun`    {- dAEiy -}            [ "cause", "reason", "motives", "requirements" ]
+    FACI                      `noun`    {- dAEiy -}            [ "cause", "reason", "motives", "requirements" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "dawA`iy N0_Nh" ] -},
 
     -- ;; dAEiy_2
@@ -1716,12 +1719,12 @@ lexicon = listing "Lexicon's properties"
     -- dAEy    dAEiy   NapAt   inviter;propagandist
     -- dEA     duEA    Nap     callers;propagandists
 
-    FACiL                     `noun`    {- dAEiy -}            [ "inviter", "propagandist", "callers", "propagandists" ],
+    FACI                      `noun`    {- dAEiy -}            [ "inviter", "propagandist", "callers", "propagandists" ],
 
     -- ;; dAEiyap_1
     -- dAEy    dAEiy   Napdu   propagandist;missionary;motive
 
-    FACiL |< aT               `noun`    {- dAEiyap -}          [ "propagandist", "missionary", "motive" ],
+    FACI |< aT                `noun`    {- dAEiyap -}          [ "propagandist", "missionary", "motive" ],
 
     -- ;; mutadAEiy_1
     -- mtdAEy  mutadAEiy       N0F_Nh  evoking each other;declining
@@ -1730,7 +1733,7 @@ lexicon = listing "Lexicon's properties"
     -- mtdAE   mutadAE Nuwn_Niyn       evoking each other;declining
     -- mtdAEy  mutadAEiy       NapAt   evoking each other;declining
 
-    MutaFACiL                 `noun`    {- mutadAEiy -}        [ "evoking each other", "declining" ],
+    MutaFACI                  `noun`    {- mutadAEiy -}        [ "evoking each other", "declining" ],
 
     -- ;; mud~aEiy_1
     -- mdEy    mud~aEiy        N0_Nh   plaintiff;prosecutor
@@ -1739,7 +1742,7 @@ lexicon = listing "Lexicon's properties"
     -- mdE     mud~aE  Nuwn_Niyn       plaintiff;prosecutor
     -- mdEy    mud~aEiy        NapAt   plaintiff;prosecutor
 
-    MuFtaCiL                  `noun`    {- mud~aEiy -}         [ "plaintiff", "prosecutor" ],
+    MuFtaCI                   `noun`    {- mud~aEiy -}         [ "plaintiff", "prosecutor" ],
 
     -- ;; musotadoEiy_1
     -- mstdEy  musotadoEiy     N0F_Nh  applicant;petition
@@ -1748,7 +1751,7 @@ lexicon = listing "Lexicon's properties"
     -- mstdE   musotadoE       Nuwn_Niyn       applicant;petition
     -- mstdEy  musotadoEiy     NapAt   applicant;petition
 
-    MustaFCiL                 `noun`    {- musotadoEiy -}      [ "applicant", "petition" ],
+    MustaFCI                  `noun`    {- musotadoEiy -}      [ "applicant", "petition" ],
 
     -- ;; mud~aEayAt_1
     -- mdEy    mud~aEay        NAt     claims;pretensions
@@ -3120,7 +3123,7 @@ lexicon = listing "Lexicon's properties"
     -- dhy     dohay   IV_Ann  be clever;be wily
     -- dh      doha    IV_0hwnyn       be clever;be wily
 
-    FaCiL                     `verb`    {- dahiy-a -}          [ "be clever", "be wily" ]
+    FaCI                      `verb`    {- dahiy-a -}          [ "be clever", "be wily" ]
                               `imperf`     FCY,
 
     -- ;; dahaY-a_1
@@ -3187,20 +3190,21 @@ lexicon = listing "Lexicon's properties"
     -- dAhy    dAhiy   NapAt   smart;sly
     -- dhA     duhA    Nap     smart;sly
 
-    FACiL                     `adj`     {- dAhiy -}            [ "smart", "sly" ],
+    FACI                      `adj`     {- dAhiy -}            [ "smart", "sly" ],
 
     -- ;; dAhiyap_1
     -- dAhy    dAhiy   Napdu   sly dog;old fox
 
-    FACiL |< aT               `noun`    {- dAhiyap -}          [ "sly dog", "old fox" ],
+    FACI |< aT                `noun`    {- dAhiyap -}          [ "sly dog", "old fox" ],
 
     -- ;; dAhiyap_2
     -- dAhy    dAhiy   Nap     calamity;catastrophe
     -- dwAhy   dawAhiy N0_Nh   calamity;catastrophe
     -- dwAh    dawAh   NK      calamity;catastrophe
 
-    FACiL |< aT               `noun`    {- dAhiyap -}          [ "calamity", "catastrophe" ]
+    FACI |< aT                `noun`    {- dAhiyap -}          [ "calamity", "catastrophe" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "dawAhiy N0_Nh" ] -} ]
 
  |> "d k k" <| [
@@ -3888,8 +3892,9 @@ lexicon = listing "Lexicon's properties"
     -- dwAly   dawAliy N0_Nh   waterwheels;trellises
     -- dwAl    dawAl   NK      waterwheels;trellises
 
-    FACiL |< aT               `noun`    {- dAliyap -}          [ "waterwheel", "trellis", "waterwheels", "trellises" ]
+    FACI |< aT                `noun`    {- dAliyap -}          [ "waterwheel", "trellis", "waterwheels", "trellises" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "dawAliy N0_Nh" ] -},
 
     -- ;; mutadal~iy_1
@@ -3899,7 +3904,7 @@ lexicon = listing "Lexicon's properties"
     -- mtdl    mutadal~        Nuwn_Niyn       suspended;dangling;projecting
     -- mtdly   mutadal~iy      NapAt   suspended;dangling;projecting
 
-    MutaFaCCiL                `adj`     {- mutadal~iy -}       [ "suspended", "dangling", "projecting" ],
+    MutaFaCCI                 `adj`     {- mutadal~iy -}       [ "suspended", "dangling", "projecting" ],
 
     -- ;; dal~Ayap_1
     -- dlAy    dal~Ay  NapAt   pendant
@@ -4481,7 +4486,7 @@ lexicon = listing "Lexicon's properties"
     -- dmy     domay   IV_Ann  bleed
     -- dm      doma    IV_0hwnyn       bleed
 
-    FaCiL                     `verb`    {- damiy-a -}          [ "bleed" ]
+    FaCI                      `verb`    {- damiy-a -}          [ "bleed" ]
                               `imperf`     FCY,
 
     -- ;; dam~aY_1
@@ -4524,7 +4529,7 @@ lexicon = listing "Lexicon's properties"
     -- dAm     dAm     Nuwn_Niyn       bloody
     -- dAmy    dAmiy   NapAt   bloody
 
-    FACiL                     `noun`    {- dAmiy -}            [ "bloody" ],
+    FACI                      `noun`    {- dAmiy -}            [ "bloody" ],
 
     -- ;; mudam~aY_1
     -- mdmY    mudam~aY        N0      bloody
@@ -4816,7 +4821,8 @@ lexicon = listing "Lexicon's properties"
     -- dny     donay   IV_Ann  be mean;be despicable
     -- dn      dona    IV_0hwnyn       be mean;be despicable
 
-    FaCI                      `verb`    {- daniy-a -}          [ "be mean", "be despicable" ],
+    FaCI                      `verb`    {- daniy-a -}          [ "be mean", "be despicable" ]
+                              `imperf`     FCY,
 
     -- ;; dan~aY_1
     -- dnY     dan~aY  PV_0    move near;be base
@@ -5007,7 +5013,7 @@ lexicon = listing "Lexicon's properties"
     -- dny     donay   IV_Ann  be mean;be despicable
     -- dn      dona    IV_0hwnyn       be mean;be despicable
 
-    FaCiL                     `verb`    {- daniy-a -}          [ "be mean", "be despicable" ]
+    FaCI                      `verb`    {- daniy-a -}          [ "be mean", "be despicable" ]
                               `imperf`     FCY,
 
     -- ;; daniy~_1
@@ -5047,7 +5053,7 @@ lexicon = listing "Lexicon's properties"
     -- mtdn    mutadan~        Nuwn_Niyn       approaching;debased ??
     -- mtdny   mutadan~iy      NapAt   approaching;debased ??
 
-    MutaFaCCiL                `noun`    {- mutadan~iy -}       [ "approaching", "debased ??" ],
+    MutaFaCCI                 `noun`    {- mutadan~iy -}       [ "approaching", "debased ??" ],
 
     -- ;; mutadAniy_1
     -- mtdAny  mutadAniy       N0F_Nh  close together
@@ -5056,7 +5062,7 @@ lexicon = listing "Lexicon's properties"
     -- mtdAn   mutadAn Nuwn_Niyn       close together
     -- mtdAny  mutadAniy       NapAt   close together
 
-    MutaFACiL                 `noun`    {- mutadAniy -}        [ "close together" ] ]
+    MutaFACI                  `noun`    {- mutadAniy -}        [ "close together" ] ]
 
  |> "d n y l" <| [
 
@@ -6370,7 +6376,7 @@ lexicon = listing "Lexicon's properties"
     -- dAr     dAr     Nuwn_Niyn       aware;knowing;cognizant
     -- dAry    dAriy   NapAt   aware;knowing;cognizant
 
-    FACiL                     `adj`     {- dAriy -}            [ "aware", "knowing", "cognizant" ] ]
+    FACI                      `adj`     {- dAriy -}            [ "aware", "knowing", "cognizant" ] ]
 
  |> "d r y q" <| [
 
@@ -7591,7 +7597,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; duw_1
     -- dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]
 
-    FuL                       `noun`    {- duw -}              [ "Du", "Do" ] ]
+    FU                        `noun`    {- duw -}              [ "Du", "Do" ] ]
 
  |> "d w y" <| [
 
@@ -7612,7 +7618,7 @@ lexicon = listing "Lexicon's properties"
     -- dwy     doway   IV_Ann  buzz;hum
     -- dw      dowa    IV_0hwnyn       buzz;hum
 
-    FaCiL                     `verb`    {- dawiy-a -}          [ "buzz", "hum" ],
+    FaCI                      `verb`    {- dawiy-a -}          [ "buzz", "hum" ],
 
     -- ;; daw~aY_1
     -- dwY     daw~aY  PV_0    buzz;hum;drone
@@ -7731,17 +7737,17 @@ lexicon = listing "Lexicon's properties"
     -- mdw     mudaw~  Nuwn_Niyn       ringing;resounding
     -- mdwy    mudaw~iy        NapAt   ringing;resounding
 
-    MuFaCCiL                  `noun`    {- mudaw~iy -}         [ "ringing", "resounding" ],
+    MuFaCCI                   `noun`    {- mudaw~iy -}         [ "ringing", "resounding" ],
 
     -- ;; dA}iy_1
     -- dA}y    dA}iy   Nprop   Da'i
 
-    FA'iL                     `noun`    {- dA}iy -}            [ "Da'i" ],
+    FA'I                      `noun`    {- dA}iy -}            [ "Da'i" ],
 
     -- ;; duwiy_1
     -- dwy     duwiy   N0      electrical socket
 
-    FuCiL                     `noun`    {- duwiy -}            [ "electrical socket" ] ]
+    FuCI                      `noun`    {- duwiy -}            [ "electrical socket" ] ]
 
  |> "d w z n" <| [
 

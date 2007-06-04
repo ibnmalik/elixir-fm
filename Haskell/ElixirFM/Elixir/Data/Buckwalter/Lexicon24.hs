@@ -636,7 +636,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tamoDiyap_1
     -- tmDy    tamoDiy Nap     spending;execution;completion
 
-    TaFCiL |< aT              `noun`    {- tamoDiyap -}        [ "spending", "execution", "completion" ],
+    TaFCI |< aT               `noun`    {- tamoDiyap -}        [ "spending", "execution", "completion" ],
 
     -- ;; <imoDA'_1
     -- <mDA'   <imoDA' N0_Nh   signing;signature
@@ -676,7 +676,7 @@ lexicon = listing "Lexicon's properties"
     -- mADy    mADiy   NAn_Nayn        past;bygone     [[mADiy/ADJ]]
     -- mADy    mADiy   Napdu   past;bygone     [[mADiy/ADJ]]
 
-    FACiL                     `adj`     {- mADiy -}            [ "past", "bygone" ],
+    FACI                      `adj`     {- mADiy -}            [ "past", "bygone" ],
 
     -- ;; mADiy_2
     -- mADy    mADiy   N0F     incisive;keen;energetic;efficient     [[mADiy/ADJ]]
@@ -687,8 +687,9 @@ lexicon = listing "Lexicon's properties"
     -- mwADy   mawADiy N0_Nh   incisive;keen;energetic;efficient     [[mawADiy/ADJ]]
     -- mwAD    mawAD   NK      incisive;keen;energetic;efficient     [[mawAD/ADJ]]
 
-    FACiL                     `adj`     {- mADiy -}            [ "incisive", "keen", "energetic", "efficient" ]
+    FACI                      `adj`     {- mADiy -}            [ "incisive", "keen", "energetic", "efficient" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "mawA.diy N0_Nh" ] -},
 
     -- ;; mumoDiy_1
@@ -698,7 +699,7 @@ lexicon = listing "Lexicon's properties"
     -- mmD     mumoD   Nuwn_Niyn       signatory;signer
     -- mmDy    mumoDiy NapAt   signatory;signer
 
-    MuFCiL                    `noun`    {- mumoDiy -}          [ "signatory", "signer" ],
+    MuFCI                     `noun`    {- mumoDiy -}          [ "signatory", "signer" ],
 
     -- ;; mumoDaY_1
     -- mmDY    mumoDaY N0      undersigned;signed
@@ -1381,7 +1382,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mAHiyap_1
     -- mAHy    mAHiy   NapAt   eraser
 
-    FACiL |< aT               `noun`    {- mAHiyap -}          [ "eraser" ] ]
+    FACI |< aT                `noun`    {- mAHiyap -}          [ "eraser" ] ]
 
  |> "m .s .s" <| [
 
@@ -2549,15 +2550,16 @@ lexicon = listing "Lexicon's properties"
     -- m$A     mu$A    Nap     pedestrians
     -- mA$y    mA$iy   NF      on foot     [[mA$iy/ADV]]
 
-    FACiL                     `noun`    {- mA$iy -}            [ "going", "walking", "infantry", "pedestrians", "on foot" ],
+    FACI                      `noun`    {- mA$iy -}            [ "going", "walking", "infantry", "pedestrians", "on foot" ],
 
     -- ;; mA$iyap_1
     -- mA$y    mA$iy   Nap     livestock;cattle
     -- mwA$y   mawA$iy N0_Nh   livestock;cattle
     -- mwA$    mawA$   NK      livestock;cattle
 
-    FACiL |< aT               `noun`    {- mA$iyap -}          [ "livestock", "cattle" ]
+    FACI |< aT                `noun`    {- mA$iyap -}          [ "livestock", "cattle" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "mawA^siy N0_Nh" ] -},
 
     -- ;; muw$iy_1
@@ -2568,7 +2570,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muw$iy_1
     -- mw$y    muw$iy  Nprop   Moshe
 
-    MUCiL                     `noun`    {- muw$iy -}           [ "Moshe" ],
+    MUCI                      `noun`    {- muw$iy -}           [ "Moshe" ],
 
     -- ;; muw$iy_1
     -- mw$y    muw$iy  Nprop   Moshe
@@ -5837,7 +5839,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mAliy_1
     -- mAly    mAliy   N0      Mali
 
-    FACiL                     `noun`    {- mAliy -}            [ "Mali" ],
+    FACI                      `noun`    {- mAliy -}            [ "Mali" ],
 
     -- ;; mAliy_1
     -- mAly    mAliy   N0      Mali
@@ -5936,7 +5938,8 @@ lexicon = listing "Lexicon's properties"
 
     MICAL                     `noun`    {- miynA' -}           [ "port", "harbor", "ports", "harbors" ]
                               `plural`     FawACiL
-                           {- `others`  [ "mawAni' Ndip" ] -},
+                              `plural`     FawACI
+                           {- `others`  [ "mawAni' Ndip", "mawAniy N0_Nh" ] -},
 
     -- ;; miynA'_1
     -- mynA'   miynA'  N0_Nh   port;harbor
@@ -5952,7 +5955,8 @@ lexicon = listing "Lexicon's properties"
 
     FICAL                     `noun`    {- miynA' -}           [ "port", "harbor", "ports", "harbors" ]
                               `plural`     FawACiL
-                           {- `others`  [ "mawAni' Ndip" ] -} ]
+                              `plural`     FawACI
+                           {- `others`  [ "mawAni' Ndip", "mawAniy N0_Nh" ] -} ]
 
  |> "m n .g l" <| [
 
@@ -6316,6 +6320,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCY |< aT                `noun`    {- manAp -}            [ "Manat (pre-Islamic goddess)" ],
 
+    -- ;; tamoniyap_1
+    -- tmny    tamoniy Nap     ejaculation
+
+    TaFCI |< aT               `noun`    {- tamoniyap -}        [ "ejaculation" ],
+
     -- ;; <imonA'_1
     -- <mnA'   <imonA' N0_Nh   ejaculation
     -- AmnA'   <imonA' N0_Nh   ejaculation
@@ -6386,7 +6395,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tamoniyap_1
     -- tmny    tamoniy Nap     ejaculation
 
-    TaFCiL |< aT              `noun`    {- tamoniyap -}        [ "ejaculation" ],
+    TaFCI |< aT               `noun`    {- tamoniyap -}        [ "ejaculation" ],
 
     -- ;; mutaman~iy_1
     -- mtmny   mutaman~iy      N0F_Nh  wishing;desiring
@@ -6395,7 +6404,7 @@ lexicon = listing "Lexicon's properties"
     -- mtmn    mutaman~        Nuwn_Niyn       wishing;desiring
     -- mtmny   mutaman~iy      NapAt   wishing;desiring
 
-    MutaFaCCiL                `noun`    {- mutaman~iy -}       [ "wishing", "desiring" ] ]
+    MutaFaCCI                 `noun`    {- mutaman~iy -}       [ "wishing", "desiring" ] ]
 
  |> "m q `" <| [
 
@@ -7636,7 +7645,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mAriy_1
     -- mAry    mAriy   Nprop   Mary
 
-    FACiL                     `noun`    {- mAriy -}            [ "Mary" ],
+    FACI                      `noun`    {- mAriy -}            [ "Mary" ],
 
     -- ;; mAraY_1
     -- mArY    mAraY   PV_0    argue;dispute;oppose
@@ -8355,7 +8364,7 @@ lexicon = listing "Lexicon's properties"
     -- mms     mumos   Nuwn_Niyn       spending the evening
     -- mmsy    mumosiy NapAt   spending the evening
 
-    MuFCiL                    `noun`    {- mumosiy -}          [ "spending the evening" ],
+    MuFCI                     `noun`    {- mumosiy -}          [ "spending the evening" ],
 
     -- ;; masaY-i_1
     -- msY     masaY   PV_0    make lean;emaciate
@@ -10298,7 +10307,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mAziyap_1
     -- mAzy    mAziy   NapAt   merit;virtue;advantage
 
-    FACiL |< aT               `noun`    {- mAziyap -}          [ "merit", "virtue", "advantage" ],
+    FACI |< aT                `noun`    {- mAziyap -}          [ "merit", "virtue", "advantage" ],
 
     -- ;; mAziyap_1
     -- mAzy    mAziy   NapAt   merit;virtue;advantage

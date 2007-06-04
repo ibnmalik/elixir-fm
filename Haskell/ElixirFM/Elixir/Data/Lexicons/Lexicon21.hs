@@ -116,9 +116,9 @@ lexicon = listing "Lexicon's properties"
 
     InFiCA'                   `noun`    {- AinoqiDA' -}        [ "termination", "expiration" ],
 
-    FACiL                     `noun`    {- qADiy -}            [ "executing", "performing", "decreeing" ],
+    FACI                      `noun`    {- qADiy -}            [ "executing", "performing", "decreeing" ],
 
-    FACiL                     `noun`    {- qADiy -}            [ "judge", "magistrate", "judges", "magistrates" ],
+    FACI                      `noun`    {- qADiy -}            [ "judge", "magistrate", "judges", "magistrates" ],
 
     MaFCIy                    `adj`     {- maqoDiy~ -}         [ "settled", "finished" ],
 
@@ -301,7 +301,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "q .s y" <| [
 
-    FACiL                     `adj`     {- qASiy -}            [ "distant", "remote" ] ]
+    FACI                      `adj`     {- qASiy -}            [ "distant", "remote" ] ]
 
  |> "q .t .t" <| [
 
@@ -1625,7 +1625,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "q s y" <| [
 
-    FACiL                     `adj`     {- qAsiy -}            [ "harsh", "cruel", "brutal" ] ]
+    FACI                      `adj`     {- qAsiy -}            [ "harsh", "cruel", "brutal" ] ]
 
  |> "q t l" <| [
 
@@ -1832,7 +1832,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "q w y" <| [
 
-    FaCiL                     `verb`    {- qawiy-a -}          [ "be strong" ]
+    FaCI                      `verb`    {- qawiy-a -}          [ "be strong" ]
                               `imperf`     FCY,
 
     FaCCY                     `verb`    {- qaw~aY -}           [ "strengthen", "be strengthened" ],
@@ -1849,7 +1849,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCaL
                            {- `others`  [ "'aqway NAn_Nayn" ] -},
 
-    TaFCiL |< aT              `noun`    {- taqowiyap -}        [ "strengthening", "consolidation", "reinforcement", "seed for sowing" ]
+    TaFCI |< aT               `noun`    {- taqowiyap -}        [ "strengthening", "consolidation", "reinforcement", "seed for sowing" ]
                               `plural`     TaFACI
                            {- `others`  [ "taqAwiy N0_Nh" ] -},
 

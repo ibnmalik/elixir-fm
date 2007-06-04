@@ -324,7 +324,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFCI                     `noun`    {- mujodiy -}          [ "useful", "suitable" ],
 
-    MuFCiL                    `noun`    {- mujodiy -}          [ "useful", "suitable" ],
+    MuFCI                     `noun`    {- mujodiy -}          [ "useful", "suitable" ],
 
     FaCL                      `noun`    {- jadoy -}            [ "goat", "goats" ]
                               `plural`     FiCLAn
@@ -546,7 +546,9 @@ lexicon = listing "Lexicon's properties"
 
     IstiFCA'                  `noun`    {- AisotijolA' -}      [ "clarification", "elucidation", "clarifications" ],
 
-    FACI |< aT                `noun`    {- jAliyap -}          [ "expatriate community", "colony", "expatriate communities", "colonies" ] ]
+    FACI |< aT                `noun`    {- jAliyap -}          [ "expatriate community", "colony", "expatriate communities", "colonies" ]
+                              `plural`     FawACI
+                           {- `others`  [ "^gawAliy N0_Nh" ] -} ]
 
  |> "^g l y" <| [
 
@@ -556,10 +558,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCIL
                            {- `others`  [ "^galiyy NF" ] -},
 
-    MaFACiL                   `noun`    {- majAliy -}          [ "manifestations" ],
+    MaFACI                    `noun`    {- majAliy -}          [ "manifestations" ],
 
-    FACiL |< aT               `noun`    {- jAliyap -}          [ "expatriate community", "colony", "expatriate communities", "colonies" ]
+    FACI |< aT                `noun`    {- jAliyap -}          [ "expatriate community", "colony", "expatriate communities", "colonies" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "^gawAliy N0_Nh" ] -} ]
 
  |> "^g m .h" <| [
@@ -874,7 +877,7 @@ lexicon = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- jinAyap -}          [ "crime", "felony", "crimes", "felonies", "penal code" ]
                               `plural`     FiCAL |< At,
 
-    FACiL                     `noun`    {- jAniy -}            [ "delinquent", "criminal", "delinquents", "criminals" ] ]
+    FACI                      `noun`    {- jAniy -}            [ "delinquent", "criminal", "delinquents", "criminals" ] ]
 
  |> "^g n z" <| [
 
@@ -1067,14 +1070,14 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FACI
                            {- `others`  [ "^gAriy NF" ] -},
 
-    FACiL |< aN               `noun`    {- jAriyAF -}          [ "occurring", "happening", "flowing" ]
+    FACI |< aN                `noun`    {- jAriyAF -}          [ "occurring", "happening", "flowing" ]
                               `plural`     FACiL
                               `plural`     FACI
                            {- `others`  [ "^gAriy NF" ] -},
 
     FACI                      `adj`     {- jAriy -}            [ "current", "present", "proceeding", "taking place" ],
 
-    FACiL                     `adj`     {- jAriy -}            [ "current", "present", "proceeding", "taking place" ] ]
+    FACI                      `adj`     {- jAriy -}            [ "current", "present", "proceeding", "taking place" ] ]
 
  |> "^g s d" <| [
 
@@ -1280,7 +1283,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- jaw~iy~ -}          [ "air", "aerial", "atmospheric" ],
 
-    FuL                       `noun`    {- juw -}              [ "Joe" ] ]
+    FU                        `noun`    {- juw -}              [ "Joe" ] ]
 
  |> "^g w z" <| [
 

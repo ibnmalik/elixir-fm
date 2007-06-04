@@ -5020,7 +5020,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiL',
+      'morphs' => 'FI',
       'suffix' => '',
       'glosses' => [
         'Yi'
@@ -6694,7 +6694,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuL',
+      'morphs' => 'FU',
       'suffix' => '',
       'glosses' => [
         'Yo',

@@ -963,6 +963,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCL |< aT                `noun`    {- kixoyap -}          [ "butler", "steward", "butlers", "stewards" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                               `plural`     FACiL
                               `plural`     FACI
                            {- `others`  [ "kawA_hiy N0_Nh", "kA_hiy Napdu" ] -} ]
@@ -2080,7 +2081,7 @@ lexicon = listing "Lexicon's properties"
     -- kAby    kAbiy   NAn_Nayn        dull;dim;weak
     -- kAby    kAbiy   NapAt   dull;dim;weak
 
-    FACiL                     `adj`     {- kAbiy -}            [ "dull", "dim", "weak" ],
+    FACI                      `adj`     {- kAbiy -}            [ "dull", "dim", "weak" ],
 
     -- ;; kub~Ayap_1
     -- kbAy    kub~Ay  Napdu   cup;tumbler
@@ -3153,7 +3154,7 @@ lexicon = listing "Lexicon's properties"
     -- kAfy    kAfiy   NapAt   sufficient;adequate;competent
     -- kfA     kufA    Nap     sufficient;adequate;competent
 
-    FACiL                     `adj`     {- kAfiy -}            [ "sufficient", "adequate", "competent" ],
+    FACI                      `adj`     {- kAfiy -}            [ "sufficient", "adequate", "competent" ],
 
     -- ;; mukotafiy_1
     -- mktfy   mukotafiy       N0_Nh   contented;satisfied     [[mukotafiy/ADJ]]
@@ -3162,7 +3163,7 @@ lexicon = listing "Lexicon's properties"
     -- mktf    mukotaf Nuwn_Niyn       contented;satisfied
     -- mktfy   mukotafiy       NapAt   contented;satisfied
 
-    MuFtaCiL                  `adj`     {- mukotafiy -}        [ "contented", "satisfied" ] ]
+    MuFtaCI                   `adj`     {- mukotafiy -}        [ "contented", "satisfied" ] ]
 
  |> "k h f" <| [
 
@@ -3374,7 +3375,9 @@ lexicon = listing "Lexicon's properties"
     -- kwAhy   kawAhiy N0_Nh   officers;deputies
     -- kwAh    kawAh   NK      officers;deputies
 
-    FACI |< aT                `noun`    {- kAhiyap -}          [ "officer", "deputy", "officers", "deputies" ] ]
+    FACI |< aT                `noun`    {- kAhiyap -}          [ "officer", "deputy", "officers", "deputies" ]
+                              `plural`     FawACI
+                           {- `others`  [ "kawAhiy N0_Nh" ] -} ]
 
  |> "k h y" <| [
 
@@ -3383,8 +3386,9 @@ lexicon = listing "Lexicon's properties"
     -- kwAhy   kawAhiy N0_Nh   officers;deputies
     -- kwAh    kawAh   NK      officers;deputies
 
-    FACiL |< aT               `noun`    {- kAhiyap -}          [ "officer", "deputy", "officers", "deputies" ]
+    FACI |< aT                `noun`    {- kAhiyap -}          [ "officer", "deputy", "officers", "deputies" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "kawAhiy N0_Nh" ] -},
 
     -- ;; kihAyap_1
@@ -6582,7 +6586,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; kAriy_1
     -- kAry    kAriy   Nprop   Carey
 
-    FACiL                     `noun`    {- kAriy -}            [ "Carey" ],
+    FACI                      `noun`    {- kAriy -}            [ "Carey" ],
 
     -- ;; kuray~ap_1
     -- kry     kuray~  NapAt   globule;pellet;corpuscle
@@ -6608,7 +6612,7 @@ lexicon = listing "Lexicon's properties"
     -- kry     koray   IV_Ann  sleep
     -- kr      kora    IV_0hwnyn       sleep
 
-    FaCiL                     `verb`    {- kariy-a -}          [ "sleep" ]
+    FaCI                      `verb`    {- kariy-a -}          [ "sleep" ]
                               `imperf`     FCY,
 
     -- ;; kAraY_1
@@ -6737,7 +6741,7 @@ lexicon = listing "Lexicon's properties"
     -- mkAr    mukAr   Nuwn_Niyn       hirer;lessor
     -- mkAry   mukAriy NapAt   hirer;lessor
 
-    MuFACiL                   `noun`    {- mukAriy -}          [ "hirer", "lessor" ],
+    MuFACI                    `noun`    {- mukAriy -}          [ "hirer", "lessor" ],
 
     -- ;; mukoriy_1
     -- mkry    mukoriy N0F_Nh  hirer;lessor;landlord
@@ -6745,7 +6749,7 @@ lexicon = listing "Lexicon's properties"
     -- mkry    mukoriy NAn_Nayn        hirer;lessor;landlord
     -- mkr     mukor   Nuwn_Niyn       hirer;lessor;landlord
 
-    MuFCiL                    `noun`    {- mukoriy -}          [ "hirer", "lessor", "landlord" ],
+    MuFCI                     `noun`    {- mukoriy -}          [ "hirer", "lessor", "landlord" ],
 
     -- ;; mukoraY_1
     -- mkrY    mukoraY N0      rented;hired out;on lease
@@ -6765,7 +6769,7 @@ lexicon = listing "Lexicon's properties"
     -- mktr    mukotar Nuwn_Niyn       renter;tenant;lessee
     -- mktry   mukotariy       NapAt   renter;tenant;lessee
 
-    MuFtaCiL                  `noun`    {- mukotariy -}        [ "renter", "tenant", "lessee" ],
+    MuFtaCI                   `noun`    {- mukotariy -}        [ "renter", "tenant", "lessee" ],
 
     -- ;; musotakoriy_1
     -- mstkry  musotakoriy     N0F_Nh  renter;tenant;lessee
@@ -6774,7 +6778,7 @@ lexicon = listing "Lexicon's properties"
     -- mstkr   musotakor       Nuwn_Niyn       renters;tenants;lessees
     -- mstkry  musotakoriy     NapAt   renter;tenant;lessee
 
-    MustaFCiL                 `noun`    {- musotakoriy -}      [ "renter", "tenant", "lessee", "renters", "tenants", "lessees" ],
+    MustaFCI                  `noun`    {- musotakoriy -}      [ "renter", "tenant", "lessee", "renters", "tenants", "lessees" ],
 
     -- ;; kiroyAt_1
     -- kryAt   kiroyAt Nprop   Kiryat
@@ -6784,7 +6788,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; kawAriy_1
     -- kwAry   kawAriy N0      Kawari
 
-    FawACiL                   `noun`    {- kawAriy -}          [ "Kawari" ] ]
+    FawACI                    `noun`    {- kawAriy -}          [ "Kawari" ],
+
+    -- ;; kawAriy_1
+    -- kwAry   kawAriy N0      Kawari
+
+    FawACI                    `noun`    {- kawAriy -}          [ "Kawari" ] ]
 
  |> "k r y b" <| [
 
@@ -7471,7 +7480,8 @@ lexicon = listing "Lexicon's properties"
     -- ksy     kosay   IV_Ann  get dressed
     -- ks      kosa    IV_0hwnyn       get dressed
 
-    FaCI                      `verb`    {- kasiy-a -}          [ "get dressed" ],
+    FaCI                      `verb`    {- kasiy-a -}          [ "get dressed" ]
+                              `imperf`     FCY,
 
     -- ;; >akosaY_1
     -- >ksY    >akosaY PV_0    clothe;attire
@@ -7542,7 +7552,12 @@ lexicon = listing "Lexicon's properties"
     -- Aksy    >akosiy Nap     clothes;garment
 
     FiCA'                     `noun`    {- kisA' -}            [ "clothes", "garment" ]
-                              `plural`     HaFCI |< aT ]
+                              `plural`     HaFCI |< aT,
+
+    -- ;; takosiy_1
+    -- tksy    takosiy Nap     dressing;clothing
+
+    TaFCI                     `noun`    {- takosiy -}          [ "dressing", "clothing" ] ]
 
  |> "k s y" <| [
 
@@ -7553,13 +7568,13 @@ lexicon = listing "Lexicon's properties"
     -- ksy     kosay   IV_Ann  get dressed
     -- ks      kosa    IV_0hwnyn       get dressed
 
-    FaCiL                     `verb`    {- kasiy-a -}          [ "get dressed" ]
+    FaCI                      `verb`    {- kasiy-a -}          [ "get dressed" ]
                               `imperf`     FCY,
 
     -- ;; takosiy_1
     -- tksy    takosiy Nap     dressing;clothing
 
-    TaFCiL                    `noun`    {- takosiy -}          [ "dressing", "clothing" ] ]
+    TaFCI                     `noun`    {- takosiy -}          [ "dressing", "clothing" ] ]
 
  |> "k t ' b" <| [
 
@@ -8831,7 +8846,7 @@ lexicon = listing "Lexicon's properties"
     -- kAwy    kAwiy   NAn_Nayn        caustic
     -- kAwy    kAwiy   NapAt   caustic
 
-    FACiL                     `noun`    {- kAwiy -}            [ "caustic" ] ]
+    FACI                      `noun`    {- kAwiy -}            [ "caustic" ] ]
 
  |> "k w z" <| [
 

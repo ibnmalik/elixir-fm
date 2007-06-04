@@ -457,7 +457,8 @@ lexicon = listing "Lexicon's properties"
     -- DHy     DoHay   IV_Ann  be visible;be in the sun
     -- DH      DoHa    IV_0hwnyn       be visible;be in the sun
 
-    FaCI                      `verb`    {- DaHiy-a -}          [ "be visible", "be in the sun" ],
+    FaCI                      `verb`    {- DaHiy-a -}          [ "be visible", "be in the sun" ]
+                              `imperf`     FCY,
 
     -- ;; DaH~aY_1
     -- DHY     DaH~aY  PV_0    sacrifice;immolate
@@ -513,6 +514,12 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY |< aT               `noun`    {- OaDoHAp -}          [ "sacrifice", "immolation" ],
 
+    -- ;; taDoHiy_1
+    -- tDHy    taDoHiy NapAt   sacrifice;immolation
+    -- tDHy    taDoHiy NAt     sacrifices
+
+    TaFCI                     `noun`    {- taDoHiy -}          [ "sacrifice", "immolation", "sacrifices" ],
+
     -- ;; DAHiy_1
     -- DAHy    DAHiy   N0F     visible     [[DAHiy/ADJ]]
     -- DAH     DAH     NK      visible
@@ -524,7 +531,9 @@ lexicon = listing "Lexicon's properties"
     -- DwAHy   DawAHiy N0_Nh   suburbs;outskirts
     -- DwAH    DawAH   NK      suburbs;outskirts
 
-    FACI |< aT                `noun`    {- DAHiyap -}          [ "suburb", "vicinity", "suburbs", "outskirts" ],
+    FACI |< aT                `noun`    {- DAHiyap -}          [ "suburb", "vicinity", "suburbs", "outskirts" ]
+                              `plural`     FawACI
+                           {- `others`  [ ".dawA.hiy N0_Nh" ] -},
 
     -- ;; DAHawiy~_1
     -- DAHwy   DAHawiy~        N-ap    suburban     [[DAHawiy~/ADJ]]
@@ -540,7 +549,7 @@ lexicon = listing "Lexicon's properties"
     -- DHy     DoHay   IV_Ann  be visible;be in the sun
     -- DH      DoHa    IV_0hwnyn       be visible;be in the sun
 
-    FaCiL                     `verb`    {- DaHiy-a -}          [ "be visible", "be in the sun" ]
+    FaCI                      `verb`    {- DaHiy-a -}          [ "be visible", "be in the sun" ]
                               `imperf`     FCY,
 
     -- ;; DaHiy~ap_1
@@ -553,21 +562,22 @@ lexicon = listing "Lexicon's properties"
     -- tDHy    taDoHiy NapAt   sacrifice;immolation
     -- tDHy    taDoHiy NAt     sacrifices
 
-    TaFCiL                    `noun`    {- taDoHiy -}          [ "sacrifice", "immolation", "sacrifices" ],
+    TaFCI                     `noun`    {- taDoHiy -}          [ "sacrifice", "immolation", "sacrifices" ],
 
     -- ;; DAHiy_1
     -- DAHy    DAHiy   N0F     visible     [[DAHiy/ADJ]]
     -- DAH     DAH     NK      visible
 
-    FACiL                     `adj`     {- DAHiy -}            [ "visible" ],
+    FACI                      `adj`     {- DAHiy -}            [ "visible" ],
 
     -- ;; DAHiyap_1
     -- DAHy    DAHiy   Nap     suburb;vicinity
     -- DwAHy   DawAHiy N0_Nh   suburbs;outskirts
     -- DwAH    DawAH   NK      suburbs;outskirts
 
-    FACiL |< aT               `noun`    {- DAHiyap -}          [ "suburb", "vicinity", "suburbs", "outskirts" ]
+    FACI |< aT                `noun`    {- DAHiyap -}          [ "suburb", "vicinity", "suburbs", "outskirts" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ ".dawA.hiy N0_Nh" ] -} ]
 
  |> ".d .t r" <| [
@@ -1434,7 +1444,7 @@ lexicon = listing "Lexicon's properties"
     -- DAf     DAf     Nuwn_Niyn       ample;elaborate
     -- DAfy    DAfiy   NapAt   ample;elaborate
 
-    FACiL                     `noun`    {- DAfiy -}            [ "ample", "elaborate" ],
+    FACI                      `noun`    {- DAfiy -}            [ "ample", "elaborate" ],
 
     -- ;; DAfiy_1
     -- DAfy    DAfiy   N0F     ample;elaborate
@@ -1540,7 +1550,7 @@ lexicon = listing "Lexicon's properties"
     -- mDAh    muDAh   Nuwn_Niyn       analogous;similar;corresponding
     -- mDAhy   muDAhiy NapAt   analogous;similar;corresponding
 
-    MuFACiL                   `adj`     {- muDAhiy -}          [ "analogous", "similar", "corresponding" ] ]
+    MuFACI                    `adj`     {- muDAhiy -}          [ "analogous", "similar", "corresponding" ] ]
 
  |> ".d l `" <| [
 
@@ -2187,7 +2197,7 @@ lexicon = listing "Lexicon's properties"
     -- Dny     Donay   IV_Ann  become emaciated;languish
     -- Dn      Dona    IV_0hwnyn       become emaciated;languish
 
-    FaCiL                     `verb`    {- Daniy-a -}          [ "become emaciated", "languish" ]
+    FaCI                      `verb`    {- Daniy-a -}          [ "become emaciated", "languish" ]
                               `imperf`     FCY,
 
     -- ;; >aDonaY_1
@@ -2218,7 +2228,7 @@ lexicon = listing "Lexicon's properties"
     -- Dny     Daniy   N-ap    grief-stricken;languished     [[Daniy/ADJ]]
     -- Dn      Dan     NK      grief-stricken;languished
 
-    FaCiL                     `adj`     {- Daniy -}            [ "grief-stricken", "languished" ],
+    FaCI                      `adj`     {- Daniy -}            [ "grief-stricken", "languished" ],
 
     -- ;; Daniy~ap_1
     -- Dny     Daniy~  Nap     Daniya;Dania
@@ -2244,7 +2254,7 @@ lexicon = listing "Lexicon's properties"
     -- mDn     muDon   Nuwn_Niyn       debilitating;exhausting
     -- mDny    muDoniy NapAt   debilitating;exhausting
 
-    MuFCiL                    `adj`     {- muDoniy -}          [ "debilitating", "exhausting" ],
+    MuFCI                     `adj`     {- muDoniy -}          [ "debilitating", "exhausting" ],
 
     -- ;; muDonaY_1
     -- mDnY    muDonaY N0      debilitated;exhausted     [[muDonaY/ADJ]]
@@ -2917,12 +2927,23 @@ lexicon = listing "Lexicon's properties"
     -- DwAry   DawAriy N0_Nh   predatory animals
     -- DwAr    DawAr   NK      predatory animals
 
-    FawACiL                   `noun`    {- DawAriy -}          [ "predatory animals" ],
+    FawACI                    `noun`    {- DawAriy -}          [ "predatory animals" ],
+
+    -- ;; DawAriy_1
+    -- DwAry   DawAriy N0_Nh   predatory animals
+    -- DwAr    DawAr   NK      predatory animals
+
+    FawACI                    `noun`    {- DawAriy -}          [ "predatory animals" ],
 
     -- ;; taDoriyap_1
     -- tDry    taDoriy Nap     provocation
 
-    TaFCiL |< aT              `noun`    {- taDoriyap -}        [ "provocation" ] ]
+    TaFCI |< aT               `noun`    {- taDoriyap -}        [ "provocation" ],
+
+    -- ;; taDoriyap_1
+    -- tDry    taDoriy Nap     provocation
+
+    TaFCI |< aT               `noun`    {- taDoriyap -}        [ "provocation" ] ]
 
  |> ".d w '" <| [
 
@@ -3232,7 +3253,7 @@ lexicon = listing "Lexicon's properties"
     -- DAw     DAw     Nuwn_Niyn       weak;thin
     -- DAwy    DAwiy   NapAt   weak;thin
 
-    FACiL                     `adj`     {- DAwiy -}            [ "weak", "thin" ],
+    FACI                      `adj`     {- DAwiy -}            [ "weak", "thin" ],
 
     -- ;; munoDawiy_1
     -- mnDwy   munoDawiy       N0F_Nh  seeking refuge;rallying around     [[munoDawiy/ADJ]]
@@ -3241,7 +3262,7 @@ lexicon = listing "Lexicon's properties"
     -- mnDw    munoDaw Nuwn_Niyn       seeking refuge;rallying around
     -- mnDwy   munoDawiy       NapAt   seeking refuge;rallying around
 
-    MunFaCiL                  `adj`     {- munoDawiy -}        [ "seeking refuge", "rallying around" ] ]
+    MunFaCI                   `adj`     {- munoDawiy -}        [ "seeking refuge", "rallying around" ] ]
 
  |> ".d y '" <| [
 

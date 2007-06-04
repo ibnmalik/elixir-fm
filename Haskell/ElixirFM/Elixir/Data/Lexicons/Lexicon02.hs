@@ -678,14 +678,14 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- bAdiy -}            [ "apparent", "obvious" ],
 
-    FACiL                     `noun`    {- bAdiy -}            [ "apparent", "obvious" ],
+    FACI                      `noun`    {- bAdiy -}            [ "apparent", "obvious" ],
 
     MuFCI |< aN               `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
                               `plural`     MuFCiL
                               `plural`     MuFCI
                            {- `others`  [ "mubdiy NF N0" ] -},
 
-    MuFCiL |< aN              `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
+    MuFCI |< aN               `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
                               `plural`     MuFCiL
                               `plural`     MuFCI
                            {- `others`  [ "mubdiy NF N0" ] -} ]
@@ -768,7 +768,9 @@ lexicon = listing "Lexicon's properties"
 
     MaFCY                     `noun`    {- mabokaY -}          [ "wailing" ],
 
-    FACI                      `noun`    {- bAkiy -}            [ "mourner", "weeping", "mourners", "weepers" ] ]
+    FACI                      `noun`    {- bAkiy -}            [ "mourner", "weeping", "mourners", "weepers" ]
+                              `plural`     FawACI
+                           {- `others`  [ "bawAkiy N0_Nh" ] -} ]
 
  |> "b k k" <| [
 
@@ -806,8 +808,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "b k y" <| [
 
-    FACiL                     `noun`    {- bAkiy -}            [ "mourner", "weeping", "mourners", "weepers" ]
+    FACI                      `noun`    {- bAkiy -}            [ "mourner", "weeping", "mourners", "weepers" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "bawAkiy N0_Nh" ] -} ]
 
  |> "b l .g" <| [
@@ -1040,11 +1043,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCI                      `noun`    {- baniy -}            [ "Bani", "Beni", "Benny" ],
 
-    FaCiL                     `noun`    {- baniy -}            [ "Bani", "Beni", "Benny" ],
+    FaCI                      `noun`    {- baniy -}            [ "Bani", "Beni", "Benny" ],
 
     FaCI                      `noun`    {- baniy -}            [ "sons/children of" ],
 
-    FaCiL                     `noun`    {- baniy -}            [ "sons/children of" ],
+    FaCI                      `noun`    {- baniy -}            [ "sons/children of" ],
 
     FuCayL                    `noun`    {- bunay~ -}           [ "little son" ],
 
@@ -1115,9 +1118,10 @@ lexicon = listing "Lexicon's properties"
 
  |> "b q y" <| [
 
-    FaCI                      `verb`    {- baqiy-a -}          [ "remain", "last" ],
+    FaCI                      `verb`    {- baqiy-a -}          [ "remain", "last" ]
+                              `imperf`     FCY,
 
-    FaCiL                     `verb`    {- baqiy-a -}          [ "remain", "last" ]
+    FaCI                      `verb`    {- baqiy-a -}          [ "remain", "last" ]
                               `imperf`     FCY,
 
     HaFCY                     `verb`    {- OaboqaY -}          [ "maintain", "preserve", "be maintained", "be preserved" ],
@@ -1134,15 +1138,15 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- bAqiy -}            [ "Baqi" ],
 
-    FACiL                     `noun`    {- bAqiy -}            [ "Baqi" ],
+    FACI                      `noun`    {- bAqiy -}            [ "Baqi" ],
 
     FACI                      `noun`    {- bAqiy -}            [ "remaining" ],
 
-    FACiL                     `noun`    {- bAqiy -}            [ "remaining" ],
+    FACI                      `noun`    {- bAqiy -}            [ "remaining" ],
 
     MutaFaCCI                 `noun`    {- mutabaq~iy -}       [ "residue", "remnant" ],
 
-    MutaFaCCiL                `noun`    {- mutabaq~iy -}       [ "residue", "remnant" ] ]
+    MutaFaCCI                 `noun`    {- mutabaq~iy -}       [ "residue", "remnant" ] ]
 
  |> "b r '" <| [
 
@@ -1325,7 +1329,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- bAriy -}            [ "Paris" ],
 
-    FACiL                     `noun`    {- bAriy -}            [ "Paris" ],
+    FACI                      `noun`    {- bAriy -}            [ "Paris" ],
 
     FaCA' |< aT               `noun`    {- barA'ap -}          [ "innocence" ],
 
@@ -1336,9 +1340,9 @@ lexicon = listing "Lexicon's properties"
     MuFACY |< aT              `noun`    {- mubArAp -}          [ "match", "game", "competition", "matches", "games", "competitions" ]
                               `plural`     MuFACaL |< At,
 
-    FACiL                     `noun`    {- bAriy -}            [ "Bari", "Bary" ],
+    FACI                      `noun`    {- bAriy -}            [ "Bari", "Bary" ],
 
-    MutaFACiL                 `noun`    {- mutabAriy -}        [ "participant", "competitor" ] ]
+    MutaFACI                  `noun`    {- mutabAriy -}        [ "participant", "competitor" ] ]
 
  |> "b r z" <| [
 

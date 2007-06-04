@@ -93,7 +93,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Zabiy_1
     -- Zby     Zabiy   FW      Dhabi     [[Zabiy/NOUN_PROP]]
 
-    FaCiL                     `noun`    {- Zabiy -}            [ "Dhabi" ],
+    FaCI                      `noun`    {- Zabiy -}            [ "Dhabi" ],
 
     -- ;; Zaboyap_1
     -- Zby     Zaboy   Napdu   gazelle

@@ -231,11 +231,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "y w w" <| [
 
-    FuL                       `noun`    {- yuw -}              [ "Yo", "Yu" ] ]
+    FU                        `noun`    {- yuw -}              [ "Yo", "Yu" ] ]
 
  |> "y y y" <| [
 
-    FiL                       `noun`    {- yiy -}              [ "Yi" ],
+    FI                        `noun`    {- yiy -}              [ "Yi" ],
 
     FI                        `noun`    {- yiy -}              [ "Yi" ] ]
 

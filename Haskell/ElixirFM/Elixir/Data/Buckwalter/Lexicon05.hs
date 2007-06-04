@@ -166,7 +166,7 @@ lexicon = listing "Lexicon's properties"
     -- jA}     jA}     Nuwn_Niyn       coming;arriving
     -- jA}y    jA}iy   NapAt   coming;arriving
 
-    FACiL                     `noun`    {- jA}iy -}            [ "coming", "arriving" ] ]
+    FACI                      `noun`    {- jA}iy -}            [ "coming", "arriving" ] ]
 
  |> "^g ' z" <| [
 
@@ -1062,7 +1062,7 @@ lexicon = listing "Lexicon's properties"
     -- jAv     jAv     Nuwn_Niyn       kneeling
     -- jAvy    jAviy   NapAt   kneeling
 
-    FACiL                     `noun`    {- jAviy -}            [ "kneeling" ],
+    FACI                      `noun`    {- jAviy -}            [ "kneeling" ],
 
     -- ;; jAviy_1
     -- jAvy    jAviy   N0F     kneeling
@@ -1076,7 +1076,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; jAviy_2
     -- jAvy    jAviy   N0      Hercules
 
-    FACiL                     `noun`    {- jAviy -}            [ "Hercules" ],
+    FACI                      `noun`    {- jAviy -}            [ "Hercules" ],
 
     -- ;; jAviy_2
     -- jAvy    jAviy   N0      Hercules
@@ -1822,7 +1822,7 @@ lexicon = listing "Lexicon's properties"
     -- jAby    jAbiy   NapAt   tax collector;collector
     -- jbA     jubA    Nap     tax collectors;collectors
 
-    FACiL                     `noun`    {- jAbiy -}            [ "tax collector", "collector", "tax collectors", "collectors" ],
+    FACI                      `noun`    {- jAbiy -}            [ "tax collector", "collector", "tax collectors", "collectors" ],
 
     -- ;; jAbiy_1
     -- jAby    jAbiy   N0F     tax collector;collector
@@ -1839,8 +1839,9 @@ lexicon = listing "Lexicon's properties"
     -- jwAby   jawAbiy N0_Nh   pools;basins
     -- jwAb    jawAb   NK      pools;basins
 
-    FACiL |< aT               `noun`    {- jAbiyap -}          [ "pool", "basin", "pools", "basins" ]
+    FACI |< aT                `noun`    {- jAbiyap -}          [ "pool", "basin", "pools", "basins" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "^gawAbiy N0_Nh" ] -},
 
     -- ;; jAbiyap_1
@@ -1850,6 +1851,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI |< aT                `noun`    {- jAbiyap -}          [ "pool", "basin", "pools", "basins" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "^gawAbiy N0_Nh" ] -} ]
 
  |> "^g d '" <| [
@@ -2496,7 +2498,7 @@ lexicon = listing "Lexicon's properties"
     -- mjd     mujod   Nuwn_Niyn       useful;suitable
     -- mjdy    mujodiy NapAt   useful;suitable
 
-    MuFCiL                    `noun`    {- mujodiy -}          [ "useful", "suitable" ],
+    MuFCI                     `noun`    {- mujodiy -}          [ "useful", "suitable" ],
 
     -- ;; jadoy_1
     -- jdy     jadoy   Ndu     goat
@@ -2786,7 +2788,7 @@ lexicon = listing "Lexicon's properties"
     -- jAfy    jAfiy   NapAt   rough;rude
     -- jfA     jufA    Nap     rough;rude
 
-    FACiL                     `noun`    {- jAfiy -}            [ "rough", "rude" ] ]
+    FACI                      `noun`    {- jAfiy -}            [ "rough", "rude" ] ]
 
  |> "^g h .d" <| [
 
@@ -3227,7 +3229,7 @@ lexicon = listing "Lexicon's properties"
     -- jhy     johay   IV_Ann  collapse;fall
     -- jh      joha    IV_0hwnyn       collapse;fall
 
-    FaCiL                     `verb`    {- jahiy-a -}          [ "collapse", "fall" ]
+    FaCI                      `verb`    {- jahiy-a -}          [ "collapse", "fall" ]
                               `imperf`     FCY,
 
     -- ;; >ajohaY_1
@@ -4322,6 +4324,11 @@ lexicon = listing "Lexicon's properties"
 
     MaFACI                    `noun`    {- majAliy -}          [ "manifestations" ],
 
+    -- ;; tajoliyap_1
+    -- tjly    tajoliy NapAt   clarification;revelation
+
+    TaFCI |< aT               `noun`    {- tajoliyap -}        [ "clarification", "revelation" ],
+
     -- ;; <ijolA'_1
     -- <jlA'   <ijolA' N0_Nh   evacuation;withdrawal
     -- AjlA'   <ijolA' N0_Nh   evacuation;withdrawal
@@ -4383,7 +4390,9 @@ lexicon = listing "Lexicon's properties"
     -- jwAly   jawAliy N0_Nh   expatriate communities;colonies
     -- jwAl    jawAl   NK      expatriate communities;colonies
 
-    FACI |< aT                `noun`    {- jAliyap -}          [ "expatriate community", "colony", "expatriate communities", "colonies" ],
+    FACI |< aT                `noun`    {- jAliyap -}          [ "expatriate community", "colony", "expatriate communities", "colonies" ]
+                              `plural`     FawACI
+                           {- `others`  [ "^gawAliy N0_Nh" ] -},
 
     -- ;; mujal~iy_1
     -- mjly    mujal~iy        N0F_Nh  winner
@@ -4439,20 +4448,21 @@ lexicon = listing "Lexicon's properties"
     -- mjAly   majAliy N0_Nh   manifestations
     -- mjAl    majAl   NK      manifestations
 
-    MaFACiL                   `noun`    {- majAliy -}          [ "manifestations" ],
+    MaFACI                    `noun`    {- majAliy -}          [ "manifestations" ],
 
     -- ;; tajoliyap_1
     -- tjly    tajoliy NapAt   clarification;revelation
 
-    TaFCiL |< aT              `noun`    {- tajoliyap -}        [ "clarification", "revelation" ],
+    TaFCI |< aT               `noun`    {- tajoliyap -}        [ "clarification", "revelation" ],
 
     -- ;; jAliyap_1
     -- jAly    jAliy   NapAt   expatriate community;colony
     -- jwAly   jawAliy N0_Nh   expatriate communities;colonies
     -- jwAl    jawAl   NK      expatriate communities;colonies
 
-    FACiL |< aT               `noun`    {- jAliyap -}          [ "expatriate community", "colony", "expatriate communities", "colonies" ]
+    FACI |< aT                `noun`    {- jAliyap -}          [ "expatriate community", "colony", "expatriate communities", "colonies" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "^gawAliy N0_Nh" ] -},
 
     -- ;; mujal~iy_1
@@ -4462,7 +4472,7 @@ lexicon = listing "Lexicon's properties"
     -- mjl     mujal~  Nuwn_Niyn       winners
     -- mjly    mujal~iy        NapAt   winner
 
-    MuFaCCiL                  `noun`    {- mujal~iy -}         [ "winner", "winners" ],
+    MuFaCCI                   `noun`    {- mujal~iy -}         [ "winner", "winners" ],
 
     -- ;; mutajal~iy_1
     -- mtjly   mutajal~iy      N0F_Nh  obvious;evident
@@ -4471,7 +4481,7 @@ lexicon = listing "Lexicon's properties"
     -- mtjl    mutajal~        Nuwn_Niyn       obvious;evident
     -- mtjly   mutajal~iy      NapAt   obvious;evident
 
-    MutaFaCCiL                `noun`    {- mutajal~iy -}       [ "obvious", "evident" ],
+    MutaFaCCI                 `noun`    {- mutajal~iy -}       [ "obvious", "evident" ],
 
     -- ;; juwliy_1
     -- jwly    juwliy  Nprop   Julie
@@ -6092,7 +6102,7 @@ lexicon = listing "Lexicon's properties"
     -- jAny    jAniy   NapAt   delinquent;criminal
     -- jnA     junA    Nap     delinquents;criminals
 
-    FACiL                     `noun`    {- jAniy -}            [ "delinquent", "criminal", "delinquents", "criminals" ] ]
+    FACI                      `noun`    {- jAniy -}            [ "delinquent", "criminal", "delinquents", "criminals" ] ]
 
  |> "^g n z" <| [
 
@@ -7322,7 +7332,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; jAriyAF_1
     -- jAry    jAriy   NF      occurring;happening;flowing
 
-    FACiL |< aN               `noun`    {- jAriyAF -}          [ "occurring", "happening", "flowing" ]
+    FACI |< aN                `noun`    {- jAriyAF -}          [ "occurring", "happening", "flowing" ]
                               `plural`     FACiL
                               `plural`     FACI
                            {- `others`  [ "^gAriy NF" ] -},
@@ -7343,7 +7353,7 @@ lexicon = listing "Lexicon's properties"
     -- jAr     jAr     Nuwn_Niyn       current;present;proceeding;taking place     [[jAr/ADJ]]
     -- jAry    jAriy   NapAt   current;present;proceeding;taking place     [[jAriy/ADJ]]
 
-    FACiL                     `adj`     {- jAriy -}            [ "current", "present", "proceeding", "taking place" ],
+    FACI                      `adj`     {- jAriy -}            [ "current", "present", "proceeding", "taking place" ],
 
     -- ;; jAriyap_1
     -- jAry    jAriy   NapAt   housemaid
@@ -7352,6 +7362,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI |< aT                `noun`    {- jAriyap -}          [ "housemaid", "maids" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "^gawAriy N0_Nh" ] -},
 
     -- ;; jAriyap_1
@@ -7359,8 +7370,9 @@ lexicon = listing "Lexicon's properties"
     -- jwAry   jawAriy N0_Nh   maids
     -- jwAr    jawAr   NK      maids
 
-    FACiL |< aT               `noun`    {- jAriyap -}          [ "housemaid", "maids" ]
+    FACI |< aT                `noun`    {- jAriyap -}          [ "housemaid", "maids" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "^gawAriy N0_Nh" ] -} ]
 
  |> "^g r z" <| [
@@ -8656,7 +8668,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; juw_1
     -- jw      juw     Nprop   Joe
 
-    FuL                       `noun`    {- juw -}              [ "Joe" ],
+    FU                        `noun`    {- juw -}              [ "Joe" ],
 
     -- ;; juw~Aniy~_1
     -- jwAny   juw~Aniy~       Nall    inner;interior;intimate     [[juw~Aniy~/ADJ]]
@@ -8677,7 +8689,7 @@ lexicon = listing "Lexicon's properties"
     -- jwy     joway   IV_Ann  be stricken;be overcome
     -- jw      jowa    IV_0hwnyn       be stricken;be overcome
 
-    FaCiL                     `verb`    {- jawiy-a -}          [ "be stricken", "be overcome" ]
+    FaCI                      `verb`    {- jawiy-a -}          [ "be stricken", "be overcome" ]
                               `imperf`     FCY,
 
     -- ;; tajaw~aY_1
@@ -9206,7 +9218,7 @@ lexicon = listing "Lexicon's properties"
     -- jA}     jA}     Nuwn_Niyn       coming;arriving
     -- jA}y    jA}iy   NapAt   coming;arriving
 
-    FA'iL                     `noun`    {- jA}iy -}            [ "coming", "arriving" ] ]
+    FA'I                      `noun`    {- jA}iy -}            [ "coming", "arriving" ] ]
 
  |> "^g y z" <| [
 
@@ -9813,7 +9825,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; tajoziyap_1
     -- tjzy    tajoziy NapAt   reward
 
-    TaFCiL |< aT              `noun`    {- tajoziyap -}        [ "reward" ],
+    TaFCI |< aT               `noun`    {- tajoziyap -}        [ "reward" ],
+
+    -- ;; tajoziyap_1
+    -- tjzy    tajoziy NapAt   reward
+
+    TaFCI |< aT               `noun`    {- tajoziyap -}        [ "reward" ],
 
     -- ;; mujAzAp_1
     -- mjAzA   mujAzA  Napdu   repayment;punishment
@@ -9832,7 +9849,7 @@ lexicon = listing "Lexicon's properties"
     -- mjAzy   mujAziy N0F_Nh  remunerator
     -- mjAz    mujAz   NK      remunerator
 
-    MuFACiL                   `noun`    {- mujAziy -}          [ "remunerator" ],
+    MuFACI                    `noun`    {- mujAziy -}          [ "remunerator" ],
 
     -- ;; mujAziy_2
     -- mjAzy   mujAziy N0      Mugazi
@@ -9842,7 +9859,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mujAziy_2
     -- mjAzy   mujAziy N0      Mugazi
 
-    MuFACiL                   `noun`    {- mujAziy -}          [ "Mugazi" ] ]
+    MuFACI                    `noun`    {- mujAziy -}          [ "Mugazi" ] ]
 
  |> "^g z z" <| [
 

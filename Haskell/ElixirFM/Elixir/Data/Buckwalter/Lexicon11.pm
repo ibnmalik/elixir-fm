@@ -3177,6 +3177,30 @@ $Lexicon = {
       ],
       'orig' => 'OazokaY',
       'prefix' => ''
+    },
+    {
+      'types' => {
+        'tazkiyaT' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'tazkiy',
+      'form' => 'tazkiyaT',
+      'lines' => [
+        ';; tazokiyap_1',
+        'tzky    tazokiy Nap     purification;nomination by acclamation'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'purification',
+        'nomination by acclamation'
+      ],
+      'orig' => 'tazokiyap',
+      'prefix' => ''
     }
   ],
   'zan^gabiyl' => [
@@ -4189,6 +4213,29 @@ $Lexicon = {
         'be jostled'
       ],
       'orig' => 'OazojaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'taz^giyaT' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => 'taz^giy',
+      'form' => 'taz^giyaT',
+      'lines' => [
+        ';; tazojiyap_1',
+        'tzjy    tazojiy Nap     pastime'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'pastime'
+      ],
+      'orig' => 'tazojiyap',
       'prefix' => ''
     },
     {
@@ -13141,7 +13188,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL |< aT',
+      'morphs' => 'FACI |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'corner',
@@ -13203,7 +13250,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'MunFaCiL',
+      'morphs' => 'MunFaCI',
       'suffix' => '',
       'glosses' => [
         'secluded',
@@ -14477,7 +14524,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FuCiL',
+      'morphs' => 'FuCI',
       'glosses' => [
         'be conceited',
         'be boastful'
@@ -14538,7 +14585,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [
         'resplendent',
@@ -14562,7 +14609,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FCiL',
+      'morphs' => 'FCI',
       'suffix' => '',
       'glosses' => [
         'Zhi'
@@ -15439,7 +15486,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'MuFCiL',
+      'morphs' => 'MuFCI',
       'suffix' => '',
       'glosses' => [
         'shameful',
@@ -18827,7 +18874,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCiL',
+      'morphs' => 'FaCI',
       'glosses' => [],
       'suffix' => '',
       'imperf' => [],
@@ -18874,26 +18921,16 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        'tazkiyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'tazkiy',
       'form' => 'tazkiyaT',
-      'lines' => [
-        ';; tazokiyap_1',
-        'tzky    tazokiy Nap     purification;nomination by acclamation'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'TaFCiL |< aT',
+      'morphs' => 'TaFCI |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'purification',
-        'nomination by acclamation'
-      ],
+      'glosses' => [],
       'orig' => 'tazokiyap',
       'prefix' => ''
     }
@@ -23880,25 +23917,16 @@ $Lexicon = {
   ],
   'z ^g y' => [
     {
-      'types' => {
-        'taz^giyaT' => {
-          'Nap' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'taz^giy',
       'form' => 'taz^giyaT',
-      'lines' => [
-        ';; tazojiyap_1',
-        'tzjy    tazojiy Nap     pastime'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'TaFCiL |< aT',
+      'morphs' => 'TaFCI |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'pastime'
-      ],
+      'glosses' => [],
       'orig' => 'tazojiyap',
       'prefix' => ''
     }
@@ -24022,7 +24050,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [
         'fornicator',
@@ -24053,12 +24081,13 @@ $Lexicon = {
       ],
       'patterns' => {
         'zawAniy' => [
-          'FawACiL'
+          'FawACiL',
+          'FawACI'
         ]
       },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL |< aT',
+      'morphs' => 'FACI |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'whore',
@@ -24347,6 +24376,9 @@ $Lexicon->{'z k y'}[0]{'types'} = $Lexicon->{'z k w'}[1]{'types'};
 $Lexicon->{'z k y'}[0]{'lines'} = $Lexicon->{'z k w'}[1]{'lines'};
 $Lexicon->{'z k y'}[0]{'glosses'} = $Lexicon->{'z k w'}[1]{'glosses'};
 $Lexicon->{'z k y'}[0]{'imperf'} = $Lexicon->{'z k w'}[1]{'imperf'};
+$Lexicon->{'z k y'}[2]{'types'} = $Lexicon->{'z k w'}[8]{'types'};
+$Lexicon->{'z k y'}[2]{'lines'} = $Lexicon->{'z k w'}[8]{'lines'};
+$Lexicon->{'z k y'}[2]{'glosses'} = $Lexicon->{'z k w'}[8]{'glosses'};
 $Lexicon->{'z h w'}[1]{'types'} = $Lexicon->{'z h y'}[0]{'types'};
 $Lexicon->{'z h w'}[1]{'lines'} = $Lexicon->{'z h y'}[0]{'lines'};
 $Lexicon->{'z h w'}[1]{'glosses'} = $Lexicon->{'z h y'}[0]{'glosses'};
@@ -24387,6 +24419,9 @@ $Lexicon->{'z f \''}[0]{'glosses'} = $Lexicon->{'z w f \''}[0]{'glosses'};
 $Lexicon->{'z w \''}[0]{'types'} = $Lexicon->{'z w y'}[4]{'types'};
 $Lexicon->{'z w \''}[0]{'lines'} = $Lexicon->{'z w y'}[4]{'lines'};
 $Lexicon->{'z w \''}[0]{'glosses'} = $Lexicon->{'z w y'}[4]{'glosses'};
+$Lexicon->{'z ^g y'}[0]{'types'} = $Lexicon->{'z ^g w'}[3]{'types'};
+$Lexicon->{'z ^g y'}[0]{'lines'} = $Lexicon->{'z ^g w'}[3]{'lines'};
+$Lexicon->{'z ^g y'}[0]{'glosses'} = $Lexicon->{'z ^g w'}[3]{'glosses'};
 $Lexicon->{'z n y'}[2]{'types'} = $Lexicon->{'z n \''}[4]{'types'};
 $Lexicon->{'z n y'}[2]{'lines'} = $Lexicon->{'z n \''}[4]{'lines'};
 $Lexicon->{'z n y'}[2]{'glosses'} = $Lexicon->{'z n \''}[4]{'glosses'};

@@ -813,6 +813,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCA' |< Iy               `adj`     {- faDA}iy~ -}         [ "astronaut" ],
 
+    -- ;; tafoDiyap_1
+    -- tfDy    tafoDiy Nap     vacating;emptying
+
+    TaFCI |< aT               `noun`    {- tafoDiyap -}        [ "vacating", "emptying" ],
+
     -- ;; <ifoDA'_1
     -- <fDA'   <ifoDA' N0_Nh   communication;announcement
     -- AfDA'   <ifoDA' N0_Nh   communication;announcement
@@ -855,7 +860,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tafoDiyap_1
     -- tfDy    tafoDiy Nap     vacating;emptying
 
-    TaFCiL |< aT              `noun`    {- tafoDiyap -}        [ "vacating", "emptying" ],
+    TaFCI |< aT               `noun`    {- tafoDiyap -}        [ "vacating", "emptying" ],
 
     -- ;; fADiy_1
     -- fADy    fADiy   N0F     empty;unoccupied;free     [[fADiy/ADJ]]
@@ -863,7 +868,7 @@ lexicon = listing "Lexicon's properties"
     -- fADy    fADiy   NAn_Nayn        empty;unoccupied;free
     -- fADy    fADiy   NapAt   empty;unoccupied;free
 
-    FACiL                     `adj`     {- fADiy -}            [ "empty", "unoccupied", "free" ],
+    FACI                      `adj`     {- fADiy -}            [ "empty", "unoccupied", "free" ],
 
     -- ;; mutafaD~iy_1
     -- mtfDy   mutafaD~iy      N0F_Nh  idle;free     [[mutafaD~iy/ADJ]]
@@ -872,7 +877,7 @@ lexicon = listing "Lexicon's properties"
     -- mtfD    mutafaD~        Nuwn_Niyn       idle;free
     -- mtfDy   mutafaD~iy      NapAt   idle;free
 
-    MutaFaCCiL                `adj`     {- mutafaD~iy -}       [ "idle", "free" ] ]
+    MutaFaCCI                 `adj`     {- mutafaD~iy -}       [ "idle", "free" ] ]
 
  |> "f .g f r" <| [
 
@@ -958,7 +963,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; fAgiyap_1
     -- fAgy    fAgiy   Nap     henna blossom;perfume
 
-    FACiL |< aT               `noun`    {- fAgiyap -}          [ "henna blossom", "perfume" ] ]
+    FACI |< aT                `noun`    {- fAgiyap -}          [ "henna blossom", "perfume" ] ]
 
  |> "f .h .h" <| [
 
@@ -2844,7 +2849,7 @@ lexicon = listing "Lexicon's properties"
     -- mtf$    mutafa$~        Nuwn_Niyn       spread;endemic
     -- mtf$y   mutafa$~iy      NapAt   spread;endemic
 
-    MutaFaCCiL                `adj`     {- mutafa$~iy -}       [ "spread", "endemic" ] ]
+    MutaFaCCI                 `adj`     {- mutafa$~iy -}       [ "spread", "endemic" ] ]
 
  |> "f _d _d" <| [
 
@@ -3745,7 +3750,7 @@ lexicon = listing "Lexicon's properties"
     -- fAd     fAd     Nuwn_Niyn       redeemer;ransomer
     -- fAdy    fAdiy   NapAt   redeemer;ransomer
 
-    FACiL                     `noun`    {- fAdiy -}            [ "redeemer", "ransomer" ],
+    FACI                      `noun`    {- fAdiy -}            [ "redeemer", "ransomer" ],
 
     -- ;; mafodiy~_1
     -- mfdy    mafodiy~        Nall    beloved;worthy of sacrifice     [[mafodiy~/ADJ]]
@@ -5107,7 +5112,7 @@ lexicon = listing "Lexicon's properties"
     -- mfAly   mafAliy N0_Nh   pastures
     -- mfAl    mafAl   NK      pastures
 
-    MaFACiL                   `noun`    {- mafAliy -}          [ "pastures" ],
+    MaFACI                    `noun`    {- mafAliy -}          [ "pastures" ],
 
     -- ;; falaY-i_1
     -- flY     falaY   PV_0    peruse;examine;delouse
@@ -5146,12 +5151,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; tafoliyap_1
     -- tfly    tafoliy Nap     perusal;scrutiny;delousing
 
-    TaFCiL |< aT              `noun`    {- tafoliyap -}        [ "perusal", "scrutiny", "delousing" ],
+    TaFCI |< aT               `noun`    {- tafoliyap -}        [ "perusal", "scrutiny", "delousing" ],
 
     -- ;; fAliyap_1
     -- fAly    fAliy   Nap     dung-beetle
 
-    FACiL |< aT               `noun`    {- fAliyap -}          [ "dung-beetle" ] ]
+    FACI |< aT                `noun`    {- fAliyap -}          [ "dung-beetle" ] ]
 
  |> "f m m" <| [
 
@@ -5472,7 +5477,7 @@ lexicon = listing "Lexicon's properties"
     -- fny     fonay   IV_Ann  perish;disappear
     -- fn      fona    IV_0hwnyn       perish;disappear
 
-    FaCiL                     `verb`    {- faniy-a -}          [ "perish", "disappear" ]
+    FaCI                      `verb`    {- faniy-a -}          [ "perish", "disappear" ]
                               `imperf`     FCY,
 
     -- ;; >afonaY_1
@@ -5547,7 +5552,7 @@ lexicon = listing "Lexicon's properties"
     -- fAny    fAniy   NAn_Nayn        transitory;ephemeral;mortal
     -- fAny    fAniy   NapAt   transitory;ephemeral;mortal
 
-    FACiL                     `adj`     {- fAniy -}            [ "transitory", "ephemeral", "mortal" ],
+    FACI                      `adj`     {- fAniy -}            [ "transitory", "ephemeral", "mortal" ],
 
     -- ;; mutafAniy_1
     -- mtfAny  mutafAniy       N0F_Nh  devoted;pious     [[mutafAniy/ADJ]]
@@ -5556,7 +5561,7 @@ lexicon = listing "Lexicon's properties"
     -- mtfAn   mutafAn Nuwn_Niyn       devoted;pious
     -- mtfAny  mutafAniy       NapAt   devoted;pious
 
-    MutaFACiL                 `adj`     {- mutafAniy -}        [ "devoted", "pious" ] ]
+    MutaFACI                  `adj`     {- mutafAniy -}        [ "devoted", "pious" ] ]
 
  |> "f q '" <| [
 
@@ -8293,7 +8298,7 @@ lexicon = listing "Lexicon's properties"
     -- mftr    mufotar Nuwn_Niyn       liar;slanderer
     -- mftry   mufotariy       NapAt   liar;slanderer
 
-    MuFtaCiL                  `noun`    {- mufotariy -}        [ "liar", "slanderer" ],
+    MuFtaCI                   `noun`    {- mufotariy -}        [ "liar", "slanderer" ],
 
     -- ;; mufotarayAt_1
     -- mftry   mufotaray       NAt     lies;fabrications;calumnies
@@ -9698,7 +9703,8 @@ lexicon = listing "Lexicon's properties"
     -- fty     fotay   IV_Ann  be youthful
     -- ft      fota    IV_0hwnyn       be youthful
 
-    FaCI                      `verb`    {- fatiy-a -}          [ "be youthful" ],
+    FaCI                      `verb`    {- fatiy-a -}          [ "be youthful" ]
+                              `imperf`     FCY,
 
     -- ;; >afotaY_1
     -- >ftY    >afotaY PV_0    deliver a fatwa (legal opinion);opine
@@ -9833,7 +9839,7 @@ lexicon = listing "Lexicon's properties"
     -- fty     fotay   IV_Ann  be youthful
     -- ft      fota    IV_0hwnyn       be youthful
 
-    FaCiL                     `verb`    {- fatiy-a -}          [ "be youthful" ]
+    FaCI                      `verb`    {- fatiy-a -}          [ "be youthful" ]
                               `imperf`     FCY,
 
     -- ;; fatiy~_1
@@ -9852,12 +9858,12 @@ lexicon = listing "Lexicon's properties"
     -- mfty    mufotiy NAn_Nayn        mufti (Muslim legal scholar)
     -- mft     mufot   Nuwn_Niyn       mufti (Muslim legal scholar)
 
-    MuFCiL                    `noun`    {- mufotiy -}          [ "mufti (Muslim legal scholar)" ],
+    MuFCI                     `noun`    {- mufotiy -}          [ "mufti (Muslim legal scholar)" ],
 
     -- ;; mufotiy_2
     -- mfty    mufotiy N0      Mufti
 
-    MuFCiL                    `noun`    {- mufotiy -}          [ "Mufti" ] ]
+    MuFCI                     `noun`    {- mufotiy -}          [ "Mufti" ] ]
 
  |> "f t z" <| [
 
@@ -11078,7 +11084,7 @@ lexicon = listing "Lexicon's properties"
     -- fy      fiy     FW-Wa-y in       [[fiy/PREP]]
     -- fY      fiy     FW-Wa   in       [[fiy/PREP]]
 
-    FiL                       `noun`    {- fiy -}              [ "in" ],
+    FI                        `noun`    {- fiy -}              [ "in" ],
 
     -- ;; fiy_1
     -- fy      fiy     FW-Wa   in       [[fiy/PREP]]

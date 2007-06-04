@@ -307,7 +307,7 @@ lexicon = listing "Lexicon's properties"
     -- TgA     TugA    Nap     tyrants;oppressors
     -- TAgy    TAgiy   Napdu   tyrant;oppressor
 
-    FACiL                     `noun`    {- TAgiy -}            [ "tyrant", "oppressor", "tyrants", "oppressors" ] ]
+    FACI                      `noun`    {- TAgiy -}            [ "tyrant", "oppressor", "tyrants", "oppressors" ] ]
 
  |> ".t .g y n" <| [
 
@@ -1386,8 +1386,9 @@ lexicon = listing "Lexicon's properties"
     -- TwAby   TawAbiy N0_Nh   fortresses;castles
     -- TwAb    TawAb   NK      fortresses;castles
 
-    FACiL |< aT               `noun`    {- TAbiyap -}          [ "fortress", "castle", "fortresses", "castles" ]
+    FACI |< aT                `noun`    {- TAbiyap -}          [ "fortress", "castle", "fortresses", "castles" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ ".tawAbiy N0_Nh" ] -} ]
 
  |> ".t f '" <| [
@@ -1771,7 +1772,9 @@ lexicon = listing "Lexicon's properties"
     -- TwAfy   TawAfiy N0_Nh   buoys;beacons
     -- TwAf    TawAf   NK      buoys;beacons
 
-    FACI |< aT                `noun`    {- TAfiyap -}          [ "buoy", "beacon", "buoys", "beacons" ] ]
+    FACI |< aT                `noun`    {- TAfiyap -}          [ "buoy", "beacon", "buoys", "beacons" ]
+                              `plural`     FawACI
+                           {- `others`  [ ".tawAfiy N0_Nh" ] -} ]
 
  |> ".t f y" <| [
 
@@ -1787,15 +1790,16 @@ lexicon = listing "Lexicon's properties"
     -- TAf     TAf     Nuwn_Niyn       floating;emerging;superficial
     -- TAfy    TAfiy   NapAt   floating;emerging;superficial
 
-    FACiL                     `adj`     {- TAfiy -}            [ "floating", "emerging", "superficial" ],
+    FACI                      `adj`     {- TAfiy -}            [ "floating", "emerging", "superficial" ],
 
     -- ;; TAfiyap_1
     -- TAfy    TAfiy   Napdu   buoy;beacon
     -- TwAfy   TawAfiy N0_Nh   buoys;beacons
     -- TwAf    TawAf   NK      buoys;beacons
 
-    FACiL |< aT               `noun`    {- TAfiyap -}          [ "buoy", "beacon", "buoys", "beacons" ]
+    FACI |< aT                `noun`    {- TAfiyap -}          [ "buoy", "beacon", "buoys", "beacons" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ ".tawAfiy N0_Nh" ] -} ]
 
  |> ".t h m" <| [
@@ -2016,7 +2020,7 @@ lexicon = listing "Lexicon's properties"
     -- TAhy    TAhiy   NapAt   cook
     -- ThA     TuhA    Nap     cooks
 
-    FACiL                     `noun`    {- TAhiy -}            [ "cook", "cooks" ] ]
+    FACI                      `noun`    {- TAhiy -}            [ "cook", "cooks" ] ]
 
  |> ".t l '" <| [
 
@@ -3131,7 +3135,7 @@ lexicon = listing "Lexicon's properties"
     -- TAm     TAm     Nuwn_Niyn       flowing over
     -- TAmy    TAmiy   NapAt   flowing over
 
-    FACiL                     `adj`     {- TAmiy -}            [ "flowing over" ],
+    FACI                      `adj`     {- TAmiy -}            [ "flowing over" ],
 
     -- ;; Tuwmiy_1
     -- Twmy    Tuwmiy  Nprop   Tommy
@@ -3485,8 +3489,9 @@ lexicon = listing "Lexicon's properties"
     -- TwAqy   TawAqiy N0_Nh   skullcaps;forage caps
     -- TwAq    TawAq   NK      skullcaps;forage caps
 
-    FACiL |< aT               `noun`    {- TAqiyap -}          [ "skullcap", "forage cap", "skullcaps", "forage caps" ]
+    FACI |< aT                `noun`    {- TAqiyap -}          [ "skullcap", "forage cap", "skullcaps", "forage caps" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ ".tawAqiy N0_Nh" ] -} ]
 
  |> ".t r '" <| [
@@ -4512,8 +4517,7 @@ lexicon = listing "Lexicon's properties"
     -- Trw     Toruw   IV_0hAnn        be fresh;be tender
     -- Tr      Tor     IV_0hwnyn       be fresh;be tender
 
-    FaCuL                     `verb`    {- Taruw-u -}          [ "be fresh", "be tender" ]
-                              `imperf`     FCuL
+    FaCU                      `verb`    {- Taruw-u -}          [ "be fresh", "be tender" ]
                               `imperf`     FCU
                            {- `others`  [ ".tarA PV" ] -},
 
@@ -4524,7 +4528,8 @@ lexicon = listing "Lexicon's properties"
     -- Try     Toray   IV_Ann  be fresh;be tender
     -- Tr      Tora    IV_0hwnyn       be fresh;be tender
 
-    FaCI                      `verb`    {- Tariy-a -}          [ "be fresh", "be tender" ],
+    FaCI                      `verb`    {- Tariy-a -}          [ "be fresh", "be tender" ]
+                              `imperf`     FCY,
 
     -- ;; Tar~aY_1
     -- TrY     Tar~aY  PV_0    tenderize;freshen
@@ -4604,7 +4609,7 @@ lexicon = listing "Lexicon's properties"
     -- Try     Toray   IV_Ann  be fresh;be tender
     -- Tr      Tora    IV_0hwnyn       be fresh;be tender
 
-    FaCiL                     `verb`    {- Tariy-a -}          [ "be fresh", "be tender" ]
+    FaCI                      `verb`    {- Tariy-a -}          [ "be fresh", "be tender" ]
                               `imperf`     FCY,
 
     -- ;; Tariy~_1
@@ -4619,7 +4624,7 @@ lexicon = listing "Lexicon's properties"
     -- mTr     muTor   Nuwn_Niyn       flattering
     -- mTry    muToriy NapAt   flattering
 
-    MuFCiL                    `adj`     {- muToriy -}          [ "flattering" ] ]
+    MuFCI                     `adj`     {- muToriy -}          [ "flattering" ] ]
 
  |> ".t r z" <| [
 
@@ -5628,7 +5633,7 @@ lexicon = listing "Lexicon's properties"
     -- TAw     TAw     Nuwn_Niyn       starved;emaciated
     -- TAwy    TAwiy   NapAt   starved;emaciated
 
-    FACiL                     `adj`     {- TAwiy -}            [ "starved", "emaciated" ],
+    FACI                      `adj`     {- TAwiy -}            [ "starved", "emaciated" ],
 
     -- ;; maTowiy~_1
     -- mTwy    maTowiy~        N-ap    containing;harboring     [[maTowiy~/ADJ]]
@@ -5642,7 +5647,7 @@ lexicon = listing "Lexicon's properties"
     -- mnTw    munoTaw Nuwn_Niyn       withdrawn;introverted
     -- mnTwy   munoTawiy       NapAt   withdrawn;introverted
 
-    MunFaCiL                  `noun`    {- munoTawiy -}        [ "withdrawn", "introverted" ],
+    MunFaCI                   `noun`    {- munoTawiy -}        [ "withdrawn", "introverted" ],
 
     -- ;; munoTawaY_1
     -- mnTwY   munoTawaY       N0      content

@@ -408,7 +408,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACI
                            {- `others`  [ "masA`iy N0_Nh" ] -},
 
-    FACiL                     `noun`    {- sAEiy -}            [ "messenger", "delivery boy", "slanderer" ] ]
+    FACI                      `noun`    {- sAEiy -}            [ "messenger", "delivery boy", "slanderer" ] ]
 
  |> "s b '" <| [
 
@@ -1008,6 +1008,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "s l w" <| [
 
+    TaFCI |< aT               `noun`    {- tasoliyap -}        [ "consolation", "amusement", "entertainment" ],
+
     MuFaCCI                   `adj`     {- musal~iy -}         [ "entertaining", "comforting" ],
 
     FaCLY                     `noun`    {- salowaY -}          [ "consolation", "comfort" ],
@@ -1018,9 +1020,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "s l y" <| [
 
-    TaFCiL |< aT              `noun`    {- tasoliyap -}        [ "consolation", "amusement", "entertainment" ],
+    TaFCI |< aT               `noun`    {- tasoliyap -}        [ "consolation", "amusement", "entertainment" ],
 
-    MuFaCCiL                  `adj`     {- musal~iy -}         [ "entertaining", "comforting" ] ]
+    MuFaCCI                   `adj`     {- musal~iy -}         [ "entertaining", "comforting" ] ]
 
  |> "s m '" <| [
 
@@ -1178,6 +1180,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCA'                    `noun`    {- OasomA' -}          [ "Asmaa" ],
 
+    TaFCI |< aT               `noun`    {- tasomiyap -}        [ "appellation", "designation", "naming" ],
+
     FACI                      `noun`    {- sAmiy -}            [ "Sami" ],
 
     FACI |< aT                `noun`    {- sAmiyap -}          [ "Samia" ],
@@ -1193,13 +1197,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "s m y" <| [
 
-    TaFCiL |< aT              `noun`    {- tasomiyap -}        [ "appellation", "designation", "naming" ],
+    TaFCI |< aT               `noun`    {- tasomiyap -}        [ "appellation", "designation", "naming" ],
 
-    FACiL                     `noun`    {- sAmiy -}            [ "Sami" ],
+    FACI                      `noun`    {- sAmiy -}            [ "Sami" ],
 
-    FACiL |< aT               `noun`    {- sAmiyap -}          [ "Samia" ],
+    FACI |< aT                `noun`    {- sAmiyap -}          [ "Samia" ],
 
-    FACiL                     `adj`     {- sAmiy -}            [ "exalted", "sublime" ]
+    FACI                      `adj`     {- sAmiy -}            [ "exalted", "sublime" ]
                               `plural`     FaCA |< aT ]
 
  |> "s n .h" <| [
@@ -1336,10 +1340,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCY |< Iy                `adj`     {- saqawiy~ -}         [ "irrigational" ],
 
-    FACiL |< aT               `noun`    {- sAqiyap -}          [ "barmaid", "rivulet" ],
+    FACI |< aT                `noun`    {- sAqiyap -}          [ "barmaid", "rivulet" ],
 
-    FACiL |< aT               `noun`    {- sAqiyap -}          [ "irrigation canal", "water wheel", "irrigation canals", "water wheels" ]
+    FACI |< aT                `noun`    {- sAqiyap -}          [ "irrigation canal", "water wheel", "irrigation canals", "water wheels" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "sawAqiy N0_Nh" ] -} ]
 
  |> "s r '" <| [
@@ -1509,11 +1514,11 @@ lexicon = listing "Lexicon's properties"
 
     HiFCA'                    `noun`    {- IisorA' -}          [ "Isra' (journey to heaven)" ],
 
-    FACiL                     `adj`     {- sAriy -}            [ "effective", "valid" ],
+    FACI                      `adj`     {- sAriy -}            [ "effective", "valid" ],
 
-    FACiL                     `adj`     {- sAriy -}            [ "circulating" ],
+    FACI                      `adj`     {- sAriy -}            [ "circulating" ],
 
-    FaCiL                     `noun`    {- sariy -}            [ "Sari", "Seri" ] ]
+    FaCI                      `noun`    {- sariy -}            [ "Sari", "Seri" ] ]
 
  |> "s t n" <| [
 
@@ -1730,7 +1735,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "s w w" <| [
 
-    FuL                       `noun`    {- suw -}              [ "Sue" ] ]
+    FU                        `noun`    {- suw -}              [ "Sue" ] ]
 
  |> "s w y" <| [
 
@@ -1754,7 +1759,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCA'
                            {- `others`  [ "'aswA' Nh N0_Nh Nhy" ] -},
 
-    TaFCiL |< aT              `noun`    {- tasowiyap -}        [ "settlement", "solution" ],
+    TaFCI |< aT               `noun`    {- tasowiyap -}        [ "settlement", "solution" ],
 
     MuFACY |< aT              `noun`    {- musAwAp -}          [ "equality", "equal rights" ]
                               `plural`     MuFACaL |< At,
@@ -1767,7 +1772,7 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCA' |< Iy             `adj`     {- AisotiwA}iy~ -}     [ "equatorial", "tropical" ],
 
-    MutaFACiL                 `adj`     {- mutasAwiy -}        [ "equivalent", "similar" ],
+    MutaFACI                  `adj`     {- mutasAwiy -}        [ "equivalent", "similar" ],
 
     MuFtaCY                   `noun`    {- musotawaY -}        [ "level", "standard", "levels", "standards" ]
                               `plural`     MuFtaCaL |< At

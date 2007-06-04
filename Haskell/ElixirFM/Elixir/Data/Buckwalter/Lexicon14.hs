@@ -301,7 +301,8 @@ lexicon = listing "Lexicon's properties"
     -- Sgy     Sogay   IV_Ann  lean over;incline
     -- Sg      Soga    IV_0hwnyn       lean over;incline
 
-    FaCI                      `verb`    {- Sagiy-a -}          [ "lean over", "incline" ],
+    FaCI                      `verb`    {- Sagiy-a -}          [ "lean over", "incline" ]
+                              `imperf`     FCY,
 
     -- ;; >aSogaY_1
     -- >SgY    >aSogaY PV_0    pay attention;heed
@@ -370,7 +371,7 @@ lexicon = listing "Lexicon's properties"
     -- Sgy     Sogay   IV_Ann  lean over;incline
     -- Sg      Soga    IV_0hwnyn       lean over;incline
 
-    FaCiL                     `verb`    {- Sagiy-a -}          [ "lean over", "incline" ]
+    FaCI                      `verb`    {- Sagiy-a -}          [ "lean over", "incline" ]
                               `imperf`     FCY,
 
     -- ;; SAgiy_1
@@ -379,7 +380,7 @@ lexicon = listing "Lexicon's properties"
     -- SAgy    SAgiy   NAn_Nayn        attentive;listening
     -- SAgy    SAgiy   Napdu   attentive;listening
 
-    FACiL                     `adj`     {- SAgiy -}            [ "attentive", "listening" ],
+    FACI                      `adj`     {- SAgiy -}            [ "attentive", "listening" ],
 
     -- ;; muSogiy_1
     -- mSgy    muSogiy N0F_Nh  attentive;listening     [[muSogiy/ADJ]]
@@ -388,7 +389,7 @@ lexicon = listing "Lexicon's properties"
     -- mSg     muSog   Nuwn_Niyn       attentive;listening
     -- mSgy    muSogiy NapAt   attentive;listening
 
-    MuFCiL                    `adj`     {- muSogiy -}          [ "attentive", "listening" ] ]
+    MuFCI                     `adj`     {- muSogiy -}          [ "attentive", "listening" ] ]
 
  |> ".s .h ' f" <| [
 
@@ -772,7 +773,8 @@ lexicon = listing "Lexicon's properties"
     -- SHy     SoHay   IV_Ann  wake up;regain consciousness
     -- SH      SoHa    IV_0hwnyn       wake up;regain consciousness
 
-    FaCI                      `verb`    {- SaHiy-a -}          [ "wake up", "regain consciousness" ],
+    FaCI                      `verb`    {- SaHiy-a -}          [ "wake up", "regain consciousness" ]
+                              `imperf`     FCY,
 
     -- ;; SaH~aY_1
     -- SHY     SaH~aY  PV_0    awaken;rouse
@@ -828,7 +830,7 @@ lexicon = listing "Lexicon's properties"
     -- SHy     SoHay   IV_Ann  wake up;regain consciousness
     -- SH      SoHa    IV_0hwnyn       wake up;regain consciousness
 
-    FaCiL                     `verb`    {- SaHiy-a -}          [ "wake up", "regain consciousness" ]
+    FaCI                      `verb`    {- SaHiy-a -}          [ "wake up", "regain consciousness" ]
                               `imperf`     FCY,
 
     -- ;; SAHiy_1
@@ -837,7 +839,7 @@ lexicon = listing "Lexicon's properties"
     -- SAHy    SAHiy   NAn_Nayn        bright;serene
     -- SAHy    SAHiy   Napdu   bright;serene
 
-    FACiL                     `adj`     {- SAHiy -}            [ "bright", "serene" ],
+    FACI                      `adj`     {- SAHiy -}            [ "bright", "serene" ],
 
     -- ;; SAHiy_2
     -- SAHy    SAHiy   N0F     vigilant;wakeful     [[SAHiy/ADJ]]
@@ -846,7 +848,7 @@ lexicon = listing "Lexicon's properties"
     -- SAH     SAH     Nuwn_Niyn       vigilant;wakeful
     -- SAHy    SAHiy   NapAt   vigilant;wakeful
 
-    FACiL                     `adj`     {- SAHiy -}            [ "vigilant", "wakeful" ] ]
+    FACI                      `adj`     {- SAHiy -}            [ "vigilant", "wakeful" ] ]
 
  |> ".s .t b" <| [
 
@@ -1911,7 +1913,8 @@ lexicon = listing "Lexicon's properties"
     -- Sby     Sobay   IV_Ann  be childish;be infantile
     -- Sb      Soba    IV_0hwnyn       be childish;be infantile
 
-    FaCI                      `verb`    {- Sabiy-a -}          [ "be childish", "be infantile" ],
+    FaCI                      `verb`    {- Sabiy-a -}          [ "be childish", "be infantile" ]
+                              `imperf`     FCY,
 
     -- ;; Sab~aY_1
     -- SbY     Sab~aY  PV_0    rejuvenate
@@ -2008,7 +2011,7 @@ lexicon = listing "Lexicon's properties"
     -- Sby     Sobay   IV_Ann  be childish;be infantile
     -- Sb      Soba    IV_0hwnyn       be childish;be infantile
 
-    FaCiL                     `verb`    {- Sabiy-a -}          [ "be childish", "be infantile" ]
+    FaCI                      `verb`    {- Sabiy-a -}          [ "be childish", "be infantile" ]
                               `imperf`     FCY,
 
     -- ;; Sabiy~_1
@@ -2037,7 +2040,7 @@ lexicon = listing "Lexicon's properties"
     -- SAby    SAbiy   NAn_Nayn        youthful
     -- SAby    SAbiy   Napdu   youthful
 
-    FACiL                     `adj`     {- SAbiy -}            [ "youthful" ] ]
+    FACI                      `adj`     {- SAbiy -}            [ "youthful" ] ]
 
  |> ".s d '" <| [
 
@@ -2813,7 +2816,7 @@ lexicon = listing "Lexicon's properties"
     -- Sdy     Soday   IV_Ann  be thirsty
     -- Sd      Soda    IV_0hwnyn       be thirsty
 
-    FaCiL                     `verb`    {- Sadiy-a -}          [ "be thirsty" ]
+    FaCI                      `verb`    {- Sadiy-a -}          [ "be thirsty" ]
                               `imperf`     FCY,
 
     -- ;; Sad~aY_1
@@ -2875,7 +2878,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taSodiyap_1
     -- tSdy    taSodiy Nap     hand clapping
 
-    TaFCiL |< aT              `noun`    {- taSodiyap -}        [ "hand clapping" ],
+    TaFCI |< aT               `noun`    {- taSodiyap -}        [ "hand clapping" ],
 
     -- ;; muSAdAp_1
     -- mSAdA   muSAdA  Nap     echolalia (compulsive repetition of someone else's words)
@@ -3664,6 +3667,22 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACI
                            {- `others`  [ "ma.sAfiy N0_Nh" ] -},
 
+    -- ;; taSofiyap_1
+    -- tSfy    taSofiy NapAt   settlement
+
+    TaFCI |< aT               `noun`    {- taSofiyap -}        [ "settlement" ],
+
+    -- ;; taSofiyap_2
+    -- tSfy    taSofiy NapAt   clearing;liquidation
+    -- tSfy    taSofiy NapAt   elimination series (sports)
+
+    TaFCI |< aT               `noun`    {- taSofiyap -}        [ "clearing", "liquidation", "elimination series (sports)" ],
+
+    -- ;; taSofiyap_3
+    -- tSfy    taSofiy NapAt   purification;filtration
+
+    TaFCI |< aT               `noun`    {- taSofiyap -}        [ "purification", "filtration" ],
+
     -- ;; muSAfAp_1
     -- mSAfA   muSAfA  Nap     good-will;cordiality
 
@@ -3786,18 +3805,18 @@ lexicon = listing "Lexicon's properties"
     -- ;; taSofiyap_1
     -- tSfy    taSofiy NapAt   settlement
 
-    TaFCiL |< aT              `noun`    {- taSofiyap -}        [ "settlement" ],
+    TaFCI |< aT               `noun`    {- taSofiyap -}        [ "settlement" ],
 
     -- ;; taSofiyap_2
     -- tSfy    taSofiy NapAt   clearing;liquidation
     -- tSfy    taSofiy NapAt   elimination series (sports)
 
-    TaFCiL |< aT              `noun`    {- taSofiyap -}        [ "clearing", "liquidation", "elimination series (sports)" ],
+    TaFCI |< aT               `noun`    {- taSofiyap -}        [ "clearing", "liquidation", "elimination series (sports)" ],
 
     -- ;; taSofiyap_3
     -- tSfy    taSofiy NapAt   purification;filtration
 
-    TaFCiL |< aT              `noun`    {- taSofiyap -}        [ "purification", "filtration" ],
+    TaFCI |< aT               `noun`    {- taSofiyap -}        [ "purification", "filtration" ],
 
     -- ;; SAfiy_1
     -- SAfy    SAfiy   N0F     net
@@ -3805,7 +3824,7 @@ lexicon = listing "Lexicon's properties"
     -- SAfy    SAfiy   NAn_Nayn        net
     -- SAfy    SAfiy   Napdu   net
 
-    FACiL                     `noun`    {- SAfiy -}            [ "net" ],
+    FACI                      `noun`    {- SAfiy -}            [ "net" ],
 
     -- ;; SAfiy_2
     -- SAfy    SAfiy   N0F     pure;clear;sincere     [[SAfiy/ADJ]]
@@ -3813,14 +3832,14 @@ lexicon = listing "Lexicon's properties"
     -- SAfy    SAfiy   NAn_Nayn        pure;clear;sincere
     -- SAfy    SAfiy   Napdu   pure;clear;sincere
 
-    FACiL                     `adj`     {- SAfiy -}            [ "pure", "clear", "sincere" ],
+    FACI                      `adj`     {- SAfiy -}            [ "pure", "clear", "sincere" ],
 
     -- ;; muSaf~iy_1
     -- mSfy    muSaf~iy        N0_Nh   receiver in equity;clarifying agent
     -- mSf     muSaf~  NK      receiver in equity;clarifying agent
     -- mSfy    muSaf~iy        NAn_Nayn        receiver in equity;clarifying agent
 
-    MuFaCCiL                  `noun`    {- muSaf~iy -}         [ "receiver in equity", "clarifying agent" ] ]
+    MuFaCCI                   `noun`    {- muSaf~iy -}         [ "receiver in equity", "clarifying agent" ] ]
 
  |> ".s h b" <| [
 
@@ -4794,7 +4813,7 @@ lexicon = listing "Lexicon's properties"
     -- mSl     muSal~  Nuwn_Niyn       people praying;people worshipping
     -- mSly    muSal~iy        NapAt   praying;worshipping
 
-    MuFaCCiL                  `noun`    {- muSal~iy -}         [ "praying", "worshipping", "people praying", "people worshipping" ],
+    MuFaCCI                   `noun`    {- muSal~iy -}         [ "praying", "worshipping", "people praying", "people worshipping" ],
 
     -- ;; SalaY-i_1
     -- SlY     SalaY   PV_0    roast
@@ -4815,7 +4834,7 @@ lexicon = listing "Lexicon's properties"
     -- Sly     Solay   IV_Ann  get burned
     -- Sl      Sola    IV_0hwnyn       get burned
 
-    FaCiL                     `verb`    {- Saliy-a -}          [ "get burned" ]
+    FaCI                      `verb`    {- Saliy-a -}          [ "get burned" ]
                               `imperf`     FCY,
 
     -- ;; >aSolaY_1
@@ -6527,8 +6546,9 @@ lexicon = listing "Lexicon's properties"
     -- SwAry   SawAriy N0_Nh   masts;poles
     -- SwAr    SawAr   NK      masts;poles
 
-    FACiL                     `noun`    {- SAriy -}            [ "mast", "pole", "masts", "poles" ]
+    FACI                      `noun`    {- SAriy -}            [ "mast", "pole", "masts", "poles" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ ".sawAriy N0_Nh" ] -} ]
 
  |> ".s t m" <| [

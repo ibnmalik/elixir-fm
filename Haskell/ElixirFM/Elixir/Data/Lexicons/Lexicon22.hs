@@ -403,9 +403,9 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCA'                   `noun`    {- AikotifA' -}        [ "sufficiency", "contentment" ],
 
-    FACiL                     `adj`     {- kAfiy -}            [ "sufficient", "adequate", "competent" ],
+    FACI                      `adj`     {- kAfiy -}            [ "sufficient", "adequate", "competent" ],
 
-    MuFtaCiL                  `adj`     {- mukotafiy -}        [ "contented", "satisfied" ] ]
+    MuFtaCI                   `adj`     {- mukotafiy -}        [ "contented", "satisfied" ] ]
 
  |> "k h f" <| [
 
@@ -815,7 +815,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- kAriy -}            [ "Carey" ],
 
-    FACiL                     `noun`    {- kAriy -}            [ "Carey" ],
+    FACI                      `noun`    {- kAriy -}            [ "Carey" ],
 
     FuCayL |< aT              `noun`    {- kuray~ap -}         [ "globule", "pellet", "corpuscle" ],
 
@@ -1079,7 +1079,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "k w y" <| [
 
-    FACiL                     `noun`    {- kAwiy -}            [ "caustic" ] ]
+    FACI                      `noun`    {- kAwiy -}            [ "caustic" ] ]
 
  |> "k w z" <| [
 

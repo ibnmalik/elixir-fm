@@ -49,13 +49,15 @@ lexicon = listing "Lexicon's properties"
 
  |> "-- ' w" <| [
 
-    CuL                       `noun`    {- Ouw -}              [ "O." ] ]
+    CU                        `noun`    {- Ouw -}              [ "O." ] ]
 
  |> "-- ' y" <| [
 
     CI                        `noun`    {- Iiy -}              [ "E." ],
 
-    CiL                       `noun`    {- Iiy -}              [ "E." ],
+    CI                        `noun`    {- Iiy -}              [ "E." ],
+
+    CU                        `noun`    {- Ouw -}              [ "O." ],
 
     CaL                       `noun`    {- Oay -}              [ "A.", "I." ] ]
 
@@ -63,17 +65,17 @@ lexicon = listing "Lexicon's properties"
 
     CI                        `noun`    {- jiy -}              [ "G.", "J." ],
 
-    CiL                       `noun`    {- jiy -}              [ "G.", "J." ] ]
+    CI                        `noun`    {- jiy -}              [ "G.", "J." ] ]
 
  |> "-- b y" <| [
 
-    CiL                       `noun`    {- biy -}              [ "B." ],
+    CI                        `noun`    {- biy -}              [ "B." ],
 
     CI                        `noun`    {- biy -}              [ "B." ] ]
 
  |> "-- d y" <| [
 
-    CiL                       `noun`    {- diy -}              [ "D.", "De" ],
+    CI                        `noun`    {- diy -}              [ "D.", "De" ],
 
     CI                        `noun`    {- diy -}              [ "D.", "De" ] ]
 
@@ -81,17 +83,17 @@ lexicon = listing "Lexicon's properties"
 
     CI                        `noun`    {- fiy -}              [ "V." ],
 
-    CiL                       `noun`    {- fiy -}              [ "V." ] ]
+    CI                        `noun`    {- fiy -}              [ "V." ] ]
 
  |> "-- s y" <| [
 
     CI                        `noun`    {- siy -}              [ "C." ],
 
-    CiL                       `noun`    {- siy -}              [ "C." ] ]
+    CI                        `noun`    {- siy -}              [ "C." ] ]
 
  |> "-- t y" <| [
 
-    CiL                       `noun`    {- tiy -}              [ "T." ],
+    CI                        `noun`    {- tiy -}              [ "T." ],
 
     CI                        `noun`    {- tiy -}              [ "T." ] ]
 

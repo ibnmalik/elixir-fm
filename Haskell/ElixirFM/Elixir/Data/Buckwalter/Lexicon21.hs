@@ -680,7 +680,7 @@ lexicon = listing "Lexicon's properties"
     -- qADy    qADiy   NAn_Nayn        executing;performing;decreeing
     -- qADy    qADiy   Napdu   executing;performing;decreeing
 
-    FACiL                     `noun`    {- qADiy -}            [ "executing", "performing", "decreeing" ],
+    FACI                      `noun`    {- qADiy -}            [ "executing", "performing", "decreeing" ],
 
     -- ;; qADiy_2
     -- qADy    qADiy   N0F_Nh  judge;magistrate
@@ -688,13 +688,13 @@ lexicon = listing "Lexicon's properties"
     -- qADy    qADiy   NAn_Nayn        judge;magistrate
     -- qDA     quDA    Nap     judges;magistrates
 
-    FACiL                     `noun`    {- qADiy -}            [ "judge", "magistrate", "judges", "magistrates" ],
+    FACI                      `noun`    {- qADiy -}            [ "judge", "magistrate", "judges", "magistrates" ],
 
     -- ;; qawADiy_1
     -- qwADy   qawADiy N0_Nh   requirements;exigencies
     -- qwAD    qawAD   NK      requirements;exigencies
 
-    FawACiL                   `noun`    {- qawADiy -}          [ "requirements", "exigencies" ],
+    FawACI                    `noun`    {- qawADiy -}          [ "requirements", "exigencies" ],
 
     -- ;; maqoDiy~_1
     -- mqDy    maqoDiy~        N-ap    settled;finished     [[maqoDiy~/ADJ]]
@@ -708,7 +708,7 @@ lexicon = listing "Lexicon's properties"
     -- mtqAD   mutaqAD Nuwn_Niyn       litigants
     -- mtqADy  mutaqADiy       NapAt   litigant
 
-    MutaFACiL                 `noun`    {- mutaqADiy -}        [ "litigant", "litigants" ],
+    MutaFACI                  `noun`    {- mutaqADiy -}        [ "litigant", "litigants" ],
 
     -- ;; mutaqADaY_1
     -- mtqADY  mutaqADaY       N0      subject to legal prosecution
@@ -1786,7 +1786,8 @@ lexicon = listing "Lexicon's properties"
     -- qSy     qoSay   IV_Ann  be distant
     -- qS      qoSa    IV_0hwnyn       be distant
 
-    FaCI                      `verb`    {- qaSiy-a -}          [ "be distant" ],
+    FaCI                      `verb`    {- qaSiy-a -}          [ "be distant" ]
+                              `imperf`     FCY,
 
     -- ;; >aqoSaY_1
     -- >qSY    >aqoSaY PV_0    remove
@@ -1930,7 +1931,7 @@ lexicon = listing "Lexicon's properties"
     -- qSy     qoSay   IV_Ann  be distant
     -- qS      qoSa    IV_0hwnyn       be distant
 
-    FaCiL                     `verb`    {- qaSiy-a -}          [ "be distant" ]
+    FaCI                      `verb`    {- qaSiy-a -}          [ "be distant" ]
                               `imperf`     FCY,
 
     -- ;; qaSiy~_1
@@ -1953,7 +1954,7 @@ lexicon = listing "Lexicon's properties"
     -- qAS     qAS     Nuwn_Niyn       distant;remote
     -- qASy    qASiy   NapAt   distant;remote
 
-    FACiL                     `adj`     {- qASiy -}            [ "distant", "remote" ] ]
+    FACI                      `adj`     {- qASiy -}            [ "distant", "remote" ] ]
 
  |> "q .t ' f" <| [
 
@@ -5860,7 +5861,8 @@ lexicon = listing "Lexicon's properties"
     -- qdy     qoday   IV_Ann  be tasty
     -- qd      qoda    IV_0hwnyn       be tasty
 
-    FaCI                      `verb`    {- qadiy-a -}          [ "be tasty" ],
+    FaCI                      `verb`    {- qadiy-a -}          [ "be tasty" ]
+                              `imperf`     FCY,
 
     -- ;; {iqotadaY_1
     -- <qtdY   {iqotadaY       PV_0    imitate;emulate
@@ -5934,7 +5936,7 @@ lexicon = listing "Lexicon's properties"
     -- qdy     qoday   IV_Ann  be tasty
     -- qd      qoda    IV_0hwnyn       be tasty
 
-    FaCiL                     `verb`    {- qadiy-a -}          [ "be tasty" ]
+    FaCI                      `verb`    {- qadiy-a -}          [ "be tasty" ]
                               `imperf`     FCY,
 
     -- ;; qadiy~_1
@@ -6361,7 +6363,9 @@ lexicon = listing "Lexicon's properties"
     -- qwAfy   qawAfiy N0_Nh   rhymes
     -- qwAf    qawAf   NK      rhymes
 
-    FACI |< aT                `noun`    {- qAfiyap -}          [ "rhyme", "rhymes" ] ]
+    FACI |< aT                `noun`    {- qAfiyap -}          [ "rhyme", "rhymes" ]
+                              `plural`     FawACI
+                           {- `others`  [ "qawAfiy N0_Nh" ] -} ]
 
  |> "q f y" <| [
 
@@ -6370,8 +6374,9 @@ lexicon = listing "Lexicon's properties"
     -- qwAfy   qawAfiy N0_Nh   rhymes
     -- qwAf    qawAf   NK      rhymes
 
-    FACiL |< aT               `noun`    {- qAfiyap -}          [ "rhyme", "rhymes" ]
+    FACI |< aT                `noun`    {- qAfiyap -}          [ "rhyme", "rhymes" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "qawAfiy N0_Nh" ] -} ]
 
  |> "q f z" <| [
@@ -6579,7 +6584,7 @@ lexicon = listing "Lexicon's properties"
     -- qhy     qohay   IV_Ann  have no appetite
     -- qh      qoha    IV_0hwnyn       have no appetite
 
-    FaCiL                     `verb`    {- qahiy-a -}          [ "have no appetite" ]
+    FaCI                      `verb`    {- qahiy-a -}          [ "have no appetite" ]
                               `imperf`     FCY,
 
     -- ;; >aqohaY_1
@@ -6603,7 +6608,7 @@ lexicon = listing "Lexicon's properties"
     -- qAh     qAh     Nuwn_Niyn       supplied with provisions
     -- qAhy    qAhiy   NapAt   supplied with provisions
 
-    FACiL                     `noun`    {- qAhiy -}            [ "supplied with provisions" ] ]
+    FACI                      `noun`    {- qAhiy -}            [ "supplied with provisions" ] ]
 
  |> "q l .h" <| [
 
@@ -7484,7 +7489,8 @@ lexicon = listing "Lexicon's properties"
     -- qly     qolay   IV_Ann  detest
     -- ql      qola    IV_0hwnyn       detest
 
-    FaCI                      `verb`    {- qaliy-a -}          [ "detest" ],
+    FaCI                      `verb`    {- qaliy-a -}          [ "detest" ]
+                              `imperf`     FCY,
 
     -- ;; qilow_1
     -- qlw     qilow   N       alkali
@@ -7506,6 +7512,11 @@ lexicon = listing "Lexicon's properties"
     MiFCY                     `noun`    {- miqolaY -}          [ "frying pan", "frying pans" ]
                               `plural`     MaFACI
                            {- `others`  [ "maqAliy N0_Nh" ] -},
+
+    -- ;; taqoliyap_1
+    -- tqly    taqoliy Nap     alkalization
+
+    TaFCI |< aT               `noun`    {- taqoliyap -}        [ "alkalization" ],
 
     -- ;; maqoliy~_1
     -- mqly    maqoliy~        N-ap    fried     [[maqoliy~/ADJ]]
@@ -7556,7 +7567,7 @@ lexicon = listing "Lexicon's properties"
     -- qly     qolay   IV_Ann  detest
     -- ql      qola    IV_0hwnyn       detest
 
-    FaCiL                     `verb`    {- qaliy-a -}          [ "detest" ]
+    FaCI                      `verb`    {- qaliy-a -}          [ "detest" ]
                               `imperf`     FCY,
 
     -- ;; qal~Ayap_1
@@ -7567,7 +7578,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taqoliyap_1
     -- tqly    taqoliy Nap     alkalization
 
-    TaFCiL |< aT              `noun`    {- taqoliyap -}        [ "alkalization" ],
+    TaFCI |< aT               `noun`    {- taqoliyap -}        [ "alkalization" ],
 
     -- ;; qil~iy~ap_2
     -- qly     qil~iy~ NapAt   monk's cell;bishop's residence     [[qil~iy~/NOUN]]
@@ -7577,6 +7588,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCCIL |< aT              `noun`    {- qil~iy~ap -}        [ "monk's cell", "bishop's residence", "monks' cells" ]
                               `plural`     FaCACiL
+                              `plural`     FaCACI
                               `plural`     FiCCAL |< At
                            {- `others`  [ "qalAliy N0_Nh" ] -} ]
 
@@ -8763,8 +8775,9 @@ lexicon = listing "Lexicon's properties"
     -- qnAn    qanAn   NK      bottles;vials
 
     FiCCIL |< aT              `noun`    {- qin~iynap -}        [ "bottle", "vial", "bottles", "vials" ]
+                              `plural`     FaCACI
                               `plural`     FaCAL
-                           {- `others`  [ "qanAn NK" ] -},
+                           {- `others`  [ "qanAniy N0_Nh", "qanAn NK" ] -},
 
     -- ;; qAnuwn_1
     -- qAnwn   qAnuwn  Ndu     law;statutes;regulations
@@ -8999,7 +9012,7 @@ lexicon = listing "Lexicon's properties"
     -- qAny    qAniy   NAn_Nayn        owner;possessor
     -- qAny    qAniy   NapAt   owner;possessor
 
-    FACiL                     `noun`    {- qAniy -}            [ "owner", "possessor" ],
+    FACI                      `noun`    {- qAniy -}            [ "owner", "possessor" ],
 
     -- ;; quwniyap_1
     -- qwny    quwniy  Nap     Konya
@@ -11275,7 +11288,7 @@ lexicon = listing "Lexicon's properties"
     -- qAr     qAr     Nuwn_Niyn       villager
     -- qAry    qAriy   NapAt   villager
 
-    FACiL                     `noun`    {- qAriy -}            [ "villager" ],
+    FACI                      `noun`    {- qAriy -}            [ "villager" ],
 
     -- ;; qarawiy~_1
     -- qrwy    qarawiy~        N-ap    rural;village     [[qarawiy~/ADJ]]
@@ -11913,7 +11926,12 @@ lexicon = listing "Lexicon's properties"
     -- qAs     qAs     Nuwn_Niyn       harsh;cruel;brutal
     -- qAsy    qAsiy   NapAt   harsh;cruel;brutal
 
-    FACI                      `adj`     {- qAsiy -}            [ "harsh", "cruel", "brutal" ] ]
+    FACI                      `adj`     {- qAsiy -}            [ "harsh", "cruel", "brutal" ],
+
+    -- ;; taqosiyap_1
+    -- tqsy    taqosiy Nap     tempering;hardening
+
+    TaFCI |< aT               `noun`    {- taqosiyap -}        [ "tempering", "hardening" ] ]
 
  |> "q s y" <| [
 
@@ -11929,12 +11947,12 @@ lexicon = listing "Lexicon's properties"
     -- qAs     qAs     Nuwn_Niyn       harsh;cruel;brutal
     -- qAsy    qAsiy   NapAt   harsh;cruel;brutal
 
-    FACiL                     `adj`     {- qAsiy -}            [ "harsh", "cruel", "brutal" ],
+    FACI                      `adj`     {- qAsiy -}            [ "harsh", "cruel", "brutal" ],
 
     -- ;; taqosiyap_1
     -- tqsy    taqosiy Nap     tempering;hardening
 
-    TaFCiL |< aT              `noun`    {- taqosiyap -}        [ "tempering", "hardening" ] ]
+    TaFCI |< aT               `noun`    {- taqosiyap -}        [ "tempering", "hardening" ] ]
 
  |> "q t .s" <| [
 
@@ -13491,7 +13509,7 @@ lexicon = listing "Lexicon's properties"
     -- qwy     qoway   IV_Ann  be strong
     -- qw      qowa    IV_0hwnyn       be strong
 
-    FaCiL                     `verb`    {- qawiy-a -}          [ "be strong" ]
+    FaCI                      `verb`    {- qawiy-a -}          [ "be strong" ]
                               `imperf`     FCY,
 
     -- ;; qaw~aY_1
@@ -13624,7 +13642,7 @@ lexicon = listing "Lexicon's properties"
     -- tqAwy   taqAwiy N0_Nh   seed for sowing
     -- tqAw    taqAw   NK      seed for sowing
 
-    TaFCiL |< aT              `noun`    {- taqowiyap -}        [ "strengthening", "consolidation", "reinforcement", "seed for sowing" ]
+    TaFCI |< aT               `noun`    {- taqowiyap -}        [ "strengthening", "consolidation", "reinforcement", "seed for sowing" ]
                               `plural`     TaFACI
                            {- `others`  [ "taqAwiy N0_Nh" ] -},
 
@@ -13647,12 +13665,12 @@ lexicon = listing "Lexicon's properties"
     -- mqw     muqaw~  Nuwn_Niyn       strengthening
     -- mqwy    muqaw~iy        Napdu   strengthening
 
-    MuFaCCiL                  `adj`     {- muqaw~iy -}         [ "strengthening" ],
+    MuFaCCI                   `adj`     {- muqaw~iy -}         [ "strengthening" ],
 
     -- ;; muqaw~iyAt_1
     -- mqwy    muqaw~iy        NAt     tonic;cordial
 
-    MuFaCCiL |< At            `noun`    {- muqaw~iyAt -}       [ "tonic", "cordial" ]
+    MuFaCCI |< At             `noun`    {- muqaw~iyAt -}       [ "tonic", "cordial" ]
                               `plural`     MuFaCCiL |< At
                               `plural`     MuFaCCI |< At,
 

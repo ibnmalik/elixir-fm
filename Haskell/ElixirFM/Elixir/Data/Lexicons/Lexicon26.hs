@@ -260,9 +260,9 @@ lexicon = listing "Lexicon's properties"
 
     HiFCA'                    `noun`    {- IihodA' -}          [ "presenting", "leading" ],
 
-    FACiL                     `noun`    {- hAdiy -}            [ "leader", "guide", "leaders", "guides" ],
+    FACI                      `noun`    {- hAdiy -}            [ "leader", "guide", "leaders", "guides" ],
 
-    FACiL                     `noun`    {- hAdiy -}            [ "Hadi" ],
+    FACI                      `noun`    {- hAdiy -}            [ "Hadi" ],
 
     MaFCIy                    `noun`    {- mahodiy~ -}         [ "Mahdi" ],
 
@@ -489,7 +489,7 @@ lexicon = listing "Lexicon's properties"
 
     FACUL                     `noun`    {- hAnuwy -}           [ "Hanoi" ],
 
-    FACiL                     `noun`    {- hAniy -}            [ "Hani" ] ]
+    FACI                      `noun`    {- hAniy -}            [ "Hani" ] ]
 
  |> "h n z" <| [
 
@@ -559,7 +559,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "h r y" <| [
 
-    FaCACiL                   `noun`    {- harAriy -}          [ "Harare" ] ]
+    FaCACI                    `noun`    {- harAriy -}          [ "Harare" ],
+
+    FaCACI                    `noun`    {- harAriy -}          [ "Harare" ] ]
 
  |> "h t f" <| [
 
@@ -684,7 +686,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "h w w" <| [
 
-    FuL                       `noun`    {- huw -}              [ "Ho (in \"Ho Chi Minh\")" ],
+    FU                        `noun`    {- huw -}              [ "Ho (in \"Ho Chi Minh\")" ],
 
     FuCL |< aT                `noun`    {- huw~ap -}           [ "abyss", "chasm", "abysses", "chasms" ]
                               `plural`     FuCY
@@ -714,11 +716,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCA' |< Iy               `adj`     {- hawA}iy~ -}         [ "air", "aerial", "atmospheric" ],
 
-    TaFCiL |< aT              `noun`    {- tahowiyap -}        [ "ventilation" ],
+    TaFCI |< aT               `noun`    {- tahowiyap -}        [ "ventilation" ],
 
-    FACiL                     `noun`    {- hAwiy -}            [ "amateur", "enthusiast", "lover of", "amateurs", "enthusiasts", "lovers of" ],
+    FACI                      `noun`    {- hAwiy -}            [ "amateur", "enthusiast", "lover of", "amateurs", "enthusiasts", "lovers of" ],
 
-    FACiL |< aT               `noun`    {- hAwiyap -}          [ "crevasse", "precipice" ] ]
+    FACI |< aT                `noun`    {- hAwiyap -}          [ "crevasse", "precipice" ] ]
 
  |> "h w z" <| [
 

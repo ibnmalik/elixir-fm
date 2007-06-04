@@ -37,7 +37,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFCaL |< At
                            {- `others`  [ "man'ay NAn_Nayn" ] -},
 
-    FACiL                     `adj`     {- nA}iy -}            [ "remote", "distant", "secluded" ],
+    FACI                      `adj`     {- nA}iy -}            [ "remote", "distant", "secluded" ],
 
     FAL                       `noun`    {- nAy -}              [ "nay", "bamboo flute" ] ]
 
@@ -155,14 +155,17 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- nAHiy -}            [ "grammarian", "grammarians" ],
 
-    FACI |< aT                `noun`    {- nAHiyap -}          [ "side", "perspective", "sides", "perspectives", "areas", "regions" ] ]
+    FACI |< aT                `noun`    {- nAHiyap -}          [ "side", "perspective", "sides", "perspectives", "areas", "regions" ]
+                              `plural`     FawACI
+                           {- `others`  [ "nawA.hiy N0_Nh" ] -} ]
 
  |> "n .h y" <| [
 
-    FACiL                     `noun`    {- nAHiy -}            [ "grammarian", "grammarians" ],
+    FACI                      `noun`    {- nAHiy -}            [ "grammarian", "grammarians" ],
 
-    FACiL |< aT               `noun`    {- nAHiyap -}          [ "side", "perspective", "sides", "perspectives", "areas", "regions" ]
+    FACI |< aT                `noun`    {- nAHiyap -}          [ "side", "perspective", "sides", "perspectives", "areas", "regions" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "nawA.hiy N0_Nh" ] -} ]
 
  |> "n .s .h" <| [
@@ -572,9 +575,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "n ^g y" <| [
 
-    FACiL                     `noun`    {- nAjiy -}            [ "Naji", "Nagi" ],
+    FACI                      `noun`    {- nAjiy -}            [ "Naji", "Nagi" ],
 
-    FACiL                     `noun`    {- nAjiy -}            [ "escaping", "surviving", "survivor" ] ]
+    FACI                      `noun`    {- nAjiy -}            [ "escaping", "surviving", "survivor" ] ]
 
  |> "n ^g z" <| [
 
@@ -981,7 +984,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCiLA'
                            {- `others`  [ "'anbiyA' Nh N0_Nh Nhy" ] -},
 
-    FACiL                     `adj`     {- nAbiy -}            [ "repugnant", "improper" ] ]
+    FACI                      `adj`     {- nAbiy -}            [ "repugnant", "improper" ] ]
 
  |> "n d '" <| [
 
@@ -1050,14 +1053,17 @@ lexicon = listing "Lexicon's properties"
     FiCA'                     `noun`    {- nidA' -}            [ "call", "appeal", "invitation", "summons", "calls", "appeals", "invitations" ],
 
     FACI                      `noun`    {- nAdiy -}            [ "club", "association", "clubs", "associations" ]
-                              `plural`     HaFCI |< aT,
+                              `plural`     FawACI
+                              `plural`     HaFCI |< aT
+                           {- `others`  [ "nawAdiy N0_Nh" ] -},
 
     MuFtaCY                   `noun`    {- munotadaY -}        [ "assembly room", "gathering place", "assembly rooms", "gathering places" ] ]
 
  |> "n d y" <| [
 
-    FACiL                     `noun`    {- nAdiy -}            [ "club", "association", "clubs", "associations" ]
+    FACI                      `noun`    {- nAdiy -}            [ "club", "association", "clubs", "associations" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                               `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT
                            {- `others`  [ "nawAdiy N0_Nh" ] -} ]
@@ -1373,9 +1379,9 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- nihAyap -}          [ "end", "termination", "ultimately", "finally" ],
 
-    MutaFACiL                 `noun`    {- mutanAhiy -}        [ "utmost", "extreme", "finished" ],
+    MutaFACI                  `noun`    {- mutanAhiy -}        [ "utmost", "extreme", "finished" ],
 
-    MuFtaCiL                  `noun`    {- munotahiy -}        [ "finished", "expired" ] ]
+    MuFtaCI                   `noun`    {- munotahiy -}        [ "finished", "expired" ] ]
 
  |> "n h y n" <| [
 
@@ -1498,7 +1504,7 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCY                    `verb`    {- AinotamaY -}        [ "belong to", "be affiliated with", "be a member of" ],
 
-    TaFCiL |< aT              `noun`    {- tanomiyap -}        [ "development", "growth" ],
+    TaFCI |< aT               `noun`    {- tanomiyap -}        [ "development", "growth" ],
 
     HiFCA'                    `noun`    {- IinomA' -}          [ "promotion", "advancement" ],
 
@@ -1508,15 +1514,16 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCA'                   `noun`    {- AinotimA' -}        [ "membership", "affiliation", "commitment" ],
 
-    FACiL                     `adj`     {- nAmiy -}            [ "developing" ],
+    FACI                      `adj`     {- nAmiy -}            [ "developing" ],
 
-    FACiL                     `noun`    {- nAmiy -}            [ "tumors" ]
+    FACI                      `noun`    {- nAmiy -}            [ "tumors" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "nawAmiy N0_Nh" ] -},
 
-    MutaFACiL                 `adj`     {- mutanAmiy -}        [ "growing gradually" ],
+    MutaFACI                  `adj`     {- mutanAmiy -}        [ "growing gradually" ],
 
-    MuFtaCiL                  `adj`     {- munotamiy -}        [ "belonging", "affiliated", "committed" ] ]
+    MuFtaCI                   `adj`     {- munotamiy -}        [ "belonging", "affiliated", "committed" ] ]
 
  |> "n q '" <| [
 
@@ -1737,13 +1744,17 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCY                    `verb`    {- AinotaqaY -}        [ "select" ],
 
+    TaFCI |< aT               `noun`    {- tanoqiyap -}        [ "purification", "cleansing" ],
+
+    TaFCI |< aT               `noun`    {- tanoqiyap -}        [ "clearing", "clarifying", "dispelling" ],
+
     IFtiCA'                   `noun`    {- AinotiqA' -}        [ "selection", "selections" ] ]
 
  |> "n q y" <| [
 
-    TaFCiL |< aT              `noun`    {- tanoqiyap -}        [ "purification", "cleansing" ],
+    TaFCI |< aT               `noun`    {- tanoqiyap -}        [ "purification", "cleansing" ],
 
-    TaFCiL |< aT              `noun`    {- tanoqiyap -}        [ "clearing", "clarifying", "dispelling" ] ]
+    TaFCI |< aT               `noun`    {- tanoqiyap -}        [ "clearing", "clarifying", "dispelling" ] ]
 
  |> "n r ^g" <| [
 
@@ -1883,7 +1894,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "n s y" <| [
 
-    FaCiL                     `verb`    {- nasiy-a -}          [ "forget", "be forgotten" ]
+    FaCI                      `verb`    {- nasiy-a -}          [ "forget", "be forgotten" ]
                               `imperf`     FCY,
 
     HaFCY                     `verb`    {- OanosaY -}          [ "make forget", "be made to forget" ],

@@ -273,7 +273,7 @@ lexicon = listing "Lexicon's properties"
     -- vAg     vAg     Nuwn_Niyn       bleating
     -- vAgy    vAgiy   NapAt   bleating
 
-    FACiL                     `noun`    {- vAgiy -}            [ "bleating" ] ]
+    FACI                      `noun`    {- vAgiy -}            [ "bleating" ] ]
 
  |> "_t ^g ^g" <| [
 
@@ -1545,24 +1545,24 @@ lexicon = listing "Lexicon's properties"
     -- ;; vAniy_1
     -- vAny    vAniy   N0F     second;next     [[vAniy/ADJ]]
 
-    FACiL                     `adj`     {- vAniy -}            [ "second", "next" ],
+    FACI                      `adj`     {- vAniy -}            [ "second", "next" ],
 
     -- ;; vAniy_2
     -- vAny    vAniy   N0      Second
 
-    FACiL                     `noun`    {- vAniy -}            [ "Second" ],
+    FACI                      `noun`    {- vAniy -}            [ "Second" ],
 
     -- ;; vAniy_3
     -- vAny    vAniy   NAn_Nayn        second;next     [[vAniy/ADJ]]
     -- vAn     vAn     NK      second;next     [[vAniy/ADJ]]
     -- vAny    vAniy   NapAt   second;next     [[vAniy/ADJ]]
 
-    FACiL                     `adj`     {- vAniy -}            [ "second", "next" ],
+    FACI                      `adj`     {- vAniy -}            [ "second", "next" ],
 
     -- ;; vAniyAF_1
     -- vAny    vAniy   NF      secondly     [[vAniy/ADV]]
 
-    FACiL |< aN               `noun`    {- vAniyAF -}          [ "secondly" ]
+    FACI |< aN                `noun`    {- vAniyAF -}          [ "secondly" ]
                               `plural`     FACiL
                               `plural`     FACI
                            {- `others`  [ "_tAniy NF" ] -},
@@ -1572,14 +1572,15 @@ lexicon = listing "Lexicon's properties"
     -- vwAny   vawAniy N0_Nh   seconds (time span)
     -- vwAn    vawAn   NK      seconds (time span)
 
-    FACiL |< aT               `noun`    {- vAniyap -}          [ "second (time span)", "seconds (time span)" ]
+    FACI |< aT                `noun`    {- vAniyap -}          [ "second (time span)", "seconds (time span)" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "_tawAniy N0_Nh" ] -},
 
     -- ;; tavoniyap_1
     -- tvny    tavoniy NapAt   repetition;praise
 
-    TaFCiL |< aT              `noun`    {- tavoniyap -}        [ "repetition", "praise" ],
+    TaFCI |< aT               `noun`    {- tavoniyap -}        [ "repetition", "praise" ],
 
     -- ;; {inovinA'_1
     -- <nvnA'  {inovinA'       N0_Nh   folding;bending
@@ -2076,7 +2077,7 @@ lexicon = listing "Lexicon's properties"
     -- vry     voray   IV_Ann  become wealthy
     -- vr      vora    IV_0hwnyn       become wealthy
 
-    FaCiL                     `verb`    {- variy-a -}          [ "become wealthy" ]
+    FaCI                      `verb`    {- variy-a -}          [ "become wealthy" ]
                               `imperf`     FCY,
 
     -- ;; variy-a_1
@@ -2086,7 +2087,8 @@ lexicon = listing "Lexicon's properties"
     -- vry     voray   IV_Ann  become wealthy
     -- vr      vora    IV_0hwnyn       become wealthy
 
-    FaCI                      `verb`    {- variy-a -}          [ "become wealthy" ],
+    FaCI                      `verb`    {- variy-a -}          [ "become wealthy" ]
+                              `imperf`     FCY,
 
     -- ;; >avoraY_1
     -- >vrY    >avoraY PV_0    enrich;make rich
@@ -2423,7 +2425,7 @@ lexicon = listing "Lexicon's properties"
     -- vwy     vuwiy   PV_no-w_Pass    be buried
     -- vwY     vowaY   IV_0_Pass_yu    be buried
 
-    FuCiL                     `verb`    {- vuwiy-a -}          [ "be buried" ],
+    FuCI                      `verb`    {- vuwiy-a -}          [ "be buried" ],
 
     -- ;; vaw~aY_1
     -- vwY     vaw~aY  PV_0    give lodging;provide housing

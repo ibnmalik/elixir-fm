@@ -1403,7 +1403,7 @@ lexicon = listing "Lexicon's properties"
     -- HZy     HoZay   IV_Ann  enjoy;gain
     -- HZ      HoZa    IV_0hwnyn       enjoy;gain
 
-    FaCiL                     `verb`    {- HaZiy-a -}          [ "enjoy", "gain" ]
+    FaCI                      `verb`    {- HaZiy-a -}          [ "enjoy", "gain" ]
                               `imperf`     FCY,
 
     -- ;; HaZiy~_1
@@ -2447,6 +2447,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCA
                            {- `others`  [ "'a.h^sA' Nh N0_Nh Nhy", ".ha^sA N0_Nhy" ] -},
 
+    -- ;; taHo$iyap_1
+    -- tH$y    taHo$iy NapAt   insertion;interpolation
+
+    TaFCI |< aT               `noun`    {- taHo$iyap -}        [ "insertion", "interpolation" ],
+
     -- ;; taHA$iy_1
     -- tHA$y   taHA$iy N0_Nh   avoidance
     -- tHA$    taHA$   NK      avoidance
@@ -2466,7 +2471,9 @@ lexicon = listing "Lexicon's properties"
     -- HwA$y   HawA$iy N0_Nh   margins;edges
     -- HwA$    HawA$   NK      margins;edges
 
-    FACI |< aT                `noun`    {- HA$iyap -}          [ "margin", "edge", "retinue", "margins", "edges" ],
+    FACI |< aT                `noun`    {- HA$iyap -}          [ "margin", "edge", "retinue", "margins", "edges" ]
+                              `plural`     FawACI
+                           {- `others`  [ ".hawA^siy N0_Nh" ] -},
 
     -- ;; maHo$uw~_1
     -- mH$w    maHo$uw~        Nall    stuffed;filled;loaded     [[maHo$uw~/ADJ]]
@@ -2488,7 +2495,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taHo$iyap_1
     -- tH$y    taHo$iy NapAt   insertion;interpolation
 
-    TaFCiL |< aT              `noun`    {- taHo$iyap -}        [ "insertion", "interpolation" ],
+    TaFCI |< aT               `noun`    {- taHo$iyap -}        [ "insertion", "interpolation" ],
 
     -- ;; Ha$iy~ap_1
     -- H$y     Ha$iy~  NapAt   cushion;mattress     [[Ha$iy~/NOUN]]
@@ -2501,8 +2508,9 @@ lexicon = listing "Lexicon's properties"
     -- HwA$y   HawA$iy N0_Nh   margins;edges
     -- HwA$    HawA$   NK      margins;edges
 
-    FACiL |< aT               `noun`    {- HA$iyap -}          [ "margin", "edge", "retinue", "margins", "edges" ]
+    FACI |< aT                `noun`    {- HA$iyap -}          [ "margin", "edge", "retinue", "margins", "edges" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ ".hawA^siy N0_Nh" ] -} ]
 
  |> ".h _d '" <| [
@@ -2829,7 +2837,7 @@ lexicon = listing "Lexicon's properties"
     -- mHA*    muHA*   Nuwn_Niyn       opposite;facing
     -- mHA*y   muHA*iy NapAt   opposite;facing
 
-    MuFACiL                   `noun`    {- muHA*iy -}          [ "opposite", "facing" ],
+    MuFACI                    `noun`    {- muHA*iy -}          [ "opposite", "facing" ],
 
     -- ;; Ha*aY-i_1
     -- H*Y     Ha*aY   PV_0    cut;hew
@@ -4342,7 +4350,8 @@ lexicon = listing "Lexicon's properties"
     -- Hdy     Hoday   IV_Ann  remain;not move
     -- Hd      Hoda    IV_0hwnyn       remain;not move
 
-    FaCI                      `verb`    {- Hadiy-a -}          [ "remain", "not move" ],
+    FaCI                      `verb`    {- Hadiy-a -}          [ "remain", "not move" ]
+                              `imperf`     FCY,
 
     -- ;; HAdiy_3
     -- HAdy    HAdiy   N0      one
@@ -4355,7 +4364,7 @@ lexicon = listing "Lexicon's properties"
     -- HAdy    HAdiy   N0      first (word in "11th", "21st", "31st", through "91st")     [[HAdiy/ADJ]]
     -- HAdyp   HAdiyap N0      first (word in "11th", "21st", "31st", through "91st")     [[HAdiyap/ADJ]]
 
-    FACiL                     `adj`     {- HAdiy -}            [ "first (word in \"11th\", \"21st\", \"31st\", through \"91st\")" ],
+    FACI                      `adj`     {- HAdiy -}            [ "first (word in \"11th\", \"21st\", \"31st\", through \"91st\")" ],
 
     -- ;; HAdiy_2
     -- HAdy    HAdiy   N0F     leader;cameleer
@@ -4365,7 +4374,7 @@ lexicon = listing "Lexicon's properties"
     -- HAdy    HAdiy   NapAt   leader;cameleer
     -- HdA     HudA    Nap     leaders;cameleers
 
-    FACiL                     `noun`    {- HAdiy -}            [ "leader", "cameleer", "leaders", "cameleers" ],
+    FACI                      `noun`    {- HAdiy -}            [ "leader", "cameleer", "leaders", "cameleers" ],
 
     -- ;; Hadiy-a_1
     -- Hdy     Hadiy   PV_no-w remain;not move
@@ -4374,13 +4383,13 @@ lexicon = listing "Lexicon's properties"
     -- Hdy     Hoday   IV_Ann  remain;not move
     -- Hd      Hoda    IV_0hwnyn       remain;not move
 
-    FaCiL                     `verb`    {- Hadiy-a -}          [ "remain", "not move" ]
+    FaCI                      `verb`    {- Hadiy-a -}          [ "remain", "not move" ]
                               `imperf`     FCY,
 
     -- ;; HAdiy_3
     -- HAdy    HAdiy   N0      one
 
-    FACiL                     `noun`    {- HAdiy -}            [ "one" ],
+    FACI                      `noun`    {- HAdiy -}            [ "one" ],
 
     -- ;; HidAyap_1
     -- HdAy    HidAy   Nap     kite
@@ -4863,7 +4872,7 @@ lexicon = listing "Lexicon's properties"
     -- Hfy     Hofay   IV_Ann  receive kindly;welcome
     -- Hf      Hofa    IV_0hwnyn       receive kindly;welcome
 
-    FaCiL                     `verb`    {- Hafiy-a -}          [ "receive kindly", "welcome" ]
+    FaCI                      `verb`    {- Hafiy-a -}          [ "receive kindly", "welcome" ]
                               `imperf`     FCY,
 
     -- ;; Hafiy-a_2
@@ -4873,7 +4882,7 @@ lexicon = listing "Lexicon's properties"
     -- Hfy     Hofay   IV_Ann  go barefoot
     -- Hf      Hofa    IV_0hwnyn       go barefoot
 
-    FaCiL                     `verb`    {- Hafiy-a -}          [ "go barefoot" ]
+    FaCI                      `verb`    {- Hafiy-a -}          [ "go barefoot" ]
                               `imperf`     FCY,
 
     -- ;; taHaf~aY_1
@@ -4933,8 +4942,9 @@ lexicon = listing "Lexicon's properties"
     -- HwAfy   HawAfiy N0_Nh   borders;edges
     -- HwAf    HawAf   NK      borders;edges
 
-    FACiL                     `noun`    {- HAfiy -}            [ "barefoot", "borders", "edges" ]
+    FACI                      `noun`    {- HAfiy -}            [ "barefoot", "borders", "edges" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ ".hawAfiy N0_Nh" ] -} ]
 
  |> ".h f z" <| [
@@ -5431,7 +5441,7 @@ lexicon = listing "Lexicon's properties"
     -- HAk     HAk     Nuwn_Niyn       narrator;speaker
     -- HAky    HAkiy   NapAt   narrator;speaker
 
-    FACiL                     `noun`    {- HAkiy -}            [ "narrator", "speaker" ],
+    FACI                      `noun`    {- HAkiy -}            [ "narrator", "speaker" ],
 
     -- ;; maHokiy~_1
     -- mHky    maHokiy~        Nall    spoken     [[maHokiy~/ADJ]]
@@ -6237,8 +6247,7 @@ lexicon = listing "Lexicon's properties"
     -- Hl      Hol     IV_0hwnyn       be sweet;be pleasant
     -- HlY     HolaY   IV_0_Pass_yu    be sweet;be pleasant
 
-    FaCuL                     `verb`    {- Haluw-u -}          [ "be sweet", "be pleasant" ]
-                              `imperf`     FCuL
+    FaCU                      `verb`    {- Haluw-u -}          [ "be sweet", "be pleasant" ]
                               `imperf`     FCU
                            {- `others`  [ ".halA PV" ] -},
 
@@ -6317,7 +6326,7 @@ lexicon = listing "Lexicon's properties"
     -- Hly     Holay   IV_Ann  be sweet;be pleasant;be adorned
     -- Hl      Hola    IV_0hwnyn       be sweet;be pleasant;be adorned
 
-    FaCiL                     `verb`    {- Haliy-a -}          [ "be sweet", "be pleasant", "be adorned" ]
+    FaCI                      `verb`    {- Haliy-a -}          [ "be sweet", "be pleasant", "be adorned" ]
                               `imperf`     FCY,
 
     -- ;; HalaY-i_1
@@ -6390,7 +6399,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; taHoliyap_1
     -- tHly    taHoliy NapAt   decoration;sweetening
 
-    TaFCiL |< aT              `noun`    {- taHoliyap -}        [ "decoration", "sweetening" ],
+    TaFCI |< aT               `noun`    {- taHoliyap -}        [ "decoration", "sweetening" ],
 
     -- ;; taHal~iy_1
     -- tHly    taHal~iy        N0      being adorned;being furnished;remaining (patient, confident)
@@ -7131,9 +7140,10 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `noun`    {- Ham -}              [ "father-in-law", "father-in-law + my", "father-in-law of", "fathers-in-law" ]
                               `plural`     FaCA
+                              `plural`     FaCU
                               `plural`     FaCI
                               `plural`     HaFCA'
-                           {- `others`  [ ".hamA N0_Nh", ".hamiy FW-WaBi N0_Nh", "'a.hmA' Nh N0_Nh Nhy" ] -},
+                           {- `others`  [ ".hamA N0_Nh", ".hamuw N0_Nh", ".hamiy FW-WaBi N0_Nh", "'a.hmA' Nh N0_Nh Nhy" ] -},
 
     -- ;; Humap_1
     -- Hm      Hum     NapAt   sting;prick
@@ -7444,7 +7454,7 @@ lexicon = listing "Lexicon's properties"
     -- Hmy     Homay   IV_Ann  glow;flare up
     -- Hm      Homa    IV_0hwnyn       glow;flare up
 
-    FaCiL                     `verb`    {- Hamiy-a -}          [ "glow", "flare up" ]
+    FaCI                      `verb`    {- Hamiy-a -}          [ "glow", "flare up" ]
                               `imperf`     FCY,
 
     -- ;; HamaY-i_1
@@ -7592,7 +7602,7 @@ lexicon = listing "Lexicon's properties"
     -- HAm     HAm     Nuwn_Niyn       heated;passionate;burning
     -- HAmy    HAmiy   NapAt   heated;passionate;burning
 
-    FACiL                     `noun`    {- HAmiy -}            [ "heated", "passionate", "burning" ],
+    FACI                      `noun`    {- HAmiy -}            [ "heated", "passionate", "burning" ],
 
     -- ;; HAmiy_2
     -- HAmy    HAmiy   N0F_Nh  protector;patron
@@ -7602,12 +7612,12 @@ lexicon = listing "Lexicon's properties"
     -- HAmy    HAmiy   NapAt   protector;patron
     -- HmA     HumA    Nap     protectors;patrons
 
-    FACiL                     `noun`    {- HAmiy -}            [ "protector", "patron", "protectors", "patrons" ],
+    FACI                      `noun`    {- HAmiy -}            [ "protector", "patron", "protectors", "patrons" ],
 
     -- ;; HAmiyap_1
     -- HAmy    HAmiy   NapAt   garrison
 
-    FACiL |< aT               `noun`    {- HAmiyap -}          [ "garrison" ],
+    FACI |< aT                `noun`    {- HAmiyap -}          [ "garrison" ],
 
     -- ;; maHomiy~_1
     -- mHmy    maHomiy~        Nall    protected;protectorate     [[maHomiy~/ADJ]]
@@ -7621,7 +7631,7 @@ lexicon = listing "Lexicon's properties"
     -- mHAm    muHAm   Nuwn_Niyn       lawyers;defense counsel
     -- mHAmy   muHAmiy NapAt   lawyer;defense counsel
 
-    MuFACiL                   `noun`    {- muHAmiy -}          [ "lawyer", "defense counsel", "lawyers" ],
+    MuFACI                    `noun`    {- muHAmiy -}          [ "lawyer", "defense counsel", "lawyers" ],
 
     -- ;; muHotamiy_1
     -- mHtmy   muHotamiy       N0_Nh   protege
@@ -7630,7 +7640,7 @@ lexicon = listing "Lexicon's properties"
     -- mHtm    muHotam Nuwn_Niyn       proteges
     -- mHtmy   muHotamiy       NapAt   protege
 
-    MuFtaCiL                  `noun`    {- muHotamiy -}        [ "protege", "proteges" ] ]
+    MuFtaCI                   `noun`    {- muHotamiy -}        [ "protege", "proteges" ] ]
 
  |> ".h m z" <| [
 
@@ -8170,7 +8180,7 @@ lexicon = listing "Lexicon's properties"
     -- HwAny   HawAniy N0_Nh   bosom;breast
     -- HwAn    HawAn   NK      bosom;breast
 
-    FawACiL                   `noun`    {- HawAniy -}          [ "bosom", "breast" ],
+    FawACI                    `noun`    {- HawAniy -}          [ "bosom", "breast" ],
 
     -- ;; maHoniy~_1
     -- mHny    maHoniy~        Nall    bowed;inclined;bent     [[maHoniy~/ADJ]]
@@ -8184,7 +8194,7 @@ lexicon = listing "Lexicon's properties"
     -- mnHn    munoHan Nuwn_Niyn       bent;twisted;bowed
     -- mnHny   munoHaniy       NapAt   bent;twisted;bowed
 
-    MunFaCiL                  `noun`    {- munoHaniy -}        [ "bent", "twisted", "bowed" ],
+    MunFaCI                   `noun`    {- munoHaniy -}        [ "bent", "twisted", "bowed" ],
 
     -- ;; munoHanaY_1
     -- mnHnY   munoHanaY       N0      curvature;bend;slope
@@ -12228,7 +12238,7 @@ lexicon = listing "Lexicon's properties"
     -- HAwy    HAwiy   NapAt   magician;juggler
     -- HwA     HuwA    Nap     magicians;jugglers
 
-    FACiL                     `noun`    {- HAwiy -}            [ "magician", "juggler", "magicians", "jugglers" ],
+    FACI                      `noun`    {- HAwiy -}            [ "magician", "juggler", "magicians", "jugglers" ],
 
     -- ;; {iHotiwA'_1
     -- <HtwA'  {iHotiwA'       N0_Nh   inclusion;content
@@ -12263,7 +12273,7 @@ lexicon = listing "Lexicon's properties"
     -- mHtw    muHotaw Nuwn_Niyn       containing
     -- mHtwy   muHotawiy       Napdu   containing
 
-    MuFtaCiL                  `noun`    {- muHotawiy -}        [ "containing" ] ]
+    MuFtaCI                   `noun`    {- muHotawiy -}        [ "containing" ] ]
 
  |> ".h w z" <| [
 
@@ -12948,7 +12958,7 @@ lexicon = listing "Lexicon's properties"
     -- Hyy     Hoyay   IV_Ann  live;experience;witness
     -- Hy      Hoya    IV_0hwnyn       live;experience;witness
 
-    FaCiL                     `verb`    {- Hayiy-a -}          [ "live", "experience", "witness" ],
+    FaCI                      `verb`    {- Hayiy-a -}          [ "live", "experience", "witness" ],
 
     -- ;; Hay~aY_1
     -- HyY     Hay~aY  PV_0    grant a long life
@@ -13028,7 +13038,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHoyiy_1
     -- mHyy    muHoyiy Nprop   Muhi
 
-    MuFCiL                    `noun`    {- muHoyiy -}          [ "Muhi" ],
+    MuFCI                     `noun`    {- muHoyiy -}          [ "Muhi" ],
 
     -- ;; Hay~_3
     -- Hy      Hay~    N       quarter;district

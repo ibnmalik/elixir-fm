@@ -289,7 +289,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "l _d y" <| [
 
-    FaCiL                     `verb`    {- la*iy-a -}          [ "adhere", "cleave" ]
+    FaCI                      `verb`    {- la*iy-a -}          [ "adhere", "cleave" ]
                               `imperf`     FCY ]
 
  |> "l _h .s" <| [
@@ -401,7 +401,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCCY                     `verb`    {- lab~aY -}           [ "comply with", "carry out", "respond to", "be complied with", "be carried out", "be responded to" ],
 
-    TaFCiL |< aT              `noun`    {- talobiyap -}        [ "compliance with", "responding to" ],
+    TaFCI |< aT               `noun`    {- talobiyap -}        [ "compliance with", "responding to" ],
 
     FUCI                      `noun`    {- luwbiy -}           [ "lobby" ] ]
 
@@ -671,7 +671,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "l q y" <| [
 
-    FaCiL                     `verb`    {- laqiy-a -}          [ "meet", "encounter", "find" ]
+    FaCI                      `verb`    {- laqiy-a -}          [ "meet", "encounter", "find" ]
                               `imperf`     FCY,
 
     FACY                      `verb`    {- lAqaY -}            [ "meet", "encounter", "be met", "be encountered" ],
@@ -700,13 +700,13 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCA'                   `noun`    {- AilotiqA' -}        [ "meeting", "reunion", "meetings", "reunions" ],
 
-    MuFCiL                    `noun`    {- muloqiy -}          [ "mine layer", "mine layers" ],
+    MuFCI                     `noun`    {- muloqiy -}          [ "mine layer", "mine layers" ],
 
     MuFCY                     `adj`     {- muloqaY -}          [ "discarded", "thrown", "cast" ]
                               `plural`     MuFCaL |< At
                            {- `others`  [ "mulqay NAn_Nayn" ] -},
 
-    MutaFaCCiL                `adj`     {- mutalaq~iy -}       [ "receiving" ],
+    MutaFaCCI                 `adj`     {- mutalaq~iy -}       [ "receiving" ],
 
     MuFtaCY                   `noun`    {- mulotaqaY -}        [ "meeting place", "juncture", "meeting places", "junctures" ]
                               `plural`     MuFtaCaL |< At
@@ -827,7 +827,7 @@ lexicon = listing "Lexicon's properties"
 
     FaL                       `noun`    {- law -}              [ "if" ],
 
-    FuL                       `noun`    {- luw -}              [ "Le" ] ]
+    FU                        `noun`    {- luw -}              [ "Le" ] ]
 
  |> "l w y" <| [
 
@@ -843,7 +843,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- liwA' -}            [ "Liwa" ],
 
-    MuFtaCiL                  `adj`     {- mulotawiy -}        [ "crooked", "warped" ] ]
+    MuFtaCI                   `adj`     {- mulotawiy -}        [ "crooked", "warped" ] ]
 
  |> "l w z" <| [
 
@@ -924,7 +924,7 @@ lexicon = listing "Lexicon's properties"
 
     FI                        `noun`    {- liy -}              [ "Lee", "Li" ],
 
-    FiL                       `noun`    {- liy -}              [ "Lee", "Li" ] ]
+    FI                        `noun`    {- liy -}              [ "Lee", "Li" ] ]
 
  |> "l y z r" <| [
 

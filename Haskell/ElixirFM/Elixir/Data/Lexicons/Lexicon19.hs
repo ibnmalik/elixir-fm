@@ -119,11 +119,13 @@ lexicon = listing "Lexicon's properties"
     FiCA'                     `noun`    {- giTA' -}            [ "cover", "blanket", "covers", "blankets" ]
                               `plural`     HaFCI |< aT,
 
+    TaFCI |< aT               `noun`    {- tagoTiyap -}        [ "coverage", "covering" ],
+
     MuFaCCY                   `adj`     {- mugaT~aY -}         [ "covered" ] ]
 
  |> ".g .t y" <| [
 
-    TaFCiL |< aT              `noun`    {- tagoTiyap -}        [ "coverage", "covering" ] ]
+    TaFCI |< aT               `noun`    {- tagoTiyap -}        [ "coverage", "covering" ] ]
 
  |> ".g ^s ^s" <| [
 
@@ -159,13 +161,15 @@ lexicon = listing "Lexicon's properties"
 
     FiCA' |< Iy               `adj`     {- gi*A}iy~ -}         [ "food", "alimentary", "nutritional" ],
 
+    TaFCI |< aT               `noun`    {- tago*iyap -}        [ "feeding", "nutrition" ],
+
     MuFaCCI                   `adj`     {- muga*~iy -}         [ "nutritious", "substantial" ] ]
 
  |> ".g _d y" <| [
 
-    TaFCiL |< aT              `noun`    {- tago*iyap -}        [ "feeding", "nutrition" ],
+    TaFCI |< aT               `noun`    {- tago*iyap -}        [ "feeding", "nutrition" ],
 
-    MuFaCCiL                  `adj`     {- muga*~iy -}         [ "nutritious", "substantial" ] ]
+    MuFaCCI                   `adj`     {- muga*~iy -}         [ "nutritious", "substantial" ] ]
 
  |> ".g b '" <| [
 
@@ -342,7 +346,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g l y" <| [
 
-    FACiL                     `noun`    {- gAliy -}            [ "costly", "beloved" ],
+    FACI                      `noun`    {- gAliy -}            [ "costly", "beloved" ],
 
     HaFCY                     `verb`    {- OagolaY -}          [ "boil", "make boil", "be boiled" ],
 
@@ -436,15 +440,16 @@ lexicon = listing "Lexicon's properties"
 
     FiCA' |< Iy               `adj`     {- ginA}iy~ -}         [ "singing", "vocal", "lyrical" ],
 
-    HuFCiL |< aT              `noun`    {- Ougoniyap -}        [ "song", "melody", "songs", "melodies" ]
+    HuFCI |< aT               `noun`    {- Ougoniyap -}        [ "song", "melody", "songs", "melodies" ]
                               `plural`     HaFACiL
                               `plural`     HaFACI
                            {- `others`  [ "'a.gAniy N0_Nh" ] -},
 
     IstiFCA'                  `noun`    {- AisotigonA' -}      [ "dispensing with", "renunciation" ],
 
-    FACiL |< aT               `noun`    {- gAniyap -}          [ "pretty girl", "belle", "pretty girls", "belles" ]
+    FACI |< aT                `noun`    {- gAniyap -}          [ "pretty girl", "belle", "pretty girls", "belles" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ ".gawAniy N0_Nh" ] -} ]
 
  |> ".g r '" <| [
@@ -573,7 +578,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g r y" <| [
 
-    MuFCiL                    `adj`     {- mugoriy -}          [ "inciting", "instigating", "alluring" ] ]
+    MuFCI                     `adj`     {- mugoriy -}          [ "inciting", "instigating", "alluring" ] ]
 
  |> ".g r z" <| [
 
@@ -779,7 +784,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g z y" <| [
 
-    FACiL                     `adj`     {- gAziy -}            [ "invader", "raider", "aggressor", "invaders", "raiders", "aggressors" ] ]
+    FACI                      `adj`     {- gAziy -}            [ "invader", "raider", "aggressor", "invaders", "raiders", "aggressors" ] ]
 
  |> ".g z z" <| [
 

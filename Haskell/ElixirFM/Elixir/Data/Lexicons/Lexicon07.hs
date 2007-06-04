@@ -333,7 +333,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_h ^s y" <| [
 
-    FaCiL                     `verb`    {- xa$iy-a -}          [ "fear", "be afraid" ]
+    FaCI                      `verb`    {- xa$iy-a -}          [ "fear", "be afraid" ]
                               `imperf`     FCY,
 
     FaCL |< aT                `noun`    {- xa$oyap -}          [ "fear", "apprehension" ],
@@ -574,13 +574,13 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCA'                   `noun`    {- AixotifA' -}        [ "disappearance", "disappearances" ],
 
-    FACiL                     `adj`     {- xAfiy -}            [ "hidden", "secret" ],
+    FACI                      `adj`     {- xAfiy -}            [ "hidden", "secret" ],
 
     MaFCIy                    `adj`     {- maxofiy~ -}         [ "hidden" ],
 
-    MutaFaCCiL                `noun`    {- mutaxaf~iy -}       [ "disguised" ],
+    MutaFaCCI                 `noun`    {- mutaxaf~iy -}       [ "disguised" ],
 
-    MuFtaCiL                  `adj`     {- muxotafiy -}        [ "hidden", "secret", "secrets" ] ]
+    MuFtaCI                   `adj`     {- muxotafiy -}        [ "hidden", "secret", "secrets" ] ]
 
  |> "_h l '" <| [
 
@@ -811,6 +811,8 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- xalowap -}          [ "privacy", "seclusion", "booth", "booths" ]
                               `plural`     FaCaL |< At,
 
+    TaFCI |< aT               `noun`    {- taxoliyap -}        [ "vacating", "evacuation" ],
+
     HiFCA'                    `noun`    {- IixolA' -}          [ "emptying", "evacuation" ],
 
     HiFCA'                    `noun`    {- IixolA' -}          [ "release" ],
@@ -825,9 +827,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- xaliy~ap -}         [ "beehive", "beehives" ],
 
-    TaFCiL |< aT              `noun`    {- taxoliyap -}        [ "vacating", "evacuation" ],
+    TaFCI |< aT               `noun`    {- taxoliyap -}        [ "vacating", "evacuation" ],
 
-    FACiL                     `adj`     {- xAliy -}            [ "empty", "devoid", "free" ] ]
+    FACI                      `adj`     {- xAliy -}            [ "empty", "devoid", "free" ] ]
 
  |> "_h m d" <| [
 

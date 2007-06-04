@@ -806,6 +806,11 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `verb`    {- OazojaY -}          [ "shove", "jostle", "be shoved", "be jostled" ],
 
+    -- ;; tazojiyap_1
+    -- tzjy    tazojiy Nap     pastime
+
+    TaFCI |< aT               `noun`    {- tazojiyap -}        [ "pastime" ],
+
     -- ;; muzojaY_1
     -- mzjY    muzojaY N0      scanty;trivial
     -- mzjA    muzojA  Nhy     scanty;trivial
@@ -817,7 +822,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazojiyap_1
     -- tzjy    tazojiy Nap     pastime
 
-    TaFCiL |< aT              `noun`    {- tazojiyap -}        [ "pastime" ] ]
+    TaFCI |< aT               `noun`    {- tazojiyap -}        [ "pastime" ] ]
 
  |> "z _h _h" <| [
 
@@ -2253,7 +2258,7 @@ lexicon = listing "Lexicon's properties"
     -- zhY     zohaY   IV_0    be conceited;be boastful
     -- zhy     zohay   IV_Ann  be conceited;be boastful
 
-    FuCiL                     `verb`    {- zuhiy-a -}          [ "be conceited", "be boastful" ],
+    FuCI                      `verb`    {- zuhiy-a -}          [ "be conceited", "be boastful" ],
 
     -- ;; zahiy~_1
     -- zhy     zahiy~  N-ap    splendid;brilliant     [[zahiy~/ADJ]]
@@ -2267,12 +2272,12 @@ lexicon = listing "Lexicon's properties"
     -- zAh     zAh     Nuwn_Niyn       resplendent;magnificent
     -- zAhy    zAhiy   NapAt   resplendent;magnificent
 
-    FACiL                     `adj`     {- zAhiy -}            [ "resplendent", "magnificent" ],
+    FACI                      `adj`     {- zAhiy -}            [ "resplendent", "magnificent" ],
 
     -- ;; zhiy_1
     -- zhy     zhiy    Nprop   Zhi
 
-    FCiL                      `noun`    {- zhiy -}             [ "Zhi" ] ]
+    FCI                       `noun`    {- zhiy -}             [ "Zhi" ] ]
 
  |> "z k '" <| [
 
@@ -2373,7 +2378,8 @@ lexicon = listing "Lexicon's properties"
     -- zky     zokay   IV_Ann  grow;increase
     -- zk      zoka    IV_0hwnyn       grow;increase
 
-    FaCI                      `verb`    {- zakiy-a -}          [ "grow", "increase" ],
+    FaCI                      `verb`    {- zakiy-a -}          [ "grow", "increase" ]
+                              `imperf`     FCY,
 
     -- ;; zak~aY_1
     -- zkY     zak~aY  PV_0    augment;nominate;recommend
@@ -2436,7 +2442,12 @@ lexicon = listing "Lexicon's properties"
     -- >zky    >azokay NAn_Nayn        purer/purest;better/best
     -- Azky    >azokay NAn_Nayn        purer/purest;better/best
 
-    HaFCY                     `noun`    {- OazokaY -}          [ "purer/purest", "better/best" ] ]
+    HaFCY                     `noun`    {- OazokaY -}          [ "purer/purest", "better/best" ],
+
+    -- ;; tazokiyap_1
+    -- tzky    tazokiy Nap     purification;nomination by acclamation
+
+    TaFCI |< aT               `noun`    {- tazokiyap -}        [ "purification", "nomination by acclamation" ] ]
 
  |> "z k y" <| [
 
@@ -2447,7 +2458,7 @@ lexicon = listing "Lexicon's properties"
     -- zky     zokay   IV_Ann  grow;increase
     -- zk      zoka    IV_0hwnyn       grow;increase
 
-    FaCiL                     `verb`    {- zakiy-a -}          [ "grow", "increase" ]
+    FaCI                      `verb`    {- zakiy-a -}          [ "grow", "increase" ]
                               `imperf`     FCY,
 
     -- ;; zakiy~_1
@@ -2466,7 +2477,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tazokiyap_1
     -- tzky    tazokiy Nap     purification;nomination by acclamation
 
-    TaFCiL |< aT              `noun`    {- tazokiyap -}        [ "purification", "nomination by acclamation" ] ]
+    TaFCI |< aT               `noun`    {- tazokiyap -}        [ "purification", "nomination by acclamation" ] ]
 
  |> "z l .t" <| [
 
@@ -3539,15 +3550,16 @@ lexicon = listing "Lexicon's properties"
     -- zAny    zAniy   NapAt   fornicator
     -- znA     zunA    Nap     fornicators
 
-    FACiL                     `noun`    {- zAniy -}            [ "fornicator", "fornicators" ],
+    FACI                      `noun`    {- zAniy -}            [ "fornicator", "fornicators" ],
 
     -- ;; zAniyap_1
     -- zAny    zAniy   Napdu   whore;adulteress
     -- zwAny   zawAniy N0_Nh   whores;adulteresses
     -- zwAn    zawAn   NK      whores;adulteresses
 
-    FACiL |< aT               `noun`    {- zAniyap -}          [ "whore", "adulteress", "whores", "adulteresses" ]
+    FACI |< aT                `noun`    {- zAniyap -}          [ "whore", "adulteress", "whores", "adulteresses" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "zawAniy N0_Nh" ] -} ]
 
  |> "z n z n" <| [
@@ -4253,7 +4265,7 @@ lexicon = listing "Lexicon's properties"
     -- mzr     muzor   Nuwn_Niyn       shameful;disgraceful
     -- mzry    muzoriy NapAt   shameful;disgraceful
 
-    MuFCiL                    `adj`     {- muzoriy -}          [ "shameful", "disgraceful" ],
+    MuFCI                     `adj`     {- muzoriy -}          [ "shameful", "disgraceful" ],
 
     -- ;; muzoraY_1
     -- mzrY    muzoraY N0      despicable;contemptible     [[muzoraY/ADJ]]
@@ -4974,7 +4986,7 @@ lexicon = listing "Lexicon's properties"
     -- zAwy    zAwiy   NapAt   corner;nook;angle
     -- zwAyA   zawAyA  N0_Nhy  corners;nooks;angles
 
-    FACiL |< aT               `noun`    {- zAwiyap -}          [ "corner", "nook", "angle", "corners", "nooks", "angles" ],
+    FACI |< aT                `noun`    {- zAwiyap -}          [ "corner", "nook", "angle", "corners", "nooks", "angles" ],
 
     -- ;; mazowiy~_1
     -- mzwy    mazowiy~        N-ap    corner;cornered     [[mazowiy~/ADJ]]
@@ -4988,7 +5000,7 @@ lexicon = listing "Lexicon's properties"
     -- mnzw    munozaw Nuwn_Niyn       secluded;obscure
     -- mnzwy   munozawiy       NapAt   secluded;obscure
 
-    MunFaCiL                  `adj`     {- munozawiy -}        [ "secluded", "obscure" ] ]
+    MunFaCI                   `adj`     {- munozawiy -}        [ "secluded", "obscure" ] ]
 
  |> "z y '" <| [
 

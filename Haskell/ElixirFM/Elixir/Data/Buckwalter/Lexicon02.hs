@@ -844,7 +844,7 @@ lexicon = listing "Lexicon's properties"
     -- bAgy    bAgiy   NapAt   oppressive;tyrant
     -- bgA     bugA    Nap     oppressors;tyrants
 
-    FACiL                     `noun`    {- bAgiy -}            [ "oppressive", "tyrant", "oppressors", "tyrants" ],
+    FACI                      `noun`    {- bAgiy -}            [ "oppressive", "tyrant", "oppressors", "tyrants" ],
 
     -- ;; bAgiy_1
     -- bAgy    bAgiy   N0F     oppressive;tyrant
@@ -864,7 +864,7 @@ lexicon = listing "Lexicon's properties"
     -- bAgy    bAgiy   NapAt   desiring
     -- bgA     bugA    Nap     desiring
 
-    FACiL                     `noun`    {- bAgiy -}            [ "desiring" ],
+    FACI                      `noun`    {- bAgiy -}            [ "desiring" ],
 
     -- ;; bAgiy_2
     -- bAgy    bAgiy   N0F     desiring
@@ -2316,6 +2316,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI |< aT                `noun`    {- bATiyap -}          [ "pitcher", "jug", "pitchers", "jugs" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "bawA.tiy N0_Nh" ] -},
 
     -- ;; bATiyap_1
@@ -2323,8 +2324,9 @@ lexicon = listing "Lexicon's properties"
     -- bwATy   bawATiy N0_Nh   pitchers;jugs
     -- bwAT    bawAT   NK      pitchers;jugs
 
-    FACiL |< aT               `noun`    {- bATiyap -}          [ "pitcher", "jug", "pitchers", "jugs" ]
+    FACI |< aT                `noun`    {- bATiyap -}          [ "pitcher", "jug", "pitchers", "jugs" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "bawA.tiy N0_Nh" ] -} ]
 
  |> "b .z .z" <| [
@@ -4951,7 +4953,7 @@ lexicon = listing "Lexicon's properties"
     -- bAd     bAd     Nuwn_Niyn       apparent;obvious
     -- bAdy    bAdiy   NapAt   apparent;obvious
 
-    FACiL                     `noun`    {- bAdiy -}            [ "apparent", "obvious" ],
+    FACI                      `noun`    {- bAdiy -}            [ "apparent", "obvious" ],
 
     -- ;; bAdiyap_1
     -- bAdy    bAdiy   NapAt   desert
@@ -4961,13 +4963,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAdiyap_1
     -- bAdy    bAdiy   NapAt   desert
 
-    FACiL |< aT               `noun`    {- bAdiyap -}          [ "desert" ],
+    FACI |< aT                `noun`    {- bAdiyap -}          [ "desert" ],
 
     -- ;; bawAdiy_1
     -- bwAdy   bawAdiy N0_Nh   nomads;Bedouins
     -- bwAd    bawAd   NK      nomads;Bedouins
 
-    FawACiL                   `noun`    {- bawAdiy -}          [ "nomads", "Bedouins" ],
+    FawACI                    `noun`    {- bawAdiy -}          [ "nomads", "Bedouins" ],
+
+    -- ;; bawAdiy_1
+    -- bwAdy   bawAdiy N0_Nh   nomads;Bedouins
+    -- bwAd    bawAd   NK      nomads;Bedouins
+
+    FawACI                    `noun`    {- bawAdiy -}          [ "nomads", "Bedouins" ],
 
     -- ;; mubodiyAF_1
     -- mbdy    mubodiy NF      expressing;showing;demonstrating
@@ -4982,7 +4990,7 @@ lexicon = listing "Lexicon's properties"
     -- mbdy    mubodiy NF      expressing;showing;demonstrating
     -- mbdy    mubodiy N0      expressing;showing;demonstrating
 
-    MuFCiL |< aN              `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
+    MuFCI |< aN               `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
                               `plural`     MuFCiL
                               `plural`     MuFCI
                            {- `others`  [ "mubdiy NF N0" ] -} ]
@@ -5580,7 +5588,8 @@ lexicon = listing "Lexicon's properties"
     -- bhy     bohay   IV_Ann  be beautiful
     -- bh      boha    IV_0hwnyn       be beautiful
 
-    FaCI                      `verb`    {- bahiy-a -}          [ "be beautiful" ],
+    FaCI                      `verb`    {- bahiy-a -}          [ "be beautiful" ]
+                              `imperf`     FCY,
 
     -- ;; bahiy-a_1
     -- bhy     bahiy   PV_no-w_intr    be beautiful
@@ -5589,7 +5598,7 @@ lexicon = listing "Lexicon's properties"
     -- bhy     bohay   IV_Ann  be beautiful
     -- bh      boha    IV_0hwnyn       be beautiful
 
-    FaCiL                     `verb`    {- bahiy-a -}          [ "be beautiful" ]
+    FaCI                      `verb`    {- bahiy-a -}          [ "be beautiful" ]
                               `imperf`     FCY,
 
     -- ;; bAhaY_1
@@ -5670,7 +5679,7 @@ lexicon = listing "Lexicon's properties"
     -- mtbAh   mutabAh Nuwn_Niyn       proud;boastful
     -- mtbAhy  mutabAhiy       NapAt   proud;boastful
 
-    MutaFACiL                 `noun`    {- mutabAhiy -}        [ "proud", "boastful" ] ]
+    MutaFACI                  `noun`    {- mutabAhiy -}        [ "proud", "boastful" ] ]
 
  |> "b h z" <| [
 
@@ -5724,7 +5733,8 @@ lexicon = listing "Lexicon's properties"
     -- bky     bokay   IV_Ann  mourn
     -- bk      boka    IV_0hwnyn       mourn
 
-    FaCI                      `verb`    {- bakiy-a -}          [ "mourn" ],
+    FaCI                      `verb`    {- bakiy-a -}          [ "mourn" ]
+                              `imperf`     FCY,
 
     -- ;; bak~aY_1
     -- bkY     bak~aY  PV_0    make cry
@@ -5813,7 +5823,9 @@ lexicon = listing "Lexicon's properties"
     -- bwAky   bawAkiy N0_Nh   mourners;weeping
     -- bwAk    bawAk   NK      mourners;weeping
 
-    FACI                      `noun`    {- bAkiy -}            [ "mourner", "weeping", "mourners", "weepers" ],
+    FACI                      `noun`    {- bAkiy -}            [ "mourner", "weeping", "mourners", "weepers" ]
+                              `plural`     FawACI
+                           {- `others`  [ "bawAkiy N0_Nh" ] -},
 
     -- ;; mubak~iy_1
     -- mbky    mubak~iy        N0F_Nh  tearful;lamentable
@@ -6155,7 +6167,7 @@ lexicon = listing "Lexicon's properties"
     -- bky     bokay   IV_Ann  mourn
     -- bk      boka    IV_0hwnyn       mourn
 
-    FaCiL                     `verb`    {- bakiy-a -}          [ "mourn" ]
+    FaCI                      `verb`    {- bakiy-a -}          [ "mourn" ]
                               `imperf`     FCY,
 
     -- ;; bAkiy_1
@@ -6168,8 +6180,9 @@ lexicon = listing "Lexicon's properties"
     -- bwAky   bawAkiy N0_Nh   mourners;weeping
     -- bwAk    bawAk   NK      mourners;weeping
 
-    FACiL                     `noun`    {- bAkiy -}            [ "mourner", "weeping", "mourners", "weepers" ]
+    FACI                      `noun`    {- bAkiy -}            [ "mourner", "weeping", "mourners", "weepers" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "bawAkiy N0_Nh" ] -},
 
     -- ;; mubak~iy_1
@@ -6184,7 +6197,7 @@ lexicon = listing "Lexicon's properties"
     -- mbk     mubok   Nuwn_Niyn       tearful;lamentable
     -- mbky    mubokiy NapAt   tearful;lamentable
 
-    MuFaCCiL                  `noun`    {- mubak~iy -}         [ "tearful", "lamentable" ]
+    MuFaCCI                   `noun`    {- mubak~iy -}         [ "tearful", "lamentable" ]
                               `plural`     MuFCiL |< At
                               `plural`     MuFCI |< At
                            {- `others`  [ "mubkiy N0F_Nh NAn_Nayn" ] -} ]
@@ -7269,7 +7282,8 @@ lexicon = listing "Lexicon's properties"
     -- bly     bolay   IV_Ann  deteriorate
     -- bl      bola    IV_0hwnyn       deteriorate
 
-    FaCI                      `verb`    {- baliy-a -}          [ "deteriorate" ],
+    FaCI                      `verb`    {- baliy-a -}          [ "deteriorate" ]
+                              `imperf`     FCY,
 
     -- ;; bAlaY_1
     -- bAlY    bAlaY   PV_0    care;concern;worry
@@ -7431,7 +7445,7 @@ lexicon = listing "Lexicon's properties"
     -- bly     bolay   IV_Ann  deteriorate
     -- bl      bola    IV_0hwnyn       deteriorate
 
-    FaCiL                     `verb`    {- baliy-a -}          [ "deteriorate" ]
+    FaCI                      `verb`    {- baliy-a -}          [ "deteriorate" ]
                               `imperf`     FCY,
 
     -- ;; baliy~_1
@@ -7453,7 +7467,7 @@ lexicon = listing "Lexicon's properties"
     -- bAl     bAl     Nuwn_Niyn       dilapidated;worn
     -- bAly    bAliy   NapAt   dilapidated;worn
 
-    FACiL                     `noun`    {- bAliy -}            [ "dilapidated", "worn" ],
+    FACI                      `noun`    {- bAliy -}            [ "dilapidated", "worn" ],
 
     -- ;; mubAliy_1
     -- mbAly   mubAliy N0F_Nh  concerned;caring
@@ -7462,7 +7476,7 @@ lexicon = listing "Lexicon's properties"
     -- mbAl    mubAl   Nuwn_Niyn       concerned;caring
     -- mbAly   mubAliy NapAt   concerned;caring
 
-    MuFACiL                   `noun`    {- mubAliy -}          [ "concerned", "caring" ],
+    MuFACI                    `noun`    {- mubAliy -}          [ "concerned", "caring" ],
 
     -- ;; mubotaliy_1
     -- mbtly   mubotaliy       N0_Nh   afflicting;testing;trying
@@ -7471,7 +7485,7 @@ lexicon = listing "Lexicon's properties"
     -- mbtl    mubotal Nuwn_Niyn       afflicting;testing;trying
     -- mbtly   mubotaliy       NapAt   afflicting;testing;trying
 
-    MuFtaCiL                  `noun`    {- mubotaliy -}        [ "afflicting", "testing", "trying" ] ]
+    MuFtaCI                   `noun`    {- mubotaliy -}        [ "afflicting", "testing", "trying" ] ]
 
  |> "b l y n" <| [
 
@@ -7853,8 +7867,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCUL                     `noun`    {- banuwn -}           [ "sons", "children" ]
                               `plural`     FaCIL
+                              `plural`     FaCU
                               `plural`     FaCI
-                           {- `others`  [ "baniyn N", "baniy N0" ] -},
+                           {- `others`  [ "baniyn N", "banuw N0", "baniy N0" ] -},
 
     -- ;; bun~_1
     -- bn      bun~    N       coffee beans
@@ -7936,7 +7951,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; buw_1
     -- bw      buw     Nprop   Bou
 
-    FuL                       `noun`    {- buw -}              [ "Bou" ] ]
+    FU                        `noun`    {- buw -}              [ "Bou" ] ]
 
  |> "b n w r" <| [
 
@@ -7955,7 +7970,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; baniy_1
     -- bny     baniy   FW-WaBi Bani;Beni;Benny     [[baniy/NOUN_PROP]]
 
-    FaCiL                     `noun`    {- baniy -}            [ "Bani", "Beni", "Benny" ],
+    FaCI                      `noun`    {- baniy -}            [ "Bani", "Beni", "Benny" ],
 
     -- ;; baniy_2
     -- bny     baniy   FW-WaBi sons/children of     [[baniy/NOUN]]
@@ -7965,7 +7980,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; baniy_2
     -- bny     baniy   FW-WaBi sons/children of     [[baniy/NOUN]]
 
-    FaCiL                     `noun`    {- baniy -}            [ "sons/children of" ],
+    FaCI                      `noun`    {- baniy -}            [ "sons/children of" ],
 
     -- ;; bunay~_1
     -- bny     bunay~  N       little son
@@ -8146,7 +8161,7 @@ lexicon = listing "Lexicon's properties"
     -- bAny    bAniy   NapAt   building;builder
     -- bnA     bunA    Nap     builders
 
-    FACiL                     `noun`    {- bAniy -}            [ "building", "builder", "builders" ],
+    FACI                      `noun`    {- bAniy -}            [ "building", "builder", "builders" ],
 
     -- ;; buwniy_1
     -- bwny    buwniy  Nprop   Boni
@@ -8505,7 +8520,8 @@ lexicon = listing "Lexicon's properties"
     -- bqy     boqay   IV_Ann  remain;last
     -- bq      boqa    IV_0hwnyn       remain;last
 
-    FaCI                      `verb`    {- baqiy-a -}          [ "remain", "last" ],
+    FaCI                      `verb`    {- baqiy-a -}          [ "remain", "last" ]
+                              `imperf`     FCY,
 
     -- ;; baqiy-a_1
     -- bqy     baqiy   PV_no-w remain;last
@@ -8514,7 +8530,7 @@ lexicon = listing "Lexicon's properties"
     -- bqy     boqay   IV_Ann  remain;last
     -- bq      boqa    IV_0hwnyn       remain;last
 
-    FaCiL                     `verb`    {- baqiy-a -}          [ "remain", "last" ]
+    FaCI                      `verb`    {- baqiy-a -}          [ "remain", "last" ]
                               `imperf`     FCY,
 
     -- ;; >aboqaY_1
@@ -8619,12 +8635,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAqiy_1
     -- bAqy    bAqiy   N0      Baqi
 
-    FACiL                     `noun`    {- bAqiy -}            [ "Baqi" ],
+    FACI                      `noun`    {- bAqiy -}            [ "Baqi" ],
 
     -- ;; bawAqiy_1
     -- bwAqy   bawAqiy N0      Bawaqi
 
-    FawACiL                   `noun`    {- bawAqiy -}          [ "Bawaqi" ],
+    FawACI                    `noun`    {- bawAqiy -}          [ "Bawaqi" ],
+
+    -- ;; bawAqiy_1
+    -- bwAqy   bawAqiy N0      Bawaqi
+
+    FawACI                    `noun`    {- bawAqiy -}          [ "Bawaqi" ],
 
     -- ;; bAqiy_2
     -- bAqy    bAqiy   N0F_Nh  remaining
@@ -8642,7 +8663,7 @@ lexicon = listing "Lexicon's properties"
     -- bAq     bAq     Nuwn_Niyn       remaining
     -- bAqy    bAqiy   NapAt   remaining
 
-    FACiL                     `noun`    {- bAqiy -}            [ "remaining" ],
+    FACI                      `noun`    {- bAqiy -}            [ "remaining" ],
 
     -- ;; mutabaq~iy_1
     -- mtbqy   mutabaq~iy      N0F_Nh  residue;remnant
@@ -8660,7 +8681,7 @@ lexicon = listing "Lexicon's properties"
     -- mtbq    mutabaq~        Nuwn_Niyn       residue;remnant
     -- mtbqy   mutabaq~iy      NapAt   residue;remnant
 
-    MutaFaCCiL                `noun`    {- mutabaq~iy -}       [ "residue", "remnant" ] ]
+    MutaFaCCI                 `noun`    {- mutabaq~iy -}       [ "residue", "remnant" ] ]
 
  |> "b r '" <| [
 
@@ -10449,7 +10470,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAriy_2
     -- bAry    bAriy   Nprop   Paris
 
-    FACiL                     `noun`    {- bAriy -}            [ "Paris" ],
+    FACI                      `noun`    {- bAriy -}            [ "Paris" ],
 
     -- ;; >aboriyA'_1
     -- >bryA'  >aboriyA'       N0_Nh   innocent;exempt
@@ -10584,7 +10605,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; bAriy_1
     -- bAry    bAriy   N0      Bari;Bary
 
-    FACiL                     `noun`    {- bAriy -}            [ "Bari", "Bary" ],
+    FACI                      `noun`    {- bAriy -}            [ "Bari", "Bary" ],
 
     -- ;; mutabAriy_1
     -- mtbAry  mutabAriy       N0F_Nh  participant;competitor
@@ -10593,7 +10614,7 @@ lexicon = listing "Lexicon's properties"
     -- mtbAr   mutabAr Nuwn_Niyn       participant;competitor
     -- mtbAry  mutabAriy       NapAt   participant;competitor
 
-    MutaFACiL                 `noun`    {- mutabAriy -}        [ "participant", "competitor" ],
+    MutaFACI                  `noun`    {- mutabAriy -}        [ "participant", "competitor" ],
 
     -- ;; buwriy_1
     -- bwry    buwriy  N/At    bugle;signal horn
@@ -11552,7 +11573,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCL |< Iy |< aT          `noun`    {- bit~iy~ap -}        [ "barrel", "tub", "barrels", "tubs" ]
                               `plural`     FaCAL
-                           {- `others`  [ "batAt NK" ] -},
+                              `plural`     FaCACI
+                           {- `others`  [ "batAt NK", "batAtiy N0_Nh" ] -},
 
     -- ;; tabotiyt_1
     -- tbtyt   tabotiyt        NduAt   adjudication;award
@@ -13471,8 +13493,9 @@ lexicon = listing "Lexicon's properties"
     -- bwAzy   bawAziy N0_Nh   falcons
     -- bwAz    bawAz   NK      falcons
 
-    FACiL                     `noun`    {- bAziy -}            [ "falcon", "falcons" ]
+    FACI                      `noun`    {- bAziy -}            [ "falcon", "falcons" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "bawAziy N0_Nh" ] -},
 
     -- ;; bAziy_1
@@ -13484,6 +13507,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- bAziy -}            [ "falcon", "falcons" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "bawAziy N0_Nh" ] -} ]
 
  |> "b z z" <| [

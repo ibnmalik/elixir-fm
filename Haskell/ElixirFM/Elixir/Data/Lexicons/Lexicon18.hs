@@ -182,13 +182,13 @@ lexicon = listing "Lexicon's properties"
 
     FiCLAn                    `noun`    {- EiSoyAn -}          [ "mutiny", "insubordination" ],
 
-    FACiL                     `adj`     {- EASiy -}            [ "rebellious", "insubordinate" ],
+    FACI                      `adj`     {- EASiy -}            [ "rebellious", "insubordinate" ],
 
-    FACiL                     `noun`    {- EASiy -}            [ "Orontes" ],
+    FACI                      `noun`    {- EASiy -}            [ "Orontes" ],
 
-    FACiL                     `noun`    {- EASiy -}            [ "Assi" ],
+    FACI                      `noun`    {- EASiy -}            [ "Assi" ],
 
-    MustaFCiL                 `adj`     {- musotaEoSiy -}      [ "difficult", "incurable" ] ]
+    MustaFCI                  `adj`     {- musotaEoSiy -}      [ "difficult", "incurable" ] ]
 
  |> "` .t '" <| [
 
@@ -297,7 +297,7 @@ lexicon = listing "Lexicon's properties"
 
     TaFACI                    `noun`    {- taEATiy -}          [ "pursuit", "practice", "addiction" ],
 
-    MuFCiL                    `noun`    {- muEoTiy -}          [ "donor", "giving" ],
+    MuFCI                     `noun`    {- muEoTiy -}          [ "donor", "giving" ],
 
     MuFCY                     `noun`    {- muEoTaY -}          [ "given" ]
                               `plural`     MuFCaL
@@ -867,7 +867,9 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCA'                   `noun`    {- AiEotidA' -}        [ "attack", "aggression", "assault", "attacks", "assaults" ],
 
-    FACI |< aT                `noun`    {- EAdiyap -}          [ "adversity", "impediment", "adversities", "impediments" ],
+    FACI |< aT                `noun`    {- EAdiyap -}          [ "adversity", "impediment", "adversities", "impediments" ]
+                              `plural`     FawACI
+                           {- `others`  [ "`awAdiy N0_Nh" ] -},
 
     MuFACI                    `adj`     {- muEAdiy -}          [ "hostile", "anti-" ],
 
@@ -877,17 +879,18 @@ lexicon = listing "Lexicon's properties"
 
  |> "` d y" <| [
 
-    MaFCiL |< aT              `noun`    {- maEodiyap -}        [ "ferryboat", "shuttle" ],
+    MaFCI |< aT               `noun`    {- maEodiyap -}        [ "ferryboat", "shuttle" ],
 
-    MaFACiL                   `noun`    {- maEAdiy -}          [ "Maadi (Cairo)" ],
+    MaFACI                    `noun`    {- maEAdiy -}          [ "Maadi (Cairo)" ],
 
-    FACiL |< aT               `noun`    {- EAdiyap -}          [ "adversity", "impediment", "adversities", "impediments" ]
+    FACI |< aT                `noun`    {- EAdiyap -}          [ "adversity", "impediment", "adversities", "impediments" ]
                               `plural`     FawACiL
+                              `plural`     FawACI
                            {- `others`  [ "`awAdiy N0_Nh" ] -},
 
-    MuFACiL                   `adj`     {- muEAdiy -}          [ "hostile", "anti-" ],
+    MuFACI                    `adj`     {- muEAdiy -}          [ "hostile", "anti-" ],
 
-    MuFCiL                    `adj`     {- muEodiy -}          [ "contagious", "infectious" ] ]
+    MuFCI                     `adj`     {- muEodiy -}          [ "contagious", "infectious" ] ]
 
  |> "` f '" <| [
 
@@ -947,7 +950,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "` f y" <| [
 
-    FACiL |< aT               `noun`    {- EAfiyap -}          [ "good health" ] ]
+    FACI |< aT                `noun`    {- EAfiyap -}          [ "good health" ] ]
 
  |> "` h d" <| [
 
@@ -1237,9 +1240,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- Ealiy~ -}           [ "Ali" ],
 
-    FACiL                     `adj`     {- EAliy -}            [ "high", "elevated" ],
+    FACI                      `adj`     {- EAliy -}            [ "high", "elevated" ],
 
-    MutaFACiL                 `adj`     {- mutaEAliy -}        [ "high", "exalted" ] ]
+    MutaFACI                  `adj`     {- mutaEAliy -}        [ "high", "exalted" ] ]
 
  |> "` m d" <| [
 
@@ -1496,7 +1499,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- EAmiy -}            [ "Ami" ],
 
-    FACiL                     `noun`    {- EAmiy -}            [ "Ami" ],
+    FACI                      `noun`    {- EAmiy -}            [ "Ami" ],
 
     HaFCY                     `verb`    {- OaEomaY -}          [ "make blind", "be blinded" ],
 
@@ -1508,7 +1511,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCLAn
                            {- `others`  [ "'a`may NAn_Nayn", "`amyA' Nh N0_Nh Nhy", "`umyAn N" ] -},
 
-    TaFCiL |< aT              `noun`    {- taEomiyap -}        [ "camouflage" ] ]
+    TaFCI |< aT               `noun`    {- taEomiyap -}        [ "camouflage" ] ]
 
  |> "` n '" <| [
 
@@ -2086,7 +2089,7 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCI                   `noun`    {- taEar~iy -}         [ "nudity" ],
 
-    FACiL                     `adj`     {- EAriy -}            [ "naked", "bare" ] ]
+    FACI                      `adj`     {- EAriy -}            [ "naked", "bare" ] ]
 
  |> "` s f" <| [
 
@@ -2369,9 +2372,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "` w y" <| [
 
-    MuFACiL |< aT             `noun`    {- muEAwiyap -}        [ "Mu'awiya" ],
+    MuFACI |< aT              `noun`    {- muEAwiyap -}        [ "Mu'awiya" ],
 
-    MuFACiL |< aT             `noun`    {- muEAwiyap -}        [ "dog (bitch)" ] ]
+    MuFACI |< aT              `noun`    {- muEAwiyap -}        [ "dog (bitch)" ] ]
 
  |> "` w z" <| [
 
@@ -2609,11 +2612,15 @@ lexicon = listing "Lexicon's properties"
 
     FaCCY                     `verb`    {- Eaz~aY -}           [ "console", "offer condolences", "be consoled", "be offered condolences" ],
 
-    FaCA'                     `noun`    {- EazA' -}            [ "consolation", "mourning" ] ]
+    FaCA'                     `noun`    {- EazA' -}            [ "consolation", "mourning" ],
+
+    TaFCI |< aT               `noun`    {- taEoziyap -}        [ "condolence", "mourning", "condolences" ]
+                              `plural`     TaFACI
+                           {- `others`  [ "ta`Aziy N0_Nh" ] -} ]
 
  |> "` z y" <| [
 
-    TaFCiL |< aT              `noun`    {- taEoziyap -}        [ "condolence", "mourning", "condolences" ]
+    TaFCI |< aT               `noun`    {- taEoziyap -}        [ "condolence", "mourning", "condolences" ]
                               `plural`     TaFACI
                            {- `others`  [ "ta`Aziy N0_Nh" ] -} ]
 

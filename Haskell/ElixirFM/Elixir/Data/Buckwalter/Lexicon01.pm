@@ -501,7 +501,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'TaFCiL |< aT',
+      'morphs' => 'TaFCI |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'accomplishment',
@@ -535,7 +535,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFaCCiL',
+      'morphs' => 'MuFaCCI',
       'suffix' => '',
       'glosses' => [
         'leading',
@@ -2341,6 +2341,9 @@ $Lexicon = {
         '\'abiy' => [
           'FaCI'
         ],
+        '\'abuw' => [
+          'FaCU'
+        ],
         '\'abA' => [
           'FaCA'
         ]
@@ -2657,6 +2660,9 @@ $Lexicon = {
       'patterns' => {
         '\'a_hiy' => [
           'FaCI'
+        ],
+        '\'a_huw' => [
+          'FaCU'
         ],
         '\'a_hA' => [
           'FaCA'
@@ -5559,7 +5565,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'HACiL |< aT',
+      'morphs' => 'HACI |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'attachment',
@@ -5576,7 +5582,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL |< aT',
+      'morphs' => 'FACI |< aT',
       'suffix' => ' |< aT',
       'glosses' => [],
       'orig' => '|xiyap',
@@ -5603,7 +5609,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FawACiL',
+      'morphs' => 'FawACI',
       'suffix' => '',
       'glosses' => [
         'ties',
@@ -23181,7 +23187,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCiL',
+      'morphs' => 'FaCI',
       'glosses' => [
         'suffer damage'
       ],
@@ -23242,7 +23248,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFCiL',
+      'morphs' => 'MuFCI',
       'suffix' => '',
       'glosses' => [
         'harmful',
@@ -29101,7 +29107,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCiL',
+      'morphs' => 'FaCI',
       'glosses' => [
         'be sad',
         'grieve'
@@ -29143,7 +29149,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'HACiL',
+      'morphs' => 'HACI',
       'suffix' => '',
       'glosses' => [
         'afflicted',
@@ -29160,7 +29166,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [],
       'orig' => '|siy',
@@ -29196,7 +29202,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'TaFCiL |< aT',
+      'morphs' => 'TaFCI |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'consolation',
@@ -29230,7 +29236,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFACiL',
+      'morphs' => 'MuFACI',
       'suffix' => '',
       'glosses' => [
         'comforting',
@@ -29264,7 +29270,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFCiL',
+      'morphs' => 'MuFCI',
       'suffix' => '',
       'glosses' => [
         'saddening',
@@ -31383,7 +31389,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCuL',
+      'morphs' => 'FuCU',
       'suffix' => '',
       'glosses' => [
         'those'
@@ -35214,7 +35220,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCuL',
+      'morphs' => 'FaCU',
       'suffix' => '',
       'glosses' => [
         'Abu'
@@ -35515,7 +35521,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MutaFaCCiL',
+      'morphs' => 'MutaFaCCI',
       'suffix' => '',
       'glosses' => [
         'circumspect',
@@ -37713,7 +37719,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [
         'coming',
@@ -37797,7 +37803,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFACiL',
+      'morphs' => 'MuFACI',
       'suffix' => '',
       'glosses' => [
         'favorable',
@@ -37831,7 +37837,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MutaFaCCiL',
+      'morphs' => 'MutaFaCCI',
       'suffix' => '',
       'glosses' => [
         'derived',
@@ -37872,7 +37878,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'HUCiL',
+      'morphs' => 'HUCI',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'Ouwtiy',
@@ -43501,6 +43507,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => 'ta\'siy',
+      'form' => 'ta\'siyaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'taOosiyap',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'mu\'Asaw' => {
           'NAt' => 1
@@ -45881,7 +45901,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCiL',
+      'morphs' => 'FaCI',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'Oafiy',
@@ -47081,6 +47101,20 @@ $Lexicon = {
         'fraternization'
       ],
       'orig' => 'muWAxAp',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'awA_hiy',
+      'form' => '\'awA_hiy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FawACI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'OawAxiy',
       'prefix' => ''
     }
   ],
@@ -48434,7 +48468,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'TaFCiL |< aT',
+      'morphs' => 'TaFCI |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'automation',
@@ -48576,6 +48610,20 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => '|lA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'uluw',
+      'form' => '\'uluw',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCU',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'Ouluw',
       'prefix' => ''
     }
   ],
@@ -49627,7 +49675,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCiL',
+      'morphs' => 'FaCI',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'Oabiy',
@@ -49836,7 +49884,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FACiL',
+      'morphs' => 'FACI',
       'suffix' => '',
       'glosses' => [
         'reluctant',
@@ -53849,6 +53897,9 @@ $Lexicon = {
         'AwAn    >awAn   NK      vessels;containers;receptacles'
       ],
       'patterns' => {
+        '\'awAniy' => [
+          'FawACI'
+        ],
         '\'Aniy' => [
           'HACI',
           'FACI'
@@ -59884,12 +59935,15 @@ $Lexicon->{'\' s w'}[10]{'glosses'} = $Lexicon->{'\' s y'}[1]{'glosses'};
 $Lexicon->{'\' s w'}[11]{'types'} = $Lexicon->{'\' s y'}[1]{'types'};
 $Lexicon->{'\' s w'}[11]{'lines'} = $Lexicon->{'\' s y'}[1]{'lines'};
 $Lexicon->{'\' s w'}[11]{'glosses'} = $Lexicon->{'\' s y'}[1]{'glosses'};
-$Lexicon->{'\' s w'}[17]{'types'} = $Lexicon->{'\' s y'}[5]{'types'};
-$Lexicon->{'\' s w'}[17]{'lines'} = $Lexicon->{'\' s y'}[5]{'lines'};
-$Lexicon->{'\' s w'}[17]{'glosses'} = $Lexicon->{'\' s y'}[5]{'glosses'};
-$Lexicon->{'\' s w'}[18]{'types'} = $Lexicon->{'\' s y'}[6]{'types'};
-$Lexicon->{'\' s w'}[18]{'lines'} = $Lexicon->{'\' s y'}[6]{'lines'};
-$Lexicon->{'\' s w'}[18]{'glosses'} = $Lexicon->{'\' s y'}[6]{'glosses'};
+$Lexicon->{'\' s w'}[16]{'types'} = $Lexicon->{'\' s y'}[4]{'types'};
+$Lexicon->{'\' s w'}[16]{'lines'} = $Lexicon->{'\' s y'}[4]{'lines'};
+$Lexicon->{'\' s w'}[16]{'glosses'} = $Lexicon->{'\' s y'}[4]{'glosses'};
+$Lexicon->{'\' s w'}[18]{'types'} = $Lexicon->{'\' s y'}[5]{'types'};
+$Lexicon->{'\' s w'}[18]{'lines'} = $Lexicon->{'\' s y'}[5]{'lines'};
+$Lexicon->{'\' s w'}[18]{'glosses'} = $Lexicon->{'\' s y'}[5]{'glosses'};
+$Lexicon->{'\' s w'}[19]{'types'} = $Lexicon->{'\' s y'}[6]{'types'};
+$Lexicon->{'\' s w'}[19]{'lines'} = $Lexicon->{'\' s y'}[6]{'lines'};
+$Lexicon->{'\' s w'}[19]{'glosses'} = $Lexicon->{'\' s y'}[6]{'glosses'};
 $Lexicon->{'\' d \''}[0]{'types'} = $Lexicon->{'\' d y'}[3]{'types'};
 $Lexicon->{'\' d \''}[0]{'lines'} = $Lexicon->{'\' d y'}[3]{'lines'};
 $Lexicon->{'\' d \''}[0]{'glosses'} = $Lexicon->{'\' d y'}[3]{'glosses'};
@@ -59923,9 +59977,15 @@ $Lexicon->{'\' _h w'}[10]{'glosses'} = $Lexicon->{'\' _h \''}[0]{'glosses'};
 $Lexicon->{'\' _h w'}[11]{'types'} = $Lexicon->{'\' _h \''}[1]{'types'};
 $Lexicon->{'\' _h w'}[11]{'lines'} = $Lexicon->{'\' _h \''}[1]{'lines'};
 $Lexicon->{'\' _h w'}[11]{'glosses'} = $Lexicon->{'\' _h \''}[1]{'glosses'};
+$Lexicon->{'\' _h w'}[15]{'types'} = $Lexicon->{'\' _h y'}[2]{'types'};
+$Lexicon->{'\' _h w'}[15]{'lines'} = $Lexicon->{'\' _h y'}[2]{'lines'};
+$Lexicon->{'\' _h w'}[15]{'glosses'} = $Lexicon->{'\' _h y'}[2]{'glosses'};
 $Lexicon->{'\' l y'}[6]{'types'} = $Lexicon->{'\' l \''}[2]{'types'};
 $Lexicon->{'\' l y'}[6]{'lines'} = $Lexicon->{'\' l \''}[2]{'lines'};
 $Lexicon->{'\' l y'}[6]{'glosses'} = $Lexicon->{'\' l \''}[2]{'glosses'};
+$Lexicon->{'\' l y'}[7]{'types'} = $Lexicon->{'\' l w'}[5]{'types'};
+$Lexicon->{'\' l y'}[7]{'lines'} = $Lexicon->{'\' l w'}[5]{'lines'};
+$Lexicon->{'\' l y'}[7]{'glosses'} = $Lexicon->{'\' l w'}[5]{'glosses'};
 $Lexicon->{'\' y b'}[2]{'types'} = $Lexicon->{'\' y b'}[1]{'types'};
 $Lexicon->{'\' y b'}[2]{'lines'} = $Lexicon->{'\' y b'}[1]{'lines'};
 $Lexicon->{'\' y b'}[2]{'glosses'} = $Lexicon->{'\' y b'}[1]{'glosses'};
