@@ -439,7 +439,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "z w m" <| [
 
-    FuCL                      `noun`    {- zuwm -}             [ "juice", "sap" ]
+    FUL                       `noun`    {- zuwm -}             [ "juice", "sap" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'azwAm N" ] -} ]
 
@@ -449,14 +449,13 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
-    FuCL                      `noun`    {- zuwr -}             [ "lie", "falsehood", "force" ],
+    FUL                       `noun`    {- zuwr -}             [ "lie", "falsehood", "force" ],
 
     MaFAL                     `noun`    {- mazAr -}            [ "visit place", "shrine", "sanctuary" ],
 
     TaFCIL                    `noun`    {- tazowiyr -}         [ "forgery", "falsification" ],
 
     FA'iL                     `noun`    {- zA}ir -}            [ "visitor", "tourist", "visitors", "tourists" ]
-                              `plural`     FuCCAL
                               `plural`     FUCAL
                            {- `others`  [ "zuwwAr N" ] -},
 
@@ -484,9 +483,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "z y ^g" <| [
 
-    FiCL |< aT                `noun`    {- ziyjap -}           [ "marriage", "marriages" ]
-                              `plural`     FIL |< At
-                              `plural`     FiCL |< At ]
+    FIL |< aT                 `noun`    {- ziyjap -}           [ "marriage", "marriages" ]
+                              `plural`     FIL |< At ]
 
  |> "z y d" <| [
 
@@ -554,7 +552,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- zayon -}            [ "beauty" ],
 
-    FiCL |< aT                `noun`    {- ziynap -}           [ "embellishment", "decoration" ],
+    FIL |< aT                 `noun`    {- ziynap -}           [ "embellishment", "decoration" ],
 
     TaFCIL                    `noun`    {- tazoyiyn -}         [ "ornamentation", "embellishment" ] ]
 
@@ -578,7 +576,7 @@ lexicon = listing "Lexicon's properties"
 
     FIL                       `noun`    {- ziy~ -}             [ "uniform", "clothing" ],
 
-    FiCL                      `noun`    {- ziy~ -}             [ "uniform", "clothing" ],
+    FIL                       `noun`    {- ziy~ -}             [ "uniform", "clothing" ],
 
     HaFCA'                    `noun`    {- OazoyA' -}          [ "fashion", "clothes", "uniforms" ],
 

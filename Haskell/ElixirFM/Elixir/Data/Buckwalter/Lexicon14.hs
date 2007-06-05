@@ -60,7 +60,8 @@ lexicon = listing "Lexicon's properties"
     FuCAL |< aT               `noun`    {- SuWAbap -}          [ "nit", "louse egg", "nits", "lice eggs" ]
                               `plural`     FiCLAn
                               `plural`     FuCAL
-                           {- `others`  [ ".si'bAn N", ".su'Ab N" ] -},
+                              `plural`     FILAn
+                           {- `others`  [ ".si'bAn N", ".su'Ab N", ".siybAn N" ] -},
 
     -- ;; SAbAt_1
     -- SAbAt   SAbAt   N0      Sabat
@@ -740,7 +741,13 @@ lexicon = listing "Lexicon's properties"
     -- SHAry   SaHAriy N0_Nh   deserts
     -- SHAr    SaHAr   NK      deserts
 
-    KaRADiS                   `noun`    {- SaHAriy -}          [ "deserts" ] ]
+    KaRADI                    `noun`    {- SaHAriy -}          [ "deserts" ],
+
+    -- ;; SaHAriy_1
+    -- SHAry   SaHAriy N0_Nh   deserts
+    -- SHAr    SaHAr   NK      deserts
+
+    KaRADI                    `noun`    {- SaHAriy -}          [ "deserts" ] ]
 
  |> ".s .h w" <| [
 
@@ -1890,7 +1897,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; Saboriy_1
     -- Sbry    Saboriy Nprop   Sabri;Sabry
 
-    KaRDiS                    `noun`    {- Saboriy -}          [ "Sabri", "Sabry" ] ]
+    KaRDI                     `noun`    {- Saboriy -}          [ "Sabri", "Sabry" ],
+
+    -- ;; Saboriy_1
+    -- Sbry    Saboriy Nprop   Sabri;Sabry
+
+    KaRDI                     `noun`    {- Saboriy -}          [ "Sabri", "Sabry" ] ]
 
  |> ".s b w" <| [
 
@@ -2022,7 +2034,6 @@ lexicon = listing "Lexicon's properties"
     -- ASby    >aSobiy Nap     young boys;youths
 
     FaCIL                     `noun`    {- Sabiy~ -}           [ "young boy", "youth", "young boys", "youths" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT
                               `plural`     FiCL |< aT
                               `plural`     FiCLAn
@@ -2631,7 +2642,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; Sidoqiy_1
     -- Sdqy    Sidoqiy Nprop   Sidqi;Sidqy
 
-    KiRDiS                    `noun`    {- Sidoqiy -}          [ "Sidqi", "Sidqy" ] ]
+    KiRDI                     `noun`    {- Sidoqiy -}          [ "Sidqi", "Sidqy" ],
+
+    -- ;; Sidoqiy_1
+    -- Sdqy    Sidoqiy Nprop   Sidqi;Sidqy
+
+    KiRDI                     `noun`    {- Sidoqiy -}          [ "Sidqi", "Sidqy" ] ]
 
  |> ".s d r" <| [
 
@@ -5547,7 +5563,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; Sanodiy_1
     -- Sndy    Sanodiy Nprop   Sandy
 
-    KaRDiS                    `noun`    {- Sanodiy -}          [ "Sandy" ] ]
+    KaRDI                     `noun`    {- Sanodiy -}          [ "Sandy" ],
+
+    -- ;; Sanodiy_1
+    -- Sndy    Sanodiy Nprop   Sandy
+
+    KaRDI                     `noun`    {- Sanodiy -}          [ "Sandy" ] ]
 
  |> ".s n f" <| [
 
@@ -6480,7 +6501,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; SarAmiy_1
     -- SrAmy   SarAmiy N       shoes
 
-    KaRADiS                   `noun`    {- SarAmiy -}          [ "shoes" ] ]
+    KaRADI                    `noun`    {- SarAmiy -}          [ "shoes" ],
+
+    -- ;; SarAmiy_1
+    -- SrAmy   SarAmiy N       shoes
+
+    KaRADI                    `noun`    {- SarAmiy -}          [ "shoes" ] ]
 
  |> ".s r r" <| [
 
@@ -6547,7 +6573,6 @@ lexicon = listing "Lexicon's properties"
     -- SwAr    SawAr   NK      masts;poles
 
     FACI                      `noun`    {- SAriy -}            [ "mast", "pole", "masts", "poles" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ ".sawAriy N0_Nh" ] -} ]
 
@@ -6577,7 +6602,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; SuwyA_1
     -- SwyA    SuwyA   N0      soya
 
-    FuCyA                     `noun`    {- SuwyA -}            [ "soya" ] ]
+    FUyA                      `noun`    {- SuwyA -}            [ "soya" ],
+
+    -- ;; SuwyA_1
+    -- SwyA    SuwyA   N0      soya
+
+    FUyA                      `noun`    {- SuwyA -}            [ "soya" ] ]
 
  |> ".s w .g" <| [
 
@@ -6614,7 +6644,6 @@ lexicon = listing "Lexicon's properties"
     -- SyAg    Suy~Ag  N       jewelers
 
     FA'iL                     `noun`    {- SA}ig -}            [ "jeweler", "jewelers" ]
-                              `plural`     FuCCAL
                               `plural`     FUCAL
                               `plural`     FAL |< aT
                            {- `others`  [ ".suwwA.g N" ] -},
@@ -6660,7 +6689,22 @@ lexicon = listing "Lexicon's properties"
     -- SwS     SuwS    Ndu     chick
     -- SySAn   SiySAn  N       chicks
 
-    FuCL                      `noun`    {- SuwS -}             [ "chick", "chicks" ] ]
+    FUL                       `noun`    {- SuwS -}             [ "chick", "chicks" ]
+                              `plural`     FILAn
+                           {- `others`  [ ".siy.sAn N" ] -} ]
+
+ |> ".s w .s y" <| [
+
+    -- ;; SawoSaY_1
+    -- SwSY    SawoSaY PV_0    squeak;cheep
+    -- SwSA    SawoSA  PV_h    squeak;cheep
+    -- SwSy    SawoSay PV_Atn  squeak;cheep
+    -- SwS     SawoSa  PV_ttAw squeak;cheep
+    -- SwSy    SawoSiy IV_0hAnn_yu     squeak;cheep
+    -- SwS     SawoS   IV_0hwnyn       squeak;cheep
+    -- SwSY    SawoSaY IV_0    squeak;cheep
+
+    KaRDY                     `verb`    {- SawoSaY -}          [ "squeak", "cheep" ] ]
 
  |> ".s w ^g" <| [
 
@@ -6890,7 +6934,7 @@ lexicon = listing "Lexicon's properties"
     -- >SwAf   >aSowAf N       wool
     -- ASwAf   >aSowAf N       wool
 
-    FuCL                      `noun`    {- Suwf -}             [ "wool" ]
+    FUL                       `noun`    {- Suwf -}             [ "wool" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.swAf N" ] -},
 
@@ -6898,17 +6942,17 @@ lexicon = listing "Lexicon's properties"
     -- Swfy    Suwfiy~ Nall    Sufi;Muslim mystic     [[Suwfiy~/NOUN]]
     -- Swfy    Suwfiy~ Nall    Sufi;Muslim mystic     [[Suwfiy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- Suwfiy~ -}          [ "Sufi", "Muslim mystic" ],
+    FUL |< Iy                 `adj`     {- Suwfiy~ -}          [ "Sufi", "Muslim mystic" ],
 
     -- ;; Suwfiy~_2
     -- Swfy    Suwfiy~ N-ap    woolen     [[Suwfiy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- Suwfiy~ -}          [ "woolen" ],
+    FUL |< Iy                 `adj`     {- Suwfiy~ -}          [ "woolen" ],
 
     -- ;; Suwfiy~ap_1
     -- Swfy    Suwfiy~ Nap     Sufism;Islamic mysticism     [[Suwfiy~/NOUN]]
 
-    FuCL |< Iy |< aT          `noun`    {- Suwfiy~ap -}        [ "Sufism", "Islamic mysticism" ],
+    FUL |< Iy |< aT           `noun`    {- Suwfiy~ap -}        [ "Sufism", "Islamic mysticism" ],
 
     -- ;; >aSowaf_1
     -- >Swf    >aSowaf Nel     woolen     [[>aSowaf/ADJ]]
@@ -6924,7 +6968,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; SuwfAn_1
     -- SwfAn   SuwfAn  N-ap    touchwood;tinder
 
-    FuCLAn                    `noun`    {- SuwfAn -}           [ "touchwood", "tinder" ],
+    FULAn                     `noun`    {- SuwfAn -}           [ "touchwood", "tinder" ],
 
     -- ;; Saw~Af_1
     -- SwAf    Saw~Af  N       wool merchant
@@ -6998,7 +7042,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Suwl_1
     -- Swl     Suwl    N       sergeant;warrant officer
 
-    FuCL                      `noun`    {- Suwl -}             [ "sergeant", "warrant officer" ] ]
+    FUL                       `noun`    {- Suwl -}             [ "sergeant", "warrant officer" ] ]
 
  |> ".s w m" <| [
 
@@ -7023,9 +7067,7 @@ lexicon = listing "Lexicon's properties"
     -- Sym     Suy~am  N       fasting;abstinent
     -- SyAm    SiyAm   N       fasting;abstinent
 
-    FA'iL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ]
-                              `plural`     FuCCaL
-                           {- `others`  [ ".suwwam N" ] -} ]
+    FA'iL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ] ]
 
  |> ".s w m `" <| [
 
@@ -7132,20 +7174,20 @@ lexicon = listing "Lexicon's properties"
     -- ;; Suwr_1
     -- Swr     Suwr    N0      Tyre
 
-    FuCL                      `noun`    {- Suwr -}             [ "Tyre" ],
+    FUL                       `noun`    {- Suwr -}             [ "Tyre" ],
 
     -- ;; Suwrap_1
     -- Swr     Suwr    Napdu   picture;image;illustration;photo
     -- Swr     Suwar   N       pictures;photographs;illustrations;photos
 
-    FuCL |< aT                `noun`    {- Suwrap -}           [ "picture", "image", "illustration", "photo", "pictures", "photographs", "illustrations", "photos" ]
+    FUL |< aT                 `noun`    {- Suwrap -}           [ "picture", "image", "illustration", "photo", "pictures", "photographs", "illustrations", "photos" ]
                               `plural`     FuCaL
                            {- `others`  [ ".suwar N" ] -},
 
     -- ;; Suwrap_2
     -- Swr     Suwr    Nap     manner;way;form
 
-    FuCL |< aT                `noun`    {- Suwrap -}           [ "manner", "way", "form" ],
+    FUL |< aT                 `noun`    {- Suwrap -}           [ "manner", "way", "form" ],
 
     -- ;; Suwariy~_1
     -- Swry    Suwariy~        N-ap    formal     [[Suwariy~/ADJ]]
@@ -7320,7 +7362,7 @@ lexicon = listing "Lexicon's properties"
     -- Sw      Suw~    Napdu   landmark;road sign
     -- Swy     Suway   N       landmarks;road signs
 
-    FuCL |< aT                `noun`    {- Suw~ap -}           [ "landmark", "road sign", "landmarks", "road signs" ] ]
+    FUL |< aT                 `noun`    {- Suw~ap -}           [ "landmark", "road sign", "landmarks", "road signs" ] ]
 
  |> ".s y .g" <| [
 
@@ -7328,7 +7370,7 @@ lexicon = listing "Lexicon's properties"
     -- Syg     Siyg    Nap     form;shape;formula
     -- Syg     Siyag   N       forms;shapes;formulas
 
-    FiCL |< aT                `noun`    {- Siygap -}           [ "form", "shape", "formula", "forms", "shapes", "formulas" ]
+    FIL |< aT                 `noun`    {- Siygap -}           [ "form", "shape", "formula", "forms", "shapes", "formulas" ]
                               `plural`     FiCaL
                            {- `others`  [ ".siya.g N" ] -},
 
@@ -7404,14 +7446,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; SiySap_1
     -- SyS     SiyS    Napdu   spur
 
-    FiCL |< aT                `noun`    {- SiySap -}           [ "spur" ],
+    FIL |< aT                 `noun`    {- SiySap -}           [ "spur" ],
 
     -- ;; SiySiy~ap_1
     -- SySy    SiySiy~ NapAt   spur     [[SiySiy~/NOUN]]
     -- SyASy   SayASiy N0_Nh   spurs
     -- SyAS    SayAS   NK      spurs
 
-    FiCL |< Iy |< aT          `noun`    {- SiySiy~ap -}        [ "spur", "spurs" ]
+    FIL |< Iy |< aT           `noun`    {- SiySiy~ap -}        [ "spur", "spurs" ]
                               `plural`     FaCAL
                            {- `others`  [ ".sayA.s NK" ] -} ]
 
@@ -7434,7 +7476,7 @@ lexicon = listing "Lexicon's properties"
     -- mSyb    muSiyb  NapAt   accident;misfortune
     -- mSA}b   maSA}ib Ndip    accidents;misfortunes
 
-    MuFiCL |< aT              `noun`    {- muSiybap -}         [ "accident", "misfortune", "accidents", "misfortunes" ]
+    MuFIL |< aT               `noun`    {- muSiybap -}         [ "accident", "misfortune", "accidents", "misfortunes" ]
                               `plural`     MaFA'iL
                            {- `others`  [ "ma.sA'ib Ndip" ] -} ]
 
@@ -7644,19 +7686,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; Siyn_1
     -- Syn     Siyn    N       China
 
-    FiCL                      `noun`    {- Siyn -}             [ "China" ],
+    FIL                       `noun`    {- Siyn -}             [ "China" ],
 
     -- ;; Siyniy~_1
     -- Syny    Siyniy~ Nall    Chinese     [[Siyniy~/NOUN]]
     -- Syny    Siyniy~ Nall    Chinese     [[Siyniy~/ADJ]]
 
-    FiCL |< Iy                `adj`     {- Siyniy~ -}          [ "Chinese" ],
+    FIL |< Iy                 `adj`     {- Siyniy~ -}          [ "Chinese" ],
 
     -- ;; Siyniy~ap_1
     -- Syny    Siyniy~ NapAt   porcelain;china
     -- SwAny   SawAniy N0_Nh   porcelain;china
 
-    FiCL |< Iy |< aT          `noun`    {- Siyniy~ap -}        [ "porcelain", "china" ] ]
+    FIL |< Iy |< aT           `noun`    {- Siyniy~ap -}        [ "porcelain", "china" ] ]
 
  |> ".s y q l" <| [
 
@@ -7734,7 +7776,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Siyt_1
     -- Syt     Siyt    N       renown;reputation
 
-    FiCL                      `noun`    {- Siyt -}             [ "renown", "reputation" ],
+    FIL                       `noun`    {- Siyt -}             [ "renown", "reputation" ],
 
     -- ;; Say~it_1
     -- Syt     Say~it  Nall    loud     [[Say~it/ADJ]]
@@ -7785,19 +7827,6 @@ lexicon = listing "Lexicon's properties"
     -- SrdA    SarodA  Nprop   Sarda
 
     Identity                  `noun`    {- SarodA -}           [ "Sarda" ] ]
-
- |> ".saw.sY" <| [
-
-    -- ;; SawoSaY_1
-    -- SwSY    SawoSaY PV_0    squeak;cheep
-    -- SwSA    SawoSA  PV_h    squeak;cheep
-    -- SwSy    SawoSay PV_Atn  squeak;cheep
-    -- SwS     SawoSa  PV_ttAw squeak;cheep
-    -- SwSy    SawoSiy IV_0hAnn_yu     squeak;cheep
-    -- SwS     SawoS   IV_0hwnyn       squeak;cheep
-    -- SwSY    SawoSaY IV_0    squeak;cheep
-
-    Identity                  `verb`    {- SawoSaY -}          [ "squeak", "cheep" ] ]
 
  |> ".sawla^gAn" <| [
 

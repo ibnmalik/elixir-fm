@@ -81,7 +81,6 @@ lexicon = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- DaHiy~ap -}         [ "victim", "victims" ],
 
     FACI |< aT                `noun`    {- DAHiyap -}          [ "suburb", "vicinity", "suburbs", "outskirts" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ ".dawA.hiy N0_Nh" ] -} ]
 
@@ -516,7 +515,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- DiyA' -}            [ "light", "glow" ],
 
-    MuFiCL                    `adj`     {- muDiy' -}           [ "shining", "bright" ] ]
+    MuFIL                     `adj`     {- muDiy' -}           [ "shining", "bright" ] ]
 
  |> ".d y `" <| [
 
@@ -554,7 +553,7 @@ lexicon = listing "Lexicon's properties"
 
     HiFAL |< Iy               `adj`     {- IiDAfiy~ -}         [ "additional", "supplementary" ],
 
-    MuFiCL                    `noun`    {- muDiyf -}           [ "host", "steward" ],
+    MuFIL                     `noun`    {- muDiyf -}           [ "host", "steward" ],
 
     MuFAL                     `adj`     {- muDAf -}            [ "added" ],
 
@@ -570,7 +569,7 @@ lexicon = listing "Lexicon's properties"
 
     FACaL                     `verb`    {- DAyaq -}            [ "inconvenience", "annoy" ],
 
-    FiCL                      `noun`    {- Diyq -}             [ "narrowness", "anxiety", "shortage" ],
+    FIL                       `noun`    {- Diyq -}             [ "narrowness", "anxiety", "shortage" ],
 
     FaCCiL                    `adj`     {- Day~iq -}           [ "narrow", "restricted" ],
 

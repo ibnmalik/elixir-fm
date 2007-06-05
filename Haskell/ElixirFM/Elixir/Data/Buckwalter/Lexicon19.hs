@@ -1286,7 +1286,6 @@ lexicon = listing "Lexicon's properties"
     -- gwA$    gawA$   NK      attendants;retinue
 
     FACI |< aT                `noun`    {- gA$iyap -}          [ "envelope", "calamity", "fainting", "attendants", "retinue" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ ".gawA^siy N0_Nh" ] -},
 
@@ -3514,7 +3513,6 @@ lexicon = listing "Lexicon's properties"
     -- mgAl    magAl   NK      boilers
 
     MiFCY |< aT               `noun`    {- migolAp -}          [ "boiler", "boilers" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "ma.gAliy N0_Nh" ] -} ]
 
@@ -4686,7 +4684,6 @@ lexicon = listing "Lexicon's properties"
     -- AgAn    >agAn   NK      songs;melodies
 
     HuFCI |< aT               `noun`    {- Ougoniyap -}        [ "song", "melody", "songs", "melodies" ]
-                              `plural`     HaFACiL
                               `plural`     HaFACI
                            {- `others`  [ "'a.gAniy N0_Nh" ] -},
 
@@ -4699,7 +4696,6 @@ lexicon = listing "Lexicon's properties"
 
     MaFCY                     `noun`    {- magonaY -}          [ "villa", "habitation", "villas", "habitations", "places of habitation" ]
                               `plural`     MaFCaL
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "ma.gnay NAn_Nayn", "ma.gAniy N0_Nh" ] -},
 
@@ -4737,7 +4733,6 @@ lexicon = listing "Lexicon's properties"
     -- gwAn    gawAn   NK      pretty girls;belles
 
     FACI |< aT                `noun`    {- gAniyap -}          [ "pretty girl", "belle", "pretty girls", "belles" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ ".gawAniy N0_Nh" ] -},
 
@@ -5935,7 +5930,6 @@ lexicon = listing "Lexicon's properties"
     -- mgry    mugoriy NAt     lures;temptations
 
     MuFCI |< At               `noun`    {- mugoriyAt -}        [ "lures", "temptations" ]
-                              `plural`     MuFCiL |< At
                               `plural`     MuFCI |< At ]
 
  |> ".g r z" <| [
@@ -6377,13 +6371,13 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- gawoT -}            [ "hollow", "depression", "hollows", "depressions" ]
                               `plural`     HaFCAL
                               `plural`     FUL
-                              `plural`     FuCL
-                           {- `others`  [ "'a.gwA.t N", ".guw.t N" ] -},
+                              `plural`     FILAn
+                           {- `others`  [ "'a.gwA.t N", ".guw.t N", ".giy.tAn N" ] -},
 
     -- ;; guwTap_1
     -- gwT     guwT    Nap     fertile valley;oasis
 
-    FuCL |< aT                `noun`    {- guwTap -}           [ "fertile valley", "oasis" ],
+    FUL |< aT                 `noun`    {- guwTap -}           [ "fertile valley", "oasis" ],
 
     -- ;; gawiyT_1
     -- gwyT    gawiyT  N-ap    deep
@@ -6401,7 +6395,6 @@ lexicon = listing "Lexicon's properties"
 
     FA'iL                     `noun`    {- gA}iT -}            [ "excrement", "feces" ]
                               `plural`     FUL
-                              `plural`     FuCL
                            {- `others`  [ ".guw.t N" ] -},
 
     -- ;; gA}iTiy~_1
@@ -6412,14 +6405,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; guwTiy~_1
     -- gwTy    guwTiy~ N-ap    Gothic     [[guwTiy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- guwTiy~ -}          [ "Gothic" ] ]
+    FUL |< Iy                 `adj`     {- guwTiy~ -}          [ "Gothic" ] ]
 
  |> ".g w ^s" <| [
 
     -- ;; guw$_1
     -- gw$     guw$    Nprop   Gush
 
-    FuCL                      `noun`    {- guw$ -}             [ "Gush" ],
+    FUL                       `noun`    {- guw$ -}             [ "Gush" ],
 
     -- ;; guwayo$ap_1
     -- gwy$    guwayo$ NapAt   bracelet;bangle
@@ -6534,14 +6527,15 @@ lexicon = listing "Lexicon's properties"
     -- AgwAl   >agowAl N       ghouls;monsters
     -- gylAn   giylAn  N       ghouls;monsters
 
-    FuCL                      `noun`    {- guwl -}             [ "ghoul", "monster", "ghouls", "monsters" ]
+    FUL                       `noun`    {- guwl -}             [ "ghoul", "monster", "ghouls", "monsters" ]
+                              `plural`     FILAn
                               `plural`     HaFCAL
-                           {- `others`  [ "'a.gwAl N" ] -},
+                           {- `others`  [ ".giylAn N", "'a.gwAl N" ] -},
 
     -- ;; guwl_2
     -- gwl     guwl    N0      Ghoul
 
-    FuCL                      `noun`    {- guwl -}             [ "Ghoul" ],
+    FUL                       `noun`    {- guwl -}             [ "Ghoul" ],
 
     -- ;; giylap_1
     -- gyl     giyl    Nap     assassination
@@ -6622,7 +6616,9 @@ lexicon = listing "Lexicon's properties"
     -- gAr     gAr     N       cave
     -- gyrAn   giyrAn  N       caves
 
-    FAL                       `noun`    {- gAr -}              [ "cave", "caves" ],
+    FAL                       `noun`    {- gAr -}              [ "cave", "caves" ]
+                              `plural`     FILAn
+                           {- `others`  [ ".giyrAn N" ] -},
 
     -- ;; gArap_1
     -- gAr     gAr     Napdu   raid;foray;attack
@@ -6688,14 +6684,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; guwr_1
     -- gwr     guwr    Nprop   Gore
 
-    FuCL                      `noun`    {- guwr -}             [ "Gore" ],
+    FUL                       `noun`    {- guwr -}             [ "Gore" ],
 
     -- ;; guwrAn_1
     -- gwrAn   guwrAn  Nprop   Goran
 
-    FuCLAn                    `noun`    {- guwrAn -}           [ "Goran" ] ]
+    FULAn                     `noun`    {- guwrAn -}           [ "Goran" ] ]
 
  |> ".g w w" <| [
+
+    -- ;; guw_1
+    -- gw      guw     FW      Gou;Gu     [[guw/NOUN_PROP]]
+
+    FU                        `noun`    {- guw -}              [ "Gou", "Gu" ],
 
     -- ;; guw_1
     -- gw      guw     FW      Gou;Gu     [[guw/NOUN_PROP]]
@@ -6795,7 +6796,8 @@ lexicon = listing "Lexicon's properties"
     -- gAwy    gAwiy   NapAt   seducer;dilettante
     -- gwA     guwA    Nap     fans;dilettantes
 
-    FACI                      `noun`    {- gAwiy -}            [ "seducer", "dilettante", "fans", "dilettantes" ],
+    FACI                      `noun`    {- gAwiy -}            [ "seducer", "dilettante", "fans", "dilettantes" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; mugaw~Ap_1
     -- mgwA    mugaw~A Napdu   pitfall;trap
@@ -6805,10 +6807,10 @@ lexicon = listing "Lexicon's properties"
     -- mgAw    magAw   NK      pitfalls;traps
 
     MuFaCCY |< aT             `noun`    {- mugaw~Ap -}         [ "pitfall", "trap", "pitfalls", "traps" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                               `plural`     MuFaCCaL |< At
-                           {- `others`  [ "ma.gAwiy N0_Nh" ] -},
+                              `plural`     MaFCY
+                           {- `others`  [ "ma.gAwiy N0_Nh", "ma.gwY Napdu" ] -},
 
     -- ;; mugowiy_1
     -- mgwy    mugowiy N0F_Nh  seducer;tempting
@@ -6829,7 +6831,19 @@ lexicon = listing "Lexicon's properties"
     -- jwAyAny juwAyAniy~      Nall    Guyanese     [[juwAyAniy~/NOUN]]
     -- jwAyAny juwAyAniy~      Nall    Guyanese     [[juwAyAniy~/ADJ]]
 
-    FuCLAn |< Iy              `adj`     {- guwyAniy~ -}        [ "Guyanese" ] ]
+    FULAn |< Iy               `adj`     {- guwyAniy~ -}        [ "Guyanese" ],
+
+    -- ;; guwyAniy~_1
+    -- gwyAny  guwyAniy~       Nall    Guyanese     [[guwyAniy~/NOUN]]
+    -- gwyAny  guwyAniy~       Nall    Guyanese     [[guwyAniy~/ADJ]]
+    -- gwAyAny guwAyAniy~      Nall    Guyanese     [[guwAyAniy~/NOUN]]
+    -- gwAyAny guwAyAniy~      Nall    Guyanese     [[guwAyAniy~/ADJ]]
+    -- jwyAny  juwyAniy~       Nall    Guyanese     [[juwyAniy~/NOUN]]
+    -- jwyAny  juwyAniy~       Nall    Guyanese     [[juwyAniy~/ADJ]]
+    -- jwAyAny juwAyAniy~      Nall    Guyanese     [[juwAyAniy~/NOUN]]
+    -- jwAyAny juwAyAniy~      Nall    Guyanese     [[juwAyAniy~/ADJ]]
+
+    FULAn |< Iy               `adj`     {- guwyAniy~ -}        [ "Guyanese" ] ]
 
  |> ".g w y n" <| [
 
@@ -6870,7 +6884,13 @@ lexicon = listing "Lexicon's properties"
     -- gwAzy   gawAziy N0_Nh   women dancers
     -- gwAz    gawAz   NK      women dancers
 
-    KaRADiS                   `noun`    {- gawAziy -}          [ "women dancers" ] ]
+    KaRADI                    `noun`    {- gawAziy -}          [ "women dancers" ],
+
+    -- ;; gawAziy_1
+    -- gwAzy   gawAziy N0_Nh   women dancers
+    -- gwAz    gawAz   NK      women dancers
+
+    KaRADI                    `noun`    {- gawAziy -}          [ "women dancers" ] ]
 
  |> ".g y '" <| [
 
@@ -6919,7 +6939,7 @@ lexicon = listing "Lexicon's properties"
     -- gyTAn   giyTAn  N       gardens;orchards
 
     FaCL                      `noun`    {- gayoT -}            [ "garden", "orchard", "gardens", "orchards" ]
-                              `plural`     FiCLAn
+                              `plural`     FILAn
                            {- `others`  [ ".giy.tAn N" ] -},
 
     -- ;; gayoTAniy~_1
@@ -7019,7 +7039,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mugiyZ_1
     -- mgyZ    mugiyZ  Nall    irate;furious     [[mugiyZ/ADJ]]
 
-    MuFiCL                    `adj`     {- mugiyZ -}           [ "irate", "furious" ],
+    MuFIL                     `adj`     {- mugiyZ -}           [ "irate", "furious" ],
 
     -- ;; mugotAZ_1
     -- mgtAZ   mugotAZ Nall    irate;furious     [[mugotAZ/ADJ]]
@@ -7047,12 +7067,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; mugiyv_1
     -- mgyv    mugiyv  N       deliverer;succorer
 
-    MuFiCL                    `noun`    {- mugiyv -}           [ "deliverer", "succorer" ],
+    MuFIL                     `noun`    {- mugiyv -}           [ "deliverer", "succorer" ],
 
     -- ;; mugiyv_2
     -- mgyv    mugiyv  N0      Mughith;Mugeeth
 
-    MuFiCL                    `noun`    {- mugiyv -}           [ "Mughith", "Mugeeth" ],
+    MuFIL                     `noun`    {- mugiyv -}           [ "Mughith", "Mugeeth" ],
 
     -- ;; gAv-i_1
     -- gAv     gAv     PV_V    send rain
@@ -7165,7 +7185,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; giybap_1
     -- gyb     giyb    Nap     slander
 
-    FiCL |< aT                `noun`    {- giybap -}           [ "slander" ],
+    FIL |< aT                 `noun`    {- giybap -}           [ "slander" ],
 
     -- ;; giyAb_1
     -- gyAb    giyAb   N       absence;disappearance
@@ -7232,7 +7252,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mugiyb_1
     -- mgyb    mugiyb  N-ap    grass widow
 
-    MuFiCL                    `noun`    {- mugiyb -}           [ "grass widow" ],
+    MuFIL                     `noun`    {- mugiyb -}           [ "grass widow" ],
 
     -- ;; mutagay~ib_1
     -- mtgyb   mutagay~ib      Nall    absent
@@ -7279,7 +7299,6 @@ lexicon = listing "Lexicon's properties"
     HaFCaL                    `adj`     {- Oagoyad -}          [ "flexible", "delicate" ]
                               `plural`     FaCLA'
                               `plural`     FIL
-                              `plural`     FiCL
                            {- `others`  [ ".gaydA' Nh N0_Nh Nhy", ".giyd N" ] -},
 
     -- ;; tagAyad_1
@@ -7299,7 +7318,6 @@ lexicon = listing "Lexicon's properties"
 
     FAL |< aT                 `noun`    {- gAdap -}            [ "young lady", "young ladies" ]
                               `plural`     FIL
-                              `plural`     FiCL
                            {- `others`  [ ".giyd N" ] -} ]
 
  |> ".g y d q" <| [
@@ -7327,7 +7345,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; giylap_1
     -- gyl     giyl    Nap     assassination
 
-    FiCL |< aT                `noun`    {- giylap -}           [ "assassination" ],
+    FIL |< aT                 `noun`    {- giylap -}           [ "assassination" ],
 
     -- ;; {igotiyAl_1
     -- <gtyAl  {igotiyAl       NduAt   assassination;murder
@@ -7340,7 +7358,7 @@ lexicon = listing "Lexicon's properties"
     -- >gyAl   >agoyAl N       thicket;bushes
     -- AgyAl   >agoyAl N       thicket;bushes
 
-    FiCL                      `noun`    {- giyl -}             [ "thicket", "bushes" ]
+    FIL                       `noun`    {- giyl -}             [ "thicket", "bushes" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.gyAl N" ] -},
 
@@ -7468,7 +7486,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mugiyr_1
     -- mgyr    mugiyr  Nall    raider;assailant
 
-    MuFiCL                    `noun`    {- mugiyr -}           [ "raider", "assailant" ],
+    MuFIL                     `noun`    {- mugiyr -}           [ "raider", "assailant" ],
 
     -- ;; gayor_1
     -- gyr     gayor   N       not;other     [[gayor/NEG_PART]]
@@ -7852,7 +7870,8 @@ lexicon = listing "Lexicon's properties"
     -- gAzy    gAziy   NapAt   invader;raider;aggressor
     -- gzA     guzA    Nap     invaders;raiders;aggressors
 
-    FACI                      `adj`     {- gAziy -}            [ "invader", "raider", "aggressor", "invaders", "raiders", "aggressors" ],
+    FACI                      `adj`     {- gAziy -}            [ "invader", "raider", "aggressor", "invaders", "raiders", "aggressors" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; gAziyap_1
     -- gAzy    gAziy   NapAt   campaign;expedition
@@ -7875,7 +7894,8 @@ lexicon = listing "Lexicon's properties"
     -- gAzy    gAziy   NapAt   invader;raider;aggressor
     -- gzA     guzA    Nap     invaders;raiders;aggressors
 
-    FACI                      `adj`     {- gAziy -}            [ "invader", "raider", "aggressor", "invaders", "raiders", "aggressors" ],
+    FACI                      `adj`     {- gAziy -}            [ "invader", "raider", "aggressor", "invaders", "raiders", "aggressors" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; gAziyap_1
     -- gAzy    gAziy   NapAt   campaign;expedition

@@ -809,7 +809,6 @@ lexicon = listing "Lexicon's properties"
     -- mbAg    mabAg   NK      desiderata
 
     MaFCY                     `noun`    {- mabogaY -}          [ "desideratum", "desiderata" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                               `plural`     MaFCaL
                            {- `others`  [ "mabA.giy N0_Nh", "mab.gay NAn_Nayn" ] -},
@@ -844,7 +843,8 @@ lexicon = listing "Lexicon's properties"
     -- bAgy    bAgiy   NapAt   oppressive;tyrant
     -- bgA     bugA    Nap     oppressors;tyrants
 
-    FACI                      `noun`    {- bAgiy -}            [ "oppressive", "tyrant", "oppressors", "tyrants" ],
+    FACI                      `noun`    {- bAgiy -}            [ "oppressive", "tyrant", "oppressors", "tyrants" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; bAgiy_1
     -- bAgy    bAgiy   N0F     oppressive;tyrant
@@ -854,7 +854,8 @@ lexicon = listing "Lexicon's properties"
     -- bAgy    bAgiy   NapAt   oppressive;tyrant
     -- bgA     bugA    Nap     oppressors;tyrants
 
-    FACI                      `noun`    {- bAgiy -}            [ "oppressive", "tyrant", "oppressors", "tyrants" ],
+    FACI                      `noun`    {- bAgiy -}            [ "oppressive", "tyrant", "oppressors", "tyrants" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; bAgiy_2
     -- bAgy    bAgiy   N0F     desiring
@@ -864,7 +865,8 @@ lexicon = listing "Lexicon's properties"
     -- bAgy    bAgiy   NapAt   desiring
     -- bgA     bugA    Nap     desiring
 
-    FACI                      `noun`    {- bAgiy -}            [ "desiring" ],
+    FACI                      `noun`    {- bAgiy -}            [ "desiring" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; bAgiy_2
     -- bAgy    bAgiy   N0F     desiring
@@ -874,7 +876,8 @@ lexicon = listing "Lexicon's properties"
     -- bAgy    bAgiy   NapAt   desiring
     -- bgA     bugA    Nap     desiring
 
-    FACI                      `noun`    {- bAgiy -}            [ "desiring" ],
+    FACI                      `noun`    {- bAgiy -}            [ "desiring" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; mubotagaY_1
     -- mbtgY   mubotagaY       N0      aspiration;goal
@@ -2315,7 +2318,6 @@ lexicon = listing "Lexicon's properties"
     -- bwAT    bawAT   NK      pitchers;jugs
 
     FACI |< aT                `noun`    {- bATiyap -}          [ "pitcher", "jug", "pitchers", "jugs" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "bawA.tiy N0_Nh" ] -},
 
@@ -2325,7 +2327,6 @@ lexicon = listing "Lexicon's properties"
     -- bwAT    bawAT   NK      pitchers;jugs
 
     FACI |< aT                `noun`    {- bATiyap -}          [ "pitcher", "jug", "pitchers", "jugs" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "bawA.tiy N0_Nh" ] -} ]
 
@@ -4919,7 +4920,8 @@ lexicon = listing "Lexicon's properties"
     -- bdw     badow   N       Bedouins
     -- bdA     budA    Nap     Bedouins
 
-    FaCY |< Iy                `adj`     {- badawiy~ -}         [ "Bedouin", "Bedouins" ],
+    FaCY |< Iy                `adj`     {- badawiy~ -}         [ "Bedouin", "Bedouins" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; <ibodA'_1
     -- <bdA'   <ibodA' N0_Nh   expression;manifestation
@@ -4982,7 +4984,6 @@ lexicon = listing "Lexicon's properties"
     -- mbdy    mubodiy N0      expressing;showing;demonstrating
 
     MuFCI |< aN               `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
-                              `plural`     MuFCiL
                               `plural`     MuFCI
                            {- `others`  [ "mubdiy NF N0" ] -},
 
@@ -4991,7 +4992,6 @@ lexicon = listing "Lexicon's properties"
     -- mbdy    mubodiy N0      expressing;showing;demonstrating
 
     MuFCI |< aN               `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
-                              `plural`     MuFCiL
                               `plural`     MuFCI
                            {- `others`  [ "mubdiy NF N0" ] -} ]
 
@@ -5248,6 +5248,18 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADIS
                               `plural`     KaRDUS
                            {- `others`  [ "bahAliyl Ndip", "bahluwl Ndu" ] -} ]
+
+ |> "b h l y" <| [
+
+    -- ;; baholawiy~_1
+    -- bhlwy   baholawiy~      N0      Pahlavi;Pahlevi
+
+    KaRDY |< Iy               `adj`     {- baholawiy~ -}       [ "Pahlavi", "Pahlevi" ],
+
+    -- ;; baholawiy~_2
+    -- bhlwy   baholawiy~      N0      Bahlawi;Bahlaoui
+
+    KaRDY |< Iy               `adj`     {- baholawiy~ -}       [ "Bahlawi", "Bahlaoui" ] ]
 
  |> "b h m" <| [
 
@@ -5825,6 +5837,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- bAkiy -}            [ "mourner", "weeping", "mourners", "weepers" ]
                               `plural`     FawACI
+                              `plural`     FuCY |< aT
                            {- `others`  [ "bawAkiy N0_Nh" ] -},
 
     -- ;; mubak~iy_1
@@ -6181,8 +6194,8 @@ lexicon = listing "Lexicon's properties"
     -- bwAk    bawAk   NK      mourners;weeping
 
     FACI                      `noun`    {- bAkiy -}            [ "mourner", "weeping", "mourners", "weepers" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
+                              `plural`     FuCY |< aT
                            {- `others`  [ "bawAkiy N0_Nh" ] -},
 
     -- ;; mubak~iy_1
@@ -6198,7 +6211,6 @@ lexicon = listing "Lexicon's properties"
     -- mbky    mubokiy NapAt   tearful;lamentable
 
     MuFaCCI                   `noun`    {- mubak~iy -}         [ "tearful", "lamentable" ]
-                              `plural`     MuFCiL |< At
                               `plural`     MuFCI |< At
                            {- `others`  [ "mubkiy N0F_Nh NAn_Nayn" ] -} ]
 
@@ -8082,7 +8094,6 @@ lexicon = listing "Lexicon's properties"
     -- Abny    >aboniy Nap     buildings;structures
 
     FiCA'                     `noun`    {- binA' -}            [ "building", "structure", "buildings", "structures" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT,
 
     -- ;; binA'F_1
@@ -8139,7 +8150,6 @@ lexicon = listing "Lexicon's properties"
 
     MaFCY                     `noun`    {- mabonaY -}          [ "building", "structure", "buildings", "structures" ]
                               `plural`     MaFCaL
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "mabnay NAn_Nayn", "mabAniy N0_Nh" ] -},
 
@@ -8151,7 +8161,8 @@ lexicon = listing "Lexicon's properties"
     -- bAny    bAniy   NapAt   building;builder
     -- bnA     bunA    Nap     builders
 
-    FACI                      `noun`    {- bAniy -}            [ "building", "builder", "builders" ],
+    FACI                      `noun`    {- bAniy -}            [ "building", "builder", "builders" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; bAniy_1
     -- bAny    bAniy   N0F     building;builder
@@ -8161,7 +8172,13 @@ lexicon = listing "Lexicon's properties"
     -- bAny    bAniy   NapAt   building;builder
     -- bnA     bunA    Nap     builders
 
-    FACI                      `noun`    {- bAniy -}            [ "building", "builder", "builders" ],
+    FACI                      `noun`    {- bAniy -}            [ "building", "builder", "builders" ]
+                              `plural`     FuCY |< aT,
+
+    -- ;; buw_1
+    -- bw      buw     Nprop   Bou
+
+    FU                        `noun`    {- buw -}              [ "Bou" ],
 
     -- ;; buwniy_1
     -- bwny    buwniy  Nprop   Boni
@@ -8174,6 +8191,20 @@ lexicon = listing "Lexicon's properties"
     -- bnyAn   bunoyAn N       structure;edifice
 
     KuRDAS                    `noun`    {- bunoyAn -}          [ "structure", "edifice" ] ]
+
+ |> "b n y y" <| [
+
+    -- ;; bunoyawiy~_1
+    -- bnywy   bunoyawiy~      Nall    structural     [[bunoyawiy~/ADJ]]
+    -- bnywy   binoyawiy~      Nall    structural     [[binoyawiy~/ADJ]]
+
+    KuRDY |< Iy               `adj`     {- bunoyawiy~ -}       [ "structural" ],
+
+    -- ;; bunoyawiy~ap_1
+    -- bnywy   bunoyawiy~      Nap     structuralism     [[bunoyawiy~/NOUN]]
+    -- bnywy   binoyawiy~      Nap     structuralism     [[binoyawiy~/NOUN]]
+
+    KuRDY |< Iy |< aT         `noun`    {- bunoyawiy~ap -}     [ "structuralism" ] ]
 
  |> "b n z l" <| [
 
@@ -11726,7 +11757,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwH_1
     -- bwH     buwH    N       courtyard;hall
 
-    FuCL                      `noun`    {- buwH -}             [ "courtyard", "hall" ],
+    FUL                       `noun`    {- buwH -}             [ "courtyard", "hall" ],
 
     -- ;; bAHap_1
     -- bAH     bAH     NapAt   courtyard;plaza
@@ -11767,15 +11798,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwS_1
     -- bwS     buwS    N       reed;fabric
 
-    FuCL                      `noun`    {- buwS -}             [ "reed", "fabric" ],
+    FUL                       `noun`    {- buwS -}             [ "reed", "fabric" ],
 
     -- ;; buwSap_1
     -- bwS     buwS    Napdu   inch
     -- bwS     buwS    NAt     inches
 
-    FuCL |< aT                `noun`    {- buwSap -}           [ "inch", "inches" ]
-                              `plural`     FUL |< At
-                              `plural`     FuCL |< At ]
+    FUL |< aT                 `noun`    {- buwSap -}           [ "inch", "inches" ]
+                              `plural`     FUL |< At ]
 
  |> "b w .s l" <| [
 
@@ -11794,19 +11824,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwTap_1
     -- bwT     buwT    Nap     crucible;melting pot
 
-    FuCL |< aT                `noun`    {- buwTap -}           [ "crucible", "melting pot" ] ]
+    FUL |< aT                 `noun`    {- buwTap -}           [ "crucible", "melting pot" ] ]
 
  |> "b w .z" <| [
 
     -- ;; buwZap_1
     -- bwZ     buwZ    Nap     ice-cream (Levant)
 
-    FuCL |< aT                `noun`    {- buwZap -}           [ "ice-cream (Levant)" ],
+    FUL |< aT                 `noun`    {- buwZap -}           [ "ice-cream (Levant)" ],
 
     -- ;; buwZap_2
     -- bwZ     buwZ    Nap     beer (Egy.)
 
-    FuCL |< aT                `noun`    {- buwZap -}           [ "beer (Egy.)" ] ]
+    FUL |< aT                 `noun`    {- buwZap -}           [ "beer (Egy.)" ] ]
 
  |> "b w ^g h" <| [
 
@@ -11820,12 +11850,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; buw$_1
     -- bw$     buw$    Nprop   Bush
 
-    FuCL                      `noun`    {- buw$ -}             [ "Bush" ],
+    FUL                       `noun`    {- buw$ -}             [ "Bush" ],
 
     -- ;; buw$iy~_1
     -- bw$y    buw$iy~ N0      Boushi
 
-    FuCL |< Iy                `adj`     {- buw$iy~ -}          [ "Boushi" ],
+    FUL |< Iy                 `adj`     {- buw$iy~ -}          [ "Boushi" ],
 
     -- ;; bA$-u_1
     -- bA$     bA$     PV_V_intr       be boisterous
@@ -11859,7 +11889,7 @@ lexicon = listing "Lexicon's properties"
     -- bw*y    buw*iy~ Nall    Buddhist     [[buw*iy~/ADJ]]
     -- bw*y    buw*iy~ Nap     Buddhism     [[buw*iy~/NOUN]]
 
-    FuCL |< Iy                `adj`     {- buw*iy~ -}          [ "Buddhist", "Buddhism" ],
+    FUL |< Iy                 `adj`     {- buw*iy~ -}          [ "Buddhist", "Buddhism" ],
 
     -- ;; buw*iy~_1
     -- bw*y    buw*iy~ Nall    Buddhist     [[buw*iy~/NOUN]]
@@ -11908,7 +11938,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwE_1
     -- bwE     buwE    N       metatarsal
 
-    FuCL                      `noun`    {- buwE -}             [ "metatarsal" ],
+    FUL                       `noun`    {- buwE -}             [ "metatarsal" ],
 
     -- ;; bAE_1
     -- bAE     bAE     Ndu     fathom (3 meters)
@@ -11934,8 +11964,9 @@ lexicon = listing "Lexicon's properties"
     -- AbwAb   >abowAb N       doors;gates
 
     FAL                       `noun`    {- bAb -}              [ "door", "gate", "doors", "gates" ]
+                              `plural`     FILAn
                               `plural`     HaFCAL
-                           {- `others`  [ "'abwAb N" ] -},
+                           {- `others`  [ "biybAn N", "'abwAb N" ] -},
 
     -- ;; bAb_2
     -- bAb     bAb     Ndu     category;rubric
@@ -11974,7 +12005,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwb_1
     -- bwb     buwb    N0      pop
 
-    FuCL                      `noun`    {- buwb -}             [ "pop" ] ]
+    FUL                       `noun`    {- buwb -}             [ "pop" ] ]
 
  |> "b w b n" <| [
 
@@ -11999,7 +12030,13 @@ lexicon = listing "Lexicon's properties"
     -- bwAdy   bawAdiy N0_Nh   nomads;Bedouins
     -- bwAd    bawAd   NK      nomads;Bedouins
 
-    KaRADiS                   `noun`    {- bawAdiy -}          [ "nomads", "Bedouins" ] ]
+    KaRADI                    `noun`    {- bawAdiy -}          [ "nomads", "Bedouins" ],
+
+    -- ;; bawAdiy_1
+    -- bwAdy   bawAdiy N0_Nh   nomads;Bedouins
+    -- bwAd    bawAd   NK      nomads;Bedouins
+
+    KaRADI                    `noun`    {- bawAdiy -}          [ "nomads", "Bedouins" ] ]
 
  |> "b w f h" <| [
 
@@ -12041,17 +12078,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwl_1
     -- bwl     buwl    Nprop   Paul
 
-    FuCL                      `noun`    {- buwl -}             [ "Paul" ],
+    FUL                       `noun`    {- buwl -}             [ "Paul" ],
 
     -- ;; buwl_2
     -- bwl     buwl    Nprop   Puhl
 
-    FuCL                      `noun`    {- buwl -}             [ "Puhl" ],
+    FUL                       `noun`    {- buwl -}             [ "Puhl" ],
 
     -- ;; buwl_3
     -- bwl     buwl    N       postage stamp
 
-    FuCL                      `noun`    {- buwl -}             [ "postage stamp" ],
+    FUL                       `noun`    {- buwl -}             [ "postage stamp" ],
 
     -- ;; bAl-u_1
     -- bAl     bAl     PV_V    urinate
@@ -12190,7 +12227,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwluw_1
     -- bwlw    buwluw  N       polo
 
-    KuRDuS                    `noun`    {- buwluw -}           [ "polo" ] ]
+    KuRDU                     `noun`    {- buwluw -}           [ "polo" ] ]
+
+ |> "b w l y" <| [
+
+    -- ;; buwluw_1
+    -- bwlw    buwluw  N       polo
+
+    KuRDU                     `noun`    {- buwluw -}           [ "polo" ] ]
 
  |> "b w m" <| [
 
@@ -12200,7 +12244,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwAm   >abowAm N       owls
     -- AbwAm   >abowAm N       owls
 
-    FuCL                      `noun`    {- buwm -}             [ "owl", "owls" ]
+    FUL                       `noun`    {- buwm -}             [ "owl", "owls" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'abwAm N" ] -},
 
@@ -12222,7 +12266,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- bawn -}             [ "interval", "distance" ]
                               `plural`     FUL
-                              `plural`     FuCL
                            {- `others`  [ "buwn N" ] -} ]
 
  |> "b w q" <| [
@@ -12238,7 +12281,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwAq   >abowAq N       trumpets;horns
     -- AbwAq   >abowAq N       trumpets;horns
 
-    FuCL                      `noun`    {- buwq -}             [ "trumpet", "horn", "trumpets", "horns" ]
+    FUL                       `noun`    {- buwq -}             [ "trumpet", "horn", "trumpets", "horns" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'abwAq N" ] -},
 
@@ -12247,7 +12290,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwAq   >abowAq N       funnels
     -- AbwAq   >abowAq N       funnels
 
-    FuCL                      `noun`    {- buwq -}             [ "funnel", "funnels" ]
+    FUL                       `noun`    {- buwq -}             [ "funnel", "funnels" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'abwAq N" ] -},
 
@@ -12285,7 +12328,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; bawAqiy_1
     -- bwAqy   bawAqiy N0      Bawaqi
 
-    KaRADiS                   `noun`    {- bawAqiy -}          [ "Bawaqi" ] ]
+    KaRADI                    `noun`    {- bawAqiy -}          [ "Bawaqi" ],
+
+    -- ;; bawAqiy_1
+    -- bwAqy   bawAqiy N0      Bawaqi
+
+    KaRADI                    `noun`    {- bawAqiy -}          [ "Bawaqi" ] ]
 
  |> "b w r" <| [
 
@@ -12331,7 +12379,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwr_1
     -- bwr     buwr    N       fallow
 
-    FuCL                      `noun`    {- buwr -}             [ "fallow" ],
+    FUL                       `noun`    {- buwr -}             [ "fallow" ],
 
     -- ;; bawAr_1
     -- bwAr    bawAr   N       perdition;ruin
@@ -12346,12 +12394,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwr_2
     -- bwr     buwr    N       Port
 
-    FuCL                      `noun`    {- buwr -}             [ "Port" ],
+    FUL                       `noun`    {- buwr -}             [ "Port" ],
 
     -- ;; buwrAniy~_1
     -- bwrAny  buwrAniy~       N       vegetable stew
 
-    FuCLAn |< Iy              `adj`     {- buwrAniy~ -}        [ "vegetable stew" ] ]
+    FULAn |< Iy               `adj`     {- buwrAniy~ -}        [ "vegetable stew" ] ]
 
  |> "b w r ^g" <| [
 
@@ -12391,8 +12439,7 @@ lexicon = listing "Lexicon's properties"
     -- bws     buws    NapAt   kiss
 
     FaCL |< aT                `noun`    {- bawosap -}          [ "kiss" ]
-                              `plural`     FUL |< At
-                              `plural`     FuCL |< At ]
+                              `plural`     FUL |< At ]
 
  |> "b w t" <| [
 
@@ -12430,7 +12477,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwtuw_1
     -- bwtw    buwtuw  Nprop   Bhutto
 
-    KuRDuS                    `noun`    {- buwtuw -}           [ "Bhutto" ] ]
+    KuRDU                     `noun`    {- buwtuw -}           [ "Bhutto" ] ]
+
+ |> "b w t y" <| [
+
+    -- ;; buwtuw_1
+    -- bwtw    buwtuw  Nprop   Bhutto
+
+    KuRDU                     `noun`    {- buwtuw -}           [ "Bhutto" ] ]
 
  |> "b w y" <| [
 
@@ -12442,7 +12496,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; buwyap_1
     -- bwy     buwy    NapAt   paint
 
-    FuCL |< aT                `noun`    {- buwyap -}           [ "paint" ] ]
+    FUL |< aT                 `noun`    {- buwyap -}           [ "paint" ] ]
 
  |> "b w z" <| [
 
@@ -12457,7 +12511,7 @@ lexicon = listing "Lexicon's properties"
     -- >bwAz   >abowAz N       muzzles;snouts
     -- AbwAz   >abowAz N       muzzles;snouts
 
-    FuCL                      `noun`    {- buwz -}             [ "muzzle", "snout", "muzzles", "snouts" ]
+    FUL                       `noun`    {- buwz -}             [ "muzzle", "snout", "muzzles", "snouts" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'abwAz N" ] -},
 
@@ -12475,19 +12529,21 @@ lexicon = listing "Lexicon's properties"
     -- bAz     bAz     Ndu     falcon
     -- byzAn   biyzAn  N       falcons
 
-    FAL                       `noun`    {- bAz -}              [ "falcon", "falcons" ] ]
+    FAL                       `noun`    {- bAz -}              [ "falcon", "falcons" ]
+                              `plural`     FILAn
+                           {- `others`  [ "biyzAn N" ] -} ]
 
  |> "b y '" <| [
 
     -- ;; biy}ap_1
     -- by}     biy}    NapAt   environment;milieu
 
-    FiCL |< aT                `noun`    {- biy}ap -}           [ "environment", "milieu" ],
+    FIL |< aT                 `noun`    {- biy}ap -}           [ "environment", "milieu" ],
 
     -- ;; biy}iy~_1
     -- by}y    biy}iy~ Nall    environmental     [[biy}iy~/ADJ]]
 
-    FiCL |< Iy                `adj`     {- biy}iy~ -}          [ "environmental" ] ]
+    FIL |< Iy                 `adj`     {- biy}iy~ -}          [ "environmental" ] ]
 
  |> "b y .d" <| [
 
@@ -12574,7 +12630,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; biyD_1
     -- byD     biyD    N       white;Caucasian
 
-    FiCL                      `noun`    {- biyD -}             [ "white", "Caucasian" ],
+    FIL                       `noun`    {- biyD -}             [ "white", "Caucasian" ],
 
     -- ;; mabiyD_1
     -- mbyD    mabiyD  N       ovary
@@ -12652,7 +12708,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; biyjAn_1
     -- byjAn   biyjAn  Nprop   Bijan
 
-    FiCLAn                    `noun`    {- biyjAn -}           [ "Bijan" ] ]
+    FILAn                     `noun`    {- biyjAn -}           [ "Bijan" ],
+
+    -- ;; biyjAn_1
+    -- byjAn   biyjAn  Nprop   Bijan
+
+    FILAn                     `noun`    {- biyjAn -}           [ "Bijan" ] ]
 
  |> "b y ^g n" <| [
 
@@ -12666,7 +12727,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; biy$iy~_1
     -- by$y    biy$iy~ N0      Bishi
 
-    FiCL |< Iy                `adj`     {- biy$iy~ -}          [ "Bishi" ] ]
+    FIL |< Iy                 `adj`     {- biy$iy~ -}          [ "Bishi" ] ]
 
  |> "b y `" <| [
 
@@ -12791,14 +12852,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; biyEap_1
     -- byE     biyE    NapAt   church;synagogue
 
-    FiCL |< aT                `noun`    {- biyEap -}           [ "church", "synagogue" ] ]
+    FIL |< aT                 `noun`    {- biyEap -}           [ "church", "synagogue" ] ]
 
  |> "b y b" <| [
 
     -- ;; biyb_1
     -- byb     biyb    N       pipe;tube
 
-    FiCL                      `noun`    {- biyb -}             [ "pipe", "tube" ] ]
+    FIL                       `noun`    {- biyb -}             [ "pipe", "tube" ] ]
 
  |> "b y d" <| [
 
@@ -12845,7 +12906,7 @@ lexicon = listing "Lexicon's properties"
     -- byd     biyd    N       wilderness
     -- bydAw   biydAw  NAt     wilderness
 
-    FiCL                      `noun`    {- biyd -}             [ "wilderness" ],
+    FIL                       `noun`    {- biyd -}             [ "wilderness" ],
 
     -- ;; <ibAdap_1
     -- <bAd    <ibAd   NapAt   extermination;annihilation
@@ -12861,7 +12922,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mubiyd_1
     -- mbyd    mubiyd  Nall    destructive;exterminating
 
-    MuFiCL                    `noun`    {- mubiyd -}           [ "destructive", "exterminating" ] ]
+    MuFIL                     `noun`    {- mubiyd -}           [ "destructive", "exterminating" ] ]
 
  |> "b y d q" <| [
 
@@ -12914,7 +12975,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; biylap_1
     -- byl     biyl    Nap     urine
 
-    FiCL |< aT                `noun`    {- biylap -}           [ "urine" ],
+    FIL |< aT                 `noun`    {- biylap -}           [ "urine" ],
 
     -- ;; biyl_1
     -- byl     biyl    Nprop   Bill
@@ -12924,7 +12985,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; biyl_1
     -- byl     biyl    Nprop   Bill
 
-    FiCL                      `noun`    {- biyl -}             [ "Bill" ],
+    FIL                       `noun`    {- biyl -}             [ "Bill" ],
 
     -- ;; biyl_2
     -- byl     biyl    N       ball bearing;marble
@@ -12934,7 +12995,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; biyl_2
     -- byl     biyl    N       ball bearing;marble
 
-    FiCL                      `noun`    {- biyl -}             [ "ball bearing", "marble" ] ]
+    FIL                       `noun`    {- biyl -}             [ "ball bearing", "marble" ] ]
 
  |> "b y n" <| [
 
@@ -13132,7 +13193,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mubiyn_1
     -- mbyn    mubiyn  Nall    plain;clear;evident
 
-    MuFiCL                    `noun`    {- mubiyn -}           [ "plain", "clear", "evident" ],
+    MuFIL                     `noun`    {- mubiyn -}           [ "plain", "clear", "evident" ],
 
     -- ;; mutabAyin_1
     -- mtbAyn  mutabAyin       Nall    dissimilar;varying
@@ -13171,7 +13232,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; biyrap_1
     -- byrp    biyrap  N0      Birah;Bireh
 
-    FiCL |< aT                `noun`    {- biyrap -}           [ "Birah", "Bireh" ] ]
+    FIL |< aT                 `noun`    {- biyrap -}           [ "Birah", "Bireh" ] ]
 
  |> "b y r n" <| [
 
@@ -13209,7 +13270,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; biyriy_1
     -- byry    biyriy  Nprop   Perry
 
-    KiRDiS                    `noun`    {- biyriy -}           [ "Perry" ] ]
+    KiRDI                     `noun`    {- biyriy -}           [ "Perry" ],
+
+    -- ;; biyriy_1
+    -- byry    biyriy  Nprop   Perry
+
+    KiRDI                     `noun`    {- biyriy -}           [ "Perry" ] ]
 
  |> "b y r z" <| [
 
@@ -13494,8 +13560,8 @@ lexicon = listing "Lexicon's properties"
     -- bwAz    bawAz   NK      falcons
 
     FACI                      `noun`    {- bAziy -}            [ "falcon", "falcons" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
+                              `plural`     FuCY |< aT
                            {- `others`  [ "bawAziy N0_Nh" ] -},
 
     -- ;; bAziy_1
@@ -13506,8 +13572,8 @@ lexicon = listing "Lexicon's properties"
     -- bwAz    bawAz   NK      falcons
 
     FACI                      `noun`    {- bAziy -}            [ "falcon", "falcons" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
+                              `plural`     FuCY |< aT
                            {- `others`  [ "bawAziy N0_Nh" ] -} ]
 
  |> "b z z" <| [

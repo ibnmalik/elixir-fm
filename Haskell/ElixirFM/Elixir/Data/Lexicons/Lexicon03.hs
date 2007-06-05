@@ -276,6 +276,10 @@ lexicon = listing "Lexicon's properties"
 
     FaCLY                     `noun`    {- taqowaY -}          [ "piety" ] ]
 
+ |> "t q w y" <| [
+
+    KaRDY                     `noun`    {- taqowaY -}          [ "piety" ] ]
+
  |> "t q y" <| [
 
     FaCIL                     `adj`     {- taqiy~ -}           [ "pious", "devout" ]
@@ -381,7 +385,9 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `noun`    {- tAj -}              [ "Taj" ],
 
-    FAL                       `noun`    {- tAj -}              [ "crown", "crowns" ],
+    FAL                       `noun`    {- tAj -}              [ "crown", "crowns" ]
+                              `plural`     FILAn
+                           {- `others`  [ "tiy^gAn N" ] -},
 
     TaFCIL                    `noun`    {- tatowiyj -}         [ "coronation", "crowning" ] ]
 
@@ -399,7 +405,7 @@ lexicon = listing "Lexicon's properties"
 
     FUL                       `noun`    {- tuwm -}             [ "Tom" ],
 
-    FuCL                      `noun`    {- tuwm -}             [ "Tom" ] ]
+    FUL                       `noun`    {- tuwm -}             [ "Tom" ] ]
 
  |> "t w m s" <| [
 
@@ -447,15 +453,15 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FIL
                               `pfirst`     FiL,
 
-    FiCL                      `noun`    {- tiyh -}             [ "desert", "labyrinth" ] ]
+    FIL                       `noun`    {- tiyh -}             [ "desert", "labyrinth" ] ]
 
  |> "t y m" <| [
 
     FACL                      `noun`    {- tAyom -}            [ "TIME" ],
 
-    FiCL                      `noun`    {- tiym -}             [ "Team" ],
+    FIL                       `noun`    {- tiym -}             [ "Team" ],
 
-    FiCL                      `noun`    {- tiym -}             [ "Tim" ] ]
+    FIL                       `noun`    {- tiym -}             [ "Tim" ] ]
 
  |> "t y m r" <| [
 
@@ -471,7 +477,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "t y r y" <| [
 
-    KiRDiS                    `noun`    {- tiyriy -}           [ "Thierry" ] ]
+    KiRDI                     `noun`    {- tiyriy -}           [ "Thierry" ],
+
+    KiRDI                     `noun`    {- tiyriy -}           [ "Thierry" ] ]
 
  |> "tAnyA" <| [
 

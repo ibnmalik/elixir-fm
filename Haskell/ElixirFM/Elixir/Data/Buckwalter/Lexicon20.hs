@@ -236,8 +236,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- faOor -}            [ "mouse", "mice" ]
                               `plural`     FAL
+                              `plural`     FILAn
                               `plural`     FiCLAn
-                           {- `others`  [ "fAr N", "fi'rAn N" ] -},
+                           {- `others`  [ "fAr N", "fiyrAn N", "fi'rAn N" ] -},
 
     -- ;; fA}ir_1
     -- fA}r    fA}ir   N-ap    boiling     [[fA}ir/ADJ]]
@@ -3795,6 +3796,13 @@ lexicon = listing "Lexicon's properties"
 
     KaRDaS |< aT              `noun`    {- faholawap -}        [ "cleverness", "shrewdness" ] ]
 
+ |> "f h l y" <| [
+
+    -- ;; faholawiy~_1
+    -- fhlwy   faholawiy~      Nall    shrewd;clever     [[faholawiy~/ADJ]]
+
+    KaRDY |< Iy               `adj`     {- faholawiy~ -}       [ "shrewd", "clever" ] ]
+
  |> "f h m" <| [
 
     -- ;; fahim-a_1
@@ -5067,9 +5075,9 @@ lexicon = listing "Lexicon's properties"
     -- AflA}   >afolA} Nhy     open country
 
     FaCA |< aT                `noun`    {- falAap -}           [ "open country" ]
+                              `plural`     FaCY |< aT
                               `plural`     HaFCA'
                               `plural`     FaCaL |< At
-                              `plural`     FaCA |< aT
                            {- `others`  [ "'aflA' Nh N0_Nh Nhy" ] -},
 
     -- ;; mafAliy_1
@@ -5523,7 +5531,6 @@ lexicon = listing "Lexicon's properties"
     -- Afny    >afoniy Nap     courtyards
 
     FiCA'                     `noun`    {- finA' -}            [ "courtyard", "courtyards" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT,
 
     -- ;; <ifonA'_1
@@ -6938,13 +6945,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- furo$ap -}          [ "brush", "brushes" ]
                               `plural`     FuCaL
-                           {- `others`  [ "fura^s N" ] -},
-
-    -- ;; furo$Ap_1
-    -- fr$A    furo$A  Napdu   brush
-    -- fr$y    furo$ay NAt     brushes
-
-    FuCLY |< aT               `noun`    {- furo$Ap -}          [ "brush", "brushes" ] ]
+                           {- `others`  [ "fura^s N" ] -} ]
 
  |> "f r ^s .h" <| [
 
@@ -6997,6 +6998,13 @@ lexicon = listing "Lexicon's properties"
     KiRDUS                    `noun`    {- firo$uwr -}         [ "Verschuur" ] ]
 
  |> "f r ^s y" <| [
+
+    -- ;; furo$Ap_1
+    -- fr$A    furo$A  Napdu   brush
+    -- fr$y    furo$ay NAt     brushes
+
+    KuRDY |< aT               `noun`    {- furo$Ap -}          [ "brush", "brushes" ]
+                              `plural`     KuRDaS |< At,
 
     -- ;; furo$Ayap_1
     -- fr$Ay   furo$Ay NapAt   brush
@@ -7396,7 +7404,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; firofiy_1
     -- frfy    firofiy Nprop   Verviers
 
-    KiRDiS                    `noun`    {- firofiy -}          [ "Verviers" ] ]
+    KiRDI                     `noun`    {- firofiy -}          [ "Verviers" ],
+
+    -- ;; firofiy_1
+    -- frfy    firofiy Nprop   Verviers
+
+    KiRDI                     `noun`    {- firofiy -}          [ "Verviers" ] ]
 
  |> "f r h" <| [
 
@@ -9998,7 +10011,7 @@ lexicon = listing "Lexicon's properties"
     -- fwT     fuwT    Napdu   napkin
     -- fwT     fuwaT   N       napkins
 
-    FuCL |< aT                `noun`    {- fuwTap -}           [ "napkin", "napkins" ]
+    FUL |< aT                 `noun`    {- fuwTap -}           [ "napkin", "napkins" ]
                               `plural`     FuCaL
                            {- `others`  [ "fuwa.t N" ] -} ]
 
@@ -10048,7 +10061,7 @@ lexicon = listing "Lexicon's properties"
     -- fwf     fuwf    Ndu     pellicle;membrane
     -- fwf     fuwf    Nap     pellicle;membrane
 
-    FuCL                      `noun`    {- fuwf -}             [ "pellicle", "membrane" ],
+    FUL                       `noun`    {- fuwf -}             [ "pellicle", "membrane" ],
 
     -- ;; mufaw~af_1
     -- mfwf    mufaw~af        N-ap    white-striped
@@ -10078,7 +10091,7 @@ lexicon = listing "Lexicon's properties"
     -- >fwAh   >afowAh N       mouths
     -- AfwAh   >afowAh N       mouths
 
-    FuCL                      `noun`    {- fuwh -}             [ "mouth", "mouths" ]
+    FUL                       `noun`    {- fuwh -}             [ "mouth", "mouths" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'afwAh N" ] -},
 
@@ -10086,14 +10099,14 @@ lexicon = listing "Lexicon's properties"
     -- fwh     fuwh    NapAt   mouth;aperture
     -- fwA}h   fawA}ih Ndip    mouths;apertures
 
-    FuCL |< aT                `noun`    {- fuwhap -}           [ "mouth", "aperture", "mouths", "apertures" ]
+    FUL |< aT                 `noun`    {- fuwhap -}           [ "mouth", "aperture", "mouths", "apertures" ]
                               `plural`     FawA'iL
                            {- `others`  [ "fawA'ih Ndip" ] -},
 
     -- ;; fuwhiy~_1
     -- fwhy    fuwhiy~ N-ap    oral;vocal     [[fuwhiy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- fuwhiy~ -}          [ "oral", "vocal" ],
+    FUL |< Iy                 `adj`     {- fuwhiy~ -}          [ "oral", "vocal" ],
 
     -- ;; >afowah_1
     -- >fwh    >afowah Nel     broad-mouthed
@@ -10112,7 +10125,7 @@ lexicon = listing "Lexicon's properties"
     -- fwl     fuwl    N       beans
     -- fwl     fuwl    NapAt   bean
 
-    FuCL                      `noun`    {- fuwl -}             [ "beans", "bean" ],
+    FUL                       `noun`    {- fuwl -}             [ "beans", "bean" ],
 
     -- ;; faw~Al_1
     -- fwAl    faw~Al  Nall    beans vendor
@@ -10150,14 +10163,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; fuwm_1
     -- fwm     fuwm    N       garlic
 
-    FuCL                      `noun`    {- fuwm -}             [ "garlic" ] ]
+    FUL                       `noun`    {- fuwm -}             [ "garlic" ] ]
 
  |> "f w n" <| [
 
     -- ;; fuwn_1
     -- fwn     fuwn    Nprop   Von;von
 
-    FuCL                      `noun`    {- fuwn -}             [ "Von", "von" ] ]
+    FUL                       `noun`    {- fuwn -}             [ "Von", "von" ] ]
 
  |> "f w n m" <| [
 
@@ -10657,7 +10670,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; musotafiyD_1
     -- mstfyD  musotafiyD      Nall    elaborate;detailed;extensive     [[musotafiyD/ADJ]]
 
-    MustaFiCL                 `adj`     {- musotafiyD -}       [ "elaborate", "detailed", "extensive" ] ]
+    MustaFIL                  `adj`     {- musotafiyD -}       [ "elaborate", "detailed", "extensive" ] ]
 
  |> "f y .h" <| [
 
@@ -10741,19 +10754,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; fiy$_1
     -- fy$     fiy$    N/At    electric plug
 
-    FiCL                      `noun`    {- fiy$ -}             [ "electric plug" ],
+    FIL                       `noun`    {- fiy$ -}             [ "electric plug" ],
 
     -- ;; fiy$ap_1
     -- fy$     fiy$    NapAt   index card
 
-    FiCL |< aT                `noun`    {- fiy$ap -}           [ "index card" ],
+    FIL |< aT                 `noun`    {- fiy$ap -}           [ "index card" ],
 
     -- ;; fiy$_2
     -- fy$     fiy$    N       weak;impotent
     -- >fyA$   >afoyA$ N       weak;impotent
     -- AfyA$   >afoyA$ N       weak;impotent
 
-    FiCL                      `noun`    {- fiy$ -}             [ "weak", "impotent" ]
+    FIL                       `noun`    {- fiy$ -}             [ "weak", "impotent" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'afyA^s N" ] -} ]
 
@@ -10835,7 +10848,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mufiyd_1
     -- mfyd    mufiyd  N-ap    useful;beneficial     [[mufiyd/ADJ]]
 
-    MuFiCL                    `adj`     {- mufiyd -}           [ "useful", "beneficial" ],
+    MuFIL                     `adj`     {- mufiyd -}           [ "useful", "beneficial" ],
 
     -- ;; mufAd_1
     -- mfAd    mufAd   N       meaning;content
@@ -10845,7 +10858,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; musotafiyd_1
     -- mstfyd  musotafiyd      Nall    benefiting;beneficiary;profiting
 
-    MustaFiCL                 `noun`    {- musotafiyd -}       [ "benefiting", "beneficiary", "profiting" ],
+    MustaFIL                  `noun`    {- musotafiyd -}       [ "benefiting", "beneficiary", "profiting" ],
 
     -- ;; musotafAd_1
     -- mstfAd  musotafAd       N       profited;deduced;inferred
@@ -10907,7 +10920,7 @@ lexicon = listing "Lexicon's properties"
     -- >fyAl   >afoyAl N       elephants
     -- AfyAl   >afoyAl N       elephants
 
-    FiCL                      `noun`    {- fiyl -}             [ "elephant", "elephants" ]
+    FIL                       `noun`    {- fiyl -}             [ "elephant", "elephants" ]
                               `plural`     HaFCAL
                               `plural`     FuCUL
                            {- `others`  [ "'afyAl N", "fuyuwl N" ] -},
@@ -10918,7 +10931,7 @@ lexicon = listing "Lexicon's properties"
     -- >fyAl   >afoyAl N       bishops (chess)
     -- AfyAl   >afoyAl N       bishops (chess)
 
-    FiCL                      `noun`    {- fiyl -}             [ "bishop (chess)", "bishops (chess)" ]
+    FIL                       `noun`    {- fiyl -}             [ "bishop (chess)", "bishops (chess)" ]
                               `plural`     HaFCAL
                               `plural`     FuCUL
                            {- `others`  [ "'afyAl N", "fuyuwl N" ] -},
@@ -10973,7 +10986,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; fiyliy_1
     -- fyly    fiyliy  N0      Willy
 
-    KiRDiS                    `noun`    {- fiyliy -}           [ "Willy" ] ]
+    KiRDI                     `noun`    {- fiyliy -}           [ "Willy" ],
+
+    -- ;; fiyliy_1
+    -- fyly    fiyliy  N0      Willy
+
+    KiRDI                     `noun`    {- fiyliy -}           [ "Willy" ] ]
 
  |> "f y m" <| [
 
@@ -11013,17 +11031,17 @@ lexicon = listing "Lexicon's properties"
     -- >fAwyq  >afAwiyq        Ndip    kindness;favors
     -- AfAwyq  >afAwiyq        Ndip    kindness;favors
 
-    FiCL |< aT                `noun`    {- fiyqap -}           [ "kindness", "favor", "favors" ],
+    FIL |< aT                 `noun`    {- fiyqap -}           [ "kindness", "favor", "favors" ],
 
     -- ;; mufiyq_1
     -- mfyq    mufiyq  Nall    awake     [[mufiyq/ADJ]]
 
-    MuFiCL                    `adj`     {- mufiyq -}           [ "awake" ],
+    MuFIL                     `adj`     {- mufiyq -}           [ "awake" ],
 
     -- ;; musotafiyq_1
     -- mstfyq  musotafiyq      Nall    awake     [[musotafiyq/ADJ]]
 
-    MustaFiCL                 `adj`     {- musotafiyq -}       [ "awake" ] ]
+    MustaFIL                  `adj`     {- musotafiyq -}       [ "awake" ] ]
 
  |> "f y r s" <| [
 

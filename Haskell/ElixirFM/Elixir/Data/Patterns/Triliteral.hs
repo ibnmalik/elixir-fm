@@ -371,11 +371,11 @@ instance Rules PatternT where
                         else "i"
 -}
 
-    isDiptote = flip elem [ HaFCaL,
+    isDiptote = flip elem [ HaFCaL, HACaL,
                             FuCLY,
                             FaCLA',
                             FuCaLA',
-                            HaFCiLA',
+                            HaFCiLA', HACiLA',
                             FaCACiL,
                             FaCACIL,
                             FawACiL, FawA'iL,
@@ -435,7 +435,7 @@ data PatternT =
 
                                         |   FaL
                                         |   FiL
-                                        |   FuL
+                                        |   FuL         |   FU
 
     {-- |   FaCL    --}
     {-- |   FiCL    --}
@@ -453,7 +453,7 @@ data PatternT =
         |   FaCLA'
         |   FuCaLA'
 
-    {-- |   FACiL   --}                 |   FA'iL   {-- |   FACI    --}
+    {-- |   FACiL   --}                 |   FA'iL       |   FA'I
 
         |   MaFCUL                      |   MaFUL       |   MaFCIy
 
@@ -497,14 +497,15 @@ data PatternT =
         |   FaCLAn
         |   FaCaLAn
 
-        |   FiCLAn
-        |   FuCLAn
+        |   FiCLAn                      |   FILAn
+        |   FuCLAn                      |   FULAn
 
         |   FuCayL
 
         |   FaCLY
-        |   FiCLY
-        |   FuCLY                                       |   FuCyA
+        |   FiCLY                       |   FILY
+        |   FuCLY                       |   FULY        |   FuCyA
+                                                        |   FUyA
 
 --  Form II
 

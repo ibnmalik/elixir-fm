@@ -160,9 +160,6 @@ sub storeEntry ($$) {
                                   $x =~ s/^N/n/;
                                   $x =~ s/^T/t/;
 
-                                  $x =~ s/U/uw/g;
-                                  $x =~ s/I/iy/g;
-
                                   $x =~ s/(?<=F)t/d/        if $toor[0] =~ /^[zd]$/;
                                   $x =~ s/(?<=F)t/\_d/      if $toor[0] =~ /^\_d$/;
                                   $x =~ s/(?<=F)t/\_t/      if $toor[0] =~ /^\_t$/;
@@ -190,9 +187,14 @@ sub storeEntry ($$) {
 
             next if $form eq $Clone->{'form'};
 
+            my $match = $form;
+
+            $match =~ s/uw(?![aiuAIUY])/U/g;
+            $match =~ s/iy(?![aiuAIUY])/I/g;
+
             for (my $i = 0; $i < @template; $i++) {
 
-                push @{$Clone->{'patterns'}->{$form}}, $pAttErns[$i] if $template[$i] eq $form;
+                push @{$Clone->{'patterns'}->{$form}}, $pAttErns[$i] if $template[$i] eq $match;
             }
         }
     }
@@ -246,13 +248,13 @@ sub closeEntry {
 
     if ($Entry->{'entity'} ne 'verb') {
 
-        if ($entry =~ /^Al(.*)$/) {
+        if ($entry =~ /^Al(.+)$/) {
 
             $entry = $1;
             $prefix = $prefix . 'al >| ';
         }
 
-        if ($entry =~ /^lA(.*)$/) {
+        if ($entry =~ /^lA(.+)$/) {
 
             if ($char ne 'l') {
 
@@ -261,38 +263,38 @@ sub closeEntry {
             }
         }
 
-        if ($entry =~ /^(.*)aN$/) {
+        if ($entry =~ /^(.+)aN$/) {
 
             $entry = $1;
             $suffix = ' |< aN' . $suffix;
         }
 
-        if ($entry =~ /^(.*)aT$/) {
+        if ($entry =~ /^(.+)aT$/) {
 
             $entry = $1;
             $suffix = ' |< aT' . $suffix;
         }
 
-        if ($entry =~ /^(.*)AT$/) {
+        if ($entry =~ /^(.+)AT$/) {
 
             $entry = $1 . "Y";
             $suffix = ' |< aT' . $suffix;
         }
 
-        if ($entry =~ /^(.*)At$/ and $suffix !~ /^ \|\< aT/) {
+        if ($entry =~ /^(.+)At$/ and $suffix !~ /^ \|\< aT/) {
 
             $entry = $1;
             $suffix = ' |< At' . $suffix;
         }
 
-        if ($entry =~ /^(.*)iyy$/) {
+        if ($entry =~ /^(...+)iyy$/) {
 
-            if ($entry =~ /^(.*)awiyy$/) {
+            if ($entry =~ /^(...+)awiyy$/) {
 
                 $entry = $1 . "Y";
                 $suffix = ' |< Iy' . $suffix;
             }
-            elsif ($entry =~ /^(.*(?:o[wy]|ww|yy|A\'))iyy$/) {
+            elsif ($entry =~ /^(.+(?:o[wy]|ww|yy|A\'))iyy$/) {
 
                 $entry = $1;
                 $suffix = ' |< Iy' . $suffix;
@@ -347,15 +349,35 @@ sub closeEntry {
 
         if ($Entry->{'entry'} =~ $pattern) {
 
-            my @toor = (defined $F or defined $C or defined $L) ? ($F, $C, $L) : ($K, $R, $D, $S);
-
-            next if defined $toor[0] and defined $toor[1] and $toor[0] eq $toor[1] or
-                    @toor == 4 and $toor[1] eq $toor[2];
-
             my $ptrn = $patterns{$pattern};
+            my @toor = ();
 
-            $ptrn =~ s/iL$/I/ if defined $toor[2] and $toor[2] eq 'y';
-            $ptrn =~ s/uL$/U/ if defined $toor[2] and $toor[2] eq 'w';
+            if (defined $F or defined $C or defined $L) {
+
+                @toor = ($F, $C, $L);
+
+                next if defined $toor[0] and defined $toor[1] and $toor[0] eq $toor[1];
+
+                $ptrn =~ s/i[F](?![aiuAIUY])/I/     if defined $toor[0] and $toor[0] eq 'y';
+                $ptrn =~ s/u[F](?![aiuAIUY])/U/     if defined $toor[0] and $toor[0] eq 'w';
+
+                $ptrn =~ s/i[C](?![aiuAIUY])/I/     if defined $toor[1] and $toor[1] eq 'y';
+                $ptrn =~ s/u[C](?![aiuAIUY])/U/     if defined $toor[1] and $toor[1] eq 'w';
+
+                $ptrn =~ s/i[L](?![aiuAIUY])/I/     if defined $toor[2] and $toor[2] eq 'y';
+                $ptrn =~ s/u[L](?![aiuAIUY])/U/     if defined $toor[2] and $toor[2] eq 'w';
+            }
+            else {
+
+                @toor = ($K, $R, $D, $S);
+
+                $toor[3] = 'y' unless defined $toor[3];
+
+                next if $toor[0] eq $toor[1] or $toor[1] eq $toor[2];
+
+                $ptrn =~ s/i[S](?![aiuAIUY])/I/     if defined $toor[3] and $toor[3] eq 'y';
+                $ptrn =~ s/u[S](?![aiuAIUY])/U/     if defined $toor[3] and $toor[3] eq 'w';
+            }
 
             push @{$root{join ' ', map { defined $_ ? $_ : '' } @toor}}, $ptrn;
         }
@@ -432,15 +454,25 @@ sub storeType {
 
     my ($form, $type, $tags) = @_;
 
-    if ($Entry->{'form'} =~ /T$/ and $type =~ /^Nap/) {
+    if ($type =~ /^Nap/) {
 
         if ($form =~ /A$/) {
 
-            $form .= 'T'    if $form eq substr $Entry->{'form'}, 0, -1;
+            if ($form . 'T' eq $Entry->{'form'}) {
+
+                $form .= 'T';
+            }
+            else {
+
+                $form =~ s/A$/Y/;
+            }
         }
         else {
 
-            $form .= 'aT'   if $form eq substr $Entry->{'form'}, 0, -2;
+            if ($form . 'aT' eq $Entry->{'form'}) {
+
+                $form .= 'aT';
+            }
         }
     }
 
@@ -458,7 +490,7 @@ sub beginLexicon {
 
     $report = {};
 
-    print STDERR "Processing $ARGV\tinto Lexicon$ID.hs ...\n";
+    print STDERR "Processing $ARGV\tinto Lexicon$ID.pm ...\n";
 }
 
 

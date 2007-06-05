@@ -1182,7 +1182,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwgil_1
     -- mwgl    muwgil  Nall    deep-reaching;deep-rooted     [[muwgil/ADJ]]
 
-    MuFCiL                    `adj`     {- muwgil -}           [ "deep-reaching", "deep-rooted" ] ]
+    MUCiL                     `adj`     {- muwgil -}           [ "deep-reaching", "deep-rooted" ] ]
 
  |> "w .g r" <| [
 
@@ -1318,7 +1318,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwHi$_1
     -- mwH$    muwHi$  N-ap    dreary;depressing
 
-    MuFCiL                    `noun`    {- muwHi$ -}           [ "dreary", "depressing" ],
+    MUCiL                     `noun`    {- muwHi$ -}           [ "dreary", "depressing" ],
 
     -- ;; mutawaH~i$_1
     -- mtwH$   mutawaH~i$      Nall    savage;barbaric     [[mutawaH~i$/ADJ]]
@@ -1527,7 +1527,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwHil_1
     -- mwHl    muwHil  Nall    muddy     [[muwHil/ADJ]]
 
-    MuFCiL                    `adj`     {- muwHil -}           [ "muddy" ] ]
+    MUCiL                     `adj`     {- muwHil -}           [ "muddy" ] ]
 
  |> "w .h m" <| [
 
@@ -1592,7 +1592,6 @@ lexicon = listing "Lexicon's properties"
     -- wHY     wHaY    IV_0_Pass_yu    be inspired
 
     FaCY                      `verb`    {- waHaY-i -}          [ "inspire", "be inspired" ]
-                              `imperf`     CiL
                               `imperf`     CI,
 
     -- ;; >awoHaY_1
@@ -1616,7 +1615,7 @@ lexicon = listing "Lexicon's properties"
     -- AwHy    >uwHiy  PV_Pass-aAat    occur
     -- wHY     wHaY    IV_0_Pass_yu    occur
 
-    HuFCI                     `verb`    {- OuwoHiy -}          [ "occur" ],
+    HUCI                      `verb`    {- OuwoHiy -}          [ "occur" ],
 
     -- ;; {isotawoHaY_1
     -- <stwHY  {isotawoHaY     PV_0    consult;seek advice from;be inspired by
@@ -1661,7 +1660,7 @@ lexicon = listing "Lexicon's properties"
     -- mwH     muwH    Nuwn_Niyn       inspiring
     -- mwHy    muwHiy  NapAt   inspiring
 
-    MuFCI                     `adj`     {- muwHiy -}           [ "inspiring" ],
+    MUCI                      `adj`     {- muwHiy -}           [ "inspiring" ],
 
     -- ;; muwHaY_1
     -- mwHY    muwHaY  N0      inspiration;revelation
@@ -1670,7 +1669,6 @@ lexicon = listing "Lexicon's properties"
     -- mwHy    muwHay  NAt     inspiration;revelation
 
     MUCY                      `noun`    {- muwHaY -}           [ "inspiration", "revelation" ]
-                              `plural`     MuFCaL |< At
                               `plural`     MUCaL |< At
                            {- `others`  [ "muw.hay NAn_Nayn" ] -},
 
@@ -1680,8 +1678,7 @@ lexicon = listing "Lexicon's properties"
     -- mwHy    muwHay  NAn_Nayn        inspiration;revelation
     -- mwHy    muwHay  NAt     inspiration;revelation
 
-    MuFCY                     `noun`    {- muwHaY -}           [ "inspiration", "revelation" ]
-                              `plural`     MuFCaL |< At
+    MUCY                      `noun`    {- muwHaY -}           [ "inspiration", "revelation" ]
                               `plural`     MUCaL |< At
                            {- `others`  [ "muw.hay NAn_Nayn" ] -},
 
@@ -2260,7 +2257,6 @@ lexicon = listing "Lexicon's properties"
     -- twSy    tawoSiy NAt     advice;recommendations
 
     TaFCI |< aT               `noun`    {- tawoSiyap -}        [ "advice", "recommendation", "recommendations" ]
-                              `plural`     TaFCiL |< At
                               `plural`     TaFCI |< At,
 
     -- ;; <iySA'_1
@@ -2301,12 +2297,12 @@ lexicon = listing "Lexicon's properties"
     -- mwS     muwS    Nuwn_Niyn       testator
     -- mwSy    muwSiy  NapAt   testator
 
-    MuFCI                     `noun`    {- muwSiy -}           [ "testator" ],
+    MUCI                      `noun`    {- muwSiy -}           [ "testator" ],
 
     -- ;; muwSaY_1
     -- mwSY    muwSaY  N0      bequeathed;willed
 
-    MuFCY                     `noun`    {- muwSaY -}           [ "bequeathed", "willed" ],
+    MUCY                      `noun`    {- muwSaY -}           [ "bequeathed", "willed" ],
 
     -- ;; muwSaY_1
     -- mwSY    muwSaY  N0      bequeathed;willed
@@ -2941,22 +2937,22 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwjib_1
     -- mwjb    muwjib  Nall    requiring
 
-    MuFCiL                    `noun`    {- muwjib -}           [ "requiring" ],
+    MUCiL                     `noun`    {- muwjib -}           [ "requiring" ],
 
     -- ;; muwjib_2
     -- mwjb    muwjib  NduAt   reason;motive
 
-    MuFCiL                    `noun`    {- muwjib -}           [ "reason", "motive" ],
+    MUCiL                     `noun`    {- muwjib -}           [ "reason", "motive" ],
 
     -- ;; muwjibap_1
     -- mwjb    muwjib  Napdu   cause;reason;motive
 
-    MuFCiL |< aT              `noun`    {- muwjibap -}         [ "cause", "reason", "motive" ],
+    MUCiL |< aT               `noun`    {- muwjibap -}         [ "cause", "reason", "motive" ],
 
     -- ;; muwjab_1
     -- mwjb    muwjab  N-ap    necessary;requisite
 
-    MuFCaL                    `noun`    {- muwjab -}           [ "necessary", "requisite" ],
+    MUCaL                     `noun`    {- muwjab -}           [ "necessary", "requisite" ],
 
     -- ;; musotawojib_1
     -- mstwjb  musotawojib     Nall    deserving;worthy
@@ -3041,7 +3037,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwjid_1
     -- mwjd    muwjid  Nall    originator
 
-    MuFCiL                    `noun`    {- muwjid -}           [ "originator" ],
+    MUCiL                     `noun`    {- muwjid -}           [ "originator" ],
 
     -- ;; mutawAjid_1
     -- mtwAjd  mutawAjid       Nall    present;available
@@ -3435,7 +3431,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwjaz_1
     -- mwjz    muwjaz  NduAt   summary;abstract
 
-    MuFCaL                    `noun`    {- muwjaz -}           [ "summary", "abstract" ] ]
+    MUCaL                     `noun`    {- muwjaz -}           [ "summary", "abstract" ] ]
 
  |> "w ^s '" <| [
 
@@ -3695,7 +3691,6 @@ lexicon = listing "Lexicon's properties"
     -- w$Y     w$aY    IV_0_Pass_yu    be embellished;be denounced
 
     FaCY                      `verb`    {- wa$aY-i -}          [ "embellish", "denounce", "be embellished", "be denounced" ]
-                              `imperf`     CiL
                               `imperf`     CI,
 
     -- ;; wa$~aY_1
@@ -3747,7 +3742,8 @@ lexicon = listing "Lexicon's properties"
     -- wA$y    wA$iy   NapAt   slanderer;denunciator
     -- w$A     wu$A    Nap     slanderers;denunciators
 
-    FACI                      `noun`    {- wA$iy -}            [ "slanderer", "denunciator", "slanderers", "denunciators" ] ]
+    FACI                      `noun`    {- wA$iy -}            [ "slanderer", "denunciator", "slanderers", "denunciators" ]
+                              `plural`     FuCY |< aT ]
 
  |> "w _d r" <| [
 
@@ -3836,7 +3832,6 @@ lexicon = listing "Lexicon's properties"
     -- wxY     wxaY    IV_0_Pass_yu    be intended;be considered
 
     FaCY                      `verb`    {- waxaY-i -}          [ "intend", "consider", "be intended", "be considered" ]
-                              `imperf`     CiL
                               `imperf`     CI,
 
     -- ;; wax~aY_1
@@ -4635,7 +4630,6 @@ lexicon = listing "Lexicon's properties"
     -- wEY     wEaY    IV_0_Pass_yu    be aware of;pay attention to
 
     FaCY                      `verb`    {- waEaY-i -}          [ "be aware of", "pay attention to" ]
-                              `imperf`     CiL
                               `imperf`     CI,
 
     -- ;; waE~aY_1
@@ -4699,9 +4693,7 @@ lexicon = listing "Lexicon's properties"
     -- AwAE    >awAE   NK      containers;receptacles;vessels
 
     FiCA'                     `noun`    {- wiEA' -}            [ "container", "receptacle", "vessel", "containers", "receptacles", "vessels" ]
-                              `plural`     HaFACiL
                               `plural`     HaFACI
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT
                            {- `others`  [ "'awA`iy N0_Nh" ] -},
 
@@ -4754,7 +4746,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwEaz_1
     -- mwEz    muwEaz  N       inspired;suggested     [[muwEaz/ADJ]]
 
-    MuFCaL                    `adj`     {- muwEaz -}           [ "inspired", "suggested" ] ]
+    MUCaL                     `adj`     {- muwEaz -}           [ "inspired", "suggested" ] ]
 
  |> "w b '" <| [
 
@@ -4958,7 +4950,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwbiqap_1
     -- mwbq    muwbiq  NapAt   grave offense;mortal sin
 
-    MuFCiL |< aT              `noun`    {- muwbiqap -}         [ "grave offense", "mortal sin" ] ]
+    MUCiL |< aT               `noun`    {- muwbiqap -}         [ "grave offense", "mortal sin" ] ]
 
  |> "w b r" <| [
 
@@ -5147,17 +5139,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwdiE_1
     -- mwdE    muwdiE  Nall    depositor;consignor
 
-    MuFCiL                    `noun`    {- muwdiE -}           [ "depositor", "consignor" ],
+    MUCiL                     `noun`    {- muwdiE -}           [ "depositor", "consignor" ],
 
     -- ;; muwdiE_2
     -- mwdE    muwdiE  Nall    mild-tempered     [[muwdiE/ADJ]]
 
-    MuFCiL                    `adj`     {- muwdiE -}           [ "mild-tempered" ],
+    MUCiL                     `adj`     {- muwdiE -}           [ "mild-tempered" ],
 
     -- ;; muwdaE_1
     -- mwdE    muwdaE  N-ap    deposited;consigned
 
-    MuFCaL                    `noun`    {- muwdaE -}           [ "deposited", "consigned" ],
+    MUCaL                     `noun`    {- muwdaE -}           [ "deposited", "consigned" ],
 
     -- ;; musotawodiE_1
     -- mstwdE  musotawodiE     Nall    depositor
@@ -5339,7 +5331,6 @@ lexicon = listing "Lexicon's properties"
     -- wdY     wdaY    IV_0_Pass_yu    be paid blood money
 
     FaCY                      `verb`    {- wadaY-i -}          [ "pay blood money", "be paid blood money" ]
-                              `imperf`     CiL
                               `imperf`     CI,
 
     -- ;; >awodaY_1
@@ -5377,7 +5368,6 @@ lexicon = listing "Lexicon's properties"
     -- wdyAn   widoyAn N       wadis;valleys
 
     FACI                      `noun`    {- wAdiy -}            [ "wadi", "valley", "wadis", "valleys" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT
                               `plural`     FiCLAn
                            {- `others`  [ "widyAn N" ] -} ]
@@ -5538,7 +5528,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwfad_1
     -- mwfd    muwfad  Nall    envoy;delegate;appointee
 
-    MuFCaL                    `noun`    {- muwfad -}           [ "envoy", "delegate", "appointee" ] ]
+    MUCaL                     `noun`    {- muwfad -}           [ "envoy", "delegate", "appointee" ] ]
 
  |> "w f q" <| [
 
@@ -5737,7 +5727,6 @@ lexicon = listing "Lexicon's properties"
     -- wfY     wfaY    IV_0_Pass_yu    fulfill;carry out
 
     FaCY                      `verb`    {- wafaY-i -}          [ "fulfill", "carry out" ]
-                              `imperf`     CiL
                               `imperf`     CI,
 
     -- ;; waf~aY_1
@@ -6371,7 +6360,6 @@ lexicon = listing "Lexicon's properties"
     -- hy      hiy     IV_0hAnn        be frail;be fragile
 
     FaCY                      `verb`    {- wahaY-i -}          [ "be frail", "be fragile" ]
-                              `imperf`     CiL
                               `imperf`     CI,
 
     -- ;; >awohaY_1
@@ -6398,7 +6386,8 @@ lexicon = listing "Lexicon's properties"
     -- wAhy    wAhiy   NapAt   feeble;fragile;flimsy
     -- whA     wuhA    Nap     feeble;fragile;flimsy
 
-    FACI                      `adj`     {- wAhiy -}            [ "feeble", "fragile", "flimsy" ] ]
+    FACI                      `adj`     {- wAhiy -}            [ "feeble", "fragile", "flimsy" ]
+                              `plural`     FuCY |< aT ]
 
  |> "w k '" <| [
 
@@ -6693,7 +6682,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwkim_1
     -- mwkm    muwkim  N-ap    hurting;offending
 
-    MuFCiL                    `noun`    {- muwkim -}           [ "hurting", "offending" ] ]
+    MUCiL                     `noun`    {- muwkim -}           [ "hurting", "offending" ] ]
 
  |> "w k n" <| [
 
@@ -6778,7 +6767,6 @@ lexicon = listing "Lexicon's properties"
     -- wkY     wkaY    IV_0_Pass_yu    be tied up
 
     FaCY                      `verb`    {- wakaY-i -}          [ "tie up", "be tied up" ]
-                              `imperf`     CiL
                               `imperf`     CI,
 
     -- ;; wikA'_1
@@ -6789,7 +6777,6 @@ lexicon = listing "Lexicon's properties"
     -- Awky    >awokiy Nap     strings;thongs
 
     FiCA'                     `noun`    {- wikA' -}            [ "string", "thong", "strings", "thongs" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT ]
 
  |> "w k z" <| [
@@ -6971,7 +6958,7 @@ lexicon = listing "Lexicon's properties"
     -- AwlE    >uwliE  PV_Pass be enamored;fall in love
     -- wlE     wlaE    IV_Pass_yu      be enamored;fall in love
 
-    HuFCiL                    `verb`    {- OuwoliE -}          [ "be enamored", "fall in love" ],
+    HUCiL                     `verb`    {- OuwoliE -}          [ "be enamored", "fall in love" ],
 
     -- ;; tawal~aE_1
     -- twlE    tawal~aE        PV      catch fire;burn;be enthusiastic
@@ -7007,7 +6994,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwlaE_1
     -- mwlE    muwlaE  Nall    enamored;passionate
 
-    MuFCaL                    `noun`    {- muwlaE -}           [ "enamored", "passionate" ] ]
+    MUCaL                     `noun`    {- muwlaE -}           [ "enamored", "passionate" ] ]
 
  |> "w l d" <| [
 
@@ -7381,7 +7368,6 @@ lexicon = listing "Lexicon's properties"
     -- l       l       IV_0hwnyn       follow;come after
 
     FaCI                      `verb`    {- waliy-i -}          [ "follow", "come after" ]
-                              `imperf`     CiL
                               `imperf`     CI,
 
     -- ;; wal~aY_1
@@ -7526,7 +7512,6 @@ lexicon = listing "Lexicon's properties"
 
     MaFCY                     `noun`    {- mawolaY -}          [ "master", "lord", "masters", "lords" ]
                               `plural`     MaFCaL
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "mawlay NAn_Nayn", "mawAliy N0_Nh" ] -},
 
@@ -7620,7 +7605,8 @@ lexicon = listing "Lexicon's properties"
     -- wAly    wAliy   NAn_Nayn        ruler;governor
     -- wlA     wulA    Nap     rulers;governors
 
-    FACI                      `noun`    {- wAliy -}            [ "ruler", "governor", "rulers", "governors" ],
+    FACI                      `noun`    {- wAliy -}            [ "ruler", "governor", "rulers", "governors" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; muwAliy_1
     -- mwAly   muwAliy N0F_Nh  partisan;sympathizer
@@ -7750,7 +7736,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwma>_1
     -- mwm>    muwma>  N0_Nh   referred to;above-mentioned     [[muwma>/ADJ]]
 
-    MuFCaL                    `adj`     {- muwmaO -}           [ "referred to", "above-mentioned" ] ]
+    MUCaL                     `adj`     {- muwmaO -}           [ "referred to", "above-mentioned" ] ]
 
  |> "w m .d" <| [
 
@@ -7824,12 +7810,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwmis_1
     -- mwms    muwmis  Ndu     prostitute
 
-    MuFCiL                    `noun`    {- muwmis -}           [ "prostitute" ],
+    MUCiL                     `noun`    {- muwmis -}           [ "prostitute" ],
 
     -- ;; muwmisap_1
     -- mwms    muwmis  NapAt   prostitute
 
-    MuFCiL |< aT              `noun`    {- muwmisap -}         [ "prostitute" ] ]
+    MUCiL |< aT               `noun`    {- muwmisap -}         [ "prostitute" ] ]
 
  |> "w m y" <| [
 
@@ -7842,7 +7828,6 @@ lexicon = listing "Lexicon's properties"
     -- mwAm    mawAm   NK      deserts
 
     MaFCY |< aT               `noun`    {- mawomAp -}          [ "desert", "deserts" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "mawAmiy N0_Nh" ] -} ]
 
@@ -7907,7 +7892,6 @@ lexicon = listing "Lexicon's properties"
     -- ny      niy     IV_0hAnn        become weak;be despondent
 
     FaCY                      `verb`    {- wanaY-i -}          [ "become weak", "be despondent" ]
-                              `imperf`     CiL
                               `imperf`     CI,
 
     -- ;; wan~aY_1
@@ -8442,7 +8426,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwqid_1
     -- mwqd    muwqid  N-ap    scorching hot     [[muwqid/ADJ]]
 
-    MuFCiL                    `adj`     {- muwqid -}           [ "scorching hot" ],
+    MUCiL                     `adj`     {- muwqid -}           [ "scorching hot" ],
 
     -- ;; mutawaq~id_1
     -- mtwqd   mutawaq~id      Nall    burning;blazing     [[mutawaq~id/ADJ]]
@@ -8780,7 +8764,6 @@ lexicon = listing "Lexicon's properties"
     -- wqY     woqaY   IV_0_Pass_yu    be preserved;be safeguarded
 
     FaCY                      `verb`    {- waqaY-i -}          [ "preserve", "safeguard", "be preserved", "be safeguarded" ]
-                              `imperf`     CiL
                               `imperf`     CI,
 
     -- ;; tawaq~aY_1
@@ -9520,7 +9503,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwriq_1
     -- mwrq    muwriq  N-ap    verdant;leafy;green     [[muwriq/ADJ]]
 
-    MuFCiL                    `adj`     {- muwriq -}           [ "verdant", "leafy", "green" ] ]
+    MUCiL                     `adj`     {- muwriq -}           [ "verdant", "leafy", "green" ] ]
 
  |> "w r s" <| [
 
@@ -9546,7 +9529,6 @@ lexicon = listing "Lexicon's properties"
     -- wrY     wraY    IV_0_Pass_yu    be kindled;be lit
 
     FaCY                      `verb`    {- waraY-i -}          [ "kindle", "light", "be kindled", "be lit" ]
-                              `imperf`     CiL
                               `imperf`     CI,
 
     -- ;; war~aY_1
@@ -9935,7 +9917,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwsiE_1
     -- mwsE    muwsiE  Nall    wealthy     [[muwsiE/ADJ]]
 
-    MuFCiL                    `adj`     {- muwsiE -}           [ "wealthy" ] ]
+    MUCiL                     `adj`     {- muwsiE -}           [ "wealthy" ] ]
 
  |> "w s d" <| [
 
@@ -9979,7 +9961,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; wisokiy_1
     -- wsky    wisokiy N0      whisky
 
-    KiRDiS                    `noun`    {- wisokiy -}          [ "whisky" ] ]
+    KiRDI                     `noun`    {- wisokiy -}          [ "whisky" ],
+
+    -- ;; wisokiy_1
+    -- wsky    wisokiy N0      whisky
+
+    KiRDI                     `noun`    {- wisokiy -}          [ "whisky" ] ]
 
  |> "w s l" <| [
 
@@ -10245,9 +10232,7 @@ lexicon = listing "Lexicon's properties"
     -- mwAs    mawAs   NK      straight razors
 
     MUCY                      `noun`    {- muwsaY -}           [ "straight razor", "straight razors" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
-                              `plural`     MuFCaL
                               `plural`     MUCaL
                            {- `others`  [ "mawAsiy N0_Nh", "muwsay NAn_Nayn" ] -},
 
@@ -10258,10 +10243,8 @@ lexicon = listing "Lexicon's properties"
     -- mwAsy   mawAsiy N0_Nh   straight razors
     -- mwAs    mawAs   NK      straight razors
 
-    MuFCY                     `noun`    {- muwsaY -}           [ "straight razor", "straight razors" ]
-                              `plural`     MaFACiL
+    MUCY                      `noun`    {- muwsaY -}           [ "straight razor", "straight razors" ]
                               `plural`     MaFACI
-                              `plural`     MuFCaL
                               `plural`     MUCaL
                            {- `others`  [ "mawAsiy N0_Nh", "muwsay NAn_Nayn" ] -} ]
 
@@ -10411,13 +10394,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; wiyb_1
     -- wyb     wiyb    Nprop   Webb
 
-    FiCL                      `noun`    {- wiyb -}             [ "Webb" ],
+    FIL                       `noun`    {- wiyb -}             [ "Webb" ],
 
     -- ;; wiyb_2
     -- wyb     wiyb    N0      Web
     -- wb      wib~    N0      Web
 
-    FiCL                      `noun`    {- wiyb -}             [ "Web" ],
+    FIL                       `noun`    {- wiyb -}             [ "Web" ],
 
     -- ;; wayobap_1
     -- wyb     wayob   NapAt   wayba (dry measure = 33 liters)
@@ -10429,7 +10412,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; wiykap_1
     -- wyk     wiyk    Nap     okra;gumbo
 
-    FiCL |< aT                `noun`    {- wiykap -}           [ "okra", "gumbo" ] ]
+    FIL |< aT                 `noun`    {- wiykap -}           [ "okra", "gumbo" ] ]
 
  |> "w y l" <| [
 

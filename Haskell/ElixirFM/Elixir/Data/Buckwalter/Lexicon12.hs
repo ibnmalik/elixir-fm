@@ -144,7 +144,9 @@ lexicon = listing "Lexicon's properties"
     -- sAj     sAj     N       teak;Indian oak
     -- syjAn   siyjAn  N       teak;Indian oak
 
-    FAL                       `noun`    {- sAj -}              [ "teak", "Indian oak" ],
+    FAL                       `noun`    {- sAj -}              [ "teak", "Indian oak" ]
+                              `plural`     FILAn
+                           {- `others`  [ "siy^gAn N" ] -},
 
     -- ;; sAjAt_1
     -- sAj     sAj     NAt     castanets
@@ -1018,7 +1020,6 @@ lexicon = listing "Lexicon's properties"
     -- msAH    masAH   NK      spades;shovels
 
     MiFCY |< aT               `noun`    {- misoHAp -}          [ "spade", "shovel", "spades", "shovels" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "masA.hiy N0_Nh" ] -} ]
 
@@ -2319,7 +2320,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; saEodiy_1
     -- sEdy    saEodiy N0      Saadi
 
-    KaRDiS                    `noun`    {- saEodiy -}          [ "Saadi" ] ]
+    KaRDI                     `noun`    {- saEodiy -}          [ "Saadi" ],
+
+    -- ;; saEodiy_1
+    -- sEdy    saEodiy N0      Saadi
+
+    KaRDI                     `noun`    {- saEodiy -}          [ "Saadi" ] ]
 
  |> "s ` f" <| [
 
@@ -2577,7 +2583,6 @@ lexicon = listing "Lexicon's properties"
     -- msAE    masAE   NK      efforts;endeavors
 
     MaFCY                     `noun`    {- masoEaY -}          [ "effort", "endeavor", "efforts", "endeavors" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "masA`iy N0_Nh" ] -},
 
@@ -4023,7 +4028,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `noun`    {- sadaY -}            [ "prevailing trait", "prevailing traits" ]
                               `plural`     FaCA
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT
                            {- `others`  [ "sadA Nhy" ] -},
 
@@ -8193,7 +8197,7 @@ lexicon = listing "Lexicon's properties"
     -- smA     samA    Nap     exalted;sublime
 
     FACI                      `adj`     {- sAmiy -}            [ "exalted", "sublime" ]
-                              `plural`     FaCA |< aT,
+                              `plural`     FaCY |< aT,
 
     -- ;; musam~aY_1
     -- msmY    musam~aY        N0      called;named     [[musam~aY/ADJ]]
@@ -8248,7 +8252,7 @@ lexicon = listing "Lexicon's properties"
     -- smA     samA    Nap     exalted;sublime
 
     FACI                      `adj`     {- sAmiy -}            [ "exalted", "sublime" ]
-                              `plural`     FaCA |< aT,
+                              `plural`     FaCY |< aT,
 
     -- ;; musam~ayAt_1
     -- msmy    musam~ay        NAt     titles;names
@@ -8984,7 +8988,6 @@ lexicon = listing "Lexicon's properties"
     -- swAn    sawAn   NK      water scoops
 
     FACI |< aT                `noun`    {- sAniyap -}          [ "water scoop", "water scoops" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "sawAniy N0_Nh" ] -},
 
@@ -9481,9 +9484,7 @@ lexicon = listing "Lexicon's properties"
     -- AsAq    >asAq   NK      waterskins
 
     FiCA'                     `noun`    {- siqA' -}            [ "waterskin", "waterskins" ]
-                              `plural`     HaFCiL |< At
                               `plural`     HaFCI |< At
-                              `plural`     HaFACiL
                               `plural`     HaFACI
                            {- `others`  [ "'asAqiy N0_Nh" ] -},
 
@@ -9500,7 +9501,6 @@ lexicon = listing "Lexicon's properties"
     -- msAq    masAq   NK      irrigation canals
 
     MiFCY                     `noun`    {- misoqaY -}          [ "irrigation canal", "irrigation canals" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                               `plural`     MiFCaL
                            {- `others`  [ "masAqiy N0_Nh", "misqay NAn_Nayn" ] -},
@@ -9551,7 +9551,8 @@ lexicon = listing "Lexicon's properties"
     -- sAqy    sAqiy   NAn_Nayn        water carrier
     -- sqA     suqA    Nap     water carriers
 
-    FACI                      `noun`    {- sAqiy -}            [ "water carrier", "water carriers" ],
+    FACI                      `noun`    {- sAqiy -}            [ "water carrier", "water carriers" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; sAqiy_2
     -- sAqy    sAqiy   N0      Saqi
@@ -9570,7 +9571,6 @@ lexicon = listing "Lexicon's properties"
     -- swAq    sawAq   NK      irrigation canals;water wheels
 
     FACI |< aT                `noun`    {- sAqiyap -}          [ "irrigation canal", "water wheel", "irrigation canals", "water wheels" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "sawAqiy N0_Nh" ] -} ]
 
@@ -10222,7 +10222,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; sarokiy_1
     -- srky    sarokiy N0      bill of exchange
 
-    KaRDiS                    `noun`    {- sarokiy -}          [ "bill of exchange" ] ]
+    KaRDI                     `noun`    {- sarokiy -}          [ "bill of exchange" ],
+
+    -- ;; sarokiy_1
+    -- srky    sarokiy N0      bill of exchange
+
+    KaRDI                     `noun`    {- sarokiy -}          [ "bill of exchange" ] ]
 
  |> "s r m" <| [
 
@@ -10671,7 +10676,6 @@ lexicon = listing "Lexicon's properties"
     -- tsry    tasoriy NAt     diversions;amusements;pastimes
 
     TaFCI |< aT               `noun`    {- tasoriyap -}        [ "diversion", "amusement", "pastime", "diversions", "amusements", "pastimes" ]
-                              `plural`     TaFCiL |< At
                               `plural`     TaFCI |< At,
 
     -- ;; saraY-i_1
@@ -10735,7 +10739,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- sariy~ -}           [ "brook", "brooks" ]
                               `plural`     FuCLAn
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT
                            {- `others`  [ "suryAn N" ] -},
 
@@ -10781,7 +10784,8 @@ lexicon = listing "Lexicon's properties"
     -- sAry    sAriy   NapAt   circulating
     -- srA     surA    Nap     circulating
 
-    FACI                      `adj`     {- sAriy -}            [ "circulating" ],
+    FACI                      `adj`     {- sAriy -}            [ "circulating" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; sAriyap_1
     -- sAry    sAriy   Nap     mood;atmosphere
@@ -10795,9 +10799,7 @@ lexicon = listing "Lexicon's properties"
     -- swAr    sawAr   NK      columns;shipmasts
 
     FACI |< aT                `noun`    {- sAriyap -}          [ "column", "shipmast", "columns", "shipmasts" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
-                              `plural`     FACiL |< At
                               `plural`     FACI |< At
                            {- `others`  [ "sawAriy N0_Nh" ] -},
 
@@ -11190,7 +11192,7 @@ lexicon = listing "Lexicon's properties"
     -- >swA}   >asowA} Nhy     offenses;bad/ill
     -- AswA}   >asowA} Nhy     offenses;bad/ill
 
-    FuCL                      `noun`    {- suw' -}             [ "offense", "bad/ill", "offenses" ]
+    FUL                       `noun`    {- suw' -}             [ "offense", "bad/ill", "offenses" ]
                               `plural`     HaFCAL
                               `plural`     HaFCA'
                            {- `others`  [ "'aswA' Nh N0_Nh Nhy" ] -},
@@ -11419,7 +11421,6 @@ lexicon = listing "Lexicon's properties"
     -- swAH    suw~AH  N       tourists
 
     FaCCAL                    `noun`    {- saw~AH -}           [ "tourist", "tourists" ]
-                              `plural`     FuCCAL
                               `plural`     FUCAL
                            {- `others`  [ "suwwA.h N" ] -} ]
 
@@ -11558,7 +11559,6 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oasowad -}          [ "black" ]
                               `plural`     FUL
-                              `plural`     FuCL
                               `plural`     FaCLA'
                            {- `others`  [ "suwd N", "sawdA' Nh N0_Nh Nhy" ] -},
 
@@ -11575,13 +11575,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; suwdAn_1
     -- swdAn   suwdAn  N       Sudan
 
-    FuCLAn                    `noun`    {- suwdAn -}           [ "Sudan" ],
+    FULAn                     `noun`    {- suwdAn -}           [ "Sudan" ],
 
     -- ;; suwdAniy~_1
     -- swdAny  suwdAniy~       Nall    Sudanese     [[suwdAniy~/NOUN]]
     -- swdAny  suwdAniy~       Nall    Sudanese     [[suwdAniy~/ADJ]]
 
-    FuCLAn |< Iy              `adj`     {- suwdAniy~ -}        [ "Sudanese" ],
+    FULAn |< Iy               `adj`     {- suwdAniy~ -}        [ "Sudanese" ],
 
     -- ;; tasowiyd_1
     -- tswyd   tasowiyd        Ndu     rough draft
@@ -11607,7 +11607,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; suwd_1
     -- swd     suwd    Nprop   Sud
 
-    FuCL                      `noun`    {- suwd -}             [ "Sud" ] ]
+    FUL                       `noun`    {- suwd -}             [ "Sud" ] ]
 
  |> "s w d n" <| [
 
@@ -11697,7 +11697,6 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- siwAk -}            [ "tooth brush", "tooth brushes" ]
                               `plural`     FUL
-                              `plural`     FuCL
                            {- `others`  [ "suwk N" ] -},
 
     -- ;; misowAk_1
@@ -11832,7 +11831,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; suwmuw_1
     -- swmw    suwmuw  N0      SOMO (State Oil Marketing Organization)
 
-    KuRDuS                    `noun`    {- suwmuw -}           [ "SOMO (State Oil Marketing Organization)" ] ]
+    KuRDU                     `noun`    {- suwmuw -}           [ "SOMO (State Oil Marketing Organization)" ] ]
 
  |> "s w q" <| [
 
@@ -11905,7 +11904,9 @@ lexicon = listing "Lexicon's properties"
     -- sAq     sAq     Ndu     leg
     -- syqAn   siyqAn  N       legs
 
-    FAL                       `noun`    {- sAq -}              [ "leg", "legs" ],
+    FAL                       `noun`    {- sAq -}              [ "leg", "legs" ]
+                              `plural`     FILAn
+                           {- `others`  [ "siyqAn N" ] -},
 
     -- ;; sAqap_1
     -- sAq     sAq     Nap     rear guard
@@ -11917,19 +11918,19 @@ lexicon = listing "Lexicon's properties"
     -- >swAq   >asowAq N       markets
     -- AswAq   >asowAq N       markets
 
-    FuCL                      `noun`    {- suwq -}             [ "market", "markets" ]
+    FUL                       `noun`    {- suwq -}             [ "market", "markets" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'aswAq N" ] -},
 
     -- ;; suwqap_1
     -- swq     suwq    Nap     subjects;rabble
 
-    FuCL |< aT                `noun`    {- suwqap -}           [ "subjects", "rabble" ],
+    FUL |< aT                 `noun`    {- suwqap -}           [ "subjects", "rabble" ],
 
     -- ;; suwqiy~_1
     -- swqy    suwqiy~ N/ap    market;vulgar     [[suwqiy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- suwqiy~ -}          [ "market", "vulgar" ],
+    FUL |< Iy                 `adj`     {- suwqiy~ -}          [ "market", "vulgar" ],
 
     -- ;; sawiyq_1
     -- swyq    sawiyq  N       mush
@@ -12030,7 +12031,7 @@ lexicon = listing "Lexicon's properties"
     -- >swAr   >asowAr N       walls;enclosures
     -- AswAr   >asowAr N       walls;enclosures
 
-    FuCL                      `noun`    {- suwr -}             [ "wall", "enclosure", "walls", "enclosures" ]
+    FUL                       `noun`    {- suwr -}             [ "wall", "enclosure", "walls", "enclosures" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'aswAr N" ] -},
 
@@ -12038,7 +12039,7 @@ lexicon = listing "Lexicon's properties"
     -- swr     suwr    Napdu   Surah;Quranic chapter
     -- swr     suwar   N       Surahs;Quranic chapters
 
-    FuCL |< aT                `noun`    {- suwrap -}           [ "Surah", "Quranic chapter", "Surahs", "Quranic chapters" ]
+    FUL |< aT                 `noun`    {- suwrap -}           [ "Surah", "Quranic chapter", "Surahs", "Quranic chapters" ]
                               `plural`     FuCaL
                            {- `others`  [ "suwar N" ] -},
 
@@ -12065,7 +12066,6 @@ lexicon = listing "Lexicon's properties"
     FiCAL                     `noun`    {- siwAr -}            [ "bracelet" ]
                               `plural`     HaFCiL |< aT
                               `plural`     FUL
-                              `plural`     FuCL
                               `plural`     HaFACiL |< aT
                            {- `others`  [ "suwr N", "'asAwir Ndip" ] -} ]
 
@@ -12112,12 +12112,14 @@ lexicon = listing "Lexicon's properties"
     -- sws     suws    N-ap    woodworm
     -- sysAn   siysAn  N       woodworms
 
-    FuCL                      `noun`    {- suws -}             [ "woodworm", "woodworms" ],
+    FUL                       `noun`    {- suws -}             [ "woodworm", "woodworms" ]
+                              `plural`     FILAn
+                           {- `others`  [ "siysAn N" ] -},
 
     -- ;; suws_2
     -- sws     suws    N-ap    licorice
 
-    FuCL                      `noun`    {- suws -}             [ "licorice" ],
+    FUL                       `noun`    {- suws -}             [ "licorice" ],
 
     -- ;; suwayos_1
     -- swys    suwayos N       Suez
@@ -12127,7 +12129,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; suwsap_1
     -- sws     suws    Nap     Sousse
 
-    FuCL |< aT                `noun`    {- suwsap -}           [ "Sousse" ],
+    FUL |< aT                 `noun`    {- suwsap -}           [ "Sousse" ],
 
     -- ;; tasaw~us_1
     -- tsws    tasaw~us        NduAt   dental caries;rottenness
@@ -12139,7 +12141,6 @@ lexicon = listing "Lexicon's properties"
     -- swAs    suw~As  N       jockeys;drivers
 
     FA'iL                     `noun`    {- sA}is -}            [ "jockey", "driver", "jockeys", "drivers" ]
-                              `plural`     FuCCAL
                               `plural`     FUCAL
                            {- `others`  [ "suwwAs N" ] -},
 
@@ -12165,9 +12166,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; suwtuw_1
     -- swtw    suwtuw  Nprop   Soto
 
-    KuRDuS                    `noun`    {- suwtuw -}           [ "Soto" ] ]
+    KuRDU                     `noun`    {- suwtuw -}           [ "Soto" ] ]
 
  |> "s w w" <| [
+
+    -- ;; suw_1
+    -- sw      suw     Nprop   Sue
+
+    FU                        `noun`    {- suw -}              [ "Sue" ],
 
     -- ;; suw_1
     -- sw      suw     Nprop   Sue
@@ -12273,14 +12279,14 @@ lexicon = listing "Lexicon's properties"
     -- >swyA}  >asowiyA}       Nhy     straight;correct
     -- AswyA}  >asowiyA}       Nhy     straight;correct
 
-    FY |< Iy                  `adj`     {- sawiy~ -}           [ "straight", "correct" ]
+    FaCIL                     `adj`     {- sawiy~ -}           [ "straight", "correct" ]
                               `plural`     HaFCiLA'
                            {- `others`  [ "'aswiyA' Nh N0_Nh Nhy" ] -},
 
     -- ;; sawiy~AF_1
     -- swy     sawiy~  NF      together;jointly;in common     [[sawiy~/ADV]]
 
-    FY |< Iy |< aN            `adj`     {- sawiy~AF -}         [ "together", "jointly", "in common" ]
+    FaCIL |< aN               `noun`    {- sawiy~AF -}         [ "together", "jointly", "in common" ]
                               `plural`     FaCIL
                            {- `others`  [ "sawiyy NF" ] -},
 
@@ -12288,7 +12294,7 @@ lexicon = listing "Lexicon's properties"
     -- swy     sawiy~  Nap     equality     [[sawiy~/NOUN]]
     -- swAyA   sawAyA  N0_Nhy  equality
 
-    FY |< Iy |< aT            `noun`    {- sawiy~ap -}         [ "equality" ],
+    FaCIL |< aT               `noun`    {- sawiy~ap -}         [ "equality" ],
 
     -- ;; siy~_1
     -- sy      siy~    NAn_Nayn        alike;the same
@@ -12398,7 +12404,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; suwzAn_1
     -- swzAn   suwzAn  Nprop   Susan;Suzan;Suzanne
 
-    FuCLAn                    `noun`    {- suwzAn -}           [ "Susan", "Suzan", "Suzanne" ] ]
+    FULAn                     `noun`    {- suwzAn -}           [ "Susan", "Suzan", "Suzanne" ] ]
 
  |> "s y '" <| [
 
@@ -12441,7 +12447,7 @@ lexicon = listing "Lexicon's properties"
     -- msy}    musiy}  Nuwn_Niyn       insulting;harming;pernicious
     -- msy}    musiy}  NapAt   insulting;harming;pernicious
 
-    MuFiCL                    `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ],
+    MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ],
 
     -- ;; say~i'_1
     -- sy'     say~i'  N0      bad
@@ -12604,21 +12610,21 @@ lexicon = listing "Lexicon's properties"
     -- >syAx   >asoyAx N       skewers
     -- AsyAx   >asoyAx N       skewers
 
-    FiCL                      `noun`    {- siyx -}             [ "skewer", "rapier", "skewers" ]
+    FIL                       `noun`    {- siyx -}             [ "skewer", "rapier", "skewers" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'asyA_h N" ] -},
 
     -- ;; siyx_2
     -- syx     siyx    N0      Sikh
 
-    FiCL                      `noun`    {- siyx -}             [ "Sikh" ] ]
+    FIL                       `noun`    {- siyx -}             [ "Sikh" ] ]
 
  |> "s y _t" <| [
 
     -- ;; siyv_1
     -- syv     siyv    Nprop   Seth
 
-    FiCL                      `noun`    {- siyv -}             [ "Seth" ] ]
+    FIL                       `noun`    {- siyv -}             [ "Seth" ] ]
 
  |> "s y b" <| [
 
@@ -12738,7 +12744,7 @@ lexicon = listing "Lexicon's properties"
     -- >syAf   >asoyAf N       river-banks;seasides
     -- AsyAf   >asoyAf N       river-banks;seasides
 
-    FiCL                      `noun`    {- siyf -}             [ "river-bank", "seaside", "river-banks", "seasides" ]
+    FIL                       `noun`    {- siyf -}             [ "river-bank", "seaside", "river-banks", "seasides" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'asyAf N" ] -},
 
@@ -12760,7 +12766,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; siyfAn_1
     -- syfAn   siyfAn  Nprop   Sevan
 
-    FiCLAn                    `noun`    {- siyfAn -}           [ "Sevan" ] ]
+    FILAn                     `noun`    {- siyfAn -}           [ "Sevan" ],
+
+    -- ;; siyfAn_1
+    -- syfAn   siyfAn  Nprop   Sevan
+
+    FILAn                     `noun`    {- siyfAn -}           [ "Sevan" ] ]
 
  |> "s y f n" <| [
 
@@ -12869,7 +12880,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; siylAn_1
     -- sylAn   siylAn  N0      Ceylon
 
-    FiCLAn                    `noun`    {- siylAn -}           [ "Ceylon" ] ]
+    FILAn                     `noun`    {- siylAn -}           [ "Ceylon" ],
+
+    -- ;; siylAn_1
+    -- sylAn   siylAn  N0      Ceylon
+
+    FILAn                     `noun`    {- siylAn -}           [ "Ceylon" ] ]
 
  |> "s y l n" <| [
 
@@ -12900,7 +12916,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; siyn_1
     -- syn     siyn    NduAt   sin (Arabic letter)
 
-    FiCL                      `noun`    {- siyn -}             [ "sin (Arabic letter)" ] ]
+    FIL                       `noun`    {- siyn -}             [ "sin (Arabic letter)" ] ]
 
  |> "s y q" <| [
 
@@ -12984,7 +13000,7 @@ lexicon = listing "Lexicon's properties"
     -- syr     siyr    Nap     biography;epic
     -- syr     siyar   N       biographies;epic
 
-    FiCL |< aT                `noun`    {- siyrap -}           [ "biography", "epic", "biographies" ]
+    FIL |< aT                 `noun`    {- siyrap -}           [ "biography", "epic", "biographies" ]
                               `plural`     FiCaL
                            {- `others`  [ "siyar N" ] -},
 
@@ -13118,7 +13134,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; siytiy_1
     -- syty    siytiy  Nprop   City
 
-    KiRDiS                    `noun`    {- siytiy -}           [ "City" ] ]
+    KiRDI                     `noun`    {- siytiy -}           [ "City" ],
+
+    -- ;; siytiy_1
+    -- syty    siytiy  Nprop   City
+
+    KiRDI                     `noun`    {- siytiy -}           [ "City" ] ]
 
  |> "s y y" <| [
 
@@ -13132,7 +13153,7 @@ lexicon = listing "Lexicon's properties"
     -- AswA}   >asowA} Nhy     alike;the same
     -- swAsy   sawAsiy Nap     alike;the same;equals
 
-    FiCL                      `noun`    {- siy~ -}             [ "alike", "the same", "equals" ] ]
+    FIL                       `noun`    {- siy~ -}             [ "alike", "the same", "equals" ] ]
 
  |> "sA.guw" <| [
 

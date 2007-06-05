@@ -309,7 +309,9 @@ lexicon = listing "Lexicon's properties"
 
  |> ".s b r y" <| [
 
-    KaRDiS                    `noun`    {- Saboriy -}          [ "Sabri", "Sabry" ] ]
+    KaRDI                     `noun`    {- Saboriy -}          [ "Sabri", "Sabry" ],
+
+    KaRDI                     `noun`    {- Saboriy -}          [ "Sabri", "Sabry" ] ]
 
  |> ".s b w" <| [
 
@@ -319,7 +321,6 @@ lexicon = listing "Lexicon's properties"
  |> ".s b y" <| [
 
     FaCIL                     `noun`    {- Sabiy~ -}           [ "young boy", "youth", "young boys", "youths" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT
                               `plural`     FiCL |< aT
                               `plural`     FiCLAn
@@ -953,7 +954,9 @@ lexicon = listing "Lexicon's properties"
 
  |> ".s w '" <| [
 
-    FuCyA                     `noun`    {- SuwyA -}            [ "soya" ] ]
+    FUyA                      `noun`    {- SuwyA -}            [ "soya" ],
+
+    FUyA                      `noun`    {- SuwyA -}            [ "soya" ] ]
 
  |> ".s w .g" <| [
 
@@ -968,7 +971,6 @@ lexicon = listing "Lexicon's properties"
     MaFAL                     `noun`    {- maSAg -}            [ "jewelry" ],
 
     FA'iL                     `noun`    {- SA}ig -}            [ "jeweler", "jewelers" ]
-                              `plural`     FuCCAL
                               `plural`     FUCAL
                               `plural`     FAL |< aT
                            {- `others`  [ ".suwwA.g N" ] -},
@@ -1019,9 +1021,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Sawom -}            [ "fasting", "abstinence" ],
 
-    FA'iL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ]
-                              `plural`     FuCCaL
-                           {- `others`  [ ".suwwam N" ] -} ]
+    FA'iL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ] ]
 
  |> ".s w m `" <| [
 
@@ -1052,13 +1052,13 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- taSaw~ar -}         [ "imagine", "envision", "ponder" ],
 
-    FuCL                      `noun`    {- Suwr -}             [ "Tyre" ],
+    FUL                       `noun`    {- Suwr -}             [ "Tyre" ],
 
-    FuCL |< aT                `noun`    {- Suwrap -}           [ "picture", "image", "illustration", "photo", "pictures", "photographs", "illustrations", "photos" ]
+    FUL |< aT                 `noun`    {- Suwrap -}           [ "picture", "image", "illustration", "photo", "pictures", "photographs", "illustrations", "photos" ]
                               `plural`     FuCaL
                            {- `others`  [ ".suwar N" ] -},
 
-    FuCL |< aT                `noun`    {- Suwrap -}           [ "manner", "way", "form" ],
+    FUL |< aT                 `noun`    {- Suwrap -}           [ "manner", "way", "form" ],
 
     FuCaL |< Iy               `adj`     {- Suwariy~ -}         [ "formal" ],
 
@@ -1094,7 +1094,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".s y .g" <| [
 
-    FiCL |< aT                `noun`    {- Siygap -}           [ "form", "shape", "formula", "forms", "shapes", "formulas" ]
+    FIL |< aT                 `noun`    {- Siygap -}           [ "form", "shape", "formula", "forms", "shapes", "formulas" ]
                               `plural`     FiCaL
                            {- `others`  [ ".siya.g N" ] -},
 
@@ -1144,11 +1144,11 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- SiyAnap -}          [ "maintenance", "preservation" ],
 
-    FiCL                      `noun`    {- Siyn -}             [ "China" ],
+    FIL                       `noun`    {- Siyn -}             [ "China" ],
 
-    FiCL |< Iy                `adj`     {- Siyniy~ -}          [ "Chinese" ],
+    FIL |< Iy                 `adj`     {- Siyniy~ -}          [ "Chinese" ],
 
-    FiCL |< Iy |< aT          `noun`    {- Siyniy~ap -}        [ "porcelain", "china" ] ]
+    FIL |< Iy |< aT           `noun`    {- Siyniy~ap -}        [ "porcelain", "china" ] ]
 
  |> ".s y r" <| [
 

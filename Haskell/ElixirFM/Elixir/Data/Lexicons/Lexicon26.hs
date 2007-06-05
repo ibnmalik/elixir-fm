@@ -260,7 +260,8 @@ lexicon = listing "Lexicon's properties"
 
     HiFCA'                    `noun`    {- IihodA' -}          [ "presenting", "leading" ],
 
-    FACI                      `noun`    {- hAdiy -}            [ "leader", "guide", "leaders", "guides" ],
+    FACI                      `noun`    {- hAdiy -}            [ "leader", "guide", "leaders", "guides" ]
+                              `plural`     FuCY |< aT,
 
     FACI                      `noun`    {- hAdiy -}            [ "Hadi" ],
 
@@ -483,7 +484,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "h n r y" <| [
 
-    KiRDiS                    `noun`    {- hinoriy -}          [ "Henry", "Henri" ] ]
+    KiRDI                     `noun`    {- hinoriy -}          [ "Henry", "Henri" ],
+
+    KiRDI                     `noun`    {- hinoriy -}          [ "Henry", "Henri" ] ]
 
  |> "h n y" <| [
 
@@ -616,7 +619,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "h w .g w" <| [
 
-    KuRDuS                    `noun`    {- huwguw -}           [ "Hugo" ] ]
+    KuRDU                     `noun`    {- huwguw -}           [ "Hugo" ] ]
+
+ |> "h w .g y" <| [
+
+    KuRDU                     `noun`    {- huwguw -}           [ "Hugo" ] ]
 
  |> "h w b r" <| [
 
@@ -632,7 +639,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "h w k" <| [
 
-    FuCL                      `noun`    {- huwk -}             [ "Hawk" ] ]
+    FUL                       `noun`    {- huwk -}             [ "Hawk" ] ]
 
  |> "h w l" <| [
 
@@ -688,7 +695,9 @@ lexicon = listing "Lexicon's properties"
 
     FU                        `noun`    {- huw -}              [ "Ho (in \"Ho Chi Minh\")" ],
 
-    FuCL |< aT                `noun`    {- huw~ap -}           [ "abyss", "chasm", "abysses", "chasms" ]
+    FU                        `noun`    {- huw -}              [ "Ho (in \"Ho Chi Minh\")" ],
+
+    FUL |< aT                 `noun`    {- huw~ap -}           [ "abyss", "chasm", "abysses", "chasms" ]
                               `plural`     FuCY
                            {- `others`  [ "huwY N0" ] -},
 
@@ -708,7 +717,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
                               `plural`     HaFCA'
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT
                            {- `others`  [ "'ahwA' Nh N0_Nh Nhy" ] -},
 
@@ -718,7 +726,8 @@ lexicon = listing "Lexicon's properties"
 
     TaFCI |< aT               `noun`    {- tahowiyap -}        [ "ventilation" ],
 
-    FACI                      `noun`    {- hAwiy -}            [ "amateur", "enthusiast", "lover of", "amateurs", "enthusiasts", "lovers of" ],
+    FACI                      `noun`    {- hAwiy -}            [ "amateur", "enthusiast", "lover of", "amateurs", "enthusiasts", "lovers of" ]
+                              `plural`     FuCY |< aT,
 
     FACI |< aT                `noun`    {- hAwiyap -}          [ "crevasse", "precipice" ] ]
 
@@ -761,7 +770,7 @@ lexicon = listing "Lexicon's properties"
 
     MaFAL |< aT               `noun`    {- mahAbap -}          [ "fear", "respect" ],
 
-    MuFiCL                    `adj`     {- muhiyb -}           [ "awesome", "dignified" ] ]
+    MuFIL                     `adj`     {- muhiyb -}           [ "awesome", "dignified" ] ]
 
  |> "h y k l" <| [
 
@@ -781,7 +790,7 @@ lexicon = listing "Lexicon's properties"
 
     InFAL                     `verb`    {- AinohAl -}          [ "shower", "rain down", "precipitate" ],
 
-    FiCL                      `noun`    {- hiyol -}            [ "Hill" ] ]
+    FIL                       `noun`    {- hiyol -}            [ "Hill" ] ]
 
  |> "h y m n" <| [
 
@@ -795,7 +804,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "h y n" <| [
 
-    MuFiCL                    `adj`     {- muhiyn -}           [ "insulting", "contemptuous" ] ]
+    MuFIL                     `adj`     {- muhiyn -}           [ "insulting", "contemptuous" ] ]
 
  |> "h y r" <| [
 

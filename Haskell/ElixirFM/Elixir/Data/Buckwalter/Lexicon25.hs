@@ -130,15 +130,6 @@ lexicon = listing "Lexicon's properties"
 
     Identity                  `noun`    {- mutanab~iy~ -}      [ "would-be-prophet" ] ]
 
- |> "n" <| [
-
-    -- ;; niy~_1
-    -- ny      niy~    N-ap    raw;uncooked     [[niy~/ADJ]]
-    -- ny'     niy'    N-ap    raw;uncooked
-    -- ny}     niy}    N-ap    raw;uncooked
-
-    Identity |< Iy            `adj`     {- niy~ -}             [ "raw", "uncooked" ] ]
-
  |> "n ' .h" <| [
 
     -- ;; nA}iHap_1
@@ -1662,7 +1653,8 @@ lexicon = listing "Lexicon's properties"
     -- nAHy    nAHiy   NAn_Nayn        grammarian
     -- nHA     nuHA    Nap     grammarians
 
-    FACI                      `noun`    {- nAHiy -}            [ "grammarian", "grammarians" ],
+    FACI                      `noun`    {- nAHiy -}            [ "grammarian", "grammarians" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; nAHiyap_1
     -- nAHy    nAHiy   Napdu   side;perspective
@@ -1693,7 +1685,8 @@ lexicon = listing "Lexicon's properties"
     -- nAHy    nAHiy   NAn_Nayn        grammarian
     -- nHA     nuHA    Nap     grammarians
 
-    FACI                      `noun`    {- nAHiy -}            [ "grammarian", "grammarians" ],
+    FACI                      `noun`    {- nAHiy -}            [ "grammarian", "grammarians" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; nAHiyap_1
     -- nAHy    nAHiy   Napdu   side;perspective
@@ -1701,7 +1694,6 @@ lexicon = listing "Lexicon's properties"
     -- nwAH    nawAH   NK      sides;perspectives;areas;regions
 
     FACI |< aT                `noun`    {- nAHiyap -}          [ "side", "perspective", "sides", "perspectives", "areas", "regions" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "nawA.hiy N0_Nh" ] -} ]
 
@@ -2458,7 +2450,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; naSoriy_1
     -- nSry    naSoriy N0      Nasri
 
-    KaRDiS                    `noun`    {- naSoriy -}          [ "Nasri" ] ]
+    KaRDI                     `noun`    {- naSoriy -}          [ "Nasri" ],
+
+    -- ;; naSoriy_1
+    -- nSry    naSoriy N0      Nasri
+
+    KaRDI                     `noun`    {- naSoriy -}          [ "Nasri" ] ]
 
  |> "n .s t" <| [
 
@@ -2513,7 +2510,6 @@ lexicon = listing "Lexicon's properties"
     -- nwAS    nawAS   NK      corners;affairs;situation
 
     FACI |< aT                `noun`    {- nASiyap -}          [ "corner", "affairs", "situation", "corners" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "nawA.siy N0_Nh" ] -} ]
 
@@ -4255,7 +4251,6 @@ lexicon = listing "Lexicon's properties"
     -- Anjy    >anojiy Nap     secrets
 
     FaCIL                     `noun`    {- najiy~ -}           [ "secret", "secrets" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT,
 
     -- ;; najiy~_2
@@ -5285,7 +5280,9 @@ lexicon = listing "Lexicon's properties"
     -- n$AwY   na$AwaY N0      intoxicated
     -- n$AwA   na$AwA  Nhy     intoxicated
 
-    KaRDAS                    `noun`    {- na$owAn -}          [ "intoxicated" ] ]
+    KaRDAS                    `noun`    {- na$owAn -}          [ "intoxicated" ]
+                              `plural`     KaRDY
+                           {- `others`  [ "na^swY N0" ] -} ]
 
  |> "n ^s w y" <| [
 
@@ -6669,7 +6666,6 @@ lexicon = listing "Lexicon's properties"
     -- mnAE    manAE   NK      obituaries
 
     MaFCY                     `noun`    {- manoEaY -}          [ "obituary", "obituaries" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "manA`iy N0_Nh" ] -} ]
 
@@ -8523,9 +8519,7 @@ lexicon = listing "Lexicon's properties"
     -- nwAd    nawAd   NK      clubs;associations
 
     FACI                      `noun`    {- nAdiy -}            [ "club", "association", "clubs", "associations" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT
                            {- `others`  [ "nawAdiy N0_Nh" ] -},
 
@@ -8559,7 +8553,7 @@ lexicon = listing "Lexicon's properties"
     -- nfA     nafA    Nap     refuse;discarded item
 
     FaCAL                     `noun`    {- nafA' -}            [ "refuse", "discarded item" ]
-                              `plural`     FaCA |< aT,
+                              `plural`     FaCY |< aT,
 
     -- ;; {inotifA'_1
     -- <ntfA'  {inotifA'       N0_Nh   absence;lack
@@ -9786,7 +9780,7 @@ lexicon = listing "Lexicon's properties"
     -- nfA     nafA    Nap     refuse;discarded item
 
     FaCA'                     `noun`    {- nafA' -}            [ "refuse", "discarded item" ]
-                              `plural`     FaCA |< aT,
+                              `plural`     FaCY |< aT,
 
     -- ;; nufAwap_1
     -- nfAw    nufAw   Nap     refused;discarded item
@@ -9883,7 +9877,6 @@ lexicon = listing "Lexicon's properties"
     -- nAfy    nAfiy   NF      denying;disavowing;rejecting
 
     FACI |< aN                `noun`    {- nAfiyAF -}          [ "denying", "disavowing", "rejecting" ]
-                              `plural`     FACiL
                               `plural`     FACI
                            {- `others`  [ "nAfiy NF" ] -},
 
@@ -10780,7 +10773,6 @@ lexicon = listing "Lexicon's properties"
     -- nwAh    nawAh   NK      proscriptions;prohibition orders
 
     FACI |< aT                `noun`    {- nAhiyap -}          [ "ban", "proscription", "proscriptions", "prohibition orders" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "nawAhiy N0_Nh" ] -},
 
@@ -12212,7 +12204,6 @@ lexicon = listing "Lexicon's properties"
     -- nwAm    nawAm   NK      tumors
 
     FACI                      `noun`    {- nAmiy -}            [ "tumors" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "nawAmiy N0_Nh" ] -},
 
@@ -15354,7 +15345,7 @@ lexicon = listing "Lexicon's properties"
     -- nw|n    nuw|n   N       storms;hurricanes
 
     FaCL                      `noun`    {- nawo' -}            [ "storm", "hurricane", "storms", "hurricanes" ]
-                              `plural`     FuCLAn
+                              `plural`     FULAn
                               `plural`     HaFCAL
                               `plural`     HaFCA'
                            {- `others`  [ "nuw'An N", "'anwA' Nh N0_Nh Nhy" ] -},
@@ -15410,7 +15401,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; nuwH_1
     -- nwH     nuwH    N       Noah
 
-    FuCL                      `noun`    {- nuwH -}             [ "Noah" ],
+    FUL                       `noun`    {- nuwH -}             [ "Noah" ],
 
     -- ;; nawoH_1
     -- nwH     nawoH   N       weeping;mourning
@@ -15760,7 +15751,7 @@ lexicon = listing "Lexicon's properties"
     -- nwb     nuwb    Nap     mishap
     -- nwb     nuwab   N       mishaps
 
-    FuCL |< aT                `noun`    {- nuwbap -}           [ "mishap", "mishaps" ]
+    FUL |< aT                 `noun`    {- nuwbap -}           [ "mishap", "mishaps" ]
                               `plural`     FuCaL
                            {- `others`  [ "nuwab N" ] -},
 
@@ -15790,7 +15781,6 @@ lexicon = listing "Lexicon's properties"
     -- nwAb    nuw~Ab  N       deputies;delegates
 
     FA'iL                     `noun`    {- nA}ib -}            [ "deputy", "delegate", "vice-", "deputies", "delegates" ]
-                              `plural`     FuCCAL
                               `plural`     FUCAL
                            {- `others`  [ "nuwwAb N" ] -},
 
@@ -15837,9 +15827,8 @@ lexicon = listing "Lexicon's properties"
     -- nwby    nuwbiy~ Nall    Nubian     [[nuwbiy~/ADJ]]
     -- nwb     nuwb    Nap     Nubians
 
-    FuCL |< Iy                `adj`     {- nuwbiy~ -}          [ "Nubian", "Nubians" ]
-                              `plural`     FUL |< aT
-                              `plural`     FuCL |< aT ]
+    FUL |< Iy                 `adj`     {- nuwbiy~ -}          [ "Nubian", "Nubians" ]
+                              `plural`     FUL |< aT ]
 
  |> "n w d" <| [
 
@@ -16170,10 +16159,8 @@ lexicon = listing "Lexicon's properties"
     -- nyAm    nuy~Am  N       sleeping;asleep
 
     FA'iL                     `adj`     {- nA}im -}            [ "sleeping", "asleep" ]
-                              `plural`     FuCCAL
                               `plural`     FUCAL
-                              `plural`     FuCCaL
-                           {- `others`  [ "nuwwAm N", "nuwwam N" ] -},
+                           {- `others`  [ "nuwwAm N" ] -},
 
     -- ;; munaw~im_1
     -- mnwm    munaw~im        N-ap    sleep-inducing
@@ -16201,7 +16188,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; nuwn_1
     -- nwn     nuwn    NduAt   nun (Arabic letter)
 
-    FuCL                      `noun`    {- nuwn -}             [ "nun (Arabic letter)" ],
+    FUL                       `noun`    {- nuwn -}             [ "nun (Arabic letter)" ],
 
     -- ;; nuwn_2
     -- nwn     nuwn    Ndu     whale
@@ -16209,19 +16196,20 @@ lexicon = listing "Lexicon's properties"
     -- >nwAn   >anowAn N       whales
     -- AnwAn   >anowAn N       whales
 
-    FuCL                      `noun`    {- nuwn -}             [ "whale", "whales" ]
+    FUL                       `noun`    {- nuwn -}             [ "whale", "whales" ]
+                              `plural`     FILAn
                               `plural`     HaFCAL
-                           {- `others`  [ "'anwAn N" ] -},
+                           {- `others`  [ "niynAn N", "'anwAn N" ] -},
 
     -- ;; nuwniy~_1
     -- nwny    nuwniy~ N-ap    crescent-shaped     [[nuwniy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- nuwniy~ -}          [ "crescent-shaped" ],
+    FUL |< Iy                 `adj`     {- nuwniy~ -}          [ "crescent-shaped" ],
 
     -- ;; nuwnap_1
     -- nwn     nuwn    Napdu   dimple
 
-    FuCL |< aT                `noun`    {- nuwnap -}           [ "dimple" ],
+    FUL |< aT                 `noun`    {- nuwnap -}           [ "dimple" ],
 
     -- ;; tanowiyn_1
     -- tnwyn   tanowiyn        N       nunnation (insertion of case endings)
@@ -16233,7 +16221,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; nuwnuw_1
     -- nwnw    nuwnuw  Nprop   Nuno
 
-    KuRDuS                    `noun`    {- nuwnuw -}           [ "Nuno" ] ]
+    KuRDU                     `noun`    {- nuwnuw -}           [ "Nuno" ] ]
 
  |> "n w q" <| [
 
@@ -16257,7 +16245,6 @@ lexicon = listing "Lexicon's properties"
 
     FAL |< aT                 `noun`    {- nAqap -}            [ "she-camel", "she-camels" ]
                               `plural`     FUL
-                              `plural`     FuCL
                            {- `others`  [ "nuwq N" ] -},
 
     -- ;; >anowaq_1
@@ -16320,7 +16307,9 @@ lexicon = listing "Lexicon's properties"
     -- nAr     nAr     N       fire
     -- nyrAn   niyrAn  N       fire;fires
 
-    FAL                       `noun`    {- nAr -}              [ "fire", "fires" ],
+    FAL                       `noun`    {- nAr -}              [ "fire", "fires" ]
+                              `plural`     FILAn
+                           {- `others`  [ "niyrAn N" ] -},
 
     -- ;; nAriy~_1
     -- nAry    nAriy~  N-ap    fire     [[nAriy~/ADJ]]
@@ -16330,31 +16319,31 @@ lexicon = listing "Lexicon's properties"
     -- ;; nuwr_1
     -- nwr     nuwr    N0      Nour;Noor
 
-    FuCL                      `noun`    {- nuwr -}             [ "Nour", "Noor" ],
+    FUL                       `noun`    {- nuwr -}             [ "Nour", "Noor" ],
 
     -- ;; nuwr_2
     -- nwr     nuwr    Ndu     light
     -- >nwAr   >anowAr N       lights
     -- AnwAr   >anowAr N       lights
 
-    FuCL                      `noun`    {- nuwr -}             [ "light", "lights" ]
+    FUL                       `noun`    {- nuwr -}             [ "light", "lights" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'anwAr N" ] -},
 
     -- ;; nuwriy~_1
     -- nwry    nuwriy~ N-ap    light;lighting;shining     [[nuwriy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- nuwriy~ -}          [ "light", "lighting", "shining" ],
+    FUL |< Iy                 `adj`     {- nuwriy~ -}          [ "light", "lighting", "shining" ],
 
     -- ;; nuwrAniy~_1
     -- nwrAny  nuwrAniy~       N-ap    luminous     [[nuwrAniy~/ADJ]]
 
-    FuCLAn |< Iy              `adj`     {- nuwrAniy~ -}        [ "luminous" ],
+    FULAn |< Iy               `adj`     {- nuwrAniy~ -}        [ "luminous" ],
 
     -- ;; nuwrAniy~ap_1
     -- nwrAny  nuwrAniy~       Nap     luminosity;brilliance     [[nuwrAniy~/NOUN]]
 
-    FuCLAn |< Iy |< aT        `noun`    {- nuwrAniy~ap -}      [ "luminosity", "brilliance" ],
+    FULAn |< Iy |< aT         `noun`    {- nuwrAniy~ap -}      [ "luminosity", "brilliance" ],
 
     -- ;; naworap_1
     -- nwr     nawor   NapAt   blossom
@@ -16364,7 +16353,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; nuwrap_1
     -- nwr     nuwr    Nap     lime
 
-    FuCL |< aT                `noun`    {- nuwrap -}           [ "lime" ],
+    FUL |< aT                 `noun`    {- nuwrap -}           [ "lime" ],
 
     -- ;; >anowar_2
     -- >nwr    >anowar Nprop   Anwar
@@ -16458,7 +16447,7 @@ lexicon = listing "Lexicon's properties"
     -- nwAr    nuw~Ar  Napdu   blossom
     -- nwAwyr  nawAwiyr        Ndip    blossoms
 
-    FuCCAL                    `noun`    {- nuw~Ar -}           [ "blossoms", "blossom" ]
+    FUCAL                     `noun`    {- nuw~Ar -}           [ "blossoms", "blossom" ]
                               `plural`     FaCACIL
                               `plural`     FawACIL
                            {- `others`  [ "nawAwiyr Ndip" ] -},
@@ -16586,12 +16575,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; nuwt_1
     -- nwt     nuwt    N       music note
 
-    FuCL                      `noun`    {- nuwt -}             [ "music note" ],
+    FUL                       `noun`    {- nuwt -}             [ "music note" ],
 
     -- ;; nuwtap_1
     -- nwt     nuwt    Napdu   music note
 
-    FuCL |< aT                `noun`    {- nuwtap -}           [ "music note" ],
+    FUL |< aT                 `noun`    {- nuwtap -}           [ "music note" ],
 
     -- ;; tanowiyt_1
     -- tnwyt   tanowiyt        N/At    musical notation;scoring
@@ -16603,7 +16592,7 @@ lexicon = listing "Lexicon's properties"
     -- nwAty   nawAtiy~        N       crew;sailors
     -- nwty    nuwtiy~ Nap     crew;sailors     [[nuwtiy~/NOUN]]
 
-    FuCL |< Iy                `noun`    {- nuwtiy~ -}          [ "sailor", "skipper", "crew", "sailors" ] ]
+    FUL |< Iy                 `noun`    {- nuwtiy~ -}          [ "sailor", "skipper", "crew", "sailors" ] ]
 
  |> "n w y" <| [
 
@@ -16661,7 +16650,6 @@ lexicon = listing "Lexicon's properties"
     -- Anwy    >anowiy Nap     nuclei;cores
 
     FaCY |< aT                `noun`    {- nawAp -}            [ "nucleus", "core", "nuclei", "cores" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT
                               `plural`     FaCaL |< At,
 
@@ -16774,7 +16762,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muniyb_1
     -- mnyb    muniyb  Nall    repentant
 
-    MuFiCL                    `noun`    {- muniyb -}           [ "repentant" ],
+    MuFIL                     `noun`    {- muniyb -}           [ "repentant" ],
 
     -- ;; nAb_1
     -- nAb     nAb     Ndu     canine tooth;fang;tusk
@@ -16792,7 +16780,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; niyb_1
     -- nyb     niyb    N       old she-camel
 
-    FiCL                      `noun`    {- niyb -}             [ "old she-camel" ] ]
+    FIL                       `noun`    {- niyb -}             [ "old she-camel" ] ]
 
  |> "n y f" <| [
 
@@ -16820,12 +16808,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; muniyf_1
     -- mnyf    muniyf  Nall    lofty;sublime;outstanding
 
-    MuFiCL                    `noun`    {- muniyf -}           [ "lofty", "sublime", "outstanding" ],
+    MuFIL                     `noun`    {- muniyf -}           [ "lofty", "sublime", "outstanding" ],
 
     -- ;; muniyf_2
     -- mnyf    muniyf  N0      Mounif;Muneef
 
-    MuFiCL                    `noun`    {- muniyf -}           [ "Mounif", "Muneef" ] ]
+    MuFIL                     `noun`    {- muniyf -}           [ "Mounif", "Muneef" ] ]
 
  |> "n y k" <| [
 
@@ -16842,7 +16830,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; niykap_1
     -- nyk     niyk    Napdu   have sex with
 
-    FiCL |< aT                `noun`    {- niykap -}           [ "have sex with" ],
+    FIL |< aT                 `noun`    {- niykap -}           [ "have sex with" ],
 
     -- ;; manoyak_1
     -- mnyk    manoyak Ndu     fucker
@@ -16909,23 +16897,23 @@ lexicon = listing "Lexicon's properties"
     -- ;; niyl_1
     -- nyl     niyl    N       indigo
 
-    FiCL                      `noun`    {- niyl -}             [ "indigo" ],
+    FIL                       `noun`    {- niyl -}             [ "indigo" ],
 
     -- ;; niylap_1
     -- nyl     niyl    Nap     indigo
 
-    FiCL |< aT                `noun`    {- niylap -}           [ "indigo" ],
+    FIL |< aT                 `noun`    {- niylap -}           [ "indigo" ],
 
     -- ;; niyl_2
     -- nyl     niyl    N       Nile
 
-    FiCL                      `noun`    {- niyl -}             [ "Nile" ],
+    FIL                       `noun`    {- niyl -}             [ "Nile" ],
 
     -- ;; niyliy~_1
     -- nyly    niyliy~ Nall    Nilotic;of the Nile     [[niyliy~/NOUN]]
     -- nyly    niyliy~ Nall    Nilotic;of the Nile     [[niyliy~/ADJ]]
 
-    FiCL |< Iy                `adj`     {- niyliy~ -}          [ "Nilotic", "of the Nile" ],
+    FIL |< Iy                 `adj`     {- niyliy~ -}          [ "Nilotic", "of the Nile" ],
 
     -- ;; manoyal_1
     -- mnyl    manoyal N       nilometer
@@ -16983,48 +16971,58 @@ lexicon = listing "Lexicon's properties"
     -- ;; muniyr_1
     -- mnyr    muniyr  N0      Munir
 
-    MuFiCL                    `noun`    {- muniyr -}           [ "Munir" ],
+    MuFIL                     `noun`    {- muniyr -}           [ "Munir" ],
 
     -- ;; muniyr_2
     -- mnyr    muniyr  N-ap    shining;radiant;luminous     [[muniyr/ADJ]]
 
-    MuFiCL                    `adj`     {- muniyr -}           [ "shining", "radiant", "luminous" ],
+    MuFIL                     `adj`     {- muniyr -}           [ "shining", "radiant", "luminous" ],
 
     -- ;; muniyrap_1
     -- mnyrp   muniyrap        N0      Munira
 
-    MuFiCL |< aT              `noun`    {- muniyrap -}         [ "Munira" ],
+    MuFIL |< aT               `noun`    {- muniyrap -}         [ "Munira" ],
 
     -- ;; musotaniyr_1
     -- mstnyr  musotaniyr      Nall    illuminated;enlightened     [[musotaniyr/ADJ]]
 
-    MustaFiCL                 `adj`     {- musotaniyr -}       [ "illuminated", "enlightened" ],
+    MustaFIL                  `adj`     {- musotaniyr -}       [ "illuminated", "enlightened" ],
 
     -- ;; niyr_1
     -- nyr     niyr    N       yoke
     -- >nyAr   >anoyAr N       yokes
     -- AnyAr   >anoyAr N       yokes
 
-    FiCL                      `noun`    {- niyr -}             [ "yoke", "yokes" ]
+    FIL                       `noun`    {- niyr -}             [ "yoke", "yokes" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'anyAr N" ] -},
 
     -- ;; niyrap_1
     -- nyr     niyr    Nap     gums of the teeth
 
-    FiCL |< aT                `noun`    {- niyrap -}           [ "gums of the teeth" ] ]
+    FIL |< aT                 `noun`    {- niyrap -}           [ "gums of the teeth" ] ]
 
  |> "n y s" <| [
 
     -- ;; niysAn_1
     -- nysAn   niysAn  N0      April
 
-    FiCLAn                    `noun`    {- niysAn -}           [ "April" ],
+    FILAn                     `noun`    {- niysAn -}           [ "April" ],
+
+    -- ;; niysAn_1
+    -- nysAn   niysAn  N0      April
+
+    FILAn                     `noun`    {- niysAn -}           [ "April" ],
 
     -- ;; niysAn_2
     -- nysAn   niysAn  N0      Nissan
 
-    FiCLAn                    `noun`    {- niysAn -}           [ "Nissan" ] ]
+    FILAn                     `noun`    {- niysAn -}           [ "Nissan" ],
+
+    -- ;; niysAn_2
+    -- nysAn   niysAn  N0      Nissan
+
+    FILAn                     `noun`    {- niysAn -}           [ "Nissan" ] ]
 
  |> "n y s n" <| [
 
@@ -17056,7 +17054,21 @@ lexicon = listing "Lexicon's properties"
     -- ny      niy~    NapAt   intention;purpose;desire     [[niy~/NOUN]]
     -- nwAyA   nawAyA  N0_Nhy  intentions;desires
 
-    FiCL |< aT                `noun`    {- niy~ap -}           [ "intention", "purpose", "desire", "intentions", "desires" ] ]
+    FIL |< aT                 `noun`    {- niy~ap -}           [ "intention", "purpose", "desire", "intentions", "desires" ],
+
+    -- ;; niy~_1
+    -- ny      niy~    N-ap    raw;uncooked     [[niy~/ADJ]]
+    -- ny'     niy'    N-ap    raw;uncooked
+    -- ny}     niy}    N-ap    raw;uncooked
+
+    FIL                       `adj`     {- niy~ -}             [ "raw", "uncooked" ],
+
+    -- ;; niy~_1
+    -- ny      niy~    N-ap    raw;uncooked     [[niy~/ADJ]]
+    -- ny'     niy'    N-ap    raw;uncooked
+    -- ny}     niy}    N-ap    raw;uncooked
+
+    FIL                       `adj`     {- niy~ -}             [ "raw", "uncooked" ] ]
 
  |> "n y z k" <| [
 

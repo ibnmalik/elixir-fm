@@ -126,8 +126,6 @@ lexicon = listing "Lexicon's properties"
 
     MaFCY                     `noun`    {- maroOaY -}          [ "sight", "view", "apparition", "sights", "views", "apparitions" ]
                               `plural`     MaFCaL
-                              `plural`     MaFACiL
-                              `plural`     MaFA'iL
                               `plural`     MaFACI
                            {- `others`  [ "mar'ay NAn_Nayn", "marA'iy N0_Nh" ] -},
 
@@ -180,7 +178,8 @@ lexicon = listing "Lexicon's properties"
 
     HiFCA'                    `noun`    {- IiroDA' -}          [ "satisfaction", "fulfillment" ],
 
-    FACI                      `adj`     {- rADiy -}            [ "pleased", "accepting", "consenting" ],
+    FACI                      `adj`     {- rADiy -}            [ "pleased", "accepting", "consenting" ]
+                              `plural`     FuCY |< aT,
 
     MuFCI                     `adj`     {- muroDiy -}          [ "satisfactory", "pleasing", "sufficient" ],
 
@@ -294,7 +293,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "r .h m y" <| [
 
-    KaRDiS                    `noun`    {- raHomiy -}          [ "Rahmi" ] ]
+    KaRDI                     `noun`    {- raHomiy -}          [ "Rahmi" ],
+
+    KaRDI                     `noun`    {- raHomiy -}          [ "Rahmi" ] ]
 
  |> "r .h n" <| [
 
@@ -652,7 +653,6 @@ lexicon = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- raEiy~ap -}         [ "subject", "citizen", "subjects", "citizens" ],
 
     MaFCY                     `noun`    {- maroEaY -}          [ "grassland", "pasture" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "marA`iy N0_Nh" ] -},
 
@@ -663,6 +663,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- rAEiy -}            [ "guardian", "patron", "sponsor", "guardians", "patrons", "sponsors" ]
                               `plural`     FuCA'
+                              `plural`     FuCY |< aT
                               `plural`     FuCLAn
                            {- `others`  [ "ru`A' Nh N0_Nh Nhy", "ru`yAn N" ] -},
 
@@ -1275,7 +1276,8 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- rAmiy -}            [ "aimed (at)", "attempting (to)" ],
 
-    FACI                      `noun`    {- rAmiy -}            [ "throwing", "thrower", "rifleman", "archer", "throwers", "riflemen", "archers" ],
+    FACI                      `noun`    {- rAmiy -}            [ "throwing", "thrower", "rifleman", "archer", "throwers", "riflemen", "archers" ]
+                              `plural`     FuCY |< aT,
 
     FACI                      `noun`    {- rAmiy -}            [ "Sagittarius" ],
 
@@ -1438,7 +1440,8 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `adj`     {- rAqiy -}            [ "ascending", "advanced" ],
 
-    FACI                      `noun`    {- rAqiy -}            [ "sorcerer", "sorcerers" ] ]
+    FACI                      `noun`    {- rAqiy -}            [ "sorcerer", "sorcerers" ]
+                              `plural`     FuCY |< aT ]
 
  |> "r s '" <| [
 
@@ -1538,6 +1541,7 @@ lexicon = listing "Lexicon's properties"
 
     MaFCY                     `noun`    {- marosaY -}          [ "anchorage", "anchorages" ]
                               `plural`     MaFACI
+                              `plural`     MiFCY |< aT
                            {- `others`  [ "marAsiy N0_Nh" ] -},
 
     HiFCA'                    `noun`    {- IirosA' -}          [ "anchorage" ],
@@ -1549,7 +1553,6 @@ lexicon = listing "Lexicon's properties"
  |> "r s y" <| [
 
     FACI                      `adj`     {- rAsiy -}            [ "immovable", "anchored", "moored" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "rawAsiy N0_Nh" ] -} ]
 
@@ -1596,8 +1599,9 @@ lexicon = listing "Lexicon's properties"
  |> "r w .d" <| [
 
     FaCL |< aT                `noun`    {- rawoDap -}          [ "garden", "meadow", "kindergarten", "gardens", "meadows", "kindergartens" ]
+                              `plural`     FILAn
                               `plural`     FaCL
-                           {- `others`  [ "raw.d N" ] -} ]
+                           {- `others`  [ "riy.dAn N", "raw.d N" ] -} ]
 
  |> "r w .h" <| [
 
@@ -1619,23 +1623,25 @@ lexicon = listing "Lexicon's properties"
 
     FAL |< aT                 `noun`    {- rAHap -}            [ "palm of the hand" ],
 
-    FuCL                      `noun`    {- ruwH -}             [ "spirit", "soul", "spirits" ]
+    FUL                       `noun`    {- ruwH -}             [ "spirit", "soul", "spirits" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'arwA.h N" ] -},
 
     FaCL                      `noun`    {- rawoH -}            [ "repose", "refreshment" ],
 
-    FuCL |< Iy                `adj`     {- ruwHiy~ -}          [ "spiritual", "alcoholic" ],
+    FUL |< Iy                 `adj`     {- ruwHiy~ -}          [ "spiritual", "alcoholic" ],
 
-    FuCL |< Iy |< aT          `noun`    {- ruwHiy~ap -}        [ "spirituality" ],
+    FUL |< Iy |< aT           `noun`    {- ruwHiy~ap -}        [ "spirituality" ],
 
-    FuCLAn |< Iy              `adj`     {- ruwHAniy~ -}        [ "Ruhani" ],
+    FULAn |< Iy               `adj`     {- ruwHAniy~ -}        [ "Ruhani" ],
 
-    FuCLAn |< Iy |< aT        `noun`    {- ruwHAniy~ap -}      [ "spirituality" ],
+    FULAn |< Iy |< aT         `noun`    {- ruwHAniy~ap -}      [ "spirituality" ],
 
     FIL                       `noun`    {- riyH -}             [ "wind", "odor", "winds", "odors" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'arwA.h N" ] -},
+
+    FILAn |< Iy               `adj`     {- riyoHAniy~ -}       [ "Rihani" ],
 
     MiFCaL |< aT              `noun`    {- mirowaHap -}        [ "fan", "ventilator", "propeller", "fans", "ventilators", "propellers" ]
                               `plural`     MaFACiL
@@ -1673,7 +1679,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "r w ^s w" <| [
 
-    KuRDuS                    `noun`    {- ruw$uw -}           [ "Rochus" ] ]
+    KuRDU                     `noun`    {- ruw$uw -}           [ "Rochus" ] ]
+
+ |> "r w ^s y" <| [
+
+    KuRDU                     `noun`    {- ruw$uw -}           [ "Rochus" ] ]
 
  |> "r w `" <| [
 
@@ -1699,7 +1709,7 @@ lexicon = listing "Lexicon's properties"
 
     FUL |< Iy |< aT           `noun`    {- ruwbiy~ap -}        [ "rupee" ],
 
-    FuCL |< Iy |< aT          `noun`    {- ruwbiy~ap -}        [ "rupee" ] ]
+    FUL |< Iy |< aT           `noun`    {- ruwbiy~ap -}        [ "rupee" ] ]
 
  |> "r w b r" <| [
 
@@ -1718,7 +1728,6 @@ lexicon = listing "Lexicon's properties"
     IFtiyAL                   `noun`    {- AirotiyAd -}        [ "exploration", "visit" ],
 
     FA'iL                     `noun`    {- rA}id -}            [ "leader", "explorer", "pioneer", "leaders", "explorers", "pioneers" ]
-                              `plural`     FuCCAL
                               `plural`     FUCAL
                            {- `others`  [ "ruwwAd N" ] -},
 
@@ -1730,17 +1739,15 @@ lexicon = listing "Lexicon's properties"
 
     MuFAL                     `noun`    {- murAd -}            [ "Murad", "Mrad" ],
 
-    FuCL                      `noun`    {- ruwd -}             [ "Rod", "Ruud" ] ]
+    FUL                       `noun`    {- ruwd -}             [ "Rod", "Ruud" ] ]
 
  |> "r w d s" <| [
 
-    KuRDuS                    `noun`    {- ruwdus -}           [ "Rhodes" ]
-                              `plural`     KuRDUS
-                           {- `others`  [ "ruwduws Nprop" ] -} ]
+    KuRDuS                    `noun`    {- ruwdus -}           [ "Rhodes" ] ]
 
  |> "r w k" <| [
 
-    FuCL                      `noun`    {- ruwk -}             [ "rock", "public", "community" ],
+    FUL                       `noun`    {- ruwk -}             [ "rock", "public", "community" ],
 
     FUL                       `noun`    {- ruwk -}             [ "rock", "public", "community" ] ]
 
@@ -1750,17 +1757,17 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
-    FuCL                      `noun`    {- ruwm -}             [ "Romans", "Byzantines" ]
+    FUL                       `noun`    {- ruwm -}             [ "Romans", "Byzantines" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'arwAm N" ] -},
 
-    FuCL |< Iy                `adj`     {- ruwmiy~ -}          [ "Roman" ],
+    FUL |< Iy                 `adj`     {- ruwmiy~ -}          [ "Roman" ],
 
-    FuCL |< Iy                `adj`     {- ruwmiy~ -}          [ "Byzantine", "Greek Orthodox" ],
+    FUL |< Iy                 `adj`     {- ruwmiy~ -}          [ "Byzantine", "Greek Orthodox" ],
 
-    FuCL |< Iy                `adj`     {- ruwmiy~ -}          [ "Rumi", "Roumi" ],
+    FUL |< Iy                 `adj`     {- ruwmiy~ -}          [ "Rumi", "Roumi" ],
 
-    FuCLAn |< Iy              `adj`     {- ruwmAniy~ -}        [ "Romanian" ] ]
+    FULAn |< Iy               `adj`     {- ruwmAniy~ -}        [ "Romanian" ] ]
 
  |> "r w q" <| [
 
@@ -1779,14 +1786,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "r w s" <| [
 
-    FuCL |< Iy                `adj`     {- ruwsiy~ -}          [ "Russian", "Russians" ]
+    FUL |< Iy                 `adj`     {- ruwsiy~ -}          [ "Russian", "Russians" ]
                               `plural`     FUL
-                              `plural`     FuCL
                            {- `others`  [ "ruws N" ] -},
 
-    FuCL |< Iy |< aT          `noun`    {- ruwsiy~ap -}        [ "Russian (language)" ],
+    FUL |< Iy |< aT           `noun`    {- ruwsiy~ap -}        [ "Russian (language)" ],
 
-    FuCL                      `noun`    {- ruws -}             [ "Ross" ] ]
+    FUL                       `noun`    {- ruws -}             [ "Ross" ] ]
 
  |> "r w t n" <| [
 
@@ -1804,7 +1810,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCA' |< Iy               `adj`     {- riwA}iy~ -}         [ "novelist", "narrator" ],
 
-    FACI                      `noun`    {- rAwiy -}            [ "narrator", "storyteller", "narrators", "storytellers" ],
+    FACI                      `noun`    {- rAwiy -}            [ "narrator", "storyteller", "narrators", "storytellers" ]
+                              `plural`     FuCY |< aT,
 
     MaFCIy |< At              `noun`    {- marowiy~At -}       [ "tales", "stories", "reports" ]
                               `plural`     MaFCIy |< At ]
@@ -1825,18 +1832,18 @@ lexicon = listing "Lexicon's properties"
 
  |> "r y .h" <| [
 
-    FiCL                      `noun`    {- riyH -}             [ "wind", "odor", "winds", "odors" ]
+    FIL                       `noun`    {- riyH -}             [ "wind", "odor", "winds", "odors" ]
                               `plural`     HaFCAL
                               `plural`     FiCAL
                            {- `others`  [ "'aryA.h N", "riyA.h N" ] -},
 
     FaCLAn                    `noun`    {- rayoHAn -}          [ "sweet basil", "aromatic plant", "aromatic plants" ],
 
-    FiCLAn |< Iy              `adj`     {- riyoHAniy~ -}       [ "Rihani" ],
+    FILAn |< Iy               `adj`     {- riyoHAniy~ -}       [ "Rihani" ],
 
     IFtiCAL                   `noun`    {- AirotiyAH -}        [ "rest", "contentment", "satisfaction" ],
 
-    MuFiCL                    `adj`     {- muriyH -}           [ "soothing", "restful", "comfortable" ] ]
+    MuFIL                     `adj`     {- muriyH -}           [ "soothing", "restful", "comfortable" ] ]
 
  |> "r y .h n" <| [
 
@@ -1848,7 +1855,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "r y ^s" <| [
 
-    FiCL                      `noun`    {- riy$ -}             [ "feathers", "feather", "quill", "pen", "furniture" ]
+    FIL                       `noun`    {- riy$ -}             [ "feathers", "feather", "quill", "pen", "furniture" ]
                               `plural`     HaFCAL
                               `plural`     FiCAL
                            {- `others`  [ "'aryA^s N", "riyA^s N" ] -} ]
@@ -1859,7 +1866,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "r y `" <| [
 
-    MuFiCL                    `adj`     {- muriyE -}           [ "dreadful", "terrible" ],
+    MuFIL                     `adj`     {- muriyE -}           [ "dreadful", "terrible" ],
 
     FAL                       `verb`    {- rAE-i -}            [ "grow", "increase", "thrive" ]
                               `imperf`     FIL
@@ -1877,9 +1884,9 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCAL                   `noun`    {- AirotiyAb -}        [ "doubt", "suspicion" ],
 
-    MuFiCL                    `adj`     {- muriyb -}           [ "suspicious", "doubtful" ],
+    MuFIL                     `adj`     {- muriyb -}           [ "suspicious", "doubtful" ],
 
-    FiCL |< Iy                `adj`     {- riybiy~ -}          [ "ribo (in \"deoxy-ribo-nucleic acid\")" ] ]
+    FIL |< Iy                 `adj`     {- riybiy~ -}          [ "ribo (in \"deoxy-ribo-nucleic acid\")" ] ]
 
  |> "r y d" <| [
 
@@ -1887,11 +1894,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "r y f" <| [
 
-    FiCL                      `noun`    {- riyf -}             [ "country", "rural area", "countryside", "rural areas" ]
+    FIL                       `noun`    {- riyf -}             [ "country", "rural area", "countryside", "rural areas" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'aryAf N" ] -},
 
-    FiCL |< Iy                `adj`     {- riyfiy~ -}          [ "country", "rural", "rustic" ] ]
+    FIL |< Iy                 `adj`     {- riyfiy~ -}          [ "country", "rural", "rustic" ] ]
 
  |> "r y f r" <| [
 

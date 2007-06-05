@@ -403,7 +403,8 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCA'                   `noun`    {- AikotifA' -}        [ "sufficiency", "contentment" ],
 
-    FACI                      `adj`     {- kAfiy -}            [ "sufficient", "adequate", "competent" ],
+    FACI                      `adj`     {- kAfiy -}            [ "sufficient", "adequate", "competent" ]
+                              `plural`     FuCY |< aT,
 
     MuFtaCI                   `adj`     {- mukotafiy -}        [ "contented", "satisfied" ] ]
 
@@ -793,7 +794,7 @@ lexicon = listing "Lexicon's properties"
  |> "k r s y" <| [
 
     KuRDIS                    `noun`    {- kurosiy~ -}         [ "chair", "seat", "chairs", "seats" ]
-                              `plural`     KaRADiS
+                              `plural`     KaRADI
                               `plural`     KaRADIS
                            {- `others`  [ "karAsiy N0_Nh", "karAsiyy N" ] -} ]
 
@@ -820,7 +821,6 @@ lexicon = listing "Lexicon's properties"
     FuCayL |< aT              `noun`    {- kuray~ap -}         [ "globule", "pellet", "corpuscle" ],
 
     FiCA'                     `noun`    {- kirA' -}            [ "rent", "renting", "rent money" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT ]
 
  |> "k s .h" <| [
@@ -968,7 +968,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "k w b" <| [
 
-    FuCL |< Iy                `adj`     {- kuwbiy~ -}          [ "Cuban" ],
+    FUL |< Iy                 `adj`     {- kuwbiy~ -}          [ "Cuban" ],
 
     FUL |< Iy                 `adj`     {- kuwbiy~ -}          [ "Cuban" ] ]
 
@@ -981,11 +981,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "k w f" <| [
 
-    FuCL |< Iy                `adj`     {- kuwfiy~ -}          [ "of/from Kufa (Iraq)", "Kufic" ],
+    FUL |< Iy                 `adj`     {- kuwfiy~ -}          [ "of/from Kufa (Iraq)", "Kufic" ],
 
-    FuCL |< Iy                `adj`     {- kuwfiy~ -}          [ "Kufi", "Koufi" ],
+    FUL |< Iy                 `adj`     {- kuwfiy~ -}          [ "Kufi", "Koufi" ],
 
-    FuCL |< Iy |< aT          `noun`    {- kuwfiy~ap -}        [ "kaffiyeh" ] ]
+    FUL |< Iy |< aT           `noun`    {- kuwfiy~ap -}        [ "kaffiyeh" ] ]
 
  |> "k w h n" <| [
 
@@ -1071,7 +1071,7 @@ lexicon = listing "Lexicon's properties"
 
     FuCayL |< Iy              `adj`     {- kuwayotiy~ -}       [ "Kuwaiti" ],
 
-    FuCL                      `noun`    {- kuwt -}             [ "Cote" ] ]
+    FUL                       `noun`    {- kuwt -}             [ "Cote" ] ]
 
  |> "k w t r" <| [
 
@@ -1083,9 +1083,10 @@ lexicon = listing "Lexicon's properties"
 
  |> "k w z" <| [
 
-    FuCL                      `noun`    {- kuwz -}             [ "jug", "mug", "jugs", "mugs" ]
+    FUL                       `noun`    {- kuwz -}             [ "jug", "mug", "jugs", "mugs" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'akwAz N" ] -} ]
+                              `plural`     FILAn
+                           {- `others`  [ "'akwAz N", "kiyzAn N" ] -} ]
 
  |> "k y d" <| [
 
@@ -1122,11 +1123,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "k y l y" <| [
 
-    KiRDiS                    `noun`    {- kiyliy -}           [ "Kelly" ] ]
+    KiRDI                     `noun`    {- kiyliy -}           [ "Kelly" ],
+
+    KiRDI                     `noun`    {- kiyliy -}           [ "Kelly" ] ]
 
  |> "k y m" <| [
 
-    FiCL                      `noun`    {- kiym -}             [ "Kim" ] ]
+    FIL                       `noun`    {- kiym -}             [ "Kim" ] ]
 
  |> "k y n" <| [
 
@@ -1134,7 +1137,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- kiyAn -}            [ "Qian" ],
 
-    FiCL                      `noun`    {- kiyn -}             [ "Ken" ]
+    FIL                       `noun`    {- kiyn -}             [ "Ken" ]
                               `plural`     FiL
                            {- `others`  [ "kin Nprop" ] -} ]
 
@@ -1148,7 +1151,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "k y s" <| [
 
-    FiCL                      `noun`    {- kiys -}             [ "sack", "sacks" ]
+    FIL                       `noun`    {- kiys -}             [ "sack", "sacks" ]
                               `plural`     HaFCiL |< aT
                               `plural`     HaFCAL
                            {- `others`  [ "'akyAs N" ] -},
@@ -1157,7 +1160,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "k y t y" <| [
 
-    KiRDiS                    `noun`    {- kiytiy -}           [ "Kitty" ] ]
+    KiRDI                     `noun`    {- kiytiy -}           [ "Kitty" ],
+
+    KiRDI                     `noun`    {- kiytiy -}           [ "Kitty" ] ]
 
  |> "k y y" <| [
 

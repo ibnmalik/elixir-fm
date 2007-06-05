@@ -2455,7 +2455,8 @@ lexicon = listing "Lexicon's properties"
     -- hAdy    hAdiy   NapAt   leader;guide
     -- hdA     hudA    Nap     leaders;guides
 
-    FACI                      `noun`    {- hAdiy -}            [ "leader", "guide", "leaders", "guides" ],
+    FACI                      `noun`    {- hAdiy -}            [ "leader", "guide", "leaders", "guides" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; hAdiy_2
     -- hAdy    hAdiy   N0      Hadi
@@ -4093,7 +4094,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; hinoriy_1
     -- hnry    hinoriy Nprop   Henry;Henri
 
-    KiRDiS                    `noun`    {- hinoriy -}          [ "Henry", "Henri" ] ]
+    KiRDI                     `noun`    {- hinoriy -}          [ "Henry", "Henri" ],
+
+    -- ;; hinoriy_1
+    -- hnry    hinoriy Nprop   Henry;Henri
+
+    KiRDI                     `noun`    {- hinoriy -}          [ "Henry", "Henri" ] ]
 
  |> "h n s" <| [
 
@@ -4686,7 +4692,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; harAwiy_1
     -- hrAwy   harAwiy N0      Hrawi
 
-    KaRADiS                   `noun`    {- harAwiy -}          [ "Hrawi" ] ]
+    KaRADI                    `noun`    {- harAwiy -}          [ "Hrawi" ],
+
+    -- ;; harAwiy_1
+    -- hrAwy   harAwiy N0      Hrawi
+
+    KaRADI                    `noun`    {- harAwiy -}          [ "Hrawi" ] ]
 
  |> "h r y" <| [
 
@@ -5104,7 +5115,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; huwguw_1
     -- hwgw    huwguw  Nprop   Hugo
 
-    KuRDuS                    `noun`    {- huwguw -}           [ "Hugo" ] ]
+    KuRDU                     `noun`    {- huwguw -}           [ "Hugo" ] ]
+
+ |> "h w .g y" <| [
+
+    -- ;; huwguw_1
+    -- hwgw    huwguw  Nprop   Hugo
+
+    KuRDU                     `noun`    {- huwguw -}           [ "Hugo" ] ]
 
  |> "h w ^g" <| [
 
@@ -5124,7 +5142,6 @@ lexicon = listing "Lexicon's properties"
     HaFCaL                    `noun`    {- Oahowaj -}          [ "reckless", "foolhardy" ]
                               `plural`     FaCLA'
                               `plural`     FUL
-                              `plural`     FuCL
                            {- `others`  [ "haw^gA' Nh N0_Nh Nhy", "huw^g N" ] -},
 
     -- ;; >ahowaj_2
@@ -5138,7 +5155,6 @@ lexicon = listing "Lexicon's properties"
     HaFCaL                    `noun`    {- Oahowaj -}          [ "vehement", "frantic" ]
                               `plural`     FaCLA'
                               `plural`     FUL
-                              `plural`     FuCL
                            {- `others`  [ "haw^gA' Nh N0_Nh Nhy", "huw^g N" ] -},
 
     -- ;; hawojA'_1
@@ -5149,7 +5165,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCLA'                    `noun`    {- hawojA' -}          [ "hurricane", "tornado", "hurricanes", "tornadoes" ]
                               `plural`     FUL
-                              `plural`     FuCL
                            {- `others`  [ "huw^g N" ] -} ]
 
  |> "h w ^s" <| [
@@ -5283,7 +5298,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; huwd_1
     -- hwd     huwd    N       Jews
 
-    FuCL                      `noun`    {- huwd -}             [ "Jews" ],
+    FUL                       `noun`    {- huwd -}             [ "Jews" ],
 
     -- ;; hawAdap_1
     -- hwAd    hawAd   Nap     indulgence;leniency
@@ -5330,7 +5345,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; huwk_1
     -- hwk     huwk    Nprop   Hawk
 
-    FuCL                      `noun`    {- huwk -}             [ "Hawk" ] ]
+    FUL                       `noun`    {- huwk -}             [ "Hawk" ] ]
 
  |> "h w l" <| [
 
@@ -5497,7 +5512,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; huwn_1
     -- hwn     huwn    N       disgrace;degradation
 
-    FuCL                      `noun`    {- huwn -}             [ "disgrace", "degradation" ],
+    FUL                       `noun`    {- huwn -}             [ "disgrace", "degradation" ],
 
     -- ;; hawAn_1
     -- hwAn    hawAn   N       insignificance;degradation
@@ -5744,7 +5759,6 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- hawotap -}          [ "chasm", "abyss", "depression", "chasms", "abysses", "depressions" ]
                               `plural`     FuCaL
                               `plural`     FUL
-                              `plural`     FuCL
                            {- `others`  [ "huwat N", "huwt Napdu" ] -} ]
 
  |> "h w t w" <| [
@@ -5752,9 +5766,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; huwtuw_1
     -- hwtw    huwtuw  N0      Hutu
 
-    KuRDuS                    `noun`    {- huwtuw -}           [ "Hutu" ] ]
+    KuRDU                     `noun`    {- huwtuw -}           [ "Hutu" ] ]
 
  |> "h w w" <| [
+
+    -- ;; huw_1
+    -- hw      huw     FW-WaBi Ho (in "Ho Chi Minh")    [[huw/NOUN_PROP]]
+
+    FU                        `noun`    {- huw -}              [ "Ho (in \"Ho Chi Minh\")" ],
 
     -- ;; huw_1
     -- hw      huw     FW-WaBi Ho (in "Ho Chi Minh")    [[huw/NOUN_PROP]]
@@ -5766,7 +5785,7 @@ lexicon = listing "Lexicon's properties"
     -- hwY     huwaY   N0      abysses;chasms
     -- hwA     huwA    Nhy     abysses;chasms
 
-    FuCL |< aT                `noun`    {- huw~ap -}           [ "abyss", "chasm", "abysses", "chasms" ]
+    FUL |< aT                 `noun`    {- huw~ap -}           [ "abyss", "chasm", "abysses", "chasms" ]
                               `plural`     FuCY
                            {- `others`  [ "huwY N0" ] -},
 
@@ -5934,7 +5953,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- hawA' -}            [ "air", "atmosphere", "climate" ]
                               `plural`     HaFCA'
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT
                            {- `others`  [ "'ahwA' Nh N0_Nh Nhy" ] -},
 
@@ -5979,7 +5997,6 @@ lexicon = listing "Lexicon's properties"
     -- mhAw    mahAw   NK      crevasses;precipices
 
     MaFCY                     `noun`    {- mahowaY -}          [ "crevasse", "precipice", "crevasses", "precipices" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                               `plural`     MaFCaL
                            {- `others`  [ "mahAwiy N0_Nh", "mahway NAn_Nayn" ] -},
@@ -6013,7 +6030,8 @@ lexicon = listing "Lexicon's properties"
     -- hAwy    hAwiy   NapAt   amateur;enthusiast;lover of
     -- hwA     huwA    Nap     amateurs;enthusiasts;lovers of
 
-    FACI                      `noun`    {- hAwiy -}            [ "amateur", "enthusiast", "lover of", "amateurs", "enthusiasts", "lovers of" ],
+    FACI                      `noun`    {- hAwiy -}            [ "amateur", "enthusiast", "lover of", "amateurs", "enthusiasts", "lovers of" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; hAwiyap_1
     -- hAwy    hAwiy   Napdu   crevasse;precipice
@@ -6293,7 +6311,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hiy$_1
     -- hy$     hiy$    N       thicket;brush
 
-    FiCL                      `noun`    {- hiy$ -}             [ "thicket", "brush" ],
+    FIL                       `noun`    {- hiy$ -}             [ "thicket", "brush" ],
 
     -- ;; hayo$ap_1
     -- hy$     hayo$   Nap     turmoil;excitement
@@ -6395,7 +6413,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muhiyb_1
     -- mhyb    muhiyb  Nall    awesome;dignified     [[muhiyb/ADJ]]
 
-    MuFiCL                    `adj`     {- muhiyb -}           [ "awesome", "dignified" ],
+    MuFIL                     `adj`     {- muhiyb -}           [ "awesome", "dignified" ],
 
     -- ;; mutahay~ib_1
     -- mthyb   mutahay~ib      Nall    fearful;timorous     [[mutahay~ib/ADJ]]
@@ -6485,7 +6503,6 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oahoyaf -}          [ "slender", "frail" ]
                               `plural`     FIL
-                              `plural`     FiCL
                               `plural`     FaCLA'
                            {- `others`  [ "hiyf N", "hayfA' Nh N0_Nh Nhy" ] -} ]
 
@@ -6494,7 +6511,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; hiyfiy_1
     -- hyfy    hiyfiy  Nprop   Heavy
 
-    KiRDiS                    `noun`    {- hiyfiy -}           [ "Heavy" ] ]
+    KiRDI                     `noun`    {- hiyfiy -}           [ "Heavy" ],
+
+    -- ;; hiyfiy_1
+    -- hyfy    hiyfiy  Nprop   Heavy
+
+    KiRDI                     `noun`    {- hiyfiy -}           [ "Heavy" ] ]
 
  |> "h y h" <| [
 
@@ -6600,7 +6622,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hiyol_1
     -- hyl     hiyol   Nprop   Hill
 
-    FiCL                      `noun`    {- hiyol -}            [ "Hill" ] ]
+    FIL                       `noun`    {- hiyol -}            [ "Hill" ] ]
 
  |> "h y m" <| [
 
@@ -6709,7 +6731,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hiynap_1
     -- hyn     hiyn    Nap     ease;comfort;leisure
 
-    FiCL |< aT                `noun`    {- hiynap -}           [ "ease", "comfort", "leisure" ],
+    FIL |< aT                 `noun`    {- hiynap -}           [ "ease", "comfort", "leisure" ],
 
     -- ;; hay~in_1
     -- hyn     hay~in  N-ap    light;easy;insignificant
@@ -6733,12 +6755,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; muhiyn_1
     -- mhyn    muhiyn  Nall    insulting;contemptuous     [[muhiyn/ADJ]]
 
-    MuFiCL                    `adj`     {- muhiyn -}           [ "insulting", "contemptuous" ],
+    MuFIL                     `adj`     {- muhiyn -}           [ "insulting", "contemptuous" ],
 
     -- ;; musotahiyn_1
     -- msthyn  musotahiyn      Nall    indifferent;scornful     [[musotahiyn/ADJ]]
 
-    MustaFiCL                 `adj`     {- musotahiyn -}       [ "indifferent", "scornful" ] ]
+    MustaFIL                  `adj`     {- musotahiyn -}       [ "indifferent", "scornful" ] ]
 
  |> "h y n m" <| [
 
@@ -6778,7 +6800,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; hiyt_1
     -- hyt     hiyt    FW      Heat     [[hiyt/NOUN_PROP]]
 
-    FiCL                      `noun`    {- hiyt -}             [ "Heat" ] ]
+    FIL                       `noun`    {- hiyt -}             [ "Heat" ] ]
 
  |> "h z '" <| [
 

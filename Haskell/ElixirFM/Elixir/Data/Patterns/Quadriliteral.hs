@@ -87,15 +87,15 @@ data PatternQ =
 
 --  Form I
 
-            KaRDaS
+            KaRDaS          |   KaRDY
 
-        |   KaRDiS
-        |   KiRDiS
-        |   KuRDaS
-        |   KuRDuS
+        |   KaRDiS          |   KaRDI
+        |   KiRDiS          |   KiRDI
+        |   KuRDaS          |   KuRDY
+        |   KuRDuS          |   KuRDU
 
-        |   MuKaRDiS
-        |   MuKaRDaS
+        |   MuKaRDiS        |   MuKaRDI
+        |   MuKaRDaS        |   MuKaRDY         -- ???
 
         |   KaRDAS
         |   KaRDIS
@@ -109,22 +109,22 @@ data PatternQ =
         |   KuRDIS
         |   KuRDUS
 
-        |   KaRADiS
+        |   KaRADiS         |   KaRADI
         |   KaRADIS
 
 --  Form II
 
-        |   TaKaRDaS
+        |   TaKaRDaS        |   TaKaRDY
 
-        |   MutaKaRDiS
-        |   MutaKaRDaS
+        |   MutaKaRDiS      |   MutaKaRDI
+        |   MutaKaRDaS      |   MutaKaRDY
 
-        |   TaKaRDuS
+        |   TaKaRDuS        |   TaKaRDI         -- ???
 
 --  Form III
 
-        |   IKRanDaS
-        |   KRaNDiS
+        |   IKRanDaS        |   IKRanDY
+        |   KRaNDiS         |   KRaNDI
 
 --  Form IV
 

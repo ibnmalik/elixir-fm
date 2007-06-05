@@ -1879,6 +1879,14 @@ lexicon = listing "Lexicon's properties"
 
     FuCL                      `noun`    {- tuqow -}            [ "piety" ] ]
 
+ |> "t q w y" <| [
+
+    -- ;; taqowaY_1
+    -- tqwY    taqowaY N0      piety
+    -- tqwA    taqowA  Nhy     piety
+
+    KaRDY                     `noun`    {- taqowaY -}          [ "piety" ] ]
+
  |> "t q y" <| [
 
     -- ;; taqaY-i_1
@@ -2551,7 +2559,14 @@ lexicon = listing "Lexicon's properties"
     -- tAj     tAj     Ndu     crown
     -- tyjAn   tiyjAn  N       crowns
 
-    FAL                       `noun`    {- tAj -}              [ "crown", "crowns" ],
+    FAL                       `noun`    {- tAj -}              [ "crown", "crowns" ]
+                              `plural`     FILAn
+                           {- `others`  [ "tiy^gAn N" ] -},
+
+    -- ;; tiyjAniy~_1
+    -- tyjAny  tiyjAniy~       N0      Tijani
+
+    FILAn |< Iy               `adj`     {- tiyjAniy~ -}        [ "Tijani" ],
 
     -- ;; tAjiy~_1
     -- tAjy    tAjiy~  Nall    coronal     [[tAjiy~/ADJ]]
@@ -2651,7 +2666,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuwhap_1
     -- twh     tuwh    Napdu   daughter
 
-    FuCL |< aT                `noun`    {- tuwhap -}           [ "daughter" ] ]
+    FUL |< aT                 `noun`    {- tuwhap -}           [ "daughter" ] ]
 
  |> "t w k" <| [
 
@@ -2663,7 +2678,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuwkap_1
     -- twk     tuwk    NapAt   belt buckle
 
-    FuCL |< aT                `noun`    {- tuwkap -}           [ "belt buckle" ] ]
+    FUL |< aT                 `noun`    {- tuwkap -}           [ "belt buckle" ] ]
 
  |> "t w l z" <| [
 
@@ -2682,7 +2697,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuwm_1
     -- twm     tuwm    Nprop   Tom
 
-    FuCL                      `noun`    {- tuwm -}             [ "Tom" ] ]
+    FUL                       `noun`    {- tuwm -}             [ "Tom" ] ]
 
  |> "t w m s" <| [
 
@@ -2706,7 +2721,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuwnap_1
     -- twn     tuwn    Nap     tuna
 
-    FuCL |< aT                `noun`    {- tuwnap -}           [ "tuna" ] ]
+    FUL |< aT                 `noun`    {- tuwnap -}           [ "tuna" ] ]
 
  |> "t w n s" <| [
 
@@ -2770,7 +2785,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuwt_1
     -- twt     tuwt    N       mulberry
 
-    FuCL                      `noun`    {- tuwt -}             [ "mulberry" ],
+    FUL                       `noun`    {- tuwt -}             [ "mulberry" ],
 
     -- ;; tuwt_1
     -- twt     tuwt    N       mulberry
@@ -2780,7 +2795,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuwt_2
     -- twt     tuwt    Ndip    Tut (1st Coptic month, Sept. 11-Oct. 10)
 
-    FuCL                      `noun`    {- tuwt -}             [ "Tut (1st Coptic month, Sept. 11-Oct. 10)" ],
+    FUL                       `noun`    {- tuwt -}             [ "Tut (1st Coptic month, Sept. 11-Oct. 10)" ],
 
     -- ;; tuwt_2
     -- twt     tuwt    Ndip    Tut (1st Coptic month, Sept. 11-Oct. 10)
@@ -2790,7 +2805,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tuwtiy~_1
     -- twty    tuwtiy~ N/ap    zinc     [[tuwtiy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- tuwtiy~ -}          [ "zinc" ],
+    FUL |< Iy                 `adj`     {- tuwtiy~ -}          [ "zinc" ],
 
     -- ;; tuwtiy~_1
     -- twty    tuwtiy~ N/ap    zinc     [[tuwtiy~/ADJ]]
@@ -2850,7 +2865,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tiyjAniy~_1
     -- tyjAny  tiyjAniy~       N0      Tijani
 
-    FiCLAn |< Iy              `adj`     {- tiyjAniy~ -}        [ "Tijani" ] ]
+    FILAn |< Iy               `adj`     {- tiyjAniy~ -}        [ "Tijani" ] ]
 
  |> "t y ^g n" <| [
 
@@ -2911,7 +2926,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tiyh_1
     -- tyh     tiyh    Ndu     desert;labyrinth
 
-    FiCL                      `noun`    {- tiyh -}             [ "desert", "labyrinth" ],
+    FIL                       `noun`    {- tiyh -}             [ "desert", "labyrinth" ],
 
     -- ;; tay~Ah_1
     -- tyAh    tay~Ah  Nall    straying;wandering
@@ -2982,12 +2997,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; tiym_1
     -- tym     tiym    Nprop   Team
 
-    FiCL                      `noun`    {- tiym -}             [ "Team" ],
+    FIL                       `noun`    {- tiym -}             [ "Team" ],
 
     -- ;; tiym_2
     -- tym     tiym    Nprop   Tim
 
-    FiCL                      `noun`    {- tiym -}             [ "Tim" ],
+    FIL                       `noun`    {- tiym -}             [ "Tim" ],
 
     -- ;; tAm-i_1
     -- tAm     tAm     PV_V_intr       be infatuated;be enslaved
@@ -3041,7 +3056,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; tiyn_1
     -- tyn     tiyn    N       fig
 
-    FiCL                      `noun`    {- tiyn -}             [ "fig" ] ]
+    FIL                       `noun`    {- tiyn -}             [ "fig" ] ]
 
  |> "t y n t" <| [
 
@@ -3070,7 +3085,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; tiyriy_1
     -- tyry    tiyriy  Nprop   Thierry
 
-    KiRDiS                    `noun`    {- tiyriy -}           [ "Thierry" ] ]
+    KiRDI                     `noun`    {- tiyriy -}           [ "Thierry" ],
+
+    -- ;; tiyriy_1
+    -- tyry    tiyriy  Nprop   Thierry
+
+    KiRDI                     `noun`    {- tiyriy -}           [ "Thierry" ] ]
 
  |> "t y s" <| [
 

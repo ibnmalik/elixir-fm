@@ -12,9 +12,10 @@ lexicon = listing "Lexicon's properties"
  |> ".h ' .t" <| [
 
     FACiL                     `noun`    {- HA}iT -}            [ "wall", "walls" ]
+                              `plural`     FILAn
                               `plural`     FawACiL
                               `plural`     FawA'iL
-                           {- `others`  [ ".hawA'i.t Ndip" ] -} ]
+                           {- `others`  [ ".hiy.tAn N", ".hawA'i.t Ndip" ] -} ]
 
  |> ".h ' l" <| [
 
@@ -437,7 +438,6 @@ lexicon = listing "Lexicon's properties"
  |> ".h ^s y" <| [
 
     FACI |< aT                `noun`    {- HA$iyap -}          [ "margin", "edge", "retinue", "margins", "edges" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ ".hawA^siy N0_Nh" ] -} ]
 
@@ -697,7 +697,8 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `adj`     {- HAdiy -}            [ "first (word in \"11th\", \"21st\", \"31st\", through \"91st\")" ],
 
-    FACI                      `noun`    {- HAdiy -}            [ "leader", "cameleer", "leaders", "cameleers" ],
+    FACI                      `noun`    {- HAdiy -}            [ "leader", "cameleer", "leaders", "cameleers" ]
+                              `plural`     FuCY |< aT,
 
     FACI                      `noun`    {- HAdiy -}            [ "one" ] ]
 
@@ -705,7 +706,8 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `adj`     {- HAdiy -}            [ "first (word in \"11th\", \"21st\", \"31st\", through \"91st\")" ],
 
-    FACI                      `noun`    {- HAdiy -}            [ "leader", "cameleer", "leaders", "cameleers" ],
+    FACI                      `noun`    {- HAdiy -}            [ "leader", "cameleer", "leaders", "cameleers" ]
+                              `plural`     FuCY |< aT,
 
     FACI                      `noun`    {- HAdiy -}            [ "one" ] ]
 
@@ -1156,7 +1158,9 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h m d y" <| [
 
-    KaRDiS                    `noun`    {- Hamodiy -}          [ "Hamdi" ] ]
+    KaRDI                     `noun`    {- Hamodiy -}          [ "Hamdi" ],
+
+    KaRDI                     `noun`    {- Hamodiy -}          [ "Hamdi" ] ]
 
  |> ".h m l" <| [
 
@@ -1266,7 +1270,8 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- HAmiy -}            [ "heated", "passionate", "burning" ],
 
-    FACI                      `noun`    {- HAmiy -}            [ "protector", "patron", "protectors", "patrons" ],
+    FACI                      `noun`    {- HAmiy -}            [ "protector", "patron", "protectors", "patrons" ]
+                              `plural`     FuCY |< aT,
 
     MaFCIy                    `adj`     {- maHomiy~ -}         [ "protected", "protectorate" ],
 
@@ -1916,8 +1921,9 @@ lexicon = listing "Lexicon's properties"
  |> ".h w .d" <| [
 
     FaCL                      `noun`    {- HawoD -}            [ "basin", "reservoir", "basins", "reservoirs", "safe havens" ]
+                              `plural`     FILAn
                               `plural`     HaFCAL
-                           {- `others`  [ "'a.hwA.d N" ] -} ]
+                           {- `others`  [ ".hiy.dAn N", "'a.hwA.d N" ] -} ]
 
  |> ".h w .t" <| [
 
@@ -1936,8 +1942,9 @@ lexicon = listing "Lexicon's properties"
     IFtiyAL |< Iy             `noun`    {- AiHotiyATiy~ -}     [ "reserves (econ., geol., milit., spo.)" ],
 
     FA'iL                     `noun`    {- HA}iT -}            [ "wall", "walls" ]
+                              `plural`     FILAn
                               `plural`     FawA'iL
-                           {- `others`  [ ".hawA'i.t Ndip" ] -},
+                           {- `others`  [ ".hiy.tAn N", ".hawA'i.t Ndip" ] -},
 
     MuFIL                     `noun`    {- muHiyT -}           [ "Ocean" ],
 
@@ -2065,15 +2072,16 @@ lexicon = listing "Lexicon's properties"
 
  |> ".h w t" <| [
 
-    FuCL                      `noun`    {- Huwt -}             [ "whale", "fish", "whales" ]
+    FUL                       `noun`    {- Huwt -}             [ "whale", "fish", "whales" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'a.hwAt N" ] -},
+                              `plural`     FILAn
+                           {- `others`  [ "'a.hwAt N", ".hiytAn N" ] -},
 
-    FuCL                      `noun`    {- Huwt -}             [ "Hout" ],
+    FUL                       `noun`    {- Huwt -}             [ "Hout" ],
 
-    FuCL                      `noun`    {- Huwt -}             [ "Hout (12th month of solar year, in S.Ar.)" ],
+    FUL                       `noun`    {- Huwt -}             [ "Hout (12th month of solar year, in S.Ar.)" ],
 
-    FuCL                      `noun`    {- Huwt -}             [ "Pisces" ] ]
+    FUL                       `noun`    {- Huwt -}             [ "Pisces" ] ]
 
  |> ".h w y" <| [
 
@@ -2082,7 +2090,8 @@ lexicon = listing "Lexicon's properties"
 
     IFtaCY                    `verb`    {- AiHotawaY -}        [ "contain", "include" ],
 
-    FACI                      `noun`    {- HAwiy -}            [ "magician", "juggler", "magicians", "jugglers" ],
+    FACI                      `noun`    {- HAwiy -}            [ "magician", "juggler", "magicians", "jugglers" ]
+                              `plural`     FuCY |< aT,
 
     IFtiCA'                   `noun`    {- AiHotiwA' -}        [ "inclusion", "content" ],
 
@@ -2130,9 +2139,9 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCAL |< Iy             `noun`    {- AiHotiyATiy~ -}     [ "reserves (econ., geol., milit., spo.)" ],
 
-    MuFiCL                    `noun`    {- muHiyT -}           [ "Ocean" ],
+    MuFIL                     `noun`    {- muHiyT -}           [ "Ocean" ],
 
-    MuFiCL                    `adj`     {- muHiyT -}           [ "surrounding", "peripheral" ],
+    MuFIL                     `adj`     {- muHiyT -}           [ "surrounding", "peripheral" ],
 
     FaCL |< aT                `noun`    {- HayoTap -}          [ "caution", "care" ] ]
 
@@ -2160,7 +2169,7 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCAL                   `noun`    {- AiHotiyAl -}        [ "fraud", "deception", "cheating" ],
 
-    MustaFiCL                 `adj`     {- musotaHiyl -}       [ "impossible" ],
+    MustaFIL                  `adj`     {- musotaHiyl -}       [ "impossible" ],
 
     TaFACuL                   `noun`    {- taHAyul -}          [ "cunning", "trickery" ] ]
 
@@ -2174,7 +2183,7 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FIL
                               `pfirst`     FiL,
 
-    FiCL                      `noun`    {- Hiyn -}             [ "time", "moment", "opportunity", "times", "opportunities", "sometimes", "occasionally" ]
+    FIL                       `noun`    {- Hiyn -}             [ "time", "moment", "opportunity", "times", "opportunities", "sometimes", "occasionally" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.hyAn N NF" ] -} ]
 

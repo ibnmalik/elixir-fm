@@ -1015,7 +1015,13 @@ lexicon = listing "Lexicon's properties"
     -- ESAry   EaSAriy N0_Nh   afternoon;afternoon prayer
     -- ESAr    EaSAr   NK      afternoon;afternoon prayer
 
-    KaRADiS                   `noun`    {- EaSAriy -}          [ "afternoon", "afternoon prayer" ] ]
+    KaRADI                    `noun`    {- EaSAriy -}          [ "afternoon", "afternoon prayer" ],
+
+    -- ;; EaSAriy_1
+    -- ESAry   EaSAriy N0_Nh   afternoon;afternoon prayer
+    -- ESAr    EaSAr   NK      afternoon;afternoon prayer
+
+    KaRADI                    `noun`    {- EaSAriy -}          [ "afternoon", "afternoon prayer" ] ]
 
  |> "` .s w" <| [
 
@@ -1141,7 +1147,6 @@ lexicon = listing "Lexicon's properties"
     -- mEAS    maEAS   NK      insubordination;rebellions
 
     MaFCI |< aT               `noun`    {- maEoSiyap -}        [ "insubordination", "rebellion", "rebellions" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "ma`A.siy N0_Nh" ] -},
 
@@ -1186,7 +1191,8 @@ lexicon = listing "Lexicon's properties"
     -- EASy    EASiy   NapAt   rebellious;insubordinate
     -- ESA     EuSA    Nap     rebellious;insubordinate
 
-    FACI                      `adj`     {- EASiy -}            [ "rebellious", "insubordinate" ],
+    FACI                      `adj`     {- EASiy -}            [ "rebellious", "insubordinate" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; EASiy_2
     -- EASy    EASiy   N0      Orontes
@@ -1954,7 +1960,6 @@ lexicon = listing "Lexicon's properties"
     -- AETy    >aEoTiy Nap     gifts;offers
 
     FaCA'                     `noun`    {- EaTA' -}            [ "gift", "offer", "gifts", "offers" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT,
 
     -- ;; EaTA'_3
@@ -5546,6 +5551,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCUL                     `noun`    {- Eaduw~ -}           [ "enemy", "enemies" ]
                               `plural`     HaFACI
+                              `plural`     FuCY |< aT
                               `plural`     HaFCA'
                            {- `others`  [ "'a`Adiy N0_Nh", "'a`dA' Nh N0_Nh Nhy" ] -},
 
@@ -5779,7 +5785,6 @@ lexicon = listing "Lexicon's properties"
     -- EwAd    EawAd   NK      aggressive;hostile
 
     FACI                      `adj`     {- EAdiy -}            [ "aggressive", "hostile" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "`awAdiy N0_Nh" ] -},
 
@@ -5789,7 +5794,6 @@ lexicon = listing "Lexicon's properties"
     -- EwAd    EawAd   NK      adversities;impediments
 
     FACI |< aT                `noun`    {- EAdiyap -}          [ "adversity", "impediment", "adversities", "impediments" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "`awAdiy N0_Nh" ] -},
 
@@ -5829,7 +5833,6 @@ lexicon = listing "Lexicon's properties"
     -- mEtdy   muEotadiy       NapAt   aggressor;assailant
 
     MutaFaCCI                 `noun`    {- mutaEad~iy -}       [ "aggressor", "assailant" ]
-                              `plural`     MuFtaCiL |< At
                               `plural`     MuFtaCI |< At
                            {- `others`  [ "mu`tadiy NAn_Nayn N0_Nh" ] -} ]
 
@@ -8100,7 +8103,6 @@ lexicon = listing "Lexicon's properties"
     -- EwAl    EawAl   NK      uphill slopes;upstream
 
     FACI |< aT                `noun`    {- EAliyap -}          [ "uphill slope", "upstream", "uphill slopes" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "`awAliy N0_Nh" ] -},
 
@@ -10019,7 +10021,6 @@ lexicon = listing "Lexicon's properties"
     -- mEAn    maEAn   NK      meanings;senses;concepts;nuances
 
     MaFCY                     `noun`    {- maEonaY -}          [ "meaning", "sense", "meanings", "senses", "concepts", "nuances" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                               `plural`     MaFCaL
                            {- `others`  [ "ma`Aniy N0_Nh", "ma`nay NAn_Nayn" ] -},
@@ -12734,7 +12735,8 @@ lexicon = listing "Lexicon's properties"
     -- EAry    EAriy   NapAt   naked;bare
     -- ErA     EurA    Nap     naked;bare
 
-    FACI                      `adj`     {- EAriy -}            [ "naked", "bare" ],
+    FACI                      `adj`     {- EAriy -}            [ "naked", "bare" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; muEar~aY_1
     -- mErY    muEar~aY        N0      uncovered;exposed     [[muEar~aY/ADJ]]
@@ -12759,7 +12761,6 @@ lexicon = listing "Lexicon's properties"
     -- mEAr    maEAr   NK      uncovered;exposed
 
     MuFCY                     `adj`     {- muEoraY -}          [ "uncovered", "exposed" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                               `plural`     MuFCaL |< At
                            {- `others`  [ "ma`Ariy N0_Nh", "mu`ray NAn_Nayn" ] -},
@@ -13771,7 +13772,8 @@ lexicon = listing "Lexicon's properties"
     -- EAty    EAtiy   NapAt   arrogant;insolent
     -- EtA     EutA    Nap     arrogant;insolent
 
-    FACI                      `adj`     {- EAtiy -}            [ "arrogant", "insolent" ] ]
+    FACI                      `adj`     {- EAtiy -}            [ "arrogant", "insolent" ]
+                              `plural`     FuCY |< aT ]
 
  |> "` t y" <| [
 
@@ -13783,7 +13785,8 @@ lexicon = listing "Lexicon's properties"
     -- EAty    EAtiy   NapAt   arrogant;insolent
     -- EtA     EutA    Nap     arrogant;insolent
 
-    FACI                      `adj`     {- EAtiy -}            [ "arrogant", "insolent" ],
+    FACI                      `adj`     {- EAtiy -}            [ "arrogant", "insolent" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; Eatiy~_1
     -- Ety     Eatiy~  N-ap    arrogant;insolent     [[Eatiy~/ADJ]]
@@ -14096,7 +14099,6 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- OaEowaj -}          [ "crooked", "bent", "twisted" ]
                               `plural`     FUL
-                              `plural`     FuCL
                               `plural`     FaCLA'
                            {- `others`  [ "`uw^g N", "`aw^gA' Nh N0_Nh Nhy" ] -},
 
@@ -14187,7 +14189,7 @@ lexicon = listing "Lexicon's properties"
     -- Ew*     Euw*    Nap     amulet;incantation
     -- Ew*     Euwa*   N       amulets;incantations
 
-    FuCL |< aT                `noun`    {- Euw*ap -}           [ "amulet", "incantation", "amulets", "incantations" ]
+    FUL |< aT                 `noun`    {- Euw*ap -}           [ "amulet", "incantation", "amulets", "incantations" ]
                               `plural`     FuCaL
                            {- `others`  [ "`uwa_d N" ] -},
 
@@ -14287,9 +14289,10 @@ lexicon = listing "Lexicon's properties"
     -- AEwAd   >aEowAd N       lutes;sticks
     -- EydAn   EiydAn  N       lutes;sticks
 
-    FuCL                      `noun`    {- Euwd -}             [ "lute", "stick", "lutes", "sticks" ]
+    FUL                       `noun`    {- Euwd -}             [ "lute", "stick", "lutes", "sticks" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'a`wAd N" ] -},
+                              `plural`     FILAn
+                           {- `others`  [ "'a`wAd N", "`iydAn N" ] -},
 
     -- ;; Eawod_1
     -- Ewd     Eawod   NF      returning;going back     [[Eawod/ADV]]
@@ -14380,7 +14383,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Euw~Ad_1
     -- EwAd    Euw~Ad  N       visitors
 
-    FuCCAL                    `noun`    {- Euw~Ad -}           [ "visitors" ],
+    FUCAL                     `noun`    {- Euw~Ad -}           [ "visitors" ],
 
     -- ;; Euw~Ad_1
     -- EwAd    Euw~Ad  N       visitors
@@ -14984,7 +14987,6 @@ lexicon = listing "Lexicon's properties"
     HaFCaL                    `noun`    {- OaEowar -}          [ "one-eyed" ]
                               `plural`     FaCLA'
                               `plural`     FUL
-                              `plural`     FuCL
                            {- `others`  [ "`awrA' Nh N0_Nh Nhy", "`uwr N" ] -},
 
     -- ;; <iEArap_1
@@ -15445,7 +15447,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muEiyb_1
     -- mEyb    muEiyb  N-ap    deficient;shameful     [[muEiyb/ADJ]]
 
-    MuFiCL                    `adj`     {- muEiyb -}           [ "deficient", "shameful" ],
+    MuFIL                     `adj`     {- muEiyb -}           [ "deficient", "shameful" ],
 
     -- ;; muEay~ib_1
     -- mEyb    muEay~ib        Nall    critic;censurer
@@ -15491,7 +15493,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muEiyd_1
     -- mEyd    muEiyd  Nall    tutor;lecturer
 
-    MuFiCL                    `noun`    {- muEiyd -}           [ "tutor", "lecturer" ],
+    MuFIL                     `noun`    {- muEiyd -}           [ "tutor", "lecturer" ],
 
     -- ;; Eay~ad_1
     -- Eyd     Eay~ad  PV      celebrate
@@ -15510,14 +15512,14 @@ lexicon = listing "Lexicon's properties"
     -- >EyAd   >aEoyAd N       holidays;feasts
     -- AEyAd   >aEoyAd N       holidays;feasts
 
-    FiCL                      `noun`    {- Eiyd -}             [ "feast", "holiday", "festival", "holidays", "feasts" ]
+    FIL                       `noun`    {- Eiyd -}             [ "feast", "holiday", "festival", "holidays", "feasts" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a`yAd N" ] -},
 
     -- ;; Eiydiy~ap_1
     -- Eydy    Eiydiy~ NapAt   gift;present     [[Eiydiy~/NOUN]]
 
-    FiCL |< Iy |< aT          `noun`    {- Eiydiy~ap -}        [ "gift", "present" ],
+    FIL |< Iy |< aT           `noun`    {- Eiydiy~ap -}        [ "gift", "present" ],
 
     -- ;; muEAyadap_1
     -- mEAyd   muEAyad NapAt   holiday greetings
@@ -15536,7 +15538,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; Eiydiy_1
     -- Eydy    Eiydiy  Nprop   Idi
 
-    KiRDiS                    `noun`    {- Eiydiy -}           [ "Idi" ] ]
+    KiRDI                     `noun`    {- Eiydiy -}           [ "Idi" ],
+
+    -- ;; Eiydiy_1
+    -- Eydy    Eiydiy  Nprop   Idi
+
+    KiRDI                     `noun`    {- Eiydiy -}           [ "Idi" ] ]
 
  |> "` y f" <| [
 
@@ -15617,7 +15624,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muEiyl_1
     -- mEyl    muEiyl  N       breadwinner;provider (for a large family)
 
-    MuFiCL                    `noun`    {- muEiyl -}           [ "breadwinner", "provider (for a large family)" ],
+    MuFIL                     `noun`    {- muEiyl -}           [ "breadwinner", "provider (for a large family)" ],
 
     -- ;; muEay~al_1
     -- mEyl    muEay~al        N       breadwinner;provider (for a large family)
@@ -15629,12 +15636,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; muEiyn_1
     -- mEyn    muEiyn  N0      Mu'in
 
-    MuFiCL                    `noun`    {- muEiyn -}           [ "Mu'in" ],
+    MuFIL                     `noun`    {- muEiyn -}           [ "Mu'in" ],
 
     -- ;; muEiyn_2
     -- mEyn    muEiyn  Nall    helper;assistant;supporter
 
-    MuFiCL                    `noun`    {- muEiyn -}           [ "helper", "assistant", "supporter" ],
+    MuFIL                     `noun`    {- muEiyn -}           [ "helper", "assistant", "supporter" ],
 
     -- ;; Eay~An_1
     -- EyAn    Eay~An  N-ap    sick;tired     [[Eay~An/ADJ]]
@@ -15708,7 +15715,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Eiynap_1
     -- Eyn     Eiyn    Nap     advance
 
-    FiCL |< aT                `noun`    {- Eiynap -}           [ "advance" ],
+    FIL |< aT                 `noun`    {- Eiynap -}           [ "advance" ],
 
     -- ;; Eay~inap_1
     -- Eyn     Eay~in  NapAt   sample;specimen
@@ -15762,18 +15769,18 @@ lexicon = listing "Lexicon's properties"
     -- ;; Eiyrap_1
     -- Eyr     Eiyr    Nap     artificial;false
 
-    FiCL |< aT                `noun`    {- Eiyrap -}           [ "artificial", "false" ],
+    FIL |< aT                 `noun`    {- Eiyrap -}           [ "artificial", "false" ],
 
     -- ;; muEiyr_1
     -- mEyr    muEiyr  Nall    lender
 
-    MuFiCL                    `noun`    {- muEiyr -}           [ "lender" ],
+    MuFIL                     `noun`    {- muEiyr -}           [ "lender" ],
 
     -- ;; musotaEiyr_1
     -- mstEyr  musotaEiyr      Nall    borrower
     -- mstEAr  musotaEAr       N-ap    borrowed;false
 
-    MustaFiCL                 `noun`    {- musotaEiyr -}       [ "borrower", "borrowed", "false" ]
+    MustaFIL                  `noun`    {- musotaEiyr -}       [ "borrower", "borrowed", "false" ]
                               `plural`     MustaFAL |< aT,
 
     -- ;; EAr-i_1
@@ -15886,25 +15893,40 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- OaEoyas -}          [ "beige" ]
                               `plural`     FIL
-                              `plural`     FiCL
                               `plural`     FaCLA'
                            {- `others`  [ "`iys N", "`aysA' Nh N0_Nh Nhy" ] -},
 
     -- ;; EiysaY_1
     -- EysY    EiysaY  N0      Issa;Eissa
 
-    FiCLY                     `noun`    {- EiysaY -}           [ "Issa", "Eissa" ],
+    FILY                      `noun`    {- EiysaY -}           [ "Issa", "Eissa" ],
+
+    -- ;; EiysaY_1
+    -- EysY    EiysaY  N0      Issa;Eissa
+
+    FILY                      `noun`    {- EiysaY -}           [ "Issa", "Eissa" ],
 
     -- ;; EiysaY_2
     -- EysY    EiysaY  Nprop   Jesus (in Islam)
 
-    FiCLY                     `noun`    {- EiysaY -}           [ "Jesus (in Islam)" ],
+    FILY                      `noun`    {- EiysaY -}           [ "Jesus (in Islam)" ],
+
+    -- ;; EiysaY_2
+    -- EysY    EiysaY  Nprop   Jesus (in Islam)
+
+    FILY                      `noun`    {- EiysaY -}           [ "Jesus (in Islam)" ],
 
     -- ;; Eiysawiy~_1
     -- Eyswy   Eiysawiy~       Nall    Christian     [[Eiysawiy~/NOUN]]
     -- Eyswy   Eiysawiy~       Nall    Christian     [[Eiysawiy~/ADJ]]
 
-    FiCLY |< Iy               `adj`     {- Eiysawiy~ -}        [ "Christian" ] ]
+    FILY |< Iy                `adj`     {- Eiysawiy~ -}        [ "Christian" ],
+
+    -- ;; Eiysawiy~_1
+    -- Eyswy   Eiysawiy~       Nall    Christian     [[Eiysawiy~/NOUN]]
+    -- Eyswy   Eiysawiy~       Nall    Christian     [[Eiysawiy~/ADJ]]
+
+    FILY |< Iy                `adj`     {- Eiysawiy~ -}        [ "Christian" ] ]
 
  |> "` y y" <| [
 
@@ -15914,7 +15936,6 @@ lexicon = listing "Lexicon's properties"
     -- EyA     EoyA    IV_0_intr       be incapable
 
     FaCL                      `verb`    {- Eay~-a -}           [ "be incapable" ]
-                              `pfirst`     FaCiL
                               `pfirst`     FaCI,
 
     -- ;; Eayiy-a_1
@@ -15966,7 +15987,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Eiy~_1
     -- Ey      Eiy~    N       stammer
 
-    FiCL                      `noun`    {- Eiy~ -}             [ "stammer" ],
+    FIL                       `noun`    {- Eiy~ -}             [ "stammer" ],
 
     -- ;; EayA'_1
     -- EyA'    EayA'   N0_Nh   inability;disease

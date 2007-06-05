@@ -775,7 +775,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "l w k" <| [
 
-    FuCL                      `noun`    {- luwk -}             [ "Luke" ] ]
+    FUL                       `noun`    {- luwk -}             [ "Luke" ] ]
 
  |> "l w m" <| [
 
@@ -786,10 +786,8 @@ lexicon = listing "Lexicon's properties"
     FaCL                      `noun`    {- lawom -}            [ "blame", "censure" ],
 
     FA'iL                     `noun`    {- lA}im -}            [ "critic", "censurer", "critics", "censurers" ]
-                              `plural`     FuCCaL
-                              `plural`     FuCCAL
                               `plural`     FUCAL
-                           {- `others`  [ "luwwam N_L", "luwwAm N_L" ] -},
+                           {- `others`  [ "luwwAm N_L" ] -},
 
     FA'iL |< aT               `noun`    {- lA}imap -}          [ "blame", "censure" ]
                               `plural`     FawA'iL
@@ -815,17 +813,19 @@ lexicon = listing "Lexicon's properties"
 
  |> "l w r" <| [
 
-    FuCL                      `noun`    {- luwr -}             [ "lyre" ],
+    FUL                       `noun`    {- luwr -}             [ "lyre" ],
 
-    FuCLAn                    `noun`    {- luwrAn -}           [ "Laurent" ] ]
+    FULAn                     `noun`    {- luwrAn -}           [ "Laurent" ] ]
 
  |> "l w s" <| [
 
-    FuCL                      `noun`    {- luws -}             [ "Los" ] ]
+    FUL                       `noun`    {- luws -}             [ "Los" ] ]
 
  |> "l w w" <| [
 
     FaL                       `noun`    {- law -}              [ "if" ],
+
+    FU                        `noun`    {- luw -}              [ "Le" ],
 
     FU                        `noun`    {- luw -}              [ "Le" ] ]
 
@@ -838,7 +838,6 @@ lexicon = listing "Lexicon's properties"
     FiCA'                     `noun`    {- liwA' -}            [ "major general", "brigade" ],
 
     FiCA'                     `noun`    {- liwA' -}            [ "district", "province", "districts", "provinces" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT,
 
     FiCA'                     `noun`    {- liwA' -}            [ "Liwa" ],
@@ -851,17 +850,19 @@ lexicon = listing "Lexicon's properties"
 
  |> "l y b" <| [
 
-    FiCL |< Iy                `adj`     {- liybiy~ -}          [ "Libyan" ] ]
+    FIL |< Iy                 `adj`     {- liybiy~ -}          [ "Libyan" ] ]
 
  |> "l y f" <| [
 
-    FiCL                      `noun`    {- liyf -}             [ "fibers", "synthetic fibers" ]
+    FIL                       `noun`    {- liyf -}             [ "fibers", "synthetic fibers" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'alyAf N" ] -} ]
 
  |> "l y f y" <| [
 
-    KiRDiS                    `noun`    {- liyfiy -}           [ "Levi", "Levy" ] ]
+    KiRDI                     `noun`    {- liyfiy -}           [ "Levi", "Levy" ],
+
+    KiRDI                     `noun`    {- liyfiy -}           [ "Levi", "Levy" ] ]
 
  |> "l y k" <| [
 
@@ -897,7 +898,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "l y n y" <| [
 
-    KiRDiS                    `noun`    {- liyniy -}           [ "Lenny" ] ]
+    KiRDI                     `noun`    {- liyniy -}           [ "Lenny" ],
+
+    KiRDI                     `noun`    {- liyniy -}           [ "Lenny" ] ]
 
  |> "l y q" <| [
 
@@ -913,7 +916,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "l y r" <| [
 
-    FiCL |< aT                `noun`    {- liyrap -}           [ "pound", "lira" ] ]
+    FIL |< aT                 `noun`    {- liyrap -}           [ "pound", "lira" ] ]
 
  |> "l y s" <| [
 

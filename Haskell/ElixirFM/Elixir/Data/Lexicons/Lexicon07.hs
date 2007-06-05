@@ -175,6 +175,7 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "_ha.tA' Nh N0_Nh Nhy", "'a_h.tA' Nh N0_Nh Nhy" ] -},
 
     FACiL                     `adj`     {- xATi} -}            [ "mistaken", "at fault" ]
+                              `plural`     FuCY |< aT
                               `plural`     FawACiL
                            {- `others`  [ "_hawA.ti' Ndip" ] -},
 
@@ -1130,9 +1131,7 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCuL                  `noun`    {- taxaw~uf -}         [ "fear", "dread" ],
 
-    FA'iL                     `adj`     {- xA}if -}            [ "afraid", "fearful" ]
-                              `plural`     FuCCaL
-                           {- `others`  [ "_huwwaf N" ] -},
+    FA'iL                     `adj`     {- xA}if -}            [ "afraid", "fearful" ],
 
     MuFIL                     `adj`     {- muxiyf -}           [ "frightful", "horrible" ] ]
 
@@ -1142,16 +1141,19 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `noun`    {- xAl -}              [ "maternal uncle", "maternal uncles" ]
                               `plural`     FuCUL |< aT
+                              `plural`     FILAn
                               `plural`     HaFCAL
-                           {- `others`  [ "_huwuwl N", "'a_hwAl N" ] -},
+                           {- `others`  [ "_huwuwl N", "_hiylAn N", "'a_hwAl N" ] -},
 
-    FAL                       `noun`    {- xAl -}              [ "mole", "moles" ],
+    FAL                       `noun`    {- xAl -}              [ "mole", "moles" ]
+                              `plural`     FILAn
+                           {- `others`  [ "_hiylAn N" ] -},
 
     MuFaCCaL                  `noun`    {- muxaw~al -}         [ "authorized" ] ]
 
  |> "_h w l w" <| [
 
-    KuRDuS                    `noun`    {- xuwluw -}           [ "Jolo" ] ]
+    KuRDU                     `noun`    {- xuwluw -}           [ "Jolo" ] ]
 
  |> "_h w n" <| [
 
@@ -1161,7 +1163,6 @@ lexicon = listing "Lexicon's properties"
 
     FA'iL                     `noun`    {- xA}in -}            [ "traitor", "treacherous", "traitors", "disloyal" ]
                               `plural`     FaCL |< aT
-                              `plural`     FuCCAL
                               `plural`     FUCAL
                            {- `others`  [ "_huwwAn N" ] -} ]
 
@@ -1169,7 +1170,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- xawor -}            [ "inlet", "bay", "inlets", "bays" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'a_hwAr N" ] -} ]
+                              `plural`     FILAn
+                           {- `others`  [ "'a_hwAr N", "_hiyrAn N" ] -} ]
 
  |> "_h w s h" <| [
 
@@ -1186,7 +1188,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- xayoT -}            [ "string", "thread", "strings" ]
                               `plural`     FuCUL
-                              `plural`     FiCLAn
+                              `plural`     FILAn
                               `plural`     HaFCAL
                            {- `others`  [ "_huyuw.t N", "_hiy.tAn N", "'a_hyA.t N" ] -},
 
@@ -1202,7 +1204,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_h y f" <| [
 
-    MuFiCL                    `adj`     {- muxiyf -}           [ "frightful", "horrible" ] ]
+    MuFIL                     `adj`     {- muxiyf -}           [ "frightful", "horrible" ] ]
 
  |> "_h y l" <| [
 
@@ -1220,7 +1222,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACiL
                            {- `others`  [ "ma_hAyil Ndip" ] -},
 
-    MuFiCL                    `noun`    {- muxiyl -}           [ "dubious", "vague", "confusing" ],
+    MuFIL                     `noun`    {- muxiyl -}           [ "dubious", "vague", "confusing" ],
 
     FaCL                      `noun`    {- xayol -}            [ "horse", "horses" ]
                               `plural`     FuCUL

@@ -53,7 +53,6 @@ $Lexicon = {
       ],
       'patterns' => {
         '_dawuw' => [
-          'FaCuL',
           'FaCU'
         ],
         '_dawiy' => [
@@ -77,6 +76,33 @@ $Lexicon = {
         '(relatives) of',
         'family'
       ],
+      'orig' => '*uw',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_duw',
+      'form' => '_duw',
+      'lines' => [],
+      'patterns' => {
+        '_dawuw' => [
+          'FaCU'
+        ],
+        '_dawiy' => [
+          'FaCI'
+        ],
+        '_diy' => [
+          'FI'
+        ],
+        '_dawA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FU',
+      'suffix' => '',
+      'glosses' => [],
       'orig' => '*uw',
       'prefix' => ''
     },
@@ -1299,8 +1325,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '_duwd' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ],
         '_dud' => [
           'FuL'
@@ -3102,7 +3127,6 @@ $Lexicon = {
           'FCY'
         ],
         '_druw' => [
-          'FCuL',
           'FCU'
         ],
         '_daraw' => [
@@ -3229,7 +3253,8 @@ $Lexicon = {
     {
       'types' => {
         'mi_drY' => {
-          'N0' => 1
+          'N0' => 1,
+          'Napdu' => 1
         },
         'ma_dAr' => {
           'NK' => 1
@@ -3241,7 +3266,6 @@ $Lexicon = {
           'N0_Nh' => 1
         },
         'mi_drA' => {
-          'Napdu' => 1,
           'Nhy' => 1
         }
       },
@@ -3716,8 +3740,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '_duwb' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ],
         '_dub' => [
           'FuL'
@@ -4121,7 +4144,6 @@ $Lexicon = {
           'FaCaL'
         ],
         '_dkuw' => [
-          'FCuL',
           'FCU'
         ]
       },
@@ -4724,7 +4746,6 @@ $Lexicon = {
           'FaCA'
         ],
         '_driy' => [
-          'FCiL',
           'FCI'
         ],
         '_daray' => [
@@ -4778,7 +4799,6 @@ $Lexicon = {
       ],
       'patterns' => {
         '_darriy' => [
-          'FaCCiL',
           'FaCCI'
         ],
         '_darray' => [
@@ -4844,7 +4864,6 @@ $Lexicon = {
       ],
       'patterns' => {
         '_driy' => [
-          'FCiL',
           'FCI'
         ],
         '\'a_dray' => [
@@ -5412,7 +5431,6 @@ $Lexicon = {
       ],
       'patterns' => {
         '_dwiy' => [
-          'FCiL',
           'FCI'
         ],
         '_daway' => [
@@ -5518,7 +5536,6 @@ $Lexicon = {
       ],
       'patterns' => {
         '_dwiy' => [
-          'FCiL',
           'FCI'
         ],
         '_dway' => [
@@ -8318,7 +8335,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFiCL',
+      'morphs' => 'MuFIL',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'mu*iyE',
@@ -8356,8 +8373,7 @@ $Lexicon = {
           'FuL'
         ],
         '_duwq' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ],
         '_daq' => [
           'FaL'
@@ -8736,8 +8752,7 @@ $Lexicon = {
           'FaL'
         ],
         '_diyl' => [
-          'FIL',
-          'FiCL'
+          'FIL'
         ]
       },
       'index' => '1',
@@ -8898,6 +8913,9 @@ $Lexicon = {
     }
   ]
 };
+$Lexicon->{'_d w w'}[1]{'types'} = $Lexicon->{'_d w w'}[0]{'types'};
+$Lexicon->{'_d w w'}[1]{'lines'} = $Lexicon->{'_d w w'}[0]{'lines'};
+$Lexicon->{'_d w w'}[1]{'glosses'} = $Lexicon->{'_d w w'}[0]{'glosses'};
 $Lexicon->{'_d w b'}[6]{'types'} = $Lexicon->{'_d \' b'}[3]{'types'};
 $Lexicon->{'_d w b'}[6]{'lines'} = $Lexicon->{'_d \' b'}[3]{'lines'};
 $Lexicon->{'_d w b'}[6]{'glosses'} = $Lexicon->{'_d \' b'}[3]{'glosses'};

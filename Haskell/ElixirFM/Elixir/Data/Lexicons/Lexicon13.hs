@@ -1362,7 +1362,8 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCA'                   `noun`    {- Ai$otirA' -}        [ "purchase", "purchases" ],
 
-    FACI                      `noun`    {- \$Ariy -}           [ "buyer", "client", "buyers", "clients" ],
+    FACI                      `noun`    {- \$Ariy -}           [ "buyer", "client", "buyers", "clients" ]
+                              `plural`     FuCY |< aT,
 
     FACI                      `noun`    {- \$Ariy -}           [ "lightning rod" ],
 
@@ -1461,7 +1462,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s w f" <| [
 
-    FuCL                      `noun`    {- \$uwf -}            [ "Shouf", "Chouf" ] ]
+    FUL                       `noun`    {- \$uwf -}            [ "Shouf", "Chouf" ] ]
 
  |> "^s w h" <| [
 
@@ -1494,7 +1495,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s w n" <| [
 
-    FuCL |< aT                `noun`    {- \$uwnap -}          [ "granary", "barn", "granaries", "barns" ]
+    FUL |< aT                 `noun`    {- \$uwnap -}          [ "granary", "barn", "granaries", "barns" ]
                               `plural`     FuCaL
                            {- `others`  [ "^suwan N" ] -} ]
 
@@ -1506,7 +1507,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s w q y" <| [
 
-    KaRDiS                    `noun`    {- \$awoqiy -}         [ "Shawqi" ] ]
+    KaRDI                     `noun`    {- \$awoqiy -}         [ "Shawqi" ],
+
+    KaRDI                     `noun`    {- \$awoqiy -}         [ "Shawqi" ] ]
 
  |> "^s w r" <| [
 
@@ -1516,9 +1519,9 @@ lexicon = listing "Lexicon's properties"
 
     FAL |< aT                 `noun`    {- \$Arap -}           [ "badge", "insignia", "emblem" ],
 
-    FuCLY                     `noun`    {- \$uwraY -}          [ "consultation", "deliberation", "Shoura", "Shura" ],
+    FULY                      `noun`    {- \$uwraY -}          [ "consultation", "deliberation", "Shoura", "Shura" ],
 
-    FuCL |< Iy                `adj`     {- \$uwriy~ -}         [ "advisory", "consultative" ],
+    FUL |< Iy                 `adj`     {- \$uwriy~ -}         [ "advisory", "consultative" ],
 
     MiFCAL                    `noun`    {- mi$owAr -}          [ "cycle", "stroke" ],
 
@@ -1553,6 +1556,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s w w" <| [
 
+    FU                        `noun`    {- \$uw -}             [ "Shaw" ],
+
     FU                        `noun`    {- \$uw -}             [ "Shaw" ] ]
 
  |> "^s y '" <| [
@@ -1568,7 +1573,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s y .h" <| [
 
-    FiCLAn                    `noun`    {- \$iyHAn -}          [ "Sheehan" ] ]
+    FILAn                     `noun`    {- \$iyHAn -}          [ "Sheehan" ] ]
 
  |> "^s y .t n" <| [
 
@@ -1576,11 +1581,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s y ^s" <| [
 
-    FiCL |< aT                `noun`    {- \$iy$ap -}          [ "hookah", "sheesha" ],
+    FIL |< aT                 `noun`    {- \$iy$ap -}          [ "hookah", "sheesha" ],
 
-    FiCLAn                    `noun`    {- \$iy$An -}          [ "Chechenya", "Chechen" ],
+    FILAn                     `noun`    {- \$iy$An -}          [ "Chechenya", "Chechen" ],
 
-    FiCLAn |< Iy              `adj`     {- \$iy$Aniy~ -}       [ "Chechen" ] ]
+    FILAn |< Iy               `adj`     {- \$iy$Aniy~ -}       [ "Chechen" ] ]
 
  |> "^s y _h" <| [
 
@@ -1611,12 +1616,12 @@ lexicon = listing "Lexicon's properties"
 
     HaFAL                     `verb`    {- Oa$AE -}            [ "divulge", "publicize", "be divulged", "be publicized" ],
 
-    FiCL |< aT                `noun`    {- \$iyEap -}          [ "Shiites", "partisans", "followers", "community" ]
+    FIL |< aT                 `noun`    {- \$iyEap -}          [ "Shiites", "partisans", "followers", "community" ]
                               `plural`     HaFCAL
                               `plural`     FiCaL
                            {- `others`  [ "'a^syA` N", "^siya` N" ] -},
 
-    FiCL |< Iy                `adj`     {- \$iyEiy~ -}         [ "Shiite" ],
+    FIL |< Iy                 `adj`     {- \$iyEiy~ -}         [ "Shiite" ],
 
     FuCUL                     `noun`    {- \$uyuwE -}          [ "spreading", "circulation" ],
 
@@ -1675,9 +1680,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "^s y r" <| [
 
-    MuFiCL                    `adj`     {- mu$iyr -}           [ "indicative", "indicating" ],
+    MuFIL                     `adj`     {- mu$iyr -}           [ "indicative", "indicating" ],
 
-    MuFiCL                    `noun`    {- mu$iyr -}           [ "field marshal", "general" ] ]
+    MuFIL                     `noun`    {- mu$iyr -}           [ "field marshal", "general" ] ]
 
  |> "^s y r k" <| [
 

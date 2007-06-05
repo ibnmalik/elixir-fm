@@ -441,14 +441,12 @@ lexicon = listing "Lexicon's properties"
     FiCA' |< Iy               `adj`     {- ginA}iy~ -}         [ "singing", "vocal", "lyrical" ],
 
     HuFCI |< aT               `noun`    {- Ougoniyap -}        [ "song", "melody", "songs", "melodies" ]
-                              `plural`     HaFACiL
                               `plural`     HaFACI
                            {- `others`  [ "'a.gAniy N0_Nh" ] -},
 
     IstiFCA'                  `noun`    {- AisotigonA' -}      [ "dispensing with", "renunciation" ],
 
     FACI |< aT                `noun`    {- gAniyap -}          [ "pretty girl", "belle", "pretty girls", "belles" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ ".gawAniy N0_Nh" ] -} ]
 
@@ -619,7 +617,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".g w .t" <| [
 
-    FuCL |< aT                `noun`    {- guwTap -}           [ "fertile valley", "oasis" ] ]
+    FUL |< aT                 `noun`    {- guwTap -}           [ "fertile valley", "oasis" ] ]
 
  |> ".g w _t" <| [
 
@@ -660,9 +658,9 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- gawor -}            [ "Ghor" ],
 
-    FuCL                      `noun`    {- guwr -}             [ "Gore" ],
+    FUL                       `noun`    {- guwr -}             [ "Gore" ],
 
-    FuCLAn                    `noun`    {- guwrAn -}           [ "Goran" ] ]
+    FULAn                     `noun`    {- guwrAn -}           [ "Goran" ] ]
 
  |> ".g w y" <| [
 
@@ -780,11 +778,13 @@ lexicon = listing "Lexicon's properties"
                               `plural`     MaFACI
                            {- `others`  [ "ma.gAziy N0_Nh" ] -},
 
-    FACI                      `adj`     {- gAziy -}            [ "invader", "raider", "aggressor", "invaders", "raiders", "aggressors" ] ]
+    FACI                      `adj`     {- gAziy -}            [ "invader", "raider", "aggressor", "invaders", "raiders", "aggressors" ]
+                              `plural`     FuCY |< aT ]
 
  |> ".g z y" <| [
 
-    FACI                      `adj`     {- gAziy -}            [ "invader", "raider", "aggressor", "invaders", "raiders", "aggressors" ] ]
+    FACI                      `adj`     {- gAziy -}            [ "invader", "raider", "aggressor", "invaders", "raiders", "aggressors" ]
+                              `plural`     FuCY |< aT ]
 
  |> ".g z z" <| [
 

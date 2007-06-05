@@ -223,7 +223,8 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawACI
                            {- `others`  [ "dawA`iy N0_Nh" ] -},
 
-    FACI                      `noun`    {- dAEiy -}            [ "inviter", "propagandist", "callers", "propagandists" ],
+    FACI                      `noun`    {- dAEiy -}            [ "inviter", "propagandist", "callers", "propagandists" ]
+                              `plural`     FuCY |< aT,
 
     FACI |< aT                `noun`    {- dAEiyap -}          [ "propagandist", "missionary", "motive" ],
 
@@ -242,11 +243,11 @@ lexicon = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- diEAyap -}          [ "propaganda", "advertising" ],
 
     FACI                      `noun`    {- dAEiy -}            [ "cause", "reason", "motives", "requirements" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "dawA`iy N0_Nh" ] -},
 
-    FACI                      `noun`    {- dAEiy -}            [ "inviter", "propagandist", "callers", "propagandists" ],
+    FACI                      `noun`    {- dAEiy -}            [ "inviter", "propagandist", "callers", "propagandists" ]
+                              `plural`     FuCY |< aT,
 
     FACI |< aT                `noun`    {- dAEiyap -}          [ "propagandist", "missionary", "motive" ],
 
@@ -464,7 +465,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "d l h y" <| [
 
-    KiRDiS                    `noun`    {- dilohiy -}          [ "Delhi" ] ]
+    KiRDI                     `noun`    {- dilohiy -}          [ "Delhi" ],
+
+    KiRDI                     `noun`    {- dilohiy -}          [ "Delhi" ] ]
 
  |> "d l l" <| [
 
@@ -862,13 +865,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "d w ^s" <| [
 
-    FuCLAn                    `noun`    {- duw$An -}           [ "Dushan" ] ]
+    FULAn                     `noun`    {- duw$An -}           [ "Dushan" ] ]
 
  |> "d w k" <| [
 
-    FuCL                      `noun`    {- duwk -}             [ "Duc" ],
+    FUL                       `noun`    {- duwk -}             [ "Duc" ],
 
-    FuCL                      `noun`    {- duwk -}             [ "Duke" ] ]
+    FUL                       `noun`    {- duwk -}             [ "Duke" ] ]
 
  |> "d w l" <| [
 
@@ -888,7 +891,9 @@ lexicon = listing "Lexicon's properties"
 
     MutaFACaL                 `noun`    {- mutadAwal -}        [ "circulating", "common", "prevailing" ],
 
-    FuCLAn                    `noun`    {- duwlAn -}           [ "Dolan" ] ]
+    FULAn                     `noun`    {- duwlAn -}           [ "Dolan" ],
+
+    FULAn                     `noun`    {- duwlAn -}           [ "Dolan" ] ]
 
  |> "d w l b" <| [
 
@@ -947,7 +952,7 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- mudaw~an -}         [ "record", "entry", "document" ],
 
-    FuCL                      `noun`    {- duwn -}             [ "inferior", "poor" ] ]
+    FUL                       `noun`    {- duwn -}             [ "inferior", "poor" ] ]
 
  |> "d w r" <| [
 
@@ -959,7 +964,6 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `noun`    {- dAr -}              [ "house", "home", "houses", "homes", "abodes" ]
                               `plural`     FUL
-                              `plural`     FuCL
                               `plural`     FIL |< aT
                            {- `others`  [ "duwr N" ] -},
 
@@ -1025,16 +1029,17 @@ lexicon = listing "Lexicon's properties"
 
  |> "d w w" <| [
 
+    FU                        `noun`    {- duw -}              [ "Du", "Do" ],
+
     FU                        `noun`    {- duw -}              [ "Du", "Do" ] ]
 
  |> "d w y" <| [
 
     FaCCY                     `verb`    {- daw~aY -}           [ "buzz", "hum", "drone" ],
 
-    FY |< Iy                  `adj`     {- dawiy~ -}           [ "sound", "drone", "echo" ],
+    FaCIL                     `noun`    {- dawiy~ -}           [ "sound", "drone", "echo" ],
 
     FaCA'                     `noun`    {- dawA' -}            [ "remedy", "medication", "remedies", "medications" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT,
 
     FaCA' |< Iy               `adj`     {- dawA}iy~ -}         [ "medicinal", "curative" ],
@@ -1043,15 +1048,19 @@ lexicon = listing "Lexicon's properties"
 
     MuFaCCI                   `noun`    {- mudaw~iy -}         [ "ringing", "resounding" ],
 
+    FA'I                      `noun`    {- dA}iy -}            [ "Da'i" ],
+
     FA'I                      `noun`    {- dA}iy -}            [ "Da'i" ] ]
 
  |> "d y ^s y" <| [
 
-    KiRDiS                    `noun`    {- diy$iy -}           [ "Dechy" ] ]
+    KiRDI                     `noun`    {- diy$iy -}           [ "Dechy" ],
+
+    KiRDI                     `noun`    {- diy$iy -}           [ "Dechy" ] ]
 
  |> "d y b" <| [
 
-    FiCL                      `noun`    {- diyb -}             [ "Deeb" ],
+    FIL                       `noun`    {- diyb -}             [ "Deeb" ],
 
     FiCAL                     `noun`    {- diyAb -}            [ "Diab" ] ]
 
@@ -1065,9 +1074,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "d y k" <| [
 
-    FiCL                      `noun`    {- diyk -}             [ "Dick" ],
+    FIL                       `noun`    {- diyk -}             [ "Dick" ],
 
-    FiCL                      `noun`    {- diyk -}             [ "cock", "rooster", "cocks", "roosters" ]
+    FIL                       `noun`    {- diyk -}             [ "cock", "rooster", "cocks", "roosters" ]
                               `plural`     HaFCAL
                               `plural`     FiCaL |< aT
                               `plural`     FuCUL
@@ -1079,17 +1088,19 @@ lexicon = listing "Lexicon's properties"
 
  |> "d y l" <| [
 
-    FiCL                      `noun`    {- diyl -}             [ "del" ] ]
+    FIL                       `noun`    {- diyl -}             [ "del" ] ]
 
  |> "d y l y" <| [
 
-    KaRDiS                    `noun`    {- dayoliy -}          [ "Daily" ] ]
+    KaRDI                     `noun`    {- dayoliy -}          [ "Daily" ],
+
+    KaRDI                     `noun`    {- dayoliy -}          [ "Daily" ] ]
 
  |> "d y m" <| [
 
     FACiL                     `noun`    {- dAyim -}            [ "Dayim" ],
 
-    MustaFiCL                 `noun`    {- musotadiym -}       [ "continuous", "standing" ] ]
+    MustaFIL                  `noun`    {- musotadiym -}       [ "continuous", "standing" ] ]
 
  |> "d y m m" <| [
 
@@ -1123,11 +1134,11 @@ lexicon = listing "Lexicon's properties"
 
     MaFCUL |< Iy |< aT        `noun`    {- madoyuwniy~ap -}    [ "indebtedness", "obligation" ],
 
-    FiCL                      `noun`    {- diyn -}             [ "religion", "religions" ]
+    FIL                       `noun`    {- diyn -}             [ "religion", "religions" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'adyAn N" ] -},
 
-    FiCL |< Iy                `adj`     {- diyniy~ -}          [ "religious" ],
+    FIL |< Iy                 `adj`     {- diyniy~ -}          [ "religious" ],
 
     FiCAL |< aT               `noun`    {- diyAnap -}          [ "religion", "creed" ],
 
@@ -1152,17 +1163,17 @@ lexicon = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- dayoriy~ -}         [ "monastic" ],
 
-    MuFiCL                    `noun`    {- mudiyr -}           [ "director", "manager", "chief", "directors", "managers" ],
+    MuFIL                     `noun`    {- mudiyr -}           [ "director", "manager", "chief", "directors", "managers" ],
 
-    MuFiCL |< Iy |< aT        `noun`    {- mudiyriy~ap -}      [ "administration", "management" ],
+    MuFIL |< Iy |< aT         `noun`    {- mudiyriy~ap -}      [ "administration", "management" ],
 
-    MuFiCL |< Iy |< aT        `noun`    {- mudiyriy~ap -}      [ "district", "province" ],
+    MuFIL |< Iy |< aT         `noun`    {- mudiyriy~ap -}      [ "district", "province" ],
 
-    MustaFiCL                 `noun`    {- musotadiyr -}       [ "round", "circular" ] ]
+    MustaFIL                  `noun`    {- musotadiyr -}       [ "round", "circular" ] ]
 
  |> "d y s" <| [
 
-    FiCL                      `noun`    {- diys -}             [ "Dis (in \"Abu Dis\")" ] ]
+    FIL                       `noun`    {- diys -}             [ "Dis (in \"Abu Dis\")" ] ]
 
  |> "dA" <| [
 

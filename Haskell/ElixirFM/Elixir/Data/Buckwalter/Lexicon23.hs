@@ -1433,7 +1433,6 @@ lexicon = listing "Lexicon's properties"
     -- lHy     luHiy~  N_L     jawbones
 
     FaCL                      `noun`    {- laHoy -}            [ "jawbone", "jawbones" ]
-                              `plural`     HaFCiL
                               `plural`     HaFCI
                            {- `others`  [ "'al.hiy N0_Nh" ] -},
 
@@ -6366,7 +6365,6 @@ lexicon = listing "Lexicon's properties"
     -- mlAq    malAq   NK      meeting places;junctures;intersections
 
     MaFCY                     `noun`    {- maloqaY -}          [ "meeting place", "juncture", "intersection", "meeting places", "junctures", "intersections" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                               `plural`     MaFCaL
                            {- `others`  [ "malAqiy N0_Nh", "malqay NAn_Nayn" ] -},
@@ -6900,12 +6898,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; luwT_1
     -- lwT     luwT    Nprop   Lot
 
-    FuCL                      `noun`    {- luwT -}             [ "Lot" ],
+    FUL                       `noun`    {- luwT -}             [ "Lot" ],
 
     -- ;; luwTiy~_1
     -- lwTy    luwTiy~ Nall_L  sodomite;homosexual     [[luwTiy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- luwTiy~ -}          [ "sodomite", "homosexual" ],
+    FUL |< Iy                 `adj`     {- luwTiy~ -}          [ "sodomite", "homosexual" ],
 
     -- ;; liwAT_1
     -- lwAT    liwAT   N_L     pederasty;homosexuality
@@ -6927,7 +6925,7 @@ lexicon = listing "Lexicon's properties"
     -- >lwAj   >alowAj N       lodges
     -- AlwAj   >alowAj N       lodges
 
-    FuCL                      `noun`    {- luwj -}             [ "lodge", "lodges" ]
+    FUL                       `noun`    {- luwj -}             [ "lodge", "lodges" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'alwA^g N" ] -} ]
 
@@ -7028,7 +7026,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; luwvap_1
     -- lwv     luwv    Nap_L   fatigue;insanity
 
-    FuCL |< aT                `noun`    {- luwvap -}           [ "fatigue", "insanity" ],
+    FUL |< aT                 `noun`    {- luwvap -}           [ "fatigue", "insanity" ],
 
     -- ;; talowiyv_1
     -- tlwyv   talowiyv        N/At    pollution;contamination
@@ -7147,12 +7145,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; luwf_1
     -- lwf     luwf    N0_L    luffa;loofa
 
-    FuCL                      `noun`    {- luwf -}             [ "luffa", "loofa" ],
+    FUL                       `noun`    {- luwf -}             [ "luffa", "loofa" ],
 
     -- ;; luwfAn_1
     -- lwfAn   luwfAn  Nprop   Louvain
 
-    FuCLAn                    `noun`    {- luwfAn -}           [ "Louvain" ] ]
+    FULAn                     `noun`    {- luwfAn -}           [ "Louvain" ] ]
 
  |> "l w k" <| [
 
@@ -7172,7 +7170,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; luwk_1
     -- lwk     luwk    Nprop   Luke
 
-    FuCL                      `noun`    {- luwk -}             [ "Luke" ] ]
+    FUL                       `noun`    {- luwk -}             [ "Luke" ] ]
 
  |> "l w l b" <| [
 
@@ -7288,10 +7286,8 @@ lexicon = listing "Lexicon's properties"
     -- lwAm    luw~Am  N_L     critics;censurers
 
     FA'iL                     `noun`    {- lA}im -}            [ "critic", "censurer", "critics", "censurers" ]
-                              `plural`     FuCCaL
-                              `plural`     FuCCAL
                               `plural`     FUCAL
-                           {- `others`  [ "luwwam N_L", "luwwAm N_L" ] -},
+                           {- `others`  [ "luwwAm N_L" ] -},
 
     -- ;; lA}imap_1
     -- lA}m    lA}im   Nap_L   blame;censure
@@ -7320,7 +7316,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; luwmAn_1
     -- lwmAn   luwmAn  NduAt_L penitentiary;penal servitude
 
-    FuCLAn                    `noun`    {- luwmAn -}           [ "penitentiary", "penal servitude" ],
+    FULAn                     `noun`    {- luwmAn -}           [ "penitentiary", "penal servitude" ],
+
+    -- ;; liymAn_1
+    -- lymAn   liymAn  NduAt_L port;harbor
+
+    FILAn                     `noun`    {- liymAn -}           [ "port", "harbor" ],
+
+    -- ;; liymAn_2
+    -- lymAn   liymAn  NduAt_L prison
+
+    FILAn                     `noun`    {- liymAn -}           [ "prison" ],
 
     -- ;; maliym_1
     -- mlym    maliym  Nall    blamed;censured     [[maliym/ADJ]]
@@ -7420,12 +7426,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; luwr_1
     -- lwr     luwr    N0_L    lyre
 
-    FuCL                      `noun`    {- luwr -}             [ "lyre" ],
+    FUL                       `noun`    {- luwr -}             [ "lyre" ],
 
     -- ;; luwrAn_1
     -- lwrAn   luwrAn  Nprop   Laurent
 
-    FuCLAn                    `noun`    {- luwrAn -}           [ "Laurent" ] ]
+    FULAn                     `noun`    {- luwrAn -}           [ "Laurent" ] ]
 
  |> "l w r n" <| [
 
@@ -7454,14 +7460,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; luws_1
     -- lws     luws    Nprop   Los
 
-    FuCL                      `noun`    {- luws -}             [ "Los" ] ]
+    FUL                       `noun`    {- luws -}             [ "Los" ] ]
 
  |> "l w t" <| [
 
     -- ;; luwt_1
     -- lwt     luwt    N0_L    fish
 
-    FuCL                      `noun`    {- luwt -}             [ "fish" ] ]
+    FUL                       `noun`    {- luwt -}             [ "fish" ] ]
 
  |> "l w w" <| [
 
@@ -7469,6 +7475,11 @@ lexicon = listing "Lexicon's properties"
     -- lw      law     FW-Wa   if           [[law/CONJ]]
 
     FaL                       `noun`    {- law -}              [ "if" ],
+
+    -- ;; luw_1
+    -- lw      luw     FW-Wa   Le     [[luw/NOUN_PROP]]
+
+    FU                        `noun`    {- luw -}              [ "Le" ],
 
     -- ;; luw_1
     -- lw      luw     FW-Wa   Le     [[luw/NOUN_PROP]]
@@ -7580,7 +7591,6 @@ lexicon = listing "Lexicon's properties"
     -- Alwy    >alowiy Nap     curvatures
 
     FiCY                      `noun`    {- liwaY -}            [ "curvature", "curvatures" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT
                               `plural`     HaFCA'
                            {- `others`  [ "'alwA' Nh N0_Nh Nhy" ] -},
@@ -7607,7 +7617,6 @@ lexicon = listing "Lexicon's properties"
     -- Alwy    >alowiy Nap     districts;provinces
 
     FiCA'                     `noun`    {- liwA' -}            [ "district", "province", "districts", "provinces" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT,
 
     -- ;; liwA'_4
@@ -7624,7 +7633,6 @@ lexicon = listing "Lexicon's properties"
 
     MiFCY                     `noun`    {- milowaY -}          [ "spanner", "wrench", "spanners", "wrenches" ]
                               `plural`     MiFCaL
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "milway NAn_Nayn", "malAwiy N0_Nh" ] -},
 
@@ -7657,7 +7665,8 @@ lexicon = listing "Lexicon's properties"
     -- lAwy    lAwiy   NapAt_L turning;twisting
     -- lwA     luwA    Nap_L   turning;twisting
 
-    FACI                      `adj`     {- lAwiy -}            [ "turning", "twisting" ],
+    FACI                      `adj`     {- lAwiy -}            [ "turning", "twisting" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; malowiy~_1
     -- mlwy    malowiy~        Nall    crooked;warped     [[malowiy~/ADJ]]
@@ -7686,7 +7695,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; luwyA_1
     -- lwyA    luwyA   N0_L    Loya (in "Loya Jirga")
 
-    FuCyA                     `noun`    {- luwyA -}            [ "Loya (in \"Loya Jirga\")" ] ]
+    FUyA                      `noun`    {- luwyA -}            [ "Loya (in \"Loya Jirga\")" ],
+
+    -- ;; luwyA_1
+    -- lwyA    luwyA   N0_L    Loya (in "Loya Jirga")
+
+    FUyA                      `noun`    {- luwyA -}            [ "Loya (in \"Loya Jirga\")" ] ]
 
  |> "l w z" <| [
 
@@ -7717,12 +7731,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; luwzAn_1
     -- lwzAn   luwzAn  Nprop   Lausanne
 
-    FuCLAn                    `noun`    {- luwzAn -}           [ "Lausanne" ],
+    FULAn                     `noun`    {- luwzAn -}           [ "Lausanne" ],
 
     -- ;; luwzAniy~_1
     -- lwzAny  luwzAniy~       Nall    from/of Lausanne     [[luwzAniy~/ADJ]]
 
-    FuCLAn |< Iy              `adj`     {- luwzAniy~ -}        [ "from/of Lausanne" ] ]
+    FULAn |< Iy               `adj`     {- luwzAniy~ -}        [ "from/of Lausanne" ] ]
 
  |> "l y '" <| [
 
@@ -7731,7 +7745,7 @@ lexicon = listing "Lexicon's properties"
     -- lyA&    liy~A&  Nh_L    shark
     -- lyA}    liy~A}  Nhy_L   shark
 
-    FiCCAL                    `noun`    {- liy~A' -}           [ "shark" ],
+    FICAL                     `noun`    {- liy~A' -}           [ "shark" ],
 
     -- ;; liy~A'_1
     -- lyA'    liy~A'  N0_Nh_L shark
@@ -7776,7 +7790,7 @@ lexicon = listing "Lexicon's properties"
     -- lyby    liybiy~ Nall_L  Libyan     [[liybiy~/NOUN]]
     -- lyby    liybiy~ Nall_L  Libyan     [[liybiy~/ADJ]]
 
-    FiCL |< Iy                `adj`     {- liybiy~ -}          [ "Libyan" ] ]
+    FIL |< Iy                 `adj`     {- liybiy~ -}          [ "Libyan" ] ]
 
  |> "l y b r" <| [
 
@@ -7809,24 +7823,24 @@ lexicon = listing "Lexicon's properties"
     -- >lyAf   >aloyAf N       fibers;synthetic fibers
     -- AlyAf   >aloyAf N       fibers;synthetic fibers
 
-    FiCL                      `noun`    {- liyf -}             [ "fibers", "synthetic fibers" ]
+    FIL                       `noun`    {- liyf -}             [ "fibers", "synthetic fibers" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'alyAf N" ] -},
 
     -- ;; liyfap_1
     -- lyf     liyf    Napdu_L fiber
 
-    FiCL |< aT                `noun`    {- liyfap -}           [ "fiber" ],
+    FIL |< aT                 `noun`    {- liyfap -}           [ "fiber" ],
 
     -- ;; liyfiy~_1
     -- lyfy    liyfiy~ N-ap_L  fibrous;fibered;made of synthetic fibers     [[liyfiy~/ADJ]]
 
-    FiCL |< Iy                `adj`     {- liyfiy~ -}          [ "fibrous", "fibered", "made of synthetic fibers" ],
+    FIL |< Iy                 `adj`     {- liyfiy~ -}          [ "fibrous", "fibered", "made of synthetic fibers" ],
 
     -- ;; liyfAniy~_1
     -- lyfAny  liyfAniy~       N-ap_L  fibrous;fibered;made of synthetic fibers     [[liyfAniy~/ADJ]]
 
-    FiCLAn |< Iy              `adj`     {- liyfAniy~ -}        [ "fibrous", "fibered", "made of synthetic fibers" ],
+    FILAn |< Iy               `adj`     {- liyfAniy~ -}        [ "fibrous", "fibered", "made of synthetic fibers" ],
 
     -- ;; talay~uf_1
     -- tlyf    talay~uf        N/At    fibration;fibrillation;cirrhosis
@@ -7838,7 +7852,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; liyfiy_1
     -- lyfy    liyfiy  Nprop   Levi;Levy
 
-    KiRDiS                    `noun`    {- liyfiy -}           [ "Levi", "Levy" ] ]
+    KiRDI                     `noun`    {- liyfiy -}           [ "Levi", "Levy" ],
+
+    -- ;; liyfiy_1
+    -- lyfy    liyfiy  Nprop   Levi;Levy
+
+    KiRDI                     `noun`    {- liyfiy -}           [ "Levi", "Levy" ] ]
 
  |> "l y k" <| [
 
@@ -7893,12 +7912,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; liymAn_1
     -- lymAn   liymAn  NduAt_L port;harbor
 
-    FiCLAn                    `noun`    {- liymAn -}           [ "port", "harbor" ],
+    FILAn                     `noun`    {- liymAn -}           [ "port", "harbor" ],
 
     -- ;; liymAn_2
     -- lymAn   liymAn  NduAt_L prison
 
-    FiCLAn                    `noun`    {- liymAn -}           [ "prison" ] ]
+    FILAn                     `noun`    {- liymAn -}           [ "prison" ] ]
 
  |> "l y m n" <| [
 
@@ -7967,7 +7986,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; liyn_1
     -- lyn     liyn    N_L     flexibility;tractability
 
-    FiCL                      `noun`    {- liyn -}             [ "flexibility", "tractability" ],
+    FIL                       `noun`    {- liyn -}             [ "flexibility", "tractability" ],
 
     -- ;; lay~in_1
     -- lyn     lay~in  Nall_L  flexible;yielding     [[lay~in/ADJ]]
@@ -8014,7 +8033,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; liyniy_1
     -- lyny    liyniy  Nprop   Lenny
 
-    KiRDiS                    `noun`    {- liyniy -}           [ "Lenny" ] ]
+    KiRDI                     `noun`    {- liyniy -}           [ "Lenny" ],
+
+    -- ;; liyniy_1
+    -- lyny    liyniy  Nprop   Lenny
+
+    KiRDI                     `noun`    {- liyniy -}           [ "Lenny" ] ]
 
  |> "l y q" <| [
 
@@ -8037,7 +8061,7 @@ lexicon = listing "Lexicon's properties"
     -- lyq     liyq    Nap_L   putty;clay
     -- lyq     liyaq   N_L     putty;clay
 
-    FiCL |< aT                `noun`    {- liyqap -}           [ "putty", "clay" ]
+    FIL |< aT                 `noun`    {- liyqap -}           [ "putty", "clay" ]
                               `plural`     FiCaL
                            {- `others`  [ "liyaq N_L" ] -},
 
@@ -8068,7 +8092,7 @@ lexicon = listing "Lexicon's properties"
     -- lyr     liyr    NapAt_L pound;lira
     -- lyrA    liyrA   N0_L    pound;lira
 
-    FiCL |< aT                `noun`    {- liyrap -}           [ "pound", "lira" ] ]
+    FIL |< aT                 `noun`    {- liyrap -}           [ "pound", "lira" ] ]
 
  |> "l y s" <| [
 
@@ -8090,7 +8114,6 @@ lexicon = listing "Lexicon's properties"
     HaFCaL                    `noun`    {- Oaloyas -}          [ "valiant" ]
                               `plural`     FaCLA'
                               `plural`     FIL
-                              `plural`     FiCL
                            {- `others`  [ "laysA' Nh_L N0_Nh_L Nhy_L", "liys N_L" ] -} ]
 
  |> "l y y" <| [

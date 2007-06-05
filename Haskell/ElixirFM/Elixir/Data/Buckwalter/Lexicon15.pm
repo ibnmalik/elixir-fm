@@ -320,7 +320,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'MuFiCL',
+      'morphs' => 'MuFIL',
       'suffix' => '',
       'glosses' => [
         'shining',
@@ -429,7 +429,6 @@ $Lexicon = {
           'FCaL'
         ],
         '.dniy' => [
-          'FCiL',
           'FCI'
         ],
         '.dnY' => [
@@ -602,7 +601,8 @@ $Lexicon = {
     {
       'types' => {
         'mu.dnY' => {
-          'N0' => 1
+          'N0' => 1,
+          'Napdu' => 1
         },
         'mu.dn' => {
           'Nuwn_Niyn' => 1
@@ -612,7 +612,6 @@ $Lexicon = {
           'NAn_Nayn' => 1
         },
         'mu.dnA' => {
-          'Napdu' => 1,
           'Nhy' => 1
         }
       },
@@ -2187,8 +2186,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '.duwr' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ],
         '.dur' => [
           'FuL'
@@ -2230,8 +2228,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '.duwr' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ],
         '.dur' => [
           'FuL'
@@ -3896,11 +3893,25 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'KaRADiS',
+      'morphs' => 'KaRADI',
       'suffix' => '',
       'glosses' => [
         'predatory animals'
       ],
+      'orig' => 'DawAriy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '.dawAriy',
+      'form' => '.dawAriy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRADI',
+      'suffix' => '',
+      'glosses' => [],
       'orig' => 'DawAriy',
       'prefix' => ''
     }
@@ -4124,8 +4135,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '.duw`' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ],
         '.du`' => [
           'FuL'
@@ -5849,7 +5859,6 @@ $Lexicon = {
       ],
       'patterns' => {
         '.dAhiy' => [
-          'FACiL',
           'FACI'
         ],
         '.dAhay' => [
@@ -6053,7 +6062,6 @@ $Lexicon = {
       ],
       'patterns' => {
         '.d.huw' => [
-          'FCuL',
           'FCU'
         ],
         '.da.haw' => [
@@ -6602,12 +6610,10 @@ $Lexicon = {
           'HaFaL'
         ],
         '.diyf' => [
-          'FIL',
-          'FiCL'
+          'FIL'
         ],
         '\'u.diyf' => [
-          'HuFIL',
-          'HuFiCL'
+          'HuFIL'
         ],
         '.daf' => [
           'FaL'
@@ -6936,13 +6942,12 @@ $Lexicon = {
       ],
       'patterns' => {
         'mu.diyf' => [
-          'MuFIL',
-          'MuFiCL'
+          'MuFIL'
         ]
       },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFiCL |< aN',
+      'morphs' => 'MuFIL |< aN',
       'suffix' => ' |< aN',
       'glosses' => [
         'adding'
@@ -6965,7 +6970,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFiCL',
+      'morphs' => 'MuFIL',
       'suffix' => '',
       'glosses' => [
         'host',
@@ -6989,7 +6994,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFiCL |< aT',
+      'morphs' => 'MuFIL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'stewardess',
@@ -7839,7 +7844,6 @@ $Lexicon = {
       ],
       'patterns' => {
         '.darriy' => [
-          'FaCCiL',
           'FaCCI'
         ],
         '.darray' => [
@@ -10393,7 +10397,6 @@ $Lexicon = {
       ],
       'patterns' => {
         '.dfiy' => [
-          'FCiL',
           'FCI'
         ],
         '\'a.dfay' => [
@@ -11805,7 +11808,6 @@ $Lexicon = {
       ],
       'patterns' => {
         '.dwiy' => [
-          'FCiL',
           'FCI'
         ],
         '.dwY' => [
@@ -11881,7 +11883,6 @@ $Lexicon = {
           'HaFCaL'
         ],
         '.dwiy' => [
-          'FCiL',
           'FCI'
         ],
         '.dwY' => [
@@ -11944,7 +11945,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'n.dawiy' => [
-          'NFaCiL',
           'NFaCI'
         ],
         'n.dawY' => [
@@ -12153,8 +12153,7 @@ $Lexicon = {
       ],
       'patterns' => {
         '.diyq' => [
-          'FIL',
-          'FiCL'
+          'FIL'
         ],
         '.diq' => [
           'FiL'
@@ -12273,7 +12272,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCL',
+      'morphs' => 'FIL',
       'suffix' => '',
       'glosses' => [
         'narrowness',
@@ -13261,7 +13260,6 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         '.dawA.hiy' => [
-          'FawACiL',
           'FawACI'
         ]
       },
@@ -13418,8 +13416,7 @@ $Lexicon = {
           'FiL'
         ],
         '.diy`' => [
-          'FIL',
-          'FiCL'
+          'FIL'
         ]
       },
       'index' => '1',
@@ -13510,8 +13507,7 @@ $Lexicon = {
           'FiL'
         ],
         '.diy`' => [
-          'FIL',
-          'FiCL'
+          'FIL'
         ],
         '.dA`' => [
           'FAL'
@@ -13620,7 +13616,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCLAn',
+      'morphs' => 'FILAn',
       'suffix' => '',
       'glosses' => [
         'loss',
@@ -13763,7 +13759,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFiCL |< aT',
+      'morphs' => 'MuFIL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'waste',
@@ -14626,8 +14622,7 @@ $Lexicon = {
           'FiL'
         ],
         '.diym' => [
-          'FIL',
-          'FiCL'
+          'FIL'
         ]
       },
       'index' => '1',
@@ -14998,8 +14993,7 @@ $Lexicon = {
           'FuL'
         ],
         '.duw\'' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ]
       },
       'index' => '1',
@@ -15399,6 +15393,9 @@ $Lexicon->{'.d y \''}[5]{'glosses'} = $Lexicon->{'.d y \''}[4]{'glosses'};
 $Lexicon->{'.d y \''}[7]{'types'} = $Lexicon->{'.d y \''}[6]{'types'};
 $Lexicon->{'.d y \''}[7]{'lines'} = $Lexicon->{'.d y \''}[6]{'lines'};
 $Lexicon->{'.d y \''}[7]{'glosses'} = $Lexicon->{'.d y \''}[6]{'glosses'};
+$Lexicon->{'.d w r y'}[1]{'types'} = $Lexicon->{'.d w r y'}[0]{'types'};
+$Lexicon->{'.d w r y'}[1]{'lines'} = $Lexicon->{'.d w r y'}[0]{'lines'};
+$Lexicon->{'.d w r y'}[1]{'glosses'} = $Lexicon->{'.d w r y'}[0]{'glosses'};
 $Lexicon->{'.d n \''}[0]{'types'} = $Lexicon->{'.d n y'}[5]{'types'};
 $Lexicon->{'.d n \''}[0]{'lines'} = $Lexicon->{'.d n y'}[5]{'lines'};
 $Lexicon->{'.d n \''}[0]{'glosses'} = $Lexicon->{'.d n y'}[5]{'glosses'};

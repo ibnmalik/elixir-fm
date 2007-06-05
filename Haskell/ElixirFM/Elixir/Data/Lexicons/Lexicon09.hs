@@ -272,7 +272,13 @@ lexicon = listing "Lexicon's properties"
  |> "_d w w" <| [
 
     FU                        `noun`    {- \*uw -}             [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
-                              `plural`     FaCuL
+                              `plural`     FaCU
+                              `plural`     FaCI
+                              `plural`     FaCA
+                              `plural`     FI
+                           {- `others`  [ "_dawuw FW-Wa FW-Wa-a", "_dawiy FW-Wa-y FW-WaBi", "_dawA FW-Wa FW-Wa-A", "_diy FW-Wa" ] -},
+
+    FU                        `noun`    {- \*uw -}             [ "of", "with", "(two relatives) of", "(relatives) of", "family" ]
                               `plural`     FaCU
                               `plural`     FaCI
                               `plural`     FaCA
@@ -286,7 +292,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_d y `" <| [
 
-    MuFiCL                    `noun`    {- mu*iyE -}           [ "broadcaster", "transmitter", "announcer" ] ]
+    MuFIL                     `noun`    {- mu*iyE -}           [ "broadcaster", "transmitter", "announcer" ] ]
 
  |> "_d y l" <| [
 

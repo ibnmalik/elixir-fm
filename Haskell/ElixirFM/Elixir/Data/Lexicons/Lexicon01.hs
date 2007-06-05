@@ -9,10 +9,6 @@ version = revised "$Revision$"
 lexicon = listing "Lexicon's properties"
 
 
- |> "" <| [
-
-    al >| Identity            `noun`    {- Al -}               [ "the" ] ]
-
  |> "' .g d" <| [
 
     HICAL                     `noun`    {- IiygAd -}           [ "EGAD (Economic Growth and Agricultural Development)" ],
@@ -167,7 +163,9 @@ lexicon = listing "Lexicon's properties"
 
     FiL                       `noun`    {- Ii* -}              [ "because" ],
 
-    FiL |< aN                 `noun`    {- Ii*AF -}            [ "therefore", "so", "then" ] ]
+    FiL |< aN                 `noun`    {- Ii*AF -}            [ "therefore", "so", "then" ],
+
+    FILAn                     `noun`    {- Iiy*An -}           [ "declaration", "proclamation" ] ]
 
  |> "' _d n" <| [
 
@@ -809,6 +807,10 @@ lexicon = listing "Lexicon's properties"
 
     FuCayL |< aT              `noun`    {- Oumayomap -}        [ "Umaima" ],
 
+    FILAn                     `noun`    {- IiymAn -}           [ "belief", "faith" ],
+
+    FILAn                     `noun`    {- IiymAn -}           [ "Iman" ],
+
     FaL |< aT                 `noun`    {- Oamap -}            [ "bondmaid", "slave girl", "bondmaids", "slave girls" ]
                               `plural`     FiCA'
                            {- `others`  [ "'imA' Nh N0_Nh Nhy" ] -} ]
@@ -965,6 +967,14 @@ lexicon = listing "Lexicon's properties"
 
     FuCLY |< Iy               `adj`     {- Ounovawiy~ -}       [ "feminine" ] ]
 
+ |> "' n _t y" <| [
+
+    KuRDY                     `noun`    {- OunovaY -}          [ "female", "feminine", "females" ]
+                              `plural`     KuRDaS |< At
+                           {- `others`  [ "'un_tay NAn_Nayn" ] -},
+
+    KuRDY |< Iy               `adj`     {- Ounovawiy~ -}       [ "feminine" ] ]
+
  |> "' n b r" <| [
 
     KaRDAS                    `noun`    {- OanobAr -}          [ "warehouse", "storeroom", "warehouses", "storerooms" ]
@@ -1120,7 +1130,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' r k y" <| [
 
-    KiRDiS                    `noun`    {- Iirokiy -}          [ "Erki" ] ]
+    KiRDI                     `noun`    {- Iirokiy -}          [ "Erki" ],
+
+    KiRDI                     `noun`    {- Iirokiy -}          [ "Erki" ] ]
 
  |> "' r n" <| [
 
@@ -1325,7 +1337,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' t .g y" <| [
 
-    KaRADiS                   `noun`    {- OatAgiy -}          [ "Atagi" ] ]
+    KaRADI                    `noun`    {- OatAgiy -}          [ "Atagi" ],
+
+    KaRADI                    `noun`    {- OatAgiy -}          [ "Atagi" ] ]
 
  |> "' t n" <| [
 
@@ -1390,7 +1404,7 @@ lexicon = listing "Lexicon's properties"
 
     FAL |< aT                 `noun`    {- \|fap -}            [ "vice", "plague" ],
 
-    FuCL                      `noun`    {- Ouwf -}             [ "Of" ] ]
+    FUL                       `noun`    {- Ouwf -}             [ "Of" ] ]
 
  |> "' w h" <| [
 
@@ -1440,13 +1454,17 @@ lexicon = listing "Lexicon's properties"
 
  |> "' w t" <| [
 
-    FuCL                      `noun`    {- Ouwt -}             [ "August" ],
+    FUL                       `noun`    {- Ouwt -}             [ "August" ],
 
     FUL                       `noun`    {- Ouwt -}             [ "August" ] ]
 
  |> "' w t w" <| [
 
-    KuRDuS                    `noun`    {- Ouwtuw -}           [ "Otto" ] ]
+    KuRDU                     `noun`    {- Ouwtuw -}           [ "Otto" ] ]
+
+ |> "' w t y" <| [
+
+    KuRDU                     `noun`    {- Ouwtuw -}           [ "Otto" ] ]
 
  |> "' w y" <| [
 
@@ -1459,7 +1477,6 @@ lexicon = listing "Lexicon's properties"
     HICA'                     `noun`    {- IiywA' -}           [ "accommodation", "housing", "accommodations" ],
 
     MaFCY                     `noun`    {- maOowaY -}          [ "refuge", "shelter", "shelters" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                               `plural`     MaFCaL
                            {- `others`  [ "ma'Awiy N0_Nh", "ma'way NAn_Nayn" ] -} ]
@@ -1498,7 +1515,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "' y _d" <| [
 
-    FiCLAn                    `noun`    {- Iiy*An -}           [ "declaration", "proclamation" ] ]
+    FILAn                     `noun`    {- Iiy*An -}           [ "declaration", "proclamation" ] ]
 
  |> "' y _d n" <| [
 
@@ -1524,11 +1541,15 @@ lexicon = listing "Lexicon's properties"
 
  |> "' y d y" <| [
 
-    KiRDiS                    `noun`    {- Iiydiy -}           [ "Eddie" ] ]
+    KiRDI                     `noun`    {- Iiydiy -}           [ "Eddie" ],
+
+    KiRDI                     `noun`    {- Iiydiy -}           [ "Eddie" ] ]
 
  |> "' y f" <| [
 
-    FiCLAn                    `noun`    {- IiyfAn -}           [ "Ivan" ] ]
+    FILAn                     `noun`    {- IiyfAn -}           [ "Ivan" ],
+
+    FILAn                     `noun`    {- IiyfAn -}           [ "Ivan" ] ]
 
  |> "' y f n" <| [
 
@@ -1540,9 +1561,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "' y l" <| [
 
-    FiCL                      `noun`    {- Iiyl -}             [ "El (in \"Beit El\")" ],
+    FIL                       `noun`    {- Iiyl -}             [ "El (in \"Beit El\")" ],
 
-    FiCL                      `noun`    {- Iiyl -}             [ "Il (in \"Kim Jong-il\" and \"Kim Il-sung\")" ] ]
+    FIL                       `noun`    {- Iiyl -}             [ "Il (in \"Kim Jong-il\" and \"Kim Il-sung\")" ] ]
 
  |> "' y l '" <| [
 
@@ -1560,13 +1581,15 @@ lexicon = listing "Lexicon's properties"
 
  |> "' y l y" <| [
 
-    KiRDiS                    `noun`    {- Iiyliy -}           [ "Eli", "Ilie" ] ]
+    KiRDI                     `noun`    {- Iiyliy -}           [ "Eli", "Ilie" ],
+
+    KiRDI                     `noun`    {- Iiyliy -}           [ "Eli", "Ilie" ] ]
 
  |> "' y m" <| [
 
-    FiCLAn                    `noun`    {- IiymAn -}           [ "belief", "faith" ],
+    FILAn                     `noun`    {- IiymAn -}           [ "belief", "faith" ],
 
-    FiCLAn                    `noun`    {- IiymAn -}           [ "Iman" ] ]
+    FILAn                     `noun`    {- IiymAn -}           [ "Iman" ] ]
 
  |> "' y m n" <| [
 
@@ -1588,11 +1611,11 @@ lexicon = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- Oay~Ar -}           [ "May" ],
 
-    FiCL                      `noun`    {- Iiyr -}             [ "Air" ],
+    FIL                       `noun`    {- Iiyr -}             [ "Air" ],
 
-    FiCLAn                    `noun`    {- IiyrAn -}           [ "Iran" ],
+    FILAn                     `noun`    {- IiyrAn -}           [ "Iran" ],
 
-    FiCLAn |< Iy              `adj`     {- IiyrAniy~ -}        [ "Iranian" ] ]
+    FILAn |< Iy               `adj`     {- IiyrAniy~ -}        [ "Iranian" ] ]
 
  |> "' y r s" <| [
 
@@ -2658,6 +2681,10 @@ lexicon = listing "Lexicon's properties"
  |> "'uzbakiyy" <| [
 
     Identity                  `adj`     {- Ouzobakiy~ -}       [ "Uzbek" ] ]
+
+ |> "Al" <| [
+
+    Identity                  `noun`    {- Al -}               [ "the" ] ]
 
  |> "AtAl" <| [
 

@@ -87,9 +87,10 @@ lexicon = listing "Lexicon's properties"
     -- HwA}T   HawA}iT Ndip    walls
 
     FACiL                     `noun`    {- HA}iT -}            [ "wall", "walls" ]
+                              `plural`     FILAn
                               `plural`     FawACiL
                               `plural`     FawA'iL
-                           {- `others`  [ ".hawA'i.t Ndip" ] -},
+                           {- `others`  [ ".hiy.tAn N", ".hawA'i.t Ndip" ] -},
 
     -- ;; HA}iTiy~_1
     -- HA}Ty   HA}iTiy~        Nall    wall     [[HA}iTiy~/ADJ]]
@@ -1982,7 +1983,6 @@ lexicon = listing "Lexicon's properties"
     -- AHAj    >aHAj   NK      riddles;puzzles
 
     FuCCAL |< aT              `noun`    {- Huj~Ayap -}         [ "riddle", "puzzle", "riddles", "puzzles" ]
-                              `plural`     HaFACiL
                               `plural`     HaFACI
                            {- `others`  [ "'a.hA^giy N0_Nh" ] -} ]
 
@@ -2509,7 +2509,6 @@ lexicon = listing "Lexicon's properties"
     -- HwA$    HawA$   NK      margins;edges
 
     FACI |< aT                `noun`    {- HA$iyap -}          [ "margin", "edge", "retinue", "margins", "edges" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ ".hawA^siy N0_Nh" ] -} ]
 
@@ -4341,7 +4340,8 @@ lexicon = listing "Lexicon's properties"
     -- HAdy    HAdiy   NapAt   leader;cameleer
     -- HdA     HudA    Nap     leaders;cameleers
 
-    FACI                      `noun`    {- HAdiy -}            [ "leader", "cameleer", "leaders", "cameleers" ],
+    FACI                      `noun`    {- HAdiy -}            [ "leader", "cameleer", "leaders", "cameleers" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; Hadiy-a_1
     -- Hdy     Hadiy   PV_no-w remain;not move
@@ -4374,7 +4374,8 @@ lexicon = listing "Lexicon's properties"
     -- HAdy    HAdiy   NapAt   leader;cameleer
     -- HdA     HudA    Nap     leaders;cameleers
 
-    FACI                      `noun`    {- HAdiy -}            [ "leader", "cameleer", "leaders", "cameleers" ],
+    FACI                      `noun`    {- HAdiy -}            [ "leader", "cameleer", "leaders", "cameleers" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; Hadiy-a_1
     -- Hdy     Hadiy   PV_no-w remain;not move
@@ -4943,7 +4944,7 @@ lexicon = listing "Lexicon's properties"
     -- HwAf    HawAf   NK      borders;edges
 
     FACI                      `noun`    {- HAfiy -}            [ "barefoot", "borders", "edges" ]
-                              `plural`     FawACiL
+                              `plural`     FuCY |< aT
                               `plural`     FawACI
                            {- `others`  [ ".hawAfiy N0_Nh" ] -} ]
 
@@ -6790,7 +6791,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hamodiy_1
     -- Hmdy    Hamodiy Nprop   Hamdi
 
-    KaRDiS                    `noun`    {- Hamodiy -}          [ "Hamdi" ] ]
+    KaRDI                     `noun`    {- Hamodiy -}          [ "Hamdi" ],
+
+    -- ;; Hamodiy_1
+    -- Hmdy    Hamodiy Nprop   Hamdi
+
+    KaRDI                     `noun`    {- Hamodiy -}          [ "Hamdi" ] ]
 
  |> ".h m l" <| [
 
@@ -7612,7 +7618,8 @@ lexicon = listing "Lexicon's properties"
     -- HAmy    HAmiy   NapAt   protector;patron
     -- HmA     HumA    Nap     protectors;patrons
 
-    FACI                      `noun`    {- HAmiy -}            [ "protector", "patron", "protectors", "patrons" ],
+    FACI                      `noun`    {- HAmiy -}            [ "protector", "patron", "protectors", "patrons" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; HAmiyap_1
     -- HAmy    HAmiy   NapAt   garrison
@@ -8148,7 +8155,6 @@ lexicon = listing "Lexicon's properties"
     -- mHAn    maHAn   NK      curvatures;bending
 
     FiCAL |< aT               `noun`    {- HinAyap -}          [ "curvature", "bending", "curvatures", "bendings" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                               `plural`     MaFCaL
                               `plural`     MaFCY
@@ -9049,7 +9055,9 @@ lexicon = listing "Lexicon's properties"
     -- HrbA}   HirobA} Nhy     chameleon
     -- HrAby   HarAbiy N0      chameleons
 
-    KiRDAS                    `noun`    {- HirobA' -}          [ "chameleon", "chameleons" ] ]
+    KiRDAS                    `noun`    {- HirobA' -}          [ "chameleon", "chameleons" ]
+                              `plural`     KaRADI
+                           {- `others`  [ ".harAbiy N0" ] -} ]
 
  |> ".h r b ^s" <| [
 
@@ -11215,8 +11223,9 @@ lexicon = listing "Lexicon's properties"
     -- HyDAn   HiyDAn  N       basins;reservoirs
 
     FaCL                      `noun`    {- HawoD -}            [ "basin", "reservoir", "basins", "reservoirs", "safe havens" ]
+                              `plural`     FILAn
                               `plural`     HaFCAL
-                           {- `others`  [ "'a.hwA.d N" ] -},
+                           {- `others`  [ ".hiy.dAn N", "'a.hwA.d N" ] -},
 
     -- ;; HuwayoDap_1
     -- HwyD    HuwayoD Nap     renal pelvis
@@ -11236,7 +11245,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- HawaS -}            [ "squinting" ]
                               `plural`     FUL
-                              `plural`     FuCL
                               `plural`     FaCLA'
                               `plural`     HaFCaL
                            {- `others`  [ ".huw.s N", ".haw.sA' Nh N0_Nh Nhy", "'a.hwa.s Nel" ] -} ]
@@ -11362,8 +11370,9 @@ lexicon = listing "Lexicon's properties"
     -- HwA}T   HawA}iT Ndip    walls
 
     FA'iL                     `noun`    {- HA}iT -}            [ "wall", "walls" ]
+                              `plural`     FILAn
                               `plural`     FawA'iL
-                           {- `others`  [ ".hawA'i.t Ndip" ] -},
+                           {- `others`  [ ".hiy.tAn N", ".hawA'i.t Ndip" ] -},
 
     -- ;; HA}iTiy~_1
     -- HA}Ty   HA}iTiy~        Nall    wall     [[HA}iTiy~/ADJ]]
@@ -11487,7 +11496,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Hawo$ -}            [ "enclosure", "courtyard", "enclosures", "courtyards" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'a.hwA^s N" ] -},
+                              `plural`     FILAn
+                           {- `others`  [ "'a.hwA^s N", ".hiy^sAn N" ] -},
 
     -- ;; Hawa$_1
     -- Hw$     Hawa$   N       mob;riffraff
@@ -11497,7 +11507,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Huw$iy~_1
     -- Hw$y    Huw$iy~ N/ap    wild;strange     [[Huw$iy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- Huw$iy~ -}          [ "wild", "strange" ] ]
+    FUL |< Iy                 `adj`     {- Huw$iy~ -}          [ "wild", "strange" ] ]
 
  |> ".h w _d" <| [
 
@@ -11530,7 +11540,7 @@ lexicon = listing "Lexicon's properties"
     -- Hw*y    Huw*iy~ Ndu     cabman;driver
     -- Hw*y    Huw*iy~ Nap     drivers;cabmen     [[Huw*iy~/NOUN]]
 
-    FuCL |< Iy                `noun`    {- Huw*iy~ -}          [ "cabman", "driver", "drivers", "cabmen" ] ]
+    FUL |< Iy                 `noun`    {- Huw*iy~ -}          [ "cabman", "driver", "drivers", "cabmen" ] ]
 
  |> ".h w _t" <| [
 
@@ -12039,7 +12049,6 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- OaHowar -}          [ "white and black" ]
                               `plural`     FUL
-                              `plural`     FuCL
                               `plural`     FaCLA'
                            {- `others`  [ ".huwr N", ".hawrA' Nh N0_Nh Nhy" ] -},
 
@@ -12056,7 +12065,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Huw~Arap_1
     -- HwAr    Huw~Ar  Nap     cretaceous rock;chalk
 
-    FuCCAL |< aT              `noun`    {- Huw~Arap -}         [ "cretaceous rock", "chalk" ],
+    FUCAL |< aT               `noun`    {- Huw~Arap -}         [ "cretaceous rock", "chalk" ],
 
     -- ;; Huw~Arap_1
     -- HwAr    Huw~Ar  Nap     cretaceous rock;chalk
@@ -12067,9 +12076,8 @@ lexicon = listing "Lexicon's properties"
     -- Hwry    Huwriy~ NapAt   nymph;houri     [[Huwriy~/NOUN]]
     -- Hwr     Huwr    N       nymphs;houris
 
-    FuCL |< Iy |< aT          `noun`    {- Huwriy~ap -}        [ "nymph", "houri", "nymphs", "houris" ]
+    FUL |< Iy |< aT           `noun`    {- Huwriy~ap -}        [ "nymph", "houri", "nymphs", "houris" ]
                               `plural`     FUL
-                              `plural`     FuCL
                            {- `others`  [ ".huwr N" ] -},
 
     -- ;; HaworAn_1
@@ -12150,24 +12158,25 @@ lexicon = listing "Lexicon's properties"
     -- >HwAt   >aHowAt N       whales;fish
     -- AHwAt   >aHowAt N       whales;fish
 
-    FuCL                      `noun`    {- Huwt -}             [ "whale", "fish", "whales" ]
+    FUL                       `noun`    {- Huwt -}             [ "whale", "fish", "whales" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'a.hwAt N" ] -},
+                              `plural`     FILAn
+                           {- `others`  [ "'a.hwAt N", ".hiytAn N" ] -},
 
     -- ;; Huwt_2
     -- Hwt     Huwt    N0      Hout
 
-    FuCL                      `noun`    {- Huwt -}             [ "Hout" ],
+    FUL                       `noun`    {- Huwt -}             [ "Hout" ],
 
     -- ;; Huwt_3
     -- Hwt     Huwt    N0      Hout (12th month of solar year, in S.Ar.)
 
-    FuCL                      `noun`    {- Huwt -}             [ "Hout (12th month of solar year, in S.Ar.)" ],
+    FUL                       `noun`    {- Huwt -}             [ "Hout (12th month of solar year, in S.Ar.)" ],
 
     -- ;; Huwt_4
     -- Hwt     Huwt    N0      Pisces
 
-    FuCL                      `noun`    {- Huwt -}             [ "Pisces" ] ]
+    FUL                       `noun`    {- Huwt -}             [ "Pisces" ] ]
 
  |> ".h w w" <| [
 
@@ -12223,7 +12232,7 @@ lexicon = listing "Lexicon's properties"
     -- Hwy     Hawiy~  Nap     coil;roll     [[Hawiy~/NOUN]]
     -- HwAyA   HawAyA  N0_Nhy  intestines;bowels
 
-    FY |< Iy |< aT            `noun`    {- Hawiy~ap -}         [ "coil", "roll", "intestines", "bowels" ],
+    FaCIL |< aT               `noun`    {- Hawiy~ap -}         [ "coil", "roll", "intestines", "bowels" ],
 
     -- ;; HawAyap_1
     -- HwAy    HawAy   NapAt   head pad
@@ -12238,7 +12247,8 @@ lexicon = listing "Lexicon's properties"
     -- HAwy    HAwiy   NapAt   magician;juggler
     -- HwA     HuwA    Nap     magicians;jugglers
 
-    FACI                      `noun`    {- HAwiy -}            [ "magician", "juggler", "magicians", "jugglers" ],
+    FACI                      `noun`    {- HAwiy -}            [ "magician", "juggler", "magicians", "jugglers" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; {iHotiwA'_1
     -- <HtwA'  {iHotiwA'       N0_Nh   inclusion;content
@@ -12488,7 +12498,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; HiyTap_1
     -- HyT     HiyT    Nap     caution;care
 
-    FiCL |< aT                `noun`    {- HiyTap -}           [ "caution", "care" ],
+    FIL |< aT                 `noun`    {- HiyTap -}           [ "caution", "care" ],
 
     -- ;; HiyATap_1
     -- HyAT    HiyAT   Nap     guarding;custody
@@ -12522,12 +12532,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHiyT_1
     -- mHyT    muHiyT  Ndu     Ocean
 
-    MuFiCL                    `noun`    {- muHiyT -}           [ "Ocean" ],
+    MuFIL                     `noun`    {- muHiyT -}           [ "Ocean" ],
 
     -- ;; muHiyT_2
     -- mHyT    muHiyT  Nall    surrounding;peripheral     [[muHiyT/ADJ]]
 
-    MuFiCL                    `adj`     {- muHiyT -}           [ "surrounding", "peripheral" ],
+    MuFIL                     `adj`     {- muHiyT -}           [ "surrounding", "peripheral" ],
 
     -- ;; HayoTap_1
     -- HyT     HayoT   Nap     caution;care
@@ -12691,7 +12701,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Hiyk_1
     -- Hyk     Hiyk    FW      like that!;thus!     [[Hiyk/INTERJ]]
 
-    FiCL                      `noun`    {- Hiyk -}             [ "like that!", "thus!" ] ]
+    FIL                       `noun`    {- Hiyk -}             [ "like that!", "thus!" ] ]
 
  |> ".h y l" <| [
 
@@ -12709,12 +12719,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; muHiyl_1
     -- mHyl    muHiyl  Nall    transferor;assignor
 
-    MuFiCL                    `noun`    {- muHiyl -}           [ "transferor", "assignor" ],
+    MuFIL                     `noun`    {- muHiyl -}           [ "transferor", "assignor" ],
 
     -- ;; musotaHiyl_1
     -- mstHyl  musotaHiyl      Nall    impossible     [[musotaHiyl/ADJ]]
 
-    MustaFiCL                 `adj`     {- musotaHiyl -}       [ "impossible" ],
+    MustaFIL                  `adj`     {- musotaHiyl -}       [ "impossible" ],
 
     -- ;; taHay~al_1
     -- tHyl    taHay~al        PV      employ artful means;ponder ways and means
@@ -12733,7 +12743,7 @@ lexicon = listing "Lexicon's properties"
     -- >HAyyl  >aHAyiyl        Ndip    stratagems;ruses
     -- AHAyyl  >aHAyiyl        Ndip    stratagems;ruses
 
-    FiCL |< aT                `noun`    {- Hiylap -}           [ "stratagem", "ruse", "stratagems", "ruses" ]
+    FIL |< aT                 `noun`    {- Hiylap -}           [ "stratagem", "ruse", "stratagems", "ruses" ]
                               `plural`     FiCaL
                            {- `others`  [ ".hiyal N" ] -},
 
@@ -12807,7 +12817,7 @@ lexicon = listing "Lexicon's properties"
     -- >HyAn   >aHoyAn NF      sometimes;occasionally     [[>aHoyAn/ADV]]
     -- AHyAn   >aHoyAn NF      sometimes;occasionally     [[>aHoyAn/ADV]]
 
-    FiCL                      `noun`    {- Hiyn -}             [ "time", "moment", "opportunity", "times", "opportunities", "sometimes", "occasionally" ]
+    FIL                       `noun`    {- Hiyn -}             [ "time", "moment", "opportunity", "times", "opportunities", "sometimes", "occasionally" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.hyAn N NF" ] -} ]
 

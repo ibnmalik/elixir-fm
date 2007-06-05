@@ -923,13 +923,16 @@ lexicon = listing "Lexicon's properties"
 
  |> "f r ^s" <| [
 
-    MaFCUL                    `adj`     {- maforuw$ -}         [ "furnished" ],
-
-    FuCLY |< aT               `noun`    {- furo$Ap -}          [ "brush", "brushes" ] ]
+    MaFCUL                    `adj`     {- maforuw$ -}         [ "furnished" ] ]
 
  |> "f r ^s r" <| [
 
     KiRDUS                    `noun`    {- firo$uwr -}         [ "Verschuur" ] ]
+
+ |> "f r ^s y" <| [
+
+    KuRDY |< aT               `noun`    {- furo$Ap -}          [ "brush", "brushes" ]
+                              `plural`     KuRDaS |< At ]
 
  |> "f r _h" <| [
 
@@ -1369,11 +1372,11 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- tafaw~ah -}         [ "pronounce", "utter", "voice" ],
 
-    FuCL                      `noun`    {- fuwh -}             [ "mouth", "mouths" ]
+    FUL                       `noun`    {- fuwh -}             [ "mouth", "mouths" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'afwAh N" ] -},
 
-    FuCL |< aT                `noun`    {- fuwhap -}           [ "mouth", "aperture", "mouths", "apertures" ]
+    FUL |< aT                 `noun`    {- fuwhap -}           [ "mouth", "aperture", "mouths", "apertures" ]
                               `plural`     FawA'iL
                            {- `others`  [ "fawA'ih Ndip" ] -},
 
@@ -1381,7 +1384,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "f w l" <| [
 
-    FuCL                      `noun`    {- fuwl -}             [ "beans", "bean" ] ]
+    FUL                       `noun`    {- fuwl -}             [ "beans", "bean" ] ]
 
  |> "f w l _d" <| [
 
@@ -1389,7 +1392,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "f w n" <| [
 
-    FuCL                      `noun`    {- fuwn -}             [ "Von", "von" ] ]
+    FUL                       `noun`    {- fuwn -}             [ "Von", "von" ] ]
 
  |> "f w q" <| [
 
@@ -1484,7 +1487,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FawA'iL
                            {- `others`  [ "fawA'i.d Ndip" ] -},
 
-    MustaFiCL                 `adj`     {- musotafiyD -}       [ "elaborate", "detailed", "extensive" ] ]
+    MustaFIL                  `adj`     {- musotafiyD -}       [ "elaborate", "detailed", "extensive" ] ]
 
  |> "f y .s l" <| [
 
@@ -1513,20 +1516,20 @@ lexicon = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- fAyid -}            [ "Fayed" ],
 
-    MuFiCL                    `adj`     {- mufiyd -}           [ "useful", "beneficial" ],
+    MuFIL                     `adj`     {- mufiyd -}           [ "useful", "beneficial" ],
 
     MuFAL                     `noun`    {- mufAd -}            [ "meaning", "content" ],
 
-    MustaFiCL                 `noun`    {- musotafiyd -}       [ "benefiting", "beneficiary", "profiting" ] ]
+    MustaFIL                  `noun`    {- musotafiyd -}       [ "benefiting", "beneficiary", "profiting" ] ]
 
  |> "f y l" <| [
 
-    FiCL                      `noun`    {- fiyl -}             [ "elephant", "elephants" ]
+    FIL                       `noun`    {- fiyl -}             [ "elephant", "elephants" ]
                               `plural`     HaFCAL
                               `plural`     FuCUL
                            {- `others`  [ "'afyAl N", "fuyuwl N" ] -},
 
-    FiCL                      `noun`    {- fiyl -}             [ "bishop (chess)", "bishops (chess)" ]
+    FIL                       `noun`    {- fiyl -}             [ "bishop (chess)", "bishops (chess)" ]
                               `plural`     HaFCAL
                               `plural`     FuCUL
                            {- `others`  [ "'afyAl N", "fuyuwl N" ] -} ]

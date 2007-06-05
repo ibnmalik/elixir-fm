@@ -117,7 +117,7 @@ lexicon = listing "Lexicon's properties"
 
     IstaFCaL                  `verb`    {- AisotayoqaZ -}      [ "wake up", "be roused", "be alert" ],
 
-    HiFCAL                    `noun`    {- IiyqAZ -}           [ "awakening", "reveille" ] ]
+    HICAL                     `noun`    {- IiyqAZ -}           [ "awakening", "reveille" ] ]
 
  |> "y q n" <| [
 
@@ -203,9 +203,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "y w n" <| [
 
-    FuCLAn                    `noun`    {- yuwnAn -}           [ "Greece" ],
+    FULAn                     `noun`    {- yuwnAn -}           [ "Greece" ],
 
-    FuCLAn |< Iy              `adj`     {- yuwnAniy~ -}        [ "Greek" ] ]
+    FULAn                     `noun`    {- yuwnAn -}           [ "Greece" ],
+
+    FULAn |< Iy               `adj`     {- yuwnAniy~ -}        [ "Greek" ],
+
+    FULAn |< Iy               `adj`     {- yuwnAniy~ -}        [ "Greek" ] ]
 
  |> "y w n ^s" <| [
 
@@ -223,13 +227,15 @@ lexicon = listing "Lexicon's properties"
 
  |> "y w r w" <| [
 
-    KuRDuS                    `noun`    {- yuwruw -}           [ "Euro" ] ]
+    KuRDU                     `noun`    {- yuwruw -}           [ "Euro" ] ]
 
  |> "y w s f" <| [
 
     KuRDuS |< Iy              `adj`     {- yuwsufiy~ -}        [ "tangerines" ] ]
 
  |> "y w w" <| [
+
+    FU                        `noun`    {- yuw -}              [ "Yo", "Yu" ],
 
     FU                        `noun`    {- yuw -}              [ "Yo", "Yu" ] ]
 

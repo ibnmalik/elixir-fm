@@ -1038,6 +1038,7 @@ lexicon = listing "Lexicon's properties"
     -- xTA     xuTA    Nap     mistaken;at fault
 
     FACiL                     `adj`     {- xATi} -}            [ "mistaken", "at fault" ]
+                              `plural`     FuCY |< aT
                               `plural`     FawACiL
                            {- `others`  [ "_hawA.ti' Ndip" ] -},
 
@@ -3915,9 +3916,7 @@ lexicon = listing "Lexicon's properties"
     -- xwAf    xawAf   NK      secrets
 
     FACI |< aT                `noun`    {- xAfiyap -}          [ "secret", "secrets" ]
-                              `plural`     FACiL |< At
                               `plural`     FACI |< At
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "_hawAfiy N0_Nh" ] -},
 
@@ -8061,12 +8060,12 @@ lexicon = listing "Lexicon's properties"
     -- xwS     xuwS    N       palm leaves
     -- xwS     xuwS    Napdu   palm leaf
 
-    FuCL                      `noun`    {- xuwS -}             [ "palm leaves", "palm leaf" ],
+    FUL                       `noun`    {- xuwS -}             [ "palm leaves", "palm leaf" ],
 
     -- ;; xuwSap_1
     -- xwS     xuwS    Nap     palm leaf plait
 
-    FuCL |< aT                `noun`    {- xuwSap -}           [ "palm leaf plait" ],
+    FUL |< aT                 `noun`    {- xuwSap -}           [ "palm leaf plait" ],
 
     -- ;; xiwASap_1
     -- xwAS    xiwAS   Nap     palm-leaf plaiting
@@ -8116,7 +8115,7 @@ lexicon = listing "Lexicon's properties"
     -- xw*     xuw*    NapAt   helmet
     -- xw*     xuwa*   N       helmets
 
-    FuCL |< aT                `noun`    {- xuw*ap -}           [ "helmet", "helmets" ]
+    FUL |< aT                 `noun`    {- xuw*ap -}           [ "helmet", "helmets" ]
                               `plural`     FuCaL
                            {- `others`  [ "_huwa_d N" ] -} ]
 
@@ -8223,9 +8222,7 @@ lexicon = listing "Lexicon's properties"
     -- xA}f    xA}if   Nall    afraid;fearful     [[xA}if/ADJ]]
     -- xwf     xuw~af  N       afraid;fearful
 
-    FA'iL                     `adj`     {- xA}if -}            [ "afraid", "fearful" ]
-                              `plural`     FuCCaL
-                           {- `others`  [ "_huwwaf N" ] -},
+    FA'iL                     `adj`     {- xA}if -}            [ "afraid", "fearful" ],
 
     -- ;; maxuwf_1
     -- mxwf    maxuwf  Nall    feared;dangerous     [[maxuwf/ADJ]]
@@ -8263,14 +8260,17 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `noun`    {- xAl -}              [ "maternal uncle", "maternal uncles" ]
                               `plural`     FuCUL |< aT
+                              `plural`     FILAn
                               `plural`     HaFCAL
-                           {- `others`  [ "_huwuwl N", "'a_hwAl N" ] -},
+                           {- `others`  [ "_huwuwl N", "_hiylAn N", "'a_hwAl N" ] -},
 
     -- ;; xAl_2
     -- xAl     xAl     Ndu     mole
     -- xylAn   xiylAn  N       moles
 
-    FAL                       `noun`    {- xAl -}              [ "mole", "moles" ],
+    FAL                       `noun`    {- xAl -}              [ "mole", "moles" ]
+                              `plural`     FILAn
+                           {- `others`  [ "_hiylAn N" ] -},
 
     -- ;; xAlap_1
     -- xAl     xAl     Napdu   maternal aunt
@@ -8292,12 +8292,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; xuwliy~_1
     -- xwly    xuwliy~ Nall    supervisor;gardener
 
-    FuCL |< Iy                `adj`     {- xuwliy~ -}          [ "supervisor", "gardener" ],
+    FUL |< Iy                 `adj`     {- xuwliy~ -}          [ "supervisor", "gardener" ],
 
     -- ;; xuwliy~_2
     -- xwly    xuwliy~ N0      Khouli
 
-    FuCL |< Iy                `adj`     {- xuwliy~ -}          [ "Khouli" ],
+    FUL |< Iy                 `adj`     {- xuwliy~ -}          [ "Khouli" ],
 
     -- ;; muxaw~al_1
     -- mxwl    muxaw~al        N-ap    authorized
@@ -8333,7 +8333,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; xuwluw_1
     -- xwlw    xuwluw  Nprop   Jolo
 
-    KuRDuS                    `noun`    {- xuwluw -}           [ "Jolo" ] ]
+    KuRDU                     `noun`    {- xuwluw -}           [ "Jolo" ] ]
 
  |> "_h w l y" <| [
 
@@ -8341,7 +8341,13 @@ lexicon = listing "Lexicon's properties"
     -- xwAly   xawAliy N0_Nh   elapsed
     -- xwAl    xawAl   NK      elapsed
 
-    KaRADiS                   `noun`    {- xawAliy -}          [ "elapsed" ] ]
+    KaRADI                    `noun`    {- xawAliy -}          [ "elapsed" ],
+
+    -- ;; xawAliy_1
+    -- xwAly   xawAliy N0_Nh   elapsed
+    -- xwAl    xawAl   NK      elapsed
+
+    KaRADI                    `noun`    {- xawAliy -}          [ "elapsed" ] ]
 
  |> "_h w n" <| [
 
@@ -8401,7 +8407,6 @@ lexicon = listing "Lexicon's properties"
 
     FA'iL                     `noun`    {- xA}in -}            [ "traitor", "treacherous", "traitors", "disloyal" ]
                               `plural`     FaCL |< aT
-                              `plural`     FuCCAL
                               `plural`     FUCAL
                            {- `others`  [ "_huwwAn N" ] -},
 
@@ -8445,7 +8450,8 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- xawor -}            [ "inlet", "bay", "inlets", "bays" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'a_hwAr N" ] -},
+                              `plural`     FILAn
+                           {- `others`  [ "'a_hwAr N", "_hiyrAn N" ] -},
 
     -- ;; xawar_1
     -- xwr     xawar   N       weakness;fatigue
@@ -8465,7 +8471,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; xuwraY_1
     -- xwrY    xuwraY  N0      better;superior
 
-    FuCLY                     `noun`    {- xuwraY -}           [ "better", "superior" ] ]
+    FULY                      `noun`    {- xuwraY -}           [ "better", "superior" ] ]
 
  |> "_h w r s" <| [
 
@@ -8473,6 +8479,13 @@ lexicon = listing "Lexicon's properties"
     -- xwrs    xuwrus  N       choir
 
     KuRDuS                    `noun`    {- xuwrus -}           [ "choir" ] ]
+
+ |> "_h w r y" <| [
+
+    -- ;; xuwraY_1
+    -- xwrY    xuwraY  N0      better;superior
+
+    KuRDY                     `noun`    {- xuwraY -}           [ "better", "superior" ] ]
 
  |> "_h w s h" <| [
 
@@ -8486,7 +8499,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; xuw~ap_1
     -- xw      xuw~    Nap     brotherliness;fraternity
 
-    FuCL |< aT                `noun`    {- xuw~ap -}           [ "brotherliness", "fraternity" ],
+    FUL |< aT                 `noun`    {- xuw~ap -}           [ "brotherliness", "fraternity" ],
 
     -- ;; xuw~ap_1
     -- xw      xuw~    Nap     brotherliness;fraternity
@@ -8599,7 +8612,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- xayoT -}            [ "string", "thread", "strings" ]
                               `plural`     FuCUL
-                              `plural`     FiCLAn
+                              `plural`     FILAn
                               `plural`     HaFCAL
                            {- `others`  [ "_huyuw.t N", "_hiy.tAn N", "'a_hyA.t N" ] -},
 
@@ -8720,12 +8733,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; xiyfap_1
     -- xyf     xiyf    Nap     fear
 
-    FiCL |< aT                `noun`    {- xiyfap -}           [ "fear" ],
+    FIL |< aT                 `noun`    {- xiyfap -}           [ "fear" ],
 
     -- ;; muxiyf_1
     -- mxyf    muxiyf  Nall    frightful;horrible     [[muxiyf/ADJ]]
 
-    MuFiCL                    `adj`     {- muxiyf -}           [ "frightful", "horrible" ] ]
+    MuFIL                     `adj`     {- muxiyf -}           [ "frightful", "horrible" ] ]
 
  |> "_h y l" <| [
 
@@ -8816,7 +8829,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FuCaLA'
                               `plural`     HaFACiL
                               `plural`     FIL
-                              `plural`     FiCL
                            {- `others`  [ "_huyalA' Nh N0_Nh Nhy", "'a_hAyil Ndip", "_hiyl N" ] -},
 
     -- ;; maxiylap_1
@@ -8856,7 +8868,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muxiyl_1
     -- mxyl    muxiyl  Nall    dubious;vague;confusing
 
-    MuFiCL                    `noun`    {- muxiyl -}           [ "dubious", "vague", "confusing" ],
+    MuFIL                     `noun`    {- muxiyl -}           [ "dubious", "vague", "confusing" ],
 
     -- ;; mutaxay~al_1
     -- mtxyl   mutaxay~al      N-ap    imagined;supposed     [[mutaxay~al/ADJ]]
@@ -9002,6 +9014,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FiCAL
                            {- `others`  [ "'a_hyAr N", "_huyuwr N", "_hiyAr N" ] -},
 
+    -- ;; xuwraY_1
+    -- xwrY    xuwraY  N0      better;superior
+
+    FULY                      `noun`    {- xuwraY -}           [ "better", "superior" ],
+
     -- ;; xayoriy~_1
     -- xyry    xayoriy~        Nall    charitable;philanthropic     [[xayoriy~/ADJ]]
 
@@ -9027,7 +9044,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; xiyrap_1
     -- xyr     xiyr    Nap     choice;pick;elite
 
-    FiCL |< aT                `noun`    {- xiyrap -}           [ "choice", "pick", "elite" ],
+    FIL |< aT                 `noun`    {- xiyrap -}           [ "choice", "pick", "elite" ],
 
     -- ;; >axoyar_1
     -- >xyr    >axoyar Nel     better;superior
@@ -9039,7 +9056,7 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oaxoyar -}          [ "better", "superior" ]
                               `plural`     HaFACiL
-                              `plural`     FiCLY
+                              `plural`     FILY
                            {- `others`  [ "'a_hAyir Ndip", "_hiyrY N0" ] -},
 
     -- ;; xiyAr_1
@@ -9472,7 +9489,6 @@ lexicon = listing "Lexicon's properties"
     -- mxAz    maxAz   NK      infamies;disgraceful acts
 
     MaFCY |< aT               `noun`    {- maxozAp -}          [ "disgrace", "infamy", "infamies", "disgraceful acts" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "ma_hAziy N0_Nh" ] -},
 

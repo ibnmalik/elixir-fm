@@ -91,7 +91,6 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `noun`    {- qaDaY -}            [ "judgment", "sentence", "judgments", "sentences" ]
                               `plural`     FaCA
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT
                            {- `others`  [ "qa.dA Nhy" ] -},
 
@@ -100,7 +99,6 @@ lexicon = listing "Lexicon's properties"
     FaCA'                     `noun`    {- qaDA' -}            [ "extermination", "annihilation" ],
 
     FaCA'                     `noun`    {- qaDA' -}            [ "district", "province", "districts", "provinces" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT,
 
     FaCA' |< Iy               `adj`     {- qaDA}iy~ -}         [ "judicial", "legal" ],
@@ -118,7 +116,8 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- qADiy -}            [ "executing", "performing", "decreeing" ],
 
-    FACI                      `noun`    {- qADiy -}            [ "judge", "magistrate", "judges", "magistrates" ],
+    FACI                      `noun`    {- qADiy -}            [ "judge", "magistrate", "judges", "magistrates" ]
+                              `plural`     FuCY |< aT,
 
     MaFCIy                    `adj`     {- maqoDiy~ -}         [ "settled", "finished" ],
 
@@ -1669,7 +1668,8 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `noun`    {- qAE -}              [ "bottom", "floor", "depths" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'aqwA` N" ] -},
+                              `plural`     FILAn
+                           {- `others`  [ "'aqwA` N", "qiy`An N" ] -},
 
     FAL |< aT                 `noun`    {- qAEap -}            [ "hall", "corridor", "large room", "halls", "corridors", "large rooms" ]
                               `plural`     FAL |< At ]
@@ -1686,13 +1686,10 @@ lexicon = listing "Lexicon's properties"
 
     FA'iL                     `noun`    {- qA}id -}            [ "leader", "commander", "leaders", "commanders" ]
                               `plural`     FAL |< aT
-                              `plural`     FuCCAL
                               `plural`     FUCAL
-                              `plural`     FuCCaL
-                           {- `others`  [ "quwwAd N", "quwwad N" ] -},
+                           {- `others`  [ "quwwAd N" ] -},
 
     FA'iL                     `noun`    {- qA}id -}            [ "driver", "chauffeur", "drivers", "chauffeurs" ]
-                              `plural`     FuCCAL
                               `plural`     FUCAL
                            {- `others`  [ "quwwAd N" ] -} ]
 
@@ -1764,7 +1761,6 @@ lexicon = listing "Lexicon's properties"
     FA'iL                     `adj`     {- qA}im -}            [ "remaining", "existing" ],
 
     FA'iL                     `adj`     {- qA}im -}            [ "standing", "upright" ]
-                              `plural`     FuCCAL
                               `plural`     FUCAL
                            {- `others`  [ "quwwAm N" ] -},
 
@@ -1812,22 +1808,20 @@ lexicon = listing "Lexicon's properties"
 
  |> "q w t" <| [
 
-    FuCL                      `noun`    {- quwt -}             [ "nourishment", "food" ]
+    FUL                       `noun`    {- quwt -}             [ "nourishment", "food" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'aqwAt N" ] -} ]
 
  |> "q w w" <| [
 
-    FuCL |< aT                `noun`    {- quw~ap -}           [ "power", "strength", "armed forces" ]
+    FUL |< aT                 `noun`    {- quw~ap -}           [ "power", "strength", "armed forces" ]
                               `plural`     FuCY
                               `plural`     FUL |< At
-                              `plural`     FuCL |< At
                            {- `others`  [ "quwY N0" ] -},
 
     FUL |< aT                 `noun`    {- quw~ap -}           [ "power", "strength", "armed forces" ]
                               `plural`     FuCY
                               `plural`     FUL |< At
-                              `plural`     FuCL |< At
                            {- `others`  [ "quwY N0" ] -} ]
 
  |> "q w y" <| [
@@ -1841,7 +1835,7 @@ lexicon = listing "Lexicon's properties"
 
     IstaFCY                   `verb`    {- AisotaqowaY -}      [ "become strong", "be strengthened" ],
 
-    FY |< Iy                  `adj`     {- qawiy~ -}           [ "strong", "powerful" ]
+    FaCIL                     `adj`     {- qawiy~ -}           [ "strong", "powerful" ]
                               `plural`     HaFCiLA'
                            {- `others`  [ "'aqwiyA' Nh N0_Nh Nhy" ] -},
 
@@ -1907,15 +1901,15 @@ lexicon = listing "Lexicon's properties"
 
     IstiFAL |< aT             `noun`    {- AisotiqAlap -}      [ "resignation", "retirement" ],
 
-    MustaFiCL                 `noun`    {- musotaqiyl -}       [ "discharged", "retired" ] ]
+    MustaFIL                  `noun`    {- musotaqiyl -}       [ "discharged", "retired" ] ]
 
  |> "q y m" <| [
 
-    FiCL |< aT                `noun`    {- qiymap -}           [ "value", "worth", "values", "morals", "ethics" ]
+    FIL |< aT                 `noun`    {- qiymap -}           [ "value", "worth", "values", "morals", "ethics" ]
                               `plural`     FiCaL
                            {- `others`  [ "qiyam N" ] -},
 
-    FiCL |< aT                `noun`    {- qiymap -}           [ "amount", "quantity", "amounts", "quantities" ]
+    FIL |< aT                 `noun`    {- qiymap -}           [ "amount", "quantity", "amounts", "quantities" ]
                               `plural`     FiCaL
                            {- `others`  [ "qiyam N" ] -},
 
@@ -1925,7 +1919,7 @@ lexicon = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- qiyAmap -}          [ "resurrection" ],
 
-    MuFiCL                    `noun`    {- muqiym -}           [ "residing", "resident" ],
+    MuFIL                     `noun`    {- muqiym -}           [ "residing", "resident" ],
 
     FaCCaL                    `verb`    {- qay~am -}           [ "evaluate", "assess", "rate" ],
 

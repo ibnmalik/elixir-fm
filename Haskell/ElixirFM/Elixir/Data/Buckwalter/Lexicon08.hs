@@ -1618,7 +1618,8 @@ lexicon = listing "Lexicon's properties"
     -- dAEy    dAEiy   NapAt   inviter;propagandist
     -- dEA     duEA    Nap     callers;propagandists
 
-    FACI                      `noun`    {- dAEiy -}            [ "inviter", "propagandist", "callers", "propagandists" ],
+    FACI                      `noun`    {- dAEiy -}            [ "inviter", "propagandist", "callers", "propagandists" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; dAEiyap_1
     -- dAEy    dAEiy   Napdu   propagandist;missionary;motive
@@ -1707,7 +1708,6 @@ lexicon = listing "Lexicon's properties"
     -- dwAE    dawAE   NK      motives;requirements
 
     FACI                      `noun`    {- dAEiy -}            [ "cause", "reason", "motives", "requirements" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "dawA`iy N0_Nh" ] -},
 
@@ -1719,7 +1719,8 @@ lexicon = listing "Lexicon's properties"
     -- dAEy    dAEiy   NapAt   inviter;propagandist
     -- dEA     duEA    Nap     callers;propagandists
 
-    FACI                      `noun`    {- dAEiy -}            [ "inviter", "propagandist", "callers", "propagandists" ],
+    FACI                      `noun`    {- dAEiy -}            [ "inviter", "propagandist", "callers", "propagandists" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; dAEiyap_1
     -- dAEy    dAEiy   Napdu   propagandist;missionary;motive
@@ -2833,7 +2834,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; diholiy_1
     -- dhly    diholiy Nprop   Delhi
 
-    KiRDiS                    `noun`    {- diholiy -}          [ "Delhi" ] ]
+    KiRDI                     `noun`    {- diholiy -}          [ "Delhi" ],
+
+    -- ;; diholiy_1
+    -- dhly    diholiy Nprop   Delhi
+
+    KiRDI                     `noun`    {- diholiy -}          [ "Delhi" ] ]
 
  |> "d h l z" <| [
 
@@ -3190,7 +3196,8 @@ lexicon = listing "Lexicon's properties"
     -- dAhy    dAhiy   NapAt   smart;sly
     -- dhA     duhA    Nap     smart;sly
 
-    FACI                      `adj`     {- dAhiy -}            [ "smart", "sly" ],
+    FACI                      `adj`     {- dAhiy -}            [ "smart", "sly" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; dAhiyap_1
     -- dAhy    dAhiy   Napdu   sly dog;old fox
@@ -3203,7 +3210,6 @@ lexicon = listing "Lexicon's properties"
     -- dwAh    dawAh   NK      calamity;catastrophe
 
     FACI |< aT                `noun`    {- dAhiyap -}          [ "calamity", "catastrophe" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "dawAhiy N0_Nh" ] -} ]
 
@@ -3540,7 +3546,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; dilohiy_1
     -- dlhy    dilohiy Nprop   Delhi
 
-    KiRDiS                    `noun`    {- dilohiy -}          [ "Delhi" ] ]
+    KiRDI                     `noun`    {- dilohiy -}          [ "Delhi" ],
+
+    -- ;; dilohiy_1
+    -- dlhy    dilohiy Nprop   Delhi
+
+    KiRDI                     `noun`    {- dilohiy -}          [ "Delhi" ] ]
 
  |> "d l k" <| [
 
@@ -3893,7 +3904,6 @@ lexicon = listing "Lexicon's properties"
     -- dwAl    dawAl   NK      waterwheels;trellises
 
     FACI |< aT                `noun`    {- dAliyap -}          [ "waterwheel", "trellis", "waterwheels", "trellises" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "dawAliy N0_Nh" ] -},
 
@@ -5070,6 +5080,14 @@ lexicon = listing "Lexicon's properties"
     -- dnyAl   danoyAl Nprop   Daniel
 
     KaRDAS                    `noun`    {- danoyAl -}          [ "Daniel" ] ]
+
+ |> "d n y y" <| [
+
+    -- ;; dunoyawiy~_1
+    -- dnywy   dunoyawiy~      Nall    worldly;temporal     [[dunoyawiy~/ADJ]]
+    -- dnyAwy  dunoyAwiy~      Nall    worldly;temporal     [[dunoyAwiy~/ADJ]]
+
+    KuRDY |< Iy               `adj`     {- dunoyawiy~ -}       [ "worldly", "temporal" ] ]
 
  |> "d q ^s m" <| [
 
@@ -6715,14 +6733,14 @@ lexicon = listing "Lexicon's properties"
     -- dw$     duw$    N/At    shower;douche
     -- d$      du$     N       shower;douche
 
-    FuCL                      `noun`    {- duw$ -}             [ "shower", "douche" ]
+    FUL                       `noun`    {- duw$ -}             [ "shower", "douche" ]
                               `plural`     FuL
                            {- `others`  [ "du^s N" ] -},
 
     -- ;; duw$An_1
     -- dw$An   duw$An  Nprop   Dushan
 
-    FuCLAn                    `noun`    {- duw$An -}           [ "Dushan" ] ]
+    FULAn                     `noun`    {- duw$An -}           [ "Dushan" ] ]
 
  |> "d w _h" <| [
 
@@ -6795,7 +6813,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; duwbuw_1
     -- dwbw    duwbuw  Nprop   Dubot
 
-    KuRDuS                    `noun`    {- duwbuw -}           [ "Dubot" ] ]
+    KuRDU                     `noun`    {- duwbuw -}           [ "Dubot" ] ]
 
  |> "d w d" <| [
 
@@ -6810,12 +6828,14 @@ lexicon = listing "Lexicon's properties"
     -- dwd     duwd    Napdu   worm;larva
     -- dydAn   diydAn  N       worms;larvae
 
-    FuCL                      `noun`    {- duwd -}             [ "worms", "larvae", "worm", "larva" ],
+    FUL                       `noun`    {- duwd -}             [ "worms", "larvae", "worm", "larva" ]
+                              `plural`     FILAn
+                           {- `others`  [ "diydAn N" ] -},
 
     -- ;; duwdiy~_1
     -- dwdy    duwdiy~ N-ap    worm-like;vermiform     [[duwdiy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- duwdiy~ -}          [ "worm-like", "vermiform" ],
+    FUL |< Iy                 `adj`     {- duwdiy~ -}          [ "worm-like", "vermiform" ],
 
     -- ;; maduwd_1
     -- mdwd    maduwd  N-ap    wormy;worm-eaten
@@ -6854,19 +6874,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; duwf_1
     -- dwf     duwf    Nprop   Dov
 
-    FuCL                      `noun`    {- duwf -}             [ "Dov" ] ]
+    FUL                       `noun`    {- duwf -}             [ "Dov" ] ]
 
  |> "d w k" <| [
 
     -- ;; duwk_1
     -- dwk     duwk    Nprop   Duc
 
-    FuCL                      `noun`    {- duwk -}             [ "Duc" ],
+    FUL                       `noun`    {- duwk -}             [ "Duc" ],
 
     -- ;; duwk_2
     -- dwk     duwk    Nprop   Duke
 
-    FuCL                      `noun`    {- duwk -}             [ "Duke" ],
+    FUL                       `noun`    {- duwk -}             [ "Duke" ],
 
     -- ;; daw~ak_1
     -- dwk     daw~ak  PV      chatter;prattle
@@ -6965,7 +6985,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; duwlAn_1
     -- dwlAn   duwlAn  Nprop   Dolan
 
-    FuCLAn                    `noun`    {- duwlAn -}           [ "Dolan" ] ]
+    FULAn                     `noun`    {- duwlAn -}           [ "Dolan" ],
+
+    -- ;; duwlAn_1
+    -- dwlAn   duwlAn  Nprop   Dolan
+
+    FULAn                     `noun`    {- duwlAn -}           [ "Dolan" ] ]
 
  |> "d w l b" <| [
 
@@ -7137,7 +7162,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; duwmAn_1
     -- dwmAn   duwmAn  N       rudder;helm
 
-    FuCLAn                    `noun`    {- duwmAn -}           [ "rudder", "helm" ] ]
+    FULAn                     `noun`    {- duwmAn -}           [ "rudder", "helm" ],
+
+    -- ;; duwmAn_1
+    -- dwmAn   duwmAn  N       rudder;helm
+
+    FULAn                     `noun`    {- duwmAn -}           [ "rudder", "helm" ] ]
 
  |> "d w m n" <| [
 
@@ -7187,7 +7217,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; duwn_1
     -- dwn     duwn    N       inferior;poor
 
-    FuCL                      `noun`    {- duwn -}             [ "inferior", "poor" ] ]
+    FUL                       `noun`    {- duwn -}             [ "inferior", "poor" ] ]
 
  |> "d w n m" <| [
 
@@ -7202,22 +7232,22 @@ lexicon = listing "Lexicon's properties"
     -- ;; duwq_1
     -- dwq     duwq    N       duke
 
-    FuCL                      `noun`    {- duwq -}             [ "duke" ],
+    FUL                       `noun`    {- duwq -}             [ "duke" ],
 
     -- ;; duwqap_1
     -- dwq     duwq    Nap     duchess
 
-    FuCL |< aT                `noun`    {- duwqap -}           [ "duchess" ],
+    FUL |< aT                 `noun`    {- duwqap -}           [ "duchess" ],
 
     -- ;; duwqiy~_1
     -- dwqy    duwqiy~ Nall    ducal;duke-related     [[duwqiy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- duwqiy~ -}          [ "ducal", "duke-related" ],
+    FUL |< Iy                 `adj`     {- duwqiy~ -}          [ "ducal", "duke-related" ],
 
     -- ;; duwqiy~ap_1
     -- dwqy    duwqiy~ NapAt   dukedom;ducat     [[duwqiy~/NOUN]]
 
-    FuCL |< Iy |< aT          `noun`    {- duwqiy~ap -}        [ "dukedom", "ducat" ] ]
+    FUL |< Iy |< aT           `noun`    {- duwqiy~ap -}        [ "dukedom", "ducat" ] ]
 
  |> "d w r" <| [
 
@@ -7280,7 +7310,6 @@ lexicon = listing "Lexicon's properties"
 
     FAL                       `noun`    {- dAr -}              [ "house", "home", "houses", "homes", "abodes" ]
                               `plural`     FUL
-                              `plural`     FuCL
                               `plural`     FIL |< aT
                            {- `others`  [ "duwr N" ] -},
 
@@ -7299,7 +7328,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; duwriy~_1
     -- dwry    duwriy~ N-ap    domestic     [[duwriy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- duwriy~ -}          [ "domestic" ],
+    FUL |< Iy                 `adj`     {- duwriy~ -}          [ "domestic" ],
 
     -- ;; dawor_1
     -- dwr     dawor   Ndu     role;part
@@ -7380,7 +7409,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; duw~Ar_1
     -- dwAr    duw~Ar  N       bedouin camp (Maghrebi)
 
-    FuCCAL                    `noun`    {- duw~Ar -}           [ "bedouin camp (Maghrebi)" ],
+    FUCAL                     `noun`    {- duw~Ar -}           [ "bedouin camp (Maghrebi)" ],
 
     -- ;; duw~Ar_1
     -- dwAr    duw~Ar  N       bedouin camp (Maghrebi)
@@ -7521,7 +7550,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; duwruw_1
     -- dwrw    duwruw  N0      duro coin
 
-    KuRDuS                    `noun`    {- duwruw -}           [ "duro coin" ] ]
+    KuRDU                     `noun`    {- duwruw -}           [ "duro coin" ] ]
 
  |> "d w s" <| [
 
@@ -7578,12 +7607,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; duws_1
     -- dws     duws    Nprop   Dos
 
-    FuCL                      `noun`    {- duws -}             [ "Dos" ],
+    FUL                       `noun`    {- duws -}             [ "Dos" ],
 
     -- ;; duws_2
     -- dws     duws    Nprop   DOS
 
-    FuCL                      `noun`    {- duws -}             [ "DOS" ] ]
+    FUL                       `noun`    {- duws -}             [ "DOS" ] ]
 
  |> "d w s r" <| [
 
@@ -7593,6 +7622,11 @@ lexicon = listing "Lexicon's properties"
     KaRDaS |< Iy              `adj`     {- dawosariy~ -}       [ "Dosari", "Dawsari" ] ]
 
  |> "d w w" <| [
+
+    -- ;; duw_1
+    -- dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]
+
+    FU                        `noun`    {- duw -}              [ "Du", "Do" ],
 
     -- ;; duw_1
     -- dw      duw     FW      Du;Do     [[duw/NOUN_PROP]]
@@ -7677,7 +7711,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; dawiy~_1
     -- dwy     dawiy~  N       sound;drone;echo
 
-    FY |< Iy                  `adj`     {- dawiy~ -}           [ "sound", "drone", "echo" ],
+    FaCIL                     `noun`    {- dawiy~ -}           [ "sound", "drone", "echo" ],
 
     -- ;; dawAp_1
     -- dwA     dawA    Napdu   socket
@@ -7700,7 +7734,6 @@ lexicon = listing "Lexicon's properties"
     -- Adwy    >adowiy Nap     remedies;medications
 
     FaCA'                     `noun`    {- dawA' -}            [ "remedy", "medication", "remedies", "medications" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT,
 
     -- ;; dawA}iy~_1
@@ -7738,6 +7771,11 @@ lexicon = listing "Lexicon's properties"
     -- mdwy    mudaw~iy        NapAt   ringing;resounding
 
     MuFaCCI                   `noun`    {- mudaw~iy -}         [ "ringing", "resounding" ],
+
+    -- ;; dA}iy_1
+    -- dA}y    dA}iy   Nprop   Da'i
+
+    FA'I                      `noun`    {- dA}iy -}            [ "Da'i" ],
 
     -- ;; dA}iy_1
     -- dA}y    dA}iy   Nprop   Da'i
@@ -7814,21 +7852,32 @@ lexicon = listing "Lexicon's properties"
     -- dyAjy   dayAjiy N0_Nh   darkness
     -- dyAj    dayAj   NK      darkness
 
-    KaRADiS                   `noun`    {- dayAjiy -}          [ "darkness" ] ]
+    KaRADI                    `noun`    {- dayAjiy -}          [ "darkness" ],
+
+    -- ;; dayAjiy_1
+    -- dyAjy   dayAjiy N0_Nh   darkness
+    -- dyAj    dayAj   NK      darkness
+
+    KaRADI                    `noun`    {- dayAjiy -}          [ "darkness" ] ]
 
  |> "d y ^s" <| [
 
     -- ;; diy$An_1
     -- dy$An   diy$An  Nprop   Deschamps
 
-    FiCLAn                    `noun`    {- diy$An -}           [ "Deschamps" ] ]
+    FILAn                     `noun`    {- diy$An -}           [ "Deschamps" ] ]
 
  |> "d y ^s y" <| [
 
     -- ;; diy$iy_1
     -- dy$y    diy$iy  Nprop   Dechy
 
-    KiRDiS                    `noun`    {- diy$iy -}           [ "Dechy" ] ]
+    KiRDI                     `noun`    {- diy$iy -}           [ "Dechy" ],
+
+    -- ;; diy$iy_1
+    -- dy$y    diy$iy  Nprop   Dechy
+
+    KiRDI                     `noun`    {- diy$iy -}           [ "Dechy" ] ]
 
  |> "d y _t" <| [
 
@@ -7842,7 +7891,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; diyb_1
     -- dyb     diyb    N0      Deeb
 
-    FiCL                      `noun`    {- diyb -}             [ "Deeb" ],
+    FIL                       `noun`    {- diyb -}             [ "Deeb" ],
 
     -- ;; diyAb_1
     -- dyAb    diyAb   N0      Diab
@@ -7885,7 +7934,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; diyk_1
     -- dyk     diyk    Nprop   Dick
 
-    FiCL                      `noun`    {- diyk -}             [ "Dick" ],
+    FIL                       `noun`    {- diyk -}             [ "Dick" ],
 
     -- ;; diyk_2
     -- dyk     diyk    N       cock;rooster
@@ -7894,7 +7943,7 @@ lexicon = listing "Lexicon's properties"
     -- >dyAk   >adoyAk N       cocks;roosters
     -- AdyAk   >adoyAk N       cocks;roosters
 
-    FiCL                      `noun`    {- diyk -}             [ "cock", "rooster", "cocks", "roosters" ]
+    FIL                       `noun`    {- diyk -}             [ "cock", "rooster", "cocks", "roosters" ]
                               `plural`     HaFCAL
                               `plural`     FiCaL |< aT
                               `plural`     FuCUL
@@ -7912,14 +7961,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; diyl_1
     -- dyl     diyl    FW      del     [[diyl/NOUN_PROP]]
 
-    FiCL                      `noun`    {- diyl -}             [ "del" ] ]
+    FIL                       `noun`    {- diyl -}             [ "del" ] ]
 
  |> "d y l y" <| [
 
     -- ;; dayoliy_1
     -- dyly    dayoliy N0      Daily
 
-    KaRDiS                    `noun`    {- dayoliy -}          [ "Daily" ] ]
+    KaRDI                     `noun`    {- dayoliy -}          [ "Daily" ],
+
+    -- ;; dayoliy_1
+    -- dyly    dayoliy N0      Daily
+
+    KaRDI                     `noun`    {- dayoliy -}          [ "Daily" ] ]
 
  |> "d y m" <| [
 
@@ -7927,7 +7981,7 @@ lexicon = listing "Lexicon's properties"
     -- dym     diym    Nap     continuous rain
     -- dym     diyam   N       continuous rain
 
-    FiCL |< aT                `noun`    {- diymap -}           [ "continuous rain" ]
+    FIL |< aT                 `noun`    {- diymap -}           [ "continuous rain" ]
                               `plural`     FiCaL
                            {- `others`  [ "diyam N" ] -},
 
@@ -7939,7 +7993,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; musotadiym_1
     -- mstdym  musotadiym      Nall    continuous;standing
 
-    MustaFiCL                 `noun`    {- musotadiym -}       [ "continuous", "standing" ],
+    MustaFIL                  `noun`    {- musotadiym -}       [ "continuous", "standing" ],
 
     -- ;; duyuwm_1
     -- dywm    duyuwm  N       continuous rains
@@ -8058,7 +8112,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; mudiyn_1
     -- mdyn    mudiyn  Nall    creditor;moneylender
 
-    MuFiCL                    `noun`    {- mudiyn -}           [ "creditor", "moneylender" ],
+    MuFIL                     `noun`    {- mudiyn -}           [ "creditor", "moneylender" ],
 
     -- ;; mudAn_1
     -- mdAn    mudAn   Nall    convicted;guilty;condemned     [[mudAn/ADJ]]
@@ -8080,24 +8134,24 @@ lexicon = listing "Lexicon's properties"
     -- >dyAn   >adoyAn N       religions
     -- AdyAn   >adoyAn N       religions
 
-    FiCL                      `noun`    {- diyn -}             [ "religion", "religions" ]
+    FIL                       `noun`    {- diyn -}             [ "religion", "religions" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'adyAn N" ] -},
 
     -- ;; diyniy~_1
     -- dyny    diyniy~ N-ap    religious     [[diyniy~/ADJ]]
 
-    FiCL |< Iy                `adj`     {- diyniy~ -}          [ "religious" ],
+    FIL |< Iy                 `adj`     {- diyniy~ -}          [ "religious" ],
 
     -- ;; lAdiyniy~_1
     -- lAdyny  lAdiyniy~       Nall_L  anti-religious;secular     [[lAdiyniy~/ADJ]]
 
-    lA >| FiCL |< Iy          `adj`     {- lAdiyniy~ -}        [ "anti-religious", "secular" ],
+    lA >| FIL |< Iy           `adj`     {- lAdiyniy~ -}        [ "anti-religious", "secular" ],
 
     -- ;; lAdiyniy~ap_1
     -- lAdyny  lAdiyniy~       Nap_L   anti-religiousness;secularism     [[lAdiyniy~/NOUN]]
 
-    lA >| FiCL |< Iy |< aT    `noun`    {- lAdiyniy~ap -}      [ "anti-religiousness", "secularism" ],
+    lA >| FIL |< Iy |< aT     `noun`    {- lAdiyniy~ap -}      [ "anti-religiousness", "secularism" ],
 
     -- ;; day~in_1
     -- dyn     day~in  Nall    religious
@@ -8202,22 +8256,22 @@ lexicon = listing "Lexicon's properties"
     -- mdrA&   mudarA& Nh      directors;managers
     -- mdrA}   mudarA} Nhy     directors;managers
 
-    MuFiCL                    `noun`    {- mudiyr -}           [ "director", "manager", "chief", "directors", "managers" ],
+    MuFIL                     `noun`    {- mudiyr -}           [ "director", "manager", "chief", "directors", "managers" ],
 
     -- ;; mudiyriy~ap_1
     -- mdyry   mudiyriy~       Nap     administration;management     [[mudiyriy~/NOUN]]
 
-    MuFiCL |< Iy |< aT        `noun`    {- mudiyriy~ap -}      [ "administration", "management" ],
+    MuFIL |< Iy |< aT         `noun`    {- mudiyriy~ap -}      [ "administration", "management" ],
 
     -- ;; mudiyriy~ap_2
     -- mdyry   mudiyriy~       NapAt   district;province     [[mudiyriy~/NOUN]]
 
-    MuFiCL |< Iy |< aT        `noun`    {- mudiyriy~ap -}      [ "district", "province" ],
+    MuFIL |< Iy |< aT         `noun`    {- mudiyriy~ap -}      [ "district", "province" ],
 
     -- ;; musotadiyr_1
     -- mstdyr  musotadiyr      Nall    round;circular
 
-    MustaFiCL                 `noun`    {- musotadiyr -}       [ "round", "circular" ] ]
+    MustaFIL                  `noun`    {- musotadiyr -}       [ "round", "circular" ] ]
 
  |> "d y r n" <| [
 
@@ -8231,12 +8285,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; diysap_1
     -- dys     diys    Nap     thicket;forest
 
-    FiCL |< aT                `noun`    {- diysap -}           [ "thicket", "forest" ],
+    FIL |< aT                 `noun`    {- diysap -}           [ "thicket", "forest" ],
 
     -- ;; diys_1
     -- dys     diys    FW      Dis (in "Abu Dis")     [[diys/NOUN_PROP]]
 
-    FiCL                      `noun`    {- diys -}             [ "Dis (in \"Abu Dis\")" ],
+    FIL                       `noun`    {- diys -}             [ "Dis (in \"Abu Dis\")" ],
 
     -- ;; day~uws_1
     -- dyws    day~uws N       cuckold;procurer

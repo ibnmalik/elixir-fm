@@ -124,7 +124,9 @@ lexicon = listing "Lexicon's properties"
     -- \$Al     $Al     N/At    shawl
     -- \$ylAn   $iylAn  N       shawls
 
-    FAL                       `noun`    {- \$Al -}             [ "shawl", "shawls" ] ]
+    FAL                       `noun`    {- \$Al -}             [ "shawl", "shawls" ]
+                              `plural`     FILAn
+                           {- `others`  [ "^siylAn N" ] -} ]
 
  |> "^s ' m" <| [
 
@@ -242,7 +244,6 @@ lexicon = listing "Lexicon's properties"
     -- \$>Y     $o>aY   IV_0_Pass_yu    be outraced;be overtaken
 
     FaCaL                     `verb`    {- \$aOaw-u -}         [ "outrace", "overtake", "be outraced", "be overtaken" ]
-                              `imperf`     FCuL
                               `imperf`     FCU,
 
     -- ;; $a>ow_1
@@ -8763,6 +8764,14 @@ lexicon = listing "Lexicon's properties"
                               `plural`     KaRADIS
                            {- `others`  [ "^sarAwiyl Ndip" ] -} ]
 
+ |> "^s r w y" <| [
+
+    -- ;; $arowaY_1
+    -- \$rwY    $arowaY N0      peer
+    -- \$rwA    $arowA  Nhy     peer
+
+    KaRDY                     `noun`    {- \$arowaY -}         [ "peer" ] ]
+
  |> "^s r y" <| [
 
     -- ;; $araY-i_1
@@ -8818,7 +8827,6 @@ lexicon = listing "Lexicon's properties"
     -- A$ry    >a$oriy Nap     purchase
 
     FiCY                      `noun`    {- \$iraY -}           [ "purchase" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT,
 
     -- ;; $irA'_1
@@ -8855,7 +8863,8 @@ lexicon = listing "Lexicon's properties"
     -- \$Ary    $Ariy   NAn_Nayn        buyer;client
     -- \$rA     $urA    Nap     buyers;clients
 
-    FACI                      `noun`    {- \$Ariy -}           [ "buyer", "client", "buyers", "clients" ],
+    FACI                      `noun`    {- \$Ariy -}           [ "buyer", "client", "buyers", "clients" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; $Ariy_2
     -- \$Ary    $Ariy   N0F     lightning rod
@@ -9360,7 +9369,7 @@ lexicon = listing "Lexicon's properties"
     -- \$wH     $uwH    N       fir;savin
     -- \$wH     $uwH    NapAt   fir;savin
 
-    FuCL                      `noun`    {- \$uwH -}            [ "fir", "savin" ] ]
+    FUL                       `noun`    {- \$uwH -}            [ "fir", "savin" ] ]
 
  |> "^s w .t" <| [
 
@@ -9406,7 +9415,6 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCLA'
                               `plural`     HaFACiL
                               `plural`     FUL
-                              `plural`     FuCL
                            {- `others`  [ "^saw^sA' Nh N0_Nh Nhy", "'a^sAwi^s Ndip", "^suw^s N" ] -},
 
     -- ;; $aw~a$_1
@@ -9436,7 +9444,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $uw$ap_1
     -- \$w$     $uw$    Nap     tuft;crest
 
-    FuCL |< aT                `noun`    {- \$uw$ap -}          [ "tuft", "crest" ],
+    FUL |< aT                 `noun`    {- \$uw$ap -}          [ "tuft", "crest" ],
 
     -- ;; $awA$_1
     -- \$wA$    $awA$   N       muddle;confusion
@@ -9568,7 +9576,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $uwf_1
     -- \$wf     $uwf    N0      Shouf;Chouf
 
-    FuCL                      `noun`    {- \$uwf -}            [ "Shouf", "Chouf" ],
+    FUL                       `noun`    {- \$uwf -}            [ "Shouf", "Chouf" ],
 
     -- ;; $awofap_1
     -- \$wf     $awof   Nap     spectacle
@@ -9621,7 +9629,6 @@ lexicon = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- Oa$owah -}          [ "distorted", "deformed" ]
                               `plural`     FUL
-                              `plural`     FuCL
                               `plural`     FaCLA'
                            {- `others`  [ "^suwh N", "^sawhA' Nh N0_Nh Nhy" ] -},
 
@@ -9806,7 +9813,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $uwmap_1
     -- \$wm     $uwm    Nap     stick;cudgel
 
-    FuCL |< aT                `noun`    {- \$uwmap -}          [ "stick", "cudgel" ] ]
+    FUL |< aT                 `noun`    {- \$uwmap -}          [ "stick", "cudgel" ] ]
 
  |> "^s w n" <| [
 
@@ -9825,14 +9832,14 @@ lexicon = listing "Lexicon's properties"
     -- \$wn     $uwn    NapAt   granary;barn
     -- \$wn     $uwan   N       granaries;barns
 
-    FuCL |< aT                `noun`    {- \$uwnap -}          [ "granary", "barn", "granaries", "barns" ]
+    FUL |< aT                 `noun`    {- \$uwnap -}          [ "granary", "barn", "granaries", "barns" ]
                               `plural`     FuCaL
                            {- `others`  [ "^suwan N" ] -},
 
     -- ;; $uwn_1
     -- \$wn     $uwn    Nprop   Sean;Shawn
 
-    FuCL                      `noun`    {- \$uwn -}            [ "Sean", "Shawn" ] ]
+    FUL                       `noun`    {- \$uwn -}            [ "Sean", "Shawn" ] ]
 
  |> "^s w q" <| [
 
@@ -9918,7 +9925,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; $awoqiy_1
     -- \$wqy    $awoqiy Nprop   Shawqi
 
-    KaRDiS                    `noun`    {- \$awoqiy -}         [ "Shawqi" ] ]
+    KaRDI                     `noun`    {- \$awoqiy -}         [ "Shawqi" ],
+
+    -- ;; $awoqiy_1
+    -- \$wqy    $awoqiy Nprop   Shawqi
+
+    KaRDI                     `noun`    {- \$awoqiy -}         [ "Shawqi" ] ]
 
  |> "^s w r" <| [
 
@@ -9972,12 +9984,12 @@ lexicon = listing "Lexicon's properties"
     -- \$wrY    $uwraY  N0      Shoura;Shura
     -- \$wrA    $uwrA   Nhy     consultation;deliberation
 
-    FuCLY                     `noun`    {- \$uwraY -}          [ "consultation", "deliberation", "Shoura", "Shura" ],
+    FULY                      `noun`    {- \$uwraY -}          [ "consultation", "deliberation", "Shoura", "Shura" ],
 
     -- ;; $uwriy~_1
     -- \$wry    $uwriy~ N-ap    advisory;consultative     [[$uwriy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- \$uwriy~ -}         [ "advisory", "consultative" ],
+    FUL |< Iy                 `adj`     {- \$uwriy~ -}         [ "advisory", "consultative" ],
 
     -- ;; mi$owAr_1
     -- m$wAr   mi$owAr Ndu     cycle;stroke
@@ -10092,6 +10104,11 @@ lexicon = listing "Lexicon's properties"
 
     FU                        `noun`    {- \$uw -}             [ "Shaw" ],
 
+    -- ;; $uw_1
+    -- \$w      $uw     Nprop   Shaw
+
+    FU                        `noun`    {- \$uw -}             [ "Shaw" ],
+
     -- ;; $aw~A'_1
     -- \$wA'    $aw~A'  N0_Nh   seller of roast meat;rotisseur
     -- \$wA&    $aw~A&  Nh_Nuwn seller of roast meat;rotisseur
@@ -10130,7 +10147,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $awiy~_1
     -- \$wy     $awiy~  N-ap    roasted;broiled     [[$awiy~/ADJ]]
 
-    FY |< Iy                  `adj`     {- \$awiy~ -}          [ "roasted", "broiled" ],
+    FaCIL                     `adj`     {- \$awiy~ -}          [ "roasted", "broiled" ],
 
     -- ;; $awAp_1
     -- \$wA     $awA    Nap     scalp
@@ -10153,7 +10170,6 @@ lexicon = listing "Lexicon's properties"
     -- m$Aw    ma$Aw   NK      grills;gridirons
 
     MiFCY |< aT               `noun`    {- mi$owAp -}          [ "grill", "gridiron", "grills", "gridirons" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "ma^sAwiy N0_Nh" ] -},
 
@@ -10273,17 +10289,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; $iyH_1
     -- \$yH     $iyH    N       absinthe
 
-    FiCL                      `noun`    {- \$iyH -}            [ "absinthe" ],
+    FIL                       `noun`    {- \$iyH -}            [ "absinthe" ],
 
     -- ;; $iyHiy~_1
     -- \$yHy    $iyHiy~ N0      Shehhi
 
-    FiCL |< Iy                `adj`     {- \$iyHiy~ -}         [ "Shehhi" ],
+    FIL |< Iy                 `adj`     {- \$iyHiy~ -}         [ "Shehhi" ],
 
     -- ;; $iyHAn_1
     -- \$yHAn   $iyHAn  N0      Sheehan
 
-    FiCLAn                    `noun`    {- \$iyHAn -}          [ "Sheehan" ],
+    FILAn                     `noun`    {- \$iyHAn -}          [ "Sheehan" ],
 
     -- ;; $ay~AH_1
     -- \$yAH    $ay~AH  N       blotting paper
@@ -10396,23 +10412,23 @@ lexicon = listing "Lexicon's properties"
     -- ;; $iy$_1
     -- \$y$     $iy$    N       fencing;swordplay
 
-    FiCL                      `noun`    {- \$iy$ -}            [ "fencing", "swordplay" ],
+    FIL                       `noun`    {- \$iy$ -}            [ "fencing", "swordplay" ],
 
     -- ;; $iy$ap_1
     -- \$y$     $iy$    Nap     hookah;sheesha
 
-    FiCL |< aT                `noun`    {- \$iy$ap -}          [ "hookah", "sheesha" ],
+    FIL |< aT                 `noun`    {- \$iy$ap -}          [ "hookah", "sheesha" ],
 
     -- ;; $iy$An_1
     -- \$y$An   $iy$An  N0      Chechenya;Chechen
 
-    FiCLAn                    `noun`    {- \$iy$An -}          [ "Chechenya", "Chechen" ],
+    FILAn                     `noun`    {- \$iy$An -}          [ "Chechenya", "Chechen" ],
 
     -- ;; $iy$Aniy~_1
     -- \$y$Any  $iy$Aniy~       Nall    Chechen     [[$iy$Aniy~/NOUN]]
     -- \$y$Any  $iy$Aniy~       Nall    Chechen     [[$iy$Aniy~/ADJ]]
 
-    FiCLAn |< Iy              `adj`     {- \$iy$Aniy~ -}       [ "Chechen" ] ]
+    FILAn |< Iy               `adj`     {- \$iy$Aniy~ -}       [ "Chechen" ] ]
 
  |> "^s y _h" <| [
 
@@ -10541,7 +10557,7 @@ lexicon = listing "Lexicon's properties"
     -- >$yAE   >a$oyAE N       partisans;followers
     -- A$yAE   >a$oyAE N       partisans;followers
 
-    FiCL |< aT                `noun`    {- \$iyEap -}          [ "Shiites", "partisans", "followers", "community" ]
+    FIL |< aT                 `noun`    {- \$iyEap -}          [ "Shiites", "partisans", "followers", "community" ]
                               `plural`     HaFCAL
                               `plural`     FiCaL
                            {- `others`  [ "'a^syA` N", "^siya` N" ] -},
@@ -10550,7 +10566,7 @@ lexicon = listing "Lexicon's properties"
     -- \$yEy    $iyEiy~ Nall    Shiite     [[$iyEiy~/NOUN]]
     -- \$yEy    $iyEiy~ Nall    Shiite     [[$iyEiy~/ADJ]]
 
-    FiCL |< Iy                `adj`     {- \$iyEiy~ -}         [ "Shiite" ],
+    FIL |< Iy                 `adj`     {- \$iyEiy~ -}         [ "Shiite" ],
 
     -- ;; $uyuwE_1
     -- \$ywE    $uyuwE  N       spreading;circulation
@@ -10700,13 +10716,12 @@ lexicon = listing "Lexicon's properties"
     HaFCaL                    `adj`     {- Oa$oyab -}          [ "gray-haired", "old" ]
                               `plural`     FaCLA'
                               `plural`     FIL
-                              `plural`     FiCL
                            {- `others`  [ "^saybA' Nh N0_Nh Nhy", "^siyb N" ] -},
 
     -- ;; $iybap_1
     -- \$ybp    $iybap  N0      Shibh;Shibah
 
-    FiCL |< aT                `noun`    {- \$iybap -}          [ "Shibh", "Shibah" ],
+    FIL |< aT                 `noun`    {- \$iybap -}          [ "Shibh", "Shibah" ],
 
     -- ;; $ayobA'_1
     -- \$ybA'   $ayobA' N0      Shaiba
@@ -10761,7 +10776,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; $iyd_1
     -- \$yd     $iyd    N       plaster;mortar
 
-    FiCL                      `noun`    {- \$iyd -}            [ "plaster", "mortar" ],
+    FIL                       `noun`    {- \$iyd -}            [ "plaster", "mortar" ],
 
     -- ;; ta$oyiyd_1
     -- t$yyd   ta$oyiyd        N/At    construction;erection
@@ -10816,12 +10831,12 @@ lexicon = listing "Lexicon's properties"
     -- \$yk     $iyk    N/At    check;cheque
     -- \$k      $ik~    N/At    check;cheque
 
-    FiCL                      `noun`    {- \$iyk -}            [ "check", "cheque" ],
+    FIL                       `noun`    {- \$iyk -}            [ "check", "cheque" ],
 
     -- ;; $iyk_2
     -- \$yk     $iyk    N       chic
 
-    FiCL                      `noun`    {- \$iyk -}            [ "chic" ],
+    FIL                       `noun`    {- \$iyk -}            [ "chic" ],
 
     -- ;; $iyAkap_1
     -- \$yAk    $iyAk   Nap     elegance
@@ -10871,7 +10886,7 @@ lexicon = listing "Lexicon's properties"
     -- \$yly    $iyliy~ Nall    Chilean     [[$iyliy~/NOUN]]
     -- \$yly    $iyliy~ Nall    Chilean     [[$iyliy~/ADJ]]
 
-    FiCL |< Iy                `adj`     {- \$iyliy~ -}         [ "Chilean" ] ]
+    FIL |< Iy                 `adj`     {- \$iyliy~ -}         [ "Chilean" ] ]
 
  |> "^s y l m" <| [
 
@@ -10896,7 +10911,7 @@ lexicon = listing "Lexicon's properties"
     -- \$ym     $iym    NapAt   trait;natural disposition
     -- \$ym     $iyam   N       traits;natural characteristics
 
-    FiCL |< aT                `noun`    {- \$iymap -}          [ "trait", "natural disposition", "traits", "natural characteristics" ]
+    FIL |< aT                 `noun`    {- \$iymap -}          [ "trait", "natural disposition", "traits", "natural characteristics" ]
                               `plural`     FiCaL
                            {- `others`  [ "^siyam N" ] -},
 
@@ -10926,8 +10941,16 @@ lexicon = listing "Lexicon's properties"
     -- \$ymy    $iymiy  Nap     vortex;whirlpool
     -- \$yAmy   $ayAmiy N0      vortices;vortexes;whirlpools
 
-    KiRDiS |< aT              `noun`    {- \$iymiyap -}        [ "vortex", "whirlpool", "vortices", "vortexes", "whirlpools" ]
-                              `plural`     KaRADiS
+    KiRDI |< aT               `noun`    {- \$iymiyap -}        [ "vortex", "whirlpool", "vortices", "vortexes", "whirlpools" ]
+                              `plural`     KaRADI
+                           {- `others`  [ "^sayAmiy N0" ] -},
+
+    -- ;; $iymiyap_1
+    -- \$ymy    $iymiy  Nap     vortex;whirlpool
+    -- \$yAmy   $ayAmiy N0      vortices;vortexes;whirlpools
+
+    KiRDI |< aT               `noun`    {- \$iymiyap -}        [ "vortex", "whirlpool", "vortices", "vortexes", "whirlpools" ]
+                              `plural`     KaRADI
                            {- `others`  [ "^sayAmiy N0" ] -} ]
 
  |> "^s y n" <| [
@@ -10976,12 +10999,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; $iyn_1
     -- \$yn     $iyn    NduAt   shin (Arabic letter)
 
-    FiCL                      `noun`    {- \$iyn -}            [ "shin (Arabic letter)" ],
+    FIL                       `noun`    {- \$iyn -}            [ "shin (Arabic letter)" ],
 
     -- ;; $iyn_2
     -- \$yn     $iyn    N0      Shin (1st word in "Shin Bet")
 
-    FiCL                      `noun`    {- \$iyn -}            [ "Shin (1st word in \"Shin Bet\")" ] ]
+    FIL                       `noun`    {- \$iyn -}            [ "Shin (1st word in \"Shin Bet\")" ] ]
 
  |> "^s y q" <| [
 
@@ -11011,22 +11034,22 @@ lexicon = listing "Lexicon's properties"
     -- m$yr    mu$iyr  Nall    indicative;indicating     [[mu$iyr/ADJ]]
     -- m$yr    mu$iyr  NF      indicating     [[mu$iyr/ADV]]
 
-    MuFiCL                    `adj`     {- mu$iyr -}           [ "indicative", "indicating" ],
+    MuFIL                     `adj`     {- mu$iyr -}           [ "indicative", "indicating" ],
 
     -- ;; mu$iyr_2
     -- m$yr    mu$iyr  N       field marshal;general
 
-    MuFiCL                    `noun`    {- mu$iyr -}           [ "field marshal", "general" ],
+    MuFIL                     `noun`    {- mu$iyr -}           [ "field marshal", "general" ],
 
     -- ;; $iyr_1
     -- \$yr     $iyr    Nprop   Sher
 
-    FiCL                      `noun`    {- \$iyr -}            [ "Sher" ],
+    FIL                       `noun`    {- \$iyr -}            [ "Sher" ],
 
     -- ;; $iyrap_1
     -- \$yr     $iyr    Nap     refreshment
 
-    FiCL |< aT                `noun`    {- \$iyrap -}          [ "refreshment" ] ]
+    FIL |< aT                 `noun`    {- \$iyrap -}          [ "refreshment" ] ]
 
  |> "^s y r k" <| [
 
@@ -11053,7 +11076,7 @@ lexicon = listing "Lexicon's properties"
     -- \$yt     $iyt    N       printed calico;chintz
     -- \$ywt    $uyuwt  NAt     printed calico;chintz
 
-    FiCL                      `noun`    {- \$iyt -}            [ "printed calico", "chintz" ]
+    FIL                       `noun`    {- \$iyt -}            [ "printed calico", "chintz" ]
                               `plural`     FuCUL |< At ]
 
  |> "^s y w `" <| [

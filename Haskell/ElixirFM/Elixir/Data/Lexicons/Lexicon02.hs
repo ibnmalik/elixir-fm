@@ -672,7 +672,8 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `verb`    {- OabodaY -}          [ "express", "demonstrate", "show", "be expressed", "be demonstrated", "be shown" ],
 
-    FaCY |< Iy                `adj`     {- badawiy~ -}         [ "Bedouin", "Bedouins" ],
+    FaCY |< Iy                `adj`     {- badawiy~ -}         [ "Bedouin", "Bedouins" ]
+                              `plural`     FuCY |< aT,
 
     HiFCA'                    `noun`    {- IibodA' -}          [ "expression", "manifestation", "expressions", "manifestations" ],
 
@@ -681,12 +682,10 @@ lexicon = listing "Lexicon's properties"
     FACI                      `noun`    {- bAdiy -}            [ "apparent", "obvious" ],
 
     MuFCI |< aN               `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
-                              `plural`     MuFCiL
                               `plural`     MuFCI
                            {- `others`  [ "mubdiy NF N0" ] -},
 
     MuFCI |< aN               `noun`    {- mubodiyAF -}        [ "expressing", "showing", "demonstrating" ]
-                              `plural`     MuFCiL
                               `plural`     MuFCI
                            {- `others`  [ "mubdiy NF N0" ] -} ]
 
@@ -723,6 +722,12 @@ lexicon = listing "Lexicon's properties"
     FaCLY |< Iy               `adj`     {- baholawiy~ -}       [ "Pahlavi", "Pahlevi" ],
 
     FaCLY |< Iy               `adj`     {- baholawiy~ -}       [ "Bahlawi", "Bahlaoui" ] ]
+
+ |> "b h l y" <| [
+
+    KaRDY |< Iy               `adj`     {- baholawiy~ -}       [ "Pahlavi", "Pahlevi" ],
+
+    KaRDY |< Iy               `adj`     {- baholawiy~ -}       [ "Bahlawi", "Bahlaoui" ] ]
 
  |> "b h m" <| [
 
@@ -770,6 +775,7 @@ lexicon = listing "Lexicon's properties"
 
     FACI                      `noun`    {- bAkiy -}            [ "mourner", "weeping", "mourners", "weepers" ]
                               `plural`     FawACI
+                              `plural`     FuCY |< aT
                            {- `others`  [ "bawAkiy N0_Nh" ] -} ]
 
  |> "b k k" <| [
@@ -809,8 +815,8 @@ lexicon = listing "Lexicon's properties"
  |> "b k y" <| [
 
     FACI                      `noun`    {- bAkiy -}            [ "mourner", "weeping", "mourners", "weepers" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
+                              `plural`     FuCY |< aT
                            {- `others`  [ "bawAkiy N0_Nh" ] -} ]
 
  |> "b l .g" <| [
@@ -1065,7 +1071,6 @@ lexicon = listing "Lexicon's properties"
     FiCA'                     `noun`    {- binA' -}            [ "build", "construct" ],
 
     FiCA'                     `noun`    {- binA' -}            [ "building", "structure", "buildings", "structures" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT,
 
     FiCL |< aT                `noun`    {- binoyap -}          [ "structure", "make-up", "structures" ]
@@ -1082,9 +1087,14 @@ lexicon = listing "Lexicon's properties"
 
     MaFCY                     `noun`    {- mabonaY -}          [ "building", "structure", "buildings", "structures" ]
                               `plural`     MaFCaL
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "mabnay NAn_Nayn", "mabAniy N0_Nh" ] -} ]
+
+ |> "b n y y" <| [
+
+    KuRDY |< Iy               `adj`     {- bunoyawiy~ -}       [ "structural" ],
+
+    KuRDY |< Iy |< aT         `noun`    {- bunoyawiy~ap -}     [ "structuralism" ] ]
 
  |> "b n z n" <| [
 
@@ -1467,7 +1477,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- bawoH -}            [ "divulgence", "confession" ],
 
-    FuCL                      `noun`    {- buwH -}             [ "courtyard", "hall" ],
+    FUL                       `noun`    {- buwH -}             [ "courtyard", "hall" ],
 
     FAL |< aT                 `noun`    {- bAHap -}            [ "courtyard", "plaza" ],
 
@@ -1477,9 +1487,8 @@ lexicon = listing "Lexicon's properties"
 
  |> "b w .s" <| [
 
-    FuCL |< aT                `noun`    {- buwSap -}           [ "inch", "inches" ]
-                              `plural`     FUL |< At
-                              `plural`     FuCL |< At ]
+    FUL |< aT                 `noun`    {- buwSap -}           [ "inch", "inches" ]
+                              `plural`     FUL |< At ]
 
  |> "b w .s l" <| [
 
@@ -1487,7 +1496,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "b w ^s" <| [
 
-    FuCL                      `noun`    {- buw$ -}             [ "Bush" ],
+    FUL                       `noun`    {- buw$ -}             [ "Bush" ],
 
     FaCL                      `noun`    {- bawo$ -}            [ "mob", "rabble", "mobs" ]
                               `plural`     HaFCAL
@@ -1502,8 +1511,9 @@ lexicon = listing "Lexicon's properties"
  |> "b w b" <| [
 
     FAL                       `noun`    {- bAb -}              [ "door", "gate", "doors", "gates" ]
+                              `plural`     FILAn
                               `plural`     HaFCAL
-                           {- `others`  [ "'abwAb N" ] -},
+                           {- `others`  [ "biybAn N", "'abwAb N" ] -},
 
     FAL                       `noun`    {- bAb -}              [ "category", "rubric", "categories", "rubrics" ]
                               `plural`     HaFCAL
@@ -1511,17 +1521,17 @@ lexicon = listing "Lexicon's properties"
 
     FaCCAL |< aT              `noun`    {- baw~Abap -}         [ "gate", "portal" ],
 
-    FuCL                      `noun`    {- buwb -}             [ "pop" ] ]
+    FUL                       `noun`    {- buwb -}             [ "pop" ] ]
 
  |> "b w l" <| [
 
     FACiL                     `noun`    {- bAwil -}            [ "Powell" ],
 
-    FuCL                      `noun`    {- buwl -}             [ "Paul" ],
+    FUL                       `noun`    {- buwl -}             [ "Paul" ],
 
-    FuCL                      `noun`    {- buwl -}             [ "Puhl" ],
+    FUL                       `noun`    {- buwl -}             [ "Puhl" ],
 
-    FuCL                      `noun`    {- buwl -}             [ "postage stamp" ],
+    FUL                       `noun`    {- buwl -}             [ "postage stamp" ],
 
     FAL                       `verb`    {- bAl-u -}            [ "urinate" ]
                               `imperf`     FUL
@@ -1541,7 +1551,11 @@ lexicon = listing "Lexicon's properties"
 
  |> "b w l w" <| [
 
-    KuRDuS                    `noun`    {- buwluw -}           [ "polo" ] ]
+    KuRDU                     `noun`    {- buwluw -}           [ "polo" ] ]
+
+ |> "b w l y" <| [
+
+    KuRDU                     `noun`    {- buwluw -}           [ "polo" ] ]
 
  |> "b w q" <| [
 
@@ -1551,9 +1565,9 @@ lexicon = listing "Lexicon's properties"
 
     FuCayL |< aT              `noun`    {- buwayorap -}        [ "Bouaira" ],
 
-    FuCL                      `noun`    {- buwr -}             [ "fallow" ],
+    FUL                       `noun`    {- buwr -}             [ "fallow" ],
 
-    FuCL                      `noun`    {- buwr -}             [ "Port" ] ]
+    FUL                       `noun`    {- buwr -}             [ "Port" ] ]
 
  |> "b w r s" <| [
 
@@ -1567,17 +1581,19 @@ lexicon = listing "Lexicon's properties"
 
     FUL |< aT                 `noun`    {- buwyap -}           [ "paint" ],
 
-    FuCL |< aT                `noun`    {- buwyap -}           [ "paint" ] ]
+    FUL |< aT                 `noun`    {- buwyap -}           [ "paint" ] ]
 
  |> "b w z" <| [
 
-    FAL                       `noun`    {- bAz -}              [ "falcon", "falcons" ] ]
+    FAL                       `noun`    {- bAz -}              [ "falcon", "falcons" ]
+                              `plural`     FILAn
+                           {- `others`  [ "biyzAn N" ] -} ]
 
  |> "b y '" <| [
 
-    FiCL |< aT                `noun`    {- biy}ap -}           [ "environment", "milieu" ],
+    FIL |< aT                 `noun`    {- biy}ap -}           [ "environment", "milieu" ],
 
-    FiCL |< Iy                `adj`     {- biy}iy~ -}          [ "environmental" ] ]
+    FIL |< Iy                 `adj`     {- biy}iy~ -}          [ "environmental" ] ]
 
  |> "b y .d" <| [
 
@@ -1593,7 +1609,7 @@ lexicon = listing "Lexicon's properties"
                               `plural`     FaCLA'
                            {- `others`  [ "bay.dA' Nh N0_Nh Nhy" ] -},
 
-    FiCL                      `noun`    {- biyD -}             [ "white", "Caucasian" ],
+    FIL                       `noun`    {- biyD -}             [ "white", "Caucasian" ],
 
     TaFCIL                    `noun`    {- taboyiyD -}         [ "bleaching", "blanching", "white-washing" ] ]
 
@@ -1603,7 +1619,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "b y ^g" <| [
 
-    FiCLAn                    `noun`    {- biyjAn -}           [ "Bijan" ] ]
+    FILAn                     `noun`    {- biyjAn -}           [ "Bijan" ],
+
+    FILAn                     `noun`    {- biyjAn -}           [ "Bijan" ] ]
 
  |> "b y ^g n" <| [
 
@@ -1633,7 +1651,7 @@ lexicon = listing "Lexicon's properties"
 
     HiFAL |< aT               `noun`    {- IibAdap -}          [ "extermination", "annihilation" ],
 
-    MuFiCL                    `noun`    {- mubiyd -}           [ "destructive", "exterminating" ] ]
+    MuFIL                     `noun`    {- mubiyd -}           [ "destructive", "exterminating" ] ]
 
  |> "b y d r" <| [
 
@@ -1649,11 +1667,11 @@ lexicon = listing "Lexicon's properties"
 
     FIL                       `noun`    {- biyl -}             [ "Bill" ],
 
-    FiCL                      `noun`    {- biyl -}             [ "Bill" ],
+    FIL                       `noun`    {- biyl -}             [ "Bill" ],
 
     FIL                       `noun`    {- biyl -}             [ "ball bearing", "marble" ],
 
-    FiCL                      `noun`    {- biyl -}             [ "ball bearing", "marble" ] ]
+    FIL                       `noun`    {- biyl -}             [ "ball bearing", "marble" ] ]
 
  |> "b y n" <| [
 
@@ -1703,7 +1721,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "b y r y" <| [
 
-    KiRDiS                    `noun`    {- biyriy -}           [ "Perry" ] ]
+    KiRDI                     `noun`    {- biyriy -}           [ "Perry" ],
+
+    KiRDI                     `noun`    {- biyriy -}           [ "Perry" ] ]
 
  |> "b y r z" <| [
 

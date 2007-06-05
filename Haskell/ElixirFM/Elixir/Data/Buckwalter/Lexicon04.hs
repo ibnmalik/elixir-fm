@@ -776,7 +776,9 @@ lexicon = listing "Lexicon's properties"
     -- vkAlY   vakAlaY N0      bereft;bereaved
     -- vkAlA   vakAlA  Nhy     bereft;bereaved
 
-    KaRDAS                    `noun`    {- vakolAn -}          [ "bereft", "bereaved" ] ]
+    KaRDAS                    `noun`    {- vakolAn -}          [ "bereft", "bereaved" ]
+                              `plural`     KaRDY
+                           {- `others`  [ "_taklY N0" ] -} ]
 
  |> "_t k n" <| [
 
@@ -1213,7 +1215,15 @@ lexicon = listing "Lexicon's properties"
     -- vmAny   vamAniy Nap     eight     [[vamAniy/ADJ]]
     -- vmAn    vamAn   Numb    eighty
 
-    KaRADiS                   `adj`     {- vamAniy -}          [ "eight", "eighty" ] ]
+    KaRADI                    `adj`     {- vamAniy -}          [ "eight", "eighty" ],
+
+    -- ;; vamAniy_1
+    -- vmAny   vamAniy N0      eight     [[vamAniy/ADJ]]
+    -- vmAn    vamAn   NK      eight
+    -- vmAny   vamAniy Nap     eight     [[vamAniy/ADJ]]
+    -- vmAn    vamAn   Numb    eighty
+
+    KaRADI                    `adj`     {- vamAniy -}          [ "eight", "eighty" ] ]
 
  |> "_t m r" <| [
 
@@ -1370,7 +1380,9 @@ lexicon = listing "Lexicon's properties"
     -- vnAdy   vanAdiy N0_Nh   breasts
     -- vnAd    vanAd   NK      breasts
 
-    KuRDuS |< aT              `noun`    {- vunoduwap -}        [ "breast", "breasts" ] ]
+    KuRDU |< aT               `noun`    {- vunoduwap -}        [ "breast", "breasts" ]
+                              `plural`     KaRADI
+                           {- `others`  [ "_tanAdiy N0_Nh" ] -} ]
 
  |> "_t n n" <| [
 
@@ -1563,7 +1575,6 @@ lexicon = listing "Lexicon's properties"
     -- vAny    vAniy   NF      secondly     [[vAniy/ADV]]
 
     FACI |< aN                `noun`    {- vAniyAF -}          [ "secondly" ]
-                              `plural`     FACiL
                               `plural`     FACI
                            {- `others`  [ "_tAniy NF" ] -},
 
@@ -1573,7 +1584,6 @@ lexicon = listing "Lexicon's properties"
     -- vwAn    vawAn   NK      seconds (time span)
 
     FACI |< aT                `noun`    {- vAniyap -}          [ "second (time span)", "seconds (time span)" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "_tawAniy N0_Nh" ] -},
 
@@ -2253,7 +2263,7 @@ lexicon = listing "Lexicon's properties"
     -- vwm     vuwm    N       garlic
     -- vwm     vuwm    NapAt   garlic clove
 
-    FuCL                      `noun`    {- vuwm -}             [ "garlic", "garlic clove" ],
+    FUL                       `noun`    {- vuwm -}             [ "garlic", "garlic clove" ],
 
     -- ;; vuwm_1
     -- vwm     vuwm    N       garlic
@@ -2307,7 +2317,9 @@ lexicon = listing "Lexicon's properties"
     -- vwr     vawor   Ndu     bull;ox
     -- vyrAn   viyrAn  N       bulls;oxen
 
-    FaCL                      `noun`    {- vawor -}            [ "bull", "ox", "bulls", "oxen" ],
+    FaCL                      `noun`    {- vawor -}            [ "bull", "ox", "bulls", "oxen" ]
+                              `plural`     FILAn
+                           {- `others`  [ "_tiyrAn N" ] -},
 
     -- ;; vawor_2
     -- vwr     vawor   N0      Taurus
@@ -2360,7 +2372,6 @@ lexicon = listing "Lexicon's properties"
     -- vwAr    vuw~Ar  N       insurgents;revolutionaries
 
     FA'iL                     `noun`    {- vA}ir -}            [ "insurgent", "insurgents", "revolutionaries" ]
-                              `plural`     FuCCAL
                               `plural`     FUCAL
                            {- `others`  [ "_tuwwAr N" ] -},
 
@@ -2388,17 +2399,29 @@ lexicon = listing "Lexicon's properties"
     MuFIL |< At               `noun`    {- muviyrAt -}         [ "stimulants" ]
                               `plural`     MuFIL |< At ]
 
+ |> "_t w r y" <| [
+
+    -- ;; vaworawiy~_1
+    -- vwrwy   vaworawiy~      Nall    revolutionary     [[vaworawiy~/ADJ]]
+
+    KaRDY |< Iy               `adj`     {- vaworawiy~ -}       [ "revolutionary" ] ]
+
  |> "_t w w" <| [
 
     -- ;; vuw~ap_1
     -- vw      vuw~    Nap     road sign;signpost
 
-    FuCL |< aT                `noun`    {- vuw~ap -}           [ "road sign", "signpost" ],
+    FUL |< aT                 `noun`    {- vuw~ap -}           [ "road sign", "signpost" ],
 
     -- ;; vuw~ap_1
     -- vw      vuw~    Nap     road sign;signpost
 
-    FUL |< aT                 `noun`    {- vuw~ap -}           [ "road sign", "signpost" ] ]
+    FUL |< aT                 `noun`    {- vuw~ap -}           [ "road sign", "signpost" ],
+
+    -- ;; vawiy~_1
+    -- vwy     vawiy~  Ndu     guest room
+
+    FaL |< Iy                 `adj`     {- vawiy~ -}           [ "guest room" ] ]
 
  |> "_t w y" <| [
 
@@ -2455,11 +2478,6 @@ lexicon = listing "Lexicon's properties"
 
     HaFCY                     `verb`    {- OavowaY -}          [ "reside", "lodge", "be housed", "be lodged" ],
 
-    -- ;; vawiy~_1
-    -- vwy     vawiy~  Ndu     guest room
-
-    FY |< Iy                  `adj`     {- vawiy~ -}           [ "guest room" ],
-
     -- ;; vuwaY_1
     -- vwY     vuwaY   N0      road-signs;signposts
     -- vwA     vuwA    Nhy     road-signs;signposts
@@ -2475,7 +2493,6 @@ lexicon = listing "Lexicon's properties"
 
     MaFCY                     `noun`    {- mavowaY -}          [ "abode", "lodging", "abodes", "lodgings" ]
                               `plural`     MaFCaL
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "ma_tway NAn_Nayn", "ma_tAwiy N0_Nh" ] -} ]
 
@@ -2491,19 +2508,18 @@ lexicon = listing "Lexicon's properties"
     -- ;; muviyr_1
     -- mvyr    muviyr  Nall    influential;provocative
 
-    MuFiCL                    `noun`    {- muviyr -}           [ "influential", "provocative" ],
+    MuFIL                     `noun`    {- muviyr -}           [ "influential", "provocative" ],
 
     -- ;; muviyr_2
     -- mvyr    muviyr  Nall    provoking;agitating;stirring up
 
-    MuFiCL                    `noun`    {- muviyr -}           [ "provoking", "agitating", "stirring up" ],
+    MuFIL                     `noun`    {- muviyr -}           [ "provoking", "agitating", "stirring up" ],
 
     -- ;; muviyrAt_1
     -- mvyr    muviyr  NAt     stimulants
 
-    MuFiCL |< At              `noun`    {- muviyrAt -}         [ "stimulants" ]
-                              `plural`     MuFIL |< At
-                              `plural`     MuFiCL |< At ]
+    MuFIL |< At               `noun`    {- muviyrAt -}         [ "stimulants" ]
+                              `plural`     MuFIL |< At ]
 
  |> "_t y t l" <| [
 

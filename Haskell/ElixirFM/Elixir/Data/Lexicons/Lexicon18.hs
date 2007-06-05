@@ -182,7 +182,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCLAn                    `noun`    {- EiSoyAn -}          [ "mutiny", "insubordination" ],
 
-    FACI                      `adj`     {- EASiy -}            [ "rebellious", "insubordinate" ],
+    FACI                      `adj`     {- EASiy -}            [ "rebellious", "insubordinate" ]
+                              `plural`     FuCY |< aT,
 
     FACI                      `noun`    {- EASiy -}            [ "Orontes" ],
 
@@ -284,7 +285,6 @@ lexicon = listing "Lexicon's properties"
     FaCA'                     `noun`    {- EaTA' -}            [ "giving", "offering" ],
 
     FaCA'                     `noun`    {- EaTA' -}            [ "gift", "offer", "gifts", "offers" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT,
 
     FaCA'                     `noun`    {- EaTA' -}            [ "offer", "tender", "offers", "tenders" ],
@@ -848,6 +848,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCUL                     `noun`    {- Eaduw~ -}           [ "enemy", "enemies" ]
                               `plural`     HaFACI
+                              `plural`     FuCY |< aT
                               `plural`     HaFCA'
                            {- `others`  [ "'a`Adiy N0_Nh", "'a`dA' Nh N0_Nh Nhy" ] -},
 
@@ -884,7 +885,6 @@ lexicon = listing "Lexicon's properties"
     MaFACI                    `noun`    {- maEAdiy -}          [ "Maadi (Cairo)" ],
 
     FACI |< aT                `noun`    {- EAdiyap -}          [ "adversity", "impediment", "adversities", "impediments" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "`awAdiy N0_Nh" ] -},
 
@@ -1613,7 +1613,6 @@ lexicon = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- EinAyap -}          [ "care", "attention", "concern" ],
 
     MaFCY                     `noun`    {- maEonaY -}          [ "meaning", "sense", "meanings", "senses", "concepts", "nuances" ]
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                               `plural`     MaFCaL
                            {- `others`  [ "ma`Aniy N0_Nh", "ma`nay NAn_Nayn" ] -},
@@ -2089,7 +2088,8 @@ lexicon = listing "Lexicon's properties"
 
     TaFaCCI                   `noun`    {- taEar~iy -}         [ "nudity" ],
 
-    FACI                      `adj`     {- EAriy -}            [ "naked", "bare" ] ]
+    FACI                      `adj`     {- EAriy -}            [ "naked", "bare" ]
+                              `plural`     FuCY |< aT ]
 
  |> "` s f" <| [
 
@@ -2223,9 +2223,10 @@ lexicon = listing "Lexicon's properties"
 
     IstaFAL                   `verb`    {- AisotaEAd -}        [ "recover", "regain", "reclaim", "be recovered", "be regained", "be reclaimed" ],
 
-    FuCL                      `noun`    {- Euwd -}             [ "lute", "stick", "lutes", "sticks" ]
+    FUL                       `noun`    {- Euwd -}             [ "lute", "stick", "lutes", "sticks" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'a`wAd N" ] -},
+                              `plural`     FILAn
+                           {- `others`  [ "'a`wAd N", "`iydAn N" ] -},
 
     FaCL |< aT                `noun`    {- Eawodap -}          [ "return" ],
 
@@ -2445,9 +2446,9 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCAL |< Iy             `adj`     {- AiEotiyAdiy~ -}     [ "customary", "normal", "regular" ],
 
-    MuFiCL                    `noun`    {- muEiyd -}           [ "tutor", "lecturer" ],
+    MuFIL                     `noun`    {- muEiyd -}           [ "tutor", "lecturer" ],
 
-    FiCL                      `noun`    {- Eiyd -}             [ "feast", "holiday", "festival", "holidays", "feasts" ]
+    FIL                       `noun`    {- Eiyd -}             [ "feast", "holiday", "festival", "holidays", "feasts" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a`yAd N" ] -} ]
 
@@ -2459,9 +2460,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "` y n" <| [
 
-    MuFiCL                    `noun`    {- muEiyn -}           [ "Mu'in" ],
+    MuFIL                     `noun`    {- muEiyn -}           [ "Mu'in" ],
 
-    MuFiCL                    `noun`    {- muEiyn -}           [ "helper", "assistant", "supporter" ],
+    MuFIL                     `noun`    {- muEiyn -}           [ "helper", "assistant", "supporter" ],
 
     FaCCaL                    `verb`    {- Eay~an -}           [ "appoint", "assign", "be appointed", "be assigned" ],
 
@@ -2517,9 +2518,13 @@ lexicon = listing "Lexicon's properties"
 
  |> "` y s" <| [
 
-    FiCLY                     `noun`    {- EiysaY -}           [ "Issa", "Eissa" ],
+    FILY                      `noun`    {- EiysaY -}           [ "Issa", "Eissa" ],
 
-    FiCLY                     `noun`    {- EiysaY -}           [ "Jesus (in Islam)" ] ]
+    FILY                      `noun`    {- EiysaY -}           [ "Issa", "Eissa" ],
+
+    FILY                      `noun`    {- EiysaY -}           [ "Jesus (in Islam)" ],
+
+    FILY                      `noun`    {- EiysaY -}           [ "Jesus (in Islam)" ] ]
 
  |> "` y y" <| [
 

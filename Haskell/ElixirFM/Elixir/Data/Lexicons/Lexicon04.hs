@@ -92,7 +92,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t k l n" <| [
 
-    KaRDAS                    `noun`    {- vakolAn -}          [ "bereft", "bereaved" ] ]
+    KaRDAS                    `noun`    {- vakolAn -}          [ "bereft", "bereaved" ]
+                              `plural`     KaRDY
+                           {- `others`  [ "_taklY N0" ] -} ]
 
  |> "_t k n" <| [
 
@@ -169,7 +171,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t m n y" <| [
 
-    KaRADiS                   `adj`     {- vamAniy -}          [ "eight", "eighty" ] ]
+    KaRADI                    `adj`     {- vamAniy -}          [ "eight", "eighty" ],
+
+    KaRADI                    `adj`     {- vamAniy -}          [ "eight", "eighty" ] ]
 
  |> "_t m r" <| [
 
@@ -231,12 +235,10 @@ lexicon = listing "Lexicon's properties"
     FACI                      `adj`     {- vAniy -}            [ "second", "next" ],
 
     FACI |< aN                `noun`    {- vAniyAF -}          [ "secondly" ]
-                              `plural`     FACiL
                               `plural`     FACI
                            {- `others`  [ "_tAniy NF" ] -},
 
     FACI |< aT                `noun`    {- vAniyap -}          [ "second (time span)", "seconds (time span)" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "_tawAniy N0_Nh" ] -},
 
@@ -312,7 +314,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t w m" <| [
 
-    FuCL                      `noun`    {- vuwm -}             [ "garlic", "garlic clove" ],
+    FUL                       `noun`    {- vuwm -}             [ "garlic", "garlic clove" ],
 
     FUL                       `noun`    {- vuwm -}             [ "garlic", "garlic clove" ] ]
 
@@ -324,7 +326,9 @@ lexicon = listing "Lexicon's properties"
 
     HaFAL                     `verb`    {- OavAr -}            [ "provoke", "agitate", "be provoked", "be agitated" ],
 
-    FaCL                      `noun`    {- vawor -}            [ "bull", "ox", "bulls", "oxen" ],
+    FaCL                      `noun`    {- vawor -}            [ "bull", "ox", "bulls", "oxen" ]
+                              `plural`     FILAn
+                           {- `others`  [ "_tiyrAn N" ] -},
 
     FaCL                      `noun`    {- vawor -}            [ "Taurus" ],
 
@@ -343,7 +347,6 @@ lexicon = listing "Lexicon's properties"
     FA'iL                     `noun`    {- vA}ir -}            [ "agitated", "exited" ],
 
     FA'iL                     `noun`    {- vA}ir -}            [ "insurgent", "insurgents", "revolutionaries" ]
-                              `plural`     FuCCAL
                               `plural`     FUCAL
                            {- `others`  [ "_tuwwAr N" ] -},
 
@@ -353,9 +356,9 @@ lexicon = listing "Lexicon's properties"
 
  |> "_t y r" <| [
 
-    MuFiCL                    `noun`    {- muviyr -}           [ "influential", "provocative" ],
+    MuFIL                     `noun`    {- muviyr -}           [ "influential", "provocative" ],
 
-    MuFiCL                    `noun`    {- muviyr -}           [ "provoking", "agitating", "stirring up" ] ]
+    MuFIL                     `noun`    {- muviyr -}           [ "provoking", "agitating", "stirring up" ] ]
 
  |> "_talA_tmA'" <| [
 

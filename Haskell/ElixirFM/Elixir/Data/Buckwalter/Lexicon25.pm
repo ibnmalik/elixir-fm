@@ -2368,7 +2368,6 @@ $Lexicon = {
           'FaCA'
         ],
         'nkiy' => [
-          'FCiL',
           'FCI'
         ],
         'nakay' => [
@@ -5029,7 +5028,6 @@ $Lexicon = {
           'FaCaL'
         ],
         'nbuw' => [
-          'FCuL',
           'FCU'
         ]
       },
@@ -7169,7 +7167,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'na^s^siy' => [
-          'FaCCiL',
           'FaCCI'
         ],
         'na^s^say' => [
@@ -7230,7 +7227,6 @@ $Lexicon = {
           'IFtaCaL'
         ],
         'nta^siy' => [
-          'FtaCiL',
           'FtaCI'
         ],
         'nta^sY' => [
@@ -10742,7 +10738,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'n^guw' => [
-          'FCuL',
           'FCU'
         ],
         'na^gaw' => [
@@ -14059,8 +14054,7 @@ $Lexicon = {
           'FiL'
         ],
         'niyl' => [
-          'FIL',
-          'FiCL'
+          'FIL'
         ],
         '\'anal' => [
           'HaFaL'
@@ -14144,7 +14138,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCL',
+      'morphs' => 'FIL',
       'suffix' => '',
       'glosses' => [
         'indigo'
@@ -14167,7 +14161,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCL |< aT',
+      'morphs' => 'FIL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'indigo'
@@ -14190,7 +14184,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FiCL',
+      'morphs' => 'FIL',
       'suffix' => '',
       'glosses' => [
         'Nile'
@@ -14214,7 +14208,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FiCL |< Iy',
+      'morphs' => 'FIL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         'Nilotic',
@@ -14532,8 +14526,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'nuw.s' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ],
         'nu.s' => [
           'FuL'
@@ -15624,13 +15617,13 @@ $Lexicon = {
     {
       'types' => {
         'muntaqY' => {
-          'N0' => 1
+          'N0' => 1,
+          'Napdu' => 1
         },
         'muntaqay' => {
           'NAn_Nayn' => 1
         },
         'muntaqA' => {
-          'Napdu' => 1,
           'Nhy' => 1
         }
       },
@@ -18619,7 +18612,6 @@ $Lexicon = {
           'FCaL'
         ],
         'nsiy' => [
-          'FCiL',
           'FCI'
         ],
         '\'ansay' => [
@@ -19232,8 +19224,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'nuwt' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ],
         'nut' => [
           'FuL'
@@ -19268,7 +19259,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL',
+      'morphs' => 'FUL',
       'suffix' => '',
       'glosses' => [
         'music note'
@@ -19291,7 +19282,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL |< aT',
+      'morphs' => 'FUL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'music note'
@@ -19344,7 +19335,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL |< Iy',
+      'morphs' => 'FUL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         'sailor',
@@ -19964,7 +19955,6 @@ $Lexicon = {
           'FaCA'
         ],
         'nwiy' => [
-          'FCiL',
           'FCI'
         ]
       },
@@ -20020,7 +20010,6 @@ $Lexicon = {
           'FACaL'
         ],
         'nAwiy' => [
-          'FACiL',
           'FACI'
         ]
       },
@@ -20078,7 +20067,6 @@ $Lexicon = {
           'IFtaCaL'
         ],
         'ntawiy' => [
-          'FtaCiL',
           'FtaCI'
         ],
         'ntawY' => [
@@ -20156,7 +20144,6 @@ $Lexicon = {
           'FaCaL'
         ],
         '\'anwiy' => [
-          'HaFCiL',
           'HaFCI'
         ]
       },
@@ -20733,7 +20720,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'n.duw' => [
-          'FCuL',
           'FCU'
         ],
         'na.daw' => [
@@ -22504,8 +22490,7 @@ $Lexicon = {
           'FuL'
         ],
         'nuws' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ]
       },
       'index' => '1',
@@ -23977,11 +23962,9 @@ $Lexicon = {
       ],
       'patterns' => {
         'nawAdiy' => [
-          'FawACiL',
           'FawACI'
         ],
         '\'andiy' => [
-          'HaFCiL',
           'HaFCI'
         ]
       },
@@ -24557,7 +24540,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'nfuw' => [
-          'FCuL',
           'FCU'
         ],
         'nfY' => [
@@ -24848,7 +24830,7 @@ $Lexicon = {
     },
     {
       'types' => {
-        'nafA' => {
+        'nafY' => {
           'Nap' => 1
         },
         'nafA\'' => {
@@ -24867,8 +24849,8 @@ $Lexicon = {
         'nfA     nafA    Nap     refuse;discarded item'
       ],
       'patterns' => {
-        'nafA' => [
-          'FaCA'
+        'nafY' => [
+          'FaCY'
         ]
       },
       'index' => '1',
@@ -25542,7 +25524,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFiCL',
+      'morphs' => 'MuFIL',
       'suffix' => '',
       'glosses' => [
         'Munir'
@@ -25565,7 +25547,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '2',
       'entity' => 'adj',
-      'morphs' => 'MuFiCL',
+      'morphs' => 'MuFIL',
       'suffix' => '',
       'glosses' => [
         'shining',
@@ -25590,7 +25572,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFiCL |< aT',
+      'morphs' => 'MuFIL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'Munira'
@@ -25613,7 +25595,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'MustaFiCL',
+      'morphs' => 'MustaFIL',
       'suffix' => '',
       'glosses' => [
         'illuminated',
@@ -25646,7 +25628,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCL',
+      'morphs' => 'FIL',
       'suffix' => '',
       'glosses' => [
         'yoke',
@@ -25670,7 +25652,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCL |< aT',
+      'morphs' => 'FIL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'gums of the teeth'
@@ -26532,8 +26514,7 @@ $Lexicon = {
           'FuL'
         ],
         'nuw.h' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ],
         'niy.h' => [
           'FIL'
@@ -26644,7 +26625,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL',
+      'morphs' => 'FUL',
       'suffix' => '',
       'glosses' => [
         'Noah'
@@ -27668,7 +27649,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'n.huw' => [
-          'FCuL',
           'FCU'
         ],
         'na.haw' => [
@@ -28120,7 +28100,7 @@ $Lexicon = {
           'N0F_Nh' => 1,
           'NAn_Nayn' => 1
         },
-        'nu.hA' => {
+        'nu.hY' => {
           'Nap' => 1
         }
       },
@@ -28133,7 +28113,11 @@ $Lexicon = {
         'nAHy    nAHiy   NAn_Nayn        grammarian',
         'nHA     nuHA    Nap     grammarians'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'nu.hY' => [
+          'FuCY'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACI',
@@ -30932,8 +30916,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'niyk' => [
-          'FIL',
-          'FiCL'
+          'FIL'
         ],
         'nik' => [
           'FiL'
@@ -30967,7 +30950,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCL |< aT',
+      'morphs' => 'FIL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'have sex with'
@@ -31663,7 +31646,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'nawA.siy' => [
-          'FawACiL',
           'FawACI'
         ]
       },
@@ -33241,8 +33223,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'nuwb' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ],
         'nub' => [
           'FuL'
@@ -33535,7 +33516,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL |< aT',
+      'morphs' => 'FUL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'mishap',
@@ -33648,7 +33629,6 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'nuwwAb' => [
-          'FuCCAL',
           'FUCAL'
         ]
       },
@@ -33840,50 +33820,18 @@ $Lexicon = {
       ],
       'patterns' => {
         'nuwb' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ]
       },
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FuCL |< Iy',
+      'morphs' => 'FUL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         'Nubian',
         'Nubians'
       ],
       'orig' => 'nuwbiy~',
-      'prefix' => ''
-    }
-  ],
-  'n' => [
-    {
-      'types' => {
-        'niyy' => {
-          'N-ap' => 1
-        },
-        'niy\'' => {
-          'N-ap' => 2
-        }
-      },
-      'entry' => 'n',
-      'form' => 'niyy',
-      'lines' => [
-        ';; niy~_1',
-        'ny      niy~    N-ap    raw;uncooked     [[niy~/ADJ]]',
-        'ny\'     niy\'    N-ap    raw;uncooked',
-        'ny}     niy}    N-ap    raw;uncooked'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'raw',
-        'uncooked'
-      ],
-      'orig' => 'niy~',
       'prefix' => ''
     }
   ],
@@ -36407,7 +36355,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'nawAhiy' => [
-          'FawACiL',
           'FawACI'
         ]
       },
@@ -36549,7 +36496,6 @@ $Lexicon = {
           'FaCaL'
         ],
         'nmuw' => [
-          'FCuL',
           'FCU'
         ]
       },
@@ -37226,7 +37172,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL',
+      'morphs' => 'FUL',
       'suffix' => '',
       'glosses' => [
         'nun (Arabic letter)'
@@ -37256,13 +37202,16 @@ $Lexicon = {
         'AnwAn   >anowAn N       whales'
       ],
       'patterns' => {
+        'niynAn' => [
+          'FILAn'
+        ],
         '\'anwAn' => [
           'HaFCAL'
         ]
       },
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FuCL',
+      'morphs' => 'FUL',
       'suffix' => '',
       'glosses' => [
         'whale',
@@ -37286,7 +37235,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FuCL |< Iy',
+      'morphs' => 'FUL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         'crescent-shaped'
@@ -37309,7 +37258,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL |< aT',
+      'morphs' => 'FUL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'dimple'
@@ -38599,7 +38548,11 @@ $Lexicon = {
         'nAr     nAr     N       fire',
         'nyrAn   niyrAn  N       fire;fires'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'niyrAn' => [
+          'FILAn'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FAL',
@@ -38649,7 +38602,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL',
+      'morphs' => 'FUL',
       'suffix' => '',
       'glosses' => [
         'Nour',
@@ -38682,7 +38635,7 @@ $Lexicon = {
       },
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FuCL',
+      'morphs' => 'FUL',
       'suffix' => '',
       'glosses' => [
         'light',
@@ -38706,7 +38659,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FuCL |< Iy',
+      'morphs' => 'FUL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         'light',
@@ -38731,7 +38684,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FuCLAn |< Iy',
+      'morphs' => 'FULAn |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
         'luminous'
@@ -38754,7 +38707,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCLAn |< Iy |< aT',
+      'morphs' => 'FULAn |< Iy |< aT',
       'suffix' => ' |< Iy |< aT',
       'glosses' => [
         'luminosity',
@@ -38801,7 +38754,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCL |< aT',
+      'morphs' => 'FUL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
         'lime'
@@ -39181,7 +39134,7 @@ $Lexicon = {
       },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCCAL',
+      'morphs' => 'FUCAL',
       'suffix' => '',
       'glosses' => [
         'blossoms',
@@ -40608,7 +40561,11 @@ $Lexicon = {
         'n$AwY   na$AwaY N0      intoxicated',
         'n$AwA   na$AwA  Nhy     intoxicated'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'na^swY' => [
+          'KaRDY'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRDAS',
@@ -43860,7 +43817,6 @@ $Lexicon = {
       ],
       'patterns' => {
         '\'an^giy' => [
-          'HaFCiL',
           'HaFCI'
         ]
       },
@@ -44575,7 +44531,6 @@ $Lexicon = {
           'FaCA'
         ],
         'n`iy' => [
-          'FCiL',
           'FCI'
         ],
         'n`Y' => [
@@ -44686,11 +44641,11 @@ $Lexicon = {
           'NK' => 1
         },
         'man`A' => {
-          'Napdu' => 1,
           'Nhy' => 1
         },
         'man`Y' => {
-          'N0' => 1
+          'N0' => 1,
+          'Napdu' => 1
         },
         'manA`iy' => {
           'N0_Nh' => 1
@@ -44708,7 +44663,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'manA`iy' => [
-          'MaFACiL',
           'MaFACI'
         ]
       },
@@ -46183,7 +46137,6 @@ $Lexicon = {
           'FaCaL'
         ],
         'nduw' => [
-          'FCuL',
           'FCU'
         ]
       },
@@ -46748,11 +46701,11 @@ $Lexicon = {
     {
       'types' => {
         'munaddA' => {
-          'Napdu' => 1,
           'Nhy' => 1
         },
         'munaddY' => {
-          'N0' => 1
+          'N0' => 1,
+          'Napdu' => 1
         },
         'munadday' => {
           'NAn_Nayn' => 1
@@ -46798,11 +46751,9 @@ $Lexicon = {
         'munAday' => {
           'NAn_Nayn' => 1
         },
-        'munAdA' => {
-          'Napdu' => 1
-        },
         'munAdY' => {
-          'N0' => 1
+          'N0' => 1,
+          'Napdu' => 1
         }
       },
       'entry' => 'munAdY',
@@ -46916,7 +46867,6 @@ $Lexicon = {
           'FaCaL'
         ],
         'n.guw' => [
-          'FCuL',
           'FCU'
         ],
         'n.gY' => [
@@ -50009,8 +49959,7 @@ $Lexicon = {
           'FACaL'
         ],
         'nA\'iy' => [
-          'FA\'iL',
-          'FACiL',
+          'FA\'I',
           'FACI'
         ]
       },
@@ -50078,7 +50027,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'n\'iy' => [
-          'FCiL',
           'FCI'
         ],
         'n\'Y' => [
@@ -50210,7 +50158,6 @@ $Lexicon = {
           'FtaCY'
         ],
         'nta\'iy' => [
-          'FtaCiL',
           'FtaCI'
         ]
       },
@@ -50502,8 +50449,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'nuwd' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ],
         'nud' => [
           'FuL'
@@ -51242,8 +51188,7 @@ $Lexicon = {
           'FuL'
         ],
         'nuw.t' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ]
       },
       'index' => '1',
@@ -52693,7 +52638,21 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCLAn',
+      'morphs' => 'FILAn',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'niysAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'niysAn',
+      'form' => 'niysAn',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FILAn',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'niysAn',
@@ -52707,7 +52666,21 @@ $Lexicon = {
       'patterns' => {},
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'FiCLAn',
+      'morphs' => 'FILAn',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'niysAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'niysAn',
+      'form' => 'niysAn',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FILAn',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'niysAn',
@@ -52730,11 +52703,25 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'KaRDiS',
+      'morphs' => 'KaRDI',
       'suffix' => '',
       'glosses' => [
         'Nasri'
       ],
+      'orig' => 'naSoriy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'na.sriy',
+      'form' => 'na.sriy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDI',
+      'suffix' => '',
+      'glosses' => [],
       'orig' => 'naSoriy',
       'prefix' => ''
     }
@@ -53404,7 +53391,11 @@ $Lexicon = {
       'entry' => 'nA.hiy',
       'form' => 'nA.hiy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'nu.hY' => [
+          'FuCY'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACI',
@@ -53420,7 +53411,6 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'nawA.hiy' => [
-          'FawACiL',
           'FawACI'
         ]
       },
@@ -53459,8 +53449,7 @@ $Lexicon = {
           'FuL'
         ],
         'nuwf' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ]
       },
       'index' => '1',
@@ -53845,7 +53834,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFiCL',
+      'morphs' => 'MuFIL',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'muniyf',
@@ -53859,7 +53848,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '2',
       'entity' => 'noun',
-      'morphs' => 'MuFiCL',
+      'morphs' => 'MuFIL',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'muniyf',
@@ -55425,7 +55414,6 @@ $Lexicon = {
           'FaCaL'
         ],
         'nmiy' => [
-          'FCiL',
           'FCI'
         ],
         'namA' => [
@@ -55479,7 +55467,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'nammiy' => [
-          'FaCCiL',
           'FaCCI'
         ],
         'nammay' => [
@@ -55553,7 +55540,6 @@ $Lexicon = {
           'HaFCaL'
         ],
         'nmiy' => [
-          'FCiL',
           'FCI'
         ]
       },
@@ -55661,7 +55647,6 @@ $Lexicon = {
           'IFtaCaL'
         ],
         'ntamiy' => [
-          'FtaCiL',
           'FtaCI'
         ]
       },
@@ -56005,7 +55990,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'nawAmiy' => [
-          'FawACiL',
           'FawACI'
         ]
       },
@@ -59046,7 +59030,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'nzuw' => [
-          'FCuL',
           'FCU'
         ],
         'nazaw' => [
@@ -59385,7 +59368,6 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'nAfiy' => [
-          'FACiL',
           'FACI'
         ]
       },
@@ -61133,8 +61115,7 @@ $Lexicon = {
           'FiL'
         ],
         'niy\'' => [
-          'FIL',
-          'FiCL'
+          'FIL'
         ]
       },
       'index' => '1',
@@ -61235,8 +61216,8 @@ $Lexicon = {
       'form' => 'nafA\'',
       'lines' => [],
       'patterns' => {
-        'nafA' => [
-          'FaCA'
+        'nafY' => [
+          'FaCY'
         ]
       },
       'index' => '1',
@@ -64104,10 +64085,53 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCL |< aT',
+      'morphs' => 'FIL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [],
       'orig' => 'niy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'niyy' => {
+          'N-ap' => 1
+        },
+        'niy\'' => {
+          'N-ap' => 2
+        }
+      },
+      'entry' => 'niyy',
+      'form' => 'niyy',
+      'lines' => [
+        ';; niy~_1',
+        'ny      niy~    N-ap    raw;uncooked     [[niy~/ADJ]]',
+        'ny\'     niy\'    N-ap    raw;uncooked',
+        'ny}     niy}    N-ap    raw;uncooked'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FIL',
+      'suffix' => '',
+      'glosses' => [
+        'raw',
+        'uncooked'
+      ],
+      'orig' => 'niy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'niyy',
+      'form' => 'niyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FIL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'niy~',
       'prefix' => ''
     }
   ],
@@ -65532,11 +65556,7 @@ $Lexicon = {
       'lines' => [],
       'patterns' => {
         'nuwwAm' => [
-          'FuCCAL',
           'FUCAL'
-        ],
-        'nuwwam' => [
-          'FuCCaL'
         ]
       },
       'index' => '1',
@@ -65773,7 +65793,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MuFiCL',
+      'morphs' => 'MuFIL',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'muniyb',
@@ -65843,7 +65863,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FiCL',
+      'morphs' => 'FIL',
       'suffix' => '',
       'glosses' => [
         'old she-camel'
@@ -65967,8 +65987,7 @@ $Lexicon = {
           'FuL'
         ],
         'nuw\'' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ]
       },
       'index' => '1',
@@ -66107,7 +66126,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'nuw\'An' => [
-          'FuCLAn'
+          'FULAn'
         ],
         '\'anwA\'' => [
           'HaFCAL',
@@ -71553,7 +71572,6 @@ $Lexicon = {
       ],
       'patterns' => {
         'n_huw' => [
-          'FCuL',
           'FCU'
         ],
         'na_haw' => [
@@ -73185,8 +73203,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'nuwl' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ],
         'nul' => [
           'FuL'
@@ -74813,8 +74830,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'nuwq' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ]
       },
       'index' => '1',
@@ -76729,7 +76745,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'KuRDuS',
+      'morphs' => 'KuRDU',
       'suffix' => '',
       'glosses' => [
         'Nuno'
@@ -76781,7 +76797,6 @@ $Lexicon = {
           'FaCaL'
         ],
         'nhuw' => [
-          'FCuL',
           'FCU'
         ]
       },
@@ -77317,14 +77332,14 @@ $Lexicon = {
     {
       'types' => {
         'muntahA' => {
-          'Napdu' => 1,
           'Nhy' => 1
         },
         'muntahay' => {
           'NAn_Nayn' => 1
         },
         'muntahY' => {
-          'N0' => 1
+          'N0' => 1,
+          'Napdu' => 1
         }
       },
       'entry' => 'muntahY',
@@ -78467,9 +78482,18 @@ $Lexicon->{'n d w'}[19]{'glosses'} = $Lexicon->{'n d y'}[7]{'glosses'};
 $Lexicon->{'n y s'}[0]{'types'} = $Lexicon->{'n y s n'}[0]{'types'};
 $Lexicon->{'n y s'}[0]{'lines'} = $Lexicon->{'n y s n'}[0]{'lines'};
 $Lexicon->{'n y s'}[0]{'glosses'} = $Lexicon->{'n y s n'}[0]{'glosses'};
-$Lexicon->{'n y s'}[1]{'types'} = $Lexicon->{'n y s n'}[1]{'types'};
-$Lexicon->{'n y s'}[1]{'lines'} = $Lexicon->{'n y s n'}[1]{'lines'};
-$Lexicon->{'n y s'}[1]{'glosses'} = $Lexicon->{'n y s n'}[1]{'glosses'};
+$Lexicon->{'n y s'}[1]{'types'} = $Lexicon->{'n y s n'}[0]{'types'};
+$Lexicon->{'n y s'}[1]{'lines'} = $Lexicon->{'n y s n'}[0]{'lines'};
+$Lexicon->{'n y s'}[1]{'glosses'} = $Lexicon->{'n y s n'}[0]{'glosses'};
+$Lexicon->{'n y s'}[2]{'types'} = $Lexicon->{'n y s n'}[1]{'types'};
+$Lexicon->{'n y s'}[2]{'lines'} = $Lexicon->{'n y s n'}[1]{'lines'};
+$Lexicon->{'n y s'}[2]{'glosses'} = $Lexicon->{'n y s n'}[1]{'glosses'};
+$Lexicon->{'n y s'}[3]{'types'} = $Lexicon->{'n y s n'}[1]{'types'};
+$Lexicon->{'n y s'}[3]{'lines'} = $Lexicon->{'n y s n'}[1]{'lines'};
+$Lexicon->{'n y s'}[3]{'glosses'} = $Lexicon->{'n y s n'}[1]{'glosses'};
+$Lexicon->{'n .s r y'}[1]{'types'} = $Lexicon->{'n .s r y'}[0]{'types'};
+$Lexicon->{'n .s r y'}[1]{'lines'} = $Lexicon->{'n .s r y'}[0]{'lines'};
+$Lexicon->{'n .s r y'}[1]{'glosses'} = $Lexicon->{'n .s r y'}[0]{'glosses'};
 $Lexicon->{'n s n'}[0]{'types'} = $Lexicon->{'n y s n'}[0]{'types'};
 $Lexicon->{'n s n'}[0]{'lines'} = $Lexicon->{'n y s n'}[0]{'lines'};
 $Lexicon->{'n s n'}[0]{'glosses'} = $Lexicon->{'n y s n'}[0]{'glosses'};
@@ -78527,6 +78551,9 @@ $Lexicon->{'n s \''}[10]{'glosses'} = $Lexicon->{'n s s'}[0]{'glosses'};
 $Lexicon->{'n y y'}[1]{'types'} = $Lexicon->{'n w y'}[8]{'types'};
 $Lexicon->{'n y y'}[1]{'lines'} = $Lexicon->{'n w y'}[8]{'lines'};
 $Lexicon->{'n y y'}[1]{'glosses'} = $Lexicon->{'n w y'}[8]{'glosses'};
+$Lexicon->{'n y y'}[3]{'types'} = $Lexicon->{'n y y'}[2]{'types'};
+$Lexicon->{'n y y'}[3]{'lines'} = $Lexicon->{'n y y'}[2]{'lines'};
+$Lexicon->{'n y y'}[3]{'glosses'} = $Lexicon->{'n y y'}[2]{'glosses'};
 $Lexicon->{'n w m'}[15]{'types'} = $Lexicon->{'n \' m'}[2]{'types'};
 $Lexicon->{'n w m'}[15]{'lines'} = $Lexicon->{'n \' m'}[2]{'lines'};
 $Lexicon->{'n w m'}[15]{'glosses'} = $Lexicon->{'n \' m'}[2]{'glosses'};

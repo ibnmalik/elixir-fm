@@ -576,7 +576,6 @@ lexicon = listing "Lexicon's properties"
     -- DwAH    DawAH   NK      suburbs;outskirts
 
     FACI |< aT                `noun`    {- DAHiyap -}          [ "suburb", "vicinity", "suburbs", "outskirts" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ ".dawA.hiy N0_Nh" ] -} ]
 
@@ -3187,7 +3186,13 @@ lexicon = listing "Lexicon's properties"
     -- DwAry   DawAriy N0_Nh   predatory animals
     -- DwAr    DawAr   NK      predatory animals
 
-    KaRADiS                   `noun`    {- DawAriy -}          [ "predatory animals" ] ]
+    KaRADI                    `noun`    {- DawAriy -}          [ "predatory animals" ],
+
+    -- ;; DawAriy_1
+    -- DwAry   DawAriy N0_Nh   predatory animals
+    -- DwAr    DawAr   NK      predatory animals
+
+    KaRADI                    `noun`    {- DawAriy -}          [ "predatory animals" ] ]
 
  |> ".d w y" <| [
 
@@ -3316,7 +3321,7 @@ lexicon = listing "Lexicon's properties"
     -- mDy}    muDiy}  NAn_Nayn        shining;bright
     -- mDy}    muDiy}  Napdu   shining;bright
 
-    MuFiCL                    `adj`     {- muDiy' -}           [ "shining", "bright" ] ]
+    MuFIL                     `adj`     {- muDiy' -}           [ "shining", "bright" ] ]
 
  |> ".d y `" <| [
 
@@ -3367,7 +3372,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; DiyEAn_1
     -- DyEAn   DiyEAn  N       loss;waste
 
-    FiCLAn                    `noun`    {- DiyEAn -}           [ "loss", "waste" ],
+    FILAn                     `noun`    {- DiyEAn -}           [ "loss", "waste" ],
 
     -- ;; DayoEap_2
     -- DyE     DayoE   Napdu   village
@@ -3401,7 +3406,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muDiyEap_1
     -- mDyE    muDiyE  Nap     waste;loss
 
-    MuFiCL |< aT              `noun`    {- muDiyEap -}         [ "waste", "loss" ],
+    MuFIL |< aT               `noun`    {- muDiyEap -}         [ "waste", "loss" ],
 
     -- ;; muDay~iE_1
     -- mDyE    muDay~iE        Nall    squandering;wasteful     [[muDay~iE/ADJ]]
@@ -3502,20 +3507,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; muDiyfAF_1
     -- mDyf    muDiyf  NF      adding     [[muDiyf/ADV]]
 
-    MuFiCL |< aN              `noun`    {- muDiyfAF -}         [ "adding" ]
+    MuFIL |< aN               `noun`    {- muDiyfAF -}         [ "adding" ]
                               `plural`     MuFIL
-                              `plural`     MuFiCL
                            {- `others`  [ "mu.diyf NF" ] -},
 
     -- ;; muDiyf_1
     -- mDyf    muDiyf  Nall    host;steward
 
-    MuFiCL                    `noun`    {- muDiyf -}           [ "host", "steward" ],
+    MuFIL                     `noun`    {- muDiyf -}           [ "host", "steward" ],
 
     -- ;; muDiyfap_1
     -- mDyf    muDiyf  NapAt   stewardess;hostess
 
-    MuFiCL |< aT              `noun`    {- muDiyfap -}         [ "stewardess", "hostess" ],
+    MuFIL |< aT               `noun`    {- muDiyfap -}         [ "stewardess", "hostess" ],
 
     -- ;; muDAf_1
     -- mDAf    muDAf   N-ap    added     [[muDAf/ADJ]]
@@ -3598,7 +3602,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Diyq_1
     -- Dyq     Diyq    N       narrowness;anxiety;shortage
 
-    FiCL                      `noun`    {- Diyq -}             [ "narrowness", "anxiety", "shortage" ],
+    FIL                       `noun`    {- Diyq -}             [ "narrowness", "anxiety", "shortage" ],
 
     -- ;; Day~iq_1
     -- Dyq     Day~iq  N-ap    narrow;restricted     [[Day~iq/ADJ]]

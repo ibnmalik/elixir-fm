@@ -1521,7 +1521,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; zabAniyap_1
     -- zbAny   zabAniy Nap     myrmidons
 
-    KaRADiS |< aT             `noun`    {- zabAniyap -}        [ "myrmidons" ] ]
+    KaRADI |< aT              `noun`    {- zabAniyap -}        [ "myrmidons" ],
+
+    -- ;; zabAniyap_1
+    -- zbAny   zabAniy Nap     myrmidons
+
+    KaRADI |< aT              `noun`    {- zabAniyap -}        [ "myrmidons" ] ]
 
  |> "z b q" <| [
 
@@ -3550,7 +3555,8 @@ lexicon = listing "Lexicon's properties"
     -- zAny    zAniy   NapAt   fornicator
     -- znA     zunA    Nap     fornicators
 
-    FACI                      `noun`    {- zAniy -}            [ "fornicator", "fornicators" ],
+    FACI                      `noun`    {- zAniy -}            [ "fornicator", "fornicators" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; zAniyap_1
     -- zAny    zAniy   Napdu   whore;adulteress
@@ -3558,7 +3564,6 @@ lexicon = listing "Lexicon's properties"
     -- zwAn    zawAn   NK      whores;adulteresses
 
     FACI |< aT                `noun`    {- zAniyap -}          [ "whore", "adulteress", "whores", "adulteresses" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "zawAniy N0_Nh" ] -} ]
 
@@ -4342,7 +4347,9 @@ lexicon = listing "Lexicon's properties"
     -- zAg     zAg     N       crow
     -- zygAn   ziygAn  N       crows
 
-    FAL                       `noun`    {- zAg -}              [ "crow", "crows" ] ]
+    FAL                       `noun`    {- zAg -}              [ "crow", "crows" ]
+                              `plural`     FILAn
+                           {- `others`  [ "ziy.gAn N" ] -} ]
 
  |> "z w .h" <| [
 
@@ -4575,7 +4582,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; zuw~Adap_1
     -- zwAd    zuw~Ad  Nap     provisions
 
-    FuCCAL |< aT              `noun`    {- zuw~Adap -}         [ "provisions" ],
+    FUCAL |< aT               `noun`    {- zuw~Adap -}         [ "provisions" ],
 
     -- ;; zuw~Adap_1
     -- zwAd    zuw~Ad  Nap     provisions
@@ -4727,7 +4734,7 @@ lexicon = listing "Lexicon's properties"
     -- >zwAm   >azowAm N       juice;sap
     -- AzwAm   >azowAm N       juice;sap
 
-    FuCL                      `noun`    {- zuwm -}             [ "juice", "sap" ]
+    FUL                       `noun`    {- zuwm -}             [ "juice", "sap" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'azwAm N" ] -} ]
 
@@ -4821,7 +4828,7 @@ lexicon = listing "Lexicon's properties"
     -- zwr     zuwr    N       lie;falsehood
     -- zwr     zuwr    N       force
 
-    FuCL                      `noun`    {- zuwr -}             [ "lie", "falsehood", "force" ],
+    FUL                       `noun`    {- zuwr -}             [ "lie", "falsehood", "force" ],
 
     -- ;; zawar_1
     -- zwr     zawar   N       inclination;falseness;perfidy
@@ -4855,7 +4862,6 @@ lexicon = listing "Lexicon's properties"
     HaFCaL                    `noun`    {- Oazowar -}          [ "cross-eyed" ]
                               `plural`     FaCLA'
                               `plural`     FUL
-                              `plural`     FuCL
                            {- `others`  [ "zawrA' Nh N0_Nh Nhy", "zuwr N" ] -},
 
     -- ;; mazAr_1
@@ -4879,7 +4885,6 @@ lexicon = listing "Lexicon's properties"
     -- zwAr    zuw~Ar  N       visitors;tourists
 
     FA'iL                     `noun`    {- zA}ir -}            [ "visitor", "tourist", "visitors", "tourists" ]
-                              `plural`     FuCCAL
                               `plural`     FUCAL
                            {- `others`  [ "zuwwAr N" ] -},
 
@@ -5092,7 +5097,7 @@ lexicon = listing "Lexicon's properties"
     -- >zyAH   >azoyAH N       straight lines
     -- AzyAH   >azoyAH N       straight lines
 
-    FiCL                      `noun`    {- ziyH -}             [ "straight line", "straight lines" ]
+    FIL                       `noun`    {- ziyH -}             [ "straight line", "straight lines" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'azyA.h N" ] -},
 
@@ -5113,19 +5118,18 @@ lexicon = listing "Lexicon's properties"
     -- zyj     ziyj    Napdu   marriage
     -- zyj     ziyj    NAt     marriages
 
-    FiCL |< aT                `noun`    {- ziyjap -}           [ "marriage", "marriages" ]
-                              `plural`     FIL |< At
-                              `plural`     FiCL |< At,
+    FIL |< aT                 `noun`    {- ziyjap -}           [ "marriage", "marriages" ]
+                              `plural`     FIL |< At,
 
     -- ;; ziyjiy~_1
     -- zyjy    ziyjiy~ Nall    marital     [[ziyjiy~/ADJ]]
 
-    FiCL |< Iy                `adj`     {- ziyjiy~ -}          [ "marital" ],
+    FIL |< Iy                 `adj`     {- ziyjiy~ -}          [ "marital" ],
 
     -- ;; ziyj_1
     -- zyj     ziyj    N       (mason's) leveling line;ephemeris
 
-    FiCL                      `noun`    {- ziyj -}             [ "(mason's) leveling line", "ephemeris" ] ]
+    FIL                       `noun`    {- ziyj -}             [ "(mason's) leveling line", "ephemeris" ] ]
 
  |> "z y b q" <| [
 
@@ -5371,7 +5375,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muziyl_1
     -- mzyl    muziyl  N/ap    cleansing medium;cleaner
 
-    MuFiCL                    `noun`    {- muziyl -}           [ "cleansing medium", "cleaner" ],
+    MuFIL                     `noun`    {- muziyl -}           [ "cleansing medium", "cleaner" ],
 
     -- ;; ziyAl_1
     -- zyAl    ziyAl   Nprop   Ziyal
@@ -5437,7 +5441,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; ziynap_1
     -- zyn     ziyn    NapAt   embellishment;decoration
 
-    FiCL |< aT                `noun`    {- ziynap -}           [ "embellishment", "decoration" ],
+    FIL |< aT                 `noun`    {- ziynap -}           [ "embellishment", "decoration" ],
 
     -- ;; zayAn_1
     -- zyAn    zayAn   N-ap    beautiful
@@ -5508,7 +5512,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; ziyq_1
     -- zyq     ziyq    N       collar;hem
 
-    FiCL                      `noun`    {- ziyq -}             [ "collar", "hem" ] ]
+    FIL                       `noun`    {- ziyq -}             [ "collar", "hem" ] ]
 
  |> "z y r" <| [
 
@@ -5624,7 +5628,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; ziy~_1
     -- zy      ziy~    N       uniform;clothing
 
-    FiCL                      `noun`    {- ziy~ -}             [ "uniform", "clothing" ],
+    FIL                       `noun`    {- ziy~ -}             [ "uniform", "clothing" ],
 
     -- ;; >azoyA'_1
     -- >zyA'   >azoyA' N0_Nh   fashion;clothes;uniforms
@@ -5652,8 +5656,8 @@ lexicon = listing "Lexicon's properties"
     -- zyz     ziyz    Ndu     cicada
     -- zyzAn   ziyzAn  N       cicadas
 
-    FiCL                      `noun`    {- ziyz -}             [ "cicada", "cicadas" ]
-                              `plural`     FiCLAn
+    FIL                       `noun`    {- ziyz -}             [ "cicada", "cicadas" ]
+                              `plural`     FILAn
                            {- `others`  [ "ziyzAn N" ] -} ]
 
  |> "zA'iyr" <| [

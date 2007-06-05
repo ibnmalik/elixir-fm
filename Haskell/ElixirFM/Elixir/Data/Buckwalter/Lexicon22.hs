@@ -962,9 +962,7 @@ lexicon = listing "Lexicon's properties"
     -- kwAx    kawAx   NK      butlers;stewards
 
     FiCL |< aT                `noun`    {- kixoyap -}          [ "butler", "steward", "butlers", "stewards" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
-                              `plural`     FACiL
                               `plural`     FACI
                            {- `others`  [ "kawA_hiy N0_Nh", "kA_hiy Napdu" ] -} ]
 
@@ -3154,7 +3152,8 @@ lexicon = listing "Lexicon's properties"
     -- kAfy    kAfiy   NapAt   sufficient;adequate;competent
     -- kfA     kufA    Nap     sufficient;adequate;competent
 
-    FACI                      `adj`     {- kAfiy -}            [ "sufficient", "adequate", "competent" ],
+    FACI                      `adj`     {- kAfiy -}            [ "sufficient", "adequate", "competent" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; mukotafiy_1
     -- mktfy   mukotafiy       N0_Nh   contented;satisfied     [[mukotafiy/ADJ]]
@@ -3387,7 +3386,6 @@ lexicon = listing "Lexicon's properties"
     -- kwAh    kawAh   NK      officers;deputies
 
     FACI |< aT                `noun`    {- kAhiyap -}          [ "officer", "deputy", "officers", "deputies" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "kawAhiy N0_Nh" ] -},
 
@@ -4743,6 +4741,7 @@ lexicon = listing "Lexicon's properties"
     -- AkmA}   >akomA} Nhy     armed;brave
 
     FaCIL                     `adj`     {- kamiy~ -}           [ "armed", "brave" ]
+                              `plural`     FuCY |< aT
                               `plural`     HaFCA'
                            {- `others`  [ "'akmA' Nh N0_Nh Nhy" ] -} ]
 
@@ -6473,7 +6472,7 @@ lexicon = listing "Lexicon's properties"
     -- krAs    karAs   NK      chairs;seats
 
     KuRDIS                    `noun`    {- kurosiy~ -}         [ "chair", "seat", "chairs", "seats" ]
-                              `plural`     KaRADiS
+                              `plural`     KaRADI
                               `plural`     KaRADIS
                            {- `others`  [ "karAsiy N0_Nh", "karAsiyy N" ] -} ]
 
@@ -6699,7 +6698,6 @@ lexicon = listing "Lexicon's properties"
     -- Akry    >akoriy Nap     rent money
 
     FiCA'                     `noun`    {- kirA' -}            [ "rent", "renting", "rent money" ]
-                              `plural`     HaFCiL |< aT
                               `plural`     HaFCI |< aT,
 
     -- ;; <ikorA'_1
@@ -8197,7 +8195,7 @@ lexicon = listing "Lexicon's properties"
     -- kw$     kuw$    Nap     kiln
     -- kw$     kuwa$   N       kilns
 
-    FuCL |< aT                `noun`    {- kuw$ap -}           [ "kiln", "kilns" ]
+    FUL |< aT                 `noun`    {- kuw$ap -}           [ "kiln", "kilns" ]
                               `plural`     FuCaL
                            {- `others`  [ "kuwa^s N" ] -} ]
 
@@ -8208,7 +8206,7 @@ lexicon = listing "Lexicon's properties"
     -- >kwAx   >akowAx N       huts;shacks
     -- AkwAx   >akowAx N       huts;shacks
 
-    FuCL                      `noun`    {- kuwx -}             [ "hut", "shack", "huts", "shacks" ]
+    FUL                       `noun`    {- kuwx -}             [ "hut", "shack", "huts", "shacks" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'akwA_h N" ] -} ]
 
@@ -8246,9 +8244,10 @@ lexicon = listing "Lexicon's properties"
     -- AkwAE   >akowAE N       elbows
     -- kyEAn   kiyEAn  N       elbows
 
-    FuCL                      `noun`    {- kuwE -}             [ "elbow", "elbows" ]
+    FUL                       `noun`    {- kuwE -}             [ "elbow", "elbows" ]
+                              `plural`     FILAn
                               `plural`     HaFCAL
-                           {- `others`  [ "'akwA` N" ] -},
+                           {- `others`  [ "kiy`An N", "'akwA` N" ] -},
 
     -- ;; kAE_1
     -- kAE     kAE     N       carpal end of radius
@@ -8262,20 +8261,20 @@ lexicon = listing "Lexicon's properties"
     -- >kwAb   >akowAb N       cups;glasses
     -- AkwAb   >akowAb N       cups;glasses
 
-    FuCL                      `noun`    {- kuwb -}             [ "cup", "glass", "cups", "glasses" ]
+    FUL                       `noun`    {- kuwb -}             [ "cup", "glass", "cups", "glasses" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'akwAb N" ] -},
 
     -- ;; kuwbap_1
     -- kwb     kuwb    Napdu   cup;glass
 
-    FuCL |< aT                `noun`    {- kuwbap -}           [ "cup", "glass" ],
+    FUL |< aT                 `noun`    {- kuwbap -}           [ "cup", "glass" ],
 
     -- ;; kuwbiy~_1
     -- kwby    kuwbiy~ Nall    Cuban     [[kuwbiy~/NOUN]]
     -- kwby    kuwbiy~ Nall    Cuban     [[kuwbiy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- kuwbiy~ -}          [ "Cuban" ],
+    FUL |< Iy                 `adj`     {- kuwbiy~ -}          [ "Cuban" ],
 
     -- ;; kuwbiy~_1
     -- kwby    kuwbiy~ Nall    Cuban     [[kuwbiy~/NOUN]]
@@ -8332,7 +8331,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; kuwdiy~_1
     -- kwdy    kuwdiy~ N-ap    enciphered;encoded     [[kuwdiy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- kuwdiy~ -}          [ "enciphered", "encoded" ] ]
+    FUL |< Iy                 `adj`     {- kuwdiy~ -}          [ "enciphered", "encoded" ] ]
 
  |> "k w f" <| [
 
@@ -8345,22 +8344,22 @@ lexicon = listing "Lexicon's properties"
     -- ;; kuwfap_1
     -- kwf     kuwf    Nap     Kufa;Koufa (Iraq)
 
-    FuCL |< aT                `noun`    {- kuwfap -}           [ "Kufa", "Koufa (Iraq)" ],
+    FUL |< aT                 `noun`    {- kuwfap -}           [ "Kufa", "Koufa (Iraq)" ],
 
     -- ;; kuwfiy~_1
     -- kwfy    kuwfiy~ Nall    of/from Kufa (Iraq);Kufic     [[kuwfiy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- kuwfiy~ -}          [ "of/from Kufa (Iraq)", "Kufic" ],
+    FUL |< Iy                 `adj`     {- kuwfiy~ -}          [ "of/from Kufa (Iraq)", "Kufic" ],
 
     -- ;; kuwfiy~_2
     -- kwfy    kuwfiy~ N0      Kufi;Koufi
 
-    FuCL |< Iy                `adj`     {- kuwfiy~ -}          [ "Kufi", "Koufi" ],
+    FUL |< Iy                 `adj`     {- kuwfiy~ -}          [ "Kufi", "Koufi" ],
 
     -- ;; kuwfiy~ap_1
     -- kwfy    kuwfiy~ NapAt   kaffiyeh     [[kuwfiy~/NOUN]]
 
-    FuCL |< Iy |< aT          `noun`    {- kuwfiy~ap -}        [ "kaffiyeh" ] ]
+    FUL |< Iy |< aT           `noun`    {- kuwfiy~ap -}        [ "kaffiyeh" ] ]
 
  |> "k w h n" <| [
 
@@ -8374,7 +8373,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; kuwk_1
     -- kwk     kuwk    Nprop   Cook
 
-    FuCL                      `noun`    {- kuwk -}             [ "Cook" ],
+    FUL                       `noun`    {- kuwk -}             [ "Cook" ],
 
     -- ;; kaw~ak_1
     -- kwk     kaw~ak  PV      coke;char
@@ -8422,7 +8421,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; kuwlAn_1
     -- kwlAn   kuwlAn  N       papyrus
 
-    FuCLAn                    `noun`    {- kuwlAn -}           [ "papyrus" ] ]
+    FULAn                     `noun`    {- kuwlAn -}           [ "papyrus" ],
+
+    -- ;; kuwlAn_1
+    -- kwlAn   kuwlAn  N       papyrus
+
+    FULAn                     `noun`    {- kuwlAn -}           [ "papyrus" ] ]
 
  |> "k w l n" <| [
 
@@ -8469,6 +8473,11 @@ lexicon = listing "Lexicon's properties"
                               `plural`     HaFCAL
                            {- `others`  [ "'akwAm N" ] -},
 
+    -- ;; kiymAn_1
+    -- kymAn   kiymAn  N       piles of trash;rubbish
+
+    FILAn                     `noun`    {- kiymAn -}           [ "piles of trash", "rubbish" ],
+
     -- ;; kawomap_1
     -- kwm     kawom   NapAt   heap;pile;mass
     -- kwm     kuwm    NapAt   heap;pile;mass
@@ -8477,7 +8486,6 @@ lexicon = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- kawomap -}          [ "heap", "pile", "mass", "heaps", "piles", "masses" ]
                               `plural`     FuCaL
                               `plural`     FUL |< At
-                              `plural`     FuCL |< At
                            {- `others`  [ "kuwam N" ] -} ]
 
  |> "k w m r" <| [
@@ -8617,7 +8625,7 @@ lexicon = listing "Lexicon's properties"
     -- >kwr    >akowur N       furnace;bellows
     -- Akwr    >akowur N       furnace;bellows
 
-    FuCL                      `noun`    {- kuwr -}             [ "furnace", "bellows" ]
+    FUL                       `noun`    {- kuwr -}             [ "furnace", "bellows" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'akwAr N" ] -},
 
@@ -8625,7 +8633,7 @@ lexicon = listing "Lexicon's properties"
     -- kwr     kuwr    Nap     small village
     -- kwr     kuwar   N       small village
 
-    FuCL |< aT                `noun`    {- kuwrap -}           [ "small village" ]
+    FUL |< aT                 `noun`    {- kuwrap -}           [ "small village" ]
                               `plural`     FuCaL
                            {- `others`  [ "kuwar N" ] -},
 
@@ -8672,7 +8680,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; kawAriy_1
     -- kwAry   kawAriy N0      Kawari
 
-    KaRADiS                   `noun`    {- kawAriy -}          [ "Kawari" ],
+    KaRADI                    `noun`    {- kawAriy -}          [ "Kawari" ],
+
+    -- ;; kawAriy_1
+    -- kwAry   kawAriy N0      Kawari
+
+    KaRADI                    `noun`    {- kawAriy -}          [ "Kawari" ],
 
     -- ;; kuwriy~ap_1
     -- kwry    kuwriy~ Napdu   Korea
@@ -8690,7 +8703,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; kuws_1
     -- kws     kuws    N       small drum
 
-    FuCL                      `noun`    {- kuws -}             [ "small drum" ],
+    FUL                       `noun`    {- kuws -}             [ "small drum" ],
 
     -- ;; kAs_1
     -- kAs     kAs     N       cup
@@ -8730,7 +8743,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; kuwt_1
     -- kwt     kuwt    N0      Cote
 
-    FuCL                      `noun`    {- kuwt -}             [ "Cote" ] ]
+    FUL                       `noun`    {- kuwt -}             [ "Cote" ] ]
 
  |> "k w t r" <| [
 
@@ -8749,7 +8762,7 @@ lexicon = listing "Lexicon's properties"
     -- kwA&    kiwA&   Nh      apertures;skylights
     -- kwA}    kiwA}   Nhy     apertures;skylights
 
-    FuCL |< aT                `noun`    {- kuw~ap -}           [ "aperture", "skylight", "apertures", "skylights" ]
+    FUL |< aT                 `noun`    {- kuw~ap -}           [ "aperture", "skylight", "apertures", "skylights" ]
                               `plural`     FuCY
                               `plural`     FiCA'
                            {- `others`  [ "kuwY N0", "kiwA' Nh N0_Nh Nhy" ] -},
@@ -8814,7 +8827,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; kawiy~ap_1
     -- kwy     kawiy~  Nap     crease     [[kawiy~/NOUN]]
 
-    FY |< Iy |< aT            `noun`    {- kawiy~ap -}         [ "crease" ],
+    FaCIL |< aT               `noun`    {- kawiy~ap -}         [ "crease" ],
 
     -- ;; mikowAp_1
     -- mkwA    mikowA  Napdu   ironing iron
@@ -8826,7 +8839,6 @@ lexicon = listing "Lexicon's properties"
 
     MiFCY |< aT               `noun`    {- mikowAp -}          [ "ironing iron", "ironing irons" ]
                               `plural`     MaFCaL
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                               `plural`     MaFCY
                            {- `others`  [ "makway NAn_Nayn", "makAwiy N0_Nh", "makwY N0" ] -},
@@ -8856,16 +8868,17 @@ lexicon = listing "Lexicon's properties"
     -- AkwAz   >akowAz N       jugs;mugs
     -- kyzAn   kiyzAn  N       jugs;mugs
 
-    FuCL                      `noun`    {- kuwz -}             [ "jug", "mug", "jugs", "mugs" ]
+    FUL                       `noun`    {- kuwz -}             [ "jug", "mug", "jugs", "mugs" ]
                               `plural`     HaFCAL
-                           {- `others`  [ "'akwAz N" ] -} ]
+                              `plural`     FILAn
+                           {- `others`  [ "'akwAz N", "kiyzAn N" ] -} ]
 
  |> "k y .g" <| [
 
     -- ;; kiygAn_1
     -- kygAn   kiygAn  Nprop   Keegan
 
-    FiCLAn                    `noun`    {- kiygAn -}           [ "Keegan" ] ]
+    FILAn                     `noun`    {- kiygAn -}           [ "Keegan" ] ]
 
  |> "k y d" <| [
 
@@ -8976,12 +8989,12 @@ lexicon = listing "Lexicon's properties"
     -- kyk     kiyk    Nap     game of tag
     -- kykA    kiykA   N0      game of tag
 
-    FiCL |< aT                `noun`    {- kiykap -}           [ "game of tag" ],
+    FIL |< aT                 `noun`    {- kiykap -}           [ "game of tag" ],
 
     -- ;; kiykap_2
     -- kyk     kiyk    Nap     cake
 
-    FiCL |< aT                `noun`    {- kiykap -}           [ "cake" ] ]
+    FIL |< aT                 `noun`    {- kiykap -}           [ "cake" ] ]
 
  |> "k y l" <| [
 
@@ -9072,19 +9085,24 @@ lexicon = listing "Lexicon's properties"
     -- ;; kiyliy_1
     -- kyly    kiyliy  Nprop   Kelly
 
-    KiRDiS                    `noun`    {- kiyliy -}           [ "Kelly" ] ]
+    KiRDI                     `noun`    {- kiyliy -}           [ "Kelly" ],
+
+    -- ;; kiyliy_1
+    -- kyly    kiyliy  Nprop   Kelly
+
+    KiRDI                     `noun`    {- kiyliy -}           [ "Kelly" ] ]
 
  |> "k y m" <| [
 
     -- ;; kiymAn_1
     -- kymAn   kiymAn  N       piles of trash;rubbish
 
-    FiCLAn                    `noun`    {- kiymAn -}           [ "piles of trash", "rubbish" ],
+    FILAn                     `noun`    {- kiymAn -}           [ "piles of trash", "rubbish" ],
 
     -- ;; kiym_1
     -- kym     kiym    Nprop   Kim
 
-    FiCL                      `noun`    {- kiym -}             [ "Kim" ] ]
+    FIL                       `noun`    {- kiym -}             [ "Kim" ] ]
 
  |> "k y m n" <| [
 
@@ -9131,13 +9149,13 @@ lexicon = listing "Lexicon's properties"
     -- ;; musotakiyn_1
     -- mstkyn  musotakiyn      Nall    submissive;resigned;humble
 
-    MustaFiCL                 `noun`    {- musotakiyn -}       [ "submissive", "resigned", "humble" ],
+    MustaFIL                  `noun`    {- musotakiyn -}       [ "submissive", "resigned", "humble" ],
 
     -- ;; kiyn_1
     -- kyn     kiyn    Nprop   Ken
     -- kn      kin     Nprop   Ken
 
-    FiCL                      `noun`    {- kiyn -}             [ "Ken" ]
+    FIL                       `noun`    {- kiyn -}             [ "Ken" ]
                               `plural`     FiL
                            {- `others`  [ "kin Nprop" ] -} ]
 
@@ -9172,8 +9190,8 @@ lexicon = listing "Lexicon's properties"
     -- AkyAr   >akoyAr N       bellows
     -- kyrAn   kiyrAn  N       bellows
 
-    FiCL                      `noun`    {- kiyr -}             [ "bellows" ]
-                              `plural`     FiCLAn
+    FIL                       `noun`    {- kiyr -}             [ "bellows" ]
+                              `plural`     FILAn
                               `plural`     HaFCAL
                            {- `others`  [ "kiyrAn N", "'akyAr N" ] -} ]
 
@@ -9213,7 +9231,7 @@ lexicon = listing "Lexicon's properties"
     -- >kys    >akoyis Nap     sacks
     -- Akys    >akoyis Nap     sacks
 
-    FiCL                      `noun`    {- kiys -}             [ "sack", "sacks" ]
+    FIL                       `noun`    {- kiys -}             [ "sack", "sacks" ]
                               `plural`     HaFCiL |< aT
                               `plural`     HaFCAL
                            {- `others`  [ "'akyAs N" ] -},
@@ -9246,9 +9264,8 @@ lexicon = listing "Lexicon's properties"
     -- kys     kiys    N       smart;sly
 
     HaFCaL                    `adj`     {- Oakoyas -}          [ "smart", "sly" ]
-                              `plural`     FiCLY
+                              `plural`     FILY
                               `plural`     FIL
-                              `plural`     FiCL
                            {- `others`  [ "kiysY N0", "kiys N" ] -},
 
     -- ;; takoyiys_1
@@ -9271,14 +9288,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; kiyt_1
     -- kyt     kiyt    Nprop   Kate
 
-    FiCL                      `noun`    {- kiyt -}             [ "Kate" ] ]
+    FIL                       `noun`    {- kiyt -}             [ "Kate" ] ]
 
  |> "k y t y" <| [
 
     -- ;; kiytiy_1
     -- kyty    kiytiy  Nprop   Kitty
 
-    KiRDiS                    `noun`    {- kiytiy -}           [ "Kitty" ] ]
+    KiRDI                     `noun`    {- kiytiy -}           [ "Kitty" ],
+
+    -- ;; kiytiy_1
+    -- kyty    kiytiy  Nprop   Kitty
+
+    KiRDI                     `noun`    {- kiytiy -}           [ "Kitty" ] ]
 
  |> "k y w" <| [
 

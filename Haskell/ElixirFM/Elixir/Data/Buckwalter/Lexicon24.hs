@@ -688,7 +688,6 @@ lexicon = listing "Lexicon's properties"
     -- mwAD    mawAD   NK      incisive;keen;energetic;efficient     [[mawAD/ADJ]]
 
     FACI                      `adj`     {- mADiy -}            [ "incisive", "keen", "energetic", "efficient" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "mawA.diy N0_Nh" ] -},
 
@@ -2004,7 +2003,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; majodiy_1
     -- mjdy    majodiy N0      Majdi;Magdi
 
-    KaRDiS                    `noun`    {- majodiy -}          [ "Majdi", "Magdi" ] ]
+    KaRDI                     `noun`    {- majodiy -}          [ "Majdi", "Magdi" ],
+
+    -- ;; majodiy_1
+    -- mjdy    majodiy N0      Majdi;Magdi
+
+    KaRDI                     `noun`    {- majodiy -}          [ "Majdi", "Magdi" ] ]
 
  |> "m ^g l" <| [
 
@@ -2531,7 +2535,6 @@ lexicon = listing "Lexicon's properties"
 
     MaFCY                     `noun`    {- mamo$aY -}          [ "corridor", "promenade", "corridors", "promenades" ]
                               `plural`     MaFCaL
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "mam^say NAn_Nayn", "mamA^siy N0_Nh" ] -},
 
@@ -2550,7 +2553,8 @@ lexicon = listing "Lexicon's properties"
     -- m$A     mu$A    Nap     pedestrians
     -- mA$y    mA$iy   NF      on foot     [[mA$iy/ADV]]
 
-    FACI                      `noun`    {- mA$iy -}            [ "going", "walking", "infantry", "pedestrians", "on foot" ],
+    FACI                      `noun`    {- mA$iy -}            [ "going", "walking", "infantry", "pedestrians", "on foot" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; mA$iyap_1
     -- mA$y    mA$iy   Nap     livestock;cattle
@@ -2558,7 +2562,6 @@ lexicon = listing "Lexicon's properties"
     -- mwA$    mawA$   NK      livestock;cattle
 
     FACI |< aT                `noun`    {- mA$iyap -}          [ "livestock", "cattle" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "mawA^siy N0_Nh" ] -},
 
@@ -3760,7 +3763,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; madAliyap_1
     -- mdAly   madAliy NapAt   medal
 
-    KaRADiS |< aT             `noun`    {- madAliyap -}        [ "medal" ] ]
+    KaRADI |< aT              `noun`    {- madAliyap -}        [ "medal" ],
+
+    -- ;; madAliyap_1
+    -- mdAly   madAliy NapAt   medal
+
+    KaRADI |< aT              `noun`    {- madAliyap -}        [ "medal" ] ]
 
  |> "m d m" <| [
 
@@ -5826,7 +5834,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; malAwiy_1
     -- mlAwy   malAwiy N0      Malawi
 
-    KaRADiS                   `noun`    {- malAwiy -}          [ "Malawi" ],
+    KaRADI                    `noun`    {- malAwiy -}          [ "Malawi" ],
+
+    -- ;; malAwiy_1
+    -- mlAwy   malAwiy N0      Malawi
+
+    KaRADI                    `noun`    {- malAwiy -}          [ "Malawi" ],
 
     -- ;; malAwiy~_1
     -- mlAwy   malAwiy~        Nall    Malawian     [[malAwiy~/NOUN]]
@@ -6387,7 +6400,6 @@ lexicon = listing "Lexicon's properties"
     -- AmAn    >amAn   NK      wishes;desires;aspirations
 
     FuCL |< aT                `noun`    {- munoyap -}          [ "wish", "desire", "aspiration", "wishes", "desires", "aspirations" ]
-                              `plural`     HaFACiL
                               `plural`     HaFACI
                               `plural`     FiCL |< aT
                            {- `others`  [ "'amAniy N0_Nh" ] -},
@@ -8148,7 +8160,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; musokuw_1
     -- mskw    musokuw N0      Moscow
 
-    KuRDuS                    `noun`    {- musokuw -}          [ "Moscow" ] ]
+    KuRDU                     `noun`    {- musokuw -}          [ "Moscow" ] ]
 
  |> "m s m r" <| [
 
@@ -8377,27 +8389,7 @@ lexicon = listing "Lexicon's properties"
 
     FaCY                      `verb`    {- masaY-i -}          [ "make lean", "emaciate" ]
                               `imperf`     FCI
-                              `imperf`     FCY,
-
-    -- ;; muwsaY_1
-    -- mwsY    muwsaY  Nprop   Mousa;Moussa
-
-    MUCY                      `noun`    {- muwsaY -}           [ "Mousa", "Moussa" ],
-
-    -- ;; muwsaY_2
-    -- mwsY    muwsaY  Nprop   Moses
-
-    MUCY                      `noun`    {- muwsaY -}           [ "Moses" ],
-
-    -- ;; muwsawiy~_1
-    -- mwswy   muwsawiy~       N0      Moussaoui
-
-    MUCY |< Iy                `adj`     {- muwsawiy~ -}        [ "Moussaoui" ],
-
-    -- ;; muwsawiy~_2
-    -- mwswy   muwsawiy~       N-ap    Mosaic;Moses     [[muwsawiy~/ADJ]]
-
-    MUCY |< Iy                `adj`     {- muwsawiy~ -}        [ "Mosaic", "Moses" ] ]
+                              `imperf`     FCY ]
 
  |> "m t .h" <| [
 
@@ -8748,14 +8740,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwyA_1
     -- mwyA    muwyA   Nprop   Moya
 
-    FuCyA                     `noun`    {- muwyA -}            [ "Moya" ] ]
+    FUyA                      `noun`    {- muwyA -}            [ "Moya" ],
+
+    -- ;; muwyA_1
+    -- mwyA    muwyA   Nprop   Moya
+
+    FUyA                      `noun`    {- muwyA -}            [ "Moya" ] ]
 
  |> "m w .d" <| [
 
     -- ;; muwDap_1
     -- mwD     muwD    NapAt   fashion;style
 
-    FuCL |< aT                `noun`    {- muwDap -}           [ "fashion", "style" ] ]
+    FUL |< aT                 `noun`    {- muwDap -}           [ "fashion", "style" ] ]
 
  |> "m w ^g" <| [
 
@@ -8842,7 +8839,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwdap_1
     -- mwd     muwd    NapAt   fashion;style
 
-    FuCL |< aT                `noun`    {- muwdap -}           [ "fashion", "style" ] ]
+    FUL |< aT                 `noun`    {- muwdap -}           [ "fashion", "style" ] ]
 
  |> "m w d l" <| [
 
@@ -9013,7 +9010,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwm_1
     -- mwm     muwm    N       wax
 
-    FuCL                      `noun`    {- muwm -}             [ "wax" ] ]
+    FUL                       `noun`    {- muwm -}             [ "wax" ] ]
 
  |> "m w n" <| [
 
@@ -9032,7 +9029,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwnap_1
     -- mwn     muwn    Nap     provisions;mortar
 
-    FuCL |< aT                `noun`    {- muwnap -}           [ "provisions", "mortar" ],
+    FUL |< aT                 `noun`    {- muwnap -}           [ "provisions", "mortar" ],
 
     -- ;; tamowiyn_1
     -- tmwyn   tamowiyn        N/At    food supply;provisions
@@ -9102,7 +9099,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwr_1
     -- mwr     muwr    Nprop   Moore;Mor
 
-    FuCL                      `noun`    {- muwr -}             [ "Moore", "Mor" ] ]
+    FUL                       `noun`    {- muwr -}             [ "Moore", "Mor" ] ]
 
  |> "m w r n" <| [
 
@@ -9123,29 +9120,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muwruw_1
     -- mwrw    muwruw  Nprop   Moro
 
-    KuRDuS                    `noun`    {- muwruw -}           [ "Moro" ] ]
-
- |> "m w s" <| [
-
-    -- ;; muwsaY_1
-    -- mwsY    muwsaY  Nprop   Mousa;Moussa
-
-    FuCLY                     `noun`    {- muwsaY -}           [ "Mousa", "Moussa" ],
-
-    -- ;; muwsaY_2
-    -- mwsY    muwsaY  Nprop   Moses
-
-    FuCLY                     `noun`    {- muwsaY -}           [ "Moses" ],
-
-    -- ;; muwsawiy~_1
-    -- mwswy   muwsawiy~       N0      Moussaoui
-
-    FuCLY |< Iy               `adj`     {- muwsawiy~ -}        [ "Moussaoui" ],
-
-    -- ;; muwsawiy~_2
-    -- mwswy   muwsawiy~       N-ap    Mosaic;Moses     [[muwsawiy~/ADJ]]
-
-    FuCLY |< Iy               `adj`     {- muwsawiy~ -}        [ "Mosaic", "Moses" ] ]
+    KuRDU                     `noun`    {- muwruw -}           [ "Moro" ] ]
 
  |> "m w s d" <| [
 
@@ -9170,6 +9145,28 @@ lexicon = listing "Lexicon's properties"
     -- mwsyqy  muwsiyqiy~      Nap     musicality     [[muwsiyqiy~/NOUN]]
 
     KuRDIS |< Iy |< aT        `noun`    {- muwsiyqiy~ap -}     [ "musicality" ] ]
+
+ |> "m w s y" <| [
+
+    -- ;; muwsaY_1
+    -- mwsY    muwsaY  Nprop   Mousa;Moussa
+
+    KuRDY                     `noun`    {- muwsaY -}           [ "Mousa", "Moussa" ],
+
+    -- ;; muwsaY_2
+    -- mwsY    muwsaY  Nprop   Moses
+
+    KuRDY                     `noun`    {- muwsaY -}           [ "Moses" ],
+
+    -- ;; muwsawiy~_1
+    -- mwswy   muwsawiy~       N0      Moussaoui
+
+    KuRDY |< Iy               `adj`     {- muwsawiy~ -}        [ "Moussaoui" ],
+
+    -- ;; muwsawiy~_2
+    -- mwswy   muwsawiy~       N-ap    Mosaic;Moses     [[muwsawiy~/ADJ]]
+
+    KuRDY |< Iy               `adj`     {- muwsawiy~ -}        [ "Mosaic", "Moses" ] ]
 
  |> "m w t" <| [
 
@@ -9227,7 +9224,7 @@ lexicon = listing "Lexicon's properties"
     -- mwtAn   muwtAn  N       dying;epidemic
 
     FaCLAn                    `noun`    {- mawotAn -}          [ "dying", "epidemic" ]
-                              `plural`     FuCLAn
+                              `plural`     FULAn
                            {- `others`  [ "muwtAn N" ] -},
 
     -- ;; miytap_1
@@ -9296,7 +9293,13 @@ lexicon = listing "Lexicon's properties"
     -- mygAn   miygAn  Nprop   Megan
     -- myjAn   miyjAn  Nprop   Megan
 
-    FiCLAn                    `noun`    {- miygAn -}           [ "Megan" ] ]
+    FILAn                     `noun`    {- miygAn -}           [ "Megan" ],
+
+    -- ;; miygAn_1
+    -- mygAn   miygAn  Nprop   Megan
+    -- myjAn   miyjAn  Nprop   Megan
+
+    FILAn                     `noun`    {- miygAn -}           [ "Megan" ] ]
 
  |> "m y .g n" <| [
 
@@ -9390,7 +9393,7 @@ lexicon = listing "Lexicon's properties"
     -- myj     miyj    N0      MIG
     -- myg     miyg    N0      MIG
 
-    FiCL                      `noun`    {- miyj -}             [ "MIG" ] ]
+    FIL                       `noun`    {- miyj -}             [ "MIG" ] ]
 
  |> "m y ^g r" <| [
 
@@ -9405,17 +9408,13 @@ lexicon = listing "Lexicon's properties"
     -- my$yl   miy$iyl Nprop   Michael;Michel
     -- my$Al   miy$Al  Nprop   Michael;Michel
 
-    KiRDIS                    `noun`    {- miy$iyl -}          [ "Michael", "Michel" ]
-                              `plural`     KiRDAS
-                           {- `others`  [ "miy^sAl Nprop" ] -},
+    KiRDIS                    `noun`    {- miy$iyl -}          [ "Michael", "Michel" ],
 
     -- ;; miy$iyl_2
     -- my$yl   miy$iyl Nprop   Michelle
     -- my$Al   miy$Al  Nprop   Michelle
 
-    KiRDIS                    `noun`    {- miy$iyl -}          [ "Michelle" ]
-                              `plural`     KiRDAS
-                           {- `others`  [ "miy^sAl Nprop" ] -} ]
+    KiRDIS                    `noun`    {- miy$iyl -}          [ "Michelle" ] ]
 
  |> "m y `" <| [
 
@@ -9535,7 +9534,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; miydap_1
     -- myd     miyd    Nap     lintel;breastsummer (arch.)
 
-    FiCL |< aT                `noun`    {- miydap -}           [ "lintel", "breastsummer (arch.)" ],
+    FIL |< aT                 `noun`    {- miydap -}           [ "lintel", "breastsummer (arch.)" ],
 
     -- ;; mA}id_1
     -- mA}d    mA}id   Ndu     seasick
@@ -9559,7 +9558,7 @@ lexicon = listing "Lexicon's properties"
     -- mydAn   miydAn  Ndu     square
 
     FaCLAn                    `noun`    {- mayodAn -}          [ "square" ]
-                              `plural`     FiCLAn
+                              `plural`     FILAn
                            {- `others`  [ "miydAn Ndu" ] -},
 
     -- ;; mayodAn_2
@@ -9568,7 +9567,7 @@ lexicon = listing "Lexicon's properties"
     -- myAdyn  mayAdiyn        Ndip    fields;domains;arenas
 
     FaCLAn                    `noun`    {- mayodAn -}          [ "field", "domain", "arena", "fields", "domains", "arenas" ]
-                              `plural`     FiCLAn
+                              `plural`     FILAn
                            {- `others`  [ "miydAn Ndu" ] -},
 
     -- ;; mayodAniy~_1
@@ -9718,7 +9717,7 @@ lexicon = listing "Lexicon's properties"
     -- >myAl   >amoyAl N       miles
     -- AmyAl   >amoyAl N       miles
 
-    FiCL                      `noun`    {- miyl -}             [ "mile", "miles" ]
+    FIL                       `noun`    {- miyl -}             [ "mile", "miles" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'amyAl N" ] -} ]
 
@@ -9734,14 +9733,19 @@ lexicon = listing "Lexicon's properties"
     -- ;; miym_1
     -- mym     miym    NduAt   mim (Arabic letter)
 
-    FiCL                      `noun`    {- miym -}             [ "mim (Arabic letter)" ] ]
+    FIL                       `noun`    {- miym -}             [ "mim (Arabic letter)" ] ]
 
  |> "m y m y" <| [
 
     -- ;; mayAmiy_1
     -- myAmy   mayAmiy Nprop   Miami
 
-    KaRADiS                   `noun`    {- mayAmiy -}          [ "Miami" ] ]
+    KaRADI                    `noun`    {- mayAmiy -}          [ "Miami" ],
+
+    -- ;; mayAmiy_1
+    -- myAmy   mayAmiy Nprop   Miami
+
+    KaRADI                    `noun`    {- mayAmiy -}          [ "Miami" ] ]
 
  |> "m y n" <| [
 
@@ -9816,7 +9820,7 @@ lexicon = listing "Lexicon's properties"
     -- myr     miyr    Nap     provisions;supplies
     -- myr     miyar   N       provisions;supplies
 
-    FiCL |< aT                `noun`    {- miyrap -}           [ "provisions", "supplies" ]
+    FIL |< aT                 `noun`    {- miyrap -}           [ "provisions", "supplies" ]
                               `plural`     FiCaL
                            {- `others`  [ "miyar N" ] -},
 
@@ -9830,7 +9834,7 @@ lexicon = listing "Lexicon's properties"
     -- >myAr   >amoyAr N       mayors
     -- AmyAr   >amoyAr N       mayors
 
-    FiCL                      `noun`    {- miyr -}             [ "mayor", "mayors" ]
+    FIL                       `noun`    {- miyr -}             [ "mayor", "mayors" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'amyAr N" ] -} ]
 
@@ -9846,7 +9850,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; miyriy_1
     -- myry    miyriy  N0      state
 
-    KiRDiS                    `noun`    {- miyriy -}           [ "state" ] ]
+    KiRDI                     `noun`    {- miyriy -}           [ "state" ],
+
+    -- ;; miyriy_1
+    -- myry    miyriy  N0      state
+
+    KiRDI                     `noun`    {- miyriy -}           [ "state" ] ]
 
  |> "m y s" <| [
 
@@ -9875,7 +9884,7 @@ lexicon = listing "Lexicon's properties"
     -- >myAs   >amoyAs N       targets
     -- AmyAs   >amoyAs N       targets
 
-    FiCL                      `noun`    {- miys -}             [ "target", "targets" ]
+    FIL                       `noun`    {- miys -}             [ "target", "targets" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'amyAs N" ] -},
 
@@ -9887,12 +9896,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; miys_2
     -- mys     miys    N0      MEES (Middle East Economic Survey)
 
-    FiCL                      `noun`    {- miys -}             [ "MEES (Middle East Economic Survey)" ],
+    FIL                       `noun`    {- miys -}             [ "MEES (Middle East Economic Survey)" ],
 
     -- ;; miys_3
     -- mys     miys    N0      mess (communal table)
 
-    FiCL                      `noun`    {- miys -}             [ "mess (communal table)" ] ]
+    FIL                       `noun`    {- miys -}             [ "mess (communal table)" ] ]
 
  |> "m y t" <| [
 
@@ -9913,17 +9922,17 @@ lexicon = listing "Lexicon's properties"
     -- ;; miytap_1
     -- myt     miyt    Nap     death
 
-    FiCL |< aT                `noun`    {- miytap -}           [ "death" ],
+    FIL |< aT                 `noun`    {- miytap -}           [ "death" ],
 
     -- ;; mumiyt_1
     -- mmyt    mumiyt  N-ap    fatal;lethal;mortal     [[mumiyt/ADJ]]
 
-    MuFiCL                    `adj`     {- mumiyt -}           [ "fatal", "lethal", "mortal" ],
+    MuFIL                     `adj`     {- mumiyt -}           [ "fatal", "lethal", "mortal" ],
 
     -- ;; musotamiyt_1
     -- mstmyt  musotamiyt      Nall    death-defying;martyr     [[musotamiyt/ADJ]]
 
-    MustaFiCL                 `adj`     {- musotamiyt -}       [ "death-defying", "martyr" ] ]
+    MustaFIL                  `adj`     {- musotamiyt -}       [ "death-defying", "martyr" ] ]
 
  |> "m y y" <| [
 
@@ -9998,7 +10007,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; miyzap_1
     -- myz     miyz    NapAt   distinguishing feature;characteristic;advantage
 
-    FiCL |< aT                `noun`    {- miyzap -}           [ "distinguishing feature", "characteristic", "advantage" ],
+    FIL |< aT                 `noun`    {- miyzap -}           [ "distinguishing feature", "characteristic", "advantage" ],
 
     -- ;; >amoyaz_1
     -- >myz    >amoyaz Nel     preferable

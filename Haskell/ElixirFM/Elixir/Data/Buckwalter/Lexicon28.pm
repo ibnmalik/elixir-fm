@@ -197,6 +197,32 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'y w s y' => [
+    {
+      'types' => {
+        'yuwsuw' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'yuwsuw',
+      'form' => 'yuwsuw',
+      'lines' => [
+        ';; yuwsuw_1',
+        'ywsw    yuwsuw  Nprop   Jusso;Yusso'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDU',
+      'suffix' => '',
+      'glosses' => [
+        'Jusso',
+        'Yusso'
+      ],
+      'orig' => 'yuwsuw',
+      'prefix' => ''
+    }
+  ],
   'y w r w' => [
     {
       'types' => {
@@ -213,7 +239,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'KuRDuS',
+      'morphs' => 'KuRDU',
       'suffix' => '',
       'glosses' => [
         'Euro'
@@ -1855,8 +1881,7 @@ $Lexicon = {
       ],
       'patterns' => {
         'yuwd' => [
-          'FUL',
-          'FuCL'
+          'FUL'
         ],
         'yawwid' => [
           'FaCCiL'
@@ -3497,7 +3522,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'HiFCAL',
+      'morphs' => 'HICAL',
       'suffix' => '',
       'glosses' => [
         'awakening',
@@ -3547,7 +3572,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'IstiFCAL',
+      'morphs' => 'IstICAL',
       'suffix' => '',
       'glosses' => [
         'awakening',
@@ -4092,7 +4117,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MiFCAL',
+      'morphs' => 'MICAL',
       'suffix' => '',
       'glosses' => [
         'scepter',
@@ -5336,7 +5361,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'HiFCAL',
+      'morphs' => 'HICAL',
       'suffix' => '',
       'glosses' => [
         'ripening',
@@ -5982,7 +6007,7 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MiFCAL',
+      'morphs' => 'MICAL',
       'suffix' => '',
       'glosses' => [
         'credulous'
@@ -6174,26 +6199,16 @@ $Lexicon = {
   ],
   'y w s w' => [
     {
-      'types' => {
-        'yuwsuw' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'yuwsuw',
       'form' => 'yuwsuw',
-      'lines' => [
-        ';; yuwsuw_1',
-        'ywsw    yuwsuw  Nprop   Jusso;Yusso'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'KuRDuS',
+      'morphs' => 'KuRDU',
       'suffix' => '',
-      'glosses' => [
-        'Jusso',
-        'Yusso'
-      ],
+      'glosses' => [],
       'orig' => 'yuwsuw',
       'prefix' => ''
     }
@@ -6476,7 +6491,21 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCLAn',
+      'morphs' => 'FULAn',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'yuwnAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yuwnAn',
+      'form' => 'yuwnAn',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FULAn',
       'suffix' => '',
       'glosses' => [],
       'orig' => 'yuwnAn',
@@ -6490,7 +6519,21 @@ $Lexicon = {
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FuCLAn |< Iy',
+      'morphs' => 'FULAn |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'yuwnAniy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yuwnAn',
+      'form' => 'yuwnAniyy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FULAn |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [],
       'orig' => 'yuwnAniy~',
@@ -6700,6 +6743,20 @@ $Lexicon = {
         'Yo',
         'Yu'
       ],
+      'orig' => 'yuw',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'yuw',
+      'form' => 'yuw',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FU',
+      'suffix' => '',
+      'glosses' => [],
       'orig' => 'yuw',
       'prefix' => ''
     }
@@ -7368,6 +7425,9 @@ $Lexicon = {
 $Lexicon->{'y y y'}[1]{'types'} = $Lexicon->{'y y y'}[0]{'types'};
 $Lexicon->{'y y y'}[1]{'lines'} = $Lexicon->{'y y y'}[0]{'lines'};
 $Lexicon->{'y y y'}[1]{'glosses'} = $Lexicon->{'y y y'}[0]{'glosses'};
+$Lexicon->{'y w s w'}[0]{'types'} = $Lexicon->{'y w s y'}[0]{'types'};
+$Lexicon->{'y w s w'}[0]{'lines'} = $Lexicon->{'y w s y'}[0]{'lines'};
+$Lexicon->{'y w s w'}[0]{'glosses'} = $Lexicon->{'y w s y'}[0]{'glosses'};
 $Lexicon->{'y w n n'}[0]{'types'} = $Lexicon->{'y n n'}[1]{'types'};
 $Lexicon->{'y w n n'}[0]{'lines'} = $Lexicon->{'y n n'}[1]{'lines'};
 $Lexicon->{'y w n n'}[0]{'glosses'} = $Lexicon->{'y n n'}[1]{'glosses'};
@@ -7380,6 +7440,15 @@ $Lexicon->{'y w n ^s'}[0]{'glosses'} = $Lexicon->{'y n ^s'}[0]{'glosses'};
 $Lexicon->{'y w n'}[0]{'types'} = $Lexicon->{'y n n'}[1]{'types'};
 $Lexicon->{'y w n'}[0]{'lines'} = $Lexicon->{'y n n'}[1]{'lines'};
 $Lexicon->{'y w n'}[0]{'glosses'} = $Lexicon->{'y n n'}[1]{'glosses'};
-$Lexicon->{'y w n'}[1]{'types'} = $Lexicon->{'y n n'}[2]{'types'};
-$Lexicon->{'y w n'}[1]{'lines'} = $Lexicon->{'y n n'}[2]{'lines'};
-$Lexicon->{'y w n'}[1]{'glosses'} = $Lexicon->{'y n n'}[2]{'glosses'};
+$Lexicon->{'y w n'}[1]{'types'} = $Lexicon->{'y n n'}[1]{'types'};
+$Lexicon->{'y w n'}[1]{'lines'} = $Lexicon->{'y n n'}[1]{'lines'};
+$Lexicon->{'y w n'}[1]{'glosses'} = $Lexicon->{'y n n'}[1]{'glosses'};
+$Lexicon->{'y w n'}[2]{'types'} = $Lexicon->{'y n n'}[2]{'types'};
+$Lexicon->{'y w n'}[2]{'lines'} = $Lexicon->{'y n n'}[2]{'lines'};
+$Lexicon->{'y w n'}[2]{'glosses'} = $Lexicon->{'y n n'}[2]{'glosses'};
+$Lexicon->{'y w n'}[3]{'types'} = $Lexicon->{'y n n'}[2]{'types'};
+$Lexicon->{'y w n'}[3]{'lines'} = $Lexicon->{'y n n'}[2]{'lines'};
+$Lexicon->{'y w n'}[3]{'glosses'} = $Lexicon->{'y n n'}[2]{'glosses'};
+$Lexicon->{'y w w'}[1]{'types'} = $Lexicon->{'y w w'}[0]{'types'};
+$Lexicon->{'y w w'}[1]{'lines'} = $Lexicon->{'y w w'}[0]{'lines'};
+$Lexicon->{'y w w'}[1]{'glosses'} = $Lexicon->{'y w w'}[0]{'glosses'};

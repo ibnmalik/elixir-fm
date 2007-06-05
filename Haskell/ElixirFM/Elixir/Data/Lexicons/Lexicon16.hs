@@ -257,11 +257,13 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t h w" <| [
 
-    FACI                      `noun`    {- TAhiy -}            [ "cook", "cooks" ] ]
+    FACI                      `noun`    {- TAhiy -}            [ "cook", "cooks" ]
+                              `plural`     FuCY |< aT ]
 
  |> ".t h y" <| [
 
-    FACI                      `noun`    {- TAhiy -}            [ "cook", "cooks" ] ]
+    FACI                      `noun`    {- TAhiy -}            [ "cook", "cooks" ]
+                              `plural`     FuCY |< aT ]
 
  |> ".t l `" <| [
 
@@ -634,7 +636,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t w b" <| [
 
-    FuCL                      `noun`    {- Tuwb -}             [ "bricks", "brick" ] ]
+    FUL                       `noun`    {- Tuwb -}             [ "bricks", "brick" ] ]
 
  |> ".t w b s" <| [
 
@@ -646,7 +648,7 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
-    FuCLAn                    `noun`    {- TuwfAn -}           [ "deluge", "flood", "typhoon" ],
+    FULAn                     `noun`    {- TuwfAn -}           [ "deluge", "flood", "typhoon" ],
 
     FA'iL                     `noun`    {- TA}if -}            [ "Ta'if (S.Ar.)" ],
 
@@ -673,7 +675,7 @@ lexicon = listing "Lexicon's properties"
 
     HaFAL                     `verb`    {- OaTAl -}            [ "lengthen", "be lengthened" ],
 
-    FuCL                      `noun`    {- Tuwl -}             [ "length", "height", "lengths", "heights" ]
+    FUL                       `noun`    {- Tuwl -}             [ "length", "height", "lengths", "heights" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.twAl N" ] -},
 
@@ -688,7 +690,7 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ ".tawiyl NF" ] -},
 
     HaFCaL                    `noun`    {- OaTowal -}          [ "taller/tallest", "longer/longest" ]
-                              `plural`     FuCLY
+                              `plural`     FULY
                            {- `others`  [ ".tuwlY N0" ] -},
 
     HiFAL |< aT               `noun`    {- IiTAlap -}          [ "lengthening", "prolongation" ],
@@ -701,7 +703,7 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t w m" <| [
 
-    FuCL                      `noun`    {- Tuwm -}             [ "Tom" ] ]
+    FUL                       `noun`    {- Tuwm -}             [ "Tom" ] ]
 
  |> ".t w q" <| [
 
@@ -785,11 +787,11 @@ lexicon = listing "Lexicon's properties"
 
  |> ".t y l" <| [
 
-    MustaFiCL                 `adj`     {- musotaTiyl -}       [ "rectangular", "prolonged", "presumptuous" ] ]
+    MustaFIL                  `adj`     {- musotaTiyl -}       [ "rectangular", "prolonged", "presumptuous" ] ]
 
  |> ".t y n" <| [
 
-    FiCL                      `noun`    {- Tiyn -}             [ "clay" ]
+    FIL                       `noun`    {- Tiyn -}             [ "clay" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.tyAn N" ] -} ]
 

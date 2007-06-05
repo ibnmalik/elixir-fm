@@ -289,7 +289,8 @@ lexicon = listing "Lexicon's properties"
     -- TgA     TugA    Nap     tyrants;oppressors
     -- TAgy    TAgiy   Napdu   tyrant;oppressor
 
-    FACI                      `noun`    {- TAgiy -}            [ "tyrant", "oppressor", "tyrants", "oppressors" ] ]
+    FACI                      `noun`    {- TAgiy -}            [ "tyrant", "oppressor", "tyrants", "oppressors" ]
+                              `plural`     FuCY |< aT ]
 
  |> ".t .g y" <| [
 
@@ -307,7 +308,8 @@ lexicon = listing "Lexicon's properties"
     -- TgA     TugA    Nap     tyrants;oppressors
     -- TAgy    TAgiy   Napdu   tyrant;oppressor
 
-    FACI                      `noun`    {- TAgiy -}            [ "tyrant", "oppressor", "tyrants", "oppressors" ] ]
+    FACI                      `noun`    {- TAgiy -}            [ "tyrant", "oppressor", "tyrants", "oppressors" ]
+                              `plural`     FuCY |< aT ]
 
  |> ".t .g y n" <| [
 
@@ -1387,7 +1389,6 @@ lexicon = listing "Lexicon's properties"
     -- TwAb    TawAb   NK      fortresses;castles
 
     FACI |< aT                `noun`    {- TAbiyap -}          [ "fortress", "castle", "fortresses", "castles" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ ".tawAbiy N0_Nh" ] -} ]
 
@@ -1798,7 +1799,6 @@ lexicon = listing "Lexicon's properties"
     -- TwAf    TawAf   NK      buoys;beacons
 
     FACI |< aT                `noun`    {- TAfiyap -}          [ "buoy", "beacon", "buoys", "beacons" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ ".tawAfiy N0_Nh" ] -} ]
 
@@ -1993,7 +1993,8 @@ lexicon = listing "Lexicon's properties"
     -- TAhy    TAhiy   NapAt   cook
     -- ThA     TuhA    Nap     cooks
 
-    FACI                      `noun`    {- TAhiy -}            [ "cook", "cooks" ],
+    FACI                      `noun`    {- TAhiy -}            [ "cook", "cooks" ]
+                              `plural`     FuCY |< aT,
 
     -- ;; maTohiy~_1
     -- mThy    maTohiy~        N-ap    cooked     [[maTohiy~/ADJ]]
@@ -2020,7 +2021,8 @@ lexicon = listing "Lexicon's properties"
     -- TAhy    TAhiy   NapAt   cook
     -- ThA     TuhA    Nap     cooks
 
-    FACI                      `noun`    {- TAhiy -}            [ "cook", "cooks" ] ]
+    FACI                      `noun`    {- TAhiy -}            [ "cook", "cooks" ]
+                              `plural`     FuCY |< aT ]
 
  |> ".t l '" <| [
 
@@ -3490,7 +3492,6 @@ lexicon = listing "Lexicon's properties"
     -- TwAq    TawAq   NK      skullcaps;forage caps
 
     FACI |< aT                `noun`    {- TAqiyap -}          [ "skullcap", "forage cap", "skullcaps", "forage caps" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ ".tawAqiy N0_Nh" ] -} ]
 
@@ -4969,12 +4970,12 @@ lexicon = listing "Lexicon's properties"
     -- Twb     Tuwb    N       bricks
     -- Twb     Tuwb    Napdu   brick
 
-    FuCL                      `noun`    {- Tuwb -}             [ "bricks", "brick" ],
+    FUL                       `noun`    {- Tuwb -}             [ "bricks", "brick" ],
 
     -- ;; Tuwbap_1
     -- Twbp    Tuwbap  N0      Tuba (5th Coptic month, Jan. 9-Feb. 7)
 
-    FuCL |< aT                `noun`    {- Tuwbap -}           [ "Tuba (5th Coptic month, Jan. 9-Feb. 7)" ],
+    FUL |< aT                 `noun`    {- Tuwbap -}           [ "Tuba (5th Coptic month, Jan. 9-Feb. 7)" ],
 
     -- ;; Taw~Ab_1
     -- TwAb    Taw~Ab  Nall    brick-maker
@@ -4990,7 +4991,7 @@ lexicon = listing "Lexicon's properties"
     -- TwbY    TuwbaY  N0      blessedness;beatitude
     -- TwbA    TuwbA   Nhy     blessedness;beatitude
 
-    FuCLY                     `noun`    {- TuwbaY -}           [ "blessedness", "beatitude" ] ]
+    FULY                      `noun`    {- TuwbaY -}           [ "blessedness", "beatitude" ] ]
 
  |> ".t w b '" <| [
 
@@ -5105,12 +5106,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; TuwfAn_1
     -- TwfAn   TuwfAn  N       deluge;flood;typhoon
 
-    FuCLAn                    `noun`    {- TuwfAn -}           [ "deluge", "flood", "typhoon" ],
+    FULAn                     `noun`    {- TuwfAn -}           [ "deluge", "flood", "typhoon" ],
 
     -- ;; TuwfAniy~_1
     -- TwfAny  TuwfAniy~       N-ap    torrential;diluvial     [[TuwfAniy~/ADJ]]
 
-    FuCLAn |< Iy              `adj`     {- TuwfAniy~ -}        [ "torrential", "diluvial" ],
+    FULAn |< Iy               `adj`     {- TuwfAniy~ -}        [ "torrential", "diluvial" ],
 
     -- ;; TAfap_1
     -- TAf     TAf     Nap     ambulant;itinerant
@@ -5228,19 +5229,19 @@ lexicon = listing "Lexicon's properties"
     -- >TwAl   >aTowAl N       lengths;heights
     -- ATwAl   >aTowAl N       lengths;heights
 
-    FuCL                      `noun`    {- Tuwl -}             [ "length", "height", "lengths", "heights" ]
+    FUL                       `noun`    {- Tuwl -}             [ "length", "height", "lengths", "heights" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.twAl N" ] -},
 
     -- ;; Tuwliy~_1
     -- Twly    Tuwliy~ N-ap    linear;longitudinal     [[Tuwliy~/ADJ]]
 
-    FuCL |< Iy                `adj`     {- Tuwliy~ -}          [ "linear", "longitudinal" ],
+    FUL |< Iy                 `adj`     {- Tuwliy~ -}          [ "linear", "longitudinal" ],
 
     -- ;; TuwlAniy~_1
     -- TwlAny  TuwlAniy~       N-ap    longitudinal;lengthwise     [[TuwlAniy~/ADJ]]
 
-    FuCLAn |< Iy              `adj`     {- TuwlAniy~ -}        [ "longitudinal", "lengthwise" ],
+    FULAn |< Iy               `adj`     {- TuwlAniy~ -}        [ "longitudinal", "lengthwise" ],
 
     -- ;; Tawiyl_1
     -- Twyl    Tawiyl  N/ap    tall;long     [[Tawiyl/ADJ]]
@@ -5275,7 +5276,7 @@ lexicon = listing "Lexicon's properties"
     -- Twly    Tuwlay  NAt     taller/tallest;longer/longest
 
     HaFCaL                    `noun`    {- OaTowal -}          [ "taller/tallest", "longer/longest" ]
-                              `plural`     FuCLY
+                              `plural`     FULY
                            {- `others`  [ ".tuwlY N0" ] -},
 
     -- ;; taTowiyl_1
@@ -5334,14 +5335,14 @@ lexicon = listing "Lexicon's properties"
     -- ;; Tuwm_1
     -- Twm     Tuwm    Nprop   Tom
 
-    FuCL                      `noun`    {- Tuwm -}             [ "Tom" ] ]
+    FUL                       `noun`    {- Tuwm -}             [ "Tom" ] ]
 
  |> ".t w n" <| [
 
     -- ;; Tuwnap_1
     -- Twn     Tuwn    Nap     Danube
 
-    FuCL |< aT                `noun`    {- Tuwnap -}           [ "Danube" ] ]
+    FUL |< aT                 `noun`    {- Tuwnap -}           [ "Danube" ] ]
 
  |> ".t w q" <| [
 
@@ -5383,7 +5384,9 @@ lexicon = listing "Lexicon's properties"
     -- TAq     TAq     NduAt   arch
     -- TyqAn   TiyqAn  N       arches
 
-    FAL                       `noun`    {- TAq -}              [ "arch", "arches" ],
+    FAL                       `noun`    {- TAq -}              [ "arch", "arches" ]
+                              `plural`     FILAn
+                           {- `others`  [ ".tiyqAn N" ] -},
 
     -- ;; TAq_2
     -- TAq     TAq     NduAt   layer;stratum
@@ -5579,7 +5582,7 @@ lexicon = listing "Lexicon's properties"
     -- TwAyA   TawAyA  N0_Nhy  intentions;convictions
     -- TwAyA   TawAyA  N0_Nhy  interior;insides (of)
 
-    FY |< Iy |< aT            `noun`    {- Tawiy~ap -}         [ "intention", "conviction", "intentions", "convictions", "interior", "insides (of)" ],
+    FaCIL |< aT               `noun`    {- Tawiy~ap -}         [ "intention", "conviction", "intentions", "convictions", "interior", "insides (of)" ],
 
     -- ;; Tiy~ap_1
     -- Ty      Tiy~    Nap     intention;design
@@ -5595,7 +5598,6 @@ lexicon = listing "Lexicon's properties"
 
     MaFCY                     `noun`    {- maTowaY -}          [ "pocket knife", "pleat", "pocket knives", "pleats", "inside", "within" ]
                               `plural`     MaFCaL
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "ma.tway NAn_Nayn", "ma.tAwiy N0_Nh" ] -},
 
@@ -5733,7 +5735,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; muTiyE_1
     -- mTyE    muTiyE  Nall    obedient;disciplined     [[muTiyE/ADJ]]
 
-    MuFiCL                    `adj`     {- muTiyE -}           [ "obedient", "disciplined" ] ]
+    MuFIL                     `adj`     {- muTiyE -}           [ "obedient", "disciplined" ] ]
 
  |> ".t y b" <| [
 
@@ -5800,7 +5802,7 @@ lexicon = listing "Lexicon's properties"
     -- >TyAb   >aToyAb N       noble;good
     -- ATyAb   >aToyAb N       noble;good
 
-    FiCL                      `noun`    {- Tiyb -}             [ "noble", "good" ]
+    FIL                       `noun`    {- Tiyb -}             [ "noble", "good" ]
                               `plural`     HaFCAL
                               `plural`     FuCUL
                            {- `others`  [ "'a.tyAb N", ".tuyuwb N" ] -},
@@ -5808,12 +5810,12 @@ lexicon = listing "Lexicon's properties"
     -- ;; Tiybiy~_1
     -- Tyby    Tiybiy~ N-ap    aromatic     [[Tiybiy~/ADJ]]
 
-    FiCL |< Iy                `adj`     {- Tiybiy~ -}          [ "aromatic" ],
+    FIL |< Iy                 `adj`     {- Tiybiy~ -}          [ "aromatic" ],
 
     -- ;; Tiybiy~_2
     -- Tyby    Tiybiy~ N0      Tibi
 
-    FiCL |< Iy                `adj`     {- Tiybiy~ -}          [ "Tibi" ],
+    FIL |< Iy                 `adj`     {- Tiybiy~ -}          [ "Tibi" ],
 
     -- ;; Tay~ib_1
     -- Tyb     Tay~ib  Nall    good;pleasant     [[Tay~ib/ADJ]]
@@ -5834,7 +5836,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Tiybap_1
     -- Tyb     Tiyb    Nap     good nature;goodness
 
-    FiCL |< aT                `noun`    {- Tiybap -}           [ "good nature", "goodness" ],
+    FIL |< aT                 `noun`    {- Tiybap -}           [ "good nature", "goodness" ],
 
     -- ;; Tay~Ab_1
     -- TyAb    Tay~Ab  Nall    masseur
@@ -5884,7 +5886,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Tiybap_2
     -- Tybp    Tiybap  N0      Thebes
 
-    FiCL |< aT                `noun`    {- Tiybap -}           [ "Thebes" ] ]
+    FIL |< aT                 `noun`    {- Tiybap -}           [ "Thebes" ] ]
 
  |> ".t y b _h" <| [
 
@@ -5946,7 +5948,7 @@ lexicon = listing "Lexicon's properties"
     -- mstTyl  musotaTiyl      Nall    prolonged     [[musotaTiyl/ADJ]]
     -- mstTyl  musotaTiyl      Nall    presumptuous     [[musotaTiyl/ADJ]]
 
-    MustaFiCL                 `adj`     {- musotaTiyl -}       [ "rectangular", "prolonged", "presumptuous" ] ]
+    MustaFIL                  `adj`     {- musotaTiyl -}       [ "rectangular", "prolonged", "presumptuous" ] ]
 
  |> ".t y n" <| [
 
@@ -5961,19 +5963,19 @@ lexicon = listing "Lexicon's properties"
     -- >TyAn   >aToyAn N       clay
     -- ATyAn   >aToyAn N       clay
 
-    FiCL                      `noun`    {- Tiyn -}             [ "clay" ]
+    FIL                       `noun`    {- Tiyn -}             [ "clay" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a.tyAn N" ] -},
 
     -- ;; Tiynap_1
     -- Tyn     Tiyn    Nap     potter's clay
 
-    FiCL |< aT                `noun`    {- Tiynap -}           [ "potter's clay" ],
+    FIL |< aT                 `noun`    {- Tiynap -}           [ "potter's clay" ],
 
     -- ;; Tiyniy~_1
     -- Tyny    Tiyniy~ N-ap    clay-like     [[Tiyniy~/ADJ]]
 
-    FiCL |< Iy                `adj`     {- Tiyniy~ -}          [ "clay-like" ] ]
+    FIL |< Iy                 `adj`     {- Tiyniy~ -}          [ "clay-like" ] ]
 
  |> ".t y r" <| [
 
@@ -6044,7 +6046,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Tiyrap_1
     -- Tyr     Tiyr    Nap     evil omen
 
-    FiCL |< aT                `noun`    {- Tiyrap -}           [ "evil omen" ],
+    FIL |< aT                 `noun`    {- Tiyrap -}           [ "evil omen" ],
 
     -- ;; Tay~Ar_1
     -- TyAr    Tay~Ar  Nall    aviator;pilot;flyer
@@ -6094,7 +6096,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; musotaTiyr_1
     -- mstTyr  musotaTiyr      N-ap    imminent;scattered     [[musotaTiyr/ADJ]]
 
-    MustaFiCL                 `adj`     {- musotaTiyr -}       [ "imminent", "scattered" ],
+    MustaFIL                  `adj`     {- musotaTiyr -}       [ "imminent", "scattered" ],
 
     -- ;; {isotiTArap_1
     -- <stTAr  {isotiTAr       Nap     being terrified
@@ -6136,7 +6138,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; Tiy~ap_1
     -- Ty      Tiy~    Nap     intention;design
 
-    FiCL |< aT                `noun`    {- Tiy~ap -}           [ "intention", "design" ] ]
+    FIL |< aT                 `noun`    {- Tiy~ap -}           [ "intention", "design" ] ]
 
  |> ".t z ^g" <| [
 

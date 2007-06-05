@@ -116,7 +116,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; miyHAr_1
     -- myHAr   miyHAr  Ndu     scepter;mallet
 
-    MiFCAL                    `noun`    {- miyHAr -}           [ "scepter", "mallet" ] ]
+    MICAL                     `noun`    {- miyHAr -}           [ "scepter", "mallet" ] ]
 
  |> "y .h y" <| [
 
@@ -652,7 +652,7 @@ lexicon = listing "Lexicon's properties"
     -- <ynAE   <iynAE  N/At    ripening;mellowing
     -- AynAE   <iynAE  N/At    ripening;mellowing
 
-    HiFCAL                    `noun`    {- IiynAE -}           [ "ripening", "mellowing" ],
+    HICAL                     `noun`    {- IiynAE -}           [ "ripening", "mellowing" ],
 
     -- ;; yAniE_1
     -- yAnE    yAniE   N/ap    ripe;mellow     [[yAniE/ADJ]]
@@ -775,7 +775,7 @@ lexicon = listing "Lexicon's properties"
     -- <yqAZ   <iyqAZ  N/At    awakening;reveille
     -- AyqAZ   <iyqAZ  N/At    awakening;reveille
 
-    HiFCAL                    `noun`    {- IiyqAZ -}           [ "awakening", "reveille" ],
+    HICAL                     `noun`    {- IiyqAZ -}           [ "awakening", "reveille" ],
 
     -- ;; tayaq~uZ_1
     -- tyqZ    tayaq~uZ        N/At    awakening;alertness;vigilance
@@ -786,7 +786,7 @@ lexicon = listing "Lexicon's properties"
     -- <styqAZ {isotiyqAZ      NduAt   awakening;arousal
     -- AstyqAZ {isotiyqAZ      NduAt   awakening;arousal
 
-    IstiFCAL                  `noun`    {- AisotiyqAZ -}       [ "awakening", "arousal" ],
+    IstICAL                   `noun`    {- AisotiyqAZ -}       [ "awakening", "arousal" ],
 
     -- ;; mutayaq~iZ_1
     -- mtyqZ   mutayaq~iZ      Nall    awake;alert     [[mutayaq~iZ/ADJ]]
@@ -858,7 +858,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; miyqAn_1
     -- myqAn   miyqAn  Nall    credulous
 
-    MiFCAL                    `noun`    {- miyqAn -}           [ "credulous" ],
+    MICAL                     `noun`    {- miyqAn -}           [ "credulous" ],
 
     -- ;; mutayaq~in_1
     -- mtyqn   mutayaq~in      Nall    convinced;certain     [[mutayaq~in/ADJ]]
@@ -1331,13 +1331,24 @@ lexicon = listing "Lexicon's properties"
     -- ;; yuwnAn_1
     -- ywnAn   yuwnAn  N       Greece
 
-    FuCLAn                    `noun`    {- yuwnAn -}           [ "Greece" ],
+    FULAn                     `noun`    {- yuwnAn -}           [ "Greece" ],
+
+    -- ;; yuwnAn_1
+    -- ywnAn   yuwnAn  N       Greece
+
+    FULAn                     `noun`    {- yuwnAn -}           [ "Greece" ],
 
     -- ;; yuwnAniy~_1
     -- ywnAny  yuwnAniy~       Nall    Greek     [[yuwnAniy~/NOUN]]
     -- ywnAny  yuwnAniy~       Nall    Greek     [[yuwnAniy~/ADJ]]
 
-    FuCLAn |< Iy              `adj`     {- yuwnAniy~ -}        [ "Greek" ] ]
+    FULAn |< Iy               `adj`     {- yuwnAniy~ -}        [ "Greek" ],
+
+    -- ;; yuwnAniy~_1
+    -- ywnAny  yuwnAniy~       Nall    Greek     [[yuwnAniy~/NOUN]]
+    -- ywnAny  yuwnAniy~       Nall    Greek     [[yuwnAniy~/ADJ]]
+
+    FULAn |< Iy               `adj`     {- yuwnAniy~ -}        [ "Greek" ] ]
 
  |> "y w n ^s" <| [
 
@@ -1378,7 +1389,7 @@ lexicon = listing "Lexicon's properties"
     -- ;; yuwruw_1
     -- ywrw    yuwruw  N0      Euro
 
-    KuRDuS                    `noun`    {- yuwruw -}           [ "Euro" ] ]
+    KuRDU                     `noun`    {- yuwruw -}           [ "Euro" ] ]
 
  |> "y w s f" <| [
 
@@ -1392,9 +1403,21 @@ lexicon = listing "Lexicon's properties"
     -- ;; yuwsuw_1
     -- ywsw    yuwsuw  Nprop   Jusso;Yusso
 
-    KuRDuS                    `noun`    {- yuwsuw -}           [ "Jusso", "Yusso" ] ]
+    KuRDU                     `noun`    {- yuwsuw -}           [ "Jusso", "Yusso" ] ]
+
+ |> "y w s y" <| [
+
+    -- ;; yuwsuw_1
+    -- ywsw    yuwsuw  Nprop   Jusso;Yusso
+
+    KuRDU                     `noun`    {- yuwsuw -}           [ "Jusso", "Yusso" ] ]
 
  |> "y w w" <| [
+
+    -- ;; yuw_1
+    -- yw      yuw     Nprop   Yo;Yu
+
+    FU                        `noun`    {- yuw -}              [ "Yo", "Yu" ],
 
     -- ;; yuw_1
     -- yw      yuw     Nprop   Yo;Yu

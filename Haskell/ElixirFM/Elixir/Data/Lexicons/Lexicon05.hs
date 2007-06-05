@@ -561,7 +561,6 @@ lexicon = listing "Lexicon's properties"
     MaFACI                    `noun`    {- majAliy -}          [ "manifestations" ],
 
     FACI |< aT                `noun`    {- jAliyap -}          [ "expatriate community", "colony", "expatriate communities", "colonies" ]
-                              `plural`     FawACiL
                               `plural`     FawACI
                            {- `others`  [ "^gawAliy N0_Nh" ] -} ]
 
@@ -865,7 +864,8 @@ lexicon = listing "Lexicon's properties"
 
     FiCA' |< Iy               `adj`     {- jinA}iy~ -}         [ "criminal", "penal" ],
 
-    FACI                      `noun`    {- jAniy -}            [ "delinquent", "criminal", "delinquents", "criminals" ],
+    FACI                      `noun`    {- jAniy -}            [ "delinquent", "criminal", "delinquents", "criminals" ]
+                              `plural`     FuCY |< aT,
 
     MaFCIy                    `adj`     {- majoniy~ -}         [ "victimized", "aggrieved" ] ]
 
@@ -877,7 +877,8 @@ lexicon = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- jinAyap -}          [ "crime", "felony", "crimes", "felonies", "penal code" ]
                               `plural`     FiCAL |< At,
 
-    FACI                      `noun`    {- jAniy -}            [ "delinquent", "criminal", "delinquents", "criminals" ] ]
+    FACI                      `noun`    {- jAniy -}            [ "delinquent", "criminal", "delinquents", "criminals" ]
+                              `plural`     FuCY |< aT ]
 
  |> "^g n z" <| [
 
@@ -1053,7 +1054,6 @@ lexicon = listing "Lexicon's properties"
 
     MaFCY                     `noun`    {- majoraY -}          [ "course", "path", "courses", "paths" ]
                               `plural`     MaFCaL
-                              `plural`     MaFACiL
                               `plural`     MaFACI
                            {- `others`  [ "ma^gray NAn_Nayn", "ma^gAriy N0_Nh" ] -},
 
@@ -1066,12 +1066,10 @@ lexicon = listing "Lexicon's properties"
     HiFCA' |< Iy              `adj`     {- IijorA}iy~ -}       [ "operational" ],
 
     FACI |< aN                `noun`    {- jAriyAF -}          [ "occurring", "happening", "flowing" ]
-                              `plural`     FACiL
                               `plural`     FACI
                            {- `others`  [ "^gAriy NF" ] -},
 
     FACI |< aN                `noun`    {- jAriyAF -}          [ "occurring", "happening", "flowing" ]
-                              `plural`     FACiL
                               `plural`     FACI
                            {- `others`  [ "^gAriy NF" ] -},
 
@@ -1143,7 +1141,7 @@ lexicon = listing "Lexicon's properties"
 
  |> "^g w `" <| [
 
-    FuCL                      `noun`    {- juwE -}             [ "hunger", "starvation", "of hunger", "of starvation" ],
+    FUL                       `noun`    {- juwE -}             [ "hunger", "starvation", "of hunger", "of starvation" ],
 
     FA'iL                     `noun`    {- jA}iE -}            [ "hungry", "starving" ],
 
@@ -1240,15 +1238,19 @@ lexicon = listing "Lexicon's properties"
 
  |> "^g w l w" <| [
 
-    KuRDuS                    `noun`    {- juwluw -}           [ "Jolo" ] ]
+    KuRDU                     `noun`    {- juwluw -}           [ "Jolo" ] ]
+
+ |> "^g w l y" <| [
+
+    KuRDU                     `noun`    {- juwluw -}           [ "Jolo" ] ]
 
  |> "^g w n" <| [
 
-    FuCL                      `noun`    {- juwn -}             [ "inlet", "bay", "inlets", "bays" ]
+    FUL                       `noun`    {- juwn -}             [ "inlet", "bay", "inlets", "bays" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a^gwAn N" ] -},
 
-    FuCL                      `noun`    {- juwn -}             [ "John" ] ]
+    FUL                       `noun`    {- juwn -}             [ "John" ] ]
 
  |> "^g w q" <| [
 
@@ -1262,7 +1264,9 @@ lexicon = listing "Lexicon's properties"
                               `imperf`     FUL
                               `pfirst`     FuL,
 
-    FAL                       `noun`    {- jAr -}              [ "neighbor", "neighbors" ],
+    FAL                       `noun`    {- jAr -}              [ "neighbor", "neighbors" ]
+                              `plural`     FILAn
+                           {- `others`  [ "^giyrAn N" ] -},
 
     FiCAL                     `noun`    {- jiwAr -}            [ "near", "proximity", "next to" ],
 
@@ -1282,6 +1286,8 @@ lexicon = listing "Lexicon's properties"
                            {- `others`  [ "^giwA' Nh N0_Nh Nhy", "'a^gwA' Nh N0_Nh Nhy" ] -},
 
     FaCL |< Iy                `adj`     {- jaw~iy~ -}          [ "air", "aerial", "atmospheric" ],
+
+    FU                        `noun`    {- juw -}              [ "Joe" ],
 
     FU                        `noun`    {- juw -}              [ "Joe" ] ]
 
@@ -1370,33 +1376,35 @@ lexicon = listing "Lexicon's properties"
 
  |> "^g y h" <| [
 
-    FiCLAn                    `noun`    {- jiyhAn -}           [ "Jihan" ] ]
+    FILAn                     `noun`    {- jiyhAn -}           [ "Jihan" ] ]
 
  |> "^g y l" <| [
 
-    FiCL                      `noun`    {- jiyl -}             [ "generation", "epoch", "generations", "epochs" ]
+    FIL                       `noun`    {- jiyl -}             [ "generation", "epoch", "generations", "epochs" ]
                               `plural`     HaFCAL
                            {- `others`  [ "'a^gyAl N" ] -} ]
 
  |> "^g y m" <| [
 
-    FiCL                      `noun`    {- jiym -}             [ "jim (Arabic letter)" ] ]
+    FIL                       `noun`    {- jiym -}             [ "jim (Arabic letter)" ] ]
 
  |> "^g y m y" <| [
 
-    KiRDiS                    `noun`    {- jiymiy -}           [ "Jimmy" ] ]
+    KiRDI                     `noun`    {- jiymiy -}           [ "Jimmy" ],
+
+    KiRDI                     `noun`    {- jiymiy -}           [ "Jimmy" ] ]
 
  |> "^g y n" <| [
 
-    FiCL                      `noun`    {- jiyn -}             [ "gene", "genes" ],
+    FIL                       `noun`    {- jiyn -}             [ "gene", "genes" ],
 
-    FiCL                      `noun`    {- jiyn -}             [ "Gene", "Jean" ],
+    FIL                       `noun`    {- jiyn -}             [ "Gene", "Jean" ],
 
-    FiCL                      `noun`    {- jiyn -}             [ "Jeanne" ] ]
+    FIL                       `noun`    {- jiyn -}             [ "Jeanne" ] ]
 
  |> "^g y r" <| [
 
-    FiCL |< Iy                `adj`     {- jiyriy~ -}          [ "calcareous", "lime" ] ]
+    FIL |< Iy                 `adj`     {- jiyriy~ -}          [ "calcareous", "lime" ] ]
 
  |> "^g y r m" <| [
 
@@ -1406,9 +1414,9 @@ lexicon = listing "Lexicon's properties"
 
     IFtiCAL                   `noun`    {- AijotiyAz -}        [ "traversing", "overcoming" ],
 
-    FiCL |< aT                `noun`    {- jiyzap -}           [ "Giza" ],
+    FIL |< aT                 `noun`    {- jiyzap -}           [ "Giza" ],
 
-    FiCLAn |< Iy              `adj`     {- jiyzAniy~ -}        [ "Jizani" ] ]
+    FILAn |< Iy               `adj`     {- jiyzAniy~ -}        [ "Jizani" ] ]
 
  |> "^g z '" <| [
 
